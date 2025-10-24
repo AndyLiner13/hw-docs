@@ -1,0 +1,9 @@
+# ApiName Variable
+
+The name of the API.
+
+## Signature
+
+```typescript
+ApiName = "HorizonNpc"
+```
