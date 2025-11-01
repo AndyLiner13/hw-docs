@@ -287,6 +287,84 @@ this.connectCodeBlockEvent(
 );
 ```
 
+### 6. Local Events Cannot Communicate with Server Scripts
+
+**❌ CRITICAL: Local events do NOT work for server-to-client or client-to-server communication.**
+
+Local events (`this.connectLocalBroadcastEvent` / `this.sendLocalBroadcastEvent`) only work between scripts running in the **same execution context** (same client or same server). They **cannot** cross the network boundary.
+
+```typescript
+// ❌ INCORRECT - Local event from client to server won't work
+// In LOCAL script (client-side):
+export class MyLocalScript extends hz.Component<typeof MyLocalScript> {
+  static propsDefinition = {
+    myEvent: { type: hz.PropTypes.LocalEvent }
+  };
+  
+  start() {
+    // This will NOT reach server scripts!
+    this.sendLocalBroadcastEvent(this.props.myEvent, { data: "hello" });
+  }
+}
+
+// In SERVER script (server-side):
+export class MyServerScript extends hz.Component<typeof MyServerScript> {
+  static propsDefinition = {
+    myEvent: { type: hz.PropTypes.LocalEvent }
+  };
+  
+  start() {
+    // This will NEVER receive events from the client above!
+    this.connectLocalBroadcastEvent(this.props.myEvent, (data) => {
+      // Never runs!
+    });
+  }
+}
+```
+
+**✅ CORRECT: Use Network Events for cross-context communication:**
+
+```typescript
+// ✅ CORRECT - Network event from client to server
+// In LOCAL script (client-side):
+export class MyLocalScript extends hz.Component<typeof MyLocalScript> {
+  static propsDefinition = {
+    myNetworkEvent: { type: hz.PropTypes.NetworkEvent }
+  };
+  
+  start() {
+    // This WILL reach the server
+    this.sendNetworkEvent(this.props.myNetworkEvent, { data: "hello" });
+  }
+}
+
+// In SERVER script (server-side):
+export class MyServerScript extends hz.Component<typeof MyServerScript> {
+  static propsDefinition = {
+    myNetworkEvent: { type: hz.PropTypes.NetworkEvent }
+  };
+  
+  start() {
+    // This WILL receive events from clients
+    this.connectNetworkEvent(this.props.myNetworkEvent, (data, sender) => {
+      console.log(`Received from ${sender.name.get()}: ${data.data}`);
+    });
+  }
+}
+```
+
+**When to use each event type:**
+
+| Event Type | Use Case | Example |
+|------------|----------|---------|
+| **LocalEvent** | Communication between scripts in the **same context** (all client-side OR all server-side) | Multiple UI components communicating, or multiple server managers coordinating |
+| **NetworkEvent** | Communication **across contexts** (client ↔ server) | Client sending player input to server, server broadcasting game state to clients |
+
+**Key Rules:**
+- 🔴 **Local events** = Same execution context only (client-to-client OR server-to-server)
+- 🔵 **Network events** = Cross-context communication (client ↔ server)
+- ⚠️ Using local events for server/client communication will **silently fail** - no errors, events just won't arrive
+
 ---
 
 ## 📋 Best Practices Checklist
