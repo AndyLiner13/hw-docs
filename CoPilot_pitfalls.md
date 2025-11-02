@@ -182,7 +182,52 @@ Horizon Worlds uses a **file-backed scripts (FBS)** system:
 
 ## 🎯 Common Scripting Pitfalls
 
-### 1. Execution Mode Configuration
+### 1. setTimeout/setInterval Not Supported
+
+**❌ CRITICAL: Horizon Worlds does NOT support standard JavaScript `setTimeout` or `setInterval`.**
+
+```typescript
+// ❌ INCORRECT - setTimeout doesn't exist in Horizon Worlds
+setTimeout(() => {
+  console.log("This will never run!");
+}, 1000);
+
+// ❌ INCORRECT - setInterval doesn't exist in Horizon Worlds
+setInterval(() => {
+  console.log("This will never run!");
+}, 1000);
+
+// ✅ CORRECT - Use this.async.setTimeout from hz.Component
+export class MyScript extends hz.Component<typeof MyScript> {
+  start() {
+    this.async.setTimeout(() => {
+      console.log("This works!");
+    }, 1000);
+  }
+}
+
+// ✅ CORRECT - Use this.async.setInterval from hz.Component
+export class MyScript extends hz.Component<typeof MyScript> {
+  start() {
+    const intervalId = this.async.setInterval(() => {
+      console.log("This works!");
+    }, 1000);
+    
+    // Clear the interval when needed
+    this.async.clearInterval(intervalId);
+  }
+}
+```
+
+**Why:** Horizon Worlds uses a custom async system (`this.async`) that integrates with the game engine's lifecycle. Standard JavaScript timers don't exist in this environment.
+
+**Available Async Methods:**
+- `this.async.setTimeout(callback, delayMs)` - Run callback after delay
+- `this.async.setInterval(callback, intervalMs)` - Run callback repeatedly
+- `this.async.clearInterval(intervalId)` - Stop an interval
+- `this.async.clearTimeout(timeoutId)` - Cancel a timeout (if needed)
+
+### 2. Execution Mode Configuration
 
 **Always specify execution mode correctly:**
 
@@ -221,7 +266,7 @@ export class MyLocalScript extends hz.Component<typeof MyLocalScript> {
 - Options: "Default" (server), "Local" (client)
 - Incorrect mode = script won't work as expected
 
-### 2. Network Event Serialization
+### 3. Network Event Serialization
 
 **Network events require SerializableState types:**
 
@@ -236,7 +281,7 @@ this.sendNetworkEvent(this.myEvent, { value: 123 } as MyPayload);
 this.sendNetworkEvent(this.myEvent, { value: 123 });
 ```
 
-### 3. Persistence with Player Variables
+### 4. Persistence with Player Variables
 
 **Player variables only accept primitive types and JSON strings:**
 
@@ -255,7 +300,7 @@ if (typeof jsonString === "string") {
 }
 ```
 
-### 4. Custom UI Import Errors
+### 5. Custom UI Import Errors
 
 **Use correct Custom UI component names:**
 
