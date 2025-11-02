@@ -365,6 +365,112 @@ export class MyServerScript extends hz.Component<typeof MyServerScript> {
 - 🔵 **Network events** = Cross-context communication (client ↔ server)
 - ⚠️ Using local events for server/client communication will **silently fail** - no errors, events just won't arrive
 
+### 7. Binding RPC Cache Accumulation in Custom UI
+
+**❌ CRITICAL: Bindings accumulate internal state over time, causing RPC size errors after multiple games.**
+
+Custom UI Bindings maintain an internal key-value store that is sent in EVERY RPC call. This store grows with each `.set()` call and never clears automatically, eventually exceeding the 65KB RPC limit.
+
+```typescript
+// ❌ INCORRECT - Attempting to recreate bindings (breaks UI references)
+class MyHUDComponent extends UIComponent {
+  private myBinding = new Binding("initial value");
+  
+  initializeUI() {
+    return Text({ text: this.myBinding });
+  }
+  
+  onReturnToLobby() {
+    // This breaks the UI! The Text component still references the OLD binding
+    this.myBinding = new Binding("reset value");
+  }
+}
+
+// ❌ INCORRECT - Just calling .set() doesn't clear internal state
+class MyHUDComponent extends UIComponent {
+  private myBinding = new Binding("initial value");
+  
+  onReturnToLobby() {
+    // This doesn't clear the accumulated RPC cache
+    this.myBinding.set("reset value");
+  }
+}
+
+// ✅ CORRECT - Toggle entity visibility to force reinitialization
+class UIManager extends hz.Component<typeof UIManager> {
+  reinitializePlayerUI(player: hz.Player) {
+    const uiBundle = this.getPlayerUIBundle(player);
+    
+    // Hide the UI entity
+    uiBundle.visible.set(false);
+    this.setChildrenVisibility(uiBundle, false);
+    
+    // Wait for engine to process visibility change
+    this.async.setTimeout(() => {
+      // Show the UI entity (triggers initializeUI() again)
+      uiBundle.visible.set(true);
+      this.setChildrenVisibility(uiBundle, true);
+      // All Bindings are now fresh with empty RPC caches
+    }, 100);
+  }
+  
+  private setChildrenVisibility(parent: hz.Entity, visible: boolean) {
+    const children = parent.children.get();
+    for (const child of children) {
+      child.visible.set(visible);
+      this.setChildrenVisibility(child, visible);
+    }
+  }
+}
+```
+
+**Why:** From the Custom UI Optimization docs: *"On the local client, a binding set operation passes the entire key-value store to ReactVR. So the bigger this gets, the greater the CPU cost to perform a single binding set."*
+
+When you call `Binding.set()`, the binding adds the new value to its internal key-value store but never removes old values. After multiple games with hundreds of binding updates, this store exceeds the 65KB RPC limit, causing errors like:
+
+```
+Error: Exception encountered running bridge method 'SetUIBinding': 
+Cannot send RPC of size 66348 because length is greater than 65280
+```
+
+**Why recreating bindings doesn't work:**
+When you call `initializeUI()`, it returns a UI tree with references to your Binding instances. If you later create new Binding instances and assign them to your class fields, the UI tree still references the OLD bindings. Calling `.set()` on the new bindings won't update the UI because the UI isn't listening to them.
+
+**Why toggling visibility works:**
+When a UI entity's visibility is set to `false` and then back to `true`, the Horizon engine:
+1. Disposes the UI component (calls `dispose()` if implemented)
+2. Calls `initializeUI()` again to rebuild the UI tree
+3. Creates fresh Binding instances with empty key-value stores
+4. Establishes new connections between the UI and the new bindings
+
+**Common Symptoms:**
+- RPC size errors after 2-3 rounds of gameplay
+- Error mentions "SetUIBinding" or "UpdateBinding"
+- Errors occur in multiple UI components simultaneously
+- UI works fine initially but breaks after playing several rounds
+
+**When to Reinitialize:**
+- After each game round when returning to lobby
+- When switching between major game states
+- After extended gameplay sessions (every 5-10 rounds as preventive measure)
+
+**Best Practice:**
+Implement centralized UI reinitialization in your UI Manager that:
+1. Listens to game state events (like `returnedToLobby`)
+2. Manages all player UI bundles
+3. Toggles visibility for the entire UI bundle hierarchy
+4. Does this for all players simultaneously
+
+**Performance Note:**
+Toggling visibility has minimal performance impact:
+- Happens once per round (not per frame)
+- Only affects UI entities (not game objects)
+- Much cheaper than dealing with RPC errors and broken UI
+
+**Related Documentation:**
+- `hw-docs/CustomUI_Cheat_Sheet/Custom_UI_optimization.md` - Binding performance guidance
+- `hw-docs/CustomUI_Cheat_Sheet/Building_dynamic_custom_UI.md` - Binding usage patterns
+
 ---
 
 ## 📋 Best Practices Checklist
@@ -381,6 +487,7 @@ Before finalizing any Horizon Worlds script, verify:
 - [ ] ✅ Persistence uses JSON.stringify/JSON.parse for complex data
 - [ ] ✅ Custom UI uses correct component names (View, Pressable, Text, Image)
 - [ ] ✅ Only using event types that exist in the Horizon SDK
+- [ ] ✅ UI components reinitialize via visibility toggle (not binding recreation) to clear RPC cache
 
 ---
 
