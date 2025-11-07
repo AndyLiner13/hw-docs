@@ -300,6 +300,79 @@ if (typeof jsonString === "string") {
 }
 ```
 
+### 4a. Player Persistent Variable Keys Are Case-Sensitive
+
+**❌ CRITICAL: PPV keys are case-sensitive and must EXACTLY match the configuration in Horizon Worlds.**
+
+Player Persistent Variables (PPVs) must be configured in the Horizon Worlds editor before they can be used. The key names used in code must match the configured names **exactly**, including capitalization.
+
+```typescript
+// Assume you configured a PPV in Horizon Worlds as: "inventory:inventory"
+
+// ❌ INCORRECT - Wrong capitalization (will create empty/null PPV)
+world.persistentStorage.setPlayerVariable(player, "inventory:Inventory", jsonString);
+world.persistentStorage.setPlayerVariable(player, "Inventory:inventory", jsonString);
+world.persistentStorage.setPlayerVariable(player, "player:Inventory", jsonString);
+
+// ✅ CORRECT - Exact match to configured key
+world.persistentStorage.setPlayerVariable(player, "inventory:inventory", jsonString);
+```
+
+**Why:** The Horizon Worlds PPV system uses exact string matching for keys. If the key in your code doesn't exactly match a configured PPV key:
+- `setPlayerVariable()` will silently succeed but not persist data
+- `getPlayerVariable()` will return `null` or empty value
+- No error messages are generated
+- Data appears to save but is lost on rejoin
+
+**Common Symptoms:**
+- Data saves successfully during session but disappears on rejoin
+- `getPlayerVariable()` returns `null` even after `setPlayerVariable()`
+- Inconsistent data persistence (works for some keys, not others)
+- Logs show "PPV exists: NO" when expecting "PPV exists: YES"
+
+**How to Prevent:**
+1. **Document your PPV keys** in code comments with exact capitalization:
+   ```typescript
+   // PPV Key Configuration (must match Horizon Worlds settings):
+   // - "economy:Candy" (Number, default: 0)
+   // - "inventory:inventory" (String, default: null)
+   // - "player:preferences" (String, default: null)
+   ```
+
+2. **Use constants** to avoid typos:
+   ```typescript
+   const PPV_INVENTORY = "inventory:inventory";
+   world.persistentStorage.setPlayerVariable(player, PPV_INVENTORY, jsonString);
+   world.persistentStorage.getPlayerVariable(player, PPV_INVENTORY);
+   ```
+
+3. **Check your code against documentation** - If your README says `"inventory:inventory"` but code uses `"player:Inventory"`, fix it immediately
+
+4. **Test PPV persistence** - After implementing PPVs, always test:
+   - Save data
+   - Leave world
+   - Rejoin world
+   - Verify data persists
+
+**Real Example:**
+In `manager_inventory.ts`, the README documented the PPV key as `"inventory:inventory"`, but the initial code used `"player:Inventory"`. This caused all inventory data to be lost on rejoin because the keys didn't match:
+
+```typescript
+// ❌ Code used wrong key (didn't match world configuration)
+const ppvValue = world.persistentStorage.getPlayerVariable(player, "player:Inventory");
+
+// ✅ Fixed to match configured key
+const ppvValue = world.persistentStorage.getPlayerVariable(player, "inventory:inventory");
+```
+
+**Horizon Worlds PPV Configuration:**
+PPVs must be configured in the world settings before use. Each PPV needs:
+- **Key name** (e.g., "inventory:inventory") - must match code exactly
+- **Data type** (Number, String, Boolean)
+- **Default value** (what new players get)
+
+Without proper configuration, PPVs won't persist even if the code is correct.
+
 ### 5. Custom UI Import Errors
 
 **Use correct Custom UI component names:**
@@ -530,6 +603,8 @@ Before finalizing any Horizon Worlds script, verify:
 - [ ] ✅ Script owner is logged for debugging
 - [ ] ✅ Network events use inline object types (not interfaces)
 - [ ] ✅ Persistence uses JSON.stringify/JSON.parse for complex data
+- [ ] ✅ **PPV keys in code exactly match configured keys in Horizon Worlds (case-sensitive)**
+- [ ] ✅ **PPV persistence tested by saving, leaving, rejoining, and verifying data**
 - [ ] ✅ Custom UI uses correct component names (View, Pressable, Text, Image)
 - [ ] ✅ Only using event types that exist in the Horizon SDK
 - [ ] ✅ UI components reinitialize via visibility toggle (not binding recreation) to clear RPC cache
