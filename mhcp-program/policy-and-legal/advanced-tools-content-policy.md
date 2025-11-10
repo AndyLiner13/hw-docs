@@ -1,0 +1,13 @@
+Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/policy-and-legal/advanced-tools-content-policy
+
+# Policy Update: Sharing Advanced Tools Educational Content
+
+Advanced tools are essential to efficiently developing innovative, immersive worlds and experiences. While access to these tools remains exclusive to MHCP members, we now invite you to create and share educational content about advanced tools with creators who are not program members. This means that you are free to create videos and write tutorials about MHCP’s advanced tools, including Desktop Editor, TypeScript, Custom Model Import, NPCs, Performance Tooling, and Generative AI, and post them wherever you like.
+
+The purpose of this policy change is to empower you to share your enthusiasm, creativity, and knowledge with the wider creator community to demonstrate what’s possible in Meta Horizon Worlds. The resources you create will inspire and inform future members, and help them be ready to utilize these powerful tools as soon as they’ve joined MHCP.
+
+Please continue to respect the MHCP Program Terms by not sharing any non-public or confidential information, such as the bonus program, with anyone outside of MHCP. Please let us know if you have any questions, and for full details about the MHCP confidentiality requirements, see Section 7 of the [Meta Horizon Creator Program Terms](/horizon-worlds/learn/documentation/mhcp-program/policy-and-legal/meta-horizon-creator-program-terms), which provides in part:
+
+> Your inclusion and participation in the Creator Program is subject to strict confidentiality requirements. Absent Meta’s prior written consent, you agree to keep strictly confidential, and you will not disclose, any non-public or confidential information that is shared, provided, or otherwise disclosed to you in connection with, or as a result of, your participation in the Creator Program or any Offering, including the content of any non-public Meta terms, policies or guidelines and the content of any communications between you and Meta (“Confidential Information”). You hereby agree that all technical and non-technical materials and information concerning or related to Meta’s products, services, materials, online properties (including the discovery, invention, research, improvement, development, marketing, or sale of any of the foregoing), financial data and models, business and marketing plans, and any information related to the foregoing, as well as any materials or information disclosed or to which you have access in connection with your participation in the Creator Program, shall, without limitation, constitute Confidential Information.
+
+ON THIS PAGE

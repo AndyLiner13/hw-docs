@@ -1,0 +1,58 @@
+Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/holster-icon-menu
+
+# Holster Icon Menu
+
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558307674_833836069154346_721373876289883470_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=NNhStjrKqp4Q7kNvwEkH0Cn&_nc_oc=AdlWdP-CX8WLujglgH7xvySmN8SaK0cdriodE27Y_Km8FF1nT6gS3lsfnNPHJVRi6Wg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YANF1P1QDyreY4kz8GRpgw&oh=00_AfgZNhnOcvDXZPV6Iet_aMQnMXRiwyVfAunLcW7dgj-XTQ&oe=692BF8E9)
+
+The holster icon menu is a menu of UI icons representing items attached to a player’s avatar. Players can use these icons to switch between and equip items. These icons show items that are grabbable entities attached to the player.
+
+**Note**: The holster button to open the holster icon menu will appear if a player has more than one grabbable entity attached.
+
+## Attaching a grabbable entity to a player
+
+For an item to appear in the holster icon menu when it is not equipped you must attach that grabbable entity to the player:
+
+```vs
+this.entity
+  .as(hz.AttachableEntity)
+  .attachToPlayer(player, AttachablePlayerAnchor.Torso);
+```
+
+You can combine attaching the entity with a primary input action API so the player can control the attachment process:
+
+```vs
+this.connectCodeBlockEvent(
+  this.entity,
+  CodeBlockEvents.OnIndexTriggerUp,
+  (player: Player) => {
+    this.entity
+      .as(hz.AttachableEntity)
+      .attachToPlayer(player, AttachablePlayerAnchor.Torso);
+  },
+);
+```
+
+## Configure how an entity appears in the holster icon menu
+
+You can configure how a grabbable entity will show up in the holster icon menu by setting the **Holster Icon** property in the entity properties panel:
+
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452586781_512510717953551_1463442642763553743_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=tOulEWgjirkQ7kNvwE3m91s&_nc_oc=AdkKwqdCN_yLFJdRQmHOLIyA8Z-isID5-KHzXCTFCzaGc8dHYADICRLpUfZo2qQmOnc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YANF1P1QDyreY4kz8GRpgw&oh=00_AfgFSWXah9aZL4VAzlXHxzlO7Q-lbMo4Drfp7wm3TYEenA&oe=692BF092)
+
+* **Default value:** If you don’t specify a value, the holster icon will show the default slot number. ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452718392_512510654620224_8780972206080984700_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=36YU7DW0AJ4Q7kNvwFRGONM&_nc_oc=AdmBBbb6uY7Iwz6LNKNcTD1i-06Lqcoqrq1GfhOleXWLryu4GtH7VcZuYqHMGkNL-K8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YANF1P1QDyreY4kz8GRpgw&oh=00_AfhxsAn6JGnKNXQNmqjDvQcmdK_cufAKjlECGtdGucIszg&oe=692BF29D)
+* [Action icon value:](/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/action-buttons/) The holster icon will show the selected action icon.
+* **None:** The entity will not be included in the holster icon menu.
+
+To ensure an entity won’t appear in the holster icon menu, you can either:
+
+* Select **None** in the **Holster Icon** property on the grabbable entity.
+* Set the **Who Can Grab?** property of the grabbable entity to an empty array of Script assignees to make it impossible to grab.
+
+#### Available Action Icons
+
+The pool of available icons grows continually. The following table lists examples of the icons that you can select for controls on web and mobile.
+
+| Shoot | Reload | Jump | Unholster | Drop | Special | Grab |
+| --- | --- | --- | --- | --- | --- | --- |
+| Interact | Throw | Ability | Rocket | Airstrike | Swing | Swap |
+| Inspect | Open Door | Shield | Aim | Dual Wield | Sprint | Crouch |
+| Eat | Drink | Speak | Purchase | Place | Heal |  |
