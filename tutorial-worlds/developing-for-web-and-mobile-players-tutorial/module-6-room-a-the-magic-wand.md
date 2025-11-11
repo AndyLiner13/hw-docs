@@ -384,8 +384,8 @@ To test, you can try the puzzle in Room A to see if you can collect the wand and
 
 #### Additional documentation:
 
-* [How to set the player’s camera](/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
-* [Intro to Grabbable Entities](/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/intro-to-grabbable-entities)
+* [How to set the player’s camera](/hw-docs/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
+* [Intro to Grabbable Entities](/hw-docs/create-for-web-and-mobile/grabbable-entities/intro-to-grabbable-entities)
 
 #### API docs:
 

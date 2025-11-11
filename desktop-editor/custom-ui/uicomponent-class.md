@@ -53,9 +53,9 @@ start() {
 }
 ```
 
-While the `initializeUI()` method might remind some developers of the `render()` function in the React component class, they are fundamentally different in that `initializeUI()` is only called once in the lifecycle of the UI panel. When any [props or variables](/horizon-worlds/learn/documentation/typescript/getting-started/typescript-components-properties-and-variables) are changed, the UI panel does not automatically re-render to reflect the changes in the dependent data.
+While the `initializeUI()` method might remind some developers of the `render()` function in the React component class, they are fundamentally different in that `initializeUI()` is only called once in the lifecycle of the UI panel. When any [props or variables](/hw-docs/typescript/getting-started/typescript-components-properties-and-variables) are changed, the UI panel does not automatically re-render to reflect the changes in the dependent data.
 
-There are ways to update the UI panel after it is initialized with [`Binding`](/horizon-worlds/reference/2.0.0/ui_binding/). See [Updating UI with Binding](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui) for more details. For now, remember that `initializeUI()` is only called once when the UI gizmo is initialized, before the `start()` method of the component.
+There are ways to update the UI panel after it is initialized with [`Binding`](/horizon-worlds/reference/2.0.0/ui_binding/). See [Updating UI with Binding](/hw-docs/desktop-editor/custom-ui/building-dynamic-custom-ui) for more details. For now, remember that `initializeUI()` is only called once when the UI gizmo is initialized, before the `start()` method of the component.
 
 Because both `initializeUI()` and `start()` are executed when the world or the UI gizmo starts, it’s not required for a `UIComponent` to provide an implementation for `start()`. When the world starts, if you’d like to connect to event handlers, you can place the code in either `initializeUI()` or `start()`. For example, the following two implementations have the same behavior:
 
@@ -112,7 +112,7 @@ const text = Text({
 });
 ```
 
-You can find the detailed documentation on the props and styles supported by each component in [API Reference for custom UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui/). Also see related details in the `UI` API(/reference/2.0.0/). For now, this topic briefly introduces the important common props, [`style` and `children`](/horizon-worlds/reference/2.0.0/ui_viewprops).
+You can find the detailed documentation on the props and styles supported by each component in [API Reference for custom UI](/hw-docs/desktop-editor/custom-ui/api-reference-for-custom-ui/). Also see related details in the `UI` API(/reference/2.0.0/). For now, this topic briefly introduces the important common props, [`style` and `children`](/horizon-worlds/reference/2.0.0/ui_viewprops).
 
 ### Prop: style
 
@@ -129,11 +129,11 @@ const view = View({
 });
 ```
 
-Different components support different sets of styles. Again, you can find detailed documentation on the supported styles in the [API Reference for custom UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui/).
+Different components support different sets of styles. Again, you can find detailed documentation on the supported styles in the [API Reference for custom UI](/hw-docs/desktop-editor/custom-ui/api-reference-for-custom-ui/).
 
 ### Prop: children
 
-Similar to the UI you would find in other frameworks like HTML and React, the custom UI is also a tree structure, and a component may have children components. This is defined through the [`children` prop](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#props), which can be either one or an array of [`UINode`](/horizon-worlds/reference/2.0.0/ui_uinode)s.
+Similar to the UI you would find in other frameworks like HTML and React, the custom UI is also a tree structure, and a component may have children components. This is defined through the [`children` prop](/hw-docs/desktop-editor/custom-ui/api-reference-for-custom-ui#props), which can be either one or an array of [`UINode`](/horizon-worlds/reference/2.0.0/ui_uinode)s.
 
 ```vs
 const view = View({
@@ -148,7 +148,7 @@ const view = View({
 });
 ```
 
-Not all components can have children. For example, you cannot assign children components to a `Text` component. You can refer to [API Reference for custom UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui/) to see which component props explicitly include a `children` prop.
+Not all components can have children. For example, you cannot assign children components to a `Text` component. You can refer to [API Reference for custom UI](/hw-docs/desktop-editor/custom-ui/api-reference-for-custom-ui/) to see which component props explicitly include a `children` prop.
 
 It is acceptable and quite common to store a part of the component into its own variable, so that a large complex UI can be broken down into smaller parts, improving code readability. For example, the above component can also be written as the following:
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Nav Mesh Agents
 
-The navigation mesh (NavMesh) agent feature allows you to create [agents](/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation#agent) that autonomously navigate through a world avoiding obstacles, guided by [navigation meshes](/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation#navigation-mesh-navmesh). Agents can be simple, like a primitive object, or complex, like a premade [NPC asset](/horizon-worlds/learn/documentation/desktop-editor/npcs/getting-started-with-npc-assets). You can create an agent from any of the following entity types:
+The navigation mesh (NavMesh) agent feature allows you to create [agents](/hw-docs/desktop-editor/npcs/navigation-mesh-generation#agent) that autonomously navigate through a world avoiding obstacles, guided by [navigation meshes](/hw-docs/desktop-editor/npcs/navigation-mesh-generation#navigation-mesh-navmesh). Agents can be simple, like a primitive object, or complex, like a premade [NPC asset](/hw-docs/desktop-editor/npcs/getting-started-with-npc-assets). You can create an agent from any of the following entity types:
 
 * Meshes (primitive and custom model)
 * Unity Asset Bundles (2p-only)
@@ -17,7 +17,7 @@ Before setting up an agent, you must create:
 * Navigation meshes, to determine the areas of your world that NPCs can access and the paths they can use to get there.
 * Navigation profiles, to determine which navigation meshes are used for a given agent.
 
-See the [Navigation Mesh Generation](/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation) docs for instructions on how to create navigation meshes and profiles.
+See the [Navigation Mesh Generation](/hw-docs/desktop-editor/npcs/navigation-mesh-generation) docs for instructions on how to create navigation meshes and profiles.
 
 ## Set up agents using Desktop Editor
 
@@ -53,7 +53,7 @@ To use the NavMeshAgent API, first enable the `horizon/navmesh` package in the *
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/459441915_543667311504558_2099678408108692939_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=aCWoOmH7L9cQ7kNvwFO0HCX&_nc_oc=Adn8ytK1tB9teGPp6fdilpYxx9ZvdGUbIme3YHsz-RjoKUynvcAKdwZrykatM3Hoizo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=DRfl2lNBLJ4PdCaoYdicFg&oh=00_AfgNUAqDF-IM7ebS6Uw7JcsIG8Qj1EIhMyA4HIi9vOOAfw&oe=692C0950)
 
-Then, create a new script using the [NavMeshAgent API](https://horizon.meta.com/resources/scripting-api/navmesh.navmeshagent.md/?api_version=2.0.0). See the [Adding and Editing Scripts](/horizon-worlds/learn/documentation/desktop-editor/getting-started/adding-and-editing-scripts) documentation for how to create a new script.
+Then, create a new script using the [NavMeshAgent API](https://horizon.meta.com/resources/scripting-api/navmesh.navmeshagent.md/?api_version=2.0.0). See the [Adding and Editing Scripts](/hw-docs/desktop-editor/getting-started/adding-and-editing-scripts) documentation for how to create a new script.
 
 After you create a script to move your agent, don’t forget to attach the script to the agent object in the **Properties** pane.
 

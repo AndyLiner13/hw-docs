@@ -66,7 +66,7 @@ Select your NoesisUI gizmo in the **Hierarchy** panel, then adjust these propert
 
 [Attach script for Noesis UI script](/horizon-worlds/images/noesis-ui-1.png)
 
-Learn more about **Shared Mode Noesis** scripts [here](/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/shared-mode-noesis-scripts).
+Learn more about **Shared Mode Noesis** scripts [here](/hw-docs/desktop-editor/noesis-ui/shared-mode-noesis-scripts).
 
 ## Enable UI interactions
 

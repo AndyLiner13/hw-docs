@@ -6,7 +6,7 @@ Persistent Variables and Variable Groups allow you to store player-specific nume
 
 Note
 
-The following instructions are specific to VR creation. Information on using persistent variables in the desktop editor can be found [here](/horizon-worlds/learn/documentation/typescript/getting-started/persistent-variables-v2#known-issues-and-limitations).
+The following instructions are specific to VR creation. Information on using persistent variables in the desktop editor can be found [here](/hw-docs/typescript/getting-started/persistent-variables-v2#known-issues-and-limitations).
 
 ## Create a variable group
 

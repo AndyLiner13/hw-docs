@@ -7,7 +7,7 @@ Local events enable your TypeScript code to send and receive events from objects
 Local events differ from Code Block events in the following ways:
 
 * Local events are synchronous and block code execution until the event callback is complete.
-* Local events are tracked by the instantiated object rather than the names or payloads of the event. We recommend that you reuse the same event object between scripts. See [Event Best practices](/horizon-worlds/learn/documentation/typescript/events/events-best-practices/) for a recommended solution.
+* Local events are tracked by the instantiated object rather than the names or payloads of the event. We recommend that you reuse the same event object between scripts. See [Event Best practices](/hw-docs/typescript/events/events-best-practices/) for a recommended solution.
 * Local events are only received by listeners registered on the same client. See the note below on Event Behavior for further details.
 
 ## Creating a local event
@@ -49,7 +49,7 @@ Returns:
 
 ## Example
 
-**Note**: The following example is for demonstration purposes only. Since code execution in Meta Horizon Worlds is non-deterministic, the register code may not complete before the event is send event code executes 500 milliseconds later, which would result in an error. For a more robust solution, you should use Promises. For more information, see [TypeScript Script Lifecycle](/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle/).
+**Note**: The following example is for demonstration purposes only. Since code execution in Meta Horizon Worlds is non-deterministic, the register code may not complete before the event is send event code executes 500 milliseconds later, which would result in an error. For a more robust solution, you should use Promises. For more information, see [TypeScript Script Lifecycle](/hw-docs/typescript/typescript-script-lifecycle/).
 
 ```_ar4n
 import {Component, LocalEvent} from 'horizon/core';
@@ -87,4 +87,4 @@ By default, all scripts run on the server when attached to an object in the worl
 * If a local or broadcast event is sent from a script running on the server, only scripts running on the server receive that event.
 * If a local or broadcast event is sent from a script running on a local client, only scripts owned by that client receive the event.
 
-If your scripts need to communicate between local client and server scripts, use CodeBlock events. For more information, see [Getting Started with Local Scripting](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting).
+If your scripts need to communicate between local client and server scripts, use CodeBlock events. For more information, see [Getting Started with Local Scripting](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting).

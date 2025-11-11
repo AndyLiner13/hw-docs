@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The object tools in the Desktop Editor provide a set of commonly used tools for building scenes and asset use. Each option provides a menu of different types of tools that you can use for creating your worlds.
 
-For more in-depth information about the object tools, see [Using the Object tools](/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation)
+For more in-depth information about the object tools, see [Using the Object tools](/hw-docs/desktop-editor/objects/object-manipulation)
 
 This suite of tools contains the following object tool tyou can use:
 
@@ -109,8 +109,8 @@ Use the **Snap to surfaces** to snap the pivot point of one object to the collid
 
 The **Object tool** suite is part of the collection of tools in the Desktop Editor UI. You can find out more about the UI at:
 
-* [The Desktop Editor user interface](/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/user-interface/)
+* [The Desktop Editor user interface](/hw-docs/desktop-editor/getting-started/user-interface/user-interface/)
 
 You can also try out the editor by working through the the introductory tutorials:
 
-* [Create Your First World Tutorial](/horizon-worlds/learn/documentation/get-started/create-your-first-world-intro)
+* [Create Your First World Tutorial](/hw-docs/get-started/create-your-first-world-intro)

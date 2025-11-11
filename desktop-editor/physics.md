@@ -15,9 +15,9 @@ The physics system includes support for the following elements:
 
 * Rigid bodies: A rigid body is an object that maintains its shape and structure when forces are applied to it, making it a fundamental component of realistic physics simulations. By treating objects as rigid bodies, you can create more immersive experiences where entities respond to gravity and exhibit natural movement. To achieve this, instead of manually updating the position and rotation of an entity using scripts, consider applying forces to the entity and letting the game engine handle the resulting motion. This approach not only simplifies your code but also allows for more realistic and dynamic interactions.
 * Joints: A joint attaches a rigid body to another or to a fixed position. Some joint types allow limited movement in relation to the attached rigid body.
-* Colliders: Colliders are invisible entities consisting of custom shapes that respond to physical collisions. They can include collision, physics, and grabbable components. Primitive colliders (box, sphere, and capsule) provide simplicity and optimal performance while mesh colliders more closely match the shape of an entity, although their use is more processor intensive. For more information, see the [Collider Ingestion](/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/collider-ingestion-user-guide) guide.
-* Projectiles: A projectile is a temporary entity that is fired in a set direction before it is destroyed. You can use the [Projectile Launcher gizmo](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/projectile-launcher-gizmo) to manage the firing, tracking, and collision of the projectile. The launcher is accessible with the TypeScript API through the [Projectile Launcher class](/horizon-worlds/reference/2.0.0/core_projectilelaunchergizmo), which allows you to detect and respond to events triggered by the gizmo. For more information, see the [Projectile tutorial](/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-2-projectile).
-* Unity asset bundles: Meta Horizon Worlds supports Unity asset bundles, which provide advanced graphic and physics capabilities. With Unity Asset bundles, you can import your unity assets including Unity colliders directly into your world and even spawn the assets dynamically using the [TypeScript APIs](/horizon-worlds/reference/2.0.0/unity_asset_bundles_assetbundlegizmo). For more information, see the [Horizon Unity AssetBundles Overview](/horizon-worlds/learn/documentation/desktop-editor/assets/unity-assetbundles/horizon-unity-assetbundles-overview).
+* Colliders: Colliders are invisible entities consisting of custom shapes that respond to physical collisions. They can include collision, physics, and grabbable components. Primitive colliders (box, sphere, and capsule) provide simplicity and optimal performance while mesh colliders more closely match the shape of an entity, although their use is more processor intensive. For more information, see the [Collider Ingestion](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/collider-ingestion-user-guide) guide.
+* Projectiles: A projectile is a temporary entity that is fired in a set direction before it is destroyed. You can use the [Projectile Launcher gizmo](/hw-docs/code-blocks-and-gizmos/projectile-launcher-gizmo) to manage the firing, tracking, and collision of the projectile. The launcher is accessible with the TypeScript API through the [Projectile Launcher class](/horizon-worlds/reference/2.0.0/core_projectilelaunchergizmo), which allows you to detect and respond to events triggered by the gizmo. For more information, see the [Projectile tutorial](/hw-docs/tutorial-worlds/simple-shooting-mechanics-tutorial/module-2-projectile).
+* Unity asset bundles: Meta Horizon Worlds supports Unity asset bundles, which provide advanced graphic and physics capabilities. With Unity Asset bundles, you can import your unity assets including Unity colliders directly into your world and even spawn the assets dynamically using the [TypeScript APIs](/horizon-worlds/reference/2.0.0/unity_asset_bundles_assetbundlegizmo). For more information, see the [Horizon Unity AssetBundles Overview](/hw-docs/desktop-editor/assets/unity-assetbundles/horizon-unity-assetbundles-overview).
 
 ## Delta time simulation
 
@@ -25,7 +25,7 @@ The physics engine simulates physics in delta time, meaning it performs calculat
 
 ## Ownership and synchronization
 
-In Meta Horizon Worlds, entity (objects in the world) [ownership](/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds) is optimized to improve the responsiveness and feel of physical interactions. For example, when an entity collides with a player, the system automatically transfers ownership of the entity to the player. Additionally, any entities (objects in the world) that aren’t owned by the local client are treated as kinematic.
+In Meta Horizon Worlds, entity (objects in the world) [ownership](/hw-docs/typescript/local-scripting/ownership-in-horizon-worlds) is optimized to improve the responsiveness and feel of physical interactions. For example, when an entity collides with a player, the system automatically transfers ownership of the entity to the player. Additionally, any entities (objects in the world) that aren’t owned by the local client are treated as kinematic.
 
 When entities are treated as kinematic on the local client, their movement isn’t influenced by the local physics engine. The movement of a kinematic entity is updated based on the state received over the network from the client that owns the entity. This means that movement of non-local entities is determined by the physics simulations synchronized from remote clients. In contrast, when the local client owns an entity, the local physics engine determines the entity’s movement. However, the local client might perform smooth interpolation or extrapolation on the motion of entities owned by remote clients.
 
@@ -57,7 +57,7 @@ You can create objects with physical behavior in a world by using a physical ent
 * Scripting APIs that dynamically apply force (movement) and torque (rotation)
 * Collision handling
 * Physical effects, such as [spring physics](#spring_physics)
-* [Physics materials](/horizon-worlds/learn/documentation/vr-creation/sfx/adding-physics-and-animation-in-horizon#physics-materials), which are a collection of physics settings that emulate real-world behaviors, such as a feather, ice, or a rubber ball.
+* [Physics materials](/hw-docs/vr-creation/sfx/adding-physics-and-animation-in-horizon#physics-materials), which are a collection of physics settings that emulate real-world behaviors, such as a feather, ice, or a rubber ball.
 
 A physical entity is an [entity](reference/2.0.0/core_entity) with the following properties enabled in Desktop Editor:
 
@@ -96,7 +96,7 @@ The following additional settings are available to physical entities in Desktop 
 * Weight Simulation When Held
 * Center of Mass Override
 
-For more information about the properties of physical entities, see [Using physics and animation](/horizon-worlds/learn/documentation/vr-creation/sfx/adding-physics-and-animation-in-horizon).
+For more information about the properties of physical entities, see [Using physics and animation](/hw-docs/vr-creation/sfx/adding-physics-and-animation-in-horizon).
 
 ### World events
 
@@ -131,7 +131,7 @@ You can use spring physics to apply the physical movement of a spring to an enti
   + Optimize physics processing by disabling colliders while they are outside the gameplay area.
   + Use primitive colliders instead of mesh colliders when possible, but avoid Sub-D primitive colliders. An exception is for components involved in frequent collisions, which favors using a single larger mesh collider.
   + For large ground surfaces, check whether simplified concave meshes have optimal performance.
-  + To create realistic objects, you can use mesh colliders. For more information, see the [Collider Ingestion](/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/collider-ingestion-user-guide) guide.
+  + To create realistic objects, you can use mesh colliders. For more information, see the [Collider Ingestion](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/collider-ingestion-user-guide) guide.
   + Use simple convex meshes instead of complex concave meshes.
 * Triggers
 
@@ -147,4 +147,4 @@ You can use spring physics to apply the physical movement of a spring to an enti
 
     and [Tracing](learn/documentation/performance-best-practices-and-tooling/performance-tools/tracing) guides.
 
-For details about physics recommendations, see [Physics best practices](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/physics-best-practices).
+For details about physics recommendations, see [Physics best practices](/hw-docs/performance-best-practices-and-tooling/performance-best-practices/physics-best-practices).

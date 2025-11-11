@@ -14,11 +14,11 @@ Example worlds are intended to provide simple, clear, and well-documented exampl
 
 This doc is intended to be a companion to the example world listed below.
 
-For platform documentation on custom UIs, see [Custom UI](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui/).
+For platform documentation on custom UIs, see [Custom UI](/hw-docs/typescript/api-references-and-examples/custom-ui/).
 
 ## Before You Begin
 
-Before you begin exploring this world, please verify that you have reviewed and met the prerequisites for access. See [Getting Started with Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
+Before you begin exploring this world, please verify that you have reviewed and met the prerequisites for access. See [Getting Started with Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ### Enable Auto-start of the simulation
 
@@ -85,7 +85,7 @@ To explore the TypeScript of this Examples Tutorial, you should use the desktop 
 Create a copy of this Examples Tutorial first. Then, you can modify the scripts as needed.
 
 You can create your own copy from the desktop editor or from the headset. For more information on this workflow, see
-[Access Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+[Access Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ### Start at Station 1
 
@@ -99,4 +99,4 @@ Comments in the code provide additional information on how to use it. If you’v
 
 ### Use in Your World
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).

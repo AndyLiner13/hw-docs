@@ -133,7 +133,7 @@ This is a very general recommendation, and artists should adjust as needed.
 
 A 3D model is made up of Mesh + Textures + Materials.
 
-**Note:** See [**Materials Specifications**](/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/materials-guidance-and-reference-for-custom-models/) section for channel packing.
+**Note:** See [**Materials Specifications**](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/materials-guidance-and-reference-for-custom-models/) section for channel packing.
 
 ### Mesh recommendations
 

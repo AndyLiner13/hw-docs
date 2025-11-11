@@ -12,7 +12,7 @@ The `AnimUtils.ts` set of classes, types, and functions support the animation of
 
 ### Behaviour.ts
 
-`Behaviour.ts` and its related BehaviourFinder static container enable the finding and execution from one script of behaviors that have been registered with BehaviourFinder and are contained in another. For more information, see [Module 2 - Design Patterns](/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-2-design-patterns).
+`Behaviour.ts` and its related BehaviourFinder static container enable the finding and execution from one script of behaviors that have been registered with BehaviourFinder and are contained in another. For more information, see [Module 2 - Design Patterns](/hw-docs/tutorial-worlds/chop-n-pop-sample-world/module-2-design-patterns).
 
 ### Events.ts
 
@@ -34,7 +34,7 @@ When a new player enters the world, this simple script adds an epitaph personali
 
 This script contains the ObjectPool class and its interface for managing sets of objects in the game. In Chop ‘N Pop: Graveyard Bash, object pools are created for players, player HUDs, and loot that are present in the game. For example, there are two types of loot: ammo and potions. Each loot type has a separate reference object that hosts an instance of `ObjectPool.ts`, which is used for managing the entities of the type in the pool.
 
-All pool items exist as entities in the world. For more information, see [Module 11 - Loot System](/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-11-loot-system).
+All pool items exist as entities in the world. For more information, see [Module 11 - Loot System](/hw-docs/tutorial-worlds/chop-n-pop-sample-world/module-11-loot-system).
 
 ### StageHand.ts
 
@@ -62,6 +62,6 @@ Whenever that asset template is deployed, a reference to the script is deployed 
 
 **Note**: Asset templates created in a File Backed Scripts world can only be used in an FBS world.
 
-For more information, see [Asset Templates](/horizon-worlds/learn/documentation/desktop-editor/assets/asset-templates).
+For more information, see [Asset Templates](/hw-docs/desktop-editor/assets/asset-templates).
 
-For more information, see “Deploying Systems” in [Module 1 - Setup](/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
+For more information, see “Deploying Systems” in [Module 1 - Setup](/hw-docs/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).

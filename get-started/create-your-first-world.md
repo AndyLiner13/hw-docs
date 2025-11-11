@@ -5,7 +5,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-start
 Welcome to part 1 of the create your first world tutorial. In this tutorial you’ll learn how to create a basic new world, hosting a simple game where you shoot marauding skeletons in a graveyard.
 
 This first part shows you how to create a new world, place an asset in the world, manipulate it using the desktop editor, then preview the world and playtest it on a mobile device.
-If you’re looking for the second half of the tutorial, go to the [Create your first world tutorial, part 2](/horizon-worlds/learn/documentation/get-started/create-your-first-world-continued).
+If you’re looking for the second half of the tutorial, go to the [Create your first world tutorial, part 2](/hw-docs/get-started/create-your-first-world-continued).
 
 The key things you should learn from this module are the following:
 
@@ -15,7 +15,7 @@ The key things you should learn from this module are the following:
 * Previewing your world for playtesting
 * Playtesting in your world on your mobile device
 
-**Note**: This tutorial assumes that you’ve completed the prerequisites discussed in [Intro Tutorial Overview](/horizon-worlds/learn/documentation/get-started/create-your-first-world-intro).
+**Note**: This tutorial assumes that you’ve completed the prerequisites discussed in [Intro Tutorial Overview](/hw-docs/get-started/create-your-first-world-intro).
 
 ## Step 1: Create a new world
 
@@ -46,7 +46,7 @@ Assets are objects that you can place in your world so that players an interact 
 In this section, you will learn how to place an asset from the public assets into your scene. (Just like in a movie, a *scene* is a sequence of continuous action that’s usually oriented around a particular location. Many games consist of many scenes, although this one includes just one).
 
 The **Scene** panel is the large window in the middle of the desktop editor. It shows the scene that you are currently working on, letting you see what it looks like so far. When you add assets to a scene, this is where they appear.
-**Note**: To learn more about this part of the UI (user interface), see [Panels and tabs in the desktop editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/UI-panels-and-tabs).
+**Note**: To learn more about this part of the UI (user interface), see [Panels and tabs in the desktop editor](/hw-docs/desktop-editor/getting-started/user-interface/UI-panels-and-tabs).
 
 - On the **Asset Library** tab, select **Public Assets**.
 
@@ -67,7 +67,7 @@ The **Scene** panel is the large window in the middle of the desktop editor. It 
 
   The **Hierarchy** panel shows you the list of objects in the current scene. You can use this panel to sort and group the objects as needed. By selecting a particular object in the panel, you can see (and edit) the various properties of that object in the **Properties** panel. In this case, by selecting the top level of the hierarchy (**MyFirstWorld**), this allows you to change the position and rotation for all the child objects under that parent object.
 
-  To explore this subject in greater depth, see the [Hierarchy panel overview](/horizon-worlds/learn/documentation/desktop-editor/hierarchy-window/hierarchy-window-overview) and the [Properties panel](/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/UI-panels-and-tabs#properties-panel).
+  To explore this subject in greater depth, see the [Hierarchy panel overview](/hw-docs/desktop-editor/hierarchy-window/hierarchy-window-overview) and the [Properties panel](/hw-docs/desktop-editor/getting-started/user-interface/UI-panels-and-tabs#properties-panel).
 - Center the graveyard in the scene panel by moving the camera to get a better view. There are many different key shortcuts for doing maneuvering the camera, but the ones you’ll probably use the most are:
   * **Up**: Arrow Up, or right-click (on your mouse) + W
   * **Down**: Arrow Down, or right-click + S
@@ -122,7 +122,7 @@ The **Scene** panel is the large window in the middle of the desktop editor. It 
 
 Playtesting your game during and after you’ve finished creating it is an essential part of being a Worlds creator. As experienced developers know, it’s too easy to miss essential things if you don’t playtest it enough.
 
-For additional information on doing this, see [Preview](/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode).
+For additional information on doing this, see [Preview](/hw-docs/desktop-editor/getting-started/preview-mode).
 
 - Click the play button to enter preview mode.
 
@@ -151,7 +151,7 @@ For additional information on doing this, see [Preview](/horizon-worlds/learn/do
 - Rotate the walls 180 degrees and line them up with the backside of the gate. Now you have an enclosed graveyard.
 
   ![Rotate the walls 180 degrees](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480303210_670883468782941_9044902028404479957_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=vqgbVumozhsQ7kNvwFq4NBx&_nc_oc=AdmEu4cROPunJrfGgiSx4IkkoNW6P-Tk6bxdfEdOSCI8yJcL9Os4Wt8apPDRmE_iVnY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=n4PbvhuNL1FRSavPv3qIVQ&oh=00_Afjz6GiqTtGLqizMiSaD8AGWR17Yf3yCcJnoixxFosv9Aw&oe=692BFDCC)
-- Use the other assets in the world to finish creating the graveyard. Feel free to get creative and add objects from the [asset library](/horizon-worlds/learn/documentation/get-started/using-asset-library).
+- Use the other assets in the world to finish creating the graveyard. Feel free to get creative and add objects from the [asset library](/hw-docs/get-started/using-asset-library).
 
   ![Add other assets to finish the graveyard](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480964798_670883482116273_7936198911651044981_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Rd_QHdankOEQ7kNvwEgNq0i&_nc_oc=AdnFJ_91gaMcDU87Bh9I05JiUp8iPmKg9TPUNUbbBrdoXyrmek8FCk7gnVnFCDBpAMw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=n4PbvhuNL1FRSavPv3qIVQ&oh=00_AfhL2-OmrNayEAPoJwWxEz6YJLr6slZAySOcbFWh3tfv7w&oe=692C0FBB)
 
@@ -177,7 +177,7 @@ For additional information on doing this, see [Preview](/horizon-worlds/learn/do
 
   ![Publishing your world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/513082478_751449597392994_1951004972520741354_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=XlZMjnNXpJwQ7kNvwESMOZ_&_nc_oc=AdltVxiQo4P1JB9yoO4IO01X0E77gUY28DVXWTtkahi93GK5M0vNst_ytTexQ-3QMfA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=n4PbvhuNL1FRSavPv3qIVQ&oh=00_AfiJWTUEAPceIWp9TtVe0T1Lv4CNtmBqVjxLqdjuKQAdJw&oe=692BDDF2)
 
-  For additional information on publishing your world, see the [Publish](/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-your-world) page.
+  For additional information on publishing your world, see the [Publish](/hw-docs/save-optimize-and-publish/publish-your-world) page.
 - Click **Preview Configuration Settings**.
 
   ![Preview Configuration Settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/513454396_751449570726330_4815966747179159199_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=ksFMjJx2TG4Q7kNvwH8EEXT&_nc_oc=AdnDlpyNsSniSHO_tP7DSeLArWhlSdhP4zrqJhjZP8OfUx0gI4BRuAPKdIeIWDgJsoo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=n4PbvhuNL1FRSavPv3qIVQ&oh=00_AfhFtFwQsOdtwZIPGpxiVaEUcgbqH-oXweBUkITyq4YDeQ&oe=692BF877)
@@ -188,13 +188,13 @@ For additional information on doing this, see [Preview](/horizon-worlds/learn/do
 
   ![Sending a preview link to your Worlds app](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/512661977_751449564059664_5943184411121257609_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=d7PisskIMnkQ7kNvwFxaIgf&_nc_oc=AdkjYZ_EPo4J3C7nXWOy2CekXXIUrzohxif-fOqI8fxv0SrUwXvvzzN9GUqqHB-K0ME&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=n4PbvhuNL1FRSavPv3qIVQ&oh=00_Afh4JZIC6K6NbItAzD7jo5jACWWGqBJ2serlJ9gQWCYVaA&oe=692BD9EA)
 
-  **Note**: If you do not have the Meta Horizon mobile app installed, you can install it and repeat this step, view the published world in your browser, or share the web link with others. For more information, see [Preview device](/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#preview-device).
+  **Note**: If you do not have the Meta Horizon mobile app installed, you can install it and repeat this step, view the published world in your browser, or share the web link with others. For more information, see [Preview device](/hw-docs/desktop-editor/getting-started/preview-mode#preview-device).
 - Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world.
 
-  For more related information, see [Testing worlds on mobile](/horizon-worlds/learn/documentation/create-for-web-and-mobile/how-to-test-on-web-and-mobile#mobile).
+  For more related information, see [Testing worlds on mobile](/hw-docs/create-for-web-and-mobile/how-to-test-on-web-and-mobile#mobile).
 
 ## What’s Next
 
 **Congratulations!** You’ve finished Part 1 of the Introductory Tutorial: Creating Your First World
 
-Now go to the [Part 2 of the tutorial](/horizon-worlds/learn/documentation/get-started/create-your-first-world-continued) to learn how to import custom models and write your first script.
+Now go to the [Part 2 of the tutorial](/hw-docs/get-started/create-your-first-world-continued) to learn how to import custom models and write your first script.

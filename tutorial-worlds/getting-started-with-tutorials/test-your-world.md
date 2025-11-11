@@ -32,7 +32,7 @@ If you are collaborating with other people, enabling these options can be disrup
 | Auto-start simulation on preview entry | When enabled, entering Preview mode also presses the Play button. |
 | Auto-stop simulation on preview exit | When enabled, exiting Preview mode also presses the Stop button.   When the simulation is stopped, you may lose contextual information from the playback. |
 
-For more information, see [Preview Mode](/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode).
+For more information, see [Preview Mode](/hw-docs/desktop-editor/getting-started/preview-mode).
 
 #### Simulation tools
 
@@ -130,4 +130,4 @@ In Build mode, you can perform edits to your world while you are in the headset.
 
 ## Testing in Mobile
 
-For more information on setting up a testing environment for mobile and web, see [Preview device](/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#preview-device).
+For more information on setting up a testing environment for mobile and web, see [Preview device](/hw-docs/desktop-editor/getting-started/preview-mode#preview-device).

@@ -245,9 +245,9 @@ Next, we build the Camera Manager to control the camera depending on the game si
 
 #### Additional documentation:
 
-* [Local Events](/horizon-worlds/learn/documentation/typescript/events/local-events/)
-* [Broadcast Events](/horizon-worlds/learn/documentation/typescript/events/broadcast-events/)
-* [Events Best Practices](/horizon-worlds/learn/documentation/typescript/events/events-best-practices/)
+* [Local Events](/hw-docs/typescript/events/local-events/)
+* [Broadcast Events](/hw-docs/typescript/events/broadcast-events/)
+* [Events Best Practices](/hw-docs/typescript/events/events-best-practices/)
 
 #### API docs:
 

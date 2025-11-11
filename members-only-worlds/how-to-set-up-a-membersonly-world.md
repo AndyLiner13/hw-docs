@@ -6,7 +6,7 @@ Members-only worlds deprecated
 
  Members-only worlds have been deprecated. With the launch of Home Worlds, we recommend using home worlds for private, membership-based experiences. For more information about Home Worlds, please refer to the updated Horizon Worlds documentation.
 
-**Note**: Members-only worlds come with specific responsiblities and best practices. Learn more about [governance responsibilities](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/creator-responsibilities-members-only-worlds), [governance best practices](/horizon-worlds/learn/documentation/safety-and-privacy/governance-members-only-worlds), and [how to manage reports](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/manage-reports-members-only-worlds) for members-only worlds.
+**Note**: Members-only worlds come with specific responsiblities and best practices. Learn more about [governance responsibilities](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/creator-responsibilities-members-only-worlds), [governance best practices](/hw-docs/safety-and-privacy/governance-members-only-worlds), and [how to manage reports](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/manage-reports-members-only-worlds) for members-only worlds.
 
 ## Members-only worlds
 
@@ -38,7 +38,7 @@ During the alpha test period, all members-only worlds will remain hidden from se
 * Once a world is designated a members-only world, it cannot be converted it to a public world.
 * Members-only worlds can be duplicated, but the membership list and world privacy settings will not carry over to the new world.
 * Members-only worlds can currently support up to 150 members and 25 members visiting the world at a single time.
-  **Note**: The maximum concurrent visitor count depends on [world capacity limits](/horizon-worlds/learn/documentation/desktop-editor/getting-started/world-capacity).
+  **Note**: The maximum concurrent visitor count depends on [world capacity limits](/hw-docs/desktop-editor/getting-started/world-capacity).
 * Collaborators (including testers, editors, and moderators) are considered members and count towards the 150 world member cap and number of concurrent members.
 * During the alpha, members-only worlds are restricted to a single instance and do not support events. At this time, events cannot be scheduled and hosted in your members-only world.
 
@@ -48,7 +48,7 @@ World creators can invite members and collaborators to their members-only worlds
 
 ![List of collaborators available](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484350008_671766008694687_8427404570089073584_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=6aoCHDaNlUYQ7kNvwHwtT9L&_nc_oc=Adl0x7dWIiNoLVY3eDVvC7V31Lr7rdIa7RX5PLSP6MuXkvVNFINUFlWctuG2FI64kuk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kXtx-auqyZrBr1lIL8ftMg&oh=00_AfgBEIFHJPAtkDfCRZILvkIyggGFGM8obcqPWeDQb8xGCQ&oe=692BE09E)
 
-See the documentation on [Collaborator Management](/horizon-worlds/learn/documentation/desktop-editor/getting-started/collaborator-management) for more information.
+See the documentation on [Collaborator Management](/hw-docs/desktop-editor/getting-started/collaborator-management) for more information.
 
 The world creator, members, and moderators do not need to follow each other to be part of the same members-only world. Members-only worlds feature a **moderator** role. World members with this role can mute someone globally or temporarily remove members from the world.
 

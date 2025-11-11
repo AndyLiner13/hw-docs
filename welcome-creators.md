@@ -19,8 +19,8 @@ When someone visits Worlds as a user, they always see the published version of a
 
 ## Getting started
 
-The initial step toward creating your first world is to [install the desktop editor](/horizon-worlds/learn/documentation/get-started/install-desktop-editor). This desktop editor is your main platform for creating a world, and it contains many other tools that you’ll find useful as you create. To see what tools are available to you as a creator, check out our [tools overview](/horizon-worlds/learn/documentation/get-started/tools-overview).
-After you’ve installed the desktop editor, we suggest you try the [create your first world tutorial](/horizon-worlds/learn/documentation/get-started/create-your-first-world). This is the first of a two-part tutorial where you’ll learn how to create a simple game in Worlds. You can follow this up with the second part of the tutorial, which continues to walk you through building a simple game. In these two introductory tutorials, you’ll experience most of the basic aspects of working with a world, such as:
+The initial step toward creating your first world is to [install the desktop editor](/hw-docs/get-started/install-desktop-editor). This desktop editor is your main platform for creating a world, and it contains many other tools that you’ll find useful as you create. To see what tools are available to you as a creator, check out our [tools overview](/hw-docs/get-started/tools-overview).
+After you’ve installed the desktop editor, we suggest you try the [create your first world tutorial](/hw-docs/get-started/create-your-first-world). This is the first of a two-part tutorial where you’ll learn how to create a simple game in Worlds. You can follow this up with the second part of the tutorial, which continues to walk you through building a simple game. In these two introductory tutorials, you’ll experience most of the basic aspects of working with a world, such as:
 
 * Creating your world
 * Setting up the tooling you need
@@ -37,21 +37,21 @@ You can find a lot of useful information in the Worlds documentation. Info about
 
 ### Creating your world
 
-* [Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds): Explore our Tutorial Worlds, which allow you to explore scripts, manipulate entities, and learn how different types of worlds work.
-* [Desktop editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor): The desktop editor is the main platform you’ll use to create in Worlds and it contains most of the main tools you’ll be using. Check this out to get to know what’s available and how best to use it.
+* [Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds): Explore our Tutorial Worlds, which allow you to explore scripts, manipulate entities, and learn how different types of worlds work.
+* [Desktop editor](/hw-docs/desktop-editor/getting-started/introduction-to-desktop-editor): The desktop editor is the main platform you’ll use to create in Worlds and it contains most of the main tools you’ll be using. Check this out to get to know what’s available and how best to use it.
 * [Scripting](/horizon-worlds/typescript/getting-started/using-typescript-in-horizon-worlds): Scripting in Worlds gives you a way to write scripts more efficiently using traditional programming processes and tools. Click [here](./typescript/getting-started/using-typescript-in-horizon-worlds) to learn more about TypeScript.
-* [Code blocks and gizmos](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/about-gizmos): The desktop editor provides you with a series of dynamic helper tools, called *gizmos* that enable you easily add interactivity to your world.
-* [Custom model import](/horizon-worlds/learn/documentation/custom-model-import/getting-started-with-custom-model-import): You can import your own 3D models into your world from digital content creation (DCC) tools like Maya, Blender, or other 3D modeling software.
-* [Create for web and mobile](/horizon-worlds/learn/documentation/create-for-web-and-mobile/create-for-web-and-mobile): Making your worlds available on mobile and web enables users to access worlds from any device. This can unlock a broader reach for your published worlds.
-* [VR creation](/horizon-worlds/learn/documentation/vr-creation/getting-started/create-a-new-world-in-horizon): Worlds also enables you to create your ideas in virtual reality if you choose to, utilizing the Meta Quest headset that enable a whole new universe of flexibility using VR tools.
+* [Code blocks and gizmos](/hw-docs/code-blocks-and-gizmos/about-gizmos): The desktop editor provides you with a series of dynamic helper tools, called *gizmos* that enable you easily add interactivity to your world.
+* [Custom model import](/hw-docs/custom-model-import/getting-started-with-custom-model-import): You can import your own 3D models into your world from digital content creation (DCC) tools like Maya, Blender, or other 3D modeling software.
+* [Create for web and mobile](/hw-docs/create-for-web-and-mobile/create-for-web-and-mobile): Making your worlds available on mobile and web enables users to access worlds from any device. This can unlock a broader reach for your published worlds.
+* [VR creation](/hw-docs/vr-creation/getting-started/create-a-new-world-in-horizon): Worlds also enables you to create your ideas in virtual reality if you choose to, utilizing the Meta Quest headset that enable a whole new universe of flexibility using VR tools.
 
 ### Publishing your world
 
 Once your world is ready to share with others, the documentation helps you use the tools in Worlds to optimize your world’s performance and fine-tune the audience you’re aiming for.
 
-* [Performance, best practices, and tooling](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/using-performance-tools-from-web-and-mobile): The tools in Worlds provide you with the ability to do a lot of fine-tuning. This section is intended to show you how to use the performance tools available and provide you with plenty of advice and best practices to make your work easier and more effective.
-* [Save, optimize, and publish](/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-your-world): This section contains topics on how to save, optimize, and most importantly, publish your world.
-* [Safety and Privacy](/horizon-worlds/learn/documentation/safety-and-privacy/community-moderation): User safety and privacy are a vital part of creating anything with Meta and Worlds are part of this. This section contains topics about safety and privacy concerns, as well as content guidelines for creating your world.
+* [Performance, best practices, and tooling](/hw-docs/performance-best-practices-and-tooling/performance-tools/using-performance-tools-from-web-and-mobile): The tools in Worlds provide you with the ability to do a lot of fine-tuning. This section is intended to show you how to use the performance tools available and provide you with plenty of advice and best practices to make your work easier and more effective.
+* [Save, optimize, and publish](/hw-docs/save-optimize-and-publish/publish-your-world): This section contains topics on how to save, optimize, and most importantly, publish your world.
+* [Safety and Privacy](/hw-docs/safety-and-privacy/community-moderation): User safety and privacy are a vital part of creating anything with Meta and Worlds are part of this. This section contains topics about safety and privacy concerns, as well as content guidelines for creating your world.
 
 ## Meta Horizon Creators Program
 

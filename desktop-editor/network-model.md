@@ -36,11 +36,11 @@ For more information, see the [Physics overview](physics).
 
 Entity ownership identifies the client that is the current authority for an entity’s state, as well as the potential to update the entity locally before broadcasting the change to other clients.
 
-Only one client can own an entity at a time. When a new world instance starts ([world.onUpdate](/horizon-worlds/learn/documentation/typescript/events/world-update-events)), the server owns all entities; however, ownership of most entities is eventually transferred to clients. Ownership typically transfers to another client when a player grabs an entity, an entity collides with an entity owned by another client, or a script initiates the [transfer](/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds#ownership-transfer).
+Only one client can own an entity at a time. When a new world instance starts ([world.onUpdate](/hw-docs/typescript/events/world-update-events)), the server owns all entities; however, ownership of most entities is eventually transferred to clients. Ownership typically transfers to another client when a player grabs an entity, an entity collides with an entity owned by another client, or a script initiates the [transfer](/hw-docs/typescript/local-scripting/ownership-in-horizon-worlds#ownership-transfer).
 
-**Note**: For information about the lifecycle of scripts and components, see [TypeScript Script Lifecycle](/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle).
+**Note**: For information about the lifecycle of scripts and components, see [TypeScript Script Lifecycle](/hw-docs/typescript/typescript-script-lifecycle).
 
-By default, all scripts run on the server. If local execution mode is enabled on a script, the script can run on the client that owns the entity the script is attached to. This can improve latency for the local player making some actions in a world feel immediate because it can bypass two or more client-server interactions. However, running scripts locally limits their interaction with events and assets. For details, see [Getting Started with Local Scripting](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting).
+By default, all scripts run on the server. If local execution mode is enabled on a script, the script can run on the client that owns the entity the script is attached to. This can improve latency for the local player making some actions in a world feel immediate because it can bypass two or more client-server interactions. However, running scripts locally limits their interaction with events and assets. For details, see [Getting Started with Local Scripting](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting).
 
 Here’s a comparison of the client server interactions needed for a client to update the state of an entity based on ownership:
 
@@ -62,7 +62,7 @@ Here’s a comparison of the client server interactions needed for a client to u
   * The update is sent to other clients
   * The other clients apply the update
 
-For details about entity ownership, see [Ownership in Meta Horizon Worlds](/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds).
+For details about entity ownership, see [Ownership in Meta Horizon Worlds](/hw-docs/typescript/local-scripting/ownership-in-horizon-worlds).
 
 ## Performance considerations
 
@@ -70,12 +70,12 @@ The following recommendation can improve the network performance of your world.
 
 * Ownership optimization:
 
-  + You should run most scripts in default execution mode. However, for scripts that require lower latency, you should enable local execution mode. For details, see [Getting Started with Local Scripting](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting).
-  + Use [local events](/horizon-worlds/learn/documentation/typescript/events/local-events) instead of [network events](/horizon-worlds/reference/2.0.0/core_networkevent) for updates that are only relevant and visible to the local player.
-  + Use [local execution mode for custom UI scripts](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/local-mode-custom-ui-scripts) to avoid unecessary network calls in custom UIs.
+  + You should run most scripts in default execution mode. However, for scripts that require lower latency, you should enable local execution mode. For details, see [Getting Started with Local Scripting](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting).
+  + Use [local events](/hw-docs/typescript/events/local-events) instead of [network events](/horizon-worlds/reference/2.0.0/core_networkevent) for updates that are only relevant and visible to the local player.
+  + Use [local execution mode for custom UI scripts](/hw-docs/desktop-editor/custom-ui/local-mode-custom-ui-scripts) to avoid unecessary network calls in custom UIs.
 * Reducing the number of animations and entities in the world also reduces the amount of data synchronized between clients, which improves network performance.
-* Use [file backed scripts](/horizon-worlds/learn/documentation/typescript/filebacked-scripts) instead of [legacy script storage](/horizon-worlds/learn/documentation/typescript/legacy-script-storage) to reduce the delivery time of scripts across the network.
+* Use [file backed scripts](/hw-docs/typescript/filebacked-scripts) instead of [legacy script storage](/hw-docs/typescript/legacy-script-storage) to reduce the delivery time of scripts across the network.
 * Measure performance:
 
-  + When capturing performance data, enable [server tracing options](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/tracing#tracing-options) so you can analyze world performance, network calls, and script updates.
-  + [Profile your UI](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/custom-ui-optimization) to analyze network RPC events associated with UI binding in custom UIs.
+  + When capturing performance data, enable [server tracing options](/hw-docs/performance-best-practices-and-tooling/performance-tools/tracing#tracing-options) so you can analyze world performance, network calls, and script updates.
+  + [Profile your UI](/hw-docs/performance-best-practices-and-tooling/performance-best-practices/custom-ui-optimization) to analyze network RPC events associated with UI binding in custom UIs.

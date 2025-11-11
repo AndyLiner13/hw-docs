@@ -16,7 +16,7 @@ To apply spring physics to an entity through your TypeScript code, you must set 
 | **Interaction** | Set to `Physics or Both`. |
 | **Gravity** | Enable it. |
 
-To ensure continuous motion toward the specified target, the spring physics methods must be called within the `World.onUpdate` loop. For more information about this event, see [World Update Events](/horizon-worlds/learn/documentation/typescript/events/world-update-events).
+To ensure continuous motion toward the specified target, the spring physics methods must be called within the `World.onUpdate` loop. For more information about this event, see [World Update Events](/hw-docs/typescript/events/world-update-events).
 
 ## Pushing an entity toward a position
 

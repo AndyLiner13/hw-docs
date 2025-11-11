@@ -13,11 +13,11 @@ The key learning objectives are the following:
 
 ## Prerequisites
 
-This tutorial requires you to use the Meta Horizon Worlds desktop editor. See [Install and run the desktop editor](/horizon-worlds/learn/documentation/get-started/install-desktop-editor) for instructions.
+This tutorial requires you to use the Meta Horizon Worlds desktop editor. See [Install and run the desktop editor](/hw-docs/get-started/install-desktop-editor) for instructions.
 
 ## Section 1: Create a new world
 
-In this section, [create a new world](/horizon-worlds/learn/documentation/desktop-editor/getting-started/creating-a-new-world) for your game.
+In this section, [create a new world](/hw-docs/desktop-editor/getting-started/creating-a-new-world) for your game.
 
 **Note**: When you’re building your world, Meta Horizon Worlds automatically saves your progress and it’s part of your online save flow.
 
@@ -224,13 +224,13 @@ In this section, you’ll configure collision detection.
     **Note**: You can’t swing the bat in desktop mode. To be able to swing the bat, you must switch to VR.
   - This step is optional for the Batting Cage tutorial.
 
-    To enable restart of this world, set the ball to its original position by resetting it with a secondary action (the button press) whenever the user wants to do so. To implement this, you can create a scripting event for a [button press](/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/action-buttons/#how-to-handle-button-presses) and attach it to a [grabbable entity](/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/intro-to-grabbable-entities/).
+    To enable restart of this world, set the ball to its original position by resetting it with a secondary action (the button press) whenever the user wants to do so. To implement this, you can create a scripting event for a [button press](/hw-docs/create-for-web-and-mobile/grabbable-entities/action-buttons/#how-to-handle-button-presses) and attach it to a [grabbable entity](/hw-docs/create-for-web-and-mobile/grabbable-entities/intro-to-grabbable-entities/).
 
 ## Section 5. Configure local scripting
 
 In this section, you’ll configure the scripts to run locally.
 
-When the player hits the ball, they take ownership of the entity that the script is attached to. In this case, it’s the Ball object. Transfer of ownership causes script processing to switch from the server to the player’s local device. This improves latency for the player. For more information, see [Ownership in Meta Horizon Worlds](/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds).
+When the player hits the ball, they take ownership of the entity that the script is attached to. In this case, it’s the Ball object. Transfer of ownership causes script processing to switch from the server to the player’s local device. This improves latency for the player. For more information, see [Ownership in Meta Horizon Worlds](/hw-docs/typescript/local-scripting/ownership-in-horizon-worlds).
 
 - Change the Execution Mode of both the Ball and Bat scripts to “Local”.
 
@@ -352,7 +352,7 @@ When the player hits the ball, they take ownership of the entity that the script
 
 - Publish your world
 
-  To [play in your world on mobile](/horizon-worlds/learn/documentation/create-for-web-and-mobile/how-to-test-on-web-and-mobile#mobile), [publish](/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-your-world) the world first. Provide the necessary information in the **Publish World** dialog, which can be opened by navigating to the dropdown menu on the menu bar or by clicking **Publish** on the top right.
+  To [play in your world on mobile](/hw-docs/create-for-web-and-mobile/how-to-test-on-web-and-mobile#mobile), [publish](/hw-docs/save-optimize-and-publish/publish-your-world) the world first. Provide the necessary information in the **Publish World** dialog, which can be opened by navigating to the dropdown menu on the menu bar or by clicking **Publish** on the top right.
 
   Enter the necessary information such as **Name**, **World Rating**, **Comfort Rating**, and **Tags**.
 
@@ -364,10 +364,10 @@ When the player hits the ball, they take ownership of the entity that the script
   Click **Publish** to publish the world.
 - Configure the preview device as mobile
 
-  To preview your world on mobile, select **Mobile** as your preview device by going to [Preview Configuration](/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#how-to-set-the-preview-configuration). Click the ellipsis button on the menu bar. In **Preview actions**, send a preview build link to your Meta Horizon app.
+  To preview your world on mobile, select **Mobile** as your preview device by going to [Preview Configuration](/hw-docs/desktop-editor/getting-started/preview-mode#how-to-set-the-preview-configuration). Click the ellipsis button on the menu bar. In **Preview actions**, send a preview build link to your Meta Horizon app.
 - Play it on mobile
 
-  Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world. For more related information, see [Testing worlds on mobile](/horizon-worlds/learn/documentation/create-for-web-and-mobile/how-to-test-on-web-and-mobile#mobile).
+  Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world. For more related information, see [Testing worlds on mobile](/hw-docs/create-for-web-and-mobile/how-to-test-on-web-and-mobile#mobile).
 
 ## Section 7. Play in your new world in VR
 
@@ -412,7 +412,7 @@ The following list contains suggestions for additional exercises.
 
 To learn more about Horizon, try the following:
 
-- See the [Tutorial worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds) for more tutorials.
-- Learn about the desktop editor with the [Introduction to the desktop editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor).
-- Learn about the other tools available by reading our [Tools overview](/horizon-worlds/learn/documentation/get-started/tools-overview).
+- See the [Tutorial worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds) for more tutorials.
+- Learn about the desktop editor with the [Introduction to the desktop editor](/hw-docs/desktop-editor/getting-started/introduction-to-desktop-editor).
+- Learn about the other tools available by reading our [Tools overview](/hw-docs/get-started/tools-overview).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

@@ -34,7 +34,7 @@ As players progress through the game they often start performing more advanced a
 
 ### VR design recommendations
 
-**Note**: VR gameplay typically averages about 30 minute sessions in comparison to mobile, which average 5-10 minutes. For information about gameplay loops on mobile and web, see [Short loop mobile world design guidance](/horizon-worlds/learn/documentation/create-for-web-and-mobile/short-loop-mobile-world-design-guidance).
+**Note**: VR gameplay typically averages about 30 minute sessions in comparison to mobile, which average 5-10 minutes. For information about gameplay loops on mobile and web, see [Short loop mobile world design guidance](/hw-docs/create-for-web-and-mobile/short-loop-mobile-world-design-guidance).
 
 **Engagement:**
 
@@ -43,8 +43,8 @@ As players progress through the game they often start performing more advanced a
   + Start simple and build a fun and engaging experience.
   + Provide fun mechanics and social dynamics quickly.
 * Provide players with a sense of mastery early.
-* Leverage the [physics system](/horizon-worlds/learn/documentation/desktop-editor/physics) to respond to movement and collisions.
-* Use [local scripting](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting) to optimize latency for the local player.
+* Leverage the [physics system](/hw-docs/desktop-editor/physics) to respond to movement and collisions.
+* Use [local scripting](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting) to optimize latency for the local player.
 
 **Player input:**
 
@@ -132,7 +132,7 @@ A progression loop is a long-term loop that supports progression over numerous h
 
 ### Achievements
 
-The achievements system allows you to define a list of player objectives for tracking player progression and display the progress with players. You can define, read, and write player achievements using code blocks and then display them using the [Achievements gizmo](/horizon-worlds/learn/documentation/vr-creation/scripting/create-player-achievements), which you can also access using [TypeScript](/horizon-worlds/reference/2.0.0/core_achievementsgizmo).
+The achievements system allows you to define a list of player objectives for tracking player progression and display the progress with players. You can define, read, and write player achievements using code blocks and then display them using the [Achievements gizmo](/hw-docs/vr-creation/scripting/create-player-achievements), which you can also access using [TypeScript](/horizon-worlds/reference/2.0.0/core_achievementsgizmo).
 
 ## Monetization
 
@@ -144,23 +144,23 @@ In the core loop, the event might be a disruptive ad or a poor roll on a paid it
 
 ## Measuring effectiveness
 
-In addition to testing and using [performance tools](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/using-performance-tools-from-web-and-mobile), you can measure the effectiveness of your gameplay loops by using gameplay metrics provided by the In-World Analytics framework.
+In addition to testing and using [performance tools](/hw-docs/performance-best-practices-and-tooling/performance-tools/using-performance-tools-from-web-and-mobile), you can measure the effectiveness of your gameplay loops by using gameplay metrics provided by the In-World Analytics framework.
 
-The In-World Analytics framework provides scripts and APIs for capturing metrics that provide insight into the effectiveness of your gameplay loops. The framework includes the following [modules](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics#in-world-analytics-modules) for capturing progression, rewards, gameplay actions, and friction events directly from your scripts.
+The In-World Analytics framework provides scripts and APIs for capturing metrics that provide insight into the effectiveness of your gameplay loops. The framework includes the following [modules](/hw-docs/performance-best-practices-and-tooling/analytics/using-in-world-analytics#in-world-analytics-modules) for capturing progression, rewards, gameplay actions, and friction events directly from your scripts.
 
 * Loops and steps modules: Rounds, Stages, Sections
 * Progression modules: Rewards, LevelUp, Tasks
 * Friction modules: Friction, Death, KOEnemy, KOPlayer
 
-For more information, see [Using In-World Analytics](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics).
+For more information, see [Using In-World Analytics](/hw-docs/performance-best-practices-and-tooling/analytics/using-in-world-analytics).
 
 ## Frame and script integration
 
-A gameplay loop of any size runs over multiple frames that execute in multiple stages where players, physics, world updates, components, and rendering are updated every frame. For details about where your code runs throughout a frame sequence, see the [Frames overview](/horizon-worlds/learn/documentation/desktop-editor/frames).
+A gameplay loop of any size runs over multiple frames that execute in multiple stages where players, physics, world updates, components, and rendering are updated every frame. For details about where your code runs throughout a frame sequence, see the [Frames overview](/hw-docs/desktop-editor/frames).
 
-For information about how scripts execute and how to integrate a sequence of events into a script, see the [TypeScript Lifecycle](/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle) guide.
+For information about how scripts execute and how to integrate a sequence of events into a script, see the [TypeScript Lifecycle](/hw-docs/typescript/typescript-script-lifecycle) guide.
 
 ## Additional information
 
-* [Q&A Session: Gameplay Loops](/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/qa-session-gameplay-loops-with-victor-riddel)
-* [Q&A Session: New User Experience](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/new-user-experience)
+* [Q&A Session: Gameplay Loops](/hw-docs/mhcp-program/qa-sessions/qa-session-gameplay-loops-with-victor-riddel)
+* [Q&A Session: New User Experience](/hw-docs/mhcp-program/community-tutorials/new-user-experience)

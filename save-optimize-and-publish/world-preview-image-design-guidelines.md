@@ -12,17 +12,17 @@ Preview images are the visual first impression of your world. High-quality, enga
 | Portrait | 9:16 | 810x1440 px | 24-bit PNG | [.psd](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499301245_1297406618721956_4090531774289224127_n.zip?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=J1IF-VNGTVcQ7kNvwGO-fsu&_nc_oc=AdlqmIvKH-vlqMEfNNtWWH9g4mWfm-PxyvdZwD0RY5jSejK3P3z7O8qBccTbjaS81d0&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afi9ko6C3eFOyF8yiHEH_a3252qoCslGDJfxwKWluOLd7w&oe=692C1027)  , [.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499312032_688955387440269_953389463363890037_n.zip?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=CszTOb1Cax0Q7kNvwEc-UFu&_nc_oc=AdnVXtDwujMv7dIUTmknX95M7ufGubDxEJxhAegkTl-AbUxC5JovvdA4KYis_ZZ9cN8&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfjmNH48WKpfQHHCprVFD-DbMITHYApk0Dm74LLx8lKvJg&oe=692BEA8E) , [.fig](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/499307931_1237200417714939_8126624171608485421_n.zip?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=45bzXEJ4j2kQ7kNvwG9sYtP&_nc_oc=Adm4zQRyCJUyhkJsqU4Tl6UTTff95HuEGLSHU0m3r2J_-g5dgknRjxZRr_mKzROP7qo&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfhwDO2uO-G7zk8Qk29puZUmpFNpnfzI9rvl1XtDBiF7mA&oe=692BDA32) |
 | Square | 1:1 | 1440x1440 px | 24-bit PNG | [.psd](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499301245_1297406618721956_4090531774289224127_n.zip?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=J1IF-VNGTVcQ7kNvwGO-fsu&_nc_oc=AdlqmIvKH-vlqMEfNNtWWH9g4mWfm-PxyvdZwD0RY5jSejK3P3z7O8qBccTbjaS81d0&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afi9ko6C3eFOyF8yiHEH_a3252qoCslGDJfxwKWluOLd7w&oe=692C1027)  , [.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499312032_688955387440269_953389463363890037_n.zip?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=CszTOb1Cax0Q7kNvwEc-UFu&_nc_oc=AdnVXtDwujMv7dIUTmknX95M7ufGubDxEJxhAegkTl-AbUxC5JovvdA4KYis_ZZ9cN8&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfjmNH48WKpfQHHCprVFD-DbMITHYApk0Dm74LLx8lKvJg&oe=692BEA8E)  , [.fig](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/499307931_1237200417714939_8126624171608485421_n.zip?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=45bzXEJ4j2kQ7kNvwG9sYtP&_nc_oc=Adm4zQRyCJUyhkJsqU4Tl6UTTff95HuEGLSHU0m3r2J_-g5dgknRjxZRr_mKzROP7qo&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfhwDO2uO-G7zk8Qk29puZUmpFNpnfzI9rvl1XtDBiF7mA&oe=692BDA32) |
 
-**Important**: Assets must adhere to the [safe zone templates](/horizon-worlds/learn/documentation/save-optimize-and-publish/world-preview-image-design-guidelines#safe-zones) to ensure optimal display of your preview images across Horizon. Failure to comply may result in a poor visual experience.
+**Important**: Assets must adhere to the [safe zone templates](/hw-docs/save-optimize-and-publish/world-preview-image-design-guidelines#safe-zones) to ensure optimal display of your preview images across Horizon. Failure to comply may result in a poor visual experience.
 
 ![Landscape sample](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/518485676_766422425895711_3007599421805144563_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=gKIbT5vHJOQQ7kNvwGF7sYh&_nc_oc=Adk13MjT0dy_TJh36S6K-dT84JJU1_e6xwctKt9vUjKwMVK66EEVCx73xpTTHf4Ghc0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=10OM5dQFYfpfgEW3X0b3kw&oh=00_AfgkuwqKlNAoBnG3suTRKHtSagMNmQKFsw888DfkczFsMQ&oe=692BFAC5)
 
-An example of a set of image previews that have been optimized for landscape (16:9), portrait (9:16), and square (1:1) aspect ratios. Check out our tips on [designing preview images](/horizon-worlds/learn/documentation/save-optimize-and-publish/world-preview-image-design-guidelines#designing-preview-images-for-various-aspect-ratios).
+An example of a set of image previews that have been optimized for landscape (16:9), portrait (9:16), and square (1:1) aspect ratios. Check out our tips on [designing preview images](/hw-docs/save-optimize-and-publish/world-preview-image-design-guidelines#designing-preview-images-for-various-aspect-ratios).
 
 ## Where can users see preview images?
 
 Preview images of your world(s) are displayed on various discovery surfaces on mobile and in VR, such as **Feed**, **Search**, and **Store**. Quality images are a proven, powerful lever to increase interest and downstream engagement. World images are the “book covers” in Meta Horizon, where accurate and exciting images can improve visits and time spent up to 40%.
 
-The closer the image is to the world experience, the more users will engage deeply with that world. To learn more about worlds discovery surfaces, as well as tips and tricks on improving the discoverability of your world, check [Intro to Worlds Discovery](/horizon-worlds/learn/documentation/save-optimize-and-publish/intro-to-worlds-discovery).
+The closer the image is to the world experience, the more users will engage deeply with that world. To learn more about worlds discovery surfaces, as well as tips and tricks on improving the discoverability of your world, check [Intro to Worlds Discovery](/hw-docs/save-optimize-and-publish/intro-to-worlds-discovery).
 
 ## Image examples
 
@@ -65,7 +65,7 @@ Once you’ve created image assets for your world, you can upload them via the H
 
 * Keep key focal points within the safe area. This ensures important visual elements aren’t cut off on different surfaces or devices.
 * Maintain visual consistency. All images should use the same core imagery to help users recognize your experience across various surfaces.
-* Design your images for scalability. Images may appear at different sizes depending on the [discovery surface](/horizon-worlds/learn/documentation/save-optimize-and-publish/intro-to-worlds-discovery). Make sure key visuals remain clear and legible at any scale.
+* Design your images for scalability. Images may appear at different sizes depending on the [discovery surface](/hw-docs/save-optimize-and-publish/intro-to-worlds-discovery). Make sure key visuals remain clear and legible at any scale.
 * Don’t place your text in corners. Text in these areas is more likely to be cut off or overlooked. Using the templates provided will ensure important info falls within the safe zone.
 * Skip taglines or extra descriptions. Let your visuals speak for themselves.
 
@@ -124,8 +124,8 @@ For an optimal display across all available aspect ratios, consider these helpfu
 
 Preview images are displayed on various discovery surfaces on mobile and in VR, such as **Feed**, **Search**, and **Store**. Quality images are a proven, powerful lever to increase interest and downstream engagement. World images are the “book covers” in Meta Horizon, where accurate and exciting images can improve visits and time spent up to 40%.
 
-The closer the image is to the world experience, the more users will engage deeply with that world. To learn more about worlds discovery surfaces, as well as tips and tricks on improving the discoverability of your world, check [Intro to Worlds Discovery](/horizon-worlds/learn/documentation/save-optimize-and-publish/intro-to-worlds-discovery).
+The closer the image is to the world experience, the more users will engage deeply with that world. To learn more about worlds discovery surfaces, as well as tips and tricks on improving the discoverability of your world, check [Intro to Worlds Discovery](/hw-docs/save-optimize-and-publish/intro-to-worlds-discovery).
 
 ## Uploading preview images
 
-You can upload images using the Developer Dashboard. For more information, see [Add world details](/horizon-worlds/learn/documentation/save-optimize-and-publish/add-world-details-in-horizon/).
+You can upload images using the Developer Dashboard. For more information, see [Add world details](/hw-docs/save-optimize-and-publish/add-world-details-in-horizon/).

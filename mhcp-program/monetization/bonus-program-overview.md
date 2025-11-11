@@ -8,7 +8,7 @@ There are currently three types of bonuses creators can earn: Time Spent on Mobi
 
 Each world has a monthly max limit of $250,000 across the bonus types, however creators have no limit on earnings at an individual level.
 
-To track the progress of your bonus, go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) and navigate to **Creator Program** > **Bonuses**. For more information, please review the [Bonus Program Analytics](/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-portal-bonus-program-analytics) article.
+To track the progress of your bonus, go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) and navigate to **Creator Program** > **Bonuses**. For more information, please review the [Bonus Program Analytics](/hw-docs/mhcp-program/monetization/creator-portal-bonus-program-analytics) article.
 
 **Note:** Creator bonuses are not subject to hardware platform fees and will be paid to creators in full. Meta Horizon Worlds Creator bonuses will be offered for a limited time. Over time, bonuses and goals may evolve, for example, to encourage creators to adopt new tools or features. Bonuses for headset and mobile goals are tracked and awarded separately.
 
@@ -55,10 +55,10 @@ These are one-time rewards that can be earned as creators grow their mobile worl
 * 200 mobile monthly active users and 200 hrs monthly mobile time spent = $1,000 reward
 * 200 mobile monthly active users and 350 hrs monthly mobile time spent = $1,000 reward
 * **How to reach new milestones**: The best way for a creator to reach the next milestone is by increasing the number of visitors and eligible time spent in their worlds by people on mobile devices. If you need help creating engaging mobile experiences, there are few creator focus sessions available on this topic:
-* [Learn how to adapt your worlds for mobile devices](/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/mhcp-session-deep-dive-meta-horizon-worlds-with-andy-sargeant)
-* [Crash course on designing mobile-first worlds](/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/cross-screens-crash-course-week-1)
-* [Viral games ideas for mobile worlds](/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/cross-screens-crash-course-week-2)
-* [Proven engagement strategies to expand your audience](/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/scaling-success-on-mobile/)
+* [Learn how to adapt your worlds for mobile devices](/hw-docs/mhcp-program/focus-sessions/mhcp-session-deep-dive-meta-horizon-worlds-with-andy-sargeant)
+* [Crash course on designing mobile-first worlds](/hw-docs/mhcp-program/focus-sessions/cross-screens-crash-course-week-1)
+* [Viral games ideas for mobile worlds](/hw-docs/mhcp-program/focus-sessions/cross-screens-crash-course-week-2)
+* [Proven engagement strategies to expand your audience](/hw-docs/mhcp-program/focus-sessions/scaling-success-on-mobile/)
 
 ## Bonus enrollment
 
@@ -68,4 +68,4 @@ Enrollment is available via the **Monetization Bonus** tab of the [Developer Das
 
 Sign ups typically close about 7 days before the end of the month, as sign ups for the next month open. All monthly bonus earnings will be paid to your payout account within 60 days following the end of each bonus period.
 
-Creators participating in any monetization programs, including in-world purchases and creator bonuses, are required to follow all Meta Horizon Worlds policies in order to be eligible for earnings, including the [Code of Conduct for Virtual Experiences Policy](https://www.meta.com/legal/quest/code-of-conduct-for-virtual-experiences/) and [Meta Horizon Worlds Content Guidelines](/horizon-worlds/learn/documentation/save-optimize-and-publish/restrictions-to-worlds-in-horizon).
+Creators participating in any monetization programs, including in-world purchases and creator bonuses, are required to follow all Meta Horizon Worlds policies in order to be eligible for earnings, including the [Code of Conduct for Virtual Experiences Policy](https://www.meta.com/legal/quest/code-of-conduct-for-virtual-experiences/) and [Meta Horizon Worlds Content Guidelines](/hw-docs/save-optimize-and-publish/restrictions-to-worlds-in-horizon).

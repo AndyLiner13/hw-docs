@@ -14,13 +14,13 @@ To open the view modes menu, select the view icon on the right side of the toolb
 
 ![The debugging view mode icon](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485353085_677084098162878_564880857810169754_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=AW4esPIvLp4Q7kNvwG9NIB3&_nc_oc=AdmtJkIlPr0pOzxJOd5ek8PE5Vs24c-hxp1RlY6tMDJHfhG0rOoBL6kUMpXyQdicnjQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=geUzyu3Rha5BKTvnWEddNA&oh=00_AfiLajpMwlXVZCXIDy2NHkR3TuCpWGsn7bQOv93yWQduYg&oe=692BFEAB)
 
-Hovering your cursor over each option reveals a description of the view mode. See [Available view modes](/horizon-worlds/learn/documentation/view-modes-for-debugging#available-view-modes) for further details. After selecting an option, the view mode will be displayed inside the dropdown button. Hovering over this dropdown button will also show you the active view mode.
+Hovering your cursor over each option reveals a description of the view mode. See [Available view modes](/hw-docs/view-modes-for-debugging#available-view-modes) for further details. After selecting an option, the view mode will be displayed inside the dropdown button. Hovering over this dropdown button will also show you the active view mode.
 
 ![List of Available viewmodes](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484836232_677084111496210_6923534349643550921_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=wPiLmP_l_WIQ7kNvwHx34vu&_nc_oc=AdnjET54AMPMFerslh_JC1tHzL1FCvidjWw5jga2BKF1SSRRy7gh8WnPOfCvTfnti2A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=geUzyu3Rha5BKTvnWEddNA&oh=00_AfgT-e7yPCxr1yZAUbeHRA5T9fvZFvW9728ifitrX7oKow&oe=692BE210)
 
 ### Opening in VR
 
-In VR, first [Enable the Utilities Menu](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/enable-the-utilities-menu/), then open your wearable and select the desired view mode.
+In VR, first [Enable the Utilities Menu](/hw-docs/performance-best-practices-and-tooling/performance-tools/enable-the-utilities-menu/), then open your wearable and select the desired view mode.
 
 ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75348041_964519652195117_6384169750030954787_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=fvefzMqTIkQQ7kNvwFstak2&_nc_oc=AdkvgXLofgCoa3jWAeYAlEFIUYsy78KlHBf9UY_9VNvKRB8sKp9zh-Axlpyo3WANbCw&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfjP5P98M0eZ9fRRNCX2GVI9ramoyYQAXaUTxgozKJKLtw&oe=692BE27A)
 
@@ -33,7 +33,7 @@ In VR, first [Enable the Utilities Menu](/horizon-worlds/learn/documentation/per
 | **Solid wireframe** | - Wireframe over a solid material.   - This option places a solid material underneath the wireframe, it’s useful for displaying objects that are apart and distinguishing which objects are closer to the camera. |
 | **Shaded wireframe** | - Wireframe over the object’s texture.   - Use this view to understand how textures are affected by their underlying mesh geometry and debug texture issues that may be caused by the meshes underneath them.   - **Note:** There is a known bug in the desktop editor where jumping to Preview mode while Shaded Wireframe mode is active causes the player to pass through geometry. |
 | **Collision** | - Shows object colliders.   - Use this view to see which objects have colliders. You can also use this to optimize the performance of a world to disable collisions on objects that players can’t reach, reducing the overall complexity. |
-| **Overdraw** | - Shows pixel overdraw.   - Use this view to see where the same pixels are being drawn more than once in a scene so you can better optimize your world.   - See the [Overdraw view mode](/horizon-worlds/learn/documentation/desktop-editor/getting-started/view-modes-for-debugging#overdraw-view-mode) section for more information. |
+| **Overdraw** | - Shows pixel overdraw.   - Use this view to see where the same pixels are being drawn more than once in a scene so you can better optimize your world.   - See the [Overdraw view mode](/hw-docs/desktop-editor/getting-started/view-modes-for-debugging#overdraw-view-mode) section for more information. |
 
 ## Keyboard shortcuts
 

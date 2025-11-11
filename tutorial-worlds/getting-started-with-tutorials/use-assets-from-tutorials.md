@@ -25,7 +25,7 @@ To add an entity to your Asset Library, please complete the following steps. Whe
 - Add a meaningful name and description for the asset.
 - Choose the appropriate folder where you would like to store the asset.
 
-**Note**: For assets that you would like to share with your team or across multiple worlds, you should store them in a shared folder. For more information, see [Shared Folders](/horizon-worlds/learn/documentation/desktop-editor/assets/shared-folders/).
+**Note**: For assets that you would like to share with your team or across multiple worlds, you should store them in a shared folder. For more information, see [Shared Folders](/hw-docs/desktop-editor/assets/shared-folders/).
 
 - Click **Create**. The asset template is created in the selected folder.
 
@@ -35,7 +35,7 @@ This asset template is now available for you to use in any world!
 
 To add the asset to a world, open the Asset Library tab in the desktop editor. Locate the folder where the asset is located. Drag the asset into the world.
 
-Asset templates can also be spawned into a world at runtime using TypeScript. For more information, see [Spawning and Pooling in TypeScript](/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup).
+Asset templates can also be spawned into a world at runtime using TypeScript. For more information, see [Spawning and Pooling in TypeScript](/hw-docs/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup).
 
 ## Use Scripts from Worlds
 
@@ -67,7 +67,7 @@ If you are using the desktop editor, scripts are stored as independent files in 
 
 **Note**: You cannot copy and paste files from one world’s directory to another. These files are not automatically picked up by the desktop editor and integrated into the world’s codebase. Instead, you must open the files and copy out the contents, pasting them into new or existing script files associated with the target world.
 
-**Note**: These worlds are non-FBS worlds. In a non-FBS world, the option to Spawn New Gizmo from a script in the Script panel is not available. For more information, see [Tutorial Assumptions](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-assumptions).
+**Note**: These worlds are non-FBS worlds. In a non-FBS world, the option to Spawn New Gizmo from a script in the Script panel is not available. For more information, see [Tutorial Assumptions](/hw-docs/tutorial-worlds/getting-started-with-tutorials/tutorial-assumptions).
 
 To locate your files, please do the following:
 

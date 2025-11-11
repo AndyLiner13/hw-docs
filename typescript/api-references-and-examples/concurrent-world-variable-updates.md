@@ -206,5 +206,5 @@ const result = await this.world.persistentStorageWorld.setWorldVariableAcros
 
 ## Related APIs
 
-* [World Level Variables Guide](/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/world-level-variables) - Introduction to world variables and basic operations
+* [World Level Variables Guide](/hw-docs/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/world-level-variables) - Introduction to world variables and basic operations
 * [IPersistentStorageWorld API Reference](/horizon-worlds/reference/2.0.0/core_ipersistentstorageworld) - API for reading and updating world variable values

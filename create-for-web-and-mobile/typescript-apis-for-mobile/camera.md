@@ -205,8 +205,8 @@ You can use the Local Camera API to enable and disable camera collision. Camera 
 Small spaces can cause the camera to move very close to the avatar, making navigation difficult. If your world includes many small spaces, consider:
 
 * Disabling camera collision
-* Switching to [first-person camera mode](/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/camera/#how-to-set-the-first-person-camera-mode)
-* Enabling [perspective switching](/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/camera/#how-to-enable-and-disable-perspective-switching)
+* Switching to [first-person camera mode](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/camera/#how-to-set-the-first-person-camera-mode)
+* Enabling [perspective switching](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/camera/#how-to-enable-and-disable-perspective-switching)
 
 ```vs
 import LocalCamera from 'horizon/camera';
@@ -256,12 +256,12 @@ For advanced orientation-based camera control and detection, you can use the exp
 * Detect when players are viewing your world in portrait vs landscape orientation.
 * Create different camera behaviors for each orientation.
 
-For comprehensive documentation and examples, see [Portrait Camera API](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/portrait-camera-api).
+For comprehensive documentation and examples, see [Portrait Camera API](/hw-docs/typescript/api-references-and-examples/portrait-camera-api).
 
-You can also configure orientation-specific camera parameters directly in the [spawn point gizmo’s Mobile Camera Options](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-spawn-point-gizmo#mobile-camera-options) without scripting.
+You can also configure orientation-specific camera parameters directly in the [spawn point gizmo’s Mobile Camera Options](/hw-docs/code-blocks-and-gizmos/use-the-spawn-point-gizmo#mobile-camera-options) without scripting.
 
 ## Related documentation
 
-* [Portrait Camera API](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/portrait-camera-api) - Experimental API for orientation detection and control
-* [Spawn Point Gizmo - Mobile Camera Options](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-spawn-point-gizmo#mobile-camera-options) - Configure camera settings for different orientations
-* [Preview Mode - Setting the Preview Device](/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#setting-the-preview-device) - Test camera behavior in different orientations
+* [Portrait Camera API](/hw-docs/typescript/api-references-and-examples/portrait-camera-api) - Experimental API for orientation detection and control
+* [Spawn Point Gizmo - Mobile Camera Options](/hw-docs/code-blocks-and-gizmos/use-the-spawn-point-gizmo#mobile-camera-options) - Configure camera settings for different orientations
+* [Preview Mode - Setting the Preview Device](/hw-docs/desktop-editor/getting-started/preview-mode#setting-the-preview-device) - Test camera behavior in different orientations

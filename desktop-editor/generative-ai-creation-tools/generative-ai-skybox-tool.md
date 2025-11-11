@@ -10,8 +10,8 @@ The Generative AI Skybox Generation Tool allows you to dynamically generate skyb
 
 ## Prerequisites
 
-* [Horizon Desktop Editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor) installed on your PC.
-* One or more 3D models imported into your [personal asset library](/horizon-worlds/learn/documentation/desktop-editor/assets/creating-importing-viewing-and-spawning-assets#importing-assets) in Desktop Editor.
+* [Horizon Desktop Editor](/hw-docs/desktop-editor/getting-started/introduction-to-desktop-editor) installed on your PC.
+* One or more 3D models imported into your [personal asset library](/hw-docs/desktop-editor/assets/creating-importing-viewing-and-spawning-assets#importing-assets) in Desktop Editor.
 
 Gen AI Tool Availability & Rates
 

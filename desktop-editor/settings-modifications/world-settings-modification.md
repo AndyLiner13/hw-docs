@@ -15,7 +15,7 @@ Open the **World Settings** panel to modify the settings you want to change. Set
 
 ### Essential
 
-* **Thumbnail:** An image representing your world. [Click here](/horizon-worlds/learn/documentation/get-started/asset-thumbnail-creation-horizon) for more information on creating asset thumbnails.
+* **Thumbnail:** An image representing your world. [Click here](/hw-docs/get-started/asset-thumbnail-creation-horizon) for more information on creating asset thumbnails.
 * **Title:** A name for your world.
 * **Description:** A short, punchy description of what makes your world special.
 * **Age rating:** Select the minimum recommended age for players to access your world. This will guide you through a few questions to determine the appropriate age rating.

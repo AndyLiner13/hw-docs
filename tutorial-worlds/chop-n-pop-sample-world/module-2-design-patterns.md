@@ -62,4 +62,4 @@ During development of this tutorial world, it became evident that the ammo crate
 
 **Note**: These assets still occupy runtime memory and may exhibit behaviors if they have scripts attached to them. In this world, ammunition does nothing until it is attached to a gun, and a HUD is only effective when it is attached to a player’s avatar.
 
-For a more detailed explanation of pre-spawned versus spawned assets, you can explore the Spawning and Pooling tutorial. For more information, see [Spawning and Pooling](/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup).
+For a more detailed explanation of pre-spawned versus spawned assets, you can explore the Spawning and Pooling tutorial. For more information, see [Spawning and Pooling](/hw-docs/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup).

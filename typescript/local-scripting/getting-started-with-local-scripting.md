@@ -16,7 +16,7 @@ To set your script to run in local scripting mode in Desktop Editor, perform the
 
 ## Entity ownership
 
-To better understand how local vs. server-side scripting interacts with entity ownership, see the [Ownership in Meta Horizon Worlds](/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds/) docs.
+To better understand how local vs. server-side scripting interacts with entity ownership, see the [Ownership in Meta Horizon Worlds](/hw-docs/typescript/local-scripting/ownership-in-horizon-worlds/) docs.
 
 With your script set to local scripting mode, your code runs locally when the entity with the attached local script transfers ownership from the server to a player. Entity ownership changes in the following cases:
 

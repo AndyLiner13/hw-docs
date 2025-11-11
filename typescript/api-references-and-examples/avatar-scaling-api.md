@@ -20,9 +20,9 @@ The following image shows the avatar is scaled down to jump through the doughnut
 
 ## Prerequisites
 
-* [TypeScript API version 2.0.0 or later](/horizon-worlds/learn/documentation/typescript/upgrade-world-to-typescript-api-v200).
+* [TypeScript API version 2.0.0 or later](/hw-docs/typescript/upgrade-world-to-typescript-api-v200).
 * The API is available in [horizon/core/player](/horizon-worlds/reference/2.0.0/core_player).
-* [Enable the API module](/horizon-worlds/learn/documentation/typescript/upgrade-world-to-typescript-api-v200#upgrading-your-world).
+* [Enable the API module](/hw-docs/typescript/upgrade-world-to-typescript-api-v200#upgrading-your-world).
 
 ## Limitations
 
@@ -34,7 +34,7 @@ The recommendation is to change the scale when the avatar teleports to another l
 
 ## Sample code
 
-The following sample shows you how to use the `avatarScale` property in the [Player](/horizon-worlds/reference/2.0.0/core_player) class. When the user uses the [right grip action](/horizon-worlds/reference/2.0.0/core_playerinputaction), the player avatar scale will be increased. When the user uses the [left grip action](/horizon-worlds/reference/2.0.0/core_playerinputaction), the avatar scale will be decreased. Keep in the mind that the example only iterates between 3 different scales, which are 10%, 100%, and 500%. Additionally, the sample also uses custom input APIs, learn more in the [developer guide](/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/custom-input-api) and the [API reference guide](/horizon-worlds/reference/2.0.0/core_playercontrols).
+The following sample shows you how to use the `avatarScale` property in the [Player](/horizon-worlds/reference/2.0.0/core_player) class. When the user uses the [right grip action](/horizon-worlds/reference/2.0.0/core_playerinputaction), the player avatar scale will be increased. When the user uses the [left grip action](/horizon-worlds/reference/2.0.0/core_playerinputaction), the avatar scale will be decreased. Keep in the mind that the example only iterates between 3 different scales, which are 10%, 100%, and 500%. Additionally, the sample also uses custom input APIs, learn more in the [developer guide](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/custom-input-api) and the [API reference guide](/horizon-worlds/reference/2.0.0/core_playercontrols).
 
 ```vs
 import * as hz from 'horizon/core';
@@ -91,5 +91,5 @@ hz.Component.register(SetAvatarScale);
 
 Try more tutorials and follow examples in these topics:
 
-* [Scripting](/horizon-worlds/learn/documentation/typescript/typescript)
-* [Tutorial worlds](/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game)
+* [Scripting](/hw-docs/typescript/typescript)
+* [Tutorial worlds](/hw-docs/tutorial-worlds/build-your-first-game/module-1-build-your-first-game)

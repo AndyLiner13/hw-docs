@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 # Custom Input API
 
-**Note**: This feature requires [local scripting](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting).
+**Note**: This feature requires [local scripting](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting).
 
 ## Overview
 

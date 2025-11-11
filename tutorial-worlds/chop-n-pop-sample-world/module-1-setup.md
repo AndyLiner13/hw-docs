@@ -34,9 +34,9 @@ To explore the finished world on mobile or desktop, please use the following lin
 
 ## Prerequisites
 
-Before you begin, please verify that you have acquired access to your own copy of the Chop ‘N Pop: Graveyard Bash world. For more information, see [Access Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+Before you begin, please verify that you have acquired access to your own copy of the Chop ‘N Pop: Graveyard Bash world. For more information, see [Access Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
-**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you might want to start with the Build your first game tutorial. See [Module 1 - Build your first game](/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
+**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you might want to start with the Build your first game tutorial. See [Module 1 - Build your first game](/hw-docs/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 ## Get Started
 
@@ -98,7 +98,7 @@ FBS is a script-related feature that can be enabled in your world. Please do the
   ![Image of settings to enable File Backed Scripts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489750052_692135419991079_739814288388774121_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=-m4mX1N4fnQQ7kNvwHUt5bw&_nc_oc=AdkZOqtuEvgCm-alMND107o07xmGBw4mZilBWDw4CWAQFP6ARenxphLMKqxOH2c8kkA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PEpnRDq2osNPr6mODlPQlA&oh=00_AfhKw7NIVacph1GZW0GiqbdBDoAgxVmIFg_VNcXnmHOnHA&oe=692BDDAC)
 - To upgrade your world to FBS, click **Update**. **This change cannot be undone.**
 
-For more information, see [Use File-Backed Scripts](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-file-backed-scripts).
+For more information, see [Use File-Backed Scripts](/hw-docs/code-blocks-and-gizmos/use-file-backed-scripts).
 
 ### Gen AI
 
@@ -110,9 +110,9 @@ Using a few words, you can prompt Gen AI to generate a sound, which you can modi
 
 ### NPCs
 
-The zombies and skeletons in the world are taken from the NPC library available to creators through the desktop editor. NPCs allow you to deploy premade animated assets, which you can augment with TypeScript-based behavior. For more information on NPCs, see [NPCs](/horizon-worlds/learn/documentation/desktop-editor/npcs/npcs).
+The zombies and skeletons in the world are taken from the NPC library available to creators through the desktop editor. NPCs allow you to deploy premade animated assets, which you can augment with TypeScript-based behavior. For more information on NPCs, see [NPCs](/hw-docs/desktop-editor/npcs/npcs).
 
-In Chop ‘N Pop: Graveyard Bash, NPCs are controlled by a dedicated system, which also surfaces a set of configurable parameters for each type of NPC. For more information, see [Module 10 - NPC System](/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-10-npc-system).
+In Chop ‘N Pop: Graveyard Bash, NPCs are controlled by a dedicated system, which also surfaces a set of configurable parameters for each type of NPC. For more information, see [Module 10 - NPC System](/hw-docs/tutorial-worlds/chop-n-pop-sample-world/module-10-npc-system).
 
 ## Learning Pathways
 
@@ -127,9 +127,9 @@ In your world, you can begin exploring the entities in the world to learn by mak
 
 ### Using the systems
 
-Another approach is to explore through the docs to learn how to use individual systems. For example, if you need to learn more about how to deploy loot into your game, you can check out the [Module 11 - Loot System](/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-11-loot-system).
+Another approach is to explore through the docs to learn how to use individual systems. For example, if you need to learn more about how to deploy loot into your game, you can check out the [Module 11 - Loot System](/hw-docs/tutorial-worlds/chop-n-pop-sample-world/module-11-loot-system).
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ### A Note on Unity
 

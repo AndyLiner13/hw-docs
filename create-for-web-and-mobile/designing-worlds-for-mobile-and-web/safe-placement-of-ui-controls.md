@@ -14,11 +14,11 @@ When designing for portrait orientation on mobile devices, the available screen 
 
 When testing your world’s UI for portrait orientation:
 
-- Use the [**Preview Configuration**](/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#setting-the-preview-device) options to ensure safe zones are kept clear to avoid overlapping UI.
+- Use the [**Preview Configuration**](/hw-docs/desktop-editor/getting-started/preview-mode#setting-the-preview-device) options to ensure safe zones are kept clear to avoid overlapping UI.
 - Consider how UI elements stack vertically rather than horizontally in portrait mode.
 - Test with different device models to account for various screen aspect ratios and safe areas.
 
-**Note:** You can configure different camera parameters for portrait and landscape orientations using the [spawn point gizmo](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-spawn-point-gizmo#mobile-camera-options) to optimize the visual experience for each orientation.
+**Note:** You can configure different camera parameters for portrait and landscape orientations using the [spawn point gizmo](/hw-docs/code-blocks-and-gizmos/use-the-spawn-point-gizmo#mobile-camera-options) to optimize the visual experience for each orientation.
 
 * ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452615758_512532801284676_8886395584801346512_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=qUUKjO0G1eAQ7kNvwGXR47_&_nc_oc=AdmPpqjtrSmgJLD768dmUIHV6g9SYU1aDwKZ3BQRnMU04-WUzMRTofTwUB8_7UcTT8M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Zt3J3sYA4sMcZRXBVMjJoA&oh=00_AfjcIw_WsBjFx6rF08uYZ-ctOGi56kjlEqxT0jxgrKMTDg&oe=692C0484) Unobstructed.
 * ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452883040_512532784618011_112216473924849842_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qM3uOMWp64UQ7kNvwGrZQ_S&_nc_oc=Adl7BQt2MI0qiunNO7pRBCCMWeH6WIAc_N4fO0emVvO8UQeNz6KxvwUwfSJK0l0P5xY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Zt3J3sYA4sMcZRXBVMjJoA&oh=00_AficRSXDiKZ7-5k_ESp-sIWq62sRJ3JPW8JX9eAPf2hpCw&oe=692C0C73) Potentially obstructed.

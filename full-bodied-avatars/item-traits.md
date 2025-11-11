@@ -21,7 +21,7 @@ Some things to keep in mind about item traits:
 To create item traits for your avatar clothing items, use the following process:
 
 - Navigate to <http://horizon.meta.com/creator/avatars>![Item Inventory](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/508606932_744511384753482_5044016739761263342_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=dCsNlvppQYkQ7kNvwGZ5ekY&_nc_oc=AdmiJJGDwlzwKSBqhYVv6YOvcDMwtQ1ftFzkLtNOXs9nc3JwPDshk0wEMK_jjlKl9Vo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Go9b4_bSWkI6swpA_zI_qA&oh=00_AfgXjJkk9GgoNypk0g4RBbOIq9YX40OpxAvORzLyzO_TgQ&oe=692C0712)
-- Select an item from your created items list. If you need to create an item, check [Avatar Clothing Creation & Selling](/horizon-worlds/learn/documentation/full-bodied-avatars/avatar-clothing-creation-and-selling).
+- Select an item from your created items list. If you need to create an item, check [Avatar Clothing Creation & Selling](/hw-docs/full-bodied-avatars/avatar-clothing-creation-and-selling).
 - In the edit modal, click **Add script**.
 - For the traits description, write something that will describe to players how your item will affect their experience in affected worlds.
 - In the JSON input, add a JSON object with one more stats. Values can be booleans, numbers, strings, arrays, or even objects. For example:

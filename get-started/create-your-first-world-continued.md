@@ -4,12 +4,12 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-start
 
 **Welcome to Part 2 of the Creating Your First World Tutorial**
 
-In this tutorial, you’ll continue to learn how to create a simple game in Horizon Worlds, where you shoot marauding skeletons in a graveyard. Where [Create your first world tutorial, part 1](/horizon-worlds/learn/documentation/get-started/create-your-first-world) showed you how to create a new world and build the basics of the game, part 2 will take you a bit farther.
+In this tutorial, you’ll continue to learn how to create a simple game in Horizon Worlds, where you shoot marauding skeletons in a graveyard. Where [Create your first world tutorial, part 1](/hw-docs/get-started/create-your-first-world) showed you how to create a new world and build the basics of the game, part 2 will take you a bit farther.
 Part 2 shows you how to import custom models, which are which are complex 3D models that are not available in the public asset library. You won’t be creating them here—you’ll use demo assets so you can see how they’re imported. Once you’ve done that, the tutorial shows you how to write a basic script and attach it to the entity to create behavior. The tutorial ends with testing the simple game in virtual reality.
 
-Creating customs models is outside the scope of this tutorial, but if you want to find out more about them, see [Creating a custom model](/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/creating-a-custom-model).
+Creating customs models is outside the scope of this tutorial, but if you want to find out more about them, see [Creating a custom model](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/creating-a-custom-model).
 
-If you’re looking for the first half of the tutorial, go to the [Introductory Tutorial part 1](/horizon-worlds/learn/documentation/get-started/create-your-first-world).
+If you’re looking for the first half of the tutorial, go to the [Introductory Tutorial part 1](/hw-docs/get-started/create-your-first-world).
 
 The key things you should learn from this module are the following:
 
@@ -18,9 +18,9 @@ The key things you should learn from this module are the following:
 * Scripting entity behavior
 * Trying your world in virtual reality
 
-**Note**: This tutorial assumes that you’ve completed the prerequisites discussed in [Create your first world tutorial introduction](/horizon-worlds/learn/documentation/get-started/create-a-new-world-intro).
+**Note**: This tutorial assumes that you’ve completed the prerequisites discussed in [Create your first world tutorial introduction](/hw-docs/get-started/create-a-new-world-intro).
 
-This part of the tutorial requires that you first complete [part 1](/horizon-worlds/learn/documentation/get-started/create-your-first-world), as this is a continutation of that process.
+This part of the tutorial requires that you first complete [part 1](/hw-docs/get-started/create-your-first-world), as this is a continutation of that process.
 
 ## Step 1: Add a pedestal and a rifle
 
@@ -45,7 +45,7 @@ In part 1 of this tutorial, you created the graveyard. But if you’re going to 
   ![Adding a new 3D model](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/514366312_756887446849209_4679233969024346019_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=VnNzSleQUV8Q7kNvwG76OCT&_nc_oc=Adn0C6rvazzmtK_8jlvuZ90-RsTRDUGXb76OIgOTiR26ByDxRL5EcC6PWjyyqs-ujpo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rrlmmi1JPI9czGN_ZqeeIg&oh=00_AfhL_-8m5P1Nl4hgQcessSHx8lbwsN7kRIe-eH5ZPDiSWQ&oe=692BFD4D)
 - In the **Import Models** dialog box, enable **Preserve offset pivots** if it isn’t selected already.
 
-  Because of the way they move, certain assets use [offset pivot points](/horizon-worlds/learn/documentation/desktop-editor/assets/offset-pivots), where the point around which they turn or pivot is offset from the center of the asset. This is so animation of the asset can look natural.
+  Because of the way they move, certain assets use [offset pivot points](/hw-docs/desktop-editor/assets/offset-pivots), where the point around which they turn or pivot is offset from the center of the asset. This is so animation of the asset can look natural.
 
   Ignore the warning the dialog box shows: all the assets that this tutorial works with are [single mesh](/horizon-worlds/ learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/materials-guidance-and-reference-for-custom-models) files.
 
@@ -86,7 +86,7 @@ In part 1 of this tutorial, you created the graveyard. But if you’re going to 
 
   b. Click **Add New**, and then click **3D Model**.
 
-  c. In the **Import Models** dialog box, disable **Preserve offset pivots** because the 3D model for the rifle uses [more than one material for the mesh in the FBX file](/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/multiple-materials-per-mesh).
+  c. In the **Import Models** dialog box, disable **Preserve offset pivots** because the 3D model for the rifle uses [more than one material for the mesh in the FBX file](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/multiple-materials-per-mesh).
 
   ![Don't preserve Offset Pivots](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/464008566_573870171817605_7978731282074208552_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=8d02F5ef_CkQ7kNvwFrVlI4&_nc_oc=AdlZr29xsHeIasNM5W36aT4YfCTU5ZxDp6ekswa74husQ0JxNxXkMn14yZYfGYMzDc8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rrlmmi1JPI9czGN_ZqeeIg&oh=00_AfiYiBmgnFncuZI4dBrxjTjSt5g9Wema05gYP4qNJUIncA&oe=692BD906)
 
@@ -299,7 +299,7 @@ In this section, you’ll update the script so that you score a point each time 
 
   ![Pirate skeleton](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/464152935_573869948484294_7911900688495928080_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q2SLUEpFLPUQ7kNvwFkAcuz&_nc_oc=AdmsaU-ar_TdHW_GzR0mY9BypdouoWOVMhjAlPmFQtP_s-ssR4pVrPHVP4BH5RcRCp4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rrlmmi1JPI9czGN_ZqeeIg&oh=00_AfgDml9iJmtDSeZByUe2R1bagpRfAQKgq7ZtYVKHCW6q3g&oe=692BF642)
 
-  A skeleton object named [UnityAssetBundleGizmo](/horizon-worlds/learn/documentation/desktop-editor/assets/unity-assetbundles/horizon-unity-assetbundles-overview) is added to your Hierarchy, and appears in your scene.
+  A skeleton object named [UnityAssetBundleGizmo](/hw-docs/desktop-editor/assets/unity-assetbundles/horizon-unity-assetbundles-overview) is added to your Hierarchy, and appears in your scene.
 - Rename the skeleton object from “UnityAssetBundleGizmo” to “Target”.
 - Position the target anywhere in the scene.
 - Update your script so that whenever a projectile hits an object, a point is added to your score. You’ll need to add a variable to track the current point value, and to initialize its value to zero. Add the following statement near the top of your class, just above the `start()` function.
@@ -528,7 +528,7 @@ You’re done! You’ve completed building a game in Meta Horizon Worlds! In the
 
 To learn more about Meta Horizon Worlds, try the following:
 
-* Try the [Batting cage tutorial](/horizon-worlds/learn/documentation/get-started/batting-cage-tutorial) now that you’ve created your first world.
-* Learn about the desktop editor with the [Introduction to the desktop editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor).
-* Learn about the other tools available by reading our [Tools overview](/horizon-worlds/learn/documentation/get-started/tools-overview).
+* Try the [Batting cage tutorial](/hw-docs/get-started/batting-cage-tutorial) now that you’ve created your first world.
+* Learn about the desktop editor with the [Introduction to the desktop editor](/hw-docs/desktop-editor/getting-started/introduction-to-desktop-editor).
+* Learn about the other tools available by reading our [Tools overview](/hw-docs/get-started/tools-overview).
 * Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

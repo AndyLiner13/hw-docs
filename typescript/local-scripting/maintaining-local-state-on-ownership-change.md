@@ -6,7 +6,7 @@ If a local script’s entity transfers ownership, the script’s runtime state i
 
 To ensure state information is passed from one player to another when an entity transfers ownership, you can override the `transferOwnership` and `receiveOwnership` functions to specify data to pass when ownership of the object changes. In this manner, when the gun is picked up by a new player, it has the same amount of ammunition as when the previous player dropped it.
 
-**Tip**: To better understand how local vs. server-side scripting interacts with entity ownership, see the [Ownership in Meta Horizon Worlds](/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds/) docs.
+**Tip**: To better understand how local vs. server-side scripting interacts with entity ownership, see the [Ownership in Meta Horizon Worlds](/hw-docs/typescript/local-scripting/ownership-in-horizon-worlds/) docs.
 
 **Note**: Components require a custom `State` type for data transferred when ownership of the entity changes. You should define this `State` type and include its definition in your `Component<Props, State>` definition. An example is provided below.
 

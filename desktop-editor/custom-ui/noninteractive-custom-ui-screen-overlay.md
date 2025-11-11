@@ -26,7 +26,7 @@ Based on the above information, you’ll notice that the screen overlay feature 
 
 ### Create a screen overlay from scratch
 
-- When you [create a UI with the **Custom UI** gizmo](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel#step-1-create-a-custom-ui-gizmo), find the [**Display Mode** property](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/custom-ui-panel-configurations) under **Visual & Interaction** on the **Properties** panel.
+- When you [create a UI with the **Custom UI** gizmo](/hw-docs/desktop-editor/custom-ui/creating-a-custom-ui-panel#step-1-create-a-custom-ui-gizmo), find the [**Display Mode** property](/hw-docs/desktop-editor/custom-ui/custom-ui-panel-configurations) under **Visual & Interaction** on the **Properties** panel.
 
   ![The Visual and Interaction section on the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487875307_686297440574877_2174095531124152284_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=QNrLdzG19VsQ7kNvwHSFUBg&_nc_oc=Adn-ZhlTSDj0AqeWZ7E00aKnupzOIW1NODl50Maf52rPIMVzSh1uGr-xFlLAdMsomqY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=69te8wufC6PbPHjYuqSpUA&oh=00_AfiDiGW_4kwHogGo_rVM-iULe9-_E6dAPKEUig1kuXfaWQ&oe=692BE008)
 - Switch the **Display Mode** to **Screen Overlay**.
@@ -101,7 +101,7 @@ Now that you have created these two screen overlays, you can see two UI layouts 
 
 ### Player-specific screen overlay
 
-Similar to spatial custom UI, you’re using the `Binding` class to display content for players which means you can display different screen overlay content to different for each player. Custom UI screen overlay also fully supports [player-specific UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui/).
+Similar to spatial custom UI, you’re using the `Binding` class to display content for players which means you can display different screen overlay content to different for each player. Custom UI screen overlay also fully supports [player-specific UI](/hw-docs/desktop-editor/custom-ui/playerspecific-custom-ui/).
 
 ## Control visibility of screen overlay
 
@@ -124,4 +124,4 @@ In certain scenarios, you may observe that the UI aligns well on web and mobile 
 
 ## What’s next?
 
-Try the tutorial world on [non-interactive screen overlay](/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-10-timer-and-build-info-overlays).
+Try the tutorial world on [non-interactive screen overlay](/hw-docs/tutorial-worlds/custom-ui-examples-tutorial/station-10-timer-and-build-info-overlays).

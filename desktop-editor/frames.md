@@ -31,32 +31,32 @@ Simulation is the process of calculating the world state at a specific moment in
 Simulation includes the following tasks.
 
 - **Pre-physics updates**
-  * Broadcasts the [World.onPrePhysicsUpdate](reference/2.0.0/core_world#onprephysicsupdate) event [locally](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the player’s position so physics can react to the movement; however, you don’t typically use this event to move entities.
+  * Broadcasts the [World.onPrePhysicsUpdate](reference/2.0.0/core_world#onprephysicsupdate) event [locally](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the player’s position so physics can react to the movement; however, you don’t typically use this event to move entities.
 - **Physics updates**
   * Updates the player’s position and pose based on locomotion input.
   * Updates animation playback.
-  * Runs physics calculations, applying force and torque to entities that have [simulation enabled](/horizon-worlds/learn/documentation/desktop-editor/physics#physical-entities).
-  * Detects collisions with objects, players, and [triggers](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-trigger-zone), and queues the associated [CodeBlockEvents](/horizon-worlds/learn/documentation/typescript/events/codeblock-events) to run in the [scripting phase](#scripting).
+  * Runs physics calculations, applying force and torque to entities that have [simulation enabled](/hw-docs/desktop-editor/physics#physical-entities).
+  * Detects collisions with objects, players, and [triggers](/hw-docs/code-blocks-and-gizmos/use-the-trigger-zone), and queues the associated [CodeBlockEvents](/hw-docs/typescript/events/codeblock-events) to run in the [scripting phase](#scripting).
 - **Post-physics updates**
-  * Broadcasts the [World.onUpdate](reference/2.0.0/core_world#onupdate) event [locally](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the position of entities, or to update the player’s position as a result of physics interactions.
+  * Broadcasts the [World.onUpdate](reference/2.0.0/core_world#onupdate) event [locally](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the position of entities, or to update the player’s position as a result of physics interactions.
 
-For more information about physics simulation, see the [physics overview](/horizon-worlds/learn/documentation/desktop-editor/physics).
+For more information about physics simulation, see the [physics overview](/hw-docs/desktop-editor/physics).
 
 ### Scripting
 
-The scripting phase initializes components, handles event processing, applies pending scene graph changes, and initiates [entity ownership](/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds) transfer. A scene graph is a collection of all of entities, their attributes, and relationships in the world.
+The scripting phase initializes components, handles event processing, applies pending scene graph changes, and initiates [entity ownership](/hw-docs/typescript/local-scripting/ownership-in-horizon-worlds) transfer. A scene graph is a collection of all of entities, their attributes, and relationships in the world.
 
 The scripting phase includes the following tasks.
 
 - **Scene graph preparation**
   * Buffers the current [scene graph mutations](#scene-graph-mutations) performed throughout the frame. Mutations performed after this step aren’t committed to the scene graph for this frame.
 - **Component initialization**
-  * Executes script files due to the world instance starting, [asset spawning](/horizon-worlds/learn/documentation/typescript/asset-spawning/introduction-to-asset-spawning), or [world streaming](/horizon-worlds/learn/documentation/typescript/asset-spawning/world-streaming). In this step the script is only run in the top-level scope.
-  * Instantiates and starts new components due to the world instance starting, asset spawning, world streaming, or due to [ownership transferring](/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds) to the current client. For more information about instantiating components, see the [component lifecycle](/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle#typescript-component-lifecycle) guide.
+  * Executes script files due to the world instance starting, [asset spawning](/hw-docs/typescript/asset-spawning/introduction-to-asset-spawning), or [world streaming](/hw-docs/typescript/asset-spawning/world-streaming). In this step the script is only run in the top-level scope.
+  * Instantiates and starts new components due to the world instance starting, asset spawning, world streaming, or due to [ownership transferring](/hw-docs/typescript/local-scripting/ownership-in-horizon-worlds) to the current client. For more information about instantiating components, see the [component lifecycle](/hw-docs/typescript/typescript-script-lifecycle#typescript-component-lifecycle) guide.
 - **Event processing**
   * Runs [NetworkEvent](/horizon-worlds/reference/2.0.0/core_networkevent) listeners.
   * Runs [PlayerInput](/horizon-worlds/reference/2.0.0/core_playerinput) callbacks.
-  * Runs [CodeBlockEvent](/horizon-worlds/learn/documentation/typescript/events/codeblock-events) listeners including [built-in](/horizon-worlds/reference/2.0.0/core_codeblockevents) code block events, such as those prepared in the [physics update](#simulation-phase) step.
+  * Runs [CodeBlockEvent](/hw-docs/typescript/events/codeblock-events) listeners including [built-in](/horizon-worlds/reference/2.0.0/core_codeblockevents) code block events, such as those prepared in the [physics update](#simulation-phase) step.
 - **Scene graph updates**
   * Applies the scene graph mutations prepared at the beginning of the scripting phase.
 - **Final Callbacks**
@@ -64,7 +64,7 @@ The scripting phase includes the following tasks.
   * Calls the [transferOwnership()](/horizon-worlds/reference/2.0.0/core_component#transferownership) and [receiveOwnership()](/horizon-worlds/reference/2.0.0/core_component#receiveownership) callbacks.
   * Disconnects event subscriptions from components marked for disposal and calls the [Component.dispose()](/horizon-worlds/reference/2.0.0/core_component#dispose) callback on them.
 
-For more information about scripts, see [Scripting using TypeScript](/horizon-worlds/learn/documentation/typescript/typescript).
+For more information about scripts, see [Scripting using TypeScript](/hw-docs/typescript/typescript).
 
 #### Scene graph mutations
 
@@ -94,7 +94,7 @@ Synchronization is the process of synchronizing the state of the world over the 
 - Prepare received network events for processing during the next frame.
 - Network events created in this frame are broadcast to other clients.
 
-[Network synchronization](/horizon-worlds/learn/documentation/desktop-editor/network-model#synchronization) and ownership is optimized to improve performance of entities that have physics simulation enabled. For details about physics simulation and synchronization, see the [Physics overview](/horizon-worlds/learn/documentation/desktop-editor/physics#ownership-and-synchronization).
+[Network synchronization](/hw-docs/desktop-editor/network-model#synchronization) and ownership is optimized to improve performance of entities that have physics simulation enabled. For details about physics simulation and synchronization, see the [Physics overview](/hw-docs/desktop-editor/physics#ownership-and-synchronization).
 
 ### Rendering
 
@@ -118,6 +118,6 @@ The amount of time it takes for a client or server to complete a frame update cy
 
 The frame rate for clients is the number of frames rendered; for the server, because the server doesn’t render frames, this is the number of completed frame cycles. Clients can have different frame rates. For example, the server typically cycles through frames at 60 FPS, while many VR headsets run at 72 FPS. As a result, scripts often run more frequently on clients than on the server.
 
-The frame time is useful for running physics simulations and animations, but the time can vary with each frame. As a result, in your code, you shouldn’t rely on a specific frame rate or frame time. Instead, use the delta time provided by the [world update events](/horizon-worlds/learn/documentation/typescript/events/world-update-events) to get the time that elapsed from the start of the previous frame to the start of the current frame, in milliseconds.
+The frame time is useful for running physics simulations and animations, but the time can vary with each frame. As a result, in your code, you shouldn’t rely on a specific frame rate or frame time. Instead, use the delta time provided by the [world update events](/hw-docs/typescript/events/world-update-events) to get the time that elapsed from the start of the previous frame to the start of the current frame, in milliseconds.
 
 There is no separate physics simulation rate. In many game engines, physics simulation runs at a different rate than rendering does. The physics simulation rate is often referred to as a fixed update. In Meta Horizon Worlds, every client executes the same cycle every frame, which includes both physics simulation and rendering.

@@ -41,7 +41,7 @@ To build this world based on this tutorial, you must create a copy for yourself.
 - Select the **Tutorials** tab.
 - Select **Developing for Mobile and Web Players: Follow Along** world in the **Advanced Tutorials** shelf.
 
-You can create a new world based on a tutorial world from the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+You can create a new world based on a tutorial world from the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ### Explore complete world
 
@@ -49,7 +49,7 @@ You can check out the final version of the tutorial world by selecting the **Dev
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ## Before You Begin
 
@@ -61,7 +61,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0. You can learn more about how to upgrade your own world to TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](/horizon-worlds/learn/documentation/typescript/upgrade-world-to-typescript-api-v200).
+See [Getting Started with Tutorials](/hw-docs/typescript/upgrade-world-to-typescript-api-v200).
 
 ## Prerequisites
 
@@ -71,13 +71,13 @@ To follow along and complete this tutorial, you need the following:
 * The Meta Horizon Worlds app installed on your Quest device.
 * The desktop editor downloaded and installed on a PC device.
 
-See [Tutorial Prerequisites](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
+See [Tutorial Prerequisites](/hw-docs/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 Optional:
 
 * An integrated development environment (IDE) can be connected to the desktop editor for building your TypeScript scripts.
   + Visual Studio Code is recommended.
-    **Note**: If you are new to the Meta Horizon Worlds desktop editor, you might want to start with the first tutorial. See [Build your first game](/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
+    **Note**: If you are new to the Meta Horizon Worlds desktop editor, you might want to start with the first tutorial. See [Build your first game](/hw-docs/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 **Note**: This tutorial is built on TypeScript API version 2.0.0.
 
@@ -95,7 +95,7 @@ Before you begin, please verify that you have acquired access to your own world 
 
 Open this world in the desktop editor, where you can explore it in either Build mode or Preview mode to familiarize yourself with the world and its structures before modifying it.
 
-**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you should check out the “Build your first game” tutorial to learn the basics of building worlds and TypeScript scripts in the desktop editor. See [Build your first game](/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
+**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you should check out the “Build your first game” tutorial to learn the basics of building worlds and TypeScript scripts in the desktop editor. See [Build your first game](/hw-docs/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 ### Game overview
 
@@ -111,7 +111,7 @@ This tutorial explores how to deliver compelling experiences across these platfo
 * Web (desktop)
 * Mobile
 
-As part of the development process, you must test your work on each of these platforms, which requires setting up a development environment for them. For more information, see [Preview device](/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#preview-device).
+As part of the development process, you must test your work on each of these platforms, which requires setting up a development environment for them. For more information, see [Preview device](/hw-docs/desktop-editor/getting-started/preview-mode#preview-device).
 
 ### Using the modules
 

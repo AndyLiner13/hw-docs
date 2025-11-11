@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 ### Haptic feedback
 
-It’s a good idea to use [Tracing](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/tracing/) to verify the cost of haptic feedback in your world. In some cases, the cost can be extreme. In this case you should look into modifying/removing the haptic feedback.
+It’s a good idea to use [Tracing](/hw-docs/performance-best-practices-and-tooling/performance-tools/tracing/) to verify the cost of haptic feedback in your world. In some cases, the cost can be extreme. In this case you should look into modifying/removing the haptic feedback.
 
 ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452415052_512500641287892_3419482455229549771_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=dYuBCxR03iUQ7kNvwE0Diou&_nc_oc=AdlGJECyPabOPGDG4DN_v0sHzP7fivbHCP6nxrmmuVWw_lkQdhJPXDs5DAdiYLuls-c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TWTpkIvIDQG4Y4C8Jy5Piw&oh=00_AfjDuJS-prcOVrVXV5LbBi1I114aV2Wk5QIgEpEkhbYqTg&oe=692BFB33)*In this example, haptic feedback takes ~7.8 ms per frame when active.*
 
@@ -30,7 +30,7 @@ A large number of active animators in a world can quickly add up to a significan
 
 ## Implement level of detail (LOD)
 
-[Level of Detail](/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/manual-level-of-detail-overview) improves performance by reducing the complexity of objects that are far away from the player. This optimization decreases GPU workload by rendering fewer polygons and lower-detail assets for objects that occupy less of the screen. This results in faster rendering times and better overall performance.
+[Level of Detail](/hw-docs/desktop-editor/help-and-reference/manual-level-of-detail-overview) improves performance by reducing the complexity of objects that are far away from the player. This optimization decreases GPU workload by rendering fewer polygons and lower-detail assets for objects that occupy less of the screen. This results in faster rendering times and better overall performance.
 
 ## TypeScript optimization
 
@@ -44,7 +44,7 @@ You can use deep profiling to find out what the expensive bridge calls actually 
 
 *Toggle to enable deep tracing*
 
-See the [Tracing documentation](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/tracing) for more information.
+See the [Tracing documentation](/hw-docs/performance-best-practices-and-tooling/performance-tools/tracing) for more information.
 
 To optimize scripting CPU usage, focus on bridge calls.
 
@@ -401,7 +401,7 @@ Component.register(PoolSpawnManager);
 
 ## Custom UI optimization
 
-Custom UI allows for maximum developer flexibility but misuse of the feature can *significantly* degrade performance. Because UIs are built with a Typescript API, optimizing your use of Typescript is a good first step. This section assumes you have a good understanding of the [Custom UI Typescript API](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel).
+Custom UI allows for maximum developer flexibility but misuse of the feature can *significantly* degrade performance. Because UIs are built with a Typescript API, optimizing your use of Typescript is a good first step. This section assumes you have a good understanding of the [Custom UI Typescript API](/hw-docs/desktop-editor/custom-ui/creating-a-custom-ui-panel).
 
 Highlights:
 
@@ -409,7 +409,7 @@ Highlights:
 * Reduce the number of binding set calls.
 * Binding set calls and callbacks are networked RPC events between the local client and server, so the total time of each async operation is bound by the network latency of the viewer.
 * Do not define bindings without a concrete purpose. This may happen by writing a custom abstract API layer wrapping the base UI components (View, Image, Pressable, etc.), and defining bindings for every prop as a convenience to consumers. On the local client, a binding set operation passes the entire key-value store to ReactVR. So the bigger this gets, the greater the CPU cost to perform a single binding set.
-* Animations, by way of periodic binding updates, should be implemented with care or not at all. This is due to the twofold nature of the bridge call frequency limits, and network latency and droughts/bursts associated with that. Consider using the [Animation API](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/animations-for-custom-ui) instead when needing animations for UI.
+* Animations, by way of periodic binding updates, should be implemented with care or not at all. This is due to the twofold nature of the bridge call frequency limits, and network latency and droughts/bursts associated with that. Consider using the [Animation API](/hw-docs/desktop-editor/custom-ui/animations-for-custom-ui) instead when needing animations for UI.
 
 ![Architecutral diagram of the server-client relationship](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501031261_729959856208635_1618126584846801507_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6GqJCh_0v-cQ7kNvwEyTJHi&_nc_oc=AdnaR3pIYbtage3hPsnkn-ruufYOzHXK7SgP5p7LOxcWL8v1x2yn1EZwx4-0Q43bSPc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TWTpkIvIDQG4Y4C8Jy5Piw&oh=00_Afidtu5eebdqDbT7f0xnBjeddguO8BDQcz5Esyr_CWVSUw&oe=692BFB7E)
 *Architectural diagram of the server-client relationship*
@@ -457,7 +457,7 @@ The following table shows the limit we have found for binding sets and callbacks
 The communication loop between a UI panel rendered on a client, and the associated TypeScript engine on the server, is limited by the network latency of the viewer. That can affect the following situations:
 
 * Style changes based on raycast/mouse interaction events like OnHover
-* Animations driven from TypeScript by a sequence of binding set updates over a period of creating/building Animations using the [Animation API](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/animations-for-custom-ui).
+* Animations driven from TypeScript by a sequence of binding set updates over a period of creating/building Animations using the [Animation API](/hw-docs/desktop-editor/custom-ui/animations-for-custom-ui).
 
 Even working within the binding and callback limits above, viewers may notice UI delays associated with the network call round-trip.
 

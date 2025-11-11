@@ -18,8 +18,8 @@ Welcome to the Text as Assets tutorial world! The goal of the world is to show s
 
 Before hopping in, you may want to take a look at the following worlds that showcase how to use the basic versions of the concepts used inside the Text as Assets world:
 
-* **Build your first game**: This world covers the desktop editor application, a primary interface for world building. Through the desktop editor, you can access and build TypeScripts to power your world. For more information, see [Build your first game](/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
-* You also should also take a look at the [feature documentation](/horizon-worlds/learn/documentation/desktop-editor/assets/data-as-an-asset).
+* **Build your first game**: This world covers the desktop editor application, a primary interface for world building. Through the desktop editor, you can access and build TypeScripts to power your world. For more information, see [Build your first game](/hw-docs/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
+* You also should also take a look at the [feature documentation](/hw-docs/desktop-editor/assets/data-as-an-asset).
 
 ## Key game development areas
 
@@ -30,17 +30,17 @@ Before hopping in, you may want to take a look at the following worlds that show
 
 ## Introduction to Text As Assets Tutorial world
 
-This world demonstrates some examples of using the Text as Assets or Data As Assets feature as it is seen in the [official documentation](/horizon-worlds/learn/documentation/desktop-editor/assets/data-as-an-asset).
+This world demonstrates some examples of using the Text as Assets or Data As Assets feature as it is seen in the [official documentation](/hw-docs/desktop-editor/assets/data-as-an-asset).
 
 **Note**: This world only uses JSON as text assets. No other format for text as assets is supported.
 
 ### Get started
 
-Before you begin, please verify that you have acquired access to your own copy of the tutorial world through the Creation Home screen in the desktop editor. For more information on this workflow, see [Access Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+Before you begin, please verify that you have acquired access to your own copy of the tutorial world through the Creation Home screen in the desktop editor. For more information on this workflow, see [Access Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 Open your copy in the desktop editor, where you can explore it in either Build mode or Preview mode to familiarize yourself with the world and its structures before modifying it.
 
-**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you might want to start with the Build your first game tutorial. See [Build your first game](/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
+**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you might want to start with the Build your first game tutorial. See [Build your first game](/hw-docs/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 ### On mobile and desktop
 
@@ -52,8 +52,8 @@ There are three stations in the world, each described in one of the following mo
 
 ### Clone world
 
-To get started, you must create a new world based on the tutorial world. For more information on this workflow, see [Access Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+To get started, you must create a new world based on the tutorial world. For more information on this workflow, see [Access Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).

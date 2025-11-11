@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 # Focused Interaction
 
-**Note**: This feature requires [local scripting](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting).
+**Note**: This feature requires [local scripting](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting).
 
 Focused Interaction is an interaction mode for users of the web and mobile version of Meta Horizon Worlds. This mode replaces the default input, such as the on-screen joysticks and buttons, with touch and click events on the screen. You use Focused Interaction to provide user interactions that feel more intuitive to desktop and mobile users. It gives them the ability to interact directly with objects within the world by clicking, tapping, swiping or dragging.
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Build an interactive custom UI
 
-This topic shows you how to build an interactive custom UI, because creating a static, [non-interactive UI panel](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel) is only the beginning. In most cases, you’d want to build dynamic UI panels that interact with the rest of the world. These are the two types of interactions:
+This topic shows you how to build an interactive custom UI, because creating a static, [non-interactive UI panel](/hw-docs/desktop-editor/custom-ui/creating-a-custom-ui-panel) is only the beginning. In most cases, you’d want to build dynamic UI panels that interact with the rest of the world. These are the two types of interactions:
 
 * Calling TypeScript from the UI:
 
@@ -11,7 +11,7 @@ This topic shows you how to build an interactive custom UI, because creating a s
 
   TypeScript can control and update what is being displayed in the UI at runtime after the UI is initialized.
 
-This topic and [Build a dynamic custom UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui) explore these capabilities by working through an example. Consider a game where the players are given a chance to change the color for a ball. In the UI, you’d like to have a text prompt and a confirmation button in the UI. After any player clicks the button, you’d want the ball’s color to be updated, button removed, and the prompt’s content and color changed.
+This topic and [Build a dynamic custom UI](/hw-docs/desktop-editor/custom-ui/building-dynamic-custom-ui) explore these capabilities by working through an example. Consider a game where the players are given a chance to change the color for a ball. In the UI, you’d like to have a text prompt and a confirmation button in the UI. After any player clicks the button, you’d want the ball’s color to be updated, button removed, and the prompt’s content and color changed.
 
 The following image is an interactive UI showing a text prompt and a confirmation button.
 ![A text prompt and a confirmation button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522652_512500634621226_5566709019236532182_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=LUFOYQLHfRkQ7kNvwHu0z5n&_nc_oc=AdlRK6XbZFHBDt0uMUgJ3xmA-rsKKTIkra6HISYVZp0QXuBWAVlu9xBg6-SlKyvTdu0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5tLMukgXEjk89ZAMF9B1rQ&oh=00_Afhf5wSm8AM3sHs0_E9ZUiX6WNAXYi6CObzLcTTbwojxFA&oe=692C0462)
@@ -142,7 +142,7 @@ Pressable({
 })
 ```
 
-You will explore more in [Player-specific UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui/) with an advanced example.
+You will explore more in [Player-specific UI](/hw-docs/desktop-editor/custom-ui/playerspecific-custom-ui/) with an advanced example.
 
 ## Working with class methods
 
@@ -202,4 +202,4 @@ onClick: () => this.setBallColor(new Color(0.9, 0.2, 0.2)),
 
 ## What’s next?
 
-The example continues in [Build a dynamic custom UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui).
+The example continues in [Build a dynamic custom UI](/hw-docs/desktop-editor/custom-ui/building-dynamic-custom-ui).

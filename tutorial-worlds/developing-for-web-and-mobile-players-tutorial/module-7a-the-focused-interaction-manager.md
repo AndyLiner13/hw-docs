@@ -555,8 +555,8 @@ To double check if you have correctly implemented the Focused Interaction Manage
 
 #### Additional documentation:
 
-* [How to Use Focused Interaction](/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/focused-interaction/)
-* [Local Scripting for Mobile and Web](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting/)
+* [How to Use Focused Interaction](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/focused-interaction/)
+* [Local Scripting for Mobile and Web](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting/)
 
 #### API docs:
 

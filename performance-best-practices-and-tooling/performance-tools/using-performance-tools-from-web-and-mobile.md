@@ -53,7 +53,7 @@ Click the **Back** button to return to the Performance panel.
 
 ## Tracing
 
-With Tracing, you can capture performance data from your world to [view in Perfetto](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/analyzing-trace-data-with-perfetto). You can choose between three trace types:
+With Tracing, you can capture performance data from your world to [view in Perfetto](/hw-docs/performance-best-practices-and-tooling/performance-tools/analyzing-trace-data-with-perfetto). You can choose between three trace types:
 
 * **Overview** - An overview trace can help set a baseline for how your world is performing in visit mode. It captures high-level data like FPS, CPU, and GPU. Additionally, overview provides a high-level capture of metrics like physics, rendering, and lighting to identify possible sources of performance impact and provide a direction for deeper investigation.
 * **Deep** - A deep trace provides scripting information and metrics like draw calls. It’s best used for identifying specific performance improvements like optimizing physics, colliders, and tri/poly count of certain meshes as well as reducing draw calls in a particular area. Deep traces are the most commonly run because they can give more specific, actionable information when it comes to performance optimizations.
@@ -89,8 +89,8 @@ When a trace is completed in mobile or web, the results are uploaded to the [Dev
 
 To learn more about Meta Horizon Worlds, try the following:
 
-- [Create your first world](/horizon-worlds/learn/documentation/get-started/create-your-first-world/) using our step-by-step tutorial.
-- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/troubleshooting/)
-- Learn about the desktop editor with the [Introduction to the Desktop Editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor/).
-- Learn about the other tools available by reading our [Tools Overview](/horizon-worlds/learn/documentation/get-started/tools-overview/).
+- [Create your first world](/hw-docs/get-started/create-your-first-world/) using our step-by-step tutorial.
+- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/hw-docs/desktop-editor/help-and-reference/troubleshooting/)
+- Learn about the desktop editor with the [Introduction to the Desktop Editor](/hw-docs/desktop-editor/getting-started/introduction-to-desktop-editor/).
+- Learn about the other tools available by reading our [Tools Overview](/hw-docs/get-started/tools-overview/).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.

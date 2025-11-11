@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-start
 
 Meta Horizon provides a variety of tools so you can create engaging worlds quickly and efficiently.
 
-You can use [VR creation tools](/horizon-worlds/learn/documentation/vr-creation) or PC creation tools.
+You can use [VR creation tools](/hw-docs/vr-creation) or PC creation tools.
 
 PC creation tools support cross-platform publishing across MR and mobile, offering richer creation capabilities. The PC environment provides efficient world-building with established workflows and powerful tools like the desktop editor, custom model import, and TypeScript scripting, enabling immersive, interactive, and fun experiences.
 
@@ -39,8 +39,8 @@ Using the desktop editor to build your world makes it easier to:
 * Update entity property values
 * Write and debug TypeScript code
 
-To install the desktop editor, see [Install the desktop editor](/horizon-worlds/learn/documentation/get-started/install-desktop-editor).
-To get started using the editor, see the [Introduction to the desktop editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor/).
+To install the desktop editor, see [Install the desktop editor](/hw-docs/get-started/install-desktop-editor).
+To get started using the editor, see the [Introduction to the desktop editor](/hw-docs/desktop-editor/getting-started/introduction-to-desktop-editor/).
 
 ## TypeScript
 
@@ -51,7 +51,7 @@ TypeScript is a strongly-typed version of JavaScript. Strong typing provides tig
 * Leverage IntelliSense (code completion).
 * Catch errors during development, rather than at runtime.
 
-To get started, see [Using TypeScript in Worlds](/horizon-worlds/learn/documentation/typescript/getting-started/using-typescript-in-horizon-worlds/).
+To get started, see [Using TypeScript in Worlds](/hw-docs/typescript/getting-started/using-typescript-in-horizon-worlds/).
 
 ## Custom Model Import
 
@@ -63,7 +63,7 @@ A custom 3D model is composed of multiple files, and you need to specify all of 
 * One or more PNG files. These are image files, and they contain textures that map onto the 3D model’s surface to make the spawned object look more realistic.
   You can also create your own static lighting and collision models for your imported 3D models.
 
-To get started, see [Getting started with custom model import](/horizon-worlds/learn/documentation/custom-model-import/getting-started-with-custom-model-import).
+To get started, see [Getting started with custom model import](/hw-docs/custom-model-import/getting-started-with-custom-model-import).
 
 ## NPCs
 
@@ -86,7 +86,7 @@ These NPC archetypes act in the following ways:
 * **Antagonist**: These are enemy NPC characters. Antagonist NPCs can move, fight, and obstruct the player from accomplishing an objective. You can add AI to control this character archetype to add more personality and a higher level of decision-making ability.
 * **Ally**: Friendly NPC characters. Ally NPC characters are aligned with the player’s objective. Ally NPC characters can operate on something in the scene. They can follow the player, and they can hide from the player.
 
-For more information, see [Getting started with NPC assets](/horizon-worlds/learn/documentation/desktop-editor/npcs/getting-started-with-npc-assets).
+For more information, see [Getting started with NPC assets](/hw-docs/desktop-editor/npcs/getting-started-with-npc-assets).
 
 ## Performance tools
 
@@ -95,7 +95,7 @@ Real-time performance metrics and server-side tracing can help you as a creator,
 The **Performance** tab displays a real-time view of all currently selected metrics. You can select which metrics to display on the tab and you can also set a target number for each metric. When a metric exceeds the defined target, a red dot appears next to that metric as an alert.
 This tab also supports scrubbing and tracing. With scrubbing, you can review data that has recently appeared on the **Performance** tab (approximately 30 seconds worth) in detail. With tracing, you can capture performance data from your world to view in Perfetto. Perfetto is a third-party tool for performance instrumentation and trace analysis.
 
-For more information, see [Using performance tools from web and mobile](/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/using-performance-tools-from-web-and-mobile).
+For more information, see [Using performance tools from web and mobile](/hw-docs/performance-best-practices-and-tooling/performance-tools/using-performance-tools-from-web-and-mobile).
 
 ## Gen AI Creation tools
 
@@ -107,7 +107,7 @@ The desktop editor features a suite of Gen AI Creation tools that assist you in 
 Converting Worlds concepts into Typescript code can sometimes be a struggle. However, the Gen AI code tool can help you with this. Built into the desktop editor, the Gen AI tool is an authoritative, AI-powered chat assistant. It works like a chat app and using it is as simple as having a back-and-forth, real-time conversation with someone. In this case, that someone just happens to be a [large language model](https://en.wikipedia.org/wiki/Large_language_model).
 The GenAI code tool has two types of models available: Llama, and Specialist. The Llama model works well for quick questions or general information about Worlds. The Specialist model is trained on TypeScript and the Worlds API. It can generate scripts and answer more detailed questions about scripting and TypeScript. The Specialist model works well as a personal tutor to learn TypeScript and familiarize yourself with TypeScript APIs.
 
-For more information, see the [Gen AI Creation code tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-code-tool).
+For more information, see the [Gen AI Creation code tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-creation-code-tool).
 
 ### Gen AI Creation Audio tool
 
@@ -116,13 +116,13 @@ The Gen AI Audio tool provides two audio generation modes: sound effect generati
 You can either select sounds based on example prompts, or you can create your own custom prompts and see what sounds you can come up with.
 Once you have that perfect sound, you can use it to create audio assets for your world or download it to your local hard drive for future use.
 
-For more information, see the [Gen AI Creation Audio tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-audio-tool).
+For more information, see the [Gen AI Creation Audio tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-creation-audio-tool).
 
 ### Gen AI Asset Metadata tool
 
 The Gen AI Asset Metadata tool can create metadata for the mesh assets in your worlds. This will help you better manage and access your 3D models’ assets. This tool can generate a title, description, and tags for your mesh assets. It can also accept and apply generated titles and descriptions for you, as well as edit generated tags.
 
-For more information, see [Gen AI Asset Metadata tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-asset-metadata-tool).
+For more information, see [Gen AI Asset Metadata tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-asset-metadata-tool).
 
 ### Gen AI Texture Generation tool
 
@@ -133,12 +133,12 @@ The Gen AI Texture Generation tool helps you generate textures for your objects 
 * Save the texture both onto your local drive and into your asset library.
 * Create textures and work with objects in the wild.
 
-For more information, see the [Gen AI Texture Generation tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-texture-tool).
+For more information, see the [Gen AI Texture Generation tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-creation-texture-tool).
 
 ## What’s Next?
 
 To learn more about Worlds, try the following:
 
-- [Create your first world](/horizon-worlds/learn/documentation/get-started/create-your-first-world) using our step-by-step tutorial.
-- Learn about the desktop editor with the [Introduction to the desktop editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor).
+- [Create your first world](/hw-docs/get-started/create-your-first-world) using our step-by-step tutorial.
+- Learn about the desktop editor with the [Introduction to the desktop editor](/hw-docs/desktop-editor/getting-started/introduction-to-desktop-editor).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

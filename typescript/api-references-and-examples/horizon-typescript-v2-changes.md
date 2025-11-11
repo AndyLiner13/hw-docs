@@ -14,15 +14,15 @@ This table summarizes recent changes:
 
 | **Category** | **Type** | **Summary** |
 | --- | --- | --- |
-| [Modules](/horizon-worlds/learn/documentation/typescript/getting-started/modules-and-global-functions/) | Major | Changed the module names as follows:  - Changed the prefix for module names from `@early_access_api` to `horizon`.  - Changed the module name for the core APIs from `v1` to `core`. |
-| [Component](/horizon-worlds/learn/documentation/typescript/getting-started/typescript-components-properties-and-variables/) | Major | - Reduced the amount of boilerplate code required to create components in scripts.  - Added a `prestart` method to the `Component` class. |
+| [Modules](/hw-docs/typescript/getting-started/modules-and-global-functions/) | Major | Changed the module names as follows:  - Changed the prefix for module names from `@early_access_api` to `horizon`.  - Changed the module name for the core APIs from `v1` to `core`. |
+| [Component](/hw-docs/typescript/getting-started/typescript-components-properties-and-variables/) | Major | - Reduced the amount of boilerplate code required to create components in scripts.  - Added a `prestart` method to the `Component` class. |
 | Entity and Asset properties | Major | - Enabled nullability for properties that receive `Entity` or `Asset` types. |
 | Entity.as | Standard | - Updated the `Entity.as` method to return a nullable type. |
 | PhysicalEntity | Standard | - The `PhysicalEntity.applyForceAtPosition` method now uses the impulse `PhysicsForceMode` instead of force. |
 | Class IDs | Standard | - Changed all internal class IDs to the `bigint` type. |
 | SpawnTargetState | Standard | - Removed the export of the `SpawnTargetState` enum. |
-| [LocalEvent](/horizon-worlds/learn/documentation/typescript/events/local-events/) | Standard | - In the `LocalEvent` constructor, the `name` parameter is now optional, and is assigned a unique ID if the parameter isn’t specified. |
-| [Component](/horizon-worlds/learn/documentation/typescript/getting-started/typescript-components-properties-and-variables/) | Renamed APIs | - `sendNetworkEntityEvent` to `sendNetworkEvent`  - `sendEntityEvent` to `sendLocalEvent`  -`connectEntityEvent` to `connectLocalEvent`  - `connectBroadcastEvent` to `connectLocalBroadcastEvent`  -`sendBroadcastEvent` to `sendLocalBroadcastEvent` |
+| [LocalEvent](/hw-docs/typescript/events/local-events/) | Standard | - In the `LocalEvent` constructor, the `name` parameter is now optional, and is assigned a unique ID if the parameter isn’t specified. |
+| [Component](/hw-docs/typescript/getting-started/typescript-components-properties-and-variables/) | Renamed APIs | - `sendNetworkEntityEvent` to `sendNetworkEvent`  - `sendEntityEvent` to `sendLocalEvent`  -`connectEntityEvent` to `connectLocalEvent`  - `connectBroadcastEvent` to `connectLocalBroadcastEvent`  -`sendBroadcastEvent` to `sendLocalBroadcastEvent` |
 | Interfaces | Renamed APIs | - `IEntityStyle` to `EntityStyle` |
 | Classes | Removed APIs | - `HorizonEvent` to `LocalEvent` |
 | Entity class | Removed APIs | - `setVisibleToAllPlayers` to `setVisibilityForPlayers`  - `setVisibleToPlayers` to `resetVisibilityForPlayers` |

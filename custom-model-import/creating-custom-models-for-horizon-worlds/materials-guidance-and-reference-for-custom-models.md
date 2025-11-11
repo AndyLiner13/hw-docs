@@ -8,7 +8,7 @@ A [mesh](https://en.wikipedia.org/wiki/Polygon_mesh) is a collection of vertices
 
 A material is a set of properties that define how an object responds to light. A material specifies the way that the object reflects, absorbs, and transmits light. You can think of materials as the “paint” that you apply to the surface of an object. Materials can have various properties such as color, reflectivity, transparency, and roughness.
 
-You can assign multiple materials per mesh in the FBX file, and multiple FBX meshes can share the same material. For more information, see [Multiple Materials per Mesh](/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/multiple-materials-per-mesh).
+You can assign multiple materials per mesh in the FBX file, and multiple FBX meshes can share the same material. For more information, see [Multiple Materials per Mesh](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/multiple-materials-per-mesh).
 
 ## Filename Criteria
 

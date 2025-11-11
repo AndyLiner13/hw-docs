@@ -380,9 +380,9 @@ We can’t test this system yet, as we need to assign a camera manager to each p
 
 #### Docs:
 
-* [Using the Camera API for Web and Mobile](/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/camera/)
-* [How to set the player’s camera](/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
-* [Local Script for Mobile and Web](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting/)
+* [Using the Camera API for Web and Mobile](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/camera/)
+* [How to set the player’s camera](/hw-docs/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
+* [Local Script for Mobile and Web](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting/)
 
 #### API references:
 

@@ -10,7 +10,7 @@ If you have created a world using a previous version of the TypeScript API, we s
 
 This doc outlines some basic changes to address the majority of issues during upgrade.
 
-For the official Meta documentation, please see [Meta Horizon TypeScript V2 changes](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/horizon-typescript-v2-changes).
+For the official Meta documentation, please see [Meta Horizon TypeScript V2 changes](/hw-docs/typescript/api-references-and-examples/horizon-typescript-v2-changes).
 
 ## Upgrading your world
 

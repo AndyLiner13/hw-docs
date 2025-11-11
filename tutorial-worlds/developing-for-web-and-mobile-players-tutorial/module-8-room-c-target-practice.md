@@ -298,12 +298,12 @@ In this module you:
 
 #### Additional documentation:
 
-* [Local Script for Mobile and Web](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting/)
-* [Per Platform Scripting](/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/per-platform-scripting/)
-* [Using the Camera API for Web and Mobile](/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/camera/)
-* [How to set the player’s camera](/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
-* [Intro to Grabbable Entities](/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/intro-to-grabbable-entities)
-* [Preview device](/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#preview-device)
+* [Local Script for Mobile and Web](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting/)
+* [Per Platform Scripting](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/per-platform-scripting/)
+* [Using the Camera API for Web and Mobile](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/camera/)
+* [How to set the player’s camera](/hw-docs/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
+* [Intro to Grabbable Entities](/hw-docs/create-for-web-and-mobile/grabbable-entities/intro-to-grabbable-entities)
+* [Preview device](/hw-docs/desktop-editor/getting-started/preview-mode#preview-device)
 
 #### API docs:
 

@@ -10,7 +10,7 @@ Important
 
 When building in Meta Horizon Worlds, you can introduce objects into your world by adding them from your set of assets or spawning them into your world during gameplay. This tutorial covers different techniques of spawning and pooling of objects.
 
-**Spawning** refers to adding in assets to the world experience at runtime. Spawning is supported through multiple methods. Each method has trade-offs in terms of performance and resources. For more general information on asset spawning, see [Introduction to Asset Spawning](/horizon-worlds/learn/documentation/typescript/asset-spawning/introduction-to-asset-spawning/).
+**Spawning** refers to adding in assets to the world experience at runtime. Spawning is supported through multiple methods. Each method has trade-offs in terms of performance and resources. For more general information on asset spawning, see [Introduction to Asset Spawning](/hw-docs/typescript/asset-spawning/introduction-to-asset-spawning/).
 
 This world provides specific examples of asset spawning and also includes an example of **object pooling**, which allows you to pre-load instances of assets in the world and then deploy them into the space as needed.
 
@@ -28,7 +28,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
+See [Getting Started with Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ## Access Tutorial World
 
@@ -36,7 +36,7 @@ To explore the world described in this tutorial, you must make a personal copy o
 
 **In desktop editor**:
 
-When you create a new world in the desktop editor, you can create it based on the Spawning and Pooling in TypeScript tutorial world. For more information, see [Access Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+When you create a new world in the desktop editor, you can create it based on the Spawning and Pooling in TypeScript tutorial world. For more information, see [Access Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 **In headset**:
 
@@ -48,7 +48,7 @@ When you create a new world in the desktop editor, you can create it based on th
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ## Prerequisites
 
@@ -56,7 +56,7 @@ For more information on how to apply assets or scripts from this world to yours,
 
 Before you begin this tutorial, you should have already completed a worldbuilding tutorial or have begun building your own worlds.
 
-For more information, see [Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
+For more information, see [Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ## Key Learning Objectives
 
@@ -110,7 +110,7 @@ Each method spawns in 100 instances of the same small asset.
 
 * The assets to spawn in must be available to the Owner of the world.
 
-**Tip**: For best results, you should create a shared folder for storing spawned assets or assets that are to be used across a multi-person team. See [Shared Folders](/horizon-worlds/learn/documentation/desktop-editor/assets/shared-folders/).
+**Tip**: For best results, you should create a shared folder for storing spawned assets or assets that are to be used across a multi-person team. See [Shared Folders](/hw-docs/desktop-editor/assets/shared-folders/).
 
 #### Considerations
 
@@ -156,7 +156,7 @@ If you are assigning an instance of an asset to each player who enters the world
 * The Asset Pool gizmo auto-assigns the asset to the player who enters the world. It may not be possible to use the gimzo to assign assets at runtime through TypeScript.
 * In a non-FBS world, avoid deploying assets that contain scripts through the Asset Pool gizmo. Each instance of the asset spawns a separate instance of the attached script.
 
-The Asset Pool gizmo is not covered in this tutorial. For more information, see [Asset pool gizmo](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/asset-pool-gizmo).
+The Asset Pool gizmo is not covered in this tutorial. For more information, see [Asset pool gizmo](/hw-docs/code-blocks-and-gizmos/asset-pool-gizmo).
 
 ### Notes on Assets
 
@@ -164,7 +164,7 @@ The Asset Pool gizmo is not covered in this tutorial. For more information, see 
 
 * The assets to spawn in must be available to the Owner of the world.
 
-**Tip**: For best results, you should create a shared folder for storing spawned assets or assets that are to be used across a multi-person team. See [Shared Folders](/horizon-worlds/learn/documentation/desktop-editor/assets/shared-folders).
+**Tip**: For best results, you should create a shared folder for storing spawned assets or assets that are to be used across a multi-person team. See [Shared Folders](/hw-docs/desktop-editor/assets/shared-folders).
 
 #### Motion property
 

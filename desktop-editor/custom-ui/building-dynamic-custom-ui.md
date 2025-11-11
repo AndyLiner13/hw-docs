@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Building dynamic custom UI
 
-This topic continues [Building an interactive custom UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui), and so far the UI panel is still static. In this topic, you will make it dynamic so that after the user clicks the button, the text content and color are updated.
+This topic continues [Building an interactive custom UI](/hw-docs/desktop-editor/custom-ui/building-dynamic-custom-ui), and so far the UI panel is still static. In this topic, you will make it dynamic so that after the user clicks the button, the text content and color are updated.
 
 ## Updating UI with Binding
 
@@ -281,7 +281,7 @@ initializeUI() {
 
 This implementation is wrong, because the values of `text` and `color` are not Bindings but explicit values. When the Binding `hasClicked` is updated, the UI will not re-render. A public `get()` method is not exposed to prevent this scenario.
 
-If you need to get the value of a Binding because you need to use it in multiple styles, like in the example above, you should use [derived Bindings](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui#deriving-binding-values). If you need to get the value of a Binding because you need to set a new value based on the old value, use [functional updates](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui#functional-updates).
+If you need to get the value of a Binding because you need to use it in multiple styles, like in the example above, you should use [derived Bindings](/hw-docs/desktop-editor/custom-ui/building-dynamic-custom-ui#deriving-binding-values). If you need to get the value of a Binding because you need to set a new value based on the old value, use [functional updates](/hw-docs/desktop-editor/custom-ui/building-dynamic-custom-ui#functional-updates).
 
 In some rare cases, you want to keep track of the value of the Binding for some other uses. To do this, you will have to create a separate variable to track the value:
 
@@ -301,4 +301,4 @@ initializeUI() {
 
 ## What’s next?
 
-The example continues in [User-defined components for custom UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/userdefined-components-for-custom-ui)
+The example continues in [User-defined components for custom UI](/hw-docs/desktop-editor/custom-ui/userdefined-components-for-custom-ui)

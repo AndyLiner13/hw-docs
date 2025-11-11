@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Trigger zone gizmo
 
-The trigger zone [gizmo](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/about-gizmos) triggers an event when you enter or exit a specified area.
+The trigger zone [gizmo](/hw-docs/code-blocks-and-gizmos/about-gizmos) triggers an event when you enter or exit a specified area.
 
 ![Trigger zone gizmo](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/524847180_776044178266869_4827202741838398310_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=ROgfmAw-8bMQ7kNvwGMEwAO&_nc_oc=AdlTxrPyQLr_o8v349e450oZ8DqCCLA8ZwX_GVennWDERsM-h-RLYxX5LyCfEDYlZ8c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=EJGkKgna0txBQfbsnAnRww&oh=00_Afj565oOjR0ktiLrl0l06xSkjhOkrK1T602saJQc3vvGQA&oe=692BFAD8)
 
@@ -39,7 +39,7 @@ You can also programmatically control trigger zones using the TriggerGizmo class
 
 CodeBlockEvents are platform-emitted events for key runtime functionality, including gizmo activities.
 
-* For more information on CodeBlockEvents, see [CodeBlock Events](/horizon-worlds/learn/documentation/typescript/events/codeblock-events).
+* For more information on CodeBlockEvents, see [CodeBlock Events](/hw-docs/typescript/events/codeblock-events).
 * For API docs on CodeBlockEvents, see [CodeBlockEvents](https://horizon.meta.com/resources/scripting-api/core.codeblockevents.md/).
 * For specific documentation on the TriggerGizmo API, see [TriggerGizmo class](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_triggergizmo).
 

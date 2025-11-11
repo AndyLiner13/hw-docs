@@ -12,7 +12,7 @@ Gameplay Tags allow you to:
 * Assign tags to triggers and raycasts
 * Filter entities by tags in Desktop Editor
 
-For more information on the Gameplay Tags API and to see example code, see the [API reference doc](/horizon-worlds/learn/documentation/typescript/gameplay-tags-api/modify-gameplay-tags-on-entity-and-get-entities-with-tags/).
+For more information on the Gameplay Tags API and to see example code, see the [API reference doc](/hw-docs/typescript/gameplay-tags-api/modify-gameplay-tags-on-entity-and-get-entities-with-tags/).
 
 ## Using Gameplay Tags in Desktop Editor and VR
 
@@ -20,9 +20,9 @@ Since this feature involves multiple moving parts, below are a few different sce
 
 To quickly navigate to a specific editing workflow, use the following links:
 
-* [Tag Editing in Desktop](/horizon-worlds/learn/documentation/typescript/gameplay-tags-api/introduction-to-gameplay-tags#tag-editing-in-desktop-editor)
-* [Tag Editing in VR](/horizon-worlds/learn/documentation/typescript/gameplay-tags-api/introduction-to-gameplay-tags#tag-editing-in-vr)
-* [Tag Filtering](/horizon-worlds/learn/documentation/typescript/gameplay-tags-api/introduction-to-gameplay-tags) (Desktop#tag-filtering-in-desktop-editor)
+* [Tag Editing in Desktop](/hw-docs/typescript/gameplay-tags-api/introduction-to-gameplay-tags#tag-editing-in-desktop-editor)
+* [Tag Editing in VR](/hw-docs/typescript/gameplay-tags-api/introduction-to-gameplay-tags#tag-editing-in-vr)
+* [Tag Filtering](/hw-docs/typescript/gameplay-tags-api/introduction-to-gameplay-tags) (Desktop#tag-filtering-in-desktop-editor)
 
 ## Tag Editing in Desktop Editor
 

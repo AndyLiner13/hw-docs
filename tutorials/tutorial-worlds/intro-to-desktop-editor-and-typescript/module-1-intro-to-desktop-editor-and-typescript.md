@@ -41,7 +41,7 @@ Game development areas include:
 
 ## Before you begin
 
-Review the [Getting Started with Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites)., which includes information on:
+Review the [Getting Started with Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites)., which includes information on:
 
 * Tutorial prerequisites and assumptions.
 * How to acquire a copy of this world for yourself.
@@ -54,7 +54,7 @@ Review the [Getting Started with Tutorials](/horizon-worlds/learn/documentation/
 
 You can follow along with the steps of the tutorial content by using a copy of the world. After you have copied the world, you can compare the steps of the tutorial to the completed world.
 
-**Desktop editor**: To create a copy of this tutorial on a tutorial world from the desktop editor, click **Tutorials** in Creation Home and then select **Build Your First Game**. For more information, see [Access Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+**Desktop editor**: To create a copy of this tutorial on a tutorial world from the desktop editor, click **Tutorials** in Creation Home and then select **Build Your First Game**. For more information, see [Access Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 **VR headset**: To build the world described in this tutorial, make your own copy of the **Build Your First Game** tutorial world, by selecting it from the **Tutorials** tab in the **Create** menu.
 
@@ -66,7 +66,7 @@ You can explore the completed world and review the script and systems that are c
 
 ### Use in your world
 
-Grab any asset from this world and use it in your own project. For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
+Grab any asset from this world and use it in your own project. For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ## Get started
 

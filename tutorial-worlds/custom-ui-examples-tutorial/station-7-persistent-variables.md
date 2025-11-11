@@ -39,7 +39,7 @@ Each persistent variable is stored in a **variable group**, which is a container
 
 * You can import variable groups into a world when you own the variable group and the world. This method allows for complete ownership of the content.
 
-For more information on variable groups and persistent variables, see [Using Variable Groups](/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/using-variable-groups).
+For more information on variable groups and persistent variables, see [Using Variable Groups](/hw-docs/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/using-variable-groups).
 
 The next steps are to create a variable group and a persistent variable within that group.
 

@@ -24,19 +24,19 @@ This tutorial covers the process of creating a starting lobby area in a Meta Hor
 
 ## Before you begin
 
-Please review [Getting Started with Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
+Please review [Getting Started with Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ### First world
 
-This world is based off of the introductory tutorial world found in [Build your first game](/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
+This world is based off of the introductory tutorial world found in [Build your first game](/hw-docs/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 ### Follow along
 
-You can create a world based on a tutorial world from either the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+You can create a world based on a tutorial world from either the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ## Multiplayer testing
 
@@ -57,7 +57,7 @@ Your world should now be opened in the desktop editor, and should look something
 
 ## Build mode and Preview mode
 
-When you open your world, it is in **Build mode**; to explore the world and playtest it, click the **Preview mode** button. For more information on the various modes, click [here](/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/operational-modes).
+When you open your world, it is in **Build mode**; to explore the world and playtest it, click the **Preview mode** button. For more information on the various modes, click [here](/hw-docs/desktop-editor/getting-started/user-interface/operational-modes).
 
 In Preview mode:
 

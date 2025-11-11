@@ -24,7 +24,7 @@ When using something like a HUD asset, the asset pool gizmo to assign a HUD to e
 
 ![Asset pool gizmo overview 2](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490684843_695402099664411_1002739092788578019_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=RJO_49nOegwQ7kNvwE0AWGN&_nc_oc=Adl3TwSkAPWgyDNIXXJ8MnQgL4DXDWvG2lLWv2BNpPXTWEuT4oRGu2UW6etK_0eYuYc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=qowR-amOhfsRJ8sCDyHPMQ&oh=00_AfiqTZXQanemSV-rTv_2WmePSef5_XxGQHEuqBAOzbFm8Q&oe=692BE53E)
 
-**Note**: When deploying the asset pool gizmo in a [non-FBS world](/horizon-worlds/learn/documentation/vr-creation/scripting/use-file-backed-scripts), avoid connecting asset templates that contain scripts. When the asset pool gizmo spawns the asset template, the scripts will be spawned as separate instances that must be maintained.
+**Note**: When deploying the asset pool gizmo in a [non-FBS world](/hw-docs/vr-creation/scripting/use-file-backed-scripts), avoid connecting asset templates that contain scripts. When the asset pool gizmo spawns the asset template, the scripts will be spawned as separate instances that must be maintained.
 
 ## Use the asset pool gizmo
 

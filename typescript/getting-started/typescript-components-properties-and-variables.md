@@ -4,11 +4,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 Components are the primary building blocks for attaching functionality to objects in a world. They are defined in TypeScript and registered in a script. Horizon components consist of many different elements. The key TypeScript elements are:
 
-* [Properties - modify the component](/horizon-worlds/learn/documentation/typescript/getting-started/typescript-components-properties-and-variables#properties-and-variables)
-* [Variables - define the capabilities of a component](/horizon-worlds/learn/documentation/typescript/getting-started/typescript-components-properties-and-variables#properties-and-variables)
-* [Modules - provide the packaging specifications](/horizon-worlds/learn/documentation/typescript/getting-started/modules-and-global-functions)
-* [Global Functions - outline what properties apply to all entities](/horizon-worlds/learn/documentation/typescript/getting-started/modules-and-global-functions)
-* [Events - enable objects to interact](/horizon-worlds/learn/documentation/typescript/events/local-events/)
+* [Properties - modify the component](/hw-docs/typescript/getting-started/typescript-components-properties-and-variables#properties-and-variables)
+* [Variables - define the capabilities of a component](/hw-docs/typescript/getting-started/typescript-components-properties-and-variables#properties-and-variables)
+* [Modules - provide the packaging specifications](/hw-docs/typescript/getting-started/modules-and-global-functions)
+* [Global Functions - outline what properties apply to all entities](/hw-docs/typescript/getting-started/modules-and-global-functions)
+* [Events - enable objects to interact](/hw-docs/typescript/events/local-events/)
 
 ## Example Component
 
@@ -78,7 +78,7 @@ The following outlines the component creation sequence:
 - Entities that have a TypeScript component attached to them in the entity property panel will be instantiated. This also applies to property overrides or defaults.
 - The `start` method is called on every TypeScript component instance. Any future script logic can be run by callbacks.
 
-To learn more about the lifecycle of TypeScript scripts, see [TypeScript Script Lifecycle](/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle/).
+To learn more about the lifecycle of TypeScript scripts, see [TypeScript Script Lifecycle](/hw-docs/typescript/typescript-script-lifecycle/).
 
 ## Registering and Attaching Components to Entities
 
@@ -172,8 +172,8 @@ const c: Color = entity.color.get();
 Beyond `this.entity`, your scripts can interact with external entities through the following approaches:
 
 - Entities passed in as properties through an object’s Entity Panel
-- Entities sent through a script using Events (see [Events section](/horizon-worlds/learn/documentation/typescript/events/local-events/) )
-- Entities spawned into the world (see [Asset Spawning section](/horizon-worlds/learn/documentation/typescript/asset-spawning/checking-for-asset-spawn-events/))
+- Entities sent through a script using Events (see [Events section](/hw-docs/typescript/events/local-events/) )
+- Entities spawned into the world (see [Asset Spawning section](/hw-docs/typescript/asset-spawning/checking-for-asset-spawn-events/))
 
 #### `Gizmos`
 
@@ -205,4 +205,4 @@ colors.push(color);
 
 #### `Assets`
 
-The `Asset` class can represent an asset in a world. Beyond creating and managing your own or Horizon available assets, you can spawn and despawn assets and operate on their properties with TypeScript. Review the [Asset Spawning](/horizon-worlds/learn/documentation/typescript/asset-spawning/introduction-to-asset-spawning/) docs for TypeScript implementation details.
+The `Asset` class can represent an asset in a world. Beyond creating and managing your own or Horizon available assets, you can spawn and despawn assets and operate on their properties with TypeScript. Review the [Asset Spawning](/hw-docs/typescript/asset-spawning/introduction-to-asset-spawning/) docs for TypeScript implementation details.

@@ -6,7 +6,7 @@ Animations are important for creating a great gameplay experience. Custom UI pro
 
 ## Animated Binding class
 
-The important piece for [building a dynamic UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui/) is the [`Binding`](/horizon-worlds/reference/2.0.0/ui_binding) class. Similarly, the important piece for building animations is the new [`AnimatedBinding`](/horizon-worlds/reference/2.0.0/ui_animatedbinding) class.
+The important piece for [building a dynamic UI](/hw-docs/desktop-editor/custom-ui/building-dynamic-custom-ui/) is the [`Binding`](/horizon-worlds/reference/2.0.0/ui_binding) class. Similarly, the important piece for building animations is the new [`AnimatedBinding`](/horizon-worlds/reference/2.0.0/ui_animatedbinding) class.
 
 ```vs
 import { AnimatedBinding } from 'horizon/ui';
@@ -304,7 +304,7 @@ There is one more caveat. Because TypeScript can run on the server, when one sin
 
 ## Player-specific UI
 
-Similar to [`Binding`](/horizon-worlds/reference/2.0.0/ui_binding) class can be used to display different content for each player, [`AnimatedBinding`](/horizon-worlds/reference/2.0.0/ui_animatedbinding) also fully supports [player-specific UI](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui/). You can start or stop animation only for certain players, and the concepts of [global value and player value](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui#global-value-vs-player-values) are fully transferable.
+Similar to [`Binding`](/horizon-worlds/reference/2.0.0/ui_binding) class can be used to display different content for each player, [`AnimatedBinding`](/horizon-worlds/reference/2.0.0/ui_animatedbinding) also fully supports [player-specific UI](/hw-docs/desktop-editor/custom-ui/playerspecific-custom-ui/). You can start or stop animation only for certain players, and the concepts of [global value and player value](/hw-docs/desktop-editor/custom-ui/playerspecific-custom-ui#global-value-vs-player-values) are fully transferable.
 
 ```vs
 anim.set(
@@ -316,7 +316,7 @@ anim.stopAnimation([player]);
 anim.reset([player]);
 ```
 
-Remember that the [`reset()`](/horizon-worlds/reference/2.0.0/ui_animatedbinding#methods) method resets the player value back to the [global value](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui#global-value-vs-player-values). It has nothing to do with animations, and cannot take an `Animation` object when resetting. There is no way to reset an animation to the start value. The best you can do is to stop it.
+Remember that the [`reset()`](/horizon-worlds/reference/2.0.0/ui_animatedbinding#methods) method resets the player value back to the [global value](/hw-docs/desktop-editor/custom-ui/playerspecific-custom-ui#global-value-vs-player-values). It has nothing to do with animations, and cannot take an `Animation` object when resetting. There is no way to reset an animation to the start value. The best you can do is to stop it.
 
 Also notice that for the [`set()`](/horizon-worlds/reference/2.0.0/ui_animatedbinding#methods) method of `AnimatedBinding`s, the players array is the third parameter, not the second as in the [`set()`](/horizon-worlds/reference/2.0.0/ui_binding#methods) method for `Binding`s. You have to make room for the completion callback as the second parameter. You might need to pay attention to this difference if you migrate some Bindings into Animated Bindings.
 
@@ -342,7 +342,7 @@ console.log(results);
 
 ## Functional updates
 
-Regular Bindings support [functional updates](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui/), and so do Animated Bindings. You can wrap an update function with `Animation.timing()`, just like how you wrap plain numbers.
+Regular Bindings support [functional updates](/hw-docs/desktop-editor/custom-ui/building-dynamic-custom-ui/), and so do Animated Bindings. You can wrap an update function with `Animation.timing()`, just like how you wrap plain numbers.
 
 ```vs
 // Plain value update
@@ -390,4 +390,4 @@ anim.set(Animation.timing(v => v + 10));
 
 ## What’s next?
 
-Try the tutorial world [Animation effects](/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-9-animation-effects).
+Try the tutorial world [Animation effects](/hw-docs/tutorial-worlds/custom-ui-examples-tutorial/station-9-animation-effects).

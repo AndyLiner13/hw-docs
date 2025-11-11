@@ -50,7 +50,7 @@ You must use Typescript APIs to manually stream sublevels.
 
 ## World streaming vs asset spawning
 
-World Streaming or [Asset Spawning](/horizon-worlds/learn/documentation/typescript/asset-spawning/introduction-to-asset-spawning/) are two approaches that you can use to spawn content into your world at runtime. Which approach you use depends on the following considerations.
+World Streaming or [Asset Spawning](/hw-docs/typescript/asset-spawning/introduction-to-asset-spawning/) are two approaches that you can use to spawn content into your world at runtime. Which approach you use depends on the following considerations.
 
 **Use world streaming if**
 

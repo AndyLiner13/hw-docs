@@ -20,11 +20,11 @@ This video demonstrates how easy it is to bring in an object from Blender and ad
 
 This series of videos, provided by the Meta Horizon Creator Program (MHCP), is a comprehensive introduction to 3D modeling using Blender.
 
-* [3D Modeling 101: Week 1](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/3d-modeling-101-week-1)
-* [3D Modeling 101: Week 2](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/3d-modeling-101-week-2)
-* [3D Modeling 101: Week 3](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/3d-modeling-101-week-3)
-* [3D Modeling 101: Week 4](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/3d-modeling-101-week-4)
-* [3D Modeling 101: Week 5](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/3d-modeling-101-week-5)
+* [3D Modeling 101: Week 1](/hw-docs/mhcp-program/community-tutorials/3d-modeling-101-week-1)
+* [3D Modeling 101: Week 2](/hw-docs/mhcp-program/community-tutorials/3d-modeling-101-week-2)
+* [3D Modeling 101: Week 3](/hw-docs/mhcp-program/community-tutorials/3d-modeling-101-week-3)
+* [3D Modeling 101: Week 4](/hw-docs/mhcp-program/community-tutorials/3d-modeling-101-week-4)
+* [3D Modeling 101: Week 5](/hw-docs/mhcp-program/community-tutorials/3d-modeling-101-week-5)
 
 ## Uploading Finished Models
 

@@ -11,10 +11,10 @@ By default, all scripts run on the server when attached to an object in the worl
 * If a local or broadcast event is sent from a script running on the server, only scripts running on the server receive that event.
 * If a local or broadcast event is sent from a script running on a local client, only scripts owned by that client receive the event.
 
-If your scripts need to communicate between local client and server scripts, use CodeBlock events. For more information, see [Getting Started with Local Scripting](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting).
+If your scripts need to communicate between local client and server scripts, use CodeBlock events. For more information, see [Getting Started with Local Scripting](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting).
 
 > [!Warning]
-> Maintaining broadcast event subscriptions can slow your event messaging as more subscriptions are added. If your objects no longer need to listen for broadcast events, you can [unsubscribe from these sources](/horizon-worlds/learn/documentation/typescript/events/events-best-practices) to improve performance.
+> Maintaining broadcast event subscriptions can slow your event messaging as more subscriptions are added. If your objects no longer need to listen for broadcast events, you can [unsubscribe from these sources](/hw-docs/typescript/events/events-best-practices) to improve performance.
 
 ## Creating a broadcast event
 

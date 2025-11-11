@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Custom UI Styles
 
-The available styles for [customizing](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel) UI panels in your world are defined in the type aliases of the [UI](/horizon-worlds/reference/2.0.0/ui_uicomponent) API, such as the [ColorValue](/horizon-worlds/reference/2.0.0/ui_colorvalue) type. This topic describes the available style for each type.
+The available styles for [customizing](/hw-docs/desktop-editor/custom-ui/creating-a-custom-ui-panel) UI panels in your world are defined in the type aliases of the [UI](/horizon-worlds/reference/2.0.0/ui_uicomponent) API, such as the [ColorValue](/horizon-worlds/reference/2.0.0/ui_colorvalue) type. This topic describes the available style for each type.
 
 Type aliases:
 
@@ -12,9 +12,9 @@ API documentation: [LayoutStyle](/horizon-worlds/reference/2.0.0/ui_layoutstyle)
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| display | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<'none' \| 'flex'>` | [Default: `'flex'`]   Similar to `display` in CSS, but only supports ‘none’ and ‘flex’. The display mode of the UI element.  `none`: The UI element is not rendered.  `flex`: The UI element is displayed as a block. This is the default value. |
-| height | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number \| string>` | Similar to `height` in CSS, but only supports points and percentages. Ems and other units are not supported. |
-| width | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number \| string>` | Similar to `width` in CSS, but only supports points and percentages. Ems and other units are not supported. |
+| display | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<'none' \| 'flex'>` | [Default: `'flex'`]   Similar to `display` in CSS, but only supports ‘none’ and ‘flex’. The display mode of the UI element.  `none`: The UI element is not rendered.  `flex`: The UI element is displayed as a block. This is the default value. |
+| height | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number \| string>` | Similar to `height` in CSS, but only supports points and percentages. Ems and other units are not supported. |
+| width | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number \| string>` | Similar to `width` in CSS, but only supports points and percentages. Ems and other units are not supported. |
 | bottom | `number \| string` | Similar to `bottom` in CSS, but only supports points and percentages. Ems and other units are not supported. |
 | end | `number \| string` | Equivalent to `right` when `direction` is `'ltr'`. Equivalent to `left` when `direction` is `'rtl'`. |
 | left | `number \| string` | Similar to `left` in CSS, but only supports points and percentages. Ems and other units are not supported. |
@@ -66,13 +66,13 @@ API documentation: [BorderStyle](/horizon-worlds/reference/2.0.0/ui_borderstyle)
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| borderColor | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | Works like `border-color` in CSS. The color of the border. |
+| borderColor | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/hw-docs/typescript/api-references-and-examples/custom-ui) | Works like `border-color` in CSS. The color of the border. |
 | borderRadius | `number` | Works like `border-radius` in CSS. The radius of the border. |
 | borderBottomLeftRadius | `number` | Works like `border-bottom-left-radius` in CSS. The radius of the bottom left corner. |
 | borderBottomRightRadius | `number` | Works like `border-bottom-right-radius` in CSS. The radius of the bottom right corner. |
 | borderTopLeftRadius | `number` | Works like `border-top-left-radius` in CSS. The radius of the top left corner. |
 | borderTopRightRadius | `number` | Works like `border-top-right-radius` in CSS. The radius of the top right corner. |
-| borderWidth | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>` | Works like `border-width` in CSS, but only supports points. The width of the border. |
+| borderWidth | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>` | Works like `border-width` in CSS, but only supports points. The width of the border. |
 | borderBottomWidth | `number` | Works like `border-bottom-width` in CSS. The width of the bottom border. |
 | borderEndWidth | `number` | Equivalent to `borderRightWidth` when `direction` is `'ltr'`. Equivalent to `borderLeftWidth` when `direction` is `'rtl'`. |
 | borderLeftWidth | `number` | Works like `border-left-width` in CSS. The width of the left border. |
@@ -86,10 +86,10 @@ API documentation: [ShadowStyle](/horizon-worlds/reference/2.0.0/ui_shadowstyle)
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| shadowColor | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-u) | The drop color of the shadow. |
+| shadowColor | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/hw-docs/typescript/api-references-and-examples/custom-u) | The drop color of the shadow. |
 | shadowFalloff | `'linear'` `'sqrt'` `'sigmoid'` | The falloff function, or fading, of the shadow. |
 | shadowOffset | `[number, number]` | The offset of the shadow in [x, y] format. |
-| shadowOpacity | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>` | The opacity of the shadow. The number is multiplied by the color’s alpha component, and should be in the range from ‘0.0’ to ‘1.0’. |
+| shadowOpacity | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>` | The opacity of the shadow. The number is multiplied by the color’s alpha component, and should be in the range from ‘0.0’ to ‘1.0’. |
 | shadowRadius | `number` | The blur radius of the shadow. |
 | shadowSpreadRadius | `number` | The radius by which the shadow expands or shrinks under the component. May take a negative number. |
 
@@ -99,7 +99,7 @@ API documentation: [TransformStyle](/horizon-worlds/reference/2.0.0/ui_transform
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| transform | `Array<{rotate:`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<string>}` `\| {scale:`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {scaleX:`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {scaleY:`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {translate:[`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>,`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>]}` `\| {translateX:`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {translateY:`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {skewX:`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<string>}` `\| {skewY:`[`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<string>}` | `transform` accepts an array of transformation objects. Each object specifies the property that will be transformed as the key, and the value to use in the transformation.   `rotate`: Rotate the element around the `transformOrigin`. Value requires a string expressed in degrees (e.g. ‘45deg’ ) or radians (e.g. ‘0.7854rad’).   `scale`: Scale the element uniformly by the given multiplier, with the `transformOrigin` being the fixed point. Equivalent to providing the same value to both `scaleX` and `scaleY`.   `scaleX`: Scale the element horizontally by the given multiplier.   `scaleY`: Scale the element vertically by the given multiplier.   `translate`: Move the element by the given x and y values in [x, y] format. Equivalent to providing the values to `translateX` and `translateY` independently.   `translateX`: Move the element horizontally by the given value in pixels.   `translateY`: Move the element vertically by the given value in pixels.   `skewX`: Skew the element horizontally by the given angle, represented in degrees or radians.   `skewY`: Skew the element vertically by the given angle, represented in degrees or radians. |
+| transform | `Array<{rotate:`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<string>}` `\| {scale:`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {scaleX:`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {scaleY:`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {translate:[`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>,`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>]}` `\| {translateX:`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {translateY:`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>}` `\| {skewX:`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<string>}` `\| {skewY:`[`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<string>}` | `transform` accepts an array of transformation objects. Each object specifies the property that will be transformed as the key, and the value to use in the transformation.   `rotate`: Rotate the element around the `transformOrigin`. Value requires a string expressed in degrees (e.g. ‘45deg’ ) or radians (e.g. ‘0.7854rad’).   `scale`: Scale the element uniformly by the given multiplier, with the `transformOrigin` being the fixed point. Equivalent to providing the same value to both `scaleX` and `scaleY`.   `scaleX`: Scale the element horizontally by the given multiplier.   `scaleY`: Scale the element vertically by the given multiplier.   `translate`: Move the element by the given x and y values in [x, y] format. Equivalent to providing the values to `translateX` and `translateY` independently.   `translateX`: Move the element horizontally by the given value in pixels.   `translateY`: Move the element vertically by the given value in pixels.   `skewX`: Skew the element horizontally by the given angle, represented in degrees or radians.   `skewY`: Skew the element vertically by the given angle, represented in degrees or radians. |
 | transformOrigin | `[number \| string, number \| string]` | [Default: [‘50%’, ‘50%’]]   The origin point of the transform, specified as an [x, y] array, where [0, 0] denotes the top left corner of the UI element. Each component can be a number in pixels or a percentage string. |
 
 ## ViewStyle
@@ -110,11 +110,11 @@ Inherits the [LayoutStyle](/horizon-worlds/reference/2.0.0/ui_layoutstyle), [Bor
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| backgroundColor | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | Works like `'background-color'` in CSS. The background color of the component. |
+| backgroundColor | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/hw-docs/typescript/api-references-and-examples/custom-ui) | Works like `'background-color'` in CSS. The background color of the component. |
 | backgroundClip | `'border-box' \| 'padding-box'` | [Default: `'border-box'`]    Controls whether to render the background behind the border. Useful when the border color is transparent. |
-| opacity | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>` | Set an opacity for the component. The number should be in the range from ‘0.0’ to ‘1.0’. |
-| gradientColorA | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | The starting color of the gradient background. |
-| gradientColorB | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | The ending color of the gradient background. |
+| opacity | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>` | Set an opacity for the component. The number should be in the range from ‘0.0’ to ‘1.0’. |
+| gradientColorA | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/hw-docs/typescript/api-references-and-examples/custom-ui) | The starting color of the gradient background. |
+| gradientColorB | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/hw-docs/typescript/api-references-and-examples/custom-ui) | The ending color of the gradient background. |
 | gradientXa | `number \| string` | The x component of the starting position (corresponding to gradientColorA) of the gradient background. The value is a percentage as a number (from ‘0.0’ to ‘1.0’) or a string (from ‘0%’ to ‘100%’). |
 | gradientYa | `number \| string` | The y component of the starting position (corresponding to gradientColorA ) of the gradient background. The value is a percentage as a number (from ‘0.0’ to ‘1.0’) or a string (from ‘0%’ to ‘100%’). |
 | gradientXb | `number \| string` | The x component of the ending position (corresponding to gradientColorB) of the gradient background. The value is a percentage as a number (from ‘0.0’ to ‘1.0’) or a string (from ‘0%’ to ‘100%’). |
@@ -129,16 +129,16 @@ Inherits the [ViewStyle](/horizon-worlds/reference/2.0.0/ui_viewstyle) type alia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| color | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | [Default: `'white'`]  The color of the text. |
+| color | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/hw-docs/typescript/api-references-and-examples/custom-ui) | [Default: `'white'`]  The color of the text. |
 | fontFamily | `string` | [Default: `'Roboto'`]  The font family of the text. |
-| fontSize | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>` | [Default: `'20'`]  The font size of the text. |
-| fontWeight | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<'normal'` `\| 'bold'` `\| '100'` `\| '200'` `\| '300'` `\| '400'` `\| '500'` `\| '600'` `\| '700'` `\| '800'` `\| '900' >` | [Default: `'normal'`]  The font weight. Not all fonts have all the weight variations. If the specified variation does not exist, it will fallback to the closest one. |
+| fontSize | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<number>` | [Default: `'20'`]  The font size of the text. |
+| fontWeight | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<'normal'` `\| 'bold'` `\| '100'` `\| '200'` `\| '300'` `\| '400'` `\| '500'` `\| '600'` `\| '700'` `\| '800'` `\| '900' >` | [Default: `'normal'`]  The font weight. Not all fonts have all the weight variations. If the specified variation does not exist, it will fallback to the closest one. |
 | letterSpacing | `number` | The spacing between the characters of the text. By default there is no extra letter spacing. |
 | lineHeight | `number` | The height of each line in the text. |
 | textAlign | `'auto' \| 'left' \| 'right' \| 'center'` | The alignment of the text. |
 | textAlignVertical | `'auto' \| 'top' \| 'bottom' \| 'center'` | The vertical alignment of the text. |
-| textDecorationLine | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<'none' \| 'underline' \| 'line-through' \| 'underline line-through' >` | Additional text decorations. |
-| textShadowColor | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<[ColorValue]>`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | The color of the text shadow. Text shadow is only drawn when a nonzero textShadowOffset is set. |
+| textDecorationLine | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)`<'none' \| 'underline' \| 'line-through' \| 'underline line-through' >` | Additional text decorations. |
+| textShadowColor | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)[`<[ColorValue]>`](/hw-docs/typescript/api-references-and-examples/custom-ui) | The color of the text shadow. Text shadow is only drawn when a nonzero textShadowOffset is set. |
 | textShadowOffset | `[number, number]` | The offset of the text shadow, in pixels, in [x, y] format. |
 | textShadowRadius | `number` | The blur radius of the text shadow. Text shadow is only drawn when textShadowOffset is set. |
 | whiteSpace | `'normal' \| 'pre-line' \| 'pre-wrap'` | Additional space if needed for justification. |
@@ -173,5 +173,5 @@ Inherits the [ViewStyle](/horizon-worlds/reference/2.0.0/ui_viewstyle) type alia
 | Name | Type | Description |
 | --- | --- | --- |
 | resizeMode | `'cover' \| 'contain' \| 'stretch' \| 'center' \| 'repeat'` | [Default: `'cover'`]   Determines how to resize the image when the frame doesn’t match the raw image dimensions.   `cover`: Scale the image uniformly (maintain the aspect ratio) so that at least one of width and height will be equal to the corresponding dimension of the view, and the other will be larger.   `contain`: Scale the image uniformly (maintain the aspect ratio) so that both width and height will be equal to or less than the corresponding dimension of the view.   `stretch`: Scale width and height independently, which may change the aspect ratio of the source.   `center`: Center the image in the view along both dimensions. If the image is larger than the view, scale it down uniformly so that it is contained in the view.   `repeat`: Repeat the image to cover the frame of the view. The image will keep its size and aspect ratio if it is smaller than the view, and will be scaled down uniformly so that it is contained in the view if it is larger than the view. |
-| tintColor | [`Bindable`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | Changes the color of all the non-transparent pixels to the `tintColor`. |
+| tintColor | [`Bindable`](/hw-docs/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](/hw-docs/typescript/api-references-and-examples/custom-ui) | Changes the color of all the non-transparent pixels to the `tintColor`. |
 | tintOperation | `'replace' \| 'multiply'` | Changes how the tint color is applied to the original image source. |

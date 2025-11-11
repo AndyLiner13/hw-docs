@@ -131,9 +131,9 @@ moveDuration: {type: hz.PropTypes.Number, default: 5},
 robot: {type: hz.PropTypes.Entity},
 ```
 
-**Tip**: You can modify the robot animation to use different emotes. Change the value of the parameter for `setAnimationParameterTrigger()` to experiment. For more information on available emotes, see [NPC Scripts](/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-scripts).
+**Tip**: You can modify the robot animation to use different emotes. Change the value of the parameter for `setAnimationParameterTrigger()` to experiment. For more information on available emotes, see [NPC Scripts](/hw-docs/desktop-editor/npcs/npc-scripts).
 
-**Tip**: You can build even more complex sequences in this location, inserting different NPCs at this location. For more information, see [NPCs](/horizon-worlds/learn/documentation/desktop-editor/npcs/npcs).
+**Tip**: You can build even more complex sequences in this location, inserting different NPCs at this location. For more information, see [NPCs](/hw-docs/desktop-editor/npcs/npcs).
 
 ## Checkpoint
 

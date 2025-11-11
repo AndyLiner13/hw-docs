@@ -73,7 +73,7 @@ The quick examples are:
 * **Duplicate**: Shift + D
 * **Undo**: Ctrl + Z
 
-Here’s a [PDF with a full list of Basic Navigation and Hotkey Essentials](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/basic-hotkey-guide-to-the-blenderverse).
+Here’s a [PDF with a full list of Basic Navigation and Hotkey Essentials](/hw-docs/mhcp-program/community-tutorials/basic-hotkey-guide-to-the-blenderverse).
 
 **Basic Navigation and Hotkeys video walkthrough:**
 

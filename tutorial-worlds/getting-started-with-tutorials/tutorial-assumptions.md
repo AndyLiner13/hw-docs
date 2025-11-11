@@ -18,7 +18,7 @@ Unless otherwise stated, these tutorials are intended to be explored through the
 
 These tutorials are based on v2.0.0 of the TypeScript APIs.
 
-**Note**: If you have been working in an earlier version of the TypeScript API, you will need to upgrade your world to use the elements of these tutorials. See [Upgrade World to API v2.0.0](/horizon-worlds/learn/documentation/typescript/upgrade-world-to-typescript-api-v200).
+**Note**: If you have been working in an earlier version of the TypeScript API, you will need to upgrade your world to use the elements of these tutorials. See [Upgrade World to API v2.0.0](/hw-docs/typescript/upgrade-world-to-typescript-api-v200).
 
 ## Non-file backed scripts worlds
 
@@ -32,7 +32,7 @@ This has the following implications:
 * Features of the desktop editor that apply to File Backed Scripts worlds are not available when you open these worlds. For example, in the context menu for a script in the Scripts panel, the option Spawn New Gizmo for the script is not available.
 * Asset templates created from entities in these worlds that contain scripts result in individual instances of the script in your world for each instance of the asset template added to it.
 
-For more information, see [Use Assets from Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials)
+For more information, see [Use Assets from Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials)
 
 ## Slide movement style
 

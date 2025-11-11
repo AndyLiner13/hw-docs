@@ -92,7 +92,7 @@ The following are examples of use cases that the Gen AI Assistant can do and can
 
 ## Generating TypeScript code snippets
 
-**Note**: The Generative AI Creation Tool can only generate code using [version 2 of the Meta Horizon Worlds Typescript API](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/horizon-typescript-v2-changes).
+**Note**: The Generative AI Creation Tool can only generate code using [version 2 of the Meta Horizon Worlds Typescript API](/hw-docs/typescript/api-references-and-examples/horizon-typescript-v2-changes).
 
 The Generative AI Assistant tool can also generate Typescript snippets for you to attach to objects in your world. For best results when generating Typescript APIs, try to keep your scope limited to one API at a time.
 
@@ -127,8 +127,8 @@ After opening the history window you can select a previous conversation. This wi
 
 To learn more about Meta Horizon Worlds, try the following:
 
-- [Create your first world](/horizon-worlds/learn/documentation/get-started/create-your-first-world/) using our step-by-step tutorial.
-- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/troubleshooting/)
-- Learn about the desktop editor with the [Introduction to the Desktop Editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor/).
-- Learn about the other tools available by reading our [Tools Overview](/horizon-worlds/learn/documentation/get-started/tools-overview/).
+- [Create your first world](/hw-docs/get-started/create-your-first-world/) using our step-by-step tutorial.
+- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/hw-docs/desktop-editor/help-and-reference/troubleshooting/)
+- Learn about the desktop editor with the [Introduction to the Desktop Editor](/hw-docs/desktop-editor/getting-started/introduction-to-desktop-editor/).
+- Learn about the other tools available by reading our [Tools Overview](/hw-docs/get-started/tools-overview/).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.

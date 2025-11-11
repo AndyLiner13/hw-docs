@@ -24,9 +24,9 @@ You’ll also learn how to use two prewritten scripts to add animation and inter
 
 By reading and reviewing this written guide you will be able to:
 
-* [Import CMI](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/meta-horizon-cmi--typescript-api-20-import-images--add-texture-animation#image-imports) images with or without transparency.
-* [Use and or write typescript code](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/meta-horizon-cmi--typescript-api-20-import-images--add-texture-animation#step-5--create-scripts) to create animated textures.
-* [Billboard](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/meta-horizon-cmi--typescript-api-20-import-images--add-texture-animation#step-7--billboarding) an animated texture to create a unique 3D-like effect.
+* [Import CMI](/hw-docs/mhcp-program/community-tutorials/meta-horizon-cmi--typescript-api-20-import-images--add-texture-animation#image-imports) images with or without transparency.
+* [Use and or write typescript code](/hw-docs/mhcp-program/community-tutorials/meta-horizon-cmi--typescript-api-20-import-images--add-texture-animation#step-5--create-scripts) to create animated textures.
+* [Billboard](/hw-docs/mhcp-program/community-tutorials/meta-horizon-cmi--typescript-api-20-import-images--add-texture-animation#step-7--billboarding) an animated texture to create a unique 3D-like effect.
 
 ## Image Imports
 

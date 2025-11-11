@@ -6,7 +6,7 @@ Voice-over is an excellent means of enhancing the NPCs of your worlds into being
 
 ## Record and import audio
 
-Audio can be recorded outside of Meta Horizon Worlds in the prescribed format(s). Through the desktop editor, you can then import audio files into your Asset Library. For more information, see [Meta Horizon Worlds Audio Ingestion](/horizon-worlds/learn/documentation/sounds-physics-and-automation/horizon-worlds-audio-ingestion).
+Audio can be recorded outside of Meta Horizon Worlds in the prescribed format(s). Through the desktop editor, you can then import audio files into your Asset Library. For more information, see [Meta Horizon Worlds Audio Ingestion](/hw-docs/sounds-physics-and-automation/horizon-worlds-audio-ingestion).
 
 ## Set up audio assets
 
@@ -110,6 +110,6 @@ Several of the sound effects used in this world were generated using the GenAI t
 
 For more information on Generative AI tools in the desktop editor:
 
-* [Code Creation Tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-code-tool)
-* [Audio Creation Tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-audio-tool)
-* [Texture Creation Tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-texture-tool)
+* [Code Creation Tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-creation-code-tool)
+* [Audio Creation Tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-creation-audio-tool)
+* [Texture Creation Tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-creation-texture-tool)

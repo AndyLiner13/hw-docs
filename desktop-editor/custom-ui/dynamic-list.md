@@ -136,4 +136,4 @@ This code sample shows how to include multiple instances of dynamic lists in the
 
 ### How to use dynamic lists in local mode
 
-Similar to other custom UI components, dynamic lists work well in local mode. Please refer to the [custom ui local mode documentation](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/local-mode-custom-ui-scripts) for more information on the local mode feature.
+Similar to other custom UI components, dynamic lists work well in local mode. Please refer to the [custom ui local mode documentation](/hw-docs/desktop-editor/custom-ui/local-mode-custom-ui-scripts) for more information on the local mode feature.

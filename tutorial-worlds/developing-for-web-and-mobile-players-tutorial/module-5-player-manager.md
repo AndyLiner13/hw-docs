@@ -158,9 +158,9 @@ These components lay the foundation for the next modules, where we start buildin
 
 #### Docs:
 
-* [Using the Camera API for Web and Mobile](/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/camera/)
-* [How to set the player’s camera](/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
-* [Local Script for Mobile and Web](/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting/)
+* [Using the Camera API for Web and Mobile](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/camera/)
+* [How to set the player’s camera](/hw-docs/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
+* [Local Script for Mobile and Web](/hw-docs/typescript/local-scripting/getting-started-with-local-scripting/)
 
 #### API references:
 

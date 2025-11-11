@@ -14,9 +14,9 @@ This input mode is primarily designed for creating a set of custom on-screen con
 
 Before you begin, it is recommended you review the following how-to guides:
 
-* [Creating a Custom UI Panel](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel/)
-* [Local Mode Custom UI Scripts](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/local-mode-custom-ui-scripts/)
-* [Non-Interactive Custom UI Screen Overlay](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/noninteractive-custom-ui-screen-overlay/)
+* [Creating a Custom UI Panel](/hw-docs/desktop-editor/custom-ui/creating-a-custom-ui-panel/)
+* [Local Mode Custom UI Scripts](/hw-docs/desktop-editor/custom-ui/local-mode-custom-ui-scripts/)
+* [Non-Interactive Custom UI Screen Overlay](/hw-docs/desktop-editor/custom-ui/noninteractive-custom-ui-screen-overlay/)
 
 ## Step by step guide
 
@@ -35,7 +35,7 @@ Before you begin, it is recommended you review the following how-to guides:
 
 ### Set ownership of the custom controls entity
 
-Please refer to [Local Mode Custom UI Scripts](/horizon-worlds/learn/documentation/desktop-editor/custom-ui/local-mode-custom-ui-scripts/) for more detailed instructions on using local mode.
+Please refer to [Local Mode Custom UI Scripts](/hw-docs/desktop-editor/custom-ui/local-mode-custom-ui-scripts/) for more detailed instructions on using local mode.
 
 * Create a new script asset and leave it in **Default** execution mode.
 * Create an empty gizmo and assign the script to it.
@@ -61,7 +61,7 @@ initializeUI() {
 
 ### Triggering Player Input Actions
 
-We have provided two TypeScript functions to trigger the down / up input actions on the player controls. These functions support the same PlayerInputAction enum as the [Custom Input API](/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/custom-input-api/).
+We have provided two TypeScript functions to trigger the down / up input actions on the player controls. These functions support the same PlayerInputAction enum as the [Custom Input API](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/custom-input-api/).
 
 ```vs
 return Pressable({

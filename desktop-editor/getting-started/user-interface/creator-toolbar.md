@@ -35,7 +35,7 @@ This menu includes a variety of tools such as:
 
 Use systems tools to create systems-related objects like quests and leaderboards.
 
-More information about the systems tool options can be found at [Quests, leaderboards, and variable groups](/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/quests-leaderboards-and-variable-groups).
+More information about the systems tool options can be found at [Quests, leaderboards, and variable groups](/hw-docs/desktop-editor/quests-leaderboards-and-variable-groups/quests-leaderboards-and-variable-groups).
 
 ## The Public Asset Library
 
@@ -62,7 +62,7 @@ Public Asset Library stock assets include the following categories:
 * VFX
 * Educational
 
-For more information, see [Public Asset Library](/horizon-worlds/learn/documentation/desktop-editor/assets/public-asset-library).
+For more information, see [Public Asset Library](/hw-docs/desktop-editor/assets/public-asset-library).
 
 ## The Scripts panel
 
@@ -70,7 +70,7 @@ For more information, see [Public Asset Library](/horizon-worlds/learn/documenta
 
 You can use the **Scripts** panel to create new scripts, view the scripts currently used in your world, or to open each of your scripts for editing and debugging in your IDE.
 
-For more information, see [Adding and Editing Scripts](/horizon-worlds/learn/documentation/desktop-editor/getting-started/adding-and-editing-scripts/).
+For more information, see [Adding and Editing Scripts](/hw-docs/desktop-editor/getting-started/adding-and-editing-scripts/).
 
 ## The Generative AI Creation tool
 
@@ -85,13 +85,13 @@ For both sound effects and Typescript code snippets and sound effects, you can w
 
 ![The Gen AI panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/476840988_671848625353092_8590839634124608750_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=UOyaBQbhQ70Q7kNvwEnAOl1&_nc_oc=Adk24aYwYHjRPaZ_eJD-2rIgJahg7G_6PbqnZgFLPAbfnC2WCJ5GvCxvG0P_Fr8BTac&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=j9RJaZY6Uw_b9S6mZmUkuQ&oh=00_Afjoq8j2Vtsmcj9edBcrKFc2aDhfvBD8EJYwx2ubTJL6qQ&oe=692C0A13)
 
-For more information, see [Generative AI Creation Code Tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-code-tool).
+For more information, see [Generative AI Creation Code Tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-creation-code-tool).
 
 ## The View available asset updates tool
 
 ![The View available asset updates button](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/479885370_671848632019758_7437476804724142279_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=D5WTjgAvJYIQ7kNvwE4coJ8&_nc_oc=Adm-xMWGWLe79mYZeVPz6GBP186Mp5Ft800LypENQWyPqwFguT8gpOEd_APbm3dvUy4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=j9RJaZY6Uw_b9S6mZmUkuQ&oh=00_Afg_TIyXmG3hhXoseqd5t5v3N47GQVi3kc4xji7iN-Ls4g&oe=692C0598)
 
-If you add objects to your world that you spawned from an [asset template](/horizon-worlds/learn/documentation/desktop-editor/assets/asset-templates), you can update those objects whenever the asset template’s creator revises the original.
+If you add objects to your world that you spawned from an [asset template](/hw-docs/desktop-editor/assets/asset-templates), you can update those objects whenever the asset template’s creator revises the original.
 
 ![The **View available asset updates** panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/479847526_671848635353091_3822597055749413796_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=O7WV8oHZ7wIQ7kNvwFO64-b&_nc_oc=AdlJeSWcGP10F89sxs7jo76ErX7pdELwJ9qiALh5m09n71D2RrvbM6QCJiINGMsaCpU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=j9RJaZY6Uw_b9S6mZmUkuQ&oh=00_Afjdk_UG74nkpxJ5JXKxr2NXezchycnhnFLWxYoXpSNgUg&oe=692BE4C3)
 
@@ -99,9 +99,9 @@ If you add objects to your world that you spawned from an [asset template](/hori
 
 The **Creator** toolbar is part of the suite of tools in the Desktop Editor UI. You can find out more about the UI at:
 
-* [The Desktop Editor user interface](/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/user-interface/)
+* [The Desktop Editor user interface](/hw-docs/desktop-editor/getting-started/user-interface/user-interface/)
 
 You can also try out the editor by working through these beginner tutorials:
 
-* [Create Your First World](/horizon-worlds/learn/documentation/get-started/create-your-first-world)
-* [Batting Cage Tutorial](/horizon-worlds/learn/documentation/get-started/batting-cage-tutorial)
+* [Create Your First World](/hw-docs/get-started/create-your-first-world)
+* [Batting Cage Tutorial](/hw-docs/get-started/batting-cage-tutorial)

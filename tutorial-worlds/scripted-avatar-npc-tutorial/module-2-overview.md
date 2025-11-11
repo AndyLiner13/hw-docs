@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Scripted Avatar NPCs can add life to your worlds! These characters are easy to design and deploy, and their behaviors can be scripted through TypeScript. This example world includes two example NPCs, including the code necessary to drive the following features.
 
-For more information on the feature, see [Getting Started with Scripted Avatar NPCs](/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs).
+For more information on the feature, see [Getting Started with Scripted Avatar NPCs](/hw-docs/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs).
 
 ## Visual Design
 
@@ -31,7 +31,7 @@ When you have finished designing your character:
 * Click **Done editing**.
 * Back in the Desktop Editor, click the **Refresh button** in the Properties panel to refresh the instances from your web-based design.
 
-For more information, see [Edit Scripted Avatar NPC Appearance](/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/edit-scripted-avatar-npc-appearance).
+For more information, see [Edit Scripted Avatar NPC Appearance](/hw-docs/desktop-editor/npcs/scripted-avatar-npcs/edit-scripted-avatar-npc-appearance).
 
 ## TypeScript Features
 
@@ -135,9 +135,9 @@ this.navMesh = navMesh;
 
 **Usage**:
 
-Locomotion along the navmesh is handled through a set of methods on the `locomotion` property. For more information, see [Module 3 - NPC Manager](/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
+Locomotion along the navmesh is handled through a set of methods on the `locomotion` property. For more information, see [Module 3 - NPC Manager](/hw-docs/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
 
-For more information on NavMesh, see [Setting up NPCs with Navigation](/horizon-worlds/learn/documentation/desktop-editor/npcs/setting-up-npcs-with-navigation).
+For more information on NavMesh, see [Setting up NPCs with Navigation](/hw-docs/desktop-editor/npcs/setting-up-npcs-with-navigation).
 
 ### Grabbing
 
@@ -145,7 +145,7 @@ As needed, NPCs can be configured to grab objects that are set to be grabbable.
 
 **Note**: For an entity to be grabbable, you must configure a set of properties on the entity.
 
-For more information on configuring entities to be grabbable by avatar NPCs, see [Grabbing for Scripted Avatar NPCs](/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/grabbing-for-scripted-avatar-npcs).
+For more information on configuring entities to be grabbable by avatar NPCs, see [Grabbing for Scripted Avatar NPCs](/hw-docs/desktop-editor/npcs/scripted-avatar-npcs/grabbing-for-scripted-avatar-npcs).
 
 **Usage**:
 
@@ -162,7 +162,7 @@ private onGemCollected(gem: hz.Entity, collector: hz.Player): void {
 };
 ```
 
-For more information on NPC grabbing in the example world, see [Module 3 - NPC Manager](/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
+For more information on NPC grabbing in the example world, see [Module 3 - NPC Manager](/hw-docs/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
 
 ## Unsupported Features
 
@@ -170,4 +170,4 @@ The following features are not currently available for Scripted Avatar NPCs.
 
 * **Conversation integration**: Integration with the Conversation LLM gizmo is not supported at this time.
 
-**Tip**: As a workaround, this tutorial world demonstrates how to trigger voice based on NPC activities. For more information, see [Module 3 - NPC Manager](/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
+**Tip**: As a workaround, this tutorial world demonstrates how to trigger voice based on NPC activities. For more information, see [Module 3 - NPC Manager](/hw-docs/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).

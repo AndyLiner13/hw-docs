@@ -11,7 +11,7 @@ Instant Replay is an experimental feature that allows world creators to add vide
 ## How Instant Replay works
 
 - Worlds that have integrated Instant Replay have a disclaimer for users who view or visit them. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532415_512510417953581_238544945196466554_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=G3A-fLu6Ku8Q7kNvwG8KQCK&_nc_oc=AdmacjWjdJWVD6uPEpKozVRbKdflziGTV3Tjid416c69ySFmOvHvag1i97RYNmU7H1s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9HZ2bmAfhRHcPwmd1OH5JA&oh=00_Afg5CzXivq6Lkar6ALy_YCd-Xlkfj3PD5DUnELDGanvJTQ&oe=692BE9A6)![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452751772_512510411286915_8266118339470473699_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=0MFPN4NgzAgQ7kNvwH04KT0&_nc_oc=AdnZtZW--mzN7DnxVaxD9qRg8dw6nozxacPUeIBZyeWxsUrA3sKQL_CXh0cANkpzsQ4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9HZ2bmAfhRHcPwmd1OH5JA&oh=00_AfgfoMeLvTfmW4Zgu-XNl_qPu2DFk-ejmlACcNvPUsqC2A&oe=692BE054)
-- When the player explores the world and triggers the [START API](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/instant-replay#examples), recording begins but the player is not notified yet.
+- When the player explores the world and triggers the [START API](/hw-docs/typescript/api-references-and-examples/instant-replay#examples), recording begins but the player is not notified yet.
 - When the recording finishes, the player receives a pop-up notification inviting them to view the recording.
   ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452577880_512510407953582_6499547904856135596_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=356haInYCskQ7kNvwFy3ma4&_nc_oc=AdmSxAZrJt8Z2CZkEezEKM1TWwRyfVJE-_38GgieYpx3Kq4qrkN4NYMFgoLxJxya2j4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9HZ2bmAfhRHcPwmd1OH5JA&oh=00_AfgH1_MhoY_0n12X1JrsMwC_UJjOeOxH-WkDsLaCrr4FcA&oe=692BF51D)
 - Once the player reviews the video, it is stored locally and removed from the server. The player will need to “review” the video in order to keep it permanently, otherwise it will be deleted after 7 days.
@@ -68,7 +68,7 @@ let result = awaitcapture.stopVideoCapture({save: true});
 
 * Identify fun or exciting moments in your world that you may want to record for the player. We recommend around one to three spots. Ideally, the spots should be a core part of the gameplay so that players will encounter it naturally. At least one spot should be commonly encountered, while the others could be more rare.
 * Sometimes you may want to delay the stop API call a few seconds after the moment “concluded” in order to capture the player reaction.
-* You may want to [leverage persistent variables](/horizon-worlds/learn/documentation/typescript/getting-started/persistent-variables-v2) to keep track of when the player has completed a recording to prevent too much duplication.
+* You may want to [leverage persistent variables](/hw-docs/typescript/getting-started/persistent-variables-v2) to keep track of when the player has completed a recording to prevent too much duplication.
 
 ## Known Issues and Limitations
 

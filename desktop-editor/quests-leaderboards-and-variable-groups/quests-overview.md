@@ -63,6 +63,6 @@ Note that while setting simple quests to complete or incomplete is straightforwa
 
 ## TypeScript support
 
-The TypeScript API includes several functions that help track and manage quests. An overview of this functionality can be found in the [CodeBlocks Achievements doc](/horizon-worlds/learn/documentation/typescript/api-references-and-examples/codeblock-achievements/).
+The TypeScript API includes several functions that help track and manage quests. An overview of this functionality can be found in the [CodeBlocks Achievements doc](/hw-docs/typescript/api-references-and-examples/codeblock-achievements/).
 
 > **Note:** “Achievements” is a legacy name for quests, and the TypeScript API reflects this. The Achievements TypeScript functions still work as intended for quests.

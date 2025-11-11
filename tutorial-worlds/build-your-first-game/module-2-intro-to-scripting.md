@@ -137,7 +137,7 @@ this.connectCodeBlockEvent(
 
 Hmm…it’s not working. Nothing is being logged, and the console is empty.
 
-**Note**: Console logging is an important tool for debugging purposes. For more information, see [Test Your World](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/test-your-world#console-logging).
+**Note**: Console logging is an important tool for debugging purposes. For more information, see [Test Your World](/hw-docs/tutorial-worlds/getting-started-with-tutorials/test-your-world#console-logging).
 
 ### Attach script
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Raycast gizmo
 
-The raycast gizmo is one of many gizmos in Meta Horizon Worlds that’s designed to enhance the creator’s ability to build interactive and dynamic worlds. This topic focuses on the experience of using a raycast gizmo in the [desktop editor](/horizon-worlds/learn/documentation/get-started/install-desktop-editor), introduces the gizmo’s properties and expected behavior, and then highlights the [Raycast gizmo APIs](/horizon-worlds/reference/2.0.0/core_raycastgizmo).
+The raycast gizmo is one of many gizmos in Meta Horizon Worlds that’s designed to enhance the creator’s ability to build interactive and dynamic worlds. This topic focuses on the experience of using a raycast gizmo in the [desktop editor](/hw-docs/get-started/install-desktop-editor), introduces the gizmo’s properties and expected behavior, and then highlights the [Raycast gizmo APIs](/horizon-worlds/reference/2.0.0/core_raycastgizmo).
 
 First of all, raycasting is the act of projecting a virtual laser beam from a location towards a direction and finding the first thing that it collides with such as a player or an object. If a collision is detected, information about the collision is returned. The act of casting a ray into the world is called raycast.
 
@@ -59,6 +59,6 @@ The result of the raycast collision is [RaycastHit](/horizon-worlds/reference/2.
 
 Try the following tutorial worlds with code samples and related guides:
 
-* [Simple shooting mechanics](/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-4-laser-gun#raycast-gizmo)
-* [Use tap inputs to interact with a keypad](/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-7c-use-tap-inputs-to-interact-with-a-keypad)
+* [Simple shooting mechanics](/hw-docs/tutorial-worlds/simple-shooting-mechanics-tutorial/module-4-laser-gun#raycast-gizmo)
+* [Use tap inputs to interact with a keypad](/hw-docs/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-7c-use-tap-inputs-to-interact-with-a-keypad)
 * [Meta Horizon Creator Program creators manual](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#raycast-gizmo)

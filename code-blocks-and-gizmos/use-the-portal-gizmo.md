@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Door gizmo
 
-The door gizmo is part of a suite of tools called [gizmos](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/about-gizmos), which are designed to enhance the creation and interaction capabilities within Meta Horizon Worlds.
+The door gizmo is part of a suite of tools called [gizmos](/hw-docs/code-blocks-and-gizmos/about-gizmos), which are designed to enhance the creation and interaction capabilities within Meta Horizon Worlds.
 
 The door gizmo in Meta Horizon Worlds allows you to place a door in the virtual world, configure its properties to link your world with another published world, and as a result, enables players to interact with the door and travel from one world to another.
 
-**Note**: While you can access and use the door gizmo in the [VR tool](/horizon-worlds/learn/documentation/vr-creation/getting-started/create-a-new-world-in-horizon), this topic focuses on the creator experience in the [desktop editor](/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor).
+**Note**: While you can access and use the door gizmo in the [VR tool](/hw-docs/vr-creation/getting-started/create-a-new-world-in-horizon), this topic focuses on the creator experience in the [desktop editor](/hw-docs/desktop-editor/getting-started/introduction-to-desktop-editor).
 
 ## Access the door gizmo
 
@@ -41,7 +41,7 @@ While using the door gizmo, keep in mind of the following:
 
 The following outlines the steps to travel to another world using the door gizmo:
 
-- After you’ve configured the door gizmo in the desktop editor, [publish](/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-your-world) the world. For an example of publishing a world on mobile, see [Play in your world on mobile](/horizon-worlds/learn/documentation/get-started/create-your-first-world#section-4-play-in-your-world-on-mobile).
+- After you’ve configured the door gizmo in the desktop editor, [publish](/hw-docs/save-optimize-and-publish/publish-your-world) the world. For an example of publishing a world on mobile, see [Play in your world on mobile](/hw-docs/get-started/create-your-first-world#section-4-play-in-your-world-on-mobile).
 - Visit the published world with the door gizmo on mobile, web or VR.
 - Approach the door gizmo and interact with it by clicking the trigger.
 - Click the **Go** button on the door gizmo to travel to the linked world. Wait for the new world to load. This may take a few seconds.

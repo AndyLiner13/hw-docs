@@ -39,7 +39,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0. You can learn more about how to upgrade your own world to TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites/).
+See [Getting Started with Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites/).
 
 ## Learning Pathways
 
@@ -53,11 +53,11 @@ To create a copy of the Shooting Mechanics Tutorial sample world in Meta Horizon
 - Select the world.
 - A duplicate version is created, with you as its owner. The world name is set to: **Simple Shooting Mechanics**.
 
-You can create a new world from a tutorial world from the desktop editor or from the headset. For more information on this workflow, see See [Access Tutorial Worlds](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+You can create a new world from a tutorial world from the desktop editor or from the headset. For more information on this workflow, see See [Access Tutorial Worlds](/hw-docs/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ## Multiplayer
 

@@ -2,13 +2,13 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Environment gizmo
 
-The environment [gizmo](/horizon-worlds/learn/documentation/code-blocks-and-gizmos/about-gizmos) is a helper tool that allows creators to control and customize the environment of a virtual world. The environment is enabled by the skydome feature, a dome-shaped visual that provides a simulated backdrop. The skydome feature has options to choose different textures, as well as allowing the customization of the environment, such as lighting and fog. Additionally, the Voice Over Internet Protocol or [VOIP setting](/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/player-settings-modification) is available to configure how players hear each other in the world.
+The environment [gizmo](/hw-docs/code-blocks-and-gizmos/about-gizmos) is a helper tool that allows creators to control and customize the environment of a virtual world. The environment is enabled by the skydome feature, a dome-shaped visual that provides a simulated backdrop. The skydome feature has options to choose different textures, as well as allowing the customization of the environment, such as lighting and fog. Additionally, the Voice Over Internet Protocol or [VOIP setting](/hw-docs/desktop-editor/settings-modifications/player-settings-modification) is available to configure how players hear each other in the world.
 
-**Note**: You have the option to create your custom skydome asset, import it, and deploy the skydome to Worlds. This process creates a new instance of the environment gizmo that’s mapped to the custom skydome asset. See [Preparing skydome maps for Worlds ingestion](/horizon-worlds/learn/documentation/desktop-editor/preparing-skydome-maps-for-horizon-worlds-ingestion) for details. Additionally, if you would like to consider using generative AI to create your skydome, see [Generative AI skybox generation tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-skybox-tool) for more information.
+**Note**: You have the option to create your custom skydome asset, import it, and deploy the skydome to Worlds. This process creates a new instance of the environment gizmo that’s mapped to the custom skydome asset. See [Preparing skydome maps for Worlds ingestion](/hw-docs/desktop-editor/preparing-skydome-maps-for-horizon-worlds-ingestion) for details. Additionally, if you would like to consider using generative AI to create your skydome, see [Generative AI skybox generation tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-skybox-tool) for more information.
 
 ## Access the environment gizmo
 
-While you can access and use gizmos in the [VR tool](/horizon-worlds/learn/documentation/vr-creation/getting-started/create-a-new-world-in-horizon), this topic focuses on the creator experience in the [desktop editor](/horizon-worlds/learn/documentation/get-started/install-desktop-editor).
+While you can access and use gizmos in the [VR tool](/hw-docs/vr-creation/getting-started/create-a-new-world-in-horizon), this topic focuses on the creator experience in the [desktop editor](/hw-docs/get-started/install-desktop-editor).
 
 In the desktop editor, do the following to access the environment gizmo:
 
@@ -18,7 +18,7 @@ In the desktop editor, do the following to access the environment gizmo:
 
 ## Properties
 
-The following sections highlights the environment gizmo’s attributes and behavior in the [Properties](/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/UI-panels-and-tabs#properties-pane) panel.
+The following sections highlights the environment gizmo’s attributes and behavior in the [Properties](/hw-docs/desktop-editor/getting-started/user-interface/UI-panels-and-tabs#properties-pane) panel.
 
 ### Attributes
 
@@ -47,7 +47,7 @@ You can configure how players hear each other in the world under the **VOIP Sett
 
 ## Scripting
 
-The environment gizmo lets you configure the settings for a static environment. But to achieve a dynamic environment where, for example, the day transitions to night, use [object spawning and despawning](/horizon-worlds/learn/documentation/desktop-editor/objects/object-spawning-and-despawning). As the day moves from one phase to another, you spawn a new active environment gizmo and despawn the old one. Spawning and despawning can be achieved through [three different approaches](/horizon-worlds/learn/documentation/desktop-editor/objects/object-spawning-and-despawning#how-do-we-implement-this-feature-in-our-world): codeblocks, TypeScript, and TypeScript with SpawnController class. The recommended way is using the [SpawnController class](/horizon-worlds/reference/2.0.0/core_spawncontroller). See also [Implementing SpawnController](/horizon-worlds/learn/documentation/typescript/asset-spawning/introduction-to-asset-spawning#implementing-spawncontroller).
+The environment gizmo lets you configure the settings for a static environment. But to achieve a dynamic environment where, for example, the day transitions to night, use [object spawning and despawning](/hw-docs/desktop-editor/objects/object-spawning-and-despawning). As the day moves from one phase to another, you spawn a new active environment gizmo and despawn the old one. Spawning and despawning can be achieved through [three different approaches](/hw-docs/desktop-editor/objects/object-spawning-and-despawning#how-do-we-implement-this-feature-in-our-world): codeblocks, TypeScript, and TypeScript with SpawnController class. The recommended way is using the [SpawnController class](/horizon-worlds/reference/2.0.0/core_spawncontroller). See also [Implementing SpawnController](/hw-docs/typescript/asset-spawning/introduction-to-asset-spawning#implementing-spawncontroller).
 
 To do a day-to-night cycle, the following outlines the steps:
 
@@ -58,14 +58,14 @@ To do a day-to-night cycle, the following outlines the steps:
 **Note**: Be aware of the following when despawning an active environment gizmo:
 
 * If an active environment gizmo is deleted/despawned by a script in the Build mode, it will still affect the world.
-* When using the VR tool, if an active environment gizmo is deleted by using the [Disk UI in Build mode](/horizon-worlds/learn/documentation/vr-creation/getting-started/using-controllers-in-build-mode), deleting the gizmo will remove its effects on the world. Because of this, you will know what your worlds look like when they’re published. In the VR tool, the Disk UI is the primary user interface when creators are in the Build mode. The Disk UI provides a primary set of tools that you can access to build and edit worlds when using the VR tool.
+* When using the VR tool, if an active environment gizmo is deleted by using the [Disk UI in Build mode](/hw-docs/vr-creation/getting-started/using-controllers-in-build-mode), deleting the gizmo will remove its effects on the world. Because of this, you will know what your worlds look like when they’re published. In the VR tool, the Disk UI is the primary user interface when creators are in the Build mode. The Disk UI provides a primary set of tools that you can access to build and edit worlds when using the VR tool.
 
 ## What’s next?
 
 Now you’ve been introduced to the environment gizmo, further your understanding with the following topics on spawning and despawning.
 
-* [Example uses of spawning](/horizon-worlds/learn/documentation/desktop-editor/assets/asset-spawning-reference#example-uses-of-spawning)
-* [Asset spawning and despawning example](/horizon-worlds/learn/documentation/typescript/asset-spawning/introduction-to-asset-spawning#asset-spawning-and-despawning-example)
+* [Example uses of spawning](/hw-docs/desktop-editor/assets/asset-spawning-reference#example-uses-of-spawning)
+* [Asset spawning and despawning example](/hw-docs/typescript/asset-spawning/introduction-to-asset-spawning#asset-spawning-and-despawning-example)
 * [Meta Horizon Creator Program creator manual on environment gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#environment-gizmo)
 * [Meta Horizon Creator Program creator manual on spawning](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#spawning)
 * [Meta Horizon Creator Program creator manual on VOIP settings](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#voip-settings)

@@ -50,7 +50,7 @@ When generating an environment, there are a variety of parameters in the **Envir
 
 The environment generation tool can be used in conjunction with the other suite of Horizon GenAI tools to quickly build a world’s environment and tone for your users and players to explore.
 
-By combining with tools like the [Skybox Generator tool](/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-skybox-tool) you can rapidly build a world that you can begin adding gameplay and content to.
+By combining with tools like the [Skybox Generator tool](/hw-docs/desktop-editor/generative-ai-creation-tools/generative-ai-skybox-tool) you can rapidly build a world that you can begin adding gameplay and content to.
 
 Below are some examples of environments generated using the Environment Generation tool.
 

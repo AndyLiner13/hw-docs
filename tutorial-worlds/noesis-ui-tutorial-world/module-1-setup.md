@@ -40,7 +40,7 @@ Before you begin, make sure to:
 - Run the application named **App.StudioTool.exe**
 - Select Add Existing, to import the Tutorial project
 - Navigate to the Tutorial Project folder and select the **.noesis** file
-- Download and add supported fonts from the [NoesisGUI Fonts Usage Guide](/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-fonts-usage) to your project
+- Download and add supported fonts from the [NoesisGUI Fonts Usage Guide](/hw-docs/desktop-editor/noesis-ui/noesis-ui-fonts-usage) to your project
 
 ## Step-by-Step: Uploading Noesis Projects to Horizon Station
 

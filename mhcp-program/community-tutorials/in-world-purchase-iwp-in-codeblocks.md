@@ -12,9 +12,9 @@ Intermediate
 
 **Recommended Prerequisite Background Knowledge**
 
-An understanding of Intermediate Codeblock Scripting, [Persistent Player Variables](/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/managing-persistent-variables-associated-with-a-variable-group), and [Basic Asset Spawning](/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/part-one-understanding-asset-spawning-with-seeingblue) is recommended.
+An understanding of Intermediate Codeblock Scripting, [Persistent Player Variables](/hw-docs/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/managing-persistent-variables-associated-with-a-variable-group), and [Basic Asset Spawning](/hw-docs/mhcp-program/community-tutorials/part-one-understanding-asset-spawning-with-seeingblue) is recommended.
 
-**Note**: IWP creation is now available in the Desktop Editor. Visit the [documentation](/horizon-worlds/learn/documentation/mhcp-program/monetization/meta-horizon-worlds-inworld-purchase-guide) for more information on this.
+**Note**: IWP creation is now available in the Desktop Editor. Visit the [documentation](/hw-docs/mhcp-program/monetization/meta-horizon-worlds-inworld-purchase-guide) for more information on this.
 
 **Description**
 

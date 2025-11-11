@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453568979_804216788524677_5442964682020855821_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=Qy7lHFM-PGAQ7kNvwFQHIFN&_nc_oc=Adm17yP-P7ELAqdqfVFERwrkNQC1HoMtI10bNafOTVuyJ-cR9xKwhPryFaLMcEK7HqM&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=KQDR7V7D2NhoI-mvnPZXYQ&oh=00_AfgOnA4vjql7BjBDjj9c2JsoeLSMVCtRPdEo-vZ0qoffkQ&oe=691788DC)
 
-Join Meta expert, Barrett Meeker, as he answers questions related to integrating Custom Models in your worlds. If you liked this video, be sure to watch [the “Custom Model Worlds” video](/horizon-worlds/learn/documentation/custom-model-import/connect-23-video-series-custom-model-worlds) to lay even more groundwork in this area.
+Join Meta expert, Barrett Meeker, as he answers questions related to integrating Custom Models in your worlds. If you liked this video, be sure to watch [the “Custom Model Worlds” video](/hw-docs/custom-model-import/connect-23-video-series-custom-model-worlds) to lay even more groundwork in this area.
 
 #### Timestamps
 

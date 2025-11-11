@@ -9,8 +9,8 @@ Legacy script storage availability
 There are some important differences between the legacy script storage solution and file-backed scripts for worlds that leverage the legacy solution.
 
 * There is a size limit per script of 32 kb.
-* [Scripts in legacy worlds don’t have an ID and rely solely on script names.](/horizon-worlds/learn/documentation/typescript/script-storage/filebacked-scripts#How-script-identification-works)
-* There are some differences in [asset behavior](/horizon-worlds/learn/documentation/typescript/script-storage/filebacked-scripts##benefits) between the legacy and FBS as script storage options.
+* [Scripts in legacy worlds don’t have an ID and rely solely on script names.](/hw-docs/typescript/script-storage/filebacked-scripts#How-script-identification-works)
+* There are some differences in [asset behavior](/hw-docs/typescript/script-storage/filebacked-scripts##benefits) between the legacy and FBS as script storage options.
 
 ## Opt-in to file-backed scripts solution
 
