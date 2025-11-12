@@ -1,0 +1,51 @@
+Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/collaborator-management
+
+Learn
+
+# Collaborator Management
+
+These features enable you to manage world collaborators in the Desktop Editor. This includes viewing, inviting, and removing collaborators, as well as editing a collaborator’s role, and accepting or rejecting an invitation to collaborate.
+
+**Note**: When multiple collaborators are present in a world, **Auto-stop simulation on Preview exit** setting is bypassed so a collaborator exiting Preview mode will not disrupt the work-flow of other collaborators.
+
+## Viewing Collaborators
+
+- Open or create a new world.
+- Your avatar is located in the upper right of the main toolbar. Any collaborators that are active in your world will appear here.
+
+  ![The Collaborator Menu located in the UI](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/483483811_671766002028021_6997080716901318933_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=l7ZhiTqB2ucQ7kNvwGDjz1D&_nc_oc=AdnkX9ogrO_2TWo7E8YxMQ7pbLSdgpHuQLE5VGH5iXs2udhEGR7rdY84WoVUMAZJ4iY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_AfjIovaZ5bHtIc51QWQ7CB8b2VVr9j9yadgVL_i-esQATA&oe=692EAD1B)
+- Click on the chevron button beside your avatar to open the menu for Collaborators. You and your fellow collaborators and invites (if any) will appear here.
+
+  ![List of collaborators available](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484350008_671766008694687_8427404570089073584_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=rfwyxjZd3V0Q7kNvwHimBod&_nc_oc=AdmV6SJU3RZPQFRp22sN8tCgiSYWl3Y8ry4YcT2bNY5M74MiJSJB-xG_EVG9bs4We3E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_Afi6c8LLG_MxGiYnOoF6pWg7kr0FfzjSzd36oAN3TzD5bg&oe=692EBBDE)
+
+## Inviting Collaborators
+
+- Click the **Invite people** button to invite others to collaborate on your world. You will see a list of suggested collaborators here.
+
+  ![List of suggested collaborators](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484164545_671766012028020_7215175053573077739_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=O4DRXW-cNZYQ7kNvwFCuCpf&_nc_oc=AdlLeV1Diti8fUunh02BjL12ufIllt7g5xN8-fc22Jwska1mATZKdgLPgypxMbCqe6c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_AfhveBpcbku2tKE_RYFwQkOily44Bf_Jj1H2O92orB8eWw&oe=692E9824)
+- You can select any of the suggested collaborators or search for any collaborators to add.
+
+  ![Invite a collaborator](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484317522_671766028694685_1855985234003026835_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=02b95Jcd8mwQ7kNvwGVxi5P&_nc_oc=AdkGDYJLkweFyQQpb44lEdYg83XvlvwBH9Oqtkn0VcsHbrCRIy6N-YRK7ZPBePVnMsQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_AfjTIOvE_LQC31gZIJIK_VcjhmaA2sr5hCPgQctsKl0fRg&oe=692EC709)
+- Select the roles you’d like your collaborators to have.
+
+  ![Choosing the collaborator role](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/483549427_671766005361354_4230507070043272739_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZsVeqOuWOT4Q7kNvwG_z6ct&_nc_oc=Adn3yd2kYW1rG0g0DTsJSjsc-OTwz9_T3Wozi-hVAv64A9Sc9lLbIyR5RIWsx44Hxng&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_AfixwqAiVOFWPxRLBVgkMa9Q_nGXiuYQ6nN18mgDDJl3Pg&oe=692EA72B)
+- Click the **Invite** button to send the invitations. You will receive a confirmation notice at the bottom of the screen.
+
+  ![Confirmation notification that displays your invite has been sent](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/483537690_671766025361352_4504771883460026345_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=iHPwtJxD1boQ7kNvwHfoo-a&_nc_oc=AdmsKvUH5qvxkOM8pjOZh9t1pkURF2eRZSqqGWzecyM5nWQlDWIpThrsVt-4ss5qrvs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_AfikGP77U5sGYxsTA-2w0r82e7QN6vZ1M1sq7S5M64DUrQ&oe=692EBB9F)
+- To see any open invites, you can open the **Invites** tab from the **Collaborators** menu.
+
+  ![Menu of pending invites to a fellow collaborator](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484110745_671766018694686_8115938468608942346_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=f0lzjpmp38EQ7kNvwHCAwva&_nc_oc=AdmQ7n8XJC22TgZDNywigwhpQKXCfZD63QBb_71RQu7XZ9BAsGZkR5RmNPJmqZT-ml4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_AfgYBpN8VzGmXmrttWaqJPuwRTWWPWJwhgW9tnTngx4ong&oe=692EB1B2)
+
+## Removing & Changing Roles
+
+- To change an invitee’s role, collaborator’s role, revoke access, or cancel an invite, open the Collaborators menu, click the Invites tab, and open the dropdown menu then select the appropriate option.
+
+  ![Changing the role of a collaborator or invite](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484002552_671766015361353_1676693660122361278_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=wGeHJCMPjwkQ7kNvwEINd8s&_nc_oc=Adnf6IiioE7PEloZgbKrYfvxCPTfdotZgCYNBwnv_kU50HcNRe4Z6ESv33KEiUNbkLM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_AfiPr6ukx95Ax9oRdXyx3aBY2QctWHLWusTzPTK3TsWFzg&oe=692EA200)
+
+## Accepting or Rejecting an Invitation
+
+If you have been invited to collaborate on a world, you will receive a notification in the home screen of the desktop editor. To accept or decline an invitation, open the notification menu in the upper right corner and select the appropriate action.
+
+![An invite notification is displayed](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452888911_512500521287904_3301350265294334233_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Oumgs3v0-rcQ7kNvwGkHhU1&_nc_oc=AdlHPOb_B-iD23J5Ws7ANpwg4I1NZHolaujSlf-muAxzBewPYJT5Egb5hIdl1O64Jvc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_AfjJZJzDEuT1PnKpqp07stXqqyQRqbNmJQiuYfXKWJF6Lg&oe=692EAA88)
+
+![A notifications menu when there is now new notifcations to display](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452653286_512500517954571_5948573339587790980_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=mU0uR058VP8Q7kNvwES7bHp&_nc_oc=AdlsSo-asAH5dkT1Xkfdp1ThFkSOueYHiWc2ZAwyKCGJ8LMuH_noa8O0jwcyxBP22B0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Sur0DY9AcCKNMuqgSJUDuQ&oh=00_AfhArtqxnZgD3Ed1mhcqfewiYDn-Dv3EGjPO2Qnq91hmEQ&oe=692E97F8)

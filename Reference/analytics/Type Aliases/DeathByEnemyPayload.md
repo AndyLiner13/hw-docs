@@ -1,0 +1,13 @@
+Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_deathbyenemypayload
+
+API reference
+
+# DeathByEnemyPayload type
+
+A payload sent by the `OnDeathByEnemy` [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).
+
+## Signature
+
+```
+export declare type DeathByEnemyPayload = FullTurboEventPayload<typeof OnDeathByEnemy>;
+```

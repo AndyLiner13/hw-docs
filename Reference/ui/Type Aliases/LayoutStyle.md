@@ -1,0 +1,69 @@
+Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_layoutstyle
+
+API reference
+
+# LayoutStyle type
+
+Represents the styles of a layout for a UI panel. For descriptions of the available styles, see [Custom UI Styles](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#layoutstyle).
+
+## Signature
+
+```
+export declare type LayoutStyle = {
+    display?: Bindable<'none' | 'flex'>;
+    width?: Bindable<DimensionValue>;
+    height?: Bindable<DimensionValue>;
+    bottom?: Bindable<DimensionValue>;
+    end?: DimensionValue;
+    left?: Bindable<DimensionValue>;
+    right?: Bindable<DimensionValue>;
+    start?: DimensionValue;
+    top?: Bindable<DimensionValue>;
+    minWidth?: DimensionValue;
+    maxWidth?: DimensionValue;
+    minHeight?: DimensionValue;
+    maxHeight?: DimensionValue;
+    margin?: DimensionValue;
+    marginBottom?: DimensionValue;
+    marginEnd?: DimensionValue;
+    marginHorizontal?: DimensionValue;
+    marginLeft?: DimensionValue;
+    marginRight?: DimensionValue;
+    marginStart?: DimensionValue;
+    marginTop?: DimensionValue;
+    marginVertical?: DimensionValue;
+    padding?: DimensionValue;
+    paddingBottom?: DimensionValue;
+    paddingEnd?: DimensionValue;
+    paddingHorizontal?: DimensionValue;
+    paddingLeft?: DimensionValue;
+    paddingRight?: DimensionValue;
+    paddingStart?: DimensionValue;
+    paddingTop?: DimensionValue;
+    paddingVertical?: DimensionValue;
+    position?: 'absolute' | 'relative';
+    flexDirection?: 'row' | 'row-reverse' | 'column' | 'column-reverse';
+    flexWrap?: 'nowrap' | 'wrap' | 'wrap-reverse';
+    justifyContent?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
+    alignContent?: 'flex-start' | 'flex-end' | 'center' | 'stretch' | 'space-between' | 'space-around';
+    alignItems?: 'flex-start' | 'flex-end' | 'center' | 'stretch' | 'baseline';
+    alignSelf?: 'auto' | 'flex-start' | 'flex-end' | 'center' | 'stretch' | 'baseline';
+    overflow?: 'visible' | 'hidden';
+    flex?: number;
+    flexGrow?: number;
+    flexShrink?: number;
+    flexBasis?: DimensionValue;
+    aspectRatio?: number;
+    zIndex?: number;
+    layoutOrigin?: [number, number];
+    direction?: 'inherit' | 'ltr' | 'rtl';
+};
+```
+
+## References
+
+[Bindable](/hw-docs/Reference/ui/Type%20Aliases/Bindable.md), [DimensionValue](/hw-docs/Reference/ui/Type%20Aliases/DimensionValue.md)
+
+## Remarks
+
+The [UIComponent](/hw-docs/Reference/ui/Abstract%20Classes/UIComponent.md) class is the base class for controlling custom UI panels in a world. See [Create a custom UI panel](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) for guides about using the API.
