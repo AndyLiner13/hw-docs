@@ -251,7 +251,7 @@ Next, we build the Camera Manager to control the camera depending on the game si
 
 #### API docs:
 
-* [CodeBlockEvent](https://horizon.meta.com/resources/scripting-api/core.codeblockevent.md/?api_version=2.0.0)
-* [LocalEvent](https://horizon.meta.com/resources/scripting-api/core.localevent.md/?api_version=2.0.0)
-* [NetworkEvent](https://horizon.meta.com/resources/scripting-api/core.networkevent.md/?api_version=2.0.0)
-* [CodeBlockEvents](https://horizon.meta.com/resources/scripting-api/core.codeblockevents.md/?api_version=2.0.0)
+* [CodeBlockEvent](/hw-docs/Reference/core/Classes/CodeBlockEvent.md)
+* [LocalEvent](/hw-docs/Reference/core/Classes/LocalEvent.md)
+* [NetworkEvent](/hw-docs/Reference/core/Classes/NetworkEvent.md)
+* [CodeBlockEvents](/hw-docs/Reference/core/Variables/CodeBlockEvents.md)

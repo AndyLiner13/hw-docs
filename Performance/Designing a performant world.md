@@ -133,7 +133,7 @@ If any AABB intersects with the view frustum, they will be drawn and go through 
 
 ## Use set visibility to hide objects
 
-Long hallways are a design layout we have seen in some worlds. However, when at one side of a hallway and facing the other side, all objects are in the frustum. This is another version of the entire world visible all at once. However, there is something you can do to reduce the number of objects rendered. Use the [Entity API](https://horizon.meta.com/resources/scripting-api/core.entity.visible.md/?api_version=2.0.0) to set visibility on or off.
+Long hallways are a design layout we have seen in some worlds. However, when at one side of a hallway and facing the other side, all objects are in the frustum. This is another version of the entire world visible all at once. However, there is something you can do to reduce the number of objects rendered. Use the [Entity API](/hw-docs/Reference/core/Classes/Entity.md) to set visibility on or off.
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452756647_512536567950966_2643662129032564579_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=IRZY1MkP2BsQ7kNvwGlLcZd&_nc_oc=Adlmatezl90d3RA69GU1TrtEym5Wd_lWlFkKBTLfYT_PHU1bVTcNVIkCP5IiPI6RNWg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfjnfOANu1I0nVp9DodYTsUG9ViW5LoDg_59CfA3Bezsaw&oe=692FB214)
 
@@ -169,7 +169,7 @@ If you can’t hide the CPU spikes, they can be reduced  by controlling the amo
 
 #### Waiting room
 
-The easiest way to do this is utilizing a waiting room with a progress display, that way there is not much limit to how slowly you can trickle. Ideally there is something interesting to do in the room while waiting. You can use the [SpawnController API](https://horizon.meta.com/resources/scripting-api/core.spawncontrollerbase.md/?api_version=2.0.0) to check “currentState” and see if the assets have completely loaded or not, but it does not provide a percentage complete.
+The easiest way to do this is utilizing a waiting room with a progress display, that way there is not much limit to how slowly you can trickle. Ideally there is something interesting to do in the room while waiting. You can use the [SpawnController API](/hw-docs/Reference/core/Classes/SpawnControllerBase.md) to check “currentState” and see if the assets have completely loaded or not, but it does not provide a percentage complete.
 
 If you want to show a countdown timer, it is necessary to fake it by using a stopwatch to see how long it takes to actually load the content. Keep in mind loading on Quest 3 may be faster than Quest 2, so you would want to time using Quest 2.
 

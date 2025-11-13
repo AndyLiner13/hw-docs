@@ -560,4 +560,4 @@ To double check if you have correctly implemented the Focused Interaction Manage
 
 #### API docs:
 
-* [FocusedInteraction](https://horizon.meta.com/resources/scripting-api/core.focusedinteraction.md/?api_version=2.0.0)
+* [FocusedInteraction](/hw-docs/Reference/core/Classes/FocusedInteraction.md)

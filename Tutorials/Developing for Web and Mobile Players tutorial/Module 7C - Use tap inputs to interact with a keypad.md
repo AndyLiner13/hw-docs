@@ -401,5 +401,5 @@ In this module, you:
 
 #### API docs:
 
-* [RaycastGizmo](https://horizon.meta.com/resources/scripting-api/core.raycastgizmo.md/?api_version=2.0.0)
-* [TextGizmo](https://horizon.meta.com/resources/scripting-api/core.textgizmo.md/?api_version=2.0.0)
+* [RaycastGizmo](/hw-docs/Reference/core/Classes/RaycastGizmo.md)
+* [TextGizmo](/hw-docs/Reference/core/Classes/TextGizmo.md)

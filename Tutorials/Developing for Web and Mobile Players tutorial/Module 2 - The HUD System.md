@@ -391,7 +391,7 @@ This system is used throughout the puzzle game to teach players how to use objec
 
 #### API docs:
 
-* [CodeBlockEvent](https://horizon.meta.com/resources/scripting-api/core.codeblockevent.md/?api_version=2.0.0)
-* [LocalEvent](https://horizon.meta.com/resources/scripting-api/core.localevent.md/?api_version=2.0.0)
-* [NetworkEvent](https://horizon.meta.com/resources/scripting-api/core.networkevent.md/?api_version=2.0.0)
-* [Player.DeviceType](https://horizon.meta.com/resources/scripting-api/core.player.devicetype.md/?api_version=2.0.0)
+* [CodeBlockEvent](/hw-docs/Reference/core/Classes/CodeBlockEvent.md)
+* [LocalEvent](/hw-docs/Reference/core/Classes/LocalEvent.md)
+* [NetworkEvent](/hw-docs/Reference/core/Classes/NetworkEvent.md)
+* [Player.DeviceType](/hw-docs/Reference/core/Classes/Player.md)

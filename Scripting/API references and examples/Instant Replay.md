@@ -48,7 +48,7 @@ Recording angle options:
   * **Potential scenario:**
 
     You have a fishing mechanic and you start recording once a fish is on the hook. **If the fish breaks loose** you end the recording and discard. **If the fish is reeled in**, you end the recording and save.
-- You can specify an optional [`CameraMovementPreset`](https://horizon.meta.com/resources/scripting-api/capturing.cameramovementpreset.md/?api_version=2.0.0) to configure the camera angle.
+- You can specify an optional [`CameraMovementPreset`](/hw-docs/Reference/capturing/Type Aliases/CameraMovementPreset.md) to configure the camera angle.
 
 ```
 import * as cap from 'horizon/capturing'

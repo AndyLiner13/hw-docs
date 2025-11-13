@@ -18,11 +18,11 @@ When the order of material slots is important, Horizon uses the same naming conv
 
 You can reference material slots either by name or index. When you use indexes for material slots, index 0 represents the first material. Meshes with a single material always use material slot 0.
 
-If you don’t specify a material slot, then the [`setMaterial`](https://horizon.meta.com/resources/scripting-api/core.meshentity.setmaterial.md/?api_version=2.0.0) function (including for Unity Asset Bundles) will set the material in slot 0. To set a material in a different material slot, refer to the slot by name or index.
+If you don’t specify a material slot, then the [`setMaterial`](/hw-docs/Reference/core/Classes/MeshEntity.md) function (including for Unity Asset Bundles) will set the material in slot 0. To set a material in a different material slot, refer to the slot by name or index.
 
-The [`setTexture`](https://horizon.meta.com/resources/scripting-api/core.meshentity.settexture.md/?api_version=2.0.0) function sets the texture for the entire mesh.
+The [`setTexture`](/hw-docs/Reference/core/Classes/MeshEntity.md) function sets the texture for the entire mesh.
 
-Modifying tintColor or tintStrength in the [`EntityStyle`](https://horizon.meta.com/resources/scripting-api/core.entitystyle.md/?api_version=2.0.0) affects the entire mesh.
+Modifying tintColor or tintStrength in the [`EntityStyle`](/hw-docs/Reference/core/Interfaces/EntityStyle.md) affects the entire mesh.
 
 ## Current limitations
 

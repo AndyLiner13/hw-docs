@@ -25,7 +25,7 @@ As a world owner, there are two kinds of quests that you can create: Simple ques
 
 ### Simple Quests
 
-A simple quest is a boolean value: It is either complete or incomplete. Simple quests are marked complete or incomplete by the execution of [Player.setAchievementComplete](https://horizon.meta.com/resources/scripting-api/core.player.setachievementcomplete.md/) in TypeScript.
+A simple quest is a boolean value: It is either complete or incomplete. Simple quests are marked complete or incomplete by the execution of [Player.setAchievementComplete](/hw-docs/Reference/core/Classes/Player.md) in TypeScript.
 
 When configuring a Simple quest, you must provide the following information in the Create Quest pane:
 
@@ -36,7 +36,7 @@ When configuring a Simple quest, you must provide the following information in t
 
 ### Tracked persistent quests
 
-A tracked persistent quest has all the capabilities of a simple quest, plus the ability to be marked complete automatically when a tracked persistent variable reaches a pre-configured threshold. Note that persistent quests are *not* automatically marked as incomplete if the variable later drops below this threshold. Tracked persistent quests can also be marked complete or incomplete by using [Player.setAchievementComplete](https://horizon.meta.com/resources/scripting-api/core.player.setachievementcomplete.md/) in TypeScript.
+A tracked persistent quest has all the capabilities of a simple quest, plus the ability to be marked complete automatically when a tracked persistent variable reaches a pre-configured threshold. Note that persistent quests are *not* automatically marked as incomplete if the variable later drops below this threshold. Tracked persistent quests can also be marked complete or incomplete by using [Player.setAchievementComplete](/hw-docs/Reference/core/Classes/Player.md) in TypeScript.
 
 Because tracked persistent quests have one or more persistent variables attached, they can be in a partially completed state. The ring around the quest’s thumbnail image is colored in proportion to the progress of the tracked variable against the threshold value. The Completion line in the UI contains the current value of the persistent variable relative to the threshold value (for example,  “4/15” for a PPV with the current value of 4, and a configured threshold of 15).
 

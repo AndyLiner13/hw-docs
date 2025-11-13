@@ -137,17 +137,17 @@ Follow this procedure to configure the Desktop Editor to run the sample script. 
 * Get the target state of the sublevel (for example, loaded).
 * Set the target state of the sublevel by using the following functions:
 
-[activate()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.activate.md/?api_version=2.0.0) Make the sublevel visible to users and start running scripts.
+[activate()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.activate) Make the sublevel visible to users and start running scripts.
 
-[hide()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.hide.md/?api_version=2.0.0) Return an active sublevel back to the loaded state.
+[hide()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.hide) Return an active sublevel back to the loaded state.
 
-[load()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.load.md/?api_version=2.0.0) Begin the process of loading a sublevel into memory, but don’t activate it yet.
+[load()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.load) Begin the process of loading a sublevel into memory, but don’t activate it yet.
 
-[pause()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.pause.md/?api_version=2.0.0) Temporarily pause the load of a sublevel. Loading a sublevel has an impact on performance, so you might want to temporarily pause a load at performance-critical times. Resume the load by calling load() again.
+[pause()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.pause) Temporarily pause the load of a sublevel. Loading a sublevel has an impact on performance, so you might want to temporarily pause a load at performance-critical times. Resume the load by calling load() again.
 
-[unload()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.unload.md/?api_version=2.0.0) Completely remove a sublevel from memory.
+[unload()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.unload) Completely remove a sublevel from memory.
 
-You can find the SublevelEntity class API in the [v2.0.0 world\_streaming package](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.md/?api_version=2.0.0). This API is not supported in v1.0.0 of the Meta Horizon Worlds API.
+You can find the SublevelEntity class API in the [v2.0.0 world\_streaming package](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity). This API is not supported in v1.0.0 of the Meta Horizon Worlds API.
 
 ### Preconditions
 

@@ -40,7 +40,7 @@ You can also programmatically control trigger zones using the TriggerGizmo class
 CodeBlockEvents are platform-emitted events for key runtime functionality, including gizmo activities.
 
 * For more information on CodeBlockEvents, see [CodeBlock Events](/hw-docs/Scripting/Events/CodeBlock%20Events.md).
-* For API docs on CodeBlockEvents, see [CodeBlockEvents](https://horizon.meta.com/resources/scripting-api/core.codeblockevents.md/).
+* For API docs on CodeBlockEvents, see [CodeBlockEvents](/hw-docs/Reference/core/Variables/CodeBlockEvents.md).
 * For specific documentation on the TriggerGizmo API, see [TriggerGizmo class](/hw-docs/Reference/core/Classes/TriggerGizmo.md).
 
 The following script can be attached to a Trigger Zone entity that you have deployed in your world:

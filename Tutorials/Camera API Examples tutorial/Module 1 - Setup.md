@@ -67,7 +67,7 @@ See [Tutorial Prerequisites](/hw-docs/Tutorials/Getting%20started%20with%20tutor
 **Note**: This tutorial is built on TypeScript API version 2.0.0.
 
 * Your IDE must be running at least TypeScript Version 4.7.4.
-* For API documentation, see [API v2.0.0 documentation](https://horizon.meta.com/resources/scripting-api/index.md/?api_version=2.0.0).
+* For API documentation, see [API v2.0.0 documentation](https://horizon.meta.com/resources/scripting-api/index).
 
 ## Get Started
 

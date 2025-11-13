@@ -307,4 +307,4 @@ In this module you:
 
 #### API docs:
 
-* [PhysicalEntity](https://horizon.meta.com/resources/scripting-api/core.physicalentity.md/?api_version=2.0.0)
+* [PhysicalEntity](/hw-docs/Reference/core/Classes/PhysicalEntity.md)

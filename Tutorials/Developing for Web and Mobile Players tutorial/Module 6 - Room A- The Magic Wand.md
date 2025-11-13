@@ -382,5 +382,5 @@ To test, you can try the puzzle in Room A to see if you can collect the wand and
 
 #### API docs:
 
-* [Camera](https://horizon.meta.com/resources/scripting-api/camera.md/?api_version=2.0.0)
-* [ProjectileLauncherGizmo](https://horizon.meta.com/resources/scripting-api/core.projectilelaunchergizmo.md/?api_version=2.0.0)
+* [Camera](/hw-docs/Reference/camera/Classes/Camera.md)
+* [ProjectileLauncherGizmo](/hw-docs/Reference/core/Classes/ProjectileLauncherGizmo.md)

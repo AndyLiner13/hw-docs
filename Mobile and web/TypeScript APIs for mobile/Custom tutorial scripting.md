@@ -22,7 +22,7 @@ Each info slide can have a localizable title, message, and image. The image is a
 
 The following example shows how to use the showInfoSlides API.
 
-For more details on the showInfoSlides API, check out our API documentation [here](https://horizon.meta.com/resources/scripting-api/core.player.showinfoslides.md/?api_version=2.0.0).
+For more details on the showInfoSlides API, check out our API documentation [here](/hw-docs/Reference/core/Classes/Player.md).
 
 ![Header banner image example (920x280px)](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/558872447_833836062487680_3331638341245000339_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=UHgJJM4nb1cQ7kNvwHWYh_U&_nc_oc=Adl9PpTNIrhxtgyK8n37xleL8hpczw70Rw6AXbsdPC5kG7wqkIrscN9ri2IIHjEKrQ8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=feuE3wNt1zgJzDZLLhzYAg&oh=00_AfiReepU6jlFSFCP5kSDjKlyEbDs5GfVChqysVy7OCuOrg&oe=692F9CDE)![Body image example (808x412px)](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/558900220_833836052487681_5410462258312771932_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=D6f6C-p8UfAQ7kNvwFNGH-6&_nc_oc=AdlEZlmshwmAr1ukCO6HNta7iyIa64uMsVde4xD6YPrkJDV7DOHLw_9ss-xdqA9N-kg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=feuE3wNt1zgJzDZLLhzYAg&oh=00_AfiA7BDI8Bw0vx94QLd96XZE4JynhbqfYZsg0FAJPrptvg&oe=692FCC1A)
 
@@ -46,9 +46,9 @@ player.showInfoSlides([
 
 ## showInputActionMessage API
 
-The `showInputActionMessage` API enables developers to trigger an attention-grabbing animation and display a message above an on-screen button for a specified [player input action](https://horizon.meta.com/resources/scripting-api/core.playerinputaction.md/?api_version=2.0.0). This is particularly useful for button tooltips in timed action prompts and tutorials.
+The `showInputActionMessage` API enables developers to trigger an attention-grabbing animation and display a message above an on-screen button for a specified [player input action](/hw-docs/Reference/core/Enumerations/PlayerInputAction.md). This is particularly useful for button tooltips in timed action prompts and tutorials.
 
-More details about the API can be found [here](https://horizon.meta.com/resources/scripting-api/core.player.showinputactionmessage.md/?api_version=2.0.0)
+More details about the API can be found [here](/hw-docs/Reference/core/Classes/Player.md)
 
 ### Example
 
@@ -66,7 +66,7 @@ player.showInputActionMessage(
 
 The `showToastMessage` API allows you to show a generic toast message notification at the top of the screen. The toast message can be used to display a message to the player, such as an alert, notification, or helpful onboarding message. The toast message is displayed for a set duration and then it disappears.
 
-More details about the API can be found [here](https://horizon.meta.com/resources/scripting-api/core.player.showtoastmessage.md/?api_version=2.0.0)
+More details about the API can be found [here](/hw-docs/Reference/core/Classes/Player.md)
 
 ### Example
 

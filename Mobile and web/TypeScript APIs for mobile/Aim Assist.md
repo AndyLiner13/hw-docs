@@ -8,7 +8,7 @@ You interact with the **Aim Assist** system by using two simple API controls. On
 
 You can find the Aim Assist APIs in the **horizon/core** module. You can also read about them in the reference documentation.
 
-* [AimAssistOptions type](https://horizon.meta.com/resources/scripting-api/core.aimassistoptions.md/?api_version=2.0.0)
+* [AimAssistOptions type](/hw-docs/Reference/core/Type Aliases/AimAssistOptions.md)
 * [Player.setAimAssistTarget() method](https://horizon.meta.com/resources/scripting-api/core.player.setaimassisttarget.md?api_version=2.0.0)
 * [Player.clearAimAssistTarget() method](https://horizon.meta.com/resources/scripting-api/core.player.clearaimassisttarget.md?api_version=2.0.0)
 

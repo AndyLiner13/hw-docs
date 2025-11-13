@@ -365,5 +365,5 @@ We can’t test this system yet, as we need to assign a camera manager to each p
 
 #### API references:
 
-* [Camera](https://horizon.meta.com/resources/scripting-api/camera.md/?api_version=2.0.0)
-* [Camera class](https://horizon.meta.com/resources/scripting-api/camera.camera.md/?api_version=2.0.0)
+* [Camera](/hw-docs/Reference/camera/Classes/Camera.md)
+* [Camera class](/hw-docs/Reference/camera/Classes/Camera.md)

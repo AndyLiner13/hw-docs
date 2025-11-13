@@ -17,7 +17,7 @@ To collect data about how your scripts run, you must define and configure the me
 
 ### Define and activate custom metrics
 
-First, define and configure your custom metrics by creating a new [`HorizonPerformanceMetricConfig`](https://horizon.meta.com/resources/scripting-api/performance.horizonperformancemetricconfig.md/?api_version=2.0.0) object.
+First, define and configure your custom metrics by creating a new [`HorizonPerformanceMetricConfig`](/hw-docs/Reference/performance/Classes/HorizonPerformanceMetricConfig.md) object.
 
 ```
 const testCounterMetric = new HorizonPerformanceMetricConfig(
@@ -32,7 +32,7 @@ To create a metric, include the following parameters:
 
 * metricName : The metric name as a string. “counterMetric” in the example.
 * samplersList : A list of the names of the samplers that will provide data to this metric, as an array of strings. These samplers can be defined in any script file. [“helloThere”, “helloThere2”, “helloThere3”] in the example.
-* intendedTraceEventType : The [HorizonTraceEvent](https://horizon.meta.com/resources/scripting-api/performance.horizontraceevent.md/?api_version=2.0.0) type that corresponds to the sampler type for this metric. This determines the suffix (“milliseconds” or “none”) for the metric and the way it will be processed. “HorizonTraceEventType.Counter” in the example. The options are:
+* intendedTraceEventType : The [HorizonTraceEvent](/hw-docs/Reference/performance/Classes/HorizonTraceEvent.md) type that corresponds to the sampler type for this metric. This determines the suffix (“milliseconds” or “none”) for the metric and the way it will be processed. “HorizonTraceEventType.Counter” in the example. The options are:
   + Duration, which measures a length of time, such as how long a function took to run. Measured in milliseconds with microsecond precision.
   + Marker, which measures an occurrence, such as whether code ran.
   + Counter, which measures an arbitrary number, like how many times a block of code ran.
@@ -52,11 +52,11 @@ Once you’ve defined custom metrics, you must create samplers to provide data f
 
 Samplers are objects that record data of different types. They feed data into your defined metrics.
 
-The types of samplers correspond to the [HorizonTraceEvent](https://horizon.meta.com/resources/scripting-api/performance.horizontraceevent.md/?api_version=2.0.0) types:
+The types of samplers correspond to the [HorizonTraceEvent](/hw-docs/Reference/performance/Classes/HorizonTraceEvent.md) types:
 
-* [HorizonDurationSampler](https://horizon.meta.com/resources/scripting-api/performance.horizondurationsampler.md/?api_version=2.0.0)
-* [HorizonMarkerSampler](https://horizon.meta.com/resources/scripting-api/performance.horizonmarkersampler.md/?api_version=2.0.0)
-* [HorizonCountSampler](https://horizon.meta.com/resources/scripting-api/performance.horizoncountsampler.md/?api_version=2.0.0)
+* [HorizonDurationSampler](/hw-docs/Reference/performance/Classes/HorizonDurationSampler.md)
+* [HorizonMarkerSampler](/hw-docs/Reference/performance/Classes/HorizonMarkerSampler.md)
+* [HorizonCountSampler](/hw-docs/Reference/performance/Classes/HorizonCountSampler.md)
 
 We recommend using only one type of sampler per metric, but you can use any number of samplers of that type.
 

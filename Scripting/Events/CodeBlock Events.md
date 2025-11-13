@@ -6,7 +6,7 @@ CodeBlock events enable your TypeScript code to send and receive events from Cod
 
 CodeBlock events restrict you to calling CodeBlock-specific functions, such as communicating between components with objects owned by different players or listening for events sent to specific players. This means that CodeBlock events can only process the basic data types available in CodeBlock scripts, such as numbers, strings, and entities.
 
-[API docs for CodeBlock events](https://horizon.meta.com/resources/scripting-api/core.codeblockevent.md/?api_version=2.0.0) .
+[API docs for CodeBlock events](/hw-docs/Reference/core/Classes/CodeBlockEvent.md) .
 
 ## Creating a custom CodeBlock event
 
@@ -141,7 +141,7 @@ class CodeBlockEvent_Player extends hz.Component {
 
 There are a number of built-in CodeBlock events for common cases, such as when a player enters or exits the world, or when an object is grabbed by a player. The TypeScript API provides access to the built-in CodeBlock events through the `CodeBlockEvents` variable.
 
-The following table lists some of the most common built-in CodeBlock events you can subscribe to. For a complete list, see the the [API docs for the CodeBlockEvents variable](https://horizon.meta.com/resources/scripting-api/core.codeblockevents.md/?api_version=2.0.0).
+The following table lists some of the most common built-in CodeBlock events you can subscribe to. For a complete list, see the the [API docs for the CodeBlockEvents variable](/hw-docs/Reference/core/Variables/CodeBlockEvents.md).
 
 | **Event** | **Called when** | **Returns** |
 | --- | --- | --- |
