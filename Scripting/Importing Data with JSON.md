@@ -12,5 +12,3 @@ const secretIdentity =
 catman = JSON.parse(secretIdentity);
 console.log(catman.number);
 ```
-
-ON THIS PAGE

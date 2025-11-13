@@ -9,5 +9,3 @@ Join Shards632 for an open office hours session covering TypeScript best practic
 * Troubleshoot coding challenges
 
 Substance painter demo assets can be found [here](https://drive.google.com/drive/folders/1TtVF0Pj-Mj4PojnF_oOnMc7X6Srkuc_a).
-
-ON THIS PAGE

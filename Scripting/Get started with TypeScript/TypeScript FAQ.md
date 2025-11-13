@@ -61,5 +61,3 @@ this.connectBroadcastEvent(World.onUpdate, (data: { deltaTime: number }) =
   // do stuff every frame - deltaTime is in microseconds
 });
 ```
-
-ON THIS PAGE

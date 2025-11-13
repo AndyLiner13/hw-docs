@@ -15,5 +15,3 @@ The following topics deal with the MHCP program and will help you better underst
 * [Focus sessions](/hw-docs/MHCP%20program/Focus%20sessions/MHCP%20Session-%20Meta%20Horizon%20Worlds%20on%20Web%20and%20Mobile%20and%20Creation%20Tooling%20Updates%20with%20Linda%20Chen%20and%20Andy%20Sargeant.md)
 * [Community guides](/hw-docs/MHCP%20program/Community%20guides/Community%20tutorials.md)
 * [Policy and legal](/hw-docs/mhcp-program/policy-and-legal/meta-horizon-creator-program-terms/)
-
-ON THIS PAGE

@@ -11,5 +11,3 @@ In this session, PigeonNo12 dives into these key features:
 * NCPs Avatars (aka scripted avatars)
 * World Streaming
 * Player Camera controls and Focused Interaction
-
-ON THIS PAGE

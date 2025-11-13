@@ -28,5 +28,3 @@ Timestamps:
 [11:15] Send Return Event
 
 [13:40] Playtest Finished Product
-
-ON THIS PAGE

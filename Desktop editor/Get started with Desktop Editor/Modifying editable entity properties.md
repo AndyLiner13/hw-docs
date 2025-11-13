@@ -16,5 +16,3 @@ Many of the properties of objects in your world can be modified after you’ve a
 
   ![Toggling the visibility of an object](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/506464216_741373311733956_9044350959953439652_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=sYxFt6iAUBoQ7kNvwH_P0Yj&_nc_oc=Adme14LnX3Sm7H_EjAUShDJuK5wYLfpbgzm-kjQW1m1y3BBGXruBfN54jIna4t-zDdA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xo5YGyRXPQ3pUtUP6IQJqw&oh=00_Afhr7QwgwkioEUowjtogyrahombtiUDXux3RUZqezbUPmA&oe=692FB423)
 - You can also select a vector label, such as **Position**, and then copy and past the value of that vector into another vector input label in the panel.
-
-ON THIS PAGE

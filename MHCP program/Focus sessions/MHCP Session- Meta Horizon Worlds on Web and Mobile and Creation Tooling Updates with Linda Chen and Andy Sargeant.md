@@ -33,5 +33,3 @@ Join Meta experts, Linda Chen and Andy Sargeant for an information session on ne
 [39:15] Question 12: “Is mobile only going to be considered focused on custom graphics or will primitive shapes be allowed to be mobile?”
 
 [40:14] Outro
-
-ON THIS PAGE

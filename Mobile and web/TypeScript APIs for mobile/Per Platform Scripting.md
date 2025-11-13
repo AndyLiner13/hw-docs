@@ -20,5 +20,3 @@ switch (player.deviceType.get()) {
     break;
 }
 ```
-
-ON THIS PAGE

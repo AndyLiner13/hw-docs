@@ -11,5 +11,3 @@ Text assets can be used for creating dynamic events, which may be based on real-
 Look at the `TimeEventsManager` script and object. This example controls the world based on the number of seconds in the current minute. Relevant to games, for example, you can control the entire layout of your world during a holiday event by structuring the configuration inside a JSON text file and loading the appropriate one.
 
 **Tip**: In the script’s comments, you can see example JSON records in use for this station, which you can use as the basis for creating your own content for this station.
-
-ON THIS PAGE

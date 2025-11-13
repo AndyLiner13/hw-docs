@@ -68,5 +68,3 @@ If you reside in a location that’s not one of our supported countries, your ap
 We know that this can be a disappointing result. Successful applicants often come from developers and creators who have shipped great content on Meta Horizon Worlds or other platforms, and/or those who have contributed to the ecosystem of developers creating immersive content.
 
 Although you weren’t eligible to be a partner at this time, if you’ve met the eligibility guidelines to be in the Meta Horizon Creator Program, you’ve been automatically enrolled and will get access to exclusive program benefits, including monetization opportunities and educational programming.
-
-ON THIS PAGE

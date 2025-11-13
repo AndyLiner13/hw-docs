@@ -31,5 +31,3 @@ Timestamps:
 7:07 - Event: Asset Despawning (Cont.)
 
 7:36 - Wrap Up, Part Two
-
-ON THIS PAGE

@@ -30,5 +30,3 @@ this.connectCodeBlockEvent(this.entity,Â hz.CodeBlockEvents.OnIndexTriggerDown,Â
 
 }
 ```
-
-ON THIS PAGE

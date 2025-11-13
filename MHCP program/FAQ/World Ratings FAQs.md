@@ -21,5 +21,3 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 | How will a 10+ or 13+ rating impact discovery? | These ratings primarily impact users with Parent-managed accounts. Preteen users will only be able to discover worlds and rating categories which have been approved by their parent/guardian who manages the account. At this time there is no general discoverability impact to users who are 13+ |
 | What will be the source of information for content descriptors for worlds that receive the default 13+ rating on September 17? | Any world without a completed survey will not contain content descriptors on the world detail page. |
 | Who are the third party advisors that you’ve worked with? | Please see our [TTC labs report](https://www.ttclabs.net/news/how-weve-used-co-design-to-develop-access-to-meta-horizon-worlds-for-children-aged-10-12) that details out all of the work we have done with third parties. |
-
-ON THIS PAGE

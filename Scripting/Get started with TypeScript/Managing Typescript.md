@@ -19,5 +19,3 @@ For more information about the mechanics of TypeScript, see [About TypeScript](/
 **To install version 4.7.4 of TypeScript**
 
 * Install Typescript version 4.7.4 on your computer from the [Visual Studio marketplae](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-474).
-
-ON THIS PAGE

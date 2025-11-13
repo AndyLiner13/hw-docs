@@ -17,5 +17,3 @@ Scale, distance, movement, and other physical properties in Meta Horizon Worlds 
 | Force | [Vec3](/hw-docs/Reference/core/Classes/Vec3.md) with magnitude in Newtons |
 | Impulse | [Vec3](/hw-docs/Reference/core/Classes/Vec3.md) with magnitude in Newtons \* seconds |
 | Torque | [Vec3](/hw-docs/Reference/core/Classes/Vec3.md) where the direction is the axis of rotation and the magnitude is in Newton meters |
-
-ON THIS PAGE

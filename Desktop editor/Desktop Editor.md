@@ -20,5 +20,3 @@ This section contains the following topics:
 Important
 
 Use of the Meta Horizon Worlds desktop editor is limited to persons aged 13 and above. Meta reserves the right to conduct its own review of the information that a creator provides to determine whether the age group provided by the creator is accurate. Any misrepresentation of user's age group may result in rejection, suspension, or removal of that creator's account and/or world.
-
-ON THIS PAGE

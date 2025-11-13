@@ -25,5 +25,3 @@ For more information, check the [NoesisGUI TextTutorial page](https://www.noesis
 | Oswald | [Download Oswald](https://fonts.google.com/specimen/Oswald) |
 | Roboto | [Download Roboto](https://fonts.google.com/specimen/Roboto) |
 | Roboto-Mono | [Download Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) |
-
-ON THIS PAGE

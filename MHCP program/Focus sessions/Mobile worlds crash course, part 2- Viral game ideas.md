@@ -9,5 +9,3 @@ Learn essential techniques for creating powerful user interfaces, including:
 * Understanding Custom UI API fundamentals
 * Analyzing real-world UI examples and implementation
 * Creating Custom UIs from concept to completion
-
-ON THIS PAGE

@@ -14,5 +14,3 @@ The following table lists the supported crosshairs.
 | Dot |  |
 | Cross |  |
 | Spread |  |
-
-ON THIS PAGE

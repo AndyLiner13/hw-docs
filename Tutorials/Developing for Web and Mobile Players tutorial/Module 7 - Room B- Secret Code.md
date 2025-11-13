@@ -9,5 +9,3 @@ These interactions are straightforward to manage in VR. Players can simply grab 
 On web and mobile, however, we must use the Focused Interaction API to rotate objects and gather player input (mouse clicks or taps) on a 2D screen.
 
 Since this module is lengthy, it’s been broken up into smaller units. All units apply to the Secret Code puzzle room.
-
-ON THIS PAGE

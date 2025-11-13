@@ -23,5 +23,3 @@ By the end of this video, **you will learn:**
 32:30 @ElasticPlastic
 
 41:46 @PigeonNo12
-
-ON THIS PAGE

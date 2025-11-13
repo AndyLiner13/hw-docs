@@ -16,5 +16,3 @@ This opens a menu where you can select:
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481921039_666288129242475_8787183510928356957_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=uuJ-8Xrmd0wQ7kNvwEyjvqO&_nc_oc=AdndTQz1vpBWHPagpSvv8HxF28ZT9f4uzXp8wJrHRws_iFAXNXVTOOucNWs3qZSCyis&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9ZuSigHu0FPOWyLCj33dnA&oh=00_AfjYdKQ6RUTb5OSs-TVroeBvbXvltT5kCwvAZMZRyqijPg&oe=692FB47F)
 
 Clicking export will create a file in a folder called FBXExport located wherever the Horizon app is installed.
-
-ON THIS PAGE

@@ -14,5 +14,3 @@ The following topics will help you better understand how to make your worlds bet
 * [Tools for creating worlds for mobile](/hw-docs/create-for-web-and-mobile/tools-for-creating-worlds-for-mobile/screen-based-ui/)
 * [Grabbable entities](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md)
 * [TypeScript APIs for mobile](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Per%20Platform%20Scripting.md)
-
-ON THIS PAGE

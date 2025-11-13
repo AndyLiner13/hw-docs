@@ -16,5 +16,3 @@ The resources referenced at the end of this talk are available below:
 * [ARM Developer](https://developer.arm.com/documentation/102471/0200/Comparing-unlit-shaders-to-lit-shaders)
 * [Perfetto Website](https://ui.perfetto.dev/)
 * [Developer Dashboard](https://developers.meta.com/horizon/manage/)
-
-ON THIS PAGE

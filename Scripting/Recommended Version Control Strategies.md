@@ -42,5 +42,3 @@ Consider two developers (developers A and B) working together on the same world.
 - Developer B continues to revise their code. They test their work by copying their edits into their auto-sync folder.
 - Developer B finishes their work, and then creates a pull request. The PR is accepted and merged into main.
 - Developer B re-enters the main world and performs a pull in the auto-sync directory, bringing their changes into the world.
-
-ON THIS PAGE

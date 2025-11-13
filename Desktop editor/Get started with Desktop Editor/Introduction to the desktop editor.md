@@ -22,5 +22,3 @@ The following topics will help you start working with the desktop editor:
 * [**Using the desktop editor**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md)
 * [**Modifying the properties of objects in your world**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Modifying%20editable%20entity%20properties.md)
 * [**Creating scripts for more activities and greater flexibility**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Adding%20and%20editing%20scripts.md)
-
-ON THIS PAGE

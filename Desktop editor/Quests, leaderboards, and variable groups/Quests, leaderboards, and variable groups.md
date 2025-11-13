@@ -19,5 +19,3 @@ Quests provide you with tools to create rich and engaging progression experience
 * [Debugging and searching quests/leaderboards/variable groups](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Debugging%20Quests-Leaderboards-Variable%20Groups.md)
 
 * [Leaderboard reset frequency](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Leaderboard%20Reset%20Frequency.md)
-
-ON THIS PAGE

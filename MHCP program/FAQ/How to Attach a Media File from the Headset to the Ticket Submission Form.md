@@ -19,5 +19,3 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
   ![ShareButton.PNG](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452682677_512510601286896_8338315398329531307_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=UuibmyuTEzMQ7kNvwH56DQu&_nc_oc=Adlqpaxei5Lx1DOyf9rbj6Ujilmn2OACFoQhn34RkduwcVu-RfPBa5dOFxWfpAxGKiA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=C2YEH3CegxMJedWNgmgIlg&oh=00_AfioJK1Uf_QbzSYf-dBGFD_QAYMTeEDMAJRQIleqGFqdWw&oe=692FA58F)
 - Select the **Email** option and email the file to yourself.
 - Attach the file from your email to ticket submission.
-
-ON THIS PAGE

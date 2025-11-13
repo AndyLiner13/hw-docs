@@ -36,5 +36,3 @@ You can invite eligible members of your community to be moderators from the **Ma
 - Open the **Manage People** menu through the World Detail Page.
 - Select the **Collaborators** tab to see all active collaborators.
 - Select a member and click **Revoke access** to remove the member’s moderator capabilities.
-
-ON THIS PAGE

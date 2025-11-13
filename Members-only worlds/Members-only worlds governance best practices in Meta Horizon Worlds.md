@@ -32,5 +32,3 @@ Here are some scenarios to help you understand how to apply these best practices
 * **Scenario 4**: A member is being bullied by another member.
 
   **What to do**: This violate’s Meta’s [Code of Conduct for Virtual Experiences (CCVE)](https://www.meta.com/legal/quest/code-of-conduct-for-virtual-experiences/), so you should take immediate action to address the situation, such as starting with a verbal warning and escalating to temporarily muting and temporarily or permanently removing the perpetrator. It’s important to take appropriate action against the perpetrator and ensure that they understand why their behavior was not acceptable.
-
-ON THIS PAGE

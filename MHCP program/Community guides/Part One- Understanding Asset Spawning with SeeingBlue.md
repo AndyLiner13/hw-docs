@@ -39,5 +39,3 @@ Timestamps:
 9:50 - Event: Callbacks with Parameters
 
 10:32 - Wrap Up, Part One
-
-ON THIS PAGE

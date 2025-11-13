@@ -13,5 +13,3 @@ You can find the Aim Assist APIs in the **horizon/core** module. You can also re
 * [Player.clearAimAssistTarget() method](https://horizon.meta.com/resources/scripting-api/core.player.clearaimassisttarget.md?api_version=2.0.0)
 
 Consider the game Super Rumble as a usage example. A system could be created that gathers a list of all players currently in play. The system could then periodically iterate through the list of players to find the player closest to the aiming direction of an individual with aim assist, and then set this player as the aim assist target. If there are no viable targets (i.e. there are no players close enough to the aiming direction of the individual), then this list is cleared.
-
-ON THIS PAGE

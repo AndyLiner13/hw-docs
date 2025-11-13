@@ -21,5 +21,3 @@ Timestamps:
 20:00 What are some strategies for building retentive worlds?
 
 30:23 Final pieces of advice from panelists
-
-ON THIS PAGE

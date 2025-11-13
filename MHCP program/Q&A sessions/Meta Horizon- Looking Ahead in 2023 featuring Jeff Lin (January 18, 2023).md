@@ -20,5 +20,3 @@ Timestamps:
 13:29 Best Practices for World Discovery
 
 21:23 Q&A
-
-ON THIS PAGE

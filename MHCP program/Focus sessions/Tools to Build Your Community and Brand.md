@@ -10,5 +10,3 @@ By the end of this video, you will learn:
 
 * How to cross-promote your worlds on Instagram
 * How to cross-promote your worlds on Facebook
-
-ON THIS PAGE

@@ -31,5 +31,3 @@ Timestamps:
 45:00 What is your process from concept to implementation?
 
 52:20 As Meta Horizon Worlds creators, would you recommend building an expansive multiverse of many different worlds, or focusing on a single world?
-
-ON THIS PAGE

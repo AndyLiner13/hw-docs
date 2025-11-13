@@ -7,5 +7,3 @@ Code assets that are referenced in these tutorials may also be retrieved from a 
 Please visit the GitHub repo at: [Meta Horizon Worlds Sample Scripts](https://github.com/meta-quest/meta-horizon-worlds-sample-scripts)
 
 For more information about the repository, see [README.md](https://github.com/meta-quest/meta-horizon-worlds-sample-scripts/blob/main/README.md).
-
-ON THIS PAGE

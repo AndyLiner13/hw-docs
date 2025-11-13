@@ -14,5 +14,3 @@ These tutorials were created by MHCP members.
 * [Version Control Video Tutorial with PigeonNo12](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/version-control-video-tutorial-with-pigeonno12)
 * [Managing World Backups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/managing-world-backups)
 * [Basic Hotkey Guide to the Blenderverse](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/basic-hotkey-guide-to-the-blenderverse)
-
-ON THIS PAGE

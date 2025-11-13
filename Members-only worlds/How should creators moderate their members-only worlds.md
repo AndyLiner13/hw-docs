@@ -24,5 +24,3 @@ To help ensure members-only worlds are properly moderated, creators can invite a
 Creators should set appropriate moderation expectations with selected moderators, reviewing and updating who holds this role, as needed. During the alpha, world creators will remain the responsible party for anything that occurs in their world, so it is important to assign moderator roles to members who are trusted and can confidently carry out their duties in creating a positive experience for world members.
 
 To learn more about moderation, reference the [“What does it mean to be responsible for governing my members-only world?”](/hw-docs/Members-only%20worlds/What%20does%20it%20mean%20to%20be%20responsible%20for%20governing%20my%20members-only%20world.md) article.
-
-ON THIS PAGE

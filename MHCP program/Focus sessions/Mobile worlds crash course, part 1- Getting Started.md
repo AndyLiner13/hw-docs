@@ -12,5 +12,3 @@ Get started creating engaging mobile experiences! Topics include:
 * Introduction to Custom UI
 * Practical implementation of Trigger Gizmos
 * Basics of custom model import
-
-ON THIS PAGE

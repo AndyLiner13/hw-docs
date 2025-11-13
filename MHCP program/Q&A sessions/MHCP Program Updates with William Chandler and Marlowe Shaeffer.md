@@ -21,5 +21,3 @@ Time Stamps for Q&A
 [26:41] William, would you like to address the Scout House role?
 
 [27:48] With the expansion of the program, are there plans to bring on new mentors?
-
-ON THIS PAGE

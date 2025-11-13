@@ -12,5 +12,3 @@ In this session, PigeonNo12 dives into these key features:
 * Asset Templates
 * Custom UIs
 * Variable Groups
-
-ON THIS PAGE

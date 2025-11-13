@@ -15,5 +15,3 @@ Below are some ideas for how you can use the basic functionality in the tutorial
 * Use the gun example to build a more robust target shooting experience.
   + How will you handle scoring? How will you calculate the distance of the hit from the center of the target?
 * In the simple gun example, you could convert the two ammo counters to a non-interactive screen overlay (HUD) display. For more information, see [Custom UI Examples - Station 10 - Timer and Build Overlays](/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%2010%20-%20Timer%20and%20Build%20Info%20Overlays.md).
-
-ON THIS PAGE

@@ -15,5 +15,3 @@ As such, you should take steps to ensure members abide by the rules set for that
 Additionally, to help maintain a safe and fun environment for all members, [reports](/hw-docs/safety-and-privacy/manage-reports-members-only-worlds) help you remain updated on the conduct of members, as well as address issues quickly and effectively. Reports allow you to review user reported incidents within your world and take enforcement actions related to CCVE and world specific rule violations.
 
 Learn more about [reviewing and taking action on reports](/hw-docs/safety-and-privacy/manage-reports-members-only-worlds).
-
-ON THIS PAGE

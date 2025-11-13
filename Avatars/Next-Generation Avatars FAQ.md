@@ -42,5 +42,3 @@ A: With the next generation avatars, we targeted the performance profile of the 
 **Q: Are avatar colliders changing?**
 
 A: Colliders will be updated slightly between avatar styles as colliders are tied to the new rig that’s rolling out with next-gen avatars. Like in the previous style of avatars, the size and shapes of the colliders will still stay uniform even if the body meshes and sizes of the avatar vary (i.e. a skinny avatar vs. a wide avatar will have the same collider boxes).
-
-ON THIS PAGE

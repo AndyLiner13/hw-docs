@@ -16,5 +16,3 @@ Timestamps:
 0:05 Welcome and introduction
 
 2:18 Technical Support Requests Best Practices
-
-ON THIS PAGE

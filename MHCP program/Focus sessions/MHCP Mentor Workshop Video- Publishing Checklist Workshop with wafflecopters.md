@@ -12,5 +12,3 @@ Develop practical strategies to:
 * Optimize your world for cross-platform experiences
 
 You can download the publishing checklist [here](/hw-docs/MHCP%20program/Focus%20sessions/World%20publishing%20guide.md).
-
-ON THIS PAGE

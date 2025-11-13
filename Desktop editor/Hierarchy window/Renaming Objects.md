@@ -18,5 +18,3 @@ Follow these steps to rename objects in the hierarchy:
   ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452520176_512527107951912_1297209859359763167_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=IeLRPsuI3MIQ7kNvwGH5Pzd&_nc_oc=Adk6l4X8Tzpd0K8O2v6xEyWX0uVShcAH-d327TeUR-ihvJTG0RB72uzXmWDnoB8xsYU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aN8eEHCEN55fGi5wmSgFrw&oh=00_AfiwT16itjAf5Ju26uMYklwVj28IFdPSgIKlSSaO92ot6A&oe=692FB150)
 - Press Enter or unfocus the text input to save.
   ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452694614_512527124618577_9191890227449134237_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=1X3-DoVICpcQ7kNvwGbGBmV&_nc_oc=Adkm-XlXuUAtljqU5zX6u7bDOQxSvI0g9AHEkzkadxwslezJgvUqu4dvl6bbTzYO4vs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=aN8eEHCEN55fGi5wmSgFrw&oh=00_AfiPgbC1_vSVqfs-VbboNr_-BdJPMxy5643Qer6159DLRg&oe=692FA338)
-
-ON THIS PAGE

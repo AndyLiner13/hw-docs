@@ -11,5 +11,3 @@ You’ll learn how to:
 * Apply basic formatting to a Custom UI
 * Upload textures to display on CUIs
 * Display an Image on a CUI
-
-ON THIS PAGE

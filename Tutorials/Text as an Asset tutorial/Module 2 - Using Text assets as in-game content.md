@@ -18,5 +18,3 @@ In this module, text as in-game content is used to implement a trivia game. Most
 Look at the `TriviaGameManager` script and object. By loading the asset with lots of questions and answers, you can deliver many trivia questions to players and update the world content without having to republish the world.
 
 **Tip**: In the script’s comments, you can see example JSON records in use for this station, which you can use as the basis for creating your own content for this station.
-
-ON THIS PAGE

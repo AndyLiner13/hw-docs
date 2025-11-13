@@ -27,5 +27,3 @@ Timestamps:
 29:09 - What things in the perfetto trace should we ignore even if they look ‘concerning’ because they are beyond the scope of anything we can do anything about?
 
 35:15 - What are the key considerations for optimizing VR worlds to maintain a consistent experience across different hardware capabilities? When the Quest 2 eventually phases out years down the line, will the team provide us with advance notice to begin shifting more of our focus to Quest 3 compatible worlds?
-
-ON THIS PAGE

@@ -37,5 +37,3 @@ Timestamps:
 [47:44] Question 13: “Do we have an official stance on using the API to train a private, local AI model that creates functional TS? Would this violate my NDA?”
 
 [48:48] Outro
-
-ON THIS PAGE

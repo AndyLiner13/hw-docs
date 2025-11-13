@@ -30,5 +30,3 @@ To prevent this and allow the avatar to hold their pose, **disable** the **HWXS 
 | Enabled | Disabled |
 | --- | --- |
 |  |  |
-
-ON THIS PAGE

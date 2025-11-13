@@ -23,5 +23,3 @@ The following example demonstrates how to override an avatar pose on a grabble i
     player.playAvatarPoseAnimationByName(AvatarPoseAnimationNames.Fire);
   }
 ```
-
-ON THIS PAGE

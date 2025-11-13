@@ -39,5 +39,3 @@ When you add variable groups to your world, you can then access their persistent
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452819269_512536471284309_8749603936744434663_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=3wuENwRqoE0Q7kNvwFJxTeA&_nc_oc=AdmcbOKTz45VUdG2wR-5m9Gzo1jOfkf47XbxxSdp5qbGZUsjjRM6AdZgffW4v_wTCO0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RulMd7hBL1oeKRxIyk_7Mg&oh=00_AfhH3AtRxmNp19qZFIMl6RDfhjyKPfKyEZbf0U45dRXCqw&oe=692FC8C7)
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452885444_512536371284319_6701700970291792058_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=uWLluvMnvAEQ7kNvwHKiZdG&_nc_oc=AdmCYtjpfHuAJlTPBN_DY6TDRbgMBg9_gtJ17v0_g-GRtcU4YNWyC9q3m64JnUi68es&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RulMd7hBL1oeKRxIyk_7Mg&oh=00_AfgBhEuP1NOPKragDZYGrW5mXkY0dJqhcZk6AlqMJgnmrA&oe=692FC927)
-
-ON THIS PAGE
