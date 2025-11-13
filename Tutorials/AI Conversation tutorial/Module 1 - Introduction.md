@@ -8,7 +8,7 @@ Welcome, creators!
 
 This example world demonstrates how you can implement AI Speech NPCs (Non-Player Characters) in Horizon Worlds.
 
-![NPC LLM Tutorial world cover image](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558892193_829681106236509_1582308276938310365_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=78VSTA1E3kUQ7kNvwF-uQbe&_nc_oc=AdmqZ9IVbr4fW8C4FO7qBPTA75GJfaG3HPERpG9HsCzpBd3qf1YpI2Mi3emBXpZZv5Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FAx-NH77V_-NlK5V_ymgjA&oh=00_AfjTY2I2vPOzsNekrACh9oKlQiDWDTz55Dwl77rfhqoojQ&oe=692EA04B)
+![NPC LLM Tutorial world cover image](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558892193_829681106236509_1582308276938310365_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=78VSTA1E3kUQ7kNvwF-uQbe&_nc_oc=AdmqZ9IVbr4fW8C4FO7qBPTA75GJfaG3HPERpG9HsCzpBd3qf1YpI2Mi3emBXpZZv5Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CBjii6mAeR5onrF3BPZSJA&oh=00_AfhHMNXSppIf3Sa2LC_1jfP-SJ_JY4NeX23otoHqk5lrdw&oe=692FB98B)
 
 The AI NPCs respond to players with dynamic LLM (Large Language Model) speech output by reacting to game events and player voice input. This example world contains two AI NPCs, Shady Riley and Harmony Bloom, each with their own backstory and personality.
 

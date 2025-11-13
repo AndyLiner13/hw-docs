@@ -32,11 +32,11 @@ You cannot change the panel size after the UI panel is initialized. Assigning ne
 
 The following image shows two different sets of **Scale** attributes in **Properties**.
 
-![An example that shows that scale controls the size of the UI panel in properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481452194_659847703219851_1693440629986334814_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=AydQbOVlSaoQ7kNvwHPA2xF&_nc_oc=Adkh9dwXGYbznJb4fiG6s9Awgfhl8LDx3jGRf0JYwew_X2hsv9hYIfgZf7wg1Clnhvs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mwJC4F4jsxJWYE4BTHB8_g&oh=00_Afi15-1mi0tSeQpEmyE9rV8H2JsGiQH986bCXlX4O1bddA&oe=692EB6E5)
+![An example that shows that scale controls the size of the UI panel in properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481452194_659847703219851_1693440629986334814_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=AydQbOVlSaoQ7kNvwHPA2xF&_nc_oc=Adkh9dwXGYbznJb4fiG6s9Awgfhl8LDx3jGRf0JYwew_X2hsv9hYIfgZf7wg1Clnhvs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P5-BZGw21LmHrAaqiRrwUg&oh=00_Afji-PIDg0Mdfxt0LTp68ubI3RsvzHNa9v6J0H9ClQA6IQ&oe=692F97E5)
 
 The following image shows the left UI gizmo is smaller than the right UI gizmo with **Scale** attribute of (1, 1, 1) vs. (2, 2, 2).
 
-![An example that shows that scale controls the size of the UI panel in the scene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480799630_659847699886518_6437251460310613006_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=8AUPnMzK4ccQ7kNvwFP3Wlc&_nc_oc=Adm_KWE7bucWZuOPYMUSQ4q1C--nuu5-l1rRkFxX8OFQDQUVLp7SE1UNHjLZpEw56HE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mwJC4F4jsxJWYE4BTHB8_g&oh=00_AfjXFoXamRvGQHrlxE5kiXw0F6WvHAui8DOjVE8GqBRE0A&oe=692EB88B)
+![An example that shows that scale controls the size of the UI panel in the scene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480799630_659847699886518_6437251460310613006_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CAT2GmihmlEQ7kNvwHMTXL7&_nc_oc=AdkO0hpXvJFVjB48sLXthW6ihJGRlpq56Q0mzMw2zytg-SqCIOAivGzWNxa0AqXA5hE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=P5-BZGw21LmHrAaqiRrwUg&oh=00_AfieaK6wuqKdJL5-_2bkhoZ4NxRI6ArTKLmPRcjPCv0VTA&oe=692F998B)
 
 ## Method: initializeUI()
 

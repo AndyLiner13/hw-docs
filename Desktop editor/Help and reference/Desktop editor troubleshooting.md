@@ -10,7 +10,7 @@ The following sections provide troubleshooting tips for a variety of common situ
 
 You can report bugs or submit suggestions through the desktop editor by selecting the **Report a problem** menu option.
 
-![Desktop editor menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/477778594_650754094129212_8861686553192081413_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=1w3gveru7H0Q7kNvwGiTAzz&_nc_oc=AdmlRr7IAFNT3gQt5yPY2cHh38XSnwf9fzKiNbOOevuAcdDgUlcEcrHd40QacAESPo4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=bqpgkG-nLh8pNSbTs_DLlQ&oh=00_AfhpMpv1-Vu4GPBDjUThMps1kfX-MoLrI3ENS86lhWpSRA&oe=692E90EA)
+![Desktop editor menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/477778594_650754094129212_8861686553192081413_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=1w3gveru7H0Q7kNvwGiTAzz&_nc_oc=AdmlRr7IAFNT3gQt5yPY2cHh38XSnwf9fzKiNbOOevuAcdDgUlcEcrHd40QacAESPo4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=4_uij1Xi8idTQL4ixb2Amw&oh=00_AfhkgYZsbm3xPOQTup-QskRzEgR7OBouk7uEz7KozngcEA&oe=692FAA2A)
 
 For more information about reporting a bug, filing a suggestion, or editing a submitted report check the [Feedback tool documentation](/hw-docs/Get%20started/Feedback%20tool.md).
 

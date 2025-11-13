@@ -4,7 +4,7 @@ Learn
 
 # Marketing Essentials for MHCP Part 1 with Shannon O’Flaherty and Candace Locklear
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/457269378_874192347453057_8100426748422528585_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=q0SE1Yh7bgEQ7kNvwG1r871&_nc_oc=Admhqsvs735yQnRvrxuz1-WdDZuRDGcjvd5bMOQy9g2SwRLbDyQHmWxLhn_xxS-aYeE&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=_92BbgDo3y5crmPPYNDK3A&oh=00_Afj1flxWOUleevlWJHUlQAwv7dkG6ty0e0LP1dQYjmsYmw&oe=691A2D76)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/457269378_874192347453057_8100426748422528585_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=RyweCy9ueuoQ7kNvwGI_j2z&_nc_oc=AdnV_3vgsvAXP-f9xKyR2Hlw9H-Na5t-CYg4yQsU9quQQfG5BjpwXTTHpgqogews0ik&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=yux4VCcbXP-GjwuZt2cJAA&oh=00_AfgssaLBQyIx-_j7MJu74VvroryNdpb7JLRNY68N22GF9Q&oe=691B46B6)
 
 How do you position your world for success? Mighty PR’s first Marketing Essentials session has the answers. Their proven track record includes campaigns for Breachers, Gorilla Tag, Hello Neighbor, Second Life Creators, and several MHCP creators.
 

@@ -16,4 +16,4 @@ Locking objects can be helpful for:
 * When an object is “locked,” a user will not be able to move it using the manipulators or select it in the scene.
 * In order to change properties from the property panel, the user must select the object from the hierarchy.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578055_512524694618820_67119210335259919_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=umYVqUYozUQQ7kNvwGrGtkP&_nc_oc=AdmzS5cx5O36Om9me8Ebp4rnh0xKAbkj21hsO-hnIaprxSB-6mAr0sy5wsyWBUMe6K0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=clMrwkACpu_MTKFKLI0NBA&oh=00_AfggXWtGpEOUf_YEEHu0wMRiU_eE-vW7pS0bVuvbT2m3dA&oe=692EB34D)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578055_512524694618820_67119210335259919_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=umYVqUYozUQQ7kNvwGrGtkP&_nc_oc=AdmzS5cx5O36Om9me8Ebp4rnh0xKAbkj21hsO-hnIaprxSB-6mAr0sy5wsyWBUMe6K0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zE-VLrfwHjf8wS2_4Y5lDA&oh=00_Afjl7H8XQPJzGNEYXZR2pV4iaV1V03gQHyyvGQH0UMIcag&oe=692FCC8D)

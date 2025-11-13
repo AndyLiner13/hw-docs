@@ -4,7 +4,7 @@ Learn
 
 # Module 1 - Setup
 
-![Screenshot of the world from the spawn point](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452882400_512509657953657_4484116017896127605_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Kdnpi5cfDjQQ7kNvwEKxwI4&_nc_oc=AdmPV1-91PetHQXrFHEblP_honNZcOxvPQc7J8KU8AMB7c5ol1Y5jwlGDVKGMh9Tocg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vlhplX898Jy7vMUK-Ci_BA&oh=00_AfhZPDXvbhFSzoMZFNtBJxiQ1sM6BvmSZc2n6M33MtjirA&oe=692EB723)
+![Screenshot of the world from the spawn point](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452882400_512509657953657_4484116017896127605_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Kdnpi5cfDjQQ7kNvwEKxwI4&_nc_oc=AdmPV1-91PetHQXrFHEblP_honNZcOxvPQc7J8KU8AMB7c5ol1Y5jwlGDVKGMh9Tocg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ZIaPSBmdeU6-MeZvToxgHQ&oh=00_Afi4edQSi4b1Af_PfL2JjioQILfyTqhNg-u8XmqI9J9dug&oe=692F9823)
 
 Important
 
@@ -132,4 +132,4 @@ In the desktop editor, you can access the systems in the following ways:
 * Navigate the Hierarchy panel.
 * Scripts and other non-geometry resources are located behind the starting area. See below.
 
-![Screenshot of the bank of empty reference objects that host the scripts for gameplay systems](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452520043_512509637953659_6246132046291088143_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=lSDnkd438KMQ7kNvwGwyVGU&_nc_oc=Adn1Xjw57__Sr1HxI58ldW_LZOu1IwnlRe9P94COGI5OJniZFPU_sRAwUhY7k9vSyXA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=vlhplX898Jy7vMUK-Ci_BA&oh=00_AfjK_QhWfpOV_mtN_KuefmzBI4MaBO5EiG9lPGz0CTtwfA&oe=692EC8CD)
+![Screenshot of the bank of empty reference objects that host the scripts for gameplay systems](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452520043_512509637953659_6246132046291088143_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=vXelPudaKSkQ7kNvwFbR8H5&_nc_oc=Adn7HtSA0gpg_O_m7w9CfkPJL9useWA2BRjzntHC_njC5RfKXgySiZyN8PSCECpqZd8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ZIaPSBmdeU6-MeZvToxgHQ&oh=00_Afi6tLDphZSnB_atXpQ0n1aECzEVIyaMCi8HgWM75in6PA&oe=692FA9CD)

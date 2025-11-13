@@ -4,7 +4,7 @@ API reference
 
 # ArmorEquipPayload type
 
-A payload sent by the `OnArmorEquip` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnArmorEquip` [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).
 
 ## Signature
 

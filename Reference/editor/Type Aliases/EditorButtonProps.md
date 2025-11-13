@@ -4,7 +4,7 @@ API reference
 
 # EditorButtonProps type
 
-The props of an [EditorButton()](https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editorbutton) component.
+The props of an [EditorButton()](/hw-docs/Reference/editor/Functions/EditorButton.md) component.
 
 ## Signature
 

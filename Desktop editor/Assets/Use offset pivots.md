@@ -8,13 +8,13 @@ This topic describes when and how offset pivot is used, outlines the expected be
 
 By default, an entity’s pivot point is its center. This behavior works well for entities like planets, ice skaters, and spinning tops, but not for entities such as doors, drawbridges, and treasure chest lids. For the animation of these entities to look natural, [pivot](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#pivot) points need to be offset or moved.
 
-When you create an asset using a [digital content creation tool](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/creating-a-custom-model#setup-requirements), you can configure the [3D model](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/creating-a-custom-model) to use an offset pivot instead of a center pivot. As you import [this type of asset](/hw-docs/Reference/core/Classes/MeshEntity.md) to your personal asset library in Meta Horizon Worlds, you have the option to [**Preserve offset pivots**](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%202.md#part-2-import-custom-models-and-write-your-first-script). When you enable **Preserve offset pivot**, entities spawned from the asset will rotate and scale around the pivot defined in the FBX file, instead of the default center pivot.
+When you create an asset using a [digital content creation tool](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md#setup-requirements), you can configure the [3D model](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md) to use an offset pivot instead of a center pivot. As you import [this type of asset](/hw-docs/Reference/core/Classes/MeshEntity.md) to your personal asset library in Meta Horizon Worlds, you have the option to [**Preserve offset pivots**](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%202.md#part-2-import-custom-models-and-write-your-first-script). When you enable **Preserve offset pivot**, entities spawned from the asset will rotate and scale around the pivot defined in the FBX file, instead of the default center pivot.
 
-![Turn on Preserve Offset Pivot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489545097_693923539812267_8172185265185112732_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=pgyNwNrxD5EQ7kNvwFI1LTD&_nc_oc=AdnfopjtKY8lUwD2BhtVGesec0ygYlzYNyO5dXIbNOV-iyEtaEcjHKJBPR4k8kdMjYo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TTEWsfAaji2Yg7rkjbYM6w&oh=00_AfjvQd7DhJdnbfe4NEI0dvQsjfddNMCcQFHM5JXLCOXFFg&oe=692E9BB2)
+![Turn on Preserve Offset Pivot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489545097_693923539812267_8172185265185112732_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=pgyNwNrxD5EQ7kNvwFI1LTD&_nc_oc=AdnfopjtKY8lUwD2BhtVGesec0ygYlzYNyO5dXIbNOV-iyEtaEcjHKJBPR4k8kdMjYo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ai2JVf8FTAOykxvV3WdrDA&oh=00_AfhvH2uDQAnJnxxuN6Py6C9e_QlXPVtcdah14sOSNCdm1w&oe=692FB4F2)
 
 Although you can use offset pivots in both the [desktop editor](/hw-docs/Desktop%20editor/Desktop%20Editor.md) and the [VR editor](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), this topic focuses on the desktop experience. Additionally, you can also write [TypeScript code](/hw-docs/Reference/core/Classes/Entity.md) that uses the offset pivot for rotating and scaling.
 
-**Note**: You can import [single-mesh FBX files](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/creating-a-custom-model) that contain only one pivot offset. Offset pivots don’t support custom [colliders](/hw-docs/custom-model-import/user-guides/collider-visualization-user-guide).
+**Note**: You can import [single-mesh FBX files](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md) that contain only one pivot offset. Offset pivots don’t support custom [colliders](/hw-docs/custom-model-import/user-guides/collider-visualization-user-guide).
 
 ## Prerequisites
 
@@ -30,15 +30,15 @@ In this section, you import a 3D model that already contains an offset pivot to 
 
 Follow these steps to use the asset file provided by Meta that contains an offset pivot.
 
-- Download the [Demo asset](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974594_480602711643840_7021902764535901297_n.zip?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=bSp2FlsjSIEQ7kNvwFwZz2h&_nc_oc=AdlElz7DnMBJgysrhbCEBa5RbI2M_gAp4C_QUdu-T0xBwIAwGhptVS9FFfqDcvIG2SE&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfhNWMaSHZe4qY5BKcuxfd8qdxpb0BvLYhyXdQDU34B2QQ&oe=692E9ACB)
+- Download the [Demo asset](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974594_480602711643840_7021902764535901297_n.zip?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=bSp2FlsjSIEQ7kNvwFwZz2h&_nc_oc=AdlElz7DnMBJgysrhbCEBa5RbI2M_gAp4C_QUdu-T0xBwIAwGhptVS9FFfqDcvIG2SE&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfihMKWl4ippLR7WO2E5QzgiiAp7r7IqK3NHSnZbpB2MoQ&oe=692FB40B)
   . This file is a zip archive that contains a single mesh 3D model that contains an offset pivot, and a texture file.
 
-  ![A single mesh 3D model provided by Meta](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461927797_559139473290675_4813403258144594456_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=kwyoKgv6-24Q7kNvwGr1qsg&_nc_oc=AdmidkHxhNnAaSr105qEmAR9YBI-nQuwEPqv0PoyX5Ur3UkGFFntPLo-C0oIDup9OGQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TTEWsfAaji2Yg7rkjbYM6w&oh=00_Afh069Cx13s1OhdNRM5eT4rQAaKsF0vbZGG_YG_3kYmiRA&oe=692EAA17)
+  ![A single mesh 3D model provided by Meta](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461927797_559139473290675_4813403258144594456_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=kwyoKgv6-24Q7kNvwGr1qsg&_nc_oc=AdmidkHxhNnAaSr105qEmAR9YBI-nQuwEPqv0PoyX5Ur3UkGFFntPLo-C0oIDup9OGQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ai2JVf8FTAOykxvV3WdrDA&oh=00_Afib0HyobXpyZvqSMS0zNPZ0FPXUxa_VsMTRbq1IH4VPBw&oe=692FC357)
 - Unzip the archive to a local folder. Next, import the 3D model to **My Assets** either through the desktop editor or your [Meta Horizon portal account](https://horizon.meta.com/creator/assets/folder/). The following steps highlight the experience from the desktop editor.
 - In the desktop editor, navigate to [Asset Library](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#assets-library) under the [Scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 - Click on **My Assets** > **Add New** > **3D Model**.
 
-  ![Import a 3D model](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/490513036_693923536478934_4393520325363504919_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZuYuLiTV-6gQ7kNvwFUhqFU&_nc_oc=Adn4AmyDAWPuXRvSF6qvAzzLUMmueMvG-6KHAz49N7BFg-_-lrM7zi0mhM-YopauofM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=TTEWsfAaji2Yg7rkjbYM6w&oh=00_AfgzYTNoj09PmTyT2yTlRVR-Xkf0-_4HmfU-ihKbUB9ZHg&oe=692EC2FB)
+  ![Import a 3D model](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/490513036_693923536478934_4393520325363504919_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZuYuLiTV-6gQ7kNvwFUhqFU&_nc_oc=Adn4AmyDAWPuXRvSF6qvAzzLUMmueMvG-6KHAz49N7BFg-_-lrM7zi0mhM-YopauofM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ai2JVf8FTAOykxvV3WdrDA&oh=00_AfjIafLHmtsB4SmNnAGaBGI6_PK9JKU_DfiV7JlE1deisQ&oe=692FA3FB)
 - The **Import Model(s)** dialog appears. Click **choose files on your device**.
 - Navigate to the folder that contains the unzipped asset files.
 - Select the two asset files and then click **Open**.
@@ -50,13 +50,13 @@ Follow these steps to use the asset file provided by Meta that contains an offse
 - [Create a new world](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Create%20a%20New%20World.md) in the desktop editor.
 - Spawn an instance of the asset by dragging the SkateboardBird asset from **My Assets** to the Scene pane. Notice that the pivot is grounded.
 
-  **Note**: Once the mesh of the custom model is imported, changes to the pivot must be done in a [digital content creation tool](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/creating-a-custom-model#setup-requirements). While you cannot change the pivot’s position in the Meta Horizon Worlds desktop or VR editor, you can toggle between the entity’s offset pivot and the center pivot as shown in the image below. The setting persists across Meta Horizon Worlds sessions.
+  **Note**: Once the mesh of the custom model is imported, changes to the pivot must be done in a [digital content creation tool](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md#setup-requirements). While you cannot change the pivot’s position in the Meta Horizon Worlds desktop or VR editor, you can toggle between the entity’s offset pivot and the center pivot as shown in the image below. The setting persists across Meta Horizon Worlds sessions.
 
-  ![Comparing center pivot to offset pivot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489759643_693923543145600_2643000062555377148_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=uQf7kiv4J8wQ7kNvwHJ9Xw0&_nc_oc=AdlZVbKTCI5PvuJkMGGH5qSy6SoNyeVENYXAsVBByEMpBYxtvpW-86SzI5fB09Bb5uY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TTEWsfAaji2Yg7rkjbYM6w&oh=00_AfiL8UecT_lcloQZPy93DinnZNc5qkpbb4IMMySnEJ-n3Q&oe=692E914E)
+  ![Comparing center pivot to offset pivot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489759643_693923543145600_2643000062555377148_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=1L5qE_wF73oQ7kNvwGy-lZ6&_nc_oc=Adm5br3dTTkhnJycI8M9ZCJ7GQQ4Q60j0ghit2b-6vGB5mt_DLLXEsqnq0wJkf0aEeA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ai2JVf8FTAOykxvV3WdrDA&oh=00_Afic_PHjA6XDDUv7c_XRkrjeu_PtihHEQvnh0Y0a_pnhig&oe=692FAA8E)
 
   You can also enable the offset pivot in [VR](/hw-docs/VR%20tools/Getting%20started/Use%20the%20Creator%20Menu%20in%20Meta%20Horizon%20Worlds.md) as shown below.
 
-  ![Turn on offset pivot in VR](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489927670_693923533145601_7120568709072388555_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=8mHJy_EJmGMQ7kNvwEmGeji&_nc_oc=Adl3YcGBTgpbC3C-UUCwv_YpU1Rtf0WiYKE-iGJB6sk_6eSV72nkGiM4s7qxzwGoFSk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TTEWsfAaji2Yg7rkjbYM6w&oh=00_AfhLNOc63F3oAprbjhhHSuYhdJwz3f5vS0aboYrm5p054w&oe=692EC73D)
+  ![Turn on offset pivot in VR](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489927670_693923533145601_7120568709072388555_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=8mHJy_EJmGMQ7kNvwEmGeji&_nc_oc=Adl3YcGBTgpbC3C-UUCwv_YpU1Rtf0WiYKE-iGJB6sk_6eSV72nkGiM4s7qxzwGoFSk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ai2JVf8FTAOykxvV3WdrDA&oh=00_Afgsa0YCgMjczuXD6kiJ23WyaLsI17e1tlwuDJ34qXWbJw&oe=692FA83D)
 - Manipulate the entity based on its offset pivot, including position, rotation, and scale. You can do this in the [desktop editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md) and in the [VR editor](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md).
 
   **Note**: If you need to define custom pivots for entities created in the Meta Horizon Worlds desktop editor, see [Pivot around parent object](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md#pivot-around-parent-objects) for a different approach.
@@ -67,7 +67,7 @@ When working with offset pivots, be aware of the following limitations and best 
 
 ### Preserve single-mesh uploads
 
-You can preserve offset pivots only for [single-mesh FBX files](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/creating-a-custom-model).
+You can preserve offset pivots only for [single-mesh FBX files](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md).
 
 You can try to use a multi-mesh hierarchy, but your results will be undefined. If your entity has a hierarchy with offset pivots, then you must import the offset pivot meshes one at a time.
 
@@ -79,7 +79,7 @@ You should import meshes that have only non-custom box colliders, because using 
 
 Try the following related topics:
 
-* [Getting started with custom model import](/hw-docs/custom-model-import/getting-started-with-custom-model-import)
-* [Materials guidance and reference for custom models](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/materials-guidance-and-reference-for-custom-models)
-* [Collider ingestion user guide](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/collider-ingestion-user-guide)
+* [Getting started with custom model import](/hw-docs/Custom%20models%20(FBX)/Getting%20started%20with%203D%20model%20import.md)
+* [Materials guidance and reference for custom models](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md)
+* [Collider ingestion user guide](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Collider%20Ingestion%20User%20Guide.md)
 * [Hierarchy panel overview](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md)

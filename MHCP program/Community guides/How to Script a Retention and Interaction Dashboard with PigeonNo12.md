@@ -4,7 +4,7 @@ Learn
 
 # How to Script a Retention and Interaction Dashboard with PigeonNo12
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1005213214579666_7370118978682110405_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=IG-rIIF-tRIQ7kNvwGuhLVS&_nc_oc=AdnrjTdtkc8sR3jLZxp-Sv6N9aqaTZN3AFPEX2JNuvyzIFEr6bC2TLISSgZapr6fE7Q&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=wG9eD9q0JG7EEppx2CoE4w&oh=00_AfguCGNChv5oNbJq7lTqwvfQnkCXeFMlRKZPmM70NGNllg&oe=691A3605)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1005213214579666_7370118978682110405_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=IG-rIIF-tRIQ7kNvwGuhLVS&_nc_oc=AdnrjTdtkc8sR3jLZxp-Sv6N9aqaTZN3AFPEX2JNuvyzIFEr6bC2TLISSgZapr6fE7Q&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=6tN4a0PDQFZHxwiSGlJfRA&oh=00_AfjTywe1l6ii54BzPkNvN8bmwe_KkFNxmAm05rt5tTT33Q&oe=691B4F45)
 
 Follow along with MHCP Mentor **@PigeonNo12** to learn how to script a retention and interaction dashboard to optimize your worlds.
 

@@ -16,7 +16,7 @@ export declare class ProjectileLauncherGizmo extends Entity
 
 ## Remarks
 
-For information about usage, see [The Magic Wand](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%206%20-%20Room%20A%20The%20Magic%20Wand.md) tutorial.
+For information about usage, see [The Magic Wand](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%206%20-%20Room%20A-%20The%20Magic%20Wand.md) tutorial.
 
 ## Properties
 

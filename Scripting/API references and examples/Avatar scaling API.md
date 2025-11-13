@@ -8,17 +8,17 @@ This topic describes the `avatarScale` property in the [Player](/hw-docs/Referen
 
 In the following image of [Kaiju City Showdown](https://horizon.meta.com/world/1279402616789539), the Kaiju player is larger than the rest of players using the API.
 
-![The Kaiju player is larger than the rest of the players](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487459574_686297430574878_1704284363227182690_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=_EJw7KcFytMQ7kNvwGxmS92&_nc_oc=AdlPZ-A_NLzZcy3bgsjPwuuXzObnFWUZ7fTKnevR7Pa9BBTODL-_DuTlPgtSdBJsmZw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=HGamCivyDbC7QW78DO7YsQ&oh=00_Afgqf6ZyOE_ARFX7ivyIXiOBEk0tr6yqlO9qNws6rTjKqA&oe=692EC45A)
+![The Kaiju player is larger than the rest of the players](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487459574_686297430574878_1704284363227182690_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=z7H3JD05F08Q7kNvwGa7I86&_nc_oc=AdljeAydH7N8J1ghBphJWkeGXQi6rHd6-eUfgnv3KqyN7sSG-YWTUStiBkdPm8qstXw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YCWHruXPEFejy7mt0F2hSw&oh=00_AfibLpfvfR1_HrCLdlQfdI8zo8J0GmNRmTQdRcYrm639BQ&oe=692FA55A)
 
 You can now unlock new content on the platform. The API enables creators to incorporate mechanics such as platform jumping and puzzle games that rely on scaling avatars up or down in order to progress in the game. Additionally, you can use avatar scaling as part of a progression system for prestige or reputation.
 
 The following image shows the avatar at the beginning of the game.
 
-![The avatar before it's scaled down](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487334824_686297433908211_277638335994097776_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=1uz3dMfHbQwQ7kNvwEOO7Cy&_nc_oc=AdlxCWmzXu57ZV6vDsa81K47pLkAU2jYJXYh1brwkL0tXRCOzcBh1W_22kc8XQajkog&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=HGamCivyDbC7QW78DO7YsQ&oh=00_AfhuqxxiCzNDdcvUTWdogbtCwDvOZABaoCdX03HNLHySxg&oe=692EAAC5)
+![The avatar before it's scaled down](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487334824_686297433908211_277638335994097776_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=1uz3dMfHbQwQ7kNvwEOO7Cy&_nc_oc=AdlxCWmzXu57ZV6vDsa81K47pLkAU2jYJXYh1brwkL0tXRCOzcBh1W_22kc8XQajkog&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YCWHruXPEFejy7mt0F2hSw&oh=00_AfjM6utPpti15IYRijJBQaNERE1ktl91Am4pRkNeIgKRSg&oe=692FC405)
 
 The following image shows the avatar is scaled down to jump through the doughnut hole.
 
-![The avatar scaled down to fit through the doughnut hole](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487357450_686297427241545_4741437208343931387_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=jZzNgoIJVNEQ7kNvwFqmpnU&_nc_oc=Adl_BKW75xJBsUeBcwfTRwAjdNCjmKDfkg4QaB-eXJB3coYKgvXSLzI1a9A5FrneBwk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=HGamCivyDbC7QW78DO7YsQ&oh=00_Afiv1mwbqAUtPaF_zpQM3W4tFOKpZH021SKxPb-7FXDkmA&oe=692EA74E)
+![The avatar scaled down to fit through the doughnut hole](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487357450_686297427241545_4741437208343931387_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=jZzNgoIJVNEQ7kNvwFqmpnU&_nc_oc=Adl_BKW75xJBsUeBcwfTRwAjdNCjmKDfkg4QaB-eXJB3coYKgvXSLzI1a9A5FrneBwk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YCWHruXPEFejy7mt0F2hSw&oh=00_Afjlptzfwx2pLEk7Up96IlDnaKUO4IS4gOekG4uIhlC6gg&oe=692FC08E)
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ The recommendation is to change the scale when the avatar teleports to another l
 
 ## Sample code
 
-The following sample shows you how to use the `avatarScale` property in the [Player](/hw-docs/Reference/core/Classes/Player.md) class. When the user uses the [right grip action](/hw-docs/Reference/core/Enumerations/PlayerInputAction.md), the player avatar scale will be increased. When the user uses the [left grip action](/hw-docs/Reference/core/Enumerations/PlayerInputAction.md), the avatar scale will be decreased. Keep in the mind that the example only iterates between 3 different scales, which are 10%, 100%, and 500%. Additionally, the sample also uses custom input APIs, learn more in the [developer guide](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/custom-input-api) and the [API reference guide](/hw-docs/Reference/core/Classes/PlayerControls.md).
+The following sample shows you how to use the `avatarScale` property in the [Player](/hw-docs/Reference/core/Classes/Player.md) class. When the user uses the [right grip action](/hw-docs/Reference/core/Enumerations/PlayerInputAction.md), the player avatar scale will be increased. When the user uses the [left grip action](/hw-docs/Reference/core/Enumerations/PlayerInputAction.md), the avatar scale will be decreased. Keep in the mind that the example only iterates between 3 different scales, which are 10%, 100%, and 500%. Additionally, the sample also uses custom input APIs, learn more in the [developer guide](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md) and the [API reference guide](/hw-docs/Reference/core/Classes/PlayerControls.md).
 
 ```
 import * as hz from 'horizon/core';

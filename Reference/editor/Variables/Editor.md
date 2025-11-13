@@ -1,7 +1,11 @@
-# Editor
-
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editor
 
----
+API reference
 
-This file is a placeholder. Content will be fetched from the URL above.
+# Editor Variable
+
+## Signature
+
+```
+Editor: EditorAPI
+```

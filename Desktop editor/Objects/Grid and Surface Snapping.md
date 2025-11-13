@@ -8,7 +8,7 @@ You can snap objects to specific increments in your world with grid, angle, and 
 
 ## How to use snapping tools
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452554816_512510771286879_8452219421137191783_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=tQCY7KnVxxIQ7kNvwGK2BE3&_nc_oc=Adk99MliO41kxIRIgOmi5zbO0s6c0xOY0aj7Z5neQkuSamsOTqbsKlpnXF2ACdmAgvU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9bBvjXCMHM8R5s4ExCkmnA&oh=00_AfjLzuxwiWzRSBZvu0Szwyuob_njohLUHVqw3vyc0eE5iQ&oe=692EACD4)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452554816_512510771286879_8452219421137191783_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=tQCY7KnVxxIQ7kNvwGK2BE3&_nc_oc=Adk99MliO41kxIRIgOmi5zbO0s6c0xOY0aj7Z5neQkuSamsOTqbsKlpnXF2ACdmAgvU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=HXoohYR-zPV3GDazLg-Mpw&oh=00_AfhfWrwXrltoM3M1o_1YFxuesRZQHqZR-tk79WCDFi-tnA&oe=692FC614)
 
 * The snapping tool icons are located on the tools top bar to the right of the Select, Translate, Rotate, and Scale tool icons.
 * Get started by selecting a grid, angle, or scale snap icon to toggle snapping on or off.
@@ -49,7 +49,7 @@ There are three snapping tool mode options:
 
 You can toggle between relative and absolute snapping using the dropdown.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452916947_512510774620212_2622698473251034074_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=UpqoBQ5_qbAQ7kNvwFpWFbT&_nc_oc=AdlL9LoWZUipt5uwkzmUgdcRmwOzhh7YhfQ_TXu1xPbSOQPX8rLZU7FXONqtEs7sJkk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9bBvjXCMHM8R5s4ExCkmnA&oh=00_Afi9gP6xXNc0Mb6qakhlfU2WC6eDX2NdzH0wbcr7j5pBDg&oe=692EBE2E)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452916947_512510774620212_2622698473251034074_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=UpqoBQ5_qbAQ7kNvwFpWFbT&_nc_oc=AdlL9LoWZUipt5uwkzmUgdcRmwOzhh7YhfQ_TXu1xPbSOQPX8rLZU7FXONqtEs7sJkk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=HXoohYR-zPV3GDazLg-Mpw&oh=00_Afgaw3HAGx130ZUJ65K5A_pA8TLs3LPY9-A3r_uJUGcO-A&oe=692F9F2E)
 
 Relative: Snap to a value relative to the object’s starting position.
 
@@ -57,7 +57,7 @@ Absolute: Snap to a value regardless of the starting position.
 
 ## Surface snapping
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452817319_512510761286880_2850529185345820209_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=FZEFqiu7pAIQ7kNvwFZySpS&_nc_oc=AdmyuWbcY1gJL1rVrS5_V6NZmwPCg2ETSqiXv52I7tN_fkirelXQOxAHxMBmL0hikhE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9bBvjXCMHM8R5s4ExCkmnA&oh=00_AfjP7IExZAj_dFU0GcEv-M2aCnBtm2FdZuVOAgxFFZXzWw&oe=692EB655)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452817319_512510761286880_2850529185345820209_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=FZEFqiu7pAIQ7kNvwFZySpS&_nc_oc=AdmyuWbcY1gJL1rVrS5_V6NZmwPCg2ETSqiXv52I7tN_fkirelXQOxAHxMBmL0hikhE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=HXoohYR-zPV3GDazLg-Mpw&oh=00_AfglJFxxvNnfuX85rmwpgXaUYHHJOoUhoiz_umTIZ0ySGA&oe=692F9755)
 
 Follow these steps to snap an object’s pivot to the collider of another object:
 

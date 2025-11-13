@@ -24,13 +24,13 @@ This section shows you how to set up Visual Studio Code (VS Code) for editing Ty
 - Note the file path to where VS Code is installed on your computer. You’ll need this in the following steps.
 - Open the Meta Horizon Worlds desktop editor and then open the **Scripts** panel.
 
-  ![The Scripts Panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/482960441_673266571877964_3333170914423766306_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=FanpDMJIwusQ7kNvwHcRsLi&_nc_oc=AdkeUa0CeKC5mGCnRRvu3WolEVuKvHM8dIt5J629_XsXP9CuPgRTEbe4CpiaP1I9p20&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d-vOxXd5eqqhqMalhYc2mA&oh=00_AfiQL4B9w9KaN5W12Ss0sYMUfQrc691cQdHa-ZQ7jsXLyQ&oe=692EB894)
+  ![The Scripts Panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/482960441_673266571877964_3333170914423766306_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=XgqmMmPC-GcQ7kNvwEaG6hg&_nc_oc=Adnw3_I7CMb0dkiasltbNnZay0HMCaWg7Jh9vcJZchb0MSM0BjF8OVWVL21isVJqTbo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kp0xDm9Zp6ti5mozBNAjaw&oh=00_AfggRu_4VBiFW0RLjdZ2HPRq4qK3BWjIs55qB_-eKjAwTA&oe=692F9994)
 - Click the gear-shaped icon to open **Settings**.
 
-  ![The Scripts panel with mouse over Settings icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484420212_673266585211296_193404919351644516_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=DdH_FUP0XAAQ7kNvwH0jyNU&_nc_oc=Adm4iqPOKDzH6HvabPaH1ChZyfKuWcSwb72dnvh_hXhR1Bz5WEqBrMyt1qL2rOfyrgk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d-vOxXd5eqqhqMalhYc2mA&oh=00_AfjE7pT4tyxeb1iwPaULFTxDwcWS8ts9kzW_hCzgL8eNeQ&oe=692EA303)
+  ![The Scripts panel with mouse over Settings icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484420212_673266585211296_193404919351644516_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=DdH_FUP0XAAQ7kNvwH0jyNU&_nc_oc=Adm4iqPOKDzH6HvabPaH1ChZyfKuWcSwb72dnvh_hXhR1Bz5WEqBrMyt1qL2rOfyrgk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kp0xDm9Zp6ti5mozBNAjaw&oh=00_Afg1U_bLGXqX20JGi9xAl3slENTQlIgMvGFXmRCvRhomrw&oe=692FBC43)
 - Next to **External Editor**, click **Select**.
 
-  ![Script Settings dialog box](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/482961279_673266621877959_676465629114660006_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=U1Z4hcL3WMcQ7kNvwFH5RRO&_nc_oc=AdlDxIRWCB0Zi8dZSAZvhQiR2yCsD5goXSidcVIiwQcADVV5cWUZlLsynvRIEtlP2LU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d-vOxXd5eqqhqMalhYc2mA&oh=00_AfjdHgtDZDoPuOnmYv9Zo12dyRovcnqk0V7IHNnjDSLygw&oe=692EAAE2)
+  ![Script Settings dialog box](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/482961279_673266621877959_676465629114660006_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=6TUXCX3XvXUQ7kNvwG4UTfx&_nc_oc=AdkEI7RXPbtOIvfgPphWFxkhf9c2C4En7bZbpG9WpUmias_55_hgPCz2kTRe6J_Ibb4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kp0xDm9Zp6ti5mozBNAjaw&oh=00_AfiwdHUo8__E2Fv2V9xQfEF-Dy4InYala6u3yrSGfv6TMQ&oe=692FC422)
 - Paste the file path from Step 3 into the **File name** field and then click **Open**. You can also navigate to the EXE file for your IDE and then click **Open**.
 - Click **Apply** to set VS Code as the external editor.
 
@@ -43,10 +43,10 @@ These section shows you how to set up the desktop editor to use an IDE other tha
 - Note the file path to where the EXE file for your IDE is installed on your computer. You’ll need this in the following steps.
 - Open the Meta Horizon Worlds desktop editor and then open the **Scripts** panel.
 
-  ![The Scripts Panel dropdown](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/482960441_673266571877964_3333170914423766306_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=FanpDMJIwusQ7kNvwHcRsLi&_nc_oc=AdkeUa0CeKC5mGCnRRvu3WolEVuKvHM8dIt5J629_XsXP9CuPgRTEbe4CpiaP1I9p20&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d-vOxXd5eqqhqMalhYc2mA&oh=00_AfiQL4B9w9KaN5W12Ss0sYMUfQrc691cQdHa-ZQ7jsXLyQ&oe=692EB894)
+  ![The Scripts Panel dropdown](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/482960441_673266571877964_3333170914423766306_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=XgqmMmPC-GcQ7kNvwEaG6hg&_nc_oc=Adnw3_I7CMb0dkiasltbNnZay0HMCaWg7Jh9vcJZchb0MSM0BjF8OVWVL21isVJqTbo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kp0xDm9Zp6ti5mozBNAjaw&oh=00_AfggRu_4VBiFW0RLjdZ2HPRq4qK3BWjIs55qB_-eKjAwTA&oe=692F9994)
 - Click the gear-shaped icon to open **Settings**.
 - Next to **External Editor**, click **Select**.
 
-  ![Script Settings dialog box](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/482961279_673266621877959_676465629114660006_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=U1Z4hcL3WMcQ7kNvwFH5RRO&_nc_oc=AdlDxIRWCB0Zi8dZSAZvhQiR2yCsD5goXSidcVIiwQcADVV5cWUZlLsynvRIEtlP2LU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d-vOxXd5eqqhqMalhYc2mA&oh=00_AfjdHgtDZDoPuOnmYv9Zo12dyRovcnqk0V7IHNnjDSLygw&oe=692EAAE2)
+  ![Script Settings dialog box](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/482961279_673266621877959_676465629114660006_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=6TUXCX3XvXUQ7kNvwG4UTfx&_nc_oc=AdkEI7RXPbtOIvfgPphWFxkhf9c2C4En7bZbpG9WpUmias_55_hgPCz2kTRe6J_Ibb4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kp0xDm9Zp6ti5mozBNAjaw&oh=00_AfiwdHUo8__E2Fv2V9xQfEF-Dy4InYala6u3yrSGfv6TMQ&oe=692FC422)
 - Paste the file path from Step 3 into the **File name** field and then click **Open**. You can also navigate to the EXE file for your IDE and then click **Open**.
 - Click **Apply** to set VS Code as the external editor.

@@ -4,7 +4,7 @@ API reference
 
 # KOPlayerPayload type
 
-A payload sent by the `OnKOPlayer` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnKOPlayer` [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).
 
 ## Signature
 

@@ -6,7 +6,7 @@ Learn
 
 Often, you will need to render multiple components with similar styles. For example, let’s say you want to modify your change-ball-color example so that the players can choose between two colors, “Red” and “Green”:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452588455_512536447950978_4834496598851633163_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=w5bu6C80gJAQ7kNvwEH9bbL&_nc_oc=AdndzyL7mEA1nX4keRxI-z4Ptvw6kb7tDdluKD8ZN4IANRRjCetm70-YR9P-E82fLYk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=y0kaKhPx6l5l0hcTBvIQFw&oh=00_AfijTtfIo3IDS6dC5Y4SuRNMLS6PMBcJQmCXoh2Kd8hgtg&oe=692EC705)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452588455_512536447950978_4834496598851633163_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=h-VmOjd11kgQ7kNvwFqyJ32&_nc_oc=AdlEsUKGFuqbtMkgrl1drvdh4e390P8eppghcgV4XVWC-hGA-Dv4O_OVeKsRFFN_Xmo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=xp_MmCdpXl1lZ0BTvZbD7A&oh=00_AfgSI2LtWFPUKeFpMcK_bzOCIZL_oVrzQkKpxrY5A5jarw&oe=692FA805)
 
 Those two buttons largely have the same styles, i.e. height, padding, border radius, etc., with only small differences like background color. Their children texts also have the same style. It will be verbose to duplicate these styles for each button.
 

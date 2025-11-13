@@ -4,7 +4,7 @@ API reference
 
 # StageStartPayload type
 
-A payload sent by the `OnStageStart` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnStageStart` [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).
 
 ## Signature
 

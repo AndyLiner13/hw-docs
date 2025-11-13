@@ -4,7 +4,7 @@ API reference
 
 # GameRoundStartForPlayersPayload type
 
-A payload sent by the `OnGameRoundStartForPlayers` multi-player [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnGameRoundStartForPlayers` multi-player [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).
 
 ## Signature
 

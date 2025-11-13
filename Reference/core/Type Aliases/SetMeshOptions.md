@@ -17,4 +17,4 @@ export declare type SetMeshOptions = {
 ## Remarks
 
 updateMaterial - true to enable use of the new material; false to use the current material.
-For information on updating the mesh of a custom model entity, see the [MeshEntity.setMesh()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_meshentity#setmesh) method.
+For information on updating the mesh of a custom model entity, see the [MeshEntity.setMesh()](/hw-docs/Reference/core/Classes/MeshEntity.md#setmesh) method.

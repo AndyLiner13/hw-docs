@@ -24,19 +24,19 @@ You can use the following steps to upgrade your world to API v2.0.0 and to addre
 - Open `My World v2.0.0` in the desktop editor.
 - Click the scripts icon.
 
-  ![The scripts icon.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481214090_656120596925895_3668757336005554961_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=y1ikFPE6UHkQ7kNvwH6H31h&_nc_oc=Adn_k3Wvefohl61ai5x2ELnmCSpObyVOLcPOJAt32Q-_kVA21d0geOJC4YaoPQDhn-I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=exTFClVCPez-M1JSepxJXg&oh=00_AfhgQyLmcMVKci1R0i84j_3IqpsW1viMAC2vAcy3PbPe9Q&oe=692E9F9F)
+  ![The scripts icon.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481214090_656120596925895_3668757336005554961_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=RGRhmDM8H04Q7kNvwGVhCnb&_nc_oc=AdlaWdNXNvSRP05yW7ml_ccTgopRPldVuK5pb9pK9H5wJh7khXz5fB7omPuPilAweEE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=b8NpE5gOXNp3L_gBVUfiDw&oh=00_Afhzc4eS6Ql3n2j5II9N1kwtXyYABub7ULhBEzEfygKXUg&oe=692FB8DF)
 - In the Scripts panel, click the **Settings** icon.
 
-  ![The settings icon.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480959063_656120593592562_4716792606270847229_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=L3QbqF3l2bAQ7kNvwHkZwP-&_nc_oc=AdmEnZQBxXMlqNdedXm-V6kyMfsaLie44V7zhZJzt9P5fuByAaN0SvIXAOW6c6_vVM0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=exTFClVCPez-M1JSepxJXg&oh=00_AfiCev-etvIy2_8K0_4thv-bPAPphnCIW_QGLqmNw_TwXw&oe=692E9A00)
+  ![The settings icon.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480959063_656120593592562_4716792606270847229_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=L3QbqF3l2bAQ7kNvwHkZwP-&_nc_oc=AdmEnZQBxXMlqNdedXm-V6kyMfsaLie44V7zhZJzt9P5fuByAaN0SvIXAOW6c6_vVM0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=b8NpE5gOXNp3L_gBVUfiDw&oh=00_AfjL2E4z3gueUcXhn8iL4c25mXbuIBWRmLG1Z0-IwL7liA&oe=692FB340)
 - In the **Script Settings** panel, note all API modules from prior versions that are currently enabled.
 
   **Note:** Any modules from prior versions that are currently enabled will remain enabled after switching to v2.0.0. This can cause problems with script execution. You should map them to their v2.0.0 equivalents, and then disable them before upgrading.
 - Select **2.0.0** from the **API** version list.
 
-  ![The API version list.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480739240_657839686753986_2429896285946758678_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=QLmPY5OvX4MQ7kNvwGErB1f&_nc_oc=AdksnEIRBJwnnC1HE5a2lflo7LhjWu7abo3qBoY52SAZYyYXBTQlD_cgORDPEHuRAQg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=exTFClVCPez-M1JSepxJXg&oh=00_AfhyZgetpOGPJNRDRQAZ-_218uxPiEFjS5XLPyvDQWCGiw&oe=692E9F7D)
+  ![The API version list.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480739240_657839686753986_2429896285946758678_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=2CsMLm9okIQQ7kNvwGi8bwg&_nc_oc=AdmahQ3xW6bPvySgMSaOzhRLJ11knWq0ZdzGucz1cKNejLHw12dMKFXVIj8dHb4rOn8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=b8NpE5gOXNp3L_gBVUfiDw&oh=00_AfidJEmyJlF7TZQU9KwCDpdQThGNomG7DZDNly8nDcPCdg&oe=692FB8BD)
 - Enable the API modules that you use in your world.
 
-  ![Scripts settings.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480749184_656120523592569_5025516330542005334_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=VynF0fa215UQ7kNvwFNW2Ua&_nc_oc=AdmotbxxTriTvhgQQWCnc8smV_dhtrQwdNaH89cAzEFA6PV6vb2zDEUoXxH0mtMHV7I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=exTFClVCPez-M1JSepxJXg&oh=00_AfiwncSz4mj1n-o8uQjjWR0ZRaIprXX_ZqaJj7XRBOroFQ&oe=692EB299)
+  ![Scripts settings.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480749184_656120523592569_5025516330542005334_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=VynF0fa215UQ7kNvwFNW2Ua&_nc_oc=AdmotbxxTriTvhgQQWCnc8smV_dhtrQwdNaH89cAzEFA6PV6vb2zDEUoXxH0mtMHV7I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=b8NpE5gOXNp3L_gBVUfiDw&oh=00_AfiOHi6Dgnv0zbUiF-ywEsnJGBCvvkyHSawcV2u8Mkn-pw&oe=692FCBD9)
 - Click **Apply**.
 
 ## Fixing script validation errors

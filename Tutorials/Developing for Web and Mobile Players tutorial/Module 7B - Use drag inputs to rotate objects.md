@@ -8,7 +8,7 @@ In the second room of the puzzle game, we have several objects which have a numb
 
 These objects have a trigger which is selectable in screen mode so that players can interact with them on web and mobile:
 
-![Screenshot of the desktop editor displaying an object that can be rotated using drag inputs](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/488910387_692135359991085_4663474754826465509_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=_OOF9qyvg7cQ7kNvwExNrgN&_nc_oc=AdmxzoyiK4Q0F-OIJP-bi91zMLJXhdDSSFAnKxTkuiNcqjUeugZkg-acWHU6BBsMMlw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=QLjmeUW3LRvzsoC50rrTOA&oh=00_Afj0ea9sd0HncZb4mBeSt0Q46cbHYEaZX87hDVvKncEWLg&oe=692EC4EA)
+![Screenshot of the desktop editor displaying an object that can be rotated using drag inputs](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/488910387_692135359991085_4663474754826465509_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=_OOF9qyvg7cQ7kNvwExNrgN&_nc_oc=AdmxzoyiK4Q0F-OIJP-bi91zMLJXhdDSSFAnKxTkuiNcqjUeugZkg-acWHU6BBsMMlw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=X8OkJB6cP9Ty44rwdViIFg&oh=00_AfhU4i2FuJhGM8xLIjAUDj_P5iSzv61lQdXhe0wugRQIRQ&oe=692FA5EA)
 
 #### RoomB\_RotateClues script:
 

@@ -6,7 +6,7 @@ Learn
 
 Welcome! This module introduces the NoesisGUI and prepares you to work with the sample stations included in this tutorial. You’ll learn how to set up your workspace, import the provided project, and get ready to explore each station.
 
-![NoesisGUI Studio](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/574580506_855959400275346_1558630767656865195_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=6f5rBB_9QogQ7kNvwFcB9t2&_nc_oc=AdlWRmd7WEodNzOdFvdXtkNLFm5mYstLhLXKApSAVnZGUPlrtuFo-bM7yQgLxUGefEk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OUtxFE1ZslPRL0l3m5GZGA&oh=00_AfiaZu2ZqvEMquVpUs-7XlQvFwo6BpqlYHEZmWKthyy7mQ&oe=692EA6A9)
+![NoesisGUI Studio](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/574580506_855959400275346_1558630767656865195_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=6f5rBB_9QogQ7kNvwFcB9t2&_nc_oc=AdlWRmd7WEodNzOdFvdXtkNLFm5mYstLhLXKApSAVnZGUPlrtuFo-bM7yQgLxUGefEk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Cek5ajR_hnZepWa877JrrQ&oh=00_Afj4t2GBxDPy0MrfkEJkKeJgo2y0OsuBiTf0zAlZUcdvYA&oe=692FBFE9)
 
 Note
 
@@ -36,7 +36,7 @@ NoesisGUI is a high-performance UI framework for games and interactive applicati
 
 Before you begin, make sure to:
 
-- Download the [Tutorial Project File](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/491818938_1494380961786890_8502004848100711826_n.zip?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RsmyEVe4JgUQ7kNvwHISJeQ&_nc_oc=AdlTvqhtKQzzULcRa6VJ9Y8g-_1iCXJPLnHrAsx1_prHPMbcQ-eRpmjJrRc1WLdI0L0&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfiamHVOE2WmRa2iVhoPWCPQ3AB9JR1EeJBIMly3RRtHSQ&oe=692EACE3)
+- Download the [Tutorial Project File](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/491818938_1494380961786890_8502004848100711826_n.zip?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RsmyEVe4JgUQ7kNvwHISJeQ&_nc_oc=AdlTvqhtKQzzULcRa6VJ9Y8g-_1iCXJPLnHrAsx1_prHPMbcQ-eRpmjJrRc1WLdI0L0&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afjo7_khAVpyTg8oTzpgxOm6gC28CzScXZ6bzGjfeqgGCQ&oe=692FC623)
 - Install [NoesisGUI Studio](https://www.noesisengine.com/studio/)
 - Unzip the NoesisGUI Studio folder
 - Run the application named **App.StudioTool.exe**
@@ -46,7 +46,7 @@ Before you begin, make sure to:
 
 ## Step-by-Step: Uploading Noesis Projects to Horizon Station
 
-![NoesisGUI Gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/573902789_855959373608682_6944807706372317319_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=-Y-fuAUGrRcQ7kNvwENRaaU&_nc_oc=AdlGjJxxKE2bEdyllMujbGjy-YEielziHzhtBJIQ-4SOJCAh_FOzQ7i3f8VVQVYJ1hQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OUtxFE1ZslPRL0l3m5GZGA&oh=00_AfhHn0egvqTD5JeHKQsoInyD4jQUUWsRY0Kq7XXz9h1xuw&oe=692EBFBC)
+![NoesisGUI Gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/573902789_855959373608682_6944807706372317319_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=-Y-fuAUGrRcQ7kNvwENRaaU&_nc_oc=AdlGjJxxKE2bEdyllMujbGjy-YEielziHzhtBJIQ-4SOJCAh_FOzQ7i3f8VVQVYJ1hQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Cek5ajR_hnZepWa877JrrQ&oh=00_AfhyI7Ucb2EGdioCu6c50UKtOe7eapKo8Gl_HxsagSv0DQ&oe=692FA0BC)
 
 In this tutorial, making additional updates and reuploading the NoiesisGUI project file is optional.
 

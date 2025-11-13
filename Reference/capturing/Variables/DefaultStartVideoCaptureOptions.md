@@ -4,7 +4,7 @@ API reference
 
 # DefaultStartVideoCaptureOptions Variable
 
-The default [options](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_startvideocaptureoptions) for the method.
+The default [options](/hw-docs/Reference/capturing/Type%20Aliases/StartVideoCaptureOptions.md) for the method.
 
 ## Signature
 

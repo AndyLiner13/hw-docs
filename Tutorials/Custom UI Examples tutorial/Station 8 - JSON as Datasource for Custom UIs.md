@@ -8,11 +8,11 @@ Learn
 
 This station demonstrates how you can store content data for your custom UIs in JSON files, which are uploaded and referenced in TypeScript to populate three separate but related custom UIs:
 
-![Image of Station 8](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083903_665004069370881_8948606061292091523_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=y7q0e9OT5QYQ7kNvwErPQhK&_nc_oc=Adl3DnhTMSlC0dMshkKCk51BJZlYpMKZn-i9vUP8eGV34h5VMY-uCEi15fEm7tvSwzE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GMDroZhuGPld4FL8Oy9yRA&oh=00_AfjiCFK7gLjt02byNlZhhCYSisHXa21GBHQYSZJcTG4Q9g&oe=692EAB9C)
+![Image of Station 8](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083903_665004069370881_8948606061292091523_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=y7q0e9OT5QYQ7kNvwErPQhK&_nc_oc=Adl3DnhTMSlC0dMshkKCk51BJZlYpMKZn-i9vUP8eGV34h5VMY-uCEi15fEm7tvSwzE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=hsmlXOwVSz51nOz3qXWI_w&oh=00_Afis5h_tuvGEmpcpXzqrp3LwB2VpVXOh_uJVMUjFvIPgeQ&oe=692FC4DC)
 
 In the above example, each custom UI is a read-only informational kiosk. Since the structure of the custom UI is consistent, the content itself can be managed externally, which allows non-engineers to manage the content, while engineers maintain the custom UI definitions for all three in a single TypeScript file.
 
-![Image of a Custom UI populated by JSON data](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/476383580_646003151270973_2654597415475476881_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=jPRggbTGJRcQ7kNvwH7YDrk&_nc_oc=AdnwqRDru1EWNtkGp66za6-72UhKRPoGmgsqPWL5EZ6uVAEQ9XIpvY1gQE4jiHR7KAk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GMDroZhuGPld4FL8Oy9yRA&oh=00_AfidaKCNVCW_nUazwdoKVn1NLC9Z_d-jMn3-y8qfmgt5PQ&oe=692EAA59)
+![Image of a Custom UI populated by JSON data](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/476383580_646003151270973_2654597415475476881_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=jPRggbTGJRcQ7kNvwH7YDrk&_nc_oc=AdnwqRDru1EWNtkGp66za6-72UhKRPoGmgsqPWL5EZ6uVAEQ9XIpvY1gQE4jiHR7KAk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=hsmlXOwVSz51nOz3qXWI_w&oh=00_Afhb1Fb3tV2YFJaEGu3NmQhNM9h_Tk9wemoqNJwbu3DOmg&oe=692FC399)
 
 #### How it works
 

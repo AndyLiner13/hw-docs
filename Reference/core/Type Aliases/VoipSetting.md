@@ -14,4 +14,4 @@ export declare type VoipSetting = keyof typeof VoipSettingValues;
 
 ## References
 
-[VoipSettingValues](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_voipsettingvalues)
+[VoipSettingValues](/hw-docs/Reference/core/Variables/VoipSettingValues.md)

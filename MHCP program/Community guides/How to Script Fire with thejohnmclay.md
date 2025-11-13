@@ -4,7 +4,7 @@ Learn
 
 # How to Script Fire with thejohnmclay
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453527029_1154495575666435_5062044208968422190_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=WiOsKO_IfloQ7kNvwH9JvTM&_nc_oc=AdkI0lPDgTX5oSUnzmGwQg-p5pwoiAxY6LcOAk-g7WlSJrqZFHvZYyKhyQIrglWUQXs&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=L40wFJ_d6WPt3HuamxrCvQ&oh=00_AfjJTvGpM5TM2fg7CkdjYODbIucxVliRDdpYa-AJ_NfBjw&oe=691A56BF)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453527029_1154495575666435_5062044208968422190_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=m6YpcO7w7k0Q7kNvwEJM3bC&_nc_oc=AdnYyDlpskG3yudw6p7xWkfq5FYHRWi9BuUNAX8UAvZBzfFnUeWH8josBd57wJE8Hd8&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=rGxXTMpw5cUEd4TqraAhdw&oh=00_AfjKxhB_EtSe_k9pc372hClFIMXCxvrs_8OnTVdC2yyUpQ&oe=691B37BF)
 
 Follow along with **MHCP Mentor @thejohnmclay** to learn how to use Script Gizmos and random numbers to make a flame.
 

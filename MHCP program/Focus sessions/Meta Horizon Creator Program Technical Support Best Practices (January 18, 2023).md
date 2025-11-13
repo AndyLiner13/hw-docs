@@ -4,7 +4,7 @@ Learn
 
 # Meta Horizon Creator Program Technical Support Best Practices (January 18, 2023)
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453574848_306993542426430_736878915661575687_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=wRWG8HkPw-sQ7kNvwG0Fl7A&_nc_oc=Adk5RFPg2V0K7uOIevlX96fz1zECPaZHQ54HrHhQYsW9mZo29-SyRs-fSktBy5eY0K0&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=x-JpykC06RYgp0ASAOeHrA&oh=00_AfgyNiAeC3858SrP8fmXGhDkx09Wmgf2ihNFBvZXLUCZig&oe=691A532A)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453574848_306993542426430_736878915661575687_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=8aV8DjqKWU8Q7kNvwFvAODL&_nc_oc=AdkvMm-ZNdcg70K6UeQwprGNv5BqCKxviVKK0aR0oWOSDaCdV-3x5R6Xi5i3IipYCzU&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=AeEmqeMR7ufjNF2wPBzMmw&oh=00_AfiSdzs-loey2u8ffvGQo-Zw3W6l09NuVnnHDutEiP-1dg&oe=691B342A)
 
 Learn more about the Meta Horizon Creator Program with a look at the benefits of program membership and best practices for submitting technical support requests.
 

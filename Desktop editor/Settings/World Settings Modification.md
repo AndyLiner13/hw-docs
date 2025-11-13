@@ -9,7 +9,7 @@ The World Settings Modification feature in the Desktop Editor has the same capab
 ## Opening the world settings panel
 
 - Click the “Publish” button in the top right corner in the toolbar.
-- A modal dialog with all of the available world settings will appear. ![Screenshot shows the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/557410481_835743108963642_7769846685903609772_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=-_uusA56U5gQ7kNvwG9DLm6&_nc_oc=AdnG39L0W2PLD6tBz3VVvdiLeCYF2Ss6SIGdv7Ep8MXA0OmiAR6YE-O8-oRZT3oDHXg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=b6kftCFBN_WazYdvdavBdA&oh=00_Afg_FVmZ6L266eYnE82dzcBRo_O1NefbO4f_88xja1Yscg&oe=692E96FD)
+- A modal dialog with all of the available world settings will appear. ![Screenshot shows the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/557410481_835743108963642_7769846685903609772_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=-_uusA56U5gQ7kNvwG9DLm6&_nc_oc=AdnG39L0W2PLD6tBz3VVvdiLeCYF2Ss6SIGdv7Ep8MXA0OmiAR6YE-O8-oRZT3oDHXg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2wed1FxZ5bnaD9C_J5G1JA&oh=00_AfiNRyXNGsjL1A_SzDaJwp3dhrdowcnzdMfSKLQDxmOBzQ&oe=692FB03D)
 
 ## Changing world settings
 
@@ -45,7 +45,7 @@ When you’re done, click **Publish** to save and publish your world.
 - Open the **World Settings** panel to modify the settings you want to change.
 - Click **Publish** when finished. The settings you modified will be saved and your world will be published.
 
-![Screenshot shows the desktop editor](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/558262644_835743072296979_2532819356992864743_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=UMwcpHbhVqQQ7kNvwHdxGy2&_nc_oc=Adkf8u3yhzfRwVwwc7rbMzlrPO7b_31gp8SQJJOaNcqxL0FhFJG-BWe2KSJhZuWBGa0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=b6kftCFBN_WazYdvdavBdA&oh=00_AfjkaFBfSdywXD27_xBNh0HCt7bQj7H3v23t4FEot6E06A&oe=692EB538)
+![Screenshot shows the desktop editor](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/558262644_835743072296979_2532819356992864743_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=AYINuMrZf0gQ7kNvwFbrUUI&_nc_oc=AdkLCx9nYlhYQ1JMS5Itwzh_accKjm724nJusDx4qbXwfghSenaXlDaJrE8e4M9O30o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=2wed1FxZ5bnaD9C_J5G1JA&oh=00_AfgG3u8K-t7cwCN1L_s-YB1-EfF-1fkAoP71jQLgzKGD7A&oe=692F9638)
 
 ## Unpublishing a world
 
@@ -53,4 +53,4 @@ When you’re done, click **Publish** to save and publish your world.
 - If a world has been published, then an **Unpublish** button will be displayed near the bottom right corner of the panel.
 - Click **Unpublish**. After a short delay, the world will be removed and unpublished.
 
-![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558674557_835743085630311_2304403895309760439_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=NILFLQP7EVkQ7kNvwGVydCr&_nc_oc=Adld62780aMUYEsgY2TGkwSyOwk1ggDzvppJ_-YMy1BmUn0AygH7gILyLdi4jnFDQ9k&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=b6kftCFBN_WazYdvdavBdA&oh=00_AfjdJAfWqCMRNXSU9xOzZu8fe1v0q22F2WeniqGLf4Tviw&oe=692EB2F5)
+![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558674557_835743085630311_2304403895309760439_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=vFjLVJ5eaIoQ7kNvwGYHvec&_nc_oc=AdlCWP8ELmmPsZM6mHILXOxO7yC6slJgXh0zrb3KPn4b_f96Q69C-e0NmRMgZ7Brbv8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2wed1FxZ5bnaD9C_J5G1JA&oh=00_AfgqUS5vd7EIVlwrMFHjrJbzYfZ2CvG7SAUKxnMFJ7WNtg&oe=692FCC35)

@@ -10,7 +10,7 @@ The FTUE is a short tutorial where new players learn the basic game mechanics be
 
 The FTUE zone contains a simplified store which only sells the green pickaxe. Players must purchase a green pickaxe to activate the teleporter and to mine in the main gameplay area.
 
-![First time user experience sign](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549279631_817392077465412_5932736742427587997_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Cyi-s8qFe3QQ7kNvwG187HY&_nc_oc=AdmuwexWzwDTybZjUpeZceeT6nT5p46wl4ZKkhmevqyryoSKwFr6e_yjq7zxVvUqvOw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jsdFb72M5LNAoPbky_Pn0A&oh=00_Afj_3OZZDETSQwNa0yPXMYreu44tZ1ZxNrAnFUv4sdwKBg&oe=692EB8E4)
+![First time user experience sign](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549279631_817392077465412_5932736742427587997_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=QaE67Z1ztMoQ7kNvwESPWzI&_nc_oc=AdmgWMMp7kUXl2Ebe6nIJFn29edqNFXNnjF-lvFZHKbh_TOCIiaEoQV0HJdUnpNfJF0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QXgjBexk24rkIMq6VbtcmA&oh=00_AfiQK2qloN2zl3LoRaI4nrIU6ram7_8L7DiV6f3nVNcPUA&oe=692F99E4)
 
 ## How the FTUE works
 

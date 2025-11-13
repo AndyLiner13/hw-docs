@@ -14,9 +14,9 @@ By the end of this user guide, you’ll know how to:
 * Examine the main thread
 * Examine common counters
 
-As you get more familiar with Perfetto and the Real-time Metrics menu, reference this checklist to better understand the cause and effect of performance issues. For a more in-depth explanation and step-by-step tutorial on how to use this checklist, go watch the [Connect ‘23 Horizon World Performance Optimization Best Practices talk](/hw-docs/Performance/Connect%20'23%20Video%20Series%20World%20Optimization%20Best%20Practices.md).
+As you get more familiar with Perfetto and the Real-time Metrics menu, reference this checklist to better understand the cause and effect of performance issues. For a more in-depth explanation and step-by-step tutorial on how to use this checklist, go watch the [Connect ‘23 Horizon World Performance Optimization Best Practices talk](/hw-docs/Performance/Connect%20'23%20Video%20Series-%20World%20Optimization%20Best%20Practices.md).
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452392375_512500747954548_2104090671995035942_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=uNDeU9rokJcQ7kNvwGog8DH&_nc_oc=AdljuhKNp-eIrx4M5CvL81VzSanpQP5JDrg9_fYj-h3_Zr1Zli9Hx_aQ2FdZX5KRC-0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YLfV3CuKAqJTTh9UTRc5bw&oh=00_Afig5vkp3pkRqN4gKfudbjQvfxppEyPBXyxMiRT5gW9S0Q&oe=692EA864)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452392375_512500747954548_2104090671995035942_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=jHGkowF-nRkQ7kNvwF5ry3n&_nc_oc=Adno4YDZlqoG9h9vcEIqlPK_6NfkgmuyrGGV2gLar9kJM2xP7Kt_10LEuIjCNOz7iBM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Q-jfkS-g1EvBKYXknyvj2g&oh=00_Afg65Uu7E5H-nuuhsraLKpXzrYcNJ333V8ABvTn-r6vJwg&oe=692FC1A4)
 
 The first step in analyzing traces is downloading them once they’ve been captured.
 
@@ -35,10 +35,10 @@ To view a trace file directly from the Developer Dashboard, select **Perfetto** 
 * Use **CTRL + mouse wheel** or the **w/s** keys on the keyboard to zoom in and zoom out on the specific thread and event. Use the **a/d** keys to pan left and right, respectively.
 * Use the **Search** input box at the top of the Prefetto UI tool to find a thread or process.
 
-  ![Perfetto UI search box](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/487878008_688281963709758_2966033283031449348_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=rvJuOYpwWjwQ7kNvwHyvp2R&_nc_oc=AdlDouOMA7qCygv7Ku6aGi8obZKCDt6qCrd1Ilmp-KVe9YKACCOPyfNlmlc2EJVB2xs&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=YLfV3CuKAqJTTh9UTRc5bw&oh=00_AfgZkPRGF1TfH_14q3KXCJuhgn1WcujjQVWU3deJHlIi5A&oe=692EAC0F)
+  ![Perfetto UI search box](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/487878008_688281963709758_2966033283031449348_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=s9N73J0OqKAQ7kNvwE71zYn&_nc_oc=Adnd_aTsot3jwgu91V_lS6a4PKuT5pY6-DKd1p22rMj4iGUKiT8KfLig7YQqMp4kV4E&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Q-jfkS-g1EvBKYXknyvj2g&oh=00_Afi-Xrai5vkdKUVzVnamo1WhghZCQHamQVU5DdrDeOM3aQ&oe=692FC54F)
 * If the search function finds a match, it will highlight the counter in yellow.
 
-  ![Using the Search bar to find a call inside a call graph](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487971033_688281967043091_5021087545001880111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=B3Dp1c6TMo8Q7kNvwH-bhjD&_nc_oc=AdlHQgPLNZwn2bT6igpJg8K-w42kVqeK5Mqq2y0OdvIZ0lnvk8fcg8mFwJ_cEJvutqk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YLfV3CuKAqJTTh9UTRc5bw&oh=00_Afj_ogfF7iNElWeWbxmWer_GpMsSouOOEh-Qs0Q8sK2clw&oe=692EB903)
+  ![Using the Search bar to find a call inside a call graph](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487971033_688281967043091_5021087545001880111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=B3Dp1c6TMo8Q7kNvwH-bhjD&_nc_oc=AdlHQgPLNZwn2bT6igpJg8K-w42kVqeK5Mqq2y0OdvIZ0lnvk8fcg8mFwJ_cEJvutqk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Q-jfkS-g1EvBKYXknyvj2g&oh=00_AfipwCW75STPFU1jR3FaFoIBH0ncA7TZVKO5PlyH57ByoA&oe=692F9A03)
 * Select an event on the thread to get more information, such as:
 
   + Name
@@ -47,11 +47,11 @@ To view a trace file directly from the Developer Dashboard, select **Perfetto** 
   + Duration
   + Process ID
 
-  ![Selecting a counter on the main thread, revealing the Current Selection tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488185144_688281973709757_4126500563093795126_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6ytMvMd-wIQQ7kNvwG36t01&_nc_oc=AdnLWPKAV3yDUfrsfCfIMNL3C3NhHtvFKUD_KhLPQ6yvYbaanh5ceTbp22pNZM1v0eQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YLfV3CuKAqJTTh9UTRc5bw&oh=00_AfhnomoE5wSiC0ku6Pt-DsB7vJn6-QnxeEnmn0rpW1fl1w&oe=692E9581)
+  ![Selecting a counter on the main thread, revealing the Current Selection tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488185144_688281973709757_4126500563093795126_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6DSelxx2kdAQ7kNvwGfXEEn&_nc_oc=Adku-xdbOJhOLgj6HvM7iP9c5CZZhDxdN7OkZjbS4Jbf_SEl_JxUaAfVlELpEHsY1v0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Q-jfkS-g1EvBKYXknyvj2g&oh=00_Afj57nQNGuXGMyFlwkTXG-qESQxZxF6iW_RduxW3pZIS_g&oe=692FAEC1)
 
 ### Perfetto Tool keyboard shortcuts
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452702818_512500764621213_1299181058192558473_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=uu6cYeIz0WIQ7kNvwFRk7UM&_nc_oc=AdkyvcsNmFLP5jP0uRbkKNi0yCzy1A6Pfq60Wg9nDr8ggBW17trFTZcHzW9Lp1gYMLA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YLfV3CuKAqJTTh9UTRc5bw&oh=00_Afg6aNBTZGI4IgkV24yD4N0qelfNnTTYM8zaRsnxRFHO-w&oe=692E92BD)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452702818_512500764621213_1299181058192558473_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=628gyZkfexAQ7kNvwFBOFJ1&_nc_oc=Adl25-SRveaKTbIF5CeZB-OpOmHiuePJk9n5gIYVztx_oTojc2ag_gbDEpfjRV9NgtE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Q-jfkS-g1EvBKYXknyvj2g&oh=00_AfhSRfHwMcYNZlHPMXmUsBIMygDmlQ1XG1EBi9e2-jEHPA&oe=692FABFD)
 
 ## Examining the main thread
 
@@ -61,7 +61,7 @@ You can zoom into the thread to see the different calls being made on the main t
 
 If you use your left mouse button to drag across a frame in the main thread, you can get more information from the **Area Selection** dialog at the bottom of the screen. If you select **Slices**, you can see the frame time under “Wall duration (ms)”. You can scroll down for a list of all the calls made during the selected time. The next column, “Avg Wall duration (ms)” will show you the average frame time across the whole trace. A trace taken with the Deep setting will give more inflated CPU times (around 5%) but you will have access to more detailed markers. A trace taken with the Overview setting will have more accurate CPU times but fewer markers will be captured. Here is an example selection:
 
-![Selecting a frame to view the slice durations](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488666923_688281960376425_3834413545093838867_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=4r71MNzPoG8Q7kNvwFrVPx0&_nc_oc=AdmYFgMLUrD58og_s0quxB6B_B1ui9FmkeBz88vQFMkxBsn0WGsfjGVxrKSaQHZkSXQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YLfV3CuKAqJTTh9UTRc5bw&oh=00_Afh_4C17lM8JuNfEaQGL8LdlXr6ZXxXotnA9AipWs8rRvw&oe=692E9443)
+![Selecting a frame to view the slice durations](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488666923_688281960376425_3834413545093838867_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=GHR0DVOsCxYQ7kNvwEdkWBZ&_nc_oc=Adm8CglWwWZbNA4MS4lW5bymSy5clad2P2jzDxyu3tU9w46NGOFv5ikV1WbekliwduA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Q-jfkS-g1EvBKYXknyvj2g&oh=00_Afjf4IjRMsJj1SEcxrIOgkOagvhqHmNZuabiyUPteSYizg&oe=692FAD83)
 
 When you zoom into a single frame on the thread, you can get a better understanding of how the time is being spent. For example, while the `PlayerLoop::Update` call seems very large, it is made up of a lot of calls that vary in size. Even if a single marker is large, that may not be an area of concern. For example, it is normal for `HorizonAvatarManagerUpdateRunner::Update` to take 1.5ms.
 
@@ -119,7 +119,7 @@ These counters are related to CPU usage:
 | Thread *or* Thread Pool Wor | A worker thread for the main thread. |
 | IL2CPP Thread Pool worker | Call graph for a function that converts .NET script to native. |
 | TaskManager::BackgroundThread | Call graph for main background thread. |
-| AppSpaceWarp | [Frame Budget Boost](/hw-docs/save-optimize-and-publish/frame-budget-boost) must be enabled for ASW to adaptively turn on. A value of 0 means ASW is off, a value of 1 means AWS is on. When ASW is on, the number of milliseconds of work your world can do per-frame is nearly doubled. |
+| AppSpaceWarp | [Frame Budget Boost](/hw-docs/Save,%20optimize,%20and%20publish/Learn%20about%20Frame%20Budget%20Boost.md) must be enabled for ASW to adaptively turn on. A value of 0 means ASW is off, a value of 1 means AWS is on. When ASW is on, the number of milliseconds of work your world can do per-frame is nearly doubled. |
 | ClientSpawn | Call graph of a new client asset being spawned. |
 | ClientDespawn | Call graph of a client asset being despawned. |
 | ServerSpawn | Call graph of server spawns. |

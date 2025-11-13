@@ -4,7 +4,7 @@ API reference
 
 # FirstPersonMovementCameraMovementPreset type
 
-A [CameraMovementPreset](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_cameramovementpreset) option that provides a first person camera view.
+A [CameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/CameraMovementPreset.md) option that provides a first person camera view.
 
 ## Signature
 

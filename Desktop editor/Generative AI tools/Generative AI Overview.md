@@ -26,9 +26,9 @@ The Gen AI panel features pre-made sample prompts that you can select to create 
 To open and use the Horizon desktop editor’s Generative AI tool, use the following process:
 
 - Select and open your world then click the Gen AI icon on the top toolbar to open the Gen AI panel.
-  ![Gen AI toolbar selector](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461928448_559683929902896_8856751514194715197_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=sKtGnI7uj9cQ7kNvwF1g7D_&_nc_oc=Adk9S0Tf872lCvcfw3SHGipz0npTr8HylYvcoJZx3ADmcDi5RRvf43-308SM1mgzpcw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pYIkDNmBcxs5NI_6a0xNIQ&oh=00_Afgg_hyPRQ0WXWqT78D7_H5ZMmM4KNlrByXnRo8ER6wxsA&oe=692EAF2F)
+  ![Gen AI toolbar selector](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581938662_863563282848291_2344867213088467592_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=meov2htSsaIQ7kNvwFOj1LA&_nc_oc=AdkZj0ask8V5zZh-aHA6gowJ77HzESGkmdFsOrh1Ndl9iniLRGjCIal1EVTLo2q625U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6ubvZiv04yeS0MX9fdnpbg&oh=00_Afh75uHm5ulMJyPL747dIT3HfNsYaYGmetIatYA9Xyf-pw&oe=692FA032)
 - The AI Creation Tool panel opens on the right side of the screen.
-  ![AI Creation panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470671869_611458581392097_4829464275397483224_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=z_JC9hYmz_8Q7kNvwF-BKg_&_nc_oc=Adl9tTx-mwC1ix1DZUJJRgACT5-fMQplpiTH2ircWoJAsQDATDMYrQ_tt6ez4Clh1ic&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pYIkDNmBcxs5NI_6a0xNIQ&oh=00_Afg2xZ3hnR9aRR--MJSwgTdPpWqZuZn8XqVyaMKWkN5h3g&oe=692E9622)
+  ![AI Creation panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470671869_611458581392097_4829464275397483224_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=pukEbTP6pQQQ7kNvwHP5TG1&_nc_oc=AdkGSNV-LLh_tMZ4NHjStRE-yp-FGoG1MxjWMmYni_PCcfEuMSw2XW2b428XAyxMAv0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6ubvZiv04yeS0MX9fdnpbg&oh=00_AfhSSPv2D-tQrvWdAWQGBOfUE7_vnxQohdo5e2WCBjLtHQ&oe=692FAF62)
 
 With the creation panel open, you can generate either typescript or audio for your selected world.
 
@@ -40,11 +40,11 @@ Once you’ve generated content using the Gen AI tool you can start a new chat o
 
 With the Gen AI panel open select the pencil icon to start a new chat. This can only be selected when you’ve already started generating content.
 
-![Gen AI panel new chat icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476850671_651374570733831_2051486668962484572_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=8MA481uHO_0Q7kNvwGrOdhA&_nc_oc=AdnwoUqlMbsOXBmcuvFLeYvTNVysIgckQ3yiY8IIw2h2HfwsbRWDwd-EClyJgtveAFs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pYIkDNmBcxs5NI_6a0xNIQ&oh=00_AfirLNdcf3re-1nRKtlyHv6n6ENZ7S-3mdvmTXKA_1GXFw&oe=692EAD67)
+![Gen AI panel new chat icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476850671_651374570733831_2051486668962484572_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=8MA481uHO_0Q7kNvwGrOdhA&_nc_oc=AdnwoUqlMbsOXBmcuvFLeYvTNVysIgckQ3yiY8IIw2h2HfwsbRWDwd-EClyJgtveAFs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6ubvZiv04yeS0MX9fdnpbg&oh=00_AfgykW2GDAvF1fMz2HzVQmqiFuh5-jPeHoHqSpKQwWULLw&oe=692FC6A7)
 
 To view previous conversations select the **Open chat history** button, then select a previous conversation from the list.
 
-![Gen AI panel chat history window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/477468586_651374550733833_2753780227460932468_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=S1abd_AIrR0Q7kNvwHNJ7wH&_nc_oc=Adn32YxUei4az0H4QF3K7urKniZ_45oMAkAuHAldqaIP23urhE_NVCWhFkFnBZUsb9g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pYIkDNmBcxs5NI_6a0xNIQ&oh=00_Afhz3uwcKeXnVL3JWiuVbvsrBxQHLlGkaqBXGTrkQMc5Sw&oe=692EA9F9)
+![Gen AI panel chat history window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/477468586_651374550733833_2753780227460932468_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=S1abd_AIrR0Q7kNvwHNJ7wH&_nc_oc=Adn32YxUei4az0H4QF3K7urKniZ_45oMAkAuHAldqaIP23urhE_NVCWhFkFnBZUsb9g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6ubvZiv04yeS0MX9fdnpbg&oh=00_AfiuM6VI8QrDJWcnZSyXbHtNWukd-uqPBufRVo8uO2dSSw&oe=692FC339)
 
 You can also delete previous conversations from this list by hovering over an entry, then clicking the trash icon.
 

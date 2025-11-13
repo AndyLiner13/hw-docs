@@ -10,7 +10,7 @@ You will need to be a member of MHCP and have accepted the terms in the Develope
 
 Gizmos are a suite of helper tools which are designed to enhance the creation and interactivity of worlds. The shop gizmo allows users to trade Meta credits and in-world items for other in-world items.
 
-![Shop Gizmo in Meta Horizon Worlds](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/518277094_762929259578361_3593903843151039697_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=8NurxzUYRk4Q7kNvwFzP7Ci&_nc_oc=AdkK-TtHmDiOe2YIrA1POeqGJhnWugg9c6MNRDmp_AGCMeQEwqePvcfOowOg1JJKgpE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=hNAcgYi8O1n9mqTz8KycmQ&oh=00_AfjNFhN6By-W4vhAC55a5YYgj-8MwrgqTF5irp4RFS-O5g&oe=692EC591)
+![Shop Gizmo in Meta Horizon Worlds](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/518277094_762929259578361_3593903843151039697_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=8NurxzUYRk4Q7kNvwFzP7Ci&_nc_oc=AdkK-TtHmDiOe2YIrA1POeqGJhnWugg9c6MNRDmp_AGCMeQEwqePvcfOowOg1JJKgpE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bLVYJJtOZtdWvQoomiGUkw&oh=00_AfjaMozvZTrb3iRCsdhtFKtg6A0L-8mcDA-Odpq-L0vIIg&oe=692FA691)
 
 The shop gizmo can be configured to display in-world items created in the **Systems > Commerce** menu. For more information on creating in-world items, visit the [In-World Purchase Guide](/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md#creating-an-item).
 

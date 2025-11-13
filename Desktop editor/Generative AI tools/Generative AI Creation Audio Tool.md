@@ -38,11 +38,11 @@ Gen AI Tool Availability & Rates
 
 The chat panel contains several example prompts. For example, the image below shows two sound effect examples and one ambient audio example.
 
-![Gen AI audio sample prompts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468962273_603507952187160_1786144461139993868_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=hC1MpRkm_pEQ7kNvwG67-xq&_nc_oc=AdlFSrcPaaADDN-vlvU8NSYbMtJnrEAsWqR2s_wwqa4vZyaxDjVtKZxqBgPPOvoqzfc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_AfiUXAMooNPSy1N8i9fqP5giCvEchLQ7aPd918_KRTq08g&oe=692E958E)
+![Gen AI audio sample prompts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468962273_603507952187160_1786144461139993868_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=hC1MpRkm_pEQ7kNvwG67-xq&_nc_oc=AdlFSrcPaaADDN-vlvU8NSYbMtJnrEAsWqR2s_wwqa4vZyaxDjVtKZxqBgPPOvoqzfc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfiVePnLW52G0PVlcdn2Ki5QlwAWCinzzSozhck0DDKZUg&oe=692FAECE)
 
 To try out a sound, simply select it. For example, when you select “Cicadas chirping in a field at night”, the user interface changes to display a chat between you and the Gen AI tool. Your prompt appears at the top of the panel, followed by the AI-generated results.
 
-![Gen AI audio audio output samples](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/468981643_603507958853826_138868665087679452_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=t0WPdG0AKQAQ7kNvwGCykXT&_nc_oc=Adng9OHOttAHVCNmbaYmCz9jmjAoimAqK5Kh0BjRPUjw5eKlcHnPJP83UI1hW_Sszoc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_AfgFuXEInUWU6n1mJFTsmHI2nnCHaLwMLmRB6rsmDUWm6w&oe=692EB9F8)
+![Gen AI audio audio output samples](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/468981643_603507958853826_138868665087679452_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=t0WPdG0AKQAQ7kNvwGCykXT&_nc_oc=Adng9OHOttAHVCNmbaYmCz9jmjAoimAqK5Kh0BjRPUjw5eKlcHnPJP83UI1hW_Sszoc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfgYAT-23J6Z8mUHGhsFgYjWXGzSpY7buvSrrHAsmcjV5w&oe=692F9AF8)
 
 The Gen AI tool returns several sound clips. Listen to each, and then decide which is your favorite!
 
@@ -50,13 +50,13 @@ The Gen AI tool returns several sound clips. Listen to each, and then decide whi
 
 As well as containing several sample prompts, the chat panel also contains an input field for accepting your custom prompts.
 
-![Gen AI audio duration slider](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468938673_603507962187159_1522823021563312640_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=5L0rMp969sEQ7kNvwFVc5Y7&_nc_oc=AdmteG4y1r_HpUqdok_3z-ubd8T5SH64Jreqy2f6AmH-r69AgtStztduQfOygl6tYS0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_AfjSUFKApe4Y64lYfTAFmmtAxDzfHJONtba5mz3xfoQEqg&oe=692E9BC2)
+![Gen AI audio duration slider](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468938673_603507962187159_1522823021563312640_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=5L0rMp969sEQ7kNvwFVc5Y7&_nc_oc=AdmteG4y1r_HpUqdok_3z-ubd8T5SH64Jreqy2f6AmH-r69AgtStztduQfOygl6tYS0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfiLqPQexQ9Y0jRljJyJdUO5ajsq86J62EVc_iWLHDijew&oe=692FB502)
 
-![Gen AI audio prompt input field](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/456847485_534117169126239_974795065296146371_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=eYXfILFSn4MQ7kNvwFPIAGP&_nc_oc=AdmCjQFnR4w5KW6ai5rDlDNJv9OwKMcy8WlQfRBb-qFSRB-Xvcxd099nJWPsVdg8ohU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_Afj8ANqs0R42ZKJR-rJtfNYpbRd2pm9PvE9H90IRKtL6Eg&oe=692EA051)
+![Gen AI audio prompt input field](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/456847485_534117169126239_974795065296146371_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=bS7f5kYY99AQ7kNvwEu-6J1&_nc_oc=AdmeNu2MJBkaR0SzZ2zqynNW_Z6dsp3WVj6r4-9Vpr19FyYxWIaGynoKhnVqbqLjCXU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfiHbIxehAb2VAYZ2gwKrL_Pka8QQqFRcwf87dW-Bkw41g&oe=692FB991)
 
 Type your own prompt into the input field, set the **Duration**, select an audio **Type**, and click **Generate**. The Gen AI tool generates four audio clips for sound effect generation and one audio clip for ambient audio generation. Try them out and then pick the one that you like the best. Note that ambient audio can take over a minute to generate due to the length of the ambient audio tracks.
 
-![Gen AI audio like/dislike options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/469226276_603507965520492_2652256979980421471_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=WHne45i5bmIQ7kNvwF3shn7&_nc_oc=AdltPS7g9sz-tmC3ajUB4nz4RxwGN-MrpRj-baezkastsIX55UukxaMFul-DnXr7T3g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_AfiO1B6sIdRTtuEnovb7CSX7D6Ybp6KVuugVbYgomvXK-Q&oe=692EAC09)
+![Gen AI audio like/dislike options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/469226276_603507965520492_2652256979980421471_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=WHne45i5bmIQ7kNvwF3shn7&_nc_oc=AdltPS7g9sz-tmC3ajUB4nz4RxwGN-MrpRj-baezkastsIX55UukxaMFul-DnXr7T3g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfgKo7CY7_RjmHD-a4aD_TRgRNZ5F38Q1pZt9LDUywZmlQ&oe=692FC549)
 
 To specify whether the result was helpful, hover over the audio player and click either **Like** (thumbs-up) or **Dislike** (thumbs-down). Meta uses this information to fine-tune the LLM.
 
@@ -64,7 +64,7 @@ To specify whether the result was helpful, hover over the audio player and click
 
 - Pick one of the sound clips to audition, and then click the **Play** button.
 
-![Gen AI audio generated audio play](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468835392_603507955520493_7365456068446184086_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4h5oLp--YRMQ7kNvwF4mjcU&_nc_oc=AdmuXF8ljfw1iXHfFr9tQEsGl9b-odRXlN40-lUR6L9IEfbOXoKfbGfYpxK7fMAB9AQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_Afg41qRzQdyt9c97xmlCC5EN5Rqezf8wXBDoFmwJIWmCRA&oe=692E927F)
+![Gen AI audio generated audio play](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468835392_603507955520493_7365456068446184086_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=VCWk0Pjrk6YQ7kNvwFYhQXB&_nc_oc=Adm_wkUtUr-pahH4HV5LAzyf_2O3c5k59jHif4AM4k_BIEAiNLshlWsewqMK147qTKI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfgvHfa4UZ3nR4U1VWCAG-FaG4xOTYzOnKkTTqQS-niLWw&oe=692FABBF)
 
 The clip plays through your computer’s speakers.
 
@@ -72,28 +72,28 @@ The clip plays through your computer’s speakers.
 
 - Hover over the applicable sound clip, click the three dots, and click **Save to asset library**.
 
-![Gen AI audio save to library](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469048224_603507968853825_6993013063125272547_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=7tTvHL-RXwEQ7kNvwF1LIKD&_nc_oc=Adn10g38p83M-T3lfBN8RJxjLeQPxiCf__LaMr8N8EICk-nV26dRELs5GscYYCuRv0Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_Afgg96v6ihMRZZRmWHlFM-f3Z0J1pBnJCwE5q82Dpu8pMQ&oe=692EB54B)
+![Gen AI audio save to library](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469048224_603507968853825_6993013063125272547_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=7tTvHL-RXwEQ7kNvwF1LIKD&_nc_oc=Adn10g38p83M-T3lfBN8RJxjLeQPxiCf__LaMr8N8EICk-nV26dRELs5GscYYCuRv0Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfiRkC1Y794oYDPmer4JMMsMtdY4NCdE1xwlOfBBQgCFBw&oe=692F964B)
 
 The generated sound effect is converted into an asset and added to your Asset Library.
 
-![Gen AI file added to library](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457021128_534117189126237_2717491827960321941_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=r6sn_Kfs8VQQ7kNvwFbhbYh&_nc_oc=Adni0xpZ67Jqc_7KHgQn0eB5kQubk3-Fis6FrfGlnRXvBvp8WN3tnJKz3YaEk84jtGo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_Afi2u1oz1HaPezoBvDXr75WYMPcNFQUIYHoQav5KAZhVMA&oe=692EC11D)
+![Gen AI file added to library](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457021128_534117189126237_2717491827960321941_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=r6sn_Kfs8VQQ7kNvwFbhbYh&_nc_oc=Adni0xpZ67Jqc_7KHgQn0eB5kQubk3-Fis6FrfGlnRXvBvp8WN3tnJKz3YaEk84jtGo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfjphHojNpmQNbOqdBg6gVTkjE_e4DzW-xydWD70Kgh1Fw&oe=692FA21D)
 
 If you drag the generated SFX asset into your scene, it appears in your Hierarchy.
 
-![Gen AI hierarchy view](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/456900580_534117192459570_5451035202656942100_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=TY7eQv_nXH8Q7kNvwHEZd5p&_nc_oc=AdnUTNL1R7mp-wPDe4c7i0Xv6IqZsJmY_bumIlY8GONeBBXXThd3K8Kp_yv1cfEPzmw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_AfiNju6u01_sptSfh68sO2_osurnsVjyRb_9QDJ--JJQjg&oe=692EA52C)
+![Gen AI hierarchy view](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/456900580_534117192459570_5451035202656942100_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=TY7eQv_nXH8Q7kNvwHEZd5p&_nc_oc=AdnUTNL1R7mp-wPDe4c7i0Xv6IqZsJmY_bumIlY8GONeBBXXThd3K8Kp_yv1cfEPzmw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfhWuZDw7iv_STyYZKF5jP63N0tR7BZNDisAfXpa9IVWIg&oe=692FBE6C)
 
 ## Downloading generated sound effects
 
 - Hover over the applicable sound clip, click the three dots, and click **Download**.
 
-  ![Gen AI download file](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469048224_603507968853825_6993013063125272547_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=7tTvHL-RXwEQ7kNvwF1LIKD&_nc_oc=Adn10g38p83M-T3lfBN8RJxjLeQPxiCf__LaMr8N8EICk-nV26dRELs5GscYYCuRv0Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_Afgg96v6ihMRZZRmWHlFM-f3Z0J1pBnJCwE5q82Dpu8pMQ&oe=692EB54B)
+  ![Gen AI download file](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469048224_603507968853825_6993013063125272547_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=7tTvHL-RXwEQ7kNvwF1LIKD&_nc_oc=Adn10g38p83M-T3lfBN8RJxjLeQPxiCf__LaMr8N8EICk-nV26dRELs5GscYYCuRv0Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfiRkC1Y794oYDPmer4JMMsMtdY4NCdE1xwlOfBBQgCFBw&oe=692F964B)
 
   The Export dialog box appears, prompting you to enter a filename.
 
-  ![Export dialog](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/457279376_534117229126233_66257070618548746_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=UWAIwr_5y9IQ7kNvwH1Vra2&_nc_oc=AdmpAy6jcplCNyRQSJzCljFW15iWzCkB2JCzGdl6qM7QWAlKLuexzRJzr1YVcdqidXw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_AfjHCXSCe5KGzl-oEsHEhzNP_VifoHKIjfgbJM97U4zMrQ&oe=692EC251)
+  ![Export dialog](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/457279376_534117229126233_66257070618548746_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=UWAIwr_5y9IQ7kNvwH1Vra2&_nc_oc=AdmpAy6jcplCNyRQSJzCljFW15iWzCkB2JCzGdl6qM7QWAlKLuexzRJzr1YVcdqidXw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfiPiO5MNWtx1O7839VFUvYk010FL7ppX-erXkZL5J5Qbg&oe=692FA351)
 - Enter a filename and click **Save**. The sound effect file is saved to your local hard drive.
 
-![Saved file and filename](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457135627_534117185792904_470788102018402225_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=W_TnJYo8SEgQ7kNvwGCVoaZ&_nc_oc=AdlRuzZ-KxKHqXdGwknk5FDqf8Zhf_z8naa9cSU0SIAmw7CcGmTYRWidXHikyda2cco&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UqGTcbaHv321ZbbZEpzIfQ&oh=00_AfggxmAVpwtx3xnYFA43vbXmQqapTODmya0vweGOdMW4lg&oe=692EA4A5)
+![Saved file and filename](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457135627_534117185792904_470788102018402225_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Hh3FPBnAdAAQ7kNvwH3DNaM&_nc_oc=AdlJhzAzWhIKcNsC8G50DNhOS6BI1i680PX-72pgX5ScVib0ti6zdtA3ilq74QB86mg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JlBzilI9N5M4V4Iv_N_QWQ&oh=00_AfgmMvtXgZWzwCWwOc_a6Hbhx1TLDwmoJ5I0Yhh5GHRZzQ&oe=692FBDE5)
 
 ## What’s next?
 

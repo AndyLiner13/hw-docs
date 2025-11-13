@@ -18,7 +18,7 @@ This station features two example overlays:
 
 Both overlays are visible in the following image:
 
-![Image of Timer and Build Info overlays](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475484540_646003167937638_9115120662051359098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=uH9Hlz2nL20Q7kNvwG2-5Nv&_nc_oc=AdkQeqakqPccIf3koseXCl26dKqnkhgZjZHBULlmDmoILiSZDhIJMuH8-EeH7oZQ2E8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=bqFhnuwoNO-Xl9XEa-ZcJQ&oh=00_AfgGU_DJvexirbSYNde_xDZ_7595qopJdAnVUfwQcdIsGg&oe=692EC4A8)
+![Image of Timer and Build Info overlays](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475484540_646003167937638_9115120662051359098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=kCnvvqsVucwQ7kNvwFN08pB&_nc_oc=AdkNdsMyPqR7xB7yiWPWuaxpVA6w1H2fNBIjN42qnPOqUqygGGDLmznaJ7xRO40hWKc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7MgqSwCue_2PFUYRPAS9hQ&oh=00_AfhA--Y0EzvFxxzuepVPLFOj7UlTyDJ7CLDXKuqbtQ1C1g&oe=692FA5A8)
 
 ## Configuration Differences for Screen Overlay Custom UIs
 
@@ -35,7 +35,7 @@ When you are adding a screen overlay, you should consider where to locate it bas
 
 **Tip**: The lower-left corner is generally a safe location. These example overlays are added there.
 
-For more information, see [Safe Placement of UI Controls](/hw-docs/create-for-web-and-mobile/designing-worlds-for-mobile-and-web/safe-placement-of-ui-controls/).
+For more information, see [Safe Placement of UI Controls](/hw-docs/Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Safe%20Placement%20of%20UI%20Controls.md).
 
 ## Assets
 

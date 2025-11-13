@@ -4,7 +4,7 @@ Learn
 
 # Module 1 - Setup
 
-![Thumbnail of the Simple Shooting Mechanics tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462384297_563294049541884_4432521421105344562_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=5hwPl2HC51cQ7kNvwE2x9_t&_nc_oc=AdmiQkrG1ALCdphY_QHGX-5a2yGZgMynVhYMho74qX7EzbfZvZXMek_b4G0EKP1oPfk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pGQP12YwmDWlDjQ1bamq8g&oh=00_AfjrIBT0DivXdyhALUE49QhoCn985CZ4Z1A6bAGyRjCMxQ&oe=692EBDFE)
+![Thumbnail of the Simple Shooting Mechanics tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462384297_563294049541884_4432521421105344562_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=5hwPl2HC51cQ7kNvwE2x9_t&_nc_oc=AdmiQkrG1ALCdphY_QHGX-5a2yGZgMynVhYMho74qX7EzbfZvZXMek_b4G0EKP1oPfk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zld6QzWky2k3MHdvmaR_MQ&oh=00_AfieJsgw1iOZ6nnkNt7wk7u6chxH7kkK9hrHi78ZyhSyUQ&oe=692F9EFE)
 
 Important
 
@@ -75,7 +75,7 @@ To begin, open your new version of the tutorial world in the desktop editor.
 - In the Creations Home page, select your copy of the tutorial template.
 - Your world should now be opened in the desktop editor, and your project should look something like the following:
 
-![Image of the world's entities in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480771236_676362561568365_2904909360084496927_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=p99owIEn4q8Q7kNvwHnerlu&_nc_oc=AdkhzhC3ncysVLSPDwS0L16Ti6n1iUrfch8D2ziCST85g853GPW60g2hMh0WKcA2eRk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pGQP12YwmDWlDjQ1bamq8g&oh=00_AfhaohuiBQGT7mMkCUiWLOxGfeejicAMImBBd7Tdn2Mq8A&oe=692EA070)
+![Image of the world's entities in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480771236_676362561568365_2904909360084496927_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=p99owIEn4q8Q7kNvwHnerlu&_nc_oc=AdkhzhC3ncysVLSPDwS0L16Ti6n1iUrfch8D2ziCST85g853GPW60g2hMh0WKcA2eRk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zld6QzWky2k3MHdvmaR_MQ&oh=00_AfjmC9-3TIQvTM6DperxWFdAFdQerknn6aqTLQKZnFOSsQ&oe=692FB9B0)
 
 ### Build mode and Preview mode
 
@@ -83,7 +83,7 @@ In the above, the world is in **Build mode**, which is where you add, move, and 
 
 In Preview mode, you can drop into the world and experience it like an external visitor would. To enter Preview mode, you press the **Play button** in the toolbar:
 
-![Image of toolbar with Play button highlighted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480503857_676362558235032_5081585825323827551_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Iu6FNUF9v5EQ7kNvwGT5RnU&_nc_oc=AdksOXK73gzbKRC_6E6Oee1jx7eUWayUju_GGcl9nJVEZCXU6pekNoqvTTzCiFoJu_Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pGQP12YwmDWlDjQ1bamq8g&oh=00_Afg2aAJQVFw_bey4WUf3XFmecNRMjWUj3VGi-FrTuUWgGg&oe=692EB397)
+![Image of toolbar with Play button highlighted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480503857_676362558235032_5081585825323827551_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Iu6FNUF9v5EQ7kNvwGT5RnU&_nc_oc=AdksOXK73gzbKRC_6E6Oee1jx7eUWayUju_GGcl9nJVEZCXU6pekNoqvTTzCiFoJu_Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zld6QzWky2k3MHdvmaR_MQ&oh=00_AfhXiOTV8pPNeDy6yTf0o3crtVRnCqlWhuLU-ZGYM-DOUg&oe=692FCCD7)
 
 **Playtesting**:
 

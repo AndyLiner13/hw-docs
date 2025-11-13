@@ -36,7 +36,7 @@ As players progress through the game they often start performing more advanced a
 
 ### VR design recommendations
 
-**Note**: VR gameplay typically averages about 30 minute sessions in comparison to mobile, which average 5-10 minutes. For information about gameplay loops on mobile and web, see [Short loop mobile world design guidance](/hw-docs/create-for-web-and-mobile/short-loop-mobile-world-design-guidance).
+**Note**: VR gameplay typically averages about 30 minute sessions in comparison to mobile, which average 5-10 minutes. For information about gameplay loops on mobile and web, see [Short loop mobile world design guidance](/hw-docs/Mobile%20and%20web/Short%20loop%20mobile%20world%20design%20guidance.md).
 
 **Engagement:**
 
@@ -164,5 +164,5 @@ For information about how scripts execute and how to integrate a sequence of eve
 
 ## Additional information
 
-* [Q&A Session: Gameplay Loops](/hw-docs/MHCP%20program/Q&A%20sessions/Q&A%20Session%20Gameplay%20Loops%20with%20Victor%20Riddel.md)
+* [Q&A Session: Gameplay Loops](/hw-docs/MHCP%20program/Q&A%20sessions/Q&A%20Session-%20Gameplay%20Loops%20with%20Victor%20Riddel.md)
 * [Q&A Session: New User Experience](/hw-docs/mhcp-program/community-tutorials/new-user-experience)

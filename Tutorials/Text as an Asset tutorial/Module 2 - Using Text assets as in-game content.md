@@ -4,7 +4,7 @@ Learn
 
 # Module 2 - Using Text assets as in-game content
 
-![Image of Station 1, which is a trivia game whose questions are imported through text assets](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488755539_688927730311848_6788371115967447808_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=6Ua0HFL7T1EQ7kNvwE2M5wP&_nc_oc=AdmceY0lpM-fSrM8wVm9kS2q3LfjJZwjMKlJ3Zt0dQxWrLEW4gZDBezuHqDFVGaTZR4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5wh_L4srUW70inHJd88Zvw&oh=00_AfjyWPwpMM6xLxFwCltM9kAa1hyBFW7AGcEc1C6Ybfd05g&oe=692EAC5A)
+![Image of Station 1, which is a trivia game whose questions are imported through text assets](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488755539_688927730311848_6788371115967447808_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=6Ua0HFL7T1EQ7kNvwE2M5wP&_nc_oc=AdmceY0lpM-fSrM8wVm9kS2q3LfjJZwjMKlJ3Zt0dQxWrLEW4gZDBezuHqDFVGaTZR4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QR0978Ofb1E6Oke_T8faMA&oh=00_AfgbfjtI1IzTcaSpn-QFc5xPoAkEu6Z_GgYWnmoCn_Co9A&oe=692FC59A)
 
 Text assets can be used to upload in-game data from outside sources, which has several advantages:
 

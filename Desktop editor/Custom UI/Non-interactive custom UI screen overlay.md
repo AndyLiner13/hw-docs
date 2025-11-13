@@ -30,7 +30,7 @@ Based on the above information, you’ll notice that the screen overlay feature 
 
 - When you [create a UI with the **Custom UI** gizmo](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md#step-1-create-a-custom-ui-gizmo), find the [**Display Mode** property](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20panel%20configurations.md) under **Visual & Interaction** on the **Properties** panel.
 
-  ![The Visual and Interaction section on the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487875307_686297440574877_2174095531124152284_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=ThTwS7TKRWMQ7kNvwE1w-tk&_nc_oc=AdlNAArCCSRrKgOMKHhNUEWLpgmu5JlG3zQnkJIQLp3SFSGWMIS2PKBxOSN5ubpWONA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uoHWJm7_IcvWM_P33MXwTA&oh=00_AfgWoSuYtJ0BmX7eEODDCBpw-JSRzeEUHIMmE34oPZqcUg&oe=692EBB48)
+  ![The Visual and Interaction section on the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487875307_686297440574877_2174095531124152284_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=ThTwS7TKRWMQ7kNvwE1w-tk&_nc_oc=AdlNAArCCSRrKgOMKHhNUEWLpgmu5JlG3zQnkJIQLp3SFSGWMIS2PKBxOSN5ubpWONA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=tWUgg3hHVFGrFpSltvm8eQ&oh=00_AfgAlDjqYywdlLJavJfdInRL_zMtKam2O06-BpZ8nXyvMg&oe=692F9C48)
 - Switch the **Display Mode** to **Screen Overlay**.
 - Next, write Typescript code to craft a screen overlay UI that aligns with your design.
 - Ensure that the outermost view container includes the [position: “absolute” property](/hw-docs/Reference/ui/Type%20Aliases/LayoutStyle.md).
@@ -99,7 +99,7 @@ class ScreenOverlay2 extends UIComponent {
 
 Now that you have created these two screen overlays, you can see two UI layouts as shown in this screenshot. The content varies depending on your TypeScript code.
 
-![Two examples of screen overlays](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487698781_686297437241544_7890064344951409983_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=r8vT6cTbwwsQ7kNvwFCpYHV&_nc_oc=Adkzj9WbHk6WsXwBlp52qSJbL_fW9XD7ySoaCvzSTDYTSpLF5HM7De6y2M5ETTqCTAQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uoHWJm7_IcvWM_P33MXwTA&oh=00_AfgtBQ7O0d1ndwBTCGLmoAQRDlgte31_SFvh0T8bth86RA&oe=692E9AB4)
+![Two examples of screen overlays](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487698781_686297437241544_7890064344951409983_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=r8vT6cTbwwsQ7kNvwFCpYHV&_nc_oc=Adkzj9WbHk6WsXwBlp52qSJbL_fW9XD7ySoaCvzSTDYTSpLF5HM7De6y2M5ETTqCTAQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=tWUgg3hHVFGrFpSltvm8eQ&oh=00_AfgaTJz-ze2E8SNeB2Uzl_GfuD2Ik7ufsiGxzUREpi34hQ&oe=692FB3F4)
 
 ### Player-specific screen overlay
 

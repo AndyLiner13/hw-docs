@@ -30,7 +30,7 @@ The world leaderboard gizmo is an entity. All objects in a world are represented
 
 In the **Behavior** section, additional properties are available to customize and manage the leaderboard.
 
-The **Leaderboard** dropdown menu lets you select the [leaderboard](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Creating%20QuestsLeaderboardVariable%20Groups.md) that you create under **Systems** in the menu bar. This links the leaderboard to the visual display, represented by the gizmo.
+The **Leaderboard** dropdown menu lets you select the [leaderboard](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Creating%20Quests-Leaderboard-Variable%20Groups.md) that you create under **Systems** in the menu bar. This links the leaderboard to the visual display, represented by the gizmo.
 
 **Displayed Title** lets you name the visual display panel.
 
@@ -57,4 +57,4 @@ Now that you’ve been introduced to the world leaderboards gizmo, continue your
 * [Tutorial worlds on persistent variables](/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%207%20-%20Persistent%20Variables.md)
 * [Quests, leaderboards, and variable groups](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
 * [Using in-world analytics](/hw-docs/performance-best-practices-and-tooling/analytics/using-in-world-analytics#levelup)
-* [Meta Horizon Worlds: kudos panel instructions](/hw-docs/MHCP%20program/Monetization/Meta%20Horizon%20Worlds%20Kudos%20Panel%20Instructions.md)
+* [Meta Horizon Worlds: kudos panel instructions](/hw-docs/MHCP%20program/Monetization/Meta%20Horizon%20Worlds-%20Kudos%20Panel%20Instructions.md)

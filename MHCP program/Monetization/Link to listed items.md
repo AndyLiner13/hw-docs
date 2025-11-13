@@ -6,11 +6,11 @@ Learn
 
 Once you have created an item and allowed people to acquire it outside your words, you can amplify its visibility and drive engagement using listing and storefront links. A link is a shareable URL that can be pasted on various platforms like Facebook, Instagram, and other locations to help increase user engagement.
 
-![Shareable surfaces example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/538138940_798525679352052_3230805306293323935_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=3fLixX343o8Q7kNvwE9Cxh0&_nc_oc=AdkwFVDi1bIzHS5XFl5QJm_wj-6VWXZEi5kjOtL6RisY2PtFolOPxZhv08mHOG521NU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QEBKjj9Z5AJXVp418UHhqg&oh=00_Afi7q5ac-YDMpej6-vmFTDCsAxCU5npV1s7-Oa-mz_TKUw&oe=692EC897)
+![Shareable surfaces example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/538138940_798525679352052_3230805306293323935_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=3fLixX343o8Q7kNvwE9Cxh0&_nc_oc=AdkwFVDi1bIzHS5XFl5QJm_wj-6VWXZEi5kjOtL6RisY2PtFolOPxZhv08mHOG521NU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vbNquw0RV_tIcl493hR68A&oh=00_Afjrqy19u2EhNdzqQ_dZIoeep5pqDyTSupDbeBR7qi361A&oe=692FA997)
 
 When used well, item listing links and storefront links can maximize the reach and impact of your created items. By strategically integrating them into your promotional efforts across various digital channels, you can significantly boost visibility, enhance user experience, and ultimately drive greater success for your creations.
 
-![Item links example](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/536281174_798525692685384_4523635910421786742_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=3-XXfX-ZxtgQ7kNvwG2b7Pi&_nc_oc=AdlFmb84h5pP-swN_NzHRhmW6UuHjfE9m3UJkZV_HHpjxgVUoPYTHMuCwqJp1IVLDO4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=QEBKjj9Z5AJXVp418UHhqg&oh=00_AfglAs2sxVB7XY0bpntQFAN4qBn87vuLNMnPgWWn8z3fUw&oe=692EB356)
+![Item links example](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/536281174_798525692685384_4523635910421786742_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=3-XXfX-ZxtgQ7kNvwG2b7Pi&_nc_oc=AdlFmb84h5pP-swN_NzHRhmW6UuHjfE9m3UJkZV_HHpjxgVUoPYTHMuCwqJp1IVLDO4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=vbNquw0RV_tIcl493hR68A&oh=00_Afi_YBBpEgY_RY0SJst9PHGkLt3NCw-xBfk33wfcHQnNPw&oe=692FCC96)
 
 ## Copy an item listing link
 

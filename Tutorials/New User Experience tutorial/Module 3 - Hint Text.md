@@ -36,7 +36,7 @@ To implement a complete hint text system, use the following process:
 
 - **Create the hint text trigger zone**: Navigate to **Build** > **Gizmos**, select the **Trigger Zone** gizmo and position it where you want to display notifications to players. This trigger will detect when players enter the area and activate the hint text display.
 
-  ![Hint Text Trigger zone](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/550379493_817222410815712_1408863187916460048_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=kU7nNlbv7gIQ7kNvwGA9lS6&_nc_oc=Adl7DvuirLC6rDQRDcn9hRK-yznZnwS_x6_AYym0CgiV6DQZzaBb5G1D-_B-I55qQuc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UbVYTYGgH91z02QilAgajQ&oh=00_AfhvXh848C3v4AGsYi9iAsA5_oQAuEraOFL9ERVnBPRBhA&oe=692EAB08)
+  ![Hint Text Trigger zone](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/550379493_817222410815712_1408863187916460048_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=kU7nNlbv7gIQ7kNvwGA9lS6&_nc_oc=Adl7DvuirLC6rDQRDcn9hRK-yznZnwS_x6_AYym0CgiV6DQZzaBb5G1D-_B-I55qQuc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bPqufELeVo_SvQKgcpjhcg&oh=00_AfgY6p2l91mWdIaoq-o3S7wg2nGQRPd-HIPJj2tRenYpNg&oe=692FC448)
 - **Configure the trigger script**: Attach the `HintTextTrigger.ts` script to your trigger zone. Configure the trigger properties in the inspector:
   * **customTitle**: Title of the notification (can be empty for message-only notifications)
   * **customMessage**: Main message content to display to players (default: “Welcome to the world!”)
@@ -52,7 +52,7 @@ To implement a complete hint text system, use the following process:
     + **normalTitleFontSize/normalMessageFontSize**: Used for messages 50-100 characters (default: 28/14)
     + **bigTitleFontSize/bigMessageFontSize**: Used for messages over 100 characters (default: 28/12)
 
-  ![Hint Text Properties](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/547442950_817222414149045_8262315791743817332_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=XqGJpoFU_PYQ7kNvwENIXr_&_nc_oc=AdkgMtEnw8-6dprK9NVY_7VLzf7YfIdHLA3HrOeE828fJSJXRuSCi1PipyYoi48nsiI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UbVYTYGgH91z02QilAgajQ&oh=00_AfgMbWKwaqChQ7pGiOhJPRJuK737ReObpNvEe0TFb7AJTQ&oe=692EAC48)
+  ![Hint Text Properties](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/547442950_817222414149045_8262315791743817332_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=XqGJpoFU_PYQ7kNvwENIXr_&_nc_oc=AdkgMtEnw8-6dprK9NVY_7VLzf7YfIdHLA3HrOeE828fJSJXRuSCi1PipyYoi48nsiI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=bPqufELeVo_SvQKgcpjhcg&oh=00_AfgUk0SvUwKPSOuPkCgi3Py6qU0dfQpP_ID9d6IfosG4-g&oe=692FC588)
 - **Configure advanced features** (Optional):
   * **Countdown Support**: Send messages with format “Countdown: X” to activate countdown timer functionality
   * **Background Colors**: Use the `bgColor` parameter in network events to customize notification background colors
@@ -93,6 +93,6 @@ Once your hint text system is implemented, test it by:
 - **Multiplayer Testing**: If supporting multiple players, test that each player sees their assigned notifications
 - **Audio Testing**: Confirm opening and closing sound effects play correctly (if configured)
 
-![Hint Text Testing](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/547700371_817222420815711_4445440438816326094_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=WpmI06IPQCYQ7kNvwHp3J8e&_nc_oc=AdmVJAFKsqLpvCy2qfK8bVgENS8PAKY6PrZ_LDwFfd8X1UzU1nLbgsSrS9IdyCYEgOg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UbVYTYGgH91z02QilAgajQ&oh=00_AfhpdMAoYWLplPJzEoH-gTxlNwPZhNywatw5xPWaZ_tPrQ&oe=692EB695)
+![Hint Text Testing](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/547700371_817222420815711_4445440438816326094_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=WpmI06IPQCYQ7kNvwHp3J8e&_nc_oc=AdmVJAFKsqLpvCy2qfK8bVgENS8PAKY6PrZ_LDwFfd8X1UzU1nLbgsSrS9IdyCYEgOg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bPqufELeVo_SvQKgcpjhcg&oh=00_AfgaGKC5i2KxPNBPGUrdS4cUye1h-zRmZrq78IwGsYTWPA&oe=692F9795)
 
 With a complete hint text system in place, you can provide contextual guidance and reminders that adapt to different message lengths and player scenarios, improving the onboarding experience for new users in your world.

@@ -8,7 +8,7 @@ World analytics is the usage and performance data associated with a world in Met
 
 **Note**: To see the World Analytics dashboard for your world, it must have already had visitors for at least two days on the Production channel of Meta Horizon Worlds.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578340_512537547950868_1622790614547008646_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=U10LwgNwqXYQ7kNvwE3d8jI&_nc_oc=AdmOPCFnjFpGzRa68l27i38m8_XTiBdA7y8g2rZ-Y0EIwqrdXobprUWBh_umv3Y8tK0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JrBst4BGYnfh97LEtgMD_Q&oh=00_AfiwN3Fd_5u9mFC6NhAlwZ6FNZ-3ec9sxNru4PIlPpr9zg&oe=692EC28C)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578340_512537547950868_1622790614547008646_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=U10LwgNwqXYQ7kNvwE3d8jI&_nc_oc=AdmOPCFnjFpGzRa68l27i38m8_XTiBdA7y8g2rZ-Y0EIwqrdXobprUWBh_umv3Y8tK0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=eGiQgxnOXhHd3QoDoB7lvg&oh=00_Afg7NgH9gy531uxMxkBgCjGkJmAYGs38FjNUpFQtMchdAw&oe=692FA38C)
 
 ## How to use the World Analytics tool
 
@@ -59,44 +59,44 @@ The following metrics are reported over a specific date range.
 ### In-World Analytics
 
 | **Metric** | **Description** |
-| --------------- | --------------- |
-| Average actions | Average number of Events logged for this Action (among all visitors).|
-| Action prevalence | Percentage of World Visitors with 1+ Actions for this Action.|
-| Area visitation rate | Percentage of World Visitors that Visited the area at least 1 time.|
-| Average minutes spent | Average Time Spent in Minutes in the Area (among visited).|
-| P50 minutes spent | P50 (Median) Time Spent in Minutes in the Area (among visited).|
-| Game participation rate | Percentage of World Visitors that participated in the Game at least 1 time (started a round).|
-| Discovery prevalence | Percentage of World Visitors that Discovered the item at least 1 time.|
-| Average friction hit frequency | Average number of Times this Friction Hit per player (among 1+ experienced).|
-| Average friction caused frequency | Average number of Times this Friction was Caused per player (among 1+ caused).|
-| Friction hit player prevalence | Percentage of World Visitors that experienced the Friction Hit at least 1 time.|
-| Friction caused player prevalence | Percentage of World Visitors that caused the Friction at least 1 time.|
-| Game mode action rate | Percentage of World Visitors that experienced the game mode.|
-| Distribution of visitors’ level | Distribution (percentile buckets) of number of Visitors that reached each Level.|
-| Quest completion rate | Percentage of World Visitors that completed the Quest.|
-| Average quests completed | Average # of Distinct Quests Completed per Player (among players with 1+ Completions).|
-| Rewards earned participation rate | Percentage of World Visitors with Rewards Earned for this type.|
-| Average rewards earned | Average Amount of Rewards earned for this type (among players with 1+ Rewards Earned Action).|
-| Average rounds played | Average number of Distinct Rounds participated per round played player.|
-| Round participation rate | Percentage of World Visitors who started the Round at least 1 time.|
-| Stage participation rate | Percentage of World Visitors who started the Stage at least 1 time.|
-| Stage abandonment rate | Percentage of World Visitors who started the Stage at least 1 time but never finished the Stage before exiting.|
-| Section participation rate | Percentage of World Visitors who started the Section at least 1 time.|
-| Section abandonment rate | Percentage of World Visitors who started the Section at least 1 time but never finished the Section before exiting.|
-| Task participation rate | Percentage of World Visitors who started the Task at least 1 time.|
-| Task step participation rate | Percentage of World Visitors that participated in the Task Step.|
-| Total weapon equips | Total number of Weapon Equips for this weapon across all players (Volume).|
-| Total weapon grabs | Total number of Weapon Grabs for this weapon across all players (Volume).|
-| Total weapon releases | Total number of Weapon Releases for this weapon across all players (Volume).|
-| Weapon equip rate | Percentage of World Visitors that Equipped this weapon.|
-| Distribution of KO / Death Ratio | Distribution (percentile buckets) of within-player KOs/Deaths across all players.|
-| Total wearable equips | Total number of Wearable Equips for this wearable across all players (Volume).|
+| --- | --- |
+| Average actions | Average number of Events logged for this Action (among all visitors). |
+| Action prevalence | Percentage of World Visitors with 1+ Actions for this Action. |
+| Area visitation rate | Percentage of World Visitors that Visited the area at least 1 time. |
+| Average minutes spent | Average Time Spent in Minutes in the Area (among visited). |
+| P50 minutes spent | P50 (Median) Time Spent in Minutes in the Area (among visited). |
+| Game participation rate | Percentage of World Visitors that participated in the Game at least 1 time (started a round). |
+| Discovery prevalence | Percentage of World Visitors that Discovered the item at least 1 time. |
+| Average friction hit frequency | Average number of Times this Friction Hit per player (among 1+ experienced). |
+| Average friction caused frequency | Average number of Times this Friction was Caused per player (among 1+ caused). |
+| Friction hit player prevalence | Percentage of World Visitors that experienced the Friction Hit at least 1 time. |
+| Friction caused player prevalence | Percentage of World Visitors that caused the Friction at least 1 time. |
+| Game mode action rate | Percentage of World Visitors that experienced the game mode. |
+| Distribution of visitors’ level | Distribution (percentile buckets) of number of Visitors that reached each Level. |
+| Quest completion rate | Percentage of World Visitors that completed the Quest. |
+| Average quests completed | Average # of Distinct Quests Completed per Player (among players with 1+ Completions). |
+| Rewards earned participation rate | Percentage of World Visitors with Rewards Earned for this type. |
+| Average rewards earned | Average Amount of Rewards earned for this type (among players with 1+ Rewards Earned Action). |
+| Average rounds played | Average number of Distinct Rounds participated per round played player. |
+| Round participation rate | Percentage of World Visitors who started the Round at least 1 time. |
+| Stage participation rate | Percentage of World Visitors who started the Stage at least 1 time. |
+| Stage abandonment rate | Percentage of World Visitors who started the Stage at least 1 time but never finished the Stage before exiting. |
+| Section participation rate | Percentage of World Visitors who started the Section at least 1 time. |
+| Section abandonment rate | Percentage of World Visitors who started the Section at least 1 time but never finished the Section before exiting. |
+| Task participation rate | Percentage of World Visitors who started the Task at least 1 time. |
+| Task step participation rate | Percentage of World Visitors that participated in the Task Step. |
+| Total weapon equips | Total number of Weapon Equips for this weapon across all players (Volume). |
+| Total weapon grabs | Total number of Weapon Grabs for this weapon across all players (Volume). |
+| Total weapon releases | Total number of Weapon Releases for this weapon across all players (Volume). |
+| Weapon equip rate | Percentage of World Visitors that Equipped this weapon. |
+| Distribution of KO / Death Ratio | Distribution (percentile buckets) of within-player KOs/Deaths across all players. |
+| Total wearable equips | Total number of Wearable Equips for this wearable across all players (Volume). |
 | Total wearable releases | Total number of Wearable Releases for this wearable across all players (Volume). |
-| Wearable worn rate | Percentage World Visitors that equipped/donned the wearable.|
-| Average wearables equipped | Average Distinct number of Wearables Equipped across all players (among wearers).|
-| Average task minutes | The average number of minutes spent on a specific task by those who started it.|
-| P50 task minutes | The median number of minutes spent on a specific task by those who started it.|
-| Total task step minutes | The total number of minutes spent on a specific task step by all players.|
-| P50 task step minutes | The median number of minutes spent on a specific task step by those who started it.
-| P50 game mode minutes spent | The median number of minutes spent in a specific game mode by those who started it.|
-| Weapon usage | The percentage of time a weapon was used out of all available weapons.|
+| Wearable worn rate | Percentage World Visitors that equipped/donned the wearable. |
+| Average wearables equipped | Average Distinct number of Wearables Equipped across all players (among wearers). |
+| Average task minutes | The average number of minutes spent on a specific task by those who started it. |
+| P50 task minutes | The median number of minutes spent on a specific task by those who started it. |
+| Total task step minutes | The total number of minutes spent on a specific task step by all players. |
+| P50 task step minutes | The median number of minutes spent on a specific task step by those who started it. |
+| P50 game mode minutes spent | The median number of minutes spent in a specific game mode by those who started it. |
+| Weapon usage | The percentage of time a weapon was used out of all available weapons. |

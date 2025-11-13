@@ -6,7 +6,7 @@ Learn
 
 While its projectiles certainly do, the ProjectileLauncher gizmo has no physical presence in the world. It must be attached to the end of a physical entity. In this example world, it is a simple gun object.
 
-![Image of the basic Gun assembly in the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480806005_676362554901699_8187611971142006280_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bbAS0XEXG0cQ7kNvwFhYLrK&_nc_oc=AdnVNHpVu7PpXq7SVSeVKjKQtEKkyrzq_HXw_N8P2i8w_IdAMP39C3pvm_W_zVcefPU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=VqO-tcjMDnoWJJ0Q7ZaFTQ&oh=00_AfikgXTh0AR68ZKzNA4HoBjyZ2lVe3sLcTghVwh2LES77Q&oe=692EC325)
+![Image of the basic Gun assembly in the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480806005_676362554901699_8187611971142006280_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bbAS0XEXG0cQ7kNvwFhYLrK&_nc_oc=AdnVNHpVu7PpXq7SVSeVKjKQtEKkyrzq_HXw_N8P2i8w_IdAMP39C3pvm_W_zVcefPU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=X0dI6AQKXiES1aUmfC_PnQ&oh=00_AfhZhqy6J7h8bXoObp8J9VEJlBJFuU3CqOmhKzR_IMzsKw&oe=692FA425)
 
 ## Concept
 
@@ -27,7 +27,7 @@ Ok, let’s grab a gun! In the case of this simple gun, we must specify some pro
 
 To make the object group grabbable, you must set the following properties:
 
-![Image of properties in panel that can be used to configure grabbing and interaction](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462289693_563294036208552_1751847987411185253_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=4qoH58-3ubwQ7kNvwHYkqrk&_nc_oc=AdlBFFBJlHzvdfgNYLxt9Ch5fi3WA5UVyKpNTasXpwDFQ95gxfa0ZqayOmrGkZVQ1qY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VqO-tcjMDnoWJJ0Q7ZaFTQ&oh=00_Afgk2z1iLKVt6sGNEvTjNUeJAjSrxP54OZcwTYTWPc7YtQ&oe=692EA0C8)
+![Image of properties in panel that can be used to configure grabbing and interaction](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462289693_563294036208552_1751847987411185253_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=4qoH58-3ubwQ7kNvwHYkqrk&_nc_oc=AdlBFFBJlHzvdfgNYLxt9Ch5fi3WA5UVyKpNTasXpwDFQ95gxfa0ZqayOmrGkZVQ1qY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=X0dI6AQKXiES1aUmfC_PnQ&oh=00_AfhsU3d17Lq-zRKqQF8uC4Ik11aCr9nrwfTy84UBBO-QvQ&oe=692FBA08)
 
 * **Visible**: Not required, but it’s hard to grab something that you cannot see.
 * **Collidable**: Enable it.
@@ -43,7 +43,7 @@ The object group (a gun) can now be grabbed. Additional grab-related properties 
   + You can set them to be different per hand, even select a specific grab point while the character is aiming.
 * **Avatar pose**: This property sets the avatar’s arm position while holding the group.
 
-![Images of properties that are specific to grabbing](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480585693_676362571568364_1345016757614276474_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=71FsGMBc8akQ7kNvwGkCIu5&_nc_oc=AdlrNQ6d0kqpYWMeUOC1Eikcl3Z0SrCeM7ZuFEhu82Fgb-HI5tW6wxX_BP7qGVLvr1I&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VqO-tcjMDnoWJJ0Q7ZaFTQ&oh=00_Afghwbfl6M03ox_wFDnHfczjppAvM6ZpJzr2PVM1Ov10dg&oe=692EA5D2)
+![Images of properties that are specific to grabbing](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480585693_676362571568364_1345016757614276474_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=71FsGMBc8akQ7kNvwGkCIu5&_nc_oc=AdlrNQ6d0kqpYWMeUOC1Eikcl3Z0SrCeM7ZuFEhu82Fgb-HI5tW6wxX_BP7qGVLvr1I&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=X0dI6AQKXiES1aUmfC_PnQ&oh=00_AfiYYbmb7bzrIbbIBaGxUKrGlAp6iyxfHSdNWoU370tE2Q&oe=692FBF12)
 
 ## The Script: GunScript.ts
 

@@ -4,7 +4,7 @@ API reference
 
 # Callback type
 
-Represents a callback function interface for a [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player) object.
+Represents a callback function interface for a [Player](/hw-docs/Reference/core/Classes/Player.md) object.
 
 ## Signature
 

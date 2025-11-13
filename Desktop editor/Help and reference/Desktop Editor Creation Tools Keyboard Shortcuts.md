@@ -8,7 +8,7 @@ Learn
 
 You can access Keyboard Shortcuts from the desktop editor by clicking on the three-dot menu and selecting **Keyboard shortcuts**.
 
-![Image of Keyboard Shortcuts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/500105721_723378303533457_7443828204987334499_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3yoa-uXU5swQ7kNvwHUWYCX&_nc_oc=Adk4m_BUppXKg35Fk8Dy0gU9fLDKIOvAVUtWzdnwrGeHlNHj7P7HLe-oggZrGSAMdRo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FkLHetJZIAHNo1dbj4C3ww&oh=00_AfiP558etffsMj9tjWToWLNVtOAOWx-kKGTye6g0zvV0lw&oe=692E9D26)
+![Image of Keyboard Shortcuts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/500105721_723378303533457_7443828204987334499_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3yoa-uXU5swQ7kNvwHUWYCX&_nc_oc=Adk4m_BUppXKg35Fk8Dy0gU9fLDKIOvAVUtWzdnwrGeHlNHj7P7HLe-oggZrGSAMdRo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_x1GPn8klwmy1YsdSdJWfQ&oh=00_AfjkGuzGO_OQ9eCvwca5s8pia-5-HgQoG1_vlTglmZ6L8g&oe=692FB666)
 
 ## Build mode
 

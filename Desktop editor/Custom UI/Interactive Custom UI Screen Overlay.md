@@ -12,7 +12,7 @@ Interactive, blocking screen overlays are designed to be used for situations tha
 
 By design, interactive, blocking screen overlays prevent gameplay-related inputs in order to allow the player to focus fully on the UI, which means this feature is not suitable for creating customized on-screen controls.
 
-![interactive overlay.gif](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452910563_512510387953584_8404522134663938617_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=U3dua_D5PRYQ7kNvwE8lSjU&_nc_oc=AdlRKTkd6K4pqBSX546tun45teNjDSK6YaLxrItOOlSvSyS-Zcfez6_SJQbu9Y8Kotc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=4R6HypbQ_LIBD3F1nFVEaw&oh=00_Afh-EWh6-rxEvAm7cnWeXHs6oD0OFsOS7gj7ikaqIer2AA&oe=692E969D)
+![interactive overlay.gif](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452910563_512510387953584_8404522134663938617_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=U3dua_D5PRYQ7kNvwE8lSjU&_nc_oc=AdlRKTkd6K4pqBSX546tun45teNjDSK6YaLxrItOOlSvSyS-Zcfez6_SJQbu9Y8Kotc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oAptRavf7XuBozx-THd2Iw&oh=00_AfhPoAk0iUOfpIvPaNhoyWI64pqLd8reSzeHjB9uAKCrcQ&oe=692FAFDD)
 
 Interactive, non-blocking screen overlays are designed to be used as onscreen inputs that can be fully customized in size and appearance. Interactive, non-blocking screen overlays do not prevent gameplay-related inputs, and can be used in combination with the Custom Input API to create custom on-screen controls.
 
@@ -20,7 +20,7 @@ Interactive, non-blocking screen overlays are designed to be used as onscreen in
 
 When you set the Display mode property of a Custom UI panel to **Screen Overlay**, a property named Input mode appears. You can use this property to switch the mode of the panel from **No Interaction** to **Interactive, Blocking** or **Interactive, Non-Blocking**, which allows the overlay to receive input from the current input pointer (such as a mouse, touchscreen, or VR controller).
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469896061_606730451864910_612662587024664924_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=BE5kapTehmoQ7kNvwHu9vGx&_nc_oc=AdmSJs5VmTpQZVman5eKm5K_PcGcXJlZ0FI03628xDOaZ7QUtQcmp-cbAE4oG648ZzA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=4R6HypbQ_LIBD3F1nFVEaw&oh=00_AfipSgIND9YICLiUzXYzKi5VhT7-EU0wn33YcYv_kEijVQ&oe=692EC279)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469896061_606730451864910_612662587024664924_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=y9cl0J4smAEQ7kNvwEVn2lE&_nc_oc=AdmHbeA2vxhBYP8tu6DGJsWtXyCiYvD1CHRf4DR1lIQPYWjxjChuh-eWaWTYZkB31QE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oAptRavf7XuBozx-THd2Iw&oh=00_Afit_qwJb1c4TCQS6aJjfOBp2FYt4i295C5HZx13hypPKw&oe=692FA379)
 
 You can test the interaction by adding a Pressable component to your UI script.
 
@@ -81,7 +81,7 @@ When an interactive, non-blocking screen overlay is visible on the screen, the f
 
 ### Mobile
 
-* On-screen player controls are still visible (you can disable the default onscreen buttons for mobile players with the [Custom Input API](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/custom-input-api))
+* On-screen player controls are still visible (you can disable the default onscreen buttons for mobile players with the [Custom Input API](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md))
 * Player can interact with any panel marked as **Interactive, Non-Blocking** using touch input
 
 #### VR

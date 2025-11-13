@@ -4,7 +4,7 @@ Learn
 
 # Projectile launcher gizmo
 
-The projectile launcher [gizmo](/hw-docs/Gizmos/About%20gizmos.md) allows creators to launch objects or projectiles from a specific point in their world. With options to configure properties such as size and speed as well as implementing more customized launching mechanism through scripting, this gizmo can be used to create a variety of interactive and immersive experiences, such as [shooting games](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%201%20-%20Setup.md) and [obstacle courses](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%206%20-%20Room%20A%20The%20Magic%20Wand.md).
+The projectile launcher [gizmo](/hw-docs/Gizmos/About%20gizmos.md) allows creators to launch objects or projectiles from a specific point in their world. With options to configure properties such as size and speed as well as implementing more customized launching mechanism through scripting, this gizmo can be used to create a variety of interactive and immersive experiences, such as [shooting games](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%201%20-%20Setup.md) and [obstacle courses](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%206%20-%20Room%20A-%20The%20Magic%20Wand.md).
 
 ## Limitations
 
@@ -59,7 +59,7 @@ Now you’ve been introduced to the projectile launcher gizmo, further your lear
 
 * [Create your first world tutorial on projectile launcher gizmo](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%202.md#section-6-add-a-projectile-launcher-to-the-rifle)
 * [Simple shooting mechanics on projectile](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%202%20-%20Projectile.md)
-* [Tutorial worlds for web and mobile on the magic wand](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%206%20-%20Room%20A%20The%20Magic%20Wand.md#set-up-a-grabbable-object-that-shoots-projectiles)
+* [Tutorial worlds for web and mobile on the magic wand](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%206%20-%20Room%20A-%20The%20Magic%20Wand.md#set-up-a-grabbable-object-that-shoots-projectiles)
 * [Meta Horizon Worlds creator’s manual on projectile launcher gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#projectile-launcher-gizmo)
 * [Batting cage](/hw-docs/get-started/batting-cage-tutorial)
 * [TypeScript components, properties, and variables](/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md#gizmos).

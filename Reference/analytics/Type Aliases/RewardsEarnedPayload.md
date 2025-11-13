@@ -4,7 +4,7 @@ API reference
 
 # RewardsEarnedPayload type
 
-A payload sent by the `OnRewardsEarned` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnRewardsEarned` [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).
 
 ## Signature
 

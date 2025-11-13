@@ -25,7 +25,7 @@ To enable real-time metrics in Meta Horizon Worlds:
 - Open the PUI and open **Settings**.
 - Click on the **Utilities** tab and enable the utilities menu.
 
-  ![](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/39036683_537601795737638_1061973206288611017_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=-6G-oPaxJEoQ7kNvwFBTwCp&_nc_oc=AdkahtZKlPWYbVNm_AfIo-_OvaeLU9G0NYXkVAEqo4RYr9wNkzmToJgIk-BeB3rDG24&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfjUF3Q54WA9JsWTDBWP3g3tV52kkHD-JuJ8pfzfUT5nyg&oe=692EACBC)
+  ![](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/39036683_537601795737638_1061973206288611017_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=-6G-oPaxJEoQ7kNvwFBTwCp&_nc_oc=AdkahtZKlPWYbVNm_AfIo-_OvaeLU9G0NYXkVAEqo4RYr9wNkzmToJgIk-BeB3rDG24&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afilb1tzKmHAR7duHrtpOs3OBgERaC03IzweuQSbWNdYcg&oe=692FC5FC)
 - Once the wearable is open, tap the **Real-time metrics** button under Utilities to open the Real-time metrics panel.
 
-  ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75282161_485350857190282_7080255518188907201_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=tYitXX7Q5y8Q7kNvwGas50s&_nc_oc=AdkHSObcYTdHLbLLySLXfPAL5z2T0sSfXnYgBCh9ZR3YzrKc2L5iFI1h_iJZ-kWDXSo&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfhpO1pG8bWNy3aRna5NaJdL6nnStIu-bxBFIxkd2QjkAg&oe=692EA3D4)
+  ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75282161_485350857190282_7080255518188907201_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=xjXQaC8ND7kQ7kNvwE27TUF&_nc_oc=AdkSoPzpLxcomR8gx4GPDos8lDBMdrqp80dD_zr7tZ289uEWy7ZNvf3OiXgo34CZQRM&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfggRGnoIAptPAVMeHLh5W5euxa5Fg7_uW7ZL9yFin-3QA&oe=692FBD14)

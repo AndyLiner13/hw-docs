@@ -10,7 +10,7 @@ This guide covers essential animation APIs for NPCs in Horizon Worlds. Focus on 
 
 To begin using these features:
 
-- Navigate to **Build > Gizmo** and drag an NPC into your world scene.
+- Select the **NPC** icon from the toolbar and drag an NPC into your world scene.
 - Set your NPC’s **Body Type** to **Horizon Avatar**.
 
 `NpcPlayer` will then be available via `npc.tryGetPlayer()`.

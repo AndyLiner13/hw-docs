@@ -4,7 +4,7 @@ Learn
 
 # Station 0 - Setup
 
-![Custom UI Examples thumbnail](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475919694_646003171270971_7027298327403430135_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Hz-shLIdDj4Q7kNvwH0Jcz4&_nc_oc=AdnDuMxSTYC17OodAbNUVozs9uoR5_Ldi-frn8aZkIwIiqrN6od1SsureMs-oOj6Ukg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ufzSuMZrQgLBO0FFM0zKKA&oh=00_AfgqGhyiKWrheBIxEGczpGScYRP7eJvHYW55Ri_SFjt6sA&oe=692EC0AB)
+![Custom UI Examples thumbnail](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475919694_646003171270971_7027298327403430135_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=fyF-wo_88GkQ7kNvwGhy9Kn&_nc_oc=Adl4LWC2epjGRJjz_Zki6KXIl5UYtzIpH5SwdgkqGmZg6FsvoOUa1k54osme7r6A-a8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QxhtX3LzoR6E4_Yw-Fnscg&oh=00_AfgyhMsu_HG_Mh46QBdye5abeep7mSLKk6JV3VbXQtf5VQ&oe=692FA1AB)
 
 Important
 
@@ -31,7 +31,7 @@ In the desktop editor, click the three-dot menu in the toolbar. Enable the follo
 * Auto-start simulation on Preview entry
 * Auto-stop simulation on Preview exit
 
-![Preview Configuration panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481781953_667154415822513_6557476269878662057_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=9_1I7QbWSIcQ7kNvwE5arRk&_nc_oc=Adn8nCUMCF9EdoZb_QnPlSIDdPVApijgWDoTNRDq4uf0gWMET0vuZizcViGAOoY3Fkk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ufzSuMZrQgLBO0FFM0zKKA&oh=00_AfjO0ESIUKx3mHGi-91tWGxFEQUUNo5oZCIv5DPSnTZxEQ&oe=692EABFF)
+![Preview Configuration panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481781953_667154415822513_6557476269878662057_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=9_1I7QbWSIcQ7kNvwE5arRk&_nc_oc=Adn8nCUMCF9EdoZb_QnPlSIDdPVApijgWDoTNRDq4uf0gWMET0vuZizcViGAOoY3Fkk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QxhtX3LzoR6E4_Yw-Fnscg&oh=00_AfheowLcYYkJAzaJY5JyOogIaz4AdDd_pys05vTKlmLlpw&oe=692FC53F)
 
 ## Overview
 

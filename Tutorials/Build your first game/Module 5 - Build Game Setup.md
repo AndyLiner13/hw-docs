@@ -46,11 +46,11 @@ These props have been defined as `hz.Entity` type, which means that they are con
 
 Naming game objects makes it easier to keep track of the ones to use. So, to rename each one, select it in the main panel. In the Properties panel, you can rename it to `emerald 1`, `emerald 2`, etc.
 
-![Screenshot of Properties panel for selected gem in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489880280_692135323324422_7523126256559279548_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=tETmjYDufMQQ7kNvwHMl3Gx&_nc_oc=Adk0iHmDhKfBwV27wgVy1UuBZsO0LMCJX5_dwG69LiwJWwm66hKSiww6D2ipLrI_GFs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ogjCHf4D7BMhhig5sxBfEw&oh=00_AfhFX9oSC-asYK_WXRnrPS_L6uAka8NUb3o6GdNdaGllfg&oe=692EAF52)
+![Screenshot of Properties panel for selected gem in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489880280_692135323324422_7523126256559279548_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=tETmjYDufMQQ7kNvwHMl3Gx&_nc_oc=Adk0iHmDhKfBwV27wgVy1UuBZsO0LMCJX5_dwG69LiwJWwm66hKSiww6D2ipLrI_GFs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RRchgi-FUvJ9R0_2B6o_uQ&oh=00_AfgG1XIFCnBPWT72xWo7b4mh2i2yDF-ie8rxic4_npEu9Q&oe=692FC892)
 
 Now, select the Game Manager empty object. You can map the component property for each gem to its corresponding named emerald, as follows:
 
-![Screenshot of all five gems selected in Script properties](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/492371137_705021525369135_5887438574292242526_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=X5ZU4YRO49gQ7kNvwHdzFXW&_nc_oc=AdlnXqfMBifvyIvlzgENJWvrE8DI2q0DJcc6zoYBDLxr1Rr6BLgsT04uzZPWQ-FjGgQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ogjCHf4D7BMhhig5sxBfEw&oh=00_AfgoZBhM7KetmyXUXW4kVOuFhZJTfO8fv7Z5_yGiNltHPw&oe=692EB4E1)
+![Screenshot of all five gems selected in Script properties](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/492371137_705021525369135_5887438574292242526_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=LijL77xIFSUQ7kNvwGb-6WW&_nc_oc=AdkFMb9spjXRhf9DjWiSLp5naAHkzE2hp_YFcaau5VINcyu8KrH0AkWpLkBiwqYj_fo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RRchgi-FUvJ9R0_2B6o_uQ&oh=00_AfiU27UYItEQoif9ZGLQv4Rv7lz3X8X7MY9tBfvWzOkK6Q&oe=692F95E1)
 
 You’ve wired up the gems to internal properties in your code.
 
@@ -210,7 +210,7 @@ When we want our gems to appear, we move them from the `hiddenLocation` to their
 
 For the gem positions on the course, we could do something similar to the `hiddenLocation` solution. We could grab the current entity position, as shown below, and store that as a new variable on the `GemController` component.
 
-![Screenshot of Properties panel showing XYZ coordinates for gem's world position](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489513296_692135303324424_6237353531129912976_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=OXiXpjbtR30Q7kNvwHwJo0j&_nc_oc=AdklzfT0VB03Po-a33-RnoCDPPbU0jnLryHBL5obl1nWf6i1pUkOZR35VKMcFBNokEE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ogjCHf4D7BMhhig5sxBfEw&oh=00_Afgji8l4NPy_CXOMkCHsY6k-ZTjAMnHot4iNsj5yCxBRDA&oe=692EB9A8)
+![Screenshot of Properties panel showing XYZ coordinates for gem's world position](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489513296_692135303324424_6237353531129912976_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=OXiXpjbtR30Q7kNvwHwJo0j&_nc_oc=AdklzfT0VB03Po-a33-RnoCDPPbU0jnLryHBL5obl1nWf6i1pUkOZR35VKMcFBNokEE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RRchgi-FUvJ9R0_2B6o_uQ&oh=00_Afirr9_JtsWOzAlltrg_iH2sO_MZpTtznq7wbehc0DpzoQ&oe=692F9AA8)
 
 This would work just fine. However, this solution may be difficult to use later, if there are changes to the course or the gems. For each change of a gem’s location, you must retrieve gem’s coordinates from the desktop editor and overwrite the previous script variable. That gets tedious, even with only 5 gems in the game.
 
@@ -222,7 +222,7 @@ Let’s add a reference object for each gem to our world.
 - Place the empty objects next to the gems accordingly.
 - Rename each empty object in its Properties panel.
 
-![Screenshot of gem and its related empty reference object in desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489487322_692135399991081_8689336049908142159_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=SHqc-U4qXxcQ7kNvwEmzbPu&_nc_oc=AdnZzAYXQBY5641hPDb9Nfpl_afsghO_wrO2G8149Y_BRLzMROt7DRHD9pVRhBAkJMk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ogjCHf4D7BMhhig5sxBfEw&oh=00_AfhoLMJSWIfcYVgm3SmbFU6z9qaO9kT7HAQ3Z4uC59kCsw&oe=692E9605)
+![Screenshot of gem and its related empty reference object in desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489487322_692135399991081_8689336049908142159_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Quqy8_tplmAQ7kNvwG6OIhB&_nc_oc=AdkvX3xyQHgaRqYLw57owyuNtLzL_UOF-Pto_aEdnCNosAb-3HQ4JO9u6Ak-IsETx2o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RRchgi-FUvJ9R0_2B6o_uQ&oh=00_Afgzc_z2B4ZX3ESWjEE1dfhXKHu4Wu0_OF_yFN9xPXn2RQ&oe=692FAF45)
 
 We can connect our position reference objects to our gems through component props, which we learned to do earlier. In the code for the `GemController` component, update the `propsDefinition` with a new prop that requires an `Entity` as its value.
 
@@ -234,7 +234,7 @@ static propsDefinition = {
 
 Select the gem that has the `GemController` script attached, and set the prop value to the correct reference empty object:
 
-![Screenshot of attaching the GemController script in the Properties panel for a gem](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489738491_692135329991088_2745183880937428966_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=SLE_C1Hj2WsQ7kNvwEN2jDD&_nc_oc=AdkY5sXaTT8bGjc4S91qhQ-Xcnv7DeRzM_N9p0bALFnNXvJVlzvm3JudrqAwMt8Dqj0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ogjCHf4D7BMhhig5sxBfEw&oh=00_Afgm9hyRdqt7V16VoCk4k_9jhAPrfOrS3QJO8um5f5JGeg&oe=692EA2DA)
+![Screenshot of attaching the GemController script in the Properties panel for a gem](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489738491_692135329991088_2745183880937428966_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=cOrMGzlOlowQ7kNvwFZvVFK&_nc_oc=AdlXKF-QlomBFlglSpulo6h3rI-jFpNG46zX3j3TnYof_2vrROgQlW5jDnzN_W4W1XI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RRchgi-FUvJ9R0_2B6o_uQ&oh=00_AfgqL2DlFjIBg8f5axCqyjRufTNM4i0gLfOnapWwtAHVUg&oe=692FBC1A)
 
 For each of the 4 remaining gems:
 

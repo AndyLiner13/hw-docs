@@ -21,10 +21,10 @@ To enable and view the Real-time metrics panel:
 - Open the PUI and open **Settings**.
 - Click on the **Utilities** tab and enable the utilities menu.
 
-  ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75221331_412831071878343_528955629382787019_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qivP9KZ3PYMQ7kNvwHHeeVu&_nc_oc=AdlGfQZd6ZfZPlEwwZpk7VHc-8z7xzF63EeWJ6sGH3o0GMKB2NLsoipB825BBxgODiM&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfgDkza2z4F-BvXyY0oYhC1pOBOK72Y4cJR12Lj6XX4roQ&oe=692EBE9A)
+  ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75221331_412831071878343_528955629382787019_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qivP9KZ3PYMQ7kNvwHHeeVu&_nc_oc=AdlGfQZd6ZfZPlEwwZpk7VHc-8z7xzF63EeWJ6sGH3o0GMKB2NLsoipB825BBxgODiM&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfjxpJaUz9smA1DAoAqp4GyIBooF4G8C_IyrDW6SvwVXpg&oe=692F9F9A)
 - Once the wearable is open, tap the **Real-time metrics** button under **Utilities** to open the Real-time metrics panel.
 
-  ![](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974631_1067404328005233_3978220469242024765_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zCZTllFvoYoQ7kNvwHRvT7C&_nc_oc=AdmkAYEtBwkmvQGd5RJwLuQutARF_wCSqXbU6alFC-xIAhhr038HnDKw-EvNjEVJPfg&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afgc9WUNonH6SoTBI06zPYwXgvr01tInD7dtm__naNfQ8g&oe=692EAC93)
+  ![](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974631_1067404328005233_3978220469242024765_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zCZTllFvoYoQ7kNvwHRvT7C&_nc_oc=AdmkAYEtBwkmvQGd5RJwLuQutARF_wCSqXbU6alFC-xIAhhr038HnDKw-EvNjEVJPfg&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfgM9RQFfQkiSOopQEwxC2S3TRbaabDRgXQyWwOfjUxgYg&oe=692FC5D3)
 
 ## Real-time metrics settings
 
@@ -36,23 +36,23 @@ To change the position of the Real-time metrics panel, open the display settings
 
 Select a position from the **Position** drop-down in Display Settings. You may choose from **Top Left**, **Top Right**, **Bottom Left**, and **Bottom Right**. This snaps the Real-time performance metrics panel to one of those locations in your view.
 
-![](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974744_882757683924270_5831926352659266548_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=aYyheEdoQRUQ7kNvwGGyNix&_nc_oc=AdlcUlvAXx0qdUi1kjRH_Oy3juQA1CACmC_oeG9TKaK5Ptr2luULqvX4oSn5tuV8jBw&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfjlKjvM2VDFYy1wklvfnPz9HzK_18b08hkHiXnS5VeByw&oe=692EA054)
+![](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974744_882757683924270_5831926352659266548_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=aYyheEdoQRUQ7kNvwGGyNix&_nc_oc=AdlcUlvAXx0qdUi1kjRH_Oy3juQA1CACmC_oeG9TKaK5Ptr2luULqvX4oSn5tuV8jBw&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfhgDK9sLWFd9X_YaYebzTZB1FQy1gw5B_B1dYoUjxzCpw&oe=692FB994)
 
 ### Moving the panel by dragging
 
 You can grab the white bar below the Real-time performance metrics panel by using either trigger on your Quest controller. While holding down the trigger, you can move the panel by dragging it.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982480_2356130594723696_3190464533623185518_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=QDgU7TcbZAcQ7kNvwGv5NLD&_nc_oc=AdlPLEjS-IcBwZ7X2XDvLqFTwFDaXHF5i2nVotJJ4rdKDQkad3hN1Ol84c7ZIlwxS84&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afg-joZooo8Vz8BE6NCetE9IYqu0__Jbm-MNTmO4V4mLZg&oe=692EC46A)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982480_2356130594723696_3190464533623185518_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=aETtobvxszsQ7kNvwG9shjo&_nc_oc=AdmmNif0kzw6e5qL6LP9RRW_hJmmHLNAFVxVbS1FJJi8ZNu8O24nC6b8qATA17H6wtU&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfjYdqXWn06RL7LcW_reqoeGM-VmSc_RuB88c7nGrk-mTw&oe=692FA56A)
 
 ### Minimizing
 
 You can minimize the Real-time metrics panel by pressing the **Minimize** button to the right of the settings button.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908638_512511004620189_8010726655815462318_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=g7ybIDtrrOsQ7kNvwFE77XM&_nc_oc=AdmD72iYcEhpZta_Qc9-XDq_uG46uJiwbroS5zLv7_aM_npJwoiKYQHXwzB-MGmsxNA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=o9TuJlKQUhTOyiEkl7Zn4w&oh=00_AfgEqmmAE3XM_AlzPsblZYSspk4goL6j4JhBNYIHM03gxg&oe=692EC912)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908638_512511004620189_8010726655815462318_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=g7ybIDtrrOsQ7kNvwFE77XM&_nc_oc=AdmD72iYcEhpZta_Qc9-XDq_uG46uJiwbroS5zLv7_aM_npJwoiKYQHXwzB-MGmsxNA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_AfiWjCmy4aKbsgmlKmtuv_ziOYB9crjoNBbQyl5pwTznEw&oe=692FAA12)
 
 Once minimized, you can restore the panel by clicking the button again.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452878096_512511011286855_1703699843646074445_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Mw0kIoiIoCIQ7kNvwGF8mMi&_nc_oc=AdkVTopVK0pcuuaDbn-0k-RWSGt9-rs9jihnSsQGf9cRaO2IMePe5scuZs2yuioNrRk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=o9TuJlKQUhTOyiEkl7Zn4w&oh=00_AfjuuXpiqQJzbm7nidQdyN2Ksw1gxD0IPT_aUd8b5In7rg&oe=692EB127)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452878096_512511011286855_1703699843646074445_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Mw0kIoiIoCIQ7kNvwGF8mMi&_nc_oc=AdkVTopVK0pcuuaDbn-0k-RWSGt9-rs9jihnSsQGf9cRaO2IMePe5scuZs2yuioNrRk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_AfjGAmRfjPX6I_goU_gL0CHFMia05VwvzdCaD553NRRmJA&oe=692FCA67)
 
 ## Real-time metrics graphs
 
@@ -60,7 +60,7 @@ Once minimized, you can restore the panel by clicking the button again.
 
 Press the **Settings button** on the Real-time metrics panel to open the display settings.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452533145_512511021286854_2123017630617824131_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=CFBv_rndVdIQ7kNvwHK36Le&_nc_oc=Adn0oB5Uoc2BXBt2Q9Q7OTxsGzrP6INgv8Ai6rMHXu4IUmrz0DvguGr1T2fwGp_rr8U&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=o9TuJlKQUhTOyiEkl7Zn4w&oh=00_Afgbo2c2xxhmebmfhKJgAMU25dJGZQCzckakjvOM1Vrupg&oe=692EC61A)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452533145_512511021286854_2123017630617824131_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=CFBv_rndVdIQ7kNvwHK36Le&_nc_oc=Adn0oB5Uoc2BXBt2Q9Q7OTxsGzrP6INgv8Ai6rMHXu4IUmrz0DvguGr1T2fwGp_rr8U&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_Afg3blu55C8o4PaoYRnQnUCazOQa9gUy6kW8IeBC5MlwrQ&oe=692FA71A)
 
 Under Graphs, there are checkboxes for the metrics that are available.
 
@@ -70,7 +70,7 @@ To add a metric to the Real-time settings panel, open the display settings, hove
 
 If you attempt to select too many metrics, you receive a notification informing you that you have reached the maximum number of metrics that can be viewed at once. In order to add more metrics, you must first deselect one or more currently displayed metrics using the same process you used to select them.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031328_1099726101568625_685785638073979096_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=762WqSOsyaoQ7kNvwH-5GQs&_nc_oc=Admv4oPsAep9_6jXc3QApovA3em-x5P0lkD87NXGE2EJijwj_qkFwXLvAEuLBGjkLrQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfiaS3vU1Jtt37IeFPZwI2dH5ck5gxep7gybX5Wz6xSQ8Q&oe=692E9D4B)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031328_1099726101568625_685785638073979096_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=762WqSOsyaoQ7kNvwH-5GQs&_nc_oc=Admv4oPsAep9_6jXc3QApovA3em-x5P0lkD87NXGE2EJijwj_qkFwXLvAEuLBGjkLrQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfhGYjeH8bkxfM6nqyH1B-9JU3qB0TqlaAhQy7hCYBG58g&oe=692FB68B)
 
 ### Changing metric targets
 
@@ -78,15 +78,15 @@ You can set metric targets to signal you when they exceed the desired target. Wh
 
 To set a metric target, enter the target value into that metric’s **Target** field in the display settings.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751583_512511007953522_2305521818675487697_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=0SHvCv8sF7IQ7kNvwGyKcRs&_nc_oc=Adlyl22JXhI6WZeFMmjt_966ueH2QI0EbQnpIcinYzSrkhdM1CQZJ1oKs6KDzTyYfSc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=o9TuJlKQUhTOyiEkl7Zn4w&oh=00_Afgj1E9ZtEhlZH_iOZxFoWPyOHhq6UObxbrW7ybD9Tt1Hw&oe=692EB1AA)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751583_512511007953522_2305521818675487697_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=r0tUx63uyi0Q7kNvwGxOcHp&_nc_oc=AdnFG_P_AjTibwlKsTIyoBXqhUU3l8l67KG8xyf2UHg70-8SHmE_M4GSZbAvv5BITOY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_Afi7MFjztGPDVWlrbZxFtvJk5am41OOwlV7YUVK_GJsjmg&oe=692FCAEA)
 
 In this example, the GPU target is lowered to 2.0 milliseconds, which causes it to become highlighted red in the Real-time metrics panel for as long as the average GPU is over the new target.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452969475_512510964620193_4730754506581568060_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=3Ak0sZcVoaYQ7kNvwEgZF6g&_nc_oc=AdkDVGCBgz0GlfzeCmoAIh3UpB2jOtC1i7vEG9Ik74K77K26IRDFC2dFKmyEjrh7V4E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=o9TuJlKQUhTOyiEkl7Zn4w&oh=00_Afi4fSJWBhh9gC7q9MCukMwpCHJRstTk6bCXuQm8ICQRPg&oe=692EB614)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452969475_512510964620193_4730754506581568060_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=3Ak0sZcVoaYQ7kNvwEgZF6g&_nc_oc=AdkDVGCBgz0GlfzeCmoAIh3UpB2jOtC1i7vEG9Ik74K77K26IRDFC2dFKmyEjrh7V4E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_Afjb9ugkZv86zrY2SfBMs-OmpOOC1lsexW21novi3RLDSg&oe=692F9714)
 
 ## Real-time Metric Descriptions
 
-When [Frame Budget Boost](/hw-docs/save-optimize-and-publish/frame-budget-boost) is enabled, Application Space Warp (ASW) will adaptively turn on to boost performance as long as the world meets a minimum of 45 FPS without hitching (missing multiple frames). When ASW is active, the target will double for several metrics, including CPU and GPU. When not active, the target will return to its original value.
+When [Frame Budget Boost](/hw-docs/Save,%20optimize,%20and%20publish/Learn%20about%20Frame%20Budget%20Boost.md) is enabled, Application Space Warp (ASW) will adaptively turn on to boost performance as long as the world meets a minimum of 45 FPS without hitching (missing multiple frames). When ASW is active, the target will double for several metrics, including CPU and GPU. When not active, the target will return to its original value.
 
 | **Metric** | **Description** |
 | --- | --- |
@@ -102,7 +102,7 @@ When [Frame Budget Boost](/hw-docs/save-optimize-and-publish/frame-budget-boost)
 | Vertices | Records the total number of vertices rendered for a frame. A scene with models that have high number verts in them could negatively impact the GPU render time. |
 | WaitForGPU | This is the time it takes to synchronize the CPU and GPU each time a new frame is started. This metric can be negatively impacted if the GPU was given more work than it could process in a single frame. |
 | Memory | Measures amount of memory currently in use, in MB. This must not exceed the OS-defined limit of 6.25 GiB, so it would be useful to set a lower Target number in order to trigger an alert when you approach the limit. You can keep this metric in check by exercising [Memory Best Practices](/hw-docs/Performance/Performance%20best%20practices/Memory%20best%20practices.md). |
-| App Space Warp | [Frame Budget Boost](/hw-docs/save-optimize-and-publish/frame-budget-boost) must be enabled for ASW to adaptively turn on. A value of 0 means ASW is off, a value of 1 means AWS is on. When ASW is on, the number of milliseconds of work your world can do per-frame is nearly doubled. |
+| App Space Warp | [Frame Budget Boost](/hw-docs/Save,%20optimize,%20and%20publish/Learn%20about%20Frame%20Budget%20Boost.md) must be enabled for ASW to adaptively turn on. A value of 0 means ASW is off, a value of 1 means AWS is on. When ASW is on, the number of milliseconds of work your world can do per-frame is nearly doubled. |
 | Phase Sync | The additional wait time (in milliseconds) added in between frames to ensure your world runs smoothly. Phase sync time is a buffer that shrinks or expands to accommodate CPU load. As CPU time gets longer and closer to the target time to hit 72 FPS (13.8 milliseconds by default, higher if Application Space Warp is on), phase sync time gets shorter. A consistent and long phase sync time means your world is performing well and is able to generate frames faster than the device’s FPS. A phase sync time of 0 ms may indicate your world is running below 72 FPS. |
 
 ### Network metrics

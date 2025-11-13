@@ -17,4 +17,4 @@ export declare type ProfileToFollow = {
 
 ## References
 
-[SocialPlatformType](https://developers.meta.com/horizon-worlds/reference/2.0.0/social_socialplatformtype)
+[SocialPlatformType](/hw-docs/Reference/social/Enumerations/SocialPlatformType.md)

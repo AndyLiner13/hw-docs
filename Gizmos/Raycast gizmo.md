@@ -26,7 +26,7 @@ In the Meta Horizon Worlds desktop editor, do the following to access the raycas
 
 Whenever a collision event occurs when the ray is projected into the world, the information returned about the object depends on the configuration in **Properties**. You can filter collision events by configuring **Collide With**, or by adding an additional condition when using **Object Tagged**.
 
-![Raycast gizmo properties panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/491864717_702686125602675_3809255897420655060_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=q99vsLyh1XwQ7kNvwFs-dUQ&_nc_oc=AdlOG_SYh5LY9JSh5q5W7b8v-qB7KwGngIsGIckI0eddka9ARVcztGY24qiLYb2hwAg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5VIXtqvuCYX542JXoJWeJw&oh=00_Afi9ZZZfs7FDbX33_NyHJlggRbFkFr7Jm0jYpNdD3kaJGg&oe=692EBF57)
+![Raycast gizmo properties panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/491864717_702686125602675_3809255897420655060_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=q99vsLyh1XwQ7kNvwFs-dUQ&_nc_oc=AdlOG_SYh5LY9JSh5q5W7b8v-qB7KwGngIsGIckI0eddka9ARVcztGY24qiLYb2hwAg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nbNIh66yLkReHEeMeIwuIA&oh=00_Afg2lNxK5DCuYTIA-_wVSi5SkmsxsN7YQFvETbx7SE1xkg&oe=692FA057)
 
 In the **Collide With** field, you can choose between **Players**, **Object Tagged** or **Both**. Remember that whenever **Object Tagged** is chosen, the [tag](/hw-docs/Reference/core/Classes/Entity.md#properties) needs to be provided in the **Object Tag** field. The raycast will then return hits for objects with matching tags.
 

@@ -10,7 +10,7 @@ Custom UI controls is an extension of custom UI with the **Input Mode** set to *
 
 This input mode is primarily designed for creating a set of custom on-screen controls to work alongside or replace the built-in system controls on mobile.
 
-![custom_ui_controls_in_kaiju](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/465167356_579437347927554_7916055051400203269_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=QGrBP9j5-VQQ7kNvwHP7bDZ&_nc_oc=Adk7IgwSPhFEEs2tRZEakiqu3fqZkD7mAIt4INQP7XyqBoLoFXoBt2h15WF_2mJekpk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g7oTykBTJLWTq0X_WuM6ZQ&oh=00_AfhWHL4w5WAMplUsWTlwwrzxgsc4dz9rZzq65LJ0faveNg&oe=692E96B2)
+![custom_ui_controls_in_kaiju](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/465167356_579437347927554_7916055051400203269_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=ztkrykhprP4Q7kNvwEH1wTr&_nc_oc=AdmDOpWYjHCdAmNmW20Tev_twbGXWs2AMvsQsvS4j6mtSR7MZSyt1XeObXikgHLuYVU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EAKy8TqpadkaE9mQBW_QOw&oh=00_AfiH234coutNYX6tN5_GFXZPT8Pt4C-eVXH6eBGy4OAGdw&oe=692FAFF2)
 
 ## Getting started
 
@@ -63,7 +63,7 @@ initializeUI() {
 
 ### Triggering Player Input Actions
 
-We have provided two TypeScript functions to trigger the down / up input actions on the player controls. These functions support the same PlayerInputAction enum as the [Custom Input API](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/custom-input-api/).
+We have provided two TypeScript functions to trigger the down / up input actions on the player controls. These functions support the same PlayerInputAction enum as the [Custom Input API](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md).
 
 ```
 return Pressable({

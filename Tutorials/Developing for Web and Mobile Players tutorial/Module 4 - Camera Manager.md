@@ -17,7 +17,7 @@ Here’s a quick and codeless solution to set the camera to first-person or thir
 
 **Note**: This feature is not used in the tutorial world, but it’s an easy alternative if you don’t need much control over the camera.
 
-![Screenshot of SpawnPoint in the desktop editor with its Mobile Camera options displayed in the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/514250712_768253335712620_3814826725679467417_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Hw1Yu-6tz2cQ7kNvwEzPCkG&_nc_oc=Adk_eQQY9z3h0QP0xvWx84vlpS5QqYfDqeIwlrUJ16x9YpmgwG0OFqo--2FQSPKxUJY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Gtd2Y_wjB5erMYCNOztdpQ&oh=00_AfhWAeK83LXjzxY1Y_VkWoqIStQUjTzltxopE3w8T8ElFQ&oe=692EA50E)
+![Screenshot of SpawnPoint in the desktop editor with its Mobile Camera options displayed in the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/514250712_768253335712620_3814826725679467417_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Hw1Yu-6tz2cQ7kNvwEzPCkG&_nc_oc=Adk_eQQY9z3h0QP0xvWx84vlpS5QqYfDqeIwlrUJ16x9YpmgwG0OFqo--2FQSPKxUJY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FntQIz6mdnPh1vlg3aGuiA&oh=00_Afh9bQ5fBsCR3UuMfdjWrqCza2CXRyqirRx3nkjmnsYxMQ&oe=692FBE4E)
 
 Using this property, you can set the camera mode to first-person or third-person for all web or mobile players who enter through this Spawn Point; VR players are unaffected. For example, you might want a default first-person camera for your world, or you can choose to use a third-person camera in a lobby and then teleport players to another Spawn Point in the game area, where a first-person camera is applied.
 
@@ -50,7 +50,7 @@ The Camera API must be executed in **Local Execution Mode**, as it functions on 
 - Select the sysCameraManagerLocal script in the Scripts panel.
 - From the context menu, select **Script Execution Mode > Local**:
 
-![Screenshot of sysCameraManagerLocal script entity with its execution mode property set to Local](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452893696_512509444620345_7587776301210796610_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=EfNTUMWmzDIQ7kNvwG1sUaj&_nc_oc=Adl63sQbU6gmVRbPOXJYCdMou5vw---PZKg5Ihdupuo9-BrZF1OoRjIcn4neXTqbfwc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Gtd2Y_wjB5erMYCNOztdpQ&oh=00_Afi_WRdMBdbzFULM0DXE4KuPNO04Rd3LDq46aqJQFqPPTg&oe=692E9BB0)
+![Screenshot of sysCameraManagerLocal script entity with its execution mode property set to Local](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452893696_512509444620345_7587776301210796610_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=aKSZbuau8-MQ7kNvwGqBSHS&_nc_oc=Adk5UZ8nxsCZb6OiaPhn8OjuHU51uiKw2no7nlGGuwBjT7iw20-tGR1Amkf8es7fri4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FntQIz6mdnPh1vlg3aGuiA&oh=00_AfiDVL36WItggXOcSU-dOQ_16V0i6D2GqkQuoK3AvTDcTQ&oe=692FB4F0)
 
 ## Transfer ownership to player
 
@@ -86,7 +86,7 @@ The Camera API must be enabled for use in your world.
 - Enable **horizon/camera**.
 - Click **Apply** to save the changes:
 
-![Screenshot of Script Settings window in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653578_512509441287012_2887539037354353026_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=hSCpHQj9N84Q7kNvwHjjfkw&_nc_oc=Admnd5XfSsseHXZZFPHfFjl6C9wwXNYSuJM5ohGgC6qJg8zgfZl3L0fXHKNDxYdce50&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Gtd2Y_wjB5erMYCNOztdpQ&oh=00_AfgZd4dsTlDpcDnCO45gPXwKEGfSmJL5OgHmZJCDyNn9fQ&oe=692EBE65)
+![Screenshot of Script Settings window in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653578_512509441287012_2887539037354353026_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=hSCpHQj9N84Q7kNvwHjjfkw&_nc_oc=Admnd5XfSsseHXZZFPHfFjl6C9wwXNYSuJM5ohGgC6qJg8zgfZl3L0fXHKNDxYdce50&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FntQIz6mdnPh1vlg3aGuiA&oh=00_AfiO9S6vH5hC7Qe-RSsMB8LCKCAwmrnYQq7zqXXX-lrr7Q&oe=692F9F65)
 
 ## Modify sysCameraManagerLocal
 
@@ -351,7 +351,7 @@ The Camera Managers are ready to be used by the Player Manager, which transfers 
 
 Since we need one Camera Manager per player, you should verify that you have the same number of Camera Managers as the maximum number of players permitted in your world (one Camera per one Player):
 
-![Screenshot of the CameraManager entities in the Hierarchy panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452751583_512509457953677_5988127410668545520_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=y6Nftc6gv3IQ7kNvwHnxQok&_nc_oc=AdlgR-UprdeudshPYhE7M4G9FS58eGEwEMJLYgmB5wcSvayRrfTsYB6Uh5YxDf9x4oA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Gtd2Y_wjB5erMYCNOztdpQ&oh=00_AfjmLiEK4kvTs_kGhWdbVynUzGxO0iHYrt41aVoA_943KQ&oe=692E92C8)
+![Screenshot of the CameraManager entities in the Hierarchy panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452751583_512509457953677_5988127410668545520_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=y6Nftc6gv3IQ7kNvwHnxQok&_nc_oc=AdlgR-UprdeudshPYhE7M4G9FS58eGEwEMJLYgmB5wcSvayRrfTsYB6Uh5YxDf9x4oA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FntQIz6mdnPh1vlg3aGuiA&oh=00_AfiE9usOQka23y5DemFMIHOjVTWqvIkRFs3tSf_AGBNH1A&oe=692FAC08)
 
 #### Test:
 
@@ -361,7 +361,7 @@ We can’t test this system yet, as we need to assign a camera manager to each p
 
 #### Docs:
 
-* [Using the Camera API for Web and Mobile](/hw-docs/create-for-web-and-mobile/typescript-apis-for-mobile/camera/)
+* [Using the Camera API for Web and Mobile](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
 * [How to set the player’s camera](/hw-docs/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
 * [Local Script for Mobile and Web](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
 

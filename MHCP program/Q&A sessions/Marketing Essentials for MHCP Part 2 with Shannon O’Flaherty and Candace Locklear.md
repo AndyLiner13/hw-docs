@@ -4,7 +4,7 @@ Learn
 
 # Marketing Essentials for MHCP Part 2 with Shannon O’Flaherty and Candace Locklear
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1184936316096082_4855001440585577500_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=AbG_z2UoCJ0Q7kNvwE0xgWX&_nc_oc=Adk2cV642W4bZQtDT_Rr_7_8P-J1xxldxhoUZNOeOzeJgf1rULC3xXgcpBcLEqnlops&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=BXlF1zP87LfDEvIZNN5OvA&oh=00_Afh5Kgwj8-OPHuBudgqF1GeHe4WOGg-P2wNKo__Kcv3niA&oe=691A58B6)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1184936316096082_4855001440585577500_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=AbG_z2UoCJ0Q7kNvwE0xgWX&_nc_oc=Adk2cV642W4bZQtDT_Rr_7_8P-J1xxldxhoUZNOeOzeJgf1rULC3xXgcpBcLEqnlops&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=u-aQzXLxgoLR4uUC2iBgwQ&oh=00_Afiy3nUMs_Sna0OFZXNlbEKFT5Ns5FwBBCixVHwrUYVOwg&oe=691B39B6)
 
 [Click here](/hw-docs/MHCP%20program/Q&A%20sessions/Marketing%20Essentials%20for%20MHCP%20Part%201%20with%20Shannon%20O’Flaherty%20and%20Candace%20Locklear.md) to view **part 1** of this series.
 

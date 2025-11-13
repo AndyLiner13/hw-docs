@@ -12,7 +12,7 @@ In order to publish a world, you’ll need to provide pertinent information such
 - Open the Creator Menu.
 - Tap the **Publish** icon in the dock.
 - Enter your information into the **Publish World** window, including:
-  ![Screenshot shows the desktop editor window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/464911860_578674298003859_6982466518147434724_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=AXykvacVJKoQ7kNvwHjODlU&_nc_oc=Adkik5sWm4m5HgXqolNX4KkGNeKglVCbshqFBFZcDrGDHhN78UmSFZOH_KyW1ji7WnE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=C6rTL6WdHUnl2IyzuoG3AQ&oh=00_AfhRJu1j3KkHnQCpL3lg-LGo7KFCoiBWEVPhqLWwXWKAHg&oe=692EBFF6)
+  ![Screenshot shows the desktop editor window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/464911860_578674298003859_6982466518147434724_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=AXykvacVJKoQ7kNvwHjODlU&_nc_oc=Adkik5sWm4m5HgXqolNX4KkGNeKglVCbshqFBFZcDrGDHhN78UmSFZOH_KyW1ji7WnE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=nOj6BwaeLRu0JilA4jfC-w&oh=00_AfiIBJ4Ahnz1al7M2-s8FgdZ_0PUBLjb7Dd_6jZ7923nKQ&oe=692FA0F6)
 - **Name:** Enter a name for your world.
 - **Description:** Provide a short, punchy description of what makes your world special.
 - **World Rating:** Click on the ‘Get rating’ button to take a survey to determine your world rating. For more information on world ratings, [click here.](/hw-docs/MHCP%20program/FAQ/World%20Ratings%20FAQs.md)
@@ -32,7 +32,7 @@ Published worlds will appear in the ‘Places’ section of your personal menu. 
 ## About the world ratings survey
 
 * You are required to complete the world ratings survey when you first publish a world and it should be retaken whenever you make significant changes to a world’s content.
-* Only those above 18 can publish worlds that contain content covered by the [Horizon Mature Worlds Policy](/hw-docs/save-optimize-and-publish/restrictions-to-worlds-in-horizon).
+* Only those above 18 can publish worlds that contain content covered by the [Horizon Mature Worlds Policy](/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md).
 * If the survey doesn’t account for certain aspects of your world content that affect its rating, we may change the rating, unpublish, or remove the world.
 
 ## To unpublish a world:

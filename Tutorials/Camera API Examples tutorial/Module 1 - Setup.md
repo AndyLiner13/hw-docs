@@ -4,7 +4,7 @@ Learn
 
 # Module 1 - Setup
 
-![Thumbnail of Camera API Examples World](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473631823_632772149260740_360189898514370635_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=-RjZG1wjoo0Q7kNvwHlV_39&_nc_oc=AdkI9XpkMlY7btFAO_PL9fbHmoGtAzZtNgYVDwTNahkkIDrbSamyJzoxG5zXlvDE5mw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=BjZ95bl8CLqHiRPDjp0Wlw&oh=00_Afj8lhWuARg--ZU1fONHuGxerXI-85-LIBe12WaWe6ropA&oe=692EB00D)
+![Thumbnail of Camera API Examples World](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473631823_632772149260740_360189898514370635_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=-RjZG1wjoo0Q7kNvwHlV_39&_nc_oc=AdkI9XpkMlY7btFAO_PL9fbHmoGtAzZtNgYVDwTNahkkIDrbSamyJzoxG5zXlvDE5mw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MqLrZv3SKVLx8PSoDE9gaw&oh=00_Afi5iQA-7CoOkGPD-l7M1VZ7_oZGXFAt093xWgo-Cjmxwg&oe=692FC94D)
 
 Important
 
@@ -87,7 +87,7 @@ As part of the development process, you must test your work on each supported pl
 
 **Note**: For this tutorial world, the desktop editor is a reasonable testbed for the basics of camera operations. However, mobile has some differences that need to be included as part of your testing. For example, this world includes a camera reset button, which appears in the mobile screen only. Mobile experiences should be tested as well.
 
-For more information, see [How to Test on Web and Mobile](/hw-docs/create-for-web-and-mobile/how-to-test-on-web-and-mobile).
+For more information, see [How to Test on Web and Mobile](/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md).
 
 ### Tutorial modules
 

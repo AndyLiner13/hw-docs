@@ -17,7 +17,7 @@ Creating and revising the visual design of your NPC is easy through the web inte
 * Position the gizmo in the desired location within your world.
 * Select the gizmo. In the Properties panel, click **Edit avatar**.
 
-![Image of the Village Elder NPC in Edit Mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480333795_656120583592563_4422663695424655297_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yq1PvWLg46UQ7kNvwF8NdV5&_nc_oc=AdnX9Xk1GEA8Duh23y91gyTTunenEpotYaXb2koif-yZfS_WSbQLgmXKvumf1dthzGM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=IZtj8qlTftGgARvU7dxiEQ&oh=00_AfiCP_izp-7R6Mq3I6sHApODCGpmI2Wz7EQjL520wygYiw&oe=692EB30D)
+![Image of the Village Elder NPC in Edit Mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480333795_656120583592563_4422663695424655297_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yq1PvWLg46UQ7kNvwF8NdV5&_nc_oc=AdnX9Xk1GEA8Duh23y91gyTTunenEpotYaXb2koif-yZfS_WSbQLgmXKvumf1dthzGM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cM4oluu9td0acomhC7EJYg&oh=00_AfgUt0O2zbL2T3E8Ucq0BgMPEQzwmG9w3odvBYKNmDnVTA&oe=692FCC4D)
 
 **Tips**:
 

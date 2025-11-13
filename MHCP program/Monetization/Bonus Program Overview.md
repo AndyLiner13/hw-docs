@@ -57,9 +57,9 @@ These are one-time rewards that can be earned as creators grow their mobile worl
 * 200 mobile monthly active users and 200 hrs monthly mobile time spent = $1,000 reward
 * 200 mobile monthly active users and 350 hrs monthly mobile time spent = $1,000 reward
 * **How to reach new milestones**: The best way for a creator to reach the next milestone is by increasing the number of visitors and eligible time spent in their worlds by people on mobile devices. If you need help creating engaging mobile experiences, there are few creator focus sessions available on this topic:
-* [Learn how to adapt your worlds for mobile devices](/hw-docs/MHCP%20program/Focus%20sessions/MHCP%20Session%20Deep%20Dive%20Meta%20Horizon%20Worlds%20with%20Andy%20Sargeant.md)
-* [Crash course on designing mobile-first worlds](/hw-docs/MHCP%20program/Focus%20sessions/Mobile%20worlds%20crash%20course,%20part%201%20Getting%20Started.md)
-* [Viral games ideas for mobile worlds](/hw-docs/MHCP%20program/Focus%20sessions/Mobile%20worlds%20crash%20course,%20part%202%20Viral%20game%20ideas.md)
+* [Learn how to adapt your worlds for mobile devices](/hw-docs/MHCP%20program/Focus%20sessions/MHCP%20Session-%20Deep%20Dive-%20Meta%20Horizon%20Worlds%20with%20Andy%20Sargeant.md)
+* [Crash course on designing mobile-first worlds](/hw-docs/MHCP%20program/Focus%20sessions/Mobile%20worlds%20crash%20course,%20part%201-%20Getting%20Started.md)
+* [Viral games ideas for mobile worlds](/hw-docs/MHCP%20program/Focus%20sessions/Mobile%20worlds%20crash%20course,%20part%202-%20Viral%20game%20ideas.md)
 * [Proven engagement strategies to expand your audience](/hw-docs/mhcp-program/focus-sessions/scaling-success-on-mobile/)
 
 ## Bonus enrollment
@@ -70,4 +70,4 @@ Enrollment is available via the **Creator Program > Bonuses** tab of the [Develo
 
 Sign ups typically close about 7 days before the end of the month, as sign ups for the next month open. All monthly bonus earnings will be paid to your payout account within 60 days following the end of each bonus period.
 
-Creators participating in any monetization programs, including in-world purchases and creator bonuses, are required to follow all Meta Horizon Worlds policies in order to be eligible for earnings, including the [Code of Conduct for Virtual Experiences Policy](https://www.meta.com/legal/quest/code-of-conduct-for-virtual-experiences/) and [Meta Horizon Worlds Content Guidelines](/hw-docs/save-optimize-and-publish/restrictions-to-worlds-in-horizon).
+Creators participating in any monetization programs, including in-world purchases and creator bonuses, are required to follow all Meta Horizon Worlds policies in order to be eligible for earnings, including the [Code of Conduct for Virtual Experiences Policy](https://www.meta.com/legal/quest/code-of-conduct-for-virtual-experiences/) and [Meta Horizon Worlds Content Guidelines](/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md).

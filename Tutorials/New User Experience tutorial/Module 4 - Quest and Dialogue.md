@@ -54,7 +54,7 @@ Begin by establishing the foundational quest management system:
 
 - **Create the quest container hierarchy**: Navigate to your world hierarchy and create a empty object for the **QuestsContainer** entity. This will serve as the parent for all quest entities and the central hub for quest management.
 
-  ![Quests container entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/547700371_817222417482378_4514483849404297810_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=1SyTAdK1ywsQ7kNvwEc1flB&_nc_oc=AdmOVyZ9ReXeQraXZtkUyqLc6YfMrRe3uSZzE77z_vWXqK03iwSgnxOSHDz1bJf76_o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=H9tGU4XsfJM-mOMtH3d1rg&oh=00_AfhUEx326aYWgAGF0GOL9A5xR-bpnhptJrwxwnVmzlQOIQ&oe=692EAE5D)
+  ![Quests container entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/547700371_817222417482378_4514483849404297810_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=1SyTAdK1ywsQ7kNvwEc1flB&_nc_oc=AdmOVyZ9ReXeQraXZtkUyqLc6YfMrRe3uSZzE77z_vWXqK03iwSgnxOSHDz1bJf76_o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=32MMwUA0vjbGbXL-j-kQrQ&oh=00_AfgyBGmCe_j5HdxlmrTEWVtzXafpk1OVUOqz2zKxC6d7CA&oe=692FC79D)
 - **Setup quest management**: In the **Properties** panel for your QuestsContainer, attach the `QuestManager.ts` script. Configure the quest blocking behavior and timing for new quest indicators. This script manages all quest tracking, player progress, and integration with other systems.
 - **Define individual quests**: Create quest entities as children of the QuestsContainer. For each quest, attach the `Quest.ts` script and configure properties including:
 
@@ -80,7 +80,7 @@ Connect your quests to interactive NPCs that provide context and story:
     + **EndsDialogue**: Set to true if this option should end the conversation
   * **Multiple choice support**: You can create up to 3 response options per dialogue node by duplicating NodeOption objects
 
-  ![Dialogue tree structure](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549700973_817222424149044_1566131082991758206_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=KmS_AyKBxScQ7kNvwFUvb2n&_nc_oc=AdmC1W5FMzXzfXfBxOJ0hl0Uz4z1nIlzQeRF_IY7y-POcT6pRMnoiCSRT2Pf0wDq9UQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=H9tGU4XsfJM-mOMtH3d1rg&oh=00_AfgUiXF0k4kiHcsCWElH_SXyh5IkJlBg4nnPEaM4cOXDvg&oe=692EB155)
+  ![Dialogue tree structure](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549700973_817222424149044_1566131082991758206_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=KmS_AyKBxScQ7kNvwFUvb2n&_nc_oc=AdmC1W5FMzXzfXfBxOJ0hl0Uz4z1nIlzQeRF_IY7y-POcT6pRMnoiCSRT2Pf0wDq9UQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=32MMwUA0vjbGbXL-j-kQrQ&oh=00_Afi4a2Jj5OpzaTYiE90CNZl2ZWSoAExVaBrsIhk2akouNA&oe=692FCA95)
 - **Configure dialogue UI system**: Set up the visual presentation by attaching the `DialogueTreeCustomUI.ts` script to handle dialogue display. This script automatically:
   * Manages text display for character names and dialogue content
   * Shows up to 3 player response options
@@ -102,7 +102,7 @@ Implement waypoint indicators to guide players to quest locations:
   * **Player Ownership**: Ensure per-player waypoint visibility
   * **Event Integration**: Connect to quest system for automatic activation
 
-  ![Waypoint setup](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/547833423_817222427482377_5929807082470367194_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=P-kZrOdO1Q4Q7kNvwFoR9eE&_nc_oc=Adl7leENgjYfC3yxUdmGtqiQkpYYvI_6MaReYGP0hUFTMfbeX37NuE3UUj-Mo-3Qy4Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=H9tGU4XsfJM-mOMtH3d1rg&oh=00_Afi2adiw69TxtVqUIuG1qYZlMokTNKbug13Du2YKQ6b5IA&oe=692E9A33)
+  ![Waypoint setup](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/547833423_817222427482377_5929807082470367194_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=FM6iVRrD5hQQ7kNvwGDjyXo&_nc_oc=AdmUGIeG00fuvsllBjiEOeuC-mzE7Sq_I7JN4cgWSMtpy1adNWfxFquQEnoJ8jsDG9o&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=32MMwUA0vjbGbXL-j-kQrQ&oh=00_AfgBKhzLRaHGFL4UWj7pjBErNdT34nPierjBPN9jXEG11A&oe=692FB373)
 - **Configure waypoint behavior**: Set up waypoint parameters including:
   * **isOutsideWaypoint**: Enable scaling for outdoor locations
   * **waypointVFX**: Customize visual appearance (exclamation points, arrows, halos)
@@ -132,7 +132,7 @@ Verify the complete quest experience works seamlessly:
   * **Completion**: Achieve objectives and observe completion feedback
   * **Progression**: Verify quest state updates and system integration
 
-  ![Quest flow testing](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/548210265_817222430815710_571828785668804832_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=XO9bBqOXbfcQ7kNvwE47IZy&_nc_oc=Adnrt0VRA8lfySxSbwlLxX6WI6XYlhJUOGkWW7XzauxcYPwpupHRnFssYlYY2uuO-Pw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=H9tGU4XsfJM-mOMtH3d1rg&oh=00_AfiJqxb_GUeTxTWYirfZ3eVFMeOA2ru2a18ZAiMWvxLGjw&oe=692EB0A1)
+  ![Quest flow testing](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/548210265_817222430815710_571828785668804832_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=XO9bBqOXbfcQ7kNvwE47IZy&_nc_oc=Adnrt0VRA8lfySxSbwlLxX6WI6XYlhJUOGkWW7XzauxcYPwpupHRnFssYlYY2uuO-Pw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=32MMwUA0vjbGbXL-j-kQrQ&oh=00_AfgNp62a7CDuboCL54KwRjamucLrE4BJ1zgzXQRYAhTPJg&oe=692FC9E1)
 - **Validate integration points**: Ensure all systems work together:
   * Dialogue completion triggers quest starts
   * Quest activation spawns waypoints

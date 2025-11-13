@@ -14,7 +14,7 @@ export declare class TurboDebug
 
 ## Remarks
 
-To use Turbo debugging, you must enable it by setting the [ITurboSettings.debug](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#debug) property to `true`.
+To use Turbo debugging, you must enable it by setting the [ITurboSettings.debug](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#debug) property to `true`.
 
 ## Properties
 

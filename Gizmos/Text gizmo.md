@@ -17,7 +17,7 @@ The total length of the text, including all markup, [is limited](https://github.
 
 ## Optimization
 
-In order for worlds to be published, certain areas of your world need to [stay below 100% capacity](/hw-docs/save-optimize-and-publish/capacity-limits-in-horizon). Text gizmo is one such area of simulation and animation that needs your attention. Learn more about optimization in [Memory limits and performance metrics](/hw-docs/save-optimize-and-publish/memory-limits-horizon-worlds).
+In order for worlds to be published, certain areas of your world need to [stay below 100% capacity](/hw-docs/Save,%20optimize,%20and%20publish/Creator%20capacity%20limits.md). Text gizmo is one such area of simulation and animation that needs your attention. Learn more about optimization in [Memory limits and performance metrics](/hw-docs/Save,%20optimize,%20and%20publish/Memory%20limits%20and%20performance%20metrics.md).
 
 ## Access the text gizmo
 

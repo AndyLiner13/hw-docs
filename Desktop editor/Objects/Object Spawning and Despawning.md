@@ -59,9 +59,9 @@ When a spawned object is no longer needed, you can then remove the object from t
 
 ### CodeBlocks
 
-![A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460204911_548705517667404_7824595070708973058_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=C2smhRFTN4YQ7kNvwHYx97r&_nc_oc=AdnFsVQ7CTGyYBjK0a-sM2KbIkJGF9RdT4TE0fOKLh5XYpdt1C8_2QIS_TzdQIItybw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-yCA5GZVcwixxV1NxqSbqA&oh=00_AfjbU5Punh40ZZPKF9Nq9Am7j-5PVpBadXcZivVb2hOVvQ&oe=692EB3A8)
+![A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460204911_548705517667404_7824595070708973058_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=C2smhRFTN4YQ7kNvwHYx97r&_nc_oc=AdnFsVQ7CTGyYBjK0a-sM2KbIkJGF9RdT4TE0fOKLh5XYpdt1C8_2QIS_TzdQIItybw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ocfSJ4QXDO9CF0tqS9ch0g&oh=00_AfiTg5Gre0u8PQF0vB4FWYQLqTRUphb70PZfEP8wGI6yDw&oe=692FCCE8)
 
-![A view of the CodeBlocks Editor with blocks to handle despawning assets.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460197256_548705514334071_4968040419667574195_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=L3A9KHlNdLQQ7kNvwHJgV0H&_nc_oc=AdlAtr0LLO1ZIfBa3cW2NUvMG4hHNZfcc7dbVNA8Kcn3fIoUxCiT508UbU4ERT1QFPk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-yCA5GZVcwixxV1NxqSbqA&oh=00_AfijbeL3umbMO919Xp2Q5A_t-hvUwvPx2BPmd-JMzVP32w&oe=692EC6E8)
+![A view of the CodeBlocks Editor with blocks to handle despawning assets.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460197256_548705514334071_4968040419667574195_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=M8OphpFZulIQ7kNvwGYrbKR&_nc_oc=AdlVO12kPtotJJXY9Lfr_urv4InsQoVHyNDmXLYl_aHV-PaSdCqPW4HM7Mu7YO8o8Hg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ocfSJ4QXDO9CF0tqS9ch0g&oh=00_Afjf1UgBWVG28nd9iiOnRaDL2CqhVn0bEGivFG_aQoKZMg&oe=692FA7E8)
 
 ### TypeScript
 

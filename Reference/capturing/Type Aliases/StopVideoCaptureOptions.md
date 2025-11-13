@@ -16,4 +16,4 @@ export declare type StopVideoCaptureOptions = {
 
 ## Remarks
 
-[DefaultStopVideoCaptureOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_defaultstopvideocaptureoptions) specifies the default options.
+[DefaultStopVideoCaptureOptions](/hw-docs/Reference/capturing/Variables/DefaultStopVideoCaptureOptions.md) specifies the default options.

@@ -14,17 +14,17 @@ Debugging view modes in desktop editor can help you debug your world. Its featur
 
 To open the view modes menu, select the view icon on the right side of the toolbar.
 
-![The debugging view mode icon](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485353085_677084098162878_564880857810169754_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=AW4esPIvLp4Q7kNvwG9NIB3&_nc_oc=AdmtJkIlPr0pOzxJOd5ek8PE5Vs24c-hxp1RlY6tMDJHfhG0rOoBL6kUMpXyQdicnjQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=7sxqud2WS_ANfjnlGC3FRg&oh=00_AfgvbX7LXVlK17GxUhxKW-gixwqjKjCMpB5rO-rtd-hXXA&oe=692EA1AB)
+![The debugging view mode icon](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485353085_677084098162878_564880857810169754_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=AW4esPIvLp4Q7kNvwG9NIB3&_nc_oc=AdmtJkIlPr0pOzxJOd5ek8PE5Vs24c-hxp1RlY6tMDJHfhG0rOoBL6kUMpXyQdicnjQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GIz6O7mJOw1jlA4aS2HFdw&oh=00_AfjPwX1U1ubIty6vUwZnBZppDTm6Zyz-kTbKx1T9QE6JRA&oe=692FBAEB)
 
 Hovering your cursor over each option reveals a description of the view mode. See [Available view modes](/hw-docs/view-modes-for-debugging#available-view-modes) for further details. After selecting an option, the view mode will be displayed inside the dropdown button. Hovering over this dropdown button will also show you the active view mode.
 
-![List of Available viewmodes](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484836232_677084111496210_6923534349643550921_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=w0MQat--UMcQ7kNvwHtUMQQ&_nc_oc=Adlo_WcCozl2fkc0ofLcytbvw5F-JVuxYKsff9U-gyQvEX7XrQukDRmz35gTU2rM3TQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7sxqud2WS_ANfjnlGC3FRg&oh=00_AfiDri0U2gSuvpVLWNc4aEHutHGGny349MZWiVIROH6XEA&oe=692EBD50)
+![List of Available viewmodes](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484836232_677084111496210_6923534349643550921_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=w0MQat--UMcQ7kNvwHtUMQQ&_nc_oc=Adlo_WcCozl2fkc0ofLcytbvw5F-JVuxYKsff9U-gyQvEX7XrQukDRmz35gTU2rM3TQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIz6O7mJOw1jlA4aS2HFdw&oh=00_AfjT7KCG3l4zzfjUs3VIHaqsihUfcnp9cqV-gEMmWknEvg&oe=692F9E50)
 
 ### Opening in VR
 
 In VR, first [Enable the Utilities Menu](/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md), then open your wearable and select the desired view mode.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75348041_964519652195117_6384169750030954787_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=OgaLHjW_zxoQ7kNvwGh4uQ9&_nc_oc=AdnjWL_vOzf5H9pPFl_JnBzn45KP3Gsps2vzqmfdikZLrDDR8GZ3mzXHzTmWYMDVoEQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afi441ZHeu9-b-evm0O0PuojLWavi1I2ogeYVMWOhl3yjw&oe=692EBDBA)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75348041_964519652195117_6384169750030954787_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=OgaLHjW_zxoQ7kNvwGh4uQ9&_nc_oc=AdnjWL_vOzf5H9pPFl_JnBzn45KP3Gsps2vzqmfdikZLrDDR8GZ3mzXHzTmWYMDVoEQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afjrh4_UFtb10iWs1t7J-Lmm80RwLEoeo8XYBGXnuAqBQw&oe=692F9EBA)
 
 ## Available view modes
 
@@ -62,19 +62,19 @@ Wireframe view mode comes in three variants:
 
 For reference, the screenshot below displays a scene in the default **Shaded view** mode:
 
-![Default shaded view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484854812_677084104829544_7156692161690434146_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=YxpJpkxGQm0Q7kNvwFmD9qZ&_nc_oc=Adlm2DJuF7d6jurNXI2CYP71PsXAyGMXaC-FMnSLvSvZHO1jCWfvmrihxBi4luhc0pE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7sxqud2WS_ANfjnlGC3FRg&oh=00_AfgqjbkXKY18s68xPn-P-fNH29IrR6b0Xx-UZRFy3rzhHw&oe=692EBB62)*Shaded (default) view mode.*
+![Default shaded view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484854812_677084104829544_7156692161690434146_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=YxpJpkxGQm0Q7kNvwFmD9qZ&_nc_oc=Adlm2DJuF7d6jurNXI2CYP71PsXAyGMXaC-FMnSLvSvZHO1jCWfvmrihxBi4luhc0pE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIz6O7mJOw1jlA4aS2HFdw&oh=00_AfgxrjkVXPpE0SHe-1ksVcsFEuQmWbbdMz_f_jJ43WZlgA&oe=692F9C62)*Shaded (default) view mode.*
 
 **Wireframe view** mode allows you to see through 3D models to get a high level view of your world’s geometric complexity and identify unintended overlaps between models in your world.
 
-![Wireframe view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/485027199_677084101496211_3942768371206233632_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=n58-wu78PnYQ7kNvwElROEQ&_nc_oc=Adma5QCjwknkZk_OQkKomL_tJz5XBRmZqtMXfGtuqu3vC4bozcjaXksYkX2QeOW4tHg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7sxqud2WS_ANfjnlGC3FRg&oh=00_Afg6lYgE8GO3ck4MgvzAYnIV34Pnogqm5RY1Utes8sWIMw&oe=692E94DE)*Wireframe view mode.*
+![Wireframe view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/485027199_677084101496211_3942768371206233632_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=n58-wu78PnYQ7kNvwElROEQ&_nc_oc=Adma5QCjwknkZk_OQkKomL_tJz5XBRmZqtMXfGtuqu3vC4bozcjaXksYkX2QeOW4tHg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIz6O7mJOw1jlA4aS2HFdw&oh=00_AfiDyhXAfL69fqWbDS817MAN7tot_FMjgaGOXL5l2fMj4w&oe=692FAE1E)*Wireframe view mode.*
 
 **Solid wireframe view** mode places a solid material underneath the wireframe. Use this view mode to help you tell objects apart more clearly and distinguish which objects are closer to the camera while in wireframe view.
 
-![Solid wireframe view mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484850704_677084091496212_497250801397507062_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=XKBBtgkGMDkQ7kNvwFoknBw&_nc_oc=AdlXpiU9p8ve7LTaSq7mq-vmeVaJVohfxLszmHShMjm9db9ofLPtBYiitvHvdVIoM8U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7sxqud2WS_ANfjnlGC3FRg&oh=00_AfghA2B6-7famnyJb9jMEUygwyVJAdh12KuTOqpPo_4N5w&oe=692EC897)*Solid wireframe view mode.*
+![Solid wireframe view mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484850704_677084091496212_497250801397507062_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=fFTeXoU9-qAQ7kNvwE4y2Vd&_nc_oc=Adk096jfGT1XlR-NtmprkeVMV1YicqFkKjJFN0_E--IXV9ROT9YXq9HuUFOjM4YdYSc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIz6O7mJOw1jlA4aS2HFdw&oh=00_AfgQgs07ty54cUBud_bC0CnhbHrwqQpJHRbcAz4Mq639wA&oe=692FA997)*Solid wireframe view mode.*
 
 **Shaded wireframe view** mode shows the object’s texture underneath the wireframe. Use this view mode to help you understand how textures are affected by their underlying 3D models and debug texture issues that may be caused by the meshes underneath them.
 
-![Shaded wireframe view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/485768707_677084114829543_6632284219993419295_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=CS4ICviX-dMQ7kNvwHI0qEe&_nc_oc=Admnwi5DX-hEDHvEx26t3S8k4DPprYs-4qe5TUfoBQyLnTKYPapifEPoKs2tKn47v3I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7sxqud2WS_ANfjnlGC3FRg&oh=00_AfgmlRXHky-p5Wrh8wdinPE98iIJqLNLkys9LsuBQNuCpw&oe=692EAA1B)*Shaded wireframe view mode.*
+![Shaded wireframe view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/485768707_677084114829543_6632284219993419295_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=CS4ICviX-dMQ7kNvwHI0qEe&_nc_oc=Admnwi5DX-hEDHvEx26t3S8k4DPprYs-4qe5TUfoBQyLnTKYPapifEPoKs2tKn47v3I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIz6O7mJOw1jlA4aS2HFdw&oh=00_Afib63HAi47F7SKp5tQ8hhi-Ix5c25KZDSgPteCDNTNN8w&oe=692FC35B)*Shaded wireframe view mode.*
 
 ## Collision view mode
 
@@ -84,7 +84,7 @@ For reference, the screenshot below displays a scene in the default **Shaded vie
 
 In collision view mode, colliders are visualized using a semi-transparent colored material.
 
-![Collision view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484831925_677084094829545_4062895164199937649_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=lHH6fbEwNlsQ7kNvwHa2pCZ&_nc_oc=Adnwac4R25DxTYa8-0d_puUNlnY-N27C68-TNWVKwDBHy8kKxX2FJ-QdB81bhlvf3QQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7sxqud2WS_ANfjnlGC3FRg&oh=00_AfgFi6Fs7xGn0Lk8CemfBO-Im6isquQHZlNO-rIED1vZZw&oe=692EB840)*Collision view mode.*
+![Collision view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484831925_677084094829545_4062895164199937649_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=lHH6fbEwNlsQ7kNvwHa2pCZ&_nc_oc=Adnwac4R25DxTYa8-0d_puUNlnY-N27C68-TNWVKwDBHy8kKxX2FJ-QdB81bhlvf3QQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIz6O7mJOw1jlA4aS2HFdw&oh=00_Afh55rE2iFbO0YVqUDoUhWw0c4tefMj1dcnndBbwt3GKVw&oe=692F9940)*Collision view mode.*
 
 ## Overdraw view mode
 
@@ -94,4 +94,4 @@ In collision view mode, colliders are visualized using a semi-transparent colore
 
 In overdraw view mode, you can see where geometries overlap the most in your world by looking for the areas that are most opaque. Each occurrence of overdraw is a place where unnecessary pixels are being drawn. You can optimize your world by modifying your meshes and optimizing your layout to minimize overdraw.
 
-![Overdraw view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484810609_677084108162877_6307321041192439066_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Y7HbAcKunuMQ7kNvwGbF_fb&_nc_oc=Adk6ccLcjYeuYeP4yZwQ7PbM2Yn6s_YI2e5i-IJCwqXWOcLrBi_MPsO5lGYnsBt5d-w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7sxqud2WS_ANfjnlGC3FRg&oh=00_Afiv_rvb_0i1iA58Jwdm0HZgwMgXfPfm_Y6zjQeb9og20w&oe=692EC78F)*Overdraw view mode.*
+![Overdraw view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484810609_677084108162877_6307321041192439066_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Y7HbAcKunuMQ7kNvwGbF_fb&_nc_oc=Adk6ccLcjYeuYeP4yZwQ7PbM2Yn6s_YI2e5i-IJCwqXWOcLrBi_MPsO5lGYnsBt5d-w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIz6O7mJOw1jlA4aS2HFdw&oh=00_AfiogbWe3vS78hjIZALGu3BVwBLysRsONgXZ23R21studQ&oe=692FA88F)*Overdraw view mode.*

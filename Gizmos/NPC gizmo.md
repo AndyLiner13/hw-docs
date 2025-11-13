@@ -14,8 +14,8 @@ There are [limitations](https://github.com/MHCPCreators/horizonCreatorManual/blo
 
 While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the NPC gizmo from the desktop editor and add it to the scene pane.
 
-- In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “npc” in the search field.
-- Select the NPC gizmo and drag it into the scene.
+- In the desktop editor while in the Build mode, select the **NPC** icon from the menu bar in the **Avatars** sections.
+- Select the NPC gizmo icon and drag it into the scene.
 - You can now edit the new gizmo properties in the **Properties** panel.
 
 For additional tutorials on how to access and use the gizmo, see [Create scripted avatar NPC](/hw-docs/desktop-editor/npcs/scripted-avatar-npcs/create-scripted-avatar-npc).

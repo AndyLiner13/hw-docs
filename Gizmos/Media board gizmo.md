@@ -12,7 +12,7 @@ The media board [gizmo](/hw-docs/Gizmos/About%20gizmos.md) allows you to display
 
 Players in a world can react to media displayed on the media board with the **Like** button, which triggers a thumbs up emote. They can also share their own photos with the **Add post** button. The following image illustrates the description of the media board gizmo.
 
-![An screenshot of the media board gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452514566_512510187953604_8648481134651688436_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=5DRGRFrphJcQ7kNvwGZjZUZ&_nc_oc=AdmrXnxyYIAWbAZ50v6t4xaHDnW0KPkM5_P3CYeWXqPD6p8GnTvGrnx-f-b_4VNWZoc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=e5HbPg6pI2cBAXEAEQejIA&oh=00_AfhShwK7eaC-oUnwq-0Z63PdENRrDLWYBIXelJmFAaZDKQ&oe=692E95BD)
+![An screenshot of the media board gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452514566_512510187953604_8648481134651688436_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=5DRGRFrphJcQ7kNvwGZjZUZ&_nc_oc=AdmrXnxyYIAWbAZ50v6t4xaHDnW0KPkM5_P3CYeWXqPD6p8GnTvGrnx-f-b_4VNWZoc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=brHih0U_gkHgSjZXcP22yg&oh=00_Afg6hxgBaOsJgNJ1_r7ZiHyH7v2rEk6UMcaaa3wBOpLfzA&oe=692FAEFD)
 
 Each player sees a personalized set of 30 photos, selected from photos that are included in the approved world posts. Photos from others that the player follows and photos with a high **Like** count are prioritized for the media board.
 
@@ -52,7 +52,7 @@ Once you approve a photo, it becomes available on the media board and visible to
 - Pending posts have 3 buttons: **Approve**, **Reject**, and **Report**.
 - Select the **Approve** button to makes a photo visible on a media board.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57568685_9616779308338433_7778029375936424794_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ERn2yGsJoA8Q7kNvwGO_W4Q&_nc_oc=AdmCdfDQJUG2f_croXWIvFfP_kcX2M0d_MZdco7RAotPiVYDtq7IScRAb3JUAq1S0Aw&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfgruZBB4DhPeB3wYG4_MZul3kHI55n_tXg3JJPcyKUh2g&oe=692EBCF6)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57568685_9616779308338433_7778029375936424794_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ERn2yGsJoA8Q7kNvwGO_W4Q&_nc_oc=AdmCdfDQJUG2f_croXWIvFfP_kcX2M0d_MZdco7RAotPiVYDtq7IScRAb3JUAq1S0Aw&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afgqn0PyYwQPbbDS8oaDnJ2IHklciDMty9xnLyhXQHQMZQ&oe=692F9DF6)
 
 Conversely, to remove a photo from the media board once it’s been approved, follow these steps to reject it from the approved posts.
 

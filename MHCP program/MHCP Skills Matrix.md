@@ -147,4 +147,4 @@ Link to the MHCP Creator Skills Self Assessment (Design & Project Management): <
 
 Link to the MHCP Prioritization Survey: <https://meta-horizon-creators.com/prioritization-survey>.
 
-Download PDF: [MHCP Skills Matrix.pdf](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38982606_1166444341123542_8301231084350266316_n.pdf?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=-fdcx-JMupwQ7kNvwGyyP9l&_nc_oc=Adl_edoQaKsJqZJ-R_zi7l17Oe6MQLhWHbH3kYpzcpsYFLvwC1eoSXfF3kqKWrHlhDQ&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfgZ-Q7K_RYkxizBOLeY_hE8Eop-CRCYSWZDrN3EG4BdXg&oe=692E92F1)
+Download PDF: [MHCP Skills Matrix.pdf](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38982606_1166444341123542_8301231084350266316_n.pdf?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=8XpGrB1DjlYQ7kNvwFsEx51&_nc_oc=AdndY9vFRkp6CMOR0qRuhzgiT0pMf6vMIe7PusMcPwEoQpglkIx5b7Sv52PqmGJ9UzE&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afh0MzBNv_J81mpLJ5UlihTealo5bKe7R08-ZptqoHgerA&oe=692FAC31)

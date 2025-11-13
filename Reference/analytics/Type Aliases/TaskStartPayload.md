@@ -4,7 +4,7 @@ API reference
 
 # TaskStartPayload type
 
-A payload sent by the `OnTaskStart` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnTaskStart` [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).
 
 ## Signature
 

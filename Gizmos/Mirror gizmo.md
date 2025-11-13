@@ -72,7 +72,7 @@ For example, to resize the mirror, you can resize the mirror by changing the **S
 
 The following shows you how to configure the gizmo’s properties in VR.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974860_1582777578979793_4578442253378448808_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Uh-sZLL35e4Q7kNvwHV7Hqd&_nc_oc=Adl29wUnlVFizlFCyVZS-KB3acKwNBmpdWUVKdZfj33auoFFDHZ4os7HtdaON0ZQVm0&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfhQtSHs39IgEBXOs_dOKWe4JWD6Uh19UXKTgoreLOMDpw&oe=692EA79A)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974860_1582777578979793_4578442253378448808_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Uh-sZLL35e4Q7kNvwHV7Hqd&_nc_oc=Adl29wUnlVFizlFCyVZS-KB3acKwNBmpdWUVKdZfj33auoFFDHZ4os7HtdaON0ZQVm0&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfgNoqhVw3gzhWMuaAF2fzN3G5pW6OlIO8FpMAugjHe2Uw&oe=692FC0DA)
 
 ## Take photos and edit your avatar
 
@@ -80,14 +80,14 @@ After placing the gizmo in your world and configuring the properties, you can ta
 
 The following shows you how to take a photo.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974721_499114159825081_5750543788586459815_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=3JeA6WnCtCkQ7kNvwHiSoYd&_nc_oc=Adni7ASRrTLnU6z9mQOaW21Ny8Cf_Xp1SCXrSTsF6_XORFVGplKQVneZzuI1HKDBV3A&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfgLFiBZF_Pl0cEnyLQbjfR-E0w4F8aeoQ6ZKZBtWwEtdQ&oe=692EAFD2)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974721_499114159825081_5750543788586459815_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=3JeA6WnCtCkQ7kNvwHiSoYd&_nc_oc=Adni7ASRrTLnU6z9mQOaW21Ny8Cf_Xp1SCXrSTsF6_XORFVGplKQVneZzuI1HKDBV3A&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfhOMzK58KWNRHm_5HijdA0Wnw735M4zC9msUyfEIBKYEQ&oe=692FC912)
 
 The following shows you how to edit your avatar.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982534_585330297294458_1498502693454280462_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=VZZp2y68cEYQ7kNvwH7s9oT&_nc_oc=AdnmKiCzgJF5TN2bXdEVzRefeMqGPhsNbcQJ2lsz2UxfMG63AYEf73kJ6SFL1_akpFk&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfimXCMBT6QgD_sLuMcZS97vL0yc7E6XvfqsztHuJYeOCg&oe=692EC327)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982534_585330297294458_1498502693454280462_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=VZZp2y68cEYQ7kNvwH7s9oT&_nc_oc=AdnmKiCzgJF5TN2bXdEVzRefeMqGPhsNbcQJ2lsz2UxfMG63AYEf73kJ6SFL1_akpFk&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afhs3Oh4JCPJyvrZBkS4jMGpruNFqAH24dCli-cWAoIMuQ&oe=692FA427)
 
 ## What’s next?
 
 * [Meta Horizon Creator Program creator manual on the mirror gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#mirror-gizmo)
 * [Working in VR while in preview](/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md)
-* [Memory limits and performance metrics](/hw-docs/save-optimize-and-publish/memory-limits-horizon-worlds)
+* [Memory limits and performance metrics](/hw-docs/Save,%20optimize,%20and%20publish/Memory%20limits%20and%20performance%20metrics.md)

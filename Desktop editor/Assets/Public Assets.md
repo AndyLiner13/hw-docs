@@ -14,13 +14,13 @@ To import assets from public assets:
 
 - Select the **Asset Library** tab below the scene panel, and then click **Public Assets**.
 
-  ![Public Assets section](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/496757785_719235317281089_113371143035842316_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=WFijgG-SBFkQ7kNvwEUUo9S&_nc_oc=AdldvRiVhTv9JRLjBKWZ6u4ghhB4bQwG_zd7nYCpyTsp5puHl1pRuTz-hEP_ZecD5Zw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kCMdfKKfO1XepDHmy_d3-A&oh=00_Afh17B_r_-GSBKWc7EI3ykmeX4UDR85ZOBHynEwUTkzj6Q&oe=692EBAB1)
+  ![Public Assets section](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/496757785_719235317281089_113371143035842316_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=WFijgG-SBFkQ7kNvwEUUo9S&_nc_oc=AdldvRiVhTv9JRLjBKWZ6u4ghhB4bQwG_zd7nYCpyTsp5puHl1pRuTz-hEP_ZecD5Zw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2xl8V_vr3t0IueR4dFilwQ&oh=00_Afj4Y3xSCMDupMrIWPRu7wZA2d2xdJa2QSLJkXZ1elhWBg&oe=692F9BB1)
 - Use the category and creator filters to find assets that you might be interested in, or use search to find a specific asset.
 
-  ![Filters for assets](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497454803_719235313947756_1141397685952341022_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=PG7g-9ImdrYQ7kNvwHNo_oz&_nc_oc=AdkrO__SgmRPceyvFrv-8Y_UrNmtDkPat8PrgjUYfohHGY9ErJFPK9hVpOUY39d7tQA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kCMdfKKfO1XepDHmy_d3-A&oh=00_Afg_O-MbpH79lNVuuq4d5fw9W6HSNaNJ8t6DtrmzN2XUOQ&oe=692EBF08)
+  ![Filters for assets](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497454803_719235313947756_1141397685952341022_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=PG7g-9ImdrYQ7kNvwHNo_oz&_nc_oc=AdkrO__SgmRPceyvFrv-8Y_UrNmtDkPat8PrgjUYfohHGY9ErJFPK9hVpOUY39d7tQA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2xl8V_vr3t0IueR4dFilwQ&oh=00_AfhYDgclgKj6YWBmXzEHewU3BsACEqBXDbdNpE-m1_enLA&oe=692FA008)
 - You can sort assets by name and date to narrow down your search.
 
-  ![Sort assets](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/497389609_719235270614427_6406505897107058419_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=07-0lx1_SuUQ7kNvwHtfAtp&_nc_oc=AdmgTHffNypjEcCQvLwHmYgtB25r_hntbIm1LjbgULZca2bkzbuPdvRujeUJkJ4Nnos&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kCMdfKKfO1XepDHmy_d3-A&oh=00_AfiIITAoTG-dDghDJTm2pPg0e3Ojz2jf_PJuMJzL0Ms2Mw&oe=692E994A)
+  ![Sort assets](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/497389609_719235270614427_6406505897107058419_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=4OeovaSXIMYQ7kNvwEBbLtQ&_nc_oc=Adn21zz6a_ZwQfD_60zeN49X6EHYbB8noO5SUa9-XmCh8fgvS5NE8zUKyAEwSGxNCxs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2xl8V_vr3t0IueR4dFilwQ&oh=00_AfjaOrCiosQ5bdUg_JB94-Y5KeT8qWH1Ug3TNn3loPPbDg&oe=692FB28A)
 - Select the asset that you want to import and drag it to your scene. This will cause an object to spawn from the asset into your scene and appear in the Hierarchy panel.
 - In the Hierarchy panel, modify the new object to suit your needs.
 
@@ -30,7 +30,7 @@ Use ratings to share your feedback on assets and help us prioritize high quality
 
 To vote, click on any asset and vote in **Asset details** panel in section **Rating**:
 
-![Rating section to vote for an asset](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497744804_719235277281093_5290427576056159484_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=mYUwPXTyKngQ7kNvwEnKpWn&_nc_oc=Adlc9BxUVXGe5bpxvNOHsJOi9TBdCESvSHXl3XfnECUke-K3KeqHJLMxffhLlhwTUVg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kCMdfKKfO1XepDHmy_d3-A&oh=00_AfhjRSckK0TUdYT8w-Oq7wTfyXTKYAkebrbnsywOQYxEDQ&oe=692E9060)
+![Rating section to vote for an asset](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497744804_719235277281093_5290427576056159484_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=mYUwPXTyKngQ7kNvwEnKpWn&_nc_oc=Adlc9BxUVXGe5bpxvNOHsJOi9TBdCESvSHXl3XfnECUke-K3KeqHJLMxffhLlhwTUVg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2xl8V_vr3t0IueR4dFilwQ&oh=00_AfiLY6NWK2-w2JkwhvJGbMs0tDsSdPVocYlTc2Hpfrx9bA&oe=692FA9A0)
 
 **Note:** You can vote only for other creator’s assets.
 
@@ -38,11 +38,11 @@ To vote, click on any asset and vote in **Asset details** panel in section **Rat
 
 If you see an inappropriate asset within the public assets that violate [Meta Horizon Worlds Content Guidelines](https://www.meta.com/en-gb/help/quest/481214418021533/) or our [Code of Conduct for Virtual Experiences](https://www.meta.com/gb/legal/quest/code-of-conduct-for-virtual-experiences/), please report it to us. It will help us to keep a high-quality collection. To report an asset, click on asset’s preview and then click **Report**.
 
-![Report asset context menu](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497550169_719235267281094_25230942629965797_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=9lTTTHVn6-cQ7kNvwF3wXR5&_nc_oc=AdktmH7CJZ2dBTOx09wInjVkaz4o6Y2xhrhy57b1lo97t1ZVFxGiU1SBoprcpc9m1IM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kCMdfKKfO1XepDHmy_d3-A&oh=00_AfghQymekShlh52zE7qzp1CKTlEDc1GpCygNo-bLbHLgAA&oe=692EC7BA)
+![Report asset context menu](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497550169_719235267281094_25230942629965797_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=9lTTTHVn6-cQ7kNvwF3wXR5&_nc_oc=AdktmH7CJZ2dBTOx09wInjVkaz4o6Y2xhrhy57b1lo97t1ZVFxGiU1SBoprcpc9m1IM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2xl8V_vr3t0IueR4dFilwQ&oh=00_Afjqc4I41gD4hsycm4dp8Im5KMbGNcgkcI_odAJ1jyi3JQ&oe=692FA8BA)
 
 Provide **Type of violation** and **description** to help us to understand a problem and then click **Report asset**.
 
-![Report modal window to report asset](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/496806944_719235263947761_8705912144099446318_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=yXcnAQJoGtwQ7kNvwHF9F6S&_nc_oc=AdnCEV0SbjN4pHCkMIe5uiLCjAkg_L18pzGItvrn3hWU1k3srGNtPLlqslZ9oNyUZLg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kCMdfKKfO1XepDHmy_d3-A&oh=00_AfjTtLLZhYlJ3qDvN6lV3zJlwMQVYdgzwzPbiIQnaZcPug&oe=692EA97F)
+![Report modal window to report asset](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/496806944_719235263947761_8705912144099446318_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=z3n_bsRBT5kQ7kNvwFD2ojL&_nc_oc=AdmmCVmhZIwbeFpek2xryjXCAh8sZ5JxathL0UIetg_4a4KgmrkxjRGTh5XbE8ShkIE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2xl8V_vr3t0IueR4dFilwQ&oh=00_AfhmhoO27SOCly5qgOLOzcoOCcMJswQwCFj0ALncMnZE9w&oe=692FC2BF)
 
 ## Asset types
 

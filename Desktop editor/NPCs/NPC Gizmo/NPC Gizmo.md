@@ -12,11 +12,9 @@ Adding an NPC Gizmo to your world has the **same performance impact as adding an
 
 To create and configure an NPC using the NPC Gizmo, use the following process:
 
-- Select **Build** from the top menu and navigate to **Gizmos > NPC**.
-
-![NPC Gizmo Build window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/546226826_810235191514434_7533196344242328877_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=En6Hg4gTSSIQ7kNvwHamn1_&_nc_oc=AdlroeIIDN1SjZ0uPXxA0xdI_EJCDu_ea_WWYknU_hqmTLuWotbb_YpSy1jJXnXGSLc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=z_pBICoVLEktNiTrHphkLQ&oh=00_AfgXdHtVqQIqR4R920VSrdkw3f-D6jLhMT5TWmsDERzBZA&oe=692EC46A)
-
-- Drag the NPC Gizmo from the build panel into your world scene and place it. **Note**: the NPC may initially appear as a single, flat color as a placeholder. It is also important to position the NPC gizmo on a surface in your world and not above or below it.
+- Select **Build** from the top menu and navigate to select the **NPC** icon from the **Avatar** section.
+  ![NPC Gizmo Build window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578267194_863533339517952_5977020901995238590_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qoDwhRPs9Z4Q7kNvwFUjBtn&_nc_oc=AdkdDiBciVJdQtsmu88ICkrInis5PIWTUOj-N_FPxYwzEQWAH6JIcTX4A9v3A8wrWtg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=dcfYtDxFajGBtamizaQWNg&oh=00_AfjzybJ3Wq2712JYHsP4CPTkpd3ZoyNQpvnz0uri5gEjyg&oe=692FB13C)
+- Drag the NPC Gizmo from the toolbar into your world scene and place it. **Note**: the NPC may initially appear as a single, flat color as a placeholder. It is also important to position the NPC gizmo on a surface in your world and not above or below it.
 - Once your NPC has been added to your world, you can configure its properties.
 
 | Property | Description |
@@ -40,6 +38,6 @@ You can also duplicate or delete NPC Gizmos within your world like any asset add
 
 After adding the NPC Gizmo (**Gizmos > NPC)** and positioning it in your world, you can set its’ **Body Type** to Horizon Avatar to use a Horizon based avatar as an NPC. When selecting a Horizon Avatar as an NPC you can also **customize its visual appearance** by clicking “**Edit Avatar**” in the Properties panel. This opens a web-based editor for body, face, clothing, and accessories.
 
-![Edit your avatar window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469049488_603532515518037_2698379075646803421_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=tieHuIUH7nEQ7kNvwFt4VIq&_nc_oc=AdnCcn07RfzUwMgtypdYihD07NLjpqeLzp-VNxxcQnQoeOj0L8NhX1wRblirFDjdBuw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=z_pBICoVLEktNiTrHphkLQ&oh=00_Afi9n0l6pQFGh3rvH5JGceEaXlo-iMQSwF-M2K-JCT-2gA&oe=692EA513)
+![Edit your avatar window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469049488_603532515518037_2698379075646803421_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=z0LqhOzNFGcQ7kNvwGin4Eq&_nc_oc=AdlzDLbNFknp74St9E0stP8gG4ZfocchNbNvI6ARWNeKYYVa8XlPMPj6NInD2eXVpfU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=dcfYtDxFajGBtamizaQWNg&oh=00_AfhwsyDbEbsm7UcaP06Ows6RhXrP0Ldj5nlpYIOaV7rYBg&oe=692FBE53)
 
 Remember to click **“Refresh”** in the Desktop Editor to see your updates after you click **Done editing**.

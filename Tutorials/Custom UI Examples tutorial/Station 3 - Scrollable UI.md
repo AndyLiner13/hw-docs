@@ -6,7 +6,7 @@ Learn
 
 This station demonstrates how to create a custom UI that can be scrolled. It’s pretty simple; instead of using a View object, you deploy a ScrollView object, which supports a couple of additional attributes.
 
-![Image of Station 03](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/475789154_646003197937635_3988288094259662487_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=TTNo62Nz5CsQ7kNvwFNDX_s&_nc_oc=AdmK7-GCHk5pGX19J6zi7yDkDD6W1lJbvilDL2vDdINgQ-RGAGWltj0ynPUjdPJLc-w&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=6sEJ4WQew_3AZk36EJD5oQ&oh=00_AfiiMsoBcQAEXOo9jiD6BDEKj2zs2P59oXIuYJn7_8A-2Q&oe=692EC62E)
+![Image of Station 03](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/475789154_646003197937635_3988288094259662487_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=77740II7C68Q7kNvwHSWdrZ&_nc_oc=AdmIDBiyvzK6ombptVzQNIOO3XuwjzKJcIy3O0V4PPZw5fViZ3R5TXGveE2qP9MnG7I&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Lgh6gWQWhI30OobXJ5wt8Q&oh=00_Afg2N3P3UvaLEhJu6rxVESi0hSDeBCqU_cqPY-VQC39Yhw&oe=692FA72E)
 
 This UI displays an example biography of Lord Lorem Ipsum, including a title, picture, picture caption, and body text.
 

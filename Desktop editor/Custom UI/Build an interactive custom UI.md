@@ -16,10 +16,10 @@ This topic shows you how to build an interactive custom UI, because creating a s
 This topic and [Build a dynamic custom UI](/hw-docs/Desktop%20editor/Custom%20UI/Building%20dynamic%20custom%20UI.md) explore these capabilities by working through an example. Consider a game where the players are given a chance to change the color for a ball. In the UI, you’d like to have a text prompt and a confirmation button in the UI. After any player clicks the button, you’d want the ball’s color to be updated, button removed, and the prompt’s content and color changed.
 
 The following image is an interactive UI showing a text prompt and a confirmation button.
-![A text prompt and a confirmation button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522652_512500634621226_5566709019236532182_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=E9kGMEQoaukQ7kNvwGJLn3J&_nc_oc=AdmXIF3cAuoqbLrg65ESl91wn16bCoF_eZBq5jmouIiGdzx5BK4fs5iAp8B_zVRtZx4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PSL2DnxC4ZhtGC1y5k8Vmg&oh=00_AfgGMHPLlh_aFCbiShZG5SITt11wA1gfkTv3KvGUDpJSHw&oe=692EA762)
+![A text prompt and a confirmation button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522652_512500634621226_5566709019236532182_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=E9kGMEQoaukQ7kNvwGJLn3J&_nc_oc=AdmXIF3cAuoqbLrg65ESl91wn16bCoF_eZBq5jmouIiGdzx5BK4fs5iAp8B_zVRtZx4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0iAIqwfH0r1b5j22zNTVZA&oh=00_Afj4CI3fgN_PwM2jqx1NV5cnl3QU6S0Y08ACggq0WCEX9Q&oe=692FC0A2)
 
 The following image is an interactive UI showing some confirmation text.
-![Some confirmation text after clicking the button](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576827_512500611287895_1449283729304710085_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=LqIDFY5nRVkQ7kNvwGRor7o&_nc_oc=Adk21omOMfPDUQIj7RL9OU4bbA3-lNql70K00P8F9r4AtXr5NuFlJDjVgYrYyJ1Vh5U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PSL2DnxC4ZhtGC1y5k8Vmg&oh=00_AfizIXi_ryKuZW0CblRymmskmwVciQFqPeWyNgKnJ-cTgw&oe=692EC80D)
+![Some confirmation text after clicking the button](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576827_512500611287895_1449283729304710085_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=BuoYe7fE0uQQ7kNvwFV0e5U&_nc_oc=AdkbMjWqF-4TmvQMQ8A3gTUQAKT5tcSa9yMBCVXcoT7l3LHcpgADX3UoG3N9XqniY_U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0iAIqwfH0r1b5j22zNTVZA&oh=00_AfjyRA_JnUUCoLsTIwn1qmBL-cJcCqOrdXA1PZJlIifjCQ&oe=692FA90D)
 
 ## Build a static UI
 

@@ -6,7 +6,7 @@ Learn
 
 At Station 2, you can explore how a basic image can be displayed in a custom UI. This image is uploaded to the platform as a .PNG asset of type Texture.
 
-![Image of Station 2](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475777756_646003187937636_4205733443374841463_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ul5b1kf9s90Q7kNvwEP1Qnk&_nc_oc=Adn5HxXy0hH7LUUqkHe8CeZ89xfRfm3Hz251LIS6-m9UvRxj7FbBIvNDpOlIHe98q5c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MpybIXMne-4JJHXQ7x2iFA&oh=00_Afjjs9Bv0NyfNKYwqr3V0W1sFDZfKempj5XUgKZiCcox9w&oe=692EA4AC)
+![Image of Station 2](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475777756_646003187937636_4205733443374841463_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ul5b1kf9s90Q7kNvwEP1Qnk&_nc_oc=Adn5HxXy0hH7LUUqkHe8CeZ89xfRfm3Hz251LIS6-m9UvRxj7FbBIvNDpOlIHe98q5c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RPBF9O7lsjFc9QpYUlikZA&oh=00_AfgAHCam4CvoCFUTo_NAORTrCSDRM7hm07l9wBQ25Vqn-w&oe=692FBDEC)
 
 The script defines a property on the CustomUI gizmo to allow for selecting the Texture asset through the Properties panel.
 
@@ -89,7 +89,7 @@ const baseSimpleImage2Style: ImageStyle = {height: 200, width: 200};
   + The Property that is referenced is of Asset property type, which means that a drop-down is available in the panel from which you can select an asset to which you have access.
   + In the Properties panel, the `textureAsset` property looks like the following:
 
-  ![Image of properties panel with textureAsset property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487726045_686408240563797_5149593947553231907_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=C4BMFn5U5W4Q7kNvwFPVU4b&_nc_oc=AdkWuDD9yG8uPwE5GWno4lT2p2vACb1SoOtlnfAr4lloOMEU_GYTgaTe1uleuD_cQxc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MpybIXMne-4JJHXQ7x2iFA&oh=00_Afjcfw6x8EdshP9FGcDM72t_P9JvSY6K003vf2JV5e64OQ&oe=692E9AB0)
+  ![Image of properties panel with textureAsset property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487726045_686408240563797_5149593947553231907_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=C4BMFn5U5W4Q7kNvwFPVU4b&_nc_oc=AdkWuDD9yG8uPwE5GWno4lT2p2vACb1SoOtlnfAr4lloOMEU_GYTgaTe1uleuD_cQxc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RPBF9O7lsjFc9QpYUlikZA&oh=00_AfhUgBKSubKpU1oZBiCtLrBQlJBWFxsMNxRNnKmrdUUg3Q&oe=692FB3F0)
 * InitializeUI() method:
 
   + The returned `View()` object contains three simple elements.

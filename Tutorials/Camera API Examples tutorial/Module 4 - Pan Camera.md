@@ -8,11 +8,11 @@ The pan camera setting moves the player’s camera to follow their avatar at a c
 
 In this tutorial, climbing the steps switches the camera to pan camera mode, and sets the camera’s position to be 10 offset from the player on the X-axis.
 
-![Sidescroller for Camera API Examples](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083958_662040649667223_5274211912720354602_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3-NGOcnjT9oQ7kNvwGsxLbH&_nc_oc=Adl7v4hwnCOe3m0o509f1VDjpa038sLXr2nTB4RcTIM0CU5rDFRX7HgzgPGZm8CHjSI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UrkuRr-Ct6A9RISWDyPGwQ&oh=00_Afi5bl6Ym_bSaBjhB50QHs3TodWTSg56JlV4sSvVZrkO3w&oe=692EAAFE)
+![Sidescroller for Camera API Examples](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083958_662040649667223_5274211912720354602_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3-NGOcnjT9oQ7kNvwGsxLbH&_nc_oc=Adl7v4hwnCOe3m0o509f1VDjpa038sLXr2nTB4RcTIM0CU5rDFRX7HgzgPGZm8CHjSI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g3CzrQxS37eRGjjxr0DRqw&oh=00_AfjHsbI98GBdSm22yqg_N-rtdgoz2gJSp9QD0cAVzjG3fw&oe=692FC43E)
 
 Entering the top-down area also switches the camera to pan mode, but notice that we have set the camera’s position to be 20 units offset from the player on the Y-axis, which gives a top-down perspective.
 
-![Top-down for Camera API Examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481919765_662040659667222_299852821914515850_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=RIQmDFkgRwsQ7kNvwHWfHD_&_nc_oc=AdlFWhWPph8FRBw-YBfuIxhq9a1NECHRha2jy3P_Fs7ajuxh1JuUoULfnFlNtIiqXf4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UrkuRr-Ct6A9RISWDyPGwQ&oh=00_Afjfm0gDc9b6TR_-af91A7nVSyZr56oSigLqknBQzl-M8A&oe=692E9D8C)
+![Top-down for Camera API Examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481919765_662040659667222_299852821914515850_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=RIQmDFkgRwsQ7kNvwHWfHD_&_nc_oc=AdlFWhWPph8FRBw-YBfuIxhq9a1NECHRha2jy3P_Fs7ajuxh1JuUoULfnFlNtIiqXf4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g3CzrQxS37eRGjjxr0DRqw&oh=00_AfjBaeFe6mn5eKEXsrvyly00_Wqu3q9htp61_76gH7_dug&oe=692FB6CC)
 
 The PanCameraTrigger.ts script is essentially an extension of the CameraTrigger script with some additional properties:
 

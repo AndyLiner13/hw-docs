@@ -14,21 +14,21 @@ A common way to have players start a game is to add a Trigger Zone gizmo through
 
 In the desktop editor, select **Build menu > Gizmos**:
 
-![Screenshot of selecting Gizmos from the Build menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489125328_692135299991091_4111077702588148303_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=D6ht6rKx6MIQ7kNvwGpKjoC&_nc_oc=AdkwCW82Yw4DDAGFxfvd3q1q3nFz7CJCjBDiFeRLXiyC6lk4zzr2PqPDZlWbPtMzOrk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FRDl2KnnnOpK9n0d4rDDeg&oh=00_Afg6HNruK8iUvPR1sSwpH8NBdq3_P9Xqp5jfLJOCsRBcoQ&oe=692EAA9D)
+![Screenshot of selecting Gizmos from the Build menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489125328_692135299991091_4111077702588148303_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=D6ht6rKx6MIQ7kNvwGpKjoC&_nc_oc=AdkwCW82Yw4DDAGFxfvd3q1q3nFz7CJCjBDiFeRLXiyC6lk4zzr2PqPDZlWbPtMzOrk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=e6Vhj1dFikxCPY4pVrPJZQ&oh=00_AfikMDAc21DhqThFM7D9UI1eHqGO5yE9fVjXxYA8eqKhkQ&oe=692FC3DD)
 
 Click and drag the **Trigger Zone icon** to add a trigger zone to the world:
 
-![Screenshot of selecting the Trigger gizmo from the Gizmos panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489035548_692135403324414_320847249441776665_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=VGcQpxpqCXwQ7kNvwGfvvIQ&_nc_oc=Adk_qvfp-25_gIxiTitbP6II16j6XEil5oqOHpWxqSEAG-IsLZ4LiiguTk9mqSnNK6Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FRDl2KnnnOpK9n0d4rDDeg&oh=00_AfiB9Mm-ygW1Ty8fcYRPjD5Y7schbdkx2vLSrWIR9Bf3Qg&oe=692EA4F4)
+![Screenshot of selecting the Trigger gizmo from the Gizmos panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489035548_692135403324414_320847249441776665_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=KOx2fRUWFZ4Q7kNvwEl6vnL&_nc_oc=AdmKjGxKHhfLrJv381ji7tgsI6Hf32b9PPRBlbYqecnj6D1uE-4PzYwwIQaguYzMFp0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e6Vhj1dFikxCPY4pVrPJZQ&oh=00_Afhqs1L4LAhzmVT99D-zwuQGPQ7y-hR4Ve10tTBEmUdwnw&oe=692FBE34)
 
 Click the **Move tool** in the toolbar. Move the Trigger Zone to the Start platform in the corner of the provided course.
 
 Scale the trigger zone using the **Scale tool** available in the toolbar. Make it the same length and width of the visible, raised platform.
 
-![Screenshot of selecting the Scale tool in the toolbar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480829176_662906912913930_5978396360539499939_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=SzIxrFe5EWYQ7kNvwGIGRlW&_nc_oc=AdkvOHoF4Udomk_e7nzWKev_wr7hh6M00X5Es4_-IZKNLJvdGKF30alEeVEgc2h_FmI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FRDl2KnnnOpK9n0d4rDDeg&oh=00_Afj8w_khsRPlRG9Is70rJLK9ytMOvP2L39UOaWbfV6cieg&oe=692EB60E)
+![Screenshot of selecting the Scale tool in the toolbar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480829176_662906912913930_5978396360539499939_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=SzIxrFe5EWYQ7kNvwGIGRlW&_nc_oc=AdkvOHoF4Udomk_e7nzWKev_wr7hh6M00X5Es4_-IZKNLJvdGKF30alEeVEgc2h_FmI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=e6Vhj1dFikxCPY4pVrPJZQ&oh=00_Afhbt9YIk4hw470qYIsedKArvovfXwktiMvClrRoxIrwCA&oe=692F970E)
 
 The course should look similar to the following:
 
-![Screenshot of finished trigger zone in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481054503_662906919580596_1618625342451013238_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=GhnHYmsov7MQ7kNvwEwSR_W&_nc_oc=Adn906IBgmckkE3uQbcRUCunpTunIlzB7LeNaOkZ0LEGqSXNNFrH_h-HrLtasWoPLhM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FRDl2KnnnOpK9n0d4rDDeg&oh=00_Afjj1jfc90yVoZX2eCP2ebFU_L3hOoPnoiKjVPb-Mx5uMA&oe=692EAA6F)
+![Screenshot of finished trigger zone in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481054503_662906919580596_1618625342451013238_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=6xlfekVnDtwQ7kNvwHWM5gV&_nc_oc=AdkokwQat9ZC3oPOXIm8IuC4pu1-NYEGlINf7sMLYOUdynS6KO_EoSctRX5Wxf8u7jI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e6Vhj1dFikxCPY4pVrPJZQ&oh=00_Afjyeov-BbCNREMpb1-45DzAUcLpW92ytPjCzVKVofXs4w&oe=692FC3AF)
 
 ### Trigger zone coding
 
@@ -103,13 +103,13 @@ The gems hide and show correctly, but running into them doesn’t do anything. W
 
 Click the **Stop button** in the toolbar to stop the simulation, which stops all scripts from running and returns the gem objects to their original (hidden) position:
 
-![Screenshot of the Stop button in the toolbar of the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/490183383_692135389991082_8612843187370717632_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=U250EzTuY7UQ7kNvwG30hj9&_nc_oc=Adm4ahdG3P1ZAJggt2_0tv1S_CXitFZiKLzNmwJHaabIzmDXjUbbofkcGEaJ_-tJa2U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FRDl2KnnnOpK9n0d4rDDeg&oh=00_Afi1yBJySu8cLsOu3BbzW6ImweOZL4LXhYAc-C59lNwlJA&oe=692E917F)
+![Screenshot of the Stop button in the toolbar of the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/490183383_692135389991082_8612843187370717632_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=U250EzTuY7UQ7kNvwG30hj9&_nc_oc=Adm4ahdG3P1ZAJggt2_0tv1S_CXitFZiKLzNmwJHaabIzmDXjUbbofkcGEaJ_-tJa2U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=e6Vhj1dFikxCPY4pVrPJZQ&oh=00_AfinFVORpyOLwzPazrfzf9SS8MisTl0dIGTQMg2HnQcvzA&oe=692FAABF)
 
 ### Set gem properties
 
 For a platform-style game, a player should collect a gem by simply running into it. Whenever a player collides with a gem, an event should fire to handle the effects of collecting the gem. We can configure our gems to receive collision events in the Properties panel for each gem.
 
-![Screenshot of selected gem and its Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489857671_692135406657747_3269629125234067770_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=eAQxxN-4dY0Q7kNvwHRcq0U&_nc_oc=AdkBJZtTTvjIvdYn0_xno6A5mAhPq3-qUlmx78fDde20VYRQxkpUOKuVCUEUW_fiI6s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FRDl2KnnnOpK9n0d4rDDeg&oh=00_AfgW8mz09t4gULzpIICM_UETU4pZXubmgRypMlwmz62Jmw&oe=692EA04C)
+![Screenshot of selected gem and its Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489857671_692135406657747_3269629125234067770_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=eAQxxN-4dY0Q7kNvwHRcq0U&_nc_oc=AdkBJZtTTvjIvdYn0_xno6A5mAhPq3-qUlmx78fDde20VYRQxkpUOKuVCUEUW_fiI6s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e6Vhj1dFikxCPY4pVrPJZQ&oh=00_AfhvCZ1_AiWARVIdpFhsagzcj7FFxs4PQakUwjN50MRgNA&oe=692FB98C)
 
 Select one of the gems on your course, and configure the following properties:
 
@@ -122,7 +122,7 @@ Select one of the gems on your course, and configure the following properties:
 
 We can still set up our objects to behave exactly as we prefer.
 
-![Screenshot of selected gem and its collision-related properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489142265_692135339991087_261137589439071753_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=mj3WIIWIzYQQ7kNvwHmcj0H&_nc_oc=AdkTmUtTjSEaiyeAxmOhLLO_LaEkOR18JjxKJjwqPgL4XpIMYsTa76IY1jgM137gULw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FRDl2KnnnOpK9n0d4rDDeg&oh=00_AfhZBTyy-KUu_a9x-x8M_W3RkaqMNxr0JBdSBFRyuHFvGQ&oe=692EC89F)
+![Screenshot of selected gem and its collision-related properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489142265_692135339991087_261137589439071753_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=mj3WIIWIzYQQ7kNvwHmcj0H&_nc_oc=AdkTmUtTjSEaiyeAxmOhLLO_LaEkOR18JjxKJjwqPgL4XpIMYsTa76IY1jgM137gULw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e6Vhj1dFikxCPY4pVrPJZQ&oh=00_Afhumzi6id5kXTxNxNLdxLNuqQF-G0nummB3zk01MN38Fw&oe=692FA99F)
 
 Set the following collision-related properties:
 
@@ -170,11 +170,11 @@ private handleCollision(): void {
 
 Press the **Play button** to activate the world simulation, which also executes scripts:
 
-![Screenshot of the Play button highlighted in the toolbar](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489312364_692135343324420_2299170072300284243_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=zI-gv0dZEeMQ7kNvwEz5wLK&_nc_oc=Adm6s4JEvoB0jollci-JzanN3kc5xI1o3LqaOAmuC5yYzWB96eodWOG9dHFAZcNg1LA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FRDl2KnnnOpK9n0d4rDDeg&oh=00_AfjwS215cHaIcvaEGFGXlQfxdBs6rp_5jm426fsiEr7ydw&oe=692EA5D4)
+![Screenshot of the Play button highlighted in the toolbar](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489312364_692135343324420_2299170072300284243_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=zI-gv0dZEeMQ7kNvwEz5wLK&_nc_oc=Adm6s4JEvoB0jollci-JzanN3kc5xI1o3LqaOAmuC5yYzWB96eodWOG9dHFAZcNg1LA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e6Vhj1dFikxCPY4pVrPJZQ&oh=00_AfjRQe2zstMmFSLsgmFeuCVM4FI0DLGulAvSiJNGh5Gpmw&oe=692FBF14)
 
 ### Console results
 
-![Results in the Console tab](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481080474_662906932913928_2876650707859435079_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=0Tq0lOwHEBAQ7kNvwFt82yF&_nc_oc=Adm_U0Nn-RjonGDv4QSatwPu1uxJAaEUaCFSvIic48QGTmV1oBVMkRaY3UszufX_a7M&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FRDl2KnnnOpK9n0d4rDDeg&oh=00_AfjPcM8Ud3es14FsoD18l17OYd7J5e71E5Qr_N61xY0kjw&oe=692EA11D)
+![Results in the Console tab](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481080474_662906932913928_2876650707859435079_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Rh9oYLKKwSAQ7kNvwF7cF8N&_nc_oc=AdmoYMjmeKg8nTQAm7bL2ECRxbiIwb9MTW82hh5XMSk1bt_m7c4PVGYh--f-prWriJ4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e6Vhj1dFikxCPY4pVrPJZQ&oh=00_AfjpQbxJnSlPEkwGVL0fNGbRo0AK-V3_KKvGAdDepVDWng&oe=692FBA5D)
 
 It works!
 

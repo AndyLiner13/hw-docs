@@ -14,21 +14,21 @@ The first thing to notice when you enter this world are the two AI Speech NPCs, 
 
 Located on the green platform, Shady Riley is an unscrupulous salesman whose main focus is on making money by any means possible.
 
-![Shady Riley NPC](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/556958983_829681089569844_8380526143911977220_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=K_QwIkna_C8Q7kNvwEtsj99&_nc_oc=AdkCe9x0SRUAqduayXo46Jqts94NdSspJn7wE5GyZZZftwG5UKwYyBS8McG1hFpWOJk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=-f2uqASY0ZcTetGCz99pxQ&oh=00_AfhcqHGppaogYEDE7FAJ01G88eXEW24Y42lFZGr0KeM2tw&oe=692E9C8F)
+![Shady Riley NPC](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/556958983_829681089569844_8380526143911977220_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7OQHxnEfrfgQ7kNvwFLDAwj&_nc_oc=AdmLfXWmqXL7Jn7xDbtv46cTr0-VH2eFTxSAiiWOz9wSFh-6VUOATLtuZqVm_x5lqrw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ox6W_7kybXr5BSiiaIiKOA&oh=00_Afhe0gEXKhts7YIQhq2zHtc9N2qFniUy3lsp0eZAPCYi8w&oe=692FB5CF)
 
 ### Harmony Bloom
 
 Located on the blue platform, Harmony Bloom is an environmental activist who is convinced that mining these nodes hurts them.
 
-![Harmony Bloom NPC](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/560158475_829681126236507_6940815205957341705_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=dY4BtVU8IU4Q7kNvwF3WSv0&_nc_oc=AdlflKAfUFgv49Umbm-14UO802VVXL9dQ2vx5PL_-Y34fahd_vQqFwm53MrzSbE5Dxw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-f2uqASY0ZcTetGCz99pxQ&oh=00_AfjCCoI7s6NxoRbYKhdGU1BbuZ10-d_LDH4ifO9dBLKTPQ&oe=692EBB7E)
+![Harmony Bloom NPC](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/560158475_829681126236507_6940815205957341705_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=dY4BtVU8IU4Q7kNvwF3WSv0&_nc_oc=AdlflKAfUFgv49Umbm-14UO802VVXL9dQ2vx5PL_-Y34fahd_vQqFwm53MrzSbE5Dxw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ox6W_7kybXr5BSiiaIiKOA&oh=00_AfjHVp0pa-iF_D2sD1j4tPdkpUDlYVRQEIWN4xwfgufaWQ&oe=692F9C7E)
 
 ## Interacting with the NPCs
 
 Interact with the AI NPCs by stepping on the trigger zones, which are the large purple squares on the green and blue platforms. This will initiate conversations with the AI NPCs. You need to be close enough and face the AI NPCs to chat with them. You can tell the AI NPC is listening to you if your avatar has an interaction bubble.
 
-![Interaction Bubble](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/557556907_829681096236510_585729429445193802_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=gJTP95B_dZEQ7kNvwF1dZ4J&_nc_oc=AdmfKzPwuAAYowMPTDq9O-DRmlt4Dz-Y5qOlzIjk17kbUF6BvYeAICgs74SlPsv_DfA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=-f2uqASY0ZcTetGCz99pxQ&oh=00_Afj6rzUSncV0TCvIDE-8dsGyNEjx5GoNV_FI3aX1XIRX2A&oe=692E9820)
+![Interaction Bubble](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/557556907_829681096236510_585729429445193802_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=gJTP95B_dZEQ7kNvwF1dZ4J&_nc_oc=AdmfKzPwuAAYowMPTDq9O-DRmlt4Dz-Y5qOlzIjk17kbUF6BvYeAICgs74SlPsv_DfA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ox6W_7kybXr5BSiiaIiKOA&oh=00_AfhM6qEFgyN6z1U_3wlcL1EpVI9-L2csDJbjee5b6_VODw&oe=692FB160)
 
-![Interaction Bubble](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/556913928_829681109569842_1425376538166400780_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Pd_-gYmD40cQ7kNvwGCifMV&_nc_oc=Adnk34ntJLMcgtw1dteMYX-6ph0t8xufgCbN5uT1D0div7m55sWYMFV3OANbQS7SKgM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-f2uqASY0ZcTetGCz99pxQ&oh=00_AfiXg1WYGPFzMt9CfvH98LwZzuCd6gViSW0x5rY1veszqw&oe=692EC7EE)
+![Interaction Bubble](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/556913928_829681109569842_1425376538166400780_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=PxN3njD686YQ7kNvwHBWUeb&_nc_oc=AdkWvEIAqwEM68W0wa_gLP8Os2emipx7yLp7hb0GoM5leEKdtVtKu5_cnOMk7dUzsfE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ox6W_7kybXr5BSiiaIiKOA&oh=00_AfjB-pC8qY8_kMm3lobjPhtQB8IAN4VVFyw7KOs2iF6ibg&oe=692FA8EE)
 
 Be sure both your sound and microphone are turned on. You may need to grant permission for Horizon Worlds to access your microphone.
 

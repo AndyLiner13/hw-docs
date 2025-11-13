@@ -4,7 +4,7 @@ Learn
 
 # Module 1 - Setup
 
-![Thumbnail of Chop N Pop World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467985657_595263769678245_8393983042199091303_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=JDwTJeNlhmYQ7kNvwEcKUMl&_nc_oc=AdnwSY6IP4ERpGgI-DiV_pl-23Q7aEqgsAnrkFjs3wymQoLw72W8p_4cDRpgS4HDzSo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-5vT1KYnb1aDHlJho9FO2A&oh=00_AfjVCF23TkXEPr2Q3RD8VCWwXsW1GOgLjzM0wo9swkxWxg&oe=692EC109)
+![Thumbnail of Chop N Pop World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467985657_595263769678245_8393983042199091303_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=JDwTJeNlhmYQ7kNvwEcKUMl&_nc_oc=AdnwSY6IP4ERpGgI-DiV_pl-23Q7aEqgsAnrkFjs3wymQoLw72W8p_4cDRpgS4HDzSo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=v67R53ca07kqhIq7aHQy-A&oh=00_Afie-OvtmNeeHE5t4Hxgam_v_5n0aNf_g4SoRmawzELC3w&oe=692FA209)
 
 Important
 
@@ -97,7 +97,7 @@ FBS is a script-related feature that can be enabled in your world. Please do the
 - In the Scripts panel, click the **Gear icon**.
 - In the Script Settings window, click **Script editing**.
 - Next to File Backed Scripts, click the **Review button**. If you see an **Info button**, your world is already set to FBS.
-  ![Image of settings to enable File Backed Scripts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489750052_692135419991079_739814288388774121_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=dx5acJdiifUQ7kNvwFDhXa7&_nc_oc=Adnt61WkpyTCmUpi16UxwLenPYyyW0flH2mJz7F2x1XLyzKZCO4MfrcLSvsVKI5Toio&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-5vT1KYnb1aDHlJho9FO2A&oh=00_AfivUIUk3p-xay01VqOFttTMQaGqsBVY-T_5zyg1tpLj3Q&oe=692EB8EC)
+  ![Image of settings to enable File Backed Scripts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489750052_692135419991079_739814288388774121_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=dx5acJdiifUQ7kNvwFDhXa7&_nc_oc=Adnt61WkpyTCmUpi16UxwLenPYyyW0flH2mJz7F2x1XLyzKZCO4MfrcLSvsVKI5Toio&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=v67R53ca07kqhIq7aHQy-A&oh=00_AfiVXQ5PetRtvMxoCR4mREMKfiuh2qivLZ-XHGQpNPbZ8w&oe=692F99EC)
 - To upgrade your world to FBS, click **Update**. **This change cannot be undone.**
 
 For more information, see [Use File-Backed Scripts](/hw-docs/code-blocks-and-gizmos/use-file-backed-scripts).
@@ -194,12 +194,12 @@ To use any asset, you must make it your own.
 - Drag this asset template into the world.
 - If the asset has nodes with attached scripts, select each node.
 - In the Properties panel, you should see an entry like the following:
-  ![Image of broken script reference in the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467740926_593923073145648_7289764976967935412_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6_CmOSOCf9YQ7kNvwH80tBI&_nc_oc=AdlkTNOYfdfR3Usc4TGfgXn9xxMQNhl6zkWxL02n-vYwzXPKaSpDC_8kqdS4SwarJi0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-5vT1KYnb1aDHlJho9FO2A&oh=00_AfietLJZEYw4BlT5X7e0ARGVpdprmyk-eAxTtxITsXIakQ&oe=692EBE1D)
+  ![Image of broken script reference in the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467740926_593923073145648_7289764976967935412_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6_CmOSOCf9YQ7kNvwH80tBI&_nc_oc=AdlkTNOYfdfR3Usc4TGfgXn9xxMQNhl6zkWxL02n-vYwzXPKaSpDC_8kqdS4SwarJi0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=v67R53ca07kqhIq7aHQy-A&oh=00_AfjwkZ2PgiQxDHoEdXYPhMx-sXvD1sN4oDZ8r6GLGP9F1Q&oe=692F9F1D)
 - The above reference is broken because you as owner of this world do not have edit access to the referenced script, which is owned in the Chop ‘N Pop: Graveyard Bash world.
 - To fix this:
   a. From the Attached Script dropdown, select the replacement script in your world that you have created from a copied version of the source world’s script. In the above example, this would be your personal version of `Axe.ts`.
   b. At the top of the Properties panel, you should see a message indicating that there is 1 override that has not been applied to the definition. Click **Review**. In the Template Overrides window, click **Apply All Overrides**:
-  ![Image of apply all overrides to asset template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467718232_593923063145649_2857413320607593808_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=jVPEcDAYk3EQ7kNvwHC4-3C&_nc_oc=AdmMsYiXmJjTv8GAHp01m_DjNYDbqsw6UA_-eklOcPQ8n2Ze727qSdBfHx7_QIKMcR4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-5vT1KYnb1aDHlJho9FO2A&oh=00_AfhCaEt1OkkATch87Omb5qY9EezoUVsxH7xrY3mKQnOScg&oe=692EA669)
+  ![Image of apply all overrides to asset template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467718232_593923063145649_2857413320607593808_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=jVPEcDAYk3EQ7kNvwHC4-3C&_nc_oc=AdmMsYiXmJjTv8GAHp01m_DjNYDbqsw6UA_-eklOcPQ8n2Ze727qSdBfHx7_QIKMcR4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=v67R53ca07kqhIq7aHQy-A&oh=00_Afi68nKbAumZkEap0MeIvoCFT8MjYvm0UucP-Q0GjYkGTA&oe=692FBFA9)
   c. Enter a description of the change, and click **Save & publish**.
 
 You have created your own asset template from a source asset and replaced the broken reference to the script with your own script.

@@ -4,7 +4,7 @@ API reference
 
 # BaseTestComponent Class
 
-Extends *[Component](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_component)<TComponent>*
+Extends *[Component](/hw-docs/Reference/core/Abstract%20Classes/Component.md)<TComponent>*
 
 Used only in internal tests for compatibility between the v1 and v2 APIs.
 

@@ -35,7 +35,7 @@ This tutorial world also includes the following mini-systems as a bonus.
 
 Throughout the world, you can see posters like the following:
 
-![Yellow Post-It used for instructions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/472876591_632772209260734_311213788635375535_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=6d1yRJ42Ew0Q7kNvwGw9lyP&_nc_oc=Adn7m-4jCaCK9dUTArL48tp0EyHoIHL6A1WMl_gawpwGLFwWg8djSMUCDCTscla-YyM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OL22zB7jP4FDVal47z-BxQ&oh=00_AfiL5GeS9oXrogX192c7AX6L0vlP51GIN0r24YM0t6_hkg&oe=692E9B07)
+![Yellow Post-It used for instructions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/472876591_632772209260734_311213788635375535_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=6d1yRJ42Ew0Q7kNvwGw9lyP&_nc_oc=Adn7m-4jCaCK9dUTArL48tp0EyHoIHL6A1WMl_gawpwGLFwWg8djSMUCDCTscla-YyM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=I9oCasqvFUCfphnxScZ27w&oh=00_AfguEX2na6tsX1HKN9ivG4EI2hmmlS40vz8Ajr67fXAlOQ&oe=692FB447)
 
 In the Hierarchy panel, all of these posters are grouped under the Instructions node. Each interface includes:
 

@@ -9,7 +9,7 @@ The pistol weapon system supports the pistols available in the Chop ‘N Pop: Gr
 * When a pistol is collected, aiming is determined based on a crosshairs presented on-screen when the pistol is in a player’s hand.
 * Each pistol requires a clip of ammunition, which is decremented with each shot. When the ammo in the clip is empty, the player must find and collect a new clip and then reload the clip into the gun.
 
-![Image of pistol examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467689606_593923079812314_5169865444718688226_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CGggikNQiTkQ7kNvwGOTDjG&_nc_oc=AdluJOVMoF_UtVbRBuFppSDA9wnDV4x0SsrebBkJXfllNCrSFBVmiVEH--uyqggiLfg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TMWWrawLwfAp22io5ffBFQ&oh=00_AfholPA8GTCLewe9BOZELCdWV_NQtY32QWFMS8R4e5ifqw&oe=692EA761)
+![Image of pistol examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467689606_593923079812314_5169865444718688226_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CGggikNQiTkQ7kNvwGOTDjG&_nc_oc=AdluJOVMoF_UtVbRBuFppSDA9wnDV4x0SsrebBkJXfllNCrSFBVmiVEH--uyqggiLfg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Sde69Z0DuSd_-Tpmw6Octw&oh=00_Afi8turSUmA54tNjUFOLbMg77OlE8aM3RJNGWaNa3vAcFg&oe=692FC0A1)
 
 The gun weapon system leverages the Meta Horizon Worlds projectile management system and collision detection to create an effective gun. The system is composed of a multi-entity gun object, called ZombieGun3000 in the Chop ‘N Pop: Graveyard Bash world. This object also includes a ProjectileLauncher gizmo, which manages the release and collision detection of the projectile. Two scripts drive the gun system: `GunCore.ts` and `GunProjectile.ts`.
 

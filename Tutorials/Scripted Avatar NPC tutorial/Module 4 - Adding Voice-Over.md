@@ -97,7 +97,7 @@ Through the desktop editor, you can add sound effects in multiple ways:
 - In the menubar, select **Build menu > Sounds**. Search and explore assets. Drag in an asset into the world. In the Properties panel, click **Play** to preview the asset.
 - Use the desktop editor’s integrated Generative AI tools. In the menubar, click **GenAI**.
 
-![Image of GenAI panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488258850_686408213897133_9130477228299144595_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=e2NecmftzE8Q7kNvwG3puXs&_nc_oc=AdlS7DDP-jHQImJNPPd3mN5sUcVYmTQpOiN5ffifHGdaJ0altJXRZVPcaD5zgW87_rc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=h1yco7wQpcoP4pJepTIUCQ&oh=00_AfjpvEVelKFITkENfdYmlLS0VWuCsQbSArFojlRM5Doakw&oe=692EB096)
+![Image of GenAI panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488258850_686408213897133_9130477228299144595_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=e2NecmftzE8Q7kNvwG3puXs&_nc_oc=AdlS7DDP-jHQImJNPPd3mN5sUcVYmTQpOiN5ffifHGdaJ0altJXRZVPcaD5zgW87_rc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ae8oUKs263iRnXWpOF1rEQ&oh=00_AfhomjxE4BttQq0YohTfmJm9OoMcd0TJ9iQtB3a2cHB33w&oe=692FC9D6)
 
 **Note**: At this time, this feature is in Beta release.
 

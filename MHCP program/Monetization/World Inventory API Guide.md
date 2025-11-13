@@ -122,4 +122,4 @@ this.connectCodeBlockEvent(this.entity,Â hz.CodeBlockEvents.OnPlayerEnterWorld,Â
 }
 ```
 
-Further information about these APIs can be found in the [APIs documentation](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_worldinventory).
+Further information about these APIs can be found in the [APIs documentation](/hw-docs/Reference/core/Classes/WorldInventory.md).

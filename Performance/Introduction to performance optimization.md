@@ -57,7 +57,7 @@ Profiling a performance issue goes through a familiar set of steps:
 
 To capture performance profiles, you will take traces from your world using [VR](/hw-docs/Performance/Performance%20tools/Tracing.md) capture or [web and mobile](/hw-docs/Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md) capture. Those traces are stored in the [Performance](https://horizon.meta.com/creator/performance/traces/) tab under [My Creations](https://horizon.meta.com/creator/worlds_all/) so you can access them online or download them. You will then analyze the traces using [Perfetto](/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md). Perfetto uses files that end in `.ptrace`.
 
-Watch [Connect ‘23 Video Series: World Optimization Best Practices](/hw-docs/Performance/Connect%20'23%20Video%20Series%20World%20Optimization%20Best%20Practices.md) to see profiling in action.
+Watch [Connect ‘23 Video Series: World Optimization Best Practices](/hw-docs/Performance/Connect%20'23%20Video%20Series-%20World%20Optimization%20Best%20Practices.md) to see profiling in action.
 
 World content traces are a special type of trace that allows you to get frame-by-frame details on your world’s performance and understand how the assets in your world might contribute to it. If you take a world content trace you can find the trace in the same [Performance](https://horizon.meta.com/creator/performance/traces/) tab but it will have a `.json` extension. You can find instructions on how to take and analyze a world content trace [here](/hw-docs/Performance/Performance%20tools/World%20Content%20Traces.md).
 

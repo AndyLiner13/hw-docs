@@ -71,11 +71,11 @@ Spawn a new instance of an asset into a running world. The spawn may fail if the
 
 #### Appearance in Library
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452752336_512500807954542_5254547471001885716_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZNdpd_pyZrsQ7kNvwEcWlgT&_nc_oc=Adlb6QiCAV6WPbz-68dU-9M2TOjh-RtI_EwVSf3-oepVAkJwSLo2o5jpcIccX3t9fsY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_zrh9qaWGJ_CCqCGWsubeA&oh=00_AfjLyF32bRy5ZXGrkZFA7OWNZWPOB0oWUqKXLsbyVR-pgA&oe=692EBB67)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452752336_512500807954542_5254547471001885716_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZNdpd_pyZrsQ7kNvwEcWlgT&_nc_oc=Adlb6QiCAV6WPbz-68dU-9M2TOjh-RtI_EwVSf3-oepVAkJwSLo2o5jpcIccX3t9fsY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TAwaCkdbQo6BOrCA1tFwzA&oh=00_Afg4vPUCbXGkNL9ZyrarkEblfcpbnJaL2wtJO_40o8I2MA&oe=692F9C67)
 
 #### Appearance in Composition Pane
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452633644_512500714621218_4261059319210864500_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=tuQuDRjY6RoQ7kNvwEu5gaC&_nc_oc=Adk_XaDmRWXGt34ZCz325SQ6emTzec8Yd8G3NV5L0gNsTxzEy4moInjOcbkHIrcv3kw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=_zrh9qaWGJ_CCqCGWsubeA&oh=00_AfgSTzJdWhahuRQJfB-Fy2Zduk8LNGjr3UA0857oDCWQjA&oe=692EB4D4)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452633644_512500714621218_4261059319210864500_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=tuQuDRjY6RoQ7kNvwEu5gaC&_nc_oc=Adk_XaDmRWXGt34ZCz325SQ6emTzec8Yd8G3NV5L0gNsTxzEy4moInjOcbkHIrcv3kw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=TAwaCkdbQo6BOrCA1tFwzA&oh=00_Afg6HJ95XRm7DmUZcOxgOj6s9h0_JLxcTwsrQ-G5-BjyRg&oe=692F95D4)
 
 #### Parameters
 
@@ -95,15 +95,15 @@ Delete an object that was previously spawned, removing the objects and freeing u
 
 #### Appearance in Library
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452969695_512500704621219_1394257617887084763_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=IjbG8zMtXOgQ7kNvwGbmeG6&_nc_oc=AdnVnsIcIcuqRwfmJ44GOHpdqrgWmsxlTfKPb-BhyY_Qz60Ej5ncCzpLJGCfqc53PAw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_zrh9qaWGJ_CCqCGWsubeA&oh=00_AfhkQw-HrRyXnZUTBVVK8Ak-49wsZfDke885N6_B3R-bmQ&oe=692E954B)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452969695_512500704621219_1394257617887084763_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=IjbG8zMtXOgQ7kNvwGbmeG6&_nc_oc=AdnVnsIcIcuqRwfmJ44GOHpdqrgWmsxlTfKPb-BhyY_Qz60Ej5ncCzpLJGCfqc53PAw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TAwaCkdbQo6BOrCA1tFwzA&oh=00_AfhQhKMBXVVeXMgQlblp4o7e_La-P0CT-gDvQC80BtFOfA&oe=692FAE8B)
 
 #### Appearance in Composition Pane
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452703858_512500701287886_8762871484516485588_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=1ZjoiUXLsR0Q7kNvwE4qlSn&_nc_oc=AdklmSPDFFVlONNIssrR1OQZEk_mYCCvAC16X8yl-Dw3SBEbapu2jf3kwHo3dFZMb_c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_zrh9qaWGJ_CCqCGWsubeA&oh=00_Afj5biwmK2Ri4Uc3fG_tVf6TZxSN9tigQz0qLA27cTJ_zQ&oe=692E9916)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452703858_512500701287886_8762871484516485588_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=1ZjoiUXLsR0Q7kNvwE4qlSn&_nc_oc=AdklmSPDFFVlONNIssrR1OQZEk_mYCCvAC16X8yl-Dw3SBEbapu2jf3kwHo3dFZMb_c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TAwaCkdbQo6BOrCA1tFwzA&oh=00_AfiOITfQH0hIFZAWSHEMk0Iy3ogB6Cau5S4HlrnTQLjUcw&oe=692FB256)
 
 #### Parameters
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452713200_512500797954543_7599535066046834550_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=djPmhIJ0os0Q7kNvwFM6sqQ&_nc_oc=Adl6AWELKg9rzpYPxvsB4ULORoujpzAITqCJj9kqKBjaFpGe9_BFJGq7OUAUFJbGvVU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_zrh9qaWGJ_CCqCGWsubeA&oh=00_AfgEAGyj2oQp2YwXskW9bgbfTmMY6l3f4itSRj4LxNvf4g&oe=692EA21C)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452713200_512500797954543_7599535066046834550_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=YpEXgNdGYssQ7kNvwHLSrcR&_nc_oc=AdlKYGNpoQIapapccsREj9KnF6ZpmvKu829mwAzpq-gq_hRuAb9uHCH5xPKnf9-tHzU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TAwaCkdbQo6BOrCA1tFwzA&oh=00_AfgrEC_OL-Ts4lCuGk_QkiBuvx7wdXEt5jUGSSWLEekUjQ&oe=692FBB5C)
 
 |  |  |
 | --- | --- |
@@ -117,7 +117,7 @@ Delete an object that was previously spawned, removing the objects and freeing u
 
 **How it works:** When a person grabs the object the script is run, the hiddenTemple asset spawns and specifies that the event spawned be sent to self when the spawn completes. When the spawned event is received the spawned object is saved in a variable, so that it can despawn when the object is released.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452978382_512500801287876_8649813773209549898_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UCtMxpLKp2AQ7kNvwGxxGsH&_nc_oc=AdmKAHArsYtzkVQJiU5MWot6Mt04fHmJM8OYlrczINn3pLUNL64aBX8QhAhVVeOKo90&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_zrh9qaWGJ_CCqCGWsubeA&oh=00_Afhlb4vgxw4lVQ6JTtvS5kMD6EjbojHGmHscJS7lhfOWGw&oe=692E9D97)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452978382_512500801287876_8649813773209549898_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UCtMxpLKp2AQ7kNvwGxxGsH&_nc_oc=AdmKAHArsYtzkVQJiU5MWot6Mt04fHmJM8OYlrczINn3pLUNL64aBX8QhAhVVeOKo90&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TAwaCkdbQo6BOrCA1tFwzA&oh=00_AfhokMshMQKcflG0T-LWQnl1vZnDyuyMoMsjpM4qrrzHFg&oe=692FB6D7)
 
 #### Updated Assets Only Appear In New Instances
 

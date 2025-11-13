@@ -6,7 +6,7 @@ Learn
 
 The trigger zone [gizmo](/hw-docs/Gizmos/About%20gizmos.md) triggers an event when you enter or exit a specified area.
 
-![Trigger zone gizmo](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/524847180_776044178266869_4827202741838398310_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xn4GC3QPEzYQ7kNvwG_BP5v&_nc_oc=AdnwKHuN38anqK5cihkDulxBXmRtDoi4Rt2p8BicYRdfseRWIPNv5OroLs7pf2UK_lU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ahMDn0asJPO5r7MTfnrqjg&oh=00_AfjqSBZGn76PEQYdiKzmPKRiMiDcY55XHvsuXH61xlvUFg&oe=692E9DD8)
+![Trigger zone gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578801646_863563276181625_6970024535789345268_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=r6VXB9u8MI0Q7kNvwGCQy4v&_nc_oc=AdkkDYPILAtua1i79uqDR92UkiNnu49jatfVCnmDCb9Sy16XfCUPeYlFeL0ps-ak_QI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3GwVk5UDqNBKnwJCHTeUIQ&oh=00_AfgiW8q6_ktioWzTNb5L5qdDIjpT41Pcprn00QZ68EJN3w&oe=692F9D1B)
 
 ## Use the trigger zone gizmo
 

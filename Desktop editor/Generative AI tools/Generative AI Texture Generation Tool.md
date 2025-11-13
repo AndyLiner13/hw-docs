@@ -38,10 +38,10 @@ Gen AI Tool Availability & Rates
 - Open the Desktop Editor and open a world in **Create** mode.
 - To open the Chat Panel, click on the **GenAI** icon in the top toolbar bar.
 
-  ![Gen AI toolbar icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/469996898_608208298383792_2876421790059817265_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=nopntpqF078Q7kNvwF732Yi&_nc_oc=Adm0kmwZx2DLPm6qImMt2dNXWA0qEHOruJcliNas09D1XTZefpA7u7MpqcZdmxpqEl0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=p60PC3k_xqYgQrdt4n_hlA&oh=00_AfigwRlXaGYp7EtFXgWnNdhAbNK__ZxaqXfv2YZcHJb8zQ&oe=692EC25D)
+  ![Gen AI toolbar icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581938662_863563282848291_2344867213088467592_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=meov2htSsaIQ7kNvwFOj1LA&_nc_oc=AdkZj0ask8V5zZh-aHA6gowJ77HzESGkmdFsOrh1Ndl9iniLRGjCIal1EVTLo2q625U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_Afi5HmpawcL3bnFzX3PMg4jJ0g8vIQkiZlkW6jfZG_4zsw&oe=692FA032)
 - Swap the mode to **Texture**.
 
-  ![Gen AI panel texture icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470059170_608208295050459_6156590856430227233_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3aK5zrWAQ9sQ7kNvwGMV-gt&_nc_oc=AdkwUcyG3crFYzg5vbJgWmIltdqqyGxTwDNrn8BFc0cemTlVtct3on6ZcpG0psQ11KE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=p60PC3k_xqYgQrdt4n_hlA&oh=00_AfjSKgd2NWXzsyOnU9YQZvjMJeLJKWTrh6PVxEOoB9DvJg&oe=692EA964)
+  ![Gen AI panel texture icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470059170_608208295050459_6156590856430227233_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3aK5zrWAQ9sQ7kNvwGMV-gt&_nc_oc=AdkwUcyG3crFYzg5vbJgWmIltdqqyGxTwDNrn8BFc0cemTlVtct3on6ZcpG0psQ11KE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfiNmu9Qu9uM_Jrk5O8y-V3uPkKzefztFMoSFyQoB4Dy4w&oe=692FC2A4)
 
 ## Generating a texture and previewing it
 
@@ -50,25 +50,25 @@ Gen AI Tool Availability & Rates
 - Press **Generate**. You will see a thumbnail of the texture after generation is complete.Click on the thumbnail to toggle the texture preview on and off.
 - The generated texture will preview on the mesh but it will not be permanently assigned to the mesh yet. You must press, **Save and apply texture** to assign the texture to the mesh permanently.
 
-  ![Generated texture sample](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469882327_608208291717126_3224448195746273960_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=yJ_4TW1OHoQQ7kNvwHLRyKz&_nc_oc=AdmVZMRWsyv8Yz325C-mooc0VGWn4ygh6aXlQOrqWQycPD14ySIU-FnFM4bH5lY-wcE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=p60PC3k_xqYgQrdt4n_hlA&oh=00_AfhHBvdpDrWdhI4Q2EGnPNJ6Iqd9o6Tn-W-Xy7jyKyeLPA&oe=692EBEA5)
+  ![Generated texture sample](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469882327_608208291717126_3224448195746273960_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=yJ_4TW1OHoQQ7kNvwHLRyKz&_nc_oc=AdmVZMRWsyv8Yz325C-mooc0VGWn4ygh6aXlQOrqWQycPD14ySIU-FnFM4bH5lY-wcE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfieuFSwNepDQfa3LKRGrBCEiguVJVTheDP2iUCgjXVS7w&oe=692F9FA5)
 
 ## Saving your texture to your computer
 
 Press **Download to local device** to save the texture to your computer.
 
-![Gen AI download to local device](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470137569_608208301717125_2974949490344458798_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=cS6DLqjgx58Q7kNvwF3Xbg1&_nc_oc=AdkC690qURYXU5Qq_9NxadpET3O0xn22Fq4aaJlm5yEd8OGZNfczy45UU_K-w4tH8bQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=p60PC3k_xqYgQrdt4n_hlA&oh=00_AfiDlssVQCF2lsfS0DR57u8wLoKFRO7cVhExYJ3Ap56Niw&oe=692EBF53)
+![Gen AI download to local device](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470137569_608208301717125_2974949490344458798_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=UlDHyh0vr2gQ7kNvwGd7SSm&_nc_oc=AdmP-uWiWFNFmjktwCTvasaC4GNjOZNSdlt3euQ7UrjSZogHOJFIlZft09g-IF4QoWA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfiK36KjEIL-HPRK4OAvXQ4pwXXHWAM-Qa54avdo_ppeMA&oe=692FA053)
 
 ## Saving your texture to your asset library
 
 Press **Add to asset library** to save the texture to your asset library without applying it to the mesh.
 
-![Gen AI save to asset library](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470144658_608208285050460_9030351191851486629_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=MXz-s3_fFxIQ7kNvwGs7IBL&_nc_oc=AdneTbSTUa9DwVzTJl9H7Sr-GYYKP3x4mjTZ4r90S72Vv3NxG1dmX6bdQRqMQNKAb94&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=p60PC3k_xqYgQrdt4n_hlA&oh=00_AfhfEHEjoKkjFIVTQxXnwVDxAleduzpS5wcl8vNV_X7zxg&oe=692E9653)
+![Gen AI save to asset library](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470144658_608208285050460_9030351191851486629_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PdVh2d5VieQQ7kNvwGomPtE&_nc_oc=Adl_I2TZcgsMNAhBULhtGTw0QCBvJVXVpJBR1wJDH22kBCTR56mkfctHrhZhoG5PlMA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfgGIr0EqYRyu8gxUF-ZCZNDbBlUaGKHqkRWPJ3thJ1O5w&oe=692FAF93)
 
 ## Assigning a saved texture from your library to a mesh
 
 Open your Asset Library and select the object you want to assign a texture to. In the property panel’s **Texture Asset** dropdown menu, select the texture you want.
 
-![Assign generated texture to mesh](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/469996977_608208288383793_3706670179926808668_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Dd-YWFXxEY4Q7kNvwGM3o4P&_nc_oc=AdnnChVu10iDkJMjS8A6ELsbVHAhqQBWWgUpjJYNgwb8AXlkuCg5G0zSO1QkDsy2zt0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=p60PC3k_xqYgQrdt4n_hlA&oh=00_AfjCfMkYwO4lyw34pV9uaK4VGK2rwUrJPE1_AZd9cnVk8A&oe=692E9685)
+![Assign generated texture to mesh](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/469996977_608208288383793_3706670179926808668_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Dd-YWFXxEY4Q7kNvwGM3o4P&_nc_oc=AdnnChVu10iDkJMjS8A6ELsbVHAhqQBWWgUpjJYNgwb8AXlkuCg5G0zSO1QkDsy2zt0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfidfDY30TLXLDH-wgcGxzwmv7oAcNBbG8wznWGLpNsAgQ&oe=692FAFC5)
 
 ## UV Requirements for Texture Generation
 

@@ -4,7 +4,7 @@ API reference
 
 # TaskEndPayload type
 
-A payload sent by the `OnTaskEnd` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnTaskEnd` [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).
 
 ## Signature
 

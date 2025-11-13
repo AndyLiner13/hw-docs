@@ -11,10 +11,10 @@ Horizon scripts are run on the server by default, enabling your world to maintai
 To set your script to run in local scripting mode in Desktop Editor, perform the following steps.
 
 - In Desktop Editor, select **Scripts** in the menu bar to open the Scripts panel.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652035_512510781286878_7011830116582645952_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=rltW8z6oOXgQ7kNvwFx0tqM&_nc_oc=AdnfAUzCbhmJkh52fzYhlLfvDjwuy4sPx2VuYMmT91ibEqRUFiYl_dyIVaDsFdNUbU0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=pQcSrXpXzGFGt5WhjDpRXA&oh=00_AfhZhWDoiAOlCqu0Cevgc6gmxD9G7gRLheg_ou70-h-Ypg&oe=692EB348)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652035_512510781286878_7011830116582645952_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=rltW8z6oOXgQ7kNvwFx0tqM&_nc_oc=AdnfAUzCbhmJkh52fzYhlLfvDjwuy4sPx2VuYMmT91ibEqRUFiYl_dyIVaDsFdNUbU0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kZyVSnza69sP-_J48aYNKA&oh=00_Afi_uqdtMjRghk4C7Gx7eOlLunitC0IknhMw5CLiNhWxfg&oe=692FCC88)
 - Click the more options menu of your script and change the **Script Execution Mode** from **Default** to **Local**.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452577880_512510777953545_862034031477793040_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=lY9CNWyS93YQ7kNvwEztsNG&_nc_oc=AdnlLfiNVDIuWnKa-0ivyooGFpWSFr5LA-NvJSmlxxBkM6VIIWV3VqmOcXt3KBxEjAg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pQcSrXpXzGFGt5WhjDpRXA&oh=00_AfjW8KNBxIIwnZ2CB4fIJi93qj8jlDLkgnKmRnlNCGCLVQ&oe=692E9186)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452577880_512510777953545_862034031477793040_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=rgc2fg7R6QYQ7kNvwFhuISk&_nc_oc=AdkSsHZXw_jkxeuQF48-lWmxpIsmnd0B65tAG9ZrvI3WS2Bz7TW10oPzlt_0AHA3jYc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kZyVSnza69sP-_J48aYNKA&oh=00_AfgWgTeYe-6Nf9PmT2vaPz-cXpzVf18wkozXOywFURPXig&oe=692FAAC6)
 
 ## Entity ownership
 

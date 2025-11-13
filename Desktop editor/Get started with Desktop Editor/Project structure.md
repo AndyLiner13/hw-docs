@@ -16,7 +16,7 @@ Every world is organized into a [hierarchy](/hw-docs/Desktop%20editor/Hierarchy%
 
 ## Assets
 
-[Assets](/hw-docs/Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) for your projects, such as object geometry, images, and audio are stored online once they are uploaded to one of your worlds. Once you have uploaded an asset, you may use it in any of your worlds. You may create some types of assets directly in desktop editor, such as basic 3D objects, or you may import assets like images, [audio](/hw-docs/Desktop%20editor/Help%20and%20reference/Meta%20Horizon%20Worlds%20Audio%20Ingestion.md), and [custom models](/hw-docs/custom-model-import/creating-custom-models-for-horizon-worlds/creating-a-custom-model) from other tools.
+[Assets](/hw-docs/Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) for your projects, such as object geometry, images, and audio are stored online once they are uploaded to one of your worlds. Once you have uploaded an asset, you may use it in any of your worlds. You may create some types of assets directly in desktop editor, such as basic 3D objects, or you may import assets like images, [audio](/hw-docs/Desktop%20editor/Help%20and%20reference/Meta%20Horizon%20Worlds%20Audio%20Ingestion.md), and [custom models](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md) from other tools.
 
 There is also a collection of free, publicly available stock assets you can try out for use in your worlds in the [public asset library](/hw-docs/Desktop%20editor/Assets/Public%20Assets.md), which is available directly in the desktop editor.
 

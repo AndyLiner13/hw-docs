@@ -90,7 +90,7 @@ Controls the playing of sounds that are heard by all players throughout the worl
 
 Behind the back wall of the starting area, you can find the following tools.
 
-![Screenshot of the testing tool gizmos available in the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452702340_512509544620335_2067269565763808907_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=MuoAXRQRJ8EQ7kNvwE3W0fZ&_nc_oc=AdnrLWSdzNiHnFNd1jl3w4_qXQAsBbXZGhtkmFf92hULE61EaLm6-BxdgKEa86p0yzA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-XH-VrTqsyBUOxVH3d01fg&oh=00_AfjZripKdU9NysZpfPVRSSFn5BbTq4NZxACgscfZkim67A&oe=692EB5F8)
+![Screenshot of the testing tool gizmos available in the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452702340_512509544620335_2067269565763808907_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=NFY-kOvISQkQ7kNvwHnKOFo&_nc_oc=AdmcS9yFHVf1V8_DOURQt-gXLcJtdYZtrIIIZPTmtBGzE5XAADXlWc_QIDD3JnVxBbE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2gBf72_ZvT7b-mqpclcNCw&oh=00_AfgE-7HYZ8sV3byU2QadKOERdOzYIeXAwYR3ed8CoaVa2A&oe=692F96F8)
 
 **Tip**: Move these tools into the gameplay area to take advantage of them.
 
