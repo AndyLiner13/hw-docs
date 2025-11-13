@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-configurations
 
-Learn
-
 # Customizing Noesis UI Behavior
 
 This topic describes how you can customize the behavior of NoesisUI panels in **Properties** by configuring settings for display mode, rendering dimensions, interaction modes, and visual appearance.

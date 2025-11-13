@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/world-capacity
 
-Learn
-
 # World Capacity dialog
 
 ## Viewing the World capacity guidelines dialog

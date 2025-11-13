@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents
 
-API reference
-
 # TurboEvents Variable
 
 The events sent by the [Turbo](/hw-docs/Reference/analytics/Variables/Turbo.md) instance to capture analytics data from a world. This variable defines the events to pass to the `Turbo.send(event, payload)` method and the data fields to use in the payload.

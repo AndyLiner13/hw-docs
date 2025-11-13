@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle
 
-Learn
-
 # TypeScript Script Lifecycle
 
 This document describes the lifecycle of a TypeScript script and its components in Meta Horizon Worlds. Understanding the order of these events may help in debugging or optimizing your scripts.

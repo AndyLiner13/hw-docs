@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement
 
-Learn
-
 # Scripted Avatar Movement
 
 The Player class includes locomotion features for programmatically controlling avatar movement. Create scripted movement sequences, implement tap-to-move mechanics, rotate players, and trigger jumps with customizable speed options.

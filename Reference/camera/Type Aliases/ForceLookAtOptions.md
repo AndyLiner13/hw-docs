@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_forcelookatoptions
 
-API reference
-
 # ForceLookAtOptions type
 
 Options available when forcing a camera to look at a target.

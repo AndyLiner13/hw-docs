@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/project-structure
 
-Learn
-
 # Project structure
 
 A project in Meta Horizon Worlds consists of a world, assets and asset templates, scripts, and other resources that are collectively used to create an interactive virtual environment. The Meta Horizon Worlds desktop editor organizes your projects at the world level, allowing you to enter each world, edit objects and settings, and make changes to assets and asset templates.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/data-as-an-asset
 
-Learn
-
 # Data as an Asset
 
 Data as an Asset makes it easier to ingest and access a large amount of data. You can use this data to generate and populate your worlds with content for players as part of a live service model.

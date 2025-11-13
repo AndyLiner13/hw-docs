@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-4-advanced-lists
 
-Learn
-
 # Zone 4 - Advanced Lists
 
 This zone covers sophisticated list implementations that can handle dynamic data and complex interactions.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-13-teleporter-system
 
-Learn
-
 # Module 13 - Teleporter System
 
 The teleporter system provides fast travel between different areas of the world. It includes both unlockable teleporters (for FTUE progression) and always-available teleporters for general world navigation.

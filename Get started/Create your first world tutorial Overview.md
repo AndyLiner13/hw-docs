@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world-intro
 
-Learn
-
 # Create your first world tutorial Overview
 
 Welcome to the “Create Your First World” tutorial.

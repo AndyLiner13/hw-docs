@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-8-weapon-systems-pistol
 
-Learn
-
 # Module 8 - Weapon Systems - Handgun
 
 The pistol weapon system supports the pistols available in the Chop ‘N Pop: Graveyard Bash world.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/hierarchy-window/renaming-objects
 
-Learn
-
 # Renaming Objects
 
 This feature enables you to rename objects and gizmos in the hierarchy, so they are easy to find later.

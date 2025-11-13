@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusedinteractionoptions
 
-API reference
-
 # FocusedInteractionOptions type
 
 The options for the [Player.enterFocusedInteractionMode()](/hw-docs/Reference/core/Classes/Player.md#enterfocusedinteractionmode) method.

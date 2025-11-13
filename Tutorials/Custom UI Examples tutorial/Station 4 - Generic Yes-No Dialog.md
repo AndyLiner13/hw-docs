@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-4-generic-yes-no-dialog
 
-Learn
-
 # Station 4 - Generic Yes/No Dialog
 
 This station demonstrates how to set up a generic dialog with Yes/No buttons.

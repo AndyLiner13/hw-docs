@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-0-setup
 
-Learn
-
 # Station 0 - Setup
 
 ![Custom UI Examples thumbnail](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475919694_646003171270971_7027298327403430135_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=fyF-wo_88GkQ7kNvwGhy9Kn&_nc_oc=Adl4LWC2epjGRJjz_Zki6KXIl5UYtzIpH5SwdgkqGmZg6FsvoOUa1k54osme7r6A-a8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QxhtX3LzoR6E4_Yw-Fnscg&oh=00_AfgyhMsu_HG_Mh46QBdye5abeep7mSLKk6JV3VbXQtf5VQ&oe=692FA1AB)

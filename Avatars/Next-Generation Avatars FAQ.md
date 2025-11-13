@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/next-gen-avatars-faq
 
-Learn
-
 # Next-Generation Avatars FAQ
 
 **Q: I understand testing with popular worlds but is it possible to have a test world which we could also put together, where we can have different lighting, different attachable, stairs, flying mechanic, climbing mechanic etc.**

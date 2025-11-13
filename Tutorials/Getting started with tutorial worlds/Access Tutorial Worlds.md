@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds
 
-Learn
-
 # Access Tutorial Worlds
 
 You can create a copy of any of the tutorial worlds, which allows you to explore scripts, manipulate entities, and learn how the world works.

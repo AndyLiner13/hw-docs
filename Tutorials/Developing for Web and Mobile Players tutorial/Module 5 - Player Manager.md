@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-5-player-manager
 
-Learn
-
 # Module 5 - Player Manager
 
 Now, to put the Camera Manager to use. Open the sysPlayerManager script.

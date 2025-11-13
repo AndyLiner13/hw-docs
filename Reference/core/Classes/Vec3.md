@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3
 
-API reference
-
 # Vec3 Class
 
 Extends *[Comparable](/hw-docs/Reference/core/Interfaces/Comparable.md)<[Vec3](/hw-docs/Reference/core/Classes/Vec3.md)>*

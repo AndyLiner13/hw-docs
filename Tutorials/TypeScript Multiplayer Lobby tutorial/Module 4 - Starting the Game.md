@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/multiplayer-lobby-tutorial/module-4-starting-the-game
 
-Learn
-
 # Module 4 - Starting the Game
 
 ## Start Game Trigger Zone

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_throwoptions
 
-API reference
-
 # ThrowOptions type
 
 Options for customising the effect of calling the [Player.throwHeldItem()](/hw-docs/Reference/core/Classes/Player.md#throwhelditem) method.

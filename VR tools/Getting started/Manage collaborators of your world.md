@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/manage-collaborators-in-horizon
 
-Learn
-
 # Manage collaborators of your world
 
 Collaborators are people you can add to your world to build with you. Collaborators will have the same building capabilities as the original creator of the world, meaning that anyone added as a collaborator will be able to build, edit and change anything in that world.

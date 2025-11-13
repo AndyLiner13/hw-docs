@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_analytics
 
-API reference
-
 # analytics Variable
 
 Logs analytics events to the Creator Analytics dashboard and Creator Analytics table.

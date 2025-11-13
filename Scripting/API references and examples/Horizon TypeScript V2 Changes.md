@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/horizon-typescript-v2-changes
 
-Learn
-
 # Horizon TypeScript V2 Changes
 
 All new worlds use the TypeScript API V2 by default. We strongly recommend upgrading your worlds to this version of the API, as previous versions are no longer being updated.

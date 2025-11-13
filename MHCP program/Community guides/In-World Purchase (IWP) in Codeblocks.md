@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/in-world-purchase-iwp-in-codeblocks
 
-Learn
-
 # In-World Purchase (IWP) in Codeblocks
 
 Author: SeeingBlue

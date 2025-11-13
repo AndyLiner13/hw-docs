@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/bonus-program-overview
 
-Learn
-
 # Bonus Program Overview
 
 We offer a variety of creator bonuses as a way of rewarding Meta Horizon Creator Program members contributing their talent and hard work to the Meta Horizon Worlds ecosystem.

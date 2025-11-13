@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/creating-importing-viewing-and-spawning-assets
 
-Learn
-
 # Creating, importing, viewing, and spawning assets
 
 A world is only as good as its assets, and in this article you will learn how to create, import, spawn, and view assets for your world.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_interactioninfo
 
-API reference
-
 # InteractionInfo type
 
 Information about an input received from the player during [Focused Interaction](/hw-docs/Reference/core/Classes/FocusedInteraction.md) mode.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_scrollview
 
-API reference
-
 # ScrollView() Function
 
 Creates a ScrollView in a UI panel.

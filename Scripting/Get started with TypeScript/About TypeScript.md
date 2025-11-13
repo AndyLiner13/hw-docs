@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/about-typescript
 
-Learn
-
 # About TypeScript
 
 This topic explains some of the basics about TypeScript and how it’s used to automate entity behavior in Meta Horizon Worlds.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/typescript
 
-Learn
-
 # Scripting using TypeScript
 
 Important

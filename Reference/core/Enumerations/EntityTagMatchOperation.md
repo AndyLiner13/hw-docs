@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entitytagmatchoperation
 
-API reference
-
 # EntityTagMatchOperation Enum
 
 Defines the valid matching operations that are available when using [getEntitiesWithTags()](/hw-docs/Reference/core/Classes/World.md#getentitieswithtags) to find world entities.

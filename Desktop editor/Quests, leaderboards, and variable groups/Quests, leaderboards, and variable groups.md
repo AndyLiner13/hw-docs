@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/quests-leaderboards-and-variable-groups
 
-Learn
-
 # Quests, leaderboards, and variable groups
 
 Quests provide you with tools to create rich and engaging progression experiences in your worlds. Leaderboards let you track scores. Variable groups are containers for persistent variables

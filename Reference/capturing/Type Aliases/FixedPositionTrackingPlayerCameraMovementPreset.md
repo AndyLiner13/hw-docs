@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_fixedpositiontrackingplayercameramovementpreset
 
-API reference
-
 # FixedPositionTrackingPlayerCameraMovementPreset type
 
 A [CameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/CameraMovementPreset.md) option that keeps the player avatar in the center of the frame from a fixed position.

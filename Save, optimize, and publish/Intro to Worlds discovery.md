@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/intro-to-worlds-discovery
 
-Learn
-
 # Intro to Worlds discovery
 
 ## Introduction

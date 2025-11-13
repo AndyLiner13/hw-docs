@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_textureasset
 
-API reference
-
 # TextureAsset Class
 
 Extends *[Asset](/hw-docs/Reference/core/Classes/Asset.md)*

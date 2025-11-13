@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/audio-apis
 
-Learn
-
 # Audio APIs
 
 The `AudioGizmo` class enables creators to use TypeScript to add music and sound effects to their worlds. The **AudioGizmo** API provides control of the gizmo’s audio playback, volume, and pitch settings. This enables you to programmatically enhance your world’s audio capabilities.

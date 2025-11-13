@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/using-controllers-in-build-mode
 
-Learn
-
 # Use your controllers in Build Mode of Meta Horizon Worlds
 
 Controllers replace your hands in Build Mode. Your primary controller has your main tools, while your secondary controller has supporting actions. Controllers can display up to four options at a time which can be selected by pushing the thumbstick up, down, left or right.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-lock-and-unlock
 
-Learn
-
 # Object Lock and Unlock
 
 Locking objects can be helpful for:

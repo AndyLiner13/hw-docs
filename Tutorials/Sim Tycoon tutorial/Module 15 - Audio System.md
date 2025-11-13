@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-15-audio-system
 
-Learn
-
 # Module 15 - Audio System
 
 The audio system provides sound effects and feedback throughout the game to enhance player experience and provide clear audio cues for various actions and events.

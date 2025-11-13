@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/mhcp-partner-page
 
-Learn
-
 # How to Become a Meta Horizon Creator Partner
 
 ## Overview

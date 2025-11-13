@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/part-one-understanding-asset-spawning-with-seeingblue
 
-Learn
-
 # Part One: Understanding Asset Spawning with SeeingBlue
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453526177_398792019414043_8505170697871598268_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=f7GK_8CWN1oQ7kNvwFY6p8J&_nc_oc=Adlod8kutM7rKy-bF2UkgtPMLFiWbjhd2cMMBdxBjaoa02T46gIPOofeE0bPBN-eEl4&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=Fh78dGQBM3JR9ncOjIixyA&oh=00_AfjGkigFsuUY-X_1E1DqlEhGz5Vio5egkgjuEGPKf6XH6g&oe=691B3ABE)

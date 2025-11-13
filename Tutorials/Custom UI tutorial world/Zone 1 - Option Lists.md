@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-1-option-lists
 
-Learn
-
 # Zone 1 - Option Lists
 
 This zone focuses on various types of option lists that provide players with interactive choices.

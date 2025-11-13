@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/faq/how-to-attach-a-media-file-from-the-headset-to-the-ticket-submission-form
 
-Learn
-
 # How to Attach a Media File from the Headset to the Ticket Submission Form?
 
 **1. In Headset:**

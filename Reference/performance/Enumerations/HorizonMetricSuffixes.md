@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizonmetricsuffixes
 
-API reference
-
 # HorizonMetricSuffixes Enum
 
 The suffixes for custom metric values. These are abbreviated in the tools.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_durationsampler
 
-API reference
-
 # DurationSampler Class
 
 > Warning: This API is now obsolete.

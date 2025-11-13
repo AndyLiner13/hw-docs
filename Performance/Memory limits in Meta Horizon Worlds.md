@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/memory-limits-in-horizon-worlds
 
-Learn
-
 # Memory limits in Meta Horizon Worlds
 
 On July 12, 2024, Meta Horizon Worlds will begin enforcing a 6 GB memory limit in Edit Mode on Quest 2 and Quest 3 devices. Worlds that exceed this limit run the risk of causing the device to close the Meta Horizon Worlds app.

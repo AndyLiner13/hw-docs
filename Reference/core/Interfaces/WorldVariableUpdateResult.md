@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_worldvariableupdateresult
 
-API reference
-
 # WorldVariableUpdateResult Interface
 
 Result of a world variable update operation.

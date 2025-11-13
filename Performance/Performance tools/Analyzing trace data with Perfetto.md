@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/analyzing-trace-data-with-perfetto
 
-Learn
-
 # Analyzing trace data with Perfetto
 
 In another article, you learned [how to capture a trace](/hw-docs/Performance/Performance%20tools/Tracing.md) using the Utilities menu found on your wearable. Taking it one step further, this guide will help you understand where to find those traces and how to get the most out of the information you’ve captured. We’ve also include a handy guide to [Perfetto Tool Keyboard shortcuts](/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md#perfetto-tool-keyboard-shortcuts) that you can reference while working within [Perfetto](https://ui.perfetto.dev/).

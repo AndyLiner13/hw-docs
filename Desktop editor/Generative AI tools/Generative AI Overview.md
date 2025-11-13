@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-overview
 
-Learn
-
 # Generative AI Overview
 
 When using the Meta Horizon Worlds desktop editor, you can leverage a suite of generative AI tools to help create things like assets and scripts for your world.

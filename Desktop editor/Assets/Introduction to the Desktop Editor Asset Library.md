@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/introduction-to-the-desktop-editor-asset-library
 
-Learn
-
 # Introduction to the Desktop Editor Asset Library
 
 The Asset Browser in the Desktop Editor provides the ability to manage your asset library better than before. The Desktop Editor Asset Library allows you to:

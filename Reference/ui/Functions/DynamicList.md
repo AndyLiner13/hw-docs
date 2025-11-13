@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_dynamiclist
 
-API reference
-
 # DynamicList() Function
 
 Creates a DynamicList component.

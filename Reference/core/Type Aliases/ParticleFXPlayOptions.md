@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particlefxplayoptions
 
-API reference
-
 # ParticleFXPlayOptions type
 
 The settings for [playing](/hw-docs/Reference/core/Classes/ParticleGizmo.md#play) a particle effect.

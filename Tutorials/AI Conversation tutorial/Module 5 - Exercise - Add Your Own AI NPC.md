@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-5-exercise-add-your-own-ai-npc
 
-Learn
-
 # Module 5 - Exercise - Add Your Own AI NPC
 
 This hands-on exercise guides you through creating and configuring your own AI NPC from scratch.

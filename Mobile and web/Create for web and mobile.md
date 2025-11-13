@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/create-for-web-and-mobile
 
-Learn
-
 # Create for web and mobile
 
 Worlds in Meta Horizon Worlds are available on mobile and web, as well as VR, by default. Learn more about how to optimize your world for mobile and web to reach a larger audience.

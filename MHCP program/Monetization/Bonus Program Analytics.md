@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-portal-bonus-program-analytics
 
-Learn
-
 # Bonus Program Analytics
 
 - Open your browser and navigate to the [Developer Dashboard](https://developers.meta.com/horizon/manage/worlds/).

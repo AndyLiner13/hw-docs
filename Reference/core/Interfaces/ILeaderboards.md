@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_ileaderboards
 
-API reference
-
 # ILeaderboards Interface
 
 The leaderboards for the players in the world.

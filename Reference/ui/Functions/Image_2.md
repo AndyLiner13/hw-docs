@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_image_2
 
-API reference
-
 # Image\_2() Function
 
 Creates an Image component for a UI panel.

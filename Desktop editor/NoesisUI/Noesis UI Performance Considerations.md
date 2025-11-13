@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-performance-considerations
 
-Learn
-
 # Noesis UI Performance Considerations
 
 NoesisUI is designed to enable creators to build more compelling, creative, and performant 2D UI panels. It provides significantly improved rendering performance for 2D UI components compared to previous solutions. When working in the desktop editor, understanding specific configurations and trade-offs is essential for maintaining optimal performance in your world.

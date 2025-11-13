@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/creating-a-custom-model
 
-Learn
-
 # Creating a Custom Model
 
 This document explains how to create custom models that will provide highly detailed 3D objects you can use to build rich visual assets and experiences in Horizon. These assets consist of shapes, textures, and materials that simulate real world objects or scenes.

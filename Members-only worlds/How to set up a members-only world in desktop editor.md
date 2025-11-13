@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/how-to-set-up-a-membersonly-world
 
-Learn
-
 # How to set up a members-only world in desktop editor
 
 Members-only worlds deprecated

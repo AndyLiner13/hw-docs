@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/using-music-audio-recordings-horizon-worlds
 
-Learn
-
 # Using music in audio recordings in Meta Horizon Worlds
 
 **Note**: This feature is slowly rolling out and may not be available to you yet.

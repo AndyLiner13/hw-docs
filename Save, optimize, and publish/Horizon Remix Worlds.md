@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/horizon-remix-worlds
 
-Learn
-
 # Horizon Remix Worlds
 
 ## Remix Worlds Overview

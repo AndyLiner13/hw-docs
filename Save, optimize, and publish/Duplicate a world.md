@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/duplicate-a-world-in-horizon
 
-Learn
-
 # Duplicate a world
 
 ## To duplicate a world:

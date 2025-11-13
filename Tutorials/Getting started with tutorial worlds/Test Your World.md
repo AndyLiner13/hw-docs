@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/test-your-world
 
-Learn
-
 # Test Your World
 
 During development, you are likely to be regularly testing your world. This page outlines some approaches for testing.

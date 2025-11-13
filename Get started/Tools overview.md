@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-started/tools-overview
 
-Learn
-
 # Tools overview
 
 Meta Horizon provides a variety of tools so you can create engaging worlds quickly and efficiently.

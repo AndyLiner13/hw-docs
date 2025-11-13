@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/building-monetization-trust-in-the-metaverse
 
-Learn
-
 # Building Monetization and Trust in the Metaverse
 
 A trusted and profitable digital economy in the metaverse depends on three core pillars:

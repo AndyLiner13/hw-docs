@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui
 
-Learn
-
 # Building dynamic custom UI
 
 This topic continues [Building an interactive custom UI](/hw-docs/Desktop%20editor/Custom%20UI/Building%20dynamic%20custom%20UI.md), and so far the UI panel is still static. In this topic, you will make it dynamic so that after the user clicks the button, the text content and color are updated.

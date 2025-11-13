@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_custommetricsbuffer
 
-API reference
-
 # CustomMetricsBuffer Class
 
 A list that contains a buffer of HorizonTraceEvents to send to the event aggregation pipeline for processing.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-8-json-as-datasource-for-custom-uis
 
-Learn
-
 # Station 8 - JSON as Datasource for Custom UIs
 
 > **Note**: The Text as Assets feature may not be available to all users. In the desktop editor menu bar, open the Asset Library tab. When you click **Add New**, `Text` should be one of the options. If not, this tutorial does not work for your account.

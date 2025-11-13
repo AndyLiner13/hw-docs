@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_binding
 
-API reference
-
 # Binding Class
 
 Extends *[ValueBindingBase](/hw-docs/Reference/ui/Abstract%20Classes/ValueBindingBase.md)<T>*

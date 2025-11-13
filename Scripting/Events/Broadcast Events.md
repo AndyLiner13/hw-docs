@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/broadcast-events
 
-Learn
-
 # Broadcast Events
 
 A broadcast event is a type of local event that notifies all objects subscribed to the same event without directly referencing them. This enables your code to be less dependent on knowing which objects should receive the event, reducing code complexity. Like local events, broadcast events are performed synchronously, but the execution order is random and can only be received by listeners registered on the same client.

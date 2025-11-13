@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusuioptions
 
-API reference
-
 # FocusUIOptions type
 
 Options for the [Player.focusUI()](/hw-docs/Reference/core/Classes/Player.md#focusui) method including settings to apply to the camera view and animation transitions.

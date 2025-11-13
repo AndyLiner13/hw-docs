@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/mhcp-mentor-workshop-world-planning
 
-Learn
-
 # MHCP Mentor Workshop Video: World Planning Workshop with 5andw1ch and wafflecopters
 
 In this workshop, 5andw1ch and wafflecopters introduce structured pre-production techniques to strengthen your development process. You’ll also gain access to planning docs and hands-on exercises that focus on:

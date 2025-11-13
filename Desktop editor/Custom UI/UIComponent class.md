@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/uicomponent-class
 
-Learn
-
 # UIComponent class
 
 This topic describes the UIComponent class that is used to create custom UIs in your world. The script attached to a Custom UI gizmo extends the new [`UIComponent`](/hw-docs/Reference/ui/Abstract%20Classes/UIComponent.md) class instead of the regular [`Component`](/hw-docs/Reference/core/Abstract%20Classes/Component.md) class. `UIComponent` is similar to `Component` in many ways, for example, both can access the `this.world` object and listen to events. But the `UIComponent` class includes specialized properties and methods.

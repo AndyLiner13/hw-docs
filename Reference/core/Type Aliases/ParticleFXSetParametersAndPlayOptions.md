@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particlefxsetparametersandplayoptions
 
-API reference
-
 # ParticleFXSetParametersAndPlayOptions type
 
 ParticleFXPlayOptions controls how the particle is played. Extends [ParticleFXPlayOptions](/hw-docs/Reference/core/Type%20Aliases/ParticleFXPlayOptions.md) and [ParticleFXSetParametersOptions](/hw-docs/Reference/core/Type%20Aliases/ParticleFXSetParametersOptions.md).

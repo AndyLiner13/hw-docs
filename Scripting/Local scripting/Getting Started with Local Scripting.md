@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting
 
-Learn
-
 # Getting Started with Local Scripting
 
 Horizon scripts are run on the server by default, enabling your world to maintain a consistent experience for all players. But, because scripts run on the server, script actions can experience latency and cause disruptions. To improve responsiveness within a world, you can convert your TypeScript logic to run in local scripting mode. This runs the script on the user’s device rather than on the server if the device owns the entity the script is bound to, enhancing overall performance.

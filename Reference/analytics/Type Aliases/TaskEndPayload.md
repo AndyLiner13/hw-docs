@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_taskendpayload
 
-API reference
-
 # TaskEndPayload type
 
 A payload sent by the `OnTaskEnd` [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/marketing-essentials-for-mhcp-part-2
 
-Learn
-
 # Marketing Essentials for MHCP Part 2 with Shannon O’Flaherty and Candace Locklear
 
 [](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1184936316096082_4855001440585577500_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=AbG_z2UoCJ0Q7kNvwE0xgWX&_nc_oc=Adk2cV642W4bZQtDT_Rr_7_8P-J1xxldxhoUZNOeOzeJgf1rULC3xXgcpBcLEqnlops&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=u-aQzXLxgoLR4uUC2iBgwQ&oh=00_Afiy3nUMs_Sna0OFZXNlbEKFT5Ns5FwBBCixVHwrUYVOwg&oe=691B39B6)

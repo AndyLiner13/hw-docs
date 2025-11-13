@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_findentitiesoptions
 
-API reference
-
 # FindEntitiesOptions type
 
 Options for the [World.findEntities()](/hw-docs/Reference/core/Classes/World.md#findentities) method.

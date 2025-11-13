@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-3-core-system-scripts
 
-Learn
-
 # Module 3 - Core System Scripts
 
 In Chop ‘N Pop: Graveyard Bash, a set of scripts drives core gameplay functionality, behaviors, eventing and provides supporting utilities for other scripts.

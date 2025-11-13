@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-5-floating-text-manager
 
-Learn
-
 # Module 5 - Floating Text Manager
 
 The Floating Text Manager system can be used to display floating text elements in the game for a short period of time. In Chop ‘N Pop: Graveyard Bash, these text elements appear over an enemy to indicate the effect of a hit on it.

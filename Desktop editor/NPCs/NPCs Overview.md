@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npcs
 
-Learn
-
 # NPCs Overview
 
 Important

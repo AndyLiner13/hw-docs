@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/publish-a-world-in-horizon
 
-Learn
-
 # Publish your world using VR tools
 
 In order to publish a world, you’ll need to provide pertinent information such as a name, description and thumbnail photo. This information helps people find your world and decide if they’d like to visit it and explore.

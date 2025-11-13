@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/create-a-new-world-in-horizon
 
-Learn
-
 # Create a new world in Meta Horizon Worlds
 
 To open the **Create** menu:

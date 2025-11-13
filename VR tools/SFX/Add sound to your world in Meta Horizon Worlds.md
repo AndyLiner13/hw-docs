@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/sfx/adding-sound-in-horizon
 
-Learn
-
 # Add sound to your world in Meta Horizon Worlds
 
 There are a variety of sounds available to use in Build Mode. You can add them to your world from the Build section of the Creator Menu including:

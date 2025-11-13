@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_bounds
 
-API reference
-
 # Bounds Class
 
 Represents an axis aligned bounding box with a center position, and extents which are the distance from the center to the corners

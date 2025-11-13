@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/cui-api-introduction
 
-Learn
-
 # Custom UI API Introduction
 
 ## Introduction

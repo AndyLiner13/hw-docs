@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/quests-gizmo
 
-Learn
-
 # Quests gizmo
 
 Quests refer to a set of tasks that players can complete to earn rewards. These quests are designed to engage players and encourage exploration in the virtual environment. Completing quests can lead to various rewards, and are a way to drive player interaction and retention.

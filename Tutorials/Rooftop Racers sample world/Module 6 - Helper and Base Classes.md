@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-6-helper-and-base-classes
 
-Learn
-
 # Module 6 - Helper and Base Classes
 
 These classes are referenced elsewhere in the code to provide functionality and data objects for use in the game.

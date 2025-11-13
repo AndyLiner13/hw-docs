@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-1-simplayer
 
-Learn
-
 # Module 1 - SimPlayer
 
 The SimPlayer is a custom player wrapper that adds features on top of the base `hz.Player`. It keeps track of tools, resources, inventory, and progress for each player. It also integrates with save data so progress can persist across sessions.

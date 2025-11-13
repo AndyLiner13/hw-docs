@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/welcome-creators
 
-Learn
-
 # Welcome creators!
 
 Welcome to Worlds

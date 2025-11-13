@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-gizmo/npc-gizmo
 
-Learn
-
 # NPC Gizmo
 
 The **NPC Gizmo** serves as the **foundational entity for creating Non-Player Characters (NPCs)** in Horizon Worlds. NPCs can range from **simple scripted characters** with predefined behaviors to complex AI-driven characters that learn and adapt based on player actions. Regardless of their complexity, all NPCs begin with the NPC Gizmo.

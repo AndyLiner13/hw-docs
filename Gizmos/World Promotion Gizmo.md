@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/world-promotion-gizmo
 
-Learn
-
 # World Promotion Gizmo
 
 ## Feature Overview

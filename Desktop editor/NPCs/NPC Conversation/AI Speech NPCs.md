@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-conversations/ai-speech-npcs-overview
 
-Learn
-
 # AI Speech NPCs
 
 This guide details the process of creating Conversation NPCs that leverage the power of Large Language Models (LLMs). The core focus of these NPCs is to engage with players in dynamic, relevant, and diverse conversations. By integrating LLMs, these NPCs can process natural language input, understand context, generate coherent and contextually appropriate responses, and even exhibit emergent behaviors, leading to truly unpredictable and engaging encounters.

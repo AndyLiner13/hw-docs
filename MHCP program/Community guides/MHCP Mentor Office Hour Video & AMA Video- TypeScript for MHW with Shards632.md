@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-for-mhw-with-shards632
 
-Learn
-
 # MHCP Mentor Office Hour Video & AMA Video: TypeScript for MHW with Shards632
 
 Join Shards632’s open office hours session on TypeScript for Meta Horizon Worlds, where he covers key concepts, applications, and answers questions about various MHCP offerings.

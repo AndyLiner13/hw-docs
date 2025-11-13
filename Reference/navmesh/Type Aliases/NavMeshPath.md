@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshpath
 
-API reference
-
 # NavMeshPath type
 
 Defines the pathfinding calculation results retrieved by the [NavMesh.getPath](/hw-docs/Reference/navmesh/Classes/NavMesh.md#getpath) property.

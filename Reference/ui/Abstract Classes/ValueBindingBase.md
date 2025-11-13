@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_valuebindingbase
 
-API reference
-
 # ValueBindingBase Class
 
 The base class for value-based bindings, including [Binding](/hw-docs/Reference/ui/Classes/Binding.md) and DerivedBinding. These bindings are represented as string keys in the data model, and their values are updated in the redux store. These bindings support both global values and player-specific values.

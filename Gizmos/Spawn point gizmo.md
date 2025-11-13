@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-spawn-point-gizmo
 
-Learn
-
 # Spawn point gizmo
 
 In Meta Horizon Worlds, a spawn point refers to a designated location within a virtual environment where [entities](/hw-docs/Reference/core/Classes/Entity.md) such as players, enemies, and NPCs appear or spawn when they enter the world. These spawn points are important for managing entities’ entry and movement within the game.

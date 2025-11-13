@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/meta-horizon-worlds-inworld-purchase-guide
 
-Learn
-
 # In-world purchase guide
 
 This document provides instructions and guidelines for using the Meta Horizon Worlds in-world purchase functionalities to sell items.

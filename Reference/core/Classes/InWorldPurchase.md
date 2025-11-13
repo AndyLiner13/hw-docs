@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_inworldpurchase
 
-API reference
-
 # InWorldPurchase Class
 
 Provides access to in-world item purchasing, which is useful for supporting purchases in a custom UI.

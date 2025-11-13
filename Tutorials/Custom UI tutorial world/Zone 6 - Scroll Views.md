@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-6-scroll-views
 
-Learn
-
 # Zone 6 - Scroll Views
 
 This zone demonstrates scrollable UI components that can display large amounts of content in a compact interface.

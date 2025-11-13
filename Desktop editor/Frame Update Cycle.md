@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/frames
 
-Learn
-
 # Frame Update Cycle
 
 A frame update cycle in a VR world is the repeating process that updates and renders a graphical snapshot (frame) of an animated scene based on the constantly updating state of the world. The process is repeated many times per second to produce an interactive animated environment from the local player’s perspective. In Meta Horizon Worlds, the cycle includes simulation, scripting, synchronization, and for clients, rendering the world in a frame that includes images targeting both lenses on a VR headset.

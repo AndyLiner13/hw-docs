@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/UI-panels-and-tabs
 
-Learn
-
 # Panels and Tabs in the desktop editor
 
 ![Panels and tabs in the desktop editor UI](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/483545650_672113478659940_5780491651078147497_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=fYD7ARQFclAQ7kNvwGkUzkT&_nc_oc=Adl56ZTfMl7VqMVpSzKPdH4WQ6IjkL5fqKayXMZSRBhHdFZe2Jm1DESBE6fsUG9JThs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=eiuJePVdzUxNvUJ8ms5_zg&oh=00_AfhiKSabE7oL_GBTgcoL23ouQ80PrMdvHGW46Dt7sNBDYw&oe=692FA59F)

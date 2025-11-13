@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/collider-ingestion-user-guide
 
-Learn
-
 # Collider Ingestion User Guide
 
 Collider ingestion allows asset creators to define custom collision shapes in the FBX file for a mesh asset. When these colliders are ingested into Horizon they become collider entities, these are a new type of entity in Horizon that is only used for collision.

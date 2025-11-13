@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-2-basics
 
-Learn
-
 # Zone 2 - Basics
 
 This zone covers fundamental Custom UI components that form the building blocks of more complex interfaces.

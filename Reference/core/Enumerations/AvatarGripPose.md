@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avatargrippose
 
-API reference
-
 # AvatarGripPose Enum
 
 The type of grip animation assigned to an avatar when holding an object.

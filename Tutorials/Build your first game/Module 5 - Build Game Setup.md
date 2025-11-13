@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-5-build-game-setup
 
-Learn
-
 # Module 5 - Build Game Setup
 
 ## Overview

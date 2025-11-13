@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/economy-world-tutorial/module-2-setup
 
-Learn
-
 # Module 2 - Setup
 
 Requirements

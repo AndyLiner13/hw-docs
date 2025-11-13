@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/spawn-despawn-assets-horizon-worlds
 
-Learn
-
 # Spawn and despawn assets in Meta Horizon Worlds
 
 When building in Meta Horizon Worlds, you’re able to spawn items such as scenery, wearables, interactive objects and much more, but only when you actually need them.

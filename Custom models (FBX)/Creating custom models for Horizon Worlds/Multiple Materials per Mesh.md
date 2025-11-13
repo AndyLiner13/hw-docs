@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/multiple-materials-per-mesh
 
-Learn
-
 # Multiple Materials per Mesh
 
 You can assign multiple materials to a single mesh in an FBX file. This allows you to create objects that have different visual elements. For example, consider a skateboard object that has one material for the deck, another material for the trucks, and a third material for the wheels, all without using multiple meshes.

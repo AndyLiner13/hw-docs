@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_pressableprops
 
-API reference
-
 # PressableProps type
 
 Represents the props of a [pressable](/hw-docs/Reference/ui/Functions/Pressable.md) component on a UI panel.

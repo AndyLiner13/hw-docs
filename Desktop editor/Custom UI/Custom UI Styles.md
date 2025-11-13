@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui
 
-Learn
-
 # Custom UI Styles
 
 The available styles for [customizing](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) UI panels in your world are defined in the type aliases of the [UI](/hw-docs/Reference/ui/Abstract%20Classes/UIComponent.md) API, such as the [ColorValue](/hw-docs/Reference/ui/Type%20Aliases/ColorValue.md) type. This topic describes the available style for each type.

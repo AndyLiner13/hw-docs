@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-6-player-manager
 
-Learn
-
 # Module 6 - Player Manager
 
 The Player Manager system is used for tracking the players in the game as they enter, play, and exit the world. In the code, the Player Manager brokers events that happen in the world or to the player and handles player-specific events such as reloading a weapon or taking a hit.

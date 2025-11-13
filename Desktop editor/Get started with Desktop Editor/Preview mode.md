@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode
 
-Learn
-
 # Preview mode
 
 You can click the play button to enter preview mode.

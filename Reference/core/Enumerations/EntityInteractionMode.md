@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entityinteractionmode
 
-API reference
-
 # EntityInteractionMode Enum
 
 The options for interacting with an entity.

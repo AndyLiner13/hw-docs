@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/navigation-volume-gizmo
 
-Learn
-
 # Navigation volume gizmo
 
 To [build a navigation mesh](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md), the [navigation volume gizmo](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-gizmo), a helper tool, is used to define the area where the characters can move in the virtual world. Additionally, a [navigation profile](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-profile) that describes the characteristics of the navigation mesh that each agent or character traverses also needs to be created and configured. Once the [gizmo and the profiles are set up and linked](/hw-docs/desktop-editor/npcs/scripted-avatar-npcs/build-navigation-for-scripted-avatar-npcs#navigation-entities), the [navigation meshes can be built](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#building-the-navigation-meshes) or baked for each navigation profile. Scripts are attached to characters to drive their behaviors when traversing navigation meshes.

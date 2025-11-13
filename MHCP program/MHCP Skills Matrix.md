@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/skills-matrix
 
-Learn
-
 # MHCP Skills Matrix
 
 The following tables describe the skills matrix for participants in the MHCP program. Additional resources are available at the bottom of this page.

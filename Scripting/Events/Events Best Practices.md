@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/events-best-practices
 
-Learn
-
 # Events Best Practices
 
 ## Unsubscribing from an event

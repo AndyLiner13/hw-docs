@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerbodyparttype
 
-API reference
-
 # PlayerBodyPartType Enum
 
 The type of body part of a player.

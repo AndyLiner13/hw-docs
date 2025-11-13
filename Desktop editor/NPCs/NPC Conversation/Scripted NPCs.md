@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-conversations/scripted-npcs
 
-Learn
-
 # Scripted NPCs
 
 ## **Setting up Conversations for NPCs**

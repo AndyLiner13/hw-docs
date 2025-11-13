@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/hierarchy-window/selecting-objects-in-desktop-editor
 
-Learn
-
 # Selecting Objects in Desktop Editor
 
 When working in the Desktop Editor, you can select an object and edit its properties or attached script by:

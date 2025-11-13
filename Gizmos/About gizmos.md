@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/about-gizmos
 
-Learn
-
 # About gizmos
 
 In Meta Horizon Worlds, gizmos are helper tools that you, as a creator, can use to enhance the creation and interactivity of worlds. These gizmos feature a range of functionalities such as controlling player spawn points, adding dynamic lights, creating custom skyboxes, and more. Additionally, gizmos can be used to implement interactive elements like raycasts, particle effects, and doors.

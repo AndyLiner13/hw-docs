@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-2-intro-to-scripting
 
-Learn
-
 # Module 2 - Intro to Scripting
 
 In Module 1, we built the layout for our world and added gems to it. The next step is to begin building scripts to power these entities and manage the systems of our game.

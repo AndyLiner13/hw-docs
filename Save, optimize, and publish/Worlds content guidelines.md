@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/restrictions-to-worlds-in-horizon
 
-Learn
-
 # Worlds content guidelines
 
 Our content guidelines help keep Worlds a fun and welcoming place for everyone.

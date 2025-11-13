@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_decodeandinflate
 
-API reference
-
 # decodeAndInflate() Function
 
 Decode and inflate serialized value. Complimentary function to [compressAndEncode()](/hw-docs/Reference/core/Functions/compressAndEncode.md).

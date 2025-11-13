@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/create-grabbable-entities
 
-Learn
-
 # Grabbable Entities On Mobile And Web
 
 A Grabbable entity is an entity that has **Motion** set to **Interactive**, and **Interaction** set to **Grabbable** or **Both**. Examples of grabbable entities are guns and handheld devices. They require a variety of small changes to function correctly within Meta Horizon Worlds on Web and Mobile. These changes include:

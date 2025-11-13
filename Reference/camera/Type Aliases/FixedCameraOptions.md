@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_fixedcameraoptions
 
-API reference
-
 # FixedCameraOptions type
 
 The available options to apply when activating a fixed camera.

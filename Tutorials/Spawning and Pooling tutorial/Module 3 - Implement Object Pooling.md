@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-3-implement-object-pooling
 
-Learn
-
 # Module 3 - Implement Object Pooling
 
 In the previous module, you learned how to spawn objects and de-spawn them when they are no longer needed. In this tutorial, we introduce **object pooling**, where upon world start, players can observe the following behaviors:

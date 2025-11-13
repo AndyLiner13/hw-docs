@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/3d-modeling-tool-resources
 
-Learn
-
 # 3D Modeling Tool Resources
 
 This article provides links to introductory resources that will help you learn more about Blender and other 3D modeling tools.

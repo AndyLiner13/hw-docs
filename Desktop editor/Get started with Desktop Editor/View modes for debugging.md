@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/view-modes-for-debugging
 
-Learn
-
 # View modes for debugging
 
 Debugging view modes in desktop editor can help you debug your world. Its features include:

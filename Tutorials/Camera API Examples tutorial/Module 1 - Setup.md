@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-1-setup
 
-Learn
-
 # Module 1 - Setup
 
 ![Thumbnail of Camera API Examples World](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473631823_632772149260740_360189898514370635_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=-RjZG1wjoo0Q7kNvwHlV_39&_nc_oc=AdkI9XpkMlY7btFAO_PL9fbHmoGtAzZtNgYVDwTNahkkIDrbSamyJzoxG5zXlvDE5mw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MqLrZv3SKVLx8PSoDE9gaw&oh=00_Afi5iQA-7CoOkGPD-l7M1VZ7_oZGXFAt093xWgo-Cjmxwg&oe=692FC94D)

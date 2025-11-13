@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-6-waypoint-arrows
 
-Learn
-
 # Module 6 - 3D Waypoint Arrows
 
 In this module, we will cover how the 3D arrow navigation system works and how to use it to guide players toward objectives using floating directional indicators.

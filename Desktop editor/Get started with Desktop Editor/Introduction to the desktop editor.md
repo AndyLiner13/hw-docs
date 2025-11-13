@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor
 
-Learn
-
 # Introduction to the desktop editor
 
 Important

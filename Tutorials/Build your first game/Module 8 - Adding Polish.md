@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-8-adding-polish
 
-Learn
-
 # Module 8 - Adding Polish
 
 ## Adding text

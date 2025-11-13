@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_textstyle
 
-API reference
-
 # TextStyle type
 
 Represents the styles of a [Text](/hw-docs/Reference/ui/Functions/Text_2.md) component in a UI panel.

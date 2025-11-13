@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-3-tools-and-toolgroups
 
-Learn
-
 # Module 3 - Tools and ToolGroups
 
 The tool system in the sim tycoon reference world manages different types of tools that players can equip and use. Tools are organized into ToolGroups which handle spawning, pooling, and distribution of tools to players.

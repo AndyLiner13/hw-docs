@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/desktop-editor-creation-tools-keyboard-shortcuts
 
-Learn
-
 # Desktop Editor Creation Tools Keyboard Shortcuts
 
 ## Overview

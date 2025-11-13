@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerdevicetype
 
-API reference
-
 # PlayerDeviceType Enum
 
 The type of device the player is using.

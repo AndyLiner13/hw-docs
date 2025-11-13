@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-4-player-hud-systems
 
-Learn
-
 # Module 4 - Player HUD Systems
 
 The Player HUD systems create a pool of HUD objects, which are assigned to players as they enter the world.

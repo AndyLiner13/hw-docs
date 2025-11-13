@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_cameramovementpreset
 
-API reference
-
 # CameraMovementPreset type
 
 The preset camera viewing angles to use when viewing and recording a player's avatar as it moves throughout the world.

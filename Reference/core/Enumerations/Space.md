@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_space
 
-API reference
-
 # Space Enum
 
 Indicates whether a method or object operates in local or global scope.

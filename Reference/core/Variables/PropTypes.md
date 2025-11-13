@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_proptypes
 
-API reference
-
 # PropTypes Variable
 
 A list of property types available for a Typescript [Component](/hw-docs/Reference/core/Abstract%20Classes/Component.md). You can pass these variable types to an instance of a Typescript component when attached to an entity.

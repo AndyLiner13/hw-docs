@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/multiplayer-lobby-tutorial/module-5-entering-the-match
 
-Learn
-
 # Module 5 - Entering the Match
 
 ## Spawn Points

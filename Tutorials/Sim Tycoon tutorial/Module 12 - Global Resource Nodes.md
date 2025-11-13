@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-12-global-resource-nodes
 
-Learn
-
 # Module 12 - Global Resource Nodes
 
 Global Resource Nodes are shared finite resource sources for all players, which reset after being fully mined. Unlike individual ResourceNodes, these require collaborative effort from multiple players and provide shared rewards when completed.

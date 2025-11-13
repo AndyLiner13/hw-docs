@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/use-file-backed-scripts
 
-Learn
-
 # Use file-backed scripts
 
 File-backed scripts is a script storage system that increases script size limits and improves script consistency by storing scripts on the server, rather than in the world.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawncontroller
 
-API reference
-
 # SpawnController Class
 
 Extends *[SpawnControllerBase](/hw-docs/Reference/core/Classes/SpawnControllerBase.md)*

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_physicsforcemode
 
-API reference
-
 # PhysicsForceMode Enum
 
 Indicates how physics is applied to an object in the world.

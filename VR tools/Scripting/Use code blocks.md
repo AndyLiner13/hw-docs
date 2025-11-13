@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/use-code-blocks
 
-Learn
-
 # Use code blocks
 
 The Script gizmo is a tool in Meta Horizon Worlds that allows you to create dynamic experiences in a 3D space. Code blocks are rules or conditions that you add to your Script gizmo to achieve a certain result or experience.

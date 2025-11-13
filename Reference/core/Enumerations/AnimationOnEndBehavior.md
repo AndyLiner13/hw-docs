@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_animationonendbehavior
 
-API reference
-
 # AnimationOnEndBehavior Enum
 
 What animations do once they finish playing their full duration.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/custom-ui-gizmo
 
-Learn
-
 # Custom UI gizmo
 
 [Custom UI](/hw-docs/Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md) in Worlds is a feature that allows creators to build customizable and interactive user interfaces in their virtual worlds. This feature enables creators to animate UIs, create heads-up displays (HUDs), lay out panels, attach buttons, and dynamically update UI elements based on player actions or other in-world events. The custom UI system is designed to enhance the player experience by allowing creators to tailor their worlds for different platforms, including mobile and desktop. The custom UI feature is great for creating complex UIs and supports a wide range of UI components.

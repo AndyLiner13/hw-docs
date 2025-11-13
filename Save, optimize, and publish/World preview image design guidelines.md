@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/world-preview-image-design-guidelines
 
-Learn
-
 # World preview image design guidelines
 
 Preview images are the visual first impression of your world. High-quality, engaging visuals help attract users and communicate what makes your world unique. This document outlines best practices and requirements for creating assets that showcase your world effectively across discovery surfaces.

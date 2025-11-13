@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/3d-modeling-101-week-1
 
-Learn
-
 # 3D Modeling 101 - Week 1
 
 [](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_8978974752189776_2476416406260947000_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=6500a6&_nc_ohc=k3wl6GdyKAAQ7kNvwFAnk7I&_nc_oc=AdlhnVxXGlwYal8HeIpm1-hquAhLpVcD0CGTDDSZBh-bTHb15yuUarB_SaU2ELt1gvE&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=PQgL_8IRQvst2wyACeBUfA&oh=00_AfhEnaFWWCFnY85UKtvO38LY5Cr5gw3UiIGztcL2hgoF5g&oe=691B34B1)

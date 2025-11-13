@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/web-asset-library-horizon
 
-Learn
-
 # Manage your personal asset library from a web browser with Meta Horizon Worlds
 
 Meta Horizon Worlds allows you to manage your asset name, description and other metadata outside of the Meta Horizon Worlds app.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-5-animation
 
-Learn
-
 # Zone 5 - Animation
 
 This zone showcases animated Custom UI elements that provide dynamic visual feedback and enhance the user experience.

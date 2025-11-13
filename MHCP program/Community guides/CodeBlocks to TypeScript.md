@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/codeblocks-to-typescript
 
-Learn
-
 # CodeBlocks to TypeScript
 
 ## Target Audience

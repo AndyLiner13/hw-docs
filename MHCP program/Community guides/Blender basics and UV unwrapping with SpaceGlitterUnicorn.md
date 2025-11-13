@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/blender-basics-and-uv-unwrapping
 
-Learn
-
 # Blender basics and UV unwrapping with SpaceGlitterUnicorn
 
 **Author**: SpaceGlitterUnicorn

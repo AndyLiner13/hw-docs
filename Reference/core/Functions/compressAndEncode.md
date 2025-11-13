@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_compressandencode
 
-API reference
-
 # compressAndEncode() Function
 
 Compress and encode to a serializable value. Complimentary function to [decodeAndInflate()](/hw-docs/Reference/core/Functions/decodeAndInflate.md).

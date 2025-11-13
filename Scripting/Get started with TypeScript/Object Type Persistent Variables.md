@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/object-type-persistent-variables
 
-Learn
-
 # Object Type Persistent Variables
 
 **Note**: Some scripts may present an error at compile due to a casting mismatch. To resolve, cast the return value for getPlayerVariable as a number and recompile your script.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-0-setup
 
-Learn
-
 # Zone 0 - Setup
 
 Welcome, creators!

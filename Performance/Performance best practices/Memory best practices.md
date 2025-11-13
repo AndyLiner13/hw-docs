@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/memory-best-practices
 
-Learn
-
 # Memory best practices
 
 Keeping RAM usage under 6GB is important to prevent your world from crashing due to out of memory errors. By keeping RAM usage from assets such as textures and meshes low, you can also improve load times.

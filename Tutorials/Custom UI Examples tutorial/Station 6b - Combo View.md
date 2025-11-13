@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-6b-combo-view
 
-Learn
-
 # Station 6b - Combo View
 
 This station demonstrates how you can combine multiple nested view objects to assemble groups of elements in your user interface.

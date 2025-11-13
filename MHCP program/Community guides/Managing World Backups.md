@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/managing-world-backups
 
-Learn
-
 # Managing World Backups
 
 You can manage world backups in the [Developer Dashboard](https://developers.meta.com/horizon/manage/) or in VR.

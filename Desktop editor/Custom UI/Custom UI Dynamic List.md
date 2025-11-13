@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/dynamic-list
 
-Learn
-
 # Custom UI Dynamic List
 
 ## Overview

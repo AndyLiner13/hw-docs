@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_fetchasdataoptions
 
-API reference
-
 # FetchAsDataOptions type
 
 The additional options for the [Asset.fetchAsData()](/hw-docs/Reference/core/Classes/Asset.md#fetchasdata) method.

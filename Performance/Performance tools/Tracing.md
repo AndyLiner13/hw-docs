@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/tracing
 
-Learn
-
 # Tracing
 
 **Note:** You must [enable the Utilities menu](/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md) before continuing.

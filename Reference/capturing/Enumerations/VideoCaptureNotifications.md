@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_videocapturenotifications
 
-API reference
-
 # VideoCaptureNotifications Enum
 
 The flags for notification types to show players after video recording completes.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-1-setup
 
-Learn
-
 # Module 1 - Setup
 
 ![Screenshot of the world from the spawn point](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452882400_512509657953657_4484116017896127605_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Kdnpi5cfDjQQ7kNvwEKxwI4&_nc_oc=AdmPV1-91PetHQXrFHEblP_honNZcOxvPQc7J8KU8AMB7c5ol1Y5jwlGDVKGMh9Tocg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ZIaPSBmdeU6-MeZvToxgHQ&oh=00_Afi4edQSi4b1Af_PfL2JjioQILfyTqhNg-u8XmqI9J9dug&oe=692F9823)

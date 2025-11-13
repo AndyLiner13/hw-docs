@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-5-backpack
 
-Learn
-
 # Module 5 - Backpack (Tool)
 
 The backpack is an attachable tool that increases the player’s inventory capacity. Unlike grabbable tools like pickaxes, backpacks are attached to the player’s torso and provide passive benefits while equipped.

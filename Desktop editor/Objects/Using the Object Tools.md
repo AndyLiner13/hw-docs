@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation
 
-Learn
-
 # Using the Object Tools
 
 With the Worlds desktop editor, you can edit objects in your scene easily and intuitively, with easily accessible buttons on a single toolbar to toggle between different tool functions.

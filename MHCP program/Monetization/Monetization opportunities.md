@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-monetization-partner-program
 
-Learn
-
 # Monetization opportunities
 
 **Note**: [Apply for the Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to access these opportunities.

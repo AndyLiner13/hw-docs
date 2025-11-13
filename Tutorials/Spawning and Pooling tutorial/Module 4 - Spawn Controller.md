@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-4-spawn-controller
 
-Learn
-
 # Module 4 - Spawn Controller
 
 The Spawn Controller station functionally works in a similar manner to the Object Pooling station. However, instead of spawning in assets at startup to an offscreen location, they are loaded into an array of `SpawnController` containers. The entities are now part of the world’s runtime memory but do not exist as entities in the world yet. When needed, they can be quickly spawned into the world experience.

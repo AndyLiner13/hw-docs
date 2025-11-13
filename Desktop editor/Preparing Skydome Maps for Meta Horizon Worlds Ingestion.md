@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/preparing-skydome-maps-for-horizon-worlds-ingestion
 
-Learn
-
 # Preparing Skydome Maps for Meta Horizon Worlds Ingestion
 
 This section describes the requirements and process for building custom skydome maps for ingestion into Meta Horizon Worlds for use in your worlds.

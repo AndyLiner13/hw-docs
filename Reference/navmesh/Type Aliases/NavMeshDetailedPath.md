@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshdetailedpath
 
-API reference
-
 # NavMeshDetailedPath type
 
 Defines the pathfinding calculation results for the property. This contains slightly more information than the property.

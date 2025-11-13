@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/community-moderation
 
-Learn
-
 # Community Moderation
 
 **Note:** This feature is slowly rolling out and may not be available to all users yet.

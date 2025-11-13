@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_animationcallback
 
-API reference
-
 # AnimationCallback type
 
 A callback that signals changes in the pressed state of a [PlayerInput](/hw-docs/Reference/core/Classes/PlayerInput.md) object. This callback is used to inform scripts when an avatar animation starts or completes, so the script can respond to the animations.

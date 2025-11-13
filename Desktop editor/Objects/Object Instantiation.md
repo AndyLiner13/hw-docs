@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-instantiation
 
-Learn
-
 # Object Instantiation
 
 - Click on the “Build” box icon from the top bar.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools
 
-Learn
-
 # Object tools
 
 ![Object tools in the Desktop Editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/506484005_739727315231889_435453471259630208_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=a-5L7PBWSfAQ7kNvwE1XLmP&_nc_oc=Adla8h6plLci-LpSC5fw9sjDZLvANNL9DG2oYTzXft8-qdEoWhre3ouQTYTzh2zF-18&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fP5jUmtyW1ZnOkFfFQvCMw&oh=00_AfhtcYqGhckVcSw4m5WVOJ9nhXQLnsHml84w8Hhi05c5cw&oe=692FAA5E)

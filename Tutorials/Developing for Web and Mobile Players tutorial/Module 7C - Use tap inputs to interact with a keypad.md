@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-7c-use-tap-inputs-to-interact-with-a-keypad
 
-Learn
-
 # Module 7C - Use tap inputs to interact with a keypad
 
 At this point, we can rotate the objects to acquire the code numbers. Now, we must support entering the code into the keypad.

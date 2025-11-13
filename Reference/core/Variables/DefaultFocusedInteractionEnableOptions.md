@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_defaultfocusedinteractionenableoptions
 
-API reference
-
 # DefaultFocusedInteractionEnableOptions Variable
 
 The default values for the [FocusedInteractionOptions](/hw-docs/Reference/core/Type%20Aliases/FocusedInteractionOptions.md) type when calling the [Player.enterFocusedInteractionMode()](/hw-docs/Reference/core/Classes/Player.md#enterfocusedinteractionmode) method.

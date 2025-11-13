@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/asset-spawning-reference
 
-Learn
-
 # Asset Spawning Reference
 
 ## Overview

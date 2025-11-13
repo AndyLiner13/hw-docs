@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/typescript-faq
 
-Learn
-
 # TypeScript FAQ
 
 **Q: How do I do something that there currently isn’t a TypeScript API for, but I can already do it with the existing scripting system?**

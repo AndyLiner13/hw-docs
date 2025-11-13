@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-2-overview
 
-Learn
-
 # Module 2 - Overview of Scripted Avatar NPCs
 
 Scripted Avatar NPCs can add life to your worlds! These characters are easy to design and deploy, and their behaviors can be scripted through TypeScript. This example world includes two example NPCs, including the code necessary to drive the following features.

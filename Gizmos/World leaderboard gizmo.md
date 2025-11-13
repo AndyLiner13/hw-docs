@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/world-leaderboard-gizmo
 
-Learn
-
 # World leaderboard gizmo
 
 [Leaderboards](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md) is the global system that tracks and displays player rankings based on various criteria such as scores, time spent, or other metrics. The leaderboard feature is key for creating achievement-based experiences in Worlds. The leaderboard system uses [persistent variables](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to maintain player progress across sessions.

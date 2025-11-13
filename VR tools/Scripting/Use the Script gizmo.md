@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/use-the-script-gizmo
 
-Learn
-
 # Use the Script gizmo
 
 ## To add a script to a world:

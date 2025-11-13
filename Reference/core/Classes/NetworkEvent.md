@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_networkevent
 
-API reference
-
 # NetworkEvent Class
 
 Represents an event sent over a network. These events support any type of data that can be serialized through JSON.stringify().

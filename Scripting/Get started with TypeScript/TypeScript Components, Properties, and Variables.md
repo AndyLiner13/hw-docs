@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/typescript-components-properties-and-variables
 
-Learn
-
 # TypeScript Components, Properties, and Variables
 
 Components are the primary building blocks for attaching functionality to objects in a world. They are defined in TypeScript and registered in a script. Horizon components consist of many different elements. The key TypeScript elements are:

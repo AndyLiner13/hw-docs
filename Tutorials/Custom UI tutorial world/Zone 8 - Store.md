@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-8-store
 
-Learn
-
 # Zone 8 - Store
 
 This zone demonstrates a comprehensive storefront implementation that can handle complex e-commerce interactions.

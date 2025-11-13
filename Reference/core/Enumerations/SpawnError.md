@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawnerror
 
-API reference
-
 # SpawnError Enum
 
 The possible errors encounted during asset spawning.

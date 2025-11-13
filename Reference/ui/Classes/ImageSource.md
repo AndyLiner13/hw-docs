@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_imagesource
 
-API reference
-
 # ImageSource Class
 
 Represents the source of an image used by an [image](/hw-docs/Reference/ui/Functions/Image_2.md) component.

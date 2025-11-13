@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-7-collecting-gems-and-keeping-score
 
-Learn
-
 # Module 7 - Collecting Gems and Keeping Score
 
 ## Endgame

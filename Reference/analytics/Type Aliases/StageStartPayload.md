@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_stagestartpayload
 
-API reference
-
 # StageStartPayload type
 
 A payload sent by the `OnStageStart` [event](/hw-docs/Reference/analytics/Variables/TurboEvents.md).

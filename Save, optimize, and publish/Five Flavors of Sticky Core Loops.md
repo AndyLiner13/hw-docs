@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/five-flavors-of-sticky-core-loops
 
-Learn
-
 # Five Flavors of Sticky Core Loops
 
 In the article, ***[Building Content to Optimize User Time](https://developers.meta.com/horizon/blog/optimize-user-time-goldilocks-session-length-meta-quest)*,** we explored the “Goldilocks zone” for optimal play sessions — 20 to 40 minutes for VR, and typically shorter for mobile. Core loops (also called quests) should fit within these windows to maximize engagement without overstaying their welcome. But hitting the right session length is only part of the formula. To design experiences that keep players coming back, Meta Horizon creators also need to tap into the motivations that drive engagement in the first place.

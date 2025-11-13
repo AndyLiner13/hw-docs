@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_copyable
 
-API reference
-
 # Copyable Interface
 
 The Copyable interface provides 'copy' and 'clone' methods for copying data from an existing reference.

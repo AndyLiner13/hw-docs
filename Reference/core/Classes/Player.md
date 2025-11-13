@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player
 
-API reference
-
 # Player Class
 
 Represents a player in the world. This is the primary class for managing an individual player's physical presence and game play in the world, including their avatar.

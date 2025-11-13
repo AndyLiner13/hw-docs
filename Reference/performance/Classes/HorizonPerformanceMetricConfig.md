@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizonperformancemetricconfig
 
-API reference
-
 # HorizonPerformanceMetricConfig Class
 
 A configuration for a custom metric used to capture performance data about scripts at runtime. You can view this data with the [Performance Scrubbing](/hw-docs/Performance/Performance%20tools/Performance%20Scrubbing.md) tool or in [Perfetto](/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md).

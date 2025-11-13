@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/gameplay-tags-api/modify-gameplay-tags-on-entity-and-get-entities-with-tags
 
-Learn
-
 # Modify and Retrieve Entity Tags
 
 You can use the following APIs to create and update tags for an entity as well as retrieve all entities in the world with a specified set of tags.

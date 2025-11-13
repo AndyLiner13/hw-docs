@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-spawning-and-despawning
 
-Learn
-
 # Object Spawning and Despawning
 
 **Note**: This article describes object spawning methods using the legacy approach. Beginning in TypeScript v2.0.0, you should use the SpawnController class for more efficient management of spawning and despawning assets. For more information, see [Introduction to Spawning](/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md).

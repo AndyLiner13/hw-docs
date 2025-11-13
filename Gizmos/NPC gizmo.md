@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/npc-gizmo
 
-Learn
-
 # NPC gizmo
 
 A [Non-Playable Character](/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md) (NPC) in Worlds is a character that is not controlled by a player but is instead programmed to perform certain actions or behaviors. NPCs can enhance the interactivity and immersion of virtual worlds by providing dynamic interactions and responses to players. They can be used for various purposes. NPCs in Worlds can be customized and controlled using scripts, allowing creators to define their behaviors, interactions, and appearances. This customization is often done using tools like the [NPC gizmo](/hw-docs/desktop-editor/npcs/npc-gizmo) along with scripting, which enable creators to integrate NPCs into their worlds and enhance the overall user experience.

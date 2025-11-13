@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/multiplayer-lobby-tutorial/module-3-handling-players-entering-and-exiting
 
-Learn
-
 # Module 3 - Handling players entering and exiting
 
 In Meta Horizon Worlds, players can travel to a world at any time during the world’s life. However, a game may have already been in progress, and you want to prevent players from immediately joining the in-progress game without kicking them out of the overall experience. How do you do that?

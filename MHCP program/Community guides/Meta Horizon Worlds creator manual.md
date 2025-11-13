@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual
 
-Learn
-
 # Meta Horizon Worlds creator manual
 
 **Created by the Horizon Community.** This document may be out of date or incorrect.

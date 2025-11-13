@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-5-quest-manager
 
-Learn
-
 # Module 5 - Quest Manager
 
 When a player completes an achievement in the world, one of the world’s quests is marked as completed, and a brief reward is shared.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/physics
 
-Learn
-
 # Physics Overview
 
 Meta Horizon Worlds uses Unity physics for core simulation of physics on every client. The physics system is designed for simple interactions using lightweight rigid body dynamics to simulate the motion of rigid objects. Lightweight rigid body dynamics is an optimized version of rigid body dynamics, designed for real-time applications where computational resources are limited. This approach provides fast and efficient collision detection and response, while using minimal network resources when synchronizing data between clients.

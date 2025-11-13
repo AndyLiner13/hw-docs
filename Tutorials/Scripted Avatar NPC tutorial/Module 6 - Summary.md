@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-6-summary
 
-Learn
-
 # Module 6 - Summary
 
 Thanks for joining us in Gem Jam! This tutorial world has demonstrated the Scripted Avatar NPC feature and includes two working examples, which are brought to life with visual design, navigation, animation, and voice.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playervisibilitymode
 
-API reference
-
 # PlayerVisibilityMode Enum
 
 The entity visibility options for a set of players.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/mhcp-session-deep-dive-meta-horizon-worlds-with-andy-sargeant
 
-Learn
-
 # MHCP Session: Deep Dive: Meta Horizon Worlds with Andy Sargeant
 
 [](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_1923704104725451_4516273454553345534_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=6500a6&_nc_ohc=mdUy3RBj7zUQ7kNvwEaL-Hu&_nc_oc=AdnIbI4t5zS42s4xMDQQWs3AXE5TUuyleDr6yA5BPwGcVzeXd4saroGGRNIicANt8Q0&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=bIRxgBDvBCwDh4cUSjIbVg&oh=00_AfjX1QMyPpT5s-Lu45YFAaT96MVxj1qVyO57JFoTVRqavQ&oe=691B3D45)

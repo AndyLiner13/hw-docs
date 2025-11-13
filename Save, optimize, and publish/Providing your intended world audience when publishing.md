@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/intended-world-audience
 
-Learn
-
 # Providing your intended world audience when publishing
 
 As a Horizon creator, you’re all about crafting amazing experiences for your community. To help us better understand who you worlds are designed for, you are required to identify the content rating as an additional step before publishing or republishing your world. This quick and easy step will help ensure that your creations reach the right people and provide age-appropriate experiences for everyone.

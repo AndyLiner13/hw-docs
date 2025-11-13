@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-6-game-start-and-collection
 
-Learn
-
 # Module 6 - Game Start and Collection
 
 ## Manually triggering game start

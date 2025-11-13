@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-conversations/debugging-ai-speech-npcs
 
-Learn
-
 # Debugging AI Speech NPCs
 
 After creating an AI Speech NPC, you can debug it using the NPC Debugger. The NPC Debugger can be found in a tab in the bottom panel of the Horizon Desktop Editor.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_asset
 
-API reference
-
 # Asset Class
 
 Represents an asset in Meta Horizon Worlds. An asset is a set of objects and scripts you can store in an asset library outside of a world instance, and then spawn into the world at runtime.

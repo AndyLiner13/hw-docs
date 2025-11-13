@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/replacing-legacy-and-imported-assets
 
-Learn
-
 # Replacing Legacy and Imported Assets
 
 ## Replacing legacy assets

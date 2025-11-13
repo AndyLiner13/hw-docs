@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/how-should-creators-moderate-their-membersonly-worlds
 
-Learn
-
 # How should creators moderate their members-only worlds?
 
 Members-only worlds deprecated

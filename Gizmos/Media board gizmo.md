@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/media-board-gizmo
 
-Learn
-
 # Media board gizmo
 
 Note

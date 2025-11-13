@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshagent
 
-API reference
-
 # NavMeshAgent Class
 
 Extends *[INavMeshAgent](/hw-docs/Reference/navmesh/Interfaces/INavMeshAgent.md)*

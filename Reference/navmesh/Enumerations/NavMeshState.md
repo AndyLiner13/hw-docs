@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshstate
 
-API reference
-
 # NavMeshState Enum
 
 The possible state values for the [NavMeshInstanceInfo](/hw-docs/Reference/navmesh/Type%20Aliases/NavMeshInstanceInfo.md) type.

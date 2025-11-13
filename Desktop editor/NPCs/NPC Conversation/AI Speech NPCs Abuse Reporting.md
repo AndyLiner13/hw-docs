@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-conversations/ai-speech-abuse-reporting
 
-Learn
-
 # AI Speech NPCs Abuse Reporting
 
 Players have the ability to submit abuse reports for specific worlds and NPCs within the world. This is a way for players to flag potential [Horizon Worlds Content Guidelines](/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md) violations. When this happens, the world and NPCs will be reviewed to determine whether a violation exists. If a violation is found, the world will be evaluated for appropriate age ratings and violations.

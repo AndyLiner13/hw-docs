@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turbo
 
-API reference
-
 # Turbo Variable
 
 Represents an analytics managers for sending analytics data to the In-World Analytics system for logging. This variable is a shared instance of the `TurboManager` class.

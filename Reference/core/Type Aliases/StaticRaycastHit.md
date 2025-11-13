@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_staticraycasthit
 
-API reference
-
 # StaticRaycastHit type
 
 The result of a [raycast](/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) collision against a static [Entity](/hw-docs/Reference/core/Classes/Entity.md).

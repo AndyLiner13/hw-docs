@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/short-loop-mobile-world-design-guidance
 
-Learn
-
 # Short loop mobile world design guidance
 
 ## Introduction

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/welcome
 
-Learn
-
 # Welcome to the Meta Horizon Creator Program
 
 The Meta Horizon Creator Program (MHCP) documentation is designed specifically for program members. Dive into these exclusive resources for information on advanced tools and features, creation and publishing best practices, and program benefits, as well as to view APIs, tutorials, and video workshops.

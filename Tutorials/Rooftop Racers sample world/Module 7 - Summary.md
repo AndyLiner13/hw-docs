@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-7-summary
 
-Learn
-
 # Module 7 - Summary
 
 Hope you enjoyed playing and exploring Rooftop Racers! We had a lot of fun building it for you.

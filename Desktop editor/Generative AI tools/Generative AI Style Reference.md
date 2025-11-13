@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-style-reference
 
-Learn
-
 # Generative AI Style Reference
 
 The Horizon Gen AI Style Reference feature allows the creation of a style that informs other content you create using Horizon Gen AI tools. With Style Reference, you can establish a style that helps build a cohesive world look and feel in your created world. Consistency for your generated content can help accelerate the world creation process, and ensure your users have a cohesive experience in your world.

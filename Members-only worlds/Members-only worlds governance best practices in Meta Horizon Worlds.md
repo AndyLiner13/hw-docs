@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/governance-members-only-worlds
 
-Learn
-
 # Members-only worlds governance best practices in Meta Horizon Worlds
 
 Members-only worlds deprecated

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-7a-the-focused-interaction-manager
 
-Learn
-
 # Module 7A: The Focused Interaction Manager
 
 The primary development objective for this module is to build a Focused Interaction Manager, which interacts with the Focused Interaction API. Like the Camera API, the Focused Interaction API also needs to be executed locally, so we need one Focused Interaction Manager per player.

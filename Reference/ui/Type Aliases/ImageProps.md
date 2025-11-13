@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_imageprops
 
-API reference
-
 # ImageProps type
 
 Represents the props of an [Image](/hw-docs/Reference/ui/Functions/Image_2.md) component.

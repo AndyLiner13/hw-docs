@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/optimization-tips
 
-Learn
-
 # Optimization Tips
 
 Spawning and despawning has a performance cost at runtime. Here are some tips to minimize the performance impact of using this feature.

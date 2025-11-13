@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/personal-asset-library-horizon
 
-Learn
-
 # Use your Personal Asset Library in Meta Horizon Worlds
 
 In the Assets section of your Build menu, you can create your own custom assets and add them to your personal library for future use.

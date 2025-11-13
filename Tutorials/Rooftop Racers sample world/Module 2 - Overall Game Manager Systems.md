@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-2-overall-game-manager-systems
 
-Learn
-
 # Module 2 - Overall Game Manager Systems
 
 This section provides overviews of the game manager systems, which manage the game state, matchmaking, race and environmental sound manager.

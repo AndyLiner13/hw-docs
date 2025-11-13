@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/social_socialplatformtype
 
-API reference
-
 # SocialPlatformType Enum
 
 Different social platforms where creators can choose accounts from and display on a page with follow buttons.

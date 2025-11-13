@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/animations-for-custom-ui
 
-Learn
-
 # Animations for custom UI
 
 Animations are important for creating a great gameplay experience. Custom UI provides a set of APIs to concisely build [animations](/hw-docs/Reference/ui/Abstract%20Classes/Animation_2.md) in a performant way, along with configurable properties and start/stop methods to precisely control the behavior of the animations.

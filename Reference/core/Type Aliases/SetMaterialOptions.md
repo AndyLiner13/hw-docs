@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_setmaterialoptions
 
-API reference
-
 # SetMaterialOptions type
 
 Options for the [MeshEntity.setMaterial()](/hw-docs/Reference/core/Classes/MeshEntity.md#setmaterial) method.

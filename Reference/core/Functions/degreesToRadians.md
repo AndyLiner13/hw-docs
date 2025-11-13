@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_degreestoradians
 
-API reference
-
 # degreesToRadians() Function
 
 Converts degrees to radians.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/camera
 
-Learn
-
 # Camera
 
 This article covers how to set up and control camera perspectives for web and mobile players using both **spawn point configuration** and the **Camera API** via TypeScript.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/faq/mhcp-faq
 
-Learn
-
 # Meta Horizon Creator Program FAQ
 
 **What is the Meta Horizon Creator Program?**

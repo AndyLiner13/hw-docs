@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/meta-horizon-typescript-api-20-json-ppvs--versioning-
 
-Learn
-
 # Meta Horizon TypeScript API 2.0: JSON PPVs & Versioning
 
 Author: Laex05

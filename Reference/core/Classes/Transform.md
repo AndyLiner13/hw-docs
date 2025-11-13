@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_transform
 
-API reference
-
 # Transform Class
 
 A transform for an entity, which represents the position, rotation, and scale of the entity in a world.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-10-timer-and-build-info-overlays
 
-Learn
-
 # Station 10 - Timer and Build Info Overlays
 
 This station introduces the **non-interactive screen overlay**. Custom UIs that are set in Screen Overlay mode function as a Head Up Display (HUD) on the screen in front of the player. In this manner, you can deploy a HUD for players in your world.

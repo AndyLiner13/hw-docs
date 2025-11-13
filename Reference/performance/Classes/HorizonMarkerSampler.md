@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizonmarkersampler
 
-API reference
-
 # HorizonMarkerSampler Class
 
 A trace sampler that flags events.

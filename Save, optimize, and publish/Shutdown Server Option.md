@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/shutdown-server-option
 
-Learn
-
 # Shutdown Server Option
 
 The **Shutdown server** option allows creators to reset the server in a world. This is particularly useful for world creators who need to quickly refresh the world state during world creation. By shutting down the server, a new server instance is created upon rejoining, ensuring a fresh and consistent world. This feature helps avoid stale or glitchy worlds that can occur, improving the reliability and efficiency of world creation.

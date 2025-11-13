@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_color
 
-API reference
-
 # Color Class
 
 Extends *[Comparable](/hw-docs/Reference/core/Interfaces/Comparable.md)<[Color](/hw-docs/Reference/core/Classes/Color.md)>*

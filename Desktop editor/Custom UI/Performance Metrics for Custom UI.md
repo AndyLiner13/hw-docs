@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/performance-metrics-for-custom-ui
 
-Learn
-
 # Performance Metrics for Custom UI
 
 There are 4 real-time metrics available to help with debugging Custom UI.

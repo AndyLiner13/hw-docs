@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-2-resource-nodes
 
-Learn
-
 # Module 2 - Resource Nodes
 
 Resource nodes are the interactive objects that players can mine to collect resources. They serve as the primary source of materials in the sim tycoon gameplay loop.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/typescript-tutorial
 
-Learn
-
 # TypeScript Tutorial
 
 ## Build your first Hello World with TypeScript and the Desktop Editor

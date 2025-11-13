@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/raycast-gizmo
 
-Learn
-
 # Raycast gizmo
 
 The raycast gizmo is one of many gizmos in Meta Horizon Worlds that’s designed to enhance the creator’s ability to build interactive and dynamic worlds. This topic focuses on the experience of using a raycast gizmo in the [desktop editor](/hw-docs/Get%20started/Install%20the%20desktop%20editor.md), introduces the gizmo’s properties and expected behavior, and then highlights the [Raycast gizmo APIs](/hw-docs/Reference/core/Classes/RaycastGizmo.md).

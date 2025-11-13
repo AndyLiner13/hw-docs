@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-2-meet-the-npcs
 
-Learn
-
 # Module 2 - Meet the NPCs
 
 This module introduces you to the two AI Speech NPCs in this example world and shows you how to interact with them.

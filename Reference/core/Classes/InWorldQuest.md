@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_inworldquest
 
-API reference
-
 # InWorldQuest Class
 
 Provides detail info of in-world quest, which is useful for player to understand quest's details and its reward item.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshhit
 
-API reference
-
 # NavMeshHit type
 
 The collision data returned when a raycast is performed on a [NavMesh](/hw-docs/Reference/navmesh/Classes/NavMesh.md) object by the method.

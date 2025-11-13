@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_gamestateenum
 
-API reference
-
 # GameStateEnum Enum
 
 The shared game states for a world instance. This is not player-specific.

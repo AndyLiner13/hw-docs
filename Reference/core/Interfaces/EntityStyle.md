@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entitystyle
 
-API reference
-
 # EntityStyle Interface
 
 Represents a style for a Custom model entity that can change its style.

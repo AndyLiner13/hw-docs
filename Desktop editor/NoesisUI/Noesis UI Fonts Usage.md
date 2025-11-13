@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-fonts-usage
 
-Learn
-
 # Noesis UI Fonts Usage
 
 Once you have created a project in NoesisUI and added it to your world, you can select a font for the text of your UI. Selecting a font can help contribute to the aesthetics of your world, and improve your user’s overall experience. NoesisUI supports various options for applying and managing fonts in your NoesisUI. This allows you to ensure visual consistency across all of your user interface surfaces.

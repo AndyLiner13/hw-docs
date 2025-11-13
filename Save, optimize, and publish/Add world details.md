@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/add-world-details-in-horizon
 
-Learn
-
 # Add world details
 
 As a creator, you can add details to your world to help people discover it. These details include names, descriptions, photos, trailers, and more. In the Developer Dashboard, these details are referred to as **World details**.

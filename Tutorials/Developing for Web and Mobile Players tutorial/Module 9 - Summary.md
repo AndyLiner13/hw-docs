@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-9-summary
 
-Learn
-
 # Module 9 - Summary
 
 Congratulations, you have completed a puzzle game that is playable across all platforms!

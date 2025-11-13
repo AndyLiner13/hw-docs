@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-9-savegame-system
 
-Learn
-
 # Module 9 - SaveGame System
 
 The SaveGame system handles persistence of player progress between play sessions. It ensures that tools, resources, currency, and progression are maintained when players leave and return to the world.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawnstate
 
-API reference
-
 # SpawnState Enum
 
 The available spawn states for the asset of an entity.

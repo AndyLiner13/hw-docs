@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/debug-console-gizmo
 
-Learn
-
 # Debug console gizmo
 
 When you create your world, there are helpful development tools for [debugging and optimization](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Developer%20Tools%20for%20Tutorials.md). One such tool is the debug console [gizmo](/hw-docs/Gizmos/About%20gizmos.md), which allows you to debug scripts in real time while you’re in the virtual environment with the headset on. This is often referred to as in-world debugging. It is designed to display script messages with an in-world interface for viewing debug information, making it more suitable for interactive and real-time debugging scenarios. You can see logs and debug information as you interact with the world. In comparison, the standard console displays similar information in the log viewer in the [desktop editor](/hw-docs/Desktop%20editor/Desktop%20Editor.md) under the tab **Console**.

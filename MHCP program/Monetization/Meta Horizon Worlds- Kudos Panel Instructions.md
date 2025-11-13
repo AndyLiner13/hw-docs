@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/meta-horizon-worlds-kudos-panel-instructions
 
-Learn
-
 # Meta Horizon Worlds: Kudos Panel Instructions
 
 **Note**: This functionality is not currently supported for Meta Horizon Worlds on web and mobile.

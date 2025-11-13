@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/aim-assist
 
-Learn
-
 # Aim Assist
 
 In the interest of creating the most enjoyable experience for all players, it’s important to consider how to balance any competitive gameplay across players on different devices. In particular, on mobile devices, the user can struggle with fast twitch controls in high stress or competitive environments. To remedy this, you can use an aim assist system that helps the player track potential targets.

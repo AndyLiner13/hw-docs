@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/in-world-examples
 
-Learn
-
 # In World Examples
 
 ## Horizon TypeScript Templates

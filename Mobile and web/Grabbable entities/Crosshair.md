@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/crosshair
 
-Learn
-
 # Crosshair
 
 Picking up a grabbable item on Meta Horizon Worlds for web and mobile displays a crosshair in the center of the screen. By default, this is simply a dot. You can change the crosshair type using the **Crosshair Type** property on grabbable objects.

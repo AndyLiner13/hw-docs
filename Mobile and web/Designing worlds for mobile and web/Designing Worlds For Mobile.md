@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/designing-worlds-for-mobile-and-web/designing-worlds-for-mobile
 
-Learn
-
 # Designing Worlds For Mobile
 
 It is worth considering how the essential experience and the architectural design of a World can impact players on mobile devices. Use the following tips to improve the experience for mobile players in your world.

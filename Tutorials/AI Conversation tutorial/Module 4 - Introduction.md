@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-4-player-interaction-and-multiple-npcs
 
-Learn
-
 # Module 4 - Introduction
 
 This module covers how players interact with AI NPCs and the challenges of coordinating multiple NPCs in your world.

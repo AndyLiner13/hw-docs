@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/connect-23-video-series-custom-model-worlds
 
-Learn
-
 # Connect '23 Video Series: Custom Model Worlds
 
 [](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/452708692_1149690456297344_1969823008859737533_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=vFYKiIhJA9wQ7kNvwEfRixV&_nc_oc=AdmbIp_r3q0ulHag6nVWf1tTWi_mQD8afME78a3zagdQrgcH1DZNSF-klp4B-gGkE7k&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=EM6uiuAM309OpOFcs1AyfQ&oh=00_Afgsm8o8MuoHLseVKF0ZWAOuhMc8RIU1kOajWsvKpO6PmQ&oe=691B2879)

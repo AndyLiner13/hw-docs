@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/using-the-creator-menu
 
-Learn
-
 # Use the Creator Menu in Meta Horizon Worlds
 
 When in Build Mode, press the menu button on your left controller to open your Creator Menu. Here’s where you’ll find everything from shapes and gizmos to color palettes and publishing settings. The four main categories in the menu (from left to right) are: Build, Style, Publish, and Settings.

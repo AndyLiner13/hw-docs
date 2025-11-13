@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-10-hud-system
 
-Learn
-
 # Module 10 - HUD System
 
 The HUD (Heads-Up Display) system provides real-time visual feedback to players about their current state, resources, tools, and progress. It creates an engaging and informative user interface that keeps players informed about their game status.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-interactive-custom-ui
 
-Learn
-
 # Build an interactive custom UI
 
 This topic shows you how to build an interactive custom UI, because creating a static, [non-interactive UI panel](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) is only the beginning. In most cases, you’d want to build dynamic UI panels that interact with the rest of the world. These are the two types of interactions:

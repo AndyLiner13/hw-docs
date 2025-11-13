@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/how-to-script-fire-with-thejohnmclay
 
-Learn
-
 # How to Script Fire with thejohnmclay
 
 [](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453527029_1154495575666435_5062044208968422190_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=m6YpcO7w7k0Q7kNvwEJM3bC&_nc_oc=AdnYyDlpskG3yudw6p7xWkfq5FYHRWi9BuUNAX8UAvZBzfFnUeWH8josBd57wJE8Hd8&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=rGxXTMpw5cUEd4TqraAhdw&oh=00_AfjKxhB_EtSe_k9pc372hClFIMXCxvrs_8OnTVdC2yyUpQ&oe=691B37BF)

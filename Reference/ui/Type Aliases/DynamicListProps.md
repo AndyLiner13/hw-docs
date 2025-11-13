@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_dynamiclistprops
 
-API reference
-
 # DynamicListProps type
 
 Represents the props of a [DynamicList()](/hw-docs/Reference/ui/Functions/DynamicList.md) component in a UI panel.

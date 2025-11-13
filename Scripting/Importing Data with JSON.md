@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/importing-data-with-json
 
-Learn
-
 # Importing Data with JSON
 
 In Typescript we can use the Javascript JSON.parse() method to parse a JSON string and construct an object described by the string. This gives us the ability to import JSON data into Meta Horizon Worlds to be used as needed.

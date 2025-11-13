@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/asset-spawning-and-world-streaming-with-seeingblue
 
-Learn
-
 # MHCP Mentor Office Hour Video: Asset Spawning and World Streaming with SeeingBlue
 
 Learn advanced techniques for spawning assets and levels in Meta Horizon Worlds to optimize performance and enhance the player experience. SeeingBlue also answers questions about Weekly Creator Challenge #5.

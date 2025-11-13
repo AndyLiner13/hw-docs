@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-9-animation-effects
 
-Learn
-
 # Station 9 - Animation Effects
 
 In this station, you can review basic examples of applying animated effects to static content in your custom user interfaces. In this case, a single static image is “animated” by dynamically changing its width and height properties.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_callbackmap
 
-API reference
-
 # CallbackMap type
 
 Stores a map of IDs to callback functions for use during data model serialization.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/concurrent-world-variable-updates
 
-Learn
-
 # Concurrent-safe world level variable updates
 
 The `setWorldVariableAcrossAllInstancesAsync` API includes an optional concurrency control mode that prevents data loss when multiple instances modify the same world variable simultaneously. This mode helps maintain data integrity in competitive scenarios and eliminates the need for manual conflict resolution.

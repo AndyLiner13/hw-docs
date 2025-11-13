@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/world-inventory-api-guide
 
-Learn
-
 # World Inventory API Guide
 
 The world inventory exists behind the scenes, storing a tally of in-world items for each player that enters the world. The world inventory persists after the player leaves the world, meaning the next time the player joins, the world inventory will be loaded as they left it. The world inventory is automatically created for each world.

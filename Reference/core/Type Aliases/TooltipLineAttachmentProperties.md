@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_tooltiplineattachmentproperties
 
-API reference
-
 # TooltipLineAttachmentProperties type
 
 Determines how the line attached to a tooltip is displayed.

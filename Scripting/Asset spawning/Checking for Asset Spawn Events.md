@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/checking-for-asset-spawn-events
 
-Learn
-
 # Checking for Asset Spawn Events
 
 If you have actions to perform once an asset is spawned, despawned, or fails to spawn, you can listen for the following CodeBlock events within your TypeScript code. For details on listening for CodeBlock Events, see the [Built-In CodeBlock events section](/hw-docs/Scripting/Events/CodeBlock%20Events.md#built-in-codeblock-event).

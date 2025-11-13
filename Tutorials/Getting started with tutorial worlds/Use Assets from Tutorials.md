@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials
 
-Learn
-
 # Use Assets from Tutorials
 
 As you explore these tutorial worlds, you may find scripts, art, or other entities that you would like to use in your own worlds. Go for it!

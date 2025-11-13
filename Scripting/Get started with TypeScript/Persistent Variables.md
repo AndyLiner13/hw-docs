@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/persistent-variables-v2
 
-Learn
-
 # Persistent Variables
 
 Persistent variables (or PVARs) enable the storage and retrieval of player-specific data during gameplay, which persists across the worlds that players explore. For example, you can use PVARs for storing a player’s inventory of objects, current hit points, and more. PVARs support two basic types of variable:

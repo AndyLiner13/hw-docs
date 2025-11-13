@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/asset-improv-with-spaceglitterunicorn
 
-Learn
-
 # MHCP Mentor Office Hour Video: Asset Improv with SpaceGlitterUnicorn
 
 Learn Blender tips and tricks as SpaceGlitterUnicorn models a new asset for import into Meta Horizon based on your suggestions. SpaceGlitterUnicorn answers questions about modeling, texturing, and importing.

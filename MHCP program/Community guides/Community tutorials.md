@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/community-tutorials
 
-Learn
-
 # Community tutorials
 
 These tutorials were created by MHCP members.

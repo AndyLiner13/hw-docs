@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_camera
 
-API reference
-
 # Camera Class
 
 Manages the view, position, and features of the in-game camera.

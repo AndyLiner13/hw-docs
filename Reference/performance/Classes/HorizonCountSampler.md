@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizoncountsampler
 
-API reference
-
 # HorizonCountSampler Class
 
 A trace sampler that tracks the frequency of events.

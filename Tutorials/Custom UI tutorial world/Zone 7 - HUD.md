@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-7-hud
 
-Learn
-
 # Zone 7 - HUD
 
 This zone demonstrates Head-up Display (HUD) implementations that provide persistent UI elements for players.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/asset-thumbnail-creation-horizon
 
-Learn
-
 # Create an asset thumbnail with Meta Horizon Worlds
 
 In Meta Horizon Worlds, you can create custom assets and save them to your library. When you save an asset, you must also add a thumbnail image of the asset.

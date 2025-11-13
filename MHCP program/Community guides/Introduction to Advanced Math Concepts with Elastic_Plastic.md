@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/introduction-to-advanced-math-concepts-with-elastic-plastic
 
-Learn
-
 # Introduction to Advanced Math Concepts with Elastic\_Plastic
 
 Join MHCP Mentor, Elastic\_Plastic as he introduces you to concepts of sine, cosine, and vectors. Learn how these math concepts can be useful in your world with a scripting example and some in-world applications.

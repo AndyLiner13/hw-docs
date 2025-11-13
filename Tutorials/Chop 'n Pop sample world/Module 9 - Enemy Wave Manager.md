@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-9-enemy-wave-manager
 
-Learn
-
 # Module 9 - Enemy Wave Manager
 
 The Enemy Wave Manager system controls the release of each wave of monsters, which can be skeletons, zombies, or combinations of both. Each wave is spawned at one of the available spawn points. When the final wave is completed,

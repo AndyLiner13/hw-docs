@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_comparable
 
-API reference
-
 # Comparable Interface
 
 The Comparable interface defines a set of methods for comparing values of the same type, including [equals()](/hw-docs/Reference/core/Interfaces/Comparable.md#equals) and [equalsApprox()](/hw-docs/Reference/core/Interfaces/Comparable.md#equalsapprox) methods.

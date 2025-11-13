@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-5-grab-me-and-quest-complete
 
-Learn
-
 # Module 5 - Grab Me and Quest Complete
 
 In this module we will cover how the “Grab Me” VFX system works and how to use it to guide players to important interactive objects and quest completion objectives.

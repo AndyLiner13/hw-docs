@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-3-the-puzzle-manager
 
-Learn
-
 # Module 3- The Puzzle Manager
 
 The Puzzle Manager is a key component in this game. We deploy one Puzzle Manager to each room, where it is responsible for the following:

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_attachcameramode
 
-API reference
-
 # AttachCameraMode Class
 
 Extends *[ICameraMode](/hw-docs/Reference/camera/Interfaces/ICameraMode.md)*

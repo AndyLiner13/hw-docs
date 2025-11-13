@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turbodefaultsettings
 
-API reference
-
 # TurboDefaultSettings Variable
 
 The default [settings](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) for a [Turbo](/hw-docs/Reference/analytics/Variables/Turbo.md) instance, including the initial Turbo events and data to collect.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-10-npc-system
 
-Learn
-
 # Module 10 - NPC System
 
 Chop ‘N Pop: Graveyard Bash utilizes two Non-Player Character (NPC) entities that are available through the desktop editor. In this world, the Skeleton and Zombie NPCs have been deployed and provided separate sets of configurable behaviors.

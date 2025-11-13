@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/october-2024-town-hall
 
-Learn
-
 # MHCP Program Updates with William Chandler and Marlowe Shaeffer
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/464175870_425983167208447_3360726712227099271_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=6F1Lp5jCkcgQ7kNvwGp4ygI&_nc_oc=AdlSBGKYwVDa3wO6oDrVXR046ruc2Q_oVSmQNHt_otuRLmCf58UR-WoEzkE7njyjWi0&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=PFtEqW_tJI5Aykn08prdbg&oh=00_AfgnSAerZ6Z5nMvNoO-Szs5_zJiGIT-udAzHaVezckZBtA&oe=691B4667)[Download video captions here.](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75254872_930508442464101_1331365071056430894_n.pdf?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=MayZD1WD3uQQ7kNvwGTq1tm&_nc_oc=AdmGvbJf41ggRdNmCIBfcv5msngT7gfZHdB-B9JlwXJf1eWEuvfMbaI-1nX2gIH2UYw&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfgTYUjRBrtI0I5QdYVD18DuHZejEHwL9RBkmDeFD9jJJw&oe=692F98AC)

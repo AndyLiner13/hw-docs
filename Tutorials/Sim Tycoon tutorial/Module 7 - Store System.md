@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-7-store-system
 
-Learn
-
 # Module 7 - Store System
 
 The store system enables players to purchase tools and upgrades using the currency they’ve earned from converting resources. It provides an interface for players to progress their tools and capabilities.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/primary_tools
 
-Learn
-
 # Primary Tools in the User Interface
 
 ![The Desktop Editor showing the primary tools](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481925474_667982975739657_1787462475621305422_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=0Q-2tENgR10Q7kNvwG5DGD_&_nc_oc=AdmPKe_7454o12kvhuos53sx2zeSVmrXeh55p-KCvMputa6XpUOXSYJDClqhKSayBSg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=hajYgJMwzk17FroMzHoSiA&oh=00_AfiHQ2fCdvVXFpcfXJRXacmoGGFTw15UlYEeQD643ANfKw&oe=692F9BFA)

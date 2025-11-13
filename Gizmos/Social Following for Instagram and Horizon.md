@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/profiles-to-follow-asset-template
 
-Learn
-
 # Social Following for Instagram and Horizon
 
 ## Overview

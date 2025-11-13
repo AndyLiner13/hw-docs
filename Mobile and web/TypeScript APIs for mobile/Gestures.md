@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/gestures
 
-Learn
-
 # Gestures
 
 The `mobile_gestures` API allows you to detect and respond to common touch gestures on mobile devices within Horizon Worlds. This tutorial covers how to set up gesture detection, listen for gesture events, and customize gesture behavior.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/nav-mesh-agents
 
-Learn
-
 # Nav Mesh Agents
 
 The navigation mesh (NavMesh) agent feature allows you to create [agents](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#agent) that autonomously navigate through a world avoiding obstacles, guided by [navigation meshes](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-mesh-navmesh). Agents can be simple, like a primitive object, or complex, like a premade [NPC asset](/hw-docs/desktop-editor/npcs/getting-started-with-npc-assets). You can create an agent from any of the following entity types:

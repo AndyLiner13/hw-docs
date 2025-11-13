@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/desktop-editor
 
-Learn
-
 # Desktop Editor
 
 The desktop editor for Meta Horizon Worlds enables you to create and modify world objects using your keyboard and mouse, rather than with a VR headset and controllers.

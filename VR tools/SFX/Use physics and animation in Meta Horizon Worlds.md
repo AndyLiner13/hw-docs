@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/sfx/adding-physics-and-animation-in-horizon
 
-Learn
-
 # Use physics and animation in Meta Horizon Worlds
 
 ## Using the Properties Panel

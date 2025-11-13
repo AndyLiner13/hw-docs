@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-4-laser-gun
 
-Learn
-
 # Module 4 - Laser Gun
 
 ![Image of the laser gun assembly in the world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480672120_676362568235031_2975711562505549488_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qyPx-h7yVKIQ7kNvwHhktFe&_nc_oc=Adns5u-x6Cedz8r6ksQSSrJwYDFWxJTDEgYko9tJ-uGhEyA3o1YI4TNHXnBgozZpASE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rKyekQgulB-GPPBkvdkUfA&oh=00_AfhM5PIB2pZpfs895w2ljuOAXaTC89uZo-ZsM5N3dT8MqA&oe=692FA97A)

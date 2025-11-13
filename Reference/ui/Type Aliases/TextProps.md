@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_textprops
 
-API reference
-
 # TextProps type
 
 Represents the props of a [text](/hw-docs/Reference/ui/Functions/Text_2.md) component.

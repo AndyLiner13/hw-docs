@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizondurationsampler
 
-API reference
-
 # HorizonDurationSampler Class
 
 A trace sampler that tracks the duration of function calls.

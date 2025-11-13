@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerinput
 
-API reference
-
 # PlayerInput Class
 
 A customizable player input that is bound to an [input action](/hw-docs/Reference/core/Enumerations/PlayerInputAction.md) on a player's input device, such as a VR controller, gamepad, or on-screen button.

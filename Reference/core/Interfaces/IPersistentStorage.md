@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_ipersistentstorage
 
-API reference
-
 # IPersistentStorage Interface
 
 A persistent storage object, which contains a set of functions that interact with player variables.

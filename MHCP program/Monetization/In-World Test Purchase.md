@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/inworld-test-purchase
 
-Learn
-
 # In-World Test Purchase
 
 ![Image shows the in-headset view of the commerce tab.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/476361026_652827133921908_9082531417226172290_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=prWzgUHS31MQ7kNvwGxD_Nj&_nc_oc=Adm-CncykmMDsiDHgHkkdbPm00ftBpz5sH-p_XuUNGrw03BdnrQAJ_bFaPry9KD-Bw4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bwo91iY7quRZrO4gR6VvpA&oh=00_AfjbPdgSRVU8sxXKgom-RrUun0FlDCGWfeKRXB4QG-s2NQ&oe=692FA80D)

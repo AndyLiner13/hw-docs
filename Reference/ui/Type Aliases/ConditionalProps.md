@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_conditionalprops
 
-API reference
-
 # ConditionalProps type
 
 Represents the props of a UINode.if() node (for conditional rendering).

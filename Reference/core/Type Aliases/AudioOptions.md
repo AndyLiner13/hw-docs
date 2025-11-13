@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_audiooptions
 
-API reference
-
 # AudioOptions type
 
 Provides [AudioGizmo](/hw-docs/Reference/core/Classes/AudioGizmo.md) playback options for a set of players.

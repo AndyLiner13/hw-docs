@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/shop-asset-template
 
-Learn
-
 # Shop Asset Template
 
 ![Shop Asset Template](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/504085884_734185555786065_4230548913834177985_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=kMptQvPWv78Q7kNvwGLs4rz&_nc_oc=AdmA5Q4uQF3q9wyOrPwfgGvUQCeeIIQ4e_hnm2b0oiezLNRqhu19gzuR8xI2iySfjHc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=umtqjIKX7rHlROlTyKyIpg&oh=00_AfihGmWsDBlaB00dix82Mp-CJ8LXw0btawfRi_amzcQUKQ&oe=692F97D2)

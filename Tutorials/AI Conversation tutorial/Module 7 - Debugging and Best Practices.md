@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-7-debugging-and-best-practices
 
-Learn
-
 # Module 7 - Debugging and Best Practices
 
 This final module covers debugging techniques and best practices for creating effective AI Speech NPCs.

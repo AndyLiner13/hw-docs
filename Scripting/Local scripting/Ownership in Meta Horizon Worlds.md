@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds
 
-Learn
-
 # Ownership in Meta Horizon Worlds
 
 In Meta Horizon Worlds, the concept of ownership is based on the Meta Horizon Worlds networking model. Ownership is a mechanism used to determine which client (either the server or a user’s device) is the authority for a particular entity’s state.

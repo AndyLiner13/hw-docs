@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/introduction-to-performance
 
-Learn
-
 # Introduction to performance optimization
 
 When you experience a world in Meta Horizon Worlds, you may experience times when the gameplay feels slow, or ‘hitches’. This occurs when the world is asking too much of the CPU or GPU and, as a result, isn’t rendering a frame fast enough to keep the action smooth. In these situations, you as the creator can take steps to identify the problem and explore possible fixes. Meta Horizon Worlds includes profiling tools to help you identify what is happening.

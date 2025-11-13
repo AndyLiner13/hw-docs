@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_attachcameraoptions
 
-API reference
-
 # AttachCameraOptions type
 
 Options used to determine the behavior of a camera in [attached mode](/hw-docs/Reference/camera/Classes/Camera.md#setcameramodeattach).

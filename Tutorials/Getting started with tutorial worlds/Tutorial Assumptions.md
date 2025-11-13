@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-assumptions
 
-Learn
-
 # Tutorial Assumptions
 
 In these tutorials, the following assumptions are applied.

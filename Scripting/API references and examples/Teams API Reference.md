@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/Teams-api
 
-Learn
-
 # Teams API Reference
 
 ## Basic functions for teams based gameplay.

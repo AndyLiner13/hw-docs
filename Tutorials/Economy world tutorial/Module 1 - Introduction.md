@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/economy-world-tutorial/module-1-introduction
 
-Learn
-
 # Module 1 - Introduction
 
 Welcome to module 1 of the Economy World tutorial. In this tutorial, you will learn:

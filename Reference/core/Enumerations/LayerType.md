@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_layertype
 
-API reference
-
 # LayerType Enum
 
 The type of layer in the world.

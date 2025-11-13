@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-3-bars
 
-Learn
-
 # Zone 3 - Bars
 
 This zone focuses on progress bars and loading indicators that provide visual feedback to players.

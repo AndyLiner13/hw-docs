@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/overriding-the-avatar-pose
 
-Learn
-
 # Overriding The Avatar Pose
 
 You can programmatically override the avatar pose on a grabbable item at runtime. This approach lets you play a different set of animations. For example, you could use a gun in a melee attack by switching to the sword set. This is done by calling the following methods:

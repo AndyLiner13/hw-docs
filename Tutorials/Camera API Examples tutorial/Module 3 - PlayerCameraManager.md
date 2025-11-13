@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-3-playercameramanager
 
-Learn
-
 # Module 3 - PlayerCameraManager
 
 The PlayerCameraManager is responsible for managing the assignment of PlayerCamera entities to players when they enter the world.

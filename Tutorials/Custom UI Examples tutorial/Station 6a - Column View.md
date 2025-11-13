@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-6a-column-view
 
-Learn
-
 # Station 6a - Column View
 
 The examples in Station 6 demonstrate how to organize your customUI panel into rows and columns. In these examples, you can use the flexDirection styling attribute to orient your `View()` objects horizontally and vertically.

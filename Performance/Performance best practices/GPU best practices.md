@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/gpu-best-practices
 
-Learn
-
 # GPU best practices
 
 Currently, world performance is bound by CPU processing so the practices described here are not as critical as those in [CPU and TypeScript Best Practices](/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md) and [Physics Best Practices](/hw-docs/Performance/Performance%20best%20practices/Physics%20best%20practices.md). These are, however, best practices and should be kept in mind. Creators using Custom Model Import worlds have more control of this than primitive based worlds. Future hardware may have faster CPUs and higher refresh rates - making them less CPU bound, planning for GPU performance now will future-proof your world.

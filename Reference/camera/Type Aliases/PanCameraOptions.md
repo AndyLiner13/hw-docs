@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_pancameraoptions
 
-API reference
-
 # PanCameraOptions type
 
 Available options when applying a pan camera.

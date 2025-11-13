@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/user-interface
 
-Learn
-
 # User Interface
 
 The Desktop Editor contains a variety of controls that enable you to create objects to add to your scene. These tools provide you the control to position, scale, and program an object’s behaviour with scripts.

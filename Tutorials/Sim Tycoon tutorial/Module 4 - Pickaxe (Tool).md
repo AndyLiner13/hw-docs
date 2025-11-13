@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-4-pickaxe
 
-Learn
-
 # Module 4 - Pickaxe (Tool)
 
 The pickaxe is the primary grabbable tool used by players to mine resource nodes and extract materials. It represents the core interaction mechanism in the Sim Tycoon gameplay loop.

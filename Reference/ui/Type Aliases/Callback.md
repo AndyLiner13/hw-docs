@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_callback
 
-API reference
-
 # Callback type
 
 Represents a callback function interface for a [Player](/hw-docs/Reference/core/Classes/Player.md) object.

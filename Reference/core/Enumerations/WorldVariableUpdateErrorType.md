@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_worldvariableupdateerrortype
 
-API reference
-
 # WorldVariableUpdateErrorType Enum
 
 Represents the different types of errors that can occur during world variable updates.

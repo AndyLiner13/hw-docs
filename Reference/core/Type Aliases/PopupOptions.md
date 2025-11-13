@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_popupoptions
 
-API reference
-
 # PopupOptions type
 
 The sound and display settings for a popup message.

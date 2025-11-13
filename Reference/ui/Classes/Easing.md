@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing
 
-API reference
-
 # Easing Class
 
 A set of easing functions for configuring [timing animations](/hw-docs/Reference/ui/Type%20Aliases/TimingAnimationConfig.md). Easing functions provide physical motion animations.

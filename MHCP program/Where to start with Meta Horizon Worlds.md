@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/where-to-start
 
-Learn
-
 # Where to start with Meta Horizon Worlds
 
 There are a lot of facets to creation using Meta Horizon Worlds. The following documentation topics can help you get started becoming familiar with some of the features available:

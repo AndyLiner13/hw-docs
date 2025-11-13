@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup
 
-Learn
-
 # Module 1 - Setup
 
 ![Thumbnail of Chop N Pop World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467985657_595263769678245_8393983042199091303_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=JDwTJeNlhmYQ7kNvwEcKUMl&_nc_oc=AdnwSY6IP4ERpGgI-DiV_pl-23Q7aEqgsAnrkFjs3wymQoLw72W8p_4cDRpgS4HDzSo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=v67R53ca07kqhIq7aHQy-A&oh=00_Afie-OvtmNeeHE5t4Hxgam_v_5n0aNf_g4SoRmawzELC3w&oe=692FA209)

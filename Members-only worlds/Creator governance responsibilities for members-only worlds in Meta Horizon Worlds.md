@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/creator-responsibilities-members-only-worlds
 
-Learn
-
 # Creator governance responsibilities for members-only worlds in Meta Horizon Worlds
 
 Members-only worlds deprecated

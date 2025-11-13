@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world
 
-API reference
-
 # World Class
 
 Represents a virtual world in Meta Horizon Worlds, which provides access to properties, events, and operations related to the world state; including events scripts can use to time operations based on state changes to the world.

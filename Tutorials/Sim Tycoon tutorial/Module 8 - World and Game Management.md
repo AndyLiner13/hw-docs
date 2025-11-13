@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-8-world-management
 
-Learn
-
 # Module 8 - World and Game Management
 
 The World system manages the overall game state, player lifecycle, and coordinates all the different systems working together. It serves as the central orchestrator for the sim tycoon experience.

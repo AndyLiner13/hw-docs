@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/network-model
 
-Learn
-
 # Network Model Overview
 
 In Meta Horizon Worlds, each virtual world uses a distributed client-server architecture where a server and multiple clients synchronize state changes across the network using an entity-component system (ECS). In this approach, each entity (object) in the world is owned by a client giving it authority to modify the entity and broadcast the updates to other clients on the network.

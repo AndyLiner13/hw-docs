@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-started/install-desktop-editor
 
-Learn
-
 # Install the desktop editor
 
 Build immersive worlds and experiences on Meta Horizon Worlds with our desktop editor, a free, Windows-based application.

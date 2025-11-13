@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-gizmo/npc-locomotion
 
-Learn
-
 # NPCs Locomotion
 
 # **Implementing Locomotion for NPCs**

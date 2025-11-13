@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/avatar-posts
 
-Learn
-
 # Avatar Posts
 
 Avatar video sharing is designed to enable the creation of avatar-centric videos on Horizon and sharing to other surfaces such as Facebook, Instagram, and other social media platforms. By using avatar video sharing, creators can enhance the visibility and engagement with their created digital goods. Avatar video sharing addresses the need for increased visibility and engagement of digital goods by leveraging avatar videos, which have shown to perform better than static images.

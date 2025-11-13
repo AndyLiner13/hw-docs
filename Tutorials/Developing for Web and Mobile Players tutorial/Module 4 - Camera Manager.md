@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-4-camera-manager
 
-Learn
-
 # Module 4 - Camera Manager
 
 Controlling the camera is useful in a game for focusing the player’s attention on the important areas of the screen. Using our Camera Manager, you can leverage the camera-related features of Meta Horizon Worlds, including:

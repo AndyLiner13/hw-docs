@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/local-mode-custom-ui-scripts
 
-Learn
-
 # Local Mode Custom UI Scripts
 
 Custom UI supports local mode. It runs the attached script on the player client locally, removing the need for networking during binding update and callback response when players interact with the UI. This is the suggested solution when you want to display some player-specific UI that is only visible to a single player.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/codeblock-events
 
-Learn
-
 # CodeBlock Events
 
 CodeBlock events enable your TypeScript code to send and receive events from CodeBlock or TypeScript scripts. These events communicate asynchronously with all players in the world by default. This ensures the server manages world behavior consistently for all users.

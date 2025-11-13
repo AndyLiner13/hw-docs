@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/adding-collaborators-in-horizon
 
-Learn
-
 # Permissions when you add a collaborator to your world
 
 If you add another Worlds player to collaborate on your world, they will be able to interact with the world in new ways without requiring additional permission from you, and may be able to build, edit and change anything in that world, including things that you and other collaborators have created. Adding someone as a collaborator may also allow them to use the Import World function to copy your world into another world (that you might not have access to). Once the world is imported, they can modify it as they want and even publish.

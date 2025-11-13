@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/player-index
 
-Learn
-
 # Player Index
 
 When a player joins your world instance, they’re assigned a constant index. This index persists while they are in the instance and you can use it to track players and any objects tied to them.

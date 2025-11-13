@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_attachableplayeranchor
 
-API reference
-
 # AttachablePlayerAnchor Enum
 
 The location of an attachment point on a player.

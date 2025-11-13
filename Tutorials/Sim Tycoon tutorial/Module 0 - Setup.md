@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-0-setup
 
-Learn
-
 # Module 0 - Setup
 
 Welcome, creators!

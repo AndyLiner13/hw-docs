@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-17-configuration-customization
 
-Learn
-
 # Module 17 - Configuration and Advanced Customization
 
 This module covers advanced configuration options and customization techniques for modifying the sim tycoon reference world to create your own unique game experience.

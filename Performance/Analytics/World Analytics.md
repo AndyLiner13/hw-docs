@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/world-analytics
 
-Learn
-
 # World Analytics
 
 World analytics is the usage and performance data associated with a world in Meta Horizon Worlds. These details are exposed to world creators through a self-service dashboard. It provides the usage data that you need to understand in order to make improvements to your world.

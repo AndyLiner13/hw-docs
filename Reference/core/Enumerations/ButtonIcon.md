@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_buttonicon
 
-API reference
-
 # ButtonIcon Enum
 
 The icons to use when binding to custom player inputs. These are used on platforms that display buttons for inputs.

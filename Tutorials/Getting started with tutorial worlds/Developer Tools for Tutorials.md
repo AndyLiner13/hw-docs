@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/developer-tools-for-tutorials
 
-Learn
-
 # Developer Tools for Tutorials
 
 To assist in building out your worlds, the following tools are available.

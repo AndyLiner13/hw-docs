@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_quaternion
 
-API reference
-
 # Quaternion Class
 
 Extends *[Comparable](/hw-docs/Reference/core/Interfaces/Comparable.md)<[Quaternion](/hw-docs/Reference/core/Classes/Quaternion.md)>*

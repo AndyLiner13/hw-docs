@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/what-is-the-code-of-conduct-for-virtual-experiences-ccve-and-how-does-it-apply-to-membersonly-worlds
 
-Learn
-
 # What is the Code of Conduct for Virtual Experiences (CCVE) and how does it apply to members-only worlds?
 
 Members-only worlds deprecated

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerbodypart
 
-API reference
-
 # PlayerBodyPart Class
 
 Represents a player body part.

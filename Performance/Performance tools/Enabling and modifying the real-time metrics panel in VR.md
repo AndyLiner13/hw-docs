@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/enabling-and-modifying-the-realtime-metrics-panel
 
-Learn
-
 # Enabling and modifying the real-time metrics panel in VR
 
 This topic covers how to access real-time metrics and download performance traces in virtual reality. For information on how to access real-time metrics and download performance traces in web and mobile, see [Using performance tools from web and mobile](/hw-docs/Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md).

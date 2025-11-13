@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-4-broadcast-events
 
-Learn
-
 # Module 4 - Broadcast Events
 
 As the functionality grows, other parts of our game need to know when the game state has changed. It’s possible for our `GameManager` script to keep track of all components that must be updated about state changes and then update those components directly. Retaining a reference in `GameManager` to all other managers and systems and serving as a proxy for all updates is a common and acceptable strategy.

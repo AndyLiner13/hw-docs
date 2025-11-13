@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/scripting-considerations
 
-Learn
-
 # Scripting Considerations
 
 ## Naming conflicts

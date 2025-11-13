@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/custom-ui-controls
 
-Learn
-
 # Custom UI Controls
 
 ## Overview

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/uab-npcs
 
-Learn
-
 # UAB NPCs
 
 Unity Asset Bundles (UABs) are packaged Unity based assets that can be loaded dynamically at runtime in Horizon Worlds. They enable dynamic loading of complex, pre-built 3D assets, like NPCs, and come prepackaged with animations which can be used to react to players in your world.

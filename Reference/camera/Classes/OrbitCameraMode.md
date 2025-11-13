@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_orbitcameramode
 
-API reference
-
 # OrbitCameraMode Class
 
 Extends *[ICameraMode](/hw-docs/Reference/camera/Interfaces/ICameraMode.md)*

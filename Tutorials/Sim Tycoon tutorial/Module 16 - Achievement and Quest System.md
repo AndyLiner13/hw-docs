@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-16-achievement-quest-system
 
-Learn
-
 # Module 16 - Achievement and Quest System
 
 The achievement and quest system tracks player progress and provides goals and rewards for specific milestones. It enhances player engagement through structured progression and accomplishment recognition.

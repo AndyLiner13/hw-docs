@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/setting-in-world-purchase-pricing
 
-Learn
-
 # In-world purchase price setting
 
 In-world purchase details may be set and edited via headset or through the Desktop Editor. Price points for in-world purchases can range between 25 - 20,000 Meta Credits.

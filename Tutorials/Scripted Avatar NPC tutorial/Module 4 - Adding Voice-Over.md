@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-4-adding-voice-over
 
-Learn
-
 # Module 4 - Adding Voice-Over
 
 Voice-over is an excellent means of enhancing the NPCs of your worlds into being perceived as dynamic characters in the experience. In this world, voice-over has been added for each of the NPCs, triggered off of gameplay events to enhance the experience.

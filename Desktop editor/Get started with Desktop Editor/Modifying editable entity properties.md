@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/modifying-editable-entity-properties
 
-Learn
-
 # Modifying editable entity properties
 
 Many of the properties of objects in your world can be modified after you’ve added them. To edit the property of an object, click the object to select it. This lets you see its available properties using the **Properties** panel.

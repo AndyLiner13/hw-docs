@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editorbutton
 
-API reference
-
 # EditorButton() Function
 
 Creates an EditorButton component, which represents a button element in the editor and specifies the behavior for the onPress event.

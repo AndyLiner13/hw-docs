@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-conventions-and-best-practices
 
-Learn
-
 # MHCP Mentor Office Hour Video: TypeScript 2.0 Conventions and Best Practices Guide with Shards632
 
 Join Shards632 for an open office hours session covering TypeScript best practices and questions.

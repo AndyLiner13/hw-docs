@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-7-weapon-systems-axe
 
-Learn
-
 # Module 7 - Weapon Systems - Axe
 
 Chop ‘N Pop: Graveyard Bash allows visitors to select one of two kinds of weapons:

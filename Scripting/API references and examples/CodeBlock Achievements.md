@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/codeblock-achievements
 
-Learn
-
 # CodeBlock Achievements
 
 TypeScript provides methods and a [CodeBlock event](/hw-docs/Scripting/Events/CodeBlock%20Events.md) to check for and grant achievements when a player completes actions or feats in your world. Creators previously used CodeBlocks to handle player Achievements. Now, TypeScript enables more flexible development options.

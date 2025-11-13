@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entitynamematchoperation
 
-API reference
-
 # EntityNameMatchOperation Enum
 
 Defines the valid matching operations that are available when using [findEntities()](/hw-docs/Reference/core/Classes/World.md#findentities) to find world entities.

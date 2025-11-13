@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/collaborate-in-meta-horizon
 
-Learn
-
 # Collaborate
 
 If you choose to collaborate on a world, you may gain the ability to build, edit and change anything in that world while it’s unpublished. As a collaborator, you can’t publish or unpublish a world, delete a world or duplicate a world. You are also not able to control who else is added as a collaborator.

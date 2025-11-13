@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/daily-rewards-asset-template
 
-Learn
-
 # Daily Rewards Asset Template
 
 ![Daily Rewards Asset Template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/497935804_734911832380104_6962771998323814286_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=_a0rX2tqoScQ7kNvwEG4bpT&_nc_oc=AdkJWQn0dyCIeaheN4CaaBUiSfKjYqL7Uz5R9Z2V4RzP7hcgook_3LavZxMra2dM83w&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=p-NG0C-AwByijsJcCj6d3Q&oh=00_AfgMmzJ4X9u7tYBBujCsssJciCvbOQ7gzfUoV0jpYzWNug&oe=692FBE78)

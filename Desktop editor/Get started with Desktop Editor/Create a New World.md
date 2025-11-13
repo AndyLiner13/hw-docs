@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/creating-a-new-world
 
-Learn
-
 # Create a New World
 
 Opening the Meta Horizon Worlds desktop editor takes you to the editor’s **Creation Home**.

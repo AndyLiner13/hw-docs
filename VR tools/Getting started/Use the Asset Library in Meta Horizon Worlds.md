@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/using-asset-library
 
-Learn
-
 # Use the Asset Library in Meta Horizon Worlds
 
 The Asset Library gives you quick and easy access to hundreds of items you can use to help build your world, from rocket ships to household furniture. You can drag and drop items from the Asset Library into your world, customize them, and deconstruct them.

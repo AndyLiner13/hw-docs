@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-1-setup
 
-Learn
-
 # Module 1 - Setup
 
 ![Thumbnail of the Simple Shooting Mechanics tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462384297_563294049541884_4432521421105344562_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=5hwPl2HC51cQ7kNvwE2x9_t&_nc_oc=AdmiQkrG1ALCdphY_QHGX-5a2yGZgMynVhYMho74qX7EzbfZvZXMek_b4G0EKP1oPfk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zld6QzWky2k3MHdvmaR_MQ&oh=00_AfieJsgw1iOZ6nnkNt7wk7u6chxH7kkK9hrHi78ZyhSyUQ&oe=692F9EFE)

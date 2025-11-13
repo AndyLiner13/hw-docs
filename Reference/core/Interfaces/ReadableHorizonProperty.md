@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_readablehorizonproperty
 
-API reference
-
 # ReadableHorizonProperty Interface
 
 Represents a readable property.

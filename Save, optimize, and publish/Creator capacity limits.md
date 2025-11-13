@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/capacity-limits-in-horizon
 
-Learn
-
 # Creator capacity limits
 
 For a world to be published, it has to stay below 100% capacity in four areas:

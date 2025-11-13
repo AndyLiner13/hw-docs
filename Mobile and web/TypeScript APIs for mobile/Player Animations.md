@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/player-animations
 
-Learn
-
 # Player Animations
 
 Since the firing of projectiles is controlled programmatically, you can add hooks in your code to play animations. These animations play only when visiting Meta Horizon Worlds on web and mobile.

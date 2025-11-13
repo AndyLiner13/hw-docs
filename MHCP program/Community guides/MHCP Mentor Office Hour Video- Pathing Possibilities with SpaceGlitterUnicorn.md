@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/pathing-possibilities
 
-Learn
-
 # MHCP Mentor Office Hour Video: Pathing Possibilities with SpaceGlitterUnicorn
 
 Join SpaceGlitterUnicorn as she quickly demonstrates how to create awesome things with paths, from roads to fences.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-3-understanding-npc-implementation
 
-Learn
-
 # Module 3 - NPC Implementation
 
 This module explains the technical details of how AI Speech NPCs are implemented using TypeScript code and the Conversation API.

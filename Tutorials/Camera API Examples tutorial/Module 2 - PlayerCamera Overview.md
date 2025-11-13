@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-2-playercamera-overview
 
-Learn
-
 # Module 2 - PlayerCamera Overview
 
 This world is composed of several stations, each of which demonstrates a camera point of view in a specific use case. For example, you can see how the first-person camera works at the shooting gallery and how the third-person camera works at the hand-to-hand combat arena.

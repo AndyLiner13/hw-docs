@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycasthit
 
-API reference
-
 # RaycastHit type
 
 The result of a [raycast](/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) collision.

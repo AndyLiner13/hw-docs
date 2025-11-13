@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_bindingset
 
-API reference
-
 # BindingSet type
 
 Stores a set of bindings (both Binding and DerivedBinding) during data model serialization.

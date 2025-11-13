@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/frame-budget-boost
 
-Learn
-
 # Learn about Frame Budget Boost
 
 **Note**: Frame Budget Boost may not be suitable for all worlds. You can manage Frame Budget Boost in your Player Settings.

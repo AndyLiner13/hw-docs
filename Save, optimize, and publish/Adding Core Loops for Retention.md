@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/adding-core-loops-for-retention
 
-Learn
-
 # Adding Core Loops for Retention
 
 Our mission is to **incentivize users to find the best content in the metaverse and discover deeply engaging experiences that improve the quality of time spent in Horizon.** We want people to feel good about the time they invest and that the things they get from their time investment will make their next sessions more fun and enjoyable. In this article, we will review how leveraging a core loop in your game can help retain and engage users. We will review: the basics of a core loop, why they work, and how they have engaged players in Horizon Worlds.

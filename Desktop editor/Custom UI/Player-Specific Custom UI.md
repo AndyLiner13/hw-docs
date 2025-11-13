@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui
 
-Learn
-
 # Player-Specific Custom UI
 
 When building a UI panel, a common scenario is to display different content for each player. An example is the button hover color, which should only be shown to the player interacting with the button, but not all players. (Therefore, you can see that the hover state implementation in the previous section is in fact incorrect, because the button background color will change when *any* player hovers onto the button.) Another example would be players’ HUD (heads-up display) where we obviously want to show different numbers and stats for each player.

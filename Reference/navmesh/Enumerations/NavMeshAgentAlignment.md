@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshagentalignment
 
-API reference
-
 # NavMeshAgentAlignment Enum
 
 The possible orientation values for [NavMeshAgent](/hw-docs/Reference/navmesh/Classes/NavMeshAgent.md) locomotion.

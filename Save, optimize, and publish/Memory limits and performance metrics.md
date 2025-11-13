@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/memory-limits-horizon-worlds
 
-Learn
-
 # Memory limits and performance metrics
 
 Meta Horizon Worlds enforces a 6 GB memory limit on created Worlds. This limit is defined at the operating system level and is intended to improve performance and allow expanded functionality on your Quest device. Worlds that exceed this limit may cause Meta Horizon Worlds to close unexpectedly.

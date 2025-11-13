@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-started/meta-horizon-worlds-for-uefn-creators
 
-Learn
-
 # Meta Horizon Worlds for UEFN Creators
 
 This article serves as the starting point for creators that are making the switch from UEFN to Horizon. While some aspects may seem unfamiliar, there are core concepts that translate from one platform to the other. This guide will provide comparisons and recommendations for the following:

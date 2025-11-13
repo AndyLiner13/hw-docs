@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/asset-export-to-fbx-file
 
-Learn
-
 # Asset Export to FBX File
 
 You can export the worlds you create in Horizon into an FBX file which can be loaded in desktop DCC tools like Maya and Blender. This can help when you want to convert you gray-box levels in Horizon into fully polished 3d models.

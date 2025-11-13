@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-5-player-out-of-bounds-management-systems
 
-Learn
-
 # Module 5 - Player Out of Bounds Management Systems
 
 The Out of Bounds (OOB) management system for the player consists of 1) a manager script and 2) a respawning script.

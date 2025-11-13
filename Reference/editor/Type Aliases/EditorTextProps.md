@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editortextprops
 
-API reference
-
 # EditorTextProps type
 
 The props of an [EditorText()](/hw-docs/Reference/editor/Functions/EditorText.md) component.

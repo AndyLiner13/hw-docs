@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_pressable
 
-API reference
-
 # Pressable() Function
 
 Creates a Pressable component in a UI panel, which is an interactive component that can receive player input events.

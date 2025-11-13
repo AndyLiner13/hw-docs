@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-started/game-creation-basics
 
-Learn
-
 # Introduction to game creation video series
 
 Learn the basics of designing a viable game in this series of tutorials. Game designer Andy Sargeant provides guidance in the following videos.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerentitlement
 
-API reference
-
 # PlayerEntitlement Interface
 
 Represents an in-world item a player is authorized to access due to a purchase, achievement, or some type of reward system.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/maintaining-local-state-on-ownership-change
 
-Learn
-
 # Maintaining Local State on Ownership Change
 
 If a local script’s entity transfers ownership, the script’s runtime state is lost. This can cause issues for entities where the local state is important to maintain, such as for entities with a limited number of uses. For example, a gun may have a current and limited amount of ammunition, which should be maintained as it is grabbed, and ownership of the gun is changed.

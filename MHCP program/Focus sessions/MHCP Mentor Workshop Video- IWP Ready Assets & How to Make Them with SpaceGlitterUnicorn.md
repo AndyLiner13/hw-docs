@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/mhcp-session-iwp-ready-assets-and-how-to-make-them
 
-Learn
-
 # MHCP Mentor Workshop Video: IWP Ready Assets & How to Make Them with SpaceGlitterUnicorn
 
 [](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_909234607920032_5353832864250324967_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=0k-rXr41DW0Q7kNvwF37F-w&_nc_oc=AdkaOcq3ixSOamRwpQtmRDo30Tk6_AIWVtZs_lh0t8q9sQAJvw833lyXFt3acPHRSNM&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=c7SvqRoEhNJwkwN_LCYnIQ&oh=00_Afhv-kcVnF2k191yOX0PGfg2MBfoACVlZVYlwJFTwwGsYQ&oe=691B49A6)

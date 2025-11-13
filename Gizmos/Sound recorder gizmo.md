@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-sound-recorder-gizmo
 
-Learn
-
 # Sound recorder gizmo
 
 The sound recorder [gizmo](/hw-docs/Gizmos/About%20gizmos.md) allows you, the creator, to record custom sounds from the microphone on your desktop (if present) or headset. Each recording can be up to 20 minutes long.

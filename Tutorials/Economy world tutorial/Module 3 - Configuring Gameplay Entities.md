@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/economy-world-tutorial/module-3-configuring-gameplay
 
-Learn
-
 # Module 3 - Configuring Gameplay Entities
 
 Requirements

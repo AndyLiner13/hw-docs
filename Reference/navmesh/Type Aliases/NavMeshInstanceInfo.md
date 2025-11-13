@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshinstanceinfo
 
-API reference
-
 # NavMeshInstanceInfo type
 
 Data about the of a [NavMesh](/hw-docs/Reference/navmesh/Classes/NavMesh.md) instance.

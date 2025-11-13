@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_orbitcameraoptions
 
-API reference
-
 # OrbitCameraOptions type
 
 Available options when applying an orbit camera.

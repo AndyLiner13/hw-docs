@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/mhcp-qa-session-game-design-with-andy-sargeant
 
-Learn
-
 # MHCP Q&A Session: Game Design with Andy Sargeant
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/10000000_996283602039240_2600638972506614805_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=xkCvSfGic5oQ7kNvwGoPDYG&_nc_oc=Adl7x8ZBjSUwwQr9uk9alKMa9zZuEv1OEzfWzBZuRdJsdcURxbtQ5qwvadvSEGghAFY&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=pkY1607SuRBzfefC9Y_8bw&oh=00_Afhv-l11koGreFXkxqt9uCF0JoTP_26llA8kHavU7g2Kfw&oe=691B4B7D)

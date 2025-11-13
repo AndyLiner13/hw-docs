@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/troubleshooting
 
-Learn
-
 # Desktop editor troubleshooting
 
 The following sections provide troubleshooting tips for a variety of common situations involving the Meta Horizon Worlds desktop editor.

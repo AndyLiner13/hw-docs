@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-3-player-movement-systems
 
-Learn
-
 # Module 3 - Player Movement Systems
 
 This game utilizes fairly standard movement patterns in VR, except for two key game features:

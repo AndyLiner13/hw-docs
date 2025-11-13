@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/world-update-events
 
-Learn
-
 # World Update Events
 
 World events are broadcast events that notify your scripts between each rendered frame on the player’s headset. This returns the delta time, which is the duration in milliseconds since the last update. Using Delta Time, your scripts can provide smooth motion for animation and physics. To enable your scripts to run logic during the update loop, subscribe to the **World.onUpdate** or **World.onPrePhysicsUpdate** event to handle running your code at different stages of the update loop.

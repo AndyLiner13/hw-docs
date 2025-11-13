@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerinputaction
 
-API reference
-
 # PlayerInputAction Enum
 
 The input actions available for the local player. The actions are bound to specific keys by default on multiple platforms.

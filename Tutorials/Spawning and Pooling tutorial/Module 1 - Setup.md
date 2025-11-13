@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup
 
-Learn
-
 # Module 1 - Setup
 
 ![Title image of an in-headset view with lettering displaying 'Spawning and Pooling in Typescript'](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452932895_512509671286989_8255540828797393157_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CJ97A2Wb_2cQ7kNvwGFM0oI&_nc_oc=Adn9TLudkrlXnVVgnexmkC8DTceJeMsdg6agRC8C5UWCtWR-7XHFWUCFM7eK8TDwA_0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=hRjFdQE4PPGEn2evZ5pW-Q&oh=00_Afi1FVizrUtspgnR8FyPNmJRa0xAoMEpeyuK20MlkDE60Q&oe=692FC985)

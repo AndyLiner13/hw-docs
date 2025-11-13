@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/mhcp-session-level-design-qa-with-victor-riddel
 
-Learn
-
 # MHCP Session: Level Design Q&A with Victor Riddel
 
 Unlock the secrets to captivating level design with Creative Director and Game Designer Victor Riddel.

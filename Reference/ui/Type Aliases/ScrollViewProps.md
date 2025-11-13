@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_scrollviewprops
 
-API reference
-
 # ScrollViewProps type
 
 Represents the props of a [ScrollView()](/hw-docs/Reference/ui/Functions/ScrollView.md) component, which is a scrollable version of a [View()](/hw-docs/Reference/ui/Functions/View.md) component. It supports horizontal and vertical scrolling, as well as distinct styling for the view itself and underlying content wrapper.

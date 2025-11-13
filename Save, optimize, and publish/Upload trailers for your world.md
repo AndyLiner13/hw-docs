@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/trailer-upload-tool
 
-Learn
-
 # Upload trailers for your world
 
 Though optional, trailers are the first impression of your world. High-quality, engaging trailers help attract users and communicate what makes your world unique. You can create trailers using any existing tools and add them to your world. This document outlines best practices and requirements for uploading your trailers to showcase your world effectively across discovery surfaces.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-started/meta-horizon-worlds-for-roblox-creators
 
-Learn
-
 # Meta Horizon Worlds for Roblox creators
 
 This article provides information to help experienced Roblox creators get started with Meta Horizon Worlds, including basic UI orientation, conceptual comparisons, and key differences between the two platforms.

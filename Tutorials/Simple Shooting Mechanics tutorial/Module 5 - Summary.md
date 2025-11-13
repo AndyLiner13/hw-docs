@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-5-summary
 
-Learn
-
 # Module 5 - Summary
 
 Thanks for checking out the tutorial! You have learned the basic mechanics for how to build grabbable weapons, fire them, and determine if they have hit anything in the world. If so, force is applied to the targeted entity.

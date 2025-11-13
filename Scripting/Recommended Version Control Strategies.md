@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/recommended-version-control-strategies
 
-Learn
-
 # Recommended Version Control Strategies
 
 When using the Desktop Editor, Meta Horizon Worlds writes all of the world’s scripts to a local directory on your device. This includes scripts written by everyone working on your world. Meta refers to this directory as the “auto-sync directory”. Meta Horizon Worlds keeps this directory synchronized with the scripts in the world. If a file in the auto-sync directory is edited, then those edits are synchronized to the world. If a script in the world is changed by someone else working on your world, then their changes are written to the script file in the auto-sync directory. This workflow works well when working on a small project in isolation, but it doesn’t scale well to large teams working on complex worlds.

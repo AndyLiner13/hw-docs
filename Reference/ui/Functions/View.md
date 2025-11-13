@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_view
 
-API reference
-
 # View() Function
 
 Creates a view component for a UI panel.

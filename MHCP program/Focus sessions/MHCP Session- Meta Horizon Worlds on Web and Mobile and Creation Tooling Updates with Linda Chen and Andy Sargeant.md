@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/mhcp-session-meta-horizon-worlds-on-web-and-mobile-and-creation-tooling-updates-with-linda-chen-and-andy-sargeant
 
-Learn
-
 # MHCP Session: Meta Horizon Worlds on Web and Mobile and Creation Tooling Updates with Linda Chen and Andy Sargeant
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453859959_457969483724927_3181915498723218794_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=-3qHkFDiKCIQ7kNvwGA38kl&_nc_oc=Admf6Q0GAjEObc429l-5IcVDOK-qsKML5d3eTG5Pa2IPE1w3gYL9D5LEZGbnHeMrxSE&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=GmCmg-iMrInG83dTAlVUxA&oh=00_AfivLGdx57NRJvQmBlZI6vUegw8CCCdI8O3Bb-xmwt2r5A&oe=691B4CF4)

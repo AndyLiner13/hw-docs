@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/modules-and-global-functions
 
-Learn
-
 # Modules and Global Functions
 
 In TypeScript, any file with a top-level import or export statement is considered a module. Modules have local scope, which means that declarations within one module cannot be accessed outside the module unless the declaration is exported in the original module and imported into the current module.

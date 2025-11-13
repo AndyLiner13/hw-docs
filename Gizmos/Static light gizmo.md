@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/static-light-gizmo
 
-Learn
-
 # Static light gizmo
 
 The static light [gizmo](/hw-docs/Gizmos/About%20gizmos.md) is a tool used to light scenes. Static lights do not move or change during runtime. The static light gizmo offers various shapes and allows customization of color and intensity. This gizmo is useful for creators who want to implement lighting in their worlds without the performance overhead associated with dynamic lighting.

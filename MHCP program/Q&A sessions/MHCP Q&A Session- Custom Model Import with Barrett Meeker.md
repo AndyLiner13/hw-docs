@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/mhcp-qa-session-custom-model-import-with-barrett-meeker
 
-Learn
-
 # MHCP Q&A Session: Custom Model Import with Barrett Meeker
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453568979_804216788524677_5442964682020855821_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=ITjfDE-W90cQ7kNvwFPI3YD&_nc_oc=Adn88epveyNqsgwojnKubXFcajEV6Eq91ZFw8MwVd82z3Ua3uDD1WJaR9dfzkfwUprQ&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=Js2iDlr-X50iDxQCBBhCHw&oh=00_AfgGj8b_mIOux8ZLJiU9ubp2kB7sIOlQR17UBl85XXZ7Ww&oe=691B451C)

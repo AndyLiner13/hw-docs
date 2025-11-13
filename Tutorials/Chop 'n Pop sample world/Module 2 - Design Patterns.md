@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-2-design-patterns
 
-Learn
-
 # Module 2 - Design Patterns
 
 This module describes some of the design patterns used in this tutorial world, which may provide guidance in how to organize code in your own projects.

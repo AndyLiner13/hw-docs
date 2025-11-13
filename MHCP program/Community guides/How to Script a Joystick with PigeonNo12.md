@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/how-to-script-a-joystick-with-pigeonno12
 
-Learn
-
 # How to Script a Joystick with PigeonNo12
 
 [](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_883952557245022_9078165402660801145_n.mp4?_nc_cat=111&ccb=1-7&_nc_sid=6500a6&_nc_ohc=-m36ZRZFdBEQ7kNvwEFrnGF&_nc_oc=Adn443Ikw-Vd6zuXvrLAbPVk5MgKl-AYQGUIJR-vOrHB9YkTWrVAnkRqMLLO4kpBgrU&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=J5lTlsWC_aH9xTbVw2109g&oh=00_AfgdfHoApccsT3_Tqmv-zxavtJk1Etc_6ngnflfKypA10Q&oe=691B39C9)

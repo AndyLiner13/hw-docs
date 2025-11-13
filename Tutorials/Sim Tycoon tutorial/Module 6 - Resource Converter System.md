@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-6-resource-converter
 
-Learn
-
 # Module 6 - Resource Converter System
 
 The resource converter turns resources (gems or ore) collected by players into currency. The conversion happens when a player enters a trigger zone, converting all their resources in their inventory into the corresponding currencies. The system also updates HUD elements, adds to the player’s score, and plays visual and sound effects.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-3-hint-text
 
-Learn
-
 # Module 3 - Hint Text
 
 In this module, we will cover how hint text works and how to use it to help onboard new users to your world.

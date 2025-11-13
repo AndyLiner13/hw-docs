@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/use-persistent-variables
 
-Learn
-
 # Use persistent variables
 
 Persistent Variables and Variable Groups allow you to store player-specific numeric data across visits to your worlds. These tools can be used to give your players a sense of progression because the stored data persists across sessions. Common examples of persistent variables are score, level, and experience.

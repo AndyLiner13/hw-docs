@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_monetizationtimeoption
 
-API reference
-
 # MonetizationTimeOption Enum
 
 Indicates how to display time in a world using the monetary gizmo.

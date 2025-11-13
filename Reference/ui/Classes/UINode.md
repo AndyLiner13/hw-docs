@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uinode
 
-API reference
-
 # UINode Class
 
 Represents a UI element in a custom UI panel. You cannot directly instantiate a new `UINode`; this type is return by UI component methods and UI functions.

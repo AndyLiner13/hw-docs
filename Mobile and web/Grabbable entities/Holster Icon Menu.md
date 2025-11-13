@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/holster-icon-menu
 
-Learn
-
 # Holster Icon Menu
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558307674_833836069154346_721373876289883470_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=TewkAfSj2OwQ7kNvwGnWzEQ&_nc_oc=AdmstClewjU4gzHpKhsFxm7ouW_2_hqMzlwQ9ohaw5nkE3D7Yhpm2uSSsX3UPCXT7NY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L5SXORrbn-YCKFWwtWr1og&oh=00_AfiRh1EILIfogMZhSHc-adbVGBfGrz4MEt6QCN92mMh4Qg&oe=692FB529)

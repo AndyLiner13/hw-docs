@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_springoptions
 
-API reference
-
 # SpringOptions type
 
 The spring physics settings for an entity. Spring physics moves an entity as if it were attached to a spring.

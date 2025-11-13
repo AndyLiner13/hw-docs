@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-7-persistent-variables
 
-Learn
-
 # Station 7 - Persistent Variables
 
 This station demonstrates how to use persistent variables with your custom UIs.

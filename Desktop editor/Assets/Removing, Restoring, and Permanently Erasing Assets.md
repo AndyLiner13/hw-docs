@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/removing-restoring-and-permanently-erasing-assets
 
-Learn
-
 # Removing, Restoring, and Permanently Erasing Assets
 
 ## Removing assets

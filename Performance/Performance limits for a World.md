@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-limits-for-a-world
 
-Learn
-
 # Performance limits for a World
 
 All systems have limits. When designing a world, you should consider the following world limits. Keep in mind that these are ballpark numbers and may not apply to every world under every condition. We recommend using the performance tools to validate and ensure you’re considering the conditions for your own world when creating in Meta Horizon Worlds.

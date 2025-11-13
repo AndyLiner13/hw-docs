@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/introduction-to-creating-worlds-for-mobile
 
-Learn
-
 # Introduction to creating worlds for mobile
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461801121_558937499977539_1061214547025883489_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZEd-grNstzgQ7kNvwHBMNK7&_nc_oc=Adlgyj4l2KGQIKq-6_t6BzAlUp-dsoHmmpF7ExnW71iKPIc-JiKTy1EENOWlhG-mdBw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=8KB7cy5Cxhjrpf1UZ_V7Dg&oh=00_Afhjcov5psbnBI5fvGKtQt9u8aP3nrXp362XCNJgJSAmHw&oe=692FBCD8)

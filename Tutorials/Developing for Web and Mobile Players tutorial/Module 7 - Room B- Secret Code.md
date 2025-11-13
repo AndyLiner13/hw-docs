@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-7-room-b-secret-code
 
-Learn
-
 # Module 7 - Room B: Secret Code
 
 In this module, we create the second puzzle room in the world. To solve the puzzle, the player must turn over four objects to reveal numeric codes. These codes must be entered into the keypad in the correct order, after which the closed exit door opens.

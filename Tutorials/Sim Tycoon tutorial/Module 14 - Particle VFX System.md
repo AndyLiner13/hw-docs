@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-14-particle-vfx-system
 
-Learn
-
 # Module 14 - Particle VFX System
 
 The particle VFX system provides visual feedback for mining actions, tool usage, resource collection, and other game events to enhance the player experience.

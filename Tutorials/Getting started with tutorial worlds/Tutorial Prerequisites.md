@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites
 
-Learn
-
 # Tutorial Prerequisites
 
 Before you begin exploring these tutorials, please verify that you have met the following requirements.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/world-settings-modification
 
-Learn
-
 # World Settings Modification
 
 The World Settings Modification feature in the Desktop Editor has the same capabilities to modify world settings as the VR editor. This includes the ability to change the world name, description, thumbnail, and many other settings. In addition, you can also publish or unpublish your world using this feature in the Desktop Editor.

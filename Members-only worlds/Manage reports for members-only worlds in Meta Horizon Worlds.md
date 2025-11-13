@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/manage-reports-members-only-worlds
 
-Learn
-
 # Manage reports for members-only worlds in Meta Horizon Worlds
 
 Members-only worlds deprecated

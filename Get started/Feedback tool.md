@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-started/feedback-tool
 
-Learn
-
 # Feedback tool
 
 With the feedback tool, you can report bugs, submit feedback, and provide suggestions directly to Meta’s product teams, ensuring your input influences product development.

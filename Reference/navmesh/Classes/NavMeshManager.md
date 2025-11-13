@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshmanager
 
-API reference
-
 # NavMeshManager Class
 
 Stores and retrieves references to [NavMesh](/hw-docs/Reference/navmesh/Classes/NavMesh.md) instances.

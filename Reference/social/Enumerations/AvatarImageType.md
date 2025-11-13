@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/social_avatarimagetype
 
-API reference
-
 # AvatarImageType Enum
 
 Represents the different types of avatar images that can be used by an image component.

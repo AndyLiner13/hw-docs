@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-2-tutorial-manager
 
-Learn
-
 # Module 2 - Tutorial Manager
 
 In this module we will cover how the Tutorial Manager works and how to use it to create structured slide-based tutorials that help onboard new users to your world.

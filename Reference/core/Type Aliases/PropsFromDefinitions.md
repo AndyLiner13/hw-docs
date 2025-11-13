@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_propsfromdefinitions
 
-API reference
-
 # PropsFromDefinitions type
 
 The properties for initializing a component.

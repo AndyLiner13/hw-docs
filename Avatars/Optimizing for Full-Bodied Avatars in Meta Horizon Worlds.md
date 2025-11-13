@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/optimizing-for-fullbodied-avatars-in-horizon-worlds
 
-Learn
-
 # Optimizing for Full-Bodied Avatars in Meta Horizon Worlds
 
 Legs are a highly requested feature in Meta Horizon Worlds, and we need your help to make sure everyone has the best experience possible!

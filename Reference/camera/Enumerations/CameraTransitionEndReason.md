@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_cameratransitionendreason
 
-API reference
-
 # CameraTransitionEndReason Enum
 
 The possible reasons for a camera transition to end.

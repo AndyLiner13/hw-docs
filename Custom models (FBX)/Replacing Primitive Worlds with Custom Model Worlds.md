@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/replacing-primitive-worlds-with-custom-model-worlds
 
-Learn
-
 # Replacing Primitive Worlds with Custom Model Worlds
 
 This article explains how to replace existing primitive worlds (the legacy way of building in Meta Horizon Worlds) with worlds built from imported custom models while maintaining the existing world likes, player data, and links to your world.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_eventsubscription
 
-API reference
-
 # EventSubscription Interface
 
 Represents what is returned from subscribing to an event.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/marking-instances-as-opened-or-closed
 
-Learn
-
 # Marking Instances as Opened or Closed
 
 When players join a world with an active experience in progress, their participation might be blocked until the current group finishes their session. This can result in a poor experience for players, when they could instead join a new world instance to participate right away.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/what-makes-a-world-go-viral
 
-Learn
-
 # MHCP Mentor Workshop Video - What Makes a World Go Viral with Laex05
 
 [](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1155101816036701_5833209468653837687_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=IM_1-AqwYuMQ7kNvwFVfj2P&_nc_oc=Adnzr_prLAdFRmk03241469-hQ9u9dvZdGKPbAFVKv3lFRbWIc5sJCexs9SaAL_WusI&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=5Z8IqEAQF4fqh2GrV4nQmg&oh=00_AfiDf5cMMjuwxyEyL7XCBclTnSznGoRUe5JbMXy9HVI3Xg&oe=691B48EE)

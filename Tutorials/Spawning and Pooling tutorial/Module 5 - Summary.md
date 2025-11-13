@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-5-summary
 
-Learn
-
 # Module 5 - Summary
 
 Congratulations! You have successfully completed the Spawning and Pooling in TypeScript tutorial world.

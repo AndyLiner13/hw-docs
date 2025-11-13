@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/projectile-launcher-gizmo
 
-Learn
-
 # Projectile launcher gizmo
 
 The projectile launcher [gizmo](/hw-docs/Gizmos/About%20gizmos.md) allows creators to launch objects or projectiles from a specific point in their world. With options to configure properties such as size and speed as well as implementing more customized launching mechanism through scripting, this gizmo can be used to create a variety of interactive and immersive experiences, such as [shooting games](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%201%20-%20Setup.md) and [obstacle courses](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%206%20-%20Room%20A-%20The%20Magic%20Wand.md).

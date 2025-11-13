@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_fontfamily
 
-API reference
-
 # FontFamily type
 
 Defines the available fonts for a [Text](/hw-docs/Reference/ui/Functions/Text_2.md) component in a UI panel.

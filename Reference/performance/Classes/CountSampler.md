@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_countsampler
 
-API reference
-
 # CountSampler Class
 
 > Warning: This API is now obsolete.

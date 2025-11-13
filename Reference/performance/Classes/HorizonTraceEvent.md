@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizontraceevent
 
-API reference
-
 # HorizonTraceEvent Class
 
 A trace event in Horizon Worlds.

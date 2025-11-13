@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/create-player-achievements
 
-Learn
-
 # Create player achievements
 
 The Achievements system in Meta Horizon Worlds makes it easy to define a list of player-objectives, persistently track which ones a person has accomplished across multiple visits to your world, and communicate progress to players. You define achievements, read and write them with code blocks, and can show them to people in a specific achievements gizmo.

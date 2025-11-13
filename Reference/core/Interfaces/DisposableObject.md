@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_disposableobject
 
-API reference
-
 # DisposableObject Interface
 
 An interface for objects that allow registration of additional dispose time operations.

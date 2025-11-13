@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-6-exercise-add-game-events
 
-Learn
-
 # Module 6 - Exercise - Add Game Events
 
 This exercise shows you how to add custom game events to trigger NPC responses using the Conversation API.

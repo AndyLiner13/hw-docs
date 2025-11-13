@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/noninteractive-custom-ui-screen-overlay
 
-Learn
-
 # Non-interactive custom UI screen overlay
 
 The custom UI API allows you to create non-interactive screen overlays on both the desktop and VR platforms. This feature empowers creators to exhibit non-interactive overlay elements such as health bars or ammo counts. As creators, however, you may observe that the screen overlay experiences vary between platforms.

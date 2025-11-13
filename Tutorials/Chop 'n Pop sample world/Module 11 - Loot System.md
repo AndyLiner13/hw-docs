@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-11-loot-system
 
-Learn
-
 # Module 11 - Loot System
 
 The loot system is used for managing items that can be collected in the world.

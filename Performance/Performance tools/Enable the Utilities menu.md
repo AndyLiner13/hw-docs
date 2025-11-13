@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/enable-the-utilities-menu
 
-Learn
-
 # Enable the Utilities menu
 
 Real-time performance metrics provide you with information about how your world performs, such as the frame rate in frames per second, as you interact with it. Use this information to find performance issues before your users find them. See the [Metrics information](/hw-docs/performance-best-practices-and-tooling/performance-tools/world-analytics#supported-metrics) for more information about these metrics.

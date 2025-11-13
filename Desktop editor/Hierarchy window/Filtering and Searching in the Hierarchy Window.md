@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/hierarchy-window/filtering-and-searching-in-the-hierarchy-window
 
-Learn
-
 # Filtering and Searching in the Hierarchy Window
 
 You can filter for:

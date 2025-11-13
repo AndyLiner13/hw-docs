@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-gizmo/npc-animations
 
-Learn
-
 # NPCs Animation
 
 This guide covers essential animation APIs for NPCs in Horizon Worlds. Focus on these core systems to bring your NPCs to life with personality and responsive behavior.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_tooltipoptions
 
-API reference
-
 # TooltipOptions type
 
 The settings for displaying a tooltip message.

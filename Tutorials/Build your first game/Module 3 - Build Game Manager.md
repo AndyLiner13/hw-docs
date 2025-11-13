@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-3-build-game-manager
 
-Learn
-
 # Module 3 - Build Game Manager
 
 Let’s focus on the game mechanics.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewprops
 
-API reference
-
 # ViewProps type
 
 Represents the props of a [View()](/hw-docs/Reference/ui/Functions/View.md) component.

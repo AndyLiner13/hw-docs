@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_animation_2
 
-API reference
-
 # Animation\_2 Class
 
 A simple or composite animation that can be passed to the [AnimatedBinding.set()](/hw-docs/Reference/ui/Classes/AnimatedBinding.md#set) method.

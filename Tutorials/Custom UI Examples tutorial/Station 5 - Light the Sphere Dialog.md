@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-5-light-the-sphere-dialog
 
-Learn
-
 # Station 5 - Light the Sphere Dialog
 
 This station demonstrates how to use a custom UI to alter some aspect of the external world. In this case, when you click a button on the custom UI, you set the color for a sphere (The Orb of UINess) in front of you.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-text-gizmo
 
-Learn
-
 # Text gizmo
 
 In Meta Horizon Worlds, the text gizmo is part of a suite of helper tools called [gizmos](/hw-docs/Gizmos/About%20gizmos.md), which are designed to enhance the creation and interactivity of worlds. The text gizmo allows users to show static text or display dynamic text when combined with [scripts](/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md) based on different triggers in the environment.

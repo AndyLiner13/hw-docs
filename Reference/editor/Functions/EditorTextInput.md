@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editortextinput
 
-API reference
-
 # EditorTextInput() Function
 
 Creates an EditorTextInput component, which represents in a text input element in the editor.

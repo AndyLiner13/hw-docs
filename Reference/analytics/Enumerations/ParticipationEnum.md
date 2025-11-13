@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_participationenum
 
-API reference
-
 # ParticipationEnum Enum
 
 The participation state of a player in a world instance.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-4-game-manager
 
-Learn
-
 # Module 4 - Game Manager
 
 The Game Manager system provides a centralized means of managing the events and actions of the game.

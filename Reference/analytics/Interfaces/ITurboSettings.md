@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings
 
-API reference
-
 # ITurboSettings Interface
 
 The available settings for a [Turbo](/hw-docs/Reference/analytics/Variables/Turbo.md) instance including the ability to enable and disable specific types of analytics tracking. Many of these settings configure a corresponding set of Turbo [actions](/hw-docs/Reference/analytics/Enumerations/Action.md) and [TurboEvents](/hw-docs/Reference/analytics/Variables/TurboEvents.md).

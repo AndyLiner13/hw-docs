@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/operational-modes
 
-Learn
-
 # Build and Preview Modes
 
 **Build** mode and **Preview** mode let you to switch back and forth between building your world in the desktop editor and seeing how it looks to users.

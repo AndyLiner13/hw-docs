@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avatarposeusemode
 
-API reference
-
 # AvatarPoseUseMode Enum
 
 The modes to apply to the permission list that determines which players can use a specific avatar pose managed by an Avatar Pose gizmo.

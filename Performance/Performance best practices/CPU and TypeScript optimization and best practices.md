@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/cpu-and-typescript-optimization-best-practices
 
-Learn
-
 # CPU and TypeScript optimization and best practices
 
 ## General recommendations

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/entity-visibility
 
-Learn
-
 # Entity Visibility
 
 TypeScript can programmatically update an Entity’s visibility to players. It can also check to see if an object is visible to specific players. This is because each entity in Horizon has a setting to control its visibility to players in the world. For example, you might want to make an object invisible when it’s no longer in use. That way, you can keep it in the world, rather than destroy it. Just set the object to invisible for all players.

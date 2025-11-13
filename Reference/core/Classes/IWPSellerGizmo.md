@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_iwpsellergizmo
 
-API reference
-
 # IWPSellerGizmo Class
 
 Extends *[Entity](/hw-docs/Reference/core/Classes/Entity.md)*

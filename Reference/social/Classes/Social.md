@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/social_social
 
-API reference
-
 # Social Class
 
 Manages the friend system and related social functionality between players in a world.

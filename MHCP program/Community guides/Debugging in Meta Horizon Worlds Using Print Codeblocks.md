@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/debugging-in-meta-horizon-worlds-using-print-codeblocks
 
-Learn
-
 # Debugging in Meta Horizon Worlds Using Print Codeblocks
 
 ## Author: SeeingBlue

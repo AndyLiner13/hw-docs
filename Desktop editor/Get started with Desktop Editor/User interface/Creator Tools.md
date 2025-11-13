@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/creator-toolbar
 
-Learn
-
 # Creator Tools
 
 ![The Creator toolbar in the UI](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/582956035_863563272848292_9184821038347242077_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=U_npTxTIigcQ7kNvwFiOPWP&_nc_oc=Adk2zHsX5eywrG7zB-1mZ3cQ7leN40kyqF7GUWIXxzxWDz2IWNuPEqy5ydxl9D6UGUo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6MbXIED7O_ecsjZJhjxlMQ&oh=00_AfiO222Tz6dnI5_r03MvMzGw3oZzqtRWpViDBqs3yy45Pw&oe=692FC649)

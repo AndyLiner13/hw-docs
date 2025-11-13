@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel
 
-Learn
-
 # Create a custom UI panel
 
 This topic shows you how to create a custom UI panel. To create one, you need a Custom UI gizmo and a [`UIComponent` script](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#uicomponent).

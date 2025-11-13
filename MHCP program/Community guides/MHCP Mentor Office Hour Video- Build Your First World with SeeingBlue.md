@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/build-your-first-world-with-seeingblue
 
-Learn
-
 # MHCP Mentor Office Hour Video: Build Your First World with SeeingBlue
 
 Join SeeingBlue as he guides you step-by-step through the process of creating your first world in Meta Horizon!

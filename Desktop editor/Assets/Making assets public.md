@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/making-assets-public
 
-Learn
-
 # Making assets public
 
 This feature is only available to members of the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs). Learn more and join today.

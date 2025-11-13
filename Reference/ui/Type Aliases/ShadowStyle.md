@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_shadowstyle
 
-API reference
-
 # ShadowStyle type
 
 Represents the style of a UI element's shadow on a custom UI panel. For descriptions of the available styles, see [Custom UI Styles](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#shadowstyle).

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/restoring-a-world-from-backup
 
-Learn
-
 # Restoring a world from backup
 
 Meta Horizon Worlds periodically creates backups of your worlds while you are editing them, allowing you to revert your world to an earlier state. You can manage world backups in the Developer Dashboard or in the desktop editor.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/link-to-listed-items
 
-Learn
-
 # Link to listed items
 
 Once you have created an item and allowed people to acquire it outside your words, you can amplify its visibility and drive engagement using listing and storefront links. A link is a shareable URL that can be pasted on various platforms like Facebook, Instagram, and other locations to help increase user engagement.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_componentwithconstructor
 
-API reference
-
 # ComponentWithConstructor type
 
 The base type of a [component](/hw-docs/Reference/core/Abstract%20Classes/Component.md) that takes a prop definition. This can be used to set default props for a base component.

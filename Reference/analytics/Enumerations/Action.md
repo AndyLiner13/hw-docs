@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_action
 
-API reference
-
 # Action Enum
 
 The Turbo actions that trigger Turbo [events](/hw-docs/Reference/analytics/Variables/TurboEvents.md). Turbo actions are contexts for Turbo events, and represent the trigger or player action for an associated event.

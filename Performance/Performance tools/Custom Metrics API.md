@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/custom-metrics-api
 
-Learn
-
 # Custom Metrics API
 
 Custom metrics are a way for creators to capture data about their TypeScript scripts while they run. This data shows when your scripts run and how long they take, which you can use to optimize world performance. You can view this data with the [Performance Scrubbing](/hw-docs/Performance/Performance%20tools/Performance%20Scrubbing.md) tool or in [Perfetto](/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md).

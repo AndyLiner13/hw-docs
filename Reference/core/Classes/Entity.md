@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity
 
-API reference
-
 # Entity Class
 
 An entity, which represents an object in Meta Horizon Worlds. All objects in a world are represented by entities.

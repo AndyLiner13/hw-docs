@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/how-to-test-on-web-and-mobile
 
-Learn
-
 # Testing worlds on mobile and web
 
 The best way to ensure your world offers a great experience on mobile, on web, or in headset is to test it on the appropriate devices throughout your development cycle.

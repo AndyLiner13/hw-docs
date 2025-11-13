@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_text_2
 
-API reference
-
 # Text\_2() Function
 
 Creates a Text component.

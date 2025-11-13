@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/collaborator-management
 
-Learn
-
 # Collaborator Management
 
 These features enable you to manage world collaborators in the Desktop Editor. This includes viewing, inviting, and removing collaborators, as well as editing a collaborator’s role, and accepting or rejecting an invitation to collaborate.

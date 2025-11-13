@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_customactiondata
 
-API reference
-
 # CustomActionData type
 
 The superset of optional data fields recognized by the Turbo engine.

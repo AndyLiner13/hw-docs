@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vfxparameter
 
-API reference
-
 # VFXParameter type
 
 Represents a parameter for a PopcornFX particle effect.

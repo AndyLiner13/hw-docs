@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_inavmeshagent
 
-API reference
-
 # INavMeshAgent Interface
 
 An entity with locomotion and pathfinding capabilities.

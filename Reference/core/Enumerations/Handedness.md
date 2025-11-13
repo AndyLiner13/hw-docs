@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_handedness
 
-API reference
-
 # Handedness Enum
 
 Indicates whether a player is left or right-handed.

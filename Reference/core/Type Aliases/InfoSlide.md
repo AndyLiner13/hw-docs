@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_infoslide
 
-API reference
-
 # InfoSlide type
 
 Info Slides carousel data.

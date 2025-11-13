@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_codeblockevent
 
-API reference
-
 # CodeBlockEvent Class
 
 Represents an event sent locally or over a network within the code block scripting system. These events only supports predefined serializable types and are primarily used to interact with scripting events from a world.

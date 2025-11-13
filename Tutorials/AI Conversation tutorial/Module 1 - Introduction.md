@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-1-introduction
 
-Learn
-
 # Module 1 - Introduction
 
 Welcome, creators!

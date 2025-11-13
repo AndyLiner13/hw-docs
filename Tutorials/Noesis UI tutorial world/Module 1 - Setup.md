@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/noesis-ui-tutorial-world/module-1-setup
 
-Learn
-
 # Module 1 - Setup
 
 Welcome! This module introduces the NoesisGUI and prepares you to work with the sample stations included in this tutorial. You’ll learn how to set up your workspace, import the provided project, and get ready to explore each station.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-7-other-systems-and-summary
 
-Learn
-
 # Module 7 - Other Systems and Summary
 
 ## Summary

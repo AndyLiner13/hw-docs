@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_defaultspringoptions
 
-API reference
-
 # DefaultSpringOptions Variable
 
 Defines the default values for spring physics when using the [SpringOptions](/hw-docs/Reference/core/Type%20Aliases/SpringOptions.md) type.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizontraceeventtype
 
-API reference
-
 # HorizonTraceEventType Enum
 
 The types for Horizon trace events, based on the sampler that produces them.

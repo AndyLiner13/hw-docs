@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/version-control-video-tutorial-with-pigeonno12
 
-Learn
-
 # Version Control Video Tutorial with PigeonNo12
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453528678_8721657244517529_5214271437231748372_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=9xEwrq42xuoQ7kNvwEqAV7p&_nc_oc=AdnrfrECr9Yy3bWP_hFDfujqPPEC3E4Dkxu3V6qANapiB8iXdw9J6-dHH_8fN-GrMJk&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=dxHbsPgzXcuhAlGb14WrDw&oh=00_Afid-yeZ_cB06v00aGKO8L-0tLOmHn6lC7rnJsqwyJ5NJA&oe=691B44E0)

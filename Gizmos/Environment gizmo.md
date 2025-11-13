@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-environment-gizmo
 
-Learn
-
 # Environment gizmo
 
 The environment [gizmo](/hw-docs/Gizmos/About%20gizmos.md) is a helper tool that allows creators to control and customize the environment of a virtual world. The environment is enabled by the skydome feature, a dome-shaped visual that provides a simulated backdrop. The skydome feature has options to choose different textures, as well as allowing the customization of the environment, such as lighting and fog. Additionally, the Voice Over Internet Protocol or [VOIP setting](/hw-docs/Desktop%20editor/Settings/Player%20Settings%20Modification.md) is available to configure how players hear each other in the world.

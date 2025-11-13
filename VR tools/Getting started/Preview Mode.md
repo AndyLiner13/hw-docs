@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/preview-mode
 
-Learn
-
 # Preview Mode
 
 Preview Mode is a way for creators test a world without publishing it and while remaining in the editable version of the world.

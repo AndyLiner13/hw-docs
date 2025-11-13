@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_settextureoptions
 
-API reference
-
 # SetTextureOptions type
 
 Options for the [MeshEntity.setTexture()](/hw-docs/Reference/core/Classes/MeshEntity.md#settexture) method.

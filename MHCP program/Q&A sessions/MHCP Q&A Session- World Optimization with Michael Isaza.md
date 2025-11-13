@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/mhcp-qa-session-world-optimization-with-michael-isaza
 
-Learn
-
 # MHCP Q&A Session: World Optimization with Michael Isaza
 
 [](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453829193_510985161480834_4395201870457880785_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=skd_R38ALe0Q7kNvwEb754Y&_nc_oc=Adk135XM3fxunwSU3IkinPT3SVJoZfXx0GDNqK5YcA54qvcTSylsiq2BcL2YPzPNS5w&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=UE7Oi8xRzKjqe_ngtetExg&oh=00_Afj_idv13NV_o5P14rt3MUGZFFj_kQsN0e_iISl7ESgU-w&oe=691B4580)

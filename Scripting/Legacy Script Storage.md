@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/legacy-script-storage
 
-Learn
-
 # Legacy Script Storage
 
 Legacy script storage availability

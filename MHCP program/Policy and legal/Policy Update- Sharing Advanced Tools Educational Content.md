@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/policy-and-legal/advanced-tools-content-policy
 
-Learn
-
 # Policy Update: Sharing Advanced Tools Educational Content
 
 Advanced tools are essential to efficiently developing innovative, immersive worlds and experiences. While access to these tools remains exclusive to MHCP members, we now invite you to create and share educational content about advanced tools with creators who are not program members. This means that you are free to create videos and write tutorials about MHCP’s advanced tools, including Desktop Editor, TypeScript, Custom Model Import, NPCs, Performance Tooling, and Generative AI, and post them wherever you like.

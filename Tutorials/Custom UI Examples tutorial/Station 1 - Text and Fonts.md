@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-1-text-and-fonts
 
-Learn
-
 # Station 1 - Text and Fonts
 
 Station 1 displays a simple set of text on a flat plane, in a variety of font faces.

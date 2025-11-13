@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/shared-mode-noesis-scripts
 
-Learn
-
 # Shared Mode for Noesis UI Scripts
 
 NoesisUI introduces Shared mode—a new scripting execution mode that simplifies per-player UI interactions by eliminating the need for entity cloning and ownership transfer. Understanding the differences between scripting modes is essential for building performant and responsive UI experiences in your world.

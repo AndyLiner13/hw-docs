@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-6-fixed-camera-and-cutscenes
 
-Learn
-
 # Module 6 - Fixed Camera and Cutscenes
 
 You can inject a cutscene into your world experience using transitions of a fixed camera and sequences of timed animations.

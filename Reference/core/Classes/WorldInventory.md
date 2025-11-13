@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_worldinventory
 
-API reference
-
 # WorldInventory Class
 
 Represents the inventory of items in a world.

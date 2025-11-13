@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-portal-gizmo
 
-Learn
-
 # Door gizmo
 
 The door gizmo is part of a suite of tools called [gizmos](/hw-docs/Gizmos/About%20gizmos.md), which are designed to enhance the creation and interaction capabilities within Meta Horizon Worlds.

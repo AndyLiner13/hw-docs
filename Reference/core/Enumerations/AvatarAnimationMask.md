@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avataranimationmask
 
-API reference
-
 # AvatarAnimationMask Enum
 
 which part of the avatar should an animation be applied to

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avatargripposeanimationnames
 
-API reference
-
 # AvatarGripPoseAnimationNames Enum
 
 Defines the currently available avatar grip pose animations.

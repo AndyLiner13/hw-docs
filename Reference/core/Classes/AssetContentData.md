@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_assetcontentdata
 
-API reference
-
 # AssetContentData Class
 
 Parses and stores the raw content of an asset.

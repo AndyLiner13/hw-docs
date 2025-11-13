@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-conventions-and-best-practices-for-horizon-worlds
 
-Learn
-
 # Typescript Conventions and Best Practices for Meta Horizon Worlds
 
 |  |  |

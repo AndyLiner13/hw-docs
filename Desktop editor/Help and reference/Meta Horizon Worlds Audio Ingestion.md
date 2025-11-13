@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/horizon-worlds-audio-ingestion
 
-Learn
-
 # Meta Horizon Worlds Audio Ingestion
 
 Meta Horizon Worlds supports the following formats:

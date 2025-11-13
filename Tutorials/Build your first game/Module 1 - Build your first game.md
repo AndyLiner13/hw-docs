@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game
 
-Learn
-
 # Module 1 - Build your first game
 
 ![Thumbnail for the tutorial world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/499149844_720698043801483_8564527204365994086_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Gjff-J_N-pEQ7kNvwEkKcb3&_nc_oc=AdkxcXG2Mnq7U66CFkn3tf1zv3pyWrZFIExj0m9ENsxbU6kMMfNSnpUL6ZxE06q1gyk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CftnJuVB27wAxFwE88_y5Q&oh=00_AfhuZCBLFu0Nwy4ZJG31_5S2lQGtU587AjdbFAWztrFedw&oe=692FCC8D)

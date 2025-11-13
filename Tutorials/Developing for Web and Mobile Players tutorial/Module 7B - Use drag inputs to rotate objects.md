@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-7b-use-drag-inputs-to-rotate-objects
 
-Learn
-
 # Module 7B - Use drag inputs to rotate objects
 
 In the second room of the puzzle game, we have several objects which have a number. This number needs to be retrieved, but it is not initially visible. So, the player must interact with these objects to rotate them, revealing the single digit.

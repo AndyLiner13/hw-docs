@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/noesis-ui-tutorial-world/module-6-summary
 
-Learn
-
 # Module 6 – Summary
 
 Thanks for checking out the NoesisGUI UI Training Tutorial!

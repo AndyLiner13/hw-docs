@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-trigger-zone
 
-Learn
-
 # Trigger zone gizmo
 
 The trigger zone [gizmo](/hw-docs/Gizmos/About%20gizmos.md) triggers an event when you enter or exit a specified area.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/player-settings-modification
 
-Learn
-
 # Player Settings Modification
 
 The Player Settings Modification feature in the desktop editor has the same capabilities to modify player settings as the VR editor. This includes the ability to change VOIP settings, max/min player count, enable/disable emotes, and much more with the desktop editor.

@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/local-events
 
-Learn
-
 # Local Events
 
 Local events enable your TypeScript code to send and receive events from objects running TypeScript logic. These events are limited to scripts running on the same device, but can accept basic inputs, such as numbers, strings, entities, and custom class definitions. This provides greater control over the information these scripts can process.

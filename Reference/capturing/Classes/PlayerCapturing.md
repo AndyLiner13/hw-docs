@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_playercapturing
 
-API reference
-
 # PlayerCapturing Class
 
 Extends *Player*

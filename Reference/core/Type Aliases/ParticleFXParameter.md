@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particlefxparameter
 
-API reference
-
 # ParticleFXParameter type
 
 ParticleFXParameter joins name and value for batch setter call

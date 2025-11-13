@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_localevent
 
-API reference
-
 # LocalEvent Class
 
 Represents an event sent between TypeScript event listeners on the same client in Meta Horizon Worlds. These events support arbitrary data.

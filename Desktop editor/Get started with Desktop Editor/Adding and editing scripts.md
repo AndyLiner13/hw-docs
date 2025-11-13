@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/adding-and-editing-scripts
 
-Learn
-
 # Adding and editing scripts
 
 ## Set up desktop editor to use your IDE

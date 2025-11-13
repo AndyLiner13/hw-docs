@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_easing
 
-API reference
-
 # Easing Enum
 
 The styles for camera transitions.

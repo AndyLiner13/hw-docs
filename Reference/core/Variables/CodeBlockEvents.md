@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_codeblockevents
 
-API reference
-
 # CodeBlockEvents Variable
 
 A collection of all built-in [CodeBlock](/hw-docs/Reference/core/Classes/CodeBlockEvent.md) events that you can subscribe to using the [Component.connectCodeBlockEvent()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectcodeblockevent) method.

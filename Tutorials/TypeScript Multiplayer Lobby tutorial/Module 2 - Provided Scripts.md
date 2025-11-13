@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/multiplayer-lobby-tutorial/module-2-provided-scripts
 
-Learn
-
 # Module 2 - Provided Scripts
 
 Some boilerplate scripts are provided with this tutorial. Each script defines a different TypeScript class of properties and methods. Let’s take a look at each of the provided classes and their responsibilities.

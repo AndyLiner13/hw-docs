@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/world-level-variables
 
-Learn
-
 # Create world level variables
 
 World level variables allow you to host group activities or create community persistence in your world and persist that information across multiple instances.

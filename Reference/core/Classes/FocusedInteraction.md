@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusedinteraction
 
-API reference
-
 # FocusedInteraction Class
 
 Options for setting up and customizing visual feedback when players interact with the world in Focused Interaction mode on web and mobile clients.

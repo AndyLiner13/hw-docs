@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/create-a-noesis-ui-panel
 
-Learn
-
 # Create a Noesis UI Panel
 
 This guide demonstrates how to create 2D UI panels using NoesisUI—a robust 2D UI framework integrated into the desktop editor. With Noesis Studio, you can visually design UI panels and enjoy faster rendering and richer features compared to coding UIs entirely in TypeScript.

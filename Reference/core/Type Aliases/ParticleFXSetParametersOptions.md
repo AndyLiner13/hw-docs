@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particlefxsetparametersoptions
 
-API reference
-
 # ParticleFXSetParametersOptions type
 
 ParticleFXSetParametersOptions is a composite object for setting multiple parameters at once.

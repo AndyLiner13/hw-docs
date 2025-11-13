@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/meta-horizon-cmi--typescript-api-20-import-images--add-texture-animation
 
-Learn
-
 # Meta Horizon CMI & TypeScript API 2.0: Import Images & Add Texture Animation
 
 ## Introduction

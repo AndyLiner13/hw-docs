@@ -1,7 +1,5 @@
 Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager
 
-Learn
-
 # Module 3 - NPC Manager
 
 The NPC Manager script adds a layer on top of the existing gem collecting game to manage NPC behaviors based on game events. As the game progresses, the NPC Manager drives behaviors of the two NPCs in the game:
