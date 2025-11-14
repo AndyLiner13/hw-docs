@@ -6,7 +6,7 @@ Voice-over is an excellent means of enhancing the NPCs of your worlds into being
 
 ## Record and import audio
 
-Audio can be recorded outside of Meta Horizon Worlds in the prescribed format(s). Through the desktop editor, you can then import audio files into your Asset Library. For more information, see [Meta Horizon Worlds Audio Ingestion](https://developers.meta.com/horizon-worlds/learn/documentation/sounds-physics-and-automation/horizon-worlds-audio-ingestion).
+Audio can be recorded outside of Meta Horizon Worlds in the prescribed format(s). Through the desktop editor, you can then import audio files into your Asset Library. For more information, see [Meta Horizon Worlds Audio Ingestion](/hw-docs/Desktop%20editor/Help%20and%20reference/Meta%20Horizon%20Worlds%20Audio%20Ingestion.md).
 
 ## Set up audio assets
 

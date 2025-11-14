@@ -8,7 +8,7 @@ When creating worlds in Horizon, objects can appear and disappear based on playe
 
 ## What is Object Spawning and Despawning?
 
-A great intro into this topic can be found in the public [Spawn and despawn assets](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/spawn-despawn-assets-horizon-worlds) documentation.
+A great intro into this topic can be found in the public [Spawn and despawn assets](/hw-docs/VR%20tools/Scripting/Spawn%20and%20despawn%20assets%20in%20Meta%20Horizon%20Worlds.md) documentation.
 
 Object spawning and despawning allows creators to instantiate and destroy objects at runtime through scripts powered by CodeBlocks and TypeScript. These objects are tied to [Assets](/hw-docs/Desktop%20editor/Assets/Introduction%20to%20the%20Desktop%20Editor%20Asset%20Library.md) pulled from the creator’s Asset Library, and enables creators to spawn various objects for users to interact with, to perform actions in-world and more.
 

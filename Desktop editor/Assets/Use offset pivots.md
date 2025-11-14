@@ -12,7 +12,7 @@ When you create an asset using a [digital content creation tool](/hw-docs/Custom
 
 Although you can use offset pivots in both the [desktop editor](/hw-docs/Desktop%20editor/Desktop%20Editor.md) and the [VR editor](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), this topic focuses on the desktop experience. Additionally, you can also write [TypeScript code](/hw-docs/Reference/core/Classes/Entity.md) that uses the offset pivot for rotating and scaling.
 
-**Note**: You can import [single-mesh FBX files](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md) that contain only one pivot offset. Offset pivots don’t support custom [colliders](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/user-guides/collider-visualization-user-guide).
+**Note**: You can import [single-mesh FBX files](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md) that contain only one pivot offset. Offset pivots don’t support custom [colliders](/hw-docs/VR%20tools/Getting%20started/Collider%20Visualization%20User%20Guide.md).
 
 ## Prerequisites
 

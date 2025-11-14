@@ -20,5 +20,5 @@ Acceptance into the program is at Meta’s sole discretion and Meta does not gua
 There are multiple ways to monetize as a Creator:
 
 * **In-World Purchases:** Create items that can be used in-world. Users can purchase a license to use these items based on creator specifications. More information on in-world purchases can be found [here](/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md).
-* **Bonus Program:** Bonuses reward world contributions to the overall ecosystem across time spent and in-world purchases. Creators can also earn one-time rewards as they achieve certain milestones on mobile. More information on the Bonus Program can be found [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/meta-horizon-worlds-creator-bonus-program).
+* **Bonus Program:** Bonuses reward world contributions to the overall ecosystem across time spent and in-world purchases. Creators can also earn one-time rewards as they achieve certain milestones on mobile. More information on the Bonus Program can be found [here](/hw-docs/MHCP%20program/Monetization/Bonus%20Program%20Overview.md).
 * **Competitions:** Enter into competitions throughout the year to win cash prizes.

@@ -377,7 +377,7 @@ To test, you can try the puzzle in Room A to see if you can collect the wand and
 
 #### Additional documentation:
 
-* [How to set the player’s camera](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
+* [How to set the player’s camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
 * [Intro to Grabbable Entities](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md)
 
 #### API docs:

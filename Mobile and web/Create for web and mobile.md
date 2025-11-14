@@ -11,6 +11,6 @@ The following topics will help you better understand how to make your worlds bet
 * [Testing worlds on mobile and web](/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md)
 * [Publishing worlds on mobile](/hw-docs/Mobile%20and%20web/Publishing%20worlds%20on%20mobile.md)
 * [Designing worlds for mobile and web](/hw-docs/Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Designing%20Worlds%20For%20Mobile.md)
-* [Tools for creating worlds for mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/tools-for-creating-worlds-for-mobile/screen-based-ui/)
+* [Tools for creating worlds for mobile](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md)
 * [Grabbable entities](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md)
 * [TypeScript APIs for mobile](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Per%20Platform%20Scripting.md)

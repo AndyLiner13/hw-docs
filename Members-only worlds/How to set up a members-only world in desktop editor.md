@@ -6,7 +6,7 @@ Members-only worlds deprecated
 
  Members-only worlds have been deprecated. With the launch of Home Worlds, we recommend using home worlds for private, membership-based experiences. For more information about Home Worlds, please refer to the updated Horizon Worlds documentation.
 
-**Note**: Members-only worlds come with specific responsiblities and best practices. Learn more about [governance responsibilities](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/creator-responsibilities-members-only-worlds), [governance best practices](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/governance-members-only-worlds), and [how to manage reports](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/manage-reports-members-only-worlds) for members-only worlds.
+**Note**: Members-only worlds come with specific responsiblities and best practices. Learn more about [governance responsibilities](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/creator-responsibilities-members-only-worlds), [governance best practices](/hw-docs/Members-only%20worlds/Members-only%20worlds%20governance%20best%20practices%20in%20Meta%20Horizon%20Worlds.md), and [how to manage reports](/hw-docs/Members-only%20worlds/Manage%20reports%20for%20members-only%20worlds%20in%20Meta%20Horizon%20Worlds.md) for members-only worlds.
 
 ## Members-only worlds
 

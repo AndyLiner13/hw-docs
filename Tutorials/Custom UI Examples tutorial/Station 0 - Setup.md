@@ -14,7 +14,7 @@ Example worlds are intended to provide simple, clear, and well-documented exampl
 
 This doc is intended to be a companion to the example world listed below.
 
-For platform documentation on custom UIs, see [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui/).
+For platform documentation on custom UIs, see [Custom UI](/hw-docs/Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md).
 
 ## Before You Begin
 

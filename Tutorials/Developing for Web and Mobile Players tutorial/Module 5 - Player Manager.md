@@ -159,7 +159,7 @@ These components lay the foundation for the next modules, where we start buildin
 #### Docs:
 
 * [Using the Camera API for Web and Mobile](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
-* [How to set the player’s camera](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
+* [How to set the player’s camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
 * [Local Script for Mobile and Web](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
 
 #### API references:

@@ -19,7 +19,7 @@ In order to publish a world, you’ll need to provide pertinent information such
 - **Mute Assist:** While on, all in-world audio will be reviewed for loud noises, profanity and other offensive language; players wil be alerted to any offending incidents in order to mute these offenders quickly and easily.
   - Mute assist is turned on by default for all ages 10+ and ages 13+ rated worlds.
   - Learn more about mute assist in the [Manage your microphone and mute settings in Meta Horizon Worlds](https://www.meta.com/help/quest/articles/horizon/safety-and-privacy-in-horizon-worlds/mute-mic-horizon/) docs.
-- **Thumbnail:** Add an image representing your world. [Click here](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/asset-thumbnail-creation-horizon) for more information on creating asset thumbnails.
+- **Thumbnail:** Add an image representing your world. [Click here](/hw-docs/VR%20tools/Getting%20started/Create%20an%20asset%20thumbnail%20with%20Meta%20Horizon%20Worlds.md) for more information on creating asset thumbnails.
 - **Visible to Public:** While on, this world will show up in searches and has the potential to be featured. Note that anyone in Worlds will be able to search for and enter your published world while this toggle is on.
 - **Members Only:** While on, only memebers of a world will be able to access it. Note that this option can not be changed once it has been set.
 - **Beta World:** While on, the published world will be noted as being ‘in development.’

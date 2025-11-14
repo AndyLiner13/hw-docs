@@ -56,7 +56,7 @@ To set your world as remixable, use the following process:
   + Once you publish your world, try remixing it just like another user would to ensure everything works smoothly.
   + Explicitly mention in your world’s description that it’s open for remixing and suggest potential avenues for creative iteration.
   + Document the design and structure of your world. This is best done on a 2D panel in the world
-  + Ensure that your base world performs smoothly by following [performance best practices](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/)
+  + Ensure that your base world performs smoothly by following [performance best practices](/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md)
     \*
 * For a remix: Make your world unique:
   + A successful remix should introduce enough new elements to make the world feel like a fresh experience, even if it is recognizable from the original.

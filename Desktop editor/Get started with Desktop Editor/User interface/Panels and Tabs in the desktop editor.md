@@ -64,4 +64,4 @@ The UI panels and tabs are part of the suite of tools in the desktop editor. See
 You can become familiar with the editor by working through the beginner tutorials below:
 
 * [Create Your First World](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
-* [Batting Cage Tutorial](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/batting-cage-tutorial)
+* [Batting Cage Tutorial](/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)

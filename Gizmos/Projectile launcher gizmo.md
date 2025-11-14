@@ -59,6 +59,6 @@ Now you’ve been introduced to the projectile launcher gizmo, further your lear
 * [Simple shooting mechanics on projectile](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%202%20-%20Projectile.md)
 * [Tutorial worlds for web and mobile on the magic wand](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%206%20-%20Room%20A-%20The%20Magic%20Wand.md#set-up-a-grabbable-object-that-shoots-projectiles)
 * [Meta Horizon Worlds creator’s manual on projectile launcher gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#projectile-launcher-gizmo)
-* [Batting cage](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/batting-cage-tutorial)
+* [Batting cage](/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)
 * [TypeScript components, properties, and variables](/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md#gizmos).
 * [Physics basics](/hw-docs/VR%20tools/SFX/Use%20physics%20and%20animation%20in%20Meta%20Horizon%20Worlds.md#physics-basics)

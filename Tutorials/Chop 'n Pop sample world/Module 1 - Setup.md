@@ -98,7 +98,7 @@ FBS is a script-related feature that can be enabled in your world. Please do the
   ![Image of settings to enable File Backed Scripts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489750052_692135419991079_739814288388774121_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=dx5acJdiifUQ7kNvwFDhXa7&_nc_oc=Adnt61WkpyTCmUpi16UxwLenPYyyW0flH2mJz7F2x1XLyzKZCO4MfrcLSvsVKI5Toio&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=B2aHnQ57ntNv3_QaDVNJkQ&oh=00_AfhxHfg6IBu481UJ23CnXSjXXYfrDPhkvvlNkVgnqnEoAA&oe=6930B32C)
 - To upgrade your world to FBS, click **Update**. **This change cannot be undone.**
 
-For more information, see [Use File-Backed Scripts](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-file-backed-scripts).
+For more information, see [Use File-Backed Scripts](/hw-docs/VR%20tools/Scripting/Use%20file-backed%20scripts.md).
 
 ### Gen AI
 

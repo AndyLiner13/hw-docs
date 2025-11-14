@@ -49,7 +49,7 @@ The Desktop Editor provides you with a large palette of tools to work with, occa
 
 The final step in releasing your world to players is to publish it. To release your world click the **Publish** button.
 
-For more information, see [Publish Your World](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-a-world-in-horizon/).
+For more information, see [Publish Your World](/hw-docs/VR%20tools/Publish%20your%20world%20using%20VR%20tools.md).
 
 ## World simulation toggle
 
@@ -70,4 +70,4 @@ The selection of primary tools is part of the suite of tools in the Desktop Edit
 You can explore the editor by working through the following beginner tutorials below:
 
 * [Create Your First World](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
-* [Batting Cage Tutorial](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/batting-cage-tutorial)
+* [Batting Cage Tutorial](/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)

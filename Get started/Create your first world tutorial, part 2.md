@@ -528,7 +528,7 @@ You’re done! You’ve completed building a game in Meta Horizon Worlds! In the
 
 To learn more about Meta Horizon Worlds, try the following:
 
-* Try the [Batting cage tutorial](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/batting-cage-tutorial) now that you’ve created your first world.
+* Try the [Batting cage tutorial](/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md) now that you’ve created your first world.
 * Learn about the desktop editor with the [Introduction to the desktop editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 * Learn about the other tools available by reading our [Tools overview](/hw-docs/Get%20started/Tools%20overview.md).
 * Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.
