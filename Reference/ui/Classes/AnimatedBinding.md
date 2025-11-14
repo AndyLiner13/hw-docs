@@ -23,8 +23,8 @@ anim.set(Animation.timing(newValue));
 
 The `AnimatedBinding` class differs from the [Binding](/hw-docs/Reference/ui/Classes/Binding.md) class in the following ways:
 1. It only takes number value, while the `Binding` class takes any type.
-2. It has no method, but has a more restrictive [AnimatedBinding.interpolate()](/hw-docs/Reference/ui/Classes/AnimatedBinding.md#interpolate) method.
-3. In addition to plain numbers and update functions, the [AnimatedBinding.set()](/hw-docs/Reference/ui/Classes/AnimatedBinding.md#set) method can also take an Animation object to define an animated transition to the new value.
+2. It has no method, but has a more restrictive [AnimatedBinding.interpolate()](/hw-docs/Reference/ui/Classes/AnimatedBinding.md) method.
+3. In addition to plain numbers and update functions, the [AnimatedBinding.set()](/hw-docs/Reference/ui/Classes/AnimatedBinding.md) method can also take an Animation object to define an animated transition to the new value.
 For information about usage, see [Animations For Custom UIs](/hw-docs/Desktop%20editor/Custom%20UI/Animations%20for%20custom%20UI.md).
 
 ## Constructors

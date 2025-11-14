@@ -8,8 +8,8 @@ To configure the desktop editor, you need to make sure that you use version 4.7.
 
 Whichever IDE you choose to use, you will need to configure the desktop editor to use it. Steps to do so can be found below:
 
-* [Using VS Code with the desktop editor](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md#configure-the-desktop-editor-to-use-vs-code)
-* [Using another third-party IDE with the desktop editor](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md#using-another-third-party-ide-with-the-desktop-editor)
+* [Using VS Code with the desktop editor](#using-vs-code-with-the-desktop-editor)
+* [Using another third-party IDE with the desktop editor](#using-another-third-party-ide-with-the-desktop-editor)
 
 ## Using VS Code with the desktop editor
 

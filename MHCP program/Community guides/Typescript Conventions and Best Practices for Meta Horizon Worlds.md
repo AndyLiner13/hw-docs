@@ -1170,7 +1170,7 @@ Like using descriptive names, you want to write ‘really obvious code’. Don�
 
 #### Comment the important things
 
-A ‘future you’ will thank yourself if you write down what you were thinking when you wrote your code! However, do not comment pedantically, and make sure you have [used descriptive names](/hw-docs/MHCP%20program/Community%20guides/Typescript%20Conventions%20and%20Best%20Practices%20for%20Meta%20Horizon%20Worlds.md#naming) for your variables and functions, as that can make extra comments unnecessary. Only comment the *important* things, and comment things that the VSCode hover popups will pick up, such as documentation comments on functions describing its effects, parameters, and return values.
+A ‘future you’ will thank yourself if you write down what you were thinking when you wrote your code! However, do not comment pedantically, and make sure you have [used descriptive names](#naming) for your variables and functions, as that can make extra comments unnecessary. Only comment the *important* things, and comment things that the VSCode hover popups will pick up, such as documentation comments on functions describing its effects, parameters, and return values.
 
 #### Write TSDoc comments on functions and on important variables/classes
 
@@ -1421,7 +1421,7 @@ The installation configuration above installs the [‘recommended’](https://es
 
 * [recommendedTypeChecked](https://typescript-eslint.io/users/configs#recommended-type-checked)
   + Uses the power of the typescript typing engine to do even deeper checks on your code usage
-  + Requires a minor amount of [extra configuration](/hw-docs/MHCP%20program/Community%20guides/Typescript%20Conventions%20and%20Best%20Practices%20for%20Meta%20Horizon%20Worlds.md#appendix)
+  + Requires a minor amount of [extra configuration](#appendix)
 * [strict](https://typescript-eslint.io/users/configs#strict)
   + Includes everything in ‘recommended’, plus somewhat more ‘opinionated’ rules that may not be applicable to all codebases
   + Also comes in a [strictTypeChecked](https://typescript-eslint.io/users/configs#strict-type-checked) variant with extra typing checks

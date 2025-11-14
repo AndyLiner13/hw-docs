@@ -8,9 +8,9 @@ The Custom Tutorial Scripting API allows developers to create custom tutorials f
 
 ## Tutorial APIs
 
-* [showInfoSlides](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20tutorial%20scripting.md#showinfoslides-api)
-* [showInputActionMessage](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20tutorial%20scripting.md#showinputactionmessage-api)
-* [showToastMessage](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20tutorial%20scripting.md#showtoastmessage-api)
+* [showInfoSlides](#showinfoslides-api)
+* [showInputActionMessage](#showinputactionmessage-api)
+* [showToastMessage](#showtoastmessage-api)
 
 ## showInfoSlides API
 

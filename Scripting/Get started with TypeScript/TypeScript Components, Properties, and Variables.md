@@ -4,8 +4,8 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 Components are the primary building blocks for attaching functionality to objects in a world. They are defined in TypeScript and registered in a script. Horizon components consist of many different elements. The key TypeScript elements are:
 
-* [Properties - modify the component](/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md#properties-and-variables)
-* [Variables - define the capabilities of a component](/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md#properties-and-variables)
+* [Properties - modify the component](#properties-and-variables)
+* [Variables - define the capabilities of a component](#properties-and-variables)
 * [Modules - provide the packaging specifications](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Modules%20and%20Global%20Functions.md)
 * [Global Functions - outline what properties apply to all entities](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Modules%20and%20Global%20Functions.md)
 * [Events - enable objects to interact](/hw-docs/Scripting/Events/Local%20Events.md)

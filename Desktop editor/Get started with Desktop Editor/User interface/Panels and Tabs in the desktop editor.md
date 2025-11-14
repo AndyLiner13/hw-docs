@@ -8,12 +8,12 @@ The desktop editor contains a variety of different panels and tabs to give you a
 
 The editor contains the following panels and tabs available for creative and building functionality:
 
-* [Hierarchy panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#hierarchy-pane)
-* [Scene panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane)
-* [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane)
-* [Assets Library](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#assets-library)
-* [Console tab](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#console-tab)
-* [Tests tab](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#tests-tab)
+* [Hierarchy panel](#hierarchy-panel)
+* [Scene panel](#scene-panel)
+* [Properties panel](#properties-panel)
+* [Assets Library](#assets-library)
+* [Console tab](#console-tab)
+* [Tests tab](#tests-tab)
 
 ## Hierarchy panel
 

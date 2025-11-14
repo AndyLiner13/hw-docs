@@ -281,7 +281,7 @@ initializeUI() {
 
 This implementation is wrong, because the values of `text` and `color` are not Bindings but explicit values. When the Binding `hasClicked` is updated, the UI will not re-render. A public `get()` method is not exposed to prevent this scenario.
 
-If you need to get the value of a Binding because you need to use it in multiple styles, like in the example above, you should use [derived Bindings](/hw-docs/Desktop%20editor/Custom%20UI/Building%20dynamic%20custom%20UI.md#deriving-binding-values). If you need to get the value of a Binding because you need to set a new value based on the old value, use [functional updates](/hw-docs/Desktop%20editor/Custom%20UI/Building%20dynamic%20custom%20UI.md#functional-updates).
+If you need to get the value of a Binding because you need to use it in multiple styles, like in the example above, you should use [derived Bindings](#deriving-binding-values). If you need to get the value of a Binding because you need to set a new value based on the old value, use [functional updates](#functional-updates).
 
 In some rare cases, you want to keep track of the value of the Binding for some other uses. To do this, you will have to create a separate variable to track the value:
 

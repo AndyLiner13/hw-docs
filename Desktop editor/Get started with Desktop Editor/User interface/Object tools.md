@@ -10,13 +10,13 @@ For more in-depth information about the object tools, see [Using the Object tool
 
 This suite of tools contains the following object tool tyou can use:
 
-* [Select](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#select)
-* [Move](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#move)
-* [Rotate](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#rotate)
-* [Scale](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#scale)
-* [Local and Global Coordinate Systems](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#local-and-global-scripts)
-* [Pivot](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#pivot)
-* [Snapping tools](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#snapping-tools)
+* [Select](#select)
+* [Move](#move)
+* [Rotate](#rotate)
+* [Scale](#scale)
+* [Local and Global Coordinate Systems](#local-and-global-coordinates)
+* [Pivot](#pivot)
+* [Snapping tools](#snapping-tools)
 
 ## Select
 
@@ -62,11 +62,11 @@ You can use the **Snapping** tools to precisely translate, rotate, and scale obj
 
 The following snapping tools are availabe in the Desktop Editor UI:
 
-* [Translation Grid Snap](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#translation-grid-snap)
-* [Rotation Angle Snap](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#rotation-angle-snap)
-* [Scale Snap](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#scale-snap)
-* [Relative or Absolute Snap](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#relative-or-absolute-snap)
-* [Snap to Surfaces](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#snap-to-surfaces)
+* [Translation Grid Snap](#translation-grid-snap)
+* [Rotation Angle Snap](#rotation-angle-snap)
+* [Scale Snap](#scale-snap)
+* [Relative or Absolute Snap](#relative-or-absolute-snap)
+* [Snap to Surfaces](#snap-to-surfaces)
 
 ### Translation Grid Snap
 

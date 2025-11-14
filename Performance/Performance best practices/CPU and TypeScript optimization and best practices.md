@@ -414,7 +414,7 @@ Highlights:
 
 ### Profiling UI
 
-In the [Deep profiling](/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md#deep-profiling) section, you learn how to create a deep profile. In a deep profile, there is a bridge call and a network RPC event associated with every UI binding set and callback. These actions make up for all main thread synchronous costs associated with UI. Target a CPU total cost for all UI in the world of less than **0.5ms** per frame on the local client, and **1.5ms** per frame on the server.
+In the [Deep profiling](#deep-profiling) section, you learn how to create a deep profile. In a deep profile, there is a bridge call and a network RPC event associated with every UI binding set and callback. These actions make up for all main thread synchronous costs associated with UI. Target a CPU total cost for all UI in the world of less than **0.5ms** per frame on the local client, and **1.5ms** per frame on the server.
 
 From a Deep trace pulled into Perfetto, watch the synchronous cost of these markers:
 
@@ -463,4 +463,4 @@ Even working within the binding and callback limits above, viewers may notice UI
 
 Textures by far outweigh any other memory cost associated with a UI entity. This includes a mandatory ~40 MB ReactVR panel render texture, as well as a copy of any texture asset referenced by a UI image component (once per UI entity that contains a reference to that asset, no matter how many times).
 
-Setting the visibility of a UI entity to `false` frees all textures to garbage collection. As such, everything in the [Spawning objects](/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md#spawning-objects) section applies here, and toggling visibility can be a costly operation (especially on the server). Where possible, set the visibility of the UI entity to `true` at initialization, and leave it that way.
+Setting the visibility of a UI entity to `false` frees all textures to garbage collection. As such, everything in the [Spawning objects](#spawning-objects) section applies here, and toggling visibility can be a costly operation (especially on the server). Where possible, set the visibility of the UI entity to `true` at initialization, and leave it that way.

@@ -738,7 +738,7 @@ hz.Component.register(NPCAndroidWaypoint);
 
 NPCs added to your worlds can also be set as enemies for players in your world. With the following scripts your enemy NPCs can recognize the player, follow them, and attempt to attack.
 
-Players can defend themselves with a weapon like the [Sword](/hw-docs/Desktop%20editor/NPCs/NPC%20Scripts.md#swordts) in the example and the NPCs also have hit reaction animations to indicate they’ve taken damage.
+Players can defend themselves with a weapon like the [Sword](#swordts) in the example and the NPCs also have hit reaction animations to indicate they’ve taken damage.
 
 [](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/458933021_829251449394537_1287573333970264365_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=br5W15jwrHAQ7kNvwHiH-NG&_nc_oc=AdmAH_h9nHMe9GM_L2UEZSIX30sY13cCOiERKhm2SkxSG5iDmzOC3JhhARolTG3st4k&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=mPOvPV1vaoN4pQT-Oybh7Q&oh=00_AfgH4lMYft5RwWYR6Xk7A5KdG4hDOjAh-m8G0YJYcqEoLA&oe=691D83BF)
 

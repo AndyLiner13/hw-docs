@@ -19,7 +19,7 @@ Some of the benefits of using the mirror gizmo in your virtual environment are a
 
 * In a mirror-enabled world, all players in the world will be able to see and use the shutter button to take a photo.
 * Only 16:9 and 9:16 aspect ratio are supported.
-* There is usually a negligible impact from using the mirror gizmo with default configuration, however that impact can change based on what the mirror faces, the complexity of the world, and when you choose to render the mirror. See the [Properties](/hw-docs/Gizmos/Mirror%20gizmo.md#properties) for configuration options and [Performance consideration](/hw-docs/Gizmos/Mirror%20gizmo.md#performance-considerations) sections for more details.
+* There is usually a negligible impact from using the mirror gizmo with default configuration, however that impact can change based on what the mirror faces, the complexity of the world, and when you choose to render the mirror. See the [Properties](#properties) for configuration options and [Performance consideration](#performance-considerations) sections for more details.
 
 ## Performance considerations
 

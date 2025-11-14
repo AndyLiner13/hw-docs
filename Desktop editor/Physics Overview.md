@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Meta Horizon Worlds uses Unity physics for core simulation of physics on every client. The physics system is designed for simple interactions using lightweight rigid body dynamics to simulate the motion of rigid objects. Lightweight rigid body dynamics is an optimized version of rigid body dynamics, designed for real-time applications where computational resources are limited. This approach provides fast and efficient collision detection and response, while using minimal network resources when synchronizing data between clients.
 
-The physics engine on each client performs the following tasks on local entities that have physics simulation [enabled](/hw-docs/Desktop%20editor/Physics%20Overview.md#physical_entities):
+The physics engine on each client performs the following tasks on local entities that have physics simulation [enabled](#physical-entities):
 
 * Applies forces and torque such as gravity, friction, and drag.
 * Detects and responds to collisions.
@@ -56,7 +56,7 @@ You can create objects with physical behavior in a world by using a physical ent
 * **Physics** and **Interactivity** properties in Desktop Editor
 * Scripting APIs that dynamically apply force (movement) and torque (rotation)
 * Collision handling
-* Physical effects, such as [spring physics](/hw-docs/Desktop%20editor/Physics%20Overview.md#spring_physics)
+* Physical effects, such as [spring physics](#spring-physics)
 * [Physics materials](/hw-docs/VR%20tools/SFX/Use%20physics%20and%20animation%20in%20Meta%20Horizon%20Worlds.md#physics-materials), which are a collection of physics settings that emulate real-world behaviors, such as a feather, ice, or a rubber ball.
 
 A physical entity is an [entity](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_entity) with the following properties enabled in Desktop Editor:

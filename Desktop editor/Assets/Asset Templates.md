@@ -54,7 +54,7 @@ This section will go through the general workflow for templates once you are par
 
 There are two ways to create a template:
 
-* By converting a legacy asset to an asset template. See [Asset Migration](/hw-docs/Desktop%20editor/Assets/Asset%20Templates.md#asset-migration) section for more information.
+* By converting a legacy asset to an asset template. See [Asset Migration](#asset-migration) section for more information.
   ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452458941_512500697954553_8078786083910498359_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CBpdQ4a-I5AQ7kNvwFyL4cc&_nc_oc=AdnWapXF5VUA43YIo_Mn0L5MaVs5Az4gGJILg1pAW6lnUqWiAisRRBfim8jaGsU6_JQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_Afi8SzvVRRDb3pOlDK4bh7wMWpJDmtqjmGh0LGKVy-KbSw&oe=69311C8C)
 * By selecting objects in the scene and creating a new asset template from them.
 

@@ -6,20 +6,20 @@ A frame update cycle in a VR world is the repeating process that updates and ren
 
 Every action in a world is performed within a frame consisting of phases that execute in the following order:
 
-- **[Simulation](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#simulation-phase)**:
+- **[Simulation](#simulation)**:
   * Updates player movement and recorded animations.
   * Runs code before physics calculations.
   * Computes physics updates and detects collisions.
   * Runs code after physics calculations.
-- **[Scripting](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#script-phase)**:
+- **[Scripting](#scripting)**:
   * Handles CodeBlockEvents, LocalEvents, and NetworkEvents.
   * Processes player input.
   * Runs async callbacks.
   * Commits scene graph updates.
-- **[Synchronization](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#synchronization-phase)**:
+- **[Synchronization](#synchronization)**:
   * Processes received network information.
   * Sends network updates.
-- **[Rendering](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#rendering)**: This process is only performed on player’s devices and not the server.
+- **[Rendering](#rendering)**: This process is only performed on player’s devices and not the server.
   * Calculates views of the finalized frame for both eyes.
   * Performs post-processing effects on the images.
   * Displays the images on the player’s headset.
@@ -36,7 +36,7 @@ Simulation includes the following tasks.
   * Updates the player’s position and pose based on locomotion input.
   * Updates animation playback.
   * Runs physics calculations, applying force and torque to entities that have [simulation enabled](/hw-docs/Desktop%20editor/Physics%20Overview.md#physical-entities).
-  * Detects collisions with objects, players, and [triggers](/hw-docs/Gizmos/Trigger%20zone%20gizmo.md), and queues the associated [CodeBlockEvents](/hw-docs/Scripting/Events/CodeBlock%20Events.md) to run in the [scripting phase](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#scripting).
+  * Detects collisions with objects, players, and [triggers](/hw-docs/Gizmos/Trigger%20zone%20gizmo.md), and queues the associated [CodeBlockEvents](/hw-docs/Scripting/Events/CodeBlock%20Events.md) to run in the [scripting phase](#scripting).
 - **Post-physics updates**
   * Broadcasts the [World.onUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_world) event [locally](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the position of entities, or to update the player’s position as a result of physics interactions.
 
@@ -49,14 +49,14 @@ The scripting phase initializes components, handles event processing, applies pe
 The scripting phase includes the following tasks.
 
 - **Scene graph preparation**
-  * Buffers the current [scene graph mutations](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#scene-graph-mutations) performed throughout the frame. Mutations performed after this step aren’t committed to the scene graph for this frame.
+  * Buffers the current [scene graph mutations](#scene-graph-mutations) performed throughout the frame. Mutations performed after this step aren’t committed to the scene graph for this frame.
 - **Component initialization**
   * Executes script files due to the world instance starting, [asset spawning](/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md), or [world streaming](/hw-docs/Scripting/Asset%20spawning/World%20Streaming.md). In this step the script is only run in the top-level scope.
   * Instantiates and starts new components due to the world instance starting, asset spawning, world streaming, or due to [ownership transferring](/hw-docs/Scripting/Local%20scripting/Ownership%20in%20Meta%20Horizon%20Worlds.md) to the current client. For more information about instantiating components, see the [component lifecycle](/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md#typescript-component-lifecycle) guide.
 - **Event processing**
   * Runs [NetworkEvent](/hw-docs/Reference/core/Classes/NetworkEvent.md) listeners.
   * Runs [PlayerInput](/hw-docs/Reference/core/Classes/PlayerInput.md) callbacks.
-  * Runs [CodeBlockEvent](/hw-docs/Scripting/Events/CodeBlock%20Events.md) listeners including [built-in](/hw-docs/Reference/core/Variables/CodeBlockEvents.md) code block events, such as those prepared in the [physics update](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#simulation-phase) step.
+  * Runs [CodeBlockEvent](/hw-docs/Scripting/Events/CodeBlock%20Events.md) listeners including [built-in](/hw-docs/Reference/core/Variables/CodeBlockEvents.md) code block events, such as those prepared in the [physics update](#simulation) step.
 - **Scene graph updates**
   * Applies the scene graph mutations prepared at the beginning of the scripting phase.
 - **Final Callbacks**

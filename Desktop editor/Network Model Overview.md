@@ -18,7 +18,7 @@ All clients have a full scene graph, which is a collection of all entities, thei
 
 ### Players
 
-Meta Horizon Worlds is designed for multiplayer experiences where human players interact with each other, AI players, and numerous entities in the world. All human players are associated with a client and have an avatar that provides them with a physical presence in the world. Clients prioritize processing state changes that impact the local player while receiving the remaining data from remote clients. For example, a client doesn’t process [physics](/hw-docs/Desktop%20editor/Network%20Model%20Overview.md#physics) for every entity in a scene; some of that data is processed on remote clients and then synchronized over the network.
+Meta Horizon Worlds is designed for multiplayer experiences where human players interact with each other, AI players, and numerous entities in the world. All human players are associated with a client and have an avatar that provides them with a physical presence in the world. Clients prioritize processing state changes that impact the local player while receiving the remaining data from remote clients. For example, a client doesn’t process [physics](#physics) for every entity in a scene; some of that data is processed on remote clients and then synchronized over the network.
 
 ## Synchronization
 

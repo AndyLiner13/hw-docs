@@ -8,12 +8,12 @@ A variety of primary tools can be found on the Meta Horizon Worlds Desktop Edito
 
 This set of tools contains the following options:
 
-- [The Main menu](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#the-main-menu)
-- [Microphone](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#microphone)
-- [Development mode](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#development-mode)
-- [Publish button](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#publish-button)
-- [Camera speed controls](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#camera-speed-controls)
-- [World simulation toggle](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#world-simulation-toggle)
+- [The Main menu](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md)
+- [Microphone](#microphone)
+- [Development mode](#development-mode)
+- [Publish button](#publish-button)
+- [Camera speed controls](#camera-speed-controls)
+- [World simulation toggle](#world-simulation-toggle)
 
 ![The main menu showing a list of options](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/492970509_705021532035801_7221415493077928442_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=DBAiwvW55YAQ7kNvwHyR-ON&_nc_oc=Adl3SJe4IEXlq6fFRVMV5Bg0wfbkdAZTp36PgXroRKdVnpCHiheaECtiriU_vc5b6WI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Qcs9PvRxjmG9EMjnMo8u0Q&oh=00_AfhJV6n-pHiRlmjxaCKP39JEtCnlMdpwcnzRJ4KDX2FlIA&oe=69313EBD)
 

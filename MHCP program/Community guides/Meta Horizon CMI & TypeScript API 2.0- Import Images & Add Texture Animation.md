@@ -24,9 +24,9 @@ You’ll also learn how to use two prewritten scripts to add animation and inter
 
 By reading and reviewing this written guide you will be able to:
 
-* [Import CMI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20CMI%20&%20TypeScript%20API%202.0-%20Import%20Images%20&%20Add%20Texture%20Animation.md#image-imports) images with or without transparency.
-* [Use and or write typescript code](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20CMI%20&%20TypeScript%20API%202.0-%20Import%20Images%20&%20Add%20Texture%20Animation.md#step-5--create-scripts) to create animated textures.
-* [Billboard](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20CMI%20&%20TypeScript%20API%202.0-%20Import%20Images%20&%20Add%20Texture%20Animation.md#step-7--billboarding) an animated texture to create a unique 3D-like effect.
+* [Import CMI](#image-imports) images with or without transparency.
+* [Use and or write typescript code](#step-5-create-scripts) to create animated textures.
+* [Billboard](#step-7-billboarding) an animated texture to create a unique 3D-like effect.
 
 ## Image Imports
 

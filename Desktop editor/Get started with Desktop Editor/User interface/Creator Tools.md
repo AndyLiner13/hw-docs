@@ -10,11 +10,11 @@ The Desktop Editor’s Creator tools provide a set of commonly used tools for bu
 
 This toolbar contains the following creator tool options:
 
-* [Build tools](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md#build-tools)
-* [Systems tools](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md#systems-tools)
-* [The Public Asset Library](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md#the-public-asset-library)
-* [The Scripts panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md#the-scripts-panel)
-* [The Generative AI Creation Tool](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md#the-generative-ai-creation-tool)
+* [Build tools](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md)
+* [Systems tools](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md)
+* [The Public Asset Library](#the-public-asset-library)
+* [The Scripts panel](#the-scripts-panel)
+* [The Generative AI Creation Tool](#the-generative-ai-creation-tool)
 
 ## Build toolbar
 

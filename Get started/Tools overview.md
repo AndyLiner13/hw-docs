@@ -11,12 +11,12 @@ PC creation tools support cross-platform publishing across VR and mobile, offeri
 **Note**: VR creation tools for Worlds are legacy tools. We strongly recommend using the desktop editor and other PC creation tools.
 This topic introduces some of our creation tools:
 
-* [Desktop editor](/hw-docs/Get%20started/Tools%20overview.md#desktopeditor)
-* [TypeScript](/hw-docs/Get%20started/Tools%20overview.md#typescript)
-* [Custom Model Import](/hw-docs/Get%20started/Tools%20overview.md#custommodelimport)
-* [NPCs](/hw-docs/Get%20started/Tools%20overview.md#npcs)
-* [Performance tools](/hw-docs/Get%20started/Tools%20overview.md#performancetools)
-* [Generative AI Creation tools](/hw-docs/Get%20started/Tools%20overview.md#genaitools)
+* [Desktop editor](#desktop-editor)
+* [TypeScript](#typescript)
+* [Custom Model Import](#custom-model-import)
+* [NPCs](#npcs)
+* [Performance tools](#performance-tools)
+* [Generative AI Creation tools](#gen-ai-creation-tools)
 
 ## Desktop Editor
 

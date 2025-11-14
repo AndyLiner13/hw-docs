@@ -12,7 +12,7 @@ export declare class InWorldQuest
 
 ## Remarks
 
-Similar to world purchase item, [InWorldQuest.launchQuestDetailsPanel()](/hw-docs/Reference/core/Classes/InWorldQuest.md#launchquestdetailspanel) is to launch the UI for quest in world.
+Similar to world purchase item, [InWorldQuest.launchQuestDetailsPanel()](/hw-docs/Reference/core/Classes/InWorldQuest.md) is to launch the UI for quest in world.
 
 ## Methods
 

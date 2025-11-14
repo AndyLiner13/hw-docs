@@ -6,7 +6,7 @@ This topic covers how to access real-time metrics and download performance trace
 
 **Note:** The [Utilities menu must be enabled](/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md) before continuing.
 
-The **Real-time metrics** panel provides real time performance data for metrics like FPS, CPU, GPU, scripting, and physics. The panel moves as the player moves as it is attached to the player’s space. To see a list of the metrics you can use, see [Real-time Metric Descriptions](/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md#real-time-metric-descriptions).
+The **Real-time metrics** panel provides real time performance data for metrics like FPS, CPU, GPU, scripting, and physics. The panel moves as the player moves as it is attached to the player’s space. To see a list of the metrics you can use, see [Real-time Metric Descriptions](#real-time-metric-descriptions).
 
 ## Using the Real-time metrics panel
 
@@ -62,7 +62,7 @@ Press the **Settings button** on the Real-time metrics panel to open the display
 
 Under Graphs, there are checkboxes for the metrics that are available.
 
-Point at the display settings panel and use either joystick to scroll up and down to see even more metrics. Full descriptions of each available metric are in [Real-time Metric Descriptions](/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md#real-time-metric-descriptions).
+Point at the display settings panel and use either joystick to scroll up and down to see even more metrics. Full descriptions of each available metric are in [Real-time Metric Descriptions](#real-time-metric-descriptions).
 
 To add a metric to the Real-time settings panel, open the display settings, hover your controller pointer over a metric with an empty check box, and pull the trigger. The metric is added to the panel with a unique color identifier.
 

@@ -16,15 +16,15 @@ The Player class includes these locomotion methods for scripted avatar movement:
 
 | Method | Description |
 | --- | --- |
-| [moveToPosition](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#movetoposition) | Moves the player to a specified position. |
-| [moveToPositions](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#movetopositions) | Moves the player along a path of positions. |
-| [rotateBy](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#rotateby) | Rotates the player by a specified angle in degrees. |
-| [rotateTo](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#rotateto) | Rotates the player to face a specified direction. |
-| [jump](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#jump) | Makes the player jump. |
-| [isJumping](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#isjumping) | True when the player is jumping. |
-| [isMoving](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#ismoving) | True when the player is moving. |
-| [isNavigating](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#isnavigating) | True when the player moves via scripted navigation. |
-| [stopMovement](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#stopmovement) | Stops any movement in progress. |
+| [moveToPosition](#movetoposition) | Moves the player to a specified position. |
+| [moveToPositions](#movetopositionspath-options) | Moves the player along a path of positions. |
+| [rotateBy](#rotatebyangle-options) | Rotates the player by a specified angle in degrees. |
+| [rotateTo](#rotatetodirection-options) | Rotates the player to face a specified direction. |
+| [jump](#jump) | Makes the player jump. |
+| [isJumping](#isjumping) | True when the player is jumping. |
+| [isMoving](#ismoving) | True when the player is moving. |
+| [isNavigating](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md) | True when the player moves via scripted navigation. |
+| [stopMovement](#stopmovement) | Stops any movement in progress. |
 
 ### moveToPosition
 

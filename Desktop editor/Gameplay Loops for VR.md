@@ -63,7 +63,7 @@ As players progress through the game they often start performing more advanced a
 
 ## Mid-level gameplay loop
 
-A mid-level gameplay loop is a 10-30 minute loop that combines the actions of the [core loop](/hw-docs/Desktop%20editor/Gameplay%20Loops%20for%20VR.md#core_gameplay_loop) into a goal or task. The focus of this loop is on midterm tasks and completion, such as completing rounds, stages, crafting objectives, and social activities.
+A mid-level gameplay loop is a 10-30 minute loop that combines the actions of the [core loop](#core-gameplay-loop) into a goal or task. The focus of this loop is on midterm tasks and completion, such as completing rounds, stages, crafting objectives, and social activities.
 
 The mid-level loop also has more involvement with story and dialog. Furthermore, this is the primary loop where you can start to identify friction points for players, such as closing the game during a long story session or after being killed repeatedly by players in a short period of time.
 
@@ -123,7 +123,7 @@ A progression loop is a long-term loop that supports progression over numerous h
 ### VR design recommendations
 
 * Provide endgame content or challenges that give players long term goals.
-* [Analyze](/hw-docs/Desktop%20editor/Gameplay%20Loops%20for%20VR.md#measuring_effectiveness) the progression loop to identify and support personal challenges that are popular among players.
+* [Analyze](#measuring-effectiveness) the progression loop to identify and support personal challenges that are popular among players.
 * Provide in-game introductions to upcoming content updates.
 * Use physical storytelling, environmental queues, and NPCs to build lore.
 * Make content relevant to new and veteran players.
@@ -138,7 +138,7 @@ The achievements system allows you to define a list of player objectives for tra
 
 Your monetization strategy can have a large impact on your gameplay loops, so you should implement it carefully and then monitor the impact on your gameplay loops. Poorly implemented monetization can be a major source of friction events in games that game communities and content creators will often highlight before a game is released publicly.
 
-Any monetization efforts that appear pay-to-win, unfair, or block progression should be carefully reconsidered. Once your world is live, you should [analyze](/hw-docs/Desktop%20editor/Gameplay%20Loops%20for%20VR.md#measuring_effectiveness) your gameplay loops for friction events related to monetization. This is often challenging because the results can impact players long after the event that caused the issue.
+Any monetization efforts that appear pay-to-win, unfair, or block progression should be carefully reconsidered. Once your world is live, you should [analyze](#measuring-effectiveness) your gameplay loops for friction events related to monetization. This is often challenging because the results can impact players long after the event that caused the issue.
 
 In the core loop, the event might be a disruptive ad or a poor roll on a paid item that contains random rewards. In a mid-term loop, the friction event might be a poor win rate for players that aren’t heavy spenders. In a progression loop, you might have to identify players with poor long-term progress and then narrow the issues down in the mid-term and core loops.
 

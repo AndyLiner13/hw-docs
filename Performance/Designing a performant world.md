@@ -112,7 +112,7 @@ By placing rooms on top of each other, you can add more space to a world while b
 
 ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452653026_512536551284301_6433487313962794823_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=l5r4a2JCxWIQ7kNvwHorgJC&_nc_oc=AdlZrdMb4rrmcX4v5nDKsyHyLHdJof4R4DLDdBGhXd2VO8l9JfqtXSLZ2Go-vs_JYh8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfjDmxvoyP0gkm_3M6fs61c6wrqN3BMiJAVtOcStuPABrg&oe=69312040)
 
-However, if the player looks down at an angle, all of the objects will still be drawn as they are all within the camera frustum. That is why you want to [set visibility](/hw-docs/Performance/Designing%20a%20performant%20world.md#use-set-visibility-to-hide-objects) to hide objects in rooms that you cannot see.
+However, if the player looks down at an angle, all of the objects will still be drawn as they are all within the camera frustum. That is why you want to [set visibility](#use-set-visibility-to-hide-objects) to hide objects in rooms that you cannot see.
 
 ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452578170_512536594617630_1672393260791108194_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=2LDgq8pWvmkQ7kNvwHeBunR&_nc_oc=AdlQPlS2k20d6HOWCWgjRAPMmQR44_4qJOL1OU8uiWOQ62QWEJfsM2GHYVUEcSsHciI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfiicGgVfym-ClVuJHwsxo8KHJwOfmpvGYdu6TQRQ-9Cew&oe=69313D59)
 
@@ -139,9 +139,9 @@ Long hallways are a design layout we have seen in some worlds. However, when at 
 
 *Separate rooms but all objects are inside the frustum.*
 
-Meta Horizon Worlds has the ability to set visibility on objects. You can design your world in a way that you can’t see the objects in the room you previously came from. As mentioned before, this can be done with [twists and turns](/hw-docs/Performance/Designing%20a%20performant%20world.md#designing-world-layouts-for-performance) , but another method is to add doors that close behind you.
+Meta Horizon Worlds has the ability to set visibility on objects. You can design your world in a way that you can’t see the objects in the room you previously came from. As mentioned before, this can be done with [twists and turns](#designing-world-layouts-for-performance) , but another method is to add doors that close behind you.
 
-Using a trigger, you can determine the moment you can no longer see the previous room and set visibility off for those objects. That way, even if the user turns around, these objects will not go through the render pipeline. Similarly, you can avoid having objects visible that you can’t see yet because they are blocked. You can block the line of sight [vertically](/hw-docs/Performance/Designing%20a%20performant%20world.md#technical-art-choices) by using elevators or shafts that go either up or down.
+Using a trigger, you can determine the moment you can no longer see the previous room and set visibility off for those objects. That way, even if the user turns around, these objects will not go through the render pipeline. Similarly, you can avoid having objects visible that you can’t see yet because they are blocked. You can block the line of sight [vertically](#technical-art-choices) by using elevators or shafts that go either up or down.
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452592371_512536577950965_9036878834909609726_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=vOsNSDm2l0QQ7kNvwFtx5rp&_nc_oc=Adn7MEalcWQBkGbsUzLnYY5Sg3aZXu2E_iLzcAaXhyN7wdI0WOViv2nKZSX3XWuW_fs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfgHb_0Sxkdh8rlEGcToNLzPZV4VNwwbzxRojixjZyaPfg&oe=693119DF)
 

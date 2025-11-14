@@ -20,8 +20,8 @@ Since this feature involves multiple moving parts, below are a few different sce
 
 To quickly navigate to a specific editing workflow, use the following links:
 
-* [Tag Editing in Desktop](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md#tag-editing-in-desktop-editor)
-* [Tag Editing in VR](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md#tag-editing-in-vr)
+* [Tag Editing in Desktop](#tag-editing-in-desktop-editor)
+* [Tag Editing in VR](#tag-editing-in-vr)
 * [Tag Filtering](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md) (Desktop#tag-filtering-in-desktop-editor)
 
 ## Tag Editing in Desktop Editor

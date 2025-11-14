@@ -25,7 +25,7 @@ This image shows the Desktop Editor. The same functionality is available in the 
 
 ### Available camera modes
 
-The Mobile Camera dropdown offers the following camera modes. You can also control each mode programmatically via the Camera API (see [Camera Control with the Camera API](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md#camera-control-with-the-camera-api) section below).
+The Mobile Camera dropdown offers the following camera modes. You can also control each mode programmatically via the Camera API (see [Camera Control with the Camera API](#camera-control-with-the-camera-api) section below).
 
 | Camera Mode | Description | Spawn Point Customization Options | Example |
 | --- | --- | --- | --- |
@@ -205,8 +205,8 @@ You can use the Local Camera API to enable and disable camera collision. Camera 
 Small spaces can cause the camera to move very close to the avatar, making navigation difficult. If your world includes many small spaces, consider:
 
 * Disabling camera collision
-* Switching to [first-person camera mode](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md#how-to-set-the-first-person-camera-mode)
-* Enabling [perspective switching](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md#how-to-enable-and-disable-perspective-switching)
+* Switching to [first-person camera mode](#camera)
+* Enabling [perspective switching](#enable-and-disable-perspective-switching)
 
 ```
 import LocalCamera from 'horizon/camera';
