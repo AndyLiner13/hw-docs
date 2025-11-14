@@ -37,6 +37,6 @@ The Intro to Creation world comes with basic objects to [practice building with]
 
 ## Start building
 
-After you create a new world or clone a tutorial world, you’ll enter the unpublished world in [Preview Mode](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/preview-mode). This means you can’t edit or build, and you can move around the same way you do in the rest of Worlds. Preview Mode is how others will see and interact with your world once it’s published.
+After you create a new world or clone a tutorial world, you’ll enter the unpublished world in [Preview Mode](/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md). This means you can’t edit or build, and you can move around the same way you do in the rest of Worlds. Preview Mode is how others will see and interact with your world once it’s published.
 
 To build or make any kind of edits to your world, enter [Build Mode](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/using-controllers-in-build-mode), by pressing **down** on the right controller’s joystick.
