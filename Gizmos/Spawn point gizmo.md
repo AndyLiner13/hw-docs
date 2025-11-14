@@ -22,7 +22,7 @@ In the Meta Horizon Worlds desktop editor, do the following to access the spawn 
 
 ## Spawn point properties
 
-The spawn point gizmo properties can be configured in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane) of the desktop editor or through [scripting](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md).
+The spawn point gizmo properties can be configured in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel) of the desktop editor or through [scripting](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md).
 
 ### Mobile camera options
 
@@ -112,7 +112,7 @@ hz.Component.register(OrientationChecker);
 
 Now you’ve been introduced to the spawn point gizmo, further your learning with hands-on tutorials, tutorial worlds with completed samples, and developer guides:
 
-* [Create your first world tutorial: designate a spawn point](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#section-2-place-assets-in-the-scene)
+* [Create your first world tutorial: designate a spawn point](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#step-2-place-assets-in-the-scene)
 * [Simple respawn script](/hw-docs/MHCP%20program/Community%20guides/CodeBlocks%20to%20TypeScript.md#simplerespawnscriptts)
 * [Multiplayer lobby entering the match](/hw-docs/Tutorials/TypeScript%20Multiplayer%20Lobby%20tutorial/Module%205%20-%20Entering%20the%20Match.md)
 * [Chop’N pop](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md)

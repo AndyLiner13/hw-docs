@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playanim
 
 # PlayAnimationOptions type
 
-The options for the [Player.playAvatarAnimation()](/hw-docs/Reference/core/Classes/Player.md#playavataranimation) method, which triggers an animation on an avatar.
+The options for the [Player.playAvatarAnimation()](/hw-docs/Reference/core/Classes/Player.md) method, which triggers an animation on an avatar.
 
 ## Signature
 

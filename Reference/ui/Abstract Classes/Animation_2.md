@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_animation_
 
 # Animation\_2 Class
 
-A simple or composite animation that can be passed to the [AnimatedBinding.set()](/hw-docs/Reference/ui/Classes/AnimatedBinding.md#set) method.
+A simple or composite animation that can be passed to the [AnimatedBinding.set()](/hw-docs/Reference/ui/Classes/AnimatedBinding.md) method.
 
 ## Signature
 
@@ -19,7 +19,7 @@ anim.set(Animation.repeat(Animation.timing(endValue, {duration: 300})));
 
 ## Remarks
 
-Animations start on their own; they can only be used inside an [AnimatedBinding.set()](/hw-docs/Reference/ui/Classes/AnimatedBinding.md#set) call.
+Animations start on their own; they can only be used inside an [AnimatedBinding.set()](/hw-docs/Reference/ui/Classes/AnimatedBinding.md) call.
 For information about usage, see [Animations for Custom UIs](/hw-docs/Desktop%20editor/Custom%20UI/Animations%20for%20custom%20UI.md).
 
 ## Methods

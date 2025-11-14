@@ -36,7 +36,7 @@ In the desktop editor, do the following to access the avatar pose gizmo:
 
 ## Properties
 
-This section describes the properties of the avatar pose gizmo in the [**Properties**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane) panel.
+This section describes the properties of the avatar pose gizmo in the [**Properties**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel) panel.
 
 The avatar pose gizmo is an extended class of [entity](/hw-docs/Reference/core/Classes/Entity.md). All objects in a world are represented by entities. Entities have their respective properties such as position, rotation, and scale. In the Properties panel, edit the avatar pose gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
 

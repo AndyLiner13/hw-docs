@@ -27,4 +27,4 @@ Creates a sampler that can be used to record an event without a duration.
 
 |  |  |
 | --- | --- |
-| **mark()** | Warning: This API is now obsolete. Use [HorizonMarkerSampler.mark()](/hw-docs/Reference/performance/Classes/HorizonMarkerSampler.md#mark) instead. This method is deprecated.      Signature  ``` mark(): void; ```  Returns  void |
+| **mark()** | Warning: This API is now obsolete. Use [HorizonMarkerSampler.mark()](/hw-docs/Reference/performance/Classes/HorizonMarkerSampler.md#horizonmarkersampler-class) instead. This method is deprecated.      Signature  ``` mark(): void; ```  Returns  void |

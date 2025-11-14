@@ -16,7 +16,7 @@ The following sections show you how to access and configure the gizmos so you ca
 
 ## Access the debug console gizmo
 
-While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the debug console gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
+While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the debug console gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-panel).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “debug console” in the search field.
 - Select the debug console gizmo and drag it into the scene.
@@ -26,7 +26,7 @@ While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20too
 
 All objects in a world are represented by [entities](/hw-docs/Reference/core/Classes/Entity.md). Entities have their respective properties such as position, rotation, and scale. In the **Properties** panel, edit the debug console gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
 
-The visibility of the debug console is configured under [**Visibility**](/hw-docs/Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md#controlling-visibility-of-the-debug-console). The options are **Edit Mode Only**, [**Edit and Preview Mode**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) , or [**In Published World**](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#section-4-play-in-your-world-on-mobile). Be aware that the gizmo is only visible in the Build mode when **Visibility** is in the default **Edit Mode Only**.
+The visibility of the debug console is configured under [**Visibility**](/hw-docs/Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md#controlling-visibility-of-the-debug-console). The options are **Edit Mode Only**, [**Edit and Preview Mode**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) , or [**In Published World**](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#step-5-play-in-your-world-on-mobile). Be aware that the gizmo is only visible in the Build mode when **Visibility** is in the default **Edit Mode Only**.
 
 ![Debug console gizmo's visibility options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/498317217_723416583529629_2536898422592253740_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=-UZCZiKszhMQ7kNvwECKjCQ&_nc_oc=AdnieHSn14wCEgEr43WgflkPJmBgKE6LUNTJkvCl3yiLjxR32UQmfeOcZunD67qSnHU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KqJ6FtLCYbeYqnH8kd1XXw&oh=00_AfjZujXYw-cYqPX56l5u7d_wkxllOExNL5laIgATYwmXyg&oe=69313DF6)
 

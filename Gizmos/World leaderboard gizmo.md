@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 The world leaderboard [gizmo](/hw-docs/Gizmos/About%20gizmos.md) is a helper tool that allows creators to place a visual panel, an interface for the leaderboard, to display rankings in the world. In worlds, each leaderboard features a **Share your top score** CTA (call to action) button that allows players to share their score with their friends to drive social competition. This button is automatically added to the leaderboard and cannot be disabled. Shared leaderboard scores render as a media rich asset that features the world name, the user’s score and avatar. Recipients of these shared scores can tap the asset and will be automatically sent into the world.
 
-In summary, [leaderboards](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md#systems-tools-menu) use persistent variables to track and display player rankings. The leaderboard gizmo, which is the visual representation, displays this data, while the actual data and logic are managed by the leaderboard system. Persistent variables ensure that the data shown is accurate and up-to-date, reflecting the player’s performance over time.
+In summary, [leaderboards](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md) use persistent variables to track and display player rankings. The leaderboard gizmo, which is the visual representation, displays this data, while the actual data and logic are managed by the leaderboard system. Persistent variables ensure that the data shown is accurate and up-to-date, reflecting the player’s performance over time.
 
 ## Limitations
 
@@ -16,11 +16,11 @@ Additionally, for asset spawning, the leaderboard gizmo is not included. See [As
 
 ## Access the world leaderboard gizmo
 
-While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the world leaderboard gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
+While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the world leaderboard gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-panel).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “leaderboard” in the search field.
 - Select the world leaderboard gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
+- You can now edit the new gizmo properties in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
 
 ## Properties
 

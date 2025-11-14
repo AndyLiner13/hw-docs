@@ -18,11 +18,11 @@ The following image shows the same static light gizmo lighting an object in the 
 
 ## Access the static light gizmo
 
-While you can access and configure the static light gizmos in the [VR tool](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/user-guides/static-light-gizmos-user-guide), the following steps show you how to access the static light gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
+While you can access and configure the static light gizmos in the [VR tool](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/user-guides/static-light-gizmos-user-guide), the following steps show you how to access the static light gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-panel).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “static” in the search field.
 - Select the static light gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
+- You can now edit the new gizmo properties in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
 
 ## Properties
 

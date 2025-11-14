@@ -61,8 +61,8 @@ The scripting phase includes the following tasks.
   * Applies the scene graph mutations prepared at the beginning of the scripting phase.
 - **Final Callbacks**
   * Runs any overdue asynchronous callbacks until too much time elapses, and then delays any remaining callbacks until the next frame. This does not apply to events, such as code block events and network events.
-  * Calls the [transferOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#transferownership) and [receiveOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#receiveownership) callbacks.
-  * Disconnects event subscriptions from components marked for disposal and calls the [Component.dispose()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#dispose) callback on them.
+  * Calls the [transferOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md) and [receiveOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md) callbacks.
+  * Disconnects event subscriptions from components marked for disposal and calls the [Component.dispose()](/hw-docs/Reference/core/Abstract%20Classes/Component.md) callback on them.
 
 For more information about scripts, see [Scripting using TypeScript](/hw-docs/Scripting/Scripting%20using%20TypeScript.md).
 
@@ -72,8 +72,8 @@ A scene graph mutation is a property update on an entity in a scene graph. The c
 
 The timing for committing scene graphs is based on these conditions:
 
-* Scene graph mutations run in event handlers for the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) and [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) events are seen in the next frame unless they update the player’s position.
-* When the player’s position is updated in the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event, the change is available immediately for physics calculations. The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event is useful for moving players but not other entities.
+* Scene graph mutations run in event handlers for the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) and [World.onUpdate](/hw-docs/Reference/core/Classes/World.md) events are seen in the next frame unless they update the player’s position.
+* When the player’s position is updated in the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event, the change is available immediately for physics calculations. The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event is useful for moving players but not other entities.
 * Scene graph mutations performed outside the `World.onPrePhysicsUpdate` and `World.onUpdate` events are committed to the scene graph 2 frames after being performed.
 
 At the start of the script phase, all pending mutations are buffered, then the frame continues with component initialization and event callbacks. Any new modifications during those callbacks are buffered until the next frame. When it’s time to commit the mutations, only the ones that were prepared at the start of the script phase are applied to the current frame; newer modifications wait for the next frame. This buffering system means that modifications made during the script phase aren’t visible in the same frame.

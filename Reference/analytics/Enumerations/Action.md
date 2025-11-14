@@ -14,26 +14,26 @@ export declare enum Action
 
 | Member | Value | Description |
 | --- | --- | --- |
-| ABILITY\_DEQUIP | `1` | Triggered when a player unequips an ability.  The [ITurboSettings.useAbilities](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#useabilities) property enables ability analytics. |
-| ABILITY\_EQUIP | `2` | Triggered when a player equips an ability.  The [ITurboSettings.useAbilities](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#useabilities) property enables ability analytics. |
-| ABILITY\_USED | `3` | Triggered when a player uses an ability.  The [ITurboSettings.useAbilities](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#useabilities) property enables ability analytics. |
-| ACHIEVEMENT\_UNLOCKED | `4` | Triggered when a player unlocks an achievement.  The [ITurboSettings.useQuests](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#usequests) property enables achievement analytics. |
-| AFK\_ENTER | `5` | Triggered when a player enters the AFK (away from keyboard) state.  The [ITurboSettings.useAFK](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#useafk) property enables AFK analytics. |
-| AFK\_EXIT | `6` | Triggered when a player exits the AFK (away from keyboard) state.  The [ITurboSettings.useAFK](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#useafk) property enables AFK analytics. |
+| ABILITY\_DEQUIP | `1` | Triggered when a player unequips an ability.  The [ITurboSettings.useAbilities](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables ability analytics. |
+| ABILITY\_EQUIP | `2` | Triggered when a player equips an ability.  The [ITurboSettings.useAbilities](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables ability analytics. |
+| ABILITY\_USED | `3` | Triggered when a player uses an ability.  The [ITurboSettings.useAbilities](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables ability analytics. |
+| ACHIEVEMENT\_UNLOCKED | `4` | Triggered when a player unlocks an achievement.  The [ITurboSettings.useQuests](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables achievement analytics. |
+| AFK\_ENTER | `5` | Triggered when a player enters the AFK (away from keyboard) state.  The [ITurboSettings.useAFK](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables AFK analytics. |
+| AFK\_EXIT | `6` | Triggered when a player exits the AFK (away from keyboard) state.  The [ITurboSettings.useAFK](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables AFK analytics. |
 | AREA\_CHANGE | `7` | Triggered when a player transitions from one specific area to another. |
 | AREA\_ENTER | `8` | Triggered when a player enters an area. |
 | AREA\_EXIT | `9` | Triggered when a player exits an area. |
-| ARMOR\_DEQUIP | `11` | Triggered when a player unequips an armor item.  The [ITurboSettings.useArmor](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#usearmor) property enables armor analytics. |
-| ARMOR\_EQUIP | `10` | Triggered when a player equips and armor item.  The [ITurboSettings.useArmor](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#usearmor) property enables armor analytics. |
+| ARMOR\_DEQUIP | `11` | Triggered when a player unequips an armor item.  The [ITurboSettings.useArmor](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables armor analytics. |
+| ARMOR\_EQUIP | `10` | Triggered when a player equips and armor item.  The [ITurboSettings.useArmor](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables armor analytics. |
 | CAMERA\_CLOSE | `13` | Triggered when a player closes their camera. |
 | CAMERA\_OPEN | `12` | Triggered when a player opens their camera. |
 | CAMERA\_PHOTO\_TAKEN | `14` | Triggered when a player captures image in the game. |
 | CUSTOM\_ACTION | `15` | Triggered for a custom action. |
-| DAMAGE\_ENEMY | `16` | Triggered when an enemy takes damage.  The [ITurboSettings.useDamage](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#usedamage) property enables damage analytics. |
-| DAMAGE\_PLAYER | `17` | Triggered when a player takes damage.  The [ITurboSettings.useDamage](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#usedamage) property enables damage analytics. |
+| DAMAGE\_ENEMY | `16` | Triggered when an enemy takes damage.  The [ITurboSettings.useDamage](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables damage analytics. |
+| DAMAGE\_PLAYER | `17` | Triggered when a player takes damage.  The [ITurboSettings.useDamage](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables damage analytics. |
 | DEATH | `18` | Triggered when a player character dies. |
-| DISCOVERY\_MADE | `19` | Triggered when a player activates a discovery event.  The [ITurboSettings.useDiscovery](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#usediscovery) property enables discovery analytics. |
-| FRICTION\_CAUSED | `20` | Triggered when a player causes a friction event.  The [ITurboSettings.useFriction](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#usefriction) property enables friction analytics. |
+| DISCOVERY\_MADE | `19` | Triggered when a player activates a discovery event.  The [ITurboSettings.useDiscovery](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables discovery analytics. |
+| FRICTION\_CAUSED | `20` | Triggered when a player causes a friction event.  The [ITurboSettings.useFriction](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property enables friction analytics. |
 | FRICTION\_HIT | `21` | Triggered when an event that causes friction occurs. |
 | KILL | `22` | Triggered when a player kills an enemy controlled by the game or a player character. |
 | KILL\_ENEMY | `23` | Triggered when a player kills an enemy controlled by the game. |
@@ -79,7 +79,7 @@ export declare enum Action
 | TASK\_STEP\_SUCCESS | `63` | Triggered when the step of a task succeeds. |
 | TASK\_SUCCESS | `64` | Triggered when a task succeeds. |
 | TURBO\_GAME\_STATE\_SNAPSHOT | `65` | Triggered when an intermittent snapshot is taken of the game state. |
-| TURBO\_HEARTBEAT | `67` | Triggered every interval defined by the [ITurboSettings.heartbeatFrequencySeconds](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#heartbeatfrequencyseconds) property. |
+| TURBO\_HEARTBEAT | `67` | Triggered every interval defined by the [ITurboSettings.heartbeatFrequencySeconds](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) property. |
 | TURBO\_PLAYER\_STATE\_SNAPSHOT | `66` | Triggered when an intermittent snapshot is taken of the player state. |
 | UNKNOWN | `-1` | Triggered for an unknown action. |
 | WEAPON\_EQUIP | `68` | Triggered when a player equips a weapon. |

@@ -18,7 +18,7 @@ In the desktop editor, do the following to access the environment gizmo:
 
 ## Properties
 
-The following sections highlights the environment gizmo’s attributes and behavior in the [Properties](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane) panel.
+The following sections highlights the environment gizmo’s attributes and behavior in the [Properties](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel) panel.
 
 ### Attributes
 

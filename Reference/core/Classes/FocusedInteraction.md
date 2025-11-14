@@ -13,8 +13,8 @@ export declare class FocusedInteraction
 ## Remarks
 
 Focused Interaction mode replaces on-screen controls on web and mobile clients with touch and mouse input that includes direct input access.
-You can enable and disable Focused Interaction mode with the [Player.enterFocusedInteractionMode()](/hw-docs/Reference/core/Classes/Player.md#enterfocusedinteractionmode) and [Player.exitFocusedInteractionMode()](/hw-docs/Reference/core/Classes/Player.md#exitfocusedinteractionmode) methods.
-When Focused Interaction mode is enabled, you can subscribe to the [PlayerControls.onFocusedInteractionInputStarted](/hw-docs/Reference/core/Classes/PlayerControls.md#onfocusedinteractioninputstarted), [PlayerControls.onFocusedInteractionInputMoved](/hw-docs/Reference/core/Classes/PlayerControls.md#onfocusedinteractioninputmoved), and [PlayerControls.onFocusedInteractionInputEnded](/hw-docs/Reference/core/Classes/PlayerControls.md#onfocusedinteractioninputended) events.
+You can enable and disable Focused Interaction mode with the [Player.enterFocusedInteractionMode()](/hw-docs/Reference/core/Classes/Player.md) and [Player.exitFocusedInteractionMode()](/hw-docs/Reference/core/Classes/Player.md) methods.
+When Focused Interaction mode is enabled, you can subscribe to the [PlayerControls.onFocusedInteractionInputStarted](/hw-docs/Reference/core/Classes/PlayerControls.md), [PlayerControls.onFocusedInteractionInputMoved](/hw-docs/Reference/core/Classes/PlayerControls.md), and [PlayerControls.onFocusedInteractionInputEnded](/hw-docs/Reference/core/Classes/PlayerControls.md) events.
 For more information, see the [Focused Interaction guide](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md).
 
 ## Constructors

@@ -364,7 +364,7 @@ When the player hits the ball, they take ownership of the entity that the script
   Click **Publish** to publish the world.
 - Configure the preview device as mobile
 
-  To preview your world on mobile, select **Mobile** as your preview device by going to [Preview Configuration](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#how-to-set-the-preview-configuration). Click the ellipsis button on the menu bar. In **Preview actions**, send a preview build link to your Meta Horizon app.
+  To preview your world on mobile, select **Mobile** as your preview device by going to [Preview Configuration](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md). Click the ellipsis button on the menu bar. In **Preview actions**, send a preview build link to your Meta Horizon app.
 - Play it on mobile
 
   Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world. For more related information, see [Testing worlds on mobile](/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile).

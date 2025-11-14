@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Nav Mesh Agents
 
-The navigation mesh (NavMesh) agent feature allows you to create [agents](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#agent) that autonomously navigate through a world avoiding obstacles, guided by [navigation meshes](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-mesh-navmesh). Agents can be simple, like a primitive object, or complex, like a premade [NPC asset](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/getting-started-with-npc-assets). You can create an agent from any of the following entity types:
+The navigation mesh (NavMesh) agent feature allows you to create [agents](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#agent) that autonomously navigate through a world avoiding obstacles, guided by [navigation meshes](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md). Agents can be simple, like a primitive object, or complex, like a premade [NPC asset](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/getting-started-with-npc-assets). You can create an agent from any of the following entity types:
 
 * Meshes (primitive and custom model)
 * Unity Asset Bundles (2p-only)

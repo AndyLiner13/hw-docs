@@ -12,4 +12,4 @@ LEADEBOARD_SCORE_MAX_VALUE: number
 
 ## Remarks
 
-This variable is used by the [ILeaderboards.setScoreForPlayer()](/hw-docs/Reference/core/Interfaces/ILeaderboards.md#setscoreforplayer) method.
+This variable is used by the [ILeaderboards.setScoreForPlayer()](/hw-docs/Reference/core/Interfaces/ILeaderboards.md) method.

@@ -133,7 +133,7 @@ Different components support different sets of styles. Again, you can find detai
 
 ### Prop: children
 
-Similar to the UI you would find in other frameworks like HTML and React, the custom UI is also a tree structure, and a component may have children components. This is defined through the [`children` prop](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#props), which can be either one or an array of [`UINode`](/hw-docs/Reference/ui/Classes/UINode.md)s.
+Similar to the UI you would find in other frameworks like HTML and React, the custom UI is also a tree structure, and a component may have children components. This is defined through the [`children` prop](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md), which can be either one or an array of [`UINode`](/hw-docs/Reference/ui/Classes/UINode.md)s.
 
 ```
 const view = View({

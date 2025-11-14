@@ -244,7 +244,7 @@ player.focusedInteraction.setTrailOptions(true  /*isEnabled*/, newTrailOption
 
 ## Focus the camera on a custom UI
 
-You can use [player.focusUI()](/hw-docs/Reference/core/Classes/Player.md#focusui) to focus the player’s camera on a selectable entity in the world, such as a custom UI:
+You can use [player.focusUI()](/hw-docs/Reference/core/Classes/Player.md) to focus the player’s camera on a selectable entity in the world, such as a custom UI:
 
 ```
  player.focusUI(selectableEntity, {
@@ -254,7 +254,7 @@ You can use [player.focusUI()](/hw-docs/Reference/core/Classes/Player.md#focusui
       });
 ```
 
-To remove focus from any in-world UI the player’s camera is currently focused on, you use [player.unfocusUI()](/hw-docs/Reference/core/Classes/Player.md#unfocusui):
+To remove focus from any in-world UI the player’s camera is currently focused on, you use [player.unfocusUI()](/hw-docs/Reference/core/Classes/Player.md):
 
 ```
 player.unfocusUI();

@@ -14,11 +14,11 @@ The following image is taken from the [sample world](/hw-docs/Tutorials/Getting%
 
 ## Access the ParticleFx gizmo
 
-While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the ParticleFx gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
+While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the ParticleFx gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-panel).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “particle” in the search field.
 - Select the ParticleFx gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [**Properties panel**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
+- You can now edit the new gizmo properties in the [**Properties panel**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
 
 ## Properties
 
@@ -56,5 +56,5 @@ Now that you’ve been introduced to the ParticleFx gizmo, further your learning
 
 * [Chop-n-pop module 11 loot system](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%2011%20-%20Loot%20System.md)
 * [Meta Horizon Creator Program’s creator manual on the ParticleFx gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#particlefx-gizmo)
-* [Example scripts library](/hw-docs/Scripting/API%20references%20and%20examples/Example%20scripts%20library.md#particlefx-gizmo-example-script)
+* [Example scripts library](/hw-docs/Scripting/API%20references%20and%20examples/Example%20scripts%20library.md#example-scripts-library)
 * [Scripting using TypeScript](/hw-docs/Scripting/Scripting%20using%20TypeScript.md)

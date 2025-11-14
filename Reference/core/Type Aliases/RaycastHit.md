@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycasth
 
 # RaycastHit type
 
-The result of a [raycast](/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) collision.
+The result of a [raycast](/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycastgizmo-class) collision.
 
 ## Signature
 

@@ -102,30 +102,30 @@ For more information about the properties of physical entities, see [Using physi
 
 The TypeScript API provides several world update events for applying movement and torque to players and physical entities at a specific phase of every frame.
 
-The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event allows you to register a callback to run on every frame before physics calculations are performed on entities. This event is typically used to move a player and then allow physics to respond to the movement.
+The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event allows you to register a callback to run on every frame before physics calculations are performed on entities. This event is typically used to move a player and then allow physics to respond to the movement.
 
-The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) event allows you to register a callback to run on every frame after physics calculations are performed. This event is useful for moving entities on every frame or moving a player in response to physics.
+The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md) event allows you to register a callback to run on every frame after physics calculations are performed. This event is useful for moving entities on every frame or moving a player in response to physics.
 
 #### Spring physics
 
-You can use spring physics to apply the physical movement of a spring to an entity when you push it toward a location or spin it toward a rotation. For more information, see the [Spring Physics](/hw-docs/Scripting/API%20references%20and%20examples/Spring%20Physics.md) guide. To ensure continuous motion toward the specified target, the spring physics methods must be called within the [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) event so they are called on every frame.
+You can use spring physics to apply the physical movement of a spring to an entity when you push it toward a location or spin it toward a rotation. For more information, see the [Spring Physics](/hw-docs/Scripting/API%20references%20and%20examples/Spring%20Physics.md) guide. To ensure continuous motion toward the specified target, the spring physics methods must be called within the [World.onUpdate](/hw-docs/Reference/core/Classes/World.md) event so they are called on every frame.
 
 ## Physics APIs
 
 * [PhysicalEntity](/hw-docs/Reference/core/Classes/PhysicalEntity.md) class
-* [PhysicalEntity.springPushTowardPosition](/hw-docs/Reference/core/Classes/PhysicalEntity.md#springpushtowardposition) method
-* [PhysicalEntity.springSpinTowardRotation](/hw-docs/Reference/core/Classes/PhysicalEntity.md#springpushtowardposition) method
+* [PhysicalEntity.springPushTowardPosition](/hw-docs/Reference/core/Classes/PhysicalEntity.md) method
+* [PhysicalEntity.springSpinTowardRotation](/hw-docs/Reference/core/Classes/PhysicalEntity.md) method
 * [ProjectileLauncherGizmo](/hw-docs/Reference/core/Classes/ProjectileLauncherGizmo.md) class
 * [RaycastGizmo](/hw-docs/Reference/core/Classes/RaycastGizmo.md) class
 * [AssetBundleGizmo](/hw-docs/Reference/unity_asset_bundles/Classes/AssetBundleGizmo.md) class
-* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event
-* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event
+* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event
+* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event
 
 ## Performance recommendations
 
 * World update events
 
-  + To stablize performance, distribute large physics operations across multiple frames using the The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) event.
+  + To stablize performance, distribute large physics operations across multiple frames using the The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md) event.
 * Colliders and meshes
 
   + Optimize physics processing by disabling colliders while they are outside the gameplay area.

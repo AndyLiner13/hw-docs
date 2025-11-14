@@ -111,7 +111,7 @@ This tutorial explores how to deliver compelling experiences across these platfo
 * Web (desktop)
 * Mobile
 
-As part of the development process, you must test your work on each of these platforms, which requires setting up a development environment for them. For more information, see [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).
+As part of the development process, you must test your work on each of these platforms, which requires setting up a development environment for them. For more information, see [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device).
 
 ### Using the modules
 

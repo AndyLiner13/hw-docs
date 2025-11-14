@@ -18,7 +18,7 @@ While you can access and use gizmos in the [VR tool](/hw-docs/VR%20tools/Getting
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “dynamic light” in the search field.
 - Select the dynamic light gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [**Properties** panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
+- You can now edit the new gizmo properties in the [**Properties** panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
 
 ## Properties
 

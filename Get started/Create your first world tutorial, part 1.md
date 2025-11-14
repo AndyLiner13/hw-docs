@@ -188,7 +188,7 @@ For additional information on doing this, see [Preview](/hw-docs/Desktop%20edito
 
   ![Sending a preview link to your Worlds app](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/512661977_751449564059664_5943184411121257609_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=hWp2r-WT84EQ7kNvwHJeBrk&_nc_oc=Adlf7MzW6-xyOYdGdl5ZtoHz3VpgqEX8oirKPuDuUNVzx5U72Xw04exFPmzTLyo6KXw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=XhavazBnGSVCc55UcoSkWg&oh=00_AfgcVXNofw5MI1Ue5twocpiOtrldeT5GjDstGL8ggeOoog&oe=69311FEA)
 
-  **Note**: If you do not have the Meta Horizon mobile app installed, you can install it and repeat this step, view the published world in your browser, or share the web link with others. For more information, see [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).
+  **Note**: If you do not have the Meta Horizon mobile app installed, you can install it and repeat this step, view the published world in your browser, or share the web link with others. For more information, see [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device).
 - Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world.
 
   For more related information, see [Testing worlds on mobile](/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile).

@@ -27,5 +27,5 @@ screenPosition: The screen position of the input normalized to the range (0,0) t
 worldRayOrigin: The origin point of a ray in the world generated from a touch gesture.
 worldRayDirection: The direction vector of a ray in the world generated from a touch gesture.
 interactionStringId: A unique string identifier for the interaction.
-InteractionInfo is passed by the [PlayerControls.onFocusedInteractionInputStarted](/hw-docs/Reference/core/Classes/PlayerControls.md#onfocusedinteractioninputstarted), [PlayerControls.onFocusedInteractionInputMoved](/hw-docs/Reference/core/Classes/PlayerControls.md#onfocusedinteractioninputmoved), and [PlayerControls.onFocusedInteractionInputEnded](/hw-docs/Reference/core/Classes/PlayerControls.md#onfocusedinteractioninputended) events.
+InteractionInfo is passed by the [PlayerControls.onFocusedInteractionInputStarted](/hw-docs/Reference/core/Classes/PlayerControls.md), [PlayerControls.onFocusedInteractionInputMoved](/hw-docs/Reference/core/Classes/PlayerControls.md), and [PlayerControls.onFocusedInteractionInputEnded](/hw-docs/Reference/core/Classes/PlayerControls.md) events.
 For more information, see the [Focused Interaction guide](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md).

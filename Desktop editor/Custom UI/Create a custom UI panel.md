@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Create a custom UI panel
 
-This topic shows you how to create a custom UI panel. To create one, you need a Custom UI gizmo and a [`UIComponent` script](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#uicomponent).
+This topic shows you how to create a custom UI panel. To create one, you need a Custom UI gizmo and a [`UIComponent` script](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md).
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ In the past, creators often placed duplicate Custom UI gizmos in the world and c
 
 ## Step 2: Create a UI script
 
-The Custom UI gizmo does nothing unless you attach a script to it. The script controls the content of the panel. Next, [create a TypeScript script using the desktop editor](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md#create-a-new-meta-horizon-worlds-script-in-the-desktop-editor). To use the Custom UI functionalities, include `horizon/ui` module for TypeScript API v2.0.0 from the **Scripts** dropdown menu > **Settings** (the gear button on the top right of Scripts menu). The examples here are for TypeScript API v2.0.0.
+The Custom UI gizmo does nothing unless you attach a script to it. The script controls the content of the panel. Next, [create a TypeScript script using the desktop editor](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md). To use the Custom UI functionalities, include `horizon/ui` module for TypeScript API v2.0.0 from the **Scripts** dropdown menu > **Settings** (the gear button on the top right of Scripts menu). The examples here are for TypeScript API v2.0.0.
 
 ![Create a UI script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480522573_661373903067231_3023285926290038565_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=sDDwToLbXlQQ7kNvwHzFh4A&_nc_oc=AdmlmGN2tikSIlmD68e81cv9pu19wO9njmNclZXD3UDvGNN5I6PvkA318i2AHcPH9kA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wEq3okRf_rGCvmDO95iThQ&oh=00_AfhaVrL0jVs809rsVEbOth6v0rC2kdlaU2zJDJbQgaSdNA&oe=6931311A)
 
@@ -72,7 +72,7 @@ You can find the registered `HelloWorld` component in the **Script** section of 
 
 ![Attach the HelloWorld script to the Custom UI entity close up](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480666001_661373906400564_4241762125279907481_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=P_nRDxifLrYQ7kNvwFKQCPT&_nc_oc=AdnCM88BLIlAXs3Xgm1j3__DypB2nIL6ZX8AfknSVV7iu0Z3fZQ8CbqOTrKmp1lRFCg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wEq3okRf_rGCvmDO95iThQ&oh=00_AfjxnOt392oCMFCwuStEERfrlgDo5LrHtlSn1rMJYA_hHg&oe=69311525)
 
-After you attach the `HelloWorld` script to the **Custom UI** entity, click Play to enter the preview mode. If you haven’t already, ensure you have turned on **Auto-start simulation on Preview entry** and **Auto-stop simulation on Preview exit** in [**Preview Configuration**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-configuration) to successfully complete this tutorial.
+After you attach the `HelloWorld` script to the **Custom UI** entity, click Play to enter the preview mode. If you haven’t already, ensure you have turned on **Auto-start simulation on Preview entry** and **Auto-stop simulation on Preview exit** in [**Preview Configuration**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md) to successfully complete this tutorial.
 
 While in preview, you will be prompted to press the “E” key when your avatar is within a certain distance from the UI panel. Press “E” to see the “Hello World” panel.
 

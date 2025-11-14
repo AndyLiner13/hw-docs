@@ -14,7 +14,7 @@ export declare class OrbitCameraMode implements ICameraMode
 
 ## Remarks
 
-The [Camera.setCameraModeOrbit()](/hw-docs/Reference/camera/Classes/Camera.md#setcameramodeorbit) method enables orbit mode. For more information on setting camera modes at runtime, see the [Camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.
+The [Camera.setCameraModeOrbit()](/hw-docs/Reference/camera/Classes/Camera.md) method enables orbit mode. For more information on setting camera modes at runtime, see the [Camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.
 
 ## Properties
 

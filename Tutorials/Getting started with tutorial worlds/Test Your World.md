@@ -128,4 +128,4 @@ In Build mode, you can perform edits to your world while you are in the headset.
 
 ## Testing in Mobile
 
-For more information on setting up a testing environment for mobile and web, see [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).
+For more information on setting up a testing environment for mobile and web, see [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device).

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/migration_def
 
 # DefaultMigrationOptions Variable
 
-The default values for the [MigrationOptions](/hw-docs/Reference/migration/Type%20Aliases/MigrationOptions.md) type, used when no options are provided to the [PlayerMigration.migrateToHorizonApp()](/hw-docs/Reference/migration/Classes/PlayerMigration.md#migratetohorizonapp) method.
+The default values for the [MigrationOptions](/hw-docs/Reference/migration/Type%20Aliases/MigrationOptions.md) type, used when no options are provided to the [PlayerMigration.migrateToHorizonApp()](/hw-docs/Reference/migration/Classes/PlayerMigration.md) method.
 
 ## Signature
 
