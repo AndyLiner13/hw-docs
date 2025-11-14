@@ -31,14 +31,14 @@ Simulation is the process of calculating the world state at a specific moment in
 Simulation includes the following tasks.
 
 - **Pre-physics updates**
-  * Broadcasts the [World.onPrePhysicsUpdate](/hw-docs/desktop-editor/reference/2.0.0/core_world#onprephysicsupdate) event [locally](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the player’s position so physics can react to the movement; however, you don’t typically use this event to move entities.
+  * Broadcasts the [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_world#onprephysicsupdate) event [locally](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the player’s position so physics can react to the movement; however, you don’t typically use this event to move entities.
 - **Physics updates**
   * Updates the player’s position and pose based on locomotion input.
   * Updates animation playback.
   * Runs physics calculations, applying force and torque to entities that have [simulation enabled](/hw-docs/Desktop%20editor/Physics%20Overview.md#physical-entities).
   * Detects collisions with objects, players, and [triggers](/hw-docs/Gizmos/Trigger%20zone%20gizmo.md), and queues the associated [CodeBlockEvents](/hw-docs/Scripting/Events/CodeBlock%20Events.md) to run in the [scripting phase](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#scripting).
 - **Post-physics updates**
-  * Broadcasts the [World.onUpdate](/hw-docs/desktop-editor/reference/2.0.0/core_world#onupdate) event [locally](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the position of entities, or to update the player’s position as a result of physics interactions.
+  * Broadcasts the [World.onUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_world#onupdate) event [locally](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the position of entities, or to update the player’s position as a result of physics interactions.
 
 For more information about physics simulation, see the [physics overview](/hw-docs/Desktop%20editor/Physics%20Overview.md).
 
@@ -61,8 +61,8 @@ The scripting phase includes the following tasks.
   * Applies the scene graph mutations prepared at the beginning of the scripting phase.
 - **Final Callbacks**
   * Runs any overdue asynchronous callbacks until too much time elapses, and then delays any remaining callbacks until the next frame. This does not apply to events, such as code block events and network events.
-  * Calls the [transferOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#transferownership) and [receiveOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#receiveownership) callbacks.
-  * Disconnects event subscriptions from components marked for disposal and calls the [Component.dispose()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#dispose) callback on them.
+  * Calls the [transferOwnership()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_component#transferownership) and [receiveOwnership()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_component#receiveownership) callbacks.
+  * Disconnects event subscriptions from components marked for disposal and calls the [Component.dispose()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_component#dispose) callback on them.
 
 For more information about scripts, see [Scripting using TypeScript](/hw-docs/Scripting/Scripting%20using%20TypeScript.md).
 
@@ -72,8 +72,8 @@ A scene graph mutation is a property update on an entity in a scene graph. The c
 
 The timing for committing scene graphs is based on these conditions:
 
-* Scene graph mutations run in event handlers for the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) and [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) events are seen in the next frame unless they update the player’s position.
-* When the player’s position is updated in the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event, the change is available immediately for physics calculations. The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event is useful for moving players but not other entities.
+* Scene graph mutations run in event handlers for the [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onprephysicsupdate) and [World.onUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onupdate) events are seen in the next frame unless they update the player’s position.
+* When the player’s position is updated in the [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onprephysicsupdate) event, the change is available immediately for physics calculations. The [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onprephysicsupdate) event is useful for moving players but not other entities.
 * Scene graph mutations performed outside the `World.onPrePhysicsUpdate` and `World.onUpdate` events are committed to the scene graph 2 frames after being performed.
 
 At the start of the script phase, all pending mutations are buffered, then the frame continues with component initialization and event callbacks. Any new modifications during those callbacks are buffered until the next frame. When it’s time to commit the mutations, only the ones that were prepared at the start of the script phase are applied to the current frame; newer modifications wait for the next frame. This buffering system means that modifications made during the script phase aren’t visible in the same frame.

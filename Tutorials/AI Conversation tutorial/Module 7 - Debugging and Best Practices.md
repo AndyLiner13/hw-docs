@@ -10,7 +10,7 @@ This final module covers debugging techniques and best practices for creating ef
 
 Use the NPC Debugger tab in the Desktop Editor to determine which events and world states the Conversation is responding to. Below is a screenshot showing which game events Shady Riley is responding to in the world. You can also use the NPC Debugger to debug user voice inputs.
 
-![NPC Debugger tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/556419626_829681116236508_1027776150910072785_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=OqICYvSexiQQ7kNvwGH06HE&_nc_oc=Adm5bQU0ofnv0ugbXkcKu6heJWsqzFtsjjBMFjGhRH_FcmihLPwaVWwK4iUOQpSQjdM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_5uVFWgRsjfeiLUJwyBv9g&oh=00_AfjCtbi569Cy9vzn9PCDkbjG4W7mw-OMMrlWqwYKmep8DQ&oe=692FCAE1)
+![NPC Debugger tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/556419626_829681116236508_1027776150910072785_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=OqICYvSexiQQ7kNvwGH06HE&_nc_oc=Adm5bQU0ofnv0ugbXkcKu6heJWsqzFtsjjBMFjGhRH_FcmihLPwaVWwK4iUOQpSQjdM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KiSCAljJnEGS6KW039Mgmw&oh=00_AfiKBsfg6T1SJlQb2GTDkZdEfX6K5uUWU-KrV2I7AV2nYg&oe=6930ABE1)
 
 ### Common debug scenarios
 
@@ -49,7 +49,7 @@ As Creators may discover when completing the exercises in this tutorial, adjusti
 Compared to the original Sim Tycoon world, some minor changes were made to allow play in VR:
 
 * Grab anchors were added to the pickaxes
-* Some minor modifications were made to [Pickaxe.ts](/hw-docs/tutorial-worlds/ai-conversation-tutorial/Pickaxe.ts)
+* Some minor modifications were made to [Pickaxe.ts](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/Pickaxe.ts)
 
 ## Summary
 

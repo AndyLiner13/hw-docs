@@ -8,7 +8,7 @@ When creating an NPC there are two embodiment options to choose from: **None** a
 
 While **None** AI embodied and **Horizon Avatar** both leverage the core NPC Gizmo as their foundation, they provide distinct functionalities and use cases for populating your virtual world with interactive characters. The choice between them depends on whether or not you want to attach the NPC gizmo to an entity in your world, or make use of a Horizon Avatar as an NPC character.
 
-![Horizon Avatar and None embodied NPC](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545887387_810235231514430_8912002839303763770_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=n6ZwEPowx-EQ7kNvwFW0GlZ&_nc_oc=Adlc173LlsBTV3vf6aWGuXkpfkrgPIuxsmazR5NMpEebBHoKwxk0MbyljZjChI9Reh8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kEP5nh-th3vbcgkadEH-HQ&oh=00_AfiA0i6yUtlIxeA-bq0hv5KEWjFIsSunlyR_PMW9FQvKWA&oe=692FBBAB)
+![Horizon Avatar and None embodied NPC](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545887387_810235231514430_8912002839303763770_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=n6ZwEPowx-EQ7kNvwFW0GlZ&_nc_oc=Adlc173LlsBTV3vf6aWGuXkpfkrgPIuxsmazR5NMpEebBHoKwxk0MbyljZjChI9Reh8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Wh3udHmdHb-6YW4JW1qWuQ&oh=00_Afjyp_n6znrhM5t8EcIc59eBIYOZIWWq_5booy09iKQ6Xw&oe=69309CAB)
 
 ## Non-AI Embodied NPCs
 
@@ -26,9 +26,9 @@ Some common use cases for a Horizon Avatar embodied NPC include:
 * **Selling Goods/Services**: A shopkeeper with a predefined dialogue flow for transactions.
 * **Atmospheric Elements**: Characters that perform routine tasks or wander an area to make the world feel more alive.
 
-By default, NPCs can **`Spawn on Start`** by togging the corresponding property on in the **Properties** pane. For dynamic spawning of an NPC (i.e. a quest giver suddenly appearing) you can use the `[spawnPlayer() method](/hw-docs/Reference/avatar_ai_agent_avataraiagent#methods)`.
+By default, NPCs can **`Spawn on Start`** by togging the corresponding property on in the **Properties** pane. For dynamic spawning of an NPC (i.e. a quest giver suddenly appearing) you can use the `[spawnPlayer() method](https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_agent_avataraiagent#methods)`.
 
-Similarly, NPCs can be **despawned** using `[despawnPlayer()](/hw-docs/Reference/avatar_ai_agent_avataraiagent#methods)`, which destroys the entity and removes it from the world.
+Similarly, NPCs can be **despawned** using `[despawnPlayer()](https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_agent_avataraiagent#methods)`, which destroys the entity and removes it from the world.
 
 Below is a TypeScript example script, typically attached to a **Trigger Zone gizmo**, which causes a **Scripted Avatar NPC** (like a quest giver) to appear when a player enters the zone and disappear when the player exits.
 

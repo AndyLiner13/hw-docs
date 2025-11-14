@@ -11,7 +11,7 @@ The [desktop editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20
 * The Hierarchy window in Meta Horizon Worlds is similar to the Workspace folder in the Explorer window in Roblox Studio for organizing elements in your 3D scene. Both allow you to manage and organize objects (called entities in Meta Horizon Worlds), and both use a tree structure to represent parent-child relationships between objects.
 * Roblox Studio’s Creator Store and Inventory are also similar to the Asset Store and Assets window in Meta Horizon Worlds, respectively.
 
-![Meta Horizon Worlds UI Overview](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/556862227_829681122903174_8986154431168730759_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=KLsfgsWJdYAQ7kNvwF2obkl&_nc_oc=Adn5ZFM-w5AuX0oEKAZoySdRIZTTGove5-4UcKHCvKGQCQXLhwvuTNT7Z6nO7vlof_o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UECsEsHxsr3-wbinQBmFQg&oh=00_AfhAR4ttMKFFwX_d-C-za2MfuU1GsQrOk6iWx2PQn3K3xQ&oe=692FA5EC)
+![Meta Horizon Worlds UI Overview](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/556862227_829681122903174_8986154431168730759_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=KLsfgsWJdYAQ7kNvwF2obkl&_nc_oc=Adn5ZFM-w5AuX0oEKAZoySdRIZTTGove5-4UcKHCvKGQCQXLhwvuTNT7Z6nO7vlof_o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=aQlcpNJNN3hXip7jBcCcrg&oh=00_AfghRty3xMnU3WmuFIiVIUOLC1D1G3ySUexUZuY8ZVP5jw&oe=6930BF2C)
 
 ## Terminology differences
 
@@ -126,7 +126,7 @@ If the assets in your Place were originally imported from an external source as 
 
 To export an asset from Roblox, you can right-click it in the Explorer and choose **Export Selection**. Models and textures exported from Roblox are in .OBJ and .MTL format, respectively.
 
-![Export Selection](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480812910_656797433524878_3994810472038585410_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=GxJlG6uSQeIQ7kNvwFwcIO-&_nc_oc=AdnHYrdgRfSx9I2kr75Tb58_QwOR8rKGdu3b0zlRKeQPODTLG1wcrBFU0FDDLQvY1dI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UECsEsHxsr3-wbinQBmFQg&oh=00_Afj2-4qHxp5nU3TrUT9Rcm2smlOW9MUqKaNHUshDA64D5w&oe=692F9C07)
+![Export Selection](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480812910_656797433524878_3994810472038585410_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=GxJlG6uSQeIQ7kNvwFwcIO-&_nc_oc=AdnHYrdgRfSx9I2kr75Tb58_QwOR8rKGdu3b0zlRKeQPODTLG1wcrBFU0FDDLQvY1dI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aQlcpNJNN3hXip7jBcCcrg&oh=00_AfgZy210AfTdVKPcvFOGMCWQgsPJAJ3mxPPm6e-LHfp8Og&oe=6930B547)
 
 ## Monetization
 
@@ -165,4 +165,4 @@ Meta Horizon Worlds implements some features in ways that may not be obvious to 
 
 ## Publishing and world discovery
 
-Our recommendation engine fuels discovery across multiple product surfaces in headset (such as Horizon Feed, Horizon Worlds catalog, Horizon Store), on web, and in our Meta Horizon mobile app. For more information about how world discovery works in Meta Horizon Worlds, see [Intro to Horizon Worlds Discovery](/hw-docs/mhcp-program/faq/intro-to-worlds-discovery).
+Our recommendation engine fuels discovery across multiple product surfaces in headset (such as Horizon Feed, Horizon Worlds catalog, Horizon Store), on web, and in our Meta Horizon mobile app. For more information about how world discovery works in Meta Horizon Worlds, see [Intro to Horizon Worlds Discovery](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/faq/intro-to-worlds-discovery).

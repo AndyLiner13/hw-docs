@@ -10,7 +10,7 @@ As a world builder, using the [Developer Dashboard](https://developers.meta.com/
 
 Before you can publish your world using the Developer Dashboard, you must:
 
-* Have a Meta account and set up a development team. For more information, see [Manage your team](/hw-docs/save-optimize-and-publish/worlds-manage-team/).
+* Have a Meta account and set up a development team. For more information, see [Manage your team](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/worlds-manage-team/).
 
 ### Uploading your build
 
@@ -23,5 +23,5 @@ To publish your world using the Developer Dashboard:
 - Open the [Developer Dashboard](https://developers.meta.com/horizon/manage/worlds).
 - Select the world you want to publish.
 - From the **World product detail page** of your world, click **Continue submission**.
-- Add details and images for your world. For more details, see [Add world details](/hw-docs/save-optimize-and-publish/intro-to-worlds-discoveryadd-world-details-in-horizon).
+- Add details and images for your world. For more details, see [Add world details](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/intro-to-worlds-discoveryadd-world-details-in-horizon).
 - When you’re ready to publish, click **Publish**.

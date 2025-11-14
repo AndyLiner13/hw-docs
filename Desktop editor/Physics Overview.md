@@ -17,7 +17,7 @@ The physics system includes support for the following elements:
 * Joints: A joint attaches a rigid body to another or to a fixed position. Some joint types allow limited movement in relation to the attached rigid body.
 * Colliders: Colliders are invisible entities consisting of custom shapes that respond to physical collisions. They can include collision, physics, and grabbable components. Primitive colliders (box, sphere, and capsule) provide simplicity and optimal performance while mesh colliders more closely match the shape of an entity, although their use is more processor intensive. For more information, see the [Collider Ingestion](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Collider%20Ingestion%20User%20Guide.md) guide.
 * Projectiles: A projectile is a temporary entity that is fired in a set direction before it is destroyed. You can use the [Projectile Launcher gizmo](/hw-docs/Gizmos/Projectile%20launcher%20gizmo.md) to manage the firing, tracking, and collision of the projectile. The launcher is accessible with the TypeScript API through the [Projectile Launcher class](/hw-docs/Reference/core/Classes/ProjectileLauncherGizmo.md), which allows you to detect and respond to events triggered by the gizmo. For more information, see the [Projectile tutorial](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%202%20-%20Projectile.md).
-* Unity asset bundles: Meta Horizon Worlds supports Unity asset bundles, which provide advanced graphic and physics capabilities. With Unity Asset bundles, you can import your unity assets including Unity colliders directly into your world and even spawn the assets dynamically using the [TypeScript APIs](/hw-docs/Reference/unity_asset_bundles_assetbundlegizmo). For more information, see the [Horizon Unity AssetBundles Overview](/hw-docs/desktop-editor/assets/unity-assetbundles/horizon-unity-assetbundles-overview).
+* Unity asset bundles: Meta Horizon Worlds supports Unity asset bundles, which provide advanced graphic and physics capabilities. With Unity Asset bundles, you can import your unity assets including Unity colliders directly into your world and even spawn the assets dynamically using the [TypeScript APIs](https://developers.meta.com/horizon-worlds/reference/2.0.0/unity_asset_bundles_assetbundlegizmo). For more information, see the [Horizon Unity AssetBundles Overview](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/unity-assetbundles/horizon-unity-assetbundles-overview).
 
 ## Delta time simulation
 
@@ -33,7 +33,7 @@ By treating non-local entities as kinematic, the local physics engine can focus 
 
 On each client, network synchronization is performed towards the end of each frame. During this phase, each client processes received network data and broadcasts updates from network events to other clients. Because physics is simulated locally, the only physics data sent and received between remote clients during network synchronization is velocity and position. This lowers the bandwidth used by clients when synchronizing the state of entities.
 
-For more information about networking, see the [Networking Model](/hw-docs/desktop-editor/networking-model) overview.
+For more information about networking, see the [Networking Model](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/networking-model) overview.
 
 ## Units
 
@@ -59,7 +59,7 @@ You can create objects with physical behavior in a world by using a physical ent
 * Physical effects, such as [spring physics](/hw-docs/Desktop%20editor/Physics%20Overview.md#spring_physics)
 * [Physics materials](/hw-docs/VR%20tools/SFX/Use%20physics%20and%20animation%20in%20Meta%20Horizon%20Worlds.md#physics-materials), which are a collection of physics settings that emulate real-world behaviors, such as a feather, ice, or a rubber ball.
 
-A physical entity is an [entity](/hw-docs/desktop-editor/reference/2.0.0/core_entity) with the following properties enabled in Desktop Editor:
+A physical entity is an [entity](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_entity) with the following properties enabled in Desktop Editor:
 
 * Motion: Interactive
 * Interaction: Physics or Physics and Grabbable
@@ -102,13 +102,13 @@ For more information about the properties of physical entities, see [Using physi
 
 The TypeScript API provides several world update events for applying movement and torque to players and physical entities at a specific phase of every frame.
 
-The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event allows you to register a callback to run on every frame before physics calculations are performed on entities. This event is typically used to move a player and then allow physics to respond to the movement.
+The [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onprephysicsupdate) event allows you to register a callback to run on every frame before physics calculations are performed on entities. This event is typically used to move a player and then allow physics to respond to the movement.
 
-The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) event allows you to register a callback to run on every frame after physics calculations are performed. This event is useful for moving entities on every frame or moving a player in response to physics.
+The [World.onUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onupdate) event allows you to register a callback to run on every frame after physics calculations are performed. This event is useful for moving entities on every frame or moving a player in response to physics.
 
 #### Spring physics
 
-You can use spring physics to apply the physical movement of a spring to an entity when you push it toward a location or spin it toward a rotation. For more information, see the [Spring Physics](/hw-docs/Scripting/API%20references%20and%20examples/Spring%20Physics.md) guide. To ensure continuous motion toward the specified target, the spring physics methods must be called within the [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) event so they are called on every frame.
+You can use spring physics to apply the physical movement of a spring to an entity when you push it toward a location or spin it toward a rotation. For more information, see the [Spring Physics](/hw-docs/Scripting/API%20references%20and%20examples/Spring%20Physics.md) guide. To ensure continuous motion toward the specified target, the spring physics methods must be called within the [World.onUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onupdate) event so they are called on every frame.
 
 ## Physics APIs
 
@@ -117,15 +117,15 @@ You can use spring physics to apply the physical movement of a spring to an enti
 * [PhysicalEntity.springSpinTowardRotation](/hw-docs/Reference/core/Classes/PhysicalEntity.md#springpushtowardposition) method
 * [ProjectileLauncherGizmo](/hw-docs/Reference/core/Classes/ProjectileLauncherGizmo.md) class
 * [RaycastGizmo](/hw-docs/Reference/core/Classes/RaycastGizmo.md) class
-* [AssetBundleGizmo](/hw-docs/Reference/unity_asset_bundles_assetbundlegizmo) class
-* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event
-* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event
+* [AssetBundleGizmo](https://developers.meta.com/horizon-worlds/reference/2.0.0/unity_asset_bundles_assetbundlegizmo) class
+* [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onprephysicsupdate) event
+* [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onprephysicsupdate) event
 
 ## Performance recommendations
 
 * World update events
 
-  + To stablize performance, distribute large physics operations across multiple frames using the The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) event.
+  + To stablize performance, distribute large physics operations across multiple frames using the The [World.onUpdate](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#onupdate) event.
 * Colliders and meshes
 
   + Optimize physics processing by disabling colliders while they are outside the gameplay area.
@@ -145,6 +145,6 @@ You can use spring physics to apply the physical movement of a spring to an enti
 
     Performance tools
 
-    and [Tracing](/hw-docs/desktop-editor/learn/documentation/performance-best-practices-and-tooling/performance-tools/tracing) guides.
+    and [Tracing](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/learn/documentation/performance-best-practices-and-tooling/performance-tools/tracing) guides.
 
 For details about physics recommendations, see [Physics best practices](/hw-docs/Performance/Performance%20best%20practices/Physics%20best%20practices.md).

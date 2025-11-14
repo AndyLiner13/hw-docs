@@ -7,7 +7,7 @@ The World Settings Modification feature in the Desktop Editor has the same capab
 ## Opening the world settings panel
 
 - Click the “Publish” button in the top right corner in the toolbar.
-- A modal dialog with all of the available world settings will appear. ![Screenshot shows the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/557410481_835743108963642_7769846685903609772_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=-_uusA56U5gQ7kNvwG9DLm6&_nc_oc=AdnG39L0W2PLD6tBz3VVvdiLeCYF2Ss6SIGdv7Ep8MXA0OmiAR6YE-O8-oRZT3oDHXg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2wed1FxZ5bnaD9C_J5G1JA&oh=00_AfiNRyXNGsjL1A_SzDaJwp3dhrdowcnzdMfSKLQDxmOBzQ&oe=692FB03D)
+- A modal dialog with all of the available world settings will appear. ![Screenshot shows the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/557410481_835743108963642_7769846685903609772_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=-_uusA56U5gQ7kNvwG9DLm6&_nc_oc=AdnG39L0W2PLD6tBz3VVvdiLeCYF2Ss6SIGdv7Ep8MXA0OmiAR6YE-O8-oRZT3oDHXg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=v99Wfq6ocPqG2JHoLdBxPg&oh=00_Afj5ttxTQWWb_0wwJ0In3gKfBKbOs5naO0vn-PoDFr-HdA&oe=6930C97D)
 
 ## Changing world settings
 
@@ -15,7 +15,7 @@ Open the **World Settings** panel to modify the settings you want to change. Set
 
 ### Essential
 
-* **Thumbnail:** An image representing your world. [Click here](/hw-docs/get-started/asset-thumbnail-creation-horizon) for more information on creating asset thumbnails.
+* **Thumbnail:** An image representing your world. [Click here](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/asset-thumbnail-creation-horizon) for more information on creating asset thumbnails.
 * **Title:** A name for your world.
 * **Description:** A short, punchy description of what makes your world special.
 * **Age rating:** Select the minimum recommended age for players to access your world. This will guide you through a few questions to determine the appropriate age rating.
@@ -43,7 +43,7 @@ When you’re done, click **Publish** to save and publish your world.
 - Open the **World Settings** panel to modify the settings you want to change.
 - Click **Publish** when finished. The settings you modified will be saved and your world will be published.
 
-![Screenshot shows the desktop editor](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/558262644_835743072296979_2532819356992864743_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=AYINuMrZf0gQ7kNvwFbrUUI&_nc_oc=AdkLCx9nYlhYQ1JMS5Itwzh_accKjm724nJusDx4qbXwfghSenaXlDaJrE8e4M9O30o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=2wed1FxZ5bnaD9C_J5G1JA&oh=00_AfgG3u8K-t7cwCN1L_s-YB1-EfF-1fkAoP71jQLgzKGD7A&oe=692F9638)
+![Screenshot shows the desktop editor](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/558262644_835743072296979_2532819356992864743_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=AYINuMrZf0gQ7kNvwFbrUUI&_nc_oc=AdkLCx9nYlhYQ1JMS5Itwzh_accKjm724nJusDx4qbXwfghSenaXlDaJrE8e4M9O30o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=v99Wfq6ocPqG2JHoLdBxPg&oh=00_Afi4ymxpR1WJmk5xiYkrWDjT1nIV509IRo6KhwG6PK8Fig&oe=6930AF78)
 
 ## Unpublishing a world
 
@@ -51,4 +51,4 @@ When you’re done, click **Publish** to save and publish your world.
 - If a world has been published, then an **Unpublish** button will be displayed near the bottom right corner of the panel.
 - Click **Unpublish**. After a short delay, the world will be removed and unpublished.
 
-![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558674557_835743085630311_2304403895309760439_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=vFjLVJ5eaIoQ7kNvwGYHvec&_nc_oc=AdlCWP8ELmmPsZM6mHILXOxO7yC6slJgXh0zrb3KPn4b_f96Q69C-e0NmRMgZ7Brbv8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2wed1FxZ5bnaD9C_J5G1JA&oh=00_AfgqUS5vd7EIVlwrMFHjrJbzYfZ2CvG7SAUKxnMFJ7WNtg&oe=692FCC35)
+![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558674557_835743085630311_2304403895309760439_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=vFjLVJ5eaIoQ7kNvwGYHvec&_nc_oc=AdlCWP8ELmmPsZM6mHILXOxO7yC6slJgXh0zrb3KPn4b_f96Q69C-e0NmRMgZ7Brbv8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=v99Wfq6ocPqG2JHoLdBxPg&oh=00_Afj9Z8AxICtXkJ_WkDDVeOUdWCmsWpxDpNU1Y4CP0T1sMA&oe=6930AD35)

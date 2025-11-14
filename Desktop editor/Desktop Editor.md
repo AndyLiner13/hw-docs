@@ -6,16 +6,16 @@ The desktop editor for Meta Horizon Worlds enables you to create and modify worl
 
 This section contains the following topics:
 
-* [Get started with Desktop Editor](/hw-docs/desktop-editor/getting-started/)
-* [Assets](/hw-docs/desktop-editor/assets/)
-* [Hiearchy window](/hw-docs/desktop-editor/hierarchy-window/)
-* [Generative AI tools](/hw-docs/desktop-editor/generative-ai-creation-tools/)
+* [Get started with Desktop Editor](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/)
+* [Assets](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/)
+* [Hiearchy window](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/hierarchy-window/)
+* [Generative AI tools](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/)
 * [Quests, leaderboards, and variable groups](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
-* [Objects](/hw-docs/desktop-editor/objects/)
-* [Settings](/hw-docs/desktop-editor/settings-modifications/)
-* [Help and reference](/hw-docs/desktop-editor/help-and-reference/)
-* [Custom UI](/hw-docs/desktop-editor/custom-ui/)
-* [NPCs](/hw-docs/desktop-editor/npcs/)
+* [Objects](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/)
+* [Settings](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/)
+* [Help and reference](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/)
+* [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/)
+* [NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/)
 
 Important
 

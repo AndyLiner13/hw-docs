@@ -42,7 +42,7 @@ For more information on the world leaderboard gizmo properties, see the [MHCP cr
 
 ## Scripting
 
-To set up the script that updates leaderboard results for players in the world, use [ILeaderboards interface](/hw-docs/Reference/core/Interfaces/ILeaderboards.md), which is part of the [World class](/hw-docs/Reference/core/Classes/World.md).
+To set up the script that updates leaderboard results for players in the world, use [ILeaderboards interface](/hw-docs/Reference/core/Interfaces/ILeaderboards.md), which is part of the [World class](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world).
 
 ## What’s next?
 
@@ -54,5 +54,5 @@ Now that you’ve been introduced to the world leaderboards gizmo, continue your
 * [Tutorial worlds on variable groups and persistent variables](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%201%20-%20Setup.md)
 * [Tutorial worlds on persistent variables](/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%207%20-%20Persistent%20Variables.md)
 * [Quests, leaderboards, and variable groups](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
-* [Using in-world analytics](/hw-docs/performance-best-practices-and-tooling/analytics/using-in-world-analytics#levelup)
+* [Using in-world analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics#levelup)
 * [Meta Horizon Worlds: kudos panel instructions](/hw-docs/MHCP%20program/Monetization/Meta%20Horizon%20Worlds-%20Kudos%20Panel%20Instructions.md)

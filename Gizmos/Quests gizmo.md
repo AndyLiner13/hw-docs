@@ -40,7 +40,7 @@ To set up the script that updates quests results for players in the world, use t
 
 To display player achievements, use the `displayAchievements` method in the [AchievementGizmo](/hw-docs/Reference/core/Classes/AchievementsGizmo.md) class.
 
-To set and query if an achievement is complete, use the `setAchievementComplete` and `hasCompletedAchievement` methods in the [Player](/hw-docs/Reference/core/Classes/Player.md) class.
+To set and query if an achievement is complete, use the `setAchievementComplete` and `hasCompletedAchievement` methods in the [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player) class.
 
 Additionally, built-in [`CodeBlockEvents`](/hw-docs/Reference/core/Variables/CodeBlockEvents.md) are available to listen for events such as when an achievement has been completed: `OnAchievementComplete`.
 
@@ -53,4 +53,4 @@ Now that you’ve been introduced to the quests gizmo, continue your learning wi
 * [Tutorial worlds on persistent variables](/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%207%20-%20Persistent%20Variables.md)
 * [Meta Horizon Creator Program’s creator manual on the quests gizmo](https://my-od.developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/quest-gizmo)
 * [Quests, leaderboards, and variable groups](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
-* [Writing for localization on providing description of the quest](/hw-docs/save-optimize-and-publish/internationalization/writing-for-localization)
+* [Writing for localization on providing description of the quest](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/internationalization/writing-for-localization)

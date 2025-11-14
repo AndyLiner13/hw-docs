@@ -14,11 +14,11 @@ Learn how to [report someone](https://www.meta.com/help/quest/articles/horizon/s
 
 ## Receiving reports
 
-Members of a members-only world can file reports that go directly to creators and admins for violations of the creator’s [world-specific rules](/hw-docs/get-started/set-up-members-only-world) and for some violations of the CCVE. Reports for other violations will go directly to Meta. The reporting flow will indicate whether Meta or the creator and admin will receive the report. Unresolved member reports sent to a creator and admin of a members-only world will trigger Meta’s Community Management Support process.
+Members of a members-only world can file reports that go directly to creators and admins for violations of the creator’s [world-specific rules](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/set-up-members-only-world) and for some violations of the CCVE. Reports for other violations will go directly to Meta. The reporting flow will indicate whether Meta or the creator and admin will receive the report. Unresolved member reports sent to a creator and admin of a members-only world will trigger Meta’s Community Management Support process.
 
 When a world member reports an incident that goes to the creator and admin, the creator and admin have 7 days to resolve and close the report. If the report is not closed within 7 days, the creator and admin receive a warning to resolve the report.
 
-If the report is still unresolved 14 days from the date when the report was first filed, the members-only world will become hidden (this only applies to [visible members-only worlds](/hw-docs/get-started/set-up-members-only-world)). Each subsequent 72-hour period that the report remains unresolved will result in additional enforcement measures, up to requiring presence of an admin in the world, preventing new members from being added, and permanently unpublishing the world. However, once the report is closed, prior measures taken will incrementally lift in 3-day increments.
+If the report is still unresolved 14 days from the date when the report was first filed, the members-only world will become hidden (this only applies to [visible members-only worlds](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/set-up-members-only-world)). Each subsequent 72-hour period that the report remains unresolved will result in additional enforcement measures, up to requiring presence of an admin in the world, preventing new members from being added, and permanently unpublishing the world. However, once the report is closed, prior measures taken will incrementally lift in 3-day increments.
 
 **Note**: Meta will still respond to a select set of reported violations to help ensure world safety.
 

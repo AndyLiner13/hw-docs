@@ -6,7 +6,7 @@ Voice-over is an excellent means of enhancing the NPCs of your worlds into being
 
 ## Record and import audio
 
-Audio can be recorded outside of Meta Horizon Worlds in the prescribed format(s). Through the desktop editor, you can then import audio files into your Asset Library. For more information, see [Meta Horizon Worlds Audio Ingestion](/hw-docs/sounds-physics-and-automation/horizon-worlds-audio-ingestion).
+Audio can be recorded outside of Meta Horizon Worlds in the prescribed format(s). Through the desktop editor, you can then import audio files into your Asset Library. For more information, see [Meta Horizon Worlds Audio Ingestion](https://developers.meta.com/horizon-worlds/learn/documentation/sounds-physics-and-automation/horizon-worlds-audio-ingestion).
 
 ## Set up audio assets
 
@@ -95,7 +95,7 @@ Through the desktop editor, you can add sound effects in multiple ways:
 - In the menubar, select **Build menu > Sounds**. Search and explore assets. Drag in an asset into the world. In the Properties panel, click **Play** to preview the asset.
 - Use the desktop editor’s integrated Generative AI tools. In the menubar, click **GenAI**.
 
-![Image of GenAI panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488258850_686408213897133_9130477228299144595_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=e2NecmftzE8Q7kNvwG3puXs&_nc_oc=AdlS7DDP-jHQImJNPPd3mN5sUcVYmTQpOiN5ffifHGdaJ0altJXRZVPcaD5zgW87_rc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ae8oUKs263iRnXWpOF1rEQ&oh=00_AfhomjxE4BttQq0YohTfmJm9OoMcd0TJ9iQtB3a2cHB33w&oe=692FC9D6)
+![Image of GenAI panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488258850_686408213897133_9130477228299144595_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=e2NecmftzE8Q7kNvwG3puXs&_nc_oc=AdlS7DDP-jHQImJNPPd3mN5sUcVYmTQpOiN5ffifHGdaJ0altJXRZVPcaD5zgW87_rc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1hO5bkp_P7jE4dQGrUjL3A&oh=00_AfiwGXo7UNiSCn4geIJy0NC3Sv1f-Ns4Y-bZvX4Wlan-Ew&oe=6930AAD6)
 
 **Note**: At this time, this feature is in Beta release.
 

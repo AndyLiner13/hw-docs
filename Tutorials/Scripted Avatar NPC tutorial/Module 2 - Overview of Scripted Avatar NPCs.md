@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Scripted Avatar NPCs can add life to your worlds! These characters are easy to design and deploy, and their behaviors can be scripted through TypeScript. This example world includes two example NPCs, including the code necessary to drive the following features.
 
-For more information on the feature, see [Getting Started with Scripted Avatar NPCs](/hw-docs/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs).
+For more information on the feature, see [Getting Started with Scripted Avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs).
 
 ## Visual Design
 
@@ -15,7 +15,7 @@ Creating and revising the visual design of your NPC is easy through the web inte
 * Position the gizmo in the desired location within your world.
 * Select the gizmo. In the Properties panel, click **Edit avatar**.
 
-![Image of the Village Elder NPC in Edit Mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480333795_656120583592563_4422663695424655297_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yq1PvWLg46UQ7kNvwF8NdV5&_nc_oc=AdnX9Xk1GEA8Duh23y91gyTTunenEpotYaXb2koif-yZfS_WSbQLgmXKvumf1dthzGM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cM4oluu9td0acomhC7EJYg&oh=00_AfgUt0O2zbL2T3E8Ucq0BgMPEQzwmG9w3odvBYKNmDnVTA&oe=692FCC4D)
+![Image of the Village Elder NPC in Edit Mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480333795_656120583592563_4422663695424655297_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yq1PvWLg46UQ7kNvwF8NdV5&_nc_oc=AdnX9Xk1GEA8Duh23y91gyTTunenEpotYaXb2koif-yZfS_WSbQLgmXKvumf1dthzGM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=eA9zdwf-GdgY0h4IsZ_HZg&oh=00_Afg8m5nLBKFgg5Ra1hHowHcUuKMsOkkQocwOLLjBr1W4Kg&oe=6930AD4D)
 
 **Tips**:
 
@@ -31,7 +31,7 @@ When you have finished designing your character:
 * Click **Done editing**.
 * Back in the Desktop Editor, click the **Refresh button** in the Properties panel to refresh the instances from your web-based design.
 
-For more information, see [Edit Scripted Avatar NPC Appearance](/hw-docs/desktop-editor/npcs/scripted-avatar-npcs/edit-scripted-avatar-npc-appearance).
+For more information, see [Edit Scripted Avatar NPC Appearance](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/edit-scripted-avatar-npc-appearance).
 
 ## TypeScript Features
 
@@ -135,7 +135,7 @@ this.navMesh = navMesh;
 
 Locomotion along the navmesh is handled through a set of methods on the `locomotion` property. For more information, see [Module 3 - NPC Manager](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).
 
-For more information on NavMesh, see [Setting up NPCs with Navigation](/hw-docs/desktop-editor/npcs/setting-up-npcs-with-navigation).
+For more information on NavMesh, see [Setting up NPCs with Navigation](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/setting-up-npcs-with-navigation).
 
 ### Grabbing
 
@@ -143,7 +143,7 @@ As needed, NPCs can be configured to grab objects that are set to be grabbable.
 
 **Note**: For an entity to be grabbable, you must configure a set of properties on the entity.
 
-For more information on configuring entities to be grabbable by avatar NPCs, see [Grabbing for Scripted Avatar NPCs](/hw-docs/desktop-editor/npcs/scripted-avatar-npcs/grabbing-for-scripted-avatar-npcs).
+For more information on configuring entities to be grabbable by avatar NPCs, see [Grabbing for Scripted Avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/grabbing-for-scripted-avatar-npcs).
 
 **Usage**:
 

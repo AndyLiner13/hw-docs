@@ -10,7 +10,7 @@ In order to publish a world, you’ll need to provide pertinent information such
 - Open the Creator Menu.
 - Tap the **Publish** icon in the dock.
 - Enter your information into the **Publish World** window, including:
-  ![Screenshot shows the desktop editor window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/464911860_578674298003859_6982466518147434724_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=AXykvacVJKoQ7kNvwHjODlU&_nc_oc=Adkik5sWm4m5HgXqolNX4KkGNeKglVCbshqFBFZcDrGDHhN78UmSFZOH_KyW1ji7WnE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=nOj6BwaeLRu0JilA4jfC-w&oh=00_AfiIBJ4Ahnz1al7M2-s8FgdZ_0PUBLjb7Dd_6jZ7923nKQ&oe=692FA0F6)
+  ![Screenshot shows the desktop editor window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/464911860_578674298003859_6982466518147434724_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=5XX8GspfbRMQ7kNvwFODWtw&_nc_oc=AdldpZbjTSk7N9q6p7G9Fe3E-QnPngv_LMsz_MQRrOXSdFsSczvVf9xwX81z8Cp3bAk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=qi0p79kkFEnLR5lLhp5mQw&oh=00_Afg74-bTaBifaErBSPREYkhGsWFSC-QI96X2D_859vLbQA&oe=6930BA36)
 - **Name:** Enter a name for your world.
 - **Description:** Provide a short, punchy description of what makes your world special.
 - **World Rating:** Click on the ‘Get rating’ button to take a survey to determine your world rating. For more information on world ratings, [click here.](/hw-docs/MHCP%20program/FAQ/World%20Ratings%20FAQs.md)
@@ -19,7 +19,7 @@ In order to publish a world, you’ll need to provide pertinent information such
 - **Mute Assist:** While on, all in-world audio will be reviewed for loud noises, profanity and other offensive language; players wil be alerted to any offending incidents in order to mute these offenders quickly and easily.
   - Mute assist is turned on by default for all ages 10+ and ages 13+ rated worlds.
   - Learn more about mute assist in the [Manage your microphone and mute settings in Meta Horizon Worlds](https://www.meta.com/help/quest/articles/horizon/safety-and-privacy-in-horizon-worlds/mute-mic-horizon/) docs.
-- **Thumbnail:** Add an image representing your world. [Click here](/hw-docs/get-started/asset-thumbnail-creation-horizon) for more information on creating asset thumbnails.
+- **Thumbnail:** Add an image representing your world. [Click here](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/asset-thumbnail-creation-horizon) for more information on creating asset thumbnails.
 - **Visible to Public:** While on, this world will show up in searches and has the potential to be featured. Note that anyone in Worlds will be able to search for and enter your published world while this toggle is on.
 - **Members Only:** While on, only memebers of a world will be able to access it. Note that this option can not be changed once it has been set.
 - **Beta World:** While on, the published world will be noted as being ‘in development.’

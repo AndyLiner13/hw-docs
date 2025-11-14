@@ -146,13 +146,13 @@ In the core loop, the event might be a disruptive ad or a poor roll on a paid it
 
 In addition to testing and using [performance tools](/hw-docs/Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md), you can measure the effectiveness of your gameplay loops by using gameplay metrics provided by the In-World Analytics framework.
 
-The In-World Analytics framework provides scripts and APIs for capturing metrics that provide insight into the effectiveness of your gameplay loops. The framework includes the following [modules](/hw-docs/performance-best-practices-and-tooling/analytics/using-in-world-analytics#in-world-analytics-modules) for capturing progression, rewards, gameplay actions, and friction events directly from your scripts.
+The In-World Analytics framework provides scripts and APIs for capturing metrics that provide insight into the effectiveness of your gameplay loops. The framework includes the following [modules](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics#in-world-analytics-modules) for capturing progression, rewards, gameplay actions, and friction events directly from your scripts.
 
 * Loops and steps modules: Rounds, Stages, Sections
 * Progression modules: Rewards, LevelUp, Tasks
 * Friction modules: Friction, Death, KOEnemy, KOPlayer
 
-For more information, see [Using In-World Analytics](/hw-docs/performance-best-practices-and-tooling/analytics/using-in-world-analytics).
+For more information, see [Using In-World Analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics).
 
 ## Frame and script integration
 
@@ -163,4 +163,4 @@ For information about how scripts execute and how to integrate a sequence of eve
 ## Additional information
 
 * [Q&A Session: Gameplay Loops](/hw-docs/MHCP%20program/Q&A%20sessions/Q&A%20Session-%20Gameplay%20Loops%20with%20Victor%20Riddel.md)
-* [Q&A Session: New User Experience](/hw-docs/mhcp-program/community-tutorials/new-user-experience)
+* [Q&A Session: New User Experience](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/new-user-experience)

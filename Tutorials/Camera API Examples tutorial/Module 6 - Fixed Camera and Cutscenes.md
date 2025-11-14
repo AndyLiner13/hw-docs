@@ -6,7 +6,7 @@ You can inject a cutscene into your world experience using transitions of a fixe
 
 In the final station of this tutorial is a magic green button.
 
-![Button in the world to activate the cutscene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/472790526_632772169260738_7344563092973262743_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=AUDUj7TRuT8Q7kNvwG7F08C&_nc_oc=AdnVw0NVUOPk3pCW9RKvyKkymqWq3_F8vkyBROTt8vDZZfNObXmNQftIkh1M0Tx5Fp4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DMq6KSzhm1IpD8rR1CsXXA&oh=00_AfgDMuwh8GSeeKT_GddV2EfgZvSXMXq7YgBvxpjAvFXdyw&oe=692FC533)
+![Button in the world to activate the cutscene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/472790526_632772169260738_7344563092973262743_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=AUDUj7TRuT8Q7kNvwG7F08C&_nc_oc=AdnVw0NVUOPk3pCW9RKvyKkymqWq3_F8vkyBROTt8vDZZfNObXmNQftIkh1M0Tx5Fp4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=y0hcUlxA1p4xzOGSIB8f3g&oh=00_Afi0f8qqWmFfo7lEQFtTE7Lk2vv8sd9Dy9n6Ya6cfbHR8w&oe=6930A633)
 
 When this button is pressed:
 
@@ -131,7 +131,7 @@ moveDuration: {type: hz.PropTypes.Number, default: 5},
 robot: {type: hz.PropTypes.Entity},
 ```
 
-**Tip**: You can modify the robot animation to use different emotes. Change the value of the parameter for `setAnimationParameterTrigger()` to experiment. For more information on available emotes, see [NPC Scripts](/hw-docs/desktop-editor/npcs/npc-scripts).
+**Tip**: You can modify the robot animation to use different emotes. Change the value of the parameter for `setAnimationParameterTrigger()` to experiment. For more information on available emotes, see [NPC Scripts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-scripts).
 
 **Tip**: You can build even more complex sequences in this location, inserting different NPCs at this location. For more information, see [NPCs](/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md).
 

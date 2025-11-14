@@ -12,7 +12,7 @@ To acquire a list of the camera managers in the world, we can use tags. You can 
 
 For each of your Camera Manager entities in the world, please verify that you have added the CameraManager gameplay tag on its Properties panel:
 
-![Screenshot of Properties panel for CameraManager entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489925046_692135336657754_9131683567393662516_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=tXctsTCq_q0Q7kNvwHjD89y&_nc_oc=AdmnlnndQWYoWJV259n4Ksg0Ch9vqb4mua1wkcEaJEUdtRKFbebKHTP9400wN_F7VNc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=IND8e8eUom6yFVENpOEWAQ&oh=00_AfjqHxbxcQa1nhpNOGgoQgDLDRk6D3vy6XnaGje9op-Baw&oe=692FA7CA)
+![Screenshot of Properties panel for CameraManager entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489925046_692135336657754_9131683567393662516_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=tXctsTCq_q0Q7kNvwHjD89y&_nc_oc=AdmnlnndQWYoWJV259n4Ksg0Ch9vqb4mua1wkcEaJEUdtRKFbebKHTP9400wN_F7VNc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=J_bGffQqmXrNbpurZ0fuPA&oh=00_Afgq0WwIMKDaZ1IurOU_DCxkGhKuVkDZwoDm9T_md00Wrw&oe=6930C10A)
 
 Find the following TODO in the sysPlayerManager script:
 
@@ -159,7 +159,7 @@ These components lay the foundation for the next modules, where we start buildin
 #### Docs:
 
 * [Using the Camera API for Web and Mobile](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
-* [How to set the player’s camera](/hw-docs/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
+* [How to set the player’s camera](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
 * [Local Script for Mobile and Web](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
 
 #### API references:

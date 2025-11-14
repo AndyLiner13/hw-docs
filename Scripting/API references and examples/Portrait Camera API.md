@@ -20,15 +20,15 @@ To use the Portrait Camera API, you need:
 
 ## Enabling the API
 
-- Open the **Scripts panel** in the desktop editor. !['Menu bar script button](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/555073546_835743082296978_4049885224438889596_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=HynsT0esAxsQ7kNvwEL1QvE&_nc_oc=Adl_aDc7xRLDHT5-G7iavZhPAEKO87hwf8ZR_G94IepXE6WI5CrVwONmN27hFs911tY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VByVSMeVM2i6FtWCOaW_hw&oh=00_AfiWnmXY4cwUJIgYPTcMCZsXOnbFtqkCFIt3OB3hka8fzQ&oe=692FCDB8)
-- Click the gear icon to open Script Settings. !['Script button dropdown gear icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558820269_835743088963644_8046250276998552311_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=n3PNFDO7bCkQ7kNvwGi29Rf&_nc_oc=Adn01CwRomVD3kHXPc8lEOR-FIxdDucQ5xvQJCH8ScP4VJbcmWUUCZjPqVcmVslRU7g&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=VByVSMeVM2i6FtWCOaW_hw&oh=00_AfgG7_CqYgxeMS6daobBIBCEsyM0NLUMkpcz0JDVzOxbNg&oe=692FCC3C)
-- Click on **API** on the left side of the settings. !['Script settings API tab](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558832699_835743095630310_3754706073599624222_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=naGbXa-_WCgQ7kNvwEiiuZ_&_nc_oc=AdlQv0ta7zP-InYUMmjHjVR2qPACEU4p_hZjMrhxZBvz4GvyTT9tXkU2I0CjUwOo7tE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VByVSMeVM2i6FtWCOaW_hw&oh=00_Afi1sYXF8xwLxwppGOUs1K160vcCecY24cKSXHf0IIbySQ&oe=692FA063)
-- Enable **horizon/portrait\_camera**. !['Script settings toggle horizon/portrait_cameras](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558696010_835743078963645_3222124908869930014_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=M4Dfgc18Kt8Q7kNvwHv5QD1&_nc_oc=AdkUAf7lYaedYc8rJJnjEuNtQu58THBts5XAfrcuBfued5vQWo9IPflGi_-YkILibow&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VByVSMeVM2i6FtWCOaW_hw&oh=00_AfgGXCNn727p3P-wSgZb_ZkfUHaOjRsK8zoh8Xq7725BNg&oe=692FB8D3)
-- Click **Apply** to save the changes. !['Script settings toggle horizon/portrait_cameras](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558905396_835743092296977_6218382442484754449_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=x8DXiKHf51oQ7kNvwHuSH_T&_nc_oc=Adkp0zQBz2QggEVLDKBAgBnuq8JWXKMS-Y2XlXHRN7TdkQxpZ0d5qE0e2_YMmHpf-aQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=VByVSMeVM2i6FtWCOaW_hw&oh=00_Afhh948AJwfuTuYfRH3Sejdk2u4GVubotI9SkXCBYtEiUg&oe=692F983C)
+- Open the **Scripts panel** in the desktop editor. !['Menu bar script button](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/555073546_835743082296978_4049885224438889596_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=HynsT0esAxsQ7kNvwEL1QvE&_nc_oc=Adl_aDc7xRLDHT5-G7iavZhPAEKO87hwf8ZR_G94IepXE6WI5CrVwONmN27hFs911tY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=IVH120nRNmUdDUmUJNQbgw&oh=00_Afj4dGQiUILY0_TP2rgBU-Pa3vCP-pDCIiOy-glh2exOcA&oe=6930AEB8)
+- Click the gear icon to open Script Settings. !['Script button dropdown gear icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558820269_835743088963644_8046250276998552311_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=XwfsCV9PcA8Q7kNvwEJcxg7&_nc_oc=AdkM5iJIg59mE5yf8fCAeeuCnMfgb9EyhALrX3cbkO3ytx8qTGJ8nlGegOwydbO2OIU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=IVH120nRNmUdDUmUJNQbgw&oh=00_AfjIzcLmWyFb8cZrYXupN3MXiUbXzM-3oDZOFU9wb_G_gA&oe=6930AD3C)
+- Click on **API** on the left side of the settings. !['Script settings API tab](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558832699_835743095630310_3754706073599624222_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=naGbXa-_WCgQ7kNvwEiiuZ_&_nc_oc=AdlQv0ta7zP-InYUMmjHjVR2qPACEU4p_hZjMrhxZBvz4GvyTT9tXkU2I0CjUwOo7tE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=IVH120nRNmUdDUmUJNQbgw&oh=00_AfjPEoJiNySjY7x-D-4npXvRZM5Y7XN3EagF2FcJ-dMmcQ&oe=6930B9A3)
+- Enable **horizon/portrait\_camera**. !['Script settings toggle horizon/portrait_cameras](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558696010_835743078963645_3222124908869930014_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=M4Dfgc18Kt8Q7kNvwHv5QD1&_nc_oc=AdkUAf7lYaedYc8rJJnjEuNtQu58THBts5XAfrcuBfued5vQWo9IPflGi_-YkILibow&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=IVH120nRNmUdDUmUJNQbgw&oh=00_AfhMYZbdD40-vviTAyI1M5KLNdHzls6h1X2Neemy4IG8Dw&oe=693099D3)
+- Click **Apply** to save the changes. !['Script settings toggle horizon/portrait_cameras](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558905396_835743092296977_6218382442484754449_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=x8DXiKHf51oQ7kNvwHuSH_T&_nc_oc=Adkp0zQBz2QggEVLDKBAgBnuq8JWXKMS-Y2XlXHRN7TdkQxpZ0d5qE0e2_YMmHpf-aQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=IVH120nRNmUdDUmUJNQbgw&oh=00_Afgppg5ROmX_NWSKhVLCIf10jKaB4sYrypO66QEd_tLBdw&oe=6930B17C)
 
 ## API reference
 
-The [`PortraitCamera`](/hw-docs/Reference/portrait_camera_portraitcamera) class extends the standard [`Camera`](/hw-docs/Reference/camera/Classes/Camera.md) class with orientation detection capabilities.
+The [`PortraitCamera`](https://developers.meta.com/horizon-worlds/reference/2.0.0/portrait_camera_portraitcamera) class extends the standard [`Camera`](/hw-docs/Reference/camera/Classes/Camera.md) class with orientation detection capabilities.
 
 ### Properties
 
@@ -38,7 +38,7 @@ The [`PortraitCamera`](/hw-docs/Reference/portrait_camera_portraitcamera) class 
 
 ### Methods
 
-The [`PortraitCamera`](/hw-docs/Reference/portrait_camera_portraitcamera) class inherits all methods from the standard [`Camera`](/hw-docs/Reference/camera/Classes/Camera.md) class and can be used as a drop-in replacement with additional orientation capabilities.
+The [`PortraitCamera`](https://developers.meta.com/horizon-worlds/reference/2.0.0/portrait_camera_portraitcamera) class inherits all methods from the standard [`Camera`](/hw-docs/Reference/camera/Classes/Camera.md) class and can be used as a drop-in replacement with additional orientation capabilities.
 
 ### Usage example: basic orientation detection
 

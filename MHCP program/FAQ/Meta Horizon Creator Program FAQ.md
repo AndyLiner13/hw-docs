@@ -55,7 +55,7 @@ In addition to meeting the eligibility guidelines to join the Meta Horizon Creat
 * Be actively editing, testing, and/or have published at least 1 world on Meta Horizon and have at least 400 monthly active users in 1 world in the past 30 days; and/or
 * Have published at least 1 equivalent mobile game or metaverse experience on a platform such as Roblox, VR Chat, or Fortnite, and have at least 400 monthly active users in 1 world
 
-You can learn more about becoming a partner [here](/hw-docs/mhcp-program/mhcp-partner-overview).
+You can learn more about becoming a partner [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/mhcp-partner-overview).
 
 **I applied to become a partner but haven’t heard back yet. When will I be notified?**
 

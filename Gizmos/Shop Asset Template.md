@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Shop Asset Template
 
-![Shop Asset Template](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/504085884_734185555786065_4230548913834177985_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=kMptQvPWv78Q7kNvwGLs4rz&_nc_oc=AdmA5Q4uQF3q9wyOrPwfgGvUQCeeIIQ4e_hnm2b0oiezLNRqhu19gzuR8xI2iySfjHc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=umtqjIKX7rHlROlTyKyIpg&oh=00_AfihGmWsDBlaB00dix82Mp-CJ8LXw0btawfRi_amzcQUKQ&oe=692F97D2)
+![Shop Asset Template](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/504085884_734185555786065_4230548913834177985_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=kMptQvPWv78Q7kNvwGLs4rz&_nc_oc=AdmA5Q4uQF3q9wyOrPwfgGvUQCeeIIQ4e_hnm2b0oiezLNRqhu19gzuR8xI2iySfjHc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=orHbRO8Pk0_IrHdNAKM4sQ&oh=00_AfhlopXh7iorWX4OKVJZtAOLATuwYOnsKj1cBCp8XFlpzw&oe=6930B112)
 
 Note
 
@@ -18,7 +18,7 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Shop Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Shop” in the search field. Finally, select the Shop Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Shop Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/503737348_734185559119398_8977711842245773395_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=DSFH-OKdCgEQ7kNvwGzWuK-&_nc_oc=AdmVt_fhKppyDr0Z4q5ligfKRfOOn8zYa5194kARidR1tJACLhepPUUUP9GbTeeeDgA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=umtqjIKX7rHlROlTyKyIpg&oh=00_AfhsvLdsZTLyrp2hURMw1FzUwLsqhGk13Pkk47pT23omsA&oe=692FBD91)
+![Finding the Shop Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/503737348_734185559119398_8977711842245773395_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=MmK8JL3YRYkQ7kNvwFWhubm&_nc_oc=AdnhFT657-mgzeriiLo_rgRw8F4F6Omm-mjJaQHrGVO6BA9nIEqRuDzFAGYTsv2ZWkI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=orHbRO8Pk0_IrHdNAKM4sQ&oh=00_Afg4Sd253pExqdi5b965WPe7EmgD8Hb-8Nz7XnU3gzQrwA&oe=69309E91)
 
 ## Shop Asset Template properties
 
@@ -53,4 +53,4 @@ For example, let’s say a world features two in-world items, “Apple Pies” a
 
 ## Scripting
 
-You can interface with the Shop Asset Template directly through TypeScript and fully customize the shop’s behavior. Please refer to the [World Inventory TypeScript APIs](/hw-docs/Reference/experimental_worldinventory) documentation for more information on the economy APIs.
+You can interface with the Shop Asset Template directly through TypeScript and fully customize the shop’s behavior. Please refer to the [World Inventory TypeScript APIs](https://developers.meta.com/horizon-worlds/reference/2.0.0/experimental_worldinventory) documentation for more information on the economy APIs.

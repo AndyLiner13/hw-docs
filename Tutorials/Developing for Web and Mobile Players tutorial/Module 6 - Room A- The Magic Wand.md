@@ -19,7 +19,7 @@ The Camera API supports several camera modes that you can switch between at runt
 
 ### Switch to First Person Camera
 
-![Screenshot of doorway through which the camera switches to third-person point of view](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653564_512509401287016_3625232458578274519_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=GCqW7ZGNZEAQ7kNvwHP4bE9&_nc_oc=AdmdsACVia6MrVnQbHzCCOpxUKOfjODTfxjtSW94Nwn-G7EOOYo00W-sm0uqQvJ0j1s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfhFAb-7A701YRXdTN01CrJZ0D3Eu4raga3w84bP_u0SMg&oe=692FA8B5)
+![Screenshot of doorway through which the camera switches to third-person point of view](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653564_512509401287016_3625232458578274519_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=WRJg3SOAYeoQ7kNvwF7xxNm&_nc_oc=AdlYUcBqFghVA0z-LuwerEsrZ2MYcaXXdbDQKJ_Xtcbb1N9AZsjWQa0-iKkD5q1QK5A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_AfgcPn9-5NViA2wQtBHO-ebdZSrYavSt8q_Z3bAlkdQHUw&oe=6930C1F5)
 
 This room features a number of tight corridor spaces, where third-person camera perspective (as shown above) won’t work. In tighter spaces, the camera should be first-person, so that the player can follow the direction of movement and avoid occlusions caused by sharp corners.
 
@@ -66,19 +66,19 @@ Now we must attach this script to the trigger object.
 
 The panel should look like the following:
 
-![Screenshot of script attached to the trigger zone with cameraMode set to FirstPerson](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489785361_692135396657748_6759029060333216151_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=3_hlT2SuwQ0Q7kNvwF1d1TU&_nc_oc=AdnPhpgwvU1w4eymMfL0tqa2jh0n-6xMWU2kiu0zg1h62ddTAwdzB9ip3IbOhcVtQV4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfhuOsk0jmOLLyVa8zYPPQNo9-3HAKxHl8_oHonQdHdeYA&oe=692FAE31)
+![Screenshot of script attached to the trigger zone with cameraMode set to FirstPerson](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489785361_692135396657748_6759029060333216151_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=D5wLvFFj3C8Q7kNvwFMGxT2&_nc_oc=Adk7Z4HPbbuFKwBiuRE1NNqV6VegJMz7-W-158-FOeOUy0UOA-uzHzAwQBKcLd74zzg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_AfjXeDSIaGquEzOii3o6ObT4iYq-KGGTR-d29YW-9fjeEw&oe=6930C771)
 
 ### Disable camera collisions
 
 In the next area of the room, we must disable camera collision where you find multiple columns that can interfere.
 
-![Screenshot of area in the desktop editor where camera collisions are disabled due to narrow passsageways](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452968585_512509391287017_7589049499708338441_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=I3oK3dfnzlgQ7kNvwGmav2V&_nc_oc=AdmRfHJBk9wu4JuLPW26NnD4hpnccYlkRaqOdIcW0I3Z5gRIwfhrTTQ_jXCfI8jXMOc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfhlaX4K9lO4GyLwed8VoNuf_7r0hXem8k6wknkkjTtBtg&oe=692FA877)
+![Screenshot of area in the desktop editor where camera collisions are disabled due to narrow passsageways](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452968585_512509391287017_7589049499708338441_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=I3oK3dfnzlgQ7kNvwGmav2V&_nc_oc=AdmRfHJBk9wu4JuLPW26NnD4hpnccYlkRaqOdIcW0I3Z5gRIwfhrTTQ_jXCfI8jXMOc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_AfhF4-VpUT6eK0grwVNgsVvxHu2Zz_j-keLClsQxc8O6Vg&oe=6930C1B7)
 
 ##### Trigger Object
 
 In the room, locate the Trigger Zone entity TriggerCameraCollision. This entity covers the area where we want camera collision to be disabled: (the entire area with the columns). Below, the Trigger Zone has been selected in the Hierarchy panel of the desktop editor:
 
-![Screenshot of the trigger zone in the desktop editor, which triggers activation and de-activation of camera collisions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452970869_512509394620350_8496384459627415358_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6GS7-SPeiiYQ7kNvwECkiuM&_nc_oc=AdktPXass1JVyCbU4LPDjCTif-EZikCnaIx7RjTESuqrLzGweJ4pDjNgjK1Jzrpxf4E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfhACRhCeAZiNQz-HY7c88h0pAmrvP9jeicK2sxkNTzk3g&oe=692FB424)
+![Screenshot of the trigger zone in the desktop editor, which triggers activation and de-activation of camera collisions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452970869_512509394620350_8496384459627415358_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6GS7-SPeiiYQ7kNvwECkiuM&_nc_oc=AdktPXass1JVyCbU4LPDjCTif-EZikCnaIx7RjTESuqrLzGweJ4pDjNgjK1Jzrpxf4E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_AfiVCTW8riLcSgaBdgrpH0E4miKJvAMaUD7zgVbGMhrICQ&oe=69309524)
 
 ##### sysCameraChangeTrigger Script
 
@@ -121,7 +121,7 @@ this.sendNetworkEvent(player, sysEvents.OnSetCameraCollisionEnabled, {
 
 The panel should look like the following now:
 
-![Screenshot of Properties panel for the TriggerCameraCollision trigger zone](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/488959834_692135349991086_6423528237934908180_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ldhojv15MSIQ7kNvwHUByNM&_nc_oc=AdnoI5Nmzx-uWb8yYNtdJXUFjGs5xMmY7LAtp3K6cgftO58uqa0RpKSRSZaD4_Nw6f4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfjRznP-oqsK96jh27-WgOMbvUgHomIpqPI0njMCRm7Fbw&oe=692F9CD1)
+![Screenshot of Properties panel for the TriggerCameraCollision trigger zone](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/488959834_692135349991086_6423528237934908180_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=JL2KkEJ_aV0Q7kNvwHUNuMD&_nc_oc=Adk5adkxLheMdpJP4ccaLrIfpAOwprQAXtToyMNq518JilKe_gktww_NNsx-G0OSb64&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_AfiuoZStEprjvhiTS1lsfqV8COPt87JsW4GO-RVHFqOFmg&oe=6930B611)
 
 ## Set up a grabbable object that shoots projectiles
 
@@ -132,7 +132,7 @@ In the area shown below, we have group of entities:
 
 We want to make this grouped entity grabbable, as well as able to shoot and interact with other objects. To complete the puzzle, the player must grab the wand, fire projectiles and hit the exit door to open it.
 
-![Screenshot of the wand, a grabbable projectile shooter](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452818142_512509384620351_632903491088573082_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=y_Dl8SLud2YQ7kNvwHRmZ7l&_nc_oc=AdlVTLFLmfWKO3-m1OVMzUAXeNwIGsecp_MM8WhWF0DBYujroWg24ZJyHUPVIHL0eJo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_Afh_RsrTrkFK42D2d6bnLwa7idqPdxj8xUHwOfxu4AS4XQ&oe=692FA3E9)
+![Screenshot of the wand, a grabbable projectile shooter](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452818142_512509384620351_632903491088573082_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=y_Dl8SLud2YQ7kNvwHRmZ7l&_nc_oc=AdlVTLFLmfWKO3-m1OVMzUAXeNwIGsecp_MM8WhWF0DBYujroWg24ZJyHUPVIHL0eJo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_AfhSYSvhi9hkhfIuPqM3L4635Y6uwWwrExwCkr47tJeYhw&oe=6930BD29)
 
 #### The Magic Wand projectile entity
 
@@ -143,7 +143,7 @@ The wand projectile object (RoomA\_Wand) is a parent group of 2 items.
 
 The wand and the projectile launcher must be grouped together so that they interact with the world as a set.
 
-![Screenshot of wand and projectile launcher as a group in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452459127_512509381287018_6692747131156131000_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=o9jwpVviMwMQ7kNvwF1VzaF&_nc_oc=AdlzAZaTSf4nyfBmWoNjqeligo3OAlXWqVx4b6g4JXUJ84C3njwfjShjdfSxHGuGZTM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfhCKrDddKRz0M8YiYhhDjxgg_doZ16tP1NALqRVMMF30w&oe=692FA719)
+![Screenshot of wand and projectile launcher as a group in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452459127_512509381287018_6692747131156131000_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=o9jwpVviMwMQ7kNvwF1VzaF&_nc_oc=AdlzAZaTSf4nyfBmWoNjqeligo3OAlXWqVx4b6g4JXUJ84C3njwfjShjdfSxHGuGZTM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_Afh-OQj5bW7i7oFMtNf5fh1TiXlkP6SrR0GKVsodBy1bWw&oe=6930C059)
 
 #### Set object as grabbable:
 
@@ -153,7 +153,7 @@ The wand and the projectile launcher must be grouped together so that they inter
 - Set Motion property: Interactive.
 - Set Interaction property: Grabbable.
 
-![Screenshot of visibility and collision properties for the magic wand entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452588453_512509364620353_6590152911512892444_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Yap_f7MgEAYQ7kNvwFEDjBp&_nc_oc=AdlU9KF-awRfCaera7BmYZzJXzKksJluS06q5elKuqyn9jpgYEtrcXC8bjFlzhiRGpg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfiKrnEkxKyvVbJ99M-byXb387Qeg22baR2-Z1dsD22Vtg&oe=692F96E7)
+![Screenshot of visibility and collision properties for the magic wand entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452588453_512509364620353_6590152911512892444_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=3WvaTYWww60Q7kNvwFn426s&_nc_oc=Adk2igh-mx4wjMoIqBW0nesatOMdYZxvcw4YvSHgT9w89iZk2zovuM-dBYz7nl0sHLs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_AfhYuSJGJ90leIMU2V9h670KWu4GxNOz7F-Bbi7kvf60Sg&oe=6930B027)
 
 **Checkpoint**: After the above is completed, preview the scene. You should see that the wand now has an E and a hand symbol over it, indicating that you can press E to grab the entity on mobile or desktop.
 
@@ -169,7 +169,7 @@ We can also customize the Avatar’s interaction with this entity. For example:
 
 The Properties panel should look something like the following:
 
-![Screenshot of Properties panel for the magic wand entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490155658_692135356657752_506079041216624330_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=PKJDOil6ZHEQ7kNvwFHwkrc&_nc_oc=Adnw-1jDA1i7wGMmPgiiI0mJQDWMgXhh_w0Mzzbakb_I5_OBSHFljGDPWdbTO8qlOOQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfgaHwyAjtZZasvjFdXz31MVgkaGSY8KJgaCCZYmP-IMig&oe=692FC626)
+![Screenshot of Properties panel for the magic wand entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490155658_692135356657752_506079041216624330_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=k56ZmMqqY1UQ7kNvwFxd5Sl&_nc_oc=AdljC6T-gvSXal4qnGLwNeR9ng2Eyh7sgsIal3ltLK77pKH40G4ThGJUGYzFGbR42No&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_AfgX10ApYvPlmuUSriSG8SVDPwoMC98x0OLCCK3JsjC9bw&oe=6930A726)
 
 **Tip**: If you wish to customize the way the Avatar holds the wand, you can switch to the VR headset to set the Grab Anchors on the entity. This defines the locations on the entity where it can be grabbed.
 
@@ -179,7 +179,7 @@ You may wish to customize the properties of the projectile launcher, such as the
 
 You can modify these properties by selecting the projectile entity (RoomA\_ProjectileLauncher) and modify the appropriate values in the Properties panel:
 
-![Screenshot of Properties panel for projectile launcher entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452936022_512509447953678_2675348446593389257_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=waOjNRqq8tIQ7kNvwEKpuBy&_nc_oc=Adntln5xJkO4AbJTKIxZaZH3NctUVILQfwMmjLDFMbNWAYEKGyM9Kzwi6H4ivfaXqEQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfgMq11c-28SYWLokpKYu7BiI0MdsQ7KtdnGoypF8xCEyw&oe=692FB71F)
+![Screenshot of Properties panel for projectile launcher entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452936022_512509447953678_2675348446593389257_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=waOjNRqq8tIQ7kNvwEKpuBy&_nc_oc=Adntln5xJkO4AbJTKIxZaZH3NctUVILQfwMmjLDFMbNWAYEKGyM9Kzwi6H4ivfaXqEQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_AfgTZpMFbE7w9qwF0y_nsdNRZck4qlroIewmql6EKMBLfQ&oe=6930981F)
 
 #### Projectile Launcher Scripting
 
@@ -354,7 +354,7 @@ The code is complete! Now, we attach this script to the wand.
 
 The properties should look like the following:
 
-![Screenshot of Properties panel for the RoomA_Wand entity after all properties have been specified](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489526187_692135346657753_7313652591887126432_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=EKA08jvO6TgQ7kNvwEIjYD0&_nc_oc=AdlqctQ-7X2zAogPUyBrcJFA8LogPe-F5uoXqrVFVWb6vV_lkZyf_eQ16nCm17NFV6U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zRgywbWyN59eGrp0SEdtZw&oh=00_AfjK_LwiEcIsKZ4TtjIbAJaT5ObE_2grmWY-0OCsuGRNAA&oe=692FC871)
+![Screenshot of Properties panel for the RoomA_Wand entity after all properties have been specified](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489526187_692135346657753_7313652591887126432_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=EKA08jvO6TgQ7kNvwEIjYD0&_nc_oc=AdlqctQ-7X2zAogPUyBrcJFA8LogPe-F5uoXqrVFVWb6vV_lkZyf_eQ16nCm17NFV6U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=e63dOjJF76-NJMHTsuwZQg&oh=00_Afh-ggd3hwv3AUZ9fiLjfO5hPVrZx5AtPy-038FL519Rmg&oe=6930A971)
 
 ## Checkpoint
 
@@ -377,7 +377,7 @@ To test, you can try the puzzle in Room A to see if you can collect the wand and
 
 #### Additional documentation:
 
-* [How to set the player’s camera](/hw-docs/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
+* [How to set the player’s camera](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
 * [Intro to Grabbable Entities](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md)
 
 #### API docs:

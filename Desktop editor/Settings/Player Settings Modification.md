@@ -9,7 +9,7 @@ The Player Settings Modification feature in the desktop editor has the same capa
 - Click the top left menu button.
 - Click **Player Settings**.
 - A modal dialog with all of the available Player settings will appear.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452933939_512527524618537_1063237396836849902_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=o0RStr7y3f4Q7kNvwEqaU0y&_nc_oc=Admhn9RbOe7HIh0V0a7Y9dbf_VYa2PXldnmO12iwaOykFiFZGM0PCm9B0gyNPQwvmBo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=J8915hWA3Jjfx6afV20gzg&oh=00_Afil7Mh0ze8Icfg0z-lyq9EgDz1q88-j7LFtoT9B5Lj99g&oe=692FA5A3)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452933939_512527524618537_1063237396836849902_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=o0RStr7y3f4Q7kNvwEqaU0y&_nc_oc=Admhn9RbOe7HIh0V0a7Y9dbf_VYa2PXldnmO12iwaOykFiFZGM0PCm9B0gyNPQwvmBo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG4eV5QaN6We5zBE9oGmdA&oh=00_AfgikY9LOIGTaIvOOabXGDgKCyT_YI7vXemhnyw2IPIOSA&oe=6930BEE3)
 
 ## Changing Player Settings
 
@@ -33,7 +33,7 @@ The following table contains a list of the currently available Player Settings a
 | **Auto Jump** | When enabled a player will jump automatically when approaching walls and objects with low enough heights to jump onto/over. |
 | **Custom Player Movement** | Enables code blocks to be added that can affect player capabilities such as “move player”. |
 | **Custom Name Tag Visibility** | Enables you to add scripts that can hide player’s name tags in your world. |
-| **Frame Budget Boost** | Set to Default or On to boost FPS in your world. **Note**: This may cause visual distortions in your world. Learn more at [here](/hw-docs/desktop-editor/settings-modifications/fb.me/fbb) |
+| **Frame Budget Boost** | Set to Default or On to boost FPS in your world. **Note**: This may cause visual distortions in your world. Learn more at [here](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/fb.me/fbb) |
 | **Footsteps Volume** | Slider to determine the decibel boost for footsteps as players move around in your world. |
 | **Footsteps Min Distance** | Slider to adjust the minimum distance attenuation distance of footsteps. |
 | **Footsteps Max Distance** | Slider to adjust the maximum distance attenuation distance of footsteps. |

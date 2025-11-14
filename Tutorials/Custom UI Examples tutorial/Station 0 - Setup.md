@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Station 0 - Setup
 
-![Custom UI Examples thumbnail](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475919694_646003171270971_7027298327403430135_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=fyF-wo_88GkQ7kNvwGhy9Kn&_nc_oc=Adl4LWC2epjGRJjz_Zki6KXIl5UYtzIpH5SwdgkqGmZg6FsvoOUa1k54osme7r6A-a8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QxhtX3LzoR6E4_Yw-Fnscg&oh=00_AfgyhMsu_HG_Mh46QBdye5abeep7mSLKk6JV3VbXQtf5VQ&oe=692FA1AB)
+![Custom UI Examples thumbnail](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475919694_646003171270971_7027298327403430135_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=fyF-wo_88GkQ7kNvwGhy9Kn&_nc_oc=Adl4LWC2epjGRJjz_Zki6KXIl5UYtzIpH5SwdgkqGmZg6FsvoOUa1k54osme7r6A-a8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ILl5xXc_GStNAdi-BkTQgw&oh=00_Afg1-0Y1c2NJ1D-MTzXgSG8YGdLhKwFIoINnZhLpK4NNmQ&oe=6930BAEB)
 
 Important
 
@@ -14,7 +14,7 @@ Example worlds are intended to provide simple, clear, and well-documented exampl
 
 This doc is intended to be a companion to the example world listed below.
 
-For platform documentation on custom UIs, see [Custom UI](/hw-docs/typescript/api-references-and-examples/custom-ui/).
+For platform documentation on custom UIs, see [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui/).
 
 ## Before You Begin
 
@@ -29,7 +29,7 @@ In the desktop editor, click the three-dot menu in the toolbar. Enable the follo
 * Auto-start simulation on Preview entry
 * Auto-stop simulation on Preview exit
 
-![Preview Configuration panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481781953_667154415822513_6557476269878662057_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=9_1I7QbWSIcQ7kNvwE5arRk&_nc_oc=Adn8nCUMCF9EdoZb_QnPlSIDdPVApijgWDoTNRDq4uf0gWMET0vuZizcViGAOoY3Fkk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QxhtX3LzoR6E4_Yw-Fnscg&oh=00_AfheowLcYYkJAzaJY5JyOogIaz4AdDd_pys05vTKlmLlpw&oe=692FC53F)
+![Preview Configuration panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481781953_667154415822513_6557476269878662057_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=tTWNTpxItjcQ7kNvwHtohJj&_nc_oc=AdloxMih11KEew84C94oODYRX2SeMatRSlfvI6RcGgphUUWQzgii1h7iMaElnYExp8Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ILl5xXc_GStNAdi-BkTQgw&oh=00_AfjVgRc4pKcds2NtU8RMVXgUEosUlLK7EX94WYHUo-HO5w&oe=6930A63F)
 
 ## Overview
 

@@ -27,4 +27,4 @@ In order to calculate your visitors for a specific DATE, we actually look at dat
 
 We measure visitors that entered your world between 7 to 13 days before DATE. Any user that visits during this range is counted towards the weekly visitor amount for DATE. For example: if you select April 14, weekly visitors will show the amount of visitors to your world between April 1 - April 7.
 
-Read more about the Meta Horizon Creator Program current bonus offerings [here](/hw-docs/mhcp-program/monetization/meta-horizon-worlds-creator-bonus-program).
+Read more about the Meta Horizon Creator Program current bonus offerings [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/meta-horizon-worlds-creator-bonus-program).

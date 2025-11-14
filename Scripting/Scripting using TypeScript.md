@@ -23,12 +23,12 @@ Typescript is a strongly-typed version of JavaScript, adding additional syntax t
 
 ## Prerequisite knowledge
 
-* [Getting started with scripting in your world](/hw-docs/typescript/getting-started/)
-* [API references and examples](/hw-docs/typescript/api-references-and-examples/)
-* [Local scripting](/hw-docs/typescript/local-scripting/)
-* [Gameplay tags API](/hw-docs/typescript/gameplay-tags-api/)
-* [Asset spawning](/hw-docs/typescript/asset-spawning/)
-* [Events](/hw-docs/typescript/events/)
+* [Getting started with scripting in your world](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/)
+* [API references and examples](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/)
+* [Local scripting](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/)
+* [Gameplay tags API](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/gameplay-tags-api/)
+* [Asset spawning](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/)
+* [Events](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/)
 
 ## Articles
 

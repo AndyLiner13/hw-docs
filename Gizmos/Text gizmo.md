@@ -11,7 +11,7 @@ The text gizmo supports [markup](https://github.com/MHCPCreators/horizonCreatorM
 ## Limitations
 
 The total length of the text, including all markup, [is limited](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#text-gizmo-limitations). Additionally, when using text gizmo for internationalization and localization, consult
-[Getting started with internationalization](/hw-docs/save-optimize-and-publish/internationalization/getting-started-with-internationalization), [Writing for localization](/hw-docs/save-optimize-and-publish/internationalization/writing-for-localization), and [Typescript for internationalization](/hw-docs/save-optimize-and-publish/internationalization/typescript-for-internationalization).
+[Getting started with internationalization](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/internationalization/getting-started-with-internationalization), [Writing for localization](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/internationalization/writing-for-localization), and [Typescript for internationalization](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/internationalization/typescript-for-internationalization).
 
 ## Optimization
 

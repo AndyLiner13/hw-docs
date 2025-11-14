@@ -49,7 +49,7 @@ You can use TypeScript to [send messages to the console log](/hw-docs/Scripting/
 
 For advanced testing, you can make use of specialized analytics to track various metrics:
 
-* [In-World Analytics](/hw-docs/performance-best-practices-and-tooling/analytics/using-in-world-analytics) tracks events in your world.
+* [In-World Analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics) tracks events in your world.
 * [World analytics](/hw-docs/Performance/Analytics/World%20Analytics.md) is a web-based tool that tracks usage and performance data associated with your world.
 * [Performance scrubbing](/hw-docs/Performance/Performance%20tools/Performance%20Scrubbing.md) allows you to analyze performance events in your world from the Meta Horizon Worlds UI.
-* [Heatmaps](/hw-docs/performance-best-practices-and-tooling/analytics/heatmaps) allow you to visualize where visitors spend the most time in your world.
+* [Heatmaps](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/heatmaps) allow you to visualize where visitors spend the most time in your world.

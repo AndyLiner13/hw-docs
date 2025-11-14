@@ -16,7 +16,7 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Inventory Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Inventory” in the search field. Finally, select the Inventory Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Inventory Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495704689_734911825713438_4000559892879335779_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=bvewm1KdLYcQ7kNvwGHj7WX&_nc_oc=AdmloPCBQFgn9IALm7EWkL9NnPtY58LYIfkeBFvDoCcjfjRnjHv3Gf_E_ldqb54VOD0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zhWO4Tf-CWTIjDxz4H6abA&oh=00_AfgcJySqliuHxfMGed1rmkmjCUs-pHzbXTEyBFJL2-DnyA&oe=692FA4C5)
+![Finding the Inventory Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495704689_734911825713438_4000559892879335779_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=RRustN73zToQ7kNvwHC2Z8T&_nc_oc=AdnR3L7LaQPyPLZEqcB0lXbWUVSdbCgDcYWNvPGiMeKneLII5VOGH-26V60rn2VuJ2I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=IqK4vENscbdIhoaVObLP7Q&oh=00_AfifZPAaiNxd6GsNdJCyaOuHUH-XLf1gX7NCtoZdjgr2ug&oe=6930BE05)
 
 ## Inventory Asset Template properties
 
@@ -40,4 +40,4 @@ You can use the Inventory Asset Template properties to configure which in-world 
 
 ## Scripting
 
-You can interface with the Inventory Asset Template directly through TypeScript and fully customize the Inventory’s behavior. Please refer to the [World Inventory TypeScript APIs](/hw-docs/Reference/experimental_worldinventory) documentation for more information on the economy APIs.
+You can interface with the Inventory Asset Template directly through TypeScript and fully customize the Inventory’s behavior. Please refer to the [World Inventory TypeScript APIs](https://developers.meta.com/horizon-worlds/reference/2.0.0/experimental_worldinventory) documentation for more information on the economy APIs.

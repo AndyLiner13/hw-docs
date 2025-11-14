@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The Desktop Editor contains a variety of controls that enable you to create objects to add to your scene. These tools provide you the control to position, scale, and program an object’s behaviour with scripts.
 
-![The Desktop Editor screen with groups of controls labeled](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/496301988_715823307622290_1237091991192979518_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=J2cs6P8hNRQQ7kNvwGIvkpM&_nc_oc=Admme8JQeTLWmibSkIo2Ri67889LXJDZo4rSIbtFlOErkazydREY0FKPbbruGgVTNKM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=P63Xfc7BbhSBixxKHlIv_w&oh=00_AfhoD__9hhFSsocof7bmZXc1yfwItecN8iC5ftknu-65Bg&oe=692FC2A7)
+![The Desktop Editor screen with groups of controls labeled](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/496301988_715823307622290_1237091991192979518_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=J2cs6P8hNRQQ7kNvwGIvkpM&_nc_oc=Admme8JQeTLWmibSkIo2Ri67889LXJDZo4rSIbtFlOErkazydREY0FKPbbruGgVTNKM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nfX7FoRt7MW1po-1sYcg3w&oh=00_Afjf6Ccf8N7uEIpgf3Ia7C4z3VVpHI4pT-cxz6k9bSRdiw&oe=6930A3A7)
 
 - [Main menu](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#the-main-menu) provides quick access to the Desktop Editor’s most popular features.
 - [Creator tools](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md) provide a set of commonly used tools for building scenes and using assets. Each button provides a menu of different tool types you can use for creating your world.
@@ -25,4 +25,4 @@ The Desktop Editor contains a variety of controls that enable you to create obje
 You can try out the Desktop Editor by working through these beginner tutorials.
 
 * [Create Your First World](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
-* [Batting Cage Tutorial](/hw-docs/get-started/batting-cage-tutorial)
+* [Batting Cage Tutorial](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/batting-cage-tutorial)

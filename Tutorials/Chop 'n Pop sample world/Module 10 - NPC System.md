@@ -145,4 +145,4 @@ The NPC system in Chop ‘N Pop: Graveyard Bash can be deployed into your world 
 
 This module introduces the NavMesh and navigation profile concepts, which are significant topics by themselves. See [Navigation Mesh Generation](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md).
 
-For additional exploration of what NPCs can do, please see the NPC tutorial world, which can be opened as a new world through the desktop editor. For more information, see [NPC Scripts](/hw-docs/desktop-editor/npcs/npc-scripts).
+For additional exploration of what NPCs can do, please see the NPC tutorial world, which can be opened as a new world through the desktop editor. For more information, see [NPC Scripts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-scripts).
