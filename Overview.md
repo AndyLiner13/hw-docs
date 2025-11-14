@@ -1,4 +1,4 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/
+Source: https://developers.meta.com/horizon-worlds/reference/2.0.0
 
 ### Horizon Worlds: API Reference
 

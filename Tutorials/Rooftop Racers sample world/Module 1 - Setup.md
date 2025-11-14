@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 1 - Setup
 
-![Screenshot of the world from the spawn point](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452882400_512509657953657_4484116017896127605_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Kdnpi5cfDjQQ7kNvwEKxwI4&_nc_oc=AdmPV1-91PetHQXrFHEblP_honNZcOxvPQc7J8KU8AMB7c5ol1Y5jwlGDVKGMh9Tocg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ZIaPSBmdeU6-MeZvToxgHQ&oh=00_Afi4edQSi4b1Af_PfL2JjioQILfyTqhNg-u8XmqI9J9dug&oe=692F9823)
+![Screenshot of the world from the spawn point](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452882400_512509657953657_4484116017896127605_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=HF3jZ0x0q5UQ7kNvwFfzWSI&_nc_oc=AdmX_T4LshuiVcMpCWRWts4ogMTU61IEcgoc62XZVwLdaJmEZXZPWa5iIT6G33w2scA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=fQ_ld4eoiODumeksVERcgQ&oh=00_AfjC60rJx2RXtXRPyaeoTqUTtU15LoIt1ZGaDZ4017e-9w&oe=693121E3)
 
 Important
 
@@ -130,4 +130,4 @@ In the desktop editor, you can access the systems in the following ways:
 * Navigate the Hierarchy panel.
 * Scripts and other non-geometry resources are located behind the starting area. See below.
 
-![Screenshot of the bank of empty reference objects that host the scripts for gameplay systems](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452520043_512509637953659_6246132046291088143_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=vXelPudaKSkQ7kNvwFbR8H5&_nc_oc=Adn7HtSA0gpg_O_m7w9CfkPJL9useWA2BRjzntHC_njC5RfKXgySiZyN8PSCECpqZd8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ZIaPSBmdeU6-MeZvToxgHQ&oh=00_Afi6tLDphZSnB_atXpQ0n1aECzEVIyaMCi8HgWM75in6PA&oe=692FA9CD)
+![Screenshot of the bank of empty reference objects that host the scripts for gameplay systems](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452520043_512509637953659_6246132046291088143_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=vXelPudaKSkQ7kNvwFbR8H5&_nc_oc=Adn7HtSA0gpg_O_m7w9CfkPJL9useWA2BRjzntHC_njC5RfKXgySiZyN8PSCECpqZd8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=fQ_ld4eoiODumeksVERcgQ&oh=00_Afh8jQ_Gq5PUamMxYSRaVR6YYsPosOuLF3B5XfBzRpkjdw&oe=6931338D)

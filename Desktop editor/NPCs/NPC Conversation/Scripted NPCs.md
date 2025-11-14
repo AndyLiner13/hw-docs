@@ -14,9 +14,9 @@ To build a conversation for your scripted NPC, use the following process:
 
 - Navigate to **Build > Gizmos**, select the **NPC** gizmo and drag it into your scene. Set the **NPC type** to **Horizon Avatar (Body Only).**
 - After configuring the NPC’s properties in the **Properties** pane, click **Attach script** and select **New NPC conversation script** from the menu.
-  ![Attach Script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/546840266_810235228181097_6981823577862926430_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=9xx1nSunQMoQ7kNvwH18SRu&_nc_oc=AdnLX2BmQllEmDEZZ2wVVz5HvLUqX2S-1vrPR54nKeVBprOAw6xtkvwcW8czUrW8qSE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ESGgQwUI-h8fFt0FF4AXqw&oh=00_Afgo7TRTeA_UCqr3d8_70hAr8iH5X9hps2bMYPOw6Bdnvw&oe=692FA116)
+  ![Attach Script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/546840266_810235228181097_6981823577862926430_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=S7IbJSzjOu8Q7kNvwHWwzYO&_nc_oc=AdmF47HpWFMBC79jxbQByMr2LfIsBHbJfIAaEHf7mxsyTOhJyRaFi9STX_rbqW0Cc3k&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nKmKKVMgb17f8LLyNrMleQ&oh=00_Afjf7pmR7Jji660rT_-qQdeLR0toNol3L1VCbBLN_BnSuQ&oe=69312AD6)
 - Name your script for your NPC, click **Create and attach**, and wait for the script to compile. Once compiled you can click the three dot menu and select **Edit script** to open the script in your preferred IDE.
-  ![Edit Script](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/545977385_810235181514435_2134096870227171498_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=c5S2t7ORwJoQ7kNvwG33gVa&_nc_oc=AdkrBdKP19jf3Qem9U1JK5GZCjAuOUckeXMPOYuf5w2t2QBM8AGtHOIuRjeic8SKuRI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ESGgQwUI-h8fFt0FF4AXqw&oh=00_AfiXoNH6BbW4ifmGpuFLaQBmgTwdbPr5G6GA66dU6_PL9Q&oe=692FB403)
+  ![Edit Script](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/545977385_810235181514435_2134096870227171498_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=ivAjU2E2DqQQ7kNvwFPDUFx&_nc_oc=AdnGIvCYMLtKTNsNLolFQZLdPp4JyIVOn4gm3QJeSY9Iak70uv-I06Vi76B6BZcAJmw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=nKmKKVMgb17f8LLyNrMleQ&oh=00_AfiJ57_tPAJoocwMEDcprnVj1JXbBEPkqHeL7XO9YKpgMg&oe=69313DC3)
 
 This created script attached to your NPC manages its behavior and maps to various APIs to drive its actions.
 

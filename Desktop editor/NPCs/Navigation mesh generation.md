@@ -42,32 +42,32 @@ This section describes how to set up and generate navigation meshes in World Bui
 - In the **Systems** drop-down menu, click the **Navigations** button. The **Navigation Profiles** menu lists any navigation profiles defined for your world.
 - Click the **+** button to define a new navigation profile.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581306146_863533342851285_195327867686303909_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=E5wlxglpQ4IQ7kNvwFYJnQT&_nc_oc=Adm1DU2yOVghTxVsyyIs4u8k_S3gDAHVJQ4bq09B3_N8cEsW2kf3SnfzlKmVG175qvg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_AfgtRDFVAFN96_S0af9w667bUzEVYmlBrN704_yPBVfqHQ&oe=692F9829)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581306146_863533342851285_195327867686303909_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=E5wlxglpQ4IQ7kNvwFYJnQT&_nc_oc=Adm1DU2yOVghTxVsyyIs4u8k_S3gDAHVJQ4bq09B3_N8cEsW2kf3SnfzlKmVG175qvg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_Afin7iF8tF_DqBoh4l_FGDj_Xz0iSDEH54rwWlWzOVNvhQ&oe=693121E9)
 
 - In the **Create Navigation Profile** menu, fill in the properties and click **Create**. This displays the new agent profile in the **Navigation Profiles** menu.
 - To update a profile, hover over the menu item and click the **Edit** button. This displays the properties for that profile, which can be modified and saved.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580796535_863533336184619_5962457243421882840_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=P3pdaRCv9-YQ7kNvwFvZvSA&_nc_oc=AdnouUNCGs91SAWxWyTqm5E961-NzT_nu65mGM6jf2QrIhH_AJPnqQy4vwCw4yIFIkA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_Afg9YyR7X7ICaRT7Hw6q4x9yg1Utbog7MNlmRaFXT6HF3w&oe=692FCC6E)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580796535_863533336184619_5962457243421882840_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q7_1lMro-pMQ7kNvwEHkby9&_nc_oc=AdnYMW9UOP8O5pb1QJAs5Y3WtD-_Sy_zs0bAQ27ValoTTxuXwlX9rHaKKJXLThT44AE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_AfjZ06pdc4amAa2n6BlNgJ2bLl8vm_hCM6aZmbtZvv-GCA&oe=69311DEE)
 
 - Drag and drop the **Navigation Volume** gizmo into your world from the toolbar in the Navigation section.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581939883_863533332851286_8604663435429527805_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=XLJTwC_pXPcQ7kNvwHALUnk&_nc_oc=AdlIcEOJ5QuLUVlJ6de7j50x0YbRzmpQ3RJ06sCGz_ZfjY48mbVIjol8HC9wYQtK0No&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_Afg6rXeIBQy5MYAVGBLuGwpkH3KEw8HpuTBoNXyzWqrvfg&oe=692FA61F)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581939883_863533332851286_8604663435429527805_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4sdUJUQJ9c0Q7kNvwE1W4IE&_nc_oc=AdnSfml4oc7BHf6sfMlNwpniDT-l3Bt4_Lto53UpMTXibCpEdnP09ZjiQcZPvs4uhfc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_AfiXmgL5if8EL_pE0XvQiRkerD4Uc2QyXQ46vytAuu2AmA&oe=69312FDF)
 
 - Adjust the size of the space to indicate where navigation meshes can be created.
 - The **Navigation Volume** gizmo applies to all defined navigation profiles for newly added gizmos by default; however, you can specify other profiles within the **Agent Profile** drop-down menu.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653622_512520797952543_8523304140805967984_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=2UjHC-LPg5AQ7kNvwFm0Pdt&_nc_oc=Admtpm1DDyVqvnH7zgu1LjI0uPL6ZNvuK0kCvecDevQdPnSqX0t5Ne2y1juRulDU-T4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_AfgVWYtrcXk3ae6HMy4iB-5F9tJhq_B9ynlMSZ2hgt-lQg&oe=692FC165)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653622_512520797952543_8523304140805967984_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=2UjHC-LPg5AQ7kNvwFm0Pdt&_nc_oc=Admtpm1DDyVqvnH7zgu1LjI0uPL6ZNvuK0kCvecDevQdPnSqX0t5Ne2y1juRulDU-T4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_AfieKHTzI-gONa-5XoJ5TaBjYv33xjHXbno34hcY3B6NBQ&oe=693112E5)
 
 - You can also change the **Volume Type** to **Exclusion** or **Inclusion**. Setting the volume to **Exclusion** cuts out that area from any generated navigation mesh.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452863729_512520794619210_6139799495093903217_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=vQ9R4xtVTekQ7kNvwHoiWaj&_nc_oc=AdlbdQH2ZeVn679eWSFJIZ64e2eVEx0z7hi3uXNhM7-ZgoGO80tQiuHmdt2BKrjP4tc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_AfhwFKVBFQg2yb9Ts9pzBfkr33XVGAlCU0rENBiT5QcDbA&oe=692FA0E8)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452863729_512520794619210_6139799495093903217_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=Nx6FZNekTH4Q7kNvwEA45Qa&_nc_oc=Adns3xtmR3CGc7B1LG4ILluGmD5iLdAGacdboPBLOJp2aprEHxdfQryTfIh0YDWkfeY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_AfhJCU9s9ySS4dhr-YuKJL86uf9xP1ntd2V0TpunCk2IVw&oe=69312AA8)
 
 - Setting the gizmo’s profile only impacts the navigation for that profile. For example, setting the gizmo to **Inclusion** for a particular profile will generate a walkable area in that volume for that particular profile.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452978199_512520774619212_5715647804876400228_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=w-8FBb84h00Q7kNvwGlDSyw&_nc_oc=AdlOtqyEyOURNKW3loiwGQW4j93loU-CeDNCeTjEzWc3vkqUTmn_OiCgmaP-30vQXjA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_AfhLz27-zXMldU5-wL_GRJqBIurNqD_XmksjtANkOxx_wg&oe=692FB752)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452978199_512520774619212_5715647804876400228_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=4CE_ncROJ8IQ7kNvwEkJLiO&_nc_oc=AdkepZ686uJXM-t2ofl0aHWqB-fbfPdoyx7CTX70luS0AMgUzBHbraObCXbcKVbnZT0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_Afijqe9W0rWsSUEaB1om2owokQQR8-uC50JxmfwTIrPnwA&oe=69314112)
 
 If volumes overlap, walkable space is made for all associated profiles.
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452598139_512520804619209_9000742366036294529_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=069GowNlRAsQ7kNvwHi2POc&_nc_oc=AdklCZ_CT9ki0-LGD-rGqqeqv49YxQClWNv5qGNR-PbliNhc-JSthSPI43jDEhRQy-A&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_AfhYjL1U2x1kztMnAiujg8EjdE2jY959Xo2dOqZTh8OdeA&oe=692FCBB9)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452598139_512520804619209_9000742366036294529_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=eD6r226bFuIQ7kNvwHb08bp&_nc_oc=AdmuOv4YUwsI5P-Q_TcA50HuG6s9QnRkODM05d9CG_GONlwbgtGRUed3pzPvMEAjtmg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_AfhWNv-KojDODXJMAH9UNV9ho_6CHz4xejPLsDfCOgVFng&oe=69311D39)
 
 ### Excluding specific obstacles/entities
 
@@ -75,16 +75,16 @@ When generating navigation meshes, you can exclude specific entities from impact
 
 All entities are considered navigable by default. To exclude an entity from being navigable, select the object and toggle off the **Navigable Surface** option in the **Navigation** panel:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452628396_512520771285879_665141551739901961_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=3mV6m2QoBNAQ7kNvwHROPIX&_nc_oc=Adlqsk96LHk1vBm0KpNSwobWhc2LuV_zkKzXS-NOJ29nGWHfpUdMR3TJwz05aih4YoU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_Afj5vd5clfiW6HRSAoVfmyRuSUHiLJqj8TSN2RA1S4bCNQ&oe=692FB026)![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452678735_512520821285874_7555048856054191891_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Y3zYyWKRFaEQ7kNvwE7ICuF&_nc_oc=AdnqjKi3jXAk6Y7tSWbCG54uJyK0xs8Wp0DlNNt7gMI5-RB8WXjBZA78xJ8WO_uXzRA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_AfgU34LZY3RQ4Cg2RaHujkwKZEQhkcdRuVSSVX7-q3tG1Q&oe=692FABC5)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452628396_512520771285879_665141551739901961_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=3mV6m2QoBNAQ7kNvwHROPIX&_nc_oc=Adlqsk96LHk1vBm0KpNSwobWhc2LuV_zkKzXS-NOJ29nGWHfpUdMR3TJwz05aih4YoU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_AfjLNPipll4NgztJzQSfVrIJY17tOLtoefWIcxXvgO5VOQ&oe=693139E6)![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452678735_512520821285874_7555048856054191891_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Y3zYyWKRFaEQ7kNvwE7ICuF&_nc_oc=AdnqjKi3jXAk6Y7tSWbCG54uJyK0xs8Wp0DlNNt7gMI5-RB8WXjBZA78xJ8WO_uXzRA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_Afi4rSBkHtMog_TSHGwbwkmOPToPWz5BUzmO61RXABM3lA&oe=69313585)
 
 - At this point, we have profiles defined and gizmos placed in our world. The next step is to **build** the navigation meshes for each profile. An alternative term is “baking” the navigation mesh **.** These terms are interchangeable.
 - From the **Systems** menu, open the **Navigation Profiles** menu and click the **Build All** button.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452554927_512520777952545_4458452995230939688_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=LutHizt1AasQ7kNvwG7gWiN&_nc_oc=AdntoOASWbp2gj-XEVAuuFJ2xwzn0sdTvRjFrrDIGY6huCU0SmQW9FqXGRTLkLyzXzU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_AfhZ3nxaTAYhRdNlukV6QNwf0Ey4hGt_PNlvZ2Xxc-ZPSQ&oe=692FBB7F)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452554927_512520777952545_4458452995230939688_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=LutHizt1AasQ7kNvwG7gWiN&_nc_oc=AdntoOASWbp2gj-XEVAuuFJ2xwzn0sdTvRjFrrDIGY6huCU0SmQW9FqXGRTLkLyzXzU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_AfghnO9pakiuyi6D2hts4j2woqAR5gJRLrOSvv_1Mmrc8A&oe=6931453F)
 
 - If it appears that nothing happened when building the navigation mesh, you likely need to enable the in-editor previews. Hover over each profile and ensure the visibility indicator is set to 👁 by clicking the relevant button:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452956933_512520814619208_2075920617223828293_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=aUqhLYVXyroQ7kNvwELfVa5&_nc_oc=AdlsOq5igkrHLfyIGwC6JqSSVjeMbNfuc4b-SeC0QPB3fv5eaJC5RufLHSJwL_Rzuf0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=01NVLh85iIsu3kpRHsaKdw&oh=00_Afi-dDspIqt8gPk6Ut0hmq1w-KlDV0606lyX1B6OY0VltA&oe=692FB138)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452956933_512520814619208_2075920617223828293_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=V_T7ShRDfb8Q7kNvwHau46u&_nc_oc=Adn9FUFZRvxbNbRT285gURRLMd-mjHRt1pBzvtHOxOZBTW7lr-G334sEgA2gOwvNsww&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=33OLTocWxZfY7VdUEMzQ7Q&oh=00_AfhBcoXkq_RHS6bmhCzLa0fFFr8lqnIRcMpOMo7f4PU1dg&oe=69313AF8)
 
 You can use the NavMesh TypeScript API to get references to navigation mesh instances in order to perform pathfinding calculations at runtime.
 

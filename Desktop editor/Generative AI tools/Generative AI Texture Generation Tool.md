@@ -36,10 +36,10 @@ Gen AI Tool Availability & Rates
 - Open the Desktop Editor and open a world in **Create** mode.
 - To open the Chat Panel, click on the **GenAI** icon in the top toolbar bar.
 
-  ![Gen AI toolbar icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581938662_863563282848291_2344867213088467592_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=meov2htSsaIQ7kNvwFOj1LA&_nc_oc=AdkZj0ask8V5zZh-aHA6gowJ77HzESGkmdFsOrh1Ndl9iniLRGjCIal1EVTLo2q625U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_Afi5HmpawcL3bnFzX3PMg4jJ0g8vIQkiZlkW6jfZG_4zsw&oe=692FA032)
+  ![Gen AI toolbar icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581938662_863563282848291_2344867213088467592_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=meov2htSsaIQ7kNvwFOj1LA&_nc_oc=AdkZj0ask8V5zZh-aHA6gowJ77HzESGkmdFsOrh1Ndl9iniLRGjCIal1EVTLo2q625U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lf4Kw2ykCkzFGc4OksTlkw&oh=00_Afhxxn52zmkti889qBSgAb6Rr_mJfSE3814loQtHH2tKRg&oe=693129F2)
 - Swap the mode to **Texture**.
 
-  ![Gen AI panel texture icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470059170_608208295050459_6156590856430227233_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3aK5zrWAQ9sQ7kNvwGMV-gt&_nc_oc=AdkwUcyG3crFYzg5vbJgWmIltdqqyGxTwDNrn8BFc0cemTlVtct3on6ZcpG0psQ11KE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfiNmu9Qu9uM_Jrk5O8y-V3uPkKzefztFMoSFyQoB4Dy4w&oe=692FC2A4)
+  ![Gen AI panel texture icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470059170_608208295050459_6156590856430227233_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=olmOXHEYZLsQ7kNvwFH_ILA&_nc_oc=AdkqUr1OZAGFo-R4Q8kHXgq6GoAegNm-dFMyypcNpnn3Hah4Cm73wm7-OkvtTOvMKZM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lf4Kw2ykCkzFGc4OksTlkw&oh=00_AfhIu76qrNW3DaiUAAVXhI2XOZdlQH_bRxtJwBYOE86rEg&oe=69311424)
 
 ## Generating a texture and previewing it
 
@@ -48,25 +48,25 @@ Gen AI Tool Availability & Rates
 - Press **Generate**. You will see a thumbnail of the texture after generation is complete.Click on the thumbnail to toggle the texture preview on and off.
 - The generated texture will preview on the mesh but it will not be permanently assigned to the mesh yet. You must press, **Save and apply texture** to assign the texture to the mesh permanently.
 
-  ![Generated texture sample](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469882327_608208291717126_3224448195746273960_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=yJ_4TW1OHoQQ7kNvwHLRyKz&_nc_oc=AdmVZMRWsyv8Yz325C-mooc0VGWn4ygh6aXlQOrqWQycPD14ySIU-FnFM4bH5lY-wcE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfieuFSwNepDQfa3LKRGrBCEiguVJVTheDP2iUCgjXVS7w&oe=692F9FA5)
+  ![Generated texture sample](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469882327_608208291717126_3224448195746273960_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=yJ_4TW1OHoQQ7kNvwHLRyKz&_nc_oc=AdmVZMRWsyv8Yz325C-mooc0VGWn4ygh6aXlQOrqWQycPD14ySIU-FnFM4bH5lY-wcE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lf4Kw2ykCkzFGc4OksTlkw&oh=00_AfjC1mtXSZGOGb-oRGm7w_YH1QlJuc1zNe5oWQ0Zws9AsQ&oe=69312965)
 
 ## Saving your texture to your computer
 
 Press **Download to local device** to save the texture to your computer.
 
-![Gen AI download to local device](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470137569_608208301717125_2974949490344458798_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=UlDHyh0vr2gQ7kNvwGd7SSm&_nc_oc=AdmP-uWiWFNFmjktwCTvasaC4GNjOZNSdlt3euQ7UrjSZogHOJFIlZft09g-IF4QoWA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfiK36KjEIL-HPRK4OAvXQ4pwXXHWAM-Qa54avdo_ppeMA&oe=692FA053)
+![Gen AI download to local device](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470137569_608208301717125_2974949490344458798_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=UlDHyh0vr2gQ7kNvwGd7SSm&_nc_oc=AdmP-uWiWFNFmjktwCTvasaC4GNjOZNSdlt3euQ7UrjSZogHOJFIlZft09g-IF4QoWA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lf4Kw2ykCkzFGc4OksTlkw&oh=00_AfgInbayyPWpidqxcwcCVHwdte3-2MhqtGsEL6iJoiOseg&oe=69312A13)
 
 ## Saving your texture to your asset library
 
 Press **Add to asset library** to save the texture to your asset library without applying it to the mesh.
 
-![Gen AI save to asset library](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470144658_608208285050460_9030351191851486629_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PdVh2d5VieQQ7kNvwGomPtE&_nc_oc=Adl_I2TZcgsMNAhBULhtGTw0QCBvJVXVpJBR1wJDH22kBCTR56mkfctHrhZhoG5PlMA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfgGIr0EqYRyu8gxUF-ZCZNDbBlUaGKHqkRWPJ3thJ1O5w&oe=692FAF93)
+![Gen AI save to asset library](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470144658_608208285050460_9030351191851486629_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PdVh2d5VieQQ7kNvwGomPtE&_nc_oc=Adl_I2TZcgsMNAhBULhtGTw0QCBvJVXVpJBR1wJDH22kBCTR56mkfctHrhZhoG5PlMA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=lf4Kw2ykCkzFGc4OksTlkw&oh=00_AfirFlkZ9ijFnqcW_RWL2PzrQz-awn0_9QNOHGf5egirUA&oe=69313953)
 
 ## Assigning a saved texture from your library to a mesh
 
 Open your Asset Library and select the object you want to assign a texture to. In the property panel’s **Texture Asset** dropdown menu, select the texture you want.
 
-![Assign generated texture to mesh](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/469996977_608208288383793_3706670179926808668_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Dd-YWFXxEY4Q7kNvwGM3o4P&_nc_oc=AdnnChVu10iDkJMjS8A6ELsbVHAhqQBWWgUpjJYNgwb8AXlkuCg5G0zSO1QkDsy2zt0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ivKDWmoI98qyf_8fK06OTg&oh=00_AfidfDY30TLXLDH-wgcGxzwmv7oAcNBbG8wznWGLpNsAgQ&oe=692FAFC5)
+![Assign generated texture to mesh](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/469996977_608208288383793_3706670179926808668_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=j1hfyG_lxFQQ7kNvwHaN1o_&_nc_oc=AdkRpO3OXnB1ugX8M4PiZxWNVVd3kbPozihD6NdvRoqruBeQAD_M6ylMAwcv74TFBig&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lf4Kw2ykCkzFGc4OksTlkw&oh=00_Afi1gIB2pwOQwoLL4_jCwxWgKgo2Idn5FMaRsjhq6WfTkA&oe=69313985)
 
 ## UV Requirements for Texture Generation
 
@@ -95,4 +95,4 @@ To learn more about Meta Horizon Worlds, try the following:
 - If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/hw-docs/Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
 - Learn about the desktop editor with the [Introduction to the Desktop Editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 - Learn about the other tools available by reading our [Tools Overview](/hw-docs/Get%20started/Tools%20overview.md).
-- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.
+- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

@@ -26,9 +26,9 @@ In the past, number-type persistent variables were only capable of using simple 
 You can find persistent variables by looking under **Variable Groups** in the **Systems** menu of the CUI tool. When you create a new variable within a variable group, you’ll see an option to choose the **Number**, or the **Object** type.
 
 - Access **Persistent Variables** in a **Variables Group** .
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512524701285486_2041147541414773851_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=p70THSXZ2DQQ7kNvwH3kyO_&_nc_oc=AdlimQP2aaeMa_pCAmt_BqbqJSxhi6WLf5rJFXsU_uFnjTpWsEKJKjD6PiM-4ei-Img&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3WwyEUOOObIsFd-e8e_H1A&oh=00_AfjWy3x9_Tp426wY2LxiPn0xT5kUomeKNpImgW_I-9REhQ&oe=692FB484)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512524701285486_2041147541414773851_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=p70THSXZ2DQQ7kNvwH3kyO_&_nc_oc=AdlimQP2aaeMa_pCAmt_BqbqJSxhi6WLf5rJFXsU_uFnjTpWsEKJKjD6PiM-4ei-Img&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2l2BtzVPzapv958o2c6pPA&oh=00_AfhGLnB13upezCTxPlvdVNDFTLffoiN_4Mex9vAsCLRZsw&oe=69313E44)
 - To configure a variable, specify either **Object** or **Number**:
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452965108_512524707952152_3292887128801188756_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=pD7E-8FwWQQQ7kNvwE3hCzE&_nc_oc=AdkScFYSGLKdo_APhTrKe_Qf0c-sDG11UQ1PnqlBLryhg0FG7JpSrCKuEHyGocADw7M&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3WwyEUOOObIsFd-e8e_H1A&oh=00_AfjQakkh1pOOkBVd3YTF3Fh-Az2XqjzLKteTe3Mp8-zu4Q&oe=692FB650)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452965108_512524707952152_3292887128801188756_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=YuTpRwsUduUQ7kNvwE9u8KK&_nc_oc=AdlCEtUT8HpnHb7kr15TmzVVpFYNNE-9arA1uUnjCLFUeE-z-YzNkkiLrsGheFYhvOQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2l2BtzVPzapv958o2c6pPA&oh=00_Afi4Kqr-4gPAjgKGly0dCtNLcXVk1SJhL8PO89Cl4BLF6A&oe=69314010)
 
 ## Accessing variables from TypeScript
 

@@ -108,21 +108,21 @@ Component.register(SimpleSpawn);
 
 You can also use CodeBlocks with a Trigger gizmo to trigger the asset spawning script:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578226_512510381286918_2130091807967526852_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qm7qvmrP1zsQ7kNvwG60j0G&_nc_oc=Adk2q-I4MdQIPRLFM3L9TGJ7Y8IGHpGe_8OSmdWO7OGe-icQPKMV_5GQB6vJWMEAzn8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xQGSKMMqublZaQxEN6FjJQ&oh=00_AfjMzcyQbI6SzGna78I7_COF7JpepfhiqAmUDRHRnhacYQ&oe=692FB8FC)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578226_512510381286918_2130091807967526852_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=XhwxHQVuSNEQ7kNvwGAd0gT&_nc_oc=AdlKKUVOFlB66XT4kMzhhgXu1UBJD4dxpyJI8GYD-Jh5VBHyodr1PiEv6w2XO8NKa2Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pJFB7-7f2kGTDbWmFTWSww&oh=00_AfiDvcuLkIWExhvfh0SvorGH6cIozluwzOUMjxCruh33OA&oe=693142BC)
 
 - Create a trigger CodeBlock script to send the spawn and despawn events to an object. These scripts can be different for the spawn and despawn, but in this case we keep them together since they will be tied to the same trigger.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452514526_512510377953585_8446492638471105033_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=WmCYIW4TZ2AQ7kNvwEbeVXc&_nc_oc=AdmuvnGQl8KKEeQ24Rlk64Rgk8wkO7lgTCzckJbX-IFTSDaUNOcKK-fBwMrt-lqNpsQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=xQGSKMMqublZaQxEN6FjJQ&oh=00_Afi5HbyxqUEyl8qY_91wCXwXeynObU7AHfMVjHq70fIQbw&oe=692FB3F3)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452514526_512510377953585_8446492638471105033_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=WmCYIW4TZ2AQ7kNvwEbeVXc&_nc_oc=AdmuvnGQl8KKEeQ24Rlk64Rgk8wkO7lgTCzckJbX-IFTSDaUNOcKK-fBwMrt-lqNpsQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pJFB7-7f2kGTDbWmFTWSww&oh=00_AfhVTkCr1NIps1zB6ZuYt3JXsmK3xWDtV4hPw8dVI5dA5Q&oe=69313DB3)
 - Create a Trigger gizmo and attach the CodeBlock script to the trigger.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452702326_512510374620252_2897307560533346680_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=PSUaKz9bjyoQ7kNvwH9jS9k&_nc_oc=Adn8bZWANYi_ahSHl516YvnxWMzl04ypHpd4bABWI-fntkr1M1lOCC8OtUTh3WibOVg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xQGSKMMqublZaQxEN6FjJQ&oh=00_AfjZvmB9lIeynu676XH69qJkSlThLSoez6fxWvbvT-y3hQ&oe=692FAA16)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452702326_512510374620252_2897307560533346680_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=PSUaKz9bjyoQ7kNvwH9jS9k&_nc_oc=Adn8bZWANYi_ahSHl516YvnxWMzl04ypHpd4bABWI-fntkr1M1lOCC8OtUTh3WibOVg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pJFB7-7f2kGTDbWmFTWSww&oh=00_AfgewEyoIZp1vFzEyYl-cQ8kV-747if7wUximgbIknT00w&oe=693133D6)
 - Create an object and attach the TypeScript script to it. Depending on the application, it might be a good idea to make this object invisible.
 - Attach the asset you would like to spawn in the asset field that appears when you attach the script. This is done with the following steps:
 
   - Navigate to your asset library from the build menu, then to the asset you want to spawn.
   - Select the view info (“i”) icon on that asset.
   - On the property panel, scroll down to see the asset reference pill (a blue oval containing the asset name).
-  - Select and drag this reference pill to the Asset Variable field “empty” on the object’s property panel. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453003138_512510371286919_5172008865838978843_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=99-l6Y0l8PIQ7kNvwHO8q8M&_nc_oc=Adn8TyJkn9XxI56cwZ-ximDaG1hB3lcP6FTm00cCi1vLj0IR2UPHoIiuGJhNwS-VwcQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xQGSKMMqublZaQxEN6FjJQ&oh=00_AfhmeCHXJ9JtUDo2d_CF7BtIfRjWrQ_O6NMhU2CzVrs9Aw&oe=692FA088)
+  - Select and drag this reference pill to the Asset Variable field “empty” on the object’s property panel. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453003138_512510371286919_5172008865838978843_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=99-l6Y0l8PIQ7kNvwHO8q8M&_nc_oc=Adn8TyJkn9XxI56cwZ-ximDaG1hB3lcP6FTm00cCi1vLj0IR2UPHoIiuGJhNwS-VwcQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pJFB7-7f2kGTDbWmFTWSww&oh=00_Afgdonp-UcHy-W09Ao9WXqxjJGwDWFNjSzM-llS10A0f7g&oe=69312A48)
 - Finally, attach this script object to the Trigger gizmo.
 
 Once you are done, you should have a CodeBlock script attached to a Trigger gizmo which in turn is attached to an object. The object should have the TypeScript script attached to it as well as the asset to be spawned and despawned.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452746658_512510367953586_6703341356671159163_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ekH8yzTbSJUQ7kNvwGYUoQd&_nc_oc=Adkc6HE3CvkOzJTxaT1TkjHK6UQsn4mK8-nepnCpehaDw6ND9GYtsjTMQFlz7NIujmM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=xQGSKMMqublZaQxEN6FjJQ&oh=00_AfhqWdsjXC3BoGwaj2MkuLczqsk_Zxcejv8zv8hw-ZvVhg&oe=692FAD9B)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452746658_512510367953586_6703341356671159163_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=GCLRr725JKEQ7kNvwGJhuo0&_nc_oc=AdlIZ4g2szLex9xs-7sMNkDleu3u1GPoYgm2G2LnnPILnkOB5Jtd-JRSssfpJP2RwhU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pJFB7-7f2kGTDbWmFTWSww&oh=00_AfidS5zAAqCCWBW5FkP3AyA1UhRcjgqCXjVjYPGb7eTbsw&oe=6931375B)

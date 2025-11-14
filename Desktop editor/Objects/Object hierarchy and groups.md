@@ -12,7 +12,7 @@ While it’s not necessary to designate an existing object in the scene as the p
 
 - Press Ctrl + Click or Shift + Click to select multiple objects.
 
-  ![Create a hierarchy](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486620414_681803087690979_4488656560382183237_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=BUWHbSVuAuwQ7kNvwFCMED0&_nc_oc=Admg2C_eZaZTuoOvOLTrH6VqrMy7DZsRC1cLz3ulwjudeWh5CORfGaAMhiKxcuYEOxI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=85zIZT-heqiJl9HoiGzSWg&oh=00_AfgDa5h_6_miPwWL6paeMM2bsAtoQTULJtqhUtwebKDk2w&oe=692F9D42)
+  ![Create a hierarchy](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486620414_681803087690979_4488656560382183237_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=I1vGaMPwVeQQ7kNvwH_BcRD&_nc_oc=Adn-bdzyV3PFqOQQGE2NqGC1lZmpyvISG8h15_mguxGTUvTqUmjBz4fmOawARBq_xgo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=p5VJfdaoQjWnbIvd3J-94A&oh=00_AfiVBTJxlNSL29dkaK_ZMW9jK3A6QT2py5sRQKtCP50Q_Q&oe=69312702)
 - Create an empty object to be the parent of the selected objects:
 
   Press Ctrl + G on your keyboard, or right click to select **Create parent object** from the context menu.
@@ -24,7 +24,7 @@ While it’s not necessary to designate an existing object in the scene as the p
 
   In the following image, the **Sound Recorder** is dragged to the **Empty Object** hierarchy.
 
-  ![The object is added to the chosen hierarchy](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486610726_681803084357646_8044919782849029886_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=_pDa54oxmH0Q7kNvwFaaWG7&_nc_oc=AdnPb_kPybX4xkJVZ85-AzxjQK0eevD6F6dzaHY_kkhUa4bqRodh-q4BE5U_SMePb9A&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=85zIZT-heqiJl9HoiGzSWg&oh=00_Afjrql0gyJV0RH4bJaO2e4d1SjxmbPsS3i2L_7a_y4t4vQ&oe=692FACBA)
+  ![The object is added to the chosen hierarchy](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486610726_681803084357646_8044919782849029886_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=h5r0YikLdaIQ7kNvwGgdCwQ&_nc_oc=AdnPSaDnYLi-bwnmc5_SWtRfaEBg6EEI1naj9HZJcT1Hz20O0Ct5HgnS0OHa1PcFhwg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=p5VJfdaoQjWnbIvd3J-94A&oh=00_AfirSQVNLOttf2dK-TOKUkzdrNMzKkNq7I-Cx80N9hBYAQ&oe=6931367A)
 
 ## Remove objects from a hierarchy
 

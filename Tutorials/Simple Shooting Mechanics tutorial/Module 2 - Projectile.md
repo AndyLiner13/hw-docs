@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 ## Concept
 
-![Image of the Projectile Launcher gizmo](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480488768_676362564901698_4344486746919645959_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=B2BSZP7kpx4Q7kNvwHDa8lL&_nc_oc=AdktRCz6RmMzUra9X85C2DGgmO19UyzicsKE312VD5cbPjwv5ejVPstvo7mf2Q9SEBY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=nCVwqNuxzNCo5z912sugYw&oh=00_Afgdb5-1VV42y1Ulpm09vttqTVX2vAhBAs6N5uvpZpQ_jQ&oe=692FB3AA)
+![Image of the Projectile Launcher gizmo](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480488768_676362564901698_4344486746919645959_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=UkLZbFU59F0Q7kNvwHRctOh&_nc_oc=Adl5H21Ay8-a1mrEVou26-HAuK1Dgqbn7dYb4IiO8r_TG4IHDltJ_yXMF3Dymm3p-P0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CpU5JpsY5yjHKJsbmCmXJA&oh=00_AfjlMMhPKJPEQ6Fgp1YRMtoqSV-7rAqMpetkwjq0-xZK6w&oe=69313D6A)
 
 In Meta Horizon Worlds, the **Projectile Launcher gizmo** is an entity that you can add to your world, which allows you to manage the firing, tracking, and collisions of configurable projectiles.
 

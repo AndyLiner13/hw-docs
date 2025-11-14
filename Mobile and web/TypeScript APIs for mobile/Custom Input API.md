@@ -165,7 +165,7 @@ To add a custom icon, you need a texture asset. Upload any image to your asset f
 * **(Recommended)** Define a [texture asset in your script properties](/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md#station02-imagefromasset). This allows you to use the asset picker GUI in the script inspector for easier selection.
 * Alternatively, you can directly reference the texture asset’s ID in your code. This approach is less flexible but also valid.
 
-![Properties panel showing the textureAsset property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487726045_686408240563797_5149593947553231907_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=C4BMFn5U5W4Q7kNvwFPVU4b&_nc_oc=AdkWuDD9yG8uPwE5GWno4lT2p2vACb1SoOtlnfAr4lloOMEU_GYTgaTe1uleuD_cQxc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Yu018-jhZrqCtIr6U5-uUw&oh=00_AfgcLG_dIH6OAneJea5Ad6y47X9Zf-cICoY3Iu_mZVMSvA&oe=692FB3F0)
+![Properties panel showing the textureAsset property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487726045_686408240563797_5149593947553231907_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=WEBS79phg_UQ7kNvwGTAHBO&_nc_oc=AdlXsUZ_Tv3HV3idkpoM1EUZ4bBQjJj8y13csYbXSc35T6qXBP94iuMlMwaMqvxEeE0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_wMKdMpm4hiYjCRliF4bzQ&oh=00_AfgTwgDqjWMUsrn_n_OERqVH3HPE9GKEJEdU06pFflnqrg&oe=69313DB0)
 
 ### Using the Texture Asset
 

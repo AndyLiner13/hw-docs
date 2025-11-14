@@ -12,7 +12,7 @@ When you are building in the desktop editor, you can immediately preview the res
 
 At the top of the application, you should see the following toolbar:
 
-![Previewing Toolbar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486000668_681803094357645_1545901750511085235_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=kS089bBls0AQ7kNvwHZnrdU&_nc_oc=AdnN_46FE-cfGy0Ok24tdqArgK8KzJuJwU21x0AY8zanLpum9U6HJDMwR2pupVJJCG0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=eiaBgE9eV8oAA5UW2xbHnQ&oh=00_AfhW7Ylm96nmsN4Rh8nKiouZXtVAI58fs46MKhIQHVVp6A&oe=692F9D86)
+![Previewing Toolbar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486000668_681803094357645_1545901750511085235_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=kS089bBls0AQ7kNvwHZnrdU&_nc_oc=AdnN_46FE-cfGy0Ok24tdqArgK8KzJuJwU21x0AY8zanLpum9U6HJDMwR2pupVJJCG0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=j3MaxcXbQ_3SQZ2zonjBUQ&oh=00_Afj3f7pTnl-wcgCnBNH0NqVIvNEZBXduj-VhAeXyhpSPLA&oe=69312746)
 
 #### Playback tools
 
@@ -46,7 +46,7 @@ For more information, see [Preview Mode](/hw-docs/Desktop%20editor/Get%20started
 
 In TypeScript, you can push messages through code to the Console log in the desktop editor.
 
-![Console logging](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452813677_512535131284443_5372359272148648923_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=y67qOnEXE-EQ7kNvwFBeoJq&_nc_oc=AdmzZIllF83VwdsEEqEMwbmzTIZZaijDdWB3M3UF_RJ_cMKKWhWddlaJbjyONmooZnk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=eiaBgE9eV8oAA5UW2xbHnQ&oh=00_AfjeSBKl6Hg3d0b4LkkNlpG310ymFH1PodRnlZEPT_FURQ&oe=692FAC5F)
+![Console logging](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452813677_512535131284443_5372359272148648923_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=WInUEdTqNx4Q7kNvwHb3Qnf&_nc_oc=AdmVma56DO9oIXI_eYqhB_uGycrv9qLavYOQ_d3BY2drQaOPO7mqWdrzyJxsMEnqGqs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=j3MaxcXbQ_3SQZ2zonjBUQ&oh=00_Afg1ZU5SY5joYTeW0sFc-LUKZXqkCiTHrjCrFxfxFZS1jg&oe=6931361F)
 
 #### Example:
 
@@ -105,7 +105,7 @@ In the VR headset, you can enable a set of runtime utilities in your wrist.
 
 The Utilities menu is now available in your avatar’s wrist when you are in VR.
 
-![Utilities menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452632980_512535207951102_6453613817001339111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=OA6KNnN-7gsQ7kNvwEgtCbd&_nc_oc=Admhryt6FXtiW4ZOvwVyRiC1S2RIrt_stejIyPlQ3QI5aooELT_ef7CxRZeZmezYXpQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=eiaBgE9eV8oAA5UW2xbHnQ&oh=00_Afh5cZcwu-fTA5h6noJe-KfgEr1thMN-ufnWxX5sPfD-2g&oe=692FCD78)
+![Utilities menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452632980_512535207951102_6453613817001339111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=FMVqyqGAK2YQ7kNvwG2hzZ1&_nc_oc=Adm_PMFvjy8mdSWF9HKaaohVOH-LwC6SrDLvouTRLy58_SLrqZSXW3BGqCZkypfkNM8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=j3MaxcXbQ_3SQZ2zonjBUQ&oh=00_AfjcdM97bU8SHETkvaSERdojUktEaKxO6MLhUoATIpNg4A&oe=69311EF8)
 
 ### Open Your World
 

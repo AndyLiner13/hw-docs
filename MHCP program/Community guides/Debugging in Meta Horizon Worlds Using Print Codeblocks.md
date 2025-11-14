@@ -26,7 +26,7 @@ The Debug Print CodeBlock in Meta Horizon Worlds is a powerful tool for understa
 
 The Debug Print CodeBlock outputs a string message to the debug console, which is accessible in the scripting panel of your build menu. This feature is invaluable for debugging because it provides insight into the script’s behavior in real-time.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452914265_512500314621258_7167784275692305544_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Pk1zDxSkaTsQ7kNvwHfOjoA&_nc_oc=AdkBouxGa8aT5zbP-d3yv-EhxhbiGPUCIlbgul7Ye8mOZCwxuEv_um6yKckIS194coU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=qk7tNmsrN4nYdWFzvHlDmw&oh=00_AfiER1LSGmb_zPjj8-mTygOXKgQVSg0QVI61Yu31LOWTsw&oe=692FC81B)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452914265_512500314621258_7167784275692305544_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=R74hqRniuOQQ7kNvwE_NnFO&_nc_oc=AdmhA_YyDigGEtPfoXm4YzF2GzOAkB9DGTJrEKSGgtODb3R0w9faitHGYUoHNRpn68E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P3V6rwkyJbbum9nhHil9zg&oh=00_AfjAzfJFLVokvwbdFCJKZSqUgZF5jmYQnG37VAdTt6qBqQ&oe=6931199B)
 
 ## Basic Usage
 
@@ -38,19 +38,19 @@ Whether you’re aiming to inspect variable values, verify script execution, or 
 
 In your script, find the Debug Print CodeBlock under the “Values” category. It’s specifically listed under “Debugging.”
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452910880_512500331287923_1634991850675751137_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=fyQEjjmCLSEQ7kNvwHvsl_b&_nc_oc=AdkazfMUNFuFeyNQhNhrSzYuoah8_0OZH0FV-wuGuLsCoa-UkH0w59xWbthD5aoqiwI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=qk7tNmsrN4nYdWFzvHlDmw&oh=00_Afgnvyx5yaYGNa4N5tKxticJkOJswSdgBOFyA2aAYskjdA&oe=692FAA47)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452910880_512500331287923_1634991850675751137_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=fyQEjjmCLSEQ7kNvwHvsl_b&_nc_oc=AdkazfMUNFuFeyNQhNhrSzYuoah8_0OZH0FV-wuGuLsCoa-UkH0w59xWbthD5aoqiwI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=P3V6rwkyJbbum9nhHil9zg&oh=00_Afid32f88RXPqtN5Gst50BFYfZs8Qh-y9BAS40LwR9S75w&oe=69313407)
 
 #### Insert the Debug Print
 
 Drag the Debug Print CodeBlock into your script wherever you want to check the value of a variable, see if a part of the script is executed, or confirm the flow of logic.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452702827_512500184621271_9191474485338250662_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6Y1SnPuLoC8Q7kNvwH3Dvl3&_nc_oc=AdkHYVhig8mxEzIZmWHogFWPbY0gJkykH5NIHG3zX6bwYu--HVeb4PS188gfPYZgpOE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=qk7tNmsrN4nYdWFzvHlDmw&oh=00_Afi7H9E6shEh-wICNLSW5VBWDeSihj0kUOtyNVZ4eVX8AQ&oe=692FC00D)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452702827_512500184621271_9191474485338250662_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6Y1SnPuLoC8Q7kNvwH3Dvl3&_nc_oc=AdkHYVhig8mxEzIZmWHogFWPbY0gJkykH5NIHG3zX6bwYu--HVeb4PS188gfPYZgpOE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P3V6rwkyJbbum9nhHil9zg&oh=00_AfgZMhtH8dnTLEIIBdJFp_W-jJFvnbCrEE2qysENH50Wyw&oe=693149CD)
 
 #### Customize the Message
 
 You can type any message within the Debug Print CodeBlock. Often, you’ll want to include variable values in your message for inspection. To do this, you can use the “variable as string” codeblock (found under “Type Casting”) to convert variables to strings and append them to your debug message.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452828962_512500311287925_1159263892162828262_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=qXKwO_QHVy8Q7kNvwER5VW3&_nc_oc=Adm2rjBpC1xv_rOAgnaOaMK5K_JMi288KK8f-AVcXXtcSu5l0-CQAx3LYz5B4aieF0I&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=qk7tNmsrN4nYdWFzvHlDmw&oh=00_Afg1SPWUUk9zTW9wwAoBZBAN874LYs0VKvzPzXqQxo7vlw&oe=692FB414)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452828962_512500311287925_1159263892162828262_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=qXKwO_QHVy8Q7kNvwER5VW3&_nc_oc=Adm2rjBpC1xv_rOAgnaOaMK5K_JMi288KK8f-AVcXXtcSu5l0-CQAx3LYz5B4aieF0I&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=P3V6rwkyJbbum9nhHil9zg&oh=00_AfiUdX9R1VKdTABrvQrhKtWX6p9O4n_9wOz4EA6WGITbsA&oe=69313DD4)
 
 ## Tips for Effective Debugging
 
@@ -64,7 +64,7 @@ You can type any message within the Debug Print CodeBlock. Often, you’ll want 
 
 Imagine you have a script where a variable score is supposed to increment when a player triggers an event, but it’s not working as expected. Here’s how you might use Debug Print to debug this issue:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452888007_512500181287938_6784621597585849867_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=b_P9SjKbfLMQ7kNvwGxt-f4&_nc_oc=Adnte6pVk5xE0bP9PZI3jvY3Lu402xdwe4Nyv9tkAGPxFmF0vEvHP3HpNasuRvjTcQk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=qk7tNmsrN4nYdWFzvHlDmw&oh=00_AfjhUJuJ_luEo2h1A14aRe-PowLrMBssRUIACPdy7Dy3Aw&oe=692FA050)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452888007_512500181287938_6784621597585849867_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=b_P9SjKbfLMQ7kNvwGxt-f4&_nc_oc=Adnte6pVk5xE0bP9PZI3jvY3Lu402xdwe4Nyv9tkAGPxFmF0vEvHP3HpNasuRvjTcQk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P3V6rwkyJbbum9nhHil9zg&oh=00_AfhZ2d_Q_u6si5CabiKJte9D1vJ4D0tPQYooHRYkWoBY0Q&oe=69312A10)
 
 This setup allows you to see in the console when the world starts, when the trigger event occurs, and what the score is after it’s supposed to have been incremented. If you don’t see “Trigger entered by player,” you know the issue lies with the trigger detection. If the score doesn’t increment as expected, the issue is with how the score is being updated.
 

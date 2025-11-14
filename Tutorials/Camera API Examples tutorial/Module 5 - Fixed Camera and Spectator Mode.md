@@ -6,11 +6,11 @@ In some environments, you may wish to position the player as a spectator to an e
 
 In this tutorial, entering the red target switches the camera to spectator mode:
 
-![Spectator area of the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473725278_632772199260735_5663417698444515637_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UduaRAPVoJsQ7kNvwF-fSEL&_nc_oc=AdlOKkaGJuEnOgNta8kyaazV9s1B39hF48__GIe3so-z7vHPGQYGZAPRXadelGP1CV8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MnCUSW3xXQ_IlU0ZqTkE2Q&oh=00_Afg3_LCGBUmuVsJvsxEvYjw7zAZG8m4kZ0dwxewOeE38NQ&oe=692FB833)
+![Spectator area of the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473725278_632772199260735_5663417698444515637_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UduaRAPVoJsQ7kNvwF-fSEL&_nc_oc=AdlOKkaGJuEnOgNta8kyaazV9s1B39hF48__GIe3so-z7vHPGQYGZAPRXadelGP1CV8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=XR5n7Zdjo7WMulMTfq-dtw&oh=00_AfgnIbvaG_tA-vOKQeNOJgoM3IP5cus05Oi8HKG9kylOJQ&oe=693141F3)
 
 Upon entering, your view transitions to the following:
 
-![Spectator point of view](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473560894_632772152594073_6744967488002230001_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=P63ifKVWiiMQ7kNvwGVUusy&_nc_oc=Adm_P9MHQb6utF2JdWbZhNxMF1PVcjEWGzSBWWyxhKU-de6PQI4WmRtmp8zBWh2VLGc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MnCUSW3xXQ_IlU0ZqTkE2Q&oh=00_Afjzne4ANE7yDC4rA1zLVWMraB2Z0rUseg_KksNdWE2Aeg&oe=692FBE95)
+![Spectator point of view](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473560894_632772152594073_6744967488002230001_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=P63ifKVWiiMQ7kNvwGVUusy&_nc_oc=Adm_P9MHQb6utF2JdWbZhNxMF1PVcjEWGzSBWWyxhKU-de6PQI4WmRtmp8zBWh2VLGc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=XR5n7Zdjo7WMulMTfq-dtw&oh=00_Afh-1FkHX1raY4KHfN5I3v2v_me628_LFNpVz5NJZtOtQA&oe=69314855)
 
 After stepping onto the target, the player’s perspective is quickly transformed to the point of view of the stationary reference object positioned above the target, looking out over the above scene.
 

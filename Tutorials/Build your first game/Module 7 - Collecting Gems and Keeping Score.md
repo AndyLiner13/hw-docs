@@ -182,7 +182,7 @@ You can verify that gem collecting and state updates are working correctly by lo
 
 Then, check the console output during gameplay:
 
-![Screenshot of the Console tab displaying log messages during runtime](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480888317_662906936247261_2138606661305590945_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=qJv7vadOPrcQ7kNvwFMy8zV&_nc_oc=AdkZuSzHfLJJu73ayEiKXeQZkrFC6NJgQHNFsrISUS0Md5PJj45hODNWf714ZG_KSaE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yQwDDBcVkXcHwSWynZ9tZQ&oh=00_Afh6eUNruLFPLBUFZI5diUMqfT4WngQcGx_02ocAvELa-w&oe=692FA2B1)
+![Screenshot of the Console tab displaying log messages during runtime](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480888317_662906936247261_2138606661305590945_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=qJv7vadOPrcQ7kNvwFMy8zV&_nc_oc=AdkZuSzHfLJJu73ayEiKXeQZkrFC6NJgQHNFsrISUS0Md5PJj45hODNWf714ZG_KSaE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nFc7EmXX-JF1jZ9oPtLP0A&oh=00_Afg6zFqWJybSDV5K8KGlzH6nHiDm5olSvIj9PQdsnxqw0g&oe=69312C71)
 
 Hooray!
 
@@ -204,7 +204,7 @@ These steps are repeats of things we have learned, so let’s skip straight to t
 
 A new Trigger Zone with an attached `ResetGameTrigger` script:
 
-![Screenshot of Reset trigger zone with attached script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488755649_692135413324413_6532781331557383189_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=QvVIECVPCZsQ7kNvwHsVQgb&_nc_oc=AdmxDVjTBt6reBYMY5WTptQkId0Mm-YrqYMmUAm7NIYfQ3Gh7Z5lTvs8HWN2CA3yL98&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yQwDDBcVkXcHwSWynZ9tZQ&oh=00_Afhi3ZXGXLwDA7e09Dr01g8VkWFJ6h10BRgjGLWU74eeqQ&oe=692FC76D)
+![Screenshot of Reset trigger zone with attached script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488755649_692135413324413_6532781331557383189_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=QvVIECVPCZsQ7kNvwHsVQgb&_nc_oc=AdmxDVjTBt6reBYMY5WTptQkId0Mm-YrqYMmUAm7NIYfQ3Gh7Z5lTvs8HWN2CA3yL98&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nFc7EmXX-JF1jZ9oPtLP0A&oh=00_AfgfTYJVruYdIuslI6-xhiQz2PNGODdHUv5FTHx-Qh-Mbw&oe=693118ED)
 
 The new `ResetGameTrigger` script:
 

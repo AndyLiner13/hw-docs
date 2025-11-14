@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 1 - Setup
 
-![Title image of an in-headset view with lettering displaying 'Spawning and Pooling in Typescript'](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452932895_512509671286989_8255540828797393157_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CJ97A2Wb_2cQ7kNvwGFM0oI&_nc_oc=Adn9TLudkrlXnVVgnexmkC8DTceJeMsdg6agRC8C5UWCtWR-7XHFWUCFM7eK8TDwA_0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=E-Sdsg7AK0InOel3PeflLA&oh=00_AfjzewK9BdEBRoHMYMGnJ9_1py9ioHn1WIzgqUumIAzMlg&oe=6930AA85)
+![Title image of an in-headset view with lettering displaying 'Spawning and Pooling in Typescript'](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452932895_512509671286989_8255540828797393157_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CJ97A2Wb_2cQ7kNvwGFM0oI&_nc_oc=Adn9TLudkrlXnVVgnexmkC8DTceJeMsdg6agRC8C5UWCtWR-7XHFWUCFM7eK8TDwA_0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vW66zoBwk8JEkKDuqLSOXg&oh=00_AfhCJh9_FxajXbYDuWSzSJCAzX718M0P5DvpLERhJvVjxg&oe=69311B05)
 
 Important
 
@@ -40,7 +40,7 @@ When you create a new world in the desktop editor, you can create it based on th
 
 **In headset**:
 
-![Screenshot of opening the Spawning and Pooling tutorial world in headset](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452590061_512509667953656_3628551193697361467_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ze8wSMSnAX4Q7kNvwHXh85l&_nc_oc=AdlF4B-EmqIhUHTWKl_v1qHsgif_2zZJFX5z12_6T8quN3Ttr6HrzGS4LOjz2TQ90RE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=E-Sdsg7AK0InOel3PeflLA&oh=00_Afj_tHXyR0hDobFD0CEkePPphymdYTeocF8zestb8LySFQ&oe=6930BEC9)
+![Screenshot of opening the Spawning and Pooling tutorial world in headset](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452590061_512509667953656_3628551193697361467_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=4XOEKOc6eC0Q7kNvwHr-QKt&_nc_oc=Adnsj7wNFdEH-4VYqiPHKJ6TL8flHLfm2iU1YqRklADpmTcSt8NoNkKTJTmJmuliBEs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=vW66zoBwk8JEkKDuqLSOXg&oh=00_Afhe7j3NBspPjCwdGaFeIGdZPldrrmsNbxgW5lVDkYzpoQ&oe=69312F49)
 
 - In the Create menu in your headset, click the **Tutorials tab**.
 - Locate the Spawning and Pooling in TypeScript world. Click **Start**.

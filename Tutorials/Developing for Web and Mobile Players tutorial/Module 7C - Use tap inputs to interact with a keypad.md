@@ -12,7 +12,7 @@ Find the keypad object in the world. In the Hierarchy panel, you can see that Ro
 * All numeric buttons
 * A Raycast gizmo
 
-![Screenshot of the Keypad node displayed in the Hierarchy panel and in the main viewport of the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489890462_692135409991080_9185380006179677715_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zL1fMlj4jsoQ7kNvwEjin0e&_nc_oc=Adnoh7XMJ6p02GseubEU7-ZMwZHLnm5iUsxIUnfN1ZN7sML9wn8fTG0XQvDdDX3zIM0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=r7aIRDZ074LrlWMwgVcMaA&oh=00_Afjd4-yi3favLCfY_Ugrv46ClPuM4nPCKbqAiSYfW8ZpYQ&oe=6930CC31)
+![Screenshot of the Keypad node displayed in the Hierarchy panel and in the main viewport of the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489890462_692135409991080_9185380006179677715_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zL1fMlj4jsoQ7kNvwEjin0e&_nc_oc=Adnoh7XMJ6p02GseubEU7-ZMwZHLnm5iUsxIUnfN1ZN7sML9wn8fTG0XQvDdDX3zIM0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=THnAC-2u2ecNlAcJpNLlAA&oh=00_Afj3hiPvQHH-u37ftnzZkt5DEnPnL62nqIVfQJ0tWf27yQ&oe=69313CB1)
 
 We break the logic to manage keypad interactions into two scripts:
 

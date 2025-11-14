@@ -91,7 +91,7 @@ hz.Component.register(sysFocusedInteractionManagerServer);
 
 Let’s start building the Focused Interaction Manager for each player now. This API must be executed locally. In the Scripts panel, please verify that the sysFocusedInteractionManagerLocal script is configured to be executed in local mode:
 
-![Screenshot of Properties panel for sysFocusedInteractionManagerLocal script being set to execute in Local mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452701853_512509371287019_4253859733326735068_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=gINlZvV4pgcQ7kNvwHjiVPV&_nc_oc=AdkYsdkC0NXOXU76bLq9ZqmEBr6LJtvsCOwzDJp56epW2s1qDyABUYFr9BuaOZp1EQ4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=75gL_tZfEEHN3jymTh9lfg&oh=00_AfjXviVTWG4hj0N3gTUIk6_SAleYOX0vz43EhHUg1zWyuA&oe=692F9C49)
+![Screenshot of Properties panel for sysFocusedInteractionManagerLocal script being set to execute in Local mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452701853_512509371287019_4253859733326735068_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=AvK16aLTZz0Q7kNvwE-H0dD&_nc_oc=AdnFWCXyhbsaNU569BEJyzvlkKWJOVQECoe3UprKGCniaAMbve-PI-eh2-5iWeYpxAE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QWF2nNPN0oRFGxTDrSJPEw&oh=00_AfhGHOpbSPczbID37GPf-dNO_St6-TGzMvFsm0hCZKZZBw&oe=69312609)
 
 #### Focus mode:
 
@@ -397,7 +397,7 @@ Please verify that you have as many Focused Interaction local managers (with the
 
 We need one manager per player, and we need one Focused Interaction Manager for the server, with the sysFocusedInteractionManagerServer script attached:
 
-![Screenshot of Hierarchy panel showing the collection of FocusedInteractionManager entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488979610_692135306657757_5915353117185885214_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=lcn2mwWmiLcQ7kNvwEDRZI7&_nc_oc=Adm7PshBtCxACMk8Bx9uBilc9C0ur0sbK9aDQ-Fh-yNTATsTjhRRzUiX7Ed0LeMWm54&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=75gL_tZfEEHN3jymTh9lfg&oh=00_AfiSaAhlHzvs9-FeRuTbgaJq6suDXIpAHhQwCDV7dGtoEw&oe=692FC31B)
+![Screenshot of Hierarchy panel showing the collection of FocusedInteractionManager entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488979610_692135306657757_5915353117185885214_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=lcn2mwWmiLcQ7kNvwEDRZI7&_nc_oc=Adm7PshBtCxACMk8Bx9uBilc9C0ur0sbK9aDQ-Fh-yNTATsTjhRRzUiX7Ed0LeMWm54&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QWF2nNPN0oRFGxTDrSJPEw&oh=00_AfiCKIS4fphhLrz4YfvtAvlD7UcwAGZFBhFv0gYz98dmNQ&oe=69314CDB)
 
 ## Modify the Player Manager
 
@@ -409,7 +409,7 @@ First, verify that all Focused Interaction Managers set to local have the gamepl
 
 A **gameplay tag** allows you to identify entities that are related and should have the same actions performed on them.
 
-![Screenshot of local version of focused interaction manager with the FIManager gameplay tag applied to it](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/488970599_692135353324419_2672518123609734482_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=s9-rs_bLy6EQ7kNvwHFvDMx&_nc_oc=AdnW45DZ11XtwbCwjJ98p_T7Ftze3TEBo8SdwIXRekRn3eXTKsETsJjGcMZdKKIeFJI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=75gL_tZfEEHN3jymTh9lfg&oh=00_Afgp0IQVBhLWHpO73icPNXfFtLwbqDFkOlwDhspUCDx81g&oe=692FBBB1)
+![Screenshot of local version of focused interaction manager with the FIManager gameplay tag applied to it](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/488970599_692135353324419_2672518123609734482_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=s9-rs_bLy6EQ7kNvwHFvDMx&_nc_oc=AdnW45DZ11XtwbCwjJ98p_T7Ftze3TEBo8SdwIXRekRn3eXTKsETsJjGcMZdKKIeFJI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=QWF2nNPN0oRFGxTDrSJPEw&oh=00_AfjARipkMv6hPy9k1oaIEEg9r-eTdWJcv08jJUKPsdRTXA&oe=69314571)
 
 #### Acquire list of managers:
 

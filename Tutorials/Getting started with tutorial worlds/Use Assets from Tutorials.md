@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 As you explore these tutorial worlds, you may find scripts, art, or other entities that you would like to use in your own worlds. Go for it!
 
-![Create Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486150007_681803081024313_7695353008648675033_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=dHzYNuXfeq4Q7kNvwEdfMVw&_nc_oc=AdlKnke4yKWa-O9-KQcxGZ10gO_wtgSmQ5L33Borap5Ypt0cP0FNMecSe8dYQxnWQZQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CMAhcEvvAeA99wWyw1eDyA&oh=00_Afg3bP_JiSTkZLHr5aqnS33xiN32gCGZFYn4fpGOMa-64w&oe=6930CCFE)
+![Create Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486150007_681803081024313_7695353008648675033_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=dHzYNuXfeq4Q7kNvwEdfMVw&_nc_oc=AdlKnke4yKWa-O9-KQcxGZ10gO_wtgSmQ5L33Borap5Ypt0cP0FNMecSe8dYQxnWQZQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GTqOiBmEfgScMpxpsAHUbg&oh=00_AfjPdlWSQsgmqd060ADPX66-7gA2j5C8B6E9VUuF4JxCrA&oe=69313D7E)
 
 Tutorials contain the following categories of assets:
 
@@ -29,7 +29,7 @@ To add an entity to your Asset Library, please complete the following steps. Whe
 
 - Click **Create**. The asset template is created in the selected folder.
 
-![Create asset template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485933354_681803091024312_2636679759612280667_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=udcr7YEAsn8Q7kNvwEEGTBL&_nc_oc=AdmqOcPn8omU_KALNOocyxab8cM6Lnx1cAJkgxg8sAL57I74JbEGIYFvMEE_qh5irmo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=CMAhcEvvAeA99wWyw1eDyA&oh=00_AfjboW5f9mkOD9mzumVb-x70fmwBWk50FdUYcsnBzzNSIQ&oe=6930B4D3)
+![Create asset template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485933354_681803091024312_2636679759612280667_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=udcr7YEAsn8Q7kNvwEEGTBL&_nc_oc=AdmqOcPn8omU_KALNOocyxab8cM6Lnx1cAJkgxg8sAL57I74JbEGIYFvMEE_qh5irmo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GTqOiBmEfgScMpxpsAHUbg&oh=00_Afgg4dE7FBsRA37HMVE6k_Fq33FHuOOYm6o4NOfvPau1Lg&oe=69312553)
 
 This asset template is now available for you to use in any world!
 
@@ -77,7 +77,7 @@ To locate your files, please do the following:
 - Locate the value for the External Editor Directory.
 - Navigate your local environment to find this directory. Scripts for individual worlds are stored as sub-directories.
 
-![Script Editing settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000278_512536444617645_8408972957475533201_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=pXYh3KWWIrQQ7kNvwHphSqi&_nc_oc=AdlrlSTbkZFSJ770Cmwe0PSeHH8t6v-U39YkQW0cMNDPnGiQPvz7axx4C9l8LJNxOXs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CMAhcEvvAeA99wWyw1eDyA&oh=00_Afj_szU3kXPmcV9sFIkgI9RIqnhp1iIJBjam-HAlmT5YfQ&oe=69309E16)
+![Script Editing settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000278_512536444617645_8408972957475533201_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=pXYh3KWWIrQQ7kNvwHphSqi&_nc_oc=AdlrlSTbkZFSJ770Cmwe0PSeHH8t6v-U39YkQW0cMNDPnGiQPvz7axx4C9l8LJNxOXs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GTqOiBmEfgScMpxpsAHUbg&oh=00_AfhvNtW1Fa4Eu4gFGhmQfK47bsdf53h4mXvR-tp5UwK6nQ&oe=693146D6)
 
 ### Scripts in asset templates
 

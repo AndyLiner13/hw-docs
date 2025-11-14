@@ -29,13 +29,13 @@ For more information, see [Quests Overview](/hw-docs/Desktop%20editor/Quests,%20
 
 You can review the quests defined for this world. In the Desktop Editor, click **Systems menu > Quests**. Click the **Edit icon** next to one of the quests.
 
-![Image of Edit Quest dialog](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480505750_656120590259229_5960089404083004309_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Eobaa6adOX4Q7kNvwHvTiwI&_nc_oc=AdkV12Mx-hhNfFsebr4zl1UHSVctRN02JREPBvLYC1mMcQ6sMP8wHEVKn4JtrOqmaXY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=LSPhgRvmjiGyP6A669dc3g&oh=00_AfhOXUe9QfvUSyFednvG1nqz_lqNW3QHijNuiBVfkBMUlQ&oe=692FB766)
+![Image of Edit Quest dialog](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480505750_656120590259229_5960089404083004309_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Eobaa6adOX4Q7kNvwHvTiwI&_nc_oc=AdkV12Mx-hhNfFsebr4zl1UHSVctRN02JREPBvLYC1mMcQ6sMP8wHEVKn4JtrOqmaXY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0nxSp_3g4b8GqJtsj5PcOw&oh=00_Afi_9sMQ-Uiszs7MDF-3GNFKfA3F0M2k_QZzuklyB1CN9w&oe=69314126)
 
 The quest definitions in this world are pretty simple: all are of Simple type, which means that they are resolved by flipping a Boolean flag (covered later).
 
 After this quest is completed, the Quest board in the world is updated to reflect the change:
 
-![Image of Quest Board in the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481108344_656120530259235_4081517079952148992_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=eK5FFHZtRbEQ7kNvwHq9-Tn&_nc_oc=AdmHB9Xs5KDCNm5irdQJTIO2oLSnRta1imMjxQ7UixwdnNCREqzkD23clHLzEW4eWqc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LSPhgRvmjiGyP6A669dc3g&oh=00_AfjXsiWVZ-MgIwFjSKD57trIWdkvps6dk5JKHvjRKrh_aw&oe=692FCAB5)
+![Image of Quest Board in the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481108344_656120530259235_4081517079952148992_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=eK5FFHZtRbEQ7kNvwHq9-Tn&_nc_oc=AdmHB9Xs5KDCNm5irdQJTIO2oLSnRta1imMjxQ7UixwdnNCREqzkD23clHLzEW4eWqc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0nxSp_3g4b8GqJtsj5PcOw&oh=00_Afiua1UiGWZfA_vxXNyONYRTRPfnvdYWf3L0g9PzCLhj4A&oe=69311C35)
 
 #### Tracked quest type
 
@@ -188,7 +188,7 @@ player.setAchievementComplete(qValue, true)
 
 During development, you can reset quest data through the Desktop Editor. In the **Systems menu**, select **Quests**.
 
-![Image of Quests Panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487535454_686408247230463_3608203584826513381_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=lIQ_aoDnsn0Q7kNvwGKekRs&_nc_oc=AdmX1Raa_e9IlfdaZHQzl5aLP8k4H-zdSIjqOPNMUilg-howMpGYe7BmZVunMUt--2E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LSPhgRvmjiGyP6A669dc3g&oh=00_AfjGMh3l1LtJz4zyejVlXuCmx7U0ujhO1oBZ4_O3vfxn1A&oe=692FB6C5)
+![Image of Quests Panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487535454_686408247230463_3608203584826513381_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=VjG9FkDzKnQQ7kNvwE8jBHN&_nc_oc=Adn6x5HnRV-wT-HxaTwA3pbIwaQmT7BQtExAspAMFxNCYWQZG_gv36ar7ycKjLv4itA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0nxSp_3g4b8GqJtsj5PcOw&oh=00_AfhFboy7yLIM7MRppwOzw1zZ7ZHZ8rPGhNY20vUGOVXymA&oe=69314085)
 
 Then, click the highlighted icon below. In the panel, click **Reset all quests**.
 
@@ -200,7 +200,7 @@ End users who do not have access to the Desktop Editor cannot reset their quests
 
 In this world, the following entities have been added to enable the player to reset quests:
 
-![Image of entities to trigger resetting of quests](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487757061_686408193897135_7032691920648874349_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=DOr8A3N6SY8Q7kNvwGIRvaR&_nc_oc=AdlEAmWqpSZ1Nd4VOYukcdQSB0cf7I48v4KtS55sMovGuHtFQThiiQPeMvyD66xEhGc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LSPhgRvmjiGyP6A669dc3g&oh=00_AfhxpALPpEP4emq9AUjKs8sevCp2FKVHZmkc5G9Zn8sMKQ&oe=692FA078)
+![Image of entities to trigger resetting of quests](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487757061_686408193897135_7032691920648874349_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=DOr8A3N6SY8Q7kNvwGIRvaR&_nc_oc=AdlEAmWqpSZ1Nd4VOYukcdQSB0cf7I48v4KtS55sMovGuHtFQThiiQPeMvyD66xEhGc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0nxSp_3g4b8GqJtsj5PcOw&oh=00_AfgajYR4ENT8tDBznhxz68rC1tVwuUYYDBvtTo_5lwvTXw&oe=69312A38)
 
 **Entities**:
 

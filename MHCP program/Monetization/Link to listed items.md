@@ -4,11 +4,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 Once you have created an item and allowed people to acquire it outside your words, you can amplify its visibility and drive engagement using listing and storefront links. A link is a shareable URL that can be pasted on various platforms like Facebook, Instagram, and other locations to help increase user engagement.
 
-![Shareable surfaces example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/538138940_798525679352052_3230805306293323935_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=3fLixX343o8Q7kNvwE9Cxh0&_nc_oc=AdkwFVDi1bIzHS5XFl5QJm_wj-6VWXZEi5kjOtL6RisY2PtFolOPxZhv08mHOG521NU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vbNquw0RV_tIcl493hR68A&oh=00_Afjrqy19u2EhNdzqQ_dZIoeep5pqDyTSupDbeBR7qi361A&oe=692FA997)
+![Shareable surfaces example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/538138940_798525679352052_3230805306293323935_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=mQDK9KuxU-YQ7kNvwEgeE-G&_nc_oc=Adn1jszhIT3t5Nq_ThrrBdcPXRU7g1QMhWCqWPJnOIUCvaVLw86QY1m1YM9exHqT7L8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=WSAVS7SyZCOZbBeT77U3_g&oh=00_Afjf5Brr7zYGONGkZhDf4jOoXuYQXNUyYikE34k2f2mRyA&oe=69313357)
 
 When used well, item listing links and storefront links can maximize the reach and impact of your created items. By strategically integrating them into your promotional efforts across various digital channels, you can significantly boost visibility, enhance user experience, and ultimately drive greater success for your creations.
 
-![Item links example](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/536281174_798525692685384_4523635910421786742_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=3-XXfX-ZxtgQ7kNvwG2b7Pi&_nc_oc=AdlFmb84h5pP-swN_NzHRhmW6UuHjfE9m3UJkZV_HHpjxgVUoPYTHMuCwqJp1IVLDO4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=vbNquw0RV_tIcl493hR68A&oh=00_Afi_YBBpEgY_RY0SJst9PHGkLt3NCw-xBfk33wfcHQnNPw&oe=692FCC96)
+![Item links example](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/536281174_798525692685384_4523635910421786742_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=3-XXfX-ZxtgQ7kNvwG2b7Pi&_nc_oc=AdlFmb84h5pP-swN_NzHRhmW6UuHjfE9m3UJkZV_HHpjxgVUoPYTHMuCwqJp1IVLDO4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=WSAVS7SyZCOZbBeT77U3_g&oh=00_AfidocYqudHYpZ8RU21UpVHpufi_yy3lC0z9ElAKqdkvRA&oe=69311E16)
 
 ## Copy an item listing link
 

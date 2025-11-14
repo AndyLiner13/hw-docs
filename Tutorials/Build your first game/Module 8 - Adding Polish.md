@@ -10,7 +10,7 @@ For a nice bit of polish on this game, we can add text to help players understan
 
 From the desktop editor menu, select **Build menu > Gizmos > Text Gizmo**:
 
-![Screenshot of Text gizmo in the world and its Properties panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489116915_692135286657759_3860821810156638796_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=_MQBCXH7VQoQ7kNvwGCcAPP&_nc_oc=Adlq1ioZHedQIrxfObeOY-pMJkOOkPrKDTVZSw7cVYFddrVkX-yR1ZZwxVjDVsjSXYU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rjfh_CDf1xlWpSQWX-zYVA&oh=00_AfgRYFEfjagwdzwgNusDWeK-tCFa6NzkUL1EI2Ot3Njdkw&oe=692FC7DB)
+![Screenshot of Text gizmo in the world and its Properties panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489116915_692135286657759_3860821810156638796_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=_MQBCXH7VQoQ7kNvwGCcAPP&_nc_oc=Adlq1ioZHedQIrxfObeOY-pMJkOOkPrKDTVZSw7cVYFddrVkX-yR1ZZwxVjDVsjSXYU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6aasue1JuGow3LoZtQ4aYA&oh=00_AfgD7zNh1rczntYKxdoSADE_T_mWM0n2Mi4Xc9-TZlr8qw&oe=6931195B)
 
 Click the Text gizmo block in the main window to select it.
 
@@ -34,7 +34,7 @@ static propsDefinition = {
 
 In the main editor window, connect the Text gizmo entity to the `GameManager` by selecting the game object and using the properties panel:
 
-![Screenshot of selecting Text gizmo in the Game Manager entity's properties](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/489976951_692135309991090_8410354111768044626_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=85ERYoE9z2oQ7kNvwEzeqmI&_nc_oc=AdlodU4COfH9SVpZ3sf72pdmkTPdvL1Q6m4EDf3qWzkCOsEYH5rojXzasCo_9SEkc5Q&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=rjfh_CDf1xlWpSQWX-zYVA&oh=00_Afh7IGCIdVCMa17lu3wSR3dIZ24dBwHx-3Q3NYrGzX6xVQ&oe=692FC9A6)
+![Screenshot of selecting Text gizmo in the Game Manager entity's properties](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/489976951_692135309991090_8410354111768044626_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=fZm5ZgWJUkIQ7kNvwEGKiea&_nc_oc=Adl3Rb-qKao-u70aMKacjcbKmI9A8rKr1wIEO96lBKGjPR8nEn6qzHqjFysZUDIM92k&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=6aasue1JuGow3LoZtQ4aYA&oh=00_Afh1XWX-QGqs7SNkxfC4CN4rIeDkLpawuaGx67MQtXcm2g&oe=69311B26)
 
 Let’s create a single class method to update the Text gizmo, and let other functions in the `GameManager` call this method. In the `GameManager` script, create a function named `updateScoreboard()` that takes a string argument:
 

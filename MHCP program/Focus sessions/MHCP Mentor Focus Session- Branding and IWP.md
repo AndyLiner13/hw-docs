@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # MHCP Mentor Focus Session: Branding and IWP
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_500362059278008_706146650508086327_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=bAQH5B8_9ZgQ7kNvwHv2688&_nc_oc=Adn6uRezwBgyYYmXiJ4oEDqS_jlbXhTL8Jc08QqbnOYHYC8wPoGOkoDmVAtsgervw8Q&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=piMBlea32mOG4B_NF0YjNA&oh=00_Afh3TkKg4HeqSJbG2pJHLAwjwljdqN1ZhkpahLLwk17oQA&oe=691B5DB9)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_500362059278008_706146650508086327_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=T5eCsc_4oDAQ7kNvwFVBkjW&_nc_oc=AdnugAcZjrjvVMXk8gFTL80IzKX1jiD8elPFynhpfj0SVB6cCq8yeUuUxRFEgQ8BH9g&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=BR3cT9A8YdE1vTltiP5waA&oh=00_AfiRoZfuDD7qd9xDAkKwpNlZdcDd7E4oktvDGYpitBlKlw&oe=691CAF39)
 
 Learn more about **branding and IWP techniques from Meta Horizon Creator Program mentors** who dive into how these tools and tactics have been implemented in their own worlds as well as a few others.
 

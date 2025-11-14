@@ -58,7 +58,7 @@ These are one-time rewards that can be earned as creators grow their mobile worl
 * [Learn how to adapt your worlds for mobile devices](/hw-docs/MHCP%20program/Focus%20sessions/MHCP%20Session-%20Deep%20Dive-%20Meta%20Horizon%20Worlds%20with%20Andy%20Sargeant.md)
 * [Crash course on designing mobile-first worlds](/hw-docs/MHCP%20program/Focus%20sessions/Mobile%20worlds%20crash%20course,%20part%201-%20Getting%20Started.md)
 * [Viral games ideas for mobile worlds](/hw-docs/MHCP%20program/Focus%20sessions/Mobile%20worlds%20crash%20course,%20part%202-%20Viral%20game%20ideas.md)
-* [Proven engagement strategies to expand your audience](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/scaling-success-on-mobile/)
+* [Proven engagement strategies to expand your audience](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/scaling-success-on-mobile)
 
 ## Bonus enrollment
 

@@ -11,32 +11,32 @@ A custom 3D model is composed of multiple files, all of them must be specified w
 
 For example, you need to import five files in order to import this rifle asset:
 
-![Image shows a 3D model of a futuristic rifle](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/469383086_604977648706857_1533817991015737609_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=VkybNtPXCm0Q7kNvwH_GxZJ&_nc_oc=AdlGiCcsZKTEkmizXqHLc8l6sMzFSO6AFykcDrERY5YF_9lnODD83GjXWvfJdU8Y_ZI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=G3-CjhUe1A9sD6i4ZfS7aQ&oh=00_Afilm6g_CWR2cvehgf-1fe4cYvkZSDnBhBwd7EFTVcBjZw&oe=692F986A)
+![Image shows a 3D model of a futuristic rifle](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/469383086_604977648706857_1533817991015737609_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=VkybNtPXCm0Q7kNvwH_GxZJ&_nc_oc=AdlGiCcsZKTEkmizXqHLc8l6sMzFSO6AFykcDrERY5YF_9lnODD83GjXWvfJdU8Y_ZI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=6rWZygd0V3gAhlSz0IFIsQ&oh=00_Afhq3c_bFvMbGa7KAqdi5_3JAaUAfOjo-2Car5fle1mE8g&oe=6931222A)
 
 ## Import a custom model asset
 
 Follow this procedure to import a custom model asset, spawn an object from it, and add it to your scene.
 
-**Note**: To complete this procedure, you need a custom 3D model (an FBX file and one or more PNG texture files) to import. If you don’t have a 3D model, you can get demo assets [here](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/57572945_551676440543626_8228778286502058757_n.zip?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4kUF2spOTiMQ7kNvwFpoUkQ&_nc_oc=AdlwAKMXDVe9JrOCiFP20XspS-og2thSwT8LRA_6JC1uh3PZK8p9maRFKiGKearIuB0&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfjfBn3vWVBX3kY2FQfB54qKAB2-6m9cmHnBzEyTcAwjSA&oe=692FC3C5)
+**Note**: To complete this procedure, you need a custom 3D model (an FBX file and one or more PNG texture files) to import. If you don’t have a 3D model, you can get demo assets [here](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/57572945_551676440543626_8228778286502058757_n.zip?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4kUF2spOTiMQ7kNvwFpoUkQ&_nc_oc=AdlwAKMXDVe9JrOCiFP20XspS-og2thSwT8LRA_6JC1uh3PZK8p9maRFKiGKearIuB0&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afh-ncGVmr2wOXXYfEfAoO_1pdVfS4WyuS5pXxooLnGrEw&oe=69311545)
 .
 
 - From the Desktop Editor, click the **Asset Library** tab at the bottom of the screen and select **My Assets**.
 
-  ![Click on the Asset Library tab to open the Personal Asset Library](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/463982802_573870205150935_1936916611175683589_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=JCiR1KiItrUQ7kNvwFD3tl5&_nc_oc=AdmTL55CP-XbLTK2K-_x3ix-BvGutA1kHWE10msIwpZJSfrF1J4IShdmsCFLKquWh60&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=G3-CjhUe1A9sD6i4ZfS7aQ&oh=00_Afg7H4QBrXTOFrBwEb806naEpKAIyrZkfNUfIlVdcUYY9g&oe=692FAAA2)
+  ![Click on the Asset Library tab to open the Personal Asset Library](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/463982802_573870205150935_1936916611175683589_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=JCiR1KiItrUQ7kNvwFD3tl5&_nc_oc=AdmTL55CP-XbLTK2K-_x3ix-BvGutA1kHWE10msIwpZJSfrF1J4IShdmsCFLKquWh60&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6rWZygd0V3gAhlSz0IFIsQ&oh=00_AfidGFZvH5ioFps7qFF0qfFqAQPX4G9-igcFwJQQIuaSsA&oe=69313462)
 - Add a new asset by clicking **Add New**, and select **3D Model** from the menu.
 
-  ![The Import Models dialog box appears](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469364005_604977652040190_8339871927361378787_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=XI8nuK_fvxEQ7kNvwEaAYVf&_nc_oc=AdlFQhEa7HS5Q4hRN91UMVu1DUV011QYGl9--jz36oYeMZkITyQRHXCgzdogCgO55T8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=G3-CjhUe1A9sD6i4ZfS7aQ&oh=00_Afgpitg0VtyKt0MUKYG3-H478rXEx3Ya4jox_zBh1CgheA&oe=692FB8EA)
+  ![The Import Models dialog box appears](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469364005_604977652040190_8339871927361378787_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=XI8nuK_fvxEQ7kNvwEaAYVf&_nc_oc=AdlFQhEa7HS5Q4hRN91UMVu1DUV011QYGl9--jz36oYeMZkITyQRHXCgzdogCgO55T8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6rWZygd0V3gAhlSz0IFIsQ&oh=00_Afg3I0Gk7HXVWOLIwBcKO6nwstu6pKl3zfP3yDRjRUzIxw&oe=693142AA)
 - Select the asset files to import by clicking **+ Choose files on your device** on the dialog window that appears.
 - In the file picker window, select the 3D model file and associated texture files; click **Open**.
 
-  ![Select the five asset files](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/464310803_573870025150953_4833471769077242766_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UU0znRx0bCYQ7kNvwGCj-w8&_nc_oc=AdmzGlo225MAYu12aIa2rMQSSIawkpPTZg3L88EceYDW4o0PBJydnrOrrP2wG2D75cs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=G3-CjhUe1A9sD6i4ZfS7aQ&oh=00_Afhaz5v29EQBWOdBRv5kcKI2EhPjL_D7e_11LpgBXdCMlg&oe=692FB6E8)
+  ![Select the five asset files](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/464310803_573870025150953_4833471769077242766_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=3DIefsUyXskQ7kNvwFyYIgt&_nc_oc=AdmQ8A00A9iiJIwIX8DfhaS5nXi9EyUe3oXgSu5J4d_YN6swnZwN9hTonVNHZE6ades&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6rWZygd0V3gAhlSz0IFIsQ&oh=00_AfjiKBjHR2KagDiaTNtcLLla1W-jgLw1MduWhns6u8wiPw&oe=693140A8)
 - In the dialog box, click **Import**. The following asset icon appears in your **My Assets** folder when the process is complete.
 
-  ![This is what the rifle asset looks like after you import it](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/464292127_573870045150951_3415127998518177098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=VDJ2dYGi-icQ7kNvwH2aV3q&_nc_oc=AdkcT3tXgqZwJ96iAHEzZ_igl8U5WCNDL_t2ciJWFF5FyfFRbef2OjmIt7V3i3Fz48w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=G3-CjhUe1A9sD6i4ZfS7aQ&oh=00_Afiv4MuXnufiz9vqvUpSkTbaxZEh92Hs0yXNb1Zb0ZYcOA&oe=692F9803)
+  ![This is what the rifle asset looks like after you import it](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/464292127_573870045150951_3415127998518177098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=pEYOc9mQJDUQ7kNvwHzNiVw&_nc_oc=AdmL9N2FUwpSp3OIk_OFIG4Wy71FHGXkwvdpT5xwFrm6rE8k_8emKED7eNobRdV5E-I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6rWZygd0V3gAhlSz0IFIsQ&oh=00_AfgImLHrJQBAItvZpEAp3MCqWR47wuBCjwjfJDPsesY6Zw&oe=693121C3)
 
 Spawn an instance of the asset by clicking on the icon for the asset, dragging it into the scene, and dropping it anywhere in the scene. A rifle object appears in the scene, and in the hierarchy.
 
-![The rifle floats over the pedestal](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/475232756_641654861705802_4132254507512158168_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=joYASGtMBwsQ7kNvwHNPOCd&_nc_oc=AdkIdP_UR2XsK24GJDYeADbNxMbM0qh52QhzwZjEVLyHhHE8J78-w2qs5-KsNHXU7pA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=G3-CjhUe1A9sD6i4ZfS7aQ&oh=00_AfjUhxoTfLyQTKCYZ6tAFw86R6nx4VFBLmE-naeOkkIwfg&oe=692FBA57)
+![The rifle floats over the pedestal](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/475232756_641654861705802_4132254507512158168_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=c13_GnRbddQQ7kNvwE2J3TR&_nc_oc=AdmJ5XRpNQxtmNBOcIqbHbojC4CESdw3LX5OY962xkS4NE7CDvjpWzsR7rgfsW5HT9E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6rWZygd0V3gAhlSz0IFIsQ&oh=00_AfgmpXFpGs2lsPJO5JdXODyxZ1ezh2TgWC0q4zKJvmHKpw&oe=69314417)
 
 ## Custom model workflows
 
@@ -87,4 +87,4 @@ To learn more about Meta Horizon Worlds, try the following:
 - If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/hw-docs/Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
 - Learn about the desktop editor with the [Introduction to the Desktop Editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 - Learn about the other tools available by reading our [Tools Overview](/hw-docs/Get%20started/Tools%20overview.md).
-- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.
+- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

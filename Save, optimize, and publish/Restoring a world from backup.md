@@ -13,7 +13,7 @@ To manage your backups in the desktop editor:
 - Open Meta Horizon Worlds in Desktop Mode from the Meta Quest Link app on your PC.
 - Click the **My worlds** tab in the left navigation bar.
 - Choose the world you would like to restore from backup, select the three dots next to it, and choose **Backups**. A list of backups for that world appears. By default, each backup is labeled with the date and time it was created. You can edit the name and description of each backup by clicking the pencil icon next to it.
-  ![Restoring a world from backup in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/490065536_692067243331230_7444377862867920864_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=JWh2EcOkDFIQ7kNvwF6SRJs&_nc_oc=Adn2_djmnqfRqvyt_r9v2pNr6WrjdVGRkLrp-ekDzDRG5E_sBzMJ9vY1wfd2u97XW38&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ETEJF3r4tnWxTHJ24Wh6KA&oh=00_AfiXAKS-QkQY9fe3UWl9E5Q9NMXFxQdno36SvBbfeH5jeQ&oe=692FB354)
+  ![Restoring a world from backup in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/490065536_692067243331230_7444377862867920864_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=JWh2EcOkDFIQ7kNvwF6SRJs&_nc_oc=Adn2_djmnqfRqvyt_r9v2pNr6WrjdVGRkLrp-ekDzDRG5E_sBzMJ9vY1wfd2u97XW38&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7tE_ucGVGqa6GmvGgvJZ9g&oh=00_AfjyLOUxYaY7ueO6IBT0U2cP3Vq4I1dXXXVQJRVX2fN5Kg&oe=69313D14)
 - Click the **Restore** button next to the backup you would like to restore. A confirmation window appears.
 - Click **Restore** to confirm the restore. The world is restored to the state it was in at the time of the backup.
 

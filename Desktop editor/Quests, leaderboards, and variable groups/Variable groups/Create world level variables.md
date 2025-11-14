@@ -11,7 +11,7 @@ Use the following process to create a world level variable:
 - Select **Systems** > **Variable Groups** from the menu bar.
 - In the Variable Groups panel, click the **Create Variable Group** button, then name your created variable group.
 - After creating the variable group, click the **Create Variable** button. In the **Create Persistent Variable** panel, use the **Variable Type** dropdown to select **World Persistent Variable**.
-  ![Create Persistent Variable panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/517447534_760611476476806_2459560139301980966_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=aAbwmqWKVIkQ7kNvwE3H6oh&_nc_oc=AdkTBlfXcpXY-NK_DpNY4EOs7vIUnrvNnn_NU0vbM2_eWuAzMV7w35U7E7uCOrjP6sg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0vkkyidwS8avxxx_JjZP4g&oh=00_AfhE2rtQMZOsmB4a8I1uJbmLh2eh8QV3YyP-0fYMeA9yaw&oe=692FB692)
+  ![Create Persistent Variable panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/517447534_760611476476806_2459560139301980966_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=tUPixIFcSgYQ7kNvwGIIYeN&_nc_oc=Adlp1wN51Y1zBeXaJKhY-l1CvL-LGLpdH2HK8ezdq6OQMHMsh5KfeQRC65-6H_an94Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9H2usFO4NNacQ1AAzkhZQg&oh=00_AfhRSSJT422A-bgBFpYnU4WZWEG0tfrc9AHFyYq5_KF_tw&oe=69314052)
 - Next, name your created variable and select the **Data Type**. You can choose from the following data types:
   * Number - used by world counter APIS to save community activity counters
   * Object - used by world variable APIs to save complex world states

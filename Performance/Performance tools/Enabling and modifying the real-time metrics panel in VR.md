@@ -19,10 +19,10 @@ To enable and view the Real-time metrics panel:
 - Open the PUI and open **Settings**.
 - Click on the **Utilities** tab and enable the utilities menu.
 
-  ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75221331_412831071878343_528955629382787019_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qivP9KZ3PYMQ7kNvwHHeeVu&_nc_oc=AdlGfQZd6ZfZPlEwwZpk7VHc-8z7xzF63EeWJ6sGH3o0GMKB2NLsoipB825BBxgODiM&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfjxpJaUz9smA1DAoAqp4GyIBooF4G8C_IyrDW6SvwVXpg&oe=692F9F9A)
+  ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75221331_412831071878343_528955629382787019_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=5HYXBtDT1cQQ7kNvwFIXWIu&_nc_oc=AdkrSJVwpF-WS7IxV1a8pD0m3jSmlyDCBPC04Tu8yj429KlTeZcrdNcQzjX27sg3478&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfjmHp9x5q2ULD4R-lakO6lr7i6jFFX1b8js6gXGF8lZJw&oe=6931295A)
 - Once the wearable is open, tap the **Real-time metrics** button under **Utilities** to open the Real-time metrics panel.
 
-  ![](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974631_1067404328005233_3978220469242024765_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zCZTllFvoYoQ7kNvwHRvT7C&_nc_oc=AdmkAYEtBwkmvQGd5RJwLuQutARF_wCSqXbU6alFC-xIAhhr038HnDKw-EvNjEVJPfg&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfgM9RQFfQkiSOopQEwxC2S3TRbaabDRgXQyWwOfjUxgYg&oe=692FC5D3)
+  ![](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974631_1067404328005233_3978220469242024765_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zCZTllFvoYoQ7kNvwHRvT7C&_nc_oc=AdmkAYEtBwkmvQGd5RJwLuQutARF_wCSqXbU6alFC-xIAhhr038HnDKw-EvNjEVJPfg&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfgH844Qf6Zv7IIrIbQPjPO_sS0W5_m25NnQL3TWladcIQ&oe=69311753)
 
 ## Real-time metrics settings
 
@@ -34,23 +34,23 @@ To change the position of the Real-time metrics panel, open the display settings
 
 Select a position from the **Position** drop-down in Display Settings. You may choose from **Top Left**, **Top Right**, **Bottom Left**, and **Bottom Right**. This snaps the Real-time performance metrics panel to one of those locations in your view.
 
-![](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974744_882757683924270_5831926352659266548_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=aYyheEdoQRUQ7kNvwGGyNix&_nc_oc=AdlcUlvAXx0qdUi1kjRH_Oy3juQA1CACmC_oeG9TKaK5Ptr2luULqvX4oSn5tuV8jBw&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfhgDK9sLWFd9X_YaYebzTZB1FQy1gw5B_B1dYoUjxzCpw&oe=692FB994)
+![](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974744_882757683924270_5831926352659266548_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=0xx2oMLhwQwQ7kNvwG7n_Dy&_nc_oc=Adlt-f3fa2PV0siVEp7KPpHCN25mHNuJOtOvTdUA_m_43rr9UzT_r9xP1wv3KfXdWkc&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfgZ86KngCD1tsluCud5sUwYv77sxDLP3eNPUmuyp860Hw&oe=69314354)
 
 ### Moving the panel by dragging
 
 You can grab the white bar below the Real-time performance metrics panel by using either trigger on your Quest controller. While holding down the trigger, you can move the panel by dragging it.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982480_2356130594723696_3190464533623185518_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=aETtobvxszsQ7kNvwG9shjo&_nc_oc=AdmmNif0kzw6e5qL6LP9RRW_hJmmHLNAFVxVbS1FJJi8ZNu8O24nC6b8qATA17H6wtU&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfjYdqXWn06RL7LcW_reqoeGM-VmSc_RuB88c7nGrk-mTw&oe=692FA56A)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982480_2356130594723696_3190464533623185518_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=aETtobvxszsQ7kNvwG9shjo&_nc_oc=AdmmNif0kzw6e5qL6LP9RRW_hJmmHLNAFVxVbS1FJJi8ZNu8O24nC6b8qATA17H6wtU&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfgqHCRw4ppYfG4VXgYz1YTTqiepy4fHpt3dU68wbNTWZw&oe=69312F2A)
 
 ### Minimizing
 
 You can minimize the Real-time metrics panel by pressing the **Minimize** button to the right of the settings button.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908638_512511004620189_8010726655815462318_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=g7ybIDtrrOsQ7kNvwFE77XM&_nc_oc=AdmD72iYcEhpZta_Qc9-XDq_uG46uJiwbroS5zLv7_aM_npJwoiKYQHXwzB-MGmsxNA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_AfiWjCmy4aKbsgmlKmtuv_ziOYB9crjoNBbQyl5pwTznEw&oe=692FAA12)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908638_512511004620189_8010726655815462318_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=g7ybIDtrrOsQ7kNvwFE77XM&_nc_oc=AdmD72iYcEhpZta_Qc9-XDq_uG46uJiwbroS5zLv7_aM_npJwoiKYQHXwzB-MGmsxNA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=oC0G2qwMPTsnZyCJ_ZJu2A&oh=00_AfiGr0zIzwnY54-Z_15BCJgFWg1bpfSKTZ_S0CO7hEwelg&oe=693133D2)
 
 Once minimized, you can restore the panel by clicking the button again.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452878096_512511011286855_1703699843646074445_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Mw0kIoiIoCIQ7kNvwGF8mMi&_nc_oc=AdkVTopVK0pcuuaDbn-0k-RWSGt9-rs9jihnSsQGf9cRaO2IMePe5scuZs2yuioNrRk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_AfjGAmRfjPX6I_goU_gL0CHFMia05VwvzdCaD553NRRmJA&oe=692FCA67)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452878096_512511011286855_1703699843646074445_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZR3jaV6GVAcQ7kNvwGzavxd&_nc_oc=AdnKVX1kDsRJPOHWuarv6vSX3M1aA_FFvGerupAymyhxR9G7VKxCj4C9tI5NwXvnWA4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oC0G2qwMPTsnZyCJ_ZJu2A&oh=00_AfiHl2Zwa2fm4wXlpiQ43bDT-GvfzxfNkDPhQX-VC-SrIw&oe=69311BE7)
 
 ## Real-time metrics graphs
 
@@ -58,7 +58,7 @@ Once minimized, you can restore the panel by clicking the button again.
 
 Press the **Settings button** on the Real-time metrics panel to open the display settings.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452533145_512511021286854_2123017630617824131_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=CFBv_rndVdIQ7kNvwHK36Le&_nc_oc=Adn0oB5Uoc2BXBt2Q9Q7OTxsGzrP6INgv8Ai6rMHXu4IUmrz0DvguGr1T2fwGp_rr8U&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_Afg3blu55C8o4PaoYRnQnUCazOQa9gUy6kW8IeBC5MlwrQ&oe=692FA71A)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452533145_512511021286854_2123017630617824131_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=CFBv_rndVdIQ7kNvwHK36Le&_nc_oc=Adn0oB5Uoc2BXBt2Q9Q7OTxsGzrP6INgv8Ai6rMHXu4IUmrz0DvguGr1T2fwGp_rr8U&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=oC0G2qwMPTsnZyCJ_ZJu2A&oh=00_AfhRhzNPBoNRTRBMO8Scl1Z6pS_MIWK1kxVyUFiUWdKaRw&oe=693130DA)
 
 Under Graphs, there are checkboxes for the metrics that are available.
 
@@ -68,7 +68,7 @@ To add a metric to the Real-time settings panel, open the display settings, hove
 
 If you attempt to select too many metrics, you receive a notification informing you that you have reached the maximum number of metrics that can be viewed at once. In order to add more metrics, you must first deselect one or more currently displayed metrics using the same process you used to select them.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031328_1099726101568625_685785638073979096_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=762WqSOsyaoQ7kNvwH-5GQs&_nc_oc=Admv4oPsAep9_6jXc3QApovA3em-x5P0lkD87NXGE2EJijwj_qkFwXLvAEuLBGjkLrQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfhGYjeH8bkxfM6nqyH1B-9JU3qB0TqlaAhQy7hCYBG58g&oe=692FB68B)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031328_1099726101568625_685785638073979096_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=762WqSOsyaoQ7kNvwH-5GQs&_nc_oc=Admv4oPsAep9_6jXc3QApovA3em-x5P0lkD87NXGE2EJijwj_qkFwXLvAEuLBGjkLrQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afg1qGG2VV9bJqyFEelSUux4Y3amxrcTBLKTxeDhj_8j5w&oe=6931404B)
 
 ### Changing metric targets
 
@@ -76,11 +76,11 @@ You can set metric targets to signal you when they exceed the desired target. Wh
 
 To set a metric target, enter the target value into that metric’s **Target** field in the display settings.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751583_512511007953522_2305521818675487697_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=r0tUx63uyi0Q7kNvwGxOcHp&_nc_oc=AdnFG_P_AjTibwlKsTIyoBXqhUU3l8l67KG8xyf2UHg70-8SHmE_M4GSZbAvv5BITOY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_Afi7MFjztGPDVWlrbZxFtvJk5am41OOwlV7YUVK_GJsjmg&oe=692FCAEA)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751583_512511007953522_2305521818675487697_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=r0tUx63uyi0Q7kNvwGxOcHp&_nc_oc=AdnFG_P_AjTibwlKsTIyoBXqhUU3l8l67KG8xyf2UHg70-8SHmE_M4GSZbAvv5BITOY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oC0G2qwMPTsnZyCJ_ZJu2A&oh=00_Afg7eeZ50hax9Dyz0w2Ai-hJuwE0z2DFU7r_ZVWSzb5GLA&oe=69311C6A)
 
 In this example, the GPU target is lowered to 2.0 milliseconds, which causes it to become highlighted red in the Real-time metrics panel for as long as the average GPU is over the new target.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452969475_512510964620193_4730754506581568060_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=3Ak0sZcVoaYQ7kNvwEgZF6g&_nc_oc=AdkDVGCBgz0GlfzeCmoAIh3UpB2jOtC1i7vEG9Ik74K77K26IRDFC2dFKmyEjrh7V4E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2dGC37LLBG7CxYehjXHS8g&oh=00_Afjb9ugkZv86zrY2SfBMs-OmpOOC1lsexW21novi3RLDSg&oe=692F9714)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452969475_512510964620193_4730754506581568060_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=TG8YRAnTCNsQ7kNvwHPdLyw&_nc_oc=AdnQ-zbT18rmuIxSyMtzfKR0e6tV6LvjW-j2_OojiUi4_F2Uf6Izp-ANDieOyzYmASs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oC0G2qwMPTsnZyCJ_ZJu2A&oh=00_Afj4NnJvCOE_BLwyfIZtc94U-MZMlZAWAvXIT28947YjOg&oe=693120D4)
 
 ## Real-time Metric Descriptions
 

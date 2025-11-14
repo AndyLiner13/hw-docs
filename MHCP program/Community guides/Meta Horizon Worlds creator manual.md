@@ -1,4 +1,4 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual
+Source: [Meta Horizon Worlds creator manual](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md)
 
 # Meta Horizon Worlds creator manual
 
@@ -35,7 +35,7 @@ You use the Desktop Editor to edit worlds, adding content and scripts to build o
 
 ### Publishing and Player Settings
 
-**Publishing**![Image shows the publish world window with a message stating that a genre tag must be selected](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480830190_656797526858202_6486575020987318744_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=iYp9_vG8veMQ7kNvwFCDOo7&_nc_oc=AdkQFlQRg5FnVvIeM4vSxldlpnj9iOy10GAAuRfijUXfE-zH3abilRL1JI61FxWNv9U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfjOhHRyYpszXrWoW5ikdl7QCmgCg7NDZT_3-rBDj7IXFA&oe=692FA576)
+**Publishing**![Image shows the publish world window with a message stating that a genre tag must be selected](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480830190_656797526858202_6486575020987318744_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=iYp9_vG8veMQ7kNvwFCDOo7&_nc_oc=AdkQFlQRg5FnVvIeM4vSxldlpnj9iOy10GAAuRfijUXfE-zH3abilRL1JI61FxWNv9U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfjB2b9NcvbRTozlxn-r9iNLYaFjTa-iOwQkx4Btrp3-_w&oe=69312F36)
 
 | Field | Description |
 | --- | --- |
@@ -207,7 +207,7 @@ The Editor Instance
 
 There is only ever (at most) one **editor instance** of a given world. When that one instance is full, no other editors can load the world to edit.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849720_656797523524869_5636069937135617719_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=wR4AxCq4aNIQ7kNvwEnPUmN&_nc_oc=Adm_fNKee2r8iIAe2lJMb9n3tR6rOlfAlOqHJcO1i4HJfI0d_tHquslajl_7O673DZM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfiWvL4vGGkRbG-v52Pi8YngtudcrU47mLAut2FbOMOFJA&oe=692FAACC)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849720_656797523524869_5636069937135617719_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=wR4AxCq4aNIQ7kNvwEnPUmN&_nc_oc=Adm_fNKee2r8iIAe2lJMb9n3tR6rOlfAlOqHJcO1i4HJfI0d_tHquslajl_7O673DZM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_Afj2k1S2Nrkj0oaUqRboCXYk3_QVD_E3CNkMPJT9CVThEA&oe=6931348C)
 
 ### Travel, Doors, and Links
 
@@ -300,7 +300,7 @@ They **behave differently with the [projectile launcher](/hw-docs/MHCP%20program
 
 **Left-handed**. The coordinate system is *left-handed*, meaning that if you position the camera so that the positive y-axis is pointing up and the positive x-axis is pointing right then the positive z-axis points forward.
 
-![Diagram showing coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481024720_656797420191546_2462169612641144284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=E5ycXpTvPVcQ7kNvwGKnRQu&_nc_oc=Adn1q_Zeiaa_Xt2p7A_KVwIkVAJqnjbWEvIwCGwFAT7Sa8vcQx3agz67H8eKc9n3yuQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfhbQP2xJY6CvQeYIxOMeA22AGAwptp5rfnqBUzeoE3JUQ&oe=692FAFC7)
+![Diagram showing coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481024720_656797420191546_2462169612641144284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=E5ycXpTvPVcQ7kNvwGKnRQu&_nc_oc=Adn1q_Zeiaa_Xt2p7A_KVwIkVAJqnjbWEvIwCGwFAT7Sa8vcQx3agz67H8eKc9n3yuQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfjzqoaLmj6hkMGMZ3_go2Fl4UToPOcNn3U-NbiEmwN1VQ&oe=69313987)
 
 #### Local coordinates
 
@@ -310,7 +310,7 @@ Every [entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20World
 
 The *forward* axis of *a player head* is always pointing away from their face (parallel to their nose), its *right* axis is always point “outward” their right ear, and its *up* axis is pointing out from the top of the skull. When the entity or player body part moves, the origin of these axes move; likewise the axes rotate along with the entity (so that the *right* axis always points out from the right ear).
 
-![Example of coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480611159_656797476858207_8234151886777029936_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=BaGdZQSWJ-YQ7kNvwHlnHHd&_nc_oc=Adk9z2iM_QlB6JollUOMdcq2ggwTgO2WBBvmKie-_RoyZ5O3e-1gu3wNiQsZvt1ZkhE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_Afis1Ram7p-j74UebqQcMopxLuDRWNg_gSHWm-uD_QIN-w&oe=692FA7CF)
+![Example of coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480611159_656797476858207_8234151886777029936_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=BaGdZQSWJ-YQ7kNvwHlnHHd&_nc_oc=Adk9z2iM_QlB6JollUOMdcq2ggwTgO2WBBvmKie-_RoyZ5O3e-1gu3wNiQsZvt1ZkhE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfgX37ZtAWlMYIaBZnnLr0qHIZ-9K78D_hgmOOFZPD7RVA&oe=6931318F)
 
 **Meters**. Distances and positions in Horizon are referenced using meters. For example, the position `(0, 1, 0)` is 1 meter (roughly 3.28 feet) up from the center of the world. Avatars in Horizon are approximately 1.8 meter tall (5 feet 11 inches).
 
@@ -1406,7 +1406,7 @@ The **return type** of the `raycast` method is `RaycastHit | null`. The result i
 
 Here’s the algorithm that is used (it is [tag bubbling](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tag-bubbling)):
 
-![Entity tag bubbling algorithm diagram.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480737365_656797466858208_6408611987938000829_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=SvDLVSiEoCAQ7kNvwG2BCCT&_nc_oc=Adm1rRwisyyuxLY5RWhDnmujN_PXLfmamKrop4Iz2okPKSHgic0ND3-A4zT_Q6RjlnM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfgE2LNCDbGTDE05CC4V0bwMJJcNIzIgTImoxwGd0dSNBw&oe=692FC6EA)
+![Entity tag bubbling algorithm diagram.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480737365_656797466858208_6408611987938000829_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=0FECJru7bwcQ7kNvwHThAbX&_nc_oc=AdkBJrq9Z5YiGI4Eqn4YzspHm3ZZJ0a7ZtIhsnZCbUho0oEy4Goa4VNMmWpC0mqi3Kc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfjoAoLlK4yXTTOn1z0Vpnct0y83KaMgXkDnQeImie41Vw&oe=6931186A)
 
 Here’s the `RaycastHit` type, which shows the 3 bullets above, in code:
 
@@ -2463,11 +2463,11 @@ The following table assumes that `v`, `w`, `r`, and `out` are `Vec3`s; `s` and `
 
 The **dot product** is a fundamental vector operation that multiples the lengths of the two vectors together and then multiples in a “sameness value”; that value is 1 if they are parallel, 0 if they are perpendicular, and -1 if the are facing opposite directions (anti-parallel). If the two vectors both have length 1 then the dot product gives you a number between -1 and 1. The length of the dot product in general is:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=tcQZRaAn8lEQ7kNvwFtjhzS&_nc_oc=Adlyvcg6fnn1ue6Vc5UT--8yXYcW56gj4lJmnYUOmTrFqneUCbsFe2f7NFeerPxDpHs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfggnLSSOv8coO0Cyz6G3aYA7_mLtSD2YwOIeFijbNnTJw&oe=692FC74A)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=tcQZRaAn8lEQ7kNvwFtjhzS&_nc_oc=Adlyvcg6fnn1ue6Vc5UT--8yXYcW56gj4lJmnYUOmTrFqneUCbsFe2f7NFeerPxDpHs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfitAtkY5lqvb372a3GAaTVVRIq1PAcBeL3T6UupuL3tkA&oe=693118CA)
 
 where
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480737482_657839683420653_3915350552174156915_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=S6dYC8VA1ZoQ7kNvwF-pMrv&_nc_oc=AdnxNFTXbHyoZ7A6GLDImbX90hmmTNkAQtfmEevKrMgA7pgky2Ewz7S6MgaLOwwhxOI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfjCKvzTmY7d8EgytTbNkuI2GQyJH8ZyS-kHpOHZyQ9MYQ&oe=692FB675)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480737482_657839683420653_3915350552174156915_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=S6dYC8VA1ZoQ7kNvwF-pMrv&_nc_oc=AdnxNFTXbHyoZ7A6GLDImbX90hmmTNkAQtfmEevKrMgA7pgky2Ewz7S6MgaLOwwhxOI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfhPcz708boaF8POjRJ192HCWJVkSr99HsqMcxf2FrnHUg&oe=69314035)
 
 is the angle between the two vectors.
 
@@ -2489,7 +2489,7 @@ Common uses for dot product include:
 
 The diagram below shows the “projection of `v` only `w`” as the orange arrow; it’s like the “shadow” of `v` on `w`.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=tcQZRaAn8lEQ7kNvwFtjhzS&_nc_oc=Adlyvcg6fnn1ue6Vc5UT--8yXYcW56gj4lJmnYUOmTrFqneUCbsFe2f7NFeerPxDpHs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfggnLSSOv8coO0Cyz6G3aYA7_mLtSD2YwOIeFijbNnTJw&oe=692FC74A)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=tcQZRaAn8lEQ7kNvwFtjhzS&_nc_oc=Adlyvcg6fnn1ue6Vc5UT--8yXYcW56gj4lJmnYUOmTrFqneUCbsFe2f7NFeerPxDpHs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfitAtkY5lqvb372a3GAaTVVRIq1PAcBeL3T6UupuL3tkA&oe=693118CA)
 
 ##### Cross Product
 
@@ -2527,7 +2527,7 @@ Vec3.cross(right, up, result)  // Stores result in existing vector
 
 Vector reflection, via `v.reflect(n)`, calculates how a vector bounces off a surface. Given a vector `n`, it acts like that vector is pointing directly out from a surface. Then it takes the `v` and gives the direction after `v` “bounces” off the surface.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481015041_656797593524862_7262592726504005854_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ca5BfLcI5UcQ7kNvwG1rvhF&_nc_oc=AdlcPIzYxKqYa2FvcUYUoBXPwAgca9NqH3PnM8ct60eVGzUGCh9lysnCQCOdiheGaiQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_Afi3wSShRbJc2wD29Qn5oU8DntVUyOnZl245bxuODZMJdg&oe=692FCD51)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481015041_656797593524862_7262592726504005854_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ca5BfLcI5UcQ7kNvwG1rvhF&_nc_oc=AdlcPIzYxKqYa2FvcUYUoBXPwAgca9NqH3PnM8ct60eVGzUGCh9lysnCQCOdiheGaiQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfiC4ETAclTM2s7HJaCOnSmt7rDHg-5GZ99wFiWQImakHw&oe=69311ED1)
 
 Vector reflection is most often used for:
 
@@ -3047,7 +3047,7 @@ This is true for:
 
 The diagram below shows the full lifecycle of a component. All green rectangle boxes are TypeScript code executing during the [Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase). The [full breakdown a frame](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) gives another view into when all these actions occur and the [ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) section explains how a “move” is implemented as one component *tearing down* and then a new one *preparing and starting*.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480610569_656797566858198_2645415609124319419_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=k-UYCFyCM1kQ7kNvwE8euP_&_nc_oc=AdkG0LYvKN16ybdes8bR0vgEhw3irpUcAEnRImbGUvJdZ0Q0WXQStbkBkuxlWvNwVPk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfhlRqYV6NWBb3I4NBRFmqmuujMzGySXOfHX11HO4ejf3g&oe=692FA829)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480610569_656797566858198_2645415609124319419_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=TXXvoPg06xIQ7kNvwFuKFyE&_nc_oc=AdmBDjFbCj0mDK76a2P30QYgbfp8CiHXujw4l2WjORmz_nLAFIiYXdFTN89U48m2F64&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfgX3-l9RWE9UzznKcd5O88b8bB5NGeb8ZU0erPaQmavEQ&oe=693131E9)
 
 Connect to events in `preStart`. Send events in `start`.
 
@@ -3230,7 +3230,7 @@ All event types can be instantiated with **custom user-made types** by simply ca
 
 Here’s a flowchart that may help:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480762485_656797583524863_6769530497988193685_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=1XVIq_cbv9oQ7kNvwEZuu1r&_nc_oc=Adn6RKTmU-545skfisnNkIqaiViKw_WOtOHLIQ_hTr7uyGeKzOtS1QT2zXpkYd0GFbk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfihlxCfNmqpYVCjhJMrXPHj4byztZZVOTqBxO6R_kTceA&oe=692FB187)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480762485_656797583524863_6769530497988193685_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=cMYR2_tKJJ0Q7kNvwEPdnd9&_nc_oc=Adm0GqE82KrFpTG7FpUSvAKowl9oaOa45p3dzD3Zam6HOl6bnwJyHjbTMltmHvcjOQs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfhPqhKdqmj35hFISzSpDBCb3zf9d0gv3w7cK-_vbAa7rQ&oe=69313B47)
 
 #### Receiving Events
 
@@ -3691,7 +3691,7 @@ Every action in Horizon happens somewhere within a frame. Frames execute in 3 ma
 - **[Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase)**: Handles [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events), [LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events), and [NetworkEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events). Processes [player input](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) changes and runs [async callbacks](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers). Changes to the [scene graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) are committed.
 - **[Synchronization Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)**: Processes received [network](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network) information, sends out network updates, and renders the scene (if not the server).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480753109_656797426858212_8295246835889529619_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=J2LEoPSyLLcQ7kNvwGD-5mF&_nc_oc=Adm4QJ9FbHD2AenIWpq90Xb0eIX5Pby2lOg1H9b1IF9e1oW6JyMzqSGPTOGxZ58-AgE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfgqIibnGoBJEZ7ZDQpXdRGLjxHA4sj23W6Pt4Na3DN4FA&oe=692F967C)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480753109_656797426858212_8295246835889529619_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=-FnqgRjwdIMQ7kNvwF4jaSz&_nc_oc=AdlnU17nY2uNpO0lGB2jGGCmheTP5LvSiXnzmS2HlykkH5UBYovmNv3HyhZnvTNWtj4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfhmwnBXF2wYxvjVxXeT9V8aF_BplvNAA03vXssXWSvg-A&oe=6931203C)
 
 Script execution is \*single-threaded\* (long-running functions will 'stall' the script runtime).
 
@@ -4110,7 +4110,7 @@ The component is [torn down](/hw-docs/MHCP%20program/Community%20guides/Meta%20H
 
 In the process above (and diagram below) that if one of the players involved is the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player) then steps #3 and #4 are merged into just one step.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849120_656797436858211_4910455202806412283_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bxGdjaJjRVEQ7kNvwHMb5u8&_nc_oc=AdmCPlNfpSBhknQ3HuPMtP_Eyr5GmPT9g--AZBMvLFpxiHulfc5U0nl2D3ZSCGq7KtQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfjXu_H6EqVxxrHHOa_F6KQIZZmFzC8JuplitAZJatScMQ&oe=692FB31F)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849120_656797436858211_4910455202806412283_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=MgzCXWuLZ-sQ7kNvwGZyHv7&_nc_oc=AdmPKXNkrbB72RRMOf3B6PYG5gUE3uiPKLckeFf-a_-DkbDHy2MDmRyKP7g41SikmyY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_Afihk2slYrqpO6YMjVFuVB334QUUF7uDW_3Y1pN9noqQXg&oe=69313CDF)
 
 `getLocalPlayer()` and `entity.owner.get()` are different.
 
@@ -4358,13 +4358,13 @@ A high resolution mesh with a low resolution collider.
 
 Here’s an example of a mesh (a character’s face) that has a lot of geometry. It would really hurt perf to have Horizon compute collisions with the full face. So instead, a separate collider has been added (the icosahedron). This can be achieved by making the face with `collidable=false` and the icosahedron with `visible=false`. Or you could use the [sphere collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) instead.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480587385_656797580191530_2217575239024647133_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=lNDWJgHDuEcQ7kNvwGHbi8X&_nc_oc=AdlftdX5JTPZ47afXpqAR1BicW5e125B8RMjMuH4xJVhMp0QVFJ-xI_3D6i2_DIbf4E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfjQPgafbNeLBk8jglrKdUDjklrnu_9o8Nh0MWQZ66Q0JQ&oe=692FB344)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480587385_656797580191530_2217575239024647133_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=tr2mZjGB-QEQ7kNvwHq1fJY&_nc_oc=Admo9zkGI2bDzFXCOfjBZSUfNah6DvIUrmyO9n54V4v9AaGWgRMvc6h_TFwxKxNwu9Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_Afi5h_0J3Clw-GvNTw4igX5WH4uoW_kBLmMCcEAYquv8WA&oe=69313D04)
 
 ### Entity Tag Bubbling
 
 When Horizon is looking for an entity with a specific tag it performs a process we’ll call **tag bubbling** where it walks up the [ancestor chain](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) in search of an entity with the tag. This process is used in [collision detection](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) and [raycasting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480831061_656797576858197_2777501900950716303_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=BX2_jBi0nAUQ7kNvwGwt8kQ&_nc_oc=AdlzxO-C0hPDsJ20YsA96iuLUGXVf9F5LpHM5wMuzL-bnD4WGmoQozAL1cJgcz7kx-Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfgFzsb7LvNbHDEcmDFCKXAl--RVNM8dNH3Y33R41vprNw&oe=692FA5EB)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480831061_656797576858197_2777501900950716303_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=BX2_jBi0nAUQ7kNvwGwt8kQ&_nc_oc=AdlzxO-C0hPDsJ20YsA96iuLUGXVf9F5LpHM5wMuzL-bnD4WGmoQozAL1cJgcz7kx-Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfgMZq5WsYZZk1_w8xroUtlmn8s6jm2r5btvoftrowLphA&oe=69312FAB)
 
 In code this algorithm looks like
 
@@ -5041,7 +5041,7 @@ When a player exits the world, [all entities owned by them](/hw-docs/MHCP%20prog
 
 The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480310115_656797590191529_1870444710099372950_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ywbdQpR-mykQ7kNvwE3N9x2&_nc_oc=AdlrhmzxbYE92UdB1AMuG306nO76ElRJIUESFHnyYLxFlO0cycrvVvdkAwvZd8jpiUc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_Afj81xwwHi4lx3v3uzDeF7N-RigTNl-mtrCVNke4rWoxfQ&oe=692FAB99)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480310115_656797590191529_1870444710099372950_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ywbdQpR-mykQ7kNvwE3N9x2&_nc_oc=AdlrhmzxbYE92UdB1AMuG306nO76ElRJIUESFHnyYLxFlO0cycrvVvdkAwvZd8jpiUc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfgOuxQXgsAq06OtolvE_orQQdHaWifPFEpeBl8QrXzS5A&oe=69313559)
 
 `OnPlayerEnterWorld` and `OnPlayerExitWorld` are sent to only server-owned entities
 
@@ -5349,7 +5349,7 @@ For an entity to be grabbable it needs:
   - Match the rules of [“Who Can Grab”](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-grab)
   - If it is currently held, match the rules of [“Who Can Take From Holder”](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-take-from-holder)
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481059196_656797573524864_5104228813229080794_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ftmD9VbdbnsQ7kNvwGgx-1Q&_nc_oc=AdkC1X_KuXBTJhv3B4Pd_VRLqncJLibNH2FDWhHpVdKzmRYCocibyaYlJ_JN5v24TsY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfhCpbwClf5EprpYfDW_riVOOt4qSnL9jY3MsY8Aeqm6wA&oe=692FA7B1)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481059196_656797573524864_5104228813229080794_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ftmD9VbdbnsQ7kNvwGgx-1Q&_nc_oc=AdkC1X_KuXBTJhv3B4Pd_VRLqncJLibNH2FDWhHpVdKzmRYCocibyaYlJ_JN5v24TsY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfjyPR_YEYqMIpZJpDjMFCLf45HmHuT_8sQ_3CfaVpTLbA&oe=69313171)
 
 bug Entities with grab anchors can be grabbed even when collidable is set to false.
 
@@ -5467,7 +5467,7 @@ There are a number of events associated with grabbing and holding. The diagram b
 
 The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480969837_656797440191544_3479717928870876208_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=FVv8a0rCDg8Q7kNvwFBk82a&_nc_oc=AdkslsAYrYKwrqY4LKKPneMACKvmqKet65VM2oAsdRiYJG6lN5APmpMR9hehtcLHNMY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfilEAgAHv_4WFOxRgkkDhWoyqeSnM9jM0J7vfwOjKEe7g&oe=692FA253)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480969837_656797440191544_3479717928870876208_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=NxOYBSuPFQgQ7kNvwGhupB4&_nc_oc=Adk-93_IX1bCS7QvhsCD7WW8ZSAUcezQuMlLKOlFPQfsgx6Hor7qC_n9Bp9bbFnJBgE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfhM71uhocXpLgLglNnhasMwdh1_4ZhkPNTXO6zfWNwJuw&oe=69312C13)
 
 bug `OnGrabEnd` and `OnMultiGrabEnd` are not sent if a player leaves suddenly.
 
@@ -5618,7 +5618,7 @@ Attaching entities involves two built-in code block events being sent to the att
 
 The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480454017_656797570191531_1078493421499719284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=TzEVn0e3SCEQ7kNvwFAC0KH&_nc_oc=AdlT2bI6ItSEluzlVRl09eeyyTiy28drLIZ1nGMvozfdIwwQ5N5Enq2PCbC0ED-bNHQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_Afgaq6B5dTmfqKdKu_r9O3fym5t4qwIiWmCd67Z0Zz34dQ&oe=692FBCE5)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480454017_656797570191531_1078493421499719284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=nsfrCiQHtxgQ7kNvwH7Caxh&_nc_oc=Admspq8Gh9RLIN-2kYepQ0zwCih6IVidImUNPosvFrXW-PFXFAVcBiwPXa_UV3x4sB0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfglRzlXA_7MV9pK3OlXRHp7tB7QlLCgAOpRqJCNozncqw&oe=693146A5)
 
 bug `OnAttachEnd` is not sent if a player leaves suddenly.
 
@@ -5763,7 +5763,7 @@ For a [screen player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%
 * When a player presses the *Holster Icon* they *unholster* an item and grab on it. If they were previously holding an entity, they release it.
 * While a player has multiple holstered items they can use the Z key to switch which item they are holstering.
 
-More info here: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/holster-icon-menu
+More info here: [Holster Icon Menu](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Holster%20Icon%20Menu.md)
 
 Entities do not holster automatically on release.
 
@@ -5771,7 +5771,7 @@ You will need to add a script that attaches the entity to the player when releas
 
 When a player has more than one attached entity, they will see this UI when pressing the holster icon.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480590377_656797586858196_8956842387091686648_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=_T7P5_UfrWIQ7kNvwETkRGB&_nc_oc=AdkSM8u50GwDAXfBJho0kXDP8viqZ2veYTohjl3JgrEsqCIgsOuTlaYfPV8RrlzL95o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_Afi8rsjU9j8XHzJBgCuzenIBZHQ8Y7XZKjYi7mcmZx0FDQ&oe=692FC4C3)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480590377_656797586858196_8956842387091686648_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=1nSFr-6u8P4Q7kNvwHQk65f&_nc_oc=Adl7LiS88N_ZuTamAVPyAKdMUtjpIfTjy9q-Nm70Lz_CIiQGFbb0U5H6VUK4emA9Zyw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_Afh4--eD447vlAgkovYviZXe3jaX-9opQqcTsDLqZrFLHA&oe=69311643)
 
 The icon that is displayed can be selected in the entity’s `Holster Icon` property in the Properties panel.
 
@@ -6763,7 +6763,7 @@ If any of the spawn process fails (promises reject), you can find the error in `
 
 **Labeled edges** describe the actions that occur to go from one `currentState` to the next.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480573611_656797446858210_8427218712583755701_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=mH2MtNG1gu8Q7kNvwHInH9i&_nc_oc=AdmppS1YbYKj-3n9CMMdh_d23B812sqMaGuKusPjHBTv981qYGb_2Vl9MbMpXSNPKUs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ei9WQZmQGwUxaAsuWxAbug&oh=00_AfjgqATDDCdm3gf9QjI25If7fVZQsXQoGfwhYW6-0lyauw&oe=692F9F3B)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480573611_656797446858210_8427218712583755701_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=T-y-njeiVwoQ7kNvwFqUL8O&_nc_oc=AdkqNcPoZbvyEFQsc6W1dlWNrjcs4jyE2v2W3FBHKe_FWToBXbfYzKMrV_mW52efMiM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5SNAYo8pzBSV7rT9qg67nQ&oh=00_AfjqXVMjYrxOOcvLBPU1dOcirTUxzIKAAW3DvQnxLhJO5Q&oe=693128FB)
 
 ### Sublevels
 
@@ -6983,7 +6983,7 @@ There are some members specific to `UIComponent`. Additionally, whereas `Compone
 | UIComponent Member | Description |
 | --- | --- |
 | `abstract initializeUI(): UINode` | You *must* override this method and return the initial “view tree”. This method is called [before preStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle). |
-| `readonly panelWidth: number` | The total number of pixels the UI gizmo is wide. This doesn’t change the size of the UI (use [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale for that)); it just changes how you reference the UI. For instance if you set this to `100` then you can use `50` to reference the midpoint. The default is `500`. |
+| `readonly panelWidth: number` | The total number of pixels the UI gizmo is wide. This doesn’t change the size of the UI (use [scale]([Meta Horizon Worlds creator manual](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md)#scale for that)); it just changes how you reference the UI. For instance if you set this to `100` then you can use `50` to reference the midpoint. The default is `500`. |
 | `readonly panelHeight: number` | The same as `panelWidth` except specifying *height*. |
 
 ### Bindings
@@ -7114,7 +7114,7 @@ const containedBinding = Binding.derive(
 
 The `AnimatedBinding` class offers a way to have a binding change smoothly every frame, which is useful for creating animations. The docs are here:
 
-https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#animatedbinding
+[Custom UI Styles](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md)
 
 ### UINode Types
 

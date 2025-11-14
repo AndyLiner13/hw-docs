@@ -53,7 +53,7 @@ To begin, open your new version of the tutorial world in the desktop editor.
 
 Your world should now be opened in the desktop editor, and should look something like the following:
 
-![Screenshot of the Multiplayer Lobby world opened in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487831991_686408180563803_3808571924566109122_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=5JjK-ffLr-IQ7kNvwFJZRoo&_nc_oc=AdmjuUmBztaEzO-h4cTcSePrJIvI19dZb6MHRCj49jP4lvysggr72g2CVcu1YawJOQ4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OhTuJtpGB0XIvq0nvjc1gA&oh=00_AfiVf4l5MWYs1610iVV18KVrs4mDKmiCdFKZeSbuAOcSEg&oe=692FC96B)
+![Screenshot of the Multiplayer Lobby world opened in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487831991_686408180563803_3808571924566109122_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=5JjK-ffLr-IQ7kNvwFJZRoo&_nc_oc=AdmjuUmBztaEzO-h4cTcSePrJIvI19dZb6MHRCj49jP4lvysggr72g2CVcu1YawJOQ4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nh5bdbFGzM388TUgrvTwYg&oh=00_AfivO_Evb2g4EReCALbvDPgGhm_rBAylg7clUsFINC_q-A&oe=69311AEB)
 
 ## Build mode and Preview mode
 

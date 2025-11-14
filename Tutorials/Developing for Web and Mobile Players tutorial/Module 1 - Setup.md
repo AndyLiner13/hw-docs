@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 1 - Setup
 
-![Thumbnail of the Developing for Web and Mobile Players tutorial world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452506803_512509641286992_7228963949665786494_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=XK5s8JEz-yMQ7kNvwGjyIW4&_nc_oc=AdmMDkAybw0rDirr685caGK4G3G1VLLCuKcQ4zr1Fho_CvVg2KuK5897pKoZ_LXgJ90&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9mDb72NjAv1FTgdhUuU9Vw&oh=00_AfjKU8Ungzqlper3a32paPUD8qp1xS6h03i8QotvoycWjw&oe=692FC804)
+![Thumbnail of the Developing for Web and Mobile Players tutorial world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452506803_512509641286992_7228963949665786494_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=XK5s8JEz-yMQ7kNvwGjyIW4&_nc_oc=AdmMDkAybw0rDirr685caGK4G3G1VLLCuKcQ4zr1Fho_CvVg2KuK5897pKoZ_LXgJ90&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lCwgPs1Ph4ESMtpkpe7-0w&oh=00_AfjpY2i8V61X1IgRfwcJ_9aj2ddZfAjAoJW3XPopF8b5LQ&oe=69311984)
 
 Important
 

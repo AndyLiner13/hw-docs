@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 The trigger zone [gizmo](/hw-docs/Gizmos/About%20gizmos.md) triggers an event when you enter or exit a specified area.
 
-![Trigger zone gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578801646_863563276181625_6970024535789345268_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=r6VXB9u8MI0Q7kNvwGCQy4v&_nc_oc=AdkkDYPILAtua1i79uqDR92UkiNnu49jatfVCnmDCb9Sy16XfCUPeYlFeL0ps-ak_QI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3GwVk5UDqNBKnwJCHTeUIQ&oh=00_AfgiW8q6_ktioWzTNb5L5qdDIjpT41Pcprn00QZ68EJN3w&oe=692F9D1B)
+![Trigger zone gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578801646_863563276181625_6970024535789345268_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-IJ7qgWXZM0Q7kNvwFc41Eq&_nc_oc=AdnjG6uAuk-v2zW2eO_uTx8mxM8ZaU6DV3GKXHlQY9Lu_CcrNVenPzr10KFNopuxvFc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SsT8EL4R1xWP7GQ4laOhUQ&oh=00_AfgozjnvxKYqiEuKhyIw8KWamfIrbavkAx2Gkja-MvXBKQ&oe=693126DB)
 
 ## Use the trigger zone gizmo
 

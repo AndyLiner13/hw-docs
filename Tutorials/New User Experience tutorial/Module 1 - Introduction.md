@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Welcome to the New User Experience Tutorial! In this tutorial, you learn how to create a simple and effective New User Experience (NUX) for your game using ready-made assets.
 
-![New User Experience cover image](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548761734_818127914058495_8806220458799277431_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=XOFJhlTmDEsQ7kNvwG8nG8D&_nc_oc=AdkEiTQZ-28uCKyvhEH1Kwa0wc50mN3aA4Ycl0RnnwYaWFdv2Dn67mVkUTvcIfnO7Fw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lS2DBQb89BAPjj3fJWRfBw&oh=00_AfjIH5uqCmRzdOHLO9Tw4CNqNZWihmishX4shOaumSqZaQ&oe=692FB6EB)
+![New User Experience cover image](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548761734_818127914058495_8806220458799277431_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=XOFJhlTmDEsQ7kNvwG8nG8D&_nc_oc=AdkEiTQZ-28uCKyvhEH1Kwa0wc50mN3aA4Ycl0RnnwYaWFdv2Dn67mVkUTvcIfnO7Fw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CJjrtJ7KypPSMNK3n-aNwQ&oh=00_AfhoI7u8oJtqtN-HL1DJ5Rs8AUC5fEf8AqrCY1A6HZDnxQ&oe=693140AB)
 
 This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, the editor creates a copy for you to explore, and this page opens so you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 

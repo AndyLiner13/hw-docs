@@ -8,7 +8,7 @@ When creating worlds in Horizon, objects can appear and disappear based on playe
 
 ## What is Object Spawning and Despawning?
 
-A great intro into this topic can be found in the public [Spawn and despawn assets](/hw-docs/VR%20tools/Scripting/Spawn%20and%20despawn%20assets%20in%20Meta%20Horizon%20Worlds.md) documentation.
+A great intro into this topic can be found in the public [Spawn and despawn assets](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/spawn-despawn-assets-horizon-worlds) documentation.
 
 Object spawning and despawning allows creators to instantiate and destroy objects at runtime through scripts powered by CodeBlocks and TypeScript. These objects are tied to [Assets](/hw-docs/Desktop%20editor/Assets/Introduction%20to%20the%20Desktop%20Editor%20Asset%20Library.md) pulled from the creator’s Asset Library, and enables creators to spawn various objects for users to interact with, to perform actions in-world and more.
 
@@ -57,9 +57,9 @@ When a spawned object is no longer needed, you can then remove the object from t
 
 ### CodeBlocks
 
-![A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460204911_548705517667404_7824595070708973058_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=C2smhRFTN4YQ7kNvwHYx97r&_nc_oc=AdnFsVQ7CTGyYBjK0a-sM2KbIkJGF9RdT4TE0fOKLh5XYpdt1C8_2QIS_TzdQIItybw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=z50YaHIazmHSZ9w4OZc2_g&oh=00_AfiR8pshT3oT5MBuT4nf-hLH27mkpUJZ1zxWEG0CBeQstA&oe=6930ADE8)
+![A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460204911_548705517667404_7824595070708973058_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=C2smhRFTN4YQ7kNvwHYx97r&_nc_oc=AdnFsVQ7CTGyYBjK0a-sM2KbIkJGF9RdT4TE0fOKLh5XYpdt1C8_2QIS_TzdQIItybw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KpzsxaeEKJG4H0BO10gWUA&oh=00_AfgsyHTxnMXAZxo9ciMDazcHZwVYxH4N0TXmJu9jDxtKyw&oe=69311E68)
 
-![A view of the CodeBlocks Editor with blocks to handle despawning assets.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460197256_548705514334071_4968040419667574195_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=M8OphpFZulIQ7kNvwGYrbKR&_nc_oc=AdlVO12kPtotJJXY9Lfr_urv4InsQoVHyNDmXLYl_aHV-PaSdCqPW4HM7Mu7YO8o8Hg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=z50YaHIazmHSZ9w4OZc2_g&oh=00_AfhvWGPl8j-u-gSvciVKhozLJSiUTb1GjdkpGm8LxAGPoA&oe=6930C128)
+![A view of the CodeBlocks Editor with blocks to handle despawning assets.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460197256_548705514334071_4968040419667574195_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=M8OphpFZulIQ7kNvwGYrbKR&_nc_oc=AdlVO12kPtotJJXY9Lfr_urv4InsQoVHyNDmXLYl_aHV-PaSdCqPW4HM7Mu7YO8o8Hg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KpzsxaeEKJG4H0BO10gWUA&oh=00_AfgfHCieeBoBk3-sfLeWy1JZg6YlL2qXsCoXPcLDk_EP-A&oe=693131A8)
 
 ### TypeScript
 

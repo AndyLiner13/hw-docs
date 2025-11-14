@@ -61,7 +61,7 @@ console.log(entity.Tags.length()); // 2
 
 This video demonstrates how to query entities based on tagging, using a script similar to the example below.
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453652358_1271239434033510_5162475170574308196_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=3-OaIAt1UbUQ7kNvwGaLKJ2&_nc_oc=AdlUHsZPEfZ4FFdPqBcTSkoKPJHD5m9XUWPTQ5RvjTPMLUyDAUngyyEGRyO-WgJwv_w&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=TqH5Rpt3pu_RDmKWKzMhOA&oh=00_Afgc5ZJmbSBy5kDy13sPFyHLHXPV8VKYEJoL1GtnJTJQWQ&oe=691B4E90)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453652358_1271239434033510_5162475170574308196_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=gFgY4E-aYkgQ7kNvwE9-Kq5&_nc_oc=Adk0D0SyuUxMfziC68gd_8xbvcRauLJCGK3AeJz8BEpmZGF0wjQ_NuoqqZEd3VMKt7E&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=4Kq0VYtoNs6ECUTVDsw2LQ&oh=00_AfiODSDBZDoUAgeE3BlSlXGRNE5qhCaO8YPgxDa_UqvN2Q&oe=691CD850)
 
 ```
 entity1.Tags.add('tag1');

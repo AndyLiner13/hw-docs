@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # MHCP Session: Meta Horizon Worlds on Web and Mobile and Creation Tooling Updates with Linda Chen and Andy Sargeant
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453859959_457969483724927_3181915498723218794_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=-3qHkFDiKCIQ7kNvwGA38kl&_nc_oc=Admf6Q0GAjEObc429l-5IcVDOK-qsKML5d3eTG5Pa2IPE1w3gYL9D5LEZGbnHeMrxSE&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=GmCmg-iMrInG83dTAlVUxA&oh=00_AfivLGdx57NRJvQmBlZI6vUegw8CCCdI8O3Bb-xmwt2r5A&oe=691B4CF4)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453859959_457969483724927_3181915498723218794_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=-3qHkFDiKCIQ7kNvwGA38kl&_nc_oc=Admf6Q0GAjEObc429l-5IcVDOK-qsKML5d3eTG5Pa2IPE1w3gYL9D5LEZGbnHeMrxSE&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=Gt57ywuqrNoEIYR0rh-Kmw&oh=00_Afingl4UMCljaFTfQHmBLRcdfQJcYjeCi2L7BOD6ZTFf-g&oe=691CD6B4)
 
 Join Meta experts, Linda Chen and Andy Sargeant for an information session on new tooling including the announcement of Meta Horizon Worlds on Web and Mobile.
 

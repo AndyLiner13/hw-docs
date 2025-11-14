@@ -16,10 +16,10 @@ You can enable the environment generation tool through the **GenAI** menu or wit
 To generate an environment using the environment generation tool, use the following process:
 
 - Open the desktop editor and select the **GenAI** menu from the top menu bar. Note that the **GenAI** panel may be open and visible by default in the right hand panel of the desktop editor.
-  ![Environment Generation GenAI Panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/534835566_792307643307189_6799076494733705301_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=kw9EF_S3DW8Q7kNvwFiPDLb&_nc_oc=Adl3hMvSNtOC8Z4sMONRmy-jf1eWl9NI6-uPA141DagRFOi_LtvzTCbiWno4jF-leUw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rJJlFiFCGwk_lCGg_GO_hA&oh=00_AfhUjP4rpsOpYC4HRim3lkLkdyRmr0nGFpn0UZnkHho3tw&oe=692FAD12)
+  ![Environment Generation GenAI Panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/534835566_792307643307189_6799076494733705301_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=kw9EF_S3DW8Q7kNvwFiPDLb&_nc_oc=Adl3hMvSNtOC8Z4sMONRmy-jf1eWl9NI6-uPA141DagRFOi_LtvzTCbiWno4jF-leUw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JHUAWYNZ6aRcGSFOzLixlA&oh=00_AfhtSXMNbEHbsRhk34VXmwYNKW1ogCSJSGWVqsHI3pxDcg&oe=693136D2)
 - In the **GenAI** menu, select **Generate an Environment**.
 - Select one of the example prompts listed in the **GenAI** menu. The Environment Generation properties window will appear with the selected prompt input in the **Prompt Input** field.
-  ![Environment Generation recommended prompts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/536271964_792307653307188_2592383082078627708_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=fTV_gDL02QwQ7kNvwE7WAn6&_nc_oc=AdlsIjFvxxK07JyYiW_G79sbIKx3uCV8PTbqwT1nZb0_fwxkHGQaczEevN4mTxkiGd0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rJJlFiFCGwk_lCGg_GO_hA&oh=00_AfjwmtRcddJsM-hswe42CbnpsTf10IZSTmqHlOCtcfuBYw&oe=692FB262)
+  ![Environment Generation recommended prompts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/536271964_792307653307188_2592383082078627708_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=fTV_gDL02QwQ7kNvwE7WAn6&_nc_oc=AdlsIjFvxxK07JyYiW_G79sbIKx3uCV8PTbqwT1nZb0_fwxkHGQaczEevN4mTxkiGd0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JHUAWYNZ6aRcGSFOzLixlA&oh=00_Afge56ntuM-lqtvIVpqVittbTxwrUIb6RrUphoSJDp8_MQ&oe=69313C22)
 - Click **Generate** to generate the environment. The time needed to generate the environment is based on the complexity of the generated environment, but usually takes between 1 and 2 minutes.
 
 Once finished, your environment will be generated and you can click the **Play** button to walk around your generated environment and explore the environment with your avatar. Once you’re satisfied with your generated environment, click **Save to Asset Library**
@@ -58,16 +58,16 @@ The example prompts used will be listed and included in the image:
 
 **Prompt**: “An island overgrown with golden grass”
 
-![An island overgrown with golden grass](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/534838094_792999236571363_1959860136706917505_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=bblAJ-4Kw14Q7kNvwFFvER8&_nc_oc=AdnhP1EMQ-ri6FMC8lWjD6UtUr9Y5lL8pJ82mBNA7z8uHG59f48Dv7fsYMCaYrZUW3c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rJJlFiFCGwk_lCGg_GO_hA&oh=00_AfgdvbB2Fisw5_0lQG7mC-Cll2LH_-QB8YnwrA7xhAO0tA&oe=692FCCBE)
+![An island overgrown with golden grass](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/534838094_792999236571363_1959860136706917505_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=A-7IWpTHpOkQ7kNvwFssFk6&_nc_oc=AdmThryaI72nWVe_hWrKVv2M_q2j7c6JO00cADjs8oe1VtAlgJOqyxo-L0f0BXJgYMU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JHUAWYNZ6aRcGSFOzLixlA&oh=00_Afg_TEI9IU8cd0DYDcWVjAMvbsbPIvmIchlfOaFypfNLmA&oe=69311E3E)
 
 **Prompt**: “A forest in fall”
 
-![A forest in fall](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/535095054_792999226571364_7607179586158445600_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ehhLUpvFFokQ7kNvwHYR3jN&_nc_oc=AdmRYr8P-LltGOdUPcN3kJpeLGDeNe-ouvgM9NYZ5tlYZHlVBlkBz3oXRyQfhwIg_28&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=rJJlFiFCGwk_lCGg_GO_hA&oh=00_AfgR5lT-b_CHC3E-xvy13Ta4udtSscR9cH8mawrqix6NcQ&oe=692FA5DA)
+![A forest in fall](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/535095054_792999226571364_7607179586158445600_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=zzq5i8THexYQ7kNvwEbWAlt&_nc_oc=Adn1ybIrrZ9kIuallOPguT81qciNqh45w_-h2lAeiQmnNVVLS76mcMvAAWy_mp1KWFo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=JHUAWYNZ6aRcGSFOzLixlA&oh=00_AfiXk9EPw2S81mjyQtKv_xjrlFOzChu70cm_yQjf4TivSA&oe=69312F9A)
 
 **Prompt**: “A spooky forest with barren trees and purple grass”
 
-![A spooky forest with barren trees and purple grass](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/535014226_792999229904697_8660631210125169089_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=XMFUJZxMqqQQ7kNvwEqb_lK&_nc_oc=Adl7Whzy_-zpRATQU5yBnObuUDM0ycpwLx7fnD--Ch62tXiZXC79NUGXEe-BssD_NuY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rJJlFiFCGwk_lCGg_GO_hA&oh=00_AfiOdsfBbEN8yQeDHsx1l_5Nl0cgcbQbSX7-WF0klz-kyg&oe=692F963D)
+![A spooky forest with barren trees and purple grass](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/535014226_792999229904697_8660631210125169089_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=XMFUJZxMqqQQ7kNvwEqb_lK&_nc_oc=Adl7Whzy_-zpRATQU5yBnObuUDM0ycpwLx7fnD--Ch62tXiZXC79NUGXEe-BssD_NuY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JHUAWYNZ6aRcGSFOzLixlA&oh=00_Afj92hDilATA9axb65s2L4OzUgyzIfUsYdeWFI3Iv-d8NQ&oe=69311FFD)
 
 **Prompt**: “A desolate wasteland”
 
-![A desolate wasteland](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/534385565_792999233238030_1806758247150412729_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=F51qtOe3enoQ7kNvwHiMErw&_nc_oc=AdlOJqbSvSFvBVrMojGf40woEdCL6NDCDruSwH_6lMpX2itEgwMkQ1ZE2VTTWU9n2bE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rJJlFiFCGwk_lCGg_GO_hA&oh=00_Afj0eQbI-bU9NU51Pv_AhITLn3tCFxf8CAdAXDLoBZKypA&oe=692FCC7E)
+![A desolate wasteland](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/534385565_792999233238030_1806758247150412729_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=VvFzM78unXUQ7kNvwHFqp_J&_nc_oc=AdnkAfifoTDityneer5QFQlGoprzlHnzqAxtOZ-PdqiXLNLWPUEQiEv_rr-S5YrXi94&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JHUAWYNZ6aRcGSFOzLixlA&oh=00_AfhBx0UZ7laN7HfAB4HbO2yZmX0aUAMfV94i-o84i78YaA&oe=69311DFE)

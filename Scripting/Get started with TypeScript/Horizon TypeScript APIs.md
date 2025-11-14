@@ -15,7 +15,7 @@ All new Worlds use V2 of the TypeScript API by default. We strongly recommend us
 
 Horizon API content class list example below:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452665661_512510677953555_9214172361803849395_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=gVy5oLSnBQoQ7kNvwGMBqPH&_nc_oc=AdlBFFXuU0bdgx4HAPL_J5wUMPwHnsiXSUOywKQRXbBj14wfOepgT8er69MP6m6nPbU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KN0SRkP4WJSdtmT59gX6Ig&oh=00_Afib-vSHKg1JIuonK-6qX90HDm1X_deSNw7A07ox5RaKGg&oe=692FA543)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452665661_512510677953555_9214172361803849395_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=gVy5oLSnBQoQ7kNvwGMBqPH&_nc_oc=AdlBFFXuU0bdgx4HAPL_J5wUMPwHnsiXSUOywKQRXbBj14wfOepgT8er69MP6m6nPbU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rZ5i6IOHeoy9HBB_BU1tjA&oh=00_Afh_PE6Vr_m23w69Bu2jIs8xs7uw-zUhf-0AijiDAd6s6g&oe=69312F03)
 
 **Note:** This is only a shapshot of the Classes available to you.
 

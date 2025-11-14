@@ -20,9 +20,9 @@ The NUX encompasses more than a tutorial. It’s how you introduce your game and
 
 A good NUX begins at the point of discovery. When a player is looking for an experience to explore in Worlds, they will either discover you through the first page of the Meta Horizon app or by searching by name. Therefore, you must be mindful of how your icon, key art, name, and descriptions display on mobile, as all of these elements communicate what players can expect from your experience. It’s also advisable to keep load times reasonable, as longer waits may drive them away. Refer to our [Intro to Worlds Discovery article](/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md) for more best practices on presenting your game.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581367873_863747082829911_4158166952519410995_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=TSIP0jSkg5IQ7kNvwFJl3Ln&_nc_oc=Adky3BhsVfqEhR2E3vZPpQgwHkm41VOwY5LsTHJhzYAwnh6wHc-EPEvTbabVMyJ6_14&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MqEaxS1wuQlxERg1QPesug&oh=00_Afh9BbOapfoZoVrlyyn9HCbEe2fUXd9hx5iCPPPAuP4kEA&oe=6930A74A)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581367873_863747082829911_4158166952519410995_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=TSIP0jSkg5IQ7kNvwFJl3Ln&_nc_oc=Adky3BhsVfqEhR2E3vZPpQgwHkm41VOwY5LsTHJhzYAwnh6wHc-EPEvTbabVMyJ6_14&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=S4-XG3bI5dFi0ezdnj1GBA&oh=00_AfgZrM-FnYjQIDbg2MGknRxP6TyTEhrXr6WQbLgkyTiubQ&oe=693117CA)
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581820287_863747079496578_1437313693711950770_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=lBp7u0psMAUQ7kNvwGJWS9b&_nc_oc=Admon_3Jaq4MOohcZM1eGqlKYdVjBQloWX4njv_Tm2oba90__ynGQG5BherU-GgUcqI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MqEaxS1wuQlxERg1QPesug&oh=00_Afh512PUi3pulvsHu5xyKkRLu9gL6-GZFaee9nFh8kTdjA&oe=6930B3A5)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581820287_863747079496578_1437313693711950770_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=lBp7u0psMAUQ7kNvwGJWS9b&_nc_oc=Admon_3Jaq4MOohcZM1eGqlKYdVjBQloWX4njv_Tm2oba90__ynGQG5BherU-GgUcqI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=S4-XG3bI5dFi0ezdnj1GBA&oh=00_AfiE6hC-nh5SbZpks5LoU3lnHiKYY_fwIKP5dMQBhtGmMQ&oe=69312425)
 
 *Shovel Up! is an excellent example of a good game presentation on Meta Horizon. It includes strong key art, a recognizable icon, and strong descriptions of their updates to the game.*
 
@@ -35,7 +35,7 @@ When designing your NUX, there are four main ways to structure the experience:
 - **Just in Time/Triggered** - A prompt triggers exactly as a player encounters some part of the tutorial as they are exploring. For example, if your health bar dips below 60%, for the first time you get a tutorial on using a health potion.
 - **Open to player agency**: This approach is rare on mobile. Players can direct their own tutorial experience by choosing what aspects of the game to explore. Typically, they start with a guided NUX before the game gradually removes the guardrails and allows them to dictate the flow.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581559393_863747076163245_403884654627850526_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=wWHb4KeXl_wQ7kNvwHBbrhd&_nc_oc=AdnCPRO8tw8JQscRBx3dlZQQ8Dx8Bg_K3EnWQQWNYgGm-81zSjwO7maiHbkOj6ZPPro&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MqEaxS1wuQlxERg1QPesug&oh=00_AfjaGv0SzGi6b6Wbwd9xDXKw0R9USBjR6FQiYNFPy1FHYQ&oe=6930B0C6)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581559393_863747076163245_403884654627850526_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=wWHb4KeXl_wQ7kNvwHBbrhd&_nc_oc=AdnCPRO8tw8JQscRBx3dlZQQ8Dx8Bg_K3EnWQQWNYgGm-81zSjwO7maiHbkOj6ZPPro&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=S4-XG3bI5dFi0ezdnj1GBA&oh=00_AfjVx2ca0ZwCx01vNSJomgFxqdM5KbD5yg-fD3p0RWt16g&oe=69312146)
 
 *When tutorializing, prioritize non-intuitive mechanics. Players should be encouraged to experiment with basic actions like picking up items or firing weapons. Our recommendation is to provide clear goals and allow players to discover how to achieve them.*
 
@@ -70,7 +70,7 @@ In general, players expect a light tutorial. Many Worlds simply drop the player 
 
 Depending on the target audience, it may not be necessary to teach them commonly found mechanics (movement, shooting a weapon, etc.). It may be more valuable to provide goals and focus on helping players truly understand new mechanics.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580589313_863747146163238_1624727151959125390_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=L1AoG2ru79UQ7kNvwF5C5lN&_nc_oc=AdnCK9PZB52a8ewycWhdfVUcH9KFs6tFV70ib4GkHydi9cwLpkZCNRSGGDyR5alkzuA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MqEaxS1wuQlxERg1QPesug&oh=00_Afj9mNWaPgpYBFZfRKmJ08jKUjvwZYhQ7C835J1FW8fWWA&oe=6930C258)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580589313_863747146163238_1624727151959125390_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=L1AoG2ru79UQ7kNvwF5C5lN&_nc_oc=AdnCK9PZB52a8ewycWhdfVUcH9KFs6tFV70ib4GkHydi9cwLpkZCNRSGGDyR5alkzuA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=S4-XG3bI5dFi0ezdnj1GBA&oh=00_Afhr3XmjkhfeFHEilII3oDWpIf36XPFX8jKl-qmtZbsxoA&oe=693132D8)
 
 *Players in Horizon Worlds generally prefer clear goals and autonomy. However, if a player is inactive, a tip should appear after a few seconds.*
 
@@ -90,6 +90,6 @@ Consider checking out the [showInfoSlides API Tutorial Manager](/hw-docs/Tutoria
 
 Additionally, you can check out an entire Tutorial World we created as reference content on how to make in-world NUXes for more advanced creators. Go [here](/hw-docs/Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md) to see the tutorial world.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580482029_863747116163241_3947661849111246645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=WeUmKcb0qsEQ7kNvwGvLuvC&_nc_oc=AdloMRsNOIMkthTm_uHnQpJjAEQr5sApdOci3OVSp4Mn5Ypah-mNfAWbEjQ2Gn68dNo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MqEaxS1wuQlxERg1QPesug&oh=00_AfiRNDmSbKOYRWh6mJdIfHxs664IiLXK4ICxo3iIUKvasw&oe=69309770)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580482029_863747116163241_3947661849111246645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=WeUmKcb0qsEQ7kNvwGvLuvC&_nc_oc=AdloMRsNOIMkthTm_uHnQpJjAEQr5sApdOci3OVSp4Mn5Ypah-mNfAWbEjQ2Gn68dNo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=S4-XG3bI5dFi0ezdnj1GBA&oh=00_AfiFMqE3oInU0OdB7CNQXqsiNVKjxITMwWN6pwiLBu1w7Q&oe=69314030)
 
 *Visit our Tutorial World [here](/hw-docs/Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md) to get a sense of how a tutorial system in Worlds works.*

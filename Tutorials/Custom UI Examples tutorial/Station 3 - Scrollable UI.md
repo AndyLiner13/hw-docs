@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This station demonstrates how to create a custom UI that can be scrolled. It’s pretty simple; instead of using a View object, you deploy a ScrollView object, which supports a couple of additional attributes.
 
-![Image of Station 03](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/475789154_646003197937635_3988288094259662487_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=77740II7C68Q7kNvwHSWdrZ&_nc_oc=AdmIDBiyvzK6ombptVzQNIOO3XuwjzKJcIy3O0V4PPZw5fViZ3R5TXGveE2qP9MnG7I&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Lgh6gWQWhI30OobXJ5wt8Q&oh=00_Afg2N3P3UvaLEhJu6rxVESi0hSDeBCqU_cqPY-VQC39Yhw&oe=692FA72E)
+![Image of Station 03](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/475789154_646003197937635_3988288094259662487_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=77740II7C68Q7kNvwHSWdrZ&_nc_oc=AdmIDBiyvzK6ombptVzQNIOO3XuwjzKJcIy3O0V4PPZw5fViZ3R5TXGveE2qP9MnG7I&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=SUTDKXYJUlmIvlmrPdVJfA&oh=00_AfiNcA9KEulyyfudF1EiDQXoVYC7rXeABhoSovSeV-gRzQ&oe=693130EE)
 
 This UI displays an example biography of Lord Lorem Ipsum, including a title, picture, picture caption, and body text.
 

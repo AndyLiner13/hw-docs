@@ -17,7 +17,7 @@ From the hierarchy view in the desktop editor, you can drag and drop any entity 
 
 When an entity is at the top of the hierarchy and has no parent, it is called a *root entity*.
 
-![Drag and drop any entity on top of any other entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452514110_512510764620213_1429075691349308108_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=KTieUVqW94EQ7kNvwGaf3An&_nc_oc=Adlmp7uTEH_MI8LNqJY_h3wQfjPnhwXZN1ZS8tt6N1im_-5rRCSmfjq1isH9nrZee8c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=LYVYRCpoRJT_qDbRIbSL_Q&oh=00_AfiP-heffNqnxICf4Ovg1RRtF1FYUGa8AGgGBBAcF1BEOw&oe=692F9D57)
+![Drag and drop any entity on top of any other entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452514110_512510764620213_1429075691349308108_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=QIRng5-pHsYQ7kNvwEjm6cu&_nc_oc=Adlu1PWfCMbYqKP4-tKZzxboQympOx9KAQ-WZD_eTeswbgD0S4GADuoOOhYzvSIAlTk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=DUmr09ntVRcrh0hXnTLtlA&oh=00_AfjBEwW9RoUMEFxM7FHv04Zs5mRUW5QSH5XUDK2z_TVmWw&oe=69312717)
 
 ### Empty objects
 
@@ -27,7 +27,7 @@ Empty objects have their own rules for visualization. In order to keep them from
 
 **Note**: This visualization of the empty object does not scale with its child objects, because it’s just a UI marker and not part of the content itself.
 
-![Empty objects remain invisible until selected or become parents](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452541301_512510767953546_1065862861088532929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=9uKEzfBSPZ4Q7kNvwHyzQwH&_nc_oc=AdkZzatq86HEzRtDP_NMkETA1Kc8C6EgW8xmBQBgy9vCpWRbl75iSHcXXAk2x1DwRSo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=LYVYRCpoRJT_qDbRIbSL_Q&oh=00_Afis-OMWVEZejDx4xfGXg2HXkj8x7-zsmlc47KUsWFbk1A&oe=692FC851)
+![Empty objects remain invisible until selected or become parents](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452541301_512510767953546_1065862861088532929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=9uKEzfBSPZ4Q7kNvwHyzQwH&_nc_oc=AdkZzatq86HEzRtDP_NMkETA1Kc8C6EgW8xmBQBgy9vCpWRbl75iSHcXXAk2x1DwRSo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=DUmr09ntVRcrh0hXnTLtlA&oh=00_AfheBtaqm56vezxWbXzEBK-Bo-4yLntTeiBVP4OzwEGNSA&oe=693119D1)
 
 ### Pivot around parent objects
 
@@ -40,7 +40,7 @@ To pivot an object around its parent:
 - Select Pivot from the dropdown menu in the top menu bar.
 - Use the manipulators to rotate or scale the grouped object and observe how it pivots in relation to the parent object.
 
-![Pivot around parent objects](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452532398_512510757953547_2671853206226151862_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=7aSPd1ILxvgQ7kNvwHAKCXm&_nc_oc=AdnohEOEAgCXTRdwpktiRmzVHZ2mRBmr5dhJKEmPw1iu4XPpLrzUHpqzkFNCXjbqMwk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LYVYRCpoRJT_qDbRIbSL_Q&oh=00_AfhX9H17JdVU10A0eZURHbdiHiVjlDiJPxnwpDVZGse3xw&oe=692FB4A7)
+![Pivot around parent objects](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452532398_512510757953547_2671853206226151862_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=7aSPd1ILxvgQ7kNvwHAKCXm&_nc_oc=AdnohEOEAgCXTRdwpktiRmzVHZ2mRBmr5dhJKEmPw1iu4XPpLrzUHpqzkFNCXjbqMwk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DUmr09ntVRcrh0hXnTLtlA&oh=00_AfiE_s1tNKON_6l84A4ahwS4y3ubvQa5i-pQHiTPIp-G0Q&oe=69313E67)
 
 ### Direct selection of children in the scene
 

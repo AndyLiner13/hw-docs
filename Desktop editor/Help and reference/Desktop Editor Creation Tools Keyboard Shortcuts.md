@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 You can access Keyboard Shortcuts from the desktop editor by clicking on the three-dot menu and selecting **Keyboard shortcuts**.
 
-![Image of Keyboard Shortcuts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/500105721_723378303533457_7443828204987334499_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3yoa-uXU5swQ7kNvwHUWYCX&_nc_oc=Adk4m_BUppXKg35Fk8Dy0gU9fLDKIOvAVUtWzdnwrGeHlNHj7P7HLe-oggZrGSAMdRo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_x1GPn8klwmy1YsdSdJWfQ&oh=00_AfjkGuzGO_OQ9eCvwca5s8pia-5-HgQoG1_vlTglmZ6L8g&oe=692FB666)
+![Image of Keyboard Shortcuts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/500105721_723378303533457_7443828204987334499_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3yoa-uXU5swQ7kNvwHUWYCX&_nc_oc=Adk4m_BUppXKg35Fk8Dy0gU9fLDKIOvAVUtWzdnwrGeHlNHj7P7HLe-oggZrGSAMdRo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MoDSXe9A32dSffFvH7x7AA&oh=00_Afhu944aucYv1UT9NIYTompyredG8ORxm_b_Z1ReoxNjAA&oe=69314026)
 
 ## Build mode
 

@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-start
 
 Build immersive worlds and experiences on Meta Horizon Worlds with our desktop editor, a free, Windows-based application.
 
-The desktop editor gives you access to powerful tools that accelerate your creation of fun and engaging worlds. You can then publish your worlds across mobile, mixed reality, and desktop to reach a broader audience.
+The desktop editor gives you access to powerful tools that accelerate your creation of fun and engaging worlds. You can then publish your worlds across mobile, virtual reality, and desktop to reach a broader audience.
 
 ## Prerequisites
 

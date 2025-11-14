@@ -56,7 +56,7 @@ npc.conversation.speak(“Welcome! I’m Bob the NPC. Please step forward so I c
 
 To test how NPCs behave when the AI system is disabled or unreachable, you can disable AI Speech in the NPC Debugger tab. This will simulate an AI NPC Speech disabled fallback instance when previewing your world in the editor by forcing your scripts that use the `isAiAvailable` API to return false and the `elicitResponse` LLM API to throw a `AiNotAvailableError`.
 
-![NPC Debugger](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/544801771_810235168181103_5986713930012268315_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=7ZGZK968YnIQ7kNvwHPwcNY&_nc_oc=AdlhonUtStgXWBM0FArbszFqn1EBfgkoEMraNeuYL5HAZqKlpVzizb80o5kgOGpFRKk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1exorr0n244dmz_Sr5l1LQ&oh=00_AfjABGmfGZ3dk-WZWWCHf3VExEqbA090YxA2P4Lol86auA&oe=692FC771)
+![NPC Debugger](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/544801771_810235168181103_5986713930012268315_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=5RpyfsTq5mYQ7kNvwErf5Bi&_nc_oc=AdkUuQ6lS97O-n-R4YLOM29OvXc0p26Dbk17VFPYTrAmWOT3ozntRt-DEUaVduNefhM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=35UJhdXBCrSASiDpdnx5cw&oh=00_AfhxkB7fDGvKvr4iEIi5UX66mp1-AO10qUir0pxZDNf_Lw&oe=693118F1)
 
 ### Production testing
 
@@ -66,8 +66,8 @@ Outside of the editor, you can test AI disabled fallback instances by using an a
 
 Once you have completed testing AI Speech Fallbacks and are satisfied, it’s time to publish your world with the new Fallback features. By default, AI ineligible users are denied entry to worlds that contain AI Speech NPCs. Once you have completed this step, ineligible users will be routed to a separate instance of the world where AI is disabled:
 
-- Open **Player Settings**![Player Settings](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/546927353_810235221514431_2938994321209409501_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q1uhxwpAzGoQ7kNvwEAaSmp&_nc_oc=Adn3I21NVjJRv5zeOO0utBOyg7P9jw76oWpRot9VJxtruenpnNWMeb7HBPJsrwojVvg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=1exorr0n244dmz_Sr5l1LQ&oh=00_AfhD4GzEyEsxHkUFV1bEr6toSl6lXqROxovBmaqtKHTgsA&oe=692FB633)
-- Set the **“NPC fallback option** to **Scripted Dialog Only**![NPC Fallback Option](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/544952915_810235198181100_6064166759231089005_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=bcXcbdjtW2wQ7kNvwHYMpBP&_nc_oc=AdmPTSfrmkplI4BKfUE-NAva_f3b18g2zFXy_tGYPIM5UvkjGWZkoUX_joKDIA6w544&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=1exorr0n244dmz_Sr5l1LQ&oh=00_Afh6ckCOeZV5z09XNIyCya6ZnW_jXzEokszlP175e_rssA&oe=692FA85E)
+- Open **Player Settings**![Player Settings](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/546927353_810235221514431_2938994321209409501_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q1uhxwpAzGoQ7kNvwEAaSmp&_nc_oc=Adn3I21NVjJRv5zeOO0utBOyg7P9jw76oWpRot9VJxtruenpnNWMeb7HBPJsrwojVvg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=35UJhdXBCrSASiDpdnx5cw&oh=00_AfjMP5Mem1cBQ-U_vQXGTxlF8bNX6zT6YgB_YpLuUs3dpw&oe=69313FF3)
+- Set the **“NPC fallback option** to **Scripted Dialog Only**![NPC Fallback Option](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/544952915_810235198181100_6064166759231089005_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=bcXcbdjtW2wQ7kNvwHYMpBP&_nc_oc=AdmPTSfrmkplI4BKfUE-NAva_f3b18g2zFXy_tGYPIM5UvkjGWZkoUX_joKDIA6w544&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=35UJhdXBCrSASiDpdnx5cw&oh=00_AfhFJjLkwGGIUBtl0LrK0Wl5kbMAmhIP8QQIYxYAl-6GIQ&oe=6931321E)
 - Publish update to your world
 
 ## Group Party Travel

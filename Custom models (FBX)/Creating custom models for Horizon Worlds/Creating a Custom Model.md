@@ -38,12 +38,12 @@ Follow these steps to upload your custom model into your Horizon World.
 
 - Make sure you are signed into your Meta account, then navigate to [https://horizon.meta.com/](https://horizon.meta.com/creator/assets/).
 - Select the folder you wish to upload into and select **import**.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452716124_512500294621260_7169492549286714212_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=I8JJbdyoPQgQ7kNvwFgxb6-&_nc_oc=AdmI-l0qI6GlTwIX9qYfhCagQqPxQ4ILv8ug3wbkkzf4JjD-ILomgtEzXaaayM6hYzc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=hAeM_y4ohZUjvFUJJni_mQ&oh=00_AfjWvIOz7fAyblKf87WmUxCJWO3vpMxThJxbkeGCTOMTIw&oe=692F952D)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452716124_512500294621260_7169492549286714212_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=c53eKwD9YCkQ7kNvwF7cGT8&_nc_oc=Adkgp5Nb1mECyFdS8v-80cjj1AGlanBrCgyjDdvhuzv2NCEz5Q6o04sEboBCu5aGc28&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=w4i3q60XeYvwPTK2gxkM4w&oh=00_AfhsxDVMW2b_kgUVrhhBnKwt_67QGVlxfRnymAdGlVqx9Q&oe=69311EED)
 - Drag and drop a **single** FBX file and its associated texture(s).
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452885142_512500261287930_5105021691214050819_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RwMnxOK7ukEQ7kNvwHrehQA&_nc_oc=Adkvu9uoA2TZDsJj6E9TFMTwNnHMIY5zZA32ZpV44relkqvELKSF4TX8HPhbj_HHF1Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=hAeM_y4ohZUjvFUJJni_mQ&oh=00_Afj8Fa8eY89mkModxTgrwdAaHygZPVrVKyCWgx2fsZZ6NQ&oe=692FA706)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452885142_512500261287930_5105021691214050819_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=K7d9krSKEgYQ7kNvwHxxvPR&_nc_oc=AdmxlhlekuQ6_NJX51C9gHINVVYhw0sv2C822d-f9vAHSs_dKAN9PLoKm4dzNcuIDHc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=w4i3q60XeYvwPTK2gxkM4w&oh=00_AfgQ0YcehCugO6bsC_8DzRhJWnly7-pYM_Lilgcn35FTtQ&oe=693130C6)
 - Click **Import** and wait for it to process.
 - Now in Horizon’s build mode, if you navigate to the folder you uploaded to, you will find your asset and be able to pull it into your world.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452908572_512500257954597_8266581053902693004_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=doYCGf70UvoQ7kNvwEgl3Pc&_nc_oc=AdmD0j2L33IBZlM38MUAbaCK9PAZwvSWZCgUGfAXA2MURgzTA5QNT-TiMBmWmd6dVog&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=hAeM_y4ohZUjvFUJJni_mQ&oh=00_Afhku1qakqvE-ulW_-15fnMFhKFf3ABbV894EYLL3FYI0w&oe=692F9C91)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452908572_512500257954597_8266581053902693004_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=doYCGf70UvoQ7kNvwEgl3Pc&_nc_oc=AdmD0j2L33IBZlM38MUAbaCK9PAZwvSWZCgUGfAXA2MURgzTA5QNT-TiMBmWmd6dVog&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=w4i3q60XeYvwPTK2gxkM4w&oh=00_AfitDu950dKrXyqrdezZzoSy9MXNE7dQlaUaSvSKEG4Gww&oe=69312651)
 
 ## How to Create Custom Models for Meta Horizon Worlds
 

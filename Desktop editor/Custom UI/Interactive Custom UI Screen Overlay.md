@@ -10,7 +10,7 @@ Interactive, blocking screen overlays are designed to be used for situations tha
 
 By design, interactive, blocking screen overlays prevent gameplay-related inputs in order to allow the player to focus fully on the UI, which means this feature is not suitable for creating customized on-screen controls.
 
-![interactive overlay.gif](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452910563_512510387953584_8404522134663938617_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=U3dua_D5PRYQ7kNvwE8lSjU&_nc_oc=AdlRKTkd6K4pqBSX546tun45teNjDSK6YaLxrItOOlSvSyS-Zcfez6_SJQbu9Y8Kotc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oAptRavf7XuBozx-THd2Iw&oh=00_AfhPoAk0iUOfpIvPaNhoyWI64pqLd8reSzeHjB9uAKCrcQ&oe=692FAFDD)
+![interactive overlay.gif](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452910563_512510387953584_8404522134663938617_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=98U0rQarCtcQ7kNvwGCk1E1&_nc_oc=Adk2R4UXdKK74WAj7WtvOfuoGjGrpGvqTlLGAkSvFD3xkB34rxn3FJc6zsgJNnYO4Bs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=k0pR1JUTmYnHIAbuKFTobw&oh=00_Afia9C46kAKxxijSIhQygYoe6HTHgJIItCBTBgCNAh1g_A&oe=6931399D)
 
 Interactive, non-blocking screen overlays are designed to be used as onscreen inputs that can be fully customized in size and appearance. Interactive, non-blocking screen overlays do not prevent gameplay-related inputs, and can be used in combination with the Custom Input API to create custom on-screen controls.
 
@@ -18,7 +18,7 @@ Interactive, non-blocking screen overlays are designed to be used as onscreen in
 
 When you set the Display mode property of a Custom UI panel to **Screen Overlay**, a property named Input mode appears. You can use this property to switch the mode of the panel from **No Interaction** to **Interactive, Blocking** or **Interactive, Non-Blocking**, which allows the overlay to receive input from the current input pointer (such as a mouse, touchscreen, or VR controller).
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469896061_606730451864910_612662587024664924_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=y9cl0J4smAEQ7kNvwEVn2lE&_nc_oc=AdmHbeA2vxhBYP8tu6DGJsWtXyCiYvD1CHRf4DR1lIQPYWjxjChuh-eWaWTYZkB31QE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oAptRavf7XuBozx-THd2Iw&oh=00_Afit_qwJb1c4TCQS6aJjfOBp2FYt4i295C5HZx13hypPKw&oe=692FA379)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469896061_606730451864910_612662587024664924_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=y9cl0J4smAEQ7kNvwEVn2lE&_nc_oc=AdmHbeA2vxhBYP8tu6DGJsWtXyCiYvD1CHRf4DR1lIQPYWjxjChuh-eWaWTYZkB31QE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=k0pR1JUTmYnHIAbuKFTobw&oh=00_Afgp2MJ2kZ3Fm5fP6yo6WcERAxiZW5tXX4R3hpVMV4xb1g&oe=69312D39)
 
 You can test the interaction by adding a Pressable component to your UI script.
 

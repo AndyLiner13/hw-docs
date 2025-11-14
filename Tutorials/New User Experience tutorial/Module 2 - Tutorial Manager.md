@@ -38,7 +38,7 @@ The `TutorialController.ts` script handles the core tutorial management and pres
 
 - **Create the tutorial controller entity**: Create an empty object in your world to house the tutorial system. Attach the `TutorialController.ts` script to this entity.
 
-  ![Tutorial Controller Entity](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/547679779_817222434149043_6622080645159375496_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=Bckt7InLY9UQ7kNvwHQFnIs&_nc_oc=AdkhNXEhnnmsMX1Zju_foIYDg2NpDFuwsDL3BH44gBMREbKLeAD1MLfDz58Vrcm2948&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=sXy619Iskg3OECNM5SAjbw&oh=00_Afjus7L342PW7pYc-p0rGVmYX5Bxy1b-gXWMGghttIk7jA&oe=692FCCBA)
+  ![Tutorial Controller Entity](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/547679779_817222434149043_6622080645159375496_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=uSSCmzLM4TkQ7kNvwHidW-l&_nc_oc=AdncbROfA9wMJWgqAhdsgGBZvRJcijBqaM11RGGzONhy2iEUWE4txTlOK_Ge3d50ZBk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=n_TO9BMDxkN3KfOfCmljBQ&oh=00_AfjZ3z5x93cZ4yunu2Pxe_bMojBOQpk1j7_Z8WxyLF0mnA&oe=69311E3A)
 - **Configure the trigger zone**: Create a **Trigger Zone** gizmo and position it where you want players to activate the tutorial. In the Properties panel for the TutorialController script, assign this trigger zone to the **trigger** property. The script automatically connects to the trigger’s `OnPlayerEnterTrigger` event.
 - **Prepare the slide container structure**: The TutorialController automatically searches for `TutorialSlide` components in its child entities. Create child objects under the TutorialController entity to house your individual slides.
 
@@ -57,7 +57,7 @@ The `TutorialSlide.ts` script defines the content and properties for individual 
   * **imageURL**: Set the asset ID string for any image to display on the slide (optional)
   * **attachImageToHeader**: Toggle to attach the image to the slide header instead of the body (default: false)
 
-  ![Tutorial Slide Properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549296546_817222437482376_6243435734742365644_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Gkt3Vuw3LpkQ7kNvwEohsMi&_nc_oc=AdnyLB8SEVILUJDk0UEsv4rrPK9h4RepzFdb4rAlZndrXeIYOujVIPoq63VY2wLaJfg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=sXy619Iskg3OECNM5SAjbw&oh=00_AfiJq1IdjaD3Tyb0ow2PAi4ckEDmKD5xg-JUvIGhFzLI1g&oe=692FB35E)
+  ![Tutorial Slide Properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549296546_817222437482376_6243435734742365644_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Gkt3Vuw3LpkQ7kNvwEohsMi&_nc_oc=AdnyLB8SEVILUJDk0UEsv4rrPK9h4RepzFdb4rAlZndrXeIYOujVIPoq63VY2wLaJfg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=n_TO9BMDxkN3KfOfCmljBQ&oh=00_Afj56NOrSoKprrH7vn4UMXaYl7qBvg3sMPlsNFgKDSednA&oe=69313D1E)
 - **Understanding slide sorting and loading**: The TutorialController automatically:
   * Searches all child entities for `TutorialSlide` components
   * Sorts slides by their `order` property (ascending)
@@ -114,6 +114,6 @@ Once your tutorial slide system is implemented, thoroughly test:
 - **Multi-player Testing**: Ensure tutorials work properly for multiple players simultaneously
 - **Visual Testing**: Confirm image placement and text formatting appear as intended
 
-![Tutorial Slide Example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/548904179_817222384149048_3185233713188373063_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=VlwJfskBMKIQ7kNvwGqq6dA&_nc_oc=Adm47QGDl2GzSSJxOHXc_2GvcCVQQNOnE0KIwmd7cCuHE6_Pk1EPwlSMQglKu1ZqvWc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sXy619Iskg3OECNM5SAjbw&oh=00_Afi2p9TPke6XNmVE76ZHVtESmbHkv7RImEtNCWUyBxHXkQ&oe=692FC353)
+![Tutorial Slide Example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/548904179_817222384149048_3185233713188373063_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Pg9zEZMHhWoQ7kNvwEk4Bvk&_nc_oc=AdlOp4Wa2P62GNI-HSeUBq5HLn72MtXIpXWLTVHK-ie_cXT1OGIk4JLaL0uDU5G6HZc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=n_TO9BMDxkN3KfOfCmljBQ&oh=00_AfhDHVKKRb0hsJP9idaeUBYEIStb52CzQXx2Ri-09af6Og&oe=69314D13)
 
 With a comprehensive tutorial slide system in place, you can provide structured, professional onboarding experiences that guide players through your world’s features using interactive slideshow presentations that leverage Horizon’s native tutorial capabilities.

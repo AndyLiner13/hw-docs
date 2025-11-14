@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # MHCP Q&A Session: Typescript with Christopher Kairalla and Jonathan Lehman
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1157664085536539_698185600567939749_n.mp4?_nc_cat=106&ccb=1-7&_nc_sid=6500a6&_nc_ohc=K0vmqzjinWwQ7kNvwESfmmV&_nc_oc=AdlEUkSCHdhOD6e0b0Ebtz2cvIiwMASzLnwxJoq2Qns99cXaML5BHOIpXTlqu3CozXg&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=yupJW4RKPe_zxZQHLsTUew&oh=00_AfhpP5oNqcOhe-ykFz4wJV7YF63qRPgbswkhudfPhXjfMg&oe=691B3E33)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1157664085536539_698185600567939749_n.mp4?_nc_cat=106&ccb=1-7&_nc_sid=6500a6&_nc_ohc=tncuKYc8OhoQ7kNvwEZyXUW&_nc_oc=Adm14vfAZjYUFcIgi_-x8k57Z0edCylElLspo54dMxxmT5h_lBXGYobOz-XGADR7DDA&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=EUZmHlE7rKssjZHwHvrH_A&oh=00_AfiAlXGqQV1A7PY--3wTuNhfmXD04535Ji9emXr-Fm7_xA&oe=691CC7F3)
 
 Join Meta experts, Christopher Kairalla and Jonathan Lehman for a Q&A session on Typescript moderated by Jeremy Sharff.
 

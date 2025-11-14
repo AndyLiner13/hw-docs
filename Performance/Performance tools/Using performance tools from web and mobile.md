@@ -21,11 +21,11 @@ Let’s begin with opening the Performance panel.
 
 In the web browser, the Performance panel displays a real-time view of all currently selected metrics. While visiting a world, press **P** to open the Performance panel. The panel appears at the bottom of the screen, and the world viewport shrinks to accommodate it. Pressing **P** again closes the Performance panel and expands the viewport back to full size.
 
-![The world with the performance panel opened.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/468449886_597918836079405_7058027029312242437_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=cg0sMgy1wKwQ7kNvwHmf3mA&_nc_oc=AdkVdY4eSyJlnAiT1Rh_ROxhc1zMXhLnqUv3z1eZGqfEqkR2A6EJrObKbdXEarlaxaU&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_AfikVYNad4i9g_SPBpX0cb2UUlv9ZGGH8UBTBUGqeC3Prw&oe=692FC447)
+![The world with the performance panel opened.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/468449886_597918836079405_7058027029312242437_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=cg0sMgy1wKwQ7kNvwHmf3mA&_nc_oc=AdkVdY4eSyJlnAiT1Rh_ROxhc1zMXhLnqUv3z1eZGqfEqkR2A6EJrObKbdXEarlaxaU&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_Afj4dCiLmTOLl1UxcQpToWBx4xFXta-vxUDw_uaYBrepSA&oe=693115C7)
 
 In mobile, you open the Performance dialog but pressing the **Settings** button (gear and wrench) in the top right corner of the screen.
 
-![The Performance dialog in a mobile world.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490967887_697726326098655_5633090691600198677_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=PfUDsWVhrRsQ7kNvwFwL9Nl&_nc_oc=AdnraUe6lfETyvnX6H226gb-aOYkU6PKNoGS-9qoLyiYjj_GuwnvspwHWUTV4T5VWZc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_Afh4ujwivghvHN9CyJR9GpMXiTUd8viWwL4DswmM5DQzsA&oe=692FC24C)
+![The Performance dialog in a mobile world.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490967887_697726326098655_5633090691600198677_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=SwOcKtSUXoIQ7kNvwFdGBZP&_nc_oc=Adm6PhaHlcvKB86qSPvSKU41xcg__cNEA_cTWOEK8CAkJuHexcKvi8-kLK4tpy0P9J0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_AfhhyLsyat5sPkcDk50okhlZYJUGPYjztEqxjS4zlulrGw&oe=693113CC)
 
 ## Displaying real-time metrics
 
@@ -33,11 +33,11 @@ You can select which real-time metrics to display in the Performance panel by cl
 
 You can also set a **Target** number for each metric. When a metric exceeds the defined target, a red dot appears next to that metric as an alert.
 
-![The Display Settings window open in the world. The gear icon used to open the window is highlighted.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468436141_597918822746073_6104268589954704877_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ssBD-jOgljcQ7kNvwFZZU4p&_nc_oc=AdlSOG-ZubOknE0dko3DRaWaVza2WxLcdgsWt4tyu_Ig-j8txEmJWoB0gptTNmXE35M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_Afj2KPgYWaYZRPB-1lAbdeUyji8ZVn6SYuzW-AbcKBX42w&oe=692FAA7E)
+![The Display Settings window open in the world. The gear icon used to open the window is highlighted.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468436141_597918822746073_6104268589954704877_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ssBD-jOgljcQ7kNvwFZZU4p&_nc_oc=AdlSOG-ZubOknE0dko3DRaWaVza2WxLcdgsWt4tyu_Ig-j8txEmJWoB0gptTNmXE35M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_AfguplWLK0iabSXcMbU7xCU5ZoQ29bo_J7DccBsv4FeNdQ&oe=6931343E)
 
 In mobile, once the Performance dialog is open, click the check box for **Show real-time metrics (RTM) overlay** to see the FPS and CPU metrics.
 
-![The Performance dialog in a mobile world with Show real-time metrics (RTM) overlay selected.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/490752050_697726319431989_1096614501547904137_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=310Tm9akTHAQ7kNvwFv6Uhx&_nc_oc=Adko8i71_t1JwUkgh-NSXhJKgWLMglT-Vtp_e2w-SqJQv12dZERBUgQyDQisfVWTQ1U&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_AfjP4ZEcvrKJmWXY4apLGUEFMgvEUNx7-SQvFn8XkRJvkA&oe=692F98DD)
+![The Performance dialog in a mobile world with Show real-time metrics (RTM) overlay selected.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/490752050_697726319431989_1096614501547904137_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=310Tm9akTHAQ7kNvwFv6Uhx&_nc_oc=Adko8i71_t1JwUkgh-NSXhJKgWLMglT-Vtp_e2w-SqJQv12dZERBUgQyDQisfVWTQ1U&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_AfiUtj8ZJg3jiZ78XNGOAM_fu6M_5_qz_PgmBL3YCBY1xg&oe=6931229D)
 
 ### Scrubbing (web only)
 
@@ -47,7 +47,7 @@ Click and drag the blue box at the top of the panel to the data you would like t
 
 Below the Frame Time scrubber, a “zoomed-in,” detailed view is shown for each metric, spanning the frames covered by the blue box. By changing the range, you can choose whether to focus on a short span of time, or a broader view over a longer period.
 
-![The world with the detailed view of the Frame Time scrubber opened and a span selected.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468536945_597918829412739_6965456918375424809_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=4saAD6ESoUcQ7kNvwFzBNKP&_nc_oc=AdmnzVsT913Bu3LJ2Uf4goGZ8XQ4CQ_pz21_QwM0wjGcsg2n6Th-adPnEb7uMIHJQRw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_AfgnL6lPrJA9pKck_w-RFvkoMuexSfh0NnZDk52nQYsQeQ&oe=692FB440)
+![The world with the detailed view of the Frame Time scrubber opened and a span selected.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468536945_597918829412739_6965456918375424809_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=xxqjzKnE45QQ7kNvwFreUDj&_nc_oc=Adm1NDppaxAtoUvgOgWwQ_IuQrKOv6BtP8vf9WL-UBN9NFTGo-P6AvP_5TEB2qd1YK4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_AfgsyFf8etLheBh1hr4Ra-GHmsiobxzzyaCWnCvbTbDJMw&oe=69313E00)
 
 Click the **Back** button to return to the Performance panel.
 
@@ -63,25 +63,25 @@ With Tracing, you can capture performance data from your world to [view in Perfe
 
 In the web browser, click the **Trace** button (red dot with white corner brackets) to open the Start a Trace window.
 
-![The world with the performance panel open, and the trace button highlighted.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468468286_597918839412738_2933779466601780685_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=d31F583ibxQQ7kNvwEUmSQM&_nc_oc=AdlB-FIYgHSwuHNnwshBnrJMIYO8ZjP1zyUPomKPRgtn99ta0L-wKSCX5Dnexpmr3S4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_AfinxjMSlNwbr8oX1feWFeLXdajmedcJPrrXw2T_YbaTCQ&oe=692FCAE6)
+![The world with the performance panel open, and the trace button highlighted.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468468286_597918839412738_2933779466601780685_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Pi9tMyZPmMoQ7kNvwFwpYDP&_nc_oc=AdkgeBVdaQi1vLpzbkDKcubo_yGmswmiWQJ2SdXIZyDSgBsp4snocM5PkdjWPiJNJdo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_AfjGoRCO0xoSmhaEXBcmWYq98uaNkxd87QpfonLPd9Nopw&oe=69311C66)
 
 Then click **Start capture** to begin a trace. While the trace is running, the Performance panel closes and a “Tracing in progress” panel appears in the lower left corner of the screen, showing the trace’s current status. You can add flags to a trace by clicking the **Flag** button on the panel while the trace is running.
 
-![The world with the Start a Trace window opened and the types of traces displayed.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468431908_597918826079406_8202001262270154656_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=KSZtY-ufWh8Q7kNvwGJAND0&_nc_oc=AdkwhLT70Z-kwdhKGmozHQCDiiPY_oe4HFNxNMPdNW3yFwVDs1jZrTGox_mEvirYmhQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_AfgWYfojWndn5HpbQcOZ_q-XRFY2HowC3_JyWhtAKXbchQ&oe=692F9E21)
+![The world with the Start a Trace window opened and the types of traces displayed.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468431908_597918826079406_8202001262270154656_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=KSZtY-ufWh8Q7kNvwGJAND0&_nc_oc=AdkwhLT70Z-kwdhKGmozHQCDiiPY_oe4HFNxNMPdNW3yFwVDs1jZrTGox_mEvirYmhQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_AfhGaNq6YJZAFGmfKx28d8fOZZ0TAr1FGEXZHv-0-4rtbw&oe=693127E1)
 
 In mobile, click the drop-down menu next to the **Start trace** button to select the type of trace you want to run. Click the **Start trace** button to begin a trace.
 
-![The Performance dialog showing the three trace types](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490711616_697726316098656_6022198852499889232_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=vJGi3ojB39kQ7kNvwHDRvvP&_nc_oc=AdnzRMXVtfHXnjD4h5CgM-G1h-2hHL5eTOJLMlJVZnbCyvsYycF1GtH073b5VIbUo10&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_Afi5uIW6uBAbJKEhm-3-xDl5QNJ1zW3IJpLXaDQFml8orw&oe=692FA9CF)
+![The Performance dialog showing the three trace types](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490711616_697726316098656_6022198852499889232_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=M-f1EziZ3xcQ7kNvwHCZt1U&_nc_oc=Adm4j2AgX6IQKQvdtx59YjZi9McBCjqMBpau_MLtfDJnuqUU6cNZj-eFHXQNXNwFDa0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_AfhUvUltoMt6g94XkV9aGPY4rYCOobl1BnUuQLhWuiQvWA&oe=6931338F)
 
 ### Stopping a trace
 
 In the web browser, to end a trace early, click the **Stop** button at the top of the panel.
 
-![A zoomed-in view of the tracing screen, with the stop button highlighted.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468496139_597918832746072_314632089191930808_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=BpI4fit54H4Q7kNvwFKmU8c&_nc_oc=AdkUOh0pUMk6uhUvQBRc4TwR7ZmLH3Cbj1rr1rhQ1R9ZIf_8sML8kbYH_KcomOd9diM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_AfjJFFFVEnU1nvaR9puT23Js45oeiLejPJAt61jhYFtU7A&oe=692FABB9)
+![A zoomed-in view of the tracing screen, with the stop button highlighted.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468496139_597918832746072_314632089191930808_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=BpI4fit54H4Q7kNvwFKmU8c&_nc_oc=AdkUOh0pUMk6uhUvQBRc4TwR7ZmLH3Cbj1rr1rhQ1R9ZIf_8sML8kbYH_KcomOd9diM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_AfgsWZ_ySpM-8gQCRvNT6l_4MvyzP82bLhjAbJe-Xye3bA&oe=69313579)
 
 In mobile, to end a trace early, open the Performance dialog and click the **Stop trace** button.
 
-![The Stop trace button on the Performance panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/491696845_697726312765323_5619417363942537487_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=vGe39TShrscQ7kNvwFzqbD9&_nc_oc=AdlJ0CMFVhMPKs4YUIk_6PBobuvmfZBXm_GJ-ZZvi_85WGhKaQKkbHIpyrMu5lSVFqY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DtzYL57WZKOBQpwPgjuRng&oh=00_AfjxQ-iIFqFZOtEyKXsM18CUyDC7yV9zZXSAfClulSZJZQ&oe=692F979F)
+![The Stop trace button on the Performance panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/491696845_697726312765323_5619417363942537487_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=vGe39TShrscQ7kNvwFzqbD9&_nc_oc=AdlJ0CMFVhMPKs4YUIk_6PBobuvmfZBXm_GJ-ZZvi_85WGhKaQKkbHIpyrMu5lSVFqY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_5t_3X2d0a1Fs4e3CcQ02Q&oh=00_AfjXIgzEdpQByhHhOvX5cbR62Hzs6sJ97jP1adurJ9vPsw&oe=6931215F)
 
 When a trace is completed in mobile or web, the results are uploaded to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) in the Performance section.
 
@@ -93,4 +93,4 @@ To learn more about Meta Horizon Worlds, try the following:
 - If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/hw-docs/Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
 - Learn about the desktop editor with the [Introduction to the Desktop Editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 - Learn about the other tools available by reading our [Tools Overview](/hw-docs/Get%20started/Tools%20overview.md).
-- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.
+- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

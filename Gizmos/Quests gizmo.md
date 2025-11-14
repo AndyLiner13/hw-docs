@@ -40,7 +40,7 @@ To set up the script that updates quests results for players in the world, use t
 
 To display player achievements, use the `displayAchievements` method in the [AchievementGizmo](/hw-docs/Reference/core/Classes/AchievementsGizmo.md) class.
 
-To set and query if an achievement is complete, use the `setAchievementComplete` and `hasCompletedAchievement` methods in the [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player) class.
+To set and query if an achievement is complete, use the `setAchievementComplete` and `hasCompletedAchievement` methods in the [Player](/hw-docs/Reference/core/Classes/Player.md) class.
 
 Additionally, built-in [`CodeBlockEvents`](/hw-docs/Reference/core/Variables/CodeBlockEvents.md) are available to listen for events such as when an achievement has been completed: `OnAchievementComplete`.
 

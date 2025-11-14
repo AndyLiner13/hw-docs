@@ -10,7 +10,7 @@ The spawn point can be configured to control the player’s camera and modify it
 
 To set the player’s camera, select the spawn point and use the **Mobile Camera** drop-down in the object properties window.
 
-![Set Player Camera](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/510881416_749600250911262_533806309759582464_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=ONXj8dwf2V0Q7kNvwFaXaec&_nc_oc=AdlX2KVyQF64TCwOseKTEQr3sK65NvN-gLsD-86c_0jTvSScrPfZHs3X549_M0LuZYc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=sVRRHZwOlZEgsMZLK-DJdg&oh=00_Afg7t6Ko4YvS1IEZ-1747DBmso8dDxdpgxuf6rx2XP6w9A&oe=692FBE0A)
+![Set Player Camera](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/510881416_749600250911262_533806309759582464_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=ONXj8dwf2V0Q7kNvwFaXaec&_nc_oc=AdlX2KVyQF64TCwOseKTEQr3sK65NvN-gLsD-86c_0jTvSScrPfZHs3X549_M0LuZYc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=44MfmQk12SKK5gWet8Y-Rg&oh=00_AfhHQgmt7wux4_gBvKpb8HcyXMT5yhg2KgGx9hmm2HHS-A&oe=693147CA)
 
 Note
 
@@ -52,10 +52,10 @@ Before using the Camera API, you need to:
 
 - **Enable the Camera API module:**
   * Open the **Scripts** dropdown
-  * Click the **Settings** icon ![Script settings](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452715951_512536464617643_2581711984717896530_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=dbIB1aNYBkwQ7kNvwE2L3Rb&_nc_oc=AdmXgTlMWXw-vBr4teQ7PXsz79DGp-lAoile0yuTPpvC_Dlq8kq6t9wuz-HiNUGs7e4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sVRRHZwOlZEgsMZLK-DJdg&oh=00_Afg3JAVjF6sUzikKW7-PWY02LkwJgjFML9LObzekDpvyJA&oe=692FC428)
-  * Enable **horizon/camera**![Enable Camera API module](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/557415887_835743098963643_369281294224086013_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=iVU2vs9yVLoQ7kNvwHO57HN&_nc_oc=Adng_GaCLVwW8cIEcXOI9tI-qZg5rSgxa2D35FUruf1aVSa-yWEmMGSO5ozhoKg34PI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sVRRHZwOlZEgsMZLK-DJdg&oh=00_AfhWye9gSIDJb4vQ4TuHCHMk619wsntnz4oOvEq39J4bdw&oe=692F9A83)
+  * Click the **Settings** icon ![Script settings](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452715951_512536464617643_2581711984717896530_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=dbIB1aNYBkwQ7kNvwE2L3Rb&_nc_oc=AdmXgTlMWXw-vBr4teQ7PXsz79DGp-lAoile0yuTPpvC_Dlq8kq6t9wuz-HiNUGs7e4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=44MfmQk12SKK5gWet8Y-Rg&oh=00_AfgXabpkEKzH_gOeOMUnyzOT2GOxuoj2b3pV5gla7UWUZg&oe=693115A8)
+  * Enable **horizon/camera**![Enable Camera API module](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/557415887_835743098963643_369281294224086013_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=iVU2vs9yVLoQ7kNvwHO57HN&_nc_oc=Adng_GaCLVwW8cIEcXOI9tI-qZg5rSgxa2D35FUruf1aVSa-yWEmMGSO5ozhoKg34PI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=44MfmQk12SKK5gWet8Y-Rg&oh=00_Afghr29R8LaXjK99h9RslW3G23m9xxU__6Cv5Pnw1SWPVg&oe=69312443)
 - **Set Local execution mode:**
-  * Set your script to execute in Local mode ![UI path to set Local execution mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480543861_656120566925898_450547107366261658_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=xlN29uhcirsQ7kNvwETyoXT&_nc_oc=Adn0JDJ38CCRZphx46019p-QQr6RwP02_GHLn9-zs3lna06We5Cm9hf9MNN0ZcZ1t9E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=sVRRHZwOlZEgsMZLK-DJdg&oh=00_AfhwigaT4HIKVy_J9zq96w4kIk1FNQKiZMpitH7LKuDrMw&oe=692FA1AE)
+  * Set your script to execute in Local mode ![UI path to set Local execution mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480543861_656120566925898_450547107366261658_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=xlN29uhcirsQ7kNvwETyoXT&_nc_oc=Adn0JDJ38CCRZphx46019p-QQr6RwP02_GHLn9-zs3lna06We5Cm9hf9MNN0ZcZ1t9E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=44MfmQk12SKK5gWet8Y-Rg&oh=00_AfhgKhvxqct19nb19_wg1B72aK7sZetsS-pqSvH41R53yg&oe=69312B6E)
 
 ### Camera transitions
 

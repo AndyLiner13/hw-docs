@@ -8,14 +8,14 @@ There are many ways to move or teleport players. While you could simply update t
 
 Open the **Gizmos** panel and click the **Spawn Point** gizmo. A new spawn point object is added in the world and placed at the bottom of your Hierarchy panel.
 
-![Image shows a close-up of the open gizmos panel with the Spawn Point gizmo highlighted.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488077132_686408257230462_9189278117600569932_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=6PBo1p5xkPUQ7kNvwE40jrC&_nc_oc=Adlyyi7fghSB6y00HrXjBzpRW1lal4W1O1YF_Ftrj5GQ8-i5qX4Kgs9VWLxZKfyJbbM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=D8QAaXSutopnQeA20A3cfg&oh=00_AfjbaruY6xBYpD_k99UWQDygg-761eDR_bUfkA2wl9cNWQ&oe=692F9FD7)
+![Image shows a close-up of the open gizmos panel with the Spawn Point gizmo highlighted.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488077132_686408257230462_9189278117600569932_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=6PBo1p5xkPUQ7kNvwE40jrC&_nc_oc=Adlyyi7fghSB6y00HrXjBzpRW1lal4W1O1YF_Ftrj5GQ8-i5qX4Kgs9VWLxZKfyJbbM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=uIRiFA-lsBzx7Q6JvsIBaw&oh=00_AfhAh6RMG8HtKFB1_TrjZvPVOHgtMSWskx6njdqxvYs1fw&oe=69312997)
 
 In the main window, click the new spawn point to select it. In the **Properties** panel:
 
 * Rename this entity to “Match Spawn Point”
 * Turn off the **Spawn on start** property, which disables use of the spawn point for players entering the game.
 
-![Image shows an example of the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488509297_686408233897131_487584987737791949_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=gFdg1gjeLjgQ7kNvwFxoZrH&_nc_oc=AdnztFGYtwgM7h3kBW3mkELersRISz4ytdNCf8jsNNf8U3LLLUGQwocwxLRVnBawNPs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=D8QAaXSutopnQeA20A3cfg&oh=00_AfgnxUhH_tDBVgXI_7m-OgSDVfYwUZwdDbAB59p7_48jHQ&oe=692FC783)
+![Image shows an example of the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488509297_686408233897131_487584987737791949_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=gFdg1gjeLjgQ7kNvwFxoZrH&_nc_oc=AdnztFGYtwgM7h3kBW3mkELersRISz4ytdNCf8jsNNf8U3LLLUGQwocwxLRVnBawNPs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uIRiFA-lsBzx7Q6JvsIBaw&oh=00_AfgjgcN0nMs-v131c6SSBLRMO8lHzGON-JBzToDWJu22NA&oe=69311903)
 
 Next, connect the new spawn point to **PlayerManager**, which is managed through script properties.
 
@@ -41,7 +41,7 @@ matchSpawnPoint: { type: hz.PropTypes.Entity },
 - In the Properties panel, locate the Script sub-panel.
 - Update the new matchSpawnPoint property field with the **Match Spawn Point** entity in the first available field.
 
-![Image shows the script sub-panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487757061_686408200563801_6704182067673252801_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=TZdII6ePT_oQ7kNvwF29kHI&_nc_oc=AdkaYfRyxr-qxYvQnFdLHup0fIsi3hOxQp7bhG9MStWzfH72nk8M94q8jMpWlhV4d-g&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=D8QAaXSutopnQeA20A3cfg&oh=00_AfjdpWIxEjLc0awVw_YeFB2k_jeiuLlU5TnaFEvlkSRGfw&oe=692FAEE9)
+![Image shows the script sub-panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487757061_686408200563801_6704182067673252801_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=v17Jt6UUXIoQ7kNvwF-Hsyn&_nc_oc=AdnnEO99Zyo6hDBAbAZRoey8S_N_vFHcQvG9EFX3Pl8CmtehHAm489E-oJ2OzZNDwRs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=uIRiFA-lsBzx7Q6JvsIBaw&oh=00_AfjMq4npgonmDgy_pCxj8jACOpvSusZvpLtfc5IU86WEiQ&oe=693138A9)
 
 ## Respawning players in a new location
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 1 - Setup
 
-![Thumbnail of Text as Asset tutorial world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462368715_563294042875218_3263059233967526730_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=kJFV9rkATscQ7kNvwHllACq&_nc_oc=Adm9KrbgsaJpF7w11cRWKzW0s3EwpHiun7HnQ_FNeC8Z0tuNcaSrWcieHWLVA5tiUvQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OSm-6Pn4a1lwUgt88DSC2w&oh=00_AfgT2qvKEbRkvCEo6tuGbvQut7j8vvUP0J8lKySKirJ4AA&oe=692FBCDB)
+![Thumbnail of Text as Asset tutorial world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462368715_563294042875218_3263059233967526730_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=BkGdV4wwszcQ7kNvwE5MQ00&_nc_oc=AdkXNwYANxIwTrlvujFuWtPujJI-l9IcovlRIkS0Q9Bng4vMW97iVFSyTvqYdMg6fy8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=4XslP739NIKFSYMe0zyQ2Q&oh=00_Afgond1hKsfvo7bKfeLHp6X8MpXzTAdK1QE2tqMYWGsJmQ&oe=6931469B)
 
 Important
 

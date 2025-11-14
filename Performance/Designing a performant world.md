@@ -10,7 +10,7 @@ This document provides a guide for world creators to design a world that allows 
 
 A modern art style will use much less vertices than a streamline moderne from 1933. This is not to say you can’t choose a curvy art style, however, if you choose one you may have to compromise in other areas, such as gameplay or avatar count.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452521523_512536554617634_2696271712653898402_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=LrJGH4eo-VoQ7kNvwG_f8OS&_nc_oc=AdlvVhDoIsYgwxtAyfDUQI3ryjsB8l9Orz05bDLCkzwzKZKmgxogCPMMnnXIEKkDjGg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_Aficfk68_nF-5o0xZumUaydiBLub2T_xB9ZIwWTmdALMRQ&oe=692FBB56)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452521523_512536554617634_2696271712653898402_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=LrJGH4eo-VoQ7kNvwG_f8OS&_nc_oc=AdlvVhDoIsYgwxtAyfDUQI3ryjsB8l9Orz05bDLCkzwzKZKmgxogCPMMnnXIEKkDjGg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_Afgy0aScx_tlXaGxus8clgVrDR3zujRjfMtFWyW3qEGrTg&oe=69314516)
 
 *Example of building style with an extreme amount of curves.*
 *This kind of building will have a high vertex count.*
@@ -35,7 +35,7 @@ We recommend modeling details rather than creating them using an alpha cutout te
 
 See the example below. The green tree leaves take up a lot of pixels and should be modeled. The red flowers are too small to have a large effect and may be easier to create using masked materials.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652319_512536571284299_6517807564455528126_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=HZdu6otl0zgQ7kNvwE2y8Ai&_nc_oc=AdmTu_N3ZAR2OkANEpb0XxkNMISTcnphMr-pLKfDN9EdRIBqI0k28LYGb7b4Ty8B7oU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfgDbZbYUot4pF7expI0PCWbUVPOk5iY3bw7_MKzXSaCbg&oe=692F9F80)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652319_512536571284299_6517807564455528126_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=HZdu6otl0zgQ7kNvwE2y8Ai&_nc_oc=AdmTu_N3ZAR2OkANEpb0XxkNMISTcnphMr-pLKfDN9EdRIBqI0k28LYGb7b4Ty8B7oU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfhIV-28xGlvPsfKiPNr-DGXqll16Kgf0IcljysZOYqyXw&oe=69312940)
 
 Decades ago, there was an art workflow for creating plants where the mesh is simple but a texture with an alpha mask combined with an alpha cutout shader is used to create the detailed shape of the leaves. At that time we were much more limited in bandwidth to process polygons. Screen resolutions are now higher than those times in the past, meaning there are many more pixels passing through the pixel shader.
 
@@ -45,13 +45,13 @@ In the example below, the leaf was modeled using simple geometry and uses an alp
 
 Every pixel on the rendered polygon has to run the shader first and determine if a pixel is to be discarded before the depth check can be run. This means all of the math of the shader will happen even for pixels that are covered by other objects.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452415075_512536541284302_1852434138106423061_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=sTA1UhJ9xzEQ7kNvwG7C3MS&_nc_oc=Adk9tteC5nOcUv_g55OusoCew5kww7Yje4oct3nyIPHk5CjtSLSM1wHddQI7XAk336g&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfgwSLIEndlVWU-3iYNDKc78Fb9InTX-U6YvHbkrwf1aVA&oe=692F94D2)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452415075_512536541284302_1852434138106423061_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=sTA1UhJ9xzEQ7kNvwG7C3MS&_nc_oc=Adk9tteC5nOcUv_g55OusoCew5kww7Yje4oct3nyIPHk5CjtSLSM1wHddQI7XAk336g&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfhHwApMX2_Ca_cR16Z1MfCI_djjFKpV43OQdEETrQd6zQ&oe=69311E92)
 
 To avoid this performance penalty, it can make sense to model the details using actual geometry and an opaque shader for best performance and only on objects that take up a large amount of pixels on screen. We recommend keeping the mesh detail as low as possible when modeling and this can be enforced through an art style decision.
 
 In the example below, the leaf details were modeled as part of the mesh. The texture and shader are opaque. If any portion of this leaf is covered by opaque objects, the pixels can be rejected early without processing the shader. There are no wasted pixels processed around the fringes.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452665735_512536564617633_255494625181766698_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=0YFDZu11v3sQ7kNvwFs4xaY&_nc_oc=AdlYlffEx5gmfm0stihf1Mrl4mCVs2SW1OBVkplscOyuP36XJX0eLTyhSYEU57xzZyI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfhyIBm44qxAEBJkIrjjUwfwD095mGJSmOtP-AQe-ELstg&oe=692FC56D)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452665735_512536564617633_255494625181766698_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=F25YEGwUFg0Q7kNvwGeRy9w&_nc_oc=AdmUx4U7qyae_isWgnJ8q-6O6daXagTBvRpk9ouJoB1--nCHxshgEe8vAcA3wG78Jxo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfiBFlD6FmfxTocSc75YgTpqLW3MKavrSfEIt-H4dFed6Q&oe=693116ED)
 
 ## World rendering limitations
 
@@ -65,7 +65,7 @@ It is easy for a world to have its performance hindered by non-performant layout
 
 In this scenario the player can stand in one spot and the entire world is in view. This is something we absolutely want to avoid if possible. In this arrangement, every single object will pass through the render pipeline. Because everything is visible, view frustum culling simply does not happen.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452665546_512536544617635_8474799145111336672_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=GhDR-pp8C-MQ7kNvwEpFmfs&_nc_oc=AdkJwx5cmaoBALdcbhlyb7YpHJVsT7k1FVtoh6vSBtHHaY_Rqnv3cfoYQsJ47pKuT0s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_Afi_Y9lgYyVWQBYTmHhYDOIn9a-rgnqsxlJMc-hfkIXBVw&oe=692FC12B)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452665546_512536544617635_8474799145111336672_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=3X2Im7Q2fM8Q7kNvwH3Fuuc&_nc_oc=Adnjb6Ng_eW4hk2QSRweutMgIcMwArJAF5DB_EA0I_xGSDtvVN05_Je8om7bjvg3HmA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfiTrZ8CLrQCSu2q3_n4rBZQ5niPInyVgxGREUI44RI_FQ&oe=693112AB)
 
 *Every object in the world is visible, using significant resources.*
 
@@ -73,12 +73,12 @@ In this scenario the player can stand in one spot and the entire world is in vie
 
 By adding twists and turns to your world, you can limit the amount of objects visible at once. This is because objects outside the view frustum will be culled out.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452615363_512536561284300_2590624683490971616_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=p0S828fYOcIQ7kNvwGq95Dw&_nc_oc=AdmWvEh-66qpImfdEcGZlHFx-WoWw0XOwzNek36YRS5UbzgL_-rdKh7bWP0eqWW1N9U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_Afg9u0S_5pdOn9xDY3HqN-MrPu-h21BcEueEYmxTfv45fA&oe=692FCA6A)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452615363_512536561284300_2590624683490971616_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=p0S828fYOcIQ7kNvwGq95Dw&_nc_oc=AdmWvEh-66qpImfdEcGZlHFx-WoWw0XOwzNek36YRS5UbzgL_-rdKh7bWP0eqWW1N9U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfjNw34h27hE42JUAabm-8YoLB1WQjVz_vfvFvwJr0dcFQ&oe=69311BEA)
 
 *With all objects unmerged, only some objects are visible while others*
 *are frustum culled.*
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452968584_512536537950969_2074123939149396057_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ownh85Qn1sgQ7kNvwGk9BT6&_nc_oc=AdkVB0kPs-fB1SvjEuClfJZLVzwlKKpDzvREEau3NFg0PhbSQOEea-yad8lIkvJgecQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfgJvuuyOtpZ1ZFb7GDSt13UI553QDIjuXZusRmwc8eQwQ&oe=692FBE84)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452968584_512536537950969_2074123939149396057_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ownh85Qn1sgQ7kNvwGk9BT6&_nc_oc=AdkVB0kPs-fB1SvjEuClfJZLVzwlKKpDzvREEau3NFg0PhbSQOEea-yad8lIkvJgecQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfhBcUynnyyQPsChc7iyy8M3yrtxMOBYr0Q6tC3PSWPViA&oe=69314844)
 
 *As you progress through the world, previously hidden objects appear*
 *within the frustum and previously drawn objects are frustum culled.*
@@ -93,7 +93,7 @@ It is important to merge meshes in such a way to take advantage of frustum culli
 
 If you merge all objects in the world, then it will break view frustum culling. See the following image where all the objects have been merged into one mesh. All objects highlighted in green will render, despite the view frustum not touching many of them.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452714917_512536547950968_5962150732882164843_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=LqcyWBzW_XYQ7kNvwEA9VsI&_nc_oc=AdmjE_rwM6BZLGSpschQhmuGNMYfrTncA1bi_a-81WvcrxJuNPqeXtwMi0f45vctRyA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_Afjw0Tcn-mOop6PwfhOQB85bHCiJPdQyVRyDH5XoBsFKEQ&oe=692FA3D6)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452714917_512536547950968_5962150732882164843_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=OZ5Cv-jjE6QQ7kNvwGi8dyt&_nc_oc=AdlV2f2G0P89U-pJCyLCnAWOuddjpEt71Cp7trjKZClxAqDJmF_Q7BcyS3gK9fqkhYc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfjmtKzetHpcEMPo3sIdeYXeBROjMc-mhIvSx57DCLLhGg&oe=69312D96)
 
 *All mesh objects are grouped into one mesh causing frustum culling*
 *to do nothing.*
@@ -102,7 +102,7 @@ If you merge all objects in the world, then it will break view frustum culling. 
 
 See this next example where the objects have been merged into smaller localized clusters. The ones in Group A are drawn but the ones in Group B are not. By making use of typical views and the geometry of your world you can create groupings to maximize the impact of merging meshes on frustum culling.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452677911_512536557950967_3435113445092476895_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=1zyoplRY4mcQ7kNvwHwtdRb&_nc_oc=AdndxaEg3jzDC5cB9m7L124am7b8otuusNJoq3G2CHlk-5jDcVnA_zS5L03XcYbXo00&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_Afi0IafOANW2_PYgS0ydqw1gsHssGpDei08n4rsCCXmXJA&oe=692FC3BF)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452677911_512536557950967_3435113445092476895_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=5vbnhfLuMxoQ7kNvwE0upuu&_nc_oc=AdkHpIrGcatWlMvRu5ZeXUlmM9aEILTvETmoHODEr814OQg66L9cNAjZmZQ2eQ-BHU0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_Afio_DctMHXcsUHiZzyWdmAr1pelXc1wg0YOaF0gtOvGOQ&oe=6931153F)
 
 *Group B is frustum culled but Group A is not.*
 
@@ -110,23 +110,23 @@ See this next example where the objects have been merged into smaller localized 
 
 By placing rooms on top of each other, you can add more space to a world while benefiting from improved view frustum culling. In the diagram below, green objects are in view while all the red objects in the room below or not. All the red objects are culled out and performance is improved.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452653026_512536551284301_6433487313962794823_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=xAfl3usXwcUQ7kNvwHZFMw6&_nc_oc=AdmnIdYzSkTzrevLHYeDUdbwFnmTZ1Jn86-ZyLrrSTk_Lhj5u5qiQEiBlFmBZtTA3-4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfiWsh7fBsDcSc3-ZYV5_HDQjD4puQWe7TnMRYfbtNW4fw&oe=692F9680)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452653026_512536551284301_6433487313962794823_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=l5r4a2JCxWIQ7kNvwHorgJC&_nc_oc=AdlZrdMb4rrmcX4v5nDKsyHyLHdJof4R4DLDdBGhXd2VO8l9JfqtXSLZ2Go-vs_JYh8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfjDmxvoyP0gkm_3M6fs61c6wrqN3BMiJAVtOcStuPABrg&oe=69312040)
 
 However, if the player looks down at an angle, all of the objects will still be drawn as they are all within the camera frustum. That is why you want to [set visibility](/hw-docs/Performance/Designing%20a%20performant%20world.md#use-set-visibility-to-hide-objects) to hide objects in rooms that you cannot see.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452578170_512536594617630_1672393260791108194_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=2LDgq8pWvmkQ7kNvwHeBunR&_nc_oc=AdlQPlS2k20d6HOWCWgjRAPMmQR44_4qJOL1OU8uiWOQ62QWEJfsM2GHYVUEcSsHciI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfhdDNTZqPGqnvaywaLozXkQ3QRrhGhZ9lEokrdfdu3NyQ&oe=692FB399)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452578170_512536594617630_1672393260791108194_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=2LDgq8pWvmkQ7kNvwHeBunR&_nc_oc=AdlQPlS2k20d6HOWCWgjRAPMmQR44_4qJOL1OU8uiWOQ62QWEJfsM2GHYVUEcSsHciI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfiicGgVfym-ClVuJHwsxo8KHJwOfmpvGYdu6TQRQ-9Cew&oe=69313D59)
 
 ### Axis aligned bounding boxes
 
 In reality, each group will be surrounded by a tight axis aligned bounding box (AABB). An AABB is a box with its shape lined up perfectly with the world X,Y and Z axes. The AABBs may overlap based on how you merge your mesh objects.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452934355_512536591284297_5562694496699702285_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=AnsCGJp8sgcQ7kNvwHficES&_nc_oc=AdnIPUNu-vxLMCzDfGQsN8Rmv1LbEgSJFrXsova_vQZwfQZsi6efgSBi32ILLMmJaLo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfjsHWnak-k-3QUeDMcM-5XCkVfxVczeeSWMz0SeursuQg&oe=692FB310)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452934355_512536591284297_5562694496699702285_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=AnsCGJp8sgcQ7kNvwHficES&_nc_oc=AdnIPUNu-vxLMCzDfGQsN8Rmv1LbEgSJFrXsova_vQZwfQZsi6efgSBi32ILLMmJaLo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfhKyj0KW8zcjP7tpUCsVZC5mNV13fKdubvC1pkrPU3wOA&oe=69313CD0)
 
 *Two AABBs overlap due to mesh object grouping.*
 
 If any AABB intersects with the view frustum, they will be drawn and go through the entire graphics pipeline. In the following example, all objects are drawn even though it looks like Group B should not be drawn. This is because the AABB for Group B intersects with the camera frustum.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452814653_512536584617631_6645312895410632076_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=29uo8IEHTAoQ7kNvwGMPIQN&_nc_oc=AdmflcfrYh2xJjzZpaZwWXwDid9cfMxBSCHOEYWUD1_EDiom9pZd00uPPy8SC_a1WVg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfgHOCy4YdACTgnwgA2K3hInSRfaZpEDSJ8FCRM-XaMgYA&oe=692FAF64)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452814653_512536584617631_6645312895410632076_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=29uo8IEHTAoQ7kNvwGMPIQN&_nc_oc=AdmflcfrYh2xJjzZpaZwWXwDid9cfMxBSCHOEYWUD1_EDiom9pZd00uPPy8SC_a1WVg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfgaDCUmxFn92irsRmrrdk95sHLi2RfepKnDP71uwy3PTQ&oe=69313924)
 
 *Looks like only Group A visible, but Group B is*
 *rendered because AABB is within the frustum.*
@@ -135,7 +135,7 @@ If any AABB intersects with the view frustum, they will be drawn and go through 
 
 Long hallways are a design layout we have seen in some worlds. However, when at one side of a hallway and facing the other side, all objects are in the frustum. This is another version of the entire world visible all at once. However, there is something you can do to reduce the number of objects rendered. Use the [Entity API](/hw-docs/Reference/core/Classes/Entity.md) to set visibility on or off.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452756647_512536567950966_2643662129032564579_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=IRZY1MkP2BsQ7kNvwGlLcZd&_nc_oc=Adlmatezl90d3RA69GU1TrtEym5Wd_lWlFkKBTLfYT_PHU1bVTcNVIkCP5IiPI6RNWg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfjnfOANu1I0nVp9DodYTsUG9ViW5LoDg_59CfA3Bezsaw&oe=692FB214)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452756647_512536567950966_2643662129032564579_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=KqSZBLS8LfMQ7kNvwG2YAu-&_nc_oc=AdmYdoVnMKPKjPLsRdVKnxuNLgxXBmA50QC22mfkUeWbcA1tGu-HeFO4PgIBaG6m7xY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfiXEGdZ-cNPht88jiKD2aH2V9JgqjGWqRPB5DlPEhYCqg&oe=69313BD4)
 
 *Separate rooms but all objects are inside the frustum.*
 
@@ -143,11 +143,11 @@ Meta Horizon Worlds has the ability to set visibility on objects. You can design
 
 Using a trigger, you can determine the moment you can no longer see the previous room and set visibility off for those objects. That way, even if the user turns around, these objects will not go through the render pipeline. Similarly, you can avoid having objects visible that you can’t see yet because they are blocked. You can block the line of sight [vertically](/hw-docs/Performance/Designing%20a%20performant%20world.md#technical-art-choices) by using elevators or shafts that go either up or down.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452592371_512536577950965_9036878834909609726_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=vOsNSDm2l0QQ7kNvwFtx5rp&_nc_oc=Adn7MEalcWQBkGbsUzLnYY5Sg3aZXu2E_iLzcAaXhyN7wdI0WOViv2nKZSX3XWuW_fs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfgBxjek-WVlo0t0M1yMsTOseaZl2IuTGZsiUYgGU75LKA&oe=692FC85F)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452592371_512536577950965_9036878834909609726_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=vOsNSDm2l0QQ7kNvwFtx5rp&_nc_oc=Adn7MEalcWQBkGbsUzLnYY5Sg3aZXu2E_iLzcAaXhyN7wdI0WOViv2nKZSX3XWuW_fs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfgHb_0Sxkdh8rlEGcToNLzPZV4VNwwbzxRojixjZyaPfg&oe=693119DF)
 
 *Door blocks visibility to second room*
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452672307_512536574617632_1491438558323672026_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=XopkdmVZEowQ7kNvwE6veFy&_nc_oc=Adlt4QKmg-eQPnFmZUHkcxadAp00IObB8wcjGigTEFaTnmap9lwKPuGPtpiIV5InvDY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d2dIQ3SWZ4kcealjzpdxuw&oh=00_AfjkVOplFdFoXJBMiuBKu-6aRyPJFWpn83-4b1cNLLpDJA&oe=692FA19B)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452672307_512536574617632_1491438558323672026_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=wGe0z4fzq9EQ7kNvwF4KgSp&_nc_oc=Adn04y5K8GWBsgA-HOqfdYnjdSAGutuYO7JVR9IOKYtzR7VoxRXv6mxj9lsnwSmZTik&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfgxXGh1wNk7aDwn4-qmBYIK2NSI2qTu7-BQZXmn3sjqBQ&oe=69312B5B)
 
 *90 degree turn blocks line of sight to second room*
 

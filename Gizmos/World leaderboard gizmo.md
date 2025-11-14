@@ -42,7 +42,7 @@ For more information on the world leaderboard gizmo properties, see the [MHCP cr
 
 ## Scripting
 
-To set up the script that updates leaderboard results for players in the world, use [ILeaderboards interface](/hw-docs/Reference/core/Interfaces/ILeaderboards.md), which is part of the [World class](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world).
+To set up the script that updates leaderboard results for players in the world, use [ILeaderboards interface](/hw-docs/Reference/core/Interfaces/ILeaderboards.md), which is part of the [World class](/hw-docs/Reference/core/Classes/World.md).
 
 ## What’s next?
 

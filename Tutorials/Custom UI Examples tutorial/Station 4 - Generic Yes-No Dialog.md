@@ -6,7 +6,7 @@ This station demonstrates how to set up a generic dialog with Yes/No buttons.
 
 This customUI panel contains a text message and a Yes button and No button, with placeholders for actions to be taken when each button is pressed.
 
-![Image of Station 4](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476467445_646003204604301_5473449391228275245_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=iUPGyI0UXB8Q7kNvwHfQbq1&_nc_oc=AdmNOcO1vfR_uw2OZzcXHX2gkKeIE1nOHCK-27jJakE8jOhZ6lYqHJRXgldUHUet3dQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=B6G76ZKXDeV1Oi4VWS_JkA&oh=00_AfjLoLdGfUMQWbriEtYaBuopIcQLc3ywRG3baGFDqKTcqQ&oe=692F9FB0)
+![Image of Station 4](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476467445_646003204604301_5473449391228275245_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=5KiTNjigFMMQ7kNvwHcdZq9&_nc_oc=Adm7_ehwePP07-ceZXnofOv9w3gB0YzXrFzuZHiA2Cd8A3r6gxri7p3vEvOQeCBSnTI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=capQZOLICg5g60B_Jk8w-Q&oh=00_Afgn7o2DQQUOFjKlmTDWKvwd-Vcswji6ojaNiSWN59KdRQ&oe=69312970)
 
 ## Assets
 

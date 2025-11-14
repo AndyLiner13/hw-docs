@@ -86,6 +86,6 @@ Incorporating the Five Flavors into Your World
 
 Core loops are critical to retention — and integrating one or more of these motivators can make your World even stickier. Here’s how to put each into practice:
 
-![Combining the five flavors chart](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/556642021_829820549555898_2329900846174901174_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=NcRvRzHCqMsQ7kNvwFDsIWb&_nc_oc=AdnmzsTJYpeDEoAysDBDR_FdCF2bmLlHNdRZFZXyiv7kKL-VkrrkYCDa9bqITXpQvho&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7sG1ZVB9Ct1Hvd9c3YFnhA&oh=00_AfjDPhazBa_3B_OcA00VnA5xcv_rQH9taLApRrH4fXcFOA&oe=692FB6E2)
+![Combining the five flavors chart](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/556642021_829820549555898_2329900846174901174_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=NcRvRzHCqMsQ7kNvwFDsIWb&_nc_oc=AdnmzsTJYpeDEoAysDBDR_FdCF2bmLlHNdRZFZXyiv7kKL-VkrrkYCDa9bqITXpQvho&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7i946Cym8_6Z1xFVQfomSg&oh=00_AfgCr6dbp1ODM1f1mjZhkqxsvjwJBO4FWeHFd3bhRaaSpA&oe=693140A2)
 
 By thoughtfully designing your game around these motivators, and emphasizing their social potential, you can deliver experiences that captivate players in the moment while building long-term engagement and community.

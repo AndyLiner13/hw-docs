@@ -28,7 +28,7 @@ To change the door’s destination, click **Change**. Search for public worlds a
 
 The **Visible** toggle controls the visibility of the gizmo in the world.
 
-![Door gizmo properties panel](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494960168_710920418112579_1665985283251277521_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=wRv-me6-aakQ7kNvwEdX1x8&_nc_oc=AdklUlaJ8Qg8NtMfjVPNuYgsF5Q-g2jQxB5Mkq3tpqKCgn2OwygD5iPlqmoLYD1KKxQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=fHwjnh8O-btF4EJGnjCz1Q&oh=00_AfjzL223uTWUvkXejFF6w9XKcRBI92XvGrcCzuz_CyYHQQ&oe=692FC309)
+![Door gizmo properties panel](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494960168_710920418112579_1665985283251277521_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=wRv-me6-aakQ7kNvwEdX1x8&_nc_oc=AdklUlaJ8Qg8NtMfjVPNuYgsF5Q-g2jQxB5Mkq3tpqKCgn2OwygD5iPlqmoLYD1KKxQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=rR1XYb2-m493hxobtJGnZA&oh=00_AfgUDhMRFmm4pCvNI_sq_YWUqkguUtNexsYqEAYkfYoMhQ&oe=69311489)
 
 ## Travel to another world using the door gizmo
 
@@ -51,7 +51,7 @@ The following image shows the player in front of the door gizmo. Pressing the tr
 
 **Note**: Travel is not supported when you’re in the play mode of the desktop editor.
 
-![Door gizmo in the play mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494753285_710920421445912_6107526059820057792_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=RXFTAwH3EQwQ7kNvwE_Vfau&_nc_oc=Adk0jK_O8IWSmJ1PEAQF6QCAw1n_kvbtLHutykKNE5eh27t2TuNYqNpXXnoIvmzik5w&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fHwjnh8O-btF4EJGnjCz1Q&oh=00_AfjBVVh7M88QAUvamMSSxNBwFw1ZfNWQ4nFs-GSL10XKig&oe=692FA516)
+![Door gizmo in the play mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494753285_710920421445912_6107526059820057792_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=RXFTAwH3EQwQ7kNvwE_Vfau&_nc_oc=Adk0jK_O8IWSmJ1PEAQF6QCAw1n_kvbtLHutykKNE5eh27t2TuNYqNpXXnoIvmzik5w&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rR1XYb2-m493hxobtJGnZA&oh=00_Afj-EacAmDaKp-ybFVLigw43cCXCP0b4myUZhc5vxgga-w&oe=69312ED6)
 
 ## What’s next?
 

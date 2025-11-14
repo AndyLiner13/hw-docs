@@ -37,7 +37,7 @@ The geometry for primitive colliders (box, sphere, capsule) is expected to have 
 
 This screenshot from Blender shows a visible mesh (RingTarget) with a number of primitive colliders defined for it.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652340_512500407954582_5623056193016771241_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZE9L1qw_eQUQ7kNvwEjkcHr&_nc_oc=AdnWFgnCeurLwYeOhtxg-L-FJokI6Ns8PEy1w67WmxRQ6hK6Wl-Hp57xxu7KQxrY3OA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=TPNRs9Lo9t79p4sW1FjGbA&oh=00_Afg3f3jlWWO4LFC3c6oPZKU3jcH5rNzhf0kSJhuJPRoOBA&oe=692F9B2B)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652340_512500407954582_5623056193016771241_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZE9L1qw_eQUQ7kNvwEjkcHr&_nc_oc=AdnWFgnCeurLwYeOhtxg-L-FJokI6Ns8PEy1w67WmxRQ6hK6Wl-Hp57xxu7KQxrY3OA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=jsHhVcOoz3HX_3BYmaImng&oh=00_AfiZmD5IwLp8HRXA92Xzhu0RKoE7sItiEDLVgnoj0CVRCQ&oe=693124EB)
 
 ## Spawning collider entities in the desktop editor
 
@@ -52,6 +52,6 @@ To add a primitive collider to the world, select **Colliders** from the **Build*
 
 We automatically enter Colliders view mode when you place a collider entity into the world. To enter collider view manually, select **Collisions** from the **View Mode** menu at the top right of the **Preview** window.
 
-![Collider view option](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/514025692_754517587086195_4881851379016605796_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=fTOuMvPX_skQ7kNvwGqac2y&_nc_oc=AdkxGYF3c1MyHMCTtWgxo2UofBQWnhR_Mf94_24_VMv3A2cO135hqkak_wmWkgk2Tfs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TPNRs9Lo9t79p4sW1FjGbA&oh=00_AfjsJYPSOAt2KqXz5SEw4sqw9MEB5RWGAAx7pGYSbvIouA&oe=692FC8DF)
+![Collider view option](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/514025692_754517587086195_4881851379016605796_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=fTOuMvPX_skQ7kNvwGqac2y&_nc_oc=AdkxGYF3c1MyHMCTtWgxo2UofBQWnhR_Mf94_24_VMv3A2cO135hqkak_wmWkgk2Tfs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jsHhVcOoz3HX_3BYmaImng&oh=00_AfhR5jWzXmOAEdAJawvsrXKs6LvDC4_dRDHpudetl1t5tA&oe=69311A5F)
 
 *Collider view option*

@@ -37,11 +37,11 @@ If an item is held incorrectly on web and mobile, you can enable the **Use HWXS 
 
 This setting will only override the behaviour for web and mobile clients, and if disabled, the standard **VR Grab Anchor** selection will be used.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519427754_770476942156926_5720430056048818403_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=CR3bJkh3vtUQ7kNvwG2lfF-&_nc_oc=AdnqYb_z1CM2D2hAQINVNbVF8mDL37_wrNWCOa6V5Ov3RDVNoLlaNdLOL5nmVgz_zrw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=NZNEQw5SYjZtY-oQoccJvg&oh=00_AfjLApjRjZXQEjuTcGZWeOD8yC-DnpMriBiHdr-G46wbbA&oe=692F9E9D)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519427754_770476942156926_5720430056048818403_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=CR3bJkh3vtUQ7kNvwG2lfF-&_nc_oc=AdnqYb_z1CM2D2hAQINVNbVF8mDL37_wrNWCOa6V5Ov3RDVNoLlaNdLOL5nmVgz_zrw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3yPUqODrbC9xl7z61cGcPw&oh=00_AfiriFv3m6ZxPfbDMHj0HBRykJUKVZT2lDR1_F6K3EukuA&oe=6931285D)
 
 Alternatively, you can also set the grip anchor in VR, and then manipulate the grip hand visually.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519422621_770476948823592_8191593475986477756_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=2jRcOyK5H50Q7kNvwGRB8IN&_nc_oc=AdnDt559plx3dBa021uAoM8NQyNHRdePnRZhsFdiIJnOLFknJw1c5iVVFERQ2GgrUEI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=NZNEQw5SYjZtY-oQoccJvg&oh=00_Afgc50W_NKVAhsHNcnp98htpawXA-xEypQsY3Igm45YTOg&oe=692FA59A)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519422621_770476948823592_8191593475986477756_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=2jRcOyK5H50Q7kNvwGRB8IN&_nc_oc=AdnDt559plx3dBa021uAoM8NQyNHRdePnRZhsFdiIJnOLFknJw1c5iVVFERQ2GgrUEI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3yPUqODrbC9xl7z61cGcPw&oh=00_AfjbuuPm1Ah29oSoIu6rpjqRUACNa-tBIYaVv0aLS4xihA&oe=69312F5A)
 
 ## Disable Physics While Grabbed
 
@@ -54,7 +54,7 @@ To avoid hand collision issues on mobile devices, disable physics interactions f
 - In the **Interaction** dropdown, select **Physics and Grabbable**.
 - Enable the **Disable physics while grabbed** toggle. This will temporarily bypass physics interactions.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519412753_770476945490259_2338891858305916899_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=UuEFjAoiercQ7kNvwEuW2SD&_nc_oc=AdnnvtMkaIaMMM3U9nMn6ubncj5kl7ok2U2rNZr6AEgf2YoqCb0QjMGSdZAu0PFLPhk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=NZNEQw5SYjZtY-oQoccJvg&oh=00_Afii2CS5VP1F9T-EN3TOKohA0EtYRPdY4yBwa88QwSbMcQ&oe=692FC9E8)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519412753_770476945490259_2338891858305916899_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=UuEFjAoiercQ7kNvwEuW2SD&_nc_oc=AdnnvtMkaIaMMM3U9nMn6ubncj5kl7ok2U2rNZr6AEgf2YoqCb0QjMGSdZAu0PFLPhk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3yPUqODrbC9xl7z61cGcPw&oh=00_AfgzKUS60l9qHxcQBfqP66b9TBzb3ZGOyN3q9wczuM4MNg&oe=69311B68)
 
 ## Programmatically Control Physics for Grabbable Entities
 
@@ -142,4 +142,4 @@ By increasing the interaction range, you make it easier for players—especially
 
 The interaction range setting is available in the Properties panel of the interactable entity, allowing creators to customize the effective distance at which the entity can be interacted with.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/524627770_776044151600205_8550447281540913694_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=22EEJa7jx-YQ7kNvwHS9Ul9&_nc_oc=AdmOLHrvLtsS-tAF6JEXuMO2HkwMqmWDqzDETJZXMOHae8JCwicp_SEWQVtQRiwexN8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=NZNEQw5SYjZtY-oQoccJvg&oh=00_Afjh1qi9xRrfwd-amqyqN_sSne75frvDLvXS0-KXP_D7RA&oe=692FC20A)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/524627770_776044151600205_8550447281540913694_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=22EEJa7jx-YQ7kNvwHS9Ul9&_nc_oc=AdmOLHrvLtsS-tAF6JEXuMO2HkwMqmWDqzDETJZXMOHae8JCwicp_SEWQVtQRiwexN8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3yPUqODrbC9xl7z61cGcPw&oh=00_AfiMGJqz68kU3xlQKQJ7g8MR-ex2vKkFkRlaKPPrviRmUg&oe=6931138A)

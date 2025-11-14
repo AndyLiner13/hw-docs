@@ -24,9 +24,9 @@ The Gen AI panel features pre-made sample prompts that you can select to create 
 To open and use the Horizon desktop editor’s Generative AI tool, use the following process:
 
 - Select and open your world then click the Gen AI icon on the top toolbar to open the Gen AI panel.
-  ![Gen AI toolbar selector](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581938662_863563282848291_2344867213088467592_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=meov2htSsaIQ7kNvwFOj1LA&_nc_oc=AdkZj0ask8V5zZh-aHA6gowJ77HzESGkmdFsOrh1Ndl9iniLRGjCIal1EVTLo2q625U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6ubvZiv04yeS0MX9fdnpbg&oh=00_Afh75uHm5ulMJyPL747dIT3HfNsYaYGmetIatYA9Xyf-pw&oe=692FA032)
+  ![Gen AI toolbar selector](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581938662_863563282848291_2344867213088467592_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=meov2htSsaIQ7kNvwFOj1LA&_nc_oc=AdkZj0ask8V5zZh-aHA6gowJ77HzESGkmdFsOrh1Ndl9iniLRGjCIal1EVTLo2q625U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=P3fDT2SVTVCsNb2aZZkbdA&oh=00_AfgusHfusP1xxt0j5VDn47scu1jJG8pnhfhLAkkUz8GPcw&oe=693129F2)
 - The AI Creation Tool panel opens on the right side of the screen.
-  ![AI Creation panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470671869_611458581392097_4829464275397483224_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=pukEbTP6pQQQ7kNvwHP5TG1&_nc_oc=AdkGSNV-LLh_tMZ4NHjStRE-yp-FGoG1MxjWMmYni_PCcfEuMSw2XW2b428XAyxMAv0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6ubvZiv04yeS0MX9fdnpbg&oh=00_AfhSSPv2D-tQrvWdAWQGBOfUE7_vnxQohdo5e2WCBjLtHQ&oe=692FAF62)
+  ![AI Creation panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470671869_611458581392097_4829464275397483224_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=pukEbTP6pQQQ7kNvwHP5TG1&_nc_oc=AdkGSNV-LLh_tMZ4NHjStRE-yp-FGoG1MxjWMmYni_PCcfEuMSw2XW2b428XAyxMAv0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=P3fDT2SVTVCsNb2aZZkbdA&oh=00_Afi-pqtTym6rCYBD9SHc3piMHBY1__HBoi1kGkDW34JKLw&oe=69313922)
 
 With the creation panel open, you can generate either typescript or audio for your selected world.
 
@@ -38,11 +38,11 @@ Once you’ve generated content using the Gen AI tool you can start a new chat o
 
 With the Gen AI panel open select the pencil icon to start a new chat. This can only be selected when you’ve already started generating content.
 
-![Gen AI panel new chat icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476850671_651374570733831_2051486668962484572_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=8MA481uHO_0Q7kNvwGrOdhA&_nc_oc=AdnwoUqlMbsOXBmcuvFLeYvTNVysIgckQ3yiY8IIw2h2HfwsbRWDwd-EClyJgtveAFs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6ubvZiv04yeS0MX9fdnpbg&oh=00_AfgykW2GDAvF1fMz2HzVQmqiFuh5-jPeHoHqSpKQwWULLw&oe=692FC6A7)
+![Gen AI panel new chat icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476850671_651374570733831_2051486668962484572_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=8_jQrJse6j4Q7kNvwFCM2v6&_nc_oc=AdmPIoUPL4k9jNS6ujj7GeH-P4coc1WJwnz8f3grtrTEqf5gkR2m6r1zEU_ocpIh9UI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=P3fDT2SVTVCsNb2aZZkbdA&oh=00_AfjMz-DwPqPwa8d30SwK5TRcO7I1ayoie9HjWme3rqVFvg&oe=69311827)
 
 To view previous conversations select the **Open chat history** button, then select a previous conversation from the list.
 
-![Gen AI panel chat history window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/477468586_651374550733833_2753780227460932468_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=S1abd_AIrR0Q7kNvwHNJ7wH&_nc_oc=Adn32YxUei4az0H4QF3K7urKniZ_45oMAkAuHAldqaIP23urhE_NVCWhFkFnBZUsb9g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6ubvZiv04yeS0MX9fdnpbg&oh=00_AfiuM6VI8QrDJWcnZSyXbHtNWukd-uqPBufRVo8uO2dSSw&oe=692FC339)
+![Gen AI panel chat history window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/477468586_651374550733833_2753780227460932468_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=S1abd_AIrR0Q7kNvwHNJ7wH&_nc_oc=Adn32YxUei4az0H4QF3K7urKniZ_45oMAkAuHAldqaIP23urhE_NVCWhFkFnBZUsb9g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P3fDT2SVTVCsNb2aZZkbdA&oh=00_AfiCbjt3rCBzzBBilFO9A6bQJgPoU7k_iuH0Wqv9xMsPnA&oe=693114B9)
 
 You can also delete previous conversations from this list by hovering over an entry, then clicking the trash icon.
 
@@ -54,4 +54,4 @@ To learn more about Meta Horizon Worlds, try the following:
 - If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/hw-docs/Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
 - Learn about the desktop editor with the [Introduction to the Desktop Editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 - Learn about the other tools available by reading our [Tools Overview](/hw-docs/Get%20started/Tools%20overview.md).
-- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.
+- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

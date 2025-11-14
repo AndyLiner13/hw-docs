@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Panels and Tabs in the desktop editor
 
-![Panels and tabs in the desktop editor UI](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/483545650_672113478659940_5780491651078147497_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=fYD7ARQFclAQ7kNvwGkUzkT&_nc_oc=Adl56ZTfMl7VqMVpSzKPdH4WQ6IjkL5fqKayXMZSRBhHdFZe2Jm1DESBE6fsUG9JThs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=q4ymRypLAa37isKviciMpw&oh=00_AfgQ6EdgHW0G2twGYBO40D4TWNziLqQAbcO9wKnRKGMjCQ&oe=6930BEDF)
+![Panels and tabs in the desktop editor UI](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/483545650_672113478659940_5780491651078147497_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=tJKafIFsNwsQ7kNvwE-9gkK&_nc_oc=AdnZuBbyY3dGOfGxNGdcOlEzCOXeexrCryuWM5bnPvI1_yPgWuKQfO6Qa45x2MEmTBY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yE55ZuKD9kXaTbg3a2krjA&oh=00_AfjR4_KsV0ZwipQYVbxjP82ZGRVycndIJ-JEF6IVAlRg4Q&oe=69312F5F)
 
 The desktop editor contains a variety of different panels and tabs to give you a wide variety of functionality, from the **Scene** panel to the **Assets** tab. Each option provides a different type of tool that you can use for creating your worlds.
 
@@ -17,7 +17,7 @@ The editor contains the following panels and tabs available for creative and bui
 
 ## Hierarchy panel
 
-![Objects in a scene listed in the Hierarchy panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/465993113_585041167367172_6135751887087775879_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=TC9OjzR4Ul4Q7kNvwE-biiw&_nc_oc=AdlY0ymLfzE66GoniZNQdwdtnc-Vm7k9MHPfgu0aul0UeBG6gNBVVHZhPx0lMB3UoFQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=q4ymRypLAa37isKviciMpw&oh=00_Afgo0wtWmpvhyHh2tkj6Wa1K1IOo6k6qMuJtSQvpyRz5yQ&oe=6930BDF1)
+![Objects in a scene listed in the Hierarchy panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/465993113_585041167367172_6135751887087775879_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=TC9OjzR4Ul4Q7kNvwE-biiw&_nc_oc=AdlY0ymLfzE66GoniZNQdwdtnc-Vm7k9MHPfgu0aul0UeBG6gNBVVHZhPx0lMB3UoFQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yE55ZuKD9kXaTbg3a2krjA&oh=00_AfjF9afSm_6KY1OG8yuWAql7ZSBd_fml_rbGqXNKn1dFIg&oe=69312E71)
 
 The **Hierarchy** panel displays the list of objects in the current scene, such as 3D models and script components. When you add objects to your scene, entries for them also appear in your **Hierarchy**. You can use this panel to sort and group the objects for selecting or filtering.
 
@@ -25,19 +25,19 @@ For more information, see the [Hiearchy Panel Overview](/hw-docs/Desktop%20edito
 
 ## Scene panel
 
-![Objects in a scene shown in the Scene panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/465978691_585041157367173_1686215405507430871_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=1Wdjvik40MUQ7kNvwEQsJUT&_nc_oc=AdkOFo5Y8uKZI8bftEDrK4GL-GMMqsxjgyCCHeLADsHasIOqCPXiU9Ks5XQC4V1qGo0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=q4ymRypLAa37isKviciMpw&oh=00_AfjF97Hk2U_qgyXDpkG4wCeAunk_mT-maXEwbrIfks8q8A&oe=6930CAB2)
+![Objects in a scene shown in the Scene panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/465978691_585041157367173_1686215405507430871_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=1Wdjvik40MUQ7kNvwEQsJUT&_nc_oc=AdkOFo5Y8uKZI8bftEDrK4GL-GMMqsxjgyCCHeLADsHasIOqCPXiU9Ks5XQC4V1qGo0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yE55ZuKD9kXaTbg3a2krjA&oh=00_AfjUi7X1UbTR0h29I9-QXb3IaKiY_hhTYJuD0yy-wXP0RA&oe=69313B32)
 
 The **Scene** panel is the window located in the middle of the desktop editor screen. It displays the scene you’re currently working on. When you add objects to a scene, they will appear in the world.
 
 ## Properties panel
 
-![The Properties pane containing a selected object's properties](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/465911774_585041190700503_36900092648037845_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=BtYKsOuKijgQ7kNvwFGZ6_m&_nc_oc=AdlHPoM5N9Wn7YJWSgLa1OuW5gVrkoxNfGrAKpYv2Ab0guKc9H1EGQVE6JnqLQCMxrw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=q4ymRypLAa37isKviciMpw&oh=00_AfjO3Ou4GjDDGCU-HQlxmGD5eJqX9nUpv_2gNm0atkNH8g&oe=6930AF03)
+![The Properties pane containing a selected object's properties](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/465911774_585041190700503_36900092648037845_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=EpNoSaJoSfMQ7kNvwHvScMZ&_nc_oc=AdlW7pqCeIi1Pfs8bIqbtpz25xeUHk3zm-Tc-ZsvNeCvjiyEm25EmW17Gm-o4iYOrZM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yE55ZuKD9kXaTbg3a2krjA&oh=00_Afgzj5l3WQT7LKruuqxy2Y1G8vmlDNPbJ_v_-SBppBfmTg&oe=69311F83)
 
 When you select an object from the **Hierarchy**, or from the scene, its properties display in the **Properties** panel. From here, you can make specific changes to the details of that object.
 
 ## Assets library
 
-![The Assets Library](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/476791345_671848628686425_5944046758916685547_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=denqEwcBnhgQ7kNvwHGD27b&_nc_oc=AdmcHzvLIldVud8OL5P0HZhhEwm9hBJ5FSs1FWhOA1_xAIPF3t48dPwAK4TXbTNryL0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=q4ymRypLAa37isKviciMpw&oh=00_AfhGB4FNJviFYSywSLpOBA6tLKqhz8hNRj_8mdGUTKo7qQ&oe=69309CF4)
+![The Assets Library](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/476791345_671848628686425_5944046758916685547_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=denqEwcBnhgQ7kNvwHGD27b&_nc_oc=AdmcHzvLIldVud8OL5P0HZhhEwm9hBJ5FSs1FWhOA1_xAIPF3t48dPwAK4TXbTNryL0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yE55ZuKD9kXaTbg3a2krjA&oh=00_AfhEv7ppNb_EYzZy_PSfC2EpaGPNhx0otkwUApiJ59W_IQ&oe=693145B4)
 
 The **Assets Library** contains your public and private assets library. It shows all of the asset folders for your world, in which you store any assets you create or import.
 
@@ -45,7 +45,7 @@ For more information, see [Introduction to the desktop editor Asset Library](/hw
 
 ## Console tab
 
-![The desktop editor Console](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/465844801_585041100700512_6231136068198465384_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=klN0DXk_joIQ7kNvwHROL-0&_nc_oc=AdnADs69IYG5ld8u7kKPEGWujWo0T0W2Ss_b-903srgs8pZAVeUgp68emWX3_LSjbUk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=q4ymRypLAa37isKviciMpw&oh=00_AfiT1NkDgNJryhvtG2jjNlxzM4eOzmn2VA0e4mzLidlSUw&oe=6930C3CE)
+![The desktop editor Console](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/465844801_585041100700512_6231136068198465384_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=klN0DXk_joIQ7kNvwHROL-0&_nc_oc=AdnADs69IYG5ld8u7kKPEGWujWo0T0W2Ss_b-903srgs8pZAVeUgp68emWX3_LSjbUk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=yE55ZuKD9kXaTbg3a2krjA&oh=00_Afjfnbiywc_nQIZrAG620SiZADEJxu6kStMrhUZNAMu2Yw&oe=6931344E)
 
 The **Console** tab opens a panel that displays a running list of status messages generated by the editor and the Meta Horizon Worlds runtime. These messages contain information intended to help you find and fix problems with your world.
 
@@ -53,7 +53,7 @@ For more information, see the [Desktop editor Console](/hw-docs/Desktop%20editor
 
 ## Tests tab
 
-![The Tests tab](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/465936002_585041107367178_7120098181980927881_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ELoS7ysVQr8Q7kNvwGJZsmg&_nc_oc=AdlAn8ULopRxDczi6GQJiUF8oCeiZKZSY2y12DhG4Anz54XqnUy4YUiHq1TS4jrlnJA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=q4ymRypLAa37isKviciMpw&oh=00_AfjHPL072_R1mUyjixXYAOdpfrL4-FMB4OIUQnlU_i7IwQ&oe=6930BF88)
+![The Tests tab](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/465936002_585041107367178_7120098181980927881_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ELoS7ysVQr8Q7kNvwGJZsmg&_nc_oc=AdlAn8ULopRxDczi6GQJiUF8oCeiZKZSY2y12DhG4Anz54XqnUy4YUiHq1TS4jrlnJA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=yE55ZuKD9kXaTbg3a2krjA&oh=00_AfjtFvkpcslmG5sv6bECYlkpwvMeRYw16bQcRZ64BgLlQQ&oe=69313008)
 
 The **Tests** tab is used to open a tool to run in-world tests inside the desktop editor. In the panel, the editor runs a world simulation in order to pupulate a list of test that you can run.
 

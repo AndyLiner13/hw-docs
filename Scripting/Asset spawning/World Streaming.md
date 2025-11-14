@@ -72,15 +72,15 @@ You can learn about the workflow involved in creating a world with sublevels by 
 ### Create sublevel worlds.
 
 - In the Horizon Desktop Editor, create two new worlds called Sublevel1 and Sublevel2. Under **Choose how you’ll create**, select **Custom model imports**.
-  ![Image shows the world creation window with the 'custom model imports' option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462507050_563224309548858_7735022226235344296_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=MFfsicobI-MQ7kNvwF7U0Pg&_nc_oc=AdmeER0-kYaklXvBCXVIQXGO4ZryumZ7iarcN-o2UDxM9nU45tmEW_Lltj9_-FxjFAE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_AfhRFE77fOz3txoFbAw0LJyaT_wDMgmGQRN3lgNnS7n8bw&oe=692FB5C2)
+  ![Image shows the world creation window with the 'custom model imports' option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462507050_563224309548858_7735022226235344296_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=MFfsicobI-MQ7kNvwF7U0Pg&_nc_oc=AdmeER0-kYaklXvBCXVIQXGO4ZryumZ7iarcN-o2UDxM9nU45tmEW_Lltj9_-FxjFAE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_AfhaQZnSoQsqv_f0v0bjXK8IRKDuivnphx3x2tY-sbOPfg&oe=69313F82)
 - Place several pieces of recognizable geometry inside each world. For example, you could use green objects in Sublevel1, and red objects in Sublevel2.
-  ![Image shows an example of two worlds, one with green furniture and one with red furniture.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462629009_563224286215527_7331852403028520582_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=DtuX7TRdeLkQ7kNvwHOcAUJ&_nc_oc=AdnqiyZwiSo4qmkdtcq6LytchW-HcXG74bTg5GJS29XzgCFGT_2CRgjmqsqERf-35Ss&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_AfgK1PWVtF8P5-dleu0nUVs6q38Gg6YhbkN2Ox1_rHy7Zg&oe=692FB5A7)
+  ![Image shows an example of two worlds, one with green furniture and one with red furniture.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462629009_563224286215527_7331852403028520582_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=DtuX7TRdeLkQ7kNvwHOcAUJ&_nc_oc=AdnqiyZwiSo4qmkdtcq6LytchW-HcXG74bTg5GJS29XzgCFGT_2CRgjmqsqERf-35Ss&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_AfgUU8w-WUWEvHUB0M5DYTvdg3u6p65Pb9ALHm4ctNyeZA&oe=69313F67)
 - In each world, create a new sublevel entity.
-  ![Image shows a dropdown menu with the 'Sublevel' option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462369543_563224319548857_5410471249327829752_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=MGyTqu-BbqYQ7kNvwHDs8vR&_nc_oc=Adl8W1qy0IfDhJoEJOeCUcDDPy1kLJLv87WT5Rwg29RMVoV5JiBNqON9iLpt-FWHN6g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_Afh3ZRkoVna53DdK64jbhJKSvyYQ3MwbpTAXcJkj8oF27g&oe=692FB796)
+  ![Image shows a dropdown menu with the 'Sublevel' option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462369543_563224319548857_5410471249327829752_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=2IFPQI5lNhsQ7kNvwGlcqQ3&_nc_oc=AdlknTEt8wit3yBYhLpkr7NEbOXif75cIIHbFdUd56kvnZExv6RM_59rNrMQ3j1uhU8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_AfiiyDk4YgkajoqlsuEL9O4tEvxfM6JES7Uj0psQ-D6ekg&oe=69314156)
 - Set the type of the sublevels to **Exclude**, and rename it to “Testing Only”.
 
   This informs the world that any entities that are children to this sublevel should be ignored when loading it into the parent world. Note that they still exist when you load the sublevel world directly. This allows you to add content that you can use to test sublevels in isolation, without worrying about it being included in the integrated version.
-  ![Image shows a Properties menu with the type set to Exclude.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462454490_563224282882194_1061395988203076613_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=nz376wsye5sQ7kNvwEFiC5v&_nc_oc=AdntcxMPcEJFyw_ghEmfZd81Qp9mXPodTe9RboJ4KPjqXDNSISaQQeiqBkHWgSBYZAc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_AfjCy_1J1gpKriA9xAhEwEBjpHzaWAFUuyGNudL5hka3fA&oe=692FB1D6)
+  ![Image shows a Properties menu with the type set to Exclude.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462454490_563224282882194_1061395988203076613_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=10ucR1pGwv0Q7kNvwH3sGoT&_nc_oc=AdmvAkLjMI7yxXZt30GAisxse9U9dRpI__1QMF4gn7ffwwrh4sW4jPMSlQTZlvh7afY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_Afg3-b8IxplPXHXBnK8TXUrt_CFi1bDOr_m_KbxTlKw5bw&oe=69313B96)
 - Drag the default spawn point under this new sublevel entity in the hierarchy so it won’t be included when you load this sublevel into the parent world.
 - Publish both worlds, and be sure to turn off the setting **Visible to the public**.
 
@@ -88,32 +88,32 @@ You can learn about the workflow involved in creating a world with sublevels by 
 
 * Create a new world called “Overworld”. Under **Choose how you’ll create**, select **Custom model imports**.
 
-![Image shows the 'Create a World' window with the 'Custom Model Import' option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462492910_563224332882189_5157749398908009325_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=2-rwPAlQtloQ7kNvwHCzeiP&_nc_oc=AdkuRxApeMfa3oia_39dS0szta7un-bz2eauneL6ux163cbkcewUhbI0wKB7Z5Wf2uA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_AfgYrh2RAneHEhtdAmMyQ2FIdVmeJmZV0y4Q7JcssnMWhw&oe=692FAFE2)
+![Image shows the 'Create a World' window with the 'Custom Model Import' option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462492910_563224332882189_5157749398908009325_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=u76JdrxG6PsQ7kNvwGZHJgJ&_nc_oc=Adm1ZEKL6fFpbc5dwSofP0It79h_jfOTe2WRzDrt3_6oMgBnqaYQ-hlKE8zk1zFsYqg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_AfhqWvutPnKVqvw4vJL9kqR70_Hcwc8Ctv-zBxvB1kFTYg&oe=693139A2)
 
 ### Add the sublevels.
 
 * Using the drop-down list, add the two sublevel worlds to the overworld.
 
-![Image shows a drop-down menu with the 'Sublevel' option selected.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462463696_563224326215523_8369992740494252695_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=4BQtbJMzdN4Q7kNvwGL_T1z&_nc_oc=Adm49mnHyHiF7YsAyLLoLur2qkM4o9JzJSmAUGs4SCGu3WyURb4I53s1NfGlra_Fjlc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_Afjkgq--ypfH4ieKZ2hvRWowD24MbjVVFsiVOyo7oYvSjQ&oe=692FAD27)
+![Image shows a drop-down menu with the 'Sublevel' option selected.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462463696_563224326215523_8369992740494252695_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=gaWA5H72oZcQ7kNvwFi52U-&_nc_oc=AdknH7NvrB-XObodLzIzFLfIxNYmFXgRJLM2eXjPvZ0D8T4r_QFh-dvskUEYWHuUuCQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_Afi71XWTMXD60RG3iiAJV9tkVgPwj-o713fUXUgrtsvrEg&oe=693136E7)
 
 ### Link the sublevels.
 
 * Select a sublevel object from the hierarchy.
 * In the property panel, ensure that the **Sublevel Type** is set to Deeplink.
 
-![Image shows the 'Properties' menu with the 'Sublevel Type' set to Deeplink.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462466842_563224302882192_512977330414403837_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6Lop7DdFh6wQ7kNvwEoWlm-&_nc_oc=AdmxfJZ9B9MvhDjCJudgkDO-vrdcEfq79Z33CwfHVBVUCbmPXMG-LrL3RsC-SWCaW-A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_AfhQAlBr0NfTajCtV9xcmq6SBtqc_QKPF5piL_akleT8jQ&oe=692FAF60)
+![Image shows the 'Properties' menu with the 'Sublevel Type' set to Deeplink.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462466842_563224302882192_512977330414403837_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=WtfPPUc7bHsQ7kNvwHb8h_8&_nc_oc=AdnwYO1GtRR8smHxB5KI9kV7yKQoElvDHSQFl3K4QSjEftGldWYhZHbvKU2cDiR-0-c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_AfhqItCOQfwhMj5af56X3m3vPdECGNXybo2MpkyZwBPyLA&oe=69313920)
 
 * Click on the thumbnail square.
 * Select one of the sublevels from the world picker dialog box.
 
-![Image shows an example window where sublevels may be chosen.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462531591_563224366215519_3816575801335575806_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=PhWYAHl72SYQ7kNvwGEjYYD&_nc_oc=AdndZef0vMEnGoWuPIiED8kkTIq5F5-0binhd0tdP1CneF_doz9cTCBEQ1vDcL_gkHo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_Afia8YzZL1a3U7Mz_hQqYe149wTKsxqB99HJJ5eo55U9Fw&oe=692F9C33)
+![Image shows an example window where sublevels may be chosen.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462531591_563224366215519_3816575801335575806_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=PhWYAHl72SYQ7kNvwGEjYYD&_nc_oc=AdndZef0vMEnGoWuPIiED8kkTIq5F5-0binhd0tdP1CneF_doz9cTCBEQ1vDcL_gkHo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_AfjFbxtG4eglCGgnNUnBo_ktl0k6_8sULM9oAf0ThoygKQ&oe=693125F3)
 
 ### Position the sublevels.
 
 * Select a sublevel in the scene hierarchy.
 * Using the transform handles, position the sublevel so you can easily see it turn on and off.
 
-![Image shows a sublevel being placed into a scene.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462395401_563224316215524_2125350969875732958_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=kzffGdk18fkQ7kNvwFRkK2n&_nc_oc=Adne8Eo8fCVvf7RT4x3SVgDvASoeq53fgXVgE8B6XJgCtrXkIgg_ICCqTDz8vKl3pI0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_AfgLYbdY4oZqlWyczvTNKmoy0nwxaVwcD82la05WQCgNEg&oe=692FA005)
+![Image shows a sublevel being placed into a scene.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462395401_563224316215524_2125350969875732958_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Cav30kbwvtIQ7kNvwFBxhDo&_nc_oc=Adn-B3DN-i2Z1LX8A8uc_x39R3aiSdWuKVWsWg9fNvdSp2VGDkcpkSuKyLBMqsQeXd0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_AfiLZdJwHixGHj4nO8swq3m4aFZDi9b9uN4tP9hafSQk4A&oe=693129C5)
 
 * Repeat the preceding two steps for the other sublevel.
 
@@ -127,7 +127,7 @@ You can learn about the workflow involved in creating a world with sublevels by 
 
 As you change the states, you’ll see the sublevel load and become active, and unload.
 
-![Image shows the properties menu with the 'Sublevel Initial State' field highlighted.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462525127_563224322882190_3387601690689725349_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=nsWuTKzMtpUQ7kNvwFmn21t&_nc_oc=AdnFwD5y8mTwd8IL0YSq3ww95osslAmd1OdvduL0XmEfV_cBrKmVKL--SEL4jYJv42E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_AfhQ2tPUruRT0nSm9lgzkM3oRCUW8C2ixpc8_vhSB4_FRw&oe=692FBBFF)
+![Image shows the properties menu with the 'Sublevel Initial State' field highlighted.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462525127_563224322882190_3387601690689725349_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=nsWuTKzMtpUQ7kNvwFmn21t&_nc_oc=AdnFwD5y8mTwd8IL0YSq3ww95osslAmd1OdvduL0XmEfV_cBrKmVKL--SEL4jYJv42E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_Afg1V9q9lyFJfgCVGAo7zcZeBkqhXPoBuB_Kqsm8N1M6Vw&oe=693145BF)
 
 ## Programmatically spawn and despawn the sublevels
 
@@ -137,28 +137,28 @@ Follow this procedure to configure the Desktop Editor to run the sample script. 
 * Get the target state of the sublevel (for example, loaded).
 * Set the target state of the sublevel by using the following functions:
 
-[activate()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.activate) Make the sublevel visible to users and start running scripts.
+[activate()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Make the sublevel visible to users and start running scripts.
 
-[hide()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.hide) Return an active sublevel back to the loaded state.
+[hide()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Return an active sublevel back to the loaded state.
 
-[load()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.load) Begin the process of loading a sublevel into memory, but don’t activate it yet.
+[load()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Begin the process of loading a sublevel into memory, but don’t activate it yet.
 
-[pause()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.pause) Temporarily pause the load of a sublevel. Loading a sublevel has an impact on performance, so you might want to temporarily pause a load at performance-critical times. Resume the load by calling load() again.
+[pause()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Temporarily pause the load of a sublevel. Loading a sublevel has an impact on performance, so you might want to temporarily pause a load at performance-critical times. Resume the load by calling load() again.
 
-[unload()](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity.unload) Completely remove a sublevel from memory.
+[unload()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Completely remove a sublevel from memory.
 
-You can find the SublevelEntity class API in the [v2.0.0 world\_streaming package](https://horizon.meta.com/resources/scripting-api/world_streaming.sublevelentity). This API is not supported in v1.0.0 of the Meta Horizon Worlds API.
+You can find the SublevelEntity class API in the [v2.0.0 world\_streaming package](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md). This API is not supported in v1.0.0 of the Meta Horizon Worlds API.
 
 ### Preconditions
 
 Follow these steps to configure the Desktop Editor for running the example script.
 
 - In the Desktop Editor, click the Scripts panel dropdown.
-  ![Image shows the icon for the dropdown menu.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462463689_563224329548856_8861115945399082503_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=SBNcWarDn_cQ7kNvwFH8etg&_nc_oc=Adngic1G8COXSBF6I4XcyMGajzhzt_3KHJx-rJlzeda28cZqKQ_QCdAq77xPYrSKnkQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_AfgxnZId3d5uogNpQ0icHHivKDdcvyLIK-G-Z2wMHlw3hQ&oe=692FBDF9)
+  ![Image shows the icon for the dropdown menu.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462463689_563224329548856_8861115945399082503_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=SBNcWarDn_cQ7kNvwFH8etg&_nc_oc=Adngic1G8COXSBF6I4XcyMGajzhzt_3KHJx-rJlzeda28cZqKQ_QCdAq77xPYrSKnkQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_Afhmg_7uEJLC6xskRy_3oTLbHLaRlDRZNP31i7aYSrmCUA&oe=693147B9)
 - When the Scripts panel appears, select the **Settings** icon.
-  ![Image shows a close-up of the settings icon.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462596018_563224369548852_1254548336609362418_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=sBSOc6dQ5sgQ7kNvwGTAX83&_nc_oc=Admu2JQqFBC4jVx4V9zLfymCJbljC0L1mRDY13_gEZr6m7-vTquWy9_zR548FLTGxtY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_Afh_oNn-Pz09D_sWlzg3MKib-br_bCThEy7Q-66I-YVXJQ&oe=692FB6D8)
+  ![Image shows a close-up of the settings icon.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462596018_563224369548852_1254548336609362418_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=uVeuajBwW7EQ7kNvwGXmcfV&_nc_oc=AdnXHq9qWlmIzyswwdLXx_kPDGrypv7AM_dNvGvQYunCKlQog9hg_P0cqohApm_JNaI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_AfhUrSupIrq6CEbPD7yAc8ilvuBp3BEjdKk6l6yb7T6EDA&oe=69314098)
 - Enable the **horizon/world\_streaming** module.
-  ![Image shows the script settings menu with the 'horizon/world streaming' option enabled.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462429142_563224362882186_9097024643678864104_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=6dgG2Hchfr8Q7kNvwF3mcwo&_nc_oc=AdktHU1e7PFgjWPPgxSLmcn_Sr3G2gw12JvUs1OBSAFglMrLJDbJKE8D4p-MuOyIFmk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Mi3X8fg2bccF-3ptB5kppQ&oh=00_Afg42XaKyEsZuEA9nqxBdzx6JA4NWhxcm17XvguxA4gnRQ&oe=692FCBAA)
+  ![Image shows the script settings menu with the 'horizon/world streaming' option enabled.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462429142_563224362882186_9097024643678864104_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=6dgG2Hchfr8Q7kNvwF3mcwo&_nc_oc=AdktHU1e7PFgjWPPgxSLmcn_Sr3G2gw12JvUs1OBSAFglMrLJDbJKE8D4p-MuOyIFmk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5yLVChvXNbOQp-9GK798Lg&oh=00_AfiQIvQDvgRe-eysIW3aDm1Om9ISrHou4bx4wWB7zKLeLQ&oe=69311D2A)
 
 **Note** : You must have at least one script to enable a module.
 

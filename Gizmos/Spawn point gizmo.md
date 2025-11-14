@@ -30,10 +30,10 @@ The spawn point gizmo includes enhanced camera options for mobile and web platfo
 
 * **Mobile Camera**: A mobile-specific setting which allows you to configure camera behavior. This can greatly improve the accessibility to your world for mobile users.
 
-  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558914867_835743105630309_479224545206663294_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=1-zSnDFiY-AQ7kNvwHx5-Tc&_nc_oc=Adkzp8pQQsMoUbRgsFMWXmmjzSIowa_siXuCp0culKtxeNlL_fc1hT8RcbAkxjj9gsI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5jQWMbJnVqA90aGXEn3H6g&oh=00_AfibNYHbaLqRcjoJctOa1CEaARCZCAtQY6Y0My75t3m4fA&oe=692FC595)
+  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558914867_835743105630309_479224545206663294_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=BvbvZQW9g6oQ7kNvwGHnPYF&_nc_oc=Adlaip3RsHJ_xa7sEjOwfC4RiIDj6KST5mBAum17x_RCaO_o0VkqsQt0QPpMV9Ykqy8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3SZyDfEiO5yakbcD2zMWTg&oh=00_AfhcWZ_OAZEgo_121eViE-TYYKgG_50e7NMQLeSFhUqrbA&oe=69311715)
 * **Portrait/Landscape separation**: You can define different visual parameters for each orientation to optimize the player experience across different device orientations
 
-  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/562978628_835743102296976_2582391894108356684_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZFjW5Aihf0QQ7kNvwHII4D5&_nc_oc=Adm2yPP9rddler442tnP8BGIOLVinUb-8Urn004U6TBJ38nqo7JWz-FrxopPw7VUEjA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5jQWMbJnVqA90aGXEn3H6g&oh=00_AfinGhGw_UuTVQvrnW95L7bdGkElFcs_hchFwouMeAz8og&oe=692F9A89)
+  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/562978628_835743102296976_2582391894108356684_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZFjW5Aihf0QQ7kNvwHII4D5&_nc_oc=Adm2yPP9rddler442tnP8BGIOLVinUb-8Urn004U6TBJ38nqo7JWz-FrxopPw7VUEjA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3SZyDfEiO5yakbcD2zMWTg&oh=00_Afi74ptyTzoPC0BAqrcMv7A7dYR8hT_E-evnjz2LM8LM7Q&oe=69312449)
 
 ## Preview and publishing configuration
 

@@ -6,11 +6,11 @@ When you create your world, there are helpful development tools for [debugging a
 
 The following image shows the [debug console](/hw-docs/Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md) gizmo while you have the headset on, providing an immersive debugging experience. As shown, the **Start world**, **Stop world**, and **Rest world** buttons control the executing states of the scripts.
 
-![Debug console gizmo showing debug messages in-world console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493597714_723416580196296_8022545866060318316_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=4rpY7vCS--wQ7kNvwF8hE1D&_nc_oc=AdktgNexhVSxA1TYPjj5hk3O0-s9UxJs5CMmj_5DYjpp-KsauKDnIN2j3z8RoXMU5OQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y9kLCynGkgz9FIZiwQb5Sg&oh=00_Afg8CyeO86THA7wwau5cSjy_uozcuSopIpCKlHTWhFCVVA&oe=692FC79C)
+![Debug console gizmo showing debug messages in-world console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493597714_723416580196296_8022545866060318316_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=XRlXYUekMaEQ7kNvwFntfcH&_nc_oc=AdnuQdfTk9QYvipvRFxjzO9WPw2J0T8RZL3HgFSW__iYSvh8i1-Sw535TwEIeMwM9zc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KqJ6FtLCYbeYqnH8kd1XXw&oh=00_AfiiZkigC_9O7toKz133DpnhgNBZSvsootRoep20F9qyIA&oe=6931191C)
 
 The following image shows the debug console gizmo while you are using the desktop editor without the headset. The log messages are also displayed under the desktop editor **Console** tab.
 
-![Debug console gizmo showing debug messages in the desktop editor console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/499399178_723580280179926_4040817637596418026_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=BDJZyIH09i0Q7kNvwEyXZdi&_nc_oc=Adk20lmUqqwB7vyw2W3QJ9tOMoymdMeK01hm9fxJBQxSc1x6bpGVG0Yl_rFLu9AWZoI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y9kLCynGkgz9FIZiwQb5Sg&oh=00_AfiXBp85gjO4euoh_BRKD0R4py6h8fpPAL0C4o-JDGY8cw&oe=692F9D90)
+![Debug console gizmo showing debug messages in the desktop editor console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/499399178_723580280179926_4040817637596418026_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=BDJZyIH09i0Q7kNvwEyXZdi&_nc_oc=Adk20lmUqqwB7vyw2W3QJ9tOMoymdMeK01hm9fxJBQxSc1x6bpGVG0Yl_rFLu9AWZoI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KqJ6FtLCYbeYqnH8kd1XXw&oh=00_Afhf9WefMHPa3EAcYihg8XcRox5GlyOVz9X60mZi1wZYnA&oe=69312750)
 
 The following sections show you how to access and configure the gizmos so you can start debugging in VR.
 
@@ -28,7 +28,7 @@ All objects in a world are represented by [entities](/hw-docs/Reference/core/Cla
 
 The visibility of the debug console is configured under [**Visibility**](/hw-docs/Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md#controlling-visibility-of-the-debug-console). The options are **Edit Mode Only**, [**Edit and Preview Mode**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) , or [**In Published World**](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#section-4-play-in-your-world-on-mobile). Be aware that the gizmo is only visible in the Build mode when **Visibility** is in the default **Edit Mode Only**.
 
-![Debug console gizmo's visibility options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/498317217_723416583529629_2536898422592253740_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=-UZCZiKszhMQ7kNvwECKjCQ&_nc_oc=AdnieHSn14wCEgEr43WgflkPJmBgKE6LUNTJkvCl3yiLjxR32UQmfeOcZunD67qSnHU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y9kLCynGkgz9FIZiwQb5Sg&oh=00_Afha-ZrDdI9YIZ4zpCS1t1vJTvlLNakZvh-FFtJW1l7SXQ&oe=692FB436)
+![Debug console gizmo's visibility options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/498317217_723416583529629_2536898422592253740_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=-UZCZiKszhMQ7kNvwECKjCQ&_nc_oc=AdnieHSn14wCEgEr43WgflkPJmBgKE6LUNTJkvCl3yiLjxR32UQmfeOcZunD67qSnHU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KqJ6FtLCYbeYqnH8kd1XXw&oh=00_AfjZujXYw-cYqPX56l5u7d_wkxllOExNL5laIgATYwmXyg&oe=69313DF6)
 
 **Note**: The Edit Mode that the Properties panel refers to is also known as the [Build mode](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md). See also the [Build mode](/hw-docs/VR%20tools/Getting%20started/Use%20your%20controllers%20in%20Build%20Mode%20of%20Meta%20Horizon%20Worlds.md) in VR.
 

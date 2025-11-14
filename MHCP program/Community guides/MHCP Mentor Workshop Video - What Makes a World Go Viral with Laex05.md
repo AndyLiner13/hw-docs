@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # MHCP Mentor Workshop Video - What Makes a World Go Viral with Laex05
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1155101816036701_5833209468653837687_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=IM_1-AqwYuMQ7kNvwFVfj2P&_nc_oc=Adnzr_prLAdFRmk03241469-hQ9u9dvZdGKPbAFVKv3lFRbWIc5sJCexs9SaAL_WusI&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=5Z8IqEAQF4fqh2GrV4nQmg&oh=00_AfiDf5cMMjuwxyEyL7XCBclTnSznGoRUe5JbMXy9HVI3Xg&oe=691B48EE)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1155101816036701_5833209468653837687_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=IM_1-AqwYuMQ7kNvwFVfj2P&_nc_oc=Adnzr_prLAdFRmk03241469-hQ9u9dvZdGKPbAFVKv3lFRbWIc5sJCexs9SaAL_WusI&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=PxTxu3zAdFZBzEICAcmS9Q&oh=00_AfiAlmoWd0Kbkhd10de-wFjVWhC_DNiHOgizINieRNufIg&oe=691CD2AE)
 
 Learn what it takes to go viral! In this session, Laex05 shares the practical, data-driven strategies behind the experiences that keep players coming back for more. Learn to:
 
@@ -10,7 +10,7 @@ Learn what it takes to go viral! In this session, Laex05 shares the practical, d
 * Build seamlessly across VR and mobile
 * Leverage the Horizon algorithm to your advantage
 
-[\*\*Click here\*\* to take advantage of a PDF to follow while reviewing the session.](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/473391990_2107971096323039_8023359869108067037_n.pdf?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UzrM49vQ10UQ7kNvwED22w4&_nc_oc=Adnp9PwjWadTTW7SOU3_z0o-Lf_p1kQJsD_AOfjGdbkjA-PtibMkr4xxQBemTxGuqTE&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afhib_TxYISb8ArZ8AgfVaM3pX_9t4YZLM2uJS7vRKMh2Q&oe=692FC881)
+[\*\*Click here\*\* to take advantage of a PDF to follow while reviewing the session.](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/473391990_2107971096323039_8023359869108067037_n.pdf?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UzrM49vQ10UQ7kNvwED22w4&_nc_oc=Adnp9PwjWadTTW7SOU3_z0o-Lf_p1kQJsD_AOfjGdbkjA-PtibMkr4xxQBemTxGuqTE&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfjmFcw7gTZeHd07cNKZw7CB97jay3W1amkpCbVjcXkkZA&oe=69311A01)
 
 ## Timestamps:
 
@@ -42,4 +42,4 @@ Learn what it takes to go viral! In this session, Laex05 shares the practical, d
 
 [56:07] Slide 14
 
-[\*\*Click here to download the SRT\*\*](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/473391896_905868768198480_7481528500612849662_n.srt?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=iEDlixFFRSoQ7kNvwHRA8Ij&_nc_oc=AdlXKGLLcRM3LimCagFu5nNlvOeLarwi6WIsqPa1NL7NVlZtmL0qeehtTJc-f_vpjAc&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afjhuk5-OR770Ohvc-Fk68nOvhoC5PMrXlOm-6llVTMYHQ&oe=692FC32E)
+[\*\*Click here to download the SRT\*\*](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/473391896_905868768198480_7481528500612849662_n.srt?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=iEDlixFFRSoQ7kNvwHRA8Ij&_nc_oc=AdlXKGLLcRM3LimCagFu5nNlvOeLarwi6WIsqPa1NL7NVlZtmL0qeehtTJc-f_vpjAc&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfgPIS2b5GAoLM3mwyGKZ9ftV3gVqu7MKVjipaXRoQqaNA&oe=693114AE)

@@ -9,7 +9,7 @@ Chop ‘N Pop: Graveyard Bash allows visitors to select one of two kinds of weap
 
 Since the weapons have different mechanisms for attacking, they are covered in different modules. This module covers the Axe weapon and related systems.
 
-![Image of axe examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467570579_593923069812315_3936592786219167883_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=BtwFWZxZW0gQ7kNvwFzmYfM&_nc_oc=AdnL-Q2gZuQhCdln4AC83Z9rLzrKuId5GYH6Vlu6SzZ21zYWWznjaMdSMujOM3orm64&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jtIwzogJKwVnswIM-Abs7g&oh=00_Afhxi6tNLiJ6E63J2K5FumjxQkwe7TmiHnjgqwUGFHyUXA&oe=692FC168)
+![Image of axe examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467570579_593923069812315_3936592786219167883_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=iUUW_hW5xMMQ7kNvwEFXEU5&_nc_oc=AdmUfAn0D_4FSKV4DS_Y9JyYREl8BG5v-kaUaQiTdmsZ5hbH_mTW7qHmdytXlgkpAaQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=w3kbqpk9Pennasbd37RHew&oh=00_AfiJi_fGB5aO7cLVh1X0aFPKQWk1OdpFLqh53xmQjW1luQ&oe=69314B28)
 
 The axe weapon system is composed of an axe asset and the related scripts. There are four axes available in the world near the entrance to the graveyard.
 

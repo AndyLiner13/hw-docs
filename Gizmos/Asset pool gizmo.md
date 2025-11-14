@@ -15,14 +15,14 @@ When using something like a HUD asset, the asset pool gizmo to assign a HUD to e
 
 ## Asset pool gizmo overview
 
-![Asset pool gizmo overview](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489995807_695402086331079_7384783171554118115_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=20Gsg66VCxgQ7kNvwFRFH45&_nc_oc=Adklxyvs6dMt_SEyPUhnceCfOdcoZdno61M_brii7DbzZfjzfzOxOKVjKJ-3qKNjauQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L9vKf-_gRNOFvhbmYI8WNw&oh=00_AfioX_KRzbTaclVNGgRTzgT5gDUOJ7HDPLAOIEjSMCrUWw&oe=692FB423)
+![Asset pool gizmo overview](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489995807_695402086331079_7384783171554118115_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=qAke_tTx4H0Q7kNvwEsZkji&_nc_oc=Admv-GATj4JYZluuaDW8---nah4cS2gxf9hhjjH-HfHR0hfYH2cc1fVuI70pb5E_UbA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cGid95t6KKMn1lc-M1e2UA&oh=00_AfjPRbE5UKYjwscetDJirx-QAfBgfpi4lsWfePhxuDkFxg&oe=69313DE3)
 
 * Each asset pool gizmo manages a single asset template and pools it to be copied as child objects for players.
 * You can add additional asset pool gizmos to use additional asset templates for as necessary.
 * The asset pool gizmo is able to be used within asset templates.
 * When an asset template is assigned to the gizmo, it will automatically create the pool of prefabs based on the maximum player count setting.
 
-![Asset pool gizmo overview 2](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490684843_695402099664411_1002739092788578019_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=YK4TkxtToL0Q7kNvwEYY3FH&_nc_oc=AdnFL18cZR1KMl9FY8p0cIY-KLAKl_QV_lE5BOgKjBr-gIEqzWDQ-ihpyRBMpYM_zLc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L9vKf-_gRNOFvhbmYI8WNw&oh=00_AfjpwFjZK9U-lYhHEkjJmU58x1F73Io6U2Kw2_KdrAfqSA&oe=692FA17E)
+![Asset pool gizmo overview 2](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490684843_695402099664411_1002739092788578019_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=YK4TkxtToL0Q7kNvwEYY3FH&_nc_oc=AdnFL18cZR1KMl9FY8p0cIY-KLAKl_QV_lE5BOgKjBr-gIEqzWDQ-ihpyRBMpYM_zLc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cGid95t6KKMn1lc-M1e2UA&oh=00_AfjWDJ71Y_Qf8HLw2VgzOzNXHH4YGhdsMpCt2FdtN0VgSQ&oe=69312B3E)
 
 **Note**: When deploying the asset pool gizmo in a [non-FBS world](/hw-docs/VR%20tools/Scripting/Use%20file-backed%20scripts.md), avoid connecting asset templates that contain scripts. When the asset pool gizmo spawns the asset template, the scripts will be spawned as separate instances that must be maintained.
 
@@ -32,22 +32,22 @@ To get started using the asset pool gizmo you will first need to have an asset t
 
 Access the asset pool gizmo via **Build Menu** > **Gizmos** > **Asset Pool**.
 
-![Asset pool gizmo build menu selection](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490468445_695402096331078_966460998750896256_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=VVRXxN44HIEQ7kNvwGAwhuj&_nc_oc=AdmY8Lun_lPXSyKNAxAVtrULjMK0YePijowEj-nPdrAAOVNLlPnCRHm7D7LyhjhcZ-s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L9vKf-_gRNOFvhbmYI8WNw&oh=00_Afg1EjtTNXipqbbFdO3Y0xztnUcoQRvrXUakxSd1W5gkLw&oe=692FA714)
+![Asset pool gizmo build menu selection](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490468445_695402096331078_966460998750896256_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=hk8IJvkOQIMQ7kNvwFNe1SN&_nc_oc=Adn4HWwivy79LyJ3Y-HAWI6yYzCaK_N0twM5DGZj7go-0yFhZTx6qyiB_tNPtiI9ckk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cGid95t6KKMn1lc-M1e2UA&oh=00_Afi00GaJnVX99LrKONeLHJHpo6h9jwkRUYoqq5sSRufjBA&oe=693130D4)
 
 Once the asset pool gizmo is added, you can set whether to **Auto Assign to Players** and set the **Asset Reference** for the gizmo.
 
-![Asset pool gizmo properties window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490472555_695402092997745_8711514918910792195_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=SxHqaFyjI1oQ7kNvwF-2aJq&_nc_oc=Adkf53dY_VH4nrsB5wkpA7qKG0NRnLl9sHWrd0bUV5HS4SNY-fj_YKMz802XKra6ggs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L9vKf-_gRNOFvhbmYI8WNw&oh=00_Afie9dzwUrDiZEJDbIFu-wg7w0Lp-MOhzpp2-iGNOixeVQ&oe=692FB6F5)
+![Asset pool gizmo properties window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490472555_695402092997745_8711514918910792195_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=SxHqaFyjI1oQ7kNvwF-2aJq&_nc_oc=Adkf53dY_VH4nrsB5wkpA7qKG0NRnLl9sHWrd0bUV5HS4SNY-fj_YKMz802XKra6ggs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cGid95t6KKMn1lc-M1e2UA&oh=00_Afh3EFhLb80lIAWrf7fm10HHkYtj9q17hy6YsF-a3603nw&oe=693140B5)
 
 Once the asset pool gizmo is added to your world, use the following process to manage it:
 
 - Navigate to **Player Settings** in the top left menu and adjust the **Maximum Player Count** slider for your world’s expected max player count.
 
-  ![Player settings maximum player count slider](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490846189_695402082997746_3845879378303484171_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=99in7G9R6xsQ7kNvwGy93_0&_nc_oc=Adl6fzuSEE_jFkCEj-cyrP_1F-SqB5z2u1FEpx4jyjx-Oa399Q459vuysCLVWlpt76A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L9vKf-_gRNOFvhbmYI8WNw&oh=00_AfilLyaq5ftJq1JwAd-au8r7vRJthNOYJlOcmmb3CD8Scw&oe=692FB0A1)
+  ![Player settings maximum player count slider](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490846189_695402082997746_3845879378303484171_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=rnTber8ahpAQ7kNvwFi-vqp&_nc_oc=AdkqQ2JONwfeNbcgSEaFeX2blAUgcRFjPOpNz-tjDsapgFWpAq9aEN_mKp0nrmnVuzs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cGid95t6KKMn1lc-M1e2UA&oh=00_AfgE2QD_yD4WxU2f9nW2B2Gd4WMri27yiOwiuAXdHqJASw&oe=69313A61)
 - Drag the **Asset Pool** gizmo into your scene.
 - Locate the **Asset Template** you plan to use in your **Asset Library**.
 - Drag and drop the **Asset Template** into the **Asset Reference** field of the **Asset Pool** gizmo.
 
-  ![Add asset template to Asset pool gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/490019384_695402089664412_6707460485052179724_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=89EoAw_kyOsQ7kNvwHcPv3f&_nc_oc=AdnnFWyQTeFklyDaoNou5H7z97mCyc1SUtu8-2_Q93sItLJvJvZ2e4hWnuOO8Z6lO8s&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=L9vKf-_gRNOFvhbmYI8WNw&oh=00_Afjp36N8_lOKPUYFqeiXy-3bnpnA1MuK2KDcpyeXVkFhew&oe=692FBA03)
+  ![Add asset template to Asset pool gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/490019384_695402089664412_6707460485052179724_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=89EoAw_kyOsQ7kNvwHcPv3f&_nc_oc=AdnnFWyQTeFklyDaoNou5H7z97mCyc1SUtu8-2_Q93sItLJvJvZ2e4hWnuOO8Z6lO8s&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cGid95t6KKMn1lc-M1e2UA&oh=00_AfjuN_lCln5o_FA2au8qpf0EcphNb2PDdGncVoJiWFa8hw&oe=693143C3)
 - Use the drop down menu in the **Asset Reference** field of the **Asset Pool** gizmo’s properties window to search for your asset.
 - The **Asset Pool** gizmo will automatically create child prefabs equal to the **Maximum Player Count** setting.
 - If auto-assign is enabled in the properties window, players entering the world will receive a prefab from the asset pool.
@@ -57,7 +57,7 @@ Once the asset pool gizmo is added to your world, use the following process to m
 Example #1: `UpdateOwnerName.ts`
 This script can be attached to a mesh object with a child Text gizmo. When an owner is assigned to the object, the text gizmo will update with that player’s name.
 
-![Asset pool gizmo assigns an object to a player and displays the player name](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/501528384_729175769620377_8693007284531093059_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=_lmBm-3fYwgQ7kNvwGBEa7k&_nc_oc=AdmIkH6uZWpW5bp1KUJhzKF9Zds95CQ4E-8dTQvaRwSDlTo9XPxt2mw_XOX9zXpKypM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=L9vKf-_gRNOFvhbmYI8WNw&oh=00_Afgcz-iH_OLQh4vmzAA3aMMyA89WY_zfifZ-JN_awwFvHg&oe=692FA612)
+![Asset pool gizmo assigns an object to a player and displays the player name](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/501528384_729175769620377_8693007284531093059_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=2blx1vov8KcQ7kNvwFnoNcz&_nc_oc=Admt1e00RqC53ZcEz1qK8IRlKMPiiSUzzEdTm4v_7T0P-YtDENbIHA7_hg4AGw3lj_Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cGid95t6KKMn1lc-M1e2UA&oh=00_AfgbwE4ITMb_day7_GJ9uI372EgniffdyMGz39J9QAksig&oe=69312FD2)
 
 ```
 // Import the necessary components from the 'horizon/core' module.
@@ -102,7 +102,7 @@ hz.Component.register(UpdateOwnerName);
 Example #2: `UI_ShopHud.ts`
 This script can be attached to a custom UI gizmo, and when pooled will display a HUD element with a clickable button and the owning player’s name. This also sends some logs to Console when ownership is assigned.
 
-![Asset pool gizmo asset assigns the player a custom UI HUD element](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/502554127_729175772953710_1326171222938316875_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=HS9XfpqgXu0Q7kNvwF-ajHF&_nc_oc=AdnJtiPu8ZOa48MbXaVNOCYDW6VSETnVRfjlf9QPMn4qfWzRw7z1ZGR2yZCfvN5bXxw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L9vKf-_gRNOFvhbmYI8WNw&oh=00_Afjy7O8-llq_mLDxUCJDW44EvrOuP3y27WoMcoM8dwjlWQ&oe=692FB6D2)
+![Asset pool gizmo asset assigns the player a custom UI HUD element](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/502554127_729175772953710_1326171222938316875_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=PM0hRnhJLQAQ7kNvwFn_4Kd&_nc_oc=Admd0Tek7lT0v69TssMgx8XKkA0u8C8t7aSGk7hgqzH7Ghlb6msHx0lCETO5PlEgE7E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cGid95t6KKMn1lc-M1e2UA&oh=00_AfiBEIWeNFpzOGtPTtlfWMiAkup7haJ3GXlTj0LfQThvKQ&oe=69314092)
 
 ```
 // Import necessary components from the Horizon core and UI libraries

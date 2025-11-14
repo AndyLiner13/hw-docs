@@ -8,13 +8,13 @@ The following image shows the static light gizmo, the red cube, lighting an obje
 
 **Note**: An [environment gizmo](/hw-docs/Gizmos/Environment%20gizmo.md) is added to the world where a night skydome is applied.
 
-![The static light gizmo lighting an object in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505590096_738224345382186_9005774872030246077_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xs4xVWDl1kYQ7kNvwGNAqDq&_nc_oc=AdnNXJaEfzdddlx-NEV_5jkYJAmOtGCEu97DeZYGD2Uymy3GgV3ed8nb4qMAzxnFFhQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UPODIQbTajbq3K-6O3VOOA&oh=00_AfiI6OwP_w7rp1QxbQss20AhQHlz_uKeI_kaftcuVQntig&oe=6930AAAE)
+![The static light gizmo lighting an object in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505590096_738224345382186_9005774872030246077_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xs4xVWDl1kYQ7kNvwGNAqDq&_nc_oc=AdnNXJaEfzdddlx-NEV_5jkYJAmOtGCEu97DeZYGD2Uymy3GgV3ed8nb4qMAzxnFFhQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=tammE79RbOaqHaOYLQySLg&oh=00_AfhgVJJGXXG9Y0Gdi1KT90nBNa_wR3Qcnz02rBHaEdk4JA&oe=69311B2E)
 
 The following image shows the same static light gizmo lighting an object in the [Preview mode](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md).
 
 **Note**: The geometry of the light, the red cube, is hidden in the Preview mode.
 
-![The static light gizmo lighting an object in the Preview mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505424288_738224342048853_1656212214900149301_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=9_qZh8Hpkl8Q7kNvwErZfHz&_nc_oc=Adnw4YzfdtMKbbCn_incgQt1l49OjHuO6xhdiM1u7J9WMibk9WrXa766D16BlymEie4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UPODIQbTajbq3K-6O3VOOA&oh=00_AfhF0cY-1fTnGQyk0qSS9tPT_l_75SkXdSgFL2_163gFEQ&oe=6930A336)
+![The static light gizmo lighting an object in the Preview mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505424288_738224342048853_1656212214900149301_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=9_qZh8Hpkl8Q7kNvwErZfHz&_nc_oc=Adnw4YzfdtMKbbCn_incgQt1l49OjHuO6xhdiM1u7J9WMibk9WrXa766D16BlymEie4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=tammE79RbOaqHaOYLQySLg&oh=00_AfiF4laxKlpSX8tljodfNcDJ9-sds9QAPdhrBMcH567w7w&oe=693113B6)
 
 ## Access the static light gizmo
 

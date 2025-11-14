@@ -16,7 +16,7 @@ This station features two example overlays:
 
 Both overlays are visible in the following image:
 
-![Image of Timer and Build Info overlays](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475484540_646003167937638_9115120662051359098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=kCnvvqsVucwQ7kNvwFN08pB&_nc_oc=AdkNdsMyPqR7xB7yiWPWuaxpVA6w1H2fNBIjN42qnPOqUqygGGDLmznaJ7xRO40hWKc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7MgqSwCue_2PFUYRPAS9hQ&oh=00_AfhA--Y0EzvFxxzuepVPLFOj7UlTyDJ7CLDXKuqbtQ1C1g&oe=692FA5A8)
+![Image of Timer and Build Info overlays](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475484540_646003167937638_9115120662051359098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=kCnvvqsVucwQ7kNvwFN08pB&_nc_oc=AdkNdsMyPqR7xB7yiWPWuaxpVA6w1H2fNBIjN42qnPOqUqygGGDLmznaJ7xRO40hWKc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=voCdR4_BRDBbIzOPLc52_g&oh=00_Afjz2e7qfdaGF3fvog17vLxVAkZT9DFbc1TitOgLLdcuIw&oe=69312F68)
 
 ## Configuration Differences for Screen Overlay Custom UIs
 

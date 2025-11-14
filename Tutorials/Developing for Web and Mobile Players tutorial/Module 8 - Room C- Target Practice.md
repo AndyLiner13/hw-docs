@@ -55,7 +55,7 @@ Incorporating a slingshot into this section provides web and mobile players thei
 
 To start, we must ensure that only VR players can access the cannon, and only web and mobile players can access the slingshot. We create a single trigger, which has an attached script that can teleport the player to the correct mechanic’s location, depending on their device.
 
-![Screenshot of the teleport pad that transports visitor to appropriate location based on visitor's device type](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452968560_512509471287009_4305206127726643675_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=fGcTl8xFK84Q7kNvwF6lKAA&_nc_oc=Admc3bUILYbNuomqSU6AyuhJO-J8tRqvdU3zKA0VnW64vQKsk1xg6k-x-vFe1re45bg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=A9yRY6YGPUQOVEJ3jDMbGg&oh=00_Afj-HSuHGSiz1u_SnY2LDpMCsrhSBkpFRDuY7xHeVxqqzw&oe=6930C746)
+![Screenshot of the teleport pad that transports visitor to appropriate location based on visitor's device type](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452968560_512509471287009_4305206127726643675_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=fGcTl8xFK84Q7kNvwF6lKAA&_nc_oc=Admc3bUILYbNuomqSU6AyuhJO-J8tRqvdU3zKA0VnW64vQKsk1xg6k-x-vFe1re45bg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=JrSliF8PXYi9Eglg3n0K6g&oh=00_AfiQvgJMk1s7YEdIb5pAxpkTqM2OcK5xwn1oGM4RmdMmnQ&oe=693137C6)
 
 The cannon and the slingshot are on separate elevated platforms. Players can only get on the platforms via the teleport pad, yet teleported players can return to the main level of the room easily.
 
@@ -91,7 +91,7 @@ For web & mobile users, the slingshot mechanic requires the player to pull back 
 
 To grab, move and release the ball, we use Focused Interaction, and we raycast from the players touchPoint to determine the position where the ball is being held.
 
-![Screenshot of the raycast gizmo linked to the slingshot, which enables it to be used for aiming the slingshot](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452576406_512511031286853_1882245616182059762_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=1d7B-FShMO8Q7kNvwEuQOzY&_nc_oc=AdmYTf1-cfmy71GSJOtmTMcRxmjhc54fFSXSepXtV4z21yQ9MpQzRxkTBPXwMzasp6k&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=A9yRY6YGPUQOVEJ3jDMbGg&oh=00_AfiYujiJWLUKffw19Gd7h_Hj1qZcN0-ifke8C0t6EuK-fg&oe=693098DB)
+![Screenshot of the raycast gizmo linked to the slingshot, which enables it to be used for aiming the slingshot](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452576406_512511031286853_1882245616182059762_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=1d7B-FShMO8Q7kNvwEuQOzY&_nc_oc=AdmYTf1-cfmy71GSJOtmTMcRxmjhc54fFSXSepXtV4z21yQ9MpQzRxkTBPXwMzasp6k&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JrSliF8PXYi9Eglg3n0K6g&oh=00_AfgKFn-moIkHYyGH-iG1KYRRx7EkZ0ef4xh0WNSlzEfaJg&oe=6931419B)
 
 During Focused Interaction, we raycast any touch input against the PullPlane (the selection above), which is an invisible primitive object in the world. In this example, we’ve used a flattened pyramid as the PullPlane object. This object is not tied to the others, it is simply positioned in such a way that we can move the ball on this plane to be able to shoot it.
 
@@ -301,7 +301,7 @@ In this module you:
 * [Local Script for Mobile and Web](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
 * [Per Platform Scripting](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Per%20Platform%20Scripting.md)
 * [Using the Camera API for Web and Mobile](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
-* [How to set the player’s camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
+* [How to set the player’s camera](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
 * [Intro to Grabbable Entities](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md)
 * [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device)
 

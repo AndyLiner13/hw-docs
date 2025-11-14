@@ -42,7 +42,7 @@ This example clearly illustrates how to build a compelling opening session that 
 
 Once players are settled after the first few minutes of gameplay, ask yourself: “*Where should players go next?*” Guide them toward the experiences you want them to explore next. Many games drop players in and let them decide. Instead, use guiding UI prompts to funnel players to the proper places in the game that give them a distinct goal for playing.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581851531_863747112829908_5794345739726194102_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=OWDbdv3ceGMQ7kNvwFN26Lg&_nc_oc=AdnER6plzUBZrQq8UX8iwsaL4mFfEoE0KpTWtSXpWHkefCKmi-02J-2OUN4T6Gxb-kE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_c0LsTib0wTz1VmlYEbSgA&oh=00_AfgrKPBrIZ9I3HCnlDZqd34ZoIB282xwnoVPmHHKnuC59w&oe=6930AC96)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581851531_863747112829908_5794345739726194102_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=OWDbdv3ceGMQ7kNvwFN26Lg&_nc_oc=AdnER6plzUBZrQq8UX8iwsaL4mFfEoE0KpTWtSXpWHkefCKmi-02J-2OUN4T6Gxb-kE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CniUjYvR-gYWjeSKAUw7nw&oh=00_AfhYY8ab3UFoZI8ug2xE0vglDouvkomqOgU6AXmdjTKHpw&oe=69311D16)
 
 *To prevent player churn, avoid overwhelming players with excessive choices and a lack of clear direction. A completely open-ended sandbox experience can leave players feeling unsure of their objectives and next steps.*
 
@@ -70,7 +70,7 @@ Simplicity is key for most Worlds experiences on mobile. Unless your World is hi
 
 Worlds and other platform games offer developers the opportunity to create a variety of experiences. If you’re developing a less traditional World, follow mobile game best practices to ensure players quickly understand controls. Too much friction early on can cause players to quit before discovering what makes your World fun.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/580519095_863747109496575_8471971251059969721_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=__PaDtzaxAcQ7kNvwFuxtiy&_nc_oc=AdkVMDxXccz3DnPo9konS3gMXxlU8e89Qm51mdo9s2Eww7DBaASjftt1ggmQJXfSZ9k&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=_c0LsTib0wTz1VmlYEbSgA&oh=00_AfgiA_eo8vKjNj4wXwl9im_DhoMBaiBnmsslGZ1caVzIHQ&oe=6930AB14)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/580519095_863747109496575_8471971251059969721_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=XcKPMhYmF7QQ7kNvwFZaczo&_nc_oc=AdmzDpgaO_HNZz04E-qu-3DBJCRupZhQWVhB2gs3vtjdiNTAfmFYY6sohZDrROpW3Fk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=CniUjYvR-gYWjeSKAUw7nw&oh=00_Afi7ActE11IbfCDkO2zUIVfm8LWhnNtoBuIWg6FCtVInWg&oe=69311B94)
 
 *When developing games that share similarities with existing platform titles, it’s unnecessary to re-explain fundamental concepts. Often, simply making the objective (e.g., reaching a treasure chest) and the obstacles (e.g., a gap to be jumped) visually clear can be sufficient for players to grasp the game’s rules intuitively.*
 
@@ -83,7 +83,7 @@ While building a player’s confidence is valuable, there is also value in allow
 - **Progression systems** (adding equipment or leveling characters up)
 - **Power-ups or consumables** (or even extra moves) to gently direct players towards monetization offerings
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581903262_863747106163242_9109577412206556452_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=_d9KW4-ua_0Q7kNvwFAHwAZ&_nc_oc=Adl4ihyMMGG32tWoMKYKyiAhWrfpUZWsL1Fy2ThSIXGc2NyepmPceMY_P7tCBIRzFJo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_c0LsTib0wTz1VmlYEbSgA&oh=00_AfjWU7FdvtTi7Icoe1FUscs6IWNvF0rLKFqNXqVKoVEgJQ&oe=6930BBBF)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581903262_863747106163242_9109577412206556452_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=_d9KW4-ua_0Q7kNvwFAHwAZ&_nc_oc=Adl4ihyMMGG32tWoMKYKyiAhWrfpUZWsL1Fy2ThSIXGc2NyepmPceMY_P7tCBIRzFJo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CniUjYvR-gYWjeSKAUw7nw&oh=00_Afh2oAetA3mHH3AfmPDtRi03GQXcAm2q5Rl6rT0reZhlNA&oe=69312C3F)
 
 *Many puzzle games are designed with challenging levels at their core. Players might need multiple attempts to complete a level, or they can opt to purchase temporary power-ups to overcome obstacles.*
 
@@ -93,7 +93,7 @@ Losses, if properly incorporated into the NUX, should come *after* mastery and c
 
 In addition to teaching players how to play, your NUX should show them what a full gameplay session looks like. Make it clear how much time a typical session requires and what kind of progress players can expect to make.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581093479_863747102829909_5104853090035075066_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ke-ILqV693UQ7kNvwFEY4Mm&_nc_oc=AdnIILjq0neVUib6D9MU_duR2USKgzNsC5ne6wU7GuyonAHA8nTbncElrvOVA1Zjrk0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_c0LsTib0wTz1VmlYEbSgA&oh=00_AfhYeKWHE7CEllQXesTxP_6H-bDACqvrcVASWtKOCCfeig&oe=6930AF27)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581093479_863747102829909_5104853090035075066_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ke-ILqV693UQ7kNvwFEY4Mm&_nc_oc=AdnIILjq0neVUib6D9MU_duR2USKgzNsC5ne6wU7GuyonAHA8nTbncElrvOVA1Zjrk0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CniUjYvR-gYWjeSKAUw7nw&oh=00_AfiQeVyB9Ovb8qApje8TGSyKQhZXmrOoh5_6iCewZIZXDA&oe=69311FA7)
 
 *Task lists serve a dual purpose: they reward player engagement and act as a tutorial. They inform players about the expected daily or weekly system interactions and the anticipated time commitment required to keep pace.*
 
@@ -110,7 +110,7 @@ From simple to complex, most games on mobile have a narrative component to give 
 - The player’s role in the world
 - The foundation for the gameplay ahead
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580968821_863747099496576_6223320935140008425_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=7BQ-DCH31P8Q7kNvwHQ1c2B&_nc_oc=AdmGJf_2KARHjX3ddaIK6SAnJ15G1qRE-yDA5xBVZIYULxkEouXGysSSpmRkvsiywlc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_c0LsTib0wTz1VmlYEbSgA&oh=00_AfgYgWvcP7czokn3hG2xXtM_u_CSSYJarcjETYUi5sjd_A&oe=6930B1FE)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580968821_863747099496576_6223320935140008425_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=7BQ-DCH31P8Q7kNvwHQ1c2B&_nc_oc=AdmGJf_2KARHjX3ddaIK6SAnJ15G1qRE-yDA5xBVZIYULxkEouXGysSSpmRkvsiywlc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CniUjYvR-gYWjeSKAUw7nw&oh=00_AfhY-G34ILggmMCnm7Z980O0SiMTYs762H-N8HTdYvU7SQ&oe=6931227E)
 
 *Implement waiting periods between story installments to manage player progression and encourage recurring engagement. Ensure alternative, lower-reward activities remain accessible during these wait times.*
 
@@ -118,7 +118,7 @@ From simple to complex, most games on mobile have a narrative component to give 
 
 The new user experience should walk the player through the basics of progression: what benefits it offers, and most importantly, how to make progress. For example, in a combat-focused RPG (whether player vs. player or player vs. enemy), you might walk players through leveling up a character or upgrading a piece of gear early in the game.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580765117_863747096163243_4124953759590188100_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=YObamN7tEJIQ7kNvwEtYIpG&_nc_oc=AdnOf9YrefXSQ63Q1oH0d31Xz89JK4zXOxIwwU4iqGJz-ZdU6fAvaWOCcz9pdUI06d8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_c0LsTib0wTz1VmlYEbSgA&oh=00_AfiaD7X8wFlpLPApiEZ4TJHuu1gYValUWdU8sPWymkK-jw&oe=6930B5C6)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580765117_863747096163243_4124953759590188100_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=YObamN7tEJIQ7kNvwEtYIpG&_nc_oc=AdnOf9YrefXSQ63Q1oH0d31Xz89JK4zXOxIwwU4iqGJz-ZdU6fAvaWOCcz9pdUI06d8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CniUjYvR-gYWjeSKAUw7nw&oh=00_Afif1A6-mrd81VucGzmeZRjlCbUdiNNkq4-mpNHuyQzh4Q&oe=69312646)
 
 *When integrating upgrade-based progression into your game, introduce it during the New User Experience (NUX). Even if players anticipate such systems, they require clear instruction on its mechanics and the specific advantages it offers within your game.*
 
@@ -128,7 +128,7 @@ For single-player, non-combat experiences (like puzzle or exploration games), pl
 
 Another aspect to highlight is the goals and stretch goals the player can aim for. These goals must provide strong and compelling reasons to keep playing. Even in straightforward social games like *Spin the Bottle* or *Among Us*, players have an ever-growing collection of cosmetics to chase. These goals should be introduced but never completed during the NUX.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580765137_863747092829910_6306585472895985405_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=jdYzxnovO5kQ7kNvwG5wzRK&_nc_oc=AdkW3bNGytMAVzFAqq4aUMyT9knR6ew3GXYIaxYlshyJTd1CLIjfWj6qsH47U1VTteo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_c0LsTib0wTz1VmlYEbSgA&oh=00_AfhwDSFSeqdTWbPwljiw205rOebdY_oW2L_aEn49mtmG1w&oe=6930B2EC)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580765137_863747092829910_6306585472895985405_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=jdYzxnovO5kQ7kNvwG5wzRK&_nc_oc=AdkW3bNGytMAVzFAqq4aUMyT9knR6ew3GXYIaxYlshyJTd1CLIjfWj6qsH47U1VTteo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CniUjYvR-gYWjeSKAUw7nw&oh=00_Afhk5wsIlQm34E3E4T3ThNiCuMuxL_xXJ3UT5B-n7vy20g&oe=6931236C)
 
 *To engage players and structure early gameplay, it’s beneficial to introduce goal systems that hint at future content. While these systems should be presented, players should be encouraged to return for subsequent sessions to fully complete all objectives.*
 
@@ -152,7 +152,7 @@ The game should provide multiple on-ramps to the store via pop-ups or anchored m
 
 As players get closer to mid-game, new currencies may be required. These do not need to surface in the NUX. The player is still finding their feet and doesn’t need another item to track.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580918058_863747089496577_4557241393830705329_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=T5L2ACoA5SUQ7kNvwEN_Xug&_nc_oc=Adm1w-Ft0_m5h6N-9QvETHh6UQqEp4NgrxXSFS7ApBEJqqg14PtFseoL_ibBZxsNauA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_c0LsTib0wTz1VmlYEbSgA&oh=00_Afhfth3OI2L4jRHKg5F7vP3XMBb96lULHYqJJZT_9cAuZQ&oe=6930AD92)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580918058_863747089496577_4557241393830705329_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=T5L2ACoA5SUQ7kNvwEN_Xug&_nc_oc=Adm1w-Ft0_m5h6N-9QvETHh6UQqEp4NgrxXSFS7ApBEJqqg14PtFseoL_ibBZxsNauA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CniUjYvR-gYWjeSKAUw7nw&oh=00_AfhtS65RoA77tP07K0EM0ltQrnMMZW1ZeqBwupATaaeekQ&oe=69311E12)
 
 *Horizon Worlds games often feature unique 3D, or “embodied,” shops. Despite their visual appeal, it’s crucial to design your shop to facilitate easy price and value comparison between different offerings. Upon a player’s initial visit, ensure they possess sufficient currency to make at least one recommended purchase.*
 
@@ -170,7 +170,7 @@ Conversely, a NUX can overburden the player with too much information. This pres
 
 Second, players cannot be expected to retain all the information presented in an overly-long NUX. Even genre veterans face a learning curve with a new game’s nuances. Prioritize teaching the fundamentals. Save advanced, mid-to-late game information for later tutorials.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581559383_863747086163244_7972957520809698985_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZilvdyyD6REQ7kNvwHG1XTK&_nc_oc=Adk33jhH9F-GhSaTGxKe2tjHUtQ7vaaHsuee0KDwxroyFrS60nZ0XuGmCH7APaqk4LE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_c0LsTib0wTz1VmlYEbSgA&oh=00_AfhEP1nHKxUcGiu-qBCukuMqLFSR9vI2eTHrFmDVnQt57w&oe=6930AEDF)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581559383_863747086163244_7972957520809698985_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZilvdyyD6REQ7kNvwHG1XTK&_nc_oc=Adk33jhH9F-GhSaTGxKe2tjHUtQ7vaaHsuee0KDwxroyFrS60nZ0XuGmCH7APaqk4LE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CniUjYvR-gYWjeSKAUw7nw&oh=00_Afgf1t80bgQ0BpD5nfWbhZPcJWgw-_w4g6EynH2u16n1Pg&oe=69311F5F)
 
 *Players may feel overwhelmed and fail to retain information if they are simply given a wall of basic instructions and then left to play the game on their own. This approach is likely to be counterproductive.*
 

@@ -9,7 +9,7 @@ The Player Settings Modification feature in the desktop editor has the same capa
 - Click the top left menu button.
 - Click **Player Settings**.
 - A modal dialog with all of the available Player settings will appear.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452933939_512527524618537_1063237396836849902_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=o0RStr7y3f4Q7kNvwEqaU0y&_nc_oc=Admhn9RbOe7HIh0V0a7Y9dbf_VYa2PXldnmO12iwaOykFiFZGM0PCm9B0gyNPQwvmBo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG4eV5QaN6We5zBE9oGmdA&oh=00_AfgikY9LOIGTaIvOOabXGDgKCyT_YI7vXemhnyw2IPIOSA&oe=6930BEE3)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452933939_512527524618537_1063237396836849902_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=o0RStr7y3f4Q7kNvwEqaU0y&_nc_oc=Admhn9RbOe7HIh0V0a7Y9dbf_VYa2PXldnmO12iwaOykFiFZGM0PCm9B0gyNPQwvmBo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=XsAzeVbAC9gY6Q24C5goYQ&oh=00_AfiNSrAZKdhw1Z9E9XqSOFmvY9A4zZjFuTAbNmm8KtcS7A&oe=69312F63)
 
 ## Changing Player Settings
 

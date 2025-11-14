@@ -4,11 +4,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Quests provide you with tools to create rich and engaging progression experiences in your worlds. You can access the Quests pane, which displays a list of a world’s quests, in the Desktop Editor by selecting **Quests** under the **Systems** button.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452701819_512527177951905_977449343255919239_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=J_vGjL_r6zMQ7kNvwGlTi5X&_nc_oc=Adkge186MbB8ZG2RINDYodCF80sKBuBGOMfmv07Ui_E9vkbP59YwWD6zOpHi4Ou_1_M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nQUmH4rqlwd0oGI_ps-1rA&oh=00_Afg6ubS_NtAu6O1UkGF2Ho7MNHQXdwF3926TUet5SPvP0Q&oe=692FA221)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452701819_512527177951905_977449343255919239_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=TsE1fLdRw6gQ7kNvwEJvi8S&_nc_oc=AdmUeP8Pz2q3zt3FzWn4DITKFyIKFcbpuUyEF43eeB7kDsb5-ZKC7FbNCxfdZ-9QCpU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PeFcQppkE-_0bJ75Po0lSw&oh=00_Afg_w1MoDCnvbo0nrUxIjtmsvWGh8LYBvglWlV5af9kNPA&oe=69312BE1)
 
 Quests are automatically displayed to the player in two ways: a Quests gizmo object placed in the world, and by short-lived popups that appear in front of the player when the quest is completed.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751771_512527237951899_4210170058283152757_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=LDdVc3vU24QQ7kNvwEYJpo_&_nc_oc=AdkSqTgkWi4Juvqxjl7ikTyu1Wl7Df5LNOORLPZEJ15ZNisSXoSn_ezJhhuRRg90ECw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nQUmH4rqlwd0oGI_ps-1rA&oh=00_AfibHhiayvX9vDUIEDaiYXDhZV5Eh1iF5-JOkfOGhhIKnQ&oe=692FB693)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751771_512527237951899_4210170058283152757_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=LDdVc3vU24QQ7kNvwEYJpo_&_nc_oc=AdkSqTgkWi4Juvqxjl7ikTyu1Wl7Df5LNOORLPZEJ15ZNisSXoSn_ezJhhuRRg90ECw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PeFcQppkE-_0bJ75Po0lSw&oh=00_AfigaKRHs1kLKLSCLUcuPY22mO0zLF-zMR94KZCaVWxr3A&oe=69314053)
 
 ## Quests pane
 
@@ -42,7 +42,7 @@ Because tracked persistent quests have one or more persistent variables attached
 
 Tracked Persistent quests have all the configuration parameters of Simple quests as described above (**Script ID**, **Name**, **Description**, **Who can see this quest?**), plus the following:
 
-![Screenshot 2024-05-14 at 3.34.37 PM.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653624_512527144618575_2951338986895663304_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=wBWFGEpG2d4Q7kNvwHPZ87_&_nc_oc=AdkEzNlM70WzACWRyw6UbqivlpqW4IIEfh-OxKVrgjPjs791EJOOp6lFGhNocpFBX9M&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=nQUmH4rqlwd0oGI_ps-1rA&oh=00_Afgf0QYAl_WMgsyLCkzQsnnavH3mrrPD9B2Uec0FIlROcQ&oe=692FC74B)
+![Screenshot 2024-05-14 at 3.34.37 PM.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653624_512527144618575_2951338986895663304_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=vtIPvBKzPgUQ7kNvwHkjcd0&_nc_oc=AdnD49dy7pm198tqqQQawzwFqT_DIdKHD7Do48TQYJvbtFyDIPt0ksopNS0-qbRlHug&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PeFcQppkE-_0bJ75Po0lSw&oh=00_AfhkJge83LPBIk0ReZjWU6bPBWTGhL5kteNpRLf3wemxbg&oe=693118CB)
 
 * **Quest Type:** Changing to the type to **Tracked** unlocks the following two fields:
 
@@ -51,7 +51,7 @@ Tracked Persistent quests have all the configuration parameters of Simple quests
 * **Activation Criteria:** This is the criteria that will be used to determine if the quest is active. You can define the criteria by clicking ‘Define’ and adding an objective, which is a persistent variable from a variable group attached to the world, with its completion threshold. You must set up the persistent variables and variable groups before you create the Tracked Persistent quest. You can add multiple objectives by clicking **Add objective** or remove objectives by clicking the **trash bin** on the right side of the objective. Objectives can be evaluated with either an “AND” or “OR” condition, which is set for *all* criteria and not individually.
 * **Success Criteria:** This is the criteria that will be used to determine completion of this quest. The criteria can be defined in the same way as the Activation Criteria. The threshold for the Success Criteria is the threshold value for the persistent variables at which you want this quest to be automatically marked complete. Note that if one or more objectives later drop below the threshold, the quest will *not* automatically revert to incomplete.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453002677_512527141285242_4410578538436637672_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=COVppqMt2o0Q7kNvwGGeUxH&_nc_oc=AdkX0tr0IB7F7Qw0N3NZoOUyLWiAJbxdog4UHRxC9wKl-hWyFXffDQ2uuPxWjZZ8eE4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nQUmH4rqlwd0oGI_ps-1rA&oh=00_Afi-IuElZ6yDzSW2ga2ugnFpCmNdr_uBnKcFlTpElQEk2w&oe=692F9F1F)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453002677_512527141285242_4410578538436637672_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=COVppqMt2o0Q7kNvwGGeUxH&_nc_oc=AdkX0tr0IB7F7Qw0N3NZoOUyLWiAJbxdog4UHRxC9wKl-hWyFXffDQ2uuPxWjZZ8eE4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PeFcQppkE-_0bJ75Po0lSw&oh=00_AfhRet-vZT47vRv4KFePIwENGBiJlmcCjsu80aQJK7Xk_w&oe=693128DF)
 
 ### Edit/Reset My Quests
 
@@ -59,7 +59,7 @@ The **Debug Quests** button in the upper right of the Quests pane opens the Debu
 
 Note that while setting simple quests to complete or incomplete is straightforward, tracked persistent quests can have unexpected interactions with their corresponding persistent variables. It is always possible to mark a tracked persistent quest “complete” using the Debug Quest panel, but you cannot mark a tracked persistent quest incomplete if the underlying variable has a value that meets the configured threshold for the quest. To mark such tracked persistent quests incomplete, you must first set the persistent variable to a value below the threshold for the quest. You can also reset a tracked persistent quest to be in a partially completed state by setting the persistent variable to a nonzero value (but below the threshold), and then setting the quest as incomplete.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453002677_512527141285242_4410578538436637672_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=COVppqMt2o0Q7kNvwGGeUxH&_nc_oc=AdkX0tr0IB7F7Qw0N3NZoOUyLWiAJbxdog4UHRxC9wKl-hWyFXffDQ2uuPxWjZZ8eE4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nQUmH4rqlwd0oGI_ps-1rA&oh=00_Afi-IuElZ6yDzSW2ga2ugnFpCmNdr_uBnKcFlTpElQEk2w&oe=692F9F1F)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453002677_512527141285242_4410578538436637672_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=COVppqMt2o0Q7kNvwGGeUxH&_nc_oc=AdkX0tr0IB7F7Qw0N3NZoOUyLWiAJbxdog4UHRxC9wKl-hWyFXffDQ2uuPxWjZZ8eE4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PeFcQppkE-_0bJ75Po0lSw&oh=00_AfhRet-vZT47vRv4KFePIwENGBiJlmcCjsu80aQJK7Xk_w&oe=693128DF)
 
 ## TypeScript support
 

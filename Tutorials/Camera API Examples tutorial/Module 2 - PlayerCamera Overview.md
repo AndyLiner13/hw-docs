@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This world is composed of several stations, each of which demonstrates a camera point of view in a specific use case. For example, you can see how the first-person camera works at the shooting gallery and how the third-person camera works at the hand-to-hand combat arena.
 
-![First-Person Camera Station](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488054346_686408173897137_1013242816748594235_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UeUawJKTNSIQ7kNvwG0XpSj&_nc_oc=AdkLj4XMkOxviARtIt5NlKlHBEbAf7_5ko4rcTn_xjRpx0g91t1N20UL0qGsYLDVFwA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CakEZTcAIw54IhhRGUezww&oh=00_Afiuqt9zgwwuWRiv3vS4qAjkJM4g9D3iq7W3dU8VYjSXww&oe=692FBF1B)
+![First-Person Camera Station](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488054346_686408173897137_1013242816748594235_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=oqxVi8mHy0AQ7kNvwF98Yr6&_nc_oc=AdkJQw_FJmPDVPD4cfssNZxudLIgdiOhTP_9p_YMi5SV1tdFxmLaP9p2FO68-ngAO5g&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zS9k-BK4O05QO4u1d_6Xgg&oh=00_Afhh5mnnyj68Y5gGAHntojqGZe3Z5j8rY8zTK7joqLgG0A&oe=693148DB)
 
 ## Set Local Script mode
 
@@ -52,7 +52,7 @@ In this world, camera management is handled through the assignment of PlayerCame
 
 The core entities for managing player cameras are positioned above the plane of the world.
 
-![PlayerCamera core entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487312367_686408207230467_1588549126556306988_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZcQu_y4KV-oQ7kNvwH6XJWq&_nc_oc=AdmNCeP0oR9VDk40VyG8QxKSkt1VRG-oG_gT_xzaLQcfNrV0c_rYbEQI1VUVn-8At9U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CakEZTcAIw54IhhRGUezww&oh=00_AfifnPt3bYYyZRHDZJrmjKDvRhO9kPRN5uK2nyGYh7xDIQ&oe=692FA512)
+![PlayerCamera core entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487312367_686408207230467_1588549126556306988_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=dbHj3SV-K-QQ7kNvwH8C0Xh&_nc_oc=AdnUvmtju6mDZlHP14RezjWm6MYZTA3Gh_1eIF1FsJ0SLPg19S7X5Ov3IzHlTNhNC4E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zS9k-BK4O05QO4u1d_6Xgg&oh=00_AfjgoDWn8KoYtxM1GnrALiywNtYLvulGruofU69cE_UJkA&oe=69312ED2)
 
 In the Hierarchy panel, these entities are stored under PlayerCameraCore.
 

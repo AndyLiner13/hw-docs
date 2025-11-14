@@ -6,7 +6,7 @@ The examples in Station 6 demonstrate how to organize your customUI panel into r
 
 In this example, a set of UI elements is organized in a vertical column. Note the behavior of the buttons here: hover states are shared.
 
-![Image of Station 06a](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/475464828_646003191270969_1422741377733593386_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RbVvlv_3nzMQ7kNvwGUp1hF&_nc_oc=AdnYJj4RslYKMNOxoev9rgVZyYzMkyxTR8Gt2KDCM7sGmbW2A2WET9yxyF1CfYFtq8g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=06_SG2wgjJhf_r_EFsD4Kg&oh=00_AfhyvHPbWBR5PM0smvcW2ZyNDjeRmYQwnNqFOd14IVE30A&oe=692FABE1)
+![Image of Station 06a](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/475464828_646003191270969_1422741377733593386_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RbVvlv_3nzMQ7kNvwGUp1hF&_nc_oc=AdnYJj4RslYKMNOxoev9rgVZyYzMkyxTR8Gt2KDCM7sGmbW2A2WET9yxyF1CfYFtq8g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9vPBT_jwG7HtObY2cuSJBA&oh=00_AfhvNDiUWKuZaTfL0q-BtKg7i9_rrUZ2HiFr302YZce2RA&oe=693135A1)
 
 ## Assets
 

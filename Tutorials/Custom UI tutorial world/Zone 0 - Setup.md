@@ -6,7 +6,7 @@ Welcome, creators!
 
 This documentation serves as a companion guide to the **Custom UI Tutorial**, one of the tutorial worlds available in the Home section of the Horizon Desktop Editor. This world is designed to help you learn how to use Custom UI in your own worlds.
 
-![Custom UI Tutorial World Cover Image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/550042330_817392014132085_1043491075615758728_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bOLBgPgYOMIQ7kNvwHTiRfe&_nc_oc=Adn9ZVxofTsaysCPuML27VxSPRXwD_i5aHGCsvpZYveeM4oLNNvNeVfenvJAFeNT_Z4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=s7dMc4JlxdZHxuNAcJvlSg&oh=00_AfhFO65DCA3XXwU7hHAoR7OnjfHMVQqnnoDFxsRhpmIbug&oe=692FAABC)
+![Custom UI Tutorial World Cover Image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/550042330_817392014132085_1043491075615758728_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bOLBgPgYOMIQ7kNvwHTiRfe&_nc_oc=Adn9ZVxofTsaysCPuML27VxSPRXwD_i5aHGCsvpZYveeM4oLNNvNeVfenvJAFeNT_Z4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFM2jBTsRaG0C_hA7QVAFQ&oh=00_AfhuyIK_litMZCZ7Y5Q-cLiNhCt7baVaFn0RES1RdMNzuQ&oe=6931347C)
 
 ## Finding and opening the tutorial world
 

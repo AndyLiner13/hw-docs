@@ -8,7 +8,7 @@ You can use the **GrabbableAim** property to specify the direction a weapon poin
 
 For example, a shotgun setup is displayed below:
 
-![An example shotgun asset that uses the grabbable aim property.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/492655308_705052888699332_2797759283830252011_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=myvOgCHNNyoQ7kNvwG6zRI3&_nc_oc=AdmTO7hsHnl4-OmCtmoD35dWQ0btf_GIE1z-dKigRieDw37HVPxJ4yLjcj8qegUYJeE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lkINp5IU4bEyvr7ZZBi8aw&oh=00_AfjXjmxoFFJXKNcDciK2Ng3R-vLShsCZp1T6EHHK-6_VNQ&oe=692F9F71)
+![An example shotgun asset that uses the grabbable aim property.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/492655308_705052888699332_2797759283830252011_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=myvOgCHNNyoQ7kNvwG6zRI3&_nc_oc=AdmTO7hsHnl4-OmCtmoD35dWQ0btf_GIE1z-dKigRieDw37HVPxJ4yLjcj8qegUYJeE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=WmYVpSjr8wNliZwagJIQXw&oh=00_AfhTvbNoru6sQe6jDLLcLN0d4vsEYR_kiYXFwXqkJBmjfQ&oe=69312931)
 
 ### GrabbableAim property
 
@@ -16,6 +16,6 @@ The **GrabbableAim** property represents the position and orientation in which b
 
 From the desktop editor, when a grabbable object is selected you can adjust the GrabbableAim property from the **More** section by enabling **Use VR Grab Anchor**. You can then adjust the **Grab Aim Position** and the **Grab Aim Rotation**.
 
-![The editable properties for an object that uses a VR Grab Anchor.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/491926812_705052892032665_6243466676556598810_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=OmAeE_hiXD0Q7kNvwE6JYXb&_nc_oc=AdkBmUUUbfeJjbWpZn_zuk6GSIgLBW3-xh1IVEbBwcKphOxf6m8o1sffc7qQhOQG9SA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=lkINp5IU4bEyvr7ZZBi8aw&oh=00_AfjAFQ2bs-zw8tEXTRSx2W-5y7_6UIOwb9tpR7fxLHyeFA&oe=692FC797)
+![The editable properties for an object that uses a VR Grab Anchor.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/491926812_705052892032665_6243466676556598810_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=OmAeE_hiXD0Q7kNvwE6JYXb&_nc_oc=AdkBmUUUbfeJjbWpZn_zuk6GSIgLBW3-xh1IVEbBwcKphOxf6m8o1sffc7qQhOQG9SA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=WmYVpSjr8wNliZwagJIQXw&oh=00_AfhBtjZX7fNk_y2tk8xYzlfWsvjqPCglRcDkSLlIukmYpw&oe=69311917)
 
 Grab Aim Position and Rotation only apply to projectile launchers owned by the player. Make sure to set the player as the owner of the projectile launcher during grab for this feature to work correctly. Setting the local player as the owner of the launcher also provides a better player experience, giving the player instant projectile launcher feedback.

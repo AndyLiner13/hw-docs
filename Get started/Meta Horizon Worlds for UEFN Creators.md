@@ -22,7 +22,7 @@ Horizon specifically has some features that stand out compared to UEFN that any 
 
 The Horizon Desktop Editor is the starting point for managing existing worlds, viewing documentation, exploring tutorials and templates and more. It is the equivalent of both the Epic Games Launcher and the UEFN editor bundled into one. [The Horizon Desktop Editor can be installed](/hw-docs/Get%20started/Install%20the%20desktop%20editor.md) either standalone or through the Meta Quest Link app (if developing for VR).
 
-![Horizon Creation Home](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546218067_811522964718990_2334895237106097278_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=rE-auNb7v14Q7kNvwG9Jl7l&_nc_oc=AdkFMo5a1GdoLKBqf63lOuYeo9kd2ZpeCxtlEEBGTSWl99nbYy-vokEQpzGpwWvjNvg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_2bNCcbp-TV61ku3amjFeA&oh=00_AfhIuoqzDAH2GUEXeMkMSNrTun0TnsAdy9w-JQunyDKiyg&oe=692FBFAC)
+![Horizon Creation Home](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546218067_811522964718990_2334895237106097278_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=rE-auNb7v14Q7kNvwG9Jl7l&_nc_oc=AdkFMo5a1GdoLKBqf63lOuYeo9kd2ZpeCxtlEEBGTSWl99nbYy-vokEQpzGpwWvjNvg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=F5BN7Ox4sbM-8VqDccWJ4A&oh=00_AfgW0t_3-h38UoD1GoLzQwm8SuwJruY3PPv3GDaEzy_3jQ&oe=6931496C)
 
 ## Editor comparisons
 
@@ -41,7 +41,7 @@ Otherwise, Horizon shares much of the same functionality such as:
 * A scene view that shows the 3D view of the world.
 * An asset library that shows both the creator’s library of assets, as well as assets created by external creators.
 
-![Horizon Editor comparison](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545251985_811522958052324_6764831470634074968_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=OwS0n92bbrUQ7kNvwHnmEYF&_nc_oc=AdmhMO_D7hcMfQHMg6UqGgMjcyvHc7nZtOIRMfDpNpJkJP5m6gui37Hhx1XWR2iIjQk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_2bNCcbp-TV61ku3amjFeA&oh=00_AfgEP7xQxuiPe6cL4L2dh5OmkFVBl3UZu3W-0TEy0ZA9oA&oe=692FA861)
+![Horizon Editor comparison](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545251985_811522958052324_6764831470634074968_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=OwS0n92bbrUQ7kNvwHnmEYF&_nc_oc=AdmhMO_D7hcMfQHMg6UqGgMjcyvHc7nZtOIRMfDpNpJkJP5m6gui37Hhx1XWR2iIjQk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=F5BN7Ox4sbM-8VqDccWJ4A&oh=00_Afiv4Bw1YM68BlLOreZNKLwjIH5oT-Q6QAr2lwtHBjDFPA&oe=69313221)
 
 | Index | UEFN | Horizon | Description |
 | --- | --- | --- | --- |
@@ -118,7 +118,7 @@ Horizon allows a [variety of different asset types to be imported](/hw-docs/Desk
 
 Horizon offers multiple ways to playtest your world on desktop, mobile, and VR. The first step to playtesting is to publish your world. Make sure to mark it as invisible to the public.
 
-![Horizon Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545673526_811522954718991_5394657970832061088_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=bdqbg3X8mtAQ7kNvwE8POiw&_nc_oc=AdnPcTjM47ZnF0FHoMq6MY7ICvPpn9avhFU6ka2yv52u1-JNVp-28YdsMZPNQuc_XnE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_2bNCcbp-TV61ku3amjFeA&oh=00_AfjmGHvtxdSGsMkEZM-Ad8UCB3hpXqpb7xdEBGGz-C2dng&oe=692FB419)
+![Horizon Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545673526_811522954718991_5394657970832061088_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=bdqbg3X8mtAQ7kNvwE8POiw&_nc_oc=AdnPcTjM47ZnF0FHoMq6MY7ICvPpn9avhFU6ka2yv52u1-JNVp-28YdsMZPNQuc_XnE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=F5BN7Ox4sbM-8VqDccWJ4A&oh=00_AfjwGNK70Gez1ZayFWpe4N3ZqcB0J8bPpQleq_qM3B_Tiw&oe=69313DD9)
 
 Once a world is published, that specific published version is what will be available to playtest. More information on the publishing flow can be found [here](/hw-docs/Save,%20optimize,%20and%20publish/Publish%20your%20world.md). Some important steps to keep in mind:
 
@@ -127,4 +127,4 @@ Once a world is published, that specific published version is what will be avail
 
 For easy access to playtest builds, use the preview actions found under the preview configuration drop down at the top of the editor.
 
-![Horizon Preview Actions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/547194483_811522961385657_2537791522362502658_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=huIjWm6dFZEQ7kNvwEUCpqI&_nc_oc=Adn-PTQvaGXk9nbPOcGRBokNofLw4FbKPrJDKbimo65wEoByaF_LP-X_Y--uFSLluHo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_2bNCcbp-TV61ku3amjFeA&oh=00_Afipq072gb-by0eHhAKVzZV7Rd1RQvVEX0tIPp_lqUjqOQ&oe=692FA53F)
+![Horizon Preview Actions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/547194483_811522961385657_2537791522362502658_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=huIjWm6dFZEQ7kNvwEUCpqI&_nc_oc=Adn-PTQvaGXk9nbPOcGRBokNofLw4FbKPrJDKbimo65wEoByaF_LP-X_Y--uFSLluHo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=F5BN7Ox4sbM-8VqDccWJ4A&oh=00_Afh5ITJxoghRYkZWO7CkGB7hff2pXpQ2kCBurXV78hdd-A&oe=69312EFF)

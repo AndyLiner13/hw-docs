@@ -18,7 +18,7 @@ All information provided is used in accordance with our [Privacy Policy](https:/
 
 ## Submitting feedback
 
-![Image shows the feedback window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486663488_681062014431753_3563326680970512246_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=cqus_zcUo4EQ7kNvwHTDY3F&_nc_oc=AdnH4P7_PYfbRi2mDnTtSduC9dn8qqvHSOVOAWN0-IC2V9AWjBW0Fl1yOibBe1wlrks&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=l78vCUM8YvxCOH-iFXJwtw&oh=00_Afhkc8_XhSj3HpIV2H071cFsN7xUMasi0Fobu413r2dnWw&oe=692F98D9)
+![Image shows the feedback window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486663488_681062014431753_3563326680970512246_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=cqus_zcUo4EQ7kNvwHTDY3F&_nc_oc=AdnH4P7_PYfbRi2mDnTtSduC9dn8qqvHSOVOAWN0-IC2V9AWjBW0Fl1yOibBe1wlrks&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=uk_yrhHU3hDZfPmwXGABUA&oh=00_AfhZfAU2Ue3_ucnTloxaf9HVVgV7pdJW78tuay3VlN8jqA&oe=69312299)
 
 - From the desktop editor, click the menu icon and select “Report a problem” from the dropdown menu.
 - Provide the following information:
@@ -30,7 +30,7 @@ All information provided is used in accordance with our [Privacy Policy](https:/
   * **Attach automatic screen capture**: Selecting this option will attach an image of the desktop editor taken before the report option was selected.
 - Click “Submit” to send your feedback. You will receive a confirmation message in the desktop editor and an email will be sent to the email address associated with your Meta account.
 
-![Image shows the confirmation window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486371094_681062011098420_788544345801925118_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=X9TrApS37boQ7kNvwF6nyOh&_nc_oc=AdlDdM5V6LlxcbZnbQIsV8YagbExceNPwNRRoDRPBhqYEp5Y3yi2LyPko1KNRQbWh0A&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=l78vCUM8YvxCOH-iFXJwtw&oh=00_AfhoiLttgyfYFp1EPn9wPv7BReXYipnWHHAOx5JgJcanlQ&oe=692F9DDE)
+![Image shows the confirmation window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486371094_681062011098420_788544345801925118_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=X9TrApS37boQ7kNvwF6nyOh&_nc_oc=AdlDdM5V6LlxcbZnbQIsV8YagbExceNPwNRRoDRPBhqYEp5Y3yi2LyPko1KNRQbWh0A&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=uk_yrhHU3hDZfPmwXGABUA&oh=00_Afjjbx0ZnDNbSRyRVGLVOu8WkyRjBcnLDuBvc2RrR0rupw&oe=6931279E)
 
 Feedback submitted via other channels will not necessarily show up on the feedback report.
 
@@ -38,11 +38,11 @@ Feedback submitted via other channels will not necessarily show up on the feedba
 
 Your feedback and those of other developers are also listed publicly in the [Feedback Center](https://developers.meta.com/horizon/feedback). This is a public voting board where you can view summarized cases of the bugs and feature requests sent to Meta.
 
-![Feedback Center landing page](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/553024575_820695697135050_2462457569513942397_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=q9Q7ZRLz_z8Q7kNvwFdnDom&_nc_oc=Adk9ls93Kifwuk8dTcppB5qhs21IVYcA96n9Irp81sWF-nLP3lq7l4fdSz4AouxQVbg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=l78vCUM8YvxCOH-iFXJwtw&oh=00_AfiGxAXj_6uNWyXt-ZJSP7hmzI--rKsLl0zB6v0rCWUiOg&oe=692FA083)
+![Feedback Center landing page](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/553024575_820695697135050_2462457569513942397_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=VdcXx0CK1dkQ7kNvwFE5p4x&_nc_oc=AdlbqNDvYB_2OFPKBSSUV_t4KODYbJIT4M1QSaNjRoad9R_bKt5Kf2Pfro7sDri-ZN4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=uk_yrhHU3hDZfPmwXGABUA&oh=00_Afg84iSZ8n5Oxi1tTV22d3YqnvpYjC5sO_t4ZKiDDfPtXA&oe=69312A43)
 
 Feedback reports you submit are listed in the Feedback Center along with their status such as “Received”, “Investigating”, and so on. When logged into Developer Center, you can upvote items on the public voting board to increase their priority. The public voting board aims to increase transparency, improve creator engagement, and inform product priorities. It provides a clear view of how feedback is handled. Meta teams review the investigations and keep the case information accurate and up to date.
 
-![Feedback Center reports](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/550553418_820695693801717_5807639685583979140_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=JCD2WFzqqu8Q7kNvwHwQfNp&_nc_oc=AdnINTYkKc8-58gAQoMfJN__6coFDSi9C_sVQooAnjTuRYdMY2oCf20aYkb8KUL4pJk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=l78vCUM8YvxCOH-iFXJwtw&oh=00_AfhKIkKzFP6WX-eI2gvx_g7YVtsWdCAWqWCsWGwvxg9hfw&oe=692FBAE6)
+![Feedback Center reports](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/550553418_820695693801717_5807639685583979140_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=JCD2WFzqqu8Q7kNvwHwQfNp&_nc_oc=AdnINTYkKc8-58gAQoMfJN__6coFDSi9C_sVQooAnjTuRYdMY2oCf20aYkb8KUL4pJk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=uk_yrhHU3hDZfPmwXGABUA&oh=00_AfikG4UhoFShSy_c4mpfA1mIsZFa2q7_LKOIctjdf8PNoQ&oe=693144A6)
 
 ## Edit feedback
 

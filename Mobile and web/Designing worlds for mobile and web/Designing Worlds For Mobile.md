@@ -74,7 +74,7 @@ Players value and continue to engage with worlds where they have paid for items.
 
 ### Simplify interactions and use the touchscreen to engage players
 
-MR controls feel best when embodied and there’s a tight connection between player’s physical actions and effect in the world. Mobile can produce a similar feeling of immersion using [**Focused interaction**](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md) , enabling players to directly interact with the world through taps and swipes.
+VR controls feel best when embodied and there’s a tight connection between player’s physical actions and effect in the world. Mobile can produce a similar feeling of immersion using [**Focused interaction**](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md) , enabling players to directly interact with the world through taps and swipes.
 
 **Examples**:
 
