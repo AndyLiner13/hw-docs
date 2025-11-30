@@ -36,7 +36,7 @@ The `ControllerUI.ts` script creates the foundational UI panel for displaying co
 
 - **Create the controller UI entity**: Navigate to your world and create a UI entity where you want controller tutorials to appear. Attach the `ControllerUI.ts` script to this entity.
 
-  ![Controller UI Entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549827875_817222387482381_4525873763874741735_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=U7ar4wbw2c4Q7kNvwGdFSk4&_nc_oc=AdnuTZZ4Upctz_GgHMHuzFRjKME0oU4KjbdgOc2ne9wCZFfNafIhIPiWeHa6iSzgG1g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=dfFO1k8EGAuHXRjpa7X1BQ&oh=00_Afh-Fz1Qr1UZCzkES8G36qXu8te-C28JKoy4Y99h8lAi9A&oe=69314214)
+  ![Controller UI Entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549827875_817222387482381_4525873763874741735_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=4LHcuJAoPIgQ7kNvwEkwN7M&_nc_oc=Adm3RVgaYrIfsumIXBkKRG7WM1f4yY_TcORifCUy_P77TzC3a8zCX6HM16ogOKXTrVE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AIbNw_V-aygFif1oQw9qUA&oh=00_AfgMyYb9RtOXrYB0E6zSU0At9RbeOCeCGyAi0WHgqKVRVw&oe=69465A14)
 - **Configure panel appearance**: Set up the visual properties in the script inspector:
   * **Panel Layout**: Configure `panelWidth` (default: 1000) and `panelHeight` (default: 300) for appropriate sizing
   * **Background Styling**: Set `backgroundColor` (default: ‘#c59f71’), `backgroundOpacity` (0-1), and border properties (`borderColor`, `borderWidth`, `borderRadius`)
@@ -62,7 +62,7 @@ The system includes built-in animated sequences for common VR controller inputs 
   * **isPredefinedDownLeft**: Left controller directional down button animation (3 frames)
   * **isPredefinedDownRight**: Right controller directional down button animation (3 frames)
 
-  ![Predefined Controller Images](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/547371739_817222394149047_8782678546501310627_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=PijrJpCBr70Q7kNvwHXVF3R&_nc_oc=AdnT90dhUYdADdWwE3zb2hGKyy8Nx33o9PHONdyTVNIBy07KoyAPMaCIyJ6YMINeA30&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=dfFO1k8EGAuHXRjpa7X1BQ&oh=00_AfinIO9FGPep43oRb2XPC-lIbcpFOFqeLhvKbu5EAYmWFA&oe=69313E30)
+  ![Predefined Controller Images](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/547371739_817222394149047_8782678546501310627_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=UXWS6O2e7L4Q7kNvwGdWK-Q&_nc_oc=AdlBBRP7mfIHCxmV1tpx3eh2Fcx3RhnM39JzRMbsD9tuyIX0_oZh4FG0heqRcAo00sQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AIbNw_V-aygFif1oQw9qUA&oh=00_AfhyvIg1H2DQiCZIZHD4g8BpA91pHW6gZsiTpkNAniRBag&oe=69465630)
 - **Configure animation timing**: Set the `spriteFrequency` property (default: 0.25 seconds) to control how fast the animation cycles through frames. The `isAnimated` property is automatically handled for predefined sequences.
 
 ### Create custom animated controller sequences
@@ -118,6 +118,6 @@ Once your controller images system is implemented, thoroughly test:
 - **Integration Testing**: Confirm controller tutorials integrate properly with other tutorial systems
 - **Visual Clarity Testing**: Ensure controller instructions are clear and helpful for new VR users
 
-![Testing Controller Images](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/549361582_817222404149046_1524929474160658186_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=93rqf-QKmkUQ7kNvwGIMeGp&_nc_oc=AdlNNsam0ZsviaWm7M2Fpj9Kqh0GYeu0ZlzNuifdEZJKi8tpop9cxbJexqVCoawjOPM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=dfFO1k8EGAuHXRjpa7X1BQ&oh=00_AfijZ0KLrcxR7uRq90goamVknS4_2f6Oz3U6cpmMQZHBGg&oe=69311D2D)
+![Testing Controller Images](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/549361582_817222404149046_1524929474160658186_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=4xsIU_zdDqQQ7kNvwEVCt-1&_nc_oc=AdlpItgbmdo8wWloA1rEFFTrD4q1BL-k6p-9eBIqK-oEUWftLc1fK-QoIJgGzRDwPi0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=AIbNw_V-aygFif1oQw9qUA&oh=00_AfiaAwfViY2gBHfkFvRWCLY-UyGZmbRwO--GwW-W0ggmww&oe=6946352D)
 
 With a comprehensive controller images system in place, you can provide clear visual instruction for VR controller usage through both predefined animations for common inputs and custom sequences for complex gestures, significantly improving the onboarding experience for new users in your world.

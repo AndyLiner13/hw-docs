@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 1 - Setup
 
-![Screenshot of the world from the spawn point](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452882400_512509657953657_4484116017896127605_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=HF3jZ0x0q5UQ7kNvwFfzWSI&_nc_oc=AdmX_T4LshuiVcMpCWRWts4ogMTU61IEcgoc62XZVwLdaJmEZXZPWa5iIT6G33w2scA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=fQ_ld4eoiODumeksVERcgQ&oh=00_AfjC60rJx2RXtXRPyaeoTqUTtU15LoIt1ZGaDZ4017e-9w&oe=693121E3)
+![Screenshot of the world from the spawn point](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452882400_512509657953657_4484116017896127605_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=D7VF_V6jnowQ7kNvwGZPCrX&_nc_oc=AdmA6O4wH19N5sZLfbQGhdefNvWiSX6FFLjoq1nh00hWBf5ZYwWUOS_mPd3XVImbVP0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=4FT5X168j3aMK03V5Jv7pA&oh=00_AfjkxCP-4VdSUesvlTlHasqDpL7uniBIPhAxzdDCIWffPg&oe=694639E3)
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ## Welcome
 
@@ -21,7 +21,7 @@ Before hopping in, you may want to take a look at the following worlds that show
 * Multiplayer Lobby Tutorial world
 * Developing for Web and Mobile Players world
 
-See [Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+See [Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ## Key game development areas
 
@@ -40,9 +40,9 @@ This sample world is a full game world experience within Meta Horizon Worlds tha
 You can explore the world in the following ways:
 
 * **Play the game**. Explore areas of the game and interface to determine areas of interest to you.
-* **Explore the tutorial**. You can use the signposts in the world for pointers into the TypeScript files where individual systems are created. You can create a new world based on a tutorial world from the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+* **Explore the tutorial**. You can use the signposts in the world for pointers into the TypeScript files where individual systems are created. You can create a new world based on a tutorial world from the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 * **Dig into the code**. Comments in the code should give you a start in learning how to use it.
-* **Use in your world**. For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+* **Use in your world**. For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ## Before You Begin
 
@@ -54,7 +54,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0. You can learn more about how to upgrade your own world to TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+See [Getting Started with Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ## Introduction to Rooftop Racers
 
@@ -70,7 +70,7 @@ Before you begin, please verify that you have acquired access to the tutorial wo
 
 Open this world in the desktop editor, where you can explore it in either Build mode or Preview mode to familiarize yourself with the world and its structures before modifying it.
 
-**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the Meta Horizon Worlds desktop editor, you might want to start with the Build your first game tutorial. See [Build your first game](/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
+**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the Meta Horizon Worlds desktop editor, you might want to start with the Build your first game tutorial. See [Build your first game](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 ### On mobile and desktop
 
@@ -80,7 +80,7 @@ To explore the finished world on mobile or desktop, please use the following lin
 
 **Note**: Desktop users must be signed in first.
 
-**Note**: If you are interested in web and mobile development, see [Developing for Web and Mobile Players Tutorial](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%201%20-%20Setup.md).
+**Note**: If you are interested in web and mobile development, see [Developing for Web and Mobile Players Tutorial](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-1-setup).
 
 ## Game Design
 
@@ -130,4 +130,4 @@ In the desktop editor, you can access the systems in the following ways:
 * Navigate the Hierarchy panel.
 * Scripts and other non-geometry resources are located behind the starting area. See below.
 
-![Screenshot of the bank of empty reference objects that host the scripts for gameplay systems](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452520043_512509637953659_6246132046291088143_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=vXelPudaKSkQ7kNvwFbR8H5&_nc_oc=Adn7HtSA0gpg_O_m7w9CfkPJL9useWA2BRjzntHC_njC5RfKXgySiZyN8PSCECpqZd8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=fQ_ld4eoiODumeksVERcgQ&oh=00_Afh8jQ_Gq5PUamMxYSRaVR6YYsPosOuLF3B5XfBzRpkjdw&oe=6931338D)
+![Screenshot of the bank of empty reference objects that host the scripts for gameplay systems](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452520043_512509637953659_6246132046291088143_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=4IakM4L27NIQ7kNvwGyfb3W&_nc_oc=AdmBxSPv8Sx3azokIRSLph570rICLmwGo1g_6L5tEM8htBuj-A4sBjbV3WDomOovlZA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=4FT5X168j3aMK03V5Jv7pA&oh=00_AfiKiL3_PYVDqjx6f2E-aBm7Ba_AS6SLcPE3a3j-Ko55og&oe=69464B8D)

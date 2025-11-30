@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # How to Script a Retention and Interaction Dashboard with PigeonNo12
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1005213214579666_7370118978682110405_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=9PBwkd00dcgQ7kNvwFOERmS&_nc_oc=AdnOUN2D1-CZ7_dVoiEigqN0VmIMBWo6Vft0ZpInHVgMWOgtFJpBMTHOR3rE3ZJqt-k&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=1VDmr4HSYM6fUk9i2R9Lvg&oh=00_AfjbaA25pemlcbHatDFkh4_3rP2rznjJV4KTUPDhho_DAA&oe=691CD905)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1005213214579666_7370118978682110405_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=BnLw0H_-NjQQ7kNvwEkULvT&_nc_oc=AdldKeERGqYkK9_K6Fv851-AFKGxYGHheqblUAXekGZ3qzD4cqlE_WDspNwZQIYiA4g&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=IqDGT7NC1dpc3-CKh5EfpA&oh=00_AfjJyE7PxOznoy9aiEJ-8NMJpwPSdPqDlaxD0MtM7iBLJA&oe=6931F105)
 
 Follow along with MHCP Mentor **@PigeonNo12** to learn how to script a retention and interaction dashboard to optimize your worlds.
 

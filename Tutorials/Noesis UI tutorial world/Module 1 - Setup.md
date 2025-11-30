@@ -4,11 +4,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Welcome! This module introduces the NoesisGUI and prepares you to work with the sample stations included in this tutorial. You’ll learn how to set up your workspace, import the provided project, and get ready to explore each station.
 
-![NoesisGUI Studio](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/574580506_855959400275346_1558630767656865195_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=6f5rBB_9QogQ7kNvwFcB9t2&_nc_oc=AdlWRmd7WEodNzOdFvdXtkNLFm5mYstLhLXKApSAVnZGUPlrtuFo-bM7yQgLxUGefEk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vzj5VAtaJuIuUJl_jmpetg&oh=00_Afh4_du8IL5xoA8Ym2O25Hxn4qUWy4j5t_A4D2pg7TTa1g&oe=693149A9)
+![NoesisGUI Studio](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/574580506_855959400275346_1558630767656865195_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=lJZl-Q6n9n0Q7kNvwFtdK9M&_nc_oc=Adnhx0Pk5LmE2u6HFiMyqk4KYsGl4c5wrIp_eb6RD6HqTn3feVlyKHPn9psPH3NqOuQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RJBwle0b-6tHoiK4yhRvbQ&oh=00_AfgY6EoIGamPY_Y-5RxK9-bkHD5O9xYEOzRK3lCq7ZM_lA&oe=694661A9)
 
 Note
 
- Changes to **.noesis** and XAML files require reuploading to the Desktop Editor. Before making edits, ensure the [approved fonts](/hw-docs/Desktop%20editor/NoesisUI/Noesis%20UI%20Fonts%20Usage.md) have been downloaded in preparation.
+ Changes to **.noesis** and XAML files require reuploading to the Desktop Editor. Before making edits, ensure the [approved fonts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-fonts-usage) have been downloaded in preparation.
 
 ## What You’ll Learn
 
@@ -34,17 +34,17 @@ NoesisGUI is a high-performance UI framework for games and interactive applicati
 
 Before you begin, make sure to:
 
-- Download the [Tutorial Project File](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/491818938_1494380961786890_8502004848100711826_n.zip?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RsmyEVe4JgUQ7kNvwHISJeQ&_nc_oc=AdlTvqhtKQzzULcRa6VJ9Y8g-_1iCXJPLnHrAsx1_prHPMbcQ-eRpmjJrRc1WLdI0L0&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfhTfIH7p3fR9_g9XcafiA5Kkc4qQl8xgo-G9sJ5tzVyiw&oe=693117A3)
+- Download the [Tutorial Project File](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/491821952_1259793042859186_6085846278908550693_n.zip?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=EFJglv-7swcQ7kNvwF9S4sH&_nc_oc=Adk-LnP3ND24mi3cvgKOiYv0OwFewiYTFRALE-cyZ8gC9gz8g6yNbTQMMtbbZTqrSkU&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfiWLmQjmh36UYZZqDp0tlCE8Qa5DQU676nwBXOQrDVMSA&oe=69464204)
 - Install [NoesisGUI Studio](https://www.noesisengine.com/studio/)
 - Unzip the NoesisGUI Studio folder
 - Run the application named **App.StudioTool.exe**
 - Select Add Existing, to import the Tutorial project
 - Navigate to the Tutorial Project folder and select the **.noesis** file
-- Download and add supported fonts from the [NoesisGUI Fonts Usage Guide](/hw-docs/Desktop%20editor/NoesisUI/Noesis%20UI%20Fonts%20Usage.md) to your project
+- Download and add supported fonts from the [NoesisGUI Fonts Usage Guide](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-fonts-usage) to your project
 
 ## Step-by-Step: Uploading Noesis Projects to Horizon Station
 
-![NoesisGUI Gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/573902789_855959373608682_6944807706372317319_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=zYNvJVIgXtkQ7kNvwF5yedF&_nc_oc=AdkQhS08183lQ8r7S_oKv50G_L8iVNQ5YdYdkJ3jWx_VH4yTYGFIBus16q6n7aJkpxg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vzj5VAtaJuIuUJl_jmpetg&oh=00_AfgMublUDcUE0N-nQjZE_f-GoG7rtF2ccV6ZBbqaVvAD3w&oe=69312A7C)
+![NoesisGUI Gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/573902789_855959373608682_6944807706372317319_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=hTaZNUsFqKsQ7kNvwHOAKfr&_nc_oc=AdkCo7Kn64gdkJiElwMeCBmxu8OWIUMF_F9OUjwEW__ob7e22i10kpxyhKuThUFn_9M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RJBwle0b-6tHoiK4yhRvbQ&oh=00_Afiy30kvz57ki_OZ_zjsKfvu4Sk59GSCKxDpaURF5VzRtA&oe=6946427C)
 
 In this tutorial, making additional updates and reuploading the NoiesisGUI project file is optional.
 

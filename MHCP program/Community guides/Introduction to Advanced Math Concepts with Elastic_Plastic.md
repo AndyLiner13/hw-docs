@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 Join MHCP Mentor, Elastic\_Plastic as he introduces you to concepts of sine, cosine, and vectors. Learn how these math concepts can be useful in your world with a scripting example and some in-world applications.
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453520861_3320458831594821_1170411227437260623_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=Ji1WBAC2DzsQ7kNvwEc4F_W&_nc_oc=AdnM4ZsnjdMgQWEVaMYLvFc8AayLPUqtP-9bFCSaAbdBm73eH0U4nW_3J8SBqgB3yEU&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=36rs-n72jh5HYqIB5fHAZQ&oh=00_AfjvdTUkc6MWRgjielbSEgh35yr-CkjDye7vsdpIwVu57g&oe=691CD6A0)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453520861_3320458831594821_1170411227437260623_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=NP3zijykngAQ7kNvwEwl29N&_nc_oc=AdncMO4FRgjteQIKXvwSJGWz2q2_L1T77mmTtLeIU366XUAwf1YDFGUmVfqW2PjLUcY&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=JzYWEBhKiZoDfPP-sUSwPQ&oh=00_AfhNmIietKB7EEaN4aiRzc7goANvirGrbK0yaizNebfIAg&oe=6931EEA0)
 
 ## Timestamps
 

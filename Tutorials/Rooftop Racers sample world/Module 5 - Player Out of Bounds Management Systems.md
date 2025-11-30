@@ -8,7 +8,7 @@ The Out of Bounds (OOB) management system for the player consists of 1) a manage
   **Note**: The PlayerOOBManager.ts script is attached to the empty object (gray box) in the following screenshot.
 * **Respawning script** : When the player is out of bounds, the game fades out for the player. When it fades in again, the player is respawned at the closest respawn point on the course.
 
-![Image of respawning points](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452704315_512509424620347_8768241518730939723_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=pPqXR5NkfUcQ7kNvwEqy0my&_nc_oc=AdkgsfG-hZCAR6CfvNvjoDUReUz8azmgOwFnHJ9NLU1qhtOShU0f5WZkyGc0vCs4lyo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6P2jV4SzZtxzfVHPRcH42Q&oh=00_AfiAaMEk4OjBHfzcGSioIo_n_QlsnJMHA37O2Egz0xazIA&oe=69314905)
+![Image of respawning points](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452704315_512509424620347_8768241518730939723_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=JeNBOR2K8r4Q7kNvwFPdvJV&_nc_oc=AdmtlqeK9ggotzm3gof_vuYp3GmMZCBABTM6szEGP86V7-wZROzBw4SUD0FG3tndrjg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=WIlTN0x5a9_NrHu-877z6Q&oh=00_Afjbhj55VBM3jI5knXO6l_JqkxwFh19vrVjRJ3JqELGEDg&oe=69466105)
 
 A **SpawnPoint** is assigned to each player that enters the game. This SpawnPoint tracks along the player’s course during the game, whenever they are touching the ground. This is why it is important to not have accessible areas where the player cannot return to the course. When the player falls out of bounds (dies), the player is teleported back to the player’s tracking SpawnPoint as long as the game continues. We respawn the player some height above the last known ground location for safety, so they have time to adjust their location to fall back on the ground.
 

@@ -15,7 +15,7 @@ Here’s a quick and codeless solution to set the camera to first-person or thir
 
 **Note**: This feature is not used in the tutorial world, but it’s an easy alternative if you don’t need much control over the camera.
 
-![Screenshot of SpawnPoint in the desktop editor with its Mobile Camera options displayed in the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/514250712_768253335712620_3814826725679467417_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Hw1Yu-6tz2cQ7kNvwEzPCkG&_nc_oc=Adk_eQQY9z3h0QP0xvWx84vlpS5QqYfDqeIwlrUJ16x9YpmgwG0OFqo--2FQSPKxUJY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_MgE3t1dQe83zgotAFWLvg&oh=00_AfhsA2zXUzYTsVl1Js9kP2GjgoxF2n1nGkUM8-799AlOdw&oe=6931480E)
+![Screenshot of SpawnPoint in the desktop editor with its Mobile Camera options displayed in the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/514250712_768253335712620_3814826725679467417_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=pzW48jErXmkQ7kNvwHSjtQw&_nc_oc=AdlFgAcYaxQU2l0Z-CrpdCePOyAuzF9K8KhgPHy8TWg7EcCG0lPgFRGq8C9n3m1Qff8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Iygy_uwUanjR4QFFNuYi-A&oh=00_AfispwJVc47qyCU_M4wH24-LKmYa2McoJrFCfnN18N7jtA&oe=6946600E)
 
 Using this property, you can set the camera mode to first-person or third-person for all web or mobile players who enter through this Spawn Point; VR players are unaffected. For example, you might want a default first-person camera for your world, or you can choose to use a third-person camera in a lobby and then teleport players to another Spawn Point in the game area, where a first-person camera is applied.
 
@@ -45,10 +45,10 @@ We use events to communicate when we want to enable one of these camera features
 
 The Camera API must be executed in **Local Execution Mode**, as it functions on the local client only. Let’s double check that our script is configured correctly.
 
-- Select the sysCameraManagerLocal script in the Scripts panel.
-- From the context menu, select **Script Execution Mode > Local**:
+- Hover over the sysCameraManagerLocal script in the Scripts menu, and select the ellipsis (3 dots).
+- From the context menu, select **Execution Mode > Local**:
 
-![Screenshot of sysCameraManagerLocal script entity with its execution mode property set to Local](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452893696_512509444620345_7587776301210796610_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=aKSZbuau8-MQ7kNvwGqBSHS&_nc_oc=Adk5UZ8nxsCZb6OiaPhn8OjuHU51uiKw2no7nlGGuwBjT7iw20-tGR1Amkf8es7fri4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_MgE3t1dQe83zgotAFWLvg&oh=00_AfjjQna4cRfXC1Kt3lbDCKbTM0s5IN4CLOfqEJFdg60qxA&oe=69313EB0)
+![Screenshot of sysCameraManagerLocal script entity with its execution mode property set to Local](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/582694778_867432749128011_3835983322445238653_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=qW3KHSEZz_8Q7kNvwFKbORi&_nc_oc=AdmUN3q_00A0hb9Mif0H7txnD5GFaXv8AXD-NA_a-viwVQL6fhRjZe140YYVDDitm9w&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Iygy_uwUanjR4QFFNuYi-A&oh=00_AfhIoMEE_jDIZcoSA-uDez4titci6ZlyqPffLeJ7qcfFsQ&oe=69464E7A)
 
 ## Transfer ownership to player
 
@@ -84,7 +84,7 @@ The Camera API must be enabled for use in your world.
 - Enable **horizon/camera**.
 - Click **Apply** to save the changes:
 
-![Screenshot of Script Settings window in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653578_512509441287012_2887539037354353026_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=hSCpHQj9N84Q7kNvwHjjfkw&_nc_oc=Admnd5XfSsseHXZZFPHfFjl6C9wwXNYSuJM5ohGgC6qJg8zgfZl3L0fXHKNDxYdce50&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_MgE3t1dQe83zgotAFWLvg&oh=00_AfhfqPfhX5Uf8umiCqWoO9OyJh3mY6r2KWBe-mWqZhhYhQ&oe=69312925)
+![Screenshot of Script Settings window in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653578_512509441287012_2887539037354353026_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Snh0_gahUW8Q7kNvwHqtFbD&_nc_oc=Adko3nKTVFnYdOqCSugvAOOayAqsVBAaSfZCdCutBT8YD5qLb98HduUEEANrCaBjP84&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Iygy_uwUanjR4QFFNuYi-A&oh=00_AfhildhEDLTDGPnaYgbBUfRcN2DBi_n3eheVcUOtHkEJPA&oe=69464125)
 
 ## Modify sysCameraManagerLocal
 
@@ -349,7 +349,7 @@ The Camera Managers are ready to be used by the Player Manager, which transfers 
 
 Since we need one Camera Manager per player, you should verify that you have the same number of Camera Managers as the maximum number of players permitted in your world (one Camera per one Player):
 
-![Screenshot of the CameraManager entities in the Hierarchy panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452751583_512509457953677_5988127410668545520_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=y6Nftc6gv3IQ7kNvwHnxQok&_nc_oc=AdlgR-UprdeudshPYhE7M4G9FS58eGEwEMJLYgmB5wcSvayRrfTsYB6Uh5YxDf9x4oA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_MgE3t1dQe83zgotAFWLvg&oh=00_AfhezAIEHZRGBwDvVUMpTjlaWUXjBG2bcNuFOYMjM1a7Ow&oe=693135C8)
+![Screenshot of the CameraManager entities in the Hierarchy panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452751583_512509457953677_5988127410668545520_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=6hX9f-U3VEYQ7kNvwHKFC9Y&_nc_oc=Adn0MPbAStgT7O45OJYJMBmp8sB00iGQfX4JCGujQMxA5YKFKemUleMMHDT0t9l-Rxs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Iygy_uwUanjR4QFFNuYi-A&oh=00_Afh0SJPhywd_X-TtL3upku6lgAF12g3KhxrdjYYT6fLTZw&oe=69464DC8)
 
 #### Test:
 
@@ -359,11 +359,11 @@ We can’t test this system yet, as we need to assign a camera manager to each p
 
 #### Docs:
 
-* [Using the Camera API for Web and Mobile](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
+* [Using the Camera API for Web and Mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/camera/)
 * [How to set the player’s camera](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
-* [Local Script for Mobile and Web](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
+* [Local Script for Mobile and Web](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting/)
 
 #### API references:
 
-* [Camera](/hw-docs/Reference/camera/Classes/Camera.md)
-* [Camera class](/hw-docs/Reference/camera/Classes/Camera.md)
+* [Camera](https://horizon.meta.com/resources/scripting-api/camera.md/?api_version=2.0.0)
+* [Camera class](https://horizon.meta.com/resources/scripting-api/camera.camera.md/?api_version=2.0.0)

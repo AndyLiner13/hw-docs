@@ -12,13 +12,13 @@ In Chop ‘N Pop: Graveyard Bash, there are two types of loot:
 * **Ammo**: The gun weapon uses a finite number of shots in each clip. Part of the gameplay is to find and pick up ammo clips and then to reload the gun when it is empty.
 * **Potion**: Monster attacks do damage to a player’s hit points. Finding and collecting a potion raises a player’s hit points back toward normal.
 
-![Image of loot examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467738917_593923083145647_6646816619434916768_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=TwhCN4sQRfAQ7kNvwHisvsA&_nc_oc=AdnHuaKr3vjIC7ZH0s-s5NgI6P1dwCFn604I-rvanOoV2EWxg-tTWgRiHS9UiSgRPhM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=R4r3GfK17wA1TGg8iZKU5Q&oh=00_AfhABFT-yZHKmn_D_vOurJ6zATz64DHyMgRKEIV7UsA8Ow&oe=69313CD4)
+![Image of loot examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467738917_593923083145647_6646816619434916768_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ABfPnC75AkwQ7kNvwGCr8Yr&_nc_oc=AdkwoJykXjTcSKTC9mqSDqsxGAs7oaDpDB0S4fXKN9_xHKvoy2yOk_qLLTnflLbNiy8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=iWMGBWw5U2PJES0sJEpLZQ&oh=00_AfiC4pGyXq9-AAAyU0Rz9P6iZl5NDzd0EAS8h8VLcAqgIA&oe=694654D4)
 
 The loot system manages these sets of physical entities in the world as separate pools of objects and references. The system must manage:
 
 * **Placement of entities**: at startup, all instances of each loot type are stacked together outside of the playing area. These entities are moved via script to designated locations in the Graveyard.
   + Loot is moved to the locations of the reference objects underneath the AmmoSpawnPoints node.
-  + Loot items could not be spawned in. For more information, see [Module 2 - Design Patterns](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%202%20-%20Design%20Patterns.md).
+  + Loot items could not be spawned in. For more information, see [Module 2 - Design Patterns](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-2-design-patterns).
 * **Animation**: Each loot type entity has an associated glowing or sparkling animation to draw the player’s eye to it.
 * **Spawning**: Loot items can be spawned during gameplay to reward the player for defeating enemies.
 * **Pickup**: When the player makes contact with a loot item, its benefits are added to the player’s personal data, and the instance is moved back off the playing area, indicating that the loot has been consumed.
@@ -129,7 +129,7 @@ Script dependencies:
 
 ## How to Deploy
 
-Scripts and their related script dependencies and assets must be deployed into your world. For more information, see “Deploying Systems” in [Module 1 - Setup](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
+Scripts and their related script dependencies and assets must be deployed into your world. For more information, see “Deploying Systems” in [Module 1 - Setup](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
 
 ## How to Use
 

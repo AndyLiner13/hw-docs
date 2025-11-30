@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This station demonstrates how to use a custom UI to alter some aspect of the external world. In this case, when you click a button on the custom UI, you set the color for a sphere (The Orb of UINess) in front of you.
 
-![Image of Station 5](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476001927_646003201270968_1807146693291383433_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=-ncsrJUTAOEQ7kNvwHVMQUK&_nc_oc=AdlGoY1_JyJsgN5MtdBCCZe0G31azAGPQ5yjuSWcr2MZVeAWZoMXWpWrX3q5sSYYK54&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=tn-tXLdFqJA99Mq0sm1T7w&oh=00_AfhT7CT090qr4KqTRbCzzXMYxgWfpSkYD5WwmRgpOgwZ3Q&oe=69313DBE)
+![Image of Station 5](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476001927_646003201270968_1807146693291383433_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=TU4LF6avwWgQ7kNvwHavg12&_nc_oc=AdmcV3Ej5LLlCldGVK_2LVEeZnXI45ve2rHsMIm2sETT14Vm-le1413DJ9uo0GIsGxo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=p93BlCdYRQpIc6eHGAub7g&oh=00_AfilD8GuHKpoX9Nk6ORhAUMF899xUjA41Pp1VL4vNATAzA&oe=694655BE)
 
 ## Assets
 
@@ -43,7 +43,7 @@ The above defines the ball property definition on the Properties panel of the ob
 
 The Entity type of the definition means that the designer is presented with a drop-down labeled ball. From this drop-down, the designer can select an entity that is already in the world.
 
-![Image of selecting Sphere from the ball script property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487400771_686408177230470_1425958838774600305_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=OrGK8mEErN4Q7kNvwEq92_s&_nc_oc=AdnYHHoIi9LF1laHqMJpq38kn4fk37S2BATAEIRBeotVJ7AvKyJ-FgSU2yAAmItYLW0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=tn-tXLdFqJA99Mq0sm1T7w&oh=00_AfiVAZDaJYf4DB4Ot5kWUq8fewYQbGIyuMGuoBa51d-YCA&oe=69314CBA)
+![Image of selecting Sphere from the ball script property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487400771_686408177230470_1425958838774600305_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=dOm9kVbOf4cQ7kNvwEOXb4W&_nc_oc=AdlUtViC_9455NuJs5XN7OZq4XTL0FAC9idlTrYgfww665vYk9-6HyVuHHA2-MqSSN4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=p93BlCdYRQpIc6eHGAub7g&oh=00_AfjL2Rs1NSMdIf3k9y8jV6zwCX2HVTuk9BOq4Wmbk7R50Q&oe=69462C7A)
 
 From this drop-down, the designer can select an object that already is present in the world to be referenced through the ball property in the code. In the example world, it has already been pre-selected for you to be the Sphere entity.
 
@@ -78,7 +78,7 @@ function MyButton(props: MyButtonProps): UINode {
     }),
     onClick: props.onClick,
     onEnter: (player: Player) => {
-      console.log("onEnter";
+      console.log("onEnter");
       backgroundColor.set(HOVERED_COLOR, [player]);
       buttonText.set("hovered", [player]);
     },
@@ -154,11 +154,12 @@ View({
       label: "Off",
       baseColor: "black",
       onClick: () => {
-        console.log("Pressed Off button.");
-        myBall.color.set(new Color(colorOff)); // resets ball color to default.
+        console.log("onClick() callback fired for: Off")
+        if (myBall) {
+          myBall.style.tintColor.set(colorOff)
+        }
       },
       style: {
-        //backgroundColor: "#CF1313",
         marginRight: 24,
       },
     }),
@@ -167,11 +168,13 @@ View({
       baseColor: "red",
 
       onClick: () => {
-        console.log("Pressed Red button.");
-        myBall.color.set(new Color(colorRed));
+        // console.log("Pressed Red button.");
+        console.log("onClick() callback fired for: Red")
+        if (myBall) {
+          myBall.style.tintColor.set(colorRed)
+        }
       },
       style: {
-        //backgroundColor: "#CF1313",
         marginRight: 24,
       },
     }),
@@ -179,16 +182,19 @@ View({
       label: "Green",
       baseColor: "green",
       onClick: () => {
-        console.log("Pressed Green button.");
-        myBall.color.set(new Color(colorGreen));
+        // console.log("Pressed Green button.");
+        if (myBall) {
+          console.log("onClick() callback fired for: Green")
+          myBall.style.tintColor.set(colorGreen)
+
+        }
       },
       style: {
-        // backgroundColor: "#19AD0E",
       },
     }),
   ],
   style: { flexDirection: "row", marginTop: 12 },
-  }),
+}),
 ```
 
 You can see three different calls to `MyButton()`, which returns a Pressable object inserted into the `View()`. As part of each call, you can see the parameters that are passed into the function.

@@ -128,7 +128,7 @@ In the above you may notice two types of events:
 * The CodeBlockEvents listed above are predefined platform events for specific use cases. In this case, the events are triggered when a player enters or leaves a trigger zone.
   + **If a CodeBlockEvent exists for your use case, use it.**
 * In this case, LocalEvents are used to send custom messages between code files or entities.
-  + LocalEvents are messages that can be passed between scripts running on the local device. These events can pass parameterized information with them. For more information, see [Local Events](/hw-docs/Scripting/Events/Local%20Events.md).
+  + LocalEvents are messages that can be passed between scripts running on the local device. These events can pass parameterized information with them. For more information, see [Local Events](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/local-events).
   + **If you need to create an event that passes a message between specified entities, use a LocalEvent.**
 
 ## Attach SimpleSpawn Script

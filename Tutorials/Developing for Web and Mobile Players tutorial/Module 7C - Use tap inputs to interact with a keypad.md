@@ -12,7 +12,7 @@ Find the keypad object in the world. In the Hierarchy panel, you can see that Ro
 * All numeric buttons
 * A Raycast gizmo
 
-![Screenshot of the Keypad node displayed in the Hierarchy panel and in the main viewport of the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489890462_692135409991080_9185380006179677715_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zL1fMlj4jsoQ7kNvwEjin0e&_nc_oc=Adnoh7XMJ6p02GseubEU7-ZMwZHLnm5iUsxIUnfN1ZN7sML9wn8fTG0XQvDdDX3zIM0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=THnAC-2u2ecNlAcJpNLlAA&oh=00_Afj3hiPvQHH-u37ftnzZkt5DEnPnL62nqIVfQJ0tWf27yQ&oe=69313CB1)
+![Screenshot of the Keypad node displayed in the Hierarchy panel and in the main viewport of the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489890462_692135409991080_9185380006179677715_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=GzpDROTvlDgQ7kNvwEULni3&_nc_oc=AdkizIsY3NTN9aVlxDK81BsRpQ2ki-FDL6VbMr0dIRTiS9rnM5Lp-Lh2gsSERu7ZAls&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wC7mQ1mDaSZ3EXpDzyKVGg&oh=00_AfjWDAiPaRMSYvPhz9YthF9wyb3gWjMiInik_r4Mi0YImQ&oe=694654B1)
 
 We break the logic to manage keypad interactions into two scripts:
 
@@ -397,9 +397,9 @@ In this module, you:
 #### Additional documentation:
 
 * [2D UI for Web and Mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/2d-ui-for-web-and-mobile)
-* [Safe Placement of UI Controls](/hw-docs/Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Safe%20Placement%20of%20UI%20Controls.md)
+* [Safe Placement of UI Controls](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/designing-worlds-for-mobile-and-web/safe-placement-of-ui-controls/)
 
 #### API docs:
 
-* [RaycastGizmo](/hw-docs/Reference/core/Classes/RaycastGizmo.md)
-* [TextGizmo](/hw-docs/Reference/core/Classes/TextGizmo.md)
+* [RaycastGizmo](https://horizon.meta.com/resources/scripting-api/core.raycastgizmo.md/?api_version=2.0.0)
+* [TextGizmo](https://horizon.meta.com/resources/scripting-api/core.textgizmo.md/?api_version=2.0.0)

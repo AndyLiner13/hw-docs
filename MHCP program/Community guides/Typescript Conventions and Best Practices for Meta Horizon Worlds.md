@@ -24,7 +24,7 @@ The conventions and best practices are written using [RFC 2119](https://datatrac
 
 This document has a shorter Minimal Recommendations section that, if you adopt nothing else, you should at least do, followed by an Extended Recommendations section that has a more robust set of rules.
 
-Finally, if you are using an IDE like VSCode or Webstorm or similar to write your typescript code (rather than, say Notepad or something), there are freely available plugins that you can install that will handle many of these recommendations for you automatically (and probably even more!). If you’re impatient, skip to the [TL;DR Plugins](/hw-docs/MHCP%20program/Community%20guides/Typescript%20Conventions%20and%20Best%20Practices%20for%20Meta%20Horizon%20Worlds.md) section, install those tools, and be on your way.
+Finally, if you are using an IDE like VSCode or Webstorm or similar to write your typescript code (rather than, say Notepad or something), there are freely available plugins that you can install that will handle many of these recommendations for you automatically (and probably even more!). If you’re impatient, skip to the [TL;DR Plugins](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-conventions-and-best-practices-for-horizon-worlds) section, install those tools, and be on your way.
 
 ## Section 1: Minimal Recommendations
 
@@ -1170,7 +1170,7 @@ Like using descriptive names, you want to write ‘really obvious code’. Don�
 
 #### Comment the important things
 
-A ‘future you’ will thank yourself if you write down what you were thinking when you wrote your code! However, do not comment pedantically, and make sure you have [used descriptive names](#naming) for your variables and functions, as that can make extra comments unnecessary. Only comment the *important* things, and comment things that the VSCode hover popups will pick up, such as documentation comments on functions describing its effects, parameters, and return values.
+A ‘future you’ will thank yourself if you write down what you were thinking when you wrote your code! However, do not comment pedantically, and make sure you have [used descriptive names](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-conventions-and-best-practices-for-horizon-worlds#naming) for your variables and functions, as that can make extra comments unnecessary. Only comment the *important* things, and comment things that the VSCode hover popups will pick up, such as documentation comments on functions describing its effects, parameters, and return values.
 
 #### Write TSDoc comments on functions and on important variables/classes
 
@@ -1270,7 +1270,7 @@ Fortunately for us, there is [Prettier](https://prettier.io/), an industry leadi
 
 To install prettier in VSCode, simply open VSCode, go to the Extensions tab on the right sidebar (the three cubes with the fourth cube offset), search for “Prettier”, click on “Prettier - Code formatter”, and click Install.
 
-![Screenshot shows a user in VSCode, preparing to install the Prettier app](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470676008_612820944589194_6716381116547135037_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=N-nZXufJGDUQ7kNvwHEgFip&_nc_oc=Adlvln_zmJRTEi2ELgLLLPbY5olkH5nRQDVUlr352tpRdmBWEbeYI9bH4STm0cLAwOg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mMTQydYrNFM-8a_GTR4H6Q&oh=00_AfhE5trD1wJVcbDXIKgOdj-zXatzzPA2wUStzeIqWdIRtw&oe=69311335)
+![Screenshot shows a user in VSCode, preparing to install the Prettier app](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470676008_612820944589194_6716381116547135037_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=p7scAZDJRggQ7kNvwH-yRRc&_nc_oc=AdlghP1juho3pIXQ7MyxebQf0fML__XzLmAxAhRraJJ0_gATfutJ4UebB29KUoDL3RA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=toFEsXSPV3tBafTzrNt_gA&oh=00_AfintXj_nmkWvaCrb4A_iUTKm4idtswZp7cjX_Kx-wT6rg&oe=69462B35)
 
 For other editors, check out the [Editor Integrations](https://prettier.io/docs/en/editors) page.
 
@@ -1280,13 +1280,13 @@ The most important configuration setting to make is to ensure that Prettier is u
 
 If you don’t get a popup when doing Format Document for the first time, it means you already have a typescript formatter configured. You will want to change that to Prettier by going to File -> Preferences -> Settings, typing `@id:editor.defaultFormatter @lang:typescript` in the search bar, and switching the Default Formatter to ‘Prettier - Code Formatter’.
 
-![Screenshot shows a user setting the formatting type in Prettier](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470572912_612820937922528_693198462409116070_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=N5pmVXR_RV8Q7kNvwG38lgr&_nc_oc=Adn_ARHWUvmROJ71sHVCY_KUdVXuzSOsAf2gG8RqZN0MXzIrGVb9j8eAO5UVDs-Zn2g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mMTQydYrNFM-8a_GTR4H6Q&oh=00_Afhdvds6HwZTCzLYBmR3A-WKSwsYU5xOiIcPfUyd4OyeAA&oe=6931251F)
+![Screenshot shows a user setting the formatting type in Prettier](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470572912_612820937922528_693198462409116070_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=r0YKbIcfDCgQ7kNvwH7EflD&_nc_oc=AdllspObJYbaOn71dKod8HdGKBhafZLQGBvDDv6kAGGnWSBkaHACXI1FuAI2S1Ysbr4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=toFEsXSPV3tBafTzrNt_gA&oh=00_AfjH_oujrI44YpCZrxviKjVyo3_5GIsPNjiSnJ4ZMs5eUg&oe=69463D1F)
 
 By default, Prettier won’t format anything until you tell it to via Format Document or Format Selection. However, you can also configure VSCode to Format On Save, On Paste, and On Type. Note that if you have File: Auto Save set to `afterDelay`, then Format On Save will only work on an explicit save.
 
 To find the formatting options in File->Preferences->Settings, search for `editor:format` and tick on whichever options you prefer (below shows all of On Paste, On Save, and On Type enabled).
 
-![Screenshot shows a user searching for formatting settings in VS Code](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470641657_612820931255862_1622390255235448701_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=jQEKXQ-TBaYQ7kNvwFW-2rk&_nc_oc=AdkC50gyHS-Q6yv8QFV9d3tNJJS78L3oeXDw1n6aMV00bCwppZEZDb4LNP-S83i9ssU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mMTQydYrNFM-8a_GTR4H6Q&oh=00_AfhN_FUT00VlMgV6wIC33k3BMm3ZRPJy20rZSK_I2l8_aQ&oe=693145A8)
+![Screenshot shows a user searching for formatting settings in VS Code](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470641657_612820931255862_1622390255235448701_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=eneraW81KRIQ7kNvwE2Jt0y&_nc_oc=AdlhXGrtIxjAQiY0E5kZXweOwfVimiKB8EmR7veUMS1RfVZB2KA_82Ui7bDx0D-oj74&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=toFEsXSPV3tBafTzrNt_gA&oh=00_AfhZklx_oaX-LMZhyYlcNI-5JircNiO0xNiPM9qqETapdg&oe=69465DA8)
 
 There are a number of other minor settings you can adjust, listed on the [options](https://prettier.io/docs/en/options) page and via the ‘gear’ icon on the plugin, such as Tab Width (default 2), and Print Width (default 80). Those values are a bit of an anachronism from when people didn’t have very wide monitors. However, if you make customizations, make sure you put a [configuration file](https://prettier.io/docs/en/configuration) like `.prettierrc` or `.editorconfig` in the `scripts` directory of *each* of your horizon world projects so that others using your code will pick up the same settings. Thus, it’s best to just not change them at all.
 
@@ -1316,19 +1316,19 @@ Installation of typescript-eslint is significantly more complicated than install
 
 * Desktop Editor - Open Scripts Folder in Explorer
 
-![Screenshot shows a user selecting the 'Open Scripts Folder in Explorer' option](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470675128_612820934589195_8552402997182994833_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZQN82STL-b4Q7kNvwFoD5nz&_nc_oc=AdkgdzNvZCoDVD3FtIHAowBQ4iyNG2Ku-YDeOrc_gJvOTJfBSQbTbJIVN_vh8hcPxKM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=mMTQydYrNFM-8a_GTR4H6Q&oh=00_AfgLCP4J_aTwV-V3Hf9LDkGmBKXQ34vTCzQsU8pAGZIijA&oe=69312896)
+![Screenshot shows a user selecting the 'Open Scripts Folder in Explorer' option](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470675128_612820934589195_8552402997182994833_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=xVaqjqE78HMQ7kNvwFI63sE&_nc_oc=AdlInnG9i_uRuN5LAPoQFiuplFKMwQpZTriK_kXLP-Y4SXs3TQTmu796w71egM33Cmk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=toFEsXSPV3tBafTzrNt_gA&oh=00_Afiq1tpTi0tu1spAy3J-K9QufyNgFAVMqgY_OnNbRbggyA&oe=69464096)
 
 Go to the scripts menu, press on the triple dot menu, and select Open Scripts Folder in Explorer (note it actually opens the folder *above* the scripts folder, you will need to click on `scripts` once the window opens to go into that folder)
 
 * VS Code - Reveal in File Explorer
 
-![Screenshot shows a user selecting the 'Reveal in File Explorer' option](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470640654_612820947922527_7851473101062803703_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=K21WTgafMdAQ7kNvwEZpRED&_nc_oc=AdkedtUXTDo31OKzu7J39pGmdON6mTPRejbXeMVjSAPrnLv7gBLUKgN_CAEbe_pzoKM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mMTQydYrNFM-8a_GTR4H6Q&oh=00_Afi7yblXqv6mf5c8bVY_Q8aTM1HL39cMAjP8v0gstaqsew&oe=693121B3)
+![Screenshot shows a user selecting the 'Reveal in File Explorer' option](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470640654_612820947922527_7851473101062803703_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=5_j8aXUmuMQQ7kNvwGnz3pH&_nc_oc=AdlvvOTkAZ0igGtVAEE4C_Pv0Lvbl54vT8j-aC5mizfMPFSwl-UMIyaGvGqoG08TXx0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=toFEsXSPV3tBafTzrNt_gA&oh=00_Afi_3wBAEoipT0FLrBBqV6WUC4JEsF5uClGQZsw05aA6MQ&oe=694639B3)
 
 Right click on your `tsconfig.json` file and select Reveal in File Explorer
 
 In the File Explorer, you can then click past the *end* of the location bar text (don’t click on any of the text), and copy the path to the `scripts` directory to the clipboard for use with your command line terminal of choice.
 
-![Image shows a user preparing to copy the path to the scripts directory](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470759816_612820924589196_4853819129964169081_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=EfI4-JsjEk4Q7kNvwFn5EJY&_nc_oc=AdmiwDsppMOk8yvUrK0yXZBPX3wU7dODGm1Zr4TYLAMc6-BoOCFtaBXRbfSthuoeUPw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=mMTQydYrNFM-8a_GTR4H6Q&oh=00_AfjH27DHwL6YxFhoQKZ5-RhLMaqsk57BrnJbS82I5I2cQQ&oe=693122CA)
+![Image shows a user preparing to copy the path to the scripts directory](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470759816_612820924589196_4853819129964169081_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=f_cDqqIVuTEQ7kNvwEPUduI&_nc_oc=AdnLDFkNvGw238QDF-Rqo5UbA5ax4AeAjDUEfzNLvx1N0uosbkPLkJuISfWp6qbY1No&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=toFEsXSPV3tBafTzrNt_gA&oh=00_Afgp-002y_uNdR8q0Jar5dSB3KNii4BIuVUJG0kH4kCcTA&oe=69463ACA)
 
 It should be something like `C:\Users\live\AppData\LocalLow\Meta\Horizon Worlds\eslint test_10160832935606146\scripts`
 
@@ -1336,7 +1336,7 @@ It should be something like `C:\Users\live\AppData\LocalLow\Meta\Horizon Worlds\
 
 To install ESLint in VSCode, open VSCode, go to the Extensions tab on the right sidebar (the three cubes with the fourth cube offset), search for “ESLint”, and click Install (same procedure as for Prettier).
 
-![Image shows a user preparing to install ESLint](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470678210_612820941255861_8275137836878447550_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=7yYXzep2aHEQ7kNvwFG54zO&_nc_oc=AdnrduiGkJ_8cCi_oP-9WmpsaHEEUAIoRRFEJLpoJqXxM_2BC3JxcKX1j8LsWfVMQo4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mMTQydYrNFM-8a_GTR4H6Q&oh=00_AfiMp2N8AC8UuoGtVcibw01n1sOEb4XSAFaesWjt6Cpq8w&oe=69314370)
+![Image shows a user preparing to install ESLint](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470678210_612820941255861_8275137836878447550_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=1_NXiyNTiUIQ7kNvwH_8HVP&_nc_oc=Adk4MnooRg9CmclZvFGEqdLonp1NG0a_pmyyeb00YSPnLKRkWskExYE-uSZJ-tlj8TY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=toFEsXSPV3tBafTzrNt_gA&oh=00_AfiMh3yVHX3emCd2pg-pTcZ3QA60noUQazSOah_zOFZ0LQ&oe=69465B70)
 
 #### Node.js runtime (one time)
 
@@ -1421,7 +1421,7 @@ The installation configuration above installs the [‘recommended’](https://es
 
 * [recommendedTypeChecked](https://typescript-eslint.io/users/configs#recommended-type-checked)
   + Uses the power of the typescript typing engine to do even deeper checks on your code usage
-  + Requires a minor amount of [extra configuration](#appendix)
+  + Requires a minor amount of [extra configuration](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-conventions-and-best-practices-for-horizon-worlds#appendix)
 * [strict](https://typescript-eslint.io/users/configs#strict)
   + Includes everything in ‘recommended’, plus somewhat more ‘opinionated’ rules that may not be applicable to all codebases
   + Also comes in a [strictTypeChecked](https://typescript-eslint.io/users/configs#strict-type-checked) variant with extra typing checks
@@ -1464,7 +1464,7 @@ This popular plugin checks your code and comments for spelling mistakes. It is e
 
 To install Code Spell Checker in VSCode, simply open VSCode, go to the Extensions tab on the right sidebar (the three cubes with the fourth cube offset), search for “spell check”, click on “Code Spell Check”, and click Install.
 
-![Screenshot shows a user downloading spell checker in VS Code](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470586099_612820927922529_2792969151739980727_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=o0gSb5ogPr4Q7kNvwFsq1Iz&_nc_oc=AdkNDRLbF8P6z-0UPOEsalX22DDkJOfn85vlidNhLmbZVIfUD-x1cua8d5SCLhP8tXY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mMTQydYrNFM-8a_GTR4H6Q&oh=00_AfgMc02VarERuz62hJfYYhUKiSjhnZuXvHxs1uZn-upTvQ&oe=69311533)
+![Screenshot shows a user downloading spell checker in VS Code](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470586099_612820927922529_2792969151739980727_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=8jT6X69C-HMQ7kNvwHjAAHf&_nc_oc=Adnm1vd13EkjwS6VNEHXAnmY3Cl2oHZUMpvoYqB-vww07GiNf-QBp0kbL4RnR-AmyyY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=toFEsXSPV3tBafTzrNt_gA&oh=00_AfjqgHY2yD2QR0HgAKemVaL2G9v1K_yj18EngR2Y1wKzDQ&oe=69462D33)
 
 #### Configuration
 

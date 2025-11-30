@@ -2,15 +2,15 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 1 - Setup
 
-![Title image of an in-headset view with lettering displaying 'Spawning and Pooling in Typescript'](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452932895_512509671286989_8255540828797393157_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CJ97A2Wb_2cQ7kNvwGFM0oI&_nc_oc=Adn9TLudkrlXnVVgnexmkC8DTceJeMsdg6agRC8C5UWCtWR-7XHFWUCFM7eK8TDwA_0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vW66zoBwk8JEkKDuqLSOXg&oh=00_AfhCJh9_FxajXbYDuWSzSJCAzX718M0P5DvpLERhJvVjxg&oe=69311B05)
+![Title image of an in-headset view with lettering displaying 'Spawning and Pooling in Typescript'](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452932895_512509671286989_8255540828797393157_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=QcBiQA700EQQ7kNvwHa8gyP&_nc_oc=AdmXpgbFcJI_glKWZOhcC7twqy-diYYfZ0QpW7jobocu6Vj5vJoDKQCO1a0bWYtO93g&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=VXqXYaltSNRLnBfl_2nh9g&oh=00_AfhvJF_5FhK-oM69xW4H243ZdxS0e7gyZbU_CzrLa9Y2sA&oe=69463305)
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 When building in Meta Horizon Worlds, you can introduce objects into your world by adding them from your set of assets or spawning them into your world during gameplay. This tutorial covers different techniques of spawning and pooling of objects.
 
-**Spawning** refers to adding in assets to the world experience at runtime. Spawning is supported through multiple methods. Each method has trade-offs in terms of performance and resources. For more general information on asset spawning, see [Introduction to Asset Spawning](/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md).
+**Spawning** refers to adding in assets to the world experience at runtime. Spawning is supported through multiple methods. Each method has trade-offs in terms of performance and resources. For more general information on asset spawning, see [Introduction to Asset Spawning](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/introduction-to-asset-spawning/).
 
 This world provides specific examples of asset spawning and also includes an example of **object pooling**, which allows you to pre-load instances of assets in the world and then deploy them into the space as needed.
 
@@ -28,7 +28,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+See [Getting Started with Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ## Access Tutorial World
 
@@ -36,11 +36,11 @@ To explore the world described in this tutorial, you must make a personal copy o
 
 **In desktop editor**:
 
-When you create a new world in the desktop editor, you can create it based on the Spawning and Pooling in TypeScript tutorial world. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+When you create a new world in the desktop editor, you can create it based on the Spawning and Pooling in TypeScript tutorial world. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 **In headset**:
 
-![Screenshot of opening the Spawning and Pooling tutorial world in headset](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452590061_512509667953656_3628551193697361467_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=4XOEKOc6eC0Q7kNvwHr-QKt&_nc_oc=Adnsj7wNFdEH-4VYqiPHKJ6TL8flHLfm2iU1YqRklADpmTcSt8NoNkKTJTmJmuliBEs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=vW66zoBwk8JEkKDuqLSOXg&oh=00_Afhe7j3NBspPjCwdGaFeIGdZPldrrmsNbxgW5lVDkYzpoQ&oe=69312F49)
+![Screenshot of opening the Spawning and Pooling tutorial world in headset](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452590061_512509667953656_3628551193697361467_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=OAlyjdXND6YQ7kNvwGq0fqm&_nc_oc=AdlTzoqbtbMqpORZ7x_kNajLBHh4ILCJ9QPC8LehZOFpRkb0B1yAp6QihB36yfn6_8c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VXqXYaltSNRLnBfl_2nh9g&oh=00_AfhrUQ2mqx-Cq5K5ZrM7vnHyVib9vJW0GlogIMDer8wfHw&oe=69464749)
 
 - In the Create menu in your headset, click the **Tutorials tab**.
 - Locate the Spawning and Pooling in TypeScript world. Click **Start**.
@@ -48,7 +48,7 @@ When you create a new world in the desktop editor, you can create it based on th
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ## Prerequisites
 
@@ -56,7 +56,7 @@ For more information on how to apply assets or scripts from this world to yours,
 
 Before you begin this tutorial, you should have already completed a worldbuilding tutorial or have begun building your own worlds.
 
-For more information, see [Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+For more information, see [Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ## Key Learning Objectives
 
@@ -156,7 +156,7 @@ If you are assigning an instance of an asset to each player who enters the world
 * The Asset Pool gizmo auto-assigns the asset to the player who enters the world. It may not be possible to use the gimzo to assign assets at runtime through TypeScript.
 * In a non-FBS world, avoid deploying assets that contain scripts through the Asset Pool gizmo. Each instance of the asset spawns a separate instance of the attached script.
 
-The Asset Pool gizmo is not covered in this tutorial. For more information, see [Asset pool gizmo](/hw-docs/Gizmos/Asset%20pool%20gizmo.md).
+The Asset Pool gizmo is not covered in this tutorial. For more information, see [Asset pool gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/asset-pool-gizmo).
 
 ### Notes on Assets
 

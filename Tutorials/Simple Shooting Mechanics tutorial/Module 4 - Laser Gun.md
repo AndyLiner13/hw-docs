@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 4 - Laser Gun
 
-![Image of the laser gun assembly in the world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480672120_676362568235031_2975711562505549488_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qyPx-h7yVKIQ7kNvwHhktFe&_nc_oc=Adns5u-x6Cedz8r6ksQSSrJwYDFWxJTDEgYko9tJ-uGhEyA3o1YI4TNHXnBgozZpASE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=NaSN1O8rEph7bAD3jnjFSw&oh=00_AfhS2KHdQv4NJSXunSos_ScPLi6zRNJSlit3G64dQnBCMw&oe=6931333A)
+![Image of the laser gun assembly in the world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480672120_676362568235031_2975711562505549488_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6S-8ojLuQHcQ7kNvwEhq41n&_nc_oc=Adm5ZtsISATI9prGJFfwoT5LT9zwycGUB4dHYruNVfxQn9HnMUdlrI_OYT_XFa0lzJ0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xsdVDDScQW_Rlw7pn2NBZg&oh=00_AfgbsnOfsRxhyb3CrhihehnKKvMYKFy4GYmWJ6NrgTC4eQ&oe=69464B3A)
 
 ## Concept
 
@@ -36,7 +36,7 @@ In the Hierarchy panel, search for: **LaserProjector**. The gizmo has the follow
 
 ### Properties
 
-The grabbable properties for the LaserGun entity should be the same as for the simple gun. For more information, see [Module 3 - Simple Gun](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%203%20-%20Simple%20Gun.md).
+The grabbable properties for the LaserGun entity should be the same as for the simple gun. For more information, see [Module 3 - Simple Gun](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-3-simple-gun).
 
 You may need to make some adjustments for aiming for web and mobile. You can explore these options in the desktop editor and previewing your world.
 

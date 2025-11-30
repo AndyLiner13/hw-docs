@@ -6,11 +6,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This station demonstrates how you can store content data for your custom UIs in JSON files, which are uploaded and referenced in TypeScript to populate three separate but related custom UIs:
 
-![Image of Station 8](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083903_665004069370881_8948606061292091523_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=y7q0e9OT5QYQ7kNvwErPQhK&_nc_oc=Adl3DnhTMSlC0dMshkKCk51BJZlYpMKZn-i9vUP8eGV34h5VMY-uCEi15fEm7tvSwzE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=N87N3Z3tgI3Uxtn0mi6wdw&oh=00_AfixOAkrUdGebrnnSBtVOzeTxZD_LolSOpCivUpR9UjpsA&oe=6931165C)
+![Image of Station 8](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083903_665004069370881_8948606061292091523_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=_KpsQlDieEAQ7kNvwFWBEJF&_nc_oc=AdkjukCUd_5RpHHZdY2PgfhegSh1h46tQPERGSx1VFWZ_LhZ7MbhLJidzOmAflPgfd4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uMJl0hLjo1kxf_uAdIq78w&oh=00_AfgOyNbepsCleNh8Ix07SpIt0Nimzft6p2IxMgsVosKUlg&oe=69462E5C)
 
 In the above example, each custom UI is a read-only informational kiosk. Since the structure of the custom UI is consistent, the content itself can be managed externally, which allows non-engineers to manage the content, while engineers maintain the custom UI definitions for all three in a single TypeScript file.
 
-![Image of a Custom UI populated by JSON data](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/476383580_646003151270973_2654597415475476881_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=jPRggbTGJRcQ7kNvwH7YDrk&_nc_oc=AdnwqRDru1EWNtkGp66za6-72UhKRPoGmgsqPWL5EZ6uVAEQ9XIpvY1gQE4jiHR7KAk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=N87N3Z3tgI3Uxtn0mi6wdw&oh=00_Afg2q36RLDHL_CYNfIIf_BVhTQnAuqxAVs7ElnpTtQ2vUQ&oe=69311519)
+![Image of a Custom UI populated by JSON data](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/476383580_646003151270973_2654597415475476881_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=9c25DtWh-AMQ7kNvwFuirJG&_nc_oc=AdmL2bfT6d0OuWwxQsMqg2JtVY-zBqjPf-kL-fCunZOMDQOomKJAQ1b1Toqj_xKxTqA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=uMJl0hLjo1kxf_uAdIq78w&oh=00_Afj-M5y1kKrrJvEDHhc-VL2j0ZNkkCZn9lgP4NO3-IJovg&oe=69462D19)
 
 #### How it works
 
@@ -136,7 +136,7 @@ export type CUIRowData = {
 */
 export type CUIRecordData = {
   recordId: string;
-  row: Array;
+  row: Array<CUIRowData>;
 };
 
 export var booFilterData: Boolean = true; // set to TRUE to respect enabled=="TRUE" to prevent writing of a row.
@@ -204,7 +204,7 @@ for(const key of keys){
   // debug:
   // console.log("RecordId: " + myRow.recordId)
   // console.log("row data: " + myRow.row)
-  if(myRow.row == null \|\| myRow.row == undefined){
+  if(myRow.row == null || myRow.row == undefined){
     console.error("JSON load: null JsonObj row object");
     return;
   }
@@ -215,7 +215,7 @@ for(const key of keys){
     // debug:
     // console.log("Row keys: " + keys2)
     // console.log("Key count: " + keyCount)
-    if ((booFilterData == false) \|\| ((booFilterData == true) && (rowRaw.enabled.valueOf() == true))) {
+    if ((booFilterData == false) || ((booFilterData == true) && (rowRaw.enabled.valueOf() == true))) {
       AssetReferenceRows.push(rowRaw) // writes row data (without the RecordId key) to the storing array.
       AssetReferencesCount = AssetReferencesCount + 1
     }

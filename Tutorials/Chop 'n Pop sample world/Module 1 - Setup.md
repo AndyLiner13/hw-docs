@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 1 - Setup
 
-![Thumbnail of Chop N Pop World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467985657_595263769678245_8393983042199091303_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=-dcDoRo9JMoQ7kNvwH8KANP&_nc_oc=AdnXt98d7KwGFWjHi-M8aG88bOQdwacSqMlgzJqCy-7ww5UUnS-I2BIdwaI4Ezop1Ug&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=nJdGtcFrXvXOYxfPC0w-wQ&oh=00_AfgTZvOPvFskxPu1VC_l1AWnenAfBXXuLzmG870n4CMorA&oe=69312BC9)
+![Thumbnail of Chop N Pop World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467985657_595263769678245_8393983042199091303_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=bMN-rrYYoCQQ7kNvwGiwMc-&_nc_oc=Adkk5ZTW6eCLIDsWg01BjLfMsPJjNsX8pGdSvTh4kPxcTvujd-nJ1_n4YEcsG02nh2E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SYcrat6XY8KTVZ3Z4vk3CQ&oh=00_AfhIX9J6u_GjgSiFMEMplGeGcJmjP92JA6HFEifERwx8wg&oe=694643C9)
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 Welcome to Chop ‘N Pop: Graveyard Bash, a good old-fashioned slasher game set in a haunted graveyard. Grab an axe or a gun, and chop and pop your way through waves of zombies and skeletons!
 
@@ -34,9 +34,9 @@ To explore the finished world on mobile or desktop, please use the following lin
 
 ## Prerequisites
 
-Before you begin, please verify that you have acquired access to your own copy of the Chop ‘N Pop: Graveyard Bash world. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+Before you begin, please verify that you have acquired access to your own copy of the Chop ‘N Pop: Graveyard Bash world. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
-**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you might want to start with the Build your first game tutorial. See [Module 1 - Build your first game](/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
+**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you might want to start with the Build your first game tutorial. See [Module 1 - Build your first game](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 ## Get Started
 
@@ -95,10 +95,10 @@ FBS is a script-related feature that can be enabled in your world. Please do the
 - In the Scripts panel, click the **Gear icon**.
 - In the Script Settings window, click **Script editing**.
 - Next to File Backed Scripts, click the **Review button**. If you see an **Info button**, your world is already set to FBS.
-  ![Image of settings to enable File Backed Scripts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489750052_692135419991079_739814288388774121_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=dx5acJdiifUQ7kNvwFDhXa7&_nc_oc=Adnt61WkpyTCmUpi16UxwLenPYyyW0flH2mJz7F2x1XLyzKZCO4MfrcLSvsVKI5Toio&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nJdGtcFrXvXOYxfPC0w-wQ&oh=00_Afg1mfa2D7SGeQMmO_i82BH86S0oUHnJNRWthU4E5j6afQ&oe=693123AC)
+  ![Image of settings to enable File Backed Scripts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489750052_692135419991079_739814288388774121_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=7C8KMsYL3HYQ7kNvwHAqoQI&_nc_oc=Adkihc0Lxmjk5VvmeK5rvc-iwn8BfVH93AlyWCYtZRdfQduOE4FbsGvguXffZPwOrgI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SYcrat6XY8KTVZ3Z4vk3CQ&oh=00_AfhBsnqVC_CUfglY-maTz9SEOfx8f0Zm_Ebg9z9I6k1N_g&oe=69463BAC)
 - To upgrade your world to FBS, click **Update**. **This change cannot be undone.**
 
-For more information, see [Use File-Backed Scripts](/hw-docs/VR%20tools/Scripting/Use%20file-backed%20scripts.md).
+For more information, see [Use File-Backed Scripts](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-file-backed-scripts).
 
 ### Gen AI
 
@@ -110,9 +110,9 @@ Using a few words, you can prompt Gen AI to generate a sound, which you can modi
 
 ### NPCs
 
-The zombies and skeletons in the world are taken from the NPC library available to creators through the desktop editor. NPCs allow you to deploy premade animated assets, which you can augment with TypeScript-based behavior. For more information on NPCs, see [NPCs](/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md).
+The zombies and skeletons in the world are taken from the NPC library available to creators through the desktop editor. NPCs allow you to deploy premade animated assets, which you can augment with TypeScript-based behavior. For more information on NPCs, see [NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npcs).
 
-In Chop ‘N Pop: Graveyard Bash, NPCs are controlled by a dedicated system, which also surfaces a set of configurable parameters for each type of NPC. For more information, see [Module 10 - NPC System](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%2010%20-%20NPC%20System.md).
+In Chop ‘N Pop: Graveyard Bash, NPCs are controlled by a dedicated system, which also surfaces a set of configurable parameters for each type of NPC. For more information, see [Module 10 - NPC System](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-10-npc-system).
 
 ## Learning Pathways
 
@@ -127,9 +127,9 @@ In your world, you can begin exploring the entities in the world to learn by mak
 
 ### Using the systems
 
-Another approach is to explore through the docs to learn how to use individual systems. For example, if you need to learn more about how to deploy loot into your game, you can check out the [Module 11 - Loot System](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%2011%20-%20Loot%20System.md).
+Another approach is to explore through the docs to learn how to use individual systems. For example, if you need to learn more about how to deploy loot into your game, you can check out the [Module 11 - Loot System](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-11-loot-system).
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ### A Note on Unity
 
@@ -192,12 +192,12 @@ To use any asset, you must make it your own.
 - Drag this asset template into the world.
 - If the asset has nodes with attached scripts, select each node.
 - In the Properties panel, you should see an entry like the following:
-  ![Image of broken script reference in the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467740926_593923073145648_7289764976967935412_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=E3ewyILO_ocQ7kNvwEoHoVG&_nc_oc=Adnknc_Y3NUh0riwRpeyQUS8tGnBcnIDIMRZgkrhug-VeTtlZsBFhDI9Szs-G0ZC_7A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=nJdGtcFrXvXOYxfPC0w-wQ&oh=00_AfjxcoTQMjCzrNTDywdc-6HXmqgxV-_-g5DB6imswQyRew&oe=693128DD)
+  ![Image of broken script reference in the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467740926_593923073145648_7289764976967935412_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=_6z9lONbMW4Q7kNvwFwPUZp&_nc_oc=AdnQXInhH1ZdSAUoz2KGAttHKg_rsM64DpkmZObske_ABBOzgJcGvG5luj680CpPzqY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SYcrat6XY8KTVZ3Z4vk3CQ&oh=00_Afj8l6zLKSe4VBuXv2Tc3AdqIlbyBNOKav6pdIUKLXc9GA&oe=694640DD)
 - The above reference is broken because you as owner of this world do not have edit access to the referenced script, which is owned in the Chop ‘N Pop: Graveyard Bash world.
 - To fix this:
   a. From the Attached Script dropdown, select the replacement script in your world that you have created from a copied version of the source world’s script. In the above example, this would be your personal version of `Axe.ts`.
   b. At the top of the Properties panel, you should see a message indicating that there is 1 override that has not been applied to the definition. Click **Review**. In the Template Overrides window, click **Apply All Overrides**:
-  ![Image of apply all overrides to asset template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467718232_593923063145649_2857413320607593808_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=jVPEcDAYk3EQ7kNvwHC4-3C&_nc_oc=AdmMsYiXmJjTv8GAHp01m_DjNYDbqsw6UA_-eklOcPQ8n2Ze727qSdBfHx7_QIKMcR4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nJdGtcFrXvXOYxfPC0w-wQ&oh=00_AfjkSgnuoC33HgjdsODtI6cbfvgOKetoF7TpWhyir8v4Fg&oe=69314969)
+  ![Image of apply all overrides to asset template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467718232_593923063145649_2857413320607593808_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=5SMQc_-9WcQQ7kNvwHx7U5W&_nc_oc=Adm43qMZXZ0jzViCJ_Ab3IHxiAfi8XXw7UTXjh8-z2cIHKSzCySjcbPqYHmgyiPvD3M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SYcrat6XY8KTVZ3Z4vk3CQ&oh=00_AfgjMn6B7biNIc42KXAgMGam1CHC1CtQ0jTniqoLbTCsqA&oe=69466169)
   c. Enter a description of the change, and click **Save & publish**.
 
 You have created your own asset template from a source asset and replaced the broken reference to the script with your own script.

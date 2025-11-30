@@ -6,7 +6,7 @@ Welcome, creators!
 
 This documentation serves as a companion guide to the **Sim Tycoon** template world, one of the tutorial worlds available in the **Home** section of the Horizon Desktop Editor.
 
-![Custom UI Tutorial World Cover Image](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548877547_817392054132081_9182219506302448081_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=5BrPUT5TsboQ7kNvwGkwC-u&_nc_oc=Adl-KBUfGh959M5hpfeuriNBLyiRsQYHDq8ciD-KMJiY3QO_ufiSFcHN94oEkJt5b64&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=udH19qQOw5uy_hpPkA6XKQ&oh=00_AfhpTVwRs8E97CPuwjkuBETEuKGVAkzYxemRCHyS4Mph3A&oe=69314B71)
+![Custom UI Tutorial World Cover Image](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548877547_817392054132081_9182219506302448081_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6wlasXZbLaEQ7kNvwHC65sG&_nc_oc=AdnlE708kZjXRgQrVl6HrKGfQct9KAF2CM5ug0cKTEkn8NXkDK5-yUHDkqCBI5eblHY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=73Y0yy7CVe8qvVYvn1idRw&oh=00_Afhw9Yvtk8gCVoYzSC9KgB8EvrKWGk7-Ve7ktrKPAZgCNw&oe=69462B31)
 
 ## Finding and opening the template world
 
@@ -54,21 +54,21 @@ The core game components are:
 
 To learn how this reference world works, start by playing the game. New players start in the FTUE (First-Time User Experience) zone.
 
-![Reference World #1](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549635517_817392057465414_6823399884951049021_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=TlXlFhwMv-kQ7kNvwEYYxpW&_nc_oc=AdlvGcnV99nMgu8yLqhZ2J5mUd4hxXwKqD8l-CYccJb4UYR-CBQ1nx6BmawJ9VwlgPA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=udH19qQOw5uy_hpPkA6XKQ&oh=00_AfiOS8bPYsPu-S1DERwskCeAAXPT9VjKnkl8PIzu1lS5Ew&oe=69314085)
+![Reference World #1](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549635517_817392057465414_6823399884951049021_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=5CS89evzJ1YQ7kNvwGGB_Ai&_nc_oc=Adm_uWcgBWAacwSjAZ6BLtwCr1QIKHn5DrpmV5PCFnAi-1lwbfABpx6puljR7HDKHfg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=73Y0yy7CVe8qvVYvn1idRw&oh=00_AfiVZJG2RkUihB72Z_CSVu5w6KcS5r8UDM4pqjn5L-x_lg&oe=69465885)
 
 New players must buy a green pickaxe to activate the teleporter. The teleporter transports players to the main gameplay zone. Once you complete the FTUE, you will spawn at the main zone’s spawn point.
 
-![Reference World #2](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549343599_817392027465417_6733229454882855815_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=vJVUss12MmEQ7kNvwGcDDeG&_nc_oc=Adl61qyxrpBAEO9vMfwIaZb-7NPp6jzPf0EKG_4euelRiuYXxNvz9S98e8OySNPCKgg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=udH19qQOw5uy_hpPkA6XKQ&oh=00_AfjyRyLz_eVJ4DuDzG_p2Z6OlOLalXPYbp1nEUPhZMHpGA&oe=693148F0)
+![Reference World #2](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549343599_817392027465417_6733229454882855815_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=dlNhAzGCK1IQ7kNvwGgzQNO&_nc_oc=Adl5DltbjidFc-gcnFHujjSGsAg-ZS_OQ2wZbC8FQ5n1oiiHIXHSUvsfGVb3Eah3_cc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=73Y0yy7CVe8qvVYvn1idRw&oh=00_AfgcC1U09-HV-4L_NbwQwDyNfc3jzoII39dJqIylC5ywVw&oe=694660F0)
 
 When you spawn in, you’ll be placed on the green platform which contains green resource nodes. Resource nodes are the source of all currencies in the game. Mine the green node by hitting it with your pickaxe. The HUD displays your progress in collecting green gems.
 
-![Reference World #3](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548327282_817392060798747_4438953812507562661_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=_sZUeVmCQBoQ7kNvwGBjUWP&_nc_oc=AdngU8GT0f7i2Ox2Wql7YWyQy2I6K1pYWPmzRU9O8sIuX8EH_SPu2oiKwqtU8SSoFVQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=udH19qQOw5uy_hpPkA6XKQ&oh=00_Afg30Z5AcqsyDV_TiXsOsPBd621MiXNySAjlTgoxQtx5cA&oe=69314A11)
+![Reference World #3](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548327282_817392060798747_4438953812507562661_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=m6x4lLGMWSMQ7kNvwE2jOX5&_nc_oc=AdmwJdhrFghj4HRHdRrgQmf2ZgFhs-BCrfHsdi3YL2cqS-nzoxikt3FWtpFhTZXLDz0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=73Y0yy7CVe8qvVYvn1idRw&oh=00_Afj9eDUrczYXpTEUY6aRmOQraGXeCJydx5ahJzHp7ig_LQ&oe=69466211)
 
 Each time the progress bar is completed, you gain gems and the bar of your backpack UI fills up. Walk towards the center of the world to step on the trigger for the converter. Converting gems turns this resource into currency.
 
 Spend currency at the shops to purchase new items. The top row of the shop sells pickaxes and backpacks. The bottom row offers upgrades to your pickaxe and improved conversion rates.
 
-![Reference World #4](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549097420_817392010798752_7209753147233805249_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=rkcNWeiq0-IQ7kNvwH5NY7I&_nc_oc=Adl2dRuSWcg6opgV1ryYI6Y9VO75QN3bdC60hy6-pt2YDdbckQB4CGohRZmVmNXxngs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=udH19qQOw5uy_hpPkA6XKQ&oh=00_AfjymBL7S28ZddMF0tbYe9tdC8qwQqBr7FgxCthncWmZTg&oe=693131DD)
+![Reference World #4](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549097420_817392010798752_7209753147233805249_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=QGSqsKRaRq8Q7kNvwEuR4tW&_nc_oc=Adkiol8fpI4abzcZQ9llEApK1-IP5BTL5aNTAbbnm0BZUXiqUdp-r8cCDVAXYcqoNT4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=73Y0yy7CVe8qvVYvn1idRw&oh=00_AfgypKZn16ZC3l9gUxqiZF34zBveahHnEoxZZh4g5t0NaQ&oe=694649DD)
 
 Cross the bridge to the next platform where you will find new colored resource nodes (blue) and items for sale.
 

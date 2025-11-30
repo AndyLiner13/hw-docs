@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 1 - Setup
 
-![Thumbnail of the Simple Shooting Mechanics tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462384297_563294049541884_4432521421105344562_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=5hwPl2HC51cQ7kNvwE2x9_t&_nc_oc=AdmiQkrG1ALCdphY_QHGX-5a2yGZgMynVhYMho74qX7EzbfZvZXMek_b4G0EKP1oPfk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sYl-g2IaP4e-VLZ4-VcX_g&oh=00_AfjsUoVQ6WksEszhn5uLArgu22YLaamKVM1zcIncequKzw&oe=693128BE)
+![Thumbnail of the Simple Shooting Mechanics tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462384297_563294049541884_4432521421105344562_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=n9YkefK3TFYQ7kNvwGOrRn8&_nc_oc=AdkEt7uVkSMZcDu1bljGW-FJ5eowAEr1ulV-1ViCm3ZtDnFznoFNaDFPKFapuPsm_PI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UcHPYoqRT-l9t_N93PSpGA&oh=00_AfjWV9vgj87tbUu8gSYkmPM4b0oBLG1QbidYT6caVtzgig&oe=694640BE)
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 This sample covers how to create a configurable gun and laser gun from the basic components available to every creator with access to the desktop editor. These gun types have different methods of targeting and managing projectiles:
 
@@ -39,7 +39,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0. You can learn more about how to upgrade your own world to TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+See [Getting Started with Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites/).
 
 ## Learning Pathways
 
@@ -53,11 +53,11 @@ To create a copy of the Shooting Mechanics Tutorial sample world in Meta Horizon
 - Select the world.
 - A duplicate version is created, with you as its owner. The world name is set to: **Simple Shooting Mechanics**.
 
-You can create a new world from a tutorial world from the desktop editor or from the headset. For more information on this workflow, see See [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+You can create a new world from a tutorial world from the desktop editor or from the headset. For more information on this workflow, see See [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ## Multiplayer
 
@@ -73,7 +73,7 @@ To begin, open your new version of the tutorial world in the desktop editor.
 - In the Creations Home page, select your copy of the tutorial template.
 - Your world should now be opened in the desktop editor, and your project should look something like the following:
 
-![Image of the world's entities in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480771236_676362561568365_2904909360084496927_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=I5eUto0_9_oQ7kNvwER4Lvp&_nc_oc=AdldOXREu-fk9KXDUC4HvO8zANwYSBa5wqCqBOTjL1qxw4gr3zU91o4_b1XqssLRjDc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sYl-g2IaP4e-VLZ4-VcX_g&oh=00_AfimVQj3WrsCYMqp-v53cNJM5D9BTiB9u_QE9QXFQvYDSw&oe=69314370)
+![Image of the world's entities in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480771236_676362561568365_2904909360084496927_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=nUZNM7nWVBsQ7kNvwGnqZwN&_nc_oc=AdlmWtzBXdH3pamNyG13zz7eGyCe14HDzWBYkJ3ggDHBPqQlPbMX6qgFA4AREqHMfhI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UcHPYoqRT-l9t_N93PSpGA&oh=00_AfjXO20Inv7FtrUATxWdUlyYObD1FUQVk6JYchHvzFRk-g&oe=69465B70)
 
 ### Build mode and Preview mode
 
@@ -81,7 +81,7 @@ In the above, the world is in **Build mode**, which is where you add, move, and 
 
 In Preview mode, you can drop into the world and experience it like an external visitor would. To enter Preview mode, you press the **Play button** in the toolbar:
 
-![Image of toolbar with Play button highlighted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480503857_676362558235032_5081585825323827551_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Iu6FNUF9v5EQ7kNvwGT5RnU&_nc_oc=AdksOXK73gzbKRC_6E6Oee1jx7eUWayUju_GGcl9nJVEZCXU6pekNoqvTTzCiFoJu_Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sYl-g2IaP4e-VLZ4-VcX_g&oh=00_AfiPCaEc3mKtGMSHAkPh4qC_FYICGjdO8I2dQKumAbTCUg&oe=69311E57)
+![Image of toolbar with Play button highlighted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480503857_676362558235032_5081585825323827551_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZlhgeJwiv2IQ7kNvwFCPvCi&_nc_oc=AdlknH1y_WmXF3CckCLCcaF0qRAfvlaVBdiQGnp-peXwBF2WA5v3Vmi_JLmCJu5Ds48&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UcHPYoqRT-l9t_N93PSpGA&oh=00_AfgLNaPXY72Ka3CBiL02DvQFchz4UHt-WoJKddszl3N6ug&oe=69463657)
 
 **Playtesting**:
 

@@ -8,7 +8,7 @@ These components often rely heavily on data triggers to update UI elements dynam
 
 ## Station 04 – Yes/No Dialogue
 
-![Station 04 - Yes/No Dialogue](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/573995121_855959403608679_3124937154987456899_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=-mUQE5GLRV8Q7kNvwFXnbgu&_nc_oc=Adkl9vOZC2a-4xE76XlScBlYG7znCZJoRCsUdXxwctF4HzxbT_2PkSBNTDNRvXmRLgk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ZWCQn4Q1W_v3wfG_S9Zytg&oh=00_AfjyD_mcLNjHfbINsoJHMK_KsGmClcioLdnl8IeizN32zg&oe=69313D45)
+![Station 04 - Yes/No Dialogue](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/573995121_855959403608679_3124937154987456899_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=tzC7bRa4xZMQ7kNvwHaVYy-&_nc_oc=Adl_s2WT-7i8sHOopU9tNizwYcrdjjIOoymsIVF3jgPUf4uGgBMRdCjxCcd-62hoOWI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=EQ1_7kPb2T_tV2FXr4eQOQ&oh=00_Afjt06T0GMt4IL0_tUWlNpV7KSqXj1gCUTs6nVVOwNWlLA&oe=69465545)
 
 ### Description
 
@@ -60,7 +60,7 @@ private updateOutputText(text: string): void {
 
 ## Station 05 – Light the Sphere Dialog
 
-![Station 05 - Light the Sphere](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/573626705_855959383608681_2381265185832811492_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=TohZ_PCBSUEQ7kNvwGYSrCl&_nc_oc=AdmlCO-8QjYbdx1UpPI7goOSzssSeJ3mOULjpgG-VMDcqLsKtpcxojP5wIP7kXeFdnM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ZWCQn4Q1W_v3wfG_S9Zytg&oh=00_Afgd15HQcCB5cO2_ecCSgpT4R0dFC309IV7mYv04zM6CdA&oe=69312D0E)
+![Station 05 - Light the Sphere](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/573626705_855959383608681_2381265185832811492_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=__XdlqMFQD8Q7kNvwHBx5RV&_nc_oc=AdkKmPDRdcjvjxUJbh-2slOcqwjDQQYc5GH6BxvAemCxiUGOxFkcqMquSTGVDxpfacY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EQ1_7kPb2T_tV2FXr4eQOQ&oh=00_AfjeiS75pzu_dO_LaWvq9pY6xA-e9-OdzKnQ27vbv0sdpg&oe=6946450E)
 
 ### Description
 
@@ -100,7 +100,7 @@ private setSphereColor(r: number, g: number, b: number): void {
 
 ## Station 06 – Toggles, Radios & CheckBoxes
 
-![Station 06 – Toggles, Radios & CheckBoxes](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/576098214_855959386942014_5248336067160607733_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=XtdKmaJ8dPgQ7kNvwFLWQw1&_nc_oc=AdlybRQhAVblqCLkxucF31BAtxfIzM6w4ru7mdO2qcigsr0MH6IuWgD3umrjquo1Nyg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ZWCQn4Q1W_v3wfG_S9Zytg&oh=00_AfhyxOacLLwhZT24Rub2QHfu4moUrTHq4xYXCk8szxAM5w&oe=69313D68)
+![Station 06 – Toggles, Radios & CheckBoxes](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/576098214_855959386942014_5248336067160607733_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=jAa9rJzPsjIQ7kNvwG5Ru67&_nc_oc=AdmJ-4Kl4wFe8J9lpvpnIqDjYdacC6M5fmykCmbByWI9h8vcKbu-Z_E6stNzC8NzmmU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EQ1_7kPb2T_tV2FXr4eQOQ&oh=00_AfjOdXFw8xIws-txIMNDjQm3iFSG5l-3jSv_bjOAyQvx8w&oe=69465568)
 
 ### Description
 
@@ -139,7 +139,7 @@ private eventHandlers = {
 
 ## Station 07 – Progress Bar
 
-![Station 07 - Progress Bar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/576501083_855959416942011_91098637177701187_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=s5YQ-gOMR7MQ7kNvwHPuyKz&_nc_oc=Admiv51-dnB2PzKX9EyDdgJHtGl_pcI1Sir0lq-OZUTODQldTUGK7IhhKPRaBKShdMc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ZWCQn4Q1W_v3wfG_S9Zytg&oh=00_Afjwn67jg3ilsmyZDmZ26eolqnU9xjpiaQkJEPyVkWy3ug&oe=69312ABE)
+![Station 07 - Progress Bar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/576501083_855959416942011_91098637177701187_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=w6QvFxEg9ZsQ7kNvwGrimCY&_nc_oc=AdnEyLBt9Bd8WGAM1vfJ6rTriCcY-oH4paiRI7A2AZKojRf7PYoBbzz9aMuKkYp-IG8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EQ1_7kPb2T_tV2FXr4eQOQ&oh=00_AfgwDYJ1N_SsvN5dSRgq0exmrKMU0KJSbqFBxFNAt13fNA&oe=694642BE)
 
 ### Description
 

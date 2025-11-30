@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ## Overview
 
@@ -37,7 +37,7 @@ The behaviors of these NPCs is managed through the `NPCManager.ts` script. Behav
 * Grabbing: Both characters can grab and drop gems.
 * “Talking”: There are audio assets for both characters, which are triggered for playback based on actions tracked in `NPCManager.ts`.
 
-For more information on how this works, see [Module 2 - Overview of Scripted Avatar NPCs](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%202%20-%20Overview%20of%20Scripted%20Avatar%20NPCs.md).
+For more information on how this works, see [Module 2 - Overview of Scripted Avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-2-overview).
 
 ## Quests
 
@@ -47,9 +47,9 @@ In the world are four quests. A **quest** is a world-based objective, which can 
 * An instance of the Quests gizmo is deployed to allow players to track their progress toward completion of the quests.
 * Quest activities are managed through the `QuestManager.ts` script.
 
-For more information on how the quests of the world operate, see [Module 5 - Quest Manager](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%205%20-%20Quest%20Manager.md).
+For more information on how the quests of the world operate, see [Module 5 - Quest Manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-5-quest-manager).
 
-For more information on the feature, see [Quests, leaderboards, and variable groups](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md).
+For more information on the feature, see [Quests, leaderboards, and variable groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/quests-leaderboards-and-variable-groups).
 
 ## Limitations
 
@@ -57,12 +57,12 @@ For more information on the feature, see [Quests, leaderboards, and variable gro
 
 ## Prerequisites
 
-If you have not previously used a tutorial world, you should verify that you meet the requirements for exploring these worlds. For more information, see [Tutorial Prerequisites](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+If you have not previously used a tutorial world, you should verify that you meet the requirements for exploring these worlds. For more information, see [Tutorial Prerequisites](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ### Build your first game
 
-This world extends from the Build your first game tutorial world. Although it is not required, you may learn quite a bit by first exploring this other world. For more information, see [Module 1 - Build your first game](/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
+This world extends from the Build your first game tutorial world. Although it is not required, you may learn quite a bit by first exploring this other world. For more information, see [Module 1 - Build your first game](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 ## Use in Your World
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).

@@ -8,7 +8,7 @@ This zone demonstrates a comprehensive storefront implementation that can handle
 
 The storefront is a complex Custom UI example capable of handling a large number of store functions. This gizmo comes with a store manager. Modify the store manager by changing the store data. Your store can sell fish or watering cans, for example. Set up the items and their costs for sale. You can also define how many items can be sold or require a prerequisite.
 
-![Storefront properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549819880_817392024132084_4682760541414925115_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=r1fXjsgl-WAQ7kNvwGxZ0x2&_nc_oc=AdnLqxE8kgZS65lZn79ByWMSxhQq4HdVj66EuITGq2yc3cxtvLUDecXPXLnZcdnwThU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kZbE0Tre09jGjw9ToLFVYw&oh=00_AfhPH6GNWqHZxJdSKYg3LUNsLfk4deaOs_GjhTUXslGeCQ&oe=6931295A)
+![Storefront properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549819880_817392024132084_4682760541414925115_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=CHGuO-YV9BoQ7kNvwHiZsyI&_nc_oc=AdmNbG11OC8vIV5ZmPl1pL2YSVm5eSA3wpZInGluUqUHNJ7MV0WAF6JeDy3Bs8I4HFA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ej_ceWvd5XjfssNRGei2ug&oh=00_AfjV99hInwgsLwLsEi2W5duNlIciophP43Nwq8l0L-2VYQ&oe=6946415A)
 
 Here is a breakdown of the TypeScript code which creates a store for a game.
 

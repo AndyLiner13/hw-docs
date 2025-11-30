@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Station 0 - Setup
 
-![Custom UI Examples thumbnail](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475919694_646003171270971_7027298327403430135_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=fyF-wo_88GkQ7kNvwGhy9Kn&_nc_oc=Adl4LWC2epjGRJjz_Zki6KXIl5UYtzIpH5SwdgkqGmZg6FsvoOUa1k54osme7r6A-a8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lwJHc_WzqzKShQOjPb8ZBQ&oh=00_AfiP7fAoxUC7gVYJcCXCRctq7kutqGXEpYZ0lCVifYb6jg&oe=69312B6B)
+![Custom UI Examples thumbnail](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475919694_646003171270971_7027298327403430135_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=JLyM8rHMv-sQ7kNvwGhlrAT&_nc_oc=AdkpCpx1ON4j64S_XEEGIIaSgCVl6F4LdGNmK8ji8243nfzkDin__6SoBf_Oi6zHOQw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lrH-mcVKZz-szhsxy-my4w&oh=00_AfgHf1kSR4-p6pbTIDolcsNoJluvyUZHRLCyNY8hdCC5PA&oe=6946436B)
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 In this example world, we explore the core capabilities of custom UIs, which enable you to build custom 2D interfaces in your worlds.
 
@@ -14,11 +14,11 @@ Example worlds are intended to provide simple, clear, and well-documented exampl
 
 This doc is intended to be a companion to the example world listed below.
 
-For platform documentation on custom UIs, see [Custom UI](/hw-docs/Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md).
+For platform documentation on custom UIs, see [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui/).
 
 ## Before You Begin
 
-Before you begin exploring this world, please verify that you have reviewed and met the prerequisites for access. See [Getting Started with Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+Before you begin exploring this world, please verify that you have reviewed and met the prerequisites for access. See [Getting Started with Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ### Enable Auto-start of the simulation
 
@@ -29,7 +29,7 @@ In the desktop editor, click the three-dot menu in the toolbar. Enable the follo
 * Auto-start simulation on Preview entry
 * Auto-stop simulation on Preview exit
 
-![Preview Configuration panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481781953_667154415822513_6557476269878662057_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=tTWNTpxItjcQ7kNvwHtohJj&_nc_oc=AdloxMih11KEew84C94oODYRX2SeMatRSlfvI6RcGgphUUWQzgii1h7iMaElnYExp8Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lwJHc_WzqzKShQOjPb8ZBQ&oh=00_Afh78N_G4gTv50TDnNDFpFcTqM-JQemPt5XG0NOK0Vaokg&oe=693116BF)
+![Preview Configuration panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481781953_667154415822513_6557476269878662057_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=fuCGqzwSP48Q7kNvwEhb2k-&_nc_oc=AdnEyU240C9Lbbsk1hsMFo_fM8e6FsqD2T0KnR-DFoQXHbRJaCsyblgiIrC9GnWxo40&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lrH-mcVKZz-szhsxy-my4w&oh=00_Afglnpkgoz2q3D0DnwAwJyEytMjwpo4Xy6k2oEji0LTrCw&oe=69462EBF)
 
 ## Overview
 
@@ -85,7 +85,7 @@ To explore the TypeScript of this Examples Tutorial, you should use the desktop 
 Create a copy of this Examples Tutorial first. Then, you can modify the scripts as needed.
 
 You can create your own copy from the desktop editor or from the headset. For more information on this workflow, see
-[Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+[Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ### Start at Station 1
 
@@ -99,4 +99,4 @@ Comments in the code provide additional information on how to use it. If you’v
 
 ### Use in Your World
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).

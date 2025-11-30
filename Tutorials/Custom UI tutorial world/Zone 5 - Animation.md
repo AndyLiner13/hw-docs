@@ -8,7 +8,7 @@ This zone showcases animated Custom UI elements that provide dynamic visual feed
 
 This example of animation is a simple spinning image of an hourglass. Start and stop the spinning with a network event. You can change the image from an hourglass to any image asset as well as change the speed of the spin from the properties panel or through function calls.
 
-![Hourglass Spinner](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549207109_817392074132079_7912815026566560754_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=IsyO_86ob4sQ7kNvwEQ06-Y&_nc_oc=Adn7uM0cav5Ttgl52JZVQpx14N3qSVKm_aPX2BkjYL2z-LYZcZOjvgwGpmHyXUmKHl8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_AfgMvn0KZAxOALzoL9Utmenxdn6JGd9V1fqGrka0b66f9A&oe=69311901)
+![Hourglass Spinner](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549207109_817392074132079_7912815026566560754_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=58M1el9wVwoQ7kNvwE0r4-7&_nc_oc=AdkU6cvUn4JEbjlcXRvdVPHdnbNe3Fg7aIim7CZG-2pitFSA-wst_sqGoCipRFfWvC4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_Afh5z69Eo_q7UTJ9doe9E-Q5tVlJz6TsFeCIyPzv0SQFlA&oe=69463101)
 
 ### Primary Script(s)
 
@@ -33,14 +33,14 @@ These helper components are designed to be placed in the world to trigger the sp
 
 * StartTrigger
 
-![StartTrigger](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/549214276_817392037465416_6633004633440853991_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=GIE5-x26u00Q7kNvwFkOrxK&_nc_oc=Adl2Co0IdG86NlJOrtUbCFFgOMfIjnZkU0_LJvTd0OC_j4Ujy2wJnJAiaVCIHDG40ms&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_AfjgF6hy_YtXos0GYpoGKeTWNuuWvvRHZ0wkbM6DE-euHw&oe=6931463C)
+![StartTrigger](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/549214276_817392037465416_6633004633440853991_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=OaXl6v1iPA8Q7kNvwGUDb0V&_nc_oc=AdmUoe9Sjl2G8iwqQXurrI-5lBVpmvpBK020FwMgx4KwNPTS6PqrKCeEJdTbs_XKfco&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_AfhfjlO6C48L1MVHsVG628XbRjjB5R1esrmkOHEgfPMgdQ&oe=69465E3C)
 
 * Uses connectCodeBlock event `onPlayerEnterTrigger` to listen for a player entering its trigger volume. When this happens, it sends a StartSpinner network event, passing the configured spinner\_CUI’s entity ID and RPM.
 * `spinner_CUI` must be linked to the configured Custom UI gizmo.
 * You can override the spinner’s RPM here by setting an RPM value or leave as 0 to use the RPM in the properties of the spinner’s Custom Ui gizmo.
 * StopTrigger
 
-![StopTrigger](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549136164_817392044132082_1273475754736798770_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=xk0MuN9a2cYQ7kNvwEtwRmu&_nc_oc=Adnzl4IdjGAlzQLu-GSijnEJYgC-PZiWvFEquvP1ANT1jkx_Ye898B4IMhcr9TRGj2k&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_Afjf5U7LuAXGUCHLaa4QAjgzALxU3MQVueFAAAPCJy8v1w&oe=693135D1)
+![StopTrigger](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549136164_817392044132082_1273475754736798770_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=d0eW1PyBi2sQ7kNvwE1h3G6&_nc_oc=AdnHIDBjbn8D24OYdHWI0uH8ZuaLM81Q78edykggjItXMfBqCL4hP-mAEIbBOLF9urk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_Afi8i7oqFh3XQ4CUSEtjNzZAWRfgdzymnzVQNlRWbQoU7g&oe=69464DD1)
 
 * Similar to StartTrigger, it sends a StopTrigger network event when a player enters its trigger volume.
 * ShowTrigger
@@ -52,7 +52,7 @@ These helper components are designed to be placed in the world to trigger the sp
 
 This animated Custom UI combines a timer with a spinner. A common use for this is displaying the time for short gameplay functions that do not require player input such as the time for a plant to sprout or an ability to finish its cooldown.
 
-![Spinner With Timer](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549289144_817392067465413_2741378965294608317_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Kyy3RBoz4eUQ7kNvwHA-wM5&_nc_oc=Adn56qHoJ5dKphAsA5In07nZULQXuPP1pmPlAcvb3d63baqWu84jWkxwZKhMSh1nxuw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_Afj-oiIjzBlzbFVEd8nPX86MBkQQ1d_Th-jrWx_vlXUX8Q&oe=69311D40)
+![Spinner With Timer](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/549289144_817392067465413_2741378965294608317_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=s637vatJd0wQ7kNvwErm8M2&_nc_oc=Adn2pkQW6-yIBbB35ttyIDWSD_U7sR0v4vXkpqdWRcsXMNhm6ueaYkvHs3stKXsBPu8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_AfghMXEvOQEr2-gY84Q8j2Q8MNj5W1vAU5RWBpUMfI1NCA&oe=69463540)
 
 ### Primary Script(s)
 
@@ -83,21 +83,21 @@ These helper components are designed to be placed in the world to trigger the ti
 
 * StartTimerTrigger
 
-![StartTimerTrigger](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549293175_817392030798750_416217425703940266_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=GCmWXdFmvlkQ7kNvwFgEqYH&_nc_oc=Admpi-grZnerlIzPI4ZaAAsZRZOvWncvx9VstmWjSpFnM2yzxllCOon8YzVS19oaUGA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_Afi9NQi6OjDy7rhdn97CuGzEp2KcuN-r8ELnBFRU1B7kyg&oe=69313500)
+![StartTimerTrigger](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549293175_817392030798750_416217425703940266_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=TmKs9hb-K3MQ7kNvwFmw1YR&_nc_oc=Adli6pgQaQACP2br9Etkpvh6zXjVSiWpKDgFLfcdvcqfo5t5-zZiTzArbaa_RzzeUUo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_AfiB3RcZt68yh2t-wKNec7GkGdLZzjJ96hh8vdnkzlRG2Q&oe=69464D00)
 
 * Uses connectCodeBlock event `onPlayerEnterTrigger` to listen for a player entering its trigger volume. When this happens, it sends a StartTimer network event, passing the configured timeSpinner\_CUI’s entity ID, and timeLimit.
 * timeSpinner\_CUI must be linked to the configured Custom UI gizmo.
 * You can override the timeSpinner’s timeLimit here by setting a timeLimit value, or leave as 0 to use the timeLimit in the properties of the timeSpinner’s Custom UI gizmo.
 * StartCountdownTrigger
 
-![StartCountdownTrigger](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549716474_817392070798746_2708834116674814260_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=tdxhpWMs0TMQ7kNvwGX6Q8i&_nc_oc=AdmC0wSyFf3ycGnWg4PmAl4uHFFeXDiTnHui7ygkaxWgX0RLsG_Yq9LAd0dgtgg94n0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_Afgek5C5cRs1YHVdRx1MAQlqM2FfwxowEBqH7Je1XCG54g&oe=6931204B)
+![StartCountdownTrigger](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549716474_817392070798746_2708834116674814260_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=2gpAp8aeUoUQ7kNvwEQH33O&_nc_oc=AdnxHzSvY-L1sen4ZzhxdNDTztxPxJKqwfZ9GEqxSUtpdeI3EieY4m31cqOS7M7HkUk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_AfiAmRypbpdU5Ngr15G64I32cJjkeRhzTexkXeBdnCG1Fw&oe=6946384B)
 
 * Uses connectCodeBlock event `onPlayerEnterTrigger` to listen for a player entering its trigger volume. When this happens, it sends a StartCountdown network event, passing the configured `timeSpinner_CUI`’s entity ID and timeLimit.
 * `timeSpinner_CUI` must be linked to the configured Custom UI gizmo.
 * You can override the timeSpinner’s timeLimit here by setting a timeLimit value, or leave as 0 to use the timeLimit in the properties of the timeSpinner’s Custom UI gizmo.
 * StopTrigger
 
-![StopTrigger](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548896781_817392040798749_2618134716355901586_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=rAeCNy6yE-UQ7kNvwF0d-Zk&_nc_oc=Adnyw6NPH1_bdaRGzSdiNrwwa9CMIea--HxEVg2NdVPukFuaKFBe_l1Sel9eOLfbfbw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_AfhutpLGYPjQ7T3IPTtkLIJAr-h-c2MsZm2wbjsGIRV42A&oe=69311AFC)
+![StopTrigger](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548896781_817392040798749_2618134716355901586_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=UaAquqcpq0MQ7kNvwG3R-IL&_nc_oc=Adm4MFqvBLBFQRQT6TyfZGCnsR7dicShYmNkwILzolEIn2dhivJzA4OOOaF7K7o474s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_AfiovVEmdZNydshye73xPTzHk_KeGofzxo7T1oHUFlXL1A&oe=694632FC)
 
 * Similar to StartTrigger, it sends a StopTrigger network event when a player enters its trigger volume. This is used for both timer mode and countdown mode
 
@@ -113,7 +113,7 @@ Because the text scrolls horizontally along the banner, the message can be longe
 
 ### Properties
 
-![SlidingBanner Properties](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/549790216_817392064132080_3713498471960485866_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=ONI7ehhuUigQ7kNvwH_XkZK&_nc_oc=Adn46V6fS889ped4z-0LRNPVZKR9k-4Q8m8JsIrcSK8xr1r0dnFfqkuhfQd6oMSeDm4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_AfhTd38_DXBLX20Me7wXBE_55cbEgrRJ6OChT3b9F28g0A&oe=69312635)
+![SlidingBanner Properties](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/549790216_817392064132080_3713498471960485866_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=l8nZ3fKfumwQ7kNvwG2rqfk&_nc_oc=AdnafDMhFAyVvo9BdWZJk4dR9XooX5mtBU4RDXceQl2egOLLtFoAHz-nzyjBptf-TJY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_AfhMW2RCaqkPECf-qDOQzTWKmJRa9DPCYU2eA_esoTgCZg&oe=69463E35)
 
 The component’s configurable properties are defined in static propsDefinition:
 
@@ -140,13 +140,13 @@ These helper components are designed to be placed in the world to trigger the ba
 
 * StartTrigger
 
-![StartTrigger](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/548001734_817392050798748_2212647163467521435_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=moKzkB6TEDsQ7kNvwGCMR4V&_nc_oc=AdmuyYv7SVdFmqNCmHdf6_3rVYneXwmnb-LwuMLq1u7UruiSMUJQNcT02mpomAoLNVc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_AfjhuGVzM4H-08cJwgNZ37-nIKWB7ipcSUKD4mQT8OLoOw&oe=6931211D)
+![StartTrigger](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/548001734_817392050798748_2212647163467521435_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=MjJ3LBqYqG4Q7kNvwEHW4qU&_nc_oc=Adlr3IVK8LawiH3ddUtElp-eDgYnTp_HnKZEH0A-jFni_tbr6m1q-dIT3T2vjB3n9xs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_Afi03b0pi4bcE-9w_V3VoW_Kg2nbqSeQL7elnwvPXUMDpw&oe=6946391D)
 
 * Uses connectCodeBlock event `onPlayerEnterTrigger` to listen for a player entering its trigger volume. When this happens, it sends a StartBanner network event, passing the configured `banner_CUI`’s entity ID, a message, and a duration.
 * banner\_CUI must be linked to the configured Custom UI gizmo.
 * You can override the sliding banner’s message or duration by setting a new message or duration. Leave this blank to use the message or duration in the properties of the sliding banner’s Custom UI gizmo.
 * StopTrigger
 
-![StopTrigger](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/547946013_817392047465415_8015954013424388844_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=QddhGfrGzKsQ7kNvwGRZ5HK&_nc_oc=AdkYusi8mu6nUwTUhHqZ9oYDBWVW4WE3ooY1tUlTtiRY-QWKJXQLqDzKYWDcSAiL2PY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iW1eTwoA7uE-aIodrT7WLw&oh=00_Afi03NV9HB7RWIHtF7WGPwcSeKZ-Xxx4Amw_qdTHdsNtGw&oe=69312E6B)
+![StopTrigger](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/547946013_817392047465415_8015954013424388844_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=vbJgeMY3QnwQ7kNvwGhts8V&_nc_oc=AdlVpTZTKEuPiopBcZXIReeC-qcZIkQ8Ho77OVDDTZuktdZgcUGaLd3n3HSuWcVkcss&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iBj1k1CU1YF3ilJHH6_STw&oh=00_Afhto-0-AERmHtXlAALlJwXGHpZaBO318SHV-FZlmMMgDg&oe=6946466B)
 
 * Similar to StartTrigger, it sends a StopBanner network event when a player enters its trigger volume.

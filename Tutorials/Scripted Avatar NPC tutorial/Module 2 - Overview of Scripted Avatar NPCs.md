@@ -15,7 +15,7 @@ Creating and revising the visual design of your NPC is easy through the web inte
 * Position the gizmo in the desired location within your world.
 * Select the gizmo. In the Properties panel, click **Edit avatar**.
 
-![Image of the Village Elder NPC in Edit Mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480333795_656120583592563_4422663695424655297_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yq1PvWLg46UQ7kNvwF8NdV5&_nc_oc=AdnX9Xk1GEA8Duh23y91gyTTunenEpotYaXb2koif-yZfS_WSbQLgmXKvumf1dthzGM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ovqcG8z7xczurU0P05foLQ&oh=00_Afhocu0ZcCTIQlP7tAFmAUBejSRw--0diczST6pT2BG2pg&oe=69311DCD)
+![Image of the Village Elder NPC in Edit Mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480333795_656120583592563_4422663695424655297_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=VedJSBb083cQ7kNvwFLvfzS&_nc_oc=AdniZHw1Mhl9wRRuununUtEBwqULXiKAVXoIxWXcXr0v0wCFpadLBe1axZQvDmCreYQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RUfw049c1ERUwOVYlJ0Scg&oh=00_Afit6Y6ZUehqak-7T1BlqG685DUtXcpVoc5zZFtMf5TC5g&oe=694635CD)
 
 **Tips**:
 
@@ -133,9 +133,9 @@ this.navMesh = navMesh;
 
 **Usage**:
 
-Locomotion along the navmesh is handled through a set of methods on the `locomotion` property. For more information, see [Module 3 - NPC Manager](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).
+Locomotion along the navmesh is handled through a set of methods on the `locomotion` property. For more information, see [Module 3 - NPC Manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
 
-For more information on NavMesh, see [Setting up NPCs with Navigation](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/setting-up-npcs-with-navigation).
+For more information on NavMesh, see [Setting up NPCs with Navigation](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation).
 
 ### Grabbing
 
@@ -160,7 +160,7 @@ private onGemCollected(gem: hz.Entity, collector: hz.Player): void {
 };
 ```
 
-For more information on NPC grabbing in the example world, see [Module 3 - NPC Manager](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).
+For more information on NPC grabbing in the example world, see [Module 3 - NPC Manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
 
 ## Unsupported Features
 
@@ -168,4 +168,4 @@ The following features are not currently available for Scripted Avatar NPCs.
 
 * **Conversation integration**: Integration with the Conversation LLM gizmo is not supported at this time.
 
-**Tip**: As a workaround, this tutorial world demonstrates how to trigger voice based on NPC activities. For more information, see [Module 3 - NPC Manager](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).
+**Tip**: As a workaround, this tutorial world demonstrates how to trigger voice based on NPC activities. For more information, see [Module 3 - NPC Manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).

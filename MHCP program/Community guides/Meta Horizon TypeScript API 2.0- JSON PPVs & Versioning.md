@@ -32,19 +32,19 @@ By reading and reviewing this written guide you will be able to:
 
 Once the world is loaded, click the systems drop-down and select “Persistent Variables.”
 
-![Screenshot 2024-03-12 165250.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452885043_512509794620310_1164532069211912730_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=iE4OedPP4foQ7kNvwGXi6pV&_nc_oc=Admtlb6GPqvqHrIfzVIJAb0W3OEFmQim2qFBYOLlTeAOY_zAUXe4rJh3H0Nx3i9C3gU&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfhKaIsyKhB0MpfU-W8qnr12ZXUZObqeqjgd5H7UOaBtog&oe=693146D2)
+![Screenshot 2024-03-12 165250.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452885043_512509794620310_1164532069211912730_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=5XQorOEycGsQ7kNvwE3iuGz&_nc_oc=AdmuwNO2KG27SGo2eO1G6IN34Gw6TQZY2fs2nhh70JxEqImp3siAcfhI_URtWucO9dY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfipOqCj2PeGUrm-PGm398PInSsGj70gAbeA3dOfjUCtow&oe=69465ED2)
 
 Click the plus icon to create a variable.
 
 In this example, we will name it “TestVar” making sure to select “{ } Object” from the drop-down.
 
-![Screenshot 2024-03-12 165344.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652041_512509847953638_1230264767479043441_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=3Xcjp8pYoxMQ7kNvwG1Icod&_nc_oc=AdkY5hW4qv96AI2D4C857m-iJs_munmVwfLFpM4t-LoueSOJM83JUK0rpPlf3cywBGA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfgkApw6UYDVAwnlNbVKY7JuTm4SHVH5daTOyXHL5ONxeQ&oe=69313D2C)
+![Screenshot 2024-03-12 165344.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652041_512509847953638_1230264767479043441_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=O4aj-kRb3B4Q7kNvwElOIeH&_nc_oc=AdlgbkCTx9LRrOfMxu205l_89W0ZeHxkd1lAsTqMIhhRfxE-NLcfOOSqOlXp0U8jPPM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfhpTUeomM1lo_KxsUhtnB-svowh-pxEo-EEdM9q3nACQQ&oe=6946552C)
 
 Now that JSON Object PPV has been created, it can be used in TypeScript scripts by referencing it using the string name it was given: “TestVar.”
 
 ## Step 2: Create Scripts
 
-To begin, we will create two scripts with the specified names seen below. It’s important to verify that Meta Horizon’s 2.0 API is selected by accessing the settings via the gear icon. ![Screenshot 2024-03-12 165632.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452915617_512509827953640_3795839271183190167_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zIwux3CFLPQQ7kNvwHJoeGE&_nc_oc=AdnKaQOdTuQtKpVEFks4dpeS1FIiBBPDxcY0pxX3JKmE1uTvUTeTETm2N-b6OY5JW98&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfhvX9Q-MaNRl-lOOeFplfR63lAlp8j2JG-IS3XsXmdv7Q&oe=6931477D)
+To begin, we will create two scripts with the specified names seen below. It’s important to verify that Meta Horizon’s 2.0 API is selected by accessing the settings via the gear icon. ![Screenshot 2024-03-12 165632.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452915617_512509827953640_3795839271183190167_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Wm5TIhaFt1cQ7kNvwH4FOBm&_nc_oc=AdmG7_MEB4MpS8xiexZ6raM10IYREJ3nK65N5kE02mYR7guGxsiOAIa4UmhCKIHJjdo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfiBy-V8feMx2f35nl3zjc4B_7XTTFWoOJsqvhoK8R7Hqw&oe=69465F7D)
 
 ### Specified Script Names:
 
@@ -67,7 +67,7 @@ As of the current Meta Horizon desktop build (March 2024), creating a new world 
 
 Access to this feature is found under the script tab: select the gear icon, followed by Script Settings to view the API Version drop-down:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452690902_512509841286972_4120111531248974789_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZkdIrPRY8F0Q7kNvwHq7wMI&_nc_oc=AdmD9uFbXxbrRVTuqG0WDtsUMLhgKIOpl3r_hGNObfnlzTunM_ewoFiGSPG-9UWFcx4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfgbwpfnqPv8QOhIL51cHGKKnEzrh4UWe7v1sUPOHuOl-w&oe=693114CC)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452690902_512509841286972_4120111531248974789_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=VI_cAqfjX_QQ7kNvwGjTuTe&_nc_oc=Adm1WAJQhVulxuoeUc88C4mvOS8RHG9adZZDezp_-FuaDYi4rd8kHg0gU4kGxVbQpSM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfhKgqbrOkrLBX2vB6XGLCKxXprBvBMHgpLqRGiQvBH5iA&oe=69462CCC)
 
 ## Step 3: Prepare Scripts
 
@@ -79,9 +79,9 @@ Note: This is a personal preference, please choose the approach that works best 
 
 I personally like the explicit approach as you will know all items that have been imported from specific APIs, and you can do less typing, which is always nice!
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576403_512509797953643_5285657881568124068_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=l_jpTPN_sWwQ7kNvwGfo90I&_nc_oc=Adn---c5uIGMJ2vnFL2P_UTkHg_Ew6gHEPOxGhWmIkAkcf4dTbKWFPbJ03geCgFvXXI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfjlqD9kEtZ5CztkGBKWL5jqyAJhla6jpSWz72jpgr-14g&oe=69313CB1)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576403_512509797953643_5285657881568124068_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=BjKhUqBMbgIQ7kNvwHnPYXM&_nc_oc=AdmsUBouTBh8KMF1ZRo8ity7qMP2qWSTSK1PghnrVPuPGZ-V7a0ty4R4nvtW8QSvAm4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_Afg2ucY8R5GUPg1d0X-89gfftBOAjgt7skvVj71oiT_M8g&oe=694654B1)
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452532488_512509834620306_1267219142950200425_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=olIzueJbScQQ7kNvwG-0AnD&_nc_oc=Adny7pW0OFDkZma3rDmiowqKPB8sosZrupknf01MVLaJZJ3XukAZ4-t0zMCArob9SoY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfiwdMUPfSDyZpVCtIs4eaqVuRufd2ubmY2szjkD3KaQAQ&oe=69312601)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452532488_512509834620306_1267219142950200425_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=SWrMZnWtKvkQ7kNvwHXDIML&_nc_oc=AdkMfePFVMqfbG5H836KMH7qb7bxiH11FzLAHoBU7gwhkikqA4P8Lr4BNm3Wt03LJVQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_Afj72DxZ2rLoXQMV0O593c36pFEgI2d7YQBJa_97DGlJ2w&oe=69463E01)
 
 ## What Are JSON Objects?
 
@@ -148,17 +148,17 @@ highScore: 0,
 
 Next, we will connect the CodeBlockEvents for player enter and exit world to local methods. We have also added a console log to the methods to confirm the script is working.
 
-![Screenshot 2024-03-12 171631.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452881431_512509817953641_3022961139974047751_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=k8EmBUo9sVYQ7kNvwGeAPbY&_nc_oc=AdnJWY8wF3yAURME8mX2odq-yCFbKLD2rhROB9i9gXk1W1LlpR7L2ErbtaMYYr0GPro&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfgnSGEV1AbvP5xFwawySG5Czua_h5GsPfNIJus4W-7lEQ&oe=69311CDF)
+![Screenshot 2024-03-12 171631.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452881431_512509817953641_3022961139974047751_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=E2PBqFpafisQ7kNvwF7o5yu&_nc_oc=AdnN-KFqHP3p-QO9s10BUw5XkFVvfzye_EovMhg2hkMwjdBZMBHetLwJXYXLwqO3v2k&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfjshUcXtahPbDuvVzsCyMix0Fur9D6amcrdzVOwgcJixA&oe=694634DF)
 
 Ensure that the PlayerVar\_Manager script is attached to an object in your world. In this example, I used a text object:
 
-![Screenshot 2024-03-12 171735.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452513283_512509791286977_42569017604569069_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=4NAINDAXyQQQ7kNvwEQy1ez&_nc_oc=AdlSmRYeLXKdhJuTirxhs3hWZulstN_UL-Sdf-S_sARdNU19QCKqEzPYMw6elIaSWvg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfiP3HZg8Y6DtvTLe9x8l1k2Lf_cnxlnnClxJxpcUeVUcw&oe=69311967)![Screenshot 2024-03-12 171909.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452742345_512509761286980_4350714917524728780_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=91ScetPwKRQQ7kNvwHS-xW1&_nc_oc=AdnDHHH1mUWRzSf6YdY2pS3VKZAcEARV1OzYiHVH3QMCDthNVLXBJ9raGnNnoX6f4HE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfgugOhTskcKdAaqCM14lPrhFthW0XBNzWJqq1YwH2B_dA&oe=69312535)![Screenshot 2024-03-12 171909.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452701864_512509787953644_6289865107426242307_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=steDzz0HhpQQ7kNvwGX76vA&_nc_oc=AdnaOI6ZH5LBnE_8bsD7zQgxn5IviJDlJuAghW4bShAHogHZJCo1Zpkj_kTeKlf-P4o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_Afj4yq6DojWZZaauHGkIZ1ma8tyZfCKSZx9TR-Xg8PE-9A&oe=69313E52)
+![Screenshot 2024-03-12 171735.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452513283_512509791286977_42569017604569069_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=PLgPq4dt-S4Q7kNvwELPLJ_&_nc_oc=AdmTFtft16VOYn_H_UAk3TYvXqGZxInDWWzWtz8-isQasZs-Kzc8eWkWePLpMB2ozYA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfiLnBjk8A-kT7zAJqffJ2b86EvWeqAyhyM1TiVt3U7lmg&oe=69463167)![Screenshot 2024-03-12 171909.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452742345_512509761286980_4350714917524728780_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=cad7j8sKMfAQ7kNvwH9RASu&_nc_oc=Adn_5TQmm73MUyk-8YfmKv8KvqW_oN6BILxLlWwmmNjpWypTSFB_ieQGrD8_MvQeWrw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfhLIFehbC2ISmiwO7W4_bD6-F8E4IHQdOlNY7zMl5tKzA&oe=69463D35)![Screenshot 2024-03-12 171909.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452701864_512509787953644_6289865107426242307_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=eBLKik4iTc8Q7kNvwER6oVh&_nc_oc=AdlEtgXYg-OSgZ7Yaltgidnd_MaX7TtrPNnDNVxLCUPAmXjgtiFDCnc0JsTDAeYJC4Q&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_Afjuk2vJ-v-KyLpNkIiJVUWpN3wMi8OZy6ZEeIw2AFxtGQ&oe=69465652)
 
 ## Step 5: Define Type
 
 Before we can get and set a JSON Object PPV, we need to define it. Because this type is stored in a \_Defs script, we need to be able to access it from our other script files. To do this we add the word export to the front.
 
-![Screenshot 2024-03-12 181652.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452506810_512509757953647_8787940282338034104_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=y7wlBkNQUy0Q7kNvwFqJXzh&_nc_oc=AdknRsYE6sibYI1SWyuyJY9QeUb_8VAEdx63ioQEjKVgsmfPxVYno0fNTmEGgPHVLvk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfhKonI0-3iWBR0Znit3P7e1aultfc0_w8ZJZd-a4PtvCQ&oe=6931147A)
+![Screenshot 2024-03-12 181652.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452506810_512509757953647_8787940282338034104_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=VynO82SAhDsQ7kNvwFPiR68&_nc_oc=Adlnl4wozASkJcNzMSkoQ5bKjXkVOOv--ExRwj9FUpcLZA23X2aRdDnwW4WrWKm3uOk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfiHeTSrSpwdyxaTpnUBzSxdYV721RMOtnH-hDX913s72Q&oe=69462C7A)
 
 Now that we have exported the type, we can import it into any of our other scripts by typing “PlayerVar” and clicking “enter” or “return” on our keyboard to import the type.
 
@@ -168,7 +168,7 @@ Now that our \_Defs file is setup, we need a place to store all of our player va
 
 Create a new script in Meta Horizon named “PlayerVar\_Data,” and then we will delete all of the prefilled code as we did with the \_Defs script.
 
-![Screenshot 2024-03-12 181658.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452554819_512509784620311_8209205062022272298_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=XbRFdL2hQ7sQ7kNvwGZPnao&_nc_oc=AdmWa96l1PNycweDoxbI_2r_Vj-W01zykC4nQ10q-ZcrSj4vuFoETa6lh1Zt9DoWhLI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_Afjw8-m0qzLdQ6c4gCUYdHFbc77_WNu3AGNnomuW369HCQ&oe=69314565)
+![Screenshot 2024-03-12 181658.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452554819_512509784620311_8209205062022272298_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=sHGYLyJQ2foQ7kNvwH-voZt&_nc_oc=AdkGVkn5toWSJhyjM6EDOH1J_itZKiY1sxVU_xYe9cwNrziAmMDKEevJznuBzDUIEcA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfgzTlc-4oFRgaHlnArmkZGxG-aUHhU83iJFqictV5Vl0w&oe=69465D65)
 
 We will only need to write one line of code, and as we do, VS Code will write the import lines seen in the screenshot on lines 1 and 2.
 
@@ -192,15 +192,15 @@ We also export this data, because it is very likely you will need to use it acro
 
 In this step, we will start to write some code.  On the next few pages, we will provide in-depth explanations for each line:
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452578528_512509781286978_2962179804368749502_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7bWQtUGMVggQ7kNvwErLwLo&_nc_oc=AdkO7DOF6ZFq3seRDSwEIYqthoz9JOAwDgLHTAWXtrIy5__8ZqA86-T_gsuwHxt1xvE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_Afgoznit27k80jc0AUfZNp43yfC8cmDPStXHBoA-Riv3lA&oe=69311F24)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452578528_512509781286978_2962179804368749502_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=9FTPXNhz8D8Q7kNvwEsOY8N&_nc_oc=AdmzM8GC1U2Z7UyKh9iGlefWRiXlYZrpDkY5U_-RnS6i2phwE1-zn6rlAJsZUTG0Z70&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AficV-uo4jpiTIda-RLsxLo7XpWVz6akmve2JHTYCxOkKw&oe=69463724)
 
 At the beginning of the script, you’ll encounter the variables. These variables are globally scoped variables, which means they are accessible from anywhere inside this script. These variables are constants; for instance, the playerVariableVersion should only be updated manually when introducing new variables—a process detailed later in the document (Step 9). Similarly, the playerVarName remains unchanged as it serves as a reference to the PPV variable.
 
-![Screenshot 2024-03-12 181721.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452893310_512509764620313_8601289411585962013_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=diWG_FZaBeQQ7kNvwEiKvx2&_nc_oc=AdkMS_5hIARR_q_M9A3dopo1voav8y1NReJ3uODcceW8MlxCAGdnLFJi99hNdwjLqmg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_Afg1gkQTyVrnhn8Y_eCW0y36o5_niFPF6wCWVQqTAC3AMw&oe=693141C2)
+![Screenshot 2024-03-12 181721.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452893310_512509764620313_8601289411585962013_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=nuO37r5RJocQ7kNvwGwPKS5&_nc_oc=AdmM6BY0Fa-0nAnyMtuqXLlYSYHUQOjOVvjil1wwFCqP_Is0n_SUI2hAvESzmmcnZpo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfhqVpEYcwbEJR57UWHHJ3sSexHUgzMd7XC_sW1NFOmNWg&oe=694659C2)
 
 In playerEnterWorld we first get the PPV. Notice that it could be null, we handle this in the initializePlayerVar method (seen at the end of this step). Which we use to create a newPlayerVar. We have to create a newPlayerVar because the player may have last played in an older version with less variables stored in the PlayerVar type.
 
-![Screenshot 2024-03-12 181721.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452963336_512509777953645_4263171605963207015_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=vvcm417v4W0Q7kNvwFfFrNs&_nc_oc=AdnMQpvvmtCSOA0MINkRg1fuMjh1pGXBwMgXGd69DrBoITztqPkwVShxXy4_OmJlmRM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_Afi3bv4YbWaSPlpHXIQNAivLd2ax2ha-Dh7UR0IXE9kh1w&oe=693139E8)
+![Screenshot 2024-03-12 181721.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452963336_512509777953645_4263171605963207015_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=jEkItV7gcyUQ7kNvwHchexk&_nc_oc=AdlWZUeLZEiac12lD0FwoWrZrbL0AY_b0PSeEM89ajUFp6NDtilmIsWrBfi0reM2pW0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_Afg_UtkBFkLyi7pdAXETRLZYT-KDEP21CfV2D6JFs_UmhA&oe=694651E8)
 
 Then we update the visits to be visits + 1, using the shorthand visits++. To make sure this is working we add a console log.
 
@@ -208,7 +208,7 @@ The last step is to add the player to the map we created in the previous step. W
 
 In playerExitWorld we get the playerVar from the map, which if you hover over the const playerVar will show that it is of type PlayerVar or Undefined. This is because it is possible that a player has not yet been mapped. We can check for this with if (playerVar) which checks if it is “true,” meaning not *undefined* , *null* , *false* or sort of false (i.e., 0, empty string). We can use an else statement that calls on console log if it is undefined; this can help locate bugs now and in the future. It is recommended to use checks like this in your code.
 
-![Screenshot 2024-03-12 181721.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452673104_512509774620312_3142404411627905147_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=_wmH5EMdLvkQ7kNvwEziTtf&_nc_oc=AdllDsuMhj_XX7kdYoZMCLlc2rmSWnbXdGsoB3R24GYW2nzYa1z4VgU7vrRRyLTj-P4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfhRjKI17oUVYf58gIvsi6dI-KI6KoCI1MvbQfMddCMQ-w&oe=69314651)
+![Screenshot 2024-03-12 181721.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452673104_512509774620312_3142404411627905147_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=LLgwDt7fNXEQ7kNvwHawLYI&_nc_oc=AdkeV9iPlSD9PcJFGi_W7mM3B5dLDBCwu7GXjciP1hpmrk6z8k6nRMPsYjsV3K2gbbw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfjDZi8RL60j8uYaJ_wTHcPf4L3e9H6Tgli-f15gbfLa0A&oe=69465E51)
 
 Now that we know playerVar is defined, we can set the player’s JSON Object PPV, which saves their JSON Object to the world’s persistent storage.
 
@@ -220,7 +220,7 @@ This function is important because it allows us to take a potentially null/undef
 
 **Please note**: There is an error as of the time of writing in Meta Horizon’s API, which says the variable could be defined or null, but is actually defined or undefined. This distinction caused an error with the code seen at the beginning of this step, **below the code is corrected, checking the truthiness of (prevPlayerVar) rather than (prevPlayerVar !== null).**
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452415047_512509744620315_2203337898861099810_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=0UPZjXYy48IQ7kNvwHwifaN&_nc_oc=Admjb2xhzw8v2B2T73pcZUXkPxwPU8gGcFqdno57-cpMvJKHC0yu4L-FY44yvq7YceQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfhBSr-lYDCB06DtTr91PEX1xguWMG1XBVprf3OPjp8ABw&oe=69313C16)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452415047_512509744620315_2203337898861099810_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=UefwLXLumVEQ7kNvwE9d756&_nc_oc=Adk5D0GR9tWuz69Ua2fVWjMeTRmGE_K_l0AyBCtBzA3hNVQS2NyJ3mfCIClvMufrlN8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_Afg3tGbtpf6-jSiGNInvfHp_CjK6rFfKfAZt_RTD28Pyvw&oe=69465416)
 
 The first thing we do in this function is create a brand new object variable with values we would assign to a first-time visitor. That way if the prevPlayerVar is not truthy we return those values. Otherwise, we can check that the version contains values we want to recall, and save them to the new object.
 
@@ -230,38 +230,38 @@ Now you can compile your newly saved code and test it. If all goes well, every t
 
 Now that we have our JSON Object PPV, we need to make sure we don’t run it over the 10,000 character limit. To test this we can create an artificial maxed variable and stringify it to see how long it is.
 
-![Screenshot 2024-03-12 184022.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751568_512509754620314_8517786802089207349_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=P-YTmo3WD04Q7kNvwG-tI8w&_nc_oc=Admn_zhTlMmKE-_4D0qzst439lfz7veIWkcFBSqAXrWVc0qzyjBxT__rRPtwqWlvQFU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfjPEQHkhGzBur0MQbN5-1ejZrtReqftwEUnA2rJpQyYsQ&oe=69313A15)
+![Screenshot 2024-03-12 184022.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751568_512509754620314_8517786802089207349_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6UxZ_dPRCh0Q7kNvwEuVqfI&_nc_oc=AdlX43YxyFNk5-Pn6cjmPv4V9Z1ShLj6ao6OQZkFesT2WHSAPIZrg7GnlEZC0yP8RuY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_Afgc1Bv4dvvc5cZesmaJ5Tw6Js8MvqEvXeCuFsYR2Kankw&oe=69465215)
 
 In our testPlayerVarSize function, we have created a testPlayerVar variable with larger-than-possible values. We then calculate the length using JSON.stringify, and the .length property of strings. We then simply log that number to the console.
 
 All that is left, is to call this in the start method. When we are done, we can delete this line of code from start, and write it in anytime we need to check the max length.
 
-![Screenshot 2024-03-12 184035.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452616143_512509751286981_1414151313288137369_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=tFxFc5ENn0IQ7kNvwGR4LTS&_nc_oc=Adn_WOqEdR2YscLRE1YNF7gfyWPZ8wN2fI8hAulV0HM6v-Y4WuLTNTK3I-lFPp8xLIk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_Afh94EoIHjHUltnAxgxpxZK8NvhE9rNxSPiHrFUul9SExw&oe=69312ACB)
+![Screenshot 2024-03-12 184035.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452616143_512509751286981_1414151313288137369_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=X4ym9M2ZLsQQ7kNvwEv2grg&_nc_oc=AdkOfChtxxOet4IcCxrhFisMIiVTD51F4EVIMklh_oSW7SMlXJ_bO44ibFPM2X-n8kg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_Afhld_FJA-08oaD1flMtLaFFkFThNvq9apZ0qxPyWMb7vg&oe=694642CB)
 
 ## Step 9: Add More Variables
 
 Start by updating the type to include additional variables. In this case we added isAFK and afkCount:
 
-![Screenshot 2024-03-19 at 12.18.46 PM.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452916228_512509767953646_8032047240862163427_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=qaJ0N9UQ3pUQ7kNvwHoAvno&_nc_oc=AdluPrugK_TjCMsLDZHg-RsXJxC3oWiwbUJi4s1qPipGKYt5LIsU8wXCM3flX56Kz9k&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfiPMrj4_Lp76j9YJzURMj26bhEy8oqpTCZbUh-AasJiVg&oe=69311A67)
+![Screenshot 2024-03-19 at 12.18.46 PM.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452916228_512509767953646_8032047240862163427_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=syg-X4i7Z5cQ7kNvwH3MFiL&_nc_oc=AdlzYFnOXfK2n3uOeXDvA_IKZMRyOjYdq-ORUkPghYMBYP7AFVcq28h8ckoggKZyvIc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfgAq_4XuK-TmhP9LRY-rHlVWCl4DnlhWFVxywYzEPFGDA&oe=69463267)
 
 We then add these to the initialize and test size functions:
 
-![Screenshot 2024-03-12 185301.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452742345_512509857953637_3325756538951273658_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=YOgC_pbfDg8Q7kNvwFr-aQs&_nc_oc=AdnMlA-Z0jig5lEdwBy7d77B37xVzeX9hzHyO0vfMomHSh9PLvhz-Bakcv2PMj26AlE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfjXzLeVFFebKcXOnQfNSMWjpKrST0n4xNSYr_7-GUmavA&oe=69311C4D)![Screenshot 2024-03-12 185200.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746744_512509741286982_2246072596883689413_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=UyO-WRZ1gsEQ7kNvwHQJldu&_nc_oc=Adm0vjTHfgTwzbmAtEe5uggygFJfD55qT9NCvTmgxuC8UJLSjIJoGlkusJ81hiJNo8E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_Afjmc2Jm_AjHeyvkZJN21Jd9n14pRm-CDeXILIkgXfIKgQ&oe=693140B9)
+![Screenshot 2024-03-12 185301.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452742345_512509857953637_3325756538951273658_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=vnlcx9V81qkQ7kNvwHlBH_L&_nc_oc=AdlPsN7EPkYVe5zAbppg_lVEKo1UJxRRR60rTzPVqqLze3VCvcnBhIZ4w1YzL5VCjos&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_Afj0HGhjuuXA3ZplI810FRIwzwFIRIIfnMtG292ZQYkELQ&oe=6946344D)![Screenshot 2024-03-12 185200.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746744_512509741286982_2246072596883689413_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=5QDJctXnhdoQ7kNvwFM9TKt&_nc_oc=Adk3bKD46xsbOWgkgt9QbvSTpkIMtuYddLC08EWqyTT6yjdBsPZXMM0I04fDU18MbQw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfjbzDsUlhrWngumiLeEQzhz_YUbm66ux3f7pLIBRL8q0g&oe=694658B9)
 
 We also need to update the version number from 1 to 2:
-![Screenshot 2024-03-12 185053.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452701864_512509737953649_3962852608460184155_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=We4Te0Dtl8MQ7kNvwGIy9Cq&_nc_oc=Adn3jxP9inRAnivUJV3JMeHc2tfM95TLMV7ZeZrChg0SBaiy8piNts4UabwUxVdxygI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfiZAji6PewldI-pBmEyJIi9_82sXfqyJ9-p0tOixTCOwg&oe=69311C6A)
+![Screenshot 2024-03-12 185053.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452701864_512509737953649_3962852608460184155_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=kxweLxwFUnYQ7kNvwGpECOp&_nc_oc=AdmpA6UqF6h4jELo5VY9tHsb3lIVRqUvhoEftREcdvh8j0EKPU1UQinj81OR8HYfth4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_Afh59n_LjPu_s3WqOTOzOA16AJF2xjI7HysRH4Up8T6LUg&oe=6946346A)
 
 Then we can use this new version number to get the afkCount for players who have visited our world since the variable was added:
 
-![Screenshot 2024-03-12 185249.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652242_512509854620304_1398487090111015541_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=b0ToevI3AIMQ7kNvwF2NMcF&_nc_oc=AdnMkNKNALeTst-jg7GCDTO3ueqGCrCgoplnRQEqJ3UJNRsxB4d3Hy-DF0qW-ZXefvU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfgzRU_TGRmTmP-7ybFtKQya8eWg0H-Wb6WrHgdyJC5LcQ&oe=69313F5E)
+![Screenshot 2024-03-12 185249.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652242_512509854620304_1398487090111015541_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=-CL-pi34Ve8Q7kNvwH-bY0K&_nc_oc=AdmdKUp0ndLNQZHA0r6yq-6_su4WizuQOIhLmUHCiUmPDrOpQ022jVjy4MJsSDM5y1w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfhA-JG3mRuatAm_eWnFN8NTl9JZH40aov3r81c_QLZqFg&oe=6946575E)
 
 ## Step 10: Use the Variables
 
 To get started using our new afkCount variable, we will connect the CodeBlockEvents for entering AFK to our local method:
 
-![Screenshot 2024-03-12 185526.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578037_512509851286971_2231847787475568309_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=0ysbq6pX-H4Q7kNvwFhtDMF&_nc_oc=AdmL8deM0fTKxylAXlYWplYyrMXPiYexLWL-O3J2syTLSKtK9yiCRPzj_Xm2TMBdXlI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfjneG3GqtpNdCinDlaOevlBkMiu8GRr5fmODrFUpQOyvQ&oe=6931414D)
+![Screenshot 2024-03-12 185526.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578037_512509851286971_2231847787475568309_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=-A-8-2r5190Q7kNvwFmSnOJ&_nc_oc=AdkHYMgSd-TMCVsVQ3jHGt5s4lIUJdEGhKayxWJAzteXOs3nAoNaBD3NDZ1lBFWgJ48&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfhJ--v4qmnrDGYDQdLwr8h8S2GvkdjOjuN6DjZDsY8xuQ&oe=6946594D)
 
-![Screenshot 2024-03-12 185514.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452909009_512509837953639_6530190211756898574_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=y7o5bTZS7a0Q7kNvwHsR3T9&_nc_oc=Adn4zLhKlQGgIhFN6Smj8IM9Z_O1sIsyAQEph-ZfD4WGlIkdM3HNuSG29kwQFBb9cvE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=V2mkw5wZMuHO9lkvyfWrng&oh=00_AfiNV-UAt2MMqVKWQ7x2OH-T8KghEYzSZUdZUFHj1-nizg&oe=6931140F)
+![Screenshot 2024-03-12 185514.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452909009_512509837953639_6530190211756898574_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=WznGgS-7unsQ7kNvwHTFEtJ&_nc_oc=AdkhqH2XWz842q6vbOi5L4NbNwWH3LG73w2_t9jkVCVyE3zK9PEZG2rdIl6zgn35Cgc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=9-hrBMbks8fM9h_FHFQDIw&oh=00_AfjFQXr65A71_AwXVXAKCAnhT-_n11R82Yla1NUKvrYk7w&oe=69462C0F)
 
 Then we can get the playerVar and check the truthiness, updating the count to be +1. For extra credit try adding the playerExitAFK method and updating the boolean we added to the playerVar. Setting it to true when AFK, and false when they return from AFK.
 

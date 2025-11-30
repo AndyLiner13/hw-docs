@@ -7,7 +7,7 @@ To open the **Create** menu:
 - First, open your **Personal Menu**. Turn over your left wrist to open the wrist wearable and select the **Three Line** icon, or Press the recessed **Three Line** button on your left controller.
 - Next, select the **Create** tab at the bottom of the menu, fourth from the left. You are now in the **Creations** tab of the **Create** menu.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469649830_608097718394850_6193154935112324931_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=2zprbJ33n2UQ7kNvwEVxy24&_nc_oc=AdnK7arvjMUeXZpQU-_Kp6yOL5V71Wh5GrdFvIzKIUWYWwgx50K4n21kNn4OIpC1ljg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ODFiLYIUnrM33p8o9P2EnA&oh=00_AfhDlmeHJ6oSWxfu6u_S6JqGXSFKx4LQjZAY479nT3soaQ&oe=69311D4E)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469649830_608097718394850_6193154935112324931_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=kp2S-6zJTkQQ7kNvwEyxLYa&_nc_oc=AdkuL-l2ofZ3kHcOxYiM11wfR90i5nhxiZNswZfTl629Jta3d_xjA-mQsitFkCr7qf4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1mFnkHlaS1kR1QAz8zl6JQ&oh=00_Afj9o20Q-Moe1TNqcyQN7cpDtOXI8O14DtYKDbkmREqpwQ&oe=6946354E)
 
 From here you can:
 
@@ -33,10 +33,10 @@ To clone a tutorial world:
 - Navigate to the **Tutorials** tab.
 - Hover over a world icon and select **Start**.
 
-The Intro to Creation world comes with basic objects to [practice building with](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/using-controllers-in-build-mode). The Script Samples world comes with example scripts to help you learn how to [use code blocks](/hw-docs/VR%20tools/Scripting/Use%20code%20blocks.md).
+The Intro to Creation world comes with basic objects to [practice building with](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/using-controllers-in-build-mode). The Script Samples world comes with example scripts to help you learn how to [use code blocks](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-code-blocks).
 
 ## Start building
 
-After you create a new world or clone a tutorial world, you’ll enter the unpublished world in [Preview Mode](/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md). This means you can’t edit or build, and you can move around the same way you do in the rest of Worlds. Preview Mode is how others will see and interact with your world once it’s published.
+After you create a new world or clone a tutorial world, you’ll enter the unpublished world in [Preview Mode](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/preview-mode). This means you can’t edit or build, and you can move around the same way you do in the rest of Worlds. Preview Mode is how others will see and interact with your world once it’s published.
 
 To build or make any kind of edits to your world, enter [Build Mode](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/using-controllers-in-build-mode), by pressing **down** on the right controller’s joystick.

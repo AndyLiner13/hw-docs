@@ -17,7 +17,7 @@ The total amount of candy for the player is retained in a persistent variable (`
 
 **Tip**: Two separate UIs are created here so that you can see how values set in one can be applied in another, using the persistent variable construct.
 
-![Image of Station 07a and Station 07b](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/476438439_646003164604305_1740733839080850745_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=DxN0b_0GPlEQ7kNvwHuVYhX&_nc_oc=Adll_2RpRvhxCR_Th8YCUwkefC6cCe2QP-6gayaJ0Jxr2ziUIaujlXLumcKtD63Ittw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gtpuuD4Y64gk3aKTX-1xiQ&oh=00_AfjiUYbjxgmROgH93xdLsmkYGlGxibWyVKCDoU0j6dbMFA&oe=69312494)
+![Image of Station 07a and Station 07b](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/476438439_646003164604305_1740733839080850745_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=SCi4poHlQDIQ7kNvwEf8e_K&_nc_oc=Adm0RqNoVb3EYPEo3E98ml3JGEWXLwHo4zL_K8IWSynqQPCI1Th2f9BVX2ri6hvttn4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5He-tpLZ5FLOwaEqEy8ecA&oh=00_AfgubgjljjDLROZqALal15gOVUXZWRhY3iOO9uRb3Xnajw&oe=69463C94)
 
 ## Create Variable Group and Persistent Variable
 
@@ -38,7 +38,7 @@ Each persistent variable is stored in a **variable group**, which is a container
   + You can import variable groups between worlds through the [Developer Dashboard](https://developers.meta.com/horizon/manage/). This method requires that you import them from another world.
   + You can import variable groups into a world when you own the variable group and the world. This method allows for complete ownership of the content.
 
-For more information on variable groups and persistent variables, see [Using Variable Groups](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Variable%20groups/Using%20Variable%20Groups.md).
+For more information on variable groups and persistent variables, see [Using Variable Groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/using-variable-groups).
 
 The next steps are to create a variable group and a persistent variable within that group.
 
@@ -51,7 +51,7 @@ To create a variable group, please do the following.
 - In the desktop editor menu bar, select **Systems menu > Variable Groups**.
 - In the Variable Groups panel, click the **+ icon**:
 
-![Image of Variable Groups panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487312856_686408250563796_4276880203328532826_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=z4yJf_x6YKYQ7kNvwFq_Zjp&_nc_oc=AdlC9C6LQrCdXId1WrEu0Vtfrj8zfHWJh0OxAWoT06EZEI7bmYTRk4PaPbMwpKyX2M4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gtpuuD4Y64gk3aKTX-1xiQ&oh=00_AfhlbYZ6KNGPeXKaPQbak7-zErVwAXDqdfPoVdqv8kgEmg&oe=69313E15)
+![Image of Variable Groups panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487312856_686408250563796_4276880203328532826_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=GRRhWj-eEskQ7kNvwFvruQ0&_nc_oc=AdmKAQYwCsNKnxHuf_lU3kxBAv_HcUoTbn_g1Y-VsY6sIVi8OAnLVBJcze7vYR7Ed1Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5He-tpLZ5FLOwaEqEy8ecA&oh=00_AfjlQ7IzeD7esxRBDRgNMrBCTQ_TqEkUsE1BpBDUdepv-Q&oe=69465615)
 
 - In the Create Variable Group dialog, enter the following name: `vgStation07`.
   **Note**: This value must match the references to it in TypeScript. You should write it down for later use.
@@ -62,7 +62,7 @@ To create a variable group, please do the following.
 
 After you have created the above variable group, the empty variable group is displayed:
 
-![Click to create variable](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487304186_686408210563800_8556070025932445174_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=fWVNdNO2ptQQ7kNvwFF5sks&_nc_oc=AdmT3K9XKrDao1WaPYoB9xP_76zj_qUvlpv4sczWqLv_r7PuL0YdOrlPqM4W4tOinc0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gtpuuD4Y64gk3aKTX-1xiQ&oh=00_AfgFivGPmKG72TUkEyWFBy7gT_ZI79wyoznguk4hfnDuXg&oe=69313720)
+![Click to create variable](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487304186_686408210563800_8556070025932445174_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=tZLG6X2qJucQ7kNvwE4g6-N&_nc_oc=AdkUXaSP6pNyOyWf8AUuIPJrnuhvF9vkraDG4vNnLKDo4fLG0Ti-YN7JDNGFoHk-J5U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5He-tpLZ5FLOwaEqEy8ecA&oh=00_Afh3ihSd4SwyyZsIPICQD0YgLVxBfQgvPrtWTsrDuuV17A&oe=69464F20)
 
 To create a persistent variable in this group, please do the following:
 
@@ -155,7 +155,7 @@ The size and positioning of the Trigger Zone relative to the CustomUI needs to b
 
 ### Station07a-SeeCandy
 
-![Image of SeeCandy custom UI](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/475837292_646003207937634_8847080719704944893_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q9V9fuXkGtQQ7kNvwHgxDId&_nc_oc=AdlveSq-G1kBDF4X2pOxN3BOU-4HlzNssGAjbuup8u4YAHAns-ixbhLccSxxdBJsxVk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gtpuuD4Y64gk3aKTX-1xiQ&oh=00_Afj22-FWwMYb2IFA6NpIvRkL-Y3JbGxPTMrlf6VNrtOXCA&oe=69313D00)
+![Image of SeeCandy custom UI](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/475837292_646003207937634_8847080719704944893_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=tDRbN3gGdO4Q7kNvwFHfUNc&_nc_oc=Adno9wn2obB8IQ7UeVLT2Y0Exn3RnvZVssJRKPtuqrl7S9q50xlqrC1ANMNSG7nY8Iw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=5He-tpLZ5FLOwaEqEy8ecA&oh=00_Afj--RFu13cyEdYJkJ0LnGehzbT7TjHFHjZoIaR5khJ2Tg&oe=69465500)
 
 Since this is read-only, it’s a bit simpler than the latter one. For brevity, it is provided here in parts.
 
@@ -304,7 +304,7 @@ this.strColor.set(clr);
 
 ### Station07b-GetCandy
 
-![Image of GetCandy Custom UI](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/475774314_646003147937640_8923202629712416402_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=5jzjV2d7P4YQ7kNvwFAhG85&_nc_oc=AdkVB2puReuU2agbpABRxBHh6pd0YpmblWXdWKETMuYqrSkIs8DhJjOj2zHBZZEjLCU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gtpuuD4Y64gk3aKTX-1xiQ&oh=00_Afj_mUNRbxuhOPvIjWxO1y3Bfgeo-xyFhIsW_94q7arYHQ&oe=6931208D)
+![Image of GetCandy Custom UI](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/475774314_646003147937640_8923202629712416402_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=gZTETrUrM14Q7kNvwF1Hlbl&_nc_oc=AdmC-oR754QBdpo-a4OqhGz_AgrC0OMgWpOeM4Xorr7gE6xacJ0hBgEF2AoTCuMonZ4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5He-tpLZ5FLOwaEqEy8ecA&oh=00_AfhA0PjP7weXiveMziNedM1mMHg2TmAefGSKllZyk0Fn-w&oe=6946388D)
 
 This station includes buttons to allow the player to click +/- buttons to increase or decrease the amount of candy. The new amount for the candy total is written to the persistent variable upon exit, so that the player can go back to the first UI to see an updated value and message.
 
@@ -348,14 +348,14 @@ MyButton({
   onClick: () => {
     // console.log("Pressed Less button.");
     if (intLocalCandyCount <= 0) {
-      intlocalcandycount = 0
+      intLocalCandyCount = 0
     } else {
-      intlocalcandycount = intlocalcandycount -1
+      intLocalCandyCount = intLocalCandyCount - 1
     }
-    this.strplayercandytotal.set(intlocalcandycount.tostring());
+    this.strPlayerCandyTotal.set(intLocalCandyCount.toString());
   },
   style: {
-    marginRight = 12,
+    marginRight: 12,
   },
 }),
 ```

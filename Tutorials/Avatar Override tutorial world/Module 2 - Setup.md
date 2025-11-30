@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Note
 
-You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
+You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-monetization-partner-program).
 
 Important
 
@@ -30,4 +30,4 @@ To enable players to equip avatar clothing items, items will need to be created 
 
 These elements are used to detect player interaction and apply the corresponding SKU (item ID) to the player’s avatar.
 
-![Clothing Creation Page](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/557446075_828614593009827_5678205453223964822_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=kic5NZGVb3wQ7kNvwH5vNSv&_nc_oc=AdnDUmYlTFNcBF1m82cS_EDtsgDhjYmLfCAZStSu1rPGc0LjYGbHbQXB8n5wH93gYx8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=EUpRE1aQrzvZNRD3OWEv-w&oh=00_AfiyO3R9sYJMx7kcftiqN0ycBcBja_z30mLOB_80JESidA&oe=6938AD79)
+![Clothing Creation Page](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/557446075_828614593009827_5678205453223964822_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=dEOoUENawFUQ7kNvwHs1M_d&_nc_oc=AdlZGqXqk7jmF-u8Ch1oRebVUUGQ1-jX21rkXfSl4Wzq18j88Gu5mR-T8-k175-ileg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=z_DywezjcKcZruT3FNH-dg&oh=00_AfgfrLwvUjPdZf72KcazXMmzlOy5wRQQP1uzyqX74uxmGw&oe=69464CF9)

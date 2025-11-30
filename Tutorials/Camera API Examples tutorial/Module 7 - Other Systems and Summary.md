@@ -33,7 +33,7 @@ This tutorial world also includes the following mini-systems as a bonus.
 
 Throughout the world, you can see posters like the following:
 
-![Yellow Post-It used for instructions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/472876591_632772209260734_311213788635375535_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=6d1yRJ42Ew0Q7kNvwGw9lyP&_nc_oc=Adn7m-4jCaCK9dUTArL48tp0EyHoIHL6A1WMl_gawpwGLFwWg8djSMUCDCTscla-YyM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DAxJNw1LJo17Q01H3TzmZQ&oh=00_Afh0TlVY0HFoY7bG5t63-fgfOlODg2pExpjULmC1hpx6oA&oe=69313E07)
+![Yellow Post-It used for instructions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/472876591_632772209260734_311213788635375535_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=rR6mm_LE5jMQ7kNvwE7P8sV&_nc_oc=Adm-Z49c1x0BVKEc9XZjtwWnlB1VKem_zjEZqg3HWKnaf5eQC1RaW2Lk0hRZLqKze9E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rxSK4SrIl-N1QZS15-RstQ&oh=00_AfjyLjfiZ4hFiDaD7QWkI9eoUmIxjp84Sfq0sGDv-QfOdQ&oe=69465607)
 
 In the Hierarchy panel, all of these posters are grouped under the Instructions node. Each interface includes:
 
@@ -66,10 +66,10 @@ export const InstructionConsts = {
 
 The `Weapon.ts` script contains a rudimentary system for grabbing and swinging a weapon in hand.
 
-**Note**: It does not contain code to manage collision, damage, or any other standard aspect of combat. For a more robust example, please see the [Chop N Pop Sample World](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
+**Note**: It does not contain code to manage collision, damage, or any other standard aspect of combat. For a more robust example, please see the [Chop N Pop Sample World](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
 
 ### Gun System
 
 The `Gun.ts` script contains a simple gun management system for firing a gun.
 
-**Note**: It does not contain code to manage collisions. For a better example, see [Simple Shooting Mechanics Tutorial World](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%201%20-%20Setup.md).
+**Note**: It does not contain code to manage collisions. For a better example, see [Simple Shooting Mechanics Tutorial World](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-1-setup).

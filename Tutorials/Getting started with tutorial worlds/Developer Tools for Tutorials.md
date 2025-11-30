@@ -10,7 +10,7 @@ When you are building and refining a world, you may find it valuable to have acc
 
 You can also Start, Stop, and Reset the execution of scripts in your world while you are in headset.
 
-![Debug Console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480858407_660734646464490_3192499164679418316_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=jHNh9gsTYf8Q7kNvwF13v5D&_nc_oc=AdlqsEDtOaprlldp3SpmaYE1_Umd4WJ6PJIa29PJyJUr5N2bpzhWxER4ypW8glXHhFI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UIYK8kGAxm7ADXbts22qcQ&oh=00_AfiZ1-tKzwZ79WkqvlYma2nPTJ76KDKAkHO2ypnq28lqmA&oe=69314489)
+![Debug Console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480858407_660734646464490_3192499164679418316_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=k33c70k3kKMQ7kNvwHryDlZ&_nc_oc=AdnZY2r0XJffodomQgN6j7o-1CJ_CFxlP38DPkG9oJbn2GSEOrIIxmHiTd-9iHfCWqw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1FKmAVh2JSt9I_VKz4UtJw&oh=00_AfiFIQMaMBkiiNx6KjF8TBKzCeA5XmbRLCE-CJB7AMbMdw&oe=69465C89)
 
 Debug messages include:
 
@@ -20,7 +20,7 @@ Debug messages include:
 
 In the desktop editor, this information is displayed in the Console tab. However, it is not available in headset unless you deploy the Debug Console gizmo.
 
-For more information, see [Introducing the Debug Console](/hw-docs/Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md).
+For more information, see [Introducing the Debug Console](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/the-debug-console/).
 
 ## Realtime Performance Metrics
 
@@ -28,11 +28,11 @@ When you are in headset, you can review realtime performance metrics of your wor
 
 Through the following display, you can inspect the results to scrub performance over a recent interval, which provides greater fidelity on the data.
 
-![Realtime Performance Metrics](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578347_512501267954496_2333260332297354645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qMkh4mefXRwQ7kNvwH1rSpR&_nc_oc=AdkBn2R5CbeuTFw21lDWji41NAPN1l8it5fxCamf_l2OgRunmu508Qn41OcnGKYE_Ec&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UIYK8kGAxm7ADXbts22qcQ&oh=00_AfhA3Ctjh4ThJyeQayuL1nhLnffTRkXTe5DxmfAy0Q_SQQ&oe=6931245B)
+![Realtime Performance Metrics](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578347_512501267954496_2333260332297354645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Uzg5aziTDpcQ7kNvwG-oZcp&_nc_oc=AdkxLKyk2E8KHMQZ1v0ocVbKggF31Hrl8pddsAyXmkDhvNkPigqaMnteWcHRoCRxIQY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1FKmAVh2JSt9I_VKz4UtJw&oh=00_AfiBYcXlK3-oQFDqjycHcL_yl_JjF4q3Wg0Bzl-vPBTYbg&oe=69463C5B)
 
 * **Perfetto tracing**: Click the Red button to begin a trace capture of your world. This tracing down can later be analyzed through Perfetto.
 * **Performance scrubbing**: Click the Inspect button to analyze data on recent segments of activity in greater detail.
 
 These metrics are displayed through the Utilities menu in your avatar’s wrist. This menu must be enabled.
 
-For more information, see [Enabling the Real-time Metrics Panel](/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md).
+For more information, see [Enabling the Real-time Metrics Panel](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/enabling-and-modifying-the-realtime-metrics-panel/).

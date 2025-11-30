@@ -16,7 +16,7 @@ This station features two example overlays:
 
 Both overlays are visible in the following image:
 
-![Image of Timer and Build Info overlays](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475484540_646003167937638_9115120662051359098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=kCnvvqsVucwQ7kNvwFN08pB&_nc_oc=AdkNdsMyPqR7xB7yiWPWuaxpVA6w1H2fNBIjN42qnPOqUqygGGDLmznaJ7xRO40hWKc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=voCdR4_BRDBbIzOPLc52_g&oh=00_Afjz2e7qfdaGF3fvog17vLxVAkZT9DFbc1TitOgLLdcuIw&oe=69312F68)
+![Image of Timer and Build Info overlays](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475484540_646003167937638_9115120662051359098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=_1NumaGqLRoQ7kNvwF9vSWT&_nc_oc=AdmAjb9LWeY4Xxn5DihVZJ5FDpOIfBCes3o4SOk4oykIrGfeUT63ZmGFjlmUVnc121Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6dNo1Z__ouL157SrOXokHw&oh=00_Afinl_iNsaoNKWd8r4rRT8X5XyBgs50e4grNSxyv_mq-9Q&oe=69464768)
 
 ## Configuration Differences for Screen Overlay Custom UIs
 
@@ -33,7 +33,7 @@ When you are adding a screen overlay, you should consider where to locate it bas
 
 **Tip**: The lower-left corner is generally a safe location. These example overlays are added there.
 
-For more information, see [Safe Placement of UI Controls](/hw-docs/Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Safe%20Placement%20of%20UI%20Controls.md).
+For more information, see [Safe Placement of UI Controls](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/designing-worlds-for-mobile-and-web/safe-placement-of-ui-controls/).
 
 ## Assets
 
@@ -465,7 +465,7 @@ The above displays the Game Over! message for three seconds applying the styling
 
 ```
 // configuration, although only some of them are modified for this example.
-myPopupOptions: hz.PopupOptions => {
+myPopupOptions: hz.PopupOptions = {
   position: new hz.Vec3(0, -0.5, 0), // default
   fontSize: 18, // default
   fontColor: new hz.Color (0,0,0),

@@ -23,19 +23,19 @@ To manage quests in your world, you must create the following entities:
 | Quests | Quests are data entities that you create through the **Systems menu** in the Desktop Editor. A quest is some descriptive text for the player to be displayed in the Quest board, as well as the type of quest: Simple or Tracked (which means it is governed by a persistent variable). These quest types are discussed below. |
 | Script | In TypeScript, you must create the mechanisms for tracking and resolving the quests in your world. In this tutorial world, `QuestManager.ts` provides a simple model for managing quests. It is described in this module. |
 
-For more information, see [Quests Overview](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests%20Overview.md).
+For more information, see [Quests Overview](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/quests-overview).
 
 ### Define quests
 
 You can review the quests defined for this world. In the Desktop Editor, click **Systems menu > Quests**. Click the **Edit icon** next to one of the quests.
 
-![Image of Edit Quest dialog](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480505750_656120590259229_5960089404083004309_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Eobaa6adOX4Q7kNvwHvTiwI&_nc_oc=AdkV12Mx-hhNfFsebr4zl1UHSVctRN02JREPBvLYC1mMcQ6sMP8wHEVKn4JtrOqmaXY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0nxSp_3g4b8GqJtsj5PcOw&oh=00_Afi_9sMQ-Uiszs7MDF-3GNFKfA3F0M2k_QZzuklyB1CN9w&oe=69314126)
+![Image of Edit Quest dialog](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480505750_656120590259229_5960089404083004309_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=OA7UOm4IyscQ7kNvwFSBgLj&_nc_oc=Adlv_4mMmX5GbY7qepH6kNk-HwcHXTO3V4W2Ji-F0vLsxcEpuaq85dNipUTE9MQEI24&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FrNaiYHc3-zPFEr_LTXgcw&oh=00_Afg8UrZ_--Yv8Uc8uZ6JsfjtGYVP1isM6N3Z2-X-JeBXrA&oe=69465926)
 
 The quest definitions in this world are pretty simple: all are of Simple type, which means that they are resolved by flipping a Boolean flag (covered later).
 
 After this quest is completed, the Quest board in the world is updated to reflect the change:
 
-![Image of Quest Board in the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481108344_656120530259235_4081517079952148992_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=eK5FFHZtRbEQ7kNvwHq9-Tn&_nc_oc=AdmHB9Xs5KDCNm5irdQJTIO2oLSnRta1imMjxQ7UixwdnNCREqzkD23clHLzEW4eWqc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0nxSp_3g4b8GqJtsj5PcOw&oh=00_Afiua1UiGWZfA_vxXNyONYRTRPfnvdYWf3L0g9PzCLhj4A&oe=69311C35)
+![Image of Quest Board in the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481108344_656120530259235_4081517079952148992_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=7kaHMOcrjx8Q7kNvwFZGO5f&_nc_oc=AdlfmuZCEntk5VoiIBVRrN8sZCRRCXZB66nHrMFG5qAfS72FqnX72ySYr1TNS0iJr5I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FrNaiYHc3-zPFEr_LTXgcw&oh=00_Afj1LoTr5Zsm_yEyGrmvUFbL30mPBIPYIwW9Rf3rD5SjvA&oe=69463435)
 
 #### Tracked quest type
 
@@ -188,7 +188,7 @@ player.setAchievementComplete(qValue, true)
 
 During development, you can reset quest data through the Desktop Editor. In the **Systems menu**, select **Quests**.
 
-![Image of Quests Panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487535454_686408247230463_3608203584826513381_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=VjG9FkDzKnQQ7kNvwE8jBHN&_nc_oc=Adn6x5HnRV-wT-HxaTwA3pbIwaQmT7BQtExAspAMFxNCYWQZG_gv36ar7ycKjLv4itA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0nxSp_3g4b8GqJtsj5PcOw&oh=00_AfhFboy7yLIM7MRppwOzw1zZ7ZHZ8rPGhNY20vUGOVXymA&oe=69314085)
+![Image of Quests Panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487535454_686408247230463_3608203584826513381_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=L45zXXJE6DMQ7kNvwFsY_jL&_nc_oc=Admsrb64RubS-UJgQKmv0ifsI-jCTCuDwX9mCUZ21VayTxAwBjk9xfF_IAk-EJEY81M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FrNaiYHc3-zPFEr_LTXgcw&oh=00_AfgMC3pO3TvPitRx6F9-Wbeq_6gU9Ks5WQDbqs5F_LU6Pw&oe=69465885)
 
 Then, click the highlighted icon below. In the panel, click **Reset all quests**.
 
@@ -200,7 +200,7 @@ End users who do not have access to the Desktop Editor cannot reset their quests
 
 In this world, the following entities have been added to enable the player to reset quests:
 
-![Image of entities to trigger resetting of quests](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487757061_686408193897135_7032691920648874349_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=DOr8A3N6SY8Q7kNvwGIRvaR&_nc_oc=AdlEAmWqpSZ1Nd4VOYukcdQSB0cf7I48v4KtS55sMovGuHtFQThiiQPeMvyD66xEhGc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0nxSp_3g4b8GqJtsj5PcOw&oh=00_AfgajYR4ENT8tDBznhxz68rC1tVwuUYYDBvtTo_5lwvTXw&oe=69312A38)
+![Image of entities to trigger resetting of quests](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487757061_686408193897135_7032691920648874349_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-JGRa71cB_UQ7kNvwG7rORJ&_nc_oc=Adk8c_29uO9q6UZIIfW6sNRuo0-sfMPnqnoKqw2AREQzz65zlmEky16y9oqbDXgrm5M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FrNaiYHc3-zPFEr_LTXgcw&oh=00_AfjfFhGxLy5PFAU0tEPewQB2itqV3n9Kz7IOKXgNWmNoIA&oe=69464238)
 
 **Entities**:
 

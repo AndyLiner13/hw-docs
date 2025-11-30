@@ -12,7 +12,7 @@ Note
 
 ### Property Binding
 
-![Property Binding](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/577456482_855959393608680_4530106689463455280_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=xPXC3q7o2cQQ7kNvwFNbHC2&_nc_oc=Adnu7RjrNt6RXkCnCQIFNNMjHP-vhzYRIjMWLv0kmwkBSaiUkJ6QyySae_NBBP_UHvQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FPGWcYU0AVJSSPCpm-GzeQ&oh=00_AfiSpVWBubqjwiHbA8qnYLWee0SmKXVDaNySc0zGCoR2sw&oe=69313506)
+![Property Binding](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/577456482_855959393608680_4530106689463455280_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=2AJeNTY05lAQ7kNvwHBdLJo&_nc_oc=Adlp2qn_5mXCQQfsNEVurANjkBSNFh2CoMyN36Loparen8IU4Xw4Ao-KhJf7iXN2OdU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Q8lN2eYLXkCM8d4m4ID1OA&oh=00_AfiUf_Y8edZjTJ1kWNDk-v2NRja8SXzXulPJGEV4AzbmgA&oe=69464D06)
 
 Connects a UI element’s property (like Text or Value) to a value in your data context.
 

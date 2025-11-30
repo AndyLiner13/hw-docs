@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ## Welcome
 
@@ -24,19 +24,19 @@ This tutorial covers the process of creating a starting lobby area in a Meta Hor
 
 ## Before you begin
 
-Please review [Getting Started with Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+Please review [Getting Started with Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
 
 ### First world
 
-This world is based off of the introductory tutorial world found in [Build your first game](/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
+This world is based off of the introductory tutorial world found in [Build your first game](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 ### Follow along
 
-You can create a world based on a tutorial world from either the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+You can create a world based on a tutorial world from either the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
 ## Multiplayer testing
 
@@ -53,11 +53,11 @@ To begin, open your new version of the tutorial world in the desktop editor.
 
 Your world should now be opened in the desktop editor, and should look something like the following:
 
-![Screenshot of the Multiplayer Lobby world opened in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487831991_686408180563803_3808571924566109122_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=5JjK-ffLr-IQ7kNvwFJZRoo&_nc_oc=AdmjuUmBztaEzO-h4cTcSePrJIvI19dZb6MHRCj49jP4lvysggr72g2CVcu1YawJOQ4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nh5bdbFGzM388TUgrvTwYg&oh=00_AfivO_Evb2g4EReCALbvDPgGhm_rBAylg7clUsFINC_q-A&oe=69311AEB)
+![Screenshot of the Multiplayer Lobby world opened in the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487831991_686408180563803_3808571924566109122_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=2jMkwU0j_qwQ7kNvwF9fSJn&_nc_oc=Adnj4Nhca_p8riDR1sKPzx1xeQur1cN4Y9VodKRuA3iVSd8Cf7_gNfmlLzPi0jcvS5A&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=IqN02nBVwtDutolyp9wvJQ&oh=00_AfhHcyqWuv-1KlOsQ2UUfBx9KttGd1Wz-sixMMbj6CYuew&oe=694632EB)
 
 ## Build mode and Preview mode
 
-When you open your world, it is in **Build mode**; to explore the world and playtest it, click the **Preview mode** button. For more information on the various modes, click [here](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md).
+When you open your world, it is in **Build mode**; to explore the world and playtest it, click the **Preview mode** button. For more information on the various modes, click [here](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/operational-modes).
 
 In Preview mode:
 

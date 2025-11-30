@@ -82,7 +82,7 @@ With:
 this.setGameState(GameState.Starting);
 ```
 
-For Popup UI, we are going to use the **World** class from TypeScript API v2.0.0, its **UI** property, and the **showPopupForEveryone** method. (API reference for **world.ui** can be found [here](/hw-docs/Reference/core/Classes/World.md) )
+For Popup UI, we are going to use the **World** class from TypeScript API v2.0.0, its **UI** property, and the **showPopupForEveryone** method. (API reference for **world.ui** can be found [here](https://horizon.meta.com/resources/scripting-api/core.world.ui.md/?api_version=2.0.0) )
 
 In our **GameManager** file, replace:
 

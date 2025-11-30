@@ -6,11 +6,11 @@ In some environments, you may wish to position the player as a spectator to an e
 
 In this tutorial, entering the red target switches the camera to spectator mode:
 
-![Spectator area of the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473725278_632772199260735_5663417698444515637_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UduaRAPVoJsQ7kNvwF-fSEL&_nc_oc=AdlOKkaGJuEnOgNta8kyaazV9s1B39hF48__GIe3so-z7vHPGQYGZAPRXadelGP1CV8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=XR5n7Zdjo7WMulMTfq-dtw&oh=00_AfgnIbvaG_tA-vOKQeNOJgoM3IP5cus05Oi8HKG9kylOJQ&oe=693141F3)
+![Spectator area of the world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473725278_632772199260735_5663417698444515637_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=r5ZG4dq5DQQQ7kNvwGgOXV8&_nc_oc=AdkoZM0mkfy4qQill-UjDeAG7PVGG85QjCOrYJjUvLAGyxbAASMtGrqaQjgNi4Su-NM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=aiegUuyESeuaU10f9t5dcQ&oh=00_Afi1SL3LV3OaeM4keDqs2VSYUSMcs6TlxLR1BLIq4UcNeg&oe=694659F3)
 
 Upon entering, your view transitions to the following:
 
-![Spectator point of view](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473560894_632772152594073_6744967488002230001_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=P63ifKVWiiMQ7kNvwGVUusy&_nc_oc=Adm_P9MHQb6utF2JdWbZhNxMF1PVcjEWGzSBWWyxhKU-de6PQI4WmRtmp8zBWh2VLGc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=XR5n7Zdjo7WMulMTfq-dtw&oh=00_Afh-1FkHX1raY4KHfN5I3v2v_me628_LFNpVz5NJZtOtQA&oe=69314855)
+![Spectator point of view](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473560894_632772152594073_6744967488002230001_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=q-H3b42MNbMQ7kNvwHC7yyY&_nc_oc=AdmbWQ7LUx-wgP9TtBK9Eu27LJ8AM-YEBMbyzS5k8YSGd6yIbPDCbPMjjLbe8O-4R_0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=aiegUuyESeuaU10f9t5dcQ&oh=00_AfjnJsY2saPLabuSD0m8osfVw8DjwJEJZFhkIIXfCrUbgA&oe=69466055)
 
 After stepping onto the target, the player’s perspective is quickly transformed to the point of view of the stationary reference object positioned above the target, looking out over the above scene.
 
@@ -63,7 +63,7 @@ In `PlayerCamera.ts`:
   + Sets locomotion on the player to 0
   + Calls to displayCameraResetButton(), which activates the Q button on the mobile and web screen.
 
-For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](/hw-docs/Tutorials/Camera%20API%20Examples%20tutorial/Module%202%20-%20PlayerCamera%20Overview.md).
+For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-2-playercamera-overview).
 
 ## Checkpoint
 

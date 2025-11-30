@@ -23,7 +23,7 @@ Key features:
 Resource nodes have the following configurable properties:
 
 * **maxHealth**: Maximum health points for the node
-* **resourceType**: Type of resource the node produces (wood, stone, crystal)
+* **resourceType**: Type of resource the node produces
 * **resourceAmount**: Amount of resource generated per successful mine
 * **respawnTime**: Time in seconds before a depleted node respawns
 * **miningDifficulty**: How much damage is required per mining action
@@ -39,31 +39,6 @@ The mining process follows these steps:
 - Node enters a cooldown state and begins respawn timer
 - After respawn time expires, node returns to full health
 
-### Resource types
-
-The reference world includes three main resource types:
-
-#### Wood Nodes
-
-* **Health**: 10 points
-* **Resource Type**: Wood
-* **Amount per Mine**: 1-3 wood
-* **Respawn Time**: 30 seconds
-
-#### Stone Nodes
-
-* **Health**: 20 points
-* **Resource Type**: Stone
-* **Amount per Mine**: 1-2 stone
-* **Respawn Time**: 45 seconds
-
-#### Crystal Nodes
-
-* **Health**: 30 points
-* **Resource Type**: Crystal
-* **Amount per Mine**: 1 crystal
-* **Respawn Time**: 60 seconds
-
 ## Integration with other systems
 
 Resource nodes integrate with:
@@ -78,31 +53,7 @@ Resource nodes integrate with:
 
 - Select the resource node entity.
 - Locate the ResourceNode component.
-- Adjust properties like maxHealth, resourceAmount, respawnTime, and resourceType.
-
-#### Wood Nodes
-
-* **Health**: 10 points
-* **Resource Type**: Wood
-* **Amount per Mine**: 1-3 wood
-* **Respawn Time**: 30 seconds
-* **Appearance**: Tree stumps and fallen logs
-
-#### Stone Nodes
-
-* **Health**: 20 points
-* **Resource Type**: Stone
-* **Amount per Mine**: 1-2 stone
-* **Respawn Time**: 45 seconds
-* **Appearance**: Rock formations and boulders
-
-#### Crystal Nodes
-
-* **Health**: 30 points
-* **Resource Type**: Crystal
-* **Amount per Mine**: 1 crystal
-* **Respawn Time**: 60 seconds
-* **Appearance**: Glowing crystal formations
+- Adjust properties like resourceType, toolType, workToExtract, vfxEntity, vfxColor.
 
 ## Visual and audio feedback
 

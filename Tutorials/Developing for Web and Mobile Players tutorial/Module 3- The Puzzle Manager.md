@@ -245,13 +245,13 @@ Next, we build the Camera Manager to control the camera depending on the game si
 
 #### Additional documentation:
 
-* [Local Events](/hw-docs/Scripting/Events/Local%20Events.md)
-* [Broadcast Events](/hw-docs/Scripting/Events/Broadcast%20Events.md)
-* [Events Best Practices](/hw-docs/Scripting/Events/Events%20Best%20Practices.md)
+* [Local Events](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/local-events/)
+* [Broadcast Events](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/broadcast-events/)
+* [Events Best Practices](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/events-best-practices/)
 
 #### API docs:
 
-* [CodeBlockEvent](/hw-docs/Reference/core/Classes/CodeBlockEvent.md)
-* [LocalEvent](/hw-docs/Reference/core/Classes/LocalEvent.md)
-* [NetworkEvent](/hw-docs/Reference/core/Classes/NetworkEvent.md)
-* [CodeBlockEvents](/hw-docs/Reference/core/Variables/CodeBlockEvents.md)
+* [CodeBlockEvent](https://horizon.meta.com/resources/scripting-api/core.codeblockevent.md/?api_version=2.0.0)
+* [LocalEvent](https://horizon.meta.com/resources/scripting-api/core.localevent.md/?api_version=2.0.0)
+* [NetworkEvent](https://horizon.meta.com/resources/scripting-api/core.networkevent.md/?api_version=2.0.0)
+* [CodeBlockEvents](https://horizon.meta.com/resources/scripting-api/core.codeblockevents.md/?api_version=2.0.0)

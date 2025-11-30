@@ -9,7 +9,7 @@ Chop ‘N Pop: Graveyard Bash allows visitors to select one of two kinds of weap
 
 Since the weapons have different mechanisms for attacking, they are covered in different modules. This module covers the Axe weapon and related systems.
 
-![Image of axe examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467570579_593923069812315_3936592786219167883_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=iUUW_hW5xMMQ7kNvwEFXEU5&_nc_oc=AdmUfAn0D_4FSKV4DS_Y9JyYREl8BG5v-kaUaQiTdmsZ5hbH_mTW7qHmdytXlgkpAaQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=w3kbqpk9Pennasbd37RHew&oh=00_AfiJi_fGB5aO7cLVh1X0aFPKQWk1OdpFLqh53xmQjW1luQ&oe=69314B28)
+![Image of axe examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467570579_593923069812315_3936592786219167883_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Nn8rfbMTUBoQ7kNvwE0gJP8&_nc_oc=Adnz2z0RUFW8S_px3iBLY3mcweO3K048ciTzVqp5P44xQlXf_5iF4-kmfV55XKa4sog&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CVkrgEklWGrO6_99kjc7Vg&oh=00_Afjm6CnnVrFRpvIp9hmlijfM9pdoiHMl1qg6u2Q1MJDPXg&oe=69462AE8)
 
 The axe weapon system is composed of an axe asset and the related scripts. There are four axes available in the world near the entrance to the graveyard.
 
@@ -96,7 +96,7 @@ Copy contents of `Axe.ts` and all dependent scripts from their source and into t
 
 Create an asset template out of the BadAxe node and its child nodes. Add this to your world, and fix the broken script reference to `Axe.ts`, replacing it on the BadAxe script properties with your own version of `Axe.ts`.
 
-For more information, see [Module 1 - Setup](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
+For more information, see [Module 1 - Setup](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
 
 ## How to Use
 
