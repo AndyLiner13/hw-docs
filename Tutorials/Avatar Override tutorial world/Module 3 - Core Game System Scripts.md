@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Note
 
-You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-monetization-partner-program).
+You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 In your game, the GameManager system consists of a set of scripts that drive core gameplay flow, state management, player showcases, timers, and event coordination. These scripts provide the foundation for managing game phases, player positioning, voting, and game lifecycle events.
 

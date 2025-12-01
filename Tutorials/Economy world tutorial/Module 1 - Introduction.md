@@ -10,7 +10,7 @@ Welcome to module 1 of the Economy World tutorial. In this tutorial, you will le
 
 Requirements
 
- You must be a member of MHCP and accept the terms in the Developer Dashboard to create in-world items and currency. Learn more from [Monetization opportunities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-monetization-partner-program).
+ You must be a member of MHCP and accept the terms in the Developer Dashboard to create in-world items and currency. Learn more from [Monetization opportunities](/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 ## Decoupling economy from monetization
 
@@ -44,7 +44,7 @@ In our example world, we have established an in-world economy based on a simple 
 
 The backbone of the in-world economy and shop gizmo is the world inventory. The world inventory exists behind the scenes, storing the amount of each in-world item for each player entering the world. The world inventory persists after the player leaves the world, which means the next time the player joins, the world inventory will load as the player left it. The World Inventory is automatically created for each world.
 
-There are several [TypeScript APIs](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_worldinventory) available to manage the world inventory. The key API calls for this tutorial are:
+There are several [TypeScript APIs](/hw-docs/Reference/core/Classes/WorldInventory.md) available to manage the world inventory. The key API calls for this tutorial are:
 
 * `hz.WorldInventory.grantItemToPlayer(player, "item_sku", 1);`: The grantItemToPlayer method is used to grant a quantity of in-world items to the player’s world inventory.
 * `hz.WorldInventory.consumeItemForPlayer(player, "item_sku", 5);`: This method is used to remove a quantity of in-world items from the player’s world inventory.
