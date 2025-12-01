@@ -16,7 +16,7 @@ export declare type CameraTransitionOptions = {
 
 ## References
 
-[Easing](/hw-docs/Reference/camera/Enumerations/Easing.md)
+[Easing](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Enumerations/Easing.md)
 
 ## Remarks
 

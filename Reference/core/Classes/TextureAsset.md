@@ -2,9 +2,9 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_texturea
 
 # TextureAsset Class
 
-Extends *[Asset](/hw-docs/Reference/core/Classes/Asset.md)*
+Extends *[Asset](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Asset.md)*
 
-Represents a texture [Asset](/hw-docs/Reference/core/Classes/Asset.md). A texture is a binary image that is applied over the mesh surface. Texture images can be stretched (or shrunk) and attached to a mesh.
+Represents a texture [Asset](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Asset.md). A texture is a binary image that is applied over the mesh surface. Texture images can be stretched (or shrunk) and attached to a mesh.
 
 ## Signature
 
@@ -14,7 +14,7 @@ export declare class TextureAsset extends Asset
 
 ## Remarks
 
-For information about usage, see the [Image from Asset](/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md) tutorial.
+For information about usage, see the [Image from Asset](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md) tutorial.
 
 ## Methods
 

@@ -38,7 +38,7 @@ But if you created the trees from an asset template, then you could update all o
 
 * Asset templates are compatible with anything that can be spawned into the world.
 * VR support for asset templates is limited. Overrides to instances of assets done in VR can only be applied to the definition via the Desktop Editor.
-* We recommend using only [File-Backed Scripts](/hw-docs/Scripting/File-Backed%20Scripts.md) (FBS) worlds for the best experience and full functionality. **Non-FBS scripts are not fully supported.** Without file-backed scripts:
+* We recommend using only [File-Backed Scripts](/hw-mcp-tools/documentation/hw-docs/Scripting/File-Backed%20Scripts.md) (FBS) worlds for the best experience and full functionality. **Non-FBS scripts are not fully supported.** Without file-backed scripts:
 
   + If you add non-FBS script to the template definition, when editing the template definition you can’t edit the script (it will not show in the script dropdown in properties).
   + If you edit a non-FBS script and/or attach it to an instance of the asset template changes to the script on an instance will not appear as overrides and thus cannot be applied to the template definition and propagated across worlds.

@@ -79,7 +79,7 @@ When an interactive, non-blocking screen overlay is visible on the screen, the f
 
 ### Mobile
 
-* On-screen player controls are still visible (you can disable the default onscreen buttons for mobile players with the [Custom Input API](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md))
+* On-screen player controls are still visible (you can disable the default onscreen buttons for mobile players with the [Custom Input API](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md))
 * Player can interact with any panel marked as **Interactive, Non-Blocking** using touch input
 
 #### VR

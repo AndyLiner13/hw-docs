@@ -8,7 +8,7 @@ A variety of primary tools can be found on the Meta Horizon Worlds Desktop Edito
 
 This set of tools contains the following options:
 
-- [The Main menu](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md)
+- [The Main menu](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md)
 - [Microphone](#microphone)
 - [Development mode](#development-mode)
 - [Publish button](#publish-button)
@@ -49,7 +49,7 @@ The Desktop Editor provides you with a large palette of tools to work with, occa
 
 The final step in releasing your world to players is to publish it. To release your world click the **Publish** button.
 
-For more information, see [Publish Your World](/hw-docs/VR%20tools/Publish%20your%20world%20using%20VR%20tools.md).
+For more information, see [Publish Your World](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Publish%20your%20world%20using%20VR%20tools.md).
 
 ## World simulation toggle
 
@@ -65,9 +65,9 @@ Clicking the toggle again will turn world simulation off and revert the toggle b
 
 The selection of primary tools is part of the suite of tools in the Desktop Editor UI. For more details about the User interface, see
 
-* [The Desktop Editor user interface](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md)
+* [The Desktop Editor user interface](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md)
 
 You can explore the editor by working through the following beginner tutorials below:
 
-* [Create Your First World](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
-* [Batting Cage Tutorial](/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)
+* [Create Your First World](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
+* [Batting Cage Tutorial](/hw-mcp-tools/documentation/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)

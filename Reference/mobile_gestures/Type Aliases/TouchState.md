@@ -19,4 +19,4 @@ export declare type TouchState = {
 
 ## References
 
-[TouchPhase](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchPhase.md), [TouchInfo](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchInfo.md)
+[TouchPhase](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchPhase.md), [TouchInfo](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchInfo.md)

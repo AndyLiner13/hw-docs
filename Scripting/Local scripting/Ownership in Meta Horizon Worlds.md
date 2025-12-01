@@ -73,14 +73,14 @@ this.entity.owner.set(player);
 
 ## Ownership transfer between clients
 
-The following list shows the order of operations involved in an ownership transfer. Assume that calls are made on a script component called MyScriptComponent, and that ClientA and ClientB are of type [`Player`](/hw-docs/Reference/core/Classes/Player.md).
+The following list shows the order of operations involved in an ownership transfer. Assume that calls are made on a script component called MyScriptComponent, and that ClientA and ClientB are of type [`Player`](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md).
 
 - **ClientA** calls `this.entity.owner.set(clientB);`. This triggers a manual transfer of ownership from ClientA to ClientB.
-- **ClientA** calls [`transferOwnership()`](/hw-docs/Reference/core/Abstract Classes/Component.md). You can implement this optional method in your script to return state details that are sent to the instance of the script component that will run on ClientB.
-- **ClientA** calls [`dispose()`](/hw-docs/Reference/core/Abstract Classes/Component.md). All of your cleanup details are run in the script.
+- **ClientA** calls [`transferOwnership()`](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract Classes/Component.md). You can implement this optional method in your script to return state details that are sent to the instance of the script component that will run on ClientB.
+- **ClientA** calls [`dispose()`](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract Classes/Component.md). All of your cleanup details are run in the script.
 - **ClientB** creates a new instance of **MyScriptComponent**.
-- **ClientB** calls [`start()`](/hw-docs/Reference/core/Abstract Classes/Component.md).
-- **ClientB** calls [`receiveOwnership()`](/hw-docs/Reference/core/Abstract Classes/Component.md). All of the states that you send from ClientA are received by ClientB. You can use it to persist state between clients.
+- **ClientB** calls [`start()`](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract Classes/Component.md).
+- **ClientB** calls [`receiveOwnership()`](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract Classes/Component.md). All of the states that you send from ClientA are received by ClientB. You can use it to persist state between clients.
 
 ## When to prevent ownership transfer
 

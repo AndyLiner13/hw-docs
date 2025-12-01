@@ -20,11 +20,11 @@ This video demonstrates how easy it is to bring in an object from Blender and ad
 
 This series of videos, provided by the Meta Horizon Creator Program (MHCP), is a comprehensive introduction to 3D modeling using Blender.
 
-* [3D Modeling 101: Week 1](/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%201.md)
-* [3D Modeling 101: Week 2](/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%202.md)
-* [3D Modeling 101: Week 3](/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%203.md)
-* [3D Modeling 101: Week 4](/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%204.md)
-* [3D Modeling 101: Week 5](/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%205.md)
+* [3D Modeling 101: Week 1](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%201.md)
+* [3D Modeling 101: Week 2](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%202.md)
+* [3D Modeling 101: Week 3](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%203.md)
+* [3D Modeling 101: Week 4](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%204.md)
+* [3D Modeling 101: Week 5](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/3D%20Modeling%20101%20-%20Week%205.md)
 
 ## Uploading Finished Models
 

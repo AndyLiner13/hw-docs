@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_vid
 
 # VideoCaptureResponseCode Enum
 
-The response codes for [PlayerCapturing](/hw-docs/Reference/capturing/Classes/PlayerCapturing.md) functions.
+The response codes for [PlayerCapturing](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Classes/PlayerCapturing.md) functions.
 
 ## Signature
 

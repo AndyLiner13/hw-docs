@@ -22,7 +22,7 @@ An example of a set of image previews that have been optimized for landscape (16
 
 Preview images of your world(s) are displayed on various discovery surfaces on mobile and in VR, such as **Feed**, **Search**, and **Store**. Quality images are a proven, powerful lever to increase interest and downstream engagement. World images are the “book covers” in Meta Horizon, where accurate and exciting images can improve visits and time spent up to 40%.
 
-The closer the image is to the world experience, the more users will engage deeply with that world. To learn more about worlds discovery surfaces, as well as tips and tricks on improving the discoverability of your world, check [Intro to Worlds Discovery](/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md).
+The closer the image is to the world experience, the more users will engage deeply with that world. To learn more about worlds discovery surfaces, as well as tips and tricks on improving the discoverability of your world, check [Intro to Worlds Discovery](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md).
 
 ## Image examples
 
@@ -65,7 +65,7 @@ Once you’ve created image assets for your world, you can upload them via the H
 
 * Keep key focal points within the safe area. This ensures important visual elements aren’t cut off on different surfaces or devices.
 * Maintain visual consistency. All images should use the same core imagery to help users recognize your experience across various surfaces.
-* Design your images for scalability. Images may appear at different sizes depending on the [discovery surface](/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md). Make sure key visuals remain clear and legible at any scale.
+* Design your images for scalability. Images may appear at different sizes depending on the [discovery surface](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md). Make sure key visuals remain clear and legible at any scale.
 * Don’t place your text in corners. Text in these areas is more likely to be cut off or overlooked. Using the templates provided will ensure important info falls within the safe zone.
 * Skip taglines or extra descriptions. Let your visuals speak for themselves.
 
@@ -124,8 +124,8 @@ For an optimal display across all available aspect ratios, consider these helpfu
 
 Preview images are displayed on various discovery surfaces on mobile and in VR, such as **Feed**, **Search**, and **Store**. Quality images are a proven, powerful lever to increase interest and downstream engagement. World images are the “book covers” in Meta Horizon, where accurate and exciting images can improve visits and time spent up to 40%.
 
-The closer the image is to the world experience, the more users will engage deeply with that world. To learn more about worlds discovery surfaces, as well as tips and tricks on improving the discoverability of your world, check [Intro to Worlds Discovery](/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md).
+The closer the image is to the world experience, the more users will engage deeply with that world. To learn more about worlds discovery surfaces, as well as tips and tricks on improving the discoverability of your world, check [Intro to Worlds Discovery](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md).
 
 ## Uploading preview images
 
-You can upload images using the Developer Dashboard. For more information, see [Add world details](/hw-docs/Save,%20optimize,%20and%20publish/Add%20world%20details.md).
+You can upload images using the Developer Dashboard. For more information, see [Add world details](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Add%20world%20details.md).

@@ -18,7 +18,7 @@ With LOD, you avoid overshading sub-pixel triangles by switching to a lower-deta
 
 **Note:** The current LOD feature only works with Desktop Editor.
 
-* A Windows PC with [Meta Horizon Worlds desktop editor configured](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+* A Windows PC with [Meta Horizon Worlds desktop editor configured](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 * [Simplygon](https://www.simplygon.com/) software installed.
   + This is required to import LOD assets and publish a world with LOD assets.
 * A Custom Model Import world running in edit mode in Desktop Editor to import LOD assets into.

@@ -133,7 +133,7 @@ This is a very general recommendation, and artists should adjust as needed.
 
 A 3D model is made up of Mesh + Textures + Materials.
 
-**Note:** See [**Materials Specifications**](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md) section for channel packing.
+**Note:** See [**Materials Specifications**](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md) section for channel packing.
 
 ### Mesh recommendations
 

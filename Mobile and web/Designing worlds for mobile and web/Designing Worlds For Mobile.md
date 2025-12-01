@@ -74,7 +74,7 @@ Players value and continue to engage with worlds where they have paid for items.
 
 ### Simplify interactions and use the touchscreen to engage players
 
-VR controls feel best when embodied and there’s a tight connection between player’s physical actions and effect in the world. Mobile can produce a similar feeling of immersion using [**Focused interaction**](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md) , enabling players to directly interact with the world through taps and swipes.
+VR controls feel best when embodied and there’s a tight connection between player’s physical actions and effect in the world. Mobile can produce a similar feeling of immersion using [**Focused interaction**](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md) , enabling players to directly interact with the world through taps and swipes.
 
 **Examples**:
 
@@ -106,14 +106,14 @@ Portrait orientation on mobile devices provides a different aspect ratio and vie
 
 **Examples**:
 
-* Use the [spawn point gizmo’s mobile camera options](/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) to configure different camera parameters for portrait and landscape orientations.
-* Test your world in both orientations using the [Preview Configuration](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options to ensure UI elements and game mechanics work well in portrait mode.
+* Use the [spawn point gizmo’s mobile camera options](/hw-mcp-tools/documentation/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) to configure different camera parameters for portrait and landscape orientations.
+* Test your world in both orientations using the [Preview Configuration](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options to ensure UI elements and game mechanics work well in portrait mode.
 * Consider how the taller, narrower viewport of portrait mode affects player visibility and navigation in your world.
-* When [publishing your world](/hw-docs/Desktop%20editor/Settings/World%20Settings%20Modification.md#advanced), set the **World Orientation** option to specify whether your world is optimized for portrait or landscape viewing.
+* When [publishing your world](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Settings/World%20Settings%20Modification.md#advanced), set the **World Orientation** option to specify whether your world is optimized for portrait or landscape viewing.
 
 **Scripting considerations**:
 
-* Use the experimental [Portrait Camera API](/hw-docs/Gizmos/Spawn%20point%20gizmo.md#portrait-camera-api) to detect the current orientation and adjust gameplay elements accordingly.
+* Use the experimental [Portrait Camera API](/hw-mcp-tools/documentation/hw-docs/Gizmos/Spawn%20point%20gizmo.md#portrait-camera-api) to detect the current orientation and adjust gameplay elements accordingly.
 * Implement orientation-specific logic to optimize the player experience for different viewing modes.
 
 ### Provide feedback on actions
@@ -137,7 +137,7 @@ Mobile players will have a lot less space for information as their screen is per
 
 **Examples**:
 
-* Communicate crucial world state information through [non interactive screen-space Custom UI](/hw-docs/Desktop%20editor/Custom%20UI/Non-interactive%20custom%20UI%20screen%20overlay.md) .
+* Communicate crucial world state information through [non interactive screen-space Custom UI](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Non-interactive%20custom%20UI%20screen%20overlay.md) .
 * Consider screen real-estate vs. text size - text needs to be clear and legible even on smaller mobile screens.
 
 ### Consider gameplay balance
@@ -146,4 +146,4 @@ Mobile players are limited in the ways they can interact with the world. This ca
 
 **Examples**:
 
-* Balance for mobile players by simplifying the controls, automating some interactive elements (e.g. auto-fire when pointing at an enemy) and reducing the need for precise accuracy (e.g. [aim assist](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Aim%20Assist.md)).
+* Balance for mobile players by simplifying the controls, automating some interactive elements (e.g. auto-fire when pointing at an enemy) and reducing the need for precise accuracy (e.g. [aim assist](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Aim%20Assist.md)).

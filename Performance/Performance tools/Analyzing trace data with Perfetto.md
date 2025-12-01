@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 # Analyzing trace data with Perfetto
 
-In another article, you learned [how to capture a trace](/hw-docs/Performance/Performance%20tools/Tracing.md) using the Utilities menu found on your wearable. Taking it one step further, this guide will help you understand where to find those traces and how to get the most out of the information you’ve captured. We’ve also include a handy guide to [Perfetto Tool Keyboard shortcuts](#perfetto-tool-keyboard-shortcuts) that you can reference while working within [Perfetto](https://ui.perfetto.dev/).
+In another article, you learned [how to capture a trace](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Tracing.md) using the Utilities menu found on your wearable. Taking it one step further, this guide will help you understand where to find those traces and how to get the most out of the information you’ve captured. We’ve also include a handy guide to [Perfetto Tool Keyboard shortcuts](#perfetto-tool-keyboard-shortcuts) that you can reference while working within [Perfetto](https://ui.perfetto.dev/).
 
 By the end of this user guide, you’ll know how to:
 
@@ -12,7 +12,7 @@ By the end of this user guide, you’ll know how to:
 * Examine the main thread
 * Examine common counters
 
-As you get more familiar with Perfetto and the Real-time Metrics menu, reference this checklist to better understand the cause and effect of performance issues. For a more in-depth explanation and step-by-step tutorial on how to use this checklist, go watch the [Connect ‘23 Horizon World Performance Optimization Best Practices talk](/hw-docs/Performance/Connect%20'23%20Video%20Series-%20World%20Optimization%20Best%20Practices.md).
+As you get more familiar with Perfetto and the Real-time Metrics menu, reference this checklist to better understand the cause and effect of performance issues. For a more in-depth explanation and step-by-step tutorial on how to use this checklist, go watch the [Connect ‘23 Horizon World Performance Optimization Best Practices talk](/hw-mcp-tools/documentation/hw-docs/Performance/Connect%20'23%20Video%20Series-%20World%20Optimization%20Best%20Practices.md).
 
 ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452392375_512500747954548_2104090671995035942_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=jHGkowF-nRkQ7kNvwF5ry3n&_nc_oc=Adno4YDZlqoG9h9vcEIqlPK_6NfkgmuyrGGV2gLar9kJM2xP7Kt_10LEuIjCNOz7iBM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LhPimjiPHKzWHcSRqg72pQ&oh=00_AfgS7S2UkOFJC_14kYkpjwuO-m0bJiTV7pYBseLj5fse2A&oe=69311324)
 
@@ -117,7 +117,7 @@ These counters are related to CPU usage:
 | Thread *or* Thread Pool Wor | A worker thread for the main thread. |
 | IL2CPP Thread Pool worker | Call graph for a function that converts .NET script to native. |
 | TaskManager::BackgroundThread | Call graph for main background thread. |
-| AppSpaceWarp | [Frame Budget Boost](/hw-docs/Save,%20optimize,%20and%20publish/Learn%20about%20Frame%20Budget%20Boost.md) must be enabled for ASW to adaptively turn on. A value of 0 means ASW is off, a value of 1 means AWS is on. When ASW is on, the number of milliseconds of work your world can do per-frame is nearly doubled. |
+| AppSpaceWarp | [Frame Budget Boost](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Learn%20about%20Frame%20Budget%20Boost.md) must be enabled for ASW to adaptively turn on. A value of 0 means ASW is off, a value of 1 means AWS is on. When ASW is on, the number of milliseconds of work your world can do per-frame is nearly doubled. |
 | ClientSpawn | Call graph of a new client asset being spawned. |
 | ClientDespawn | Call graph of a client asset being despawned. |
 | ServerSpawn | Call graph of server spawns. |
@@ -173,7 +173,7 @@ This counter is related to particle simulation:
 
 ### UI
 
-These counters are related to [Custom UI elements](/hw-docs/Desktop%20editor/Custom%20UI/Performance%20Metrics%20for%20Custom%20UI.md) in the world:
+These counters are related to [Custom UI elements](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Performance%20Metrics%20for%20Custom%20UI.md) in the world:
 
 | Counter | Description |
 | --- | --- |
@@ -203,7 +203,7 @@ These counters are related to ReactVR, the UI library for Horizon Worlds:
 
 ### Audio
 
-These counters are related to the [audio](/hw-docs/Scripting/API%20references%20and%20examples/Audio%20APIs.md) runtime:
+These counters are related to the [audio](/hw-mcp-tools/documentation/hw-docs/Scripting/API%20references%20and%20examples/Audio%20APIs.md) runtime:
 
 | Counter | Description |
 | --- | --- |
@@ -270,7 +270,7 @@ These counters measure the performance of the LocalPlayerGroundSurfaceService:
 
 ### Scripting
 
-These counters are related to the [Typescript](/hw-docs/Scripting/Scripting%20using%20TypeScript.md) scripts in the world:
+These counters are related to the [Typescript](/hw-mcp-tools/documentation/hw-docs/Scripting/Scripting%20using%20TypeScript.md) scripts in the world:
 
 | Counter | Description |
 | --- | --- |

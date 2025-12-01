@@ -503,7 +503,7 @@ hz.Component.register(NPCWelcomeRobot);
 
 NPCs are able to path through the world using a Navigation Mesh Volume. In the sample world you can observe the Chicken NPC wandering around the Navigation Bounding Box.
 
-Your NPCs are able to path through the world using a [Navigation Mesh Volume](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md). In the NPC Example world, Chicken NPCs can be seen wandering around the Navigation Bounding Box based on the their pathing logic.
+Your NPCs are able to path through the world using a [Navigation Mesh Volume](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md). In the NPC Example world, Chicken NPCs can be seen wandering around the Navigation Bounding Box based on the their pathing logic.
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/459326773_883524513709142_2055811114306402530_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=x_YRTEy9L2oQ7kNvwGY2TUK&_nc_oc=AdnkwRhfNuXQh-ojoj0FdP1zJ24-G-WxtNQ3CSRaUdUkI1T2WaUHFSP77n8z6VOYEeY&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=mPOvPV1vaoN4pQT-Oybh7Q&oh=00_Afhhw5hwWQ_28IKgBjq6pBa6i59FNvP6amfy_SrrkQvesw&oe=691D8536)
 

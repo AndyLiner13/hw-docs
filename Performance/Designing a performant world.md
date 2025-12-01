@@ -25,7 +25,7 @@ Avoid mixing Trimesh and SubD because doing this will add an unwanted CPU perfor
 
 ### Merge meshes to reduce draw call count
 
-For best performance, you will want to merge world meshes to reduce draw calls. Read the [GPU Best Practices](/hw-docs/Performance/Performance%20best%20practices/GPU%20best%20practices.md) section before deciding which world meshes to merge. Please see the [Horizon World Creator: GPU Performance Best Practices](/hw-docs/Performance/Performance%20best%20practices/GPU%20best%20practices.md) document for more information on merging meshes.
+For best performance, you will want to merge world meshes to reduce draw calls. Read the [GPU Best Practices](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20best%20practices/GPU%20best%20practices.md) section before deciding which world meshes to merge. Please see the [Horizon World Creator: GPU Performance Best Practices](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20best%20practices/GPU%20best%20practices.md) document for more information on merging meshes.
 
 ## Technical art choices
 
@@ -87,7 +87,7 @@ By adding twists and turns to your world, you can limit the amount of objects vi
 
 Each object when rendered will generate its own draw call which can be expensive. Merging meshes allows for a single draw call to render multiple objects and is a very common practice in Meta Horizon Worlds to increase performance.
 
-It is important to merge meshes in such a way to take advantage of frustum culling which ensures that only objects the player is currently seeing are rendered. Please see the [Horizon World Creator: GPU Performance Best Practices](/hw-docs/Performance/Performance%20best%20practices/GPU%20best%20practices.md) document for more information on merging meshes.
+It is important to merge meshes in such a way to take advantage of frustum culling which ensures that only objects the player is currently seeing are rendered. Please see the [Horizon World Creator: GPU Performance Best Practices](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20best%20practices/GPU%20best%20practices.md) document for more information on merging meshes.
 
 ### Avoid creating overly large merged meshes
 
@@ -133,7 +133,7 @@ If any AABB intersects with the view frustum, they will be drawn and go through 
 
 ## Use set visibility to hide objects
 
-Long hallways are a design layout we have seen in some worlds. However, when at one side of a hallway and facing the other side, all objects are in the frustum. This is another version of the entire world visible all at once. However, there is something you can do to reduce the number of objects rendered. Use the [Entity API](/hw-docs/Reference/core/Classes/Entity.md) to set visibility on or off.
+Long hallways are a design layout we have seen in some worlds. However, when at one side of a hallway and facing the other side, all objects are in the frustum. This is another version of the entire world visible all at once. However, there is something you can do to reduce the number of objects rendered. Use the [Entity API](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md) to set visibility on or off.
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452756647_512536567950966_2643662129032564579_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=KqSZBLS8LfMQ7kNvwG2YAu-&_nc_oc=AdmYdoVnMKPKjPLsRdVKnxuNLgxXBmA50QC22mfkUeWbcA1tGu-HeFO4PgIBaG6m7xY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7ZyIqGYfsz4lfd1JOxuRMw&oh=00_AfiXEGdZ-cNPht88jiKD2aH2V9JgqjGWqRPB5DlPEhYCqg&oe=69313BD4)
 
@@ -169,7 +169,7 @@ If you can’t hide the CPU spikes, they can be reduced  by controlling the amo
 
 #### Waiting room
 
-The easiest way to do this is utilizing a waiting room with a progress display, that way there is not much limit to how slowly you can trickle. Ideally there is something interesting to do in the room while waiting. You can use the [SpawnController API](/hw-docs/Reference/core/Classes/SpawnControllerBase.md) to check “currentState” and see if the assets have completely loaded or not, but it does not provide a percentage complete.
+The easiest way to do this is utilizing a waiting room with a progress display, that way there is not much limit to how slowly you can trickle. Ideally there is something interesting to do in the room while waiting. You can use the [SpawnController API](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/SpawnControllerBase.md) to check “currentState” and see if the assets have completely loaded or not, but it does not provide a percentage complete.
 
 If you want to show a countdown timer, it is necessary to fake it by using a stopwatch to see how long it takes to actually load the content. Keep in mind loading on Quest 3 may be faster than Quest 2, so you would want to time using Quest 2.
 
@@ -191,13 +191,13 @@ It is recommended to build your world as a gameplay only MVP first, avoiding det
 
 ### Capacity Settings
 
-Meta Horizon Worlds has a built in way to view the complexity of your world. Check this to see where your current world may be using too many resources. See the [Capacity Settings](https://www.oculus.com/horizon-worlds/learn/tutorial/capacity-settings/) documentation on the Oculus website for info on how to see the capacity settings. See the [Creator capacity limits in Meta Horizon Worlds](/hw-docs/Save,%20optimize,%20and%20publish/Creator%20capacity%20limits.md) for how to interpret the various information presented on that screen.
+Meta Horizon Worlds has a built in way to view the complexity of your world. Check this to see where your current world may be using too many resources. See the [Capacity Settings](https://www.oculus.com/horizon-worlds/learn/tutorial/capacity-settings/) documentation on the Oculus website for info on how to see the capacity settings. See the [Creator capacity limits in Meta Horizon Worlds](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Creator%20capacity%20limits.md) for how to interpret the various information presented on that screen.
 
 ### Consider avatar count
 
 A world that supports 1 avatar and a world that supports 15 avatars have vastly different limitations. The world with 15 avatars may use up to 6 ms more per frame than the world with 1 avatar. This will eat into your world’s time budget (CPU and GPU). This means the more avatars your world supports the less detailed graphically your world will need to be to remain performant.
 
-The [Performance Limits for a World](/hw-docs/Performance/Performance%20limits%20for%20a%20World.md)
+The [Performance Limits for a World](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20limits%20for%20a%20World.md)
 
 document will help you decide the parameters of your world budget. Even though the document says a more static world may be able to have 1 million polygons, it does not take into account the avatar count, world layout, or which meshes you merge which can impact this number dramatically.
 
@@ -209,8 +209,8 @@ This means if you have 16 players and they all use the same weapon with the same
 
 ## Use the simplest materials possible
 
-Choosing the simplest materials will yield the best performance. The [Materials Guidance and Reference for Custom Models](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md) document has a list of materials to choose from. Generally, a material that samples less textures is more performant. Materials using vertex colors only or textures only will perform better than materials with advanced metalness calculations. The differences between materials becomes the most obvious on objects that either take up a large portion of the screen visually or have an extreme amount of vertices.
+Choosing the simplest materials will yield the best performance. The [Materials Guidance and Reference for Custom Models](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md) document has a list of materials to choose from. Generally, a material that samples less textures is more performant. Materials using vertex colors only or textures only will perform better than materials with advanced metalness calculations. The differences between materials becomes the most obvious on objects that either take up a large portion of the screen visually or have an extreme amount of vertices.
 
 ## Follow best practices
 
-As you can see, there are many things that will use up the limited CPU and GPU time available to your world. Because of this, it is important to squeeze every ounce of performance from every feature of your world. To that end, you will want to read the [Horizon World Creator Performance Best Practices](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Best%20practices%20for%20custom%20models.md) document which shows how to avoid all of those common performance issues we have found across many worlds that we have reviewed.
+As you can see, there are many things that will use up the limited CPU and GPU time available to your world. Because of this, it is important to squeeze every ounce of performance from every feature of your world. To that end, you will want to read the [Horizon World Creator Performance Best Practices](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Best%20practices%20for%20custom%20models.md) document which shows how to avoid all of those common performance issues we have found across many worlds that we have reviewed.

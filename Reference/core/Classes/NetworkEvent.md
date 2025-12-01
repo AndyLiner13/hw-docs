@@ -12,8 +12,8 @@ export declare class NetworkEvent<TPayload extends NetworkEventData = Record<str
 
 ## Remarks
 
-When sent over the network, NetworkEvent outperforms [CodeBlockEvent](/hw-docs/Reference/core/Classes/CodeBlockEvent.md) because it doesn't use the legacy messaging system used by Code Block scripting.
-For events sent between event listeners on the same client (locally), you can use [LocalEvent](/hw-docs/Reference/core/Classes/LocalEvent.md).
+When sent over the network, NetworkEvent outperforms [CodeBlockEvent](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/CodeBlockEvent.md) because it doesn't use the legacy messaging system used by Code Block scripting.
+For events sent between event listeners on the same client (locally), you can use [LocalEvent](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/LocalEvent.md).
 
 ## Constructors
 

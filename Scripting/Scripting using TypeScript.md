@@ -23,18 +23,18 @@ Typescript is a strongly-typed version of JavaScript, adding additional syntax t
 
 ## Prerequisite knowledge
 
-* [Getting started with scripting in your world](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md)
-* [API references and examples](/hw-docs/Scripting/API%20references%20and%20examples/Horizon%20TypeScript%20V2%20Changes.md)
-* [Local scripting](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
-* [Gameplay tags API](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md)
-* [Asset spawning](/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md)
-* [Events](/hw-docs/Scripting/Events/Local%20Events.md)
+* [Getting started with scripting in your world](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md)
+* [API references and examples](/hw-mcp-tools/documentation/hw-docs/Scripting/API%20references%20and%20examples/Horizon%20TypeScript%20V2%20Changes.md)
+* [Local scripting](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
+* [Gameplay tags API](/hw-mcp-tools/documentation/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md)
+* [Asset spawning](/hw-mcp-tools/documentation/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md)
+* [Events](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/Local%20Events.md)
 
 ## Articles
 
-* [Recommended version control strategies](/hw-docs/Scripting/Recommended%20Version%20Control%20Strategies.md)
-* [File-backed scripts](/hw-docs/Scripting/File-Backed%20Scripts.md)
-* [Importing data with JSON](/hw-docs/Scripting/Importing%20Data%20with%20JSON.md)
+* [Recommended version control strategies](/hw-mcp-tools/documentation/hw-docs/Scripting/Recommended%20Version%20Control%20Strategies.md)
+* [File-backed scripts](/hw-mcp-tools/documentation/hw-docs/Scripting/File-Backed%20Scripts.md)
+* [Importing data with JSON](/hw-mcp-tools/documentation/hw-docs/Scripting/Importing%20Data%20with%20JSON.md)
 
 ## Resources (external sites)
 

@@ -6,7 +6,7 @@ This article provides information to help experienced Roblox creators get starte
 
 ## UI overview - Meta Horizon Worlds Desktop Editor vs. Roblox Studio
 
-The [desktop editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md) for Meta Horizon Worlds shares many features with Roblox Studio:
+The [desktop editor](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md) for Meta Horizon Worlds shares many features with Roblox Studio:
 
 * The Hierarchy window in Meta Horizon Worlds is similar to the Workspace folder in the Explorer window in Roblox Studio for organizing elements in your 3D scene. Both allow you to manage and organize objects (called entities in Meta Horizon Worlds), and both use a tree structure to represent parent-child relationships between objects.
 * Roblox Studio’s Creator Store and Inventory are also similar to the Asset Store and Assets window in Meta Horizon Worlds, respectively.
@@ -47,7 +47,7 @@ Roblox supports three different types of Luau scripts:
 | Script in default Server Execution Mode | Server Script |
 | Export functions/classes in any script | Module script |
 
-Scripts in Meta Horizon Worlds are not separated into types, but can be run in either Default or [Local execution mode](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md):
+Scripts in Meta Horizon Worlds are not separated into types, but can be run in either Default or [Local execution mode](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md):
 
 * Default Script Execution
   + A server-side script that never executes on the client.
@@ -59,7 +59,7 @@ In Meta Horizon Worlds, scripts must be given ownership via code. Generally, the
 
 ### TypeScript and Luau
 
-Roblox creators add custom gameplay logic to their creations by using Luau, a scripting language derived from Lua 5.1. Meta Horizon Worlds uses [TypeScript](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md), a statically-typed extension of JavaScript. Meta Horizon Worlds provides [APIs](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md) for interacting with the players and environment.
+Roblox creators add custom gameplay logic to their creations by using Luau, a scripting language derived from Lua 5.1. Meta Horizon Worlds uses [TypeScript](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md), a statically-typed extension of JavaScript. Meta Horizon Worlds provides [APIs](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md) for interacting with the players and environment.
 
 Lua uses a simple and flexible syntax. TypeScript uses a JavaScript-like syntax, is object oriented, and is statically typed.
 
@@ -99,13 +99,13 @@ console.log(sumUpTo(5));  // Output: 15 (1 + 2 + 3 + 4 + 5)
 
 Related articles:
 
-* [Using TypeScript in Meta Horizon Worlds](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md)
-* [TypeScript Tutorial](/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Tutorial.md)
-* [Meta Horizon Worlds TypeScript APIs](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md)
+* [Using TypeScript in Meta Horizon Worlds](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md)
+* [TypeScript Tutorial](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Tutorial.md)
+* [Meta Horizon Worlds TypeScript APIs](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md)
 
 ## Asset pipeline
 
-Meta Horizon Worlds allows you to [import a variety of asset types](/hw-docs/Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) such as 3D models, textures, and sounds. The following is a list of accepted asset types and file formats:
+Meta Horizon Worlds allows you to [import a variety of asset types](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) such as 3D models, textures, and sounds. The following is a list of accepted asset types and file formats:
 
 | Asset type | File format(s) |
 | --- | --- |
@@ -120,7 +120,7 @@ Meta Horizon Worlds allows you to [import a variety of asset types](/hw-docs/Des
 
 If the assets in your Place were originally imported from an external source as .FBX files, you can import those original .FBX files to Meta Horizon Worlds with no additional conversion. For assets constructed using native Roblox parts, you will need to export them from Roblox, convert them to the file formats listed above using a tool such as [Blender](https://www.blender.org/), and import them to Meta Horizon Worlds.
 
-**Note**: At this time, there is no way to convert scripts written for Roblox into a form usable by Meta Horizon Worlds; all scripts will need to be re-written using the Meta Horizon Worlds [TypeScript API](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md).
+**Note**: At this time, there is no way to convert scripts written for Roblox into a form usable by Meta Horizon Worlds; all scripts will need to be re-written using the Meta Horizon Worlds [TypeScript API](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md).
 
 #### How to export assets from your Roblox world
 
@@ -132,13 +132,13 @@ To export an asset from Roblox, you can right-click it in the Explorer and choos
 
 Members of the [Meta Horizon Worlds Creator Program (MHCP)](https://developers.meta.com/horizon-worlds/programs) are eligible to monetize their worlds through the MHCP bonus program and the sale of in-world items.
 
-The [MHCP bonus program](/hw-docs/MHCP%20program/Monetization/Bonus%20Program%20Overview.md) tracks the following metrics and pays a separate cash bonus for each metric on a monthly basis, with higher performance tiers resulting in increased payout:
+The [MHCP bonus program](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/Bonus%20Program%20Overview.md) tracks the following metrics and pays a separate cash bonus for each metric on a monthly basis, with higher performance tiers resulting in increased payout:
 
 * **Retention bonus**: Based on the number of users that return to your world within a week of visiting.
 * **Time spent bonuses**: There are two bonuses based on the total number of hours users spend in your world on mobile or headset.
 * **In-world purchase bonus**: Based on the number of dollars spent per paying user who visits your world.
 
-[In-world purchases](/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md) are the sales of items and services in your world, such as consumables, cosmetics, game items, and more. Prices for all in-world purchases are set in Meta Credits, which are the non-convertible tokens used to acquire digital goods and services in Meta Horizon Worlds. You receive the full transaction value of each purchase made with Meta Credits based on an exchange rate of **1 Credit = $0.0032**, with the number of dollars spent per user contributing to your **in-world purchase bonus**.
+[In-world purchases](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md) are the sales of items and services in your world, such as consumables, cosmetics, game items, and more. Prices for all in-world purchases are set in Meta Credits, which are the non-convertible tokens used to acquire digital goods and services in Meta Horizon Worlds. You receive the full transaction value of each purchase made with Meta Credits based on an exchange rate of **1 Credit = $0.0032**, with the number of dollars spent per user contributing to your **in-world purchase bonus**.
 
 ## Community
 
@@ -148,7 +148,7 @@ Members of the [Meta Horizon Creator Program (MHCP)](https://developers.meta.com
 
 ## Collaboration tools
 
-You may add [Collaborators](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) to your world to help you with testing and creation. Up to 4 owners and collaborators may simultaneously visit and/or edit your unpublished worlds. If you are a member of the [Meta Horizon Worlds Creator Program](https://developers.meta.com/horizon-worlds/programs), this number is increased to 20.
+You may add [Collaborators](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) to your world to help you with testing and creation. Up to 4 owners and collaborators may simultaneously visit and/or edit your unpublished worlds. If you are a member of the [Meta Horizon Worlds Creator Program](https://developers.meta.com/horizon-worlds/programs), this number is increased to 20.
 
 Collaborators may be assigned one or more roles:
 
@@ -159,10 +159,10 @@ Collaborators may be assigned one or more roles:
 
 Meta Horizon Worlds implements some features in ways that may not be obvious to Roblox creators. Here are a few notable examples:
 
-* **Lighting and Environment Settings** - To edit a world’s lighting settings, create an [Environment gizmo](/hw-docs/Gizmos/Environment%20gizmo.md) and set your options there. This gizmo also allows you to hide the grid in the viewport.
+* **Lighting and Environment Settings** - To edit a world’s lighting settings, create an [Environment gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/Environment%20gizmo.md) and set your options there. This gizmo also allows you to hide the grid in the viewport.
 * **Materials and Textures** - Unlike Roblox, a single model in Meta Horizon Worlds can have multiple materials and textures.
-* **Custom UI** - To edit the UI in Meta Horizon Worlds, you must use a [Custom UI gizmo](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) and associated script.
+* **Custom UI** - To edit the UI in Meta Horizon Worlds, you must use a [Custom UI gizmo](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) and associated script.
 
 ## Publishing and world discovery
 
-Our recommendation engine fuels discovery across multiple product surfaces in headset (such as Horizon Feed, Horizon Worlds catalog, Horizon Store), on web, and in our Meta Horizon mobile app. For more information about how world discovery works in Meta Horizon Worlds, see [Intro to Horizon Worlds Discovery](/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md).
+Our recommendation engine fuels discovery across multiple product surfaces in headset (such as Horizon Feed, Horizon Worlds catalog, Horizon Store), on web, and in our Meta Horizon mobile app. For more information about how world discovery works in Meta Horizon Worlds, see [Intro to Horizon Worlds Discovery](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md).

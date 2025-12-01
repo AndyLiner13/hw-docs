@@ -48,7 +48,7 @@ Recording angle options:
   * **Potential scenario:**
 
     You have a fishing mechanic and you start recording once a fish is on the hook. **If the fish breaks loose** you end the recording and discard. **If the fish is reeled in**, you end the recording and save.
-- You can specify an optional [`CameraMovementPreset`](/hw-docs/Reference/capturing/Type Aliases/CameraMovementPreset.md) to configure the camera angle.
+- You can specify an optional [`CameraMovementPreset`](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type Aliases/CameraMovementPreset.md) to configure the camera angle.
 
 ```
 import * as cap from 'horizon/capturing'
@@ -68,7 +68,7 @@ let result = awaitcapture.stopVideoCapture({save: true});
 
 * Identify fun or exciting moments in your world that you may want to record for the player. We recommend around one to three spots. Ideally, the spots should be a core part of the gameplay so that players will encounter it naturally. At least one spot should be commonly encountered, while the others could be more rare.
 * Sometimes you may want to delay the stop API call a few seconds after the moment “concluded” in order to capture the player reaction.
-* You may want to [leverage persistent variables](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to keep track of when the player has completed a recording to prevent too much duplication.
+* You may want to [leverage persistent variables](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to keep track of when the player has completed a recording to prevent too much duplication.
 
 ## Known Issues and Limitations
 

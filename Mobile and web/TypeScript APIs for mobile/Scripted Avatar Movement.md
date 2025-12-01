@@ -8,7 +8,7 @@ Note
 
 This feature requires Desktop Editor **v239** or higher.
 
-For detailed method signatures, parameters, and return types, see the [Player API Reference](/hw-docs/Reference/core/Classes/Player.md).
+For detailed method signatures, parameters, and return types, see the [Player API Reference](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md).
 
 ## Locomotion API Methods
 
@@ -23,7 +23,7 @@ The Player class includes these locomotion methods for scripted avatar movement:
 | [jump](#jump) | Makes the player jump. |
 | [isJumping](#isjumping) | True when the player is jumping. |
 | [isMoving](#ismoving) | True when the player is moving. |
-| [isNavigating](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md) | True when the player moves via scripted navigation. |
+| [isNavigating](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md) | True when the player moves via scripted navigation. |
 | [stopMovement](#stopmovement) | Stops any movement in progress. |
 
 ### moveToPosition
@@ -38,12 +38,12 @@ moveToPosition(position: Vec3, options?: LocomotionOptions): Promise<Locomot
 
 **Parameters**
 
-* `position`: [Vec3](/hw-docs/Reference/core/Classes/Vec3.md) - The destination position.
-* `options`: [LocomotionOptions](/hw-docs/Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
+* `position`: [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md) - The destination position.
+* `options`: [LocomotionOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
+Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
 
 ### moveToPositions(path, options)
 
@@ -57,12 +57,12 @@ moveToPositions(path: Array<Vec3>, options?: LocomotionOptions): Promise<Loc
 
 **Parameters**
 
-* `path`: Array<[Vec3](/hw-docs/Reference/core/Classes/Vec3.md)> - An array of positions to follow in order.
-* `options`: [LocomotionOptions](/hw-docs/Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
+* `path`: Array<[Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)> - An array of positions to follow in order.
+* `options`: [LocomotionOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
+Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
 
 ### rotateBy(angle, options)
 
@@ -77,11 +77,11 @@ rotateBy(angle: number, options?: RotationOptions): Promise<LocomotionResult
 **Parameters**
 
 * `angle`: number - The rotation angle in degrees.
-* `options`: [RotationOptions](/hw-docs/Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
+* `options`: [RotationOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
+Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
 
 ### rotateTo(direction, options)
 
@@ -95,12 +95,12 @@ rotateTo(direction: Vec3, options?: RotationOptions): Promise<LocomotionResu
 
 **Parameters**
 
-* `direction`: [Vec3](/hw-docs/Reference/core/Classes/Vec3.md) - The target facing direction.
-* `options`: [RotationOptions](/hw-docs/Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
+* `direction`: [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md) - The target facing direction.
+* `options`: [RotationOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
+Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
 
 ### jump()
 
@@ -114,7 +114,7 @@ jump(): Promise<LocomotionResult>;
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when the jump ends.
+Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when the jump ends.
 
 ### isJumping
 

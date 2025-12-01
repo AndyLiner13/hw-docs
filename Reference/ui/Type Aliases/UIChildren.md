@@ -12,4 +12,4 @@ export declare type UIChildren = UINode | UINode[];
 
 ## References
 
-[UINode](/hw-docs/Reference/ui/Classes/UINode.md)
+[UINode](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/UINode.md)

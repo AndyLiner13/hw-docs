@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_timinganim
 
 # TimingAnimationConfig type
 
-Defines how to [animate](/hw-docs/Reference/ui/Abstract%20Classes/Animation_2.md) a value along an easing curve.
+Defines how to [animate](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Abstract%20Classes/Animation_2.md) a value along an easing curve.
 
 ## Signature
 
@@ -15,7 +15,7 @@ export declare type TimingAnimationConfig = {
 
 ## References
 
-[Easing](/hw-docs/Reference/ui/Classes/Easing.md)
+[Easing](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/Easing.md)
 
 ## Remarks
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 # Example scripts library
 
-The example scripts in this document illustrate ways to accomplish common tasks using the [Meta Horizon Worlds TypeScript API](/hw-docs/Scripting/Scripting%20using%20TypeScript.md).
+The example scripts in this document illustrate ways to accomplish common tasks using the [Meta Horizon Worlds TypeScript API](/hw-mcp-tools/documentation/hw-docs/Scripting/Scripting%20using%20TypeScript.md).
 
 ## Detach an entity from a player
 

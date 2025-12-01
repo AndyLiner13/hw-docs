@@ -10,7 +10,7 @@ Before getting started, we recommended that you make a world backup and/or check
 
 ## How to Replace your Primitive World with a Custom Model World
 
-- Create a new Custom Model world. If you haven’t done this before [see this Getting Started guide](/hw-docs/Custom%20models%20(FBX)/Getting%20started%20with%203D%20model%20import.md) for Quick Start instructions.
+- Create a new Custom Model world. If you haven’t done this before [see this Getting Started guide](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Getting%20started%20with%203D%20model%20import.md) for Quick Start instructions.
   ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452677482_512527261285230_4599230198002597897_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=PeaHKhOUe1UQ7kNvwGRExVo&_nc_oc=AdkQPksN3LrIZy3DcIwc-3ChiJMfrGhtIDWBQFkt-7EKWxKyHKqxuNCWP7ovSNcHzgI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=C4tbDSdXYcjlc0qdlIPelw&oh=00_AfgKsgvQ0B5Kk4fder2hoKiu2-U30KfAAdf3V9MuWITOPw&oe=69313AB3)
 - Navigate to your primitive world (the world to be replaced) via world builder.
 - Enter preview mode.

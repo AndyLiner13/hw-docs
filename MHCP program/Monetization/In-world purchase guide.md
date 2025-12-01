@@ -203,7 +203,7 @@ In VR, that looks like this:
 
 The Kudos Panel is a way to help you more easily monetize your worlds and is available in the headset editor. The Kudos Panel is a ready-to-use asset that automatically configures your world to allow people to purchase Kudos and show their support for your creations.
 
-If you’d like more information about the Kudos Panel, please refer to [Meta Horizon Worlds Kudos Panel Instructions](/hw-docs/MHCP%20program/Monetization/Meta%20Horizon%20Worlds-%20Kudos%20Panel%20Instructions.md).
+If you’d like more information about the Kudos Panel, please refer to [Meta Horizon Worlds Kudos Panel Instructions](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/Meta%20Horizon%20Worlds-%20Kudos%20Panel%20Instructions.md).
 
 ## Creator Control of Shops & Inventories
 

@@ -20,7 +20,7 @@ Hovering your cursor over each option reveals a description of the view mode. Se
 
 ### Opening in VR
 
-In VR, first [Enable the Utilities Menu](/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md), then open your wearable and select the desired view mode.
+In VR, first [Enable the Utilities Menu](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md), then open your wearable and select the desired view mode.
 
 ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75348041_964519652195117_6384169750030954787_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=SRLeGuOu0MkQ7kNvwEoJSwZ&_nc_oc=AdmygnBSf67fHvKu2KdJtgo3Vobr15CY3nvYkIwXIm-xOQjuslwntXddxwAeV2CGXPY&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfgHm7gmHCB6AZiV4E9Uoi6EbA2KR2KfCZdt_D_Zn95kJA&oe=6931287A)
 

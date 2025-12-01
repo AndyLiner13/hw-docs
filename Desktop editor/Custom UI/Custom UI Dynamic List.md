@@ -44,7 +44,7 @@ To create a dynamic list component, you must provide two required props:
 - `data`: The array of items to be rendered in the list.
 - `renderItem`: A function that defines how each item in the data array should be rendered.
 
-In addition, youk can optionally pass a style prop, which allows you to modify the layout and appearance of the list. The style prop accepts values similar to [`ViewStyle` props](/hw-docs/Reference/ui/Type Aliases/ViewStyle.md), providing flexibility in customizing the look and feel of your dynamic list component.
+In addition, youk can optionally pass a style prop, which allows you to modify the layout and appearance of the list. The style prop accepts values similar to [`ViewStyle` props](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type Aliases/ViewStyle.md), providing flexibility in customizing the look and feel of your dynamic list component.
 
 The following code sample shows an example of creating a dynamic list.
 It shows passing a single binding with an array of objects to the data prop. The number of items rendered will dynamically adjust based on the data passed in, allowing for a flexible and variable-length list.
@@ -136,4 +136,4 @@ This code sample shows how to include multiple instances of dynamic lists in the
 
 ### How to use dynamic lists in local mode
 
-Similar to other custom UI components, dynamic lists work well in local mode. Please refer to the [custom ui local mode documentation](/hw-docs/Desktop%20editor/Custom%20UI/Local%20Mode%20Custom%20UI%20Scripts.md) for more information on the local mode feature.
+Similar to other custom UI components, dynamic lists work well in local mode. Please refer to the [custom ui local mode documentation](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Local%20Mode%20Custom%20UI%20Scripts.md) for more information on the local mode feature.

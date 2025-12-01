@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 # Enable the Utilities menu
 
-Real-time performance metrics provide you with information about how your world performs, such as the frame rate in frames per second, as you interact with it. Use this information to find performance issues before your users find them. See the [Metrics information](/hw-docs/Performance/Analytics/World%20Analytics.md) for more information about these metrics.
+Real-time performance metrics provide you with information about how your world performs, such as the frame rate in frames per second, as you interact with it. Use this information to find performance issues before your users find them. See the [Metrics information](/hw-mcp-tools/documentation/hw-docs/Performance/Analytics/World%20Analytics.md) for more information about these metrics.
 
 Before you can enable Real-time metrics in your world, you must first enable the Utilities menu.
 
@@ -14,4 +14,4 @@ Before you can enable Real-time metrics in your world, you must first enable the
 - Toggle the menu to on
   ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452868160_512511001286856_1340636166165767619_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=iHXYXoC0E9MQ7kNvwGvlszq&_nc_oc=AdkW2ZwV34oEfTSZvTatu_lo9kJ-OR-8ESNG4KGrTc97D5BsawPsPnaCefTBWeNmoSY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6AEmkkm8j9Z58zj9Pi6SgQ&oh=00_Afh-G_FHlghV-JIHKo_-BbxmjFLwejwtkMQBVI0ZvPfy_g&oe=69313EFE)
 
-For instructions on Enabling and Modifying your Real-Time Metrics Menu, [follow this guide](/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md).
+For instructions on Enabling and Modifying your Real-Time Metrics Menu, [follow this guide](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md).

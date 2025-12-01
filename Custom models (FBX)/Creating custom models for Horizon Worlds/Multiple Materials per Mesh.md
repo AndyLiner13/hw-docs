@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-mo
 
 You can assign multiple materials to a single mesh in an FBX file. This allows you to create objects that have different visual elements. For example, consider a skateboard object that has one material for the deck, another material for the trucks, and a third material for the wheels, all without using multiple meshes.
 
-For more information about how to use materials, see [Materials Guidance and Reference for Custom Models](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md).
+For more information about how to use materials, see [Materials Guidance and Reference for Custom Models](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md).
 
 ## Defining materials in the FBX file
 
@@ -18,11 +18,11 @@ When the order of material slots is important, Horizon uses the same naming conv
 
 You can reference material slots either by name or index. When you use indexes for material slots, index 0 represents the first material. Meshes with a single material always use material slot 0.
 
-If you don’t specify a material slot, then the [`setMaterial`](/hw-docs/Reference/core/Classes/MeshEntity.md) function (including for Unity Asset Bundles) will set the material in slot 0. To set a material in a different material slot, refer to the slot by name or index.
+If you don’t specify a material slot, then the [`setMaterial`](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/MeshEntity.md) function (including for Unity Asset Bundles) will set the material in slot 0. To set a material in a different material slot, refer to the slot by name or index.
 
-The [`setTexture`](/hw-docs/Reference/core/Classes/MeshEntity.md) function sets the texture for the entire mesh.
+The [`setTexture`](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/MeshEntity.md) function sets the texture for the entire mesh.
 
-Modifying tintColor or tintStrength in the [`EntityStyle`](/hw-docs/Reference/core/Interfaces/EntityStyle.md) affects the entire mesh.
+Modifying tintColor or tintStrength in the [`EntityStyle`](/hw-mcp-tools/documentation/hw-docs/Reference/core/Interfaces/EntityStyle.md) affects the entire mesh.
 
 ## Current limitations
 

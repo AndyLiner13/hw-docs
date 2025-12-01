@@ -37,7 +37,7 @@ You can configure how a grabbable entity will show up in the holster icon menu b
 ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452586781_512510717953551_1463442642763553743_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=CEkrAIumTM0Q7kNvwFZee6x&_nc_oc=AdmLpx0vYGfmExcOmp7ceRwfIGzGstvM9mVRMUVbqhP8Hvns65JtVthS1UVvccJDZA0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Rw5HyXXKSTsQGVjUoPa4Sw&oh=00_Afj1ysnU98EF3_jJGIygcKZx3Au3t6V3PDRVn6CPa6jDzg&oe=69313692)
 
 * **Default value:** If you don’t specify a value, the holster icon will show the default slot number. ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452718392_512510654620224_8780972206080984700_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=MXA_f15TsC8Q7kNvwG42tXv&_nc_oc=AdlKBYg2YZkNkgZ82QyoYacatVWU8E29B9hVMsvvde26APmvQTDSyojmsodWTJEPcBo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Rw5HyXXKSTsQGVjUoPa4Sw&oh=00_AfjPgvL05b986PVQ3WdGnRGNXVKf3bNDSp6q4_Geln14Zg&oe=6931389D)
-* [Action icon value:](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Action%20Buttons.md) The holster icon will show the selected action icon.
+* [Action icon value:](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Grabbable%20entities/Action%20Buttons.md) The holster icon will show the selected action icon.
 * **None:** The entity will not be included in the holster icon menu.
 
 To ensure an entity won’t appear in the holster icon menu, you can either:

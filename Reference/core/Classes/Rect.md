@@ -29,7 +29,7 @@ export declare class Rect
 
 |  |  |
 | --- | --- |
-| **clone()** | Clones a Rectangle's values into a mutable Rect.      Signature  ``` clone(): Rect; ```  Returns  [Rect](/hw-docs/Reference/core/Classes/Rect.md)  A mutable Rect with the same x,y,width,height values. |
-| **copy(rect)** | Copies the specified Rect (x, y, width, height) into this.      Signature  ``` copy(rect: Rect): this; ```  Parameters  rect: [Rect](/hw-docs/Reference/core/Classes/Rect.md)  The Rectangle to copy from.  Returns  this  A reference to this after the values have been copied. |
+| **clone()** | Clones a Rectangle's values into a mutable Rect.      Signature  ``` clone(): Rect; ```  Returns  [Rect](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Rect.md)  A mutable Rect with the same x,y,width,height values. |
+| **copy(rect)** | Copies the specified Rect (x, y, width, height) into this.      Signature  ``` copy(rect: Rect): this; ```  Parameters  rect: [Rect](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Rect.md)  The Rectangle to copy from.  Returns  this  A reference to this after the values have been copied. |
 | **scaleBy(width, height)** | Scales the Rectangle by the provided dimensions.      Signature  ``` scaleBy(width: number, height: number): this; ```  Parameters  width: number  the width to scale this rectangular by  height: number  the height to scale this rectangular by  Returns  this |
 | **toString()** | Gets a string representation of the x, y, width and height values for the Rectangle.      Signature  ``` toString(): string; ```  Returns  string  The string representation of the Rectangle. |

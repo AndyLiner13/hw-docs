@@ -6,9 +6,9 @@ Components are the primary building blocks for attaching functionality to object
 
 * [Properties - modify the component](#properties-and-variables)
 * [Variables - define the capabilities of a component](#properties-and-variables)
-* [Modules - provide the packaging specifications](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Modules%20and%20Global%20Functions.md)
-* [Global Functions - outline what properties apply to all entities](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Modules%20and%20Global%20Functions.md)
-* [Events - enable objects to interact](/hw-docs/Scripting/Events/Local%20Events.md)
+* [Modules - provide the packaging specifications](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Modules%20and%20Global%20Functions.md)
+* [Global Functions - outline what properties apply to all entities](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Modules%20and%20Global%20Functions.md)
+* [Events - enable objects to interact](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/Local%20Events.md)
 
 ## Example Component
 
@@ -78,7 +78,7 @@ The following outlines the component creation sequence:
 - Entities that have a TypeScript component attached to them in the entity property panel will be instantiated. This also applies to property overrides or defaults.
 - The `start` method is called on every TypeScript component instance. Any future script logic can be run by callbacks.
 
-To learn more about the lifecycle of TypeScript scripts, see [TypeScript Script Lifecycle](/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md).
+To learn more about the lifecycle of TypeScript scripts, see [TypeScript Script Lifecycle](/hw-mcp-tools/documentation/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md).
 
 ## Registering and Attaching Components to Entities
 
@@ -172,8 +172,8 @@ const c: Color = entity.color.get();
 Beyond `this.entity`, your scripts can interact with external entities through the following approaches:
 
 - Entities passed in as properties through an object’s Entity Panel
-- Entities sent through a script using Events (see [Events section](/hw-docs/Scripting/Events/Local%20Events.md) )
-- Entities spawned into the world (see [Asset Spawning section](/hw-docs/Scripting/Asset%20spawning/Checking%20for%20Asset%20Spawn%20Events.md))
+- Entities sent through a script using Events (see [Events section](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/Local%20Events.md) )
+- Entities spawned into the world (see [Asset Spawning section](/hw-mcp-tools/documentation/hw-docs/Scripting/Asset%20spawning/Checking%20for%20Asset%20Spawn%20Events.md))
 
 #### `Gizmos`
 
@@ -205,4 +205,4 @@ colors.push(color);
 
 #### `Assets`
 
-The `Asset` class can represent an asset in a world. Beyond creating and managing your own or Horizon available assets, you can spawn and despawn assets and operate on their properties with TypeScript. Review the [Asset Spawning](/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md) docs for TypeScript implementation details.
+The `Asset` class can represent an asset in a world. Beyond creating and managing your own or Horizon available assets, you can spawn and despawn assets and operate on their properties with TypeScript. Review the [Asset Spawning](/hw-mcp-tools/documentation/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md) docs for TypeScript implementation details.

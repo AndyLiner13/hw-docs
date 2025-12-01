@@ -17,8 +17,8 @@ Using the desktop editor when creating your world makes it easier to:
 
 The following topics will help you start working with the desktop editor:
 
-* [**Creating a new world in Meta Horizon Worlds**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Create%20a%20New%20World.md)
-* [**Installing the desktop editor**](/hw-docs/Get%20started/Install%20the%20desktop%20editor.md)
-* [**Using the desktop editor**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md)
-* [**Modifying the properties of objects in your world**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Modifying%20editable%20entity%20properties.md)
-* [**Creating scripts for more activities and greater flexibility**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Adding%20and%20editing%20scripts.md)
+* [**Creating a new world in Meta Horizon Worlds**](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Create%20a%20New%20World.md)
+* [**Installing the desktop editor**](/hw-mcp-tools/documentation/hw-docs/Get%20started/Install%20the%20desktop%20editor.md)
+* [**Using the desktop editor**](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md)
+* [**Modifying the properties of objects in your world**](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Modifying%20editable%20entity%20properties.md)
+* [**Creating scripts for more activities and greater flexibility**](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Adding%20and%20editing%20scripts.md)

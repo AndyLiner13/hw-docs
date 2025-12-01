@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editor
 
 # EditorButtonProps type
 
-The props of an [EditorButton()](/hw-docs/Reference/editor/Functions/EditorButton.md) component.
+The props of an [EditorButton()](/hw-mcp-tools/documentation/hw-docs/Reference/editor/Functions/EditorButton.md) component.
 
 ## Signature
 

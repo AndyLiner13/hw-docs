@@ -34,7 +34,7 @@ As players progress through the game they often start performing more advanced a
 
 ### VR design recommendations
 
-**Note**: VR gameplay typically averages about 30 minute sessions in comparison to mobile, which average 5-10 minutes. For information about gameplay loops on mobile and web, see [Short loop mobile world design guidance](/hw-docs/Mobile%20and%20web/Short%20loop%20mobile%20world%20design%20guidance.md).
+**Note**: VR gameplay typically averages about 30 minute sessions in comparison to mobile, which average 5-10 minutes. For information about gameplay loops on mobile and web, see [Short loop mobile world design guidance](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Short%20loop%20mobile%20world%20design%20guidance.md).
 
 **Engagement:**
 
@@ -43,8 +43,8 @@ As players progress through the game they often start performing more advanced a
   + Start simple and build a fun and engaging experience.
   + Provide fun mechanics and social dynamics quickly.
 * Provide players with a sense of mastery early.
-* Leverage the [physics system](/hw-docs/Desktop%20editor/Physics%20Overview.md) to respond to movement and collisions.
-* Use [local scripting](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md) to optimize latency for the local player.
+* Leverage the [physics system](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Physics%20Overview.md) to respond to movement and collisions.
+* Use [local scripting](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md) to optimize latency for the local player.
 
 **Player input:**
 
@@ -132,7 +132,7 @@ A progression loop is a long-term loop that supports progression over numerous h
 
 ### Achievements
 
-The achievements system allows you to define a list of player objectives for tracking player progression and display the progress with players. You can define, read, and write player achievements using code blocks and then display them using the [Achievements gizmo](/hw-docs/VR%20tools/Scripting/Create%20player%20achievements.md), which you can also access using [TypeScript](/hw-docs/Reference/core/Classes/AchievementsGizmo.md).
+The achievements system allows you to define a list of player objectives for tracking player progression and display the progress with players. You can define, read, and write player achievements using code blocks and then display them using the [Achievements gizmo](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Scripting/Create%20player%20achievements.md), which you can also access using [TypeScript](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/AchievementsGizmo.md).
 
 ## Monetization
 
@@ -144,7 +144,7 @@ In the core loop, the event might be a disruptive ad or a poor roll on a paid it
 
 ## Measuring effectiveness
 
-In addition to testing and using [performance tools](/hw-docs/Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md), you can measure the effectiveness of your gameplay loops by using gameplay metrics provided by the In-World Analytics framework.
+In addition to testing and using [performance tools](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md), you can measure the effectiveness of your gameplay loops by using gameplay metrics provided by the In-World Analytics framework.
 
 The In-World Analytics framework provides scripts and APIs for capturing metrics that provide insight into the effectiveness of your gameplay loops. The framework includes the following [modules](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics#in-world-analytics-modules) for capturing progression, rewards, gameplay actions, and friction events directly from your scripts.
 
@@ -156,11 +156,11 @@ For more information, see [Using In-World Analytics](https://developers.meta.com
 
 ## Frame and script integration
 
-A gameplay loop of any size runs over multiple frames that execute in multiple stages where players, physics, world updates, components, and rendering are updated every frame. For details about where your code runs throughout a frame sequence, see the [Frames overview](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md).
+A gameplay loop of any size runs over multiple frames that execute in multiple stages where players, physics, world updates, components, and rendering are updated every frame. For details about where your code runs throughout a frame sequence, see the [Frames overview](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md).
 
-For information about how scripts execute and how to integrate a sequence of events into a script, see the [TypeScript Lifecycle](/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md) guide.
+For information about how scripts execute and how to integrate a sequence of events into a script, see the [TypeScript Lifecycle](/hw-mcp-tools/documentation/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md) guide.
 
 ## Additional information
 
-* [Q&A Session: Gameplay Loops](/hw-docs/MHCP%20program/Q&A%20sessions/Q&A%20Session-%20Gameplay%20Loops%20with%20Victor%20Riddel.md)
+* [Q&A Session: Gameplay Loops](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Q&A%20sessions/Q&A%20Session-%20Gameplay%20Loops%20with%20Victor%20Riddel.md)
 * [Q&A Session: New User Experience](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/new-user-experience)

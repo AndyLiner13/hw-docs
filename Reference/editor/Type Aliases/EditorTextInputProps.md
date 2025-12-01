@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editor
 
 # EditorTextInputProps type
 
-The props of an [EditorTextInput()](/hw-docs/Reference/editor/Functions/EditorTextInput.md) component.
+The props of an [EditorTextInput()](/hw-mcp-tools/documentation/hw-docs/Reference/editor/Functions/EditorTextInput.md) component.
 
 ## Signature
 

@@ -256,12 +256,12 @@ For advanced orientation-based camera control and detection, you can use the exp
 * Detect when players are viewing your world in portrait vs landscape orientation.
 * Create different camera behaviors for each orientation.
 
-For comprehensive documentation and examples, see [Portrait Camera API](/hw-docs/Scripting/API%20references%20and%20examples/Portrait%20Camera%20API.md).
+For comprehensive documentation and examples, see [Portrait Camera API](/hw-mcp-tools/documentation/hw-docs/Scripting/API%20references%20and%20examples/Portrait%20Camera%20API.md).
 
-You can also configure orientation-specific camera parameters directly in the [spawn point gizmo’s Mobile Camera Options](/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) without scripting.
+You can also configure orientation-specific camera parameters directly in the [spawn point gizmo’s Mobile Camera Options](/hw-mcp-tools/documentation/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) without scripting.
 
 ## Related documentation
 
-* [Portrait Camera API](/hw-docs/Scripting/API%20references%20and%20examples/Portrait%20Camera%20API.md) - Experimental API for orientation detection and control
-* [Spawn Point Gizmo - Mobile Camera Options](/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) - Configure camera settings for different orientations
-* [Preview Mode - Setting the Preview Device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) - Test camera behavior in different orientations
+* [Portrait Camera API](/hw-mcp-tools/documentation/hw-docs/Scripting/API%20references%20and%20examples/Portrait%20Camera%20API.md) - Experimental API for orientation detection and control
+* [Spawn Point Gizmo - Mobile Camera Options](/hw-mcp-tools/documentation/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) - Configure camera settings for different orientations
+* [Preview Mode - Setting the Preview Device](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) - Test camera behavior in different orientations

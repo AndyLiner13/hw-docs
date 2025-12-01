@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_def
 
 # DefaultStartVideoCaptureOptions Variable
 
-The default [options](/hw-docs/Reference/capturing/Type%20Aliases/StartVideoCaptureOptions.md) for the method.
+The default [options](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/StartVideoCaptureOptions.md) for the method.
 
 ## Signature
 

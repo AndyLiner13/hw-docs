@@ -12,11 +12,11 @@ export declare type CameraMovementPreset = FirstPersonMovementCameraMovementPres
 
 ## References
 
-[FirstPersonMovementCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/FirstPersonMovementCameraMovementPreset.md), [ThirdPersonOverShoulderCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/ThirdPersonOverShoulderCameraMovementPreset.md), [FixedPositionTrackingPlayerCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/FixedPositionTrackingPlayerCameraMovementPreset.md)
+[FirstPersonMovementCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/FirstPersonMovementCameraMovementPreset.md), [ThirdPersonOverShoulderCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/ThirdPersonOverShoulderCameraMovementPreset.md), [FixedPositionTrackingPlayerCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/FixedPositionTrackingPlayerCameraMovementPreset.md)
 
 ## Remarks
 
 The available presets are:
-[FirstPersonMovementCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/FirstPersonMovementCameraMovementPreset.md)
-[ThirdPersonOverShoulderCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/ThirdPersonOverShoulderCameraMovementPreset.md)
-[FixedPositionTrackingPlayerCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/FixedPositionTrackingPlayerCameraMovementPreset.md)
+[FirstPersonMovementCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/FirstPersonMovementCameraMovementPreset.md)
+[ThirdPersonOverShoulderCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/ThirdPersonOverShoulderCameraMovementPreset.md)
+[FixedPositionTrackingPlayerCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/FixedPositionTrackingPlayerCameraMovementPreset.md)

@@ -6,7 +6,7 @@ World events are broadcast events that notify your scripts between each rendered
 
 ## Subscribe to world update events
 
-To subscribe to World Update events, use the [`this.connectLocalBroadcastEvent`](/hw-docs/Reference/core/Abstract Classes/Component.md) function.
+To subscribe to World Update events, use the [`this.connectLocalBroadcastEvent`](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract Classes/Component.md) function.
 
 Parameters:
 

@@ -6,16 +6,16 @@ The desktop editor for Meta Horizon Worlds enables you to create and modify worl
 
 This section contains the following topics:
 
-* [Get started with Desktop Editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md)
-* [Assets](/hw-docs/Desktop%20editor/Assets/Introduction%20to%20the%20Desktop%20Editor%20Asset%20Library.md)
-* [Hiearchy window](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md)
-* [Generative AI tools](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Overview.md)
-* [Quests, leaderboards, and variable groups](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
-* [Objects](/hw-docs/Desktop%20editor/Objects/Object%20Instantiation.md)
-* [Settings](/hw-docs/Desktop%20editor/Settings/Player%20Settings%20Modification.md)
-* [Help and reference](/hw-docs/Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
+* [Get started with Desktop Editor](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md)
+* [Assets](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Introduction%20to%20the%20Desktop%20Editor%20Asset%20Library.md)
+* [Hiearchy window](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md)
+* [Generative AI tools](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Overview.md)
+* [Quests, leaderboards, and variable groups](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
+* [Objects](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Objects/Object%20Instantiation.md)
+* [Settings](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Settings/Player%20Settings%20Modification.md)
+* [Help and reference](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
 * [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/)
-* [NPCs](/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md)
+* [NPCs](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md)
 
 Important
 

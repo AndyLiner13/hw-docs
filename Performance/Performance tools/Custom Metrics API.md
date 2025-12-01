@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 # Custom Metrics API
 
-Custom metrics are a way for creators to capture data about their TypeScript scripts while they run. This data shows when your scripts run and how long they take, which you can use to optimize world performance. You can view this data with the [Performance Scrubbing](/hw-docs/Performance/Performance%20tools/Performance%20Scrubbing.md) tool or in [Perfetto](/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md).
+Custom metrics are a way for creators to capture data about their TypeScript scripts while they run. This data shows when your scripts run and how long they take, which you can use to optimize world performance. You can view this data with the [Performance Scrubbing](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Performance%20Scrubbing.md) tool or in [Perfetto](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md).
 
 To use custom metrics:
 
@@ -17,7 +17,7 @@ To collect data about how your scripts run, you must define and configure the me
 
 ### Define and activate custom metrics
 
-First, define and configure your custom metrics by creating a new [`HorizonPerformanceMetricConfig`](/hw-docs/Reference/performance/Classes/HorizonPerformanceMetricConfig.md) object.
+First, define and configure your custom metrics by creating a new [`HorizonPerformanceMetricConfig`](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonPerformanceMetricConfig.md) object.
 
 ```
 const testCounterMetric = new HorizonPerformanceMetricConfig(
@@ -32,7 +32,7 @@ To create a metric, include the following parameters:
 
 * metricName : The metric name as a string. “counterMetric” in the example.
 * samplersList : A list of the names of the samplers that will provide data to this metric, as an array of strings. These samplers can be defined in any script file. [“helloThere”, “helloThere2”, “helloThere3”] in the example.
-* intendedTraceEventType : The [HorizonTraceEvent](/hw-docs/Reference/performance/Classes/HorizonTraceEvent.md) type that corresponds to the sampler type for this metric. This determines the suffix (“milliseconds” or “none”) for the metric and the way it will be processed. “HorizonTraceEventType.Counter” in the example. The options are:
+* intendedTraceEventType : The [HorizonTraceEvent](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonTraceEvent.md) type that corresponds to the sampler type for this metric. This determines the suffix (“milliseconds” or “none”) for the metric and the way it will be processed. “HorizonTraceEventType.Counter” in the example. The options are:
   + Duration, which measures a length of time, such as how long a function took to run. Measured in milliseconds with microsecond precision.
   + Marker, which measures an occurrence, such as whether code ran.
   + Counter, which measures an arbitrary number, like how many times a block of code ran.
@@ -52,11 +52,11 @@ Once you’ve defined custom metrics, you must create samplers to provide data f
 
 Samplers are objects that record data of different types. They feed data into your defined metrics.
 
-The types of samplers correspond to the [HorizonTraceEvent](/hw-docs/Reference/performance/Classes/HorizonTraceEvent.md) types:
+The types of samplers correspond to the [HorizonTraceEvent](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonTraceEvent.md) types:
 
-* [HorizonDurationSampler](/hw-docs/Reference/performance/Classes/HorizonDurationSampler.md)
-* [HorizonMarkerSampler](/hw-docs/Reference/performance/Classes/HorizonMarkerSampler.md)
-* [HorizonCountSampler](/hw-docs/Reference/performance/Classes/HorizonCountSampler.md)
+* [HorizonDurationSampler](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonDurationSampler.md)
+* [HorizonMarkerSampler](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonMarkerSampler.md)
+* [HorizonCountSampler](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonCountSampler.md)
 
 We recommend using only one type of sampler per metric, but you can use any number of samplers of that type.
 
@@ -119,16 +119,16 @@ For a marker sampler, call `markerSamplerEx.mark()`.
 
 **Note:** Only data from client-side scripts are available in the VR scrubbing tool.
 
-To view data from the custom metrics you added to your client-side scripts, open the [real-time metrics panel](/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md) and use the [scrubbing tool](/hw-docs/Performance/Performance%20tools/Performance%20Scrubbing.md). Performance data is collected by profiling your scripts whenever the real-time metrics panel is open. Click **Inspect** to look at the profile data and scroll to the bottom of the pane to see your metrics data. A buffer of the last 30 seconds of data is available to view.
+To view data from the custom metrics you added to your client-side scripts, open the [real-time metrics panel](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md) and use the [scrubbing tool](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Performance%20Scrubbing.md). Performance data is collected by profiling your scripts whenever the real-time metrics panel is open. Click **Inspect** to look at the profile data and scroll to the bottom of the pane to see your metrics data. A buffer of the last 30 seconds of data is available to view.
 
 ### Viewing Data in Perfetto
 
-You can use [Perfetto](/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md) to view data from the custom metrics you added to your client and server side scripts.
+You can use [Perfetto](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md) to view data from the custom metrics you added to your client and server side scripts.
 
-- Create a trace using the instructions in the [Tracing](/hw-docs/Performance/Performance%20tools/Tracing.md) docs.
+- Create a trace using the instructions in the [Tracing](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Tracing.md) docs.
 - Open your browser and navigate to the [Developer Dashboard](https://developers.meta.com/horizon/manage/worlds/).
 - Select your world.
 - From the left-side navigation, select **Performance** > **Traces** to find the trace. The name of the trace file should include “custom\_metrics”.
 - Click **Open in Perfetto** to open the trace.
 
-Now, you can analyze your custom metrics data from the trace in [Perfetto](/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md).
+Now, you can analyze your custom metrics data from the trace in [Perfetto](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md).

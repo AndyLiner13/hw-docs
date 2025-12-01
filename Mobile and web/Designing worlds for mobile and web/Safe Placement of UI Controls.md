@@ -14,11 +14,11 @@ When designing for portrait orientation on mobile devices, the available screen 
 
 When testing your world’s UI for portrait orientation:
 
-- Use the [**Preview Configuration**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options to ensure safe zones are kept clear to avoid overlapping UI.
+- Use the [**Preview Configuration**](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options to ensure safe zones are kept clear to avoid overlapping UI.
 - Consider how UI elements stack vertically rather than horizontally in portrait mode.
 - Test with different device models to account for various screen aspect ratios and safe areas.
 
-**Note:** You can configure different camera parameters for portrait and landscape orientations using the [spawn point gizmo](/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) to optimize the visual experience for each orientation.
+**Note:** You can configure different camera parameters for portrait and landscape orientations using the [spawn point gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) to optimize the visual experience for each orientation.
 
 * ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452615758_512532801284676_8886395584801346512_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=NmAyh_KJar0Q7kNvwF-gKSv&_nc_oc=AdkV3O7hO0USUBXWZwiW_kQx7dMkXq9kjZCDatapQGLihXDhz_zvH8DMTpeqavj0LIM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Bd1ZRhx0vQ1z82Z5azQg5g&oh=00_AfhLTUE3HDPSsUyektzTviAiC6AWMErRiY1lQ6gXJ_ndZg&oe=69314A84) Unobstructed.
 * ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452883040_512532784618011_112216473924849842_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=pl-PbkEq70QQ7kNvwGxwm1D&_nc_oc=Adk0Lltxy1T_NfMBWv80zSUmbj1VcWuqE35IX2kJucZLyJkJ3G3gbQrBTLCtrOrRWv0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Bd1ZRhx0vQ1z82Z5azQg5g&oh=00_AfgeV9x-3t9IDE78o3KpbsA47rat46ntX1xWArmFmX_iNw&oe=69311A33) Potentially obstructed.

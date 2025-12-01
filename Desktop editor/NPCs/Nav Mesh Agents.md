@@ -2,20 +2,20 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Nav Mesh Agents
 
-The navigation mesh (NavMesh) agent feature allows you to create [agents](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#agent) that autonomously navigate through a world avoiding obstacles, guided by [navigation meshes](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md). Agents can be simple, like a primitive object, or complex, like a premade [NPC asset](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/getting-started-with-npc-assets). You can create an agent from any of the following entity types:
+The navigation mesh (NavMesh) agent feature allows you to create [agents](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#agent) that autonomously navigate through a world avoiding obstacles, guided by [navigation meshes](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md). Agents can be simple, like a primitive object, or complex, like a premade [NPC asset](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/getting-started-with-npc-assets). You can create an agent from any of the following entity types:
 
 * Meshes (primitive and custom model)
 * Unity Asset Bundles (2p-only)
 * Empty/group objects
 
-The NavMesh agent feature provides Desktop Editor tools to configure agents and a [NavMeshAgent API](/hw-docs/Reference/navmesh/Classes/NavMesh.md) to execute commands on agents, as well as configure them.
+The NavMesh agent feature provides Desktop Editor tools to configure agents and a [NavMeshAgent API](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Classes/NavMesh.md) to execute commands on agents, as well as configure them.
 
 Before setting up an agent, you must create:
 
 * Navigation meshes, to determine the areas of your world that NPCs can access and the paths they can use to get there.
 * Navigation profiles, to determine which navigation meshes are used for a given agent.
 
-See the [Navigation Mesh Generation](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md) docs for instructions on how to create navigation meshes and profiles.
+See the [Navigation Mesh Generation](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md) docs for instructions on how to create navigation meshes and profiles.
 
 ## Set up agents using Desktop Editor
 
@@ -25,7 +25,7 @@ Once you have created navigation profiles and navigation meshes, you can configu
 - Scroll down to the **Navigation Locomotion** section and toggle on the Enabled property.
 
   ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/459400604_543667308171225_1499421177653764709_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=o5cUUAKbpecQ7kNvwGVT84H&_nc_oc=AdlCLLWNmmu0suTn0FHLjunVG-QFKf6MVmOru3_ensu2L3MriN45j5kzeXoHpCZysBY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3d0tFx93qqx3L9DSM6VlDg&oh=00_AfgZBvUohAtXSY3gopLcT27djbXRAxz5_p2zd-GjGYOfPQ&oe=69313F77)
-- Configure the navigation locomotion settings for your agent. These properties can also be configured through the NavMeshAgent API. See the [NavMeshAgent API docs](/hw-docs/Reference/navmesh/Classes/NavMesh.md) for more details about these properties.
+- Configure the navigation locomotion settings for your agent. These properties can also be configured through the NavMeshAgent API. See the [NavMeshAgent API docs](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Classes/NavMesh.md) for more details about these properties.
 
   ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/459083561_543667304837892_4941892522645062338_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=qA3Kd_M_DC4Q7kNvwEuRZ_1&_nc_oc=AdkKxxAUN3418so3jGoNTcsmjgtTTu6mNaJyeo507eOk0PllSNQ1pd_DOW_ByyIwM8U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3d0tFx93qqx3L9DSM6VlDg&oh=00_AfgC85sa8uc7Acj61RFhj0Rvbymc0oYP-Y8lfoXFur11XA&oe=69312CC1)
 
@@ -38,18 +38,18 @@ Once you have created navigation profiles and navigation meshes, you can configu
   - **Acceleration**: The agent’s acceleration rate in meters per second squared.
   - **Deceleration**: The agent’s deceleration rate in meters per second squared.
   - **Immobile**: Prevents the agent from moving, even if a destination is set. The agent will not move while the property is toggled on.
-  - **Alignment Mode**: The orientation faced by the agent when traveling. See [NavMeshAgentAlignment enum API docs](/hw-docs/Reference/navmesh/Classes/NavMesh.md) for more information.
+  - **Alignment Mode**: The orientation faced by the agent when traveling. See [NavMeshAgentAlignment enum API docs](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Classes/NavMesh.md) for more information.
   - **Physical Surface Snapping**: Whether the agent stays attached (“snapped”) to the physical surface position or uses the NavMesh surface.
   - **Required Forward Alignment**: When this is set, the agent will only begin traveling in a given direction when it facing less than the specified angle in degrees away from the direction of travel. This ensures an agent only starts moving once it’s generally facing the right direction.
 - Scroll up to the **Navigation** section and ensure the **Include in Bakes** toggle is off. This ensures the agent itself isn’t included in the navigation mesh. If this is toggled on, the agent will not be able to move through the NavMesh properly.
 
-To enable your agents to move, you need to write a script to determine their movements with the [`NavMeshAgent API`](/hw-docs/Reference/navmesh/Classes/NavMesh.md).
+To enable your agents to move, you need to write a script to determine their movements with the [`NavMeshAgent API`](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Classes/NavMesh.md).
 
 To use the NavMeshAgent API, first enable the `horizon/navmesh` package in the **Script Settings** menu and **Apply** your changes.
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/459441915_543667311504558_2099678408108692939_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=KCfqN96odhsQ7kNvwGX1T1K&_nc_oc=AdkdjIvMhhkaU1ArYIHvflkcHEM5UaAPR58RY6kkwRf0HH_ndZgRms4SzLxVGTlOfOo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3d0tFx93qqx3L9DSM6VlDg&oh=00_Afhn52k6O0UEh7iCB4VprcPw5a_S0TkFA9SOQGiZCr6EtA&oe=69311710)
 
-Then, create a new script using the [NavMeshAgent API](/hw-docs/Reference/navmesh/Classes/NavMesh.md). See the [Adding and Editing Scripts](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Adding%20and%20editing%20scripts.md) documentation for how to create a new script.
+Then, create a new script using the [NavMeshAgent API](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Classes/NavMesh.md). See the [Adding and Editing Scripts](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Adding%20and%20editing%20scripts.md) documentation for how to create a new script.
 
 After you create a script to move your agent, don’t forget to attach the script to the agent object in the **Properties** pane.
 

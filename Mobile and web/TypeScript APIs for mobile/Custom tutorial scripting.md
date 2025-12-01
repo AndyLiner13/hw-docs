@@ -16,13 +16,13 @@ The Custom Tutorial Scripting API allows developers to create custom tutorials f
 
 The ‘ShowInfo’ API allows developers to convey information to users via a series of connected modal windows, greatly enhancing the onboarding experience in your world. It can be used to display welcome messages, provide critical updates, or deliver important instructions, ensuring users are well-informed about key aspects or new features in your world.
 
-Each info slide can have a localizable title, message, and image. The image is a texture asset with either (width: 808 height: 412) size or (width: 920 height: 280) size in case it’s a header image. To add an image and get the image URI please follow [instructions](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Custom%20Action%20Button%20Icons.md#uploading-a-custom-texture). The image will be scaled to fit the panel size. The title and message are localizable strings that can be translated into different languages.
+Each info slide can have a localizable title, message, and image. The image is a texture asset with either (width: 808 height: 412) size or (width: 920 height: 280) size in case it’s a header image. To add an image and get the image URI please follow [instructions](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Grabbable%20entities/Custom%20Action%20Button%20Icons.md#uploading-a-custom-texture). The image will be scaled to fit the panel size. The title and message are localizable strings that can be translated into different languages.
 
 ### Example
 
 The following example shows how to use the showInfoSlides API.
 
-For more details on the showInfoSlides API, check out our API documentation [here](/hw-docs/Reference/core/Classes/Player.md).
+For more details on the showInfoSlides API, check out our API documentation [here](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md).
 
 ![Header banner image example (920x280px)](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/558872447_833836062487680_3331638341245000339_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=UHgJJM4nb1cQ7kNvwHWYh_U&_nc_oc=Adl9PpTNIrhxtgyK8n37xleL8hpczw70Rw6AXbsdPC5kG7wqkIrscN9ri2IIHjEKrQ8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=iWXf_qhMybDLBVYM8ew7rA&oh=00_AfhiOeWnK57RHPgQ_HImhurwpORThTKhK8mWHVc4UQm5vg&oe=6931269E)![Body image example (808x412px)](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/558900220_833836052487681_5410462258312771932_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=D6f6C-p8UfAQ7kNvwFNGH-6&_nc_oc=AdlEZlmshwmAr1ukCO6HNta7iyIa64uMsVde4xD6YPrkJDV7DOHLw_9ss-xdqA9N-kg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=iWXf_qhMybDLBVYM8ew7rA&oh=00_AfggrD-Y6GB1J4UK0-YRBhCQKgWSf90EYvSOU8nIzZvUjQ&oe=69311D9A)
 
@@ -46,9 +46,9 @@ player.showInfoSlides([
 
 ## showInputActionMessage API
 
-The `showInputActionMessage` API enables developers to trigger an attention-grabbing animation and display a message above an on-screen button for a specified [player input action](/hw-docs/Reference/core/Enumerations/PlayerInputAction.md). This is particularly useful for button tooltips in timed action prompts and tutorials.
+The `showInputActionMessage` API enables developers to trigger an attention-grabbing animation and display a message above an on-screen button for a specified [player input action](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/PlayerInputAction.md). This is particularly useful for button tooltips in timed action prompts and tutorials.
 
-More details about the API can be found [here](/hw-docs/Reference/core/Classes/Player.md)
+More details about the API can be found [here](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md)
 
 ### Example
 
@@ -66,7 +66,7 @@ player.showInputActionMessage(
 
 The `showToastMessage` API allows you to show a generic toast message notification at the top of the screen. The toast message can be used to display a message to the player, such as an alert, notification, or helpful onboarding message. The toast message is displayed for a set duration and then it disappears.
 
-More details about the API can be found [here](/hw-docs/Reference/core/Classes/Player.md)
+More details about the API can be found [here](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md)
 
 ### Example
 

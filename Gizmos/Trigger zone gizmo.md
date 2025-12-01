@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Trigger zone gizmo
 
-The trigger zone [gizmo](/hw-docs/Gizmos/About%20gizmos.md) triggers an event when you enter or exit a specified area.
+The trigger zone [gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/About%20gizmos.md) triggers an event when you enter or exit a specified area.
 
 ![Trigger zone gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578801646_863563276181625_6970024535789345268_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-IJ7qgWXZM0Q7kNvwFc41Eq&_nc_oc=AdnjG6uAuk-v2zW2eO_uTx8mxM8ZaU6DV3GKXHlQY9Lu_CcrNVenPzr10KFNopuxvFc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SsT8EL4R1xWP7GQ4laOhUQ&oh=00_AfgozjnvxKYqiEuKhyIw8KWamfIrbavkAx2Gkja-MvXBKQ&oe=693126DB)
 
@@ -39,9 +39,9 @@ You can also programmatically control trigger zones using the TriggerGizmo class
 
 CodeBlockEvents are platform-emitted events for key runtime functionality, including gizmo activities.
 
-* For more information on CodeBlockEvents, see [CodeBlock Events](/hw-docs/Scripting/Events/CodeBlock%20Events.md).
-* For API docs on CodeBlockEvents, see [CodeBlockEvents](/hw-docs/Reference/core/Variables/CodeBlockEvents.md).
-* For specific documentation on the TriggerGizmo API, see [TriggerGizmo class](/hw-docs/Reference/core/Classes/TriggerGizmo.md).
+* For more information on CodeBlockEvents, see [CodeBlock Events](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/CodeBlock%20Events.md).
+* For API docs on CodeBlockEvents, see [CodeBlockEvents](/hw-mcp-tools/documentation/hw-docs/Reference/core/Variables/CodeBlockEvents.md).
+* For specific documentation on the TriggerGizmo API, see [TriggerGizmo class](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/TriggerGizmo.md).
 
 The following script can be attached to a Trigger Zone entity that you have deployed in your world:
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 # Focused Interaction
 
-**Note**: This feature requires [local scripting](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md).
+**Note**: This feature requires [local scripting](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md).
 
 Focused Interaction is an interaction mode for users of the web and mobile version of Meta Horizon Worlds. This mode replaces the default input, such as the on-screen joysticks and buttons, with touch and click events on the screen. You use Focused Interaction to provide user interactions that feel more intuitive to desktop and mobile users. It gives them the ability to interact directly with objects within the world by clicking, tapping, swiping or dragging.
 
@@ -19,13 +19,13 @@ When in this Focused Interaction mode, the following functionality is disabled a
 
 * Direct touch on the mobile device screen.
 * Mouse input on the desktop computer screen.
-* Can use a fixed camera. For more information, see the [camera API documentation](/hw-docs/Reference/camera/Classes/Camera.md).
+* Can use a fixed camera. For more information, see the [camera API documentation](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Classes/Camera.md).
 
 In Focused Interaction mode, you can listen for the following events to get user input data:
 
-* [PlayerControls.onFocusedInteractionInputStarted](/hw-docs/Reference/core/Classes/PlayerControls.md)
-* [PlayerControls.onFocusedInteractionInputMoved](/hw-docs/Reference/core/Classes/PlayerControls.md)
-* [PlayerControls.onFocusedInteractionInputEnded](/hw-docs/Reference/core/Classes/PlayerControls.md)
+* [PlayerControls.onFocusedInteractionInputStarted](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/PlayerControls.md)
+* [PlayerControls.onFocusedInteractionInputMoved](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/PlayerControls.md)
+* [PlayerControls.onFocusedInteractionInputEnded](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/PlayerControls.md)
 
 > **Note** : These events are triggered within a local script, on an object owned by the player, when the player touches the screen on a mobile device, or when they click on the screen on the desktop.
 
@@ -192,7 +192,7 @@ The `OnPlayerExitedFocusedInteraction` CodeBlock event fires either when you dir
 
 For worlds or small instances where you would want to keep the player in Focused Interaction, you can now disable the system bar exit button.
 
-To do this you can trigger the `player.enterFocusedInteractionMode()` with the new [FocusedInteractionOptions](/hw-docs/Reference/core/Type%20Aliases/FocusedInteractionOptions.md). These options enable you to disable the exit button for that Focused Interaction instance.
+To do this you can trigger the `player.enterFocusedInteractionMode()` with the new [FocusedInteractionOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/FocusedInteractionOptions.md). These options enable you to disable the exit button for that Focused Interaction instance.
 
 ```
 player.enterFocusedInteractionMode({disableFocusExitButton: true});
@@ -206,7 +206,7 @@ You can still cause players to exit the Focused Interaction mode programmaticall
 
 When a player interacts with the wold in Focused Interaction mode, they see visual feedback about where they’ve tapped and dragged on the screen.
 
-To customize the visual feedback on tap, use the [FocusedInteraction.setTapOptions()](/hw-docs/Reference/core/Classes/FocusedInteraction.md) method. You can change the tap duration, color, scale, opacity, and rotation as well as enabling/disabling trail feedack overall:
+To customize the visual feedback on tap, use the [FocusedInteraction.setTapOptions()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/FocusedInteraction.md) method. You can change the tap duration, color, scale, opacity, and rotation as well as enabling/disabling trail feedack overall:
 
 ```
 let newTapOptions = {
@@ -225,7 +225,7 @@ let newTapOptions = {
 player.focusedInteraction.setTapOptions(true /*isEnabled*/, newTapOptions);
 ```
 
-To customize the visual feedback on drag, use the [FocusedInteraction.setTrailOptions()](/hw-docs/Reference/core/Classes/FocusedInteraction.md) method. You can change the trail length, color, width and opacity as well as enabling/disabling trail feedack overall:
+To customize the visual feedback on drag, use the [FocusedInteraction.setTrailOptions()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/FocusedInteraction.md) method. You can change the trail length, color, width and opacity as well as enabling/disabling trail feedack overall:
 
 ```
 let newTrailOptions = {
@@ -244,7 +244,7 @@ player.focusedInteraction.setTrailOptions(true  /*isEnabled*/, newTrailOption
 
 ## Focus the camera on a custom UI
 
-You can use [player.focusUI()](/hw-docs/Reference/core/Classes/Player.md) to focus the player’s camera on a selectable entity in the world, such as a custom UI:
+You can use [player.focusUI()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md) to focus the player’s camera on a selectable entity in the world, such as a custom UI:
 
 ```
  player.focusUI(selectableEntity, {
@@ -254,7 +254,7 @@ You can use [player.focusUI()](/hw-docs/Reference/core/Classes/Player.md) to foc
       });
 ```
 
-To remove focus from any in-world UI the player’s camera is currently focused on, you use [player.unfocusUI()](/hw-docs/Reference/core/Classes/Player.md):
+To remove focus from any in-world UI the player’s camera is currently focused on, you use [player.unfocusUI()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md):
 
 ```
 player.unfocusUI();

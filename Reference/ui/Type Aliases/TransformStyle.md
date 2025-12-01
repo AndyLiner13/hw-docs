@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_transforms
 
 # TransformStyle type
 
-Represents the style used to transform a UI element on a UI panel. For descriptions of the available styles, see [Custom UI Styles](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#transformstyle).
+Represents the style used to transform a UI element on a UI panel. For descriptions of the available styles, see [Custom UI Styles](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#transformstyle).
 
 ## Signature
 
@@ -33,8 +33,8 @@ export declare type TransformStyle = {
 
 ## References
 
-[Bindable](/hw-docs/Reference/ui/Type%20Aliases/Bindable.md), [DimensionValue](/hw-docs/Reference/ui/Type%20Aliases/DimensionValue.md)
+[Bindable](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/Bindable.md), [DimensionValue](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/DimensionValue.md)
 
 ## Remarks
 
-The [UIComponent](/hw-docs/Reference/ui/Abstract%20Classes/UIComponent.md) class is the base class for controlling custom UI panels in a world. See [Create a custom UI panel](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) for guides about using the API.
+The [UIComponent](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Abstract%20Classes/UIComponent.md) class is the base class for controlling custom UI panels in a world. See [Create a custom UI panel](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) for guides about using the API.

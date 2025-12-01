@@ -50,7 +50,7 @@ You must use Typescript APIs to manually stream sublevels.
 
 ## World streaming vs asset spawning
 
-World Streaming or [Asset Spawning](/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md) are two approaches that you can use to spawn content into your world at runtime. Which approach you use depends on the following considerations.
+World Streaming or [Asset Spawning](/hw-mcp-tools/documentation/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md) are two approaches that you can use to spawn content into your world at runtime. Which approach you use depends on the following considerations.
 
 **Use world streaming if**
 
@@ -137,17 +137,17 @@ Follow this procedure to configure the Desktop Editor to run the sample script. 
 * Get the target state of the sublevel (for example, loaded).
 * Set the target state of the sublevel by using the following functions:
 
-[activate()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Make the sublevel visible to users and start running scripts.
+[activate()](/hw-mcp-tools/documentation/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Make the sublevel visible to users and start running scripts.
 
-[hide()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Return an active sublevel back to the loaded state.
+[hide()](/hw-mcp-tools/documentation/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Return an active sublevel back to the loaded state.
 
-[load()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Begin the process of loading a sublevel into memory, but don’t activate it yet.
+[load()](/hw-mcp-tools/documentation/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Begin the process of loading a sublevel into memory, but don’t activate it yet.
 
-[pause()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Temporarily pause the load of a sublevel. Loading a sublevel has an impact on performance, so you might want to temporarily pause a load at performance-critical times. Resume the load by calling load() again.
+[pause()](/hw-mcp-tools/documentation/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Temporarily pause the load of a sublevel. Loading a sublevel has an impact on performance, so you might want to temporarily pause a load at performance-critical times. Resume the load by calling load() again.
 
-[unload()](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Completely remove a sublevel from memory.
+[unload()](/hw-mcp-tools/documentation/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) Completely remove a sublevel from memory.
 
-You can find the SublevelEntity class API in the [v2.0.0 world\_streaming package](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md). This API is not supported in v1.0.0 of the Meta Horizon Worlds API.
+You can find the SublevelEntity class API in the [v2.0.0 world\_streaming package](/hw-mcp-tools/documentation/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md). This API is not supported in v1.0.0 of the Meta Horizon Worlds API.
 
 ### Preconditions
 

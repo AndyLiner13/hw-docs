@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 # Per Platform Scripting
 
-You can use TypeScript to identify the type of device that the user is playing on. Use the [**Player.deviceType** property](/hw-docs/Reference/core/Classes/Player.md) and the [PlayerDeviceType enum](/hw-docs/Reference/core/Classes/Player.md) in a switch block.
+You can use TypeScript to identify the type of device that the user is playing on. Use the [**Player.deviceType** property](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md) and the [PlayerDeviceType enum](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md) in a switch block.
 
 ```
 switch (player.deviceType.get()) {
