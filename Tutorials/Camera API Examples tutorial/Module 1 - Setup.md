@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
 In VR, the camera’s point of view is set to first-person from the point of view of your avatar. In web and mobile experiences, however, the camera may be positioned in different points of view to facilitate the best combination of immersive experience, situational awareness, and current interactions. This tutorial covers the different camera positions available through the Camera API for use in web and mobile worlds, including recommended use cases for each one.
 
@@ -28,7 +28,7 @@ You can follow this tutorial in different ways:
 
 ### Grab What You Need!
 
-You can use assets and scripts from this world in your own. For more information on how to apply this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+You can use assets and scripts from this world in your own. For more information on how to apply this world to yours, see [Use Assets from Tutorials](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
 
 **Note**: In the following modules, script names are listed to indicate where the code for the system is located. These files are available in a local directory for your scripts. Search for the filename of the name of the world.
 
@@ -46,7 +46,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0. You can learn more about how to upgrade your own world to TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+See [Getting Started with Tutorials](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
 
 ## Prerequisites
 
@@ -56,13 +56,13 @@ To follow along and complete this tutorial, you need the following:
 * The Meta Horizon Worlds App installed on your Quest device.
 * The desktop editor downloaded and installed on a PC device.
 
-See [Tutorial Prerequisites](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+See [Tutorial Prerequisites](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
 
 * (Optional) An integrated development environment (IDE) can be connected to the desktop editor for building your TypeScript scripts.
 
   + Visual Studio Code is recommended.
 
-**Note**: If you are new to the desktop editor or to TypeScript, you might want to start with the first tutorial. See [Build your first game](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+**Note**: If you are new to the desktop editor or to TypeScript, you might want to start with the first tutorial. See [Build your first game](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
 
 **Note**: This tutorial is built on TypeScript API version 2.0.0.
 
@@ -71,11 +71,11 @@ See [Tutorial Prerequisites](/hw-docs/Tutorials/Getting%20started%20with%20tutor
 
 ## Get Started
 
-Before you begin, you must create a new world from this tutorial world. See [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+Before you begin, you must create a new world from this tutorial world. See [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
 Open your new world in the desktop editor, where you can explore it in either Build mode or Preview mode to familiarize yourself with the world and its structures before modifying it.
 
-**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you should check out the “Build your first game” tutorial to learn the basics of building worlds and TypeScript scripts in the desktop editor. See [Build your first game](/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
+**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you should check out the “Build your first game” tutorial to learn the basics of building worlds and TypeScript scripts in the desktop editor. See [Build your first game](/hw-mcp-tools/documentation/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
 
 ### Set up for web and mobile testing
 
@@ -85,7 +85,7 @@ As part of the development process, you must test your work on each supported pl
 
 **Note**: For this tutorial world, the desktop editor is a reasonable testbed for the basics of camera operations. However, mobile has some differences that need to be included as part of your testing. For example, this world includes a camera reset button, which appears in the mobile screen only. Mobile experiences should be tested as well.
 
-For more information, see [How to Test on Web and Mobile](/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md).
+For more information, see [How to Test on Web and Mobile](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md).
 
 ### Tutorial modules
 

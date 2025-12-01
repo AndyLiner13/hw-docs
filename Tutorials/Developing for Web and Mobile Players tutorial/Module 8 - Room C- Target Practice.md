@@ -298,12 +298,12 @@ In this module you:
 
 #### Additional documentation:
 
-* [Local Script for Mobile and Web](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
-* [Per Platform Scripting](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Per%20Platform%20Scripting.md)
-* [Using the Camera API for Web and Mobile](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
+* [Local Script for Mobile and Web](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
+* [Per Platform Scripting](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Per%20Platform%20Scripting.md)
+* [Using the Camera API for Web and Mobile](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
 * [How to set the player’s camera](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-set-the-players-camera/)
-* [Intro to Grabbable Entities](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md)
-* [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device)
+* [Intro to Grabbable Entities](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md)
+* [Preview device](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device)
 
 #### API docs:
 

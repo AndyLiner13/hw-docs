@@ -397,7 +397,7 @@ In this module, you:
 #### Additional documentation:
 
 * [2D UI for Web and Mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/2d-ui-for-web-and-mobile)
-* [Safe Placement of UI Controls](/hw-docs/Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Safe%20Placement%20of%20UI%20Controls.md)
+* [Safe Placement of UI Controls](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Safe%20Placement%20of%20UI%20Controls.md)
 
 #### API docs:
 

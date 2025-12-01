@@ -110,6 +110,6 @@ Several of the sound effects used in this world were generated using the GenAI t
 
 For more information on Generative AI tools in the desktop editor:
 
-* [Code Creation Tool](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Assistant%20Tool.md)
-* [Audio Creation Tool](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md)
-* [Texture Creation Tool](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Texture%20Generation%20Tool.md)
+* [Code Creation Tool](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Assistant%20Tool.md)
+* [Audio Creation Tool](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md)
+* [Texture Creation Tool](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Texture%20Generation%20Tool.md)

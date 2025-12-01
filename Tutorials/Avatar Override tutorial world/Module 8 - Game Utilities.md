@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Note
 
-You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
+You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 The `GameUtils.ts` script is a centralized collection of utility functions and classes that provide time unit conversions, avatar ID management, showcase position tracking, popup settings configuration, and player data management. It simplifies gameplay development by offering reusable code for common tasks.
 

@@ -96,7 +96,7 @@ Copy contents of `Axe.ts` and all dependent scripts from their source and into t
 
 Create an asset template out of the BadAxe node and its child nodes. Add this to your world, and fix the broken script reference to `Axe.ts`, replacing it on the BadAxe script properties with your own version of `Axe.ts`.
 
-For more information, see [Module 1 - Setup](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
+For more information, see [Module 1 - Setup](/hw-mcp-tools/documentation/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
 
 ## How to Use
 

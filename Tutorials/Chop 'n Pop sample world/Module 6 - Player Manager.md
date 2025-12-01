@@ -24,7 +24,7 @@ PlayerManager reference object hosts `PlayerManager.ts`.
 * Creates a number of event listeners, some of which map to private functions in the class to handle player-related activities
 * Private functions manage:
   + Ammo and taking a hit
-  + Moving players from the game back to the lobby (players move themselves into the game area. Gameplay is triggered by breaching a Trigger Zone entity. See [Module 4 - Game Manager](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%204%20-%20Game%20Manager.md).).
+  + Moving players from the game back to the lobby (players move themselves into the game area. Gameplay is triggered by breaching a Trigger Zone entity. See [Module 4 - Game Manager](/hw-mcp-tools/documentation/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%204%20-%20Game%20Manager.md).).
 
 When a player enters the world, the player is added to the GamePlayers object list, using the player’s PlayerData. PlayerData includes:
 

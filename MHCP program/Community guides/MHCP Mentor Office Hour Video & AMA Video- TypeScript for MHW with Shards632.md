@@ -12,6 +12,6 @@ In this session, Shards632 touches on:
 
 ### Links
 
-* [Typescript conventions and best practices for Horizon Worlds](/hw-docs/MHCP%20program/Community%20guides/Typescript%20Conventions%20and%20Best%20Practices%20for%20Meta%20Horizon%20Worlds.md)
-* [Creator manual](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md)
+* [Typescript conventions and best practices for Horizon Worlds](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/Typescript%20Conventions%20and%20Best%20Practices%20for%20Meta%20Horizon%20Worlds.md)
+* [Creator manual](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md)
 * [Weekly challenge #3](https://communityforums.atmeta.com/t5/Creator-Questions-Discussions/New-Weekly-Creator-Challenges/td-p/1302074)

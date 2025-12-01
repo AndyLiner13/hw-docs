@@ -18,7 +18,7 @@ Unless otherwise stated, these tutorials are intended to be explored through the
 
 These tutorials are based on v2.0.0 of the TypeScript APIs.
 
-**Note**: If you have been working in an earlier version of the TypeScript API, you will need to upgrade your world to use the elements of these tutorials. See [Upgrade World to API v2.0.0](/hw-docs/Scripting/Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md).
+**Note**: If you have been working in an earlier version of the TypeScript API, you will need to upgrade your world to use the elements of these tutorials. See [Upgrade World to API v2.0.0](/hw-mcp-tools/documentation/hw-docs/Scripting/Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md).
 
 ## Non-file backed scripts worlds
 
@@ -32,7 +32,7 @@ This has the following implications:
 * Features of the desktop editor that apply to File Backed Scripts worlds are not available when you open these worlds. For example, in the context menu for a script in the Scripts panel, the option Spawn New Gizmo for the script is not available.
 * Asset templates created from entities in these worlds that contain scripts result in individual instances of the script in your world for each instance of the asset template added to it.
 
-For more information, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md)
+For more information, see [Use Assets from Tutorials](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md)
 
 ## Slide movement style
 

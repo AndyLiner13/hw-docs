@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
 This sample covers how to create a configurable gun and laser gun from the basic components available to every creator with access to the desktop editor. These gun types have different methods of targeting and managing projectiles:
 
@@ -39,7 +39,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0. You can learn more about how to upgrade your own world to TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+See [Getting Started with Tutorials](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
 
 ## Learning Pathways
 
@@ -53,11 +53,11 @@ To create a copy of the Shooting Mechanics Tutorial sample world in Meta Horizon
 - Select the world.
 - A duplicate version is created, with you as its owner. The world name is set to: **Simple Shooting Mechanics**.
 
-You can create a new world from a tutorial world from the desktop editor or from the headset. For more information on this workflow, see See [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+You can create a new world from a tutorial world from the desktop editor or from the headset. For more information on this workflow, see See [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
 
 ## Multiplayer
 
