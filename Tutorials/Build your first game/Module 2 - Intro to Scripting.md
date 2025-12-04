@@ -137,7 +137,7 @@ this.connectCodeBlockEvent(
 
 Hmm…it’s not working. Nothing is being logged, and the console is empty.
 
-**Note**: Console logging is an important tool for debugging purposes. For more information, see [Test Your World](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Test%20Your%20World.md#console-logging).
+**Note**: Console logging is an important tool for debugging purposes. For more information, see [Test Your World](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Test%20Your%20World.md#console-logging).
 
 ### Attach script
 

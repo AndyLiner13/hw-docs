@@ -63,7 +63,7 @@ In `PlayerCamera.ts`:
   + Sets locomotion on the player to 0
   + Calls to displayCameraResetButton(), which activates the Q button on the mobile and web screen.
 
-For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](/hw-docs/Tutorials/Camera%20API%20Examples%20tutorial/Module%202%20-%20PlayerCamera%20Overview.md).
+For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](/hw-mcp-tools/documentation/hw-docs/Tutorials/Camera%20API%20Examples%20tutorial/Module%202%20-%20PlayerCamera%20Overview.md).
 
 ## Checkpoint
 

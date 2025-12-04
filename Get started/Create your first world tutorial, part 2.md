@@ -4,12 +4,12 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-start
 
 **Welcome to Part 2 of the Creating Your First World Tutorial**
 
-In this tutorial, you’ll continue to learn how to create a simple game in Horizon Worlds, where you shoot marauding skeletons in a graveyard. Where [Create your first world tutorial, part 1](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) showed you how to create a new world and build the basics of the game, part 2 will take you a bit farther.
+In this tutorial, you’ll continue to learn how to create a simple game in Horizon Worlds, where you shoot marauding skeletons in a graveyard. Where [Create your first world tutorial, part 1](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) showed you how to create a new world and build the basics of the game, part 2 will take you a bit farther.
 Part 2 shows you how to import custom models, which are which are complex 3D models that are not available in the public asset library. You won’t be creating them here—you’ll use demo assets so you can see how they’re imported. Once you’ve done that, the tutorial shows you how to write a basic script and attach it to the entity to create behavior. The tutorial ends with testing the simple game in virtual reality.
 
-Creating customs models is outside the scope of this tutorial, but if you want to find out more about them, see [Creating a custom model](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md).
+Creating customs models is outside the scope of this tutorial, but if you want to find out more about them, see [Creating a custom model](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md).
 
-If you’re looking for the first half of the tutorial, go to the [Introductory Tutorial part 1](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md).
+If you’re looking for the first half of the tutorial, go to the [Introductory Tutorial part 1](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md).
 
 The key things you should learn from this module are the following:
 
@@ -20,7 +20,7 @@ The key things you should learn from this module are the following:
 
 **Note**: This tutorial assumes that you’ve completed the prerequisites discussed in [Create your first world tutorial introduction](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-a-new-world-intro).
 
-This part of the tutorial requires that you first complete [part 1](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md), as this is a continutation of that process.
+This part of the tutorial requires that you first complete [part 1](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md), as this is a continutation of that process.
 
 ## Step 1: Add a pedestal and a rifle
 
@@ -45,7 +45,7 @@ In part 1 of this tutorial, you created the graveyard. But if you’re going to 
   ![Adding a new 3D model](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/514366312_756887446849209_4679233969024346019_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=fuqQ6L_vYHYQ7kNvwFeW9IA&_nc_oc=AdnO_xVXADhdY9sbJyCpUhgcvZTcDOYm6iMLai_TEA5XFnRCDlWBjJ0pv5NN9ZKb1qQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ekShegny2riGs6H-MEBTdg&oh=00_AflQhinrrWEw0Chsa8gZaxQ0BaLnLygyrchzLVFT6PzUsQ&oe=694BD98D)
 - In the **Import Models** dialog box, enable **Preserve offset pivots** if it isn’t selected already.
 
-  Because of the way they move, certain assets use [offset pivot points](/hw-docs/Desktop%20editor/Assets/Use%20offset%20pivots.md), where the point around which they turn or pivot is offset from the center of the asset. This is so animation of the asset can look natural.
+  Because of the way they move, certain assets use [offset pivot points](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Use%20offset%20pivots.md), where the point around which they turn or pivot is offset from the center of the asset. This is so animation of the asset can look natural.
 
   Ignore the warning the dialog box shows: all the assets that this tutorial works with are [single mesh](https://developers.meta.com/horizon-worlds/ learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/materials-guidance-and-reference-for-custom-models) files.
 
@@ -86,7 +86,7 @@ In part 1 of this tutorial, you created the graveyard. But if you’re going to 
 
   b. Click **Add New**, and then click **3D Model**.
 
-  c. In the **Import Models** dialog box, disable **Preserve offset pivots** because the 3D model for the rifle uses [more than one material for the mesh in the FBX file](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Multiple%20Materials%20per%20Mesh.md).
+  c. In the **Import Models** dialog box, disable **Preserve offset pivots** because the 3D model for the rifle uses [more than one material for the mesh in the FBX file](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Multiple%20Materials%20per%20Mesh.md).
 
   ![Don't preserve Offset Pivots](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/464008566_573870171817605_7978731282074208552_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=LwQeTOekWB4Q7kNvwEJjRSm&_nc_oc=Adk7iaVaFDiXzLadUoe77VXy6bBtgICKSUazBOGXGvlKun4jpomRVYllMmXbhAsJqCM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ekShegny2riGs6H-MEBTdg&oh=00_AflsrrXd1174NGuGT374_pSyCvjesgkfzAJF_9MqYSqGlQ&oe=694BB546)
 
@@ -525,7 +525,7 @@ You’re done! You’ve completed building a game in Meta Horizon Worlds! In the
 
 To learn more about Meta Horizon Worlds, try the following:
 
-* Try the [Batting cage tutorial](/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md) now that you’ve created your first world.
-* Learn about the desktop editor with the [Introduction to the desktop editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
-* Learn about the other tools available by reading our [Tools overview](/hw-docs/Get%20started/Tools%20overview.md).
+* Try the [Batting cage tutorial](/hw-mcp-tools/documentation/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md) now that you’ve created your first world.
+* Learn about the desktop editor with the [Introduction to the desktop editor](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+* Learn about the other tools available by reading our [Tools overview](/hw-mcp-tools/documentation/hw-docs/Get%20started/Tools%20overview.md).
 * Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

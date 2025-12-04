@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/world_streami
 
 # SublevelStates Enum
 
-The possible states of a [sublevel](/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) in a world when using world streaming.
+The possible states of a [sublevel](/hw-mcp-tools/documentation/hw-docs/Reference/world_streaming/Classes/SublevelEntity.md) in a world when using world streaming.
 
 ## Signature
 
@@ -24,4 +24,4 @@ export declare enum SublevelStates
 
 ## Remarks
 
-For more information about world streaming, see the [World Streaming](/hw-docs/Scripting/Asset%20spawning/World%20Streaming.md) guide.
+For more information about world streaming, see the [World Streaming](/hw-mcp-tools/documentation/hw-docs/Scripting/Asset%20spawning/World%20Streaming.md) guide.

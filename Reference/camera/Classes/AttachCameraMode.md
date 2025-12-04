@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_attach
 
 # AttachCameraMode Class
 
-Extends *[ICameraMode](/hw-docs/Reference/camera/Interfaces/ICameraMode.md)*
+Extends *[ICameraMode](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Interfaces/ICameraMode.md)*
 
 Manipulates runtime properties of cameras in attach mode. When attach mode is enabled for a camera, it follows a target entity's position and rotation.
 
@@ -14,7 +14,7 @@ export declare class AttachCameraMode implements ICameraMode
 
 ## Remarks
 
-The [Camera.setCameraModeAttach()](/hw-docs/Reference/camera/Classes/Camera.md#setcameramodeattach) method enables attach mode for a camera.
+The [Camera.setCameraModeAttach()](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Classes/Camera.md#setcameramodeattach) method enables attach mode for a camera.
 
 ## Properties
 

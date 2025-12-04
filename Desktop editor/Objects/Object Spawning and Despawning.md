@@ -2,15 +2,15 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Object Spawning and Despawning
 
-**Note**: This article describes object spawning methods using the legacy approach. Beginning in TypeScript v2.0.0, you should use the SpawnController class for more efficient management of spawning and despawning assets. For more information, see [Introduction to Spawning](/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md).
+**Note**: This article describes object spawning methods using the legacy approach. Beginning in TypeScript v2.0.0, you should use the SpawnController class for more efficient management of spawning and despawning assets. For more information, see [Introduction to Spawning](/hw-mcp-tools/documentation/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md).
 
 When creating worlds in Horizon, objects can appear and disappear based on player input and world events, which is a great way to add dynamic experiences to your world. For example, you might create cannons that fire projectiles at a set interval or a shop where players can purchase items and wearables in-world. However, including many complex objects in your world quickly fills your world’s object capacity, reducing the resources you have available for world building.
 
 ## What is Object Spawning and Despawning?
 
-A great intro into this topic can be found in the public [Spawn and despawn assets](/hw-docs/VR%20tools/Scripting/Spawn%20and%20despawn%20assets%20in%20Meta%20Horizon%20Worlds.md) documentation.
+A great intro into this topic can be found in the public [Spawn and despawn assets](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Scripting/Spawn%20and%20despawn%20assets%20in%20Meta%20Horizon%20Worlds.md) documentation.
 
-Object spawning and despawning allows creators to instantiate and destroy objects at runtime through scripts powered by CodeBlocks and TypeScript. These objects are tied to [Assets](/hw-docs/Desktop%20editor/Assets/Introduction%20to%20the%20Desktop%20Editor%20Asset%20Library.md) pulled from the creator’s Asset Library, and enables creators to spawn various objects for users to interact with, to perform actions in-world and more.
+Object spawning and despawning allows creators to instantiate and destroy objects at runtime through scripts powered by CodeBlocks and TypeScript. These objects are tied to [Assets](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Introduction%20to%20the%20Desktop%20Editor%20Asset%20Library.md) pulled from the creator’s Asset Library, and enables creators to spawn various objects for users to interact with, to perform actions in-world and more.
 
 In the cannon example, let’s consider a case where a cannonball is fired whenever the controlling player presses a trigger or button on their controller. Without spawning, these cannonballs must already exist in-world, doing nothing, and can then be moved into position with scripts. This can work. However, it’s unclear how many cannonballs are needed and if they can be removed after use, leading to creating too many cannonballs (cutting into your world object limit) or insufficient cannonballs (making cannonballs respawn while airborne).
 

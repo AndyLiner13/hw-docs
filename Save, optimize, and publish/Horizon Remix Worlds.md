@@ -56,7 +56,7 @@ To set your world as remixable, use the following process:
   + Once you publish your world, try remixing it just like another user would to ensure everything works smoothly.
   + Explicitly mention in your world’s description that it’s open for remixing and suggest potential avenues for creative iteration.
   + Document the design and structure of your world. This is best done on a 2D panel in the world
-  + Ensure that your base world performs smoothly by following [performance best practices](/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md)
+  + Ensure that your base world performs smoothly by following [performance best practices](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md)
     \*
 * For a remix: Make your world unique:
   + A successful remix should introduce enough new elements to make the world feel like a fresh experience, even if it is recognizable from the original.
@@ -67,7 +67,7 @@ To set your world as remixable, use the following process:
 | Do | Don’t |
 | --- | --- |
 | Think about how your world can be distinct from the original. | Change a few assets or items and publish. |
-| Think about how you can leverage the original world’s themes or gameplay to create an engaging gameplay loop. | Remix worlds just for assets - consider using the [Public Assets Library](/hw-docs/Desktop%20editor/Assets/Public%20Assets.md) instead. |
+| Think about how you can leverage the original world’s themes or gameplay to create an engaging gameplay loop. | Remix worlds just for assets - consider using the [Public Assets Library](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Public%20Assets.md) instead. |
 
 * Naming Conventions: When creating an Open World, use clear and descriptive names to help other creators understand the purpose and content of the world.
 * Attribution: Consider adding visible attribution UI when the world loads, such as “Made with [Creator’s Name] Open World,” to acknowledge the original creator. By default, we provide attribution to the immediate parent world.

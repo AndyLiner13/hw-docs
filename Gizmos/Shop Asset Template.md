@@ -6,13 +6,13 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 Note
 
-You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
+You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 The Shop Asset Template allows users to trade Meta credits and in-world items for other in-world items.
 
-The Shop Asset Template can be configured to display in-world items created in the **Systems > Commerce** menu. For more information on creating in-world items, visit the [In-World Purchase Guide](/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md#creating-an-item).
+The Shop Asset Template can be configured to display in-world items created in the **Systems > Commerce** menu. For more information on creating in-world items, visit the [In-World Purchase Guide](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md#creating-an-item).
 
-Behind the scenes, the world inventory stores how many of each in-world item is owned by each player. While the shop interfaces with the world inventory automatically, you can use [World Inventory TypeScript APIs](/hw-docs/Reference/core/Classes/WorldInventory.md) to manually query, grant, and consume in-world items in a player’s world inventory.
+Behind the scenes, the world inventory stores how many of each in-world item is owned by each player. While the shop interfaces with the world inventory automatically, you can use [World Inventory TypeScript APIs](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/WorldInventory.md) to manually query, grant, and consume in-world items in a player’s world inventory.
 
 ## Access the Shop Asset Template
 

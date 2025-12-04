@@ -14,7 +14,7 @@ export declare class PlayerBodyPart
 
 |  |  |
 | --- | --- |
-| **(constructor)(player, type)** | Creates a `PlayerBodyPart`.  ---  Signature  ``` constructor(player: Player, type: PlayerBodyPartType); ```  Parameters  player: [Player](/hw-docs/Reference/core/Classes/Player.md)  The player that owns the body part.  type: [PlayerBodyPartType](/hw-docs/Reference/core/Enumerations/PlayerBodyPartType.md)  The type of the body part. |
+| **(constructor)(player, type)** | Creates a `PlayerBodyPart`.  ---  Signature  ``` constructor(player: Player, type: PlayerBodyPartType); ```  Parameters  player: [Player](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md)  The player that owns the body part.  type: [PlayerBodyPartType](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/PlayerBodyPartType.md)  The type of the body part. |
 
 ## Properties
 
@@ -33,5 +33,5 @@ export declare class PlayerBodyPart
 
 |  |  |
 | --- | --- |
-| **getPosition(space)** | Gets the world or the local position of the body part.      Signature  ``` getPosition(space: Space): Vec3; ```  Parameters  space: [Space](/hw-docs/Reference/core/Enumerations/Space.md)  Indicates whether to get the world or local position of the body part.  Returns  [Vec3](/hw-docs/Reference/core/Classes/Vec3.md)  The position of the body part in this space. |
-| **getRotation(space)** | Gets the rotation or the local rotation of the body part.      Signature  ``` getRotation(space: Space): Quaternion; ```  Parameters  space: [Space](/hw-docs/Reference/core/Enumerations/Space.md)  Indicates whether to get the world or local rotation of the body part.  Returns  [Quaternion](/hw-docs/Reference/core/Classes/Quaternion.md)  The rotation of the body part in this space. |
+| **getPosition(space)** | Gets the world or the local position of the body part.      Signature  ``` getPosition(space: Space): Vec3; ```  Parameters  space: [Space](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/Space.md)  Indicates whether to get the world or local position of the body part.  Returns  [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)  The position of the body part in this space. |
+| **getRotation(space)** | Gets the rotation or the local rotation of the body part.      Signature  ``` getRotation(space: Space): Quaternion; ```  Parameters  space: [Space](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/Space.md)  Indicates whether to get the world or local rotation of the body part.  Returns  [Quaternion](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Quaternion.md)  The rotation of the body part in this space. |

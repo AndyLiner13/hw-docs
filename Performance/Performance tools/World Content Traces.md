@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 # World Content Traces
 
-World content traces are a special type of [trace](/hw-docs/Performance/Performance%20tools/Tracing.md) that allows you to get frame-by-frame details on your world’s performance and understand how the assets in your world might contribute to it. World content traces include data on:
+World content traces are a special type of [trace](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Tracing.md) that allows you to get frame-by-frame details on your world’s performance and understand how the assets in your world might contribute to it. World content traces include data on:
 
 * 3D models
 * Textures
@@ -14,7 +14,7 @@ Unlike other types of trace data, you’ll use the Desktop Editor to view and an
 
 ## Prerequisites
 
-* [Enable the Utilities Menu](/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md)
+* [Enable the Utilities Menu](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md)
 
 ## Start a world content trace
 

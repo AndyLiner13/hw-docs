@@ -37,7 +37,7 @@ Begin by setting up your development environment and creating your new world wit
 * Install [Meta Quest App](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/requirements-quest-link/)
 * Open and Sign into Quest App with your Meta Account
 * Install [Meta Horizon Worlds](https://www.meta.com/experiences/meta-horizon-worlds/2532035600194083/) via Quest App Store
-* [Launch Desktop Editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md) by Clicking on the 3-little-dots ( … ) next to Meta Horizon Worlds in your Library and select Start in Desktop Mode
+* [Launch Desktop Editor](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md) by Clicking on the 3-little-dots ( … ) next to Meta Horizon Worlds in your Library and select Start in Desktop Mode
 * Click the blue New World button in the top right corner
 * Name your world, select the type, and select *Create*
 

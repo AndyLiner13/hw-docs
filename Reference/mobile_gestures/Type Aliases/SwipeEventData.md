@@ -14,4 +14,4 @@ export declare type SwipeEventData = TouchEventData & {
 
 ## References
 
-[TouchEventData](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchEventData.md), [SwipeDirection](/hw-docs/Reference/mobile_gestures/Enumerations/SwipeDirection.md)
+[TouchEventData](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchEventData.md), [SwipeDirection](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Enumerations/SwipeDirection.md)

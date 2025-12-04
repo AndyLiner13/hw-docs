@@ -19,7 +19,7 @@ export declare type PopupOptions = {
 
 ## References
 
-[Vec3](/hw-docs/Reference/core/Classes/Vec3.md), [Color](/hw-docs/Reference/core/Classes/Color.md)
+[Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md), [Color](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Color.md)
 
 ## Remarks
 

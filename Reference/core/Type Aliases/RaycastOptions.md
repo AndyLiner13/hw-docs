@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycasto
 
 # RaycastOptions type
 
-Options for the [RaycastGizmo.raycast()](/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) method.
+Options for the [RaycastGizmo.raycast()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) method.
 
 ## Signature
 
@@ -16,7 +16,7 @@ export declare type RaycastOptions = {
 
 ## References
 
-[LayerType](/hw-docs/Reference/core/Enumerations/LayerType.md)
+[LayerType](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LayerType.md)
 
 ## Remarks
 

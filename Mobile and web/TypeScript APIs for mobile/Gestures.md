@@ -12,13 +12,13 @@ The API provides detection for the following gestures:
 * Pan (drag)
 * Pinch (scale and rotate)
 
-You use the [Gestures](/hw-docs/Reference/mobile_gestures/Classes/Gestures.md) class to listen for these gesture events on a component owned by the local player.
+You use the [Gestures](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Classes/Gestures.md) class to listen for these gesture events on a component owned by the local player.
 
 ## Step 1: Setup and initialization
 
 To use the gestures API, you need to:
 
-* Import the [Gestures](/hw-docs/Reference/mobile_gestures/Classes/Gestures.md) class from `horizon/mobile_gestures`.
+* Import the [Gestures](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Classes/Gestures.md) class from `horizon/mobile_gestures`.
 * Create an instance of `Gestures` attached to your component.
 * Call `enterFocusedInteractionMode()` on the player to start processing gesture events.
 
@@ -50,7 +50,7 @@ The `Gestures` instance exposes the following events you can subscribe to:
 * `onPan`
 * `onPinch`
 
-Each event is a [GestureEvent](/hw-docs/Reference/mobile_gestures/Classes/GestureEvent.md) that you connect to with a callback function receiving gesture data.
+Each event is a [GestureEvent](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Classes/GestureEvent.md) that you connect to with a callback function receiving gesture data.
 
 ### Example: Connecting to gesture events
 
@@ -90,28 +90,28 @@ Each gesture event provides specific data:
 
 | Gesture | Payload Type | Key Data |
 | --- | --- | --- |
-| Tap | [TapEventData](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TapEventData.md) | `touches` array containing [TouchState](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchState.md) objects |
-| Long Tap | [LongTapEventData](/hw-docs/Reference/mobile_gestures/Type%20Aliases/LongTapEventData.md) | `touches` array containing [TouchState](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchState.md) objects |
-| Swipe | [SwipeEventData](/hw-docs/Reference/mobile_gestures/Type%20Aliases/SwipeEventData.md) | `touches` array, `swipeDirection` enum indicating direction of the swipe (`up`, `down`, `left`, `right`, or `none`) |
-| Pan | [PanEventData](/hw-docs/Reference/mobile_gestures/Type%20Aliases/PanEventData.md) | `touches` array, `pan` vector (`Vec3`) reperesenting the movement delta in screen space |
-| Pinch | [PinchEventData](/hw-docs/Reference/mobile_gestures/Type%20Aliases/PinchEventData.md) | `touches` array, `scale` (number), `rotate` (radians) |
+| Tap | [TapEventData](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TapEventData.md) | `touches` array containing [TouchState](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchState.md) objects |
+| Long Tap | [LongTapEventData](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/LongTapEventData.md) | `touches` array containing [TouchState](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchState.md) objects |
+| Swipe | [SwipeEventData](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/SwipeEventData.md) | `touches` array, `swipeDirection` enum indicating direction of the swipe (`up`, `down`, `left`, `right`, or `none`) |
+| Pan | [PanEventData](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/PanEventData.md) | `touches` array, `pan` vector (`Vec3`) reperesenting the movement delta in screen space |
+| Pinch | [PinchEventData](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/PinchEventData.md) | `touches` array, `scale` (number), `rotate` (radians) |
 
 #### Touch state details
 
-Each touch in a `touches` array has the following [state information](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchState.md):
+Each touch in a `touches` array has the following [state information](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchState.md):
 
 | Propert Name | Data Type | Description |
 | --- | --- | --- |
-| `phase` | [TouchPhase](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchPhase.md) | The current phase of the touch: `'start'`, `'move'`, or `'end'`. Indicates if the touch just began, is moving, or ended. |
-| `start` | [TouchInfo](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchInfo.md) | The state of the touch when it first started. Includes position and timestamp. |
-| `previous` | [TouchInfo](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchInfo.md) | The state of the touch during the previous frame. Useful for calculating movement deltas. |
-| `current` | [TouchInfo](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchInfo.md) | The state of the touch during the current frame. Contains the latest position and timestamp. |
-| `screenDelta` | [Vec3](/hw-docs/Reference/core/Classes/Vec3.md) | The vector representing how far the touch has moved since the previous frame, in screen space. |
+| `phase` | [TouchPhase](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchPhase.md) | The current phase of the touch: `'start'`, `'move'`, or `'end'`. Indicates if the touch just began, is moving, or ended. |
+| `start` | [TouchInfo](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchInfo.md) | The state of the touch when it first started. Includes position and timestamp. |
+| `previous` | [TouchInfo](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchInfo.md) | The state of the touch during the previous frame. Useful for calculating movement deltas. |
+| `current` | [TouchInfo](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchInfo.md) | The state of the touch during the current frame. Contains the latest position and timestamp. |
+| `screenDelta` | [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md) | The vector representing how far the touch has moved since the previous frame, in screen space. |
 | `screenTraveled` | `number` | The total distance the touch has moved since it started, accumulated over all frames. |
 
 ## Step 3 (Optional): Setting custom gesture detection thresholds
 
-You can customize gesture detection thresholds by passing [options](/hw-docs/Reference/mobile_gestures/Classes/GesturesOptions.md) to the `Gestures` constructor:
+You can customize gesture detection thresholds by passing [options](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Classes/GesturesOptions.md) to the `Gestures` constructor:
 
 | Option | Description | Default |
 | --- | --- | --- |

@@ -7,5 +7,5 @@ The custom UI feature enables you to build customizable and interactive UI panel
 ## What’s next?
 
 * Continue with the topics in the custom UI section.
-* See [Custom UI examples tutorial](/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%200%20-%20Setup.md) in [Tutorial worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+* See [Custom UI examples tutorial](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%200%20-%20Setup.md) in [Tutorial worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
 * See also the GitHub repository [Meta Horizon Worlds sample scripts](https://github.com/meta-quest/meta-horizon-worlds-sample-scripts) for code assets that are referenced in the tutorials.

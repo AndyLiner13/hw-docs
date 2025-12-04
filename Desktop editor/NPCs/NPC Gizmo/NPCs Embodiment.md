@@ -26,9 +26,9 @@ Some common use cases for a Horizon Avatar embodied NPC include:
 * **Selling Goods/Services**: A shopkeeper with a predefined dialogue flow for transactions.
 * **Atmospheric Elements**: Characters that perform routine tasks or wander an area to make the world feel more alive.
 
-By default, NPCs can **`Spawn on Start`** by togging the corresponding property on in the **Properties** pane. For dynamic spawning of an NPC (i.e. a quest giver suddenly appearing) you can use the [spawnPlayer() method](/hw-docs/Reference/avatar_ai_agent/Classes/AvatarAIAgent.md#methods).
+By default, NPCs can **`Spawn on Start`** by togging the corresponding property on in the **Properties** pane. For dynamic spawning of an NPC (i.e. a quest giver suddenly appearing) you can use the [spawnPlayer() method](/hw-mcp-tools/documentation/hw-docs/Reference/avatar_ai_agent/Classes/AvatarAIAgent.md#methods).
 
-Similarly, NPCs can be **despawned** using [despawnPlayer()](/hw-docs/Reference/avatar_ai_agent/Classes/AvatarAIAgent.md#methods), which destroys the entity and removes it from the world.
+Similarly, NPCs can be **despawned** using [despawnPlayer()](/hw-mcp-tools/documentation/hw-docs/Reference/avatar_ai_agent/Classes/AvatarAIAgent.md#methods), which destroys the entity and removes it from the world.
 
 Below is a TypeScript example script, typically attached to a **Trigger Zone gizmo**, which causes a **Scripted Avatar NPC** (like a quest giver) to appear when a player enters the zone and disappear when the player exits.
 

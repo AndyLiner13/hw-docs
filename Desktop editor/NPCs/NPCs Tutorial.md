@@ -6,6 +6,6 @@ This page provides access to **comprehensive tutorials for building NPCs** in Ho
 
 ## Tutorials
 
-[Scripted Avatar NPC Tutorial](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%201%20-%20Setup.md)
+[Scripted Avatar NPC Tutorial](/hw-mcp-tools/documentation/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%201%20-%20Setup.md)
 
 The scripted Avatar NPC tutorial is a comprehensive guide for creating and implementing scripted NPCs in Horizon Worlds. This tutorial covers the basics of setting up a Horizon Avatar NPC and walks you through adding Voice-over and establishing a quest manager.

@@ -12,9 +12,9 @@ Intermediate
 
 **Recommended Prerequisite Background Knowledge**
 
-An understanding of Intermediate Codeblock Scripting, [Persistent Player Variables](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Variable%20groups/Managing%20Persistent%20Variables%20Associated%20with%20a%20Variable%20Group.md), and [Basic Asset Spawning](/hw-docs/MHCP%20program/Community%20guides/Part%20One-%20Understanding%20Asset%20Spawning%20with%20SeeingBlue.md) is recommended.
+An understanding of Intermediate Codeblock Scripting, [Persistent Player Variables](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Variable%20groups/Managing%20Persistent%20Variables%20Associated%20with%20a%20Variable%20Group.md), and [Basic Asset Spawning](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/Part%20One-%20Understanding%20Asset%20Spawning%20with%20SeeingBlue.md) is recommended.
 
-**Note**: IWP creation is now available in the Desktop Editor. Visit the [documentation](/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md) for more information on this.
+**Note**: IWP creation is now available in the Desktop Editor. Visit the [documentation](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md) for more information on this.
 
 **Description**
 

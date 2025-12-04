@@ -15,5 +15,5 @@ export declare enum HorizonTraceEventType
 | Member | Value | Description |
 | --- | --- | --- |
 | Counter | `2` | Produced by . |
-| Duration | `0` | Produced by [HorizonCountSampler](/hw-docs/Reference/performance/Classes/HorizonCountSampler.md). |
-| Marker | `1` | Produced by [HorizonMarkerSampler](/hw-docs/Reference/performance/Classes/HorizonMarkerSampler.md). |
+| Duration | `0` | Produced by [HorizonCountSampler](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonCountSampler.md). |
+| Marker | `1` | Produced by [HorizonMarkerSampler](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonMarkerSampler.md). |

@@ -12,7 +12,7 @@ export interface ReadableHorizonProperty<T>
 
 ## Remarks
 
-You cannot get the property value directly; you must call the `get` method. Using `get` typically results in a bridge call and might result in lower performance. Therefore, we recommend caching these values when possible. For more information, see [CPU and TypeScript optimization and best practices](/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md).
+You cannot get the property value directly; you must call the `get` method. Using `get` typically results in a bridge call and might result in lower performance. Therefore, we recommend caching these values when possible. For more information, see [CPU and TypeScript optimization and best practices](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md).
 
 ## Methods
 

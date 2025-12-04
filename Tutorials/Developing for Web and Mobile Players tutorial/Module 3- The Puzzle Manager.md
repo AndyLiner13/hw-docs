@@ -245,9 +245,9 @@ Next, we build the Camera Manager to control the camera depending on the game si
 
 #### Additional documentation:
 
-* [Local Events](/hw-docs/Scripting/Events/Local%20Events.md)
-* [Broadcast Events](/hw-docs/Scripting/Events/Broadcast%20Events.md)
-* [Events Best Practices](/hw-docs/Scripting/Events/Events%20Best%20Practices.md)
+* [Local Events](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/Local%20Events.md)
+* [Broadcast Events](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/Broadcast%20Events.md)
+* [Events Best Practices](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/Events%20Best%20Practices.md)
 
 #### API docs:
 

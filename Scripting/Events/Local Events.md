@@ -7,7 +7,7 @@ Local events enable your TypeScript code to send and receive events from objects
 Local events differ from Code Block events in the following ways:
 
 * Local events are synchronous and block code execution until the event callback is complete.
-* Local events are tracked by the instantiated object rather than the names or payloads of the event. We recommend that you reuse the same event object between scripts. See [Event Best practices](/hw-docs/Scripting/Events/Events%20Best%20Practices.md) for a recommended solution.
+* Local events are tracked by the instantiated object rather than the names or payloads of the event. We recommend that you reuse the same event object between scripts. See [Event Best practices](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/Events%20Best%20Practices.md) for a recommended solution.
 * Local events are only received by listeners registered on the same client. See the note below on Event Behavior for further details.
 
 ## Creating a local event
@@ -25,7 +25,7 @@ sendEvent = new LocalEvent<{message: String}>('sendEvent');
 
 ## Sending local events
 
-To send local events, use the [Component.sendLocalEvent](/hw-docs/Reference/core/Abstract%20Classes/Component.md#sendlocalevent) function.
+To send local events, use the [Component.sendLocalEvent](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract%20Classes/Component.md#sendlocalevent) function.
 
 Parameters:
 
@@ -35,7 +35,7 @@ Parameters:
 
 ## Subscribing to local events
 
-To receive local events, use the [Component.connectLocalEvent](/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectlocalevent) function.
+To receive local events, use the [Component.connectLocalEvent](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectlocalevent) function.
 
 Parameters:
 
@@ -49,7 +49,7 @@ Returns:
 
 ## Example
 
-**Note**: The following example is for demonstration purposes only. Since code execution in Meta Horizon Worlds is non-deterministic, the register code may not complete before the event is send event code executes 500 milliseconds later, which would result in an error. For a more robust solution, you should use Promises. For more information, see [TypeScript Script Lifecycle](/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md).
+**Note**: The following example is for demonstration purposes only. Since code execution in Meta Horizon Worlds is non-deterministic, the register code may not complete before the event is send event code executes 500 milliseconds later, which would result in an error. For a more robust solution, you should use Promises. For more information, see [TypeScript Script Lifecycle](/hw-mcp-tools/documentation/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md).
 
 ```
 import {Component, LocalEvent} from 'horizon/core';
@@ -87,4 +87,4 @@ By default, all scripts run on the server when attached to an object in the worl
 * If a local or broadcast event is sent from a script running on the server, only scripts running on the server receive that event.
 * If a local or broadcast event is sent from a script running on a local client, only scripts owned by that client receive the event.
 
-If your scripts need to communicate between local client and server scripts, use CodeBlock events. For more information, see [Getting Started with Local Scripting](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md).
+If your scripts need to communicate between local client and server scripts, use CodeBlock events. For more information, see [Getting Started with Local Scripting](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md).

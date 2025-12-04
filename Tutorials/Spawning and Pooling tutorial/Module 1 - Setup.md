@@ -6,11 +6,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
 When building in Meta Horizon Worlds, you can introduce objects into your world by adding them from your set of assets or spawning them into your world during gameplay. This tutorial covers different techniques of spawning and pooling of objects.
 
-**Spawning** refers to adding in assets to the world experience at runtime. Spawning is supported through multiple methods. Each method has trade-offs in terms of performance and resources. For more general information on asset spawning, see [Introduction to Asset Spawning](/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md).
+**Spawning** refers to adding in assets to the world experience at runtime. Spawning is supported through multiple methods. Each method has trade-offs in terms of performance and resources. For more general information on asset spawning, see [Introduction to Asset Spawning](/hw-mcp-tools/documentation/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md).
 
 This world provides specific examples of asset spawning and also includes an example of **object pooling**, which allows you to pre-load instances of assets in the world and then deploy them into the space as needed.
 
@@ -28,7 +28,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+See [Getting Started with Tutorials](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
 
 ## Access Tutorial World
 
@@ -36,7 +36,7 @@ To explore the world described in this tutorial, you must make a personal copy o
 
 **In desktop editor**:
 
-When you create a new world in the desktop editor, you can create it based on the Spawning and Pooling in TypeScript tutorial world. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+When you create a new world in the desktop editor, you can create it based on the Spawning and Pooling in TypeScript tutorial world. For more information, see [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
 **In headset**:
 
@@ -48,7 +48,7 @@ When you create a new world in the desktop editor, you can create it based on th
 
 ### Use in your world
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
 
 ## Prerequisites
 
@@ -56,7 +56,7 @@ For more information on how to apply assets or scripts from this world to yours,
 
 Before you begin this tutorial, you should have already completed a worldbuilding tutorial or have begun building your own worlds.
 
-For more information, see [Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
+For more information, see [Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md).
 
 ## Key Learning Objectives
 
@@ -156,7 +156,7 @@ If you are assigning an instance of an asset to each player who enters the world
 * The Asset Pool gizmo auto-assigns the asset to the player who enters the world. It may not be possible to use the gimzo to assign assets at runtime through TypeScript.
 * In a non-FBS world, avoid deploying assets that contain scripts through the Asset Pool gizmo. Each instance of the asset spawns a separate instance of the attached script.
 
-The Asset Pool gizmo is not covered in this tutorial. For more information, see [Asset pool gizmo](/hw-docs/Gizmos/Asset%20pool%20gizmo.md).
+The Asset Pool gizmo is not covered in this tutorial. For more information, see [Asset pool gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/Asset%20pool%20gizmo.md).
 
 ### Notes on Assets
 

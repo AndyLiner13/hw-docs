@@ -9,7 +9,7 @@ As creators craft fun and engaging experiences in Worlds, we are here to help co
 #### TL;DR:
 
 * Worlds discovery in Meta Horizon is primarily powered by our algorithmic recommendations that combine 4 distinct dimensional axes: Appeal, visit quality, repeat visitors, and technical performance.
-* There are many ways you can improve the discoverability of your worlds, including providing high-quality accurate key art and descriptions, designing a good onboarding experience, implementing mechanisms for users to come back, and improving world quality by improving frame rate and crash rate. You can monitor the impact of the improvements you make in [world analytics](/hw-docs/Performance/Analytics/World%20Analytics.md).
+* There are many ways you can improve the discoverability of your worlds, including providing high-quality accurate key art and descriptions, designing a good onboarding experience, implementing mechanisms for users to come back, and improving world quality by improving frame rate and crash rate. You can monitor the impact of the improvements you make in [world analytics](/hw-mcp-tools/documentation/hw-docs/Performance/Analytics/World%20Analytics.md).
 * We have started building the capabilities for worlds to be discovered and played directly within Facebook, Instagram, and others of Meta’s family of mobile apps. We will keep our community updated on our progress and share as the opportunity to be surfaced in Facebook and Instagram opens up broadly to the creator community.
 
 ## The discovery ecosystem in Worlds
@@ -45,10 +45,10 @@ Our discovery algorithms source and rank worlds in many of the primary discovery
 
 | **Value** | **Description** | **Metric** | **How can I improve this?** |
 | --- | --- | --- | --- |
-| **Appeal** *You should find content appealing in discovery.* | How well does a world get users to try the world based on art and information? | Proportion of users who have seen an impression of your world who then visit the world. | You can increase your world’s appeal by focusing on the world title, description, key art, and [thumbnail](/hw-docs/Save,%20optimize,%20and%20publish/Thumbnail%20A-B%20testing%20tool.md). |
+| **Appeal** *You should find content appealing in discovery.* | How well does a world get users to try the world based on art and information? | Proportion of users who have seen an impression of your world who then visit the world. | You can increase your world’s appeal by focusing on the world title, description, key art, and [thumbnail](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Thumbnail%20A-B%20testing%20tool.md). |
 | **Visit quality** *You should find worlds compelling enough to have a sustained visit.* | How compelling is the world at hooking the user? Once users visit a world, was the experience enjoyable enough to stay for a while? | Sustained visit rate (% of visits with timespent more than 5 minutes in VR and 2 minutes on mobile) Timespent per visit. | You can increase the visit quality by incorporating a strong hook, tutorializing how to play, and making the world fun in the first few minutes. |
-| **Repeat visitors** *You should find the experience rewarding and want to visit the world again.* | Do users return back to the world repeatedly? | Retention of users in world; Timespent per monthly active user. | You can increase the return visits by making the experience fun to replay and by using [persistent variables](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to enable progress to be made over multiple sessions. |
-| **Technical performance** *You should have a smooth experience within the world.* | How technically smooth is the experience within the world for the users? Are there crashes or frame drops that get in the way of the experience? | Frame rate in the world; crash rate in the world. | You can improve the technical performance of the world by using the [performance profiling and analytics tools](/hw-docs/Performance/Introduction%20to%20performance%20optimization.md) in the editor. |
+| **Repeat visitors** *You should find the experience rewarding and want to visit the world again.* | Do users return back to the world repeatedly? | Retention of users in world; Timespent per monthly active user. | You can increase the return visits by making the experience fun to replay and by using [persistent variables](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to enable progress to be made over multiple sessions. |
+| **Technical performance** *You should have a smooth experience within the world.* | How technically smooth is the experience within the world for the users? Are there crashes or frame drops that get in the way of the experience? | Frame rate in the world; crash rate in the world. | You can improve the technical performance of the world by using the [performance profiling and analytics tools](/hw-mcp-tools/documentation/hw-docs/Performance/Introduction%20to%20performance%20optimization.md) in the editor. |
 
 ### Promotions on Meta Horizon channels
 
@@ -60,7 +60,7 @@ We have also started building the capabilities for worlds to be discovered and p
 
 ## How to improve discoverability and acquire more users
 
-The goal of our discovery system is to connect people with fun and engaging worlds that they enjoy. Improving the four values mentioned above (**appeal**, **visit quality**, **repeat visitors**, and **technical performance**) is the best way to increase your chances of getting discovered. You can monitor how well your progress and impact across these values using the [analytics](/hw-docs/Performance/Analytics/World%20Analytics.md) tools, including impressions, sustained visit rate (SVR), and average time in world.
+The goal of our discovery system is to connect people with fun and engaging worlds that they enjoy. Improving the four values mentioned above (**appeal**, **visit quality**, **repeat visitors**, and **technical performance**) is the best way to increase your chances of getting discovered. You can monitor how well your progress and impact across these values using the [analytics](/hw-mcp-tools/documentation/hw-docs/Performance/Analytics/World%20Analytics.md) tools, including impressions, sustained visit rate (SVR), and average time in world.
 
 #### Appeal: Improve consideration
 
@@ -71,7 +71,7 @@ The goal of our discovery system is to connect people with fun and engaging worl
 - **World images**: Quality images have been validated to be shown as one of the strongest levers to increase interest and downstream engagement. World images are the “book covers” in Meta Horizon, where accurate and exciting images can improve visits and time spent up to 40%. We have found that the closer the image is to the world experience, the more users will engage deeply. Focus on the following criteria:
   * Accurate gameplay that portrays real examples of in-world action
   * Accurate avatars, even when compared to more aesthetically pleasing avatars
-- **Image A/B testing**: In the Developer Dashboard you can find the thumbnail A/B testing tool that allows you to upload an additional image and the system will test and provide results on which image drives more engagement. Given the impact that strong visuals can have on converting traffic, invest in testing different images to see what can be most appealing to grow your audience. You may want to test different examples of in-world action, different colors, brighter vs darker, logo styles. See documentation on [thumbnail A/B testing](/hw-docs/Save,%20optimize,%20and%20publish/Thumbnail%20A-B%20testing%20tool.md).
+- **Image A/B testing**: In the Developer Dashboard you can find the thumbnail A/B testing tool that allows you to upload an additional image and the system will test and provide results on which image drives more engagement. Given the impact that strong visuals can have on converting traffic, invest in testing different images to see what can be most appealing to grow your audience. You may want to test different examples of in-world action, different colors, brighter vs darker, logo styles. See documentation on [thumbnail A/B testing](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Thumbnail%20A-B%20testing%20tool.md).
 - **Multiple image upload**: You will soon be able to upload 3 different image sizes for portrait, landscape, and square (16:9, 9:16, 1:1), which will map to the sizes used across different surfaces. It is imperative to design for these sizes to put your best foot forward, as square images (1:1) do not look appealing when cropped to another size like 16:9 (and vice versa). Poor cropping can significantly impair clicks and visits.
 - **[Coming soon] World videos**: Along with your thumbnails, you will soon be able to upload videos, which have also been validated to be one of the strongest levers for world engagement (even stronger than images). The above principles apply on accuracy for quality engagement.
 
@@ -102,9 +102,9 @@ Provide all the metadata requests for the system to accurately understand your w
 **Measured by**: Retention of users in world, timespent per monthly active user.
 **Best practices**: Design an in-depth experience in your world and provide reasons for users to stay in your worlds and have fun for an extended time. We’ve built a suite of features you can implement in your worlds to engage your audience.
 
-- **Persistent variables**: Persistent variables let you provide permanent progression to users that persists between sessions in your world, creating a deeper experience. See more documentation on [persistent variables](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md).
-- **Quests**: Quests allow you to build achievements on top of persistent variables in ways that can be surfaced within the world (and outside of it). This gives users something to do and gives a sense of accomplishment in their first few moments within your world, and a reason to keep engaging in your world. See more documentation on [quests](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests%20Overview.md).
-- **Leaderboards**: Leaderboards allow you to automatically enter users into a score-based competition. This gives your content repeatability and a reason to keep playing, even if the gameplay is shallow. Reset your leaderboards at a regular interval to keep users motivated to come back and get back on the leaderboard. See more documentation on [leaderboards](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Leaderboard%20Reset%20Frequency.md).
+- **Persistent variables**: Persistent variables let you provide permanent progression to users that persists between sessions in your world, creating a deeper experience. See more documentation on [persistent variables](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md).
+- **Quests**: Quests allow you to build achievements on top of persistent variables in ways that can be surfaced within the world (and outside of it). This gives users something to do and gives a sense of accomplishment in their first few moments within your world, and a reason to keep engaging in your world. See more documentation on [quests](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests%20Overview.md).
+- **Leaderboards**: Leaderboards allow you to automatically enter users into a score-based competition. This gives your content repeatability and a reason to keep playing, even if the gameplay is shallow. Reset your leaderboards at a regular interval to keep users motivated to come back and get back on the leaderboard. See more documentation on [leaderboards](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Leaderboard%20Reset%20Frequency.md).
 
 Maintain live operations of your world to consistently give users new reasons to come back.
 
@@ -126,7 +126,7 @@ Maintain live operations of your world to consistently give users new reasons to
 - Frame rate: above 60 Frame Per Second (FPS P25);
 - Crash rate: less than 5% crash rate.
 
-We provide tools in the editor to test and optimize the performance of your worlds. Get more guidance on performance [here](/hw-docs/Performance/Introduction%20to%20performance%20optimization.md).
+We provide tools in the editor to test and optimize the performance of your worlds. Get more guidance on performance [here](/hw-mcp-tools/documentation/hw-docs/Performance/Introduction%20to%20performance%20optimization.md).
 
 ## How else does Meta help you to increase your world’s discovery?
 
@@ -139,10 +139,10 @@ There are opportunities for worlds to be featured in Meta-led promotions and oth
 
 What can creators do to improve your chances of being considered?
 
-- Broadly appealing content (themes, gameplay, assets) that meet [Worlds content guidelines](/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md), make sure you [fill in your world’s intended audience](/hw-docs/Save,%20optimize,%20and%20publish/Providing%20your%20intended%20world%20audience%20when%20publishing.md) in the world rating survey.
+- Broadly appealing content (themes, gameplay, assets) that meet [Worlds content guidelines](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md), make sure you [fill in your world’s intended audience](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Providing%20your%20intended%20world%20audience%20when%20publishing.md) in the world rating survey.
 - Create high-quality key art and video assets (16:9, 9:16, 1:1).
 - Ensure that worlds are accessible and “fast to fun” for new users.
 - Integrate persistent variables, quests and leaderboards.
 - Demonstrated a track record of investment in updates and live operations.
 
-As you continuously optimize your worlds for better discovery, make sure to leverage the [Worlds analytics tool](/hw-docs/Performance/Analytics/World%20Analytics.md) to monitor performance and insights about your worlds and the progress you’ve made.
+As you continuously optimize your worlds for better discovery, make sure to leverage the [Worlds analytics tool](/hw-mcp-tools/documentation/hw-docs/Performance/Analytics/World%20Analytics.md) to monitor performance and insights about your worlds and the progress you’ve made.

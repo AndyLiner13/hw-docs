@@ -20,7 +20,7 @@ Each zone and station described in this guide corresponds to the interactive exa
 
 ## Tutorial world overview
 
-This world covers how to use Custom UI assets available in the public library. The goal of this tutorial world is to be a demo space to find Custom UI examples that you can use in your worlds while also providing examples on how to use the asset in your worlds. To use this world to its fullest extent, you should have a basic understanding of [TypeScript](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md), [Custom UI](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md), and [asset templates](/hw-docs/Desktop%20editor/Assets/Asset%20Templates.md).
+This world covers how to use Custom UI assets available in the public library. The goal of this tutorial world is to be a demo space to find Custom UI examples that you can use in your worlds while also providing examples on how to use the asset in your worlds. To use this world to its fullest extent, you should have a basic understanding of [TypeScript](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md), [Custom UI](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md), and [asset templates](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Asset%20Templates.md).
 
 Although implementing Custom UI requires knowledge of TypeScript, these Custom UI examples come with functions to simplify the process of using them. These Custom UI examples should help you get past the difficult part of building a Custom UI from scratch and get you to the important part of being able to use Custom UI in your world.
 
@@ -28,14 +28,14 @@ The first step to utilizing these Custom UI examples is to explore this world. T
 
 The zones in this example world are:
 
-* **[Zone 1: Option Lists](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%201%20-%20Option%20Lists.md)** - Toggle lists, radio buttons, task lists, and option APIs
-* **[Zone 2: Basics](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%202%20-%20Basics.md)** - Basic buttons, timers, dialog prompts, and button APIs
-* **[Zone 3: Bars](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%203%20-%20Bars.md)** - Loading bars and health bars with progress indicators
-* **[Zone 4: Advanced Lists](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%204%20-%20Advanced%20Lists.md)** - Inventory systems, stats lists, and player lists
-* **[Zone 5: Animation](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%205%20-%20Animation.md)** - Spinning elements, timers with animation, and sliding banners
-* **[Zone 6: Scroll Views](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%206%20-%20Scroll%20Views.md)** - Basic text scrolling and advanced scrollable content
-* **[Zone 7: HUD](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%207%20-%20HUD.md)** - Head-up display implementations for games
-* **[Zone 8: Store](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%208%20-%20Store.md)** - Comprehensive storefront with purchase functionality
+* **[Zone 1: Option Lists](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%201%20-%20Option%20Lists.md)** - Toggle lists, radio buttons, task lists, and option APIs
+* **[Zone 2: Basics](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%202%20-%20Basics.md)** - Basic buttons, timers, dialog prompts, and button APIs
+* **[Zone 3: Bars](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%203%20-%20Bars.md)** - Loading bars and health bars with progress indicators
+* **[Zone 4: Advanced Lists](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%204%20-%20Advanced%20Lists.md)** - Inventory systems, stats lists, and player lists
+* **[Zone 5: Animation](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%205%20-%20Animation.md)** - Spinning elements, timers with animation, and sliding banners
+* **[Zone 6: Scroll Views](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%206%20-%20Scroll%20Views.md)** - Basic text scrolling and advanced scrollable content
+* **[Zone 7: HUD](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%207%20-%20HUD.md)** - Head-up display implementations for games
+* **[Zone 8: Store](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%208%20-%20Store.md)** - Comprehensive storefront with purchase functionality
 
 Each zone contains multiple stations with working examples, complete documentation, and implementation details for the Custom UI components.
 

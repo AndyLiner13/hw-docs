@@ -36,7 +36,7 @@ In the Hierarchy panel, search for: **LaserProjector**. The gizmo has the follow
 
 ### Properties
 
-The grabbable properties for the LaserGun entity should be the same as for the simple gun. For more information, see [Module 3 - Simple Gun](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%203%20-%20Simple%20Gun.md).
+The grabbable properties for the LaserGun entity should be the same as for the simple gun. For more information, see [Module 3 - Simple Gun](/hw-mcp-tools/documentation/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%203%20-%20Simple%20Gun.md).
 
 You may need to make some adjustments for aiming for web and mobile. You can explore these options in the desktop editor and previewing your world.
 

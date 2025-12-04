@@ -76,11 +76,11 @@ You can use the **Snapping** tools to precisely translate, rotate, and scale obj
 
 The following snapping tools are availabe in the Desktop Editor UI:
 
-* [Translation Grid Snap](/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#translation-grid-snap)
-* [Rotation Angle Snap](/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#rotation-angle-snap)
-* [Scale Snap](/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#scale-snap)
-* [Relative or Absolute Snap](/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#relative-or-absolute-snap)
-* [Snap to Surfaces](/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#snap-to-surfaces)
+* [Translation Grid Snap](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#translation-grid-snap)
+* [Rotation Angle Snap](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#rotation-angle-snap)
+* [Scale Snap](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#scale-snap)
+* [Relative or Absolute Snap](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#relative-or-absolute-snap)
+* [Snap to Surfaces](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md#snap-to-surfaces)
 
 ### Translation Grid Snap
 

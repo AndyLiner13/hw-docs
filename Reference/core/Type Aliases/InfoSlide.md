@@ -17,4 +17,4 @@ export declare type InfoSlide = {
 
 ## References
 
-[InfoSlideStyle](/hw-docs/Reference/core/Type%20Aliases/InfoSlideStyle.md)
+[InfoSlideStyle](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/InfoSlideStyle.md)

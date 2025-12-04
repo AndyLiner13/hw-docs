@@ -12,12 +12,12 @@ export declare function Pressable(props: Readonly<PressableProps>): UINode<Press
 
 ## Parameters
 
-props: Readonly<[PressableProps](/hw-docs/Reference/ui/Type%20Aliases/PressableProps.md)>
+props: Readonly<[PressableProps](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/PressableProps.md)>
 
 The props of the Pressable component.
 
 ## Returns
 
-[UINode](/hw-docs/Reference/ui/Classes/UINode.md)<[PressableProps](/hw-docs/Reference/ui/Type%20Aliases/PressableProps.md)>
+[UINode](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/UINode.md)<[PressableProps](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/PressableProps.md)>
 
 A `UINode` object representing the Pressable component.

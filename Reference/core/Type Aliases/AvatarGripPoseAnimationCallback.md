@@ -12,4 +12,4 @@ export declare type AvatarGripPoseAnimationCallback = (reason: AnimationCallback
 
 ## References
 
-[AnimationCallbackReason](/hw-docs/Reference/core/Type%20Aliases/AnimationCallbackReason.md)
+[AnimationCallbackReason](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/AnimationCallbackReason.md)

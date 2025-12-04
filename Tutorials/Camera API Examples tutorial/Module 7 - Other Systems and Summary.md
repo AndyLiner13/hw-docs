@@ -66,10 +66,10 @@ export const InstructionConsts = {
 
 The `Weapon.ts` script contains a rudimentary system for grabbing and swinging a weapon in hand.
 
-**Note**: It does not contain code to manage collision, damage, or any other standard aspect of combat. For a more robust example, please see the [Chop N Pop Sample World](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
+**Note**: It does not contain code to manage collision, damage, or any other standard aspect of combat. For a more robust example, please see the [Chop N Pop Sample World](/hw-mcp-tools/documentation/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
 
 ### Gun System
 
 The `Gun.ts` script contains a simple gun management system for firing a gun.
 
-**Note**: It does not contain code to manage collisions. For a better example, see [Simple Shooting Mechanics Tutorial World](/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%201%20-%20Setup.md).
+**Note**: It does not contain code to manage collisions. For a better example, see [Simple Shooting Mechanics Tutorial World](/hw-mcp-tools/documentation/hw-docs/Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%201%20-%20Setup.md).

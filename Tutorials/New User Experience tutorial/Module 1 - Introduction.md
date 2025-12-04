@@ -6,7 +6,7 @@ Welcome to the New User Experience Tutorial! In this tutorial, you learn how to 
 
 ![New User Experience cover image](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548761734_818127914058495_8806220458799277431_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xv5Wz_c0E80Q7kNvwEjZur_&_nc_oc=AdmDxADMQFTEqTsAjmEZURBNomHfk-XT9PjWPDZjYfRjNe66A0EWC5PDpEd1GlAZBpY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_WzdumVyM_emZKWkfpzDFA&oh=00_AfmYJZWY_T-qFV2f_nTr4zKQEhnpKum46j2xqJxvOQYtag&oe=694BD6EB)
 
-This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, the editor creates a copy for you to explore, and this page opens so you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, the editor creates a copy for you to explore, and this page opens so you can follow along. For more information, see [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
 A New User Experience (NUX), sometimes called the first-time user experience (FTUE) or tutorial, covers the first few minutes of gameplay that new players encounter. The NUX introduces the experience, interface, and mechanics, and may include tutorials that teach players how to play. A NUX is successful if it accomplishes two key metrics:
 
@@ -45,7 +45,7 @@ This tutorial covers a reusable and flexible co-op, cross-platform setup in whic
 
 ## Before you begin
 
-Review the [Getting started with tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md) section, which includes:
+Review the [Getting started with tutorials](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md) section, which includes:
 
 * Tutorial prerequisites and assumptions
 * How to use tutorial worlds and assets in your own worlds
@@ -59,13 +59,13 @@ To explore the finished world on mobile or desktop, use the following link: <htt
 
 ## Prerequisites
 
-Verify that you have access to your own copy of the New User Experience (NUX) tutorial world. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+Verify that you have access to your own copy of the New User Experience (NUX) tutorial world. For more information, see [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
-**Note:** This tutorial assumes that you are familiar with the desktop editor, a desktop application for building in Meta Horizon Worlds. If you are new to the desktop editor, start with [Build your first game](/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
+**Note:** This tutorial assumes that you are familiar with the desktop editor, a desktop application for building in Meta Horizon Worlds. If you are new to the desktop editor, start with [Build your first game](/hw-mcp-tools/documentation/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
 
 ## Get started
 
-- Open the [Meta Quest Link](/hw-docs/Get%20started/Install%20the%20desktop%20editor.md) application on your desktop.
+- Open the [Meta Quest Link](/hw-mcp-tools/documentation/hw-docs/Get%20started/Install%20the%20desktop%20editor.md) application on your desktop.
 - In the **Library** tab, locate the Meta Horizon application in which to build your version of the world.
 - From the context menu for the application, select **Start in Desktop Mode**.
 - In the **Creation Home** page, select **My worlds** from the left navigation bar.

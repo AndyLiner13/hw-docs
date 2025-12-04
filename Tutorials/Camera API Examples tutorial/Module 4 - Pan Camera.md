@@ -25,7 +25,7 @@ When a player enters the Trigger Zone, the SetCameraCollisions and SetCameraPan 
 * A listener for `SetCameraCollisions` triggers a call to the `setCameraCollisions()` function.
 * A listener for `SetCameraPan` triggers a call to the `setCameraPan()` function.
 
-For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](/hw-docs/Tutorials/Camera%20API%20Examples%20tutorial/Module%202%20-%20PlayerCamera%20Overview.md).
+For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](/hw-mcp-tools/documentation/hw-docs/Tutorials/Camera%20API%20Examples%20tutorial/Module%202%20-%20PlayerCamera%20Overview.md).
 
 ## Checkpoint
 

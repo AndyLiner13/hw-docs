@@ -24,11 +24,11 @@ sendEvent = new CodeBlockEvent<[player_name: string, player_id: number]>('
 
 ## Sending CodeBlock events
 
-To send a CodeBlock event, use the [Component.sendCodeBlockEvent](/hw-docs/Reference/core/Abstract%20Classes/Component.md#sendcodeblockevent) method.
+To send a CodeBlock event, use the [Component.sendCodeBlockEvent](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract%20Classes/Component.md#sendcodeblockevent) method.
 
 ## Subscribing to CodeBlock events
 
-To receive events from CodeBlock scripts, use the [Component.connectCodeBlockEvent](/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectcodeblockevent) method.
+To receive events from CodeBlock scripts, use the [Component.connectCodeBlockEvent](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectcodeblockevent) method.
 
 ## Example - Sending to CodeBlocks
 
@@ -181,7 +181,7 @@ The following table lists some of the most common built-in CodeBlock events you 
 
 ### Subscribe to built-In CodeBlock events
 
-To receive built-In CodeBlock events, use the [Component.connectCodeBlockEvent](/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectcodeblockevent) method.
+To receive built-In CodeBlock events, use the [Component.connectCodeBlockEvent](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectcodeblockevent) method.
 
 ```
 // Import CodeBlockEvents to access Built-in Events.

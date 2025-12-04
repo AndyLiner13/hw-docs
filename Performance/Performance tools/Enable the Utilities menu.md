@@ -14,4 +14,4 @@ Before you can enable Real-time metrics in your world, you must first enable the
 - Toggle the menu to on
   ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452868160_512511001286856_1340636166165767619_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=CDoXSHW7zrUQ7kNvwHZBWZ5&_nc_oc=Adl7FEi1-dGEOR68Vsran94QFS0k4BGawqK_TnFtFxMEKsRvJ5MhsrAT1ZuG0Grc_ZA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JSJ5enJ8EuVBLrjpNAAXdw&oh=00_AfmD7D1Z7-x--sx-s4ADkneZzQ6kT75ogib94fV92Zr3ZQ&oe=694BD53E)
 
-For instructions on Enabling and Modifying your Real-Time Metrics Menu, [follow this guide](/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md).
+For instructions on Enabling and Modifying your Real-Time Metrics Menu, [follow this guide](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md).

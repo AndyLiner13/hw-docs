@@ -12,4 +12,4 @@ export declare type VoipSetting = keyof typeof VoipSettingValues;
 
 ## References
 
-[VoipSettingValues](/hw-docs/Reference/core/Variables/VoipSettingValues.md)
+[VoipSettingValues](/hw-mcp-tools/documentation/hw-docs/Reference/core/Variables/VoipSettingValues.md)

@@ -15,7 +15,7 @@ The Portrait Camera API provides the `PortraitCamera` class, which extends the c
 To use the Portrait Camera API, you need:
 
 * **Editor version**: Desktop Editor version 229 or later.
-* **Script configuration**: Scripts must be set to [local execution mode](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md#set-a-script-to-run-locally) and owned by the target player.
+* **Script configuration**: Scripts must be set to [local execution mode](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md#set-a-script-to-run-locally) and owned by the target player.
 * **Compiling scripts**: You must have at least one script which successfully compiles in order to see the scripting API options.
 
 ## Enabling the API
@@ -28,7 +28,7 @@ To use the Portrait Camera API, you need:
 
 ## API reference
 
-The [`PortraitCamera`](/hw-docs/Reference/portrait_camera/Classes/PortraitCamera.md) class extends the standard [`Camera`](/hw-docs/Reference/camera/Classes/Camera.md) class with orientation detection capabilities.
+The [`PortraitCamera`](/hw-mcp-tools/documentation/hw-docs/Reference/portrait_camera/Classes/PortraitCamera.md) class extends the standard [`Camera`](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Classes/Camera.md) class with orientation detection capabilities.
 
 ### Properties
 
@@ -38,7 +38,7 @@ The [`PortraitCamera`](/hw-docs/Reference/portrait_camera/Classes/PortraitCamera
 
 ### Methods
 
-The [`PortraitCamera`](/hw-docs/Reference/portrait_camera/Classes/PortraitCamera.md) class inherits all methods from the standard [`Camera`](/hw-docs/Reference/camera/Classes/Camera.md) class and can be used as a drop-in replacement with additional orientation capabilities.
+The [`PortraitCamera`](/hw-mcp-tools/documentation/hw-docs/Reference/portrait_camera/Classes/PortraitCamera.md) class inherits all methods from the standard [`Camera`](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Classes/Camera.md) class and can be used as a drop-in replacement with additional orientation capabilities.
 
 ### Usage example: basic orientation detection
 
@@ -93,25 +93,25 @@ hz.Component.register(OrientationChecker);
 
 ### Script execution requirements
 
-* **Local execution mode**: Always set scripts using the Portrait Camera API to [local execution mode](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md#set-a-script-to-run-locally).
+* **Local execution mode**: Always set scripts using the Portrait Camera API to [local execution mode](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md#set-a-script-to-run-locally).
 * **Player ownership**: Ensure the script entity is owned by the target player before making camera API calls.
 * **Ownership transfer**: Transfer ownership when players enter the world, similar to other camera-related scripts.
 
 ### Integration with spawn point gizmos
 
-The Portrait Camera API works well alongside [spawn point gizmo Mobile Camera Options](/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options):
+The Portrait Camera API works well alongside [spawn point gizmo Mobile Camera Options](/hw-mcp-tools/documentation/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options):
 
 ## Testing and preview
 
-Use the [Preview Configuration](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options in the desktop editor.
+Use the [Preview Configuration](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options in the desktop editor.
 
 ## Related documentation
 
-* [Spawn Point Gizmo - Mobile Camera Options](/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options)
-* [Preview Mode - Setting the Preview Device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device)
-* [Camera API for Web and Mobile](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
-* [Local Scripting Documentation](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
-* [World Settings Modification - World Orientation](/hw-docs/Desktop%20editor/Settings/World%20Settings%20Modification.md#advanced)
+* [Spawn Point Gizmo - Mobile Camera Options](/hw-mcp-tools/documentation/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options)
+* [Preview Mode - Setting the Preview Device](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device)
+* [Camera API for Web and Mobile](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
+* [Local Scripting Documentation](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
+* [World Settings Modification - World Orientation](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Settings/World%20Settings%20Modification.md#advanced)
 
 ## Limitations and notes
 

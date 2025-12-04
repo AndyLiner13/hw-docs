@@ -28,7 +28,7 @@ The new Social Following feature enables Horizon World creators to seamlessly co
 There are 2 ways you can make use of the Social Following feature:
 
 * Using the ready made Social Following asset template, which can be customized.
-* Using the [`showProfilesToFollow`](/hw-docs/Reference/social/Classes/Social.md) API in your own assets.
+* Using the [`showProfilesToFollow`](/hw-mcp-tools/documentation/hw-docs/Reference/social/Classes/Social.md) API in your own assets.
 
 ### Use the Social Following asset template
 
@@ -45,7 +45,7 @@ Once added, the asset template appears as a standardized UI element in your Worl
 
 ### Use the TypeScript API
 
-For creators who want more control or wish to build custom social experiences, the [`showProfilesToFollow`](/hw-docs/Reference/social/Classes/Social.md) method from `horizon/social` API is now publicly available. This API allows you to show a panel with follow buttons for your social profiles in Instagram and Horizon.
+For creators who want more control or wish to build custom social experiences, the [`showProfilesToFollow`](/hw-mcp-tools/documentation/hw-docs/Reference/social/Classes/Social.md) method from `horizon/social` API is now publicly available. This API allows you to show a panel with follow buttons for your social profiles in Instagram and Horizon.
 
 To use the TypeScript API:
 

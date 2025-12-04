@@ -5,7 +5,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-start
 Welcome to part 1 of the create your first world tutorial. In this tutorial you’ll learn how to create a basic new world, hosting a simple game where you shoot marauding skeletons in a graveyard.
 
 This first part shows you how to create a new world, place an asset in the world, manipulate it using the desktop editor, then preview the world and playtest it on a mobile device.
-If you’re looking for the second half of the tutorial, go to the [Create your first world tutorial, part 2](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%202.md).
+If you’re looking for the second half of the tutorial, go to the [Create your first world tutorial, part 2](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%202.md).
 
 The key things you should learn from this module are the following:
 
@@ -15,7 +15,7 @@ The key things you should learn from this module are the following:
 * Previewing your world for playtesting
 * Playtesting in your world on your mobile device
 
-**Note**: This tutorial assumes that you’ve completed the prerequisites discussed in [Intro Tutorial Overview](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial%20Overview.md).
+**Note**: This tutorial assumes that you’ve completed the prerequisites discussed in [Intro Tutorial Overview](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial%20Overview.md).
 
 ## Step 1: Create a new world
 
@@ -46,7 +46,7 @@ Assets are objects that you can place in your world so that players an interact 
 In this section, you will learn how to place an asset from the public assets into your scene. (Just like in a movie, a *scene* is a sequence of continuous action that’s usually oriented around a particular location. Many games consist of many scenes, although this one includes just one).
 
 The **Scene** panel is the large window in the middle of the desktop editor. It shows the scene that you are currently working on, letting you see what it looks like so far. When you add assets to a scene, this is where they appear.
-**Note**: To learn more about this part of the UI (user interface), see [Panels and tabs in the desktop editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md).
+**Note**: To learn more about this part of the UI (user interface), see [Panels and tabs in the desktop editor](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md).
 
 - On the **Asset Library** tab, select **Public Assets**.
 
@@ -67,7 +67,7 @@ The **Scene** panel is the large window in the middle of the desktop editor. It 
 
   The **Hierarchy** panel shows you the list of objects in the current scene. You can use this panel to sort and group the objects as needed. By selecting a particular object in the panel, you can see (and edit) the various properties of that object in the **Properties** panel. In this case, by selecting the top level of the hierarchy (**MyFirstWorld**), this allows you to change the position and rotation for all the child objects under that parent object.
 
-  To explore this subject in greater depth, see the [Hierarchy panel overview](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md) and the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
+  To explore this subject in greater depth, see the [Hierarchy panel overview](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md) and the [Properties panel](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
 - Center the graveyard in the scene panel by moving the camera to get a better view. There are many different key shortcuts for doing maneuvering the camera, but the ones you’ll probably use the most are:
   * **Up**: Right-click + E
   * **Down**: Right-click + Q
@@ -122,7 +122,7 @@ The **Scene** panel is the large window in the middle of the desktop editor. It 
 
 Playtesting your game during and after you’ve finished creating it is an essential part of being a Worlds creator. As experienced developers know, it’s too easy to miss essential things if you don’t playtest it enough.
 
-For additional information on doing this, see [Preview](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md).
+For additional information on doing this, see [Preview](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md).
 
 - Click the play button to enter preview mode.
 
@@ -151,7 +151,7 @@ For additional information on doing this, see [Preview](/hw-docs/Desktop%20edito
 - Rotate the walls 180 degrees and line them up with the backside of the gate. Now you have an enclosed graveyard.
 
   ![Rotate the walls 180 degrees](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480303210_670883468782941_9044902028404479957_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=xxRF9lfxVnYQ7kNvwGzIZXR&_nc_oc=Adl1w7oP1mvMoN6RVs683wTHL-57MDARNhWwUfnJXQIjNHw5Cb9NZatE4_PuJwbbNmk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=buqnLrNr3gGVYuxqUyyXQQ&oh=00_AfkLUk8h7CFm3TCcN6X5WG1wWXlJ6eg1HVqb854l8Gtslw&oe=694BDA0C)
-- Use the other assets in the world to finish creating the graveyard. Feel free to get creative and add objects from the [asset library](/hw-docs/VR%20tools/Getting%20started/Use%20the%20Asset%20Library%20in%20Meta%20Horizon%20Worlds.md).
+- Use the other assets in the world to finish creating the graveyard. Feel free to get creative and add objects from the [asset library](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Use%20the%20Asset%20Library%20in%20Meta%20Horizon%20Worlds.md).
 
   ![Add other assets to finish the graveyard](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480964798_670883482116273_7936198911651044981_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Hd5Am1cL9-AQ7kNvwHUTueT&_nc_oc=Adn26PUGp3e0wmNmYDx1POQVf8KoOOl8QDtMhLamp-3Yka7UsrMqW3Pbk4s2v8y5L-M&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=buqnLrNr3gGVYuxqUyyXQQ&oh=00_AflBjzmi-uZ5HV1Sa4jvlOOz9n2AB9PMfE5mp2YIxD9Rkg&oe=694BB3BB)
 
@@ -177,7 +177,7 @@ For additional information on doing this, see [Preview](/hw-docs/Desktop%20edito
 
   ![Publishing your world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/513082478_751449597392994_1951004972520741354_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=thOhCCe4zjAQ7kNvwHqc6uJ&_nc_oc=AdmRZJXe2FKrIhxhWRSPHlS8yUe2nQkReYRXMR1baF8JMpWRPlFffBiI5h0BbIF37sw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=buqnLrNr3gGVYuxqUyyXQQ&oh=00_Afm7BjgWmZXal5ql0NB8B5a7mwlWmXbURK9S00avcTnlvw&oe=694BBA32)
 
-  For additional information on publishing your world, see the [Publish](/hw-docs/Save,%20optimize,%20and%20publish/Publish%20your%20world.md) page.
+  For additional information on publishing your world, see the [Publish](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Publish%20your%20world.md) page.
 - Click **Preview tab**.
 
   ![Preview Configuration Settings](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/584424137_869065685631384_3166479568182394535_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=2-cfZfHrBNoQ7kNvwHTMsyR&_nc_oc=AdkNF-hZMlrNfFh5v6-27mzVtpE67nX3RJJrJbRdKDk67zv9HxrpSZHqZU2ybPnXY2c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=buqnLrNr3gGVYuxqUyyXQQ&oh=00_AfktRMaEY3TckSVRNyUBKfcYgbKZLSg5Bx6qTvKhG65Tsw&oe=694BDB73)
@@ -188,13 +188,13 @@ For additional information on doing this, see [Preview](/hw-docs/Desktop%20edito
 
   ![Sending a preview link to your Worlds app](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/584887612_869065688964717_2121549700519252863_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=XtJI7RMcmZUQ7kNvwEp5xgU&_nc_oc=Adlhqr0j18rmiUviZBe1bDUJMOovBjn7p-oN1lp606HFb8qZMFxaE4Jxq4LgU7B2SfY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=buqnLrNr3gGVYuxqUyyXQQ&oh=00_AflwqXxosPKR8xK9MN4ta-9qv60af7AdvlzIBKmocw_DWg&oe=694BBD55)
 
-  **Note**: If you do not have the Meta Horizon mobile app installed, you can install it and repeat this step, view the published world in your browser, or share the web link with others. For more information, see [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).
+  **Note**: If you do not have the Meta Horizon mobile app installed, you can install it and repeat this step, view the published world in your browser, or share the web link with others. For more information, see [Preview device](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).
 - Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world.
 
-  For more related information, see [Testing worlds on mobile](/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile).
+  For more related information, see [Testing worlds on mobile](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile).
 
 ## What’s Next
 
 **Congratulations!** You’ve finished Part 1 of the Introductory Tutorial: Creating Your First World
 
-Now go to the [Part 2 of the tutorial](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%202.md) to learn how to import custom models and write your first script.
+Now go to the [Part 2 of the tutorial](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%202.md) to learn how to import custom models and write your first script.

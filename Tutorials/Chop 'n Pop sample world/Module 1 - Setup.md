@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
 Welcome to Chop ‘N Pop: Graveyard Bash, a good old-fashioned slasher game set in a haunted graveyard. Grab an axe or a gun, and chop and pop your way through waves of zombies and skeletons!
 
@@ -34,9 +34,9 @@ To explore the finished world on mobile or desktop, please use the following lin
 
 ## Prerequisites
 
-Before you begin, please verify that you have acquired access to your own copy of the Chop ‘N Pop: Graveyard Bash world. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
+Before you begin, please verify that you have acquired access to your own copy of the Chop ‘N Pop: Graveyard Bash world. For more information, see [Access Tutorial Worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
-**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you might want to start with the Build your first game tutorial. See [Module 1 - Build your first game](/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
+**Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for world building in Meta Horizon Worlds. If you are new to the desktop editor, you might want to start with the Build your first game tutorial. See [Module 1 - Build your first game](/hw-mcp-tools/documentation/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md).
 
 ## Get Started
 
@@ -98,7 +98,7 @@ FBS is a script-related feature that can be enabled in your world. Please do the
   ![Image of settings to enable File Backed Scripts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489750052_692135419991079_739814288388774121_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=2GQVcd9bRgEQ7kNvwELFoJ8&_nc_oc=AdnM0mCyDqm85S6AHwuv9G0dY-JBY_QAPiJ4f3uDWfaaJvrj1QGt8oKva9vd5X5D0m0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MrAAd-k5L0zXkp0MJEqkaA&oh=00_AfmGLDS1g49ZOj0C0gaoforJ6JYXFOfpNhl_P-pBUWln_g&oe=694BB9EC)
 - To upgrade your world to FBS, click **Update**. **This change cannot be undone.**
 
-For more information, see [Use File-Backed Scripts](/hw-docs/VR%20tools/Scripting/Use%20file-backed%20scripts.md).
+For more information, see [Use File-Backed Scripts](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Scripting/Use%20file-backed%20scripts.md).
 
 ### Gen AI
 
@@ -110,9 +110,9 @@ Using a few words, you can prompt Gen AI to generate a sound, which you can modi
 
 ### NPCs
 
-The zombies and skeletons in the world are taken from the NPC library available to creators through the desktop editor. NPCs allow you to deploy premade animated assets, which you can augment with TypeScript-based behavior. For more information on NPCs, see [NPCs](/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md).
+The zombies and skeletons in the world are taken from the NPC library available to creators through the desktop editor. NPCs allow you to deploy premade animated assets, which you can augment with TypeScript-based behavior. For more information on NPCs, see [NPCs](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md).
 
-In Chop ‘N Pop: Graveyard Bash, NPCs are controlled by a dedicated system, which also surfaces a set of configurable parameters for each type of NPC. For more information, see [Module 10 - NPC System](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%2010%20-%20NPC%20System.md).
+In Chop ‘N Pop: Graveyard Bash, NPCs are controlled by a dedicated system, which also surfaces a set of configurable parameters for each type of NPC. For more information, see [Module 10 - NPC System](/hw-mcp-tools/documentation/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%2010%20-%20NPC%20System.md).
 
 ## Learning Pathways
 
@@ -127,9 +127,9 @@ In your world, you can begin exploring the entities in the world to learn by mak
 
 ### Using the systems
 
-Another approach is to explore through the docs to learn how to use individual systems. For example, if you need to learn more about how to deploy loot into your game, you can check out the [Module 11 - Loot System](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%2011%20-%20Loot%20System.md).
+Another approach is to explore through the docs to learn how to use individual systems. For example, if you need to learn more about how to deploy loot into your game, you can check out the [Module 11 - Loot System](/hw-mcp-tools/documentation/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%2011%20-%20Loot%20System.md).
 
-For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
+For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md).
 
 ### A Note on Unity
 

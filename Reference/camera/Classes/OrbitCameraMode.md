@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_orbitc
 
 # OrbitCameraMode Class
 
-Extends *[ICameraMode](/hw-docs/Reference/camera/Interfaces/ICameraMode.md)*
+Extends *[ICameraMode](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Interfaces/ICameraMode.md)*
 
 Manipulates runtime properties of cameras in orbit mode, where camera view follows the player avatar without being fixed behind the player.
 
@@ -14,7 +14,7 @@ export declare class OrbitCameraMode implements ICameraMode
 
 ## Remarks
 
-The [Camera.setCameraModeOrbit()](/hw-docs/Reference/camera/Classes/Camera.md#setcameramodeorbit) method enables orbit mode. For more information on setting camera modes at runtime, see the [Camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.
+The [Camera.setCameraModeOrbit()](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Classes/Camera.md#setcameramodeorbit) method enables orbit mode. For more information on setting camera modes at runtime, see the [Camera](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.
 
 ## Properties
 

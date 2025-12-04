@@ -17,7 +17,7 @@ export declare type TooltipOptions = {
 
 ## References
 
-[Vec3](/hw-docs/Reference/core/Classes/Vec3.md), [TooltipLineAttachmentProperties](/hw-docs/Reference/core/Type%20Aliases/TooltipLineAttachmentProperties.md)
+[Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md), [TooltipLineAttachmentProperties](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/TooltipLineAttachmentProperties.md)
 
 ## Remarks
 

@@ -120,4 +120,4 @@ this.connectCodeBlockEvent(this.entity,Â hz.CodeBlockEvents.OnPlayerEnterWorld,Â
 }
 ```
 
-Further information about these APIs can be found in the [APIs documentation](/hw-docs/Reference/core/Classes/WorldInventory.md).
+Further information about these APIs can be found in the [APIs documentation](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/WorldInventory.md).

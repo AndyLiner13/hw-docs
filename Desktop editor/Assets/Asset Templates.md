@@ -38,7 +38,7 @@ But if you created the trees from an asset template, then you could update all o
 
 * Asset templates are compatible with anything that can be spawned into the world.
 * VR support for asset templates is limited. Overrides to instances of assets done in VR can only be applied to the definition via the Desktop Editor.
-* We recommend using only [File-Backed Scripts](/hw-docs/Scripting/File-Backed%20Scripts.md) (FBS) worlds for the best experience and full functionality. **Non-FBS scripts are not fully supported.** Without file-backed scripts:
+* We recommend using only [File-Backed Scripts](/hw-mcp-tools/documentation/hw-docs/Scripting/File-Backed%20Scripts.md) (FBS) worlds for the best experience and full functionality. **Non-FBS scripts are not fully supported.** Without file-backed scripts:
 
   + If you add non-FBS script to the template definition, when editing the template definition you can’t edit the script (it will not show in the script dropdown in properties).
   + If you edit a non-FBS script and/or attach it to an instance of the asset template changes to the script on an instance will not appear as overrides and thus cannot be applied to the template definition and propagated across worlds.
@@ -54,7 +54,7 @@ This section will go through the general workflow for templates once you are par
 
 There are two ways to create a template:
 
-* By converting a legacy asset to an asset template. See [Asset Migration](/hw-docs/Desktop%20editor/Assets/Asset%20Templates.md#asset-migration) section for more information.
+* By converting a legacy asset to an asset template. See [Asset Migration](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Asset%20Templates.md#asset-migration) section for more information.
   ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452458941_512500697954553_8078786083910498359_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=8MDnGl0xny4Q7kNvwGqy9LR&_nc_oc=Adngda9ahO5jtvCUEolt-ybMZ-DbezlfazRP3r0zXZNtHCWzSfsR8POoLPaDOUu7ATQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Aflvk0fWL-vELlXe9Z8kBSbLk2QgRg0IAqr2JgksWtqSUA&oe=694BEB0C)
 * By selecting objects in the scene and creating a new asset template from them.
 

@@ -54,7 +54,7 @@ While processing your video upload will be in one of the following states:
 
 Please note that you can delete or replace the video as long as it is not in processing status. Any replaced video will restart the processing like the initial upload.
 
-**Important:** A content integrity review process starts once the video processing finishes. Contents that violate [World content guidelines](/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md) can be unpublished or soft deleted automatically.
+**Important:** A content integrity review process starts once the video processing finishes. Contents that violate [World content guidelines](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md) can be unpublished or soft deleted automatically.
 
 ## Best Practices for Trailers
 

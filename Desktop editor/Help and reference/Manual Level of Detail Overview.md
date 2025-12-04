@@ -18,7 +18,7 @@ With LOD, you avoid overshading sub-pixel triangles by switching to a lower-deta
 
 **Note:** The current LOD feature only works with Desktop Editor.
 
-* A Windows PC with [Meta Horizon Worlds desktop editor configured](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+* A Windows PC with [Meta Horizon Worlds desktop editor configured](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 * [Simplygon](https://www.simplygon.com/) software installed.
   + This is required to import LOD assets and publish a world with LOD assets.
 * A Custom Model Import world running in edit mode in Desktop Editor to import LOD assets into.
@@ -41,7 +41,7 @@ With LOD, you avoid overshading sub-pixel triangles by switching to a lower-deta
   ***The user acknowledges and agrees that the license key may not be used for any other projects, products, or services, and may not be shared, transferred, or sublicensed to any third party without the prior written consent of Simplygon.***
 
   ***By using the license key, the user confirms its acceptance of these terms and conditions, and acknowledges that any unauthorized use of the license key may result in legal action, including but not limited to, injunctions and damages.***
-- After installing Simplygon, close all instances of Horizon, Unity, Hubbub or NuDevTools, and relaunch them as needed. If you see an asset ingestion error after closing and relaunching, try restarting your PC. See [Troubleshooting](/hw-docs/Desktop%20editor/Help%20and%20reference/Manual%20Level%20of%20Detail%20Overview.md#troubleshooting) for more information.
+- After installing Simplygon, close all instances of Horizon, Unity, Hubbub or NuDevTools, and relaunch them as needed. If you see an asset ingestion error after closing and relaunching, try restarting your PC. See [Troubleshooting](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Help%20and%20reference/Manual%20Level%20of%20Detail%20Overview.md#troubleshooting) for more information.
 
 ## Create and use LOD assets
 

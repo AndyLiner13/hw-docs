@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Create a custom UI panel
 
-This topic shows you how to create a custom UI panel. To create one, you need a Custom UI gizmo and a [`UIComponent` script](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#uicomponent).
+This topic shows you how to create a custom UI panel. To create one, you need a Custom UI gizmo and a [`UIComponent` script](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#uicomponent).
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ On the far right of the desktop editor, you’d find the Custom UI’s **Propert
 
 A custom UI panel is represented by a Custom UI gizmo, which controls where and how the panel is placed in the world. You can place multiple Custom UI gizmos in the world.
 
-In the past, creators often placed duplicate Custom UI gizmos in the world and controlled the visibility for each to create custom UI panels that displayed different content for each player. In most cases, you do not need to duplicate Custom UI gizmos. The Custom UI feature allows you to display different content to different players within the same Custom UI gizmo. See [Player-specific custom UI](/hw-docs/Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md) for details.
+In the past, creators often placed duplicate Custom UI gizmos in the world and controlled the visibility for each to create custom UI panels that displayed different content for each player. In most cases, you do not need to duplicate Custom UI gizmos. The Custom UI feature allows you to display different content to different players within the same Custom UI gizmo. See [Player-specific custom UI](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md) for details.
 
 ## Step 2: Create a UI script
 
-The Custom UI gizmo does nothing unless you attach a script to it. The script controls the content of the panel. Next, [create a TypeScript script using the desktop editor](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md#create-a-new-meta-horizon-worlds-script-in-the-desktop-editor). To use the Custom UI functionalities, include `horizon/ui` module for TypeScript API v2.0.0 from the **Scripts** dropdown menu > **Settings** (the gear button on the top right of Scripts menu). The examples here are for TypeScript API v2.0.0.
+The Custom UI gizmo does nothing unless you attach a script to it. The script controls the content of the panel. Next, [create a TypeScript script using the desktop editor](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md#create-a-new-meta-horizon-worlds-script-in-the-desktop-editor). To use the Custom UI functionalities, include `horizon/ui` module for TypeScript API v2.0.0 from the **Scripts** dropdown menu > **Settings** (the gear button on the top right of Scripts menu). The examples here are for TypeScript API v2.0.0.
 
 ![Create a UI script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480522573_661373903067231_3023285926290038565_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=2xBBtjdYxaYQ7kNvwHaB4r_&_nc_oc=AdkMKyXKSVtbTQ-8ZNaXtedVgLHR60ZghkSDVhjfp7UJuiHjHiIlzDIlsImjioFF0-M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YIYoghs2TQ0ARPTbmThHPQ&oh=00_Afmml0AlS2pDS9LKSOcYNDCXoSbC21lu0_6tDV9h4UKDfA&oe=694BC75A)
 
@@ -40,11 +40,11 @@ In your Custom UI script, you can add `preStart()` and `start()` methods in addi
 
 # `start()`
 
-For more information, see [TypeScript Script Lifecycle](/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md).
+For more information, see [TypeScript Script Lifecycle](/hw-mcp-tools/documentation/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md).
 
 ## Step 3: Create a Hello World template
 
-Write the following code in your script. Notice that the component extends the `UIComponent` class, instead of a regular `Component`. [UIComponent Class](/hw-docs/Desktop%20editor/Custom%20UI/UIComponent%20class.md) describes what each line means in more detail, but this template is a good starting point for now.
+Write the following code in your script. Notice that the component extends the `UIComponent` class, instead of a regular `Component`. [UIComponent Class](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/UIComponent%20class.md) describes what each line means in more detail, but this template is a good starting point for now.
 
 ```
 import 'horizon/core';
@@ -66,16 +66,16 @@ UIComponent.register(HelloWorld);
 
 Like all script components, the same `UIComponent` can be attached to more than one Custom UI gizmo. Those Custom UI gizmos will then display the same content.
 
-To achieve [player-specific custom UIs](/hw-docs/Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md) and heads-up display (HUDs), you do not need to duplicate Custom UI gizmos or scripts in most cases. The framework provides tools for you to build custom UI panels that display different content for different players.
+To achieve [player-specific custom UIs](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md) and heads-up display (HUDs), you do not need to duplicate Custom UI gizmos or scripts in most cases. The framework provides tools for you to build custom UI panels that display different content for different players.
 
 You can find the registered `HelloWorld` component in the **Script** section of the **Properties** panel.
 
 ![Attach the HelloWorld script to the Custom UI entity close up](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480666001_661373906400564_4241762125279907481_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=n6VsgvoxPlgQ7kNvwHXk6vf&_nc_oc=Adm9s6NyRRbSh6dj15CaqBVlKVDqgfAvQx-QK4t77cEOaRAtsxh6UIcvSQOQsBdJD60&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YIYoghs2TQ0ARPTbmThHPQ&oh=00_AfkY3yXfSWoL5isXWJ_tq5KBECek65CN9tNGQC451PBmdQ&oe=694BE3A5)
 
-After you attach the `HelloWorld` script to the **Custom UI** entity, click Play to enter the preview mode. If you haven’t already, ensure you have turned on **Auto-start simulation on Preview entry** and **Auto-stop simulation on Preview exit** in [**Preview Configuration**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-configuration) to successfully complete this tutorial.
+After you attach the `HelloWorld` script to the **Custom UI** entity, click Play to enter the preview mode. If you haven’t already, ensure you have turned on **Auto-start simulation on Preview entry** and **Auto-stop simulation on Preview exit** in [**Preview Configuration**](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-configuration) to successfully complete this tutorial.
 
 While in preview, you will be prompted to press the “E” key when your avatar is within a certain distance from the UI panel. Press “E” to see the “Hello World” panel.
 
-**Note**: You can choose the display mode based on your preference in the **Properties** panel > **Visual & Interaction** > **Display mode**. The following image shows the “Hello World” panel in the **Spatial** display mode. Additionally, you can [resize the panel](/hw-docs/Desktop%20editor/Custom%20UI/UIComponent%20class.md#properties-panelheight-and-panelwidth) and place it wherever you like.
+**Note**: You can choose the display mode based on your preference in the **Properties** panel > **Visual & Interaction** > **Display mode**. The following image shows the “Hello World” panel in the **Spatial** display mode. Additionally, you can [resize the panel](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/UIComponent%20class.md#properties-panelheight-and-panelwidth) and place it wherever you like.
 
 ![Hello World custom UI panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481075889_661373909733897_3770997712728765389_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=zFebeljYD9cQ7kNvwHNCkBL&_nc_oc=AdnrhAjesLc4Xoe74cnGTAp0K3rp53LfyWgwvBptoTv7GpY36IvsBvNYOxwvB1sfgwA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YIYoghs2TQ0ARPTbmThHPQ&oh=00_AfkOiqaddQe7uhMa1xZ6joPPWe7dAYEHUZdtJAri3X2yjg&oe=694BC1A7)

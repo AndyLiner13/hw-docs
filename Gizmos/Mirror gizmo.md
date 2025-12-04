@@ -2,9 +2,9 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Mirror gizmo
 
-The mirror [gizmo](/hw-docs/Gizmos/About%20gizmos.md) is a a multifunctional tool that can be placed anywhere in the world. You can see your avatar’s reflections in real-time, take photos, and customize the appearance of your avatar directly in the virtual environment. Incorporating the mirror gizmo into your virtual environment not only enriches the player experience but also encourages social connectivity, creativity, and a deeper sense of belonging among players.
+The mirror [gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/About%20gizmos.md) is a a multifunctional tool that can be placed anywhere in the world. You can see your avatar’s reflections in real-time, take photos, and customize the appearance of your avatar directly in the virtual environment. Incorporating the mirror gizmo into your virtual environment not only enriches the player experience but also encourages social connectivity, creativity, and a deeper sense of belonging among players.
 
-**Note**: While the mirror gizmo is available in the desktop editor, the full functionality, including real-time avatar editing and photo capture, is optimized for [VR](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md) use. The immersive VR experience allows you to interact with your avatar and the virtual world in an intuitive and engaging way. If you are using the desktop editor, you may have limited access to these features compared to the VR setup. For the best experience with the mirror gizmo, using a VR headset is recommended.
+**Note**: While the mirror gizmo is available in the desktop editor, the full functionality, including real-time avatar editing and photo capture, is optimized for [VR](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md) use. The immersive VR experience allows you to interact with your avatar and the virtual world in an intuitive and engaging way. If you are using the desktop editor, you may have limited access to these features compared to the VR setup. For the best experience with the mirror gizmo, using a VR headset is recommended.
 
 Some of the benefits of using the mirror gizmo in your virtual environment are as follows:
 
@@ -19,11 +19,11 @@ Some of the benefits of using the mirror gizmo in your virtual environment are a
 
 * In a mirror-enabled world, all players in the world will be able to see and use the shutter button to take a photo.
 * Only 16:9 and 9:16 aspect ratio are supported.
-* There is usually a negligible impact from using the mirror gizmo with default configuration, however that impact can change based on what the mirror faces, the complexity of the world, and when you choose to render the mirror. See the [Properties](/hw-docs/Gizmos/Mirror%20gizmo.md#properties) for configuration options and [Performance consideration](/hw-docs/Gizmos/Mirror%20gizmo.md#performance-considerations) sections for more details.
+* There is usually a negligible impact from using the mirror gizmo with default configuration, however that impact can change based on what the mirror faces, the complexity of the world, and when you choose to render the mirror. See the [Properties](/hw-mcp-tools/documentation/hw-docs/Gizmos/Mirror%20gizmo.md#properties) for configuration options and [Performance consideration](/hw-mcp-tools/documentation/hw-docs/Gizmos/Mirror%20gizmo.md#performance-considerations) sections for more details.
 
 ## Performance considerations
 
-* For the [best performance](/hw-docs/Performance/Introduction%20to%20performance%20optimization.md), avoid facing the mirror toward areas with many moving objects.
+* For the [best performance](/hw-mcp-tools/documentation/hw-docs/Performance/Introduction%20to%20performance%20optimization.md), avoid facing the mirror toward areas with many moving objects.
 * With the same configurations, mirror scale does not impact performance.
 * Mirror performance scales well with world complexity. Expect minimal increase of 0 to 5% for both CPU and GPU utilization.
 
@@ -31,14 +31,14 @@ Some of the benefits of using the mirror gizmo in your virtual environment are a
 
 The following steps show you how to access the mirror gizmo from the VR tool and place it in the world. But before you begin, make sure you’re familiar with the following topics:
 
-* Access an [existing world or create a new world](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md)
-* Use the [controllers in the Build mode](/hw-docs/VR%20tools/Getting%20started/Use%20your%20controllers%20in%20Build%20Mode%20of%20Meta%20Horizon%20Worlds.md)
-* [Preview mode](/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md)
+* Access an [existing world or create a new world](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md)
+* Use the [controllers in the Build mode](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Use%20your%20controllers%20in%20Build%20Mode%20of%20Meta%20Horizon%20Worlds.md)
+* [Preview mode](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md)
 
 - Open the Meta Horizon Worlds app on your VR headset and click **Create** to access the Creator Home.
 - Select the world you want to edit or create a new world.
-- By default, you enter the world in the [Preview mode](/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md).
-- Using the [disk UI](/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md) from your right controller and switch to the Build mode.
+- By default, you enter the world in the [Preview mode](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md).
+- Using the [disk UI](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md) from your right controller and switch to the Build mode.
 - Click on the menu button on your left controller.
 - Click **Gizmo** > **Mirror Gizmo**.
 - Use the three-dot menu to place the gizmo in your world.
@@ -64,7 +64,7 @@ The following highlights some of the key configuration options for the mirror gi
 | **Near/Far Resolution** | 540p (near) to 360p (far) | The reflection resolution of the mirror image based on LOD Radius. | The higher resolution the worse the performance may be. |
 | **Near/Far Camera FPS** | 30 (near) to 20 (far) | The frame rate of the mirror updates based on LOD Radius | The higher the FPS is set, the worse performance will be. |
 
-For example, to resize the mirror, you can resize the mirror by changing the **Scale** values in **Properties** > **Attributes** or by using both [controllers](/hw-docs/VR%20tools/Getting%20started/Use%20your%20controllers%20in%20Build%20Mode%20of%20Meta%20Horizon%20Worlds.md) to pull the mirror apart, like resizing a desktop window.
+For example, to resize the mirror, you can resize the mirror by changing the **Scale** values in **Properties** > **Attributes** or by using both [controllers](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Use%20your%20controllers%20in%20Build%20Mode%20of%20Meta%20Horizon%20Worlds.md) to pull the mirror apart, like resizing a desktop window.
 
 **Note**: The x, y, z scale values should all be the same value when setting the attributes.
 
@@ -87,5 +87,5 @@ The following shows you how to edit your avatar.
 ## What’s next?
 
 * [Meta Horizon Creator Program creator manual on the mirror gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#mirror-gizmo)
-* [Working in VR while in preview](/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md)
-* [Memory limits and performance metrics](/hw-docs/Save,%20optimize,%20and%20publish/Memory%20limits%20and%20performance%20metrics.md)
+* [Working in VR while in preview](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Preview%20Mode.md)
+* [Memory limits and performance metrics](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Memory%20limits%20and%20performance%20metrics.md)

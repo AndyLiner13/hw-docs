@@ -12,7 +12,7 @@ Gameplay Tags allow you to:
 * Assign tags to triggers and raycasts
 * Filter entities by tags in Desktop Editor
 
-For more information on the Gameplay Tags API and to see example code, see the [API reference doc](/hw-docs/Scripting/Gameplay%20tags%20API/Modify%20and%20Retrieve%20Entity%20Tags.md).
+For more information on the Gameplay Tags API and to see example code, see the [API reference doc](/hw-mcp-tools/documentation/hw-docs/Scripting/Gameplay%20tags%20API/Modify%20and%20Retrieve%20Entity%20Tags.md).
 
 ## Using Gameplay Tags in Desktop Editor and VR
 
@@ -20,9 +20,9 @@ Since this feature involves multiple moving parts, below are a few different sce
 
 To quickly navigate to a specific editing workflow, use the following links:
 
-* [Tag Editing in Desktop](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md#tag-editing-in-desktop-editor)
-* [Tag Editing in VR](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md#tag-editing-in-vr)
-* [Tag Filtering](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md) (Desktop#tag-filtering-in-desktop-editor)
+* [Tag Editing in Desktop](/hw-mcp-tools/documentation/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md#tag-editing-in-desktop-editor)
+* [Tag Editing in VR](/hw-mcp-tools/documentation/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md#tag-editing-in-vr)
+* [Tag Filtering](/hw-mcp-tools/documentation/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md) (Desktop#tag-filtering-in-desktop-editor)
 
 ## Tag Editing in Desktop Editor
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_defaultt
 
 # DefaultThrowOptions Variable
 
-The default values for the [ThrowOptions](/hw-docs/Reference/core/Type%20Aliases/ThrowOptions.md) type, which defines the throwing behaviour when using the [Player.throwHeldItem()](/hw-docs/Reference/core/Classes/Player.md#throwhelditem) API.
+The default values for the [ThrowOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/ThrowOptions.md) type, which defines the throwing behaviour when using the [Player.throwHeldItem()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md#throwhelditem) API.
 
 ## Signature
 
@@ -16,4 +16,4 @@ speed: 20
 pitch: 10
 yaw: 0
 playThrowAnimation: true
-hand: [Handedness.Right](/hw-docs/Reference/core/Enumerations/Handedness.md)
+hand: [Handedness.Right](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/Handedness.md)

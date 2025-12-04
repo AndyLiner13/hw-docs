@@ -44,11 +44,11 @@ In this section, you’ll learn about three workflows associated with custom mod
 
 ### Creating, saving, and importing custom 3D models
 
-There are several requirements for creating and importing (ingesting) custom 3D models. There are naming conventions for files, specific file types, and texture types. For more information, see [Creating a Custom Model](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md).
+There are several requirements for creating and importing (ingesting) custom 3D models. There are naming conventions for files, specific file types, and texture types. For more information, see [Creating a Custom Model](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md).
 
 ### Using static lighting to light a custom 3D model
 
-Objects with built-in lighting can not be used in custom model worlds. This can be circumvented by setting up static lighting on a per-object basis using a static lighting gizmo. For more information, see [Static light gizmo](/hw-docs/Gizmos/Static%20light%20gizmo.md).
+Objects with built-in lighting can not be used in custom model worlds. This can be circumvented by setting up static lighting on a per-object basis using a static lighting gizmo. For more information, see [Static light gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/Static%20light%20gizmo.md).
 
 ### Add collision to a custom 3D model
 
@@ -56,15 +56,15 @@ Your world’s performance degrades if you build your world with very detailed, 
 
 A bonus mesh collider is available in the desktop editor. Although it doesn’t perform as well as the other colliders, it is more flexible and can conform to more complex shapes.
 
-For more information, see the [Collider Ingestion User Guide](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Collider%20Ingestion%20User%20Guide.md).
+For more information, see the [Collider Ingestion User Guide](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Collider%20Ingestion%20User%20Guide.md).
 
 ## 3D modelling resources
 
 To learn more about 3D modelling, follow these links:
 
 * [Glossary of 3D Terminology](https://www.inf.ed.ac.uk/teaching/courses/cg/Web/intro_graphics/glossary.html)
-* [3D Modeling Tool Resources](/hw-docs/Custom%20models%20(FBX)/3D%20Modeling%20Tool%20Resources.md)
-* [Custom Model Import Best Practices](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Best%20practices%20for%20custom%20models.md)
+* [3D Modeling Tool Resources](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/3D%20Modeling%20Tool%20Resources.md)
+* [Custom Model Import Best Practices](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Best%20practices%20for%20custom%20models.md)
 
 ## Known issues
 
@@ -83,8 +83,8 @@ To receive the notification email, you must enable [Meta Quest > Email Preferenc
 
 To learn more about Meta Horizon Worlds, try the following:
 
-- [Create your first world](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
-- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/hw-docs/Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
-- Learn about the desktop editor with the [Introduction to the Desktop Editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
-- Learn about the other tools available by reading our [Tools Overview](/hw-docs/Get%20started/Tools%20overview.md).
+- [Create your first world](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
+- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
+- Learn about the desktop editor with the [Introduction to the Desktop Editor](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+- Learn about the other tools available by reading our [Tools Overview](/hw-mcp-tools/documentation/hw-docs/Get%20started/Tools%20overview.md).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.

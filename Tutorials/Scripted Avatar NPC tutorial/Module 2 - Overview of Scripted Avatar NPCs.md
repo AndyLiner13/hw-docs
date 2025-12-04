@@ -133,9 +133,9 @@ this.navMesh = navMesh;
 
 **Usage**:
 
-Locomotion along the navmesh is handled through a set of methods on the `locomotion` property. For more information, see [Module 3 - NPC Manager](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).
+Locomotion along the navmesh is handled through a set of methods on the `locomotion` property. For more information, see [Module 3 - NPC Manager](/hw-mcp-tools/documentation/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).
 
-For more information on NavMesh, see [Setting up NPCs with Navigation](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md).
+For more information on NavMesh, see [Setting up NPCs with Navigation](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md).
 
 ### Grabbing
 
@@ -160,7 +160,7 @@ private onGemCollected(gem: hz.Entity, collector: hz.Player): void {
 };
 ```
 
-For more information on NPC grabbing in the example world, see [Module 3 - NPC Manager](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).
+For more information on NPC grabbing in the example world, see [Module 3 - NPC Manager](/hw-mcp-tools/documentation/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).
 
 ## Unsupported Features
 
@@ -168,4 +168,4 @@ The following features are not currently available for Scripted Avatar NPCs.
 
 * **Conversation integration**: Integration with the Conversation LLM gizmo is not supported at this time.
 
-**Tip**: As a workaround, this tutorial world demonstrates how to trigger voice based on NPC activities. For more information, see [Module 3 - NPC Manager](/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).
+**Tip**: As a workaround, this tutorial world demonstrates how to trigger voice based on NPC activities. For more information, see [Module 3 - NPC Manager](/hw-mcp-tools/documentation/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%203%20-%20NPC%20Manager.md).

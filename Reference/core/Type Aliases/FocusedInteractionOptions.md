@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusedi
 
 # FocusedInteractionOptions type
 
-The options for the [Player.enterFocusedInteractionMode()](/hw-docs/Reference/core/Classes/Player.md#enterfocusedinteractionmode) method.
+The options for the [Player.enterFocusedInteractionMode()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md#enterfocusedinteractionmode) method.
 
 ## Signature
 
@@ -15,5 +15,5 @@ export declare type FocusedInteractionOptions = {
 
 ## Remarks
 
-This type defines the `options` parameter of the [Player.enterFocusedInteractionMode()](/hw-docs/Reference/core/Classes/Player.md#enterfocusedinteractionmode) method. The [DefaultFocusedInteractionEnableOptions](/hw-docs/Reference/core/Variables/DefaultFocusedInteractionEnableOptions.md) variable contains the default values.
+This type defines the `options` parameter of the [Player.enterFocusedInteractionMode()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md#enterfocusedinteractionmode) method. The [DefaultFocusedInteractionEnableOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Variables/DefaultFocusedInteractionEnableOptions.md) variable contains the default values.
 `disableFocusExitButton` - True to disable the Exit button during Focused Interaction mode. The default value is `false`.

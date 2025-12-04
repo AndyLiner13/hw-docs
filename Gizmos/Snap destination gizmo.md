@@ -2,27 +2,27 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Snap destination gizmo
 
-The snap destination [gizmo](/hw-docs/Gizmos/About%20gizmos.md) is a helper tool used by creators to designate specific locations where players’ avatars can snap into place. When players use teleport movement, the aiming circle will automatically snap to the center of the gizmo when the area covered by the gizmo is detected.
+The snap destination [gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/About%20gizmos.md) is a helper tool used by creators to designate specific locations where players’ avatars can snap into place. When players use teleport movement, the aiming circle will automatically snap to the center of the gizmo when the area covered by the gizmo is detected.
 
-The following image shows the aiming circle in [VR](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md) when the **Movement style** is set to **Teleport** in the Worlds app settings.
+The following image shows the aiming circle in [VR](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md) when the **Movement style** is set to **Teleport** in the Worlds app settings.
 
 ![A screenshot of the aiming circle in VR](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/511130115_750518717486082_3937306918986985171_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FnWmX8yYydMQ7kNvwGciQwI&_nc_oc=Adm0zmYwciyW3Hmt4-_C2fIQokvvHBdgI3ygUJxSh21GUGovBtcFCPcyCpw2RArv1c4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uFG6s9SWPJ3CxfoWqHuIiQ&oh=00_Aflp7BuWj61qG-olsEtKRTLDZBBCRJ02zC5_5ITthOHYZQ&oe=694BD13E)
 
 ## Access the snap destination gizmo
 
-While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the snap destination gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
+While you can access and configure the gizmos in the [VR tool](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the snap destination gizmo from the desktop editor and add it to the [scene pane](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
-- In the desktop editor while in the [Build mode](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md), select **Build** > **Gizmos** from the menu bar, search for “snap destination” in the search field.
+- In the desktop editor while in the [Build mode](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md), select **Build** > **Gizmos** from the menu bar, search for “snap destination” in the search field.
 - Select the snap destination gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
+- You can now edit the new gizmo properties in the [Properties panel](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
 ## Properties
 
-The snap destination gizmo is an entity. All objects in a world are represented by entities. [Entities](/hw-docs/Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the **Properties** panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
+The snap destination gizmo is an entity. All objects in a world are represented by entities. [Entities](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the **Properties** panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
 
 **Apply Orientation** controls whether the player’s final orientation will be aligned with the gizmo’s orientation.
 
-**Note**: To validate that the snap destination gizmo is working, visit the world with the snap destination gizmo in [VR](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md). Ensure to set **Movement style** to **Teleport** by going to the Worlds app’s **Settings** > **Gameplay** > **Movement style** > **Teleport**.
+**Note**: To validate that the snap destination gizmo is working, visit the world with the snap destination gizmo in [VR](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md). Ensure to set **Movement style** to **Teleport** by going to the Worlds app’s **Settings** > **Gameplay** > **Movement style** > **Teleport**.
 
 When players use teleport movement, the aiming circle will automatically snap to the center of the gizmo when the area covered by the gizmo is detected.
 

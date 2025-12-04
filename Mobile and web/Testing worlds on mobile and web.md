@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 The best way to ensure your world offers a great experience on mobile, on web, or in headset is to test it on the appropriate devices throughout your development cycle.
 
-> **Note**: For information on testing worlds on mobile and web while using the desktop editor, see [Preview Device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).
+> **Note**: For information on testing worlds on mobile and web while using the desktop editor, see [Preview Device](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).
 
 ## Web
 

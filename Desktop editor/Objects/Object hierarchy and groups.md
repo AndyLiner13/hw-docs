@@ -2,13 +2,13 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Object hierarchy and groups
 
-The Meta Horizon Worlds desktop editor provides you with the ability to combine objects so you can select, move, rotate, or scale objects as a single unit. This is achieved through defining object relationships that allow you to set behaviors, such as [collidable](/hw-docs/Performance/Performance%20best%20practices/Physics%20best%20practices.md#collidable-objects), for all the child objects of the same parent. Additionally, creating nested [parent-child relationships](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md#features) between objects improves world organization, and object manipulation and management.
+The Meta Horizon Worlds desktop editor provides you with the ability to combine objects so you can select, move, rotate, or scale objects as a single unit. This is achieved through defining object relationships that allow you to set behaviors, such as [collidable](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20best%20practices/Physics%20best%20practices.md#collidable-objects), for all the child objects of the same parent. Additionally, creating nested [parent-child relationships](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md#features) between objects improves world organization, and object manipulation and management.
 
-**Note**: While creating parent-child relationships between objects, pay attention to the location of the [pivot point](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md#pivot-around-parent-objects) that defines your rotations and scale transformations.
+**Note**: While creating parent-child relationships between objects, pay attention to the location of the [pivot point](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md#pivot-around-parent-objects) that defines your rotations and scale transformations.
 
 ## Create a parent-child hierarchy between objects
 
-While it’s not necessary to designate an existing object in the scene as the parent of a group, any [object in the hierarchy view](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md#parent-anything-to-anything) can be dragged and dropped onto any other object to create a parent-child relationship. Alternatively, you can create an intangible [empty object](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md#empty-objects) as the parent for one or more children. The following steps demonstrates how an empty object is created to be the parent of selected objects.
+While it’s not necessary to designate an existing object in the scene as the parent of a group, any [object in the hierarchy view](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md#parent-anything-to-anything) can be dragged and dropped onto any other object to create a parent-child relationship. Alternatively, you can create an intangible [empty object](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md#empty-objects) as the parent for one or more children. The following steps demonstrates how an empty object is created to be the parent of selected objects.
 
 - Press Ctrl + Click or Shift + Click to select multiple objects.
 
@@ -52,4 +52,4 @@ The four procedures explained above can be combined to create additional object 
 
 ## What’s next?
 
-Learn more about the concepts of object hierarchy and pivot around parent objects in [Hierarchy panel overview](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md).
+Learn more about the concepts of object hierarchy and pivot around parent objects in [Hierarchy panel overview](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md).

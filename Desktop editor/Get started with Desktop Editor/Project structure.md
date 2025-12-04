@@ -8,19 +8,19 @@ Snapshots of your worlds are backed up to the cloud at regular intervals for con
 
 ## Worlds
 
-Projects in Meta Horizon Worlds are organized around *worlds*, which are comparable to Places in Roblox, scenes in Unity, or maps in Unreal Engine. Each world contains its own specific environment, objects, scripts, and [user interface](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md). You can create your own world and see these components in action by following the [Create your first world tutorial](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md).
+Projects in Meta Horizon Worlds are organized around *worlds*, which are comparable to Places in Roblox, scenes in Unity, or maps in Unreal Engine. Each world contains its own specific environment, objects, scripts, and [user interface](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md). You can create your own world and see these components in action by following the [Create your first world tutorial](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md).
 
-Every world is organized into a [hierarchy](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md) of objects that represents everything in that world. By default, this hierarchy is visible on the left side of the desktop editor. Proper, intentional organization and management of the object hierarchy is essential for managing large scenes full of complex objects.
+Every world is organized into a [hierarchy](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md) of objects that represents everything in that world. By default, this hierarchy is visible on the left side of the desktop editor. Proper, intentional organization and management of the object hierarchy is essential for managing large scenes full of complex objects.
 
 ## Assets
 
-[Assets](/hw-docs/Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) for your projects, such as object geometry, images, and audio are stored online once they are uploaded to one of your worlds. Once you have uploaded an asset, you may use it in any of your worlds. You may create some types of assets directly in desktop editor, such as basic 3D objects, or you may import assets like images, [audio](/hw-docs/Desktop%20editor/Help%20and%20reference/Meta%20Horizon%20Worlds%20Audio%20Ingestion.md), and [custom models](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md) from other tools.
+[Assets](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) for your projects, such as object geometry, images, and audio are stored online once they are uploaded to one of your worlds. Once you have uploaded an asset, you may use it in any of your worlds. You may create some types of assets directly in desktop editor, such as basic 3D objects, or you may import assets like images, [audio](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Help%20and%20reference/Meta%20Horizon%20Worlds%20Audio%20Ingestion.md), and [custom models](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md) from other tools.
 
-There is also a collection of free, publicly available stock assets you can try out for use in your worlds in the [public asset library](/hw-docs/Desktop%20editor/Assets/Public%20Assets.md), which is available directly in the desktop editor.
+There is also a collection of free, publicly available stock assets you can try out for use in your worlds in the [public asset library](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Public%20Assets.md), which is available directly in the desktop editor.
 
 ## Asset templates
 
-[Asset templates](/hw-docs/Desktop%20editor/Assets/Asset%20Templates.md) are reusable object hierarchies that you can define and reuse in multiple places across multiple worlds. Asset templates offer the following features:
+[Asset templates](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Asset%20Templates.md) are reusable object hierarchies that you can define and reuse in multiple places across multiple worlds. Asset templates offer the following features:
 
 * Asset templates allow you to duplicate sets of objects as needed across one or more worlds.
 * When editing an instance of an asset template, you may choose to propagate those changes across all instances of the template, including the template definition itself. For example, if you created a forest from a tree template and you want to change the tree’s texture, you only need to update the texture on one of the trees in order to update the entire forest.
@@ -28,7 +28,7 @@ There is also a collection of free, publicly available stock assets you can try 
 
 ## Collaboration
 
-You may choose to add [collaborators](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) to help you build and test your world. Collaborators may have one of two roles:
+You may choose to add [collaborators](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) to help you build and test your world. Collaborators may have one of two roles:
 
 * **Editor** - Editors can build, edit, change, or copy anything in your world, but cannot publish it. This access includes things that you or other collaborators have created. You should only grant the Editor role to someone you trust with your content.
 * **Tester** - Testers can visit your unpublished worlds, but cannot modify or publish them.
@@ -39,17 +39,17 @@ You and your collaborators can edit your world together in real-time, and can se
 
 ## Testing
 
-You can instantly [test your world](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Test%20Your%20World.md) in desktop editor by clicking the Play button to enter [Preview mode](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md). Your avatar is dropped into the world’s spawn point, allowing you to explore and interact with the world to test various aspects of it. Preview mode also allows you to test how your world looks and feels on the various devices that support Meta Horizon Worlds.
+You can instantly [test your world](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Test%20Your%20World.md) in desktop editor by clicking the Play button to enter [Preview mode](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md). Your avatar is dropped into the world’s spawn point, allowing you to explore and interact with the world to test various aspects of it. Preview mode also allows you to test how your world looks and feels on the various devices that support Meta Horizon Worlds.
 
 You may also choose to enable world simulation without entering the world yourself; this initializes all entities in the world, runs all active scripts, and starts the physics simulation.
 
-You can use TypeScript to [send messages to the console log](/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Tutorial.md) in desktop editor. This can be very helpful when debugging custom TypeScript scripts.
+You can use TypeScript to [send messages to the console log](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Tutorial.md) in desktop editor. This can be very helpful when debugging custom TypeScript scripts.
 
 ### Performance testing
 
 For advanced testing, you can make use of specialized analytics to track various metrics:
 
 * [In-World Analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics) tracks events in your world.
-* [World analytics](/hw-docs/Performance/Analytics/World%20Analytics.md) is a web-based tool that tracks usage and performance data associated with your world.
-* [Performance scrubbing](/hw-docs/Performance/Performance%20tools/Performance%20Scrubbing.md) allows you to analyze performance events in your world from the Meta Horizon Worlds UI.
+* [World analytics](/hw-mcp-tools/documentation/hw-docs/Performance/Analytics/World%20Analytics.md) is a web-based tool that tracks usage and performance data associated with your world.
+* [Performance scrubbing](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Performance%20Scrubbing.md) allows you to analyze performance events in your world from the Meta Horizon Worlds UI.
 * [Heatmaps](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/heatmaps) allow you to visualize where visitors spend the most time in your world.

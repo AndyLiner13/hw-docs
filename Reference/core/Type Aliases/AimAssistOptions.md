@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_aimassis
 
 # AimAssistOptions type
 
-The available options for enabling Aim Assist with the [Player.setAimAssistTarget()](/hw-docs/Reference/core/Classes/Player.md#setaimassisttarget) method.
+The available options for enabling Aim Assist with the [Player.setAimAssistTarget()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md#setaimassisttarget) method.
 
 ## Signature
 

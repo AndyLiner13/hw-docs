@@ -136,4 +136,4 @@ This code sample shows how to include multiple instances of dynamic lists in the
 
 ### How to use dynamic lists in local mode
 
-Similar to other custom UI components, dynamic lists work well in local mode. Please refer to the [custom ui local mode documentation](/hw-docs/Desktop%20editor/Custom%20UI/Local%20Mode%20Custom%20UI%20Scripts.md) for more information on the local mode feature.
+Similar to other custom UI components, dynamic lists work well in local mode. Please refer to the [custom ui local mode documentation](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Local%20Mode%20Custom%20UI%20Scripts.md) for more information on the local mode feature.

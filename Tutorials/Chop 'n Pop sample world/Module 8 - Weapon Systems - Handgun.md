@@ -64,7 +64,7 @@ Script Dependencies:
 
 The ZombieGun3000 reference object and all sub-nodes must be saved as an asset template. In your own world, you must replace the `GunCore.ts` and `GunProjectile.ts` references with your own scripts. Script dependencies must be copied over, too.
 
-For more information, see “Deploying Systems” in [Module 1 - Setup](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
+For more information, see “Deploying Systems” in [Module 1 - Setup](/hw-mcp-tools/documentation/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
 
 ## How to Use
 

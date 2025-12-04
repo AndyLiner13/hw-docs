@@ -17,13 +17,13 @@ The `Turbo` instance provides several important methods to call from your analyt
 Before using the `Turbo` instance to create an analytics manager, you must complete these steps:
 1. In Desktop Editor, enable the horizon/analytics setting in Script Settings.
 2. Optional but helpful: In Desktop Editor, enable TurboAnalytics in the Asset Library.
-3. Add an [entity](/hw-docs/Reference/core/Classes/Entity.md) to your world that you can attach to the the Analytics API in your script. This can be an empty entity.
+3. Add an [entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md) to your world that you can attach to the the Analytics API in your script. This can be an empty entity.
 To create your analytics manager, do the following in your script:
-1. Create a class for your analytics manager by extending the [Component](/hw-docs/Reference/core/Abstract%20Classes/Component.md) class.
-3. If you aren't using the [default](/hw-docs/Reference/analytics/Variables/TurboDefaultSettings.md) Turbo settings, configure the analytics categories you want to capture in the [ITurboSettings](/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) interface.
+1. Create a class for your analytics manager by extending the [Component](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract%20Classes/Component.md) class.
+3. If you aren't using the [default](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Variables/TurboDefaultSettings.md) Turbo settings, configure the analytics categories you want to capture in the [ITurboSettings](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md) interface.
 4. In a script, register your analytics manager with the Turbo interface by calling the `Turbo.register(component, configs)` method. When you call this method, pass in your component and Turbo settings.
-5. Add `Turbo.send(event, payload)` calls to the event subscriptions that you want to log with In-World Analytics. When you call this method, pass in the event name from the [TurboEvents](/hw-docs/Reference/analytics/Variables/TurboEvents.md) variable and the payload objects to log. For available payloads, see the Type Alias section of the API documentation. The name of the payload type will correspond to the event name in the [TurboEvents](/hw-docs/Reference/analytics/Variables/TurboEvents.md) variable.
-6. Add a `player: string` field to the payload. For example `player: this.serverPlayer`. This field is not defined in [TurboEvents](/hw-docs/Reference/analytics/Variables/TurboEvents.md) because it is defined in the underlying type, so it is required.
+5. Add `Turbo.send(event, payload)` calls to the event subscriptions that you want to log with In-World Analytics. When you call this method, pass in the event name from the [TurboEvents](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Variables/TurboEvents.md) variable and the payload objects to log. For available payloads, see the Type Alias section of the API documentation. The name of the payload type will correspond to the event name in the [TurboEvents](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Variables/TurboEvents.md) variable.
+6. Add a `player: string` field to the payload. For example `player: this.serverPlayer`. This field is not defined in [TurboEvents](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Variables/TurboEvents.md) because it is defined in the underlying type, so it is required.
 For more information on using In-World Analytics, see the [In-World Analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/advanced/using-in-world-analytics) guide.
 
 ## Examples

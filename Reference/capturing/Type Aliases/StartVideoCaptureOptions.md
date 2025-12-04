@@ -17,8 +17,8 @@ export declare type StartVideoCaptureOptions = {
 
 ## References
 
-[CameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/CameraMovementPreset.md), [VideoCaptureNotifications](/hw-docs/Reference/capturing/Enumerations/VideoCaptureNotifications.md)
+[CameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/CameraMovementPreset.md), [VideoCaptureNotifications](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Enumerations/VideoCaptureNotifications.md)
 
 ## Remarks
 
-[DefaultStartVideoCaptureOptions](/hw-docs/Reference/capturing/Variables/DefaultStartVideoCaptureOptions.md) specifies the default options.
+[DefaultStartVideoCaptureOptions](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Variables/DefaultStartVideoCaptureOptions.md) specifies the default options.

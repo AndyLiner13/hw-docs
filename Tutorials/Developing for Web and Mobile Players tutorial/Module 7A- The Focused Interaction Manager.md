@@ -555,8 +555,8 @@ To double check if you have correctly implemented the Focused Interaction Manage
 
 #### Additional documentation:
 
-* [How to Use Focused Interaction](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md)
-* [Local Scripting for Mobile and Web](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
+* [How to Use Focused Interaction](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md)
+* [Local Scripting for Mobile and Web](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
 
 #### API docs:
 

@@ -15,4 +15,4 @@ export declare type ProfileToFollow = {
 
 ## References
 
-[SocialPlatformType](/hw-docs/Reference/social/Enumerations/SocialPlatformType.md)
+[SocialPlatformType](/hw-mcp-tools/documentation/hw-docs/Reference/social/Enumerations/SocialPlatformType.md)
