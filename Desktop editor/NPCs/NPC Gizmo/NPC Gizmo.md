@@ -11,7 +11,7 @@ Adding an NPC Gizmo to your world has the **same performance impact as adding an
 To create and configure an NPC using the NPC Gizmo, use the following process:
 
 - Select **Build** from the top menu and navigate to select the **NPC** icon from the **Avatar** section.
-  ![NPC Gizmo Build window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578267194_863533339517952_5977020901995238590_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qoDwhRPs9Z4Q7kNvwFUjBtn&_nc_oc=AdkdDiBciVJdQtsmu88ICkrInis5PIWTUOj-N_FPxYwzEQWAH6JIcTX4A9v3A8wrWtg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=hQg5o7uDFPyhNIQ2udnD5Q&oh=00_AfhmC6-aUwLVWFFXImjRfExwep9scHwCpI6s75np0_VdeQ&oe=69313AFC)
+  ![NPC Gizmo Build window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578267194_863533339517952_5977020901995238590_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Cbp1KqzBVJUQ7kNvwEA8jFp&_nc_oc=AdkJbTwxWI04IhPS7bjlFPOb9OlFarST-V_XH3pGQFo5sWYolzzp9oOConnSeOggNGQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OpnWTlhk23ztOMIzYS30dQ&oh=00_AfmeRk8U8bUSFQiQf093L4Yc8HSo50NSTOlZIKVR361p3Q&oe=694BD13C)
 - Drag the NPC Gizmo from the toolbar into your world scene and place it. **Note**: the NPC may initially appear as a single, flat color as a placeholder. It is also important to position the NPC gizmo on a surface in your world and not above or below it.
 - Once your NPC has been added to your world, you can configure its properties.
 
@@ -36,6 +36,6 @@ You can also duplicate or delete NPC Gizmos within your world like any asset add
 
 After adding the NPC Gizmo (**Gizmos > NPC)** and positioning it in your world, you can set its’ **Body Type** to Horizon Avatar to use a Horizon based avatar as an NPC. When selecting a Horizon Avatar as an NPC you can also **customize its visual appearance** by clicking “**Edit Avatar**” in the Properties panel. This opens a web-based editor for body, face, clothing, and accessories.
 
-![Edit your avatar window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469049488_603532515518037_2698379075646803421_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=z0LqhOzNFGcQ7kNvwGin4Eq&_nc_oc=AdlzDLbNFknp74St9E0stP8gG4ZfocchNbNvI6ARWNeKYYVa8XlPMPj6NInD2eXVpfU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=hQg5o7uDFPyhNIQ2udnD5Q&oh=00_AfhwxO5pVkAMDQPAqS7zqc52mJvIwJlCCyPbDmvM-CNpyw&oe=69314813)
+![Edit your avatar window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469049488_603532515518037_2698379075646803421_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=GcE2YURdi-gQ7kNvwFsXqr-&_nc_oc=Adn4JeREA3KaS66iOoymZf9nH8VOtEFyD0zCCAy0BJh9g2tGuVQWRmXzvFr2lT99AMU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OpnWTlhk23ztOMIzYS30dQ&oh=00_Aflw-113uI49A5dfYgEskRJGpgQWramoCuY9rORYCe9sIA&oe=694BDE53)
 
 Remember to click **“Refresh”** in the Desktop Editor to see your updates after you click **Done editing**.

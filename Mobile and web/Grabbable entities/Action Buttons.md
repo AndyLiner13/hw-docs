@@ -19,7 +19,7 @@ Hide Action Buttons by Default will change the default visibility of action butt
 * **Toggled on:** Hide the action buttons unless the action icons have been explicitly set in the object properties.
 * **Toggle off:** All action buttons will be visible when holding a grabbable object, regardles of whether the action icons have been set.
 
-![action-buttons-default.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452590061_512510457953577_8055809186848124743_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=k4KuxVcootUQ7kNvwGNlGPr&_nc_oc=Admw-ITbJFUDCQxi_VwP-fGrrnNpvJcgbL41s2GaxJZC00bCPmNpYCWUhXz4d0MaI2o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-nt0yixKXq_i1ItNY_YQMQ&oh=00_Afi2Gi-NA5_pXLhvCyjPi8jwsgrB9owUjZXFSE37w9IWxw&oe=69312D60)
+![action-buttons-default.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452590061_512510457953577_8055809186848124743_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Bw3vUk0MJEIQ7kNvwGMAyjT&_nc_oc=AdlJReyUTCwXCeOn12mAJ1RyrTuxkjLv-kvElBVUXf-w5qSCiYV_w3OAFJffls7ZKg8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UtnaiCUKaeDofQiAwKtGTw&oh=00_Afl8PWDTC4B1mVNqrlwazSLArIzR_ZnkoA-iEwn3m1zVaQ&oe=694BC3A0)
 
 ## How to handle button presses
 
@@ -73,7 +73,7 @@ class SimpleInputAPITest extends hz.Component {
 hz.Component.register(SimpleInputAPITest);
 ```
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558876645_833836055821014_9082785492339016001_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=IdZ-Oin1xJ4Q7kNvwGCGVb0&_nc_oc=Adkh2G-EUeuaYdhijDHDTXvMY7dmXkpAm37vZjWauw1n6q60A1AmEu6xttItRs2y3wo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-nt0yixKXq_i1ItNY_YQMQ&oh=00_AfiaHN7kmNvNCdHmxyB3kWB5MmO9P33h1V_IXHxyg3f20w&oe=69313921)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558876645_833836055821014_9082785492339016001_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=lJNWSS313DwQ7kNvwF-Z66L&_nc_oc=AdmSL4pLsGypejvkq48O5uDwwow242QW0t6iM2Ba5mlRpjLuRTb6CKJsFEObVwoQHp0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UtnaiCUKaeDofQiAwKtGTw&oh=00_AfngByljWAQrJ6w1ICDO0aio_vIgTmrOIp_yGGbA-BVqKw&oe=694BCF61)
 
 In the above screen shot, the icon is hidden when no special ability is available.
 

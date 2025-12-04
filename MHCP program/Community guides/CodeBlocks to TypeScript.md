@@ -37,7 +37,7 @@ Begin by setting up your development environment and creating your new world wit
 * Install [Meta Quest App](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/requirements-quest-link/)
 * Open and Sign into Quest App with your Meta Account
 * Install [Meta Horizon Worlds](https://www.meta.com/experiences/meta-horizon-worlds/2532035600194083/) via Quest App Store
-* [Launch Desktop Editor](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor/) by Clicking on the 3-little-dots ( … ) next to Meta Horizon Worlds in your Library and select Start in Desktop Mode
+* [Launch Desktop Editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md) by Clicking on the 3-little-dots ( … ) next to Meta Horizon Worlds in your Library and select Start in Desktop Mode
 * Click the blue New World button in the top right corner
 * Name your world, select the type, and select *Create*
 
@@ -45,16 +45,16 @@ Begin by setting up your development environment and creating your new world wit
 
 Set up and configure your new script in the development environment by following these detailed steps:
 
-* Click the down arrow for the Scripts Panel and select *Create New Script*![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702897_512500621287894_8264079504247726649_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Hz1jXS9lSN4Q7kNvwHcma2B&_nc_oc=Adk8ME8TrEP8zWgkuv--ZjyMNHFVEuHCgKYzpcx-oFbOLZs7rFYJgelAok0j_cLx6PI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0Jkyit5JlNz_Ne2lLSg7qw&oh=00_Afj0EpGNLfkEGTioRBA7M2nR-jHjmC3PCrJ0DfbQC-e9rQ&oe=69463691)
+* Click the down arrow for the Scripts Panel and select *Create New Script*![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702897_512500621287894_8264079504247726649_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=jkYohP-brw4Q7kNvwG2mHgJ&_nc_oc=AdnHKH7OZtedgi7K7akLVEsgYFkUHZcYQrf-BOZndkpK43GjdWkvqrVexdiQXCM0QPg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=O5sciYNY9GUv2Y9i8FmODw&oh=00_Afng8QU1g85UtDJO3jDMU9GpNJ7PSNFJNPiaAvI_KcrtrA&oe=694BB4D1)
 * Name this script *ExampleScript* and hit the Enter key on your keyboard.
 * Click the gear cog icon in the Scripts Panel.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702844_512500524621237_7831056844952000870_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=V4sIYxRVtX8Q7kNvwEIyHU4&_nc_oc=AdnMLVW13sa7QaLVsQgnoUO6H-5QuBKkC78sKi9k-E8mntKYYbf3BWCA9qu_BrBPpXk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0Jkyit5JlNz_Ne2lLSg7qw&oh=00_AfhrGA88yTBrOOMcNpmX_rkglZMl_3N1qtjfgLloV61auw&oe=69465635)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702844_512500524621237_7831056844952000870_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=8MAORlvfnpMQ7kNvwFVAr5K&_nc_oc=AdnoxfOVgQWlS8q_NmAqEy9bLtvi1FDEVzxs3tMLM0HitU7PUjJ1xmoG0-6jPQHY4-E&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=O5sciYNY9GUv2Y9i8FmODw&oh=00_Afmdc9Ibveg2758aQcVcVV-L_a9ruIp9b6suiExQQohh3w&oe=694BD475)
 * External Editor should say Default (VS Code)
 * External Editor Directory can be any folder you wish to store all of your world’s scripts.
 * API Version needs to be changed to 2.0.0 if it isn’t already.
   + Note: You may need it to create a script(see below) before you can see the API 2.0.0 option.
 * Camera and other features can be enabled here if required for your project.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452555778_512500527954570_5113380244908814218_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=_GXA7crhY0EQ7kNvwHSHlon&_nc_oc=Admwl7r8QFpIwBbFJp595Crlv93k4BVcVhiJ19Nf-EwVGl2b7tKbs1hQdUwfmEei40c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0Jkyit5JlNz_Ne2lLSg7qw&oh=00_Afgd-mnOPNxPpgBnPsfsjk_97eNgyiGI3iNv2Yp3Intb9Q&oe=694656A0)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452555778_512500527954570_5113380244908814218_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=NfMgbEj6MkYQ7kNvwElxcIZ&_nc_oc=AdmU5Jbout84LjmCnsHnxYBDOiL_NoeyY5aS5LZ97Vt5KGkztRpqMQHNFodXJd8ivaM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=O5sciYNY9GUv2Y9i8FmODw&oh=00_Afk_5A_n88Jkeb74h_wDEB51SN8DYUyFmj36334uQjaflQ&oe=694BD4E0)
 * Click *Apply* after making any changes.
 * Mouse over your newly created script, click the 3-vertical dots that appear and select *Open in External Editor* .
 * This should open Visual Studio Code and ask if you trust the Author of this file, you can select *Yes, I trust the authors* .

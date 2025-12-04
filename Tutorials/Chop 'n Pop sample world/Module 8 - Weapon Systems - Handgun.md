@@ -7,7 +7,7 @@ The pistol weapon system supports the pistols available in the Chop ‘N Pop: Gr
 * When a pistol is collected, aiming is determined based on a crosshairs presented on-screen when the pistol is in a player’s hand.
 * Each pistol requires a clip of ammunition, which is decremented with each shot. When the ammo in the clip is empty, the player must find and collect a new clip and then reload the clip into the gun.
 
-![Image of pistol examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467689606_593923079812314_5169865444718688226_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=f6tolrFmmOcQ7kNvwF_DDOo&_nc_oc=Adnns1VA8ooDqxlJp6Dnposbxs3YWR-tKk4QuFeckmDdK9AQpiO2Eiah1ryjhQzcnd8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PFWs6GqqenRLInap8tZIMg&oh=00_AfjJ4njq5qSkjrHBDnuR48KzWF4E3bt84UWW1uRcxAWJtQ&oe=69466261)
+![Image of pistol examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/467689606_593923079812314_5169865444718688226_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=PoahWcMH6KcQ7kNvwHaCL63&_nc_oc=AdnPAQq0U0QBVgCsdGYAl3obr3ywNCu4iAi_n2Kwyv8jU_w3MTRctUKMg4PQY_YWs0U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=u3V2ZFRRfh0zK2ef_vFYEA&oh=00_AflhtS2ETr4ceCxGk4OwkG5JjVfvHTA_xaz7RbRkbcGcMw&oe=694BE0A1)
 
 The gun weapon system leverages the Meta Horizon Worlds projectile management system and collision detection to create an effective gun. The system is composed of a multi-entity gun object, called ZombieGun3000 in the Chop ‘N Pop: Graveyard Bash world. This object also includes a ProjectileLauncher gizmo, which manages the release and collision detection of the projectile. Two scripts drive the gun system: `GunCore.ts` and `GunProjectile.ts`.
 
@@ -64,7 +64,7 @@ Script Dependencies:
 
 The ZombieGun3000 reference object and all sub-nodes must be saved as an asset template. In your own world, you must replace the `GunCore.ts` and `GunProjectile.ts` references with your own scripts. Script dependencies must be copied over, too.
 
-For more information, see “Deploying Systems” in [Module 1 - Setup](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
+For more information, see “Deploying Systems” in [Module 1 - Setup](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
 
 ## How to Use
 

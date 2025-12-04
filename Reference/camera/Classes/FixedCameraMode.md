@@ -14,4 +14,4 @@ export declare class FixedCameraMode implements ICameraMode
 
 ## Remarks
 
-The [Camera.setCameraModeFixed()](/hw-docs/Reference/camera/Classes/Camera.md) method enables fixed camera mode. For more information on setting camera modes at runtime, see the [Camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.
+The [Camera.setCameraModeFixed()](/hw-docs/Reference/camera/Classes/Camera.md#setcameramodefixed) method enables fixed camera mode. For more information on setting camera modes at runtime, see the [Camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.

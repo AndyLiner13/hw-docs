@@ -9,8 +9,8 @@ Legacy script storage availability
 There are some important differences between the legacy script storage solution and file-backed scripts for worlds that leverage the legacy solution.
 
 * There is a size limit per script of 32 kb.
-* [Scripts in legacy worlds don’t have an ID and rely solely on script names.](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/script-storage/filebacked-scripts)
-* There are some differences in [asset behavior](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/script-storage/filebacked-scripts) between the legacy and FBS as script storage options.
+* [Scripts in legacy worlds don’t have an ID and rely solely on script names.](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/script-storage/filebacked-scripts#How-script-identification-works)
+* There are some differences in [asset behavior](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/script-storage/filebacked-scripts##benefits) between the legacy and FBS as script storage options.
 
 ## Opt-in to file-backed scripts solution
 
@@ -21,13 +21,13 @@ If your created world is on the legacy system, you can always opt-in to the file
 To opt-in to file-backed scripts as your script storage solution use the following process:
 
 - Open the **Scripts** dropdown and click the **Settings** gear.
-  ![Horizon scripts drop-down menu](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452597170_512510831286873_3548532530261191130_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Gt5eLjB39hgQ7kNvwEoE13g&_nc_oc=AdnepjjG3gsG-GlIEyLVNTpqZiGHXYH63NnKUbZWELZTdo2KvYDyfgkKBQ8QByBlnsY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P2DzYNjGkJ9gKp8HEvoUPA&oh=00_Afgcyen1R-eovrnCwDJSagPNdcSLDP5M2TQDHPy04P_p2Q&oe=69311E20)
+  ![Horizon scripts drop-down menu](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452597170_512510831286873_3548532530261191130_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=I6sYTDv0JS4Q7kNvwEXX3fY&_nc_oc=AdkTjVlbdNXaDZNPCssEA3TvFOLajWBtk6rTzhPi35Aex5dFoX-SSq8XVbBEg5oG9gg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1D7ekY-2GXfFNyC2VWxyNQ&oh=00_Afl-8DW9a_-dxC1zhq3I2uPBObBIRQqDqw-dl6X5J6S9Bg&oe=694BB460)
 - Under **File-Backed Scripts**, click **Review**.
-  ![File-backed scripts review option select](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452615549_512510827953540_9044292763116055780_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=YNh8gNq6vt4Q7kNvwGxV9HA&_nc_oc=Adm2R9pv2gNDuE9iFroAPx_yGL6VwxCoYSgpeuR72OnFeyCwTOJrRakKsOUaom97zQY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=P2DzYNjGkJ9gKp8HEvoUPA&oh=00_AfjX58IdJw61lv2F5XmaQf6kb64qhdJfmu6TDc-mJks1zQ&oe=69314616)
+  ![File-backed scripts review option select](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452615549_512510827953540_9044292763116055780_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Fno9t4VCI20Q7kNvwH50dJC&_nc_oc=Adl7sAESiEWsA4aj1NANxOQXpZLHzkICXTaLjE5XdWLnKs1-HSXCcsp_8aK_JGzshVo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1D7ekY-2GXfFNyC2VWxyNQ&oh=00_AfmI0thZGVSvqOcJTb6_JC6x9hxq6YRZVi589qcNTAEk-w&oe=694BDC56)
 - After reading the information, click **Update**.
-  ![File-backed scripts update window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452815592_512510834620206_8372864601099325167_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=L7yAehRhpVkQ7kNvwGlEy9d&_nc_oc=AdktWK4P78pSMBq1y1L8o-AihbUA7LJPEoONJqgTvFpA8rig8hWWvqITbu8Jm70K1AE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P2DzYNjGkJ9gKp8HEvoUPA&oh=00_AfiU0TRT8CFaiDsDbNS5Dh1QjgBvfWK31YeCJYttQ50Oaw&oe=693117D5)
+  ![File-backed scripts update window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452815592_512510834620206_8372864601099325167_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=EV089nsNHpkQ7kNvwHD8UMS&_nc_oc=AdkfOuoq3jifvnTfQOKeGX2a8w0ZwQ4Pqa5MT_bd8c61sULXiALYbhvRaqWp6jvVNvI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1D7ekY-2GXfFNyC2VWxyNQ&oh=00_Afl85zNK0Cnj5huwPlHTkcPiIcMe66eJ8DrZldojsLGVkg&oe=694BE655)
 - Once you click **Apply**, your changes will be saved and your world and all the scripts in it will be migrated to FBS.
-  ![Script settings window after opting in to FBS](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452632855_512510837953539_4593726217778374945_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=V-oUotkFOMQQ7kNvwGXIPAw&_nc_oc=AdnE1QUtCa5tfgsyWI8mafW7YyxUzVPVZX0WoGYMc-0p2cAyuCnYaUZ-VVmt0-jeaEo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P2DzYNjGkJ9gKp8HEvoUPA&oh=00_Afj0mDPQy5EzJ9RWk-1zojJ5LOl-StL0FHxmKwfk-s6Bvg&oe=693144CC)
+  ![Script settings window after opting in to FBS](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452632855_512510837953539_4593726217778374945_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Kq71xCpLZO4Q7kNvwG71Uqz&_nc_oc=AdnfgjGmzlqKS_Ur86gO5LEq3lY6O-SpWuUEqzsrzQwnwkW1--MnQCGY4ftg0g7kMVI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1D7ekY-2GXfFNyC2VWxyNQ&oh=00_AfmRPRyMGixEe0myipP1J_zwbUCEkZRCsFs3YW5fRiz4CQ&oe=694BDB0C)
 - A notification will appear when the migration is complete.
 
 ## What to look out for after opting in a world

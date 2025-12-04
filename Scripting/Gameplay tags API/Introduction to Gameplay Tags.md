@@ -20,8 +20,8 @@ Since this feature involves multiple moving parts, below are a few different sce
 
 To quickly navigate to a specific editing workflow, use the following links:
 
-* [Tag Editing in Desktop](#tag-editing-in-desktop-editor)
-* [Tag Editing in VR](#tag-editing-in-vr)
+* [Tag Editing in Desktop](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md#tag-editing-in-desktop-editor)
+* [Tag Editing in VR](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md#tag-editing-in-vr)
 * [Tag Filtering](/hw-docs/Scripting/Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md) (Desktop#tag-filtering-in-desktop-editor)
 
 ## Tag Editing in Desktop Editor
@@ -31,30 +31,30 @@ Using Desktop Editor, you can search for, add, remove, and modify gameplay tags.
 **Search for a tag**
 
 - Navigate to the right-most menu and find the “Gameplay Tags” section
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452819243_512510297953593_3713360108182145117_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=DQE7vHAHmbcQ7kNvwFJLA7L&_nc_oc=AdkbEacFEiXYHhC32LoW1n4mWbyGh-f0d75AJ5_xelzcVuOiUwuc9u58sTB92N8-310&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfjGsCIeL5QMbEMHYenJ5yx3mHsZyrg3cCqfGMtsxcD-8A&oe=69311F70)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452819243_512510297953593_3713360108182145117_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=AGUk3n4tIPgQ7kNvwGYFebT&_nc_oc=AdmDAhWDz9U4aIpQ2m4W3BOl71UKrUgkqR5nfiEA3vQaCFPZ-UQucNdBsRTnpl9O95Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_AfnyTm5bvfcfZvyPkzCh-jiELDtXeYMU9hJYlYa3WH4n8g&oe=694BEDF0)
 - Enter the keyword in the search bar and press enter
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452531950_512510307953592_5435334402365433075_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=qIlgJPTWic0Q7kNvwHqX49d&_nc_oc=AdmBJN8AdPatfoZs--cy3sQK2_N9blr2GxOP3ByVixraVEjYAXptj8dxdkykp686t54&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfhwhEToAc0PAj5qSci_w62n4nAekxpDm2P1omfd2ZGGvg&oe=69311981)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452531950_512510307953592_5435334402365433075_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=ptFjzVxK5eAQ7kNvwG-RVxX&_nc_oc=AdlXJ5tZFv9BvQQ2yunwqnz9ehWUVtAOUHoMHtege9h94tO2I8UmUwa_r5x4FzN1wPE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_AflGfLkKXSy1E5EhSY4MWED2N5ct97Q_2XypGiCB-rlgBw&oe=694BE801)
 - Any entities with this tag should appear
 
 **Add a tag**
 
 - Select the object
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452932800_512510317953591_7736172710593851318_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=o8fibxcmt00Q7kNvwEApUOl&_nc_oc=AdnIep5ct4L3xQgzzz5F7GGeDdM3VN5mrqp73DSvtv5tQNb1wsQyb36xng4iKAjqe5c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfjCIesbx-wM0eBaImvaMEaJ1Ys1R2YWFDzeM6okxJljfw&oe=69313214)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452932800_512510317953591_7736172710593851318_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=p-NMUSyOupoQ7kNvwE3olQm&_nc_oc=Adlrz9a5d5Su-jcuu1ZGAMuvClHoPrbDNVIQwO2xyj1Wm49gtltFqMQ3Y6ItrTUPuUM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_AfnsZWarFB4W3-S5SX6XNdwA26Wyttb47laNCYVN9kB1rw&oe=694BC854)
 - Navigate to the right-most menu and find the “Gameplay Tags” section
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652805_512510324620257_7535330597218424662_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=D2ZA5lGpwRwQ7kNvwE2K7a2&_nc_oc=AdmYn-In55H0eKiDv-WhdIQ0BuJok5Y03qZeRSa_h6lhpJEXzRUxBTbhM13h5odRDHA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfgcxvO9q6s6q3U6kj5GaWfxNX9qwkILjy2CixInMTNOqw&oe=6931168C)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652805_512510324620257_7535330597218424662_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=RryYvWh-_l0Q7kNvwFkFSaT&_nc_oc=AdnHnyB4LLvYlJB0LcUHv_zzucvoEWECUOD7EpmmoRtzsS8lod4PDBsFQAVsUFRNqQ4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_Afl8kMZlC9BD7C0UgP79yALi5b5aZ0ScuevJek-F9NnZjg&oe=694BE50C)
 - Select the “+” symbol next to the search bar
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452533361_512510337953589_5428023551380485005_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=FeMMhCg_tegQ7kNvwFwQekQ&_nc_oc=AdmXpfy0fsEwDw28MpnV8FEW3jSZJ6dkh4cCm4F0j5lsgUUIv3PlZfJUrsW8hr2OsAU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfgG4VRLLNTZyjzGgAoCK9EhJSrAYEPLMCMvBUqyDy8QKA&oe=693133E8)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452533361_512510337953589_5428023551380485005_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=M7Au7Rt8q9AQ7kNvwEOQ5o6&_nc_oc=AdmbTEIVGI2T38dgeJnxf52UTl05qyUae_iiRD3clKSfQS4VEWAA-Kvor26vSgt7LyI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_AflXYcCdGevWiqdZCHhRiwYKrVOdidDuuaa_m__PlnWFOw&oe=694BCA28)
 - Enter tag name into field and press enter
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452698786_512510327953590_7203122234308935135_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=hsyPBghsTdQQ7kNvwEv_R0t&_nc_oc=AdkFu_iQqndv2wVEaqp1nuedBNcT103-WsEQeUnAjDviYjYYUYltgHo0PH_rV1uTwyw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfhBI7VHZigvI6bKE9sea5WRvmiUmiKAVd48RCw4bvUveQ&oe=69311E2C)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452698786_512510327953590_7203122234308935135_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=D-pJbdME6A8Q7kNvwECwiLj&_nc_oc=AdmbNfn-dLWwNV8qEbEYISlpsPM6lvMDPyEcGfAQjOkgYY-XhoVZpPThtstdOAyS8PM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_Afl4Jg3CyQNjtqCB4lMR8WVjiDt65JuYkWb-Em7J3mCybw&oe=694BECAC)
 - The tag will now appear under the object’s tags
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452915412_512510331286923_4938518147116670862_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=QPBvkuIfpy0Q7kNvwH9ztYu&_nc_oc=AdmrZblYYuCDVyOB18iUmogrsmVFUnFQEoNRU2QTS4G6OGjIP6bjMH2v8dEVEhCYVmU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfhED2Mf1PKKEGu5NsLOzwNW4UwPYZvjhvvaCTBC5Ivr9g&oe=693131B2)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452915412_512510331286923_4938518147116670862_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ObQV5jdHDTMQ7kNvwHtXbxU&_nc_oc=Adn9moLvxJq9usV0GgeWvClBc1SaaU__0XR6wp8X1Q-IZ-lYFWJr20yeAnCayEMcEVE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_Afm3hXKT-cyqCncQbC0ZQ15dD5ikPHQtA-1c12LXnh373Q&oe=694BC7F2)
 
 **Remove a tag**
 
 Repeat steps 1 and 2 from “Add a tag”
 
 - Navigate to the desired tag to remove and click on the “-” icon
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452533360_512510341286922_8800632251859838755_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Sa8w6rjZNuEQ7kNvwHkNjE-&_nc_oc=AdkJt_VYBF9Y1XrnPjcQ16c7sV_rx5NPKuclL_eH8e_6gxdpolqTLY4qqvNudC5ieN8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfhBwhRcONoe8l4JdP2dIO4Po_wPKGGAAS2ciChX_0PhRQ&oe=69311EA2)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452533360_512510341286922_8800632251859838755_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=I5P_mt8nfGkQ7kNvwGW7sXO&_nc_oc=Adk1pKQBjy3QPK2bxeW0-8pypx0cqFJVofewgqLp6xSpsKh-KPBCrFp9RGPoggZ0XCo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_Afl4S5Eo6UpgZtVtqUx5pxfEGlgDKq1Dx_9TlVlE19n9Uw&oe=694BED22)
 - The tag will be removed from the object’s tags
 
 **Modify a tag**
@@ -62,22 +62,22 @@ Repeat steps 1 and 2 from “Add a tag”
 Repeat steps 1 and 2 from “Add a tag”
 
 - Navigate to the desired tag to modify and click on the pencil icon
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452704028_512510334620256_4085579888356380485_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=YlPSwsm3y3wQ7kNvwH5MSSL&_nc_oc=Adm5BO9SU3oRBLB0EvGe3hr2vRdEeL6xVV8Hh2dx5qMtqxCx31q5j1W-r6VCvgiuowA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfgmlHimqKN1I9YmZfxtS915ks50sWbYYgu4e3GsNi6N0Q&oe=693138BE)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452704028_512510334620256_4085579888356380485_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=pBd6Kej68OcQ7kNvwEST0D1&_nc_oc=AdkuwEeYgJa1bwDi8Fofg8acHKSa__DaNtAFIxWhRrvbVJudBtONYXgZI0Yh74ZxFCw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_Aflq8h3Pv2KvRBjmYzRSBnnyj4Xr4vDO2TemBWxWiUapkQ&oe=694BCEFE)
 - Enter the new tag name or modifications
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453001282_512510314620258_5253799186195480687_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=a8JyJTgZbOsQ7kNvwGoJrTq&_nc_oc=Adn5F6TscmTkcEQ3x5T4cSgKG-KsTYBestSSqEEhG-NBATESWU7Qeuh1y2Nsy1s_ug8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfiSsN77n2DLsaiPbjWj0EUMk_0C3LKRNdGX5Kt1-GaDxw&oe=6931364B)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453001282_512510314620258_5253799186195480687_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=g4dNMtRafkIQ7kNvwG8kr44&_nc_oc=AdnRR0dEFQECuD1ANwWcUxgWtaOfr9ne9D1-qydvhmihH1ZrlpIcQ1_W-w3I5E0_Odk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_Afkzu9XO6e6QVTiGknksWP79HisheHOJfySRx5ShQx9GVA&oe=694BCC8B)
 - Click enter and the tag will update
 
 ## Tag Editing in VR
 
 Adding, removing, and modifying tags in VR is a similar process to that of Desktop Editor. The following video shows where to find tags (under Attributes in a game object’s menu) and how to remove, add, and modify them.
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453850100_962346978998093_3059839621993216811_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=bPaHSuiL5fwQ7kNvwGZls2o&_nc_oc=AdkwkI69gnfy13zINDsvgtREAjyRSs3oOkh5aPmyxFine2gW7GukT9mABaNa23-rzts&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_Afjjw22Z9vC8bn6dv0XyduZrgMFRZMg3ghuEPHpbc4hUHw&oe=691CB123)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453850100_962346978998093_3059839621993216811_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=dmQhE714ewgQ7kNvwFFET8r&_nc_oc=Admgdr_JtRaEzc6R65eICVBWgiGBveKvWbj66Q0mJH4oO_x_js6c1alfn9vOvq19UC4&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_AfmpL3xcg1N2WJ66x42PYrMN4h6BbQSMd8fB8tzcTUi-bA&oe=69374763)
 
 ## Tag Filtering in Desktop Editor
 
 In the “Hierarchy” menu of Desktop Editor, you’re able to filter entities by their associated tags. To do so, click on the filter icon and select the appropriate tag and watch the list re-populate with only the entities using that tag.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652242_512510271286929_4441725871151863114_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=_q_LGuBVQqoQ7kNvwFrUHTk&_nc_oc=Adkhh8mWCTOXsbSd3VagYmjCfsgI62Xs3p5r-GDmB81ZMrD3Co1pxdYzr8oGtZ5OhMQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cs8kzAJU1D3okLLjR4aiqQ&oh=00_AfiiH5JfSDmkoFMh6xZIa--acpLIUeH-TiVndT1qhfMxjw&oe=6931213B)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652242_512510271286929_4441725871151863114_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=-dIl74BX35AQ7kNvwHDJ57w&_nc_oc=AdnXOLDt-6FwJthdfPkVE2O1n1M_QKun0_YAXg3W89_orqaA1tBjWAyThjfZO5RpUlM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Qn-j_zXNu2niudKkh6aT5A&oh=00_Aflw6cabSg8E2VcCe8389BlD8yht1OxL4jpCMVafPIVj1g&oe=694BB77B)
 
 ## Known Issues
 

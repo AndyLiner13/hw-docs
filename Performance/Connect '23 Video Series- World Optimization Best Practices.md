@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 # Connect '23 Video Series: World Optimization Best Practices
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453534395_813563494234183_2742633841556371708_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=41r6k-FGLAMQ7kNvwGZdm3t&_nc_oc=AdntYhXcJK1Y-05q2EDRJtoEt68r0VE0oRDJudp7k3ULadjrmulhEPwnvvW8lHu11Io&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=WYdnL_lBFAH1yHictznvMw&oh=00_Afjn_VkxWVrJV_zZkXesRfFFF7lwpDJndAckHJA3SdScog&oe=691CA731)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453534395_813563494234183_2742633841556371708_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=rl9UGDtEUoEQ7kNvwEow0S4&_nc_oc=AdkCmsg8DOFTi5elNJZLhRGMrKDmpNz1Nh8wN99_InJkaL9hGUHLOqSHXdb080kCcHI&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=xOnZMPPjiKZc2GZ_QpxlTw&oh=00_AfnxQ0-8cy3YXtP7pgjWBif8LtgQoFMU1Yg-wpFb1oToig&oe=693775B1)
 
 This session is bound to improve your worlds! “World Optimization Best Practices” with Technical Artist **Michael Isaza** will show you how to collect, analyze, and integrate valuable insights to optimize world performance.
 

@@ -6,11 +6,11 @@ The pan camera setting moves the player’s camera to follow their avatar at a c
 
 In this tutorial, climbing the steps switches the camera to pan camera mode, and sets the camera’s position to be 10 offset from the player on the X-axis.
 
-![Sidescroller for Camera API Examples](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083958_662040649667223_5274211912720354602_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=r5PunI7v5CcQ7kNvwGPX_5R&_nc_oc=AdnOgw_yqBqyG0WiJWjLpFkDK2AFa1EAHrBIJqo6uVK3S1tRBrolbOERm4p6PBVByBA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KSkxcZmjVO_coFzmgQbp3g&oh=00_AficF01tqDdMfLMHmFBkWUxbSBGkZrFWLW4JsJFwexnbWg&oe=69462DBE)
+![Sidescroller for Camera API Examples](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083958_662040649667223_5274211912720354602_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=WwNQfB67nVkQ7kNvwF4O4P2&_nc_oc=AdklRQe6Bj1uSu_n8t4emeeN8IwHhqyF4lUyl5kYR4Kxv9jOcfyxezg83gQUu4JKUmg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ww2bKhgyqqCaopQGuNSEaQ&oh=00_AfnHP0vtsdUM2ZakYQzvOLiUav4mdlaYRee-WqM7KlHXew&oe=694BE43E)
 
 Entering the top-down area also switches the camera to pan mode, but notice that we have set the camera’s position to be 20 units offset from the player on the Y-axis, which gives a top-down perspective.
 
-![Top-down for Camera API Examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481919765_662040659667222_299852821914515850_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=dNry7ECmLHcQ7kNvwF8efeC&_nc_oc=Adm3AGbiTBORiIe0zlcDjiWlbFG7uzbssgT4MWmutR_oyk5zYfYFP3WWngtITe-bIyc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KSkxcZmjVO_coFzmgQbp3g&oh=00_AfhFR1SdZeSHFwWALkbYKcbOo2XIW6bHV7Ns4Z5bcKxiDA&oe=6946588C)
+![Top-down for Camera API Examples](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481919765_662040659667222_299852821914515850_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=jtZbeCeyGHYQ7kNvwEIHgVZ&_nc_oc=AdkLCB5MC-vo2GUuB4H5dcf8XkR8fgtet11A9-uKr2rVHdlMui-CdQYNYDP1TgSPPuY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ww2bKhgyqqCaopQGuNSEaQ&oh=00_AflWu6pUtfCY-NMHYA5RiZ28-EY_aw1jMbvQBwD70_HAJA&oe=694BD6CC)
 
 The PanCameraTrigger.ts script is essentially an extension of the CameraTrigger script with some additional properties:
 
@@ -25,7 +25,7 @@ When a player enters the Trigger Zone, the SetCameraCollisions and SetCameraPan 
 * A listener for `SetCameraCollisions` triggers a call to the `setCameraCollisions()` function.
 * A listener for `SetCameraPan` triggers a call to the `setCameraPan()` function.
 
-For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-2-playercamera-overview).
+For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](/hw-docs/Tutorials/Camera%20API%20Examples%20tutorial/Module%202%20-%20PlayerCamera%20Overview.md).
 
 ## Checkpoint
 

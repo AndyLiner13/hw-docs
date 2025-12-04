@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMeshProfile type
 
-The configuration for a navigation [NavMesh.profile](/hw-docs/Reference/navmesh/Classes/NavMesh.md).
+The configuration for a navigation [NavMesh.profile](/hw-docs/Reference/navmesh/Classes/NavMesh.md#profile).
 
 ## Signature
 

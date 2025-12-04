@@ -96,13 +96,13 @@ Select **Scripts \*\*from the top menu bar, then click the options icon. Select 
 
 After verifying that the **horizon/navmesh** API is enabled, you can begin building navigation for your NPCs.
 
-![Horizon navmesh](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/544925716_810235214847765_9217701032005179170_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=cp7PslvEhHUQ7kNvwG3jErw&_nc_oc=Adk7rx6s-U5fB5j7BM-I3P49NpU_DFH2enB3wKze7K1JXe6xk4QISXLEyQuIm9Pfs7c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fIiMiMNYboIa2qyVKPj-1g&oh=00_AfiTjEyBpg89_4UIF30l336L2d0Lqa3VgZZuHWcqQOTmhA&oe=6931234D)
+![Horizon navmesh](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/544925716_810235214847765_9217701032005179170_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=jYRO4w3aQH4Q7kNvwGKP9WU&_nc_oc=AdnMP2Riaa3ID1aBXxkCjwVWpcsQ76V-_mmlwW_Lf0hucIA_EGTJkO9cB3O4uvpbKBU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y6qRzeYwiIxoRRrJ0X2tAQ&oh=00_AfktjD0BC3g7ig2jf03e8yjMp6trcPkIyqVb2a57JekqTw&oe=694BB98D)
 
 Use the following process to setup and generate nav meshes that can be accessed with the NavMesh API:
 
 - In the **Systems** menu, click **Navigation** to open the **Navigation Profiles** menu. This menu lists any navigation profiles defined for your world and allows you to create new ones.
 - Click the **+** button to begin creating a new profile.
-  ![Create profile](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581306146_863533342851285_195327867686303909_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=E5wlxglpQ4IQ7kNvwFYJnQT&_nc_oc=Adm1DU2yOVghTxVsyyIs4u8k_S3gDAHVJQ4bq09B3_N8cEsW2kf3SnfzlKmVG175qvg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fIiMiMNYboIa2qyVKPj-1g&oh=00_AfiqcpkrSrVY_wdvlnjKlznmg_Fmsp__MpsgNqRPLV0kzg&oe=693121E9)
+  ![Create profile](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581306146_863533342851285_195327867686303909_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ozGHzsXMzuYQ7kNvwHboUtX&_nc_oc=Adl-8ZSyEhzVUuwE2PXebs-R79PJZgMywf6tMHB7XjB7m6p6pz-IK6CBkHJEHprsLD4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y6qRzeYwiIxoRRrJ0X2tAQ&oh=00_AfloEj8dR2QSHyyrRNyYs_77u1fk0QIyYYEt8jsnhIsxdQ&oe=694BB829)
 - In the **Navigation Profiles** window, click the **Create Profile** button to begin creating a new agent profile. The agent profile options are as follows:
 
 | Property | Description |
@@ -113,25 +113,25 @@ Use the following process to setup and generate nav meshes that can be accessed 
 | Step Height | How high an obstacle needs to be before it will block the NPC. For example, a small stone would be easy for the Android to step over and a bigger rock might be more difficult or might actually obstruct their path.  These properties could be different for the Android as opposed to the Chicken. It would be able to step over a smaller stone. |
 
 - Once finished click **Create** to create and save your profile. Your created profile will be added to the **Navigation profiles** window.
-  ![Navigation profiles window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/581124292_863533329517953_7097862410776349541_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=M_BeP1y_W8gQ7kNvwEXtEZd&_nc_oc=AdlQhy_BzVCNqy3D0H9gaXQ3uTSRn3FqZCfP30dHV7GIHue-dtmvKvtXZ7zAKODTyzo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=fIiMiMNYboIa2qyVKPj-1g&oh=00_Afihg4vb1-tYNGxtN551FjUyDL7gZkPE0UGcdCeJeJFBEQ&oe=693120E4)
+  ![Navigation profiles window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/581124292_863533329517953_7097862410776349541_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=CF9Sl0UasEUQ7kNvwGNfzAF&_nc_oc=Adn1u_xCS4jAIsjV8Kx0maDabb3DDchEqlSBQhh7qAhQLFnzWjaSWbd3CJMeq6FC0f4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Y6qRzeYwiIxoRRrJ0X2tAQ&oh=00_AfmkjR9gpZuwKtqGpTM9jxy3yu164Wb76e8_c0fWnE4Wyg&oe=694BB724)
 
 After creating a profile, you can add the **Navigation volume** gizmo to your world to define which areas are navigable.
 
 To do so use the following process:
 
 - After adding an NPC to your world and choosing its embodiment, select the dropdown arrow in the **Navigation** portion of the tool bar. In the menu, select **Navigation volume**. The Navigation volume will be used in order to determine what areas are navigable by the NPC. So you want to stretch this box out to cover the entire floor of what you want to be navigable.
-  ![Navigation volume gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581939883_863533332851286_8604663435429527805_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4sdUJUQJ9c0Q7kNvwE1W4IE&_nc_oc=AdnSfml4oc7BHf6sfMlNwpniDT-l3Bt4_Lto53UpMTXibCpEdnP09ZjiQcZPvs4uhfc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=fIiMiMNYboIa2qyVKPj-1g&oh=00_AfjvpThUhmwp_yuVNkYrfvFCL3pvJmZiU4r3He-Hq6ZjVg&oe=69312FDF)
+  ![Navigation volume gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581939883_863533332851286_8604663435429527805_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=gF0u-MZyXiAQ7kNvwFHQD5h&_nc_oc=AdnUhaCPVJ9dLil39EK8Ubr2bkuxN9l1E15KZ4EAKyANzaJl2d0MAUBcYIZUs-WdgPc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Y6qRzeYwiIxoRRrJ0X2tAQ&oh=00_AfkNIFaH-4507GwZ0ejFF-_4Ia4Z6P7R5vSPviFUrmbVOA&oe=694BC61F)
 - Once your navigation volume is added and you can configure the **Volume Type** which controls whether it is an **Inclusion** or **Exclusion** navigation volume. Setting the volume to **Exclusion** cuts the covered area out from any generated navigation mesh.
-  ![Navigation volume settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546150608_810235164847770_2891489873504620929_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=wHxrmuKlLz4Q7kNvwGBpmfU&_nc_oc=Adm7ju5BQy4VUvcjQ5Q8gYyDDtWp0f5w79PjJqjd3jC78dzenBiqeY_fgoOxPaUupgI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fIiMiMNYboIa2qyVKPj-1g&oh=00_AfhdlIfH-zaTfiV1baWC75ugCVUXV-lOOA46KXf3CQin9Q&oe=69313E52)
+  ![Navigation volume settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546150608_810235164847770_2891489873504620929_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=ILHtxPk0es8Q7kNvwFFKt08&_nc_oc=AdnYjb-rd7SypBBagV_-2uXoygtYI1aGqngOpHJ8_W9mg1jds_cXXX-5MR0Qr9Be-co&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y6qRzeYwiIxoRRrJ0X2tAQ&oh=00_Afkr3ApPAhAm4t4Lgev6rFsndJnjbALwe14DIKcVy0oCvA&oe=694BD492)
   Exclusion is useful for in-world assets that shouldn’t affect NPC navigation like doors.
 - Next, set what the created navigation volume applies to. Use **Navigation Profile** and select a created navigation profile or set to **All** to apply to all entities.
-  ![Navigation profile](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545387234_810235201514433_2287177445923012240_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=UTwiHgmOi2QQ7kNvwFJeVbU&_nc_oc=Adl7L-vFllK0OVbpijXq2nQt0aqQ8CuX9bxFrK0v7thXncBfJBuNjUIKifdreH7JiCs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fIiMiMNYboIa2qyVKPj-1g&oh=00_AfiMqJB7pwM3i-dzxE6prmuMPBzZIc0o__yaWiwTqBOkNw&oe=69313796)
+  ![Navigation profile](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545387234_810235201514433_2287177445923012240_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=IhiSKXK2d78Q7kNvwGBmLjx&_nc_oc=Adlw1jl3ziZE-IKm0QkDtc2Iyl2EQjr9aUId3h1KxVkjIXUJgGCnIFNz4mob1bbC_2Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y6qRzeYwiIxoRRrJ0X2tAQ&oh=00_AfmJgvr0kEwFG4TOlm2PcPRbGpnyyKNCJQWMMHB4Df0xPQ&oe=694BCDD6)
 
 Once you have created and defined profiles and navigation volume gizmos for your world, the next step is to build the meshes for each profile. Alternatively, this is called “baking” the navigation mesh.
 
 Navigate to **Systems > Navigation** and select **Bake All**.
 
-![Bake All](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546228971_810235188181101_1142415572734745848_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=tmpV7EPRr64Q7kNvwEoEPBn&_nc_oc=Adnqguq683rI_W0fHxqQkAy3ajf2fwEyO8YKf6jndQ20wtfXEbJ5cFjImGNvEEMadNs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fIiMiMNYboIa2qyVKPj-1g&oh=00_AfgomlowJJXvrDW0T-ssShB6FLtGjltzFJHXhOe3r3EheA&oe=69312714)
+![Bake All](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546228971_810235188181101_1142415572734745848_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=T2l9CRwkTdQQ7kNvwG3TGOv&_nc_oc=AdlpQKCqhMHwWUm61RtbCL9lykSuNQbd4A7el50AONI3s-Q8RDbTGk4fQ93fLt3obbc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y6qRzeYwiIxoRRrJ0X2tAQ&oh=00_AflF1J3EICB7Y8_u3sWjJlljr8s986LTiWjbbGhgi2EjoA&oe=694BBD54)
 
 After selecting **Bake All** you should see the navigation meshes built for your world. If it appears that nothing happened when building the navigation mesh, you likely need to enable the in-editor previews. Hover over each profile and ensure the visibility indicator is set to 👁 by clicking the relevant button.
 

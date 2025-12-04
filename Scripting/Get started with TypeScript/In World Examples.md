@@ -12,14 +12,14 @@ There are 4 world templates available to help you create starter worlds. Templat
 
 - Navigate to the Horizon “Create New World” page.
 - Scroll down to section **TypeScript Environments**.
-- Select the template world you want to create and click Create world. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653112_512510427953580_5716430260051889052_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=1KaD5Inzl3YQ7kNvwFrzOVx&_nc_oc=AdmQ65suIkweF9gd-pIxlZbB-Jr34n8s8_I3jjENZLqIAVhCDi-TVq8jCndJMk9D_-U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FMXgganrXCXr5fTzpHCZHg&oh=00_AfjBOHsYQ6aZD5ou8_XgMxHC9hd8Qchx8xuRWZsLTRYwPg&oe=69312B53)
+- Select the template world you want to create and click Create world. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653112_512510427953580_5716430260051889052_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZnLAaVL5cOwQ7kNvwEGM-Kt&_nc_oc=Adn6F_MSOvYMTQcuFoRQPt22SaXwQ6jjNMYaDloC8BjE4PC_reBWP4tMdwOqSU-tUkM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1HOFUmSVD-XZOkrS-BzJGQ&oh=00_AfkFYOr0RiQZzmXsB2OlrpHLViUdsuUIicEPO2OS-GhGyQ&oe=694BC193)
 - You can open the Desktop Editor and view or update the TypeScript files to experiment with how it works. To see how the code creates the module’s behavior, navigate to the module’s definitions and interface.
 
 ### A: TypeScript and Code Block Example Scripts
 
 This template world is an expansion of the Code Block Example Scripts template. Each example has both a TypeScript and Code Block implementation and a station to experience those next to each other. If you are familiar with using Code Blocks, the examples show common use cases for both CodeBlocks and TypeScript.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452976859_512510424620247_187077101860429859_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=NAs2IOTdWCAQ7kNvwFOsKdn&_nc_oc=AdkACmG4xrFD_3R_XMRoDj_HzoI1JW6qm9a4pmrUSxldMRYw5Rr67f6kpjVnweWlIGg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FMXgganrXCXr5fTzpHCZHg&oh=00_AfieIVbkDItQKrVEhJtMaDhjg3ALnFffh6W8YVgGHzRpJg&oe=69312C5E)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452976859_512510424620247_187077101860429859_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=F10yqgRnxhcQ7kNvwHui2r1&_nc_oc=AdksUwWV53dbtJeLbLWp_dZqPUhI_y3Q1Jv_be_SDoZbhLsdmvrWGFviPP0zTBKui1o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1HOFUmSVD-XZOkrS-BzJGQ&oh=00_Afm-BiTz0_Jl0sbOAy5kRtWyImHCEWnyQoJnIupG4s_MrQ&oe=694BC29E)
 
 ### B: TypeScript Events
 
@@ -32,7 +32,7 @@ The template complements the Horizon events documentation [here](/hw-docs/Script
 * Creating events and subscribing to events
 * Interactions and events detection and world updates
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452917745_512510421286914_5952549616907279129_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=4Lv7CW0Iu2sQ7kNvwHibgD5&_nc_oc=AdmUMQod_o5OJ7DBnp2t9ntIREQuABqFy12pUA2b69ZyGvGoouvDRdCq3HcjWVKfwrI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FMXgganrXCXr5fTzpHCZHg&oh=00_Afh8txWMcsHKNmdg4YYbszGZXseJpma_fyKIqwLu8Sy9GQ&oe=69311975)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452917745_512510421286914_5952549616907279129_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=W67FEwhJMgkQ7kNvwGOKUMc&_nc_oc=Admtp_g8_mR-NYqq_EW1b2N5GWVCqhw_2tvot5uWj-dKMx_Chdk8bXd0c0s5H4Qmm2s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1HOFUmSVD-XZOkrS-BzJGQ&oh=00_Afmg_J4fMk6dZkqD-jyfcrEor8GoAFd6R0KfkIwBiiMhGg&oe=694BE7F5)
 
 ### C: The Lab: TypeScript Testbench
 
@@ -42,7 +42,7 @@ This world has demos introducing:
 * Object Pooling
 * Bezier Curve math implemented with custom TypeScript Classes
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452653615_512510434620246_3243192593321753654_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=DLYgVvy8AUcQ7kNvwHKa9IL&_nc_oc=Adkjq1KdefPMUISBZcIHYh6HDX1NZMSOBcLSI-xpaXy_mP0Khq2Bxkce8eJNtZEKP4s&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FMXgganrXCXr5fTzpHCZHg&oh=00_AfiqUL7MR8P7zpmqNA7XCVDLOsqZweNL5SSBei-JCLqwjQ&oe=693146FA)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452653615_512510434620246_3243192593321753654_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=11NyjjGzWjAQ7kNvwHGqqND&_nc_oc=Adl2jBpm5NN4HLFdTe6mhg-DvoE_33KTXNcuEHHO5crrl5Us9yForQBr2bZWG3pJn0Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1HOFUmSVD-XZOkrS-BzJGQ&oh=00_AfmbLByhEM-fD1dalwWEq7yknZfFhHjrNjGcCockFWQjaw&oe=694BDD3A)
 
 ### D: Modules
 
@@ -52,4 +52,4 @@ TypeScript modules are an exciting new addition to Horizon scripting. They let y
 * Simple math library that can be used by other scripts
 * More complex data store example showcasing how to force a single global instance of a script
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652224_512510414620248_8372057275696785054_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=V9raSs06d2kQ7kNvwEVlHKN&_nc_oc=Adn3A9dH82NGVLnLRkRC9YNc-YZRURQ7WMNuYvfckvbpbBjLuiZ0kNZIV1MduKBgblQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FMXgganrXCXr5fTzpHCZHg&oh=00_AfiSeRHQ4OrXut2UBsMRmqqmpTrbQpwaW9cP6GCrVC2doA&oe=693135B7)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652224_512510414620248_8372057275696785054_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=isB203Z25OIQ7kNvwHF237p&_nc_oc=AdkzzsyjhRUJH24QA-xfUP2mPk4PEp642W-_WvdfIFQBfLNYNaYLNQSxzMFKIKC5QHY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1HOFUmSVD-XZOkrS-BzJGQ&oh=00_Afmh9ZCj9KJ1jUmYCgebr63xUESwTsWvTYLrKMP3th_dCw&oe=694BCBF7)

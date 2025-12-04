@@ -28,7 +28,7 @@ Gen AI Tool Availability & Rates
 
 To access the Generative AI Assistant Tool, select **Gen AI** from the top menu bar. You can then select the **Assistant** tool to enable the Horizon Generative AI Assistant.
 
-![Gen AI Assistant Icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/527498488_781698051034815_3112155090310568905_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=mSnNB__nnKMQ7kNvwH9PFak&_nc_oc=AdnoDgEh_cUNhgIgfdG8FHP4vIAeLpdCAvWiLo6nbaZ2-FSANGWncEaXS4MPkqmwtWA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kO9k03Og6_hcgGt3xUQVQw&oh=00_AfiTrZBKd_H96Gk_riOZOKhJveyMnGF_ZmkhIJ29A7jWjQ&oe=69313BD1)
+![Gen AI Assistant Icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/527498488_781698051034815_3112155090310568905_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qhD0q3K479UQ7kNvwF-PzpJ&_nc_oc=Adkveud63L90g9H5yaYYbgXn6ZAIBC4DMX-xMJ8YKTl3OHaSuDwLJ0BypFrmr6NtpiI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=NcJZguvmXIbBTl5GqGbNXw&oh=00_Afm-CBctJUzcDfVxKgU9J-2OC7FATSyAj3oxW991aRWIPA&oe=694BD211)
 
 ## Use the Generative AI Assistant Tool
 
@@ -46,13 +46,13 @@ You can also regenerate the content by re-submitting your prompt until you get a
 To use the Generative AI Assistant tool, use the following process:
 
 - Select **Gen AI** from the top menu bar, then select the **Assistant** and set the mode to **Code and act**.
-  ![Code and act menu option](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/527979313_781698031034817_7077838656755464034_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=9mNbWHumkf8Q7kNvwF9GMlB&_nc_oc=AdlpYQVj4vfsF3-5c81hnS03hF3zOwtzLoaznU9yyVYy59MWOv1Yh0_aUd5AGKrH3vA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kO9k03Og6_hcgGt3xUQVQw&oh=00_AfiEaDh6LJsidxTlwKiKOpPLgvjWCebL_3DNwql_ENjgSw&oe=6931145D)
+  ![Code and act menu option](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/527979313_781698031034817_7077838656755464034_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Y_M9A9HYsRgQ7kNvwFzaacP&_nc_oc=Adna9Z-Fyxb2nkYTiQ5BsxJ5gEDtF2Kw_qRIElZGLKBvwvcyskFUucokJ5dqIR5TWr8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=NcJZguvmXIbBTl5GqGbNXw&oh=00_AfmFBfw7N8ctYVsm5gVc7jhNHG1OA7wRiqJrQo8PAi3emQ&oe=694BE2DD)
 - Input a prompt into the prompt window. This can be a natural language prompt that’s more conversational like “Create a platform that floats when I step on it.”
 - Click **Generate** and the Gen AI Assistant will begin executing on your task. The Assistant will narrate its actions so you can follow along with its process and check its steps.
-  ![Gen AI Assistant process](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/528126086_781698054368148_2125788013007618666_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=wMlcJNYtZhEQ7kNvwFAFcBj&_nc_oc=AdlSnqnu2xzG0KLHyBlg68gnKWDPt04ZxOnPbGztckXGHJTFm3cYeD2ddLsWaYAwSYA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kO9k03Og6_hcgGt3xUQVQw&oh=00_Afiveft4vOT94KPqOzoNqvd-OCuVsYbQz74fLYL890bJ_w&oe=693135F0)
+  ![Gen AI Assistant process](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/528126086_781698054368148_2125788013007618666_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=di8FHxezlQQQ7kNvwGhgGaP&_nc_oc=AdnZUHx1JC-_JEU0Aa_FW6V3x7jPSIV0Y2hJS8MmTeDSNm0oAX-3qVMIlgJ8W56rFU8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=NcJZguvmXIbBTl5GqGbNXw&oh=00_Afm4LxK2mFw9a0ydoRxNDP7wHIU3_ZKA6tRGjrunOUhpsA&oe=694BCC30)
 - Once the process completes, the Assistant will validate its output and then indicate that the process is complete. Any new assets created will appear in the **Hierarchy** pane on the left side.
 - Once the process is complete, you can converse with the Gen AI Assistant to make updates to the created content, or other parts of your world.
-  ![Gen AI successful validation](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/527695926_781698041034816_1833103718593371385_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=8xTMNtiCrFYQ7kNvwF_7Yhm&_nc_oc=AdkiU0bgXH-ROryChU_LGmzMLIDqQ2yAh8K3FBTAeFJidxk0j3ugR7v96mRLAAWGynA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kO9k03Og6_hcgGt3xUQVQw&oh=00_Afh4PmR9I1rrxv7kmDJzSzMXKdGm5O327RldukO00hYC8w&oe=69313A0C)
+  ![Gen AI successful validation](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/527695926_781698041034816_1833103718593371385_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=sz_tNX0w8nMQ7kNvwGFSjBs&_nc_oc=AdnkSomVpSoHCBBBOe5W7dfE8xBquAYDpgPWwK2PLgaSfm0SBKBSjBMO9wdK7hhy-us&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=NcJZguvmXIbBTl5GqGbNXw&oh=00_Afkc8_frxOZxC_hY-4vGbWJO4hDuJEsN3Vp5VdWty8g4eg&oe=694BD04C)
 
 Currently the Gen AI Assistant is only capable of tasks focused on **basic interactivity** and **basic system prompts**. It cannot autonomously complete complex workflows and is limited to mechanics that Typescript can interact with. Additionally it cannot interact with any of the additional generators in the **Gen AI** panel.
 
@@ -104,14 +104,14 @@ To generate code snippets using the Gen AI Assistant, use the following process:
 
 - Select the **Assistant** icon and set the **Mode** to **Code Only**.
 
-  ![Gen AI typescript option](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/527474063_781698034368150_8098401166177560762_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=GSLG_xVJnW8Q7kNvwHdnHAu&_nc_oc=AdneoYICW9E39Dv18wc6cPIblzUGrr8-hYy92e_BxPMX7jmkY3GSWbyTjvwzEDSgUKc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kO9k03Og6_hcgGt3xUQVQw&oh=00_Afi1SsuH0A53QBf3_dShPE7Lg3lLsZ3ZZL9Tl3P-oOlM_A&oe=69311882)
+  ![Gen AI typescript option](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/527474063_781698034368150_8098401166177560762_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=CCriMDVGunUQ7kNvwFa2NgC&_nc_oc=AdngoE98mLsjC9RGMi0_llLT5uJn2D5aCgm_VemayvdQrmZohz4lOl-YGcCvqs-CeVk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=NcJZguvmXIbBTl5GqGbNXw&oh=00_AfmQ0RZVDjqMNMhonFfeZ9juiLPs0j6-8cRGFGniHXPuRA&oe=694BE702)
 - Select either the LLama or Specialist model with the **Model** dropdown.
 - Enter a prompt into the prompt window and click **Generate**.
 - The Gen AI Assistant will create a sample snippet of Typescript code and provide details on how to use it.
   **Note**: Because this feature is code only, you will still have to follow the steps provided to use the generated typescript snippet
 
 If you would like to change topics, you must start a new conversation by clicking the **New Chat** button.
-![New chat icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/528041839_781698057701481_311240943766485259_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ckmmc5DnGgEQ7kNvwG5SaJv&_nc_oc=AdlIuzqRLT5IbduF2Vzqr1m3RGBEfiJvYKpZDl-4XT12EDFbOUs2D_gI3t6Wno3VNBE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kO9k03Og6_hcgGt3xUQVQw&oh=00_Afiu0Dq5qhlJS8RHH91Y9lTTwlhf-amXMo6HPqJcHF1gUA&oe=69312717)
+![New chat icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/528041839_781698057701481_311240943766485259_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=6OL_Vp3ZtVcQ7kNvwHnc2IT&_nc_oc=AdlQvet2Wl8O10GEZeU9J8xQc1DFsOx3luceOlVOxtihIg_AGW-krH2zuZsA62BvrTo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=NcJZguvmXIbBTl5GqGbNXw&oh=00_Afn-u0QkYXKe661IPQDIuCINajSLwNt25xeYFHdjDUOeiw&oe=694BBD57)
 
 Specify whether the result was helpful by clicking either **Like** (thumbs-up), or **Dislike** (thumbs-down). Meta uses this information to fine-tune the LLM.
 
@@ -119,7 +119,7 @@ Specify whether the result was helpful by clicking either **Like** (thumbs-up), 
 
 After using the Generative AI Assistant tool, you can view previous chats by selecting the **History** icon.
 
-![Gen AI History pop](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475752490_643175434887078_4424716622310894767_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=WZ5ZvKqbhaYQ7kNvwG4Vs9L&_nc_oc=AdmDoYHfslBUvQWwY5tYsAI56VvRBDYqr4D4hvNm6ksf1ikmtfuAwm1iChprDhJsoug&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kO9k03Og6_hcgGt3xUQVQw&oh=00_AfhIq0SWfnX8uU_XEq54GG_vOFwJIlfL5fJF_uTibtCghg&oe=693140E1)
+![Gen AI History pop](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475752490_643175434887078_4424716622310894767_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=jaX1hQGapFYQ7kNvwEc59o3&_nc_oc=AdlnACacnHjJvK5gGgZYx13F_VLJ2mo-zR7Np1HM_FGfiek1HLEkptICBxoV6EC7cSc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=NcJZguvmXIbBTl5GqGbNXw&oh=00_AfmoxXYqz856KBX3MAh1PxrH_Ri0mjMog8RHId5tqBhgig&oe=694BD721)
 
 After opening the history window you can select a previous conversation. This will restore the selected conversation including the context used to generate content.
 
@@ -131,4 +131,4 @@ To learn more about Meta Horizon Worlds, try the following:
 - If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](/hw-docs/Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
 - Learn about the desktop editor with the [Introduction to the Desktop Editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 - Learn about the other tools available by reading our [Tools Overview](/hw-docs/Get%20started/Tools%20overview.md).
-- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.
+- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.

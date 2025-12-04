@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Meta Horizon Worlds uses Unity physics for core simulation of physics on every client. The physics system is designed for simple interactions using lightweight rigid body dynamics to simulate the motion of rigid objects. Lightweight rigid body dynamics is an optimized version of rigid body dynamics, designed for real-time applications where computational resources are limited. This approach provides fast and efficient collision detection and response, while using minimal network resources when synchronizing data between clients.
 
-The physics engine on each client performs the following tasks on local entities that have physics simulation [enabled](#physical-entities):
+The physics engine on each client performs the following tasks on local entities that have physics simulation [enabled](/hw-docs/Desktop%20editor/Physics%20Overview.md#physical_entities):
 
 * Applies forces and torque such as gravity, friction, and drag.
 * Detects and responds to collisions.
@@ -56,7 +56,7 @@ You can create objects with physical behavior in a world by using a physical ent
 * **Physics** and **Interactivity** properties in Desktop Editor
 * Scripting APIs that dynamically apply force (movement) and torque (rotation)
 * Collision handling
-* Physical effects, such as [spring physics](#spring-physics)
+* Physical effects, such as [spring physics](/hw-docs/Desktop%20editor/Physics%20Overview.md#spring_physics)
 * [Physics materials](/hw-docs/VR%20tools/SFX/Use%20physics%20and%20animation%20in%20Meta%20Horizon%20Worlds.md#physics-materials), which are a collection of physics settings that emulate real-world behaviors, such as a feather, ice, or a rubber ball.
 
 A physical entity is an [entity](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_entity) with the following properties enabled in Desktop Editor:
@@ -102,30 +102,30 @@ For more information about the properties of physical entities, see [Using physi
 
 The TypeScript API provides several world update events for applying movement and torque to players and physical entities at a specific phase of every frame.
 
-The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event allows you to register a callback to run on every frame before physics calculations are performed on entities. This event is typically used to move a player and then allow physics to respond to the movement.
+The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event allows you to register a callback to run on every frame before physics calculations are performed on entities. This event is typically used to move a player and then allow physics to respond to the movement.
 
-The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md) event allows you to register a callback to run on every frame after physics calculations are performed. This event is useful for moving entities on every frame or moving a player in response to physics.
+The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) event allows you to register a callback to run on every frame after physics calculations are performed. This event is useful for moving entities on every frame or moving a player in response to physics.
 
 #### Spring physics
 
-You can use spring physics to apply the physical movement of a spring to an entity when you push it toward a location or spin it toward a rotation. For more information, see the [Spring Physics](/hw-docs/Scripting/API%20references%20and%20examples/Spring%20Physics.md) guide. To ensure continuous motion toward the specified target, the spring physics methods must be called within the [World.onUpdate](/hw-docs/Reference/core/Classes/World.md) event so they are called on every frame.
+You can use spring physics to apply the physical movement of a spring to an entity when you push it toward a location or spin it toward a rotation. For more information, see the [Spring Physics](/hw-docs/Scripting/API%20references%20and%20examples/Spring%20Physics.md) guide. To ensure continuous motion toward the specified target, the spring physics methods must be called within the [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) event so they are called on every frame.
 
 ## Physics APIs
 
 * [PhysicalEntity](/hw-docs/Reference/core/Classes/PhysicalEntity.md) class
-* [PhysicalEntity.springPushTowardPosition](/hw-docs/Reference/core/Classes/PhysicalEntity.md) method
-* [PhysicalEntity.springSpinTowardRotation](/hw-docs/Reference/core/Classes/PhysicalEntity.md) method
+* [PhysicalEntity.springPushTowardPosition](/hw-docs/Reference/core/Classes/PhysicalEntity.md#springpushtowardposition) method
+* [PhysicalEntity.springSpinTowardRotation](/hw-docs/Reference/core/Classes/PhysicalEntity.md#springpushtowardposition) method
 * [ProjectileLauncherGizmo](/hw-docs/Reference/core/Classes/ProjectileLauncherGizmo.md) class
 * [RaycastGizmo](/hw-docs/Reference/core/Classes/RaycastGizmo.md) class
 * [AssetBundleGizmo](/hw-docs/Reference/unity_asset_bundles/Classes/AssetBundleGizmo.md) class
-* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event
-* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event
+* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event
+* [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event
 
 ## Performance recommendations
 
 * World update events
 
-  + To stablize performance, distribute large physics operations across multiple frames using the The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md) event.
+  + To stablize performance, distribute large physics operations across multiple frames using the The [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) event.
 * Colliders and meshes
 
   + Optimize physics processing by disabling colliders while they are outside the gameplay area.

@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 Hey Creators! The Meta Horizon Worlds team has created a new “Kudos Panel” asset to help with monetizing your worlds. The Kudos Panel is a ready-to-use component that automatically configures your world with everything you need to allow people to purchase Kudos as a way to show their support for your creations.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452672915_512509574620332_6330255663687350902_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=gwEUNfjuUxoQ7kNvwFH3OX4&_nc_oc=AdlK7JJao8Y-kdRbvim5GZIjw1ZoROQ40KXtOpgQkQ45dKziiQSq5KQ944umyPA3bwI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zGrqKyQ4tTOv5RVsuboKFQ&oh=00_Afgmyu93zPzNqRb2qKhI_nlfoKCgKwVo5OORWHHsSXABuw&oe=69314852)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452672915_512509574620332_6330255663687350902_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=TdSmvm50JVwQ7kNvwEdvm7b&_nc_oc=Adl1wf9CjIIlGEfw3ehFquNADU8SeeTXuso_ERadaOuBGuz-jc_oP1ukcdHzgFZglsI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=O_BbFKL1LqnOnFnQGVJLXg&oh=00_Afn35mpketOniiBr7OrTLs8lYTOPACBLc2gxuapOIBBSuw&oe=694BDE92)
 
 ## Benefits of the Kudos Panel
 
@@ -44,13 +44,13 @@ To add a Kudos Panel to your world, please do the following:
 
 - Confirm that you have no more than two leaderboards in your world. If you have previously added a Kudos Panel to your world and have a leaderboard called “Kudos” you can skip this step.
 - Open the Creation UI and select Assets->Asset Library.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452964709_512509571286999_2791455551734617244_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=puyCqy1N3SwQ7kNvwHaPWdW&_nc_oc=AdkmE-oZArKmChJiup5VJ4YGG8wjiMU6LRcl4pl8bVJk4p0IISs5pZjm5CQh79VHjiw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=zGrqKyQ4tTOv5RVsuboKFQ&oh=00_AfjEv_4yAl39sE9vFybgkMnKE91lu838zNDEvAF_kPsIUA&oe=69314799)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452964709_512509571286999_2791455551734617244_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=FsbCmaKVFksQ7kNvwHUIGIj&_nc_oc=AdnPXibFanygI1u7uEP8Ez5_5qyrVeNe83VXyt2D-cJcVczSz0cTbkA0GxlogRBjbH0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=O_BbFKL1LqnOnFnQGVJLXg&oh=00_AflRm6e8zvzl30QJMZsPtvnNFiZBKASqQWP0fDv5lJSKuw&oe=694BDDD9)
 - Select the Commerce folder.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452683821_512509591286997_2165290840578957292_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yDt9_rtMgpAQ7kNvwEcLqqc&_nc_oc=AdlDdjeXcplaIjBOIGjYWgNp3EqR9X1ScdsFIoLlIB3kEDXF7W6OZR14lHziAJJv7Qo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zGrqKyQ4tTOv5RVsuboKFQ&oh=00_AfgRfgGANxW0bUszkzdByGJaPNxdMo603ugtFVNnZt2RSA&oe=69313C2A)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452683821_512509591286997_2165290840578957292_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=fBQrXP2UWrAQ7kNvwF0dM6S&_nc_oc=AdmhCY_jZ2nAHsNVsCO2MybIUzZhXt2Q46B8e0lT2t7ESNe_yd8LXYJ3c6cC-Go6TpU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=O_BbFKL1LqnOnFnQGVJLXg&oh=00_AfltTEC6cGaMAHc8gmmwqFzxrhiG5eRPYW2TLMrEHnKUMw&oe=694BD26A)
 - Select the Kudos Panel asset and place it in your world.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452916228_512509587953664_2086566107633930231_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=3pTFbtX1IcYQ7kNvwEhJFtW&_nc_oc=Adl6YBGGjLzteoTWUgR9QwB-I-QXSKUSg3M_mpYRiGBDVq8k8Lsco2u_WAfEXr8iyfc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zGrqKyQ4tTOv5RVsuboKFQ&oh=00_AfgINGEi2jFcufQnvP7fvU2hYa2We_Rsz-3Wl2w3lwmLHA&oe=6931189F)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452916228_512509587953664_2086566107633930231_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=n5E-yC_4cHEQ7kNvwHymZu4&_nc_oc=AdkwMIIqYTzLMhA1Q_gJllpd2D5cO2EZixR_tXTk6X2wdj3Qp_FANtce5qp-XXiFwMg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=O_BbFKL1LqnOnFnQGVJLXg&oh=00_Afnc868A8GT6D81-VCi_tUK5X7NL8YsYSMs4s9idVr0pBQ&oe=694BE71F)
 - Once the Kudos Panel is placed in your world, Publish your world. The Kudos Panel asset is now ready to use.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452597981_512509584620331_2747521599041840352_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=EjOmdtjpd2QQ7kNvwHC4VXD&_nc_oc=Adlqam6OfL5D-v4IElss93yArbkpwrXld9sAZczvkjjweYE4dy4yHGl6hCI0903QezE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=zGrqKyQ4tTOv5RVsuboKFQ&oh=00_AfgH9ZePHK9-r-MYoyd0IleX-UTivvq09cb6-SjcovNrIQ&oe=693117FF)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452597981_512509584620331_2747521599041840352_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=f7L2PkWUvx8Q7kNvwGcCTWI&_nc_oc=AdmQtfvp72xFec0vGk4f1t-MsQWKXqNa8-9d1DWDOudbe1Zq_zPK-AFrkT3hstB5Y7Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=O_BbFKL1LqnOnFnQGVJLXg&oh=00_AfmqIPjWdtNQfOSOOJmuV9NefqWrj_Po_j4nNB7fRVXIOQ&oe=694BE67F)
 
 > **NOTE:** If you do not see these options, it means you have not been correctly added to the Creator Program. You must be invited to join the Creator Program before you can use the Kudos Panel.
 

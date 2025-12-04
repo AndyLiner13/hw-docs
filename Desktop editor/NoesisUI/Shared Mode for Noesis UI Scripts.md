@@ -36,3 +36,64 @@ The recently introduced Shared mode removes the need for NoesisUI entity cloning
 ### Limitations of Shared mode
 
 An important drawback of the Shared mode approach is that as it’s a single shared NoesisUI entity, its generic properties such as position and size are shared by all players as well, and can’t be modified per-player. This is generally not a problem for stationary panels and HUDs but may become an issue in more dynamic cases.
+
+## Example: Server-Client communication in Shared mode
+
+Here’s an example created by flatpixel showing how a shared script can communicate between the server and clients through events, allowing each player to update their own UI data dynamically.
+
+Important Distinction:
+Don’t confuse `this.world.owner.get()` with `this.world.getLocalPlayer()`. The local player refers to the current client’s player, while the owner refers to the entity’s owner.
+
+```
+import {CodeBlockEvents, Component, NetworkEvent, Player} from 'horizon/core';
+import { NoesisGizmo } from 'horizon/noesis';
+
+const testUIEvent = new NetworkEvent<{greeting: string}>("testUIEvent");
+
+class testUI extends Component<typeof testUI> {
+
+  start() {
+    if (this.world.getLocalPlayer().id === this.world.getServerPlayer().id) {
+      this.startServer();
+    } else {
+      this.startClient();
+    }
+  }
+
+  private startServer() {
+    this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnPlayerEnterWorld, (player: Player) => {
+      console.log('NoesisUI: OnPlayerEnterWorld', player.name.get());
+      this.sendNetworkEvent(player, testUIEvent, {greeting: `Welcome ${player.name.get()}`});
+    });
+  }
+
+  private startClient() {
+    const dataContext = {
+      label: "NoesisGUI",
+      nested: {
+        text: "Hello World",
+      },
+      items: [
+        {
+          label: "Item 1",
+        },
+        {
+          label: "Item 2",
+        },
+      ],
+      command: () => {
+        console.log("Command invoked");
+        dataContext.nested.text = "Boom!";
+      }
+    };
+    this.entity.as(NoesisGizmo).dataContext = dataContext;
+
+    this.connectNetworkEvent(this.world.getLocalPlayer(), testUIEvent, data => {
+      console.log('NoesisUI: OnEvent', data);
+      dataContext.label = data.greeting;
+    });
+  }
+}
+
+Component.register(testUI);
+```

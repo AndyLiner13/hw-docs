@@ -8,11 +8,11 @@ This feature will help save time and improve your resource management because yo
 
 ## Getting a Player’s Index
 
-To retrieve a Player’s index in the world, use the `index.get()` function on a Player object. For details, see the [Player.Index property](/hw-docs/Reference/core/Classes/Player.md) in the API reference documentation.
+To retrieve a Player’s index in the world, use the `index.get()` function on a Player object. For details, see the [Player.Index property](/hw-docs/Reference/core/Classes/Player.md#index) in the API reference documentation.
 
 ## Getting a Player from an Index
 
-To retrieve a Player object based on a Player Index value, use the `getPlayerFromIndex()` function on the `this.world` object. For details, see the [World.getPlayerFromIndex method](/hw-docs/Reference/core/Classes/World.md) in the API reference documentation.
+To retrieve a Player object based on a Player Index value, use the `getPlayerFromIndex()` function on the `this.world` object. For details, see the [World.getPlayerFromIndex method](/hw-docs/Reference/core/Classes/World.md#getplayerfromindex) in the API reference documentation.
 
 ## Example
 
@@ -23,7 +23,7 @@ var playerFromIndex = this.world.getPlayerFromIndex(playerIndex);
 
 ## Player in build mode
 
-When developing a world, you might want to perform special actions when a player is in Build Mode as opposed to Preview Mode. You can check if a player is in Build Mode by using the player function `isInBuildMode.get()`. For details, see the [Player.isInBuildMode property](/hw-docs/Reference/core/Classes/Player.md) in the API reference documentation.
+When developing a world, you might want to perform special actions when a player is in Build Mode as opposed to Preview Mode. You can check if a player is in Build Mode by using the player function `isInBuildMode.get()`. For details, see the [Player.isInBuildMode property](/hw-docs/Reference/core/Classes/Player.md#isinbuildmode) in the API reference documentation.
 
 ### `Example`
 

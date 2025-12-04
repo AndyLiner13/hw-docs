@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Station 1 displays a simple set of text on a flat plane, in a variety of font faces.
 
-![Image of Station 1](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475866616_646003184604303_6574302672366469433_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=BxDzvpGiYJgQ7kNvwHJcrzT&_nc_oc=AdmhMAixiTLf2RL-7y9bTMshc_asFN8qVFn11ZQDnmRi4gJWan72jCFyNlCsZifkpss&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=uEP2i9Br5UcAujD8rprAzg&oh=00_AfhKYx46OOjFjM35dtN1bzWZJYZth5qDqIpGAG6l5ca_LQ&oe=69463E54)
+![Image of Station 1](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475866616_646003184604303_6574302672366469433_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=9vQmSmR8veMQ7kNvwHQz3xK&_nc_oc=AdkOWJEM9rTL12hFeu_mKxBd9V3gJfkSAAUHTc-sQthOOoT6lndg9Q9y-RzjwT9au24&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=WeQBiKGmhwItsFaKj8NgGA&oh=00_AfmbmFsFX_AwkgfloqcKZRSDE0iiJLoZq9z4nxgX4iuvLQ&oe=694BBC94)
 
 ## Assets
 
@@ -60,7 +60,7 @@ This script presents a list of fonts that are available. Are there more?
 Text({ text: "Anton", style: { fontFamily: "Anton" } }),
 ```
 
-![Image of previous Typescript in VS Code editor](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/475816643_646003181270970_5106133646404735146_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=sNvz1nzLL_QQ7kNvwFznQYd&_nc_oc=AdkWbRH1JVoQSnxhSKVAIZxyd_5P3fwbmX1Ek1nYZ6KKpeHOj0kiv9gVmbSiMbMsYDs&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=uEP2i9Br5UcAujD8rprAzg&oh=00_Afj1sY4qbPK_3BFnmYPi3fzkAbsN40dz5Reyktj5NV7cmQ&oe=69462A8A)
+![Image of previous Typescript in VS Code editor](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/475816643_646003181270970_5106133646404735146_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ffINsIUlm_8Q7kNvwH0UcLh&_nc_oc=AdnuytU7GsW4uQMy2hRv8tJDqtYCtGu_W0L_LYSaLjR9gGYtOqu4DXLhHmTxyYn6ymk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=WeQBiKGmhwItsFaKj8NgGA&oh=00_Afku9Km0x-llQMglYQvL4i8PAAeAH4veV-kNQPH6OpBdsA&oe=694BE10A)
 
 * Select this text: `fontFamily`. Right-click and select **Go to Definition**.
 * That should open a separate file: horizon\_ui.d.ts. This file represents the declarations of the UI module of the v2.0.0 API. This declaration file is available locally in the same folder as your scripts for your review.

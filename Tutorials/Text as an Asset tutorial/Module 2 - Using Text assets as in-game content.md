@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 2 - Using Text assets as in-game content
 
-![Image of Station 1, which is a trivia game whose questions are imported through text assets](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488755539_688927730311848_6788371115967447808_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=i2Xzvx3CxJUQ7kNvwHegpPL&_nc_oc=AdmQMTiO2Ab4IEk2kxnTU6ARojNW9Yb5TbuVWuJeY3cNA2pTGZFfjVkXWHYnHRuPMXE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=naQ3NVYiBCyAh8jUOmyAGA&oh=00_AfgDtsFDCDjW4HRgubPTgLHNYH0-oFJI1zTUSoD4jSqvuw&oe=69462F1A)
+![Image of Station 1, which is a trivia game whose questions are imported through text assets](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488755539_688927730311848_6788371115967447808_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3owsMGgaHXsQ7kNvwEgXDIn&_nc_oc=AdnRsJ05eeaAif_CrvXS0O_ufEAY03vw_9KHX0Ubc0TNpQluRtyniuwXpE6P_VOQPZA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GxUtUsUErAw4LAahC21cJw&oh=00_Afm43FBLrlBYQsn5Y97aJRRq_89A5XjsibZgc4g68ULvAw&oe=694BE59A)
 
 Text assets can be used to upload in-game data from outside sources, which has several advantages:
 

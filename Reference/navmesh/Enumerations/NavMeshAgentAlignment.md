@@ -22,4 +22,4 @@ export declare const enum NavMeshAgentAlignment
 
 ## Remarks
 
-See the [NavMeshAgent.alignmentMode](/hw-docs/Reference/navmesh/Classes/NavMeshAgent.md) property for usage.
+See the [NavMeshAgent.alignmentMode](/hw-docs/Reference/navmesh/Classes/NavMeshAgent.md#alignmentmode) property for usage.

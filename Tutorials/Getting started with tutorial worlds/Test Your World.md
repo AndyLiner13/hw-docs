@@ -12,7 +12,7 @@ When you are building in the desktop editor, you can immediately preview the res
 
 At the top of the application, you should see the following toolbar:
 
-![Previewing Toolbar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486000668_681803094357645_1545901750511085235_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=TLdM7vxaVVIQ7kNvwH5Le7-&_nc_oc=AdmVp4JumXKfikd6xYvqv_viYl3AscKzoEKBjZGnkFLsqMXoeLlz5O0iLothadDMs1c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=qEmh5Vyx-DrgSMgVCalb8A&oh=00_AfgDiGFrBUiQxflWjJuVWJr9sfvKeDbozu-VhXEJg30XNQ&oe=69463F46)
+![Previewing Toolbar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486000668_681803094357645_1545901750511085235_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=pdqMHVCCTukQ7kNvwFcZ5dW&_nc_oc=AdnCj77pIH2m2l8wxCrYqfQoGQbmnOfdzsApZ6NJqjixVeXTo7uzvEBHI2fuNWOy7N4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=p7yFBmeNtRYivD4tds9f7w&oh=00_Afl6T3Tqj_DYEX07jpOR0C7m5oD8E81-WMDhNluYjIYoPQ&oe=694BBD86)
 
 #### Playback tools
 
@@ -32,7 +32,7 @@ If you are collaborating with other people, enabling these options can be disrup
 | Auto-start simulation on preview entry | When enabled, entering Preview mode also presses the Play button. |
 | Auto-stop simulation on preview exit | When enabled, exiting Preview mode also presses the Stop button.   When the simulation is stopped, you may lose contextual information from the playback. |
 
-For more information, see [Preview Mode](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode).
+For more information, see [Preview Mode](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md).
 
 #### Simulation tools
 
@@ -46,7 +46,7 @@ For more information, see [Preview Mode](https://developers.meta.com/horizon-wor
 
 In TypeScript, you can push messages through code to the Console log in the desktop editor.
 
-![Console logging](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452813677_512535131284443_5372359272148648923_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ml5c_6mJ2HEQ7kNvwF9xPNj&_nc_oc=Adn1UEilbIMiiiZGCCcUN1QBoj8GaIDTjG1K0j8V73xMGjtZnwbW74VRptnDlGy6ytE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=qEmh5Vyx-DrgSMgVCalb8A&oh=00_AfhsY6H1iXLgIUqtMXqOge_5hgMLWLRqTzILl4LaxSHpmw&oe=69464E1F)
+![Console logging](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452813677_512535131284443_5372359272148648923_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=QvqRhHUlwNcQ7kNvwGhSPXY&_nc_oc=AdnolKhP21-qfg5gEts0_zfiaDHvsFgl6sr9wNpuw71G_Nc4PTyZlUh6H06tUezxkmY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=p7yFBmeNtRYivD4tds9f7w&oh=00_AfnFHrMSaKIgsjCod1Wkvozt4HaUPD_-jKoQOd1353ZSdw&oe=694BCC5F)
 
 #### Example:
 
@@ -105,7 +105,7 @@ In the VR headset, you can enable a set of runtime utilities in your wrist.
 
 The Utilities menu is now available in your avatar’s wrist when you are in VR.
 
-![Utilities menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452632980_512535207951102_6453613817001339111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=9zzcgnl_k50Q7kNvwFeRIwh&_nc_oc=Adlew7XWpttXqUJchGvOvsRMGJyizanUKeBUWrbcNmNqcErPyNIahvLpBJbvE56Ma24&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=qEmh5Vyx-DrgSMgVCalb8A&oh=00_AfgjgEBOwEmI5L_Q8wsWC51i-USumt0yAe1f_wvsFVkCiw&oe=694636F8)
+![Utilities menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452632980_512535207951102_6453613817001339111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=cJg6h5M-hBUQ7kNvwHLbmxF&_nc_oc=Adm_fWjwYIYfMSuvXjmqzuOB2ynPegAs6XGHG0aTQLI7RcNJ9bEqepiD1sN07gfGi7U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=p7yFBmeNtRYivD4tds9f7w&oh=00_AflObKwq0uRHIMFYpgjU_nsHGCNveGgY8OodvS9xfVG68Q&oe=694BED78)
 
 ### Open Your World
 
@@ -128,4 +128,4 @@ In Build mode, you can perform edits to your world while you are in the headset.
 
 ## Testing in Mobile
 
-For more information on setting up a testing environment for mobile and web, see [Preview device](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#preview-device).
+For more information on setting up a testing environment for mobile and web, see [Preview device](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).

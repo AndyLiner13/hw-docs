@@ -20,7 +20,7 @@ These instructions walk you through assigning a script reference after you have 
 - In the **Properties** panel, scroll to the **Script** section.
 - Select a script from the **Attached Script** dropdown menu.
 - The script is applied to the object, and the properties defined in the script now appear in the **Script** section of the **Properties** panel.
-  ![The script properties appear in the Properties panel.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489087152_692067246664563_8655887400773932913_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=5MdxKeHVdIwQ7kNvwGwIouD&_nc_oc=AdlCGNqU_SOrg1FusjxlvergQ1eb5_x5Wv8o6xHRc__Ont4vFXkQ9Y069MKrmkF405o&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MOfHuuZS_5dNy3cZUc8UFw&oh=00_Afj7Xezx9VVGbtIksrOv-aLji4E_PjagaVufwWgjsbLpSA&oe=6931293F)
+  ![The script properties appear in the Properties panel.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489087152_692067246664563_8655887400773932913_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=rySzcGZb5OgQ7kNvwE3HVWb&_nc_oc=AdkLon4i5Q4xOzWfPuswom1-AhS7qW4T97siZ8JDKCRRULQKvyj4w7YKlU96-JGImyI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TN3Y-jNLKeypf3_NpqH1Nw&oh=00_AfkmWl3ZF1EBXW9JirJMvG6OtpOaHiv43k8bhMFcOazQoQ&oe=694BBF7F)
 
 ## Copying scripts
 
@@ -32,7 +32,7 @@ Script copying is an available feature to save you time. You can copy a script f
 - Scroll down to the **Script** section, and click the menu dropdown.
 - From the menu that appears, select **Copy Script**. The script is copied into memory.
 
-![Image shows the script menu dropdown, with the "Copy Script" option highlighted.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485007786_677847718086516_1163809176474656229_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=EWXzJDj4ZS8Q7kNvwEBpC9v&_nc_oc=AdmnYqLVyczvH2ms_aBDlxbu8OdYJUdFVyY6U4koly4OxDa58BoMckIEpdWH3h34Bik&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=MOfHuuZS_5dNy3cZUc8UFw&oh=00_AfjYFSD1EyFgAIyEV4ULwRgOWVxiorz854qTRkFWhzZw4w&oe=69312455)
+![Image shows the script menu dropdown, with the "Copy Script" option highlighted.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485007786_677847718086516_1163809176474656229_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=aHtwgFu0eagQ7kNvwEcQZSS&_nc_oc=AdldAs69FzhIERJyu3JslWqeCFcVAhhST8F5M2-Df4TFk6g34PB_QWAOoZ4me78WY5Q&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=TN3Y-jNLKeypf3_NpqH1Nw&oh=00_Afm0k1qtqrozVRf6VzfNSh0EYUlhFA4r8gRiN2orqpbAKg&oe=694BBA95)
 
 #### To paste a copied script
 
@@ -40,4 +40,4 @@ Script copying is an available feature to save you time. You can copy a script f
 - Navigate to the **Script** section, then click the menu dropdown.
 - From the menu that appears, select **Paste all script properties**. A copy of the script is attached to the object.
 
-![Image shows the script menu drop-down, with the "Paste as new attached script" option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484986141_677847711419850_2591399028196323106_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=dK8LSqNyfBMQ7kNvwECHegO&_nc_oc=AdkmkY9XC3zr00I0x4JMK1mooosUM7__PzXM0zE6OViwko5QpTUtaXx7D7p_vy0HiWI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MOfHuuZS_5dNy3cZUc8UFw&oh=00_AfiiaJAX9YqF4Z0QMDIfiy5VYRBhdvjsKqfeIvzXlEu84g&oe=693131F2)
+![Image shows the script menu drop-down, with the "Paste as new attached script" option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484986141_677847711419850_2591399028196323106_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=pNWLwVNXeEQQ7kNvwH1PTNY&_nc_oc=Adn7PgWYN7spI7Jnti5ADvjsojqBZqs0HJjIdoXFGB4t_6fgku04izDKcLnt_yULEvw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TN3Y-jNLKeypf3_NpqH1Nw&oh=00_AfmMPpia8Wf3xRNlYyGAHPObZE7FB_GnR11achGi-FWRxg&oe=694BC832)

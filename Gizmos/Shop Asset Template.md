@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Shop Asset Template
 
-![Shop Asset Template](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/504085884_734185555786065_4230548913834177985_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=3iHfa06tHLcQ7kNvwHW097e&_nc_oc=AdlRqAKjbreKA573cvEvJYtbxhO7mlSWeaIXrVOcLMzXQDcJFS__H-1wCw6Nxbt2EmQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ruPZZzh3sxWZpV_c5HF5-w&oh=00_AfgnWHAeOr004TIk4h19cCVkKddTeKTJqJ4ZyNMB8984UQ&oe=69312192)
+![Shop Asset Template](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/504085884_734185555786065_4230548913834177985_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=MFABu2-O6yUQ7kNvwHTk1Ic&_nc_oc=Adlr1_4tjzFkUI_Kv5IzF98xIwgZ3vEH42SkqmazTqAoBwvFwTBOS3YX7zoxjgwPo_Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=8CS4emfy0PnB9OCp1LQYGQ&oh=00_AfnP8sVVRxjX1SKOtylGVuNf8ctaOOwCripT5ky9RrmYZw&oe=694BB7D2)
 
 Note
 
@@ -18,7 +18,7 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Shop Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Shop” in the search field. Finally, select the Shop Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Shop Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/503737348_734185559119398_8977711842245773395_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=MmK8JL3YRYkQ7kNvwFWhubm&_nc_oc=AdnhFT657-mgzeriiLo_rgRw8F4F6Omm-mjJaQHrGVO6BA9nIEqRuDzFAGYTsv2ZWkI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ruPZZzh3sxWZpV_c5HF5-w&oh=00_Afgt1fBYV2zXn8dW7fDQHSTqbtDCnsmuYBXqpJicu1l0gg&oe=69314751)
+![Finding the Shop Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/503737348_734185559119398_8977711842245773395_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=1qXwD2eU0M8Q7kNvwEqOlsh&_nc_oc=Adl3eWDqhCoeyy76oh4CALY1OCg3PWafg047cxvRHjBPWA0ILF2iRK6mSabzvYP-mP0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=8CS4emfy0PnB9OCp1LQYGQ&oh=00_AfnIpqHMZWdZiK0mulyrCWK_yQRPwrKdYNlBs1MpRe145g&oe=694BDD91)
 
 ## Shop Asset Template properties
 

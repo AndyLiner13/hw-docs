@@ -6,7 +6,7 @@ Members-only worlds deprecated
 
  Members-only worlds have been deprecated. With the launch of Home Worlds, we recommend using home worlds for private, membership-based experiences. For more information about Home Worlds, please refer to the updated Horizon Worlds documentation.
 
-**Note**: Members-only worlds come with specific responsiblities and best practices. Learn more about [governance responsibilities](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/creator-responsibilities-members-only-worlds), [governance best practices](/hw-docs/Members-only%20worlds/Members-only%20worlds%20governance%20best%20practices%20in%20Meta%20Horizon%20Worlds.md), and [how to manage reports](/hw-docs/Members-only%20worlds/Manage%20reports%20for%20members-only%20worlds%20in%20Meta%20Horizon%20Worlds.md) for members-only worlds.
+**Note**: Members-only worlds come with specific responsiblities and best practices. Learn more about [governance responsibilities](/hw-docs/Members-only%20worlds/Creator%20governance%20responsibilities%20for%20members-only%20worlds%20in%20Meta%20Horizon%20Worlds.md), [governance best practices](/hw-docs/Members-only%20worlds/Members-only%20worlds%20governance%20best%20practices%20in%20Meta%20Horizon%20Worlds.md), and [how to manage reports](/hw-docs/Members-only%20worlds/Manage%20reports%20for%20members-only%20worlds%20in%20Meta%20Horizon%20Worlds.md) for members-only worlds.
 
 ## Members-only worlds
 
@@ -18,13 +18,13 @@ Once a creator has completed the standard world creation flow and is ready to pu
 
 - From the desktop editor, navigate to the three-dot menu and select **Publish World**
 
-  ![Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/499620645_724961260041828_8815701815660985866_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q6ucLaWPWFgQ7kNvwH8T14H&_nc_oc=AdkXKEWO5c7eFDacTwCl9b0p3lzucMDfMYqq94UzNNYh8_alcgQ6FR5vvBozNpsThaU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=oOOCSE7iVm9ylT6I5tQIUA&oh=00_Afiew_uWvk3QzmgKwehLGh2KoczwGhLtI8RwPEw_CgF82Q&oe=69313577)
+  ![Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/499620645_724961260041828_8815701815660985866_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uTyN6gXjz6IQ7kNvwFeJgkK&_nc_oc=AdkDQDQks6-EhfDehWQBWTdRF7w-6RApWcfOi_iduDsilg0c9TKxDPjf5SAnAL4_KSI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bHLQg4YlB-KnX_Fe7CdjHA&oh=00_Afl-x-Z0CyiZEn1wk9vmYi9ynlGECODpDWGc7hk0BqxxdA&oe=694BCBB7)
 - Toggle the **Members-only** setting to **On**.
 
-  ![Members-only setting](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/500247526_724961256708495_6173277232744077270_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=2IyA8Cwja80Q7kNvwF_wFUw&_nc_oc=AdnkOVgiHw8-S1OpOpqLqNpnyLdYBHufTfb0XDagpafB45xa4qHoU93Xc_Pjq2MdLiw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=oOOCSE7iVm9ylT6I5tQIUA&oh=00_AfhSFb_8r8FadOJiTbS1VO3ggLpFXY4ejLbCDbQddbq9_Q&oe=69312628)
+  ![Members-only setting](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/500247526_724961256708495_6173277232744077270_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=s29WFxZWFLEQ7kNvwFFsF-r&_nc_oc=AdlUjXHOMZ60p16GkMqetaA835rcBJhwR75ulAS6ezdCmgW3iGMWmVvG3tTUpUhqUzk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=bHLQg4YlB-KnX_Fe7CdjHA&oh=00_AflbipMO3HRvjKwl6UWQhlU0AXlnJKfl3r4tRwZUyWMttg&oe=694BBC68)
 - Once enabled, a setting option will display for Moderator presence required.
 
-  ![Moderator presence required setting](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/499378683_724961263375161_8821108538535166304_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=TZozHbdqW70Q7kNvwHdlzOX&_nc_oc=Adkx6ELzaG-N2tyVJ56VQCGvjkj07ICv0eSb2Za4kj1YTtl-5cscFQXnRyrc8JriwWo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=oOOCSE7iVm9ylT6I5tQIUA&oh=00_AfhlS5RcQjCNF9ZvGesewx3VNfh70notapLlURdjzQMRgg&oe=6931256F)
+  ![Moderator presence required setting](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/499378683_724961263375161_8821108538535166304_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=7fVZYiF93osQ7kNvwGOyGV4&_nc_oc=Adlvp9pUsobqq7XzISOq2TLtibJtMevEG09TF879Nk8N7_VctI2Fh5uAL5NREeHmmFw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=bHLQg4YlB-KnX_Fe7CdjHA&oh=00_Afn7lrUjPkVwcA71xIicJK5--vQsylb_VZ3I9ZDpgY1O-g&oe=694BBBAF)
 
 * The default for this setting is **Off**, which means that members can visit the members-only world without a moderator present.
 * Toggling this **On** means members cannot visit the members-only world without a moderator present.
@@ -46,7 +46,7 @@ During the alpha test period, all members-only worlds will remain hidden from se
 
 World creators can invite members and collaborators to their members-only worlds using the Collaborator Management menu and clicking **Invite People**.
 
-![List of collaborators available](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484350008_671766008694687_8427404570089073584_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=rfwyxjZd3V0Q7kNvwHimBod&_nc_oc=AdmV6SJU3RZPQFRp22sN8tCgiSYWl3Y8ry4YcT2bNY5M74MiJSJB-xG_EVG9bs4We3E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=oOOCSE7iVm9ylT6I5tQIUA&oh=00_Afis5gc5R8Yi3HDTsUmUCoDWWJy3Ja-m8mYTYYIj6E7SxA&oe=6931269E)
+![List of collaborators available](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484350008_671766008694687_8427404570089073584_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=z_As7Yc0rOwQ7kNvwHW0g-w&_nc_oc=AdlTPwNf876lPjmSTJzFarFaNHUor4mW9Cxeq4XcHkVAeJik9zb0AleZz2ouuQarbBg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bHLQg4YlB-KnX_Fe7CdjHA&oh=00_Afnga1dkWj7t4ikkZMYfxVUNFeJivvZmaYCbWqk-l6BKGQ&oe=694BBCDE)
 
 See the documentation on [Collaborator Management](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) for more information.
 

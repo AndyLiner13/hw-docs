@@ -8,7 +8,7 @@ With this API you can indicate if a world instance is open or closed to new play
 
 To enable allowPlayerJoin() and **ServerState** functionality, import World from `'horizon/core’` within your TypeScript file.
 
-The `World.matchmaking.allowPlayerJoin()` method indicates whether a user can or cannot join an instance at a given time. For details, see the [World.matchmaking.allowPlayerJoin method](/hw-docs/Reference/core/Classes/PhysicalEntity.md) in the API reference documentation.
+The `World.matchmaking.allowPlayerJoin()` method indicates whether a user can or cannot join an instance at a given time. For details, see the [World.matchmaking.allowPlayerJoin method](/hw-docs/Reference/core/Classes/PhysicalEntity.md#springpushtowardposition) in the API reference documentation.
 
 #### Example Code
 

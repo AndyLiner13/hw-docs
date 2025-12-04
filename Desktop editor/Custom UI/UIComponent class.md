@@ -30,11 +30,11 @@ You cannot change the panel size after the UI panel is initialized. Assigning ne
 
 The following image shows two different sets of **Scale** attributes in **Properties**.
 
-![An example that shows that scale controls the size of the UI panel in properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481452194_659847703219851_1693440629986334814_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=9bfsZZsd8hQQ7kNvwHK89QK&_nc_oc=AdmRvpjOx5oQjCrQpAh-2eCkd7XS1QkIEDWbgZWHQ67ZIqJomGM4CYZMzpeo-Evs0F4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-UpssGOMmcUNAfgzq0wkDg&oh=00_Afg8bjGEqoeqNcZN3gRJm7hcnElCZYNfnvcwn6OiYz7NVQ&oe=693121A5)
+![An example that shows that scale controls the size of the UI panel in properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481452194_659847703219851_1693440629986334814_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=A4zcDhR_t9kQ7kNvwHmVZcd&_nc_oc=AdmI39O8wqTAyhJ890c3BRLCL_tM2Rp1gwCGt0rxItJyzQL8DKzzJ8UR4BALOoZnibg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=nNjqo4pDDSlzrfZQAkNZxQ&oh=00_Afm6uNdEFYlvSZuVU3fqGq-b5Pg5-_2G13nmUzQO3mVjNw&oe=694BB7E5)
 
 The following image shows the left UI gizmo is smaller than the right UI gizmo with **Scale** attribute of (1, 1, 1) vs. (2, 2, 2).
 
-![An example that shows that scale controls the size of the UI panel in the scene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480799630_659847699886518_6437251460310613006_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CAT2GmihmlEQ7kNvwHMTXL7&_nc_oc=AdkO0hpXvJFVjB48sLXthW6ihJGRlpq56Q0mzMw2zytg-SqCIOAivGzWNxa0AqXA5hE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-UpssGOMmcUNAfgzq0wkDg&oh=00_Afhgqw7MqHKR7XnNd7qCXN71SMtoKkMYeBoqzuDFwIlnkw&oe=6931234B)
+![An example that shows that scale controls the size of the UI panel in the scene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480799630_659847699886518_6437251460310613006_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=FKyLhY1ZLQsQ7kNvwGUNOE7&_nc_oc=AdmSUTTZDBOCNaWrnzSqyv3MdIbhyDvogWARyYfT7A1O5trRiE_mxum3SSb5VtYdTPM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nNjqo4pDDSlzrfZQAkNZxQ&oh=00_AfkgDckOgwL20mAh6W-O7zz6KMw0n9Snr_p--hVWN1hRTQ&oe=694BB98B)
 
 ## Method: initializeUI()
 
@@ -133,7 +133,7 @@ Different components support different sets of styles. Again, you can find detai
 
 ### Prop: children
 
-Similar to the UI you would find in other frameworks like HTML and React, the custom UI is also a tree structure, and a component may have children components. This is defined through the [`children` prop](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md), which can be either one or an array of [`UINode`](/hw-docs/Reference/ui/Classes/UINode.md)s.
+Similar to the UI you would find in other frameworks like HTML and React, the custom UI is also a tree structure, and a component may have children components. This is defined through the [`children` prop](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#props), which can be either one or an array of [`UINode`](/hw-docs/Reference/ui/Classes/UINode.md)s.
 
 ```
 const view = View({

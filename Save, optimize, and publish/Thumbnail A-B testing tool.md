@@ -16,42 +16,42 @@ Consumers are randomly grouped into the A or B group and see one of the two prod
 
 You can create A/B tests for your horizon world products through the Developer Dashboard by navigating to **Optimization Tools** > **A/B Testing**. A list of your worlds will be displayed.
 
-![A list of available worlds in the Optimization Tools](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494282935_708821504989137_4917555889100578769_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=0pJ0siynnmMQ7kNvwHDsCH1&_nc_oc=AdlFlEQQOzluBX3AbUzuAdnuJYcGhXOJ3ddwTMPEst84pIVFWZ2ZGNg_IS-p7RozYdg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=PJY98_Vmq_KF3eucCC3wyw&oh=00_AfhQSCDN9MDJEMLrQc-8nSwSIw1HYRTa_rrB8Z4FFV60Ag&oe=6931132C)
+![A list of available worlds in the Optimization Tools](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494282935_708821504989137_4917555889100578769_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=kiyH-FQmLM0Q7kNvwF4WigO&_nc_oc=AdlWvkRDvqb4_LmbPMc_MBlBHachw93p4t5pAkTOYMlB13Gr58Fk7f_8hNNjLSemhdk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=pF_zk8fguGMyF6RAxoYPcQ&oh=00_AflLk_8-LtICPt_0z_0m1qM3FFJQjVUti_QNg7a0ownGgQ&oe=694BE1AC)
 
 ### Creating an A/B test
 
 You can create a new A/B test by clicking **Create thumbnail A/B test**.
 
-![Creating a new A/B test from the Optimization Tools menu](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494062114_708821501655804_6223474015791337459_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=KxkAScMcnwMQ7kNvwEcsORb&_nc_oc=Adno7gO2Bhxq7IsRFnXFAQvj5nGQ5mn71XYz35yDPm7OhV7QpMYaxCjsHbxyM5CXcR8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PJY98_Vmq_KF3eucCC3wyw&oh=00_AfjvFZzDBY3h5EVS_i6efc0M3NnNfcLAUZiGsxwJRrPaNA&oe=69311646)
+![Creating a new A/B test from the Optimization Tools menu](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494062114_708821501655804_6223474015791337459_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=lybKLeLWpNQQ7kNvwFbA3K1&_nc_oc=AdlFmVusQ4KH1zcHDSUUkoP6mjac79gLINn37VeS9Yvsi4KcZ2MBNpTYXExRnabwh-Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pF_zk8fguGMyF6RAxoYPcQ&oh=00_Afm6aogL18Eu0Lca3IrpJVV71pN9U9RGsLo7BOxIhg2Vtg&oe=694BE4C6)
 
 A list of all your eligible worlds to test is displayed. Select a world you would like to test.
 
-![Choosing a world to test](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494524117_708821498322471_5704040799216937529_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=aXnldwK88HQQ7kNvwHidt_s&_nc_oc=AdnWfc8RdPUtdfR3S8YGHL03eFwxTm55nMucweRtv3XbcjT45byS8PJVnvTHPqoCaqA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PJY98_Vmq_KF3eucCC3wyw&oh=00_AfgJLJ1qGZExpKo30dZBPMtvEYaEPtYRSZHuzD59g793gQ&oe=69313EAA)
+![Choosing a world to test](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494524117_708821498322471_5704040799216937529_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=AdfCirg-SJwQ7kNvwFU1geo&_nc_oc=AdnZfps7eXcFCLX9Nj0iK9ZUGHivy1jogT5eij_iMIc-7dPVmHyK5fMM2YTTc3mACCo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pF_zk8fguGMyF6RAxoYPcQ&oh=00_AfkU6n9VNuE2pzQ7XkPo9kSg54KhCuW6zP138TCgfdFcHw&oe=694BD4EA)
 
 Once your world is selected, input a unique name for your test in the **Test Name** text box. You can publish and schedule your test date by selecting from the calendar in the **Start date**. Drag and drop or choose an image file from your device from the **Upload test image** section.
 You can preview your images in **16:9**, **4:3**, and **1:1** by selecting the aspect ratio dimensions.
 
-![Previewing a thumbnail A/B test](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494423290_708821481655806_8824756114133034886_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Bf6PLGh4VcMQ7kNvwFglqM1&_nc_oc=Adly1YlTGRNbm98IGlltPKnKR26O7wrr4FHM-BwU15ppZyMeV0tqdFw08VKI6p7ewZA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=PJY98_Vmq_KF3eucCC3wyw&oh=00_AfgNkxhMSZjLDDWglWxY9PNuIjfrWAXo5PqhoAdJUGRdJA&oe=69312F93)
+![Previewing a thumbnail A/B test](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494423290_708821481655806_8824756114133034886_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=jxut88erp1cQ7kNvwG1JF0f&_nc_oc=AdmsUmFt_DfTtx9cC71JA4VzidDhRMVVqfuE_PdGC7IoHjU41DAY6YyGH03edjAlnLM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=pF_zk8fguGMyF6RAxoYPcQ&oh=00_Afnx3y-R4rulKm8Psf0wBEQGQE4-VrdjoW8Gii1derkr6Q&oe=694BC5D3)
 
 If you check the box to **Automatically publish test images if they perform better**,then this will automatically replace your thumbnail image at the end of the experiment with the image that performs better from the A/B test.
 
 Click **Submit for review** to submit your test. Your world status will be updated to “In review” and you will receive a notification on the bottom right of your screen informing you that your test has been successfully submitted.
 
-![Successfully submiting an ab test](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494195912_708821484989139_5801214339602137070_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=_dlOfwrfBK4Q7kNvwEtXQGH&_nc_oc=AdkNmJaS-5t_CLpIUR-VDGjXKtfegGMT0au-XdWBqb5afExwyELIGmB59QNT0BgPCb4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PJY98_Vmq_KF3eucCC3wyw&oh=00_Afip9zLh3IQ8zyBM5IpvwBrXSJaml_gsZyez1HsRVNfq0g&oe=69311838)
+![Successfully submiting an ab test](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494195912_708821484989139_5801214339602137070_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=LydQW3LNhBwQ7kNvwH5CLF6&_nc_oc=Admn1TpXT0byXFmEQHXA44zS54xa-gi-U_ufgEHeKM6IDQobbikVkf1nWvNRIIPCvME&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pF_zk8fguGMyF6RAxoYPcQ&oh=00_Afn5adqHpydPOVAHc4tOT_MMiKjYUFP-ZvMW7RaOQfuCgg&oe=694BE6B8)
 
 ### Cancelling a test
 
 You can cancel a test from the A/B testing page by clicking on the three dot menu beside the test you want to cancel, then click **Cancel submission**.
 
-![Cancelling a test submission](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494780521_708821494989138_6875432839123580671_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ylbiKods3rkQ7kNvwFM2_5E&_nc_oc=AdmRP6LBG4idcEZiVoAA3lTeSnut1ZHUKZgvJdRms0okc7QSXMBXT3bYM-cczOPNpOQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PJY98_Vmq_KF3eucCC3wyw&oh=00_AfjfLJSgeFXcI6Ev5R8Uq0-M9NFbc88zAuOCKuUZF78deg&oe=69312009)
+![Cancelling a test submission](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494780521_708821494989138_6875432839123580671_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=3wuybz5Vc-EQ7kNvwEgTMlK&_nc_oc=AdlQOlpXZPWdEK6MU69PZTw8R9zcxHiHF90DJL5leKZ27FQRFvaKGyqAH-QAVUS-2OI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pF_zk8fguGMyF6RAxoYPcQ&oh=00_Afk5QAh6CzfcvqGBZdLJSxTIxaDHlEpjnH2X4fT14kq5-Q&oe=694BB649)
 
 ### Viewing test results
 
 You can view your test results from the Creative AB testing page by clicking on **View details**.
 
-![View the details of a test](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/494446830_708821488322472_6897989637701424506_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=LZZUbFkdwt0Q7kNvwEB7oYy&_nc_oc=AdnZvZ1mxlJntaY-BDVRC-s8sTjNX1kCiTNcvnb73ERZojIOWh9Tu_zwjGZcFucYSCE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PJY98_Vmq_KF3eucCC3wyw&oh=00_AfiPr67sLU6eR96b0l4GyuxNOOk1LvO0RkLQTGfKgEcYtA&oe=69312ED0)
+![View the details of a test](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/494446830_708821488322472_6897989637701424506_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=aGdKM2qPceYQ7kNvwFN48Xl&_nc_oc=AdnfSZNxfhNloZIGjrjsAVaZGI6ZplK21CAuvJNmJkkzPNJiRyiWKTZba4QPmXRI6N4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pF_zk8fguGMyF6RAxoYPcQ&oh=00_AfkfLNvRogKkTF0L_m07wkS_zSl23PySSlQyntILkgzoBQ&oe=694BC510)
 
-![Test completion details categories](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/494033071_708821491655805_2438431851548078921_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=oNVEmJ8BxTgQ7kNvwHC92El&_nc_oc=AdnvIH6LMk4qYiG5GYwFippn0D05rKXxpth4vueHWkhXHK6PcfpCaPvyUIKnmos8BCo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PJY98_Vmq_KF3eucCC3wyw&oh=00_Afj_DPXI5kNu3Kjvm3wY53QItnWJtwHkOpmDeTWWGkHfxA&oe=693148D3)
+![Test completion details categories](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/494033071_708821491655805_2438431851548078921_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=1Q6BERrIHawQ7kNvwEO6i1R&_nc_oc=AdkfsNX3T4i1avBNeMn-zzqcRbrWhi8gNPb6QoLPU3zcdPVy_LSNL8ghlZnIGT13sDo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pF_zk8fguGMyF6RAxoYPcQ&oh=00_AflGFCAhW7WraHTjPZc2pwcNpUmHF_mPiTxxUDrzz-gs8g&oe=694BDF13)
 
 You can see the following data for your test:
 

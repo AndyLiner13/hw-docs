@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playanim
 
 # PlayAnimationLocomotionOptions type
 
-The options for the [Player.playAvatarAnimationLocomotion()](/hw-docs/Reference/core/Classes/Player.md) method.
+The options for the [Player.playAvatarAnimationLocomotion()](/hw-docs/Reference/core/Classes/Player.md#playavataranimationlocomotion) method.
 
 ## Signature
 

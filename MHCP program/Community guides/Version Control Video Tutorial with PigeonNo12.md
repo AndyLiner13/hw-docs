@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # Version Control Video Tutorial with PigeonNo12
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453528678_8721657244517529_5214271437231748372_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=qh212w2sOYgQ7kNvwEQGD9H&_nc_oc=AdkFtu6s2L68NlOXA5iocUkxxE5BxZJsHmgppHmysxaHFnll62ePYIFrXAqvwXDr_uc&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_AfiQCK7gUXVOygO-ERpkhqbnsg5DD3Re-k1aqdxkt3Mfcw&oe=6931E6A0)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453528678_8721657244517529_5214271437231748372_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=LGrpFKOrXK8Q7kNvwHdvjO7&_nc_oc=AdlnG7eEeTwFaUMXkM68u5a5zKS1J5pjnbkJ55sn-AAIra7Ui5HP0jKLjJe-Rf4LfG4&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_AfkmjezhjPVFx_DBm20es6i3sTQegM7YMIK3g5xjQ1Fdhw&oe=693764E0)
 
 If you’re coding in TypeScript, Version Control is crucial to properly track edits, manage versioning, access code backups, and more.
 
@@ -102,8 +102,8 @@ After successfully installing Git on your machine, no additional steps are requi
 Visual Studio Code provides easy integration of Source Control in your TypeScript projects. To initialize a repository simply follow the steps below:
 
 - In Visual Code Studio, navigate to the “View” menu. From there, select the “Source Control” option to begin the process.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452995707_512537577950865_8390463397834706074_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=SFf5QqDaz6MQ7kNvwHKfCMh&_nc_oc=AdnieqMrp2SchyPk-Bbu4atHo0uRsLMYMcIBesir0Q_EDybCIqZSTzZ32RiziAWwRps&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_Afh12Rd-1FAJ8paNFRLa9vPuirMFn8z3Ybm1wDhnFA8BOA&oe=694652A1)
-- Once in the “Source Control” tab, click on the “Initialize Repository” button. Git will then detect all files in your project and display them for your review. You can then stage the files you want to include in your repository by selecting them. Staging files prepares them for commitment to your backup or source control repository. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000757_512537447950878_4010954102108811180_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=EDZLIZby0IgQ7kNvwGiYZce&_nc_oc=AdkyxhO3TMLPmmYoBLV9UPtyLRCz-gt1p4O7KJzMF85eJx0jK4iyFx7EnNWtv5MAKn4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_Afh-q8ZrlrwI0HSU8gh_smb0opWp6VxSxEgsGLE6t0UPog&oe=69465618)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452635830_512537441284212_5829106462267404284_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=O7soZJnDGRoQ7kNvwErQmOq&_nc_oc=AdnxlLfh9kaDSDaVnzMqqd3tA-AI4FzEglVuDjkLH4ec56VCOVDCENvPli9rp48_g08&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_Afis4cB9zk1WoEYS02cKLUmZDmfCwEXIXHKTA0toVVgRLg&oe=69464E14)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452995707_512537577950865_8390463397834706074_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Bo7FZuGOLJsQ7kNvwEeiVnU&_nc_oc=AdlXu1c26QgCuUP4t3b8PB0NefRLlcr1jyWbuc1rhGpMmEQkj0rWzIhyxHoxYBxlNGM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_AflGUPzZ4tx08Y-8QJxxfKJfg7uI-0q1e9j9aoLQCliu9g&oe=694BD0E1)
+- Once in the “Source Control” tab, click on the “Initialize Repository” button. Git will then detect all files in your project and display them for your review. You can then stage the files you want to include in your repository by selecting them. Staging files prepares them for commitment to your backup or source control repository. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000757_512537447950878_4010954102108811180_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=cRAoxDRifGEQ7kNvwEgJcK2&_nc_oc=Adkxfdx7scGFZMLx41BFgL83I1PUKO8QxLwTsRD7rCXftZXcHGXyIeXAWrKriq05iD8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_Afny6oaz_haz9khP-VKOERWe0qGdGtvuxLvgfNQ6BF9H9A&oe=694BD458)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452635830_512537441284212_5829106462267404284_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=TtxQReODM-oQ7kNvwGm3ISd&_nc_oc=Adnv4XJ6w9J-idY2NjVoDl85UWFTye_mrxlfTs2WFBM5IG1Io8LYdlxdN2b_dJ-f7qg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_Afn1NJ5tYP-DxsRXIOxt0LliMdErXuvweBXvxS8eEkEbDQ&oe=694BCC54)
 
 ## Staging a Change
 
@@ -115,11 +115,11 @@ To stage a change in Visual Studio Code, click on the plus (+) sign next to the 
 
 You can repeat this process for each file individually, or if you want to stage all files within the repository at once, you can click on the plus (+) sign next to the header that says “Changes.” This will move all files to the “Staged Changes” section of the panel.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452677911_512537494617540_6078825956406230297_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=fKRaBK1HfUwQ7kNvwHnIEw2&_nc_oc=AdlRjRcxOG8ai_RwdAj2FJ9kUsCgM9DhW67J8E09OE6UVGssbYKgGk21rlwZYwnWLgc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_AfiVqq3VyII_Li21SDVMl3Jhrlg5W--Pi-4XVU_fEiojqA&oe=69462FD9)![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452845714_512537514617538_6658451868732766575_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=XxdwW6tUAiIQ7kNvwFDC9Wd&_nc_oc=AdkusI-7YJwIwsvI8j_fDcMzm73KPMATmT4oYqtcR2S30PZeB7grLP-4Y0G-I5qm4k4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_AfiBizjaNy1iHedww-LF_GvGAJMimbOU2bqXUe6dnFYgLw&oe=694638FC)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452677911_512537494617540_6078825956406230297_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=lmK2IAkfQT8Q7kNvwEBH5QR&_nc_oc=Adl_Y-vXv48QWkICPxRmQAxrYzlLyyvsUHt7KthUgQHvN-3hQ3A73fRKnGI-J1bC27w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_AflQ3zMNrs9jmR3gDLBhqsQvogBjwZxBRibcHvcxl5K1MQ&oe=694BE659)![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452845714_512537514617538_6658451868732766575_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=_7pPH7VWFQsQ7kNvwE3HvV8&_nc_oc=AdmwNYTuqRkiOynsY8bkqUoT9yKR_rbwXLVDXdZ4NvMTrv-BuCe4imUHw_jjsWcZLu0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_AfnFQr5B4el8UctmtkaN4oaByMQOqsUVY36n0vaXl7Bg5w&oe=694BB73C)
 
 To remove the files from the staging state, select the subtraction (-) symbol next to the name of the files that you don’t want to stage. This will move the file back to the “Changes” section of the panel.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452916333_512537431284213_6812551739992151224_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=7mdR0c995HwQ7kNvwFnQeYx&_nc_oc=Adlz1VLQckrISQMGvMPgmuF5B1exCuRgTPYTpe_J4EXxp9ARMJDiSoi8GaLkl0LnX4w&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_AfjitFgfYbKSaxJMtXmdx4i0keURdtggt9_UmFH71wbaXg&oe=69466133)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452916333_512537431284213_6812551739992151224_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=fq86oclXUFMQ7kNvwGY8ydt&_nc_oc=Adm4aUgXkgDgRS5Rt2U9cok7-oeqtEHzMYTGwd0LW13bI9d8VFgVK3Vb2vBxDyx2GRk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_Afk1u1YURjZJV6-mnQuZMu41AIUkZ4Zn8YhegfOGt4UQPw&oe=694BDF73)
 
 ## Committing a Change
 
@@ -129,7 +129,7 @@ When you commit a change in source control, you’re saving the changes you’ve
 
 To commit a change in Visual Studio Code, enter a brief description of the changes that you are saving in the field that says “Message” above the “Commit” button. Then, select “Commit” to save the changes.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452714379_512537571284199_8935988249060385698_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=PE3IdERuyrUQ7kNvwH_MPPt&_nc_oc=AdmrsYPK9Kuql04SbA2xiVVDLdY8vr3jFNLwtZiQKBn_by-y-s0qrOSsOf3bn8WyOSc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_AfhD4coKqTuML8uJA-5xqjvBuRfatA2iITPcq47Kk9kc5Q&oe=69464515)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452714379_512537571284199_8935988249060385698_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Mv5vi1OzRZYQ7kNvwF64JH4&_nc_oc=AdltoWtIVjS6oBzLOKh-ufECeemgI5FKyo9zlhdPQAFwCcNZE465KaEArG22nNI2im4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_AflRjXeipJkxhTJTiyUgguriPedlR1pwyTPBwVaUgQ6Fqw&oe=694BC355)
 
 ## Comparing and Restoring Versions
 
@@ -139,7 +139,7 @@ The importance of source control is the ability to revert to a prior state of yo
 
 Go to the “View” menu and select “Explorer,” or click the icon that looks like a sheet of paper on the left side of the panel.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452588229_512537491284207_1788830861911557850_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=BgomzeQ_UCYQ7kNvwHdinlz&_nc_oc=AdngVeX0DRIzNlARhLbSuGnujRPkgja1UasOOAIi8_oucup1ri5pIVeF19d5BICeV1U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_AfiKLLdUxIYfL0ImVugTrH7D8P0PXUMagKU36PoxsaKGaQ&oe=694630AA)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452588229_512537491284207_1788830861911557850_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=_tefudp8T58Q7kNvwEfnDWo&_nc_oc=AdkMrw83bi8vMnfvkDZoD4I6KXQK32_KfHHVHGnJZZpEA8YJggzRR7PknQsK9hsQCRo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_AflU__wUFIQevpIWQ0ERpmwR93KvwEjXZUnWj_jlJINDpA&oe=694BE72A)
 
 ## Comparing Versions
 
@@ -150,7 +150,7 @@ To compare a file to a previous version in Visual Studio Code (VSC), follow thes
 - Each commit is displayed with its associated comment, helping you identify specific versions.
 - When you select a checkpoint, VSC displays the changes made at that point. Additions to the code are highlighted in green, while deletions are marked in red.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452875322_512537487950874_5027238636395676812_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=SLJAIex9WjUQ7kNvwHW8CCc&_nc_oc=AdkXyhetEgEJuks0pNYhgI6EfMASOgZ2RzyF1ONAHppBnpMRD1P60FQ1zDGX4TCvU18&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QSqC73Kr2QFJIJ-BjicubA&oh=00_AfiCZu-Hrq6K1LiElkAOcD7JSzmCkwLBh8QgywEvm-7LXg&oe=6946540E)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452875322_512537487950874_5027238636395676812_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=0ctBMsTLjGIQ7kNvwFsQOj4&_nc_oc=AdlUi8mXpDptOXO7_D6b1GYvnfWe6EUzg4PzdDJC6e_fiKJkWk3uzhTR3obHku6mlA8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=XFX0kbZnQ4P33-cN7lOdYQ&oh=00_AfldcZhunCyiTiAAqaEQp7yOH1p-shq62Hzh0RUV7G4q-Q&oe=694BD24E)
 
 ## Restoring Versions
 

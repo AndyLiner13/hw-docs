@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-mo
 
 # Connect '23 Video Series: Custom Model Worlds
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/452708692_1149690456297344_1969823008859737533_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=tMTy_3C-xykQ7kNvwFVO307&_nc_oc=Adl2s8yQm212W_gIRA4AtKZuBqtA24XZ1DRoJzxAVYnShGB1e6ZNXM9---XsUH8Pemc&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=xYug1w49fidbZM04aH8ObA&oh=00_AfjrjpcfPl0kAdeAGa-W6arN0q-gGlpZvFPS86Zw3BM8Tg&oe=691CB239)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/452708692_1149690456297344_1969823008859737533_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=GEe5uiNyM3EQ7kNvwG0C5kY&_nc_oc=AdnpX-VkdKFYG0FSz_OZXJ6xEGY5LuPD7ZluTkaOT5ikFJj5CxSLo2fv5VjDqEJ4yf0&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=Vl95gAXX61qOvdEoEYWlxw&oh=00_AfljaGaRUpiqEeWWGnyUyk3q4VnAM2eJb8Grp09ICPzY0g&oe=69374879)
 
 Many things are better when they’re custom-built! “Custom Model Worlds” with Horizon Creation Art Lead, Barrett Meeker will guide you through the finer points of the complex process of creating, animating, ingesting, placing, and scripting assets in Worlds— all while learning more about new tools.
 

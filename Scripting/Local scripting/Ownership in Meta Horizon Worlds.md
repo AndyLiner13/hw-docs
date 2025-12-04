@@ -45,7 +45,7 @@ Scripts have an execution mode property that specifies whether the script can ru
 * The script will run on the client that owns the entity that the script component is attached to.
 * You must select this execution mode.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532429_512524664618823_2690924150930112816_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=EkqGeHvLSVAQ7kNvwGNCjeG&_nc_oc=Admg2VdxZizFVzJ0nJMv_q8RBKbYrA_UfrEOjlTwC6wgFDEuI5PqacwtxkPSA2lLjzE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=oJjm1RpgNXmQEkPvdgJxtw&oh=00_AfhDuN3b3tShB6tJ2BlUw5UWoi0tF-bwvrtWPikuOalVpw&oe=693115B3)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532429_512524664618823_2690924150930112816_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qndMR9RMCTYQ7kNvwE0X9mr&_nc_oc=AdmkOxbKR5MJETBTmDjpjuNqdoVFJMUpYYPLzCxFT1u2HXRTmSuHXjiA3AzmfAYWuVs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kcc3LejV6alPJm40xynQaA&oh=00_AflsrXNGUq74F7uGPToouBRsBXW3IfbD9W4KEHrtU2xZvw&oe=694BE433)
 
 **Note** : Entity ownership is its own construct, separate from scripting. Local execution uses this property to determine which client a script runs on (it’s always the client that owns the entity that a script component is attached to).
 
@@ -55,7 +55,7 @@ Transferring ownership of an entity is about maintaining the source of truth for
 
 In regard to scripting, you can think of entity ownership transfer as a way of reducing latency. It does this by having a script run on the local client so that state changes to its associated entity occur immediately on that client.
 
-**Note:** When ownership transfers, state details are actually lost. The script shuts down on the old owner client, and then restarts on the new owner client. So you must package the state data and repopulate the properties, which are on the same entity. For details, see [Ownership transfer between clients](#ownership-transfer-between-clients).
+**Note:** When ownership transfers, state details are actually lost. The script shuts down on the old owner client, and then restarts on the new owner client. So you must package the state data and repopulate the properties, which are on the same entity. For details, see [Ownership transfer between clients](/hw-docs/Scripting/Local%20scripting/Ownership%20in%20Meta%20Horizon%20Worlds.md#ownership-transfer-between-clients).
 
 ## Automatic ownership transfer
 
@@ -73,14 +73,14 @@ this.entity.owner.set(player);
 
 ## Ownership transfer between clients
 
-The following list shows the order of operations involved in an ownership transfer. Assume that calls are made on a script component called MyScriptComponent, and that ClientA and ClientB are of type [`Player`](/hw-docs/Reference/core/Classes/Player.md).
+The following list shows the order of operations involved in an ownership transfer. Assume that calls are made on a script component called MyScriptComponent, and that ClientA and ClientB are of type [`Player`](https://horizon.meta.com/resources/scripting-api/core.player.md/?api_version=2.0.0).
 
 - **ClientA** calls `this.entity.owner.set(clientB);`. This triggers a manual transfer of ownership from ClientA to ClientB.
-- **ClientA** calls [`transferOwnership()`](/hw-docs/Reference/core/Abstract Classes/Component.md). You can implement this optional method in your script to return state details that are sent to the instance of the script component that will run on ClientB.
-- **ClientA** calls [`dispose()`](/hw-docs/Reference/core/Abstract Classes/Component.md). All of your cleanup details are run in the script.
+- **ClientA** calls [`transferOwnership()`](https://horizon.meta.com/resources/scripting-api/core.component.transferownership.md/?api_version=2.0.0). You can implement this optional method in your script to return state details that are sent to the instance of the script component that will run on ClientB.
+- **ClientA** calls [`dispose()`](https://horizon.meta.com/resources/scripting-api/core.component.dispose.md/?api_version=2.0.0). All of your cleanup details are run in the script.
 - **ClientB** creates a new instance of **MyScriptComponent**.
-- **ClientB** calls [`start()`](/hw-docs/Reference/core/Abstract Classes/Component.md).
-- **ClientB** calls [`receiveOwnership()`](/hw-docs/Reference/core/Abstract Classes/Component.md). All of the states that you send from ClientA are received by ClientB. You can use it to persist state between clients.
+- **ClientB** calls [`start()`](https://horizon.meta.com/resources/scripting-api/core.component.start.md/?api_version=2.0.0).
+- **ClientB** calls [`receiveOwnership()`](https://horizon.meta.com/resources/scripting-api/core.component.receiveownership.md/?api_version=2.0.0). All of the states that you send from ClientA are received by ClientB. You can use it to persist state between clients.
 
 ## When to prevent ownership transfer
 

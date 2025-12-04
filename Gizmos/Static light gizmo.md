@@ -8,21 +8,21 @@ The following image shows the static light gizmo, the red cube, lighting an obje
 
 **Note**: An [environment gizmo](/hw-docs/Gizmos/Environment%20gizmo.md) is added to the world where a night skydome is applied.
 
-![The static light gizmo lighting an object in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505590096_738224345382186_9005774872030246077_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xs4xVWDl1kYQ7kNvwGNAqDq&_nc_oc=AdnNXJaEfzdddlx-NEV_5jkYJAmOtGCEu97DeZYGD2Uymy3GgV3ed8nb4qMAzxnFFhQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=tammE79RbOaqHaOYLQySLg&oh=00_AfhgVJJGXXG9Y0Gdi1KT90nBNa_wR3Qcnz02rBHaEdk4JA&oe=69311B2E)
+![The static light gizmo lighting an object in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505590096_738224345382186_9005774872030246077_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=F3ZX_estW7MQ7kNvwESLNfb&_nc_oc=AdmAI5AeQK8ewP1wAwa3n8xg6MwpqzhVEzULmfbFSN4rAT6rcda8GDNYPxVxfPnLnAQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wrQY7n-atapHfPIy0SC4OQ&oh=00_Afl5AY4CNOPVCcJDa1eWjNumQxtoux3VYlyLAmd1u2s9PA&oe=694BE9AE)
 
 The following image shows the same static light gizmo lighting an object in the [Preview mode](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md).
 
 **Note**: The geometry of the light, the red cube, is hidden in the Preview mode.
 
-![The static light gizmo lighting an object in the Preview mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505424288_738224342048853_1656212214900149301_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=9_qZh8Hpkl8Q7kNvwErZfHz&_nc_oc=Adnw4YzfdtMKbbCn_incgQt1l49OjHuO6xhdiM1u7J9WMibk9WrXa766D16BlymEie4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=tammE79RbOaqHaOYLQySLg&oh=00_AfiF4laxKlpSX8tljodfNcDJ9-sds9QAPdhrBMcH567w7w&oe=693113B6)
+![The static light gizmo lighting an object in the Preview mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505424288_738224342048853_1656212214900149301_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=0Wr5Ye6iTa8Q7kNvwE2Srkw&_nc_oc=Adk-myqRxezgIlhzvf0p5BfBnxtg-IV-x33t1fbEw1eS9vTczyOa_bQyfSas99YIwMM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wrQY7n-atapHfPIy0SC4OQ&oh=00_Afmr0E92mY_huJw67WhpCmYALxdTRcdOJ7ZGVRTNkZJ1Hw&oe=694BE236)
 
 ## Access the static light gizmo
 
-While you can access and configure the static light gizmos in the [VR tool](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/user-guides/static-light-gizmos-user-guide), the following steps show you how to access the static light gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-panel).
+While you can access and configure the static light gizmos in the [VR tool](/hw-docs/Gizmos/Static%20light%20gizmo.md), the following steps show you how to access the static light gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “static” in the search field.
 - Select the static light gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
+- You can now edit the new gizmo properties in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
 ## Properties
 
@@ -42,5 +42,5 @@ For more information on the static light gizmo properties, see the [MHCP creator
 
 Now that you’ve been introduced to the static light gizmo, continue your learning with hands-on tutorials, and more related developer guides:
 
-* [Static light gizmos user guide](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/user-guides/static-light-gizmos-user-guide)
+* [Static light gizmos user guide](/hw-docs/Gizmos/Static%20light%20gizmo.md)
 * [Meta Horizon Creator Program’s creator manual on the static light gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#static-light-gizmo)

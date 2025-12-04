@@ -6,7 +6,7 @@ The Floating Text Manager system can be used to display floating text elements i
 
 **Note**: The ammo counter displayed over the guns is a simple Text gizmo.
 
-![Image of floating text above pistol](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467692849_593923059812316_2906969913953464649_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=1bhKHl8ZstsQ7kNvwEDyqGp&_nc_oc=AdkR7SiQUPGqLGanQ7Hg2gCi-thBTZzVOCt-8kPaCLE9w5sNRKgt8b3TujM4ABV1CmU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=8TSW8uodlVFF-fo2uFSb2g&oh=00_AfgAgKbQd_Ew2qTndd82qtGgF7mn1asgwxFyGXXyr3ahVQ&oe=69465706)
+![Image of floating text above pistol](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467692849_593923059812316_2906969913953464649_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=KDYWNMzJAmQQ7kNvwErvVh4&_nc_oc=AdlReLOvjUNcIxmndGfyzJmZ9HQkYpWAsEyyGh2H3ZA88SHy3dUlfjYc1xA_v842avc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=F6ejt268pM68t1z6kUT7Hw&oh=00_AfmZFT9A7FNRWhvrTNMNxe1na_-G74qCpGkhINGyHhMGcg&oe=694BD546)
 
 Floating Text Manager is composed of two scripts and a predefined Text Gizmo asset, which is spawned in whenever a piece of floating text is required.
 
@@ -76,7 +76,7 @@ In Chop ‘N Pop: Graveyard Bash, the FloatingTextManager script property for fl
 - Create an asset out of your configured Text gizmo.
 - In `FloatingTextManager.ts` properties, select this asset for the floatingTextAsset property.
 
-For more information, see “Deploying Systems” in [Module 1 - Setup](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
+For more information, see “Deploying Systems” in [Module 1 - Setup](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md).
 
 ## How to Use
 

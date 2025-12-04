@@ -2,24 +2,24 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 # Introduction to creating worlds for mobile
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461801121_558937499977539_1061214547025883489_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZEd-grNstzgQ7kNvwHBMNK7&_nc_oc=Adlgyj4l2KGQIKq-6_t6BzAlUp-dsoHmmpF7ExnW71iKPIc-JiKTy1EENOWlhG-mdBw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=peMrchG3VC3oidfjYp7NLg&oh=00_Afjsvft93Wt5mgCoxEihR5MHm9TALgZ8HcP32D4TWsZ2gw&oe=69314698)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461801121_558937499977539_1061214547025883489_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=pcg1XBe1OrkQ7kNvwHRm6Ak&_nc_oc=AdlpMDIv7av7JFlpcKKE3bKfrBTYshqW-vZUmeBGTKWLdKO-kRLFlacVib7BzqvyHKk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RNA3_L4ZViDsLGtziNu3Lw&oh=00_AfkgzIMDhsaKydS0qbt8JO_up_RYhVxOcgIDDuQYSWbO-Q&oe=694BDCD8)
 
 Making your worlds available on mobile and web enables users to access worlds from any device and as a result, can unlock broader reach for your published worlds on Meta Horizon Worlds.
 
 The best way to ensure your worlds show up in discovery surfaces to reach wider audiences is to optimize worlds for mobile. Some key things to consider:
 
 * Ensure your world’s core functionality works on mobile. You can implement device-specific functionality using Code Blocks with [per platform scripting](/hw-docs/VR%20tools/Scripting/Per%20Platform%20Scripting.md).
-* Ensure all text in the world is legible on mobile. You can [configure the camera](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/tools-for-creating-worlds-for-mobile/player-camera), make [screen-based UI](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/tools-for-creating-worlds-for-mobile/screen-based-ui), or use VFX, sounds and level geometry to communicate essential information.
+* Ensure all text in the world is legible on mobile. You can [configure the camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md), make [screen-based UI](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md), or use VFX, sounds and level geometry to communicate essential information.
 * Consider portrait orientation support: In order to enable portrait orientation for your world you need to [configure camera settings for different orientations](/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) and use the [Portrait Camera API](/hw-docs/Scripting/API%20references%20and%20examples/Portrait%20Camera%20API.md) for orientation detection.
 * Set up grabbable entities so a player’s avatar holds objects in a natural and usable way. Learn how to [create grabbable entities for web and mobile players in Meta Horizon Worlds](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Grabbable%20Entities%20On%20Mobile%20And%20Web.md).
 
 ## Start creating worlds for mobile now
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/559190943_833836049154348_1338189310288348086_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=h9BiO9UAn1wQ7kNvwGTj_xm&_nc_oc=AdlZ7iwY6_XuPbmIzlp72yD-KYcUY-25Bz_YJ_V58-8QudjAJrOHmixR0bM853QzxoA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=peMrchG3VC3oidfjYp7NLg&oh=00_Afgg9RuuK2DovkvWwCrCNMLLMoMhp1cjePgN92w7kOlCkA&oe=69311705)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/559190943_833836049154348_1338189310288348086_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=pKB4Kb6uA0AQ7kNvwGwseIq&_nc_oc=AdkA9smMPlFl1wbwfW1q9xr8MPhJXtjttzc19UX3XzprMIWNCNHwF30fZiKQqgB4bbc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RNA3_L4ZViDsLGtziNu3Lw&oh=00_Afn29KsGJaxD25WzfmLWVzVGADhGxz5v6LzDwinpDzBR2Q&oe=694BE585)
 
 Creating worlds for mobile is the same as creating worlds for VR. You use the VR editor to build your world, adding Code Blocks and functionality as desired, and then publish the world. All published worlds in Meta Horizon Worlds are available to play in the Meta Horizon App on mobile and on [horizon.meta.com](https://horizon.meta.com/) in the browser by default.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/460553022_547780904426532_3533426530060538066_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=fETyk6kh5GAQ7kNvwFBZVB9&_nc_oc=AdkmCq3dzijn89DMXG70pJ08AE-wS4IoMCFL_2VTUAb_f2AtCOvzVtQZPlQKMrZEwQo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=peMrchG3VC3oidfjYp7NLg&oh=00_Afh-r6QBs2GHTBIAAz4mPlFRfoGe97vzFz_dwYtfB5y6aw&oe=69311C0F)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/460553022_547780904426532_3533426530060538066_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=Vu_nzp9GzTQQ7kNvwFTG3je&_nc_oc=AdnNQh-kt0LRZYGw8gbKk99C9bBryR7zGR9-XFccLSTvU7C_46x8PXRKelmn8hFZF5g&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=RNA3_L4ZViDsLGtziNu3Lw&oh=00_AfmutJrPxkPPF6Lxbb7FQLglpb-lkt71WX_5vpPfJrsQKw&oe=694BEA8F)
 
 ## Testing you world on mobile and web
 

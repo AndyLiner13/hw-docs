@@ -8,7 +8,7 @@ Encouraging users to transition enables them to access richer content, participa
 
 This feature allows creators to **influence time spent and user retention** in their worlds by **rewarding users who switch to the Horizon app**. Horizon app users have better return rates because they experience a consistent entry point, better visibility of metaverse offerings, and Horizon-focused social features.
 
-![App migration upgrade offer UI](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/582202036_865015572703062_7049078428565750275_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=ubJbyg7HJAYQ7kNvwFcGb9A&_nc_oc=AdmqkE-9LFdsLPjIvznCgVNcT9IHbIs3Nb6xxYhceRJQCyNIj0dr9Wm43c7xJr_0eMM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=U_xFfgM-5-xjlnzh8nALxQ&oh=00_AfgXtvM2bcogsT26Ofqqq4F5BApYX50kTY6VoxL33FWp7g&oe=6931CCF1)
+![App migration upgrade offer UI](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/582202036_865015572703062_7049078428565750275_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=TvoXh5nmRCYQ7kNvwFAWTv5&_nc_oc=AdnRQvmQMMggtnQvKWypEKQvOPfa2UV-52ugth6EKpYfAfTpSJUYh0xRCmIrjIT2Igc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z-Htp9x-hr3ARjKjJFEfLA&oh=00_AfmbQsuFzdqlRt_IWYCLRytEoRoBoJCi9CjbAWvCKIXKPw&oe=694BBA71)
 
 ### Feature eligibility
 
@@ -51,7 +51,7 @@ Some advice on what and when to offer migration to a new user.
 - **Be creative.**
   The rewards and manner in which you present app migration to visitors is completely up to you. Rather than using a 2D UI panel with buttons, you could use in-world text and trigger volumes.
 
-![Welcome back rewards claim screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581715000_865015569369729_7470897419061814929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=WFG8DuLRhrIQ7kNvwHgiLhP&_nc_oc=AdnRISmzdbI3-7hhsB7WNrty2v80gz3LtZ1qy0WJzc6pQi75NqWqfpOfQAOdPduCboU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=U_xFfgM-5-xjlnzh8nALxQ&oh=00_AfhEsiCysGCbLCVl3fSM7oZc2Bnno4xKlaYGHm7EAJW57A&oe=6931E7DF)
+![Welcome back rewards claim screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581715000_865015569369729_7470897419061814929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=n9ih1CYr2JoQ7kNvwF8e5qz&_nc_oc=AdkGrnHip1uWv7XvRU78S86d0_adTisR2rjWblR8wVCHgr8ubAsNnWkQ9gLQkcJlgUY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z-Htp9x-hr3ARjKjJFEfLA&oh=00_Afng0LyfJFR5Q4RnO6JoBqCbK0inkT8ZIMiRrcrH_xEjJw&oe=694BD55F)
 
 ## Enabling the Migration Module
 
@@ -59,7 +59,7 @@ Some advice on what and when to offer migration to a new user.
 - Click the cog icon to open **Script Settings**.
 - Navigate to the **API** section and enable `horizon/migration`.
 
-![API Settings (808x412px)](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/571286590_850327374171882_228439192796093506_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=t7VD4OX9b2kQ7kNvwEDOTDw&_nc_oc=AdkVcEAKifVLv8SYzvxCClJf8coLkAU4Wl6eKNGqN40gBjZTl4KvxJZkurgr-2dEQgU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=U_xFfgM-5-xjlnzh8nALxQ&oh=00_AfgRVzZQgJYJujfZhJsSnYfMHKQ4W7XjPTr-kR1Vi9oMCw&oe=6931E52F)
+![API Settings (808x412px)](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/571286590_850327374171882_228439192796093506_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=7413S4Yy1AsQ7kNvwGFLaYT&_nc_oc=AdkC93tOw491bcEssvi-M_FjaZ3Pc6CqYVXV3_4lmfadt6T7K4ORGYxMHkcyfhVpZrI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z-Htp9x-hr3ARjKjJFEfLA&oh=00_AflB8Eps71vmML3NfLntvOGfgLvUgn_7MpZnJzpsY8TTXg&oe=694BD2AF)
 
 ## Setup
 

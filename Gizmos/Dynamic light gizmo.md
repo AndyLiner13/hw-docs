@@ -6,7 +6,7 @@ The dynamic light [gizmo](/hw-docs/Gizmos/About%20gizmos.md) allows creators to 
 
 The following image is taken from the [tutorial world](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md) called [Economy world](/hw-docs/Tutorials/Economy%20world%20tutorial/Module%203%20-%20Configuring%20Gameplay%20Entities.md) where the dynamic light gizmos are at work. The dynamic light is used to draw attention to the apple.
 
-![An screenshot of the dynamic light gizmo at work](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/505443192_738224338715520_974421412205283361_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ve4nmZZDSmUQ7kNvwHB8qA_&_nc_oc=AdlLeD8iC6tGPOfUkvsq9gpMVK58RyCYRP5qWOMI4s9NyfjIJTEupIP9zMT0vp6fe6I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=tLeDI6UxIvAuDkRd73op5A&oh=00_AfiUw-efkgvENTVxuzqqv9BS-BE6mLLZ7p6-EtRMPcm0xg&oe=6931396A)
+![An screenshot of the dynamic light gizmo at work](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/505443192_738224338715520_974421412205283361_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=MswRaIDh51QQ7kNvwFwWye8&_nc_oc=AdkqAKLHLt6xo5VM-cZmZtdDfUakKpQW7pbpFbXJhi1cmtwJNuZ2Qrt05ufe7ZmFH44&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JfWuIMsWtg50a_nYL4quzg&oh=00_Aflf7gv9B-KRkCu-_xFs0JKxBKbcU1YsN8HSKHoagCOh_A&oe=694BCFAA)
 
 ## Limitations
 
@@ -18,7 +18,7 @@ While you can access and use gizmos in the [VR tool](/hw-docs/VR%20tools/Getting
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “dynamic light” in the search field.
 - Select the dynamic light gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [**Properties** panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
+- You can now edit the new gizmo properties in the [**Properties** panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
 ## Properties
 

@@ -25,7 +25,7 @@ sendEvent = new LocalEvent<{message: String}>('sendEvent');
 
 ## Sending local events
 
-To send local events, use the [Component.sendLocalEvent](/hw-docs/Reference/core/Abstract%20Classes/Component.md) function.
+To send local events, use the [Component.sendLocalEvent](/hw-docs/Reference/core/Abstract%20Classes/Component.md#sendlocalevent) function.
 
 Parameters:
 
@@ -35,7 +35,7 @@ Parameters:
 
 ## Subscribing to local events
 
-To receive local events, use the [Component.connectLocalEvent](/hw-docs/Reference/core/Abstract%20Classes/Component.md) function.
+To receive local events, use the [Component.connectLocalEvent](/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectlocalevent) function.
 
 Parameters:
 

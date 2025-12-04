@@ -15,7 +15,7 @@ Please complete the following steps to create a copy of a tutorial.
 - Select the development environment where you wish to create your tutorial.
 - In the Creation Home screen, click the **Tutorials option** in the left nav bar.
 - Select the world of interest.
-  ![Select World](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486646646_681803097690978_4056229082749550078_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=4V1qgNloYFoQ7kNvwEdYHWW&_nc_oc=AdnWSY5vBIM5r4mEfyJEh1QmSp0vdsr4q0SzZi9NA0qnyhrdPpFynzhiMBREl9vqWXA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QFdl4cX_4IcP7BIxrtFIUQ&oh=00_Afhnys7ofBlp04F2ww4EaaiUr6OkMCh0JooyKZa4FShG3g&oe=6946624F)
+  ![Select World](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486646646_681803097690978_4056229082749550078_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=dzHyub5FqT4Q7kNvwEm_mSm&_nc_oc=AdmXj6AT1hD3PQ0WfKmnzLqsJ9KLaSHWkoNAoibpdefX1-gBcOi_KMsJ7ZuetQ_c5DY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vK2emAYvfrbI2ckx6On_4g&oh=00_AfngyLDjhDsxBHtseGkCBsD04w-BBFjeaY6R2J0aByfXug&oe=694BE08F)
 - The companion documentation for the world is opened for you.
 - A copy of the world is created, with you as the owner.
 
@@ -23,7 +23,7 @@ Please complete the following steps to create a copy of a tutorial.
 
 - Go to the Create menu in your headset and click the **Tutorials tab**.
 - Select the world of interest and click **Start**.
-  ![Tutorial Worlds](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908913_512500614621228_5666679600029672920_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=wCFrHAS1sSUQ7kNvwEFDDcC&_nc_oc=Adm13uGHgqL-DAH_QuRgGEsS4AUTigDQwH7v493-yZMLeSDHFKEwbVIlDB1UROetyeo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QFdl4cX_4IcP7BIxrtFIUQ&oh=00_AfhFCT_BJgWw2FuugItBlT-pLZzAT-4Zcu0qNG2VWAqZuw&oe=694659B2)
+  ![Tutorial Worlds](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908913_512500614621228_5666679600029672920_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=TU0CMurVzgMQ7kNvwFBNkp_&_nc_oc=Adl1AkJU94uUjAcnSmja3mDhrokGg6g1-oAgUcZQvD7TKzZ80YnFFmsx2LWloJ1DDOY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=vK2emAYvfrbI2ckx6On_4g&oh=00_AfmWWW8b3nfXpP1qPy0G6m5vDfTbGv2F2fJLdpUp7s7xIQ&oe=694BD7F2)
 
 ## Rename world
 

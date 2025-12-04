@@ -6,15 +6,15 @@ Quests refer to a set of tasks that players can complete to earn rewards. These 
 
 In Worlds, [quests](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests%20Overview.md) is the global system that’s used to create and manage a set of objectives or tasks in a world. The feature provides a way for creators to define the objectives, rewards, and rules for completing quests. The quests system uses [persistent variables](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to manage objectives or tasks as they allow creators to store and maintain data across player sessions.
 
-The quest [gizmo](/hw-docs/Gizmos/About%20gizmos.md) is a helper tool that creators use to display a list of achievable tasks and track user progress towards completing these tasks. The quests gizmo, the visual display panel, is linked to quests you set up in [**Systems**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md) from the menu bar.
+The quest [gizmo](/hw-docs/Gizmos/About%20gizmos.md) is a helper tool that creators use to display a list of achievable tasks and track user progress towards completing these tasks. The quests gizmo, the visual display panel, is linked to quests you set up in [**Systems**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md#systems-tools-menu) from the menu bar.
 
 ## Access the quests gizmo
 
-While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the quests gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-panel).
+While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the quests gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “quests” in the search field.
 - Select the quests gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
+- You can now edit the new gizmo properties in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
 ## Properties
 

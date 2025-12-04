@@ -10,7 +10,7 @@ Remix Worlds is a feature in Horizon that allows creators to make their worlds c
 
 Remixable worlds can be found on the **Creation Home** page of the Horizon editor in the **Worlds to remix** section. Any worlds on this carousel have been carefully selected as ideal starting places for a creator looking to begin the creation process from a remixed world.
 
-![Remix worlds examples in Creator Home](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/528549719_783603937510893_4777268550037477036_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=-6yfyTpe-MAQ7kNvwEyB3am&_nc_oc=AdlX9gHZYP4WaI95q6OvD0u9ruSLvWv2aj6We4HPaFxne-8mknXkeZ5HpqE0I5c0Vd8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=xupGTwUukHt0POyxZDuFfw&oh=00_AfjTI3gu2RQXulQMY1aoYt2lVJRP1JLYW9GfA-sFv9tRZw&oe=6931248A)
+![Remix worlds examples in Creator Home](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/528549719_783603937510893_4777268550037477036_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=8lbutbEKL2cQ7kNvwFBz64G&_nc_oc=AdmGgbJ6I0XklDE03YgG-rl9Zcta242JhM3UlxwFblgmX2ZP6ZXb-uBmXeELAsTVtBc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=uiHLNbCGSkLuq5v3t50Unw&oh=00_Afk9mLGtOQL_YFvWlUoqO_S65GNIJ6PR9yHfZVb-UpkSTQ&oe=694BBACA)
 
 Click **See all** to view all the currently available remixable worlds on the **Creation Home** page.
 
@@ -18,7 +18,7 @@ You can view details about the world by selecting the three-dot menu and selecti
 
 You can also view a remixable world that is shared with you via a URL. You will be informed about the ability to remix a world on the linked world’s detail page.
 
-![URL linked remixable world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528710227_783603944177559_391350981753533319_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=-GOnKZ0bsBMQ7kNvwGKipFH&_nc_oc=AdmkKpMR2FHbA8pF3uVaWxyAO9tEN38WE8YCFPhUgYy2VXq39A9X0KrN3pnd4iqwj6M&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xupGTwUukHt0POyxZDuFfw&oh=00_AfjkgwXiTTZWB0-oNxt1lzxCoc7dbbbrXB1_HSaUHGgnLA&oe=69311652)
+![URL linked remixable world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528710227_783603944177559_391350981753533319_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=VGGdI6Om6uEQ7kNvwFtutov&_nc_oc=Adkabg-RLHMtPrAiMqJdwHglYphLmDMbuE_NPoLfRon681_79DzY8VVCtybSjarghjo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uiHLNbCGSkLuq5v3t50Unw&oh=00_Afnz94UE5V8SRwddCgXqBiTPy2PBdS9RLMmbNmRONv3mVg&oe=694BE4D2)
 
 Select **Remix in Editor** from the drop-down menu to begin the process of creating a new remix world from the linked world.
 
@@ -27,10 +27,10 @@ Select **Remix in Editor** from the drop-down menu to begin the process of creat
 To create a remix world, use the following process:
 
 - Select the three dot menu of a remixable world from the **Creation Home** page to view the **World details page**.
-  ![World details page](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/529238867_783603940844226_3133956990221570870_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Uhzk5GaP9zsQ7kNvwHTGSxa&_nc_oc=Adm6O50R6fEW-MBT8radViwAUKG0OPaH0N6X_jpbO7oayKOUN4EYrR1NwZ6Km9Lk_U0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xupGTwUukHt0POyxZDuFfw&oh=00_AfgXMd0xYQN0R82u90XbHveMc_BLYOla6_ON1LPDmtPOFQ&oe=69311A9F)
+  ![World details page](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/529238867_783603940844226_3133956990221570870_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=DfzgoaytAeIQ7kNvwHXmCF4&_nc_oc=AdmjvAQLm86mCm6GkiY8Wx8KPyJCe2-ZY2ru4aH7rHB-Hg_xaz1kw_qZ6DIT81KOkuo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uiHLNbCGSkLuq5v3t50Unw&oh=00_AflDpdLMWMzU0D6yp13SRzz1Zor81dFd5uKEnbcM4vZxeg&oe=694BE91F)
 - Click **Remix** to clone the selected world to begin remixing the world in the Horizon desktop editor.
 - Once open in your editor, you are free to begin updating the remixed world to create a new world.
-  ![Remixed world pop-up](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528764615_783603950844225_1949637490845819169_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=yGtGNxT_rPkQ7kNvwGkF3xM&_nc_oc=AdkOJFEVujXp_3h6qJFZ8Hj5BdtesZ86fwEb99RkUI98UXFovQQQbrNygMD_B25CuZE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xupGTwUukHt0POyxZDuFfw&oh=00_Afh-ICYiI023zG1BcvlP1tdJ0O2MiuWUAGg0uukxmFALPA&oe=69313B25)
+  ![Remixed world pop-up](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528764615_783603950844225_1949637490845819169_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=NzfjtyxSe8wQ7kNvwEydZV3&_nc_oc=AdnKYL07gM5v9zSMuY_LZ5mJPRhk_tgqEzp4spxcP_gysBD7DUenx7sh85_fm5IgkfQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uiHLNbCGSkLuq5v3t50Unw&oh=00_Afk_-yhARKkGlFo0wXrsTDBljXmEjxrVPzZauJwgII7W2Q&oe=694BD165)
 - Once your world is created, you can publish for users to enjoy in the Horizon ecosystem. Note that your world must be materially different from the original remixed world to be published.
 - Once your world is created, you can publish it for users to enjoy in the Horizon ecosystem. Note that your world must be materially different from the original remixed world to be published.
 
@@ -42,7 +42,7 @@ To set your world as remixable, use the following process:
 
 - Select **Publish world** from the top left drop-down menu in the Horizon desktop editor.
 - In the **Publish world** window, set a name for your world and a description. Then in the toggles on the right side, enable **Allow others to remix**. **Note**: You can also toggle this off after your world is published. Any worlds remixed from your world will still be visible to the Horizon community.
-  ![Publish remix world window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528798238_783603947510892_7699798875012035325_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=WUmdu4bTcZcQ7kNvwE07ktz&_nc_oc=Adkyvb4M0_OzhTqO2_K2CFmho0WRcgoSKGVGuCGiCMyj7WJViLsrohzNAwtTTZ5ULHQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xupGTwUukHt0POyxZDuFfw&oh=00_AfhnP9jFRM2bHPVQMpGs4B5eaOVlfCbWyeTceGjq5NW6_w&oe=69311D96)
+  ![Publish remix world window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528798238_783603947510892_7699798875012035325_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=h9OOdgGEgIcQ7kNvwFmpk9i&_nc_oc=AdlSd-9tTtzfHqIOPOKqhY4PiNVGcvxgLkmJ_vxU-yjMhl9Phtr5-JmhWdxs_kR9XgQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uiHLNbCGSkLuq5v3t50Unw&oh=00_AflHe22jf1sPrVclJcdBKut5V212aYow46spEJU3BsM9Ng&oe=694BB3D6)
 - Select any other options for your world to configure. Once finished, click **Publish**. Note that you must use a distinct world name when publishing a world. This helps ensure variety when enabling your world to be remixed by the Horizon community.
 - You can disable the **Allow others to remix** toggle at any time. However any remixes people have created from your world will continue to exist and will still be visible to the Horizon community.
 - You can disable the **Allow others to remix** toggle at any time. However, any clones or remixes people have created from your world will continue to exist and remain visible to the Horizon community.

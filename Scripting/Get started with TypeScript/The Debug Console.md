@@ -16,7 +16,7 @@ The Debug Console gizmo enables you to view the debug logs in a world while in p
   + Multiple Debug Consoles can be placed in a world, and all of them will receive the same logs.
   + Logs can be cleared by pressing the **Clear** button or searched by entering search terms in the search field.
 
-![The debug console as appears in VR](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/500046798_723434003527887_5773066203768188775_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=mnuXJLsHkzgQ7kNvwHHgfXM&_nc_oc=AdnkMrD6Q6onzd2p6TK_JRuJOGp_rNRlYVKPMCjwzLjkdFuQApfo6obPhLPp4G7UycE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=jf0QgNoRe2bqliFaADb3sA&oh=00_AfhbsTah1AaxgSv-1AUcS9jTO6XNYeEQ5NxIRFRty6Sqfg&oe=69311E2D)
+![The debug console as appears in VR](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/500046798_723434003527887_5773066203768188775_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Zw0CyrDJ5rwQ7kNvwHbMOLH&_nc_oc=AdlHJQ7AnAATOksB_sHuPgMX1JNjKlgMH46lKLIOTyppvE2y_4an8b6y2EtLg5-SRKg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Vy27qeEtize7W5PjhFd1zA&oh=00_Afld6OnmYekC9QY2rODoRBxXu6i98xtIebE-kwk5BEaESw&oe=694BECAD)
 
 ## Controlling Visibility of the Debug Console
 
@@ -31,7 +31,7 @@ In the Properties panel for a Debug Console, you can set the visibility of the c
 * **In Published World**
 * Visible in edit mode, preview mode, and published mode
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452531258_512535211284435_8472030137094230274_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=aYCyZyXJlokQ7kNvwGQmyhO&_nc_oc=AdmYDZL6NH499aMSt36lqiOmAOXu_5vOY4u52XHDHrevyq5qx90j3nYpzDQEIYt95Og&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jf0QgNoRe2bqliFaADb3sA&oh=00_AfijNdrpj91b9Bj4eUGseiPoLdjgl9Wkr-yF3YZpaWmj7g&oe=693116C1)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452531258_512535211284435_8472030137094230274_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-_3_2Zd-TMIQ7kNvwG_mO4C&_nc_oc=AdmruCAnx6F3vfUuzk34YD0QDYseQiUnERREosx-vgzqKCpL3J9RDGqbRcIn5J-ozls&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Vy27qeEtize7W5PjhFd1zA&oh=00_Afma-FyC-bVTAmIc6oY_T_U57XaP7SsuXMuvovq8C40wZQ&oe=694BE541)
 
 The Visibility setting applies to the world owner, editors, and testers. If you configure a Debug Console with the “In Published World” setting, all collaborators will be able to see it. As a result, at no time will a regular world visitor see the console.
 

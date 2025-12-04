@@ -10,7 +10,7 @@ This final module covers debugging techniques and best practices for creating ef
 
 Use the NPC Debugger tab in the Desktop Editor to determine which events and world states the Conversation is responding to. Below is a screenshot showing which game events Shady Riley is responding to in the world. You can also use the NPC Debugger to debug user voice inputs.
 
-![NPC Debugger tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/556419626_829681116236508_1027776150910072785_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=y1cJpoG8ULQQ7kNvwHcfWJI&_nc_oc=AdllrRS_pjtbMw98FHpFhF7yzqd6TDo266lOpNZBvNABg0M8OXyInFew3yz8oiAGX2Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=l2_kiG_kLUJ85vfmSsFWxA&oh=00_AfgWUxN967aPazyhA5y47EqGFHn5qzxn9YJYlrl5Ve1lIA&oe=69463461)
+![NPC Debugger tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/556419626_829681116236508_1027776150910072785_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=xSqwFc3VhAQQ7kNvwFT2CnV&_nc_oc=Adm5r3-7J0GqFPiDRFgli0gPsR3jYTuWwnIPzWAOf7je1sJF-UnHb-HELGzy2WBZRLQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vAopHNCfWrHKvgPD4mm3cA&oh=00_Afl2pxxKz80VaRBUI47Craw6v2VrnUlnQZnRHER1Em_Lwg&oe=694BEAE1)
 
 ### Common debug scenarios
 

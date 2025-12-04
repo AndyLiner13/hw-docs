@@ -6,7 +6,7 @@ All new worlds use the TypeScript API V2 by default. We strongly recommend upgra
 
 This article describes recent API changes and some of the updates you may need to make to your scripts to ensure compatibility with the current API version.
 
-For details about the current APIs, see the [API reference documentation](https://horizon.meta.com/resources/scripting-api/index).
+For details about the current APIs, see the [API reference documentation](https://horizon.meta.com/resources/scripting-api/index.md/?api_version=2.0.0).
 
 ## Summary
 

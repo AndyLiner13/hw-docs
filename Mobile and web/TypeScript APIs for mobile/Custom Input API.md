@@ -12,11 +12,11 @@ This document shows you how you can use the Custom Input APIs to add a custom ga
 
 ## Custom input APIs
 
-The custom input APIs (class, methods, and an enumeration) used in this example are introduced below. More specific details on each one are available in the [Meta Horizon Worlds API reference](/hw-docs/Reference/core/Classes/PlayerControls.md) documentation.
+The custom input APIs (class, methods, and an enumeration) used in this example are introduced below. More specific details on each one are available in the [Meta Horizon Worlds API reference](https://horizon.meta.com/resources/scripting-api/core.playercontrols.md/?api_version=2.0.0) documentation.
 
 ### Class
 
-The [`PlayerControls` class](/hw-docs/Reference/core/Classes/PlayerControls.md) provides static methods to bind and query data about custom player input bindings.
+The [`PlayerControls` class](https://horizon.meta.com/resources/scripting-api/core.playercontrols.md/?api_version=2.0.0) provides static methods to bind and query data about custom player input bindings.
 
 ### Methods
 
@@ -24,10 +24,10 @@ The [`PlayerControls` class](/hw-docs/Reference/core/Classes/PlayerControls.md) 
 
 #### connectLocalInput()
 
-The [PlayerControls.connectLocalInput()](/hw-docs/Reference/core/Classes/PlayerControls.md) method connects to input events for the local player. On mobile platforms, which display on-screen buttons for actions, this causes a button to be displayed with the [specified icon](/hw-docs/Reference/core/Enumerations/ButtonIcon.md). This method also takes an optional [options](/hw-docs/Reference/core/Type Aliases/PlayerControlsConnectOptions.md) parameter object. You can use it to:
+The [PlayerControls.connectLocalInput()](https://horizon.meta.com/resources/scripting-api/core.playercontrols.connectlocalinput.md/?api_version=2.0.0) method connects to input events for the local player. On mobile platforms, which display on-screen buttons for actions, this causes a button to be displayed with the [specified icon](https://horizon.meta.com/resources/scripting-api/core.buttonicon.md/?api_version=2.0.0). This method also takes an optional [options](https://horizon.meta.com/resources/scripting-api/core.playercontrolsconnectoptions.md/?api_version=2.0.0) parameter object. You can use it to:
 
-* Set the default [placement](/hw-docs/Reference/core/Enumerations/ButtonPlacement.md) of on-screen buttons.
-* Specify the use of a [disposable object](/hw-docs/Reference/core/Interfaces/DisposableObject.md) that sets any additional dispose-time operations.
+* Set the default [placement](https://horizon.meta.com/resources/scripting-api/core.buttonplacement.md/?api_version=2.0.0) of on-screen buttons.
+* Specify the use of a [disposable object](https://horizon.meta.com/resources/scripting-api/core.disposableobject.md/?api_version=2.0.0) that sets any additional dispose-time operations.
 
 Additionally, you can use this method to receive the values of the left joystick; by subscribing to `PlayerInputAction.LeftXAxis` and `PlayerInputAction.LeftYAxis` a value will be returned based on the thumbstick position in the range of [-1,1].
 
@@ -35,17 +35,17 @@ Additionally, you can use this method to receive the values of the left joystick
 
 #### getPlatformKeyNames()
 
-The [PlayerControls.getPlatformKeyNames()](/hw-docs/Reference/core/Classes/PlayerControls.md) method returns a list of names that represent the physical buttons or keys bound to specified actions.
+The [PlayerControls.getPlatformKeyNames()](https://horizon.meta.com/resources/scripting-api/core.playercontrols.getplatformkeynames.md/?api_version=2.0.0) method returns a list of names that represent the physical buttons or keys bound to specified actions.
 
 #### isInputActionSupported()
 
-The [PlayerControls.isInputActionSupported()](/hw-docs/Reference/core/Classes/PlayerControls.md) method returns a Boolen value that indicates whether the action is supported on the current platform.
+The [PlayerControls.isInputActionSupported()](https://horizon.meta.com/resources/scripting-api/core.playercontrols.isinputactionsupported.md/?api_version=2.0.0) method returns a Boolen value that indicates whether the action is supported on the current platform.
 
 **Note**: Connecting to an unsupported input is allowed, but the input never becomes active, and its axis value remains 0.
 
 #### disableSystemControls() / enableSystemControls()
 
-The [PlayerControls.disableSystemControls()](/hw-docs/Reference/core/Classes/PlayerControls.md) and [PlayerControls.enableSystemControls()](/hw-docs/Reference/core/Classes/PlayerControls.md) methods can be used to disable and enable the onscreen buttons for mobile players. These methods must be called on a script attached to an object which is owned by the player, where the script Execution Mode is set to Local. For example:
+The [PlayerControls.disableSystemControls()](https://horizon.meta.com/resources/scripting-api/core.playercontrols.disablesystemcontrols.md/) and [PlayerControls.enableSystemControls()](https://horizon.meta.com/resources/scripting-api/core.playercontrols.enablesystemcontrols.md/) methods can be used to disable and enable the onscreen buttons for mobile players. These methods must be called on a script attached to an object which is owned by the player, where the script Execution Mode is set to Local. For example:
 
 ```
 // This script Execution Mode must be set to Local.
@@ -66,7 +66,7 @@ class DisableControls extends hz.Component {
 
 #### PlayerInputAction
 
-[PlayerInputAction](/hw-docs/Reference/core/Enumerations/PlayerInputAction.md) is defined as an enumeration. The enumeration lists the 15 available actions for input. They specify the Input Action Name, Index, associated Oculus Touch button, associated Desktop key, and Mobile button values for each of the indexed items.
+[PlayerInputAction](https://horizon.meta.com/resources/scripting-api/core.playerinputaction.md/?api_version=2.0.0) is defined as an enumeration. The enumeration lists the 15 available actions for input. They specify the Input Action Name, Index, associated Oculus Touch button, associated Desktop key, and Mobile button values for each of the indexed items.
 
 **Note**: Bindings on the Oculus touch controller can be changed in the settings for the Jump input game options.There are three options to choose from.
 
@@ -165,11 +165,11 @@ To add a custom icon, you need a texture asset. Upload any image to your asset f
 * **(Recommended)** Define a [texture asset in your script properties](/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md#station02-imagefromasset). This allows you to use the asset picker GUI in the script inspector for easier selection.
 * Alternatively, you can directly reference the texture asset’s ID in your code. This approach is less flexible but also valid.
 
-![Properties panel showing the textureAsset property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487726045_686408240563797_5149593947553231907_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=WEBS79phg_UQ7kNvwGTAHBO&_nc_oc=AdlXsUZ_Tv3HV3idkpoM1EUZ4bBQjJj8y13csYbXSc35T6qXBP94iuMlMwaMqvxEeE0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_wMKdMpm4hiYjCRliF4bzQ&oh=00_AfgTwgDqjWMUsrn_n_OERqVH3HPE9GKEJEdU06pFflnqrg&oe=69313DB0)
+![Properties panel showing the textureAsset property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487726045_686408240563797_5149593947553231907_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=6fIZDdnllTMQ7kNvwE5CLee&_nc_oc=AdlexlQUv7aXC7CWpg4yU1L6jZSnxMFNvAh-9_MwYIEPdPQodNsJaqcuWKU1PmmjCZ0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pTu7jQfuKH8OOdCDEBcYZA&oh=00_AflhHUoGReKcwBjOZiJzvjJ9fDCf6fBFxbUA3NbtgKcqCg&oe=694BD3F0)
 
 ### Using the Texture Asset
 
-The [connectLocalInput()](/hw-docs/Reference/core/Classes/PlayerControls.md) function accepts an optional parameter of type [PlayerControlsConnectOptions](/hw-docs/Reference/core/Type Aliases/PlayerControlsConnectOptions.md). This parameter includes the optional field `customAssetIconId`. By setting `customAssetIconId` to the asset ID of your texture, the button will display the custom icon for the local player.
+The [connectLocalInput()](https://horizon.meta.com/resources/scripting-api/core.playercontrols.connectlocalinput.md/) function accepts an optional parameter of type [PlayerControlsConnectOptions](https://horizon.meta.com/resources/scripting-api/core.playercontrolsconnectoptions.md/). This parameter includes the optional field `customAssetIconId`. By setting `customAssetIconId` to the asset ID of your texture, the button will display the custom icon for the local player.
 
 #### Example script
 

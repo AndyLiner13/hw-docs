@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This station demonstrates how to use a custom UI to alter some aspect of the external world. In this case, when you click a button on the custom UI, you set the color for a sphere (The Orb of UINess) in front of you.
 
-![Image of Station 5](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476001927_646003201270968_1807146693291383433_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=TU4LF6avwWgQ7kNvwHavg12&_nc_oc=AdmcV3Ej5LLlCldGVK_2LVEeZnXI45ve2rHsMIm2sETT14Vm-le1413DJ9uo0GIsGxo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=p93BlCdYRQpIc6eHGAub7g&oh=00_AfilD8GuHKpoX9Nk6ORhAUMF899xUjA41Pp1VL4vNATAzA&oe=694655BE)
+![Image of Station 5](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476001927_646003201270968_1807146693291383433_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=yr-9ykPa8eEQ7kNvwG-cYjE&_nc_oc=AdlBlf_kzGWlYpP46N_6DI5cxATGB2zBu1a34r1ukQlEnNQP2UD4tgZUg_Hej-VK1JY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=HxXz7F1yME3rbFwc_ISGZg&oh=00_Afk_hWyXqrUiKWjP47Q-d04d520pozHqzkYr0Jg482dhyA&oe=694BD3FE)
 
 ## Assets
 
@@ -43,7 +43,7 @@ The above defines the ball property definition on the Properties panel of the ob
 
 The Entity type of the definition means that the designer is presented with a drop-down labeled ball. From this drop-down, the designer can select an entity that is already in the world.
 
-![Image of selecting Sphere from the ball script property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487400771_686408177230470_1425958838774600305_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=dOm9kVbOf4cQ7kNvwEOXb4W&_nc_oc=AdlUtViC_9455NuJs5XN7OZq4XTL0FAC9idlTrYgfww665vYk9-6HyVuHHA2-MqSSN4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=p93BlCdYRQpIc6eHGAub7g&oh=00_AfjL2Rs1NSMdIf3k9y8jV6zwCX2HVTuk9BOq4Wmbk7R50Q&oe=69462C7A)
+![Image of selecting Sphere from the ball script property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487400771_686408177230470_1425958838774600305_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=b7LylsRjlmYQ7kNvwHprWoX&_nc_oc=AdlQgXpG1YuMeU0i0xm3rfqJb7ib3Hzy1pImxuGzYa4VzpTiKzDU5uEuYe08dZxLOUE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=HxXz7F1yME3rbFwc_ISGZg&oh=00_AflgTx-2yFU8hpbYizMlNZelcXj6Buw-2AwMbGhjhEdTRw&oe=694BE2FA)
 
 From this drop-down, the designer can select an object that already is present in the world to be referenced through the ball property in the code. In the example world, it has already been pre-selected for you to be the Sphere entity.
 

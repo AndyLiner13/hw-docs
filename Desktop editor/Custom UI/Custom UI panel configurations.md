@@ -8,11 +8,11 @@ Find these settings by first selecting the **Custom UI** gizmo entity in **Hiera
 
 The following image shows the custom UI panel configuration settings in the desktop editor.
 
-![The custom UI panel configuration in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/479557627_652143570656931_7702822996273811762_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=jwfTPiJnsjMQ7kNvwGHiqIj&_nc_oc=Adkr0n9P6ceDzgQtjfsiW8kIYGtTIUZAxdYjwhlbq-khdhL7fj0dXTw4fsJmnTSQFn8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gmycE4-xBjGFaGtX4WJrew&oh=00_AfjJ0HZIzlwHFmaMEABJ12AY2_UgHW8ET7MEBepJJQPdJQ&oe=69314428)
+![The custom UI panel configuration in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/479557627_652143570656931_7702822996273811762_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=iaK8ircYNOkQ7kNvwHSXb2z&_nc_oc=Adno8R6xYa_8wdO-p9HCv4mGUyj6cWErfl146Qotyt_6m-vaich6URd6gvcQk_lGK9U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g4ecFc26Mi8gqRWX2g3x7Q&oh=00_Afm8zl_ceEWh82CJ-NWohGNCn35d40wdP39HW7rnBAtrYQ&oe=694BDA68)
 
 The following image shows the custom UI panel configuration settings in the VR edit mode.
 
-![The custom UI panel configuration in the VR edit mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452635956_512500284621261_5681983915311645745_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q1AMLhrbAKEQ7kNvwHFt0-e&_nc_oc=Admo653ySmAFDURWR-h614AkDJdq2BgnOc0L7wg2oGCNL-6GYVa0Lmog2RakZM_98AE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gmycE4-xBjGFaGtX4WJrew&oh=00_AfiMSQ0XcpzSMHt3nZy9NomKmR3Z6l0JvPB74JLBWmDA1A&oe=693134F5)
+![The custom UI panel configuration in the VR edit mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452635956_512500284621261_5681983915311645745_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=9siOG5jsTh0Q7kNvwFTVQ-V&_nc_oc=AdnMMDIDzXjTStBtmwH5as2EcnP-KiCDy7GGAaMtL6SYsVYDIcfELHaD4p8xezhYRNA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g4ecFc26Mi8gqRWX2g3x7Q&oh=00_AfnHfhOWI32on6AccZVANLvdSBIenSudaVNbhWiEXCMJnA&oe=694BCB35)
 
 There are no TypeScript APIs for these configurations. They can only be set statically in **Properties** and cannot be changed at runtime.
 
@@ -44,7 +44,7 @@ When mipmap is enabled, the mipmap value setting becomes visible. The range for 
 
 Unlike in VR, players do not interact with UI panels through raycast on web and mobile platforms. Instead, players see a prompt when they are within a certain distance from the UI panel, prompting them to press “E” key. If they do, the camera will zoom in and focus onto the UI panel, and players can interact with the UI through clicking or tapping.
 
-![The player sees the UI panel Hello World](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578647_512500234621266_5966921107344277803_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=7jNOsZotpfIQ7kNvwE6rMDi&_nc_oc=AdnTPHRy5nwsWibCaWD4wsT-DDvg_WTLDeth0i9s46VTuE7ya9MY937_KFxlUepntHw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gmycE4-xBjGFaGtX4WJrew&oh=00_AfhR_-rMYIhutT1r9Vkn2jwxHppB0sTAFPIW6UlOjbkunw&oe=69313B6F)
+![The player sees the UI panel Hello World](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578647_512500234621266_5966921107344277803_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=mf3fU8T9-4gQ7kNvwGIhzp5&_nc_oc=AdkKBXmV18j-GMuk6fy_EjWD8QfjmSbMWLRU7-1v_9SMCR4kG2V6EAy3F-kJV3alrkw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g4ecFc26Mi8gqRWX2g3x7Q&oh=00_Afn1bnRAi9tZRUfMG-ToCLWYIZ8D-w2mlxXSKEbDz6SBkw&oe=694BD1AF)
 
 When the focus prompt is disabled, players cannot zoom in and focus onto the UI panel and they cannot interact with the panel.
 

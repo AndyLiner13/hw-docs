@@ -19,7 +19,7 @@ Let’s start with the HUD first!
 
 To build the HUD, we add in objects and attach them to the player’s screen. In the tutorial world, we have used a small cube textured with a pattern to which we have added a text gizmo. You can find these objects under the name HintHUDPlayer in the tutorial world. Feel free to modify the HUD to your liking, using other shapes, textures or fonts to make your game more attractive!
 
-![Screenshot of one of the HUD entities in the world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489782462_692135376657750_1693271216584845380_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=dnrQ0aIYoXUQ7kNvwEFKT8y&_nc_oc=AdnSNimhKztOZ-6b337eGgciERxOMjPQ40_1Bkpl6_HiGhv5Ge80jKg_EmwJ9czn8eA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1ceFRLXYZE1jspHxNybRbw&oh=00_AfiLoF4ZMFKxAaPYjXJXmufXG09GMxCg5D5pv5TVGMvkqw&oe=69464B45)
+![Screenshot of one of the HUD entities in the world](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489782462_692135376657750_1693271216584845380_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=5NSadQ8TasQQ7kNvwFflYqL&_nc_oc=Adn47FEEk00_qhKdeTb7MaKFHRWDOCrbcw0Eca3_pDLNLBGGixgQnpZz7aP1mp_LTbQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=f7TaEvWMd95jMQ8GcA6Elw&oh=00_Afl9zrqS6vRXHXv-44ff95G4Xhmd95fE1wgMbvbrgz9opA&oe=694BC985)
 
 ### Web and mobile compatibility for the HUD
 
@@ -34,13 +34,13 @@ To make the HUD object compatible with web and mobile, you must change a few opt
 
 Additional 2D Screen properties appear in the panel to enable you to position the object in the screen, rotate it, and/or scale it.
 
-![Screenshot of the Properties panel for the HUD object](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452533172_512509537953669_4591693376816265497_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=XRuE8CYOZMIQ7kNvwGopidi&_nc_oc=AdlC5kFuca-h-WqajYbaOx2kQ8vbVgM_CKM3ds84ecGk2rdu4ZA4OUyN8o20_vWl86E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1ceFRLXYZE1jspHxNybRbw&oh=00_Afhqh142fQJbjquEF7UAciTysdeLvjt70YbwZSSOpdXgUg&oe=694646BD)
+![Screenshot of the Properties panel for the HUD object](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452533172_512509537953669_4591693376816265497_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=vs2REmDn0ggQ7kNvwH9p8oH&_nc_oc=AdmpLnMukmufu5U5Q3YpOOxteQRTVnUWuAww3AIxzDXpTy9Lb9J86MbVnB8dkpdaQNw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=f7TaEvWMd95jMQ8GcA6Elw&oh=00_Afmm56KNaTrOoP9vgSJxX3Izu9WvIHfzRkv7900ZfwGScw&oe=694BC4FD)
 
 You can use the 2D Screen properties to position as needed. These coordinates are in screen space. The X and Y coordinates control the position of the object in the screen, where [0, 0] is the center of the screen, [-1, -1] is the bottom left corner of the screen, and [1, 1] is the top right corner of the screen. The Z coordinates control how far away from the camera the object is.
 
 Remember that the Meta Horizon Worlds UI is rendered on top of the game display on Web and Mobile. This overlap includes images for buttons to open a menu, different buttons to control the player and grabbable objects, and more.
 
-![Screenshot of the desktop editor screen with web and mobile gameplay buttons overlaid on the screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452632977_512509527953670_6938492603215357938_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=nndnSBaJjfIQ7kNvwEMcJmV&_nc_oc=Adn4NGdt9ypXRsHk_oNlSNWCqrFSLt0TYUR1-M0MqK4eMSh5SQuBTejveP-Q5FnnCtA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1ceFRLXYZE1jspHxNybRbw&oh=00_AfgGQlM7k0xCp0aZ_LfZz5s9xPILHQD5jiSniWyvpiFEHQ&oe=694635CC)
+![Screenshot of the desktop editor screen with web and mobile gameplay buttons overlaid on the screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452632977_512509527953670_6938492603215357938_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=TBia6g-XydoQ7kNvwGJD3aD&_nc_oc=Adnr-_n5q5X3L2jCzvFmM_Gq53AX8aqx56tkYOAoRSuIg4Is3TEG4gQtW-0ZNflcWzs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=f7TaEvWMd95jMQ8GcA6Elw&oh=00_AfkswB4CrM27Z9DrZpWOoXL6LwC1cA0c9pgx7Ru8nXG5lg&oe=694BEC4C)
 
 **Tip**: Try to keep your UI in the center and left side of the screen, which is usually not obstructed by platform-managed UI elements. Test your world on different devices to verify that the UI is visible on all platforms. This step should be a regular part of your web and mobile testing cycles.
 
@@ -56,7 +56,7 @@ We will have a HUD manager that will have a list of HUD entities, and it will at
 
 Search for the HintHUDPlayer objects and make sure that the sysHintHUDEntity script is attached and that it has a reference to the text gizmo of the entity:
 
-![Screenshot of Properties panel of sysHintHUDEntity with HintHUDText selected for the Text property](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489531849_692135379991083_6226043175439845556_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=WqFnpX_o9EMQ7kNvwGAGU2A&_nc_oc=AdmnlXZkXA2Kz8NqSzxgBCEKdyu9QJWwPUh0FKnpulcIZWhlLi6Ih9w84EVcyBw8KIE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1ceFRLXYZE1jspHxNybRbw&oh=00_AfiuI5RfNVT8BBLClknWfjWuVMFupNzazPjVFOqmRDJ7dQ&oe=69462D61)
+![Screenshot of Properties panel of sysHintHUDEntity with HintHUDText selected for the Text property](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489531849_692135379991083_6226043175439845556_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=IqMlT7PeCR4Q7kNvwGFjveg&_nc_oc=AdkVRLCau4x1Y8Bsux6yEGzAc1QRf9J2Rbdf7tkP21EFDm9V71lJKyXiRqbXUHZ837M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=f7TaEvWMd95jMQ8GcA6Elw&oh=00_AfldcpBMhG8g8hf3Rr3VauifKG33iJD3ZcBU6SYCfIaKiw&oe=694BE3E1)
 
 We will use events to communicate between the HUD entities, the HUD manager and any other system that requires displaying a hint.
 
@@ -162,7 +162,7 @@ That’s it! Our HUD entities are ready to be used by the HUD manager.
 
 But before that, please verify that you have one HUD entity for each possible player in your world. One HUD entity is attached to each incoming player:
 
-![Screenshot of HUD entities in the Hierarchy panel, one for each possible player](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452414840_512509531287003_4124463456256988157_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=fV3Zs0nZ2-wQ7kNvwGvCZxH&_nc_oc=Adm2lkm1LO2_VCZAnQ4sCggkFajZolZTYPuzoAQBccqVJg-AE-1kVoHQNaXdnpXHr-0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=1ceFRLXYZE1jspHxNybRbw&oh=00_Afin6EQ_6uLDeiSj0asQib1dBh0Ict2xm4ssQDIKGu7rDg&oe=69464405)
+![Screenshot of HUD entities in the Hierarchy panel, one for each possible player](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452414840_512509531287003_4124463456256988157_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=cC2GUHGMpTYQ7kNvwE-ZNkv&_nc_oc=Adnngk0eH1O_KmSliL0Ef60RfpnQwodvLRnDyCF5X99fecqfox4ZFQrjcZJJKwBVnyY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=f7TaEvWMd95jMQ8GcA6Elw&oh=00_AfnU1f4MwUEVFPR5xY2QiXJ1bLOky9q8ya95-7pBEiqZiQ&oe=694BC245)
 
 ### sysHintHUDManager
 
@@ -386,8 +386,8 @@ This system is used throughout the puzzle game to teach players how to use objec
 #### Additional Documentation:
 
 * [2D UI for Web and Mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/2d-ui-for-web-and-mobile)
-* [Safe Placement of UI Controls](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/designing-worlds-for-mobile-and-web/safe-placement-of-ui-controls/)
-* [Events](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/local-events)
+* [Safe Placement of UI Controls](/hw-docs/Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Safe%20Placement%20of%20UI%20Controls.md)
+* [Events](/hw-docs/Scripting/Events/Local%20Events.md)
 
 #### API docs:
 

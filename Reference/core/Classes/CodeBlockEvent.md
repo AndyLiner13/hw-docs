@@ -53,7 +53,7 @@ Component.register(CodeBlockEvent_CB);
 
 **Example 2**
 
-This example demonstrates how to receive a built-in CodeBlock event using the [Component.connectCodeBlockEvent()](/hw-docs/Reference/core/Abstract%20Classes/Component.md) function.
+This example demonstrates how to receive a built-in CodeBlock event using the [Component.connectCodeBlockEvent()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectcodeblockevent) function.
 
 ```
 // Import CodeBlockEvents to access Built-in Events.

@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 You can use the Desktop Editor to view, create, edit, delete, debug, sort, and search quests, leaderboards, and variable groups, just like you can in VR.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580477583_863636812840938_5539108588570583951_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=THjvrx2yOrYQ7kNvwFh5_Qj&_nc_oc=AdmKbxFMl7TJyqQ6Fl2LHm2QFA7L-nQYablS8oQj76bAAM9go1K4vTJQBhJVFWqWzoY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-L8URUgSo-mzKnR5ol9hhQ&oh=00_AfiBTUCDcRnPqRWtxQtMkBoZfTsHr3sYQ7sRp-fO5SsF0A&oe=693146D0)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/584569370_869065668964719_830010532079458759_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=WFZItHwqAfAQ7kNvwH06uVh&_nc_oc=AdlnUg8C3YGI2w3KiXibzGmJY48cCoCG3Kejnl87HMf1aHT7IyetsgvxBbPDg4HNMxw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6AYJ7o1VHejDyC4IjtFadw&oh=00_AfkEUgVDUSHzsVuNqO-1PfHT82ehpXJ6iT0IbIsljf-wvQ&oe=694BC812)
 
 ## Getting Started
 
@@ -16,20 +16,20 @@ The first step for using all procedures in this article is to open the **systems
 ## How to View a List of Quests
 
 - Click “Quests” from the systems panel.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580814319_863636806174272_1369132850060578806_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=sN27s3SFigkQ7kNvwH36I8i&_nc_oc=AdmH6k28jPb2VtQUtXGcO_g4tLengdyXNFRuQaD6ju63PqkXV6DCQAUweuuWj3JdKJA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-L8URUgSo-mzKnR5ol9hhQ&oh=00_Afj7GJAgeJ80SWXr8G8Lmvl9lDXEgdmNIDkkyOtVdsV8OA&oe=69311F25)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/584726849_869065692298050_5348588129160779135_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=iEYtHxd_ihgQ7kNvwE3624M&_nc_oc=Adn6Ng25H6MQ-DTUJOsIHS7lJ-MoJcal7mF_DG9YhM0YO5y-oxhX_v0EWsa3uQq4Gz4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6AYJ7o1VHejDyC4IjtFadw&oh=00_AfkTg6pHtu6f7sIFSFdtUOOHCqJZiBXvpD4MX9BD0IfPEg&oe=694BD44B)
 - You will now see a list of existing Quests.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581055141_863636809507605_7188973479246755122_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=lWwE4IXbYTsQ7kNvwEMitDw&_nc_oc=Adn4KMcSqb4Qcnj-CrGqNmr9Lsmq4g9wmqZCKeAskhBug2v4toKhP0_o9dhwefbbPlI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-L8URUgSo-mzKnR5ol9hhQ&oh=00_AfjyLc5MYEiHy0lt272gsqG7l6DMZkaxsRctjzzoXWdwfA&oe=69313093)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/584922680_869065698964716_2559391507228678717_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=fATEAkL1DHoQ7kNvwFC50Sy&_nc_oc=Adnw6ZnghmnmyT66qPxViefPy6hOpzwaczKK_LyF8Le0ylAmJ-mo9MndXUjihqnOvxE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6AYJ7o1VHejDyC4IjtFadw&oh=00_AfkT-M6GcI-pcPNFxGiqru9WPHfUY0jwdVeccHMsSflCPQ&oe=694BB3C6)
 
 ## How to View a List of Leaderboards
 
 - Click “Leaderboards” from the systems panel.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/581622694_863636802840939_1504330758046343959_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=iEykUqXplFQQ7kNvwFqziAD&_nc_oc=AdlsCyA_XQfAbWD9pZGJzYM3Rh9rXC3IJrVreBT2ogbgLGQNhHmPrDxsu6bmbF-FyBs&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=-L8URUgSo-mzKnR5ol9hhQ&oh=00_Afhj2JLmzTsioOhyOLMY84u3mWGaCgNZy8yax_FDAbmUkg&oe=69312E83)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/581622694_863636802840939_1504330758046343959_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=8_7aJTU9GfMQ7kNvwEkFLRn&_nc_oc=Adktl4n1Ncjl56Z6lkFzbdLphaSfjAmMlEcXdNKqvgsIsSGvQdkmymIyjK_Qx19nzVQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=6AYJ7o1VHejDyC4IjtFadw&oh=00_Afl3qZif1OQ6FVumODuXtWAhBvwh_Lp3Um5hrVhtQgW4IA&oe=694BC4C3)
 - You will now see a list of existing Leaderboards.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/583050642_863636799507606_473262080849607262_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=6Uv6S50EPpMQ7kNvwHPoFRx&_nc_oc=Adk3cd9eV90O67NAle5udiQmYh9Rd5T2Yl9MsiJIJo9TSO4DZTpEpmETWvvuQtqGtMo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-L8URUgSo-mzKnR5ol9hhQ&oh=00_AfhD_WuiNgldh3C8Dp7VDMXr4iBxJoJPaM7GckuQsi2aMg&oe=693139FB)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/583050642_863636799507606_473262080849607262_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=X8f7u7OuJFwQ7kNvwFuEwl5&_nc_oc=AdnCDREFGyRzEvh4cyGJTuvD_bxhg4UHe19VmSJeLPu5BAl45Id-oaNs-T-VF9iBehI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6AYJ7o1VHejDyC4IjtFadw&oh=00_Afmyze9NXsuItBHaTEL4jKxIGpwJ7sV72emcp_jOjhGaAA&oe=694BD03B)
 
 ## How to View a List of Variable Groups
 
 - Click “Variable Groups” from the systems panel.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/578265931_863636852840934_5667289594457025850_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=_pKzhi1cUyEQ7kNvwGw7GPg&_nc_oc=AdlmFY2P_9p1en-KeW0HXG51kyVArqIMVgDeRLhmjMmfJqiDOdk9zI7NSHaEK9lf5Bo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=-L8URUgSo-mzKnR5ol9hhQ&oh=00_Afi4vxkDPXPjUK-_77q0kKtE_lVBOj1lzW11-glGx5jgOQ&oe=69312058)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/578265931_863636852840934_5667289594457025850_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=-70bIs1Vd_sQ7kNvwGaBft7&_nc_oc=AdmD5L2eO3J6HVFyzCS4HD7jb1DiKhgG3PURN51Ao81XofH5YY9aaQrccfN5MU5wly0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=6AYJ7o1VHejDyC4IjtFadw&oh=00_AfkTBKNlvLuxUePxkZvg0T_kS4Sbb4UmIX3aVDyi51Z6JA&oe=694BB698)
 - You will now see a list of existing Variable Groups.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/582104268_863636846174268_8909048524670189222_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=cFxRw7QrhCYQ7kNvwFoFNYf&_nc_oc=Adkiy86Vy7bsQ-G_8I5zClYqb9Bt_BhZ7IsurY153XARY4QuJ3XBajz6fuu1lR2wq_0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-L8URUgSo-mzKnR5ol9hhQ&oh=00_Afje7XfE6qdgif4dBO-G7oW58zGyCmEXIRt8dua7W3CumA&oe=69313AD1)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/582104268_863636846174268_8909048524670189222_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Tq2dDm2V7M8Q7kNvwHkHw9a&_nc_oc=AdndWlhhBxLPCkcIt9QspP-lVxuXrX1kpM6wNTtf4PZeycAOYV7yMtCG7pYUe8U39Ac&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6AYJ7o1VHejDyC4IjtFadw&oh=00_AfkPIV_NuF8QLRDNgee-rvTC1vSdkRN39OsO-CzpbVxs_A&oe=694BD111)

@@ -25,19 +25,19 @@ Learn the workflow involved in setting the leaderboard frequency by following th
 
 - Choose a reset cadence for a new or existing leaderboard.
   - In the CUI, navigate to **Systems** > **Leaderboards**.
-    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452887990_512510354620254_7933510091704899504_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=5JySxtRwessQ7kNvwHFQViF&_nc_oc=Adk_h9KSDSs9VJrsrN6CAmiycPlPZQn3M1ms9i0R-O7heSwQchkDt4P_yQhIh3hRH6k&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0mUyJME784q6Qyrtf2Tcfg&oh=00_AfhICMXWbTrB1Fg-PmBQw3Q44_tmfZVGtCfwbBh-o3IUKw&oe=69312FEE)
+    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452887990_512510354620254_7933510091704899504_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=QdmvPwHizWsQ7kNvwGxA102&_nc_oc=Adlt1kXLZZalJccuaVXBPGGCa0H6wDaw3ISPhnDhyLgg_ke_RdvmOqokn6RD2Du5yss&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ao0yz1Z1jAmv_VUvpgZTkw&oh=00_Afk9CwT7PFZ097i5rcNCUknb6HlkGlTUF3Ge-RZAdn-WWg&oe=694BC62E)
   - Either create a new leaderboard by selecting **Create Leaderboard**, or edit an existing leaderboard by selecting **Edit**.
-    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452413517_512510364620253_2373137635050804707_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7kntk31G00QQ7kNvwHNnFlk&_nc_oc=AdkGFJm5ZDLeQQsxTYGZcPKjMXl5jo0jkT-u4alpkA-kzwNQxYXzzu88BG2YD_C4ZRE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0mUyJME784q6Qyrtf2Tcfg&oh=00_AfjJQBfwk4iAHa7XDDspq4C1HYOOP7AFc7Dw99KUbGzdmQ&oe=693119F9)
+    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452413517_512510364620253_2373137635050804707_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=yst6lpNktJAQ7kNvwF_35zU&_nc_oc=AdliCcqvBaNIg8Ne--y6UlWxeTb994VN9RftSW_5IoX5OCBVllELWFpy8Ahveq3L_EI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ao0yz1Z1jAmv_VUvpgZTkw&oh=00_AfmTQRPWSgD7neYo6kUn0Rp8Vubgsyvu8nARAb-Y6c8I8w&oe=694BE879)
   - Beside **Reset frequency**, select the interval that you want. This can be Daily, Weekly, or Monthly. The value defaults to Never.
-    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452953630_512510321286924_6693651382984821063_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=BwY-zIrlVG4Q7kNvwFaU871&_nc_oc=AdmoTNOfc4PAPVrS3UurOHiLpiQkyrZZJZQP-3C9boJWG3H4u3-imBsHDJrq1rM876g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0mUyJME784q6Qyrtf2Tcfg&oh=00_AfitfDjWAAB2bgl7bM85WjMaef9BOwK66KOq5Uq0rKYtbg&oe=693136AF)
+    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452953630_512510321286924_6693651382984821063_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZHV6U2-9jDMQ7kNvwEHSmyr&_nc_oc=AdnkS5_MJ8IZnV4evYkhMBsk377Z8XVYlQ_0IWdWbOZmMnliGwx3bO2Bp6vnOqAPTsI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ao0yz1Z1jAmv_VUvpgZTkw&oh=00_Afk8Uzmz9JafDRfLiiaD9PIOR6HwBtFDGjJgaccgdq8XNA&oe=694BCCEF)
   - Save your changes by selecting **Save**.
 - Optional: Link a player’s persistent variable to the leaderboard reset.
 
   - Set **Reset persistent variable (optional)** to Yes.
-    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452588453_512510267953596_8425387457302036980_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=TRHJ-XxpEYwQ7kNvwGxp8fx&_nc_oc=AdlpqQd856eaSAgLTZyRJkfmIApq3ns5hUSoxK737mkdJK7rPX2YKElSRc-YeVRlO3c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0mUyJME784q6Qyrtf2Tcfg&oh=00_AfjuZNIiCM7CHSoYyBPfCSluC1OSFTaBYUFMGc-JU1kJWA&oe=693142F9)
+    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452588453_512510267953596_8425387457302036980_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ahbI3aesZGgQ7kNvwEw2SlD&_nc_oc=AdkLNqPloeUucRLaXhAy2CF--Qdp2o21-nF09FJQ9HjxM9XlQNlAyjo9YXXplR-ZX-g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ao0yz1Z1jAmv_VUvpgZTkw&oh=00_Afk7d8NxOXzmMeS9aitXnUlcsL3Ap01r8oAXyudq0GW_sw&oe=694BD939)
   - Select a persistent variable from one of the variable groups attached to this world.
     > **Note** : You can link only persistent variables with a number data type.
-    > ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452757986_512510257953597_3604445875626678830_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=gK15TfJBPScQ7kNvwFIURr3&_nc_oc=AdmjwrswY3V8_SNYHP47XO5RwqEX0reJZYiiyhJW6nWDn3saAwSWBnae4JY2SS_cf3A&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0mUyJME784q6Qyrtf2Tcfg&oh=00_AfgRQ-KFeQkx2NO4FNr6rGQyJwFj2dzskdPPivNHHTyyVQ&oe=6931478D)
+    > ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452757986_512510257953597_3604445875626678830_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=1V_Wpi2ANSgQ7kNvwHHEj_s&_nc_oc=AdngXMY4l81DhyHI1Acov-HpNZfxV1X1dpmB-kKIWnFwkYaPnuUhV6KxdBpxpgSv5Nk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ao0yz1Z1jAmv_VUvpgZTkw&oh=00_Afmgx5BmjEFKbr6E5EYY6Tg4Zw42nQ4U4cWb4oNDHY1LHw&oe=694BDDCD)
   - Save your changes by selecting **Save**.
 
 ## How leaderboard frequency affects world visitors
@@ -46,7 +46,7 @@ Learn the workflow involved in setting the leaderboard frequency by following th
 * Any user entries to the linked player persistent variable are set to zero.
 * The Leaderboard gizmo shows a reset countdown for any leaderboard that periodically resets.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452818142_512510254620264_910205012762278358_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=nwsnPJaA3eAQ7kNvwF3SByR&_nc_oc=AdnxYbn-ngHeQ-Hk0miZu7Fg5TOY-sz5caTSDi3VkFUv9e7oPsNO3xZY53IokbXxllA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0mUyJME784q6Qyrtf2Tcfg&oh=00_AfgjSsrCb7qdFqsZZvT6LLCp7F2wdW89srfRS41Df4HEXA&oe=69313EE6)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452818142_512510254620264_910205012762278358_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=vnvyVCIV6icQ7kNvwE7cNJq&_nc_oc=Adl7EgQ-VFnPWu_T4QcCP4Js0eJGVqoSl4CU91-SQ2bQ5Z9TeClN1nos3xnx_lF98E8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ao0yz1Z1jAmv_VUvpgZTkw&oh=00_AfmAEW19gODrU37YN-0R6IGPFo-69ElHJBJuOibF8HLA-A&oe=694BD526)
 
 * If there are active users in a world when a leaderboard is scheduled to reset, then all leaderboard(s) scheduled to reset at that time automatically reset.
 * If there are no users in the world at the time of the reset, then the reset happens silently, and changes are reflected the next time a player enters the world.

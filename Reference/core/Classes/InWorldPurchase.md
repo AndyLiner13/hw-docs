@@ -12,7 +12,7 @@ export declare class InWorldPurchase
 
 ## Remarks
 
-Typically when providing purchasing of in-world items, you provide an In-World Item gizmo that players can interact with to make purchases. However, this prevents you from incorporating the checkout process into a custom UI. [InWorldPurchase.launchCheckoutFlow()](/hw-docs/Reference/core/Classes/InWorldPurchase.md) makes it possible to launch the checkout process from a custom UI.
+Typically when providing purchasing of in-world items, you provide an In-World Item gizmo that players can interact with to make purchases. However, this prevents you from incorporating the checkout process into a custom UI. [InWorldPurchase.launchCheckoutFlow()](/hw-docs/Reference/core/Classes/InWorldPurchase.md#launchcheckoutflow) makes it possible to launch the checkout process from a custom UI.
 
 ## Methods
 

@@ -48,23 +48,23 @@ But if you created the trees from an asset template, then you could update all o
 
 This section will go through the general workflow for templates once you are part of the GK. If you prefer this in video form, please see the tutorial video below.
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453701050_838341574642066_6976185690380477457_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=EVQUetK1pbgQ7kNvwHc-5fW&_nc_oc=Adml5xSeysyNKaYaKBrG3AfgptSzScZUkQVZtD_a59VPGdsJhSSqKKOhF5RIoq1Xj3o&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfgFsd973vtE4aFTn5-pIJR1PL8nsWngLiWOaqYEmtUT3w&oe=691CABC6)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453701050_838341574642066_6976185690380477457_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=Q1iibmYTRJgQ7kNvwFjCTi9&_nc_oc=Adno6geWuwL0Gq8u1tS69Nr1yqWVnhxP7IPuyAFjFupvIkDqegR7t9Zj5aQYYxu_FO0&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfmIKue_PsdDbLWkjjTg4tYHWRJwDP5MTTGNxdm_0NaT9A&oe=69377A46)
 
 ## Creating a basic asset template
 
 There are two ways to create a template:
 
-* By converting a legacy asset to an asset template. See [Asset Migration](#asset-migration) section for more information.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452458941_512500697954553_8078786083910498359_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CBpdQ4a-I5AQ7kNvwFyL4cc&_nc_oc=AdnWapXF5VUA43YIo_Mn0L5MaVs5Az4gGJILg1pAW6lnUqWiAisRRBfim8jaGsU6_JQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_Afi8SzvVRRDb3pOlDK4bh7wMWpJDmtqjmGh0LGKVy-KbSw&oe=69311C8C)
+* By converting a legacy asset to an asset template. See [Asset Migration](/hw-docs/Desktop%20editor/Assets/Asset%20Templates.md#asset-migration) section for more information.
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452458941_512500697954553_8078786083910498359_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=8MDnGl0xny4Q7kNvwGqy9LR&_nc_oc=Adngda9ahO5jtvCUEolt-ybMZ-DbezlfazRP3r0zXZNtHCWzSfsR8POoLPaDOUu7ATQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Aflvk0fWL-vELlXe9Z8kBSbLk2QgRg0IAqr2JgksWtqSUA&oe=694BEB0C)
 * By selecting objects in the scene and creating a new asset template from them.
 
 To begin, first create a basic asset template.
 
 - Add a basic cube to your scene. You can get it from the **Shapes** drop-down menu.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452893303_512500567954566_2630102149456461559_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=hsHjdSxWPYwQ7kNvwGTu6Cq&_nc_oc=Adm4fLamJ5ve1EpP2PDoR-Um8tPu4NzKBt2_wuoyQuSorkvMQD4x-iSFzKbr_UjACcg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfjcdDrBs6EtSB55Tn6ycyK5FiiZDGyUBFtq9Vg1ExJTCw&oe=693149AD)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452893303_512500567954566_2630102149456461559_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=SfhkY6GJBNQQ7kNvwHd8tzp&_nc_oc=Adm5RrPgD00tcB3ta8i8kYauoJuKBV3f7SPZCOK92AK8hkMLqfOwxlWSL1qmfSqg4oE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afm6q1no_dkWojcZYsfYwk9xD1vKmCmtcOyPoGP73BML2Q&oe=694BDFED)
 - Add a basic sphere to your scene. You can get it from the **Shapes** drop-down menu.
 - In the Hierarchy, create an asset out of the two shapes by selecting both of them, and then right clicking on them. In the menu that appears, click **Create Asset**, and then enter the asset details.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452863899_512500587954564_4581130950048103563_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=qH5sQ_-QT8IQ7kNvwH2hcB-&_nc_oc=AdmmNwJ7qg1q0nEM4iZWTV91P3fwEtK2hkmJIXF811h4GPKfAzFO5qsISYZ7o62z3sw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfggeND2oIBwHxHwcMOiwVsQ2MDP7ddyBXVtGpzb0IG3GA&oe=6931354F)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452863899_512500587954564_4581130950048103563_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=bKjUCe_WUGgQ7kNvwHDwHL5&_nc_oc=Adk9XasTEw91YKBjBtfYQO1t3WZeth6uFDOTcNjT0-FQ5RQ41jzINoKjiJpH29mY2Qw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnHXcpA_5_tgiYeQ_nlfPucNVIyF2JXN-MGRyet4C3fvA&oe=694BCB8F)
 
   You can create the asset as a template or as a legacy asset by selecting the asset type. If you choose **Legacy Asset Group**, your asset will not have instancing, property overrides, or change propagation.
 
@@ -89,19 +89,19 @@ A draft asset is an asset that has been updated in the current world, but whose 
 
   **Note**: Anytime you edit an asset it’s stored as a draft.
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/505490657_741347521736535_8523116864699304202_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=_vFv6vSLTIsQ7kNvwEacFIG&_nc_oc=AdnheeOIxp4f_rA8F7S-s2io2Pih0WM69a6KGxNy3A6rwGaE8awQqL1KVbm-5EIOAmQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfgWnTvKh-tXZSz_w7tn8RpQf495VQ_sfiviS6e1YXQTUQ&oe=69313EC5)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/505490657_741347521736535_8523116864699304202_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=p2KkXv08MckQ7kNvwEDlriO&_nc_oc=AdnkA4V3iJG4Fcx2GT-F60tTD1hA1FeYeuH17WXDvMHQPQjjLMJB9oQFfCfkjR45K1k&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afn10MpThnVSebLGnr3CcCnklLPfvYT8IwEdE6HrDZKb0g&oe=694BD505)
 - From here you can either discard or publish your draft asset.
   * When you discard a draft of an asset, all asset instances in the current world will automatically switch to the latest major version, as dictated by the asset definition in the asset library.
   * When you publish a draft asset, it will create a new major version of the asset in the asset library.
 - Click **Publish** publish the draft asset. You will be presented with a publish modal. You can optionally write a comment to be saved as version notes with the new version, and then when the publishing operation finishes, a new major version of the asset will be saved to asset definition in the asset library.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576260_512500694621220_7586723531942177562_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=I87g0UkX2BAQ7kNvwETxJth&_nc_oc=AdnuO6jfJ12gGWXB-CUFwblERr2-y0lb78X7C0LePGanHhsWNzNHB_YuTXYAmFClh2U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_Afi5VnllV-aVpOcsxeTtDNPSspUgbx_2VaacD6XPVjV6kg&oe=69311C1D)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576260_512500694621220_7586723531942177562_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=PtcZGKJkEPoQ7kNvwFORVAr&_nc_oc=Adly3uuxgAlYLQxQHRJCDW6FoHclQeUQRaV141ugpf5x_tkqFOiyDhauP-xcL7Oik9k&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnJqbxzlGKYg4XOIJE1VGw4PWfRYK8SuJqXvtmKuQX-Dw&oe=694BEA9D)
 - Once the asset is published, click on the **Version History** button in the Asset Details panel to see its version history.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935806_512500691287887_214574099878998720_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=39lPGEbGpUEQ7kNvwFnXea6&_nc_oc=Adk8Txp9Yj03nlUdR0Tn2nldn_eEtt6zMZLsyyHJX1Qk3BoWqCg41sBpfWEPbPz0aC4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfiSiUSOgd56i03nq7AetI6mvsJu7D1xgGqTMzgcD5a3DA&oe=69311D1E)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935806_512500691287887_214574099878998720_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=wPpXIMJLD1gQ7kNvwFKo3fe&_nc_oc=Adm8n_5NUO5dEExMZreWdUPDsHib2Y8ZJBLguGMBWZYjfaK4Z1AgNKFfx0-ZeYAXulU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afn0h4_yzA8lRSluqrs-X2FmQ04BysuqmOAwg7BHL1VB7A&oe=694BB35E)
 - The version history modal will display all of the major versions of an asset. These are all of the asset versions that have been previously published. If you go into other worlds or share an asset with other users, these are the versions that will be stored on the root asset definition. The asset can be restored to any of these versions at any time.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452933022_512500687954554_6151449604564408312_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=01hdgpSvwQQQ7kNvwF00aQv&_nc_oc=AdmiYH9OGj8ZEXKfYgQZx8hm7iGvy_Tzc_7ox0xmZZmgoosrOGHHzXiWDN3RqgLYWmg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfhwOXFfe1ZPCprntzbGzX1ezoz5Vv_q-z_Xfi1e8aWNPg&oe=693124AD)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452933022_512500687954554_6151449604564408312_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=FkM2iWXTEl0Q7kNvwHBrCsh&_nc_oc=AdmN0PtgiUMCucqMtv4-3zz5sfA8HJsqWejBKBrK8K2Qe5SWBvVcvgVoT-NgX-SnCbc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afllf2plVWOcguR1K0rcahP0cjwwtobD_am4i8r36mF9yw&oe=694BBAED)
 
 ## Property Overrides
 
@@ -110,13 +110,13 @@ Property overrides enable you to override the property values on an instance of 
 To override a property:
 
 - Click on the root level asset template in your world. Review the properties. There shouldn’t be any overrides.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452684749_512500684621221_5369449154585863544_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=gX8Tc97UZW4Q7kNvwGrRRsm&_nc_oc=AdkFH9AWPiMxQhZqC2YD82pTvXwRu31QWsLorEd-0kcYjfNxwAj_kHz-yqAJ449YXrQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfiJrrPWPlfntOdFOZGxGMI1N62p38cDYLtfYWG77nJvxg&oe=69311A15)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452684749_512500684621221_5369449154585863544_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=yCH7FXFik20Q7kNvwEAo8N1&_nc_oc=AdkzqCHM3pMQBBiNauIx9PZQGMGA20nGxdU1mNmS-wiQLm81nUmFr0TDyMwotmJDjC8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfmV3tTkaqukl1MXNaP48HmJmlEx3TjWwPzzAI_245o_jA&oe=694BE895)
 - Now, create an overridden property value. Edit the object to change its color. You’ll notice that the color label has a bold treatment, as well as a blue dot next to it to indicate that the value has been overridden. In the overrides panel, you will see a property override on the object showing different values for the previous and current color.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452757156_512500681287888_1648985213895312295_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZosN3Vr7UAAQ7kNvwHuu63L&_nc_oc=Adnobs96bAnSEeZKkZLvX-VgGfoIRSOMCO-6pgkaAV376LCoSDOmi4iv0860KfDekak&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfgMvjFD1-3QtfRQN7x0LFywL2vb-0mXdhIVrX9uYgNhnw&oe=69313F21)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452757156_512500681287888_1648985213895312295_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=1db98L4l3kUQ7kNvwEXH0tL&_nc_oc=Adn1rw_-EvWAmfIg1DZYKtuXvPGgkuxVBEInY8PggfBYK52FSDsBxE_Wso2ASLHSoIY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnfQLPm0VWlcP_9bW-aqMHoZ0atZN8Hza0PkWU6uLkr1w&oe=694BD561)
 - From the property overrides panel, you can either select specific overrides to apply back to the definition, or apply all overrides. When you apply overrides back to the asset template definition, all instances whose matching properties haven’t been overridden will inherit the changes, and a new draft version of the asset will be created.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452591119_512500677954555_6513963071618982978_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=HV5NaNP7gz8Q7kNvwGnQOlK&_nc_oc=AdmAkx6NKZYJLhGUjvJSxtdCKE7cZ31oJKI1uCNCTO3HHpJSvdqz5FxUyLtNXxIO6y0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfjvK2CNIoacmybPqZX0pUmULGGU40rOzIXCY6NqOKIQEw&oe=6931273E)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452591119_512500677954555_6513963071618982978_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Bn9lkN5AMQEQ7kNvwEcBTWc&_nc_oc=Adm4e_iqraaqCxTyau5k4mayUa_ERVmxfYkV8KwNhuwEQgZk6zNi7asxMZHoBwVGVnw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfngvskYQ6s7djxf8sj4qcB4TxX8rgwE13ZhA2EOD2JIVg&oe=694BBD7E)
 - It’s also possible to revert overrides. Reverting override values will revert the asset back to the same state as any draft version that exists, or in the absence of a draft version, the current major version of the asset.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652316_512500674621222_1012367075903542989_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=mZk5jNgKWzEQ7kNvwEarQ3h&_nc_oc=AdmZgybm2d5O0BD4afqMaXnasUzdhL9_cLRMiR_LqK3bgiyUV-JhH0223OqVX_G6eik&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_Afg6y1EC1k2Tl5jVWKEIkmEXoS-wOogtkxy5VEZ_3_s-0Q&oe=6931413B)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652316_512500674621222_1012367075903542989_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=qJtD7wBICPwQ7kNvwH0gxuB&_nc_oc=Adl0nD-cIiHm4i_BGta5A9dKWT2Kheq4i5Lk-Y-s2x1cpuNPH8oz4NzIgb0Z93EHs6w&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afn_UE9q_es-7-Lq761A5q8CwDMXgfbcxeUXUwCVRrbFXw&oe=694BD77B)
 
 **Note:** Property overrides persist even when you update the asset. To test this, you can edit the asset definition, add a new shape to it and then exit. You will see that the color of the sphere will remain even after the update!
 
@@ -128,7 +128,7 @@ The following steps will walk through asset migration:
 
 - You will see a blue icon at the top right corner of an asset card if the asset needs to be migrated. Right click on the asset card, and select **Update Asset** from the menu that appears.
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452665936_512500581287898_7545021707173957534_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=AW2qtlM3QfEQ7kNvwFuSxHt&_nc_oc=AdkSU3X62N6fBRDWamiXoFx7ecdzvWCymueempyrUYk7_bAqVjYSindjYA7NUJG2K8s&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_Afg_xLc4cD39Z4clHIFCOwoosT9RyypEmG3h4YYY3mI51w&oe=693149E4)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452665936_512500581287898_7545021707173957534_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=mrLSMtIRDf0Q7kNvwGlc-Wt&_nc_oc=Adl_9CnEFW6BP6DQ7x6FrLbCVy0z6w0yV3hyebsVJwVi1Ak36QK5UkwAK6HVQSPP3XE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnDiJw0MS308xBNCyTafGKpvumj5HlgGXkYB_mkh55bhw&oe=694BE024)
 - Alternatively, you can also click on the folder and update all assets in a folder at once by clicking on the link at the bottom right of the asset browser.
 
 **Note**: Ingested asset types don’t have to be migrated, only assets created within Horizon.
@@ -148,7 +148,7 @@ To unlink an instance from a template:
   - Choose **Unlink instance root** to only unlink the parent template.
   - Choose **Unlink instance root and children** to unlike the parent template and any nested child templates.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452934219_512500594621230_5600854580075909703_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=a0W_coa-nN0Q7kNvwFm5NiE&_nc_oc=AdmqgGtGM-MPGDfIC6UQrVoRH5XyfEfKia9LsoFl5DkEobz66_6pjc-dE_Sxc79_nmM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfgD1iGJ2zElS_xnN4fNd-c9131DS88nzTVrjSB--Br7iA&oe=69313B8E)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452934219_512500594621230_5600854580075909703_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=g7SDCTssGgoQ7kNvwHVhKW_&_nc_oc=AdlyFr3-nC8NYIPgpS-30IzP-eI4WJMm00FNJCMOPFzVajUjsdt1wiCjSX8lPImnVns&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnpUM-8nCG5SnfjiEVci2DD0F3egyBh-KXbLtKtlNQdeA&oe=694BD1CE)
 
 ## Attaching scripts to asset templates and updating the definition
 
@@ -161,26 +161,26 @@ You can attach a script to the asset template by:
 
 - Edit a script in the world from the property panel.
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452953164_512500601287896_1058603146175003068_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=mrLlqOu7FcQQ7kNvwH_522Q&_nc_oc=AdnAU1tLRC_JodHO7SkUxEJKtwIm3QiSN3ePH8LTCrEtTe7DSwE3avZ2K7YNn3Ij-8U&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfgWGJEK060Un-wrEydOWkC_Zh4wpqcVbqdVv-F99y5jlA&oe=69313C0E)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452953164_512500601287896_1058603146175003068_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=RxZXBsi7irQQ7kNvwFT2nva&_nc_oc=AdngMKx9NWf1jT2ZtCO86d0rsZsvqCxW70MSJhbj5FX3vvpe8NJIj4aA4bde3EfF424&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfkYHklzAf_Hnx-mMHs6mlrTC-AtItRSUMhxbKPJ6MmE4Q&oe=694BD24E)
 - When a script is attached to an asset template, you should see it appear as an override. You will see a blue dot next to **Attached Script** (above image) and two overrides applied: one for the script and one for motion (shown below).
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652931_512500564621233_8795829224957538121_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=6fvrZol2jtIQ7kNvwHIY2Aq&_nc_oc=AdmoUuGZeAzfSA_3zwCDQnnYqojs18nMXlHyvzYHe4OCwZxdoICzFHcrh1vOjOdpGoQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfiL9xW8MD5v8z_5XBUWgQI7ceqjpPG6DHfNU6Rnfa6ghA&oe=693144FA)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652931_512500564621233_8795829224957538121_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=6fffQR3hCjAQ7kNvwHvfV-U&_nc_oc=AdmiE0Vl4Xg7i-KoHKQEs3mac_82Ndf9E4pgHhAbVF7QFkMaiMPS7msEPVYAdgqVusA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Aflqc_SeHVaPVTUo3DcnkJ1_Cgfw0ZVCzpjE2OXa0vqBgA&oe=694BDB3A)
 - Edit the script’s source code by selecting **Open in external editor.** When the script’s source code is updated, this will also appear as an override.
 - Publish the script change through overrides. This will update the asset template definition with the script.
 - Publish the script change through the overrides panel. This will update the asset template definition with the script changes included in the latest version of the template definition. See the note at the end of this section for more information.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652238_512500577954565_6836600478890992788_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Y34IrlRTaiMQ7kNvwHr3Z_Z&_nc_oc=AdkhVYWgamesRRBv8j6iJzKurQ3v4wYL02rmUMMAN0cg30lh4wtEFmMglqCb8IuzDow&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfhyDrHPYynPyZqeimVlAjHHCNKA3sUiKbjdWUxkv-E2Bw&oe=69312133)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652238_512500577954565_6836600478890992788_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=tjYLsTbF_2UQ7kNvwH1be4e&_nc_oc=AdkNTw1xmLE496RdQ36h4RSWJlGuQb8iYm2CmqbMYL4UKjVhF3zkKViFOYQawqnLm0Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnK2TRc6-tleYZq8YPMR7R5e7hBEs6dAfo0Ka66g9fXJQ&oe=694BB773)
 
 ### Attaching the script to the asset template definition
 
 - Right click on the asset instance (or asset in **Assets**) to edit the definition.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452951204_512500597954563_4508069784119552394_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=b4EunaVKssIQ7kNvwG3cPHk&_nc_oc=AdnYTnXNHilVklSKnBn3MwyCBgqrHnNoSftSOfH0GsPnIJKqlz7lC317j7zUJO_ojpc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfhNQUaOBJOrCjDaBikEHRqYwXAH90PkcDKT7lAyyjFXZQ&oe=693127E7)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452951204_512500597954563_4508069784119552394_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=KOCoDgXQuOUQ7kNvwHHLmXX&_nc_oc=AdnFzEDVa0bfD-qRPCghe1rO9M4YmAFL5j9lEwsIB8hG8gjIEdm5IUyZwlRnCtISxIk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfmtUQIC3kLojFx6GexIpGiBSzN_m7PpuP0reEScdaHinQ&oe=694BBE27)
 - Edit a script in the world from the property panel.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452054064_512500541287902_5048148391692387350_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=zI2sJ3PJnycQ7kNvwFIs_kN&_nc_oc=Adkq5EgYeYrYiK-yCB3BlomPcqvAc5i576ZiqXGlKAJVTr-OThfOXgqF5_EseYOpZBQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_AfjlMb6PLAISU3iPitbLom62KJBf3KW39f6lgI01TnG9rA&oe=69312C7C)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452054064_512500541287902_5048148391692387350_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=m79F4pBNkyoQ7kNvwEvzj-V&_nc_oc=Adn1wWYf1luK8MrP9-yrAcFLsWwHDZktLQw62XQmDAN5Zn_wMS5w0QBlr6tvKOXuCCo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfldJWkPyJGr3PbFyjyDFBdlk11OCAqCi6I1XB1FADrAFg&oe=694BC2BC)
 - Save and publish the template definition. This will create a new version of the asset that includes the script changes. See the note below for more information.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452757259_512500557954567_7387970478247480678_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=fsqm3hcwY0gQ7kNvwHyfcnT&_nc_oc=AdlcAZJY3iMWN8pTsAkxdaHG--oaa6xWeGu9SwjvcuPJLDXauAokHBzpPKSt3NlhdqY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UzitLP1rP3sPwoI8Thm2sA&oh=00_Afii--twCsU-gyLIwKmPkDruzTNngX5gj9AIz_YtygwVVw&oe=6931477F)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452757259_512500557954567_7387970478247480678_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=fgXGFp4THa8Q7kNvwE0wAj7&_nc_oc=AdmjtgF_-KMdszKT4y8WoLmJYxGGj7oqBrspT92vxBb0ADD6Ug7j20Ou5oT4-Udhvy4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfmpnqnHLH34wzlTC_PCVmtdsUzkfzrHl31OMuX9E4x0LA&oe=694BDDBF)
 
 **❗️Important** : When you open a new world that uses this asset template, the script change will be included in the asset templates update. If the script in your world is on a different version than what is in the template update, accepting the template update will also update the script to be on the same version.

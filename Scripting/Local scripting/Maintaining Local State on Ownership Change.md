@@ -14,8 +14,8 @@ To ensure state information is passed from one player to another when an entity 
 
 API reference documentation:
 
-* [transferOwnership method](/hw-docs/Reference/core/Abstract%20Classes/Component.md)
-* [receiveOwnership method](/hw-docs/Reference/core/Abstract%20Classes/Component.md)
+* [transferOwnership method](/hw-docs/Reference/core/Abstract%20Classes/Component.md#transferownership)
+* [receiveOwnership method](/hw-docs/Reference/core/Abstract%20Classes/Component.md#receiveownership)
 * [SerializableState type](/hw-docs/Reference/core/Type%20Aliases/SerializableState.md)
 
 ## TypeScript example

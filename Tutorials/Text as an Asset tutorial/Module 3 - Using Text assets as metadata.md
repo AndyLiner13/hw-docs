@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Text assets can also be used to store metadata about the game. For example, you can store data about enemies, weapons, and environments as JSON data. Generating enemies using text does not necessarily require text as assets. However, as your world grows, the large volume of text can impact script sizing limits if the data is stored in TypeScript. Additionally, you can change or refresh this data by updating a single asset without engineering and without republishing the game.
 
-![Image of Station 2, which is a field where rows of monsters are spawned based on text assets](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488245749_688927723645182_272302914640578110_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=kWXC8s8BwV4Q7kNvwGMfFzq&_nc_oc=AdkGwn22xeIFCgtAA5Ridk2VmbqiOi1jPcRGQ6TzBRZmQWQ_b1M-olfNXxGi8z5pmz4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=8fDnwU6oRce7qqkOnSdBzg&oh=00_AfilhFcB9EDfeBYY1HZtyiazBfp6C5lOdp0QSCnQcPRU-A&oe=694639FC)
+![Image of Station 2, which is a field where rows of monsters are spawned based on text assets](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488245749_688927723645182_272302914640578110_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=kzyRc4mKdpEQ7kNvwGj6KsP&_nc_oc=AdkVbG7ChEsGLrGbc-T0lUTzncGsHQ5TM2okQjLv9kFov-7DV68wKZvBm6jf-u5HKPQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lbDd4P9hYo6KH5myH5p--w&oh=00_AfljGeuCkBCtY9tcWiTFJEfZJzvNugHULHng7WB9CFqj0w&oe=694BB83C)
 
 **How to use this module**:
 

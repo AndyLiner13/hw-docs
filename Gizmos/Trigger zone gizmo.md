@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 The trigger zone [gizmo](/hw-docs/Gizmos/About%20gizmos.md) triggers an event when you enter or exit a specified area.
 
-![Trigger zone gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578801646_863563276181625_6970024535789345268_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-IJ7qgWXZM0Q7kNvwFc41Eq&_nc_oc=AdnjG6uAuk-v2zW2eO_uTx8mxM8ZaU6DV3GKXHlQY9Lu_CcrNVenPzr10KFNopuxvFc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SsT8EL4R1xWP7GQ4laOhUQ&oh=00_AfgozjnvxKYqiEuKhyIw8KWamfIrbavkAx2Gkja-MvXBKQ&oe=693126DB)
+![Trigger zone gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578801646_863563276181625_6970024535789345268_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=2GJOfWpzbUwQ7kNvwFBalN_&_nc_oc=AdlJidPN6kPCAIlbx9YnkPG7rYQ_E0NJs4RMkGYYJYWAtahj7ltYa4xwMz3XmqZvaG0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6lL7lRC-9DMjQkt-aevsCg&oh=00_Afl-BWY-epXJoozGYw9eDjlFcbKt2Vq1IVSit1pSh6gXwg&oe=694BBD1B)
 
 ## Use the trigger zone gizmo
 
@@ -40,7 +40,7 @@ You can also programmatically control trigger zones using the TriggerGizmo class
 CodeBlockEvents are platform-emitted events for key runtime functionality, including gizmo activities.
 
 * For more information on CodeBlockEvents, see [CodeBlock Events](/hw-docs/Scripting/Events/CodeBlock%20Events.md).
-* For API docs on CodeBlockEvents, see [CodeBlockEvents](/hw-docs/Reference/core/Variables/CodeBlockEvents.md).
+* For API docs on CodeBlockEvents, see [CodeBlockEvents](https://horizon.meta.com/resources/scripting-api/core.codeblockevents.md/).
 * For specific documentation on the TriggerGizmo API, see [TriggerGizmo class](/hw-docs/Reference/core/Classes/TriggerGizmo.md).
 
 The following script can be attached to a Trigger Zone entity that you have deployed in your world:

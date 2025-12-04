@@ -6,7 +6,7 @@ You can inject a cutscene into your world experience using transitions of a fixe
 
 In the final station of this tutorial is a magic green button.
 
-![Button in the world to activate the cutscene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/472790526_632772169260738_7344563092973262743_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=egK7wtG26hoQ7kNvwEBd-6F&_nc_oc=AdnHj_vbgeaAZ-aedf_79jKcyIBr5dsj7sAoaYHss6YhLw-VcZKEEfB_iI0br8IVeWE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=xuCA2fntBUacGynlTBjUIw&oh=00_Afj2fRo0IWzlV1CShvrsOkSHCkPsi5L_nCkatyhVetNJyA&oe=69462EB3)
+![Button in the world to activate the cutscene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/472790526_632772169260738_7344563092973262743_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=vf6mJbs9tvsQ7kNvwGZ8vFu&_nc_oc=AdlDAQJQAGaBHK9ol_f-N1jw1ZtE6tGttT--SB6gVD4smqco0In5je6q4cemC4me8Y4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3KNejq-gscdM8bvcyhcI6g&oh=00_AfkIA5dl9zLAQ-3guo6b67XWA5CpTRSQdVVnMNY9k2AuKQ&oe=694BE533)
 
 When this button is pressed:
 
@@ -131,9 +131,9 @@ moveDuration: {type: hz.PropTypes.Number, default: 5},
 robot: {type: hz.PropTypes.Entity},
 ```
 
-**Tip**: You can modify the robot animation to use different emotes. Change the value of the parameter for `setAnimationParameterTrigger()` to experiment. For more information on available emotes, see [NPC Scripts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-scripts).
+**Tip**: You can modify the robot animation to use different emotes. Change the value of the parameter for `setAnimationParameterTrigger()` to experiment. For more information on available emotes, see [NPC Scripts](/hw-docs/Desktop%20editor/NPCs/NPC%20Scripts.md).
 
-**Tip**: You can build even more complex sequences in this location, inserting different NPCs at this location. For more information, see [NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npcs).
+**Tip**: You can build even more complex sequences in this location, inserting different NPCs at this location. For more information, see [NPCs](/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md).
 
 ## Checkpoint
 

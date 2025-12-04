@@ -6,20 +6,20 @@ A frame update cycle in a VR world is the repeating process that updates and ren
 
 Every action in a world is performed within a frame consisting of phases that execute in the following order:
 
-- **[Simulation](#simulation)**:
+- **[Simulation](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#simulation-phase)**:
   * Updates player movement and recorded animations.
   * Runs code before physics calculations.
   * Computes physics updates and detects collisions.
   * Runs code after physics calculations.
-- **[Scripting](#scripting)**:
+- **[Scripting](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#script-phase)**:
   * Handles CodeBlockEvents, LocalEvents, and NetworkEvents.
   * Processes player input.
   * Runs async callbacks.
   * Commits scene graph updates.
-- **[Synchronization](#synchronization)**:
+- **[Synchronization](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#synchronization-phase)**:
   * Processes received network information.
   * Sends network updates.
-- **[Rendering](#rendering)**: This process is only performed on player’s devices and not the server.
+- **[Rendering](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#rendering)**: This process is only performed on player’s devices and not the server.
   * Calculates views of the finalized frame for both eyes.
   * Performs post-processing effects on the images.
   * Displays the images on the player’s headset.
@@ -31,14 +31,14 @@ Simulation is the process of calculating the world state at a specific moment in
 Simulation includes the following tasks.
 
 - **Pre-physics updates**
-  * Broadcasts the [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_world) event [locally](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the player’s position so physics can react to the movement; however, you don’t typically use this event to move entities.
+  * Broadcasts the [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_world#onprephysicsupdate) event [locally](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the player’s position so physics can react to the movement; however, you don’t typically use this event to move entities.
 - **Physics updates**
   * Updates the player’s position and pose based on locomotion input.
   * Updates animation playback.
   * Runs physics calculations, applying force and torque to entities that have [simulation enabled](/hw-docs/Desktop%20editor/Physics%20Overview.md#physical-entities).
-  * Detects collisions with objects, players, and [triggers](/hw-docs/Gizmos/Trigger%20zone%20gizmo.md), and queues the associated [CodeBlockEvents](/hw-docs/Scripting/Events/CodeBlock%20Events.md) to run in the [scripting phase](#scripting).
+  * Detects collisions with objects, players, and [triggers](/hw-docs/Gizmos/Trigger%20zone%20gizmo.md), and queues the associated [CodeBlockEvents](/hw-docs/Scripting/Events/CodeBlock%20Events.md) to run in the [scripting phase](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#scripting).
 - **Post-physics updates**
-  * Broadcasts the [World.onUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_world) event [locally](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the position of entities, or to update the player’s position as a result of physics interactions.
+  * Broadcasts the [World.onUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/reference/2.0.0/core_world#onupdate) event [locally](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md), which activates all local event listeners. In your scripts, you typically implement callbacks for this event to update the position of entities, or to update the player’s position as a result of physics interactions.
 
 For more information about physics simulation, see the [physics overview](/hw-docs/Desktop%20editor/Physics%20Overview.md).
 
@@ -49,20 +49,20 @@ The scripting phase initializes components, handles event processing, applies pe
 The scripting phase includes the following tasks.
 
 - **Scene graph preparation**
-  * Buffers the current [scene graph mutations](#scene-graph-mutations) performed throughout the frame. Mutations performed after this step aren’t committed to the scene graph for this frame.
+  * Buffers the current [scene graph mutations](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#scene-graph-mutations) performed throughout the frame. Mutations performed after this step aren’t committed to the scene graph for this frame.
 - **Component initialization**
   * Executes script files due to the world instance starting, [asset spawning](/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md), or [world streaming](/hw-docs/Scripting/Asset%20spawning/World%20Streaming.md). In this step the script is only run in the top-level scope.
   * Instantiates and starts new components due to the world instance starting, asset spawning, world streaming, or due to [ownership transferring](/hw-docs/Scripting/Local%20scripting/Ownership%20in%20Meta%20Horizon%20Worlds.md) to the current client. For more information about instantiating components, see the [component lifecycle](/hw-docs/Scripting/TypeScript%20Script%20Lifecycle.md#typescript-component-lifecycle) guide.
 - **Event processing**
   * Runs [NetworkEvent](/hw-docs/Reference/core/Classes/NetworkEvent.md) listeners.
   * Runs [PlayerInput](/hw-docs/Reference/core/Classes/PlayerInput.md) callbacks.
-  * Runs [CodeBlockEvent](/hw-docs/Scripting/Events/CodeBlock%20Events.md) listeners including [built-in](/hw-docs/Reference/core/Variables/CodeBlockEvents.md) code block events, such as those prepared in the [physics update](#simulation) step.
+  * Runs [CodeBlockEvent](/hw-docs/Scripting/Events/CodeBlock%20Events.md) listeners including [built-in](/hw-docs/Reference/core/Variables/CodeBlockEvents.md) code block events, such as those prepared in the [physics update](/hw-docs/Desktop%20editor/Frame%20Update%20Cycle.md#simulation-phase) step.
 - **Scene graph updates**
   * Applies the scene graph mutations prepared at the beginning of the scripting phase.
 - **Final Callbacks**
   * Runs any overdue asynchronous callbacks until too much time elapses, and then delays any remaining callbacks until the next frame. This does not apply to events, such as code block events and network events.
-  * Calls the [transferOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md) and [receiveOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md) callbacks.
-  * Disconnects event subscriptions from components marked for disposal and calls the [Component.dispose()](/hw-docs/Reference/core/Abstract%20Classes/Component.md) callback on them.
+  * Calls the [transferOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#transferownership) and [receiveOwnership()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#receiveownership) callbacks.
+  * Disconnects event subscriptions from components marked for disposal and calls the [Component.dispose()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#dispose) callback on them.
 
 For more information about scripts, see [Scripting using TypeScript](/hw-docs/Scripting/Scripting%20using%20TypeScript.md).
 
@@ -72,8 +72,8 @@ A scene graph mutation is a property update on an entity in a scene graph. The c
 
 The timing for committing scene graphs is based on these conditions:
 
-* Scene graph mutations run in event handlers for the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) and [World.onUpdate](/hw-docs/Reference/core/Classes/World.md) events are seen in the next frame unless they update the player’s position.
-* When the player’s position is updated in the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event, the change is available immediately for physics calculations. The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md) event is useful for moving players but not other entities.
+* Scene graph mutations run in event handlers for the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) and [World.onUpdate](/hw-docs/Reference/core/Classes/World.md#onupdate) events are seen in the next frame unless they update the player’s position.
+* When the player’s position is updated in the [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event, the change is available immediately for physics calculations. The [World.onPrePhysicsUpdate](/hw-docs/Reference/core/Classes/World.md#onprephysicsupdate) event is useful for moving players but not other entities.
 * Scene graph mutations performed outside the `World.onPrePhysicsUpdate` and `World.onUpdate` events are committed to the scene graph 2 frames after being performed.
 
 At the start of the script phase, all pending mutations are buffered, then the frame continues with component initialization and event callbacks. Any new modifications during those callbacks are buffered until the next frame. When it’s time to commit the mutations, only the ones that were prepared at the start of the script phase are applied to the current frame; newer modifications wait for the next frame. This buffering system means that modifications made during the script phase aren’t visible in the same frame.

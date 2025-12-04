@@ -6,13 +6,13 @@ You can export the worlds you create in Horizon into an FBX file which can be lo
 
 It’s possible to choose whether to export your whole world or just a small selection of assets, and decide whether to use the world-origin as the origin in your FBX file or use the center point of the models you have selected as the origin.
 
-In Desktop Editor, you can find the export button in the top left menu button: ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476918226_666866499184638_5582886586856401448_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=GioSDwbFikcQ7kNvwENJZ6p&_nc_oc=AdmCFdVEMx31Iz6tmUfOp7d2-ip2_gNHLkmNsEtAJZQBacN02Fp4T207Ycujau3nKeI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PHb-OXxTqEWXn8fgt34Dgw&oh=00_Afjah4OYfeh0pW5h_Yt7ibR43LAlKAvE_GyIGH3t_dk7vA&oe=69311E1E)
+In Desktop Editor, you can find the export button in the top left menu button: ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476918226_666866499184638_5582886586856401448_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=GvRhmvnZrXYQ7kNvwGucCTj&_nc_oc=AdkVcU1UFFFT4EdVa89E7U1SFbZe3Q4OWWbJfVdXcw5-2wZoW9do9C40jjqt5E7Gj_A&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kW-ln9PGzg8kBJX9RsI6Vg&oh=00_AfkTv6RkKm1JC-_sqMcPDGhSP9UDFo9Lgld25Hx86IfK5Q&oe=694BB45E)
 
 This opens a menu where you can select:
 
 * The export objects, whether to export the entire world or just the currently selected objects
 * The scene center point, whether to use the world’s origin or use the center point of the selected objects.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481921039_666288129242475_8787183510928356957_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=uuJ-8Xrmd0wQ7kNvwEyjvqO&_nc_oc=AdndTQz1vpBWHPagpSvv8HxF28ZT9f4uzXp8wJrHRws_iFAXNXVTOOucNWs3qZSCyis&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PHb-OXxTqEWXn8fgt34Dgw&oh=00_AfhkwkvpAl5svHaHrNozD4IespW2FFgU7zYvHkxPJXfoGQ&oe=69313E3F)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481921039_666288129242475_8787183510928356957_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=JMySK8OqSa8Q7kNvwHS_g6j&_nc_oc=AdkggwwagUvfuIiutJEljEfDTqTRDn5Rmm4KP5HQwESv52ohOZ2SQ8HyWZ6HS4w8E6I&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kW-ln9PGzg8kBJX9RsI6Vg&oh=00_AfkuDQQHf_ra5K9LIHZ1K2ITrHlkOVocz98_VjAbkeXkCQ&oe=694BD47F)
 
 Clicking export will create a file in a folder called FBXExport located wherever the Horizon app is installed.

@@ -14,7 +14,7 @@ export declare class PanCameraMode implements ICameraMode
 
 ## Remarks
 
-The [Camera.setCameraModePan()](/hw-docs/Reference/camera/Classes/Camera.md) method enables pan camera mode. For more information on setting camera modes at runtime, see the [Camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.
+The [Camera.setCameraModePan()](/hw-docs/Reference/camera/Classes/Camera.md#setcameramodepan) method enables pan camera mode. For more information on setting camera modes at runtime, see the [Camera](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.
 
 ## Properties
 

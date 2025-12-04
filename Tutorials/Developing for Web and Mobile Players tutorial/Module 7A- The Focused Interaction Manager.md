@@ -91,7 +91,7 @@ hz.Component.register(sysFocusedInteractionManagerServer);
 
 Let’s start building the Focused Interaction Manager for each player now. This API must be executed locally. In the Scripts panel, please verify that the sysFocusedInteractionManagerLocal script is configured to be executed in local mode:
 
-![Screenshot of Properties panel for sysFocusedInteractionManagerLocal script being set to execute in Local mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452701853_512509371287019_4253859733326735068_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=RxOKwwy_tdUQ7kNvwGx-9J4&_nc_oc=AdkJhthZlKZ1smOFeB6FEZvPGzIjYs1UJ8BnqW8RvQJ9VEN_J_F6W21zXFrGl3ma3ro&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GL2FYRWKCqMUMYZ9zXsRSQ&oh=00_AfhItjdUrtI5XLAOzc6kX1ANfk_2_TqD49Hmqdo2dtWxng&oe=69463E09)
+![Screenshot of Properties panel for sysFocusedInteractionManagerLocal script being set to execute in Local mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452701853_512509371287019_4253859733326735068_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=MpuvN3xpUPIQ7kNvwEwsrqW&_nc_oc=Adl1WoxaKRy6L0ka1cDS6R42c2g7x9OWIeCP7RSPsPn3beDYeU4ey4dMWM7KJLXWW08&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=94pLcs7WxXA4anm6hmrs5g&oh=00_Afnmr4Dh7wKjQO0ow9epGwpHiYVjIp_PpEJORS8t1xaiOg&oe=694BBC49)
 
 #### Focus mode:
 
@@ -397,7 +397,7 @@ Please verify that you have as many Focused Interaction local managers (with the
 
 We need one manager per player, and we need one Focused Interaction Manager for the server, with the sysFocusedInteractionManagerServer script attached:
 
-![Screenshot of Hierarchy panel showing the collection of FocusedInteractionManager entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488979610_692135306657757_5915353117185885214_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=i6OJuEM9VK0Q7kNvwHyCaTI&_nc_oc=AdnDVg_l9_0GtlnU84jko-JK-DzH5w9X7drJwwIiaqyLuUqVhha4TsH7PAZNa6UxouE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GL2FYRWKCqMUMYZ9zXsRSQ&oh=00_AfgpEUnJK3Du488ZcBUjWqN_1fHBnI9PLm1t0Pyg0QMyGw&oe=69462C9B)
+![Screenshot of Hierarchy panel showing the collection of FocusedInteractionManager entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488979610_692135306657757_5915353117185885214_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=ef28FzY5xhIQ7kNvwGeBBpk&_nc_oc=AdlRNHylQIXE2pn_YujCy28AOq0NwxTDI4u8S8KnPiiUl4yxmhbpwD7VfLQ_-C-YuTg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=94pLcs7WxXA4anm6hmrs5g&oh=00_AfmT3ZpQ77n1ll-4UHKTe_JoVKWD6g9IiFrarJtaaPQjGg&oe=694BE31B)
 
 ## Modify the Player Manager
 
@@ -409,7 +409,7 @@ First, verify that all Focused Interaction Managers set to local have the gamepl
 
 A **gameplay tag** allows you to identify entities that are related and should have the same actions performed on them.
 
-![Screenshot of local version of focused interaction manager with the FIManager gameplay tag applied to it](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/488970599_692135353324419_2672518123609734482_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=3SNNqOdXhW0Q7kNvwHdFBr2&_nc_oc=AdmJfPa-ZrBBlHQdAT9n7y1ZVCKITw0zmWTKPW1_gd2zyMhaD3Bn9WcuE4xRWG1XCcg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GL2FYRWKCqMUMYZ9zXsRSQ&oh=00_AfjaPL0_-dxtz1ma1SWYWSfmpHwmzBG9gxMUzcDT7QPaVg&oe=69465D71)
+![Screenshot of local version of focused interaction manager with the FIManager gameplay tag applied to it](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/488970599_692135353324419_2672518123609734482_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=nkrz9gbIRdgQ7kNvwGDbTqg&_nc_oc=AdkD6mg-QpOlxtCzmzFKHBYv2O9xnKl9IbC2Iy_zaRNe6nVZBhFSyn5ZwbUf66cdaKU&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=94pLcs7WxXA4anm6hmrs5g&oh=00_AfnHqMStQGFodj62RwrZlmZZdHk2z_ByXS23SiA8E4B3Pg&oe=694BDBB1)
 
 #### Acquire list of managers:
 
@@ -555,8 +555,8 @@ To double check if you have correctly implemented the Focused Interaction Manage
 
 #### Additional documentation:
 
-* [How to Use Focused Interaction](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/focused-interaction/)
-* [Local Scripting for Mobile and Web](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting/)
+* [How to Use Focused Interaction](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md)
+* [Local Scripting for Mobile and Web](/hw-docs/Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
 
 #### API docs:
 

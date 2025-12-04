@@ -6,11 +6,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This station demonstrates how you can store content data for your custom UIs in JSON files, which are uploaded and referenced in TypeScript to populate three separate but related custom UIs:
 
-![Image of Station 8](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083903_665004069370881_8948606061292091523_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=_KpsQlDieEAQ7kNvwFWBEJF&_nc_oc=AdkjukCUd_5RpHHZdY2PgfhegSh1h46tQPERGSx1VFWZ_LhZ7MbhLJidzOmAflPgfd4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uMJl0hLjo1kxf_uAdIq78w&oh=00_AfgOyNbepsCleNh8Ix07SpIt0Nimzft6p2IxMgsVosKUlg&oe=69462E5C)
+![Image of Station 8](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481083903_665004069370881_8948606061292091523_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Tzvb59_AW88Q7kNvwGqIG2i&_nc_oc=Adn5bGefjVXdG6MSLjNtft0k1Ojjz3-gh4RziNx5Aaqxq0fbNzDmnwcvTgTHdF2TXks&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KaQvS6TEcFDVvu5Eyr0r3g&oh=00_AfnsPqOFQARjEmJU1WVvGYB7Egma2NUXCjKomSwGgNgahw&oe=694BE4DC)
 
 In the above example, each custom UI is a read-only informational kiosk. Since the structure of the custom UI is consistent, the content itself can be managed externally, which allows non-engineers to manage the content, while engineers maintain the custom UI definitions for all three in a single TypeScript file.
 
-![Image of a Custom UI populated by JSON data](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/476383580_646003151270973_2654597415475476881_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=9c25DtWh-AMQ7kNvwFuirJG&_nc_oc=AdmL2bfT6d0OuWwxQsMqg2JtVY-zBqjPf-kL-fCunZOMDQOomKJAQ1b1Toqj_xKxTqA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=uMJl0hLjo1kxf_uAdIq78w&oh=00_Afj-M5y1kKrrJvEDHhc-VL2j0ZNkkCZn9lgP4NO3-IJovg&oe=69462D19)
+![Image of a Custom UI populated by JSON data](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/476383580_646003151270973_2654597415475476881_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=6l2OrUxxlMQQ7kNvwH393e4&_nc_oc=AdkkAuAGgs6hIOLL2Vz46UrieVX_buoi0s6vL1d4h7KvMArtokdNyAqSJwXSExaFT4o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=KaQvS6TEcFDVvu5Eyr0r3g&oh=00_Afm-qEwKg7ccX72CPa-cjyFIa6qfH0JsXyEGQk3TzZccog&oe=694BE399)
 
 #### How it works
 

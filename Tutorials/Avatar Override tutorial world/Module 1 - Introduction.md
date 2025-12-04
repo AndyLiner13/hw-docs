@@ -2,15 +2,15 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # Module 1 - Introduction
 
-![Avatar Override Tutorial World thumbnail](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/556064064_828614589676494_370276187367745199_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=r-ihLEgVCkgQ7kNvwH-nGYz&_nc_oc=AdkANrvUe0JnsZpf64aT8h7a1BPDeI1Uc6Ulzs_5qo3ZwvJqsMBlCXzy2xJMwnoEX2g&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QrqaSDshIsxiPH6PPICSWw&oh=00_AficOJCjgYg6481l3otznuWW7hWArso4PQ-8Ww9DGM977g&oe=694648AA)
+![Avatar Override Tutorial World thumbnail](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/556064064_828614589676494_370276187367745199_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Cn3k9Ry6QgIQ7kNvwH0Jaow&_nc_oc=AdnUKje6rIxwgkhbGhyokZ-vgc8LR-bWizUwURBPyWhEl_6yF6K2k0IPTM6fIRJ4YzA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CP8g-pSo6pKETiuRnIIQ1w&oh=00_AfliVVeyaRBOGYE1NuV4Oxhp6vh6dCPiSCW_GD1qu2kSKA&oe=694BC6EA)
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md).
 
 Note
 
-You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-monetization-partner-program).
+You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 Note
 
@@ -58,7 +58,7 @@ By completing this tutorial, you will understand how to:
 * Ensure you are a member of the Meta Horizon Creator Program (MHCP) and have accepted the monetization Terms of Service
 * Basic knowledge of Horizon Worlds scripting and TypeScript
 * Understanding of avatar systems in Horizon Worlds
-* Review the official [Tutorial Prerequisites](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites)
+* Review the official [Tutorial Prerequisites](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Prerequisites.md)
 
 ### Enable World Sim and Auto-start
 
@@ -67,7 +67,7 @@ The Custom UI instructions within the tutorial are generated entirely from TypeS
 * Auto-start simulation on Preview entry
 * Auto-stop simulation on Preview exit
 
-![World Sim settings screenshot](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/555482413_828614579676495_1469154043201174359_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=c2u2YOV5TAEQ7kNvwG-_s2b&_nc_oc=AdmxvgMAqLrIXcpPkPMx9-7pd7H0DGNJ7aluTiuV5-xBL-AEPXBeqeDEknLIoMOyFk0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=QrqaSDshIsxiPH6PPICSWw&oh=00_AfiYZL-QvDUF7iWAnUHIC1XyfKGEr9R3qlvV82g6crqdwg&oe=694637DC)
+![World Sim settings screenshot](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/555482413_828614579676495_1469154043201174359_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=uIgJVCqqNg8Q7kNvwHsaiGT&_nc_oc=AdniV6HUFiRhMK_Z272dwyCJ95ZCQ6sEfGJ02RETC0QTVRIfp8lZrROE_tf6B6TVGb0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=CP8g-pSo6pKETiuRnIIQ1w&oh=00_AfmBttCdBatKYEmxBcRL6JlD6t48DVnPY_Is4IhRbxa58A&oe=694BB61C)
 
 ## Learning Pathways
 
@@ -79,7 +79,7 @@ You can follow along with the steps of the tutorial content by using a copy of t
 
 **VR headset:** To build the world described in this tutorial, make your own copy of the **Avatar Override Tutorial World** from the **Tutorials** tab in the **Create** menu.
 
-![Screenshot of selecting tutorial world in Desktop Editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558311413_828614603009826_3691302933105413792_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=W_LMl5hPW5sQ7kNvwHUPziP&_nc_oc=Adlv0M6chs7FHBPfFOUJJrWFP994RLwaHJqZuu9LscVCcMAYwPnSX8Kgn-QFL8RbINg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QrqaSDshIsxiPH6PPICSWw&oh=00_AfjDuDPx1uFzsWhYOywZsCL-fB5r5klOoBo5OMkugD_c_A&oe=694641AD)
+![Screenshot of selecting tutorial world in Desktop Editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558311413_828614603009826_3691302933105413792_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=XdKYX_EDSmAQ7kNvwHsYQ3n&_nc_oc=Adkb_xc7ujhcaftzkENHzNGDPCGK5f65nQfafoIgT42HHzpNKnFSxZMKCISrUjU5s_Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CP8g-pSo6pKETiuRnIIQ1w&oh=00_Afl4yNvgXlob5ZMMs5alfM3JXZi5DtrmuE5wzrZ9gj0rgQ&oe=694BBFED)
 
 ### Explore the Complete World
 

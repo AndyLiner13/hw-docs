@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_disposeo
 
 # DisposeOperationRegistration Interface
 
-The object returned from a call to [DisposableObject.registerDisposeOperation()](/hw-docs/Reference/core/Interfaces/DisposableObject.md). This object can be used to run the operation manually before dispose time, or to cancel the operation entirely.
+The object returned from a call to [DisposableObject.registerDisposeOperation()](/hw-docs/Reference/core/Interfaces/DisposableObject.md#registerdisposeoperation). This object can be used to run the operation manually before dispose time, or to cancel the operation entirely.
 
 ## Signature
 

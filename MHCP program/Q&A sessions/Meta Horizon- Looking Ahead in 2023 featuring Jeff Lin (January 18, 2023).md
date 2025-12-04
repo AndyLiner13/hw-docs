@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # Meta Horizon: Looking Ahead in 2023 featuring Jeff Lin (January 18, 2023)
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1562296464323024_8961743878982040856_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=E5fJ8bYqJxkQ7kNvwFPNtJi&_nc_oc=AdnRrOZR01-g2HB2u54c7gK0Se_C0KOsg4dzrzefgYYlxnDO4_dELi6MOtRA_K6UYu8&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=MGAVzkHRcKboe79xOLAaog&oh=00_AfixlFSDp9oGMs2xv4h7HRoJCVNBFQiLowtliTAKxrHyyA&oe=691CCF08)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1562296464323024_8961743878982040856_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=7AFmxCDfEDYQ7kNvwEIVh7v&_nc_oc=AdkzwXCVv-mSx_7CJ74xWv1TeMnyNnsNO8lOEE2dxmza98Q34VPcIPwaOC9EdKDa3aA&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=LUhhj2Pz0RfeRAlBJyiT6Q&oh=00_AfkClZFmpkFjpZCL49V2huRkDj0BrYgnXfHumi-RKZKHSA&oe=69376548)
 
 Look ahead to the future of Meta Horizon in 2023! In this presentation with Q&A, the Game & Design Director of Horizon Jeff Lin walks viewers through lessons learned in 2022 and best practices for building successful “universes” of worlds in 2023.
 

@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 You can use the Desktop Editor to view, create, edit, delete, debug, sort, and search quests, leaderboards, and variable groups, just like you can in VR.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580780862_863636819507604_5272761834855440648_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=IyMNdtPUnMEQ7kNvwHPnxDk&_nc_oc=Admc_Z0bg7wfvoIZZRAS-jFBDskToSqcCe1aERP4i7Gn8hGpSea93POdBmRCtFr09qk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=J0UdH2hoX6fR8jUatMwiEw&oh=00_Afh018mWo65q26rpDtT_dL2kGVIPEWEfQjFY74IUDgv1ug&oe=69313EF9)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/584304626_869065612298058_6021808103906863496_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=NjLIoHz553EQ7kNvwEz0MBY&_nc_oc=AdnVcQzqYUVIwPnlYQyQ82w9j2Ow7B3_ee4TLYZxMHP9N3UAMNt3JU0yIDaHFGcl01g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bwzPjkQ-biOk3EgaioakZg&oh=00_Afl4Ys0OzrsKgaTCrMXazxRvBGH73GlqeTQKddz3zGOEsA&oe=694BC8D3)
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ The first step for using all procedures in this article is to open the **systems
 
 - Hover over the Quest that you want to edit.
 - Click the edit icon.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/582285413_863661432838476_4051271503689238263_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=D7soJu5HmDoQ7kNvwHASedT&_nc_oc=Adnu8xrvbqvk7CjM1J2AiQr5fuphPRNcQPe1ww0yhUBfuQFseXp4bkARay1bf2iJ3_Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=J0UdH2hoX6fR8jUatMwiEw&oh=00_AfhqJ13mofYoUeLwDE-k8ZwiVX6zQzKpUgmkOHhiR07zMQ&oe=69313E3E)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/585437432_869065588964727_5999155668983837451_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=dzVETxvR-7UQ7kNvwFJN68x&_nc_oc=AdkFHINr1Pn4NWfjvvBYHOqoWxgFPfzjo3Yt0rneDIYFLdQXAatbl4juO4DfxsdDpzw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=bwzPjkQ-biOk3EgaioakZg&oh=00_AfnjcEPd2DbH_18LutEWzADOpjmR-F3DXkw-AdmZqCRueA&oe=694BDE7C)
 - Make any changes you want.
 - Click ‘Save’.
 
@@ -25,7 +25,7 @@ The first step for using all procedures in this article is to open the **systems
 
 - Hover over the Leaderboard that you want to edit.
 - Click the edit icon.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/582888682_863661402838479_2297873612632903570_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=KzSoz_r1z4IQ7kNvwFtN--t&_nc_oc=AdmqjvLyaYX7kizYqsheCYLuyu80Gav_0AzPPuWptvVsmS9wcUrzHe1Tulsqtuboupg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=J0UdH2hoX6fR8jUatMwiEw&oh=00_AfiVSCWY_zu-5Q6x2_rVTkRC1TRDCuMYm-73ZN68-vcSBg&oe=6931460E)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/584569370_869065598964726_4391729280616257201_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=fStKkrKzNjYQ7kNvwFj5N7-&_nc_oc=AdmD4T0zrzbhWrMqiZwmTDy6DZj2ravHdKkE0bIpTN2hv4RFZeFLHj06nJlea1K7kLg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=bwzPjkQ-biOk3EgaioakZg&oh=00_AfmtUnREV3rEXbF0YSxxNuxNbe-N3plVxm-VoYe7t11XhQ&oe=694BCC8B)
 - Make any changes you want.
 - Click ‘Save’.
 
@@ -33,6 +33,6 @@ The first step for using all procedures in this article is to open the **systems
 
 - Hover over the Variable Group that you want to edit.
 - For variable groups, you will need to hover over the variable group, click on the overflow menu, and then select “Edit variable group”.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580476262_863661436171809_8913300902540574908_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=OaOWQva9H84Q7kNvwFNxMbx&_nc_oc=Adk3Q5qK4rCuioi_7miX493-OKDhxCtNn2NtAyqdadd8qWnjwLz6LPFUaybJWVVnqqo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=J0UdH2hoX6fR8jUatMwiEw&oh=00_AfhJFTw5F69VVs_eArstOyaEXS1gEXrTTugzdvJNDy263A&oe=69312D0D)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580476262_863661436171809_8913300902540574908_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=8-YwbXTv8f0Q7kNvwGDF_j1&_nc_oc=AdlKQgzWfJTlmTy6f31nr73umL0Iz9EKkYXQ_8CMoba5em0Hj0K3AoNM6XSbhyRBnRQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bwzPjkQ-biOk3EgaioakZg&oh=00_AfkhPEqb58c3tFYebe1DJ73u9H2KEqpBHwItFft0VmbREw&oe=694BC34D)
 - Make any changes you want.
 - Click ‘Save’.

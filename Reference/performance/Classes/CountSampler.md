@@ -27,4 +27,4 @@ Creates a sampler that can be used to record an event for focusing on the event 
 
 |  |  |
 | --- | --- |
-| **count(amount)** | Warning: This API is now obsolete. Use [HorizonCountSampler.count()](/hw-docs/Reference/performance/Classes/HorizonCountSampler.md#horizoncountsampler-class) instead. This method is deprecated.      Signature  ``` count(amount: number): void; ```  Parameters  amount: number  Returns  void |
+| **count(amount)** | Warning: This API is now obsolete. Use [HorizonCountSampler.count()](/hw-docs/Reference/performance/Classes/HorizonCountSampler.md#count) instead. This method is deprecated.      Signature  ``` count(amount: number): void; ```  Parameters  amount: number  Returns  void |

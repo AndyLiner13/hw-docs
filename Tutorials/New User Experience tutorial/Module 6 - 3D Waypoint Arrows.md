@@ -39,7 +39,7 @@ The `ArrowAssignManager.ts` script handles the core logic of when players receiv
 
 - **Create the arrow assignment manager**: Create an empty object in your world to house the arrow assignment system. Attach the `ArrowAssignManager.ts` script to this object.
 
-  ![Arrow assignment manager](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548084218_817222380815715_5691887712263177527_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Cq83L0E84K0Q7kNvwGp5GXo&_nc_oc=Adl6V07cr-hre-2SqCrvz6cPyfmYjY9ua0SIg1huC4mpIchrPQm_cUGOC0aFiOgOV14&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=sabfN57dej7H-YX2P2mePw&oh=00_AfhyBMU-OU0xfozyZFtSzmJwfA1ddxvflTY_NWn9JNI9YQ&oe=69465E28)
+  ![Arrow assignment manager](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/548084218_817222380815715_5691887712263177527_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=SV2qi1tQaRcQ7kNvwH9uyMK&_nc_oc=Adn_3S5wQJbyzQrqDw3ly0dMKBvHm0Uj_BAx-Fp-QJIXjGoXtpjVQ5ZT9a9QwqjtfD4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3zRIwl9_5tZvc_EtgbDfA&oh=00_Aflf3uDa-iDPufXCZHAuQWfaIj33DT_pObROdNOG9nXJqw&oe=694BDC68)
 - **Configure trigger zones**: Set up the essential trigger entities in the script properties:
   * **startArrowTrigger**: Trigger zone where players first receive arrows (typically at tutorial start)
   * **removeArrowTrigger**: Trigger zone where arrows are removed (typically at tutorial end)
@@ -106,6 +106,6 @@ Once your arrow system is implemented, test thoroughly:
 - **Cleanup Testing**: Confirm arrows disappear when entering remove triggers
 - **Performance Testing**: Ensure smooth arrow rotation and minimal frame rate impact
 
-![Arrow assignment example](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/550213105_817222390815714_6418903758704150581_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=XQfzBfICFfkQ7kNvwFxJVqw&_nc_oc=Adl8nriKuYnASRUg8o2z8vngf6xDxxwmnrjm4DPustQxiQWQOkdaWt50uLEaL2psvLc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=sabfN57dej7H-YX2P2mePw&oh=00_AfhU9I0KTw9qZhpuHOSZKvKSr0ew5pC9dyOEuuzh1IfJFw&oe=69465273)
+![Arrow assignment example](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/550213105_817222390815714_6418903758704150581_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=A0G4YpThjCEQ7kNvwHrNo0c&_nc_oc=AdmUxFek_kEo0XzaZ3Ikn6tED2fnmniyw906TLGZ88msfuT0qJjlFCfXK968ymO_jm0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3zRIwl9_5tZvc_EtgbDfA&oh=00_AfnqrpNRKHATKX2qLHJJmVxd4WJnZKvYi_TWJ882DWN-zA&oe=694BD0B3)
 
 With a comprehensive 3D waypoint arrow system in place, you can provide players with intuitive floating guidance that dynamically tracks objectives, adapts to quest types, and provides smooth directional assistance throughout their journey in your world.

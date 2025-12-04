@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycasto
 
 # RaycastOptions type
 
-Options for the [RaycastGizmo.raycast()](/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycastgizmo-class) method.
+Options for the [RaycastGizmo.raycast()](/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) method.
 
 ## Signature
 

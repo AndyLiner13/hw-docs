@@ -12,7 +12,7 @@ export interface IUI
 
 ## Remarks
 
-For an example, see the [Lobby tutorial](/hw-docs/Tutorials/TypeScript%20Multiplayer%20Lobby%20tutorial/Module%204%20-%20Starting%20the%20Game.md).
+For an example, see the [Lobby tutorial](/hw-docs/Tutorials/TypeScript%20Multiplayer%20Lobby%20tutorial/Module%204%20-%20Starting%20the%20Game.md#display-a-countdown-timer).
 
 ## Methods
 

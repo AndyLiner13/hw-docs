@@ -8,7 +8,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 It’s a good idea to use [Tracing](/hw-docs/Performance/Performance%20tools/Tracing.md) to verify the cost of haptic feedback in your world. In some cases, the cost can be extreme. In this case you should look into modifying/removing the haptic feedback.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452415052_512500641287892_3419482455229549771_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=P5JRsjaCBxYQ7kNvwFYBTNp&_nc_oc=AdkkwJkbX0BpA-IPmoMitTUaQBUn_CulSy4sKFz3pPIKNZBu0iFoCKP5FfFijom_Rqc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_AfgzSljYdzusiEJqlN44lfzzkb5UsepENyjX4NYSWjslfQ&oe=69314133)*In this example, haptic feedback takes ~7.8 ms per frame when active.*
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452415052_512500641287892_3419482455229549771_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=7W2YYm4lSosQ7kNvwGuNpBc&_nc_oc=AdkeFs5zi4AcYOziVyQcJIXYuE2SZQ0XjPolc5c5H9pCct_rRwufxkYVooZBOSe6Ehg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_Afka7Sz4YPsbo5mYWI1yzeLhTnYgj5Ak2HQoyh20HtqLHA&oe=694BD773)*In this example, haptic feedback takes ~7.8 ms per frame when active.*
 
 ### Trimesh and SubD don’t mix
 
@@ -20,7 +20,7 @@ When editing objects in Desktop Editor, ensure that only settings that are neede
 
 For example, if the “Motion” property is set to “Animated”, components will be automatically added to account for that change (CollisionNotifier, Rigidbody, and a PhysicsComponentSG component).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452954647_512500631287893_7177151756270803345_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=e4-m1coicj8Q7kNvwGFZ36B&_nc_oc=AdmMVo0eXctYoCXOntCtdshEyZnwnQFeC_mhYX_ETosKDl2aHtUkyBGbdr3nbMLVsag&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_Afjj37d34q7KW5Qd_foRB-axsSH6gO5EieBdJFpVk-sIaw&oe=69312031)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452954647_512500631287893_7177151756270803345_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=RXE1m7J0n8kQ7kNvwE4p0C1&_nc_oc=AdkVAqHkUfuJRAnfFB-X0G9rkpjpCLNDPhWjSEI_qLtix6mc95IqijrveB6BCo6_T8s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfnTccLIfOCOYvXN8lHNOW-BMq3Zu1QGM7L8LuewwZdnfQ&oe=694BB671)
 
 Also, if objects won’t ever be seen by the player, then turn off visibility as well. Keep in mind that additional settings will add runtime cost to a world such as costs to Physics and Sunlight so recommend turning off settings that aren’t needed.
 
@@ -40,7 +40,7 @@ Optimizing TypeScript can have some of the largest impact when trying to improve
 
 You can use deep profiling to find out what the expensive bridge calls actually are and how much CPU time they use when tracing. Note that associating these calls directly back to a line of code is not currently automatic and you’ll have to manually find those in your code.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452416347_512500627954560_8716800481369087731_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=d7_Io_EA0t4Q7kNvwEpiRKy&_nc_oc=AdnhDw57mDqy7UeYhU84hmRwUg7FBoANRcW_WXUM3n32eiH8f1mcKPgQfK5rw_hfA4I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_AfgWRBy4A-Fx0KnTzZYmr_PrNR-Z8Ujzv5OlBzw78psZTw&oe=69312C03)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452416347_512500627954560_8716800481369087731_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=z16PfbrCBHwQ7kNvwGAiPQT&_nc_oc=AdnKFqmGxbEBaHUde3maVIYQ7wTXV7ak9MzMkS-xrJn6D--ltwMAlFQ46COipl6o6eQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfmgGz-bZULg5WyYlpKu9wnbl42WHan7eHcuHh-5z8_XaQ&oe=694BC243)
 
 *Toggle to enable deep tracing*
 
@@ -171,7 +171,7 @@ Raycasts can be very expensive. Using a short raycast distance will be much chea
 
 Playing audio clips is very CPU intensive. Whenever possible, combine multiple separate sounds into one merged sound file to improve performance. There is an option for audio called **Play and Forget** that runs faster but it does not provide any callbacks. We recommend that you use **Play and Forget** whenever possible. You can still get a similar effect as the callback by using a timer.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452878100_512500624621227_8465348933482063789_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=nCjOFeDeE-IQ7kNvwEJzUJ6&_nc_oc=Adl39e8_YvO99Ipu_fxS8Bbr0Z-l_SrKiS8ftN0kAWPHYPOgy6IFf6OaUO2J3TOBH9k&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_AfjPrFWJWDt0fCSFUTIinbyYwGJ0wGxg4Df4SK3daClU3w&oe=69313062)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452878100_512500624621227_8465348933482063789_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=SGcdn5yOZbIQ7kNvwH6ssjE&_nc_oc=Adl0pDj9gYPySYNxSInX2hrjH4k3poZc3abiht4ay1Ai-k8XFZsTtDfwuIZH1Or_Af0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfnOtD8PYJ2MHBN-BER9YDhH_gTTt4EyIV5CkE_JZMeM1g&oe=694BC6A2)
 
 Here are some more audio playback optimization recommendations:
 
@@ -196,7 +196,7 @@ In server traces, an object spawn can take a significant amount of time. Traces 
   + GetEntityCount
   + ClientSpawn
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452704475_512500537954569_7031487538570193556_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=k_VScBUZbTkQ7kNvwFwXN42&_nc_oc=AdmxDLmKaTPlKLDuW_nKeqjDoPYsZ-I8o5vwEiy7CK_4_ENxJwX5-tjSuwSJq1U-5TY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_AfhW3mXSwzdaWyyk8ZkrGTceWrv8KtoSrJWwx5P9FjPqJw&oe=69313D52)*ServerSpawn, in this trace, lasts over 1.5 seconds.*
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452704475_512500537954569_7031487538570193556_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=W2mZ8qfivq8Q7kNvwFqFyTT&_nc_oc=AdmGInYAcCpULfpJ6PW_79bfWyRiVjHUUyQChJhgHH6mCYDtqlbaedFBKYZPJ_zs51I&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_Aflckjr0V5KdnNY-ui6F2jKk7jCf2-y_HgO_7yy6wnJ-5Q&oe=694BD392)*ServerSpawn, in this trace, lasts over 1.5 seconds.*
 
 Although ServerSpawn is not processed on the main thread, secondary effects are seen there.
 
@@ -207,11 +207,11 @@ Multiple calls can be seen in the trace:
 * `ScriptingRuntimeIntegration::InstantiationStep`
 * `DynamicLightsRuntimeIntegration::PostSpawnInstantiationStep`
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452533527_512500531287903_3706876015676299264_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=5sY3bXsDZYAQ7kNvwHV-8fg&_nc_oc=Adm0yc20YhKItqmZZdfyCdW2bn8IUeE0H7Blbcx02RgV7ax1qYFvAUOexTwjD4_ATGM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_Afhf0cp2w01O3szXtv2StXVPgsMqoofvME4lToyZx3BBww&oe=6931483E)*In the server’s main thread, spawning objects also leads to skipped updates.*
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452533527_512500531287903_3706876015676299264_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=_LJa9z-2ucgQ7kNvwEYzqsT&_nc_oc=AdlkLHVpXu2s1plOJTNlW6gCIIvx6_I67APwcRfgh6g4O1VDtzJq58WTxCjC8yuZrz4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfkA-95MWd9yoXUsqQwSg7_hvLVVfPdPC-PGB5Dly9Nn-Q&oe=694BDE7E)*In the server’s main thread, spawning objects also leads to skipped updates.*
 
 A similar pattern is seen in client traces.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935617_512500534621236_8571856347165737758_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=BTa8ziNaNIcQ7kNvwEsyRlR&_nc_oc=AdlflTi6kml6CYh9CubT4Do_GiALefDnq0t5G2UduZhf2-gJmnhuZvmt-NZphjy9nSU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_AfgtMd_yy-jeZgA9KtCQ24U6zY5fX2x96fLcs2a-Chj4Aw&oe=693131D0)*ClientSpawn runs for 280 milliseconds on a secondary thread.*
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935617_512500534621236_8571856347165737758_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=cCddXWY1-WYQ7kNvwHo_-xK&_nc_oc=AdnSUodBRWDVa2-wSjhWOmSxyObZGg1bKQ4EAo1YyvEP8BMJv3100H7khSK3DlcrtH4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfmRdkhPw22aVst8azpD5G9YCBD_kQhG4WpxCMzIpZwj0A&oe=694BC810)*ClientSpawn runs for 280 milliseconds on a secondary thread.*
 
 Effects of spawning on the client’s main thread are more troublesome. Multiple calls can be seen disrupting the main thread:
 
@@ -222,7 +222,7 @@ Effects of spawning on the client’s main thread are more troublesome. Multiple
 * `SubDRuntimeIntegration::InstantiationStep`
 * `PhysicsRuntimeIntegration::InstantiationStep`
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452486020_512500617954561_1498065068073528888_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZBPKtj_F50wQ7kNvwE5cfsV&_nc_oc=AdkRpFX9RepHRWYUU3WDLYCjFcrVoiYwzYyPhrdX5XjFuirh1Io9QQZnzMKC0fDrReA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_Afje4qLBhxvch0kOb5ww4NwdWBem2HT-X4z5gTB5Qw9IUQ&oe=693114EC)*ClientSpawn disruptions on the main thread cause multiple long and skipped frames.*
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452486020_512500617954561_1498065068073528888_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ipUqMPbgwVwQ7kNvwGOxq4U&_nc_oc=AdlIrVyVDtoNXMeDDs4ys-f8l4NCtPGQyZWXXpLBBwy96aKrl1SSJLhVjaQiw2ttrP0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfkG3rAqqwWNBv9qNAygbnwalRfcKfy7rWgZexVr24es1g&oe=694BE36C)*ClientSpawn disruptions on the main thread cause multiple long and skipped frames.*
 
 ### Potential solutions
 
@@ -409,12 +409,12 @@ Highlights:
 * Do not define bindings without a concrete purpose. This may happen by writing a custom abstract API layer wrapping the base UI components (View, Image, Pressable, etc.), and defining bindings for every prop as a convenience to consumers. On the local client, a binding set operation passes the entire key-value store to ReactVR. So the bigger this gets, the greater the CPU cost to perform a single binding set.
 * Animations, by way of periodic binding updates, should be implemented with care or not at all. This is due to the twofold nature of the bridge call frequency limits, and network latency and droughts/bursts associated with that. Consider using the [Animation API](/hw-docs/Desktop%20editor/Custom%20UI/Animations%20for%20custom%20UI.md) instead when needing animations for UI.
 
-![Architecutral diagram of the server-client relationship](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501031261_729959856208635_1618126584846801507_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=pTL6cOk6jCEQ7kNvwHY8Ngi&_nc_oc=AdlV5mjHJjPqlvy_yfbI2JPlGbQeioZM4ugdn575BDmAZkwg9GastZUF06xZTSG3-Ps&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_AfhehnZ5pBbCDAGZc-u6H5bFZI2-gLpeLeOHjjweSZfD4Q&oe=6931417E)
+![Architecutral diagram of the server-client relationship](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501031261_729959856208635_1618126584846801507_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=_C4jSZulqlEQ7kNvwFbDn9t&_nc_oc=Adl_bo5JyGrBL5kW0ncCh4RHHBhb5osMOnOnPbGKgc-4NW18P0RFbzRq-KRtpCORV4U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfmeiIOofAwx1oEvcelM0i0UwRYmaIzezMdu9-HRiu9zOw&oe=694BD7BE)
 *Architectural diagram of the server-client relationship*
 
 ### Profiling UI
 
-In the [Deep profiling](#deep-profiling) section, you learn how to create a deep profile. In a deep profile, there is a bridge call and a network RPC event associated with every UI binding set and callback. These actions make up for all main thread synchronous costs associated with UI. Target a CPU total cost for all UI in the world of less than **0.5ms** per frame on the local client, and **1.5ms** per frame on the server.
+In the [Deep profiling](/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md#deep-profiling) section, you learn how to create a deep profile. In a deep profile, there is a bridge call and a network RPC event associated with every UI binding set and callback. These actions make up for all main thread synchronous costs associated with UI. Target a CPU total cost for all UI in the world of less than **0.5ms** per frame on the local client, and **1.5ms** per frame on the server.
 
 From a Deep trace pulled into Perfetto, watch the synchronous cost of these markers:
 
@@ -439,7 +439,7 @@ From a Deep trace pulled into Perfetto, watch the synchronous cost of these mark
 
 One useful method to make sense of this in aggregate is to drag a 5 second block across the main thread and look at the total wall time for that marker, divided by 360. For `Verts::PollDriver::Rpc` in the screenshot below, that is **0.25 ms** (90.03099 wall duration in seconds divided by 360 frames).
 
-![Verts::PollDriver::Rpc in Perfetto](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501585933_729959869541967_3381825224616955454_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=YKW-Rc7iCFYQ7kNvwHiDhdA&_nc_oc=Adl3bBm15nc-_b7jdogouCcULSOCro8kh5Zld37WDpbZZwZncjMKTjrSsywd5mEbN3A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yTzzGRSxCmXdhYYA4Cu3pw&oh=00_AfiZGkUFq3xY0Lm7qM4yGcNNyUONej0HvnoEfA1EIkCXDQ&oe=693117A0)
+![Verts::PollDriver::Rpc in Perfetto](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501585933_729959869541967_3381825224616955454_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=p_DCwdDNLdkQ7kNvwHIimKd&_nc_oc=AdmQ8WvmRtKKK_CqV_Es5fWQjpbxtebURhNR3ROuqIpQODFGrgt4KFQ2O9jz9DbgV_Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AflTn_KilI2XQy9TOR0cs0YA7YYMGvXoPpLDD3y-lbSzCg&oe=694BE620)
 
 ### Binding Set and Callback Frequency Limits
 
@@ -463,4 +463,4 @@ Even working within the binding and callback limits above, viewers may notice UI
 
 Textures by far outweigh any other memory cost associated with a UI entity. This includes a mandatory ~40 MB ReactVR panel render texture, as well as a copy of any texture asset referenced by a UI image component (once per UI entity that contains a reference to that asset, no matter how many times).
 
-Setting the visibility of a UI entity to `false` frees all textures to garbage collection. As such, everything in the [Spawning objects](#spawning-objects) section applies here, and toggling visibility can be a costly operation (especially on the server). Where possible, set the visibility of the UI entity to `true` at initialization, and leave it that way.
+Setting the visibility of a UI entity to `false` frees all textures to garbage collection. As such, everything in the [Spawning objects](/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md#spawning-objects) section applies here, and toggling visibility can be a costly operation (especially on the server). Where possible, set the visibility of the UI entity to `true` at initialization, and leave it that way.

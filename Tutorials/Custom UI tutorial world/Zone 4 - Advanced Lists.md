@@ -47,7 +47,7 @@ This demo showcases a dynamic paginated list UI, designed for displaying informa
 
 ### Properties
 
-![Advanced list properties](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549327111_817392017465418_107027986101311323_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=PeL4mljuuwAQ7kNvwHWiH_N&_nc_oc=AdnCEiOdAtESRCi3fSbjtz-5qIj5T3n90ueVNrSkVytwY-3E-C-ulMMl-KTnMaQUnpg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EXop8ax9vbcDE9PHVwY1xA&oh=00_AfiZ8YvdBmT8V3mjRTE1vIJaXsPzuuCvaOW8kbEqV_tkeg&oe=694636F8)
+![Advanced list properties](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/549327111_817392017465418_107027986101311323_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=xzKuqFzDhc0Q7kNvwH76fJX&_nc_oc=AdlV5mWHZH3dwZ-PNRHVRoDUh1ty3Naug8Dt7gSkFcXxJ5KCu7vBZbT96D4Zpk-9rFQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=WoZrxgsPnvQM3PDpr-0roA&oh=00_AfnfTTvnu7OX_gllDcynsPh1heGwNCzbcRSXN8kQdzygsw&oe=694BED78)
 
 #### ListView Properties
 

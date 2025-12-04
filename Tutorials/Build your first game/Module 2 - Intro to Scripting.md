@@ -12,7 +12,7 @@ Let’s start scripting!
 
 Players can, and will, come and go at any time in a Meta Horizon Worlds game. Let’s create a script to help us to track the players currently in our game. This is a useful and common place to begin.
 
-![Screenshot of Scripts panel with create new script button highlighted](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489266500_692135293324425_3182611591958576777_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Wd4F9PzFXgIQ7kNvwFKsFld&_nc_oc=Adk8bKtmnuz0n1Q1vkgKtbsqUHKoepDkosSGeQLPN4VJ-93I24VeiQ45AM-RR5nKGF8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CJsf0wUWiDmJgSt-kBsEkw&oh=00_AfjmQ23r998FZH-Oso60RvYdKS43LwgVd8hjMnbi1GdTzw&oe=6946335A)
+![Screenshot of Scripts panel with create new script button highlighted](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489266500_692135293324425_3182611591958576777_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yJ2_gJZ8RdMQ7kNvwG4lB_6&_nc_oc=AdkVZ9pvxiTveL8jsSm05r-iox4AU7hctkjaUoOacxOxTmmEm_NTR_r0shKxgfSwZuU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=LIGy5ELDEevcIsYAbAiYQw&oh=00_AfkxnqX0VgixTk7V85DMVUe577QMEgR6Lqa9OTHRtQhQEA&oe=694BE9DA)
 
 - In the desktop editor menubar, click **Scripts**.
 - In the Scripts panel, click the **(+) icon** to create a new script.
@@ -22,7 +22,7 @@ Players can, and will, come and go at any time in a Meta Horizon Worlds game. Le
   - It’s possible to create and modify scripts through the web interface. However, this method is not recommended and may be deprecated in the future. Navigate to: [Meta Horizon Worlds Creations](https://horizon.meta.com/creator/worlds_all/?locale=en_US).
   - Locate your world. Click **Scripts**.
 
-![Screenshot of menu option to open in external editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488829947_692135319991089_2853596312494584992_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=UF4txqb_xrQQ7kNvwEpQrQK&_nc_oc=AdksIK_P4hslDNSViK8RVhfUI82IRUY1-NaXylRnbeyOUiW9-Jc7bsShNnSt3ewn8D4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CJsf0wUWiDmJgSt-kBsEkw&oh=00_AfgD5sdPo8Vst_pST_WUa4YRNXcABiZUf89WpnNbQKycLw&oe=694630E4)
+![Screenshot of menu option to open in external editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488829947_692135319991089_2853596312494584992_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=VYheo50uDJAQ7kNvwG4wZsB&_nc_oc=AdmBC4oeZCmQecmzCheG_3oXFyIxBe7EsQYIHCGxf7n4KjgEqsqjfBC39UEkLMbKWAw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=LIGy5ELDEevcIsYAbAiYQw&oh=00_Afno3sVDLhfbFdMx9-T7z7rrR7mqqh1xCqQTA-KJA7Pa9A&oe=694BE764)
 
 ## Script template
 
@@ -128,16 +128,16 @@ this.connectCodeBlockEvent(
 
 - To start the simulation, click the **Play button**. If it’s already playing, press the **Reset button**. The simulation begins, which executes all applicable scripts, including the `start()` method in our `PlayerManager.ts` script.
 - To trigger `onPlayerEnterWorld`, Click the **Play button**, to launch Preview mode:
-  ![Screenshot of toolbar with highlighted Play button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489830571_692135393324415_5068842372652785054_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=5RZRn_psysUQ7kNvwEbul0d&_nc_oc=Adnye74YthrpjK__W9lOtPGNiuPzuXxtCeGMVNPAU1gjll21RLeHYrPsRkc3C29lF6Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CJsf0wUWiDmJgSt-kBsEkw&oh=00_AfgYXzIT3gwG-owuUJgl1pwVsuiTeQFpJiCb-kLvgUJ-ew&oe=69464514)
+  ![Screenshot of toolbar with highlighted Play button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489830571_692135393324415_5068842372652785054_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=lqh3kzqr6hgQ7kNvwHSHSsR&_nc_oc=AdmZdgTn3olhgZFBa5bp0NnXzTrO3TB8siLA4sp74fAsbWwN3CQ1j0nkjJqGPoUjILc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LIGy5ELDEevcIsYAbAiYQw&oh=00_AfmWpztzqH9vOwiIoNeY_iP5lsuM80IHErreXxtNQclY8w&oe=694BC354)
 - You drop into the world at the Spawn point.
 - Since you have entered the world, it should trigger the `OnPlayerEnterWorld` event. In turn, this registers with our script’s event listener, which means that the new player (you) should be added to the Map object.
 - To test, click the **Console tab** at the bottom of the screen.
 
-![Screenshot of Console tab opened at the bottom of the desktop editor screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493273647_705021528702468_6855972478545546369_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=9j8PmCDX6AYQ7kNvwEnbU11&_nc_oc=AdnwMOLmqWQGMp1LuvgmhuiH3PoWGeGSuhdc9mBnVMYYvcnDk1ZUKngB4rlC2s6axSQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CJsf0wUWiDmJgSt-kBsEkw&oh=00_Afi8OFCwbVPfAyQWzm9T8PIhRLyVBPnPkF-ofigiNz1rPw&oe=69464EF1)
+![Screenshot of Console tab opened at the bottom of the desktop editor screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493273647_705021528702468_6855972478545546369_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=p1NiYb6Yx-sQ7kNvwHuRt62&_nc_oc=AdkKSwerMxaq-wcc34cZa7Y_LKnChYvFBChEjXz9LmQP4OL6DYnirOgCcGywwUqDM88&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=LIGy5ELDEevcIsYAbAiYQw&oh=00_AflrZCaSKpdy_SuvSsgorwLPlrPIfS6p2uPnEUVKcadfpQ&oe=694BCD31)
 
 Hmm…it’s not working. Nothing is being logged, and the console is empty.
 
-**Note**: Console logging is an important tool for debugging purposes. For more information, see [Test Your World](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/test-your-world#console-logging).
+**Note**: Console logging is an important tool for debugging purposes. For more information, see [Test Your World](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Test%20Your%20World.md#console-logging).
 
 ### Attach script
 
@@ -152,19 +152,19 @@ Do the following to create the Empty Object placeholder:
 - In the desktop editor, click the **Build menu**.
 - From the Build menu, select **Empty Object**.
 
-  ![Screenshot of selecting Empty Object in the Build menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489830764_692135373324417_2816249255592353068_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=mTjiF_dxf2UQ7kNvwGJ4104&_nc_oc=Adm0rTTapJ-ezsqkGFSsRsnEgs1EUdbQt3PuUcx5vPKDM8MlEL15qRSytF9OA0_urhI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CJsf0wUWiDmJgSt-kBsEkw&oh=00_Afi56d0FT5_P4QxRLzsBM8jrTTja7-triOp6zdCd-ScKGw&oe=6946574A)
+  ![Screenshot of selecting Empty Object in the Build menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489830764_692135373324417_2816249255592353068_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=KWisS238bIEQ7kNvwHQI3QL&_nc_oc=AdnKLh1xBpyRWz15WSKyDdgAjzvq-cFQFYtqDINZFCXzf1Qa9591GQgypsWaB9gi3_8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LIGy5ELDEevcIsYAbAiYQw&oh=00_AfnWa0yW7-FBsMKLQwETKZVHj6uppwrcXq23E2WWySqiJQ&oe=694BD58A)
 - An empty object is added to the world.
 - Select the empty object in the Hierarchy panel:
   - Right-click to rename it with an appropriate name. For example: `PlayerManager`.
   - Use the **Move tool** to reposition the empty object to a location that is outside of the play area of your world. You can also enter coordinates for it in the Properties panel, such as `(0,-100,0)`.
 
-![Screenshot of the Move tool highlighted in the toolbar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489626585_692135369991084_2766122100356522274_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=RIXpJQJyNEEQ7kNvwG4VYn3&_nc_oc=AdnFI-IIM3rHxG1kLX2_yDPYkEK2A4I9b_hEoZzVDJbWVftEUyAJRhd2ryUhKhaaTbM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CJsf0wUWiDmJgSt-kBsEkw&oh=00_AfjOMzlC6b_0UKRBqM171i_s-_7dOGH58IeWgl3mf7sgFw&oe=69463311)
+![Screenshot of the Move tool highlighted in the toolbar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489626585_692135369991084_2766122100356522274_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=IlolSNjS_5oQ7kNvwHdv0H1&_nc_oc=AdlN2iHFctqks8C0LxZLSs37TZZRsC1yMEvFvbTu7LLrfDQXHwQaqoRMgc_frOZ2uxs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LIGy5ELDEevcIsYAbAiYQw&oh=00_AfnpsAQ4HvWoqxjQhUUu0cWbaVMrr4c4xeBlNp2n1Z3qLw&oe=694BE991)
 
 **Note**: There’s a shortcut to the above workflow. In the Hierarchy panel, right-click the `PlayerManager` script object. Then, select **Create parent object**.
 
 Do the following to attach the script to the empty object.
 
-![Screenshot of Attached Script drop-down highlighted in the Properties panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480856541_660734649797823_7886863523287699176_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=AJgjkN4pZCUQ7kNvwHpCW2L&_nc_oc=Adn0PfuMks8JcHJO2hzyGmm7WC2KgI1IsewkYPlhcP31NPhEZD9A0KfPCseDyMklelk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CJsf0wUWiDmJgSt-kBsEkw&oh=00_Afh1IyZOll3_-o676BEIKpD8_u4GueR6pzg8eY1wGnamWg&oe=69462F94)
+![Screenshot of Attached Script drop-down highlighted in the Properties panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480856541_660734649797823_7886863523287699176_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-b4SF8d4JkUQ7kNvwHArRbE&_nc_oc=AdmrTdXQSyLpfmEgseZ3D0U58P2MuGPghxsAQWpUD7L75knQ2qT7D97yjkfN9jyipG0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LIGy5ELDEevcIsYAbAiYQw&oh=00_AflYIGGUyYntuHpg0P6mQ1SjuXc-tZwASOmkutoLmkt9RA&oe=694BE614)
 
 - Select the empty object. On the right side of the screen, you can see its properties.
 - At the bottom of the Properties panel (you may need to scroll down), locate the Script sub-panel.
@@ -172,14 +172,14 @@ Do the following to attach the script to the empty object.
   - This reference means: `<scriptName>:<className>`.
   - This also means that you can define multiple classes within a single script.
 
-![Screenshot of drop-down list of available scripts to attach](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/489822923_692135383324416_6273319841199421846_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=3nv2Ci1sZN4Q7kNvwHWSH-x&_nc_oc=AdkGGbHLgghBHiPZQZ6bjxMFRYdXtgTU9aX79nYENAflIlK39_rOmcxQ6vyL6mZBPE8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=CJsf0wUWiDmJgSt-kBsEkw&oh=00_Afj5WPolnOKd4HixGL4fS8vO_N0PNHNb7Qkpdp1d_lQhGg&oe=694656AF)
+![Screenshot of drop-down list of available scripts to attach](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/489822923_692135383324416_6273319841199421846_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zr6uzflt72wQ7kNvwGhOa3f&_nc_oc=AdmNbD4WXqRl-Ut-LDK5alfijSUhBlJ6TDJye46NPDBquMmU7uBHn3ZmtuVNMMU71Vs&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=LIGy5ELDEevcIsYAbAiYQw&oh=00_AfnEAA2RZR4NEsC3cLseJccPyH_4wfnTuRvRi_xTffeMLA&oe=694BD4EF)
 
 #### Test
 
 - Click the **Play button** to enter Preview mode.
 - Check the Console tab again:
 
-![Screenshot of Console tab with logging message from the attached script, which is working](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489450727_692135363324418_5483864251695886664_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=ECUJlnayU-IQ7kNvwE2VCob&_nc_oc=Adl-rfiaE-hUhFuIF68nDX3Jh_Z_ox3Joi_u8gQb6se8czkJ1qmKMtbqxs8hPd1YETE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CJsf0wUWiDmJgSt-kBsEkw&oh=00_AfgxamWItPzLPjg8dArN5OEzbS7lZOq3ByzPFPc_6_5E0w&oe=6946366F)
+![Screenshot of Console tab with logging message from the attached script, which is working](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489450727_692135363324418_5483864251695886664_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=eMXxs6QgRfQQ7kNvwHKCwOB&_nc_oc=Adn3HdCDNTd_yYYMteiZkn3vlxUyMvlbUmvSla2muY29ehX8r-M3QZxi9a6HQu_Tecg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LIGy5ELDEevcIsYAbAiYQw&oh=00_Afl2axBuYweKc59ef3T6z-safBGermxqi1bnyrtf3rYfkA&oe=694BECEF)
 
 Success!
 

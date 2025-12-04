@@ -10,17 +10,17 @@ The media board [gizmo](/hw-docs/Gizmos/About%20gizmos.md) allows you to display
 
 Players in a world can react to media displayed on the media board with the **Like** button, which triggers a thumbs up emote. They can also share their own photos with the **Add post** button. The following image illustrates the description of the media board gizmo.
 
-![An screenshot of the media board gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452514566_512510187953604_8648481134651688436_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=nX_WeBxn-nwQ7kNvwGWteaQ&_nc_oc=AdkRMjsZFwb0NrgtUVXPsmbO9Vcwlc5Z7u-2jiLaFKvQkl-qjp1dYsdm2ge84nWP2tI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=uzbY9b6jn77zvEtLT9WR5w&oh=00_AfhWA2Iq2Hm-9ODaD7B49i-rjZUHQNscQ9zAM4Aycr5oow&oe=693138BD)
+![An screenshot of the media board gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452514566_512510187953604_8648481134651688436_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=2Db_LDb5QTYQ7kNvwF7tiCc&_nc_oc=AdnPBqxG1CAJxyBsPERxO-8NvlXqaarbDi047jgUPDM5dxBTgZIOYEPHDTmIjUIsdXI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AatmV2yRZsT0UacRjpjZLQ&oh=00_Afk6pJGIT67v-Ex9-q1tS-K3bZqzxdmX4eshZ_sQ8xVtkw&oe=694BCEFD)
 
 Each player sees a personalized set of 30 photos, selected from photos that are included in the approved world posts. Photos from others that the player follows and photos with a high **Like** count are prioritized for the media board.
 
 ## Access the media board gizmo
 
-While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the media board gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-panel).
+While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the media board gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “media board” in the search field.
 - Select the media board gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [**Properties panel**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
+- You can now edit the new gizmo properties in the [**Properties panel**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
 **Note:** There is a known issue where media boards appear smaller than expected in desktop. The size in VR is correct.
 
@@ -50,7 +50,7 @@ Once you approve a photo, it becomes available on the media board and visible to
 - Pending posts have 3 buttons: **Approve**, **Reject**, and **Report**.
 - Select the **Approve** button to makes a photo visible on a media board.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57568685_9616779308338433_7778029375936424794_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ERn2yGsJoA8Q7kNvwGO_W4Q&_nc_oc=AdmCdfDQJUG2f_croXWIvFfP_kcX2M0d_MZdco7RAotPiVYDtq7IScRAb3JUAq1S0Aw&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfibTSn-bxE02LzdbwpgmjX1ttR5ccQ5x_i-8RS25uK33A&oe=693127B6)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57568685_9616779308338433_7778029375936424794_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=74bCSsc7X_oQ7kNvwE2beSR&_nc_oc=AdnrzuQUyCE7gFGp7XmSqKJjvNMgJ9jtOf9dEbRk9v01v_Mjt1CEXELJeTF6Pe-u9Fs&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmBWV98A2d7QTviR7GIrayy0M-Cw-ihSQY59TFoFBAaNw&oe=694BBDF6)
 
 Conversely, to remove a photo from the media board once it’s been approved, follow these steps to reject it from the approved posts.
 

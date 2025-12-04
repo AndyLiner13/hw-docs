@@ -6,11 +6,11 @@ The sound recorder [gizmo](/hw-docs/Gizmos/About%20gizmos.md) allows you, the cr
 
 ## Access the sound recorder gizmo and record a sound
 
-While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the sound recorder gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-panel).
+While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the sound recorder gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “sound” in the search field.
 - Select the sound recorder gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [**Properties** panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
+- You can now edit the new gizmo properties in the [**Properties** panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
   For example, to record a sound, click **Record**; make a sound, then select **Stop** to stop recording, or select **Play** to preview the recording.
 

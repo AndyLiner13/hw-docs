@@ -29,13 +29,13 @@ To create a new style reference, use the following process:
 
 - Select the **Gen AI** option from the top menu bar to open the **Gen AI** panel in the Horizon Editor.
 - Select the **Generate using a style reference** or input /style to begin the style reference generation process.
-  ![Gen AI Style reference window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528555803_781698044368149_4793912316440685439_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=tVqlFKJ2nasQ7kNvwHIykMt&_nc_oc=AdmLhDY14QaFuJTOEX5EyWfjy6nveZ4DpdkRn4JsXv5UaVWKkjgABpEAPZEkbohOz_Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Nm5i-J6XLzNNZ4j-oicgIg&oh=00_AfgSJ0SJIygXfmWQPwMw2-Gb-UYV2pSEPTIusnlnOd1kQQ&oe=69313BF1)
+  ![Gen AI Style reference window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528555803_781698044368149_4793912316440685439_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=rf9YSjj5nTsQ7kNvwHlgXNX&_nc_oc=Admb87caGbTPCRnO_NHXlX3i_OU1TIVWVwEX6uSFh22MYuZfwW0WeN8XMN3KKxtCxls&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=khWu75kmz99O3CTlHy7DzQ&oh=00_Afnh50Tq-CzMllj4YHiBL7u8JhAbimjzAwDgjBsBSQDQwg&oe=694BD231)
 - If selecting **Generate using a style reference** you can select a recommended prompt or manually input a prompt into the prompt window.
 - After inputting or selecting a prompt from the recommended list, a style will be generated.
 - Once you have a style reference it will apply as context for your future generated content. You can swap between your created style references to dynamically swap the context for your generated models and textures.
-  ![Gen AI Style reference window save generated reference](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528195821_781698037701483_4838620977489466008_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=SAPfE0VOk9cQ7kNvwG2xsHE&_nc_oc=AdlJLiUDF66ruo_eWBtODLBEl8iSukj6kY6LuqCOHmKRY77sDNfRhsU86NtSPYD2TBg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Nm5i-J6XLzNNZ4j-oicgIg&oh=00_AfiPXsc9tAM8TRqjmOwneZb6ePj0Zx0Es47tI5kUn-i2gg&oe=69312E80)
+  ![Gen AI Style reference window save generated reference](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/528195821_781698037701483_4838620977489466008_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=9wyIgyh1fFMQ7kNvwHC72Dm&_nc_oc=Admajscqxz-fIC8r8xPvbLWVeMxG19qCgOR6Bo9S5DcVFs3JNv9mKycKD7el7ef4cws&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=khWu75kmz99O3CTlHy7DzQ&oh=00_AfmS8RIT5k0YDyoq0dY0zEfMZLZNVuzouKznm1wvN7jvbQ&oe=694BC4C0)
 - You created style reference will appear above the prompt window and you can select either the **3D Model** or **Texture** options to generate content.
-  ![Gen AI Style reference 3D model or texture](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/528696590_781698047701482_109329923311497601_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=nX7ClBwg9agQ7kNvwFwNbaz&_nc_oc=AdnpM0v2HNOvSEuNxtMy1ljUKWCkTGzAHZAebq9AAKF1fFqOKq861FFx9tv5AKO88K4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Nm5i-J6XLzNNZ4j-oicgIg&oh=00_AfjrhGqStow0uCh6gl0NIPvEJUNLhimFX-WsPqLR4eNw6w&oe=69313BE4)
+  ![Gen AI Style reference 3D model or texture](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/528696590_781698047701482_109329923311497601_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=mf4tF71u_BoQ7kNvwH6NkxO&_nc_oc=AdnpnC5I94y_h68d3PIM-WsQBVDESiYIveDaVvH4PHAIApy8KVfUXBjhW_uXqQjtoxA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=khWu75kmz99O3CTlHy7DzQ&oh=00_AfmaqhtvFlgjGviP25nMYihZ82UYYp8vs6136t07u7Ww5g&oe=694BD224)
 
 ## Using a style reference
 
@@ -44,7 +44,7 @@ Once you have a style reference it will apply as the context for your future gen
 To generate content using a style reference, using the following process:
 
 - Select a style reference to apply as a context for your generated content. If no style reference in set, you can select the **Open saved style references** button to view your generated style references.
-  ![Saved style references](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/526769056_781698027701484_8483053703565350266_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=P7q2ZkTL1CUQ7kNvwHeddxo&_nc_oc=Admxihqygiv8iOuF0Pz3TCdoskCe3wJ6t8Yuj9IJPwcAwtC5ZtXcHfNrNV6OM2UtdJM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Nm5i-J6XLzNNZ4j-oicgIg&oh=00_AfhwxAOlOW-TNdX9KdT0-Nvu8A_9Na4BXKJkr_N11vpHeg&oe=69313C17)
+  ![Saved style references](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/526769056_781698027701484_8483053703565350266_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=EuEYHayubSgQ7kNvwExlnaM&_nc_oc=AdnXx75FqQWL2vhZoPM3p9Fpv_jQFSJxslJ4dCav6_xvLQzzNIIzqnQdRSYASEMNB9k&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=khWu75kmz99O3CTlHy7DzQ&oh=00_AfmxVr9ZqtACEoakVKW_yC7NCB0yKv-j3Z6ptEMPCSziVQ&oe=694BD257)
 - With a style reference applied, select either the **3D Model** option or **Texture** option. Note that other **Gen AI** features will be inaccessible with a style reference enabled.
 - If using the **3D Model** option, select the **3D Model Detail** and **Generation Model** for the generation, then input a prompt in the prompt window. If using the **Texture** feature, select a mesh in your world then input a prompt in the prompt window.
 - Click **Generate** to generated your texture or model.

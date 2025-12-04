@@ -141,7 +141,7 @@ Returns the list of player IDs in a team. Player objects can be recovered from t
 
 ## OnPlayerChangedTeam codeblock event
 
-In addition to the functions above, the `OnPlayerChangedTeam` event is a powerful tool for creators. A full list of codeblock events can be found [here](/hw-docs/Reference/core/Variables/CodeBlockEvents.md).
+In addition to the functions above, the `OnPlayerChangedTeam` event is a powerful tool for creators. A full list of codeblock events can be found [here](https://horizon.meta.com/resources/scripting-api/core.codeblockevents.md/?api_version=2.0.0).
 
 | Event | Called when | Returns |
 | --- | --- | --- |

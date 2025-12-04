@@ -13,11 +13,11 @@ The key learning objectives are the following:
 
 ## Prerequisites
 
-This tutorial requires you to use the Meta Horizon Worlds desktop editor. See [Install and run the desktop editor](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/install-desktop-editor) for instructions.
+This tutorial requires you to use the Meta Horizon Worlds desktop editor. See [Install and run the desktop editor](/hw-docs/Get%20started/Install%20the%20desktop%20editor.md) for instructions.
 
 ## Section 1: Create a new world
 
-In this section, [create a new world](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/creating-a-new-world) for your game.
+In this section, [create a new world](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Create%20a%20New%20World.md) for your game.
 
 **Note**: When you’re building your world, Meta Horizon Worlds automatically saves your progress and it’s part of your online save flow.
 
@@ -27,30 +27,30 @@ In this section, you’ll spawn an avatar into your world, and then you’ll add
 
 - Select the **SpawnPoint** gizmo in the Hierarchy. This is the avatar.
 
-  ![Select the spawn point gizmo in the hierarchy](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462689916_564911232713499_6993527411397223752_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=iU32P2LzHQEQ7kNvwHLtC_C&_nc_oc=AdnXxg5nLO4MKd_BWgoaEdxaIeRIRGU0Nclm1iqNlUli1Ul8jUVfaNX6gzVWXKQFm4c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfihlPSKJOHfXq4Vx4dS-oYz4tIRc7P63yMGGGw9NFmy7g&oe=69464C99)
+  ![Select the spawn point gizmo in the hierarchy](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462689916_564911232713499_6993527411397223752_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=PhJmBk8K5AIQ7kNvwE_g_Cv&_nc_oc=AdkSdRTJOFbmHmU96QNdS67htcjWlzJl2jq9NS-0mGXjwUNEdE5OuPsgjv10WKfLz50&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfluoCf17MCVQMEMhShSn6ZBjQPZLe61fw22t0tbNx7JkQ&oe=694BCAD9)
 - Focus the camera on the avatar by pressing the “F” key.
 
-  ![Focus the camera on the avatar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462608481_564911246046831_3937497365964477693_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=i0jWvLy8G90Q7kNvwFTovGE&_nc_oc=AdmTsr3ShPyeYZiYbA4ifyJwMjNNO1iUYddhLOOktM4OW6xu4Fs3sI51r7k9ksLfzUo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfhkFtNJ7jyTJk7gs5i2lAeruz2i8DYjuwT9L_vxvZW8qw&oe=6946621E)
+  ![Focus the camera on the avatar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462608481_564911246046831_3937497365964477693_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=GhPARTIEjJIQ7kNvwE39BHi&_nc_oc=AdlHy_CkCxjyLbzd6TVqXKRUrJvOgowAfddInU5x20hNsKhycR8f719zPmd4adDi7ZU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfnzmeKc1PeSES3V9qxBeSEKt8jinu7HBjDAuchqquA6kw&oe=694BE05E)
 - Spawn a new cylinder object into the scene, and name it “Bat”. Click **Build** > **Shapes** > **Cylinder**.
 
-  ![Spawn a new cylinder object into the scene](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462701132_564911262713496_1343372135349431875_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=In9ITu8wblwQ7kNvwHr-qAM&_nc_oc=AdnpaWV_490CHzua7CKCx9Wa3bybiEpChjcWKEU78p_bvrv0xCNDrRTOEsWKLBMWTYY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_Afj9hDGa07P0BGRs8UG2n4Vox9eW_D_mlCQxvBLKIt3qMg&oe=69464E31)
+  ![Spawn a new cylinder object into the scene](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462701132_564911262713496_1343372135349431875_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=xjyiDlx3MsEQ7kNvwGaLPqx&_nc_oc=AdkTnJKeZo3w4BgswulMUNfU96a7I1cXiA8xH_0qlQaiSRQobcQam8_5QE9CY1lgE2A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afme7b3uEjICWEEZo0-rgaS1Ttd3LRJTYkXPqLL9SWTU1g&oe=694BCC71)
 - Spawn a new sphere object into the scene, and name it “Ball”. Click **Build** > **Shapes** > **Sphere**. Your Hierarchy should now look like this:
 
-  ![Spawn a nhew sphere object into the scene](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462654269_564911229380166_1772788500717622981_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=77c2lEIKmT8Q7kNvwHL8x6x&_nc_oc=Adl-BI8HCoZBE7r172XhYVTz9XeEM3r8FdEjq-JkHvFdNSeUw8n0VmJp4U5ShNlX3gg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfhvsW1qH7rkmpDuEiKiQXmYTK52uIggOsj0zcJ-0Ml5Jw&oe=6946555D)
+  ![Spawn a nhew sphere object into the scene](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462654269_564911229380166_1772788500717622981_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=Rlf1rQ6LUzcQ7kNvwHeaMBD&_nc_oc=AdlU5XHLB5dVhAejoLCYeKgjaS0fAXOgVLuNAxRJhHzFjIQGVdDNBBLeuVIA1AyD1hc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afk_dQud6J3F0YySifETaH_Bhv_M2qXnb9ylpBISY6ET2A&oe=694BD39D)
 - Resize the cylinder to resemble a bat, and place it in front of the spawn point.
 
-  ![Resize the cylinder scale values](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462644158_564911279380161_1594296782694451642_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=tpVOuyJJQlMQ7kNvwGkORXH&_nc_oc=AdlevI8JPnSPweNFSKmi3700BQyb2IHjoYac2edgZXOSdN9EzMzLH25UlRE5d64OWhs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfjL_SmO58FNx5KP5WqVMvakfX1FUQp5niQsosEUDE8_Jg&oe=6946468E)
+  ![Resize the cylinder scale values](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462644158_564911279380161_1594296782694451642_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=cqFIQeSOyHMQ7kNvwHrfUXd&_nc_oc=AdnmS9hSZdQg56-KwDs9luLDfFvP91HScaYvArm8uFlbtIjD9iJEcZ5OStBPDQaddks&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfluEFbpvGn0zmdmnn-y757Y5I444W_69N9YIO6L6nkA-A&oe=694BC4CE)
 - Place the bat in front of the spawn point. To move the bat easily, activate the on-screen Position Manipulator Handles by pressing “W”, and then drag the bat to where you want it.
 
-  ![Place the bat in front of the spawnpoint](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462602432_564911236046832_1495750191451500905_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ly4Ocj_H7zIQ7kNvwHK8N1D&_nc_oc=AdkN1WnlIEDwHn5om0OstkAqlqo9KWON4POW_9w1a-n0YnFxm4yCqbdkL1-SH-0VXX0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfjkYBqNs0EpM8N48x-oHfhbDClytLNgLT1ZeHefoof4dQ&oe=6946498E)
+  ![Place the bat in front of the spawnpoint](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462602432_564911236046832_1495750191451500905_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=pUt0ha6yLooQ7kNvwFtewvF&_nc_oc=AdkPp4_cbqDr17P2vwe7b-HahmusVQ-OtcZPkZKB0Q58zr5aPOJVtA6Xy54ir1HRKdo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfkPqD4FpKaAqWOGluWMiXD7UagG1UXC1L3hxkhz-BHYgQ&oe=694BC7CE)
 - Resize the sphere to make it the approximate size of a baseball.
 
-  ![The resized scale values](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462602083_564911192713503_7226210735996448903_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=i2IZ0Qm-fJUQ7kNvwHJ-x1N&_nc_oc=AdnJ7pCW2iaM6y6ma483fusuGnXZzL4-8n82UPSrHOrE7uisnMqBN3C0RL9EXwUhHZk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_Afg9gYq6IX7CmTOTrCqjJFwTDAhUrCrlL3LqE3CdBJ402A&oe=69462EB4)
+  ![The resized scale values](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462602083_564911192713503_7226210735996448903_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=DcPxs96ylc8Q7kNvwGXGjzw&_nc_oc=Adkt3T03Ym3lplpY4nI3o-tjqvju6X55rBjrwr7yEefXEuDsrfsuzuvZFwXlFwpRZBE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AflSVQCpUzWntM04BdeN175Hls9TidJck0cUQoskmrM2tA&oe=694BE534)
 - Reposition the ball high in the air, slightly in front of the spawn point.
 
-  ![The ball's new position values](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462683031_564911219380167_3082134887712278052_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zqogHvy8IrMQ7kNvwEFkPJX&_nc_oc=Adm1QO48rmQxCHhLHt-7MPY1v1iq7FCfNJCfWRY-AcjZtJYiagsXZDdxgYubd-xMCXY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfjeFNBn7TnQ0Mpj2LwiIThEnF9qo0ISvJeeAplnRAEC7A&oe=69464047)
+  ![The ball's new position values](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462683031_564911219380167_3082134887712278052_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=jIHwyg76SY4Q7kNvwFbMF4u&_nc_oc=AdnV34LY8i2fRGXh0QwKdtKjSltWZPzT0K5tU5_WEn8I7W8m95zjYHrl_zsrLis17-w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfmonR1fGibmGiWANnm6Y-pn1b5iJM3ExhesEfMhLN6P_A&oe=694BBE87)
 
-  ![This is what the ball looks like high in the air](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462748814_564911202713502_6576691860851034977_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=eCiFB-oeenEQ7kNvwEJukbF&_nc_oc=Adkm-6HE4K3pJM55w67mcmdMQeZRfMWuhK9LgVvShLTfr8zqbx4JzsHMl_a0dd6HLis&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfiRqb1cYNz93GlPHsNnHqp5JbUBSQ22VvB8yasZ1tECNg&oe=69466016)
+  ![This is what the ball looks like high in the air](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462748814_564911202713502_6576691860851034977_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=cwKwunzkIOIQ7kNvwGwgNbC&_nc_oc=AdlU5zr2A3YCItrtdzCexxdWAuakVXszp4qptc8hxAM9M-fQRQNL9hdA--J4W1sSd5E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afltht_A60yKt92DoNgJjs408T1nKZCbOPT4JrQa3Z2bTA&oe=694BDE56)
 
   You place the baseball up high because it will take time to fall down to the player, and the player needs this time to grab the bat.
 - Set the **Behavior** properties on the ball.
@@ -61,7 +61,7 @@ In this section, you’ll spawn an avatar into your world, and then you’ll add
   - Set **Interaction** = “Physics”.
   - Enable **Gravity**, and set it to a custom gravity value to make the ball fall slower so it’s easier for the player to hit. For example, try using a value of “-0.20” instead of the default “-9.81” m/s2.
 
-    ![Enable gravity](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462687098_564911276046828_8376701341943687081_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=V_THEcVxESAQ7kNvwFFfVA4&_nc_oc=Adn66F7ZtaoCxjo4wtVDqhDsb0XVGK8RFDX-sfZFCp_ZFW1MTmbeODJf7pG2gVGJo38&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfiNeuU-ovvbtJwDBcTupDluYJZKRNlKTkyhbEhvwNs7YQ&oe=694657BC)
+    ![Enable gravity](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462687098_564911276046828_8376701341943687081_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=iQlJ8Z1VTxEQ7kNvwG1aGvT&_nc_oc=AdnnX69VeVVpESRkOqqmaiyOMVzGuzZwPleSDf2598aiJEeyAiTjWGD-b6Z5-r7eV5Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AflEHePfG-QrsX48aY_e3uhqxjo8liam0Jpn6Qqnq7VRhQ&oe=694BD5FC)
 - Set the **Behavior** properties on the bat.
 
   - Select the Bat object from the Hierarchy.
@@ -69,7 +69,7 @@ In this section, you’ll spawn an avatar into your world, and then you’ll add
   - Set **Motion** = “Interactive”. When you set this value, the **Interaction** property appears.
   - Ensure that **Interaction** = “Grabbable”.
 
-    ![Interaction equals grabbable](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462602868_564911266046829_5568516108201599638_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=vuLc8wyH860Q7kNvwGFkYzS&_nc_oc=Adk2xOQFqJvuwdG07jFe3wo33AQrSMjqXFr49qST10j6fu5bKEjbT-V8NqrsZq6TtQ8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfhCm4feNWmAkThhBHUxXbHn5rUKCNZ_dPXAx_u-bK-ChA&oe=694657E7)
+    ![Interaction equals grabbable](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462602868_564911266046829_5568516108201599638_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=7P_5ICCzgHUQ7kNvwGRNZMo&_nc_oc=AdnUkkboUdL_TbRatrq2HHd4ngftA2APlH9VIwK2NMPFWDkfVEd8rz-jHeAvOCf5YsY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfkyirZs4ZAOYbJx87BNxykO9RtHfdzAIHnNwGZNqsmK5Q&oe=694BD627)
 
 When you run the simulation, the player spawns into the world. You can move the avatar over to the bat, and you can grab it, but you can’t swing it yet. The ball falls down a couple of seconds later.
 
@@ -81,40 +81,40 @@ If the player swings at the baseball and misses, the ball simply falls to the fl
 
 - Spawn a new cube object into the scene, and rename it “Floor”. Click **Build** > **Shapes** > **Cube**. Your Hierarchy should now look like this:
 
-  ![Rename the cube object floor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462748808_564911242713498_8185972744048961801_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=xxka7rrj62MQ7kNvwHnVY_S&_nc_oc=AdmMG_BjrxYi_dujovR8sNneE9jV_P5Fsdz3P1qFH5jEUjm6aAWDgnLthJbVl0zPM3U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_Afg1SmLmOHAM8ONeOumaXTzMrgX16UEfdcZcUHJTsGJHpQ&oe=694639A1)
+  ![Rename the cube object floor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462748808_564911242713498_8185972744048961801_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=rXyQAmKhQH0Q7kNvwFbNLkI&_nc_oc=AdkP05chQjSb5B9pAz6BFhr9hhwYvBe2R-rwy5_CQWsDkKFlsp31Cv7LuSgQarEBcX0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afl3lNSBgjntUXJVehfJB_2MfBxWNvp1mKRpG92KOxHKyA&oe=694BB7E1)
 - Change the dimensions of the Floor object so that it covers a relatively wide playing area.
 
-  ![Position and scale the play area](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/472754953_626753169862638_6178594729083770490_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=bqpDT4V8SqoQ7kNvwF8AU1o&_nc_oc=Admpi35gnlFwYCKvXI5ygRBnKYtbi9yq28n1pMZZleQKTNLqOuuOecNzCxBbnh1pueo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_Afghzd8jb-w9OCXxTUr8KedGMk3kBHrlXwg2tKiJtav7LQ&oe=694648BA)
+  ![Position and scale the play area](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/472754953_626753169862638_6178594729083770490_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=lT2mgZVYfjkQ7kNvwFlo0RM&_nc_oc=Adlj3xhyYR8oFZ9c1-ACDTq2VLUam9YPcRdCosEpdWDtvg1BzviQVJ4FhadbrqYKs6Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afm7dbBCyfyx1JzpqKGn5SEjihb8V7OuH6FDeD4OfYhYBQ&oe=694BC6FA)
 
-  ![Your floor should look like this](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462676686_564911212713501_468507077804114298_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=lsz-EaqYTZMQ7kNvwGRR4Go&_nc_oc=Adk-IeDIEJ2VdJ-tEu70ILWfy7mKQPZI9gZhB2YZ1rEBerUysDtKU66qO9nM5JDCVh0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfiuhKLwyrdU0FSwY9zGqiMIHNhrZj2wFDIY9f3NvKCDtA&oe=6946366C)
+  ![Your floor should look like this](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462676686_564911212713501_468507077804114298_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=hs08Qtwn0C4Q7kNvwH1wUw2&_nc_oc=Adn7Co3hrSUYBovJKcajXKD8BBPmKXuzRUzwzAra7awlQ_QRr5f1TDxY5OnJ5tsEnVo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfkmbKx7GbckHRIHAgXO5dPuI3CfW4R_1yiwkim7XjXJEQ&oe=694BB4AC)
 - Add a **Gameplay Tag** to the Floor object, and name it “floor”.
 
-  ![Name the gameplay tag floor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462608655_564911259380163_1890197524559525651_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=G0Y_in4Vzy8Q7kNvwFPSb0R&_nc_oc=Adl15j9ZF4GJ2AeuN4tO5HxgcS2sWsF1Ucb6uCDRjdEa98ZFNnKHD1HUvynUjbhU5ak&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfiPBH5B1uaYjmdTQJ4jfriWuZ2TpjR_6hwUmp9JwWY7JA&oe=694654B7)
+  ![Name the gameplay tag floor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462608655_564911259380163_1890197524559525651_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=XFtQP6XWUCkQ7kNvwEJuOnl&_nc_oc=AdnbtuaMDLpcjgbWCdoHmhrZUWHtFXaUseSGdhBuSUG6rnRyVP0ZZNhDt40n_G_DtVY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afmog6hlMWWGEx7zgh1-porw6G5W8kSNuvUgmMOh0LWLUQ&oe=694BD2F7)
 - Select the Ball from the Hierarchy.
 - Set the following **More** properties on the Ball.
 
   - Set **Collision Events From** = “Objects Tagged”.
 
-    ![Collision events from objects tagged](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462701412_564911199380169_7425995930029656028_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=ErSYEk0H9gsQ7kNvwH_nn1o&_nc_oc=Adm4wCyW0ueZDTU9yQX0s00bQkbJ0GjRqlt0oHEu1h5PngFPal-JmdXT2jonHEJ-ZNo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfhX0JAz9IOz2K33sKQwyctWmZZXMpFmVjR80XuIOxhAaA&oe=69462C05)
+    ![Collision events from objects tagged](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462701412_564911199380169_7425995930029656028_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=GBRpU6eWb5YQ7kNvwF7bDWr&_nc_oc=AdnGVE8NVA-gLYmz5P9BIhCLOq6QCmelFUKc9J0MoEaPl4G8J63QEuvOlX6qFT80Lx8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afn5Tu0uWLP_xzSu27uL1BuD8BUnFlCXjlqwAgEfyhVf9A&oe=694BE285)
   - Set **Object Tag** = “floor”.
 
-    ![Object tag equals floor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462706481_564911196046836_4280703734366345331_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=BwnVHlBREZ4Q7kNvwENx4_k&_nc_oc=AdlZqMoQ2JW7h9iHGxFsg9XND-uhcO0b1eiW3r4Nz-x9IVVOTbBmintsroF2CYFU5bg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_Afiowe3Wb4s2tNMHZTCpIlgiv0xCZgkCxPztbaiIZ_vlpA&oe=6946343C)
+    ![Object tag equals floor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462706481_564911196046836_4280703734366345331_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=uOGme3JlYtEQ7kNvwGL0b-K&_nc_oc=AdnvVFx0buLyFj8h-qXve0M_8Gbq54qAKffIrfKdvS599CG2OSLhbmPrY4gvW26bl00&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afkt-7838qz0qE_VajGgo7oFdaYSpaZjQh9CgZhR1pQB7Q&oe=694BEABC)
 - Create a script to control the Ball’s behavior. The code listens for collisions between the Ball and the Floor. When a collision occurs, the code resets the ball’s position back to its initial starting point, and it resets its velocity back to zero.
 
   - Click **Scripts** to open the Scripts panel.
 
-    ![The scripts panel opens](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462687098_564911182713504_6689004367218443217_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=s11xq6IRzGcQ7kNvwGWwxcc&_nc_oc=Adnxep1Ft3U44CLIY_xKamyBEHXJpKAvtJztqlQRgea6uMzR8xBM5VJreyZytK7Zkq0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_Afj0j9EVeido_RojBKY8uZ7d-szeCdHddXtX-R4DSuFUew&oe=69465E33)
+    ![The scripts panel opens](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462687098_564911182713504_6689004367218443217_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=nCZw61zrHBkQ7kNvwFUJ0d0&_nc_oc=AdmWDjbRA8lsOoTm_hrmq55Zry4RRs3BTEkh2wqVHeQ2YzwGZ2HrqiAAkhWt0seuV0Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfnsdAFZgxkrqAMVTVYb1362bKx5PtCGP1xXjgKR_NDdow&oe=694BDC73)
   - Create a new script by clicking **Create new script**.
   - Name the script “BallScript”, and then press **Enter**. The script is created.
 
-    ![BallScript appears in your list of scripts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462671462_564911282713494_2780281265974661818_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Oi1-cU0pyJMQ7kNvwH9Fq7B&_nc_oc=AdklHSrqYBmNd_aHlFwKXXKxbMYD5LbAGubb0_LS06rSEAjQ2dTu2MdJLqwrKLUJdms&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfhIYUjANsg4hmHXeuFnFcqE4yljt1s3ywwiUnRHESXAIw&oe=6946402D)
+    ![BallScript appears in your list of scripts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462671462_564911282713494_2780281265974661818_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ao6HmSVx_qsQ7kNvwF9JPrO&_nc_oc=Adn5PwKPXEXFxUiM_zzjKhIkXzyzKP4Cg2ha5_f2D9E3g3496G-Xnin9W4wjC9fO7k8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AflBt3xJBuY1_oIKIEclm7YknfNeWWcs3TCx5AYLZRHrEQ&oe=694BBE6D)
   - Open the script in VS Code. Click the menu icon to the right of the script name, and then select **Open in External Editor**.
 
-    ![Open the script file in VS Code](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462690751_564911239380165_8519164833044724963_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=crPcaozE8bQQ7kNvwEaYMeO&_nc_oc=AdlBo54_hMkgRD20JdoSfmcwdT5efi11W2E2OovWY89YOCQfyaDOGpG3VBllQ4uEJyI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfiBovBLq7M7-AFyoJlsvuuR9MfHIVp-XU7vUxU6VuNV1Q&oe=69463685)
+    ![Open the script file in VS Code](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462690751_564911239380165_8519164833044724963_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=lZPo-zdFqDEQ7kNvwGpmKV4&_nc_oc=Adn-u2w2yTkb9n6jbe3duL1AjTcRrbtlKas43mtY-KxFeu4tG5XvpAv1DaQNzj5aclw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfnVgZCla22yUGJwdsfEuNxTQtEW3Y4vhwdp8KTtqxGeWA&oe=694BB4C5)
 
     VS Code launches, and opens a new TypeScript code file that contains a default class.
 
-    ![The new typescript file opens in VS Code and it contains some default code](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462652837_564911249380164_5111626863521496440_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=N2_VqScDVlIQ7kNvwG1p8dM&_nc_oc=AdmkXRILy_DV3jOuQfHrgvjC5uLWeYj4ZM9Xkn28QL9gk6XssuGWUUmw1TTEijKWhAQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfgYpI1oWZcZubRi56agx2f-0dmAWiK1457l0U_mzDa5kQ&oe=6946523A)
+    ![The new typescript file opens in VS Code and it contains some default code](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462652837_564911249380164_5111626863521496440_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=bUFhJumylDgQ7kNvwFH4J2x&_nc_oc=AdkE2prN90D8CHILlYB5hVs5fFXIDI0MUbs_xMk6M2nUuwXiGCP5ZpyoCU0D3gROX8o&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afm85zVDku4cu3g3m-zuY5mippIv9vauL1ThIG8Ia_8h3w&oe=694BD07A)
   - Copy the following code snippet, and paste it on top of the default code in VS Code, and then save it.
 
     ```
@@ -148,13 +148,13 @@ If the player swings at the baseball and misses, the ball simply falls to the fl
     ```
 - Attach the BallScript to the Ball object.
 
-  ![Attach the BallScript to the Ball object](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462704360_564911222713500_3418776293222919275_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=B1beKhgJ8JgQ7kNvwEDa1P4&_nc_oc=AdkGYjAq7NQU7RaJzVtVgIsQrTuWDodHEqkErPsj0IV6z_yxHn3CuJRxXCChteX3kGk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfjTT-tVbqgX4M5d-LGYhbFmfnrVlOjKw9OelWjZ4a5DSw&oe=69464377)
+  ![Attach the BallScript to the Ball object](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462704360_564911222713500_3418776293222919275_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=h7I_qNB4UE8Q7kNvwFjGz6j&_nc_oc=Adm8bvap6QeSqzqO4v6uQttjW5u4xdVjyvRL-B7X2Isf1MI4PYL0CtqmtFXfBIjHw9o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfnZMic9OLh2dEm-4ptP0C45FT11t9e1p-t4_jWP2U-0qg&oe=694BC1B7)
 - Preview your new world in the Meta Horizon Worlds desktop editor. Enter Preview mode by clicking Play on the menu bar.
 
-  ![Click the little person icon to enter Preview mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476463623_647505964454025_8787956898410179165_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=K0uXeEU96LoQ7kNvwHHyW-F&_nc_oc=AdmoJfCPrLMohjdt70m8morCA40BJFYnsjA3UXrjgI2d1tS30Ifr3_S50VLxjUxpqTw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfjUd2W8l4Oux_UOMsDgEkFmI_2drz0HefdVs1rm1hbKwg&oe=69463261)
+  ![Click the little person icon to enter Preview mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476463623_647505964454025_8787956898410179165_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=jyyu4xkGxWcQ7kNvwEWAl16&_nc_oc=AdmFSFWFFyjS8wdEHicR-pU_Wz01fEhvcNqD9TFsSHYa_KSX36bgrD4d3iq0TPeJ5Z0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfnRHnL_ZhduaXz2-urhvpLENrTAAa_YWYqosvrRYowYaw&oe=694BE8E1)
 - Maneuver the avatar over to the bat using the arrow keys, and then grab it by pressing the “E” key.
 
-  ![This is what you avatar looks like after grabbing the bat](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462694517_564911206046835_4033375668500902553_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=8C2nIM2CMsQQ7kNvwHZjTaY&_nc_oc=Adls4jrjeDnYVfwnWbvzA6fREsYCh-KMMLUSLkKx74eXB7Z_lfvi7z8GEqBNydFPMgU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_Afg2xiIMhx4-TAULfewT5h3lVAi-YDl3UlqYFI1EC4-A6w&oe=694661DB)
+  ![This is what you avatar looks like after grabbing the bat](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462694517_564911206046835_4033375668500902553_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=kEQDSNZ0T6sQ7kNvwEbKsxC&_nc_oc=Adk3S3ibKuSXs2Tzq8FjuvrWFfacTGLlVEw7tivju1Bm3QugxGMIE7JWI8u2OLtMuFs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Aflh-PF10rlS1HNHy0Y2KmnPo_rFOmnieWsymW5dQl_TUg&oe=694BE01B)
 
   You can’t really do much at this point except walk around holding the bat. As you do, the ball continually keeps dropping out of the sky and falling to the floor.
 - Exit Preview mode by pressing **Escape** twice.
@@ -166,7 +166,7 @@ In this section, you’ll configure collision detection.
 - Select the Ball object from the Hierarchy.
 - Add a **Gameplay Tag** to the Ball object, and name it “ball”.
 
-  ![The Ball object has a Gameplay Tag named ball](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462704007_564911272713495_8171981578080402896_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=i0GEdKKv-C0Q7kNvwFZnilk&_nc_oc=AdkCNU0Dxr72NbTmh611ft1cOSdDmogd_NEik31KDL0Sfq7yVl0nQSuIi8VQy0CHmgM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_Afi8U2-cDyO7yOWvmbsbtxtQTK1Umhn19LQ9im2KuJbbgg&oe=69465D6F)
+  ![The Ball object has a Gameplay Tag named ball](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462704007_564911272713495_8171981578080402896_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=QAMTOB2kBwEQ7kNvwH_IzJr&_nc_oc=AdnycVmxt-UkfTRepvAkocIvCqfzFwwBOtNkgMeOyR1rbAMZsmAaoatqFjGR64RJyVk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfkiE1CVwLLiCgUJ90eBhchNeI-rU5v6rUURH3Osed504g&oe=694BDBAF)
 - Select the Bat object from the Hierarchy.
 - Set the following **More** properties on the Bat object.
 
@@ -178,7 +178,7 @@ In this section, you’ll configure collision detection.
   - Create a new script by clicking **Create new script**.
   - Name the script “BatScript”, and then press **Enter**. The new script appears in your scripts list.
 
-    ![You now have two scripts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462718796_564911226046833_3172925499326887543_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=O-a-OvJ4MhUQ7kNvwEZuJ9f&_nc_oc=AdkhT7xFGJCFexlDXPoCN5OS54HsrGloJ4hXqrGaHlkEim09GQhpUAz-dzzAKEOiDms&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfhSoWUSe2gjfLrYrRE5WNtyJ3oca_rCQaysgEsaTUP5mQ&oe=69463D1F)
+    ![You now have two scripts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462718796_564911226046833_3172925499326887543_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6anpSfHLpRsQ7kNvwFxfd_C&_nc_oc=AdlfO9X-Z1yv8FLfQWKo2Go7ZtFiVPOa-j3qB-2Hf7ht98h2MmkljJ2eyDOjyTZeN2Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfnkYVpN8TKwOeXahguOP4TQx9RP3gikAhCh8p4g4f5v4Q&oe=694BBB5F)
   - Open the script in VS Code by clicking the menu icon next to the script name, and then selecting **Open in External Editor**.
   - Copy the following code snippet, and paste it on top of the default code, and then save it.
 
@@ -217,20 +217,20 @@ In this section, you’ll configure collision detection.
     ```
   - Select the Bat object from the Hierarchy, then navigate to **Properties** > **Scripts**, and then attach the BatScript to the Bat object.
 
-    ![Attach the BatScript to the Bat object](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462687051_564911256046830_3831045490394279727_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ykqb6HNPOlkQ7kNvwGnYnK9&_nc_oc=Adk20Vxy80qsen7u1AmmeVHKspkEjsqdNgF7S5yjPf2HMjwL7rq7dv98vKKpbpaK_3M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfjPt_QCyz0s75FlVhsvlyzPvdOby-f2BBraAtvcCNfYIQ&oe=69465239)
+    ![Attach the BatScript to the Bat object](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462687051_564911256046830_3831045490394279727_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=IP-gPIfYCRAQ7kNvwG2VxfX&_nc_oc=AdkJTHdmXQLAyy4z8n6iSHZDmWSdUXPhHQGhAay0OINfMMMctI65Kh1uwA8jWpDvVVc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_Afl8fWKIxFDikJYvId1-ivsPemJbtGtvVBJ1qeiU9UiLSg&oe=694BD079)
 
     When the player swings and hits the ball, they’ll see a cheerful message that congratulates them.
 
     **Note**: You can’t swing the bat in desktop mode. To be able to swing the bat, you must switch to VR.
   - This step is optional for the Batting Cage tutorial.
 
-    To enable restart of this world, set the ball to its original position by resetting it with a secondary action (the button press) whenever the user wants to do so. To implement this, you can create a scripting event for a [button press](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/action-buttons/#how-to-handle-button-presses) and attach it to a [grabbable entity](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/intro-to-grabbable-entities/).
+    To enable restart of this world, set the ball to its original position by resetting it with a secondary action (the button press) whenever the user wants to do so. To implement this, you can create a scripting event for a [button press](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Action%20Buttons.md#how-to-handle-button-presses) and attach it to a [grabbable entity](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md).
 
 ## Section 5. Configure local scripting
 
 In this section, you’ll configure the scripts to run locally.
 
-When the player hits the ball, they take ownership of the entity that the script is attached to. In this case, it’s the Ball object. Transfer of ownership causes script processing to switch from the server to the player’s local device. This improves latency for the player. For more information, see [Ownership in Meta Horizon Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds).
+When the player hits the ball, they take ownership of the entity that the script is attached to. In this case, it’s the Ball object. Transfer of ownership causes script processing to switch from the server to the player’s local device. This improves latency for the player. For more information, see [Ownership in Meta Horizon Worlds](/hw-docs/Scripting/Local%20scripting/Ownership%20in%20Meta%20Horizon%20Worlds.md).
 
 - Change the Execution Mode of both the Ball and Bat scripts to “Local”.
 
@@ -352,7 +352,7 @@ When the player hits the ball, they take ownership of the entity that the script
 
 - Publish your world
 
-  To [play in your world on mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/how-to-test-on-web-and-mobile#mobile), [publish](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-your-world) the world first. Provide the necessary information in the **Publish World** dialog, which can be opened by navigating to the dropdown menu on the menu bar or by clicking **Publish** on the top right.
+  To [play in your world on mobile](/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile), [publish](/hw-docs/Save,%20optimize,%20and%20publish/Publish%20your%20world.md) the world first. Provide the necessary information in the **Publish World** dialog, which can be opened by navigating to the dropdown menu on the menu bar or by clicking **Publish** on the top right.
 
   Enter the necessary information such as **Name**, **World Rating**, **Comfort Rating**, and **Tags**.
 
@@ -364,10 +364,10 @@ When the player hits the ball, they take ownership of the entity that the script
   Click **Publish** to publish the world.
 - Configure the preview device as mobile
 
-  To preview your world on mobile, select **Mobile** as your preview device by going to [Preview Configuration](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#how-to-set-the-preview-configuration). Click the ellipsis button on the menu bar. In **Preview actions**, send a preview build link to your Meta Horizon app.
+  To preview your world on mobile, select **Mobile** as your preview device by going to [Preview Configuration](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#how-to-set-the-preview-configuration). Click the ellipsis button on the menu bar. In **Preview actions**, send a preview build link to your Meta Horizon app.
 - Play it on mobile
 
-  Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world. For more related information, see [Testing worlds on mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/how-to-test-on-web-and-mobile#mobile).
+  Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world. For more related information, see [Testing worlds on mobile](/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile).
 
 ## Section 7. Play in your new world in VR
 
@@ -377,7 +377,7 @@ In this section, you’ll see what it’s like to play your game in 3D in Meta H
 - Launch Meta Horizon Worlds on your headset.
 - Navigate to the **Create** page. You can get there by clicking the fourth icon from the left on the menu bar at the bottom of the page.
 
-  ![Click this icon to navigate to the Create page](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462602868_564911186046837_388520816768644606_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=W3vHhEkibTcQ7kNvwGxBbti&_nc_oc=AdnOLmQ6Sb4JmyWxoRwF7sH2fBjHm9tvC8Atx7ymKJv5Ok1x3tXHKgFZxkiBr9psSOc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rmmqdmAh5TwUfuGhDVwXMw&oh=00_AfhOTCfsbVjAIouWuzzRFQpopf1U0ZUEf12fSX_ZhddZGg&oe=69465472)
+  ![Click this icon to navigate to the Create page](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462602868_564911186046837_388520816768644606_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6ub7QMc21ccQ7kNvwFLZzDW&_nc_oc=Adn7sfNPEqrJuuP0vrHZp9yi0TKYMEgsHT7atPmpkMiV_Kkef8Evn5l9zwThIphptQc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ax5bQnGXQqvnFq5_3KBwIQ&oh=00_AfmgUAR6T0M-Q9TzwrGQ066egwnJ-x0VoE0TfQHHcfetEA&oe=694BD2B2)
 - Locate the world that you just created, and then click it to launch it on your Quest VR headset.
 - Step up and grab the bat by pressing the secondary trigger on the right Quest controller.
 - Swing the bat and try to hit the ball. You can swing the bat by swinging your right arm while holding the secondary trigger down. When you hit the ball, watch for the message: “Good job hitting the ball!”.
@@ -412,7 +412,7 @@ The following list contains suggestions for additional exercises.
 
 To learn more about Horizon, try the following:
 
-- See the [Tutorial worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds) for more tutorials.
-- Learn about the desktop editor with the [Introduction to the desktop editor](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor).
-- Learn about the other tools available by reading our [Tools overview](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/tools-overview).
+- See the [Tutorial worlds](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md) for more tutorials.
+- Learn about the desktop editor with the [Introduction to the desktop editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+- Learn about the other tools available by reading our [Tools overview](/hw-docs/Get%20started/Tools%20overview.md).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

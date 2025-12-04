@@ -10,13 +10,13 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 ## Overview
 
-Meta Horizon (called “Horizon” for the rest of this document) is a Metaverse content platform where people can find and create 3D immersive content to play, explore, and socialize in. Horizon calls each experience a [world](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#worlds). The content can be accessed on:
+Meta Horizon (called “Horizon” for the rest of this document) is a Metaverse content platform where people can find and create 3D immersive content to play, explore, and socialize in. Horizon calls each experience a [world](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#worlds). The content can be accessed on:
 
 **Supported platforms**: mobile, web, Windows PCs, and VR.
 
 Use the Horizon creation tools you can create team-vs-team shooter games, fantasy fighting games, social deception games, hang out spaces and clubs, art exhibits, simulation games, battle royale games, dungeon crawlers, obstacle courses, puzzle games, talk shows, adventure games, stories, party games, improv clubs, and whatever else you can imagine.
 
-The tools support many features for managing and scripting [players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players), [physics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics), [3D meshes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset), [projectiles](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo), [purchases](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-purchases-iwps), [grabbable items](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities), [wearable items](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities), [player inputs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input), [static](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-light-gizmo) and [dynamic](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#dynamic-light-gizmo) lights, [UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui-gizmo), [Leaderboards](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#leaderboards), [NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo), and more. You can write [scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting), handle the [network](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network), package up content into [reusable assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#assets), dynamically [spawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) content into a world while it is running, and so much more.
+The tools support many features for managing and scripting [players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players), [physics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics), [3D meshes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), [projectiles](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo), [purchases](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-purchases-iwps), [grabbable items](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities), [wearable items](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities), [player inputs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input), [static](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-light-gizmo) and [dynamic](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) lights, [UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui-gizmo), [Leaderboards](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards), [NPCs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo), and more. You can write [scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting), handle the [network](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network), package up content into [reusable assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#assets), dynamically [spawn](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) content into a world while it is running, and so much more.
 
 **Desktop Editor**: Horizon can be installed on a Windows PC through the Meta Quest Link App. Once installed, you click on the ellipsis (the 3 dots menu) Start in Desktop Mode, this opens app with a set of tools where you can create, edit and publish worlds. At this moment, the Desktop Editor is not supported in MAC computers.
 
@@ -26,16 +26,16 @@ The tools support many features for managing and scripting [players](https://dev
 
 ## Worlds
 
-You use the Desktop Editor to edit worlds, adding content and scripts to build out your ideas. The [publishing menu](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#publishing-and-player-settings) enables you to configure worlds settings and publish the world when ready. Worlds are saved in automatic system “files” called [world snapshots](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-snapshot) which allow [rollback](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-backups). A published world may be running many [instances](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) at once.
+You use the Desktop Editor to edit worlds, adding content and scripts to build out your ideas. The [publishing menu](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings) enables you to configure worlds settings and publish the world when ready. Worlds are saved in automatic system “files” called [world snapshots](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot) which allow [rollback](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-backups). A published world may be running many [instances](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) at once.
 
 ### Creating a World
 
-- Install and launch the [desktop editor](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/install-desktop-editor).
-- [Create a new world](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor).
+- Install and launch the [desktop editor](/hw-docs/Get%20started/Install%20the%20desktop%20editor.md).
+- [Create a new world](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 
 ### Publishing and Player Settings
 
-**Publishing**![Image shows the publish world window with a message stating that a genre tag must be selected](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480830190_656797526858202_6486575020987318744_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=RqB4Ossb1vsQ7kNvwEDZWyV&_nc_oc=AdkZ1s4eJU8ayPnlQCJh_JA7EF8ViN6rG2-OGC8hIPwGGskoIJz9FtZ7d1urLYUtehg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_Afg8Kp9miIMeSfbt2h-UoaMBkY8uc8BgPNjlpsiwrrZPfA&oe=69464736)
+**Publishing**![Image shows the publish world window with a message stating that a genre tag must be selected](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480830190_656797526858202_6486575020987318744_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=2du_qc_58NEQ7kNvwHfmP_A&_nc_oc=Admu17xP0Xfp0rXYKuv94uTHafTPjMOfokgh6vz1LqFsdpETEocDc0j5wh_77FvtWgI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfmbjC-8uI7pk5wsykg1yD6L8zhXFMOGWXDCKTZIj2kwZg&oe=694BC576)
 
 | Field | Description |
 | --- | --- |
@@ -77,9 +77,9 @@ You use the Desktop Editor to edit worlds, adding content and scripts to build o
 
 ### Editor Roles
 
-The **owner** is the person who [created the world](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-a-world). Once a world is created, there is no way to change the owner. **Collaborators**, can than be added to (and removed from) the world via the Collaborators menu. When adding a collaborator, you choose whether they are an editor or tester.
+The **owner** is the person who [created the world](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-world). Once a world is created, there is no way to change the owner. **Collaborators**, can than be added to (and removed from) the world via the Collaborators menu. When adding a collaborator, you choose whether they are an editor or tester.
 
-| Role | Can travel to [editor instances](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-lifetime)? | Can enter [build mode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#visitation-modes-edit-preview-and-publish), edit [scene](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph), and edit [scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting)? | Can [publish](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#publishing-and-player-settings) the world? | Can edit [persistence](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistence) settings (create and edit [leaderboards](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#leaderboards), [quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests), and [PPVs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs))? | Can assign [editor roles](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#editor-roles)? |
+| Role | Can travel to [editor instances](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-lifetime)? | Can enter [build mode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish), edit [scene](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph), and edit [scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting)? | Can [publish](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings) the world? | Can edit [persistence](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistence) settings (create and edit [leaderboards](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards), [quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests), and [PPVs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs))? | Can assign [editor roles](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles)? |
 | --- | --- | --- | --- | --- | --- |
 | *Owner* | ✅ | ✅ | ✅ | ✅ | ✅ |
 | *Editor* | ✅ | ✅ | ❌ | ❌ (Exception: editing Quests *are* allowed) | ❌ |
@@ -87,7 +87,7 @@ The **owner** is the person who [created the world](https://developers.meta.com/
 
 ### Cloning a World
 
-World owners can clone a world. This creates a new one with a different ID than the original. The scene configuration and scripting will be completely independent than the original one, except [template assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset) and --> FBS scripts.
+World owners can clone a world. This creates a new one with a different ID than the original. The scene configuration and scripting will be completely independent than the original one, except [template assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) and --> FBS scripts.
 
 To Clone a world:
 
@@ -101,7 +101,7 @@ Quests and Leaderboards are also cloned by default, but their completion state a
 
 ### World Snapshot
 
-When you create a new world, Horizon creates a new “file” on their servers which contains all the information and data for the world. Horizon calls this a **world snapshot**. Every time you update the world, a new snapshot is created. You can manage all the saves snapshots via the [backups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-backups) feature.
+When you create a new world, Horizon creates a new “file” on their servers which contains all the information and data for the world. Horizon calls this a **world snapshot**. Every time you update the world, a new snapshot is created. You can manage all the saves snapshots via the [backups](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-backups) feature.
 
 The world snapshot
 
@@ -109,15 +109,15 @@ Whenever this document refers to **the world snapshot** it is referring to the s
 
 ### World Backups
 
-The editor regularly “auto saves” the world, creating a new [world snapshot](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-snapshot) that is called a **backup**. You can manually create a snapshot as a via the “Save Backup” option.
+The editor regularly “auto saves” the world, creating a new [world snapshot](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot) that is called a **backup**. You can manually create a snapshot as a via the “Save Backup” option.
 
 The list of all previous saved snapshots are viewable in the “Backups” menu. This menu allows you to see the list of backups, see when it was created, modify the name and description, or to **restore** a backup to be the current snapshot.
 
-For instance, before starting a major change to the world, you could create a backup, and then if you run into issues, you could restore that “safe” backup back to when the world was “unchanged”. You can also look back into backups to investigate when a certain bug appeared, or to go back and make an [asset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#assets) or copy a [script](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting) that you have since modified or deleted.
+For instance, before starting a major change to the world, you could create a backup, and then if you run into issues, you could restore that “safe” backup back to when the world was “unchanged”. You can also look back into backups to investigate when a certain bug appeared, or to go back and make an [asset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#assets) or copy a [script](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting) that you have since modified or deleted.
 
 Source Control
 
-Currently there is no way to put a whole world into an external source control system, such as git, but it is possible to [put the scripts into source control](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripts-in-source-control).
+Currently there is no way to put a whole world into an external source control system, such as git, but it is possible to [put the scripts into source control](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripts-in-source-control).
 
 Warning
 
@@ -125,7 +125,7 @@ Restoring a backup will overwrite the editable version of the world. Currently, 
 
 ## Instances
 
-Once published, Horizon maybe have multiple *copies* of a world running at the same time. For example if the [maximum player count](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#maximum-player-count) is set to 20 and there are 100 people “in the world” then they would be spread out across *at least* 5 separate copies. These copies are called **instances**.
+Once published, Horizon maybe have multiple *copies* of a world running at the same time. For example if the [maximum player count](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#maximum-player-count) is set to 20 and there are 100 people “in the world” then they would be spread out across *at least* 5 separate copies. These copies are called **instances**.
 
 Horizon sometimes refers to Instances as Sessions
 
@@ -133,7 +133,7 @@ In all technical documentation, Horizon uses the word *instance*. Given that thi
 
 ### Instance Lifetime
 
-**Creation**: When a player travels to a world (to play it or edit it), Horizon [finds or creates an instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-selection) of the right [type](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-types).
+**Creation**: When a player travels to a world (to play it or edit it), Horizon [finds or creates an instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection) of the right [type](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-types).
 
 **Longevity**: The instance then remains running as long as players stay in it. Even when all players leave, and the instance becomes empty, it may stay running for some time, in case any players try to return or new players arrive.
 
@@ -141,16 +141,16 @@ In all technical documentation, Horizon uses the word *instance*. Given that thi
 
 Destroyed instances are permanently gone and so is their data.
 
-When an instance is destroyed there is no way for players to get back that specific instance. Any data they had “acquired” in that instance is permanently lost. You can **use [Horizon persistence](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistence) to track data across instances and visits**.
+When an instance is destroyed there is no way for players to get back that specific instance. Any data they had “acquired” in that instance is permanently lost. You can **use [Horizon persistence](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistence) to track data across instances and visits**.
 
 ### Instance Types
 
-There are three types of instances: **published instances**, **editor instances** and **preview instances**. The editing tools, for modifying a world, are only available inside of an *editor instance*. There is no way to turn one into the other; when Horizon [starts up a new instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-selection), based on how the player is traveling, and then the type never changes, for as long as the instance is [alive](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-lifetime).
+There are three types of instances: **published instances**, **editor instances** and **preview instances**. The editing tools, for modifying a world, are only available inside of an *editor instance*. There is no way to turn one into the other; when Horizon [starts up a new instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection), based on how the player is traveling, and then the type never changes, for as long as the instance is [alive](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-lifetime).
 
 | Instance Type | How do you travel to one? | Can you open the editing tools? | How many instances are allowed? |
 | --- | --- | --- | --- |
-| *Published* | Use the “Visit World” button, or [travel](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#travel-doors-and-links) to a friend, travel via a door. | No | No limit |
-| *Editor* | Use the “Edit World” button if you are the [world owner, editor, or a tester](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#editor-roles). | Yes, if you are the [owner or an editor](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#editor-roles). | 1 |
+| *Published* | Use the “Visit World” button, or [travel](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#travel-doors-and-links) to a friend, travel via a door. | No | No limit |
+| *Editor* | Use the “Edit World” button if you are the [world owner, editor, or a tester](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles). | Yes, if you are the [owner or an editor](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles). | 1 |
 | *Preview* | Use the “Preview version” button on the [Developer Dashboard](https://developers.meta.com/horizon/manage/), or using the Preview Configuration actions (send link to Meta Quest phone app, open in browser or copy preview url). | No | No limit |
 
 </gk>
@@ -159,7 +159,7 @@ Preview instances mirror the same functionality as Published instance. The diffe
 
 #### Visitation Modes: Edit, Preview, and Publish
 
-“Visiting” a world in Horizon is done in one of three modes: edit, play, and publish. In a [published instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-types), all players are always in “publish mode”. In an [editor instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-types), the creator and editors can switch back and forth between edit and preview modes; testers are always in preview mode.
+“Visiting” a world in Horizon is done in one of three modes: edit, play, and publish. In a [published instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-types), all players are always in “publish mode”. In an [editor instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-types), the creator and editors can switch back and forth between edit and preview modes; testers are always in preview mode.
 
 | Mode | Description | Instance Type | Required Role |
 | --- | --- | --- | --- |
@@ -169,15 +169,15 @@ Preview instances mirror the same functionality as Published instance. The diffe
 
 Debug console gizmo visibility.
 
-The [Debug Console Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#debug-console-gizmo) has setting to control which visitation mode(s) it is visible in.
+The [Debug Console Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#debug-console-gizmo) has setting to control which visitation mode(s) it is visible in.
 
 ### Available Instances
 
 A player can only travel to an instance if that instance is **available for the player**. Availability is determined by three criteria, all of which must be met:
 
-- **[Isn’t at maximum player count](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#maximum-player-count)**: a player can only travel to a world if there as at least one [index](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-indices) available. If the capacity is set to 20 and there are 19 people there, then 1 more can travel to the world. It is then unavailable for all players until at one player leaves.
+- **[Isn’t at maximum player count](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#maximum-player-count)**: a player can only travel to a world if there as at least one [index](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices) available. If the capacity is set to 20 and there are 19 people there, then 1 more can travel to the world. It is then unavailable for all players until at one player leaves.
 - **Is Safe**: Horizon has an undisclosed, and evolving, set of rules for what it deems *safe*, regarding travel. These rules may include: which players have blocked one another (and how recently), if the traveling player has recently been voted out of that instance, if the instance has a moderated event running, and more.
-- **[Instance is Open](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#open-closed-and-private-instances-matchmaking)**: all [published instances](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-types) exist as either *open* or *closed*. An **open instance** can be joined by a player (if the above criteria are met). A **closed instance** can only be joined by players who are explicitly invited by players already in the instance.
+- **[Instance is Open](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#open-closed-and-private-instances-matchmaking)**: all [published instances](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-types) exist as either *open* or *closed*. An **open instance** can be joined by a player (if the above criteria are met). A **closed instance** can only be joined by players who are explicitly invited by players already in the instance.
 
 #### Open, Closed, and Private Instances (Matchmaking)
 
@@ -207,7 +207,7 @@ The Editor Instance
 
 There is only ever (at most) one **editor instance** of a given world. When that one instance is full, no other editors can load the world to edit.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849720_656797523524869_5636069937135617719_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=cZQiA8BsOCAQ7kNvwFN9n2V&_nc_oc=AdnBLsH3YLU9ZqxXCi29cktnnW7AF7zMt-ebRZEzX2m98Mm4PNuGSmR31BiI1S3O5c8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfjU9aorXzxf6Ct6sADiaXRhcYXv2TBQqbQIKvoYOONOjQ&oe=69464C8C)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849720_656797523524869_5636069937135617719_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=NhMDofkm-5gQ7kNvwHMXgk5&_nc_oc=AdlO2Y8R3qsQVP4GAWbbJgxliNWabRQA2jpndgebvDfuN5Y6jCvdxecb4qo3An4ny3Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfljYoUQNgCODDaHgW-B51rCOOY7TXAuAkudcWl9QwIQ8Q&oe=694BCACC)
 
 ### Travel, Doors, and Links
 
@@ -218,12 +218,12 @@ A player may travel for a number of reasons:
 * they are loading into Horizon
 * they selected a world, in their menu
 * they selected a person and then “join”, in their menu
-* they pressed a button on a [door](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#door-gizmo)
+* they pressed a button on a [door](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#door-gizmo)
 * they walked into a “travel area” (such as in Venues)
 * they were voted out of their current instance
 * they experience an error and were sent back to their “home” space
 
-The [door gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#door-gizmo) allows you to put “travel buttons” in your world and link them together.
+The [door gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#door-gizmo) allows you to put “travel buttons” in your world and link them together.
 
 To get a **URL (text link) to one of your worlds** go here: https://horizon.meta.com/creator/worlds\_all and then choose a world and navigate to its details page. You will be at a URL starting with `https://horizon.meta.com/world/...`. That is the URL / link for that world!
 
@@ -234,11 +234,11 @@ If you are visiting a world in the browser and copy the URL, it will include a s
 An **instance starts** when any of the following occur:
 
 * player chooses “new session” (instance is created and starts)
-* player travels to a world with no currently [available instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#available-instances) (instance is created and starts)
+* player travels to a world with no currently [available instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#available-instances) (instance is created and starts)
 * player travels to the editor for a world that doesn’t currently have the editor instance running (instance is created and starts)
 * creator presses the “Play” button in the desktop editor (instance is not created, but it is started)
 
-When an instance starts, all the [script files are run](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-file-execution) and the [components](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#components) associated with the [entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) in the [scene graph](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph) are [initialized](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle).
+When an instance starts, all the [script files are run](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution) and the [components](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#components) associated with the [entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) in the [scene graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) are [initialized](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
 
 An **instance stops** when any of the following occur:
 
@@ -249,27 +249,27 @@ When an instance stops in the desktop editor, all the components are disposed. I
 
 An **instance resets** when any of the following occur:
 
-* [World class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class)`reset()` method is called
+* [World class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class)`reset()` method is called
 * creator presses the “Reset” button in the desktop editor
 
-When an instance resets, all components are disposed, all assets are [despawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#despawning), all entities are reset to their initial state in the [world snapshot](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-snapshot), all (new) components are initialized.
+When an instance resets, all components are disposed, all assets are [despawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#despawning), all entities are reset to their initial state in the [world snapshot](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot), all (new) components are initialized.
 
 Be careful resetting a playing instance.
 
-If an instance is reset while it is playing, it is possible that some in-flight [events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#communication-between-components) end up arriving and being handled after the reset! Thus, it is recommended to **not use `world.reset()`** and instead implement your own reset logic (which is also a better experience for the players).
+If an instance is reset while it is playing, it is possible that some in-flight [events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#communication-between-components) end up arriving and being handled after the reset! Thus, it is recommended to **not use `world.reset()`** and instead implement your own reset logic (which is also a better experience for the players).
 
 In the desktop editor we recommend that when you want to test the world that you habitually **press: “Stop, then Reset, then Play”**.
 
 ## Scene Graph
 
-Every world in Horizon is made out of [entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) each of which has an [intrinsic type](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-types) such as being a mesh or a particle effect. Entities can be configured to have *behaviors* (such as being [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) or [attachable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities)) and be have other entities as their children (or as a parent). The collection of all of these entities, their attributes, and relationships is called the **scene graph**. When you modify the scene graph in the editor, those changes are saved in the [world snapshot](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-snapshot).
+Every world in Horizon is made out of [entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) each of which has an [intrinsic type](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-types) such as being a mesh or a particle effect. Entities can be configured to have *behaviors* (such as being [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) or [attachable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)) and be have other entities as their children (or as a parent). The collection of all of these entities, their attributes, and relationships is called the **scene graph**. When you modify the scene graph in the editor, those changes are saved in the [world snapshot](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot).
 
 ### Hierarchy
 
-Any [entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) can be set as the child of another entity. For example, you might make a robot’s forearm a Mesh Entity that is a child of the upper arm Mesh Entity. Or you might put a steering wheel inside a car. The main reasons to create parent-child relationships are:
+Any [entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) can be set as the child of another entity. For example, you might make a robot’s forearm a Mesh Entity that is a child of the upper arm Mesh Entity. Or you might put a steering wheel inside a car. The main reasons to create parent-child relationships are:
 
 - To have the transform of one entity impact another (e.g. moving a car also moves the steering wheel within it).
-- To create “layers” or “folders” in the editor (e.g. putting all trees in a [“collection”](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) to make them easier to manage).
+- To create “layers” or “folders” in the editor (e.g. putting all trees in a [“collection”](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) to make them easier to manage).
 
 When an entity has no parent, it is called a **root entity**.
 
@@ -283,14 +283,14 @@ We call the children, and their children, and their children, etc of an entity i
 
 Empty Objects and Groups are two entity types that create “collections” of entities. They are similar in most regards, with **only a few differences**:
 
-| Type | [Pivots](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points) | [Interactive](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities) Children | [Projectile Launcher](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo) | [Child Count](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#hierarchy) |
+| Type | [Pivots](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) | [Interactive](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) Children | [Projectile Launcher](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | [Child Count](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) |
 | --- | --- | --- | --- | --- |
-| Group | At the **build-mode center of all their children**. Meaning that moving a child in build-mode will move the [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points). | Children have their **interaction disabled** and cannot be [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) or [physical](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class). | [Projectile collisions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo) happen **on the group**. | 1+ |
-| Empty Object | The **center of the Empty Object** is always the [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points). | Children **can be [Interactive Entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities)**, if the Empty Object’s `Motion` is `None`. | [Projectile collisions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo) happen **on a child**. | 0+ |
+| Group | At the **build-mode center of all their children**. Meaning that moving a child in build-mode will move the [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). | Children have their **interaction disabled** and cannot be [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) or [physical](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class). | [Projectile collisions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) happen **on the group**. | 1+ |
+| Empty Object | The **center of the Empty Object** is always the [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). | Children **can be [Interactive Entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)**, if the Empty Object’s `Motion` is `None`. | [Projectile collisions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) happen **on a child**. | 0+ |
 
-Empty Objects and Groups **behave identically in regard to [collisions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collisions), [triggers](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo), and [raycasts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)**.
+Empty Objects and Groups **behave identically in regard to [collisions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collisions), [triggers](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo), and [raycasts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)**.
 
-They **behave differently with the [projectile launcher](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo)**. When a projectile launch is hit, Horizon checks if it has a [parent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) and if the parent is a group. If there is a group parent, it uses that as the entity. Otherwise, it uses the original entity it started with. Thus, a group will appear to “bubble up” one level; empty objects do not.
+They **behave differently with the [projectile launcher](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)**. When a projectile launch is hit, Horizon checks if it has a [parent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) and if the parent is a group. If there is a group parent, it uses that as the entity. Otherwise, it uses the original entity it started with. Thus, a group will appear to “bubble up” one level; empty objects do not.
 
 ### Coordinate System
 
@@ -300,17 +300,17 @@ They **behave differently with the [projectile launcher](https://developers.meta
 
 **Left-handed**. The coordinate system is *left-handed*, meaning that if you position the camera so that the positive y-axis is pointing up and the positive x-axis is pointing right then the positive z-axis points forward.
 
-![Diagram showing coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481024720_656797420191546_2462169612641144284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=cizKIy1_uC0Q7kNvwHNK1h3&_nc_oc=AdnIs1SFweAa0IsDToKCv0mB-txnpqtE__0vRLxlAFepjVRNaO39pv5OmywEOoZKQn0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_Afjjrw4M0mR9saFwKy8gItoC1LkUwIGRIwWuxrPQDcbwUw&oe=69465187)
+![Diagram showing coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481024720_656797420191546_2462169612641144284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=RxJj1vpwzIUQ7kNvwF73KNB&_nc_oc=AdmfMO618yU912BHlYuGbqmoahC476SkCvn7ViI7cn76X5-L-66ZrF4Fg8lWiIrnvTg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfkMQ1d59F38jpdJaTaBHLf2szmmY9LIMWxL6ygZ2RqrVw&oe=694BCFC7)
 
 #### Local coordinates
 
-Every [entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) and every [player and player body part](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) has a set of [local axes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) called: **right**, **up**, and **forward** which have an origin at the [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points), if an entity, and at the center of the body part if it is a body part (example: player center is the hips; head center is literally the center of the head). Local coordinates are used for moving entities around in the Desktop editor (if enabled) and are used when interacting with [local transforms](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms).
+Every [entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) and every [player and player body part](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) has a set of [local axes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) called: **right**, **up**, and **forward** which have an origin at the [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points), if an entity, and at the center of the body part if it is a body part (example: player center is the hips; head center is literally the center of the head). Local coordinates are used for moving entities around in the Desktop editor (if enabled) and are used when interacting with [local transforms](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms).
 
 ##### Example: Local Coordinates
 
 The *forward* axis of *a player head* is always pointing away from their face (parallel to their nose), its *right* axis is always point “outward” their right ear, and its *up* axis is pointing out from the top of the skull. When the entity or player body part moves, the origin of these axes move; likewise the axes rotate along with the entity (so that the *right* axis always points out from the right ear).
 
-![Example of coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480611159_656797476858207_8234151886777029936_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=RSUNllREf-8Q7kNvwGHVIKi&_nc_oc=AdnFDLZkha6BvH53xvo3m-YVcY_xSGQ6Jit4LzMaTlx-9NH0FEPdxJkKm0L4suqNpbQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfgLHvKKNqOOaxcZDnCxqEpYaFUYKZ8Ft6Y_vRQz9wAlCQ&oe=6946498F)
+![Example of coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480611159_656797476858207_8234151886777029936_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=qgVIrbDuJ-UQ7kNvwEfXB4g&_nc_oc=AdkedjI8ir5gCYJJl27pdYqCuF2GfjjrRmV2NX-ktGLAMqq_lOCysgKCcyGe81I705s&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfniKpiuvUTb0KQSO2g0mlkbxIBuiKJSqDzFTx53EU3ubw&oe=694BC7CF)
 
 **Meters**. Distances and positions in Horizon are referenced using meters. For example, the position `(0, 1, 0)` is 1 meter (roughly 3.28 feet) up from the center of the world. Avatars in Horizon are approximately 1.8 meter tall (5 feet 11 inches).
 
@@ -318,7 +318,7 @@ The *forward* axis of *a player head* is always pointing away from their face (p
 
 ### Transforms
 
-Entities have three transform properties: [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position), [rotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#rotation), and [scale](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scale). You can use the Properties panel or the “manipulation handles” to manipulate these properties. Editing these values determines how entities are transformed when a new instance starts. **Within the Horizon editor you can only configure initial position, rotation, and scale**. If you want these values to change while the world is running, you will need to modify the values using scripting.
+Entities have three transform properties: [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position), [rotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#rotation), and [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale). You can use the Properties panel or the “manipulation handles” to manipulate these properties. Editing these values determines how entities are transformed when a new instance starts. **Within the Horizon editor you can only configure initial position, rotation, and scale**. If you want these values to change while the world is running, you will need to modify the values using scripting.
 
 In the desktop editor you can switch quickly between transform tools via the keyboard.
 | Manipulation Tool | Keyboard Shortcut |
@@ -327,7 +327,7 @@ In the desktop editor you can switch quickly between transform tools via the key
 | Rotate | E |
 | Scale | R |
 
-Entities can be transformed globally and [locally](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms), they have [pivot points](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points), and can be [transformed relative to other entities or players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transform-helpers).
+Entities can be transformed globally and [locally](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms), they have [pivot points](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points), and can be [transformed relative to other entities or players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers).
 
 No Arbitrary Matrix Transforms
 
@@ -337,11 +337,11 @@ Horizon does not currently allow matrix transforms. You can achieve some skew ef
 
 Positions are specified as 3-dimensional vectors, represented as the `Vec3` type in TypeScript. In the editor these are written as a “triple” such as `(0, 0, 0)`.
 
-The `position` property on an entity determines where in 3D space the [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points) of the entity is, in relation to the origin of the world. Often the pivot is just the center of the entity, and so typically the position of an entity is where its center point is.
+The `position` property on an entity determines where in 3D space the [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) of the entity is, in relation to the origin of the world. Often the pivot is just the center of the entity, and so typically the position of an entity is where its center point is.
 
 #### Example: Setting a position
 
-Position is a [read-write property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) on the `Entity` class. To get the current position of an entity, do:
+Position is a [read-write property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the `Entity` class. To get the current position of an entity, do:
 
 ```
 entity.position.get()
@@ -353,8 +353,8 @@ To move an entity to be 3 meters up from the origin and 4 meters forward, do:
 entity.position.set(new Vec3(0, 3, 4))
 ```
 
-Setting the `position` property is not influenced by the position of any [ancestors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors).
-See [local transforms](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) for setting position relative to a parent entity.
+Setting the `position` property is not influenced by the position of any [ancestors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors).
+See [local transforms](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) for setting position relative to a parent entity.
 
 ##### World max bounds
 
@@ -378,11 +378,11 @@ Rotations are tricky!
 
 Rotations, Quaternions, Euler Angles, etc are all rather tricky and subtle concepts. It will take a lot of time to build an intuition for them. Be patient and don’t worry if rotations seem complex (they are)!
 
-The `rotation` property on an entity determines how much the entity is rotated around its [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points). This rotation is specified *globally*, meaning that it is measured with respect to the world. A zero-rotation will have an entity’s up-axis align with the world’s y-axis, its right-axis align with the world’s x-axis, etc.
+The `rotation` property on an entity determines how much the entity is rotated around its [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). This rotation is specified *globally*, meaning that it is measured with respect to the world. A zero-rotation will have an entity’s up-axis align with the world’s y-axis, its right-axis align with the world’s x-axis, etc.
 
 ##### Example: Setting a rotation
 
-Rotation is a [read-write property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) on the `Entity` class. To get the current rotation of an entity, do:
+Rotation is a [read-write property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the `Entity` class. To get the current rotation of an entity, do:
 
 ```
 entity.rotation.get()
@@ -404,20 +404,20 @@ entity.rotation.set(Quaternion.fromEuler(Vec3.zero))
 entity.rotation.set(Quaternion.one)
 ```
 
-Setting the `rotation` property is not influenced by the rotation of any [ancestors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors).
-See [local transforms](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) for setting rotation relative to a parent entity.
+Setting the `rotation` property is not influenced by the rotation of any [ancestors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors).
+See [local transforms](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) for setting rotation relative to a parent entity.
 
 #### Scale
 
 Scales are specified as 3-dimensional vectors, represented as the `Vec3` type in TypeScript. In the editor these are written as a “triple” such as `(0, 0, 0)`.
 
-**Inherent Size**: All entities have their own inherent size. For instance, a SubD cube is inherently 1 meter long on each side. [3D model assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) have a size based on how they were authored. The inherent size of an entity is the size it is when it is *unscaled*.
+**Inherent Size**: All entities have their own inherent size. For instance, a SubD cube is inherently 1 meter long on each side. [3D model assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) have a size based on how they were authored. The inherent size of an entity is the size it is when it is *unscaled*.
 
 The `scale` property determines the fraction an entity should be of its inherent size. For instance, a SubD cube is inherently 1 meter long on each side. If you set its scale to be `(1, 0.5, 2)` then the cube will be 1 meter long on its right-axis, 0.5 meters long on its up-axis, and 2 meters long on its forward-axis. In this example, the object has been “shrunk” along its up-axis, and “expanded” along its forward-axis.
 
 ##### Example: Setting a scale
 
-Scale is a [read-write property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) on the `Entity` class. To get the current scale of an entity, do:
+Scale is a [read-write property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the `Entity` class. To get the current scale of an entity, do:
 
 ```
 entity.scale.get()
@@ -431,8 +431,8 @@ entity.scale.set(new Vec3(1, 3, 1))
 
 Since the default scale is `(1,1,1)`, you can set any part of a scale to `1` to leave the entity “un-scaled” along that axis.
 
-Setting the `scale` property is not influenced by the rotation of any [ancestors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors).
-See [local transforms](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) for setting scale relative to a parent entity.
+Setting the `scale` property is not influenced by the rotation of any [ancestors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors).
+See [local transforms](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) for setting scale relative to a parent entity.
 
 danger: Mesh Primitives Have Unexpected Inherent Sizes
 
@@ -480,7 +480,7 @@ const newRot = rot.mul(offset)
 entity.rotation.set(newRot)
 ```
 
-where the order of the Quaternion multiplication has been flipped. See [Quaternions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quaternion) for more explanation.
+where the order of the Quaternion multiplication has been flipped. See [Quaternions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) for more explanation.
 
 #### Transform Property
 
@@ -504,7 +504,7 @@ Additionally, the `Transform` object can be used to access **local** position, r
 
 #### Local Transforms
 
-Entities have a `localPosition`, `localRotation`, and `localScale` that can be accessed via the transforms (e.g. `entity.transform.localPosition.get()`). These properties specify values in relation to a parent entity (or to the world if there is no parent), specified in the parent’s [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-coordinates).
+Entities have a `localPosition`, `localRotation`, and `localScale` that can be accessed via the transforms (e.g. `entity.transform.localPosition.get()`). These properties specify values in relation to a parent entity (or to the world if there is no parent), specified in the parent’s [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-coordinates).
 
 Throughout this doc, other than this section, we omit the word *global*. When you see “position”, it means “global position”.
 
@@ -522,7 +522,7 @@ An entity’s global position/rotation/scale influences the global position/rota
 
 Local values exist in the transformed local coordinate system of the parent.
 
-Local values exist in the transformed [local coordinate system](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-coordinates) of the parent.
+Local values exist in the transformed [local coordinate system](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-coordinates) of the parent.
 Rotating and/or scaling an entity causing it axes to rotate and scaled as well. We call these the *transformed axes*.
 
 A child with local position of `(0, 6, 0)` is moved 6 units **from the global position** of its parent **along the parent’s transformed up-axis**. If there is no parent then this is just 6 meters up the world’s y-axis.
@@ -542,15 +542,15 @@ The desktop editor lets you choose to put the “manipulator handles” at eithe
 
 #### Transform Helpers
 
-The [Entity class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-class) has a few methods to help with moving and rotating entities. Note that these methods are “just math”; they update the entity’s [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position) and [rotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#rotation).
+The [Entity class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class) has a few methods to help with moving and rotating entities. Note that these methods are “just math”; they update the entity’s [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position) and [rotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#rotation).
 
-* **Look At**: Rotate the entity to point its [forward axis](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) in the direction of the target
+* **Look At**: Rotate the entity to point its [forward axis](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) in the direction of the target
 
   ```
     // Entity
     lookAt(target: Vec3, up?: Vec3): void;
   ```
-* **Move Relative To**: Move the `entity` so that its `position` to (*relative to* the `target` or `player`’s `bodyPart`) is `relativePosition` when measured in the `space`[coordinate system](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#coordinate-system).
+* **Move Relative To**: Move the `entity` so that its `position` to (*relative to* the `target` or `player`’s `bodyPart`) is `relativePosition` when measured in the `space`[coordinate system](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system).
 
   ```
     // Entity
@@ -568,7 +568,7 @@ The [Entity class](https://developers.meta.com/horizon-worlds/learn/documentatio
       space?: Space
     ): void;
   ```
-* **Rotate Relative To**: Rotate the `entity` so that its `rotation` to (*relative to* the `target` or `player`’s `bodyPart`) is `relativeRotation` when measured in the `space`[coordinate system](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#coordinate-system).
+* **Rotate Relative To**: Rotate the `entity` so that its `rotation` to (*relative to* the `target` or `player`’s `bodyPart`) is `relativeRotation` when measured in the `space`[coordinate system](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system).
 
   ```
     // Entity
@@ -591,15 +591,15 @@ The [Entity class](https://developers.meta.com/horizon-worlds/learn/documentatio
 
 An entity is a “billboard” when it automatically rotates to face the player. This uses *per-player rotation* so that each player can see the entity facing toward them.
 
-[Empty objects and groups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) have a property (in the Properties panel) called **Billboard** with 3 options:
+[Empty objects and groups](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) have a property (in the Properties panel) called **Billboard** with 3 options:
 
 | Billboard Setting |  |
 | --- | --- |
 | None | No automatic rotation |
-| Lock-Y | Auto-rotate *per-player* around the y-axis so that the entity always points its [local forward axis](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) in the direction of the player (but locked to the *xz*-plane). Its local up axis will always point straight up in the world. |
-| Freeform | Auto-rotate *per-player* around any axis to face the player as best as possible. The entity’s [local forward axis](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) will point exactly in the direction of the player. |
+| Lock-Y | Auto-rotate *per-player* around the y-axis so that the entity always points its [local forward axis](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) in the direction of the player (but locked to the *xz*-plane). Its local up axis will always point straight up in the world. |
+| Freeform | Auto-rotate *per-player* around any axis to face the player as best as possible. The entity’s [local forward axis](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) will point exactly in the direction of the player. |
 
-**Billboard User Interfaces (UIs)**: [Leaderboard gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#using-the-world-leaderboard-gizmo) contain a setting called “UI Anchor Style” which can be set to “Static” or “Billboard”. When set to “Billboard” it acts just like a group with the billboard property set to “Freeform”. All other UIs ([Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui), [Debug Console Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#debug-console-gizmo), [Quests Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests-gizmo), etc) can be made into a billboard by putting them in a [group](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) or as the child of an [empty object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) and then using the billboard option there.
+**Billboard User Interfaces (UIs)**: [Leaderboard gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#using-the-world-leaderboard-gizmo) contain a setting called “UI Anchor Style” which can be set to “Static” or “Billboard”. When set to “Billboard” it acts just like a group with the billboard property set to “Freeform”. All other UIs ([Custom UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui), [Debug Console Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#debug-console-gizmo), [Quests Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests-gizmo), etc) can be made into a billboard by putting them in a [group](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) or as the child of an [empty object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) and then using the billboard option there.
 
 ## Entities
 
@@ -611,63 +611,63 @@ Horizon calls these **objects** in the Desktop Editor and VR Tools but calls the
 
 In TypeScript `Object` is a built-in for managing data, whereas `Entity` is a Horizon-specific class.
 
-Entities are represented by the [Entity class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-class). They have an [intrinsic type](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#intrinsic-entity-types) (such as being a [particle effect](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#particlefx-gizmo)) and may have (multiple) [behavior types](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#behavior-entity-types) (such as being [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities)). Entities have a number of [properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-properties) and methods for managing [visibility](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility). Entities can be [transferred to run on player devices](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) to improve “smoothness”, can be impacted by [physics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics) via forces, be made [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities), be made [attachable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities), and so much more.
+Entities are represented by the [Entity class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class). They have an [intrinsic type](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) (such as being a [particle effect](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)) and may have (multiple) [behavior types](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) (such as being [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)). Entities have a number of [properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-properties) and methods for managing [visibility](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility). Entities can be [transferred to run on player devices](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to improve “smoothness”, can be impacted by [physics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics) via forces, be made [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities), be made [attachable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities), and so much more.
 
 ### Entity Class
 
 | `Entity` Class Member | Description |
 | --- | --- |
 | **Scene Graph** |  |
-| [children](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#hierarchy) | All entities that are children of this one (in the Hierarchy panel) |
-| [getComponents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#converting-between-components-and-entities) | All components attached to this entity |
-| id | A unique id in this [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) |
+| [children](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) | All entities that are children of this one (in the Hierarchy panel) |
+| [getComponents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#converting-between-components-and-entities) | All components attached to this entity |
+| id | A unique id in this [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) |
 | name | The name in the Properties panel |
-| [parent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#hierarchy) | The parent (if any) in the Hierarchy panel |
+| [parent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) | The parent (if any) in the Hierarchy panel |
 | **Interaction** |  |
-| [as](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) | Convert the entity to an [intrinsic](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#intrinsic-entity-types) or [behavior](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#behavior-entity-types) entity type |
-| [collidable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#colliders) | Control collidability |
-| color | Set the color of the mesh (only works for [SubD](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#subd-vs-custom-models)) |
-| [exists](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#despawning) | Check if the entity exists (either from despawn or a Codeblock script passing an uninitialized reference) |
-| [interactionMode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities) | Control the type of interactivity |
-| [owner](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) | The player whose [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) has [authority](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#authority-and-reconciliation) of the entity (defaults to the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player)) |
-| [simulated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated) | If the entity updated in the [simulation phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase) of each frame |
-| [tags](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags) | The list of [tags](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags) on the entity |
+| [as](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) | Convert the entity to an [intrinsic](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) or [behavior](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) entity type |
+| [collidable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) | Control collidability |
+| color | Set the color of the mesh (only works for [SubD](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#subd-vs-custom-models)) |
+| [exists](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) | Check if the entity exists (either from despawn or a Codeblock script passing an uninitialized reference) |
+| [interactionMode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) | Control the type of interactivity |
+| [owner](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) | The player whose [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) has [authority](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation) of the entity (defaults to the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player)) |
+| [simulated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) | If the entity updated in the [simulation phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) of each frame |
+| [tags](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) | The list of [tags](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) on the entity |
 | **Transforms** |  |
-| [forward](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) | The local forward vector |
-| [lookAt](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transform-helpers) | Rotate to look at a point |
-| [moveRelativeTo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transform-helpers) | Move in another entity’s [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) |
-| [moveRelativeToPlayer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transform-helpers) | Move in a player’s [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) |
-| [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position) | The entity’s global position |
-| [right](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) | The local right vector |
-| [rotateRelativeTo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transform-helpers) | Rotate in another entity’s [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) |
-| [rotateRelativeToPlayer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transform-helpers) | Rotate in a player’s [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) |
-| [rotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#rotation) | The entity’s global rotation |
-| [scale](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scale) | The entity’s global scale |
-| [transform](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transforms) | The entity’s transform object |
-| [up](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) | The local up vector |
+| [forward](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | The local forward vector |
+| [lookAt](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Rotate to look at a point |
+| [moveRelativeTo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Move in another entity’s [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
+| [moveRelativeToPlayer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Move in a player’s [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
+| [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position) | The entity’s global position |
+| [right](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | The local right vector |
+| [rotateRelativeTo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Rotate in another entity’s [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
+| [rotateRelativeToPlayer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Rotate in a player’s [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
+| [rotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) | The entity’s global rotation |
+| [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale) | The entity’s global scale |
+| [transform](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transforms) | The entity’s transform object |
+| [up](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | The local up vector |
 | **Visibility** |  |
-| [isVisibleToPlayer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility) | Does a player have *[permission](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility-permissions)* to see the entity? |
-| [setVisibilityForPlayers](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility) | Set the *[permission](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility-permissions)* for a player to see the entity |
-| [visible](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility) | Is the entity visible (which may be [overridden by its parent or by permissions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility)) |
+| [isVisibleToPlayer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility) | Does a player have *[permission](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility-permissions)* to see the entity? |
+| [setVisibilityForPlayers](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility) | Set the *[permission](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility-permissions)* for a player to see the entity |
+| [visible](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility) | Is the entity visible (which may be [overridden by its parent or by permissions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility)) |
 
 ### Entity Types
 
-Every entity in Horizon has an underlying **[intrinsic type](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#intrinsic-entity-types)** determined by how the entity was originally created (e.g. whether you instantiated a [Sound Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo), [Text Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-gizmo), [3D Model](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset), etc).
+Every entity in Horizon has an underlying **[intrinsic type](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types)** determined by how the entity was originally created (e.g. whether you instantiated a [Sound Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo), [Text Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo), [3D Model](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), etc).
 
-Additionally, an entity can have (multiple) **[behavior types](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#behavior-entity-types)** based on settings in the Properties panel (such as being [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities), [attachable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities), etc).
+Additionally, an entity can have (multiple) **[behavior types](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types)** based on settings in the Properties panel (such as being [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities), [attachable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities), etc).
 
-For example, a *hat mesh that is grabbable and attachable* has a intrinsic type of [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) and two behavior types: [GrabbableEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) and [AttachableEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities).
+For example, a *hat mesh that is grabbable and attachable* has a intrinsic type of [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) and two behavior types: [GrabbableEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and [AttachableEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities).
 
 #### Static vs Dynamic Entities
 
 All entities in Horizon are either **static** or **dynamic**.
 
-**Static entity**: A static entity can never change in any way (other than being [spawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) in and out ). A static entity’s position, rotation, color, etc never change. Horizon computes more [detailed lighting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-lighting) on static entities. Scripts can *read* the data of a static entity (such as getting position) but can never change the values. Static entities **cannot** have [behaviors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#behavior-entity-types) An entity **is static when `Motion` is set to `None` in the Properties panel**.
+**Static entity**: A static entity can never change in any way (other than being [spawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) in and out ). A static entity’s position, rotation, color, etc never change. Horizon computes more [detailed lighting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting) on static entities. Scripts can *read* the data of a static entity (such as getting position) but can never change the values. Static entities **cannot** have [behaviors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) An entity **is static when `Motion` is set to `None` in the Properties panel**.
 
-**Dynamic entity**: A dynamic entity is one that changes. It may move and rotate, have its color changed, have forces applied, be grabbed, be attached to an avatar, etc. A dynamic entity has [simpler lighting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-lighting) than static entities. Dynamic entities *can* have [behaviors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#behavior-entity-types). An entity **is dynamic when `Motion` is set to `Animated` or `Interactive` in the Properties panel**
+**Dynamic entity**: A dynamic entity is one that changes. It may move and rotate, have its color changed, have forces applied, be grabbed, be attached to an avatar, etc. A dynamic entity has [simpler lighting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting) than static entities. Dynamic entities *can* have [behaviors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types). An entity **is dynamic when `Motion` is set to `Animated` or `Interactive` in the Properties panel**
 
-* When `Motion` is set to `Animated` you can [record a “hand animation”](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#animated-entities) on the entity.
-* When `Motion` is set to `Interactive` you can make the entity [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities), [physics-simulated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class), or both.
+* When `Motion` is set to `Animated` you can [record a “hand animation”](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#animated-entities) on the entity.
+* When `Motion` is set to `Interactive` you can make the entity [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities), [physics-simulated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class), or both.
 
 Parents don't affect static vs dynamic.
 
@@ -675,39 +675,39 @@ A static entity can have a dynamic parent and vice versa.
 
 #### Intrinsic Entity Types
 
-The table below lists all intrinsic types, which are subclasses of `Entity`. Note that some intrinsic types don’t have an associated subclass and thus are accessed simply as `Entity` instances. Every entity only has **one intrinsic type** which can be accessed via the [entity.as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) method.
+The table below lists all intrinsic types, which are subclasses of `Entity`. Note that some intrinsic types don’t have an associated subclass and thus are accessed simply as `Entity` instances. Every entity only has **one intrinsic type** which can be accessed via the [entity.as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) method.
 
-The intrinsic type classes (in the table below) all subclass `Entity`. All the [entity properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-properties) are available on all of them.
+The intrinsic type classes (in the table below) all subclass `Entity`. All the [entity properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-properties) are available on all of them.
 
-[Intrinsic entity types](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#intrinsic-entity-types) are organized in the desktop editor into a few top-level categories:
+[Intrinsic entity types](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) are organized in the desktop editor into a few top-level categories:
 
-* **Shapes**: built-in mesh “primitive” shapes (such as cube, sphere, torus, cylinder, etc) all of which instantiate [Mesh Entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class).
-* **Gizmos**: entities that have in-world behavior (such as for spawning a player at a location, showing UI, rendering a particle effect, launching a projectile, and so much more). These are all listed in the [table below](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#intrinsic-entity-types) and enumerated in full detail [below](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#all-gizmos-intrinsic-entity-types).
-* **Colliders**: mesh-less entities that still have [a “shape” that can be collided with](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collider-gizmo) (such as sphere, cube, and capsule). Its type is just `Entity`.
-* **Sounds**: a large library of pre-made sound effects; you can also create more using the AI sound feature. These all instantiate [sounds gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo) (which have the type `AudioGizmo`).
-* **Empty Object**: a special [“collection” entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups). Its TypeScript type is just `Entity`.
-* **Group**: another special [“collection” entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups). Its TypeScript type is just `Entity`.
-* **Sublevel**: an abstract entity containing information for spawning in [portions of levels](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevels).
+* **Shapes**: built-in mesh “primitive” shapes (such as cube, sphere, torus, cylinder, etc) all of which instantiate [Mesh Entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class).
+* **Gizmos**: entities that have in-world behavior (such as for spawning a player at a location, showing UI, rendering a particle effect, launching a projectile, and so much more). These are all listed in the [table below](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) and enumerated in full detail [below](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types).
+* **Colliders**: mesh-less entities that still have [a “shape” that can be collided with](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) (such as sphere, cube, and capsule). Its type is just `Entity`.
+* **Sounds**: a large library of pre-made sound effects; you can also create more using the AI sound feature. These all instantiate [sounds gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) (which have the type `AudioGizmo`).
+* **Empty Object**: a special [“collection” entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups). Its TypeScript type is just `Entity`.
+* **Group**: another special [“collection” entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups). Its TypeScript type is just `Entity`.
+* **Sublevel**: an abstract entity containing information for spawning in [portions of levels](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels).
 
-There is a [full list of all intrinsic entity types and their documentation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#all-gizmos-intrinsic-entity-types) below.
+There is a [full list of all intrinsic entity types and their documentation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types) below.
 
 #### Behavior Entity Types
 
-A [dynamic entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-vs-dynamic-entities) can have **multiple behavior types** which can be accessed via the [entity.as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) method.
+A [dynamic entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities) can have **multiple behavior types** which can be accessed via the [entity.as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) method.
 
-The behavior type classes (in the table below) all subclass `Entity`. All the [entity properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-properties) are available on all of them.
+The behavior type classes (in the table below) all subclass `Entity`. All the [entity properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-properties) are available on all of them.
 
 | Behavior Type | Description | TypeScript Class | How to Enable |
 | --- | --- | --- | --- |
-| [Animated (Recording)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#animated-entities) | An entity that has a recording on it. | `AnimatedEntity` | Set `Motion` to `Animated`. Use the `Record` button in the Properties panel. |
-| [Attachable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities) | An entity that can be attached to a [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players). | `AttachableEntity` | Set `Motion` to `Animated` or `Interactive`. Set `Avatar Attachable` to `Sticky` or `Anchor` in the Properties panel. |
-| [Grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) | An entity that can be grabbed and held. | `GrabbableEntity` | Set `Motion` to `Interactive`. Set `Interaction` to `Grabbable` or `Both`. Interaction can also be changed with `entity.interactionMode.set(...)`. |
-| [Physics-Simulated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) | An entity that can respond to [forces and torques](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics). | `PhysicalEntity` | Set `Motion` to `Interactive`. Set `Interaction` to `Physics` or `Both`. Interaction can also be changed with `entity.interactionMode.set(...)` |
-| [Navigation Mesh Agent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#navigation-mesh-agent) | An entity that can do its own locomotion using a [navigation mesh profile](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#navigation-mesh-profile) | `NavMeshAgent` | In the `Navigation Locomotion` property sub-panel, set `Enabled` to `true`. |
+| [Animated (Recording)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#animated-entities) | An entity that has a recording on it. | `AnimatedEntity` | Set `Motion` to `Animated`. Use the `Record` button in the Properties panel. |
+| [Attachable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) | An entity that can be attached to a [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players). | `AttachableEntity` | Set `Motion` to `Animated` or `Interactive`. Set `Avatar Attachable` to `Sticky` or `Anchor` in the Properties panel. |
+| [Grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) | An entity that can be grabbed and held. | `GrabbableEntity` | Set `Motion` to `Interactive`. Set `Interaction` to `Grabbable` or `Both`. Interaction can also be changed with `entity.interactionMode.set(...)`. |
+| [Physics-Simulated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) | An entity that can respond to [forces and torques](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics). | `PhysicalEntity` | Set `Motion` to `Interactive`. Set `Interaction` to `Physics` or `Both`. Interaction can also be changed with `entity.interactionMode.set(...)` |
+| [Navigation Mesh Agent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-agent) | An entity that can do its own locomotion using a [navigation mesh profile](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-profile) | `NavMeshAgent` | In the `Navigation Locomotion` property sub-panel, set `Enabled` to `true`. |
 
 #### Entity as() method
 
-You can convert an [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-class) instance into its [intrinsic](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#intrinsic-entity-types) or [behavior](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#behavior-entity-types) types using the entity `as()` method.
+You can convert an [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class) instance into its [intrinsic](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) or [behavior](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) types using the entity `as()` method.
 
 For example:
 
@@ -762,11 +762,11 @@ You cannot directly transform an `AnimatedEntity` with a recorded animation.
 
 An animated entity ignores any calls to `set()` its position, rotation, or scale.
 
-An `AnimatedEntity` performs its recorded animation [locally](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) when it has a [parent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors). Thus you can essentially move, rotate, or scale an `AnimatedEntity` by putting it in a [group or empty object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) and transforming that parent.
+An `AnimatedEntity` performs its recorded animation [locally](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) when it has a [parent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors). Thus you can essentially move, rotate, or scale an `AnimatedEntity` by putting it in a [group or empty object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) and transforming that parent.
 
 Recorded animations can be nested
 
-Since an `AnimatedEntity` performs its recorded animation [locally](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms), entities with recorded animations can be children of other `AnimatedEntity`s.
+Since an `AnimatedEntity` performs its recorded animation [locally](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms), entities with recorded animations can be children of other `AnimatedEntity`s.
 
 This means you can hand-animate a wheel to rotate, duplicate the wheel, set the wheels as children to car, and then hand-animate the car to drive around. You can also script your car to animate on cue by calling `start()` on the car and its wheels on the same frame.
 
@@ -776,9 +776,9 @@ If an `AnimatedEntity` is a group that has the “Animate Group” property enab
 
 #### Interactive Entities
 
-When a [dynamic entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-vs-dynamic-entities)’s `Motion` is set to `Interactive` in the Properties panel it can be used for [grabbing](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities), [physics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics), or both. We call these **interactive entities**.
+When a [dynamic entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities)’s `Motion` is set to `Interactive` in the Properties panel it can be used for [grabbing](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities), [physics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics), or both. We call these **interactive entities**.
 
-An interactive entity’s [behavior types](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#behavior-entity-types) can be changed at runtime
+An interactive entity’s [behavior types](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) can be changed at runtime
 
 ```
 entity.interactionMode.set(EntityInteractionMode.Grabbable)
@@ -788,11 +788,11 @@ with any of the following options:
 
 | Value | Behavior |
 | --- | --- |
-| `EntityInteractionMode.Grabbable` | The entity is a [GrabbableEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) |
-| `EntityInteractionMode.Physics` | The entity is a [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) |
-| `EntityInteractionMode.Both` | The entity is both a [GrabbableEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) and a [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) |
+| `EntityInteractionMode.Grabbable` | The entity is a [GrabbableEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) |
+| `EntityInteractionMode.Physics` | The entity is a [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) |
+| `EntityInteractionMode.Both` | The entity is both a [GrabbableEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and a [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) |
 
-When checking for an entity’s interactive [behavior types](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#behavior-entity-types) at runtime
+When checking for an entity’s interactive [behavior types](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) at runtime
 
 ```
 const mode = entity.interactionMode.get()
@@ -804,72 +804,72 @@ you will get one of the above values, unless the entity is not interactive (mean
 | --- | --- |
 | `EntityInteractionMode.Invalid` | The entity is not interactive and has neither grabbable nor physics behavior types |
 
-You cannot `set` the `interactionMode` to the `Invalid` value. **To temporarily disable interaction set [simulated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated) to `false`** (and the entity will behave as if [“Motion”](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities) is set to “None”).
+You cannot `set` the `interactionMode` to the `Invalid` value. **To temporarily disable interaction set [simulated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) to `false`** (and the entity will behave as if [“Motion”](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) is set to “None”).
 
 Be careful putting Interactive Entities inside of hierarchies. Interactivity may be disabled!
 
-If you want to have an interactive entity be within a hierarchy (e.g. child of another entity) then all of its [ancestors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) should be *Empty Objects* or *Mesh Entities*. All ancestors should have `Motion` set to `None`.
+If you want to have an interactive entity be within a hierarchy (e.g. child of another entity) then all of its [ancestors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) should be *Empty Objects* or *Mesh Entities*. All ancestors should have `Motion` set to `None`.
 
-If `Motion` is `Animated` or `Interactive` on any of its [ancestors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) then interactivity will be disabled.
+If `Motion` is `Animated` or `Interactive` on any of its [ancestors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) then interactivity will be disabled.
 
-If any of its ancestors are a [Group Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) then interactivity will be disabled.
+If any of its ancestors are a [Group Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) then interactivity will be disabled.
 
 If there are any ancestors other than Mesh Entities, Empty Objects, and Group Entities then it is undefined whether or not interaction is disabled.
 
 ### Entity Properties
 
-All `Entity` instances have the class properties in the table below. Additionally, entities have methods for managing [visibility](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility), [transforming relative to an entity or player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transform-helpers), and checking if an entity [exists](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-exists).
+All `Entity` instances have the class properties in the table below. Additionally, entities have methods for managing [visibility](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility), [transforming relative to an entity or player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers), and checking if an entity [exists](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-exists).
 
 | `Entity` Class Member | Type | Description |
 | --- | --- | --- |
-| **[Scene Graph](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph)** |  |  |
+| **[Scene Graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph)** |  |  |
 | id | `bigint` | A unique value representing this entity in this instance. `id`s are not reused (within an instance). |
 | name | `ReadableHorizonProperty` `<string>` | The name the Entity has in Properties panel. |
-| [parent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#hierarchy) | `ReadableHorizonProperty` `<Entity \| null>` | The entity’s parent (if there is one). |
-| [children](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#hierarchy) | `ReadableHorizonProperty` `<Entity[]>` | The entity’s children. |
-| [tags](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags) | `HorizonSetProperty` `<string>` | The array of tags on the entity. |
-| **[Transform](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transforms)** |  |  |
-| [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position) | `HorizonProperty` `<Vec3>` | The entity’s *global* position. |
-| [rotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#rotation) | `HorizonProperty` `<Quaternion>` | The entity’s *global* rotation. |
-| [scale](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scale) | `HorizonProperty` `<Vec3>` | The entity’s *global* scale. |
-| [transform](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transform-property) | `Transform` | The entity’s transform instance (containing properties for [local](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) and global values). |
-| **[Local Coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms)** |  |  |
-| forward | `ReadableHorizonProperty` `<Vec3>` | The entity’s [local positive z-axis](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms). |
-| up | `ReadableHorizonProperty` `<Vec3>` | The entity’s [local positive y-axis](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms). |
-| right | `ReadableHorizonProperty` `<Vec3>` | The entity’s [local positive x-axis](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms). |
+| [parent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) | `ReadableHorizonProperty` `<Entity \| null>` | The entity’s parent (if there is one). |
+| [children](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) | `ReadableHorizonProperty` `<Entity[]>` | The entity’s children. |
+| [tags](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) | `HorizonSetProperty` `<string>` | The array of tags on the entity. |
+| **[Transform](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transforms)** |  |  |
+| [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position) | `HorizonProperty` `<Vec3>` | The entity’s *global* position. |
+| [rotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) | `HorizonProperty` `<Quaternion>` | The entity’s *global* rotation. |
+| [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale) | `HorizonProperty` `<Vec3>` | The entity’s *global* scale. |
+| [transform](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transform-property) | `Transform` | The entity’s transform instance (containing properties for [local](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) and global values). |
+| **[Local Coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)** |  |  |
+| forward | `ReadableHorizonProperty` `<Vec3>` | The entity’s [local positive z-axis](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms). |
+| up | `ReadableHorizonProperty` `<Vec3>` | The entity’s [local positive y-axis](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms). |
+| right | `ReadableHorizonProperty` `<Vec3>` | The entity’s [local positive x-axis](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms). |
 | **Rendering** |  |  |
-| color | `HorizonProperty` `<Color>` | The color the entity renders as. This is *only supported with the [SubD rendering](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#subd-vs-custom-models) system*. To change the color of a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) use [tinting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-style). |
-| visible | `HorizonProperty` `<boolean>` | The top-level control for visibility. Read the [rules for when an entity is visible](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility). |
-| **[Behavior](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities)** |  |  |
-| [collidable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#colliders) | `HorizonProperty` `<boolean>` | If the entity has its [collider active](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders). This impacts [grabbability](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#can-grab), physics [collision](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collisions), [trigger detection](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-collisions), if a play can stand on an entity (or is blocked by it), etc. |
-| [interactionMode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities) | `HorizonProperty` `<EntityInteractionMode>` | The kind of [interactive entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities) the entity is. This only works when `Motion` is set to `Interactive`. |
-| [simulated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated) | `HorizonProperty` `<boolean>` | Whether the entity is impacted by [physics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics) (if its position and rotation are updated in the [physics calculations](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase) of the frame). |
+| color | `HorizonProperty` `<Color>` | The color the entity renders as. This is *only supported with the [SubD rendering](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#subd-vs-custom-models) system*. To change the color of a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) use [tinting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style). |
+| visible | `HorizonProperty` `<boolean>` | The top-level control for visibility. Read the [rules for when an entity is visible](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility). |
+| **[Behavior](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)** |  |  |
+| [collidable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) | `HorizonProperty` `<boolean>` | If the entity has its [collider active](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders). This impacts [grabbability](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab), physics [collision](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collisions), [trigger detection](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions), if a play can stand on an entity (or is blocked by it), etc. |
+| [interactionMode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) | `HorizonProperty` `<EntityInteractionMode>` | The kind of [interactive entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) the entity is. This only works when `Motion` is set to `Interactive`. |
+| [simulated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) | `HorizonProperty` `<boolean>` | Whether the entity is impacted by [physics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics) (if its position and rotation are updated in the [physics calculations](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) of the frame). |
 | **Ownership** |  |  |
-| [owner](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) | `HorizonProperty` `<Player>` | The [owner](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) of the entity. Changing this property executes an [ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer). |
+| [owner](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) | `HorizonProperty` `<Player>` | The [owner](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) of the entity. Changing this property executes an [ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer). |
 
 #### entity exists
 
-**`exists()` method**: When an entity is [depawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#despawning) its `Entity` instances will then have `exists()` return `false`. Additionally, in Horizon’s code block system it is possible to create an `Entity` variable, never set it to anything, and then send it in an event. TypeScript will also see this as an `Entity` instance with `exists()` returning `false`. Non-existent entities return “default values” (e.g. [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position) returns the [origin](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#coordinate-system)); you should not `set()` any properties on one.
+**`exists()` method**: When an entity is [depawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) its `Entity` instances will then have `exists()` return `false`. Additionally, in Horizon’s code block system it is possible to create an `Entity` variable, never set it to anything, and then send it in an event. TypeScript will also see this as an `Entity` instance with `exists()` returning `false`. Non-existent entities return “default values” (e.g. [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position) returns the [origin](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system)); you should not `set()` any properties on one.
 
 #### Simulated
 
-The **simulated** property is only available in scripting (as a `boolean`[read-write Horizon property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties)). The property allows you to disable interaction (as if temporarily setting “Motion” to “None”) so that entities don’t respond to [physics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics) and are not [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities).
+The **simulated** property is only available in scripting (as a `boolean`[read-write Horizon property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)). The property allows you to disable interaction (as if temporarily setting “Motion” to “None”) so that entities don’t respond to [physics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics) and are not [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities).
 
-When an [entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) has **`simulated` set to `false`**:
+When an [entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) has **`simulated` set to `false`**:
 
-* It **cannot be grabbed** ❌ (even if [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities)). If a held entity has its `simulated` set to `false` it *will [force release](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release)*.
-* It **cannot have [forces applied](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#applying-forces-and-torque)** ❌ (even if it is [physical](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class)).
-* It **can be attached via scripting** ✅ (if it is [attachable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities)) though it [may push the player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripted-attach) (if `collidable` is `true`). If an attached entity has its `simulated` set to `false` it *will NOT detach*.
-* It **can be moved** ✅ via `position.set(...)` and `rotation.set(...)` (if it is [dynamic](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-vs-dynamic-entities)).
-* It **can be collided with** following the standard rules for [collisions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collisions).
+* It **cannot be grabbed** ❌ (even if [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)). If a held entity has its `simulated` set to `false` it *will [force release](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release)*.
+* It **cannot have [forces applied](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)** ❌ (even if it is [physical](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)).
+* It **can be attached via scripting** ✅ (if it is [attachable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)) though it [may push the player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach) (if `collidable` is `true`). If an attached entity has its `simulated` set to `false` it *will NOT detach*.
+* It **can be moved** ✅ via `position.set(...)` and `rotation.set(...)` (if it is [dynamic](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities)).
+* It **can be collided with** following the standard rules for [collisions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collisions).
 
 The `simulated` property defaults to `true`.
 
-When you call `entity.simulated.set(false)` the entity will lose all [linear and angular velocity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics) (as if you had called `entity.zeroVelocity()`). If, or when, `simulated` is re-enabled, those velocities are *not* returned.
+When you call `entity.simulated.set(false)` the entity will lose all [linear and angular velocity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics) (as if you had called `entity.zeroVelocity()`). If, or when, `simulated` is re-enabled, those velocities are *not* returned.
 
 Note
 
-The [PhysicalEntity class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) has a method `locked`; [locked is very similar to simulated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated-vs-locked-entities).
+The [PhysicalEntity class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) has a method `locked`; [locked is very similar to simulated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated-vs-locked-entities).
 
 #### Entity Tags
 
@@ -879,10 +879,10 @@ When `entity.tags.get().contains(thing)` returns `true` we say that the **`entit
 
 Tags (currently) have three primary use cases:
 
-- **Controlling triggers**: [Trigger gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) have a Properties panel setting that lets you specify a *tag* so that the trigger will only receive trigger enter and exit events for entities that have that tag.
-- **Controlling collisions**: [Entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) have a Properties panel setting that lets you specify a *tag* that the entity will receive [collision events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events) from. The entity will only receive collision events if it collides with another entity which has the specified tag.
-- **Controlling raycasts**: [Raycast gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo) have a Properties panel setting that lets you specify a *tag* so that the raycast will only generate [RaycastTargetType.Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo) hit results for entities that have that tag.
-- **Finding entities**: Horizon has a method on the [World class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class) to get all entities in the [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) which match a given “query”:
+- **Controlling triggers**: [Trigger gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) have a Properties panel setting that lets you specify a *tag* so that the trigger will only receive trigger enter and exit events for entities that have that tag.
+- **Controlling collisions**: [Entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) have a Properties panel setting that lets you specify a *tag* that the entity will receive [collision events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) from. The entity will only receive collision events if it collides with another entity which has the specified tag.
+- **Controlling raycasts**: [Raycast gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) have a Properties panel setting that lets you specify a *tag* so that the raycast will only generate [RaycastTargetType.Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) hit results for entities that have that tag.
+- **Finding entities**: Horizon has a method on the [World class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) to get all entities in the [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) which match a given “query”:
 
 ```
 // World
@@ -903,9 +903,9 @@ Be careful not to give an entity the same tag more than once. Doing so may resul
 
 #### Entity Visibility
 
-Entities can be rendered (“visible”) or not rendered (“invisible”). When an entity is rendered for a specific player we say that it is *visible to that player*. Visibility is controlled in the [world snapshot](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-snapshot) by setting the **visible** property in the Properties panel. Visibility at runtime is controlled by the `visible` Horizon property on `Entity` and by **player [visibility permissions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility-permissions)**.
+Entities can be rendered (“visible”) or not rendered (“invisible”). When an entity is rendered for a specific player we say that it is *visible to that player*. Visibility is controlled in the [world snapshot](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot) by setting the **visible** property in the Properties panel. Visibility at runtime is controlled by the `visible` Horizon property on `Entity` and by **player [visibility permissions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility-permissions)**.
 
-**Invisibility cascades down**: If an entity is invisible then so are all of its children (and all [descendants](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors)).
+**Invisibility cascades down**: If an entity is invisible then so are all of its children (and all [descendants](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors)).
 
 **Visible=false overrides permissions**: When `visible` is set to `false`, the entity is invisible to all players, regardless of player permissions. When `visible` is set to `true`, the entity is visible to players according to the per-player permissions (which default to being visible for everyone).
 
@@ -935,11 +935,11 @@ where `PlayerVisibilityMode` has the values `VisibleTo` and `HiddenFrom`. When y
 
 Visibility and Collidability are separate
 
-Making an entity invisible (by setting `visible` to `false` or by using per-player visibility controls) does not impact [collidability](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#colliders). Even if an entity is invisible it can still be collided with (if it has an [active collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders)). If you want an invisible entity to not be a “blocker” then set `collidable` to `false` as well. At this time **there is no per-player collidability**.
+Making an entity invisible (by setting `visible` to `false` or by using per-player visibility controls) does not impact [collidability](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#colliders). Even if an entity is invisible it can still be collided with (if it has an [active collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders)). If you want an invisible entity to not be a “blocker” then set `collidable` to `false` as well. At this time **there is no per-player collidability**.
 
 ###### Example
 
-Let `entity` be a cube with `visible` set to `true` in the Properties panel. Let `playerA` and `playerB` be the two [players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) in the [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances).
+Let `entity` be a cube with `visible` set to `true` in the Properties panel. Let `playerA` and `playerB` be the two [players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) in the [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances).
 
 ```
 // Initially, both players can see it.
@@ -962,43 +962,43 @@ entity.visible.set(true) // only player B can see it
 
 ## All Gizmos (Intrinsic Entity Types)
 
-All [intrinsic entity types](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#intrinsic-entity-types) are listed in the table below, each of which link to detailed documentation.
+All [intrinsic entity types](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) are listed in the table below, each of which link to detailed documentation.
 
-| [Intrinsic Type](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-types) | TypeScript Class |
+| [Intrinsic Type](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-types) | TypeScript Class |
 | --- | --- |
-| [Avatar Pose](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-pose-gizmo) | `Entity` |
-| [Box Collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collider-gizmo) | `Entity` |
-| [Capsule Collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collider-gizmo) | `Entity` |
-| [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui-gizmo) | `Entity` |
-| [Debug Console](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#debug-console-gizmo) | `Entity` |
-| [Door](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#door-gizmo) | `Entity` |
-| [Dynamic Light](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#dynamic-light-gizmo) | `DynamicLightGizmo` |
-| [Empty Object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) | `Entity` |
-| [Environment](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#environment-gizmo) | `Entity` |
-| [Group](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) | `Entity` |
-| [In-World Item](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-gizmo) | `IWPSellerGizmo` |
-| [Media Board](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#media-board-gizmo) | `Entity` |
-| [Mesh](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) | `MeshEntity` |
-| [Mirror](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#mirror-gizmo) | `Entity` |
-| [Navigation Volume](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#navigation-mesh-volume) | `Entity` |
-| [NPC](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo) | `AIAgentGizmo` |
-| [ParticleFx](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#particlefx-gizmo) | `ParticleGizmo` |
-| [Projectile Launcher](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo) | `ProjectileLauncherGizmo` |
-| [Quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests-gizmo) | `AchievementsGizmo` |
-| [Raycast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo) | `RaycastGizmo` |
-| [Script](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-gizmo) | `Entity` |
-| [Snap Destination](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#snap-destination-gizmo) | `Entity` |
-| [Sound](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo) | `AudioGizmo` |
-| [Sound Recorder](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo) | `AudioGizmo` |
-| [Spawn Point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawn-point-gizmo) | `SpawnPointGizmo` |
-| [Static Light](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-light-gizmo) | `Entity` |
-| [Sphere Collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collider-gizmo) | `Entity` |
-| [Sublevel](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevels) | `SublevelEntity` |
-| [Text](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-gizmo) | `TextGizmo` |
-| [TrailFx](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trailfx-gizmo) | `TrailGizmo` |
-| [Trigger Zone](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) | `TriggerGizmo` |
-| [World Leaderboard](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-leaderboard-gizmo) | `Entity` |
-| [World Promotion](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-promotion-gizmo) | `Entity` |
+| [Avatar Pose](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-pose-gizmo) | `Entity` |
+| [Box Collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) | `Entity` |
+| [Capsule Collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) | `Entity` |
+| [Custom UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui-gizmo) | `Entity` |
+| [Debug Console](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#debug-console-gizmo) | `Entity` |
+| [Door](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#door-gizmo) | `Entity` |
+| [Dynamic Light](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) | `DynamicLightGizmo` |
+| [Empty Object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) | `Entity` |
+| [Environment](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#environment-gizmo) | `Entity` |
+| [Group](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) | `Entity` |
+| [In-World Item](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-gizmo) | `IWPSellerGizmo` |
+| [Media Board](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#media-board-gizmo) | `Entity` |
+| [Mesh](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | `MeshEntity` |
+| [Mirror](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#mirror-gizmo) | `Entity` |
+| [Navigation Volume](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-volume) | `Entity` |
+| [NPC](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo) | `AIAgentGizmo` |
+| [ParticleFx](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo) | `ParticleGizmo` |
+| [Projectile Launcher](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `ProjectileLauncherGizmo` |
+| [Quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests-gizmo) | `AchievementsGizmo` |
+| [Raycast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) | `RaycastGizmo` |
+| [Script](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-gizmo) | `Entity` |
+| [Snap Destination](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#snap-destination-gizmo) | `Entity` |
+| [Sound](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) | `AudioGizmo` |
+| [Sound Recorder](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) | `AudioGizmo` |
+| [Spawn Point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-point-gizmo) | `SpawnPointGizmo` |
+| [Static Light](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-light-gizmo) | `Entity` |
+| [Sphere Collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) | `Entity` |
+| [Sublevel](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) | `SublevelEntity` |
+| [Text](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo) | `TextGizmo` |
+| [TrailFx](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo) | `TrailGizmo` |
+| [Trigger Zone](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `TriggerGizmo` |
+| [World Leaderboard](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-leaderboard-gizmo) | `Entity` |
+| [World Promotion](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-promotion-gizmo) | `Entity` |
 
 ### Avatar Pose Gizmo
 
@@ -1008,7 +1008,7 @@ All [intrinsic entity types](https://developers.meta.com/horizon-worlds/learn/do
 | --- | --- | --- |
 | Pose | `Seat` | There’s currently only one option and this is not changeable. |
 | Use Custom Exit Direction | `boolean` | Enable if you want the player to exit the pose and face a specific direction (e.g. getting out of a chair and facing away from it). |
-| Exit Direction | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The direction the player is facing when they exit the pose. This is only available if “Use Custom Exist Direction” is on. |
+| Exit Direction | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The direction the player is facing when they exit the pose. This is only available if “Use Custom Exist Direction” is on. |
 
 **TypeScript**: Avatar Pose gizmos are referenced as `Entity` instances with no additional scripting capabilities.
 
@@ -1026,29 +1026,29 @@ All [intrinsic entity types](https://developers.meta.com/horizon-worlds/learn/do
 
 ### Custom UI Gizmo
 
-**Description**: Presents a custom UI (User Interface) to your players. Also see [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui)
+**Description**: Presents a custom UI (User Interface) to your players. Also see [Custom UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui)
 
 | Property | Type | Description |
 | --- | --- | --- |
 | Display mode | `Spatial` or `Screen Overlay` | Determines how your UIs will be seen. `Spatial` means the UI is 3D object somewhere in your world. `Screen Overlay` means it will appear on top of the players screen. |
-| Input mode | `No interaction`, `Interactive, Blocking`, or `Interactive, Non Blocking` | Only displayed if the ‘Display mode’ is `Screen Overlay`. Controls whether the overlay has interaction and, if so, whether it blocks navigation (only for XS players, VR user never have blocked navigation) or does not block navigation (in which case it is invisible to [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)) |
-| Raycast | `boolean` | Determines if the raycast will appear for [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type). If disabled, [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) cannot interact, [Mobile/Web players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) can unless `Focus Prompt` is disabled. |
+| Input mode | `No interaction`, `Interactive, Blocking`, or `Interactive, Non Blocking` | Only displayed if the ‘Display mode’ is `Screen Overlay`. Controls whether the overlay has interaction and, if so, whether it blocks navigation (only for XS players, VR user never have blocked navigation) or does not block navigation (in which case it is invisible to [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)) |
+| Raycast | `boolean` | Determines if the raycast will appear for [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type). If disabled, [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) cannot interact, [Mobile/Web players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can unless `Focus Prompt` is disabled. |
 | Raycast distance | `number` | Controls the distance within which a player can interact with the UI panel if `Raycast` is enabled. |
 | Mipmap | `boolean` | If enabled, allows you to adjust the level of mipmap which affects how much detail is drawn when viewed from a distance. |
-| Focus Prompt | `boolean` | Determines if [Mobile/Web](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) can interact with the UI. If disabled, [Mobile/Web players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) cannot interact, but [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) can unless `Raycast` is disabled. |
+| Focus Prompt | `boolean` | Determines if [Mobile/Web](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can interact with the UI. If disabled, [Mobile/Web players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) cannot interact, but [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can unless `Raycast` is disabled. |
 | Focus prompt distance | `number` | Controls the distance within which a player can interact with the UI panel if `Focus Prompt` is enabled. |
 
-**TypeScript**: Custom UI Gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `UIGizmo` class from `horizon/ui` with no properties or methods. For more information on `horizon/ui` see [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui)
+**TypeScript**: Custom UI Gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `UIGizmo` class from `horizon/ui` with no properties or methods. For more information on `horizon/ui` see [Custom UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui)
 
-**Limitations**: Custom UI Gizmo and their bindings will cause performance issues. See [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui) for recommendations.
+**Limitations**: Custom UI Gizmo and their bindings will cause performance issues. See [Custom UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui) for recommendations.
 
 ### Debug Console Gizmo
 
-**Description**: Allows creators to monitor the console for messages in Play and Publish [visitation modes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#visitation-modes-edit-preview-and-publish). Debug consoles are never visible to non-collaborators on the world.
+**Description**: Allows creators to monitor the console for messages in Play and Publish [visitation modes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish). Debug consoles are never visible to non-collaborators on the world.
 
 | Property | Type | Description |
 | --- | --- | --- |
-| Visibility | `Edit Mode Only`, `Edit and Preview Mode`, or `In Published World` | Determines which [visitation modes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#visitation-modes-edit-preview-and-publish) testers, editors, and the the owner can see the Debug Console Gizmo. |
+| Visibility | `Edit Mode Only`, `Edit and Preview Mode`, or `In Published World` | Determines which [visitation modes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish) testers, editors, and the the owner can see the Debug Console Gizmo. |
 
 **TypeScript**: Debug Console is referenced as `Entity` instances with no additional scripting capabilities.
 
@@ -1065,13 +1065,13 @@ All [intrinsic entity types](https://developers.meta.com/horizon-worlds/learn/do
 
 **Limitations**:
 
-* Cannot be [transformed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transforms) by script. You can put a door in [a group or empty object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) if you want to script its movement, make it grabbable, etc.
+* Cannot be [transformed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transforms) by script. You can put a door in [a group or empty object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) if you want to script its movement, make it grabbable, etc.
 * Performance intensive due to VFX - use sparingly.
-* Doors play a “shimmering sound” on loop that are audible near them; there is no way to disable the sound. The only partial workaround is to put the door in [a group or empty object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) and move that parent from the “play area”; the sound will then be too far away to hear.
+* Doors play a “shimmering sound” on loop that are audible near them; there is no way to disable the sound. The only partial workaround is to put the door in [a group or empty object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) and move that parent from the “play area”; the sound will then be too far away to hear.
 
 ### Dynamic Light Gizmo
 
-**Description**: Casts movable and changing light during runtime. It can move, rotate, change intensity, etc. If you don’t need the light to change, use a [static light](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-light-gizmo) for better performance.
+**Description**: Casts movable and changing light during runtime. It can move, rotate, change intensity, etc. If you don’t need the light to change, use a [static light](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-light-gizmo) for better performance.
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -1080,7 +1080,7 @@ All [intrinsic entity types](https://developers.meta.com/horizon-worlds/learn/do
 | Intensity | `number` | Light brightness (0-10). |
 | Falloff Distance | `number` | Distance light travels (0-100). |
 
-**TypeScript**: dynamic light gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `DynamicLightGizmo` class with the following properties (light type and color are *not* modifiable in scripts):
+**TypeScript**: dynamic light gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `DynamicLightGizmo` class with the following properties (light type and color are *not* modifiable in scripts):
 
 ```
 // DynamicLightGizmo
@@ -1094,7 +1094,7 @@ spread: HorizonProperty<number>;          // Spot light spread (0
 
 * Maximum of 20 Dynamic Lights per world
 * Performance intensive due to per-frame light/shadow processing
-* Dynamic light gizmos do **not** obey [entity visibility](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility). They must be turned on/off using their ‘enabled’ property.
+* Dynamic light gizmos do **not** obey [entity visibility](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility). They must be turned on/off using their ‘enabled’ property.
 
 ### Environment Gizmo
 
@@ -1113,7 +1113,7 @@ spread: HorizonProperty<number>;          // Spot light spread (0
 | Fog Color | `Color` | Sets a custom color to the fog in your world. |
 | Fog Density | `number` | Sets how dense or thick the fog is. Accepts values between 0.0000 and 0.1000. |
 | Show Grid | `boolean` | Determines whether the world grid is visible at x:0, y:0, z:0. |
-| [VOIP Settings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#voip-settings) | `Environment`, `Default`, `Nearby`, `Extended`, `Whisper`, or `Mute`. `Default` is default. | Sets the default [VOIP setting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#voip-settings) for all players in your world. |
+| [VOIP Settings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings) | `Environment`, `Default`, `Nearby`, `Extended`, `Whisper`, or `Mute`. `Default` is default. | Sets the default [VOIP setting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings) for all players in your world. |
 
 **Typescript**: TypeScript: Environment Gizmos are referenced as Entity instances with no additional scripting capabilities.
 
@@ -1124,7 +1124,7 @@ spread: HorizonProperty<number>;          // Spot light spread (0
 
 ### In-World Item Gizmo
 
-**Description**: Used to sell In-World Items to users in your worlds. See the [in-world purchases](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#using-the-in-world-purchase-gizmo) section for detail.
+**Description**: Used to sell In-World Items to users in your worlds. See the [in-world purchases](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#using-the-in-world-purchase-gizmo) section for detail.
 
 ### Media Board Gizmo
 
@@ -1163,7 +1163,7 @@ spread: HorizonProperty<number>;          // Spot light spread (0
 
 **Limitations**: Mirror Gizmos are costly, recommend only one per world and be careful about how much geometry it reflects in your world to avoid performance issues.
 
-**Description**: Allows the creation of [navigation mesh profiles](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#navigation-mesh-profile) that can be used to route paths around obstacles in your world. Can be used directly by [NavMeshAgents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#navigation-mesh-agent) or indirectly by other animated objects such as [NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo).
+**Description**: Allows the creation of [navigation mesh profiles](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-profile) that can be used to route paths around obstacles in your world. Can be used directly by [NavMeshAgents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-agent) or indirectly by other animated objects such as [NPCs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo).
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -1174,7 +1174,7 @@ spread: HorizonProperty<number>;          // Spot light spread (0
 
 ### NPC Gizmo
 
-**Description**: Represents an NPC Avatar (bot) spawning location. NPCs act like real [Players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players). They get a [player id](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-id) and have events like [Player Enter](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world). Also see [NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo).
+**Description**: Represents an NPC Avatar (bot) spawning location. NPCs act like real [Players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players). They get a [player id](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-id) and have events like [Player Enter](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world). Also see [NPCs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo).
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -1182,7 +1182,7 @@ spread: HorizonProperty<number>;          // Spot light spread (0
 | Spawn on Start | `boolean` | Determines whether the NPC spawns into the world when the world is started. |
 | Appearance | `Edit Avatar` and `Refresh` buttons. | Allows you to edit the avatar’s appearance and refresh that appearance in the world. |
 
-**TypeScript**: NPC gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `AIAgentGizmo` class. However, control of NPCs spawned by the NPC Gizmo are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `AvatarAIAgent` class from the `horizon/avatar_ai_agent` with the following properties and methods.
+**TypeScript**: NPC gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `AIAgentGizmo` class. However, control of NPCs spawned by the NPC Gizmo are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `AvatarAIAgent` class from the `horizon/avatar_ai_agent` with the following properties and methods.
 
 ```
 //Properties
@@ -1220,7 +1220,7 @@ export declare enum AgentSpawnResult //The result of a player spawn re
 **Gizmo ParticleFX Properties**:
 | Property | Type | Description |
 |---|---|---|
-| Play on Start | `boolean` | Auto-play when the worlds starts (or when it is [spawned in](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning)) |
+| Play on Start | `boolean` | Auto-play when the worlds starts (or when it is [spawned in](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)) |
 | Looping | `boolean` | Repeat effect continuously |
 | Preset | Dropdown | Select from predefined particles |
 | Preview | Button | Test effect in the desktop editor |
@@ -1234,7 +1234,7 @@ export declare enum AgentSpawnResult //The result of a player spawn re
 | Preview | Button | Test effect |
 | Custom FX Properties | Various | Effect-specific settings (e.g., fire color) |
 
-**TypeScript**: particle effect gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `ParticleGizmo` class with the following methods:
+**TypeScript**: particle effect gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `ParticleGizmo` class with the following methods:
 
 ```
 /// Particle Gizmo
@@ -1256,7 +1256,7 @@ type ParticleFXStopOptions = {
 };
 ```
 
-The `player` property defaults to [all players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#listing-all-players), if not specified. `oneShot` allows you to override the looping property.
+The `player` property defaults to [all players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players), if not specified. `oneShot` allows you to override the looping property.
 
 `fromStart` is a nuanced expert-level feature; it defaults to `true`. Effects have limited resources (such as a maximum number of particles). When playing an effect while it is already playing the `fromStart` property lets you specify whether the “already playing” or the “new play” gets more priority:
 
@@ -1273,14 +1273,14 @@ Currently (Feb 2025) the `oneShot` property has no impact on whether an effect l
 
 | Property | Type | Description |
 | --- | --- | --- |
-| Play on Start | `boolean` | Auto-start trail effect when the world starts (or the effect is [spawned in](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning)) |
+| Play on Start | `boolean` | Auto-start trail effect when the world starts (or the effect is [spawned in](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)) |
 | Length | `number` | Trail length in meters |
 | Width | `number` | Trail width in meters |
 | Start Color | `Color` | RGB values (0.0-1.0) at trail start |
 | End Color | `Color` | RGB values (0.0-1.0) at trail end |
 | Preset | `Simple Trail` or `Tapered Trail` | Trail style preset to determine if the trail gets narrower toward the tail (tapered) or stays the same width throughout (simple) |
 
-**TypeScript**: trail effect gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `TrailGizmo` class with the following members:
+**TypeScript**: trail effect gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `TrailGizmo` class with the following members:
 
 ```
 // TrailGizmo
@@ -1297,7 +1297,7 @@ stop(): void;                     // Stop and remove t
 
 bug Trail's sync incorrectly if stopped and started in the same frame.
 
-When you `stop()` a [TrailFX Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trailfx-gizmo) the trail *de-renders* (disappears). If you `stop()` and then `start()` in the same frame then the local client will see the trail disappear and start over. However other clients will only get the `play()` event (due to state compression) and so they won’t see the trail “reset”. If you need to stop and then start a trail, it is recommended to do it across (at least) 2 frames.
+When you `stop()` a [TrailFX Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo) the trail *de-renders* (disappears). If you `stop()` and then `start()` in the same frame then the local client will see the trail disappear and start over. However other clients will only get the `play()` event (due to state compression) and so they won’t see the trail “reset”. If you need to stop and then start a trail, it is recommended to do it across (at least) 2 frames.
 
 ### Projectile Launcher Gizmo
 
@@ -1315,7 +1315,7 @@ When you `stop()` a [TrailFX Gizmo](https://developers.meta.com/horizon-worlds/l
 | Trail Length Scale | `number` | Length of particle trail in meters. Defaults to 1. |
 | Projectile Color | `Color` | RGB values (0.0-1.0) for projectile tint. Defaults to (1,1,1) white. |
 
-**TypeScript**: projectile launcher gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `ProjectileLauncherGizmo` class with the following members:
+**TypeScript**: projectile launcher gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `ProjectileLauncherGizmo` class with the following members:
 
 ```
 // ProjectileLauncherGizmo
@@ -1332,9 +1332,9 @@ type LaunchProjectileOptions = {
 }
 ```
 
-**Built-In CodeBlockEvents**: the following events are [sent to](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) a `ProjectileLauncherGizmo`:
+**Built-In CodeBlockEvents**: the following events are [sent to](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) a `ProjectileLauncherGizmo`:
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
 | `OnProjectileLaunched` | `launcher : Entity` | Sent when a projectile is launched from a launcher with a reference to the launcher. |
 | `OnProjectileHitPlayer` | `playerHit: Player` `position: Vec3` `normal: Vec3` `headshot: boolean` | Sent when a projectile collides with a `Player`. `playerHit` gives us a reference to the `Player` that was hit by the projectile. `position` is where the collision happened. `normal` is the direction of the surface or face that was hit. `headshot` tells us whether it collided with the players head. |
@@ -1348,11 +1348,11 @@ type LaunchProjectileOptions = {
 * OnProjectileHitEntity triggers for any entities
 * High projectile speeds may cause collision detection issues
 
-Note that [empty objects and groups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups)**behave differently with the [projectile launcher](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo)**. When a projectile launch is hit, Horizon checks if it has a [parent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) and if the parent is a group. If there is a group parent, it uses that as the entity. Otherwise it uses the original entity it started with. Thus a group will appear to “bubble up” one level; empty objects do not.
+Note that [empty objects and groups](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups)**behave differently with the [projectile launcher](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)**. When a projectile launch is hit, Horizon checks if it has a [parent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) and if the parent is a group. If there is a group parent, it uses that as the entity. Otherwise it uses the original entity it started with. Thus a group will appear to “bubble up” one level; empty objects do not.
 
 ### Quests Gizmo
 
-**Description**: Displays a list of Quests available in your world for players to track their progress. See the [Quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests) section for full details.
+**Description**: Displays a list of Quests available in your world for players to track their progress. See the [Quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests) section for full details.
 
 ### Raycast Gizmo
 
@@ -1363,12 +1363,12 @@ Note that [empty objects and groups](https://developers.meta.com/horizon-worlds/
 | Property | Type | Description |
 | --- | --- | --- |
 | Collide With | `Players`, `Objects Tagged`, or `Both` | Sets which “collision layer(s)” the raycast will interact with. |
-| Object Tag | `string` | When the *Collide With* property is “Objects Tagged” or “Both” this specifies which [entity tag](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags) the raycast will activate on. |
+| Object Tag | `string` | When the *Collide With* property is “Objects Tagged” or “Both” this specifies which [entity tag](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) the raycast will activate on. |
 | Raycast Distance | `number` | The maximum distance (in meters) that the ray should travel before concluding it didn’t hit anything. |
 
 **Limitations**: Raycasting too often in a short period of time can hurt performance.
 
-**Typescript**: Raycast Gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `RaycastGizmo` class with the following method:
+**Typescript**: Raycast Gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `RaycastGizmo` class with the following method:
 
 ```
 /// Raycast Gizmo
@@ -1382,31 +1382,31 @@ which takes the following parameters:
 
 | `RaycastGizmo`’s `raycast()` Method Arguments | Type | Notes |
 | --- | --- | --- |
-| origin | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The location in the world that the ray should start. |
-| direction | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The direction the ray should travel in. |
+| origin | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The location in the world that the ray should start. |
+| direction | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The direction the ray should travel in. |
 | options | <pre class="language-ts ts">`{ layerType?: LayerType, maxDistance?: number} \| undefined`</pre> | This argument is optional. It allows you to momentarily override the “Collide With” and the “Raycast Distance” properties (listed above). The “Object Tag” is only settable in the Properties panel and cannot be overridden. The `LayerType` enum has the values `Player`, `Object`, and `Both`. |
 
-The **return type** of the `raycast` method is `RaycastHit | null`. The result is `null` when the ray traveled the maximum distance without intersecting with any [active colliders](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders) in the world. Otherwise the result is a `RaycastHit` which has the following properties (notice that the `targetType` value changes the type/existence of the `target` property).
+The **return type** of the `raycast` method is `RaycastHit | null`. The result is `null` when the ray traveled the maximum distance without intersecting with any [active colliders](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) in the world. Otherwise the result is a `RaycastHit` which has the following properties (notice that the `targetType` value changes the type/existence of the `target` property).
 
 | `RaycastHit` Property | Type | Description |
 | --- | --- | --- |
 | distance | `number` | The distance traveled from the ray start location until the `hitPoint`. |
-| hitPoint | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The world location where the ray first hit an [active collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders). |
-| normal | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | A vector [pointing straight out from the surface](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual) where the ray hit. This is useful for [reflecting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vector-reflect) the ray, for example. |
+| hitPoint | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The world location where the ray first hit an [active collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders). |
+| normal | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | A vector [pointing straight out from the surface](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md) where the ray hit. This is useful for [reflecting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vector-reflect) the ray, for example. |
 | targetType | `RaycastTargetType` | The type that was hit. `RaycastTargetType` has the values: `Entity`, `Player`, and `Static`. See the notes below this table. |
 | target | `Entity`, `Player`, or *absent* (see the note below the table) | The `Entity` or `Player` hit (matching `targetType`). This field is *missing* if `targetType` is `RaycastTargetType.Static`. |
 
 **Target Type and Target**: The `RaycastHit` type contains the field `targetType` which will contain a value of `RaycastTargetType` (values are: `Entity`, `Player`, and `Static`). The values in `targetType` and `target` depend on what the ray first intersected with:
 
-* **An entity with the right tag**: if the ray collided with an entity that has [the tag](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags) specified in the properties of the Raycast gizmo then `targetType` will be `RaycastTargetType.Entity` and the `target` field will be of type `Entity`. Note that this might return one of the entity’s [ancestor](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors)’s (see the diagram below). It can return an entity that is [static of dynamic](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-vs-dynamic-entities).
-* **Any other entity**: if the ray collided with an entity that does not have [the tag](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags) specified in the properties of the Raycast gizmo then `targetType` will be `RaycastTargetType.Static` and there is not a `target` field. Note that “Static” is not the same as [static entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-vs-dynamic-entities); this is used when there is no tag match (and is thus *misnamed*).
-* **A player**: if the ray collided with a player (human or [NPC](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo)) then `targetType` will be `RaycastTargetType.Player` and the `target` field will be of type `Player`.
+* **An entity with the right tag**: if the ray collided with an entity that has [the tag](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) specified in the properties of the Raycast gizmo then `targetType` will be `RaycastTargetType.Entity` and the `target` field will be of type `Entity`. Note that this might return one of the entity’s [ancestor](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors)’s (see the diagram below). It can return an entity that is [static of dynamic](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities).
+* **Any other entity**: if the ray collided with an entity that does not have [the tag](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) specified in the properties of the Raycast gizmo then `targetType` will be `RaycastTargetType.Static` and there is not a `target` field. Note that “Static” is not the same as [static entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities); this is used when there is no tag match (and is thus *misnamed*).
+* **A player**: if the ray collided with a player (human or [NPC](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)) then `targetType` will be `RaycastTargetType.Player` and the `target` field will be of type `Player`.
 
-**Tag checking (Hit Algorithm)**: when the ray intersects an [active collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders), if it is associated with an entity, it will walk up the entity’s [ancestor chain](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) looking for an entity with a matching tag. If it reaches the end of the chain (an entity with no parent) it will return `targetType` as `RaycastTargetType.Static` and there will *not* be a `target` field present.
+**Tag checking (Hit Algorithm)**: when the ray intersects an [active collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders), if it is associated with an entity, it will walk up the entity’s [ancestor chain](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) looking for an entity with a matching tag. If it reaches the end of the chain (an entity with no parent) it will return `targetType` as `RaycastTargetType.Static` and there will *not* be a `target` field present.
 
-Here’s the algorithm that is used (it is [tag bubbling](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tag-bubbling)):
+Here’s the algorithm that is used (it is [tag bubbling](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tag-bubbling)):
 
-![Entity tag bubbling algorithm diagram.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480737365_656797466858208_6408611987938000829_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=0YJ9jOSfVVwQ7kNvwFnMZqd&_nc_oc=Adnz7HIlTF5f-ddmHUNHrT-AT0NkB7gKqf6SL15s5aAToNDa5CzuHeTT0WPiRN4tqzk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfiE8EEK6YzTjEQkjbeb1JIVC1zBgIVcm61XtDl-C8jtOw&oe=6946306A)
+![Entity tag bubbling algorithm diagram.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480737365_656797466858208_6408611987938000829_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=4Jfl-Z0jITMQ7kNvwFtJcjV&_nc_oc=Adn9k1x_ZG8xE1erq7KmksmJvPM-t8Mc2jVNSXk5k11Fwq0UbZ19rT4XWuz1WQ4RRk8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfkdxkXFkhoMfFsjljHmuNoYuNHTip-SJrm4__D7anTDWA&oe=694BE6EA)
 
 Here’s the `RaycastHit` type, which shows the 3 bullets above, in code:
 
@@ -1433,7 +1433,7 @@ type RaycastHit = {
 
 For Codeblock scripts, the Script gizmo is an in-world gizmo that you can use to open up the Codeblock editor (only in VR).
 
-In the desktop editor, using Typescript scripts, the Script Gizmo doesn’t provide much utility. For more info see [file-backed scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#file-backed-scripts-fbs).
+In the desktop editor, using Typescript scripts, the Script Gizmo doesn’t provide much utility. For more info see [file-backed scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#file-backed-scripts-fbs).
 
 ### Snap Destination Gizmo
 
@@ -1452,7 +1452,7 @@ We have 3 different types:
 
 * `Sound Recorder` found in the Gizmo menu. Lets creators record up to 20 minutes of their own audio.
 * `Pre-made sound` found in the Sounds menu. Collection of Horizon provided sound effects, background audio, and music. Some are looping, others are not.
-* `Audio Graph` obtained from your personal Assets library, such as those generated by [Gen AI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-audio-tool). Allows you playback audio generated by the Gen AI in the Desktop Editor.
+* `Audio Graph` obtained from your personal Assets library, such as those generated by [Gen AI](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md). Allows you playback audio generated by the Gen AI in the Desktop Editor.
 
 **Sound Recorder**
 
@@ -1500,7 +1500,7 @@ We have 3 different types:
 | Low-Pass Cutoff | `number` | Reduces the amplitude of higher frequency signals. Values are between 1 and 20000. |
 | Send Audio Complete | `boolean` | Determines whether the Pre-made Sound Gizmo sends an event when the audio is finished. |
 
-**Typescript**: Sound Gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `AudioGizmo` class with the following properties and methods.
+**Typescript**: Sound Gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `AudioGizmo` class with the following properties and methods.
 
 ```
 //Properties
@@ -1525,7 +1525,7 @@ enum AudibilityMode {
 }
 ```
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
 | `OnAudioCompleted` |  | Sent when an Sound Gizmo is finished playing or stopped. |
 
@@ -1544,9 +1544,9 @@ enum AudibilityMode {
 | Set Position Only | `boolean` | Determines if the Spawn Point Gizmo will rotate the player to match its rotation when it spawns them. |
 | Player Gravity | `number` | Sets the gravity of each player to this value when this spawn is used. Values between 0.0 and 9.81. |
 | Player Speed | `number` | Sets the speed of each player to this value when this spawn is used. Values between 0.0 and 45. |
-| Force HWXS Camera | `None`, `Third Person`, `First Person`, `Orbit`, and `Pan` | Determines which camera view [Mobile/Web players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) will have after using the spawn (HWXS stands for Meta Horizon Worlds Cross Screens) |
+| Force HWXS Camera | `None`, `Third Person`, `First Person`, `Orbit`, and `Pan` | Determines which camera view [Mobile/Web players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) will have after using the spawn (HWXS stands for Meta Horizon Worlds Cross Screens) |
 
-**Typescript**: Spawn Point Gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `SpawnPointGizmo` class with the following properties and methods.
+**Typescript**: Spawn Point Gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `SpawnPointGizmo` class with the following properties and methods.
 
 ```
 //Properties
@@ -1570,7 +1570,7 @@ this.entity.as(SpawnPointGizmo).teleportPlayer(player)
 
 ### Static Light Gizmo
 
-**Description**: Emits static light that cannot be moved during run-time. Improved performance over [Dynamic Light Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#dynamic-light-gizmo).
+**Description**: Emits static light that cannot be moved during run-time. Improved performance over [Dynamic Light Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo).
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -1582,21 +1582,21 @@ this.entity.as(SpawnPointGizmo).teleportPlayer(player)
 
 ### Sublevel Gizmo
 
-**Description**: An entity that helps manage [sublevel spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevels).
+**Description**: An entity that helps manage [sublevel spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels).
 
 **Properties**: The first property is called “Sublevel Type”, which can be set to `Deeplink` or `Exclude`:
 
-* Use **`Deeplink`** in the world that will load in the sublevel (the *container*). You can then use this entity [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) a [SublevelEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevels) to stream the level in. When this setting is used, 2 more settings appear:
-  + **Sublevel Initial State** determines the state of the sublevel at world-start. It can be `Active` (which means the sublevel is fully present to players), `Loaded` (meaning that the sublevel is fully ready, just waiting to be “shown”), or `Unloaded` (none of the data is present or ready). See [advanced spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#advanced-spawning-spawncontroller) for more information on these options.
+* Use **`Deeplink`** in the world that will load in the sublevel (the *container*). You can then use this entity [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) a [SublevelEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) to stream the level in. When this setting is used, 2 more settings appear:
+  + **Sublevel Initial State** determines the state of the sublevel at world-start. It can be `Active` (which means the sublevel is fully present to players), `Loaded` (meaning that the sublevel is fully ready, just waiting to be “shown”), or `Unloaded` (none of the data is present or ready). See [advanced spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller) for more information on these options.
   + **World Id** is the world that this entity will stream in (the sublevel). There is a thumbnail picture to click on that will open a “world selector”.
-* Use **`Exclude`** in a world that is meant to be streamed in (a *sublevel*). Any entities that are [children (or descendants)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) of an “Exclude Sublevel” will not load when the sublevel is streamed into the “container world”.
+* Use **`Exclude`** in a world that is meant to be streamed in (a *sublevel*). Any entities that are [children (or descendants)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) of an “Exclude Sublevel” will not load when the sublevel is streamed into the “container world”.
   + Example, in the sublevel world you can have a spawn point which is a child of an “Exclude Sublevel” gizmo; that makes it easy to test the sublevel world, but the spawn gizmo won’t load in when the container world streams this world in.
 
-**TypeScript**: When the sublevel entity has “Sublevel Type” set to “Deeplink” you can then use the entity [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) a [SublevelEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevels) to stream the level in.
+**TypeScript**: When the sublevel entity has “Sublevel Type” set to “Deeplink” you can then use the entity [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) a [SublevelEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) to stream the level in.
 
 ### Text Gizmo
 
-**Description**: The text gizmo is a 2D surface on which text can be rendered. It supports a wide variety of [markup](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-gizmo-markup) commands that allows changing color, size, font, bold, italics, underline, vertical and horizontal offsets, line height, alignment, and [more](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#supported-text-gizmo-tags).
+**Description**: The text gizmo is a 2D surface on which text can be rendered. It supports a wide variety of [markup](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo-markup) commands that allows changing color, size, font, bold, italics, underline, vertical and horizontal offsets, line height, alignment, and [more](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#supported-text-gizmo-tags).
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -1618,7 +1618,7 @@ text: HorizonProperty<string>; //The content to display in the text lab
 
 #### Using a Text Gizmo
 
-The initial text of a text gizmo can be set in the Properties panel. Changing the text after that can be done via the `text`[read-write property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) on the `TextGizmo` class, such as:
+The initial text of a text gizmo can be set in the Properties panel. Changing the text after that can be done via the `text`[read-write property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the `TextGizmo` class, such as:
 
 ```
 this.entity.as(TextGizmo).text.set('Hello World')
@@ -1720,11 +1720,11 @@ Some tags accept a parameter, which is specified after the tag name and an equal
 | Enabled | `boolean` | Determines whether the Trigger Gizmo will detect any events. |
 | Trigger On | `Players` or `Objects Tagged` | Sets whether the triggers response to players or objects with a specific tag. |
 | Object Tag | `string` | If `Trigger On` is set to `Objects Tagged` then this is the required tag for an object to trigger an event. |
-| Selectable in Screen Mode | `boolean` | Determines whether [Mobile/Web players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) will see an interaction option when near the Trigger Gizmo. |
+| Selectable in Screen Mode | `boolean` | Determines whether [Mobile/Web players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) will see an interaction option when near the Trigger Gizmo. |
 
-Under the hood, triggers detect *enter* and *exit* using [collisions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collisions). See the [trigger collisions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-collisions) section for details on when triggers can and can’t detect entities.
+Under the hood, triggers detect *enter* and *exit* using [collisions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collisions). See the [trigger collisions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions) section for details on when triggers can and can’t detect entities.
 
-**Typescript**: Trigger Gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `TriggerGizmo` class with the following properties.
+**Typescript**: Trigger Gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `TriggerGizmo` class with the following properties.
 
 ```
 //Properties
@@ -1736,7 +1736,7 @@ this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnPlayerEnterTrigger, 
 })
 ```
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
 | OnPlayerEnterTrigger | `enteredBy: Player` | Sent each time a player has entered the trigger area. |
 | OnPlayerExitTrigger | `exitedBy: Player` | Sent each time a player has exited the trigger area. |
@@ -1775,21 +1775,21 @@ const ExtraTriggerCodeBlockEvents = {
 
 ### Trigger Collisions
 
-Trigger detection is done at the [collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#colliders) level.
+Trigger detection is done at the [collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) level.
 
 **Players**
 
-When a player-related collider enters/leaves a trigger set to [detect players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) it sends the [OnEntityEnterTrigger or OnEntityExitTrigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) event *to the trigger* with the player as the argument.
+When a player-related collider enters/leaves a trigger set to [detect players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) it sends the [OnEntityEnterTrigger or OnEntityExitTrigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) event *to the trigger* with the player as the argument.
 
 **Entities**
 
-When an entity-related collider (from a [mesh](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) or a [collider gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collider-gizmo)) enters/leaves a trigger set to [detect objects](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) Horizon will check to see if that entity has the matching tag; if so, it sends the [OnEntityEnterTrigger or OnEntityExitTrigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo)event *to the trigger* with that entity. But then it also looks at every entity in the [ancestor chain](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) to see if any of those also have the tag. The event will get sent to the trigger for *all* entities in the ancestor chain that have the tag. This means that when a group enters a trigger, the group *and* its children can cause `OnEntityEnterTrigger` events as long as they have the right tags.
+When an entity-related collider (from a [mesh](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) or a [collider gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo)) enters/leaves a trigger set to [detect objects](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) Horizon will check to see if that entity has the matching tag; if so, it sends the [OnEntityEnterTrigger or OnEntityExitTrigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo)event *to the trigger* with that entity. But then it also looks at every entity in the [ancestor chain](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) to see if any of those also have the tag. The event will get sent to the trigger for *all* entities in the ancestor chain that have the tag. This means that when a group enters a trigger, the group *and* its children can cause `OnEntityEnterTrigger` events as long as they have the right tags.
 
-When a trigger sends an [OnEntityEnterTrigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) event it checks to see if the trigger was previously unoccupied; if so, then the “secret” [occupied](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) is also sent to the trigger. Likewise, if this is an `OnEntityExitTrigger` event and the trigger is now unoccupied, then the “secret” [empty](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) event is also sent to the trigger.
+When a trigger sends an [OnEntityEnterTrigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) event it checks to see if the trigger was previously unoccupied; if so, then the “secret” [occupied](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) is also sent to the trigger. Likewise, if this is an `OnEntityExitTrigger` event and the trigger is now unoccupied, then the “secret” [empty](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) event is also sent to the trigger.
 
 ### World Leaderboard Gizmo
 
-**Description**: Used to track and display *sorted* player scores in your world. See the [leaderboard section](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#leaderboards) for full detail.
+**Description**: Used to track and display *sorted* player scores in your world. See the [leaderboard section](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards) for full detail.
 
 ### World Promotion Gizmo
 
@@ -1806,37 +1806,37 @@ When a trigger sends an [OnEntityEnterTrigger](https://developers.meta.com/horiz
 
 **Assets** represent data that can be created and used in a world.
 
-**Assets never contain actual entities**. Instead, assets contain *data* such as a texture, text, mesh, or audio. Some asset types ([Template Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset) and like [Legacy Asset Groups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#legacy-asset-group)) contain *instructions on how to create entities*. An asset may represent “a [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) blue cone with a [script attached](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-components-to-entities)”. When you drag that asset out of the Assets panel (or [spawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) the asset) it will create a new instance of a blue cone [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) with the correct properties applied and script attached. You could drag out the asset again and get another new entity. When an asset is “dragged out” of the assets panel, we say the entities are **instantiated (from the asset)**. When an asset is spawned, we say the entities are **spawned (from the asset)**.
+**Assets never contain actual entities**. Instead, assets contain *data* such as a texture, text, mesh, or audio. Some asset types ([Template Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) and like [Legacy Asset Groups](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group)) contain *instructions on how to create entities*. An asset may represent “a [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) blue cone with a [script attached](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities)”. When you drag that asset out of the Assets panel (or [spawn](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) the asset) it will create a new instance of a blue cone [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) with the correct properties applied and script attached. You could drag out the asset again and get another new entity. When an asset is “dragged out” of the assets panel, we say the entities are **instantiated (from the asset)**. When an asset is spawned, we say the entities are **spawned (from the asset)**.
 
 **Asset types**: There are various types of assets that are split into two categories:
 
 * **Entity Asset Types**: Assets that are used to *create (configured) entities*.
-* **Data Asset Types**: Assets that *provide data* (most of which are used to modify a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class)).
+* **Data Asset Types**: Assets that *provide data* (most of which are used to modify a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)).
 
-**Note**: [3D Model](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) is in both groups (although it can only be used as data, as a mesh, when there is exactly 1 mesh in the asset).
+**Note**: [3D Model](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) is in both groups (although it can only be used as data, as a mesh, when there is exactly 1 mesh in the asset).
 
-| Entity Asset Type | Entities Created ([spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) or in-editor) | Where to [Create](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-assets) |
+| Entity Asset Type | Entities Created ([spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) or in-editor) | Where to [Create](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-assets) |
 | --- | --- | --- |
-| [3D Model](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) | [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) or [Empty Object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) (with [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) children) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Audio](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#audio-asset) | [Sound Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo) | [Gen AI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-audio-tool) |
-| [Legacy Group](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#legacy-asset-group) | Array of [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Right-click then “Create Asset” |
-| [Template](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset) | Array of [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Right-click then “Create Asset” |
+| [3D Model](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) or [Empty Object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) (with [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) children) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
+| [Audio](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#audio-asset) | [Sound Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) | [Gen AI](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md) |
+| [Legacy Group](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group) | Array of [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Right-click then “Create Asset” |
+| [Template](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) | Array of [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Right-click then “Create Asset” |
 
-| Data Asset Type | How to apply at runtime | Where to [Create](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-assets) |
+| Data Asset Type | How to apply at runtime | Where to [Create](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-assets) |
 | --- | --- | --- |
-| Single Mesh [3D Model](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) | Use [setMesh](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) on a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) assets section |
-| [Material](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#material-asset) | Use [setMaterial](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#material-asset) on a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Assets panel |
-| [Text](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json) | Use [fetchAsData](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json) on an `Asset` | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Texture](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset) | Use [setTexture](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset) on a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Legacy Group](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#legacy-asset-group) | Array of [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Right-click then “Create Asset” |
-| [Template](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset) | Array of [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Right-click then “Create Asset” |
+| Single Mesh [3D Model](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | Use [setMesh](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) on a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) assets section |
+| [Material](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) | Use [setMaterial](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) on a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel |
+| [Text](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) | Use [fetchAsData](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) on an `Asset` | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
+| [Texture](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) | Use [setTexture](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) on a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
+| [Legacy Group](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group) | Array of [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Right-click then “Create Asset” |
+| [Template](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) | Array of [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Right-click then “Create Asset” |
 
-| Data Asset Type | How to apply at runtime | Where to [Create](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-assets) |
+| Data Asset Type | How to apply at runtime | Where to [Create](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-assets) |
 | --- | --- | --- |
-| Single Mesh [3D Model](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) | Use [setMesh](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) on a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Material](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#material-asset) | Use [setMaterial](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#material-asset) on a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Assets panel |
-| [Text](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json) | Use [fetchAsData](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json) on an `Asset` | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Texture](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset) | Use [setTexture](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset) on a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
+| Single Mesh [3D Model](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | Use [setMesh](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) on a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
+| [Material](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) | Use [setMaterial](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) on a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel |
+| [Text](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) | Use [fetchAsData](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) on an `Asset` | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
+| [Texture](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) | Use [setTexture](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) on a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
 
 </gk>
 
@@ -1844,11 +1844,11 @@ When a trigger sends an [OnEntityEnterTrigger](https://developers.meta.com/horiz
 
 In the Desktop editor there is the “Assets” panel. In this panel you can view, organize, edit, delete, and create assets.
 
-**Create an asset in the Assets panel**: In the assets panel of the desktop editor click “Add New” and then choose from the dropdown. Here you can upload a [3D Model](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset), [Material](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#material-asset), [Texture](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset), or [Text](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json). You can also create a folder here to help manage all your assets.
+**Create an asset in the Assets panel**: In the assets panel of the desktop editor click “Add New” and then choose from the dropdown. Here you can upload a [3D Model](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), [Material](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset), [Texture](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset), or [Text](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json). You can also create a folder here to help manage all your assets.
 
-**Upload to the (web) Developer Dashboard**: Go the the [Developer Dashboard](https://developers.meta.com/horizon/manage/) in a browser and select “Import”. From there you can upload [3D Model Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset), [Texture Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset), or [Text Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json).
+**Upload to the (web) Developer Dashboard**: Go the the [Developer Dashboard](https://developers.meta.com/horizon/manage/) in a browser and select “Import”. From there you can upload [3D Model Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), [Texture Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset), or [Text Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json).
 
-**Create Asset from Editor Selection**: In the desktop editor, select some entities and then right-click. One of the options is “Create Asset”. This is where to create [Template Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset) and [Legacy Asset Groups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#legacy-asset-group).
+**Create Asset from Editor Selection**: In the desktop editor, select some entities and then right-click. One of the options is “Create Asset”. This is where to create [Template Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) and [Legacy Asset Groups](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group).
 
 ### Managing Assets
 
@@ -1856,9 +1856,9 @@ In the Assets panel and the [Developer Dashboard](https://developers.meta.com/ho
 
 ### Referencing Assets (Props and IDs)
 
-You need an instance of the `Asset` class in order to [spawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning), fetch [text data](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json), or [modify the material/mesh/style/texture on a mesh](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class). There are two ways to get an instance of `Asset`:
+You need an instance of the `Asset` class in order to [spawn](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), fetch [text data](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json), or [modify the material/mesh/style/texture on a mesh](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class). There are two ways to get an instance of `Asset`:
 
-- **Props**: Create a [Component property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties) with type `PropTypes.Asset` and then when the script is [attached to an entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-components-to-entities) you can drag the asset from the Assets panel into the property slot in the Properties panel.
+- **Props**: Create a [Component property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) with type `PropTypes.Asset` and then when the script is [attached to an entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities) you can drag the asset from the Assets panel into the property slot in the Properties panel.
 - **Direct Allocation**: You can call `new Asset` with the asset id (which you can find by clicking on an asset in the Assets panel). The constructor takes an optional second argument if you want to instance a specific *version* of the asset (you can also find version ids when clicking on an asset and clicking “Version History”). Horizon **does not support JavaScript bigint notation** so you have to create a `bigint` from a `string`. So, you might instantiate an asset like:
 
   ```
@@ -1873,7 +1873,7 @@ You need an instance of the `Asset` class in order to [spawn](https://developers
 
 #### Asset as() method
 
-You can convert an `Asset` instance into its specific type using the asset `as()` method, which behaves just like the [Entity as() method](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method).
+You can convert an `Asset` instance into its specific type using the asset `as()` method, which behaves just like the [Entity as() method](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method).
 
 For example:
 
@@ -1887,7 +1887,7 @@ Note that `as()` returns the same asset back, preserving equality. Thus after th
 
 The Asset] `as()` method always succeeds! Do not cast to the wrong type!
 
-The `as()` method will always return an instance of the requested type. This means that you can convert a text asset into a `TextureAsset` without error or warning. However if you then attempt to use it in [setTexture](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset), you will get errors, warnings, or other unexpected behavior. Don’t cast assets, with `as()` to classes they are not. **This is a brittle part of Horizon’s TypeScript API that has no workaround.**
+The `as()` method will always return an instance of the requested type. This means that you can convert a text asset into a `TextureAsset` without error or warning. However if you then attempt to use it in [setTexture](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset), you will get errors, warnings, or other unexpected behavior. Don’t cast assets, with `as()` to classes they are not. **This is a brittle part of Horizon’s TypeScript API that has no workaround.**
 
 Note
 
@@ -1904,47 +1904,47 @@ The `as()` method on `Asset` actually does work at runtime; it is not just a typ
 
 **Description**: A 3D Model Asset is 1, or many, 3D meshes with associated materials (and possibly textures).
 
-**Creation**: To create a 3D model asset go to the Assets panel and click “Add New” or go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) and click “Import”. Then add [fbx](https://www.autodesk.com/products/fbx/overview) files and images (typically created in digital content creation tools, DCCs, such as [Blender](https://www.blender.org/), [ZBrush](https://www.maxon.net/en/zbrush), or [Maya](https://www.autodesk.com/products/maya/overview) along with [GIMP](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual) or [Adobe Substance Painter](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual)). To learn about creating these files, **see the section on [Custom Model Import](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-model-import)**.
+**Creation**: To create a 3D model asset go to the Assets panel and click “Add New” or go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) and click “Import”. Then add [fbx](https://www.autodesk.com/products/fbx/overview) files and images (typically created in digital content creation tools, DCCs, such as [Blender](https://www.blender.org/), [ZBrush](https://www.maxon.net/en/zbrush), or [Maya](https://www.autodesk.com/products/maya/overview) along with [GIMP](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md) or [Adobe Substance Painter](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md)). To learn about creating these files, **see the section on [Custom Model Import](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-model-import)**.
 
 **Updating**: To update the contents of a 3D Model Asset, find the asset in the Assets panel, click it, and then in the Properties panel click “Replace asset”. You can also go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/), click the 3 dots on an asset and choose “edit”.
 
 **Instantiation**: When you drag out a 3D Model Asset from the Assets panel new entities are created in the world, depending on how many *root meshes* are in the asset:
 
-* **1 Mesh**: A single [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) is instantiated in the editor.
-* **2 or More Meshes**: A an [Empty Object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) containing an array children (each of which is a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class)) is instantiated in the editor.
+* **1 Mesh**: A single [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) is instantiated in the editor.
+* **2 or More Meshes**: A an [Empty Object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) containing an array children (each of which is a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)) is instantiated in the editor.
 
-**Spawning**: Regardless of the number of *root meshes*, a 3D Model Asset will spawn as `Array<Entity>`. The entities in the array can be casted to [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) instances using the [Asset as() method](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#asset-as-method).
+**Spawning**: Regardless of the number of *root meshes*, a 3D Model Asset will spawn as `Array<Entity>`. The entities in the array can be casted to [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) instances using the [Asset as() method](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#asset-as-method).
 
-**Usage**: Instantiating and spawning 3D Model Assets is where all the geometry in worlds come from. These entities will be used to create the world that players move around in, by creating [empty objects and groups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) of them, [grabbables](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) to pick up, [attachables](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities) to wear, [physics elements](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) to interact with, and all other things in a world. These assets are how you create [MeshEntities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class), on which you can make [modifications via scripting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class).
+**Usage**: Instantiating and spawning 3D Model Assets is where all the geometry in worlds come from. These entities will be used to create the world that players move around in, by creating [empty objects and groups](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) of them, [grabbables](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) to pick up, [attachables](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) to wear, [physics elements](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) to interact with, and all other things in a world. These assets are how you create [MeshEntities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class), on which you can make [modifications via scripting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class).
 
 #### MeshEntity Class
 
-Every [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) that has a 3D mesh (including the built-in “CMI Primitives”) can be used as a `MeshEntity` (accessed using the [Asset as() method](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method)). These come from [3D Model Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset).
+Every [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) that has a 3D mesh (including the built-in “CMI Primitives”) can be used as a `MeshEntity` (accessed using the [Asset as() method](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method)). These come from [3D Model Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset).
 
-You can apply a [tint](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-style), [modify color brightness](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-style), [change the texture](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset), [change the material](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#material-asset), or [change the mesh](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-setmesh).
+You can apply a [tint](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style), [modify color brightness](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style), [change the texture](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset), [change the material](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset), or [change the mesh](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-setmesh).
 
 | `MeshEntity` Class Member | Description |
 | --- | --- |
-| [setMaterial](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#material-asset) | Change a material |
-| [setTexture](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset) | Change the texture |
-| [setMesh](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-setmesh) | Change the mesh |
-| [style](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-style) | Change the tint color, tint strength, and overall brightness of the material |
+| [setMaterial](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) | Change a material |
+| [setTexture](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) | Change the texture |
+| [setMesh](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-setmesh) | Change the mesh |
+| [style](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style) | Change the tint color, tint strength, and overall brightness of the material |
 
 #### MeshEntity Style
 
-The [MeshEntity class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) has a property `style` of type `EntityStyle`. You can use it for tweaking the visual presentation of the `MeshEntity`.
+The [MeshEntity class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) has a property `style` of type `EntityStyle`. You can use it for tweaking the visual presentation of the `MeshEntity`.
 
 **The `style` property only works if the `MeshEntity` has a *texture***. So, for example, a VXC (vertex-lit) material cannot have its style modified.
 
-`EntityStyle` has a few [read-write Horizon properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties):
+`EntityStyle` has a few [read-write Horizon properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties):
 
 | `EntityStyle` read-write Horizon property | Type | Default | Notes |
 | --- | --- | --- | --- |
 | `brightness` | `number` (`0` to `100`) | `1` | Luminance adjustment. `0` is black `1` is no change `100` is very bright. |
-| `tintColor` | [Color](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#color) | white `(1,1,1)` | A color to mix into the base color. |
+| `tintColor` | [Color](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#color) | white `(1,1,1)` | A color to mix into the base color. |
 | `tintStrength` | `number` (`0` to `1`) | `0` | The amount to mix `tintColor` into the base color. `0` is no tint `1` is fully tinted |
 
-**Mesh Style Equation**: When Horizon is rendering a pixel on a textured [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class), it computes a color (by looking up a pixel in the texture, a “texel”). Call that the `baseColor` is then augments that color by the equation (these are not all real functions in Horizon):
+**Mesh Style Equation**: When Horizon is rendering a pixel on a textured [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class), it computes a color (by looking up a pixel in the texture, a “texel”). Call that the `baseColor` is then augments that color by the equation (these are not all real functions in Horizon):
 
 ```
 colorLerp(
@@ -1954,11 +1954,11 @@ colorLerp(
 ).mul(brightness)
 ```
 
-where `luminance` gets the brightness of the texel color and `colorLerp` acts just like [Vec3 lerp](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vector-linear-interpolation-lerp).
+where `luminance` gets the brightness of the texel color and `colorLerp` acts just like [Vec3 lerp](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vector-linear-interpolation-lerp).
 
 #### MeshEntity setMesh
 
-You can change the mesh on a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) while the world is running via the `setMesh` method:
+You can change the mesh on a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) while the world is running via the `setMesh` method:
 
 ```
 // MeshEntity
@@ -1970,7 +1970,7 @@ setMesh(
 
 #### MeshEntity setMesh
 
-You can change the mesh on a [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) while the world is running via the `setMesh` method:
+You can change the mesh on a [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) while the world is running via the `setMesh` method:
 
 ```
 // MeshEntity
@@ -1982,7 +1982,7 @@ setMesh(
 
 Which takes two arguments:
 
-* **mesh**: An asset which needs to actually be a [3D Model Asset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) or you will get an error. If the asset has 1 mesh then it will replace the current mesh on the entity. If the asset has multiple root meshes, then the first one will be used for the replacement.
+* **mesh**: An asset which needs to actually be a [3D Model Asset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) or you will get an error. If the asset has 1 mesh then it will replace the current mesh on the entity. If the asset has multiple root meshes, then the first one will be used for the replacement.
 * **options**: An optional parameter to specify whether you also want to update the material as well (which defaults to `true`)
 
   ```
@@ -1991,19 +1991,19 @@ Which takes two arguments:
   };
   ```
 
-The method returns a `Promise<void>` which you can `await` for to know when the swap has occurred. Note that the swap is not instantaneous since the new mesh may have to be downloaded, have its lighting computed, have its [collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#colliders) updated, etc.
+The method returns a `Promise<void>` which you can `await` for to know when the swap has occurred. Note that the swap is not instantaneous since the new mesh may have to be downloaded, have its lighting computed, have its [collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) updated, etc.
 
 ### Texture Asset
 
-**Description**: A Texture Asset is a 2D image (or set of images) that can be applied to [MeshEntities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) or used in [Custom UIs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui). You can convert an `Asset` to a `TextureAsset` using the [Asset as() method](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#asset-as-method).
+**Description**: A Texture Asset is a 2D image (or set of images) that can be applied to [MeshEntities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) or used in [Custom UIs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui). You can convert an `Asset` to a `TextureAsset` using the [Asset as() method](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#asset-as-method).
 
-**Creation**: To create a texture asset go to the Assets panel and click “Add New” or go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) and click “Import”. You can then import PNG (.png) files. If the texture is to be used with a [Custom UI Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui-gizmo) then it should just be RGB. If it is to be used with `setTexture` (below) then it should match the [texture configuration of the material it will be paired](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-model-import) with.
+**Creation**: To create a texture asset go to the Assets panel and click “Add New” or go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) and click “Import”. You can then import PNG (.png) files. If the texture is to be used with a [Custom UI Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui-gizmo) then it should just be RGB. If it is to be used with `setTexture` (below) then it should match the [texture configuration of the material it will be paired](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-model-import) with.
 
 Power-of-two dimensions
 
 For best performance and memory usage, texture dimensions should be powers of two (e.g. 256x256, 512x1024, etc.).
 
-**Usage**: Textures can be applied to [MeshEntities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) via the `setTexture` method:
+**Usage**: Textures can be applied to [MeshEntities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) via the `setTexture` method:
 
 ```
 // MeshEntity
@@ -2025,11 +2025,11 @@ Using the `players` option lets you show different textures to different players
 
 ### Material Asset
 
-**Description**: A Material Asset defines how a surface should be rendered, representing one of the [supported materials](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-model-import). You can convert an `Asset` to a `MaterialAsset` using the [Asset as() method](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#asset-as-method).
+**Description**: A Material Asset defines how a surface should be rendered, representing one of the [supported materials](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-model-import). You can convert an `Asset` to a `MaterialAsset` using the [Asset as() method](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#asset-as-method).
 
-**Creation**: Materials are typically created as part of [3D Model Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) when importing from DCCs like Blender or Maya. The Desktop editor also provides some built-in materials in the Asset Library.
+**Creation**: Materials are typically created as part of [3D Model Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) when importing from DCCs like Blender or Maya. The Desktop editor also provides some built-in materials in the Asset Library.
 
-**Usage**: Materials can be applied to [MeshEntities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) via the `setMaterial` method:
+**Usage**: Materials can be applied to [MeshEntities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) via the `setMaterial` method:
 
 ```
 // MeshEntity
@@ -2050,15 +2050,15 @@ Material slots
 
 If a mesh uses multiple materials, you must specify which slot to update using the `materialSlot` option. Slots can be referenced by index or by using the Unreal naming convention: a material name ending in `_skin##` will determine a slot index (e.g. `face_skin00` is slot `0`; `face_skin03` is slot `3`). You cannot specify a slot number higher than the number of materials in the original material.
 
-See more info [here](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/multiple-materials-per-mesh).
+See more info [here](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Multiple%20Materials%20per%20Mesh.md).
 
 ### Audio Asset
 
-**Description**: Audio assets create [Sound Gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo) when instantiated or spawned.
+**Description**: Audio assets create [Sound Gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) when instantiated or spawned.
 
-**Creation**: The only way to create an Audio Asset is to use the [Gen AI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-audio-tool) feature in the Desktop editor. Note that currently **the Gen AI features are not available to all creators**.
+**Creation**: The only way to create an Audio Asset is to use the [Gen AI](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md) feature in the Desktop editor. Note that currently **the Gen AI features are not available to all creators**.
 
-**Usage**: Instantiate or [spawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) the asset. Usage is then the same as a [Sound Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo).
+**Usage**: Instantiate or [spawn](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) the asset. Usage is then the same as a [Sound Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo).
 
 ### Text Asset (JSON)
 
@@ -2066,7 +2066,7 @@ See more info [here](https://developers.meta.com/horizon-worlds/learn/documentat
 
 **Creation**: To create a text asset go to the Assets panel and click “Add New” or go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) and click “Import”.
 
-**Usage**: To use a text asset, first get it [as an Asset instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#referencing-assets-props-and-ids). Then call `fetchAsData` on it:
+**Usage**: To use a text asset, first get it [as an Asset instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#referencing-assets-props-and-ids). Then call `fetchAsData` on it:
 
 ```
 // Asset
@@ -2095,66 +2095,66 @@ asJSON<T = JSON>(): T | null
 
 The `asText` method will return the JSON serialized (e.g. as if with [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)).
 
-The `asJSON` method returns `null` if the the asset is not a text asset with JSON. Otherwise it returns the JSON data casted to the type `T`. **`asJson()` does no work to ensure that the data is compatible with the type `T`**. You should do runtime checks to ensure that the data has the right structure before using it. We recommend included a type “tag” and version number in the JSON if possible, to ease these checks. This is the same advice we give for [persistent object data](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistent-variable-object-data). See that section for more details on our advice.
+The `asJSON` method returns `null` if the the asset is not a text asset with JSON. Otherwise it returns the JSON data casted to the type `T`. **`asJson()` does no work to ensure that the data is compatible with the type `T`**. You should do runtime checks to ensure that the data has the right structure before using it. We recommend included a type “tag” and version number in the JSON if possible, to ease these checks. This is the same advice we give for [persistent object data](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-object-data). See that section for more details on our advice.
 
 ### Template Asset
 
 **Description**: Template Assets are similar to [Prefabs in Unity](https://docs.unity3d.com/Manual/Prefabs.html). They allow you to create an asset that you can instantiate, and then edit such that edits propagate to all instantiations (without losing any *overrides* on instantiations).
 
-**Creation**: To create a Template Asset, select a number of entities in the desktop editor. Then right-click and choose “Create Asset”. Fill out the form, with “Asset Type” set to “Template Asset”. Read the documentation on [how file-backed scripts interact with template assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#file-backed-scripts-fbs). Template assets can be nested.
+**Creation**: To create a Template Asset, select a number of entities in the desktop editor. Then right-click and choose “Create Asset”. Fill out the form, with “Asset Type” set to “Template Asset”. Read the documentation on [how file-backed scripts interact with template assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#file-backed-scripts-fbs). Template assets can be nested.
 
 **Updating**: Once you have a Template Asset (by creating one or having on shared with you), you can edit it. Find the asset in the Assets panel, right-click it, and choose *“Edit Template Definition*”. This will reconfigure the entire desktop editor to be editing a new “mini world” which just the contents of the asset. Whatever you create / edit / delete here will end up being the new contents of the asset. When you are done, click “Save” (or click “Discard” if you don’t want to keep your edits). It will ask you if you want to propagate the changes outward to instantiations of the asset. Also, in all worlds that use the asset, the “available asset updates” button will get a blue dot; you can use that button to accept the newer versions of the asset. **Do not override properties on children of an instantiated template asset.** When a template asset is updated, all instantiations will lose any overrides that are not on the *root*. If you want to set overrides on the “sub-elements” you should split the template into smaller one.
 
-**Instantiation**: You can drag a template asset out from the Assets panel and into the world to instantiate its contents. You will get only one root entity: if the asset describes only 1 entity then that is wha will be instantiated; it the asset describes multiple entities then you will get an [Empty Object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) with all the entities as children. You can then modify the properties on the *root entity* (such as [attaching a component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-components-to-entities), [changing props](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties), or adjusting any [entity settings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#all-gizmos-intrinsic-entity-types)). Those overrides will persist even if you update the asset (described above).
+**Instantiation**: You can drag a template asset out from the Assets panel and into the world to instantiate its contents. You will get only one root entity: if the asset describes only 1 entity then that is wha will be instantiated; it the asset describes multiple entities then you will get an [Empty Object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) with all the entities as children. You can then modify the properties on the *root entity* (such as [attaching a component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities), [changing props](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties), or adjusting any [entity settings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types)). Those overrides will persist even if you update the asset (described above).
 
 **Unlinking**: When you instantiate a template asset you can “unlink” the entities from the asset. This allows you to modify the internals, delete some pieces, etc. But when you do so, it will no longer get updates when the template is updated. If you want to do an unlink, select an instantiated root entity, right-click it and choose “Unlink instance root”.
 
-**Spawning**: If you [spawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) a template asset into a world, you will get a single entity (if the asset only has 1) or you will get an [Empty Object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) with all the entities as children. In either case, the entity created is the [root entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#deleting-simply-spawned-entities).
+**Spawning**: If you [spawn](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) a template asset into a world, you will get a single entity (if the asset only has 1) or you will get an [Empty Object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) with all the entities as children. In either case, the entity created is the [root entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#deleting-simply-spawned-entities).
 
 ### Legacy Asset Group
 
 Recommendation: do not use
 
-You should use [Template Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset) which support all the same functionality and more (which is why this kind is *“legacy”*).
+You should use [Template Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) which support all the same functionality and more (which is why this kind is *“legacy”*).
 
-**Description**: A *Legacy Asset Group* represents a collection of entities, property settings, and/or scripts. Unlike [Template Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset), they do not allow you to automatically update all instances whenever you make an edit.
+**Description**: A *Legacy Asset Group* represents a collection of entities, property settings, and/or scripts. Unlike [Template Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset), they do not allow you to automatically update all instances whenever you make an edit.
 
 **Creation**: To create a legacy asset group, select some assets in the Desktop Editor and then right-click. The dropdown will include the “Create Asset” option. In the dialogue that appears, change “Asset Type” to “Legacy Asset Group”.
 
 **Instantiation**: You can drag a legacy asset group out from the Assets panel and into the world to instantiate its contents.
 
-**Spawning**: If you [spawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) a legacy asset group into a world, the entities will be in the array in the same order that you selected the entities when you made the asset. The first entity you select, when making the asset, becomes the **root entity**.
+**Spawning**: If you [spawn](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) a legacy asset group into a world, the entities will be in the array in the same order that you selected the entities when you made the asset. The first entity you select, when making the asset, becomes the **root entity**.
 
 ## Custom Model Import
 
-Horizon allows creators to import 3D meshes (with materials and texture) into their worlds, which become [3D Model Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) that can be instantiated (by dragging them out into the world from the Assets panel) or [spawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) while a world is running.
+Horizon allows creators to import 3D meshes (with materials and texture) into their worlds, which become [3D Model Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) that can be instantiated (by dragging them out into the world from the Assets panel) or [spawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) while a world is running.
 
-Note that Horizon has two different rendering systems: [SubD and Meshes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#subd-vs-custom-models). When you [create a world](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-a-world) you pick one you want to use. Custom models cannot be imported into a **SubD world**.
+Note that Horizon has two different rendering systems: [SubD and Meshes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#subd-vs-custom-models). When you [create a world](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-world) you pick one you want to use. Custom models cannot be imported into a **SubD world**.
 
-To use custom models, see the “creating” notes in the [3D Model Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset) section. You upload FBX files and png files to create a single asset (which may include multiple separate meshes / objects). The meshes are instantiated as the [MeshEntity class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) which can be [tinted and modified with scripting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-style).
+To use custom models, see the “creating” notes in the [3D Model Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) section. You upload FBX files and png files to create a single asset (which may include multiple separate meshes / objects). The meshes are instantiated as the [MeshEntity class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) which can be [tinted and modified with scripting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style).
 
-The guides for creating custom models are [here](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/getting-started-with-custom-model-import/); There are a number of [supported material types](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/materials-guidance-and-reference-for-custom-models).
+The guides for creating custom models are [here](/hw-docs/Custom%20models%20(FBX)/Getting%20started%20with%203D%20model%20import.md); There are a number of [supported material types](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md).
 
 Note
 
 No post-processing, custom shaders, normal maps, rigs, skinning, baked animations, LODs, mipmaps, or custom particle effects.
 
-Currently there are no post-process rendering options which makes things like bloom, motion blur, sepia, etc impossible. Likewise, you cannot write custom shaders or use normal / bump / displacement maps. Other advanced features such as rigging, skinning, LODs, mipmaps, terrain, etc are currently unavailable. Emissive materials will look bright but don’t actually contribute to the ambient [lighting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-lighting).
+Currently there are no post-process rendering options which makes things like bloom, motion blur, sepia, etc impossible. Likewise, you cannot write custom shaders or use normal / bump / displacement maps. Other advanced features such as rigging, skinning, LODs, mipmaps, terrain, etc are currently unavailable. Emissive materials will look bright but don’t actually contribute to the ambient [lighting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting).
 
 ### SubD vs Custom Models
 
-Horizon has two different mesh+rendering systems. They cannot be mixed; you must choose which you want to use when [creating a world](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-a-world). *If you find any workarounds to mix them in one world, you may experience unexpected and unpredictable results.*
+Horizon has two different mesh+rendering systems. They cannot be mixed; you must choose which you want to use when [creating a world](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-world). *If you find any workarounds to mix them in one world, you may experience unexpected and unpredictable results.*
 
-- **SubD (“primitives”)** - This is the original “legacy” system in Horizon. Worlds are created solely using primitive shapes (cub, sphere, cylinder, cone, etc). The primitives are implement using [subdivision](https://en.wikipedia.org/wiki/Subdivision_surface); you’ll notice that as you get closer to the shapes they will subdivide and become smoother and smooth. Since Horizon uses [vertex lighting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-lighting) this means that [static lights](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-light-gizmo) and [dynamic lights](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#dynamic-light-gizmo) can appear to have decent spatial resolution.
+- **SubD (“primitives”)** - This is the original “legacy” system in Horizon. Worlds are created solely using primitive shapes (cub, sphere, cylinder, cone, etc). The primitives are implement using [subdivision](https://en.wikipedia.org/wiki/Subdivision_surface); you’ll notice that as you get closer to the shapes they will subdivide and become smoother and smooth. Since Horizon uses [vertex lighting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting) this means that [static lights](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-light-gizmo) and [dynamic lights](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) can appear to have decent spatial resolution.
 - **Custom Models (“tri-mesh”)** - This system uses a more standard rendering pipeline of triangular mesh (tri-mesh) models with materials and textures. Here you can make detailed meshes (and bake geometric detail into textures), make transparent meshes, create custom colliders, offset pivots, and more.
 
 #### Horizon Lighting
 
-Horizon uses [vertex lighting](https://en.wikipedia.org/wiki/Gouraud_shading). You’ll notice that [dynamic lights](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#dynamic-light-gizmo) (e.g. if you make a flashlight) don’t look good on your meshes unless you tessellate sufficient (cut triangles into smaller triangular to create a higher density of vertices).
+Horizon uses [vertex lighting](https://en.wikipedia.org/wiki/Gouraud_shading). You’ll notice that [dynamic lights](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) (e.g. if you make a flashlight) don’t look good on your meshes unless you tessellate sufficient (cut triangles into smaller triangular to create a higher density of vertices).
 
-Horizon has a custom built [global illumination (GI)](https://en.wikipedia.org/wiki/Global_illumination) system that calculates [ambient occlusion (AO)](https://en.wikipedia.org/wiki/Ambient_occlusion) (so that meshes self-shadow) as well as color bounce and color bleed. All of this lighting information is baked onto the meshes and into light probes (some of which is stored in the [world snapshot](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-snapshot)). This is one of the main reasons that [spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) is slow; it is computing the lighting. [Sublevel streaming](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevels) is so much faster because lighting is pre-computed at the (static) world level.
+Horizon has a custom built [global illumination (GI)](https://en.wikipedia.org/wiki/Global_illumination) system that calculates [ambient occlusion (AO)](https://en.wikipedia.org/wiki/Ambient_occlusion) (so that meshes self-shadow) as well as color bounce and color bleed. All of this lighting information is baked onto the meshes and into light probes (some of which is stored in the [world snapshot](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot)). This is one of the main reasons that [spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) is slow; it is computing the lighting. [Sublevel streaming](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) is so much faster because lighting is pre-computed at the (static) world level.
 
-If you want to create meshes that *disable* Horizon’s GI system then you should use the [*unlit* material](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/creating-custom-models-for-horizon-worlds/materials-guidance-and-reference-for-custom-models#unlit-materials).
+If you want to create meshes that *disable* Horizon’s GI system then you should use the [*unlit* material](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md#unlit-materials).
 
 ## Scripting
 
@@ -2164,21 +2164,21 @@ Scripts are how you create dynamism in worlds. You use them to create interactiv
 
 **Code Blocks**: Horizon also has a drag-and-drop scripting system called “Code Blocks” that are only editable in VR (and outside the scope of this document).
 
-**Components and Files**: In scripts you define [Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#components) classes that you can attach to `Entities` in the Desktop editor. You can specify [properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties) (“props”) in the `Components` that will show in the Properties panel in the Desktop editor, allowing you to set and change the properties in the editor, per-entity. Scripts can contain other code too, which is executed [when files are loaded](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-file-execution). Components have a detailed [lifecycle](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) that execution through the [frame](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence).
+**Components and Files**: In scripts you define [Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#components) classes that you can attach to `Entities` in the Desktop editor. You can specify [properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) (“props”) in the `Components` that will show in the Properties panel in the Desktop editor, allowing you to set and change the properties in the editor, per-entity. Scripts can contain other code too, which is executed [when files are loaded](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution). Components have a detailed [lifecycle](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) that execution through the [frame](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence).
 
-**Core types**: Component instances communicate with one another and [the world](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) by [sending and receiving events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#communication-between-components). There are many types in Horizon, but you’ll most often use the core game types: [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities), [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players), [Asset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#assets), [Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#components), and [World](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class); the core data types: [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) (for position and scale), [Color](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#color), and [Quaternion](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quaternion) (for rotations); and the event types: [LocalEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events), and [NetworkEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events).
+**Core types**: Component instances communicate with one another and [the world](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) by [sending and receiving events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#communication-between-components). There are many types in Horizon, but you’ll most often use the core game types: [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities), [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players), [Asset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#assets), [Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#components), and [World](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class); the core data types: [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) (for position and scale), [Color](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#color), and [Quaternion](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) (for rotations); and the event types: [LocalEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events), and [NetworkEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events).
 
 ### Creating and Editing Scripts
 
-You can create scripts by using the create button in the scripts dropdown or simply creating a new file in the scripts folder. Click the [≣] button in the editor and then “Launch TypeScript Editor”. You can then create and edit files. Note that script-editing behaves quite differently depending on if [file-backed scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#file-backed-scripts-fbs) are enabled.
+You can create scripts by using the create button in the scripts dropdown or simply creating a new file in the scripts folder. Click the [≣] button in the editor and then “Launch TypeScript Editor”. You can then create and edit files. Note that script-editing behaves quite differently depending on if [file-backed scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#file-backed-scripts-fbs) are enabled.
 
 Editing a script while the editor is playing a world reloads that file.
 
-This is often useful, but it can cause surprises with only part of the world reloading. You may need to restart the world for certain efforts. Read about [file execution](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-file-execution) for more information.
+This is often useful, but it can cause surprises with only part of the world reloading. You may need to restart the world for certain efforts. Read about [file execution](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution) for more information.
 
 #### Syncing Scripts
 
-When you create, edit, or delete scripts in a world’s scripts folder, Horizon automatically tracks and syncs those edits to the [world snapshot](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-snapshot).
+When you create, edit, or delete scripts in a world’s scripts folder, Horizon automatically tracks and syncs those edits to the [world snapshot](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot).
 
 Tip
 
@@ -2186,11 +2186,11 @@ If syncing doesn’t appear to be working, delete the *.editor* file, leave worl
 
 #### Scripts in Source Control
 
-When you open a world in the editor, Horizon checks to see if the scripts match what is saved in the [world snapshot](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-snapshot). If they don’t match, it will ask if you want to update the world with the scripts you have in the folder. Thus, the scripts folder acts like an “auto-sync directory”. This means that you can put a git repo in the scripts folder, share the same repo with different “forks” of a world, use submodules to share scripts, and more!
+When you open a world in the editor, Horizon checks to see if the scripts match what is saved in the [world snapshot](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot). If they don’t match, it will ask if you want to update the world with the scripts you have in the folder. Thus, the scripts folder acts like an “auto-sync directory”. This means that you can put a git repo in the scripts folder, share the same repo with different “forks” of a world, use submodules to share scripts, and more!
 
 ### Horizon Properties
 
-Most data in the Horizon [scene graph](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph) is accessed via *Horizon Properties*:
+Most data in the Horizon [scene graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) is accessed via *Horizon Properties*:
 
 ```
 const pos = entity.position.get()
@@ -2203,13 +2203,13 @@ Properties can be
 - **write-only**: only a `set()` method. Uses `WritableHorizonProperty`.
 - **read-write**: `get()` and `set()` methods. Uses `HorizonProperty`.
 
-**Calling `set` on a Horizon property does *not* change the value immediately**. See the section on [scene graph mutations](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph-mutations) for the details.
+**Calling `set` on a Horizon property does *not* change the value immediately**. See the section on [scene graph mutations](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations) for the details.
 
-There is an additional class `HorizonSetProperty` which is used for managing properties that act like Sets such as [entity tags](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags). You can `get()` and `set(values)` the values; additionally there are methods for `length()`, `contains()`, `clear()`, `add(value)`, and `remove(value)`. Note that the `HorizonSetProperty` is meant to act like a `Set`. However the `get()` and `set()` methods both use arrays, for convenience and simplicity.
+There is an additional class `HorizonSetProperty` which is used for managing properties that act like Sets such as [entity tags](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags). You can `get()` and `set(values)` the values; additionally there are methods for `length()`, `contains()`, `clear()`, `add(value)`, and `remove(value)`. Note that the `HorizonSetProperty` is meant to act like a `Set`. However the `get()` and `set()` methods both use arrays, for convenience and simplicity.
 
 Horizon Property Example
 
-Here is some of the [`PhysicalEntity`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) class:
+Here is some of the [`PhysicalEntity`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) class:
 
 ```
 class PhysicalEntity extends Entity {
@@ -2224,9 +2224,9 @@ From the above definition we can discern that we can do the following with a phy
 
 * `set` if is gravity enabled, as a `boolean`, but can’t get the current setting.
 * `set` if it is locked, as a `boolean`, and `get` if it is locked.
-* `get` the current velocity, as a `Vec3`, but not set the velocity (instead, you must use [forces](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#applying-forces-and-torque)).
+* `get` the current velocity, as a `Vec3`, but not set the velocity (instead, you must use [forces](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)).
 
-Note that Writable properties may accept a second argument. Consider this snippet of the [AudioGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo) class:
+Note that Writable properties may accept a second argument. Consider this snippet of the [AudioGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) class:
 
 ```
 class AudioGizmo extends Entity {
@@ -2253,7 +2253,7 @@ audioGizmo.volume.set(0.5, { fade: 1 })
 
 Horizon Property's `set()` is not immediate.
 
-When you `set` a Horizon property the value is not immediately saved back to the [scene graph](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph). This allows different scripts to all “see the same state of the world” regardless of what order they run in. This means that if you `get` a value right after setting it that you will still get the old value.
+When you `set` a Horizon property the value is not immediately saved back to the [scene graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph). This allows different scripts to all “see the same state of the world” regardless of what order they run in. This means that if you `get` a value right after setting it that you will still get the old value.
 
 In the following code `pos1` and `pos2` will have the same value.
 
@@ -2263,15 +2263,15 @@ entity.position.set(Vec3.zero)
 const pos2 = entity.position.get()
 ```
 
-Read about the [frame sequence](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence) to learn more about when properties update.
+Read about the [frame sequence](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) to learn more about when properties update.
 
 Track your scene graph value updates when needed.
 
 If you need to know values after `set`ting but before they are committed to the scene graph, you should track the values manually (such as in a class variable).
 
-To avoid a dangerous situation, never modify the result of `get()`. Create a new instance, or [clone()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#copying-vs-mutating-methods), first. **Never mutate the result of a `get()`.** Don’t do direct field mutation (e.g. `v.x += 4` on a vector) or use [mutating methods](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#copying-vs-mutating-methods) such as `v.addInPlace(w)` or `v.copy(w)`. These **will “corrupt” the property value**.
+To avoid a dangerous situation, never modify the result of `get()`. Create a new instance, or [clone()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods), first. **Never mutate the result of a `get()`.** Don’t do direct field mutation (e.g. `v.x += 4` on a vector) or use [mutating methods](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods) such as `v.addInPlace(w)` or `v.copy(w)`. These **will “corrupt” the property value**.
 
-Horizon properties cache their values until the scene graph is updated (see [frame sequence](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence) for when). This means that `get()` keeps returning the same value until the update occurs. The following code is then dangerous:
+Horizon properties cache their values until the scene graph is updated (see [frame sequence](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) for when). This means that `get()` keeps returning the same value until the update occurs. The following code is then dangerous:
 
 ```
 // BAD #1!
@@ -2283,9 +2283,9 @@ const p = entity.position.get()
 p.addInPlace(new Vec3(0, 10, 0))
 ```
 
-If any code now reads that object’s position it will get the wrong value, until the next time the property is updated in the [frame sequence](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence).
+If any code now reads that object’s position it will get the wrong value, until the next time the property is updated in the [frame sequence](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence).
 
-You should always `clone` a Horizon property’s value before modifying it (or add a [method that creates a new value](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#copying-vs-mutating-methods)).
+You should always `clone` a Horizon property’s value before modifying it (or add a [method that creates a new value](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods)).
 
 ```
 // OK #1
@@ -2315,18 +2315,18 @@ There are many TypeScript types in Horizon; however, there are a few that form t
 
 | Type | Description |
 | --- | --- |
-| [Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#components) | Add interactivity and logic to a world (by creating a [subclasses](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class) and attaching it to an entity). |
-| [World](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class) | Information and methods related to the current [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances). |
-| [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | A [node](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) in the [scene graph](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph) with intrinsic attributes and behavior. There are many [subtypes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-types) available via [entity.as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method). |
-| [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) | A [player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) in the world ([instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances)), including the “[server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player)” and [NPC players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo). |
-| [Asset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#assets) | Data that lives outside the scene graph (such as [text blobs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json) and [textures](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset)). |
-| [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | A “3D quantity” which can be used to represent [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position), [velocity, acceleration, force, torque](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics), [scale](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scale), and more. |
-| [Quaternion](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quaternion) | An abstract mathematical object primarily used for representing *rotations*. |
-| [Color](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#color) | An RGB Color with each component between 0 and 1. |
+| [Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#components) | Add interactivity and logic to a world (by creating a [subclasses](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) and attaching it to an entity). |
+| [World](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) | Information and methods related to the current [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances). |
+| [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | A [node](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) in the [scene graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) with intrinsic attributes and behavior. There are many [subtypes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-types) available via [entity.as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method). |
+| [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) | A [player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) in the world ([instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances)), including the “[server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player)” and [NPC players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo). |
+| [Asset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#assets) | Data that lives outside the scene graph (such as [text blobs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) and [textures](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)). |
+| [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | A “3D quantity” which can be used to represent [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position), [velocity, acceleration, force, torque](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics), [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale), and more. |
+| [Quaternion](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) | An abstract mathematical object primarily used for representing *rotations*. |
+| [Color](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#color) | An RGB Color with each component between 0 and 1. |
 
 **Construction / new**: `Component`s, `Entity`s, `Player`s, and the `World` are all created by the system. You should never instantiate these directly with `new`. You can (and will) instantiate `Vec3`, `Quaternion`, and `Color`. You can allocate `Asset`s directly with their asset ids.
 
-**Equality comparison**: `Entity` and `Player` can be compared directly with `===` and `!==`; these have been implemented to compare their underlying `id`s. All other types will use built-in TypeScript equality checks. `Vec3`, `Quaternion`, and `Color` implement [`Comparable<T>`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#comparable-interface).
+**Equality comparison**: `Entity` and `Player` can be compared directly with `===` and `!==`; these have been implemented to compare their underlying `id`s. All other types will use built-in TypeScript equality checks. `Vec3`, `Quaternion`, and `Color` implement [`Comparable<T>`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface).
 
 #### Comparable Interface
 
@@ -2369,16 +2369,16 @@ If you compare `Vec3`, `Quaternion`, and `Color` with `===` or `!==` then you ar
 - **inPlace methods**: methods that end with the suffix `...InPlace` will mutate the `this` they are called on. Thus `vec.mulInPlace(2)` is the same as `vec.x *= 2; vec.y *= 2; vec.z *= 2`. In place methods return `this` for convenience (chaining operations).
 - **new by default**: in contrast to the above point, if a method *does not end with `...InPlace` then it creates a \*new* instance. Thus `vec.mul(2)` is the same as `new Vec3(vec.x * 2, vec.y * 2, vec.z * 2)`. The one exception is `copy()`.
 - **copy(input)**: this method should really be called `copyInPlace`. It takes the `input` argument and makes `this` be `equal()` to it. It returns `this` again for convenience (chaining operations). Thus `vec.copy(other)` is the same as `vec.x = other.x; vec.y = other.y; vec.z = other.z`.
-- **clone()**: creates a new equivalent instance ([which would return true with `equal()` but not `===`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#comparable-interface)). Thus `vec.clone()` is the same as `new Vec3(vec.x, vec.y, vec.z)`.
+- **clone()**: creates a new equivalent instance ([which would return true with `equal()` but not `===`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface)). Thus `vec.clone()` is the same as `new Vec3(vec.x, vec.y, vec.z)`.
 - **out argument**: some methods (e.g. `Vec3.add`) take an optional `out` argument. If the `out` argument is provided then the result is “created” inside of that argument (similar to `out.copy(result)`) and also returned. If the *out* argument is not provided then a new instance is created and returns. Thus `Vec3.add(a, b)` is the same as `a.add(b)`, whereas `Vec3.add(a, b, result)` is equivalent to `result.copy(a).addInPlace(b)`.
 
 Danger: Don't mutate the result of a Horizon Property `get()`.
 
-Mutating the result of a property `get()` -- either by mutating a field, such as `v.x += 4` on a vector or via an *in place* method such as `v.addInPlace(w)` or `v.copy(w)` -- will cause the property to [report the wrong value](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-property-subtleties) to future `get()`s.
+Mutating the result of a property `get()` -- either by mutating a field, such as `v.x += 4` on a vector or via an *in place* method such as `v.addInPlace(w)` or `v.copy(w)` -- will cause the property to [report the wrong value](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-property-subtleties) to future `get()`s.
 
 #### Vec3
 
-The `Vec3` class represents a 3-dimensional quantity which is usually a 3D [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position). It can also be used to represent an [offset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#offsets---move-rotate-and-scale), [velocity, force, torque](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics), [scale](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scale), [Euler Angles](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#euler-angles), and more.
+The `Vec3` class represents a 3-dimensional quantity which is usually a 3D [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position). It can also be used to represent an [offset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#offsets---move-rotate-and-scale), [velocity, force, torque](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics), [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale), [Euler Angles](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#euler-angles), and more.
 
 ##### Vector Creation
 
@@ -2407,9 +2407,9 @@ const forward = Vec3.backward // ( 0,  0, -1)
 
 ##### Vector Operations
 
-`Vec3` has the `equal(other: Vec3)` and `equalApprox(other: Vec3, epsilon?: number)` methods from [`Comparable<T>`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#comparable-interface), and their `static` counterparts. It also has `copy(other)` and `clone()`[methods](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#copying-vs-mutating-methods).
+`Vec3` has the `equal(other: Vec3)` and `equalApprox(other: Vec3, epsilon?: number)` methods from [`Comparable<T>`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface), and their `static` counterparts. It also has `copy(other)` and `clone()`[methods](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods).
 
-`Vec3`s support many common mathematical operations which support both [copying and mutating versions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#copying-vs-mutating-methods):
+`Vec3`s support many common mathematical operations which support both [copying and mutating versions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods):
 
 ```
 const v1 = new Vec3(1, 0, 0)
@@ -2454,20 +2454,20 @@ The following table assumes that `v`, `w`, `r`, and `out` are `Vec3`s; `s` and `
 | Normalize | `r = v.normalize()` `v.normalizeInPlace()` `Vec3.normalize(v, out)` | Divide a vector by its length to product a vector with a length of 1 (in the same direction). Exception: the zero-vector normalizes to the zero-vector. |  |
 | Distance | `n = v.distance(w)` | The (Euclidean) distance between `v` and `w`. |  |
 | Distance Squared | `n = v.distanceSquared(w)` | The squared (Euclidean) distance between `v` and `w`. |  |
-| Dot Product | `n = v.dot(w)` `n = Vec3.dot(v, w)` | The [dot product](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#dot-product) of `v` and `w`. |  |
-| Cross Product | `r = v.cross(w)` `v.crossInPlace(w)` `Vec3.cross(v, w, out)` | The [cross product](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#cross-product) of `v` and `w`. |  |
-| Reflection | `r = v.reflect(w)` `v.reflectInPlace(w)` | [Reflect](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vector-reflect)`v` across `w`. |  |
-| Lerp | `Vec3.lerp(v, w, s, out)` | Compute the [linear interpolation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vector-linear-interpolation-lerp)`v` and `w` the amount `s` |  |
+| Dot Product | `n = v.dot(w)` `n = Vec3.dot(v, w)` | The [dot product](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#dot-product) of `v` and `w`. |  |
+| Cross Product | `r = v.cross(w)` `v.crossInPlace(w)` `Vec3.cross(v, w, out)` | The [cross product](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#cross-product) of `v` and `w`. |  |
+| Reflection | `r = v.reflect(w)` `v.reflectInPlace(w)` | [Reflect](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vector-reflect)`v` across `w`. |  |
+| Lerp | `Vec3.lerp(v, w, s, out)` | Compute the [linear interpolation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vector-linear-interpolation-lerp)`v` and `w` the amount `s` |  |
 
 ##### Dot Product
 
 The **dot product** is a fundamental vector operation that multiples the lengths of the two vectors together and then multiples in a “sameness value”; that value is 1 if they are parallel, 0 if they are perpendicular, and -1 if the are facing opposite directions (anti-parallel). If the two vectors both have length 1 then the dot product gives you a number between -1 and 1. The length of the dot product in general is:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=0h59BzuEzE8Q7kNvwGNxpIy&_nc_oc=Adl6GbzGomKzJtIuf8wvodrJvjV8fr3erJ01hdUjDzFlCktkwZZZ8gVzpRPbIQPaDzw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfgD25edS3LuZ-HZPtF91A92432cRUu85IlP1-pJALYIQg&oe=694630CA)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=eor5vc1P2ykQ7kNvwHX3IIB&_nc_oc=AdlqrF_GNer_ZwnZWIMQs08jln1eoWQXbe-cW-YUmU9O7wXXfA7JIzj7mYdy5hxWOb0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfkUbCW7t_lAKjeH1Q-xFkKw38zwrfZeLaJcy-1YohHEsQ&oe=694BE74A)
 
 where
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480737482_657839683420653_3915350552174156915_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ddRBBUJV_yUQ7kNvwGy8QQO&_nc_oc=AdkzLPGKW7NKpJUaKdgZiQsswdX8-QVdOKdaJRYcmE8HaFqsyPkadOgQpTVkXEf7GzA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfjVeUh9P9_43Mio2H16oCbBn_htdwB4sRHEP7JSU7jNUw&oe=69465835)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480737482_657839683420653_3915350552174156915_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=lUJgPuHifWEQ7kNvwEo1MsD&_nc_oc=AdkWzMhltbKFt2yHQcNYk8g4h5aujYMNPiUKJ6XH7ORwI3n8FT2BS24RrKce4YnmRAc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfkEtTIDPa1Ho_kGrHvWYhLZFCk5PbgAdLMYJj8Rd5X_nw&oe=694BD675)
 
 is the angle between the two vectors.
 
@@ -2489,7 +2489,7 @@ Common uses for dot product include:
 
 The diagram below shows the “projection of `v` only `w`” as the orange arrow; it’s like the “shadow” of `v` on `w`.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=0h59BzuEzE8Q7kNvwGNxpIy&_nc_oc=Adl6GbzGomKzJtIuf8wvodrJvjV8fr3erJ01hdUjDzFlCktkwZZZ8gVzpRPbIQPaDzw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfgD25edS3LuZ-HZPtF91A92432cRUu85IlP1-pJALYIQg&oe=694630CA)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=eor5vc1P2ykQ7kNvwHX3IIB&_nc_oc=AdlqrF_GNer_ZwnZWIMQs08jln1eoWQXbe-cW-YUmU9O7wXXfA7JIzj7mYdy5hxWOb0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfkUbCW7t_lAKjeH1Q-xFkKw38zwrfZeLaJcy-1YohHEsQ&oe=694BE74A)
 
 ##### Cross Product
 
@@ -2527,11 +2527,11 @@ Vec3.cross(right, up, result)  // Stores result in existing vector
 
 Vector reflection, via `v.reflect(n)`, calculates how a vector bounces off a surface. Given a vector `n`, it acts like that vector is pointing directly out from a surface. Then it takes the `v` and gives the direction after `v` “bounces” off the surface.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481015041_656797593524862_7262592726504005854_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=tzXbA77OH3QQ7kNvwEJMI-Z&_nc_oc=Adli55beNaRtKGB1aMPSOM4yNJUz99XnvA8PlamC5daqJ_UqUY9t4D6Y0-sMYgVeBVk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfglWl3s85hO-p6p2rRy6iz1W-oZMwwRK7QVtgTaJ-OfSg&oe=694636D1)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481015041_656797593524862_7262592726504005854_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=JgTi8H9qB4MQ7kNvwHbrL6s&_nc_oc=AdneK6t2TIWl4JxljdYjjADmQRa9NxmcZcDE7cSPLEPXTvZfKhcx__LNPsnVNO0gODU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfmgT7Kvi84TphyQarVy3dvf-2kG3ljV2vTzVeGUcnGFVw&oe=694BB511)
 
 Vector reflection is most often used for:
 
-* [Collision](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events) calculations
+* [Collision](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) calculations
 * Physics simulations
 * Ray calculations
 
@@ -2558,9 +2558,9 @@ const atEnd = Vec3.lerp(start, end, 1.0)      // (10, 0, 0)
 
 #### Color
 
-The `Color` class contains an RGB (red, green, blue) color with each component between 0 and 1. The class allows color space conversion (from [HSV](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#color-space-conversions-hsv)), [hex colors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#hex-colors), and [operations](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#color-operations) that can be used for effects such as [blending and filtering](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#color-blending).
+The `Color` class contains an RGB (red, green, blue) color with each component between 0 and 1. The class allows color space conversion (from [HSV](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#color-space-conversions-hsv)), [hex colors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#hex-colors), and [operations](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#color-operations) that can be used for effects such as [blending and filtering](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#color-blending).
 
-**No alpha**: The `Color` class does not have an `alpha` component (transparency). It is possible to use alpha with [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#uinode-types) and with [meshes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-model-import) but those alpha values are *not* part of the `Color` class.
+**No alpha**: The `Color` class does not have an `alpha` component (transparency). It is possible to use alpha with [Custom UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#uinode-types) and with [meshes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-model-import) but those alpha values are *not* part of the `Color` class.
 
 ##### Creation
 
@@ -2595,7 +2595,7 @@ The `fromHex` method only supports 6-digit colors which must be preceded by the 
 
 ##### Color Operations
 
-`Color` has the `equals(other: Color)` and `equalsApprox(other: Color, epsilon?: number)` methods from [`Comparable<T>`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#comparable-interface), and their `static` counterparts. It also has `copy(other)` and `clone()`[methods](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#copying-vs-mutating-methods).
+`Color` has the `equals(other: Color)` and `equalsApprox(other: Color, epsilon?: number)` methods from [`Comparable<T>`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface), and their `static` counterparts. It also has `copy(other)` and `clone()`[methods](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods).
 
 Colors support several common operations which have both copying and mutating versions:
 
@@ -2717,7 +2717,7 @@ Do not use `Quaternion.zero` when you mean “a rotation of 0 degrees”. It tur
 
 Don't `new` a `Quaternion`, unless you know the math!
 
-`Quaternion`s are complex beasts. You can’t just pass any 4 values into the constructor (you might not even get a valid rotation). Instead always create a rotation from [euler angles](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#euler-angles), [axis and angle](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#axis-and-angle), or a [look rotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#look-rotation).
+`Quaternion`s are complex beasts. You can’t just pass any 4 values into the constructor (you might not even get a valid rotation). Instead always create a rotation from [euler angles](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#euler-angles), [axis and angle](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#axis-and-angle), or a [look rotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#look-rotation).
 
 ##### Quaternion Properties
 
@@ -2728,7 +2728,7 @@ Don't `new` a `Quaternion`, unless you know the math!
 
 ##### Quaternion Operations
 
-`Quaternion` has the `equals(other: Quaternion)` and `equalsApprox(other: Quaternion, epsilon?: number)` methods from [`Comparable<T>`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#comparable-interface), and their `static` counterparts. It also has `copy(other)` and `clone()`[methods](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#copying-vs-mutating-methods). Note that quaternion equality is special: two quaternions are considered equal if their components are equal OR if the negation of their components are equal, since both represent the same rotation. Only every compare with the methods above.
+`Quaternion` has the `equals(other: Quaternion)` and `equalsApprox(other: Quaternion, epsilon?: number)` methods from [`Comparable<T>`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface), and their `static` counterparts. It also has `copy(other)` and `clone()`[methods](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods). Note that quaternion equality is special: two quaternions are considered equal if their components are equal OR if the negation of their components are equal, since both represent the same rotation. Only every compare with the methods above.
 
 `Quaternion`s support several common operations which have both copying and mutating versions:
 
@@ -2765,7 +2765,7 @@ The following table assumes that `q`, `r`, and `out` are `Quaternion`s; `v` and 
 | Normalization | `r = q.normalize()` `q.normalizeInPlace()`  `Quaternion.normalize(q, out)` | Ensures the quaternion has unit length. *If it doesn’t have unit length then it isn’t a valid rotation!* |
 | Conjugate | `r = q.conjugate()` `q.conjugateInPlace()`  `Quaternion.conjugate(q, out)` | Negates the x, y, and z components. For unit quaternions, this is the same as `inverse`. |
 | Vector Rotation | `w = Quaternion.mulVec3(q, v)` | Rotates a `v` by `q`, producing a new `Vec3`. |
-| Interpolation | `Quaternion.slerp(q, p, t, out)` | Smoothly interpolates between two rotations via [Spherical Linear Interpolation (Slerp)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spherical-linear-interpolation-slerp) |
+| Interpolation | `Quaternion.slerp(q, p, t, out)` | Smoothly interpolates between two rotations via [Spherical Linear Interpolation (Slerp)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spherical-linear-interpolation-slerp) |
 | Vector Quaternion | `q = Quaternion.fromVec3(v)` | Create a quaternion with values `(v.x, v.y, v.z, 0)`. Note that this will likely not be a valid rotation and is only useful for advanced math techniques. |
 
 ##### Euler Angles
@@ -2842,7 +2842,7 @@ This is commonly used to:
 
 ##### Spherical Linear Interpolation (Slerp)
 
-Similar to [lerp](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vector-linear-interpolation-lerp), **Slerp** (Spherical Lerp) provides smooth interpolation between two quaternion rotations. Like vector lerp, it takes a blend value between 0 and 1:
+Similar to [lerp](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vector-linear-interpolation-lerp), **Slerp** (Spherical Lerp) provides smooth interpolation between two quaternion rotations. Like vector lerp, it takes a blend value between 0 and 1:
 
 ```
 const start = Quaternion.fromEuler(new Vec3(0, 0, 0))
@@ -2855,61 +2855,61 @@ const complete = Quaternion.slerp(start, end, 1.0)   // 90 degree rot
 
 ### World Class
 
-The `World` class represents the currently running [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) and the [world](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#worlds)’s [persistent data](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistence).
+The `World` class represents the currently running [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) and the [world](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#worlds)’s [persistent data](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistence).
 
 | `World` Class Member | Description |
 | --- | --- |
 | **System Events** |  |
-| `static onUpdate` | The built-in [LocalEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) for subscribing to the [on-update frame event](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate). |
-| `static onPrePhysicsUpdate` | The built-in [LocalEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) for subscribing to the [pre-physics frame event](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate). |
+| `static onUpdate` | The built-in [LocalEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) for subscribing to the [on-update frame event](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate). |
+| `static onPrePhysicsUpdate` | The built-in [LocalEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) for subscribing to the [pre-physics frame event](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate). |
 | **Instance Management** |  |
-| `reset` | [Reset the instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#starting-stopping-and-resetting-an-instance). |
-| `matchmaking` | Manage the instance’s [open setting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#open-closed-and-private-instances-matchmaking). |
+| `reset` | [Reset the instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#starting-stopping-and-resetting-an-instance). |
+| `matchmaking` | Manage the instance’s [open setting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#open-closed-and-private-instances-matchmaking). |
 | **Instance Players** |  |
-| `getPlayerFromIndex` | Find which, if any, [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) has the given [index](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-indices). |
-| `getPlayers` | Get [all current players in the instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#listing-all-players). |
-| `getServerPlayer` | Get the [player representing the server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player). |
-| `getLocalPlayer` | Determine [which player’s client is running the current code](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). |
-| `ui` | Show a [popup or tooltip UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#showing-players-temporary-messages) to players. |
+| `getPlayerFromIndex` | Find which, if any, [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) has the given [index](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices). |
+| `getPlayers` | Get [all current players in the instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players). |
+| `getServerPlayer` | Get the [player representing the server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). |
+| `getLocalPlayer` | Determine [which player’s client is running the current code](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
+| `ui` | Show a [popup or tooltip UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#showing-players-temporary-messages) to players. |
 | **World Entities** |  |
-| `getEntitiesWithTags` | [Find entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags) in the instance. |
-| `spawnAsset` | [Spawn an asset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simple-spawning) into the instance. |
-| `deleteAsset` | [Delete spawned entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#despawning) from the instance. |
+| `getEntitiesWithTags` | [Find entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) in the instance. |
+| `spawnAsset` | [Spawn an asset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning) into the instance. |
+| `deleteAsset` | [Delete spawned entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) from the instance. |
 | **World Data** |  |
 | `id` | Get the unique id for this world. |
-| `leaderboards` | Manage player [leaderboard scores](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#leaderboards). |
-| `persistentStorage` | Manager [persistence (player saved data)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistence). |
+| `leaderboards` | Manage player [leaderboard scores](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards). |
+| `persistentStorage` | Manager [persistence (player saved data)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistence). |
 
 ### Components
 
-Components are the powerhouse of scripting in Horizon. They contain the logic and behaviors for [reacting to events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) in the world and making stuff happen in the world (such as [transforming entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transforms), activating [gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#all-gizmos-intrinsic-entity-types), and more).
+Components are the powerhouse of scripting in Horizon. They contain the logic and behaviors for [reacting to events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) in the world and making stuff happen in the world (such as [transforming entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transforms), activating [gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types), and more).
 
 The **primary steps for scripting** are:
 
-- Create a [new file](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-and-editing-scripts) (or add to an existing one)
-- Create a new [Component class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class)
-- [Attach the Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-components-to-entities) to an entity (or many entities)
-- Add [property definitions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties) that will appear in the Properties panel
-- Connect code to run when [system (or user) events occur](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events)
+- Create a [new file](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-and-editing-scripts) (or add to an existing one)
+- Create a new [Component class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+- [Attach the Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities) to an entity (or many entities)
+- Add [property definitions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) that will appear in the Properties panel
+- Connect code to run when [system (or user) events occur](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)
 
 The steps above are the “main path” but there are also many more parts of scripting:
 
-* [Sending events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sending-events)
-* [Creating timers and async code](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#async-delays-and-timers)
-* [Creating local scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts) and [transferring ownership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) for low-latency interactions
-* [Running code every frame](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate)
-* [Interacting with the physics system](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#applying-forces-and-torque)
-* [Rendering UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui)
-* [Creating popups (or tooltips)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#showing-players-temporary-messages)
-* [Spawning assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning)
-* [Tinting and modifying meshes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class)
-* [Managing NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo)
-* [Creating and updating persistence](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistence)
+* [Sending events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sending-events)
+* [Creating timers and async code](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers)
+* [Creating local scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) and [transferring ownership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) for low-latency interactions
+* [Running code every frame](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate)
+* [Interacting with the physics system](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)
+* [Rendering UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui)
+* [Creating popups (or tooltips)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#showing-players-temporary-messages)
+* [Spawning assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)
+* [Tinting and modifying meshes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)
+* [Managing NPCs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)
+* [Creating and updating persistence](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistence)
   and so much more!
 
 #### Component Class
 
-Scripting an entity requires [attaching a component to it](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-components-to-entities). Creating Components is the core of scripting. To create a component, you subclass `Component`, override the `start` method (code that runs when the entity [“awakens”](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle)), and [register the component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-components-to-entities). A minimal component looks like:
+Scripting an entity requires [attaching a component to it](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities). Creating Components is the core of scripting. To create a component, you subclass `Component`, override the `start` method (code that runs when the entity [“awakens”](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)), and [register the component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities). A minimal component looks like:
 
 ```
 class BasicComponent extends Component<typeof BasicComponent> {
@@ -2918,11 +2918,11 @@ class BasicComponent extends Component<typeof BasicComponent> {
 Component.register(BasicComponent)
 ```
 
-The most unusual part is the `<typeof BasicComponent>` part. You must always put the component’s class name within the angle brackets (`<>`) after `Component` (this is a trick Horizon uses for [component props](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties)).
+The most unusual part is the `<typeof BasicComponent>` part. You must always put the component’s class name within the angle brackets (`<>`) after `Component` (this is a trick Horizon uses for [component props](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties)).
 
 #### Attaching Components to Entities
 
-**Registering**: the code `Component.register(BasicComponent)` above must be called for every component subclass that you create. This call results in the component appearing in the **Attached Script** dropdown in the desktop editor. The component will appear with the format *filename:componentName*. So if the `BasicComponent` above is inside the TypeScript file `Demo` then the script will appear in the Attached Script dropdown as `Demo:BasicComponent`. This allows you to put **multiple components in a [file](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-file-execution)**.
+**Registering**: the code `Component.register(BasicComponent)` above must be called for every component subclass that you create. This call results in the component appearing in the **Attached Script** dropdown in the desktop editor. The component will appear with the format *filename:componentName*. So if the `BasicComponent` above is inside the TypeScript file `Demo` then the script will appear in the Attached Script dropdown as `Demo:BasicComponent`. This allows you to put **multiple components in a [file](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution)**.
 
 The `Component.register` method takes an optional second argument to override the name in the dropdown. So if the following line of code is in a file `Obstacles`:
 
@@ -2932,11 +2932,11 @@ Component.register(SpinningTurntableComponent, 'Spinner')
 
 then the class will appear in the Attached Script dropdown as *Obstacles:Spinner*. If you want to override the name in `Component.register`, only use letters, numbers, and underscore in the name.
 
-**Attaching**: once a component subclass is registered, you can click an entity in the desktop editor, open the Properties panel, and choose it from the Attached Script dropdown. That entity will now [run the code](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) in that component. Once you attach a script, the Properties panel will show all the component’s properties as editable fields. The next section explains how to add properties to a component.
+**Attaching**: once a component subclass is registered, you can click an entity in the desktop editor, open the Properties panel, and choose it from the Attached Script dropdown. That entity will now [run the code](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) in that component. Once you attach a script, the Properties panel will show all the component’s properties as editable fields. The next section explains how to add properties to a component.
 
 #### Component Properties
 
-Components can define properties that appear in the Properties panel by implementing the optional static method `propsDefinition`. When you [attach the component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-components-to-entities), these properties will be configurable in the UI and accessible via the component’s `props` field.
+Components can define properties that appear in the Properties panel by implementing the optional static method `propsDefinition`. When you [attach the component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities), these properties will be configurable in the UI and accessible via the component’s `props` field.
 
 #### Component Properties Example
 
@@ -2967,7 +2967,7 @@ The static `propsDefinition` object defines your properties. Each property needs
 
 * A *key* that will become the property name in `this.props`
 * An *object* value containing:
-  + `type`: *Required*. a value from [PropTypes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#proptypes) (note that not all kinds of `PropTypes` are useful in a `propsDefinition`; see the limitations below).
+  + `type`: *Required*. a value from [PropTypes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes) (note that not all kinds of `PropTypes` are useful in a `propsDefinition`; see the limitations below).
   + `default`: *Optional*. Initial value for the property in the Properties panel.
 
 | `PropTypes` Value | Results In | Default Value | Notes |
@@ -2978,7 +2978,7 @@ The static `propsDefinition` object defines your properties. Each property needs
 | `Vec3` | `Vec3` | `(0, 0, 0)` | - |
 | `Color` | `Color` | `(0, 0, 0)` Black | RGB values between 0 and 1. |
 | `Entity` | `Entity \| null` | `null` | Cannot specify default |
-| `Quaternion` | `Quaternion` | `(0, 0, 0)` | Properties panel value is edited as [YXZ Euler angles](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#euler-angles) |
+| `Quaternion` | `Quaternion` | `(0, 0, 0)` | Properties panel value is edited as [YXZ Euler angles](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#euler-angles) |
 | `Asset` | `Asset \| null` | `null` | Cannot specify default |
 
 Be aware of these important Type Distinctions:
@@ -2989,7 +2989,7 @@ Entity is a type used in code like:
 const e: Entity = ...
 ```
 
-While `PropTypes.Entity` is data used in `propsDefinition` or [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events).
+While `PropTypes.Entity` is data used in `propsDefinition` or [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events).
 
 No Type Checking
 
@@ -3015,43 +3015,43 @@ No Type Checking
 
 #### Component Lifecycle
 
-Components follow a strict, sequential lifecycle with 3 key parts. All components are **prepared** and then all are **started** (this is useful for [event subscriptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events)). Then all components are “active”, running in the world. If, or when, the editor stops, the component’s entity [despawns](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#despawning), or the component’s entity [prepares to change owner](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) then they are **torn down**.
+Components follow a strict, sequential lifecycle with 3 key parts. All components are **prepared** and then all are **started** (this is useful for [event subscriptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)). Then all components are “active”, running in the world. If, or when, the editor stops, the component’s entity [despawns](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#despawning), or the component’s entity [prepares to change owner](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) then they are **torn down**.
 
-Likewise, when a group of entities are [spawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning), all them are prepared; then, all of them are started.
+Likewise, when a group of entities are [spawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), all them are prepared; then, all of them are started.
 
-- **Preparation** - When components are created (via instance start, [spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning), or [after an ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer)):
+- **Preparation** - When components are created (via instance start, [spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), or [after an ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer)):
   * Component allocation occurs
   * Constructor executes
   * Property initializers run
-  * `initializeUI()` executes ([UIComponents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#uicomponent-class) only)
+  * `initializeUI()` executes ([UIComponents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#uicomponent-class) only)
   * `preStart()` executes
 - **Start** - After preparation:
   * `start()` executes
   * `receiveOwnership()` executes (only during ownership transfers)
   * Component becomes “active” (begins processing events and timers)
-- **Teardown** - When the editor stops, component [despawns](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#despawning), or an [before an ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer):
+- **Teardown** - When the editor stops, component [despawns](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#despawning), or an [before an ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer):
   * `transferOwnership()` executes (only during ownership transfers)
-  * Component is [disposed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#disposing-objects), meaning that `dispose()` executes and all callbacks registered with `registerDisposeOperation` run, except for the ones where the `DisposeOperationRegistration` was already [canceled or ran](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#disposing-objects).
+  * Component is [disposed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects), meaning that `dispose()` executes and all callbacks registered with `registerDisposeOperation` run, except for the ones where the `DisposeOperationRegistration` was already [canceled or ran](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects).
   * All [async timeouts and intervals] created with the component are canceled.
-  * All [event subscriptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) created with the component are [disconnected](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events).
+  * All [event subscriptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) created with the component are [disconnected](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events).
 
 Initializing a collection of Components
 
-When a set of components need to be initialized, **all are prepared before any are started**. This is important for [connecting to receive events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events).
+When a set of components need to be initialized, **all are prepared before any are started**. This is important for [connecting to receive events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events).
 
 This is true for:
 
 * all components at the start of the instance
-* all components in a group of [spawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) entities
-* all components [changing owner](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) at the same time
+* all components in a group of [spawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) entities
+* all components [changing owner](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) at the same time
 
-The diagram below shows the full lifecycle of a component. All green rectangle boxes are TypeScript code executing during the [Script Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase). The [full breakdown a frame](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence) gives another view into when all these actions occur and the [ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) section explains how a “move” is implemented as one component *tearing down* and then a new one *preparing and starting*.
+The diagram below shows the full lifecycle of a component. All green rectangle boxes are TypeScript code executing during the [Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase). The [full breakdown a frame](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) gives another view into when all these actions occur and the [ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) section explains how a “move” is implemented as one component *tearing down* and then a new one *preparing and starting*.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480610569_656797566858198_2645415609124319419_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=hr1qb8UEkqgQ7kNvwHu99M-&_nc_oc=AdlgtRqcQMFZeEk-cdO0wfE_GGZaiqs1ckBp793eUr_-5RzRu1N7cGyfq2dBCQG8vOg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfgJipfaBJb-8Z1XQ90aUHKMqlJkkLP2qFSn6IP_kqeP-Q&oe=694649E9)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480610569_656797566858198_2645415609124319419_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=qW4MfCyCk5MQ7kNvwH18IsN&_nc_oc=AdlvMGDoC3OA1NsxuYaEl5ZC2UrMv9DLIrXuHVMr6THAIznMFQ6xqxR2ntJa5ftGrII&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_Afn5DmSl51n-2HpAPHs7T5xFg3xp1Orp2y9jT271rGfY0Q&oe=694BC829)
 
 Connect to events in `preStart`. Send events in `start`.
 
-Do *not* connect in `start`. Do *not* send in `preStart`. See the explanation in the [events section](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) for a detailed. explanation.
+Do *not* connect in `start`. Do *not* send in `preStart`. See the explanation in the [events section](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) for a detailed. explanation.
 
 Please note that Property initializers run before `props` are available.
 
@@ -3088,7 +3088,7 @@ There are two ways to delay code (to run it later):
 
 Canceling a timeout or an interval is called **clear**ing it. These naming conventions are consistent with standard JavaScript.
 
-[Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#components) instances have a member `async` that provides access to functions for creating async code. For example if you have a `component` you might write:
+[Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#components) instances have a member `async` that provides access to functions for creating async code. For example if you have a `component` you might write:
 
 ```
 component.async.setTimeout(() => console.log('ready!'), 1000 /* ms */)
@@ -3103,19 +3103,19 @@ to execute the given `console.log(...)` after 1000 milliseconds(1 second). The f
 | `setInterval(`  `callback: TimerHandler,`</nobr>  `timeout?: number,`</nobr>  `...args: unknown[]`</nobr> `) => number` | Schedule the `callback` to fire after `timeout` milliseconds (and then again after the same delay, and again, and so on). If `args` are provided then they will be passed into `callback` every time that it is called. `setInterval` returns an `id` that can be passed to `clearInterval` to cancel running `callback` (so that it doesn’t run any more times). If `timeout` is omitted it will be treated as 0 (see below). |
 | `clearInterval(`  `id: number` `) => void` | Cancel the interval with the given `id` (it will not run any more times). |
 
-**Component disposal**: the `id`s returned from `setTimeout` and `setInterval` are automatically registered with the component’s [disposal](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#disposing-objects) to be cleared. Thus if you write:
+**Component disposal**: the `id`s returned from `setTimeout` and `setInterval` are automatically registered with the component’s [disposal](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects) to be cleared. Thus if you write:
 
 ```
 component.async.setInterval(() => console.log('hi!'), 1000 /* ms */)
 ```
 
-then if, or when, `component` is [torn down](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle), the interval will be automatically canceled.
+then if, or when, `component` is [torn down](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle), the interval will be automatically canceled.
 
-**Synchronization phase**: the callbacks passed to `setTimeout` and `setInterval` are executed in the [Synchronization Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase) when async callbacks are checked for readiness.
+**Synchronization phase**: the callbacks passed to `setTimeout` and `setInterval` are executed in the [Synchronization Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) when async callbacks are checked for readiness.
 
 Timeouts and Intervals are not precisely timing. They make a 'best attempt' at the delay (but may wait slightly \*longer\*).
 
-The methods above are not precise in when the callback runs. They will wait at least as long as the requested `timeout` value and then run at *the next convenient time* after that. So, for example, if you create a `timeout` with a 0 millisecond delay, it won’t run immediately; it will run “super soon” (likely during the next [Synchronization Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase)). If you create an interval with a timeout of 0 milliseconds, it may only run it a few times (or even just once) every frame, to prevent hurting perf.
+The methods above are not precise in when the callback runs. They will wait at least as long as the requested `timeout` value and then run at *the next convenient time* after that. So, for example, if you create a `timeout` with a 0 millisecond delay, it won’t run immediately; it will run “super soon” (likely during the next [Synchronization Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)). If you create an interval with a timeout of 0 milliseconds, it may only run it a few times (or even just once) every frame, to prevent hurting perf.
 
 Use underscores to make numbers more readable.
 
@@ -3123,14 +3123,14 @@ JavaScript (and therefore TypeScript) allows underscores to be inserted into num
 
 #### Run Every Frame (PrePhysics and OnUpdate)
 
-[Async intervals](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#async-delays-and-timers) are not effective for **running code every frame** because they are difficult to align the timing of (due to being [imprecise](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#async-delays-and-timers)).
+[Async intervals](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers) are not effective for **running code every frame** because they are difficult to align the timing of (due to being [imprecise](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers)).
 
-The [World](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class) has two static members exposing [Local Events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) that are [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events) every frame (to all [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server)):
+The [World](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) has two static members exposing [Local Events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) that are [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) every frame (to all [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)):
 
 | `World` class `static` member | Type | Description |
 | --- | --- | --- |
-| `onPrePhysicsUpdate` | `LocalEvent<{deltaTime: number}>` | A built-in [local event](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) that is [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events) every frame **[before physics runs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase)** to all clients [device and server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). |
-| `onUpdate` | `LocalEvent<{deltaTime: number}>` | A built-in [local event](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) that is [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events) every frame **[after physics runs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase)** to all clients [device and server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). |
+| `onPrePhysicsUpdate` | `LocalEvent<{deltaTime: number}>` | A built-in [local event](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) that is [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) every frame **[before physics runs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)** to all clients [device and server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
+| `onUpdate` | `LocalEvent<{deltaTime: number}>` | A built-in [local event](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) that is [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) every frame **[after physics runs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)** to all clients [device and server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
 
 ```
 const subscription = component.connectLocalBroadcastEvent(
@@ -3142,13 +3142,13 @@ const subscription = component.connectLocalBroadcastEvent(
 )
 ```
 
-Callbacks registered with `onPrePhysicsUpdate` run before physics computations occur in the frame. Callbacks registered with `onUpdate` run after physics computations. **onUpdate is usually what you need**. See the description of [prePhysics vs onUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#prephysics-vs-onupdate-events) for more information. Note that [onPrePhysicsUpdate is only useful for *players* (not entities)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#prephysics-vs-onupdate-events).
+Callbacks registered with `onPrePhysicsUpdate` run before physics computations occur in the frame. Callbacks registered with `onUpdate` run after physics computations. **onUpdate is usually what you need**. See the description of [prePhysics vs onUpdate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events) for more information. Note that [onPrePhysicsUpdate is only useful for *players* (not entities)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events).
 
-The callback provides a single argument of type `{deltaTime: number}` which contains the amount of time that has passed since the event was last broadcast. See the section on [receiving events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) to learn about `connectLocalBroadcastEvent` and the `EventSubscription` that it returns.
+The callback provides a single argument of type `{deltaTime: number}` which contains the amount of time that has passed since the event was last broadcast. See the section on [receiving events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) to learn about `connectLocalBroadcastEvent` and the `EventSubscription` that it returns.
 
 #### BuiltInVariableType
 
-`BuiltInVariableType` represent “primitive Horizon data”. It is used in [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events) and [defining props with PropTypes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties). The different types in `BuiltInVariableType` are available as a TypeScript object in [PropTypes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#proptypes).
+`BuiltInVariableType` represent “primitive Horizon data”. It is used in [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) and [defining props with PropTypes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties). The different types in `BuiltInVariableType` are available as a TypeScript object in [PropTypes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes).
 
 ```
 type BuiltInVariableType =
@@ -3165,7 +3165,7 @@ type BuiltInVariableType =
 
 #### PropTypes
 
-`PropTypes` is an enum representing all the same values in [BuiltInVariableType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#builtinvariabletype). `PropTypes` is used in creating the [component propsDefinition](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties) and in creating [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events).
+`PropTypes` is an enum representing all the same values in [BuiltInVariableType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype). `PropTypes` is used in creating the [component propsDefinition](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) and in creating [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events).
 
 ```
 const PropTypes = {
@@ -3192,7 +3192,7 @@ const PropTypes = {
 
 #### SerializableState
 
-`SerializableState` represents the type of data that can be packaged up to be **sent over the network**. It is used in [NetworkEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events) and [ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transferring-data-across-owners).
+`SerializableState` represents the type of data that can be packaged up to be **sent over the network**. It is used in [NetworkEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) and [ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners).
 
 ```
 type SerializableState =
@@ -3208,29 +3208,29 @@ type PersistentSerializableStateNode =
 type TransientSerializableStateNode = Player;
 ```
 
-`PersistentSerializableState` is data that can be packaged up to store in [persistent data](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistence). It is the same as `SerializableState`*except* that it *does not include Player* (since player instances are [ephemeral to the instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-id)).
+`PersistentSerializableState` is data that can be packaged up to store in [persistent data](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistence). It is the same as `SerializableState`*except* that it *does not include Player* (since player instances are [ephemeral to the instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-id)).
 
 ### Communication Between Components
 
-The primary way in which components communicate with one another, and react to occurrences in the world, is by **sending** and **receiving** events through entities (or [through players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#routing-events-through-players)). If two components are running on the same [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) then you can have them [interact directly without using events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#converting-between-components-and-entities).
+The primary way in which components communicate with one another, and react to occurrences in the world, is by **sending** and **receiving** events through entities (or [through players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#routing-events-through-players)). If two components are running on the same [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) then you can have them [interact directly without using events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#converting-between-components-and-entities).
 
-There are multiple kinds of events with different purposes. Event listeners are usually [connected](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) in `preStart`. Events can be [sent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) at any time.
+There are multiple kinds of events with different purposes. Event listeners are usually [connected](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) in `preStart`. Events can be [sent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) at any time.
 
-`LocalEvent`s and `NetworkEvent`s can be sent to specific entities or be [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events) to all listeners in the world. Many “system actions” (such as [players entering the world](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), an [entity being grabbed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events), a [collision occurring](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events), etc) are sent as [built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events); there [are many built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#all-built-in-codeblockevents).
+`LocalEvent`s and `NetworkEvent`s can be sent to specific entities or be [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) to all listeners in the world. Many “system actions” (such as [players entering the world](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), an [entity being grabbed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events), a [collision occurring](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events), etc) are sent as [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events); there [are many built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#all-built-in-codeblockevents).
 
 All event types can be instantiated with **custom user-made types** by simply calling `new` on the event type and making one. When creating custom events, export them so that you can create them once and share them across files. If you keep instantiating the same event repeatedly across your code, you are likely to make an error (and make refactors more difficult).
 
 | Event | Purpose | Timing | Payload |
 | --- | --- | --- | --- |
-| **CodeBlockEvent** | Listen to [built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events). Communicate with [Codeblock scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting). | *Asynchronously* run in the next [Script Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase) if sent to the [same client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). Otherwise, it runs after a network trip on the receiving [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). | Tuple of [BuiltInVariableType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#builtinvariabletype)s. |
-| **LocalEvent** | Communicate with a TypeScript scripted entity on the [same client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). Supports [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events). | Delivered *synchronously* (immediately). | *Anything* |
-| **NetworkEvent** | Communicate with a TypeScript scripted entity on [any client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). Supports [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events). | *Asynchronously* run in the next [Script Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase) if sent to the [same client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). Otherwise, it runs after a network trip on the receiving [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) | [SerializableState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#serializablestate) |
+| **CodeBlockEvent** | Listen to [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events). Communicate with [Codeblock scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting). | *Asynchronously* run in the next [Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) if sent to the [same client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Otherwise, it runs after a network trip on the receiving [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). | Tuple of [BuiltInVariableType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype)s. |
+| **LocalEvent** | Communicate with a TypeScript scripted entity on the [same client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Supports [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events). | Delivered *synchronously* (immediately). | *Anything* |
+| **NetworkEvent** | Communicate with a TypeScript scripted entity on [any client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Supports [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events). | *Asynchronously* run in the next [Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) if sent to the [same client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Otherwise, it runs after a network trip on the receiving [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) | [SerializableState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate) |
 
-**When to use each event type**: you should always try to use a [LocalEvent] or direct method call, and you need to cross a [network](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network) then use a [NetworkEvent]. Use [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events) when listening to [certain built-in events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) or when communicating with [Codeblock scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting).
+**When to use each event type**: you should always try to use a [LocalEvent] or direct method call, and you need to cross a [network](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network) then use a [NetworkEvent]. Use [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) when listening to [certain built-in events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) or when communicating with [Codeblock scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting).
 
 Here’s a flowchart that may help:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480762485_656797583524863_6769530497988193685_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=U1eqj0gZp5EQ7kNvwGv9CBx&_nc_oc=AdnCESOoU4j68LDZT5jU1MMoMfG89yInFLGswkK8OV5EPZs30As2igPKQDdFVgfVcD0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfgR2CJxEBZWJlNxm9eED70gkXO0X4qqNyPq1kKTA4v3yA&oe=69465347)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480762485_656797583524863_6769530497988193685_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=VqWW5kYbLlwQ7kNvwHntawg&_nc_oc=AdkzuxiU5s89cNygSt76vzD64RWX7ll_xdNtg7qGa5iD4NgYe3S7_fKwDsqRVOaOqrw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_Aflm69BYxAr326XaY1sBMro3iH7bmF_by811vnUk-GZ07Q&oe=694BD187)
 
 #### Receiving Events
 
@@ -3242,15 +3242,15 @@ const subscription = component.connectLocalEvent(
 )
 ```
 
-which will result in `callback` being run every time `event` is sent to `entity` (if `entity` has the same owner as `component.owner`, since the line above used a *local* event).When using [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events), there is no specified entity to listen to.
+which will result in `callback` being run every time `event` is sent to `entity` (if `entity` has the same owner as `component.owner`, since the line above used a *local* event).When using [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events), there is no specified entity to listen to.
 
 ```
 component.connectLocalBroadcastEvent(event, callback)
 ```
 
-Many “system actions” are communicated by sending [built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) to entities. There are also some [built-in local-events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-local-events).
+Many “system actions” are communicated by sending [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) to entities. There are also some [built-in local-events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events).
 
-You can also connect to [events sent to players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#routing-events-through-players).
+You can also connect to [events sent to players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#routing-events-through-players).
 
 **Disconnecting Events**: All `connect...` events return an `EventSubscription`, a type with a single `disconnect(): void` method. Calling
 
@@ -3274,7 +3274,7 @@ If an event callbacks runs for a long time it will “stall” all script execut
 
 #### Sending Events
 
-There are many events sent by the system ([built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) and [built-in local-events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-local-events)). You can also `new` your own events and then send and receive them as well.
+There are many events sent by the system ([built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) and [built-in local-events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events)). You can also `new` your own events and then send and receive them as well.
 
 To send an event you simply use the `Component``send...` method matching the event type:
 
@@ -3288,19 +3288,19 @@ The `data` will then be passed into any callback that are connected to that even
 component.sendNetworkBroadcastEvent(networkEvent, data)
 ```
 
-You can also [send events to players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#routing-events-through-players).
+You can also [send events to players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#routing-events-through-players).
 
 **Cannot Cancel**: once an event is sent there is no way to revoke it.
 
 #### Routing Events through Players
 
-The (non-[broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events)) `connect...` and `send...` methods on [Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class) allow either an [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) or a [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) for the `target` argument.
+The (non-[broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events)) `connect...` and `send...` methods on [Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) allow either an [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) or a [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) for the `target` argument.
 
 Routing events through players follows the same rules as entities.
 
-The example below shows a script that has [props](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties) for a [trigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) and an index. It [listens to](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) the [OnPlayerEnterTrigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) event to know when a player enters the trigger. When one does, a network event is sent **to the player** to announce that they were “captured” by the trigger with the given index. Anyone listening to the `playerCaptured` event on that player will receive the event.
+The example below shows a script that has [props](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) for a [trigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) and an index. It [listens to](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) the [OnPlayerEnterTrigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) event to know when a player enters the trigger. When one does, a network event is sent **to the player** to announce that they were “captured” by the trigger with the given index. Anyone listening to the `playerCaptured` event on that player will receive the event.
 
-Note that the `playerCaptured` event is `export`ed from the file so that other scripts can listen to it. Also, this particular example could have also been achieved with a [broadcast event](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events).
+Note that the `playerCaptured` event is `export`ed from the file so that other scripts can listen to it. Also, this particular example could have also been achieved with a [broadcast event](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events).
 
 ```
 import {
@@ -3339,7 +3339,7 @@ Component.register(TriggerCaptureComponent)
 
 #### Code Block Events
 
-`CodeBlockEvent`s are a **legacy event type** used for listening to [built-in events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) and for communicating with [Codeblock scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting). **Do not create custom `CodeBlockEvent`s** as they can conflict with built-in events and cause unexpected behavior (unless you are communicating with [Codeblock scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting), then you *must* use `CodeBlockEvent`s).
+`CodeBlockEvent`s are a **legacy event type** used for listening to [built-in events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) and for communicating with [Codeblock scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting). **Do not create custom `CodeBlockEvent`s** as they can conflict with built-in events and cause unexpected behavior (unless you are communicating with [Codeblock scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting), then you *must* use `CodeBlockEvent`s).
 
 **Creation**:
 
@@ -3353,7 +3353,7 @@ const cbEvent = new CodeBlockEvent<[food: string, count: number]>(
 A `CodeBlockEvent` requires:
 
 * A name string (e.g. `'registerGroceries'`)
-* A tuple of parameter types passing in as [PropTypes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#proptypes) and as generics (in the `<...>`)
+* A tuple of parameter types passing in as [PropTypes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes) and as generics (in the `<...>`)
 
 Usage example (where the event is sent to the component’s entity):
 
@@ -3383,24 +3383,24 @@ Component.register(ExampleComponent)
 
 **Properties**:
 
-* **Client Support**: Can be sent and received across [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server), meaning that you can send to an entity with a different owner than the sender, and likewise connect to an entity with a different owner than the connector. One exception: [built-in broadcast CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events)*cannot* be received on a different client than the event is emitted on.
-* **Execution**: Runs in the next [Script Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase) after receipt (which maybe be on a different client after a “network trip”)
-* **Data Format**: Requires a tuple of [BuiltInVariableType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#builtinvariabletype)s
+* **Client Support**: Can be sent and received across [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), meaning that you can send to an entity with a different owner than the sender, and likewise connect to an entity with a different owner than the connector. One exception: [built-in broadcast CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events)*cannot* be received on a different client than the event is emitted on.
+* **Execution**: Runs in the next [Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase) after receipt (which maybe be on a different client after a “network trip”)
+* **Data Format**: Requires a tuple of [BuiltInVariableType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype)s
 * **Event Disambiguation**: System checks both name and parameterTypes before executing listeners
 
 CodeBlockEvents have a per-frame limit.
 
-If `sendCodeBlockEvent` is called, including for [built-in events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events), 2048 times or more in a frame, then an error is thrown, disrupting [event execution for the frame](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase).
+If `sendCodeBlockEvent` is called, including for [built-in events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events), 2048 times or more in a frame, then an error is thrown, disrupting [event execution for the frame](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase).
 
 ##### Built-In Code Block Events
 
-The system uses `CodeBlockEvent`s for many built-in actions. For example, when an [entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) enters a [trigger zone](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) with matching [tags](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags), the system sends `CodeBlockEvents.onEntityEnterTrigger` to the trigger. See the [list of built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#all-built-in-codeblockevents) for more info.
+The system uses `CodeBlockEvent`s for many built-in actions. For example, when an [entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) enters a [trigger zone](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) with matching [tags](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags), the system sends `CodeBlockEvents.onEntityEnterTrigger` to the trigger. See the [list of built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#all-built-in-codeblockevents) for more info.
 
 ###### Built in broadcasted code block events
 
-**Broadcast `CodeBlockEvents`**: some built-in `CodeBlockEvent`s are “broadcast” meaning that you can *listen to any entity to receive them* (as long the receiver is executing on the same [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) the event is emitted on). The [list built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#all-built-in-codeblockevents) includes information on which ones are *broadcast*. Throughout this document, 🔈 denotes a *server-broadcast*`CodeBlockEvent`; 🏠 denotes a *device-broadcast*`CodeBlockEvent`.
+**Broadcast `CodeBlockEvents`**: some built-in `CodeBlockEvent`s are “broadcast” meaning that you can *listen to any entity to receive them* (as long the receiver is executing on the same [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) the event is emitted on). The [list built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#all-built-in-codeblockevents) includes information on which ones are *broadcast*. Throughout this document, 🔈 denotes a *server-broadcast*`CodeBlockEvent`; 🏠 denotes a *device-broadcast*`CodeBlockEvent`.
 
-For example, to listen to `CodeBlockEvents.onPlayerEnterWorld`, you can listen to it on *any entity* (though it has to be [server-owned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership)). There is no way to *send* a broadcast event yourself.
+For example, to listen to `CodeBlockEvents.onPlayerEnterWorld`, you can listen to it on *any entity* (though it has to be [server-owned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership)). There is no way to *send* a broadcast event yourself.
 
 ```
 // on a Component
@@ -3413,21 +3413,21 @@ this.connectCodeBlockEvent(
 
 CodeBlockEvents are the only way for TypeScript and Codeblock scripts to communicate
 
-[Codeblock scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting) are unable to use either [LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) or [NetworkEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events), thus the only method of communication between them is via [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events).
+[Codeblock scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting) are unable to use either [LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) or [NetworkEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events), thus the only method of communication between them is via [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events).
 
 bug Sending a CodeBlockEvent with an Asset parameter to scripts with 'local' execution mode will throw a silent error.
 
-If you do try to send an Asset in a CodeBlockEvent from a script executing on the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) to one executing on a [player device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server), the server script execution will be silently killed at the point where you try to send the event. Recall that unless you are communicating with [Codeblock scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting), the **advice is to never use custom CodeBlockEvents**. Use [LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) and [NetworkEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events) for all your event sending and receiving.
+If you do try to send an Asset in a CodeBlockEvent from a script executing on the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to one executing on a [player device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), the server script execution will be silently killed at the point where you try to send the event. Recall that unless you are communicating with [Codeblock scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting), the **advice is to never use custom CodeBlockEvents**. Use [LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) and [NetworkEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) for all your event sending and receiving.
 
 Danger: A TypeScript connecting to an entity with an attached Codeblock scripts can lead to issues.
 
-Some times TypeScript and [Codeblock scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting) will “fight each other” when both listening to events from the same entity. It is a subtle bug that doesn’t appear in all cases. However we recommend: **do not have TypeScript and [Codeblock scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting) listen to events from the same entity**.
+Some times TypeScript and [Codeblock scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting) will “fight each other” when both listening to events from the same entity. It is a subtle bug that doesn’t appear in all cases. However we recommend: **do not have TypeScript and [Codeblock scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting) listen to events from the same entity**.
 
-Example: Imagine a [trigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) that has a [Codeblock script](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting) attached to it that listens to [trigger enter](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) on `self` (Codeblock’s version of `this.entity`). If you then have a TypeScript script also connect to the [trigger enter](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) event then it turns out that neither script will receive trigger events for that trigger.
+Example: Imagine a [trigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) that has a [Codeblock script](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting) attached to it that listens to [trigger enter](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) on `self` (Codeblock’s version of `this.entity`). If you then have a TypeScript script also connect to the [trigger enter](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) event then it turns out that neither script will receive trigger events for that trigger.
 
 #### Network Events
 
-`NetworkEvent`s are the **recommended alternative to `CodeBlockEvent`s** for communication between components with different [owners](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership).
+`NetworkEvent`s are the **recommended alternative to `CodeBlockEvent`s** for communication between components with different [owners](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership).
 
 **Creation**:
 
@@ -3469,9 +3469,9 @@ Component.register(ExampleComponent)
 
 **Properties**:
 
-* **Client Support**: Can be sent and received across [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server), meaning that you can send to an entity with a different owner than the sender, and likewise connect to an entity with a different owner than the connector.
-* **Execution**: Runs in the next [Script Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase) after receipt (which maybe be on a different client after a “network trip”)
-* **Data Format**: Accepts any [SerializableState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#serializablestate)
+* **Client Support**: Can be sent and received across [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), meaning that you can send to an entity with a different owner than the sender, and likewise connect to an entity with a different owner than the connector.
+* **Execution**: Runs in the next [Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase) after receipt (which maybe be on a different client after a “network trip”)
+* **Data Format**: Accepts any [SerializableState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)
 * **Event Disambiguation**: ⚠️ The system only checks the event name - use highly specific names to avoid conflicts between different `NetworkEvent`s!
 
 #### Local Events
@@ -3489,7 +3489,7 @@ const doorEvent = new LocalEvent<{open: boolean, date: Date}>(
 A `LocalEvent` requires:
 
 * An optional name string (useful for debugging)
-* A type parameter for payload; it can be any type whatsoever (since there is no network serialization). Note that the example above *cannot* be done with [NetworkEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events) because `Date` is not compatible with [SerializableState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#serializablestate).
+* A type parameter for payload; it can be any type whatsoever (since there is no network serialization). Note that the example above *cannot* be done with [NetworkEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) because `Date` is not compatible with [SerializableState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate).
 
 Usage example (where the event is sent to the component’s entity):
 
@@ -3520,8 +3520,8 @@ Component.register(ExampleComponent)
 
 **Properties**:
 
-* **Client Support**: Local only - events cannot cross [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) boundaries
-* **Execution**: Immediate synchronous execution on the [local client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server)
+* **Client Support**: Local only - events cannot cross [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) boundaries
+* **Execution**: Immediate synchronous execution on the [local client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)
 * **Data Format**: Accepts any arbitrary type as payload type
 * **Event Disambiguation**: Uses referential equality - no risk of name conflicts.
 
@@ -3545,20 +3545,20 @@ this.sendLocalEvent(entity, new LocalEvent('jump'), {})
 
 ##### Built-In Local Events
 
-There are currently two groups of built-in [LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events):
+There are currently two groups of built-in [LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events):
 
-* The [World](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class) class has static members [onPrePhysicsUpdate and onUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate) for running code every frame ([before and after physics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase), respectively). These are broadcast on all [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server).
-* The [PlayerControls](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls) class has static members for `onFocusedInteractionInputStarted`, `onFocusedInteractionInputMoved`, `onFocusedInteractionInputEnded`, and `onHolsteredItemsUpdated` which are all [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events) on the [player device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) that own the controls.
+* The [World](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) class has static members [onPrePhysicsUpdate and onUpdate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) for running code every frame ([before and after physics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase), respectively). These are broadcast on all [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
+* The [PlayerControls](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) class has static members for `onFocusedInteractionInputStarted`, `onFocusedInteractionInputMoved`, `onFocusedInteractionInputEnded`, and `onHolsteredItemsUpdated` which are all [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) on the [player device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that own the controls.
 
 #### Broadcast events
 
-[NetworkEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events) and [LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) both support broadcasting. Instead of [sending events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sending-events) to and [listening to events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) on a specific entity, you instead simply listen for the event being “broadcast”, and then any registered listener can receive it.
+[NetworkEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) and [LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) both support broadcasting. Instead of [sending events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sending-events) to and [listening to events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) on a specific entity, you instead simply listen for the event being “broadcast”, and then any registered listener can receive it.
 
-Note: events are simply [LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events), [NetworkEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events), or [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events). There is no special “broadcast event type”. Instead, broadcast refers to the way that events are sent and received.
+Note: events are simply [LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events), [NetworkEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events), or [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events). There is no special “broadcast event type”. Instead, broadcast refers to the way that events are sent and received.
 
 Be mindful not to overuse broadcast events.
 
-Broadcast events decouple senders from receivers without requiring specific entity or player targets. However, overuse can lead to performance issues when many listeners run unnecessarily to check if events are relevant to them. If this happens, consider either splitting the event into more specific events or [routing through entities or players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual##routing-events-through-players) instead.
+Broadcast events decouple senders from receivers without requiring specific entity or player targets. However, overuse can lead to performance issues when many listeners run unnecessarily to check if events are relevant to them. If this happens, consider either splitting the event into more specific events or [routing through entities or players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md##routing-events-through-players) instead.
 
 For example, if you create the following `LocalEvent`:
 
@@ -3572,39 +3572,39 @@ then you send it like this (there is no `entity` receiver arg)
 component.sendLocalBroadcastEvent(evt, {value: 10})
 ```
 
-and it will be received by all listeners on the same [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) (since it’s a local event). To register one of those listeners, do:
+and it will be received by all listeners on the same [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) (since it’s a local event). To register one of those listeners, do:
 then you can register to listen to it being sent from
 
 ```
 component.connectLocalBroadcastEvent(evt, callback)
 ```
 
-**[LocalEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) Broadcast**: `sendLocalBroadcastEvent` will synchronously (immediately) call all registered listeners on the same [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). The order that the callbacks are called in is undefined and should not be relied on. [There are some built-in LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-local-events) which are broadcasted.
+**[LocalEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) Broadcast**: `sendLocalBroadcastEvent` will synchronously (immediately) call all registered listeners on the same [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). The order that the callbacks are called in is undefined and should not be relied on. [There are some built-in LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) which are broadcasted.
 
-**[NetworkEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events) Broadcast**: `sendNetworkBroadcastEvent` is asynchronous (delayed). Any listeners on the same [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) will process the event in the next [Script Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase). Listeners on other clients will wait until they receive the event (over the network) and then will process the event in their next [Script Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase).
+**[NetworkEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) Broadcast**: `sendNetworkBroadcastEvent` is asynchronous (delayed). Any listeners on the same [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) will process the event in the next [Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase). Listeners on other clients will wait until they receive the event (over the network) and then will process the event in their next [Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase).
 
 NetworkEvent broadcast has an extra optional parameter for fine-grained control.
 
-The `sendNetworkBroadcastEvent` method takes an extra, optional, final parameter: `player?: Player[]` which allows you to limit which [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) the event is sent to. This allows for fine-grained optimization, but should ⚠️ only be used if you absolutely understand what you are doing.
+The `sendNetworkBroadcastEvent` method takes an extra, optional, final parameter: `player?: Player[]` which allows you to limit which [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) the event is sent to. This allows for fine-grained optimization, but should ⚠️ only be used if you absolutely understand what you are doing.
 
-**[CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events) Broadcast**: There are no methods for sending or receiving broadcast `CodeBlockEvent`s. However there are some [built-in CodeBlockEvents that can be connected to using *any entity*](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) and thus act kind of like a broadcast.
+**[CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) Broadcast**: There are no methods for sending or receiving broadcast `CodeBlockEvent`s. However there are some [built-in CodeBlockEvents that can be connected to using *any entity*](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) and thus act kind of like a broadcast.
 
-**Limit receiving players**: all `send...` methods (except for [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events)) take an additional optional final parameter: `players?: Player[]` which allows you to specify that the event will only be sent to those players’ [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). This is an *expert-level* feature; **only use it if you truly know what you are doing**.
+**Limit receiving players**: all `send...` methods (except for [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events)) take an additional optional final parameter: `players?: Player[]` which allows you to specify that the event will only be sent to those players’ [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). This is an *expert-level* feature; **only use it if you truly know what you are doing**.
 
 #### Converting Between Components and Entities
 
-When two components are running on the same [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) they can directly call one another’s functions (instead of going through [entities and the event system](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events)). There are 2 ways to “find [component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#components) instances on the [local client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server):
+When two components are running on the same [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) they can directly call one another’s functions (instead of going through [entities and the event system](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)). There are 2 ways to “find [component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#components) instances on the [local client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server):
 
 - **components attached to entities**: you can do `entity.getComponents()` to get all components on an entity. If only one component is attached to the entity then the array will have 1 element in it. You can also pass in a class `entity.getComponents(ExampleComponent)` to get an array of `ExampleComponent` instances attached to the entity (which, again, will be at most one).
-- **all component instances**: you can run `Component.getComponents(ExampleComponent)` to get an array of all instances of `ExampleComponent` on the [local client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server).
+- **all component instances**: you can run `Component.getComponents(ExampleComponent)` to get an array of all instances of `ExampleComponent` on the [local client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
 
 Danger: `getComponents` cannot be used until start.
 
-You cannot call `entity.getComponents(...)` or `Component.getComponents(...)` in a property initializer, `initializeUI`, or in `preStart`. This information isn’t ready until after the [prepare state](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) of component instantiation.
+You cannot call `entity.getComponents(...)` or `Component.getComponents(...)` in a property initializer, `initializeUI`, or in `preStart`. This information isn’t ready until after the [prepare state](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) of component instantiation.
 
 Calling a method on a component.
 
-In this example we find all `ListenerComponent`s in the [local client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) from within the `SpeakerComponent`. We are then able to directly access the `props` and the `hear` method on `ListenerComponent`.
+In this example we find all `ListenerComponent`s in the [local client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) from within the `SpeakerComponent`. We are then able to directly access the `props` and the `hear` method on `ListenerComponent`.
 
 ```
 import {Component, PropTypes} from 'horizon/core'
@@ -3640,7 +3640,7 @@ The `DisposableObject` interface represents a TypeScript object with a `dispose(
 
 Note
 
-Currently only [Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class) implements the `DisposableObject` interface.
+Currently only [Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) implements the `DisposableObject` interface.
 
 ```
 interface DisposableObject {
@@ -3665,51 +3665,51 @@ When you call `registerDisposeOperation` you get back a `DisposeOperationRegistr
 
 `PlayerControls` takes a `DisposableObject`
 
-In the [PlayerControls](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls) class, the static method `connectLocalInput` takes a `DisposableObject` object as an argument. The controls will be *unregistered* when the disposable object disposes.
+In the [PlayerControls](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) class, the static method `connectLocalInput` takes a `DisposableObject` object as an argument. The controls will be *unregistered* when the disposable object disposes.
 
 ### Frames
 
-Each [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) in an [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) runs a fixed set of actions repeatedly while the instance runs. The sequence of actions is called the **[frame sequence](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence)** and each run of the sequence is called one **frame**. The number of frames per second (fps) is called the [frame rate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-rate).
+Each [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) in an [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) runs a fixed set of actions repeatedly while the instance runs. The sequence of actions is called the **[frame sequence](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence)** and each run of the sequence is called one **frame**. The number of frames per second (fps) is called the [frame rate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-rate).
 
 #### Frame Rate
 
 The number of frames that occur per second is called the **frame rate** and is abbreviated “fps” for “frames per second”. The time it takes to run each frame is the *frame time* (the time per frame).
 
-[Clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) don’t all have the same frame rate! For example, the server (typically) runs at 60 frames per second and some VR headsets run at 72 frames per second. It’s possible, and very likely, that **scripts execute *more frequently* on player devices than they do on the server**.
+[Clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) don’t all have the same frame rate! For example, the server (typically) runs at 60 frames per second and some VR headsets run at 72 frames per second. It’s possible, and very likely, that **scripts execute *more frequently* on player devices than they do on the server**.
 
-If you need to know the frame time, e.g. to run your simulations or animations, **do not rely on a specific frame rate or frame time**. Use the `deltaTime` provided by [onPrePhysicsUpdate and onUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate) to get the time, in seconds, since the last frame (the last frame time).
+If you need to know the frame time, e.g. to run your simulations or animations, **do not rely on a specific frame rate or frame time**. Use the `deltaTime` provided by [onPrePhysicsUpdate and onUpdate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) to get the time, in seconds, since the last frame (the last frame time).
 
 There is no separate 'physics simulation rate'.
 
-In many game engines the physics simulation runs at a different rate than the rendering does. The physics simulation rate is often called a “fixed update”. In Horizon there is no such separation. Every [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) executes the [same sequence every frame](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence), including both physics simulation and rendering (although rendering is skipped on the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) since it lacks a display).
+In many game engines the physics simulation runs at a different rate than the rendering does. The physics simulation rate is often called a “fixed update”. In Horizon there is no such separation. Every [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) executes the [same sequence every frame](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence), including both physics simulation and rendering (although rendering is skipped on the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) since it lacks a display).
 
 #### Frame sequence
 
 Every action in Horizon happens somewhere within a frame. Frames execute in 3 main stages, in the following order:
 
-- **[Simulation Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase)**: Updates player movement and recorded animations. Computes physics updates and detects collisions. Allows code to be run [before or after the physics calculations](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#prephysics-vs-onupdate-events).
-- **[Script Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase)**: Handles [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events), [LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events), and [NetworkEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events). Processes [player input](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input) changes and runs [async callbacks](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#async-delays-and-timers). Changes to the [scene graph](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph) are committed.
-- **[Synchronization Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase)**: Processes received [network](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network) information, sends out network updates, and renders the scene (if not the server).
+- **[Simulation Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)**: Updates player movement and recorded animations. Computes physics updates and detects collisions. Allows code to be run [before or after the physics calculations](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events).
+- **[Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase)**: Handles [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events), [LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events), and [NetworkEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events). Processes [player input](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) changes and runs [async callbacks](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers). Changes to the [scene graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) are committed.
+- **[Synchronization Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)**: Processes received [network](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network) information, sends out network updates, and renders the scene (if not the server).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480753109_656797426858212_8295246835889529619_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=A9ltXeV8QnoQ7kNvwH9uMPa&_nc_oc=Adn6E7AwOMwGbj25ffzWfg20qNEmo8dRiYSRtfHAlunBlD5TtDpNmRtXTJJl8huxnsM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfjIrjHYbcgfpXw1ANNBntb1AG7sdHq9aBvZ48zbWNLM8w&oe=6946383C)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480753109_656797426858212_8295246835889529619_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=tZc1SjUV6P4Q7kNvwFKTVU9&_nc_oc=AdkoAlT9KvGRNNS3EVfyWHJ2pOa3dOewbKA9PRu10RbLCg4DInZ8JcxHnSR3J6PscOA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfnUvopU9ttpx3VFXBtXyGhWWoSbsfKrUGz_UVWmQmJVoA&oe=694BB67C)
 
 Script execution is \*single-threaded\* (long-running functions will 'stall' the script runtime).
 
-If a callback ([event](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) or [async](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#async-delays-and-timers)) runs for too much time it will “stall” all script execution. Eventually Horizon will kill a long-running callback (but only after some number of seconds). When a callback runs for too long it can block most of the other system behavior and cause unexpected results. Extremely large work-loads should be split up across frames.
+If a callback ([event](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) or [async](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers)) runs for too much time it will “stall” all script execution. Eventually Horizon will kill a long-running callback (but only after some number of seconds). When a callback runs for too long it can block most of the other system behavior and cause unexpected results. Extremely large work-loads should be split up across frames.
 
 ##### Simulation Phase
 
 The **Simulation Phase** runs at the start of the frame and includes physics calculations and avatar/animation updates.
 
 - **Pre-Physics**
-  * [Broadcasts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events) the [World.onPrePhysicsUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate) event locally, causing all local listeners to run.
+  * [Broadcasts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) the [World.onPrePhysicsUpdate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) event locally, causing all local listeners to run.
 - **Physics Updates**
-  * Players update their [positions and pose](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) based on locomotion inputs.
+  * Players update their [positions and pose](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) based on locomotion inputs.
   * Animation playback is updated.
-  * Physics calculations run, applying [accumulated forces and torques](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#applying-forces-and-torque) to entities with [simulated=true](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated) to update their linear and angular velocities.
-  * Collisions [with object and players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collisions) as well as with [triggers](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) are detected; the [associated CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) are queued to run later in the frame in the [Script Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase).
+  * Physics calculations run, applying [accumulated forces and torques](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque) to entities with [simulated=true](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) to update their linear and angular velocities.
+  * Collisions [with object and players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collisions) as well as with [triggers](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) are detected; the [associated CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) are queued to run later in the frame in the [Script Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase).
 - **On-Update**
-  * [Broadcasts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events) the [World.onUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate) event locally, causing all local listeners to run.
+  * [Broadcasts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) the [World.onUpdate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) event locally, causing all local listeners to run.
   * Player positions that are modified in the `onPrePhysicsUpdate` callbacks will be used in the *physics updates* that follow. However, **modifications to entities will not be used in the *physics updates***.
 
 ##### Script Phase
@@ -3717,25 +3717,25 @@ The **Simulation Phase** runs at the start of the frame and includes physics cal
 The **Script Phase** executes all event listeners, handles player input, instantiates components, and commits pending scene graph changes.
 
 - **Scene Graph Updates Preparation**
-  * Any [scene graph](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph) mutations performed via [property.set(...)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) throughout the frame thus far are copied to the side and the “pending updates” cache is cleared. There are [subtleties in how scene graph mutations are applied](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph-mutations).
+  * Any [scene graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) mutations performed via [property.set(...)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) throughout the frame thus far are copied to the side and the “pending updates” cache is cleared. There are [subtleties in how scene graph mutations are applied](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations).
 - **Component Initialization**
-  * New [files](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-file-execution), from world start or [spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning), are executed, running all code in the *top-level scope* (initializing *globals*, running `static` class members and blocks, etc).
-  * New components are instantiated (due to the instance starting, assets [spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) in, or entities having their [ownership transferred](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) to this [device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server)). Those new components will [all be prepared and then started](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle).
+  * New [files](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution), from world start or [spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), are executed, running all code in the *top-level scope* (initializing *globals*, running `static` class members and blocks, etc).
+  * New components are instantiated (due to the instance starting, assets [spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) in, or entities having their [ownership transferred](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) to this [device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)). Those new components will [all be prepared and then started](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
 - **Event Processing**
-  * [NetworkEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events) listeners run
-  * [PlayerInput](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input) callbacks run
-  * [CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events) listeners run (including [built-in](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) ones, such as those prepared in the [physics calculations](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase)).
+  * [NetworkEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) listeners run
+  * [PlayerInput](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) callbacks run
+  * [CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) listeners run (including [built-in](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) ones, such as those prepared in the [physics calculations](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)).
 - **Scene Graph Updates**
-  * The mutations prepared in step #2 are now applied. There are [subtleties in how scene graph mutations are applied](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph-mutations).
+  * The mutations prepared in step #2 are now applied. There are [subtleties in how scene graph mutations are applied](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations).
 - **Final Callbacks**
-  * Any [asynchronous](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#async-delays-and-timers) callbacks (e.g., `setTimeout`, `setInterval`) that are “passed due” are run (meaning that the current time is equal to or later than their scheduled times). Note that Horizon will limit how many async callbacks run in one frame; if too much time has been used, and there are still async callbacks to run, it may delay running them until the next frame. Note that events do *not* do this. [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events) and [NetworkEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events) are all processed until the queue is empty.
-  * Any entities owned by the [local device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) that had [owner.set(...)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) called on them during the frame will now have [transferOwnership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) called to get the *transfer* state that will be dispatched in the [Synchronization Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase). These entities will be marked for [disposal](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle).
-  * Any components that were created in step #2 due to an [ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) will have [receiveOwnership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) called on them with their *transferred state* (or with `null` if the transfers were [discontinuous](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#discontinuous-ownership-transfers)).
-  * Any components that were marked for [disposal](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) (due to being spawned out, the instance stopping, or in the step 2 bullets above) will have `dispose()` called. All their [event subscriptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) will be `disconnect`ed. All the ongoing [timeouts and intervals](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#async-delays-and-timers) will be `clear`ed.
+  * Any [asynchronous](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers) callbacks (e.g., `setTimeout`, `setInterval`) that are “passed due” are run (meaning that the current time is equal to or later than their scheduled times). Note that Horizon will limit how many async callbacks run in one frame; if too much time has been used, and there are still async callbacks to run, it may delay running them until the next frame. Note that events do *not* do this. [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) and [NetworkEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) are all processed until the queue is empty.
+  * Any entities owned by the [local device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that had [owner.set(...)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) called on them during the frame will now have [transferOwnership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) called to get the *transfer* state that will be dispatched in the [Synchronization Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase). These entities will be marked for [disposal](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
+  * Any components that were created in step #2 due to an [ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) will have [receiveOwnership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) called on them with their *transferred state* (or with `null` if the transfers were [discontinuous](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers)).
+  * Any components that were marked for [disposal](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) (due to being spawned out, the instance stopping, or in the step 2 bullets above) will have `dispose()` called. All their [event subscriptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) will be `disconnect`ed. All the ongoing [timeouts and intervals](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers) will be `clear`ed.
 
 ###### Scene Graph Mutations
 
-When you call `set(...)` on a [Horizon property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) the changes are not immediately written to the [scene graph](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph). This means that **if you call `get()` you will not get the new value you just set.** Instead, the changed is *buffered* (stored off to the side to be applied later). We call a buffered change a **scene graph mutation**.
+When you call `set(...)` on a [Horizon property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) the changes are not immediately written to the [scene graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph). This means that **if you call `get()` you will not get the new value you just set.** Instead, the changed is *buffered* (stored off to the side to be applied later). We call a buffered change a **scene graph mutation**.
 
 For example if you do:
 
@@ -3746,36 +3746,36 @@ const pos = entity.position.get();  // Still the old position!
 
 then the `get()` returns the old position, not the new one you just set. This is because the change is *buffered*, waiting to be applied.
 
-The **changes get applied near the end of the [script phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase) (see the [frame sequence diagram](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence)), just before async handlers run**. So if you modify an entity’s position in an [OnUpdate callback](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate), you won’t see the new value in `get()` until the async handlers run that frame.
+The **changes get applied near the end of the [script phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase) (see the [frame sequence diagram](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence)), just before async handlers run**. So if you modify an entity’s position in an [OnUpdate callback](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate), you won’t see the new value in `get()` until the async handlers run that frame.
 
-This buffering system means that modifications made during the [script phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase) won’t be visible at all in that same frame. At the start of the [script phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-phase), all pending mutations are prepared (copied to a separate buffer and cleared). Then the frame continues with [component initialization](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) and [event callbacks](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events). Any new modifications during those callbacks get buffered for later. When it’s time to “commit” the mutations, only the ones that were prepared at the start get applied - newer modifications wait for the next frame.
+This buffering system means that modifications made during the [script phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase) won’t be visible at all in that same frame. At the start of the [script phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase), all pending mutations are prepared (copied to a separate buffer and cleared). Then the frame continues with [component initialization](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) and [event callbacks](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events). Any new modifications during those callbacks get buffered for later. When it’s time to “commit” the mutations, only the ones that were prepared at the start get applied - newer modifications wait for the next frame.
 
 This means that:
 
-* **Scene graph mutations performed in *[prePhysics and onUpdate handlers](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#prephysics-vs-onupdate-events)* will be seen *the next frame*** (and technically in the async callbacks at the end of this frame).
+* **Scene graph mutations performed in *[prePhysics and onUpdate handlers](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events)* will be seen *the next frame*** (and technically in the async callbacks at the end of this frame).
 * **Scene graph mutations performed *anywhere else* will be seen *2 frames from now*** (and technically in the async callbacks at the end of the next frame).
 
-**Player position is an exception**: Player position behaves differently. When you [set a player’s position in an OnPrePhysicsUpdate callback](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-position-and-physics), that change is available immediately for physics calculations. **[OnPrePhysicsUpdate callbacks](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#prephysics-vs-onupdate-events) are useful for moving players (but not other entities)**.
+**Player position is an exception**: Player position behaves differently. When you [set a player’s position in an OnPrePhysicsUpdate callback](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-physics), that change is available immediately for physics calculations. **[OnPrePhysicsUpdate callbacks](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events) are useful for moving players (but not other entities)**.
 
-**Position/rotation and physics forces don’t play well together** in the same frame. If you try to [move an entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position) (or [move a player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-position-and-physics)) with both `position.set()` and [forces](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) at the same time, they’ll conflict and give unexpected results. You should choose one approach or the other - either move things by setting their position directly, or move them with physics forces, but never both at once. The same applies to [setting rotations](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#rotation) vs using [torques](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#torques).
+**Position/rotation and physics forces don’t play well together** in the same frame. If you try to [move an entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position) (or [move a player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-physics)) with both `position.set()` and [forces](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) at the same time, they’ll conflict and give unexpected results. You should choose one approach or the other - either move things by setting their position directly, or move them with physics forces, but never both at once. The same applies to [setting rotations](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) vs using [torques](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#torques).
 
 ##### Synchronization Phase
 
-The **Synchronization Phase** finalizes the frame, managing network synchronization and rendering the world (on [player-device clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server)).
+The **Synchronization Phase** finalizes the frame, managing network synchronization and rendering the world (on [player-device clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)).
 
 - **Network Sync**
   * Events sent this frame are broadcasted to other clients.
   * Networked entity transformations are synchronized across players.
 - **Render (if on a player device)**
-  * The game world is rendered for the player based on the state of the world as it is on their [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) due to that client’s current [reconciliation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#authority-and-reconciliation).
+  * The game world is rendered for the player based on the state of the world as it is on their [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) due to that client’s current [reconciliation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation).
 
 Network Events sent to the same client are processed on the frame \*after\* the next one.
 
-When you send a network event back to the same [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) that sent it, there is a **2-frame delay** before it gets processed.
+When you send a network event back to the same [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that sent it, there is a **2-frame delay** before it gets processed.
 
-This happens because, as shown in the [frame sequence diagram](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence), network events are prepared for processing before new events created in that frame are sent out. So when an event is sent back to the same client, that client has already locked in the events it will process next frame, meaning the returned event won’t be handled until the frame after that.
+This happens because, as shown in the [frame sequence diagram](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence), network events are prepared for processing before new events created in that frame are sent out. So when an event is sent back to the same client, that client has already locked in the events it will process next frame, meaning the returned event won’t be handled until the frame after that.
 
-This delay is usually not an issue, since network events always involve some lag. However, if you need an immediate response, consider using [LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) along with [local scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts) and [ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer).
+This delay is usually not an issue, since network events always involve some lag. However, if you need an immediate response, consider using [LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) along with [local scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) and [ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer).
 
 ### Component Inheritance
 
@@ -3824,11 +3824,11 @@ FBS are ‘production ready’ and used by many high profile worlds. The legacy 
 | Scripted Assets | Duplicates scripts when spawned (with a generic “Script” name with auto-appended digits if the script already exists or spawns more than once) | Share single script when spawned |
 | Scripted Assets | Assets must include referenced Component scripts | Referenced Component scripts are automatically added to the world (\*see note below on asset module references) |
 | Cross-World Updates | Not possible, as script data is tied to one world | The latest updates to script data is seen in all worlds referencing the script |
-| [Cloned Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#cloning-a-world) | Scripts in cloned world have no link to script data in original world | Scripts in cloned world are linked to the same script data as the original world |
+| [Cloned Worlds](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#cloning-a-world) | Scripts in cloned world have no link to script data in original world | Scripts in cloned world are linked to the same script data as the original world |
 | Versioning | Not supported | The script data is versioned (tho versions are not directly accessible) |
 | In-Scene Gizmo | Requires an in-screen script gizmo to store the script data | In-scene gizmos are optional |
 | In-Scene Gizmo | Each in-scene gizmo has distinct script data | Multiple in-scene gizmos can be aliases to the same script data |
-| Use in [Template Assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset) | Not advised | Fully supported (and strongly advised) |
+| Use in [Template Assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) | Not advised | Fully supported (and strongly advised) |
 
 FBS Asset Module References
 
@@ -3836,11 +3836,11 @@ While spawned assets will automatically import the FBS script containing Compone
 
 Assets reference a frozen version of FBS script data.
 
-When you create an asset, it locks in a version of the FBS script data at the time of creation. If you later want to update the script version used by the asset, you will need to re-create or update them to get a later script version. Using [template assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset>) helps with this.
+When you create an asset, it locks in a version of the FBS script data at the time of creation. If you later want to update the script version used by the asset, you will need to re-create or update them to get a later script version. Using [template assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset>) helps with this.
 
 Avoid sharing FBS scripts with untrusted partners
 
-As FBS in different worlds all reference and edit the same back end script data, make sure that you are sharing FBS script references only with people you trust. Any edits they make in copies of the FBS will be reflected in all instances of the FBS in all worlds. Using [template assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset) can limit automatic updates to published changes which must be accepted into other worlds.
+As FBS in different worlds all reference and edit the same back end script data, make sure that you are sharing FBS script references only with people you trust. Any edits they make in copies of the FBS will be reflected in all instances of the FBS in all worlds. Using [template assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) can limit automatic updates to published changes which must be accepted into other worlds.
 
 Danger: Do not mix assets with FBS and Gizmo-Backed Scripts in the same world
 
@@ -3911,7 +3911,7 @@ bug Codeblock script updates are slow when using FBS
 
 #### Scripts and Template Assets
 
-It is *highly* advised to use FBS when using [template assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset). Template assets have UI support for identifying when asset definition updates are needed because of version changes to FBS scripts, and for pulling in version updates of FBS scripts to worlds that have instantiated template assets.
+It is *highly* advised to use FBS when using [template assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset). Template assets have UI support for identifying when asset definition updates are needed because of version changes to FBS scripts, and for pulling in version updates of FBS scripts to worlds that have instantiated template assets.
 
 ### Script File Execution
 
@@ -3920,21 +3920,21 @@ It is *highly* advised to use FBS when using [template assets](https://developer
 Scripts run at different times depending on when and how a file is loaded. Below is a breakdown of when files are executed and how components behave in various scenarios.
 
 * **On File Save**: When a *TypeScript file is saved*, the editor *reloads it*, triggering the following sequence:
-  * Existing components are [disposed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle).
+  * Existing components are [disposed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
   * The file *runs* (executing any top-level code).
-  * Any necessary [components are reinitialized](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle).
-  * [Props in the editor](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties) are *updated* accordingly.
-* **On World Start**: When the [world starts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#starting-stopping-and-resetting-an-instance), all scripts execute in the following order:
-  * *All files are run* (executing any top-level code) on the[server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player).
-  * All [components are instantiated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) on the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player).
-* **On Player Join**: When a [player joins](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), the following occurs:
-  * *All files are run* on their [client device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). *No*[components instantiated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle)*until* later (if, or when, an [ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) occurs).
-* **On Ownership Transfer**: When [ownership transfers](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) from one [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) to another:
-  * Existing [components are disposed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) on the previous owner’s client.
-  * New [components are initialized](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) on the new owner’s client. The file itself is *not re-run* during ownership transfer (since all files were run when the player joined).
+  * Any necessary [components are reinitialized](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
+  * [Props in the editor](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) are *updated* accordingly.
+* **On World Start**: When the [world starts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#starting-stopping-and-resetting-an-instance), all scripts execute in the following order:
+  * *All files are run* (executing any top-level code) on the[server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
+  * All [components are instantiated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
+* **On Player Join**: When a [player joins](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), the following occurs:
+  * *All files are run* on their [client device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). *No*[components instantiated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)*until* later (if, or when, an [ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) occurs).
+* **On Ownership Transfer**: When [ownership transfers](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) from one [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to another:
+  * Existing [components are disposed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the previous owner’s client.
+  * New [components are initialized](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the new owner’s client. The file itself is *not re-run* during ownership transfer (since all files were run when the player joined).
 * **On Asset Spawn / Sublevel Stream**: When an *asset spawns or sublevel streams in*, the following happens:
-  * *All files are run* (executing any top-level code) on all active [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) (the server and client devices for all players in the world).
-  * All [components are instantiated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) on the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player).
+  * *All files are run* (executing any top-level code) on all active [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) (the server and client devices for all players in the world).
+  * All [components are instantiated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
 
 ### Scripting Helper Functions
 
@@ -3962,36 +3962,36 @@ Horizon has a few helper functions in `horizon/core`:
 
 ### Clients (Devices and the Server)
 
-Horizon [instances](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) run as a *distributed systems* with multiple machines involved. Each machine is called a **client**. Clients have the full [scene graph](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph), can [run code](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting), and have a [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) associated with them.
+Horizon [instances](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) run as a *distributed systems* with multiple machines involved. Each machine is called a **client**. Clients have the full [scene graph](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph), can [run code](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting), and have a [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) associated with them.
 
 There are two types of clients:
 
-* **Player Devices**: a client associated with a human player. These clients receive player input, can run [local scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts), [render](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase) the world from their player’s camera / eyes every frame, and [synchronize](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase) data with Meta’s servers. For a mobile player the device is their phone or tablet, for a PC or web-based player it is the computer and for a VR user this is their headset (or their computer if they are tethered).
-* **Server**: a special client that lives on Meta’s servers. Its associated player is the special [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player). The server client runs all [default scripts and local scripts on entities owned by the server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts). The server operates just like player devices except that it skips [rendering](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase) at the end of each frame.
+* **Player Devices**: a client associated with a human player. These clients receive player input, can run [local scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts), [render](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) the world from their player’s camera / eyes every frame, and [synchronize](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) data with Meta’s servers. For a mobile player the device is their phone or tablet, for a PC or web-based player it is the computer and for a VR user this is their headset (or their computer if they are tethered).
+* **Server**: a special client that lives on Meta’s servers. Its associated player is the special [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). The server client runs all [default scripts and local scripts on entities owned by the server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts). The server operates just like player devices except that it skips [rendering](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) at the end of each frame.
 
-Some [built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) can only be connected to on the server (such as [OnPlayerEnterWorld](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world)) whereas others can only be connected to on a player device (such as [OnPlayerEnteredFocusedInteraction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction)). Similarly, most [persistence APIs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistence) can only be called from [scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting) running on the server.
+Some [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) can only be connected to on the server (such as [OnPlayerEnterWorld](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world)) whereas others can only be connected to on a player device (such as [OnPlayerEnteredFocusedInteraction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)). Similarly, most [persistence APIs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistence) can only be called from [scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting) running on the server.
 
 Clients have varying frame rates.
 
-The server typically runs at 60 frames per second. Quest VR headsets run at 72 fps. Do not rely on or hardcode specific frame rates. There’s more information in the [frame rate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-rate) section.
+The server typically runs at 60 frames per second. Quest VR headsets run at 72 fps. Do not rely on or hardcode specific frame rates. There’s more information in the [frame rate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-rate) section.
 
 ### Entity Ownership
 
-Each entity in the world is owned by exactly one [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). An entity’s owner:
+Each entity in the world is owned by exactly one [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). An entity’s owner:
 
-* **Runs local scripts**: The owning client runs the attached script on the entity (if there is one and if it is set to *[local execution mode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts)*).
-* **Has scene graph authority**: The owning client is the *[authority](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#authority-and-reconciliation)* for that entity’s core attributes (such as position, visibility, and collision settings). When a client wants to modify an entity it doesn’t own, it must send a message to the owning client requesting the change.
+* **Runs local scripts**: The owning client runs the attached script on the entity (if there is one and if it is set to *[local execution mode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts)*).
+* **Has scene graph authority**: The owning client is the *[authority](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation)* for that entity’s core attributes (such as position, visibility, and collision settings). When a client wants to modify an entity it doesn’t own, it must send a message to the owning client requesting the change.
 
-When an [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) starts (or assets / sublevels [spawn in](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning)) **all entities begin owned by the server** until their [ownership is changed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer). When the owner changes, the [local components](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts) attached to the entity [move](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer). When a [player leaves](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), all entities owned by them are [transferred](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) back to the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server).
+When an [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) starts (or assets / sublevels [spawn in](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)) **all entities begin owned by the server** until their [ownership is changed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer). When the owner changes, the [local components](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) attached to the entity [move](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer). When a [player leaves](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), all entities owned by them are [transferred](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) back to the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
 
 ### Local and Default Scripts
 
 In the Script dropdown in the desktop editor, scripts can be marked as *default* or *local***execution mode**. All scripts are originally created with a *default* execution mode, and must be manually changed to *local* if so desired.
 
-The *default* vs *local* terminology is a bit confusing. The execution mode setting describes what happens to a component when the entity it is attached to [changes owner](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer).
+The *default* vs *local* terminology is a bit confusing. The execution mode setting describes what happens to a component when the entity it is attached to [changes owner](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer).
 
 * **Default script execution mode**: all components in the file will always executes on the server, regardless of ownership of the entity they are attached to.
-* **Local script execution mode**: components defined in the file will “[move](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer)” to execute on the client matching the new owner of the entity (every time the owner changes).
+* **Local script execution mode**: components defined in the file will “[move](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer)” to execute on the client matching the new owner of the entity (every time the owner changes).
 
 **Component execution mode**: Even though execution mode is an aspect of files, we borrow the term for components, according to the execution mode of file they are defined in. So, we say *a component has default execution mode when the file it is defined in does*.
 
@@ -3999,20 +3999,20 @@ We often abbreviate the terms as: *default component*, *local component*, *defau
 
 A script file’s execution mode (local or default) affects how its components run:
 
-- **One execution mode per file**: All components in a [script file](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#script-file-execution) share the file’s execution mode. However:
+- **One execution mode per file**: All components in a [script file](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution) share the file’s execution mode. However:
   * A *local component* can run on any client.
   * Different components in the same *local script* can run on different clients.
   * Different instances of the same component class in a *local script* can run on different clients.
 - **“Local” means “movable”**: The term “local” means the component *can* run on player devices, not that it *must*:
   * *Local components* run on whichever client owns their entity.
-  * If the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player) owns the entity, its *local component* runs on the server.
-- **Ownership transfer creates new components**: *Local components* don’t actually *move*. When their entity changes owner, an [ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) occurs:
-  * The old component is [disposed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle).
-  * A new component is [instantiated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle) on the new owner.
-  * The old component may [pass data](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transferring-data-across-owners) to the new one.
+  * If the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player) owns the entity, its *local component* runs on the server.
+- **Ownership transfer creates new components**: *Local components* don’t actually *move*. When their entity changes owner, an [ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) occurs:
+  * The old component is [disposed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
+  * A new component is [instantiated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the new owner.
+  * The old component may [pass data](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) to the new one.
 - **Mixed execution on one entity**: Some creators have the ability to attach multiple scripts to an entity.
   * Only *local components* “move” when the entity owner changes.
-  * One entity may have some components running on the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) and others running on a [player device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server).
+  * One entity may have some components running on the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) and others running on a [player device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
 
 #### Why Local Scripts and Ownership Matter: Network Latency
 
@@ -4023,24 +4023,24 @@ When a client modifies an entity it owns, the changes happen immediately at the 
 - The owner broadcasts the new state to all clients
 - Other clients receive and apply the new state
 
-This process takes at least a few frames (or more if slow networks are involved). Using [local scripts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts) on [player-owner](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) entities can make actions feel instantaneous to the local player (with no real impact to the other players). See the example below.
+This process takes at least a few frames (or more if slow networks are involved). Using [local scripts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on [player-owner](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) entities can make actions feel instantaneous to the local player (with no real impact to the other players). See the example below.
 
 ##### Example
 
-Imagine a player holding a flashlight and pressing a button to turn it on. The table below shows what happens if the script controlling the flashlight is running on the [player’s device vs the server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). Note that **in the player-owned case, the player sees it immediately. In both cases others see it after 2 network trips**.
+Imagine a player holding a flashlight and pressing a button to turn it on. The table below shows what happens if the script controlling the flashlight is running on the [player’s device vs the server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Note that **in the player-owned case, the player sees it immediately. In both cases others see it after 2 network trips**.
 
 In the table “📡” means that a network trip occurs.
 
 | Flight Owner | Steps | When The Player Sees | When Other Players See |
 | --- | --- | --- | --- |
-| Player | - Player [presses button](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input) on their device   - Device [enables light](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#dynamic-light-gizmo)  - Light’s [state sent to server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase)📡; from there it’s [sent to other clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase)📡 | End of frame | 2 network trips |
-| Server | - Player [presses button](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input) on their device   - Button press [sent to server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase)📡   - Server [enables light](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#dynamic-light-gizmo)  - Light’s [state sent to all clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase)📡 | 2 network trips | 2 network trips |
+| Player | - Player [presses button](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) on their device   - Device [enables light](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo)  - Light’s [state sent to server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡; from there it’s [sent to other clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡 | End of frame | 2 network trips |
+| Server | - Player [presses button](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) on their device   - Button press [sent to server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡   - Server [enables light](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo)  - Light’s [state sent to all clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡 | 2 network trips | 2 network trips |
 
 ### Authority and Reconciliation
 
-Each [entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) in a world has exactly one [owner](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) which is authoritative on its intrinsic state (such as [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position)).
+Each [entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) in a world has exactly one [owner](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) which is authoritative on its intrinsic state (such as [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position)).
 
-When a [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) modifies an entity it doesn’t own:
+When a [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) modifies an entity it doesn’t own:
 
 - The client sends a network message to the owning client (through the server)
 - The owner processes changes in order received
@@ -4049,14 +4049,14 @@ When a [client](https://developers.meta.com/horizon-worlds/learn/documentation/m
 
 Authority Considerations:
 
-- **Eventual Consistency**: If network latency causes updates to arrive in different orders on different devices, calculated positions might temporarily disagree. The system will automatically reconcile these differences within a few frames (once entities stop moving for long enough for all [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) to have the same state). Note that if updates are ongoing (as is typical) then it is **likely all [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server)*always* have slightly divergent views of the world**.
-- **State Change Compression**: Multiple changes in one frame compress to the final value. So if a client updates the position of an entity multiple times across a frame then only the [final value is broadcast out](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase). Note that this cause unexpected behavior in trails due to a bug (explained in [TrailFX Gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trailfx-gizmo)).
+- **Eventual Consistency**: If network latency causes updates to arrive in different orders on different devices, calculated positions might temporarily disagree. The system will automatically reconcile these differences within a few frames (once entities stop moving for long enough for all [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to have the same state). Note that if updates are ongoing (as is typical) then it is **likely all [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)*always* have slightly divergent views of the world**.
+- **State Change Compression**: Multiple changes in one frame compress to the final value. So if a client updates the position of an entity multiple times across a frame then only the [final value is broadcast out](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase). Note that this cause unexpected behavior in trails due to a bug (explained in [TrailFX Gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo)).
 
-Some attributes are *derived* from the entity and its [parent (and ancestors)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors).
+Some attributes are *derived* from the entity and its [parent (and ancestors)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors).
 
-For example, an entity’s [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position) is computed from its [local position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) and its parent’s position.
+For example, an entity’s [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position) is computed from its [local position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) and its parent’s position.
 
-Consider a situation where the [parent entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) is owned by the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) and the child entity is owned by a [player device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server):
+Consider a situation where the [parent entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) is owned by the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) and the child entity is owned by a [player device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server):
 
 - **Server’s View** (owning the parent):
   * Has authority over parent entity’s position
@@ -4071,15 +4071,15 @@ Consider a situation where the [parent entity](https://developers.meta.com/horiz
   * Receives child entity’s local position from owning player device
   * Calculates child’s world position by combining both *received* positions
 
-This means that if either the server moves the parent entity or the owning player device moves the child entity then all clients will recalculate the child’s final world position. This recalculation happens automatically each frame during the [Synchronization Phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase).
+This means that if either the server moves the parent entity or the owning player device moves the child entity then all clients will recalculate the child’s final world position. This recalculation happens automatically each frame during the [Synchronization Phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase).
 
 ### Ownership Transfer
 
-Ownership transfer is the process by which an entity’s authority is “moved” from one [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) to another. It affects both the entity’s intrinsic state (e.g. position, visibility, collision settings) and its attached [local components](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts). Transfers may be initiated programmatically via `entity.owner.set(newOwner)` or occur automatically (see [Automatic Ownership Transfers](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#automatic-ownership-transfers)).
+Ownership transfer is the process by which an entity’s authority is “moved” from one [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to another. It affects both the entity’s intrinsic state (e.g. position, visibility, collision settings) and its attached [local components](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts). Transfers may be initiated programmatically via `entity.owner.set(newOwner)` or occur automatically (see [Automatic Ownership Transfers](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#automatic-ownership-transfers)).
 
 **Transfer Duration**: ownership transfers are not instantaneous, though are typically less than 0.5 seconds. This delay is significant relative to frame rates (its some small-ish handful of frames).
 
-**Interim Inconsistencies**: During the transfer, any state change requests may be lost or reverted until the new owner fully assumes authority. You can avoid this with one easy guideline: ⚠️ **don’t modify entities you don’t own**, meaning that if a script isn’t “responsible” for the ownership of an entity it should only send it events (and not `set` any of its [properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties)).
+**Interim Inconsistencies**: During the transfer, any state change requests may be lost or reverted until the new owner fully assumes authority. You can avoid this with one easy guideline: ⚠️ **don’t modify entities you don’t own**, meaning that if a script isn’t “responsible” for the ownership of an entity it should only send it events (and not `set` any of its [properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)).
 
 **Non-Cascading Behavior**: Transfers affect only the targeted entity. Child entities retain their original owner unless explicitly transferred. You may want to transfer an entities children along with it (or in some extreme cases, transfer recursively). Here’s how to transfer `entity` and its children to `newOwner`:
 
@@ -4090,78 +4090,78 @@ entity.children.get().forEach(c => c.owner.set(newOwner));
 
 #### Ownership Transfer Sequence
 
-An ownership transfer is initiated by a [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) running the code `entity.owner.set(newPlayer)` or via an [automatic ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#automatic-ownership-transfers). The ownership change request is sent (by the server) to the [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) that currently owns `entity`.
+An ownership transfer is initiated by a [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) running the code `entity.owner.set(newPlayer)` or via an [automatic ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#automatic-ownership-transfers). The ownership change request is sent (by the server) to the [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that currently owns `entity`.
 
 The following in an ownership transfer for an entity with a **Local Script**.
 
-The component is [torn down](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle):
+The component is [torn down](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle):
 
-- [transferOwnership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transferring-data-across-owners) is called to get the *[transfer state](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transferring-data-across-owners)*.
-- the component is [disposed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle)
+- [transferOwnership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) is called to get the *[transfer state](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners)*.
+- the component is [disposed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)
 
-  The transfer request (with the relevant information) [propagates from the old client to the new](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#synchronization-phase):
+  The transfer request (with the relevant information) [propagates from the old client to the new](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase):
 - the state is sent to the server as a “transfer request”
-- the server validates the request and then forwards it onto the [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) matching the new owner
+- the server validates the request and then forwards it onto the [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) matching the new owner
 
-  The new component is [prepared and started](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle):
-- a new component is *[prepared](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle)* on the client associated with `toPlayer` (property initializers run, `initializeUI` runs if it’s a `UIComponent`, and then `preStart` runs).
+  The new component is [prepared and started](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle):
+- a new component is *[prepared](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)* on the client associated with `toPlayer` (property initializers run, `initializeUI` runs if it’s a `UIComponent`, and then `preStart` runs).
 - `start()` runs on the new component
-- [receiveOwnership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transferring-data-across-owners) is called on the new component along with [the state](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transferring-data-across-owners) from step #1 (or `null` if the transfer is [discontinuous](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#discontinuous-ownership-transfers))
+- [receiveOwnership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) is called on the new component along with [the state](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) from step #1 (or `null` if the transfer is [discontinuous](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers))
 
-In the process above (and diagram below) that if one of the players involved is the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player) then steps #3 and #4 are merged into just one step.
+In the process above (and diagram below) that if one of the players involved is the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player) then steps #3 and #4 are merged into just one step.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849120_656797436858211_4910455202806412283_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=xYMImAkKBv4Q7kNvwEEFDU2&_nc_oc=AdmQb2uOhapKBZdJDMOrlnrEL8PIozcdbkySeM4trsikDK-p4tY1EUCMlJr_RZir5Ks&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfjJkwzcf318rv5GMXdBTRosMuyPXdQSsDM8pVfVoQ4ifw&oe=694654DF)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849120_656797436858211_4910455202806412283_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=GD293SvKgQ8Q7kNvwFYzHdU&_nc_oc=AdmPrwX3mos2m_KJ8jPSCSgpCqOTgwCovBdAvCXFhJWXimelUHahOwNJ8KANoFZfmQo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfmXDbUXHSDO5OaDTqSxO_DQEZU0AXW10VM0-iSKxbujgw&oe=694BD31F)
 
 `getLocalPlayer()` and `entity.owner.get()` are different.
 
-[getLocalPlayer()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-player) indicates the device the script is executing on, i.e. The vertical lines in the diagram indicating Client A, Server, or Client B.
+[getLocalPlayer()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-player) indicates the device the script is executing on, i.e. The vertical lines in the diagram indicating Client A, Server, or Client B.
 
 `entity.owner` is the owner that was manually or automatically requested. Note that before the ownership transfer and immediately after `entity.owner.set(B)`, the entity’s owner is A. Then from `transferOwnership` in step 1 and on, the entity’s owner is B.
 
 #### Discontinuous Ownership Transfers
 
-When [ownership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) of an entity is transferred from one [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) to another, including possibly the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player), we say that the transfer is a **continuous ownership transfer**. Whenever the “from” `Player` is unavailable we say that it is a **discontinuous ownership transfer**.
+When [ownership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) of an entity is transferred from one [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) to another, including possibly the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player), we say that the transfer is a **continuous ownership transfer**. Whenever the “from” `Player` is unavailable we say that it is a **discontinuous ownership transfer**.
 
 **Causes**: Discontinuous transfers occur when:
 
-- A component initializes for the first time in an instance (either because the [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) started or it just [spawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) in).
+- A component initializes for the first time in an instance (either because the [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) started or it just [spawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) in).
 - A player quits the app or crashes then the player’s runtime is no longer available to package up the data.
 
-**Receiving Ownership**: In a discontinuous transfer the `state` argument in [receiveOwnership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) will be `null`.
+**Receiving Ownership**: In a discontinuous transfer the `state` argument in [receiveOwnership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) will be `null`.
 
 Not handling discontinuous ownership transfers on local components is a frequent source of bugs.
 
-When a player abruptly leaves a world (usually because of quitting the app or crashing), there will not be any [OnGrabEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events), [OnAttachEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities), or [OnPlayerExitWorld](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world) events delivered to the [Components](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#components) running on that client prior to the ownership transfer occurring.
+When a player abruptly leaves a world (usually because of quitting the app or crashing), there will not be any [OnGrabEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events), [OnAttachEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities), or [OnPlayerExitWorld](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) events delivered to the [Components](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#components) running on that client prior to the ownership transfer occurring.
 
 If the script isn’t written to properly handle suddenly “resetting” then that Entity can become unusable / unpredictable due to having an scripting state that is incompatible with the state of the world.
 
-A common pattern is to have *local scripts* send their state out to a server-owned entity so that if they “reset” they can then “ask” (via an [event](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#communication-between-components)) for the state, when they start up again.
+A common pattern is to have *local scripts* send their state out to a server-owned entity so that if they “reset” they can then “ask” (via an [event](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#communication-between-components)) for the state, when they start up again.
 
 #### Automatic Ownership Transfers
 
 There are a number of situations where an entity’s ownership is changed automatically. These situations act exactly if the ownership was changed via `entity.owner.set(...)`:
 
-- When an entity is [grabbed by](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) or [attached to](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities) a player
+- When an entity is [grabbed by](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) or [attached to](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) a player
   * This ensures frame-accurate position updates when tracking player movement.
-- When an entity [collides](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collisions) with another entity or player (if “preserve ownership on collision” is disable in the Properties panel)
-  * This makes it easy to have the collided entities act with [low latency for the player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#why-local-scripts-and-ownership-matter-network-latency) from then on.
-- When a [player leaves the world](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world)
-  * The entities they [own](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) transfer to the server.
-  * This is [discontinuous](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#discontinuous-ownership-transfers) since the departing owner can’t participate.
+- When an entity [collides](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collisions) with another entity or player (if “preserve ownership on collision” is disable in the Properties panel)
+  * This makes it easy to have the collided entities act with [low latency for the player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#why-local-scripts-and-ownership-matter-network-latency) from then on.
+- When a [player leaves the world](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world)
+  * The entities they [own](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) transfer to the server.
+  * This is [discontinuous](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers) since the departing owner can’t participate.
 
 bug Exiting build preview does \*\*not\*\* automatically transfer ownership.
 
-When in [build mode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#visitation-modes-edit-preview-and-publish), exiting from preview back to edit mode does *not* automatically transfer ownership of any Entities owned by the build player back to the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player) even though the [player exited](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world).
+When in [build mode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish), exiting from preview back to edit mode does *not* automatically transfer ownership of any Entities owned by the build player back to the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player) even though the [player exited](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world).
 
-Components with *local* execution mode will continue to run in the player’s device runtime. This can be confusing if they are scripted to track player avatar location, as they will start to follow the “big” build avatar around. It is best to handle `OnPlayerExitWorld` events and explicitly transfer ownership of all scripted Entities owned by the departing player back to the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player).
+Components with *local* execution mode will continue to run in the player’s device runtime. This can be confusing if they are scripted to track player avatar location, as they will start to follow the “big” build avatar around. It is best to handle `OnPlayerExitWorld` events and explicitly transfer ownership of all scripted Entities owned by the departing player back to the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
 
 #### Transferring Data Across Owners
 
-During [continuous ownership transfers](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#discontinuous-ownership-transfers), components with local execution mode can transfer state [from the old component to the new one](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer).
+During [continuous ownership transfers](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers), components with local execution mode can transfer state [from the old component to the new one](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer).
 
-In order to create a component that transfers data during an [ownership transfer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer):
+In order to create a component that transfers data during an [ownership transfer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer):
 
-- **Define a type** representing the data that will be transferred. The date must adhere to the [SerializableState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#serializablestate) type.
+- **Define a type** representing the data that will be transferred. The date must adhere to the [SerializableState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate) type.
 
 ```
   type Ammo = {count: number};
@@ -4173,7 +4173,7 @@ In order to create a component that transfers data during an [ownership transfer
   class Weapon extends Component<typeof Weapon, Ammo> { ... }
 ```
 
-- Implement **`transferOwnership`** on the component to package up data that will be transferred. The `transferOwnership` method also passes in the players involved in the transfer. It’s possible, and likely, for one of them to be the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player).
+- Implement **`transferOwnership`** on the component to package up data that will be transferred. The `transferOwnership` method also passes in the players involved in the transfer. It’s possible, and likely, for one of them to be the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
 
 ```
   transferOwnership(from: Player, to: Player): Ammo {
@@ -4181,7 +4181,7 @@ In order to create a component that transfers data during an [ownership transfer
   }
 ```
 
-- Implement **`receiveOwnership`** on the component to use the data packaged up by the previous owner. The `receiveOwnership` method also passes in the players involved in the transfer. It’s possible, and likely, for one of them to be the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player). The state will be *`null`* if the transfer is [discontinuous](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#discontinuous-ownership-transfers) (first awakening, or from a player that disconnected).
+- Implement **`receiveOwnership`** on the component to use the data packaged up by the previous owner. The `receiveOwnership` method also passes in the players involved in the transfer. It’s possible, and likely, for one of them to be the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). The state will be *`null`* if the transfer is [discontinuous](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers) (first awakening, or from a player that disconnected).
 
 ```
   receiveOwnership(state: Ammo | null, from: Player, to: Player) {
@@ -4193,7 +4193,7 @@ In order to create a component that transfers data during an [ownership transfer
 
 #### Example
 
-The example below shows a simple script that tracks how much ammo is in a weapon. When the gun is [transferred](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer), it maintains the same ammo count. Note that if the [transfer is discontinuous](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#discontinuous-ownership-transfers) the amount of ammo will be the value in the [props](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties).
+The example below shows a simple script that tracks how much ammo is in a weapon. When the gun is [transferred](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer), it maintains the same ammo count. Note that if the [transfer is discontinuous](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers) the amount of ammo will be the value in the [props](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties).
 
 ```
 import { Component, Player, PropTypes } from "horizon/core"
@@ -4227,21 +4227,21 @@ Component.register(Weapon);
 
 ## Collisions
 
-**Collisions** occur when one entity *intersects* with another or with a player (and then are typically pushed apart by [forces](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics) so that they don’t intersect any more).
+**Collisions** occur when one entity *intersects* with another or with a player (and then are typically pushed apart by [forces](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics) so that they don’t intersect any more).
 
-Collisions are used (under the hood) to drive [trigger events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-collisions) and to compute [raycasts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo). Additionally, [Interactive entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities) can be configured to receive [collision events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events) whenever their collide.
+Collisions are used (under the hood) to drive [trigger events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions) and to compute [raycasts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo). Additionally, [Interactive entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) can be configured to receive [collision events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) whenever their collide.
 
-There are a number of nuances: collisions start with entities that have a [collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#colliders) ([meshes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class) and [collider gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collider-gizmo)) and those colliders must be [active](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders) for a collision to occur. A number of these features involve [traversing up an ancestor chain to find an entity with a specific tag](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tag-bubbling).
+There are a number of nuances: collisions start with entities that have a [collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) ([meshes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) and [collider gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo)) and those colliders must be [active](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) for a collision to occur. A number of these features involve [traversing up an ancestor chain to find an entity with a specific tag](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tag-bubbling).
 
 ### Collision Events
 
-When an entity has [Motion set to Interactive](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities) you can enable it to receive **[built-in collision CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events)**. In the Properties panel, under “More”, is the setting “Collision Events From” which can be set to “Players”, “Object Tagged”, or “Both”. In the latter two cases a [tag](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags) must be specified (in the field right below the setting).
+When an entity has [Motion set to Interactive](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) you can enable it to receive **[built-in collision CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)**. In the Properties panel, under “More”, is the setting “Collision Events From” which can be set to “Players”, “Object Tagged”, or “Both”. In the latter two cases a [tag](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) must be specified (in the field right below the setting).
 
-A collider must be [active](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders) for it to be detected in collisions.
+A collider must be [active](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) for it to be detected in collisions.
 
-There are two [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events) you can subscribe to on an entity to know when it collides with something:
+There are two [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) you can subscribe to on an entity to know when it collides with something:
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
 | `OnPlayerCollision` | `collidedWith: Player` `collisionAt: Vec3` `normal: Vec3` `relativeVelocity: Vec3` `localColliderName: string` `otherColliderName: string`</nobr> | Sent when the entity collides the `collidedWith` player. |
 | `OnEntityCollision` | `collidedWith: Entity` `collisionAt: Vec3` `normal: Vec3` `relativeVelocity: Vec3` `localColliderName: string` `otherColliderName: string`</nobr> | Sent when the entity collides the `collidedWith` entity. |
@@ -4250,12 +4250,12 @@ The parameters for both events are:
 
 | Collision Event Parameter | Type | Notes |
 | --- | --- | --- |
-| `collidedWith` | [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) or [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-class) (depending on the event) | What the entity collided with. |
-| `collisionAt` | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The global location where the entity *came in contact* with `collidedWith`. |
-| `normal` | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The [surface normal](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual) at the position `collidedAt` on `collidedWith`. |
-| `relativeVelocity` | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The global velocity of `entity` compared to `collidedWith` (which you can use to see how “hard the hit” was). |
+| `collidedWith` | [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) or [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class) (depending on the event) | What the entity collided with. |
+| `collisionAt` | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global location where the entity *came in contact* with `collidedWith`. |
+| `normal` | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The [surface normal](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md) at the position `collidedAt` on `collidedWith`. |
+| `relativeVelocity` | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global velocity of `entity` compared to `collidedWith` (which you can use to see how “hard the hit” was). |
 | `localColliderName` | `string` | The *name* of first “leaf-level” collider involved in the collision. |
-| `otherColliderName` | `string` | The *name* of second “leaf-level” collider involved in the collision. This could be a [player body part](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) (`"Head"`, `"LegCollider"`, `"Torso"`) if the entity is configured for collision events from players. Note that [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) have many colliders on their hands ( `"LeftPalm"`, `"LeftThumbMid"`, `"LeftThumbTip"`, `"LeftIndexFingerBase"`, `"LeftIndexFingerTip"`, `"LeftOtherFingersBase"`, `"LeftOtherFingersTip"`, and similar for the right hand). **[Mobile/Web players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) do not have colliders on their hands**. |
+| `otherColliderName` | `string` | The *name* of second “leaf-level” collider involved in the collision. This could be a [player body part](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) (`"Head"`, `"LegCollider"`, `"Torso"`) if the entity is configured for collision events from players. Note that [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) have many colliders on their hands ( `"LeftPalm"`, `"LeftThumbMid"`, `"LeftThumbTip"`, `"LeftIndexFingerBase"`, `"LeftIndexFingerTip"`, `"LeftOtherFingersBase"`, `"LeftOtherFingersTip"`, and similar for the right hand). **[Mobile/Web players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) do not have colliders on their hands**. |
 
 **Collider Names**: If a group containing a cube collides with a player’s left hand, then the the `localColliderName` will be the name of the cube and `otherColliderName` will be the name of the
 
@@ -4273,7 +4273,7 @@ When `entity`’s collider intersects with `other` entity’s collider Horizon h
 
 Here’s the steps that Horizon takes in a one-sided collision check between `entity` and `other`:
 
-- check what [tag](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags) the `entity` is configured to get events from. Find a `target` entity with that tag by looking at `other` and then [bubbling up its ancestors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tag-bubbling).
+- check what [tag](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) the `entity` is configured to get events from. Find a `target` entity with that tag by looking at `other` and then [bubbling up its ancestors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tag-bubbling).
 - If other was found (otherwise skip to #3), send `CodeBlockEvents.OnEntityCollision` to `entity` with `target` as the `collidedWith` parameter.
 - If `entity` has a `parent` then go back to step #1 and repeat the process with the `parent` replacing `entity`.
 
@@ -4319,33 +4319,33 @@ function tryOneSidedCollision(
 
 ### Colliders
 
-**Colliders** are invisible (non-rendered) “shapes” that are used for detecting when entities and players overlap in 3D space (a “collision”). Colliders exist on [mesh entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class), on avatars (on each of their [body parts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts)), and as [collider gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collider-gizmo) that are literally just colliders.
+**Colliders** are invisible (non-rendered) “shapes” that are used for detecting when entities and players overlap in 3D space (a “collision”). Colliders exist on [mesh entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class), on avatars (on each of their [body parts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)), and as [collider gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) that are literally just colliders.
 
-**Colliders (not meshes) drive [trigger events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-collisions), [collision events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events), and [raycast detections](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)** but only if they are [active](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders).
+**Colliders (not meshes) drive [trigger events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions), [collision events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events), and [raycast detections](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)** but only if they are [active](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders).
 
-When a cube enters a trigger, the trigger detects its *collider* (which is shaped like a cube). When a player’s head enters a trigger, the trigger detects’ the heads *collider* (which is roughly sphere-shaped and has less resolution than the actual avatar head!). When two spheres collide and bounce off one another (with [physics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physics)), it was actually their colliders (which are spheres) that collided. All of the built-in custom model primitives have built-in colliders already. **When you import your own [3D models](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset), Horizon uses the *meshes* to generate the colliders**. At times it makes sense to [separate out the collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#separating-a-collider-from-a-mesh) to improve performance (don’t pre-optimize this until you actually have a performance problem!).
+When a cube enters a trigger, the trigger detects its *collider* (which is shaped like a cube). When a player’s head enters a trigger, the trigger detects’ the heads *collider* (which is roughly sphere-shaped and has less resolution than the actual avatar head!). When two spheres collide and bounce off one another (with [physics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physics)), it was actually their colliders (which are spheres) that collided. All of the built-in custom model primitives have built-in colliders already. **When you import your own [3D models](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), Horizon uses the *meshes* to generate the colliders**. At times it makes sense to [separate out the collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#separating-a-collider-from-a-mesh) to improve performance (don’t pre-optimize this until you actually have a performance problem!).
 
 #### Active Colliders
 
-In order for a collider to be detected it needs to be an **active collider**, otherwise it is ignored in [trigger events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-collisions), [collision events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events), and [raycast detections](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo).
+In order for a collider to be detected it needs to be an **active collider**, otherwise it is ignored in [trigger events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions), [collision events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events), and [raycast detections](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo).
 
 A **collider is active** when the following true
 
 - Its entity has `collidable` set `true`
-- It has *no `parent`* or its `parent` (and all [ancestors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors)) have `collidable` set to `true`
+- It has *no `parent`* or its `parent` (and all [ancestors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors)) have `collidable` set to `true`
 - It is *not occluded* by other colliders in the world (e.g. it’s not inside or blocked by some other collider)
 
 Regarding #3, *occlusion is often from a specific direction*. Example: if you want to grab an object but it is behind a wall then the wall’s collider will occlude the object (from the vantage point of the player trying to grab it).
 
-**Inactive colliders are ignored by the physics system**. If the floor’s collider is inactive an avatar will fall through it. If a [grabbable entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities)’s collider is inactive you cannot grab it. If a wall’s collider then a [raycast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo) cannot hit it.
+**Inactive colliders are ignored by the physics system**. If the floor’s collider is inactive an avatar will fall through it. If a [grabbable entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)’s collider is inactive you cannot grab it. If a wall’s collider then a [raycast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) cannot hit it.
 
-**Many entities do not have a collider** and thus can never have an active collider (e.g. [particle effect](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#particlefx-gizmo)). But they could have children with colliders.
+**Many entities do not have a collider** and thus can never have an active collider (e.g. [particle effect](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)). But they could have children with colliders.
 
-**[Empty objects and groups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#empty-object-and-groups) don’t have colliders** but their children may have them. When an empty object or group interacts with [triggers](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-collisions), [collisions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collisions), or [raycasts](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo) they have to have active colliders within them.
+**[Empty objects and groups](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) don’t have colliders** but their children may have them. When an empty object or group interacts with [triggers](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions), [collisions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collisions), or [raycasts](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) they have to have active colliders within them.
 
 #### Separating a Collider from a Mesh
 
-**For performance reasons a mesh may want to have a collider with less detail than the actual mesh**. Avatars do this. When you import your own [3D models](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset), you can disable **collidability** and use [collider gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collider-gizmo) to approximate the shape instead.
+**For performance reasons a mesh may want to have a collider with less detail than the actual mesh**. Avatars do this. When you import your own [3D models](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), you can disable **collidability** and use [collider gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) to approximate the shape instead.
 
 You shouldn’t try separating out colliders unless:
 
@@ -4356,15 +4356,15 @@ You shouldn’t try separating out colliders unless:
 
 A high resolution mesh with a low resolution collider.
 
-Here’s an example of a mesh (a character’s face) that has a lot of geometry. It would really hurt perf to have Horizon compute collisions with the full face. So instead, a separate collider has been added (the icosahedron). This can be achieved by making the face with `collidable=false` and the icosahedron with `visible=false`. Or you could use the [sphere collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collider-gizmo) instead.
+Here’s an example of a mesh (a character’s face) that has a lot of geometry. It would really hurt perf to have Horizon compute collisions with the full face. So instead, a separate collider has been added (the icosahedron). This can be achieved by making the face with `collidable=false` and the icosahedron with `visible=false`. Or you could use the [sphere collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) instead.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480587385_656797580191530_2217575239024647133_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=jcw6DEBCDIcQ7kNvwHmsJ3q&_nc_oc=Adk_A8BsstRL83UnvQyOi_SHlaRgIW3xRR5YLmg1pdCWdZrdJdWDKqniXZpHkdegPsI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_Afgx55sm8sUHrFcJXG_O0220eiiOAeUSeNmwB2VXWpX0zQ&oe=69465504)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480587385_656797580191530_2217575239024647133_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ciUKBQ3sg8kQ7kNvwFmK3Y6&_nc_oc=AdnXC4VzCkveP5jZs0kygiKDgYJ0xDvFNGQm0MHjzMeCNsKRY7ZG7L1e_2nCXVZ_yU0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfkFU8e1PMOxGc-XegUU1sLvtjpp5uddAU0cZ0gkd_fosQ&oe=694BD344)
 
 ### Entity Tag Bubbling
 
-When Horizon is looking for an entity with a specific tag it performs a process we’ll call **tag bubbling** where it walks up the [ancestor chain](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) in search of an entity with the tag. This process is used in [collision detection](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events) and [raycasting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo).
+When Horizon is looking for an entity with a specific tag it performs a process we’ll call **tag bubbling** where it walks up the [ancestor chain](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) in search of an entity with the tag. This process is used in [collision detection](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) and [raycasting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480831061_656797576858197_2777501900950716303_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=H1-K6SGQxOAQ7kNvwHDJzEk&_nc_oc=Adm9rIAJcEmqB9MYpTCzS48dokGfFy1BGY6UVNsmfcuVFbmFWLx4gKgarLnhSLB0jik&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfjG9a2_vVJ1okbO2buV-RTRL58brsLQmhAPKHIj_8j76g&oe=694647AB)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480831061_656797576858197_2777501900950716303_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=drdncq8Aym0Q7kNvwFncpks&_nc_oc=AdnZYeOKbbNdlQwrWvH3Ems6ANfdFoDSab75xMt4xWGj_iyp26V_2EbW2giCklGk6Gw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfkL7sPSRP7e3sJKpeMw9MZmgWpGMaB9eh3jILas5U_JRw&oe=694BC5EB)
 
 In code this algorithm looks like
 
@@ -4390,9 +4390,9 @@ function findTagBubbledEntity(
 
 ## Physics
 
-The Horizon physics system provides a lightweight simulation of rigid body dynamics. It allows you to add basic physical behaviors—such as gravity, mass, drag, friction, and bounciness to [interactive entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities). [Forces](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) and [torques](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#torques) are applied to update an entity’s linear and rotational motion (with helpers to create [spring mechanics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#springs) for moving and rotating). This is all done by [creating a physical entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-a-physical-entity) and using the [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class).
+The Horizon physics system provides a lightweight simulation of rigid body dynamics. It allows you to add basic physical behaviors—such as gravity, mass, drag, friction, and bounciness to [interactive entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities). [Forces](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) and [torques](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#torques) are applied to update an entity’s linear and rotational motion (with helpers to create [spring mechanics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#springs) for moving and rotating). This is all done by [creating a physical entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-physical-entity) and using the [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class).
 
-You can use [simulated and locked](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated-vs-locked-entities) to disable physics updates, run callbacks every frame [before or after physics updates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#prephysics-vs-onupdate-events), and also apply [forces to players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-physics).
+You can use [simulated and locked](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated-vs-locked-entities) to disable physics updates, run callbacks every frame [before or after physics updates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events), and also apply [forces to players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics).
 
 **Simple**: Horizon’s physics system is best used for simple and casual interactions. It lacks more advanced features such as constraints (rods, hinges, and ball-and-socket joints), rotational inertia modeling, fixed update, pre-physics features for entities, programmatic mass, and more. You can achieve a range of interactions, but creating complex physics-based mechanics or full-scale games may require creative workarounds (or doing your own physics calculations entirely).
 
@@ -4403,57 +4403,57 @@ The physics system in Horizon uses [SI Units](https://en.wikipedia.org/wiki/Inte
 | Quantity | Unit |
 | --- | --- |
 | Distance | meters |
-| Velocity | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) with `magnitude` in meters/second |
+| Velocity | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) with `magnitude` in meters/second |
 | Acceleration | meters/second2 |
-| Angular Velocity | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) where the direction is the *axis of rotation* and the `magnitude` is in radians/second |
-| Angular Acceleration | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) where the direction is the *axis of rotation* and the `magnitude` is in radians/second2 |
+| Angular Velocity | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) where the direction is the *axis of rotation* and the `magnitude` is in radians/second |
+| Angular Acceleration | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) where the direction is the *axis of rotation* and the `magnitude` is in radians/second2 |
 | Mass | kilograms |
-| Force | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) with `magnitude` in Newtons |
-| Impulse | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) with `magnitude` in Newton \* seconds |
-| Torque | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) where the direction is the *axis of rotation* and the `magnitude` is in Newton meters |
+| Force | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) with `magnitude` in Newtons |
+| Impulse | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) with `magnitude` in Newton \* seconds |
+| Torque | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) where the direction is the *axis of rotation* and the `magnitude` is in Newton meters |
 
 ### PhysicalEntity Class
 
 | `PhysicalEntity` Class Member | Description |
 | --- | --- |
-| gravityEnabled | When `true`, a force is generated every [frame](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase) with the magnitude set in the Properties panel |
-| [applyForce](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) | Add a force (or impulse or velocity change) to the entity |
-| [applyLocalForce](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) | Add a force (or impulse or velocity change) to the entity, expressed in [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) |
-| [applyForceAtPosition](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) | Add a force (or impulse or velocity change) to the entity at a specific position, which may also generate a *torque* |
-| [applyTorque](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#torques) | Apply a torque |
-| [applyLocalTorque](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#torques) | Apply a torque expressed in [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) |
-| [zeroVelocity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) | Immediate stop the entity, positionally and rotationally |
-| [springPushTowardPosition](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spring-push) | Apply a linear spring force |
-| [springSpinTowardRotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spring-spin) | Apply a rotational spring torque |
+| gravityEnabled | When `true`, a force is generated every [frame](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) with the magnitude set in the Properties panel |
+| [applyForce](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) | Add a force (or impulse or velocity change) to the entity |
+| [applyLocalForce](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) | Add a force (or impulse or velocity change) to the entity, expressed in [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
+| [applyForceAtPosition](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) | Add a force (or impulse or velocity change) to the entity at a specific position, which may also generate a *torque* |
+| [applyTorque](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#torques) | Apply a torque |
+| [applyLocalTorque](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#torques) | Apply a torque expressed in [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
+| [zeroVelocity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) | Immediate stop the entity, positionally and rotationally |
+| [springPushTowardPosition](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spring-push) | Apply a linear spring force |
+| [springSpinTowardRotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spring-spin) | Apply a rotational spring torque |
 
 ### Creating a Physical Entity
 
-For an entity to become a physical entity it must first be an [interactive entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities):
+For an entity to become a physical entity it must first be an [interactive entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities):
 
 - Its `Motion` to `Interactive`
 - Its `Interaction` to `Physics` or `Both`.
 
-As long as `Motion` is set to `Interactive`, the `Interaction` setting can be changed at runtime via the `interactionMode` property on the [Entity class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-class).
+As long as `Motion` is set to `Interactive`, the `Interaction` setting can be changed at runtime via the `interactionMode` property on the [Entity class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class).
 
 In order for the entity to have physics applied to it, it must have:
 
-- An [active collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders)
-- [simulated](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated) set to `true`
-- [locked](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated-vs-locked-entities) set to `false`.
-- [All ancestors, if any, be Empty Objects with Motion set to None](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities).
+- An [active collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders)
+- [simulated](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) set to `true`
+- [locked](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated-vs-locked-entities) set to `false`.
+- [All ancestors, if any, be Empty Objects with Motion set to None](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities).
 
 When an entity has `Interaction` to `Physics` or `Both`, the following properties are available in the Properties panel:
 
 | Physics Properties | Units | Description |
 | --- | --- | --- |
 | Gravity | meters/second2 | Downward acceleration applied to objects. Default is 9.81 m/s2. |
-| Mass | kilogram | Used in calculations for [force](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces), |
+| Mass | kilogram | Used in calculations for [force](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces), |
 | Drag | fraction | A measure of how much velocity is lost every frame (simulating air resistance or any other resistive force). Higher numbers represent a much faster loss of velocity. |
 | Angular Drag | fraction | A measure of how much angular velocity is lost every frame (simulating air resistance or any other resistive force). Higher numbers represent a much faster loss of angular velocity. |
 | Dynamic Friction | fraction | A measure of how much velocity is lost every frame when sliding against another entity. Higher numbers represent more resistance (more loss of velocity). |
 | Static Friction | fraction | A measure of how much velocity is lost when *starting* to slide against another entity (from rest). Higher numbers represent more resistance (more loss of velocity). |
 | Bounciness | fraction | Elasticity of collisions (0 = none, 1 = full bounce). |
-| Center-of-Mass | displacement in meters | A [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) in [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms). This setting is only available when “Center of Mass Override” is enabled in the Properties panel. |
+| Center-of-Mass | displacement in meters | A [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) in [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms). This setting is only available when “Center of Mass Override” is enabled in the Properties panel. |
 
 Set the mass of a physical entity when first creating a physical entity
 
@@ -4468,23 +4468,23 @@ There are many bugs with Empty Objects and the physics system. For example:
 
 ### Simulated vs Locked Entities
 
-Every [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) has a [simulated property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated) which *disables physics and interaction* (to make the entity act as if [Motion](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities) is set to “None”).
+Every [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) has a [simulated property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) which *disables physics and interaction* (to make the entity act as if [Motion](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) is set to “None”).
 
-The [PhysicalEntity class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) has a `locked` property to **disable just physics**. Then `locked` is `false` the entity will not response to any physics-based or avatar-based movement. That means you cannot move the entity with forces or moving by grabbing. However, **a locked entity *can be grabbed*, but the hand stays locked to the entity, unable to move it**.
+The [PhysicalEntity class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) has a `locked` property to **disable just physics**. Then `locked` is `false` the entity will not response to any physics-based or avatar-based movement. That means you cannot move the entity with forces or moving by grabbing. However, **a locked entity *can be grabbed*, but the hand stays locked to the entity, unable to move it**.
 
-Locking a physical entity is useful for: [steering wheels, levers, and other things that a player’s hands should “attach to”](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#moving-a-held-entity-globally-in-relation-to-the-world) (without moving the entity).
+Locking a physical entity is useful for: [steering wheels, levers, and other things that a player’s hands should “attach to”](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#moving-a-held-entity-globally-in-relation-to-the-world) (without moving the entity).
 
-Locked entities can still be [collided](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collisions) with.
+Locked entities can still be [collided](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collisions) with.
 
 ### Applying Forces and Torque
 
-Every [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) has internal state representing ***pending* (linear) acceleration** and ***pending* angular acceleration** (stored on the [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) that [owns](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) the entity, due to [authority](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#authority-and-reconciliation)). In the next [simulation phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase) the engine will do a simulation step that accumulates the pending accelerations into the velocities, and accumulates the current velocities onto the position and rotation.
+Every [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) has internal state representing ***pending* (linear) acceleration** and ***pending* angular acceleration** (stored on the [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that [owns](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) the entity, due to [authority](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation)). In the next [simulation phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) the engine will do a simulation step that accumulates the pending accelerations into the velocities, and accumulates the current velocities onto the position and rotation.
 
-The physics-based way to impact acceleration, velocity, and position is via [force](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces). The physics-based way to impact angular acceleration, angular velocity, and rotation is via [torque](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) (the rotational analog of a force).
+The physics-based way to impact acceleration, velocity, and position is via [force](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces). The physics-based way to impact angular acceleration, angular velocity, and rotation is via [torque](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) (the rotational analog of a force).
 
 #### Forces
 
-**Force** causes object to *move* (whereas [torque](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#torques) causes them to *rotate*).
+**Force** causes object to *move* (whereas [torque](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#torques) causes them to *rotate*).
 
 The force equation is
 
@@ -4496,17 +4496,17 @@ Note that:
 
 * Force creates an *acceleration* for 1 frame, changing the *velocity* just *once*
 * *Velocity* will continue to update the position *every frame*
-* [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class)’s “angular drag” setting will cause the *velocity* to shrink over time (as long as no further forces are applied)
+* [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)’s “angular drag” setting will cause the *velocity* to shrink over time (as long as no further forces are applied)
 * A player or entity can create a force on an entity by colliding with it, grabbing it, or throwing it.
 
 Note that:
 
 * Force creates an *acceleration* for 1 frame, changing the *velocity* just *once*
 * *Velocity* will continue to update the position *every frame*
-* [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class)’s “angular drag” setting will cause the *velocity* to shrink over time (as long as no further forces are applied)
+* [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)’s “angular drag” setting will cause the *velocity* to shrink over time (as long as no further forces are applied)
 * A player or entity can create a force on an entity by colliding with it, grabbing it, or throwing it.
 
-You can apply a force with a number of methods on [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class):
+You can apply a force with a number of methods on [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class):
 
 * `zeroVelocity`:
 
@@ -4524,7 +4524,7 @@ You can apply a force with a number of methods on [PhysicalEntity](https://devel
     ): void
   ```
 
-  The `PhysicsForceMode` enum has three values, each of which will change how the input `vector` is will be used in the next [simulation phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase)
+  The `PhysicsForceMode` enum has three values, each of which will change how the input `vector` is will be used in the next [simulation phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)
 
   |  | `vector` units | velocity change |
   | --- | --- | --- |
@@ -4542,7 +4542,7 @@ You can apply a force with a number of methods on [PhysicalEntity](https://devel
     ): void
   ```
 
-  Behaves the same as `applyForce` except that the force is expressed in they entity’s [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms)
+  Behaves the same as `applyForce` except that the force is expressed in they entity’s [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)
 * `applyForceAtPosition`
 
   ```
@@ -4555,7 +4555,7 @@ You can apply a force with a number of methods on [PhysicalEntity](https://devel
 
   Applies a force, impulse, or velocity change on the entity at the specified position, which will compute both a *force and a torque*. For example: pushing on an bar from the side will cause it to move and turn.
 
-  The *position does not need to be “on” the entity*. The position is simply used to compute the torque (a position really far away from the [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points) of the entity will generate a large torque).
+  The *position does not need to be “on” the entity*. The position is simply used to compute the torque (a position really far away from the [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) of the entity will generate a large torque).
 * `springPushTowardPosition`
 
   ```
@@ -4565,7 +4565,7 @@ You can apply a force with a number of methods on [PhysicalEntity](https://devel
     ): void
   ```
 
-  See the documentation in [spring push](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spring-push).
+  See the documentation in [spring push](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spring-push).
 
 #### Torques
 
@@ -4581,10 +4581,10 @@ Note that:
 
 * Torque creates an *angular acceleration* for 1 frame, changing the *angular velocity* just *once*
 * *Angular velocity* will continue to update the rotation *every frame*
-* [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class)’s “drag” setting will cause the *angular velocity* to shrink over time (as long as no further torques are applied)
+* [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)’s “drag” setting will cause the *angular velocity* to shrink over time (as long as no further torques are applied)
 * A player or entity can create a torque on an entity by colliding with it, grabbing it, or throwing it.
 
-You can apply a torque with a number of methods on [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class):
+You can apply a torque with a number of methods on [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class):
 
 * `zeroVelocity`
 
@@ -4599,14 +4599,14 @@ You can apply a torque with a number of methods on [PhysicalEntity](https://deve
     applyTorque(vector: Vec3): void
   ```
 
-  Apply a torque in [(global) world coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#coordinate-system).
+  Apply a torque in [(global) world coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system).
 * `applyLocalTorque`
 
   ```
     applyLocalTorque(vector: Vec3): void
   ```
 
-  Apply a torque in the entity’s [local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms).
+  Apply a torque in the entity’s [local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms).
 * `applyForceAtPosition`
 
   ```
@@ -4617,7 +4617,7 @@ You can apply a torque with a number of methods on [PhysicalEntity](https://deve
     ): void
   ```
 
-  See the documentation in [forces](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces).
+  See the documentation in [forces](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces).
 * `springSpinTowardRotation`
 
   ```
@@ -4627,7 +4627,7 @@ You can apply a torque with a number of methods on [PhysicalEntity](https://deve
       ): void
   ```
 
-  See the documentation in [spring spin](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spring-spin).
+  See the documentation in [spring spin](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spring-spin).
 
 #### Springs
 
@@ -4661,7 +4661,7 @@ These values are intended to provide a balanced spring motion that feels natural
 
 ##### Spring Push
 
-`springPushTowardPosition` moves an entity toward a target position as if attached to (and pulled by) a spring. Spring-push computes a [force](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#applying-forces-and-torque), so the entity must have **[Motion=Interactive](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities)** and **[simulated=true](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated)**. A common use case is to call `springPushTowardPosition` every frame.
+`springPushTowardPosition` moves an entity toward a target position as if attached to (and pulled by) a spring. Spring-push computes a [force](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque), so the entity must have **[Motion=Interactive](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)** and **[simulated=true](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated)**. A common use case is to call `springPushTowardPosition` every frame.
 
 ```
 // PhysicalEntity
@@ -4684,7 +4684,7 @@ this.connectLocalBroadcastEvent(World.onUpdate, (data: { deltaTime: number 
 
 ##### Spring Spin
 
-`springSpinTowardRotation` rotates an entity toward a target rotation as if attached to (and twisted by) a spring. Spring-spin computes a [torque](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#applying-forces-and-torque), so the entity must have **[Motion=Interactive](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities)** and **[simulated=true](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulated)**. A common use case is to call `springSpinTowardRotation` every frame.
+`springSpinTowardRotation` rotates an entity toward a target rotation as if attached to (and twisted by) a spring. Spring-spin computes a [torque](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque), so the entity must have **[Motion=Interactive](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)** and **[simulated=true](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulated)**. A common use case is to call `springSpinTowardRotation` every frame.
 
 ```
 // PhysicalEntity
@@ -4707,21 +4707,21 @@ this.connectLocalBroadcastEvent(World.onUpdate, (data: { deltaTime: number 
 
 ### PrePhysics vs OnUpdate Events
 
-A common way to apply forces (or torques) to entities and players is to do so [every frame](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate), e.g. [spring](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spring-push) might exert a [force](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) on a [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) every frame.
+A common way to apply forces (or torques) to entities and players is to do so [every frame](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate), e.g. [spring](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spring-push) might exert a [force](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) on a [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) every frame.
 
-The [broadcast local events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-local-events) for [OnPrePhysicsUpdate and OnUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate) allow you to register callbacks to be run every frame *before* and *after* the physics computations, respectively.
+The [broadcast local events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) for [OnPrePhysicsUpdate and OnUpdate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) allow you to register callbacks to be run every frame *before* and *after* the physics computations, respectively.
 
 `OnPrePhysicsUpdate` is only useful for \*\*moving players\*\* (not entities).
 
-If you want to move entities every frame, do so in `OnUpdate`. An entity’s pending acceleration updates live in the scene graph and are updated following the [scene graph mutation rules](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph-mutations). Thus even if you apply a force in an `OnPrePhysicsUpdate` callback, the acceleration won’t be *committed* until the end of the frame, and then the physics updates will see it in the *next frame*. **The fact that player positions update after `OnPrePhysicsUpdate` is an exception to the rules.**
+If you want to move entities every frame, do so in `OnUpdate`. An entity’s pending acceleration updates live in the scene graph and are updated following the [scene graph mutation rules](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations). Thus even if you apply a force in an `OnPrePhysicsUpdate` callback, the acceleration won’t be *committed* until the end of the frame, and then the physics updates will see it in the *next frame*. **The fact that player positions update after `OnPrePhysicsUpdate` is an exception to the rules.**
 
-**PrePhysics is useful for moving the player and having physics react.** If you move the player in a [OnPrePhysicsUpdate callback](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate) with a [force](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) (or by setting their [player position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-position-and-physics)) then the [physics simulation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase) could respond (for instance, if a movement pushed the player into the wall, then the physics calculations could bounce the player off of it). This is possible because **if you modify a player’s position in `OnPrePhysicsUpdate`, it is used during the [physics updates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase) right after.** However, not that there is some [awkwardness in how the values are used](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-position-and-physics).
+**PrePhysics is useful for moving the player and having physics react.** If you move the player in a [OnPrePhysicsUpdate callback](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) with a [force](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) (or by setting their [player position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-physics)) then the [physics simulation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) could respond (for instance, if a movement pushed the player into the wall, then the physics calculations could bounce the player off of it). This is possible because **if you modify a player’s position in `OnPrePhysicsUpdate`, it is used during the [physics updates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) right after.** However, not that there is some [awkwardness in how the values are used](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-physics).
 
 **OnUpdate is useful for moving the player as a result of physics.** If you wanted to move a player every frame so that they are standing on top of a boulder rolling down a hill, then you would want to position the player *after* the physics update each from (so that you can move the player *after* the boulder has moved, to keep them in sync).
 
 ### Player Physics
 
-The player avatar acts like a single *physical entity*, although you cannot actually use it as one. But you can still apply forces to the player and have them interact with other physics-based entities in the world (players can [collide with entities and with other players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events)).
+The player avatar acts like a single *physical entity*, although you cannot actually use it as one. But you can still apply forces to the player and have them interact with other physics-based entities in the world (players can [collide with entities and with other players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events)).
 
 * `applyForce`
 
@@ -4729,7 +4729,7 @@ The player avatar acts like a single *physical entity*, although you cannot actu
     applyForce(force: Vec3): void
   ```
 
-  Apply a force, as a vector with magnitude in Newtons, to the player. This acts just like [applying a force to an entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#applying-forces-and-torque)
+  Apply a force, as a vector with magnitude in Newtons, to the player. This acts just like [applying a force to an entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)
 
   ```
     physicalEntity.applyForce(
@@ -4745,7 +4745,7 @@ The player avatar acts like a single *physical entity*, although you cannot actu
     ): void
   ```
 
-  This is only for [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type), allowing you to set if their hands should *physically* collide with [dynamic and static entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-vs-dynamic-entities) in the world. To be able to change these values you have to set “Can Hands Collide With Physics Objects” and “Can Hands Collide With Static Objects” in [Player Settings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#publishing-and-player-settings).
+  This is only for [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type), allowing you to set if their hands should *physically* collide with [dynamic and static entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities) in the world. To be able to change these values you have to set “Can Hands Collide With Physics Objects” and “Can Hands Collide With Static Objects” in [Player Settings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings).
 * `gravity`
 
   ```
@@ -4759,39 +4759,39 @@ The player avatar acts like a single *physical entity*, although you cannot actu
     velocity: HorizonProperty<Vec3>
   ```
 
-  The velocity of the player *due to physics*. See [player physical velocity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-physical-velocity) for details.
+  The velocity of the player *due to physics*. See [player physical velocity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-physical-velocity) for details.
 
 #### Player Physical Velocity
 
-The [Player class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class) has a property: `velocity: HorizonProperty<Vec3>`. Unfortunately **this property does not represent the actual `velocity` of the player**. If you want the actual velocity then you show measure the position two frames apart and divide by the time between (such as with an [OnUpdate callback](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate)).
+The [Player class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) has a property: `velocity: HorizonProperty<Vec3>`. Unfortunately **this property does not represent the actual `velocity` of the player**. If you want the actual velocity then you show measure the position two frames apart and divide by the time between (such as with an [OnUpdate callback](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate)).
 
-Calling `player.velocity.get()` returns (or `set()` to modify it) a quantify called the **physical velocity** of the player. This quantity represent the velocity of the player that the *physics system is using*. It does not account for locomotion (via a VR controller joystick, computer keyboard, or on-screen controls). Additionally is does not account for a player being [grounded](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-locomotion); meaning that the physics system might be tracking a person as “falling” even though the *grounding* feature has them standing still.
+Calling `player.velocity.get()` returns (or `set()` to modify it) a quantify called the **physical velocity** of the player. This quantity represent the velocity of the player that the *physics system is using*. It does not account for locomotion (via a VR controller joystick, computer keyboard, or on-screen controls). Additionally is does not account for a player being [grounded](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion); meaning that the physics system might be tracking a person as “falling” even though the *grounding* feature has them standing still.
 
-**This feature was designed with the intent of being used for flying, swimming, climbing, etc where locomotion is replaced with force-based movement**. Any time that the player is [grounded](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-locomotion), the values in player `velocity` may be unexpected.
+**This feature was designed with the intent of being used for flying, swimming, climbing, etc where locomotion is replaced with force-based movement**. Any time that the player is [grounded](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion), the values in player `velocity` may be unexpected.
 
 #### Player Position and Physics
 
-**Update player position in `OnPrePhysicsUpdate`**: If you set a player’s position in an [OnPrePhysicsUpdate callback](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#prephysics-vs-onupdate-events) on the [player’s device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server), that position will be used in the physics calculation that follows, in the same frame. This is the [only scene graph property that works this way](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph-mutations). This is useful to have the physics system respond to player movement.
+**Update player position in `OnPrePhysicsUpdate`**: If you set a player’s position in an [OnPrePhysicsUpdate callback](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events) on the [player’s device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), that position will be used in the physics calculation that follows, in the same frame. This is the [only scene graph property that works this way](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations). This is useful to have the physics system respond to player movement.
 
-Unfortunately, there is **some awkwardness in how Horizon reports the player position**.If you set a player’s position in `OnPrePhysicsUpdate`, then the [physics updates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase) will react and compute a new vale. However that new physics-computed value won’t actually be set in the scene graph until the end of the frame. Instead, the `position.get()` will keep returning the value you used in `OnPrePhysicsUpdate`, until [scene graph mutations](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scene-graph-mutations) are committed.
+Unfortunately, there is **some awkwardness in how Horizon reports the player position**.If you set a player’s position in `OnPrePhysicsUpdate`, then the [physics updates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) will react and compute a new vale. However that new physics-computed value won’t actually be set in the scene graph until the end of the frame. Instead, the `position.get()` will keep returning the value you used in `OnPrePhysicsUpdate`, until [scene graph mutations](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations) are committed.
 
-**Setting player position from the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server)**: Since a player’s device is [authoritative](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#authority-and-reconciliation) over the player’s position, if you modify a player’s position from a script running on the server, then it will have to send a request to the player’s device, wait for the movement, and then wait for the response. At that point it will see the new value.
+**Setting player position from the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)**: Since a player’s device is [authoritative](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation) over the player’s position, if you modify a player’s position from a script running on the server, then it will have to send a request to the player’s device, wait for the movement, and then wait for the response. At that point it will see the new value.
 
-**Position/rotation and physics forces don’t play well together** in the same frame. If you try to [move an entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position) (or [move a player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-position-and-physics)) with both `position.set()` and [forces](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#forces) at the same time, they’ll conflict and give unexpected results. You should choose one approach or the other - either move things by setting their position directly, or move them with physics forces, but never both at once. The same applies to [setting rotations](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#rotation) vs using [torques](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#torques).
+**Position/rotation and physics forces don’t play well together** in the same frame. If you try to [move an entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position) (or [move a player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-physics)) with both `position.set()` and [forces](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#forces) at the same time, they’ll conflict and give unexpected results. You should choose one approach or the other - either move things by setting their position directly, or move them with physics forces, but never both at once. The same applies to [setting rotations](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) vs using [torques](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#torques).
 
 ## Players
 
-The `Player` class represents a person in the instance, an [NPC](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo) in the instance, or the “omnipotent player” (the server).
+The `Player` class represents a person in the instance, an [NPC](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo) in the instance, or the “omnipotent player” (the server).
 
 ### Max player count
 
-Each world has a maximum player count that controls the maximum number of players allowed in each [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances). The count is configured in [world settings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#publishing-and-player-settings).
+Each world has a maximum player count that controls the maximum number of players allowed in each [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances). The count is configured in [world settings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings).
 
 **Construction / New**: `Player` instances are allocated by the system; you should *never allocate them directly* (never use `new Player`).
 
 **Equality Comparison**: `Player` instances can be compared referentially `aPlayer === bPlayer` which is the same as `aPlayer.id === bPlayer.id`.
 
-**Server Player**: There is a special “Server `Player`” instance that represents the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player). Its primary use is in checking or setting which player “owns” an entity (it’s the “server player” if none of the human players do). The server player does not count against the [maximum player count](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#maximum-player-count) being reached.
+**Server Player**: There is a special “Server `Player`” instance that represents the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). Its primary use is in checking or setting which player “owns” an entity (it’s the “server player” if none of the human players do). The server player does not count against the [maximum player count](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#maximum-player-count) being reached.
 
 **ID and Index**: Each `Player` has an `id` and an `index` which serve different purposes (see below). From a `Player` instance you can access `PlayerBodyBart`s, e.g. `aPlayer.leftHand` or get their name `aPlayer.name.get()`. There are many `CodeBlockEvents` associated with players (such as entering/exiting a world, grabbing entities, and much). All aspects of players are described in detail in the next sections.
 
@@ -4800,67 +4800,67 @@ Each world has a maximum player count that controls the maximum number of player
 | `Entity` Class Member | Description |
 | --- | --- |
 | **Identification** |  |
-| [deviceType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) | The type of device the player is using |
-| [id](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-id) | ID in this instance |
-| [index](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-indices) | Index in this instance |
-| [isInBuildMode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#identifying-players) | Is the player in an editor instance and in build mode |
-| [name](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#identifying-players) | Readonly `string`[Horizon Property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) of the player’s name |
+| [deviceType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) | The type of device the player is using |
+| [id](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-id) | ID in this instance |
+| [index](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices) | Index in this instance |
+| [isInBuildMode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#identifying-players) | Is the player in an editor instance and in build mode |
+| [name](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#identifying-players) | Readonly `string`[Horizon Property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) of the player’s name |
 | **Body Parts** |  |
-| [foot](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) | Player’s foot reference object |
-| [head](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) | Player’s head object |
-| [leftHand](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) | Player’s left hand object |
-| [rightHand](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) | Player’s right hand object |
-| [torso](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) | Player’s torso object |
+| [foot](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s foot reference object |
+| [head](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s head object |
+| [leftHand](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s left hand object |
+| [rightHand](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s right hand object |
+| [torso](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s torso object |
 | **Pose** |  |
-| [clearAvatarGripPoseOverride](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripted-grip-pose-animation) | Remove the current grip pose override |
-| [playAvatarAnimation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-animation) | Play avatar animation (currently unsupported) |
-| [playAvatarGripPoseAnimationByName](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripted-grip-pose-animation) | Play a grip pose animation |
-| [setAvatarGripPoseOverride](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripted-grip-pose) | Set a grip pose override |
-| [stopAvatarAnimation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-animation) | Stop avatar animation (currently unsupported) |
+| [clearAvatarGripPoseOverride](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-grip-pose-animation) | Remove the current grip pose override |
+| [playAvatarAnimation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation) | Play avatar animation (currently unsupported) |
+| [playAvatarGripPoseAnimationByName](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-grip-pose-animation) | Play a grip pose animation |
+| [setAvatarGripPoseOverride](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-grip-pose) | Set a grip pose override |
+| [stopAvatarAnimation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation) | Stop avatar animation (currently unsupported) |
 | **Transform** |  |
-| [forward](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) | Local forward of the player (measured from their hips) |
-| [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-position-and-rotation) | Position of the player’s center point |
-| [rotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-position-and-rotation) | Rotation of the player around their center point |
-| [up](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) | Local up of the player (measured from their hips) |
+| [forward](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | Local forward of the player (measured from their hips) |
+| [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-rotation) | Position of the player’s center point |
+| [rotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-rotation) | Rotation of the player around their center point |
+| [up](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | Local up of the player (measured from their hips) |
 | **Locomotion** |  |
-| [isGrounded](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-locomotion) | Is the player anchored “on the ground” (not falling or jumping) |
-| [locomotionSpeed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-locomotion) | The non-sprinting speed of the player |
-| [jumpSpeed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-locomotion) | The speed the player leaves the ground at when they jump |
+| [isGrounded](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion) | Is the player anchored “on the ground” (not falling or jumping) |
+| [locomotionSpeed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion) | The non-sprinting speed of the player |
+| [jumpSpeed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion) | The speed the player leaves the ground at when they jump |
 | **Physics** |  |
-| [applyForce](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-physics) | Apply a force to the player |
-| [configurePhysicalHands](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-physics) | Configure if a [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)’s hands can collide with entities in the world |
-| [gravity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-physics) | The vertical acceleration of the player (when they are in the air) |
-| [throwHeldItem](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#throwing) | Throw the currently held item |
-| [velocity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-physical-velocity) | The player’s velocity due to physics (not including locomotion) |
+| [applyForce](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics) | Apply a force to the player |
+| [configurePhysicalHands](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics) | Configure if a [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s hands can collide with entities in the world |
+| [gravity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics) | The vertical acceleration of the player (when they are in the air) |
+| [throwHeldItem](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#throwing) | Throw the currently held item |
+| [velocity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-physical-velocity) | The player’s velocity due to physics (not including locomotion) |
 | **Quests / Achievements** |  |
-| [hasCompletedAchievement](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests) | Check if the player has completed the given achievement |
-| [setAchievementComplete](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests) | Set if the player has completed the given achievement |
+| [hasCompletedAchievement](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests) | Check if the player has completed the given achievement |
+| [setAchievementComplete](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests) | Set if the player has completed the given achievement |
 | **UI / Focused Interaction** |  |
-| [enterFocusedInteractionMode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction) | Change a [Mobile/Web player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) from locomotion mode to focus mode (where they can tap on the screen instead of moving the avatar). Must be called on a [player device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). |
-| [exitFocusedInteractionMode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction) | Return a [Mobile/Web player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) to normal locomotion mode. Must be called on a [player device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). |
-| [focusedInteraction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction) | The `FocusedInteraction` object for the player. |
-| [unfocusUI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui) | Exit a player from the UI they are focused on |
+| [enterFocusedInteractionMode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | Change a [Mobile/Web player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) from locomotion mode to focus mode (where they can tap on the screen instead of moving the avatar). Must be called on a [player device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
+| [exitFocusedInteractionMode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | Return a [Mobile/Web player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) to normal locomotion mode. Must be called on a [player device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
+| [focusedInteraction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | The `FocusedInteraction` object for the player. |
+| [unfocusUI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui) | Exit a player from the UI they are focused on |
 | **Aim Assist** |  |
-| [clearAimAssistTarget](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#aim-assist) | Remove the aim-assist target |
-| [setAimAssistTarget](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#aim-assist) | Configure a [Mobile/Web player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)’s cursor to be attracted to a given target |
+| [clearAimAssistTarget](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#aim-assist) | Remove the aim-assist target |
+| [setAimAssistTarget](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#aim-assist) | Configure a [Mobile/Web player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s cursor to be attracted to a given target |
 | **Voip** |  |
-| [setVoipSetting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#voip-settings) | Configure who can hear the player |
+| [setVoipSetting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings) | Configure who can hear the player |
 
 ### Identifying Players
 
-Players have three *readonly*[Horizon Properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) you can use to get information about them:
+Players have three *readonly*[Horizon Properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) you can use to get information about them:
 
-| [Player class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class) readonly Horizon Property | Type | Notes |
+| [Player class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) readonly Horizon Property | Type | Notes |
 | --- | --- | --- |
-| [deviceType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) | `PlayerDeviceType` | What kind of device the player is currently using. Values are `VR`, `Mobile`, and `Desktop`. |
-| isInBuildMode | `boolean` | Returns true if the player is in an [editor instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-selection)**[is in edit mode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#visitation-modes-edit-preview-and-publish)**. |
+| [deviceType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) | `PlayerDeviceType` | What kind of device the player is currently using. Values are `VR`, `Mobile`, and `Desktop`. |
+| isInBuildMode | `boolean` | Returns true if the player is in an [editor instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection)**[is in edit mode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)**. |
 | name | `string` | The player’s in-game name. |
 
 Players in Horizon all have a global “account id”. There is no way to access this id directly, although Horizon uses it under the hood for persistence (player variables, leaderboards, and quests). Within an instance players can be referenced by the `id` or the `index` they are assigned on entry. Player `index`es are reused when players leave; `id`s are not.
 
 #### Player Device Type
 
-The `deviceType`[readonly Horizon property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) on the [Player class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class) let’s you check what kind of device a player is on. It returns an instance of `PlayerDeviceType` which has values of `VR`, `Mobile`, and `Desktop`.
+The `deviceType`[readonly Horizon property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the [Player class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) let’s you check what kind of device a player is on. It returns an instance of `PlayerDeviceType` which has values of `VR`, `Mobile`, and `Desktop`.
 
 Here are some example functions that may be useful:
 
@@ -4894,7 +4894,7 @@ Since you can compare two `Player` instances directly with `===` and `!==` there
 
 #### Player Indices
 
-When a player (human or [NPC](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo)) enters a world they are also assigned an `index`. The `index` will be a number between `0` and `n-1`, where `n` is the maximum number of players allowed in an instance. When a player enters an instance they are assigned an `index` value that is not currently used by any other player. When they leave that value becomes available again.
+When a player (human or [NPC](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)) enters a world they are also assigned an `index`. The `index` will be a number between `0` and `n-1`, where `n` is the maximum number of players allowed in an instance. When a player enters an instance they are assigned an `index` value that is not currently used by any other player. When they leave that value becomes available again.
 
 For example: if three players arrive in an instance they may be assigned `index` values of `0`, `1`, and `2`. If they player with `index``1` leaves then the next player that arrives may get index `1` again.
 
@@ -4928,9 +4928,9 @@ The `World` class has the method:
 getPlayers() : Player[]
 ```
 
-which returns the current list of players in the world (human and [NPC](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo), but does not include the server player). Note that the order of this array should not be relied upon. The order may change between calls and there is no relation to the `index` property described above.
+which returns the current list of players in the world (human and [NPC](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo), but does not include the server player). Note that the order of this array should not be relied upon. The order may change between calls and there is no relation to the `index` property described above.
 
-Note that since `getPlayers` returns both human and [NPC](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo) players you can use [the player type function](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#checking-human-vs-npc-vs-server) to get just the human players, or just the NPCs:
+Note that since `getPlayers` returns both human and [NPC](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo) players you can use [the player type function](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#checking-human-vs-npc-vs-server) to get just the human players, or just the NPCs:
 
 ```
 const humanPlayers = this.world.getPlayers().filter(
@@ -4938,7 +4938,7 @@ const humanPlayers = this.world.getPlayers().filter(
 )
 ```
 
-When a [player leaves](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), they `Player` instance is no long in the `getPlayers()` array. So you can also use this helper:
+When a [player leaves](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), they `Player` instance is no long in the `getPlayers()` array. So you can also use this helper:
 
 ```
 import { Player, World } from 'horizon/core'
@@ -4951,7 +4951,7 @@ function isPlayerInWorld(player: Player, world: World) {
 
 #### Checking Human vs NPC vs Server
 
-Human players and [NPC](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo) players both use the `Player` class. You can use the function below to detect the type of a player:
+Human players and [NPC](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo) players both use the `Player` class. You can use the function below to detect the type of a player:
 
 ```
 import { Player, World } from 'horizon/core'
@@ -4976,15 +4976,15 @@ function getPlayerType(player: Player, world: World) : PlayerType {
 
 #### Server Player
 
-There is a special instance of the `Player` class that represents the [*server*](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). It has an `id` but no meaningful `index`. All `Player` APIs work for the server player, but return default values (example: the location will return the origin; name will return the empty string).
+There is a special instance of the `Player` class that represents the [*server*](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). It has an `id` but no meaningful `index`. All `Player` APIs work for the server player, but return default values (example: the location will return the origin; name will return the empty string).
 
 The **server player does not count as one of the human player**s:
 
 * it does not get assigned an `index`
-* it does not count toward the [maximum player count](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#maximum-player-count) being reached
-* it is not included in the [getPlayer()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#listing-all-players) array
+* it does not count toward the [maximum player count](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#maximum-player-count) being reached
+* it is not included in the [getPlayer()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) array
 
-The server player [owns all entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) when the world starts (or when entities are [spawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) in).
+The server player [owns all entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) when the world starts (or when entities are [spawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) in).
 
 The `World` class has the method
 
@@ -5012,7 +5012,7 @@ which can be used to access the server player. The primary use cases are:
 
 #### Local Player
 
-Every script is run on an execution client associated with a `Player` (see [Network](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network) for more info). If the script is set to *default* mode, then it is always running on the server. If the script is set to *local* then is can be transferred to and from the servers and the local devices of players.
+Every script is run on an execution client associated with a `Player` (see [Network](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network) for more info). If the script is set to *default* mode, then it is always running on the server. If the script is set to *local* then is can be transferred to and from the servers and the local devices of players.
 
 If a script is running locally on a human-player’s device then that player is the *local player* for that script. If the script is running on the server then the *server player* is the *local player* for that script.
 
@@ -5026,71 +5026,71 @@ for determining which `Player`’s device the current script is running one. Thi
 
 ### Player Entering and Exiting a World
 
-When a player (human or [NPC](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo)) enters an [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) they are assigned a [player id](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-id) and a [player index](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-indices). The [built-in CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events)`OnPlayerEnterWorld` is then sent to all [component instances](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class) that have [registered to receive](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) to it. Likewise `OnPlayerEnterWorld` is [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player leaves the instance.
+When a player (human or [NPC](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)) enters an [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) they are assigned a [player id](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-id) and a [player index](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices). The [built-in CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)`OnPlayerEnterWorld` is then sent to all [component instances](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) that have [registered to receive](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) to it. Likewise `OnPlayerEnterWorld` is [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player leaves the instance.
 
-**Is in World**: You can check if a `Player` instance is (still) in the world by using the [isPlayerInWorld helper function](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#listing-all-players).
+**Is in World**: You can check if a `Player` instance is (still) in the world by using the [isPlayerInWorld helper function](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players).
 
-**CodeBlockEvents**: Both events in the table below are [🔈 server-broadcast CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events); you can connect to any [server-owned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) entity to receive them.
+**CodeBlockEvents**: Both events in the table below are [🔈 server-broadcast CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events); you can connect to any [server-owned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) entity to receive them.
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
-| 🔈`OnPlayerEnterWorld` | `player: Player` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player enters the instance. This occurs when a **player [travels](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-selection) to the instance**; it also happens when a player goes from **[edit mode to preview mode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#visitation-modes-edit-preview-and-publish)** in the editor. The player is already in [getPlayers()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#listing-all-players) when this event is sent. |
-| 🔈`OnPlayerExitWorld` | `player: Player` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player exits the instance. This occurs when a **player [travels](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#travel-doors-and-links) away from the instance** or quits Horizon; it also happens when a player goes from **[preview mode to edit mode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#visitation-modes-edit-preview-and-publish)** in the editor. The player is no longer in [getPlayers()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#listing-all-players) when this event is sent (unless they are in build mode; then they remain in the array). |
+| 🔈`OnPlayerEnterWorld` | `player: Player` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player enters the instance. This occurs when a **player [travels](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection) to the instance**; it also happens when a player goes from **[edit mode to preview mode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)** in the editor. The player is already in [getPlayers()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) when this event is sent. |
+| 🔈`OnPlayerExitWorld` | `player: Player` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player exits the instance. This occurs when a **player [travels](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#travel-doors-and-links) away from the instance** or quits Horizon; it also happens when a player goes from **[preview mode to edit mode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)** in the editor. The player is no longer in [getPlayers()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) when this event is sent (unless they are in build mode; then they remain in the array). |
 
-When a player exits the world, [all entities owned by them](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) are [transferred to the server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer).
+When a player exits the world, [all entities owned by them](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) are [transferred to the server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer).
 
-The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
+The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480310115_656797590191529_1870444710099372950_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RRV_DRR84TMQ7kNvwG4_HBC&_nc_oc=AdmiHdsEJ7XTc35dY-wDjacga4BDW_HIYY9Uux6YzLfBj78LPgCw1nQog38gWf7YKx0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfhARq09TB33MZM7tfT4KAo0X_KWo_Vv0xadXx1AWPyTGg&oe=69464D59)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480310115_656797590191529_1870444710099372950_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=c9TOJ0HfazAQ7kNvwF0etZ1&_nc_oc=Adk1l0kHsthdM6na4oOArXftm-w8VseZfCORpwuyBSNDy0EcQW6BDmx0x2pL8qr0rzs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AflowxPUQ24rfnUThbQirVHFe8kaBbqOMc62f5gWhQXX0w&oe=694BCB99)
 
 `OnPlayerEnterWorld` and `OnPlayerExitWorld` are sent to only server-owned entities
 
-If an entity is [owned by a player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) then the two code blocks above *are not* sent to it. Any component connected to receive those events from that entity will not get them.
+If an entity is [owned by a player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) then the two code blocks above *are not* sent to it. Any component connected to receive those events from that entity will not get them.
 
 bug `OnPlayerExitWorld` is not sent if a player leaves suddenly.
 
-When a player leaves suddenly (crash, quit the Horizon app, turn off the device, etc...) then some player-related events such as [OnPlayerExitWorld](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), [OnAttachEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), [OnGrabEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) and [OnMultiGrabEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities)*may not be sent*. However, `OnPlayerEnterAFK` is sent immediately. So if you need to ensure a player releases held entities when they leave the world, then [detach](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#detaching)/[forceRelease](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release) the entities on `OnPlayerEnterAFK` and [attach](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripted-attach)/[forceHold](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-grabbing) them on `OnPlayerExitAFK`. Note [`getPlayers()`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#listing-all-players) is only affected by `OnPlayerEnterWorld` and `OnPlayerExitWorld`, so it will not have an accurate list of all players in the instance.
+When a player leaves suddenly (crash, quit the Horizon app, turn off the device, etc...) then some player-related events such as [OnPlayerExitWorld](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnAttachEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnGrabEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and [OnMultiGrabEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)*may not be sent*. However, `OnPlayerEnterAFK` is sent immediately. So if you need to ensure a player releases held entities when they leave the world, then [detach](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#detaching)/[forceRelease](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release) the entities on `OnPlayerEnterAFK` and [attach](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach)/[forceHold](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing) them on `OnPlayerExitAFK`. Note [`getPlayers()`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) is only affected by `OnPlayerEnterWorld` and `OnPlayerExitWorld`, so it will not have an accurate list of all players in the instance.
 
-bug Entities are not [transferred to the server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ownership-transfer) when leaving [preview mode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#visitation-modes-edit-preview-and-publish).
+bug Entities are not [transferred to the server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) when leaving [preview mode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish).
 
-When `OnPlayerExitWorld` is called on a player all the entities they own are [automatically transferred to the server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#automatic-ownership-transfers). However this does not happen when going from preview to edit mode (when in an [editor instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances)). This can result in unusual behavior where entities continue to react to a player that is in build mode. To avoid this, listen to the `OnPlayerExitWorld` event and assign entities back to the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player).
+When `OnPlayerExitWorld` is called on a player all the entities they own are [automatically transferred to the server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#automatic-ownership-transfers). However this does not happen when going from preview to edit mode (when in an [editor instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances)). This can result in unusual behavior where entities continue to react to a player that is in build mode. To avoid this, listen to the `OnPlayerExitWorld` event and assign entities back to the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
 
 In build mode, `OnPlayerEnterWorld` can occur twice in succession for one player id.
 
-In published mode, `OnPlayerEnterWorld` occurs only once per [player id](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-id). In build mode, a player on the desktop editor triggers `OnPlayerEnterWorld` twice when they enter Preview mode from a stopped instance. This means that if you’re tracking a list of all players using `OnPlayerEnterWorld`, add the new player to a set or dictionary instead of an array.
+In published mode, `OnPlayerEnterWorld` occurs only once per [player id](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-id). In build mode, a player on the desktop editor triggers `OnPlayerEnterWorld` twice when they enter Preview mode from a stopped instance. This means that if you’re tracking a list of all players using `OnPlayerEnterWorld`, add the new player to a set or dictionary instead of an array.
 
 ### Player Enter and Exit AFK
 
-A [player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) in an [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) can become **inactive**. The avatar of a player who has gone afk becomes a spinning coin.
+A [player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) in an [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) can become **inactive**. The avatar of a player who has gone afk becomes a spinning coin.
 
 Horizon calls this inactive state: **AFK** (standing for Away From Keyboard). The exact rules for inactivity are not documented and are subject to change. Roughly speaking:
 
-**Becoming inactive (AFK)**: A mobile player becomes inactive when they go for a while without touching the screen, when they temporarily switch to a different app, or when they quit the app. A [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) goes inactive when they take off their headset (or even raise it to their forehead) or when they open the Quest OS menu while in the app.
+**Becoming inactive (AFK)**: A mobile player becomes inactive when they go for a while without touching the screen, when they temporarily switch to a different app, or when they quit the app. A [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) goes inactive when they take off their headset (or even raise it to their forehead) or when they open the Quest OS menu while in the app.
 
-**Becoming active (no longer AFK)**: A mobile player becomes active when they foreground the app and begin touching the screen. A [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) becomes active when they put their headset back on or close the OS menu.
+**Becoming active (no longer AFK)**: A mobile player becomes active when they foreground the app and begin touching the screen. A [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) becomes active when they put their headset back on or close the OS menu.
 
-There are two [built-in code block events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) associated with inactivity / AFK. Both are [🔈 server-broadcast CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events); you can connect to any server-owned entity to receive them.
+There are two [built-in code block events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) associated with inactivity / AFK. Both are [🔈 server-broadcast CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events); you can connect to any server-owned entity to receive them.
 
-| [Built-In CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
-| 🔈`OnPlayerEnterAFK` | `player: Player` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player becomes inactive. |
-| 🔈`OnPlayerExitAFK` | `player: Player` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player is no longer inactive. |
+| 🔈`OnPlayerEnterAFK` | `player: Player` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player becomes inactive. |
+| 🔈`OnPlayerExitAFK` | `player: Player` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player is no longer inactive. |
 
-See the [diagram in the player enter / exit section](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world) for a detailed overview of when the above two events are sent.
+See the [diagram in the player enter / exit section](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) for a detailed overview of when the above two events are sent.
 
 `OnPlayerEnterAFK` and `OnPlayerExitAFK` are sent to only server-owned entities.
 
-If an entity is [owned by a player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) then the two code blocks above *are not* sent to it. Any component connected to receive those events from that entity will not get them.
+If an entity is [owned by a player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) then the two code blocks above *are not* sent to it. Any component connected to receive those events from that entity will not get them.
 
 ### Player Locomotion
 
-A [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) locomotes (moves the avatar) using their controllers. A [Mobile/Web player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) locomotes via mouse and keyboard or via on-screen controls. These inputs are applied during the [simulation phase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simulation-phase) of each frame. You can also “take over” and override the inputs using [player controls](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls).
+A [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) locomotes (moves the avatar) using their controllers. A [Mobile/Web player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) locomotes via mouse and keyboard or via on-screen controls. These inputs are applied during the [simulation phase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) of each frame. You can also “take over” and override the inputs using [player controls](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls).
 
-The table below shows some methods related to player locomotion. There are additional ways to interact with player movement in [player physics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-physics).
+The table below shows some methods related to player locomotion. There are additional ways to interact with player movement in [player physics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics).
 
-The [Player class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class) has a few properties related to locomotion:
+The [Player class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) has a few properties related to locomotion:
 
-| [Player class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class) locomotion [Horizon property](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) | Type | Notes |
+| [Player class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) locomotion [Horizon property](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) | Type | Notes |
 | --- | --- | --- |
 | isGrounded | `ReadableHorizonProperty` `<boolean>` | A read-only `boolean` property denoting if the player is on the ground and able to walk around (grounded) or in the air due to falling or jumping (not grounded). |
 | jumpSpeed | `HorizonProperty` `<number>` | A read-write `number` property of how fast the player jumps in m/s. The value must be between `0` and `45`. `0` means that the player can’t jump. The default is `4.3` m/s. |
@@ -5098,15 +5098,15 @@ The [Player class](https://developers.meta.com/horizon-worlds/learn/documentatio
 
 ### Player Position and Rotation
 
-The [Player class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class) has properties for `position` and `rotation`. These are [Horizon properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) and so you must call `get()` (e.g. `player.position.get()`). The `position` properties returns the world location of the player’s center point (which is near the middle of their hips).
+The [Player class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) has properties for `position` and `rotation`. These are [Horizon properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) and so you must call `get()` (e.g. `player.position.get()`). The `position` properties returns the world location of the player’s center point (which is near the middle of their hips).
 
-**Moving the player**: You can only `set` player position if “Custom Player Movement” is enabled in [Player Settings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#publishing-and-player-settings). Note that there are some subtleties with [player position and physics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-position-and-physics).
+**Moving the player**: You can only `set` player position if “Custom Player Movement” is enabled in [Player Settings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings). Note that there are some subtleties with [player position and physics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-physics).
 
-**Rotating the player**: The only way to rotate a player is to have them enter an [avatar pose gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-pose-gizmo) and then script the movement of the gizmo. There is currently no way to force a player into a pose gizmo, nor to prevent them from exiting.
+**Rotating the player**: The only way to rotate a player is to have them enter an [avatar pose gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-pose-gizmo) and then script the movement of the gizmo. There is currently no way to force a player into a pose gizmo, nor to prevent them from exiting.
 
 ### Player Body Parts
 
-A [player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) has a number of properties for accessing body parts: `head`, `torso`, `foot`, `leftHand`, and `rightHand`; each return an instance of the class `PlayerBodyPart` (or the more specific `PlayerHand`). They are [Horizon properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) and so you must use `get()`:
+A [player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) has a number of properties for accessing body parts: `head`, `torso`, `foot`, `leftHand`, and `rightHand`; each return an instance of the class `PlayerBodyPart` (or the more specific `PlayerHand`). They are [Horizon properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) and so you must use `get()`:
 
 ```
 const torso = player.torso.get()
@@ -5114,9 +5114,9 @@ const torso = player.torso.get()
 
 The `foot` body part is an “abstract” location in between the two feet (directly below the avatar center point near the hips).
 
-Each body part has a has the standard global transform properties: [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position), [rotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#rotation), and [scale](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scale) as well as [local](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) versions: `localPosition`, `localRotation`, and `localScale`. There is also `forward` and `up`.
+Each body part has a has the standard global transform properties: [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position), [rotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#rotation), and [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale) as well as [local](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) versions: `localPosition`, `localRotation`, and `localScale`. There is also `forward` and `up`.
 
-Additionally you can use `bodyPart.player` to identify which [player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) the part belongs to and `bodyPart.type` to identify which part of the body it is (e.g. `player.leftHand.get().type` returns `PlayerBodyPartType.LeftHand`).
+Additionally you can use `bodyPart.player` to identify which [player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) the part belongs to and `bodyPart.type` to identify which part of the body it is (e.g. `player.leftHand.get().type` returns `PlayerBodyPartType.LeftHand`).
 
 Body parts have two helper methods: `getPosition` and `getRotation` that let you conditionally pass in an instance of the `Space` enum:
 
@@ -5125,7 +5125,7 @@ Body parts have two helper methods: `getPosition` and `getRotation` that let you
 
 #### Getting a body part’s local *right* vector.
 
-Unlike for entities, there is no built-in `right` property to get the [local position x-axis](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) direction. You can compute it yourself with:
+Unlike for entities, there is no built-in `right` property to get the [local position x-axis](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) direction. You can compute it yourself with:
 
 ```
 const torso = player.torso.get()
@@ -5135,25 +5135,25 @@ const torsoForward = torso.forward.get()
 const torsoRight = torsoUp.cross(torsoForward)
 ```
 
-We did “up cross forward” because [Horizon is left-handed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#coordinate-system); “forward cross up” gives the local *left* axis instead.
+We did “up cross forward” because [Horizon is left-handed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system); “forward cross up” gives the local *left* axis instead.
 
 #### Player Hand
 
-`PlayerHand` is a subclass of [PlayerBodyPart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts), thus inheriting all of the behaviors and properties outlined above.
+`PlayerHand` is a subclass of [PlayerBodyPart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts), thus inheriting all of the behaviors and properties outlined above.
 
 `PlayerHand` also has a property `handedness`, returning either `Handedness.Left` or `Handedness.Right`.
 
-Additionally, `PlayerHand` has the method `playHaptics` which is used to [make a VR player’s controllers vibrate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#haptics).
+Additionally, `PlayerHand` has the method `playHaptics` which is used to [make a VR player’s controllers vibrate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#haptics).
 
 ### Player Pose
 
-For [Mobile/Web players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type), it is possible to activate or deactivate an avatar pose through scripting or through the configuration of grabbable items.
+For [Mobile/Web players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type), it is possible to activate or deactivate an avatar pose through scripting or through the configuration of grabbable items.
 
 #### Grip Pose
 
-Grip poses allow for a easy avatar configuration, activating as soon as the [Mobile/Web player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) grabs an entity (pistol, sword, etc). These poses do not require any scripting and in most cases have a secondary animation (recoil, attack sword motion, etc) which activate when the player presses the action button (Left mouse click on PC and on-screen button for mobile).
+Grip poses allow for a easy avatar configuration, activating as soon as the [Mobile/Web player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) grabs an entity (pistol, sword, etc). These poses do not require any scripting and in most cases have a secondary animation (recoil, attack sword motion, etc) which activate when the player presses the action button (Left mouse click on PC and on-screen button for mobile).
 
-To configure a pose animation through on a [grabbable entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities):
+To configure a pose animation through on a [grabbable entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities):
 
 - Click on the entity in the desktop editor to open its properties.
 - Scroll down to the More category, and locate the Avatar Pose option.
@@ -5163,7 +5163,7 @@ To test the selection, enter preview mode and grab the object. Observe how the a
 
 #### Scripted Grip Pose
 
-Scripted animations allow for more control over the behavior of [Mobile/Web player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) avatar poses. You can set the pose the avatar is using with respect to a held item (the **grip pose**):
+Scripted animations allow for more control over the behavior of [Mobile/Web player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) avatar poses. You can set the pose the avatar is using with respect to a held item (the **grip pose**):
 
 ```
 // Player
@@ -5195,7 +5195,7 @@ Other animations names not included in the enum are:
 
 #### Avatar Animation
 
-There are two methods on the [Player Class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class): `playAvatarAnimation` and `stopAvatarAnimation` which are currently **not supported** and are in `horizon/core` by error.
+There are two methods on the [Player Class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class): `playAvatarAnimation` and `stopAvatarAnimation` which are currently **not supported** and are in `horizon/core` by error.
 
 Likewise the types `PlayAnimationOptions`, `StopAnimationOptions`, `AnimationCallback`, `AnimationCallbackReason`, and `AnimationCallbackReasons` are also **currently unsupported**.
 
@@ -5203,13 +5203,13 @@ Likewise the types `PlayAnimationOptions`, `StopAnimationOptions`, `AnimationCal
 
 Horizon has the ability control *who can hear a player and from how far away*.
 
-It call this the **Voip Setting** (borrowing the term [VoIP](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual)) which can be configured with a number of values: **mute, whisper, nearby, *default*, extended, global** which representing increases ranges of being heard. Mute means that no one can hear the player, global means that everyone can hear the player (and with full volume). The other values represent a spectrum in between mute and global, with **default** being the recommended setting for most experiences (people in your general vicinity can hear and so can people farther away if you are loud). There is one more special VOIP Setting **environment**, which is described below.
+It call this the **Voip Setting** (borrowing the term [VoIP](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md)) which can be configured with a number of values: **mute, whisper, nearby, *default*, extended, global** which representing increases ranges of being heard. Mute means that no one can hear the player, global means that everyone can hear the player (and with full volume). The other values represent a spectrum in between mute and global, with **default** being the recommended setting for most experiences (people in your general vicinity can hear and so can people farther away if you are loud). There is one more special VOIP Setting **environment**, which is described below.
 
 There are no team-based voip settings (there are no 'voice channels').
 
 There is (currently) no way to configure voip settings between two specific players or to configure voice channels. Specifically you can’t make a team game where a whole hears each other globally but the other team hears them whisper. When a player is set to global or whisper, **the setting controls how everyone else hears them**.
 
-The **[environment gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#environment-gizmo)** allows you to set a VOIP Setting for the whole world. All players will be assigned this value upon joining.
+The **[environment gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#environment-gizmo)** allows you to set a VOIP Setting for the whole world. All players will be assigned this value upon joining.
 
 You can change the VOIP setting for a given player in TypeScript with:
 
@@ -5225,7 +5225,7 @@ player.setVoipSetting(VoipSetting.Environment)
 
 Spawning Environment Gizmos
 
-When a new environment gizmo is [spawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning), all players will be updated to have its VOIP setting. If the spawned gizmo is set to `Environment` then all players will be returned to the setting in the last active gizmo.
+When a new environment gizmo is [spawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), all players will be updated to have its VOIP setting. If the spawned gizmo is set to `Environment` then all players will be returned to the setting in the last active gizmo.
 
 **World’s Player Settings’ VOIP Setting**: there is a top-level setting in *Player Settings* called *VOIP Settings* that can be set to `Global` and `Local`. When set to `Global` every player has **global** as their setting, it is not possible to change any VOIP settings further (all gizmos and TypeScript related to VOIP are ignored). The `Local` setting gives the world the **default** setting, which can then be further changed by environment gizmos and TypeScript.
 
@@ -5235,9 +5235,9 @@ The World’s Player Settings’ VOIP Settings toggle has bugs. We recommend tha
 
 ### Haptics
 
-A [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)’s controllers can be made to vibrate to add immersion to an experience. There is currently no way to vibrate a mobile device.
+A [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s controllers can be made to vibrate to add immersion to an experience. There is currently no way to vibrate a mobile device.
 
-To vibrate a [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)’s controllers, choose a [player hand](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) and then call the `playHaptics` method on it with a duration (in seconds), a strength (via the `HapticsStrength` enum), and a sharpness (via the `HapticsSharpness` enum). For example:
+To vibrate a [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s controllers, choose a [player hand](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) and then call the `playHaptics` method on it with a duration (in seconds), a strength (via the `HapticsStrength` enum), and a sharpness (via the `HapticsSharpness` enum). For example:
 
 ```
 player.leftHand.playHaptics(0.5, HapticStrength.Medium, HapticSharpness.Sharp)
@@ -5270,11 +5270,11 @@ The supported values for haptics sharpness are:
 
 ### Aim Assist
 
-For experiences at involve the player aiming at something, Horizon offers the ability to \*assist a player with their aim\*\*. This only works for [Mobile/Web players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type).
+For experiences at involve the player aiming at something, Horizon offers the ability to \*assist a player with their aim\*\*. This only works for [Mobile/Web players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type).
 
-There are two methods on the [Player class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class) related to aiming:
+There are two methods on the [Player class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) related to aiming:
 
-* **Setting an Aim Assist Target**: You can enable aim assist, via `player.setAimAssistTarget(target, options)`, to help `player` aim at `target`. You can call `setAimAssistTarget` again to change the target. The `setAimAssistTarget` method allows you to specify which [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players), [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities), or [location](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) you want to help the player aim at. It does this by “pulling” the center of the screen in the direction of the target.
+* **Setting an Aim Assist Target**: You can enable aim assist, via `player.setAimAssistTarget(target, options)`, to help `player` aim at `target`. You can call `setAimAssistTarget` again to change the target. The `setAimAssistTarget` method allows you to specify which [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players), [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities), or [location](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) you want to help the player aim at. It does this by “pulling” the center of the screen in the direction of the target.
 
   ```
     // Player
@@ -5312,27 +5312,27 @@ throwHeldItem(options?: Partial<ThrowOptions>): void;
 
 ## Grabbing and Holding Entities
 
-When a [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) grabs an entity is stays grabbed until they release the trigger. The entity is only held as long as they are holding the entity. A screen-based player uses an on-screen button to grab and then (later) a different on-screen button to release.
+When a [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) grabs an entity is stays grabbed until they release the trigger. The entity is only held as long as they are holding the entity. A screen-based player uses an on-screen button to grab and then (later) a different on-screen button to release.
 
-There is no way to check if an entity is currently held but you can listen to [grab events](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events) to know when an entity is grabbed or released.
+There is no way to check if an entity is currently held but you can listen to [grab events](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) to know when an entity is grabbed or released.
 
-There are rules for when an entity [can be grabbed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#can-grab) as well as when a player can [take from another player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#setting-who-can-take-from-holder). You [force a player to grab](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-grabbing) as well as [force a player to release](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release) an entity.
+There are rules for when an entity [can be grabbed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab) as well as when a player can [take from another player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-take-from-holder). You [force a player to grab](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing) as well as [force a player to release](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release) an entity.
 
-When a player grabs an entity, [ownership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) is [transferred to that player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbables-and-ownership).
+When a player grabs an entity, [ownership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) is [transferred to that player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbables-and-ownership).
 
 ### Creating a Grabbable Entity
 
-Select an entity and then in the Properties panel set its `Motion` to `Interactive` and `Interaction` to `Grabbable` or `Both`. The entity *must* be a root entity or it will not actually be allowed to be grabbed. Ensure that `collidable` is `true` and that (if it is a group) there is an [active collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders) within it.
+Select an entity and then in the Properties panel set its `Motion` to `Interactive` and `Interaction` to `Grabbable` or `Both`. The entity *must* be a root entity or it will not actually be allowed to be grabbed. Ensure that `collidable` is `true` and that (if it is a group) there is an [active collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) within it.
 
 Grabbables cannot be inside dynamic objects
 
-A grabbable entity must be a *root entity* (it can only have [Static Objects](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-vs-dynamic-entities) in its ancestor chain).
+A grabbable entity must be a *root entity* (it can only have [Static Objects](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities) in its ancestor chain).
 
 Entities must be collidable to be grabbed!
 
 If a grabbable entity is not `collidable` then it cannot be grabbed. If it is a group and none of the colliders within it are active then it cannot be grabbed, even if the root is collidable!
 
-A grabbable entity can be configured to automatically modify a [Mobile/Web player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)’s pose when they grab the item and also configure what action buttons are on-screen while holding the entity. For more details [see the article on configuring held items for Mobile/Web players](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/intro-to-grabbable-entities).
+A grabbable entity can be configured to automatically modify a [Mobile/Web player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s pose when they grab the item and also configure what action buttons are on-screen while holding the entity. For more details [see the article on configuring held items for Mobile/Web players](/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md).
 
 ### Can Grab
 
@@ -5341,15 +5341,15 @@ For an entity to be grabbable it needs:
 - To be a grabbable entity
   - `Motion` to be `Interactive`
   - `Interaction` to be `Grabbable` or `Both`
-  - [All ancestors, if any, are Meshes and Empty Objects with Motion set to None](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities).
+  - [All ancestors, if any, are Meshes and Empty Objects with Motion set to None](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities).
 - To be currently grabbable
   - `simulated` set to `true`
-  - At least one [active collider](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#active-colliders) within it (which is not occluded from the perspective of the player)
+  - At least one [active collider](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) within it (which is not occluded from the perspective of the player)
 - To be grabbable by this player
-  - Match the rules of [“Who Can Grab”](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#setting-who-can-grab)
-  - If it is currently held, match the rules of [“Who Can Take From Holder”](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#setting-who-can-take-from-holder)
+  - Match the rules of [“Who Can Grab”](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-grab)
+  - If it is currently held, match the rules of [“Who Can Take From Holder”](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-take-from-holder)
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481059196_656797573524864_5104228813229080794_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=bU6IBtbDkCgQ7kNvwFAgQHm&_nc_oc=AdmGt7bQ1JdJ7esw8efPikuF4fPdWD1oJNtSqbTJCx7UD6l4fQ6xshUi4ko8WhOUnDk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfgfUo2Xt7VHQbpFwZo2uHNUEcKfkpifNcBQ1oWzDtwUrA&oe=69464971)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481059196_656797573524864_5104228813229080794_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=6srvFY5bLucQ7kNvwFx6pQ_&_nc_oc=AdlOO3VBRTfXesT1m2rp-fCXM3HcDwEuE8-UAP8CUBOEIQEdBD9M8e8NVvipgIh0Afg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_Afn3DEr823xJlWqktbZ5x7Q2kQJQkC2K1ddD_e7MyUoQhQ&oe=694BC7B1)
 
 bug Entities with grab anchors can be grabbed even when collidable is set to false.
 
@@ -5362,7 +5362,7 @@ There is currently a bug where when an entity has a grab anchor it can still be 
 | Setting | Behavior |
 | --- | --- |
 | **Anyone** | Any player is eligible to grab the entity. |
-| **First To Grab Only** | If an entity has never been grabbed then any player can grab it. Once a player grabs it, only that player can re-grab it until [they exit the world instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world). Then anyone can grab the entity, and only next player to grab it can re-grab it until they exit the instance, and so on. |
+| **First To Grab Only** | If an entity has never been grabbed then any player can grab it. Once a player grabs it, only that player can re-grab it until [they exit the world instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world). Then anyone can grab the entity, and only next player to grab it can re-grab it until they exit the instance, and so on. |
 | **Script Assignee(s)** | A player is only eligible to grab the entity if they are in the list of allowed players assigned with `entity.setWhoCanGrab(listOfPlayers)`. |
 
 When the **Who Can Grab** setting is set to **Script Assignee(s)**, no one can grab the entity until `setWhoCanGrab` is called with an array of some players. You can pass an empty array to make an entity not grabbable.
@@ -5371,7 +5371,7 @@ When the **Who Can Grab** setting is *not***Script Assignee(s)**, the `setWhoCan
 
 bug \*\*First To Grab Only\*\* can cause an entity to be grabbable by no one, even after the player is no longer in the world.
 
-If a player kills the app after going AFK, [OnPlayerExitWorld](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world) is not triggered. When that happens, the entity will be ungrabbable unless that player re-enters the same world instance, thereby triggering OnPlayerExitWorld on that player and releasing held and attached entities. Our recommendation is to not use **First to Grab Only** because there would be no way to reset who can grab using scripts. Instead, set **Can Grab** to **Anyone**, or to **Script Assignee(s)** and `forceRelease` any held entity when a player is AFK.
+If a player kills the app after going AFK, [OnPlayerExitWorld](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) is not triggered. When that happens, the entity will be ungrabbable unless that player re-enters the same world instance, thereby triggering OnPlayerExitWorld on that player and releasing held and attached entities. Our recommendation is to not use **First to Grab Only** because there would be no way to reset who can grab using scripts. Instead, set **Can Grab** to **Anyone**, or to **Script Assignee(s)** and `forceRelease` any held entity when a player is AFK.
 
 `setWhoCanGrab` does not auto-update.
 
@@ -5389,7 +5389,7 @@ There is no way to have it auto-update when new players join the instance (examp
 
 Grab distance varies between platforms.
 
-For example [Mobile/Web](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) can grab entities when much farther away than [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type).
+For example [Mobile/Web](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can grab entities when much farther away than [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type).
 
 Grab-distance cannot be configured.
 
@@ -5397,7 +5397,7 @@ You cannot explicitly control from how far away an entity can be grabbed; howeve
 
 #### Grab Lock
 
-When an entity is [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-a-grabbable-entity) there is a setting its Properties called `Grab Lock`. When it is enabled a [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) no longer needs to keep the trigger (on their VR controller) pressed to hold the entity (which gets tiring after a while!). When `Grab lock` is enabled a [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) presses (and releases) the trigger to grab. When they release the trigger the entity *stays held*. When they later again press and release the trigger again, the entity is released.
+When an entity is [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-grabbable-entity) there is a setting its Properties called `Grab Lock`. When it is enabled a [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) no longer needs to keep the trigger (on their VR controller) pressed to hold the entity (which gets tiring after a while!). When `Grab lock` is enabled a [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) presses (and releases) the trigger to grab. When they release the trigger the entity *stays held*. When they later again press and release the trigger again, the entity is released.
 
 #### Force Grabbing
 
@@ -5408,23 +5408,23 @@ An entity can be forced into the hand of a player used the TypeScript API:
 forceHold(player: Player, hand: Handedness, allowRelease: boolean): void;
 ```
 
-It allows you to specify which player to have hold it, which hand they should hold it in, and whether or not that can *manually* release it. If `allowRelease` is `false` then the entity can only be released by [force release](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release). When `allowRelease` is set to `true` a [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) can release the entity by pressing the trigger on their VR controller; a screen-based player can release it using the on-screen release button.
+It allows you to specify which player to have hold it, which hand they should hold it in, and whether or not that can *manually* release it. If `allowRelease` is `false` then the entity can only be released by [force release](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release). When `allowRelease` is set to `true` a [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can release the entity by pressing the trigger on their VR controller; a screen-based player can release it using the on-screen release button.
 
-**Not quite instantaneous**: calling `forceHold` “animates” the entity into the players hand. It can be a number of frames until they are holding it and the [OnGrabStart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events) event is sent.
+**Not quite instantaneous**: calling `forceHold` “animates” the entity into the players hand. It can be a number of frames until they are holding it and the [OnGrabStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) event is sent.
 
 #### Example: Giving players a weapon when the game starts
 
-A common use case for force-grabbing is a game where every player has a sword, for example. When the round starts, you given all players a weapon by force-grabbing it. If you don’t want them to let go then set `allowRelease` to `false`. Then you can [force release](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release) the entities at the end of the game.
+A common use case for force-grabbing is a game where every player has a sword, for example. When the round starts, you given all players a weapon by force-grabbing it. If you don’t want them to let go then set `allowRelease` to `false`. Then you can [force release](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release) the entities at the end of the game.
 
 Danger: A force-grabbed item can be released 'accidentally'
 
-Even if an entity is force-grabbed with `allowRelease` set to `false`, it is still possible for the entity to be released by [force release](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release), including if the entity gets too far away from the player or is knocked out of their hand (by physics). If you want to ensure that players are always holding an entity during a game, then you should listen for the [grab-release](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events) event and have the player force-hold the entity again.
+Even if an entity is force-grabbed with `allowRelease` set to `false`, it is still possible for the entity to be released by [force release](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release), including if the entity gets too far away from the player or is knocked out of their hand (by physics). If you want to ensure that players are always holding an entity during a game, then you should listen for the [grab-release](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) event and have the player force-hold the entity again.
 
 ### Releasing Entities
 
 #### Manual release
 
-If an entity was manually grabbed or it was [force-grabbed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-grabbing) with `allowRelease` set to `true`, then a player can manually release it. If an entity was [force-grabbed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-grabbing) with `allowRelease` set to `false` then a player will not be able to manually release the entity and instead must wait on it (eventually) being done for them.
+If an entity was manually grabbed or it was [force-grabbed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing) with `allowRelease` set to `true`, then a player can manually release it. If an entity was [force-grabbed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing) with `allowRelease` set to `false` then a player will not be able to manually release the entity and instead must wait on it (eventually) being done for them.
 
 #### Force release
 
@@ -5436,17 +5436,17 @@ entity.forceRelease();
 
 on the held object. If the entity was **force held** then this is how you remove the entity from their hand.
 
-Note that the [PlayerControls’ triggerDropAction() method](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#triggering-player-input-actions) is just like force release (except you call it on the player instead of the entity and it does not work for [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)).
+Note that the [PlayerControls’ triggerDropAction() method](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#triggering-player-input-actions) is just like force release (except you call it on the player instead of the entity and it does not work for [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)).
 
 Some actions automatically force release.
 
 There are a number of ways in which a grabbable entity can be “automatically” force released:
 
 - **`Simulated` is set to `false`** - the entity is force released and then remains ungrabbable until `simulated` is set to `true` again.
-- **Entity is [attached](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities).** When an entity is attached to a player it is forced released (after attaching to the player, meaning that it is momentarily held *and* attached at the same time).
+- **Entity is [attached](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities).** When an entity is attached to a player it is forced released (after attaching to the player, meaning that it is momentarily held *and* attached at the same time).
 - **Entity moves too far away from player** - either via scripting, animation, or physics “knocking it out of the hand”.
 - **Player moves too far away entity** - either via scripting, physics, or player movement input “walking away while grabbing physics locked object”.
-- (Not recommended)**[Ownership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) is [changed while held](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbables-and-ownership)** - changing the owner of a held entity will cause it to be force-release from the player. The `grabEnd` event will *not* be sent in this case.
+- (Not recommended)**[Ownership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) is [changed while held](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbables-and-ownership)** - changing the owner of a held entity will cause it to be force-release from the player. The `grabEnd` event will *not* be sent in this case.
 
 Disabling collidability does *not* cause a force release.
 
@@ -5458,20 +5458,20 @@ This is a bug that may be fixed in the future. Be mindful of despawning assets t
 
 There are a number of events associated with grabbing and holding. The diagram below shows how the state of an entity changes with user-actions (highlighted in blue). Actions have associated `CodeBlockEvent`s that are sent. If a box contains multiple events then they are sent in the top-down order shown.
 
-| [Built-In CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
 | `OnGrabStart` | `isRightHand: boolean` `player: Player` | Sent when a player grabs an entity (it is sent *both* for the first hand grabbing *and* the second hand grabbing in a *multi-grab*). |
 | `OnGrabEnd` | `player: Player` | Sent when a player stops holding the entity (both hands off, for a multi-grab). |
 | `OnMultiGrabStart` | `player: Player` | Sent when a player adds their second hand to a multi-grab entity. |
 | `OnMultiGrabEnd` | `player: Player` | Sent when a multi-grab entity is no longer held with 2 hands (either because it is now held by 1 or by none). |
 
-The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
+The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480969837_656797440191544_3479717928870876208_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=NXKQXQQS1DwQ7kNvwE4HlV2&_nc_oc=AdmRgoNUcxZI0iG48RaJ90996AvNT0wE9CjbC7VsqYpAEOztbrdWG3sir9hfHex6ce8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfiPnJAbjR1zpCkkuaZTuA3w0MIcVmNgbGztaUN_M0IiDg&oe=69464413)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480969837_656797440191544_3479717928870876208_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=UwEmBXJxG9MQ7kNvwFinXDy&_nc_oc=Adm6BW2nJ-I_o0aNALtLbT3udJGcR4BSY0Vh3KuYAbcKr86LWyVSahNLhojTvAFQQV0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfnikOQD4Gr7YauPpd-KwQjAK2jBWobQWE9b7vUOmqwPDQ&oe=694BC253)
 
 bug `OnGrabEnd` and `OnMultiGrabEnd` are not sent if a player leaves suddenly.
 
-When a player leaves suddenly (crash, force quit, turn off the device, etc) then some player-related events such as [OnPlayerExit](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), [OnAttachEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), [OnGrabEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) and [OnMultiGrabEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities)*may not be sent*. However, `OnPlayerEnterAFK` is sent immediately. So if you need to ensure a player releases a held entity when they leave the instance (for example, if the entity has [“Who Can Take From Holder?”=NoOne](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#setting-who-can-take-from-holder)), then [forceRelease](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release) the entity on `OnPlayerEnterAFK` and [forceHold](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-grabbing) it on `OnPlayerExitAFK`. Note [`getPlayers()`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#listing-all-players) is only affected by `OnPlayerEnterWorld` and `OnPlayerExitWorld`, so it will not have an accurate list of all players in the instance.
+When a player leaves suddenly (crash, force quit, turn off the device, etc) then some player-related events such as [OnPlayerExit](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnAttachEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnGrabEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and [OnMultiGrabEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)*may not be sent*. However, `OnPlayerEnterAFK` is sent immediately. So if you need to ensure a player releases a held entity when they leave the instance (for example, if the entity has [“Who Can Take From Holder?”=NoOne](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-take-from-holder)), then [forceRelease](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release) the entity on `OnPlayerEnterAFK` and [forceHold](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing) it on `OnPlayerExitAFK`. Note [`getPlayers()`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) is only affected by `OnPlayerEnterWorld` and `OnPlayerExitWorld`, so it will not have an accurate list of all players in the instance.
 
 #### Hand-off (Switching Hands or Players)
 
@@ -5483,7 +5483,7 @@ The `OnGrabEnd` event may mean that an entity is about to grabbed by a different
 
 #### Moving Held Entities
 
-Normally the position and rotation of a held object is determined by the position and orientation of the player hand that is holding it (during the [physics stage](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-sequence) of the frame).
+Normally the position and rotation of a held object is determined by the position and orientation of the player hand that is holding it (during the [physics stage](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) of the frame).
 
 It is some times useful to invert that and instead have **the position and rotation of the held entity influence the position and rotation of the hand that is holding it**.
 
@@ -5501,7 +5501,7 @@ There are two approaches for moving a held entity:
 
 In a gun-recoil animation you want the player hand to be able to move freely, yet have the gun apply an additional local rotation “on top of it”. If you set the position / rotation of the entity when a user takes an action (such as firing the gun) then that change will only last for one frame (which might be ok for a quick recoil effect) because the entity’s position / rotation will be immediately updated the next frame from the avatar’s hand.
 
-If you want a multi-frame or ongoing effect then you need to set the position / rotation of the entity repeatedly in an [OnUpdate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#run-every-frame-prephysics-and-onupdate) callback. In summary: **every frame in which you want the entity change from where the avatar want it, you must set it yourself**.
+If you want a multi-frame or ongoing effect then you need to set the position / rotation of the entity repeatedly in an [OnUpdate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) callback. In summary: **every frame in which you want the entity change from where the avatar want it, you must set it yourself**.
 
 ##### Moving a Held Entity Globally in Relation to the World
 
@@ -5509,7 +5509,7 @@ When building a lever, for example, you want the avatar hand to “lock onto” 
 
 In this lever example, you could get `player.leftHand.position.get()` every frame to identify where the avatar’s hand is *supposed* to be, constrain that position to a “valid position” and then rotate the level according. This is an advanced use case that likely requires trigonometry.
 
-Note that if the grabbed entity gets too far away from the avatar hand you will get a [force release](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release).
+Note that if the grabbed entity gets too far away from the avatar hand you will get a [force release](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release).
 
 Here is a simple example of a grabbable entity that is constrained to move along the y-axis (you can only move it up and down).
 
@@ -5561,13 +5561,13 @@ Component.register(AxisYConstrainedGrabbable)
 
 #### Grabbables and Ownership
 
-**Transfer-on-grab**: [Ownership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) of a [grabbable entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) is transferred to the grabbing player, every time it is [grabbed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities). The ownership transfer is visible in the [grab sequence diagram](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events). The ownership transfer occurs *before* the `OnGrabEvent`. When the `OnGrabEvent` is sent, the entity will already have the new owner. If the entity is released while the transfer is occurring you will get both `OnGrabStart` and `OnGrabEnd`.
+**Transfer-on-grab**: [Ownership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) of a [grabbable entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) is transferred to the grabbing player, every time it is [grabbed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities). The ownership transfer is visible in the [grab sequence diagram](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events). The ownership transfer occurs *before* the `OnGrabEvent`. When the `OnGrabEvent` is sent, the entity will already have the new owner. If the entity is released while the transfer is occurring you will get both `OnGrabStart` and `OnGrabEnd`.
 
-**No transfer-on-release**: When the grabbable entity is [released](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#releasing-entities), the owner continues to be that player (unless explicitly transferred or when that player leaves the [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances)).
+**No transfer-on-release**: When the grabbable entity is [released](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#releasing-entities), the owner continues to be that player (unless explicitly transferred or when that player leaves the [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances)).
 
 Danger: Don't change the owner of a held object
 
-When you change the owner of a grabbable entity while it is held, it will be [force released](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release). However, the [`OnGrabEnd`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events) event **will not** be sent. If you are tracking which entities are and are not held (by the `GrabStart` and `GrabEnd` events), this is likely to “break” your ability to correctly track the entity.
+When you change the owner of a grabbable entity while it is held, it will be [force released](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release). However, the [`OnGrabEnd`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) event **will not** be sent. If you are tracking which entities are and are not held (by the `GrabStart` and `GrabEnd` events), this is likely to “break” your ability to correctly track the entity.
 
 ## Attaching Entities
 
@@ -5575,7 +5575,7 @@ Entities can be attached to players and avatar NPCs.
 
 Attaching multiple entities to one player.
 
-It’s possible for a [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) to put multiple entities on their head at the same time, for example. You can also use [scripted attach](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripted-attach) to put multiple entities on a player at the same attachment anchor. If this behavior is undesirable, you should track when entities are attached to which players and handle the case where a second entity is attached to an anchor.
+It’s possible for a [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) to put multiple entities on their head at the same time, for example. You can also use [scripted attach](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach) to put multiple entities on a player at the same attachment anchor. If this behavior is undesirable, you should track when entities are attached to which players and handle the case where a second entity is attached to an anchor.
 
 ### Creating an Attachable
 
@@ -5593,7 +5593,7 @@ Entity must have `Motion: Animated`, or `Motion: Interactive` and `Collidable` e
 
 ### Attachable By
 
-This setting defines the permissions of which players can *manually* attach the entity (by releasing the entity while holding it over their body). This setting does not affect [scripted attach](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripted-attach) with `attachToPlayer`.
+This setting defines the permissions of which players can *manually* attach the entity (by releasing the entity while holding it over their body). This setting does not affect [scripted attach](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach) with `attachToPlayer`.
 
 | Attachable By | Description |
 | --- | --- |
@@ -5606,27 +5606,27 @@ Attaching an entity to player can be done by the following:
 
 | Attach Method | Description |
 | --- | --- |
-| *Release on body part* | Upon releasing the held entity, the entity checks if collision has occurred between the active collider and the body part of the [Attachable By](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attachable-by) permitted player. |
+| *Release on body part* | Upon releasing the held entity, the entity checks if collision has occurred between the active collider and the body part of the [Attachable By](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) permitted player. |
 | *Script* | See attachables API. |
 
-Attaching entities involves two built-in code block events being sent to the attachable. If the player attached or detached by hand (only possible for a [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)) then there are also events related to [grabbing](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events).
+Attaching entities involves two built-in code block events being sent to the attachable. If the player attached or detached by hand (only possible for a [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)) then there are also events related to [grabbing](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events).
 
-| [Built-In CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
 | `OnAttachStart` | `player: Player` | Sent when the entity is attached to the given player |
 | `OnAttachEnd` | `player: Player` | Sent when the entity is detached from the given player |
 
-The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
+The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480454017_656797570191531_1078493421499719284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Pw2I3ApnXcgQ7kNvwFHF_tY&_nc_oc=Adk1V_y7gWOmwR8YE3WrQRW-sGe2rm2Q8lV17YHJiZn2G91_dxKKFEeY2FBRiPUNEq8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfgA8QAL4m3WruTifbC0of9kOTNZ0ahOX4shl1DZw8v2Dg&oe=69465EA5)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480454017_656797570191531_1078493421499719284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=gfiPkI21nMkQ7kNvwE-3JVU&_nc_oc=AdkkVmxg4OhKpIhmHk9-9S5-ZmhdIyHBSVvp4aEUVB6t_5IPvaZU1fIZzaFRPDUJQvo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_Afl9ULo55CrCSfErzK4NdXSc_l4o1rU0q_w7Sn0a8nkGTQ&oe=694BDCE5)
 
 bug `OnAttachEnd` is not sent if a player leaves suddenly.
 
-When a player leaves suddenly (crash, force quit, turn off the device, etc) then some player-related events such as [OnPlayerExit](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), [OnAttachEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world), [OnGrabEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) and [OnMultiGrabEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities)*may not be sent*. However, `OnPlayerEnterAFK` is sent immediately. So if you need to ensure a player releases a held entity when they leave the instance (e.g. when the entity has **AttachableBy=Owner** so no one else can grab it), then [detach](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#detaching) the entity on `OnPlayerEnterAFK` and [re-attach](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripted-attach) it on `OnPlayerExitAFK`. Note [`getPlayers()`](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#listing-all-players) is only affected by `OnPlayerEnterWorld` and `OnPlayerExitWorld`, so it will not have an accurate list of all players in the instance.
+When a player leaves suddenly (crash, force quit, turn off the device, etc) then some player-related events such as [OnPlayerExit](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnAttachEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnGrabEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and [OnMultiGrabEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)*may not be sent*. However, `OnPlayerEnterAFK` is sent immediately. So if you need to ensure a player releases a held entity when they leave the instance (e.g. when the entity has **AttachableBy=Owner** so no one else can grab it), then [detach](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#detaching) the entity on `OnPlayerEnterAFK` and [re-attach](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach) it on `OnPlayerExitAFK`. Note [`getPlayers()`](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) is only affected by `OnPlayerEnterWorld` and `OnPlayerExitWorld`, so it will not have an accurate list of all players in the instance.
 
 Transitioning between Held and Attached results in being both at the same time.
 
-An entity goes *from being held to being attached* when `attachToPlayer` is called. An entity goes *from being attached to held* when a player [grabs](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#can-grab) or when `forceGrab` is called. In both of these cases the entity is **momentarily held and attached at the same time**.
+An entity goes *from being held to being attached* when `attachToPlayer` is called. An entity goes *from being attached to held* when a player [grabs](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab) or when `forceGrab` is called. In both of these cases the entity is **momentarily held and attached at the same time**.
 
 **Events ordering**:
 
@@ -5635,15 +5635,15 @@ An entity goes *from being held to being attached* when `attachToPlayer` is call
 
 #### Scripted Attach
 
-Entities can be attached to players and detached from players in scripting using `Entity`’s `attachToPlayer` and `detach`, respectively. The `attachToPlayer` method is not not restricted by the [Attachable By](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attachable-by) and [Anchor To](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#anchor-attachment-to) settings set in Properties panel; those settings only impact a player manually grabbing an entity and attaching it to themselves (in VR). In order for `attachToPlayer` and `detach` to work the [Avatar Attachable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-attachable) property must be enabled in the Properties panel.
+Entities can be attached to players and detached from players in scripting using `Entity`’s `attachToPlayer` and `detach`, respectively. The `attachToPlayer` method is not not restricted by the [Attachable By](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) and [Anchor To](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#anchor-attachment-to) settings set in Properties panel; those settings only impact a player manually grabbing an entity and attaching it to themselves (in VR). In order for `attachToPlayer` and `detach` to work the [Avatar Attachable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-attachable) property must be enabled in the Properties panel.
 
-**Attach and ownership**: When `entity.attachToPlayer(player, anchor)` is run, the `entity` is attached to `player` at the `anchor`. If the entity has a Local Script, the ownership is [automatically transferred](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#automatic-ownership-transfers) to `player`. When `detach()` is called (or a [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) manually removes an item) there is *no* ownership transfer; ownership of the `entity` stays with the player.
+**Attach and ownership**: When `entity.attachToPlayer(player, anchor)` is run, the `entity` is attached to `player` at the `anchor`. If the entity has a Local Script, the ownership is [automatically transferred](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#automatic-ownership-transfers) to `player`. When `detach()` is called (or a [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) manually removes an item) there is *no* ownership transfer; ownership of the `entity` stays with the player.
 
 bug `attachToPlayer` only automatically transfers ownership of the entity when it has a Local Script on it.
 
 This behavior is different from `forceHold`, which always automatically transfer ownership of the entity to the player capable of holding the entity.
 
-**Anchor**: The anchor is specified by the `AttachablePlayerAnchor` enum which currently has values for `Head` and `Torso`. See [socket attachment](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#socket-attachment) for changing the exact position and rotation of where an attachable attaches.
+**Anchor**: The anchor is specified by the `AttachablePlayerAnchor` enum which currently has values for `Head` and `Torso`. See [socket attachment](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#socket-attachment) for changing the exact position and rotation of where an attachable attaches.
 
 bug Non-grabbable collidable attachables can continuously push the player when they are attached.
 
@@ -5654,13 +5654,13 @@ When a `attachToPlayer` is called on a **Collidable** entity with **Motion=Anima
 An attachable entity can be detached in 2 ways:
 
 - By calling `entity.detach()`
-- A [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) grabs the attachment off their, or someone else’s, body (if it is [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-a-grabbable-entity) and the player [can grab](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#can-grab) it).
+- A [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) grabs the attachment off their, or someone else’s, body (if it is [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-grabbable-entity) and the player [can grab](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab) it).
 
-In both cases the `OnAttachEnd` event is sent (as shown in [the diagram](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-attachable)).
+In both cases the `OnAttachEnd` event is sent (as shown in [the diagram](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-attachable)).
 
 #### Socket Attachment
 
-By default, attachables anchor their [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points) to the attach point with no local rotation (e.g. attaching a hat to a head will have the hat’s [up vector](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms) aligned with the head’s up vector, and likewise for right and forward vectors).
+By default, attachables anchor their [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) to the attach point with no local rotation (e.g. attaching a hat to a head will have the hat’s [up vector](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) aligned with the head’s up vector, and likewise for right and forward vectors).
 
 You can modify the attachment position and rotation (expressed as a local offset) in the Properties panel by setting `Anchor Position` and `Anchor Rotation` on the attachable entity. In scripting, you can get and set the attachment offsets with `socketAttachmentPosition : HorizonProperty<Vec3>` and `socketAttachmentRotation : HorizonProperty<Quaternion>` on the `AttachableEntity` class.
 
@@ -5675,7 +5675,7 @@ attachable.socketAttachmentPosition.set(new Vec3(0, 0, 1))
 
 #### Sticky Attachments
 
-Whereas attachable entities may have their `Motion` set to `Animated`, `Sticky` entities work best when set to `Grabbable`. Upon releasing the held entity, it will attach to where the collision occurs between the active collider and the [Attachable By](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attachable-by) permitted player.
+Whereas attachable entities may have their `Motion` set to `Animated`, `Sticky` entities work best when set to `Grabbable`. Upon releasing the held entity, it will attach to where the collision occurs between the active collider and the [Attachable By](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) permitted player.
 
 ##### Stick Attachment To
 
@@ -5691,17 +5691,17 @@ Using code to attach a sticky entity does not place the entity at the center of 
 
 Wherever the entity is located upon calling `attachToPlayer()` will be where the entity will begin to follow the body part.
 
-Set `Avatar Attachable` to [Anchor](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attachment-anchors) to reposition the entity to the body part when doing a scripted attach.
+Set `Avatar Attachable` to [Anchor](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attachment-anchors) to reposition the entity to the body part when doing a scripted attach.
 
 #### Attachment Anchors
 
-When attached, an anchored entity will position its [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points) at a specified anchor position.
+When attached, an anchored entity will position its [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) at a specified anchor position.
 
-The anchor position is a body part specified in [Anchor To](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#anchor-attachment-to). Anchor position can be altered by setting [socket attachment](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#socket-attachment) offset values.
+The anchor position is a body part specified in [Anchor To](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#anchor-attachment-to). Anchor position can be altered by setting [socket attachment](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#socket-attachment) offset values.
 
-By default an anchored entity’s [rotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#rotation) matches the rotation of the [body part](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts) it is attached to. For example, by default, a hat’s forward vector will match the head’s forward vector (assuming the hat was attached the head with no [socket attachment](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#socket-attachment) offsets).
+By default an anchored entity’s [rotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) matches the rotation of the [body part](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) it is attached to. For example, by default, a hat’s forward vector will match the head’s forward vector (assuming the hat was attached the head with no [socket attachment](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#socket-attachment) offsets).
 
-Once attached, the entity will be affixed to the body part defined in `Anchor To` until [detached](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#detaching) from player.
+Once attached, the entity will be affixed to the body part defined in `Anchor To` until [detached](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#detaching) from player.
 
 ##### Anchor Attachment To
 
@@ -5716,11 +5716,11 @@ The following is a list of player body parts that the attachable entity may anch
 
 As of 1/15, `Left Hip` or `Right Hip` are not available as a `AttachablePlayerAnchor`
 
-Use [socket attachments](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#socket-attachment) with `AttachablePlayerAnchor.Torso` to get around this.
+Use [socket attachments](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#socket-attachment) with `AttachablePlayerAnchor.Torso` to get around this.
 
 ##### Auto Scale to Anchor
 
-When an entity has “Avatar Attachable” set to “Anchor” there is a setting available: “Auto Scale to Anchor”. When enabled, the attached item will have its [scale](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scale) changed when it is [attached](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-attachable) to fit the anchor it has been attached to. This setting makes it easier to support avatars of different shapes and styles. When the entity is *detached* it will be [scaled](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scale) back to its intrinsic size, its scale automatically becoming (1,1,1).
+When an entity has “Avatar Attachable” set to “Anchor” there is a setting available: “Auto Scale to Anchor”. When enabled, the attached item will have its [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale) changed when it is [attached](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-attachable) to fit the anchor it has been attached to. This setting makes it easier to support avatars of different shapes and styles. When the entity is *detached* it will be [scaled](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale) back to its intrinsic size, its scale automatically becoming (1,1,1).
 
 ### Attach to 2D camera
 
@@ -5732,11 +5732,11 @@ Attach to 2D camera can be toggled on for both `Sticky` and `Anchor` attachable 
 
 Attach to 2D camera is meant for cross-screen players
 
-A [VR player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) who attaches the entity will see the attachable attach to their body as expected.
+A [VR player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) who attaches the entity will see the attachable attach to their body as expected.
 
 Screen-attached entities will appear on every cross-screen player's screen by default
 
-Consider setting [who can see](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility) an entity to avoid this issue.
+Consider setting [who can see](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility) an entity to avoid this issue.
 
 bug VR players will see other players' screen-attached incorrectly
 
@@ -5744,7 +5744,7 @@ The attachable follows their camera’s position, but the orientation will be wr
 
 ## Holstering Entities
 
-Holstering is the action of attaching an entity to the player with the purpose of storing it for later use. Common holstered item examples are things like a torch, a grenade, or even food. In VR, You would simply [attach](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#anchor-attachment-to) the entity to the player (with `AttachablePlayerAnchor.Torso`) and ensure that it is [grabbable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#can-grab). Cross-world players may use the [built-in cross-screen holstering system](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#cross-screen-holstering).
+Holstering is the action of attaching an entity to the player with the purpose of storing it for later use. Common holstered item examples are things like a torch, a grenade, or even food. In VR, You would simply [attach](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#anchor-attachment-to) the entity to the player (with `AttachablePlayerAnchor.Torso`) and ensure that it is [grabbable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab). Cross-world players may use the [built-in cross-screen holstering system](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#cross-screen-holstering).
 
 ### Cross-screen Holstering
 
@@ -5756,9 +5756,9 @@ The holster icon will only be displayed after attaching an entity. This means if
 
 You can attach an entity to a player any time, like by trigger-enter or world-enter events. After that, the player will see the holster icon.
 
-For a [screen player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type):
+For a [screen player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type):
 
-* When [attachToPlayer()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities) is called `AttachablePlayerAnchor.Torso` on a [grabbable entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities) it becomes *holstered*. If multiple entities are attached at once, they are all holstered.
+* When [attachToPlayer()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) is called `AttachablePlayerAnchor.Torso` on a [grabbable entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) it becomes *holstered*. If multiple entities are attached at once, they are all holstered.
 * If a holstered entity has `detach` called on it then it becomes unholstered.
 * When a player presses the *Holster Icon* they *unholster* an item and grab on it. If they were previously holding an entity, they release it.
 * While a player has multiple holstered items they can use the Z key to switch which item they are holstering.
@@ -5771,7 +5771,7 @@ You will need to add a script that attaches the entity to the player when releas
 
 When a player has more than one attached entity, they will see this UI when pressing the holster icon.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480590377_656797586858196_8956842387091686648_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=rDetKIbn6OIQ7kNvwHJiIiX&_nc_oc=Adma6FIvHsefdFW21rejuNbFb_3A8pggwCHeOcjSO73wBenwjmh7BWio3Q9S7OTd9JM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfiqGKgvINZN3KVyE8g96gPVMjo2ycURM9wz01du5p-pZA&oe=69462E43)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480590377_656797586858196_8956842387091686648_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=I1WQiYjmA5QQ7kNvwE3fiy2&_nc_oc=AdnOvccFIKG7jw--u0gIvGLz-AZZlA1UDsQFYcajJGebhxTjKZs5EFtuEouLxd-Vppw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_Afn3arkzuvY-wgmDjlp5C_d2awnLecLWFHGuz58yvu74wA&oe=694BE4C3)
 
 The icon that is displayed can be selected in the entity’s `Holster Icon` property in the Properties panel.
 
@@ -5779,7 +5779,7 @@ The player may choose to unholster 1 of their attached items. They can only see 
 
 #### Scripting Holstering
 
-The `PlayerControls` class allows you to manage holstering via scripting. These methods must be called [locally](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts) on a [player’s device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server):
+The `PlayerControls` class allows you to manage holstering via scripting. These methods must be called [locally](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on a [player’s device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server):
 
 ```
 // PlayerControls
@@ -5797,7 +5797,7 @@ static equipPreviousHolsteredItem(): void;
 static equipHolsteredItem(index: number): void;
 ```
 
-There is also a [LocalEvent that is broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-local-events) every time the holstered item changes:
+There is also a [LocalEvent that is broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) every time the holstered item changes:
 
 ```
 static readonly onHolsteredItemsUpdated: LocalEvent<{
@@ -5813,21 +5813,21 @@ The **player** is the local player, the one doing the holstering, the **items** 
 
 There are two main ways to get input from players:
 
-- [Player Controls](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls): Observe on-screen buttons being pressed and configure custom buttons to be on-screen.
-- [Focused Interaction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction): Change the player’s input mode from locomotion (move the avatar around the world) to instead be a mode where they can interact with the world by directly tapping/clicking on the screen and dragging their finger/mouse around.
+- [Player Controls](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls): Observe on-screen buttons being pressed and configure custom buttons to be on-screen.
+- [Focused Interaction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction): Change the player’s input mode from locomotion (move the avatar around the world) to instead be a mode where they can interact with the world by directly tapping/clicking on the screen and dragging their finger/mouse around.
 
 ### Player Controls
 
-The `PlayerControls` class offers a number of `static` methods and [broadcast LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-local-events) for providing controls to the player and observing the input. The class has members and events related to:
+The `PlayerControls` class offers a number of `static` methods and [broadcast LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) for providing controls to the player and observing the input. The class has members and events related to:
 
-* [Holstering](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting-holstering): A Mobile/Web player carrying multiple items at once.
-* [Focused Interaction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#observing-focused-interactions): A Mobile/Web player directly touching/clicking the screen to interact with the world.
-* [Custom input](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-input): Overlaying custom controls on the screen to create buttons (or even disable all the standard on-screen buttons).
-* [Triggering Input Actions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#triggering-player-input-actions): Using scripting to directly perform the actions that a player can do with the on-screen controls.
+* [Holstering](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-holstering): A Mobile/Web player carrying multiple items at once.
+* [Focused Interaction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#observing-focused-interactions): A Mobile/Web player directly touching/clicking the screen to interact with the world.
+* [Custom input](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-input): Overlaying custom controls on the screen to create buttons (or even disable all the standard on-screen buttons).
+* [Triggering Input Actions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#triggering-player-input-actions): Using scripting to directly perform the actions that a player can do with the on-screen controls.
 
 #### Triggering Player Input Actions
 
-There are a few methods on the [PlayerControls class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls) that let you perform an input action for a player (e.g. simulate them pressing/clicking on on-screen button). Just like the other methods in [PlayerControls](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls), these **must be called [locally](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts) on the [player’s device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server)**.
+There are a few methods on the [PlayerControls class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) that let you perform an input action for a player (e.g. simulate them pressing/clicking on on-screen button). Just like the other methods in [PlayerControls](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls), these **must be called [locally](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on the [player’s device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)**.
 
 ```
 class PlayerControls {
@@ -5839,13 +5839,13 @@ class PlayerControls {
 }
 ```
 
-**Drop Action**: `PlayerControls.triggerDropAction()` acts just like [force release](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-release) except that it is being called on the player (under the hood it gets the [local player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-player)). This method does not work on [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type).
+**Drop Action**: `PlayerControls.triggerDropAction()` acts just like [force release](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-release) except that it is being called on the player (under the hood it gets the [local player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-player)). This method does not work on [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type).
 
-**Action Button Down/Up**: There are two methods for simulating a player starting/stopping an action (as if pressing/release an action button on-screen): `triggerInputActionDown` and `triggerInputActionUp`. Both methods take an argument of type [PlayerInputAction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#playerinputaction) to specify the action.
+**Action Button Down/Up**: There are two methods for simulating a player starting/stopping an action (as if pressing/release an action button on-screen): `triggerInputActionDown` and `triggerInputActionUp`. Both methods take an argument of type [PlayerInputAction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction) to specify the action.
 
 #### Custom Input
 
-There are a number of methods on the [PlayerControls class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls) that listen to player inputs (physical or onscreen button presses) and configure onscreen buttons (for [non-VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)). Just like the other methods in [PlayerControls](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls), these **must be called [locally](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts) on the [player’s device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server)**.
+There are a number of methods on the [PlayerControls class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) that listen to player inputs (physical or onscreen button presses) and configure onscreen buttons (for [non-VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)). Just like the other methods in [PlayerControls](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls), these **must be called [locally](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on the [player’s device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)**.
 
 ```
 class PlayerControls {
@@ -5859,17 +5859,17 @@ class PlayerControls {
 }
 ```
 
-The `isInputActionSupported` method takes a [PlayerInputAction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#playerinputaction) and lets you know if the action is available on the [current device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type).
+The `isInputActionSupported` method takes a [PlayerInputAction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction) and lets you know if the action is available on the [current device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type).
 
 The `getPlatformKeyNames` method returns the list of key names that the action is currently bound to (for example if you wanted to render text to explain to the user what to press).
 
-The `disableSystemControls` method removes the onscreen buttons / controls for a [Mobile player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type). The `enableSystemControls` method puts them back.
+The `disableSystemControls` method removes the onscreen buttons / controls for a [Mobile player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type). The `enableSystemControls` method puts them back.
 
-There is an additional method, [connectLocalInput](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#connect-local-input), described below.
+There is an additional method, [connectLocalInput](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input), described below.
 
 ##### Connect Local Input
 
-The [PlayerControls class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls) allows you to register to receive input events from a playing, for a given action. Just like the other methods in [PlayerControls](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls), this **must be called [locally](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts) on the [player’s device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server)**.
+The [PlayerControls class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) allows you to register to receive input events from a playing, for a given action. Just like the other methods in [PlayerControls](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls), this **must be called [locally](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on the [player’s device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)**.
 
 ```
 // PlayerControls
@@ -5883,10 +5883,10 @@ static connectLocalInput(
 
 The `connectLocalInput` method has you specify:
 
-* **input**: Which action to [PlayerInputAction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#playerinputaction) to.
-* **icon**: The [ButtonIcon](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input-buttonicon) to render the onscreen button with (if a [mobile player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)).
-* **disposableObject**: The [DisposableObject](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#disposing-objects) that this is tied to (usually its the [Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#components) that registered it). When the `disposableObject` is disposed, the input will be disconnected.
-* **options**: The optional `options` let you specify where you prefer the button to be placed on a [mobile user’s](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) screen. This is a *preference*, the system may not respect it (for example if the spot is already taken).
+* **input**: Which action to [PlayerInputAction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction) to.
+* **icon**: The [ButtonIcon](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-buttonicon) to render the onscreen button with (if a [mobile player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)).
+* **disposableObject**: The [DisposableObject](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects) that this is tied to (usually its the [Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#components) that registered it). When the `disposableObject` is disposed, the input will be disconnected.
+* **options**: The optional `options` let you specify where you prefer the button to be placed on a [mobile user’s](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) screen. This is a *preference*, the system may not respect it (for example if the spot is already taken).
 
 ```
 type PlayerControlsConnectOptions = {
@@ -5902,7 +5902,7 @@ The `connectLocalInput` method returns an instance of the `PlayerInput` class. T
 | --- | --- |
 | `disconnect()` | Disconnect the input. You will no longer be able to read values or get callbacks. This method is automatically called when the `disposableObject` passed to `connectLocalInput` is disposed. |
 | `connected: ReadableHorizonProperty<boolean>` | Returns `false` once `disconnect()` is called. |
-| `action: ReadableHorizonProperty<PlayerInputAction>` | Get the [PlayerInputAction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#playerinputaction) that this is connected to (the one passed into `connectLocalInput` when this was created). |
+| `action: ReadableHorizonProperty<PlayerInputAction>` | Get the [PlayerInputAction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction) that this is connected to (the one passed into `connectLocalInput` when this was created). |
 | `held: ReadableHorizonProperty<boolean>` | For a button `true` means that the button is pressed. For a continuous input (such as a joystick) this returns `true` if the value is at least halfway (e.g. more than 0.5 for a VR thumbstick axis). |
 | `pressed: ReadableHorizonProperty<boolean>` | Returns `true` if this is a button input and it went from unpressed to pressed in the last frame. |
 | `released: ReadableHorizonProperty<boolean>` | Returns `true` if this is a button input and it went from pressed to unpressed in the last frame. |
@@ -5944,15 +5944,15 @@ The `PlayerInputAction` represents an action that a player can take (a button a 
 
 ### Player Input ButtonIcon
 
-The `ButtonIcon` enum is used for [custom player input](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class). The list is long, and continually growing. The current values are:
+The `ButtonIcon` enum is used for [custom player input](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class). The list is long, and continually growing. The current values are:
 
 `Ability`, `Aim`, `Airstrike`, `Contract`, `Crouch`, `Door`, `Drink`, `Drop`, `DualWield`, `EagleEye`, `Eat`, `Expand`, `Fire`, `FireSpecial`, `Grab`, `Heal`, `InfiniteAmmo`, `Inspect`, `Interact`, `Invisible`, `Jump`, `LeftChevron`, `Map`, `Menu`, `MouseLeft`, `MouseMiddle`, `MouseRight`, `MouseScroll`, `Net`, `None`, `Place`, `Punch`, `Purchase`, `Reload`, `RightChevron`, `Rocket`, `RocketJump`, `RocketVolley`, `Shield`, `Speak`, `Special`, `SpeedBoost`, `Sprint`, `Swap`, `SwingWeapon`, `Throw`, `Use`
 
 #### Player Input CodeBlockEvents
 
-The following [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events) can be listened to on a [grabbable entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities). The code block events are **sent to the entity only if the player presses the buttons while holding the entity**. These are intended to be used with [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type). If you need to know which hand these events are coming from, listen to the [OnGrabEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events) and store the `isRightHand` value.
+The following [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) can be listened to on a [grabbable entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities). The code block events are **sent to the entity only if the player presses the buttons while holding the entity**. These are intended to be used with [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type). If you need to know which hand these events are coming from, listen to the [OnGrabEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) and store the `isRightHand` value.
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) |
 | --- | --- |
 | OnButton1Down | `player: Player` |
 | OnButton1Up | `player: Player` |
@@ -5963,32 +5963,32 @@ The following [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn
 
 ### Focused Interaction
 
-**Locomotion Mode**: The primary way in which [Mobile/Web players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) use Horizon is by controller the avatar (via mouse and keyboard or on-screen controls) to interact with the world.
+**Locomotion Mode**: The primary way in which [Mobile/Web players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) use Horizon is by controller the avatar (via mouse and keyboard or on-screen controls) to interact with the world.
 
-**Focused Interaction Mode**: There is another way in which you can use Horizon in which avatar locomotion is disabled and you directly interact with the screen by tapping on it or clicking on it. **Focused interaction does not exist for [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)**.
+**Focused Interaction Mode**: There is another way in which you can use Horizon in which avatar locomotion is disabled and you directly interact with the screen by tapping on it or clicking on it. **Focused interaction does not exist for [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)**.
 
 *Example*: a player could be exploring a world (via locomotion mode) and they find a an electrical box. They could then “zoom in” (focused interaction) to focus on the electrical box where they could touch / click on their screen to flip switches. When they are don’t, they cancel out of the zoomed in state and return to exploring (back in locomotion mode).
 
-There are a few relevant members on the [Player class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class):
+There are a few relevant members on the [Player class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class):
 
-| [Player Class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-class) member | Description |
+| [Player Class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) member | Description |
 | --- | --- |
-| `enterFocusedInteractionMode(): void` | Change a [Mobile/Web player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) from locomotion mode to focus mode (where they can tap on the screen instead of moving the avatar). Must be called on a [player device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). |
-| `exitFocusedInteractionMode(): void` | Return a [Mobile/Web player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) to normal locomotion mode. Must be called on a [player device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). |
+| `enterFocusedInteractionMode(): void` | Change a [Mobile/Web player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) from locomotion mode to focus mode (where they can tap on the screen instead of moving the avatar). Must be called on a [player device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
+| `exitFocusedInteractionMode(): void` | Return a [Mobile/Web player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) to normal locomotion mode. Must be called on a [player device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
 | `focusedInteraction: FocusedInteraction` | The `FocusedInteraction` object for the player. |
 
 #### Entering and Exiting Focused Interaction
 
-The methods `enterFocusedInteractionMode()` and `exitFocusedInteractionMode()` must be called [locally](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts) on a [player’s device](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server). Calling these methods will [broadcast local events CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events):
+The methods `enterFocusedInteractionMode()` and `exitFocusedInteractionMode()` must be called [locally](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on a [player’s device](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Calling these methods will [broadcast local events CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events):
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) |
 | --- | --- |
 | 🏠OnPlayerEnteredFocusedInteraction | `player: Player` |
 | 🏠OnPlayerExitedFocusedInteraction | `player: Player` |
 
 #### Observing Focused Interactions
 
-When a player is [in focused interaction mode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entering-and-exiting-focused-interaction) there are a number of [local events that are broadcasted](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-local-events) that you can listen to for information on input events (the player touching or clicking the screen, moving their finger or the mouse, and lifting their finger or releasing the mouse). All three events are `static` members of the [PlayerControls](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls) class and have the same payload:
+When a player is [in focused interaction mode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entering-and-exiting-focused-interaction) there are a number of [local events that are broadcasted](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) that you can listen to for information on input events (the player touching or clicking the screen, moving their finger or the mouse, and lifting their finger or releasing the mouse). All three events are `static` members of the [PlayerControls](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) class and have the same payload:
 
 ```
 class PlayerControls {
@@ -6006,7 +6006,7 @@ class PlayerControls {
 }
 ```
 
-When the [LocalEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events) above are [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#broadcast-events), they are each broadcast with an array of `InteractionInfo`, a type that gives information about the finger / mouse on the screen:
+When the [LocalEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) above are [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events), they are each broadcast with an array of `InteractionInfo`, a type that gives information about the finger / mouse on the screen:
 
 ```
 type InteractionInfo = {
@@ -6020,13 +6020,13 @@ type InteractionInfo = {
 | `InteractionInfo` Field | Type | Notes |
 | --- | --- | --- |
 | interactionIndex | `number` | The “multitouch” index. On Web/PC this number will always be `0`. On mobile it tells you which finger is used when there are multiple used simultaneously. |
-| screenPosition | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The location on the screen that the tap occurred. Only the `x` and `y` components are used. `(0, 0)` is the lower-left of the screen, `(1, 1)` is the top-right, and (0.5, 0.5)` is the exact center. |
-| worldRayOrigin | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The global world position of the point on screen where the player tapped / clicked. |
-| worldRayDirection | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | The global world direction, from the point on screen where the player tapped / clicked, continuing into the world. |
+| screenPosition | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The location on the screen that the tap occurred. Only the `x` and `y` components are used. `(0, 0)` is the lower-left of the screen, `(1, 1)` is the top-right, and (0.5, 0.5)` is the exact center. |
+| worldRayOrigin | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global world position of the point on screen where the player tapped / clicked. |
+| worldRayDirection | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global world direction, from the point on screen where the player tapped / clicked, continuing into the world. |
 
 Focused Interaction and Raycasts
 
-The `worldRayOrigin` and `worldRayDirection` values in `InteractionIfo` are exactly the data needed to perform a [raycast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo) from the player’s finger / mouse out into the world!
+The `worldRayOrigin` and `worldRayDirection` values in `InteractionIfo` are exactly the data needed to perform a [raycast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) from the player’s finger / mouse out into the world!
 
 #### Configuring Focused Interaction Visuals
 
@@ -6078,31 +6078,31 @@ Persistence allows **data to be stored beyond a single session**, ensuring that 
 
 Persistent data is categorized into the following types:
 
-- [Leaderboards](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#leaderboards): Track and display scores globally.
-- [Quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests): Track player progression with world-based achievements.
-- [In-World Purchases (IWP)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-purchases-iwps): Store ownership of purchased items.
-- [Player Persistent Variables (PPVs)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs): Store per-player custom data.
+- [Leaderboards](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards): Track and display scores globally.
+- [Quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests): Track player progression with world-based achievements.
+- [In-World Purchases (IWP)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-purchases-iwps): Store ownership of purchased items.
+- [Player Persistent Variables (PPVs)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs): Store per-player custom data.
 
-See the section on [cloning a world](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#cloning-a-world) for what happens to persistent data when you clone.
+See the section on [cloning a world](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#cloning-a-world) for what happens to persistent data when you clone.
 
-Persistent data can only be set on the [server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) (except [Quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests)).
+Persistent data can only be set on the [server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) (except [Quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests)).
 
-[Leaderboards](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#leaderboards), [In-World Purchases (IWP)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-purchases-iwps), and [Player Persistent Variables (PPVs)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs) can only be updated from scripts [running on the server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-and-default-scripts), meaning that it must be a default script or a local script [owned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership) by the [server player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#server-player). [Quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests) are the one exception and can be updated from any [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server).
+[Leaderboards](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards), [In-World Purchases (IWP)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-purchases-iwps), and [Player Persistent Variables (PPVs)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs) can only be updated from scripts [running on the server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts), meaning that it must be a default script or a local script [owned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) by the [server player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). [Quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests) are the one exception and can be updated from any [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
 
 Persistent data is only accessible when a player is in the instance.
 
-Persistent data for [Quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests), [In-World Purchases (IWP)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-purchases-iwps), and [Player Persistent Variables (PPVs)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs) is tied to individual players and can only be accessed when the player is present in the instance.
+Persistent data for [Quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests), [In-World Purchases (IWP)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-purchases-iwps), and [Player Persistent Variables (PPVs)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs) is tied to individual players and can only be accessed when the player is present in the instance.
 
 There is no persistent world data.
 
-Persistence is currently tied to individual players. A world cannot store “global” variables that persist *across sessions* (other than [leaderboards](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#leaderboards) which don’t have a way to *read* the data back).
+Persistence is currently tied to individual players. A world cannot store “global” variables that persist *across sessions* (other than [leaderboards](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards) which don’t have a way to *read* the data back).
 
 ### Leaderboards
 
-Leaderboards store and display player scores, allowing players to compare progress even when they are not in the same session. Leaderboards have two parts: a **leaderboard** and **leaderboard gizmos**. [Leaderboards contain the *properties*](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-editing-and-deleting-leaderboards) (such as name, sort order, and auto-reset behavior). [Leaderboard Gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#using-the-world-leaderboard-gizmo) are an entity in the world that allow a player to see and interact with the data.
+Leaderboards store and display player scores, allowing players to compare progress even when they are not in the same session. Leaderboards have two parts: a **leaderboard** and **leaderboard gizmos**. [Leaderboards contain the *properties*](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-leaderboards) (such as name, sort order, and auto-reset behavior). [Leaderboard Gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#using-the-world-leaderboard-gizmo) are an entity in the world that allow a player to see and interact with the data.
 
 * **Global Persistence**: Unlike other persistent data, leaderboards retain and display scores across all instances, even when the player is not present.
-* **Write-Only (by default)**: Scores can be updated (written) but not retrieved (read) via scripts. However, to work around this, you can create a [player persistent variable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs) and then [always set them together](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#using-a-leaderboard-with-a-player-persistent-variable).
+* **Write-Only (by default)**: Scores can be updated (written) but not retrieved (read) via scripts. However, to work around this, you can create a [player persistent variable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs) and then [always set them together](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#using-a-leaderboard-with-a-player-persistent-variable).
 * **Privacy and Player Control**: Players can opt out of leaderboard tracking and delete stored scores from the *in-app menu → General tab → Leaderboard Participation / Data*.
 
 One Cool Trick: Leaderboards Metrics Tracking
@@ -6138,7 +6138,7 @@ To **create a Leaderboard** using the Desktop Editor:
 
 To **edit a leaderboard**, go to the systems menu, select Leaderboards in the dropdown, and then hover over the leaderboard and click the *pencil icon*.
 
-To **delete a leaderboard**, go to the systems menu, select Leaderboards in the dropdown, and then hover over the leaderboard and click the *trash can icon*. Deleting a leaderboard will cause all [leaderboard gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-leaderboard-gizmo) associated with it to to no longer render any data (until they are reconfigured with a new/different leaderboard).
+To **delete a leaderboard**, go to the systems menu, select Leaderboards in the dropdown, and then hover over the leaderboard and click the *trash can icon*. Deleting a leaderboard will cause all [leaderboard gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-leaderboard-gizmo) associated with it to to no longer render any data (until they are reconfigured with a new/different leaderboard).
 
 Exercise caution when editing or deleting leaderboards.
 
@@ -6148,7 +6148,7 @@ Danger: Leaderboard data is lost after its deletion.
 
 Once a leaderboard is deleted, the data is gone. Even if a new one is create a new leaderboard with the same name, the data is gone.
 
-If you [pair the leaderboard with a player persistent variable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#using-a-leaderboard-with-a-player-persistent-variable) then you could recover the data (partially) by setting the leaderboard data (from the PPV) whenever players enter the world again.
+If you [pair the leaderboard with a player persistent variable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#using-a-leaderboard-with-a-player-persistent-variable) then you could recover the data (partially) by setting the leaderboard data (from the PPV) whenever players enter the world again.
 
 #### Using the World Leaderboard Gizmo
 
@@ -6157,7 +6157,7 @@ If you [pair the leaderboard with a player persistent variable](https://develope
 | Leaderboard | dropdown | Contains a list of all the available leaderboards in your world. |
 | Displayed Title | `string` | Sets the title of the Leaderboard Gizmo window. |
 | Number of Entries Per Page | `number` | Sets how many scores you can see per page. Value is between 1 and 10. |
-| UI Anchor Style | `Static` or `Billboard` | `Billboard` causes the Leaderboard Gizmo to have per-player rotation so that each player sees the leaderboard always rotate to face toward them (a [“Freeform” billboard](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#billboarding)). `Static` uses the normal rotation behavior of entities (meaning that it’s fixed in place unless it or one of its [ancestors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ancestors) transforms). |
+| UI Anchor Style | `Static` or `Billboard` | `Billboard` causes the Leaderboard Gizmo to have per-player rotation so that each player sees the leaderboard always rotate to face toward them (a [“Freeform” billboard](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#billboarding)). `Static` uses the normal rotation behavior of entities (meaning that it’s fixed in place unless it or one of its [ancestors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) transforms). |
 | Panel UI Mode | `Light Mode` or `Dark Mode` | Determines the color theme. Light vs dark refers to the background color of the gizmo. |
 | Entry Display Mode | `Raw Value` or ` Time in Secs `|` Raw Value `will display the value as an integer.` Time in Secs `will display the number in` hours:minutes:seconds `formats. E.g. a score of 90 (seconds) would render as` 1:30`. |  |
 
@@ -6168,9 +6168,9 @@ During play and preview mode, players will be able to see the following data cat
 * Session: Player’s score against the other current visitors in the world.
 * Mutuals: How the player compares against their friends.
 
-The leaderboard shows players names and their scores, sorted by values in descending or ascending order according to the [leaderboard properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-editing-and-deleting-leaderboards).
+The leaderboard shows players names and their scores, sorted by values in descending or ascending order according to the [leaderboard properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-leaderboards).
 
-**Typescript**: Leaderboard Gizmos are referenced as the `Entity` class (with no special methods). However, there is one related method on the [World class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class):
+**Typescript**: Leaderboard Gizmos are referenced as the `Entity` class (with no special methods). However, there is one related method on the [World class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class):
 
 ```
 // World
@@ -6182,9 +6182,9 @@ setScoreForPlayer(
 ): void;
 ```
 
-The **leaderboardName** parameter is the *name* field that you set in [leaderboard creation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-editing-and-deleting-leaderboards).
+The **leaderboardName** parameter is the *name* field that you set in [leaderboard creation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-leaderboards).
 
-The **override** parameter specifies whether to *ignore [sort order](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-editing-and-deleting-leaderboards)* when setting the value. By default, when you call `setScoreForPlayer`, it only keeps the score if the score is better (in regard to the sort order). So if the sort order is set to “Descending” (meaning that highest scores are at the top), then the `score` will only be persisted if it is *higher* than the player’s current score on the leaderboard. When *override is true* it will set `score` as the player’s new value, even if it is *worse* than their current one.
+The **override** parameter specifies whether to *ignore [sort order](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-leaderboards)* when setting the value. By default, when you call `setScoreForPlayer`, it only keeps the score if the score is better (in regard to the sort order). So if the sort order is set to “Descending” (meaning that highest scores are at the top), then the `score` will only be persisted if it is *higher* than the player’s current score on the leaderboard. When *override is true* it will set `score` as the player’s new value, even if it is *worse* than their current one.
 
 Example scenarios:
 
@@ -6201,19 +6201,19 @@ When you call `setScoreForPlayer`, the score is immediately store. But to improv
 
 #### Using a Leaderboard with a Player Persistent Variable
 
-There is no API to *read* leaderboard data. However a common trick is to create a [player persistent variable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs) and then whenever you set the leaderboard value, also set the persistent variable with the example same value. If you are not careful about the *override* parameter then the two will get out of sync. If you use this technique, it is **recommended to always set *override* to true** and handle the logic yourself (by reading the persistent variable, comparing, and then deciding if you need to update).
+There is no API to *read* leaderboard data. However a common trick is to create a [player persistent variable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs) and then whenever you set the leaderboard value, also set the persistent variable with the example same value. If you are not careful about the *override* parameter then the two will get out of sync. If you use this technique, it is **recommended to always set *override* to true** and handle the logic yourself (by reading the persistent variable, comparing, and then deciding if you need to update).
 
-Note that if you ever [delete a leaderboard](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-editing-and-deleting-leaderboards) there is no way to get its data back. But, if you use the technique described above, you can at least set the leaderboard data again when [players enter](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world) the [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances).
+Note that if you ever [delete a leaderboard](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-leaderboards) there is no way to get its data back. But, if you use the technique described above, you can at least set the leaderboard data again when [players enter](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) the [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances).
 
 ### Quests
 
-Quests (formerly known as Achievements) track player achievements and goals, providing motivation for players to engage with world content. Each quest represents a trackable objective that can be displayed to players through [Quest gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#using-the-quests-gizmo). Unlike [leaderboards](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#leaderboards), quest data is private; players can only see their own quest progress and completions.
+Quests (formerly known as Achievements) track player achievements and goals, providing motivation for players to engage with world content. Each quest represents a trackable objective that can be displayed to players through [Quest gizmos](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#using-the-quests-gizmo). Unlike [leaderboards](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards), quest data is private; players can only see their own quest progress and completions.
 
 **Quest Properties**
 
 * **Individual Progress**: Each player’s quest progress is tracked separately
 * **Two Types**: Simple (binary complete/incomplete) or Tracked (tied to a PPV value)
-* **Local Scripts Updates**: Unlike other persistence types, quests can be updated from any [client](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server), including scripts running on [player-owned entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-ownership).
+* **Local Scripts Updates**: Unlike other persistence types, quests can be updated from any [client](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), including scripts running on [player-owned entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership).
 * **Privacy**: Quest progress is only visible to the individual player
 
 #### Creating, Editing, and Deleting Quests
@@ -6225,9 +6225,9 @@ Quests are created through the Desktop Editor by navigating to the Quests sectio
 | Script ID | Unique identifier used in scripts | Cannot be changed after creation |
 | Name | Display name shown to players | 40 character limit |
 | Description | Quest details shown to players | 100 character limit |
-| Quest Type | [Simple or Tracked](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simple-vs-tracked-quests) | Affects completion tracking |
-| Persistent Variable | For [Tracked quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simple-vs-tracked-quests) only | PPV to track (link to one already existing) |
-| Completion Threshold | For [Tracked quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simple-vs-tracked-quests) only | Value PPV must reach |
+| Quest Type | [Simple or Tracked](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) | Affects completion tracking |
+| Persistent Variable | For [Tracked quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) only | PPV to track (link to one already existing) |
+| Completion Threshold | For [Tracked quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) only | Value PPV must reach |
 
 To **edit a quest**, access it through *Systems → Quests* and click the pencil icon. Note that the Script ID cannot be changed after creation.
 
@@ -6237,11 +6237,11 @@ To **delete a quest**, access it through *Systems → Quests* and click the tras
 
 A **simple** quest is one that is simple accomplished at some point in time (set via `player.setAchievementComplete(...)`).
 
-A **tracked** quest is tied to *reaching a value*, tracked in a [player persistent variable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs). For example, an achievement might be to “find 10 chickens”. For this achievement you would create a persistent variable that you increment each time the player finds a chicken. You would then set the **Quest Type to Tracked**, set that variable as the **Persistent Variable**, and then set 10 as the **Completion Threshold**. When the variable reaches 10, the player will be automatically assigned the achievement.
+A **tracked** quest is tied to *reaching a value*, tracked in a [player persistent variable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs). For example, an achievement might be to “find 10 chickens”. For this achievement you would create a persistent variable that you increment each time the player finds a chicken. You would then set the **Quest Type to Tracked**, set that variable as the **Persistent Variable**, and then set 10 as the **Completion Threshold**. When the variable reaches 10, the player will be automatically assigned the achievement.
 
 Note that with tracked quests you can still use `player.setAchievementComplete(...)` if for any reason you want to grant the achievement.
 
-To **revoke a Tracked quest** you must *both* lower the tracked [persistent variable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs)*and* call `player.setAchievementComplete(scriptId, false)`. Simply lowering the variable will *not* revoke the achievement.
+To **revoke a Tracked quest** you must *both* lower the tracked [persistent variable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs)*and* call `player.setAchievementComplete(scriptId, false)`. Simply lowering the variable will *not* revoke the achievement.
 
 #### Using the Quests Gizmo
 
@@ -6254,7 +6254,7 @@ The Quest gizmo displays quest information to players. Each player sees only the
 | Panel UI Mode | `Light Mode` or `Dark Mode` | Color theme (light vs dark refers to background color) |
 | LoD Radius | `number` | Maximum visibility distance |
 
-**Typescript**: Quest Gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `AchievementsGizmo` class with the method
+**Typescript**: Quest Gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `AchievementsGizmo` class with the method
 
 ```
 // AchievementsGizmo
@@ -6263,7 +6263,7 @@ displayAchievements(scriptIDs: string[]): void
 
 allowing you to specify a subset of quests that will appear on the gizmo. For example, you could have two Quest gizmos in the world and have one show the “easy quests” and the other show the “hard ones”.
 
-The [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players) class has two methods for setting and for querying if an achievement is complete:
+The [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players) class has two methods for setting and for querying if an achievement is complete:
 
 ```
 // Player
@@ -6271,11 +6271,11 @@ setAchievementComplete(scriptID: string, complete: boolean): void;
 hasCompletedAchievement(scriptID: string): boolean;
 ```
 
-There is also a [broadcast CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) for knowing when an achievement has been completed. There are no events for knowing if one was revoked.
+There is also a [broadcast CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) for knowing when an achievement has been completed. There are no events for knowing if one was revoked.
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
-| 🔈onAchievementComplete | `player: Player` `scriptID: string` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when an achievement is completed by a player. |
+| 🔈onAchievementComplete | `player: Player` `scriptID: string` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when an achievement is completed by a player. |
 
 #### Resetting Quests
 
@@ -6284,7 +6284,7 @@ There are two ways of resetting a quest completion or progression:
 - Calling `player.setAchievementComplete(scriptId, false)` (`false` revokes it for the player).
 - Through the *systems menu > Quests*. Click `Debug Quests` (represented with a gear icon). From here, click on *Reset all quests* or toggle off the individual quests to reset.
 
-When resetting [tracked quests](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simple-vs-tracked-quests) the [persistent variable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs) has to be reset first, otherwise the quest will change back to completed.
+When resetting [tracked quests](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) the [persistent variable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs) has to be reset first, otherwise the quest will change back to completed.
 
 ### In-World Purchases (IWPs)
 
@@ -6293,7 +6293,7 @@ In-World Purchases (IWPs) allow players to use Meta Credits to acquire virtual i
 **IWPs Offer**
 
 * **Transaction Types**: Durable (one-time) or Consumable (repeatable) purchases
-* **Asset Integration**: Purchases can be linked to [spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawning) assets
+* **Asset Integration**: Purchases can be linked to [spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) assets
 * **Auto-Use Option**: Consumables can trigger automatically on purchase
 * **Pricing Range**: 25 to 20,000 Meta Credits per item
 * **Presentation**: Customizable purchase UI with name, description, and thumbnail
@@ -6312,8 +6312,8 @@ To **create an IWP** using the Desktop Editor:
 | Description | Item details shown in UI | 250 character limit |
 | Thumbnail | Display icon (using in purchase flow and in UI showcasing the available purchases in the world) | Select from provided options (currently thumbnails must be created in the editor and cannot be uploaded) |
 | Item Price | Cost in Meta Credits | 25-20,000 range |
-| Item Type | [Durable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items) or [Consumable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items) | Durable means “purchased once forever” and Consumable means “can be purchased and consumed, and then purchased again, indefinitely” |
-| Asset Reference | Link the [asset to be spawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#durable-in-world-item-asset) | For Durable items only |
+| Item Type | [Durable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) or [Consumable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | Durable means “purchased once forever” and Consumable means “can be purchased and consumed, and then purchased again, indefinitely” |
+| Asset Reference | Link the [asset to be spawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#durable-in-world-item-asset) | For Durable items only |
 | Auto Use | Triggers use on purchase | For Consumable items only |
 
 #### Using the In-World Purchase Gizmo
@@ -6323,17 +6323,17 @@ The IWP gizmo can be found in the Desktop Editor under the Build Menu, Gizmos op
 | Property | Type | Description |
 | --- | --- | --- |
 | In-world Item | dropdown | Contains a list of all the In-World Items you have created in this world. |
-| Customize Purchase Dialog Position | `boolean` | If enabled, allows you to adjust the `Purchase Dialog Position` (expressed [in local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms)). |
+| Customize Purchase Dialog Position | `boolean` | If enabled, allows you to adjust the `Purchase Dialog Position` (expressed [in local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)). |
 | Purchase Dialog Position | `Vec3` | Adjust the position on screen the Purchase Dialog menu appears. |
-| UI Property | `Trigger`, `Button`, or `Icon`. Default is `Trigger`. | Determines how your In-world Item Gizmo is displayed.<ul><li>`Trigger` doesn’t render anything; it opens the menu when a player enters into the trigger area.</li><li>`Button` renders a small symbol in the world that opens the menu when pressed. The button is *not* a [billboard](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#billboarding).<li>`Icon` shows a small button with the meta credit price. The icon is a [billboard](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#billboarding).</li></ul> |
+| UI Property | `Trigger`, `Button`, or `Icon`. Default is `Trigger`. | Determines how your In-world Item Gizmo is displayed.<ul><li>`Trigger` doesn’t render anything; it opens the menu when a player enters into the trigger area.</li><li>`Button` renders a small symbol in the world that opens the menu when pressed. The button is *not* a [billboard](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#billboarding).<li>`Icon` shows a small button with the meta credit price. The icon is a [billboard](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#billboarding).</li></ul> |
 
-**Testing**: The In-World Item Gizmo allows [the world owner & editors](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#editor-roles) to test purchases (in [preview and play mode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#visitation-modes-edit-preview-and-publish)) without being charged. Testers *cannot* perform test-purchases; they will be charged.
+**Testing**: The In-World Item Gizmo allows [the world owner & editors](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles) to test purchases (in [preview and play mode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)) without being charged. Testers *cannot* perform test-purchases; they will be charged.
 
-**TypeScript**: In-World Item Gizmos are referenced [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `IWPSellerGizmo` class. There are methods for [durables](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items) and for [consumables](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items).
+**TypeScript**: In-World Item Gizmos are referenced [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `IWPSellerGizmo` class. There are methods for [durables](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) and for [consumables](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items).
 
 #### In-World Item ID String
 
-Every in-world item ([Durable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items) or [Consumable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items)) has a `string``id` that is used in the TypeScript APIs for interacting with in-world items.
+Every in-world item ([Durable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) or [Consumable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)) has a `string``id` that is used in the TypeScript APIs for interacting with in-world items.
 
 Right now there is *no way to get an IWP id in the desktop editor*: go to https://horizon.meta.com/creator/monetization\_purchases and select “Item management”. The `id`s are listed under the column **SKU Name**.
 
@@ -6341,36 +6341,36 @@ Right now there is *no way to get an IWP id in the desktop editor*: go to https:
 
 **Durable items** are purchased once and then owned forever. An example would be unlocking a golden sword (that you then never lose).
 
-**TypeScript**: Unlike leaderboards and quests, you need an actual `IWPSellerGizmo`, [via as](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method), to interact with durable items. There is one method on the `IWPSellerGizmo` class related to durable items, which lets you check if a given `player` owns the item with the given [item id](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-id-string):
+**TypeScript**: Unlike leaderboards and quests, you need an actual `IWPSellerGizmo`, [via as](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method), to interact with durable items. There is one method on the `IWPSellerGizmo` class related to durable items, which lets you check if a given `player` owns the item with the given [item id](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-id-string):
 
 ```
 // IWPSellerGizmo
 playerOwnsItem(player: Player, item: string): boolean;
 ```
 
-There are also [durable item CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-codeblockevents) that can be connected to.
+There are also [durable item CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) that can be connected to.
 
-There is no method for granting access to a durable item. If you want to allow people to “unlock” the item (e.g. with time instead of money) then you would have to use a combination of a durable item *and* a [player persistent variable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-persistent-variables-ppvs), providing the functionality if they have *either*.
+There is no method for granting access to a durable item. If you want to allow people to “unlock” the item (e.g. with time instead of money) then you would have to use a combination of a durable item *and* a [player persistent variable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs), providing the functionality if they have *either*.
 
 ##### Durable In-World Item Asset
 
-When creating an durable in-world item, you can specify an [asset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawnable-assets) with it. If you do so, then any player who has purchased the item will be able to spawn that given asset (whenever they want). You can [connect to](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) the [OnPlayerSpawnedItem CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-codeblockevents) to know when a player spawns the asset.
+When creating an durable in-world item, you can specify an [asset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawnable-assets) with it. If you do so, then any player who has purchased the item will be able to spawn that given asset (whenever they want). You can [connect to](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) the [OnPlayerSpawnedItem CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) to know when a player spawns the asset.
 
-You can [despawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#despawning) these assets with `world.deleteAsset(...)`.
+You can [despawn](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) these assets with `world.deleteAsset(...)`.
 
 ##### Durable In-World Item CodeblockEvents
 
-All events in the table below are [🔈 server-broadcast CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events); you can connect to any server-owned entity to receive them.
+All events in the table below are [🔈 server-broadcast CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events); you can connect to any server-owned entity to receive them.
 
 #### In-World Consumable Items
 
-**Consumable items** are purchased and then *used*. They can be purchased again and then used. It is possible to have many at once (“stockpiling” until you use them). An example would be a speed boost that lasts for 5 minutes once activated. When a player tries to use a consumable you are [sent a request that you must handle](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#handling-an-item-consume-item-request). There are a number of other APIs, listed below.
+**Consumable items** are purchased and then *used*. They can be purchased again and then used. It is possible to have many at once (“stockpiling” until you use them). An example would be a speed boost that lasts for 5 minutes once activated. When a player tries to use a consumable you are [sent a request that you must handle](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#handling-an-item-consume-item-request). There are a number of other APIs, listed below.
 
-**TypeScript**: Unlike leaderboards and quests, you need an actual `IWPSellerGizmo`, [via as](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method), to interact with durable items.
+**TypeScript**: Unlike leaderboards and quests, you need an actual `IWPSellerGizmo`, [via as](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method), to interact with durable items.
 
-There are [consumable item CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-codeblockevents) that can be connected to.
+There are [consumable item CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) that can be connected to.
 
-There are also a few methods on the `IWPSellerGizmo` class related to durable items. In the below methods `item` is an [item id](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-id-string):
+There are also a few methods on the `IWPSellerGizmo` class related to durable items. In the below methods `item` is an [item id](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-id-string):
 
 - Check how many of the given item a player has:
 
@@ -6394,7 +6394,7 @@ There are also a few methods on the `IWPSellerGizmo` class related to durable it
        timeOption: MonetizationTimeOption
      ): number;
   ```
-- Consume the item for a player (if they have one otherwise a [OnItemConsumeComplete](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-codeblockevents) is sent with `success` set to `false`):
+- Consume the item for a player (if they have one otherwise a [OnItemConsumeComplete](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) is sent with `success` set to `false`):
 
   ```
    consumeItemForPlayer(player: Player, item: string): void
@@ -6414,18 +6414,18 @@ To create a pack:
 - Specify a price (25 to 20,000 credits).
 - Click Create.
 
-When a player purchases a pack of consumables *without auto-use*, they are able to see their unused item quantity in their inventory. Clicking the inventory icon will not trigger the consume automatically; instead, a broadcast code block event is emitted. This even can then be intercepted with a script, that would also confirm if the player can consume or not the item. For more details see [Handling an Item-Consume Item Request](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual####handling-an-item-consume-item-request).
+When a player purchases a pack of consumables *without auto-use*, they are able to see their unused item quantity in their inventory. Clicking the inventory icon will not trigger the consume automatically; instead, a broadcast code block event is emitted. This even can then be intercepted with a script, that would also confirm if the player can consume or not the item. For more details see [Handling an Item-Consume Item Request](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md####handling-an-item-consume-item-request).
 
 ##### Auto-Use Consumable In-World Items
 
-When a [consumable item](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items) is set to **auto-use**, the player does not initiate the use of the item (since it is used automatically at the time of purchase). This means that **[OnItemConsumeStart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items) is *never sent***. But the **[OnItemConsumeComplete](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items) is sent** right after the purchase succeeds (since the item is then auto-used).
+When a [consumable item](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) is set to **auto-use**, the player does not initiate the use of the item (since it is used automatically at the time of purchase). This means that **[OnItemConsumeStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) is *never sent***. But the **[OnItemConsumeComplete](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) is sent** right after the purchase succeeds (since the item is then auto-used).
 
 ##### Handling an Item-Consume Item Request
 
-- **Listen for consume-requests**: When a player attempts to use a [consumable item](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items), `CodeBlockEvents.OnItemConsumeStart` is [broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events). You *need to listen to this event and handle it*; if you do not, then the item will not be consumed.
-- **Decide whether to consume**: When you [receive the event](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events) you need to decide if you want the player to actually consume the item. For example, if the item is a 5-minute power boost and they already consumed one only 2 minutes ago, then you might not want them to consume another until the current one runs out!
-- **Consume, if desired**: If you want the play to consume the item then \*you should call `consumeItemForPlayer`, with the player and the [item id](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-id-string). You will then get a [OnItemConsumeComplete](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-codeblockevents) event with `success` set to `true`.
-- **Otherwise, ignore**: If you don’t call `consumeItemForPlayer` (because you don’t want them to consume it) then the request will timeout and send a [OnItemConsumeComplete](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-codeblockevents) event with `success` set to `false`.
+- **Listen for consume-requests**: When a player attempts to use a [consumable item](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items), `CodeBlockEvents.OnItemConsumeStart` is [broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events). You *need to listen to this event and handle it*; if you do not, then the item will not be consumed.
+- **Decide whether to consume**: When you [receive the event](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) you need to decide if you want the player to actually consume the item. For example, if the item is a 5-minute power boost and they already consumed one only 2 minutes ago, then you might not want them to consume another until the current one runs out!
+- **Consume, if desired**: If you want the play to consume the item then \*you should call `consumeItemForPlayer`, with the player and the [item id](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-id-string). You will then get a [OnItemConsumeComplete](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) event with `success` set to `true`.
+- **Otherwise, ignore**: If you don’t call `consumeItemForPlayer` (because you don’t want them to consume it) then the request will timeout and send a [OnItemConsumeComplete](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) event with `success` set to `false`.
 
 Example: Consume an item when the player requests to.
 
@@ -6442,19 +6442,19 @@ this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemConsumeStart, (p
 
 #### In-World Item CodeBlockEvents
 
-All events in the table below are [🔈 server-broadcast CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events); you can connect to any server-owned entity to receive them. Events marked with 🧱 are for [durable items](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items); events marked with 🍏 are for [consumable items](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items).
+All events in the table below are [🔈 server-broadcast CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events); you can connect to any server-owned entity to receive them. Events marked with 🧱 are for [durable items](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items); events marked with 🍏 are for [consumable items](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items).
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
-| 🔈🧱🍏`OnItemPurchaseStart` | `player: Player` `item: string` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player opens the purchase menu (both [Durable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items) and [Consumable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items)). |
-| 🔈🧱🍏`OnItemPurchaseComplete` | `player: Player` `item: string` `success: boolean` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player closes the purchase menu (for both [Durable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items) and [Consumable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items)). `success` contains if purchase was successful. |
-| ~~🔈🧱🍏`OnItemPurchaseSucceeded`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player successfully purchases an item. |
-| ~~🔈🧱🍏`OnItemPurchaseFailed`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player fails to purchase an item. |
-| 🔈🍏`OnItemConsumeStart` | `player: Player` `item: string` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player tries to consume an item. You [should handle this event](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#handling-an-item-consume-item-request). This is not sent for [auto-use consumables](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#auto-use-consumable-in-world-items). |
-| 🔈🍏`OnItemConsumeComplete` | `player: Player` `item: string` `success: boolean` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player ‘s attempt-to-consume finishes, based on if you [handled the request](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#handling-an-item-consume-item-request). For an [auto-use consumable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#auto-use-consumable-in-world-items) this will be broadcast right after purchase. |
-| ~~🔈🍏`OnPlayerConsumeSucceeded`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player consumes an item. |
-| ~~🔈🍏`OnPlayerConsumeFailed`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player fails to consume an item. |
-| 🔈`OnPlayerSpawnedItem` | `player: Player` `item: Entity` | [Broadcast](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) when a player spawns a Durable item into the world from their personal Horizon Inventory. The parameters give you a reference to the `Player` and the item (as an `Entity`). |
+| 🔈🧱🍏`OnItemPurchaseStart` | `player: Player` `item: string` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player opens the purchase menu (both [Durable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) and [Consumable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)). |
+| 🔈🧱🍏`OnItemPurchaseComplete` | `player: Player` `item: string` `success: boolean` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player closes the purchase menu (for both [Durable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) and [Consumable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)). `success` contains if purchase was successful. |
+| ~~🔈🧱🍏`OnItemPurchaseSucceeded`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player successfully purchases an item. |
+| ~~🔈🧱🍏`OnItemPurchaseFailed`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player fails to purchase an item. |
+| 🔈🍏`OnItemConsumeStart` | `player: Player` `item: string` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player tries to consume an item. You [should handle this event](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#handling-an-item-consume-item-request). This is not sent for [auto-use consumables](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#auto-use-consumable-in-world-items). |
+| 🔈🍏`OnItemConsumeComplete` | `player: Player` `item: string` `success: boolean` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player ‘s attempt-to-consume finishes, based on if you [handled the request](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#handling-an-item-consume-item-request). For an [auto-use consumable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#auto-use-consumable-in-world-items) this will be broadcast right after purchase. |
+| ~~🔈🍏`OnPlayerConsumeSucceeded`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player consumes an item. |
+| ~~🔈🍏`OnPlayerConsumeFailed`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player fails to consume an item. |
+| 🔈`OnPlayerSpawnedItem` | `player: Player` `item: Entity` | [Broadcast](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player spawns a Durable item into the world from their personal Horizon Inventory. The parameters give you a reference to the `Player` and the item (as an `Entity`). |
 
 An`OnItemPurchaseComplete` event with `success` set to `false` does not imply ownership.
 
@@ -6462,26 +6462,26 @@ If a person tries to buy an item they already own you will get a `success=false`
 
 ### Player Persistent Variables (PPVs)
 
-Player Persistent Variables (PPVs) store custom data that persists across sessions for each player. PPVs provide flexible storage for tracking player state, progress, and preferences. Every PPV exists with a [variable group](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistent-variable-groups), which can be shared between worlds.
+Player Persistent Variables (PPVs) store custom data that persists across sessions for each player. PPVs provide flexible storage for tracking player state, progress, and preferences. Every PPV exists with a [variable group](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-groups), which can be shared between worlds.
 
 **PPV Properties**
 
 * **Per-Player Storage**: Each player has their own independent values
 * **Server-Side Updates**: Can only be modified from server scripts
 * **Runtime Access**: PPV data is only accessible when the player is in the instance
-* **Type Safety**: Variables are strongly typed as either `number`s or [object](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistent-variable-object-data)
-* **[Group Organization](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistent-variable-groups)**: PPVs are organized into named groups for better management
+* **Type Safety**: Variables are strongly typed as either `number`s or [object](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-object-data)
+* **[Group Organization](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-groups)**: PPVs are organized into named groups for better management
 
 **PPV Limitations**
 
 * PPV recognition requires world reload after creation
-* Reading or writing PPVs at rapid rates can significantly degrade perf and [frame rate](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#frame-rate).
+* Reading or writing PPVs at rapid rates can significantly degrade perf and [frame rate](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#frame-rate).
 
 #### Using Persistent Player Variables
 
-After [creating a ppv](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-editing-and-deleting-player-persistent-variables) in a [variable group](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistent-variable-groups), you can read and write data to it, per-player, only when the player is in the instance.
+After [creating a ppv](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-player-persistent-variables) in a [variable group](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-groups), you can read and write data to it, per-player, only when the player is in the instance.
 
-The [World class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class) has a property `persistentStorage` that contains the `getPlayerVariable` (taking the player and the variable name) and `setPlayerVariable` (taking the player, variable name, and value to set).
+The [World class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) has a property `persistentStorage` that contains the `getPlayerVariable` (taking the player and the variable name) and `setPlayerVariable` (taking the player, variable name, and value to set).
 
 ##### Example: Increment a counter every time a player enters the world.
 
@@ -6579,7 +6579,7 @@ Note that this manual changes only affect the PPVs of the user that is making th
 
 #### Persistent Variable Object Data
 
-When a PPV is [created](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-editing-and-deleting-player-persistent-variables), its type is set to “number” or “object”. If “object” is chosen then you can read and write values with the type [PersistentSerializableState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#serializablestate) (which is similar to [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) but also supports `Vec3`, `Entity`, and others. It *does not support `Player`* since [player ids](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-id) are per-instance).
+When a PPV is [created](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-player-persistent-variables), its type is set to “number” or “object”. If “object” is chosen then you can read and write values with the type [PersistentSerializableState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate) (which is similar to [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) but also supports `Vec3`, `Entity`, and others. It *does not support `Player`* since [player ids](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-id) are per-instance).
 
 When you read data you need to use TypeScript’s `as` operator to cast it to the write type:
 
@@ -6623,75 +6623,75 @@ if (data?.kind === 'stats') {
 
 ## Spawning
 
-**Spawning** is the act of loading content into a world [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances) while it is already running (meaning that the content was not “laid out” in the Desktop editor; it’s not in the [world snapshot](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-snapshot)). For example, imagine a racing game that has 100 kinds of vehicles to choose from and allows 8 players. It would use too much memory and really impact perf to put 800 vehicles into the world (so all 8 players have full choice). Instead, you could create a [UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui) to let players choose from and then load in the vehicle that they choose. This act of “load in when needed” is *spawning*.
+**Spawning** is the act of loading content into a world [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances) while it is already running (meaning that the content was not “laid out” in the Desktop editor; it’s not in the [world snapshot](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot)). For example, imagine a racing game that has 100 kinds of vehicles to choose from and allows 8 players. It would use too much memory and really impact perf to put 800 vehicles into the world (so all 8 players have full choice). Instead, you could create a [UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui) to let players choose from and then load in the vehicle that they choose. This act of “load in when needed” is *spawning*.
 
 Spawning requires a “template” or “blueprint”, a description of entities / meshes / scripts / properties, that should be “stamped” into the world. Horizon calls these blueprints **assets**.
 
 ### What can be spawned
 
-Not all asset types can be spawned. You can only spawn the ones that encode [Entities](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities). You **can spawn [3D models](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#3d-model-asset), [audio assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#audio-asset), [template assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#template-asset), and [legacy asset groups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#legacy-asset-group)**.
+Not all asset types can be spawned. You can only spawn the ones that encode [Entities](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities). You **can spawn [3D models](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), [audio assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#audio-asset), [template assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset), and [legacy asset groups](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group)**.
 
 Spawn an environment gizmo to change \*lighting and the sky\*.
 
-You can spawn an [Environment Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#environment-gizmo) to change the sky and lighting while a world is running. But note that this will change [Voip Settings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#voip-settings), fog, and all other properties associated with the gizmo.
+You can spawn an [Environment Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#environment-gizmo) to change the sky and lighting while a world is running. But note that this will change [Voip Settings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings), fog, and all other properties associated with the gizmo.
 
 ### Simple Spawning
 
-The simplest way to spawn an asset is using the [World class’](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class)`spawnAsset` method which takes the following parameters:
+The simplest way to spawn an asset is using the [World class’](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class)`spawnAsset` method which takes the following parameters:
 
 | `spawnAsset` Parameter Name | Type | Default Value | Notes |
 | --- | --- | --- | --- |
-| asset | [Asset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#assets) | n/a - required | The asset to spawn. |
-| position | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | n/a - required | The global [position](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position) to spawn the asset. Its [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points) will be at that location. |
-| rotation | [Quaternion](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quaternion) | `Quaternion.one` (“no rotation”) | The global [rotation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#rotation) to spawn the asset with. It will be rotated around its [pivot point](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#pivot-points). |
-| scale | [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3) | `Vec3.one` (“no-stretch” scale) | The global [scale](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#position) to spawn the asset with, as a multiple of the assets *inherent size*. |
+| asset | [Asset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#assets) | n/a - required | The asset to spawn. |
+| position | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | n/a - required | The global [position](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position) to spawn the asset. Its [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) will be at that location. |
+| rotation | [Quaternion](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) | `Quaternion.one` (“no rotation”) | The global [rotation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) to spawn the asset with. It will be rotated around its [pivot point](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). |
+| scale | [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | `Vec3.one` (“no-stretch” scale) | The global [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#position) to spawn the asset with, as a multiple of the assets *inherent size*. |
 
-`spawnAsset` will spawn the specified asset with the specified [transform](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transforms) data and return a `Promise<Entity[]>` which will *resolve* with a list of entities matching the top-level entities defined in the asset. If the spawn fails for any reason, the promise will *reject*.
+`spawnAsset` will spawn the specified asset with the specified [transform](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transforms) data and return a `Promise<Entity[]>` which will *resolve* with a list of entities matching the top-level entities defined in the asset. If the spawn fails for any reason, the promise will *reject*.
 
-**Root entity**: The first entity, in the list that `spawnAsset` resolves with, is called the **root entity**; it was the first entity you selected in the desktop editor when you made the asset (if it is a multi-entity asset). The root entity is imported for [despawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#deleting-simply-spawned-entities). The other entities in the array are called the **associated entities**.
+**Root entity**: The first entity, in the list that `spawnAsset` resolves with, is called the **root entity**; it was the first entity you selected in the desktop editor when you made the asset (if it is a multi-entity asset). The root entity is imported for [despawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#deleting-simply-spawned-entities). The other entities in the array are called the **associated entities**.
 
-**Not immediate (asynchronous)**: Spawning takes time. It needs to prepare the information, send it to all [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server), wait for them to all load it and be ready, and then the spawn will complete. The means that if even one player has a slow network that the entire spawn process can be prolonged. It you want **to make spawning faster, use [controller-based spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#advanced-spawning-spawncontroller)**.
+**Not immediate (asynchronous)**: Spawning takes time. It needs to prepare the information, send it to all [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), wait for them to all load it and be ready, and then the spawn will complete. The means that if even one player has a slow network that the entire spawn process can be prolonged. It you want **to make spawning faster, use [controller-based spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)**.
 
-**Spawning static content**: You can spawn [static](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-vs-dynamic-entities) anywhere in the world, but once it is spawned you cannot move it, since it would have to be [dynamic](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#static-vs-dynamic-entities) to be moved in scripting. The closest you could get to moving a static spawned entity would be [despawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#despawning) it and then spawn it again elsewhere. Since spawning is not immediate, you **cannot use this technique to move anything quickly**.
+**Spawning static content**: You can spawn [static](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities) anywhere in the world, but once it is spawned you cannot move it, since it would have to be [dynamic](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities) to be moved in scripting. The closest you could get to moving a static spawned entity would be [despawn](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) it and then spawn it again elsewhere. Since spawning is not immediate, you **cannot use this technique to move anything quickly**.
 
 #### Deleting Simply Spawned Entities
 
-The [World Class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class) has one more spawn-related method: `deleteAsset` (which is misnamed; it should be “delete spawned entities) which takes the following parameters:
+The [World Class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) has one more spawn-related method: `deleteAsset` (which is misnamed; it should be “delete spawned entities) which takes the following parameters:
 
 | `deleteAsset` Parameter Name | Type | Default Value | Notes |
 | --- | --- | --- | --- |
-| entity | [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entities) | n/a - required | The entity to remove from the [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances). It is an error to pass in an entity that wasn’t spawned via `spawnAsset`. |
+| entity | [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | n/a - required | The entity to remove from the [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances). It is an error to pass in an entity that wasn’t spawned via `spawnAsset`. |
 | fullDelete | `boolean` | `false` | If `true` the `entity` must be the *root entity* (the first one in the spawned entities array). The `entity` and all its *associated entities* will be deleted (essentially undoing the single “spawn event” that created them all). |
 
-The `deleteAsset` method returns a `Promise<undefined>` which resolves when the spawned entities have been fully removed from the [instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instances).
+The `deleteAsset` method returns a `Promise<undefined>` which resolves when the spawned entities have been fully removed from the [instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instances).
 
 **Entity exists()**: after calling `deleteAsset` on `entity`, `entity.exists()` will then return `false`. If `fullDelete` was set to `true` then all entities created in the same “spawn event” will also no longer exist.
 
 #### Spawn CodeBlockEvents
 
-There are three [built-in broadcast CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-broadcasted-code-block-events) that you can listen to on any entity:
+There are three [built-in broadcast CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) that you can listen to on any entity:
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) | Description |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
 | --- | --- | --- |
-| 🔈OnAssetDespawned | `entity: Entity` `asset: Asset` | Entities have been despawned. `entity` is the one that was passed to [deleteAsset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#deleting-simply-spawned-entities). |
+| 🔈OnAssetDespawned | `entity: Entity` `asset: Asset` | Entities have been despawned. `entity` is the one that was passed to [deleteAsset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#deleting-simply-spawned-entities). |
 | 🔈OnAssetSpawnFailed | `asset: Asset` | - |
-| 🔈OnAssetSpawned | `entity: Entity` `asset: Asset` | `entity` is the [root entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simple-spawning). |
+| 🔈OnAssetSpawned | `entity: Entity` `asset: Asset` | `entity` is the [root entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning). |
 
 ### Despawning
 
-**Despawning** is the act of removing entities from the world that were created by *asset spawning* (or [sublevel streaming](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevels)). There are a few ways to *despawn*:
+**Despawning** is the act of removing entities from the world that were created by *asset spawning* (or [sublevel streaming](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels)). There are a few ways to *despawn*:
 
-- Call `world.deleteAsset(...)` on the root entity (or any other to-level entities) when using [simple spawning](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simple-spawning)
-- Call `controller.unload()` or `controller.dispose()` on a [SpawnController](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawncontroller-methods) (after entities have been created with `spawn()`). You can also call `world.deleteAsset(...)` on the root entity (but *not* the other top-level entities).
-- Call `sublevel.hide()` on a [SublevelEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevels) (after entities have been created with `activate()`)
-- Call `world.deleteAsset(...)` on the root entity resulting from a [durable item asset spawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#durable-in-world-item-asset).
-- [Stop or Reset an editor instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#starting-stopping-and-resetting-an-instance) or call `world.reset()`
+- Call `world.deleteAsset(...)` on the root entity (or any other to-level entities) when using [simple spawning](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning)
+- Call `controller.unload()` or `controller.dispose()` on a [SpawnController](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawncontroller-methods) (after entities have been created with `spawn()`). You can also call `world.deleteAsset(...)` on the root entity (but *not* the other top-level entities).
+- Call `sublevel.hide()` on a [SublevelEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) (after entities have been created with `activate()`)
+- Call `world.deleteAsset(...)` on the root entity resulting from a [durable item asset spawn](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#durable-in-world-item-asset).
+- [Stop or Reset an editor instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#starting-stopping-and-resetting-an-instance) or call `world.reset()`
 
 ### Advanced Spawning (SpawnController)
 
-A `SpawnController` gives you more control over spawning than the [simple spawn method](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#simple-spawning). Most importantly, it lets you *prepare* as asset (by calling `load()`) before you are ready for it to spawn it; this allows *most of the work* to be done so that when you are ready for the spawn to actually occur it can be done nearly instantaneously. **A SpawnController allows you to spawn in an asset in a “hidden” state and then later “show” it instantaneously**.
+A `SpawnController` gives you more control over spawning than the [simple spawn method](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning). Most importantly, it lets you *prepare* as asset (by calling `load()`) before you are ready for it to spawn it; this allows *most of the work* to be done so that when you are ready for the spawn to actually occur it can be done nearly instantaneously. **A SpawnController allows you to spawn in an asset in a “hidden” state and then later “show” it instantaneously**.
 
-You instantiate a spawn controller by specifying a [spawnable asset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawnable-assets):
+You instantiate a spawn controller by specifying a [spawnable asset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawnable-assets):
 
 ```
 const controller = new SpawnController(
@@ -6714,22 +6714,22 @@ const controller = new SpawnController(
 
 **Disposing the Controller**: When you are done with the controller and don’t plan to spawn from it again, call `dispose()`. ⚠️ Once you call `dispose` the `SpawnController` is no longer usable; you have to create an entirely new `SpawnController` if/when you want to spawn the asset again.
 
-Note: there is **currently no way to go from *spawned to loaded*** (although [Sublevels *can*](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevels)), meaning that you can’t simply “hide” the spawned entities but keep them all around. Instead you need to go from *spawned to unloaded* and then *load* again. If you simple try to go from *spawned* to *loaded* then nothing happens, since a spawned asset *is* loaded.
+Note: there is **currently no way to go from *spawned to loaded*** (although [Sublevels *can*](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels)), meaning that you can’t simply “hide” the spawned entities but keep them all around. Instead you need to go from *spawned to unloaded* and then *load* again. If you simple try to go from *spawned* to *loaded* then nothing happens, since a spawned asset *is* loaded.
 
 ontroller State Machine
 
-The `SpawnController` class is implemented as a state machine. It has two properties `currentState` and `targetState` which are both [readonly Horizon Properties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties) for `SpawnState`. The spawn system will automatically move `currentState`*toward*`targetState`.
+The `SpawnController` class is implemented as a state machine. It has two properties `currentState` and `targetState` which are both [readonly Horizon Properties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) for `SpawnState`. The spawn system will automatically move `currentState`*toward*`targetState`.
 
 The `SpawnState` enum supports the following values:
 
-* `NotReady`: [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) are downloading the asset information
-* `Unloaded`: all [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) have downloaded the asset information
-* `Loading`: [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) are preparing the asset (e.g. computing [lighting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-lighting) on all the meshes)
-* `Paused`: [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) are paused preparing the asset
-* `Loaded`: all [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) have prepared the asset
-* `Active`: [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) have inserting entities into the scene graph
-* `Unloading`: [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) clients have removed entities from the scene graph (if it had made it to the `Active` state) and are deleting all prepared data (such as [lighting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-lighting))
-* `Disposed`: [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) have deleted the downloaded information, the prepared data, and the created entities. The controller is no longer usable (all methods will throw errors) and should be discarded.
+* `NotReady`: [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are downloading the asset information
+* `Unloaded`: all [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have downloaded the asset information
+* `Loading`: [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are preparing the asset (e.g. computing [lighting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting) on all the meshes)
+* `Paused`: [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are paused preparing the asset
+* `Loaded`: all [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have prepared the asset
+* `Active`: [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have inserting entities into the scene graph
+* `Unloading`: [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) clients have removed entities from the scene graph (if it had made it to the `Active` state) and are deleting all prepared data (such as [lighting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting))
+* `Disposed`: [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have deleted the downloaded information, the prepared data, and the created entities. The controller is no longer usable (all methods will throw errors) and should be discarded.
 
 **`SpawnState` Usage**
 
@@ -6759,21 +6759,21 @@ If any of the spawn process fails (promises reject), you can find the error in `
 - Once `targetState` is set to `Disposed`, it will traverse through *red edges* as it tears down.
 - When a spawn controller starts, its `currentState` is `NotReady` and its target state is `Unloaded`.
 
-**Dotted edges** represent transitions that take time and where all [clients](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#clients-devices-and-the-server) are waited on.
+**Dotted edges** represent transitions that take time and where all [clients](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are waited on.
 
 **Labeled edges** describe the actions that occur to go from one `currentState` to the next.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480573611_656797446858210_8427218712583755701_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ol5PSFpW24gQ7kNvwE9oH1F&_nc_oc=AdkJk70zqIXL7aobKM82Kjx1fCIchhtCFVKlRkC_vq5vLZxz-_yXRnw8hsZYpxI2J2g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wWMeenaxBumxevikNsghRA&oh=00_AfiOCHGAMcW-GKq0NwVuZB4meClHzWPhhcrxVOXc-PlY1g&oe=694640FB)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480573611_656797446858210_8427218712583755701_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=b0TTKu9--FwQ7kNvwHabGue&_nc_oc=Adl8Gbc7vXpCevGg_Um3jTCnw4IbGIr-SlWeh9lWlEqKp-AssHlPArB5x7-A5fx20XQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z3YXkG0804EimreF3m8-DA&oh=00_AfkTFIXIdqYazkdCzJ1x09W8wvjw-caqxcNeil66_SUl9w&oe=694BBF3B)
 
 ### Sublevels
 
-**Sublevels** are portions of a world that can be spawned in. They are very similar to [spawnable assets](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawnable-assets) except that they can pre-compute a lot more data (such as [lighting](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-lighting)) which makes spawning a *lot* faster. **Horizon uses the term *stream* with Sublevels (instead of *spawn*)**.
+**Sublevels** are portions of a world that can be spawned in. They are very similar to [spawnable assets](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawnable-assets) except that they can pre-compute a lot more data (such as [lighting](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting)) which makes spawning a *lot* faster. **Horizon uses the term *stream* with Sublevels (instead of *spawn*)**.
 
 Sublevel functionality is in the `horizon/world_streaming` module.
 
-**TypeScript**: To spawn in a sublevel you need to have a [Sublevel Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sublevel-gizmo) in the world with “Sublevel Type” set to “Deeplink”. Then you can use the entity [as()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-as-method) the `SublevelEntity` class.
+**TypeScript**: To spawn in a sublevel you need to have a [Sublevel Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sublevel-gizmo) in the world with “Sublevel Type” set to “Deeplink”. Then you can use the entity [as()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `SublevelEntity` class.
 
-The class interface on `SublevelEntity` acts much like a [SpawnController](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#advanced-spawning-spawncontroller) with [currentState and targetState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawncontroller-state-machine) using the enum `SublevelStates` which has the exact same values as [SpawnState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawncontroller-state-machine).
+The class interface on `SublevelEntity` acts much like a [SpawnController](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller) with [currentState and targetState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawncontroller-state-machine) using the enum `SublevelStates` which has the exact same values as [SpawnState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawncontroller-state-machine).
 
 | `SublevelEntity` Method | Equivalent `SpawnController` Method |
 | --- | --- |
@@ -6785,11 +6785,11 @@ The class interface on `SublevelEntity` acts much like a [SpawnController](https
 
 ## Showing Players Temporary Messages
 
-There are two ways to show temporary messages to players: popups (which appear in a fixed screen position) and tooltips (which can follow players or entities). Note that there are currently many limitations with tooltips (they only work with [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type), for example). We recommend to **only use popups; do not use tooltips (for now)**.
+There are two ways to show temporary messages to players: popups (which appear in a fixed screen position) and tooltips (which can follow players or entities). Note that there are currently many limitations with tooltips (they only work with [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type), for example). We recommend to **only use popups; do not use tooltips (for now)**.
 
 ### Popups
 
-You can show popups to every player in the world by accessing the `ui` field on a [World](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class) instance
+You can show popups to every player in the world by accessing the `ui` field on a [World](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) instance
 
 ```
 world.ui.showPopupForEveryone(
@@ -6822,7 +6822,7 @@ showPopupForPlayer(
 ): void;
 ```
 
-For players on screen devices, popups appear in the center of the screen by default. The position offset in `options` moves the popup in screen coordinates (whereas for [VR players](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type) it is in [player-local coordinates](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-transforms)).
+For players on screen devices, popups appear in the center of the screen by default. The position offset in `options` moves the popup in screen coordinates (whereas for [VR players](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) it is in [player-local coordinates](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)).
 
 **Popup Options**: When showing a popup the optional `options` parameter can specify any of the fields in `PopupOptions`:
 
@@ -6856,9 +6856,9 @@ Although the `text` argument is typed as a `string | i18n_utils.LocalizableText`
 
 Danger: Tooltips are not recommended
 
-Tooltips currently only work for VR players and have known issues with Quest Link. We recommend using [popups](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#popups) or [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui) instead.
+Tooltips currently only work for VR players and have known issues with Quest Link. We recommend using [popups](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#popups) or [Custom UI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui) instead.
 
-Tooltips can be shown to a player by accessing the `ui` field on a [World](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class) instance:
+Tooltips can be shown to a player by accessing the `ui` field on a [World](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) instance:
 
 ```
 world.ui.showTooltipForPlayer(
@@ -6919,15 +6919,15 @@ Although the tooltipText argument is typed as a `string | i18n_utils.Localizable
 
 ## Custom UI
 
-Custom UI you to create 2D user interfaces (somewhat inspired by [React](https://react.dev/)) using [CSS flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox) for layout. Custom UI creates a “view tree” *once* and then you use [bindings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#bindings) (and [animated bindings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#animated-bindings)) to update the view thereafter. Horizon calls each element in a UI tree a `UINode`.
+Custom UI you to create 2D user interfaces (somewhat inspired by [React](https://react.dev/)) using [CSS flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox) for layout. Custom UI creates a “view tree” *once* and then you use [bindings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#bindings) (and [animated bindings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#animated-bindings)) to update the view thereafter. Horizon calls each element in a UI tree a `UINode`.
 
-To create a UI you instantiate a [Custom UI Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui-gizmo), create a [UIComponent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#uicomponent-class) subclass, and then attach it to the gizmo. The UIComponent subclass implements `initializeUI()` to return a collection of [Views](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ui-view), [Images](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ui-image), [Pressables](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ui-pressable), [Dynamic Lists](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ui-dynamic-list), and [ScrollViews](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ui-scrollview).
+To create a UI you instantiate a [Custom UI Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui-gizmo), create a [UIComponent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#uicomponent-class) subclass, and then attach it to the gizmo. The UIComponent subclass implements `initializeUI()` to return a collection of [Views](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ui-view), [Images](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ui-image), [Pressables](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ui-pressable), [Dynamic Lists](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ui-dynamic-list), and [ScrollViews](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ui-scrollview).
 
 Here’s an example that shows a collection of features:
 
-* `UIComponent` is a subclass of [Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class) and so you can still use [start](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class) and [propsDefinition](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties).
-* [Bindings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#bindings) and [derived Bindings](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#deriving-bindings)
-* [View](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ui-view) and [Text](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ui-text)
+* `UIComponent` is a subclass of [Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) and so you can still use [start](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) and [propsDefinition](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties).
+* [Bindings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#bindings) and [derived Bindings](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings)
+* [View](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ui-view) and [Text](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ui-text)
 
 ```
 import { PropTypes } from "horizon/core"
@@ -6968,27 +6968,27 @@ UIComponent.register(FlashingText);
 
 ### UIComponent Class
 
-The `UIComponent` class is a subclass of the [Component class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class). Thus the following all exactly as they do in `UIComponent`:
+The `UIComponent` class is a subclass of the [Component class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class). Thus the following all exactly as they do in `UIComponent`:
 
-* [Component.register](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class)
-* [propsDefinition](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-properties)
-* [preStart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class)
-* [start](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class)
-* [transferOwnership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transferring-data-across-owners)
-* [receiveOwnership](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transferring-data-across-owners)
-* [dispose](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#disposing-objects)
+* [Component.register](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+* [propsDefinition](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties)
+* [preStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+* [start](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+* [transferOwnership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners)
+* [receiveOwnership](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners)
+* [dispose](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
 
-There are some members specific to `UIComponent`. Additionally, whereas `Component` can be attached to [any entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#all-gizmos-intrinsic-entity-types), a `UIComponent`**must be attached to a [Custom UI Gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#custom-ui-gizmo)** for it to render any UI.
+There are some members specific to `UIComponent`. Additionally, whereas `Component` can be attached to [any entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types), a `UIComponent`**must be attached to a [Custom UI Gizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui-gizmo)** for it to render any UI.
 
 | UIComponent Member | Description |
 | --- | --- |
-| `abstract initializeUI(): UINode` | You *must* override this method and return the initial “view tree”. This method is called [before preStart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-lifecycle). |
-| `readonly panelWidth: number` | The total number of pixels the UI gizmo is wide. This doesn’t change the size of the UI (use [scale](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scale for that)); it just changes how you reference the UI. For instance if you set this to `100` then you can use `50` to reference the midpoint. The default is `500`. |
+| `abstract initializeUI(): UINode` | You *must* override this method and return the initial “view tree”. This method is called [before preStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle). |
+| `readonly panelWidth: number` | The total number of pixels the UI gizmo is wide. This doesn’t change the size of the UI (use [scale](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scale for that)); it just changes how you reference the UI. For instance if you set this to `100` then you can use `50` to reference the midpoint. The default is `500`. |
 | `readonly panelHeight: number` | The same as `panelWidth` except specifying *height*. |
 
 ### Bindings
 
-Bindings are **the only way that a Custom UI changes its contents**. A binding is a *container with a value inside*. Any time that you change the contents of it, via `binding.set(...)`, the UI will update accordingly. Many fields in the various [UINode types](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#uinode-types) accept bindings for their values. For instance:
+Bindings are **the only way that a Custom UI changes its contents**. A binding is a *container with a value inside*. Any time that you change the contents of it, via `binding.set(...)`, the UI will update accordingly. Many fields in the various [UINode types](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#uinode-types) accept bindings for their values. For instance:
 
 ```
 const contents = new Binding('hi!')
@@ -6998,24 +6998,24 @@ Text({
 })
 ```
 
-will create a [Text](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#ui-text) view that renders the word `hi!`. If, or when, `contents.set('ciao!')` is run, then that Text node in the UI will update its contents to render `ciao!` instead.
+will create a [Text](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#ui-text) view that renders the word `hi!`. If, or when, `contents.set('ciao!')` is run, then that Text node in the UI will update its contents to render `ciao!` instead.
 
 **Performance**: Having too many bindings, or updating them too frequently, can impact the performance of your world. Monitor your performance metrics as you build complex UIs.
 
-**Per-Player Values**: Binding can have different values for each player. This makes it so that multiple players can interact with a UI at the same and see different results (example: reading instructions). You can choose to [set values per-player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#global-vs-player-binding-values) whenever using [set() and reset()](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#setting-and-resetting-bindings).
+**Per-Player Values**: Binding can have different values for each player. This makes it so that multiple players can interact with a UI at the same and see different results (example: reading instructions). You can choose to [set values per-player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values) whenever using [set() and reset()](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-and-resetting-bindings).
 
-**Derived Bindings**: You can have [a binding that “flows” downstream from another binding (or multiple)](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#deriving-bindings). For instance if you have a binding containing an array of strings, you could then make a new binding that just has the length of that array. Whenever the array one changes, the length one will change too.
+**Derived Bindings**: You can have [a binding that “flows” downstream from another binding (or multiple)](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings). For instance if you have a binding containing an array of strings, you could then make a new binding that just has the length of that array. Whenever the array one changes, the length one will change too.
 
-**Values**: The value inside a `Binding` must be [JSON-serializable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-bindings).
+**Values**: The value inside a `Binding` must be [JSON-serializable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-bindings).
 
 #### Binding Class
 
 | `Binding` Class Member | Description |
 | --- | --- |
-| [set](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#setting-and-resetting-bindings) | Update the values in a binding. This can be done by setting a new value or by running a function on current values. This can be done per-player. |
-| [reset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#setting-and-resetting-bindings) | Reset the values in the bindings. This can be done per-player. |
-| [derive](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#deriving-bindings) | Create a new binding whose values update whenever the original one does. |
-| [static derive](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#deriving-bindings) | Create a new binding whose values update whenever any of the original ones do. |
+| [set](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-and-resetting-bindings) | Update the values in a binding. This can be done by setting a new value or by running a function on current values. This can be done per-player. |
+| [reset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-and-resetting-bindings) | Reset the values in the bindings. This can be done per-player. |
+| [derive](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings) | Create a new binding whose values update whenever the original one does. |
+| [static derive](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings) | Create a new binding whose values update whenever any of the original ones do. |
 
 #### Creating Bindings
 
@@ -7031,25 +7031,25 @@ You can specify the type directly if it can’t be inferred from the initial val
 const otherBinding = new Binding<number | string>(123)
 ```
 
-**Value types**: Bindings serialize their values via [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). Thus you cannot use any values that `JSON.stringify` doesn’t allows. For example: **you cannot put a `bigint` into a binding**. This means that an **[Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-class) cannot be put into a binding** (since its `id` is a `bigint`).
+**Value types**: Bindings serialize their values via [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). Thus you cannot use any values that `JSON.stringify` doesn’t allows. For example: **you cannot put a `bigint` into a binding**. This means that an **[Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class) cannot be put into a binding** (since its `id` is a `bigint`).
 
-You can also create bindings by [deriving them](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#deriving-bindings).
+You can also create bindings by [deriving them](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings).
 
-**Bindings count**: Having a large number of binding (or [frequently updating them](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#setting-and-resetting-bindings)) will hurt the world’s performance. You should **create (or derive) bindings *once* and store them** instead of regularly creating them.
+**Bindings count**: Having a large number of binding (or [frequently updating them](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-and-resetting-bindings)) will hurt the world’s performance. You should **create (or derive) bindings *once* and store them** instead of regularly creating them.
 
-**Player Enter**: Whenever a player enters the world they will see the binding with the [global value](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#global-vs-player-binding-values).
+**Player Enter**: Whenever a player enters the world they will see the binding with the [global value](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values).
 
 #### Global vs Player Binding Values
 
-Every binding has an underlying value, the **global value**. When you [create a binding](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#creating-bindings), the value passed in becomes the global value.
+Every binding has an underlying value, the **global value**. When you [create a binding](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#creating-bindings), the value passed in becomes the global value.
 
-The value *can be overridden for a player* in the [set and reset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#setting-and-resetting-bindings) methods.
+The value *can be overridden for a player* in the [set and reset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#setting-and-resetting-bindings) methods.
 
 The **current value** of a player is their override if they have one; otherwise it is the global value.
 
 #### Setting and Resetting Bindings
 
-The [Binding class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#binding-class) has set and resets method to update the value(s) in the binding:
+The [Binding class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#binding-class) has set and resets method to update the value(s) in the binding:
 
 ```
 // Binding
@@ -7064,7 +7064,7 @@ The `reset` method acts exactly like `binding.set(originalValue, players)`.
 
 The **players** argument describes who the update is for. It is optional:
 
-* If `players` is **specified** then those players will get per-player values that [override the global value](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#global-vs-player-binding-values).
+* If `players` is **specified** then those players will get per-player values that [override the global value](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values).
 * If `players` is **omitted** then the global value will be updated and *all per-player overrides will be cleared*.
 
 The **value** argument specifies the data. It can be a value or a function:
@@ -7072,7 +7072,7 @@ The **value** argument specifies the data. It can be a value or a function:
 * If it is a **value** then it will be used for the new global value (or new overrides if `players` was included).
 * If it is a **function** then that function will be applied to the current global value to compute the new one. Unless `players` was included, then the function will be used to compute a new override for each of those players using their current values (an override or the global value if they don’t yet have an override).
 
-**Derived Bindings**: whenever `set()` or `reset()` is called on a binding, it will also update all bindings that are [derived from it](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#deriving-bindings).
+**Derived Bindings**: whenever `set()` or `reset()` is called on a binding, it will also update all bindings that are [derived from it](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings).
 
 Example uses:
 
@@ -7085,7 +7085,7 @@ Example uses:
 
 #### Deriving Bindings
 
-The [Binding class](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#binding-class) has a method **derive** that is used to create a binding that **does not have a *set* method**. Instead, these bindings are “downstream” of another binding and use that other binding’s value(s) to compute theirs (every time it changes). For example
+The [Binding class](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#binding-class) has a method **derive** that is used to create a binding that **does not have a *set* method**. Instead, these bindings are “downstream” of another binding and use that other binding’s value(s) to compute theirs (every time it changes). For example
 
 ```
 const derived = binding.derive((s: string) => s.length)
@@ -7093,8 +7093,8 @@ const derived = binding.derive((s: string) => s.length)
 
 creates a new binding whose values are all computed from those in `binding`.
 
-* The [global value](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#global-vs-player-binding-values) in `derived` will be updated (by calling the function) whenever the global value in `binding` changes.
-* The [player overrides](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#global-vs-player-binding-values) will be updated (by calling the function) on the player overrides in `binding`.
+* The [global value](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values) in `derived` will be updated (by calling the function) whenever the global value in `binding` changes.
+* The [player overrides](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values) will be updated (by calling the function) on the player overrides in `binding`.
 
 You can only derive from a top-level binding. You **cannot derive from a derived binding**.
 
@@ -7120,53 +7120,53 @@ https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/cu
 
 There are a number of built-in `UINode` types. We link to Meta’s docs below. Most builtin `UINode` types take a `style` argument. The `LayoutStyle` type is documented here:
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#styles)
+[Link](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#styles)
 
 #### Conditional UI (If)
 
 Use `UINode.If` to create a `UINode` that uses a binding to choose between showing one of two children:
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#if)
+[Link](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#if)
 
 #### UI View
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#view)
+[Link](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#view)
 
 #### UI Text
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#text)
+[Link](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#text)
 
 #### UI Image
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#image)
+[Link](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#image)
 
 #### UI Pressable
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#pressable)
+[Link](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#pressable)
 
 #### UI ScrollView
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#scrollview)
+[Link](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#scrollview)
 
 #### UI Dynamic List
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/dynamic-list)
+[Link](/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20Dynamic%20List.md)
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npcs/)
+[Link](/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md)
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation#navigation-gizmo)
+[Link](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-gizmo)
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation#navigation-profile)
+[Link](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-profile)
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/nav-mesh-agents)
+[Link](/hw-docs/Desktop%20editor/NPCs/Nav%20Mesh%20Agents.md)
 
 ## Cross Screens - Mobile vs PC vs VR
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/create-for-web-and-mobile/)
+[Link](/hw-docs/Mobile%20and%20web/Create%20for%20web%20and%20mobile.md)
 
 ### Camera
 
-[Link](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/camera)
+[Link](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
 
 ## Common Problems and Troubleshooting
 
@@ -7174,10 +7174,10 @@ Use `UINode.If` to create a `UINode` that uses a binding to choose between showi
 
 * If you reset the world without stopping it first, it is possible the things don’t fully reset. We recommend that you **always do Stop -> Reset -> Play**.
 * If scripts are not syncing or you modify an entity’s properties and don’t see it behaving as if it has the updates then **leave the world and return**.
-* If leaving a world and returning doesn’t fix an issue, you may want to have everyone leave the [editor instance](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#instance-selection) for a few minutes so that the instance is shut down and a new one can be created when you return.
+* If leaving a world and returning doesn’t fix an issue, you may want to have everyone leave the [editor instance](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection) for a few minutes so that the instance is shut down and a new one can be created when you return.
 * While waiting for an instance to shutdown, or just as another “debug” trick to try, you can **quit the Desktop app and then relaunch it**.
 * If scripts are not syncing you can **delete the `.editor` file and then leave the world and return**.
-* When you see an error message showing just an [Entity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-class)`id` (such as 100006) then you can do **an entity debug trick** and run
+* When you see an error message showing just an [Entity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class)`id` (such as 100006) then you can do **an entity debug trick** and run
 
   ```
     console.log(
@@ -7189,180 +7189,180 @@ Use `UINode.If` to create a `UINode` that uses a binding to choose between showi
 
 ### Horizon TypeScript Symbols
 
-* [AchievementsGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests)
-* [AIAgentGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#npc-gizmo)
-* [AimAssistOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#aim-assist)
-* [AnimatedEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#animated-entities)
-* [AnimationCallback](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-animation)
-* [AnimationCallbackReason](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-animation)
-* [AnimationCallbackReasons](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-animation)
-* [assert](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting-helper-functions)
-* [Asset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#assets)
-* [AssetContentData](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json)
-* [AttachableEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities)
-* [AttachablePlayerAnchor](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attaching-entities)
-* [AudioGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo)
-* [AudibilityMode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo)
-* [AudioOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo)
-* [AvatarGripPose](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-pose)
-* [AvatarGripPoseAnimationNames](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-pose)
-* [BaseRaycastHit](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)
-* [BuiltInVariableType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#builtinvariabletype)
-* [ButtonIcon](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input-buttonicon)
-* [ButtonPlacement](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#connect-local-input)
-* [clamp](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting-helper-functions)
-* [Color](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#color)
-* [CodeBlockEvents](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events)
-* [Comparable](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#comparable-interface)
-* [Component](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#component-class)
-* [CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#code-block-events)
-* [DefaultFetchAsDataOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json)
-* [DefaultFocusedInteractionTapOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction)
-* [DefaultFocusedInteractionTrailOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction)
-* [DefaultPopupOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#popups)
-* [DefaultSpringOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#springs)
-* [DefaultThrowOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#throwing)
-* [DefaultTooltipOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#tooltips)
-* [degreesToRadians](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting-helper-functions)
-* [DisposableObject](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#disposing-objects)
-* [DisposableOperation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#disposing-objects)
-* [DisposableOperationRegistration](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#disposing-objects)
-* [DynamicLightGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#dynamic-light-gizmo)
-* [EntityInteractionMode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#interactive-entities)
-* [EntityRaycastHit](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)
-* [EntityStyle](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-style)
-* [EntityTagMatchOperation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-tags)
-* [EulerOrder](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quaternion)
-* [EventSubscription](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#receiving-events)
-* [FetchAsDataOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-asset-json)
-* [FocusedInteraction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction)
-* [FocusedInteractionTapOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction)
-* [FocusedInteractionTrailOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction)
-* [GrabbableEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grabbing-and-holding-entities)
-* **Handedness**: [force hold](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#force-grabbing), [haptics](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#haptics), [throwing](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#throwing)
-* [HapticSharpness](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#haptics)
-* [HapticStrength](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#haptics)
-* [HorizonProperty](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties)
-* [HorizonSetProperty](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties)
-* [InteractionInfo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction)
-* [IPersistentStorage](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#persistence)
-* [IUI](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#showing-players-temporary-messages)
-* [IWPSellerGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-gizmo)
-* [LaunchProjectileOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo)
-* [LayerType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)
-* [Leaderboards](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#leaderboards)
-* [LocalEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events)
-* [LocalEventData](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#local-events)
-* [MaterialAsset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#material-asset)
-* [MeshEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-class)
-* [MonetizationTimeOption](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items)
-* [NetworkEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events)
-* [NetworkEventData](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#network-events)
-* [ParticleFXPlayOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#particlefx-gizmo)
-* [ParticleFXStopOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#particlefx-gizmo)
-* [ParticleGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#particlefx-gizmo)
-* [PersistentSerializableState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#serializablestate)
-* [PhysicalEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#physicalentity-class)
-* [PhysicsForceMode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#applying-forces-and-torque)
-* [PlayAnimationOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-animation)
-* [Player](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#players)
-* [PlayerBodyPart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts)
-* [PlayerBodyPartType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts)
-* [PlayerDeviceType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-device-type)
-* [PlayerHand](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts)
-* [PlayerControls](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-controls)
-* [PlayerControlsConnectOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#connect-local-input)
-* [PlayerInput](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#connect-local-input)
-* [PlayerInputAction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#playerinputaction)
-* [PlayerInputStateChangeCallback](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#connect-local-input)
-* [PlayerRaycastHit](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)
-* [PlayerVisibilityMode](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#entity-visibility)
-* [PopupOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#popups)
-* [ProjectileLauncherGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo)
-* [PropTypes](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#proptypes)
-* [Quaternion](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quaternion)
-* [radiansToDegrees](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#scripting-helper-functions)
-* [RaycastGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)
-* [RaycastHit](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)
-* [RaycastTargetType](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)
-* [ReadableHorizonProperty](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties)
-* [SerializableState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#serializablestate)
-* [SetMaterialOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#material-asset)
-* [SetMeshOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#meshentity-setmesh)
-* [SetTextureOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset)
-* **Space**: [body part](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-body-parts), [transform helpers](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transform-helpers)
-* [SpawnController](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#advanced-spawning-spawncontroller)
-* [SpawnControllerBase](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#advanced-spawning-spawncontroller)
-* [SpawnError](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#advanced-spawning-spawncontroller)
-* [SpawnPointGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawn-point-gizmo)
-* [SpawnState](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#advanced-spawning-spawncontroller)
-* [SpringOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#springs)
-* [StaticRaycastHit](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#raycast-gizmo)
-* [StopAnimationOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#avatar-animation)
-* [TextGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#text-gizmo)
-* [TextureAsset](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#texture-asset)
-* [ThrowOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#throwing)
-* [TooltipAnchorLocation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#tooltips)
-* [TooltipLineAttachmentProperties](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#tooltips)
-* [TooltipOptions](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#tooltips)
-* [TrailGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trailfx-gizmo)
-* [Transform](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#transforms)
-* [TriggerGizmo](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo)
-* [Vec3](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#vec3)
-* [VoipSettingValues](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#voip-settings)
-* [World](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#world-class)
-* [WritableHorizonProperty](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#horizon-properties)
+* [AchievementsGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests)
+* [AIAgentGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)
+* [AimAssistOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#aim-assist)
+* [AnimatedEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#animated-entities)
+* [AnimationCallback](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+* [AnimationCallbackReason](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+* [AnimationCallbackReasons](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+* [assert](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
+* [Asset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#assets)
+* [AssetContentData](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)
+* [AttachableEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)
+* [AttachablePlayerAnchor](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)
+* [AudioGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)
+* [AudibilityMode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)
+* [AudioOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)
+* [AvatarGripPose](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-pose)
+* [AvatarGripPoseAnimationNames](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-pose)
+* [BaseRaycastHit](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+* [BuiltInVariableType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype)
+* [ButtonIcon](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-buttonicon)
+* [ButtonPlacement](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
+* [clamp](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
+* [Color](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#color)
+* [CodeBlockEvents](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)
+* [Comparable](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface)
+* [Component](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+* [CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events)
+* [DefaultFetchAsDataOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)
+* [DefaultFocusedInteractionTapOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+* [DefaultFocusedInteractionTrailOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+* [DefaultPopupOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#popups)
+* [DefaultSpringOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#springs)
+* [DefaultThrowOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)
+* [DefaultTooltipOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
+* [degreesToRadians](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
+* [DisposableObject](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
+* [DisposableOperation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
+* [DisposableOperationRegistration](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
+* [DynamicLightGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo)
+* [EntityInteractionMode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)
+* [EntityRaycastHit](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+* [EntityStyle](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style)
+* [EntityTagMatchOperation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags)
+* [EulerOrder](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion)
+* [EventSubscription](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)
+* [FetchAsDataOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)
+* [FocusedInteraction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+* [FocusedInteractionTapOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+* [FocusedInteractionTrailOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+* [GrabbableEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)
+* **Handedness**: [force hold](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing), [haptics](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#haptics), [throwing](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)
+* [HapticSharpness](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#haptics)
+* [HapticStrength](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#haptics)
+* [HorizonProperty](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
+* [HorizonSetProperty](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
+* [InteractionInfo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+* [IPersistentStorage](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#persistence)
+* [IUI](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#showing-players-temporary-messages)
+* [IWPSellerGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-gizmo)
+* [LaunchProjectileOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)
+* [LayerType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+* [Leaderboards](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards)
+* [LocalEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events)
+* [LocalEventData](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#local-events)
+* [MaterialAsset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset)
+* [MeshEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)
+* [MonetizationTimeOption](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)
+* [NetworkEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events)
+* [NetworkEventData](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#network-events)
+* [ParticleFXPlayOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)
+* [ParticleFXStopOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)
+* [ParticleGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)
+* [PersistentSerializableState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)
+* [PhysicalEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)
+* [PhysicsForceMode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)
+* [PlayAnimationOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+* [Player](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#players)
+* [PlayerBodyPart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)
+* [PlayerBodyPartType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)
+* [PlayerDeviceType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)
+* [PlayerHand](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)
+* [PlayerControls](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls)
+* [PlayerControlsConnectOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
+* [PlayerInput](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
+* [PlayerInputAction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction)
+* [PlayerInputStateChangeCallback](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
+* [PlayerRaycastHit](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+* [PlayerVisibilityMode](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility)
+* [PopupOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#popups)
+* [ProjectileLauncherGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)
+* [PropTypes](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes)
+* [Quaternion](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion)
+* [radiansToDegrees](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
+* [RaycastGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+* [RaycastHit](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+* [RaycastTargetType](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+* [ReadableHorizonProperty](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
+* [SerializableState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)
+* [SetMaterialOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset)
+* [SetMeshOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-setmesh)
+* [SetTextureOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)
+* **Space**: [body part](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts), [transform helpers](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers)
+* [SpawnController](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
+* [SpawnControllerBase](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
+* [SpawnError](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
+* [SpawnPointGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-point-gizmo)
+* [SpawnState](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
+* [SpringOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#springs)
+* [StaticRaycastHit](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+* [StopAnimationOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+* [TextGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo)
+* [TextureAsset](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)
+* [ThrowOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)
+* [TooltipAnchorLocation](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
+* [TooltipLineAttachmentProperties](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
+* [TooltipOptions](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
+* [TrailGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo)
+* [Transform](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#transforms)
+* [TriggerGizmo](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo)
+* [Vec3](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)
+* [VoipSettingValues](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings)
+* [World](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#world-class)
+* [WritableHorizonProperty](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
 
 ## All Built-In CodeBlockEvents
 
 In the table below:
 
-* 🔈 is a *[CodeBlockEvent broadcast on the server](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events)*.
-* 🏠 is a *[CodeBlockEvent broadcast on the device owned by the player in the parameters](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events)*.
+* 🔈 is a *[CodeBlockEvent broadcast on the server](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)*.
+* 🏠 is a *[CodeBlockEvent broadcast on the device owned by the player in the parameters](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)*.
 
-| [Built-In CodeBlockEvent](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#built-in-code-block-events) | Parameter(s) |
+| [Built-In CodeBlockEvent](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) |
 | --- | --- |
-| 🔈[OnAchievementComplete](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#quests-gizmo) | `player: Player` `scriptId: string` |
-| 🔈[OnAssetDespawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawn-codeblockevents) | `entity: Entity` `asset: Asset` |
-| 🔈[OnAssetSpawnFailed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawn-codeblockevents) | `asset: Asset` |
-| 🔈[OnAssetSpawned](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#spawn-codeblockevents) | `entity: Entity` `asset: Asset` |
-| [OnAttachEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attachable-by) | `player: Player` |
-| [OnAttachStart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#attachable-by) | `player: Player` |
-| [OnAudioCompleted](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#sound-gizmo) |  |
-| [OnButton1Down](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input-codeblockevents) | `player: Player` |
-| [OnButton1Up](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input-codeblockevents) | `player: Player` |
-| [OnButton2Down](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input-codeblockevents) | `player: Player` |
-| [OnButton2Up](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input-codeblockevents) | `player: Player` |
+| 🔈[OnAchievementComplete](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#quests-gizmo) | `player: Player` `scriptId: string` |
+| 🔈[OnAssetDespawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-codeblockevents) | `entity: Entity` `asset: Asset` |
+| 🔈[OnAssetSpawnFailed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-codeblockevents) | `asset: Asset` |
+| 🔈[OnAssetSpawned](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-codeblockevents) | `entity: Entity` `asset: Asset` |
+| [OnAttachEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) | `player: Player` |
+| [OnAttachStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) | `player: Player` |
+| [OnAudioCompleted](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) |  |
+| [OnButton1Down](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
+| [OnButton1Up](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
+| [OnButton2Down](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
+| [OnButton2Up](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
 | 🔈OnCameraPhotoTaken | `player: Player` `isSelfie: boolean` |
-| [OnEntityCollision](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events) | `collidedWith: Entity` `collisionAt: Vec3, normal: Vec3, relativeVelocity: Vec3, localColliderName: string, OtherColliderName: string` |
-| [OnEntityEnterTrigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) | `enteredBy: Entity` |
-| [OnEntityExitTrigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) | `enteredBy: Entity` |
-| [OnGrabEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events) | `player: Player` |
-| [OnGrabStart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events) | `isRightHand: boolean` `player: Player` |
-| [OnIndexTriggerDown](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input-codeblockevents) | `player: Player` |
-| [OnIndexTriggerUp](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-input-codeblockevents) | `player: Player` |
-| [OnItemConsumeComplete](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items) | `player: Player` `item: string, success: boolean` |
-| [OnItemConsumeStart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items) | `player: Player` `item: string` |
-| 🔈[OnItemPurchaseComplete](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items) | `player: Player` `item: string, success: boolean` |
-| 🔈[OnItemPurchaseFailed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items) | `player: Player` `item: string` |
-| 🔈[OnItemPurchaseStart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items) | `player: Player` `item: string` |
-| 🔈[OnItemPurchaseSucceeded](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-durable-items) | `player: Player` `item: string` |
-| [OnMultiGrabEnd](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events) | `player: Player` |
-| [OnMultiGrabStart](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#grab-sequence-and-events) | `player: Player` |
+| [OnEntityCollision](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) | `collidedWith: Entity` `collisionAt: Vec3, normal: Vec3, relativeVelocity: Vec3, localColliderName: string, OtherColliderName: string` |
+| [OnEntityEnterTrigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `enteredBy: Entity` |
+| [OnEntityExitTrigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `enteredBy: Entity` |
+| [OnGrabEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) | `player: Player` |
+| [OnGrabStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) | `isRightHand: boolean` `player: Player` |
+| [OnIndexTriggerDown](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
+| [OnIndexTriggerUp](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
+| [OnItemConsumeComplete](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | `player: Player` `item: string, success: boolean` |
+| [OnItemConsumeStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | `player: Player` `item: string` |
+| 🔈[OnItemPurchaseComplete](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) | `player: Player` `item: string, success: boolean` |
+| 🔈[OnItemPurchaseFailed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) | `player: Player` `item: string` |
+| 🔈[OnItemPurchaseStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) | `player: Player` `item: string` |
+| 🔈[OnItemPurchaseSucceeded](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) | `player: Player` `item: string` |
+| [OnMultiGrabEnd](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) | `player: Player` |
+| [OnMultiGrabStart](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) | `player: Player` |
 | OnPassiveInstanceCameraCreated | `sessionId: Player` `cameraMode: string` |
-| [OnPlayerCollision](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#collision-events) | `collidedWith: Player` `collisionAt: Vec3, normal: Vec3, relativeVelocity: Vec3, localColliderName: string, OtherColliderName: string` |
-| 🔈[OnPlayerConsumeFailed](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items) | `player: Player` `item: string` |
-| 🔈[OnPlayerConsumeSucceeded](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-consumable-items) | `player: Player` `item: string` |
-| 🔈[OnPlayerEnterAFK](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-enter-and-exit-afk) | `player: Player` |
-| [OnPlayerEnterTrigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) | `enteredBy: Player` |
-| 🔈[OnPlayerEnterWorld](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world) | `player: Player` |
-| 🏠[OnPlayerEnteredFocusedInteraction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction) | `player: Player` |
-| 🔈[OnPlayerExitAFK](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-enter-and-exit-afk) | `player: Player` |
-| [OnPlayerExitTrigger](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#trigger-gizmo) | `exitedBy: Player` |
-| 🔈[OnPlayerExitWorld](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#player-entering-and-exiting-a-world) | `player: Player` |
-| 🏠[OnPlayerExitedFocusedInteraction](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#focused-interaction) | `player: Player` |
-| [OnPlayerSpawnedItem](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#in-world-item-gizmo) | `player: Player` `item: Entity` |
-| [OnProjectileLaunched](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo) | `launcher: Entity` |
-| [OnProjectileHitEntity](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo) | `objectHit: Entity` `position: Vec3` `normal: Vec3` `isStaticHit: boolean` |
-| [OnProjectileHitPlayer](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo) | `playerHit: Player` `position: Vec3` `normal: Vec3` `headshot: boolean` |
-| [OnProjectileExpired](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual#projectile-launcher-gizmo) | `position: Vec3` `rotation: Quaternion` `velocity: Vec3` |
+| [OnPlayerCollision](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) | `collidedWith: Player` `collisionAt: Vec3, normal: Vec3, relativeVelocity: Vec3, localColliderName: string, OtherColliderName: string` |
+| 🔈[OnPlayerConsumeFailed](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | `player: Player` `item: string` |
+| 🔈[OnPlayerConsumeSucceeded](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | `player: Player` `item: string` |
+| 🔈[OnPlayerEnterAFK](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-enter-and-exit-afk) | `player: Player` |
+| [OnPlayerEnterTrigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `enteredBy: Player` |
+| 🔈[OnPlayerEnterWorld](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) | `player: Player` |
+| 🏠[OnPlayerEnteredFocusedInteraction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | `player: Player` |
+| 🔈[OnPlayerExitAFK](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-enter-and-exit-afk) | `player: Player` |
+| [OnPlayerExitTrigger](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `exitedBy: Player` |
+| 🔈[OnPlayerExitWorld](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) | `player: Player` |
+| 🏠[OnPlayerExitedFocusedInteraction](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | `player: Player` |
+| [OnPlayerSpawnedItem](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-gizmo) | `player: Player` `item: Entity` |
+| [OnProjectileLaunched](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `launcher: Entity` |
+| [OnProjectileHitEntity](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `objectHit: Entity` `position: Vec3` `normal: Vec3` `isStaticHit: boolean` |
+| [OnProjectileHitPlayer](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `playerHit: Player` `position: Vec3` `normal: Vec3` `headshot: boolean` |
+| [OnProjectileExpired](/hw-docs/MHCP%20program/Community%20guides/Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `position: Vec3` `rotation: Quaternion` `velocity: Vec3` |

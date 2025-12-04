@@ -18,17 +18,17 @@ This article describes the parts of the Console UI, and it explains how to acces
 
 By default, the console pane doesn’t appear on the editor screen. Instead, it displays in a tab (collapsed by default) located beneath the **Scene** pane.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452523171_512510987953524_878710757606192403_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ka2iTcpgAfEQ7kNvwG0anw5&_nc_oc=AdmSprJqZRjO5KdS78KFLCq5wigyPrSjKdh72cUSj4pbwa5EE0epL70OBlzYLh_znNM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=aTH6483AACLhndJxAH97hA&oh=00_AfhxZ0ttd4GeJz_jrz6mMoNuQ3k37WS4m73fkUeRQ-IEkw&oe=69311591)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452523171_512510987953524_878710757606192403_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=NTMlqweRSysQ7kNvwFMuZAT&_nc_oc=Adna2QDXFA-mfb1fNYzsOb3rg0M8s5VWcnKB8OAvRX0eWD-quJ3IkavNKQ8UCfhRTG4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lK4uEeSlWwal5h0I3-inkw&oh=00_AfkVmk1188qgvfOb-ddezO_VfLEbmnNZqLN2mD-xbJjdGA&oe=694BE411)
 
 To open the console, click the **Console** tab. The tab expands and displays the contents of one of its two sub-views: **Status View** and **Simulation View**.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452968560_512510974620192_4973244662247373020_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=3pg5odXoXCAQ7kNvwGHh6Ov&_nc_oc=AdklZE332kmom52Vnd8wvcTvuGc4uRpkAFxBxRAqUSFE6YLok7J8rQTKnzbiUTmc63o&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=aTH6483AACLhndJxAH97hA&oh=00_Afj0Wvrp4RaR00dkPR7akaij1KRq8jW0ZTu2nSzymaoOQw&oe=6931293C)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452968560_512510974620192_4973244662247373020_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=v2UhI1RU6woQ7kNvwE9s7uI&_nc_oc=AdkKfn9_58fproRj1mFn01fqZQM8j8YUsFkr8mn7ATPUmYM2nkk6N794iDgVZl91uuM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lK4uEeSlWwal5h0I3-inkw&oh=00_AfmzuO7hj9b04RWw8utOe0CQRcg5hj1yCQhhtaQnL8ZZlg&oe=694BBF7C)
 
 ## Console interface
 
 The following image highlights the main components of the Editor Console.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452540445_512510967953526_6206587723372307201_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=rWDTayuPOacQ7kNvwFxa19o&_nc_oc=AdnZHf3ub-FglTZfy0bWqWHQl_XCAvLIYZsmmk1RBzy_kdchA91blbBxj0OqXPlM1yM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aTH6483AACLhndJxAH97hA&oh=00_AficWB5ty5ikQTkF0aITKFFmmSFyVRKicKw4rrW-WQ2BwQ&oe=693128E5)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452540445_512510967953526_6206587723372307201_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=-nuSXb5grWkQ7kNvwHupsis&_nc_oc=AdmkOWFI1N4CUka2BbUmXOHZl_wXY0fmNJOyrLlakSoWNReY322jCeYjcjEq0wjGmSs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lK4uEeSlWwal5h0I3-inkw&oh=00_Afn-Lc-KogWLLOMP8h7G9U2na9Aef86QcNJqNcHWjqi0Aw&oe=694BBF25)
 
 - **Toolbar**: Contains controls that let you clear and filter message logs.
 - **Header**: Arranges the message details in a structured format to make the information easy to find, and easy to read. In this format, log messages display along with associated metadata, and the name of the script and or world object that generated the message.
@@ -39,7 +39,7 @@ The following image highlights the main components of the Editor Console.
 
 The Status View displays compilation information about each one of your scripts for each connected client, and for the server. Details include the current status of each one of your scripts. Script status is either `Not Compiled`, `Compiling`, or `Finished Compiling`. These details are displayed along with timestamps of the latest update for each script. Compilation errors and warnings are also shown.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452505807_512510971286859_5411541064383179947_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=3qR-VfrE8GgQ7kNvwFcVPGn&_nc_oc=AdmddGxmDea7Zj9f28rvAiF7-FPvKZ05yDGmr2g18bdrdYIygJEyir74MwOu9asATSk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aTH6483AACLhndJxAH97hA&oh=00_AfiiQlaFjC2jOjPK21_K700JUmrCbFoQT7woMbFkD9kA4A&oe=69314400)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452505807_512510971286859_5411541064383179947_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=OqYPAHupqSsQ7kNvwF8BMfd&_nc_oc=AdkK38lSl2mHd6UI0MM9Jyd5SisoLgkhKe7x8ZKjKSC-VJTImysd4xQnFXk5BpUWLFs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lK4uEeSlWwal5h0I3-inkw&oh=00_AfnxHq7Hvd2g0qjrNmuvr6HFtQfKA5bXBJMOLJO9lVj91w&oe=694BDA40)
 
 Build log messages on this tab aren’t displayed in chronological order. Instead they’re organized by script. The list displays details from just the most recent script compilation. Status View also shows the compilation time on each connected client, along with any compilation errors.
 
@@ -47,7 +47,7 @@ Build log messages on this tab aren’t displayed in chronological order. Instea
 
 The Simulation View displays `console.log()` messages from your code, as well as system errors and warnings, in chronological order.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452653592_512510977953525_2575711248561541443_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=K9b0nih351cQ7kNvwFDktFU&_nc_oc=AdmAOLmC2L6FxlsCxjdMRJfDBxHUGHV2x7VIoNTMPlYgbpieWPrD4XI_a2210Eq6VwE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=aTH6483AACLhndJxAH97hA&oh=00_AfghOBZtZAgtDfBJrmTl77PUIc3hnLNlD_Y2NXeonon-FA&oe=69312D2F)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452653592_512510977953525_2575711248561541443_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=EbkcmG8utqoQ7kNvwFdm9Ri&_nc_oc=AdkU0qPgJK4Z2RoOQZmBhACCCTDh1VcuUCLxjcs2j19lYiTpnNeliCjg4sXkH1--ZQY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=lK4uEeSlWwal5h0I3-inkw&oh=00_AfksFqTRWOACh8YwcdjwAKvjm4M4baE7IcKcNxpHOT8ZbA&oe=694BC36F)
 
 ## Console toolbar
 

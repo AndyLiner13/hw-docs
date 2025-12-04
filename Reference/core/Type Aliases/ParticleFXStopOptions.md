@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particle
 
 # ParticleFXStopOptions type
 
-The settings for [ending](/hw-docs/Reference/core/Classes/ParticleGizmo.md) particle effect playback.
+The settings for [ending](/hw-docs/Reference/core/Classes/ParticleGizmo.md#stop) particle effect playback.
 
 ## Signature
 

@@ -37,5 +37,5 @@ For information about usage, see the [Custom UI Examples](/hw-docs/Tutorials/Cus
 
 |  |  |
 | --- | --- |
-| **initializeUI()** abstract | Defines the UI and sets up necessary event subscriptions. This method is called before the [UIComponent.start()](/hw-docs/Reference/ui/Abstract%20Classes/UIComponent.md) method when the component is started.      Signature  ``` abstract initializeUI(): UINode; ```  Returns  [UINode](/hw-docs/Reference/ui/Classes/UINode.md)  Remarks  This method must return a valid UINode. |
+| **initializeUI()** abstract | Defines the UI and sets up necessary event subscriptions. This method is called before the [UIComponent.start()](/hw-docs/Reference/ui/Abstract%20Classes/UIComponent.md#start) method when the component is started.      Signature  ``` abstract initializeUI(): UINode; ```  Returns  [UINode](/hw-docs/Reference/ui/Classes/UINode.md)  Remarks  This method must return a valid UINode. |
 | **start()** | A default `start` implementation for classes that inherit from UIComponent.      Signature  ``` start(): void; ```  Returns  void |

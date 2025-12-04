@@ -44,7 +44,7 @@ To create a dynamic list component, you must provide two required props:
 - `data`: The array of items to be rendered in the list.
 - `renderItem`: A function that defines how each item in the data array should be rendered.
 
-In addition, youk can optionally pass a style prop, which allows you to modify the layout and appearance of the list. The style prop accepts values similar to [`ViewStyle` props](/hw-docs/Reference/ui/Type Aliases/ViewStyle.md), providing flexibility in customizing the look and feel of your dynamic list component.
+In addition, youk can optionally pass a style prop, which allows you to modify the layout and appearance of the list. The style prop accepts values similar to [`ViewStyle` props](https://horizon.meta.com/resources/scripting-api/ui.viewstyle.md/?api_version=2.0.0), providing flexibility in customizing the look and feel of your dynamic list component.
 
 The following code sample shows an example of creating a dynamic list.
 It shows passing a single binding with an array of objects to the data prop. The number of items rendered will dynamically adjust based on the data passed in, allowing for a flexible and variable-length list.

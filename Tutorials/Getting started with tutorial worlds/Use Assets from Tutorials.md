@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 As you explore these tutorial worlds, you may find scripts, art, or other entities that you would like to use in your own worlds. Go for it!
 
-![Create Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486150007_681803081024313_7695353008648675033_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=-NGaSVQdmSQQ7kNvwG1SxJa&_nc_oc=AdnCE5U0qLgmSojTDdeajpEVGlSsgCO7_5oqPAsSOzROWIsbTz-zIAS-X90DvpyPy9o&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OzcqJ-mg8T9Yg6HnEpBJ7Q&oh=00_AfiB8GBvOhKRSlCYWGr1-cRXYdFPvLDd9e_gk7ce2cRYyQ&oe=6946557E)
+![Create Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486150007_681803081024313_7695353008648675033_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZIrQ52vZ_JEQ7kNvwEQbLqs&_nc_oc=AdmY2wbNuet7CZSYL7EzPRoqZ3heybs1R5fm8hUCSk5mjMTMB3eF9puVPhDud5Nkv2M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=LEeFPh5hC-5CVYrJnDx9bw&oh=00_AfmLsABjcWRMu8YzjW5i027l63e322SEddDheSbf2JdKdQ&oe=694BD3BE)
 
 Tutorials contain the following categories of assets:
 
@@ -29,13 +29,13 @@ To add an entity to your Asset Library, please complete the following steps. Whe
 
 - Click **Create**. The asset template is created in the selected folder.
 
-![Create asset template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485933354_681803091024312_2636679759612280667_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=8gRC970LYTEQ7kNvwFCa4IV&_nc_oc=Adlb41tG46WLNllyCdJx9oJOiK-Bg8XDU43deJ0B6lC69hFcUCfpFo71FZqzRw7ItwI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=OzcqJ-mg8T9Yg6HnEpBJ7Q&oh=00_AfivtN_o-Avi4hd4KCPJd7Z8WvVrEpY3n9QBRhnvstgzgw&oe=69463D53)
+![Create asset template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485933354_681803091024312_2636679759612280667_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=m61wzBRNvLwQ7kNvwFDipgb&_nc_oc=Adl0WAMYVgyPRGtWC3PI6GICOc5cWMbdxM_LmulRJDqI-5aDw3ZIPM7FiKCU1aFGdUc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=LEeFPh5hC-5CVYrJnDx9bw&oh=00_AfmS_pfTI_GuZhbIf4C0q-GLNPSlMNEPlcS5PpAOcLk1tA&oe=694BBB93)
 
 This asset template is now available for you to use in any world!
 
 To add the asset to a world, open the Asset Library tab in the desktop editor. Locate the folder where the asset is located. Drag the asset into the world.
 
-Asset templates can also be spawned into a world at runtime using TypeScript. For more information, see [Spawning and Pooling in TypeScript](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup).
+Asset templates can also be spawned into a world at runtime using TypeScript. For more information, see [Spawning and Pooling in TypeScript](/hw-docs/Tutorials/Spawning%20and%20Pooling%20tutorial/Module%201%20-%20Setup.md).
 
 ## Use Scripts from Worlds
 
@@ -67,7 +67,7 @@ If you are using the desktop editor, scripts are stored as independent files in 
 
 **Note**: You cannot copy and paste files from one world’s directory to another. These files are not automatically picked up by the desktop editor and integrated into the world’s codebase. Instead, you must open the files and copy out the contents, pasting them into new or existing script files associated with the target world.
 
-**Note**: These worlds are non-FBS worlds. In a non-FBS world, the option to Spawn New Gizmo from a script in the Script panel is not available. For more information, see [Tutorial Assumptions](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-assumptions).
+**Note**: These worlds are non-FBS worlds. In a non-FBS world, the option to Spawn New Gizmo from a script in the Script panel is not available. For more information, see [Tutorial Assumptions](/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Tutorial%20Assumptions.md).
 
 To locate your files, please do the following:
 
@@ -77,7 +77,7 @@ To locate your files, please do the following:
 - Locate the value for the External Editor Directory.
 - Navigate your local environment to find this directory. Scripts for individual worlds are stored as sub-directories.
 
-![Script Editing settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000278_512536444617645_8408972957475533201_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=oesRIJSGrLcQ7kNvwHIxx1d&_nc_oc=AdlxZ8sp_USQhuQ2DeoNC8HkH2_zA9GL00XzfrSVadLlHbcrPQzFBgWBWPv1v0Qa2H8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OzcqJ-mg8T9Yg6HnEpBJ7Q&oh=00_AfhOWmS-YIQuAXreC8IiJxdZGREjcF-9zt2bji8XsJjOGg&oe=69465ED6)
+![Script Editing settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000278_512536444617645_8408972957475533201_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=V-sXep_28eoQ7kNvwEokpz1&_nc_oc=AdnWEjtTVwNq46WodQNhxVNMecnj2QY_MgpT7BXHeqoGSl82UdlBfej0YNkcSVgtomw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=LEeFPh5hC-5CVYrJnDx9bw&oh=00_Afm6iz49cki5mpNaGOq4pSorAwi3D15mlVCyi2omsLxYmg&oe=694BDD16)
 
 ### Scripts in asset templates
 

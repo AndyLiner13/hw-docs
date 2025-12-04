@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Data as an Asset makes it easier to ingest and access a large amount of data. You can use this data to generate and populate your worlds with content for players as part of a live service model.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452577444_512500194621270_8611450341367331312_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=EYlJeZi-0DoQ7kNvwHvj0c-&_nc_oc=AdkWRYLQv_ItsfZ-wD_kgBu7kfRuXoQXZ7Y5ERmsMd80_xWFVmfzRuB1xUPRM241OrY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OSTo5dTp200K1y10tkhAPw&oh=00_AfjfpVJUK5p_6Q6khsMT7V3P6S5rc-XMMaU819STLIUtOA&oe=6931262E)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452577444_512500194621270_8611450341367331312_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=cXRni8i8r0EQ7kNvwG36sth&_nc_oc=AdkZToe1R-i7iKcbJmqJm6tnREUkjzdtYx__RYgsqYsK_GeBjCcmbDFoPu3YpfVFBkg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_Afk9hvSU3kiQLvbWI7m-lXet_J46rtNVugoCXBWdeSB5Yg&oe=694BBC6E)
 
 ## Requirements
 
@@ -14,35 +14,35 @@ Data as an Asset makes it easier to ingest and access a large amount of data. Yo
 
 ### Web Asset upload
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457319138_534069239131032_568264581816929647_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=qSihqrdWlaoQ7kNvwEoP6yf&_nc_oc=AdnpLcHQemsYkw1TYxizUxUJysjsU2ynfu_NLY_WGV7FvBluQAb7vx7g82POmmOKq2E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OSTo5dTp200K1y10tkhAPw&oh=00_AfgVQ2w7veAlxDykmpPB0d1HXBweZIK_Yawusj603-lsyw&oe=69312D74)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457319138_534069239131032_568264581816929647_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=lpFwxC1P_CkQ7kNvwF6Ho0j&_nc_oc=Adl5UCF0wB-27Bdk9nP9hXCP3DgBi91hh0VcWJhbTCsdmlCmrLu4fqUd-MskpX8Q7PQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_AfksH_tTPtd4i7vuVRHrLxdm2Qgm57p5RerrQsCt98ileA&oe=694BC3B4)
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453692983_3416887951779596_1166922568651522418_n.mp4?_nc_cat=110&ccb=1-7&_nc_sid=6500a6&_nc_ohc=x-tAq6JiB_UQ7kNvwFGh6Um&_nc_oc=Adl9BDc5bYFlg9UcGLbKsV9eNWXPGtzCAD7pLQ8ZQECtO7gpxeKm_bVDa0Cqk_ejK14&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=OSTo5dTp200K1y10tkhAPw&oh=00_AfgPtzl6cqdRlruLXKWqZtXoVznaiewkx_feie1ENXQn4A&oe=691CC172)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453692983_3416887951779596_1166922568651522418_n.mp4?_nc_cat=110&ccb=1-7&_nc_sid=6500a6&_nc_ohc=xeZDTr4R5r8Q7kNvwHWfpXY&_nc_oc=AdmHgJdRiBQ64jCnaLYf58bFtvE-J2uiRcX64tR0Bp7OQhtT3eW9nQYhoLRXnC24yjA&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_Afm_vbz-VaHSAfZTJ5VOhjqcOFLejsRQdlPXFH4Ra-H61g&oe=693757B2)
 
 **Note**: We currently only accept JSON files.
 
 - Go to <https://horizon.meta.com/creator/assets>
 - Click **Import**, and select **Text**.
 - Upload the asset. We only allow JSONs for now. You can use any valid .json you have, or download and upload the attached gamedatanew.JSON file at the bottom of the page.
-  * [gamedatanew.json](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031405_1040126593784425_5457484484185452287_n.json?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=wqcqu77-TJMQ7kNvwHBBuq_&_nc_oc=Adl8gy3bV2uloTvsEEUF0sSACEpRra89SJxie0Feq8A3qlyAAwbRSZUrTYTogZSWKho&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afj_n72XK6XJGWmcJuqnvnvN3T9HjeH48thhz0gz1Y-LQg&oe=69312487)
+  * [gamedatanew.json](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031405_1040126593784425_5457484484185452287_n.json?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Iduzqb_0rX0Q7kNvwHFXx_r&_nc_oc=AdknLbUFXFPoBq9Tb0-vRh-c_4qJTtpFOptO_yduwHCNDbxxvlbioNMz-rBMtyUEZqU&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afl4aXD9mWUfQ2G7B4jaIth3vuRUL4KdSdYs7StCcPZ2jA&oe=694BBAC7)
 - You can download, edit and do other things with the Asset file, but this UI is the just the same as the Web Asset Ingestion UI.
 
 ### Desktop asset upload
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457288085_534069255797697_3427743522111648183_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=3TSQJfzYbtoQ7kNvwGKVcAu&_nc_oc=AdliQQ1b8A4Pg3fB3AlukH3U8VGdkRNUqID6vLXOUWt30lCaF2p0m3ASkBgCR5QilO8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OSTo5dTp200K1y10tkhAPw&oh=00_AfjSLBU3PQ2gX9k8dnlIPS7FaZ3OfzeNQH-FEgtJbMQEnA&oe=69312FD7)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457288085_534069255797697_3427743522111648183_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=dD908DM1txkQ7kNvwH7KNju&_nc_oc=AdlPZhGGhGhrniVymcWvENVnQr4rTm23rY9wvdMp2wViCkYGqRf49JHRoha2tin3XHo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_Afm_zzQFxmdNSjCsxGXDebhC9TTumteMWTq-sQJEP9RtTQ&oe=694BC617)
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453534048_1010445640344215_7233222472795927828_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=uwNU4KvRQngQ7kNvwHI376q&_nc_oc=Admk-jdynyCtLXzcGql604qfM1ZnWH6v6D2O-_-AKInYt6X4JtZt8s4YNh9fWyCx3Dg&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=OSTo5dTp200K1y10tkhAPw&oh=00_AfiiR-MNFaPL8BdnwgR97ekbyydHpSrktnP3ylAhfMkUdg&oe=691CB05D)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453534048_1010445640344215_7233222472795927828_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=m6gDuS5sYasQ7kNvwFrKRSY&_nc_oc=Adl65IFWPtOjEOe4aktCcpb2Ift3K7_Q2HcwhhnzBMln6ZyWG1hPNL3V0Acd6t5o-Jw&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_AfnlqJGwH2bJgklD1n4fUqcUIf3hnPZpIZtlS0vHk7guig&oe=6937469D)
 
 **Note**: We currently only accept JSON files.
 
 - Open the Desktop Editor for Horizon.
 - Click **Add New**, and select **Text**.
 - Upload the asset. We only allow JSONs for now. You can use any valid json you have, or download and upload the attached gamedatanew.json file at the bottom of the page.
-  * [gamedatanew.json](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031405_1040126593784425_5457484484185452287_n.json?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=wqcqu77-TJMQ7kNvwHBBuq_&_nc_oc=Adl8gy3bV2uloTvsEEUF0sSACEpRra89SJxie0Feq8A3qlyAAwbRSZUrTYTogZSWKho&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afj_n72XK6XJGWmcJuqnvnvN3T9HjeH48thhz0gz1Y-LQg&oe=69312487)
+  * [gamedatanew.json](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031405_1040126593784425_5457484484185452287_n.json?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Iduzqb_0rX0Q7kNvwHFXx_r&_nc_oc=AdknLbUFXFPoBq9Tb0-vRh-c_4qJTtpFOptO_yduwHCNDbxxvlbioNMz-rBMtyUEZqU&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afl4aXD9mWUfQ2G7B4jaIth3vuRUL4KdSdYs7StCcPZ2jA&oe=694BBAC7)
 - You can download, edit and do other things with the Asset file, but this UI is the just the same as the Desktop Asset Ingestion UI.
 
 ## Using the asset in TypeScript
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453779137_471685212139725_99150541362208074_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=xrBZPzKLYocQ7kNvwFgU4km&_nc_oc=AdnJdUUqkYPBJTLK4OAEXgFAEvjP13_h-prq1_58ItZZKXx-5p3engiFcvi3tcWbTcE&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=OSTo5dTp200K1y10tkhAPw&oh=00_AfiTKE9QJQuPR-1Ca7Xl74K_JTcd0b4GAvpRvAxK-p_LiQ&oe=691CB0EA)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453779137_471685212139725_99150541362208074_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=vapuhNQXgl8Q7kNvwGVWHQ2&_nc_oc=Adl_A-JgLk8A69tLcszEQt9d6kChWxCmHAN84ijtDbGK9KEYiWjLq2b6EiGcoGaISUs&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_AflINHB2zWrn2L5pvebnuwk0XCZHtHh6kOb2BKJEaThkZA&oe=6937472A)
 
 Now that your asset is uploaded, you can pull the data from the asset to the TypeScript layer.
 
@@ -61,7 +61,7 @@ There are 2 ways to do this:
 
 - Create a new Asset, with an Asset ID. You can obtain this by inspecting the asset in your Desktop Editor Asset Library interface, or the Web Asset Library interface. Create a new Asset, with an Asset ID. You can obtain this by inspecting the asset in your Desktop Editor Asset Library interface, or the Web Asset Library interface.
 - You can optionally provide the Asset version ID when creating the Asset. You can find this Asset version ID in the Web Asset Library interface.Your world will reference that version of the asset even if the Asset is updated.You can optionally provide the Asset version ID when creating the Asset. You can find this Asset version ID in the [Web Asset Library interface](https://horizon.meta.com/creator/assets). Your world will reference that version of the asset even if the Asset is updated.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/457409225_534069252464364_3303227658061954721_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=07-mEE4JeyIQ7kNvwHAycmy&_nc_oc=Adm50m1sqXteS17l4sUKg7Kwgm1x9H2Xs-Odw3agPC9gb_DHvZZ_Sf_0HhCtqrCjkh8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OSTo5dTp200K1y10tkhAPw&oh=00_AfhQamZE3r9bfa8ePL1Vy_XHalP8ApBrCS8z_mWUP6xLTA&oe=69314653)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/457409225_534069252464364_3303227658061954721_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZAbTfGmZDRgQ7kNvwFAx6LI&_nc_oc=AdmdrnzmwnrrIfx8wUvzg077Zy4hULHRwisGMsP1ipL7yjhcAvin-6Cy7YrL9XOYrbE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_AfkI4aER63yImVjLuJ9_EQmaRbNuEn8K2v5MJVZ6aF_ejQ&oe=694BDC93)
 - To reference the latest version of the Asset whenever it is updated, create a new Asset Object with the ID, but do not provide the optional version ID.
 - For example `let asset = new Asset(ASSET_ID_BIGINT_HERE);`
 - Please note that Asset loads are cached. If you are running the world, load the Asset and update it in the backend any new Asset loads will be the ones at time of asset load. You must restart the world to get your latest uploaded Asset version.
@@ -164,7 +164,7 @@ Enabling skipCache is only useful if you expect the asset that you are referenci
 ## Examples
 
 * A sample JSON file (trivia.json) with trivia questions in a JSON format. (More questions can be accessed via trivia APIs, such as [Open Trivia DB](https://opentdb.com/api_config.php)).
-  + [trivia.json](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/39031427_790113296532639_7185274403668060489_n.json?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=7G8o0emgfGcQ7kNvwGm9zYa&_nc_oc=AdkhJHLUmhHmbfToBHF-5T1Yvx5J-g2Fe81hxb5uhjuhW5qzxAgj6m9tzxWw09Jkhi8&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afg7cA3yTNbWRecXW9i1Om7HFSaf5xzxNbFCPDSRxM9kqw&oe=693122C3)
+  + [trivia.json](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/39031427_790113296532639_7185274403668060489_n.json?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PUdzZuIC_bQQ7kNvwF2bByb&_nc_oc=AdlA206TGu8ekJhZosUISMk5Y7opqDexOHHmfAz2TgsRZ3TVM7qBL7jSj4oxhJg4lOM&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfmsnJ-l0kDUbCbYS-ijOiUFZQp92sXEeRRmC47xKxMRLg&oe=694BB903)
 * A Trivia world with a game manager script to load these questions from that JSON asset.
 * A simple trigger script to allow for users to answer these trivia questions.
 * You are able to load versions of Text Assets that were before the current version. This is helpful if you want to lock a version of the Asset to a particular world. You can do this by providing the actual values of the Asset IDs and the version IDs, like the code sample below. You may find more information regarding this in the asset templates.
@@ -175,7 +175,7 @@ Enabling skipCache is only useful if you expect the asset that you are referenci
     asset = new hz.Asset(assetId, versionId);
   ```
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/457409225_534069252464364_3303227658061954721_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=07-mEE4JeyIQ7kNvwHAycmy&_nc_oc=Adm50m1sqXteS17l4sUKg7Kwgm1x9H2Xs-Odw3agPC9gb_DHvZZ_Sf_0HhCtqrCjkh8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OSTo5dTp200K1y10tkhAPw&oh=00_AfhQamZE3r9bfa8ePL1Vy_XHalP8ApBrCS8z_mWUP6xLTA&oe=69314653)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/457409225_534069252464364_3303227658061954721_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZAbTfGmZDRgQ7kNvwFAx6LI&_nc_oc=AdmdrnzmwnrrIfx8wUvzg077Zy4hULHRwisGMsP1ipL7yjhcAvin-6Cy7YrL9XOYrbE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_AfkI4aER63yImVjLuJ9_EQmaRbNuEn8K2v5MJVZ6aF_ejQ&oe=694BDC93)
 
 ## Notes
 
@@ -198,4 +198,4 @@ Enabling skipCache is only useful if you expect the asset that you are referenci
 
 ## Downloads
 
-[gamedatanew.json](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031405_1040126593784425_5457484484185452287_n.json?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=wqcqu77-TJMQ7kNvwHBBuq_&_nc_oc=Adl8gy3bV2uloTvsEEUF0sSACEpRra89SJxie0Feq8A3qlyAAwbRSZUrTYTogZSWKho&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afj_n72XK6XJGWmcJuqnvnvN3T9HjeH48thhz0gz1Y-LQg&oe=69312487)[trivia.json](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/39031427_790113296532639_7185274403668060489_n.json?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=7G8o0emgfGcQ7kNvwGm9zYa&_nc_oc=AdkhJHLUmhHmbfToBHF-5T1Yvx5J-g2Fe81hxb5uhjuhW5qzxAgj6m9tzxWw09Jkhi8&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afg7cA3yTNbWRecXW9i1Om7HFSaf5xzxNbFCPDSRxM9kqw&oe=693122C3)
+[gamedatanew.json](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031405_1040126593784425_5457484484185452287_n.json?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Iduzqb_0rX0Q7kNvwHFXx_r&_nc_oc=AdknLbUFXFPoBq9Tb0-vRh-c_4qJTtpFOptO_yduwHCNDbxxvlbioNMz-rBMtyUEZqU&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afl4aXD9mWUfQ2G7B4jaIth3vuRUL4KdSdYs7StCcPZ2jA&oe=694BBAC7)[trivia.json](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/39031427_790113296532639_7185274403668060489_n.json?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PUdzZuIC_bQQ7kNvwF2bByb&_nc_oc=AdlA206TGu8ekJhZosUISMk5Y7opqDexOHHmfAz2TgsRZ3TVM7qBL7jSj4oxhJg4lOM&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfmsnJ-l0kDUbCbYS-ijOiUFZQp92sXEeRRmC47xKxMRLg&oe=694BB903)

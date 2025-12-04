@@ -12,7 +12,7 @@ Custom UI allows for maximum developer flexibility but misuse of the feature can
 
 Here is a diagram to give more context to the performance guidance below.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452694018_512500247954598_2260285939721962465_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=e1fI0x9njyIQ7kNvwHok_JH&_nc_oc=Adkg-OlauivLi0QVZLPsoaI52udctQDdul6KI9sP5TMrx-TI_0h0Krx-_gAlmI-WHcw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Hyw_F93PenfgUJwrUVipZA&oh=00_Afi8WvXuQpajZQ8KY9E0ZvE2EwmI-t7Gp1uMOk4DRKIIGQ&oe=693125A1)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452694018_512500247954598_2260285939721962465_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=wrKfEUJFks0Q7kNvwFcTrGf&_nc_oc=AdmZmbHVWwmN1cB6RmjQdvhgyDwUzDqOQFOGAqNzuQiN_BJ-a75aLXB90726dtpk-Nc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=qLdWtVwfAHWfuHYLtETJqQ&oh=00_AfmDRzLZnEz_hSMiGXVPNM5DitHAvgah49QV7xIrO7gJuA&oe=694BBBE1)
 
 ## Profiling UI
 
@@ -41,7 +41,7 @@ From a Deep trace pulled into Perfetto, watch the synchronous cost of these mark
 
 One useful method to make sense of this in aggregate is to drag a 5 second block across the main thread and look at the total wall time for that marker, divided by 360. For Verts::PollDriver::Rpc in the screengrab below, that is 0.25 ms (90.03099 wall duration in seconds divided by 360 frames).
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452531523_512500287954594_2391930062797882965_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=ueQHJ0H7lgIQ7kNvwGjfL24&_nc_oc=AdmIeC8wKqMMyEM_e0PC0J4YaUNjmQm51yCgxKJh5TYvABfn3N-g-fFH8REE45U41m8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Hyw_F93PenfgUJwrUVipZA&oh=00_Afi__t3SFIjGrGjNvHu1IKLKnZoD7XXR3A2lHBe5y5asyg&oe=693126FA)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452531523_512500287954594_2391930062797882965_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=J7OpOLvsVecQ7kNvwEwSiI6&_nc_oc=AdkAT9HOX3cadN4rGHeM8qDYkM6bimn8EU4mZ-Yv0Dqm25ggMA4MEF9QggQpkl0pH_w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=qLdWtVwfAHWfuHYLtETJqQ&oh=00_AflepWJzsjKzShcBD_fOBKM1OWfeYr60xHugcnxe1qt50g&oe=694BBD3A)
 
 ## Binding set and callback frequency limits
 
@@ -71,11 +71,11 @@ Setting the visibility of a UI entity to **false** frees all textures to garbage
 
 In testing, we have found bridge calls and RPC costs to be the bottleneck setting the limit for binding/callback frequency, and not ReactVR. That isn’t to say a sufficiently complex virtual DOM could present limits on the ReactVR side, too. If you suspect issues with this due to the UI being laggy or slow to refresh, we recommend using the [Meta Quest Developer Hub](https://developer.oculus.com/meta-quest-developer-hub/?intern_source=devblog&intern_content=meta-quest-developer-hub-mqdh-30) (MQDH) desktop software to study deeper.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452916138_512500291287927_6920496205870430314_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=uhMcIhYnDXYQ7kNvwFH22QW&_nc_oc=Admn35mg1hGcvtI_-_wEagETvwqMHJPecRA6AfYlH2hJvHDlGTYspkN35oCGRBI0eIw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Hyw_F93PenfgUJwrUVipZA&oh=00_AfgBLkb8WBhzcTtX0MH6yBuksqh35nps01sBlMjAJNM9vg&oe=69311C10)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452916138_512500291287927_6920496205870430314_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=fltPy3PpQgEQ7kNvwFhyyLR&_nc_oc=AdmEx6IMBSu8TroXx27G6QD4u63mLMaKfq603zVkpRoVVv5_MLxQCbq2YnmKk6N2ppc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=qLdWtVwfAHWfuHYLtETJqQ&oh=00_Afn3FELHbOOw3xHnipFsB4QHMBT022Yum5VL8VewOxibKA&oe=694BEA90)
 
 Here, a Perfetto trace can be pulled in the Performance section, similar to the in-app trace that was described before. The difference is that this trace shows activity in the Hermes thread, which holds work done by the ReactVR runtime engine.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452678439_512500237954599_2792407842991222345_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=tczm4r5MEgwQ7kNvwGuHgq7&_nc_oc=AdldPgkZAr23_9mks6GcMJZQhsk5AJc0VACcnOMPcLZaRgLe-hIUiwhlCU3X_du7RWA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Hyw_F93PenfgUJwrUVipZA&oh=00_AfgucpYbGTlYD5Wl0-uuRmKy70rjztma0lG7f1u7Enky-Q&oe=69314290)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452678439_512500237954599_2792407842991222345_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=uflSw1gmK5kQ7kNvwFkqLN6&_nc_oc=AdncJyEDuxdK2krsVqovVB6Ew2NY1zABt12IAPrvCpZgb4SHma1OYY9uTBW2RZM1aCo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=qLdWtVwfAHWfuHYLtETJqQ&oh=00_Afk_WXQxA_8pDLDoWS8Gj6ymlgallvS7qNI7xa6hQ29cMA&oe=694BD8D0)
 
 In the screenshot above, running time (the green square) of the Hermes thread, across a 5 second segment, is around 1%. Try to keep this less than 50%, to leave room for other Horizon system UI.
 

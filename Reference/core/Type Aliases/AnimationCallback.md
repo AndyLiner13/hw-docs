@@ -16,4 +16,4 @@ export declare type AnimationCallback = (animation: Asset, reason: AnimationCall
 
 ## Remarks
 
-This callback is optionally provided by the [Player.playAvatarAnimation()](/hw-docs/Reference/core/Classes/Player.md) and [Player.stopAvatarAnimation()](/hw-docs/Reference/core/Classes/Player.md) methods when providing custom avatar animations.
+This callback is optionally provided by the [Player.playAvatarAnimation()](/hw-docs/Reference/core/Classes/Player.md#playavataranimation) and [Player.stopAvatarAnimation()](/hw-docs/Reference/core/Classes/Player.md#stopavataranimation) methods when providing custom avatar animations.

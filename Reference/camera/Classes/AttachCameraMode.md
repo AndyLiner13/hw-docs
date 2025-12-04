@@ -14,7 +14,7 @@ export declare class AttachCameraMode implements ICameraMode
 
 ## Remarks
 
-The [Camera.setCameraModeAttach()](/hw-docs/Reference/camera/Classes/Camera.md) method enables attach mode for a camera.
+The [Camera.setCameraModeAttach()](/hw-docs/Reference/camera/Classes/Camera.md#setcameramodeattach) method enables attach mode for a camera.
 
 ## Properties
 

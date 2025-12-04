@@ -7,7 +7,7 @@ Custom UI supports local mode. It runs the attached script on the player client 
 ## Create custom UI with local mode scripting
 
 - Create a UI with Custom UI gizmo and attach a TS `UIComponent` script.
-- On the property config of the attached script, change the **Script Execution Mode** to **Local.**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452746133_512510251286931_7919200572529233140_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=gQl00m3Vl98Q7kNvwHmMJXx&_nc_oc=AdkYHZ-hLWEgIh3bQe8Lwc4uY_dU3X2oaQXyIOpdPFZC2sGXUwR47iV5l0mBiklm69k&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=F33BRFKuDAUIitUcjJzHyQ&oh=00_AfjdQYnuVlksKjz86RuiVsPoWNW9pzJ6HzP1CGy3OqSFjQ&oe=693137B8)
+- On the property config of the attached script, change the **Script Execution Mode** to **Local.**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452746133_512510251286931_7919200572529233140_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=5jydM0DgnkcQ7kNvwGdSJom&_nc_oc=AdnNTcMSzQ-aTteK52i3Hd2VlABuhOTQFzP0zw-ij450igpEBXEkIX-ShJCXX-Tv_08&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=G4EYxHNHyVtYtM_LsCDRyQ&oh=00_AflkwCzidJfSNjNqKnAgkL2CGbBzPdyqPigAztdV3P4EYQ&oe=694BCDF8)
 - Call `uiEntity.Owner.set(player)` when you want to transfer a UI to the player’s local client. This call can happen inside or outside of the `UIComponent` scripts.
 - Now the attached `UIComponent` script will be executed on the player’s local client, which will remove the networking during binding updates and callback response, reducing the binding and callback turnaround time to minimal.
 - See sections below on detailed behavior and other optional API can be used during transfer.

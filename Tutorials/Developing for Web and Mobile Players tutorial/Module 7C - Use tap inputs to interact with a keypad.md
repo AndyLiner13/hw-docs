@@ -12,7 +12,7 @@ Find the keypad object in the world. In the Hierarchy panel, you can see that Ro
 * All numeric buttons
 * A Raycast gizmo
 
-![Screenshot of the Keypad node displayed in the Hierarchy panel and in the main viewport of the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489890462_692135409991080_9185380006179677715_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=GzpDROTvlDgQ7kNvwEULni3&_nc_oc=AdkizIsY3NTN9aVlxDK81BsRpQ2ki-FDL6VbMr0dIRTiS9rnM5Lp-Lh2gsSERu7ZAls&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wC7mQ1mDaSZ3EXpDzyKVGg&oh=00_AfjWDAiPaRMSYvPhz9YthF9wyb3gWjMiInik_r4Mi0YImQ&oe=694654B1)
+![Screenshot of the Keypad node displayed in the Hierarchy panel and in the main viewport of the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489890462_692135409991080_9185380006179677715_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=nnR0vK06OwEQ7kNvwE_oX8l&_nc_oc=AdnYP9_sVhLRfaqggXaIyzaVqGYWCB1NtS7Ns9l2gylyWuZG_Q_Biw8uxmhOiVVdHu8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jl_aO0L6EmrW2YGy-c3iEg&oh=00_Afl_P7aWlzArvx90lxjOSWT3O9gXBlXyY-jq396EN38_tg&oe=694BD2F1)
 
 We break the logic to manage keypad interactions into two scripts:
 
@@ -397,7 +397,7 @@ In this module, you:
 #### Additional documentation:
 
 * [2D UI for Web and Mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/2d-ui-for-web-and-mobile)
-* [Safe Placement of UI Controls](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/designing-worlds-for-mobile-and-web/safe-placement-of-ui-controls/)
+* [Safe Placement of UI Controls](/hw-docs/Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Safe%20Placement%20of%20UI%20Controls.md)
 
 #### API docs:
 

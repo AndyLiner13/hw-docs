@@ -10,11 +10,11 @@ There are [limitations](https://github.com/MHCPCreators/horizonCreatorManual/blo
 
 ## Access the TrailFx gizmo
 
-While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the TrailFx gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-panel).
+While you can access and configure the gizmos in the [VR tool](/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the TrailFx gizmo from the desktop editor and add it to the [scene pane](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “trailfx” in the search field.
 - Select the TrailFx gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [**Properties panel**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel).
+- You can now edit the new gizmo properties in the [**Properties panel**](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
 ## Properties
 
@@ -32,15 +32,15 @@ In the **Visual** section, additional properties are available to customize the 
 
 The following image shows how the **Preview** property works while you’re in the [Build mode](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md). Once the TrailFx gizmo is configured with a simple trail in colors of purple and green, click **Play** next to **Preview**. You can [move](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#move) the gizmo manually to see the trailing effect.
 
-![The TrailFx gizmo configured with a simple trail in colors of purple and green in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/506212074_739691291902158_3023337851867814073_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=CMp9OgzHGJcQ7kNvwFZCOse&_nc_oc=Adk7hZ-RGx0O7FLpxivyXNHx3QDvQcOFVGxV_UaoDzqtdCiq19pO-NlgGsGKB5zuN1Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=zatgMppSo86dJn7l8JwZ0w&oh=00_AfiHxfRLyvYMWLFLtWXMQDivjEJur5AeIx5pYrSfam2JVA&oe=69314A09)
+![The TrailFx gizmo configured with a simple trail in colors of purple and green in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/506212074_739691291902158_3023337851867814073_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=RY5i--VkWDwQ7kNvwHlPlkw&_nc_oc=AdktV27yPBl0sZ-msYz4ckl_4-N8M-ftQ3V6BSecVt5byJ57vrmlL7s1v82uVoyeH9A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=qq0kOxCiTuzkyvMkZo8caQ&oh=00_AflIcYEUi9SHZbIHOiOU_39z_6CNkZzuaMwgU2K-_8tkvQ&oe=694BE049)
 
 The following images show the TrailFx gizmo at work while you’re in the [Preview mode](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) with **Play on Start** turned on. The shape and the color of the trail are configured as **Tapered** with colors of purple and pink.
 
 **Note**: To reproduce what you see in the image below, create a world by first following the [Batting cage tutorial](/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md) and then add a TrailFx gizmo as a [child object](/hw-docs/Desktop%20editor/Objects/Object%20hierarchy%20and%20groups.md) of the ball in the [**Hierarchy** panel](/hw-docs/Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md). [Adjust the position](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#move) of the TrailFx gizmo so that it appears to be trailing the ball.
 
-![The TrailFx gizmo configured as the child of the ball in Hierarchy](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506050919_739691298568824_5981076667099177757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=41ROZJ_oAOQQ7kNvwFHNiBH&_nc_oc=AdmqNK80XMl6rjVxl0bgBJgAts3MZ95vMTQm5VK4yhx3t5OJxCe7ddwctUgh1kGt_kY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=zatgMppSo86dJn7l8JwZ0w&oh=00_Afg7zZoNnJbQ0Ih3GDKLAJoH4ztneADGDlKJsPu8r31blw&oe=6931205D)
+![The TrailFx gizmo configured as the child of the ball in Hierarchy](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506050919_739691298568824_5981076667099177757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=KErvjcy_e6kQ7kNvwGu4FGx&_nc_oc=Adm5eFZ5pXNjLyjqRevfWqfHdyOJXA87M0PgYf6lZLP1EqHaM192oCy2wOMzgmSqRVQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=qq0kOxCiTuzkyvMkZo8caQ&oh=00_AfkfqFtQmihgaYOfoOfT266wDqb7WbpYRK2OFe8xZnKGZA&oe=694BB69D)
 
-![The TrailFx gizmo in the Preview mode](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506407852_739691295235491_2590837823088924789_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=8R99dsh0UyIQ7kNvwHBgxxY&_nc_oc=AdmhgAoeu4Zy35o9dLCRh9ylPwJW9KMgcT1iE8FCMmr9CM9FAsyTJe-ZRjzSHnF_BHI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=zatgMppSo86dJn7l8JwZ0w&oh=00_Afgo_ow5laiTfx7Jtky7rb5VB3E8lNlBxNlSZCVWPQqYlA&oe=69312FAB)
+![The TrailFx gizmo in the Preview mode](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506407852_739691295235491_2590837823088924789_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=YiaKzaZmJnsQ7kNvwE6LxvC&_nc_oc=AdmLt8V6Y1_BWQZqmMAWpoIki4s2CP5WntZ10wxHAXhROmdVvwBMeu74ogHFRg3yRqo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=qq0kOxCiTuzkyvMkZo8caQ&oh=00_AfnDD59lumZGKBBcDYSdUXJgO8rnTVjYePi-MjfEgw6yYg&oe=694BC5EB)
 
 ## Scripting
 

@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 The Meta Horizon Creator Program (MHCP) is a community of creators who build games, experiences, and immersive content in Meta Horizon Worlds for mobile, mixed reality, and desktop. MHCP members have access to exclusive benefits, resources, and opportunities to support and enhance their creator journeys.
 
-To enroll in the Meta Horizon Creator Program, click [here](https://auth.meta.com).
+To enroll in the Meta Horizon Creator Program, click [here](https://developers.meta.com/horizon-worlds/programs/join).
 
 **What are the program benefits?**
 

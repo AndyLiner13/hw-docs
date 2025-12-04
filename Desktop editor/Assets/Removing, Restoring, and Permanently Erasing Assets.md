@@ -6,21 +6,21 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 To remove an asset, right-click the asset card and select **Remove** to place the asset into the Removed Assets folder.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452615828_512527234618566_4039213125003773552_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=QZXhMPaHEccQ7kNvwH5B79g&_nc_oc=Adn9gBWOpfZKxNttG8LmjSxSzZwntDVCW0TkXcsuGKOQDWGpvf2AIXcFeQ2Gqf9zY0k&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=nRIEbUcOYGLKy6VzPu6rUQ&oh=00_AfjbXnbGXr7K9b3jNWHpadewBLcXZ2BktlohTU-rj_923A&oe=693130B8)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452615828_512527234618566_4039213125003773552_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=WmNZgoTuLLEQ7kNvwFmWEvx&_nc_oc=AdljgQ4eU9_RpjdaX7EGa5YN4XUJ4-Oxal6hzXSZfqB-BTyMrjTjngIjz9VGX4zqdVs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VUTvU7lktQ6OIWo2vkCLBg&oh=00_AflEJNlybhATdQTJKasz3UgMAq1PlrrtgsexICMu5S96Ug&oe=694BC6F8)
 
 ## Restoring assets
 
 - To restore an asset, click **Removed Assets** from the left navigation column and right-click the desired asset card and select **Restore**.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935339_512527111285245_8968263855788671673_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=DPw6fSO8IzUQ7kNvwEv64X_&_nc_oc=Admer3v47VYPaCkUIanCTGoVsgqMxoC8io1yKtvR5u_J7MB-Y_fr5LN4PJCFkYV0EuY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=nRIEbUcOYGLKy6VzPu6rUQ&oh=00_AfgH3ClQ3IGXe2G0vrvypcuD40tZR7oIqotLi8dbQLBt7g&oe=69312E02)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935339_512527111285245_8968263855788671673_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=XkXeb-2YWTEQ7kNvwFqH3lR&_nc_oc=AdliJdD-_2qUnxUr0AAC4LQ8tBpOg35JZzMjmRzEJZt44EzzHJKIb3K6d_rpHmlquZg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VUTvU7lktQ6OIWo2vkCLBg&oh=00_AflauKOF3KCY61gl0fiHLjQ_oLlptePFg77EPu0bgVYLfg&oe=694BC442)
 - When the asset has been restored, a success notification with the asset location will appear on the Homepage.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452917232_512527154618574_4683215023859291885_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=0pSszeoJSM4Q7kNvwGMTrUs&_nc_oc=Adlj1gHu8rJiFfbxAzvSb-VbxY4TQMffN31DQL2YuALMNB0qjSmT8jxqNZVmfYYNf0s&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=nRIEbUcOYGLKy6VzPu6rUQ&oh=00_AfjgqjY6gdIxsDgRQwsNBwXKTnCDICsBc6cV6vwx2GoFBQ&oe=693147D6)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452917232_512527154618574_4683215023859291885_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=IxrFX-hPB4kQ7kNvwEYKgYy&_nc_oc=AdmZTfidXaWoC-GqULbGw1mVHac3AivoLhXeGvONy6FGLo0ZU6uFeTSy02MuZZXgy-0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=VUTvU7lktQ6OIWo2vkCLBg&oh=00_Afk6JkgzHkmzwCwzR4TGniTCrjaJMvURRTIiWI9usbJwfg&oe=694BDE16)
 
 **Note**: The asset will be placed into the “My Assets” folder if the original folder was removed.
 
 ## Permanently erasing assets
 
 - To permanently erase an asset from your library, click “Removed Assets” from the left navigation column and right-click an asset card and select “Erase”.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452577867_512527231285233_9111397689098072164_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=YSBLA_c2fZwQ7kNvwHAul-t&_nc_oc=AdkqzLl-29Bm86ci5SSKxwaHlGWq7OSWvZAeOgGTCJjCzFr7wvlLFb_SkVq1-W1666Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=nRIEbUcOYGLKy6VzPu6rUQ&oh=00_Afgj_E59by2kteyAqzTgRa-muh3JOAv3lRaQnvJe61EAZw&oe=6931415D)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452577867_512527231285233_9111397689098072164_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=RkTyYXI_gWQQ7kNvwGsX74o&_nc_oc=Adk8DKzEGeMnXMjdTHq8KZyJoBAX105it9HvgThSouxjUwWWHQe35mA7Ds6M-HDXd1o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VUTvU7lktQ6OIWo2vkCLBg&oh=00_AflDWv-2zObQvAquwnVOG2tVlXTMxMrEUH8UICDrRK9Qpw&oe=694BD79D)
 - A modal dialog will appear to finalize your decision.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452715967_512527151285241_7143820985467521754_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=dVTOt7Z7UYgQ7kNvwF63NuP&_nc_oc=AdnKCER5AAbfgUmyFedkqD6gzTy5XLaJ23z11LoJNdZu5EUqtrmaM33aB7EOb9rTpno&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nRIEbUcOYGLKy6VzPu6rUQ&oh=00_AfjP9N2IC_s9u1cQSa9N4K6OZM213lvsRwjcYkrxP86E8A&oe=693129E6)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452715967_512527151285241_7143820985467521754_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=mpYjCovBjKAQ7kNvwGZ1bPh&_nc_oc=AdmhPCLDTcyNF4t804ep-Gpf8Tf018agngEA65tQ1XRzY9jjiPsP4ETXd6XXFnqxD8s&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=VUTvU7lktQ6OIWo2vkCLBg&oh=00_AfkedbDFkHxXrn3dmp2xA0KV4NK1GD61X4of_mwaAWaD3w&oe=694BC026)
 - A notification will appear to confirm whether or not your asset was successfully erased.

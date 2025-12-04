@@ -6,7 +6,7 @@ Voice-over is an excellent means of enhancing the NPCs of your worlds into being
 
 ## Record and import audio
 
-Audio can be recorded outside of Meta Horizon Worlds in the prescribed format(s). Through the desktop editor, you can then import audio files into your Asset Library. For more information, see [Meta Horizon Worlds Audio Ingestion](https://developers.meta.com/horizon-worlds/learn/documentation/sounds-physics-and-automation/horizon-worlds-audio-ingestion).
+Audio can be recorded outside of Meta Horizon Worlds in the prescribed format(s). Through the desktop editor, you can then import audio files into your Asset Library. For more information, see [Meta Horizon Worlds Audio Ingestion](/hw-docs/Desktop%20editor/Help%20and%20reference/Meta%20Horizon%20Worlds%20Audio%20Ingestion.md).
 
 ## Set up audio assets
 
@@ -95,7 +95,7 @@ Through the desktop editor, you can add sound effects in multiple ways:
 - In the menubar, select **Build menu > Sounds**. Search and explore assets. Drag in an asset into the world. In the Properties panel, click **Play** to preview the asset.
 - Use the desktop editor’s integrated Generative AI tools. In the menubar, click **GenAI**.
 
-![Image of GenAI panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488258850_686408213897133_9130477228299144595_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qpvY1gP-smsQ7kNvwHl3NXH&_nc_oc=AdlLF-JJwAXVZcx0SVt1MBqZQxkEhbM1isOFDHB1IUOFmUEY8Zc_C9kDrmUxy7469HI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wUAkQTAOZNldvQ-u2Hvyxw&oh=00_Afhi5VhMHF6CqLKAuIUfbrEDfhlgWcT2MajTGDXFrhrdrQ&oe=69463356)
+![Image of GenAI panel in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488258850_686408213897133_9130477228299144595_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=KrjZahBlLRkQ7kNvwGxvnJO&_nc_oc=AdlqafXUocI6PSrRFbYMhkYhWGP18RP99bmpDbrzWagnqv-sRDj8XAyvlz3qsYmY6xI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=G5PScBEjDsKDXEvIzvBFOQ&oh=00_Afmx7bnYch1UAhey_cd79gdtZv7SJuNwhobI8PE2ega74Q&oe=694BE9D6)
 
 **Note**: At this time, this feature is in Beta release.
 
@@ -110,6 +110,6 @@ Several of the sound effects used in this world were generated using the GenAI t
 
 For more information on Generative AI tools in the desktop editor:
 
-* [Code Creation Tool](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-code-tool)
-* [Audio Creation Tool](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-audio-tool)
-* [Texture Creation Tool](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-texture-tool)
+* [Code Creation Tool](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Assistant%20Tool.md)
+* [Audio Creation Tool](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md)
+* [Texture Creation Tool](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Texture%20Generation%20Tool.md)

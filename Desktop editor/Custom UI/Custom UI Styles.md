@@ -138,7 +138,7 @@ Inherits the [ViewStyle](/hw-docs/Reference/ui/Type%20Aliases/ViewStyle.md) type
 | textAlign | `'auto' \| 'left' \| 'right' \| 'center'` | The alignment of the text. |
 | textAlignVertical | `'auto' \| 'top' \| 'bottom' \| 'center'` | The vertical alignment of the text. |
 | textDecorationLine | [`Bindable`](/hw-docs/Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<'none' \| 'underline' \| 'line-through' \| 'underline line-through' >` | Additional text decorations. |
-| textShadowColor | [`Bindable`](/hw-docs/Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<[ColorValue]>`](/hw-docs/Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md) | The color of the text shadow. Text shadow is only drawn when a nonzero textShadowOffset is set. |
+| textShadowColor | [`Bindable`](/hw-docs/Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<[ColorValue]>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | The color of the text shadow. Text shadow is only drawn when a nonzero textShadowOffset is set. |
 | textShadowOffset | `[number, number]` | The offset of the text shadow, in pixels, in [x, y] format. |
 | textShadowRadius | `number` | The blur radius of the text shadow. Text shadow is only drawn when textShadowOffset is set. |
 | whiteSpace | `'normal' \| 'pre-line' \| 'pre-wrap'` | Additional space if needed for justification. |

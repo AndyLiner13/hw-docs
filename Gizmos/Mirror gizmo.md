@@ -19,7 +19,7 @@ Some of the benefits of using the mirror gizmo in your virtual environment are a
 
 * In a mirror-enabled world, all players in the world will be able to see and use the shutter button to take a photo.
 * Only 16:9 and 9:16 aspect ratio are supported.
-* There is usually a negligible impact from using the mirror gizmo with default configuration, however that impact can change based on what the mirror faces, the complexity of the world, and when you choose to render the mirror. See the [Properties](#properties) for configuration options and [Performance consideration](#performance-considerations) sections for more details.
+* There is usually a negligible impact from using the mirror gizmo with default configuration, however that impact can change based on what the mirror faces, the complexity of the world, and when you choose to render the mirror. See the [Properties](/hw-docs/Gizmos/Mirror%20gizmo.md#properties) for configuration options and [Performance consideration](/hw-docs/Gizmos/Mirror%20gizmo.md#performance-considerations) sections for more details.
 
 ## Performance considerations
 
@@ -70,7 +70,7 @@ For example, to resize the mirror, you can resize the mirror by changing the **S
 
 The following shows you how to configure the gizmo’s properties in VR.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974860_1582777578979793_4578442253378448808_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=rGpDMtPPwJUQ7kNvwHV3mgh&_nc_oc=Adnxi4UNget_dd-hkgJH35pkYPF5AKg5dhvsdZWdKAGIQw9IRdKDzVcciEAWKcBi2W8&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afg9tM5xMhqEaLAL3ZW69jEwCmM7NeBty5yj8VBtlQAVYg&oe=6931125A)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974860_1582777578979793_4578442253378448808_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=n546TBVhTRcQ7kNvwEd5hFM&_nc_oc=AdlZJZ50Yt1_0zKRu3KCJWqbIPqZ65RrFDNuIAtf4pC0_MCIVlgcsO_9-kYtbktEEtc&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afm7zc4Cb3ZtJ-D2mPWypbWYthPrWKMnXqjAzn7BjkWxPw&oe=694BE0DA)
 
 ## Take photos and edit your avatar
 
@@ -78,11 +78,11 @@ After placing the gizmo in your world and configuring the properties, you can ta
 
 The following shows you how to take a photo.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974721_499114159825081_5750543788586459815_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=3JeA6WnCtCkQ7kNvwHiSoYd&_nc_oc=Adni7ASRrTLnU6z9mQOaW21Ny8Cf_Xp1SCXrSTsF6_XORFVGplKQVneZzuI1HKDBV3A&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfjVcGr5JoptQm68nMIJvxQDKW-jax8SKr5zK6dJKlQIYA&oe=69311A92)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974721_499114159825081_5750543788586459815_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=XhucixqYhz4Q7kNvwHba8un&_nc_oc=Adk8d4yAOpoTur4AQ6J8ewlzVmrOE4nYY-thYn_zx3uXCAjJg4qd6yB3SNxt8E5eLbw&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkhY-SVbw-L3xZxFngCBe2Ox8yooRwEn_-sm3xFiLKgHg&oe=694BE912)
 
 The following shows you how to edit your avatar.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982534_585330297294458_1498502693454280462_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=bFk_-olVINwQ7kNvwE4ekW_&_nc_oc=AdkXY2U-trhDcWl8oz6DaTdJBUlfPcXTqoAu85LKJUrS5VDuZqNhqDZPDFfGwW2dmQw&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfiaU0IrAWV4PTJn-3dguwjlKVxOAmT_UkCM0xb8ZlGaQw&oe=69312DE7)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982534_585330297294458_1498502693454280462_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=c2qap4O-nwUQ7kNvwGI_hLc&_nc_oc=AdkvZWkoSWuqSN2bH1XByPup_0cnT0CfhuU9HZYYmZKCNGVl9l2S-DDKg1z8cYpJOPY&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkE1lzDWxsILWHy6CHpCyIFZiz9Mwu-oDUuOTIWJCAp5w&oe=694BC427)
 
 ## What’s next?
 

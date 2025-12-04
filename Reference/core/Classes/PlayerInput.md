@@ -12,7 +12,7 @@ export declare class PlayerInput
 
 ## Remarks
 
-You can create a `PlayerInput` instance by calling the [PlayerControls.connectLocalInput()](/hw-docs/Reference/core/Classes/PlayerControls.md) method.
+You can create a `PlayerInput` instance by calling the [PlayerControls.connectLocalInput()](/hw-docs/Reference/core/Classes/PlayerControls.md#connectlocalinput) method.
 For more information about binding player input, see the [Custom Input API](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md) guide.
 
 ## Properties

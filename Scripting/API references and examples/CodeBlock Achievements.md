@@ -9,8 +9,8 @@ TypeScript provides methods and a [CodeBlock event](/hw-docs/Scripting/Events/Co
 The following TyepScript APIs are available for managing achievements:
 
 * [OnAchievementComplete CodeBlock event](/hw-docs/Reference/core/Variables/CodeBlockEvents.md) - This is a built-in CodeBlock event that is called when a player completes a specified achievement.
-* [Player.hasCompletedAchievement method](/hw-docs/Reference/core/Classes/Player.md) - Verifies whether the player has completed the specified achievement.
-* [Player.setAchievementComplete method](/hw-docs/Reference/core/Classes/Player.md) - Specifies whether a player has completed the given achievement.
+* [Player.hasCompletedAchievement method](/hw-docs/Reference/core/Classes/Player.md#hascompletedachievement) - Verifies whether the player has completed the specified achievement.
+* [Player.setAchievementComplete method](/hw-docs/Reference/core/Classes/Player.md#setachievementcomplete) - Specifies whether a player has completed the given achievement.
 
 ## Example Code
 

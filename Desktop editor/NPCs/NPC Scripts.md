@@ -8,7 +8,7 @@ This page provides a break down of the NPC examples used in the NPC Example Worl
 
 You can select the **NPC Examples** option from the **Creation Home** view.
 
-![Creation Home NPC examples tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480582165_656797603524861_7097745054728250127_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=rl2vJRjGyD8Q7kNvwEdn4MY&_nc_oc=Adnkl-Pal8OhaR5lnhxhAZAfVEWNkWz-8SatRrbs1FSDo6GqcwRKlbjUiPk6D3FYLX8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mPOvPV1vaoN4pQT-Oybh7Q&oh=00_AfgiulH0ue7Xlky2oc30gvzp3QAyx0Vfqov9PZhtUNRViQ&oe=6931FCB2)
+![Creation Home NPC examples tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480582165_656797603524861_7097745054728250127_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=mSJhzj0PVr0Q7kNvwEcmZ9C&_nc_oc=Adn8wLyhbVHmtJnhe3L7D2v43Qx4OsBVlCWVob00iGzFNrC2g059Mgp8aul-L2tMPjU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_Afkh9rrkdmDvgcsFgI-tE7gVhlAX4xzgRxHxgrkzQvNULQ&oe=694BEA32)
 
 ## NPCAgent.ts
 
@@ -200,7 +200,7 @@ hz.Component.register(NPCAgent);
 
 The Stand and Look sample script allows NPCs to acknowledge your character when loading into the world.
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/459309296_1250615282610996_6400995796393963617_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=lc4JcXpzoy4Q7kNvwHRTv9m&_nc_oc=AdlwANItc7pARt_6pek7ugozC4a9dxdAL3YIqQ5Ro_0h8nUzLxF5RITLI8JWASREsqE&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=mPOvPV1vaoN4pQT-Oybh7Q&oh=00_Afj5oRSYFgiw4itiyuyazrzIwnXpXAOosARjaFn8yFp4aw&oe=691D78A9)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/459309296_1250615282610996_6400995796393963617_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=-ArSBt5d8h8Q7kNvwFFBKAj&_nc_oc=AdlujRwIAKEyc8aHxPuDYj-R8hzeeNyN5db_QYv92xWh7L9uRlLcr1PkF6E_wIYg5Mw&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_Afne9miCP_o1-NI6ggSsEynwORFD2CSQ106DTh78JOCfcg&oe=69376629)
 
 ### NPCStandAndLook.ts
 
@@ -316,7 +316,7 @@ hz.Component.register(NPCStandAndLook);
 
 NPCs added to your world are capable of emoting a variety of animations. In the NPC Example World you can interact with NPCs by approaching them and pressing the ‘E’ key. As you move through the sample world and approach NPCs, you will be greeted by the robot with an animation.
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/459334217_1712214692930509_8081481470604567857_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=d3K9D3q9bWYQ7kNvwFrNFJX&_nc_oc=AdlxpVDpEBEKm4yTnxFsPyrs0C9n7g-STsl0SjPpnt7oX3pgPSC1XIYERYYdSUkvk3Y&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=mPOvPV1vaoN4pQT-Oybh7Q&oh=00_AfgPE9nuDNnEQob4u-03Q0oRnQIutOz5RhOBjsa1MWA5gQ&oe=691D64D6)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/459334217_1712214692930509_8081481470604567857_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=7CrNyqxANPsQ7kNvwGOKN1C&_nc_oc=AdkzQ2e3uF2DqYI3Mo9Cg8ks1RyWITfnxUuqBvCX5yc9KboNnT_dn3RfxF8uPAs_2-o&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_AfncXK16f2VDif1hCS3Q4DIie6sYo-GVuMcg6XEe6tUmmw&oe=69375256)
 
 ### TriggerNpcEmotes.ts
 
@@ -505,11 +505,11 @@ NPCs are able to path through the world using a Navigation Mesh Volume. In the s
 
 Your NPCs are able to path through the world using a [Navigation Mesh Volume](/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md). In the NPC Example world, Chicken NPCs can be seen wandering around the Navigation Bounding Box based on the their pathing logic.
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/459326773_883524513709142_2055811114306402530_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=x_YRTEy9L2oQ7kNvwGY2TUK&_nc_oc=AdnkwRhfNuXQh-ojoj0FdP1zJ24-G-WxtNQ3CSRaUdUkI1T2WaUHFSP77n8z6VOYEeY&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=mPOvPV1vaoN4pQT-Oybh7Q&oh=00_Afhhw5hwWQ_28IKgBjq6pBa6i59FNvP6amfy_SrrkQvesw&oe=691D8536)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/459326773_883524513709142_2055811114306402530_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=uACY1xyc86cQ7kNvwHr5lQc&_nc_oc=AdlKSYq1KvBm5l-Ll-IdVrhT8UC9QI0xK6PmVTOzPcE1u_cOTa6zQfqDsET398xM9QY&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_Afml36RRRX6Aw7hm_u6JWaNH9qH6hzB2XQQ5cJmsT3trCA&oe=693772B6)
 
 In the next room, Android NPCs use pathfinding to navigate between different waypoints that have been placed throughout the level.
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/459288690_1517730898925213_2842468215419064473_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=-sQwaIY9DRMQ7kNvwFO1lxA&_nc_oc=AdneUNDWKezCqG_x0bAQBq9hXkaWYnV3dNUFTiVL8NSsup5QrYAFMwyB-Qj39M4zVAw&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=mPOvPV1vaoN4pQT-Oybh7Q&oh=00_AfieiQDrSx9L2j_KXIz8ktW8wZbyjQd1muqN-y_BELRk7Q&oe=691D6FDF)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/459288690_1517730898925213_2842468215419064473_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=MFZ7wXrwO44Q7kNvwGuasIX&_nc_oc=AdlK5sFwBpL99uqlx8pshQclVGpVgqe6TLbXb7DDbS5vmavYmrjD4-qM47Da2B37FVg&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_AfkrypdLSp3MoFRuB9ZOFsKUC0_LR_AN_tjkU8uoWuyi9Q&oe=69375D5F)
 
 ### NPCChickenPathing.ts
 
@@ -738,9 +738,9 @@ hz.Component.register(NPCAndroidWaypoint);
 
 NPCs added to your worlds can also be set as enemies for players in your world. With the following scripts your enemy NPCs can recognize the player, follow them, and attempt to attack.
 
-Players can defend themselves with a weapon like the [Sword](#swordts) in the example and the NPCs also have hit reaction animations to indicate they’ve taken damage.
+Players can defend themselves with a weapon like the [Sword](/hw-docs/Desktop%20editor/NPCs/NPC%20Scripts.md#swordts) in the example and the NPCs also have hit reaction animations to indicate they’ve taken damage.
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/458933021_829251449394537_1287573333970264365_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=br5W15jwrHAQ7kNvwHiH-NG&_nc_oc=AdmAH_h9nHMe9GM_L2UEZSIX30sY13cCOiERKhm2SkxSG5iDmzOC3JhhARolTG3st4k&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=mPOvPV1vaoN4pQT-Oybh7Q&oh=00_AfgH4lMYft5RwWYR6Xk7A5KdG4hDOjAh-m8G0YJYcqEoLA&oe=691D83BF)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/458933021_829251449394537_1287573333970264365_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=AL1R_fzSD1YQ7kNvwET6EyX&_nc_oc=Adlo7h-YqWgGi5aTX_cEz14S2aHHU16AuOe4tbypOxQUU2_CuF2iJfWvXhS42-p9SMs&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_AfmD6KzE9_sLtwTod_uP4a9MrvJopuERdBx_1xsGT2Ugyw&oe=6937713F)
 
 ### NPCMonster.ts
 

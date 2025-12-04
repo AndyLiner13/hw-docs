@@ -22,7 +22,7 @@ In the Meta Horizon Worlds desktop editor, do the following to access the spawn 
 
 ## Spawn point properties
 
-The spawn point gizmo properties can be configured in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-panel) of the desktop editor or through [scripting](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md).
+The spawn point gizmo properties can be configured in the [Properties panel](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane) of the desktop editor or through [scripting](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md).
 
 ### Mobile camera options
 
@@ -30,10 +30,10 @@ The spawn point gizmo includes enhanced camera options for mobile and web platfo
 
 * **Mobile Camera**: A mobile-specific setting which allows you to configure camera behavior. This can greatly improve the accessibility to your world for mobile users.
 
-  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558914867_835743105630309_479224545206663294_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=BvbvZQW9g6oQ7kNvwGHnPYF&_nc_oc=Adlaip3RsHJ_xa7sEjOwfC4RiIDj6KST5mBAum17x_RCaO_o0VkqsQt0QPpMV9Ykqy8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3SZyDfEiO5yakbcD2zMWTg&oh=00_AfhcWZ_OAZEgo_121eViE-TYYKgG_50e7NMQLeSFhUqrbA&oe=69311715)
+  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558914867_835743105630309_479224545206663294_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=0JDsEfpX8zwQ7kNvwF89ENZ&_nc_oc=Adl0IQnJu8JAwr1pNTTXMg95JirYexo2AaYlf0_-H1hg6GW-edK80Z9vAQwUBr4WO1E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=C4VqPEBRPJjvs5cVUn6jlw&oh=00_Afned0QgBo4TyACEaYQuWs2eGC4sj3erAisrPsJhOTmpWA&oe=694BE595)
 * **Portrait/Landscape separation**: You can define different visual parameters for each orientation to optimize the player experience across different device orientations
 
-  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/562978628_835743102296976_2582391894108356684_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZFjW5Aihf0QQ7kNvwHII4D5&_nc_oc=Adm2yPP9rddler442tnP8BGIOLVinUb-8Urn004U6TBJ38nqo7JWz-FrxopPw7VUEjA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3SZyDfEiO5yakbcD2zMWTg&oh=00_Afi74ptyTzoPC0BAqrcMv7A7dYR8hT_E-evnjz2LM8LM7Q&oe=69312449)
+  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/562978628_835743102296976_2582391894108356684_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=juslm70TlzkQ7kNvwHzLjA-&_nc_oc=Adk1cv5sVHzL8feQ6ne8mnXdl6wVMU9xWnEvRdbXBwz_Z-zrvU_rUuODcpRgBx0EpAs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=C4VqPEBRPJjvs5cVUn6jlw&oh=00_Afl2AwTzWmv0FgSStYg5rfVOeTDZFFQl_WSO4VDq7_e0JA&oe=694BBA89)
 
 ## Preview and publishing configuration
 
@@ -112,7 +112,7 @@ hz.Component.register(OrientationChecker);
 
 Now you’ve been introduced to the spawn point gizmo, further your learning with hands-on tutorials, tutorial worlds with completed samples, and developer guides:
 
-* [Create your first world tutorial: designate a spawn point](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#step-2-place-assets-in-the-scene)
+* [Create your first world tutorial: designate a spawn point](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#section-2-place-assets-in-the-scene)
 * [Simple respawn script](/hw-docs/MHCP%20program/Community%20guides/CodeBlocks%20to%20TypeScript.md#simplerespawnscriptts)
 * [Multiplayer lobby entering the match](/hw-docs/Tutorials/TypeScript%20Multiplayer%20Lobby%20tutorial/Module%205%20-%20Entering%20the%20Match.md)
 * [Chop’N pop](/hw-docs/Tutorials/Chop%20'n%20Pop%20sample%20world/Module%201%20-%20Setup.md)

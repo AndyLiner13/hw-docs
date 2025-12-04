@@ -16,6 +16,6 @@ export declare type PlayerInputStateChangeCallback = (action: PlayerInputAction,
 
 ## Remarks
 
-Use [PlayerInput.registerCallback()](/hw-docs/Reference/core/Classes/PlayerInput.md) to register this callback.
+Use [PlayerInput.registerCallback()](/hw-docs/Reference/core/Classes/PlayerInput.md#registercallback) to register this callback.
 action - The input action that triggered the callback.
 pressed - true if the input was pressed; false if it was released.

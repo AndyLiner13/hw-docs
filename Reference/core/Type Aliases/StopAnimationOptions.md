@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_stopanim
 
 # StopAnimationOptions type
 
-The options for the [Player.stopAvatarAnimation()](/hw-docs/Reference/core/Classes/Player.md) method, which stops a non-looping animation on an avatar.
+The options for the [Player.stopAvatarAnimation()](/hw-docs/Reference/core/Classes/Player.md#stopavataranimation) method, which stops a non-looping animation on an avatar.
 
 ## Signature
 

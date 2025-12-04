@@ -14,12 +14,12 @@ Learn the basics of designing a viable game in this series of tutorials. Game de
 
 ## Game loops
 
-[](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/10000000_1334376747651084_4669473691985199415_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=Tl77vMzPGz8Q7kNvwFtiTyK&_nc_oc=AdmSyVt6Hr7nJ2_j274fXlmpJxOzd4AY3tBD6r5htkbWO7k2PX12QVQlEW4x-0aO3Jc&_nc_zt=28&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfgsLeE8a6LEc9_0HMNEQJqXTQXrfqrUFHaded9duaNrcg&oe=691CB04E)
+[](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/10000000_1334376747651084_4669473691985199415_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=3eQSaUi7FzgQ7kNvwFq9GEB&_nc_oc=Adkll-olqnMej2Lw7vSSJyloSup71e02NDisiEG0tT2w647GyllXYM7LoNaeeSxxGo8&_nc_zt=28&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfkBRuFUmj7r3uoV5Qy_PD4dDOvDIGHul-vPNBQFYRoygw&oe=6937468E)
 
 ## Mobile mechanics
 
-[](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/10000000_1326059041793303_7979123355269406996_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=QFszelGaB6UQ7kNvwHpQ-0V&_nc_oc=AdmRGH54_jdo7XEM31drQWsxn7uvfxn4gWduyZ6mxcGfp_xNhCKmahXFLVUmNYXTXrQ&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afg3-7yGexVqCvZ7hLnwh_GO8LMmcfo2NVN8oEj6xa7ptg&oe=691CB586)
+[](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/10000000_1326059041793303_7979123355269406996_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=Z32FA2jqqCsQ7kNvwFXbAcc&_nc_oc=AdlWghOvLTuZWFpVYoMFtcjQcK2y2xQm-YTzkKd5NlYi2gbfDKTJrc1G90vvLXdCsd4&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AflXjbTvVvr_AnP6gdNQmVTSScTJFPla_bYnRaNebckLWg&oe=69374BC6)
 
 ## Retention mechanics
 
-[](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/10000000_1735005997410692_2142284023703276858_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=hFIZCK4vW-oQ7kNvwGTv9qZ&_nc_oc=AdnjAokmcT2Ti9jXyaxQRA_-471PHsrUCHno1EEFMI2sH9jMqAD7oIMImvajvL6zNRs&_nc_zt=28&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfgBaV8715teRfiY3joKALqtdbO0wSj8FyByLzPwLsm2eg&oe=691CABB5)
+[](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/10000000_1735005997410692_2142284023703276858_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=BWCroSuAUBoQ7kNvwHZfXfF&_nc_oc=AdmqTreUeJkXAJ-GsyqDijA9c9Qr-Gq8g_tJD8Pk5uAaAR_H1FEzHFmkFKH4HuMHdHw&_nc_zt=28&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afms07Y7-tpbK61PSjSvCp3WXCMBqGNne0PbA3Rf_PT47Q&oe=69377A35)

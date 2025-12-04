@@ -6,7 +6,7 @@ Welcome, creators!
 
 This documentation serves as a companion guide to the **Custom UI Tutorial**, one of the tutorial worlds available in the Home section of the Horizon Desktop Editor. This world is designed to help you learn how to use Custom UI in your own worlds.
 
-![Custom UI Tutorial World Cover Image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/550042330_817392014132085_1043491075615758728_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ugicu7MzJfwQ7kNvwEAswMS&_nc_oc=AdnvolyAF1GN7xxWZKsD6eVl_nuEZLoa70Wd2ciW4jUUwy2s84xBnoG2TgsctsmhhT4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ydccofTkQbGEUQZ_9G4ldA&oh=00_AfhjvJeV-fEpszO4caUsaxGGd3o5tdxFpJCmaiBgxAsYQw&oe=69464C7C)
+![Custom UI Tutorial World Cover Image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/550042330_817392014132085_1043491075615758728_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=6pEnH9RxB_wQ7kNvwE-KN23&_nc_oc=Adma90Gg2qmDMr25AG7SzU_UBrS0pWsq5-wMAlcSOVbJRoqaulGh5wnFslpDs58Anrg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5RX26P3BM2hE4PrpJuAZIQ&oh=00_AfnthdI6oHZ9fmydkb5FbylC5qk-cnwrMz8WlC5OHf8vsg&oe=694BCABC)
 
 ## Finding and opening the tutorial world
 
@@ -20,7 +20,7 @@ Each zone and station described in this guide corresponds to the interactive exa
 
 ## Tutorial world overview
 
-This world covers how to use Custom UI assets available in the public library. The goal of this tutorial world is to be a demo space to find Custom UI examples that you can use in your worlds while also providing examples on how to use the asset in your worlds. To use this world to its fullest extent, you should have a basic understanding of [TypeScript](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/using-typescript-in-horizon-worlds), [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel), and [asset templates](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/asset-templates).
+This world covers how to use Custom UI assets available in the public library. The goal of this tutorial world is to be a demo space to find Custom UI examples that you can use in your worlds while also providing examples on how to use the asset in your worlds. To use this world to its fullest extent, you should have a basic understanding of [TypeScript](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md), [Custom UI](/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md), and [asset templates](/hw-docs/Desktop%20editor/Assets/Asset%20Templates.md).
 
 Although implementing Custom UI requires knowledge of TypeScript, these Custom UI examples come with functions to simplify the process of using them. These Custom UI examples should help you get past the difficult part of building a Custom UI from scratch and get you to the important part of being able to use Custom UI in your world.
 
@@ -28,14 +28,14 @@ The first step to utilizing these Custom UI examples is to explore this world. T
 
 The zones in this example world are:
 
-* **[Zone 1: Option Lists](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-1-option-lists)** - Toggle lists, radio buttons, task lists, and option APIs
-* **[Zone 2: Basics](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-2-basics)** - Basic buttons, timers, dialog prompts, and button APIs
-* **[Zone 3: Bars](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-3-bars)** - Loading bars and health bars with progress indicators
-* **[Zone 4: Advanced Lists](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-4-advanced-lists)** - Inventory systems, stats lists, and player lists
-* **[Zone 5: Animation](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-5-animation)** - Spinning elements, timers with animation, and sliding banners
-* **[Zone 6: Scroll Views](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-6-scroll-views)** - Basic text scrolling and advanced scrollable content
-* **[Zone 7: HUD](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-7-hud)** - Head-up display implementations for games
-* **[Zone 8: Store](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-8-store)** - Comprehensive storefront with purchase functionality
+* **[Zone 1: Option Lists](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%201%20-%20Option%20Lists.md)** - Toggle lists, radio buttons, task lists, and option APIs
+* **[Zone 2: Basics](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%202%20-%20Basics.md)** - Basic buttons, timers, dialog prompts, and button APIs
+* **[Zone 3: Bars](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%203%20-%20Bars.md)** - Loading bars and health bars with progress indicators
+* **[Zone 4: Advanced Lists](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%204%20-%20Advanced%20Lists.md)** - Inventory systems, stats lists, and player lists
+* **[Zone 5: Animation](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%205%20-%20Animation.md)** - Spinning elements, timers with animation, and sliding banners
+* **[Zone 6: Scroll Views](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%206%20-%20Scroll%20Views.md)** - Basic text scrolling and advanced scrollable content
+* **[Zone 7: HUD](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%207%20-%20HUD.md)** - Head-up display implementations for games
+* **[Zone 8: Store](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%208%20-%20Store.md)** - Comprehensive storefront with purchase functionality
 
 Each zone contains multiple stations with working examples, complete documentation, and implementation details for the Custom UI components.
 

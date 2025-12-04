@@ -8,7 +8,7 @@ Custom UI controls is an extension of custom UI with the **Input Mode** set to *
 
 This input mode is primarily designed for creating a set of custom on-screen controls to work alongside or replace the built-in system controls on mobile.
 
-![custom_ui_controls_in_kaiju](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/465167356_579437347927554_7916055051400203269_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=ztkrykhprP4Q7kNvwEH1wTr&_nc_oc=AdmDOpWYjHCdAmNmW20Tev_twbGXWs2AMvsQsvS4j6mtSR7MZSyt1XeObXikgHLuYVU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oulEi1WqabAhQWOzVQdb6w&oh=00_Afj6QiM92ijW_C1q9X2E36nIhH-DBufJnhPih5V9ZSHOeQ&oe=693139B2)
+![custom_ui_controls_in_kaiju](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/465167356_579437347927554_7916055051400203269_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=SbdZ6bpEshcQ7kNvwENUQWg&_nc_oc=AdkPOtXHnAvgShkvf7hXzmorM64KAIf6pmQTAQk_py64YBctD0V79Z71BWWfjKtbBmQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=fFh_hm-aKtxJbOSdqjjY9w&oh=00_Afn-JWC63DjQP5iI2jNgxPMCTgZB9DXZCpDEXDGwnxjQWA&oe=694BCFF2)
 
 ## Getting started
 

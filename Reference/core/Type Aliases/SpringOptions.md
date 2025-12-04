@@ -16,7 +16,7 @@ export declare type SpringOptions = {
 
 ## Remarks
 
-For more information, see [PhysicalEntity.springPushTowardPosition()](/hw-docs/Reference/core/Classes/PhysicalEntity.md) and [PhysicalEntity.springSpinTowardRotation()](/hw-docs/Reference/core/Classes/PhysicalEntity.md).
+For more information, see [PhysicalEntity.springPushTowardPosition()](/hw-docs/Reference/core/Classes/PhysicalEntity.md#springpushtowardposition) and [PhysicalEntity.springSpinTowardRotation()](/hw-docs/Reference/core/Classes/PhysicalEntity.md#springspintowardrotation).
 stiffness: The stiffness of the spring, which controls the amount of force applied to the object.
 damping: The damping ratio of the string, which reduces oscillation.
 axisIndependent: true if the object's motion is parallel to the push direction; false otherwise.

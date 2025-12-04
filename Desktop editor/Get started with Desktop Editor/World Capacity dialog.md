@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The World capacity guidelines dialog shows you how close your world is to meeting or exceeding the capacity limits of a World. To access the World Capacity dialog, open the **Main Menu** and select **World Capacity**.
 
-![World Capacity menu item](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493703357_717633330774621_7408317430748065666_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=-9EQR1fODGkQ7kNvwHHsQR6&_nc_oc=AdmN4EUTihVmSXHE84Mm0skiegU31_zPML_bEVNtJCHB6PGQ-o4a0rXlFGGjIq_4maQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wfRtniw7vH2N0g6DvgmTrg&oh=00_Aficxe9S-UEmHQnvg3TYN18IngwYCdb3Z46A1rFSwbEYkg&oe=69313130)
+![World Capacity menu item](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493703357_717633330774621_7408317430748065666_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ke4gHsxAF-wQ7kNvwEg4fXU&_nc_oc=AdlaX0dlqIIS-XYQjAJpwlpMAa9x4zg8fDyNnbFPOEsqiLkK4YK7D3MVFVxG59Ynae0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iUrN46_B2U124X-lFn0qRQ&oh=00_AfmpQklta92Z1sbpUUHjUJwEvLgbCtodPgP0sz4wIEWF_g&oe=694BC770)
 
 The World capacity guidelines dialog shows you the used capacity, as a percentage, of four major categories: Objects, Simulation and animation, World vertex count, and Sounds. If you at more than 75% of the capacity limit for any of these categories, you will see a yellow bar for the category. If you are at more than 100% of the capacity limit for any of these categories, you will see a red bar and an error message.
 
@@ -14,13 +14,13 @@ Note
 
  The World vertex count category is incorrectly named in the dialog as world tricount. This will be fixed soon.
 
-![World capacity dialog](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/495375229_717633327441288_7014509691232050718_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=h-r-Rgc7J0kQ7kNvwEjHQyS&_nc_oc=AdnnZkWcElpEoqxshD_PFetC9LOSQv5LGBQRUcEvseQkecJ2DpwpXHAp51gtTicoHRk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wfRtniw7vH2N0g6DvgmTrg&oh=00_Afjf-Z23vt8835WUrK7WUQKkspWjk-fc-cAxwYRdYixnTA&oe=6931323F)
+![World capacity dialog](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/495375229_717633327441288_7014509691232050718_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=exonnrVX1ucQ7kNvwFdv4I1&_nc_oc=Admz47hPyOq0lmsCqtLyrZdTxJSoR8bYYuP39iCGbG7u166lTgot_xJYL9C4PoRZxm4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iUrN46_B2U124X-lFn0qRQ&oh=00_AfmGs4miKRikxy11sQdSGNb4ytiNzcUoIZTCdPT5obSW7w&oe=694BC87F)
 *World capacity dialog*
 
-![World capacity with Sounds at yellow](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/492508614_717633320774622_186645589074315552_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=6nW2BQHQfj0Q7kNvwGVzFdK&_nc_oc=AdmpiWm0riHXo1qNLUjEtBj4b3kB3qHashjNHAzad0Bjy_sMs3HMdSOtlC_1l4eYxQg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wfRtniw7vH2N0g6DvgmTrg&oh=00_AfgS1ZpvStV8JZ_iz4JGMx6GgVRKFLCI1ktJby8gEN04DA&oe=69311A3B)
+![World capacity with Sounds at yellow](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/492508614_717633320774622_186645589074315552_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=51xB_du0VT4Q7kNvwHemppW&_nc_oc=AdmL5sNonLDto9-IZPxlHONkAJuGj1A4aX4FzNhnoRP0Zn2j48iArOwMsJ4tAravimA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iUrN46_B2U124X-lFn0qRQ&oh=00_AfklBN_F7FQuw_HLpwvPiThY9y-usaSQCdeV54GiMoanTQ&oe=694BE8BB)
 *World capacity dialog with Sounds at yellow*
 
-![World capacity with vertex count at 407% and error message](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493105892_717633324107955_9093427791641727680_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=a8p7MNspZ2MQ7kNvwGAp1xJ&_nc_oc=Adlel_JY2OxIGc79jycnDpZ8yDio5xoH1QSJVjECZaJCFlNJjqT2VMbqQfW_-l8EOWM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wfRtniw7vH2N0g6DvgmTrg&oh=00_Afhp8yfw6tYY3rb26z6r6AAl6jsld93wONI9vbs2O4MJsw&oe=693122EF)
+![World capacity with vertex count at 407% and error message](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493105892_717633324107955_9093427791641727680_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=rkkKJ7xEzo4Q7kNvwGPN8Hc&_nc_oc=AdmAYHo8kGNyuW-S49kPCHrFByU39kLGiAycQS8a5ctPWdZ1VxO2WE7Hrt_MCSzKBcA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iUrN46_B2U124X-lFn0qRQ&oh=00_AfleRd_ftQUCOG3e2W684aUif9gQREg9qd9OB8apIC8N9w&oe=694BB92F)
 *World capacity with vertex count at 407% and error message*
 
 ## Understanding capacity limits

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_codebloc
 
 # CodeBlockEvents Variable
 
-A collection of all built-in [CodeBlock](/hw-docs/Reference/core/Classes/CodeBlockEvent.md) events that you can subscribe to using the [Component.connectCodeBlockEvent()](/hw-docs/Reference/core/Abstract%20Classes/Component.md) method.
+A collection of all built-in [CodeBlock](/hw-docs/Reference/core/Classes/CodeBlockEvent.md) events that you can subscribe to using the [Component.connectCodeBlockEvent()](/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectcodeblockevent) method.
 
 ## Signature
 
@@ -67,7 +67,7 @@ CodeBlockEvents: {
 ## Remarks
 
 This variable contains interfaces to every built-in CodeBlock event, which you can pass to the the `Component.connectCodeBlockEvent` method.
-In contrast to custom CodeBlock events, you can't [send](/hw-docs/Reference/core/Abstract%20Classes/Component.md) built-in CodeBlock events manually. Built-in CodeBlock events are broadcast automatically.
+In contrast to custom CodeBlock events, you can't [send](/hw-docs/Reference/core/Abstract%20Classes/Component.md#sendcodeblockevent) built-in CodeBlock events manually. Built-in CodeBlock events are broadcast automatically.
 Available events:
 OnPlayerEnterTrigger: Invoked when the player enters a trigger zone.
 OnPlayerExitTrigger: Invoked when the player exits a trigger zone.

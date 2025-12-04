@@ -15,4 +15,4 @@ export declare type SetMeshOptions = {
 ## Remarks
 
 updateMaterial - true to enable use of the new material; false to use the current material.
-For information on updating the mesh of a custom model entity, see the [MeshEntity.setMesh()](/hw-docs/Reference/core/Classes/MeshEntity.md) method.
+For information on updating the mesh of a custom model entity, see the [MeshEntity.setMesh()](/hw-docs/Reference/core/Classes/MeshEntity.md#setmesh) method.

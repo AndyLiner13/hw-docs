@@ -160,11 +160,11 @@ Before we verify it works, we need to attach this script to an **Empty Object**,
 
 After that, you can test. Press the **Play button**:
 
-![Screenshot of the highlighted Play button in the toolbar](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/489746733_692135333324421_369311511778975221_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=_W-DRiSoHYsQ7kNvwEzKQl6&_nc_oc=AdkrFd53m4NguvKlSzUqGBx4V5jLqVrNp_naUaucCQekdkyNVIksvCooIbshnjTAGRU&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=jKN4G3CmzdmnpnRuNvw5VQ&oh=00_AfhhL41eABUQ4UniGIvRX1RXPsPS0NUyEs-qtdUbpfqkjw&oe=69465907)
+![Screenshot of the highlighted Play button in the toolbar](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/489746733_692135333324421_369311511778975221_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=8r0vytENES4Q7kNvwFG5kkO&_nc_oc=AdlsJcHjpd8RTSReG8Z0InxrZcLeoOUzJVNiHv2DzBLT8hZJif8hbmw0jJWTCWAYZ8A&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=i1jB6UVSrSmbA4bUi_Q9HA&oh=00_AfnmKbi9omOMlGeIW8cex5f1GASrIqKM3UMK6nYJhV_CTA&oe=694BD747)
 
 Console results:
 
-![Image of console tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481015829_660734606464494_7683964807970467294_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=a55nSGjkq_AQ7kNvwGNVMX1&_nc_oc=AdnPqFtui0dW80ZwDKtDqIISQG7EzTvfz9vGL2blJgctZ_eeThaIhD34JYBNJHbT6dg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jKN4G3CmzdmnpnRuNvw5VQ&oh=00_AfgVSSQqCANYWYcSWhcnmsyahGUjiYzrIvLDQYkAf9I5Og&oe=694661C1)
+![Image of console tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481015829_660734606464494_7683964807970467294_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=St16doYsheIQ7kNvwFTnFKq&_nc_oc=AdnALR1kQVOiGbxfXlhtdIIr9NKg0GjCZInWDlX7F3JVlOjXqDo68Nwfpqk_X3JpEE0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=i1jB6UVSrSmbA4bUi_Q9HA&oh=00_AfmRzHjP0ZG1DqzHBIn7QypckWxM8uUQ1TIcLMEaDNC8CA&oe=694BE001)
 
 Success!
 

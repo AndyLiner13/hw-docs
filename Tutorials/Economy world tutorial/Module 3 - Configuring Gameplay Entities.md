@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Requirements
 
- You will need to be a member of MHCP and have accepted the monetization Terms Of Service in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-monetization-partner-program).
+ You will need to be a member of MHCP and have accepted the monetization Terms Of Service in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 Now that we have added in-world items, we need to set up the gameplay so the core loop works with these items.
 
@@ -121,23 +121,23 @@ The SimpleLootItem.ts script has a prop `lootSKU` which is used to grant the pla
 
 - Open the **Commerce** panel in the **Systems** menu
 
-![Create in-world item](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/495696251_715823344288953_5507441691893268300_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Gz00TOooraYQ7kNvwHCKwp-&_nc_oc=AdmLxMfg8HOiySmqL_J3hSGVbtJlEc9PqXi1i-Himo1J3209ggwbXwxJD2UJs1vXPH4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_j7K5MyJhxqGdabHwB9QRw&oh=00_Afhnbx7Gzr388K78la3hcEygR2tt5SztDUuGWgmFCSqEug&oe=694632B3)
+![Create in-world item](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/495696251_715823344288953_5507441691893268300_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=R983yBL7bSQQ7kNvwFMzUgn&_nc_oc=Adl9jJS7FTPZY29d9uO1xH86prge_inl4NbaDUeZrC5gxkF72UfE3hjQ1lcfsQQ0seE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pWPAjfYiu3g2-1lzb-J1Mw&oh=00_AfmEACHZGbddIQ3xYrB11lPIQQ8j5qtX7PLg9oq7IJzRdg&oe=694BE933)
 
 - Hover over the “Apple” line item
 
-![Hover the apple line item](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495301757_715823294288958_8858355950960058773_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=tSFUUyp_EjgQ7kNvwE4LTZ9&_nc_oc=Adl5cjY2ojxn92mX6SB3CfKjGxJMWRtk6OwSUkgOdKPAA16YirXU5Y2oh5L7mw0Vfvk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_j7K5MyJhxqGdabHwB9QRw&oh=00_AfhCjU35iqglQntj4vxRXgxdXfrB5Etna8TxoPXL0AFnfQ&oe=69465343)
+![Hover the apple line item](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495301757_715823294288958_8858355950960058773_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=SUSAWuo9kmMQ7kNvwGIOBpT&_nc_oc=AdmJKWnpyVE5Re-V9Vo-yaAEr3c4bZXkT_d0lHCZQxgO2K1gsFWTB3lELIHJlRv8ndo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pWPAjfYiu3g2-1lzb-J1Mw&oh=00_Afl0Ud9lCCewQNQrNhk8koOyVMOEsZ5y3QK3I41MZqHtsA&oe=694BD183)
 
 - Click the **Copy SKU** button
 
-![Copy the SKU](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/496254883_715823330955621_3034827105264845419_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=yfP3xbkhHW4Q7kNvwHJa4lU&_nc_oc=Adkj9YhMsDVpj25it3dwcryZDYO7Dg2y-Ntsm4pjSnnSdHRutf7SZpwo48Xbm4kXKYY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_j7K5MyJhxqGdabHwB9QRw&oh=00_AfjoTpa2f1DTEC0KoUhDGzXjyjXgLQMAsQcKw3I_x2Kkmg&oe=69464DFA)
+![Copy the SKU](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/496254883_715823330955621_3034827105264845419_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=yOeC4CWE9OsQ7kNvwGTeDPh&_nc_oc=AdniblLiLAIDlHPX-aUtplCdiu1f48fEskRdfw76bIB5XkuxYZLwu9UnfM6dGTqXxA8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pWPAjfYiu3g2-1lzb-J1Mw&oh=00_AfnbdczeT3EcahsP-52bgG9_FD-XlJZbFiVmb3shsIQANQ&oe=694BCC3A)
 
 - Close the **Commerce** panel and **Systems** menu; then select an apple spawner in the world
 
-![Close the commerce panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495725723_715823350955619_3017104055955316189_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=PmKdqHMmQjgQ7kNvwH-Vjpo&_nc_oc=AdnniLLbTaxoq8VmF8YQJVmalRFrfd0NeudKWKARVDSMpWGN35BQGEZM2YBoBnshu18&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_j7K5MyJhxqGdabHwB9QRw&oh=00_AfgXsXWoWKdTq-jBW_GcQkusck_moTnD66SEfBr_-7nZlA&oe=69465C48)
+![Close the commerce panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495725723_715823350955619_3017104055955316189_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qLgtSfPctDIQ7kNvwEUvY5j&_nc_oc=AdmsTllgQ-QEtD1U7X1_SA4k2IOVAsLjKwVfFoVqtjT4xOYK4tsIeB064ax9mV06c-w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pWPAjfYiu3g2-1lzb-J1Mw&oh=00_Afnx-b3UTGDHnRL8Xz1gKuOF5275ZKYDbrX2OiORyBKY-Q&oe=694BDA88)
 
 - Paste (CTRL+V) the Apple SKU into the `lootSKU` property
 
-![Paste the Apple SKU](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/495605507_715823297622291_5514369924114132716_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=YL_E_hkYxYoQ7kNvwFZ8Nsu&_nc_oc=AdkHDV-_q3zyDZ3gP-II0qqPLvRVQToRLd0tiAYXngSVivCU99lCWASwHEbmXZWosao&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_j7K5MyJhxqGdabHwB9QRw&oh=00_AfjOKqUOycBoEjv5n85Ez-JNNSnWZexa79oXR3OuqwBNRQ&oe=69464970)
+![Paste the Apple SKU](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/495605507_715823297622291_5514369924114132716_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=FTw-AawQgvgQ7kNvwFoxyUv&_nc_oc=AdlShNLQOFcYK-I9x2uWQkvx1mpueqtwLJFo_dutUtGs3VrrCQnOvIeEHC_ziZ_t0sQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pWPAjfYiu3g2-1lzb-J1Mw&oh=00_AfnWQuSzpCKCjPoz2vAmYWY4J-8avfU7kHSC1ML5sl8_xA&oe=694BC7B0)
 
 - Repeat this for each of the apple spawners in the world
 
@@ -147,7 +147,7 @@ Now, when a player enters the apple spawner trigger while it is active, an in-wo
 
 To determine if players are receiving apples when they collect them, we will need to configure the Player HUDs so that it shows this information. In this world, there are 4x Custom UI gizmos located above the world with the PlayerHud script attached. These are named PlayerHud1, PlayerHud2, PlayerHud3, and PlayerHud4.
 
-![Player HUDs](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/495841783_715823300955624_1480702978290755630_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=qDlVyzQkS8kQ7kNvwEzaPtA&_nc_oc=Adlq9yeiemDIY-nlqHFxjIKwYinL9xXablWD_FnKTOUIOEAwxPxOggHgcAqewxIJNd4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_j7K5MyJhxqGdabHwB9QRw&oh=00_AfhxVEp-ju3qzmWXbcQi_LpUVYhWDe6Cmu8SXmrJ29DHbQ&oe=69464317)
+![Player HUDs](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/495841783_715823300955624_1480702978290755630_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=LbHz6OukpDkQ7kNvwH_D8Xe&_nc_oc=AdnWS5gn7-JL3oWsPhS4YVRMmB9hLRWo6folfgkQSgsOmQPUUPuSRONJLNO_Aqx0VGk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pWPAjfYiu3g2-1lzb-J1Mw&oh=00_AflvwLHkmRhFBGmCiVx1bGwnjNuNDejyDM9JnIAJNKKQaw&oe=694BC157)
 
 Each of these is set to be owned by a player when they enter the world. This is done by the PlayerHudManager script, which is attached to the PlayerHudManager entity.
 
@@ -155,7 +155,7 @@ Configure each custom UI gizmo with the PlayerHud script attached to include the
 
 When finished, each CustomUI gizmo with the PlayerHud should show the following properties (with minor differences in the SKUs).
 
-![Player HUD configuration](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/496532826_715823387622282_5131601984334569618_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=PQj7T7MnHuMQ7kNvwGKd2T0&_nc_oc=AdkK2lK9jdmuM7JWS9Qm13qz7-gY4xnddRC5LiGMM9xOihkJN0-fJo8GhNwIkBFGoWs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_j7K5MyJhxqGdabHwB9QRw&oh=00_AfgPfQ2_2OGXfDAs4PrEMNbCC9vpMDSDwZP9wYS_trU56A&oe=6946411E)
+![Player HUD configuration](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/496532826_715823387622282_5131601984334569618_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=QTiAMZQs49AQ7kNvwFObf0F&_nc_oc=Adli01JFKuJLJ6KItH2NALdpiKbRixmp9x-gkvj2Nh8WCVMxa63E-aYSz9yRijLSM_s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pWPAjfYiu3g2-1lzb-J1Mw&oh=00_Afm8M4WFS1VJCvmXdmgnAk4TvoYq-J6vxtBDcu-n5gRgXg&oe=694BBF5E)
 
 ## Testing the PlayerHUD and the apple spawner configuration
 

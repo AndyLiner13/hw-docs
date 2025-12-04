@@ -9,7 +9,7 @@ Follow these steps to access the Desktop Editor
 - Navigate to *Scripts -> CreateNewScript*.
 - We will use a starter script named Shoot.
 - Choose the *:* menu next to the new script. You can select “Open in External Editor” if using a preferred editor.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452888405_512535114617778_4622023437168026365_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=c3fmU5tmKt0Q7kNvwEDAmlx&_nc_oc=Adk-m2ewVT_KCJ965NfQ_36oHCxXRiarGamdf9DdZVIVPP7tF5cTk4AIWYl2BioUtFM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=hwipAZo5il_9FrU0WgaiSQ&oh=00_AfjFFzRuwUS3gC79fSKnIRdHw7LpRTu56GeZ91Hgsh9UGw&oe=69313050)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452888405_512535114617778_4622023437168026365_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ffyNsQmF6-UQ7kNvwE5nZCp&_nc_oc=Adn9KtC3YjyTV02LHCjK9kUTR2SKBbLGJji5u9DdBRSbtetS6p8fAelpRZF9vpa4GuE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Av6xw6YzwfytUn2jhMkyVg&oh=00_AflcQL6TYB0jmaCBI4DdR2v5KDqLsi_VVn65PYZ2a8ASnA&oe=694BC690)
 - The `start()` function is called whenever the object it is attached to is created. To print to the debug console for an object created, add a *console* print:
 
   ```
@@ -19,13 +19,13 @@ Follow these steps to access the Desktop Editor
   ```
 - Save the file.
 - In the Desktop world editor, connect your new script to an object you have in the hierarchy. Scroll down to the bottom of the property panel on the right. Select “Attached Script” and choose the script file named “Shoot:Shoot”. This will associate the script with the object.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452635355_512535174617772_4931592019167273635_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=qWonb9FshK4Q7kNvwHlmSgM&_nc_oc=AdkbrpOHLg9ONVJ0dJkveqNAysPiR9cR69SchrRYeQa2ZwTqnDhOo-PzwQUD_ZuGHbQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=hwipAZo5il_9FrU0WgaiSQ&oh=00_Afhk1I-Gy-HbiuWdB_XbWfLNG_N5PM8DMjE346HGJVC3Bw&oe=693124A3)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452635355_512535174617772_4931592019167273635_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=y8Ti0NiGK1sQ7kNvwEg7VU9&_nc_oc=AdmVAPSLljP5hCXhOJqwtUUNj5juwWShkbC-y9xU1E52aj-CvMATy2s_ysi6IjYwitM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Av6xw6YzwfytUn2jhMkyVg&oh=00_AfnfJW4DBCKVKyaBuFO-tQe9o7tQC2aGfCu0UONqMsQoeQ&oe=694BBAE3)
 - Preview the world by clicking on the person icon next to the wrench.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452460755_512535221284434_2821360807848336884_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=jfQChv1owGwQ7kNvwGg-i1d&_nc_oc=Adm7I4tVstzbgwsXastSunuhok8JMj081huE6AGhJ3m40bsUFxgEUVZM_8QtFm2oRd8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=hwipAZo5il_9FrU0WgaiSQ&oh=00_AfiFPy6JC-22S1oMC8f2b6PHmLXGQMTBexoaB8WfHr5spA&oe=69313E73)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452460755_512535221284434_2821360807848336884_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=gqL0EJUzm5EQ7kNvwGAz4G3&_nc_oc=AdkNp4sO_9Tg7Hh1mWBko7tPo89AmuQukuV2_xvtkblIdzfq78n6c5uPXUy3IDOCAcw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Av6xw6YzwfytUn2jhMkyVg&oh=00_AfmLJ710PR82zlbUJNstnUrq85pptMJc8LgSM-1IuXL6xQ&oe=694BD4B3)
 - Press escape and click on Console window at the bottom of the editor.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452683821_512535171284439_1029448456687135659_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=nk6NlUzcBlEQ7kNvwGdEyBa&_nc_oc=AdmwZa9JnnOymXa2ZHtVysMH5ILSGkNeUAuqCpc4H6GrXV9af9dXeCZE3w73TZbb0-I&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=hwipAZo5il_9FrU0WgaiSQ&oh=00_AfjbD3HVxbsX38P8RDS2NgU0nsy0APLafC1ixbT18dYrqw&oe=693125A9)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452683821_512535171284439_1029448456687135659_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=4qJLw_ybD1oQ7kNvwEfyxCn&_nc_oc=AdldsdCVUksE1VQncxe3bVtPS35L-C29q5Xb9ztBsR7A9SzaVpxTr7dTooYs8r6TscE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Av6xw6YzwfytUn2jhMkyVg&oh=00_AfnNVcQw4i1oOWllImtQa-OS_z3Q7BkC8_lAaYh52DyJrA&oe=694BBBE9)
 - When the object you associated the script with is created, the console will print the  debug message you specified.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452992907_512535111284445_4360884428134174850_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=uYFOcsDfKLoQ7kNvwFbf5EW&_nc_oc=AdnalBtfQQ51s6YMvACNehs4mE0hEkgrLdVUtvw-9-6WKQan6cPmphmXSK7i_AkGxCI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=hwipAZo5il_9FrU0WgaiSQ&oh=00_AfjqYrwujEEtHYnDWXkkLFaade_bBFXzLGFvBI-gdPKxZg&oe=693125BC)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452992907_512535111284445_4360884428134174850_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=KqQi8GZIkdwQ7kNvwE0vlTF&_nc_oc=AdkvNsB5yqBfhhR95sOPD6swxL-8MaQY05C3JDid55NQEBeehhO6e7NgsA245BX7_XY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Av6xw6YzwfytUn2jhMkyVg&oh=00_AfkTFHp_-L3bJFMpE2poJBxQOtyffGOcsdaN5UUak1uibA&oe=694BBBFC)
 
 ### Sharing Code Between Scripts
 

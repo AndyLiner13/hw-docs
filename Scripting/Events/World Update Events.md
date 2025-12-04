@@ -6,7 +6,7 @@ World events are broadcast events that notify your scripts between each rendered
 
 ## Subscribe to world update events
 
-To subscribe to World Update events, use the [`this.connectLocalBroadcastEvent`](/hw-docs/Reference/core/Abstract Classes/Component.md) function.
+To subscribe to World Update events, use the [`this.connectLocalBroadcastEvent`](https://horizon.meta.com/resources/scripting-api/core.component.connectlocalbroadcastevent.md/?api_version=2.0.0) function.
 
 Parameters:
 

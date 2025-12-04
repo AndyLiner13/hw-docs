@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entityra
 
 # EntityRaycastHit type
 
-The result of a [raycast](/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycastgizmo-class) collision against an [Entity](/hw-docs/Reference/core/Classes/Entity.md).
+The result of a [raycast](/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) collision against an [Entity](/hw-docs/Reference/core/Classes/Entity.md).
 
 ## Signature
 

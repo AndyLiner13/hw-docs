@@ -11,19 +11,19 @@ PC creation tools support cross-platform publishing across VR and mobile, offeri
 **Note**: VR creation tools for Worlds are legacy tools. We strongly recommend using the desktop editor and other PC creation tools.
 This topic introduces some of our creation tools:
 
-* [Desktop editor](#desktop-editor)
-* [TypeScript](#typescript)
-* [Custom Model Import](#custom-model-import)
-* [NPCs](#npcs)
-* [Performance tools](#performance-tools)
-* [Generative AI Creation tools](#gen-ai-creation-tools)
+* [Desktop editor](/hw-docs/Get%20started/Tools%20overview.md#desktopeditor)
+* [TypeScript](/hw-docs/Get%20started/Tools%20overview.md#typescript)
+* [Custom Model Import](/hw-docs/Get%20started/Tools%20overview.md#custommodelimport)
+* [NPCs](/hw-docs/Get%20started/Tools%20overview.md#npcs)
+* [Performance tools](/hw-docs/Get%20started/Tools%20overview.md#performancetools)
+* [Generative AI Creation tools](/hw-docs/Get%20started/Tools%20overview.md#genaitools)
 
 ## Desktop Editor
 
 The desktop editor is the integrated game development environment for Worlds. It allows you to build worlds and scenes, and to add and modify objects in your worlds. The desktop editor runs on Windows, and you control it with the keyboard and mouse, rather than your VR headset.
 
 **Note**: Building a world with the desktop editor is similar to building a game in Unity and is easier than using the editor on your VR headset.
-![Desktop editor screenshot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/502465844_729377782933509_8861147602288551686_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=x5w8s6gF9BMQ7kNvwGiwh-9&_nc_oc=AdlnOlgE8eyK5GDt82BqceQ9bu17IB-VzXtkmx-1GrPR-87VkPrlAFcoCFncQi0CcZ0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2BRMLNIGt6aHdlPZnkJOzA&oh=00_Afg-ZvGYfWRF4rkW2QY7bUqdLpbyEUFxeAG4nmAp7TENJg&oe=69314632)
+![Desktop editor screenshot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/502465844_729377782933509_8861147602288551686_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=91oLNGHlilEQ7kNvwH7bJPS&_nc_oc=AdktwAJJaTCLf8y7qaBL2hel05KlxpkIaRMZjAipRdUiMC9s34PKBiPmyFeWh18nSis&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=z02lWi43C-TXIfxAuYj4ig&oh=00_AfnQpoRLG_n72_rSU2bQwjv3I7OYUaIaZtqVZITOAYmrjQ&oe=694BDC72)
 The desktop editor allows you to:
 
 * Create a world
@@ -45,7 +45,7 @@ To get started using the editor, see the [Introduction to the desktop editor](/h
 ## TypeScript
 
 TypeScript support in Worlds allows you to write scripts efficiently using traditional programming processes and tools. You can create a new TypeScript asset from the desktop editor, type your TypeScript code in VS Code, and then attach it as a component to an object. Using TypeScript expands your development options and adds safety and security to your code.
-![Typescript screenshot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/502450217_729377786266842_3747679647519941494_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=9J8CLgb-HM8Q7kNvwGjFFoB&_nc_oc=Adkc2o5xZ755i8XAoJDhxhjUDlBqoAifRdqNIqoiPvuqonob-QHDy8IpkVqAdJLHXfY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2BRMLNIGt6aHdlPZnkJOzA&oh=00_AfixzvzuBCgW14KRQZD29plPVCa8ycrc5IzZ3JVow_Oawg&oe=69311420)
+![Typescript screenshot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/502450217_729377786266842_3747679647519941494_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=t9jrUEcCYc4Q7kNvwEAR8mS&_nc_oc=Adm2dzVGxsBeH-vjiYW8HDX2gM9YYFuIHAw95nQE8s_xTj1vUj-AJxJajey8Fg3Oses&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=z02lWi43C-TXIfxAuYj4ig&oh=00_AfnRPEzzvOIjWDnQRw0uMSa_EG7OC7EdfmGzVLQfmGITQQ&oe=694BE2A0)
 TypeScript is a strongly-typed version of JavaScript. Strong typing provides tight integration with your IDE, letting you:
 
 * Leverage IntelliSense (code completion).
@@ -56,7 +56,7 @@ To get started, see [Using TypeScript in Worlds](/hw-docs/Scripting/Get%20starte
 ## Custom Model Import
 
 The custom model import option in the desktop editor enables you to fill your world with objects spawned from imported 3D models, created using your favorite 3D creation tool. In Worlds, you refer to the resulting world as a custom model world. You can find your imported assets in your personal asset library. The following image shows an example of what a complex 3D object spawned from an imported asset looks like. In this case, it’s a park bench.
-![Custom model import screenshot](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476631803_650754080795880_4339261981796990598_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=pVz3C_Ik3noQ7kNvwHcrm8f&_nc_oc=AdlSR3xUK7SF8pocCP1rJwG8eN3Z9fShHdfj9LB-KuE-n9z6kmhkBqL8n41CBqZ-hV4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2BRMLNIGt6aHdlPZnkJOzA&oh=00_AfjlD1xYHKrnixApQ3xPAI36y-6nd-2cOQVYyuwyZCD8CQ&oe=693113C6)
+![Custom model import screenshot](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476631803_650754080795880_4339261981796990598_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=WW5OwBaNC3IQ7kNvwGf-rX_&_nc_oc=AdnHAZ8dA-emF1-WT3aebeCdl1lK69C62LmhYDPvOlSn9H1rJQyUqRRztPAOx4YjNjA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=z02lWi43C-TXIfxAuYj4ig&oh=00_AfnroKZ-syktaZ8dYGCexzpzrQ8S2amN3MHa99epFU86ow&oe=694BE246)
 A custom 3D model is composed of multiple files, and you need to specify all of them when you import a 3D model into the desktop editor. These files include:
 
 * An FBX file. This is the 3D model file format. It contains the 3D mesh along with scene data such as cameras, lighting, geometry, materials, and animations.
@@ -75,7 +75,7 @@ A Non-Player Character (NPC) is a computer-controlled character within a world (
 * To serve as enemies or obstacles for the player to overcome.
 * To add to the game’s atmosphere and immersion.
 
-![NPC screenshot](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476644421_650754077462547_870136976936096742_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZYM81EB-ZpIQ7kNvwE7vhyU&_nc_oc=AdnBAdTm2plm3ZsQcCMig17UmsqUottCul0mQj8JbblK1sbhXF--I911rmhmUTWJJls&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2BRMLNIGt6aHdlPZnkJOzA&oh=00_AfgGJLoUXUzO7TsYbJjjLbD3T29o55CBNyYl9bnWiE4cHQ&oe=69313E7D)
+![NPC screenshot](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476644421_650754077462547_870136976936096742_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=29K5wmEwzCQQ7kNvwHbYhX8&_nc_oc=Adn3fN5ztmlX1vPxssuVAYUm8NXFAfDi4ZiwcJSt07AHDDLNCFSHv4Pb2ZjiUj8Zdq0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=z02lWi43C-TXIfxAuYj4ig&oh=00_AfkxpAowaaPa79zlAAzb4ed5ezrWHCemzdPDwSOU5Do8SA&oe=694BD4BD)
 
 NPCs can range from simple scripted characters to complex AI-driven characters that learn and adapt to the player’s actions.
 There are four types of archetype NPC characters that you can spawn into your scene, according to your needs. Utility, Storyteller, Antagonist, and Ally types of NPCs all exhibit behaviors that are controlled with an AI script.
@@ -91,7 +91,7 @@ For more information, see [Getting started with NPC assets](https://developers.m
 ## Performance tools
 
 Real-time performance metrics and server-side tracing can help you as a creator, find and address performance issues in your worlds. You can access the performance tools via browser while visiting your world, alleviating the need to put on a VR headset to get performance data.
-![Performance tooling screenshot](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/502493465_729377792933508_2779429731967884486_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=JdQzdzQnYdsQ7kNvwHnfgD3&_nc_oc=AdmmoymuyRoPPFHbZJxUMEZMEIpy5LhGyQ_o9D6LJProAG0PrtxgKBRwKtDdHOXn2AM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2BRMLNIGt6aHdlPZnkJOzA&oh=00_Afg0Z_cYM5QsUF_uFMkx7mLgod6Mw49HFM5uezsBEIIvIw&oe=69313171)
+![Performance tooling screenshot](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/502493465_729377792933508_2779429731967884486_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-xR-L_kplbMQ7kNvwF8wb44&_nc_oc=AdkrUKSQTcrVcEGUppfRUNiCG4jHTmubIXz0N71nCJIRIIdLoP10JO1Vgx81NMS0eHQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=z02lWi43C-TXIfxAuYj4ig&oh=00_AfmrlmoHVnTJC3D_4-ffOvKxDrnER_mS_wWh8YsKiLF57g&oe=694BC7B1)
 The **Performance** tab displays a real-time view of all currently selected metrics. You can select which metrics to display on the tab and you can also set a target number for each metric. When a metric exceeds the defined target, a red dot appears next to that metric as an alert.
 This tab also supports scrubbing and tracing. With scrubbing, you can review data that has recently appeared on the **Performance** tab (approximately 30 seconds worth) in detail. With tracing, you can capture performance data from your world to view in Perfetto. Perfetto is a third-party tool for performance instrumentation and trace analysis.
 
@@ -100,7 +100,7 @@ For more information, see [Using performance tools from web and mobile](/hw-docs
 ## Gen AI Creation tools
 
 The desktop editor features a suite of Gen AI Creation tools that assist you in generating script code, audio samples, mesh metadata, and textures.
-![GenAI audio screenshot](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/502455934_729377789600175_7065718010731758312_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=rLILxK2a0sQQ7kNvwE0Knu-&_nc_oc=Adm_KOvfYwKUanTdbmWK6yMWEX6CdEAtlF11nTDi5ACSn_5viqce8qU228fsTWn_Hxc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=2BRMLNIGt6aHdlPZnkJOzA&oh=00_AfhSdqkYQUOafpxWNG6fRgQBtt0up3VhBB_zq37_gHPRFg&oe=69312F69)
+![GenAI audio screenshot](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/502455934_729377789600175_7065718010731758312_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=uru2PgEu8SIQ7kNvwGR6820&_nc_oc=AdkrgG4jQn63P_3x-W_1ylZspntYIJviFkfBKaZYJycS6sL1qVUPV7dgM57eZDKsZTQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=z02lWi43C-TXIfxAuYj4ig&oh=00_Aflp3ju2uU7QD5NforrY1CoFMdyihPK4RnxyCSnx_rEykw&oe=694BC5A9)
 
 ### Gen AI code tool
 

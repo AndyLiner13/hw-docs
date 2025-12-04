@@ -10,7 +10,7 @@ Let’s wrap up our multiplayer module by building the functionality to handle t
 
 The provided course has an **End Game Trigger Gizmo** with an attached script named **EndGameTrigger**. Inside of this script we need to let our game know when someone has won the game.
 
-![Screenshot of the End Game trigger zone in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487971355_686408183897136_1616854923824997885_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=cH5JGwd0tf8Q7kNvwH-aSOP&_nc_oc=Adl0SFQjnC1wpJkpTW2Yu4jLO9AD1vz8VFT8BDltPR06SoBFBrSqcEiP-zcD0Fl7aRI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TYGAVtmHYvw_rTZ3M0hZIw&oh=00_AfidqDxUY-67GbYMqyXpt5Ubo6POL3BvZuehVbD4Ppq_2g&oe=69462BAD)
+![Screenshot of the End Game trigger zone in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487971355_686408183897136_1616854923824997885_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Zl8dK0qdjgAQ7kNvwH3FgO8&_nc_oc=AdlFnmoxMZIVHPuMiH6H-AFJ0TrxJXBVef2liDUe12KMhJWlBK-2Iy8UIChAqgG1Xjc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d7FNzEfy5zj2d9D9wHEsBw&oh=00_AflNVTKMUIvN-MrJJV_lM2i_MzAxZrlitKJV644TYq_Btw&oe=694BE22D)
 
 In the **EndGameTrigger** script, replace:
 
@@ -77,7 +77,7 @@ lobbySpawnPoint: { type: hz.PropTypes.Entity },
 
 And then, using the desktop editor UI, connect the Lobby Spawn Point game object with the new prop on Player Manager.
 
-![Screenshot of adding the lobby spawn point entity to the Properties panel for the PlayerManager](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488192166_686408187230469_7652361134058456476_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=gNp4gF-5XagQ7kNvwGcXq1H&_nc_oc=AdlOgBq5bkd466IoZr3Fe0uH_MDmwOP__7zWCs355IsVLKRNfaE5zpFCCoj6SOkAQJA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TYGAVtmHYvw_rTZ3M0hZIw&oh=00_AfisLPJgClW-7aDgtybIjaZOTPwivKb-vwWTcWlW6JTRWA&oe=694656F2)
+![Screenshot of adding the lobby spawn point entity to the Properties panel for the PlayerManager](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488192166_686408187230469_7652361134058456476_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=8am46vxYWL0Q7kNvwGO12SS&_nc_oc=AdmaTOHmLiebwZYtgRow0vNn0azNyw9N4frMQl11WYgADhDdorjuZhIAHboAkzZds-E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d7FNzEfy5zj2d9D9wHEsBw&oh=00_AfkKuXDE5hQ7lKBjy4Gi1yX5wa-WWM9AhGiHuWfxkMfNjw&oe=694BD532)
 
 In the **PlayerManager** script, replace:
 

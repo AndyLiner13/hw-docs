@@ -4,11 +4,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Note
 
-You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-monetization-partner-program).
+You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 The Voting Manager centralizes player voting during Showcase rounds. It assigns UI vote buttons to players, enforces voting rules, tracks votes, manages button visibility, switches cameras for showcase mode, and produces final results with tie handling.
 
-![Winners Podium](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/556656295_828614596343160_1356763914528862941_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=iathXtGZLPgQ7kNvwHncRMh&_nc_oc=AdlD0yUfCyxZkRcS2Jc9ZFio8mdY5QuGGJ4wZzmbOKIZUIZLGobqs1ir9h6MXHqkR1o&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5Ql_8m-3dZmGMcdLqgf7sQ&oh=00_AfhVm3LHxdiwslTfMxZtischE7M1OMjOPL-ClUPxPeFjig&oe=69464204)
+![Winners Podium](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/556656295_828614596343160_1356763914528862941_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=XN7s0u7GPNYQ7kNvwGFMTSA&_nc_oc=Adnp-H_38zlhIjywq065RaPJ1YprlxzHsnpylRWvdgKi-uBBxKEcDxMUwLclBcMT3CE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sk8x9ZC7nptzXthzh9wN7w&oh=00_AfkNFf2a8XhThi0Yieg4X4WqbUVkJ4trud1bIR75B44w3Q&oe=694BC044)
 
 ## Dependencies
 

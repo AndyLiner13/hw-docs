@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This world is composed of several stations, each of which demonstrates a camera point of view in a specific use case. For example, you can see how the first-person camera works at the shooting gallery and how the third-person camera works at the hand-to-hand combat arena.
 
-![First-Person Camera Station](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488054346_686408173897137_1013242816748594235_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=5I8EBrTDinIQ7kNvwEBw4YP&_nc_oc=Adk3jqEpwhCZCgfNbuJiuJJJfkXfMWhgFu5UwnC5QxX3sMHDfJDy9j5227wlcrsEQgM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FsZFeIsvhX1vwJOpcXbvdw&oh=00_Afg6fJmgkerJp0AYYrtHLmuUro2rImsTqLnOUgiam6zThA&oe=694660DB)
+![First-Person Camera Station](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488054346_686408173897137_1013242816748594235_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=KONfNx_URh4Q7kNvwGYE8RB&_nc_oc=Adl68QgdqUiPZ4lJ-O7nznP7M8fg9Ztnb63yjDX4Sp6yFha0iebaCvgZ_IGJwOq7xkc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Y66nmlBPY0KiCQ9CTBekYA&oh=00_AflqzDNupUSZgItHxNz_56z67TVfqvf58NxkGyq6-vGPkw&oe=694BDF1B)
 
 ## Set Local Script mode
 
@@ -42,7 +42,7 @@ The Camera API supports the following perspectives.
 | First Person | Camera and the player avatar’s eyes are in the same location. Camera is facing forward from the player’s avatar. | This is the default camera for VR. In general, first person is used to focus the player’s attention on tasks like aiming or reading from user interfaces. However, the player can lose track of other activities or threats on the periphery. |
 | Orbit | Orbit camera allows the player to pivot the position of the camera around a fixed point. | Orbit camera is useful for visual exploration of a specific area or object. |
 | Pan | Camera is positioned at a fixed distance and angle from the player, maintaining a consistent perspective while following player movement. | Pan camera is useful for side-scrolling games, platformers, or scenarios where you want to maintain a specific viewing angle while the player moves through the environment. |
-| Focused Interaction | For web and mobile, the Focused Interaction API allows for zooming the camera into a specific object to enable a limited range of interactions. **Note**: Not included in this world. For more information, see the [Developing for Web and Mobile tutorial world](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-7a-the-focused-interaction-manager). | This is useful for things like entering codes in a keypad or manipulating a puzzle. |
+| Focused Interaction | For web and mobile, the Focused Interaction API allows for zooming the camera into a specific object to enable a limited range of interactions. **Note**: Not included in this world. For more information, see the [Developing for Web and Mobile tutorial world](/hw-docs/Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%207A-%20The%20Focused%20Interaction%20Manager.md). | This is useful for things like entering codes in a keypad or manipulating a puzzle. |
 | Fixed Camera Position | This mode places the camera at a fixed position in the world, facing in a fixed direction. | The fixed camera position can be used for big vistas or cutscenes that do not center on a specific entity. |
 | Fixed Camera Position with Entity | This mode places the camera at a fixed position, while tracking an entity, such as the player’s avatar. | Use this camera to build player-centric cutscenes or to build isometric or sidescrolling games that focus on the player’s avatar. |
 
@@ -52,7 +52,7 @@ In this world, camera management is handled through the assignment of PlayerCame
 
 The core entities for managing player cameras are positioned above the plane of the world.
 
-![PlayerCamera core entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487312367_686408207230467_1588549126556306988_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=VFcFEKXXLSMQ7kNvwHEtax2&_nc_oc=AdnTbOChIN3FsM2qhrMCzHryqazBztqqgIbQdPd8uM5DxyZNkusumTQ5kUm__FSz0dY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FsZFeIsvhX1vwJOpcXbvdw&oh=00_AfgY4JBe12Wq7HNXJ4srDUnHmrvGUYKHbYxISEqXunPzBQ&oe=694646D2)
+![PlayerCamera core entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487312367_686408207230467_1588549126556306988_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=xtJ7LqBdHqcQ7kNvwGmNs0C&_nc_oc=AdkQr-RHR94sFbq2UcHKYoZA6bPKpZW3noUYF9O-NiCh2QKObDWycHoZxjFHubOPJyY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y66nmlBPY0KiCQ9CTBekYA&oh=00_AfkbY33_4svIBk5rRxgdpmj7Kb73VZFC1eoAeIbpj0S-wA&oe=694BC512)
 
 In the Hierarchy panel, these entities are stored under PlayerCameraCore.
 

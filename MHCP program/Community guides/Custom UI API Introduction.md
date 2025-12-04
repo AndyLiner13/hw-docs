@@ -87,19 +87,19 @@ You can then adjust the position and rotation to your liking, and after selectin
 
 *Note: Rotating around will be useful as the UI is only rendered on one side, so if you don’t see it later in the tutorial you can rotate to the other side.*
 
-![Image shows a user beginning to work in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473575538_631480276056594_4482215321456536119_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=usAS4fFEMHcQ7kNvwHYLLpd&_nc_oc=Adnr8ldO3nqGsRAslVhDOLCFVqhZIvqXI_wyBqcr61kmj7hUsyrgI5qjpayj6de5EcQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfguqRS7GUhAHn1BbLyXN8hyNrGlFRLW66Ci1Lbsn6PMNA&oe=6946434D)
+![Image shows a user beginning to work in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473575538_631480276056594_4482215321456536119_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=zhxt2o7cfEEQ7kNvwEpPgIt&_nc_oc=AdnG8SZrGdLYGqXU3r-hvhlbSTLAGgpo9HMEe3iJhGiEHfQxIRBgxoQ6n8sGqMGsQDg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfmnzttPxoBOPyFf8cebmnxh9WFYPeulZYsvbVtM-G1fdQ&oe=694BC18D)
 
 Next, create your first script. In the example below, we will name it **CUI\_Test\_Entity**. The prefix “CUI” will help you easily find all scripts that are related to the CUI gizmo, you will see that later in this tutorial. “Test” lets you know what this script is supposed to do. “Entity” is one of several postfixes you can use to describe what the script is, in this case, it is attached to an entity, a Custom UI gizmo.
 
-![Screenshot shows the script menu with CUI_Test_Entity entered in the field](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473765158_631480316056590_3304733782305001022_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=KPUN2_ExJsQQ7kNvwGzUWjG&_nc_oc=AdkkGyLqpGrduuQ1KgQE_wIa8ekG1nqjuWvWG1UxHM7ohZpaycnRGkaloXn7k7DR3Ko&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afgzxwu_Q6AzLMDckq7vHQEAKhK9fueYotk7kn1BlX1Rrg&oe=69463173)
+![Screenshot shows the script menu with CUI_Test_Entity entered in the field](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473765158_631480316056590_3304733782305001022_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=BGNAW-sPvTwQ7kNvwFsEvag&_nc_oc=AdkgIJf2m37_i6D89FzpEap34wG9pALOzYWIbEd6IWHuVxUaGbwzsHnbOZxtV_p95ak&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfmriE8uuWkQJ2jMLwTlOFK4G2ro0Xrxc58n1zxs4rGhEQ&oe=694BE7F3)
 
 Now that you have created our first script, you can go back to the Scripts drop-down, and click the gear settings icon.
 
-![Screenshot highlights the placement of the settings icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473556853_631480306056591_7590379382942365878_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=RVFyYwwlw14Q7kNvwGTz2pt&_nc_oc=Adni9xV9C7QrK_eVJijtwlTxr1mEKCE3V_ZDKMOlOPZ0_D_PlT4bpgu5X_Et_kqfOpU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afg14SasUD73tLC32QryNA4aCwqne0hZ1dGGtTW_oARwlA&oe=69464C7E)
+![Screenshot highlights the placement of the settings icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473556853_631480306056591_7590379382942365878_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=8FEKMDacIU8Q7kNvwFMKkQx&_nc_oc=Adlv9dbqMHmfGomxP9ivdRtkOGJ371GJRjHeAXTit439HeTyVEcMWPXAuqkyjuaRseY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfnVlu94Rmkf-yfx3AqbPYfE57ikhemCC3dIuoqPnxeh8g&oe=694BCABE)
 
 From the settings menu, select the API tab on the left, enable the UI API, and click Apply.
 
-![Screenshot shows the settings menu with the UI API enabled](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473453002_631480372723251_7188675402706182604_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=tjcJLwgOJQ8Q7kNvwFxHxH-&_nc_oc=Adn69qhmRk2_OdJMJV_bfCYZjlgsxH1jZbd1jrUDMF3LQ1-2zQv4RxqZbjfQM4Y34FM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfhJk8VnDmu6sCGXUMg-FjFrubrs-HrsZmE5Dv9-MuzZeg&oe=69465D39)
+![Screenshot shows the settings menu with the UI API enabled](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473453002_631480372723251_7188675402706182604_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=LznMiv-fSDAQ7kNvwE9alwy&_nc_oc=Adm9HA7-1giQlpINpyysAtjf1Tg_Vy9PBuGI2BtZqHhbtvRIYzY2-6xbqNN9IqvJgX4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfnOOa7zGcbjlNdGB5LMafISFObsr2UtTRzZgO9SC5obng&oe=694BDB79)
 
 You are now finished setting up. In the next step, you will begin working on the base UIComponent script.
 
@@ -107,7 +107,7 @@ You are now finished setting up. In the next step, you will begin working on the
 
 - Open your script in VS Code. From the Scripts drop-down to the right of your newly created script, click the three-dot icon. Then select “**Open in External Editor**.”
 
-*Note: If this doesn’t do anything, you will need to install VS Code, and after installing restart your computer for Horizon to be able to “Open in External Editor,” ie. VS Code.*![Screenshot shows the settings menu a mouse cursor on the 'three-dot icon'](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473388018_631480302723258_7884291281224528330_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ppfIbe9kX78Q7kNvwGTKpGV&_nc_oc=AdktgDagxAGhHdMfUh5DDiQPsNosS6_YU3NW9XnrlipOuHDETEDZaDuTn543kW9V83E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfhFFKtKTPLsPEejctq96YHIDq4BVnuv74s18dSw4Tcj8w&oe=69464372)
+*Note: If this doesn’t do anything, you will need to install VS Code, and after installing restart your computer for Horizon to be able to “Open in External Editor,” ie. VS Code.*![Screenshot shows the settings menu a mouse cursor on the 'three-dot icon'](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473388018_631480302723258_7884291281224528330_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=f34Op56QGTEQ7kNvwG9iYvH&_nc_oc=AdloYu_Xqn1o2lnjLYLqUo7Ol-f4YEMIm0JnO8GpCAS_ZwiZhseGJ0WIzoUeZOKBHOQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfnpTsfgLDjTk_00VW5hWxJ8v81tQjNVYAJ-21o1rRfOFQ&oe=694BC1B2)
 
 - Adjust the default script to match the base UIComponent script seen below. To do this start by deleting the import line and the two “**hz**.” You can then explicitly import Component by backspacing the “**t**” in Component, and when we retype the **T**, click “**Enter**” on your keyboard to allow VS Code to automatically write the import line seen on line 1 in the screenshot below.
 
@@ -123,7 +123,7 @@ You also need the “**initializeUI**” method, which must return a UINode, whi
 
 *Note: If you don’t click enter to autocomplete, this method and the previous “initializeUI” method, they are both case sensitive, and if misspelled will not work correctly or report an error.*
 
-![Screenshot shows an example script](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/473707634_631480299389925_1506503231421137776_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ELWfa1CHeT8Q7kNvwF5nXrN&_nc_oc=AdlHqbhvvcYzzJEB1aOKHcYKRrHh-CDu6u-fmafq1vciJJap3Vnc5-JfoYzo4IVcsxU&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfjDkzCvNA2gUe-XVsyshvInVDwzghSeRDjSzRTva4ziYw&oe=69462DCF)
+![Screenshot shows an example script](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/473707634_631480299389925_1506503231421137776_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=iB2Yk78GmUYQ7kNvwEcsRok&_nc_oc=AdnSab96V8ThEZp96vLydeCLH8SRzTDnL0gg1T0TMaPsjLKT3RlFiuomWu2woES25J0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfltkNRIg5nb4wXPrbYoGI9D-w2-gQIyq6bb97tbAo_xyA&oe=694BE44F)
 Let’s take a minute to understand how each of these lines works, and what they do.
 
 **Lines 1 and 2:** The first two lines are imports, this declares what you are using in your script. If you come from a background in CodeBlocks, think of this as not having access to any CodeBlocks unless you explicitly requested them. Fortunately, these two lines are automatically written for you by VS Code.
@@ -158,19 +158,19 @@ Now that you understand the base script, in the next section, you are going to a
 
 To start, go back into Horizon and from the bottom of the CUI gizmo’s properties panel attach your script.
 
-![Screenshot shows an example script being attached to the gizmo properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473590719_631480369389918_9061693884799285476_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=RM1LI7-e-EEQ7kNvwGNm1kJ&_nc_oc=AdmepKXr_uL_1aoce90gjF9_blhiY8lFuT7Z9NqlWSu6lBLQISwpRRqEd7mXlHA4qGc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfgH2tyGhy2snD2wFMlghVsdswPib7-SghzW8HJrM398zQ&oe=69463BC3)
+![Screenshot shows an example script being attached to the gizmo properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473590719_631480369389918_9061693884799285476_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=X9UQKi5zhEUQ7kNvwF-WBtb&_nc_oc=AdnZx37S3EXVaj4SALIOYh8Vc0j7WsKYsYFMKYiBAf7s2RxMGQk9VAd-BLgufXzvCVo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AflzuBU8i9rnDFPYUY5Y5bbgGP5PweW5Ncpwhm2OKFl87w&oe=694BBA03)
 
 In addition to creating a UINode with View, you can also do it with “Text.” Below you will see a change from “**View**” to use “**Text**,” don’t forget to click enter while typing Text, to both autocomplete and auto-import Text from the UI API.
 
 Next, add the property “ **text: ‘Hello World!’** ” inside the curly braces. You will make this look pretty in the next section, but the gist is that the Text function takes a JSON Object parameter, the curly braces, commonly thought of as a bag of stuff, and requires one property to be filled out: “text.” There are a bunch of other properties in this “bag of stuff” that can be filled out and will be explored in the next step. You can then define the text as a string using single ticks: ‘Hello World!’.
 
-![Image shows an example script with the text: 'Hello World!' property](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473323077_631480339389921_3285744369286532959_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=cut0rPTITJIQ7kNvwFST-Kf&_nc_oc=AdnZw-SLpJGENK19Om_1Sw_cPsp1uOZothy2u3z8mMoKzFhkLEQwkkEDaHF9vZhS4zE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfibViCSb4HdB4ebNwTiSsx6OKGBFDAQwzZidZpHvLNpDA&oe=694646CC)
+![Image shows an example script with the text: 'Hello World!' property](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473323077_631480339389921_3285744369286532959_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ewi83Q2-2P4Q7kNvwGd7SZj&_nc_oc=AdkJUIHG3qpsD1Ol84ddsw6mYmvQofKVWsHOQrHxUylLUYqhS3Y5zQBhRA-FGaiZflA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_Afkz0_Pr2XwhbDLh7J65w_eteDAX45cSKQvovJwXCuJpbQ&oe=694BC50C)
 
 With that filled out, make sure to press Ctrl+S to save, and then you can return to Horizon, and press play on our world after compilation has finished (you’ll see compilation steps detailed on the console log, which only takes a few seconds).
 
 *Note: If you don’t see anything on the UI gizmo, you may need to rotate and look at the other side. Press F to focus the UI gizmo, then Alt+Left Click to rotate around it.*
 
-![Screenshot shows a world in desktop editor displaying the 'Hello World!' message](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473530862_631480296056592_8186256504370472838_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=IeJUFIu0OVYQ7kNvwGe43ia&_nc_oc=Adl_9jNgoKGajISydk8sp69SkRhZDttNDDr7ddQSHtVZM9Kd-62lxQ_yXIywslT79U4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afh7Y43Us1cGVmYD5uEweGsq6ABHiaICeKQRnNgB4YcmzQ&oe=69464366)
+![Screenshot shows a world in desktop editor displaying the 'Hello World!' message](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473530862_631480296056592_8186256504370472838_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=8IpY5l9li6oQ7kNvwGfrGMY&_nc_oc=Adn79-adGkaH_3buy_DMDXZD9pnBQWXE3u_kirxEIx0XWqSXK5E_O7vFuNu90r2ShIY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfndkO0o6CS4IiDEd7ffidvQo3aILDKjN-tzdPKGeGSY9Q&oe=694BC1A6)
 
 And just like that you have displayed your first message on a Custom UI gizmo, great work!
 
@@ -190,33 +190,33 @@ In the style properties, you are going to add a “borderColor,” and “border
 
 *Note: borderColor can be any color you like, make sure to autocomplete Color by clicking enter so that it is also imported. you are just using a simple red here, so technically you could just use “Color.red” and get the same result. But this, “new Color(1, 0, 0),” allows you to easily customize the color later if you decide you want to keep the border. The values are in the order RGB, with values ranging from 0 to 1, where 0 is no color, and 1 is 100%.*
 
-![Image shows a sample script with the border options highlighted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473759687_631480362723252_956441516191612248_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bSyxxOwmcf8Q7kNvwGGlJsU&_nc_oc=AdlGwkvyErx1aLE0UkhO8Djg2PrGiNhP7CBMkMUNjNi0FMFsgdgzPQljc2Q4qi93nEQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfjlNPdxKQbIWGdt1dSLZLeXezX7p7Jvi94bGNFzueK2ag&oe=69466125)
+![Image shows a sample script with the border options highlighted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473759687_631480362723252_956441516191612248_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=f_IuFxwnheYQ7kNvwG0ApWy&_nc_oc=Adnu1ic691yVftHOPu3QNboQ1SWzjmAS6nXPZrC1w-b8uAeX2gnEgcbFl0hh9D4UNyg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_Afkk8-cfMWxpiey2LFzzsLgpM2tPx3sEbIQLg6tm94skrA&oe=694BDF65)
 
 Now pressing “ctrl+s” to save, you can go back into Horizon and wait for compilation to complete, making sure to press the world start button at the top center of our screen.
 
 You might be surprised to see that our default text box stretches across the length but not the height of the gizmo. Later you will learn how to adjust the style properties to fill a percentage of the available space.
 
-![Image shows a highlighted 'Hello World' image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473630492_631480359389919_281062405271264325_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=iwCHmgK6a4sQ7kNvwH0DvUQ&_nc_oc=AdmZwBJVkteHrm_3jjuZFCy9SX1yyQsOcrwkdb8c7frbvtUNj9AbCd3Ri5H4qxCWVYU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afher1Hq9JApOaZgw5q_h7ItgQZUZsrJqu-hNRDaBte1xg&oe=69463F5C)
+![Image shows a highlighted 'Hello World' image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473630492_631480359389919_281062405271264325_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=1DhKUVR6i5sQ7kNvwEkr44Q&_nc_oc=AdlfteT9cJaAaTXVFtNI_maw_S5wPWJU5gXy8s0eAb0gtgR8qBvpPA1PnmMx8GdrV7U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfmShBfylXBfddL3ONtVgqSuJeFOTB8Y8I3cnrYUFvlbBQ&oe=694BBD9C)
 
 Before you do that though, you need to learn about children- UIChildren. UIChildren can either be a single UINode or an array of UINodes. It hasn’t been super clear, but both “Text” and “View” return UINodes. You may remember the initializeUI method must return a UINode, which you first created using View and then changed to Text. Both of these tell the UI gizmo what to render. But it only takes a single UINode. What if you want to render multiple? That is where children come in.
 
 The “View” JSON Object from earlier has a property not available on Text called “children” where you can then use square brackets to create an array. In the example below you will see several text objects nested inside the square brackets, and at the bottom the style being applied to the group of children.
 
-![Image shows an extended sample script with nested objects that have applied styles](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473527386_631480332723255_1020087181007245061_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=V1bLSWZwoL0Q7kNvwG4apyB&_nc_oc=Adm2EBJYj153-QXP7GyMwsaqJLLeCY0jAbNb1QWqX8dyhpkxGmw109c7Gg8Mn7iwrbA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfjApIeOczeSN1WayBJvwCKcOVqj2mxfXQpV8tPKz_orXw&oe=69463BD0)
+![Image shows an extended sample script with nested objects that have applied styles](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473527386_631480332723255_1020087181007245061_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=5DVxX2-SeZYQ7kNvwHZPbXd&_nc_oc=Adn0UlH3fGt0gZzLhEbVkYdExIz6QpKSbcebb7Bssc0luuGQdlOTOzTMwmSuit7gqhw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_Afn2EbLprYdkWbqYAfhViFM4PEi7-xNWOydBx4Z9g1eXMA&oe=694BBA10)
 
 If you would like to continue following along, please adjust your previous initializeUI method to match the one above. This takes a bit of work, copy and paste can help, but a missing comma, or line off just slightly could cause an error. My recommendation is to move “Text” down and create a new View as seen below.
 
-![Image shows a new view after the "text" field](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473449481_631480329389922_5747572748883123818_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=QGlTOCijMaUQ7kNvwHJx8DN&_nc_oc=Adl6ko0yhhJV2Oe4iyZ3tVkdHSx_mldT_MwQ33BVp0EZ6J0ql0Qpv9FzIotr88GLd94&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfgXTQ-cGKJf6eJJSZO5eYivwU9PhxRhdvskRjckAyae4Q&oe=694642C9)
+![Image shows a new view after the "text" field](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473449481_631480329389922_5747572748883123818_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=CVOGNYIxYDMQ7kNvwGcAFWp&_nc_oc=AdnRMmO4n-Ha-qNXj7lxqY01gLn3JO3WC4L6-edQbD-bPplUZAZqwzc8vWEKJ8sURHU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfkaOEqi6qvyxh-pVoB8FCv6cztW2eJkCplXw2VsWuEf9Q&oe=694BC109)
 
 You can then cut and paste the Text into the children’s square brackets. Make sure to convert the semicolon to a comma as seen on line 16. You can then copy and paste another copy below this to match the screenshot earlier and adjust each style to have a unique color.
 
-![Image shows text being pasted back into the sample script as per the instructions](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473453125_631480356056586_2449452631674760424_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Es23i-K0H8YQ7kNvwHn_kx-&_nc_oc=AdlwKscP32MLHE7yj1wF5TC4yur4FErFkhLoXUFfGxlBNdwRQKLrBpeEVOftM3CMA0A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afg34Ysv1AsvvWjvFKqvaOvgXz6IRnb0Mg25dvYfiU2mSw&oe=694661B5)
+![Image shows text being pasted back into the sample script as per the instructions](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473453125_631480356056586_2449452631674760424_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=poii1xm_rwYQ7kNvwG9mCE9&_nc_oc=AdmBtUgMKcOh3Fhjdh2GP7gVlpfc_5RPTKyBJrdnbNy1e46ZRBw-N-OWt2ykEp69p4A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_Afn6JTnVsc03tQwVs07pxGaImuGAOyVDAeYHT6mQ1lXiPA&oe=694BDFF5)
 
 As you might imagine this can get crazy very quickly with so much nesting. There are a couple of tricks you will look at later that can help improve the readability and condense the initializeUI method down some. But first let’s see how these boxes in boxes look by saving, compiling, and starting our world.
 
 As you can see, they are stacked by default. Thinking back to our cardboard box analogy you will notice that because our width is set to 2 pixels, the red border shrinks the space available by 2 pixels. When you delete these two style lines in the future the two Text children will reclaim the space.
 
-![Screenshot shows 2 hello world messages displayed, with color borders](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473248041_631480279389927_1224305611724849647_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=T5PAhbSZMK0Q7kNvwFQbAgS&_nc_oc=AdnQgsp5Zj7DQxB67OtzacYw7H0PzNdkC7C3qGTti2AkfPtPwvqOSxiCsoYZhrMEajM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfjD2lK5szAAcyF1MdcH6xc6oJjuderDLXbJJVg5u0MLGA&oe=69464396)
+![Screenshot shows 2 hello world messages displayed, with color borders](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473248041_631480279389927_1224305611724849647_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=cEBtt5A7ZlMQ7kNvwHeCeb3&_nc_oc=AdmC0xXirfGqy4Pgtxi8WIumjeCJ_csOi5Y2kUhogYTjI_3vukw8cyzD-Ua5wUgRkek&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfnXHOWqwf9p4P2CbRWw82R6zsTuOmMKUAXsxcx_mCBfXA&oe=694BC1D6)
 
 In the next section, you are going to explore more of the style options and learn how to better organize our styles.
 
@@ -224,13 +224,13 @@ In the next section, you are going to explore more of the style options and lear
 
 Start by creating a new script to store various styles, **CUI\_Styles\_Data**. Press enter on your keyboard to create the script.
 
-![Image shows a user creating a CUI_Styles_Data script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473536317_631480326056589_5069739203234681704_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=hK6yw8JBmBQQ7kNvwHJJcx3&_nc_oc=Adk17MdbOgpFzGMzZ4T7XjBh6X694bLwlKCJFLP4kxY3c_RPB97H3CDGLJn_GPAHAA4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afi48HJXKyfownhxPcM6rTP_ZEPScXCL_hr3DAgQi2N-3Q&oe=6946551D)
+![Image shows a user creating a CUI_Styles_Data script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473536317_631480326056589_5069739203234681704_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=T87Scc2OufcQ7kNvwE2KkxQ&_nc_oc=AdmJmQpXUS6dkS9kGu0wgGpt3GtTUEW4DSM0OAH-_HeaTMPrk1obACQWUu9QrX3V0NQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AflJlXFsF29pBjoLUJMZTS6y8xZ75O6mhlBjFV4E5Gk1vA&oe=694BD35D)
 
 Once you have the new script you can click the three-dot icon, “**open in external editor**.” Alternatively back in VS Code, if you click the top left files icon, it will expand and show you all of your scripts. You can click on the newly created .ts file, and optionally close the file browser.
 
 After loading the script, delete all the defaults. A shortcut to use is, “ctrl+a” to select all, and then backspace.
 
-![Image shows a script with all of the defaults deleted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473364465_631480282723260_2627229903712946738_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=rIw9kD3UGlkQ7kNvwHC-MJQ&_nc_oc=AdmcFD7rKVNkEQ2ET0YW_VjxJ-P3eojBgj6uCF-nXbBe-AuDtSj4g9ug6Oi4hxS1fGA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfjyRp39u4hCYH4kkK2h6h1Sdvog6pH2Jj1eJKOkaMMxcg&oe=694638BB)
+![Image shows a script with all of the defaults deleted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473364465_631480282723260_2627229903712946738_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=lUQDC6jANCgQ7kNvwHyeQO5&_nc_oc=AdlnWdpxBeWOK20GZCDBt-7qcTSOd9EaSGvi9C1DzTfBTMuE9bLjeeal4dw4U4gzWq4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfkSi3NfYDQAG6oxfvaKD6I2C6_5rMxe6ig-upL7laE7Uw&oe=694BB6FB)
 
 The idea of this script is to be a place you can store and modify our styles so it doesn’t clutter our initializeUI method. You could have multiple files like this, one for each UI gizmo, but instead you can create a folder structure by nesting JSON Objects, with each nested Object storing the styles for a specific UI gizmo. You’ll see this in practice from lines 14 to 19 in the screenshot below. You start by exporting a const Object named cuiStylesData, which allows us to import this data in any of our scripts. Then inside the curly braces you have another Object on line 15 named “test” matching the name of our UI gizmo’s script.
 
@@ -240,19 +240,19 @@ Above on lines 3 and 8 you create two new constants. One is a TextStyle, this al
 
 Inside these styles you are introducing two new properties, “width,” and “height.” This allows us to specify what percentage of the available space in the parent UINode you want to occupy. You can use a number to specify pixels, but I highly encourage adopting percentages for everything except ScrollView where you can specify the amount that can be scrolled as a number in pixels.
 
-![Image shows an example style script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473442498_631480319389923_7473526534380015109_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=9sziFwVGZeUQ7kNvwH6u6z4&_nc_oc=Admd8yX9kmGlpQ26yQQa_7vtg9LQ4lnGJ42aAzmqtG6xCmfBHOkJXBUK8Oy_K-bOwpg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfiBdYG2KOa38LZ6dxrJRW0tEqpgp9Pe-Td05dmFYEOVqA&oe=69464EE4)
+![Image shows an example style script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473442498_631480319389923_7473526534380015109_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=L2eopvIcBGEQ7kNvwEwzLrz&_nc_oc=Adljt5Xo48v_bvaqH0OXlD6HZLqiKm-lY1cN9o6pG1SWVnHNZZo6O7_m8QeLvaNs1Ks&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_Afl68iY93YTbmktmmiE3OQ4M_mlobHe-qze-ty2qeh__Sw&oe=694BCD24)
 
 Back in our CUI\_Test\_Entity script, let’s apply this to our View’s style. Below borderWidth you start with an ellipses, “...” which is the spread operator, and then import our cuiStylesData Object by clicking enter as you type it out. Then when you type period at the end you get a drop-down list and can select “test.view.” What you have done is spread the contents of the ViewStyle “view” to be included in our style’s properties.
 
-![Image shows a viewstyle view for the example script](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473439276_631480322723256_2003121008108723121_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RS9UiAE2PdUQ7kNvwEfw7sJ&_nc_oc=AdlyoEyzF-3Q21uHjX8ukH8iZaloGPu1AyYR03UmHpjf6rMLkpXzI3Z18GFTvVSN6Rs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfiIeUSkX7NWFwMlPR_-2_f_udRIQ-6GnyH8jaewRsYzIg&oe=694644DA)
+![Image shows a viewstyle view for the example script](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473439276_631480322723256_2003121008108723121_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=JOxCoIoa0wMQ7kNvwGcb_Pt&_nc_oc=AdloxusJQKSAx_MZsZRZV_WZPTOTeFHQ2_4DUgajY8GVqz6RgysK3z4CykgtmTSx-hQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfloqdaMBB79rgW1wt1tq2-_aupYEg8hZAF0_IxVZ-1QzQ&oe=694BC31A)
 
 Now you can do the same thing to our “Text” children. I recommend putting the data to be spread at the top of our style, because if you write a property that was spread above, it is overwritten by the later one below.
 
-![Image shows code as per the previous instructions](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473442399_631480352723253_1648226294578166336_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=8Ubd0tLGOVAQ7kNvwH_ZOgX&_nc_oc=Adni3QJ5kEtluUdamHe_gLUhVEP25zWh_McGklNo30Tn4Yl1eTVv293yMPRttBnRWgU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afi_n763WaPJNFn1UAjCcxkNYdtgWjMRKlct2lSs-_7mqA&oe=69465B5E)
+![Image shows code as per the previous instructions](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473442399_631480352723253_1648226294578166336_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=pST6BRxNjeYQ7kNvwFKd0Lk&_nc_oc=AdnXS3LqSxlbABh1RIl8mxKwztQV-sKhSMnOaPyqmHorp9k9Hq9PYfU7qTX-M5emOeg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfngLWf-pGG6-nzgTS45y9hYJIdFsnyoEV9D_FRl0xZzxg&oe=694BD99E)
 
 Saving and compiling back in Horizon, you can now realize our dream of boxes in boxes!
 
-![Screenshot displays a world with text boxes in boxes](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473801216_631480286056593_8304832575925416005_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=IN-lkJzG3hoQ7kNvwEc112k&_nc_oc=AdkBAVM1G8C-eyvX-WM8K1fTxl9uWXVOXa8dHtoRECGRQ3N39JX5cInBUsz17ohJljU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afhfu3u7EeW8jHP02VMjmsTEFpa1d44QtEMrfCerJvU2Nw&oe=694639FC)
+![Screenshot displays a world with text boxes in boxes](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473801216_631480286056593_8304832575925416005_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=fMKQA3zu8mMQ7kNvwEu576R&_nc_oc=Adm_H104NddF_v4WlnxdJSxsLuFq7Xhot_6igU8qS3pCZok5cEk5Gmd3gPAxefzxmns&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfkR3J0XX-zQrfd6o0L2y16yxY-dvN5fYMGZVkp93gbCyQ&oe=694BB83C)
 
 Next, you are going to look at bindings, which are used to update the UI.
 
@@ -266,25 +266,25 @@ Let’s start by looking at how to create a couple of bindings inside our compon
 
 *Note: You cannot access the values of these bindings elsewhere, they are just for the CUI to read, if you need access to the current value, it is recommended to have a secondary variable to store the current value.*
 
-![Image shows example bindings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473788371_631480346056587_3758836557906571406_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=0ynArGFKt44Q7kNvwEvEhli&_nc_oc=AdldtiEpjlBQNczm42dv4z5TyDVcRasS5QKPWrrcWvswoVO8JP5FAzkdxUzc0RrYtVM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfhJGySyo6Lg0pxxL_ANx2bXOgcdO8IvqVQ2kRDcI8D2kw&oe=69465B6A)
+![Image shows example bindings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473788371_631480346056587_3758836557906571406_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=fGbzg0sAFQQQ7kNvwFkIn0B&_nc_oc=AdnAgemkpe-NVuB1xkyXs_3veA95cht5qtkIOMSd4va-TYBoXEGy-vsHg6BCZ8Pq6yY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AflDPmolYBg1eD1bVpnhy74wZ41fF0A15wfPmkSxtI4Bmg&oe=694BD9AA)
 
 When a player enters the world, you can set the **nameBinding** using .set, the second parameter “[player]” is optional. This optional parameter allows us to specify a list of players who will receive the binding update. In this case, you only want the player who entered the world to see their name. The square brackets create an array, and you place the “player” inside. When this list parameter is not specified, it defaults to updating the bindings for all players.
 
-![Code snippet shows the optional 'player' parameter](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473450918_631480349389920_6846511320562073639_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=xtOiPoMAEkQQ7kNvwEWtRf-&_nc_oc=AdkvOAeQsNmjia0KL2h7UAwyqFt1AZlv56eJfS0IkT85ebYFhB1uEw_y18LnmMmoIdQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afi5UrqZOZVEddOV9uCUOl0kaQ0-xmw2hN5PiqfeyCTqgg&oe=69465682)
+![Code snippet shows the optional 'player' parameter](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473450918_631480349389920_6846511320562073639_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=7Tjb_2uOwvYQ7kNvwGKYH6S&_nc_oc=AdlatQf_ub5ZScfrh5SjT8Jq3riqooflbodU_g5unVvFtwgREv0JNgVwIL5vjgvNo_Q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_Afn2sSP9L9lzNSVK3TZT3sNXpwTMGBeoFVbhF2NPztRPOQ&oe=694BD4C2)
 
 To use this binding you just have to place it after the text property, ie: “**text: this.nameBinding**,” but then you would just have their name, for additional text, you can use derive. Below you can see that when you derive the binding, you get the name and using an arrow function, you can return a string.
 
 *Note: “\n” is a line break and is the same as “`<br>`” on a Text Gizmo.*
 
-![Code snippet shows an arrow function used to return a string as described previously](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/473534069_631480312723257_8695516344311955994_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=78OQL4ARHTMQ7kNvwF4rs8a&_nc_oc=Adk0TLY2kXDL0M8cbmoTqaf0pUr8fl2PKbXZPeMZt_6ZJmZ69reBoO8mfkUf5dlPHKg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afi5zlQbHQlU_2H2MC8FR0plHkGiSm_1tMJhzLk7Q7VJBw&oe=694636B2)
+![Code snippet shows an arrow function used to return a string as described previously](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/473534069_631480312723257_8695516344311955994_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=KL05_H1CxUIQ7kNvwF52DPy&_nc_oc=AdmPCKmapOT43bFujBo9eHlTfeDn-Fpg5Kt06myEeEiVpEQgaUwVVjrCFnIUdDAftLM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AflQMVOKv3F7QvJnWcBful5-2TbF2F8mniHoLBG_FOc7Nw&oe=694BB4F2)
 
 There is also .reset(), which “resets the player-specific value of the binding, if any, back to the global value.” You can also provide an array of players if you just want to reset some players.
 
-![Code snippet shows .reset() being used](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473440370_631480309389924_3803244681385835232_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=f4xgnkVaveIQ7kNvwG-l87e&_nc_oc=Adm8PDftAMbAlVdGxOe7pkIOCVrckkXJ0BmekUo9_XIVMsL0JoveXEv_SGbOMhwgpVs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afi2VBygGlyB7-MxfSZR55ejcDPUNwnFbBiXenqDSNrTOA&oe=69466004)
+![Code snippet shows .reset() being used](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473440370_631480309389924_3803244681385835232_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=XRNKtPzkMEkQ7kNvwHNX_1y&_nc_oc=AdkEMjhsd4rzVoJuP4jS5dKyT0LnQPdbSUgKM9Q31P--wTVdJmWjuZUIk78BO9CuMsM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfkDxGMXAO01PYt8eM7OB2glD-Gu0d1vo68CgPyPpuic7g&oe=694BDE44)
 
 You can also use a map function to set the value of a binding, here is a screenshot of the example given here: <https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui>
 
-![Image shows bindings for multiple players](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473442035_631480289389926_4182927293809331075_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=apXh2Sidkt0Q7kNvwGKHqkC&_nc_oc=AdkczYBT-dkuxbpnSP_y9QS-qO1582KflEuALNLi4Jw-dDjRqfg6dLaV02szbTkIuKo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afjv22aC3rO-Qq2jsLQXWLUHEDywyh_HvuCl1PbEaAKZ4g&oe=694656B9)
+![Image shows bindings for multiple players](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473442035_631480289389926_4182927293809331075_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=BUVQ1b33tEwQ7kNvwGy9gJT&_nc_oc=AdlXUth-r9vNY8jGuZg5spvP0LqTm0_9OImtIm-oJUocts-x6W6wfLS_QUbR0Nd_R1Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AfkpnF5IE8R5lzAecQ2vzDPjEVpmXmlaxAAXTILvR_WmgQ&oe=694BD4F9)
 
 Next, you are going to look at and discuss various examples that you’ll be able to take apart and try on your own.
 
@@ -294,13 +294,13 @@ In this example, you display an image png asset, which is uploaded to your asset
 
 **Mentor’s Note:***I don’t like to use the “!” seen on line 13, but it is the easiest way to get this setup and working, otherwise you have to use an image binding and check that the bgImage is not undefined. Be aware that doing it this way will break if your asset is not referenced on the properties panel.*
 
-![Image shows code snippet for including a background image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473691452_631480292723259_8863074035084342711_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Wyz4vG6wRDgQ7kNvwE_qxcH&_nc_oc=AdlMO-3Xw7-TgAjmYtiTsKVfqTzetS4INsie42JElK3EKaNH4WwPks2tFPuHturAysE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afif1scZfKHy519aayPHZm6iyT3f8p14_UdI7LV3CFhNpA&oe=694641B2)
+![Image shows code snippet for including a background image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473691452_631480292723259_8863074035084342711_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=17_kIYGKR7UQ7kNvwH8ICIg&_nc_oc=AdnmUX9tgBHi6YI2XJ-evHtKYtwe7c3f3z0dGke3qQ-iVKWpDkwWDI_7fp6WcV9cVHY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_AflysbjJERnOPQvga85VZDY8stVABMYLftHknWXMWUiAQA&oe=694BBFF2)
 
 ## Instruction Board Example
 
 This example shows how you can have multiple images, and when a user presses back or next buttons it changes to the next image.
 
-![Image shows code snippet for an instruction board](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473299682_631480342723254_5406964871793628909_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=kZOpShy7S8AQ7kNvwHJ-Zvn&_nc_oc=AdmfCaw8rPpQAE8ayzg2oXda0XU2P_cwIL0D3scqU_4Qq0tD_0Bz_s5WBiJ6chsRfa4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_Afg0mfgk8F9rcwgfiTG4IGVnmuav1-Pvj9me5WABUVyeUQ&oe=69462E17)
+![Image shows code snippet for an instruction board](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473299682_631480342723254_5406964871793628909_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=3cmVdawnFLsQ7kNvwF9qLQh&_nc_oc=Adkv3hHeOePgHOYCoaf2c3EEG68W4EGCpI308AgM1mZnXRQF2bghbhiUnB1ONnMr_pA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_Afmo9X2G5OIRxQB7u7yHbFfuyh45dRAnBkAWE0ocMjjxSQ&oe=694BE497)
 
 ## ScrollView Example
 
@@ -308,7 +308,7 @@ This example shows how to implement a ScrollView. It is relatively simple. Most 
 
 *Note: At the time of writing you may need to go into VR to see it work, or preview the build on XS before it will start working in the Desktop editor. So if it doesn’t seem to work at first don’t worry, just try it from another device.*
 
-![Image shows code snippet for implementing the scrollview](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473533283_631480336056588_431901923760677626_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ptrb4md-dTYQ7kNvwGTM6RK&_nc_oc=AdnRgxRFNvYaQfoD60HtlPt9kkv9wkpYney4CqG7OA2ehB3BaG-mb7xmouiQLe1bkFg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PuVwg_8JjG0byp2diMitqg&oh=00_AfiBeWuAOEsrN76p_sOVr7SX5fHI17p23rkYinM55y2oWg&oe=69464C98)
+![Image shows code snippet for implementing the scrollview](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473533283_631480336056588_431901923760677626_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=9NPtW0Iz3cgQ7kNvwEct8Vg&_nc_oc=AdlWOO6a7Q1FInYjcg2dt-Lz08AhgnyrPHQywKz1sNcLOCL4Zj7VpzntTpOmRoFrxHQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QeWijONS-d5AMc6V2t6SlA&oh=00_Afl67gSnzgQDijNlPlwk2LdNJtLNZz9V7FY_i3i6y0I9mA&oe=694BCAD8)
 
 ## Thank You!
 

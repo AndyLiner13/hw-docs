@@ -6,7 +6,7 @@ TypeScript can programmatically update an Entity’s visibility to players. It c
 
 ## Checking entity visibility
 
-To check if an Entity is visible to a specific player in a world instance, call the `isVisibleToPlayer()` method on the `Entity` object. For details, see the [Entity.isVisibleToPlayer method](/hw-docs/Reference/core/Classes/Entity.md) in the API reference documentation.
+To check if an Entity is visible to a specific player in a world instance, call the `isVisibleToPlayer()` method on the `Entity` object. For details, see the [Entity.isVisibleToPlayer method](/hw-docs/Reference/core/Classes/Entity.md#isvisibletoplayer) in the API reference documentation.
 
 ## Updating entity visibility
 
@@ -14,8 +14,8 @@ You can set Entity visibility with the `setVisibleToPlayers` and `resetVisibilit
 
 For details, see the following API reference topics:
 
-* [Entity.setVisibleToPlayers method](/hw-docs/Reference/core/Classes/Entity.md)
-* [Entity.resetVisibilityForPlayers method](/hw-docs/Reference/core/Classes/Entity.md)
+* [Entity.setVisibleToPlayers method](/hw-docs/Reference/core/Classes/Entity.md#setvisibletoplayers)
+* [Entity.resetVisibilityForPlayers method](/hw-docs/Reference/core/Classes/Entity.md#resetvisibilityforplayers)
 
 ## Example code
 

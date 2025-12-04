@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_defaultf
 
 # DefaultFindEntitiesOptions Variable
 
-Default ptions for the [World.findEntities()](/hw-docs/Reference/core/Classes/World.md) method.
+Default ptions for the [World.findEntities()](/hw-docs/Reference/core/Classes/World.md#findentities) method.
 
 ## Signature
 

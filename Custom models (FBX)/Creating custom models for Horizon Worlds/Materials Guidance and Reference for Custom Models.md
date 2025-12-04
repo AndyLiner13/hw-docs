@@ -52,7 +52,7 @@ Using two textures gives control over more of the PBR properties.
 
 ### Unlit Materials
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746741_512510151286941_7543427180543090042_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=4G5WaBlqJjMQ7kNvwENGgxT&_nc_oc=AdmT5wfibcWsafG8MhmekcnK9fTwWqJ7yUntXZ5E77Xt_mZq_s8kUB5MvItgtPhCXW4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y4QyAHFYQdrZq8OMwSAdZA&oh=00_Afg86TaWIJKexfKVs3k9O4-REvhV28Do3Q8rvnCwuiz50Q&oe=69313EFB)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746741_512510151286941_7543427180543090042_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=emt0V1gWwAAQ7kNvwFYxEiA&_nc_oc=Adkf3ZffGnGTpZousXyBZNMj1nE6rHSdnAAhoeeIsbTSa7ndXbh559wsHf7BBn47nQU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_Afnfj-etocGcM3NIW9JBTiPHDDKkCbN-QuNXpielg8hldw&oe=694BD53B)
 
 Materials that do not receive or cast lighting or shading are considered unlit. The material name in the FBX must end in “\_Unlit”. Any extra channels, such as the fourth channel, are discarded.
 
@@ -64,7 +64,7 @@ Materials that do not receive or cast lighting or shading are considered unlit. 
 
 ### Unlit Blend Materials
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452955733_512510171286939_5181638036183860130_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=vCmOYam1V5UQ7kNvwERxVDu&_nc_oc=AdkYIa_1a3EKnYhw9Kajg6faWn0NqksP44v8Uba3If0gAcLQz8vN_H_NKLXu16P3PNw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y4QyAHFYQdrZq8OMwSAdZA&oh=00_Afh_-njAyByOt73X8KcrCS5_tUZdkwlXA9knViLwqG5n6g&oe=69312F77)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452955733_512510171286939_5181638036183860130_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=cCwYpLcIJtMQ7kNvwGvx75C&_nc_oc=Adl9rr8dreg9q0OjUU-LPLqpJVsIv85OxtImJJWQDsJDd2nLy8OWHXV5qx5vTkgcLTo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfkomenHcA696yPgJUKm7yKkAhQarnfdaIeQ9VO40r4S_w&oe=694BC5B7)
 
 Blended materials that do not receive or cast lighting or shading are considered blended and unlit. The material name in the FBX must end in “\_Blend”. Unlit blended materials do not have any specular or reflection properties.
 
@@ -76,7 +76,7 @@ Blended materials that do not receive or cast lighting or shading are considered
 
 ### Transparent Materials
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522449_512510154620274_2357687186968881662_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=77Jd6WtaQmoQ7kNvwHpc4I_&_nc_oc=AdmKVT4Xi8P1yJdtx37VwPzUFJ8tfbyiDYmfQ39Q9vuM4iaPxDhn64dlgw8JvpOYQPw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Y4QyAHFYQdrZq8OMwSAdZA&oh=00_AfhTX-0tx_2OHl3bQOUEVka69km5Lq7CkGHfnqIY7S44xA&oe=693137F8)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522449_512510154620274_2357687186968881662_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=wy9N_le8_EsQ7kNvwGJMQe1&_nc_oc=Adnh2ANVRiLCZV1Cku6C1j5To6OGHUaCivoE2NtMHjdIWs1tnW6v_4rJFGzHuGUwL30&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_Afno8dD2e7oWEjFNy6gzRowdwbgxZ6cXfegMNfCn9_sdQg&oe=694BCE38)
 
 Transparent materials allow light to pass through. A specular channel is used, which modulates specular and reflection amounts. Using two textures gives control over more of the PBR properties. Material name in FBX must end in “\_Transparent”
 
@@ -89,7 +89,7 @@ Transparent materials allow light to pass through. A specular channel is used, w
 
 ### Masked Materials
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452635163_512510161286940_8652445767142113425_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=r1x8FMdTkDEQ7kNvwGmGpR0&_nc_oc=AdmQ2iKthTW8OpYMt3E2-45UwQ8eRYr0hzrZYuCMis923-f7srFa_Z1iVeQ94GfGVn4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y4QyAHFYQdrZq8OMwSAdZA&oh=00_Afj10hp3rb7DIp4sE2296HCAsGdeBBsRs_tEKf0IfaBqxw&oe=693129C2)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452635163_512510161286940_8652445767142113425_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=u66wlI2O6KsQ7kNvwGQ_ayY&_nc_oc=AdmsPDFvZ01o1md5dd-vesk6qXKh6bSx69oJGAn-5I55NU9WzyfWQxdaGlnXp8bn4GY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfmG5lhCMlWWLfXVJLaNfe_qaUqzoyhrT2AvcaDFnwd3zg&oe=694BC002)
 
 Masked materials are used for controlling the mixing of two textures. The material does respond to specular and roughness properties, but is considered fully rough; i.e., roughness = 1. The A channel of the texture drives the alpha, where white is opaque and black is clear. Alpha cutout happens at 0.5 (matching the default for GLTF 2.0 and Unity). Material names in FBX must end in “\_Masked”.
 
@@ -101,11 +101,11 @@ Masked materials are used for controlling the mixing of two textures. The materi
 
 Also supported is a “masked vertex color” material. In this case, the **BaseColor** texture is multiplied with the mesh’s vertex color. Material names in FBX must end in “\_MaskedVXM”.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/539055655_798794379325182_7362778889624657389_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=NO45Ryi5MHcQ7kNvwHC-dj8&_nc_oc=AdlLPcCh1peCds1E7kX0cbpJ7P68rGPpG5cVArzC9p8ciSdefSiAUgunlskBSJReslQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Y4QyAHFYQdrZq8OMwSAdZA&oh=00_AfjRmNcnKssCFLlmxuqwpmMDSPzNa72QWDWOvbrB8CnKwg&oe=6931162A)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/539055655_798794379325182_7362778889624657389_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ld-TG0xyKoMQ7kNvwExhwK9&_nc_oc=AdlRjnFpvvPYjw6r2Huunb0YjGAVyfyVC3ul0SRbY1TkjMeNJMXVeyuiCGZoqP98qOY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfmYzggYI7ZhGoifgrJtd1bD59UggVzaKVUFHkv6Hc_Q9Q&oe=694BE4AA)
 
 ### Vertex Color PBR
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452846268_512510174620272_2366064968037736374_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=cn4yr7I6yuIQ7kNvwE7Q3rw&_nc_oc=AdkqYBBMYBPBCFWK7FdabKyUVKt0uzdOGqvGvdnIGLZfwudSPhXEJhP56UQ8LQzq6nA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Y4QyAHFYQdrZq8OMwSAdZA&oh=00_AfhBYO-MZnoh35sd-SFWeq7MWIxrn07gjYxdKBIaJDBPrg&oe=69311783)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452846268_512510174620272_2366064968037736374_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=gS4tkJeaewYQ7kNvwGWSkp9&_nc_oc=Adm_WM9M1ovvakvZqbgarG-Z3IA4q7N6sPfLguez8TDc3zez4Iuwe1y1mAJf5233RBE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AflaqF4yIJB34jByGw8sKdUHzCBBZHy0PpF7-nYWz-_Sjg&oe=694BE603)
 
 Vertex colors are RGBA values that are applied directly to mesh vertices. They do not contain any textures. You can use vertex color for:
 
@@ -117,7 +117,7 @@ A material name in the FBX must end in “\_VXC”.
 
 ### Vertex Color Single-Texture PBR
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522576_512510164620273_7391129338506219413_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=IBe3wQZRtD4Q7kNvwFwRnTB&_nc_oc=AdkW4bmg2iDwG882lzMzad4wyIBVXHIPgcvxwbp031uDgUTS6IMYy6VHE7tqzBhRZcs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Y4QyAHFYQdrZq8OMwSAdZA&oh=00_Afi9j2X6foWz86owOOzNX7KrAzUmKJRgebhJrKPMF6gI5g&oe=69312D22)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522576_512510164620273_7391129338506219413_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=dU1HZtdPwOsQ7kNvwHgn_hN&_nc_oc=AdkjmBH0rkPc2js0-c7oKPdKpkwu82jQQ5TL2d3H4kJNuvhzMoljZ5P-hdUlQ5WycM0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfnOezODy4ets2rjBjZVx_2VwZOV5rJVqVNfSaPaVmlMrw&oe=694BC362)
 
 Vertex colors are RGBA values that are applied directly to mesh vertices and then multiplied with a texture **BaseColor** as input to both GI and shading. You can use vertex color for:
 
@@ -149,7 +149,7 @@ Material names in FBX must end in “\_VXM”.
 
 ### UI Optimized Materials
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452541679_512510181286938_784385883995309106_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=GpH-iE5nNxwQ7kNvwFpzDly&_nc_oc=AdmHswgdOkGdWjKzBf-6E4H8mTdkI7zVrgdOd6GyvYEKgxMTFooxFyAK6qMJ-e3J_dE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Y4QyAHFYQdrZq8OMwSAdZA&oh=00_Afj12JE1XrJdb2x1vn5QwNxbH0_77Nyc2G7O1OEUMBnGAA&oe=693123F3)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452541679_512510181286938_784385883995309106_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=7Ia4TafptdkQ7kNvwGdQtCR&_nc_oc=AdmGN9pBtSgq_BvFTFSOFR3YEGZPpz_d1GVKhQdde7YiGECCycv7HSVtAcAVncqpqyw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfmiM72P_VZGzvKiwFzaoQrEK4oBAmIY3Oxbhu9ElY2hTg&oe=694BBA33)
 
 UI Optimized Materials are optimized to provide better quality UI elements (e.g. text, icon) when displayed. These textures are unlit and do not receive or cast lighting or shading.
 

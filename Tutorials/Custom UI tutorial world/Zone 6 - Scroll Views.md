@@ -16,7 +16,7 @@ This demo illustrates a text panel that can display large amounts of text in a s
 
 #### ScrollText Properties
 
-![ScrollText Properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/550063755_817392034132083_2699501986451496552_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=PnlsvH-4gDcQ7kNvwExjSP3&_nc_oc=AdmZTkVa7A_VsOiB9rzQxS0s9Zg3uuhVVSPN2ZjmSHY7PWY6KJpm4SMG92L8lh2QoRI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ovbLF2tXpMfOPrvdZwQF9A&oh=00_Afhcqdz87CLleNzwSzDjByJ94O58Q7YhRXzZIFKDcSoQoQ&oe=6946572C)
+![ScrollText Properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/550063755_817392034132083_2699501986451496552_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=k7W1roA_y2gQ7kNvwGsWOYK&_nc_oc=AdkkpEhzDcIfSyco0UZ9CUEnV-cmKCWsIKP3kJkQWzEq97sjiShmosewzSKhPislCPU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YuLiosZ0MWwziVKdVABKPw&oh=00_AflvBUg-GISJeCitPwyq1dtLlUKak5E3Sh9Oq_SKdYzhEA&oe=694BD56C)
 
 * **`text`**: A string containing the default text to be displayed.
 * **`theme`**: A number to select a predefined color theme for the UI panel.

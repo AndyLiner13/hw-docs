@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 The new Social Following feature enables Horizon World creators to seamlessly connect and promote their Instagram and Horizon profiles to their Worlds. This allows visitors to easily follow creators’ social accounts directly from within Horizon Worlds, reducing friction and enhancing creator engagement.
 
-![Social Following Asset Template in editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/563443649_837715312099755_5519017558597424000_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=G08BNcT1rKcQ7kNvwHNlbii&_nc_oc=AdnOVq_f-gQmbRBNtVyEpYL5TPOifAM4HBGNabxAyUqcQTDeqxfUtAqDQjZSKPMFHlw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EHEoDAsZvLIOszMXEmTMyg&oh=00_AfiLbJBl8rBXmFg7rLCvqSi9GsoVawZEA2a18ZQRBvO6Qw&oe=69311348)
+![Social Following Asset Template in editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/563443649_837715312099755_5519017558597424000_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ri59DEYQJ00Q7kNvwHPvVkt&_nc_oc=AdmKoRYjochKkdRrpvRPypjME_JzQJXgB3Qxmz3Xe-TfDDGerjwnHLQ08ftvFGykAOo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6TC2TuSuyk-Hl6ki7taNPQ&oh=00_AfkfgNhH29eZ-7brnfmqEwz5MUwvdcuhN-uR9DJynrHW0A&oe=694BE1C8)
 
 ## Key benefits
 
@@ -39,7 +39,7 @@ You can add social handles to your World using the Social Following asset templa
 - Enter your Instagram handles and/or Horizon profiles in the asset configuration.
 - Save and publish your World.
 
-![Social Following Asset Template in editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/565120812_837715315433088_2479173747082082933_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=aGij0q5QOJwQ7kNvwG-ryn4&_nc_oc=AdmqzK1tDnJO8L5q4RVbSYycvrAj_DKWzPOxyTtQLWD2oDXnuV5EpU_qHATYStY4z28&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=EHEoDAsZvLIOszMXEmTMyg&oh=00_AfgqP7ZtB_nGUgnQIJvgHOYcW7csum-zaYpFARu_3SOPtw&oe=69313334)
+![Social Following Asset Template in editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/565120812_837715315433088_2479173747082082933_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=hETK3UgaQ3AQ7kNvwGTdzEl&_nc_oc=AdmHtZbBV3vjLBwMI8iHwaMr4BTccMtN8iwDh69hQwycNaly8je_jF3lPuZHsqgbfS4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6TC2TuSuyk-Hl6ki7taNPQ&oh=00_Aflx2BdWAX2pxHlEfCLDOHzNhZjuclhTez7RSFj2lzdH0w&oe=694BC974)
 
 Once added, the asset template appears as a standardized UI element in your World. Users can view your linked social accounts and follow you with a single click.
 
@@ -83,7 +83,7 @@ Users can follow creators’ social profiles directly from within a World. To do
 - Click the asset to open the follow panel.
 - Click **Follow** for the Instagram or Horizon account you want to follow.
 
-![Social Following panel view](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/563996210_837715318766421_3194938916108605084_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=3tjvbjLDpv0Q7kNvwHywy7v&_nc_oc=Adm_hKBuvY5K8RLwhmN2W3szLVSs7wjJpjYnbUa57uSJvjlKqf1eWk47I_aFWLTLel0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=EHEoDAsZvLIOszMXEmTMyg&oh=00_AfgM6j-Bk6A7YJ5TDzkL4JyU5f7x_FADi-dPsOrdsJ8Ogg&oe=693133AB)
+![Social Following panel view](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/563996210_837715318766421_3194938916108605084_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=hKxDqpgIdgAQ7kNvwHh_jS6&_nc_oc=AdkniHvTFdesVftL9y9E0-jVUMZIhLRnbPUwt0ShEs-i0n7rTQ-tINZDi1BFCU089pA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6TC2TuSuyk-Hl6ki7taNPQ&oh=00_AfmnGUzCWW-UZ7ytZIHYUQeCcXAC9jX9FW916zme6jxczw&oe=694BC9EB)
 
 Users will follow the Instagram accounts using their linked Instagram in their Meta Accounts.
 

@@ -78,7 +78,7 @@ Voice is how your NPC sounds when speaking. After naming your NPC and selecting 
 
 You can use the search bar to search the **Voice library** for a specific voice and filter the results by **Gender** (Male, Female, or Nonbinary), and **Tags**. After finding a voice you’d like to use, you can use the right panel to preview the voice and alter it’s **Properties**. You can update the **Speed** and **Pitch** of the voice, and use the **Voice test phrase** window to provide text for the voice to speak allowing you to preview the voice.
 
-![Voice selection window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581815799_862928519578434_4376748016963998332_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=s3W1CYXams8Q7kNvwGYL-f7&_nc_oc=AdklMqzCtXqwVYy-sLp3NGxU1UEihH9tlnD8chVNZdbxBJUFkJO-otjEX91jwZpsGPw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oOIOheWn3pbJ-TMyJPc8gQ&oh=00_Afh5NOYgrH2iVPTIOrhomo6WS6C3BW-nyxsselnc_BgEsA&oe=6931130D)
+![Voice selection window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581815799_862928519578434_4376748016963998332_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4Su0JMVRByUQ7kNvwEttMRy&_nc_oc=AdnVaYOlr1Vnofm3QvMcPbCdi0YzMzYNxQp6PaoAxqH3t7CS8bOnmvm3Calx26aINps&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=qLWdx-2fkEZ0XcaLwVqB6g&oh=00_Afk2Bib15-zwXoQUQILZxSQ1Lf7dpHR8VLl24BvG6LFB-w&oe=694BE18D)
 
 Once you’ve selected a voice from the library, and adjusted it appropriately, click **Save** to save the voice and apply it to your created NPC.
 

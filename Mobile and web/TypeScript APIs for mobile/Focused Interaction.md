@@ -19,13 +19,13 @@ When in this Focused Interaction mode, the following functionality is disabled a
 
 * Direct touch on the mobile device screen.
 * Mouse input on the desktop computer screen.
-* Can use a fixed camera. For more information, see the [camera API documentation](/hw-docs/Reference/camera/Classes/Camera.md).
+* Can use a fixed camera. For more information, see the [camera API documentation](https://horizon.meta.com/resources/scripting-api/camera.md/?api_version=2.0.0).
 
 In Focused Interaction mode, you can listen for the following events to get user input data:
 
-* [PlayerControls.onFocusedInteractionInputStarted](/hw-docs/Reference/core/Classes/PlayerControls.md)
-* [PlayerControls.onFocusedInteractionInputMoved](/hw-docs/Reference/core/Classes/PlayerControls.md)
-* [PlayerControls.onFocusedInteractionInputEnded](/hw-docs/Reference/core/Classes/PlayerControls.md)
+* [PlayerControls.onFocusedInteractionInputStarted](https://horizon.meta.com/resources/scripting-api/core.playercontrols.onfocusedinteractioninputstarted.md/?api_version=2.0.0)
+* [PlayerControls.onFocusedInteractionInputMoved](https://horizon.meta.com/resources/scripting-api/core.playercontrols.onfocusedinteractioninputmoved.md/?api_version=2.0.0)
+* [PlayerControls.onFocusedInteractionInputEnded](https://horizon.meta.com/resources/scripting-api/core.playercontrols.onfocusedinteractioninputended.md/?api_version=2.0.0)
 
 > **Note** : These events are triggered within a local script, on an object owned by the player, when the player touches the screen on a mobile device, or when they click on the screen on the desktop.
 
@@ -206,7 +206,7 @@ You can still cause players to exit the Focused Interaction mode programmaticall
 
 When a player interacts with the wold in Focused Interaction mode, they see visual feedback about where they’ve tapped and dragged on the screen.
 
-To customize the visual feedback on tap, use the [FocusedInteraction.setTapOptions()](/hw-docs/Reference/core/Classes/FocusedInteraction.md) method. You can change the tap duration, color, scale, opacity, and rotation as well as enabling/disabling trail feedack overall:
+To customize the visual feedback on tap, use the [FocusedInteraction.setTapOptions()](https://horizon.meta.com/resources/scripting-api/core.focusedinteraction.settapoptions.md/?api_version=2.0.0) method. You can change the tap duration, color, scale, opacity, and rotation as well as enabling/disabling trail feedack overall:
 
 ```
 let newTapOptions = {
@@ -225,7 +225,7 @@ let newTapOptions = {
 player.focusedInteraction.setTapOptions(true /*isEnabled*/, newTapOptions);
 ```
 
-To customize the visual feedback on drag, use the [FocusedInteraction.setTrailOptions()](/hw-docs/Reference/core/Classes/FocusedInteraction.md) method. You can change the trail length, color, width and opacity as well as enabling/disabling trail feedack overall:
+To customize the visual feedback on drag, use the [FocusedInteraction.setTrailOptions()](https://horizon.meta.com/resources/scripting-api/core.focusedinteraction.settrailoptions.md/?api_version=2.0.0) method. You can change the trail length, color, width and opacity as well as enabling/disabling trail feedack overall:
 
 ```
 let newTrailOptions = {
@@ -244,7 +244,7 @@ player.focusedInteraction.setTrailOptions(true  /*isEnabled*/, newTrailOption
 
 ## Focus the camera on a custom UI
 
-You can use [player.focusUI()](/hw-docs/Reference/core/Classes/Player.md) to focus the player’s camera on a selectable entity in the world, such as a custom UI:
+You can use [player.focusUI()](/hw-docs/Reference/core/Classes/Player.md#focusui) to focus the player’s camera on a selectable entity in the world, such as a custom UI:
 
 ```
  player.focusUI(selectableEntity, {
@@ -254,7 +254,7 @@ You can use [player.focusUI()](/hw-docs/Reference/core/Classes/Player.md) to foc
       });
 ```
 
-To remove focus from any in-world UI the player’s camera is currently focused on, you use [player.unfocusUI()](/hw-docs/Reference/core/Classes/Player.md):
+To remove focus from any in-world UI the player’s camera is currently focused on, you use [player.unfocusUI()](/hw-docs/Reference/core/Classes/Player.md#unfocusui):
 
 ```
 player.unfocusUI();

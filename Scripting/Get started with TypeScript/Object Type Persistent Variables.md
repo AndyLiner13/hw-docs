@@ -16,19 +16,19 @@ In the past, number-type persistent variables were only capable of using simple 
 
 ### This document will cover the following topics:
 
-* [Creating an Object-type variable](#creating-an-object-type-variable)
-* [Accessing variables from TypeScript](#accessing-variables-from-typescript)
-* [Updating a variable from TypeScript](#updating-a-variable-from-typescript)
-* [Best Practices](#best-practices)
+* [Creating an Object-type variable](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md#creating-an-object-type-variable)
+* [Accessing variables from TypeScript](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md#accessing-variables-from-typescript)
+* [Updating a variable from TypeScript](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md#updating-a-variable-from-typescript)
+* [Best Practices](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md#best-practices)
 
 ## Creating an Object-type variable
 
 You can find persistent variables by looking under **Variable Groups** in the **Systems** menu of the CUI tool. When you create a new variable within a variable group, you’ll see an option to choose the **Number**, or the **Object** type.
 
 - Access **Persistent Variables** in a **Variables Group** .
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512524701285486_2041147541414773851_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=p70THSXZ2DQQ7kNvwH3kyO_&_nc_oc=AdlimQP2aaeMa_pCAmt_BqbqJSxhi6WLf5rJFXsU_uFnjTpWsEKJKjD6PiM-4ei-Img&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2l2BtzVPzapv958o2c6pPA&oh=00_AfhGLnB13upezCTxPlvdVNDFTLffoiN_4Mex9vAsCLRZsw&oe=69313E44)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512524701285486_2041147541414773851_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=fpqCABh2m2QQ7kNvwH90L6v&_nc_oc=AdlxnD5xwK1GKeQmfk2tmjalZoPJVwGVQqXbf5mCmdzXdJLD9yn5zNw5loM3MKlam8U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FOOjLExwYM9SUeKCgBjjHQ&oh=00_AfloJHCaeCFpUoCliVNmKD9I5cpwWeWoM11P6JG0kyiWvg&oe=694BD484)
 - To configure a variable, specify either **Object** or **Number**:
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452965108_512524707952152_3292887128801188756_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=YuTpRwsUduUQ7kNvwE9u8KK&_nc_oc=AdlCEtUT8HpnHb7kr15TmzVVpFYNNE-9arA1uUnjCLFUeE-z-YzNkkiLrsGheFYhvOQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2l2BtzVPzapv958o2c6pPA&oh=00_Afi4Kqr-4gPAjgKGly0dCtNLcXVk1SJhL8PO89Cl4BLF6A&oe=69314010)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452965108_512524707952152_3292887128801188756_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yvwiBnWwpj0Q7kNvwENdu40&_nc_oc=AdnQw3AJ5kItpqcxs_0Dp-DZNNESRlK1IMyube6e2h1NnGzC_0bmoDqF2UhssHs_ZSg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FOOjLExwYM9SUeKCgBjjHQ&oh=00_Aflc82DnO1jOYAmB7H9AXXmjy31NieU9kGz8bTXoTgUXFA&oe=694BD650)
 
 ## Accessing variables from TypeScript
 

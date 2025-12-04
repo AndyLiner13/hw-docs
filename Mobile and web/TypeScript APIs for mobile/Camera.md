@@ -10,7 +10,7 @@ The spawn point can be configured to control the player’s camera and modify it
 
 To set the player’s camera, select the spawn point and use the **Mobile Camera** drop-down in the object properties window.
 
-![Set Player Camera](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/510881416_749600250911262_533806309759582464_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=ONXj8dwf2V0Q7kNvwFaXaec&_nc_oc=AdlX2KVyQF64TCwOseKTEQr3sK65NvN-gLsD-86c_0jTvSScrPfZHs3X549_M0LuZYc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=44MfmQk12SKK5gWet8Y-Rg&oh=00_AfhHQgmt7wux4_gBvKpb8HcyXMT5yhg2KgGx9hmm2HHS-A&oe=693147CA)
+![Set Player Camera](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/510881416_749600250911262_533806309759582464_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=h5QRwg8bdRcQ7kNvwGnBU-q&_nc_oc=AdlZTPdglUX_b6O3kgtt8RSqilQtMiYg2VKlUprx5xuYgdIEEGqScmf0Z3IMKLjKT3o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2eemQP_DKkb4oCdihYm0GA&oh=00_Afm-dsXhYcgMb034RdnjkXC3yqJDyVptoUYXvjjG4maR-A&oe=694BDE0A)
 
 Note
 
@@ -25,7 +25,7 @@ This image shows the Desktop Editor. The same functionality is available in the 
 
 ### Available camera modes
 
-The Mobile Camera dropdown offers the following camera modes. You can also control each mode programmatically via the Camera API (see [Camera Control with the Camera API](#camera-control-with-the-camera-api) section below).
+The Mobile Camera dropdown offers the following camera modes. You can also control each mode programmatically via the Camera API (see [Camera Control with the Camera API](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md#camera-control-with-the-camera-api) section below).
 
 | Camera Mode | Description | Spawn Point Customization Options | Example |
 | --- | --- | --- | --- |
@@ -52,10 +52,10 @@ Before using the Camera API, you need to:
 
 - **Enable the Camera API module:**
   * Open the **Scripts** dropdown
-  * Click the **Settings** icon ![Script settings](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452715951_512536464617643_2581711984717896530_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=dbIB1aNYBkwQ7kNvwE2L3Rb&_nc_oc=AdmXgTlMWXw-vBr4teQ7PXsz79DGp-lAoile0yuTPpvC_Dlq8kq6t9wuz-HiNUGs7e4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=44MfmQk12SKK5gWet8Y-Rg&oh=00_AfgXabpkEKzH_gOeOMUnyzOT2GOxuoj2b3pV5gla7UWUZg&oe=693115A8)
-  * Enable **horizon/camera**![Enable Camera API module](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/557415887_835743098963643_369281294224086013_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=iVU2vs9yVLoQ7kNvwHO57HN&_nc_oc=Adng_GaCLVwW8cIEcXOI9tI-qZg5rSgxa2D35FUruf1aVSa-yWEmMGSO5ozhoKg34PI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=44MfmQk12SKK5gWet8Y-Rg&oh=00_Afghr29R8LaXjK99h9RslW3G23m9xxU__6Cv5Pnw1SWPVg&oe=69312443)
+  * Click the **Settings** icon ![Script settings](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452715951_512536464617643_2581711984717896530_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=OWSMyuXU8v4Q7kNvwF09wQU&_nc_oc=AdmyNObdZR6t9FAgPXdA6EFJkZupblamhpjsBnwiyfJGyC9C6YcbthmRoOvb_WlNrLg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2eemQP_DKkb4oCdihYm0GA&oh=00_Afk-Ap2iyEPSRcp6pRf08SL4z-XuyJ8PIMFG6AYJe9ejrQ&oe=694BE428)
+  * Enable **horizon/camera**![Enable Camera API module](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/557415887_835743098963643_369281294224086013_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=k1ztBf8F9C8Q7kNvwER6qXA&_nc_oc=AdnhyUM5x9uFEMf4ahM_0Pk5_K01A_u1Ed_3BStRrTw202EWLvJlwvNOxG4-gaxxFzc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2eemQP_DKkb4oCdihYm0GA&oh=00_Afng6sgoqP9P10eqc3o0OOO2tNB-l-tltJnVEXxY5cGl_A&oe=694BBA83)
 - **Set Local execution mode:**
-  * Set your script to execute in Local mode ![UI path to set Local execution mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480543861_656120566925898_450547107366261658_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=xlN29uhcirsQ7kNvwETyoXT&_nc_oc=Adn0JDJ38CCRZphx46019p-QQr6RwP02_GHLn9-zs3lna06We5Cm9hf9MNN0ZcZ1t9E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=44MfmQk12SKK5gWet8Y-Rg&oh=00_AfhgKhvxqct19nb19_wg1B72aK7sZetsS-pqSvH41R53yg&oe=69312B6E)
+  * Set your script to execute in Local mode ![UI path to set Local execution mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480543861_656120566925898_450547107366261658_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=oBYSiW_A9iIQ7kNvwFWKz_d&_nc_oc=AdnZh2Tb8FAcleyBEwE5l-YorpUDc-W9XJMcdboVA0TdyxuvJKX0rLuEFu7jFLE_TO4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2eemQP_DKkb4oCdihYm0GA&oh=00_AfkMGXWumkPRnAWeSe12Zcm_2avIciLlCmEv_P2n3LEXAQ&oe=694BC1AE)
 
 ### Camera transitions
 
@@ -205,8 +205,8 @@ You can use the Local Camera API to enable and disable camera collision. Camera 
 Small spaces can cause the camera to move very close to the avatar, making navigation difficult. If your world includes many small spaces, consider:
 
 * Disabling camera collision
-* Switching to [first-person camera mode](#camera)
-* Enabling [perspective switching](#enable-and-disable-perspective-switching)
+* Switching to [first-person camera mode](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md#how-to-set-the-first-person-camera-mode)
+* Enabling [perspective switching](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md#how-to-enable-and-disable-perspective-switching)
 
 ```
 import LocalCamera from 'horizon/camera';
