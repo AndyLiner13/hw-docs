@@ -1,5 +1,0 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0
-
-### Horizon Worlds: API Reference
-
-Explore Horizon World's APIs to create immersive experiences. Use the left-hand navigation panel to browse through the available APIs.
