@@ -7,7 +7,30 @@ Custom UI supports local mode. It runs the attached script on the player client 
 ## Create custom UI with local mode scripting
 
 - Create a UI with Custom UI gizmo and attach a TS `UIComponent` script.
-- On the property config of the attached script, change the **Script Execution Mode** to **Local.**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452746133_512510251286931_7919200572529233140_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=5jydM0DgnkcQ7kNvwGdSJom&_nc_oc=AdnNTcMSzQ-aTteK52i3Hd2VlABuhOTQFzP0zw-ij450igpEBXEkIX-ShJCXX-Tv_08&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=G4EYxHNHyVtYtM_LsCDRyQ&oh=00_AflkwCzidJfSNjNqKnAgkL2CGbBzPdyqPigAztdV3P4EYQ&oe=694BCDF8)
+- On the property config of the attached script, change the **Script Execution Mode** to **Local.**<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_030524_20251211_030524.md)
+
+### Overview
+This image depicts a user interface element within a software application, specifically a settings or configuration panel. The panel includes a section labeled "Properties" with a sub-section titled "Script." There is a dropdown menu under "Script Execution Mode."
+
+### Key Elements
+- **Properties Section**: Located at the top-left, this section has a dark background with white text. Contains a label "Properties" and a field labeled "<>" followed by a placeholder text "MyUI."
+- **Script Section**: Below the Properties section, this area has a lighter background compared to the Properties section. It contains a label "Script" and a dropdown menu labeled "Script Execution Mode."
+- **Dropdown Menu**: Positioned below the Script label, this menu has a light gray background with a darker gray border. It displays two options: "Default" and "Local," with "Local" being selected as indicated by a checkmark next to it.
+- **Background**: The overall background of the interface is divided into two sections. The left side has a blue gradient, while the right side transitions to a darker shade, possibly indicating a sidebar or additional panels.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Local" option in the dropdown menu, as it is highlighted and checked. The dropdown menu is nested under the "Script" label, which is part of the larger "Properties" section. The layout suggests a hierarchical structure where the "Properties" section encompasses the "Script" section, which further includes the dropdown menu.
+
+</details>
+
+<p></p>
+
+
 - Call `uiEntity.Owner.set(player)` when you want to transfer a UI to the player’s local client. This call can happen inside or outside of the `UIComponent` scripts.
 - Now the attached `UIComponent` script will be executed on the player’s local client, which will remove the networking during binding updates and callback response, reducing the binding and callback turnaround time to minimal.
 - See sections below on detailed behavior and other optional API can be used during transfer.

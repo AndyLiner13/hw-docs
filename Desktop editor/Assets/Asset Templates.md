@@ -55,16 +55,104 @@ This section will go through the general workflow for templates once you are par
 There are two ways to create a template:
 
 * By converting a legacy asset to an asset template. See [Asset Migration](Asset%20Templates.md#asset-migration) section for more information.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452458941_512500697954553_8078786083910498359_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=8MDnGl0xny4Q7kNvwGqy9LR&_nc_oc=Adngda9ahO5jtvCUEolt-ybMZ-DbezlfazRP3r0zXZNtHCWzSfsR8POoLPaDOUu7ATQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Aflvk0fWL-vELlXe9Z8kBSbLk2QgRg0IAqr2JgksWtqSUA&oe=694BEB0C)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_013938_20251211_013938.md)
+
+### Overview
+This image depicts a user interface of an asset management tool within a software application. The interface includes a sidebar with folders and a main content area displaying asset thumbnails and metadata.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **Folder Structure**: Displays nested folders labeled "All Assets," "My Folders," "My Assets," and "KV test."
+  - **Buttons**: Includes "Add New" with a dropdown arrow, and "Removed Assets" with a trash can icon.
+  - **Text**: "All Assets," "My Folders," "My Assets," "KV test," "Removed Assets."
+
+- **Main Content Area (Right Panel)**:
+  - **Asset Thumbnails**: A grid of icons representing different assets.
+    - Each thumbnail has a white icon on a gray background.
+    - Some thumbnails have additional icons or indicators:
+      - A blue circle with a plus sign on one thumbnail.
+      - A yellow triangle warning icon on another.
+      - A clock icon on yet another.
+      - Two blue circular arrows on adjacent thumbnails.
+  - **Metadata**: Below the thumbnails, text indicating "Half-Tube Tem..." and "legacy asset," among others.
+  - **Status Bar**: At the bottom, a message states "6 assets in My Assets can be updated to a new format" with a "Review" link highlighted in blue.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central grid of asset thumbnails.
+- **Arrows/Connectors**: None explicitly shown.
+- **Reading Order**: The layout suggests a top-to-bottom, left-to-right scan of the thumbnails followed by the metadata below them.
+
+</details>
+
+<p></p>
+
+
 * By selecting objects in the scene and creating a new asset template from them.
 
 To begin, first create a basic asset template.
 
 - Add a basic cube to your scene. You can get it from the **Shapes** drop-down menu.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452893303_512500567954566_2630102149456461559_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=SfhkY6GJBNQQ7kNvwHd8tzp&_nc_oc=Adm5RrPgD00tcB3ta8i8kYauoJuKBV3f7SPZCOK92AK8hkMLqfOwxlWSL1qmfSqg4oE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afm6q1no_dkWojcZYsfYwk9xD1vKmCmtcOyPoGP73BML2Q&oe=694BDFED)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014032_20251211_014032.md)
+
+### Overview
+This image depicts a modal window titled "Shapes" within a user interface, likely a design or modeling software. The window displays various geometric shapes arranged in a grid layout. The interface has a dark theme with light-colored shapes and text for contrast.
+
+### Key Elements
+- **Title Bar**: Located at the top of the modal window, labeled "Shapes". Contains a close button ("X") on the right side.
+- **Search Bar**: Positioned below the title bar, with a magnifying glass icon indicating a search functionality.
+- **Shape Grid**: A 4x3 grid of shape icons, each representing a different geometric form.
+  - **Top Row**: Cube, Sphere, Cone, Cylinder.
+  - **Second Row**: Ramp, Pyramid, Tube, Half Cylinder.
+  - **Third Row**: Half Tube, Faceted Cylinder, Capsule, Torus.
+  - **Bottom Row**: Half Torus, Half Sphere, Cube Soft.
+- **Selected Shape**: The "Cube" shape is highlighted with a blue border, indicating it is currently selected.
+- **Background**: The modal window has a dark gray background, while the shapes themselves are light gray with white edges.
+
+### Visual Flow / Relationships
+The shapes are arranged in a grid, with each shape having its own icon and label. The selected shape is visually distinct due to the blue border. There are no arrows or lines connecting the shapes, suggesting a simple, direct navigation through the options.
+
+</details>
+
+<p></p>
+
+
 - Add a basic sphere to your scene. You can get it from the **Shapes** drop-down menu.
 - In the Hierarchy, create an asset out of the two shapes by selecting both of them, and then right clicking on them. In the menu that appears, click **Create Asset**, and then enter the asset details.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452863899_512500587954564_4581130950048103563_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=bKjUCe_WUGgQ7kNvwHDwHL5&_nc_oc=Adk9XasTEw91YKBjBtfYQO1t3WZeth6uFDOTcNjT0-FQ5RQ41jzINoKjiJpH29mY2Qw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnHXcpA_5_tgiYeQ_nlfPucNVIyF2JXN-MGRyet4C3fvA&oe=694BCB8F)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014136_20251211_014136.md)
+
+### Overview
+This image depicts a 3D modeling software interface with a menu dropdown open on the left side. The main workspace in the center shows a 3D scene with a cube and a sphere, both with selection handles indicating they are interactive objects. The grid floor and perspective view suggest a 3D modeling environment.
+
+### Key Elements
+- **Menu Dropdown**: Located on the left side, it is a black rectangular dropdown menu with white text listing options: "Create Asset," "Delete selection," "Group selection," and "Focus on selection." Each option has a corresponding keyboard shortcut next to it.
+- **3D Scene**: In the center, there is a green cube with a brown roof and a white sphere. Both objects have selection handles, suggesting they can be manipulated within the 3D space.
+- **Selection Handles**: Red and blue arrows appear on the sphere, indicating rotation and translation axes.
+- **Grid Floor**: A light gray grid spans the entire workspace, providing a reference for object placement.
+- **Perspective View**: The scene is viewed from a top-down perspective, typical of 3D modeling software.
+
+### Visual Flow / Relationships
+The most prominent visual element is the menu dropdown, as it is the focal point of interaction. The 3D scene is secondary but crucial for understanding the context of the software. The selection handles on the objects imply that the user can interact with them, and the grid provides spatial orientation.
+
+</details>
+
+<p></p>
+
+
 
   You can create the asset as a template or as a legacy asset by selecting the asset type. If you choose **Legacy Asset Group**, your asset will not have instancing, property overrides, or change propagation.
 
@@ -89,19 +177,126 @@ A draft asset is an asset that has been updated in the current world, but whose 
 
   **Note**: Anytime you edit an asset it’s stored as a draft.
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/505490657_741347521736535_8523116864699304202_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=p2KkXv08MckQ7kNvwEDlriO&_nc_oc=AdnkA4V3iJG4Fcx2GT-F60tTD1hA1FeYeuH17WXDvMHQPQjjLMJB9oQFfCfkjR45K1k&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afn10MpThnVSebLGnr3CcCnklLPfvYT8IwEdE6HrDZKb0g&oe=694BD505)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014237_20251211_014237.md)
+
+### Overview
+This image depicts a user interface showing a list of unpublished changes within an asset management system. The interface includes a header indicating the number of updates and a tabbed view displaying "Unpublished changes." Below this, there are entries listing assets that have been changed, along with the user who made the change, the date and time of the change, and options to discard or publish the changes.
+
+### Key Elements
+- **Header**: "Asset Updates" at the top left, "Updates (0)" next to it, and "Unpublished changes (17)" in the center. A "Publish all" button is located on the far right.
+- **Tabbed View**: "Unpublished changes" is highlighted with a blue underline, indicating the active tab.
+- **List Entries**: Each entry contains:
+  - **Asset Icon**: A small icon representing the asset.
+  - **Asset Name**: "a" next to the icon.
+  - **Changed By**: "jmavra" with a profile picture icon.
+  - **Date**: The timestamp of the change.
+  - **Action Buttons**: To the right of each entry, there are "Discard" and "Publish" buttons.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the list entries, which are arranged vertically. There are no arrows or lines connecting elements, but the layout suggests a linear reading order from top to bottom. The "Publish all" button is the most prominent interactive element due to its placement and contrasting color.
+
+</details>
+
+<p></p>
+
+
 - From here you can either discard or publish your draft asset.
   * When you discard a draft of an asset, all asset instances in the current world will automatically switch to the latest major version, as dictated by the asset definition in the asset library.
   * When you publish a draft asset, it will create a new major version of the asset in the asset library.
 - Click **Publish** publish the draft asset. You will be presented with a publish modal. You can optionally write a comment to be saved as version notes with the new version, and then when the publishing operation finishes, a new major version of the asset will be saved to asset definition in the asset library.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576260_512500694621220_7586723531942177562_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=PtcZGKJkEPoQ7kNvwFORVAr&_nc_oc=Adly3uuxgAlYLQxQHRJCDW6FoHclQeUQRaV141ugpf5x_tkqFOiyDhauP-xcL7Oik9k&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnJqbxzlGKYg4XOIJE1VGw4PWfRYK8SuJqXvtmKuQX-Dw&oe=694BEA9D)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014339_20251211_014339.md)
+
+### Overview
+This image depicts a modal dialog box within a user interface, specifically a confirmation prompt asking if the user wants to publish a draft asset. The dialog box is centered over the main interface, which includes tabs for "Updates" and "Drafts," and a list of assets on the left side.
+
+### Key Elements
+- **Modal Dialog Box**: Located centrally, with a dark gray background and white text.
+  - **Title**: "Publish draft?" displayed at the top.
+  - **Message**: "You're about to publish draft changes to this asset. This will create a new version of the asset. Would you like to continue?" shown below the title.
+  - **Tweaked Properties**: A black box with white text stating "Tweaked some properties."
+  - **Buttons**: Two buttons at the bottom, labeled "Cancel" and "Publish." The "Publish" button has a blue background with a loading spinner indicating the action is in progress.
+- **Background Interface**: The main interface behind the dialog box shows tabs for "Updates" and "Drafts," with "Drafts" currently active. There is also a list of assets on the left side, with one asset partially visible.
+- **Interface Buttons**: Outside the dialog box, there are buttons labeled "Discard" and "Publish" on the right side of the main interface.
+
+### Visual Flow / Relationships
+The most prominent visual element is the modal dialog box, which is the focal point of the image. The "Publish" button is highlighted as the primary action to take, while the "Cancel" button serves as an alternative. The interface elements outside the dialog box provide context but are secondary to the main action being prompted.
+
+</details>
+
+<p></p>
+
+
 - Once the asset is published, click on the **Version History** button in the Asset Details panel to see its version history.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935806_512500691287887_214574099878998720_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=wPpXIMJLD1gQ7kNvwFKo3fe&_nc_oc=Adm8n_5NUO5dEExMZreWdUPDsHib2Y8ZJBLguGMBWZYjfaK4Z1AgNKFfx0-ZeYAXulU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afn0h4_yzA8lRSluqrs-X2FmQ04BysuqmOAwg7BHL1VB7A&oe=694BB35E)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014441_20251211_014441.md)
+
+### Overview
+The image displays a user interface element showing asset details within a template management system. The layout includes a large central image placeholder, metadata fields, version history, and file download options.
+
+### Key Elements
+- **Central Image Placeholder**: A gradient background with a white cube icon centered.
+- **Metadata Fields**: Located below the image placeholder.
+    - **Asset Type**: "Template"
+    - **Asset ID**: "853974739610124"
+    - **Owner**: "goopitygoopgoop"
+    - **Created**: "Nov 30, 2023 at 12:55 PM"
+    - **Added By**: "goopitygoopgoop"
+    - **Date**: "Dec 4, 2023 at 12:10 PM"
+    - **Notes**: "Tweaked some properties"
+- **Version History Button**: A rectangular button labeled "Version History" circled in red.
+- **Files Section**: Located at the bottom, showing a "Quest" file with a download option.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central image placeholder. The metadata fields follow sequentially below it. The "Version History" button is highlighted, drawing attention to it as a key interactive element. The "Files" section is at the very bottom, indicating additional content related to the asset.
+
+</details>
+
+<p></p>
+
+
 - The version history modal will display all of the major versions of an asset. These are all of the asset versions that have been previously published. If you go into other worlds or share an asset with other users, these are the versions that will be stored on the root asset definition. The asset can be restored to any of these versions at any time.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452933022_512500687954554_6151449604564408312_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=FkM2iWXTEl0Q7kNvwHBrCsh&_nc_oc=AdmN0PtgiUMCucqMtv4-3zz5sfA8HJsqWejBKBrK8K2Qe5SWBvVcvgVoT-NgX-SnCbc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afllf2plVWOcguR1K0rcahP0cjwwtobD_am4i8r36mF9yw&oe=694BBAED)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014531_20251211_014531.md)
+
+### Overview
+This image depicts a version history interface for an asset template. It shows a table with three columns: ID, Added By, Date Added, and Notes. The interface has a dark theme with light-colored text and icons.
+
+### Key Elements
+- **ID Column**: Located in the first column, showing IDs 3, 2, and 1.
+- **Added By Column**: Contains usernames "goopitygoopgoop" repeated for each entry.
+- **Date Added Column**: Displays dates and times for when entries were added.
+- **Notes Column**: Contains notes about changes made to the asset template.
+- **Current Label**: Positioned next to the ID 3 row, indicating this is the current version.
+
+### Visual Flow / Relationships
+The most prominent visual element is the table itself, which is arranged in a grid layout. There are no arrows or lines connecting elements, but the reading order follows the natural progression from left to right within each row.
+
+</details>
+
+<p></p>
+
+
 
 ## Property Overrides
 
@@ -110,13 +305,134 @@ Property overrides enable you to override the property values on an instance of 
 To override a property:
 
 - Click on the root level asset template in your world. Review the properties. There shouldn’t be any overrides.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452684749_512500684621221_5369449154585863544_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=yCH7FXFik20Q7kNvwEAo8N1&_nc_oc=AdkzqCHM3pMQBBiNauIx9PZQGMGA20nGxdU1mNmS-wiQLm81nUmFr0TDyMwotmJDjC8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfmV3tTkaqukl1MXNaP48HmJmlEx3TjWwPzzAI_245o_jA&oe=694BE895)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014632_20251211_014632.md)
+
+### Overview
+This image depicts a user interface element showing properties of a sphere object in a game development or 3D modeling software. The layout is structured into sections for properties, debug data, behavior, attributes, and material settings.
+
+### Key Elements
+- **Properties Section**: Located at the top, contains a title "Sphere" with a small icon resembling a cube.
+- **Debug Data**: Below the properties, a section labeled "Debug Data" with a right-pointing arrow indicating expandable content.
+- **Behavior Section**: Contains toggles and dropdown menus for visibility, light reflection, casting shadows, collision properties, and motion settings.
+- **Attributes Section**: Includes fields for position, rotation, scale, texture, material roughness, and color.
+- **Position Fields**: Show numerical values for X, Y, Z coordinates.
+- **Rotation Fields**: Display numerical values for X, Y, Z angles.
+- **Scale Fields**: Similar to position fields but show uniform scaling factors.
+- **Texture Dropdown**: A small downward-facing triangle indicating a dropdown menu.
+- **Material Roughness Slider**: A slider with a value of 0.5 displayed next to it.
+- **Color Field**: Displays a swatch with numerical values for RGB components.
+
+### Visual Flow / Relationships
+The interface flows vertically, with each section expanding as needed. The toggles and dropdowns are aligned horizontally within their respective sections. The visual hierarchy is clear, with the "Behavior" section being more prominent due to its larger font size compared to the others.
+
+</details>
+
+<p></p>
+
+
 - Now, create an overridden property value. Edit the object to change its color. You’ll notice that the color label has a bold treatment, as well as a blue dot next to it to indicate that the value has been overridden. In the overrides panel, you will see a property override on the object showing different values for the previous and current color.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452757156_512500681287888_1648985213895312295_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=1db98L4l3kUQ7kNvwEXH0tL&_nc_oc=Adn1rw_-EvWAmfIg1DZYKtuXvPGgkuxVBEInY8PggfBYK52FSDsBxE_Wso2ASLHSoIY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnfQLPm0VWlcP_9bW-aqMHoZ0atZN8Hza0PkWU6uLkr1w&oe=694BD561)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014728_20251211_014728.md)
+
+### Overview
+This image displays a user interface element showing various properties of an object, likely within a 3D modeling or game development software. The layout is structured with labeled fields for Position, Rotation, Scale, Texture, Material Roughness, and Color. Each field contains numerical values and some interactive elements like a dropdown menu.
+
+### Key Elements
+- **Position**: Located at the top-left, this section includes X, Y, Z coordinates with values `-0.69`, `0`, `0`.
+- **Rotation**: Below Position, this section has X, Y, Z rotation values `0`, `180`, `-0.0C`.
+- **Scale**: Positioned below Rotation, it shows X, Y, Z scale values `1`, `1`, `1`.
+- **Texture**: Situated below Scale, this area features a small downward-pointing triangle indicating a dropdown menu.
+- **Material Roughness**: This field is located beneath Texture and displays a value `0.5`.
+- **Color**: At the bottom-left, this section includes a color swatch with a hex code `#8B0000` and numerical values `0.20`, `0.03`, `0.10`.
+
+### Visual Flow / Relationships
+The elements are arranged in a vertical column, with each property having its own row. The layout is clean and straightforward, with clear labels above each set of values. There are no arrows or lines connecting elements, suggesting a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 - From the property overrides panel, you can either select specific overrides to apply back to the definition, or apply all overrides. When you apply overrides back to the asset template definition, all instances whose matching properties haven’t been overridden will inherit the changes, and a new draft version of the asset will be created.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452591119_512500677954555_6513963071618982978_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Bn9lkN5AMQEQ7kNvwEcBTWc&_nc_oc=Adm4e_iqraaqCxTyau5k4mayUa_ERVmxfYkV8KwNhuwEQgZk6zNi7asxMZHoBwVGVnw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfngvskYQ6s7djxf8sj4qcB4TxX8rgwE13ZhA2EOD2JIVg&oe=694BBD7E)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014831_20251211_014831.md)
+
+### Overview
+This image depicts a user interface showing an object hierarchy on the left side and a property editing table on the right side. The interface appears to be part of a design or 3D modeling software.
+
+### Key Elements
+- **Left Panel (Object Hierarchy)**:
+  - **Visual description**: A vertical list of objects within a project.
+  - **Location**: Left side of the image.
+  - **Contents**: 
+    - "asset_template" with a minus sign indicating it can be collapsed.
+    - "Sphere" highlighted in blue, indicating selection.
+    - "Cube" and "Cylinder C" listed below.
+  - **Visual styling**: Dark background with light text, blue highlight for selected item.
+
+- **Right Panel (Property Editing Table)**:
+  - **Visual description**: A table with columns for Component, Property, Old Value, and New Value.
+  - **Location**: Right side of the image.
+  - **Contents**: 
+    - "Attributes" as the component.
+    - "Color" as the property.
+    - "Old Value": `(0.93,0.92,0.93,...)`.
+    - "New Value": `(0.10,0.92,0.93,...)`.
+  - **Visual styling**: Dark background with white text, light gray separators.
+
+- **Buttons at the Bottom**:
+  - **Revert All Overrides**: Gray button with white text.
+  - **Apply All Overrides**: Blue button with white text.
+
+### Visual Flow / Relationships
+- **Most Prominent Visually**: The selected "Sphere" in the left panel.
+- **Arrows/Connectors**: None visible.
+- **Reading Order**: The left panel is read vertically first, then the right panel is read horizontally.
+
+</details>
+
+<p></p>
+
+
 - It’s also possible to revert overrides. Reverting override values will revert the asset back to the same state as any draft version that exists, or in the absence of a draft version, the current major version of the asset.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652316_512500674621222_1012367075903542989_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=qJtD7wBICPwQ7kNvwH0gxuB&_nc_oc=Adl0nD-cIiHm4i_BGta5A9dKWT2Kheq4i5Lk-Y-s2x1cpuNPH8oz4NzIgb0Z93EHs6w&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Afn_UE9q_es-7-Lq761A5q8CwDMXgfbcxeUXUwCVRrbFXw&oe=694BD77B)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_014924_20251211_014924.md)
+
+### Overview
+This image depicts a user interface element showing a dropdown menu with two options: "Apply to definition" and "Revert." The dropdown is triggered by a button labeled "Color" located above it. The interface also includes a slider for "Material Roughness" set at 0.5, and a search bar for attached tags at the bottom.
+
+### Key Elements
+- **Dropdown Menu**: A black rectangular dropdown with white text displaying two options: "Apply to definition" and "Revert."
+- **Color Button**: A blue circular button with a white dot indicating selection, located to the left of the dropdown.
+- **Material Roughness Slider**: A black rectangular slider with a red handle set at 0.5.
+- **Search Bar**: A black rectangular search bar with a magnifying glass icon and placeholder text "Search attached tags."
+- **Attached Tags Placeholder**: A small plus sign next to the search bar, suggesting the ability to add new tags.
+
+### Visual Flow / Relationships
+The most prominent visual element is the dropdown menu, as it is the focal point of interaction. The color button is secondary but important for triggering the dropdown. The Material Roughness slider is a static element providing a numerical value. The search bar and attached tags placeholder are at the bottom, serving as input fields for additional functionality.
+
+</details>
+
+<p></p>
+
+
 
 **Note:** Property overrides persist even when you update the asset. To test this, you can edit the asset definition, add a new shape to it and then exit. You will see that the color of the sphere will remain even after the update!
 
@@ -128,7 +444,37 @@ The following steps will walk through asset migration:
 
 - You will see a blue icon at the top right corner of an asset card if the asset needs to be migrated. Right click on the asset card, and select **Update Asset** from the menu that appears.
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452665936_512500581287898_7545021707173957534_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=mrLSMtIRDf0Q7kNvwGlc-Wt&_nc_oc=Adl_9CnEFW6BP6DQ7x6FrLbCVy0z6w0yV3hyebsVJwVi1Ak36QK5UkwAK6HVQSPP3XE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnDiJw0MS308xBNCyTafGKpvumj5HlgGXkYB_mkh55bhw&oe=694BE024)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_015008_20251211_015008.md)
+
+### Overview
+This image displays a grid layout of asset thumbnails within a user interface, likely part of a digital asset management tool. The assets are arranged in rows and columns, each with a distinct icon and name beneath it.
+
+### Key Elements
+- **Visual description**: Each thumbnail contains a geometric shape icon and a corresponding label.
+- **Location**: Positioned horizontally across the screen.
+- **Contents**: 
+    - **Icon**: A geometric shape (cube, sphere, hexagon, etc.).
+    - **Label**: Text indicating the asset name (e.g., "Cubetest," "Sphere").
+- **Visual styling**: 
+    - **Background**: Gradient shades of blue and purple.
+    - **Text**: White font for labels.
+    - **Icons**: White shapes on a gradient background.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The asset thumbnails are evenly spaced and arranged in a grid.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: Elements are aligned horizontally and vertically, creating a structured grid layout.
+
+</details>
+
+<p></p>
+
+
 - Alternatively, you can also click on the folder and update all assets in a folder at once by clicking on the link at the bottom right of the asset browser.
 
 **Note**: Ingested asset types don’t have to be migrated, only assets created within Horizon.
@@ -148,7 +494,41 @@ To unlink an instance from a template:
   - Choose **Unlink instance root** to only unlink the parent template.
   - Choose **Unlink instance root and children** to unlike the parent template and any nested child templates.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452934219_512500594621230_5600854580075909703_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=g7SDCTssGgoQ7kNvwHVhKW_&_nc_oc=AdlyFr3-nC8NYIPgpS-30IzP-eI4WJMm00FNJCMOPFzVajUjsdt1wiCjSX8lPImnVns&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnpUM-8nCG5SnfjiEVci2DD0F3egyBh-KXbLtKtlNQdeA&oe=694BD1CE)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_015057_20251211_015057.md)
+
+### Overview
+This image depicts a user interface element showing a context menu that appears when interacting with a specific item named "asset_template" within a hierarchical structure labeled "Hierarchy." The menu contains several options for managing the selected asset template.
+
+### Key Elements
+- **Visual description**: The menu is a dropdown with a dark background and white text.
+- **Location**: Positioned centrally below the "asset_template" item in the left panel.
+- **Contents**: 
+    - Rename
+    - Duplicate
+    - Edit Template Definition
+    - Delete selection
+    - Unparent child objects
+    - Unlink instance root
+    - Unlink instance root & children
+    - Focus on selection
+    - Create parent object
+- **Visual styling**: The menu has a dark theme with white text and a blue highlight indicating the selected item in the left panel.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The context menu itself.
+- **Arrows, lines, connectors**: None visible.
+- **Spatial relationships**: The menu is directly beneath the "asset_template" item, and the items within the menu are listed vertically.
+
+</details>
+
+<p></p>
+
+
 
 ## Attaching scripts to asset templates and updating the definition
 
@@ -161,26 +541,197 @@ You can attach a script to the asset template by:
 
 - Edit a script in the world from the property panel.
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452953164_512500601287896_1058603146175003068_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=RxZXBsi7irQQ7kNvwFT2nva&_nc_oc=AdngMKx9NWf1jT2ZtCO86d0rsZsvqCxW70MSJhbj5FX3vvpe8NJIj4aA4bde3EfF424&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfkYHklzAf_Hnx-mMHs6mlrTC-AtItRSUMhxbKPJ6MmE4Q&oe=694BD24E)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_015149_20251211_015149.md)
+
+### Overview
+This image depicts a user interface element showing a script management section. It includes a collapsed section header labeled "Script," a checkbox labeled "Attached Script," and a dropdown menu displaying a script name.
+
+### Key Elements
+- **Visual description**: The interface element has a dark background with light text and icons.
+- **Location**: The element is located at the top of the interface.
+- **Contents**: 
+  - "Script" is written in white text on a dark gray header.
+  - A small downward-pointing triangle icon is next to "Script," indicating that the section can be expanded.
+  - "Attached Script" is a checkbox with a blue dot next to it, indicating it is checked.
+  - A dropdown menu displays "Script A:ScriptA" with a downward-pointing arrow, suggesting it can be expanded or closed.
+- **Visual styling**: The background is dark gray, the text is white, and the checkbox has a blue highlight.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the "Script" header.
+- There is no arrow or line connecting elements, but the layout suggests a hierarchical relationship where the "Attached Script" checkbox and the dropdown menu are subordinate to the "Script" header.
+
+</details>
+
+<p></p>
+
+
 - When a script is attached to an asset template, you should see it appear as an override. You will see a blue dot next to **Attached Script** (above image) and two overrides applied: one for the script and one for motion (shown below).
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652931_512500564621233_8795829224957538121_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=6fffQR3hCjAQ7kNvwHvfV-U&_nc_oc=AdmiE0Vl4Xg7i-KoHKQEs3mac_82Ndf9E4pgHhAbVF7QFkMaiMPS7msEPVYAdgqVusA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_Aflqc_SeHVaPVTUo3DcnkJ1_Cgfw0ZVCzpjE2OXa0vqBgA&oe=694BDB3A)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_015245_20251211_015245.md)
+
+### Overview
+The image displays a user interface section within a software application, specifically showing properties related to an asset template. The interface includes a notification about overrides that haven't been applied, along with toggles and dropdown menus for behavior settings.
+
+### Key Elements
+- **Notification Box**: Located at the top, highlighted with a red border. Contains a message stating, *"This instance has 2 overrides that haven't been applied to the definition"* with a clickable "Review" link.
+- **Debug Data Section**: Below the notification, a section labeled "Debug Data" with a small arrow indicating expandable content.
+- **Behavior Toggle**: A toggle switch labeled "Visible" with a blue indicator, located under the "Debug Data" section.
+- **Motion Dropdown**: A dropdown menu labeled "Motion" with the option "Animated" selected, situated below the "Behavior" section.
+- **Play and Record Buttons**: Two blue buttons labeled "Play" and "Record" at the bottom right corner.
+
+### Visual Flow / Relationships
+The most prominent visual element is the notification box due to its size and red border. The elements are arranged vertically, with the notification at the top, followed by the debug data section, then the behavior toggle, motion dropdown, and finally the play and record buttons at the bottom. There are no arrows or lines connecting the elements, but the layout suggests a sequential reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 - Edit the script’s source code by selecting **Open in external editor.** When the script’s source code is updated, this will also appear as an override.
 - Publish the script change through overrides. This will update the asset template definition with the script.
 - Publish the script change through the overrides panel. This will update the asset template definition with the script changes included in the latest version of the template definition. See the note at the end of this section for more information.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652238_512500577954565_6836600478890992788_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=tjYLsTbF_2UQ7kNvwH1be4e&_nc_oc=AdkNTw1xmLE496RdQ36h4RSWJlGuQb8iYm2CmqbMYL4UKjVhF3zkKViFOYQawqnLm0Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfnK2TRc6-tleYZq8YPMR7R5e7hBEs6dAfo0Ka66g9fXJQ&oe=694BB773)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_015336_20251211_015336.md)
+
+### Overview
+This image depicts a user interface window titled "Template Overrides." It has a dark theme with a sidebar on the left and a table on the right. The interface allows users to manage overrides for components within a template.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **Title**: "OBJECT HIERARCHY"
+  - **Tree Structure**: Contains nested objects labeled "asset_template," "Cube," and "Sphere."
+  - **Selected Node**: "asset_template" is highlighted in blue with a counter "1" indicating the number of overrides.
+  - **Background**: Dark gray with white text.
+  
+- **Table (Right Panel)**:
+  - **Headers**: Columns labeled "COMPONENT," "PROPERTY," "OLD VALUE," and "NEW VALUE."
+  - **Row Data**: A single row showing "Script" as the component, "Attached Script" as the property, and timestamps "06/11 04:18 PM" and "06/11 04:22 PM" for old and new values respectively.
+  - **Background**: Dark gray with white text.
+  
+- **Buttons at the Bottom**:
+  - **Revert All Overrides**: Gray button with white text.
+  - **Apply All Overrides**: Blue button with white text.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The "asset_template" node in the sidebar.
+- **Reading Order**: The sidebar is read from top to bottom, while the table is read from left to right.
+- **Spatial Relationships**: The sidebar is on the left, and the table is on the right. The buttons are at the bottom of the interface.
+
+</details>
+
+<p></p>
+
+
 
 ### Attaching the script to the asset template definition
 
 - Right click on the asset instance (or asset in **Assets**) to edit the definition.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452951204_512500597954563_4508069784119552394_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=KOCoDgXQuOUQ7kNvwHHLmXX&_nc_oc=AdnFzEDVa0bfD-qRPCghe1rO9M4YmAFL5j9lEwsIB8hG8gjIEdm5IUyZwlRnCtISxIk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfmtUQIC3kLojFx6GexIpGiBSzN_m7PpuP0reEScdaHinQ&oe=694BBE27)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_015428_20251211_015428.md)
+
+### Overview
+The image displays a screenshot of a user interface element, specifically a context menu that appears when interacting with a file named "asset_template" within a directory labeled "SpawnPoint."
+
+### Key Elements
+- **Visual description**: The context menu has a dark background with white text and red highlights.
+- **Location**: The menu is positioned to the right of the highlighted file "asset_template."
+- **Contents**:
+  - **Rename**: Text only, no additional elements.
+  - **Duplicate**: Text only, accompanied by a keyboard shortcut "Ctrl + D."
+  - **Edit Template Definition**: Highlighted in red, indicating selection.
+  - **Delete selection**: Text only, with a keyboard shortcut "Del."
+  - **Unparent child objects**: Partially visible at the bottom, suggesting more options are available but cut off in the image.
+- **Visual styling**: The menu uses a dark theme with white text for readability. The "Edit Template Definition" option is emphasized with a red highlight.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Edit Template Definition" option is the focal point due to its red highlight.
+- **Arrows, lines, connectors**: None present.
+- **Spatial relationships**: The menu items are arranged vertically, with each option stacked one above the other. The highlighted option is visually separated from the others by color.
+
+</details>
+
+<p></p>
+
+
 - Edit a script in the world from the property panel.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452054064_512500541287902_5048148391692387350_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=m79F4pBNkyoQ7kNvwEvzj-V&_nc_oc=Adn1wWYf1luK8MrP9-yrAcFLsWwHDZktLQw62XQmDAN5Zn_wMS5w0QBlr6tvKOXuCCo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfldJWkPyJGr3PbFyjyDFBdlk11OCAqCi6I1XB1FADrAFg&oe=694BC2BC)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_015522_20251211_015522.md)
+
+### Overview
+This image depicts a user interface element showing a script management section. It includes a collapsed section header labeled "Script," a checkbox labeled "Attached Script," and a dropdown menu displaying a script name.
+
+### Key Elements
+- **Visual description**: The interface element has a dark background with light text and icons.
+- **Location**: The element is located at the top of the interface.
+- **Contents**: 
+  - "Script" is written in white text on a dark gray header.
+  - A small downward-pointing triangle icon is next to "Script," indicating that the section can be expanded.
+  - "Attached Script" is a checkbox with a blue dot next to it, indicating it is checked.
+  - A dropdown menu displays "Script A:ScriptA" with a downward-pointing arrow, suggesting it can be expanded or closed.
+- **Visual styling**: The background is dark gray, the text is white, and the checkbox has a blue highlight.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the "Script" header.
+- There is no arrow or line connecting elements, but the layout suggests a hierarchical relationship where the "Attached Script" checkbox and the dropdown menu are subordinate to the "Script" header.
+
+</details>
+
+<p></p>
+
+
 - Save and publish the template definition. This will create a new version of the asset that includes the script changes. See the note below for more information.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452757259_512500557954567_7387970478247480678_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=fgXGFp4THa8Q7kNvwE0wAj7&_nc_oc=AdmjtgF_-KMdszKT4y8WoLmJYxGGj7oqBrspT92vxBb0ADD6Ug7j20Ou5oT4-Udhvy4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FFkZgWq3Md0ZIoR52w8DDA&oh=00_AfmpnqnHLH34wzlTC_PCVmtdsUzkfzrHl31OMuX9E4x0LA&oe=694BDDBF)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_015621_20251211_015621.md)
+
+### Overview
+This image depicts a dialog box within a software interface, specifically for editing a template definition. The dialog box contains text and two actionable buttons.
+
+### Key Elements
+- **Dialog Box**: A rectangular pop-up window with rounded corners, located centrally in the image.
+  - **Text**: "Editing the template definition for asset_template" is displayed prominently in white text against a dark gray background.
+  - **Visual styling**: The background is dark gray, and the text is white for high contrast.
+- **Buttons**: Two buttons are present at the bottom of the dialog box.
+  - **Discard Button**: Located on the left side, it has a dark gray background with white text that reads "Discard."
+  - **Save Button**: Located on the right side, it has a blue background with white text that reads "Save."
+- **Background**: The background behind the dialog box is partially visible, showing a pink and gray area which seems to be part of the main interface.
+
+### Visual Flow / Relationships
+The dialog box is the most prominent visual element, drawing attention due to its central placement and contrasting colors. The buttons are clearly differentiated by their color and position, indicating a clear call-to-action sequence. There are no arrows or lines connecting elements, suggesting a straightforward linear interaction path.
+
+</details>
+
+<p></p>
+
+
 
 **❗️Important** : When you open a new world that uses this asset template, the script change will be included in the asset templates update. If the script in your world is on a different version than what is in the template update, accepting the template update will also update the script to be on the same version.

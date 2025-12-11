@@ -2,7 +2,57 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Panels and Tabs in the desktop editor
 
-![Panels and tabs in the desktop editor UI](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/585542206_867432742461345_8209636023455115034_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Jqc-mmG69A4Q7kNvwEDbSmk&_nc_oc=AdmbOpVO-wiVGvsMIE-YhddKUWUw1-igSL35fvJS65rMCBhL_STrfQsEtwhdAoJEHUI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0W-s9_fWfoUsB4TOHbPRWw&oh=00_AflQOUvS5i8N8IA9B0J3QgmI-YoNGz1GbKeExl_LDy28QA&oe=694BBB45)
+<details>
+<summary>Panels and tabs in the desktop editor UI</summary>
+
+<p></p>
+
+[Panels and tabs in the desktop editor UI](../../../../../images/output/img_20251211_045911_20251211_045911.md)
+
+### Overview
+This image depicts a user interface of a game development environment, likely a scene editor or level builder. The layout includes a hierarchy panel on the left, a viewport in the center, and a properties panel on the right. The bottom of the interface has tabs labeled "Asset Library," "Console," "NPC Debugger," and "Performance."
+
+### Key Elements
+1. **Hierarchy Panel (Left)**:
+   - **Visual description**: A vertical panel with a dark background and light text.
+   - **Location**: Left side of the screen.
+   - **Contents**: Contains nodes such as "Spawn Point," "emerald," "Completed Scripts," and "Environment."
+   - **Visual styling**: Dark gray background, white text, and a thin yellow border.
+
+2. **Viewport (Center)**:
+   - **Visual description**: A large central area displaying a blue sky gradient transitioning to a yellow grid at the bottom.
+   - **Location**: Center of the screen.
+   - **Contents**: A simple 3D environment with a clear sky and a ground plane marked by a grid.
+   - **Visual styling**: Blue gradient sky, yellow grid, and a thin yellow border around the viewport.
+
+3. **Properties Panel (Right)**:
+   - **Visual description**: A vertical panel with a dark background and light text.
+   - **Location**: Right side of the screen.
+   - **Contents**: Currently empty, indicated by a blank space.
+   - **Visual styling**: Dark gray background, white text, and a thin yellow border.
+
+4. **Tabs at the Bottom**:
+   - **Visual description**: A row of tabs with labels.
+   - **Location**: Bottom of the screen.
+   - **Contents**: Labels include "Asset Library," "Console," "NPC Debugger," and "Performance."
+   - **Visual styling**: White labels on a dark background with a thin yellow border.
+
+5. **Interface Elements**:
+   - **Search Bar**: Located in the hierarchy panel.
+   - **Toggle Button**: A lock icon next to "emerald" in the hierarchy panel.
+   - **World Simulation Toggle**: "World Sim Off" in the top bar.
+   - **Publish Button**: Located in the top bar.
+
+### Visual Flow / Relationships
+- **Most Prominent**: The viewport in the center.
+- **Arrows/Connectors**: None visible.
+- **Spatial Relationships**: The hierarchy panel is on the left, the viewport is in the center, and the properties panel is on the right. Tabs at the bottom provide navigation options.
+
+</details>
+
+<p></p>
+
+
 
 The desktop editor contains a variety of different panels and tabs to give you a wide variety of functionality, from the **Scene** panel to the **Assets** tab. Each option provides a different type of tool that you can use for creating your worlds.
 
@@ -17,7 +67,38 @@ The editor contains the following panels and tabs available for creative and bui
 
 ## Hierarchy panel
 
-![Objects in a scene listed in the Hierarchy panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/465993113_585041167367172_6135751887087775879_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=3GurWhe8_JAQ7kNvwGgRLca&_nc_oc=Adm4Mc_85FUTbcceWipd1S1tYVD4SilcP-WRbrhS8w32Hr666ixSPN_To57y7t0o9GE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0W-s9_fWfoUsB4TOHbPRWw&oh=00_AflNsfHxVUDit5JV26QpqamGO22SHnIVORvscE_mwWSezA&oe=694BC4B1)
+<details>
+<summary>Objects in a scene listed in the Hierarchy panel</summary>
+
+<p></p>
+
+[Objects in a scene listed in the Hierarchy panel](../../../../../images/output/img_20251211_050003_20251211_050003.md)
+
+### Overview
+The image displays a hierarchical interface with a search bar at the top and a list of items organized under a parent node labeled "Hierarchy." The interface has a dark theme with light text and icons.
+
+### Key Elements
+- **Search Bar**: Located at the top-left, with a magnifying glass icon and placeholder text "> Search hierarchy".
+- **Parent Node**: "Hierarchy" at the top, with a small icon resembling a folder.
+- **Child Nodes**: Listed vertically under the parent node:
+  - **SpawnPoint**: Icon resembling a rocket, with a lock icon next to it.
+  - **Floor**: Icon resembling a floor tile, with a lock icon next to it.
+  - **Pedestal**: Icon resembling a pedestal, with no additional icon next to it.
+  - **AutoRifle**: Icon resembling a gun, with no additional icon next to it.
+  - **Shoot**: Icon resembling a target, with no additional icon next to it.
+  - **Target**: Icon resembling a target, with no additional icon next to it.
+  - **Text**: Icon resembling text, with no additional icon next to it.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the "Hierarchy" title at the top.
+- The child nodes are arranged in a vertical list beneath the parent node.
+- There are no arrows or lines connecting the elements, indicating a simple hierarchical structure without nested sub-items.
+
+</details>
+
+<p></p>
+
+
 
 The **Hierarchy** panel displays the list of objects in the current scene, such as 3D models and script components. When you add objects to your scene, entries for them also appear in your **Hierarchy**. You can use this panel to sort and group the objects for selecting or filtering.
 
@@ -25,19 +106,95 @@ For more information, see the [Hiearchy Panel Overview](../../Hierarchy%20window
 
 ## Scene panel
 
-![Objects in a scene shown in the Scene panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/465978691_585041157367173_1686215405507430871_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=OMwyO-FmHyIQ7kNvwEwMvwz&_nc_oc=AdlrLce0hy9wjIWVva-gLa9KSYwlv3bPiYgf8xGwYaJXz_-8wW8Q_G400lgNMPlYkaE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0W-s9_fWfoUsB4TOHbPRWw&oh=00_AfnPkUB9W-a6H0M0CaQp7s60lXB0sky4gRs0CrjmAYqTdQ&oe=694BD172)
+<details>
+<summary>Objects in a scene shown in the Scene panel</summary>
+
+<p></p>
+
+[Objects in a scene shown in the Scene panel](../../../../../images/output/img_20251211_050110_20251211_050110.md)
+
+### Overview
+This image depicts a virtual environment with various objects and characters. The scene includes a character model, floating blocks, and a user interface element. The ground is tiled, and the sky is clear blue.
+
+### Key Elements
+- **Character Model**: A humanoid figure wearing a blue outfit is standing near a transparent cube. The character has a blue icon above its head.
+- **Transparent Cube**: Positioned behind the character, it appears to be a container or display case.
+- **Floating Blocks**: Several blocks of different shapes and colors (purple, brown, white) are suspended in mid-air.
+- **User Interface Element**: A purple rectangular box with the letters "Aa Aa" is located towards the upper right.
+- **Weapons**: Two futuristic-looking weapons are placed on the ground, one near the bottom left and another near the center-right.
+- **Ground**: The surface is made up of large stone tiles arranged in a grid pattern.
+- **Sky**: The background is a clear blue sky without clouds.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the character model and the floating blocks. The character is positioned centrally but slightly to the left, while the blocks are scattered around the scene. The weapons are placed on the ground, and the user interface element is in the upper right corner. There are no explicit arrows or lines connecting the elements, suggesting a free-form layout typical of a game or simulation environment.
+
+</details>
+
+<p></p>
+
+
 
 The **Scene** panel is the window located in the middle of the desktop editor screen. It displays the scene you’re currently working on. When you add objects to a scene, they will appear in the world.
 
 ## Properties panel
 
-![The Properties pane containing a selected object's properties](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/465911774_585041190700503_36900092648037845_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=VXOiRlbmNZwQ7kNvwGBw0cz&_nc_oc=AdnhipdXFU7w1ZcRsHvAK99vsPk8sjOhm0lKj_Zwfcqqydmc7HRWVMdreG9QVDWuDB8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0W-s9_fWfoUsB4TOHbPRWw&oh=00_Afn7oKb3PWcBFBSxFalgIkjQrVm4VcsxRx3Sbd050pW3mQ&oe=694BB5C3)
+<details>
+<summary>The Properties pane containing a selected object's properties</summary>
+
+<p></p>
+
+[The Properties pane containing a selected object's properties](../../../../../images/output/img_20251211_050209_20251211_050209.md)
+
+### Overview
+This image depicts a user interface element from a game development tool, specifically a properties panel for configuring a game object named "SpawnPoint." The layout is structured with various data fields and toggles related to the object's behavior and attributes.
+
+### Key Elements
+- **Header**: "Properties" at the top.
+- **SpawnPoint Label**: A text field labeled "SpawnPoint."
+- **Debug Data Section**: Contains "Generic Entity Data" and "Script Instance Data."
+- **Behavior Section**: Includes toggles and input fields such as "Spawn on start," "Set Position Only," "Player Gravity," "Player Speed," and "Force HWXS Camera."
+- **Attributes Section**: Displays "Position," "Rotation," and "Scale" with numerical inputs.
+- **GameplayTags Section**: A search bar for attaching tags and a plus sign for adding new tags.
+
+### Visual Flow / Relationships
+The interface is organized into distinct sections with clear headings. The toggles and input fields are arranged vertically under their respective sections. The most prominent elements are the toggles and input fields within the "Behavior" and "Attributes" sections, which are visually emphasized through their placement and the use of checkboxes and sliders.
+
+</details>
+
+<p></p>
+
+
 
 When you select an object from the **Hierarchy**, or from the scene, its properties display in the **Properties** panel. From here, you can make specific changes to the details of that object.
 
 ## Assets library
 
-![The Assets Library](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/476791345_671848628686425_5944046758916685547_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=VL0sRP3ZKMkQ7kNvwGKb6HK&_nc_oc=Adm42SMAP1CjeDgxfNuPkprR_EdxK3_LTSANzF8cwb2jzmBS3YTM7qcG9W4GBSv9J3Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0W-s9_fWfoUsB4TOHbPRWw&oh=00_Afkn0VY3mob2aNLtC841mwwJABhGJOmGC-K2DkBqygzAKQ&oe=694BDBF4)
+<details>
+<summary>The Assets Library</summary>
+
+<p></p>
+
+[The Assets Library](../../../../../images/output/img_20251211_050300_20251211_050300.md)
+
+### Overview
+This image depicts a user interface of an asset library within a software application. The layout includes a sidebar with navigation options, a search bar at the top, and a grid of asset thumbnails below. The interface has a dark theme with light-colored text and icons.
+
+### Key Elements
+- **Sidebar Navigation**: Located on the left side, with two main sections labeled "Public Assets" and "My Assets." Each section has an icon next to its title.
+- **Search Bar**: Positioned at the top-center, with a magnifying glass icon and placeholder text "Search Asset Library."
+- **Asset Thumbnails**: A grid of six thumbnail images arranged horizontally across the bottom half of the screen. Each thumbnail contains a small image with a label underneath.
+- **Tabs**: At the very top, there are tabs labeled "Asset Library," "Console," and "Tests."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The search bar is the most prominent due to its central placement and the presence of the magnifying glass icon.
+- **Arrows/Connectors**: No arrows or connectors are visible.
+- **Spatial Relationships**: The sidebar is on the left, the search bar is centered at the top, and the asset thumbnails are arranged in a single row below the search bar.
+
+</details>
+
+<p></p>
+
+
 
 The **Assets Library** contains your public and private assets library. It shows all of the asset folders for your world, in which you store any assets you create or import.
 
@@ -45,7 +202,39 @@ For more information, see [Introduction to the desktop editor Asset Library](../
 
 ## Console tab
 
-![The desktop editor Console](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/465844801_585041100700512_6231136068198465384_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=s5EmvYk8SeYQ7kNvwFnerO8&_nc_oc=Adm4zhY2AQplpetSxpNTrZMtxJAjN6uLhdOG2VpwOxfiWZ69WzSyQYAopA4iQX8EB14&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0W-s9_fWfoUsB4TOHbPRWw&oh=00_AfkVxIs8TJ86vE6pyz74FL3k3CyxEllHthlpK_EnEDMw2Q&oe=694BCA8E)
+<details>
+<summary>The desktop editor Console</summary>
+
+<p></p>
+
+[The desktop editor Console](../../../../../images/output/img_20251211_050356_20251211_050356.md)
+
+### Overview
+This image depicts a console interface within a software application. The layout includes a header with tabs, a message area displaying logs, and various status indicators.
+
+### Key Elements
+- **Header**: Located at the top, contains tabs labeled "Simulation View," "Clear," "System," "User," and others.
+- **Tabs**: 
+  - "Simulation View" has a dropdown arrow indicating more options.
+  - "Clear" is a button.
+  - Status indicators include:
+    - "i" icon with "2" next to it.
+    - "⚠️" icon with "0" next to it.
+    - "❌" icon with "0" next to it.
+  - "System" and "User" tabs are highlighted, suggesting active selection.
+- **Message Area**: Below the header, displays log messages with timestamps and sources ("Client" and "Server").
+- **Status Indicators**: Icons and numbers indicating system statuses.
+- **Search Bar**: Located at the far right of the header.
+- **Icons**: Small icons next to the messages indicating the source ("Client" and "Server").
+
+### Visual Flow / Relationships
+The most prominent visual elements are the messages in the message area. The messages are arranged in a chronological order based on timestamps. There are no arrows or lines connecting elements, but the layout suggests a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 The **Console** tab opens a panel that displays a running list of status messages generated by the editor and the Meta Horizon Worlds runtime. These messages contain information intended to help you find and fix problems with your world.
 
@@ -53,7 +242,32 @@ For more information, see the [Desktop editor Console](../Editor%20Console.md) p
 
 ## NPC Debugger tab
 
-![NPC Debugger](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/584319327_867432759128010_5941992894065025935_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=pjUaqu55WQ8Q7kNvwFFG6Sp&_nc_oc=Adl737ZsVh_L_2GVhfkt08oeMlpxjRvF4clQ0AO_ldtISFCALXKqTqfOQHzndh8J3Gc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0W-s9_fWfoUsB4TOHbPRWw&oh=00_AfkN7fM7ZFLduMRKRYjZ9OVxE_n80Tu4QcrFHpOmGjSgdw&oe=694BDBAB)
+<details>
+<summary>NPC Debugger</summary>
+
+<p></p>
+
+[NPC Debugger](../../../../../images/output/img_20251211_050504_20251211_050504.md)
+
+### Overview
+The image displays a user interface element labeled "NPC Debugger." It includes a search bar, a dropdown menu, and some toggle switches. The interface is divided into two sections: one on the left side showing a blank area, and another on the right side prompting the user to select a message to view its details.
+
+### Key Elements
+- **Dropdown Menu**: Located at the top-left corner, labeled "Select a gizmo," with a downward arrow indicating a drop-down option.
+- **Clear Button**: Positioned next to the dropdown menu, labeled "Clear."
+- **AI Speech Toggle**: A toggle switch next to the clear button, currently in the 'on' position as indicated by the blue color.
+- **Search Bar**: A search bar with a magnifying glass icon located to the right of the AI Speech toggle.
+- **Blank Area**: A large empty space occupies the left side of the interface.
+- **Message Selection Prompt**: On the right side, there is a prompt that says "Select a message to view its details," accompanied by a magnifying glass icon and a code snippet icon.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "NPC Debugger" title at the top. The dropdown menu, clear button, and AI speech toggle are grouped together on the left side. The search bar is positioned to the right of these controls. The blank area on the left contrasts with the interactive elements on the right, which guide the user to interact with the interface.
+
+</details>
+
+<p></p>
+
+
 
 The **NPC Debugger** tab helps you test your NPC’s behavior and speech and its reaction to players in real-time.
 

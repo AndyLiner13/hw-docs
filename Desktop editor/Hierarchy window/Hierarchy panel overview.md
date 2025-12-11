@@ -17,7 +17,33 @@ From the hierarchy view in the desktop editor, you can drag and drop any entity 
 
 When an entity is at the top of the hierarchy and has no parent, it is called a *root entity*.
 
-![Drag and drop any entity on top of any other entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452514110_512510764620213_1429075691349308108_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=HpqQx5mv1-EQ7kNvwHXncu8&_nc_oc=Adme6T-gtEnbSsiawY0-B-q30vwGjMW92-7Gx6jh_HPXyMh_iHo8-owHoUbckb0meIw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QMdk0SDbmu_9gPTzfR1qtw&oh=00_AflQ75sD1kj2NeOarxAeiww6pgxfiJpDTYEQKYNjJ5xkNw&oe=694BBD57)
+<details>
+<summary>Drag and drop any entity on top of any other entity</summary>
+
+<p></p>
+
+[Drag and drop any entity on top of any other entity](../../../../images/output/img_20251211_061609_20251211_061609.md)
+
+### Overview
+This image depicts a user interface element showing a hierarchical structure, likely from a game development or asset management tool. The interface includes a search bar at the top, a filter icon, and a tree-like structure displaying nested objects.
+
+### Key Elements
+- **Search Bar**: Located at the top-left, it has a magnifying glass icon and the placeholder text "> Search hierarchy <".
+- **Filter Icon**: Positioned to the right of the search bar, resembling a funnel.
+- **Tree Structure**: Below the search bar, it displays a nested list of objects.
+  - **[Spawn Point]**: A small icon resembling a rocket ship appears next to this entry.
+  - **Cube**: This item is expanded, indicated by a downward-pointing triangle next to its name. It is highlighted in blue, suggesting it is currently selected or active.
+  - **Cone**: Nested under the Cube, indicated by a smaller downward-pointing triangle.
+  - **Sphere**: Nested under Cone, also indicated by a smaller downward-pointing triangle.
+
+### Visual Flow / Relationships
+The most prominent visual element is the **Cube**, as it is highlighted and expanded. The visual flow follows a hierarchical structure, moving from the top-level [Spawn Point] down through the nested objects. Arrows and triangles indicate the parent-child relationships within the hierarchy.
+
+</details>
+
+<p></p>
+
+
 
 ### Empty objects
 
@@ -27,7 +53,31 @@ Empty objects have their own rules for visualization. In order to keep them from
 
 **Note**: This visualization of the empty object does not scale with its child objects, because it’s just a UI marker and not part of the content itself.
 
-![Empty objects remain invisible until selected or become parents](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452541301_512510767953546_1065862861088532929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=LBhI4bY6T54Q7kNvwEjATWD&_nc_oc=AdkSdrBdsP0kOKIkRcQIQtxAmmyFVXwEh3zRIs2vpXK_ycn5KcexiJBxdDNkn_YVpwU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QMdk0SDbmu_9gPTzfR1qtw&oh=00_AfkZnMOtVolhvE4tdkDE1LiJM1ARbQE-iZ9qe3CXzuxc9Q&oe=694BE851)
+<details>
+<summary>Empty objects remain invisible until selected or become parents</summary>
+
+<p></p>
+
+[Empty objects remain invisible until selected or become parents](../../../../images/output/img_20251211_061657_20251211_061657.md)
+
+### Overview
+The image depicts a 3D model of a cube with a grid background. The cube is rendered in a simple, clean style, likely intended for a design or modeling software environment.
+
+### Key Elements
+- **Visual Description**: The cube is a solid blue with white checkered edges, suggesting a transparent or semi-transparent material.
+- **Location**: The cube is centered in the image.
+- **Contents**: The cube has a uniform blue color with white checkered patterns along its edges.
+- **Visual Styling**: The cube has a smooth surface with soft lighting, giving it a slightly glossy appearance. The background is a light gray grid, which helps in visualizing the cube's dimensions.
+
+### Visual Flow / Relationships
+- **Most Prominent Visually**: The cube is the focal point of the image.
+- **Spatial Relationships**: There are no arrows, lines, or connectors. The cube is the only object in the image, and the grid serves as a backdrop to indicate perspective and scale.
+
+</details>
+
+<p></p>
+
+
 
 ### Pivot around parent objects
 
@@ -40,7 +90,42 @@ To pivot an object around its parent:
 - Select Pivot from the dropdown menu in the top menu bar.
 - Use the manipulators to rotate or scale the grouped object and observe how it pivots in relation to the parent object.
 
-![Pivot around parent objects](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452532398_512510757953547_2671853206226151862_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=VYCFSaSUB0MQ7kNvwHknAwQ&_nc_oc=AdkDqiVouFutGuEAZtNiowQjIdPZDvKmfSGmHnuisYIUDuDoRKPdn174eIZT9fZUmCk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QMdk0SDbmu_9gPTzfR1qtw&oh=00_AfmcA8hcQuqU3oQHGEZCxU0rKcMqB1frstu2nQifAVPcaQ&oe=694BD4A7)
+<details>
+<summary>Pivot around parent objects</summary>
+
+<p></p>
+
+[Pivot around parent objects](../../../../images/output/img_20251211_061803_20251211_061803.md)
+
+### Overview
+This image depicts a user interface element showing a dropdown menu with two options: "Center" and "Pivot". The dropdown is triggered by a button labeled "Local" with a downward arrow indicating a drop-down action. The interface has a blue background with some icons and buttons at the top left corner.
+
+### Key Elements
+- **Visual description**: The dropdown menu is rectangular with rounded corners.
+- **Location**: Positioned below the "Local" button.
+- **Contents**: Contains two options: "Center" and "Pivot".
+- **Visual styling**: The dropdown has a light blue background with white text. The "Center" option is highlighted in a darker shade of blue, suggesting it is currently selected.
+
+- **Visual description**: The "Local" button is a small rectangle with rounded corners.
+- **Location**: Located at the top left of the image.
+- **Contents**: The word "Local" is written in white text on a dark gray background.
+- **Visual styling**: The button has a subtle shadow effect, giving it a slightly raised appearance.
+
+- **Visual description**: The icons at the top left corner appear to be part of a toolbar.
+- **Location**: Positioned at the very top left corner of the image.
+- **Contents**: There are four icons visible, but their specific functions are not discernible from the image alone.
+- **Visual styling**: The icons are small and appear to be in a dark gray or black color, with white highlights.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The dropdown menu is the most prominent feature due to its size and the fact that it is open.
+- **Arrows/lines/connectors**: There are no arrows, lines, or connectors visible in the image.
+- **Spatial relationships**: The dropdown menu is directly below the "Local" button, and the icons are positioned to the left of the dropdown.
+
+</details>
+
+<p></p>
+
+
 
 ### Direct selection of children in the scene
 

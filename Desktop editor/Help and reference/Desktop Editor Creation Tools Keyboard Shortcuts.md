@@ -6,7 +6,41 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 You can access Keyboard Shortcuts from the desktop editor by clicking on the three-dot menu and selecting **Keyboard shortcuts**.
 
-![Image of Keyboard Shortcuts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/500105721_723378303533457_7443828204987334499_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=qaXeCVtOHa4Q7kNvwGdfbqM&_nc_oc=AdmqL71oUTzsKC1q91pg2ZzoS98Hgi8OmiRUjrn4aBzq7MaTjz30kW-1ND-Dx_xEJr8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=hmskSgaPKBd7mdcth8EUJw&oh=00_AflKU94SlYREzqgAcMph4IlOKucFC26mgNE5th3n2N37mw&oe=694BD666)
+<details>
+<summary>Image of Keyboard Shortcuts</summary>
+
+<p></p>
+
+[Image of Keyboard Shortcuts](../../../../images/output/img_20251211_053249_20251211_053249.md)
+
+### Overview
+The image displays a user interface menu with a dropdown menu open on the left side. The main interface has several navigation options at the top, and the dropdown menu contains a list of commands related to world management and settings.
+
+### Key Elements
+- **Visual description**: The dropdown menu is a vertical list of options.
+- **Location**: Located on the left side of the screen.
+- **Contents**: 
+    - Return to Creation Home
+    - View Application Logs
+    - Launch Typescript Editor
+    - Publish World
+    - Rename World
+    - Save Backup
+    - Backups
+    - Export Geometry
+    - World capacity
+    - Keyboard Shortcuts
+- **Visual styling**: The dropdown menu has a dark background with white text. Each option is separated by a thin horizontal line.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the dropdown menu itself.
+- There are no arrows or lines connecting elements, but the dropdown menu implies a hierarchical relationship with the main navigation bar above it.
+
+</details>
+
+<p></p>
+
+
 
 ## Build mode
 

@@ -8,7 +8,32 @@ The following sections provide troubleshooting tips for a variety of common situ
 
 You can report bugs or submit suggestions through the desktop editor by selecting the **Report a problem** menu option.
 
-![Desktop editor menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/477778594_650754094129212_8861686553192081413_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=x3EoZcdvRxUQ7kNvwEBF0Gi&_nc_oc=AdkvTjNUHFzvjROvlY3e5yTZVEfwrI_Fi6NvYqbDsGxr94p7nPfFkvGAt2fWH-76cPw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=HU5PT_gOifxdBdAFLVYkpg&oh=00_AfmDbUJMx8vJb6x-lgjPx8DCAVW8nhoeuerDwKIKtO9vow&oe=694BCA2A)
+<details>
+<summary>Desktop editor menu</summary>
+
+<p></p>
+
+[Desktop editor menu](../../../../images/output/img_20251211_053335_20251211_053335.md)
+
+### Overview
+This image depicts a dropdown menu with a dark theme, likely from a software application interface. The menu contains a list of options arranged vertically, each with a distinct label and some with additional details enclosed in brackets.
+
+### Key Elements
+- **Visual description**: The dropdown menu has a rectangular shape with rounded corners.
+- **Location**: Positioned on the left side of the screen, partially covering the main content area.
+- **Contents**: The menu items include labels such as "Return to Creation Home," "View Application Logs," "Launch Typescript Editor," etc.
+- **Visual styling**: The background is a dark gray, and the text is white, providing good contrast. Each menu item is separated by a thin horizontal line.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The menu itself is the focal point due to its central placement and larger size compared to the surrounding elements.
+- **Arrows, lines, connectors**: There are no arrows or lines connecting the menu items.
+- **Spatial relationships**: Items are stacked vertically, with each item occupying a single line. There is no overlap or adjacency among the items.
+
+</details>
+
+<p></p>
+
+
 
 For more information about reporting a bug, filing a suggestion, or editing a submitted report check the [Feedback tool documentation](../../Get%20started/Feedback%20tool.md).
 

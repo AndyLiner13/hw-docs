@@ -8,7 +8,36 @@ This page provides a break down of the NPC examples used in the NPC Example Worl
 
 You can select the **NPC Examples** option from the **Creation Home** view.
 
-![Creation Home NPC examples tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480582165_656797603524861_7097745054728250127_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=mSJhzj0PVr0Q7kNvwEcmZ9C&_nc_oc=Adn8wLyhbVHmtJnhe3L7D2v43Qx4OsBVlCWVob00iGzFNrC2g059Mgp8aul-L2tMPjU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_Afkh9rrkdmDvgcsFgI-tE7gVhlAX4xzgRxHxgrkzQvNULQ&oe=694BEA32)
+<details>
+<summary>Creation Home NPC examples tutorial world</summary>
+
+<p></p>
+
+[Creation Home NPC examples tutorial world](../../../../images/output/img_20251211_072110_20251211_072110.md)
+
+### Overview
+The image displays a user interface of a platform called "Creation Home," specifically within the "Tutorials" section. It features a grid layout showcasing various tutorials related to game development and TypeScript. Each tutorial card includes a thumbnail image, a title, and a brief description.
+
+### Key Elements
+- **Left Sidebar**: Contains navigation options such as "Home," "My worlds," "Tutorials," "Templates," and "Documentation." The "Tutorials" option is highlighted in blue, indicating the current selection.
+- **Main Content Area**: Displays six tutorial cards arranged in two rows of three. Each card has a thumbnail image, a title, and a brief description.
+    - **Card 1**: Title: "Spawning and Pooling in TypeScript," Description: "Spawning and Pooling Tutorial W..."
+    - **Card 2**: Title: "Typescript Multiplayer Lobby Controls," Description: "Typescript Multiplayer Lobby Co..."
+    - **Card 3**: Title: "Developing for Mobile and Web Players: Completed Examples," Description: "Developing for Mobile and Web Pl..."
+    - **Card 4**: Title: "Camera API Examples," Description: "Camera API Examples"
+    - **Card 5**: Title: "Text as an Asset," Description: "Text as an Asset"
+    - **Card 6**: Title: "NPC Examples," Description: "NPC Examples"
+
+### Visual Flow / Relationships
+- The most prominent visual elements are the tutorial cards, which are arranged in a grid layout.
+- Arrows or lines connecting elements are absent.
+- The spatial relationship is hierarchical, with the left sidebar providing navigation and the main content area displaying the tutorials.
+
+</details>
+
+<p></p>
+
+
 
 ## NPCAgent.ts
 

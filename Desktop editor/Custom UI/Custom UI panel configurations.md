@@ -8,11 +8,72 @@ Find these settings by first selecting the **Custom UI** gizmo entity in **Hiera
 
 The following image shows the custom UI panel configuration settings in the desktop editor.
 
-![The custom UI panel configuration in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/479557627_652143570656931_7702822996273811762_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=iaK8ircYNOkQ7kNvwHSXb2z&_nc_oc=Adno8R6xYa_8wdO-p9HCv4mGUyj6cWErfl146Qotyt_6m-vaich6URd6gvcQk_lGK9U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g4ecFc26Mi8gqRWX2g3x7Q&oh=00_Afm8zl_ceEWh82CJ-NWohGNCn35d40wdP39HW7rnBAtrYQ&oe=694BDA68)
+<details>
+<summary>The custom UI panel configuration in the desktop editor</summary>
+
+<p></p>
+
+[The custom UI panel configuration in the desktop editor](../../../../images/output/img_20251211_030009_20251211_030009.md)
+
+### Overview
+This image depicts a user interface (UI) settings panel, likely from a game development tool or engine. The panel is divided into sections for different properties and data related to custom UI elements. The layout includes a sidebar with a gradient background transitioning from light blue to dark blue, and a main content area with a dark theme.
+
+### Key Elements
+- **Sidebar (Left Panel)**: A light blue gradient background with a darker blue sidebar header containing a camera icon and a dropdown menu labeled "1.0" with a downward arrow.
+- **Main Content Area (Right Panel)**: A dark background with white text and some interactive elements.
+  - **Header**: "Properties" at the top.
+  - **Custom UI Section**: Contains a header "CustomUI" with a small icon resembling a lock.
+  - **Debug Data**: Includes "Entity Id: 100003" and "Script Instance Data".
+  - **Visual & Interaction Section**: Contains options like "Display mode", "Raycast", "Raycast distance", "Mipmap", "Mipmap bias", "Web and Mobile" with a "Focus prompt" option.
+  - **Interactive Elements**: Toggle switches next to "Raycast", "Mipmap", and "Focus prompt".
+
+### Visual Flow / Relationships
+The layout is structured with a clear separation between the sidebar and the main content area. The sidebar is on the left, and the main content area occupies the right side. The interactive elements within the main content area are arranged vertically, with labels followed by toggle switches. The "Raycast distance" field has a black input box with the number "3" entered.
+
+</details>
+
+<p></p>
+
+
 
 The following image shows the custom UI panel configuration settings in the VR edit mode.
 
-![The custom UI panel configuration in the VR edit mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452635956_512500284621261_5681983915311645745_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=9siOG5jsTh0Q7kNvwFTVQ-V&_nc_oc=AdnMMDIDzXjTStBtmwH5as2EcnP-KiCDy7GGAaMtL6SYsVYDIcfELHaD4p8xezhYRNA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g4ecFc26Mi8gqRWX2g3x7Q&oh=00_AfnHfhOWI32on6AccZVANLvdSBIenSudaVNbhWiEXCMJnA&oe=694BCB35)
+<details>
+<summary>The custom UI panel configuration in the VR edit mode</summary>
+
+<p></p>
+
+[The custom UI panel configuration in the VR edit mode](../../../../images/output/img_20251211_030116_20251211_030116.md)
+
+### Overview
+This image depicts a user interface (UI) panel from a software application, likely related to game development or 3D modeling, given the presence of terms like "Raycast," "Mipmap," and "Attached Script." The UI is divided into two main sections: one for visual and interaction settings, and another for attached scripts.
+
+### Key Elements
+- **Top Panel (Visual & Interaction):**
+  - **Header:** "CustomUI" at the top-left corner.
+  - **Tabs:** Three tabs labeled "Visual & Interaction," "Web and Mobile," and "Behavior."
+  - **Settings:**
+    - **Raycast:** A toggle switch labeled "On" with a green dot indicating it is enabled.
+    - **Raycast distance:** A slider set to "3."
+    - **Mipmap:** Another toggle switch labeled "On" with a green dot indicating it is enabled.
+    - **Mipmap bias:** A slider set to "0.9."
+
+- **Bottom Panel (Attached Script):**
+  - **Header:** "Attached Script" at the top-left corner.
+  - **Dropdown Menu:** A dropdown menu labeled "Uldemo2:Uldemo2" with a downward arrow indicating it can be expanded.
+  - **Script Fields:**
+    - **texture:** A field labeled "wallpaper" with a cross icon next to it.
+    - **trigger:** A field labeled "<empty>" with a cross icon next to it.
+    - **ball:** A field labeled "<empty>" with a cross icon next to it.
+
+### Visual Flow / Relationships
+The visual hierarchy is clear, with the top panel being more prominent due to its larger size and the placement of the "Raycast" toggle switch. The bottom panel is less prominent but still important as it contains script fields that can be interacted with. There are no arrows or lines connecting elements, so the relationship is primarily through the layout and the user's interaction with the UI.
+
+</details>
+
+<p></p>
+
+
 
 There are no TypeScript APIs for these configurations. They can only be set statically in **Properties** and cannot be changed at runtime.
 
@@ -44,7 +105,29 @@ When mipmap is enabled, the mipmap value setting becomes visible. The range for 
 
 Unlike in VR, players do not interact with UI panels through raycast on web and mobile platforms. Instead, players see a prompt when they are within a certain distance from the UI panel, prompting them to press “E” key. If they do, the camera will zoom in and focus onto the UI panel, and players can interact with the UI through clicking or tapping.
 
-![The player sees the UI panel Hello World](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578647_512500234621266_5966921107344277803_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=mf3fU8T9-4gQ7kNvwGIhzp5&_nc_oc=AdkKBXmV18j-GMuk6fy_EjWD8QfjmSbMWLRU7-1v_9SMCR4kG2V6EAy3F-kJV3alrkw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g4ecFc26Mi8gqRWX2g3x7Q&oh=00_Afn1bnRAi9tZRUfMG-ToCLWYIZ8D-w2mlxXSKEbDz6SBkw&oe=694BD1AF)
+<details>
+<summary>The player sees the UI panel Hello World</summary>
+
+<p></p>
+
+[The player sees the UI panel Hello World](../../../../images/output/img_20251211_030216_20251211_030216.md)
+
+### Overview
+This image depicts a virtual environment with a character facing away from the viewer. The character is wearing a light gray hoodie and dark pants. There is a floating interface element near the character's right side, containing an icon and some text. Above the character, there is a rectangular bar with text inside it.
+
+### Key Elements
+- **Character**: A figure with short black hair, viewed from behind. Wearing a light gray hoodie and dark pants.
+- **Floating Interface Element**: Located to the right of the character, near the bottom right quadrant. Contains a white square with the letter 'E' inside and a hand cursor icon pointing towards it.
+- **Text Bar**: Positioned above the character, spanning horizontally across the screen. Contains the text "Hello World".
+
+### Visual Flow / Relationships
+The most prominent visual element is the floating interface element near the character. The text bar above the character is less prominent but still noticeable. The hand cursor icon suggests interactivity, implying that clicking the 'E' might trigger an action.
+
+</details>
+
+<p></p>
+
+
 
 When the focus prompt is disabled, players cannot zoom in and focus onto the UI panel and they cannot interact with the panel.
 

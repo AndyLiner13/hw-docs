@@ -13,24 +13,183 @@ To make your asset public:
 
 - Select any asset in **My Assets** by clicking on its preview.
 
-  ![Asset's preview](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/497968432_719235307281090_6431432537667238546_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=HgxT0fgrogkQ7kNvwFpGNhN&_nc_oc=Adlh7VbhUOlo1Rff4Wls3tHJwzr0j5a4RktltrnTdoL4UZKiOM3sRMdOPfwGfW8B_Uk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_AfmP5nOVRCm94YEnE0V1TE3avd2bfuGBfX1-IurjNI8JMw&oe=694BE6E2)
+  <details>
+<summary>Asset's preview</summary>
+
+<p></p>
+
+[Asset's preview](../../../../images/output/img_20251211_021853_20251211_021853.md)
+
+### Overview
+This image depicts a user interface from an asset management tool, specifically showing the "Asset Library" section. The layout includes navigation tabs at the top, a sidebar with folders, and a central area displaying asset thumbnails and options.
+
+### Key Elements
+- **Navigation Tabs**: Located at the top, labeled "Asset Library," "Console," "Tests," and "Performance." The "Asset Library" tab is highlighted, indicating the current view.
+- **Sidebar**: On the left side, under the "Asset Library" tab, there are two sections: "Public Assets" and "My Assets." "My Assets" is expanded, revealing nested folders and assets.
+    - **Public Assets**: A folder icon with a lock symbol next to it, indicating restricted access.
+    - **My Assets**: Expanded to show subfolders and assets. "All Assets" is further expanded to reveal "My Folders" and "My Assets."
+    - **Shared With Me**: A folder icon with a person symbol, indicating shared assets.
+- **Central Area**: Displays asset thumbnails and options related to them.
+    - **Asset Thumbnails**: Two chair images are shown, one orange ("Orange chair") and one white ("chair").
+    - **Options**: Below the thumbnails, there is a dropdown menu labeled "Add New" with a downward arrow, suggesting additional actions can be performed.
+    - **Navigation Path**: At the top right, there is a breadcrumb trail showing the path: "All Assets > My Folders > My Assets."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The expanded "My Assets" folder in the sidebar.
+- **Arrows and Lines**: None explicitly shown, but the dropdown menu suggests a potential interaction point.
+- **Spatial Relationships**: The sidebar is on the left, the navigation path is at the top right, and the asset thumbnails are displayed centrally.
+
+</details>
+
+<p></p>
+
+
 - In the **Asset details** panel, click **Make asset public**.
 
-  ![Asset details - make asset public button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/497503303_719235290614425_6420250686078170815_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zJW0Byl4A40Q7kNvwEA-pQQ&_nc_oc=Adk19GxXmqpJjgVLglN8ycYOahQ0wVRAez7gphaVYxrb6m4Ew2UFRrjqr4nSWdDQp4E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_Afk6Yzf5O8dGo1zgiqyAGb8iJ-maMjPKwzIHw5AHH4BwdQ&oe=694BE46B)
+  <details>
+<summary>Asset details - make asset public button</summary>
+
+<p></p>
+
+[Asset details - make asset public button](../../../../images/output/img_20251211_021947_20251211_021947.md)
+
+### Overview
+The image displays a user interface element showing a 3D model of a chair. Below the chair image, there is a form for entering a description and various metadata fields related to the asset.
+
+### Key Elements
+- **Chair Image**: A 3D model of a chair with orange cushions and a woven backrest. It is centered in the upper part of the image.
+- **Description Input Box**: Located below the chair image, it has a placeholder text "Enter Description."
+- **Metadata Fields**: 
+  - **Asset Type**: "3D Model"
+  - **Asset ID**: "1210248497378367"
+  - **Owner**: "metaeditorcreator"
+  - **Created**: "May 2, 2025 at 7:23 PM"
+  - **Folder**: "My Assets"
+  - **Tag(s)**: "Add" (a clickable element)
+- **Public Asset Availability Section**: Contains a toggle button labeled "Make asset public."
+
+### Visual Flow / Relationships
+- The chair image is the most prominent visual element.
+- The metadata fields are arranged vertically below the chair image.
+- The description input box is positioned above the metadata fields.
+- The "Make asset public" button is at the bottom of the interface.
+
+</details>
+
+<p></p>
+
+
 - Check that the **name** and **description** will still be relevant once the asset is shared with other creators, and update it if needed.
 
-  ![Make asset public modal window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/498189666_719235273947760_896622341323617970_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=KvZd6hXgLDAQ7kNvwG4vdJp&_nc_oc=Adne2GRy-xMMjT5jqWh7Oi_Ba2VqEMlRMng_6DOMY1nMw52g6y_oj8GGTpxlG4co2y4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_Aflh59iSLOvlX23qcdZvOy_gLpGkz9Ik9W40Ujf-XPOWUg&oe=694BC97C)
+  <details>
+<summary>Make asset public modal window</summary>
+
+<p></p>
+
+[Make asset public modal window](../../../../images/output/img_20251211_022048_20251211_022048.md)
+
+### Overview
+This image depicts a user interface for making an asset public within a platform, likely related to digital content creation or sharing. The form includes fields for naming, describing, categorizing, and tagging the asset. There's also a thumbnail preview of the asset, along with a note explaining the implications of making the asset public.
+
+### Key Elements
+- **Name (required)**: Located at the top left, this field contains the text "Orange chair." It has a counter indicating "12/30," suggesting a character limit.
+- **Description**: Below the name field, there's a text area labeled "Describe your asset," currently empty.
+- **Category (required)**: Positioned below the description field, this section includes a dropdown menu set to "Interiors."
+- **Additional category**: Adjacent to the category dropdown, another dropdown is set to "Furniture."
+- **Tag(s)**: A small button labeled "chair" is visible under the tag section.
+- **Thumbnail**: On the right side, there's a thumbnail image of an orange chair with a light brown seat cushion.
+- **Note**: A section at the bottom explains the implications of making the asset public, mentioning access permissions and potential removal criteria.
+- **Buttons**: At the bottom, there are two buttons: "Cancel" and "Make public."
+
+### Visual Flow / Relationships
+The form is structured linearly from top to bottom, with the name field first, followed by the description, categories, tags, and finally the thumbnail and note. The buttons at the bottom are aligned horizontally, with "Cancel" on the left and "Make public" on the right.
+
+</details>
+
+<p></p>
+
+
 - Add the relevant categories and tags to make it easier for creators to discover your asset.
 - Upload a thumbnail to give creators an idea of what your asset looks like.
 - Click **Make public**.
 
 Once your asset is published, go to **Public assets** to view your published asset. You can use the search box to find it quickly by the name.
 
-![Search published asset](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/496638209_719235303947757_3925284670688064436_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=8lgex6GezzsQ7kNvwEA7Xsu&_nc_oc=Adna2-sPuxptpIsxHXLlbXzEaWCemBLcW_yqMqooiLIsqMx3x4KLuVM8ZR0G8MNj4QQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_AfkJXH2bQcNtpThlCnPYNwqugz4DO4f1z3TMeTaHRfqOyw&oe=694BE5C0)
+<details>
+<summary>Search published asset</summary>
+
+<p></p>
+
+[Search published asset](../../../../images/output/img_20251211_022154_20251211_022154.md)
+
+### Overview
+This image depicts a user interface of an asset library within a software application. The layout includes a sidebar with categories, a search bar at the top right, and a grid of asset thumbnails in the center. The interface appears to be part of a game development tool or similar application.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **Public Assets**: A section labeled "Public Assets" with a folder icon.
+  - **My Assets**: A section labeled "My Assets" with a folder icon.
+- **Top Bar (Header)**:
+  - **Tabs**: Three tabs labeled "Console," "Tests," and "Performance."
+  - **Search Bar**: A search bar with the placeholder text "orange" and a magnifying glass icon.
+- **Main Content Area (Center)**:
+  - **Grid of Asset Thumbnails**: A series of thumbnail images arranged in a grid layout.
+    - **Large Banner...**: A yellow banner with a flag icon.
+    - **Tavern Banner...**: Another yellow banner with a flag icon.
+    - **Door - Orange**: An orange door with a handle.
+    - **Orange Rotten**: A decayed orange.
+    - **Soda Orange**: A bottle of soda with an orange label.
+    - **Orange**: A fresh orange.
+    - **Orange chair**: A chair with an orange seat and backrest.
+- **Footer (Not Visible)**: The bottom part of the interface is not shown in the image.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The search bar at the top right.
+- **Arrows/Connectors**: None visible.
+- **Spatial Relationships**: Elements are arranged in a grid layout, with thumbnails aligned horizontally and vertically. The search bar is positioned above the grid, and the sidebar is on the left side of the screen.
+
+</details>
+
+<p></p>
+
+
 
 To view all the assets you have published, navigate to **My Assets** and click on **Added to public assets**.
 
-![Added to public assets section](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/496813933_719235287281092_1117305794773549864_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=cWu3fHeHU-wQ7kNvwHsEMaI&_nc_oc=Adk7oa_yIds7jI_TDLp6IqKQsaFEHGRocZaWj2iehhl4fiRyMbH_v1jKtkC8SL_NMuU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_AfmPU1l4fSao_W8uylS7SenhzQp7t7dC1AgUUlzvJFCANQ&oe=694BE253)
+<details>
+<summary>Added to public assets section</summary>
+
+<p></p>
+
+[Added to public assets section](../../../../images/output/img_20251211_022315_20251211_022315.md)
+
+### Overview
+This image depicts a user interface section of an asset management tool, specifically showing the "Asset Library" view. The layout includes a sidebar with navigation options and a main content area displaying asset categories.
+
+### Key Elements
+- **Sidebar Navigation**:
+  - **Public Assets**: A folder icon next to the text "Public Assets," located at the top-left of the sidebar.
+  - **My Assets**: A folder icon next to the text "My Assets," located below "Public Assets."
+- **Main Content Area**:
+  - **Header**: At the top, there are tabs labeled "Asset Library," "Console," "Tests," and partially visible "Per..." indicating more tabs.
+  - **Add New Button**: A button labeled "Add New" with a dropdown arrow, located above the main content area.
+  - **Selected Category**: "Added to public assets" is highlighted with a blue border, indicating it is currently selected.
+  - **All Assets Section**: Below the selected category, there is a dropdown menu titled "All Assets" with subcategories:
+    - **My Folders**: A folder icon followed by the text "My Folders."
+    - **My Assets**: A folder icon followed by the text "My Assets."
+    - **Shared With Me**: A folder icon followed by the text "Shared With Me."
+    - **Deleted assets**: A trash can icon followed by the text "Deleted assets."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The "Added to public assets" category is the most prominent due to its blue highlighting.
+- **Arrows and Lines**: There are no arrows or lines connecting elements, but the dropdown menu suggests a hierarchical relationship between the categories.
+- **Spatial Relationships**: Elements are arranged in a vertical stack within the main content area, with the sidebar navigation on the left and the main content area on the right.
+
+</details>
+
+<p></p>
+
+
 
 **Note:** We may remove an asset if it is found to violate our [Meta Horizon Worlds Content Guidelines](https://www.meta.com/en-gb/help/quest/481214418021533/) or our [Code of Conduct for Virtual Experiences](https://www.meta.com/gb/legal/quest/code-of-conduct-for-virtual-experiences/).
 
@@ -45,10 +204,59 @@ To make changes to your public asset:
 - Modify asset information as needed, including the name, description, category, tags, thumbnail, files and more.
 - Click **Publish update** to make your changes available to other creators. If you don’t select **Publish update**, the changes will only be applied to your own version of the asset.
 
-  ![Publish update button](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497494535_719235300614424_4669335376753486320_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=mRn_2W6y8mAQ7kNvwHrIW8I&_nc_oc=AdmtuDsLDXWnAdiGP1si4dTBWEC-Tan2MjZBqSwutLYuvp7BG-V5Sqf7ESts_2iZ2Lk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_AfmwNUkpiwXCb6qRD43kO2422p3-fTvuH2OJolIfEA2Uow&oe=694BE047)
+  <details>
+<summary>Publish update button</summary>
+
+<p></p>
+
+[Publish update button](../../../../images/output/img_20251211_022403_20251211_022403.md)
+
+### Overview
+This image depicts a user interface element showing information about public asset availability within a platform. It includes a toggle button, a message about asset availability, and a call-to-action button.
+
+### Key Elements
+- **Toggle Button**: Located at the bottom-left corner, it has a circular icon with a line through it, indicating a toggle action.
+- **Message Text**: Positioned centrally, it states, *"This asset is available to other creators in Public assets."*
+- **Call-to-Action Button**: A blue rectangular button at the bottom reads, *"Publish update"*.
+- **Unpublished Updates Section**: Below the message, it says, *"Unpublished updates: description."*
+
+### Visual Flow / Relationships
+The most prominent visual element is the toggle button, as it is the first interactive element encountered. The message text is secondary but important for understanding the asset's availability status. The call-to-action button is the final element, encouraging the user to publish an update.
+
+</details>
+
+<p></p>
+
+
 - Click **Publish update** to add the updated version of your asset to **Public assets**.
 
-  ![Publish update modal window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497808490_719235297281091_4406831414252185964_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=7yjnQ0iWV0oQ7kNvwGRxWkR&_nc_oc=AdkUQiV_k3vgJXYNYwFWOwlx5dTGY8tBRiEodZsxBEaZ8nimd7DPz0JaRuLsiIzET5I&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_Afk82hxqLjkQ7URHogFxQfNglZCBSoBSq_n75ojDHaXD7w&oe=694BE8F1)
+  <details>
+<summary>Publish update modal window</summary>
+
+<p></p>
+
+[Publish update modal window](../../../../images/output/img_20251211_022457_20251211_022457.md)
+
+### Overview
+This image depicts a user interface for publishing an update to a digital asset, specifically a chair. The form includes fields for name, description, category, additional category, tags, and a thumbnail image preview. There is also a warning message at the bottom regarding content guidelines.
+
+### Key Elements
+- **Name (required)**: Located in the top-left area. Contains the text "Orange chair" within a black input field with a counter "12/30" indicating character limit.
+- **Description**: Positioned below the Name field. Contains the text "orange chair" within a black input field.
+- **Category (required)**: Located below the Description field. Contains a dropdown menu set to "Interiors."
+- **Additional category**: Positioned next to Category. Contains a dropdown menu set to "Furniture."
+- **Tag(s)**: Below the Additional category, there is a small gray button labeled "chair."
+- **Thumbnail**: Positioned on the right side of the form. Displays an image of an orange chair against a dark background.
+- **Warning message**: At the bottom of the form, it states, "> This update will be applied to the public asset. We may remove the updated asset if it is found to violate our Meta Horizon Worlds Content Guidelines or our Code of Conduct for Virtual Experiences."
+
+### Visual Flow / Relationships
+The form is structured in a linear fashion, moving from top to bottom. The most prominent visual element is the thumbnail image of the chair. The warning message is the only interactive element that stands out due to its placement and color contrast.
+
+</details>
+
+<p></p>
+
+
 
 When changes become public, you will see a notification. Following the update, creators will be able to view only the latest version of the asset in **Public assets**. To get a new asset version, creators will need to visit **Public assets** and manually import the latest changes. Previously imported asset versions will not be updated.
 
@@ -56,11 +264,60 @@ When changes become public, you will see a notification. Following the update, c
 
 When you update your public asset files, a new version of the asset is created. To manage different versions of your asset open **Version history**. You can do it by clicking on **Version history** in the **Asset details** panel.
 
-![Version history button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/496805240_719235283947759_8540826350444253053_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=IfSgyMV5NJIQ7kNvwF8sgTK&_nc_oc=AdlwStk3wPV6gHOn-XBoYC3JQPhvlkhTS_eK70PHVqAjLer5wB08kjvscVXxq5RJClE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_AfmN1uy1vUHsYxgs5lbskAw00agzA1nfrf1WUUMwXsGBMA&oe=694BE377)
+<details>
+<summary>Version history button</summary>
+
+<p></p>
+
+[Version history button](../../../../images/output/img_20251211_022545_20251211_022545.md)
+
+### Overview
+This image depicts a user interface element showing version history information. It includes a header, a section for adding contributors, and a timestamp indicating when the version was added.
+
+### Key Elements
+- **Header**: Located at the top, labeled "Versions". It has a dark gray background with white text.
+- **Added By**: A label in light gray text on the left side.
+- **Contributor**: To the right of "Added By," there is a circular profile picture placeholder next to the username "metaeditorcreator," which is written in white text.
+- **Date**: Below "Added By," the date "May 2, 2025 at 7:23 PM" is displayed in light gray text.
+- **Version History Button**: A rectangular button below the date section, with a dark gray background and white text that reads "Version History."
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Version History" button, as it is centrally located and larger than the surrounding elements. The contributor information is secondary but still noticeable due to its placement next to the username. The header acts as a title for the entire section.
+
+</details>
+
+<p></p>
+
+
 
 In **Version history** you will see all versions of your asset:
 
-![Version history modal](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/496935154_719235310614423_2677764735386988551_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=dkigCngUZ10Q7kNvwEILQ_R&_nc_oc=AdnaTdCgjTsyNIMB52_gBaYjfZExkBVMl3xzzgdws6Vir6X5HUC4k4vwEGOV6hz54iE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_AflDrqmrLNXDBPYCro0zOG-HqPOeSQYJYg00ZGTEHQ2hrA&oe=694BE03C)
+<details>
+<summary>Version history modal</summary>
+
+<p></p>
+
+[Version history modal](../../../../images/output/img_20251211_022639_20251211_022639.md)
+
+### Overview
+This image displays a version history interface for a file named "Orange chair." It shows two versions of the file, detailing who added them, when they were added, and includes options to view details or restore the older version.
+
+### Key Elements
+- **Version**: Version number (2 and 1) displayed in the first column.
+- **Added By**: Username "metaeditorcreator" shown next to each version.
+- **Date Added**: Timestamps for when each version was added (May 2, 2025 at 8:01 PM and May 2, 2025 at 7:23 PM).
+- **Notes**: Empty fields indicating no additional notes are provided.
+- **Buttons**: Two buttons labeled "View Details" and "Restore" appear next to the second version.
+- **Current Label**: A label "Current" is placed next to version 2, indicating it is the current version.
+
+### Visual Flow / Relationships
+The interface is structured in a table format. The most prominent elements are the versions listed vertically. There are no arrows or lines connecting elements, but the layout implies a linear progression from older to newer versions. The "Restore" button for version 1 is positioned to the right of its details, suggesting it is an interactive element related to that specific version.
+
+</details>
+
+<p></p>
+
+
 
 On the screenshot above you can see that the asset has 2 versions:
 
@@ -75,7 +332,42 @@ On this screen you can also:
 
 Example of how versioning works in flow with several versions:
 
-![Publish flow example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/497659573_719235293947758_2473805733417303626_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=4ESyG4SFEboQ7kNvwEyB8nm&_nc_oc=Adn5qUYGmTpm0noDTpiWAuG7Yet3S-VelA8rkBuoMtRJoZJcgxdPD4yFodjfgnkexoo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_AfkeTrzd9NQrGT9iQgFvyYOOJujaQsvdD0-NMu9e3KkqrQ&oe=694BB743)
+<details>
+<summary>Publish flow example</summary>
+
+<p></p>
+
+[Publish flow example](../../../../images/output/img_20251211_022830_20251211_022830.md)
+
+### Overview
+This image is a flowchart illustrating the process of creating and using public assets. It is divided into three main sections: Public Asset Creator, Public Assets, and Public Asset User. The flowchart uses arrows to indicate the sequence of actions and states.
+
+### Key Elements
+- **Public Asset Creator Section**:
+  - **Create Private Asset**: A step labeled as v1.
+  - **Make Asset Public**: Followed by v1.
+  - **Update Asset**: Followed by v2.
+  - **Publish Public Asset Update**: Followed by v3.
+  - **Remove Public Asset**: Followed by v3.
+
+- **Public Assets Section**:
+  - **v1 is available to users**: Indicates that version 1 of the asset is accessible.
+  - **v3 is available to users**: Indicates that version 3 of the asset is accessible.
+  - **Asset is not visible to users**: Indicates that the asset is hidden from users.
+
+- **Public Asset User Section**:
+  - **Import Public Asset to a world**: Followed by v1.
+  - **Import Public Asset to the world**: Followed by v3.
+  - **Remix / Clone / Update scripts**: Followed by v1 and v3.
+
+### Visual Flow / Relationships
+The flowchart uses arrows to show the progression of steps. The most prominent visual elements are the boxes containing the steps and the arrows connecting them. The flow is linear but branches off at certain points, indicating different paths depending on the version of the asset.
+
+</details>
+
+<p></p>
+
+
 
 ## Removing an asset from Public assets
 
@@ -85,7 +377,29 @@ To remove your asset from Public assets:
 - Click the asset preview to open the **Asset details** panel.
 - Click on the icon next to **Publish update**.
 
-  ![Remove from public assets button](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/497545783_719235280614426_317010417810783860_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=Rqrex8iszQoQ7kNvwFeSqUi&_nc_oc=AdnmcKNfMti8saDF_K8pgBGbGbNx6s6wAXdWxEzxlA_JW-XakYZsYUFF8cgzAxcF-wI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=pbd5yguLHP_TtxOiQb32bg&oh=00_Afm5hf3gmE9cFSELyx0DykL3dIt804vIqjtNgLFloq9wgg&oe=694BE4A0)
+  <details>
+<summary>Remove from public assets button</summary>
+
+<p></p>
+
+[Remove from public assets button](../../../../images/output/img_20251211_022925_20251211_022925.md)
+
+### Overview
+The image displays a user interface element related to asset availability settings. It includes a toggle switch, a description area, and a prominent button.
+
+### Key Elements
+- **Toggle Switch**: Located at the bottom-left corner. It has a dark gray background with a white circle indicating the current state. The icon within the circle is a stylized gear.
+- **Description Area**: Positioned above the toggle switch. Contains text explaining that the asset is available to other creators in Public assets. The text is in a lighter gray font against a darker gray background.
+- **Button**: A large blue button labeled "Publish update" spans the width of the description area. The button has a white border and a white background inside the blue rectangle.
+
+### Visual Flow / Relationships
+The toggle switch is the least prominent element, while the description area and the "Publish update" button are more central and eye-catching. The description area provides context for the toggle switch, which is likely used to control the visibility of the asset. The button is designed to be the focal point for initiating the publishing action.
+
+</details>
+
+<p></p>
+
+
 
 **Note:** After removing the asset from public assets, it will no longer be discoverable by other creators. However, creators who have already imported this asset to their world will still be able to use it.
 

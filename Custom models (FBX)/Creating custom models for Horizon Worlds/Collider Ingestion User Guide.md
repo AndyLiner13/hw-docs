@@ -37,7 +37,34 @@ The geometry for primitive colliders (box, sphere, capsule) is expected to have 
 
 This screenshot from Blender shows a visible mesh (RingTarget) with a number of primitive colliders defined for it.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652340_512500407954582_5623056193016771241_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=QGy3Bn5LUEgQ7kNvwHcuL44&_nc_oc=AdmRXGscuiXEj34SyHAA64UJTNqyj5kplPrO31m6v8EhUiHK0xoT98RtgGP-PmV5_Zo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=v-6VqnSzeCWQB7YGSzzwTg&oh=00_AfnOVtw5ta_VzQnig9Y0ONkm-NpEJ_svOpBz8gMtBIT5Fw&oe=694BBB2B)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_005822_20251211_005822.md)
+
+### Overview
+This image depicts a hierarchical tree view interface, likely from a software application. It shows a nested structure with expandable nodes, indicated by triangle icons. The nodes contain text labels and small icons next to them.
+
+### Key Elements
+- **RingTarget**: Located at the top level, this node has a green triangle icon and contains a red circular icon next to its name.
+- **UBX_RingTarget_6**: A child node under RingTarget, with a green triangle icon and a red circular icon.
+- **UBX_RingTarget_7**: Another child node under UBX_RingTarget_6, with similar icons.
+- **UCP_RingTarget_1**: A child node under UBX_RingTarget_7, with a green triangle icon and a red circular icon.
+- **UCP_RingTarget_2**: A child node under UCP_RingTarget_1, with a green triangle icon and a red circular icon.
+- **UCP_RingTarget_3**: A child node under UCP_RingTarget_2, with a green triangle icon and a red circular icon.
+- **UCP_RingTarget_4**: A child node under UCP_RingTarget_3, with a green triangle icon and a red circular icon.
+- **UCP_RingTarget_5**: A child node under UCP_RingTarget_4, with a green triangle icon and a red circular icon.
+
+### Visual Flow / Relationships
+The visual hierarchy is clear, with the RingTarget as the root node, followed by its children, which are further divided into sub-nodes. The triangle icons suggest that clicking on them would expand or collapse the nodes. The red circular icons appear to be indicators of some kind, possibly errors or warnings.
+
+</details>
+
+<p></p>
+
+
 
 ## Spawning collider entities in the desktop editor
 
@@ -52,6 +79,35 @@ To add a primitive collider to the world, select **Colliders** from the **Build*
 
 We automatically enter Colliders view mode when you place a collider entity into the world. To enter collider view manually, select **Collisions** from the **View Mode** menu at the top right of the **Preview** window.
 
-![Collider view option](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/514025692_754517587086195_4881851379016605796_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ecuwCsDMs2EQ7kNvwEyvl_w&_nc_oc=Adn-Hgff_Wbm7RVJCWUEAZNxXr4FGKk-BSwW4xSoCYLX2ghQk7wswnyHb9_xlQCxdl4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=v-6VqnSzeCWQB7YGSzzwTg&oh=00_AfkSDhRAHe9_Os59VXkdzKW4SxJuhSgB0Wttpr2YABNSfQ&oe=694BE8DF)
+<details>
+<summary>Collider view option</summary>
+
+<p></p>
+
+[Collider view option](../../../../images/output/img_20251211_005936_20251211_005936.md)
+
+### Overview
+This image depicts a user interface element from a software application, specifically a settings or properties panel. It shows a list of options related to object visualization and collision detection. The layout is structured with a vertical arrangement of items, each accompanied by a toggle switch or checkbox indicator.
+
+### Key Elements
+- **Header**: "Properties" at the top, indicating the section of the interface.
+- **Toggle Switches**: Each option has a toggle switch next to it, which can be in one of three states: unchecked, checked, or partially checked (indicated by a blue highlight).
+- **Options List**: 
+  - **Shaded**: Toggle switch is unchecked.
+  - **Wireframe**: Toggle switch is unchecked.
+  - **Solid wireframe**: Toggle switch is unchecked.
+  - **Shaded wireframe**: Toggle switch is unchecked.
+  - **Collision**: Toggle switch is checked, indicated by a blue highlight.
+  - **Show object colliders**: Toggle switch is unchecked.
+- **Checkbox**: A checkbox labeled "Show Gizmos" is located at the bottom right, which is checked.
+
+### Visual Flow / Relationships
+The elements are arranged vertically with a clear hierarchy. The toggles are aligned horizontally under each option. The checked state of the "Collision" toggle is emphasized by a blue highlight, drawing attention to it as the currently active setting. The "Show Gizmos" checkbox is positioned separately at the bottom right, indicating it might be a separate setting or a global preference.
+
+</details>
+
+<p></p>
+
+
 
 *Collider view option*

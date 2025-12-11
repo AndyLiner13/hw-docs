@@ -42,32 +42,237 @@ This section describes how to set up and generate navigation meshes in World Bui
 - In the **Systems** drop-down menu, click the **Navigations** button. The **Navigation Profiles** menu lists any navigation profiles defined for your world.
 - Click the **+** button to define a new navigation profile.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581306146_863533342851285_195327867686303909_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ozGHzsXMzuYQ7kNvwHboUtX&_nc_oc=Adl-8ZSyEhzVUuwE2PXebs-R79PJZgMywf6tMHB7XjB7m6p6pz-IK6CBkHJEHprsLD4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_AflUHctFoQR8MCmLyVWpsykO3VZR_vFZw30hz0LD7QQMJw&oe=694BB829)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064324_20251211_064324.md)
+
+### Overview
+The image depicts a user interface section within a software application, specifically related to navigation profiles. The interface includes tabs at the top, a search bar, and a central area for creating new profiles.
+
+### Key Elements
+- **Navigation Profiles Header**: Located at the top-left, the text "Navigation Profiles" is displayed prominently.
+- **Search Bar**: Positioned below the header, it has a magnifying glass icon on the left side.
+- **Create Profile Button**: A red-highlighted button with a plus sign (+) and the text "Create Profile" is situated to the right of the search bar.
+- **Tabs**: At the very top, there are several tabs labeled "Build," "Systems," "Preview," "Scripts," and "General."
+- **Variable Groups Dropdown**: To the right of the "Navigation" tab, there is a dropdown menu labeled "Variable Groups."
+- **Quests Dropdown**: Adjacent to the Variable Groups dropdown, another dropdown labeled "Quests" is present.
+- **Icon and Text Below**: A simple walking figure icon is centered below the search bar, accompanied by the text: "Create navigation profiles here, then use scripts to add pathfinding to your world."
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Create Profile" button, as it is highlighted and centrally located. The layout suggests a linear reading order moving from left to right across the top, then downward to the central content area.
+
+</details>
+
+<p></p>
+
+
 
 - In the **Create Navigation Profile** menu, fill in the properties and click **Create**. This displays the new agent profile in the **Navigation Profiles** menu.
 - To update a profile, hover over the menu item and click the **Edit** button. This displays the properties for that profile, which can be modified and saved.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580796535_863533336184619_5962457243421882840_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=iVheWD0l8-oQ7kNvwGwuajZ&_nc_oc=Adnm-bn8D_zlUygygkJmdz_Y8Is5Z9z3wzURxypXVDxHHlF62oPevdUIP0BfP1yl_Qs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_AflzBaM27cpwec3-krW67hbyL04yVP0U4bLCF_vuDh1aRQ&oe=694BB42E)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064441_20251211_064441.md)
+
+### Overview
+This image depicts a user interface section of a software application, specifically a navigation profiles management screen. The layout includes a search bar, a list of navigation profiles, and various interactive elements such as buttons and icons.
+
+### Key Elements
+- **Search Bar**: Located at the top, spanning horizontally across the screen. Contains a magnifying glass icon and the placeholder text "> Navigation Profiles".
+- **Navigation Profiles List**: Below the search bar, a list of navigation profiles is displayed. The first profile shown is labeled "Test nav mesh" with the subtitle "Nav mesh test input". It has a blue highlight indicating selection.
+- **Profile Actions**: To the right of the profile name, there are several icons:
+  - A pencil icon for editing.
+  - A trash can icon for deleting.
+  - A settings gear icon.
+- **Add Button**: Positioned to the right of the search bar, featuring a plus sign.
+- **Sort Icon**: An icon resembling arrows pointing up and down, likely for sorting functionality.
+- **Edit Button**: A black button with the word "Edit" in white text, located at the bottom right corner of the profile row.
+
+### Visual Flow / Relationships
+The most prominent visual element is the selected profile "Test nav mesh". The interactive elements (icons and buttons) are arranged to the right of the profile name, facilitating quick access to actions related to that specific profile. The search bar is at the top, allowing users to filter the list of profiles. The add button and sort icon are positioned above the list for easy access.
+
+</details>
+
+<p></p>
+
+
 
 - Drag and drop the **Navigation Volume** gizmo into your world from the toolbar in the Navigation section.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581939883_863533332851286_8604663435429527805_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=gF0u-MZyXiAQ7kNvwFHQD5h&_nc_oc=AdnUhaCPVJ9dLil39EK8Ubr2bkuxN9l1E15KZ4EAKyANzaJl2d0MAUBcYIZUs-WdgPc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_AflRP0fx0t5S9K5arClXlJ7qJsQWi7o-bBC0N_-YZx7kvA&oe=694BC61F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064543_20251211_064543.md)
+
+### Overview
+This image depicts a user interface section labeled "Navigation." It contains various icons representing different navigation-related functionalities, arranged in a grid layout. The interface includes a search bar at the top and tabs for different settings categories ("Navigation," "Display," "Interactions").
+
+### Key Elements
+- **Search Bar**: Located at the top, spanning across the width of the interface. It has a magnifying glass icon on the left side.
+- **Tabs**: Three tabs are visible at the top: "Navigation," "Display," and "Interactions." Each tab has a small icon next to its name.
+- **Icons and Labels**: Below the tabs, there are four icons arranged horizontally:
+  - **Spawn Point**: A blue square with a white figure walking upwards and downwards.
+  - **Door**: A pink square with a white door icon.
+  - **Snap Destination**: A blue square with a white arrow pointing upwards and a circular pattern around it.
+  - **SafeSpawnZ one**: A white cube with a black outline.
+- **Navigation Volume**: A green square with a white figure walking, outlined with a red dashed border. Below it, the label "Navigation Volume" is written.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Navigation Volume" icon, as it is highlighted with a red dashed border. The icons are arranged in a grid-like fashion, with the search bar above them and the tabs at the very top. There are no arrows or lines connecting the elements, but the layout suggests a logical reading order from left to right and then down.
+
+</details>
+
+<p></p>
+
+
 
 - Adjust the size of the space to indicate where navigation meshes can be created.
 - The **Navigation Volume** gizmo applies to all defined navigation profiles for newly added gizmos by default; however, you can specify other profiles within the **Agent Profile** drop-down menu.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653622_512520797952543_8523304140805967984_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=kZroBO1BUlQQ7kNvwHsJQXq&_nc_oc=Adkm8-EIfGzgLKYgOzvgMtrApsEh9XpW6a3zx6n3rb3zmC0C1fSDk5xiDHLd-TlVAHk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_Afnji2je4ddRmHoooX9-WjVrVUDXP2aH8XWBLru72Uow1Q&oe=694BE165)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064654_20251211_064654.md)
+
+### Overview
+This image depicts a user interface element within a software application, specifically a dropdown menu that is part of a form or settings panel. The dropdown is open, revealing a list of options related to agent profiles.
+
+### Key Elements
+- **Dropdown Menu**: A blue rectangular dropdown menu with a white border, located centrally in the image.
+  - **Visual description**: The dropdown has a rounded rectangle shape with a blue fill and a white border.
+  - **Location**: Positioned below the "Agent Profile" label.
+  - **Contents**: Contains the text "All" highlighted in blue, indicating the currently selected option, followed by another option labeled "MyNavProfile."
+  - **Visual styling**: The dropdown has a solid blue background with a white border, and the selected item is highlighted with a darker blue shade.
+  
+- **Label**: "Agent Profile" located above the dropdown menu.
+  - **Visual description**: The label is in white text on a dark background.
+  - **Location**: Positioned above the dropdown menu.
+  - **Contents**: The text "Agent Profile" is clearly visible.
+  - **Visual styling**: The label has a white font against a dark background.
+
+- **Dropdown Options**: Two options listed under the dropdown menu.
+  - **Visual description**: The options are simple text labels.
+  - **Location**: Below the dropdown menu.
+  - **Contents**: The first option is "All," which is highlighted, and the second option is "MyNavProfile."
+  - **Visual styling**: Both options have a white font against a dark background, with the selected option having a slightly darker blue background.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The open dropdown menu is the most prominent visual element due to its central placement and active selection.
+- **Arrows/Connectors**: There are no arrows or connectors visible in this image.
+- **Spatial Relationships**: The dropdown menu is directly beneath the "Agent Profile" label, and the options are arranged vertically below the dropdown.
+
+</details>
+
+<p></p>
+
+
 
 - You can also change the **Volume Type** to **Exclusion** or **Inclusion**. Setting the volume to **Exclusion** cuts out that area from any generated navigation mesh.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452863729_512520794619210_6139799495093903217_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=uk7z0hE-o3cQ7kNvwF3jS_z&_nc_oc=Adkv_uMdSHJn8eUM-rntpAyixN6Yj6lA-3zrJvHXat063J6l4DOYA9j_rtz-BUygAQ4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_AflRjnWyZsz18jmqlgEFh6jqFyOyO16G6Zi4h4YnZkc4AA&oe=694BC0E8)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064741_20251211_064741.md)
+
+### Overview
+The image depicts a 3D modeling interface showing a transparent cube with axes and grid lines. The cube is positioned on a grid background, suggesting a design or modeling software environment.
+
+### Key Elements
+- **Cube**: A transparent, wireframe cube with edges highlighted in white and blue. The cube is centered in the image.
+- **Axes**: Three orthogonal axes (red, green, and blue) are visible within the cube, indicating the X, Y, and Z directions respectively.
+- **Grid**: A light gray grid forms the background, providing a reference for spatial orientation.
+- **Background**: Two distinct sections of the background are visible—one peach-colored and one gray, both with grid patterns.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The transparent cube is the focal point.
+- **Spatial Relationships**: The axes are embedded within the cube, and the grid lines provide a sense of depth and perspective. The peach and gray sections of the background are adjacent but do not interact with the cube itself.
+
+</details>
+
+<p></p>
+
+
 
 - Setting the gizmo’s profile only impacts the navigation for that profile. For example, setting the gizmo to **Inclusion** for a particular profile will generate a walkable area in that volume for that particular profile.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452978199_512520774619212_5715647804876400228_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=EKgc4KNEnc8Q7kNvwEkxudV&_nc_oc=AdntkxA1gPM8V-I7gudS-eTwziiKs6Wq3xNeUmG8nDD_wmLjL5dPRgf8U42Y166Z0aQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_Afm8rlKoUcKPAATqAtAURa-dTteYBK41ZjgUV4dBMZzD-A&oe=694BD752)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064826_20251211_064826.md)
+
+### Overview
+The image displays a 3D modeling environment with three transparent cubes placed on a grid background. The cubes are rendered with a wireframe outline and filled with solid colors. The perspective suggests a 3D modeling software interface.
+
+### Key Elements
+1. **Left Cube**
+   - **Visual description**: A rectangular cube with a wireframe outline.
+   - **Location**: Left side of the image.
+   - **Contents**: Filled with a light green color.
+   - **Visual styling**: Transparent edges, white wireframe, light green fill.
+
+2. **Middle Cube**
+   - **Visual description**: A rectangular cube with a wireframe outline.
+   - **Location**: Center of the image.
+   - **Contents**: Filled with a light orange color.
+   - **Visual styling**: Transparent edges, white wireframe, light orange fill.
+
+3. **Right Cube**
+   - **Visual description**: A rectangular cube with a wireframe outline.
+   - **Location**: Right side of the image.
+   - **Contents**: Filled with a light green color.
+   - **Visual styling**: Transparent edges, white wireframe, light green fill.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The three cubes are equally prominent as they are evenly spaced and of similar size.
+- **Arrows, lines, connectors**: None.
+- **Spatial relationships**: The cubes are arranged horizontally, with no specific implied reading order among them.
+
+</details>
+
+<p></p>
+
+
 
 If volumes overlap, walkable space is made for all associated profiles.
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452598139_512520804619209_9000742366036294529_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ety-59_QdTcQ7kNvwF5ERgS&_nc_oc=AdlTJ8FHZzvvTgSWQulhe3lF1UILk9XepAuTFmGFJ1-1kWeUkqdZwwb7Lr6gn1zS-mI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_AflzZ4JI2dlmPZi22E2X2-4_u9cbm2-AXsQeeW1acRkmXQ&oe=694BEBB9)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064913_20251211_064913.md)
+
+### Overview
+The image displays a 3D rendering of two cubes, one orange and one green, placed on a grid background. The cubes appear semi-transparent, allowing the grid underneath to be partially visible through them.
+
+### Key Elements
+- **Orange Cube**: Located on the left side of the image. It has a semi-transparent orange surface with a grid pattern overlaying it. The edges of the cube are outlined in a darker shade of orange.
+- **Green Cube**: Positioned on the right side of the image. Similar to the orange cube, it has a semi-transparent green surface with a grid pattern. The edges of the cube are outlined in a darker shade of green.
+- **Grid Background**: A light gray grid spans the entire background, providing a coordinate system for the cubes.
+
+### Visual Flow / Relationships
+- The most prominent elements are the two cubes.
+- There are no arrows, lines, or connectors indicating a specific reading order.
+- Spatially, the cubes are adjacent to each other, with the orange cube on the left and the green cube on the right.
+
+</details>
+
+<p></p>
+
+
 
 ### Excluding specific obstacles/entities
 
@@ -75,16 +280,119 @@ When generating navigation meshes, you can exclude specific entities from impact
 
 All entities are considered navigable by default. To exclude an entity from being navigable, select the object and toggle off the **Navigable Surface** option in the **Navigation** panel:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452628396_512520771285879_665141551739901961_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=u-zFyz3oYTQQ7kNvwHDMS4M&_nc_oc=AdnJTA8RrVJZLmH9krBoTXVJzBp-gok0pGLIVBfhrVfZYMkvJF-A_Y9eK3AUeJ74rtE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_AflMKL1IXb7k5iwM5XcnuI9CwVSxpu_iind-3T7al85RpA&oe=694BD026)![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452678735_512520821285874_7555048856054191891_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ei48JTD7bF8Q7kNvwHum35S&_nc_oc=Adm-ceztvZBd2XnP_7r1prnXVJVQ55pZNyMK0hZJlopg8Gec9A1PzAmVYA4X0QsrKcg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_AfkKrnU5F9YMxVgwlq5Uyq3Sg7fKY6v3Ebj2PWdsnd82Aw&oe=694BCBC5)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_065012_20251211_065012.md)
+
+### Overview
+This image depicts a 3D modeling environment interface showing a cube object with a grid background. The cube has a white face and gray edges, and there are coordinate axes represented by colored arrows at its center. On the right side, there is a sidebar with various properties and settings related to the cube.
+
+### Key Elements
+- **Cube**: A 3D cube with a white face and gray edges. It is positioned centrally in the scene.
+  - **Face**: White.
+  - **Edges**: Gray.
+  - **Axes**: Three colored arrows (blue, green, red) representing the x, y, and z axes, respectively, located at the center of the cube.
+- **Grid Background**: An orange grid pattern covering the entire scene, serving as the workspace for the 3D model.
+- **Sidebar**: Located on the right side of the image.
+  - **Properties Section**: Contains options such as "Behavior," "Attributes," "Physics," "More," "Navigation," and "Script."
+    - **Navigation**: Displays a toggle switch labeled "Navigable Surface."
+    - **Script**: Shows a dropdown menu labeled "Attached Script" with "None" selected.
+- **User Interface Elements**: Various UI elements like zoom controls and orientation indicators are visible at the top left corner.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The cube in the center.
+- **Arrows**: Positioned at the center of the cube, indicating the coordinate system.
+- **Grid**: Uniformly distributed across the workspace, providing a reference for the 3D model.
+- **Sidebar**: Provides interactive options for modifying the cube's properties.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_065111_20251211_065111.md)
+
+### Overview
+This image depicts a 3D modeling interface, likely from a software tool for creating or manipulating 3D objects. The central focus is a white cube with a grid overlay, suggesting a workspace for 3D modeling. The right side of the image shows a sidebar with various properties and settings related to the cube.
+
+### Key Elements
+- **Cube**: A white, three-dimensional cube with a grid overlay, located centrally in the workspace.
+- **Grid Overlay**: An orange grid covering the entire workspace, providing a reference for spatial orientation.
+- **Color Handles**: Three colored handles (blue, green, red) attached to the cube, indicating points of interaction for scaling, rotating, or translating the object.
+- **Sidebar**: Located on the right side, displaying properties such as "Cube," "Behavior," "Attributes," "Physics," "More," "Navigation," and "Script." The "Attached Script" field shows "None."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The white cube in the center.
+- **Arrows/Connectors**: None.
+- **Reading Order**: The grid serves as a backdrop, while the cube and its handles are the primary interactive elements. The sidebar provides additional information and options related to the cube.
+
+</details>
+
+<p></p>
+
+
 
 - At this point, we have profiles defined and gizmos placed in our world. The next step is to **build** the navigation meshes for each profile. An alternative term is “baking” the navigation mesh **.** These terms are interchangeable.
 - From the **Systems** menu, open the **Navigation Profiles** menu and click the **Build All** button.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452554927_512520777952545_4458452995230939688_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=8KDe6xbya8UQ7kNvwF50tAG&_nc_oc=Adm0X4xg6A8o-jqwb3xwnC5y453CEuHFHdtj1RfYTLQn-o-UXGWtEyul0wvstoAYMDU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_AfnX4i-hKHQuchExkCcN_Lne2LViGvFe8iJC2U5Lsmn9KQ&oe=694BDB7F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_065205_20251211_065205.md)
+
+### Overview
+This image depicts a user interface element from a software application, specifically a dropdown menu titled "Navigation Profiles." The menu contains a search bar, a button labeled "Build All," and a list of navigation profiles.
+
+### Key Elements
+- **Search Bar**: Located at the top-left of the dropdown menu. It has a magnifying glass icon on the left side.
+- **Button**: Positioned centrally below the search bar. It features a plus sign and a gear icon, suggesting options for adding new profiles or configuring existing ones.
+- **"Build All" Button**: Situated below the central button. It is black with white text that reads "Build All."
+- **List of Navigation Profiles**: Below the search bar, showing one entry labeled "Navigation Profiles (1/100)" followed by another entry labeled "NPC Test!" with a green icon depicting a character.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Build All" button due to its placement and contrasting color. The search bar is secondary but important for functionality. The list of navigation profiles is tertiary, providing context for the current selection.
+
+</details>
+
+<p></p>
+
+
 
 - If it appears that nothing happened when building the navigation mesh, you likely need to enable the in-editor previews. Hover over each profile and ensure the visibility indicator is set to 👁 by clicking the relevant button:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452956933_512520814619208_2075920617223828293_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=kgKu2V1JMRsQ7kNvwGhaqCD&_nc_oc=AdmaS1934O_0r39I9xHNN4D3LnVrUdKQFUu2PuWUFg6oH4HcWUuR6tgb79PB_iDMUjc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RcRVg7f9rdhv8T-20uxZaQ&oh=00_Afkw0JlDVvWhDAASF5nfUqMz1TQYaJ3BZGeOgeDPtGbKTQ&oe=694BD138)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_065252_20251211_065252.md)
+
+### Overview
+This image depicts a user interface element within a software application, specifically showing a list of navigation profiles. The interface includes a header, a profile entry, and some interactive icons.
+
+### Key Elements
+- **Header**: Located at the top-left corner, reads "Navigation Profiles (1/100)".
+- **Profile Entry**: Below the header, contains a green icon resembling a walking figure labeled "NPC Test!".
+- **Interactive Icons**: Positioned to the right of the profile entry, include a camera icon, a copy icon, and a trash can icon.
+- **Background**: The main background is dark blue, while the highlighted area around the profile entry is light blue.
+
+### Visual Flow / Relationships
+The most prominent visual element is the profile entry, as it is highlighted and larger than the interactive icons. The interactive icons are arranged horizontally to the right of the profile entry. There are no arrows or lines connecting elements, but the layout suggests a typical user interface flow where users interact with the profile entry first before using the interactive icons.
+
+</details>
+
+<p></p>
+
+
 
 You can use the NavMesh TypeScript API to get references to navigation mesh instances in order to perform pathfinding calculations at runtime.
 

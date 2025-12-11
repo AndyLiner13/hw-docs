@@ -6,7 +6,33 @@ You can snap objects to specific increments in your world with grid, angle, and 
 
 ## How to use snapping tools
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452554816_512510771286879_8452219421137191783_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=cO_W4lYbpdoQ7kNvwG5civY&_nc_oc=AdmB2u0Y9OQOWPRCJZf7tUtkjCO0DdZbN8L3DiVdcxMcOz46wO-p4oMbwsREmY7IAvs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JTp4F2P5UYPzP3Gz7auV2g&oh=00_Aflng9hfHV9pvJIso4oMl_W4reTTRLYKwcoAxprQdC16XQ&oe=694BE614)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_072155_20251211_072155.md)
+
+### Overview
+This image displays a user interface snippet with several interactive elements arranged horizontally. The elements include numbers, symbols, and a degree symbol indicating some form of measurement or selection.
+
+### Key Elements
+- **Visual description**: Small rectangular buttons with rounded corners.
+- **Location**: Horizontally aligned across the top.
+- **Contents**:
+  - First button: Contains the number `1` and a hashtag symbol (`#`).
+  - Second button: Displays a triangle symbol (`Δ`) followed by the text `10°`.
+  - Third button: Shows a camera icon (`📷`) next to the number `1`.
+- **Visual styling**: Buttons have a dark background with white text and light gray borders.
+
+### Visual Flow / Relationships
+The elements are arranged in a linear fashion, suggesting a sequence or a set of options. There are no arrows or lines connecting them, implying that they are independent but part of a larger interface.
+
+</details>
+
+<p></p>
+
+
 
 * The snapping tool icons are located on the tools top bar to the right of the Select, Translate, Rotate, and Scale tool icons.
 * Get started by selecting a grid, angle, or scale snap icon to toggle snapping on or off.
@@ -47,7 +73,31 @@ There are three snapping tool mode options:
 
 You can toggle between relative and absolute snapping using the dropdown.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452916947_512510774620212_2622698473251034074_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=mb1Qe7GPUqIQ7kNvwH924B_&_nc_oc=AdmjDVNQpl0nRISDXj3es0Pd9SzJ0Ilq_Hel0ipBCGH4VUKPa8Dc66pz9elc91ex3YA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JTp4F2P5UYPzP3Gz7auV2g&oh=00_AfnXmQMUdwW2o8owdpVTkWh56tQokT9imobhQlhbCc5nVQ&oe=694BBF2E)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_072244_20251211_072244.md)
+
+### Overview
+This image depicts a user interface element showing a dropdown menu with two options: "Relative" and "Absolute". The dropdown is open, revealing the options against a dark background. The surrounding interface includes various tool icons and settings at the top.
+
+### Key Elements
+- **Visual description**: The dropdown menu is rectangular with rounded corners.
+- **Location**: Positioned centrally below the top bar of the interface.
+- **Contents**: Contains two options labeled "Relative" and "Absolute".
+- **Visual styling**: The dropdown has a dark background (#000000) with white text for the options. The "Relative" option is highlighted with a blue background and a checkmark icon next to it.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The open dropdown menu.
+- **Spatial relationships**: The dropdown is adjacent to the top bar containing tool icons and settings. There are no arrows or lines connecting elements, but the dropdown implies a reading order moving downward from the top bar.
+
+</details>
+
+<p></p>
+
+
 
 Relative: Snap to a value relative to the object’s starting position.
 
@@ -55,7 +105,32 @@ Absolute: Snap to a value regardless of the starting position.
 
 ## Surface snapping
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452817319_512510761286880_2850529185345820209_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=8zoNCUgARgcQ7kNvwEIVPU9&_nc_oc=AdmrJAoqckE55R7DJ-qCu4EjaIVC0YexIzKJJvLx9O97yPFtbX625wSfJQ6pYBqsAnI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JTp4F2P5UYPzP3Gz7auV2g&oh=00_AfkfK1phQKXO2sWOa3kDB7G0GqJiYT2zcnwMWaY_13mG_w&oe=694BB755)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_072342_20251211_072342.md)
+
+### Overview
+The image depicts a 3D model of a house with various interactive elements overlaid on it. The house is shown in a light blue gradient background, and there are directional arrows and colored points indicating possible manipulations or transformations of the model.
+
+### Key Elements
+- **House Model**: A 3D model of a house with a red roof, white walls, and a gray door. The windows are outlined in black.
+- **Red Arrow**: Positioned at the bottom left, pointing towards the bottom left corner of the house. It has a green dot near its tip.
+- **Blue Arrows**: Two blue arrows are present, one pointing upwards and the other extending horizontally across the roof of the house.
+- **Green Dot**: Located near the red arrow, slightly above and to the right of the red arrow's tip.
+- **Orange Circle**: Situated near the bottom right of the house, slightly above the red arrow's tip.
+- **User Interface Elements**: At the top of the image, there are several interface elements including numbers, angles, and a dropdown menu labeled "Absolute."
+
+### Visual Flow / Relationships
+The most prominent visual elements are the directional arrows and the colored points. The red arrow seems to indicate a rotation or translation direction, while the blue arrows suggest scaling or moving actions. The green dot and orange circle likely represent specific points of interest or interaction within the model.
+
+</details>
+
+<p></p>
+
+
 
 Follow these steps to snap an object’s pivot to the collider of another object:
 

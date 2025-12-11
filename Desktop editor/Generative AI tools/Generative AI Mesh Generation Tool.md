@@ -25,15 +25,96 @@ Gen AI Tool Availability & Rates
 
 To access the Mesh Generation tool, open the **GenAI** panel from the top of your Horizon desktop editor.
 
-![Gen AI 3d model selection](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/490357659_695280506343237_5093771878172740662_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=hjPvnr11gfMQ7kNvwEv7Pvk&_nc_oc=Adme2wNhdyIMf8JsGnClW_9UHL8EvVdM49xXD7VU6U-etRomLGbTnVevop0kzvn7FkU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=36wjpwTOEAe5ArMiXn5rqQ&oh=00_Aflim4wu9Dw6_l0P_9fA7mW6Vr-62BPhhIECpZalYSYEVg&oe=694BD377){width:”400px”}
+<details>
+<summary>Gen AI 3d model selection</summary>
+
+<p></p>
+
+[Gen AI 3d model selection](../../../../images/output/img_20251211_033501_20251211_033501.md)
+
+### Overview
+The image displays a user interface for a feature called "Gen AI for Horizon Worlds." It includes a welcome message, several interactive options, and a prompt area for generating a 3D model.
+
+### Key Elements
+- **Welcome Message**: Located at the top-center, it reads: "Welcome to Gen AI for Horizon Worlds. Get started by writing a prompt or exploring what Gen AI can do."
+- **Interactive Options**: Below the welcome message, there are five buttons labeled:
+  - Generate 3D models
+  - Generate a sky
+  - Generate sound effects
+  - Generate ambient audio
+  - Generate scripts
+- **Prompt Area**: At the bottom, there is a text input field labeled "3d model" with placeholder text "prompt to generate a mesh." A blue "Generate" button is positioned below the input field.
+- **Model Size Selector**: Above the prompt area, there is a dropdown menu labeled "Model Size" set to "Medium."
+
+### Visual Flow / Relationships
+- The most prominent visual element is the welcome message.
+- The interactive options are arranged vertically below the welcome message.
+- The prompt area is located at the bottom, with the "Generate" button directly beneath it.
+- There are no arrows or lines connecting elements, but the layout suggests a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+{width:”400px”}
 
 Then select the **Generate 3D models** option from the available generate options. Next, use the following process to generate a new mesh for your world:
 
 - Use the **Model Size** dropdown to select either **Small**, **Medium**, or **Large**. The selected model size corresponds to the tricount of the generated mesh. The tricount is the number of triangles that make up the mesh. The larger the model size, the more triangles the mesh will have and, generally, the higher quality the mesh will be.
 - After selecting your model size, enter a prompt into the prompt field and click **Generate**.
 - You will see some images generated for you based on your input prompt. You can select one or more of these images to generate a 3D model from.
-  ![Mesh Gen generated images](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/508175988_743560901515197_9194637043231851125_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=-Y_SjSGGUpMQ7kNvwH0bEjD&_nc_oc=Adm0-tvwgNc78vx5_Kvj5GF9RkZrUcynldFJ7qG4cNHlKR6ivdxCRuPAVYHEpdK2muM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=36wjpwTOEAe5ArMiXn5rqQ&oh=00_AfnYreTb8yCDM0p-ZZoY_muuyIhQfmfIqlK-O8aoVh02Tg&oe=694BC63D){width:”400px”}
+  <details>
+<summary>Mesh Gen generated images</summary>
+
+<p></p>
+
+[Mesh Gen generated images](../../../../images/output/img_20251211_033603_20251211_033603.md)
+
+### Overview
+This image depicts a chat interface where a user has requested a "golden apple." The AI system, labeled as "Horizon AI," responds by presenting two options for generating an image of the golden apple.
+
+### Key Elements
+- **User Input**: Located at the top-left, the user's request is displayed as "> You A golden apple".
+- **AI Response**: Positioned below the user input, the AI's message reads "> Horizon AI Here are some options".
+- **Golden Apple Image**: A large, shiny golden apple is shown prominently in the center of the interface. It is highly reflective and has a smooth texture.
+- **Second Option**: Below the main image, there is a smaller thumbnail showing another perspective of the golden apple, featuring a single leaf attached to its stem.
+- **Model Size Dropdown**: At the bottom, there is a dropdown menu labeled "Model Size" set to "Small".
+- **Generation Model Dropdown**: Below the model size dropdown, there is another dropdown labeled "Generation Model" set to "Mesh Gen 1.1".
+- **Tool Buttons**: At the very bottom, there are several tool buttons, likely for interacting with the AI interface, such as upload, download, settings, and more.
+
+### Visual Flow / Relationships
+The visual hierarchy is clear, with the user's request at the top, followed by the AI's response, then the two image options. The larger image of the golden apple is the most prominent visual element, drawing the viewer's attention first. The second option is less prominent but still noticeable due to its smaller size and distinct placement below the main image.
+
+</details>
+
+<p></p>
+
+{width:”400px”}
 - To generate a 3D model of a generated image, hover your mouse over the image and select **Generate a model of this** on the image.
-  ![Mesh Gen generate model](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506435943_743560898181864_7519101096528438726_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=uusUbJTxDOYQ7kNvwEz7BTh&_nc_oc=Adn8NRZwqkoi4zmjYcIO0g1M5PTKc2rdWi2F2fdaYiJpZiTFglgdpPbyblPxjaYN46g&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=36wjpwTOEAe5ArMiXn5rqQ&oh=00_AfnE2J483Hx-1pt6LsseP0c2X_Vw4Fl_9qIOdb8INCYM3A&oe=694BC403){width:”400px”}
+  <details>
+<summary>Mesh Gen generate model</summary>
+
+<p></p>
+
+[Mesh Gen generate model](../../../../images/output/img_20251211_033702_20251211_033702.md)
+
+### Overview
+The image displays a user interface element featuring a golden apple as the central focus. Above the apple, there are two buttons for liking and disliking the image. Below the apple, there is a call-to-action button inviting users to generate a model of the apple. The interface also includes a prompt asking the user to select images for generating a 3D model.
+
+### Key Elements
+- **Golden Apple**: A shiny, metallic apple with a reflective surface, located centrally in the image. It has a small leaf on top.
+- **Like Button**: Positioned at the top right, a thumbs-up icon indicating the option to like the image.
+- **Dislike Button**: Positioned next to the Like button, a thumbs-down icon indicating the option to dislike the image.
+- **Generate Model Button**: Located below the apple, a rectangular button with white text that reads "Generate a model of this."
+- **Prompt Text**: Below the Generate Model button, a prompt text stating "Select the image(s) you'd like to use to generate a 3D model."
+
+### Visual Flow / Relationships
+The most prominent visual element is the golden apple. The Like and Dislike buttons are positioned above the apple, suggesting they are secondary actions related to the main content. The Generate Model button is below the apple, drawing attention to the action of creating a 3D model. The prompt text is placed beneath the Generate Model button, providing instructions for the user.
+
+</details>
+
+<p></p>
+
+{width:”400px”}
 - Once your model has finished generating, you can click **Save model** to save the generated 3D model to your asset library. The generated 3D will be added to your **My Assets** folder in your asset library in the **GenAI Assets** subfolder.
 - Once saved and available you can drag your generated asset from the library into your world to spawn it.

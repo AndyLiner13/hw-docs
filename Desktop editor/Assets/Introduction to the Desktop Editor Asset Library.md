@@ -10,16 +10,226 @@ The Asset Browser in the Desktop Editor provides the ability to manage your asse
 ## Opening the Asset Library
 
 - The Asset Library is available through the Asset Browser, located in the bottom panel of the Homepage. To access the Asset Browser, expand the Homepage panel and click one of the available tabs or “▼”.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452853527_512510344620255_2901419388314453202_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=DH0oCZpwmlAQ7kNvwGfJ-J1&_nc_oc=AdlrOsdr9GFj0MSZ_d7oCBI7oH8qrbMrKXViX4Su_UeBUIRJRqbRy58rVm4Vq0MNsuc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CxjjyExSTmrbTJq77wOQcw&oh=00_Afkfg0RODjeosVr14ppRP70j4IToHsoJhNSwgVG8cjG2og&oe=694BCF94)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_021201_20251211_021201.md)
+
+### Overview
+The image depicts a 3D modeling environment interface, likely from a game development tool or a 3D modeling software. The main focus is a large, flat, grid-like surface that serves as the workspace for creating or manipulating 3D models. Above the grid, there is a blue area representing the sky or background. At the bottom, there are tabs labeled "Assets," "Console," and "Tests."
+
+### Key Elements
+- **Grid Workspace**: A large, light gray grid occupies the majority of the image. It is a flat plane with a grid pattern, suggesting a 3D modeling surface.
+- **Background**: A solid blue area at the top, representing the sky or background of the scene.
+- **Tabs**: Located at the bottom of the image, there are three tabs labeled "Assets," "Console," and "Tests." These tabs are dark-colored rectangles with white text.
+- **Bottom Right Corner**: There is a small icon resembling a settings gear or information symbol in the bottom right corner.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The grid workspace is the most prominent element due to its size and central placement.
+- **Arrows/Connectors**: There are no arrows or connectors visible in the image.
+- **Spatial Relationships**: The grid workspace is centered, with the blue background above it and the tabs at the bottom. The small icon in the bottom right corner is positioned farthest to the right and bottom.
+
+</details>
+
+<p></p>
+
+
 - To resize the panel, click the navigation bar and drag the panel until you see all the tabs or “▼”.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452817856_512510357953587_6914927238479548206_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=zawcQtFcpPUQ7kNvwGBNrNv&_nc_oc=Adnc_pI49n6R_59mfCejl4OhqnVaQGgbyDfoSKULb1IUTTGCfKi8h10YTxy-6yPmamQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CxjjyExSTmrbTJq77wOQcw&oh=00_Afl8-YUPl_h1AXd43C3Twmola0c4rBAtZQYnyl6vh-teFg&oe=694BCF78)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_021259_20251211_021259.md)
+
+### Overview
+This image depicts a user interface of a software application, likely related to asset management or game development, given the presence of folders and assets. The main area displays a grid of icons representing various assets, with a search bar at the bottom for finding specific assets. The interface has a clean, modern design with a dark theme.
+
+### Key Elements
+- **Top Bar**: Contains tabs labeled "Assets," "Console," and "Tests." A dropdown menu under "Add New" suggests functionality for adding new assets or folders.
+- **Search Bar**: Located at the bottom right, with placeholder text "Search My Assets."
+- **Grid of Icons**: A series of purple icons arranged in a grid layout, each labeled with a name such as "ambib_int_Fac_..." and "coffeemaker_..."
+- **Folders Section**: On the left side, a list of folders named "My Assets," "Test Metadata," and others.
+- **Cursor**: A small white arrow cursor is visible near the center of the screen.
+
+### Visual Flow / Relationships
+The most prominent visual element is the grid of icons, which draws attention due to its central placement and large size. The folders on the left provide context for the assets displayed in the grid. The search bar at the bottom allows users to filter through the assets efficiently. The top bar offers navigation options, suggesting that the application is designed for managing multiple projects or tasks.
+
+</details>
+
+<p></p>
+
+
 - To view your personal and shared library, use the left navigation column.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452934284_512510347953588_8913562189812880570_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Es61lm230AQQ7kNvwGQh2m0&_nc_oc=AdkAr9n16QcM58mql-orRQgPkHI2uWXFm34Xd0tpBOP0WSCoW4os1GoyTJRnEFky5d0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CxjjyExSTmrbTJq77wOQcw&oh=00_AfmUKSVRoM6osA2eev2h9k2Yn7XSSfC2zjcyw5tgh_3xbw&oe=694BD60E)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_021355_20251211_021355.md)
+
+### Overview
+This image depicts a user interface for managing assets within a software application. The layout includes a sidebar with folders and a main area displaying asset thumbnails and names.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **Visual description**: A vertical menu with folder icons and text labels.
+  - **Location**: Left side of the screen.
+  - **Contents**: Contains folders labeled "My Folders," "My Assets," and others.
+  - **Visual styling**: Dark background with white text and icons.
+
+- **Main Area (Center)**:
+  - **Visual description**: A grid of asset thumbnails with corresponding labels.
+  - **Location**: Right side of the screen.
+  - **Contents**: Each thumbnail has a distinct color scheme and icon representing different types of assets. Labels include "Audio WAV Test," "DodgeGroup," "EntityGroup," "Sound Recorder," among others.
+  - **Visual styling**: Light-colored thumbnails with dark icons, arranged in a grid layout.
+
+- **Search Bar (Top Right)**:
+  - **Visual description**: A search bar with placeholder text.
+  - **Location**: Top right corner.
+  - **Contents**: Placeholder text "Search My Assets."
+  - **Visual styling**: White background with black text.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The main area with asset thumbnails.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: The sidebar is adjacent to the main area, and the search bar is at the top right corner.
+
+</details>
+
+<p></p>
+
+
 - To find an asset within your folder, use the search bar to locate it.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578812_512510361286920_7835106371052157093_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=12HUIk6_1V8Q7kNvwFuktBg&_nc_oc=AdlZX5efEmNuz0CuoueWAkcEnWsL9pTTMJaj48HAaAB1Q-HBlzmLa3Yz0DK4a9IaCEA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CxjjyExSTmrbTJq77wOQcw&oh=00_AfmO6CXlAnOh4SkbOMWnd2IBIEB-6CwaGvw9MYs852fPZg&oe=694BD02D)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_021458_20251211_021458.md)
+
+### Overview
+This image depicts a user interface for managing assets, likely within a software application designed for audio or game development. The layout includes a sidebar with folders and a main area displaying asset thumbnails and names.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **My Folders**: Contains nested folders labeled "My Assets," "Shared With Me," and others.
+  - **My Assets**: A folder under "My Folders" containing assets named "Audio WAV/Text," "Hello," "World," among others.
+  - **Shared With Me**: Contains assets like "Library Gauntlet Test," "Audio Gauntlet Test," and more.
+  - **Folder**: A folder named "Sound FX Game E2E Test."
+
+- **Main Area (Right Panel)**:
+  - **Asset Thumbnails**: Each thumbnail represents an asset, with a mix of audio files and possibly game assets. Examples include "Do the WHV," "EntityGroup," "Sound Recorder," and "platform test."
+  - **Asset Names**: Below each thumbnail, the name of the asset is displayed, such as "guitar e2," "C Scale BK," "quad," and "Cylinder C."
+
+- **Search Bar**: Located at the top right, with placeholder text "Search My Assets."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The main area displaying asset thumbnails and names.
+- **Arrows/Connectors**: None visible.
+- **Reading Order**: The layout suggests a top-to-bottom, left-to-right reading order, starting with the sidebar and moving to the main asset display area.
+
+</details>
+
+<p></p>
+
+
 - To global search for an asset, click “All Assets”, “My Folders”, or “Shared With Me” to find an asset that falls under the respective categories.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452684749_512510351286921_4850690468340700257_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=y92qxXaNRPwQ7kNvwF1DKnq&_nc_oc=AdnaOZ8v_qJYlMGPoPPzjrjw_uApqhTdhDcrDJNxk1mKaCXhhYs7efCtt_RRHY2odAo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=CxjjyExSTmrbTJq77wOQcw&oh=00_AflJvSnjxM4FvY3qX9ZvBNv3Mq0kxAeXM8NOd86QGemOng&oe=694BDEC4)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_021558_20251211_021558.md)
+
+### Overview
+This image depicts a user interface of a digital asset management tool. The layout includes a sidebar with folders and assets, a central grid displaying icons representing audio files, and a search bar at the top right. The interface has a dark theme with light-colored icons and text.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **Visual description**: A vertical menu with expandable folders.
+  - **Location**: Left side of the screen.
+  - **Contents**: Contains "All Assets," "My Folders," and specific folders like "My Assets," "Audio Automation," "Test Sample Rate," and "Metadata."
+  - **Visual styling**: Dark background with white text and icons.
+
+- **Central Grid (Main Content Area)**:
+  - **Visual description**: A grid of icons representing audio files.
+  - **Location**: Center of the screen.
+  - **Contents**: Each icon has a musical note symbol and a filename underneath.
+  - **Visual styling**: Light gray background with white icons and filenames.
+
+- **Search Bar (Top Right)**:
+  - **Visual description**: A rectangular search bar with placeholder text.
+  - **Location**: Top right corner.
+  - **Contents**: Placeholder text "Search My Assets."
+  - **Visual styling**: Dark background with white text.
+
+- **Icons**:
+  - **Visual description**: Musical note symbols within the grid.
+  - **Location**: Inside the grid icons.
+  - **Contents**: Various filenames like "coffeemaker_," "ambib_spy_Fa_," "01_source_tind_," etc.
+  - **Visual styling**: White musical notes on a light gray background.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central grid of audio file icons.
+- **Arrows/Connectors**: None.
+- **Reading Order**: The grid is arranged in rows and columns, suggesting a logical reading order from left to right and top to bottom.
+- **Spatial Relationships**: Icons are evenly spaced within the grid, and the sidebar is adjacent to the main content area.
+
+</details>
+
+<p></p>
+
+
 - To filter search results by asset types, click the filter icon next to the search bar.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452555810_512510264620263_2664386901311673701_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=1zbos6RyO9EQ7kNvwGRhpbS&_nc_oc=AdkEwFCZ1O-FGLJxZ2pu1kF2uT8bWTT99zW_8sFZ-yFnSGGObaEU7KOnup5LInz6Gtg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CxjjyExSTmrbTJq77wOQcw&oh=00_Afl3aoA0o14gYgK79Iq4TIhsT-hrM_hEqMa1g9QbdTg9Dw&oe=694BBCAF)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_021700_20251211_021700.md)
+
+### Overview
+This image depicts a user interface of a file management system within a software application. The layout includes a sidebar with folders and assets listed, a central area displaying folder icons, and a search bar at the top right. The interface has a dark theme with light-colored text and icons.
+
+### Key Elements
+- **Sidebar (Left Panel)**: Contains a vertical menu with options such as "All Assets," "My Folders," and "Shared With Me." The text is white against a dark gray background.
+- **Central Area**: Displays two folder icons labeled "My Folders" and "Shared With Me." These icons are white with black outlines.
+- **Search Bar (Top Right)**: A rectangular search bar with placeholder text "Search All Assets" and a magnifying glass icon.
+- **Tabs (Top Left)**: Three tabs labeled "Assets," "Console," and "Tests" are visible at the top of the interface.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the folder icons in the central area. The search bar is positioned above the central area, and the tabs are at the very top. The folder icons are adjacent to each other horizontally, and the sidebar is on the left side of the screen.
+
+</details>
+
+<p></p>
+
+
 - Double click folder cards located in “All Assets”, “My Folders”, or “Shared With Me” to navigate to the folder.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452878340_512510261286930_2167514089567684317_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=BBqqInpXkI8Q7kNvwG0okGQ&_nc_oc=AdkBkOs7SIAGNIwv4O2ypMZe_-RXD562O-3YTTW9pw9sXfMdaX9-CizC4mQYWte7cGk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CxjjyExSTmrbTJq77wOQcw&oh=00_AfmyK4e2roWC3MnOoz0dzocKpdlnJKqkA6Tl7UQUMLs-xg&oe=694BBFAF)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_021749_20251211_021749.md)
+
+### Overview
+This image depicts a user interface section of a software application, specifically a view of assets management. The layout includes navigation options, folder icons, and a search bar at the top.
+
+### Key Elements
+- **Navigation Bar**: Located at the top, spans the width of the screen. Contains options like "Assets," "Console," and "Tests."
+- **Search Bar**: Positioned at the top right, with placeholder text "Search All Assets."
+- **Folder Icons**: Two icons labeled "My Folders" and "Shared With Me." These are white folder icons with a blue outline.
+- **Menu Dropdown**: Located on the left side, under the "All Assets" heading, offering options such as "Add New," "My Folders," "Shared With Me," and "Removed Assets."
+- **Background**: Dark gray with lighter gray accents around the menu and folder icons.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the folder icons, which are central to the content area. The navigation bar at the top provides context and options for interacting with the assets. The search bar allows users to quickly find specific assets within the application.
+
+</details>
+
+<p></p>
+

@@ -24,10 +24,80 @@ Once you have created navigation profiles and navigation meshes, you can configu
 - First, select the object you’ll use as an agent and open the **Properties** pane.
 - Scroll down to the **Navigation Locomotion** section and toggle on the Enabled property.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/459400604_543667308171225_1499421177653764709_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=4sL-fyFCmRsQ7kNvwEKGN9h&_nc_oc=AdlY3CwoypT52CmuaVh6VHspvp_lo8Izys2TqN3IPE-rDLUHD4LCyHAg_XQN8Pd4ENY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rwbla9cw3PfUIbgashtP6w&oh=00_AfkAHn3QQhGSr09R-LSj7_w4_YUf2NQiKHH1EnE2aCju4A&oe=694BD5B7)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_063856_20251211_063856.md)
+
+### Overview
+This image depicts a portion of a user interface, specifically a settings panel with expandable sections. The layout includes toggle switches next to certain options.
+
+### Key Elements
+- **Navigation Section**:
+  - **Visual description**: A collapsed section header labeled "Navigation."
+  - **Location**: Top-left area.
+  - **Contents**: Includes a toggle switch labeled "Include in Bakes."
+  - **Visual styling**: Dark gray background, white text, blue toggle switch.
+- **Navigation Locomotion Section**:
+  - **Visual description**: A collapsed section header labeled "Navigation Locomotion."
+  - **Location**: Below the "Navigation" section.
+  - **Contents**: Includes a toggle switch labeled "Enabled."
+  - **Visual styling**: Dark gray background, white text, gray toggle switch.
+- **Script Section**:
+  - **Visual description**: A partially visible section header labeled "Script."
+  - **Location**: Below the "Navigation Locomotion" section.
+  - **Contents**: Not fully visible but appears to include another toggle switch.
+  - **Visual styling**: Dark gray background, white text, no toggle switch shown.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Navigation" section due to its larger size and placement at the top.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: Sections are stacked vertically, with toggles aligned to the right of their respective headers.
+
+</details>
+
+<p></p>
+
+
 - Configure the navigation locomotion settings for your agent. These properties can also be configured through the NavMeshAgent API. See the [NavMeshAgent API docs](https://horizon.meta.com/resources/scripting-api/navmesh.navmeshagent.md/?api_version=2.0.0) for more details about these properties.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/459083561_543667304837892_4941892522645062338_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=iP1ws0unCw4Q7kNvwEjDNY6&_nc_oc=Adn63K-fU1KFoU2eBbnGyidiIQjGyqZKr7f9Ou6DZUF3fQX_Tm7isdMSOKvquEhAO-E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rwbla9cw3PfUIbgashtP6w&oh=00_AfnHAnUpha2AwBO2T6GyMfrmLEqWRPUl9WSf8fOrUVdJDg&oe=694BC301)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064012_20251211_064012.md)
+
+### Overview
+This image depicts a settings interface for configuring navigation parameters within a software application. The layout is structured with expandable sections and various input fields for adjusting settings related to navigation locomotion.
+
+### Key Elements
+- **Navigation Section**: Located at the top, this section has a header labeled "Navigation." It includes a toggle switch labeled "Include in Bakes."
+- **Navigation Locomotion Section**: Below the Navigation section, this section is expanded to reveal more settings. It has a header labeled "Navigation Locomotion."
+- **Enabled Toggle**: Within the Navigation Locomotion section, there is a toggle switch labeled "Enabled," which is currently in the 'on' position.
+- **Navigation Profile Dropdown**: Next to the Enabled toggle, there is a dropdown menu labeled "Navigation Profile" set to "Regular."
+- **Input Fields**: Several input fields are present under the Navigation Locomotion section, each with a label and a corresponding value field:
+  - **Max Speed**: Value set to "5"
+  - **Turning Speed**: Value set to "120"
+  - **Base Offset**: Value set to "1"
+  - **Stopping Distance**: Value set to "0"
+  - **Acceleration**: Value set to "10"
+  - **Deceleration**: Value set to "-10"
+- **Immobile Toggle**: Below the input fields, there is a toggle switch labeled "Immobile."
+- **Alignment Mode Dropdown**: This dropdown is labeled "Alignment Mode" and is set to "Current Velocity."
+- **Physical Surface Snapping Toggle**: Below the Alignment Mode dropdown, there is another toggle switch labeled "Physical Surface Snapping."
+- **Required Forward Alignment**: At the bottom, there is a label "Required Forward Alignment" with a value of "360."
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Enabled" toggle switch within the Navigation Locomotion section. The input fields are arranged vertically beneath the toggle switch, and the alignment mode dropdown is positioned below them. The toggle switches for Immobile and Physical Surface Snapping are located at the bottom of the interface. The layout follows a clear hierarchical structure, with the top section being the primary navigation setting and the lower section detailing specific locomotion parameters.
+
+</details>
+
+<p></p>
+
+
 
   - **Enabled**: Whether the object is a NavMesh agent.
   - **Navigation Profile**: The navigation profile the agent will use.
@@ -47,13 +117,62 @@ To enable your agents to move, you need to write a script to determine their mov
 
 To use the NavMeshAgent API, first enable the `horizon/navmesh` package in the **Script Settings** menu and **Apply** your changes.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/459441915_543667311504558_2099678408108692939_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Y67HtNo6zHwQ7kNvwG9UjrO&_nc_oc=AdkiWWH03HR8Q8EavMEDsYihPBwnKadP6ROB7EbJo1ITv2yx68GlTtA5EaBSf5u-1Yo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rwbla9cw3PfUIbgashtP6w&oh=00_AfmMESXSu_jY-3Oz6Sq0XvZ9BfoLvZoZYgdS0Ccoz5-5gw&oe=694BE590)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064117_20251211_064117.md)
+
+### Overview
+This image depicts a settings dialog box titled "Script Settings." It contains a sidebar menu with options such as "Script editing," "API," and "Console." The main content area displays a list of API options under the "API" tab, with toggle switches next to each option. At the bottom, there are two buttons labeled "Cancel" and "Apply."
+
+### Key Elements
+- **Sidebar Menu**: Located on the left side, with a dark gray background. Contains three options: "Script editing," "API," and "Console." Each option has a white label.
+- **API Tab**: Located in the main content area, with a dark gray background. Contains a list of API options: "horizon/experimental," "horizon/testing," "horizon/2p," "horizon/analytics," "horizon/performance," "horizon/navmesh," and "horizon/test_bridge." Each API name is in white text.
+- **Toggle Switches**: Located to the right of each API option, with a dark gray background and a white toggle handle. Some toggles are in the "off" position, while one ("horizon/test_bridge") is in the "on" position.
+- **Buttons**: At the bottom of the dialog box, there are two buttons: "Cancel" and "Apply." Both have a dark gray background with white text. The "Apply" button is highlighted in blue.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "API" tab, as it occupies the largest portion of the main content area. The toggle switches are arranged vertically next to the API names. The "Cancel" and "Apply" buttons are at the bottom, with the "Apply" button being more prominent due to its blue highlight.
+
+</details>
+
+<p></p>
+
+
 
 Then, create a new script using the [NavMeshAgent API](https://horizon.meta.com/resources/scripting-api/navmesh.navmeshagent.md/?api_version=2.0.0). See the [Adding and Editing Scripts](../Get%20started%20with%20Desktop%20Editor/Adding%20and%20editing%20scripts.md) documentation for how to create a new script.
 
 After you create a script to move your agent, don’t forget to attach the script to the agent object in the **Properties** pane.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/459101076_543667314837891_4007115484206548401_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=hfkX5RAtFK4Q7kNvwHNclGw&_nc_oc=AdkoypMz1FQWpbsLP46BxrmdYg1g5ZYBOgQuqNUC25FBCHSSelgUGwm1uFG6xsEumAc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rwbla9cw3PfUIbgashtP6w&oh=00_Afko7KEPrawqAl2G-RvXbpfNXnlP8aE7zLdxpHEfHRz_fA&oe=694BE809)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_064227_20251211_064227.md)
+
+### Overview
+The image displays a 3D avatar model in a development environment, alongside a configuration interface for navigation settings. The avatar is wearing a plaid shirt, white pants, brown shoes, and a black cap. The right side of the image shows a settings panel with various parameters related to navigation and locomotion.
+
+### Key Elements
+- **Avatar Model**: A 3D character model with a plaid shirt, white pants, brown shoes, and a black cap. The model is positioned in a neutral stance, facing slightly to the right.
+- **Navigation Settings Panel**: Located on the right side of the image, it contains several configurable options for navigation and locomotion.
+    - **Who Can Grab?**: Dropdown menu showing "Anyone".
+    - **Avatar Attachable**: Toggle switch set to "Off".
+    - **Keep Ownership On Collision**: Toggle switch set to "Off".
+    - **Navigation Section**: Contains a dropdown labeled "Include in Bakes".
+    - **Navigation Locomotion Section**: Contains toggles and sliders for parameters such as "Enabled", "Navigation Profile", "Max Speed", "Turning Speed", "Base Offset", "Stopping Distance", "Acceleration", "Deceleration", "Immobile", "Alignment Mode", "Physical Surface Snapping", and "Required Forward Alignment".
+
+### Visual Flow / Relationships
+The avatar model is the most prominent visual element, with the navigation settings panel providing contextual information about the avatar's configuration. The avatar is positioned on the left, while the settings panel occupies the right side of the image. There are no arrows or lines connecting elements, but the layout suggests a logical progression from viewing the avatar to configuring its navigation settings.
+
+</details>
+
+<p></p>
+
+
 
 ### Example scripts
 

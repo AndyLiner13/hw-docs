@@ -3,12 +3,125 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 # Object Instantiation
 
 - Click on the “Build” box icon from the top bar.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/584957099_869065625631390_2604824952247048476_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=7hvrXvi2XBwQ7kNvwFdJ4BK&_nc_oc=AdmvkJCus57X9VqpGlNKdadCl3fpIH-tiAm1vd34MsfODiji6utAUYNgTDUaoKbCz7w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Tza_BmBcyvlHUj9p2D4bug&oh=00_AfkAScdFStNHHdyc41XLt2ns8zFGVyJQkgIts7GWNB3EJg&oe=694BCABB)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_072657_20251211_072657.md)
+
+### Overview
+The image depicts a user interface from a game development environment, specifically showing a scene preview and a project hierarchy. The left side displays a hierarchical list of assets and scenes within the project, while the right side shows a 3D scene preview. The interface includes various toolbars at the top for navigation and settings.
+
+### Key Elements
+- **Left Panel (Hierarchy)**:
+  - **Visual description**: A vertical list with expandable nodes.
+  - **Location**: Left side of the image.
+  - **Contents**: Nodes labeled with asset names such as "ConstsWorld," "[ARENA-CORE]," "Broadside_EnvSFX," etc.
+  - **Visual styling**: Dark background with white text and light gray expand/collapse indicators.
+  
+- **Right Panel (Scene Preview)**:
+  - **Visual description**: A 3D scene view with a blurred background and a foreground object resembling a cube with a speaker icon.
+  - **Location**: Right side of the image.
+  - **Contents**: A partially visible cube with a speaker icon and some text indicating "Hold Touch Controller [A] or Key."
+  - **Visual styling**: Blurred background with a focus on the foreground object.
+
+- **Top Bar**:
+  - **Visual description**: Contains menu options and tool buttons.
+  - **Location**: Top of the image.
+  - **Contents**: Options like "Build," "Systems," "Preview," "Scripts," and "Gen AI."
+  - **Visual styling**: Dark background with white text and icons.
+
+- **Scene Controls**:
+  - **Visual description**: Buttons for scene manipulation.
+  - **Location**: Top-right area.
+  - **Contents**: Buttons for actions like "Local," "Center," and rotation adjustments.
+  - **Visual styling**: White text on dark buttons.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The scene preview on the right.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: The hierarchy list on the left is adjacent to the scene preview on the right. The top bar spans across both panels.
+
+</details>
+
+<p></p>
+
+
 - Selecting shapes, gizmos, sounds from the drop-down menu will display 3D objects.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/585009828_869065622298057_6667590264092858657_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=jjaTz1s5bmcQ7kNvwEwgoxE&_nc_oc=Adkem1W4EcL-ta3t8IonSpYlHDcHAHrd2T82ArYbAV5T7MuAdTg3_VT6pSdKRiB7wbk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Tza_BmBcyvlHUj9p2D4bug&oh=00_Afmkam0zdDkMPBLMZzXCR4-LKsO_ZoS4L7v8CC_QBo_wGw&oe=694BCC37)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_072830_20251211_072830.md)
+
+### Overview
+The image depicts a user interface from a game development environment, specifically Unity, showing the Hierarchy window on the left side and a 3D scene view on the right. The Hierarchy window displays a list of game objects, some of which are locked, indicated by a lock icon next to them. The scene view shows a 3D environment with a focus on a geometric shape resembling a pyramid or a triangular prism, highlighted in orange. There are also various UI elements at the top, such as tabs for Build, Systems, Preview, Scripts, and others.
+
+### Key Elements
+- **Hierarchy Window**: Located on the left side, it contains a list of game objects with names like `_P`, `ConstsWorld`, `[ARENA-CORE]`, `Ouro Console Transform Ref`, among others. Some objects have lock icons next to them.
+- **Scene View**: On the right side, displaying a 3D environment with a geometric shape highlighted in orange. The shape appears to be a pyramid or a triangular prism.
+- **Tabs at the Top**: Located at the very top of the interface, these include options like Build, Systems, Preview, Scripts, and others. There is also a Gen AI button and several other icons that likely represent different functionalities within the Unity editor.
+- **Search Bar**: Below the tabs, there is a search bar labeled "Search hierarchy" for navigating through the hierarchy window.
+- **Asset Library Tab**: At the bottom of the screen, there is a tab labeled "Asset Library" with a sub-tab for "Public Assets."
+
+### Visual Flow / Relationships
+The most prominent visual element is the Hierarchy window on the left, which is the primary focus for organizing and managing game objects. The scene view on the right provides a visual representation of the game world. The tabs at the top provide navigation options, and the search bar allows users to quickly find specific game objects within the hierarchy. The layout suggests a typical workflow where developers manage assets and scenes in Unity.
+
+</details>
+
+<p></p>
+
+
 - When the user clicks on a 3D object, the object is spawned in the world.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/584429722_869065628964723_8448383362128441669_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=YAfk6-rhV3IQ7kNvwHXFy8a&_nc_oc=AdnSO7iiev7zMq7e7XZCziWcPG21gGD6YzOKM4uxd94THgb2Ss9CG4FPIf14nU2Nxkk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Tza_BmBcyvlHUj9p2D4bug&oh=00_Afm_sX60HbhTmMl3wLmXgdySbZqXK_9DJ_A2WGTUZTvJwA&oe=694BD6E0)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_072922_20251211_072922.md)
+
+### Overview
+This image depicts a 3D modeling interface with a grid workspace in the center, a shape selection panel on the left, and property settings on the right. The interface appears to be part of a game development or 3D modeling software.
+
+### Key Elements
+- **Shape Selection Panel**: Located on the left side, it displays various geometric shapes such as cube, sphere, cone, cylinder, ramp, pyramid, tube, half-cylinder, half-tube, faceted-cylinder, capsule, torus, half-torus, half-sphere, and cube-soft. The sphere shape is highlighted with a red bounding box.
+- **Workspace**: The central area is a 3D grid workspace where a white sphere model is placed at coordinates (0.5, 0.67, 2.51).
+- **Properties Panel**: On the right side, it shows properties of the selected sphere, including behavior, attributes, physics, and script settings. The sphere is marked as visible and collidable, with specific rotation and scale values provided.
+
+### Visual Flow / Relationships
+The most prominent visual element is the sphere in the workspace. The shape selection panel is secondary but crucial for creating new objects. The properties panel is tertiary, providing detailed information about the selected object. There are no arrows or lines connecting elements, suggesting a linear reading order from left to right.
+
+</details>
+
+<p></p>
+
+
 
 ## Demo
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/584612955_869065632298056_453729850077245006_n.gif?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=1p3vXmGLbtkQ7kNvwHNSYxh&_nc_oc=AdmjDPSZhiwnQErOE_DMu1iCrHkPnqCqUahr4YyKOK3lt5NjpnlyOeGGKHYadot2i5U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Tza_BmBcyvlHUj9p2D4bug&oh=00_AflFgDX2CQfAAoxPtdfJo46jAz2WOxAoI_cUQPBM6LoD4w&oe=694BCA96)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_073119_20251211_073119.md)
+
+### Overview
+This image depicts a user interface from a game development environment, likely Unity, showing a scene preview and a hierarchy panel. The scene preview occupies the central area, while the hierarchy panel is on the left side. Various toolbars and panels are visible at the top and bottom of the screen.
+
+### Key Elements
+- **Hierarchy Panel**: Located on the left side, displaying a tree-like structure of game objects. It includes folders labeled "LOBBY," "BROADSIDE," "SPAWNED," and others. Each folder has a lock icon next to it, indicating locked objects.
+- **Scene Preview**: Positioned centrally, showing a 3D environment with a wooden floor and walls. There is a small window in the scene preview displaying a warning message about object references.
+- **Toolbars**: At the top, there are tabs for "Build," "Systems," "Preview," "Scripts," and "Gen AI." Below these tabs, there are icons for "Hierarchy," "Shapes," "Colliders," "UI," "Navigation," "Display," "Interactions," "Avatars," "Media," "Effects," "Environment," and "[dev] Experimental."
+- **Scene Controls**: On the right side of the scene preview, there are controls for local view, centering, rotation, scale, and camera settings.
+- **Asset Library**: At the bottom, there is a section labeled "Asset Library" with options for "Public Assets" and "My Assets."
+
+### Visual Flow / Relationships
+The hierarchy panel is the most prominent element on the left, followed by the scene preview in the center. The toolbars at the top provide navigation and functionality options. The asset library at the bottom offers access to assets used in the project.
+
+</details>
+
+<p></p>
+

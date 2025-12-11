@@ -4,7 +4,57 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Data as an Asset makes it easier to ingest and access a large amount of data. You can use this data to generate and populate your worlds with content for players as part of a live service model.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452577444_512500194621270_8611450341367331312_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=cXRni8i8r0EQ7kNvwG36sth&_nc_oc=AdkZToe1R-i7iKcbJmqJm6tnREUkjzdtYx__RYgsqYsK_GeBjCcmbDFoPu3YpfVFBkg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_Afk9hvSU3kiQLvbWI7m-lXet_J46rtNVugoCXBWdeSB5Yg&oe=694BBC6E)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_020630_20251211_020630.md)
+
+### Overview
+The image is a collage of four screenshots showcasing a user interface related to asset management and upload processes. The central theme revolves around uploading assets through desktop or web interfaces.
+
+### Key Elements
+1. **Left Panel (Top Left Corner):**
+   - **Visual description:** A dark-themed sidebar menu.
+   - **Location:** Top-left corner.
+   - **Contents:** Contains options such as "Folder," "3D Model," "Audio," "Material," "Skydome," "Texture," and "Text."
+   - **Visual styling:** Dark background with light-colored text and icons.
+
+2. **Code Snippet (Top Center):**
+   - **Visual description:** A code snippet displayed in a monospaced font.
+   - **Location:** Top-center.
+   - **Contents:** Contains JSON-like data entries with keys such as `"qns_type"`, `"difficulty"`, `"category"`, `"question"`, `"correct_answer"`, and `"incorrect_answers"`.
+   - **Visual styling:** Black background with white and orange text.
+
+3. **Asset Upload Interface (Right Center):**
+   - **Visual description:** A window titled "View All" showing a list of assets under "My Worlds" and "My Assets."
+   - **Location:** Right-center.
+   - **Contents:** Includes a search bar, a dropdown menu with options like "3D model," "Sound," "Texture," and "Text," and a thumbnail preview of an asset labeled "trivia."
+   - **Visual styling:** Light background with blue and purple accents.
+
+4. **Console Output (Bottom Center):**
+   - **Visual description:** A console-like interface displaying messages and JSON data.
+   - **Location:** Bottom-center.
+   - **Contents:** Messages include "JSON question," "JSON correct_answer," and "JSON incorrect_answers," along with timestamps.
+   - **Visual styling:** Dark background with white text.
+
+5. **Message Box (Bottom Left):**
+   - **Visual description:** A message box indicating the number of items in the console.
+   - **Location:** Bottom-left.
+   - **Contents:** Displays "Clear" and a count of 211 items.
+   - **Visual styling:** Dark background with light text.
+
+### Visual Flow / Relationships
+- **Most prominent visually:** The central focus is on the asset upload interface in the right-center screenshot.
+- **Arrows and lines:** Arrows connect the left panel to the code snippet, the code snippet to the asset upload interface, and the asset upload interface to the console output.
+- **Spatial relationships:** Elements are arranged in a linear flow, starting from the left panel, moving to the code snippet, then to the asset upload interface, and finally to the console output.
+
+</details>
+
+<p></p>
+
+
 
 ## Requirements
 
@@ -14,7 +64,39 @@ Data as an Asset makes it easier to ingest and access a large amount of data. Yo
 
 ### Web Asset upload
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457319138_534069239131032_568264581816929647_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=lpFwxC1P_CkQ7kNvwF6Ho0j&_nc_oc=Adl5UCF0wB-27Bdk9nP9hXCP3DgBi91hh0VcWJhbTCsdmlCmrLu4fqUd-MskpX8Q7PQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_AfksH_tTPtd4i7vuVRHrLxdm2Qgm57p5RerrQsCt98ileA&oe=694BC3B4)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_020819_20251211_020819.md)
+
+### Overview
+This image depicts a user interface for managing assets within a platform named Meta Horizon. The layout includes a sidebar with navigation options and a main content area displaying asset management features.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **My Worlds**: Contains a location pin icon and the text "My Worlds."
+  - **My Assets**: Contains a folder icon and the text "My Assets," which is highlighted in blue, indicating selection.
+  - **Create New Folder**: A button labeled "+ Create New Folder."
+  - **View All**: Contains a folder icon and the text "View All."
+  - **Removed Assets**: Contains a trash bin icon and the text "Removed Assets."
+
+- **Main Content Area (Right Panel)**:
+  - **Header**: Displays "My Assets" at the top.
+  - **Search Bar**: Located below the header, with the placeholder text "Search assets."
+  - **Import Button**: Positioned in the top-right corner, labeled "+ Import."
+  - **Asset Placeholder**: An illustration of a person holding a pencil, sitting at a desk with a window behind them. Below the illustration, the text "No assets yet" is displayed.
+  - **Text Input Box**: A floating input box with the word "Text" inside, outlined in yellow.
+
+### Visual Flow / Relationships
+The layout follows a standard sidebar and main content structure. The sidebar is on the left, and the main content area occupies the right side. The "My Assets" option in the sidebar is expanded, revealing its contents. The main content area displays a placeholder for assets, with the "Import" button and search bar above the asset placeholder. The floating text input box is positioned prominently near the top-right of the main content area.
+
+</details>
+
+<p></p>
+
+
 
 [](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453692983_3416887951779596_1166922568651522418_n.mp4?_nc_cat=110&ccb=1-7&_nc_sid=6500a6&_nc_ohc=xeZDTr4R5r8Q7kNvwHWfpXY&_nc_oc=AdmHgJdRiBQ64jCnaLYf58bFtvE-J2uiRcX64tR0Bp7OQhtT3eW9nQYhoLRXnC24yjA&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_Afm_vbz-VaHSAfZTJ5VOhjqcOFLejsRQdlPXFH4Ra-H61g&oe=693757B2)
 
@@ -28,7 +110,33 @@ Data as an Asset makes it easier to ingest and access a large amount of data. Yo
 
 ### Desktop asset upload
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457288085_534069255797697_3427743522111648183_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=dD908DM1txkQ7kNvwH7KNju&_nc_oc=AdlPZhGGhGhrniVymcWvENVnQr4rTm23rY9wvdMp2wViCkYGqRf49JHRoha2tin3XHo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_Afm_zzQFxmdNSjCsxGXDebhC9TTumteMWTq-sQJEP9RtTQ&oe=694BC617)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_020925_20251211_020925.md)
+
+### Overview
+This image depicts a user interface from a 3D modeling or game development software. The main focus is on the asset management section, showing a dropdown menu under the "Add New" button. The interface includes a viewport displaying a simple 3D scene, along with various toolbars and panels for navigation and asset management.
+
+### Key Elements
+- **Viewport**: Located centrally, showing a 3D scene with a flat ground plane and a blue sky. The grid is visible on the ground plane.
+- **Add New Button**: Positioned at the bottom left of the screen, highlighted with a yellow box. It has a downward arrow indicating a dropdown menu.
+- **Dropdown Menu**: Appears when the "Add New" button is clicked. Contains options such as "Folder," "3D Model," "Audio," "Material," "Skydome," "Texture," and "Text." The "Text" option is also highlighted with a yellow box.
+- **Asset Panel**: Below the viewport, showing three icons labeled "Rifle," "SingleBlock," and "StoneFloor."
+- **Search Bar**: At the bottom right, labeled "Search My Assets."
+- **Navigation Tabs**: Above the viewport, tabs labeled "Assets," "Console," and "Tests."
+- **Hierarchy Panel**: On the left side, showing a tree structure with "SpawnPoint" and a search bar above it.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the "Add New" button and its dropdown menu, which are central to the action depicted. The dropdown menu is the focal point of interaction, suggesting that the user is about to add a new asset. The viewport serves as the backdrop, providing context for the 3D environment being managed. The asset panel and search bar provide additional functionality for managing assets within the software.
+
+</details>
+
+<p></p>
+
+
 
 [](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453534048_1010445640344215_7233222472795927828_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=m6gDuS5sYasQ7kNvwFrKRSY&_nc_oc=Adl65IFWPtOjEOe4aktCcpb2Ift3K7_Q2HcwhhnzBMln6ZyWG1hPNL3V0Acd6t5o-Jw&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_AfnlqJGwH2bJgklD1n4fUqcUIf3hnPZpIZtlS0vHk7guig&oe=6937469D)
 
@@ -61,7 +169,31 @@ There are 2 ways to do this:
 
 - Create a new Asset, with an Asset ID. You can obtain this by inspecting the asset in your Desktop Editor Asset Library interface, or the Web Asset Library interface. Create a new Asset, with an Asset ID. You can obtain this by inspecting the asset in your Desktop Editor Asset Library interface, or the Web Asset Library interface.
 - You can optionally provide the Asset version ID when creating the Asset. You can find this Asset version ID in the Web Asset Library interface.Your world will reference that version of the asset even if the Asset is updated.You can optionally provide the Asset version ID when creating the Asset. You can find this Asset version ID in the [Web Asset Library interface](https://horizon.meta.com/creator/assets). Your world will reference that version of the asset even if the Asset is updated.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/457409225_534069252464364_3303227658061954721_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZAbTfGmZDRgQ7kNvwFAx6LI&_nc_oc=AdmdrnzmwnrrIfx8wUvzg077Zy4hULHRwisGMsP1ipL7yjhcAvin-6Cy7YrL9XOYrbE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_AfkI4aER63yImVjLuJ9_EQmaRbNuEn8K2v5MJVZ6aF_ejQ&oe=694BDC93)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_021016_20251211_021016.md)
+
+### Overview
+The image displays a modal window titled "trivia" that appears over a blurred background labeled "My Assets." The modal contains version details, asset information, and a download option. The background behind the modal shows two assets named "trivia" and "TriviaAssetGroup."
+
+### Key Elements
+- **Modal Window Title**: "trivia"
+- **Version Details Section**: Contains a version number highlighted in yellow (`8388721047846104`) and a timestamp (`August 15 at 2:32 PM`).
+- **Asset Details Section**: Includes fields such as "Description," "Folder," "Creator," "Last edited," and "Asset ID."
+- **Download Button**: Located at the bottom right of the modal.
+- **Background**: Blurred view of "My Assets" folder showing two assets with gradient backgrounds and cube icons.
+
+### Visual Flow / Relationships
+The most prominent visual element is the modal window itself, which overlays the background. The version details and asset information are arranged vertically within the modal. The download button is positioned at the bottom right, indicating a secondary action. There are no arrows or lines connecting elements, suggesting a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 - To reference the latest version of the Asset whenever it is updated, create a new Asset Object with the ID, but do not provide the optional version ID.
 - For example `let asset = new Asset(ASSET_ID_BIGINT_HERE);`
 - Please note that Asset loads are cached. If you are running the world, load the Asset and update it in the backend any new Asset loads will be the ones at time of asset load. You must restart the world to get your latest uploaded Asset version.
@@ -175,7 +307,31 @@ Enabling skipCache is only useful if you expect the asset that you are referenci
     asset = new hz.Asset(assetId, versionId);
   ```
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/457409225_534069252464364_3303227658061954721_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZAbTfGmZDRgQ7kNvwFAx6LI&_nc_oc=AdmdrnzmwnrrIfx8wUvzg077Zy4hULHRwisGMsP1ipL7yjhcAvin-6Cy7YrL9XOYrbE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mJqCkzvNjF8Afc9j80NJ_w&oh=00_AfkI4aER63yImVjLuJ9_EQmaRbNuEn8K2v5MJVZ6aF_ejQ&oe=694BDC93)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_021108_20251211_021108.md)
+
+### Overview
+The image displays a modal window titled "trivia" that appears over a blurred background labeled "My Assets." The modal contains version details, asset information, and a download option. The background behind the modal shows two assets named "trivia" and "TriviaAssetGroup."
+
+### Key Elements
+- **Modal Window Title**: "trivia"
+- **Version Details Section**: Contains a version number highlighted in yellow (`8388721047846104`) and a timestamp (`August 15 at 2:32 PM`).
+- **Asset Details Section**: Includes fields such as "Description," "Folder," "Creator," "Last edited," and "Asset ID."
+- **Download Button**: Located at the bottom right of the modal.
+- **Background**: Blurred view of "My Assets" folder showing two assets with gradient backgrounds and cube icons.
+
+### Visual Flow / Relationships
+The most prominent visual element is the modal window itself, which overlays the background. The version details and asset information are arranged vertically within the modal. The download button is positioned at the bottom right, indicating a secondary action. There are no arrows or lines connecting elements, suggesting a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 ## Notes
 

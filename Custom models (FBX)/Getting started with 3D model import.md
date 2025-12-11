@@ -11,7 +11,42 @@ A custom 3D model is composed of multiple files, all of them must be specified w
 
 For example, you need to import five files in order to import this rifle asset:
 
-![Image shows a 3D model of a futuristic rifle](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/469383086_604977648706857_1533817991015737609_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=dOslQ750DsQQ7kNvwHj1Hh8&_nc_oc=Adk-IqoixkGR953_q5FEHXOxsVMxSP_45qWV__HO5ADVAoGJ-PO2xPOKx_pFrKA6Gsw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=N1EeVEoTfXviz6g3L3lY4g&oh=00_AfkFWe757XOuJ5uUuNDYbtIv78HATNdHR5YladqNnlCSTg&oe=69544A2A)
+<details>
+<summary>Image shows a 3D model of a futuristic rifle</summary>
+
+<p></p>
+
+[Image shows a 3D model of a futuristic rifle](../../../images/output/img_20251211_011159_20251211_011159.md)
+
+### Overview
+The image depicts a mechanical device resembling a robotic arm or a tool holder, set against a blurred outdoor background suggesting a desert-like environment. The device has a cylindrical body with multiple components attached, including a central rod and several smaller parts extending outward.
+
+### Key Elements
+- **Visual description**: The main component is a cylindrical body with a metallic finish.
+- **Location**: Center of the image.
+- **Contents**: The cylinder has a series of protrusions and attachments.
+- **Visual styling**: The cylinder is primarily silver with some black accents.
+
+- **Visual description**: Several smaller components extend from the main cylinder.
+- **Location**: Attached to the sides and bottom of the main cylinder.
+- **Contents**: These components appear to be joints or connectors, possibly for articulation.
+- **Visual styling**: These parts are also metallic but with a slightly different texture compared to the main cylinder.
+
+- **Visual description**: A blurred background suggests a desert landscape.
+- **Location**: Surrounding the main object.
+- **Contents**: The background includes sand dunes and possibly some distant structures.
+- **Visual styling**: The background is out of focus, with muted earth tones.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central cylindrical body.
+- **Arrows, lines, connectors**: None visible.
+- **Spatial relationships**: The smaller components are attached to the main cylinder, suggesting a modular design. The background is static and does not interact with the device.
+
+</details>
+
+<p></p>
+
+
 
 ## Import a custom model asset
 
@@ -22,21 +57,138 @@ Follow this procedure to import a custom model asset, spawn an object from it, a
 
 - From the Desktop Editor, click the **Asset Library** tab at the bottom of the screen and select **My Assets**.
 
-  ![Click on the Asset Library tab to open the Personal Asset Library](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/463982802_573870205150935_1936916611175683589_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=gZcs80RdWBwQ7kNvwEI5f8D&_nc_oc=AdlLNtkVZ7H-Xixzpfkz-fQxNNl0SvdphSpDXkPagFCgcPsLvcOi_srVjqbrV2v-ru0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=N1EeVEoTfXviz6g3L3lY4g&oh=00_Afkoxcy7Qv_t_bIsvaLg1xkEErhuE9nrKd1OP_TecUBR5g&oe=69545C62)
+  <details>
+<summary>Click on the Asset Library tab to open the Personal Asset Library</summary>
+
+<p></p>
+
+[Click on the Asset Library tab to open the Personal Asset Library](../../../images/output/img_20251211_011304_20251211_011304.md)
+
+### Overview
+This image depicts a user interface for managing assets within a digital workspace. The layout includes navigation options, a search bar, and a message indicating the absence of assets in a specific folder.
+
+### Key Elements
+- **Navigation Bar**: Located at the top left, contains a menu item labeled "Assets" and a dropdown option "Add New".
+- **Folder Structure**: Positioned below the navigation bar, showing a hierarchical view of folders under "All Assets". The folders include "My Folders" and "Shared With Me".
+- **Search Bar**: Situated at the top right, with placeholder text "Search My Assets".
+- **Message Box**: At the bottom right, displays a message stating "There are no assets in this folder yet".
+- **Icon**: A small icon resembling a cube with a checkmark is placed above the message box.
+
+### Visual Flow / Relationships
+The most prominent visual element is the folder structure under "All Assets". The message box is the secondary focus, indicating the current status of the folder. The navigation bar and search bar provide contextual information and functionality.
+
+</details>
+
+<p></p>
+
+
 - Add a new asset by clicking **Add New**, and select **3D Model** from the menu.
 
-  ![The Import Models dialog box appears](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469364005_604977652040190_8339871927361378787_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Nm979I3lCPMQ7kNvwG8yR_8&_nc_oc=AdkPrH96u3OHRTjlFv46hD9MEgFVud0VcUOc1NKJhuBI-jDtdhn5i4YPGG2BjMs5sGM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=N1EeVEoTfXviz6g3L3lY4g&oh=00_AfkMOArQFJ5aEEeTk9l9Zdb63KNsMDD-YKh9mBRizz40ZA&oe=69546AAA)
+  <details>
+<summary>The Import Models dialog box appears</summary>
+
+<p></p>
+
+[The Import Models dialog box appears](../../../images/output/img_20251211_011412_20251211_011412.md)
+
+### Overview
+This image depicts a user interface dialog box titled "Import Model(s)" with instructions and options related to importing 3D models. The layout includes informational messages, file selection controls, and settings for offset pivots.
+
+### Key Elements
+- **Title**: "Import Model(s)" located at the top-left corner.
+- **Informational Message**: A rectangular box with a light gray background and a dark gray border, containing a warning icon and text explaining that hierarchies are flattened when importing 3D models, pivot points are centered, and colors can't be modified.
+- **File Selection Button**: A blue button labeled "Choose files on your device" situated below the information box.
+- **Offset Pivots Section**: A yellow-highlighted area with a warning icon and text stating that the offset pivots feature is only supported on single mesh FBX files and may cause unexpected behavior if the FBX file contains more than one mesh.
+- **Preserve Offset Pivots Checkbox**: A blue checkbox labeled "Preserve offset pivots," which, when checked, preserves the pivot defined in the original asset; otherwise, pivots will be centered.
+- **Buttons**: Two buttons at the bottom, "Cancel" and "Import," both with white text on a dark gray background.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the informational message box and the file selection button. The warning about offset pivots is visually emphasized by its yellow background. The buttons at the bottom are aligned horizontally and are the final interaction points for the user.
+
+</details>
+
+<p></p>
+
+
 - Select the asset files to import by clicking **+ Choose files on your device** on the dialog window that appears.
 - In the file picker window, select the 3D model file and associated texture files; click **Open**.
 
-  ![Select the five asset files](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/464310803_573870025150953_4833471769077242766_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=iJ9qQvQnGHEQ7kNvwFV9uRz&_nc_oc=AdnoRropH6sbq9Tt1qFkOEPRWf9_lg9naXneglAFxhdisuKK41-pYdU8POWe-4DY5xE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=N1EeVEoTfXviz6g3L3lY4g&oh=00_Aflzcw2jP6Jz-2W6eS0678VeAHlV8_4oE4ca910ZuTO0-w&oe=695468A8)
+  <details>
+<summary>Select the five asset files</summary>
+
+<p></p>
+
+[Select the five asset files](../../../images/output/img_20251211_011510_20251211_011510.md)
+
+### Overview
+This image depicts a file explorer window open to a directory named "DemoAssets" located on the Desktop. The window displays a list of files with their names, types, and sizes. There are also navigation controls at the top and a search bar for finding specific files within the directory.
+
+### Key Elements
+- **Navigation Pane**: Located on the left side, showing a tree view of folders and drives. It includes entries like "This PC," "Desktop," "Documents," "Music," "Pictures," "Videos," and "Local Disk (C:)". The "Desktop" folder is highlighted, indicating it is the current selection.
+- **File List**: On the right side, a list of files is displayed under the "Desktop" folder. Each entry has a name, type, and size. Examples include "ACWpnBattleRifle.fbx," "SingleBlock.fbx," and various PNG files.
+- **Search Bar**: Positioned at the top right, allowing users to search for specific files within the directory.
+- **Buttons**: At the bottom right, there are two buttons labeled "Open" and "Cancel."
+
+### Visual Flow / Relationships
+The most prominent visual element is the file list, as it occupies the largest area of the interface. The navigation pane is secondary but essential for navigating through directories. The search bar allows for quick filtering of files. The "Open" and "Cancel" buttons at the bottom are interactive elements that allow the user to confirm or cancel their action.
+
+</details>
+
+<p></p>
+
+
 - In the dialog box, click **Import**. The following asset icon appears in your **My Assets** folder when the process is complete.
 
-  ![This is what the rifle asset looks like after you import it](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/464292127_573870045150951_3415127998518177098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=LrDNCXuB6vYQ7kNvwEkGg84&_nc_oc=AdkiQX5y6OUBWuUFAdxBdE5SEvbHTm2tvKMehl9l7w_qcLmUq32Iywgv5uVeuxo0o1k&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=N1EeVEoTfXviz6g3L3lY4g&oh=00_AfkAJt6CbV2aJ-2e8PFK01D2QZa4gH6ZGa9EkV12ZJNZTQ&oe=695449C3)
+  <details>
+<summary>This is what the rifle asset looks like after you import it</summary>
+
+<p></p>
+
+[This is what the rifle asset looks like after you import it](../../../images/output/img_20251211_011552_20251211_011552.md)
+
+### Overview
+This image depicts a small icon or logo that appears to be part of a user interface element, likely a button or a notification badge. The icon is set against a white background with a subtle shadow effect, giving it a three-dimensional appearance.
+
+### Key Elements
+- **Visual description**: The icon consists of a stylized triangle pointing upwards within a rounded rectangle.
+- **Location**: Positioned centrally in the image.
+- **Contents**: The icon itself is simple and geometric, with no additional text or elements inside.
+- **Visual styling**: The icon has a light gray fill with a darker gray outline, creating a clean and modern look.
+
+### Visual Flow / Relationships
+The icon is the sole focus of the image, with no other elements or connections to suggest a larger interface or relationship.
+
+</details>
+
+<p></p>
+
+
 
 Spawn an instance of the asset by clicking on the icon for the asset, dragging it into the scene, and dropping it anywhere in the scene. A rifle object appears in the scene, and in the hierarchy.
 
-![The rifle floats over the pedestal](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/475232756_641654861705802_4132254507512158168_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=GVaOZurCQIgQ7kNvwFu__3n&_nc_oc=AdlBPiwTUganBYl7kVDVDU9LraEWrw5p1jcRAQSQJi6OMvvORCu9kKs2ukQCn-7HpSM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=N1EeVEoTfXviz6g3L3lY4g&oh=00_AflWdwCm7XmDxhrtx01rUTYpbPrx-oDb0RKST1xb931wVw&oe=69546C17)
+<details>
+<summary>The rifle floats over the pedestal</summary>
+
+<p></p>
+
+[The rifle floats over the pedestal](../../../images/output/img_20251211_011641_20251211_011641.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a rectangular block with a futuristic-looking weapon mounted on top of it. The environment appears to be a simple, flat terrain with a gradient sky in the background.
+
+### Key Elements
+- **Rectangular Block**: A large, solid, rectangular object with a matte purple surface. It occupies the lower portion of the image.
+- **Weapon**: Positioned on top of the block, the weapon has a sleek, angular design with glowing blue accents. It resembles a sci-fi or cyberpunk-style firearm.
+- **Background**: A flat, grayish terrain that extends into the distance. The sky above transitions from a lighter shade at the horizon to a darker hue higher up.
+
+### Visual Flow / Relationships
+The most prominent visual element is the rectangular block, which serves as the base for the weapon. The weapon is oriented horizontally across the top of the block, suggesting a focus on the object rather than the environment itself. There are no arrows or lines connecting elements, implying a static arrangement without a specific directional flow.
+
+</details>
+
+<p></p>
+
+
 
 ## Custom model workflows
 

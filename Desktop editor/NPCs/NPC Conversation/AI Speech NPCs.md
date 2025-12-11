@@ -82,7 +82,29 @@ In the **Voice and Speech** tab you can either select a preset voice from the **
 
 The **Voice library** is a collection of voices that can be assigned to your NPC.
 
-![Voice selection window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581815799_862928519578434_4376748016963998332_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=_hrrRARFn1IQ7kNvwG6TcH9&_nc_oc=AdkMGHxHJM1Bcx-1iir7vWgaYY6_Z8ByJK3upsz5NOUYDi1caoK8fgiTv3kgX6Cye94&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_Aflfra8ZSEoRT3iA_uAyd0evgTMMYcueRkS-gEfbw-t74w&oe=69543B0D)
+<details>
+<summary>Voice selection window</summary>
+
+<p></p>
+
+[Voice selection window](../../../../../images/output/img_20251211_065528_20251211_065528.md)
+
+### Overview
+This image depicts a user interface from a character builder tool, specifically within the "Voice and Speech" section. The layout includes a sidebar menu, a central content area displaying voice options, and a right panel for voice testing and properties adjustment.
+
+### Key Elements
+- **Sidebar Menu**: Located on the left side, it contains navigation items such as "Character Description," "Instructions," "Voice and Speech," and "Avatar." The "Voice and Speech" option is highlighted, indicating the current active section.
+- **Central Content Area**: This area is divided into two sections. The upper part displays a "Voice library" heading with a search bar and dropdown filters labeled "All Tags" and "Any Gender." Below this, a blue-highlighted section indicates a selected voice named "Plain," described as "Plain-spoken, everyday barista," with a checkmark and "Assigned" label next to it. Below this, a list of "Premade voices" is shown, each with a play icon, a name, a brief description, and a gender indicator.
+- **Right Panel**: This section includes a "Voice test phrase" input field with a play button and a timer showing "0:02." Below this, there are "Properties" settings for "Speed" and "Pitch," each with a slider set at "100." At the bottom right, there is a "Save" button.
+
+### Visual Flow / Relationships
+The most prominent visual element is the selected "Plain" voice, which is highlighted in blue. The flow moves from the sidebar menu to the central content area, focusing on the voice selection process, and then to the right panel for testing and property adjustments. There are no arrows or lines connecting elements, but the layout suggests a linear progression through the sections.
+
+</details>
+
+<p></p>
+
+
 
 You can use the search bar to search the **Voice library** for a specific voice and filter the results by **Gender** (Male, Female, or Nonbinary), and **Tags**. After finding a voice you’d like to use, you can use the right panel to preview the voice and alter it’s **Properties**. You can update the **Speed** and **Pitch** of the voice, and use the **Voice test phrase** window to provide text for the voice to speak allowing you to preview the voice.
 
@@ -94,23 +116,127 @@ Additionally, any generated voices will appear in the **Voice library** and can 
 
 You can select the **Generate voices** option to generate an AI voice for your NPC.
 
-![NPC voice generate window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594535982_880779667793319_6260597479868965753_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=I4fTqSdBtVoQ7kNvwFdPrvX&_nc_oc=AdmlemyLfjX-jGRdgLgep2y47H5ZTgdVj80K47xtjF6jCRWIf0t5-KHFevv7_ZK3LNA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_AfnwsMMW9zp99RvIrOGecGrxZ6qqcd7iwrQy0HPPkeUXKQ&oe=6954620B)
+<details>
+<summary>NPC voice generate window</summary>
+
+<p></p>
+
+[NPC voice generate window](../../../../../images/output/img_20251211_065640_20251211_065640.md)
+
+### Overview
+This image depicts a user interface screen titled "Generate voices." It features a dark-themed design with a central prompt area for entering voice generation prompts. Below the prompt area, there are several pre-defined voice generation options. At the bottom, there's a text input field for describing a voice's tone, pacing, and personality, along with a "Generate" button.
+
+### Key Elements
+- **Title**: "Generate voices" located at the top-center.
+- **Prompt Area**: Centered, with a placeholder text: "Enter a prompt to generate voices. Preview, save, and assign them to your NPC."
+- **Voice Generation Options**: A list of buttons below the prompt area, each offering a specific voice generation option:
+  - "Generate an old, ancient voice"
+  - "Generate a bouncy, happy voice"
+  - "Generate an adventurous, brave voice"
+  - "Generate a growling, scary voice"
+  - "Generate a monotone, robot voice"
+  - "Generate an absurd, crazy voice"
+  - "Generate a rough, coarse voice"
+- **Text Input Field**: Located at the bottom, labeled "Describe a voice's tone, pacing, and personality."
+- **Generate Button**: Positioned to the right of the text input field, with a blue background and white text.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central prompt area. The voice generation options are arranged vertically beneath it. The text input field and "Generate" button are placed at the bottom, creating a clear flow from the prompt area to the action buttons.
+
+</details>
+
+<p></p>
+
+
 
 The **Generate voices** tab offers a variety of prebuilt prompts to help you generate a voice for your NPC. You can also use the text box to create your own prompt by describing the tone, pacing, and personality of the generated voice.
 
 Once the prompt is input into the field, click **Generate** to begin generating voices. Once finished you will be presented with 2 options.
 
-![NPC voice generate options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/595787575_880779664459986_1897033345219005343_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6z7rrj23ZvkQ7kNvwEyc5yf&_nc_oc=Adnussq08Xivx2rcl9AlU0efMafe-0o4rrJRry6u4JWg97YEIW3eVhO3hDFJ_Hm0KkE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_AfkiYUexFb_KfQUQnOgoSdhSJOzByQ63ho41gDJSQhQeDw&oe=69543EFF)
+<details>
+<summary>NPC voice generate options</summary>
+
+<p></p>
+
+[NPC voice generate options](../../../../../images/output/img_20251211_065914_20251211_065914.md)
+
+### Overview
+This image depicts a user interface for generating voices within a character builder tool. The interface is divided into sections for personality description, voice generation options, and voice properties. The central area focuses on voice generation, offering options to generate a specific voice type and adjusting properties such as speed and pitch.
+
+### Key Elements
+- **Left Panel**: Contains a sidebar with sections labeled "Character Description," "Instructions," "Voice and Speech," and "Avatar." The "Voice and Speech" section is highlighted.
+- **Central Area**: Displays two buttons labeled "Option 1" and "Option 2," suggesting different voice generation options. Above these buttons, there is a blue button labeled "Generate a bouncy, happy voice."
+- **Right Panel**: Shows a section titled "Plain" indicating the current voice type, with a checkmark next to it. Below this, there is a text box labeled "Voice test phrase" with placeholder text asking users to enter text for testing. There are also sliders for adjusting "Speed" and "Pitch," both set to 100.
+- **Bottom Section**: A text input field prompts users to "Describe a voice's tone, pacing, and personality." To the right of this field, there is a question mark icon and a "Generate" button with a speaker icon.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the buttons for generating voices and the sliders for adjusting voice properties. The flow suggests that users can select a voice option, adjust properties, and then generate a voice sample. The layout is structured to guide users through the process step-by-step.
+
+</details>
+
+<p></p>
+
+
 
 Click the play button next to the option to have the voice read the text in the **Voice test phraase** box. You also can alter the voice’s properties to dial in the generated voice to your preference for the NPC.
 
 Once your generated voice is ready, click **Save to library** and give the generated voice a **Name**, **Description**, then set its **Gender** and any **Tags** you want associated with the voice. When finished, click **Save** to save the generated voice.
 
-![Save generated NPC voice](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/594662600_880779674459985_8980570193491485826_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=qu50zAP5wCMQ7kNvwGYdCaS&_nc_oc=Adnfyw2g7r_lWG6OtThKNk6PwFoev_TdgcHCp23YMVrYIpC9jMbOYZMcarexKqCapgo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_Afl7zbRRTh4ZViaSH7-ad7qrXVnKm0fMxuEFNx3I51mLcg&oe=69545EC7)
+<details>
+<summary>Save generated NPC voice</summary>
+
+<p></p>
+
+[Save generated NPC voice](../../../../../images/output/img_20251211_065959_20251211_065959.md)
+
+### Overview
+This image depicts a user interface form for editing or creating a character profile. It includes fields for name, description, gender, tags, and buttons for canceling or saving changes.
+
+### Key Elements
+- **Name**: Located at the top, within a black rectangular input field. Contains the text: **"Upbeat, optimistic voice"**.
+- **Description**: Below the Name field, another black rectangular input field contains the text: **"upbeat, cheery, bouncy"**.
+- **Gender**: Positioned below the Description field, a gray dropdown menu displays the selected option: **"Female"**.
+- **Tags**: Below the Gender field, a similar gray dropdown menu labeled **"Clear, Expressive,"** with additional options partially visible underneath.
+- **Buttons**: At the bottom, two buttons are present. The first is a gray button labeled **"Cancel"**, and the second is a blue button labeled **"Save"**.
+
+### Visual Flow / Relationships
+The form is structured vertically with clear sections for each input field. The most prominent elements are the Name and Description fields due to their larger size and placement near the top. The buttons at the bottom are the least prominent but still clearly defined.
+
+</details>
+
+<p></p>
+
+
 
 Your generated voices will appear in the **Voice library** tab in the **Generated voices** section. You can have up to 10 generated voices per world saved and available at a time.
 
-![Saved generated NPC voice](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/594519743_880779671126652_5423770805525811616_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=OV17TeV8MJIQ7kNvwG3ib6i&_nc_oc=Adlz7tO4PIHoANtUyTUT-AMDhYfYAa6FofSms6dNqmNp2chExFrQlPuUTlO54dx9L3o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_Afl2YvJtHov7dcDl2jKJsDVdx1dMsNZBNAjmdTOLHG4pqg&oe=69546AEA)
+<details>
+<summary>Saved generated NPC voice</summary>
+
+<p></p>
+
+[Saved generated NPC voice](../../../../../images/output/img_20251211_070101_20251211_070101.md)
+
+### Overview
+This image depicts a user interface for managing voice libraries within a software application. The screen is divided into sections for searching voices, viewing generated voices, and premade voices. There are interactive elements such as buttons and dropdown menus.
+
+### Key Elements
+- **Search bar**: Located at the top, spans the width of the screen. Contains a magnifying glass icon and the placeholder text "Search voices."
+- **Dropdown menu**: Positioned below the search bar, labeled "All Tags" with a downward arrow indicating a dropdown functionality.
+- **Gender filter**: Next to the dropdown menu, labeled "Any Gender" with a downward arrow.
+- **Voice library section**: Below the search bar, contains a list of voice options categorized under "Generated voices" and "Premade voices."
+    - **Generated voices**: Displays a voice named "Upbeat optimistic voice," described as "upbeat, cheery, optimistic." It has a label indicating it is female and includes an "Assign" button and a three-dot menu icon.
+    - **Premade voices**: Displays a voice named "Polished Stable," described as "Confident steady wanderer." It is labeled as male.
+- **Status indicators**: A green checkmark next to the "Plain" voice indicates it is "Assigned."
+
+### Visual Flow / Relationships
+The visual hierarchy is clear, with the search bar at the top for navigation. The dropdown menus provide filtering options. The list of voices is organized into sections, with the "Generated voices" section having an interactive "Assign" button. The "Premade voices" section does not have any interactive elements shown here.
+
+</details>
+
+<p></p>
+
+
 
 ## Event Perceptions
 

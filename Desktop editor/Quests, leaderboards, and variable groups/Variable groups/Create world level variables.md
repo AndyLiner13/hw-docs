@@ -11,7 +11,32 @@ Use the following process to create a world level variable:
 - Select **Systems** > **Variable Groups** from the menu bar.
 - In the Variable Groups panel, click the **Create Variable Group** button, then name your created variable group.
 - After creating the variable group, click the **Create Variable** button. In the **Create Persistent Variable** panel, use the **Variable Type** dropdown to select **World Persistent Variable**.
-  ![Create Persistent Variable panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/517447534_760611476476806_2459560139301980966_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=vd2bqGRVgacQ7kNvwHb_gCy&_nc_oc=AdlR9GOI_Xm139z0NucEdRotgn672dRly8HA58S9P7D0hOhgNVjHc4jGr-IKo7rvHQU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=A_inufDO8L_ryeOgE3CTCA&oh=00_AflAmnrQqsvmn6GL7_OVQKtiSeRhAXcNyX806zmMUJipzQ&oe=694BD692)
+  <details>
+<summary>Create Persistent Variable panel</summary>
+
+<p></p>
+
+[Create Persistent Variable panel](../../../../../images/output/img_20251211_094122_20251211_094122.md)
+
+### Overview
+This image depicts a modal dialog box titled "Create Persistent Variable." It contains form fields for creating a persistent variable within a user interface, with options for variable type, name, data type, and initial value. The dialog has a dark theme with a grid background behind it.
+
+### Key Elements
+- **Title**: "Create Persistent Variable" located at the top of the dialog box.
+- **Variable Type**: A dropdown menu currently set to "World Persistent Variable."
+- **Name**: An input field labeled "Name," which is empty.
+- **Data Type**: A placeholder field labeled "Data Type," also empty.
+- **Initial Value**: A field labeled "Initial Value" containing the number "0."
+- **Buttons**: Two buttons at the bottom of the dialog box, one labeled "Cancel" and another labeled "Create."
+
+### Visual Flow / Relationships
+The most prominent visual element is the title at the top. The form fields are arranged vertically, with the "Variable Type" dropdown being the first interactive element. The "Name" and "Data Type" fields follow, and the "Initial Value" field is at the bottom. The "Cancel" and "Create" buttons are positioned at the very bottom, with the "Create" button highlighted in blue, suggesting it is the primary action to take.
+
+</details>
+
+<p></p>
+
+
 - Next, name your created variable and select the **Data Type**. You can choose from the following data types:
   * Number - used by world counter APIS to save community activity counters
   * Object - used by world variable APIs to save complex world states

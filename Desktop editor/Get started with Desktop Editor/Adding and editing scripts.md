@@ -20,7 +20,31 @@ These instructions walk you through assigning a script reference after you have 
 - In the **Properties** panel, scroll to the **Script** section.
 - Select a script from the **Attached Script** dropdown menu.
 - The script is applied to the object, and the properties defined in the script now appear in the **Script** section of the **Properties** panel.
-  ![The script properties appear in the Properties panel.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489087152_692067246664563_8655887400773932913_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=rySzcGZb5OgQ7kNvwE3HVWb&_nc_oc=AdkLon4i5Q4xOzWfPuswom1-AhS7qW4T97siZ8JDKCRRULQKvyj4w7YKlU96-JGImyI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TN3Y-jNLKeypf3_NpqH1Nw&oh=00_AfkmWl3ZF1EBXW9JirJMvG6OtpOaHiv43k8bhMFcOazQoQ&oe=694BBF7F)
+  <details>
+<summary>The script properties appear in the Properties panel.</summary>
+
+<p></p>
+
+[The script properties appear in the Properties panel.](../../../../images/output/img_20251211_035857_20251211_035857.md)
+
+### Overview
+This image depicts a user interface element showing a script configuration panel. It includes a dropdown menu for selecting a script, followed by three adjustable parameters related to rotation and bobbing motion.
+
+### Key Elements
+- **Dropdown Menu**: Located at the top, it displays "Attached Script" and a dropdown arrow. The selected option is "Rot_Bob:RotateAndBob".
+- **Parameters Section**: Below the dropdown, there are three parameter fields labeled "rotSpeed," "bobSpeed," and "bobAmplitude." Each field has a corresponding value input box.
+  - **rotSpeed**: Positioned under "rotSpeed," it contains the value "0.01."
+  - **bobSpeed**: Positioned under "bobSpeed," it contains the value "1."
+  - **bobAmplitude**: Positioned under "bobAmplitude," it contains the value "0.02."
+
+### Visual Flow / Relationships
+The layout is linear, moving from the top-down and left-to-right. The dropdown menu is the most prominent element due to its larger size and placement at the top. The parameters follow in a vertical sequence beneath the dropdown.
+
+</details>
+
+<p></p>
+
+
 
 ## Copying scripts
 
@@ -32,7 +56,34 @@ Script copying is an available feature to save you time. You can copy a script f
 - Scroll down to the **Script** section, and click the menu dropdown.
 - From the menu that appears, select **Copy Script**. The script is copied into memory.
 
-![Image shows the script menu dropdown, with the "Copy Script" option highlighted.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485007786_677847718086516_1163809176474656229_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=aHtwgFu0eagQ7kNvwEcQZSS&_nc_oc=AdldAs69FzhIERJyu3JslWqeCFcVAhhST8F5M2-Df4TFk6g34PB_QWAOoZ4me78WY5Q&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=TN3Y-jNLKeypf3_NpqH1Nw&oh=00_Afm0k1qtqrozVRf6VzfNSh0EYUlhFA4r8gRiN2orqpbAKg&oe=694BBA95)
+<details>
+<summary>Image shows the script menu dropdown, with the "Copy Script" option highlighted.</summary>
+
+<p></p>
+
+[Image shows the script menu dropdown, with the "Copy Script" option highlighted.](../../../../images/output/img_20251211_035946_20251211_035946.md)
+
+### Overview
+This image shows a contextual menu that appears when interacting with a script named "StartGameTrigger_COMPLETE:StartGameTrigge..." in a development environment. The menu includes options for editing, copying, pasting properties, and removing the script. The menu is presented against a dark background typical of code editors or IDEs.
+
+### Key Elements
+- **Visual description**: The menu has a dark background with light gray text and a yellow highlight around the "Copy script" option.
+- **Location**: The menu is positioned centrally below the script name.
+- **Contents**: 
+  - "Edit script"
+  - "Copy script" (highlighted)
+  - "Paste all script properties"
+  - "Remove script"
+- **Visual styling**: The text is white, and the menu has a subtle shadow effect, giving it a slight elevation from the background.
+
+### Visual Flow / Relationships
+The most prominent element is the "Copy script" option, which is highlighted. The menu items are arranged vertically, with no arrows or lines connecting them. The visual hierarchy suggests that the user can interact with any of these options, but the highlighted "Copy script" indicates it is currently the focus.
+
+</details>
+
+<p></p>
+
+
 
 #### To paste a copied script
 
@@ -40,4 +91,26 @@ Script copying is an available feature to save you time. You can copy a script f
 - Navigate to the **Script** section, then click the menu dropdown.
 - From the menu that appears, select **Paste all script properties**. A copy of the script is attached to the object.
 
-![Image shows the script menu drop-down, with the "Paste as new attached script" option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484986141_677847711419850_2591399028196323106_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=pNWLwVNXeEQQ7kNvwH1PTNY&_nc_oc=Adn7PgWYN7spI7Jnti5ADvjsojqBZqs0HJjIdoXFGB4t_6fgku04izDKcLnt_yULEvw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TN3Y-jNLKeypf3_NpqH1Nw&oh=00_AfmMPpia8Wf3xRNlYyGAHPObZE7FB_GnR11achGi-FWRxg&oe=694BC832)
+<details>
+<summary>Image shows the script menu drop-down, with the "Paste as new attached script" option selected.</summary>
+
+<p></p>
+
+[Image shows the script menu drop-down, with the "Paste as new attached script" option selected.](../../../../images/output/img_20251211_040035_20251211_040035.md)
+
+### Overview
+This image depicts a user interface element within a game development tool, specifically showing a properties panel for an object named "StartGameTrigger_COMPLETE." The interface includes a dropdown menu with options related to script management.
+
+### Key Elements
+- **Properties Panel**: Located at the top, displaying various categories such as "Debug Data," "Behavior," "Attributes," and "GameplayTags."
+- **Object Name**: "StartGameTrigger_COMPLETE" displayed prominently in the dropdown menu.
+- **Dropdown Menu**: Appears as a right-click context menu with options: "Edit script," "Copy script," "Paste all script properties," and "Remove script."
+- **Three-Dot Icon**: Positioned to the right of the dropdown menu, indicating additional options or settings.
+
+### Visual Flow / Relationships
+The most prominent visual element is the dropdown menu, which is the focal point of the interaction. The three-dot icon suggests that clicking it would reveal more options, implying a hierarchical relationship between the main menu and the additional settings.
+
+</details>
+
+<p></p>
+

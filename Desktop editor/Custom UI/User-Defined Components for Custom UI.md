@@ -4,7 +4,29 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Often, you will need to render multiple components with similar styles. For example, let’s say you want to modify your change-ball-color example so that the players can choose between two colors, “Red” and “Green”:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452588455_512536447950978_4834496598851633163_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=3SVrKLdQOGUQ7kNvwHZixQQ&_nc_oc=AdkN9_RLT60X-N6CSivle5jiT7vvBmINw_ujz5rItEU-AeIWqCbo1fwnDXaVc-VWOEQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Xn2Z1Img5H_0Qu0lPkO2jw&oh=00_Afkny5cA22lpe03-YezJps7MHBJwh1DZUWhcAgbCMUMCaQ&oe=694BC805)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_031221_20251211_031221.md)
+
+### Overview
+This image displays a simple user interface prompt asking the user to choose a color for a ball. It features two buttons for selecting either red or green as the chosen color.
+
+### Key Elements
+- **Prompt Text**: Located centrally at the top. The text reads: > **Please choose a color for the ball**.
+- **Red Button**: Positioned below the prompt text on the left side. It has a solid red background with white text that says: > **Red**.
+- **Green Button**: Positioned to the right of the Red button. It has a solid green background with white text that says: > **Green**.
+
+### Visual Flow / Relationships
+The most prominent visual element is the prompt text, which draws attention first. The two buttons are arranged horizontally, with the Red button on the left and the Green button on the right. There are no arrows or lines connecting the elements, but the layout suggests a linear reading order moving from left to right.
+
+</details>
+
+<p></p>
+
+
 
 Those two buttons largely have the same styles, i.e. height, padding, border radius, etc., with only small differences like background color. Their children texts also have the same style. It will be verbose to duplicate these styles for each button.
 

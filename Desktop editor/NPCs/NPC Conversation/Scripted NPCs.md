@@ -14,9 +14,59 @@ To build a conversation for your scripted NPC, use the following process:
 
 - Navigate to **Build > Gizmos**, select the **NPC** gizmo and drag it into your scene. Set the **NPC type** to **Horizon Avatar (Body Only).**
 - After configuring the NPC’s properties in the **Properties** pane, click **Attach script** and select **New NPC conversation script** from the menu.
-  ![Attach Script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/546840266_810235228181097_6981823577862926430_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=T1zQgilihhIQ7kNvwHCOjHT&_nc_oc=AdlE8PGe6HUeRy1BG1t8gfxlsAe-ohJKQ_PyfiaFOwFhU5C4c_dF8k6zvSo59a8zmmk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MsHOONWEz-2TmrvNIKWMdQ&oh=00_Afk-UxLYwqo9OYSxuiBuA05Ke0TJD2g7-pG2LI-S5qFw2w&oe=694BC116)
+  <details>
+<summary>Attach Script</summary>
+
+<p></p>
+
+[Attach Script](../../../../../images/output/img_20251211_070445_20251211_070445.md)
+
+### Overview
+This image depicts a user interface element within a software application, specifically a settings menu related to nametags. The interface includes a search bar, a list of script options, and a button labeled "Attach script."
+
+### Key Elements
+- **Search Bar**: Located at the top of the interface, it has a blue outline and contains a magnifying glass icon. The placeholder text inside the search bar reads "> CrystalBall:CrystalBall".
+- **List of Scripts**: Below the search bar, there are two items listed:
+  - **CrystalBall:CrystalBall**: This item is highlighted with a darker background compared to the others, indicating it might be selected or hovered over.
+  - **New NPC conversation script**: This item is partially visible and appears as a clickable option.
+  - **New script**: This item is also partially visible and appears as another clickable option.
+- **Attach Script Button**: Positioned above the search bar, it is a blue button with white text that says "Attach script".
+- **Menu Header**: At the very top, the header reads "Nametag settings".
+
+### Visual Flow / Relationships
+The most prominent visual element is the search bar, which is centrally located and draws attention due to its active state. The list of scripts is arranged vertically beneath the search bar, with the "CrystalBall:CrystalBall" item being the most visually distinct due to its darker background. The "Attach script" button is positioned above the search bar, serving as a call-to-action. The overall layout suggests a linear reading order moving from the top-down.
+
+</details>
+
+<p></p>
+
+
 - Name your script for your NPC, click **Create and attach**, and wait for the script to compile. Once compiled you can click the three dot menu and select **Edit script** to open the script in your preferred IDE.
-  ![Edit Script](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/545977385_810235181514435_2134096870227171498_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=9VlgLXJSDeIQ7kNvwFKjyPM&_nc_oc=Adlqa6ZZnbRWS1u918-_egLXEvdkEW2kGhfdJEU2Is1NI3B35bDC0gZLM4i-cq1tEFg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=MsHOONWEz-2TmrvNIKWMdQ&oh=00_AfkqhShjNocLZWkF8CpsfjVB9JfMuCchUbUjkFBSHBeNZQ&oe=694BD403)
+  <details>
+<summary>Edit Script</summary>
+
+<p></p>
+
+[Edit Script](../../../../../images/output/img_20251211_070542_20251211_070542.md)
+
+### Overview
+This image depicts a contextual menu that appears when interacting with a script named "testconversationscript:testc..." in a software interface. The menu offers options related to managing the script.
+
+### Key Elements
+- **Menu Header**: Located at the top of the menu, it displays the script name partially cut off ("testconversationscript:testc...") with a blue icon containing three vertical dots on the right side.
+- **Edit script**: A menu option located just below the header, offering the ability to edit the script. It is highlighted in a lighter shade compared to the rest of the menu items.
+- **Copy script**: Positioned directly beneath "Edit script," this option allows copying the script.
+- **Paste all script properties**: This option is situated below "Copy script" and is intended for pasting properties into the script.
+- **Remove script**: The final option in the menu, allowing the removal of the script.
+
+### Visual Flow / Relationships
+The menu items are arranged vertically, with each option clearly delineated. The "Edit script" option is emphasized through its lighter background, suggesting it might be the currently selected action. There are no arrows or lines connecting the elements, indicating a simple linear flow from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 This created script attached to your NPC manages its behavior and maps to various APIs to drive its actions.
 

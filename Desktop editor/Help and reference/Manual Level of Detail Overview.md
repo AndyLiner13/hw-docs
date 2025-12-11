@@ -57,10 +57,151 @@ You can download sample assets to test LOD import from the links at the bottom o
 
 | Asset Name | LOD assets | Recommended relative screen size setting | Vertex | Texture assets | Notes |
 | --- | --- | --- | --- | --- | --- |
-| DamagedHelmet | [DamagedHelmet\_LOD0](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38974452_1110977567398498_3267634047256809730_n.fbx?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-WeGBfqW8bEQ7kNvwFFzcWY&_nc_oc=AdlZ3xV04nlwQnVl-DHjkGE30TLDL1AUKBi1rroWnU6WzqcTqourqwwJO4lRAjRys1g&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfkFUpZ1aTuYmVU1BvjXCvwwNOyKU1tBhPsiFSraY4Posg&oe=694BBE89)  [DamagedHelmet\_LOD1](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75241698_1084209123102490_8721696503486453490_n.fbx?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=iA_hht866DUQ7kNvwEK4BeE&_nc_oc=Adnn_N_hOo4i9K0FG0gDP2VJeX4L2nMMPhy78Mkf4PH6Vos7rZjXdh9CQy4_JEXek9Y&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AflVay9fSuSjHsRbk9TYB6bQSah9qPbE6vDfUdJpmvsVQw&oe=694BC348)  [DamagedHelmet\_LOD2](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/39036644_543824368397921_749567675276430240_n.fbx?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=dWE9hd9GebwQ7kNvwEkgtJF&_nc_oc=Admqx2zmDBqiF_ovXbgNveoXqg7GTJff7SnS1HluosuFY4KuD6O8O3LidOSbWLaVeg0&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AflcYcTVrcT9vWAaMPbiXnAnGsasiNKjF8Rc0ZgQwNHTYQ&oe=694BD402) | .3    .1    .01 | 13341    5763    2208 | [DamagedHelmet\_BR.png](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/39031396_1211383596830479_1106960686933552311_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=iidpPe28JaIQ7kNvwGHZJqj&_nc_oc=Adn7NGAFToz3egd3J-lfstFVNM20qils7v_BPtkdo3YhA45qkqJehXVIuVKC0gfQvUE&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AflF0u5IpTYiaI0iZ58csyXRv9mAustHP-Z1UaN77gDT3w&oe=694BE0BF)  [DamagedHelmet\_MEO.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39035471_460649110467753_1686906741871334990_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=hdmeqZLguEgQ7kNvwF3pp0h&_nc_oc=AdlLMROV_2l4g-ftATQVUMXAuyrqslo8lRsCnTwda2yozscKjiHIHeTkjA4Z-YgvxsM&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmrUJ60yYIDrqJMfpLHmJsEtOLI8ENoTVCyNY_tm0QQpg&oe=694BD41A) |  |
-| Suzanne | [Suzanne\_LOD0](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/86620687_424732963772558_3603515224534172233_n.fbx?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=gETTiz0gUoAQ7kNvwEZXROi&_nc_oc=AdmvRmQ9utsFuxbJDfzXBvkvtCggr-uByTjzxWpSgwndLg_VNP44CYv-DrePCnK03xQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmagyViv6Gbynpux9LzqdReDtNoMZu49IQe51_o_WE7nA&oe=694BCA62)  [Suzanne\_LOD1](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974679_1774312949997424_3774288506792177577_n.fbx?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=5AXms7zsZKkQ7kNvwGkSNxy&_nc_oc=Adl_z_8v-3iYra6TMUSVyHJBQPCi0NoS34rWi4gdULIUIYj8elOmdCKBb530-E1JZ1s&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkghGp_GEi7HjJHcp55lf76IUAK-4JrvnMCxP6pkGy0ag&oe=694BB5F4)  [Suzanne\_LOD2](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75404233_507077025666832_7688880730582757364_n.fbx?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=moSRdOKzHfcQ7kNvwFHzn0x&_nc_oc=Adng-7J-Dd9LvNMNuXVqVSWSiZ4ebcozgO9RtQ1zN2Hziu3BZ0uQSlp9jhhQf0bsRFA&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Aflv5joCkKQv8dWXsyAQ0kwXm4kqy6lOOSZKOfCIa3xmTg&oe=694BBDF7) | .3   .1    .01 | 7958    2573    909 | [Suzanne\_BR.png](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75210401_522547524089238_3818379784629030093_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=G8eu99TIxMsQ7kNvwEYv9DP&_nc_oc=Adl9REvb1Dixs_9lreDQaehiJ-X9u-WfBkFjJAI0-J0iCHNayiD9qnbpyUgFGsCaU-Q&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afkz3h7gWfJeTCdL5oBl81kT7bodzrcnrvtdgfm_xVBICA&oe=694BE74F)  [Suzanne\_MESA.png](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75334063_485564684498051_5902144713115885952_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=F6L6efN5GT0Q7kNvwHOVgih&_nc_oc=AdlRMiX94GkVBWIAsR9yKuB_l5VYbyipqqWHilH5swniOvMOBe5SFViUvL-oLSEkjw4&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfkATyBowwUa0RpS_XVAq1X2exyhdIT1gYjfks0tzaTntQ&oe=694BCC7A) | Ignore import warnings. |
-| StoneFloor | [StoneFloor\_LOD0](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974803_3611041129041311_2668313382660000807_n.fbx?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=A5AqHzJmgNEQ7kNvwECjeo_&_nc_oc=Adldc_vGhtW-LZOKFU16d_sZErmBTtpIdbTr4_7p1Js8BIokl_DnFnpLRTl5fnNUR00&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmZHIRKmuu0UowSS4h8PGM9qmhg7Cbwy1OdO_n6Qyo9IQ&oe=694BD03E)  [StoneFloor\_LOD1](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57575351_583790344173233_5836712915629891216_n.fbx?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=MNpJ4P4m2SIQ7kNvwHMQqaL&_nc_oc=Adll-28U8s7Rhr1sHVGS9nfhjGxV8IxiilQ1Nu7BJ2QzM5IMU9mZzulI1gZWdAeMSNI&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmylmbvPcz3gmE5Lmu21ia8rc5Vxso1ke_3YtLh6TpXVg&oe=694BDB12) | .3   .01 | 1502  266 | [StoneFloor\_BR.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982708_1041123087752366_8769918822486248358_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=yzQnChiHU_QQ7kNvwEm7z9I&_nc_oc=AdkjfPMh5AAg3WigDMAlkmiDAvakMYhnUVs2EKLTiBRtFr36hDBTKqMCSomTP6kx14E&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afkvpu96GlYAtM_nqWCpLUHAs_0i8UpF44qLbaX2xKtLYA&oe=694BB5B8) |  |
-| ColumnSetA | [ColumnSetA\_LOD0](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75207235_572656031963575_8134019312426795705_n.fbx?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=v8DKZxBQMt8Q7kNvwGgHyhY&_nc_oc=AdmED_vosXj9IoIWSda2ik-YZ_QzJzRzvl9fbbCEC3ILy36es16sEOb_a8BbZZF7tGM&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfnOv0W4kq0FKexOfHx4ArTP0a3nsop4xafgnDeWDCis7A&oe=694BBF78)  [ColumnSetA\_LOD1](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75422379_1117471496715133_9153812592022689103_n.fbx?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=rhjy5z-_MuUQ7kNvwEXqABC&_nc_oc=Adk6QVCk6Y5e5WsxVisdsAxokWwFsJcxsVY1ibAUQwDnRNM1EM4XQrwRa5JChxFRXek&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfnbtS9KuLjw67ugVwUt5ql5eVUpZ7DR0fC1IYEO4upfzw&oe=694BD8F3)  [ColumnSetA\_LOD2](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38974723_1229165174971481_2089172905872648967_n.fbx?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=-0Cx7VtxRTQQ7kNvwGQ2Kab&_nc_oc=Adm2HleEiIi-cG-h1G-AT-87Sl1rJAPDvNItZjrSnZQM_kZGtuBKIjvDQmJGaL2lYo0&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfljdmW2c4aA5toHq3HQL6UC7VFPXvsMBjd4ixQRZpaTDg&oe=694BBB5C) | .5  .3  .1 | 7657  4733  2515 | [ColumnSetA\_BR.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982480_1328835308493384_834914125048304768_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=NQYlHmXhrDwQ7kNvwF6VZdc&_nc_oc=AdlKQVq-mDKpJUw4hJwZ4nEtiB887E9Cq4vh5hyfv54xBueEgjaSA90Is7gX8wD2Smc&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AflBhnpk41hc2xjkfMugH9Q3OqvxgY-mbJUaO-uUysEKsA&oe=694BB8CD) | Use this asset to clearly view LOD switching. Use the recommended values on the “Recommended relative screen size setting” column. This asset has visual issues on purpose to facilitate the LOD switch viewing. |
+| DamagedHelmet | [DamagedHelmet\_LOD0](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38974452_1110977567398498_3267634047256809730_n.fbx?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-WeGBfqW8bEQ7kNvwFFzcWY&_nc_oc=AdlZ3xV04nlwQnVl-DHjkGE30TLDL1AUKBi1rroWnU6WzqcTqourqwwJO4lRAjRys1g&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfkFUpZ1aTuYmVU1BvjXCvwwNOyKU1tBhPsiFSraY4Posg&oe=694BBE89)  [DamagedHelmet\_LOD1](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75241698_1084209123102490_8721696503486453490_n.fbx?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=iA_hht866DUQ7kNvwEK4BeE&_nc_oc=Adnn_N_hOo4i9K0FG0gDP2VJeX4L2nMMPhy78Mkf4PH6Vos7rZjXdh9CQy4_JEXek9Y&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AflVay9fSuSjHsRbk9TYB6bQSah9qPbE6vDfUdJpmvsVQw&oe=694BC348)  [DamagedHelmet\_LOD2](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/39036644_543824368397921_749567675276430240_n.fbx?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=dWE9hd9GebwQ7kNvwEkgtJF&_nc_oc=Admqx2zmDBqiF_ovXbgNveoXqg7GTJff7SnS1HluosuFY4KuD6O8O3LidOSbWLaVeg0&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AflcYcTVrcT9vWAaMPbiXnAnGsasiNKjF8Rc0ZgQwNHTYQ&oe=694BD402) | .3    .1    .01 | 13341    5763    2208 | [DamagedHelmet\_BR.png](<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_053502_20251211_053502.md)
+
+### Overview
+This image appears to be a complex, abstract collage featuring various mechanical and industrial elements. The composition is chaotic, with numerous fragmented pieces scattered across the frame. The elements include gears, pipes, and other mechanical components, rendered in a mix of grayscale tones with some colored accents.
+
+### Key Elements
+- **Mechanical Gears**: These are the most prominent elements, appearing in various sizes and orientations. They are primarily in shades of gray but have some yellow and black accents.
+- **Pipes and Cylinders**: These are elongated shapes that resemble pipes or cylinders, often with a metallic sheen. Some have a blue tint.
+- **Fragmented Pieces**: Smaller fragments of mechanical parts are scattered throughout, adding to the cluttered feel.
+- **Background Texture**: The background has a grungy texture, possibly resembling concrete or metal, with some areas appearing worn or scratched.
+
+### Visual Flow / Relationships
+The image lacks a clear visual hierarchy due to its chaotic nature. There are no distinct lines or arrows guiding the viewer’s eye through the composition. The elements are randomly placed, creating a sense of disarray.
+
+</details>
+
+<p></p>
+
+)  [DamagedHelmet\_MEO.png](<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_053632_20251211_053632.md)
+
+### Overview
+The image appears to be a highly stylized, abstract representation of mechanical or technological components. It features a mix of blue and pink hues, with various shapes and lines that resemble parts of machinery or circuitry. The overall composition is chaotic and layered, giving a sense of complexity and depth.
+
+### Key Elements
+- **Visual description**: The image is composed of geometric shapes and lines, predominantly in blue and pink.
+- **Location**: The elements are scattered throughout the image, with no clear top, bottom, left, or right.
+- **Contents**: There are no discernible texts or specific symbols within the shapes.
+- **Visual styling**: The shapes are outlined with varying thicknesses, and some areas have a gradient effect transitioning between blue and pink.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The overlapping shapes and lines create a sense of movement and interconnectedness.
+- **Arrows, lines, connectors**: There are no explicit arrows or connectors, but the arrangement of shapes suggests a network-like structure.
+- **Spatial relationships**: Elements overlap and intertwine, creating a layered effect.
+
+</details>
+
+<p></p>
+
+) |  |
+| Suzanne | [Suzanne\_LOD0](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/86620687_424732963772558_3603515224534172233_n.fbx?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=gETTiz0gUoAQ7kNvwEZXROi&_nc_oc=AdmvRmQ9utsFuxbJDfzXBvkvtCggr-uByTjzxWpSgwndLg_VNP44CYv-DrePCnK03xQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmagyViv6Gbynpux9LzqdReDtNoMZu49IQe51_o_WE7nA&oe=694BCA62)  [Suzanne\_LOD1](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974679_1774312949997424_3774288506792177577_n.fbx?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=5AXms7zsZKkQ7kNvwGkSNxy&_nc_oc=Adl_z_8v-3iYra6TMUSVyHJBQPCi0NoS34rWi4gdULIUIYj8elOmdCKBb530-E1JZ1s&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkghGp_GEi7HjJHcp55lf76IUAK-4JrvnMCxP6pkGy0ag&oe=694BB5F4)  [Suzanne\_LOD2](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75404233_507077025666832_7688880730582757364_n.fbx?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=moSRdOKzHfcQ7kNvwFHzn0x&_nc_oc=Adng-7J-Dd9LvNMNuXVqVSWSiZ4ebcozgO9RtQ1zN2Hziu3BZ0uQSlp9jhhQf0bsRFA&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Aflv5joCkKQv8dWXsyAQ0kwXm4kqy6lOOSZKOfCIa3xmTg&oe=694BBDF7) | .3   .1    .01 | 7958    2573    909 | [Suzanne\_BR.png](<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_053746_20251211_053746.md)
+
+### Overview
+The image displays a solid blue background with no discernible objects, text, or design elements present.
+
+### Key Elements
+There are no key elements to describe as the image consists solely of a uniform blue color.
+
+### Visual Flow / Relationships
+Since there are no elements to interact with or relate to one another, there is no visual hierarchy or spatial relationships to discuss.
+
+</details>
+
+<p></p>
+
+)  [Suzanne\_MESA.png](<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_053914_20251211_053914.md)
+
+### Overview
+This image features a vibrant, abstract design composed of geometric shapes and blocks in bright pink and blue hues. The composition is dynamic, with overlapping and layered elements creating a sense of depth and movement.
+
+### Key Elements
+- **Visual Description**: The image consists of irregularly shaped blocks and geometric forms.
+- **Location**: Distributed across the entire image.
+- **Contents**: The blocks are filled with solid colors, primarily pink and blue, with some areas showing gradients or lighter shades within the blocks.
+- **Visual Styling**: The blocks have sharp edges and are arranged in a seemingly random pattern. Some blocks have internal patterns or textures, such as small circular designs or gradient fills.
+
+### Visual Flow / Relationships
+- **Most Prominent Visually**: The large, irregularly shaped blocks dominate the composition.
+- **Arrows, Lines, Connectors**: There are no clear directional arrows or lines connecting elements.
+- **Spatial Relationships**: Elements overlap and layer over one another, creating a complex interplay of shapes and colors.
+
+</details>
+
+<p></p>
+
+) | Ignore import warnings. |
+| StoneFloor | [StoneFloor\_LOD0](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974803_3611041129041311_2668313382660000807_n.fbx?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=A5AqHzJmgNEQ7kNvwECjeo_&_nc_oc=Adldc_vGhtW-LZOKFU16d_sZErmBTtpIdbTr4_7p1Js8BIokl_DnFnpLRTl5fnNUR00&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmZHIRKmuu0UowSS4h8PGM9qmhg7Cbwy1OdO_n6Qyo9IQ&oe=694BD03E)  [StoneFloor\_LOD1](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57575351_583790344173233_5836712915629891216_n.fbx?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=MNpJ4P4m2SIQ7kNvwHMQqaL&_nc_oc=Adll-28U8s7Rhr1sHVGS9nfhjGxV8IxiilQ1Nu7BJ2QzM5IMU9mZzulI1gZWdAeMSNI&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmylmbvPcz3gmE5Lmu21ia8rc5Vxso1ke_3YtLh6TpXVg&oe=694BDB12) | .3   .01 | 1502  266 | [StoneFloor\_BR.png](<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_054042_20251211_054042.md)
+
+### Overview
+The image depicts a seamless pattern resembling a cobblestone or stone-paved surface. The stones are irregularly shaped and vary in size, arranged in a grid-like manner. The overall texture gives a sense of aged stone, with some areas appearing darker and more worn than others.
+
+### Key Elements
+- **Visual description**: The stones are depicted with a textured, painted appearance, giving them a rough, uneven look.
+- **Location**: The entire image is filled with these stones, covering the full frame.
+- **Contents**: The stones are light gray with varying shades, and the grout lines between them are a slightly darker gray.
+- **Visual styling**: The stones have a slightly worn and weathered look, with some areas appearing darker and more shadowed.
+
+### Visual Flow / Relationships
+There is no specific visual hierarchy or relationships among the elements as the image is a uniform pattern without any distinct features or focal points.
+
+</details>
+
+<p></p>
+
+) |  |
+| ColumnSetA | [ColumnSetA\_LOD0](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75207235_572656031963575_8134019312426795705_n.fbx?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=v8DKZxBQMt8Q7kNvwGgHyhY&_nc_oc=AdmED_vosXj9IoIWSda2ik-YZ_QzJzRzvl9fbbCEC3ILy36es16sEOb_a8BbZZF7tGM&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfnOv0W4kq0FKexOfHx4ArTP0a3nsop4xafgnDeWDCis7A&oe=694BBF78)  [ColumnSetA\_LOD1](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75422379_1117471496715133_9153812592022689103_n.fbx?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=rhjy5z-_MuUQ7kNvwEXqABC&_nc_oc=Adk6QVCk6Y5e5WsxVisdsAxokWwFsJcxsVY1ibAUQwDnRNM1EM4XQrwRa5JChxFRXek&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfnbtS9KuLjw67ugVwUt5ql5eVUpZ7DR0fC1IYEO4upfzw&oe=694BD8F3)  [ColumnSetA\_LOD2](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38974723_1229165174971481_2089172905872648967_n.fbx?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=-0Cx7VtxRTQQ7kNvwGQ2Kab&_nc_oc=Adm2HleEiIi-cG-h1G-AT-87Sl1rJAPDvNItZjrSnZQM_kZGtuBKIjvDQmJGaL2lYo0&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfljdmW2c4aA5toHq3HQL6UC7VFPXvsMBjd4ixQRZpaTDg&oe=694BBB5C) | .5  .3  .1 | 7657  4733  2515 | [ColumnSetA\_BR.png](<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_054213_20251211_054213.md)
+
+### Overview
+The image appears to be an abstract, monochromatic artwork featuring a variety of geometric shapes and patterns. The overall composition is chaotic, with no clear focal point or discernible subject matter. The image has a textured, almost grungy aesthetic, with elements that resemble windows, circles, and lines.
+
+### Key Elements
+- **Visual description**: The image consists of various geometric shapes and patterns, resembling windows, circles, and lines.
+- **Location**: These elements are scattered across the entire image, with no specific arrangement or grouping.
+- **Contents**: The shapes include rectangles, squares, and circular forms, some of which appear to have grid-like patterns within them.
+- **Visual styling**: The image is rendered in grayscale tones, with varying shades of gray creating a sense of depth and texture. There are no distinct colors, only different intensities of gray.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The image lacks a clear focal point due to its abstract nature.
+- **Arrows, lines, connectors**: There are no arrows, lines, or connectors present in the image.
+- **Spatial relationships**: The elements are randomly placed without any apparent relationship or hierarchy.
+
+</details>
+
+<p></p>
+
+) | Use this asset to clearly view LOD switching. Use the recommended values on the “Recommended relative screen size setting” column. This asset has visual issues on purpose to facilitate the LOD switch viewing. |
 
 ## Ingest LOD Assets
 
@@ -69,9 +210,59 @@ You can download sample assets to test LOD import from the links at the bottom o
 First, create a folder to store your ingested assets.
 
 - Click the **Assets** pane at the bottom of the editor.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746635_512510217953601_3114243496821367227_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=AtSFPRRKq7MQ7kNvwG1Alnv&_nc_oc=AdmA1FiQtYNbp1FHqvX1bRTD2h40_vVUN4gefVQlXistHMEgQb6LNRl3JmwStw0Bdj0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_Afnli6Aaxm5PGL7F5Wr1k1PnQmcuDT6gOIyo-VTkRfRMbQ&oe=694BBAE2)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_054257_20251211_054257.md)
+
+### Overview
+The image shows a screenshot of a computer desktop with a taskbar at the bottom. The taskbar contains various application icons and a notification area. There is also a window open in the background displaying a grid-like interface, possibly a design or development tool.
+
+### Key Elements
+- **Visual description**: A taskbar with application icons and a window in the background.
+- **Location**: Bottom of the screen.
+- **Contents**: Icons include Chrome, File Explorer, and others. The "Assets" tab is highlighted with an orange circle.
+- **Visual styling**: Dark theme with white text and icons.
+
+### Visual Flow / Relationships
+- Most prominent visually: The "Assets" tab within the highlighted area.
+- Arrows, lines, or connectors: None.
+- Spatial relationships: The "Assets" tab is adjacent to "Console" and "Tests," which are part of the same interface.
+
+</details>
+
+<p></p>
+
+
 - Click **Add New > Folder** and give the folder a name.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452933706_512510127953610_2127077901733027775_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=QP_KHIC5V4UQ7kNvwF6nyGC&_nc_oc=Adn2i9PGHJvEho4cWe_E3HkM1Zi7CgTESsnC2LvzCu9DyJQqVZv784K0eZWjLB5we_Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfnQ1v2UhGLF3PQPFT7-z16FssVaRcgtlo2pexWqC10oaQ&oe=694BCB22)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_054345_20251211_054345.md)
+
+### Overview
+This image depicts a user interface element within a software application, specifically a dropdown menu under the "Assets" tab. The interface includes a selection of options for adding new assets, with a focus on folder creation.
+
+### Key Elements
+- **Visual description**: A dropdown menu with a dark background and light text.
+- **Location**: Positioned to the right of the "Assets" tab.
+- **Contents**: Contains a list of asset types: "Folder," "3D Model," "Audio," "Skydome," "Texture," and "Text." Each option has a corresponding icon next to it.
+- **Visual styling**: The dropdown menu has a dark gray background with white text. The selected item ("Folder") is highlighted with an orange underline.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Folder" option, as it is highlighted.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: The dropdown menu is nested under the "Assets" tab, and the folder icons are aligned horizontally below the dropdown menu.
+
+</details>
+
+<p></p>
+
+
 
 ### Add your LOD 0 assets
 
@@ -80,15 +271,138 @@ First, create a folder to store your ingested assets.
 Start by ingesting your most detailed model, called LOD 0, and textures.
 
 - Click **Add New > 3D Model**.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/476358530_650633064141315_6123901305812892096_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=tQ_Y8v6ZtkQQ7kNvwGJ9feL&_nc_oc=AdnDho3fByn11q-4UBaJnSAgswKubIRUe9XtERxw8J8X94IOo1azkW0G-tUuMsN_qI8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfmvxAbH1GtOeCoQgdw0ipQSUqsHtcu0y-1B6oa9FS1-yQ&oe=694BE51F)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_054443_20251211_054443.md)
+
+### Overview
+This image depicts a 3D modeling software interface, specifically showing a viewport with a 3D scene, a sidebar with asset management options, and a properties panel on the right side.
+
+### Key Elements
+- **Viewport**: Central area displaying a 3D scene with a grid floor and a blue humanoid figure standing on it. The figure has a small icon above its head indicating some action or selection status.
+- **Sidebar (Assets)**: Located on the left side, it contains a dropdown menu under "Add New" with options such as "Folder," "3D Model," "Skydome," "Texture," and "Text." The "3D Model" option is highlighted with an orange underline.
+- **Properties Panel**: On the right side, it displays placeholder text stating "Select an object" and a search bar labeled "Search My Assets."
+- **Top Bar**: Contains various icons and settings related to the software, such as play, pause, and settings icons, along with a timestamp indicating the last save time.
+
+### Visual Flow / Relationships
+The most prominent visual element is the viewport in the center. The 3D model is the focal point within the viewport. The sidebar on the left provides navigation and asset creation options, while the properties panel on the right offers additional functionalities and information about the selected object.
+
+</details>
+
+<p></p>
+
+
 - The mesh ingestion window will appear.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452672915_512510131286943_16962784959826029_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=BYDYs63pzcIQ7kNvwFVtQKM&_nc_oc=Adm-5lH9Xfkx0HykWQ_Qu40PtsJnLavsRGHDX50d8rOfKz8WiHEkm9yudsB1XodiYaw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfngHomxhgo2dqXI4HbiQBg0pxOMxJQn7bxVGhWX_PU_0Q&oe=694BB68F)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_054551_20251211_054551.md)
+
+### Overview
+This image depicts a user interface dialog box titled "Import Model(s)" with instructions and options related to importing 3D models into a software application. The layout includes informational messages, file selection options, and settings for pivot point handling.
+
+### Key Elements
+- **Title Bar**: Located at the top, the title bar reads "Import Model(s)" with a close button ("X") on the right side.
+- **Informational Message**: Positioned centrally above the file selection area, it explains that hierarchies are flattened when importing a 3D model, pivot points are centered, and colors can't be modified.
+- **File Selection Button**: Below the informational message, there's a button labeled "Choose files on your device," which allows users to select files for import.
+- **Offset Pivots Section**: Below the file selection button, there’s a warning message stating that the offset pivots feature is only supported on single mesh FBX files and may cause unexpected behavior if the FBX file contains more than one mesh.
+- **Preserve Offset Pivots Checkbox**: A toggle switch labeled "Preserve offset pivots" is present, allowing users to choose whether to preserve the pivot defined in the original asset.
+- **Buttons**: At the bottom, there are two buttons labeled "Cancel" and "Import."
+
+### Visual Flow / Relationships
+The most prominent visual elements are the informational message and the file selection button. The warning message about offset pivots is highlighted with a yellow background to draw attention. The buttons at the bottom are aligned horizontally, with "Cancel" on the left and "Import" on the right.
+
+</details>
+
+<p></p>
+
+
 - Click **Choose files on your device**, navigate to the folder with your assets, and select your LOD 0 model FBX file as well as your textures. Click **Open**.
   * To select multiple files, hold Ctrl while clicking the files.
   * If you’re using the test sample assets, select DamagedHelmet\_BR.png, DamagedHelmet\_MEO.png, and DamagedHelmet\_LOD0.fbx.
-    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452933706_512510087953614_3767056647331480894_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=8S0fPH8jByMQ7kNvwHMs4Kj&_nc_oc=Adk3ZKAwe_Juvh_Z8CDu3NnXUXfkahvQQGikB3cOILhOgCO_RihTrP2tWRq_NOg4rjs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfnYL4GsH9miH2WZrlKhos5L4caAfKle7DKBI1a2bH5g7A&oe=694BB397)
+    <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_054709_20251211_054709.md)
+
+### Overview
+This image depicts a file explorer window open to a directory containing various 3D model files and PNG images. The focus is on a selection of files highlighted within the directory tree, specifically those related to damaged helmets and stone floor models. There is also a preview pane showing a thumbnail of one of the selected files.
+
+### Key Elements
+- **Directory Tree**: Located on the left side of the window, showing nested folders and files.
+    - **Visual description**: A standard folder structure with expandable/collapsible nodes.
+    - **Location**: Left panel.
+    - **Contents**: Lists file names and dates modified.
+    - **Visual styling**: Light gray background with blue folder icons.
+- **Highlighted Files**: Several files are circled in red, indicating selection.
+    - **Visual description**: Blue background with white text.
+    - **Location**: Center of the directory tree.
+    - **Contents**: File names such as "DamagedHelmet_MEO.png," "DamagedHelmet_BR.png," and others.
+    - **Visual styling**: Blue background, white text, and a small blue icon next to each file name.
+- **Preview Pane**: Located on the right side of the window.
+    - **Visual description**: A small rectangular area displaying a colorful thumbnail.
+    - **Location**: Right side of the window.
+    - **Contents**: A thumbnail image of a damaged helmet model.
+    - **Visual styling**: Bright colors with a mix of pink, purple, and blue hues.
+- **Selection Bar**: At the bottom of the directory tree.
+    - **Visual description**: A horizontal bar showing the selected files.
+    - **Location**: Bottom of the directory tree.
+    - **Contents**: The selected files are listed here.
+    - **Visual styling**: White background with black text.
+- **Buttons**: Located at the bottom right of the window.
+    - **Open Button**: A blue rectangular button labeled "Open."
+    - **Cancel Button**: A gray rectangular button labeled "Cancel."
+    - **Location**: Bottom right corner.
+    - **Contents**: Text labels.
+    - **Visual styling**: Blue background with white text for "Open," gray background with white text for "Cancel."
+
+### Visual Flow / Relationships
+The most prominent visual elements are the highlighted files in the directory tree. The selection bar at the bottom clearly indicates which files are currently selected. The preview pane provides a visual representation of the selected file. The Open and Cancel buttons are positioned at the bottom right, ready for interaction.
+
+</details>
+
+<p></p>
+
+
 - The ingestion window should now show the files you selected.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908638_512510097953613_7636898147610062708_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=6XGE2ay8jjMQ7kNvwGrgAx1&_nc_oc=AdmuDPcS_FMaZkeeIUS1Hm3pAzbURjTKveYFdNs8eXM3-w2vCxIuok9hMk0vikeuiFo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_Afkfh16C3ylLpoKag8C1nP3sOil5B--3r4pN5t_qa9xQkA&oe=694BBFD2)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_054812_20251211_054812.md)
+
+### Overview
+This image depicts a user interface dialog box titled "Import Model(s)" which guides users through the process of importing a 3D model into a software application. The dialog box contains instructions, file selection options, and a list of imported files.
+
+### Key Elements
+- **Title**: "Import Model(s)" located at the top-left corner.
+- **Instruction Box**: A rectangular area below the title containing information about importing 3D models. It states that hierarchies are flattened, pivot points are centered, and colors can't be modified.
+- **File Selection Button**: A blue button labeled "Choose files on your device" situated below the instruction box.
+- **List of Imported Files**: Three files are listed under the file selection button:
+  - **DamagedHelmet_BR.png**
+  - **DamagedHelmet_LOD0.fbx**
+  - **DamagedHelmet_MEO.png**
+  Each file has a green checkmark next to it indicating successful importation.
+- **Cancel and Import Buttons**: Two buttons at the bottom of the dialog box:
+  - **Cancel**: A gray button with white text.
+  - **Import**: A blue button with white text.
+
+### Visual Flow / Relationships
+The most prominent visual element is the instruction box, as it provides crucial information about the import process. The file selection button is central to the functionality of the dialog box. The list of imported files is arranged vertically beneath the button, and the buttons at the bottom are aligned horizontally.
+
+</details>
+
+<p></p>
+
+
 
 At this point, you should have all the files you need to import a fully functional asset with only one level of detail. To add additional levels of detail, you must append more LOD assets to this 3D model.
 
@@ -97,22 +411,291 @@ When you import LOD meshes, they are appended to the MeshAsset containing the LO
 ### Append LOD assets
 
 - To append more LOD assets, expand the LOD 0 FBX file by clicking the expander arrow.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452946039_512510114620278_3499214126645664613_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=smgUEoGGKbwQ7kNvwHKrQCQ&_nc_oc=AdkgDs7vgc0mrhpwgivaW5JODmxrqNM_C60lY47ojYnKhWZeHmDLMM2oepXyLMLC7Jo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfkzL0Buk6ohMJUKEYPa0KsYcv8dU90ZRSJvlpak3m5WPQ&oe=694BCC33)
-- Click **Add LOD(s)**![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452587898_512510111286945_6432106008314023031_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=eRpT8A1esmsQ7kNvwGO5xXU&_nc_oc=Adl2X1j2xYQtiUR4Wt8RkS65uM56CiS6mn7Vk7sipFkZzVeH2riIwa_rWWh0xIzYINw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_Afm50dGE448NK1nObsdurMzuwHhQY_9sVbfBC9zPUOtsFw&oe=694BD92C)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_054916_20251211_054916.md)
+
+### Overview
+This image depicts a user interface dialog box titled "Import Model(s)" which guides the user through the process of importing a 3D model into a software application. The dialog box includes instructions, file selection options, and a list of imported files.
+
+### Key Elements
+- **Title Bar**: "Import Model(s)" at the top.
+- **Instructional Message**: A message box explaining that hierarchies are flattened when importing a 3D model, pivot points are centered, and colors can't be modified.
+- **File Selection Button**: A blue button labeled "Choose files on your device" located centrally.
+- **File List**: Three files listed under the file selection button:
+  - **DamagedHelmet_BR.png**
+  - **DamagedHelmet_LOD0.fbx**
+  - **DamagedHelmet_MEO.png**
+  Each file has a green checkmark indicating successful importation.
+- **Close Button**: A small 'X' icon in the top-right corner of the dialog box.
+- **Cancel and Import Buttons**: Two buttons at the bottom, one labeled "Cancel" and the other "Import".
+
+### Visual Flow / Relationships
+The most prominent visual elements are the instructional message box and the file list. The file selection button acts as a central control for selecting files. The files are arranged vertically beneath the button, and the "Import" button is positioned at the bottom right, suggesting it should be clicked after selecting the desired files.
+
+</details>
+
+<p></p>
+
+
+- Click **Add LOD(s)**<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055035_20251211_055035.md)
+
+### Overview
+This image depicts a user interface element from a software application, specifically a dialog box related to importing models. The interface includes file selection options, a button to add LODs, and a warning message about offset pivots.
+
+### Key Elements
+- **File Selection**: 
+  - **Visual description**: A list of files with checkboxes next to them.
+  - **Location**: Top section of the dialog box.
+  - **Contents**: Files listed include "DamagedHelmet_BR.png," "DamagedHelmet_LODO.fbx," and "DamagedHelmet_MEO.png."
+  - **Visual styling**: Dark background with white text and green checkmarks indicating selections.
+  
+- **Add LOD(s)**:
+  - **Visual description**: A button labeled "Add LOD(s)".
+  - **Location**: Below the file selection area.
+  - **Contents**: The button is gray with white text.
+  - **Visual styling**: Standard button design with no additional highlighting.
+
+- **Warning Message**:
+  - **Visual description**: A yellow warning box with black text.
+  - **Location**: Below the "Add LOD(s)" button.
+  - **Contents**: The text warns that the offset pivots feature is only supported on single mesh FBX files and may lead to unexpected behavior if more than one mesh is present.
+  - **Visual styling**: Yellow background with black text for high visibility.
+
+- **Offset Pivots Section**:
+  - **Visual description**: A toggle switch with a label "Preserve offset pivots."
+  - **Location**: Below the warning message.
+  - **Contents**: The toggle switch has a blue background with white text.
+  - **Visual styling**: Standard toggle switch design.
+
+- **Buttons**:
+  - **Visual description**: Two buttons labeled "Cancel" and "Import."
+  - **Location**: At the bottom of the dialog box.
+  - **Contents**: "Cancel" is a gray button, and "Import" is a blue button.
+  - **Visual styling**: Standard button designs with white text.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The "Add LOD(s)" button is the most prominent due to its central placement and larger size compared to other elements.
+- **Arrows/Connectors**: No arrows or connectors are present.
+- **Spatial Relationships**: Elements are arranged in a linear fashion from top to bottom, with the warning message positioned between the file selection and the offset pivots section.
+
+</details>
+
+<p></p>
+
+
 - In the file selection window, multi-select your additional LOD FBX model files then click **Open**.
-  * If you’re using the sample files, select DamagedHelmet\_LOD1.fbx and DamagedHelmet\_LOD2.fbx. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452772355_512510091286947_7590734842067493140_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=mY9Tcr4oeocQ7kNvwE4MlvE&_nc_oc=AdmFjKjCUpIuQGp9OfVFi_fMSa_nuKpbvm_GzWmwy2eljo8G2A7eXtpzTHEmTrgppoU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfnUiQoIof0Ngkr_ey6Uj-AprpoTIEtg2ZY3SXeyD2Sgvg&oe=694BE297)
+  * If you’re using the sample files, select DamagedHelmet\_LOD1.fbx and DamagedHelmet\_LOD2.fbx. <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055144_20251211_055144.md)
+
+### Overview
+This image depicts a file explorer window showing a directory structure related to 3D modeling assets. The focus is on a list of .fbx files, specifically those named "DamagedHelmet_LOD0.fbx," "DamagedHelmet_LOD1.fbx," and "DamagedHelmet_LOD2.fbx." These files appear to be low-resolution versions of a damaged helmet model. The window includes navigation controls, a search bar, and a list of folders and files on the left side.
+
+### Key Elements
+- **File Explorer Window**: The main area displaying the file list.
+    - **Left Panel**: Contains a tree view of directories, starting from "horizon" and expanding into subdirectories like "Captures," "LOD tests," "trimesh," etc.
+    - **Right Panel**: Lists the contents of the selected directory, showing file names, sizes, and modification dates.
+        - **Highlighted Files**: "DamagedHelmet_LOD0.fbx," "DamagedHelmet_LOD1.fbx," and "DamagedHelmet_LOD2.fbx" are highlighted with a red circle, indicating selection.
+        - **Other Files**: Other .fbx files like "ColumnSetA_LOD0.fbx," "StoneFloor_LOD0.fbx," and "Suzanne_LOD0.fbx" are listed but not highlighted.
+    - **Navigation Controls**: Located at the top left, showing the current path as "fbsource > arvr > projects > socialvr > data > models > enginetest > trimesh > lod."
+    - **Search Bar**: Positioned at the top right, with the placeholder text "Search lod."
+    - **Buttons**: At the bottom right, there are "Open" and "Cancel" buttons, both circled in red.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The highlighted files in the right panel.
+- **Arrows/Connections**: None explicitly shown, but the layout suggests a hierarchical structure typical of file explorers.
+- **Spatial Relationships**: The highlighted files are grouped together, drawing attention to them within the list.
+
+</details>
+
+<p></p>
+
+
 - The ingestion window should now also show the new LOD files.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452817871_512510214620268_3811525399855144317_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=TdNWHx1-L94Q7kNvwE4wmQp&_nc_oc=AdlwLyLkPFaXNVm24EfBIiUZJvdKl4QFPGvrUHD0cSeNZ1Uw1EhhMI1Knf_nItqB2pY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfmRmUuFce7vcw1C0HTzG6p9drNjpEM15Ksx8647adihTA&oe=694BC043)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055243_20251211_055243.md)
+
+### Overview
+This image depicts a user interface element from a software application that allows users to import models. The interface includes a list of imported model files, options to add more LODs (Level of Detail), and buttons for canceling or importing the models.
+
+### Key Elements
+- **Import Model(s)**: A title at the top indicating the purpose of the interface.
+- **DamagedHelmet_BR.png**: A file listed as imported with a green checkmark next to it.
+- **DamagedHelmet_LOD0.fbx**: A folder/file entry with a green checkmark, indicating it has been imported. It also shows "3 LODs" indicating multiple Level of Detail files within this entry.
+    - **DamagedHelmet_LOD0.fbx**: A sub-item under the folder, labeled as LOD0 with a black square indicating it is selected.
+    - **DamagedHelmet_LOD1.fbx**: Another sub-item under the folder, labeled as LOD1 with a black square indicating it is selected.
+    - **DamagedHelmet_LOD2.fbx**: Another sub-item under the folder, labeled as LOD2 with a black square indicating it is selected.
+- **Add LOD(s)**: A button to add more Level of Detail files.
+- **DamagedHelmet_MEO.png**: Another file listed as imported with a green checkmark next to it.
+- **Cancel**: A button to cancel the import process.
+- **Import**: A blue button to confirm and import the selected models.
+
+### Visual Flow / Relationships
+The interface is organized hierarchically. The main focus is on the imported files and their Level of Detail entries. The "Add LOD(s)" button is positioned centrally below the imported files, suggesting it is intended for adding new LODs. The "Cancel" and "Import" buttons are placed at the bottom, providing options to either cancel the operation or proceed with the import.
+
+</details>
+
+<p></p>
+
+
 - Now, set the desired relative screen size for each LOD level. The relative screen size determines the threshold for each LOD level as a percentage of the full screen. When the object on the screen is smaller than this threshold percentage, the engine switches to the LOD mesh of the next LOD level.See the following example values for a more intuitive explanation:
   * **LOD 0: .3** - LOD 0 will be used when the object is larger than 30% of the full screen.
   * **LOD 1: .1** - LOD 1 will be used when the object is between 30% and 10% of the full screen.
   * **LOD 2: .01** - LOD 2 will be used when the object is between 10% and 1% of the full screen. - The object will be culled when smaller than 1% of the full screen.
 - Click **Import**.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452520181_512510207953602_2188403874289102963_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=hgaAW__cXKQQ7kNvwHPLYqj&_nc_oc=Adl4TrfyLpHfb9TJDS9BLNZDdNuWIaVgjTucU0QL1HKm5SGmTMY93pDBJ7q2aan8dGo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfkCNDKpv6tuUTjsmeL-JpduiB5Ru_l1Ly3__wpWnmX9wg&oe=694BD475)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055342_20251211_055342.md)
+
+### Overview
+This image depicts a user interface element from a software application, specifically a dialog box related to importing models. The interface includes a list of imported model files, options for managing Level of Detail (LOD) settings, and buttons for canceling or importing the models.
+
+### Key Elements
+- **Import Model(s)**: A header indicating the purpose of the dialog box.
+- **Model List**: 
+  - **DamagedHelmet_BR.png**: A file listed with a green checkmark, indicating it has been successfully imported.
+  - **DamagedHelmet_LOD0.fbx**: A folder/file entry with a green checkmark, indicating it contains multiple LODs (Level of Detail) files.
+    - **DamagedHelmet_LOD0.fbx**: An LOD file listed under the folder.
+    - **DamagedHelmet_LOD1.fbx**: Another LOD file listed under the folder.
+    - **DamagedHelmet_LOD2.fbx**: Another LOD file listed under the folder.
+- **LODs**: A section showing the individual LOD files within the folder.
+- **Add LOD(s)**: A button to add more Level of Detail files.
+- **Model List**: Another file listed with a green checkmark, indicating it has been successfully imported.
+- **Buttons**: Two buttons at the bottom of the dialog box:
+  - **Cancel**: A gray button with white text.
+  - **Import**: A blue button with white text.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the model files and the LODs listed under the folder. The visual flow follows a vertical arrangement, with the model files at the top, followed by the LODs, and then the buttons at the bottom. There are no arrows or lines connecting elements, but the layout suggests a linear progression from selecting models to adding LODs and finally importing them.
+
+</details>
+
+<p></p>
+
+
 - Wait for the importing process to be finished. You may see a clock icon on the top right of the asset icon.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452520043_512510204620269_1030569126414916300_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=N--SRY1_aDkQ7kNvwHqVmBo&_nc_oc=AdnYJgLKMiDgcKUJS2JS900WIzuctd94hlKRWTCcLV0O0HCU_M1tTSvr989KkPzaqjI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfnS8yHWSXEPwnOHmzflkVkcrgbKGGsbTS_NOj7k7_e1Bg&oe=694BE8E5)![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452746741_512510201286936_7556625726474085776_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=AyXhmYN-cdEQ7kNvwGXCNJ7&_nc_oc=Adlo_YhGw-RoxzINTZHabgvs5H0zMrmHDm4avXD332liVmWkWCNma0G5BDq4k8RfkQE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_Afk8jP3DZVSnmyuUVPICoBVfsFvW8ykO0I3qI0kzqGUcnA&oe=694BB9EF)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055424_20251211_055424.md)
+
+### Overview
+This image depicts a notification or message box that appears to be part of a user interface, likely within a software application. The box contains a message about importing an asset and prompts the user to ensure the import completes before proceeding.
+
+### Key Elements
+- **Visual description**: A rectangular box with rounded corners.
+- **Location**: Centered horizontally and vertically in the image.
+- **Contents**: The text reads: "Importing asset (allow the import to finish before leaving the world)".
+- **Visual styling**: The background is dark gray (#333333), the text is white (#FFFFFF), and there is a small red 'X' icon at the top right corner.
+
+### Visual Flow / Relationships
+- Most prominent visually: The message box itself.
+- There are no arrows, lines, or connectors present.
+- The spatial relationship is straightforward, with the message box taking up the central area of the image.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055540_20251211_055540.md)
+
+### Overview
+This image depicts a user interface section of a software application, likely related to asset management or file organization. The layout includes a sidebar with folders and a preview area on the right side.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **Visual description**: A vertical menu with folder icons and names.
+  - **Location**: Left side of the screen.
+  - **Contents**: 
+    - "My Folders"
+    - "My Assets"
+    - "LOD Test" (highlighted)
+    - "Charlie's test"
+    - "Zane's test"
+  - **Visual styling**: Dark background with white text and icons, light gray folder icons.
+  
+- **Preview Area (Right Side)**:
+  - **Visual description**: A small preview window showing a thumbnail and a filename.
+  - **Location**: Right side of the screen.
+  - **Contents**: 
+    - A thumbnail icon resembling a damaged helmet.
+    - Filename: "DamagedHelm..."
+  - **Visual styling**: Light gray background with a darker gray border around the thumbnail.
+
+- **Header Bar**:
+  - **Visual description**: A horizontal bar at the top with tabs labeled "Assets," "Console," and "Tests."
+  - **Location**: Top of the screen.
+  - **Contents**: Text labels for the tabs.
+  - **Visual styling**: Dark background with white text.
+
+- **Add New Button**:
+  - **Visual description**: A button with a downward arrow indicating a dropdown menu.
+  - **Location**: Below the header bar, left side.
+  - **Contents**: Text "Add New" with a downward arrow.
+  - **Visual styling**: Dark background with white text and a white downward arrow.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The highlighted "LOD Test" folder in the sidebar.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: The sidebar is on the left, the preview area is on the right, and the header bar is at the top. The "Add New" button is positioned below the header bar.
+
+</details>
+
+<p></p>
+
+
 - When the import finishes, a “Success” banner will appear.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452653243_512510197953603_4225377072029174481_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=JvYY24vZFMoQ7kNvwFidJOD&_nc_oc=AdmPo4Z4cd9o9iDTneucj3uBOvlDS1zoxZR8xY_R6smam9ufQlvZ006qaCYT9CCDz1M&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfnXmUrPCV8JZ1Y-fnzxvmoY8Z_Wre178jSLEs5Qwq5PRg&oe=694BBC39)
+  <details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055618_20251211_055618.md)
+
+### Overview
+This image depicts a notification or confirmation message box with a simple design, likely part of a user interface for asset management or import processes.
+
+### Key Elements
+- **Visual description**: A rectangular box with rounded corners.
+- **Location**: Centered horizontally and vertically within the image.
+- **Contents**: Contains the text "> Success! All assets imported".
+- **Visual styling**: The background is dark green (#00574B), the text is white, and there's a small checkmark icon on the left side.
+
+### Visual Flow / Relationships
+- Most prominent visually: The text message indicating success.
+- There are no arrows, lines, or connectors, so the visual flow is linear, moving from the left (icon) to the right (text).
+
+</details>
+
+<p></p>
+
+
 
 > **Note:** When importing FBX files containing multiple meshes, the system will try to match LOD meshes to the LOD 0 mesh by node name matching.
 
@@ -122,21 +705,119 @@ When you import LOD meshes, they are appended to the MeshAsset containing the LO
 
 To use an LOD asset, drag the asset to the world window.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578653_512510141286942_8187160058036161687_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=S4B05VlplDkQ7kNvwFvoWzT&_nc_oc=AdmJ-6QK8JaeyQh8ken6DgiBcGGIgIzPG5mShGzdhUhn7PoPhMcBr6ayvdl4VWX7Hs0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AflNIeRWIMRyaIlvJdTh2hjS-YFqoqfKioXUffT5t9jApQ&oe=694BCBE3)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055712_20251211_055712.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a futuristic helmet-like object and a small humanoid figure. The helmet is metallic with intricate designs and a reflective visor, while the figure appears to be a simplified, stylized human form with a blue body and a white head.
+
+### Key Elements
+- **Helmet**: Located at the top right of the image, it has a sleek, silver-gray design with dark accents and a glossy finish. The visor reflects light, giving it a shiny appearance.
+- **Humanoid Figure**: Positioned below and slightly to the left of the helmet, this figure is a simple, stylized model with a blue body and a white head. It has a small tail-like appendage extending from its back.
+- **Blue Circle**: A small blue circle with a white icon is located near the humanoid figure, possibly indicating some interaction point or selection marker.
+
+### Visual Flow / Relationships
+The helmet is the most prominent visual element due to its size and reflective surface. The humanoid figure is secondary but still noticeable due to its distinct shape and color contrast against the background. There are no arrows or lines connecting the elements, suggesting a static arrangement rather than a dynamic interaction.
+
+</details>
+
+<p></p>
+
+
 
 If the object is too far from the view point, it may have a green color. This is because the additional LOD level GI is being computed in the background and isn’t ready yet. You can move the object around in the world before the GI data is computed.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452513309_512510124620277_672843571951153038_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=670MxizL0ckQ7kNvwGTmmw-&_nc_oc=AdmiQUO6c1YjYhRQzt_aFkpRsuqFTnTbi_UuT5_mtFrHLTVXzIC_h_QXMQ9KBfhxvZA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfmAcdJaxumGysx03CjXhqaYX3S3TqEZ6Suek6gtQkqO6g&oe=694BB752)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055759_20251211_055759.md)
+
+### Overview
+The image depicts a 3D scene viewed from above, featuring a green motorcycle model and a small humanoid figure standing near it. The background consists of a grid floor and a plain sky.
+
+### Key Elements
+- **Motorcycle**: A green motorcycle model with a reflective surface, located slightly above the center of the image. It has a sleek design with visible wheels and handlebars.
+- **Humanoid Figure**: A small blue humanoid figure with a white shirt and blue pants, positioned below and to the left of the motorcycle. The figure appears to be a simple 3D model, possibly representing a character or avatar.
+- **Grid Floor**: A light gray grid covering the entire floor, extending into the distance.
+- **Sky**: A plain light blue area at the top of the image, indicating the sky.
+
+### Visual Flow / Relationships
+The motorcycle is the most prominent visual element due to its size and central placement. The humanoid figure is secondary but still noticeable due to its distinct color against the grid. There are no arrows or lines connecting the elements, suggesting a static scene without interaction.
+
+</details>
+
+<p></p>
+
+
 
 You can verify that LOD is working by moving around in the world to make the object take up different amounts of space on your screen and watching as different LOD models populate.
 
 It can be hard to notice this happening if the relative screen size values are small. If you move far away from the object, eventually it will be culled.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452587746_512510134620276_9189181265092177001_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=R2Qwe3AVH78Q7kNvwEvPZp4&_nc_oc=AdkPtObuij8UEiJNnGLPivFH9l7jtM3RYImVKuOZPtAZpQiKs7c02QmCqbrW3yhEYuk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AflqISes6lm8kNVQq7mJzKVy_wV6obM6M-o9L7qtCFHpHw&oe=694BD3AA)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055849_20251211_055849.md)
+
+### Overview
+The image displays a simple interface with a gradient blue background. At the bottom center, there is a black rectangular button with white text. The overall composition is minimalistic, with no additional elements or complex layouts.
+
+### Key Elements
+- **Visual description**: A gradient blue background transitioning from light blue at the top to darker blue at the bottom.
+- **Location**: The entire background area.
+- **Contents**: The gradient effect itself.
+- **Visual styling**: The gradient uses shades of blue (#007BFF to #3498DB).
+
+- **Visual description**: A black rectangular button located near the bottom center of the image.
+- **Location**: Centered horizontally and positioned slightly above the bottom edge.
+- **Contents**: White text that reads "Preview from here."
+- **Visual styling**: The button has a solid black background with white text, and there is a small icon (a circular arrow) to the left of the text.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The gradient background.
+- **Arrows, lines, connectors**: None.
+- **Spatial relationships**: The button is the only interactive element, and it is the focal point due to its placement and contrasting color.
+
+</details>
+
+<p></p>
+
+
 
 You can also see LOD behavior in Desktop Editor’s preview mode.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452590061_512510137953609_1190235246472948998_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=zaYiZQ1-TnAQ7kNvwFI9vIp&_nc_oc=AdmLVpdSsgKA9GLWFVR3j9b7s0WHIQy96lVEDBakFyaq6ssU4EupznTYiSg5nwCQASI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfmviisfkSip4MUJ3hpdhiwZsQNcKu9wclruZS4am8-N7A&oe=694BCD5F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../../../images/output/img_20251211_055938_20251211_055938.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a humanoid figure standing in a virtual environment. Above the figure, there is a floating object resembling a helmet or a futuristic device. The background consists of a simple grid floor and a plain sky.
+
+### Key Elements
+- **Humanoid Figure**: Located centrally in the image, facing away from the viewer. The figure has a neutral posture with arms slightly bent at the elbows. It wears a dark hoodie with light gray accents and dark pants. The figure's hair is short and dark.
+- **Floating Object**: Positioned above the figure's head, resembling a metallic helmet or a device with a complex design. It has a reflective surface with some intricate details.
+- **Grid Floor**: A light gray grid pattern covers the ground, extending across the entire bottom half of the image.
+- **Sky**: A gradient of light blue fills the upper portion of the image, representing the sky.
+
+### Visual Flow / Relationships
+The most prominent visual element is the humanoid figure, as it occupies the central area of the image. The floating object is secondary but draws attention due to its placement above the figure's head. There are no arrows or lines connecting the elements, suggesting a static scene without dynamic interaction.
+
+</details>
+
+<p></p>
+
+
 
 ### Publish the world
 

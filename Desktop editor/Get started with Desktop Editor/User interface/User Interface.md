@@ -4,7 +4,57 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The Desktop Editor contains a variety of controls that enable you to create objects to add to your scene. These tools provide you the control to position, scale, and program an object’s behaviour with scripts.
 
-![The Desktop Editor screen with groups of controls labeled](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/585580538_867432745794678_3017995306772719798_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=TlSeFu8fsw8Q7kNvwE3e0bx&_nc_oc=AdmYVmBSgqTAg8uyKgZqC8OXvk9otdfbMIauiomzLqz6Jd-KzYlTdMrUJWqox6wBbjs&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=RjM96CToZi3-xTc-rLbsaw&oh=00_Afk28eIfZ2mi65uWvWF2fCJZUU94R1klKKjjSSOdYGidyw&oe=694BE213)
+<details>
+<summary>The Desktop Editor screen with groups of controls labeled</summary>
+
+<p></p>
+
+[The Desktop Editor screen with groups of controls labeled](../../../../../images/output/img_20251211_051247_20251211_051247.md)
+
+### Overview
+This image depicts a user interface of a 3D modeling or game development software. The layout includes a sidebar with a hierarchy view, a central workspace displaying a 3D scene, and various toolbars and panels at the top and bottom of the screen.
+
+### Key Elements
+1. **Sidebar (Left Panel)**:
+   - **Visual description**: A vertical panel with a dark background and yellow borders.
+   - **Location**: Left side of the screen.
+   - **Contents**: Contains a search bar labeled "Search hierarchy," followed by a list of items under "Hierarchy." Items include "Spawn Point," "emerald," "Completed Scripts," and "Environment."
+   - **Visual styling**: Dark gray background, white text, and yellow borders.
+
+2. **Central Workspace**:
+   - **Visual description**: A large rectangular area showing a 3D scene with a blue sky and a grid floor.
+   - **Location**: Center of the screen.
+   - **Contents**: Displays a simple 3D environment with a flat surface and a clear blue sky.
+   - **Visual styling**: Light blue sky, yellow grid floor, no additional elements within the scene.
+
+3. **Top Toolbar**:
+   - **Visual description**: A horizontal toolbar with various icons and options.
+   - **Location**: Top of the screen.
+   - **Contents**: Includes icons for "Build," "Systems," "Scripts," "Gen AI," "World Sim Off," and others.
+   - **Visual styling**: Dark gray background, white icons, and some with yellow borders.
+
+4. **Bottom Toolbar**:
+   - **Visual description**: A horizontal toolbar with options like "Asset Library," "Console," "NPC Debugger," and "Performance."
+   - **Location**: Bottom of the screen.
+   - **Contents**: Lists the names of different tools and features.
+   - **Visual styling**: Dark gray background, white text, and some with yellow borders.
+
+5. **Properties Panel (Right Panel)**:
+   - **Visual description**: A vertical panel with a dark background and yellow borders.
+   - **Location**: Right side of the screen.
+   - **Contents**: Currently empty but labeled as "Properties."
+   - **Visual styling**: Dark gray background, white text, and yellow borders.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central workspace.
+- **Arrows, lines, connectors**: None visible.
+- **Spatial relationships**: The sidebar is on the left, the central workspace is in the middle, and the toolbars are at the top and bottom. The properties panel is on the right.
+
+</details>
+
+<p></p>
+
+
 
 - [Main menu](Primary%20Tools%20in%20the%20User%20Interface.md#the-main-menu) provides quick access to the Desktop Editor’s most popular features.
 - [Creator tools](Creator%20Tools.md) provide a set of commonly used tools for building scenes and using assets. Each button provides a menu of different tool types you can use for creating your world.
