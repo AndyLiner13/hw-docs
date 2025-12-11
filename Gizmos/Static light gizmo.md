@@ -2,15 +2,15 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Static light gizmo
 
-The static light [gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/About%20gizmos.md) is a tool used to light scenes. Static lights do not move or change during runtime. The static light gizmo offers various shapes and allows customization of color and intensity. This gizmo is useful for creators who want to implement lighting in their worlds without the performance overhead associated with dynamic lighting.
+The static light [gizmo](About%20gizmos.md) is a tool used to light scenes. Static lights do not move or change during runtime. The static light gizmo offers various shapes and allows customization of color and intensity. This gizmo is useful for creators who want to implement lighting in their worlds without the performance overhead associated with dynamic lighting.
 
-The following image shows the static light gizmo, the red cube, lighting an object in the [Build mode](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md).
+The following image shows the static light gizmo, the red cube, lighting an object in the [Build mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md).
 
-**Note**: An [environment gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/Environment%20gizmo.md) is added to the world where a night skydome is applied.
+**Note**: An [environment gizmo](Environment%20gizmo.md) is added to the world where a night skydome is applied.
 
 ![The static light gizmo lighting an object in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505590096_738224345382186_9005774872030246077_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=F3ZX_estW7MQ7kNvwESLNfb&_nc_oc=AdmAI5AeQK8ewP1wAwa3n8xg6MwpqzhVEzULmfbFSN4rAT6rcda8GDNYPxVxfPnLnAQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wrQY7n-atapHfPIy0SC4OQ&oh=00_Afl5AY4CNOPVCcJDa1eWjNumQxtoux3VYlyLAmd1u2s9PA&oe=694BE9AE)
 
-The following image shows the same static light gizmo lighting an object in the [Preview mode](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md).
+The following image shows the same static light gizmo lighting an object in the [Preview mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md).
 
 **Note**: The geometry of the light, the red cube, is hidden in the Preview mode.
 
@@ -18,15 +18,15 @@ The following image shows the same static light gizmo lighting an object in the 
 
 ## Access the static light gizmo
 
-While you can access and configure the static light gizmos in the [VR tool](/hw-mcp-tools/documentation/hw-docs/Gizmos/Static%20light%20gizmo.md), the following steps show you how to access the static light gizmo from the desktop editor and add it to the [scene pane](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
+While you can access and configure the static light gizmos in the [VR tool](Static%20light%20gizmo.md), the following steps show you how to access the static light gizmo from the desktop editor and add it to the [scene pane](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “static” in the search field.
 - Select the static light gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [Properties panel](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
+- You can now edit the new gizmo properties in the [Properties panel](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
 ## Properties
 
-The static light gizmo is an entity. All objects in a world are represented by entities. [Entities](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the Properties panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
+The static light gizmo is an entity. All objects in a world are represented by entities. [Entities](../Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the Properties panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
 
 In the **Light** section, additional properties are available to customize and manage static lighting.
 
@@ -42,5 +42,5 @@ For more information on the static light gizmo properties, see the [MHCP creator
 
 Now that you’ve been introduced to the static light gizmo, continue your learning with hands-on tutorials, and more related developer guides:
 
-* [Static light gizmos user guide](/hw-mcp-tools/documentation/hw-docs/Gizmos/Static%20light%20gizmo.md)
+* [Static light gizmos user guide](Static%20light%20gizmo.md)
 * [Meta Horizon Creator Program’s creator manual on the static light gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#static-light-gizmo)

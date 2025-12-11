@@ -25,13 +25,13 @@ Meta Horizon Worlds supports all [ES2020](https://262.ecma-international.org/11.
 * Using `eval()` type arrays, or Proxy is not supported
 * External JavaScript libraries such as Minified JS, or usng output from a bundler are not generally supported.
 * `Entity` objects support referential equality. This means comparisons such as `entity1``=== entity2` work as expected.
-* You are limited to 64k in script size on worlds that don’t use [File-Backed Scripts](/hw-mcp-tools/documentation/hw-docs/Scripting/File-Backed%20Scripts.md).
+* You are limited to 64k in script size on worlds that don’t use [File-Backed Scripts](../File-Backed%20Scripts.md).
 
 ## API versions
 
-All new Meta Horizon worlds use TypeScript API version 2.0 by default. We strongly recommend that you upgrade to this version if you haven’t already, because prior versions are no longer updated. For more information on this, see [Upgrade World to TypeScript API v2.0.0](/hw-mcp-tools/documentation/hw-docs/Scripting/Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md).
+All new Meta Horizon worlds use TypeScript API version 2.0 by default. We strongly recommend that you upgrade to this version if you haven’t already, because prior versions are no longer updated. For more information on this, see [Upgrade World to TypeScript API v2.0.0](../Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md).
 
-API reference material is available in the [API Reference Documentation](/hw-mcp-tools/documentation/hw-docs/Overview.md) by clicking the version selector at the top of each reference page.
+API reference material is available in the [API Reference Documentation](../../Overview.md) by clicking the version selector at the top of each reference page.
 
 ## Learn more about TypeScript
 

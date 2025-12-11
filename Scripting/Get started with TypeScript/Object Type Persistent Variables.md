@@ -16,10 +16,10 @@ In the past, number-type persistent variables were only capable of using simple 
 
 ### This document will cover the following topics:
 
-* [Creating an Object-type variable](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md#creating-an-object-type-variable)
-* [Accessing variables from TypeScript](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md#accessing-variables-from-typescript)
-* [Updating a variable from TypeScript](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md#updating-a-variable-from-typescript)
-* [Best Practices](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md#best-practices)
+* [Creating an Object-type variable](Object%20Type%20Persistent%20Variables.md#creating-an-object-type-variable)
+* [Accessing variables from TypeScript](Object%20Type%20Persistent%20Variables.md#accessing-variables-from-typescript)
+* [Updating a variable from TypeScript](Object%20Type%20Persistent%20Variables.md#updating-a-variable-from-typescript)
+* [Best Practices](Object%20Type%20Persistent%20Variables.md#best-practices)
 
 ## Creating an Object-type variable
 

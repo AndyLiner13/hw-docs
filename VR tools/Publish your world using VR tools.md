@@ -13,13 +13,13 @@ In order to publish a world, you’ll need to provide pertinent information such
   ![Screenshot shows the desktop editor window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/464911860_578674298003859_6982466518147434724_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=g5f3jG4xaoEQ7kNvwFE24Hf&_nc_oc=AdmxTJ_4HYHoa4x4qoGOJ4Cr2LG_mF85kL86O9P9LrQmbkhW87darcw6sk-IdGmYPwI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=uRl78c-SaBGKh0Acf9AC_Q&oh=00_AfmJxPbrEefNliy33UzS8ttRajmaSkTzL5ks8PcK1l9LPQ&oe=694BC0F6)
 - **Name:** Enter a name for your world.
 - **Description:** Provide a short, punchy description of what makes your world special.
-- **World Rating:** Click on the ‘Get rating’ button to take a survey to determine your world rating. For more information on world ratings, [click here.](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/FAQ/World%20Ratings%20FAQs.md)
+- **World Rating:** Click on the ‘Get rating’ button to take a survey to determine your world rating. For more information on world ratings, [click here.](../MHCP%20program/FAQ/World%20Ratings%20FAQs.md)
 - **Comfort Rating:** Choose an appropriate comfor rating from the dropdown menu.
 - **Tags:** Choose applicable tags from the dropdown menu.
 - **Mute Assist:** While on, all in-world audio will be reviewed for loud noises, profanity and other offensive language; players wil be alerted to any offending incidents in order to mute these offenders quickly and easily.
   - Mute assist is turned on by default for all ages 10+ and ages 13+ rated worlds.
   - Learn more about mute assist in the [Manage your microphone and mute settings in Meta Horizon Worlds](https://www.meta.com/help/quest/articles/horizon/safety-and-privacy-in-horizon-worlds/mute-mic-horizon/) docs.
-- **Thumbnail:** Add an image representing your world. [Click here](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Create%20an%20asset%20thumbnail%20with%20Meta%20Horizon%20Worlds.md) for more information on creating asset thumbnails.
+- **Thumbnail:** Add an image representing your world. [Click here](Getting%20started/Create%20an%20asset%20thumbnail%20with%20Meta%20Horizon%20Worlds.md) for more information on creating asset thumbnails.
 - **Visible to Public:** While on, this world will show up in searches and has the potential to be featured. Note that anyone in Worlds will be able to search for and enter your published world while this toggle is on.
 - **Members Only:** While on, only memebers of a world will be able to access it. Note that this option can not be changed once it has been set.
 - **Beta World:** While on, the published world will be noted as being ‘in development.’
@@ -30,7 +30,7 @@ Published worlds will appear in the ‘Places’ section of your personal menu. 
 ## About the world ratings survey
 
 * You are required to complete the world ratings survey when you first publish a world and it should be retaken whenever you make significant changes to a world’s content.
-* Only those above 18 can publish worlds that contain content covered by the [Horizon Mature Worlds Policy](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md).
+* Only those above 18 can publish worlds that contain content covered by the [Horizon Mature Worlds Policy](../Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md).
 * If the survey doesn’t account for certain aspects of your world content that affect its rating, we may change the rating, unpublish, or remove the world.
 
 ## To unpublish a world:

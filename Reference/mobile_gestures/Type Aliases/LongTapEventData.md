@@ -12,4 +12,4 @@ export declare type LongTapEventData = TouchEventData;
 
 ## References
 
-[TouchEventData](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchEventData.md)
+[TouchEventData](TouchEventData.md)

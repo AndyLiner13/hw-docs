@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMeshState Enum
 
-The possible state values for the [NavMeshInstanceInfo](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Type%20Aliases/NavMeshInstanceInfo.md) type.
+The possible state values for the [NavMeshInstanceInfo](../Type%20Aliases/NavMeshInstanceInfo.md) type.
 
 ## Signature
 

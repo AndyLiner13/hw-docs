@@ -24,7 +24,7 @@ Read on for more details on Meta Horizon v244:
 * **Creative Guidelines for World Preview Images in Navigator**
 
 + During the developer keynote at Connect, you may have seen our redesigned UI called Navigator – a personalized hub that makes navigating the metaverse intuitive and seamless.
-+ This updated navigation will be coming soon, so to prepare, we’ve updated our [creative guidelines to include world preview images](/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20Asset%20Design%20Guidelines.md), which will help attract users and communicate what makes your world unique within Navigator.
++ This updated navigation will be coming soon, so to prepare, we’ve updated our [creative guidelines to include world preview images](Save,%20optimize,%20and%20publish/Worlds%20Asset%20Design%20Guidelines.md), which will help attract users and communicate what makes your world unique within Navigator.
 + While adding preview images is optional at this time, we highly recommend adding them soon and at least reviewing these new guidelines to ensure you have high-quality images.
 
 ---
@@ -39,7 +39,7 @@ Read on for more details on Meta Horizon v243:
 
 ## New Features
 
-* **NPC Voices update:** When creating an AI NPC in the desktop editor you can now generate a voice for using AI. For more information, check the documentation [here](/hw-docs/Desktop%20editor/NPCs/NPC%20Conversation/AI%20Speech%20NPCs.md#voice-and-speech).
+* **NPC Voices update:** When creating an AI NPC in the desktop editor you can now generate a voice for using AI. For more information, check the documentation [here](Desktop%20editor/NPCs/NPC%20Conversation/AI%20Speech%20NPCs.md#voice-and-speech).
 
 ## Quality Of Life Improvements
 
@@ -80,9 +80,9 @@ Read on for more details on Meta Horizon v241:
 
 ## New Features
 
-* **Record your world (MHCP only):** We have begun to rollout access to a new tool in the desktop editor that lets you capture and export footage from different points of views, including player POV or by placing a camera anywhere you want in your world. You can even control what is included in your recording, like global audio, name tags, your avatar and audio, and even UI elements. At this time, the feature is only available to a subset of MHCP users, but we plan to continue expanding access to more world builders over time. To learn more, read the documentation [here](/hw-docs/Save,%20optimize,%20and%20publish/Record%20world%20videos.md).
+* **Record your world (MHCP only):** We have begun to rollout access to a new tool in the desktop editor that lets you capture and export footage from different points of views, including player POV or by placing a camera anywhere you want in your world. You can even control what is included in your recording, like global audio, name tags, your avatar and audio, and even UI elements. At this time, the feature is only available to a subset of MHCP users, but we plan to continue expanding access to more world builders over time. To learn more, read the documentation [here](Save,%20optimize,%20and%20publish/Record%20world%20videos.md).
 * **Customizable External Names and Visibility for Leaderboards:** Creators can now set a descriptive external name for each leaderboard and choose whether it is visible outside their world. When enabled, leaderboards and their names may appear in Facebook, Instagram and the Horizon mobile app, making it easier for users to understand what each leaderboard represents. The specific surfaces where leaderboards are shown will be determined by Meta. This update gives creators more control and improves clarity for users.
-* **Tiering for Digital Items (MHCP Only):** Creator made avatar clothing will now be tiered as Common, Premium, Elite, and Legendary to help show the value of items to users. To learn more read the documentation [here](/hw-docs/Avatars/Digital%20Item%20Tiering.md).
+* **Tiering for Digital Items (MHCP Only):** Creator made avatar clothing will now be tiered as Common, Premium, Elite, and Legendary to help show the value of items to users. To learn more read the documentation [here](Avatars/Digital%20Item%20Tiering.md).
 * **NoesisUI**: Creators can now specify a parameter for Command callback.
 
 ## Bug Fixes
@@ -105,8 +105,8 @@ Read on for more details on Meta Horizon v240:
 
 ## New Features
 
-* Horizon desktop editor toolbar updated with updated categorization for build options and features in the desktop editor. Check the updated [Creator Tools](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md) page for more information.
-* We’ve updated the NPC voice process with an expanded catalogue of voices. You can now assign enhanced voices from a curated set of voices during the NPC creation process. Learn more [here](/hw-docs/Desktop%20editor/NPCs/NPC%20Conversation/AI%20Speech%20NPCs.md#voice-and-speech).
+* Horizon desktop editor toolbar updated with updated categorization for build options and features in the desktop editor. Check the updated [Creator Tools](Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md) page for more information.
+* We’ve updated the NPC voice process with an expanded catalogue of voices. You can now assign enhanced voices from a curated set of voices during the NPC creation process. Learn more [here](Desktop%20editor/NPCs/NPC%20Conversation/AI%20Speech%20NPCs.md#voice-and-speech).
 
 ## Bug Fixes
 
@@ -130,8 +130,8 @@ Read on for more details on Meta Horizon v239:
 
 ## New Features
 
-* **NoesisUI for Desktop Editor:** NoesisUI is a new 2D UI solution we have added to Horizon editor so creators can build more compelling, creative and performant 2D UI panels. When using Noesis with the desktop editor, users can build their UI panels in Noesis Studio and import them into the desktop editor. Check the documentation here for information on [creating your Noesis panels](/hw-docs/Desktop%20editor/NoesisUI/Create%20a%20Noesis%20UI%20Panel.md), [configuring your NoesisUI panel](/hw-docs/Desktop%20editor/NoesisUI/Customizing%20Noesis%20UI%20Behavior.md), [setting up animations for your panels](/hw-docs/Desktop%20editor/NoesisUI/Noesis%20UI%20Animations.md), [performance considerations](/hw-docs/Desktop%20editor/NoesisUI/Noesis%20UI%20Performance%20Considerations.md), and [fonts](/hw-docs/Desktop%20editor/NoesisUI/Noesis%20UI%20Fonts%20Usage.md).
-* **NoesisUI Tutorial World:** A new [tutorial world](/hw-docs/Tutorials/Noesis%20UI%20tutorial%20world/Module%201%20-%20Setup.md) is also available that demonstrates the NoesisUI integration in the desktop editor and provides examples for implementing NoesisUI into your world. Check out the NoesisUI tutorial world here.
+* **NoesisUI for Desktop Editor:** NoesisUI is a new 2D UI solution we have added to Horizon editor so creators can build more compelling, creative and performant 2D UI panels. When using Noesis with the desktop editor, users can build their UI panels in Noesis Studio and import them into the desktop editor. Check the documentation here for information on [creating your Noesis panels](Desktop%20editor/NoesisUI/Create%20a%20Noesis%20UI%20Panel.md), [configuring your NoesisUI panel](Desktop%20editor/NoesisUI/Customizing%20Noesis%20UI%20Behavior.md), [setting up animations for your panels](Desktop%20editor/NoesisUI/Noesis%20UI%20Animations.md), [performance considerations](Desktop%20editor/NoesisUI/Noesis%20UI%20Performance%20Considerations.md), and [fonts](Desktop%20editor/NoesisUI/Noesis%20UI%20Fonts%20Usage.md).
+* **NoesisUI Tutorial World:** A new [tutorial world](Tutorials/Noesis%20UI%20tutorial%20world/Module%201%20-%20Setup.md) is also available that demonstrates the NoesisUI integration in the desktop editor and provides examples for implementing NoesisUI into your world. Check out the NoesisUI tutorial world here.
 * **Player Locomotion API:** The player class in TypeScript now includes locomotion functions previously exclusive to NpcPlayer, enabling local player movement, pathfinding, jumping, and rotation. Great for 'tap to move' gameplay styles, see the API docs and tutorial for details.
 
 ## Bug Fixes
@@ -185,16 +185,16 @@ Read on for more details on Meta Horizon v236
 ## New Features
 
 * **Social Following API/Asset Template:**
-  Creators can now showcase a curated list of Instagram and Horizon profiles in their world using the Social Following Asset Template, or the new `showProfilesToFollow` API. When users click the Social Following Asset or the `showProfilesToFollow` API is called, a dedicated page opens where users can browse and choose which Instagram or Horizon profiles to follow—making it easier for users to connect and stay up to date with their favourite creators. Learn more [here](/hw-docs/Gizmos/Social%20Following%20for%20Instagram%20and%20Horizon.md).
+  Creators can now showcase a curated list of Instagram and Horizon profiles in their world using the Social Following Asset Template, or the new `showProfilesToFollow` API. When users click the Social Following Asset or the `showProfilesToFollow` API is called, a dedicated page opens where users can browse and choose which Instagram or Horizon profiles to follow—making it easier for users to connect and stay up to date with their favourite creators. Learn more [here](Gizmos/Social%20Following%20for%20Instagram%20and%20Horizon.md).
 * **Remixable Worlds:**
-  Remixable Worlds is a feature, now available to all, that allows creators to make their world(s) cloneable by other creators to build on top of. Available worlds for creators to remix can be found on the Creation Home page of the Horizon editor in the *Worlds to Remix* section. Creators can make their worlds remixable in the Publish window within the editor. Learn more about this feature [here](/hw-docs/Save,%20optimize,%20and%20publish/Horizon%20Remix%20Worlds.md).
+  Remixable Worlds is a feature, now available to all, that allows creators to make their world(s) cloneable by other creators to build on top of. Available worlds for creators to remix can be found on the Creation Home page of the Horizon editor in the *Worlds to Remix* section. Creators can make their worlds remixable in the Publish window within the editor. Learn more about this feature [here](Save,%20optimize,%20and%20publish/Horizon%20Remix%20Worlds.md).
 
 ## Quality Of Life Improvements
 
 * **"Disable physics while grabbed"** option is enabled by default for new grabbable objects.
 * Added filtering to the creation of NPCs to avoid any terms of service violations during NPC character creation rather than after.
 * Creators can now iterate on their local files and refresh their assets by using the right-click menu without needing to go through all the import modal and file selection processes.
-* Creators will now have one choice for Mesh Generation. This new update enhances the current Mesh Generation model. Learn more [here.](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Mesh%20Generation%20Tool.md)
+* Creators will now have one choice for Mesh Generation. This new update enhances the current Mesh Generation model. Learn more [here.](Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Mesh%20Generation%20Tool.md)
 
 ## Bug Fixes
 
@@ -212,7 +212,7 @@ Read on for more details on Meta Horizon v236
 
 * **New Template World:** We are launching a new template world to help creators speed up their development. Find this when opening the editor in the creation home under the Template header.
 
-+ **AI Conversation Template:** This template provides step-by-step instructions for setting up NPCs, customizing their personalities, and configuring how they respond to player actions and game events. Learn more about this template  [here](/hw-docs/Tutorials/AI%20Conversation%20tutorial/Module%201%20-%20Introduction.md).
++ **AI Conversation Template:** This template provides step-by-step instructions for setting up NPCs, customizing their personalities, and configuring how they respond to player actions and game events. Learn more about this template  [here](Tutorials/AI%20Conversation%20tutorial/Module%201%20-%20Introduction.md).
 
 ## Quality Of Life Improvements
 
@@ -247,9 +247,9 @@ Read on for more details on Meta Horizon v234:
 
 ## New Features
 
-* **Shop Gizmo Screen Overlay Support (MHCP Only):** The world shop gizmo got an upgrade, it can now be displayed as a screen overlay, instead of the already existing spatial panel, via the new property "Display Mode". When set to "Overlay", but still in edit mode, the only notable change is the appearance of the close button on the panel. Start the simulation and you will see it disappear. To display it, or later hide it, use the new `setShopOverlayVisible` function. Learn more about the shop gizmo  [here](/hw-docs/Gizmos/Shop%20gizmo.md).
-* **Avatar Item Deep Links (MHCP Only):** Creators can now amplify the visibility of their created avatar items available outside their worlds by sharing direct links to individual listings and storefronts. After listing an item for acquisition outside your worlds, you can generate a shareable URL from the creator portal's item inventory page. These links can be pasted across platforms like Facebook, Instagram, and more, driving engagement and making it easier for users to discover and acquire your creations. Storefront links let users view all your listed items in one place. Learn more about this new feature [here](/hw-docs/MHCP%20program/Monetization/Link%20to%20listed%20items.md).
-* **Avatar Video Sharing (MHCP Only):** Creators can now share avatar-centric videos directly from Horizon to platforms like Facebook and Instagram, boosting the visibility and engagement of their digital goods. With the new Avatar Video Sharing feature, you can customize your avatar's look, add emotes and backdrops, and showcase avatar goods before sharing. When viewers see your avatar video on IG Stories, they can tap to explore and purchase the digital goods your avatar is wearing, driving discoverability and sales. This integrated experience creates a flywheel effect encouraging more engagement and purchases across the Horizon ecosystem. To get started, ensure you have the Horizon and IG apps installed, access to Video Composer, and your accounts linked. Learn more about this new feature [here](/hw-docs/MHCP%20program/Monetization/Avatar%20Posts.md).
+* **Shop Gizmo Screen Overlay Support (MHCP Only):** The world shop gizmo got an upgrade, it can now be displayed as a screen overlay, instead of the already existing spatial panel, via the new property "Display Mode". When set to "Overlay", but still in edit mode, the only notable change is the appearance of the close button on the panel. Start the simulation and you will see it disappear. To display it, or later hide it, use the new `setShopOverlayVisible` function. Learn more about the shop gizmo  [here](Gizmos/Shop%20gizmo.md).
+* **Avatar Item Deep Links (MHCP Only):** Creators can now amplify the visibility of their created avatar items available outside their worlds by sharing direct links to individual listings and storefronts. After listing an item for acquisition outside your worlds, you can generate a shareable URL from the creator portal's item inventory page. These links can be pasted across platforms like Facebook, Instagram, and more, driving engagement and making it easier for users to discover and acquire your creations. Storefront links let users view all your listed items in one place. Learn more about this new feature [here](MHCP%20program/Monetization/Link%20to%20listed%20items.md).
+* **Avatar Video Sharing (MHCP Only):** Creators can now share avatar-centric videos directly from Horizon to platforms like Facebook and Instagram, boosting the visibility and engagement of their digital goods. With the new Avatar Video Sharing feature, you can customize your avatar's look, add emotes and backdrops, and showcase avatar goods before sharing. When viewers see your avatar video on IG Stories, they can tap to explore and purchase the digital goods your avatar is wearing, driving discoverability and sales. This integrated experience creates a flywheel effect encouraging more engagement and purchases across the Horizon ecosystem. To get started, ensure you have the Horizon and IG apps installed, access to Video Composer, and your accounts linked. Learn more about this new feature [here](MHCP%20program/Monetization/Avatar%20Posts.md).
 * **Public Animation Assets (MHCP Only):** We have released Public Animation Assets, available now for scripting on both Player and Non-Player Characters. This makes available an initial set of animations currently used on player characters including six core emotes, weapon animations and more. Creators can start experimenting with animation scripting without needing to learn how to make new animations themselves. Please check out the new assets in the Public Asset Library to see the full list which can now be found with a new animations asset filter! Learn more [here](https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/creating-avatar-animations).
 * **Avatar Creation Prompts (MHCP Only):** Avatars can now be created by AI prompts! This feature was highlighted at Connect and is an expansion of our generative AI tooling suite to help you create new types of fully-rigged avatars from simple prompts. You can learn more about how to create avatars and NPCs on Horizon [here](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-gizmo/prompt-to-avatar-npcs).
 
@@ -283,9 +283,9 @@ Read on for more details on Meta Horizon v233
     
   For avatar clothing creation and best practices, items must be rated 10+, adhere to content guidelines, create original content and leverage AI responsibly. Learn more about this feature [here](https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/avatar-clothing-creation-and-selling).
 * **New Tutorial and Template Worlds:** We are launching two new tutorial worlds and one new template world to help creators speed up their development. Find these when opening the editor in the creation home under the Tutorial and Template headers.
-  + **Sim Tycoon | Template:** This tutorial contains all the game logic and systems needed for compelling player progression within a Sim Tycoon like game. It is designed to be easily reskinned and rethemed to anything the player can imagine. Learn more [here](/hw-docs/Tutorials/Sim%20Tycoon%20tutorial/Module%200%20-%20Setup.md).
-  + **Custom UI | Tutorial:** UI is very hard! With this sample world we provide several useful UI elements for Creators to copy and use in their game. Learn more [here](/hw-docs/Tutorials/Custom%20UI%20tutorial%20world/Zone%200%20-%20Setup.md).
-  + **New User Experience | Tutorial:** This sample world contains many useful components to help new users learn the game in a more step-by-step way: arrows to lure them to points of interest, hint texts, and the ability to lock progression on certain actions. Learn more [here](/hw-docs/Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md).
+  + **Sim Tycoon | Template:** This tutorial contains all the game logic and systems needed for compelling player progression within a Sim Tycoon like game. It is designed to be easily reskinned and rethemed to anything the player can imagine. Learn more [here](Tutorials/Sim%20Tycoon%20tutorial/Module%200%20-%20Setup.md).
+  + **Custom UI | Tutorial:** UI is very hard! With this sample world we provide several useful UI elements for Creators to copy and use in their game. Learn more [here](Tutorials/Custom%20UI%20tutorial%20world/Zone%200%20-%20Setup.md).
+  + **New User Experience | Tutorial:** This sample world contains many useful components to help new users learn the game in a more step-by-step way: arrows to lure them to points of interest, hint texts, and the ability to lock progression on certain actions. Learn more [here](Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md).
 
 ## Quality of Life Improvements
 
@@ -317,7 +317,7 @@ Read on for more details on Meta Horizon v231:
   + Leverage our character building tools to specify scripted responses in combination with LLM responses.
   + Select voices from a voice library that can speak scripted and non-scripted dialogue.
   + Use your embodied NPCs in both VR and mobile worlds.
-* As part of this update, we're also expanding the Character Builder panel with new features that you can use to define various characteristics for your NPCs, including your character's name, story, personality, dialogue, and test their responses. Later this year we'll also be adding functionality that enables your characters to feel even more authentic by leveraging AI to trigger in-world actions, dynamically converse with real players and more. Learn more [here](/hw-docs/Desktop%20editor/NPCs/NPCs%20Overview.md).
+* As part of this update, we're also expanding the Character Builder panel with new features that you can use to define various characteristics for your NPCs, including your character's name, story, personality, dialogue, and test their responses. Later this year we'll also be adding functionality that enables your characters to feel even more authentic by leveraging AI to trigger in-world actions, dynamically converse with real players and more. Learn more [here](Desktop%20editor/NPCs/NPCs%20Overview.md).
 
 ## Bug Fixes
 
@@ -339,8 +339,8 @@ Read on for more details on Meta Horizon v230
 
 ## New Features
 
-* **Mobile World Leaderboards (MHCP Only):** Creators are now able to share new and existing world leaderboards directly within the Meta Horizon app on their product description page. Learn more about this feature [here](/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Showing%20leaderboards%20in%20the%20Meta%20Horizon%20app.md).
-* **Purchase API Callback (MHCP Only):** A new NetworkEvent is launching: OnPlayerPurchasedItemEvent. Connect to it, and you will be notified when a player makes a successful purchase from any shop in the session. With this, creators can add new gameplay elements such as showing a popup to equip the brand new sword a player just bought, progressing a quest or validating a tutorial for examples. Learn more about in-world purchases [here](/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md#purchase-event-listener).
+* **Mobile World Leaderboards (MHCP Only):** Creators are now able to share new and existing world leaderboards directly within the Meta Horizon app on their product description page. Learn more about this feature [here](Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Showing%20leaderboards%20in%20the%20Meta%20Horizon%20app.md).
+* **Purchase API Callback (MHCP Only):** A new NetworkEvent is launching: OnPlayerPurchasedItemEvent. Connect to it, and you will be notified when a player makes a successful purchase from any shop in the session. With this, creators can add new gameplay elements such as showing a popup to equip the brand new sword a player just bought, progressing a quest or validating a tutorial for examples. Learn more about in-world purchases [here](MHCP%20program/Monetization/In-world%20purchase%20guide.md#purchase-event-listener).
 
 ## Quality of Life Improvements
 
@@ -405,8 +405,8 @@ Read on for more details on Meta Horizon v228
 
 ## New Features
 
-* **Remixable Worlds (MHCP Only):** Remix Worlds is a feature that allows creators to make their world(s) cloneable by other creators to build on top of. Available worlds for creators to remix can be found on the Creation Home page of the Horizon editor in the Worlds to Remix section. Creators can make their worlds as remixable in the Publish window within the editor. Learn more about this feature [here](/hw-docs/Save,%20optimize,%20and%20publish/Horizon%20Remix%20Worlds.md).
-* **Environment Generation Tool (MHCP Only):** The GenAI Environment Generation tool allows you to quickly generate an environment for your world. This tool helps accelerate the process of world and environment building by adding generated meshes of varying sizes and complexities. Currently, this tool supports generating island themed environments, with more themes to come in the future. Learn more about this feature [here](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Environment%20Generation%20Tool.md).
+* **Remixable Worlds (MHCP Only):** Remix Worlds is a feature that allows creators to make their world(s) cloneable by other creators to build on top of. Available worlds for creators to remix can be found on the Creation Home page of the Horizon editor in the Worlds to Remix section. Creators can make their worlds as remixable in the Publish window within the editor. Learn more about this feature [here](Save,%20optimize,%20and%20publish/Horizon%20Remix%20Worlds.md).
+* **Environment Generation Tool (MHCP Only):** The GenAI Environment Generation tool allows you to quickly generate an environment for your world. This tool helps accelerate the process of world and environment building by adding generated meshes of varying sizes and complexities. Currently, this tool supports generating island themed environments, with more themes to come in the future. Learn more about this feature [here](Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Environment%20Generation%20Tool.md).
 
 ## Quality of Life Improvements
 
@@ -435,7 +435,7 @@ Read on for more details on Meta Horizon v227:
 
 * **Audio Previews in Asset Library:** Audio previews in the asset library are now available to all creators. This feature makes finding the perfect sound to add to your world more efficient. To use this feature, click the play button icon on the thumbnail within the asset library for any sound asset.
 * **Additional Supported Audio Formats:** We've added support for MP3 (.mp3) and FLAC (.flac) audio file formats, in addition to OGG Opus (.opus) and WAV (.wav). Plus, we've added support for a wider range of sample rates, including 16 kHz, 22.05 kHz, 24 kHz, 44.1 kHz, and 48 kHz. This means you can now upload a wider variety of audio files to your worlds, making it easier to find the perfect sound.
-* **Entity References By Name:** Added two new APIs to make scripting easier. **this.world.findEntity()** and **this.world.findEntities()** enables creators to reference any entity in code by name. This is basic functionality creators expect and find in tools like Roblox, Unity and Unreal. Pass in an optional root entity to only search a specific subtree, or a match operation, like starts with, ends with, or even a regex to more specifically query entities. Learn more about this feature [here](/hw-docs/Reference/core/Classes/World.md#methods).
+* **Entity References By Name:** Added two new APIs to make scripting easier. **this.world.findEntity()** and **this.world.findEntities()** enables creators to reference any entity in code by name. This is basic functionality creators expect and find in tools like Roblox, Unity and Unreal. Pass in an optional root entity to only search a specific subtree, or a match operation, like starts with, ends with, or even a regex to more specifically query entities. Learn more about this feature [here](Reference/core/Classes/World.md#methods).
 
 ## Quality of Life Improvements
 
@@ -462,15 +462,15 @@ Read on for more details on Meta Horizon v226:
 
 ## New Features
 
-* **Social API:** Creators now have the ability to add frictionless social features into their world via TypeScript. A [public demo world](https://horizon.meta.com/world/775581602295298/) has additionally been made for creators to experience the Social API firsthand. Learn more about this new feature [here](/hw-docs/Reference/social/Classes/Social.md) and check out some of its abilities below.
+* **Social API:** Creators now have the ability to add frictionless social features into their world via TypeScript. A [public demo world](https://horizon.meta.com/world/775581602295298/) has additionally been made for creators to experience the Social API firsthand. Learn more about this new feature [here](Reference/social/Classes/Social.md) and check out some of its abilities below.
   + Show player avatar icons in game
   + Reward players for following each other
   + Reward following new players in the server
   + Reward inviting friends to their server
-* **Mobile Gestures API:** We have added a new API module to better help detect and allow creators to improve games that use tap, swipe, pan, and pinch gestures. Learn more about this feature [here](/hw-docs/Reference/mobile_gestures/Classes/Gestures.md).
+* **Mobile Gestures API:** We have added a new API module to better help detect and allow creators to improve games that use tap, swipe, pan, and pinch gestures. Learn more about this feature [here](Reference/mobile_gestures/Classes/Gestures.md).
 * **World Trailers:** Along with thumbnails, creators are now able to upload trailers to their product description page with future plans to test additional discovery surfaces. Trailers can be uploaded in 16:9 and 9:16 format and give players critical insights and surfacing into your world before jumping in. It is imperative to design for these sizes to put your best foot forward, as landscape videos (16:9) do not look appealing when cropped to another size like 9:16 (and vice versa). Poor cropping can significantly impair clicks and visits.
-* **Creator Assistant:**The Worlds Desktop Editor is adding Creator Assistant to its already impressive, integrated, and comprehensive GenAI toolkit. Creator Assistant is your creation partner to not only accelerate the creation process, but make it easier also. Learn more about this feature [here](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Assistant%20Tool.md).
-* **Style Reference:** Style Reference allows creators to have more consistency and a faster path to desirable output by allowing them to generate, save, and re-use a desired style such that their outputs across modalities can be more consistent with easier prompting. Learn more about this feature [here](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Style%20Reference.md).
+* **Creator Assistant:**The Worlds Desktop Editor is adding Creator Assistant to its already impressive, integrated, and comprehensive GenAI toolkit. Creator Assistant is your creation partner to not only accelerate the creation process, but make it easier also. Learn more about this feature [here](Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Assistant%20Tool.md).
+* **Style Reference:** Style Reference allows creators to have more consistency and a faster path to desirable output by allowing them to generate, save, and re-use a desired style such that their outputs across modalities can be more consistent with easier prompting. Learn more about this feature [here](Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Style%20Reference.md).
 
 ## Quality of Life Improvements
 
@@ -493,9 +493,9 @@ Read on for more details on Meta Horizon v226:
 
 In an upcoming release, we will be upgrading the Meta Horizon Desktop Editor to Unity 6. This upgrade ensures you have the most up-to-date and secure experience as a creator. We expect minimal impact to your workflow during this update. To help the update go smoothly, please coordinate with your entire team to update together. We recommend that once your workday is done, everyone shuts down their Desktop Editor. Avoid keeping the Editor open for multiple days in a row, as this can delay the update process.
 
-Additionally this summer, we're testing new Meta Horizon Feed in VR and Meta Horizon mobile app interface designs to improve user engagement and discovery. The new designs will utilize all landscape, portrait and square world preview images. We strongly recommend that you review your existing preview images and ensure you have high-quality images across all three dimensions as soon as possible to ensure that your worlds are eligible to be featured in the upcoming new designs of Worlds discovery surfaces, and [get the best chance of being discovered.](/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md)
+Additionally this summer, we're testing new Meta Horizon Feed in VR and Meta Horizon mobile app interface designs to improve user engagement and discovery. The new designs will utilize all landscape, portrait and square world preview images. We strongly recommend that you review your existing preview images and ensure you have high-quality images across all three dimensions as soon as possible to ensure that your worlds are eligible to be featured in the upcoming new designs of Worlds discovery surfaces, and [get the best chance of being discovered.](Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md)
 
-To help you create the best preview images to showcase your worlds, we have published new [documentation](/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20Asset%20Design%20Guidelines.md) with image guidelines, including templates, examples and best practices. To learn more about the new Horizon Feed and mobile interface designs, please visit the blog [here](https://developers.meta.com/horizon/blog/meta-horizon-design-tests-coming-soon/).
+To help you create the best preview images to showcase your worlds, we have published new [documentation](Save,%20optimize,%20and%20publish/Worlds%20Asset%20Design%20Guidelines.md) with image guidelines, including templates, examples and best practices. To learn more about the new Horizon Feed and mobile interface designs, please visit the blog [here](https://developers.meta.com/horizon/blog/meta-horizon-design-tests-coming-soon/).
 
 Read on for more details on Meta Horizon v224:
 
@@ -504,7 +504,7 @@ Read on for more details on Meta Horizon v224:
 ## New Features
 
 * **Notifications For Feedback Hub:** Rolling out over time, we will now email creators whenever we update their feedback status, such as requesting more information or when we ship a fix. Each notification links to the Feedback Center, where they can add context or review details.
-* Added the ability for world creators to use custom asset textures as action button icons for Mobile and Desktop users. Learn more about this feature [here](/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md).
+* Added the ability for world creators to use custom asset textures as action button icons for Mobile and Desktop users. Learn more about this feature [here](Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md).
 
 ## Quality of Life Improvements
 
@@ -533,7 +533,7 @@ This week in v223, we are launching improved creator control for shops and inven
 
 ## New Features
 
-* **Improved Creator Control for Shops and Inventory:** We've added a new feature that gives creators more control over the visibility of shops and inventory items within their virtual worlds. Now, creators can disable the default in-world shop and the 'In-world items' tab in the inventory for their worlds. This provides a more customized experience for users visiting those worlds when creators choose to make their own shop and inventory systems. Learn more about this feature [here](/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md).
+* **Improved Creator Control for Shops and Inventory:** We've added a new feature that gives creators more control over the visibility of shops and inventory items within their virtual worlds. Now, creators can disable the default in-world shop and the 'In-world items' tab in the inventory for their worlds. This provides a more customized experience for users visiting those worlds when creators choose to make their own shop and inventory systems. Learn more about this feature [here](MHCP%20program/Monetization/In-world%20purchase%20guide.md).
 * **Audio Preview in Assets Library (MHCP Only):** Introducing the capability to listen to audio clips for any sound asset directly from assets library. This feature makes finding the perfect sound to add to your world more efficient. To use this feature, click the play button icon on the thumbnail within the asset library for any sound asset.
 
 ## Quality of Life Improvements

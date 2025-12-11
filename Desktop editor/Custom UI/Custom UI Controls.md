@@ -14,9 +14,9 @@ This input mode is primarily designed for creating a set of custom on-screen con
 
 Before you begin, it is recommended you review the following how-to guides:
 
-* [Creating a Custom UI Panel](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md)
-* [Local Mode Custom UI Scripts](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Local%20Mode%20Custom%20UI%20Scripts.md)
-* [Non-Interactive Custom UI Screen Overlay](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Non-interactive%20custom%20UI%20screen%20overlay.md)
+* [Creating a Custom UI Panel](Create%20a%20custom%20UI%20panel.md)
+* [Local Mode Custom UI Scripts](Local%20Mode%20Custom%20UI%20Scripts.md)
+* [Non-Interactive Custom UI Screen Overlay](Non-interactive%20custom%20UI%20screen%20overlay.md)
 
 ## Step by step guide
 
@@ -35,7 +35,7 @@ Before you begin, it is recommended you review the following how-to guides:
 
 ### Set ownership of the custom controls entity
 
-Please refer to [Local Mode Custom UI Scripts](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Local%20Mode%20Custom%20UI%20Scripts.md) for more detailed instructions on using local mode.
+Please refer to [Local Mode Custom UI Scripts](Local%20Mode%20Custom%20UI%20Scripts.md) for more detailed instructions on using local mode.
 
 * Create a new script asset and leave it in **Default** execution mode.
 * Create an empty gizmo and assign the script to it.
@@ -61,7 +61,7 @@ initializeUI() {
 
 ### Triggering Player Input Actions
 
-We have provided two TypeScript functions to trigger the down / up input actions on the player controls. These functions support the same PlayerInputAction enum as the [Custom Input API](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md).
+We have provided two TypeScript functions to trigger the down / up input actions on the player controls. These functions support the same PlayerInputAction enum as the [Custom Input API](../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md).
 
 ```
 return Pressable({

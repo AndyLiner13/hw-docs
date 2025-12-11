@@ -28,4 +28,4 @@ From this page, you can open an existing world that you’ve created, or start c
 
 ### Your next step
 
-* [The Desktop Editor user interface](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md)
+* [The Desktop Editor user interface](User%20interface/User%20Interface.md)

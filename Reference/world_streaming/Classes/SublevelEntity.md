@@ -85,8 +85,8 @@ Component.register(TestSublevelAPI);
 ## Remarks
 
 Sublevels are a way to break up a world into smaller pieces that you can stream separately from other portions of the world. Streaming sublevels can have performance benefits when spawning large amounts of static content that is always spawned at the same location.
-For more information about world streaming, see the [World Streaming](/hw-mcp-tools/documentation/hw-docs/Scripting/Asset%20spawning/World%20Streaming.md) guide.
-To spawn smaller sets of dynamic content at runtime, you should use a [SpawnController](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/SpawnController.md) object to spawn and despawn [assets](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Asset.md). For more information about asset spawning, see the [Introduction to Asset Spawning](/hw-mcp-tools/documentation/hw-docs/Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md) guide.
+For more information about world streaming, see the [World Streaming](../../../Scripting/Asset%20spawning/World%20Streaming.md) guide.
+To spawn smaller sets of dynamic content at runtime, you should use a [SpawnController](../../core/Classes/SpawnController.md) object to spawn and despawn [assets](../../core/Classes/Asset.md). For more information about asset spawning, see the [Introduction to Asset Spawning](../../../Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md) guide.
 
 ## Properties
 

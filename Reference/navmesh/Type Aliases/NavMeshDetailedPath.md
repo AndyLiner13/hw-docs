@@ -14,7 +14,7 @@ export declare type NavMeshDetailedPath = Omit<NavMeshPath, 'waypoints'> & {
 
 ## References
 
-[NavMeshPath](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Type%20Aliases/NavMeshPath.md), [NavMeshWaypoint](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Type%20Aliases/NavMeshWaypoint.md)
+[NavMeshPath](NavMeshPath.md), [NavMeshWaypoint](NavMeshWaypoint.md)
 
 ## Remarks
 

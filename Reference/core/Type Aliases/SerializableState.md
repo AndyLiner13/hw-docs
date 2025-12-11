@@ -14,9 +14,9 @@ export declare type SerializableState = {
 
 ## References
 
-[SerializableState](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/SerializableState.md)
+[SerializableState](SerializableState.md)
 
 ## Remarks
 
-This type is used to transfer the state of an entity when its ownership changes from one player to another. The state of an entity isn't automatically transferred when its ownership changes. To transfer the state, you can pass it to the new owner using SerializableState through the [Component.transferOwnership()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract%20Classes/Component.md#transferownership) and [Component.receiveOwnership()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract%20Classes/Component.md#receiveownership) methods.
-For more information, see [Maintaining local state on ownership change](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md).
+This type is used to transfer the state of an entity when its ownership changes from one player to another. The state of an entity isn't automatically transferred when its ownership changes. To transfer the state, you can pass it to the new owner using SerializableState through the [Component.transferOwnership()](../Abstract%20Classes/Component.md#transferownership) and [Component.receiveOwnership()](../Abstract%20Classes/Component.md#receiveownership) methods.
+For more information, see [Maintaining local state on ownership change](../../../Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md).

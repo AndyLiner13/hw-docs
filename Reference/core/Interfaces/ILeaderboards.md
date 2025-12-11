@@ -14,4 +14,4 @@ export interface ILeaderboards
 
 |  |  |
 | --- | --- |
-| **setScoreForPlayer(leaderboardName, player, score, override)** | Sets the leaderboard score for a player.      Signature  ``` setScoreForPlayer(leaderboardName: string, player: Player, score: number, override: boolean): void; ```  Parameters  leaderboardName: string  The name of the leader board.  player: [Player](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md)  The player for whom the score is updated.  score: number  The new score.  override: boolean  If `true`, overrides the previous score; otherwise the previous score is retained.  Returns  void |
+| **setScoreForPlayer(leaderboardName, player, score, override)** | Sets the leaderboard score for a player.      Signature  ``` setScoreForPlayer(leaderboardName: string, player: Player, score: number, override: boolean): void; ```  Parameters  leaderboardName: string  The name of the leader board.  player: [Player](../Classes/Player.md)  The player for whom the score is updated.  score: number  The new score.  override: boolean  If `true`, overrides the previous score; otherwise the previous score is retained.  Returns  void |

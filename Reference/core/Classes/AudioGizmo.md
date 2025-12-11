@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_audiogiz
 
 # AudioGizmo Class
 
-Extends *[Entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md)*
+Extends *[Entity](Entity.md)*
 
 Represents an audio gizmo you can use to add music and sound effects to a world and control audio settings.
 
@@ -31,7 +31,7 @@ soundGizmo.stop(stopOptions);
 
 ## Remarks
 
-If you have actions to perform after playback of an audio source completes, you can listen for the `OnAudioCompleted` [CodeBlockEvent](/hw-mcp-tools/documentation/hw-docs/Reference/core/Variables/CodeBlockEvents.md).
+If you have actions to perform after playback of an audio source completes, you can listen for the `OnAudioCompleted` [CodeBlockEvent](../Variables/CodeBlockEvents.md).
 
 ## Properties
 
@@ -44,7 +44,7 @@ If you have actions to perform after playback of an audio source completes, you 
 
 |  |  |
 | --- | --- |
-| **pause(audioOptions)** | Pauses an AudioGizmo sound.      Signature  ``` pause(audioOptions?: AudioOptions): void; ```  Parameters  audioOptions: [AudioOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/AudioOptions.md)  *(Optional)* Controls how the audio is paused.  Returns  void  Examples  ``` const soundGizmo = this.props.sfx.as(hz.AudioGizmo); const audioOptions: AudioOptions = {fade: 1, players: [player1, player2]}; soundGizmo.pause(audioOptions); ``` |
-| **play(audioOptions)** | Plays an AudioGizmo sound.      Signature  ``` play(audioOptions?: AudioOptions): void; ```  Parameters  audioOptions: [AudioOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/AudioOptions.md)  *(Optional)* Controls how the audio is played.  Returns  void  Examples  ``` const soundGizmo = this.props.sfx.as(hz.AudioGizmo); const audioOptions: AudioOptions = {fade: 1, players: [player1, player2]}; soundGizmo.play(audioOptions); ``` |
-| **stop(audioOptions)** | Stops an AudioGizmo sound.      Signature  ``` stop(audioOptions?: AudioOptions): void; ```  Parameters  audioOptions: [AudioOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/AudioOptions.md)  *(Optional)* Controls how the audio is played.  Returns  void  Examples  ``` const soundGizmo = this.props.sfx.as(hz.AudioGizmo); const audioOptions: AudioOptions = {fade: 1, players: [player1, player2]}; soundGizmo.stop(audioOptions); ``` |
+| **pause(audioOptions)** | Pauses an AudioGizmo sound.      Signature  ``` pause(audioOptions?: AudioOptions): void; ```  Parameters  audioOptions: [AudioOptions](../Type%20Aliases/AudioOptions.md)  *(Optional)* Controls how the audio is paused.  Returns  void  Examples  ``` const soundGizmo = this.props.sfx.as(hz.AudioGizmo); const audioOptions: AudioOptions = {fade: 1, players: [player1, player2]}; soundGizmo.pause(audioOptions); ``` |
+| **play(audioOptions)** | Plays an AudioGizmo sound.      Signature  ``` play(audioOptions?: AudioOptions): void; ```  Parameters  audioOptions: [AudioOptions](../Type%20Aliases/AudioOptions.md)  *(Optional)* Controls how the audio is played.  Returns  void  Examples  ``` const soundGizmo = this.props.sfx.as(hz.AudioGizmo); const audioOptions: AudioOptions = {fade: 1, players: [player1, player2]}; soundGizmo.play(audioOptions); ``` |
+| **stop(audioOptions)** | Stops an AudioGizmo sound.      Signature  ``` stop(audioOptions?: AudioOptions): void; ```  Parameters  audioOptions: [AudioOptions](../Type%20Aliases/AudioOptions.md)  *(Optional)* Controls how the audio is played.  Returns  void  Examples  ``` const soundGizmo = this.props.sfx.as(hz.AudioGizmo); const audioOptions: AudioOptions = {fade: 1, players: [player1, player2]}; soundGizmo.stop(audioOptions); ``` |
 | **toString()** | Creates a human-readable representation of the audio gizmo.      Signature  ``` toString(): string; ```  Returns  string  A string representation of the audio gizmo. |

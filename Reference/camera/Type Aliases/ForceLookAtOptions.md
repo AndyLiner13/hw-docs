@@ -21,4 +21,4 @@ export declare type ForceLookAtOptions = {
 
 ## References
 
-[CameraTransitionOptions](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Type%20Aliases/CameraTransitionOptions.md)
+[CameraTransitionOptions](CameraTransitionOptions.md)

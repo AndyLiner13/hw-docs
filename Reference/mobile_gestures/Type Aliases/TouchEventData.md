@@ -14,4 +14,4 @@ export declare type TouchEventData = {
 
 ## References
 
-[TouchState](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchState.md)
+[TouchState](TouchState.md)

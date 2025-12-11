@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particle
 
 # ParticleFXSetParametersAndPlayOptions type
 
-ParticleFXPlayOptions controls how the particle is played. Extends [ParticleFXPlayOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/ParticleFXPlayOptions.md) and [ParticleFXSetParametersOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/ParticleFXSetParametersOptions.md).
+ParticleFXPlayOptions controls how the particle is played. Extends [ParticleFXPlayOptions](ParticleFXPlayOptions.md) and [ParticleFXSetParametersOptions](ParticleFXSetParametersOptions.md).
 
 ## Signature
 
@@ -16,4 +16,4 @@ export declare type ParticleFXSetParametersAndPlayOptions = ParticleFXPlayOption
 
 ## References
 
-[ParticleFXPlayOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/ParticleFXPlayOptions.md), [ParticleFXSetParametersOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/ParticleFXSetParametersOptions.md), [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md), [Quaternion](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Quaternion.md)
+[ParticleFXPlayOptions](ParticleFXPlayOptions.md), [ParticleFXSetParametersOptions](ParticleFXSetParametersOptions.md), [Vec3](../Classes/Vec3.md), [Quaternion](../Classes/Quaternion.md)

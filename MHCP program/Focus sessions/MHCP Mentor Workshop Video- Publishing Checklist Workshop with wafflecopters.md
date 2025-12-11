@@ -11,4 +11,4 @@ Develop practical strategies to:
 * Build a systematic approach to quality assurance
 * Optimize your world for cross-platform experiences
 
-You can download the publishing checklist [here](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Focus%20sessions/World%20publishing%20guide.md).
+You can download the publishing checklist [here](World%20publishing%20guide.md).

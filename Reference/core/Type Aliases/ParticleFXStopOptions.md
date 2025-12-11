@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particle
 
 # ParticleFXStopOptions type
 
-The settings for [ending](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/ParticleGizmo.md#stop) particle effect playback.
+The settings for [ending](../Classes/ParticleGizmo.md#stop) particle effect playback.
 
 ## Signature
 
@@ -14,7 +14,7 @@ export declare type ParticleFXStopOptions = {
 
 ## References
 
-[Player](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md)
+[Player](../Classes/Player.md)
 
 ## Remarks
 

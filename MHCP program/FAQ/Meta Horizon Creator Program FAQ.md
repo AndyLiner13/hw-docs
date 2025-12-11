@@ -14,7 +14,7 @@ Meta Horizon Creator Program members get access to monetization opportunities, e
 
 **Can I earn money in the program?**
 
-Yes, you must be a program member to get access to monetization tools, services, and bonuses, as well as the opportunity to enter creator competitions and win cash prizes. All program members now have access to the same [monetization opportunities](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
+Yes, you must be a program member to get access to monetization tools, services, and bonuses, as well as the opportunity to enter creator competitions and win cash prizes. All program members now have access to the same [monetization opportunities](../Monetization/Monetization%20opportunities.md).
 
 **I’m a mobile developer. Is this program right for me?**
 
@@ -55,7 +55,7 @@ In addition to meeting the eligibility guidelines to join the Meta Horizon Creat
 * Be actively editing, testing, and/or have published at least 1 world on Meta Horizon and have at least 400 monthly active users in 1 world in the past 30 days; and/or
 * Have published at least 1 equivalent mobile game or metaverse experience on a platform such as Roblox, VR Chat, or Fortnite, and have at least 400 monthly active users in 1 world
 
-You can learn more about becoming a partner [here](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/How%20to%20Become%20a%20Meta%20Horizon%20Creator%20Partner.md).
+You can learn more about becoming a partner [here](../How%20to%20Become%20a%20Meta%20Horizon%20Creator%20Partner.md).
 
 **I applied to become a partner but haven’t heard back yet. When will I be notified?**
 

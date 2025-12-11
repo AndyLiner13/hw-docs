@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playanim
 
 # PlayAnimationOptions type
 
-The options for the [Player.playAvatarAnimation()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md#playavataranimation) method, which triggers an animation on an avatar.
+The options for the [Player.playAvatarAnimation()](../Classes/Player.md#playavataranimation) method, which triggers an animation on an avatar.
 
 ## Signature
 
@@ -20,4 +20,4 @@ export declare type PlayAnimationOptions = {
 
 ## References
 
-[AvatarAnimationMask](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/AvatarAnimationMask.md), [AnimationCallback](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/AnimationCallback.md), [AnimationOnEndBehavior](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/AnimationOnEndBehavior.md)
+[AvatarAnimationMask](../Enumerations/AvatarAnimationMask.md), [AnimationCallback](AnimationCallback.md), [AnimationOnEndBehavior](../Enumerations/AnimationOnEndBehavior.md)

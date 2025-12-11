@@ -4,12 +4,12 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 You will need an IDE to write your own scripts for Meta Horizon Worlds. By default, the desktop editor uses [Visual Studio Code](https://code.visualstudio.com/download), but if you want to use a different editor, you can configure it to use another IDE instead.
 
-To configure the desktop editor, you need to make sure that you use version 4.7.4 of TypeScript. While you can use other versions of TypeScript, you may encounter issues when you use them with Meta Horizon Worlds APIs. If you don’t have TypeScript installed yet or you’re uncertain what version you’ve got, see [Managing Typescript](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Managing%20Typescript.md).
+To configure the desktop editor, you need to make sure that you use version 4.7.4 of TypeScript. While you can use other versions of TypeScript, you may encounter issues when you use them with Meta Horizon Worlds APIs. If you don’t have TypeScript installed yet or you’re uncertain what version you’ve got, see [Managing Typescript](Managing%20Typescript.md).
 
 Whichever IDE you choose to use, you will need to configure the desktop editor to use it. Steps to do so can be found below:
 
-* [Using VS Code with the desktop editor](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md#configure-the-desktop-editor-to-use-vs-code)
-* [Using another third-party IDE with the desktop editor](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md#using-another-third-party-ide-with-the-desktop-editor)
+* [Using VS Code with the desktop editor](Adding%20an%20IDE%20to%20the%20desktop%20editor.md#configure-the-desktop-editor-to-use-vs-code)
+* [Using another third-party IDE with the desktop editor](Adding%20an%20IDE%20to%20the%20desktop%20editor.md#using-another-third-party-ide-with-the-desktop-editor)
 
 ## Using VS Code with the desktop editor
 
@@ -18,7 +18,7 @@ This section shows you how to set up Visual Studio Code (VS Code) for editing Ty
 **Configure the desktop editor to use VS Code**
 
 - If it’s not already installed on your computer, install the latest version of VS Code from the [VS Code website](https://code.visualstudio.com/).
-- Ensure that you have version 4.7.4 of TypeScript installed. For more information on doing this, see [Managing Typescript](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Managing%20Typescript.md).
+- Ensure that you have version 4.7.4 of TypeScript installed. For more information on doing this, see [Managing Typescript](Managing%20Typescript.md).
 - Note the file path to where VS Code is installed on your computer. You’ll need this in the following steps.
 - Open the Meta Horizon Worlds desktop editor and then open the **Scripts** panel.
 
@@ -36,7 +36,7 @@ This section shows you how to set up Visual Studio Code (VS Code) for editing Ty
 
 These section shows you how to set up the desktop editor to use an IDE other than VS Code as the default IDE.
 
-- Ensure that you have version 4.7.4 of TypeScript installed. For more information on doing this, see [Managing Typescript](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Managing%20Typescript.md).
+- Ensure that you have version 4.7.4 of TypeScript installed. For more information on doing this, see [Managing Typescript](Managing%20Typescript.md).
 - If it’s not already installed on your computer, install the latest version of your third-party IDE.
 - Note the file path to where the EXE file for your IDE is installed on your computer. You’ll need this in the following steps.
 - Open the Meta Horizon Worlds desktop editor and then open the **Scripts** panel.

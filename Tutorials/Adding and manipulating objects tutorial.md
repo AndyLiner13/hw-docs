@@ -13,11 +13,11 @@ The key learning objectives are the following:
 
 ## Prerequisites
 
-This tutorial requires you to use the Meta Horizon Worlds desktop editor. See [Install and run the desktop editor](/hw-mcp-tools/documentation/hw-docs/Get%20started/Install%20the%20desktop%20editor.md) for instructions.
+This tutorial requires you to use the Meta Horizon Worlds desktop editor. See [Install and run the desktop editor](../Get%20started/Install%20the%20desktop%20editor.md) for instructions.
 
 ## Section 1: Create a new world
 
-In this section, [create a new world](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Create%20a%20New%20World.md) for your game.
+In this section, [create a new world](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Create%20a%20New%20World.md) for your game.
 
 **Note**: When you’re building your world, Meta Horizon Worlds automatically saves your progress and it’s part of your online save flow.
 
@@ -224,13 +224,13 @@ In this section, you’ll configure collision detection.
     **Note**: You can’t swing the bat in desktop mode. To be able to swing the bat, you must switch to VR.
   - This step is optional for the Batting Cage tutorial.
 
-    To enable restart of this world, set the ball to its original position by resetting it with a secondary action (the button press) whenever the user wants to do so. To implement this, you can create a scripting event for a [button press](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Grabbable%20entities/Action%20Buttons.md#how-to-handle-button-presses) and attach it to a [grabbable entity](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md).
+    To enable restart of this world, set the ball to its original position by resetting it with a secondary action (the button press) whenever the user wants to do so. To implement this, you can create a scripting event for a [button press](../Mobile%20and%20web/Grabbable%20entities/Action%20Buttons.md#how-to-handle-button-presses) and attach it to a [grabbable entity](../Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md).
 
 ## Section 5. Configure local scripting
 
 In this section, you’ll configure the scripts to run locally.
 
-When the player hits the ball, they take ownership of the entity that the script is attached to. In this case, it’s the Ball object. Transfer of ownership causes script processing to switch from the server to the player’s local device. This improves latency for the player. For more information, see [Ownership in Meta Horizon Worlds](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Ownership%20in%20Meta%20Horizon%20Worlds.md).
+When the player hits the ball, they take ownership of the entity that the script is attached to. In this case, it’s the Ball object. Transfer of ownership causes script processing to switch from the server to the player’s local device. This improves latency for the player. For more information, see [Ownership in Meta Horizon Worlds](../Scripting/Local%20scripting/Ownership%20in%20Meta%20Horizon%20Worlds.md).
 
 - Change the Execution Mode of both the Ball and Bat scripts to “Local”.
 
@@ -352,7 +352,7 @@ When the player hits the ball, they take ownership of the entity that the script
 
 - Publish your world
 
-  To [play in your world on mobile](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile), [publish](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Publish%20your%20world.md) the world first. Provide the necessary information in the **Publish World** dialog, which can be opened by navigating to the dropdown menu on the menu bar or by clicking **Publish** on the top right.
+  To [play in your world on mobile](../Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile), [publish](../Save,%20optimize,%20and%20publish/Publish%20your%20world.md) the world first. Provide the necessary information in the **Publish World** dialog, which can be opened by navigating to the dropdown menu on the menu bar or by clicking **Publish** on the top right.
 
   Enter the necessary information such as **Name**, **World Rating**, **Comfort Rating**, and **Tags**.
 
@@ -364,10 +364,10 @@ When the player hits the ball, they take ownership of the entity that the script
   Click **Publish** to publish the world.
 - Configure the preview device as mobile
 
-  To preview your world on mobile, select **Mobile** as your preview device by going to [Preview Configuration](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#how-to-set-the-preview-configuration). Click the ellipsis button on the menu bar. In **Preview actions**, send a preview build link to your Meta Horizon app.
+  To preview your world on mobile, select **Mobile** as your preview device by going to [Preview Configuration](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#how-to-set-the-preview-configuration). Click the ellipsis button on the menu bar. In **Preview actions**, send a preview build link to your Meta Horizon app.
 - Play it on mobile
 
-  Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world. For more related information, see [Testing worlds on mobile](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile).
+  Open the Meta Horizon app on your mobile device, find the build link under **Notifications** to play in your world. For more related information, see [Testing worlds on mobile](../Mobile%20and%20web/Testing%20worlds%20on%20mobile%20and%20web.md#mobile).
 
 ## Section 7. Play in your new world in VR
 
@@ -412,7 +412,7 @@ The following list contains suggestions for additional exercises.
 
 To learn more about Horizon, try the following:
 
-- See the [Tutorial worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md) for more tutorials.
-- Learn about the desktop editor with the [Introduction to the desktop editor](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
-- Learn about the other tools available by reading our [Tools overview](/hw-mcp-tools/documentation/hw-docs/Get%20started/Tools%20overview.md).
+- See the [Tutorial worlds](Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md) for more tutorials.
+- Learn about the desktop editor with the [Introduction to the desktop editor](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+- Learn about the other tools available by reading our [Tools overview](../Get%20started/Tools%20overview.md).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

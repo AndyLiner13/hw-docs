@@ -8,15 +8,15 @@ The Custom Tutorial Scripting API allows developers to create custom tutorials f
 
 ## Tutorial APIs
 
-* [showInfoSlides](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20tutorial%20scripting.md#showinfoslides-api)
-* [showInputActionMessage](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20tutorial%20scripting.md#showinputactionmessage-api)
-* [showToastMessage](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20tutorial%20scripting.md#showtoastmessage-api)
+* [showInfoSlides](Custom%20tutorial%20scripting.md#showinfoslides-api)
+* [showInputActionMessage](Custom%20tutorial%20scripting.md#showinputactionmessage-api)
+* [showToastMessage](Custom%20tutorial%20scripting.md#showtoastmessage-api)
 
 ## showInfoSlides API
 
 The ‘ShowInfo’ API allows developers to convey information to users via a series of connected modal windows, greatly enhancing the onboarding experience in your world. It can be used to display welcome messages, provide critical updates, or deliver important instructions, ensuring users are well-informed about key aspects or new features in your world.
 
-Each info slide can have a localizable title, message, and image. The image is a texture asset with either (width: 808 height: 412) size or (width: 920 height: 280) size in case it’s a header image. To add an image and get the image URI please follow [instructions](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Grabbable%20entities/Custom%20Action%20Button%20Icons.md#uploading-a-custom-texture). The image will be scaled to fit the panel size. The title and message are localizable strings that can be translated into different languages.
+Each info slide can have a localizable title, message, and image. The image is a texture asset with either (width: 808 height: 412) size or (width: 920 height: 280) size in case it’s a header image. To add an image and get the image URI please follow [instructions](../Grabbable%20entities/Custom%20Action%20Button%20Icons.md#uploading-a-custom-texture). The image will be scaled to fit the panel size. The title and message are localizable strings that can be translated into different languages.
 
 ### Example
 

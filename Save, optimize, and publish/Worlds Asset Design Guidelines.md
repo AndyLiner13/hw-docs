@@ -17,19 +17,19 @@ World assets are the visual first impression of your world. High-quality, engagi
 | Video Preview Portrait | 9:16 | 1080p | MP4 |
 | Video Preview Square | 1:1 | 1080p | MP4 |
 
-**Important**: Assets must adhere to the [safe area templates](/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20Asset%20Design%20Guidelines.md#safe-areas) to ensure optimal display of your preview images across Horizon. Failure to comply may result in a poor visual experience.
+**Important**: Assets must adhere to the [safe area templates](Worlds%20Asset%20Design%20Guidelines.md#safe-areas) to ensure optimal display of your preview images across Horizon. Failure to comply may result in a poor visual experience.
 
 While only the Cover Landscape, Cover Portrait, and Cover Square assets are required, we strongly recommend uploading the optional assets as well. Providing these extra assets ensures your worlds are optimally represented across Horizon, which in turn enhances the discoverability of your content.
 
 ## Where world assets are visible
 
-World assets show up on various discovery surfaces on mobile and VR, such as Search and Store. Quality assets have been validated to be shown as one of the strongest levers to increase interest and downstream engagement. World assets are the “book covers” in Meta Horizon, where accurate and exciting visuals can improve visits and time spent up to 40%. We have found that the closer the visuals are to the world experience, the more users will engage deeply. To learn more about worlds discovery surfaces, as well as tips and tricks on improving discoverability of your worlds, see [Intro to Worlds Discovery](/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md).
+World assets show up on various discovery surfaces on mobile and VR, such as Search and Store. Quality assets have been validated to be shown as one of the strongest levers to increase interest and downstream engagement. World assets are the “book covers” in Meta Horizon, where accurate and exciting visuals can improve visits and time spent up to 40%. We have found that the closer the visuals are to the world experience, the more users will engage deeply. To learn more about worlds discovery surfaces, as well as tips and tricks on improving discoverability of your worlds, see [Intro to Worlds Discovery](Intro%20to%20Worlds%20discovery.md).
 
 ## Asset design guidance
 
-* Keep key focal points within the [safe area](/hw-docs/Save,%20optimize,%20and%20publish/Worlds%20Asset%20Design%20Guidelines.md#safe-areas). This ensures important visual elements aren’t cut off on different surfaces or devices.
+* Keep key focal points within the [safe area](Worlds%20Asset%20Design%20Guidelines.md#safe-areas). This ensures important visual elements aren’t cut off on different surfaces or devices.
 * Maintain visual consistency. All images should use the same core imagery to help users recognize your experience across various surfaces.
-* Design for scalability. Images may appear at different sizes depending on the [discovery surface](/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md). Make sure key visuals remain clear and legible at any scale.
+* Design for scalability. Images may appear at different sizes depending on the [discovery surface](Intro%20to%20Worlds%20discovery.md). Make sure key visuals remain clear and legible at any scale.
 * Don’t place text in corners. Text in these areas is more likely to be cut off or overlooked. Using the templates provided will ensure important info falls within the safe zone.
 * Skip taglines or extra descriptions. Let the visual speak for itself.
 

@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 This session is bound to improve your worlds! “World Optimization Best Practices” with Technical Artist **Michael Isaza** will show you how to collect, analyze, and integrate valuable insights to optimize world performance.
 
-See the [Perfetto user guide](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md) for further instructions on using Perfetto and a screenshot of the provided performance checklist.
+See the [Perfetto user guide](Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md) for further instructions on using Perfetto and a screenshot of the provided performance checklist.
 
 The resources referenced at the end of this talk are available below:
 

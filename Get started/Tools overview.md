@@ -11,12 +11,12 @@ PC creation tools support cross-platform publishing across VR and mobile, offeri
 **Note**: VR creation tools for Worlds are legacy tools. We strongly recommend using the desktop editor and other PC creation tools.
 This topic introduces some of our creation tools:
 
-* [Desktop editor](/hw-docs/Get%20started/Tools%20overview.md#desktopeditor)
-* [TypeScript](/hw-docs/Get%20started/Tools%20overview.md#typescript)
-* [Custom Model Import](/hw-docs/Get%20started/Tools%20overview.md#custommodelimport)
-* [NPCs](/hw-docs/Get%20started/Tools%20overview.md#npcs)
-* [Performance tools](/hw-docs/Get%20started/Tools%20overview.md#performancetools)
-* [Generative AI Creation tools](/hw-docs/Get%20started/Tools%20overview.md#genaitools)
+* [Desktop editor](Tools%20overview.md#desktopeditor)
+* [TypeScript](Tools%20overview.md#typescript)
+* [Custom Model Import](Tools%20overview.md#custommodelimport)
+* [NPCs](Tools%20overview.md#npcs)
+* [Performance tools](Tools%20overview.md#performancetools)
+* [Generative AI Creation tools](Tools%20overview.md#genaitools)
 
 ## Desktop Editor
 
@@ -39,8 +39,8 @@ Using the desktop editor to build your world makes it easier to:
 * Update entity property values
 * Write and debug TypeScript code
 
-To install the desktop editor, see [Install the desktop editor](/hw-docs/Get%20started/Install%20the%20desktop%20editor.md).
-To get started using the editor, see the [Introduction to the desktop editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+To install the desktop editor, see [Install the desktop editor](Install%20the%20desktop%20editor.md).
+To get started using the editor, see the [Introduction to the desktop editor](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 
 ## TypeScript
 
@@ -51,7 +51,7 @@ TypeScript is a strongly-typed version of JavaScript. Strong typing provides tig
 * Leverage IntelliSense (code completion).
 * Catch errors during development, rather than at runtime.
 
-To get started, see [Using TypeScript in Worlds](/hw-docs/Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md).
+To get started, see [Using TypeScript in Worlds](../Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md).
 
 ## Custom Model Import
 
@@ -63,7 +63,7 @@ A custom 3D model is composed of multiple files, and you need to specify all of 
 * One or more PNG files. These are image files, and they contain textures that map onto the 3D model’s surface to make the spawned object look more realistic.
   You can also create your own static lighting and collision models for your imported 3D models.
 
-To get started, see [Getting started with custom model import](/hw-docs/Custom%20models%20(FBX)/Getting%20started%20with%203D%20model%20import.md).
+To get started, see [Getting started with custom model import](../Custom%20models%20(FBX)/Getting%20started%20with%203D%20model%20import.md).
 
 ## NPCs
 
@@ -95,7 +95,7 @@ Real-time performance metrics and server-side tracing can help you as a creator,
 The **Performance** tab displays a real-time view of all currently selected metrics. You can select which metrics to display on the tab and you can also set a target number for each metric. When a metric exceeds the defined target, a red dot appears next to that metric as an alert.
 This tab also supports scrubbing and tracing. With scrubbing, you can review data that has recently appeared on the **Performance** tab (approximately 30 seconds worth) in detail. With tracing, you can capture performance data from your world to view in Perfetto. Perfetto is a third-party tool for performance instrumentation and trace analysis.
 
-For more information, see [Using performance tools from web and mobile](/hw-docs/Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md).
+For more information, see [Using performance tools from web and mobile](../Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md).
 
 ## Gen AI Creation tools
 
@@ -107,7 +107,7 @@ The desktop editor features a suite of Gen AI Creation tools that assist you in 
 Converting Worlds concepts into Typescript code can sometimes be a struggle. However, the Gen AI code tool can help you with this. Built into the desktop editor, the Gen AI tool is an authoritative, AI-powered chat assistant. It works like a chat app and using it is as simple as having a back-and-forth, real-time conversation with someone. In this case, that someone just happens to be a [large language model](https://en.wikipedia.org/wiki/Large_language_model).
 The GenAI code tool has two types of models available: Llama, and Specialist. The Llama model works well for quick questions or general information about Worlds. The Specialist model is trained on TypeScript and the Worlds API. It can generate scripts and answer more detailed questions about scripting and TypeScript. The Specialist model works well as a personal tutor to learn TypeScript and familiarize yourself with TypeScript APIs.
 
-For more information, see the [Gen AI Creation code tool](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Assistant%20Tool.md).
+For more information, see the [Gen AI Creation code tool](../Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Assistant%20Tool.md).
 
 ### Gen AI Creation Audio tool
 
@@ -116,7 +116,7 @@ The Gen AI Audio tool provides two audio generation modes: sound effect generati
 You can either select sounds based on example prompts, or you can create your own custom prompts and see what sounds you can come up with.
 Once you have that perfect sound, you can use it to create audio assets for your world or download it to your local hard drive for future use.
 
-For more information, see the [Gen AI Creation Audio tool](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md).
+For more information, see the [Gen AI Creation Audio tool](../Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md).
 
 ### Gen AI Asset Metadata tool
 
@@ -133,12 +133,12 @@ The Gen AI Texture Generation tool helps you generate textures for your objects 
 * Save the texture both onto your local drive and into your asset library.
 * Create textures and work with objects in the wild.
 
-For more information, see the [Gen AI Texture Generation tool](/hw-docs/Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Texture%20Generation%20Tool.md).
+For more information, see the [Gen AI Texture Generation tool](../Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Texture%20Generation%20Tool.md).
 
 ## What’s Next?
 
 To learn more about Worlds, try the following:
 
-- [Create your first world](/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
-- Learn about the desktop editor with the [Introduction to the desktop editor](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+- [Create your first world](Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
+- Learn about the desktop editor with the [Introduction to the desktop editor](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

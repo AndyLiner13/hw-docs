@@ -20,7 +20,7 @@ Horizon specifically has some features that stand out compared to UEFN that any 
 
 # Epic Games Launcher -> Horizon Desktop Editor
 
-The Horizon Desktop Editor is the starting point for managing existing worlds, viewing documentation, exploring tutorials and templates and more. It is the equivalent of both the Epic Games Launcher and the UEFN editor bundled into one. [The Horizon Desktop Editor can be installed](/hw-docs/Get%20started/Install%20the%20desktop%20editor.md) either standalone or through the Meta Quest Link app (if developing for VR).
+The Horizon Desktop Editor is the starting point for managing existing worlds, viewing documentation, exploring tutorials and templates and more. It is the equivalent of both the Epic Games Launcher and the UEFN editor bundled into one. [The Horizon Desktop Editor can be installed](../../Get%20started/Install%20the%20desktop%20editor.md) either standalone or through the Meta Quest Link app (if developing for VR).
 
 ![Horizon Creation Home](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546218067_811522964718990_2334895237106097278_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Wf37MdbH8iAQ7kNvwHNUACz&_nc_oc=Adm5AKQimo5Kdn8LzkoJvUI8kyk3Lcb_tBulp1Vxmp--EBMAaObuFbSsHKywqNVBKU8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wGtgedgYL7sg3Hsu63X2CA&oh=00_AfkgNoDuM9vlAdx8Iu34xNtsJ-i66waT-v_0fYlTHoY4TQ&oe=695400EC)
 
@@ -75,7 +75,7 @@ Unlike UEFN, Horizon has a clear distinction of where (client vs server) and how
 * Client scripts will initially run on the server, until their owning entity gets assigned a client owner. At that time the script will only run locally on the owning client, and no other instance will have visibility into its logic or properties.
 * To check if a script is currently running on the server or client, compare the world local player to the world server player.
 
-Due to the Horizon networking model, it is up to the creator to manage the state of components when they change ownership between server and client. See the following [documentation](/hw-docs/Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md) on managing local state for more information.
+Due to the Horizon networking model, it is up to the creator to manage the state of components when they change ownership between server and client. See the following [documentation](../../Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md) on managing local state for more information.
 
 ## Gameplay structure
 
@@ -90,13 +90,13 @@ Within UEFN, the standard gameplay structure is to connect devices together with
 
 ### Object communication
 
-With UEFN, the preferred approach for communication between objects/actors is to either fetch a component on the object, or the event binding system. In Horizon, the preferred approach is through [local or network events](/hw-docs/Scripting/Events/Events%20Best%20Practices.md). Horizon also has an API to fetch a component on an entity by a class type, however note that this will return nothing if the component is on the server and the API was called on a client (and vice versa). Some important event distinctions to remember are:
+With UEFN, the preferred approach for communication between objects/actors is to either fetch a component on the object, or the event binding system. In Horizon, the preferred approach is through [local or network events](../../Scripting/Events/Events%20Best%20Practices.md). Horizon also has an API to fetch a component on an entity by a class type, however note that this will return nothing if the component is on the server and the API was called on a client (and vice versa). Some important event distinctions to remember are:
 
 * Events only exist in code, and must be defined and hooked up there.
 * Events are not specific to an object. They are defined externally from it. Any entity can send and register for any event.
 * NetworkEvents are the only way for entities on different instances to communicate with each other.
 * Horizon comes with a variety of events out of the box.
-  + [The update event](/hw-docs/Scripting/Events/World%20Update%20Events.md) must be explicitly registered for if the entity wants to receive update ticks.
+  + [The update event](../../Scripting/Events/World%20Update%20Events.md) must be explicitly registered for if the entity wants to receive update ticks.
 
 ## TypeScript
 
@@ -107,12 +107,12 @@ In Horizon, Typescript is the language used for coding. The language provides st
 Horizon is a collaborative platform that allows developers to work together on the same world, similar to UEFN. However, there are a few important differences to keep in mind.
 
 * Horizon only offers version control for asset templates, and the world itself (through snapshots). There is no version control specifically for scripts or being able to compare differences between snapshots or asset versions.
-* Horizon allows for collaborators with edit permissions, and playtesters with view permissions to be added to the world. Note that there are limits to how many other people can be added to the project. See the [collaborator documentation](/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) for more information.
+* Horizon allows for collaborators with edit permissions, and playtesters with view permissions to be added to the world. Note that there are limits to how many other people can be added to the project. See the [collaborator documentation](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) for more information.
 * Horizon does not have any concept of branches or workspaces for individual developers. Instead, the recommended approach for a developer working on a new feature is to clone the world, do their development work there, and then manually merge the changes back in.
 
 ## Custom content
 
-Horizon allows a [variety of different asset types to be imported](/hw-docs/Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) into the engine for use within the world. However, there is no current guarantee that assets used with UEFN will work within Horizon. Verse scripts cannot be imported directly into Horizon. Any gameplay logic written within UEFN will need to be re-written for Horizon.
+Horizon allows a [variety of different asset types to be imported](../../Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) into the engine for use within the world. However, there is no current guarantee that assets used with UEFN will work within Horizon. Verse scripts cannot be imported directly into Horizon. Any gameplay logic written within UEFN will need to be re-written for Horizon.
 
 ## Playtesting
 
@@ -120,7 +120,7 @@ Horizon offers multiple ways to playtest your world on desktop, mobile, and VR. 
 
 ![Horizon Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545673526_811522954718991_5394657970832061088_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=M-IeepRaBl0Q7kNvwHFSwDU&_nc_oc=AdmzxO_QnHf2mpZNyxKQluZE3N3m-GL1yMbTT26XHZOYDf2kb8t3hN3KJgzW2mqUJZg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wGtgedgYL7sg3Hsu63X2CA&oh=00_AfmEfRkMz-xBnMLVXiS3ukHjhpygo5IA3GwVfmuP6amr6Q&oe=6953F559)
 
-Once a world is published, that specific published version is what will be available to playtest. More information on the publishing flow can be found [here](/hw-docs/Save,%20optimize,%20and%20publish/Publish%20your%20world.md). Some important steps to keep in mind:
+Once a world is published, that specific published version is what will be available to playtest. More information on the publishing flow can be found [here](../../Save,%20optimize,%20and%20publish/Publish%20your%20world.md). Some important steps to keep in mind:
 
 * A player must be added to your world as either a collaborator or playtester to be able to playtest your game.
 * You can continue making changes in the world without affecting the playtest. The changes will only propagate once you publish again.

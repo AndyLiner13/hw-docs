@@ -17,4 +17,4 @@ export declare type StopVideoCaptureOptions = {
 
 ## Remarks
 
-[DefaultStopVideoCaptureOptions](/hw-docs/Reference/capturing/Variables/DefaultStopVideoCaptureOptions.md) specifies the default options.
+[DefaultStopVideoCaptureOptions](../Variables/DefaultStopVideoCaptureOptions.md) specifies the default options.

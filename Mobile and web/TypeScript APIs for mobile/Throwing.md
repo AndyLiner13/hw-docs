@@ -8,7 +8,7 @@ To disable the standard throwing controls you can set Enable Throwing Controls (
 
 ![alt text](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653336_512535234617766_1315218671583337035_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=L3u5slGZRscQ7kNvwHwilw0&_nc_oc=AdkC_uevIzgEIES_wrKyoaH9VBplTMJGCb3yS2Inpum_wgmnvgGQs4oj2YhToy0c4bU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=miD5yGQoLY744eDM3BZDjw&oh=00_Afn5dGPqdX9JM1I4tnDi5uZatDjhlPreQpJGIdoRq1sHZQ&oe=694BBD18)
 
-The [Player.throwHeldItem method](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md#throwhelditem) is used to throw an object. When calling this method, the [ThrowOptions type](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/ThrowOptions.md) defines the properties for customizing how an object is thrown. The default values are defined by the [DefaultThrowOptions variable](/hw-mcp-tools/documentation/hw-docs/Reference/core/Variables/DefaultThrowOptions.md).
+The [Player.throwHeldItem method](../../Reference/core/Classes/Player.md#throwhelditem) is used to throw an object. When calling this method, the [ThrowOptions type](../../Reference/core/Type%20Aliases/ThrowOptions.md) defines the properties for customizing how an object is thrown. The default values are defined by the [DefaultThrowOptions variable](../../Reference/core/Variables/DefaultThrowOptions.md).
 
 Here’s an example that makes the player throw an object when they press the primary button on web and mobile.
 

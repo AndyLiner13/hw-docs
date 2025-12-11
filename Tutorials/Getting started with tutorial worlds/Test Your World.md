@@ -32,7 +32,7 @@ If you are collaborating with other people, enabling these options can be disrup
 | Auto-start simulation on preview entry | When enabled, entering Preview mode also presses the Play button. |
 | Auto-stop simulation on preview exit | When enabled, exiting Preview mode also presses the Stop button.   When the simulation is stopped, you may lose contextual information from the playback. |
 
-For more information, see [Preview Mode](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md).
+For more information, see [Preview Mode](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md).
 
 #### Simulation tools
 
@@ -128,4 +128,4 @@ In Build mode, you can perform edits to your world while you are in the headset.
 
 ## Testing in Mobile
 
-For more information on setting up a testing environment for mobile and web, see [Preview device](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).
+For more information on setting up a testing environment for mobile and web, see [Preview device](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).

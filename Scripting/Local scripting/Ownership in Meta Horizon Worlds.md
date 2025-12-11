@@ -55,7 +55,7 @@ Transferring ownership of an entity is about maintaining the source of truth for
 
 In regard to scripting, you can think of entity ownership transfer as a way of reducing latency. It does this by having a script run on the local client so that state changes to its associated entity occur immediately on that client.
 
-**Note:** When ownership transfers, state details are actually lost. The script shuts down on the old owner client, and then restarts on the new owner client. So you must package the state data and repopulate the properties, which are on the same entity. For details, see [Ownership transfer between clients](/hw-mcp-tools/documentation/hw-docs/Scripting/Local%20scripting/Ownership%20in%20Meta%20Horizon%20Worlds.md#ownership-transfer-between-clients).
+**Note:** When ownership transfers, state details are actually lost. The script shuts down on the old owner client, and then restarts on the new owner client. So you must package the state data and repopulate the properties, which are on the same entity. For details, see [Ownership transfer between clients](Ownership%20in%20Meta%20Horizon%20Worlds.md#ownership-transfer-between-clients).
 
 ## Automatic ownership transfer
 

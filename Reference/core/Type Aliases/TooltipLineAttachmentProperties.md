@@ -18,7 +18,7 @@ export declare type TooltipLineAttachmentProperties = {
 
 ## References
 
-[Entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md), [PlayerBodyPartType](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/PlayerBodyPartType.md), [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)
+[Entity](../Classes/Entity.md), [PlayerBodyPartType](../Enumerations/PlayerBodyPartType.md), [Vec3](../Classes/Vec3.md)
 
 ## Remarks
 

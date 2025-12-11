@@ -12,7 +12,7 @@ Learn essential steps for successful mobile submission, including:
 
 #### Links
 
-* [Publishing worlds on mobile](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/Publishing%20worlds%20on%20mobile.md)
+* [Publishing worlds on mobile](../../Mobile%20and%20web/Publishing%20worlds%20on%20mobile.md)
 * [“TEMPLATE - Mobile World Submissions” discord link](https://discord.com/channels/953395096064253962/1288619590716358762/1288619590716358762)
 * [“My Worlds” landing page](https://horizon.meta.com/creator/worlds_all/?utm_source=horizon_cross_screen-creator_page&locale=en_US)
-* [Tracing](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Tracing.md)
+* [Tracing](../../Performance/Performance%20tools/Tracing.md)

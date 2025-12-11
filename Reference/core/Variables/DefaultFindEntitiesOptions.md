@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_defaultf
 
 # DefaultFindEntitiesOptions Variable
 
-Default ptions for the [World.findEntities()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/World.md#findentities) method.
+Default ptions for the [World.findEntities()](../Classes/World.md#findentities) method.
 
 ## Signature
 
@@ -12,4 +12,4 @@ DefaultFindEntitiesOptions: FindEntitiesOptions
 
 ## Remarks
 
-rootEntity - defaults to undefined, meaning the entire hierarchy will be searched matchOperation - defaults to [EntityNameMatchOperation.Exact](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/EntityNameMatchOperation.md)
+rootEntity - defaults to undefined, meaning the entire hierarchy will be searched matchOperation - defaults to [EntityNameMatchOperation.Exact](../Enumerations/EntityNameMatchOperation.md)

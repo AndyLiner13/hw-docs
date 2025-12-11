@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_staticra
 
 # StaticRaycastHit type
 
-The result of a [raycast](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) collision against a static [Entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md).
+The result of a [raycast](../Classes/RaycastGizmo.md#raycast) collision against a static [Entity](../Classes/Entity.md).
 
 ## Signature
 
@@ -14,4 +14,4 @@ export declare type StaticRaycastHit = BaseRaycastHit & {
 
 ## References
 
-[BaseRaycastHit](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/BaseRaycastHit.md), [RaycastTargetType.Static](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/RaycastTargetType.md)
+[BaseRaycastHit](BaseRaycastHit.md), [RaycastTargetType.Static](../Enumerations/RaycastTargetType.md)

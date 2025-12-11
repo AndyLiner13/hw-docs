@@ -14,15 +14,15 @@ This table summarizes recent changes:
 
 | **Category** | **Type** | **Summary** |
 | --- | --- | --- |
-| [Modules](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Modules%20and%20Global%20Functions.md) | Major | Changed the module names as follows:  - Changed the prefix for module names from `@early_access_api` to `horizon`.  - Changed the module name for the core APIs from `v1` to `core`. |
-| [Component](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md) | Major | - Reduced the amount of boilerplate code required to create components in scripts.  - Added a `prestart` method to the `Component` class. |
+| [Modules](../Get%20started%20with%20TypeScript/Modules%20and%20Global%20Functions.md) | Major | Changed the module names as follows:  - Changed the prefix for module names from `@early_access_api` to `horizon`.  - Changed the module name for the core APIs from `v1` to `core`. |
+| [Component](../Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md) | Major | - Reduced the amount of boilerplate code required to create components in scripts.  - Added a `prestart` method to the `Component` class. |
 | Entity and Asset properties | Major | - Enabled nullability for properties that receive `Entity` or `Asset` types. |
 | Entity.as | Standard | - Updated the `Entity.as` method to return a nullable type. |
 | PhysicalEntity | Standard | - The `PhysicalEntity.applyForceAtPosition` method now uses the impulse `PhysicsForceMode` instead of force. |
 | Class IDs | Standard | - Changed all internal class IDs to the `bigint` type. |
 | SpawnTargetState | Standard | - Removed the export of the `SpawnTargetState` enum. |
-| [LocalEvent](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/Local%20Events.md) | Standard | - In the `LocalEvent` constructor, the `name` parameter is now optional, and is assigned a unique ID if the parameter isn’t specified. |
-| [Component](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md) | Renamed APIs | - `sendNetworkEntityEvent` to `sendNetworkEvent`  - `sendEntityEvent` to `sendLocalEvent`  -`connectEntityEvent` to `connectLocalEvent`  - `connectBroadcastEvent` to `connectLocalBroadcastEvent`  -`sendBroadcastEvent` to `sendLocalBroadcastEvent` |
+| [LocalEvent](../Events/Local%20Events.md) | Standard | - In the `LocalEvent` constructor, the `name` parameter is now optional, and is assigned a unique ID if the parameter isn’t specified. |
+| [Component](../Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md) | Renamed APIs | - `sendNetworkEntityEvent` to `sendNetworkEvent`  - `sendEntityEvent` to `sendLocalEvent`  -`connectEntityEvent` to `connectLocalEvent`  - `connectBroadcastEvent` to `connectLocalBroadcastEvent`  -`sendBroadcastEvent` to `sendLocalBroadcastEvent` |
 | Interfaces | Renamed APIs | - `IEntityStyle` to `EntityStyle` |
 | Classes | Removed APIs | - `HorizonEvent` to `LocalEvent` |
 | Entity class | Removed APIs | - `setVisibleToAllPlayers` to `setVisibilityForPlayers`  - `setVisibleToPlayers` to `resetVisibilityForPlayers` |

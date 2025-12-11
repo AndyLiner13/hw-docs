@@ -4,15 +4,15 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 Note
 
-You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/Monetization%20opportunities.md).
+You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](../MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 Gizmos are a suite of helper tools which are designed to enhance the creation and interactivity of worlds. The shop gizmo allows users to trade Meta credits and in-world items for other in-world items.
 
 ![Shop Gizmo in Meta Horizon Worlds](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/518277094_762929259578361_3593903843151039697_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xd9RAhiAy-oQ7kNvwHKm0CA&_nc_oc=AdnrFT3kNlePHbfOOx9UlW0TrCJqxQnlPdyYqL0T7EhPPGodV3um3KAG8xcEJNKypwk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=r_ghUO0sP-VaGJuJh3OYoA&oh=00_Afny0QUB0r7xR5qubZdwKhQJ6MqK0GjzIQ15U8IofH5S-g&oe=694BC691)
 
-The shop gizmo can be configured to display in-world items created in the **Systems > Commerce** menu. For more information on creating in-world items, visit the [In-World Purchase Guide](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/In-world%20purchase%20guide.md#creating-an-item).
+The shop gizmo can be configured to display in-world items created in the **Systems > Commerce** menu. For more information on creating in-world items, visit the [In-World Purchase Guide](../MHCP%20program/Monetization/In-world%20purchase%20guide.md#creating-an-item).
 
-Behind the scenes, the world inventory stores how many of each in-world item is owned by each player. While the shop interfaces with the world inventory automatically, you can use [World Inventory TypeScript APIs](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/WorldInventory.md) to manually query, grant, and consume in-world items in a player’s world inventory.
+Behind the scenes, the world inventory stores how many of each in-world item is owned by each player. While the shop interfaces with the world inventory automatically, you can use [World Inventory TypeScript APIs](../Reference/core/Classes/WorldInventory.md) to manually query, grant, and consume in-world items in a player’s world inventory.
 
 ## Limitations
 

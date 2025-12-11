@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entityna
 
 # EntityNameMatchOperation Enum
 
-Defines the valid matching operations that are available when using [findEntities()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/World.md#findentities) to find world entities.
+Defines the valid matching operations that are available when using [findEntities()](../Classes/World.md#findentities) to find world entities.
 
 ## Signature
 

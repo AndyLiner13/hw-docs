@@ -6,7 +6,7 @@ The Meta Horizon Worlds desktop editor requires TypeScript version 4.7.4 when cr
 
 **Note**: The Meta Horizon Worlds documentation cannot be considered the conclusive version of documentation for TypeScript itself, as Meta does not control the development of TypeScript. For the most up-to-date documentation on it, please see the [TypeScript home page](https://www.typescriptlang.org/).
 
-For more information about the mechanics of TypeScript, see [About TypeScript](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/About%20TypeScript.md)
+For more information about the mechanics of TypeScript, see [About TypeScript](About%20TypeScript.md)
 
 **To check your installed version of TypeScript**
 

@@ -5,7 +5,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_vid
 > Warning: This API is now obsolete.
 > This module is deprecated and will be removed in a future version.
 
-The response codes for [PlayerCapturing](/hw-docs/Reference/capturing/Classes/PlayerCapturing.md) functions.
+The response codes for [PlayerCapturing](../Classes/PlayerCapturing.md) functions.
 
 ## Signature
 

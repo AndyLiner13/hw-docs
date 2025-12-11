@@ -12,10 +12,10 @@ export declare type PlayerInputStateChangeCallback = (action: PlayerInputAction,
 
 ## References
 
-[PlayerInputAction](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/PlayerInputAction.md)
+[PlayerInputAction](../Enumerations/PlayerInputAction.md)
 
 ## Remarks
 
-Use [PlayerInput.registerCallback()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/PlayerInput.md#registercallback) to register this callback.
+Use [PlayerInput.registerCallback()](../Classes/PlayerInput.md#registercallback) to register this callback.
 action - The input action that triggered the callback.
 pressed - true if the input was pressed; false if it was released.

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entityra
 
 # EntityRaycastHit type
 
-The result of a [raycast](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) collision against an [Entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md).
+The result of a [raycast](../Classes/RaycastGizmo.md#raycast) collision against an [Entity](../Classes/Entity.md).
 
 ## Signature
 
@@ -15,4 +15,4 @@ export declare type EntityRaycastHit = BaseRaycastHit & {
 
 ## References
 
-[BaseRaycastHit](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/BaseRaycastHit.md), [RaycastTargetType.Entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/RaycastTargetType.md), [Entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md)
+[BaseRaycastHit](BaseRaycastHit.md), [RaycastTargetType.Entity](../Enumerations/RaycastTargetType.md), [Entity](../Classes/Entity.md)

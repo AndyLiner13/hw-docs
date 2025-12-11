@@ -12,12 +12,12 @@ export declare function DynamicList<T>(props: Readonly<DynamicListProps<T>>): UI
 
 ## Parameters
 
-props: Readonly<[DynamicListProps](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/DynamicListProps.md)<T>>
+props: Readonly<[DynamicListProps](../Type%20Aliases/DynamicListProps.md)<T>>
 
 Props of the DynamicList component.
 
 ## Returns
 
-[UINode](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/UINode.md)<[DynamicListProps](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/DynamicListProps.md)<T>>
+[UINode](../Classes/UINode.md)<[DynamicListProps](../Type%20Aliases/DynamicListProps.md)<T>>
 
 A UINode representing the DynamicList component.

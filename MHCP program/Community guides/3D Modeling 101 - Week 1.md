@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 Ready to transform your creative vision into 3D reality? Join MHCP Mentor SpaceGlitterUnicorn for a comprehensive introduction to 3D modeling, designed specifically to give you the confidence and skills to create your first 3D assets.
 
-For more helpful Blender tips, be sure to review the [hotkey guide to the Blenderverse](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/Basic%20Hotkey%20Guide%20to%20the%20Blenderverse.md) as well!
+For more helpful Blender tips, be sure to review the [hotkey guide to the Blenderverse](Basic%20Hotkey%20Guide%20to%20the%20Blenderverse.md) as well!
 
 ## Week 1: Introduction to Blender
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_imageprops
 
 # ImageProps type
 
-Represents the props of an [Image](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Functions/Image_2.md) component.
+Represents the props of an [Image](../Functions/Image_2.md) component.
 
 ## Signature
 
@@ -15,4 +15,4 @@ export declare type ImageProps = {
 
 ## References
 
-[Bindable](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/Bindable.md), [ImageSource](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/ImageSource.md), [ImageStyle](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/ImageStyle.md)
+[Bindable](Bindable.md), [ImageSource](../Classes/ImageSource.md), [ImageStyle](ImageStyle.md)

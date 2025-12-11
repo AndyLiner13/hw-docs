@@ -71,7 +71,7 @@ The quick examples are:
 * **Duplicate**: Shift + D
 * **Undo**: Ctrl + Z
 
-Here’s a [PDF with a full list of Basic Navigation and Hotkey Essentials](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Community%20guides/Basic%20Hotkey%20Guide%20to%20the%20Blenderverse.md).
+Here’s a [PDF with a full list of Basic Navigation and Hotkey Essentials](Basic%20Hotkey%20Guide%20to%20the%20Blenderverse.md).
 
 **Basic Navigation and Hotkeys video walkthrough:**
 

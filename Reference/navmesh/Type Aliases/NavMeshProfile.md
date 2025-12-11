@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMeshProfile type
 
-The configuration for a navigation [NavMesh.profile](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Classes/NavMesh.md#profile).
+The configuration for a navigation [NavMesh.profile](../Classes/NavMesh.md#profile).
 
 ## Signature
 
@@ -19,7 +19,7 @@ export declare type NavMeshProfile = {
 
 ## References
 
-[INavMesh](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Interfaces/INavMesh.md)
+[INavMesh](../Interfaces/INavMesh.md)
 
 ## Remarks
 

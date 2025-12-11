@@ -12,12 +12,12 @@ export declare function EditorTextInput(props: Readonly<EditorTextInputProps>): 
 
 ## Parameters
 
-props: Readonly<[EditorTextInputProps](/hw-mcp-tools/documentation/hw-docs/Reference/editor/Type%20Aliases/EditorTextInputProps.md)>
+props: Readonly<[EditorTextInputProps](../Type%20Aliases/EditorTextInputProps.md)>
 
 The props of the component.
 
 ## Returns
 
-UINode<[EditorTextInputProps](/hw-mcp-tools/documentation/hw-docs/Reference/editor/Type%20Aliases/EditorTextInputProps.md)>
+UINode<[EditorTextInputProps](../Type%20Aliases/EditorTextInputProps.md)>
 
 A that represents the EditorTextInput component.

@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Animations for custom UI
 
-Animations are important for creating a great gameplay experience. Custom UI provides a set of APIs to concisely build [animations](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Abstract%20Classes/Animation_2.md) in a performant way, along with configurable properties and start/stop methods to precisely control the behavior of the animations.
+Animations are important for creating a great gameplay experience. Custom UI provides a set of APIs to concisely build [animations](../../Reference/ui/Abstract%20Classes/Animation_2.md) in a performant way, along with configurable properties and start/stop methods to precisely control the behavior of the animations.
 
 ## Animated Binding class
 
-The important piece for [building a dynamic UI](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Building%20dynamic%20custom%20UI.md) is the [`Binding`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/Binding.md) class. Similarly, the important piece for building animations is the new [`AnimatedBinding`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md) class.
+The important piece for [building a dynamic UI](Building%20dynamic%20custom%20UI.md) is the [`Binding`](../../Reference/ui/Classes/Binding.md) class. Similarly, the important piece for building animations is the new [`AnimatedBinding`](../../Reference/ui/Classes/AnimatedBinding.md) class.
 
 ```
 import { AnimatedBinding } from 'horizon/ui';
@@ -27,23 +27,23 @@ initializeUI() {
 }
 ```
 
-[`AnimatedBinding`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md) and [`Binding`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/Binding.md) classes are similar and allow you to do the following:
+[`AnimatedBinding`](../../Reference/ui/Classes/AnimatedBinding.md) and [`Binding`](../../Reference/ui/Classes/Binding.md) classes are similar and allow you to do the following:
 
 * Create a new instance and provide a default value.
 * Set an Animated Binding to a Bindable style, in place of a plain value.
-* Later change the value of the Animated Binding with the [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method.
+* Later change the value of the Animated Binding with the [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method.
 
 But they are also different in the following ways:
 
-* [`AnimatedBinding`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md) can only take `number` values, unlike [`Binding`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/Binding.md) which can take any type.
-* There is no `derive()` method on `AnimatedBinding`. Instead, use the more restrictive [`interpolate()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method.
-* As you will see, the [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method can take an `Animation` object to define a smooth and animated transition to the new value.
+* [`AnimatedBinding`](../../Reference/ui/Classes/AnimatedBinding.md) can only take `number` values, unlike [`Binding`](../../Reference/ui/Classes/Binding.md) which can take any type.
+* There is no `derive()` method on `AnimatedBinding`. Instead, use the more restrictive [`interpolate()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method.
+* As you will see, the [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method can take an `Animation` object to define a smooth and animated transition to the new value.
 
 ## Create an animation
 
-When you call the [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method of an Animated Binding with a plain number, like above, the behavior of the Animated Binding is exactly the same as the regular Binding. The UI will be re-rendered with a new value of width, and the change is abrupt without any transition.
+When you call the [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method of an Animated Binding with a plain number, like above, the behavior of the Animated Binding is exactly the same as the regular Binding. The UI will be re-rendered with a new value of width, and the change is abrupt without any transition.
 
-However, for an Animated Binding, you can wrap the new value inside the [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method with an `Animation.timing()` to turn it into an animation that will smoothly transition to the new value:
+However, for an Animated Binding, you can wrap the new value inside the [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method with an `Animation.timing()` to turn it into an animation that will smoothly transition to the new value:
 
 ```
 import { AnimatedBinding, Animation } from 'horizon/ui';
@@ -77,7 +77,7 @@ onClick: () => {
 
 ## Configure an animation
 
-You will notice that without any additional configurations, the animation is using some default duration and easing. You can customize the behavior of the animation by passing a config object to the second parameter of the [`Animation.timing()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Abstract%20Classes/Animation_2.md) function.
+You will notice that without any additional configurations, the animation is using some default duration and easing. You can customize the behavior of the animation by passing a config object to the second parameter of the [`Animation.timing()`](../../Reference/ui/Abstract%20Classes/Animation_2.md) function.
 
 ```
 import { AnimatedBinding, Animation, Easing } from 'horizon/ui';
@@ -89,14 +89,14 @@ onClick: () => width.set(Animation.timing(200, {
 })),
 ```
 
-The [config parameter of withTiming](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/TimingAnimationConfig.md) comes with two properties: `duration` and `easing`.
+The [config parameter of withTiming](../../Reference/ui/Type%20Aliases/TimingAnimationConfig.md) comes with two properties: `duration` and `easing`.
 
 * The `duration` parameter defines how long in milliseconds the animation should take to reach the end value. The default duration is `500` milliseconds.
-* The `easing` parameter lets us fine tune the animation over the specified time. For example, You can make the animation gradually accelerate to full speed and slow down to a stop at the end. The default easing is `Easing.inOut(Easing.ease)`. You can explore more provided [Easing](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/Easing.md) functions in the API Reference.
+* The `easing` parameter lets us fine tune the animation over the specified time. For example, You can make the animation gradually accelerate to full speed and slow down to a stop at the end. The default easing is `Easing.inOut(Easing.ease)`. You can explore more provided [Easing](../../Reference/ui/Classes/Easing.md) functions in the API Reference.
 
 ## Compose animations
 
-[Animations](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Abstract%20Classes/Animation_2.md) can be further customized by modifying them into composite animations. Custom UI provides three built-in modifiers: Delay, Repeat, and Sequence.
+[Animations](../../Reference/ui/Abstract%20Classes/Animation_2.md) can be further customized by modifying them into composite animations. Custom UI provides three built-in modifiers: Delay, Repeat, and Sequence.
 
 You can wrap an animation with `Animation.delay()` to add some suspense before the animation starts. The first parameter defines the duration of the delay in milliseconds.
 
@@ -104,7 +104,7 @@ You can wrap an animation with `Animation.delay()` to add some suspense before t
 onClick: () => width.set(Animation.delay(500, Animation.timing(200))),
 ```
 
-You can wrap an animation with `Animation.repeat()` to replay the same animation over and over again. Before each iteration of the animation, the [Animated Binding](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md) will be reset to the default value when it is created, so that the animation is visually the same for every iteration.
+You can wrap an animation with `Animation.repeat()` to replay the same animation over and over again. Before each iteration of the animation, the [Animated Binding](../../Reference/ui/Classes/AnimatedBinding.md) will be reset to the default value when it is created, so that the animation is visually the same for every iteration.
 
 ```
 onClick: () => width.set(Animation.repeat(Animation.timing(200))),
@@ -142,7 +142,7 @@ onClick: () => width.set(Animation.repeat(
 
 Interpolation allows you to map a value from an input range to an output range using linear interpolation. This is useful when one animation needs to change multiple styles in sync.
 
-For example, suppose you want to change the width of the box from 100px to 200px, and you also want to change its opacity from 1 to 0 and create a fade-out effect. The straightforward way is to create two [Animated Bindings](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md), and call [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) on both of them when you start the animation:
+For example, suppose you want to change the width of the box from 100px to 200px, and you also want to change its opacity from 1 to 0 and create a fade-out effect. The straightforward way is to create two [Animated Bindings](../../Reference/ui/Classes/AnimatedBinding.md), and call [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) on both of them when you start the animation:
 
 ```
 initializeUI() {
@@ -169,7 +169,7 @@ initializeUI() {
 }
 ```
 
-But with [interpolation](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods), you can also do the following:
+But with [interpolation](../../Reference/ui/Classes/AnimatedBinding.md#methods), you can also do the following:
 
 ```
 initializeUI() {
@@ -194,11 +194,11 @@ initializeUI() {
 
 Summary of the code above:
 
-* You know that the width and the opacity always change together. This indicates that you do not need two [Animated Bindings](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md) for each style; you only need to change one Animated Binding.
+* You know that the width and the opacity always change together. This indicates that you do not need two [Animated Bindings](../../Reference/ui/Classes/AnimatedBinding.md) for each style; you only need to change one Animated Binding.
 * You keep the `width` to be the source of truth and animate the width change as before. You pass the Animated Binding `width` to the `width` style.
 * You want to pass the same Animated Binding to the `opacity` style, but before you do, you need to linearly interpolate the `width` value to the desired `opacity` value, so that the start value 100 corresponds to 1, and the end value 200 corresponds to 0.
 
-Sometimes when the animation is too complicated, you might even create a generic Animated Binding that goes from 0 to 1, but do not pass it into any style, and always use [interpolation](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) when you set a style:
+Sometimes when the animation is too complicated, you might even create a generic Animated Binding that goes from 0 to 1, but do not pass it into any style, and always use [interpolation](../../Reference/ui/Classes/AnimatedBinding.md#methods) when you set a style:
 
 ```
 initializeUI() {
@@ -221,7 +221,7 @@ initializeUI() {
 }
 ```
 
-The [`interpolate()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method takes two parameters, the input range and the output range. Both are arrays and must have at least two elements. Input and output range arrays must have the same lengths.
+The [`interpolate()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method takes two parameters, the input range and the output range. Both are arrays and must have at least two elements. Input and output range arrays must have the same lengths.
 
 When an input number is outside of the input range, it will linearly extrapolate beyond the ranges given. When the length of the range arrays is greater than 2, you are telling it to interpolate with multiple range segments. For example:
 
@@ -234,7 +234,7 @@ const output = input.interpolate([-300, -100, 0, 100, 101], [300, 0, 1
 The output range of the interpolation can also take a string or `Color` object array, which will map the Animated Binding number value to string or `Color`. This is extremely useful to animate color and values with units like angles. Obviously there are some limitations on the string format and not all the strings can be interpolated. The supported string formats include:
 
 * Suffixed numbers: Strings being a number with a unit, like `"5.5%"`, `"90deg"`. Make sure there is no space between number and suffix, and all strings in the output range array have the same format. (Arrays like ~~[‘5.5%, ‘90deg’]~~ are not allowed.)
-* Colors: Different color formats can be used in the same array. You can even use [`Color` objects](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Color.md) and string color representations in the same array like `[new Color(1, 0, 0), '#00FFFF']`.
+* Colors: Different color formats can be used in the same array. You can even use [`Color` objects](../../Reference/core/Classes/Color.md) and string color representations in the same array like `[new Color(1, 0, 0), '#00FFFF']`.
 
 With this functionality, you can animate some color change and rotation within the same animation:
 
@@ -250,7 +250,7 @@ View({ style: {
 
 ## Interrupt or stop an animation
 
-Animations have duration and take time to complete. Therefore it is possible to interrupt an animation in progress. One possible scenario is calling [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) again when the previous animation is not completed. The other scenario is explicitly calling the [`stopAnimation()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method of `AnimatedBinding`.
+Animations have duration and take time to complete. Therefore it is possible to interrupt an animation in progress. One possible scenario is calling [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) again when the previous animation is not completed. The other scenario is explicitly calling the [`stopAnimation()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method of `AnimatedBinding`.
 
 ```
 const anim = new AnimatedBinding(0);
@@ -261,13 +261,13 @@ anim.set(Animation.timing(40, {duration: 2000}));
 anim.stopAnimation();
 ```
 
-The [`stopAnimation()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method will stop the current animation, regardless of which animation it is. If there is no animation in progress, the method will have no effect.
+The [`stopAnimation()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method will stop the current animation, regardless of which animation it is. If there is no animation in progress, the method will have no effect.
 
-When an animation is interrupted or stopped, the value of the underlying [AnimatedBinding](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md) simply stays at where it stops, and is not reset. If another animation is started, the animation will start from the stopped value. In the example above, when the first animation is interrupted halfway, the value should be 10; the second animation will then go from 10 to 40. After the second animation is stopped halfway, the value should be 25. As mentioned before, if you really want to specify a start value, you can explicitly call the [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method before starting the animation.
+When an animation is interrupted or stopped, the value of the underlying [AnimatedBinding](../../Reference/ui/Classes/AnimatedBinding.md) simply stays at where it stops, and is not reset. If another animation is started, the animation will start from the stopped value. In the example above, when the first animation is interrupted halfway, the value should be 10; the second animation will then go from 10 to 40. After the second animation is stopped halfway, the value should be 25. As mentioned before, if you really want to specify a start value, you can explicitly call the [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method before starting the animation.
 
 ## Callback when the animation ends
 
-The [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method of [`AnimatedBinding`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md) takes a completion callback `onEnd` that will be triggered when the animation is done. If the animation finishes running normally, the completion callback will be invoked with a `true` value. If the animation is done because it is interrupted or stopped before it could finish, then it will receive a `false` value.
+The [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method of [`AnimatedBinding`](../../Reference/ui/Classes/AnimatedBinding.md) takes a completion callback `onEnd` that will be triggered when the animation is done. If the animation finishes running normally, the completion callback will be invoked with a `true` value. If the animation is done because it is interrupted or stopped before it could finish, then it will receive a `false` value.
 
 The completion callback is useful to implement some side effects after an animation is done, for example, hiding some components that went out of the viewport, updating some other bindings, etc. For example, if you want to change a Text from “Not done” to “Done” after the animation finishes normally, you can have the following:
 
@@ -304,7 +304,7 @@ There is one more caveat. Because TypeScript can run on the server, when one sin
 
 ## Player-specific UI
 
-Similar to [`Binding`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/Binding.md) class can be used to display different content for each player, [`AnimatedBinding`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md) also fully supports [player-specific UI](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md). You can start or stop animation only for certain players, and the concepts of [global value and player value](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md#global-value-vs-player-values) are fully transferable.
+Similar to [`Binding`](../../Reference/ui/Classes/Binding.md) class can be used to display different content for each player, [`AnimatedBinding`](../../Reference/ui/Classes/AnimatedBinding.md) also fully supports [player-specific UI](Player-Specific%20Custom%20UI.md). You can start or stop animation only for certain players, and the concepts of [global value and player value](Player-Specific%20Custom%20UI.md#global-value-vs-player-values) are fully transferable.
 
 ```
 anim.set(
@@ -316,11 +316,11 @@ anim.stopAnimation([player]);
 anim.reset([player]);
 ```
 
-Remember that the [`reset()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method resets the player value back to the [global value](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md#global-value-vs-player-values). It has nothing to do with animations, and cannot take an `Animation` object when resetting. There is no way to reset an animation to the start value. The best you can do is to stop it.
+Remember that the [`reset()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method resets the player value back to the [global value](Player-Specific%20Custom%20UI.md#global-value-vs-player-values). It has nothing to do with animations, and cannot take an `Animation` object when resetting. There is no way to reset an animation to the start value. The best you can do is to stop it.
 
-Also notice that for the [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method of `AnimatedBinding`s, the players array is the third parameter, not the second as in the [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/Binding.md#methods) method for `Binding`s. You have to make room for the completion callback as the second parameter. You might need to pay attention to this difference if you migrate some Bindings into Animated Bindings.
+Also notice that for the [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method of `AnimatedBinding`s, the players array is the third parameter, not the second as in the [`set()`](../../Reference/ui/Classes/Binding.md#methods) method for `Binding`s. You have to make room for the completion callback as the second parameter. You might need to pay attention to this difference if you migrate some Bindings into Animated Bindings.
 
-The completion callback `onEnd` inside the [`set()`](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/AnimatedBinding.md#methods) method can also take a `player` parameter, which indicates the player client that the animation is done on. As mentioned above, because one `set()` call on the server can start multiple animations, one on each client, this completion callback will also be called multiple times, once for each player. Because you are able to stop or interrupt animations for selected players, the `finished` boolean state in each one of those invocations might be different.
+The completion callback `onEnd` inside the [`set()`](../../Reference/ui/Classes/AnimatedBinding.md#methods) method can also take a `player` parameter, which indicates the player client that the animation is done on. As mentioned above, because one `set()` call on the server can start multiple animations, one on each client, this completion callback will also be called multiple times, once for each player. Because you are able to stop or interrupt animations for selected players, the `finished` boolean state in each one of those invocations might be different.
 
 Assume there are 5 players in the session: player1, ..., player5
 
@@ -342,7 +342,7 @@ console.log(results);
 
 ## Functional updates
 
-Regular Bindings support [functional updates](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Building%20dynamic%20custom%20UI.md), and so do Animated Bindings. You can wrap an update function with `Animation.timing()`, just like how you wrap plain numbers.
+Regular Bindings support [functional updates](Building%20dynamic%20custom%20UI.md), and so do Animated Bindings. You can wrap an update function with `Animation.timing()`, just like how you wrap plain numbers.
 
 ```
 // Plain value update
@@ -390,4 +390,4 @@ anim.set(Animation.timing(v => v + 10));
 
 ## What’s next?
 
-Try the tutorial world [Animation effects](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%209%20-%20Animation%20Effects.md).
+Try the tutorial world [Animation effects](../../Tutorials/Custom%20UI%20Examples%20tutorial/Station%209%20-%20Animation%20Effects.md).

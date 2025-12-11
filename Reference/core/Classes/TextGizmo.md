@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_textgizm
 
 # TextGizmo Class
 
-Extends *[Entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md)*
+Extends *[Entity](Entity.md)*
 
 Represents a text label in the world.
 

@@ -2,33 +2,33 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # World leaderboard gizmo
 
-[Leaderboards](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md) is the global system that tracks and displays player rankings based on various criteria such as scores, time spent, or other metrics. The leaderboard feature is key for creating achievement-based experiences in Worlds. The leaderboard system uses [persistent variables](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to maintain player progress across sessions.
+[Leaderboards](../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md) is the global system that tracks and displays player rankings based on various criteria such as scores, time spent, or other metrics. The leaderboard feature is key for creating achievement-based experiences in Worlds. The leaderboard system uses [persistent variables](../Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to maintain player progress across sessions.
 
-The world leaderboard [gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/About%20gizmos.md) is a helper tool that allows creators to place a visual panel, an interface for the leaderboard, to display rankings in the world. In worlds, each leaderboard features a **Share your top score** CTA (call to action) button that allows players to share their score with their friends to drive social competition. This button is automatically added to the leaderboard and cannot be disabled. Shared leaderboard scores render as a media rich asset that features the world name, the user’s score and avatar. Recipients of these shared scores can tap the asset and will be automatically sent into the world.
+The world leaderboard [gizmo](About%20gizmos.md) is a helper tool that allows creators to place a visual panel, an interface for the leaderboard, to display rankings in the world. In worlds, each leaderboard features a **Share your top score** CTA (call to action) button that allows players to share their score with their friends to drive social competition. This button is automatically added to the leaderboard and cannot be disabled. Shared leaderboard scores render as a media rich asset that features the world name, the user’s score and avatar. Recipients of these shared scores can tap the asset and will be automatically sent into the world.
 
-In summary, [leaderboards](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md#systems-tools-menu) use persistent variables to track and display player rankings. The leaderboard gizmo, which is the visual representation, displays this data, while the actual data and logic are managed by the leaderboard system. Persistent variables ensure that the data shown is accurate and up-to-date, reflecting the player’s performance over time.
+In summary, [leaderboards](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Creator%20Tools.md#systems-tools-menu) use persistent variables to track and display player rankings. The leaderboard gizmo, which is the visual representation, displays this data, while the actual data and logic are managed by the leaderboard system. Persistent variables ensure that the data shown is accurate and up-to-date, reflecting the player’s performance over time.
 
 ## Limitations
 
 The number of leaderboards per world that’s allowed is [limited](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#leaderboards). There’s also limitation to the data type that can be displayed.
 
-Additionally, for asset spawning, the leaderboard gizmo is not included. See [Asset spawning reference’s current limitations](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Assets/Asset%20Spawning%20Reference.md#current-limitations-as-of-june-2022).
+Additionally, for asset spawning, the leaderboard gizmo is not included. See [Asset spawning reference’s current limitations](../Desktop%20editor/Assets/Asset%20Spawning%20Reference.md#current-limitations-as-of-june-2022).
 
 ## Access the world leaderboard gizmo
 
-While you can access and configure the gizmos in the [VR tool](/hw-mcp-tools/documentation/hw-docs/VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the world leaderboard gizmo from the desktop editor and add it to the [scene pane](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
+While you can access and configure the gizmos in the [VR tool](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the world leaderboard gizmo from the desktop editor and add it to the [scene pane](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “leaderboard” in the search field.
 - Select the world leaderboard gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [Properties panel](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
+- You can now edit the new gizmo properties in the [Properties panel](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
 ## Properties
 
-The world leaderboard gizmo is an entity. All objects in a world are represented by entities. [Entities](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the Properties panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**. Additionally, like the transformation, [Color](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Color.md) can be edited in the UI panel or controlled through scripting.
+The world leaderboard gizmo is an entity. All objects in a world are represented by entities. [Entities](../Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the Properties panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**. Additionally, like the transformation, [Color](../Reference/core/Classes/Color.md) can be edited in the UI panel or controlled through scripting.
 
 In the **Behavior** section, additional properties are available to customize and manage the leaderboard.
 
-The **Leaderboard** dropdown menu lets you select the [leaderboard](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Creating%20Quests-Leaderboard-Variable%20Groups.md) that you create under **Systems** in the menu bar. This links the leaderboard to the visual display, represented by the gizmo.
+The **Leaderboard** dropdown menu lets you select the [leaderboard](../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Creating%20Quests-Leaderboard-Variable%20Groups.md) that you create under **Systems** in the menu bar. This links the leaderboard to the visual display, represented by the gizmo.
 
 **Displayed Title** lets you name the visual display panel.
 
@@ -42,7 +42,7 @@ For more information on the world leaderboard gizmo properties, see the [MHCP cr
 
 ## Scripting
 
-To set up the script that updates leaderboard results for players in the world, use [ILeaderboards interface](/hw-mcp-tools/documentation/hw-docs/Reference/core/Interfaces/ILeaderboards.md), which is part of the [World class](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/World.md).
+To set up the script that updates leaderboard results for players in the world, use [ILeaderboards interface](../Reference/core/Interfaces/ILeaderboards.md), which is part of the [World class](../Reference/core/Classes/World.md).
 
 ## What’s next?
 
@@ -51,8 +51,8 @@ Now that you’ve been introduced to the world leaderboards gizmo, continue your
 * [Meta Horizon Creator Program’s creator manual on the world leaderboard gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#world-leaderboard-gizmo)
 * [Meta Horizon Creator Program’s creator manual on the leaderboards](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#leaderboards)
 * [Meta Horizon Creator Program’s creator manual on using persistent variables with leaderboards](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#using-a-leaderboard-with-a-player-persistent-variable)
-* [Tutorial worlds on variable groups and persistent variables](/hw-mcp-tools/documentation/hw-docs/Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%201%20-%20Setup.md)
-* [Tutorial worlds on persistent variables](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%207%20-%20Persistent%20Variables.md)
-* [Quests, leaderboards, and variable groups](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
+* [Tutorial worlds on variable groups and persistent variables](../Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%201%20-%20Setup.md)
+* [Tutorial worlds on persistent variables](../Tutorials/Custom%20UI%20Examples%20tutorial/Station%207%20-%20Persistent%20Variables.md)
+* [Quests, leaderboards, and variable groups](../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
 * [Using in-world analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics#levelup)
-* [Meta Horizon Worlds: kudos panel instructions](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Monetization/Meta%20Horizon%20Worlds-%20Kudos%20Panel%20Instructions.md)
+* [Meta Horizon Worlds: kudos panel instructions](../MHCP%20program/Monetization/Meta%20Horizon%20Worlds-%20Kudos%20Panel%20Instructions.md)

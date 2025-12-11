@@ -19,4 +19,4 @@ export declare type LaunchProjectileOptions = {
 
 ## References
 
-[Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)
+[Vec3](../Classes/Vec3.md)

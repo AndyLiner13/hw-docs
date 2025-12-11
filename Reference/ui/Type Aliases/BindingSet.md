@@ -12,4 +12,4 @@ export declare type BindingSet = Set<ValueBindingBase<unknown>>;
 
 ## References
 
-[ValueBindingBase](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Abstract%20Classes/ValueBindingBase.md)
+[ValueBindingBase](../Abstract%20Classes/ValueBindingBase.md)

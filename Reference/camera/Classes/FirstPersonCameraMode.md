@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_firstp
 
 # FirstPersonCameraMode Class
 
-Extends *[ICameraMode](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Interfaces/ICameraMode.md)*
+Extends *[ICameraMode](../Interfaces/ICameraMode.md)*
 
 Manipulates runtime properties of cameras in first person mode, which uses a camera view from the eyes of the player avatar.
 
@@ -14,4 +14,4 @@ export declare class FirstPersonCameraMode implements ICameraMode
 
 ## Remarks
 
-The [Camera.setCameraModeFirstPerson()](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Classes/Camera.md#setcameramodefirstperson) method enables first person camera mode. For more information on setting camera modes at runtime, see the [Camera](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.
+The [Camera.setCameraModeFirstPerson()](Camera.md#setcameramodefirstperson) method enables first person camera mode. For more information on setting camera modes at runtime, see the [Camera](../../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.

@@ -503,7 +503,7 @@ hz.Component.register(NPCWelcomeRobot);
 
 NPCs are able to path through the world using a Navigation Mesh Volume. In the sample world you can observe the Chicken NPC wandering around the Navigation Bounding Box.
 
-Your NPCs are able to path through the world using a [Navigation Mesh Volume](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md). In the NPC Example world, Chicken NPCs can be seen wandering around the Navigation Bounding Box based on the their pathing logic.
+Your NPCs are able to path through the world using a [Navigation Mesh Volume](Navigation%20mesh%20generation.md). In the NPC Example world, Chicken NPCs can be seen wandering around the Navigation Bounding Box based on the their pathing logic.
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/459326773_883524513709142_2055811114306402530_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=uACY1xyc86cQ7kNvwHr5lQc&_nc_oc=AdlKSYq1KvBm5l-Ll-IdVrhT8UC9QI0xK6PmVTOzPcE1u_cOTa6zQfqDsET398xM9QY&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_Afml36RRRX6Aw7hm_u6JWaNH9qH6hzB2XQQ5cJmsT3trCA&oe=693772B6)
 
@@ -738,7 +738,7 @@ hz.Component.register(NPCAndroidWaypoint);
 
 NPCs added to your worlds can also be set as enemies for players in your world. With the following scripts your enemy NPCs can recognize the player, follow them, and attempt to attack.
 
-Players can defend themselves with a weapon like the [Sword](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/NPC%20Scripts.md#swordts) in the example and the NPCs also have hit reaction animations to indicate they’ve taken damage.
+Players can defend themselves with a weapon like the [Sword](NPC%20Scripts.md#swordts) in the example and the NPCs also have hit reaction animations to indicate they’ve taken damage.
 
 [](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/458933021_829251449394537_1287573333970264365_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=AL1R_fzSD1YQ7kNvwET6EyX&_nc_oc=Adlo7h-YqWgGi5aTX_cEz14S2aHHU16AuOe4tbypOxQUU2_CuF2iJfWvXhS42-p9SMs&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_AfmD6KzE9_sLtwTod_uP4a9MrvJopuERdBx_1xsGT2Ugyw&oe=6937713F)
 

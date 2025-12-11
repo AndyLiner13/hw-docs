@@ -16,4 +16,4 @@ export declare type ConditionalProps = {
 
 ## References
 
-[Bindable](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/Bindable.md), [UIChildren](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/UIChildren.md)
+[Bindable](Bindable.md), [UIChildren](UIChildren.md)

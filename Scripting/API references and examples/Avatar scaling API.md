@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 # Avatar scaling API
 
-This topic describes the `avatarScale` property in the [Player](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md) class, which is used to scale avatars. Use cases of this API include creating asymmetrical experiences where some players are larger than others, as well as dynamic changes of players during gameplay.
+This topic describes the `avatarScale` property in the [Player](../../Reference/core/Classes/Player.md) class, which is used to scale avatars. Use cases of this API include creating asymmetrical experiences where some players are larger than others, as well as dynamic changes of players during gameplay.
 
 In the following image of [Kaiju City Showdown](https://horizon.meta.com/world/1279402616789539), the Kaiju player is larger than the rest of players using the API.
 
@@ -20,9 +20,9 @@ The following image shows the avatar is scaled down to jump through the doughnut
 
 ## Prerequisites
 
-* [TypeScript API version 2.0.0 or later](/hw-mcp-tools/documentation/hw-docs/Scripting/Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md).
-* The API is available in [horizon/core/player](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md).
-* [Enable the API module](/hw-mcp-tools/documentation/hw-docs/Scripting/Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md#upgrading-your-world).
+* [TypeScript API version 2.0.0 or later](../Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md).
+* The API is available in [horizon/core/player](../../Reference/core/Classes/Player.md).
+* [Enable the API module](../Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md#upgrading-your-world).
 
 ## Limitations
 
@@ -34,7 +34,7 @@ The recommendation is to change the scale when the avatar teleports to another l
 
 ## Sample code
 
-The following sample shows you how to use the `avatarScale` property in the [Player](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md) class. When the user uses the [right grip action](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/PlayerInputAction.md), the player avatar scale will be increased. When the user uses the [left grip action](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/PlayerInputAction.md), the avatar scale will be decreased. Keep in the mind that the example only iterates between 3 different scales, which are 10%, 100%, and 500%. Additionally, the sample also uses custom input APIs, learn more in the [developer guide](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md) and the [API reference guide](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/PlayerControls.md).
+The following sample shows you how to use the `avatarScale` property in the [Player](../../Reference/core/Classes/Player.md) class. When the user uses the [right grip action](../../Reference/core/Enumerations/PlayerInputAction.md), the player avatar scale will be increased. When the user uses the [left grip action](../../Reference/core/Enumerations/PlayerInputAction.md), the avatar scale will be decreased. Keep in the mind that the example only iterates between 3 different scales, which are 10%, 100%, and 500%. Additionally, the sample also uses custom input APIs, learn more in the [developer guide](../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md) and the [API reference guide](../../Reference/core/Classes/PlayerControls.md).
 
 ```
 import * as hz from 'horizon/core';
@@ -91,5 +91,5 @@ hz.Component.register(SetAvatarScale);
 
 Try more tutorials and follow examples in these topics:
 
-* [Scripting](/hw-mcp-tools/documentation/hw-docs/Scripting/Scripting%20using%20TypeScript.md)
-* [Tutorial worlds](/hw-mcp-tools/documentation/hw-docs/Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md)
+* [Scripting](../Scripting%20using%20TypeScript.md)
+* [Tutorial worlds](../../Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md)

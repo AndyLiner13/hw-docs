@@ -14,8 +14,8 @@ export declare type EventData = {
 
 ## References
 
-[EventValueType](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Type%20Aliases/EventValueType.md)
+[EventValueType](EventValueType.md)
 
 ## Remarks
 
-See [EventValueType](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Type%20Aliases/EventValueType.md) for the available value types.
+See [EventValueType](EventValueType.md) for the available value types.

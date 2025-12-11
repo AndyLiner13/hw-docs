@@ -36,7 +36,7 @@ With highly detailed objects in play, disable the detailed colliders, then wrap 
 
 For best performance, you should attempt to leverage primitive colliders (as shown below). The only exception is for things that you collide with very often/all-the-time may be better as a single, large mesh. Testing can help determine which gives better performance.
 
-This is especially true for worlds that are using [Custom Model Import](/hw-docs/Custom%20models%20(FBX)/Getting%20started%20with%203D%20model%20import.md), as using non-mesh colliders and non-primitive colliders will incur an additional, high, and spiking cost associated with rendering.
+This is especially true for worlds that are using [Custom Model Import](../../Custom%20models%20(FBX)/Getting%20started%20with%203D%20model%20import.md), as using non-mesh colliders and non-primitive colliders will incur an additional, high, and spiking cost associated with rendering.
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452910318_512527614618528_4434551703431817239_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=L80rJWG0BfIQ7kNvwExZc0O&_nc_oc=Adl22uzlZoFN2vcCDB7Cb9vyASWL6e2kVPTpvj_z7uFBzujaDf8cGAvjStMOQLDVoOc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=jmDFHZ5JfpfvNM5nB_wSMg&oh=00_AflSJcm1rDtbhqCSwOdLJF4Uj19rqco9NPAUmS3vNa3I2A&oe=69546E3A)
 
@@ -58,4 +58,4 @@ For best performance, disable triggers far away from the player, in areas like b
 
 ## Collidable property
 
-Entities when using the Scripting API have a [collidable property](https://developers.meta.com/horizon-worlds/resources/scripting-api/core.entity.collidable.md/?api_version=2.0.0) that can be enabled or disabled. In worlds where the physics cost is high, and players are collectively moved to another area such as PvP worlds, consider setting the collidable property to false to turn off the colliders in areas the players aren’t present. Since this is a bridge call, as mentioned in the [CPU and TypeScript optimization and best practices](/hw-docs/Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md#typescript-optimization), ensure these are spread across several frames to reduce any spikes during gameplay.
+Entities when using the Scripting API have a [collidable property](https://developers.meta.com/horizon-worlds/resources/scripting-api/core.entity.collidable.md/?api_version=2.0.0) that can be enabled or disabled. In worlds where the physics cost is high, and players are collectively moved to another area such as PvP worlds, consider setting the collidable property to false to turn off the colliders in areas the players aren’t present. Since this is a bridge call, as mentioned in the [CPU and TypeScript optimization and best practices](CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md#typescript-optimization), ensure these are spread across several frames to reduce any spikes during gameplay.

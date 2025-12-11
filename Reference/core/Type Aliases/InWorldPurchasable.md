@@ -19,4 +19,4 @@ export declare type InWorldPurchasable = {
 
 ## References
 
-[InWorldPurchasablePrice](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/InWorldPurchasablePrice.md)
+[InWorldPurchasablePrice](InWorldPurchasablePrice.md)

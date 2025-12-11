@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 # Tracing
 
-**Note:** You must [enable the Utilities menu](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md) before continuing.
+**Note:** You must [enable the Utilities menu](Enable%20the%20Utilities%20menu.md) before continuing.
 
 Tracing allows you to capture performance data from your world for viewing in Perfetto. Access trace settings and controls by selecting the trace icon ![Trace icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/482030104_666482412556380_2531346198919298275_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=oywvEGyaLLEQ7kNvwG0W1OG&_nc_oc=AdkMLTsu_k8QMc81ioBMxKTlD4BFjE-Hap5tA98l96f092g6S_GjAFImz2ffIuiaoXY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rw1PDooCkHStMH0-9C5Zjg&oh=00_AflxbMHDUgCTwRl4zPpc-LA0mu8OkP9IavQglTXqFSwpNA&oe=694BB77F) from the wrist wearable or the real-time metrics panel (shown below highlighted in red).
 

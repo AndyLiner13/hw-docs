@@ -12,12 +12,12 @@ export declare function EditorText(props: Readonly<EditorTextProps>): UINode<Edi
 
 ## Parameters
 
-props: Readonly<[EditorTextProps](/hw-mcp-tools/documentation/hw-docs/Reference/editor/Type%20Aliases/EditorTextProps.md)>
+props: Readonly<[EditorTextProps](../Type%20Aliases/EditorTextProps.md)>
 
 The props of the component.
 
 ## Returns
 
-UINode<[EditorTextProps](/hw-mcp-tools/documentation/hw-docs/Reference/editor/Type%20Aliases/EditorTextProps.md)>
+UINode<[EditorTextProps](../Type%20Aliases/EditorTextProps.md)>
 
 A that represents the EditorText component.

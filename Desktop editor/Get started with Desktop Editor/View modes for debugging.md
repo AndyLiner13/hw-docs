@@ -20,7 +20,7 @@ Hovering your cursor over each option reveals a description of the view mode. Se
 
 ### Opening in VR
 
-In VR, first [Enable the Utilities Menu](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md), then open your wearable and select the desired view mode.
+In VR, first [Enable the Utilities Menu](../../Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md), then open your wearable and select the desired view mode.
 
 ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75348041_964519652195117_6384169750030954787_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=mkv6sHwIPCAQ7kNvwHMp0vj&_nc_oc=Adm9j_GBOw9pkYHEDpoxNR5GMTGuLT7gQndQ_vuzZQWuqoQitSAo3PRFh9jFkOqI8NQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afn9pmGrF1JJh1pgbf5AnJaZUbNMKXG5f3W2cAoSN-eUxQ&oe=694BBEBA)
 
@@ -33,7 +33,7 @@ In VR, first [Enable the Utilities Menu](/hw-mcp-tools/documentation/hw-docs/Per
 | **Solid wireframe** | - Wireframe over a solid material.   - This option places a solid material underneath the wireframe, it’s useful for displaying objects that are apart and distinguishing which objects are closer to the camera. |
 | **Shaded wireframe** | - Wireframe over the object’s texture.   - Use this view to understand how textures are affected by their underlying mesh geometry and debug texture issues that may be caused by the meshes underneath them.   - **Note:** There is a known bug in the desktop editor where jumping to Preview mode while Shaded Wireframe mode is active causes the player to pass through geometry. |
 | **Collision** | - Shows object colliders.   - Use this view to see which objects have colliders. You can also use this to optimize the performance of a world to disable collisions on objects that players can’t reach, reducing the overall complexity. |
-| **Overdraw** | - Shows pixel overdraw.   - Use this view to see where the same pixels are being drawn more than once in a scene so you can better optimize your world.   - See the [Overdraw view mode](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/View%20modes%20for%20debugging.md#overdraw-view-mode) section for more information. |
+| **Overdraw** | - Shows pixel overdraw.   - Use this view to see where the same pixels are being drawn more than once in a scene so you can better optimize your world.   - See the [Overdraw view mode](View%20modes%20for%20debugging.md#overdraw-view-mode) section for more information. |
 
 ## Keyboard shortcuts
 

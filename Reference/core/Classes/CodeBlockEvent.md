@@ -53,7 +53,7 @@ Component.register(CodeBlockEvent_CB);
 
 **Example 2**
 
-This example demonstrates how to receive a built-in CodeBlock event using the [Component.connectCodeBlockEvent()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Abstract%20Classes/Component.md#connectcodeblockevent) function.
+This example demonstrates how to receive a built-in CodeBlock event using the [Component.connectCodeBlockEvent()](../Abstract%20Classes/Component.md#connectcodeblockevent) function.
 
 ```
 // Import CodeBlockEvents to access Built-in Events.
@@ -83,15 +83,15 @@ Component.register(BuiltInEventExample);
 
 ## Remarks
 
-A code block event is a legacy event that doesn't perform as well as a [local event](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/LocalEvent.md) or a [network event](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/NetworkEvent.md). You should only use the `CodeBlockEvent` class to interact with world scripting events.
-You can create, send, and receive custom code block events, or subscribe to built-in code block events defined in the [CodeBlockEvents](/hw-mcp-tools/documentation/hw-docs/Reference/core/Variables/CodeBlockEvents.md) variable.
-For information about using code block events, see the [Code Block Events](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/CodeBlock%20Events.md) guide.
+A code block event is a legacy event that doesn't perform as well as a [local event](LocalEvent.md) or a [network event](NetworkEvent.md). You should only use the `CodeBlockEvent` class to interact with world scripting events.
+You can create, send, and receive custom code block events, or subscribe to built-in code block events defined in the [CodeBlockEvents](../Variables/CodeBlockEvents.md) variable.
+For information about using code block events, see the [Code Block Events](../../../Scripting/Events/CodeBlock%20Events.md) guide.
 
 ## Constructors
 
 |  |  |
 | --- | --- |
-| **(constructor)(name, expectedTypes)** | Creates a `CodeBlockEvent` object.  ---  Signature  ``` constructor(name: string, expectedTypes: ConstrainedPropTypes<T> | []); ```  Parameters  name: string  The name of the event.  expectedTypes: ConstrainedPropTypes<T> | []  The list of possible event types.  Remarks  Each of these types defines the parameters for the event and must be of type [PropTypes](/hw-mcp-tools/documentation/hw-docs/Reference/core/Variables/PropTypes.md). |
+| **(constructor)(name, expectedTypes)** | Creates a `CodeBlockEvent` object.  ---  Signature  ``` constructor(name: string, expectedTypes: ConstrainedPropTypes<T> | []); ```  Parameters  name: string  The name of the event.  expectedTypes: ConstrainedPropTypes<T> | []  The list of possible event types.  Remarks  Each of these types defines the parameters for the event and must be of type [PropTypes](../Variables/PropTypes.md). |
 
 ## Properties
 

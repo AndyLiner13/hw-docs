@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_baserayc
 
 # BaseRaycastHit type
 
-The base class for the result of a [raycast](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) collision.
+The base class for the result of a [raycast](../Classes/RaycastGizmo.md#raycast) collision.
 
 ## Signature
 
@@ -16,4 +16,4 @@ export declare type BaseRaycastHit = {
 
 ## References
 
-[Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)
+[Vec3](../Classes/Vec3.md)

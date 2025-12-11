@@ -12,4 +12,4 @@ export declare type CallbackMap = Map<string, Callback | CallbackWithPayload>;
 
 ## References
 
-[Callback](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/Callback.md), [CallbackWithPayload](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/CallbackWithPayload.md)
+[Callback](Callback.md), [CallbackWithPayload](CallbackWithPayload.md)

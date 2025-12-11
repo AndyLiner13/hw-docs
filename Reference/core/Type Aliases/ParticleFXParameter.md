@@ -15,4 +15,4 @@ export declare type ParticleFXParameter<T extends VFXParameterType> = {
 
 ## References
 
-[VFXParameterType](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/VFXParameterType.md)
+[VFXParameterType](VFXParameterType.md)

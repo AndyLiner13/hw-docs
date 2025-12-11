@@ -6,7 +6,7 @@ Persistent Variables and Variable Groups allow you to store player-specific nume
 
 Note
 
-The following instructions are specific to VR creation. Information on using persistent variables in the desktop editor can be found [here](/hw-mcp-tools/documentation/hw-docs/Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md#known-issues-and-limitations).
+The following instructions are specific to VR creation. Information on using persistent variables in the desktop editor can be found [here](../../Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md#known-issues-and-limitations).
 
 ## Create a variable group
 

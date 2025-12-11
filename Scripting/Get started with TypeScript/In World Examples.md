@@ -25,7 +25,7 @@ This template world is an expansion of the Code Block Example Scripts template. 
 
 Events enable objects in your world to interact with one another through an attached script. There are several types of events available in Horizon that cover communications across TypeScript and CodeBlock scripts. This template will help you learn about the event types introduced with TypeScript (**Local**, **CodeBlock**, and **Broadcast** events).
 
-The template complements the Horizon events documentation [here](/hw-mcp-tools/documentation/hw-docs/Scripting/Events/Local%20Events.md). This template covers:
+The template complements the Horizon events documentation [here](../Events/Local%20Events.md). This template covers:
 
 * Horizon **Local**, **CodeBlock**, and **Broadcast** events
 * Players present board and text gizmo updates

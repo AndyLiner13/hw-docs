@@ -12,12 +12,12 @@ export declare function EditorButton(props: Readonly<EditorButtonProps>): UINode
 
 ## Parameters
 
-props: Readonly<[EditorButtonProps](/hw-mcp-tools/documentation/hw-docs/Reference/editor/Type%20Aliases/EditorButtonProps.md)>
+props: Readonly<[EditorButtonProps](../Type%20Aliases/EditorButtonProps.md)>
 
 The props of the component.
 
 ## Returns
 
-UINode<[EditorButtonProps](/hw-mcp-tools/documentation/hw-docs/Reference/editor/Type%20Aliases/EditorButtonProps.md)>
+UINode<[EditorButtonProps](../Type%20Aliases/EditorButtonProps.md)>
 
 A that represents the EditorButton component.

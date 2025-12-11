@@ -5,7 +5,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_fix
 > Warning: This API is now obsolete.
 > This module is deprecated and will be removed in a future version.
 
-A [CameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/CameraMovementPreset.md) option that keeps the player avatar in the center of the frame from a fixed position.
+A [CameraMovementPreset](CameraMovementPreset.md) option that keeps the player avatar in the center of the frame from a fixed position.
 
 ## Signature
 

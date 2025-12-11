@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMesh Class
 
-Extends *[INavMesh](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Interfaces/INavMesh.md)*
+Extends *[INavMesh](../Interfaces/INavMesh.md)*
 
 A reference to a navigation mesh instance, which scripts can use to query paths, raycasts, and nearest points. Each NavMesh instance represents a profile already defined in the editor; you can't define or modify profiles at runtime. As such, the NavMesh class is considered read-only.
 
@@ -15,13 +15,13 @@ export declare class NavMesh implements INavMesh
 ## Remarks
 
 There can only be one instance of a given NavMesh for each profile. For example, if multiple scripts retrieve the same reference, their operations are performed on the same NavMesh instance. This ensures your NavMesh reference can be safely passed between elements such as classes and functions.
-For information about usage, see the [NavMesh generation](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/NPCs/Navigation%20mesh%20generation.md) guide.
+For information about usage, see the [NavMesh generation](../../../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md) guide.
 
 ## Constructors
 
 |  |  |
 | --- | --- |
-| **(constructor)(profileData)** | Constructs a new instance of the `NavMesh` class  ---  Signature  ``` constructor(profileData: Partial<NavMeshProfile>); ```  Parameters  profileData: Partial<[NavMeshProfile](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Type%20Aliases/NavMeshProfile.md)> |
+| **(constructor)(profileData)** | Constructs a new instance of the `NavMesh` class  ---  Signature  ``` constructor(profileData: Partial<NavMeshProfile>); ```  Parameters  profileData: Partial<[NavMeshProfile](../Type%20Aliases/NavMeshProfile.md)> |
 
 ## Properties
 
@@ -38,5 +38,5 @@ For information about usage, see the [NavMesh generation](/hw-mcp-tools/document
 
 |  |  |
 | --- | --- |
-| **raycast(startPoint, endPoint)** | Performs a raycast between a start and end position on a navigation mesh.      Signature  ``` raycast(startPoint: Vec3, endPoint: Vec3): NavMeshHit; ```  Parameters  startPoint: Vec3  The start position of the raycast.  endPoint: Vec3  The destination of the raycast.  Returns  [NavMeshHit](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Type%20Aliases/NavMeshHit.md)  Data about the raycast calculation, such as if a collision occurred and the distance from the origin.  Remarks  This raycast is different from a physics ray cast because it works in 2.5D on the navigation mesh. A NavMesh raycast can detect all kinds of navigation obstructions, such as holes in the ground, and can also climb up slopes if the area is navigable. A physics raycast, in comparison, typically travels linearly through 3D space. |
-| **raycast(origin, direction, range)** | Performs a raycast from an origin position that travels in the given direction along the navigation mesh. The ray travels until it has either hit something or reaches the max range.      Signature  ``` raycast(origin: Vec3, direction: Vec3, range: number): NavMeshHit; ```  Parameters  origin: Vec3  The starting position of the raycast.  direction: Vec3  The direction for the raycast to travel in 3D space.  range: number  The maximum distance the raycast should travel.  Returns  [NavMeshHit](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Type%20Aliases/NavMeshHit.md)  Data about the raycast calculation, such as if a collision occurred and the distance from the origin.  Remarks  This raycast is different from a physics ray cast because it works in 2.5D on the navigation mesh. A NavMesh raycast can detect all kinds of navigation obstructions, such as holes in the ground, and can also climb up slopes if the area is navigable. A physics raycast, in comparison, typically travels linearly through 3D space. You can use this function to check if an agent can walk unobstructed between two points on the NavMesh. |
+| **raycast(startPoint, endPoint)** | Performs a raycast between a start and end position on a navigation mesh.      Signature  ``` raycast(startPoint: Vec3, endPoint: Vec3): NavMeshHit; ```  Parameters  startPoint: Vec3  The start position of the raycast.  endPoint: Vec3  The destination of the raycast.  Returns  [NavMeshHit](../Type%20Aliases/NavMeshHit.md)  Data about the raycast calculation, such as if a collision occurred and the distance from the origin.  Remarks  This raycast is different from a physics ray cast because it works in 2.5D on the navigation mesh. A NavMesh raycast can detect all kinds of navigation obstructions, such as holes in the ground, and can also climb up slopes if the area is navigable. A physics raycast, in comparison, typically travels linearly through 3D space. |
+| **raycast(origin, direction, range)** | Performs a raycast from an origin position that travels in the given direction along the navigation mesh. The ray travels until it has either hit something or reaches the max range.      Signature  ``` raycast(origin: Vec3, direction: Vec3, range: number): NavMeshHit; ```  Parameters  origin: Vec3  The starting position of the raycast.  direction: Vec3  The direction for the raycast to travel in 3D space.  range: number  The maximum distance the raycast should travel.  Returns  [NavMeshHit](../Type%20Aliases/NavMeshHit.md)  Data about the raycast calculation, such as if a collision occurred and the distance from the origin.  Remarks  This raycast is different from a physics ray cast because it works in 2.5D on the navigation mesh. A NavMesh raycast can detect all kinds of navigation obstructions, such as holes in the ground, and can also climb up slopes if the area is navigable. A physics raycast, in comparison, typically travels linearly through 3D space. You can use this function to check if an agent can walk unobstructed between two points on the NavMesh. |

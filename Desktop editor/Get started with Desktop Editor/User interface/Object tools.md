@@ -6,17 +6,17 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The object tools in the Desktop Editor provide a set of commonly used tools for building scenes and asset use. Each option provides a menu of different types of tools that you can use for creating your worlds.
 
-For more in-depth information about the object tools, see [Using the Object tools](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Objects/Using%20the%20Object%20Tools.md)
+For more in-depth information about the object tools, see [Using the Object tools](../../Objects/Using%20the%20Object%20Tools.md)
 
 This suite of tools contains the following object tool tyou can use:
 
-* [Select](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#select)
-* [Move](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#move)
-* [Rotate](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#rotate)
-* [Scale](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#scale)
-* [Local and Global Coordinate Systems](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#local-and-global-scripts)
-* [Pivot](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#pivot)
-* [Snapping tools](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#snapping-tools)
+* [Select](Object%20tools.md#select)
+* [Move](Object%20tools.md#move)
+* [Rotate](Object%20tools.md#rotate)
+* [Scale](Object%20tools.md#scale)
+* [Local and Global Coordinate Systems](Object%20tools.md#local-and-global-scripts)
+* [Pivot](Object%20tools.md#pivot)
+* [Snapping tools](Object%20tools.md#snapping-tools)
 
 ## Select
 
@@ -62,11 +62,11 @@ You can use the **Snapping** tools to precisely translate, rotate, and scale obj
 
 The following snapping tools are availabe in the Desktop Editor UI:
 
-* [Translation Grid Snap](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#translation-grid-snap)
-* [Rotation Angle Snap](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#rotation-angle-snap)
-* [Scale Snap](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#scale-snap)
-* [Relative or Absolute Snap](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#relative-or-absolute-snap)
-* [Snap to Surfaces](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#snap-to-surfaces)
+* [Translation Grid Snap](Object%20tools.md#translation-grid-snap)
+* [Rotation Angle Snap](Object%20tools.md#rotation-angle-snap)
+* [Scale Snap](Object%20tools.md#scale-snap)
+* [Relative or Absolute Snap](Object%20tools.md#relative-or-absolute-snap)
+* [Snap to Surfaces](Object%20tools.md#snap-to-surfaces)
 
 ### Translation Grid Snap
 
@@ -109,8 +109,8 @@ Use the **Snap to surfaces** to snap the pivot point of one object to the collid
 
 The **Object tool** suite is part of the collection of tools in the Desktop Editor UI. You can find out more about the UI at:
 
-* [The Desktop Editor user interface](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md)
+* [The Desktop Editor user interface](User%20Interface.md)
 
 You can also try out the editor by working through the the introductory tutorials:
 
-* [Create Your First World Tutorial](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial%20Overview.md)
+* [Create Your First World Tutorial](../../../Get%20started/Create%20your%20first%20world%20tutorial%20Overview.md)

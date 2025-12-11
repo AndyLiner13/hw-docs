@@ -20,4 +20,4 @@ export declare enum AnalyticsSectionGameMode
 
 ## Remarks
 
-To enable sections analytics, see the [ITurboSettings.useSections](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Interfaces/ITurboSettings.md#usesections) property.
+To enable sections analytics, see the [ITurboSettings.useSections](../Interfaces/ITurboSettings.md#usesections) property.

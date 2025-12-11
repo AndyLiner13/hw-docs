@@ -13,15 +13,15 @@ export declare class UINode<T extends UIComponentProps = UIComponentProps>
 ## Remarks
 
 The following functions return `UINode` objects:
-[DynamicList()](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Functions/DynamicList.md)
-[Image\_2()](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Functions/Image_2.md)
-[Pressable()](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Functions/Pressable.md)
-[ScrollView()](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Functions/ScrollView.md)
-[Text\_2()](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Functions/Text_2.md)
-[View()](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Functions/View.md)
+[DynamicList()](../Functions/DynamicList.md)
+[Image\_2()](../Functions/Image_2.md)
+[Pressable()](../Functions/Pressable.md)
+[ScrollView()](../Functions/ScrollView.md)
+[Text\_2()](../Functions/Text_2.md)
+[View()](../Functions/View.md)
 
 ## Methods
 
 |  |  |
 | --- | --- |
-| **if(condition, trueComponent, falseComponent)** static | Conditionally renders the UI element based on the a condition.      Signature  ``` static if(condition: Bindable<boolean>, trueComponent?: UIChildren, falseComponent?: UIChildren): UINode<ConditionalProps>; ```  Parameters  condition: [Bindable](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/Bindable.md)<boolean>  The condition to check. Accepts a boolean or a binding of a boolean.  trueComponent: [UIChildren](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/UIChildren.md)  *(Optional)* The UI element to render when the condition is true. If not provided, nothing is rendered when the condition is true.  falseComponent: [UIChildren](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/UIChildren.md)  *(Optional)* The UI element to render when the condition is false. If not provided, nothing is rendered when the condition is false.  Returns  [UINode](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/UINode.md)<[ConditionalProps](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/ConditionalProps.md)>  A UINode that represents the result of the conditional rendering. Although the return type is a UINode, it is not really a node in the DOM tree. The components in the argument, if rendered, will appear in the DOM tree. |
+| **if(condition, trueComponent, falseComponent)** static | Conditionally renders the UI element based on the a condition.      Signature  ``` static if(condition: Bindable<boolean>, trueComponent?: UIChildren, falseComponent?: UIChildren): UINode<ConditionalProps>; ```  Parameters  condition: [Bindable](../Type%20Aliases/Bindable.md)<boolean>  The condition to check. Accepts a boolean or a binding of a boolean.  trueComponent: [UIChildren](../Type%20Aliases/UIChildren.md)  *(Optional)* The UI element to render when the condition is true. If not provided, nothing is rendered when the condition is true.  falseComponent: [UIChildren](../Type%20Aliases/UIChildren.md)  *(Optional)* The UI element to render when the condition is false. If not provided, nothing is rendered when the condition is false.  Returns  [UINode](UINode.md)<[ConditionalProps](../Type%20Aliases/ConditionalProps.md)>  A UINode that represents the result of the conditional rendering. Although the return type is a UINode, it is not really a node in the DOM tree. The components in the argument, if rendered, will appear in the DOM tree. |

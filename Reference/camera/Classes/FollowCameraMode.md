@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_follow
 
 # FollowCameraMode Class
 
-Extends *[ICameraMode](/hw-mcp-tools/documentation/hw-docs/Reference/camera/Interfaces/ICameraMode.md)*
+Extends *[ICameraMode](../Interfaces/ICameraMode.md)*
 
 Manipulates runtime properties of cameras in Follow mode.
 

@@ -8,7 +8,7 @@ Note
 
 This feature requires Desktop Editor **v239** or higher.
 
-For detailed method signatures, parameters, and return types, see the [Player API Reference](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md).
+For detailed method signatures, parameters, and return types, see the [Player API Reference](../../Reference/core/Classes/Player.md).
 
 ## Locomotion API Methods
 
@@ -16,15 +16,15 @@ The Player class includes these locomotion methods for scripted avatar movement:
 
 | Method | Description |
 | --- | --- |
-| [moveToPosition](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#movetoposition) | Moves the player to a specified position. |
-| [moveToPositions](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#movetopositions) | Moves the player along a path of positions. |
-| [rotateBy](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#rotateby) | Rotates the player by a specified angle in degrees. |
-| [rotateTo](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#rotateto) | Rotates the player to face a specified direction. |
-| [jump](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#jump) | Makes the player jump. |
-| [isJumping](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#isjumping) | True when the player is jumping. |
-| [isMoving](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#ismoving) | True when the player is moving. |
-| [isNavigating](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#isnavigating) | True when the player moves via scripted navigation. |
-| [stopMovement](/hw-mcp-tools/documentation/hw-docs/Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Scripted%20Avatar%20Movement.md#stopmovement) | Stops any movement in progress. |
+| [moveToPosition](Scripted%20Avatar%20Movement.md#movetoposition) | Moves the player to a specified position. |
+| [moveToPositions](Scripted%20Avatar%20Movement.md#movetopositions) | Moves the player along a path of positions. |
+| [rotateBy](Scripted%20Avatar%20Movement.md#rotateby) | Rotates the player by a specified angle in degrees. |
+| [rotateTo](Scripted%20Avatar%20Movement.md#rotateto) | Rotates the player to face a specified direction. |
+| [jump](Scripted%20Avatar%20Movement.md#jump) | Makes the player jump. |
+| [isJumping](Scripted%20Avatar%20Movement.md#isjumping) | True when the player is jumping. |
+| [isMoving](Scripted%20Avatar%20Movement.md#ismoving) | True when the player is moving. |
+| [isNavigating](Scripted%20Avatar%20Movement.md#isnavigating) | True when the player moves via scripted navigation. |
+| [stopMovement](Scripted%20Avatar%20Movement.md#stopmovement) | Stops any movement in progress. |
 
 ### moveToPosition
 
@@ -38,12 +38,12 @@ moveToPosition(position: Vec3, options?: LocomotionOptions): Promise<Locomot
 
 **Parameters**
 
-* `position`: [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md) - The destination position.
-* `options`: [LocomotionOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
+* `position`: [Vec3](../../Reference/core/Classes/Vec3.md) - The destination position.
+* `options`: [LocomotionOptions](../../Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
 
 ### moveToPositions(path, options)
 
@@ -57,12 +57,12 @@ moveToPositions(path: Array<Vec3>, options?: LocomotionOptions): Promise<Loc
 
 **Parameters**
 
-* `path`: Array<[Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)> - An array of positions to follow in order.
-* `options`: [LocomotionOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
+* `path`: Array<[Vec3](../../Reference/core/Classes/Vec3.md)> - An array of positions to follow in order.
+* `options`: [LocomotionOptions](../../Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
 
 ### rotateBy(angle, options)
 
@@ -77,11 +77,11 @@ rotateBy(angle: number, options?: RotationOptions): Promise<LocomotionResult
 **Parameters**
 
 * `angle`: number - The rotation angle in degrees.
-* `options`: [RotationOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
+* `options`: [RotationOptions](../../Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
 
 ### rotateTo(direction, options)
 
@@ -95,12 +95,12 @@ rotateTo(direction: Vec3, options?: RotationOptions): Promise<LocomotionResu
 
 **Parameters**
 
-* `direction`: [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md) - The target facing direction.
-* `options`: [RotationOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
+* `direction`: [Vec3](../../Reference/core/Classes/Vec3.md) - The target facing direction.
+* `options`: [RotationOptions](../../Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
 
 ### jump()
 
@@ -114,7 +114,7 @@ jump(): Promise<LocomotionResult>;
 
 **Returns**
 
-Promise<[LocomotionResult](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when the jump ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when the jump ends.
 
 ### isJumping
 

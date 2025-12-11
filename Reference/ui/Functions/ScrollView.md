@@ -12,12 +12,12 @@ export declare function ScrollView(props: Readonly<ScrollViewProps>): UINode<Scr
 
 ## Parameters
 
-props: Readonly<[ScrollViewProps](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/ScrollViewProps.md)>
+props: Readonly<[ScrollViewProps](../Type%20Aliases/ScrollViewProps.md)>
 
 The props of the ScrollView component.
 
 ## Returns
 
-[UINode](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Classes/UINode.md)<[ScrollViewProps](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/ScrollViewProps.md)>
+[UINode](../Classes/UINode.md)<[ScrollViewProps](../Type%20Aliases/ScrollViewProps.md)>
 
 A `UINode` representing the ScrollView component.

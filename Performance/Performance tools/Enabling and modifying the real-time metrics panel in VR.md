@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 # Enabling and modifying the real-time metrics panel in VR
 
-This topic covers how to access real-time metrics and download performance traces in virtual reality. For information on how to access real-time metrics and download performance traces in web and mobile, see [Using performance tools from web and mobile](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md).
+This topic covers how to access real-time metrics and download performance traces in virtual reality. For information on how to access real-time metrics and download performance traces in web and mobile, see [Using performance tools from web and mobile](Using%20performance%20tools%20from%20web%20and%20mobile.md).
 
-**Note:** The [Utilities menu must be enabled](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md) before continuing.
+**Note:** The [Utilities menu must be enabled](Enable%20the%20Utilities%20menu.md) before continuing.
 
-The **Real-time metrics** panel provides real time performance data for metrics like FPS, CPU, GPU, scripting, and physics. The panel moves as the player moves as it is attached to the player’s space. To see a list of the metrics you can use, see [Real-time Metric Descriptions](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md#real-time-metric-descriptions).
+The **Real-time metrics** panel provides real time performance data for metrics like FPS, CPU, GPU, scripting, and physics. The panel moves as the player moves as it is attached to the player’s space. To see a list of the metrics you can use, see [Real-time Metric Descriptions](Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md#real-time-metric-descriptions).
 
 ## Using the Real-time metrics panel
 
@@ -62,7 +62,7 @@ Press the **Settings button** on the Real-time metrics panel to open the display
 
 Under Graphs, there are checkboxes for the metrics that are available.
 
-Point at the display settings panel and use either joystick to scroll up and down to see even more metrics. Full descriptions of each available metric are in [Real-time Metric Descriptions](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md#real-time-metric-descriptions).
+Point at the display settings panel and use either joystick to scroll up and down to see even more metrics. Full descriptions of each available metric are in [Real-time Metric Descriptions](Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md#real-time-metric-descriptions).
 
 To add a metric to the Real-time settings panel, open the display settings, hover your controller pointer over a metric with an empty check box, and pull the trigger. The metric is added to the panel with a unique color identifier.
 
@@ -84,7 +84,7 @@ In this example, the GPU target is lowered to 2.0 milliseconds, which causes it 
 
 ## Real-time Metric Descriptions
 
-When [Frame Budget Boost](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Learn%20about%20Frame%20Budget%20Boost.md) is enabled, Application Space Warp (ASW) will adaptively turn on to boost performance as long as the world meets a minimum of 45 FPS without hitching (missing multiple frames). When ASW is active, the target will double for several metrics, including CPU and GPU. When not active, the target will return to its original value.
+When [Frame Budget Boost](../../Save,%20optimize,%20and%20publish/Learn%20about%20Frame%20Budget%20Boost.md) is enabled, Application Space Warp (ASW) will adaptively turn on to boost performance as long as the world meets a minimum of 45 FPS without hitching (missing multiple frames). When ASW is active, the target will double for several metrics, including CPU and GPU. When not active, the target will return to its original value.
 
 | **Metric** | **Description** |
 | --- | --- |
@@ -99,8 +99,8 @@ When [Frame Budget Boost](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%
 | Draw calls | All of the render objects in the scene are gathered by the CPU and then sorted. If you have 200 objects in a scene that does not mean you will have 200 draw calls. Objects that share settings (like using the same geometry and material) will be batched together as a single draw call. |
 | Vertices | Records the total number of vertices rendered for a frame. A scene with models that have high number verts in them could negatively impact the GPU render time. |
 | WaitForGPU | This is the time it takes to synchronize the CPU and GPU each time a new frame is started. This metric can be negatively impacted if the GPU was given more work than it could process in a single frame. |
-| Memory | Measures amount of memory currently in use, in MB. This must not exceed the OS-defined limit of 6.25 GiB, so it would be useful to set a lower Target number in order to trigger an alert when you approach the limit. You can keep this metric in check by exercising [Memory Best Practices](/hw-mcp-tools/documentation/hw-docs/Performance/Performance%20best%20practices/Memory%20best%20practices.md). |
-| App Space Warp | [Frame Budget Boost](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Learn%20about%20Frame%20Budget%20Boost.md) must be enabled for ASW to adaptively turn on. A value of 0 means ASW is off, a value of 1 means AWS is on. When ASW is on, the number of milliseconds of work your world can do per-frame is nearly doubled. |
+| Memory | Measures amount of memory currently in use, in MB. This must not exceed the OS-defined limit of 6.25 GiB, so it would be useful to set a lower Target number in order to trigger an alert when you approach the limit. You can keep this metric in check by exercising [Memory Best Practices](../Performance%20best%20practices/Memory%20best%20practices.md). |
+| App Space Warp | [Frame Budget Boost](../../Save,%20optimize,%20and%20publish/Learn%20about%20Frame%20Budget%20Boost.md) must be enabled for ASW to adaptively turn on. A value of 0 means ASW is off, a value of 1 means AWS is on. When ASW is on, the number of milliseconds of work your world can do per-frame is nearly doubled. |
 | Phase Sync | The additional wait time (in milliseconds) added in between frames to ensure your world runs smoothly. Phase sync time is a buffer that shrinks or expands to accommodate CPU load. As CPU time gets longer and closer to the target time to hit 72 FPS (13.8 milliseconds by default, higher if Application Space Warp is on), phase sync time gets shorter. A consistent and long phase sync time means your world is performing well and is able to generate frames faster than the device’s FPS. A phase sync time of 0 ms may indicate your world is running below 72 FPS. |
 
 ### Network metrics
@@ -121,7 +121,7 @@ These metrics track network performance.
 
 ### Custom UI
 
-These metrics relate to the performance of the [custom UI](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Performance%20Metrics%20for%20Custom%20UI.md).
+These metrics relate to the performance of the [custom UI](../../Desktop%20editor/Custom%20UI/Performance%20Metrics%20for%20Custom%20UI.md).
 
 | **Metric** | **Description** |
 | --- | --- |

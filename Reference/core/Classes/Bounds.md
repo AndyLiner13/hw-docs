@@ -14,7 +14,7 @@ export declare class Bounds
 
 |  |  |
 | --- | --- |
-| **(constructor)(center, extents)** | Creates a bounds object.  ---  Signature  ``` constructor(center: Vec3, extents: Vec3); ```  Parameters  center: [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)  The center of the bounds.  extents: [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)  1/2 the size of the bounds. |
+| **(constructor)(center, extents)** | Creates a bounds object.  ---  Signature  ``` constructor(center: Vec3, extents: Vec3); ```  Parameters  center: [Vec3](Vec3.md)  The center of the bounds.  extents: [Vec3](Vec3.md)  1/2 the size of the bounds. |
 
 ## Properties
 
@@ -27,6 +27,6 @@ export declare class Bounds
 
 |  |  |
 | --- | --- |
-| **max()** | Get the position of the maximum corner of the bounds      Signature  ``` max(): Vec3; ```  Returns  [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)  the maximum point of the bounds |
-| **min()** | Get the position of the minimum corner of the bounds      Signature  ``` min(): Vec3; ```  Returns  [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)  the minimum point of the bounds |
-| **size()** | Get the size of the box, which is twice the extents      Signature  ``` size(): Vec3; ```  Returns  [Vec3](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Vec3.md)  The size of the bounding box |
+| **max()** | Get the position of the maximum corner of the bounds      Signature  ``` max(): Vec3; ```  Returns  [Vec3](Vec3.md)  the maximum point of the bounds |
+| **min()** | Get the position of the minimum corner of the bounds      Signature  ``` min(): Vec3; ```  Returns  [Vec3](Vec3.md)  the minimum point of the bounds |
+| **size()** | Get the size of the box, which is twice the extents      Signature  ``` size(): Vec3; ```  Returns  [Vec3](Vec3.md)  The size of the bounding box |

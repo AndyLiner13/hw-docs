@@ -25,7 +25,7 @@ Avoid mixing Trimesh and SubD because doing this will add an unwanted CPU perfor
 
 ### Merge meshes to reduce draw call count
 
-For best performance, you will want to merge world meshes to reduce draw calls. Read the [GPU Best Practices](/hw-docs/Performance/Performance%20best%20practices/GPU%20best%20practices.md) section before deciding which world meshes to merge. Please see the [Horizon World Creator: GPU Performance Best Practices](/hw-docs/Performance/Performance%20best%20practices/GPU%20best%20practices.md) document for more information on merging meshes.
+For best performance, you will want to merge world meshes to reduce draw calls. Read the [GPU Best Practices](Performance%20best%20practices/GPU%20best%20practices.md) section before deciding which world meshes to merge. Please see the [Horizon World Creator: GPU Performance Best Practices](Performance%20best%20practices/GPU%20best%20practices.md) document for more information on merging meshes.
 
 ## Technical art choices
 
@@ -87,7 +87,7 @@ By adding twists and turns to your world, you can limit the amount of objects vi
 
 Each object when rendered will generate its own draw call which can be expensive. Merging meshes allows for a single draw call to render multiple objects and is a very common practice in Meta Horizon Worlds to increase performance.
 
-It is important to merge meshes in such a way to take advantage of frustum culling which ensures that only objects the player is currently seeing are rendered. Please see the [Horizon World Creator: GPU Performance Best Practices](/hw-docs/Performance/Performance%20best%20practices/GPU%20best%20practices.md) document for more information on merging meshes.
+It is important to merge meshes in such a way to take advantage of frustum culling which ensures that only objects the player is currently seeing are rendered. Please see the [Horizon World Creator: GPU Performance Best Practices](Performance%20best%20practices/GPU%20best%20practices.md) document for more information on merging meshes.
 
 ### Avoid creating overly large merged meshes
 
@@ -112,7 +112,7 @@ By placing rooms on top of each other, you can add more space to a world while b
 
 ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452653026_512536551284301_6433487313962794823_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UW0sJo4sJWoQ7kNvwGdfU9g&_nc_oc=Adl7yOJafoHpyOQm5og6-C8O1LdqPK3dCgEQ9RawRweGFggSDx2CJ67P0hNFC-O3pkY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UBvX-SWvW7G7n4a3blz1Cw&oh=00_Afme7WqFpiuOfM8Hr2-DBiZwL3bbdB1fac3D_EI9KCrVkw&oe=69544840)
 
-However, if the player looks down at an angle, all of the objects will still be drawn as they are all within the camera frustum. That is why you want to [set visibility](/hw-docs/Performance/Designing%20a%20performant%20world.md#use-set-visibility-to-hide-objects) to hide objects in rooms that you cannot see.
+However, if the player looks down at an angle, all of the objects will still be drawn as they are all within the camera frustum. That is why you want to [set visibility](Designing%20a%20performant%20world.md#use-set-visibility-to-hide-objects) to hide objects in rooms that you cannot see.
 
 ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452578170_512536594617630_1672393260791108194_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=2uN39GsbIW4Q7kNvwG9i1sx&_nc_oc=AdkTx8Wyo1HxLJalvw1joYycRTB3SJVcRnqFEfxfj-fWiiPBUymkk_11nRaf-PPNe5I&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UBvX-SWvW7G7n4a3blz1Cw&oh=00_AflUrh301fJLowq0RhIzqERGj3pmSHPkB1VK45cn7bFYKQ&oe=69546559)
 
@@ -139,9 +139,9 @@ Long hallways are a design layout we have seen in some worlds. However, when at 
 
 *Separate rooms but all objects are inside the frustum.*
 
-Meta Horizon Worlds has the ability to set visibility on objects. You can design your world in a way that you can’t see the objects in the room you previously came from. As mentioned before, this can be done with [twists and turns](/hw-docs/Performance/Designing%20a%20performant%20world.md#designing-world-layouts-for-performance) , but another method is to add doors that close behind you.
+Meta Horizon Worlds has the ability to set visibility on objects. You can design your world in a way that you can’t see the objects in the room you previously came from. As mentioned before, this can be done with [twists and turns](Designing%20a%20performant%20world.md#designing-world-layouts-for-performance) , but another method is to add doors that close behind you.
 
-Using a trigger, you can determine the moment you can no longer see the previous room and set visibility off for those objects. That way, even if the user turns around, these objects will not go through the render pipeline. Similarly, you can avoid having objects visible that you can’t see yet because they are blocked. You can block the line of sight [vertically](/hw-docs/Performance/Designing%20a%20performant%20world.md#technical-art-choices) by using elevators or shafts that go either up or down.
+Using a trigger, you can determine the moment you can no longer see the previous room and set visibility off for those objects. That way, even if the user turns around, these objects will not go through the render pipeline. Similarly, you can avoid having objects visible that you can’t see yet because they are blocked. You can block the line of sight [vertically](Designing%20a%20performant%20world.md#technical-art-choices) by using elevators or shafts that go either up or down.
 
 ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452592371_512536577950965_9036878834909609726_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ogRwncyIpf0Q7kNvwGMmzJb&_nc_oc=AdlouZ7TYrRYTepGd9J0U-qG9pddnf0KKDqJBV8yueyhb2Tc8iH202HZiWMCY-G0OU0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UBvX-SWvW7G7n4a3blz1Cw&oh=00_Afmq_sr6lRg40wmJGLqZOV2jUBBQgwMMZSQv7Csdwz9lxA&oe=695441DF)
 
@@ -191,13 +191,13 @@ It is recommended to build your world as a gameplay only MVP first, avoiding det
 
 ### Capacity Settings
 
-Meta Horizon Worlds has a built in way to view the complexity of your world. Check this to see where your current world may be using too many resources. See the [Capacity Settings](https://www.oculus.com/horizon-worlds/learn/tutorial/capacity-settings/) documentation on the Oculus website for info on how to see the capacity settings. See the [Creator capacity limits in Meta Horizon Worlds](/hw-docs/Save,%20optimize,%20and%20publish/Creator%20capacity%20limits.md) for how to interpret the various information presented on that screen.
+Meta Horizon Worlds has a built in way to view the complexity of your world. Check this to see where your current world may be using too many resources. See the [Capacity Settings](https://www.oculus.com/horizon-worlds/learn/tutorial/capacity-settings/) documentation on the Oculus website for info on how to see the capacity settings. See the [Creator capacity limits in Meta Horizon Worlds](../Save,%20optimize,%20and%20publish/Creator%20capacity%20limits.md) for how to interpret the various information presented on that screen.
 
 ### Consider avatar count
 
 A world that supports 1 avatar and a world that supports 15 avatars have vastly different limitations. The world with 15 avatars may use up to 6 ms more per frame than the world with 1 avatar. This will eat into your world’s time budget (CPU and GPU). This means the more avatars your world supports the less detailed graphically your world will need to be to remain performant.
 
-The [Performance Limits for a World](/hw-docs/Performance/Performance%20limits%20for%20a%20World.md)
+The [Performance Limits for a World](Performance%20limits%20for%20a%20World.md)
 
 document will help you decide the parameters of your world budget. Even though the document says a more static world may be able to have 1 million polygons, it does not take into account the avatar count, world layout, or which meshes you merge which can impact this number dramatically.
 
@@ -209,8 +209,8 @@ This means if you have 16 players and they all use the same weapon with the same
 
 ## Use the simplest materials possible
 
-Choosing the simplest materials will yield the best performance. The [Materials Guidance and Reference for Custom Models](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md) document has a list of materials to choose from. Generally, a material that samples less textures is more performant. Materials using vertex colors only or textures only will perform better than materials with advanced metalness calculations. The differences between materials becomes the most obvious on objects that either take up a large portion of the screen visually or have an extreme amount of vertices.
+Choosing the simplest materials will yield the best performance. The [Materials Guidance and Reference for Custom Models](../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md) document has a list of materials to choose from. Generally, a material that samples less textures is more performant. Materials using vertex colors only or textures only will perform better than materials with advanced metalness calculations. The differences between materials becomes the most obvious on objects that either take up a large portion of the screen visually or have an extreme amount of vertices.
 
 ## Follow best practices
 
-As you can see, there are many things that will use up the limited CPU and GPU time available to your world. Because of this, it is important to squeeze every ounce of performance from every feature of your world. To that end, you will want to read the [Horizon World Creator Performance Best Practices](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Best%20practices%20for%20custom%20models.md) document which shows how to avoid all of those common performance issues we have found across many worlds that we have reviewed.
+As you can see, there are many things that will use up the limited CPU and GPU time available to your world. Because of this, it is important to squeeze every ounce of performance from every feature of your world. To that end, you will want to read the [Horizon World Creator Performance Best Practices](../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Best%20practices%20for%20custom%20models.md) document which shows how to avoid all of those common performance issues we have found across many worlds that we have reviewed.

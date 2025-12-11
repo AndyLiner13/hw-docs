@@ -14,7 +14,7 @@ export declare class Transform
 
 |  |  |
 | --- | --- |
-| **(constructor)(entity)** | Constructs a new instance of the `Transform` class.  ---  Signature  ``` constructor(entity: Entity); ```  Parameters  entity: [Entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md)  The entity to transform. |
+| **(constructor)(entity)** | Constructs a new instance of the `Transform` class.  ---  Signature  ``` constructor(entity: Entity); ```  Parameters  entity: [Entity](Entity.md)  The entity to transform. |
 
 ## Properties
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_tas
 
 # TaskStartPayload type
 
-A payload sent by the `OnTaskStart` [event](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Variables/TurboEvents.md).
+A payload sent by the `OnTaskStart` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

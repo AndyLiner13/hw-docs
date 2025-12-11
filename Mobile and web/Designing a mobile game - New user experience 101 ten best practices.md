@@ -18,7 +18,7 @@ The NUX encompasses more than a tutorial. It’s how you introduce your game and
 
 # NUX begins with discovery
 
-A good NUX begins at the point of discovery. When a player is looking for an experience to explore in Worlds, they will either discover you through the first page of the Meta Horizon app or by searching by name. Therefore, you must be mindful of how your icon, key art, name, and descriptions display on mobile, as all of these elements communicate what players can expect from your experience. It’s also advisable to keep load times reasonable, as longer waits may drive them away. Refer to our [Intro to Worlds Discovery article](/hw-mcp-tools/documentation/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md) for more best practices on presenting your game.
+A good NUX begins at the point of discovery. When a player is looking for an experience to explore in Worlds, they will either discover you through the first page of the Meta Horizon app or by searching by name. Therefore, you must be mindful of how your icon, key art, name, and descriptions display on mobile, as all of these elements communicate what players can expect from your experience. It’s also advisable to keep load times reasonable, as longer waits may drive them away. Refer to our [Intro to Worlds Discovery article](../Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md) for more best practices on presenting your game.
 
 ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581367873_863747082829911_4158166952519410995_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=cTIPyE-TCRkQ7kNvwFR5dLZ&_nc_oc=Adl0eqJd68SPwIQnqCy6n58OKMGu5ZZUAcVZkjWO9P_9pGdWsrXvpyZb_iJh-G4GQc8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ma53fVUf4uSH19cSy5l4WQ&oh=00_AfmRINs_piaxlbqxjBy4GeL0n07RVff7FX_d2KQC0d8JmQ&oe=694BE64A)
 
@@ -86,10 +86,10 @@ Instead, most mobile games introduce new mechanics or game modes during early le
 
 The next article in this series will focus on ten best practices for your new user experience. By mastering these fundamentals, you can build a NUX that is deeply engaging for your players.
 
-Consider checking out the [showInfoSlides API Tutorial Manager](/hw-mcp-tools/documentation/hw-docs/Tutorials/New%20User%20Experience%20tutorial/Module%202%20-%20Tutorial%20Manager.md) for Horizon Worlds. It is a popup system at launch where creators can put images and texts into a short slide show of instructions for their NUX.
+Consider checking out the [showInfoSlides API Tutorial Manager](../Tutorials/New%20User%20Experience%20tutorial/Module%202%20-%20Tutorial%20Manager.md) for Horizon Worlds. It is a popup system at launch where creators can put images and texts into a short slide show of instructions for their NUX.
 
-Additionally, you can check out an entire Tutorial World we created as reference content on how to make in-world NUXes for more advanced creators. Go [here](/hw-mcp-tools/documentation/hw-docs/Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md) to see the tutorial world.
+Additionally, you can check out an entire Tutorial World we created as reference content on how to make in-world NUXes for more advanced creators. Go [here](../Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md) to see the tutorial world.
 
 ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580482029_863747116163241_3947661849111246645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=h4u2HnIFDtUQ7kNvwFpUSNM&_nc_oc=Adm9Wr04PxCQltmV-eZeRcHD_zg4SwQN3jXKnHOm6Z1w7ge6LKrPW_KztxDB5mu7wZM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ma53fVUf4uSH19cSy5l4WQ&oh=00_AfnKq2PDupsnFZuL5udkZVMPK7uUNqJ7pkfZWGPk9JzhOA&oe=694BD670)
 
-*Visit our Tutorial World [here](/hw-mcp-tools/documentation/hw-docs/Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md) to get a sense of how a tutorial system in Worlds works.*
+*Visit our Tutorial World [here](../Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md) to get a sense of how a tutorial system in Worlds works.*

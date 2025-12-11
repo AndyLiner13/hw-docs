@@ -16,7 +16,7 @@ If a button or a pressable component is placed within a screen overlay view and 
 
 ### Screen mode & VR
 
-When you create an elaborate screen overlay for 2D platforms (i.e. mobile or desktop) and attempt to adapt it for VR, although the UI renders correctly without any issues, the layout experience doesn’t match that of 2D platforms. This is because VR lacks a specific screen dimension for [laying out custom UI views](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/LayoutStyle.md).
+When you create an elaborate screen overlay for 2D platforms (i.e. mobile or desktop) and attempt to adapt it for VR, although the UI renders correctly without any issues, the layout experience doesn’t match that of 2D platforms. This is because VR lacks a specific screen dimension for [laying out custom UI views](../../Reference/ui/Type%20Aliases/LayoutStyle.md).
 
 Through experimentation a canvas is created for VR, measuring 800px by 600px with a depth of 1 unit, which acts as a transparent overlay. This enables you to build or integrate any custom UI view into this canvas, allowing you to customize it according to your design needs and requirements.
 
@@ -26,13 +26,13 @@ Based on the above information, you’ll notice that the screen overlay feature 
 
 ### Create a screen overlay from scratch
 
-- When you [create a UI with the **Custom UI** gizmo](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md#step-1-create-a-custom-ui-gizmo), find the [**Display Mode** property](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Custom%20UI%20panel%20configurations.md) under **Visual & Interaction** on the **Properties** panel.
+- When you [create a UI with the **Custom UI** gizmo](Create%20a%20custom%20UI%20panel.md#step-1-create-a-custom-ui-gizmo), find the [**Display Mode** property](Custom%20UI%20panel%20configurations.md) under **Visual & Interaction** on the **Properties** panel.
 
   ![The Visual and Interaction section on the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487875307_686297440574877_2174095531124152284_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=aQFjVQp2HPsQ7kNvwGuT96P&_nc_oc=AdmwvApOdrZxV-JJD9mHrg1QNMdmBraYQkXN18VZtJvyDkA7hWGFbYuSIO5BI6XrTy8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iHat57xGnX744d6LfNrQ7g&oh=00_AflV3vA2pOfnK7n96gzqzw1kN5C_-h4F4gpVWusZB_DH5Q&oe=694BBC48)
 - Switch the **Display Mode** to **Screen Overlay**.
 - Next, write Typescript code to craft a screen overlay UI that aligns with your design.
-- Ensure that the outermost view container includes the [position: “absolute” property](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Type%20Aliases/LayoutStyle.md).
-- Be aware that the panelHeight and panelWidth properties of the [UIComponent class](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Abstract%20Classes/UIComponent.md) are not applicable when creating a screen overlay custom UI. Instead, use CSS styling to define the height and width of the view. The remaining part of the full screen will be completely transparent.
+- Ensure that the outermost view container includes the [position: “absolute” property](../../Reference/ui/Type%20Aliases/LayoutStyle.md).
+- Be aware that the panelHeight and panelWidth properties of the [UIComponent class](../../Reference/ui/Abstract%20Classes/UIComponent.md) are not applicable when creating a screen overlay custom UI. Instead, use CSS styling to define the height and width of the view. The remaining part of the full screen will be completely transparent.
 - Finally, customize the layout of the view container. For example, you can set `left: 0` and `bottom: 0`.
 
 Pseudocode:
@@ -63,7 +63,7 @@ If you already have custom UI panels in your testing world, notice the **Display
 
 While it’s possible to change this property to **Screen Overlay** to transform a spatial UI into a screen overlay, it’s not the recommended approach for several reasons:
 
-* The panelHeight and panelWidth properties of the [UIComponent](/hw-mcp-tools/documentation/hw-docs/Reference/ui/Abstract%20Classes/UIComponent.md) class are not applicable in a screen overlay custom UI.
+* The panelHeight and panelWidth properties of the [UIComponent](../../Reference/ui/Abstract%20Classes/UIComponent.md) class are not applicable in a screen overlay custom UI.
 * On the web and mobile platforms, the entire full screen is used as a canvas. This necessitates the defining of the custom UI height and width using CSS styling.
 * Due to the above two points, `position: "absolute"` is required in the component-level view container.
 
@@ -101,7 +101,7 @@ Now that you have created these two screen overlays, you can see two UI layouts 
 
 ### Player-specific screen overlay
 
-Similar to spatial custom UI, you’re using the `Binding` class to display content for players which means you can display different screen overlay content to different for each player. Custom UI screen overlay also fully supports [player-specific UI](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md).
+Similar to spatial custom UI, you’re using the `Binding` class to display content for players which means you can display different screen overlay content to different for each player. Custom UI screen overlay also fully supports [player-specific UI](Player-Specific%20Custom%20UI.md).
 
 ## Control visibility of screen overlay
 
@@ -110,7 +110,7 @@ Similar to spatial custom UI, you’re using the `Binding` class to display cont
 The visibility of the screen overlay can be managed through the entity’s visible property. This can be achieved in two ways:
 
 - Switch on the **Visible** property under **Behavior** in the **Properties** panel.
-- Utilize the [TypeScript APIs](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md#properties):
+- Utilize the [TypeScript APIs](../../Reference/core/Classes/Entity.md#properties):
   * `uiEntity.visible.set`
   * `uiEntity.setVisibilityForPlayers`
 
@@ -124,4 +124,4 @@ In certain scenarios, you may observe that the UI aligns well on web and mobile 
 
 ## What’s next?
 
-Try the tutorial world on [non-interactive screen overlay](/hw-mcp-tools/documentation/hw-docs/Tutorials/Custom%20UI%20Examples%20tutorial/Station%2010%20-%20Timer%20and%20Build%20Info%20Overlays.md).
+Try the tutorial world on [non-interactive screen overlay](../../Tutorials/Custom%20UI%20Examples%20tutorial/Station%2010%20-%20Timer%20and%20Build%20Info%20Overlays.md).

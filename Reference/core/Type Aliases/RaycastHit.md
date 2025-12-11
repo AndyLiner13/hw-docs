@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycasth
 
 # RaycastHit type
 
-The result of a [raycast](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/RaycastGizmo.md#raycast) collision.
+The result of a [raycast](../Classes/RaycastGizmo.md#raycast) collision.
 
 ## Signature
 
@@ -12,4 +12,4 @@ export declare type RaycastHit = StaticRaycastHit | EntityRaycastHit | PlayerRay
 
 ## References
 
-[StaticRaycastHit](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/StaticRaycastHit.md), [EntityRaycastHit](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/EntityRaycastHit.md), [PlayerRaycastHit](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/PlayerRaycastHit.md)
+[StaticRaycastHit](StaticRaycastHit.md), [EntityRaycastHit](EntityRaycastHit.md), [PlayerRaycastHit](PlayerRaycastHit.md)

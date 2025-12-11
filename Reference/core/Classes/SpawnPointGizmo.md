@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawnpoi
 
 # SpawnPointGizmo Class
 
-Extends *[Entity](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Entity.md)*
+Extends *[Entity](Entity.md)*
 
 A Spawn Point gizmo, which you can use to teleport players to a location in a world using a fade-out/fade-in transition.
 
@@ -14,7 +14,7 @@ export declare class SpawnPointGizmo extends Entity
 
 ## Remarks
 
-For more information about using the Spawn Point gizmo, see [Spawn Points](/hw-mcp-tools/documentation/hw-docs/Tutorials/TypeScript%20Multiplayer%20Lobby%20tutorial/Module%205%20-%20Entering%20the%20Match.md) guide.
+For more information about using the Spawn Point gizmo, see [Spawn Points](../../../Tutorials/TypeScript%20Multiplayer%20Lobby%20tutorial/Module%205%20-%20Entering%20the%20Match.md) guide.
 
 ## Properties
 
@@ -27,5 +27,5 @@ For more information about using the Spawn Point gizmo, see [Spawn Points](/hw-m
 
 |  |  |
 | --- | --- |
-| **teleportPlayer(player)** | Teleports a player to the spawn point.      Signature  ``` teleportPlayer(player: Player): void; ```  Parameters  player: [Player](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md)  The player to teleport.  Returns  void |
+| **teleportPlayer(player)** | Teleports a player to the spawn point.      Signature  ``` teleportPlayer(player: Player): void; ```  Parameters  player: [Player](Player.md)  The player to teleport.  Returns  void |
 | **toString()** | Creates a human-readable representation of the SpawnPointGizmo.      Signature  ``` toString(): string; ```  Returns  string  A string representation of the `SpawnPointGizmo`. |

@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 Join us as our Meta game design expert Andy Sargeant as he answers your questions related to his recent session on game design in Meta Horizon Worlds.
 
-If you want to see more, please watch [the Game Design in Meta Horizon Worlds Live Session](/hw-mcp-tools/documentation/hw-docs/MHCP%20program/Focus%20sessions/Connect%20'23%20Video%20Series-%20Game%20Design%20in%20Meta%20Horizon%20Worlds.md) here.
+If you want to see more, please watch [the Game Design in Meta Horizon Worlds Live Session](../Focus%20sessions/Connect%20'23%20Video%20Series-%20Game%20Design%20in%20Meta%20Horizon%20Worlds.md) here.
 
 Timestamps:
 

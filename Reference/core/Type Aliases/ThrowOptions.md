@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_throwopt
 
 # ThrowOptions type
 
-Options for customising the effect of calling the [Player.throwHeldItem()](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md#throwhelditem) method.
+Options for customising the effect of calling the [Player.throwHeldItem()](../Classes/Player.md#throwhelditem) method.
 
 ## Signature
 
@@ -18,7 +18,7 @@ export declare type ThrowOptions = {
 
 ## References
 
-[Handedness](/hw-mcp-tools/documentation/hw-docs/Reference/core/Enumerations/Handedness.md)
+[Handedness](../Enumerations/Handedness.md)
 
 ## Remarks
 

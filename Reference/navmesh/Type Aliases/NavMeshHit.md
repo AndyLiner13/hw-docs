@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMeshHit type
 
-The collision data returned when a raycast is performed on a [NavMesh](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Classes/NavMesh.md) object by the method.
+The collision data returned when a raycast is performed on a [NavMesh](../Classes/NavMesh.md) object by the method.
 
 ## Signature
 
@@ -18,7 +18,7 @@ export declare type NavMeshHit = {
 
 ## References
 
-[INavMesh](/hw-mcp-tools/documentation/hw-docs/Reference/navmesh/Interfaces/INavMesh.md)
+[INavMesh](../Interfaces/INavMesh.md)
 
 ## Remarks
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_sec
 
 # SectionEndPayload type
 
-A payload sent by the `OnSectionEnd` [event](/hw-mcp-tools/documentation/hw-docs/Reference/analytics/Variables/TurboEvents.md).
+A payload sent by the `OnSectionEnd` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

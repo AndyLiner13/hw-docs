@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_defaultp
 
 # DefaultPopupOptions Variable
 
-The default options for showing a popup when using the [PopupOptions](/hw-mcp-tools/documentation/hw-docs/Reference/core/Type%20Aliases/PopupOptions.md) type.
+The default options for showing a popup when using the [PopupOptions](../Type%20Aliases/PopupOptions.md) type.
 
 ## Signature
 

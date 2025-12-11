@@ -14,11 +14,11 @@ When designing for portrait orientation on mobile devices, the available screen 
 
 When testing your world’s UI for portrait orientation:
 
-- Use the [**Preview Configuration**](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options to ensure safe zones are kept clear to avoid overlapping UI.
+- Use the [**Preview Configuration**](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options to ensure safe zones are kept clear to avoid overlapping UI.
 - Consider how UI elements stack vertically rather than horizontally in portrait mode.
 - Test with different device models to account for various screen aspect ratios and safe areas.
 
-**Note:** You can configure different camera parameters for portrait and landscape orientations using the [spawn point gizmo](/hw-mcp-tools/documentation/hw-docs/Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) to optimize the visual experience for each orientation.
+**Note:** You can configure different camera parameters for portrait and landscape orientations using the [spawn point gizmo](../../Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) to optimize the visual experience for each orientation.
 
 * ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452615758_512532801284676_8886395584801346512_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Z9KvVTR0hp0Q7kNvwFBtCMv&_nc_oc=AdneMuTZj3yNkxio2fgH1--QVcDpoMwJSlJccDicpo7xuwJjokro0reKMG5aWZmZqAA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=70WifFt7K1vSn0XSi4k6bQ&oh=00_AfkSo2-ZT-MRcYQPPd1QEUoANz28uUaGwCwtK4r2gEqCug&oe=694BE0C4) Unobstructed.
 * ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452883040_512532784618011_112216473924849842_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=mu1StMsY9_EQ7kNvwHKPaWJ&_nc_oc=Adm_idy8jp5w77t0ZX_KK2UgBQoiR3MoANxalI-AlzWpPYnoMGMhw7UlSJAkcQZWK94&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=70WifFt7K1vSn0XSi4k6bQ&oh=00_AfkdGKCFzDSzva1y8UYZ1QMR0C59fW_9Tc8TaBhUjoJILA&oe=694BE8B3) Potentially obstructed.

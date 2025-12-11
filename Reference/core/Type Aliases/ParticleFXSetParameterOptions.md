@@ -14,4 +14,4 @@ export declare type ParticleFXSetParameterOptions = {
 
 ## References
 
-[Player](/hw-mcp-tools/documentation/hw-docs/Reference/core/Classes/Player.md)
+[Player](../Classes/Player.md)

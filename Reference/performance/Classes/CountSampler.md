@@ -3,7 +3,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_c
 # CountSampler Class
 
 > Warning: This API is now obsolete.
-> Use [HorizonCountSampler](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonCountSampler.md) instead.
+> Use [HorizonCountSampler](HorizonCountSampler.md) instead.
 
 This class is deprecated.
 
@@ -27,4 +27,4 @@ Creates a sampler that can be used to record an event for focusing on the event 
 
 |  |  |
 | --- | --- |
-| **count(amount)** | Warning: This API is now obsolete. Use [HorizonCountSampler.count()](/hw-mcp-tools/documentation/hw-docs/Reference/performance/Classes/HorizonCountSampler.md#count) instead. This method is deprecated.      Signature  ``` count(amount: number): void; ```  Parameters  amount: number  Returns  void |
+| **count(amount)** | Warning: This API is now obsolete. Use [HorizonCountSampler.count()](HorizonCountSampler.md#count) instead. This method is deprecated.      Signature  ``` count(amount: number): void; ```  Parameters  amount: number  Returns  void |

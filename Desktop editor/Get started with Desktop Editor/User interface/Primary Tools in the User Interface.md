@@ -8,12 +8,12 @@ A variety of primary tools can be found on the Meta Horizon Worlds Desktop Edito
 
 This set of tools contains the following options:
 
-- [The Main menu](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#the-main-menu)
-- [Microphone](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#microphone)
-- [Development mode](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#development-mode)
-- [Publish button](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#publish-button)
-- [Camera speed controls](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#camera-speed-controls)
-- [World simulation toggle](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Primary%20Tools%20in%20the%20User%20Interface.md#world-simulation-toggle)
+- [The Main menu](Primary%20Tools%20in%20the%20User%20Interface.md#the-main-menu)
+- [Microphone](Primary%20Tools%20in%20the%20User%20Interface.md#microphone)
+- [Development mode](Primary%20Tools%20in%20the%20User%20Interface.md#development-mode)
+- [Publish button](Primary%20Tools%20in%20the%20User%20Interface.md#publish-button)
+- [Camera speed controls](Primary%20Tools%20in%20the%20User%20Interface.md#camera-speed-controls)
+- [World simulation toggle](Primary%20Tools%20in%20the%20User%20Interface.md#world-simulation-toggle)
 
 ![The main menu showing a list of options](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/492970509_705021532035801_7221415493077928442_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=S7pqq8XMZoEQ7kNvwEmdItW&_nc_oc=Adka6B9ySYQ46Eq2we8y1ZEIdUbQLO0fokFY2iNMFaKbZv_jPH27Gd067Hl5Rx08ny4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QrDN0P3Zhxi4PO2RJrX_Dw&oh=00_AfnCagiqyBBMnBk_P4eMo5AZN-l2ffxZ9W410rSBJqsQ5w&oe=694BD4FD)
 
@@ -49,7 +49,7 @@ The Desktop Editor provides you with a large palette of tools to work with, occa
 
 The final step in releasing your world to players is to publish it. To release your world click the **Publish** button.
 
-For more information, see [Publish Your World](/hw-docs/VR%20tools/Publish%20your%20world%20using%20VR%20tools.md).
+For more information, see [Publish Your World](../../../VR%20tools/Publish%20your%20world%20using%20VR%20tools.md).
 
 ## World simulation toggle
 
@@ -65,9 +65,9 @@ Clicking the toggle again will turn world simulation off and revert the toggle b
 
 The selection of primary tools is part of the suite of tools in the Desktop Editor UI. For more details about the User interface, see
 
-* [The Desktop Editor user interface](/hw-mcp-tools/documentation/hw-docs/Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md)
+* [The Desktop Editor user interface](User%20Interface.md)
 
 You can explore the editor by working through the following beginner tutorials below:
 
-* [Create Your First World](/hw-mcp-tools/documentation/hw-docs/Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
-* [Batting Cage Tutorial](/hw-mcp-tools/documentation/hw-docs/Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)
+* [Create Your First World](../../../Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
+* [Batting Cage Tutorial](../../../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)
