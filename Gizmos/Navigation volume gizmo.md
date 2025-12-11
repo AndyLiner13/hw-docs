@@ -26,8 +26,8 @@ You can also use the [NavMesh TypeScript API](../Reference/navmesh/Classes/NavMe
 
 Now that you’ve been introduced to the navigation volume gizmo, further your learning with tutorials and related developer guides:
 
-* [Tutorial worlds on navigation volumes](../Tutorials/Chop%20'n%20Pop%20sample%20world/Module%2010%20-%20NPC%20System.md)
-* [Tutorial worlds on scripted avatar NPC](../Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%202%20-%20Overview%20of%20Scripted%20Avatar%20NPCs.md#navigation-and-locomotion)
+* [Tutorial worlds on navigation volumes](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-10-npc-system)
+* [Tutorial worlds on scripted avatar NPC](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-2-overview#navigation-and-locomotion)
 * [Get started with scripted avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs)
 * [Build Navigation for Scripted Avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/build-navigation-for-scripted-avatar-npcs)
 * [Meta Horizon Creator Program’s creator manual on the navigation volume gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#navigation-volume)

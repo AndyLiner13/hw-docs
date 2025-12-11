@@ -32,7 +32,7 @@ This has the following implications:
 * Features of the desktop editor that apply to File Backed Scripts worlds are not available when you open these worlds. For example, in the context menu for a script in the Scripts panel, the option Spawn New Gizmo for the script is not available.
 * Asset templates created from entities in these worlds that contain scripts result in individual instances of the script in your world for each instance of the asset template added to it.
 
-For more information, see [Use Assets from Tutorials](../../Getting%20started%20with%20tutorial%20worlds/Use%20Assets%20from%20Tutorials.md)
+For more information, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials)
 
 ## Slide movement style
 

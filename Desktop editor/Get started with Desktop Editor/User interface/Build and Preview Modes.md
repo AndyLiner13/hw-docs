@@ -25,4 +25,4 @@ These tools are part of the suite of tools in the Worlds desktop editor. You can
 
 You can also try out the editor by working through our introductory tutorial:
 
-* [Create Your First World](../../../Get%20started/Create%20your%20first%20world%20tutorial%20Overview.md)
+* [Create Your First World](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world-intro)

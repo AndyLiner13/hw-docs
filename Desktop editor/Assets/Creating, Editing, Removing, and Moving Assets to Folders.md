@@ -5,125 +5,22 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 ## Creating folders
 
 To create a new folder, click the “Add New” menu button above the left navigation column and select “Folder”.
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_015717_20251211_015717.md)
-
-### Overview
-This image depicts a user interface of a 3D modeling or game development software. The layout includes a workspace area, a sidebar with asset management, and a properties panel on the right side. The workspace shows a 3D scene with a character model and some geometric shapes.
-
-### Key Elements
-- **Workspace Area**: Located centrally, showing a 3D environment with a character model resembling a dinosaur or robot, and some geometric shapes like cubes and spheres.
-  - **Character Model**: A large, orange, blocky figure with a blue face, positioned near the center of the workspace.
-  - **Geometric Shapes**: Several white cubes and a gray sphere are scattered around the workspace.
-- **Sidebar (Hierarchy)**: On the left side, displaying a tree-like structure of assets and folders.
-  - **Folders**: Named items like "Spawn Hand," "Studio Graph Audio Versioned," "Test," among others.
-  - **Assets**: Includes audio files and folders, such as "Audio 1," "Audio 2," etc.
-- **Properties Panel**: On the right side, showing options to select objects within the workspace.
-  - **Selection Box**: A small white box appears in the workspace, indicating selection.
-- **Asset Console**: At the bottom, showing a grid of icons representing different assets.
-  - **Icons**: Various audio files and a folder named "My Assets."
-
-### Visual Flow / Relationships
-- **Most Prominent Element**: The central workspace area.
-- **Arrows/Connectors**: None visible.
-- **Spatial Relationships**: The workspace is the focal point, with the sidebar providing context and the properties panel offering interaction options.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578063_512500497954573_8789046631329452917_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=s_xy0PLar7MQ7kNvwGby6pG&_nc_oc=AdkPJ2TtazKXL9tVhMo68Tg8yfuf9k-6F5f9UOSevpE8ljkAdS1cYd0EsG6HMmB_gMXSv6US1TXyXIv0nwHFPME4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7pDAfiLYYx3lj5YexZrMBA&oh=00_Afnkqq8TLtqnnbubcLWa1CZVITESQlqyvNS6r8KEGfTt_A&oe=6955858E)
 
 ## Editing folders
 
 - To rename a folder, right-click the folder in the left navigation column and select “Edit”.
-  <details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_015812_20251211_015812.md)
-
-### Overview
-This image depicts a user interface of a 3D modeling software. The central area shows a 3D scene with a red sphere placed on a grid floor against a gradient sky background. On the right side, there is a panel displaying asset details and version information. The left sidebar contains a hierarchical menu with various options such as "Hierarchy," "Assets," "Console," and "Tests." At the bottom, there is a grid of thumbnail previews labeled with asset names.
-
-### Key Elements
-- **Central Scene**: A 3D view showing a red sphere on a grid floor with a gradient sky background.
-- **Right Panel**: Contains asset details such as "Asset Type," "Version," and "Asset ID." There are also warnings about missing textures.
-- **Left Sidebar**: Hierarchical menu with options like "Hierarchy," "Assets," "Console," and "Tests."
-- **Bottom Grid**: A grid of thumbnail previews with labels such as "Test Metadata," "Test Model," "Test Library," etc.
-
-### Visual Flow / Relationships
-The most prominent visual element is the central 3D scene. The right panel provides additional information about the selected asset. The left sidebar offers navigation options, and the bottom grid displays a collection of assets. There are no arrows or lines connecting elements, but the layout suggests a typical workflow where users navigate through different panels to manage and view assets.
-
-</details>
-
-<p></p>
-
-
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452846049_512500371287919_1064496452354703381_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=BM0GzYZiaFgQ7kNvwFGTmzP&_nc_oc=AdkBV57sOHSIOnZVdophGGwX2LqEjxny6H_jXAt308pjraeBifQ5VufV1mvKjXK-Wfb9vYb9X8zcQLDsqRK0Y_HB&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7pDAfiLYYx3lj5YexZrMBA&oh=00_AfkxgsYGXmONxnxZ_dVHHKSEbdHsMYS119_zB4pFODg8zA&oe=69559379)
 - Fill out the Edit Folder fields and then click “Update” to finalize your changes.
 
 ## Removing folders
 
 To remove a folder from your library, right-click the folder in the left navigation column and select “Remove”.
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_015907_20251211_015907.md)
-
-### Overview
-This image depicts a 3D modeling software interface with a central viewport displaying a 3D scene. The interface includes various panels and tools for asset management and model manipulation.
-
-### Key Elements
-- **Viewport**: Located centrally, showing a 3D scene with a red sphere and some icons above it. The background is a gradient sky.
-- **Sidebar**: On the left, labeled "Hierarchy," contains a tree-like structure with nodes such as "SceneRoot," "Sphere," "SoundPlayer," and others.
-- **Asset Panel**: On the right, titled "Asset details," displays information about a selected asset named "Test_001." It includes fields like "Asset Type," "Version," and "Date."
-- **Tool Buttons**: At the top, there are several tool buttons for actions like "Add," "Edit," "Delete," etc.
-- **Tabs**: At the bottom, tabs labeled "Assets," "Console," and "Tests" are visible.
-- **Icons and Text**: Various icons and text labels are present throughout the interface, indicating different functions and states.
-
-### Visual Flow / Relationships
-The most prominent visual element is the viewport in the center. The sidebar on the left provides navigation and asset management options, while the asset panel on the right offers detailed information about selected assets. Tool buttons at the top provide quick access to common actions. The layout suggests a hierarchical and modular design, with clear separation between different functional areas.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452742636_512500367954586_2406993045507463854_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=ppZwc4cLUwMQ7kNvwEKFD1E&_nc_oc=AdlohVpKk-YdpR4wc2uAbf0fhHvbpZX2tmV6e2WHOrU0ORVylo2nYAMttXYngdCwHW7DLhjD1X9VcF6QcbzTpaT1&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7pDAfiLYYx3lj5YexZrMBA&oh=00_AfkpvhWQtTQwtEywnhA5Gam2suu9RXEpaV50EygSrl2PLQ&oe=695597A2)
 
 > **Note:** When deleting a folder, any assets inside will be moved into the “Removed Assets” folder.
 
 ## Moving assets to different folders
 
 To move an asset into a different folder, right-click the asset card  and select “Move” and then fill out the modal dialog.
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_020004_20251211_020004.md)
-
-### Overview
-This image depicts a 3D modeling software interface, specifically showing a scene with a red sphere placed on a grid floor against a blue sky backdrop. The interface includes various panels and tools for asset management and scene manipulation.
-
-### Key Elements
-- **Scene View**: Located centrally, displaying a 3D environment with a red sphere on a grid floor and a blue sky background.
-- **Sphere**: A red sphere located near the center of the scene view.
-- **Scene Tools**: Two icons are visible above the sphere in the scene view. These appear to be tools for manipulating the scene, possibly for adding or modifying objects.
-- **Asset Panel**: On the right side, there is a panel labeled "Asset detail" which contains information about an asset named "apple.smg". It includes fields such as "Asset Type", "Version", "Created", and "Updated By".
-- **Hierarchy Panel**: At the bottom left, there is a panel titled "Hierarchy" listing assets under categories like "My Folders", "My Assets", and others.
-- **Navigation Bar**: At the top, there is a navigation bar with tabs labeled "Local", "Center", and "Right".
-
-### Visual Flow / Relationships
-The most prominent visual element is the scene view, which occupies the central area of the interface. The red sphere is the focal point within the scene. The asset panel on the right provides contextual information about the selected asset, while the hierarchy panel at the bottom left lists the assets available in the project. The navigation bar at the top allows switching between different views of the scene.
-
-</details>
-
-<p></p>
-
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452846225_512500501287906_1108387385785139056_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=l0aAkllfrpUQ7kNvwHl7KnE&_nc_oc=Adl68aJH93mku5ITF0U9VfhSeT0vvs2IO4qTvbjYYr4FQIcrmpBtjR-dpzJWoDUAHmlREfuQv6r5EbYYO_js-1Um&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=7pDAfiLYYx3lj5YexZrMBA&oh=00_Afk65knCDglC9lwwhudd2qylH-63ZHWMrSmDJDGTRCmJDg&oe=69559BAD)

@@ -30,7 +30,7 @@ To begin, you must create a new variable group to hold your persistent variables
 - Open the Desktop Editor.
 - From the menubar, select the **Systems menu**. Then, select **Variable Groups**.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488371343_686408227230465_558522364558440630_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Z2rQapo0Ni8Q7kNvwGices1&_nc_oc=AdnIGbjChE2H5PMR18a-KQghBXHgV8iEA5xvn9RdByMIwm1sBm63BUjV5i0ZhtOrQdA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=EHjbgt5NeHQCH4yrcT6row&oh=00_AflkptdSERoAwjmjw1TT-R53JXeZ5W5yEToRZ664m_1spg&oe=694BD37B)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488371343_686408227230465_558522364558440630_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=iJBSfkjSoSgQ7kNvwG6ihun&_nc_oc=AdlNXZ0KXNdc1ZFT4v-OYVieprvTGIsn13_j50TZhGIWktrxnmcH_1SU8RXa9M5LxKy2XA---KqFcreoSfa_S3M3&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=8BTFydYwnJBC3Dr51v9eTg&oh=00_AfnFjiIr3HKhM-JIaH9Nh3QbGT1Jb2xN4pYSEc_v35N-8w&oe=69557E7B)
 - In the Variable Groups panel, you can select, import, or create a variable group to store your variables:
 
   * **Select**: Select one of the variable groups that has already been added to the world.
@@ -51,7 +51,7 @@ The following basic steps describe how to create an Object persistent variable a
 - If you have not done so already, select the variable group in which to store your persistent variable.
 - The name of your variable group and all persistent variables that it contains is displayed:
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487316880_686408230563798_1945088927905705895_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=o6HYHPBD11oQ7kNvwFxTLDK&_nc_oc=AdkNqnqi_AEqIrWIFyY70-Mn859PgKd5EWSojlzVbuPwC0B6ZlesQWDBTx87xo3lXAA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EHjbgt5NeHQCH4yrcT6row&oh=00_Afk8WmBPaan6Jy970e8Xqzwemlx89VquwWDbXO0yjoGicg&oe=694BC2AB)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487316880_686408230563798_1945088927905705895_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=s3nCsW6gtQoQ7kNvwGdTlrA&_nc_oc=Adm2La0C1EsthWnYGEaiK4yIwoh_TfzRc9agt5uW3STRVUozK_pzEfDvJ0b6B5pSQBXbzFt6Ao8eZUnVga1bouHY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=8BTFydYwnJBC3Dr51v9eTg&oh=00_AfmZvWevmFBXPIx_rX6DUvt87DhNFWVK8kygTzYVz82jmw&oe=69556DAB)
 - Next to the name of the variable group, click the **+ icon**.
 - In the Create Variable dialog:
   - **Name**: Enter the name of the variable. This name is displayed in the user interface and is referenced in any TypeScript that you use to access the variable.

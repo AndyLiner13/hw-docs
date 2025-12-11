@@ -10,30 +10,7 @@ Interactive, blocking screen overlays are designed to be used for situations tha
 
 By design, interactive, blocking screen overlays prevent gameplay-related inputs in order to allow the player to focus fully on the UI, which means this feature is not suitable for creating customized on-screen controls.
 
-<details>
-<summary>interactive overlay.gif</summary>
-
-<p></p>
-
-[interactive overlay.gif](../../../../images/output/img_20251211_030309_20251211_030309.md)
-
-### Overview
-The image depicts a virtual environment viewed from behind a character standing on a grid floor. The scene is minimalist, featuring a gradient sky transitioning from light blue at the horizon to a lighter shade above. The character is wearing a futuristic outfit with orange and black accents. The interface includes various icons and buttons in the top corners, suggesting this might be a game or simulation setup.
-
-### Key Elements
-- **Character**: A humanoid figure with a bald head, wearing a suit with orange and black patterns. The back view is shown.
-- **Grid Floor**: A light gray grid pattern covers the ground, extending into the distance.
-- **Gradient Sky**: A smooth transition from light blue to a lighter shade, indicating a clear sky.
-- **Interface Elements**: Located in the top corners, there are icons and buttons labeled "TAB," "ESC," "V," "N," and "B." These appear to be controls or settings for the environment.
-
-### Visual Flow / Relationships
-The most prominent visual element is the character, positioned centrally in the lower half of the image. The grid floor extends horizontally across the bottom, leading the viewer’s eye towards the horizon. The gradient sky dominates the upper portion of the image, creating a sense of depth. The interface elements are static and do not interact with the scene.
-
-</details>
-
-<p></p>
-
-
+![interactive overlay.gif](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452910563_512510387953584_8404522134663938617_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=RRsNPFlBF4wQ7kNvwFsdD1C&_nc_oc=AdnVVE2rUcI2KCcZs0ADMnzr9R1K6tbne7HkfCySESqVIXZcOcJI6qTGXDNojG6DQvzF9IpeA1nAfaklNfyOIbxP&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Q3302uL18iOMy4_XuJcjbg&oh=00_AfmJTZW8VF3Wxl7zY3qqCPTRj_i7l-RDwpWw0JNXwH4qzQ&oe=69557ADD)
 
 Interactive, non-blocking screen overlays are designed to be used as onscreen inputs that can be fully customized in size and appearance. Interactive, non-blocking screen overlays do not prevent gameplay-related inputs, and can be used in combination with the Custom Input API to create custom on-screen controls.
 
@@ -41,30 +18,7 @@ Interactive, non-blocking screen overlays are designed to be used as onscreen in
 
 When you set the Display mode property of a Custom UI panel to **Screen Overlay**, a property named Input mode appears. You can use this property to switch the mode of the panel from **No Interaction** to **Interactive, Blocking** or **Interactive, Non-Blocking**, which allows the overlay to receive input from the current input pointer (such as a mouse, touchscreen, or VR controller).
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_030415_20251211_030415.md)
-
-### Overview
-This image depicts a user interface section within a settings or configuration menu. It includes dropdown menus and interactive options related to display modes and input modes. The layout suggests a focus on customization or configuration settings.
-
-### Key Elements
-- **Dropdown Menu (Display mode)**: Located in the top-left area, this menu has a label "Display mode" and offers a selection of options: "Screen Overlay," "Interactive, Blocking," and "Interactive, Non Blocking." The selected option is "Interactive, Blocking."
-- **Dropdown Menu (Input mode)**: Positioned below the "Display mode" menu, this menu has a label "Input mode" and offers similar options as the Display mode menu but with a different selection: "No Interaction," "Interactive, Blocking," and "Interactive, Non Blocking." The selected option here is "Interactive, Blocking."
-- **Toggle Label ("Mipmap")**: Located below the "Input mode" dropdown, this label indicates a setting named "Mipmap."
-- **Menu Headers**: The menu headers include "Visual & Interaction," "Web ar," and "Behavior," suggesting that this section is part of a larger configuration interface.
-
-### Visual Flow / Relationships
-The visual hierarchy is clear, with the dropdown menus being the most prominent elements due to their size and placement. The options within the dropdown menus are arranged vertically, and the selected option is highlighted with a checkmark. There are no arrows or lines connecting the elements, indicating a straightforward reading order from top to bottom and left to right.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469896061_606730451864910_612662587024664924_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=e45phfCc_F0Q7kNvwGh7pY5&_nc_oc=AdmDMOiNkeLLnat5i95KJULRFj0zq6hOAtk-ert8i5a5AEQrMB8yXd6Pzh9A5N0UhrXdJ6cNPGuCwGGwYy2fKgB_&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Q3302uL18iOMy4_XuJcjbg&oh=00_AfnDQn2_iKsuVp4PK0jBiQnj-iHBbZM_bFK1OW0szq_QpA&oe=69556E79)
 
 You can test the interaction by adding a Pressable component to your UI script.
 

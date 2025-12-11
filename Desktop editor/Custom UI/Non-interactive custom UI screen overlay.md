@@ -28,38 +28,7 @@ Based on the above information, you’ll notice that the screen overlay feature 
 
 - When you [create a UI with the **Custom UI** gizmo](Create%20a%20custom%20UI%20panel.md#step-1-create-a-custom-ui-gizmo), find the [**Display Mode** property](Custom%20UI%20panel%20configurations.md) under **Visual & Interaction** on the **Properties** panel.
 
-  <details>
-<summary>The Visual and Interaction section on the Properties panel</summary>
-
-<p></p>
-
-[The Visual and Interaction section on the Properties panel](../../../../images/output/img_20251211_030626_20251211_030626.md)
-
-### Overview
-This image depicts a settings interface with various configuration options grouped under different headers. The interface has a dark theme with light text and interactive elements such as toggle switches and input fields.
-
-### Key Elements
-- **Header "Visual & Interaction"**: Located at the top, this section contains options related to display mode, raycast functionality, and mipmap settings.
-  - **Display Mode**: A dropdown menu set to "Spatial."
-  - **Raycast**: A toggle switch next to it, which is enabled (indicated by the blue color).
-  - **Raycast distance**: An input field showing the value "3."
-  - **Mipmap**: Another toggle switch, which is disabled (indicated by the gray color).
-
-- **Header "Web and Mobile"**: Below the first section, this area includes focus prompt settings.
-  - **Focus prompt**: A toggle switch next to it, which is enabled.
-  - **Focus prompt distance**: An input field showing the value "2.5."
-
-- **Header "Behavior"**: At the bottom, this section contains a single option labeled "Visible."
-  - **Visible**: A toggle switch next to it, which is enabled.
-
-### Visual Flow / Relationships
-The interface is organized into distinct sections, each with its own header. The toggles and input fields are aligned horizontally within their respective sections. The headers are collapsed, suggesting expandable content underneath them. The visual hierarchy is clear, with the toggles and input fields being the primary interactive elements.
-
-</details>
-
-<p></p>
-
-
+  ![The Visual and Interaction section on the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487875307_686297440574877_2174095531124152284_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=IEgMOcYBGGEQ7kNvwFt-jD8&_nc_oc=AdlE16TpXmXfXJfbgaMqDbORp7TdJsvIjleCaXbB0LBii02UA9YfFOTaNEuTcK5nXWffLp2ksiUUpMsKJXFlmRb-&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PfFN-ojtzBUCTne0Ltwn0g&oh=00_Afk9_dpd1YEVasOrpXcRjcOh_1AZvTBi5vK-jx05wyyZSQ&oe=69559F88)
 - Switch the **Display Mode** to **Screen Overlay**.
 - Next, write Typescript code to craft a screen overlay UI that aligns with your design.
 - Ensure that the outermost view container includes the [position: “absolute” property](../../Reference/ui/Type%20Aliases/LayoutStyle.md).
@@ -128,37 +97,7 @@ class ScreenOverlay2 extends UIComponent {
 
 Now that you have created these two screen overlays, you can see two UI layouts as shown in this screenshot. The content varies depending on your TypeScript code.
 
-<details>
-<summary>Two examples of screen overlays</summary>
-
-<p></p>
-
-[Two examples of screen overlays](../../../../images/output/img_20251211_030723_20251211_030723.md)
-
-### Overview
-The image depicts a virtual environment with a character standing in the center of a grid floor against a gradient sky background. There are two overlays labeled "OVERLAY 1" and "OVERLAY 2" at the bottom corners, each containing two buttons labeled "Red" and "Green."
-
-### Key Elements
-- **Character**: A figure with long dark hair, wearing a white top and a gray skirt, positioned centrally.
-- **Grid Floor**: A light gray grid pattern covering the entire floor.
-- **Gradient Sky**: A blue gradient sky occupies the upper portion of the image.
-- **Overlays**: Two rectangular overlays are present at the bottom corners:
-  - **Left Overlay ("OVERLAY 1")**: Contains two buttons labeled "Red" and "Green," both with rounded edges.
-  - **Right Overlay ("OVERLAY 2")**: Also contains two buttons labeled "Red" and "Green," similar in design to the left overlay.
-- **Top Bar**: A horizontal bar spans the top of the image, featuring several circular icons and labels:
-  - **Left Side**: Icons labeled "TAB" and "ESC."
-  - **Right Side**: Icons labeled "V" and "B."
-
-### Visual Flow / Relationships
-- The character is the most prominent visual element.
-- The overlays are secondary elements, placed symmetrically at the bottom corners.
-- The top bar icons are arranged horizontally, providing additional interactive elements.
-
-</details>
-
-<p></p>
-
-
+![Two examples of screen overlays](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487698781_686297437241544_7890064344951409983_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=PTMPEo-6NBwQ7kNvwGgTd7J&_nc_oc=AdmVGwoFs2-zivfZIfjM-0mVIHdmQMkO9fA0SZbgqJV2m4PvylNXlcSoRONp5q0GqzBUEc6HXhlZGQUYToCQ8aYp&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PfFN-ojtzBUCTne0Ltwn0g&oh=00_Aflsy57fpDdN4EaaL-nZ4FH0WBBs2CN4oMmld54mwrtmgg&oe=69557EF4)
 
 ### Player-specific screen overlay
 
@@ -185,4 +124,4 @@ In certain scenarios, you may observe that the UI aligns well on web and mobile 
 
 ## What’s next?
 
-Try the tutorial world on [non-interactive screen overlay](../../Tutorials/Custom%20UI%20Examples%20tutorial/Station%2010%20-%20Timer%20and%20Build%20Info%20Overlays.md).
+Try the tutorial world on [non-interactive screen overlay](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-10-timer-and-build-info-overlays).

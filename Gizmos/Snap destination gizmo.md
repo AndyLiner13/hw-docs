@@ -6,7 +6,7 @@ The snap destination [gizmo](About%20gizmos.md) is a helper tool used by creator
 
 The following image shows the aiming circle in [VR](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md) when the **Movement style** is set to **Teleport** in the Worlds app settings.
 
-![A screenshot of the aiming circle in VR](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/511130115_750518717486082_3937306918986985171_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FnWmX8yYydMQ7kNvwGciQwI&_nc_oc=Adm0zmYwciyW3Hmt4-_C2fIQokvvHBdgI3ygUJxSh21GUGovBtcFCPcyCpw2RArv1c4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=uFG6s9SWPJ3CxfoWqHuIiQ&oh=00_Aflp7BuWj61qG-olsEtKRTLDZBBCRJ02zC5_5ITthOHYZQ&oe=694BD13E)
+![A screenshot of the aiming circle in VR](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/511130115_750518717486082_3937306918986985171_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=iiTxOnTtZ2IQ7kNvwHR5EMH&_nc_oc=Adm7olRvV7nazRLGmCqHqtGSUG4p7yI4kxYb_d6CIyGd5uqPtZM6d1EPtvjVxFo2yl0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ncUakYc19PriP_p8Kkc0Zw&oh=00_AfkXAY6m4qSbw6j2GzBJJNu-WT5z7fs7UYf8fNSE4tEPCA&oe=69557C3E)
 
 ## Access the snap destination gizmo
 

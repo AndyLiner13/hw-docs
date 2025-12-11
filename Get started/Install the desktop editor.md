@@ -31,7 +31,7 @@ The desktop editor gives you access to powerful tools that accelerate your creat
 
 Explore these resources to learn how to build Horizon Worlds on the desktop editor:
 
-* [Create your first world](Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
+* [Create your first world](../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
 * If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](../Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md).
 * Learn about the desktop editor with the [Introduction to the Desktop Editor](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 * Learn about the other tools available by reading our [Tools Overview](Tools%20overview.md).

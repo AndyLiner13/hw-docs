@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 # Introduction to creating worlds for mobile
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461801121_558937499977539_1061214547025883489_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=pcg1XBe1OrkQ7kNvwHRm6Ak&_nc_oc=AdlpMDIv7av7JFlpcKKE3bKfrBTYshqW-vZUmeBGTKWLdKO-kRLFlacVib7BzqvyHKk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=RNA3_L4ZViDsLGtziNu3Lw&oh=00_AfkgzIMDhsaKydS0qbt8JO_up_RYhVxOcgIDDuQYSWbO-Q&oe=694BDCD8)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461801121_558937499977539_1061214547025883489_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=15N8NiVohxkQ7kNvwH1vih3&_nc_oc=Admi66iVeo2__Uxq8cuE6j9XiT93Hw17bP57AOAEuy2z67L_6ZMbKDsVrXwJ7SpH4LY-dm1bi6hKtaZ00Uao18LW&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TUHv6PvrHrSgrd9XL73pbA&oh=00_Afn62pgpTxhkixRcsPquMuCX6gcQIZlbLnxne4S2RpT_QA&oe=695587D8)
 
 Making your worlds available on mobile and web enables users to access worlds from any device and as a result, can unlock broader reach for your published worlds on Meta Horizon Worlds.
 
@@ -15,11 +15,11 @@ The best way to ensure your worlds show up in discovery surfaces to reach wider 
 
 ## Start creating worlds for mobile now
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/559190943_833836049154348_1338189310288348086_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=pKB4Kb6uA0AQ7kNvwGwseIq&_nc_oc=AdkA9smMPlFl1wbwfW1q9xr8MPhJXtjttzc19UX3XzprMIWNCNHwF30fZiKQqgB4bbc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RNA3_L4ZViDsLGtziNu3Lw&oh=00_Afn29KsGJaxD25WzfmLWVzVGADhGxz5v6LzDwinpDzBR2Q&oe=694BE585)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/559190943_833836049154348_1338189310288348086_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=l-VqGkVUz6oQ7kNvwHPCQ3h&_nc_oc=AdnaKRigozEi11RlPXEM77zHhujQyHhf74JcstndQMl0cOgbGo5P3B_2gPC9E2-17rTm1C4kfkzv_7IflKuiiFrt&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TUHv6PvrHrSgrd9XL73pbA&oh=00_AfnkzA0mJqrvG9tDlAG1ZLqEXE-Ndt3C1T64kXXq5oBnBg&oe=69559085)
 
 Creating worlds for mobile is the same as creating worlds for VR. You use the VR editor to build your world, adding Code Blocks and functionality as desired, and then publish the world. All published worlds in Meta Horizon Worlds are available to play in the Meta Horizon App on mobile and on [horizon.meta.com](https://horizon.meta.com/) in the browser by default.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/460553022_547780904426532_3533426530060538066_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=Vu_nzp9GzTQQ7kNvwFTG3je&_nc_oc=AdnNQh-kt0LRZYGw8gbKk99C9bBryR7zGR9-XFccLSTvU7C_46x8PXRKelmn8hFZF5g&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=RNA3_L4ZViDsLGtziNu3Lw&oh=00_AfmutJrPxkPPF6Lxbb7FQLglpb-lkt71WX_5vpPfJrsQKw&oe=694BEA8F)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/460553022_547780904426532_3533426530060538066_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=uIF0p9Df-FUQ7kNvwGWengx&_nc_oc=AdlEBTWHYUhQ3L9319XfoEh1QIVXfvBrr94F8eLbObSj8d81NRWuHHZcUAfky48tvg4v0Pn1-0sbdxg0vygJGMCG&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=TUHv6PvrHrSgrd9XL73pbA&oh=00_AfmIhs2icDoTtLy1aAGQDbIk3VrXm1yTgVFUvBXLbfkEfA&oe=6955958F)
 
 ## Testing you world on mobile and web
 

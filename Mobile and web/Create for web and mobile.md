@@ -7,7 +7,7 @@ Worlds in Meta Horizon Worlds are available on mobile and web, as well as VR, by
 The following topics will help you better understand how to make your worlds better for playing on mobile and web.
 
 * [Introduction to creating worlds for mobile](Introduction%20to%20creating%20worlds%20for%20mobile.md)
-* [Setting up worlds for web and mobile compatibility](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/setting-up-worlds-for-web-and-mobile-compatibility)
+* [Setting up worlds for web and mobile compatibility](Setting%20up%20worlds%20for%20mobile%20and%20web.md)
 * [Testing worlds on mobile and web](Testing%20worlds%20on%20mobile%20and%20web.md)
 * [Publishing worlds on mobile](Publishing%20worlds%20on%20mobile.md)
 * [Designing worlds for mobile and web](Designing%20worlds%20for%20mobile%20and%20web/Designing%20Worlds%20For%20Mobile.md)

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Units of measurement
 
-Scale, distance, movement, and other physical properties in Meta Horizon Worlds are measured in [SI Units](https://en.wikipedia.org/wiki/International_System_of_Units). Note that some of the following units may only be measured or applied using the relevant [TypeScript API](../../Overview.md):
+Scale, distance, movement, and other physical properties in Meta Horizon Worlds are measured in [SI Units](https://en.wikipedia.org/wiki/International_System_of_Units). Note that some of the following units may only be measured or applied using the relevant [TypeScript API](https://developers.meta.com/horizon-worlds/reference/2.0.0/):
 
 | Quantity | Unit |
 | --- | --- |

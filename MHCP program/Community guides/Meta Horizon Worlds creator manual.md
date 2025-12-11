@@ -35,7 +35,7 @@ You use the Desktop Editor to edit worlds, adding content and scripts to build o
 
 ### Publishing and Player Settings
 
-**Publishing**![Image shows the publish world window with a message stating that a genre tag must be selected](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480830190_656797526858202_6486575020987318744_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=yEY43TD2LVkQ7kNvwH9SQ1H&_nc_oc=AdlwLXshsUB4-6JQx21SqCQuO_uzL36dWjmZ7EWgZlsYXO1oAtGvskKgAYDt9O9XSOs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfnrjIeduj88oQ4ioZIERlAAemF7hZMecbD144ucFJGgJA&oe=69545736)
+**Publishing**![Image shows the publish world window with a message stating that a genre tag must be selected](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480830190_656797526858202_6486575020987318744_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=yEY43TD2LVkQ7kNvwFOcVOS&_nc_oc=Adk5419SPKqHBU7s7ZZMaiwCfJjdcx1QNqbl7BOsIC46cG36kkvn4cjjQe3LmxHw9kSZrJib9EUX3G-oO-0PRcGl&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afk7K_lNMLrXjxWCPJHpjr8zz0DP06pWWA9OiVPcLQJdfg&oe=69557076)
 
 | Field | Description |
 | --- | --- |
@@ -207,7 +207,7 @@ The Editor Instance
 
 There is only ever (at most) one **editor instance** of a given world. When that one instance is full, no other editors can load the world to edit.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849720_656797523524869_5636069937135617719_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=-YWtwSoz3B8Q7kNvwHU88p7&_nc_oc=AdnfSsZFGSNJzc-uOYQKpTmAqq5KKuxdmPfe9Wy_ykx_4j1DhotxHbs79ZWW8c-LZlI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_Afm6bcgzO7cg5K208wjQ68b83t_B265E9xzshgrHl318Vg&oe=69545C8C)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849720_656797523524869_5636069937135617719_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=-YWtwSoz3B8Q7kNvwGkng4L&_nc_oc=AdkjpCDXymySVrcJdZPzHfgTfKhA0fLH-H2yDGcg-sQEnX6PEB82tfL5MCWkonrtRYGUGti1TiDTNH0Dh0gOeE6e&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfnjbY9WppIHKOBrsI5nFY1OUuIGq2IsqYovNTbRP1sd5w&oe=695575CC)
 
 ### Travel, Doors, and Links
 
@@ -300,7 +300,7 @@ They **behave differently with the [projectile launcher](Meta%20Horizon%20Worlds
 
 **Left-handed**. The coordinate system is *left-handed*, meaning that if you position the camera so that the positive y-axis is pointing up and the positive x-axis is pointing right then the positive z-axis points forward.
 
-![Diagram showing coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481024720_656797420191546_2462169612641144284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bzHTtiC7Rp8Q7kNvwGDElv8&_nc_oc=AdkxRCMVrkAAEejR7ZlyFk8V29Nu3SEWnJPlqY9dy81tXXfc0mf_VT5zHG51yCn7UO8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AflwYfz6fGmwwBUh4coDnphdgzAUOMZQErxz8DcyGB3dKA&oe=69546187)
+![Diagram showing coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481024720_656797420191546_2462169612641144284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bzHTtiC7Rp8Q7kNvwGukDn4&_nc_oc=AdlwcORPdOTpkq74NK0iZ7MzpSuUoYiRjE-uMioFLWFwrRxqsBcsqGBON-XBtQsEjjYWXBAq3Q0V8zcm58nge5Tq&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afll9zsw65f6Lsoqg8dvu1uHhVVnLWzAB4v5b3jDIlbLLw&oe=69557AC7)
 
 #### Local coordinates
 
@@ -310,7 +310,7 @@ Every [entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) and every
 
 The *forward* axis of *a player head* is always pointing away from their face (parallel to their nose), its *right* axis is always point “outward” their right ear, and its *up* axis is pointing out from the top of the skull. When the entity or player body part moves, the origin of these axes move; likewise the axes rotate along with the entity (so that the *right* axis always points out from the right ear).
 
-![Example of coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480611159_656797476858207_8234151886777029936_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Kf6lUgI8ydgQ7kNvwElGXtp&_nc_oc=AdmIdk4QpdTLp4I3kO0H0-D1Yq8v0IuJHV9jVjfLWJC98ZyrrlrCvmjCK3Wg0EROTQo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfnpHtM-18YWyW7zKtqD2Y6ltY_kPfSu0KUp1KwdCkN2XA&oe=6954598F)
+![Example of coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480611159_656797476858207_8234151886777029936_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZPcekiwEB2EQ7kNvwFPle3M&_nc_oc=AdkkR_Ncnl1AHgHU-Qy_jHzDnPNyab5snY2GgQ-mMQQEqaN9a4wzVce0vzRw0uE4dOER_M2MDpFnCkr-ZscVDeyM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afnn4m6GKD1QSjtvX0q3C5qmqw17YrtEfRA4Da10n2wfFg&oe=695572CF)
 
 **Meters**. Distances and positions in Horizon are referenced using meters. For example, the position `(0, 1, 0)` is 1 meter (roughly 3.28 feet) up from the center of the world. Avatars in Horizon are approximately 1.8 meter tall (5 feet 11 inches).
 
@@ -1406,7 +1406,7 @@ The **return type** of the `raycast` method is `RaycastHit | null`. The result i
 
 Here’s the algorithm that is used (it is [tag bubbling](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tag-bubbling)):
 
-![Entity tag bubbling algorithm diagram.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480737365_656797466858208_6408611987938000829_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=f5SJWOR-sMUQ7kNvwHl1PRr&_nc_oc=AdmbXbTAlJiJAhipaOcdNTJVD4Ry_T43bAzFFfwEQOXspHiKsK7WG3IEWcYp5xq1RVE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_Afk2EpV9o6VrpWa6zB41a1cnWIGG6ojESgAa69f-rue-MA&oe=6954406A)
+![Entity tag bubbling algorithm diagram.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480737365_656797466858208_6408611987938000829_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=mNhI17sPvTgQ7kNvwHAcyY4&_nc_oc=AdnG7xnNV7wKwRNtCJcuTZY0OtDfQATknF-C2n21cF71o3L-jm2Mj55kzOhRQ9L1hFRD0WC3F-RYH3yWao1eJXyG&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afk7AArhhYXNEA-wCeeTMWeOoLjJtH2rsafb_gyGtjYJlg&oe=695591EA)
 
 Here’s the `RaycastHit` type, which shows the 3 bullets above, in code:
 
@@ -2463,11 +2463,11 @@ The following table assumes that `v`, `w`, `r`, and `out` are `Vec3`s; `s` and `
 
 The **dot product** is a fundamental vector operation that multiples the lengths of the two vectors together and then multiples in a “sameness value”; that value is 1 if they are parallel, 0 if they are perpendicular, and -1 if the are facing opposite directions (anti-parallel). If the two vectors both have length 1 then the dot product gives you a number between -1 and 1. The length of the dot product in general is:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=KeTaP9IZ-bwQ7kNvwEXytft&_nc_oc=Adn8NC6uI3uN_j10sipausK35Hrg1tZ088waXiZ-GDQOiQZXM_wNkhCiz7Fw5Ltv54o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfkQHANv3KpYf3eNxVA3ZKCyXI3B2XII-QuMSCxgL4sDkw&oe=695440CA)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=KeTaP9IZ-bwQ7kNvwFmF5rW&_nc_oc=Adk6iljFRwgWfLewE9KnWfCFoFI96xGvEiMH3lKhpBUM5fYsS3qpMbnXeYnlcuI8oqRgRtlpwYKiRjguw_3XzNyx&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmePT3unp6hCbrPFBPf2idVjYfIBalfJDy-tA9N61pd8Q&oe=6955924A)
 
 where
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480737482_657839683420653_3915350552174156915_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ewpgcprpSbgQ7kNvwGsp6o4&_nc_oc=Adl9nrBw4o2G7A520wxwkP5z8X1NYIwjXA0u0mJ4yHYU5rvHqWsBcWT5D_MgZxseee0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfncGtnOYNk9JLh2oeiuMRrNXQaBp7-G0RvNR-ziMK4j6g&oe=69546835)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480737482_657839683420653_3915350552174156915_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ewpgcprpSbgQ7kNvwEfwbxJ&_nc_oc=AdmuVwdZ5Ds78DO0x2WUDRVATcEV7fRl1xIH-DD0ATbh2cP91rpi-4Q9b68uwLRJVemxoVgrIXteFKntaTgMQkYD&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afn4o3c8q_i4TQ-AW6zlFuupfZRLIyyfrD3zumqMT7-Ypw&oe=69558175)
 
 is the angle between the two vectors.
 
@@ -2489,7 +2489,7 @@ Common uses for dot product include:
 
 The diagram below shows the “projection of `v` only `w`” as the orange arrow; it’s like the “shadow” of `v` on `w`.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=KeTaP9IZ-bwQ7kNvwEXytft&_nc_oc=Adn8NC6uI3uN_j10sipausK35Hrg1tZ088waXiZ-GDQOiQZXM_wNkhCiz7Fw5Ltv54o&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfkQHANv3KpYf3eNxVA3ZKCyXI3B2XII-QuMSCxgL4sDkw&oe=695440CA)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=KeTaP9IZ-bwQ7kNvwFmF5rW&_nc_oc=Adk6iljFRwgWfLewE9KnWfCFoFI96xGvEiMH3lKhpBUM5fYsS3qpMbnXeYnlcuI8oqRgRtlpwYKiRjguw_3XzNyx&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmePT3unp6hCbrPFBPf2idVjYfIBalfJDy-tA9N61pd8Q&oe=6955924A)
 
 ##### Cross Product
 
@@ -2527,7 +2527,7 @@ Vec3.cross(right, up, result)  // Stores result in existing vector
 
 Vector reflection, via `v.reflect(n)`, calculates how a vector bounces off a surface. Given a vector `n`, it acts like that vector is pointing directly out from a surface. Then it takes the `v` and gives the direction after `v` “bounces” off the surface.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481015041_656797593524862_7262592726504005854_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=5ZCDBjtP5XoQ7kNvwHxejd8&_nc_oc=AdkTfbACwI7oPno-U41jl_mPNGElFGz9xtz7JGpJzKfKFkh_ZB8PKSgqgLOv1ZynV7M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfmOj6vdre-oBiB1KWhes5NcLdcJSA5YBl0nNczNI-GG2g&oe=695446D1)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481015041_656797593524862_7262592726504005854_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=5ZCDBjtP5XoQ7kNvwFuYn4L&_nc_oc=Adn044y-e-2qZEL9L8AiwBITkE53mJXvMwXw0f8YYnmoEcWRSHE1XGAjKHeTZVXAp26aMkIcaCw__MzOrtZQy7Nk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfnLc6ymI_4vQnrpx3PQonA_DK_X_T1gjZcUW54hnOJtdA&oe=69559851)
 
 Vector reflection is most often used for:
 
@@ -3047,7 +3047,7 @@ This is true for:
 
 The diagram below shows the full lifecycle of a component. All green rectangle boxes are TypeScript code executing during the [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase). The [full breakdown a frame](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) gives another view into when all these actions occur and the [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) section explains how a “move” is implemented as one component *tearing down* and then a new one *preparing and starting*.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480610569_656797566858198_2645415609124319419_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=2MuilW3qrI0Q7kNvwFks-Ti&_nc_oc=Admk1X1xBfgkbWpUCZeniyEbI-MSeKc1VGaEgtBi4osy6MIlWfqcUz3HvGcBiovUlBQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_Afk26KUvfN_YWvDvRJ2bHHlfdlAzau3_FkEKS0MS9MdJQg&oe=695459E9)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480610569_656797566858198_2645415609124319419_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=2MuilW3qrI0Q7kNvwE8UWEs&_nc_oc=AdniF1Zn6LCrQiA1bTQjesaQgEWQqSq7AnzcO-6Z-pvT8p1IBKKfHWc_3sffDAFvJ3Lc3YzPYZXslDzlUOnIIpVe&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AflsgBAMJh3mC2sFCQdslrf-h3adosI8LGdkqmSptSaF6A&oe=69557329)
 
 Connect to events in `preStart`. Send events in `start`.
 
@@ -3230,7 +3230,7 @@ All event types can be instantiated with **custom user-made types** by simply ca
 
 Here’s a flowchart that may help:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480762485_656797583524863_6769530497988193685_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=NZXai9IUK3YQ7kNvwEyHVwR&_nc_oc=AdnK5k6CKEoa6FMayI7RIbQIQsWt2ASxc1DYSOm96FZhDOIr1tztKyAx93H1G8pxMhU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfkwbWtqiUhVHSUAFzYWGLh2-CBrnNjUzme0MkTW-xH7kg&oe=69546347)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480762485_656797583524863_6769530497988193685_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=NZXai9IUK3YQ7kNvwGPNwON&_nc_oc=Adm6NLL1PtuV5bX0_I0-tUH531uYf1qYeNLqTONQE9dX8wGyw6NvofRN4z691-FzrjJnLyhlz1cSKV49gqUC0LO5&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmBBrFEaFlOWoF48eeqmCTzifNtelUgSrT48ktBdcOdvw&oe=69557C87)
 
 #### Receiving Events
 
@@ -3691,7 +3691,7 @@ Every action in Horizon happens somewhere within a frame. Frames execute in 3 ma
 - **[Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase)**: Handles [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events), [LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events), and [NetworkEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events). Processes [player input](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) changes and runs [async callbacks](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers). Changes to the [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) are committed.
 - **[Synchronization Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)**: Processes received [network](Meta%20Horizon%20Worlds%20creator%20manual.md#network) information, sends out network updates, and renders the scene (if not the server).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480753109_656797426858212_8295246835889529619_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=q5EwhGX3MbQQ7kNvwGI3xRu&_nc_oc=Adm-lm3EReezl4vEgpmUcFBPzWFIucuajo0TFRUhqHIdMjlq5p6DQyUoXlw0hyzV4ZE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfkiSzU6hjQJV6H1gr54cdn12kFHu-Lz2NgS4FxiqsbiQg&oe=6954483C)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480753109_656797426858212_8295246835889529619_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=q5EwhGX3MbQQ7kNvwH3uHx1&_nc_oc=Adn_CrJsdCe5yRt--6ScKL_Gs02eGGdQpAr7uyTM6W5utP0L9Pe5SldiegtDa6rlaYqbv5JjWlsCX2ZAuLG1ffPb&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfnY-iwvCRQKZshfZTMtOo3A4SMjsfz9h3xPPyPKNw_SDw&oe=695599BC)
 
 Script execution is \*single-threaded\* (long-running functions will 'stall' the script runtime).
 
@@ -4110,7 +4110,7 @@ The component is [torn down](Meta%20Horizon%20Worlds%20creator%20manual.md#compo
 
 In the process above (and diagram below) that if one of the players involved is the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player) then steps #3 and #4 are merged into just one step.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849120_656797436858211_4910455202806412283_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qkL3v6Jyv3gQ7kNvwG1PyEk&_nc_oc=Adk04Sj9lLAGt02MhjNgRD2pYU6d6akw46pU165wyUQcwcPe5niZ93-WLuxjfqRRkIA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AflaSgPWADwtqrfhbdJ0m4W3J5QoW61a-79PWfJS2MLCIQ&oe=695464DF)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849120_656797436858211_4910455202806412283_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qkL3v6Jyv3gQ7kNvwF-sdA1&_nc_oc=AdndmL9wPJS1kMPy2ocI_q8kjZDntkJZ63s6uogr5Q2s70gPrMLJU8yhuVuty2Ww8AWpA6D9Pjz2zy3NKE2x7Lxa&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmiwTiiV6s8oZx4550qTmKcSUOA6kuLQZeXL4SniRjG_g&oe=69557E1F)
 
 `getLocalPlayer()` and `entity.owner.get()` are different.
 
@@ -4358,13 +4358,13 @@ A high resolution mesh with a low resolution collider.
 
 Here’s an example of a mesh (a character’s face) that has a lot of geometry. It would really hurt perf to have Horizon compute collisions with the full face. So instead, a separate collider has been added (the icosahedron). This can be achieved by making the face with `collidable=false` and the icosahedron with `visible=false`. Or you could use the [sphere collider](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) instead.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480587385_656797580191530_2217575239024647133_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=hXQJldZ6D0cQ7kNvwFC54UX&_nc_oc=AdlFlkjWKgqjAgR_K4ZdPQuR_1aTHDs9Cai9rmBr4cv8YoieJhg5YKfEoxoUq4_C-p8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfnKZK2lcGnP1KmnGfUK9qNAdYIGMN09R6UHiojFgQonOg&oe=69546504)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480587385_656797580191530_2217575239024647133_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=hXQJldZ6D0cQ7kNvwG_PTS4&_nc_oc=Adk5Em1F8CUg2lmYCjlMvVimNQ6BlO_h4Y-sKtf4slKScUiVlUvQF9Zjx-WaxXHgKIeUuYM_FzBffyMthKL9jhxa&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afn61bniVgxhNpG6yQayzbSa8tK-GvUnVunVr9HmbDSIGA&oe=69557E44)
 
 ### Entity Tag Bubbling
 
 When Horizon is looking for an entity with a specific tag it performs a process we’ll call **tag bubbling** where it walks up the [ancestor chain](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) in search of an entity with the tag. This process is used in [collision detection](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) and [raycasting](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480831061_656797576858197_2777501900950716303_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=f9DLTA_SIekQ7kNvwH2NFon&_nc_oc=Adl0XExYVSviGay4bOjvCmwv8gA_CawHqQAUUsScYJ4V3JyIqsOvyj6p7ZKjRfP8khI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_Afmz9vqAy0SNNP1d--juYfP5iGnBbEjHjSUe_pW6PCeV1g&oe=695457AB)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480831061_656797576858197_2777501900950716303_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=E1f_YJcuAnYQ7kNvwE6zrh8&_nc_oc=AdkT4xam0hEHUwjVi2Jfu82BiYA_icmIDPLKDitjfps6aC10qUBZKZdm15sjHU9Fw7NoXxWPMvL6B-HHMcV-VnZi&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfkGOsXHNu5FRcy9LcDbW4nrrQN-6KocL9pTKSapYDcK4g&oe=695570EB)
 
 In code this algorithm looks like
 
@@ -5041,7 +5041,7 @@ When a player exits the world, [all entities owned by them](Meta%20Horizon%20Wor
 
 The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480310115_656797590191529_1870444710099372950_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=W4RFoym4tSkQ7kNvwFKOWqK&_nc_oc=AdkgjJ0QFRdUDBUkXfoA1EMjJuPukwpWhl_lJPkjUen6gmNeUpuPRrV90NTV7VW9EOk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfkcyCSxycphYnuouF1eQlBMY7yeJj_f57l5PAk4BmpKwQ&oe=69545D59)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480310115_656797590191529_1870444710099372950_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=JqwMX2o63SkQ7kNvwEB-vep&_nc_oc=Admzki-rzyK6QZjrS6UDqx2AMag_tixQbmhFrJdFl1Zi0-zP7jGmNAxIbST24WTnF7KoGular54sO7PQoP3culHn&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmuBdlCjb_qBzz8wYtdLU1qM6OqK5nrpAIMoPuPncD5Ig&oe=69557699)
 
 `OnPlayerEnterWorld` and `OnPlayerExitWorld` are sent to only server-owned entities
 
@@ -5349,7 +5349,7 @@ For an entity to be grabbable it needs:
   - Match the rules of [“Who Can Grab”](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-grab)
   - If it is currently held, match the rules of [“Who Can Take From Holder”](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-take-from-holder)
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481059196_656797573524864_5104228813229080794_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=qoa67pbXZS4Q7kNvwFJ3x6c&_nc_oc=AdnZFMIiZn7MrPdVqexUgobAUNvpRmY7056XamJ3aMQBPiPU9HIBIYgCIKNWxqACTL8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfmBEOIj7JoVpC2Mxf3aEPIEHtyAkPOulUcXoA9oz36HYg&oe=69545971)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481059196_656797573524864_5104228813229080794_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ccm9yQgVkjkQ7kNvwHqgtqL&_nc_oc=Adk32u-yODdGKYQGod-w-gS0NJFX7JvMhI3tdU8A0x2EKEDPw23yJIQ2guWkppcivD-pO-mjt5uWHdAIljqrjzpq&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmqlriUJKBjhxUpU8ePlk0jh3XqRYpe3ryZBjCwWoD6fw&oe=695572B1)
 
 bug Entities with grab anchors can be grabbed even when collidable is set to false.
 
@@ -5467,7 +5467,7 @@ There are a number of events associated with grabbing and holding. The diagram b
 
 The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480969837_656797440191544_3479717928870876208_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ynXXq71g8TEQ7kNvwFuf2tI&_nc_oc=AdkDeaBQOMOQuG6JwgcX6le6cZHsEoQAERxstDaeC2OawAyO8bvTNLCPJrEr8lLoLGE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AfmM2-fXTSyb2ofjMbvScQxcEH0Dr4nsle5DyLY8bHfvtQ&oe=69545413)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480969837_656797440191544_3479717928870876208_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ynXXq71g8TEQ7kNvwH1oylr&_nc_oc=AdlmwvVEKT3tUsIl_BQz2XmDqjBJqxpFzZIApzWkbSirs4eudGKakGfjsJKchUErN-ZJ8am8epn6FeUjDBEuVmBN&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfltGhvJYyEuHVrGBKALmB_GPf5rQxxrvgZsWJxO5byOKA&oe=69556D53)
 
 bug `OnGrabEnd` and `OnMultiGrabEnd` are not sent if a player leaves suddenly.
 
@@ -5618,7 +5618,7 @@ Attaching entities involves two built-in code block events being sent to the att
 
 The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480454017_656797570191531_1078493421499719284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=FqlTCtQgV6AQ7kNvwF8Pkh7&_nc_oc=Adn__G6iSSyWOtIkhv0AZdsd69BtN1IHiScF2X37SP6n53weJ87mYq0Jfc6NGXtZJmg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AflC2e5_OglujlD_3Z4PA-B-DLf6DuXBbRZVJuSE0zvgEQ&oe=69546EA5)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480454017_656797570191531_1078493421499719284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=_N7AbG5ev0YQ7kNvwEU8L0q&_nc_oc=AdnSVIaDXqRsGk2EwmN2rU3yh5oohTMoXbqMM4K_PcA-spbTCKKj7BkVJrdipZ2cvOUj54dTeZMISoMlvx2aYmIu&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmDOzi20Uq_nfDtU84-IbsQxjAj0QzY1dvIIVUkht3gdA&oe=695587E5)
 
 bug `OnAttachEnd` is not sent if a player leaves suddenly.
 
@@ -5771,7 +5771,7 @@ You will need to add a script that attaches the entity to the player when releas
 
 When a player has more than one attached entity, they will see this UI when pressing the holster icon.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480590377_656797586858196_8956842387091686648_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=pX1gS_JRxVoQ7kNvwGtUBh1&_nc_oc=AdncQOJWPd7DrbYO30RKQ0dBRBrjThkTvv6FK2DShSl73zQQrrS7WnPi4_YhuND-UZQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_Afm-4N0E3TSlPZ6fAsaoP0x6N9YtlANo-0HD-YkR2are1A&oe=69543E43)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480590377_656797586858196_8956842387091686648_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=QWsWgzmKV_gQ7kNvwE4tMgU&_nc_oc=Adm2iYzX2ko6JH_MpzZriLb64NBfgkYyz_Rob9dz8OitjEMgjzWlTn2R09ASXTLLYIv-SM5KTR-4c77TONo4b0gr&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AflqRm0pwJ9JshIaqAfzhBRS3pOIQnL95XdjQITE3wyUFg&oe=69558FC3)
 
 The icon that is displayed can be selected in the entity’s `Holster Icon` property in the Properties panel.
 
@@ -6763,7 +6763,7 @@ If any of the spawn process fails (promises reject), you can find the error in `
 
 **Labeled edges** describe the actions that occur to go from one `currentState` to the next.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480573611_656797446858210_8427218712583755701_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=BaV7blwVkh4Q7kNvwH_dl3F&_nc_oc=Adkh2NjC04Hs1Tth281ILPvZ1JBgSyJhGm58o3fBdw2JTJCWstxnv10QZYLt0nKs2qI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GQ7L2quXlUsgeKEFIex1nw&oh=00_AflwNoOXZJdHuZUM8zoINH6GBjLwVvpPWAvbnYAAfpwcOA&oe=695450FB)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480573611_656797446858210_8427218712583755701_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=BaV7blwVkh4Q7kNvwGN5mRt&_nc_oc=Adm7WHQNmGwl9ICtk_MLJtrWY5v6UCeA2zMyth3w2QpIg69IKUmtkFaZ_bsrAHSYTM4BDLslmTmP0itT-sHYdWI_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AflC6Bb3D8U8eqdm_Qp02g37EtgfJeMPa6R9E8DiitZZxg&oe=6955A27B)
 
 ### Sublevels
 

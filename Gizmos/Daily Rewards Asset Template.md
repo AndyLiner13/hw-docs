@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Daily Rewards Asset Template
 
-![Daily Rewards Asset Template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/497935804_734911832380104_6962771998323814286_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=41swJk7aklYQ7kNvwGoYytz&_nc_oc=AdkNyC3dsU7mJMzQEhpVJtisRIWrCXtx4i4neEH2FFJuNxrs5HfPpKakjfed7Ucg4FY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=38m6W9I9EfRQIbNtJVK_bw&oh=00_AflRkGNMAEI9JLPuMYXvx0q280D7hnxTWhVgEjdaZjgB9A&oe=694BDE78)
+![Daily Rewards Asset Template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/497935804_734911832380104_6962771998323814286_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=3My4CmjywDAQ7kNvwEfrWHh&_nc_oc=AdlpezIqjiDd8n061EmbGf-FUP1q-QSMAZlu_PYbYJlci_Gr3mMiGRgcfP3Pk-tWkLhMPLkMQ_TxYft8_D-YhoNL&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9wk-sK5aG-Befd2b3ewJSg&oh=00_AfnslEFI2uKmKFVv_xZ1cVnai_XJaT9dl8hQn9_0L1nRMA&oe=69558978)
 
 Note
 
@@ -18,7 +18,7 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Daily Rewards Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Daily Rewards” in the search field. Finally, select the Daily Rewards Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Daily Rewards Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/503910304_734911829046771_4309394035385604873_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=nYrGG9dY8zUQ7kNvwGPynNB&_nc_oc=AdnRx0Lbcq00nRIeK-Hyr2O5qv6vIg3kN-nupPFVb2y_qsnnBEthlGQYostdpNbQlts&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=38m6W9I9EfRQIbNtJVK_bw&oh=00_AfljKHRMVp4mh_D2_6d0GicA9JsdEAmXZr72NLBVUVxUzA&oe=694BBB56)
+![Finding the Daily Rewards Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/503910304_734911829046771_4309394035385604873_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=dLE-bSV-PSsQ7kNvwEej101&_nc_oc=AdmsobRtcOyKYk6-QfDglwyeuJKFMD9QR6GlfGixlB2Q94UCCLHEQPHjL0SIh3HUWgmGu9581gtOGsTfJLvfSZM9&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9wk-sK5aG-Befd2b3ewJSg&oh=00_AfkTWWHrhtYjLJ8YdcmqGIuiKoT5VMf6ulPB7SszN0AIxw&oe=69559E96)
 
 ## Daily Rewards Asset Template properties
 

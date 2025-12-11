@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # Part One: Understanding Asset Spawning with SeeingBlue
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453526177_398792019414043_8505170697871598268_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=tFYXQaE8Py0Q7kNvwEAQOwK&_nc_oc=AdmiWEzFhNc6rrN8q0aBKhuga0LB2eVMf6An9atUw6cZt0coHmMLr1uCyj9G1UNEHq0&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=e--0yZzYL2m5KAXwga0r3A&oh=00_Afmdnl2xWJ5lfQcOlsd0_kuiPCEr8mTdrBzdzDjFLufR_A&oe=69375ABE)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453526177_398792019414043_8505170697871598268_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=CH_S1dJjnigQ7kNvwF5Y-8l&_nc_oc=AdmkRqRrRLdEUbpo9YKIPGLeFD7jrP2gbEcWY7UYb1UpDCu40LuznTVzZnymbW17L-4&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=bB67ksE_4TAq0hZ8oDGFyw&oh=00_AfmM_aOI1j4s2ULZfeLdASzXEDDoNZj7Py-KoG7w1_u8SQ&oe=694105BE)
 
 This two part video series covers beginner to intermediate skills and will equip us with methods to increase the versatility and capacity of our Meta Horizon creations using asset spawning. @SeeingBlue will guide us through dynamically spawning and despawning assets in our worlds, and best practices for sending information between assets.
 

@@ -22,7 +22,7 @@ Example of a Core Loop:
 * **Action**: Play through levels, complete challenges, or defeat enemies to collect coins.
 * **Reward**: Unlock the new character skin, which provides a sense of accomplishment and visual customization.
 
-![Core loop example](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/540870129_800244485846838_9095679404064891863_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=vG8ih32BbMAQ7kNvwHgh4Eo&_nc_oc=Adn7BfRO_Q_lHVQqqqPabJWDwpzPPw1H3upHvZaXQka8HPYxa4W9XWNYaBl_uKs_0gI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MjdXQViVfZEGan5FN3MVXA&oh=00_Afn57IEH0k3v7JQxjsZhawMhSqGckqdsIS3am-tsSdQ3Mw&oe=694BC234)
+![Core loop example](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/540870129_800244485846838_9095679404064891863_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uXnIMkpCKF0Q7kNvwEnDMjI&_nc_oc=AdmFr3X5WFEyS1hYAgyR5_QBUYDRH6dxJuw-8VEODXieKJ34kTW8ROPsN0CsxF6U4DPEaEXvvkSI1Eu1n19TC5Ll&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-7QmcOacj4gTKFPcNwIi6Q&oh=00_Aflg9qx-_IlDdF2IuR0gfveLOn2gxUcjkEGgrD4NJt1COw&oe=69556D34)
 
 ## Why do core loops work? – UX Research insights
 
@@ -40,7 +40,7 @@ Core loops engage users for several psychological and design-related reasons. By
 - **Emotional Investment**- Core loops can create an emotional investment in the game by providing a sense of ownership and customization. Players become attached to their characters, items, or progress, making them more likely to enjoy playing.
 - **Social Interaction and Community**- Many core loops involve social interaction, such as multiplayer modes or leaderboards. This social aspect fosters a sense of community, encouraging players to compete, cooperate, or share experiences with others.
 
-![Leaderboard example](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/540068430_800244492513504_7247250885031684060_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=4lDJR-Lg19YQ7kNvwGvQ5I3&_nc_oc=AdlcsiSfEt21J1_izcPP91zcgT9TM4lz5c-RAay-S6Kj3oxO9D_-C0fddP63K57pJjM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=MjdXQViVfZEGan5FN3MVXA&oh=00_AflK0zjIeeghwtNlNXSewyHAIb4xIFuNX8RniouWM2H4xg&oe=694BE499)
+![Leaderboard example](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/540068430_800244492513504_7247250885031684060_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=0c7uVeYLXvkQ7kNvwEo86Wa&_nc_oc=AdliHhOoK3rt3PioCw9ZG-6rLxmDhyeVD7WKVUg599UD8fkVYeeCpGd04WwYmWS2rEMp105wUp6S_IvVyvHp8kXy&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=-7QmcOacj4gTKFPcNwIi6Q&oh=00_Afm8CiBUSu9WP37hePVOHJc4M6uzjhEpAJccnzEPl7gt0Q&oe=69558F99)
 
 ## Core Loops Work – What We Know From Player Data
 
@@ -58,13 +58,13 @@ An effective core loop quest with compelling rewards significantly engages users
 
 As previously noted, users who were offered rewards showed increased engagement with core loop quest content. This was further reinforced by a recent season event featuring weekly new quests and a set of rewards that could be earned throughout the season. Notably, every time a new reward was released, Paddle Mini Golf observed significant spikes in engagement. In contrast, the launch of new quests did not trigger similar spikes in engagement. This suggests that the promise of rewards is a key driver of user behavior, supporting the hypothesis that rewards are the primary motivator for core loop engagement (see graphic below).
 
-![VR mini golf example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/540900196_800244489180171_3840151860229517560_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=FI-S3yeAR-oQ7kNvwGdqySv&_nc_oc=Adl6BXYYnlgBU0FQhKNt5qKiaCWp_Yog1n-6eRX94j0MG0GPRhVeyxm4T6-16Nars0E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MjdXQViVfZEGan5FN3MVXA&oh=00_Afkmu0HEq6J9ZfNbrGR7Q2pn4PzNAFTfTOmnFQ3kIS-TqQ&oe=694BEB45)
+![VR mini golf example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/540900196_800244489180171_3840151860229517560_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=tvvQh3gcba0Q7kNvwHXRGHj&_nc_oc=AdnuITDxugfEaldeGQaTiCtEeCu_c_5KiSS4hOiAPSjios9P2_BRskVTpe2LQKMUKczxVnh1X5llGATkz8KDrsES&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-7QmcOacj4gTKFPcNwIi6Q&oh=00_AfkrIcvzmFf9tPQPuy6z_yh_SuEm_CfCfwvxuHfNbh_Uhg&oe=69559645)
 
 ### **Keep rewards fresh and rotating**
 
 Rewards do not maintain their impact forever, as users will eventually acquire the rewards you offer. To maintain engagement, it’s crucial to establish a consistent flywheel of fresh rewards. A recent case study illustrates this point: when a world on Horizon Worlds introduced a new gun skin, in-world purchases surged. However, within a month, this lift returned to baseline as the content became stale. This highlights the importance of regularly refreshing rewards to sustain user interest and drive continued engagement.
 
-![Expanded core loop example](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/540222634_800244482513505_7301925332625881082_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=pHueXIykiQsQ7kNvwFm15RO&_nc_oc=AdnNOfFtnEvYdm2HYoLq3gNe5JO64mk7V0yz4cAVCghSQ-FQIErq_kobYGNeQGiSQdw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MjdXQViVfZEGan5FN3MVXA&oh=00_Afk9ZyE939ubnlonqH6AGUnLhHQHEQo5ryx3_d0da_Oykg&oe=694BE291)
+![Expanded core loop example](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/540222634_800244482513505_7301925332625881082_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=2de9PASom6YQ7kNvwFGI-ZN&_nc_oc=AdktapCNRXXEOPRDwEcRlIw1qv7i2YOMYicOaCblLduVuwFT6inTXmsxu4v29R_2cpDcGhm8N8Dp-WCHAziX3UHK&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-7QmcOacj4gTKFPcNwIi6Q&oh=00_AfmCU-Lt6MPZza6LiS5yl6nl_K8JOI223DrLxU6T9pVfnA&oe=69558D91)
 
 ## Examples of Core Loops
 

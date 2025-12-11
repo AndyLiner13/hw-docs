@@ -44,226 +44,27 @@ Audio assets can be uploaded to your Asset library using a web interface or usin
 
 ### Meta Horizon Worlds Creations
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/452602942_1531891694363967_592376360678865435_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=D3FK60l_5BQQ7kNvwFM1zkz&_nc_oc=AdmGy7SC_uZsiHXzT50LHvDQAKXP_SPkL7-NQKRFqQUkayPyCC4AlhDzDZueVlwADOU&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=Spv-pM3ZSGHBnQcq0jGmfA&oh=00_Afmt2w1LtCH74gmjXVy5iLLJxdsLvazbM9v5oPLiBTPx5w&oe=693756CB)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/452602942_1531891694363967_592376360678865435_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=BM1e9I-dRRYQ7kNvwFG55JT&_nc_oc=AdmqIrqgX02tmwUyq8T_vetRIrwQfSSE9TYDxYooG-b5wPiR-pgTXfmNT3K7Pj2GY4M&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=vPBAb-dr6o2l9Dk4vj-mlw&oh=00_AfmRSfDooN0h8m94tV62mbuUCPP8ZX_E1UaSGFarGc1Z9A&oe=694101CB)
 
 - Navigate to the [Meta Horizon Worlds Creations site](https://horizon.meta.com/creator/).
 - In the left nav bar, select **My Assets > View All**.
-- At the top right, select + **Import > Sound**. <details>
-<summary>Screenshot of the My Horizon Creations page showing Import button with Sound dropdown option.</summary>
-
-<p></p>
-
-[Screenshot of the My Horizon Creations page showing Import button with Sound dropdown option.](../../../../images/output/img_20251211_060032_20251211_060032.md)
-
-### Overview
-The image displays a user interface section titled "My Horizon Creations" with options for managing assets. There is a dropdown menu open showing categories for importing assets ("3D object" and "Sound").
-
-### Key Elements
-- **Left Panel**: Contains two sections labeled "My Worlds" and "My Assets". The "My Assets" section has a "View All" button highlighted.
-- **Main Header**: "View All" is prominently displayed above a search bar with placeholder text "Search assets".
-- **Dropdown Menu**: Opened under the "Import" button, showing two options: "3D object" and "Sound".
-- **Search Bar**: Located below the main header, with a magnifying glass icon and the placeholder text "Search assets".
-- **Asset Icons**: Three identical icons are partially visible at the bottom, suggesting placeholders for asset thumbnails.
-
-### Visual Flow / Relationships
-- **Most Prominent Element**: The open dropdown menu under the "Import" button.
-- **Arrows/Connectors**: None visible.
-- **Spatial Relationships**: The dropdown menu is positioned to the right of the "Import" button, and the search bar is below the main header.
-
-</details>
-
-<p></p>
-
-
-- Follow the instructions: <details>
-<summary>Screenshot of the Import sound dialog box.</summary>
-
-<p></p>
-
-[Screenshot of the Import sound dialog box.](../../../../images/output/img_20251211_060142_20251211_060142.md)
-
-### Overview
-This image depicts a user interface element designed for importing a sound file. It includes a drag-and-drop area, a folder selection dropdown, and buttons for canceling or importing the file.
-
-### Key Elements
-- **Drag-and-Drop Area**: Located centrally, outlined with dashed lines. Contains an icon depicting a folder with a play button inside, suggesting a media file. Below the icon, text reads "Drag and drop to upload Or choose files on your device."
-- **Folder Dropdown**: Positioned below the drag-and-drop area, labeled "Folder." The selected option is "My Assets."
-- **Buttons**: Two buttons are present at the bottom right. One is labeled "Cancel," and the other is labeled "Import."
-- **Title**: At the top left, the title "Import sound" is displayed.
-- **Instructions**: Above the drag-and-drop area, instructions state that the sound file should be in OGG Opus (.opus) format and that the maximum file size is 25 MB.
-- **Close Button**: A small "X" button is located at the top right corner for closing the window.
-
-### Visual Flow / Relationships
-The most prominent visual element is the drag-and-drop area, as it is the central focus for user interaction. The folder dropdown and import/cancel buttons are secondary elements, providing additional options for file selection and submission. The layout follows a standard form-based interface design, with clear separation between the input area and the action buttons.
-
-</details>
-
-<p></p>
-
-
-- When your audio file has been uploaded, select the context menu on the asset tile to edit, delete, or play the audio asset: <details>
-<summary>Asset tile showing Play option highlighted in dropdown menu.</summary>
-
-<p></p>
-
-[Asset tile showing Play option highlighted in dropdown menu.](../../../../images/output/img_20251211_060236_20251211_060236.md)
-
-### Overview
-This image displays a user interface snippet featuring a list of items with interactive options. The layout includes a gradient icon, a 3D model image, and a dropdown menu with options.
-
-### Key Elements
-- **Gradient Icon**: Located at the top-left, it has a blue to purple gradient background with a white sound wave icon in the center.
-- **Text Label**: Below the gradient icon, reads "Leaves Rustling" followed by placeholder text "Some descriptions...".
-- **Dropdown Menu**: Positioned below the gradient icon, with options "Edit", "Delete", and "Play". The "Play" option is highlighted, indicating interaction.
-- **3D Model Image**: To the right of the gradient icon, showing a black scooter with a handlebar and wheels.
-- **Text Label**: Below the 3D model, reads "Scooter" followed by placeholder text "A scooter that you can ride...".
-
-### Visual Flow / Relationships
-The most prominent visual is the dropdown menu, as it is actively engaged by the user. The gradient icon and its associated text are secondary but still important. The 3D model image and its label are tertiary elements, providing additional context to the item being interacted with.
-
-</details>
-
-<p></p>
-
-
+- At the top right, select + **Import > Sound**. ![Screenshot of the My Horizon Creations page showing Import button with Sound dropdown option.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453153965_514606404410649_6610638626555006606_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=lc8xC_mhv_wQ7kNvwH_0CMr&_nc_oc=Adk303UY10-wo-BlTWj-eKWrAvfUyNvwG7I_25sI5iquN1ZjWFXBbcvk8tKwPLdJt9E&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vPBAb-dr6o2l9Dk4vj-mlw&oh=00_AfmW7pwnMOfecsefhkX76OLGr_nHNaT2qYj9YlXV2BUo-g&oe=6955A173)
+- Follow the instructions: ![Screenshot of the Import sound dialog box.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453246470_514606361077320_8634362095564043733_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=wvl8Ii_o2kQQ7kNvwEoKsTD&_nc_oc=Adkg4tXog_SWBWcbiT-X4Dv5pSHI6xrIEu5tJV-Q0XFa8GSEaKrmhboo4W8OmUgv_2A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=vPBAb-dr6o2l9Dk4vj-mlw&oh=00_AfkX2QbHGzTPt8iyHcyVQVC4kQlWJ_IIorC0SNl_kMUZAw&oe=695589B2)
+- When your audio file has been uploaded, select the context menu on the asset tile to edit, delete, or play the audio asset: ![Asset tile showing Play option highlighted in dropdown menu.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453091793_514606381077318_5437568068305643374_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=SO2iQuwpUWcQ7kNvwFpPuEP&_nc_oc=Adk5fnTGAnEz631U00v23elv0CFxAXEeYWedAB8vFfe_8_qaUMmMx_bKZB_zPWGhZkk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=vPBAb-dr6o2l9Dk4vj-mlw&oh=00_AflPEebBH0P8-Vlqfv9A3bIEIJr_Bny_wBHeh0s6Qe_EEg&oe=6955882D)
 
 ## Edit Assets
 
 **Note**: Following steps reference editing assets through the Horizon Words Creations interface.
 
-- To view an asset’s details, click on the asset you uploaded to your folder. The following video demonstrates this process: <details>
-<summary>GIF showing clicking on an asset tile, which opens up a details dialog box showing "Description", "Tags", "Folder", "File size", "Owner", "Asset ID", and "Last edited" fields.</summary>
-
-<p></p>
-
-[GIF showing clicking on an asset tile, which opens up a details dialog box showing "Description", "Tags", "Folder", "File size", "Owner", "Asset ID", and "Last edited" fields.](../../../../images/output/img_20251211_060331_20251211_060331.md)
-
-### Overview
-This image depicts a user interface for managing assets, specifically a section labeled "My Assets." It features a grid layout displaying various asset thumbnails and metadata.
-
-### Key Elements
-- **Header**: Located at the top-left corner, reads "My Assets" with a smaller subtitle "Test Test Test."
-- **Search Bar**: Positioned below the header, spans horizontally across the top of the grid. Contains a magnifying glass icon and the placeholder text "Search assets."
-- **Asset Thumbnails**: The main content area consists of a grid of asset thumbnails. Each thumbnail has a gradient background transitioning from blue to purple, with a white icon representing the asset type.
-    - **First Row**: 
-        - **Leftmost**: A thumbnail labeled "stereo_opusenc" with a sound wave icon.
-        - **Second**: Another sound wave icon labeled "ambisonic faadfd."
-        - **Third**: Partially visible, showing a gradient background.
-    - **Second Row**: 
-        - **Leftmost**: A thumbnail labeled "Gauntlet" with a green and blue geometric design.
-        - **Second**: A cube icon labeled "stress package 424."
-        - **Third**: Partially visible, showing a gradient background.
-- **Metadata**: Below each thumbnail, there is metadata such as the asset name and a brief description. For example, "Gauntlet Description" under the "Gauntlet" thumbnail.
-
-### Visual Flow / Relationships
-The visual hierarchy is clear, with the header providing context, the search bar for functionality, and the asset thumbnails arranged in a grid for easy browsing. The thumbnails are evenly spaced, and the metadata is aligned beneath them. There are no arrows or lines connecting elements, suggesting a straightforward reading order from left to right and top to bottom within rows.
-
-</details>
-
-<p></p>
-
-
+- To view an asset’s details, click on the asset you uploaded to your folder. The following video demonstrates this process: ![GIF showing clicking on an asset tile, which opens up a details dialog box showing "Description", "Tags", "Folder", "File size", "Owner", "Asset ID", and "Last edited" fields.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453003674_514606357743987_5499500488650383560_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=XYFM8EqU9TEQ7kNvwGFOBQG&_nc_oc=AdnNOjWJYW43a7-8jDVwJeQL-mmn1Nxoy_3GAwYs7qTScalyV5Kh9VeGwyGAdddQHMw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=vPBAb-dr6o2l9Dk4vj-mlw&oh=00_Afn74zKi5jeUkM55DIlpmuV11su9qP7YtjDxhazsnfP2xQ&oe=695576BF)
 - To edit the asset, click the context menu on the asset tile, or click **Edit** in the Details view.
-- Modify the name, description, tags, folder, and associated audio file for the asset: <details>
-<summary>Screenshot showing the "Edit sound" dialog box with "Title", "Description", "Tags", and "Folder" fields and a drag and drop area to replace the sound file.</summary>
-
-<p></p>
-
-[Screenshot showing the "Edit sound" dialog box with "Title", "Description", "Tags", and "Folder" fields and a drag and drop area to replace the sound file.](../../../../images/output/img_20251211_060428_20251211_060428.md)
-
-### Overview
-This image depicts a modal window titled "Edit sound" within a user interface. The window contains fields for entering a title, description, tags, and selecting a folder. There is also a section for uploading a sound file, with options to drag-and-drop or choose files from the device.
-
-### Key Elements
-- **Title Field**: Located at the top-left, contains the text "stereo_opusenc".
-- **Description Field**: Positioned below the title field, labeled "Description · Optional". It has the placeholder text "What is your sound?".
-- **Tags Field**: Below the description field, labeled "Tags · Optional". It includes a dropdown menu with the placeholder text "Select relevant tags".
-- **Folder Field**: Situated beneath the tags field, labeled "Folder". It displays "My Assets" and has a dropdown arrow indicating more options.
-- **Replace Sound File Section**: At the bottom, it instructs users to upload a sound file in OGG Opus (.opus) format with a maximum size of 25 MB. There is a dashed area suggesting where a file can be dropped, along with a link saying "Or choose files on your device".
-- **Buttons**: Two buttons are located at the bottom-right corner. One is labeled "Cancel" and the other is labeled "Save".
-
-### Visual Flow / Relationships
-The most prominent visual elements are the title field, description field, tags field, and folder field. These are arranged vertically, with the "Replace sound file" section at the bottom. The buttons are aligned horizontally at the bottom-right corner. Arrows and dropdown menus suggest interactive elements that can be expanded or selected.
-
-</details>
-
-<p></p>
-
-
+- Modify the name, description, tags, folder, and associated audio file for the asset: ![Screenshot showing the "Edit sound" dialog box with "Title", "Description", "Tags", and "Folder" fields and a drag and drop area to replace the sound file.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/453091053_514606447743978_5542190667677873274_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=C8ucL6OWtGYQ7kNvwEs2u-k&_nc_oc=Adnj3AuShblbmKAo6gh75LGmi5S92kaKjQRD-9-HXlyO7vNsVgNujqv1cfJPJ-8qJZo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=vPBAb-dr6o2l9Dk4vj-mlw&oh=00_AfkDP8LjwBbug4PGsBgxKQSa2gdq11R50DTcSJaz6Qgnjg&oe=69556CFD)
 
 **Note**: You can replace the audio assets only for assets that you own.
 
 After the audio details are added, they are displayed:
 
-<details>
-<summary>Screenshot showing the audio asset's details dialog box.</summary>
-
-<p></p>
-
-[Screenshot showing the audio asset's details dialog box.](../../../../images/output/img_20251211_060608_20251211_060608.md)
-
-### Overview
-This image depicts a file information card for an audio asset named "Ambisonic City Noise." The card includes various metadata fields such as description, tags, folder location, file size, owner information, asset ID, and last edited date. There are interactive elements like an "Edit" button and a close ("X") button at the top right corner.
-
-### Key Elements
-- **Title**: "Ambisonic City Noise"
-  - **Location**: Top left
-  - **Contents**: Text
-  - **Visual styling**: Black text on a white background
-- **Description Section**:
-  - **Label**: "Description"
-  - **Content**: "Add description"
-  - **Location**: Below the title
-  - **Visual styling**: Blue clickable text
-- **Tags Section**:
-  - **Label**: "Tags"
-  - **Content**: "Ambisonic", "Audio"
-  - **Location**: Below the Description section
-  - **Visual styling**: Gray buttons with black text
-- **Folder Section**:
-  - **Label**: "Folder"
-  - **Content**: "My Assets"
-  - **Location**: Below Tags
-  - **Visual styling**: Gray text with a small folder icon preceding the text
-- **File Size Section**:
-  - **Label**: "File size"
-  - **Content**: "401.62 KB"
-  - **Location**: Below Folder
-  - **Visual styling**: Black text
-- **Owner Section**:
-  - **Label**: "Owner"
-  - **Content**: "metamandycho"
-  - **Location**: Below File Size
-  - **Visual styling**: Black text with a small profile picture icon preceding the name
-- **Asset ID Section**:
-  - **Label**: "Asset ID"
-  - **Content**: "15348481369999734"
-  - **Location**: Below Owner
-  - **Visual styling**: Blue clickable text
-- **Last Edited Section**:
-  - **Label**: "Last edited"
-  - **Content**: "January 20 at 1 PM"
-  - **Location**: Below Asset ID
-  - **Visual styling**: Black text
-- **Interactive Elements**:
-  - **Edit Button**: A blue button labeled "Edit" with a pencil icon
-  - **Close Button**: A white "X" icon within a blue rectangle
-  - **Play/Pause Button**: A circular icon with a play/pause symbol
-  - **Seek Bar**: A horizontal slider with a blue dot indicating the current time (0:00) and a range from 0:00 to 0:29
-  - **Duration Labels**: "0:00" and "0:29" at the ends of the seek bar
-  - **Volume Control**: Two circular icons with "10" next to them, likely representing volume levels
-
-### Visual Flow / Relationships
-- **Most Prominent Element**: The "Edit" button at the top right corner
-- **Arrows/Lines/Connectors**: None
-- **Reading Order**: From top to bottom, left to right
-- **Spatial Relationships**: Elements are arranged in a grid-like structure with clear separation between sections
-
-</details>
-
-<p></p>
-
-
+![Screenshot showing the audio asset's details dialog box.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453002228_514606444410645_6473498994597117976_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=gEHNf3T5BPUQ7kNvwHDxTFI&_nc_oc=AdmUuYEC4VMhKb_1ktxaVM8KU7ucUmB0ogPshq8UnWl9f2h_bY4CpEGKLri-vPqn0i4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vPBAb-dr6o2l9Dk4vj-mlw&oh=00_AflhdaQWZTgkWx67kWN8AvE354ctJBw3VkhdYj62jMdf-w&oe=695597F6)
 
 ## Use audio
 
@@ -286,53 +87,9 @@ To preview the audio, select it. In the Properties panel, click **Play**.
 
 You can also preview in your headset. See the following video for a demonstration of this process:
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/452642051_2470008526538904_689802133705749551_n.mp4?_nc_cat=111&ccb=1-7&_nc_sid=6500a6&_nc_ohc=1KiA6NdtJ_kQ7kNvwEY5pXm&_nc_oc=AdkTDY1FErPNHG-3ZZ-BjI2CyJvfT398FfOZhcNQhzLsl0WSXFnh04bKz-IFkLidqeo&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=Spv-pM3ZSGHBnQcq0jGmfA&oh=00_Afno0leLt6JePd0aFmYqgsh-B2N-6l6KbtGNQgDjOc8-fA&oe=69375698)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/452642051_2470008526538904_689802133705749551_n.mp4?_nc_cat=111&ccb=1-7&_nc_sid=6500a6&_nc_ohc=_7f7_eiioigQ7kNvwGjv09S&_nc_oc=Adk0V53j8i14ep4c727_zlZFQf1P4U80x2RwjGJr7XtWqB_OK23pz939-XV0ApvSBLg&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=vPBAb-dr6o2l9Dk4vj-mlw&oh=00_AfkW3uyFdR1lqm7y5y5Qk6Ymw_jTEqrby5i4qzlr0HIWmA&oe=69410198)
 
-<details>
-<summary>Screenshot of VR showing My Assets pane in the Build menu.</summary>
-
-<p></p>
-
-[Screenshot of VR showing My Assets pane in the Build menu.](../../../../images/output/img_20251211_060718_20251211_060718.md)
-
-### Overview
-This image depicts a user interface (UI) screen from a software application, likely related to asset management or design tools. The layout includes a sidebar menu on the left and a main content area on the right displaying assets.
-
-### Key Elements
-- **Sidebar Menu (Left Panel)**:
-  - **Visual description**: A vertical menu with rounded corners and a dark background.
-  - **Location**: Left side of the image.
-  - **Contents**: Contains options such as "Shapes," "Gizmos," "Sounds," and "My assets." The "My assets" option has a downward arrow indicating a dropdown.
-  - **Visual styling**: Dark background with light-colored text and icons.
-
-- **Main Content Area (Right Panel)**:
-  - **Visual description**: A large rectangular area with a dark background.
-  - **Location**: Right side of the image.
-  - **Contents**: Displays three identical asset cards labeled "Asset" with placeholder text "Lorem ipsum dolor sit amet..." and a sound wave icon.
-  - **Visual styling**: Each card has a gradient background transitioning from blue to purple, with white text and icons.
-
-- **Header (Top Center)**:
-  - **Visual description**: Text "My Assets" displayed prominently.
-  - **Location**: Top center of the main content area.
-  - **Contents**: The text is white against a dark background.
-  - **Visual styling**: Simple and clean font style.
-
-- **Action Buttons (Top Right)**:
-  - **Visual description**: A search icon and a "New" button.
-  - **Location**: Top right corner of the main content area.
-  - **Contents**: The search icon is a magnifying glass, and the "New" button has a dropdown arrow.
-  - **Visual styling**: White icons on a dark background.
-
-### Visual Flow / Relationships
-- **Most prominent visually**: The main content area with the asset cards.
-- **Arrows/lines/connectors**: None visible.
-- **Spatial relationships**: The sidebar menu is on the left, the main content area occupies the right, and the header spans the top of the main content area. The action buttons are positioned at the top right corner.
-
-</details>
-
-<p></p>
-
-
+![Screenshot of VR showing My Assets pane in the Build menu.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453002823_514606387743984_4603528703401156022_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=KsiMmhZmpWoQ7kNvwE-tSlH&_nc_oc=AdnJkQg1u18fHgdXpba_-ZRxy-Y-ofL-Me0eGh5mGB4hSOnPhrc69p1JQY_Dpdx4Eag&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vPBAb-dr6o2l9Dk4vj-mlw&oh=00_AfmbgPC2s1J0pf2hnuikyfj5xLbZAsFiA-Jrcxhf-Exobw&oe=69559135)
 
 ### Audio properties
 

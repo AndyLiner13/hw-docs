@@ -51,9 +51,9 @@ World assets show up on various discovery surfaces on mobile and VR, such as Sea
 
 Preview images appear on a variety of surfaces in a number of ways. To ensure that your key focus points are clearly visible on all surfaces and aren’t cut off or obscured, these must be within a safe area on the preview image. Non-essential artwork can be located outside the safe area, in the bleed area, but items in the bleed area could potentially be cut off or obscured on some surfaces. Additionally, all versions of the assets must be consistent with each other.
 
-Templates that show the bleed areas on an asset can be downloaded as [.psd](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499301245_1297406618721956_4090531774289224127_n.zip?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=BaeSPe5IQkQQ7kNvwFoLqxV&_nc_oc=AdnHIEKV5tYFLDCYEf2i8-B6Em5gtNQDuZt0kDMf79M2bPOGx7udOupzaS5uQGHK_ws&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afkg8RWwztKPv2KVwjyDmgxclP6e7j_crWsc6V5-FGQEiQ&oe=695445E7)
-, [.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499312032_688955387440269_953389463363890037_n.zip?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=fzKxcE3ZsB8Q7kNvwEzDIHV&_nc_oc=AdlPC2Ci1sTWsdrUQIm8Rd119d2PCITruf7sTgHlAt5kNV1X00uThUYXFOfIiIqF_uA&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmysrRLBVjC0S1a3tQq129nz-I9CQtrth3ZiE2UsOXw6g&oe=6954204E)
-, or [.fig](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/499307931_1237200417714939_8126624171608485421_n.zip?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=vzTNVzmrv1oQ7kNvwFQSmXY&_nc_oc=Adk3VzMGxx-IW1ARHrrQa2BwlcVO53MFwT8NGJzXrY_aavCdmtkzXiBD7FPDb48ZNa8&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfmT76or0Kxoo6BI9pYg19hcrDV-aGL79tzwtkauElod_Q&oe=69544832)
+Templates that show the bleed areas on an asset can be downloaded as [.psd](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499301245_1297406618721956_4090531774289224127_n.zip?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=BaeSPe5IQkQQ7kNvwF7ASJa&_nc_oc=Adm3zI-32a6pl9cMxF73h1_Aa1RcycLNNyy29-VTwSgIo0C_v78doXmNWK9Z33x7Pu-AA2gJ5o5ND6Fry-Z6V1-q&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkqzPjcbiCDX-YrfKVfeqJ-SK87fSrBj0iCZDVjvHKmMw&oe=69559767)
+, [.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499312032_688955387440269_953389463363890037_n.zip?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=fzKxcE3ZsB8Q7kNvwHYQpEP&_nc_oc=Admd9XuSDPVuMCJQPPv1HkrY5Wq7LhizztFARPXMyPQ0OTb5-pmaqtz8eM_w1BBVZ1sQ7ep4m8CGomj2P_u7HyG1&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afn48EPuixwWnV6GyM0QQ1c7-eB7tcLmxfBuuBsEFGwfrQ&oe=695571CE)
+, or [.fig](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/499307931_1237200417714939_8126624171608485421_n.zip?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=DxZaCJl4idcQ7kNvwFFSaWL&_nc_oc=Adk4StZ7P-d6r-qSlM_8AyGTCAWplE3A0DvfA_MzRv9mUzKqdCcHl3rHojYG2EHrMgOCyTUBviCaJn7fr_bAC5VC&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afk5Z2mHxQVRNZGFgUGwL0JlNzNDTvC7k6ckA4gQ5oS5GQ&oe=695599B2)
 templates.
 
 Whether your asset is displayed on your Product Detail page (PDP) in VR or a category section on the mobile app, we strongly recommend that you take the time and effort to ensure that your assets look their best.
@@ -66,7 +66,7 @@ Refer to the following asset types and guidance when creating your world assets.
 
 Cover assets come in three varieties (landscape, portrait, square) and are the most frequently viewed marketing content for your experience. They may be displayed in web browsers, mobile and PC clients, in the headset, and other places at various sizes.
 
-![An example of a set of cover assets in landscape, portrait and square. Note the design consistency. The images are not identical, but have the same design elements in similar positions.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/596819971_884464727424813_92797240545585289_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZuXevrTPX3EQ7kNvwFO4GIp&_nc_oc=Adn1n1hiIhNAvMZ3eR-xTsQS8PJ_db54sdkFRAFAK5dbkJUzzuy4BwblTyFvbKuz3zg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=aFkki1XaAFyjq8WfbvpKlg&oh=00_AfnccHKf_cFlm1KTmYS-WDAkV1_khtykerGlYL2K2-T-0g&oe=6954442D)
+![An example of a set of cover assets in landscape, portrait and square. Note the design consistency. The images are not identical, but have the same design elements in similar positions.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/596819971_884464727424813_92797240545585289_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=NAKVJazISjQQ7kNvwGAuxhR&_nc_oc=AdmxknM9PA4VEdPjXY0EzI5YPzueRHa2vDFhq9P9PtdHc6nI-Yl-qrOVVp56_7egaPwJHLlmNhQX5lsp_ZrV-3JK&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FLVGJB74zFwSf_8ebWGIvg&oh=00_AfmdhhZ0ZLSxUsN3igoCAqo1btn19R3GsLAaVZ2keOIo-Q&oe=695595AD)
 
 #### Cover assets requirements:
 
@@ -78,7 +78,7 @@ Cover assets come in three varieties (landscape, portrait, square) and are the m
 
 Icons are primarily used for situations requiring a small, yet clear and readable image. Your icon art needs to maintain legibility across various sizes, so you may have to modify visual elements so that they remain clear as the image is scaled down.
 
-![Examples of icons for various worlds. Note the clear focal points for each icon.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/596799811_884464734091479_8908579346496386649_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=hzacQ_kNsYAQ7kNvwGr6Gnt&_nc_oc=AdkTCYI8eCZiWfvPRNhL0xWKRXF3_oOzN_9MaZaU-gQe63q8kF0fXbJSYw-cSMYWHSk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=aFkki1XaAFyjq8WfbvpKlg&oh=00_AflJpN0vQrUUeG7FiAT9v5MMIvTwWuyf1uLujNj47XsZ4w&oe=69543828)
+![Examples of icons for various worlds. Note the clear focal points for each icon.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/596799811_884464734091479_8908579346496386649_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=hzacQ_kNsYAQ7kNvwFIjIzR&_nc_oc=AdmtJE1YjRPl4CcAHR2mbOVTDHHzlIhOwMw8-iHsoUSbDkTP2cXz14rh-COamvBaUuGGadDIlnp-g_eVTrg-cUdr&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FLVGJB74zFwSf_8ebWGIvg&oh=00_AfnPMBflG2FCUnKUWre-zea-n3nq2xxBDvmbkOk2wgpOig&oe=695589A8)
 
 #### Icon asset best practices:
 
@@ -97,7 +97,7 @@ Icons are primarily used for situations requiring a small, yet clear and readabl
 
 Screenshots are essential for helping users decide whether to visit your world by giving them a preview of what to expect. Each image you use should represent a unique scene highlighting the best part of the experience.
 
-![Examples of screenshots from Kaiju City Showdown.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594975081_884464730758146_6976910341751765405_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=xTYjKHurb9MQ7kNvwG38E1Y&_nc_oc=Admiq8k_6stCERBW0qnuF6bWEO8YuozX2UHYaasx0o6mdwj409CobjqqSHHFG27G-lw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=aFkki1XaAFyjq8WfbvpKlg&oh=00_AflAcWxE_QLSdbi5Ht7H8xAjfDwiPf-P4RbTeF-0WzNZOg&oe=695434AD)
+![Examples of screenshots from Kaiju City Showdown.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594975081_884464730758146_6976910341751765405_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=xTYjKHurb9MQ7kNvwHfMcjb&_nc_oc=Adn0m-miOfaU_SEkoM_uhGiCKs15gEDkG_9WGDouYbENGFCP4EB-1v-ja4a5Qt0pvNA1z8IpI-vE4KahCUHZjh30&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FLVGJB74zFwSf_8ebWGIvg&oh=00_AfnHskZYVsGE2uaYCZxWJ84d4nlfI3p15PpuXycu_Kz5Zg&oe=6955862D)
 
 #### Screenshot requirements:
 

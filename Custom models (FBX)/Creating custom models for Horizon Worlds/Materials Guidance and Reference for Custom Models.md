@@ -8,7 +8,7 @@ A [mesh](https://en.wikipedia.org/wiki/Polygon_mesh) is a collection of vertices
 
 A material is a set of properties that define how an object responds to light. A material specifies the way that the object reflects, absorbs, and transmits light. You can think of materials as the “paint” that you apply to the surface of an object. Materials can have various properties such as color, reflectivity, transparency, and roughness.
 
-You can assign multiple materials per mesh in the FBX file, and multiple FBX meshes can share the same material. For more information, see [Multiple Materials per Mesh](../../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Multiple%20Materials%20per%20Mesh.md).
+You can assign multiple materials per mesh in the FBX file, and multiple FBX meshes can share the same material. For more information, see [Multiple Materials per Mesh](Multiple%20Materials%20per%20Mesh.md).
 
 ## Filename Criteria
 
@@ -52,43 +52,7 @@ Using two textures gives control over more of the PBR properties.
 
 ### Unlit Materials
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_010412_20251211_010412.md)
-
-### Overview
-This image displays three hexagonal icons arranged horizontally against a grid background. Each icon contains a distinct symbol and color scheme.
-
-### Key Elements
-1. **Left Icon**
-   - **Visual description**: A red hexagon with a black border.
-   - **Location**: Leftmost position.
-   - **Contents**: Contains a black exclamation mark (!).
-   - **Visual styling**: Solid red fill, black outline, and a white inner border.
-
-2. **Middle Icon**
-   - **Visual description**: A yellow triangle with a black border.
-   - **Location**: Centered between the first and third icons.
-   - **Contents**: Contains a black exclamation mark (!).
-   - **Visual styling**: Solid yellow fill, black outline, and a white inner border.
-
-3. **Right Icon**
-   - **Visual description**: A hexagon with a gradient fill transitioning from green to pink, with a black border.
-   - **Location**: Rightmost position.
-   - **Contents**: Contains a black question mark (?).
-   - **Visual styling**: Gradient fill from green to pink, black outline, and a white inner border.
-
-### Visual Flow / Relationships
-The icons are evenly spaced horizontally across the grid. The exclamation mark and question mark symbols are clearly distinguishable within their respective shapes. There are no connecting lines or arrows, indicating that the icons are independent elements.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746741_512510151286941_7543427180543090042_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=YfloD-1jxt8Q7kNvwGYSx85&_nc_oc=AdnvtZhcwKxchavfqLS7o_4wRPIGV_YdIDhV50wn1rakGXrYQrDVKCXf0e-69ypfMcKzqgthMfbFDn-Myw4CbCrv&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_AflKR36gx7QnPbkoSYSarcwa7R_CX5aVvPH9Okh41Z9AZw&oe=6955803B)
 
 Materials that do not receive or cast lighting or shading are considered unlit. The material name in the FBX must end in “\_Unlit”. Any extra channels, such as the fourth channel, are discarded.
 
@@ -100,30 +64,7 @@ Materials that do not receive or cast lighting or shading are considered unlit. 
 
 ### Unlit Blend Materials
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_010511_20251211_010511.md)
-
-### Overview
-The image depicts a 3D-rendered scene featuring a brick wall with a window and a white, curved object resembling a lampshade or light fixture. The floor is tiled with large, light gray tiles.
-
-### Key Elements
-- **Brick Wall**: Located on the left side of the image, constructed from red bricks arranged in a staggered pattern. The wall has a rectangular window with a dark brown frame. The window appears to be partially open, allowing light to enter.
-- **Window**: Positioned centrally within the brick wall. It has a grid-like pattern inside, suggesting glass panes.
-- **White Object**: On the right side of the image, there is a white, curved object that resembles a lampshade or light fixture. It has a smooth, glossy surface and is positioned on the floor.
-- **Floor**: The entire scene is set on a tiled floor with large, light gray tiles. The tiles have a subtle texture and are bordered by darker grout lines.
-
-### Visual Flow / Relationships
-The most prominent visual element is the brick wall with the window. The white object on the right acts as a secondary focal point. There are no arrows or lines connecting the elements, but the arrangement suggests a simple, static scene without any implied interaction or movement.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452955733_512510171286939_5181638036183860130_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=5GlwWTYSXWwQ7kNvwE8gQWW&_nc_oc=Admhc-OQb7vqOv8j5eBYMD6jx9EYy_4Rt1zOow9UdHVRy0RQ5YmEUzlDMDgQ9PcjSPUDsKBU7f7krN8bFNQxHs1t&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_AflPN0ubUpomsmRD8cmQSABTD8SCjHLpsWGBrrqF4aJ-qQ&oe=695570B7)
 
 Blended materials that do not receive or cast lighting or shading are considered blended and unlit. The material name in the FBX must end in “\_Blend”. Unlit blended materials do not have any specular or reflection properties.
 
@@ -135,31 +76,7 @@ Blended materials that do not receive or cast lighting or shading are considered
 
 ### Transparent Materials
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_010610_20251211_010610.md)
-
-### Overview
-The image displays a collection of colorful, geometric shapes arranged on a tiled floor. The shapes appear to be crystals or gemstones, with varying sizes and orientations. There are also small spherical objects with orange caps placed near the crystals.
-
-### Key Elements
-- **Purple Crystals**: Located on the left side, these crystals are large and have a faceted, crystalline structure. They are purple in color.
-- **Green Crystals**: Positioned in the center, these crystals are smaller than the purple ones and also have a faceted structure. They are green in color.
-- **Red Crystals**: Situated on the right side, these crystals are similar in shape to the green ones but larger and red in color.
-- **Small Spheres**: There are three small spheres with orange caps located near the crystals. One is blue, one is green, and one is red, corresponding to the colors of the crystals nearby.
-- **White Sphere**: A white, faceted sphere is positioned towards the back right of the image.
-
-### Visual Flow / Relationships
-The arrangement of the crystals and spheres creates a symmetrical layout across the image. The crystals are grouped together in clusters, while the spheres are placed individually near the crystals. The overall composition suggests a display or arrangement of gemstones.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522449_512510154620274_2357687186968881662_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=dfpNMHwTc6gQ7kNvwHJYQH8&_nc_oc=Adl7PdZ_j55SATJgSKxwCoCs78OCxn4Axk_XXrJ_HaCTF0pZ2cgiKzW_q-jW2ezH7CfusNsLyopaEUPh3-p55ESw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_AfmN6_7RhTBebvij9601RoRQ6V5OaQ8JrShUfrb2xlPVDA&oe=69557938)
 
 Transparent materials allow light to pass through. A specular channel is used, which modulates specular and reflection amounts. Using two textures gives control over more of the PBR properties. Material name in FBX must end in “\_Transparent”
 
@@ -172,31 +89,7 @@ Transparent materials allow light to pass through. A specular channel is used, w
 
 ### Masked Materials
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_010714_20251211_010714.md)
-
-### Overview
-The image depicts a vibrant outdoor scene featuring ancient stone ruins partially overgrown with lush greenery. The central focus is on two large, weathered stone pillars that form part of the ruins. A small, blue, spherical object resembling a potion bottle is placed near one of the pillars. The surrounding area is filled with dense grass, wildflowers, and scattered rocks, creating a serene and natural atmosphere. In the background, more trees and a clear sky with a few clouds are visible.
-
-### Key Elements
-- **Stone Pillars**: Two large, gray stone pillars with visible cracks and wear, situated centrally. They are part of an ancient ruin structure.
-- **Blue Potion Bottle**: A small, blue, spherical object with a cork stopper, located near the right pillar. It has a glossy finish.
-- **Green Grass and Wildflowers**: Dense patches of green grass cover the ground, interspersed with white daisies and other small flowers.
-- **Background Trees**: Several trees with green leaves are visible in the distance, adding depth to the scene.
-- **Sky**: A bright blue sky with light clouds occupies the upper portion of the image, with a geometric pattern overlaying the sky.
-
-### Visual Flow / Relationships
-The image is centered around the stone pillars, which draw the viewer's attention as the primary subject. The blue potion bottle adds a point of interest near the right pillar. The grass and wildflowers create a natural foreground, while the trees and sky provide a backdrop. There are no explicit arrows or lines connecting elements, but the arrangement suggests a natural progression from the foreground to the background.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452635163_512510161286940_8652445767142113425_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FnRggIdiqhAQ7kNvwHJI84Q&_nc_oc=Adl0yGH2Tq2vkOEHcfUv5KZ3eI-b8fTT2e_QRjM16hadyimWiTjhBRWRS-0vYMPrO0T_b9BrvKlyvKJJzajtWdUn&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_AfkUeyoK7ldwwMFG6MBEySNOrPXL7Rx9hnGOizkzc4KlvA&oe=69556B02)
 
 Masked materials are used for controlling the mixing of two textures. The material does respond to specular and roughness properties, but is considered fully rough; i.e., roughness = 1. The A channel of the texture drives the alpha, where white is opaque and black is clear. Alpha cutout happens at 0.5 (matching the default for GLTF 2.0 and Unity). Material names in FBX must end in “\_Masked”.
 
@@ -208,57 +101,11 @@ Masked materials are used for controlling the mixing of two textures. The materi
 
 Also supported is a “masked vertex color” material. In this case, the **BaseColor** texture is multiplied with the mesh’s vertex color. Material names in FBX must end in “\_MaskedVXM”.
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_010808_20251211_010808.md)
-
-### Overview
-The image depicts a character standing in a field of tall grass and wildflowers. The character is viewed from behind, wearing a black hoodie and dark pants. The scene is vibrant with a mix of green and golden hues, suggesting a rural or natural setting.
-
-### Key Elements
-- **Character**: A figure with dark hair tied up, wearing a black hoodie and dark pants. The character is facing away from the viewer.
-- **Grass**: Tall, golden grass dominates the foreground and middle ground, creating a textured landscape.
-- **Wildflowers**: Scattered throughout the grass are various flowers, including yellow dandelions and purple blooms.
-- **Background**: The background features more greenery and possibly some structures partially visible at the top right corner.
-
-### Visual Flow / Relationships
-The character is positioned centrally but slightly towards the bottom of the frame, drawing attention to the expansive field around them. The flowers and grass create a sense of depth, with the flowers appearing closer to the viewer than the grass. There are no arrows or lines connecting elements, and the reading order seems to follow a natural progression from the foreground to the background.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/539055655_798794379325182_7362778889624657389_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=mEHjK9SWUbsQ7kNvwGUv1VZ&_nc_oc=Adl4JDhUgH3QJDTdse7_7vxIhuthyoQSsvSUP_RY0gUpMBPGrbEZE6WMw2QAyq2kTUGuGElWpfMXNsb2f2IHFRFJ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_Afm6kZJMMulAFxETOJihX-7pcNdUZ9PbOie6scKiNK35Hg&oe=69558FAA)
 
 ### Vertex Color PBR
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_010852_20251211_010852.md)
-
-### Overview
-The image depicts a simple scene with two swords standing upright against a clear blue sky backdrop. The foreground features a flat, sandy terrain with gentle hills. The overall composition is minimalistic, focusing on the two swords as the primary subjects.
-
-### Key Elements
-- **Left Sword**: A sword with a vibrant orange blade, a circular hilt with a red center and yellow dot, and a brown handle. The hilt has a star-like design with radiating lines.
-- **Right Sword**: A simpler sword with a white blade and a dark green hilt. The hilt is plain without any additional designs.
-- **Background**: A gradient blue sky that transitions from lighter at the horizon to darker at the top.
-- **Foreground**: A flat, sandy landscape with light brown tones and small hills.
-
-### Visual Flow / Relationships
-The two swords are positioned symmetrically, one on the left and one on the right. The left sword is slightly taller than the right sword. There are no arrows, lines, or connectors, and the reading order is implied from left to right due to the placement of the swords.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452846268_512510174620272_2366064968037736374_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Jxo_OXkh_xkQ7kNvwF3vOJO&_nc_oc=AdneDU8g9-URKR3Q-tFiJVL4wtZbKzo6iIjJSoki3pLDa6ibhrwk6Ywm7LpnaLeFSBtnvdTvF6FiqnlXX6INpfsb&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_Afn0kEF1xFJHsfxw0aYNW5ufDYyjHUx4aFJtzYBbhCPGOw&oe=69559103)
 
 Vertex colors are RGBA values that are applied directly to mesh vertices. They do not contain any textures. You can use vertex color for:
 
@@ -270,29 +117,7 @@ A material name in the FBX must end in “\_VXC”.
 
 ### Vertex Color Single-Texture PBR
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_010939_20251211_010939.md)
-
-### Overview
-The image depicts a scene with numerous stacked rectangular structures resembling shipping containers or storage units scattered across a sandy terrain under a clear blue sky. The containers vary in height and color, with some appearing metallic and others painted in pastel shades. There are faint white lines in the sky suggesting a digital or virtual environment.
-
-### Key Elements
-- **Stacked Containers**: These are the primary elements in the image. They are rectangular, varying in height and width, and are arranged haphazardly. Some containers are metallic gray, while others are painted in pastel colors like pink and yellow.
-- **Sky**: The background is a clear blue sky with no clouds, providing a stark contrast to the containers.
-- **Ground**: The foreground consists of a flat, sandy surface that extends across the bottom of the image.
-
-### Visual Flow / Relationships
-The containers are distributed across the scene without any specific arrangement, creating a sense of randomness. There are no arrows or lines connecting the containers, and the reading order is not implied by the layout. The containers are the most prominent elements due to their size and number.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522576_512510164620273_7391129338506219413_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=AlkLud3OAq4Q7kNvwFc2hPm&_nc_oc=AdlDZ4L6X6JrebuENeV8JV6r6uUkp7CLY1HvO_gITbhiXWK2GERpKfgeZy2M_vW7PxLqd20ZwNp1_jY43g5jEk_M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_Afl46E1Se_Su_rOmCIKIpI_p4fEpvk_lPPlW7Jq9MmwxGw&oe=69556E62)
 
 Vertex colors are RGBA values that are applied directly to mesh vertices and then multiplied with a texture **BaseColor** as input to both GI and shading. You can use vertex color for:
 
@@ -324,57 +149,7 @@ Material names in FBX must end in “\_VXM”.
 
 ### UI Optimized Materials
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_011100_20251211_011100.md)
-
-### Overview
-The image displays a comparison between two versions of a user interface element, likely a dialog box or card, with one version labeled as "un-optimized." The interface includes text, icons, and a small 3D model of a sphere and cube. The background features a textured column resembling lava or fire.
-
-### Key Elements
-1. **Top Left Section**
-   - **Visual description**: A rectangular card with rounded corners.
-   - **Location**: Top-left area of the image.
-   - **Contents**: Contains a title ("Text Title"), a paragraph of placeholder text ("Lorem ipsum dolor sit amet, consectetur adipiscing elit"), a smaller text saying "Hello," and a small icon labeled "Fog text fog."
-   - **Visual styling**: White background, black text, pink "Hello" text, and a small red icon.
-
-2. **Top Right Section**
-   - **Visual description**: A similar rectangular card but with additional text indicating "un-optimized."
-   - **Location**: Top-right area of the image.
-   - **Contents**: Same as the top-left section plus the word "un-optimized" in red above the title.
-   - **Visual styling**: Same as the top-left section but with the addition of red text for "un-optimized."
-
-3. **Bottom Left Section**
-   - **Visual description**: Another identical card to the top-left section.
-   - **Location**: Bottom-left area of the image.
-   - **Contents**: Identical to the top-left section.
-   - **Visual styling**: Identical to the top-left section.
-
-4. **Bottom Right Section**
-   - **Visual description**: Another identical card to the top-right section.
-   - **Location**: Bottom-right area of the image.
-   - **Contents**: Identical to the top-right section.
-   - **Visual styling**: Identical to the top-right section.
-
-5. **Sphere and Cube Models**
-   - **Visual description**: A small 3D model of a sphere and a cube.
-   - **Location**: Next to the text in both the top-left and bottom-left sections.
-   - **Contents**: The sphere is labeled "A round sphere," and the cube is a small red cube.
-   - **Visual styling**: The sphere is dark purple, and the cube is red.
-
-### Visual Flow / Relationships
-- **Most prominent visually**: The cards with the "un-optimized" label.
-- **Arrows/lines/connectors**: None.
-- **Spatial relationships**: Cards are arranged in pairs, with the "un-optimized" label appearing only in the top-right and bottom-right sections. The cards are evenly spaced horizontally and vertically.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452541679_512510181286938_784385883995309106_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=zD4F9Ie06gMQ7kNvwFiO5UJ&_nc_oc=AdmChM5HIJ-Ljci0mrqwYI1sx5UAztlBaSiC3UkiRgdkcjhL3D7kge1zWqkENQe6KUnbv-OTYuubPv0jDsAhEk4B&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_Afk3jwMPXL47VZIzTpubCTu1sHzV1CQ2E3sbvwI3YgJMSg&oe=69559D73)
 
 UI Optimized Materials are optimized to provide better quality UI elements (e.g. text, icon) when displayed. These textures are unlit and do not receive or cast lighting or shading.
 

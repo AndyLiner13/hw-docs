@@ -8,7 +8,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 It’s a good idea to use [Tracing](../Performance%20tools/Tracing.md) to verify the cost of haptic feedback in your world. In some cases, the cost can be extreme. In this case you should look into modifying/removing the haptic feedback.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452415052_512500641287892_3419482455229549771_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=7W2YYm4lSosQ7kNvwGuNpBc&_nc_oc=AdkeFs5zi4AcYOziVyQcJIXYuE2SZQ0XjPolc5c5H9pCct_rRwufxkYVooZBOSe6Ehg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_Afka7Sz4YPsbo5mYWI1yzeLhTnYgj5Ak2HQoyh20HtqLHA&oe=694BD773)*In this example, haptic feedback takes ~7.8 ms per frame when active.*
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452415052_512500641287892_3419482455229549771_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=5oitbgzg2ZgQ7kNvwEYIXX2&_nc_oc=AdmOgkPf8KheEP2MDupT7AX9z8Pp8o1JvzGhHD4xo7YK_pxIvEyUvLqdeLxew0lmahZVzuFSbwQl5GYmduL8JiPb&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfnKXEjoOcttuU9lCcZzITf-7VNrSd81fufxVlCP8wr6uA&oe=69558273)*In this example, haptic feedback takes ~7.8 ms per frame when active.*
 
 ### Trimesh and SubD don’t mix
 
@@ -20,7 +20,7 @@ When editing objects in Desktop Editor, ensure that only settings that are neede
 
 For example, if the “Motion” property is set to “Animated”, components will be automatically added to account for that change (CollisionNotifier, Rigidbody, and a PhysicsComponentSG component).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452954647_512500631287893_7177151756270803345_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=RXE1m7J0n8kQ7kNvwE4p0C1&_nc_oc=AdkVAqHkUfuJRAnfFB-X0G9rkpjpCLNDPhWjSEI_qLtix6mc95IqijrveB6BCo6_T8s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfnTccLIfOCOYvXN8lHNOW-BMq3Zu1QGM7L8LuewwZdnfQ&oe=694BB671)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452954647_512500631287893_7177151756270803345_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=3uqfzgKxmnsQ7kNvwF9KSbD&_nc_oc=AdmQaeYhJqpnCiNCccS24USNhV6aCrenz3kHhzxLVyBV1jMgbblugev00hWOQiAohVI1Azf_Mb4zr6d0AyDgy-zM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_Afkhfw3etm8D7h4ISP8idRzX7vWPdJ82Or0W6cDJz-1QQw&oe=695599B1)
 
 Also, if objects won’t ever be seen by the player, then turn off visibility as well. Keep in mind that additional settings will add runtime cost to a world such as costs to Physics and Sunlight so recommend turning off settings that aren’t needed.
 
@@ -40,7 +40,7 @@ Optimizing TypeScript can have some of the largest impact when trying to improve
 
 You can use deep profiling to find out what the expensive bridge calls actually are and how much CPU time they use when tracing. Note that associating these calls directly back to a line of code is not currently automatic and you’ll have to manually find those in your code.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452416347_512500627954560_8716800481369087731_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=z16PfbrCBHwQ7kNvwGAiPQT&_nc_oc=AdnKFqmGxbEBaHUde3maVIYQ7wTXV7ak9MzMkS-xrJn6D--ltwMAlFQ46COipl6o6eQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfmgGz-bZULg5WyYlpKu9wnbl42WHan7eHcuHh-5z8_XaQ&oe=694BC243)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452416347_512500627954560_8716800481369087731_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=usoJ_NyW4bkQ7kNvwFzS-Bb&_nc_oc=Adm5FyQHEy4t8IiF9AuiQzfgUzhBNV7ZMZov149efvv5UnlG2UQGaGgkSZHIYX7AVM2s1R0EQa2OSQ4QUBnXO8Do&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_Afn8LSV6mHtGk3uj7TrggCfR_OKtqB3NoaozSxiXZfJfTA&oe=69556D43)
 
 *Toggle to enable deep tracing*
 
@@ -171,7 +171,7 @@ Raycasts can be very expensive. Using a short raycast distance will be much chea
 
 Playing audio clips is very CPU intensive. Whenever possible, combine multiple separate sounds into one merged sound file to improve performance. There is an option for audio called **Play and Forget** that runs faster but it does not provide any callbacks. We recommend that you use **Play and Forget** whenever possible. You can still get a similar effect as the callback by using a timer.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452878100_512500624621227_8465348933482063789_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=SGcdn5yOZbIQ7kNvwH6ssjE&_nc_oc=Adl0pDj9gYPySYNxSInX2hrjH4k3poZc3abiht4ay1Ai-k8XFZsTtDfwuIZH1Or_Af0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfnOtD8PYJ2MHBN-BER9YDhH_gTTt4EyIV5CkE_JZMeM1g&oe=694BC6A2)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452878100_512500624621227_8465348933482063789_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=8wluW6c_vnIQ7kNvwFG0ANL&_nc_oc=Adk4Zj21WSkR2qEKh1yRbg5-DGcuQVSndo_98HM73ZrbaE6xTi0TJIN3H4GLt-8ChT8WrPwWHFH7gNsapBUnNzE_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfnE07REHRcdje2m6yBOfEFGMqrMLcuTUIEXGcjcFQ5iqg&oe=695571A2)
 
 Here are some more audio playback optimization recommendations:
 
@@ -196,7 +196,7 @@ In server traces, an object spawn can take a significant amount of time. Traces 
   + GetEntityCount
   + ClientSpawn
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452704475_512500537954569_7031487538570193556_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=W2mZ8qfivq8Q7kNvwFqFyTT&_nc_oc=AdmGInYAcCpULfpJ6PW_79bfWyRiVjHUUyQChJhgHH6mCYDtqlbaedFBKYZPJ_zs51I&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_Aflckjr0V5KdnNY-ui6F2jKk7jCf2-y_HgO_7yy6wnJ-5Q&oe=694BD392)*ServerSpawn, in this trace, lasts over 1.5 seconds.*
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452704475_512500537954569_7031487538570193556_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=HtEMXC3UzhAQ7kNvwFit3kB&_nc_oc=AdmJtTa3bPz3cBKKEpTA6RLQGtQnNP8dIIk7b6PUqGCQQHj8LVNnKElBsRtoxSmk5tZinf6ZCyPgWrVVEUNMaTa0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AflGS_fznHKybMFkxA_RI-fDhv4gUGO1tjHV9U6sSAzFUg&oe=69557E92)*ServerSpawn, in this trace, lasts over 1.5 seconds.*
 
 Although ServerSpawn is not processed on the main thread, secondary effects are seen there.
 
@@ -207,11 +207,11 @@ Multiple calls can be seen in the trace:
 * `ScriptingRuntimeIntegration::InstantiationStep`
 * `DynamicLightsRuntimeIntegration::PostSpawnInstantiationStep`
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452533527_512500531287903_3706876015676299264_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=_LJa9z-2ucgQ7kNvwEYzqsT&_nc_oc=AdlkLHVpXu2s1plOJTNlW6gCIIvx6_I67APwcRfgh6g4O1VDtzJq58WTxCjC8yuZrz4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfkA-95MWd9yoXUsqQwSg7_hvLVVfPdPC-PGB5Dly9Nn-Q&oe=694BDE7E)*In the server’s main thread, spawning objects also leads to skipped updates.*
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452533527_512500531287903_3706876015676299264_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=aj5VSq5k5G0Q7kNvwFQlYFw&_nc_oc=AdmO2hYiVCbBqxCYITKZBRd3JmATOl6Wz1MGUtQaRGiqhHwcjdI9U2WMR6ZQSWBnpP1whRndf238w70uu8E5GqDz&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfmnHt_V9NxIIhHbmqkj0IKfko9t6mjjubyUvjoCpDMw8A&oe=6955897E)*In the server’s main thread, spawning objects also leads to skipped updates.*
 
 A similar pattern is seen in client traces.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935617_512500534621236_8571856347165737758_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=cCddXWY1-WYQ7kNvwHo_-xK&_nc_oc=AdnSUodBRWDVa2-wSjhWOmSxyObZGg1bKQ4EAo1YyvEP8BMJv3100H7khSK3DlcrtH4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfmRdkhPw22aVst8azpD5G9YCBD_kQhG4WpxCMzIpZwj0A&oe=694BC810)*ClientSpawn runs for 280 milliseconds on a secondary thread.*
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935617_512500534621236_8571856347165737758_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Pz2DzYqj3hMQ7kNvwGSHRyr&_nc_oc=AdkLU9wbmJGFRDFJ77eAgC2iHceT_x2Q5XUtK4VTKbtF3fZ1SC3EDRjm_vBMDiZSjxrtHgkKE7HRDsTHaAFzGx7z&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AflpgzEQvW-xuHuBRuiSTaZG5Di48Gp90Qcqx9SGWibBig&oe=69557310)*ClientSpawn runs for 280 milliseconds on a secondary thread.*
 
 Effects of spawning on the client’s main thread are more troublesome. Multiple calls can be seen disrupting the main thread:
 
@@ -222,7 +222,7 @@ Effects of spawning on the client’s main thread are more troublesome. Multiple
 * `SubDRuntimeIntegration::InstantiationStep`
 * `PhysicsRuntimeIntegration::InstantiationStep`
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452486020_512500617954561_1498065068073528888_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ipUqMPbgwVwQ7kNvwGOxq4U&_nc_oc=AdlIrVyVDtoNXMeDDs4ys-f8l4NCtPGQyZWXXpLBBwy96aKrl1SSJLhVjaQiw2ttrP0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfkG3rAqqwWNBv9qNAygbnwalRfcKfy7rWgZexVr24es1g&oe=694BE36C)*ClientSpawn disruptions on the main thread cause multiple long and skipped frames.*
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452486020_512500617954561_1498065068073528888_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=NxjrvdB8w68Q7kNvwEM7rNW&_nc_oc=AdnGJq7V_cys1PeU6qKwj0i3nOiaL3NxmiUwrRz7J8SXdsKHfusCE6GgAUvTDdxIBcEBGsYJe9mwj5cK7g0yEPsV&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfnFkl3IyjJcW3IN3gSlv0FbM58pOeQoof3voKdYmG0zuA&oe=69558E6C)*ClientSpawn disruptions on the main thread cause multiple long and skipped frames.*
 
 ### Potential solutions
 
@@ -409,7 +409,7 @@ Highlights:
 * Do not define bindings without a concrete purpose. This may happen by writing a custom abstract API layer wrapping the base UI components (View, Image, Pressable, etc.), and defining bindings for every prop as a convenience to consumers. On the local client, a binding set operation passes the entire key-value store to ReactVR. So the bigger this gets, the greater the CPU cost to perform a single binding set.
 * Animations, by way of periodic binding updates, should be implemented with care or not at all. This is due to the twofold nature of the bridge call frequency limits, and network latency and droughts/bursts associated with that. Consider using the [Animation API](../../Desktop%20editor/Custom%20UI/Animations%20for%20custom%20UI.md) instead when needing animations for UI.
 
-![Architecutral diagram of the server-client relationship](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501031261_729959856208635_1618126584846801507_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=_C4jSZulqlEQ7kNvwFbDn9t&_nc_oc=Adl_bo5JyGrBL5kW0ncCh4RHHBhb5osMOnOnPbGKgc-4NW18P0RFbzRq-KRtpCORV4U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AfmeiIOofAwx1oEvcelM0i0UwRYmaIzezMdu9-HRiu9zOw&oe=694BD7BE)
+![Architecutral diagram of the server-client relationship](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501031261_729959856208635_1618126584846801507_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=lqMTbXtv1bsQ7kNvwHBzxCe&_nc_oc=AdnlO-SZGZVgoHVAYrBh65D6p2vmgZ3tanXIwV2bafhF_yK12BFHYR9CEzIHHPF89CgVQ5A1Li9vpXDfR_Zm4gEh&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfnEual2PujTcR837eXq54W3-ZvaJJpMkRj56wDYTgqPhw&oe=695582BE)
 *Architectural diagram of the server-client relationship*
 
 ### Profiling UI
@@ -439,7 +439,7 @@ From a Deep trace pulled into Perfetto, watch the synchronous cost of these mark
 
 One useful method to make sense of this in aggregate is to drag a 5 second block across the main thread and look at the total wall time for that marker, divided by 360. For `Verts::PollDriver::Rpc` in the screenshot below, that is **0.25 ms** (90.03099 wall duration in seconds divided by 360 frames).
 
-![Verts::PollDriver::Rpc in Perfetto](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501585933_729959869541967_3381825224616955454_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=p_DCwdDNLdkQ7kNvwHIimKd&_nc_oc=AdmQ8WvmRtKKK_CqV_Es5fWQjpbxtebURhNR3ROuqIpQODFGrgt4KFQ2O9jz9DbgV_Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GdtygilOlWBB9waMUy86mQ&oh=00_AflTn_KilI2XQy9TOR0cs0YA7YYMGvXoPpLDD3y-lbSzCg&oe=694BE620)
+![Verts::PollDriver::Rpc in Perfetto](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501585933_729959869541967_3381825224616955454_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=VjO31VE0FnwQ7kNvwE8IaKX&_nc_oc=AdlYwjfZ3wOotjSdvWq3iKKH792M1n4sl68WEFH3x1DtjAQEh8XvYXzpcbzn4Ny4Zr_i2oUU3pTgkan2ws-2wKQx&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfkRd8XyFzniRY-zdvpP7Sj_oWi0hTYn67-mg1PTNXMFGA&oe=69559120)
 
 ### Binding Set and Callback Frequency Limits
 

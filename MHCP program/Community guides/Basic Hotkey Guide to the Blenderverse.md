@@ -84,7 +84,7 @@ In the world of Blender, every key is a portal to infinite creativity. Unlock yo
 
 |  |  |
 | --- | --- |
-| Download PDF: | [Basic Hotkey Guide to the Blenderverse](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/57575351_855287543395906_2879837787102661763_n.pdf?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=kqRTDyR9ZPkQ7kNvwGr6Pof&_nc_oc=Admc9FqBdsjovYqAz4TtLPa-6pTfchT5_PrnrO7LdRIsQC2YT470eLo-7TMKGiil5AE&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AflTuQ2N7ZeOCormt3-RK2t6Z7njcBsnSJ3reBiS2oqxgw&oe=694BE3F8) . |
+| Download PDF: | [Basic Hotkey Guide to the Blenderverse](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/57575351_855287543395906_2879837787102661763_n.pdf?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=um3AF-qdAk4Q7kNvwHkdNMX&_nc_oc=AdnuxbsaNn8SF_8hZRQSlo5wBCxaCAnN-XLywwEQN7jTy3TCFsaKh4mVuhwSdx2vcYr4iYl3Xh1ay7MR3Y1Kge9t&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfkMTWABujWXZ455pqRb7vQ74pG-8syoavCeFJfXRtr_WQ&oe=69558EF8) . |
 
 ## Space Glitter’s Basic Hotkey Guide to the Blenderverse \*For Mac Users
 

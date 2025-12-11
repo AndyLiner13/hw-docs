@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Dynamic light gizmo
 
-The dynamic light [gizmo](About%20gizmos.md) allows creators to add dynamic lighting effects such as moving and changing lights. Some common use cases include enhancement of atmosphere and [highlighting important areas or objects](../Tutorials/Economy%20world%20tutorial/Module%203%20-%20Configuring%20Gameplay%20Entities.md#configuring-the-apple-spawners).
+The dynamic light [gizmo](About%20gizmos.md) allows creators to add dynamic lighting effects such as moving and changing lights. Some common use cases include enhancement of atmosphere and [highlighting important areas or objects](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/economy-world-tutorial/module-3-configuring-gameplay#configuring-the-apple-spawners).
 
-The following image is taken from the [tutorial world](../Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md) called [Economy world](../Tutorials/Economy%20world%20tutorial/Module%203%20-%20Configuring%20Gameplay%20Entities.md) where the dynamic light gizmos are at work. The dynamic light is used to draw attention to the apple.
+The following image is taken from the [tutorial world](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md) called [Economy world](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/economy-world-tutorial/module-3-configuring-gameplay) where the dynamic light gizmos are at work. The dynamic light is used to draw attention to the apple.
 
-![An screenshot of the dynamic light gizmo at work](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/505443192_738224338715520_974421412205283361_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=MswRaIDh51QQ7kNvwFwWye8&_nc_oc=AdkqAKLHLt6xo5VM-cZmZtdDfUakKpQW7pbpFbXJhi1cmtwJNuZ2Qrt05ufe7ZmFH44&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JfWuIMsWtg50a_nYL4quzg&oh=00_Aflf7gv9B-KRkCu-_xFs0JKxBKbcU1YsN8HSKHoagCOh_A&oe=694BCFAA)
+![An screenshot of the dynamic light gizmo at work](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/505443192_738224338715520_974421412205283361_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=E5eZeX4-0_4Q7kNvwH9vAPJ&_nc_oc=Adn_R0M6jsBhf0439hg2o7tmXcR1bkHDHKNg5Rndze67lQ3yE0DrqhwVdhZeBufysFc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=hIWWfRJWQCz3-ti23h6qrA&oh=00_Afl3VA2Hx3gGjzTm7LEzYW86sN7hpV7ny70hdnXocPYa9w&oe=69557AAA)
 
 ## Limitations
 
@@ -47,5 +47,5 @@ To control the gizmo through scripting, see the [DynamicLightGizmo](../Reference
 Now that you’ve been introduced to the dynamic light gizmo, further your learning with hands-on tutorials and guides:
 
 * [Meta Horizon Worlds creator’s manual on the dynamic light gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#dynamic-light-gizmo)
-* [Tutorial worlds on dynamic lights](../Tutorials/Economy%20world%20tutorial/Module%203%20-%20Configuring%20Gameplay%20Entities.md)
+* [Tutorial worlds on dynamic lights](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/economy-world-tutorial/module-3-configuring-gameplay)
 * [Material asset user guide](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/material-asset-user-guide)

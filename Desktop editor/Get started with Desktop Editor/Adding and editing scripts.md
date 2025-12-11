@@ -20,31 +20,7 @@ These instructions walk you through assigning a script reference after you have 
 - In the **Properties** panel, scroll to the **Script** section.
 - Select a script from the **Attached Script** dropdown menu.
 - The script is applied to the object, and the properties defined in the script now appear in the **Script** section of the **Properties** panel.
-  <details>
-<summary>The script properties appear in the Properties panel.</summary>
-
-<p></p>
-
-[The script properties appear in the Properties panel.](../../../../images/output/img_20251211_035857_20251211_035857.md)
-
-### Overview
-This image depicts a user interface element showing a script configuration panel. It includes a dropdown menu for selecting a script, followed by three adjustable parameters related to rotation and bobbing motion.
-
-### Key Elements
-- **Dropdown Menu**: Located at the top, it displays "Attached Script" and a dropdown arrow. The selected option is "Rot_Bob:RotateAndBob".
-- **Parameters Section**: Below the dropdown, there are three parameter fields labeled "rotSpeed," "bobSpeed," and "bobAmplitude." Each field has a corresponding value input box.
-  - **rotSpeed**: Positioned under "rotSpeed," it contains the value "0.01."
-  - **bobSpeed**: Positioned under "bobSpeed," it contains the value "1."
-  - **bobAmplitude**: Positioned under "bobAmplitude," it contains the value "0.02."
-
-### Visual Flow / Relationships
-The layout is linear, moving from the top-down and left-to-right. The dropdown menu is the most prominent element due to its larger size and placement at the top. The parameters follow in a vertical sequence beneath the dropdown.
-
-</details>
-
-<p></p>
-
-
+  ![The script properties appear in the Properties panel.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/489087152_692067246664563_8655887400773932913_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=EChTLWpPr70Q7kNvwHE3lVk&_nc_oc=AdnvxWgbjXyu4H6U7QbjdQECd8CS1ASdX51KRsB8cR53KmL5WE-N7G4AhnaJUqa41YrTXau5F_mCce_t8HMBqSQ4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=q-GCGYt541xdp94IFcGRZw&oh=00_AflDd2-QgmDLTbxfKOZJQx8Aj4gExLWIhjzvsu6yeXw97A&oe=69556A7F)
 
 ## Copying scripts
 
@@ -56,34 +32,7 @@ Script copying is an available feature to save you time. You can copy a script f
 - Scroll down to the **Script** section, and click the menu dropdown.
 - From the menu that appears, select **Copy Script**. The script is copied into memory.
 
-<details>
-<summary>Image shows the script menu dropdown, with the "Copy Script" option highlighted.</summary>
-
-<p></p>
-
-[Image shows the script menu dropdown, with the "Copy Script" option highlighted.](../../../../images/output/img_20251211_035946_20251211_035946.md)
-
-### Overview
-This image shows a contextual menu that appears when interacting with a script named "StartGameTrigger_COMPLETE:StartGameTrigge..." in a development environment. The menu includes options for editing, copying, pasting properties, and removing the script. The menu is presented against a dark background typical of code editors or IDEs.
-
-### Key Elements
-- **Visual description**: The menu has a dark background with light gray text and a yellow highlight around the "Copy script" option.
-- **Location**: The menu is positioned centrally below the script name.
-- **Contents**: 
-  - "Edit script"
-  - "Copy script" (highlighted)
-  - "Paste all script properties"
-  - "Remove script"
-- **Visual styling**: The text is white, and the menu has a subtle shadow effect, giving it a slight elevation from the background.
-
-### Visual Flow / Relationships
-The most prominent element is the "Copy script" option, which is highlighted. The menu items are arranged vertically, with no arrows or lines connecting them. The visual hierarchy suggests that the user can interact with any of these options, but the highlighted "Copy script" indicates it is currently the focus.
-
-</details>
-
-<p></p>
-
-
+![Image shows the script menu dropdown, with the "Copy Script" option highlighted.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485007786_677847718086516_1163809176474656229_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=80Y75_eYCy0Q7kNvwFGI3YS&_nc_oc=Adm6XIa8asuC8sHcEvV132D-m5F15xmZKYxFSQ2DtflfSpm3TYm0sTA6CnR8jGvcXkhHM_Z9Yo-1BuAF5sKaHzIh&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=q-GCGYt541xdp94IFcGRZw&oh=00_AfkPrT53WKHiorv92lHfSakxrk4XsqZy-DwO0acpixzbWg&oe=69559DD5)
 
 #### To paste a copied script
 
@@ -91,26 +40,4 @@ The most prominent element is the "Copy script" option, which is highlighted. Th
 - Navigate to the **Script** section, then click the menu dropdown.
 - From the menu that appears, select **Paste all script properties**. A copy of the script is attached to the object.
 
-<details>
-<summary>Image shows the script menu drop-down, with the "Paste as new attached script" option selected.</summary>
-
-<p></p>
-
-[Image shows the script menu drop-down, with the "Paste as new attached script" option selected.](../../../../images/output/img_20251211_040035_20251211_040035.md)
-
-### Overview
-This image depicts a user interface element within a game development tool, specifically showing a properties panel for an object named "StartGameTrigger_COMPLETE." The interface includes a dropdown menu with options related to script management.
-
-### Key Elements
-- **Properties Panel**: Located at the top, displaying various categories such as "Debug Data," "Behavior," "Attributes," and "GameplayTags."
-- **Object Name**: "StartGameTrigger_COMPLETE" displayed prominently in the dropdown menu.
-- **Dropdown Menu**: Appears as a right-click context menu with options: "Edit script," "Copy script," "Paste all script properties," and "Remove script."
-- **Three-Dot Icon**: Positioned to the right of the dropdown menu, indicating additional options or settings.
-
-### Visual Flow / Relationships
-The most prominent visual element is the dropdown menu, which is the focal point of the interaction. The three-dot icon suggests that clicking it would reveal more options, implying a hierarchical relationship between the main menu and the additional settings.
-
-</details>
-
-<p></p>
-
+![Image shows the script menu drop-down, with the "Paste as new attached script" option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484986141_677847711419850_2591399028196323106_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=afl65I4ktiQQ7kNvwF8u7xu&_nc_oc=Admn_qiV0UVZjnYCyp9dWk8Tnuk7uvwSbVUtft9Pzh4g1Z7xe6LaZlrokwTSCRArQNe4n39hoFfNsPs39k-iUFnp&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=q-GCGYt541xdp94IFcGRZw&oh=00_Aflwgzi2WPMfiJIdIVIV5m4UjgUitw81nLBX1MKdCq91GA&oe=69557332)

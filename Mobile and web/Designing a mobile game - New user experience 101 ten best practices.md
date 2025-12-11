@@ -1,95 +1,195 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/designing-a-mobile-game-new-user-experience-101-ten-best-practices
+Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/designing-a-mobile-game-new-user-expectations
 
-# Designing a mobile game - New user expectations
+# Designing a mobile game - New user experience 101 ten best practices
 
 Welcome back to the Growth Insights Series!
 
-This article kicks off a two-part series, *Designing a Mobile Game New User Experience 101*. In this first installment, we’ll explore the basics of designing a **New User Experience (NUX)** and set expectations for creating one that feels smooth, modern, and fun. Once you learn these fundamentals, you can proactively onboard your players and craft a NUX that’s tailored to your game, design, and player base.
+This article continues our two-part series, *Designing a Mobile Game New User Experience 101*. In the first installment, we explored the basics of designing a New User Experience (NUX) and focused on general expectations. In this article, we’ll walk through ten best practices for designing your NUX to help you create an experience that’s tailored to your game, design, and player base. The ten best practices are:
 
-But before we dive into basic NUX best practices, let’s zoom out and discuss the new user experience as a whole.
+- Audit the first session of your game.
+- Funnel your players to the proper places.
+- Time and test your NUX length.
+- Tutorialize your controls for Worlds on mobile.
+- Encourage and build player mastery.
+- Frame the core loop and gameplay session for new players.
+- Contextualize gameplay with narrative onboarding.
+- Walk players through progression basics.
+- Highlight player goals in the NUX.
+- Introduce store and economy in the NUX.
 
-## Understanding the New User Experience (NUX) for Worlds on mobile
+# Ten best practices for designing your NUX
 
-Mobile games have some unique differences from VR when it comes to designing a NUX. In VR, a NUX may want to focus more on physical comfort, learning spatial awareness, embodied actions, and the feeling of immersion, as VR control schemes may be more novel to users. On mobile, a NUX may want to focus more on learning touchscreen inputs, short sessions, and interacting with 2D UI panels, with faster introductions to core loops, progression, and reward systems.
+## 1. Audit the first session of your game
 
-To retain users, your mobile game must make a strong first impression. With many competing titles, players can easily abandon your title if they have a poor initial experience. This is why a well-designed new user experience is so critical.
+The first session is one of the most important parts of your player’s new user experience. Mobile players need to be convinced early that the game is fun, offers lasting appeal, and rewards their effort. If players find your game confusing or uninteresting, they’ll likely move on to something else.
 
-The NUX encompasses more than a tutorial. It’s how you introduce your game and onboard players into its systems, customization, and social features. **The goal is to provide players with a fun, exciting, and rewarding taste of your game while minimizing as much friction as possible.** Once in place, a strong NUX creates an on-ramp to attract new players and encourages them to explore everything your game has to offer.
+Please feel free to [view the tutorial World](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-1-setup) for a strong example of a Worlds NUX experience that is guided by quests.
 
-# NUX begins with discovery
+The first session should set the stage for your entire experience by highlighting both **how** and **why** to play. We’ll use a walkthrough of *Clash Royale’s* first session as an example. Though *Clash Royale* has a guided tutorial, the principles can be easily adapted to a hands off minimalistic approach.
 
-A good NUX begins at the point of discovery. When a player is looking for an experience to explore in Worlds, they will either discover you through the first page of the Meta Horizon app or by searching by name. Therefore, you must be mindful of how your icon, key art, name, and descriptions display on mobile, as all of these elements communicate what players can expect from your experience. It’s also advisable to keep load times reasonable, as longer waits may drive them away. Refer to our [Intro to Worlds Discovery article](../Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md) for more best practices on presenting your game.
+| Your Game Should | Clash Royale Example | Minimalistic Adaptation |
+| --- | --- | --- |
+| Clearly explain the rules and central mechanics. | The player is guided through the basics of playing cards and deploying units, without diving too deep into detailed mechanics. | Show the player a clear goal upon loading in, e.g. complete a quest, reach the treasure, approach the table with other players. |
+| Explain the controls and expected gameplay style. | After defending against an enemy attack, players are prompted to play an exciting high-value card (a Giant). | Use intuitive interactions, like grab, throw, move or jump. |
+| Let players see gameplay in action. | Players follow these guided steps, leading to a decisive and satisfying early victory. | Lean on co-presence and allow players to observe others in action, or record a short video of moment-to-moment gameplay that players can watch. |
+| Show how long active gameplay takes. | Clash Royale quickly gets players into the action. There’s minimal world-building or setup — players are learning by doing within seconds of loading into the game’s new user experience. | Drop players into a simplified version of the action, and make sure that the core loop is extremely quick to complete the first time e.g. dig up a treasure, sell it to the vendor, buy a new shovel. |
+| Demonstrate the progression systems. | The game walks players through the easy process of upgrading a card (a Knight) and immediately shows them the impact in the next battle. | After 1-2 repetitions of the core loop have the player upgrade or level up, then reinforce that the power was needed on the next loop. |
+| Deliver excitement, reward, and fun. | Players experience the central mechanics, understand the controls, and get a hint at progression by receiving a reward chest after winning the match. | End every repetition of the core loop with an exciting reward - XP, gold, an exciting cosmetic, or access to more of the game will hook the player and pay off the early time spent. |
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581367873_863747082829911_4158166952519410995_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=cTIPyE-TCRkQ7kNvwFR5dLZ&_nc_oc=Adl0eqJd68SPwIQnqCy6n58OKMGu5ZZUAcVZkjWO9P_9pGdWsrXvpyZb_iJh-G4GQc8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ma53fVUf4uSH19cSy5l4WQ&oh=00_AfmRINs_piaxlbqxjBy4GeL0n07RVff7FX_d2KQC0d8JmQ&oe=694BE64A)
+This example clearly illustrates how to build a compelling opening session that onboards the player while also getting them hooked. Players can experience the **central mechanics** by being walked through them, understand the controls, and get a hint at **progression** by receiving a **reward** chest with cards and resources after winning the match.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581820287_863747079496578_1437313693711950770_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=f6Sa9suvApMQ7kNvwGgq3_K&_nc_oc=AdnczGcKGg2-WtGA9Zld2a07dXwukDfOX9vMksrlxhgPTcCCSbfBlPFH5ilumnGirFU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ma53fVUf4uSH19cSy5l4WQ&oh=00_AflEht8OKxu3AyQbESMEBzwxkLLOw5eqBUjf6iV24mvM1w&oe=694BBA65)
+## 2. Funnel your players to the proper places
 
-*Shovel Up! is an excellent example of a good game presentation on Meta Horizon. It includes strong key art, a recognizable icon, and strong descriptions of their updates to the game.*
+Once players are settled after the first few minutes of gameplay, ask yourself: “*Where should players go next?*” Guide them toward the experiences you want them to explore next. Many games drop players in and let them decide. Instead, use guiding UI prompts to funnel players to the proper places in the game that give them a distinct goal for playing.
 
-# The role of player agency
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581851531_863747112829908_5794345739726194102_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=wUzzuBfg0REQ7kNvwE5ievd&_nc_oc=AdlUMXkONQpUXp5AMpCIWEXc53sbnyZQtj17Ls2Tslgj55aYaISKBPMmZk3v105x6spGf4R_4QJ67xAODvULbkOd&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=dQrF8D5MG7kjlg9iM_cplw&oh=00_AfkAwz9VrxDiOSkrcErczq4yfJFDRljPOGwEqnEPsUCSqw&oe=69559696)
 
-When designing your NUX, there are four main ways to structure the experience:
+*To prevent player churn, avoid overwhelming players with excessive choices and a lack of clear direction. A completely open-ended sandbox experience can leave players feeling unsure of their objectives and next steps.*
 
-- **Minimalistic:** Offers little or no direct tutorial and allows players to dive straight into gameplay. The game clearly defines goals for players which they intuitively discover how to meet. This structure is common in sandbox games, social hangout games, and exploration-based games.
-- **Linear and guided**: This is the most common approach on mobile outside of Horizon Worlds. Players are guided through a carefully structured new user experience that will only change if the developers revisit it in updates. No matter how many times a player reinstalls the game, the NUX will be identical in the stages and challenges it presents to the player.
-- **Just in Time/Triggered** - A prompt triggers exactly as a player encounters some part of the tutorial as they are exploring. For example, if your health bar dips below 60%, for the first time you get a tutorial on using a health potion.
-- **Open to player agency**: This approach is rare on mobile. Players can direct their own tutorial experience by choosing what aspects of the game to explore. Typically, they start with a guided NUX before the game gradually removes the guardrails and allows them to dictate the flow.
+## 3. Time and test your NUX length
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581559393_863747076163245_403884654627850526_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Tub1vpxIV6MQ7kNvwGB5Mq1&_nc_oc=AdlbgZwoYf4V0HIgfLqa4bHibvfHzf6Ltgk252FV5K03EkETMtxnSkFNmBZLox2gw4c&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ma53fVUf4uSH19cSy5l4WQ&oh=00_AfkhJUI-eITuHC-m62tZZb2oQ0VbOZR6n8uZA0EfCTjFsA&oe=694BB786)
+An overly long NUX can lead to player churn, so it’s important to understand how much time you’re asking from your players. While there are no absolute rules, here are some common timing ranges based on complexity:
 
-*When tutorializing, prioritize non-intuitive mechanics. Players should be encouraged to experiment with basic actions like picking up items or firing weapons. Our recommendation is to provide clear goals and allow players to discover how to achieve them.*
+| Game Type | Example |
+| --- | --- |
+| **Hypercausal-to-casual** ⏰ 3-5 minutes | A game like *Pokémon Friends* begins with some narrative onboarding, but moves players into puzzle-solving and the central crafting mechanic (rewards) within four minutes. |
+| **Casual-to-midCore** ⏰ 5-10 minutes | *Clash Royale’s* NUX is incredibly brisk, moving players through tutorialization and into the main game within four-and-a-half minutes. *Fire Emblem: Heroes*, meanwhile, opens all its gameplay modes in about seven minutes after explaining the basics. |
+| **Midcore-to-core (and cross platform)** ⏰ 15-60 minutes | *Genshin Impact* and *Infinity Nikki* feature 10-15 minutes of NUX before players can start dictating the flow, whereas more linear experiences like *Zenless Zone Zero* can keep players on-rails for close to an hour. |
 
-# A note about Minimalistic NUX tutorials
+Your NUX might go beyond these times, especially if you onboard players into additional game modes. Don’t be afraid to save some tutorials for later. A well-crafted NUX is built from an engaging first-time user experience (FTUE) that gently onboards players into gameplay modes and encourages vital engagement habits.
 
-Minimalistic onboarding is a common style for Mobile Horizon Worlds NUX. The goal of minimalistic onboarding is to let players jump into the action as quickly as possible. In Worlds, even the loading screen can play a role in onboarding by offering quick instructions, such as how to navigate or mute the microphone.
+## 4. Tutorialize your controls for Worlds on mobile
 
-Games that rely on minimalistic onboarding are often based on already popular game types and as such don’t need to hand hold the player as much. These games are often intuitive and easy for players to learn through friends or word of mouth.
+Simplicity is key for most Worlds experiences on mobile. Unless your World is highly complex, such as *Citadel*, aim for clear and minimal instruction.
 
-There is a distinction between minimalist onboarding and no onboarding, however. Since very few of these games offer robust tutorials for newcomers, and often overlook best practice design in introducing players to aspects of the game, this can be a pain point that causes players to quit and churn early.
+**Some best practices for control tutorialization include:**
 
-For additional tips on onboarding, see our article on [VR Onboarding](https://developers.meta.com/horizon/blog/growth-insights-series-building-competency-new-user-onboarding).
+- **Display** the gameplay rules in plain text.
+- \*\*Make \*\*the rules straightforward and easy to understand (For example, “Reach the other side without falling off.”)
+- **Rely** on players’ ability to read and intuit gameplay from other popular experiences on the platform they may be familiar with.
 
-# What to cover in tutorials
+Worlds and other platform games offer developers the opportunity to create a variety of experiences. If you’re developing a less traditional World, follow mobile game best practices to ensure players quickly understand controls. Too much friction early on can cause players to quit before discovering what makes your World fun.
 
-While we generally recommend a minimalist NUX as the genre standard for Worlds games, if it would suit your game to choose a linear and guided tutorial style, it may be tempting to present players with every detail about your game at once. Break down this information into smaller parts for your players. A linear and guided new user experience typically includes the following:
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/580519095_863747109496575_8471971251059969721_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=HHwqguUNlwMQ7kNvwHIXtQP&_nc_oc=AdlL1ojAqJ6AxqQAYp_yuo65OJrwzoW-_BwtpMFy22NYmsO2XKypOapIQeHGNwksKgZJmZrwkFTVz0RxNce0Mt28&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=dQrF8D5MG7kjlg9iM_cplw&oh=00_Afnevi6XUkutQcXz0lgzWer-3ZOmCtackK2JNI6TBgQStA&oe=69559514)
 
-- Controls
-- The core loop
-- Play session or match length expectations
-- Rewards
-- In-game economy
-- Progression
+*When developing games that share similarities with existing platform titles, it’s unnecessary to re-explain fundamental concepts. Often, simply making the objective (e.g., reaching a treasure chest) and the obstacles (e.g., a gap to be jumped) visually clear can be sufficient for players to grasp the game’s rules intuitively.*
 
-These essentials should be covered in your NUX. A good NUX should show players how things work, and ask them to master basic tasks, while subtly introducing economy and progression systems without overwhelming them. Keep in mind that the content of tutorials will vary widely from game to game and that each game’s NUX design should be unique and meet the needs of the game’s specific player base.
+## 5. Encourage and build player mastery
 
-# Genre expectations for Worlds
+Once players master the controls and basic gameplay, build further mastery through engineered challenges. The NUX should lead players through a series of challenges from basic to advanced. Whether the gameplay is built around combat, puzzles, platforming, or racing, the NUX should be easy for players to clear as they are gradually onboarded into tougher content.
 
-Most Worlds could benefit from short, focused new user experiences found in minimalistic tutorial styles since gameplay often centers on a single, simple task. Some good examples of games with strong NUX experiences in Worlds include *Shovel Up!*, *Super Strike*, *Kawaii Merge Donuts*, and *Kaiju City Showdown*. There are some exceptions, however. More complex Worlds like *Citadel* may require a more detailed and linear new user experience.
+While building a player’s confidence is valuable, there is also value in allowing the players to lose later in the NUX. Losses are a part of the game. By having players lose a level in the NUX, the game can use this as an opportunity to direct players to:
 
-In general, players expect a light tutorial. Many Worlds simply drop the player in to learn as they go, and players expect only a brief snapshot of the rules that’s often listed on UI prompts as they enter. Still, even a lightweight NUX should follow best practices. Make control information easy to find, give players clear goals they can achieve quickly, and design intuitive interactions. This helps players feel oriented and confident with the experience right away.
+- **Progression systems** (adding equipment or leveling characters up)
+- **Power-ups or consumables** (or even extra moves) to gently direct players towards monetization offerings
 
-Depending on the target audience, it may not be necessary to teach them commonly found mechanics (movement, shooting a weapon, etc.). It may be more valuable to provide goals and focus on helping players truly understand new mechanics.
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581903262_863747106163242_9109577412206556452_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=1KgOmukQzW4Q7kNvwGRnu_p&_nc_oc=AdkETHTcjr5yqhN-jcRWa6_C-FO5MakvIYVNYv_JXaTEt5AeHMGpzH8izNWUFXTVyT28GgC7pHjw8tDBVTZpazL0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=dQrF8D5MG7kjlg9iM_cplw&oh=00_AfkYPa9F_YmQbtyaHzJxhf2e247kTnFbzG6bldcbATsUcg&oe=69556D7F)
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580589313_863747146163238_1624727151959125390_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=luZWCl0nZBMQ7kNvwG57QH8&_nc_oc=AdmshRdr9SOUaYV5Esw0rcixnGHO6w7v2XntpUXexR8VAOVfCqrEyBN1Wx1NlLdC4vY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ma53fVUf4uSH19cSy5l4WQ&oh=00_AfkfQ4psSaI5ncUIDlI_KgITlvOxj94GVVx56w9q_P6PZA&oe=694BC918)
+*Many puzzle games are designed with challenging levels at their core. Players might need multiple attempts to complete a level, or they can opt to purchase temporary power-ups to overcome obstacles.*
 
-*Players in Horizon Worlds generally prefer clear goals and autonomy. However, if a player is inactive, a tip should appear after a few seconds.*
+Losses, if properly incorporated into the NUX, should come *after* mastery and confidence-building challenges to avoid discouraging players. The NUX should give clear feedback about the loss and what they need to overcome it. Walk players through the steps to surpass their loss, then celebrate and reward them for overcoming the challenge. This turns a frustrating moment into an opportunity to build mastery and confidence.
 
-# Genre expectations for non Horizon Worlds mobile games
+## 6. Frame the core loop and gameplay sessions for new players
 
-Ultimately, NUX expectations are more aligned with genre and audience than they are with platform. While the audience in Horizon Worlds generally prefer a more minimalist approach if you are making a game that more closely resembles a traditional mobile game offering you should consider if a guided NUX would be right for your intended audience.
+In addition to teaching players how to play, your NUX should show them what a full gameplay session looks like. Make it clear how much time a typical session requires and what kind of progress players can expect to make.
 
-Player expectations for mobile games in general usually revolve around short, multi-step linear and guided tutorials that ramp up to gameplay. These tutorials gradually fall away as players begin exploring on their own. Mobile tutorials typically take around 15 minutes, though players are not actively reading or clicking through boxes the entire time.
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581093479_863747102829909_5104853090035075066_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=-kXfXNyYZdoQ7kNvwFXtDGA&_nc_oc=AdnLjI-EtSVv_bO9GOjrbXx8iFGrzboIYfiFX2_lS0y9lVFbTvvx6g0rjDjMVfzdCLtqJY8oRXtDf738KSpDdSoM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=dQrF8D5MG7kjlg9iM_cplw&oh=00_AfmGPCnmh_gEkIZzQDk9k3sMJqARsDPyj0x33G8ObVHMqw&oe=69559927)
 
-Instead, most mobile games introduce new mechanics or game modes during early levels of the new user experience. Providing a steady sense of progress — such as clearing stages, leveling up, or unlocking new units — helps the tutorial feel less like a lesson and more like early gameplay. Then, once your NUX opens to additional modes or the game’s economy, you can provide short, contextual tutorials that teach players as they go.
+*Task lists serve a dual purpose: they reward player engagement and act as a tutorial. They inform players about the expected daily or weekly system interactions and the anticipated time commitment required to keep pace.*
+
+Neglecting this can cause confusion about the time commitment the game asks of them. Showing how the game fits into a player’s daily routine allows them to figure out how best to engage with it. By demonstrating this in the NUX, a player can make a more informed decision about whether the game is a good fit.
+
+## 7. Contextualize gameplay with narrative onboarding
+
+From simple to complex, most games on mobile have a narrative component to give players context for their actions. The narrative complexity in your NUX will vary by game type. Player time is finite, and your NUX has other important aspects to cover.
+
+**During the NUX, it’s best to establish the following:**
+
+- What the game world is
+- Who the key characters are
+- The player’s role in the world
+- The foundation for the gameplay ahead
+
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580968821_863747099496576_6223320935140008425_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=osW3qah63xoQ7kNvwHNHJyp&_nc_oc=AdmAiPPuPI8UMUazDQE27q1Pek-HUyIRD-DBpsOSokFLp_9Z019P9AkdEiY6aQ-GmkmRDgyo8U61RTx1kc2XlIqo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=dQrF8D5MG7kjlg9iM_cplw&oh=00_Afk1x48FMJPRbDLZ888f8deb9uH6Kabcn4wE1-eFg9DBDA&oe=69559BFE)
+
+*Implement waiting periods between story installments to manage player progression and encourage recurring engagement. Ensure alternative, lower-reward activities remain accessible during these wait times.*
+
+## 8. Walk players through progression basics
+
+The new user experience should walk the player through the basics of progression: what benefits it offers, and most importantly, how to make progress. For example, in a combat-focused RPG (whether player vs. player or player vs. enemy), you might walk players through leveling up a character or upgrading a piece of gear early in the game.
+
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580765117_863747096163243_4124953759590188100_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=4pLqdKNciGgQ7kNvwFdaqeU&_nc_oc=AdlHqzYb3UcAZDHcztO-LPilD-Wz_Itp5d-mBZfUv6b_UrLKh22FGAkzk9srFk-MiXt5zGrwVoszz8urt23M8pWU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=dQrF8D5MG7kjlg9iM_cplw&oh=00_Afn0jkF9VngHTQlEK9kxM6sBGvrrHRJGN7MFP8qFg2xqCQ&oe=69559FC6)
+
+*When integrating upgrade-based progression into your game, introduce it during the New User Experience (NUX). Even if players anticipate such systems, they require clear instruction on its mechanics and the specific advantages it offers within your game.*
+
+For single-player, non-combat experiences (like puzzle or exploration games), players should see what happens when they move into a new part of the game world. Avoid the temptation to over-explain the value of progression; you don’t want to overload the player. The best thing you can do for the player is to show progression, not tell them about progression. The NUX should simply hint at progression, leaving deeper details for players to discover later.
+
+## 9. Highlight player goals in the NUX
+
+Another aspect to highlight is the goals and stretch goals the player can aim for. These goals must provide strong and compelling reasons to keep playing. Even in straightforward social games like *Spin the Bottle* or *Among Us*, players have an ever-growing collection of cosmetics to chase. These goals should be introduced but never completed during the NUX.
+
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580765137_863747092829910_6306585472895985405_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=JefKpMcrs2kQ7kNvwEXZ0bc&_nc_oc=AdmTb4vV07bm7pSoasBC9gV4ddU8k8Uz8CDxGv5S5B64YC1nxd8T0lCIUbtnkFLJbMFyyzPRsfC7oqhD1t-Vcy5C&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=dQrF8D5MG7kjlg9iM_cplw&oh=00_Aflrjhk-VtTE9K2gCdFegXxxfPkKAJjzhiJyNUNJsJgzcA&oe=69559CEC)
+
+*To engage players and structure early gameplay, it’s beneficial to introduce goal systems that hint at future content. While these systems should be presented, players should be encouraged to return for subsequent sessions to fully complete all objectives.*
+
+**A well-tuned NUX should provide the following:**
+
+💡 An idea of what the goals are
+
+🚀 How to make progress toward the goals
+
+🔁 An understanding how the game’s core loop feeds into making progress
+
+🏆 Rewards that players can earn along the way
+
+A game’s NUX should also introduce new side goals as players progress.
+
+## 10. Introduce the store and economy in your NUX
+
+No matter how your game monetizes, the NUX should feature a look into your economy. Resources are accrued, characters are leveled up, and cosmetics are earned or purchased. All of this should be hinted at in the NUX. Players should be onboarded into how the economy works and what’s needed to complete basic tasks so they understand in-game transactions and resources.
+
+The game should provide multiple on-ramps to the store via pop-ups or anchored menu elements on the home screen. These let players know what deals are available and the benefits of purchasing. As with progression, it’s important to avoid overwhelming players.
+
+As players get closer to mid-game, new currencies may be required. These do not need to surface in the NUX. The player is still finding their feet and doesn’t need another item to track.
+
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580918058_863747089496577_4557241393830705329_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=d1PHScUGy64Q7kNvwGuB6fS&_nc_oc=AdkgbUbv0IjjgvaK-w52_R4b1eTBJIcO9xepGzjZ_yzGUXU82dSGxHNWzEBYyK8qQQjxZTvOGo1jJ1pNmXClX8rY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=dQrF8D5MG7kjlg9iM_cplw&oh=00_Afn1ntMpFXvqCC47vo3EFiWMgo5oTyHQKnuXZvAcmlEEHg&oe=69559792)
+
+*Horizon Worlds games often feature unique 3D, or “embodied,” shops. Despite their visual appeal, it’s crucial to design your shop to facilitate easy price and value comparison between different offerings. Upon a player’s initial visit, ensure they possess sufficient currency to make at least one recommended purchase.*
+
+# NUX missteps to avoid
+
+## Providing too little information
+
+The point of the NUX is to explain the game’s controls, core gameplay, and progression systems. One of the biggest mistakes a game can make is providing the player with too little information. If the NUX doesn’t show players *how* to play and *why* they should play, the game will struggle to onboard and retain them.
+
+If your NUX simply drops players into the game and expects them to figure it out, they’ll likely churn once they hit friction. On mobile, where players can easily switch to another title, this risk is especially high.
+
+## Overburdening players with information
+
+Conversely, a NUX can overburden the player with too much information. This presents two problems. First, player attention is finite: an extremely long new user experience will feel slow or boring, hindering players from organically finding the fun .
+
+Second, players cannot be expected to retain all the information presented in an overly-long NUX. Even genre veterans face a learning curve with a new game’s nuances. Prioritize teaching the fundamentals. Save advanced, mid-to-late game information for later tutorials.
+
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581559383_863747086163244_7972957520809698985_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=T47m-A3XbPcQ7kNvwFIdQqU&_nc_oc=Adk5iqY_DNdiuqC-_SjvVRXLgjDkQTC4ig9OXiiKGEgQuYVsajIg8gofWlxN0LxjJjniZFFJdzX9oTMmT24RsL5s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=dQrF8D5MG7kjlg9iM_cplw&oh=00_AfnV7G7iVp8EVoVklubxpRKgghpKUB6c-uFpTFeYfuL5sw&oe=695598DF)
+
+*Players may feel overwhelmed and fail to retain information if they are simply given a wall of basic instructions and then left to play the game on their own. This approach is likely to be counterproductive.*
+
+## Focusing on non-essential information
+
+Some new user experiences spend too much time on details that aren’t critical early in the game. Deeper systems are best discovered by the players themselves gradually over time.
+
+Many games also insert too many narrative beats into the NUX. While genre-dependent, it’s best to keep narrative elements brisk. Give players a reason for being in the world, frame the gameplay, and let them start playing. Deeper story elements can come later once they’ve engaged with the core gameplay.
+
+## Not providing players direction
+
+Additionally, another common misstep is concluding the NUX without giving the player direction. Ideally, the tutorial should conclude with a recap of what was learned and a reward for their progress. It is extremely important to show the player what to engage with next.
+
+## Not testing your NUX
+
+Finally, the last misstep is not testing your NUX. Using tracking and telemetry in the backend, track metrics and events throughout your NUX experience. Are players getting stuck in one area? Have the events triggered for the player to collect a vital item for the tutorial sequence? Consider creating two NUX experiences and go through A/B testing variants to see what resonates with players and reduces the amount of churn from your game.
 
 # What’s next?
 
-The next article in this series will focus on ten best practices for your new user experience. By mastering these fundamentals, you can build a NUX that is deeply engaging for your players.
+Now that you understand the best practices for designing an effective new user experience (NUX), you’re ready to build onboarding that feels memorable and engaging for your players.
 
-Consider checking out the [showInfoSlides API Tutorial Manager](../Tutorials/New%20User%20Experience%20tutorial/Module%202%20-%20Tutorial%20Manager.md) for Horizon Worlds. It is a popup system at launch where creators can put images and texts into a short slide show of instructions for their NUX.
-
-Additionally, you can check out an entire Tutorial World we created as reference content on how to make in-world NUXes for more advanced creators. Go [here](../Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md) to see the tutorial world.
-
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580482029_863747116163241_3947661849111246645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=h4u2HnIFDtUQ7kNvwFpUSNM&_nc_oc=Adm9Wr04PxCQltmV-eZeRcHD_zg4SwQN3jXKnHOm6Z1w7ge6LKrPW_KztxDB5mu7wZM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ma53fVUf4uSH19cSy5l4WQ&oh=00_AfnKq2PDupsnFZuL5udkZVMPK7uUNqJ7pkfZWGPk9JzhOA&oe=694BD670)
-
-*Visit our Tutorial World [here](../Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md) to get a sense of how a tutorial system in Worlds works.*
+Stay tuned for the next Growth Insights article, where we’ll continue exploring strategies that help you create more engaging and immersive experiences across platforms.

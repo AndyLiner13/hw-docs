@@ -4,29 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Often, you will need to render multiple components with similar styles. For example, let’s say you want to modify your change-ball-color example so that the players can choose between two colors, “Red” and “Green”:
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_031221_20251211_031221.md)
-
-### Overview
-This image displays a simple user interface prompt asking the user to choose a color for a ball. It features two buttons for selecting either red or green as the chosen color.
-
-### Key Elements
-- **Prompt Text**: Located centrally at the top. The text reads: > **Please choose a color for the ball**.
-- **Red Button**: Positioned below the prompt text on the left side. It has a solid red background with white text that says: > **Red**.
-- **Green Button**: Positioned to the right of the Red button. It has a solid green background with white text that says: > **Green**.
-
-### Visual Flow / Relationships
-The most prominent visual element is the prompt text, which draws attention first. The two buttons are arranged horizontally, with the Red button on the left and the Green button on the right. There are no arrows or lines connecting the elements, but the layout suggests a linear reading order moving from left to right.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452588455_512536447950978_4834496598851633163_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=WJPG_rzPmvEQ7kNvwF5uzew&_nc_oc=AdnJTfL4UhI6GBhXC-dzKcwmckaOCzyJqdIB_mB7gPWvm2-4QIcYa8NaclZ8WSvvNjcqc_y0GM5tJJJTe1glpITL&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=anP61Fe7VTA4AeZfejfqPg&oh=00_AfmjrjEuI1GUgRwmlXvqNXeQfACoqwfh3bNvv5ZnUNW3eA&oe=69557305)
 
 Those two buttons largely have the same styles, i.e. height, padding, border radius, etc., with only small differences like background color. Their children texts also have the same style. It will be verbose to duplicate these styles for each button.
 

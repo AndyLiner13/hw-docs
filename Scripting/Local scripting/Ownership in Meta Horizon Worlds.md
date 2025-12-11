@@ -45,7 +45,7 @@ Scripts have an execution mode property that specifies whether the script can ru
 * The script will run on the client that owns the entity that the script component is attached to.
 * You must select this execution mode.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532429_512524664618823_2690924150930112816_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qndMR9RMCTYQ7kNvwE0X9mr&_nc_oc=AdmkOxbKR5MJETBTmDjpjuNqdoVFJMUpYYPLzCxFT1u2HXRTmSuHXjiA3AzmfAYWuVs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kcc3LejV6alPJm40xynQaA&oh=00_AflsrXNGUq74F7uGPToouBRsBXW3IfbD9W4KEHrtU2xZvw&oe=694BE433)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532429_512524664618823_2690924150930112816_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=0nqnNJdQYHIQ7kNvwGmvr5y&_nc_oc=Adnd3dMSnGTY3FnVh-4jkoF1bKCSzR4whsbhn2k6qjG3_XyS01YtZ1KRXveVOvGlCZKqPzOrjy0B2JGXhkfHFNrQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_ZG1epCgp1ZPRjoefaQtiQ&oh=00_AfmdLkaTUN63itcjEckxaz0-6WQUxAETTbzpEO3N1PDwrA&oe=69558F33)
 
 **Note** : Entity ownership is its own construct, separate from scripting. Local execution uses this property to determine which client a script runs on (it’s always the client that owns the entity that a script component is attached to).
 

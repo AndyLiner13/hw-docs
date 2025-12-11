@@ -24,7 +24,7 @@ class Welcome extends UIComponent {
 
 ## Remarks
 
-For information about usage, see the [Custom UI Examples](../../../Tutorials/Custom%20UI%20Examples%20tutorial/Station%200%20-%20Setup.md) tutorial and [Custom UI guides](../../../Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md).
+For information about usage, see the [Custom UI Examples](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/tutorial-worlds/custom-ui-examples-tutorial/station-0-setup) tutorial and [Custom UI guides](../../../Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md).
 
 ## Properties
 

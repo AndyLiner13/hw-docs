@@ -12,11 +12,11 @@ The v244 release contains the ability to generate 3D heatmap data for worlds and
 
 Read on for more details on Meta Horizon v244:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594064815_1343173533689038_6483820331339147687_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=GAFdZQL3hR0Q7kNvwFK1Yd5&_nc_oc=AdmgQWxOlr-H34rUvV4Rg1pQcsyWyYbvcClaV415JDr3krrTaz99SWKb9fVEt4N3uW8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AflHaAgjxu6dRWMOz16a40hLTsewjuINi_brTFAq45qXjQ&oe=6954497C)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594064815_1343173533689038_6483820331339147687_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=GAFdZQL3hR0Q7kNvwFzk1bN&_nc_oc=Admkid083pB-FSRdaAlBR0MSbM07pAlTNgGDIa2Gmy0aFmtyVZArE8Mjme0id_TKbn0pfwfhrcfRPjnvYSU8QoR3&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AflwjfzaXRmvUZ3Jzn9Dc_lsS7EkEH2v0P9NGHT78tH06Q&oe=69559AFC)
 
 ## Quality Of Life Improvements
 
-* **[Developer Dashboard](https://horizon.meta.com/creator/worlds_all/) 3D Heatmaps**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594557540_1160677869468533_1078901159942852620_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=rZAJiyadyUwQ7kNvwGYuQDc&_nc_oc=Admofu0I6mcouxMgnQsztgySI4u4R_P8X73N0V3TIWCPWrFls-MShYFFS2IPK40TarA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfnsBi8wyS8X4KcTMisCCwWbUBXHHVHpPddXBoaJeLyznQ&oe=69544B98)
+* **[Developer Dashboard](https://horizon.meta.com/creator/worlds_all/) 3D Heatmaps**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594557540_1160677869468533_1078901159942852620_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=rZAJiyadyUwQ7kNvwF41zx5&_nc_oc=AdmguTUlZ0K4N7wOH3-D_f9DtTsDmvrWle0QDDI2nkSZ3p5fTkB5MQjbgQBNqOiWbpBUtYLnSo6y1tQWC3tKRXsP&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afl-yA8vq6Wc_mc36j79d93iCaIeiCgPvot-I6fX1yj5Gw&oe=69559D18)
 
 + The camera will now persist between refreshes, allowing creators to compare metrics with the same camera angles viewing their data.
 + When filtering data using the Data Settings: Percentile Filter, the heatmap will now recolor the data-cubes based on what is visible. This allows better viewing of high value areas of a world.
@@ -35,7 +35,7 @@ The v243 release contains the ability to generate voices for AI NPCs, as well as
 
 Read on for more details on Meta Horizon v243:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/591737655_1490479825372289_745779225719514255_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=qfZsHSIZCAQQ7kNvwH-funn&_nc_oc=AdkdRliM_-42zpdhNibmCNUaX3ZAXeNMkJPScOGn71GqIp-gAiM_cCKvGvugzen_7cc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfksSEyRM_7vgJ38ji4Kxxuzf--IO7Etr-PAeA-UpcHpZw&oe=69542189)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/591737655_1490479825372289_745779225719514255_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=kRudvRQlW78Q7kNvwG6v0N8&_nc_oc=AdmyxVwdC4x6HwxPGIFzHHYzbA-5JTuP2Fve2xy4ZKDBfPaZ66BEFgy8qEFsY-cPLSvRFYxBZPU2NggDQbEavzRQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfntGL85HCS1qyBQFMnAKXbKbgN5pn9QztEZ3mBJjMMQ4Q&oe=69557309)
 
 ## New Features
 
@@ -76,7 +76,7 @@ The new toolbar is now live as part of the v241 release, making building worlds 
 
 Read on for more details on Meta Horizon v241:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581957643_1559902765206307_753059272481803957_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=lty2ns9buW8Q7kNvwFHVrNI&_nc_oc=Adkcft6AADCgCFO8TlWcvR_G9qFd8EccDIdmM9J6HaLv8LsVQe8jHgwLt8XEUaHWkAA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AflqXA3txZl5qkyOUBTN04uZOQkFA8IrckaavXn2Dv_YrQ&oe=69543154)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581957643_1559902765206307_753059272481803957_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=lty2ns9buW8Q7kNvwGSaIuj&_nc_oc=AdnL2DPdhKTUd7-rZJTkGKAGF-QlAUSVUkPq05LkB_Le_GoTTw0_astyOL3E3Oao4JixS3MLohY-LIx1OJFz81eB&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfmLIHz4NIyNEskNRWl_0KD_f7GPDU5928eoedccbHrg0A&oe=695582D4)
 
 ## New Features
 
@@ -101,7 +101,7 @@ The Horizon desktop editor toolbar has been updated! The updated toolbar improve
 
 Read on for more details on Meta Horizon v240:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/577543412_1564427288239998_969561287266112495_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=X36at5ysu5cQ7kNvwHIwva0&_nc_oc=AdnwirJ-nUIN3iWIrraeI71l8hv9QNGzj5qhV8nmuyu0Ch-hnZxwOKufIxoZDsG_3Vs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfmoXjWsZcV6j4KpEOUE8W-PPLxIrw5thxBSn568WiWd2Q&oe=69543B8A)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/577543412_1564427288239998_969561287266112495_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q3rX2WKhsUAQ7kNvwF-pSc2&_nc_oc=AdkKCBLQweVnTv-AfTp7KFUbcZGIc69q1wPkufNhiUIQVd9bTyVT3FnULQ-WE-pqgxDQ0Vwnp_yn8og-_DznqQ0y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfnNJMRyB1SBywfMbAOv2gBH_PSPNOe-OWxO1ZWTMCQhyg&oe=69558D0A)
 
 ## New Features
 
@@ -126,12 +126,12 @@ Additionally, in v239 we're adding NoesisUI to the Horizon desktop editor! Noesi
 
 Read on for more details on Meta Horizon v239:
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/571349119_1511264456793529_3675016343678229996_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=AzAbBBoJKegQ7kNvwHBqxbO&_nc_oc=Adnfq_o3GgNUu9esTgU2YC6PbWiGstbldcTChMaxNymmXv2hoqxZeF_KYxbvla5o54E&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfmVzIxIE3tvpuYFEqogNgD4fm95j8fNkIUfksCJ2WYcgw&oe=69543DFB)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/571349119_1511264456793529_3675016343678229996_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=-d0lGyifa1MQ7kNvwEp2cEb&_nc_oc=AdkNa1DHoaeo6Ff8UnbXrPRd8ef1R9lNG9wwHBvuCDII6mKzH63lxFOmUfRmH4xf5jXp5YwwCjp2-sWajf6xKUUb&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfkHdwTPL8_zemCf6zjGgFlp2UJeJvGMUSKAclqDpTxwRw&oe=69558F7B)
 
 ## New Features
 
 * **NoesisUI for Desktop Editor:** NoesisUI is a new 2D UI solution we have added to Horizon editor so creators can build more compelling, creative and performant 2D UI panels. When using Noesis with the desktop editor, users can build their UI panels in Noesis Studio and import them into the desktop editor. Check the documentation here for information on [creating your Noesis panels](Desktop%20editor/NoesisUI/Create%20a%20Noesis%20UI%20Panel.md), [configuring your NoesisUI panel](Desktop%20editor/NoesisUI/Customizing%20Noesis%20UI%20Behavior.md), [setting up animations for your panels](Desktop%20editor/NoesisUI/Noesis%20UI%20Animations.md), [performance considerations](Desktop%20editor/NoesisUI/Noesis%20UI%20Performance%20Considerations.md), and [fonts](Desktop%20editor/NoesisUI/Noesis%20UI%20Fonts%20Usage.md).
-* **NoesisUI Tutorial World:** A new [tutorial world](Tutorials/Noesis%20UI%20tutorial%20world/Module%201%20-%20Setup.md) is also available that demonstrates the NoesisUI integration in the desktop editor and provides examples for implementing NoesisUI into your world. Check out the NoesisUI tutorial world here.
+* **NoesisUI Tutorial World:** A new [tutorial world](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/noesis-ui-tutorial-world/module-1-setup) is also available that demonstrates the NoesisUI integration in the desktop editor and provides examples for implementing NoesisUI into your world. Check out the NoesisUI tutorial world here.
 * **Player Locomotion API:** The player class in TypeScript now includes locomotion functions previously exclusive to NpcPlayer, enabling local player movement, pathfinding, jumping, and rotation. Great for 'tap to move' gameplay styles, see the API docs and tutorial for details.
 
 ## Bug Fixes
@@ -142,7 +142,7 @@ Read on for more details on Meta Horizon v239:
 
 ---
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/571165114_1508250603632339_346638681177823591_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=1riAExIANQgQ7kNvwFKpJsd&_nc_oc=AdnWfACawpzdF_NjDF0gj8f7HAiZk2k-8ALMzqvpoxL268RPoweUFLk7DIft_iS3L1o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfnKRyhaitCXN7cRdgBWH0d4hJqNPLgZy9ikzIpxdPYHIQ&oe=695436EF)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/571165114_1508250603632339_346638681177823591_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=1riAExIANQgQ7kNvwHfMS-W&_nc_oc=AdkDaKg_1FLHfHsXuogyrHsFwWlB2JyBbOJa-Z_kWAFKfYi9zW9YjtDQ68uL7DeWhuBL0tbgzRDvXQvm_McGHH5m&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfmeCGhtdDjAUhSFYeKJV1Phz25129f65hjAi1A6mGOEIQ&oe=6955886F)
 
 # Meta Horizon v238 Release Notes
 
@@ -156,7 +156,7 @@ Read on for more details on Meta Horizon v238:
 
 # Meta Horizon v237 Release Notes
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/566225250_4350745975155448_9066964261512399740_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=eyv4vaCEhBoQ7kNvwGhhqqb&_nc_oc=AdlCzK_wOnaxlm73WjoEvy_sLHDBFC_Lx1QljaPsWgO3LZLhg7yDFqe__2bUVA-uQ6s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_Aflvf8qGinDOlZFrvbHdodr5C0u0-C546XDTKeuxP540rg&oe=69544BAD)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/566225250_4350745975155448_9066964261512399740_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=eyv4vaCEhBoQ7kNvwFIYgR-&_nc_oc=AdnTtCOYVrFsl6d0VeaiL7LxbkyRWcoojuGogOP6OWAIkzURN_q01bhqzCkgy89B2etxxIgUbsc3rlFIL7oOWI6g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AflILDUs3aq_d9fbAWcBq5rgkkm2nPQnY29QLGHCemSnhQ&oe=69559D2D)
 
 Read on for more details on Meta Horizon v237
 
@@ -180,7 +180,7 @@ Read on for more details on Meta Horizon v237
 
 Read on for more details on Meta Horizon v236
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/559385672_2627241590960730_8754128353591310825_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=mC-zv4UwQKMQ7kNvwGEMAyN&_nc_oc=Adlg_PEXuOirMNH3YGja6J16u8EliHWdOTMpLBj-ayuNGvomtyWMsRNC7krA1bzCl3k&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_Afnd9Vzmk9x2538Eh9I13r0s2AkoTlKEjhoB4hCmM_qDBA&oe=69542045)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/559385672_2627241590960730_8754128353591310825_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=mC-zv4UwQKMQ7kNvwGQdcaI&_nc_oc=AdkAQ75nZ5glw6M9B4dT92vkzEgzzV39r1fKnQlIqus0-5SB2MBf2ifHVX6VPdfRf-aIWFRRfcZwjdM18IfdEjFZ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfkMOg0rC3N1gmuchA_e1CfTgD0-sk-9rtrTr2tIr5NPZw&oe=695571C5)
 
 ## New Features
 
@@ -206,13 +206,13 @@ Read on for more details on Meta Horizon v236
 
 # Meta Horizon v235 Release Notes
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/556889063_855146954342326_531033109757397357_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=3az1G5VNLIAQ7kNvwEa8ypc&_nc_oc=AdkhNBNb2POv1ebUmA31Y64STQLbKQ-Uxxnc5G1-dj-CbSmYZaCdYPl8m0W_Zy2uJXw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfkrAGNzsJW35QToUN9oIHSfTI1q-zxbXRcVF-s3HRQ-1Q&oe=695431BD)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/556889063_855146954342326_531033109757397357_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=3az1G5VNLIAQ7kNvwHlQg73&_nc_oc=AdkKPiecnv5L8sC8WWpQd03wChuE5fckUDCnXbNIGlkp0BW0ZX3HNdPcHu-pIYJ03U0a_BBtNmQv3dRkie6iNULA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afmtu0DUwZ2wS8QPOoxHZ5Zatk1z6qQuQOr4vyYktPJZQA&oe=6955833D)
 
 ## New Features
 
 * **New Template World:** We are launching a new template world to help creators speed up their development. Find this when opening the editor in the creation home under the Template header.
 
-+ **AI Conversation Template:** This template provides step-by-step instructions for setting up NPCs, customizing their personalities, and configuring how they respond to player actions and game events. Learn more about this template  [here](Tutorials/AI%20Conversation%20tutorial/Module%201%20-%20Introduction.md).
++ **AI Conversation Template:** This template provides step-by-step instructions for setting up NPCs, customizing their personalities, and configuring how they respond to player actions and game events. Learn more about this template  [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-1-introduction).
 
 ## Quality Of Life Improvements
 
@@ -243,7 +243,7 @@ Visit the [competition site](https://mhcp-mobile-genre-2.devpost.com/) to learn 
 
 Read on for more details on Meta Horizon v234:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/555394727_773540015573606_204444784833276433_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=JAQUI42PP38Q7kNvwEq849J&_nc_oc=AdmJ-5EHZ_dt8XOKWmMHFoeLJa5ouJfTfANV10XAzKMFn1rRFhKmsqEDzRxURF-fxKE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AflLF4z5tsmdP7rFSeOc0VlhK2BHc8P8Msg3eL7E669NuA&oe=69541C5B)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/555394727_773540015573606_204444784833276433_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=JAQUI42PP38Q7kNvwGEr7Ih&_nc_oc=AdlbpCpvl83_FmPJhdSOqQDMCoM0IZ0BdRtQpBlBe-A5M8tU8RBKjp17VSsSjrphXpYoqLRYDJNOS7sox7YS1PfZ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfnIiXAi4k5BBnsI9eCt_19iihl2Sc6Bu57EFUVaKrigLA&oe=69556DDB)
 
 ## New Features
 
@@ -271,7 +271,7 @@ Visit the [competition site](https://mhcp-mobile-genre-2.devpost.com/) to learn 
 
 Read on for more details on Meta Horizon v233
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/550126516_1329511801967592_6523216065991040107_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=WfbgrYqYgR4Q7kNvwGKaWjv&_nc_oc=AdlP2JSZbrMt4qJzSF00cen6DiDM-UZe_taics3c3nRoEvFJHWOY7C7w4wEMEcs564o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfkCmdppLmOUeGj0E83hPaBQ5CfalIVo2yyBPei3VtErKg&oe=695415F7)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/550126516_1329511801967592_6523216065991040107_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=WfbgrYqYgR4Q7kNvwEBLm__&_nc_oc=AdkOrYkYmVo3gt1h_dz3YkTpet1tthraUweW3Ku4GyKaFNTcJA-VWNgsILAaYGSSwpv4v-_MiaUWbo7_ypz381ZZ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afl8jpO6uyfrln-gKtLpb0-TJ5DYDbzULXCsOArIFKLkZw&oe=69559FB7)
 
 ## New Features
 
@@ -283,9 +283,9 @@ Read on for more details on Meta Horizon v233
     
   For avatar clothing creation and best practices, items must be rated 10+, adhere to content guidelines, create original content and leverage AI responsibly. Learn more about this feature [here](https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/avatar-clothing-creation-and-selling).
 * **New Tutorial and Template Worlds:** We are launching two new tutorial worlds and one new template world to help creators speed up their development. Find these when opening the editor in the creation home under the Tutorial and Template headers.
-  + **Sim Tycoon | Template:** This tutorial contains all the game logic and systems needed for compelling player progression within a Sim Tycoon like game. It is designed to be easily reskinned and rethemed to anything the player can imagine. Learn more [here](Tutorials/Sim%20Tycoon%20tutorial/Module%200%20-%20Setup.md).
-  + **Custom UI | Tutorial:** UI is very hard! With this sample world we provide several useful UI elements for Creators to copy and use in their game. Learn more [here](Tutorials/Custom%20UI%20tutorial%20world/Zone%200%20-%20Setup.md).
-  + **New User Experience | Tutorial:** This sample world contains many useful components to help new users learn the game in a more step-by-step way: arrows to lure them to points of interest, hint texts, and the ability to lock progression on certain actions. Learn more [here](Tutorials/New%20User%20Experience%20tutorial/Module%201%20-%20Introduction.md).
+  + **Sim Tycoon | Template:** This tutorial contains all the game logic and systems needed for compelling player progression within a Sim Tycoon like game. It is designed to be easily reskinned and rethemed to anything the player can imagine. Learn more [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-0-setup).
+  + **Custom UI | Tutorial:** UI is very hard! With this sample world we provide several useful UI elements for Creators to copy and use in their game. Learn more [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-0-setup).
+  + **New User Experience | Tutorial:** This sample world contains many useful components to help new users learn the game in a more step-by-step way: arrows to lure them to points of interest, hint texts, and the ability to lock progression on certain actions. Learn more [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-1-setup).
 
 ## Quality of Life Improvements
 
@@ -308,7 +308,7 @@ Reminder: Submit your project for the Meta Horizon Creator Competition by Septem
 
 Read on for more details on Meta Horizon v231:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/543001249_1554106785458166_291874251711032008_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Rsyu6e7WsngQ7kNvwEDO6kq&_nc_oc=Adk_hDc9THcPFztFCg-xwxpcJhtSaaV2RpS_pOaCJN5ExNuffDWBjhLAJth6tiiVEds&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_Afn2RFmn3MDjNb1kNUUP7bFoblbZZWk7SIGfmedZIRym5w&oe=6954461A)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/543001249_1554106785458166_291874251711032008_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=2CWoRYB-WrUQ7kNvwF8y6Gq&_nc_oc=AdnL3XIuaGxQhT7HHA1HVUxsb91bcuyUi-0cMi101u4LxGyai5FC_ztMdQJbxtJbNtyJKYK6jxg8rgtX5ywjbxx9&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AflRDncJblmGLSEFE9d779fxyWQbxwKM-1N_a5guWEX0dg&oe=6955979A)
 
 ## New Features
 
@@ -335,7 +335,7 @@ This week, Worlds desktop editor is now in General Availability. Thank you for y
 
 Read on for more details on Meta Horizon v230
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/540026516_773752591686896_3809304553087380741_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=OduygOMPyCgQ7kNvwGyG8JN&_nc_oc=Adn1Y2ovVG9_hWEESXZqrbDky5EC_ghwjNIAyDGs85MZ4LhTacoBqyuJzmmoG-MuvIo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_Aflv609O9SYw_3QfneWi_C7DuMI4cgW4S2cV5iUiQ7rJVw&oe=69542170)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/540026516_773752591686896_3809304553087380741_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=TPoDRpXfmPkQ7kNvwEdTTd-&_nc_oc=AdnuLWWiLFQgbfOhoUups98SSwgmDHEDH0tVa99WA0dvMd0Ij0YQVKwF0JGzzBcfnef_T6IEAmrxbZ6LQZJ057Wc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afk7z24jtt_96F2TyE2TF8mF4j022cZFYB79C_xUiwza2g&oe=695572F0)
 
 ## New Features
 
@@ -359,7 +359,7 @@ This week in v229, we have numerous quality of life and bug fixes requested by t
 
 Read on for more details on Meta Horizon v229
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/538274188_795639509604479_6404396624031413673_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=o-kSTPwoDtwQ7kNvwEO4-vE&_nc_oc=AdmoPfnC19P0_VZ5g_MSdjCQtZyfC30xQcL95F0ILFrSiY-27fycs5wQLQwR-LoSWJI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfnQRBnmSZ8dsdizMOXQZF4T9tXPWtec7XpWyqtRqhJ-8A&oe=69542543)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/538274188_795639509604479_6404396624031413673_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=o-kSTPwoDtwQ7kNvwGxnwTT&_nc_oc=Adljoy1YhAnsDSdUbi0huXJU1GMFGv6RoDipUGmi7seDgIUATGxDfYi9g-yTNdebmr26wqAjAC5NQpcNz_1yLkaL&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfnOBioz6T9yuVzZvnbBpRNh1YT1HYUl8Hhn0CqxjhTUvA&oe=695576C3)
 
 ## Quality of Life Improvements
 
@@ -401,7 +401,7 @@ Visit the competition site [here](https://mhcp-open-source-competition.devpost.c
 
 Read on for more details on Meta Horizon v228
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/534422833_769756112105013_8661029236016705134_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=coXPXSz3SxYQ7kNvwFBNnW4&_nc_oc=AdkFDgbmEyHkJNE5WSgypG_rRZuvI4RnBBRtVudbOv7DNcjUMrM2R0e58u-lQQoPUxc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AflHX5ng-zMP68Q71KerZcPCNu8UZvOR0E7Eputx0GLOpA&oe=69541F94)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/534422833_769756112105013_8661029236016705134_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=sBBlvfF60u4Q7kNvwFtn6cY&_nc_oc=Adly2ZBcISux9FAzcmpi93kPjxowegK02j7vsbNfc8ln-ieoWNylhf5L38ziAQADGTg1qcO_JGRlms7OklRRNXit&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afl9OB5ivLC4DrJGYh9QdKjtZGbb3wjh3nnr9w3btnkA2g&oe=69557114)
 
 ## New Features
 
@@ -429,7 +429,7 @@ This week in v227, we are launching audio previews in the asset library for all 
 
 Read on for more details on Meta Horizon v227:
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/530161553_1877485456167352_5255716721926701093_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=LeXx-JqhSYYQ7kNvwFty-xO&_nc_oc=Adk3uQk4ANsjKFh5NO52ixvwNl7K8DSVn4WJ6h0E-900HzfYBoALGZpYC8Po1bNozKk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AflpyNuPL6JydfHVFCQume9KGQ-IoqH5pYotVqC97CyCIg&oe=695426EE)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/530161553_1877485456167352_5255716721926701093_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=LeXx-JqhSYYQ7kNvwGiq8j3&_nc_oc=AdmA4pI4umoBwWBl-D8u1DZqc7h4alucb63-0DQm5L-IlYY8ERvazF-iDluMoyohlpug23li2r5C4l4KeH3Kn1T2&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afm2vjSW0Ara4AFwl_89XHJvlHUszs0tC9xEndRsejOqew&oe=6955786E)
 
 ## New Features
 
@@ -458,7 +458,7 @@ Read on for more details on Meta Horizon v227:
 
 Read on for more details on Meta Horizon v226:
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/526767937_718956634288466_2018836161174500979_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=yOWHaiunE_UQ7kNvwGIa1gX&_nc_oc=AdlmFrvcbj8g0O0zDeLGJAB3kWAb0apUqfsF-u8zEN5fpkxP3i2IrNykPWUG0nDRaRI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfmRaImHXophoDzHorzHZqYH9Z3widQqLF4mytWwTAdz7Q&oe=69544496)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/526767937_718956634288466_2018836161174500979_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=NphljPLKznsQ7kNvwEbm6oX&_nc_oc=AdmBQrY5JE_KAZjSJ8OKTg0Z2P3iNRZe_HeWy5CuV0v71xJH6E73u9kofaxhQpU3vYlWTeaFO4tvZZZQgi3vK-bm&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afn_Jvbj2m0GIsvniufMQ0bA5RQi2XpBK6xPnk8MKIIvLQ&oe=69559616)
 
 ## New Features
 
@@ -499,7 +499,7 @@ To help you create the best preview images to showcase your worlds, we have publ
 
 Read on for more details on Meta Horizon v224:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519964536_1885130389079245_5277775352498366_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=a99CptRARJUQ7kNvwE4f9vF&_nc_oc=Adm8WxlGDcDm1HsFR3n-EywSuhvTVEIyUu3TpTKoOoiyX6ykZQD8oq4DDp3wYAwB390&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_Afmj9SHAHZErB73hZEi649bmw4Obtk6TaLdkVG4Lc5RSqQ&oe=69542DAF)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519964536_1885130389079245_5277775352498366_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=a99CptRARJUQ7kNvwEAnuWa&_nc_oc=AdmjP2wYBVo5vPtA9t5qt38mTu5huNmCT7l6IM1ebd-55lBNYM7WfbkMFg99XtEdDApUL-nI-Oao6AC7qfbz9qnh&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Aflu7o2Eq-hwMMLIOjQSl7zQV5Z5hB5UFdK-LlFI20NEcw&oe=69557F2F)
 
 ## New Features
 
@@ -529,7 +529,7 @@ Read on for more details on Meta Horizon v224:
 
 This week in v223, we are launching improved creator control for shops and inventory which will help provide a more customized experience for users visiting worlds where creators choose to make their own shop and inventory systems. Additionally, audio previews in assets library (MHCP Only) were launched allowing the capability to listen to audio clips for any sound asset directly from assets library. Read on for more details on Meta Horizon v223:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/518327882_1233322694785860_78061001846773034_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=aoj1wSlFYuYQ7kNvwFCBrSu&_nc_oc=AdnM5cELpqx5MsUkRaOwjuQQ528eIYHd7FzQ6B9B29eZUiGy5QXuoGkz1N5IjNoFkiA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=504bY821yWIln6ha9pZRYA&oh=00_AfkHPJ0Qp3L88-GqYn0T_7NtzHmO7GXKRGv30FOF0My2-w&oe=69543942)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/518327882_1233322694785860_78061001846773034_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=aoj1wSlFYuYQ7kNvwGwmNEt&_nc_oc=Adm9f5FU2X6NDXT-kukqsU7MDCbs24vJxL32cumaM_ajwPSmok-6jZVAExBOxDRYQ2ToOb4Ou0GtTkeSKr5M2PJN&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afntqul2PdTdgb4lEB0mlzRH6XmMOtItFaNOIBrWA_thfQ&oe=69558AC2)
 
 ## New Features
 

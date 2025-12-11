@@ -24,7 +24,7 @@ In the Meta Horizon Worlds desktop editor, do the following to access the raycas
 
 Whenever a collision event occurs when the ray is projected into the world, the information returned about the object depends on the configuration in **Properties**. You can filter collision events by configuring **Collide With**, or by adding an additional condition when using **Object Tagged**.
 
-![Raycast gizmo properties panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/491864717_702686125602675_3809255897420655060_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=PZlZ6BKSfcUQ7kNvwG5I7Hl&_nc_oc=AdnlMX52aAHffgJCXuSv0uDVOvnqAN611mYT3Whc6976RjiAzMGf0vN5QxDjweIPQCA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mazrvO4RfOSHssG3wCL9Lw&oh=00_AflUGlS1vFeLd4X8oVQDglXlrjFYYAk5ioqhImHfv6Ma8A&oe=694BC057)
+![Raycast gizmo properties panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/491864717_702686125602675_3809255897420655060_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=S7yYSr3bBQEQ7kNvwHnj1f6&_nc_oc=Adn_gmj2mIY71716BZO4gtijiblPYijYSZhyNZt0gt1qrojggh84s8HJ4y_srpJkNLcQzPM9DGd6XBiaPOk5JZqe&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=E0sUNMk7haooGJzSQFdirQ&oh=00_AfmRrCNAU6GX3zFRztl2SLKf2jQnD2JmC7b2mmqn3qZH-A&oe=69556B57)
 
 In the **Collide With** field, you can choose between **Players**, **Object Tagged** or **Both**. Remember that whenever **Object Tagged** is chosen, the [tag](../Reference/core/Classes/Entity.md#properties) needs to be provided in the **Object Tag** field. The raycast will then return hits for objects with matching tags.
 
@@ -59,6 +59,6 @@ The result of the raycast collision is [RaycastHit](../Reference/core/Type%20Ali
 
 Try the following tutorial worlds with code samples and related guides:
 
-* [Simple shooting mechanics](../Tutorials/Simple%20Shooting%20Mechanics%20tutorial/Module%204%20-%20Laser%20Gun.md#raycast-gizmo)
-* [Use tap inputs to interact with a keypad](../Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%207C%20-%20Use%20tap%20inputs%20to%20interact%20with%20a%20keypad.md)
+* [Simple shooting mechanics](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-4-laser-gun#raycast-gizmo)
+* [Use tap inputs to interact with a keypad](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-7c-use-tap-inputs-to-interact-with-a-keypad)
 * [Meta Horizon Creator Program creators manual](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#raycast-gizmo)

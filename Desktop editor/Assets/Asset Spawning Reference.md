@@ -69,66 +69,11 @@ Spawn a new instance of an asset into a running world. The spawn may fail if the
 
 #### Appearance in Library
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_013343_20251211_013343.md)
-
-### Overview
-The image displays a single rectangular button with rounded corners. The button has a solid color background and contains text within it.
-
-### Key Elements
-- **Visual description**: The button is rectangular with rounded edges.
-- **Location**: Positioned centrally in the image.
-- **Contents**: Contains the text "spawn asset" in white lowercase letters.
-- **Visual styling**: The button has a gradient background transitioning from a darker shade at the top to a lighter shade at the bottom. The text is white and centered within the button.
-
-### Visual Flow / Relationships
-- The button is the most prominent visual element as it occupies the central area of the image.
-- There are no arrows, lines, or connectors present.
-- The button is the sole element in the image, so there are no spatial relationships to describe beyond its own placement.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452752336_512500807954542_5254547471001885716_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=SnWpAdOjSNYQ7kNvwHwMlOz&_nc_oc=Adly5wPuuZoUxMq4W40R-T-9kcdIYMfaUuYMvx4v1V6-I9rKqXkHw-WSOdzlxJhtl-Dy-ukVAO0mLZpA7tYC4vq2&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KbzfLqpTnu2UQcgd5e21mQ&oh=00_AfmOqtPXgjBr3oErg7FvLPk8ZPK6xsvFwvLhBJqiic2TJw&oe=69559FA7)
 
 #### Appearance in Composition Pane
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_013437_20251211_013437.md)
-
-### Overview
-This image displays a user interface element resembling a command line or a series of interactive buttons arranged horizontally. The elements appear to be part of a user interface for specifying parameters in a process, possibly related to asset management or event handling.
-
-### Key Elements
-- **Visual description**: Circular buttons with text inside.
-- **Location**: Horizontally aligned across the image.
-- **Contents**: 
-    - "Spawn asset"
-    - "asset at"
-    - "position using"
-    - "rotation with event"
-    - "event sent to object"
-- **Visual styling**: Buttons are blue with white text, some have a darker blue background with a downward arrow indicating a dropdown menu.
-
-### Visual Flow / Relationships
-- Most prominent visually are the circular buttons with text.
-- There are no arrows or lines connecting the elements, suggesting a linear reading order from left to right.
-- Spatially, the elements are adjacent to each other without overlapping.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452633644_512500714621218_4261059319210864500_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=5srVBvq4vygQ7kNvwF23yMP&_nc_oc=AdnzemqqyjK_PHzJkZwfSrriPWHsbGv6Rnd6ZBetW5LCxf8JskCNB83UF9L-ZovfkbLDQFKfyEgmwpKhna77RbYR&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=KbzfLqpTnu2UQcgd5e21mQ&oh=00_AfnbZg78rVIevVGwotD1-Sr8tI3mfy-4RWb-OdVrnBv2ew&oe=69559914)
 
 #### Parameters
 
@@ -148,91 +93,15 @@ Delete an object that was previously spawned, removing the objects and freeing u
 
 #### Appearance in Library
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_013518_20251211_013518.md)
-
-### Overview
-This image depicts a rectangular button with rounded corners containing text that reads "delete spawned object."
-
-### Key Elements
-- **Visual description**: The button has a rectangular shape with rounded edges.
-- **Location**: Positioned centrally in the image.
-- **Contents**: The text "delete spawned object" is written in white font.
-- **Visual styling**: The button has a solid purple background with no gradients or textures. The text is white and centered within the button.
-
-### Visual Flow / Relationships
-The button is the most prominent visual element, and there are no arrows, lines, or connectors present. The button is the focal point, and there is no implied reading order beyond the button itself.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452969695_512500704621219_1394257617887084763_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=YQSNe3J0V8wQ7kNvwEYsyXn&_nc_oc=AdlHYGWhzCJRwxFhiWhlisuy5-QtAbq7YfKGCMG58lYUSOnbLGFGsrpVRuXstWwpyJstXlQCEP_MN_BE6e09gQe-&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KbzfLqpTnu2UQcgd5e21mQ&oh=00_AfnR4c1LrTABVSNaIRLeO7tiOHp5tZxSUhrzC9trBM0Jlw&oe=6955798B)
 
 #### Appearance in Composition Pane
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_013603_20251211_013603.md)
-
-### Overview
-This image depicts a user interface element, specifically a button with two distinct sections. The overall composition is simple, with a clear focus on the text and the button's design.
-
-### Key Elements
-- **Left Section**: A rectangular area with rounded corners, filled with a dark blue background. Contains white text that reads: **"delete spawned object"**.
-- **Right Section**: A smaller, circular area within the larger rectangle, also with a dark blue background. Contains white text that reads: **"object"**.
-
-### Visual Flow / Relationships
-The most prominent visual element is the **left section**, as it occupies a larger portion of the button and contains more text. There are no arrows, lines, or connectors, and the reading order is implied from left to right across the button.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452703858_512500701287886_8762871484516485588_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=3IbFNSbxLTMQ7kNvwFjioG8&_nc_oc=AdmXOCMp3q225gr7Uo2pUMY4IpdvEmmJesNkgYb0MNJmpY2RevfSQNGp2Uh3_tDF5vzijSdQ33Q4CnbeWldGbQo6&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KbzfLqpTnu2UQcgd5e21mQ&oh=00_Afm7NHaTsSULCI8DlCAq6CHgTyiUu_khOFwpTrwK7HA6xQ&oe=69557D56)
 
 #### Parameters
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_013657_20251211_013657.md)
-
-### Overview
-The image displays a user interface element consisting of two buttons placed side-by-side against a dark blue background. The buttons are rectangular with rounded corners and have distinct text and icon placements.
-
-### Key Elements
-- **Left Button**:
-  - **Visual description**: A rectangular button with rounded edges.
-  - **Location**: Positioned on the left side of the image.
-  - **Contents**: Contains the text "delete spawned object" in white font.
-  - **Visual styling**: Dark blue background, white text, no additional icons or graphics.
-  
-- **Right Button**:
-  - **Visual description**: A rounded rectangular button with a gradient blue fill.
-  - **Location**: Positioned on the right side of the image.
-  - **Contents**: Displays the word "object" in white font next to a small 3D cube icon.
-  - **Visual styling**: Gradient blue background, white text, white cube icon.
-
-### Visual Flow / Relationships
-- **Most prominent visually**: The left button due to its larger size and placement.
-- **Arrows/lines/connectors**: None present.
-- **Spatial relationships**: The left button is to the left of the right button, and both are aligned horizontally.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452713200_512500797954543_7599535066046834550_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ojo2hzkUbgoQ7kNvwF6Wno-&_nc_oc=AdldWUv5rNJPXE2hNllkqhWNwAdtV3leRMpdIoMMcHUjtb9s9PjK56nUZFEnvNZ1Y5KEFZzG3PpO63x2TgoNGfQ9&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KbzfLqpTnu2UQcgd5e21mQ&oh=00_Afm7rV4wBEHiQh-LMaGDoXh7dbGC73luKBukxBY6pp7Zqg&oe=6955865C)
 
 |  |  |
 | --- | --- |
@@ -246,76 +115,7 @@ The image displays a user interface element consisting of two buttons placed sid
 
 **How it works:** When a person grabs the object the script is run, the hiddenTemple asset spawns and specifies that the event spawned be sent to self when the spawn completes. When the spawned event is received the spawned object is saved in a variable, so that it can despawn when the object is released.
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_013836_20251211_013836.md)
-
-### Overview
-This image displays a visual scripting interface with a sequence of blocks representing conditional logic and actions. The interface is divided into two main sections: a script editor on the left and a variables panel on the right.
-
-### Key Elements
-#### Script Editor (Left Panel)
-- **Block 1:** "when object is grabbed by player"
-  - **Visual description:** A rectangular block with rounded corners.
-  - **Location:** Top-left corner of the script editor.
-  - **Contents:** "player" within a green circle icon.
-  - **Visual styling:** Green background, white text, blue border.
-- **Block 2:** "Spawn asset hiddenTemple at 0 0 0 using 0 0 0 with event spawned sent to self"
-  - **Visual description:** A long rectangular block with multiple segments.
-  - **Location:** Below Block 1.
-  - **Contents:** "hiddenTemple," "0 0 0," "0 0 0," "spawned," "self."
-  - **Visual styling:** Blue background, white text, green border.
-- **Block 3:** "when spawned is received with obj + New Param"
-  - **Visual description:** A rectangular block with a plus sign indicating a new parameter.
-  - **Location:** Below Block 2.
-  - **Contents:** "spawned," "obj," "+ New Param."
-  - **Visual styling:** Blue background, white text, gray border.
-- **Block 4:** "set spawnedObject to obj"
-  - **Visual description:** A rectangular block with a cube icon indicating an object.
-  - **Location:** Below Block 3.
-  - **Contents:** "spawnedObject," "to," "obj."
-  - **Visual styling:** Blue background, white text, gray border.
-- **Block 5:** "when object is released by player"
-  - **Visual description:** A rectangular block with rounded corners.
-  - **Location:** Below Block 4.
-  - **Contents:** "player" within a green circle icon.
-  - **Visual styling:** Green background, white text, blue border.
-- **Block 6:** "delete spawned object spawnedObject"
-  - **Visual description:** A rectangular block with a minus sign indicating deletion.
-  - **Location:** Below Block 5.
-  - **Contents:** "delete spawned object," "spawnedObject."
-  - **Visual styling:** Blue background, white text, gray border.
-
-#### Variables Panel (Right Panel)
-- **Variable 1:** "hiddenTemple"
-  - **Visual description:** A blue rectangular block with a cube icon and the name "hiddenTemple."
-  - **Location:** Top of the variables panel.
-  - **Contents:** "hiddenTemple."
-  - **Visual styling:** Blue background, white text, gray border.
-- **Variable 2:** "spawnedObject"
-  - **Visual description:** A blue rectangular block with a cube icon and the name "spawnedObject."
-  - **Location:** Below Variable 1.
-  - **Contents:** "spawnedObject."
-  - **Visual styling:** Blue background, white text, gray border.
-- **Add New Button:** Located at the top-right corner of the variables panel.
-  - **Visual description:** A purple rectangular button with the text "Add New."
-  - **Location:** Top-right corner of the variables panel.
-  - **Contents:** "Add New."
-  - **Visual styling:** Purple background, white text, white border.
-
-### Visual Flow / Relationships
-- **Most Prominent Element:** The sequence of blocks in the script editor.
-- **Arrows/Connectors:** None visible.
-- **Spatial Relationships:** Blocks are arranged vertically in the script editor, with the variables panel on the right side. The blocks are aligned horizontally within their respective sections.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452978382_512500801287876_8649813773209549898_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=gvbymGHPrqYQ7kNvwFewc6Y&_nc_oc=AdnK8y4dOsbHeknZpmErJjcGfHIcX5FiWTfs0taDpanaw8pgVW8c87_8jpg57LXQKfqxUl7pKDw_THYbF_AuROU3&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KbzfLqpTnu2UQcgd5e21mQ&oh=00_AfnrURgXAl_6g-M-3-SRVn2MQhpd3Vz3K-qAcZtp1qVqjQ&oe=695581D7)
 
 #### Updated Assets Only Appear In New Instances
 

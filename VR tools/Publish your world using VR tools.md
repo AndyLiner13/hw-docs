@@ -10,7 +10,7 @@ In order to publish a world, you’ll need to provide pertinent information such
 - Open the Creator Menu.
 - Tap the **Publish** icon in the dock.
 - Enter your information into the **Publish World** window, including:
-  ![Screenshot shows the desktop editor window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/464911860_578674298003859_6982466518147434724_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=g5f3jG4xaoEQ7kNvwFE24Hf&_nc_oc=AdmxTJ_4HYHoa4x4qoGOJ4Cr2LG_mF85kL86O9P9LrQmbkhW87darcw6sk-IdGmYPwI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=uRl78c-SaBGKh0Acf9AC_Q&oh=00_AfmJxPbrEefNliy33UzS8ttRajmaSkTzL5ks8PcK1l9LPQ&oe=694BC0F6)
+  ![Screenshot shows the desktop editor window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/464911860_578674298003859_6982466518147434724_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=0zOh2uGhzxsQ7kNvwGlLj_I&_nc_oc=AdnLksP7tFtJiLdqpTHgnulp8f5C-LIj35tr5FH2-Y0U5sHsNLVwzHrL3xDz1kCnL4pwlwiAnagqBssSuKK09ZRE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=r0BJxLPSMnJJYp-ZBd7qiw&oh=00_AfkVTRa_O70mW1hyH02Hp57kUcLy7fL1vRQ_2K77XMqPAA&oe=69556BF6)
 - **Name:** Enter a name for your world.
 - **Description:** Provide a short, punchy description of what makes your world special.
 - **World Rating:** Click on the ‘Get rating’ button to take a survey to determine your world rating. For more information on world ratings, [click here.](../MHCP%20program/FAQ/World%20Ratings%20FAQs.md)

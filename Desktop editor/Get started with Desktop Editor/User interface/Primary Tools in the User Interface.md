@@ -2,61 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Primary Tools in the User Interface
 
-<details>
-<summary>The Desktop Editor showing the primary tools</summary>
-
-<p></p>
-
-[The Desktop Editor showing the primary tools](../../../../../images/output/img_20251211_050619_20251211_050619.md)
-
-### Overview
-This image depicts a user interface toolbar at the top of a software application. The toolbar contains various buttons, icons, and dropdown menus arranged horizontally across the screen. The layout suggests a focus on navigation and functionality within the application.
-
-### Key Elements
-1. **Menu Icon**
-   - **Visual description**: A hamburger menu icon.
-   - **Location**: Top-left corner of the toolbar.
-   - **Contents**: The icon itself.
-   - **Visual styling**: Dark gray background with white lines forming the menu icon.
-
-2. **World Simulation Toggle**
-   - **Visual description**: A toggle switch labeled "World Sim Off."
-   - **Location**: Centered in the upper part of the toolbar.
-   - **Contents**: Text "World Sim Off" with a globe icon next to it.
-   - **Visual styling**: Dark gray background with white text and a light gray toggle switch.
-
-3. **Mute Button**
-   - **Visual description**: A speaker icon with a slash through it.
-   - **Location**: To the right of the World Simulation toggle.
-   - **Contents**: A speaker icon with a diagonal line through it.
-   - **Visual styling**: Dark gray background with white speaker icon.
-
-4. **Switch to VR Button**
-   - **Visual description**: A rectangular button with rounded corners.
-   - **Location**: Right of the Mute button.
-   - **Contents**: Text "Switch to VR" in white.
-   - **Visual styling**: Dark gray background with white text.
-
-5. **Publish Button**
-   - **Visual description**: A blue rectangular button with rounded corners.
-   - **Location**: Far right of the toolbar.
-   - **Contents**: Text "Publish" in white.
-   - **Visual styling**: Blue background with white text.
-
-6. **Camera Zoom Dropdown**
-   - **Visual description**: A dropdown menu with a camera icon and a downward arrow.
-   - **Location**: Bottom-right corner of the toolbar.
-   - **Contents**: Text "1.0" indicating the current zoom level.
-   - **Visual styling**: Dark gray background with white text and a dark gray dropdown arrow.
-
-### Visual Flow / Relationships
-The most prominent visual elements are the **Menu Icon**, **World Simulation Toggle**, and **Publish Button**. These are arranged horizontally across the top of the toolbar. The **Mute Button** and **Switch to VR Button** are positioned to the right of the World Simulation toggle. The **Camera Zoom Dropdown** is located at the bottom-right corner. There are no arrows or lines connecting these elements, suggesting a linear reading order moving from left to right.
-
-</details>
-
-<p></p>
-
-
+![The Desktop Editor showing the primary tools](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481925474_667982975739657_1787462475621305422_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=bngg0dEB0xwQ7kNvwElpft7&_nc_oc=AdkijWS7A0okcwF0DhwvEnWu2gjMAOQbtPIH83mOGGkb-RN29AH7bA0PwgcTxgE-hOAoSpYyK7_jKmJiiSnaKvc9&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=sNhw05EVS63kb3IJaJJ_iA&oh=00_AflM3PHMN5j3c7XIujHDnJzQxAKz4AbBkwROewATig1NBQ&oe=69559F3A)
 
 A variety of primary tools can be found on the Meta Horizon Worlds Desktop Editor screen. Each serves a different purpose designed to help you in creating your worlds.
 
@@ -69,193 +15,37 @@ This set of tools contains the following options:
 - [Camera speed controls](Primary%20Tools%20in%20the%20User%20Interface.md#camera-speed-controls)
 - [World simulation toggle](Primary%20Tools%20in%20the%20User%20Interface.md#world-simulation-toggle)
 
-<details>
-<summary>The main menu showing a list of options</summary>
-
-<p></p>
-
-[The main menu showing a list of options](../../../../../images/output/img_20251211_050716_20251211_050716.md)
-
-### Overview
-This image depicts a dropdown menu with a dark theme, likely from a software application interface. The menu items are listed vertically, each separated by a thin horizontal line. The menu is triggered by a collapsed menu icon at the top left corner.
-
-### Key Elements
-- **Visual description**: The dropdown menu has a dark background with white text.
-- **Location**: The menu is located on the right side of the screen, extending downward from the collapsed menu icon.
-- **Contents**: Each item in the menu includes a label followed by a horizontal line separator.
-    - **Return to Creation Home**
-    - **View Application Logs**
-    - **Launch Typescript Editor**
-    - **Publish World**
-    - **Rename World**
-    - **Save Backup**
-    - **Backups**
-    - **Export Geometry**
-    - **Keyboard Shortcuts**
-    - **Player Settings**
-    - **Report a problem**
-    - **Track your reports**
-    - **World insights**
-    - **View documentation**
-    - **Quit desktop editor**
-
-- **Visual styling**: The text is white, and the background is a dark grayish-blue. The horizontal separators are thin and light blue.
-
-### Visual Flow / Relationships
-The menu items are arranged in a vertical list with no arrows or connectors. The items are read from top to bottom, and each item is separated by a thin horizontal line. The most prominent feature is the collapsed menu icon at the top left, which triggers the dropdown.
-
-</details>
-
-<p></p>
-
-
+![The main menu showing a list of options](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/492970509_705021532035801_7221415493077928442_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=ymvr-sy3WqAQ7kNvwEvI_WH&_nc_oc=Adnxr5NaLdc_-VuDw6RWv8n1AWwR0RPmK9-sz1vUYQZLsyBLsgLLXoGnvct9flTdiCF5mkpv-Pe_toZkQH3u_D9k&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sNhw05EVS63kb3IJaJJ_iA&oh=00_AflCyKIjy2KvcVWUhK7q4UiJZoL-D5E_nNrHLiQBfQaO6w&oe=69557FFD)
 
 The main menu provides a quick way to access many of the Desktop Editor’s most popular features.
 
 ## Camera speed controls
 
-<details>
-<summary>Camera speed icon</summary>
-
-<p></p>
-
-[Camera speed icon](../../../../../images/output/img_20251211_050754_20251211_050754.md)
-
-### Overview
-This image depicts a simple user interface element, specifically a slider control, likely found within a mobile app or web application. The slider has a handle that can be moved horizontally to adjust its value.
-
-### Key Elements
-- **Visual description**: A rectangular slider with a handle.
-- **Location**: Positioned centrally in the image.
-- **Contents**: The slider displays the value "1.0" in white text against a dark background.
-- **Visual styling**: The slider has a dark gray background with a lighter gray handle. The handle is a small rectangle with rounded edges.
-
-### Visual Flow / Relationships
-The slider is the most prominent visual element, and there are no arrows, lines, or connectors present. The handle is positioned at the right end of the slider, indicating the current value.
-
-</details>
-
-<p></p>
-
-
+![Camera speed icon](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/475752940_641654761705812_835031851319945568_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=3omupBcweaAQ7kNvwG0L4-P&_nc_oc=AdnEabCSBM4hCmwY7ZaQRrswKXdVz2gGE27YeG5z9bGoXKJNU0ZNEXHsxkupQtnjZpPENGAK6yHlTp7DD3Np_X4W&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=sNhw05EVS63kb3IJaJJ_iA&oh=00_Afmb0e0r6g3Ume6kDAwBFz_8rWpKsGbPjp1ubAEa8cwI2Q&oe=695597DA)
 
 The Camera speed controls enable you to adjust the camera speed within your world and adjust the location of the camera.
 
 Camera speed is the rate at which the camera moves when you’re navigating through your world. With this, you can customize the navigation experience to suit your needs. For example, you might find a faster camera speed useful for quickly exploring large areas, or a slower camera speed more suitable for precise movements.
 
-<details>
-<summary>Camera speed controls</summary>
-
-<p></p>
-
-[Camera speed controls](../../../../../images/output/img_20251211_050838_20251211_050838.md)
-
-### Overview
-This image depicts a user interface element showing a camera speed control slider. The slider is set to 1.0, and there is a dropdown arrow next to the value indicating that more options might be available if expanded.
-
-### Key Elements
-- **Slider**: A horizontal slider with a blue thumb indicator positioned at the far left, indicating the current value of 1.0.
-- **Value Display**: The number "1.0" displayed above the slider, with a downward-pointing arrow to its right, suggesting a dropdown menu.
-- **Background**: The background is dark gray, likely indicating a theme or a specific section of the interface.
-
-### Visual Flow / Relationships
-The most prominent visual element is the slider itself, as it occupies the central area of the image. The value display is secondary but important for understanding the current setting. There are no arrows or lines connecting elements, so the relationship is primarily through proximity and alignment within the interface.
-
-</details>
-
-<p></p>
-
-
+![Camera speed controls](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475164398_641654801705808_806370826786711348_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=21vgD9rtT2MQ7kNvwE0Y0_D&_nc_oc=Adn14GEK_Zu_7h6qFE_oGUpkb1Ybj54wWpoERV1_3ikdSfPQHC57a2NJUdk8OYDAuaQrpvX0p2eFXakuw6OQyab3&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sNhw05EVS63kb3IJaJJ_iA&oh=00_Afn6o1Z5LHD9d7tfmpJkM_pi8kecOsODRNsVhHJ4uaUu-g&oe=69559ADC)
 
 You can ajust the location of the camera by right-clicking the camera icon and using the arrow keys or WASD keys to move the camera around.
 
 ## Microphone
 
-<details>
-<summary>Microphone icon</summary>
-
-<p></p>
-
-[Microphone icon](../../../../../images/output/img_20251211_050932_20251211_050932.md)
-
-### Overview
-This image depicts a simple icon with a minimalist design. It consists of two main elements: a diagonal line and a stylized knife symbol.
-
-### Key Elements
-- **Visual description**: The icon features a diagonal line and a knife shape.
-- **Location**: The diagonal line is positioned above the knife shape.
-- **Contents**: 
-  - Diagonal line: A solid black line that extends diagonally across the icon.
-  - Knife shape: A stylized knife depicted in a light gray color.
-- **Visual styling**: The background is a solid dark gray, and the knife is outlined in white.
-
-### Visual Flow / Relationships
-- Most prominent visually: The diagonal line.
-- Spatial relationships: The knife shape is below and slightly to the right of the diagonal line.
-
-</details>
-
-<p></p>
-
-
+![Microphone icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481965095_667982982406323_5831123381757507195_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=ckNpXyGNxdgQ7kNvwGmTNGe&_nc_oc=AdnuL31j6HEFHD7oImaoOEmLATODC8n6ChcVRO_4_cTO0D4o18AsfvI_8lYX5O-VGvQU1z_86uToxuGCbECEFKDa&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sNhw05EVS63kb3IJaJJ_iA&oh=00_Afmq5XTQl9N3y3_EzfM_m8KTLTS4lx3ClzM6eG1zAZ8SVw&oe=69557F42)
 
 The Microphone control provides you with an on and off switch for your PC’s microphone, enabling you to more effectively collaborate with another developer while working in the Desktop Editor.
 
 ## Development mode
 
-<details>
-<summary>Development mode button</summary>
-
-<p></p>
-
-[Development mode button](../../../../../images/output/img_20251211_051010_20251211_051010.md)
-
-### Overview
-This image depicts a rectangular button with rounded corners. The button has a dark gray background and contains white text that reads "Switch to VR."
-
-### Key Elements
-- **Visual description**: The button is rectangular with rounded edges.
-- **Location**: Positioned centrally in the image.
-- **Contents**: The text "Switch to VR" is written in white font.
-- **Visual styling**: The button has a dark gray background with no additional gradients or textures. There are no borders around the button.
-
-### Visual Flow / Relationships
-The button is the sole element in the image, making it the most prominent feature. There are no arrows, lines, or other elements to indicate a specific reading order.
-
-</details>
-
-<p></p>
-
-
+![Development mode button](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/474880607_641654768372478_2164320633184790621_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=uYT0khocQ1oQ7kNvwEmJgVM&_nc_oc=Adn-Sx9XpQ5u3IlF5bQJsjJRMhDRRHsrVl8aoDbteuvsITW3FLmi2wkQ3VC3FWwc63dIrBK9ZfgK3R1Y3K02_10K&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=sNhw05EVS63kb3IJaJJ_iA&oh=00_Afn4gGtQgEPnk5_UX-g5SwDe2hwY1s4uijJ1JZZ1jSWRfg&oe=695571DA)
 
 The Desktop Editor provides you with a large palette of tools to work with, occasionally it can be helpful to use your Meta Quest headset for development, either for building your worlds or seeing how it displays in VR. The Development mode button **Switch to VR** takes your development process from your desktop to your headset.
 
 ## Publish button
 
-<details>
-<summary>Publish button</summary>
-
-<p></p>
-
-[Publish button](../../../../../images/output/img_20251211_051049_20251211_051049.md)
-
-### Overview
-This image depicts a single rectangular button with the word "Publish" written on it. The button has a solid blue background and white text.
-
-### Key Elements
-- **Visual description**: The button is rectangular with rounded corners.
-- **Location**: Positioned centrally in the image.
-- **Contents**: The word "Publish" is written in white text.
-- **Visual styling**: The button has a solid blue background with no gradients or textures. There are no additional elements or icons within the button.
-
-### Visual Flow / Relationships
-The button is the sole focus of the image, with no other elements or connections to indicate a larger interface or flow.
-
-</details>
-
-<p></p>
-
-
+![Publish button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/475698268_641654781705810_2759365929286042986_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=A9SWb3R_VYsQ7kNvwH5ht2z&_nc_oc=AdkYWXr8wQ-AoR5uAqFez_FqliDNsC66bfobXTGLpADEudT8z4VNShAvlsrekeVm7B8OPLt8KjZm147iN3jt4NR4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sNhw05EVS63kb3IJaJJ_iA&oh=00_AfkfyeSeOIap743gLG-yaeGzkG6HphcLxSC2D0Jc8l8JHA&oe=6955863D)
 
 The final step in releasing your world to players is to publish it. To release your world click the **Publish** button.
 
@@ -263,32 +53,7 @@ For more information, see [Publish Your World](../../../VR%20tools/Publish%20you
 
 ## World simulation toggle
 
-<details>
-<summary>World simulation toggle</summary>
-
-<p></p>
-
-[World simulation toggle](../../../../../images/output/img_20251211_051133_20251211_051133.md)
-
-### Overview
-This image depicts a rectangular button with rounded corners, set against a dark gray background. The button contains text and an icon.
-
-### Key Elements
-- **Visual description**: The button has a circular icon on the left side and text on the right.
-- **Location**: The icon is on the left, and the text is on the right.
-- **Contents**: 
-    - Icon: A globe icon.
-    - Text: "World Sim Off".
-- **Visual styling**: The button has a dark gray background, white text, and a subtle shadow effect underneath.
-
-### Visual Flow / Relationships
-The globe icon is positioned to the left of the text "World Sim Off". There are no arrows or lines connecting elements, but the layout suggests that the icon and text are meant to be read together as a single unit.
-
-</details>
-
-<p></p>
-
-
+![World simulation toggle](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/496303400_715823364288951_3074126862394797930_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=5f48ovGa_uUQ7kNvwEPbCS1&_nc_oc=AdkdgZ5n23EaACiWRyRATtA7IORqtfb391ZUlDZ8yVFhf2rB3vb0yaKdNiUnQ68IGm8VEFztwMRmhMvj5G6WbGFw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=sNhw05EVS63kb3IJaJJ_iA&oh=00_AfndTm1B2obnIS7h-e59NrfvqB1kGnBhV9FbGwJNWiXb7Q&oe=69557933)
 
 The world simulation toggle allows you to turn off and on your world simulation; the toggle is set to **World Sim Off** by default.
 
@@ -304,5 +69,5 @@ The selection of primary tools is part of the suite of tools in the Desktop Edit
 
 You can explore the editor by working through the following beginner tutorials below:
 
-* [Create Your First World](../../../Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
+* [Create Your First World](../../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
 * [Batting Cage Tutorial](../../../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)

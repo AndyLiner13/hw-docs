@@ -18,13 +18,13 @@ Once a creator has completed the standard world creation flow and is ready to pu
 
 - From the desktop editor, navigate to the three-dot menu and select **Publish World**
 
-  ![Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/499620645_724961260041828_8815701815660985866_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uTyN6gXjz6IQ7kNvwFeJgkK&_nc_oc=AdkDQDQks6-EhfDehWQBWTdRF7w-6RApWcfOi_iduDsilg0c9TKxDPjf5SAnAL4_KSI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bHLQg4YlB-KnX_Fe7CdjHA&oh=00_Afl-x-Z0CyiZEn1wk9vmYi9ynlGECODpDWGc7hk0BqxxdA&oe=694BCBB7)
+  ![Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/499620645_724961260041828_8815701815660985866_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7vRtvXZjKIwQ7kNvwFRtemV&_nc_oc=AdlCMnbU9CfBNrNH7mOGBNupWAe3wVUKSSqtD5o20SMUSz08VyoNRrswHzigWM7RJwmbHKOQl9XHWBP6eyAOqvr-&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mOGBCrbQUAOZZKMN9d6kZg&oh=00_AflG2JM9PHP714JdOc-tK9y0KsadLgB08_bWJZfV-ba55A&oe=695576B7)
 - Toggle the **Members-only** setting to **On**.
 
-  ![Members-only setting](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/500247526_724961256708495_6173277232744077270_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=s29WFxZWFLEQ7kNvwFFsF-r&_nc_oc=AdlUjXHOMZ60p16GkMqetaA835rcBJhwR75ulAS6ezdCmgW3iGMWmVvG3tTUpUhqUzk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=bHLQg4YlB-KnX_Fe7CdjHA&oh=00_AflbipMO3HRvjKwl6UWQhlU0AXlnJKfl3r4tRwZUyWMttg&oe=694BBC68)
+  ![Members-only setting](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/500247526_724961256708495_6173277232744077270_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=-iy4YJLFud0Q7kNvwE-DmBF&_nc_oc=Adl3AUNA23wtRVTxx7BSQIFTOvotOn9L-qgk46GzPGa_wm3ZWBGbrcCWaHjapaxx5PYro4JqXDseWAED5H5L2a76&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=mOGBCrbQUAOZZKMN9d6kZg&oh=00_AfnMaGZ9DWP5wjIDad7x4ujs4F2n4xqJOnwAZ6E3EHqmOA&oe=69559FA8)
 - Once enabled, a setting option will display for Moderator presence required.
 
-  ![Moderator presence required setting](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/499378683_724961263375161_8821108538535166304_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=7fVZYiF93osQ7kNvwGOyGV4&_nc_oc=Adlvp9pUsobqq7XzISOq2TLtibJtMevEG09TF879Nk8N7_VctI2Fh5uAL5NREeHmmFw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=bHLQg4YlB-KnX_Fe7CdjHA&oh=00_Afn7lrUjPkVwcA71xIicJK5--vQsylb_VZ3I9ZDpgY1O-g&oe=694BBBAF)
+  ![Moderator presence required setting](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/499378683_724961263375161_8821108538535166304_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=fCFtOHzENzcQ7kNvwFQX5bE&_nc_oc=AdnWdBx4rEvXLSdzKDi2iR5AfL3ePyTayR6oB199pXiQLWs_X4s5jK9WWZGrvXC7HZrjKIFShp2PBo9sDVPlT9_N&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=mOGBCrbQUAOZZKMN9d6kZg&oh=00_AflazbsteWK_Uvs18bOYbpY1yLPGkyCFI4pTHnyeegCxHw&oe=69559EEF)
 
 * The default for this setting is **Off**, which means that members can visit the members-only world without a moderator present.
 * Toggling this **On** means members cannot visit the members-only world without a moderator present.
@@ -46,7 +46,7 @@ During the alpha test period, all members-only worlds will remain hidden from se
 
 World creators can invite members and collaborators to their members-only worlds using the Collaborator Management menu and clicking **Invite People**.
 
-![List of collaborators available](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484350008_671766008694687_8427404570089073584_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=z_As7Yc0rOwQ7kNvwHW0g-w&_nc_oc=AdlTPwNf876lPjmSTJzFarFaNHUor4mW9Cxeq4XcHkVAeJik9zb0AleZz2ouuQarbBg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bHLQg4YlB-KnX_Fe7CdjHA&oh=00_Afnga1dkWj7t4ikkZMYfxVUNFeJivvZmaYCbWqk-l6BKGQ&oe=694BBCDE)
+![List of collaborators available](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484350008_671766008694687_8427404570089073584_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ddj8bisPi8QQ7kNvwEyTpCf&_nc_oc=AdluEf3eFAvK0LXaBXx0wvuX3ZPP_5xdJ878tNgc6fUfUmF3OkUXhq1QT6jkVaOqLNz-YNGdbvTAtDIxU-bVBRDb&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mOGBCrbQUAOZZKMN9d6kZg&oh=00_Afku4tIsmN7HMSkE2KEsFOfAJmpd3UgagC8jzdVLQ83-NA&oe=6955A01E)
 
 See the documentation on [Collaborator Management](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) for more information.
 

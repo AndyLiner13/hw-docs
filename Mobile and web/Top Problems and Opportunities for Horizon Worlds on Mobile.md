@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 In the rapidly evolving landscape of mobile gaming, user experience is paramount to retaining and engaging players. As creators strive to create immersive and seamless environments, understanding and addressing mobile user pain points becomes crucial. This article highlights some of the top in-world content and usability opportunities for mobile experiences that creators can immediately take action on to retain and engage players.
 
-![An image of a mobile user playing a game.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/539980314_800244475846839_2642433371738981588_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=eXmXJrsvrGEQ7kNvwFEXn4q&_nc_oc=AdkIlzAQclySJxLavlP5s_Fh2TGxTWhM1K-HCJsSauE6lTq3_tmOGcqsTL5rb1-8Skg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GPxgbqVDW6-SS4aRgTtVlA&oh=00_Afkb4EbhlueK9iUcW_WKvhFFekRuH9_Nf88REmnGCAv6sg&oe=694BD668)
+![An image of a mobile user playing a game.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/539980314_800244475846839_2642433371738981588_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=AoT3klWm1dYQ7kNvwF3pXNF&_nc_oc=AdlyWyMlLVQNba1QPcoz2agIl__yYIAk1P0yt9CtkVCUokG9XlQ3zPTC5pb2aF0OsH9ku_P4GW1SRFDHIsP62QWH&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KGwgko2ZkJpT3OOtIcyVTg&oh=00_Afko4mj8Nan-UIXZkC5tmXzT7cMo00Utbrx2CeFAkWjhpw&oe=69558168)
 
 # Key Opportunities
 
@@ -48,6 +48,6 @@ In the rapidly evolving landscape of mobile gaming, user experience is paramount
   - Enhance load screens with engaging content and tips to retain user interest
   - Leverage smooth animations to make the wait feel intentional.
 
-![A mobile game with a loading bar.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/539989351_800244479180172_1067296130533047070_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Mb_11VgrihYQ7kNvwESWxjj&_nc_oc=AdlNDWoaOC7a1V5pTZJ-5IthB_7j22mf1XwJ1rF4gImR_IHL1jo-eBDB-qRnWmEHlEs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GPxgbqVDW6-SS4aRgTtVlA&oh=00_AfkacGiFIvkxk4hT4uS9GrtLgSqQYkPehIpx5FuljFEqkw&oe=694BB94F)
+![A mobile game with a loading bar.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/539989351_800244479180172_1067296130533047070_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=5yKqHnVimi0Q7kNvwHbpXsS&_nc_oc=AdlZGrG3ZJdnJOYjgVGGWyo6uLlwPkRqAL4NoLm5CIRpZWMYvpTBnrUbiUGaak3hC5GHi_3vEKlQkKjbE0YjYPrT&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KGwgko2ZkJpT3OOtIcyVTg&oh=00_Afk8jgA5dv0iMW-k3SkWvliSPRtI0mjfO4kaldU9q5IZBA&oe=69559C8F)
 
 By focusing on these core opportunities, creators can significantly enhance the mobile gaming experience for Horizon players. Creating intuitive and accessible mobile gameplay will ensure a rewarding experience that appeals to a diverse audience. Through the strategies provided, creators are equipped to overcome common challenges and foster deeper player engagement.

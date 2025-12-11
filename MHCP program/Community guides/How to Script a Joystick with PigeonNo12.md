@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # How to Script a Joystick with PigeonNo12
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_883952557245022_9078165402660801145_n.mp4?_nc_cat=111&ccb=1-7&_nc_sid=6500a6&_nc_ohc=BazqChbZY_sQ7kNvwGVO060&_nc_oc=Adn7e0BRq_cf23KlHgJa4KM_LLnk44NdJeaWrLWgRCHjLAsW6dyqJENmJwlFgJmFE4k&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=DDwyz1mu2bFLw6ecAHqYsw&oh=00_AfnmFLReCq0Lo2NcSLIarBWrgCyM2ZYYNm_NHLnRp79weg&oe=693759C9)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_883952557245022_9078165402660801145_n.mp4?_nc_cat=111&ccb=1-7&_nc_sid=6500a6&_nc_ohc=SD1J-Pvgc54Q7kNvwGkCnGc&_nc_oc=AdlWsj8XGLiJjRAZ75azG1-YCJjVsQw8Lk2RBakI-U3wtDa1pLMwcjLzAaJjpjSrVCzfV5Ozw2ptTAn7SGaM2fzk&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=OCBUyB98pnOIP35xT2Wu1g&oh=00_AfnDffzPU8rU9Ruurn2xHSsJkfXfar8xnzYuk3_h7H3BiQ&oe=694104C9)
 
 From arcade games to construction games, joysticks are an element of many worlds that involve interactions. In this Build Tutorial with PigeonNo12, you will learn how to script a joystick in two different ways.
 

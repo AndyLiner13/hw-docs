@@ -22,7 +22,7 @@ Horizon specifically has some features that stand out compared to UEFN that any 
 
 The Horizon Desktop Editor is the starting point for managing existing worlds, viewing documentation, exploring tutorials and templates and more. It is the equivalent of both the Epic Games Launcher and the UEFN editor bundled into one. [The Horizon Desktop Editor can be installed](../../Get%20started/Install%20the%20desktop%20editor.md) either standalone or through the Meta Quest Link app (if developing for VR).
 
-![Horizon Creation Home](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546218067_811522964718990_2334895237106097278_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Wf37MdbH8iAQ7kNvwHNUACz&_nc_oc=Adm5AKQimo5Kdn8LzkoJvUI8kyk3Lcb_tBulp1Vxmp--EBMAaObuFbSsHKywqNVBKU8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wGtgedgYL7sg3Hsu63X2CA&oh=00_AfkgNoDuM9vlAdx8Iu34xNtsJ-i66waT-v_0fYlTHoY4TQ&oe=695400EC)
+![Horizon Creation Home](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546218067_811522964718990_2334895237106097278_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Wf37MdbH8iAQ7kNvwH8RjUF&_nc_oc=AdlaD_vDC4rRuZxM_oVIw8a4OYUiOh2K9HkKAk9PHVD0a-k2z6rAIOdOoPcXuqaOoSMJ-DTawKHIVA1eDQkXbMJI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6HUeHlA4oS4I-RWxalVG1Q&oh=00_AfkC7Tmwu7c8es_7s1hG8kkx87x0WiYphG3MDY_Kl2HGRQ&oe=69558AAC)
 
 ## Editor comparisons
 
@@ -41,7 +41,7 @@ Otherwise, Horizon shares much of the same functionality such as:
 * A scene view that shows the 3D view of the world.
 * An asset library that shows both the creator’s library of assets, as well as assets created by external creators.
 
-![Horizon Editor comparison](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545251985_811522958052324_6764831470634074968_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=GBp9XzqaoPcQ7kNvwEQ0-O4&_nc_oc=AdnAuFaCPTCGqguldk4Fxp-2e8R6ZGTF40LtLl4K4z0nitBZtpTjzD9oLEJAhu8n-UE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wGtgedgYL7sg3Hsu63X2CA&oh=00_Afk_pFkWe8TRF1vmzP1qcMSFB2Enzdq3abzjRM3uQBwOmQ&oe=695421E1)
+![Horizon Editor comparison](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545251985_811522958052324_6764831470634074968_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=GBp9XzqaoPcQ7kNvwH_6yZ_&_nc_oc=AdkhyCpVg1XQdkyIxLEI-HxghrgzfHAP8AheW10lS4Q2aeQP-19Nf-XoKpb4KjfxmOL7WqzBmuKY-j2vEbrt-dN4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6HUeHlA4oS4I-RWxalVG1Q&oh=00_AfnOtbUiz2MlIJbaAOU4dLXkD9h2G7k7l6AJ2QfxKe97Sw&oe=69557361)
 
 | Index | UEFN | Horizon | Description |
 | --- | --- | --- | --- |
@@ -118,7 +118,7 @@ Horizon allows a [variety of different asset types to be imported](../../Desktop
 
 Horizon offers multiple ways to playtest your world on desktop, mobile, and VR. The first step to playtesting is to publish your world. Make sure to mark it as invisible to the public.
 
-![Horizon Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545673526_811522954718991_5394657970832061088_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=M-IeepRaBl0Q7kNvwHFSwDU&_nc_oc=AdmzxO_QnHf2mpZNyxKQluZE3N3m-GL1yMbTT26XHZOYDf2kb8t3hN3KJgzW2mqUJZg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wGtgedgYL7sg3Hsu63X2CA&oh=00_AfmEfRkMz-xBnMLVXiS3ukHjhpygo5IA3GwVfmuP6amr6Q&oe=6953F559)
+![Horizon Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545673526_811522954718991_5394657970832061088_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=M-IeepRaBl0Q7kNvwEwmmb6&_nc_oc=AdnpnFbnJoykG-TDWbnyyk53wuuUjRFC6_K_LkEi_Z4CSQ93emlUOnTse2lteVUc6HT5Dd8b_rBk1DjGfpg1y2xy&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6HUeHlA4oS4I-RWxalVG1Q&oh=00_AfkvWjWFbq7j4mt7jBspkvXtibD0nMwycMM5aLqz2NCVGQ&oe=69557F19)
 
 Once a world is published, that specific published version is what will be available to playtest. More information on the publishing flow can be found [here](../../Save,%20optimize,%20and%20publish/Publish%20your%20world.md). Some important steps to keep in mind:
 
@@ -127,4 +127,4 @@ Once a world is published, that specific published version is what will be avail
 
 For easy access to playtest builds, use the preview actions found under the preview configuration drop down at the top of the editor.
 
-![Horizon Preview Actions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/547194483_811522961385657_2537791522362502658_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=YHNz77J5-F0Q7kNvwHIOkAb&_nc_oc=AdmiN6kd-mY2x2RxDcxeXQZMF-cvPumkvGnY31a3G1ho796D5BvksBDnpbmAhuXWw24&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wGtgedgYL7sg3Hsu63X2CA&oh=00_AfnJNvwqQE6NB1xMHQuIPt1QVog7CMTKYOZa0E9s9XuQUQ&oe=69541EBF)
+![Horizon Preview Actions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/547194483_811522961385657_2537791522362502658_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zZMSs2btTGEQ7kNvwF89pLF&_nc_oc=Adnwcj8ycTS6bfnxCUwD_w1tIftC8zKraclRPexpCEIpadhIEfb7xm8OxTL7FbwSxmMJk7pe_W12sojTGNeUxgz0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6HUeHlA4oS4I-RWxalVG1Q&oh=00_AfkXu0j1iEtv06sbOFru5Vj_wqPnomHxctk6__3i-ggzqg&oe=6955703F)

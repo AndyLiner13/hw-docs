@@ -31,7 +31,7 @@ Meta Horizon Worlds supports all [ES2020](https://262.ecma-international.org/11.
 
 All new Meta Horizon worlds use TypeScript API version 2.0 by default. We strongly recommend that you upgrade to this version if you haven’t already, because prior versions are no longer updated. For more information on this, see [Upgrade World to TypeScript API v2.0.0](../Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md).
 
-API reference material is available in the [API Reference Documentation](../../Overview.md) by clicking the version selector at the top of each reference page.
+API reference material is available in the [API Reference Documentation](https://developers.meta.com/horizon-worlds/reference/2.0.0/) by clicking the version selector at the top of each reference page.
 
 ## Learn more about TypeScript
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # Meta Horizon Creator Program Technical Support Best Practices (January 18, 2023)
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453574848_306993542426430_736878915661575687_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=2oJYtSSNSGoQ7kNvwEhWuei&_nc_oc=Adk1fy8NehWVkJzeGSfVcsMarKSNQlKI21l-i0UVcWpIBb6HzYWzG4i4ziGMKke74I0&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=d7sfur2YBWBXu37ewWvChg&oh=00_AflOEXQ-qy4v0gECY0XnrNVk3EIvTiR06__brbwtZ4cydw&oe=6937542A)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453574848_306993542426430_736878915661575687_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=Z0dFIO3qQWEQ7kNvwHfayCX&_nc_oc=AdlpdFrPA7evZbGVQHHU0l0YSIn2oKB-JyWiVM9OLCUBTUrXTxopLX7L0pKeJvGLWnX8ClAjowmB6scqcqsphkGV&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=kalrtuEINK2_42TuNI4igQ&oh=00_AfnAwjHA6jKzrVlLQMOIZLrxweSNSlnDaG9Oy87_tKY88Q&oe=6940FF2A)
 
 Learn more about the Meta Horizon Creator Program with a look at the benefits of program membership and best practices for submitting technical support requests.
 

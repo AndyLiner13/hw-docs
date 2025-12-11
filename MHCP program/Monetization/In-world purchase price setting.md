@@ -27,4 +27,4 @@ Upon completion, a notification will appear confirming the price has successfull
 
 For all of the visual learners, we also have a video of the price setting process:
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/474783044_1242052673560198_5035901811919990497_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=eLPEtaVoJ_kQ7kNvwFdrVmO&_nc_oc=Adk0lYqRR0O-SP1l5UaGrd13AnJCNdMWDuivGP6dxHHsIm5YnVyVSYiLY5SfxMjXiik&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=24k-_S5wI8wgWR9fl6Kofg&oh=00_AflhvYhf0Xypz-a2BrXJnogl9Wiy1F0OlI8QDNLuKgEHIg&oe=69375960)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/474783044_1242052673560198_5035901811919990497_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=9nWeSv_N1yQQ7kNvwFFMtte&_nc_oc=Adn6ufk2qFjQx-9jpEizN4uwwUALaly1wLVPtsPnsXje2d8rpmiGQYFCukBYqoHASmdTO_Y_SyVQGe8vdvMo2h4b&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=WWnUdSzHi5dsaC7K1-f54A&oh=00_AfnDsyCgaeapzQTF8WKI4HmduJLX8D9lboI05VuFzSbwdw&oe=69410460)

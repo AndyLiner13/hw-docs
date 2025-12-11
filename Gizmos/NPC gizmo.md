@@ -36,5 +36,5 @@ Now that you’ve been introduced to the NPC gizmo, further your learning with t
 * [NPCs](../Desktop%20editor/NPCs/NPCs%20Overview.md)
 * [Getting started with scripted avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs)
 * [Build navigation for scripted avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/build-navigation-for-scripted-avatar-npcs)
-* [Tutorial worlds on scripted avatar NPCs](../Tutorials/Scripted%20Avatar%20NPC%20tutorial/Module%202%20-%20Overview%20of%20Scripted%20Avatar%20NPCs.md)
+* [Tutorial worlds on scripted avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-2-overview)
 * [Meta Horizon Creator Program’s creator manual on the NPC gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#npc-gizmo)

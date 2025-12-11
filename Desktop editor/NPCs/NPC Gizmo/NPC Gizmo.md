@@ -11,35 +11,7 @@ Adding an NPC Gizmo to your world has the **same performance impact as adding an
 To create and configure an NPC using the NPC Gizmo, use the following process:
 
 - Select **Build** from the top menu and navigate to select the **NPC** icon from the **Avatar** section.
-  <details>
-<summary>NPC Gizmo Build window</summary>
-
-<p></p>
-
-[NPC Gizmo Build window](../../../../../images/output/img_20251211_070638_20251211_070638.md)
-
-### Overview
-The image displays a user interface toolbar within a software application, likely a game development environment. The toolbar contains various categories such as Hierarchy, Shapes, Colliders, UI, Navigation, Display, Interactions, Avatars, and Media. Each category has a set of icons representing different functionalities. A specific icon within the Avatars section is highlighted with a red bounding box.
-
-### Key Elements
-- **Hierarchy**: Located at the far left, represented by a tree icon and a plus sign.
-- **Shapes**: Contains icons for sphere, cube, cylinder, and a dropdown arrow.
-- **Colliders**: Includes icons for cube, sphere, cylinder, and a dropdown arrow.
-- **UI**: Features icons for text, info, and a T-shaped icon.
-- **Navigation**: Displays icons for a trophy, a cup, and a dropdown arrow.
-- **Display**: Contains icons for search, trophy, and a dropdown arrow.
-- **Interactions**: Includes icons for a target, a rocket, and a dropdown arrow.
-- **Avatars**: Highlighted with a red bounding box, showing an icon resembling a character or avatar.
-- **Media**: Contains icons for play, a microphone, and a dropdown arrow.
-
-### Visual Flow / Relationships
-The toolbar is horizontally arranged with each category having its own set of icons. The Avatars section is visually distinct due to the red bounding box highlighting it. The icons are evenly spaced, and there are no arrows or lines connecting them, indicating a flat design without a specific reading order.
-
-</details>
-
-<p></p>
-
-
+  ![NPC Gizmo Build window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578267194_863533339517952_5977020901995238590_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=2aRmGt8InNwQ7kNvwGCF9Im&_nc_oc=AdmT-2jyh7Sx3ejeQsCg3fc5YAauv5SHN0uvaz2xbZ74Uhpc0u0rcaTXIdLzChtYdg2xf9hrdV7j8nCmk6wtx9Tj&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6fQlOSRphVyzPMZTIT-H5g&oh=00_AflS4qWklt0H2QREfSWFx3dg_cnNK3xTRxik7iuFWVF9Qw&oe=69557C3C)
 - Drag the NPC Gizmo from the toolbar into your world scene and place it. **Note**: the NPC may initially appear as a single, flat color as a placeholder. It is also important to position the NPC gizmo on a surface in your world and not above or below it.
 - Once your NPC has been added to your world, you can configure its properties.
 
@@ -64,32 +36,6 @@ You can also duplicate or delete NPC Gizmos within your world like any asset add
 
 After adding the NPC Gizmo (**Gizmos > NPC)** and positioning it in your world, you can set its’ **Body Type** to Horizon Avatar to use a Horizon based avatar as an NPC. When selecting a Horizon Avatar as an NPC you can also **customize its visual appearance** by clicking “**Edit Avatar**” in the Properties panel. This opens a web-based editor for body, face, clothing, and accessories.
 
-<details>
-<summary>Edit your avatar window</summary>
-
-<p></p>
-
-[Edit your avatar window](../../../../../images/output/img_20251211_070754_20251211_070754.md)
-
-### Overview
-This image depicts a user interface for editing an avatar within a virtual environment, specifically Meta Horizon. The interface allows users to customize various aspects of their avatar, such as clothing, accessories, hair, makeup, face, and body features. The main focus is on the hairstyle customization options, which are displayed in a grid layout on the right side of the screen.
-
-### Key Elements
-- **Avatar Preview**: Located on the right side of the screen, showing a 3D model of an avatar wearing a dark t-shirt and jeans. The avatar has a hairstyle that matches one of the options selected in the hairstyle grid.
-- **Hairstyle Grid**: Positioned centrally on the right side, displaying multiple hairstyles in a grid format. Each hairstyle is represented by a small 3D model of a head.
-- **Clothing Section**: Located on the left side, with a dropdown menu labeled "Clothing." It includes a sub-menu for "Accessories."
-- **Hair Section**: Also on the left side, with a dropdown menu labeled "Hair," currently expanded to show "Hairstyle" and "Facial hair" options.
-- **Makeup Section**: Below the Hair section, with a dropdown menu labeled "Makeup."
-- **Face Section**: Below the Makeup section, with a dropdown menu labeled "Face."
-- **Body Section**: At the bottom of the left sidebar, with a dropdown menu labeled "Body."
-
-### Visual Flow / Relationships
-The interface is organized into a sidebar on the left and a preview area on the right. The hairstyle grid is the most prominent visual element, as it occupies a significant portion of the screen space. The avatar preview is secondary but crucial for visualizing the changes made to the avatar. The layout suggests a linear progression through the customization options, starting from the top left and moving downward.
-
-</details>
-
-<p></p>
-
-
+![Edit your avatar window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469049488_603532515518037_2698379075646803421_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=H7EBSPlcLxoQ7kNvwG_IcV7&_nc_oc=AdknpGq6oA13EfYZPAdtNM2HZ5vKBwv5wPIpzuwc9uSxSlAAL2HBjUDUtCkPxyiIbTUFnJVs4SWfGq5MougGTDFV&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6fQlOSRphVyzPMZTIT-H5g&oh=00_Afn3POSp_-X-sYuh61EOmIoF7fTpHG6L6M0wPFUfRGJbcw&oe=69558953)
 
 Remember to click **“Refresh”** in the Desktop Editor to see your updates after you click **Done editing**.

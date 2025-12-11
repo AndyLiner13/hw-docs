@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 The avatar pose [gizmo](About%20gizmos.md) is a helper tool that allows creators to position avatars in the virtual world in a sitting pose. Avatars can sit on a variety of stationary objects like chairs or moving objects such as roller coasters and bicycles. When the player is near the [avatar pose gizmo](../Reference/core/Classes/AvatarPoseGizmo.md), the player can press E to sit down on the gizmo object or [entity](../Reference/core/Classes/Entity.md), and then stand up using the [movement controls](../Desktop%20editor/Help%20and%20reference/Desktop%20Editor%20Creation%20Tools%20Keyboard%20Shortcuts.md). The gizmo supports animations and locomotion mechanics, allowing avatars to move naturally into seated positions as shown in the image below.
 
-![Avatar pose gizmo enables you to position your avatar in a sitting pose](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/497727897_718068960731058_5060701550769065856_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=xOscEBWZdfIQ7kNvwFX4cI7&_nc_oc=Adld8IJW1bGeBTX6To3WPOkHZJCay9UinICoeg7ngNJxDO_zDYwO6e44KC5cMh7xgtA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ncZXDOT6-83aQ2HwyT4c3w&oh=00_Afmv7SM65DBk7SqNYOfHXr6nPHNj-J5MKEMkgEcL2eJuNQ&oe=694BD9D7)
+![Avatar pose gizmo enables you to position your avatar in a sitting pose](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/497727897_718068960731058_5060701550769065856_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=IJCe63vR8l8Q7kNvwGxG4zu&_nc_oc=AdmxuSv0MDIxW1Uchf96m1qWjN33takJhi3l_teKuoxuEWQ1ibitXHNLRodAPswGH-9UYxltYhoIqIYkXODQ0XJH&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=xCVN7U6d3s6lp9cfQ5MkDw&oh=00_AfmGymPg9xKtFUTUmRGgcJMKtgR01N2pI_6eOFc6Z6ttGg&oe=695584D7)
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ The avatar pose [gizmo](About%20gizmos.md) is a helper tool that allows creators
 
 There may be some amount of clipping through the object’s geometry from the avatar’s legs. This can vary depending on the body shape of the avatar. You may need to modify your objects and adjust the avatar pose gizmo to reduce clipping. To help assist with this, a shadow avatar is available on the avatar pose gizmo while in the Build mode to preview if the placement will create clipping. You can also use the Worlds camera and try out different avatar bodies to see how avatars will look using the seat. The sitting animation is procedurally adjusted to account for the avatar’s body shape which reduces clipping for larger bodies.
 
-![Avatar pose gizmo has a shadow avatar in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497654382_718068954064392_7813754134802998118_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=MSNMreab_LsQ7kNvwHLMt_i&_nc_oc=Admyco2hkdwksR6P45QxmYzFB99Y5McO2aZ-U5bOwWmqacL2cqb_JjF4NAgdrm23h6Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ncZXDOT6-83aQ2HwyT4c3w&oh=00_AfnsOoMIoJ82039GjMVGWK3UPWjJ9eZcbU_0cJsO6Oycgg&oe=694BBD38)
+![Avatar pose gizmo has a shadow avatar in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/497654382_718068954064392_7813754134802998118_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6YjLOVZIsJ8Q7kNvwHm9olo&_nc_oc=Adm2zTI_6ZLEw90XV9seiw1p9djZPRoSdzNI6FOxPdpFpbk-pSAV9oCSTz03PCzCpPtvaBC7StHiZKU1pHeg_YpT&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xCVN7U6d3s6lp9cfQ5MkDw&oh=00_AflBzCBm1LGiyebky4X20DP-M93wi-P8GIYQc7AU5UuO3Q&oe=6955A078)
 
 Emotes are available while sitting, but only the upper body will move.
 
@@ -53,7 +53,7 @@ Through scripting, the [AvatarPoseGizmo class](../Reference/core/Classes/AvatarP
 * Specify if the player is allowed to exit the gizmo.
 * Listen to [enter/exit events when a player enters/exits the avatar pose gizmo](../Reference/core/Variables/CodeBlockEvents.md) as shown in the image below.
 
-![Avatar pose gizmo class has listeners for enter and exit events](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/497496279_718068957397725_4079087536513392361_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=-eSoHfGUvQYQ7kNvwH6wn-n&_nc_oc=Adn9JncI3-3tfkBbYYuYtCQXDA5_57BDFqbsPsY3a_cnGEP9EmESJ-YRpWdWy902Qo8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ncZXDOT6-83aQ2HwyT4c3w&oh=00_AflM5XQb9Zerv18Kdapm2EkeR-EM_pBhXInmAT1kpqO8QQ&oe=694BDF14)
+![Avatar pose gizmo class has listeners for enter and exit events](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/497496279_718068957397725_4079087536513392361_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=1lHsMJU9q3oQ7kNvwGUTZMg&_nc_oc=AdmeIV_BGDb482b_w9h-VFTPrfEgJKQvnDNJDwMMSRyWl7j83Fv1NYPDqvBCB3yqo_zG7TCZHfu_ANChpe-Y-mKA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=xCVN7U6d3s6lp9cfQ5MkDw&oh=00_AfkRWgrXgD2vmeB7fYY9RrvlVqfG9I3vFx1E8GfMAEKoLA&oe=69558A14)
 
 The following example shows how to use the [AvatarPoseGizmo class](../Reference/core/Classes/AvatarPoseGizmo.md) to specify which players can use an avatar pose gizmo while using [`CodeBlockEvents`](../Reference/core/Variables/CodeBlockEvents.md) to listen for players enter/exit events. See also [`CodeBlockEvent`](../Reference/core/Classes/CodeBlockEvent.md).
 
@@ -95,4 +95,4 @@ hz.Component.register(TestSeatGizmo);
 Try the following topics to further your learning:
 
 * [Avatar poses](../Mobile%20and%20web/Grabbable%20entities/Avatar%20Poses.md)
-* [Tutorial worlds customize avatar interaction](../Tutorials/Developing%20for%20Web%20and%20Mobile%20Players%20tutorial/Module%206%20-%20Room%20A-%20The%20Magic%20Wand.md#customize-avatar-interactions)
+* [Tutorial worlds customize avatar interaction](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-6-room-a-the-magic-wand#customize-avatar-interactions)

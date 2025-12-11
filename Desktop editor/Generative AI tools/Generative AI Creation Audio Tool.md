@@ -36,59 +36,11 @@ Gen AI Tool Availability & Rates
 
 The chat panel contains several example prompts. For example, the image below shows two sound effect examples and one ambient audio example.
 
-<details>
-<summary>Gen AI audio sample prompts</summary>
-
-<p></p>
-
-[Gen AI audio sample prompts](../../../../images/output/img_20251211_031956_20251211_031956.md)
-
-### Overview
-This image displays a user interface segment featuring a list of sound effect options. The layout is structured with a dark background and light-colored text, providing a clean and modern aesthetic. Each option is presented as a clickable item within a grid-like arrangement.
-
-### Key Elements
-- **Sound Effect**: A heading indicating the category of the sound effect.
-- **Description**: A brief description of the sound effect beneath the heading.
-- **Icon**: A small speaker icon next to the heading and description.
-- **Background**: Dark gray background for each item.
-- **Text**: White/light gray text for headings and descriptions.
-- **Separator**: Thin white line separating each item.
-
-### Visual Flow / Relationships
-The items are arranged in a vertical stack with a horizontal separator line between them. The most prominent visual element is the speaker icon, which draws attention to the sound effect category. The descriptions follow logically below the headings, providing additional context.
-
-</details>
-
-<p></p>
-
-
+![Gen AI audio sample prompts](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468962273_603507952187160_1786144461139993868_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ryHs1Rjb0owQ7kNvwFpfoYk&_nc_oc=AdmGd82gEBoQVEn21FGRfmI0sauKHA8o99FDLwh-SOSTZMDtvV46yMNJ4KzqgaT_mlh0C7FrjZyIhL1zOiz6G646&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_Afk4oIE9sSr7mKzi5GgW_rR9Fg_DCgGs3yz-PQi3Hd2h7w&oe=695579CE)
 
 To try out a sound, simply select it. For example, when you select “Cicadas chirping in a field at night”, the user interface changes to display a chat between you and the Gen AI tool. Your prompt appears at the top of the panel, followed by the AI-generated results.
 
-<details>
-<summary>Gen AI audio audio output samples</summary>
-
-<p></p>
-
-[Gen AI audio audio output samples](../../../../images/output/img_20251211_032047_20251211_032047.md)
-
-### Overview
-This image depicts a user interface segment from a sound effect generation tool. It shows a list of audio clips labeled as "Horizon AI" with play buttons next to them. The interface includes a header indicating "SFX GENERATION" and a description of a sound effect titled "Cicadas chirping in a field at night."
-
-### Key Elements
-- **Header**: Located at the top, the header reads "SFX GENERATION." It has a light gray background with a dark gray border.
-- **Description**: Below the header, there is a description of a sound effect: "Cicadas chirping in a field at night." This text is white on a dark gray background.
-- **Play Buttons**: There are four identical play buttons, each with a white play icon on the left and a progress bar on the right. Each play button is labeled "0:05," indicating a duration of five seconds.
-- **Background**: The overall background is dark gray, providing contrast to the lighter elements.
-
-### Visual Flow / Relationships
-The most prominent visual elements are the play buttons, which are arranged vertically. The play buttons are evenly spaced, and the description text is positioned above the first play button. The header is at the very top, serving as the primary focus.
-
-</details>
-
-<p></p>
-
-
+![Gen AI audio audio output samples](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/468981643_603507958853826_138868665087679452_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=o-L8TEkniwEQ7kNvwEM24zQ&_nc_oc=Adkrdi73X2ZCnaRp4qWEvafiRaUybOpA5qkxxTivHMLCiJsFosEcpnS5gBAX3VO5HM9oQheAg-kJ2AQrkwfbYrg9&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_AfnGPZ5ymXa0CxeO8sFkEbINSulF68XimBfwqCotXlAhng&oe=69559E38)
 
 The Gen AI tool returns several sound clips. Listen to each, and then decide which is your favorite!
 
@@ -96,80 +48,13 @@ The Gen AI tool returns several sound clips. Listen to each, and then decide whi
 
 As well as containing several sample prompts, the chat panel also contains an input field for accepting your custom prompts.
 
-<details>
-<summary>Gen AI audio duration slider</summary>
+![Gen AI audio duration slider](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468938673_603507962187159_1522823021563312640_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=KaoUCr0vKKwQ7kNvwH7_hy2&_nc_oc=AdljwGmHqz4VZ_bBckvK4lmm0GNOiKi7GDkqz6YtdnIO4FmCfxmKiZrmb43z_L1N_HAb4XaLGbJAnNb8m2Ta1e5K&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_AfmXW59L7W3lMjTK0uCoL1O41dTP4UHiVH_BAL05f6BKKQ&oe=69558002)
 
-<p></p>
-
-[Gen AI audio duration slider](../../../../images/output/img_20251211_032135_20251211_032135.md)
-
-### Overview
-This image depicts a user interface element showing a slider control for setting a duration, alongside a dropdown menu for selecting a sound effect type.
-
-### Key Elements
-- **Slider Control**: Located at the top, horizontally oriented. The slider has a blue progress bar indicating the current value, which is set to "Long (5s)" as shown in the label above the slider.
-- **Duration Label**: Positioned to the right of the slider, displaying "Long (5s)".
-- **Type Label**: Located below the slider, indicating "Type".
-- **Dropdown Menu**: Situated below the "Type" label, featuring a gray background with a white border. It contains the text "Sound effect" followed by a downward-facing arrow, suggesting a dropdown functionality.
-
-### Visual Flow / Relationships
-The most prominent visual element is the slider control due to its size and central placement. The duration label is secondary but still noticeable. The dropdown menu is less prominent but clearly defined by its distinct shape and color contrast against the rest of the interface.
-
-</details>
-
-<p></p>
-
-
-
-<details>
-<summary>Gen AI audio prompt input field</summary>
-
-<p></p>
-
-[Gen AI audio prompt input field](../../../../images/output/img_20251211_032222_20251211_032222.md)
-
-### Overview
-This image depicts a user interface element consisting of a text input field and a button labeled "Generate." The text input field contains the placeholder text "Children playing in a playground."
-
-### Key Elements
-- **Text Input Field**: Located at the top, occupies the upper portion of the image. It has a dark gray background with white text. The text "Children playing in a playground" is visible within the field.
-- **Button**: Positioned below the text input field. It has a blue background with white text that reads "Generate." There is a small white icon resembling a lightning bolt to the left of the word "Generate."
-
-### Visual Flow / Relationships
-The most prominent visual element is the text input field due to its larger size and central placement. The button is positioned directly below the text input field, suggesting a sequence where the user would first enter text into the field before clicking the button to generate content.
-
-</details>
-
-<p></p>
-
-
+![Gen AI audio prompt input field](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/456847485_534117169126239_974795065296146371_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=q17k2u0nSs4Q7kNvwHa2LK8&_nc_oc=AdlXfxlOzri-r-LA0to-COo4AtFKdKI9Ckkw8y8__dYUY8HIN6chcmYkbht1X1HqGmCJ4cunMeq0BFhURfEVbh_z&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_Afl9fD9j_IHq2eGbORSh2PgiCal-QepfaB9NkXEvbA6Ueg&oe=69558491)
 
 Type your own prompt into the input field, set the **Duration**, select an audio **Type**, and click **Generate**. The Gen AI tool generates four audio clips for sound effect generation and one audio clip for ambient audio generation. Try them out and then pick the one that you like the best. Note that ambient audio can take over a minute to generate due to the length of the ambient audio tracks.
 
-<details>
-<summary>Gen AI audio like/dislike options</summary>
-
-<p></p>
-
-[Gen AI audio like/dislike options](../../../../images/output/img_20251211_032311_20251211_032311.md)
-
-### Overview
-This image depicts a user interface segment from a platform that generates sound effects (SFX). It includes a user interaction area with audio playback controls and a comment section.
-
-### Key Elements
-- **User Input Section**: Located at the top left, this area shows a username "You" followed by a description "children playing in a playground". The background is dark gray.
-- **Audio Playback Controls**: Below the user input, there are four identical playback controls, each showing a play button (triangle), a progress bar, and a timestamp "0:05". These controls are arranged vertically.
-- **Interaction Buttons**: Each playback control has a thumbs-up icon, a thumbs-down icon, and a vertical ellipsis (...), indicating additional options.
-- **Horizon AI Label**: Positioned above the first playback control, it reads "Horizon AI".
-
-### Visual Flow / Relationships
-The most prominent visual elements are the playback controls, which are arranged vertically. There are no arrows or lines connecting elements, but the layout suggests a sequential reading order moving downward.
-
-</details>
-
-<p></p>
-
-
+![Gen AI audio like/dislike options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/469226276_603507965520492_2652256979980421471_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=PBX8k5Tc29EQ7kNvwFpyhh1&_nc_oc=AdmvrBbZlL4m3rKIHkY3iM5cT5WjtQRQlWoqqvcTnnwNj6E7rq8CkY7FkuxkB8crMcMhsRE_7bKS6r87sImD0M12&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_Afl2fFrzTuidK8RzWN6cvIuc6ON471Rl8CKjNQgp83DpNQ&oe=69559049)
 
 To specify whether the result was helpful, hover over the audio player and click either **Like** (thumbs-up) or **Dislike** (thumbs-down). Meta uses this information to fine-tune the LLM.
 
@@ -177,31 +62,7 @@ To specify whether the result was helpful, hover over the audio player and click
 
 - Pick one of the sound clips to audition, and then click the **Play** button.
 
-<details>
-<summary>Gen AI audio generated audio play</summary>
-
-<p></p>
-
-[Gen AI audio generated audio play](../../../../images/output/img_20251211_032415_20251211_032415.md)
-
-### Overview
-This image depicts a user interface element, likely part of a media player or similar application. It includes a progress bar, a play/pause button, and some interactive icons.
-
-### Key Elements
-- **Progress Bar**: Located centrally, horizontally oriented. It has a dark background with a lighter segment indicating the current playback position. The play/pause button is integrated into the left end of the progress bar.
-- **Play/Pause Button**: Positioned at the far left, it is a white circle with a play/pause symbol inside. It appears to be a toggle switch.
-- **Like/Dislike Buttons**: Two icons are located to the right of the progress bar. One resembles a thumbs-up ("Like") and the other a thumbs-down ("Dislike").
-- **Menu Button**: A vertical ellipsis ("...") is positioned at the far right, suggesting a dropdown menu or additional options.
-- **Background**: The entire element has a dark gray background.
-
-### Visual Flow / Relationships
-The most prominent visual is the **progress bar**, as it occupies the largest area and spans the width of the interface. The **play/pause button** is the second most noticeable due to its central placement and distinct shape. The **like/dislike buttons** are smaller and placed symmetrically on either side of the progress bar. The **menu button** is the smallest and least prominent but still clearly defined.
-
-</details>
-
-<p></p>
-
-
+![Gen AI audio generated audio play](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468835392_603507955520493_7365456068446184086_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=NE7aavu4c8AQ7kNvwFKbHo2&_nc_oc=Adlu599egxhDmAIiJBJH1corhdzI5ib802VraSD4e5kfOEstxY9R4f4kssNWZ6IsulhmqL4FAdqvnuJCSUHVulnS&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_AfmOvn-Y4eCNiNYYN7DycoUVXSxjzlc5PdSzoY4e3EZlwQ&oe=695576BF)
 
 The clip plays through your computer’s speakers.
 
@@ -209,184 +70,34 @@ The clip plays through your computer’s speakers.
 
 - Hover over the applicable sound clip, click the three dots, and click **Save to asset library**.
 
-<details>
-<summary>Gen AI audio save to library</summary>
-
-<p></p>
-
-[Gen AI audio save to library](../../../../images/output/img_20251211_032456_20251211_032456.md)
-
-### Overview
-This image depicts a user interface element showing a dropdown menu that has been triggered by hovering over a specific area. The dropdown contains two options: "Save to Asset Library" and "Download."
-
-### Key Elements
-- **Visual description**: A dropdown menu with two options.
-- **Location**: Positioned below a larger interactive element (likely a file or media item).
-- **Contents**: 
-  - Option 1: "Save to Asset Library"
-  - Option 2: "Download"
-- **Visual styling**: The dropdown has a dark background with white text, giving it a clean and modern look.
-
-### Visual Flow / Relationships
-- **Most prominent visually**: The dropdown menu itself.
-- **Spatial relationships**: The dropdown is directly below the interactive element it is associated with. There are no arrows or lines connecting the elements, but the dropdown implies a downward reading order.
-
-</details>
-
-<p></p>
-
-
+![Gen AI audio save to library](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469048224_603507968853825_6993013063125272547_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=YC_jotD28SgQ7kNvwEUu_E9&_nc_oc=AdmSHtTC0L_buqg7iwkKL5B2sXWSBolQEQgx1bvJDy3evCMOMiTKR82KsTcRJnMu4wbQNZQhaHUB-r0phqjjFWMM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_Afn6fQw4rrSvKp92oF_Yh3XV_5SR9Lqx5xA1ASFn1lTgWA&oe=6955998B)
 
 The generated sound effect is converted into an asset and added to your Asset Library.
 
-<details>
-<summary>Gen AI file added to library</summary>
-
-<p></p>
-
-[Gen AI file added to library](../../../../images/output/img_20251211_032539_20251211_032539.md)
-
-### Overview
-This image depicts a simple icon design with a musical note symbol and accompanying text indicating "Generated SFX."
-
-### Key Elements
-- **Visual description**: The icon features a white musical note shape against a light gray background.
-- **Location**: The musical note is centered within a rounded rectangular container.
-- **Contents**: The musical note is depicted as a standard treble clef with a note head.
-- **Visual styling**: The musical note is white, and the background of the rectangle is a light gray, almost white shade.
-
-### Visual Flow / Relationships
-The icon is the most prominent visual element, and there are no arrows, lines, or connectors present. The text "Generated SFX" is placed below the icon, suggesting a label or title related to the icon's purpose.
-
-</details>
-
-<p></p>
-
-
+![Gen AI file added to library](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457021128_534117189126237_2717491827960321941_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=DeD_dXhnTHkQ7kNvwHtnphC&_nc_oc=Adl2E_lUPvhceukMu7ABwomylZ5Ac5DNTurlS2hATB-ZLjVIoXsL9Veya68rZ4wDJ32S0HauORi_yEg6KEjyMSPD&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_Afldb0_EfYAvGfDSNEkH96QMWhq1ZqbLr2aJVdiKoWbJEw&oe=69556D1D)
 
 If you drag the generated SFX asset into your scene, it appears in your Hierarchy.
 
-<details>
-<summary>Gen AI hierarchy view</summary>
-
-<p></p>
-
-[Gen AI hierarchy view](../../../../images/output/img_20251211_032634_20251211_032634.md)
-
-### Overview
-This image depicts a user interface element that appears to be part of a software application, likely related to audio processing given the reference to "Audio Graph" and "Generated SFX." The visual is a simple text-based label with a gradient background and some small icons.
-
-### Key Elements
-- **Visual description**: The visual consists of a dark gray gradient background with white text and small icons.
-- **Location**: The text and icons are centered horizontally within the frame.
-- **Contents**: 
-  - **Text**: "SpawnPoint" and "[Audio Graph] Generated SFX"
-  - **Icons**: A small speaker icon is located to the left of the text.
-- **Visual styling**: The text is white, and the background has a gradient effect transitioning from darker gray at the top to lighter gray at the bottom. There are no borders around the text area.
-
-### Visual Flow / Relationships
-- **Most prominent visually**: The text "SpawnPoint" is the most prominent due to its larger font size compared to the rest of the text.
-- **Arrows, lines, connectors**: There are no arrows, lines, or connectors present.
-- **Spatial relationships**: The text and icon are arranged in a single row, with the icon positioned to the left of the text.
-
-</details>
-
-<p></p>
-
-
+![Gen AI hierarchy view](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/456900580_534117192459570_5451035202656942100_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=XeTRYol0vJMQ7kNvwG_1RHr&_nc_oc=AdlBHuK4_JTnXqHug-Fi5BPT7w9m0vFp-BMd7Lkb47eog_p-ZRA9O078s5Pmg1KT9HUuPLELz5tvbqxni9sVtuW2&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_Afl4ohIb_5fjeIVWBgeLu1Yz5TvWq5OdwKWESYLUg9mQUQ&oe=6955896C)
 
 ## Downloading generated sound effects
 
 - Hover over the applicable sound clip, click the three dots, and click **Download**.
 
-  <details>
-<summary>Gen AI download file</summary>
-
-<p></p>
-
-[Gen AI download file](../../../../images/output/img_20251211_032713_20251211_032713.md)
-
-### Overview
-This image depicts a user interface element showing a dropdown menu that has been triggered by hovering over a specific area. The dropdown contains two options: "Save to Asset Library" and "Download."
-
-### Key Elements
-- **Visual description**: A dropdown menu with two options.
-- **Location**: Positioned below a larger interactive element (likely a file or media item).
-- **Contents**: 
-  - Option 1: "Save to Asset Library"
-  - Option 2: "Download"
-- **Visual styling**: The dropdown has a dark background with white text, giving it a clean and modern look.
-
-### Visual Flow / Relationships
-- **Most prominent visually**: The dropdown menu itself.
-- **Spatial relationships**: The dropdown is directly below the interactive element it is associated with, indicating a direct interaction point.
-
-</details>
-
-<p></p>
-
-
+  ![Gen AI download file](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469048224_603507968853825_6993013063125272547_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=YC_jotD28SgQ7kNvwEUu_E9&_nc_oc=AdmSHtTC0L_buqg7iwkKL5B2sXWSBolQEQgx1bvJDy3evCMOMiTKR82KsTcRJnMu4wbQNZQhaHUB-r0phqjjFWMM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_Afn6fQw4rrSvKp92oF_Yh3XV_5SR9Lqx5xA1ASFn1lTgWA&oe=6955998B)
 
   The Export dialog box appears, prompting you to enter a filename.
 
-  <details>
-<summary>Export dialog</summary>
-
-<p></p>
-
-[Export dialog](../../../../images/output/img_20251211_032816_20251211_032816.md)
-
-### Overview
-This image depicts a file export dialog box commonly found in Windows operating systems. It includes a directory path, file name input field, save type selection, and standard save dialog controls.
-
-### Key Elements
-- **Directory Path**: Located at the top, showing "This PC > Downloads". This is a breadcrumb-style navigation bar indicating the current directory being accessed.
-- **File Name Input Field**: Positioned below the directory path, labeled "File name:". It is a text input box where users can enter the desired file name.
-- **Save As Type Dropdown**: Situated beneath the file name input field, labeled "Save as type:" with the currently selected option "WAV File".
-- **Browse Folders Button**: Found at the bottom left, indicated by a downward arrow next to the text "Browse Folders".
-- **Save and Cancel Buttons**: At the bottom right, there are two buttons labeled "Save" and "Cancel", which are standard options for confirming or canceling the action.
-- **Search Bar**: Positioned above the file name input field, labeled "Search Downloads", allowing users to search within the current directory.
-
-### Visual Flow / Relationships
-The most prominent visual elements are the directory path and the file name input field. The flow is linear, moving from the directory path to the file name input, then to the save type dropdown, and finally to the save and cancel buttons. There are no arrows or lines connecting elements, but the layout suggests a sequential process starting with selecting the directory, entering the file name, choosing the file type, and then saving or canceling the operation.
-
-</details>
-
-<p></p>
-
-
+  ![Export dialog](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/457279376_534117229126233_66257070618548746_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=o8cZ20zQoFsQ7kNvwFH5x2O&_nc_oc=AdmML3qTFR4KgWayGxMs3gYZ5zdmB7pTs7GwO7TRBCbH3O30T2-f2_9abEpLHdNg0Jpu6mLEA6HYu1OuAyfszaRv&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_Afm_7wUYZNDpA1BGnDT9B-uRZ3nsdwqlygkKaI9wKpmzRw&oe=69556E51)
 - Enter a filename and click **Save**. The sound effect file is saved to your local hard drive.
 
-<details>
-<summary>Saved file and filename</summary>
-
-<p></p>
-
-[Saved file and filename](../../../../images/output/img_20251211_032904_20251211_032904.md)
-
-### Overview
-This image depicts a file explorer window showing a file named "cicadas.wav" under a folder labeled "Today". The interface includes a column for the file name and another for the date modified.
-
-### Key Elements
-- **File Name Column**: Located on the left side, containing the text "cicadas.wav".
-- **Date Modified Column**: Positioned to the right of the file name column, displaying "7/22/2024 3:42 PM".
-- **Folder Label**: At the top left, indicating "Today (1)".
-- **Expand/Collapse Icon**: A downward-pointing arrow next to the folder label, suggesting that clicking it would expand the contents of the folder.
-
-### Visual Flow / Relationships
-The most prominent visual element is the file name "cicadas.wav". The folder label and its expand/collapse icon are secondary but equally important as they indicate the context of the file within the folder structure. The date modified column provides additional information about the file's last modification time.
-
-</details>
-
-<p></p>
-
-
+![Saved file and filename](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/457135627_534117185792904_470788102018402225_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=lhFermfNEEYQ7kNvwFZDwPg&_nc_oc=AdkdRdw8KTvXt2bZLgd7NX6Xb5yeoync7oOHb44HPv0h2LTIOCd8uh0EBV_H6tPXD3iOeUQSbqn0pIl98UZItveI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jH9eE8NWCNyKbaaIdHqTDA&oh=00_Afnw-Dd0TOZ5Ez0M4rGZupzfqdyI8JHhxaITYIwXrukPYQ&oe=695588E5)
 
 ## What’s next?
 
 To learn more about Meta Horizon Worlds, try the following:
 
-- [Create your first world](../../Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
+- [Create your first world](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
 - If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](../Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
 - Learn about the desktop editor with the [Introduction to the Desktop Editor](../Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 - Learn about the other tools available by reading our [Tools Overview](../../Get%20started/Tools%20overview.md).

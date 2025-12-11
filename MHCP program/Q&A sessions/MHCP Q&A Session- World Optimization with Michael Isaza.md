@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # MHCP Q&A Session: World Optimization with Michael Isaza
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453829193_510985161480834_4395201870457880785_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=bl_oLo0AiWMQ7kNvwH3UFpG&_nc_oc=Adk1wlXD4RfhqUV3Q705KQLIf48AumBNwCBAytJ0FtaVtZZ9gZvW0jfJsf1A-kxYepo&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=yGK4sW99IJmKkWN5WvENfw&oh=00_AfmvMsiCktIoLb8Sh7oEdzmutP7jfkidrqh7qlFYiSmHGA&oe=69376580)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453829193_510985161480834_4395201870457880785_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=yuXd-vPiMGcQ7kNvwFnXSpG&_nc_oc=AdmXKkZSJ1G5TumWhX3DUS6Eelj7OQPtqRa871lky1szNqkSZAzaVouhd1w2PV1JVYwN4rd1cOZg-sGXs-oIWXKs&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=CF5h9zhI_U9JGNIn0xVKog&oh=00_AfkQSx2kCMHwWIyVT-ML5-BhggtwKsxcfwfpC1dXxvaSJQ&oe=69411080)
 
 Join Meta expert, Michael Isaza, as he answers questions related to optimizing your Meta Horizon builds. If you liked this video, be sure to watch [the “World Optimization Best Practices” video](https://developers.meta.com/horizon-worlds/lea/learn/documentation/performance-best-practices-and-tooling/connect-23-video-series-world-optimization-best-practices)gain even more expertise in optimizing your worlds.
 

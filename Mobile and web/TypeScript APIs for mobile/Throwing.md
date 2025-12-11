@@ -6,7 +6,7 @@ A grabbable object that is being held by a player can be thrown with the standar
 
 To disable the standard throwing controls you can set Enable Throwing Controls (Web & Mobile) to off:
 
-![alt text](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653336_512535234617766_1315218671583337035_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=L3u5slGZRscQ7kNvwHwilw0&_nc_oc=AdkC_uevIzgEIES_wrKyoaH9VBplTMJGCb3yS2Inpum_wgmnvgGQs4oj2YhToy0c4bU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=miD5yGQoLY744eDM3BZDjw&oh=00_Afn5dGPqdX9JM1I4tnDi5uZatDjhlPreQpJGIdoRq1sHZQ&oe=694BBD18)
+![alt text](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653336_512535234617766_1315218671583337035_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=N2NNVjQDw60Q7kNvwEvt5Is&_nc_oc=AdmO3Mt70Ejv7SPmTIXKXtPLi3xAt1ZzHX-EJglB23V4U6DxrOMTdU04426oRw3PxphG4U5cGWIYz1Ei45PNoQzL&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=qGekp8qaXhQ8e39xSF73YA&oh=00_AfnifxF6h05D8krGdUIzUpQTATONkmW-IMdAHtcMgFpOuA&oe=6955A058)
 
 The [Player.throwHeldItem method](../../Reference/core/Classes/Player.md#throwhelditem) is used to throw an object. When calling this method, the [ThrowOptions type](../../Reference/core/Type%20Aliases/ThrowOptions.md) defines the properties for customizing how an object is thrown. The default values are defined by the [DefaultThrowOptions variable](../../Reference/core/Variables/DefaultThrowOptions.md).
 

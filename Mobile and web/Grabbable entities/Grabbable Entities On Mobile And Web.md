@@ -37,11 +37,11 @@ If an item is held incorrectly on web and mobile, you can enable the **Use HWXS 
 
 This setting will only override the behaviour for web and mobile clients, and if disabled, the standard **VR Grab Anchor** selection will be used.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519427754_770476942156926_5720430056048818403_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=nLp_bYlwis0Q7kNvwFypNLr&_nc_oc=AdkQNPh3kmPosbY40On351P7zJIxNV5kHIIbe9l_3rWMgqxkbD51fnEzVE_E90bGxCU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=C8xHf3mk6NtbvgE9IMONpg&oh=00_Afmerz_RgGYkfeUysd-Q7m_qDsGsCzBcRPt1ghKZMlm1rw&oe=694BBE9D)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519427754_770476942156926_5720430056048818403_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=2w-c3Kr4DwYQ7kNvwGcZW8W&_nc_oc=Adk-tjhNLFDnZ8-NZ0-if7B2lBPPL2Rc8U75VnxdfpLlNBQVawAKf84_rpQoyjXtiyGvVo1QiZ_8LIDEaaCjkNdx&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ss36IJyxUWrSDtfSKlO2EA&oh=00_AfngylatMFKU3QHmUIedwPQOyZsC7oEx_elYZsk2zOh04A&oe=6955A1DD)
 
 Alternatively, you can also set the grip anchor in VR, and then manipulate the grip hand visually.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519422621_770476948823592_8191593475986477756_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=8UXfGvsqp6kQ7kNvwEWHcEG&_nc_oc=AdlIPkXuFk7Qr0icxyQTjlUE4tZ8bL_oMD0119GtCii2a8aVzaIpGNHjy1GiKoftLoA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=C8xHf3mk6NtbvgE9IMONpg&oh=00_AfmlPVS1lbnFKEKFygvvf33VWLnAms4wjj2X1oEh-wlv9Q&oe=694BC59A)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519422621_770476948823592_8191593475986477756_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=xjTwGTT9GOIQ7kNvwF51kLY&_nc_oc=Adl41_-jrkkES9RB4Tbowo8Ayf07rycD-TyYvNfPXVYLkqednNT4iumQK0qdVnhTc1BSNYCjeAg6vJirXH1f3k_P&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ss36IJyxUWrSDtfSKlO2EA&oh=00_AflwSr1Jsi4kyMc2DFSwG8hvBCU2UuY20lLZ5Ed0N5ke3g&oe=6955709A)
 
 ## Disable Physics While Grabbed
 
@@ -54,7 +54,7 @@ To avoid hand collision issues on mobile devices, disable physics interactions f
 - In the **Interaction** dropdown, select **Physics and Grabbable**.
 - Enable the **Disable physics while grabbed** toggle. This will temporarily bypass physics interactions.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519412753_770476945490259_2338891858305916899_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=lH8DRyD5RmAQ7kNvwHMq18Q&_nc_oc=Adl5W06fw0GUd6bT1iArDPltJy-KcxnSreEP-_pAhgcrafuGGyxXi2P4QCW7f8NbrWE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=C8xHf3mk6NtbvgE9IMONpg&oh=00_AfkBjI8dCfldH_ibQ1mp9DycEfK_SEfj5H_cMstSHa6ZUA&oe=694BE9E8)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519412753_770476945490259_2338891858305916899_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=JEoidoSg66cQ7kNvwEhU_Qg&_nc_oc=Adka5i8NSTbm36WA4PAkzfMoaLa1Jjx-5wHNUT7VwWZHqcaDQhnT1hARvhRiaJ0KFEnvOuBBMJWvJu1J6kwNgfUE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ss36IJyxUWrSDtfSKlO2EA&oh=00_Afkkx_sGpzjMg80npa3FJGHj6GOEQ7hYOLo3vm4-e6v5yA&oe=695594E8)
 
 ## Programmatically Control Physics for Grabbable Entities
 
@@ -142,4 +142,4 @@ By increasing the interaction range, you make it easier for players—especially
 
 The interaction range setting is available in the Properties panel of the interactable entity, allowing creators to customize the effective distance at which the entity can be interacted with.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/524627770_776044151600205_8550447281540913694_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZZI7Aal4gcAQ7kNvwGWM8gv&_nc_oc=Adnxe2p0QS5Tw2dmyuwSbJMBXOwmwKVKtgICB0DEgKUSixGWu6DNjM9PufjOAu0XOjA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=C8xHf3mk6NtbvgE9IMONpg&oh=00_AfkrHq2pILxsDw9QVza-kEitD5nI1cQnGS7iLvkjjbyL0w&oe=694BE20A)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/524627770_776044151600205_8550447281540913694_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7UjZDlHObiQQ7kNvwHnC6tg&_nc_oc=AdmnnsYxWrIUCEuKVynQTpxjCkMTyVwTSmRoaE27Jozgw41Aii2syQ6HBrTHZ_EqR0PPb1DpQ3XpxYBwKZ_5aukT&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ss36IJyxUWrSDtfSKlO2EA&oh=00_Afl3CikxCpzXp999rqz8CF0WJQHqDmCrSVqPZDh7k0GnHQ&oe=69558D0A)

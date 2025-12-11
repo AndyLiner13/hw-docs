@@ -8,7 +8,7 @@ Encouraging users to transition enables them to access richer content, participa
 
 This feature allows creators to **influence time spent and user retention** in their worlds by **rewarding users who switch to the Horizon app**. Horizon app users have better return rates because they experience a consistent entry point, better visibility of metaverse offerings, and Horizon-focused social features.
 
-![App migration upgrade offer UI](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/582202036_865015572703062_7049078428565750275_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=bLfkfN-6krMQ7kNvwGLkgoD&_nc_oc=AdmynZUIvmFkuLzPOMmu1DsQOHMypgjoxbVopbAY9_mOCm1yMDvsj98E1-LukANn0uU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=asOuntxYGoGnTwi_hWn-YA&oh=00_AfkgjOnOgiMN-YvOJcZuGvWax1xfWhWU8q5JLFH8F-6b2g&oe=69544C31)
+![App migration upgrade offer UI](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/582202036_865015572703062_7049078428565750275_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=bLfkfN-6krMQ7kNvwHjd7f-&_nc_oc=AdkI3pfkc-kO36ni-tbpPtIW6oT-iK1pRRI_xZpQ352zV_9iRPebWiX3XeWmWbftLcRiyLZeBc3PNjFNfAoQhoN0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OFydzkCxp2rKctdXTHFzqQ&oh=00_AfmgInyqDm5JGtPfUxqiUFR7vUbXXjiJbabsQfXig5rafg&oe=69559DB1)
 
 ### Feature eligibility
 
@@ -47,7 +47,7 @@ Some advice on what and when to offer migration to a new user.
 - **Make the reward claim a positive action.** Ensure the user knows they have successfully completed their journey by providing a simple action to claim their reward upon completing migration. This reconnects them with the offer and could inspire them to seek out other rewards in your world.
 - **Be creative.** The rewards and manner in which you present app migration to visitors is completely up to you. Rather than using a 2D UI panel with buttons, you could use in-world text and trigger volumes.
 
-![Welcome back rewards claim screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581715000_865015569369729_7470897419061814929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=5be0mZthrH4Q7kNvwF5WvzI&_nc_oc=Adk_D77r4aFOfKDon3F101_lMD1DX3pUZl1AdbI385MwnXhJgHsh5PktqM8aGPzCuyk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=asOuntxYGoGnTwi_hWn-YA&oh=00_AfnurmLmTyIa3BRdj_7L9LakNbKdQQu9MguCX1qYy6BOsQ&oe=6954671F)
+![Welcome back rewards claim screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581715000_865015569369729_7470897419061814929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=5be0mZthrH4Q7kNvwEjBSY8&_nc_oc=AdklU4gdINe3KFottL3anIUZsoJ-clRYKV7Ji4-4QdAf-XvO-lP8mc5ue-f2TPr9PfZm2Epvt0M5HGMuqsF7ps_f&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OFydzkCxp2rKctdXTHFzqQ&oh=00_AfkHGsI4SduOozKx7oih5oweyIao24vLfkbAW9UkUwiRKA&oe=6955805F)
 
 ## Enabling the Migration Module
 
@@ -55,7 +55,7 @@ Some advice on what and when to offer migration to a new user.
 - Click the cog icon to open **Script Settings**.
 - Navigate to the **API** section and enable `horizon/migration`.
 
-![API Settings (808x412px)](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/571286590_850327374171882_228439192796093506_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=h5G5hT1x8qkQ7kNvwHKcqp1&_nc_oc=AdnRFvB6Po2AX8GF4WoXY8vBH5e2qm5ja-57z4YILAoyJE2tYUquJe988lrkWG2trX4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=asOuntxYGoGnTwi_hWn-YA&oh=00_AfmZFenupInY6ygo54Jl93nrROoM1KmerLi1xtFDnZx3sg&oe=6954646F)
+![API Settings (808x412px)](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/571286590_850327374171882_228439192796093506_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=h5G5hT1x8qkQ7kNvwGY2qAe&_nc_oc=AdkQrrziUgZDixB4SgsQp-YkBDdYkmiNa_LyCi5iP84Y3Fgj5-NsqPPEfX-S2kf7orP3XAGi6Qzg9eXI5UN6C3Ji&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OFydzkCxp2rKctdXTHFzqQ&oh=00_AfmS_tDxdG1k9rzcpn-SfBuZl1g69eITQ77-HtqX40OJ0w&oe=69557DAF)
 
 ## Setup
 

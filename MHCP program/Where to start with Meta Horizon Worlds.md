@@ -25,5 +25,5 @@ There are a lot of facets to creation using Meta Horizon Worlds. The following d
 
 **Meta Horizon Worlds on Web and Mobile**
 
-* [Setting Up Worlds for Web and Mobile Compatibility](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/setting-up-worlds-for-web-and-mobile-compatibility)
+* [Setting Up Worlds for Web and Mobile Compatibility](../Mobile%20and%20web/Setting%20up%20worlds%20for%20mobile%20and%20web.md)
 * [Publishing Worlds on Web and Mobile](../Mobile%20and%20web/Publishing%20worlds%20on%20mobile.md)

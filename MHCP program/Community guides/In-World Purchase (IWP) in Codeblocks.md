@@ -64,7 +64,7 @@ By reading and reviewing this written guide you will be able to:
 
 **Broadcast Events**
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461828106_558937446644211_4069079405675549335_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ciFxXBSXDA8Q7kNvwHo0mMJ&_nc_oc=Adl7XwRSsgw-7g-ogEqZ_F0dloI_7ogqnCEwZkAriSaXkswcMzm9fIzdoPp03F96EFQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_Afk03GbMy3B3OQiX1DmxYUM-XhIq4cwC5jfELEXu3onCdQ&oe=694BDF74)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461828106_558937446644211_4069079405675549335_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=3xb_sd7we_oQ7kNvwFvHPuv&_nc_oc=AdmvyoSrgeZB4gA6F6O_neKQ_8PvKGOHsMRbCGBtXc_sXS4TaxU-u2UmNYlfYAvF_xV8zU5XsK-xfH19kuNAEX7m&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfmmkgqtUdEa7mTQURK7ThuXuszT99CskKvQ1987nQEAbQ&oe=69558A74)
 
 * **“when player starts purchase item (broadcast)”**
   + Broadcast Event - Can be heard from any script in the world
@@ -73,7 +73,7 @@ By reading and reviewing this written guide you will be able to:
     - `itemId`: A string containing the name/id of the item being purchased.
   + This can be used on any script where you need to know when a purchase is started.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461872321_558937569977532_4169706045827159329_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ND6-d165xmgQ7kNvwFC4za8&_nc_oc=AdmzdQwMb5nSfEsqCa5gvL9aPn9BOkFqgm1XTg6vfU9zZ1mk3JE8Lvp9iQc5pWEtWUw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfmvqkoeXySD7IevDsAmwgGS9-7rEs0AP92LBx50brKMvA&oe=694BB6A6)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461872321_558937569977532_4169706045827159329_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bEhWcRLIOqoQ7kNvwHX2yNg&_nc_oc=AdluzxLaY-Q8MI4E-PNIF41Dy8HJObKmS7CQWz25TSgfEB52AA7E696epd5rMHY-y0X6kd0tMVTEIKeM60slDvoP&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfnrGEnjr8gOj8r4msaOSbtefcxypJ_KATPVCChG9MZljg&oe=695599E6)
 
 * **“when player completes purchase item (broadcast)”**
   + Broadcast Event - Can be heard from any script in the world
@@ -83,7 +83,7 @@ By reading and reviewing this written guide you will be able to:
     - `success`: A boolean letting us know if the purchase succeeded or failed.
   + This can be used on any script where you need to know when a purchase is completed successfully or not.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461742436_558937363310886_7632016646801491315_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=SvCnBEvxBowQ7kNvwGuE-S5&_nc_oc=AdlGXJz9USacikm1iqwct4j-z1E_MKSg1PXmuWjwzCK2rA5IKojFun_UM-JjqJiAfkI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfmDo9PV9oI4T9yl-7dCrMDTDh-5lYDkrbIkwp03Wnn_0w&oe=694BE59C)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461742436_558937363310886_7632016646801491315_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=rHj62IS-_ygQ7kNvwGXF_Vo&_nc_oc=AdmwU6YdmgI3H2vUmhyPvhNWAOwsuWamadAxCUS-fDHijfGdRpypaXp-3DdxbYSrkx1Gjj85w6_tReycn6P_D85n&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfklfTGL9SFpQkyz9BeWJpFA5XQCgqg2t1CEt-PmBnfvuA&oe=6955909C)
 
 * **“when player starts consume item (broadcast)”**
   + Broadcast Event - Can be heard from any script in the world
@@ -92,7 +92,7 @@ By reading and reviewing this written guide you will be able to:
     - `itemId`: A string containing the name/id of the item being consumed.
   + This can be used on any script where you need to know when consumption is started.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461947158_558937576644198_8509130094477816769_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=antOjjycqaAQ7kNvwE5-hET&_nc_oc=AdkSH9oay0ChA41DnGKLsrcq8lV_XCE_kHSHEvNGE4F99IBPLHjIab6D4uandcfax-Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfkVYLjCeAyFAu8dOKjvigTzcpTD9D8Jit88RYwfF3M93A&oe=694BBE9D)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461947158_558937576644198_8509130094477816769_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=t-aLN0RYLDAQ7kNvwGiJ4XL&_nc_oc=Admy3vNz7lkrQqivEr8MGvZRihC66_n7UeHRjGcqRQJyt253gT83VcLkW60xl6Z-qOfDPwAUx1lKz4Gtlt0FY-It&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afms9ztfZHQcRzHpB7js-M0ppp5pQf4tCf8wVldHspStSQ&oe=6955A1DD)
 
 * **“when player completes consume item (broadcast)”**
   + Broadcast Event - Can be heard from any script in the world
@@ -102,7 +102,7 @@ By reading and reviewing this written guide you will be able to:
     - `success`: A boolean letting us know if the consumption succeeded or failed.
   + This can be used on any script where you need to know when consumption is completed successfully or not.
 
-**![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462013257_558937543310868_2866554405895002171_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=DeFdmgdrp5YQ7kNvwFc-u8M&_nc_oc=Adl3Uv-0D98NBFPKzY43hbHnt3kLowlaBt52Wghst3477PcBXdEsoxj4r95fIMIEyj0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_Afk95GP4PnhKQ2RNxEgpGlUsWqfFfo1St-QBTrYznF1WNg&oe=694BCCE4)**
+**![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462013257_558937543310868_2866554405895002171_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=VlmiNksSQsYQ7kNvwHCGyHS&_nc_oc=AdkXvBaGKKQH9E_AwuVywRt_GYbZSkn2hFdJUj_CvB60UMv-kjrFtlum-Qk5SOx0t34HCY1vq4w4n4e0wvI9eIof&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfnxsjzBcWOQZXUeaDjs6H3O8wbvnDYAJ-1y4dv3iTHahg&oe=695577E4)**
 
 * **“when an asset spawns from player inventory”**
   + Broadcast Event - Can be heard from any script in the world
@@ -114,7 +114,7 @@ By reading and reviewing this written guide you will be able to:
 
 **Non-broadcast Events**
 
-**![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461860683_558937423310880_5802107090403536248_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=w6IDd1_uWhQQ7kNvwEHiPAC&_nc_oc=AdmR0FAIX0ylO5hdAoTQOhS-ll1ZiddfCzwuBxi4qufcYleWDhH2q-m3Kfv3Gth4KeE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfnasK3d__pzGm6jhXuA3KEZgShgU8sLNuZRcvcAn-ByMg&oe=694BC4FA)**
+**![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461860683_558937423310880_5802107090403536248_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=SqGyZhlMfBgQ7kNvwEiw78p&_nc_oc=AdlLuDCy2-UBmvGFb2SrNPsKRJ9pXIOP3oNh5pfqT7zncm5sDXvqHowVRsqYgmB8GSySJmNMLhwTyTXGUk2ktIxT&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfkyQ5vuGUg0MUiSHRkacKOxVe4FQTWkcDzBYzbYu01ADQ&oe=69556FFA)**
 
 * **“when player purchase succeeds on item”**
   + Standard Event - Script must be attached to an In-World Item gizmo.
@@ -122,7 +122,7 @@ By reading and reviewing this written guide you will be able to:
     - `player`: A reference to the player that purchased the item.
   + This can be used in a script attached to a specific In-World Item gizmo that you need to know when a purchase of that item is successful.
 
-**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461795097_558937546644201_8837716101915000798_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ahi75h6svZkQ7kNvwH-MAy3&_nc_oc=AdlFVkahqmqj-wkxGW0poYYf7bYltswVmbhH4y8HmOn3vrg7NbdJE2PLhiNPTT4-oLw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_Afl8-dn8DOngK-Tcs4HlqCE6nsbMHFe1Bkg5JH2mU4NrZA&oe=694BC538)**
+**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461795097_558937546644201_8837716101915000798_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=RhIbPfNKPk0Q7kNvwFpgL9o&_nc_oc=AdmwRoT2HeU9DuFgeRAUfUfXOvxYAlBtS-K09nG9pKa5p67diLblJm2shTNbtsOupJJNP2zUnsQrfnP0FiTDCmv-&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afl0uA_XS69vEjnnhDxYSYDpC4FP0m57E0adcL11-lva6g&oe=69557038)**
 
 * **“when player purchase fails on item”**
   + Standard Event - Script must be attached to an In-World Item gizmo.
@@ -130,7 +130,7 @@ By reading and reviewing this written guide you will be able to:
     - `player`: A reference to the player that attempted to purchase the item.
   + This can be used in a script attached to a specific In-World Item gizmo that you need to know when a purchase of that item fails.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462000937_558937573310865_3749702168699519294_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=oXNQ81vSo1YQ7kNvwF-tG38&_nc_oc=AdmcV6JBfx2fRFLDo1-t2kMkrSGwm52J_C1ElOGKnQgqXXfTFvmV8NddlTSrqcUzZ3c&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfkETwz2dxposHAcwdvKQyrjjPNRxEi3SbXPnggnpMg1PQ&oe=694BD00A)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462000937_558937573310865_3749702168699519294_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=5OM4c8ekXsYQ7kNvwG3Z9Ix&_nc_oc=AdlD0VDbVxywwutZ4u2KMUEW6olWCCMTGDBRHwQ6aUjKqsN0ihMWCJbMB_joAGDOyxQNCiFOxRt9Y2o5FqNUovzp&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfkAX18HyMHfJ8LeK-lTuQBvVWnk6A1UvowMM9VUzCHVZg&oe=69557B0A)
 
 * **“when player consume succeeds on item”**
   + Standard Event - Script must be attached to an In-World Item gizmo.
@@ -138,7 +138,7 @@ By reading and reviewing this written guide you will be able to:
     - `player`: A reference to the player consumed the item.
   + This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item is consumed successfully.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461730009_558937549977534_9215645537090210231_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=8CrAauVnvCYQ7kNvwHWxv8z&_nc_oc=AdnXdtSUt-Qm202YuvFcGoLZ_NbHOs1HLl4OCeEq4_AzqinzXV2iN3Mqx-a3PqYxKk4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfkCAQivWLVsCZwLb3kSo9C3XSO95FslVfUVc1mrZTeNjQ&oe=694BE8D8)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461730009_558937549977534_9215645537090210231_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=iZ_qysmXNQ0Q7kNvwEg6E0F&_nc_oc=Adlv8KSoyZjRWlVHznA3JkRBmv_7zdQndCDKAEazUCLnnVXBnIC5PnNI3Qe7oGoDzl6qzLucyUanlLla2BMmhYjg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfnO1IDW8ftvDebugJLM_ZT8coU1-AFQ6-RFYAW0NWQMaw&oe=695593D8)
 
 * **“when player consume fails on item”**
   + Standard Event - Script must be attached to an In-World Item gizmo.
@@ -146,7 +146,7 @@ By reading and reviewing this written guide you will be able to:
     - `player`: A reference to the player that attempted to consume the item.
   + This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item failed to be consumed.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461742624_558937533310869_3315324053455887134_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=yAxhddtuTG8Q7kNvwGEAU7h&_nc_oc=AdnImCH7rx-orCFf-nnfPMOvHZPiF-tLuKniK-Ehb9TUcxrfarXkp3RhPSSU9tT870M&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AflOuhwSE_RdmZu3w3XlNCALyQdWpiyZ43N4vvJe8oG7pg&oe=694BCB56)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461742624_558937533310869_3315324053455887134_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=s1aJvnKlK4AQ7kNvwFoi37M&_nc_oc=AdnGZFpbeJ4jJIQyybs2cUVoIhFFQHSEL1LakMm_Jb8Knsg8lhZmGtJmBsEammvPvQTHxJAS6NRaWcawk294vTgB&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfkJIMjjLaTPfabQefrKbxFyTEUkOQfgS1L_qekEDw4FjA&oe=69557656)
 
 * **“when player try to consume item”**
   + Standard Event - Script must be attached to an In-World Item gizmo.
@@ -156,7 +156,7 @@ By reading and reviewing this written guide you will be able to:
 
 **Actions**
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461688556_558937503310872_7649843234651612191_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=tSNhFtoYnhUQ7kNvwHg8l4Y&_nc_oc=Adm1WuzPGf1HTtwTx48vupfOqKAPci5YFqhf40hG0ATaAfzwilGtZnRK8rPeep5IuOE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfkAXOWiBQQoL9-ymoviVzqEIkDCwyHPotOK-O2iG2igBA&oe=694BB950)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461688556_558937503310872_7649843234651612191_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=PGsxL2WeMhoQ7kNvwGnY0Ke&_nc_oc=AdkABDSIZTfs6Dq_hachv9UoqkhnB0Pe0XExyqwtRlQiVVFW57kmT4f_CvgD6TCw3lzg4PWk6uHEHzw2SPgaMhZA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfnZ-56cvIsAc1E3XdzEo0Hwlk3lFT8ZHUqrOfAT8BWPoA&oe=69559C90)
 
 * **“consume item for player”**
   + Required Parameters
@@ -167,21 +167,21 @@ By reading and reviewing this written guide you will be able to:
 
 **Operators**
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461974836_558937439977545_6340259987809215145_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ARD0-H5iwYkQ7kNvwHJ7aWX&_nc_oc=AdmKeig2pIZf2xpf7ne366Hp4jE7rqQX5ciVU_FIXK4NMYs68KB0FGP9FACuNku4XcY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfmPYNIGReRt25gkCmid-ZWfYH06jVF_G4PGGs3fsDukDQ&oe=694BC756)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461974836_558937439977545_6340259987809215145_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=lMmOQq5OJsUQ7kNvwGTBR3A&_nc_oc=Adm5cLTj853rqqVQlCT6kB8_DlXs5WUPUew6UCRBMIIktL8sasLXgse2OeiwnGC5zcIhGgN0Mne4IBz_LZa6vBWW&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfkxxT5lvuXMx4AdHlvFnqH1GR4ycfOP-is3QFdgHBVIWA&oe=69557256)
 
 * **“player owns item”**
   + Required Parameters
     - `player`: A reference to the player we’re checking.
   + Returns a boolean that tells us whether the player owns the selected In-World item.
 
-**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461742917_558937506644205_5976681854130956775_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=i_fzYgg9m6sQ7kNvwFTg_Sa&_nc_oc=AdkQ7Xbb-qdsWmgRhb3j3n_KiiKupfGVjHwgfFKI7IpGzgZcM_aMP0rZR0Ijzlgx8wY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_Afn4qWh_8Xt2qUHcX_LZK0-ulGfd2NIeot2dwrauMLLnmw&oe=694BE6CE)**
+**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461742917_558937506644205_5976681854130956775_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6THrX1qVFvsQ7kNvwFeUjRC&_nc_oc=Adk_jyMA2ce8JGGL2c5NkjBYd8zdpN2TwqwMaXk1ZoyUihum8gGnTHQQk-39jpFbtARKVmVWoXyglYfCyaZbU2Eu&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfnpOV5BCmMFpLKuNbe-hdCpOXyZU9gmB6XFmdFWci_lSw&oe=695591CE)**
 
 * **“player owns item quantity”**
   + Required Parameters
     - `player`: A reference to the player we’re checking.
   + Returns a number that tells us how many of the selected *Consumable without Auto-use* the player owns.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461797566_558937459977543_901849217770869654_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=AH1My6-QbHoQ7kNvwFqsEKX&_nc_oc=AdkryYw4e6-h90qD1G7ryMS_vSrttFbhacK-EkMRxJHxb6HOxEYqn5ftTcfZ9eq2QNk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfmenKeIVmtZ5cdDwudpTu8g-3PRVlSvlCvfaSYzdlEWTg&oe=694BD94D)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461797566_558937459977543_901849217770869654_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=wTj5O9zBQwcQ7kNvwEg7In6&_nc_oc=AdmbALCvDZRphJhDr89XX_zvOBPj2iByh5CGR7cAxv2evAdwnJKRuG4l8j6VI-qJy8Zugm3JuwBT71L5-l2nXvj3&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afk7nb_d6HoR9F6gURCW0Qw8n4tAXYaHkXeNzwTI2UJ3bg&oe=6955844D)
 
 * **“time since player consumed item”**
   + Required Parameters
@@ -189,7 +189,7 @@ By reading and reviewing this written guide you will be able to:
   + Returns a number based on the selected value from a dropdown menu. Options are seconds, minutes, and days. The returned number represents how many seconds, minutes, or days that have passed since the item was consumed.
     - *Note*: Returns a 0 if the item has never been consumed. Recommended that you use this in conjunction with the “*player has consumed item*” codeblock.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461825844_558937443310878_2067734326099493470_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=v-4exGsq3eAQ7kNvwEp8UuY&_nc_oc=AdmHk81V40GJ_q8RHkDixuUYitiB_rHF9CqBICm9E722DnUcADeO874TFmkCe-Gpia4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfkANrHfxiZlEmFYJOUNERnvEeTk4-koFFSKIg7wST050A&oe=694BBF33)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461825844_558937443310878_2067734326099493470_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=1uqlO9VDd68Q7kNvwE4dUQ6&_nc_oc=AdkV5o2DNFxoAUs1R1p-NPiK0ZwVOvlU2J9ZHKZO_1IPNIMUZ4vsv5fMzgA8MAoMUSZvwQnX68zVoOOVRxtkTAB9&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfnZCPzyWCfkxhCbUhHl-aLbvRM7NMaZNrR8zjFqw6UQcg&oe=6955A273)
 
 * **“player has consumed item”**
   + Required Parameters
@@ -198,7 +198,7 @@ By reading and reviewing this written guide you will be able to:
 
 **Values**
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461976591_558937589977530_5446846885349310805_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=D0q04GshzowQ7kNvwEfa4H0&_nc_oc=AdnaY2kkV5Yy_wZ4iHIgyDxhckLkGwE13qNCjohgnqVPJPg6ga3lcaUln7mzlS_zUP0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_Afnb-MIKe9Y9hCfGZ5CVPj4dIimS-3kELPeRbr5ruS9AVg&oe=694BDBA1)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461976591_558937589977530_5446846885349310805_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=EuPh9T2Wd2IQ7kNvwF2DmKL&_nc_oc=AdlPtP-6oH6c7rymNvcW9dq83-ijwhmlZjPN_YFHrgAHSsjrW4lYVvEvd2fMUuMLCHGP3T__yaO_eVQQNkVtk9tJ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfnkQRf5mvFRbTVkG8Cz1Ecy3d7Gwv9q04Qrx0e55ix1CQ&oe=695586A1)
 
 * **“in-world items”**
   + Contains a dropdown menu that lets you select an In-World Item ID to be used when making conditional checks in your IF statements.
@@ -209,7 +209,7 @@ Creating and implementing IWPs involves a series of steps from item creation to 
 
 **Step 1:** While in build mode, open your build menu, navigate to *Systems,* and click *Commerce* then *Create Item*.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461683576_558937513310871_2554100072706911353_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=8cVknzNqjkoQ7kNvwHSHeNR&_nc_oc=AdnGj690g4_NNd5vbFk435KYHVqXzLtZxxqkjRA7zyfXMUAselMKVDB9Kk8HwbqmlVA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_Afn8tA4hjqUY9shtzo6HmTn6BZ2T7pWinG14zTquvBB_MA&oe=694BDFE8)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461683576_558937513310871_2554100072706911353_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=M6kmi3QWT88Q7kNvwEw-7N3&_nc_oc=Adnh75QPOgFmZNkNBcURGBHy7px0HCTLlONiIq13vgN1-R-n8oZGbrbFjW64dq0NB8rrN_nYEKgrJvEfw5JIS1IW&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afk10QivjvfJ9uVznFF0upMuDk6ewZpL8DePDJ8uwStTdQ&oe=69558AE8)
 
 **Step 2:** Every IWP you create requires a *Name*, *Sell Price*, *Thumbnail*, and selected *Item type*.
 
@@ -222,13 +222,13 @@ Creating and implementing IWPs involves a series of steps from item creation to 
 
 **Step 3:** Once your In-World Item has been created, you can grab an In-World Item gizmo from your build menu and drag it into your world.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461688156_558937523310870_6289736828187432400_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=2M1vxqMm-nQQ7kNvwHtSdWd&_nc_oc=AdkIWneCGBaClni5AwsJ0yL8pzg8AJ-7ghdKwREUdpTRUBW1Sn5rzBCWnzih2EaVxEY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfmDFd8Y29HkmONdTuuoMuTIlKKHXxw-Sv_AYVp9tg0rNQ&oe=694BBC28)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461688156_558937523310870_6289736828187432400_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=35aq1DHdWVwQ7kNvwGM80qY&_nc_oc=AdkAJ-PsojKEidYkwpeWVhLbDWfy47Ie3MzD6OTItXAA1mC-fm03y5_9QFenhKS2Ye-GNrx8JxC4WgEUbL1t1zKZ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfmCjhQbapbkCSm8pvrRStF65b_KdQZ3yxi1qY5eF2v2HQ&oe=69559F68)
 
 **Step 4:** Open the property panel for your In-World Item gizmo and there are several settings you can change here:
 
 * Hit *Select* next to *In-World Item* and select the In-World Item associated with this gizmo.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461835191_558937536644202_1528060342302655134_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=QQoV7KUgayoQ7kNvwF41snm&_nc_oc=AdmtxGMiSGpsFASOLvGExqookeL6z30cFcI44Xbiyhm7MdSOEBuDvDWbTnI-7PmWgCc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_Aflsmk23Q_NccRQ6BXpC3GiMeHG072p-SKeukLD4ayQANw&oe=694BC0D2)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461835191_558937536644202_1528060342302655134_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=gvHRyfJL80oQ7kNvwFHU4nq&_nc_oc=Adm-q2QrC0qm9M645tSySr21j2QSk65ronEZQGmGp6EX5-E6ECC3NjxaibJiowuH7kToUdywLK3eIjtpuF2bf9Dh&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afl5-1y6-TNHFdCEvygGq6KzeAGGYw_byO3AZo6wIHdSpg&oe=69556BD2)
 
 * Click the dropdown next to *UI Property* and change the display style of your gizmo.
 
@@ -246,11 +246,11 @@ This section will guide you through the process of creating and selling Item Pac
 
 Item Packs consist of *Consumables without Auto-use* offering players the ability to purchase items in bulk. You can create one by opening your build menu, navigating to *Systems* then *Commerce* again, selecting *Item Packs*, and clicking *Create Item Pack*.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461857884_558937456644210_2326314548428903926_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=TgVKM3czlswQ7kNvwF8wEYm&_nc_oc=AdnBKK9Iq4skmvNceQDF5JeHpA5a5YAAOUh824HeiROvQdF5KdPDTiPeG3hqOGgtPwg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfnJ6MB9y2IFhBDb9SYP3-ry4J0T_7YiadGj5kA_Nj2Zqg&oe=694BC867)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461857884_558937456644210_2326314548428903926_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Qp8jCe8iHp4Q7kNvwGj6vg4&_nc_oc=Adnhcl7SceiJJ5nYxwfEfvsDa7O5VjWEQ8TD7gqiTTU--p0tBgLwd0penK9v7CaJwhInR67e0hwcGRGxqYWnnpGm&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afm6Af_UfQqWr-wteBbVFfnFb3T0Glf_0L1usSpPKAPTWQ&oe=69557367)
 
 The next window will ask you which *Consumable without Auto-use* you would like to make an Item Pack out of. Once selected you can choose an *Item quantity* between 2 and 99 then select your *Sell Price*.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461878408_558937519977537_2913137907270513473_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=qfq0xq7vwjMQ7kNvwHIFqv1&_nc_oc=AdnaYMsPJLghmg0lZakAzxzmzTPGqVaspRF_lhQ3GgUAVc2_Lez89ne4PukuxfOrPwg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfnzeWfaC2GBkH_-mbIzg6BnG4qVoZHaxNfoBqvSd1MfDg&oe=694BE28B)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461878408_558937519977537_2913137907270513473_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=CLUPIFhfbW8Q7kNvwGsOxSP&_nc_oc=AdnJCdLnlqLp1toWJF0JDq6KjExaxrPfrNRKeSByO__zLIUtv6S1wSm7kn4ii8AsmqjJX1KYatnXfFa-9548AKTo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afl3A329rm0d4Vlqa9SASI9QF1gRcXpCuP3fOvJKzkdELQ&oe=69558D8B)
 
 Once created you can follow the same steps 3-4 in the previous section, **Creating an IWP**, to start selling your item pack.
 
@@ -268,7 +268,7 @@ Durable items without assets are straightforward since all you can do is check i
 
 In this example, the script below is attached to a Trigger gizmo that covers our VIP area. When a player enters the trigger, we will check if they own this item and respawn them if they do not.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461957051_558937409977548_2001440408993131692_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=5sface0wmRoQ7kNvwFLaMN5&_nc_oc=AdmaATFqbmnnzjtRNFA_lCwN0Q0R8c2OVWusaximtH5GURiinwDDW4PS0ZGM75ZmfSA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfmruRKgT9-NvshYfJaGz6zgZsyh_F59VcUrOmG4FAOvQQ&oe=694BEAB5)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461957051_558937409977548_2001440408993131692_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=46cSSG-coOwQ7kNvwFlLRSv&_nc_oc=Adm7sBWWlT4R74N4WN33j2TpFweaOlaM1wy2dSDX2BxbfPWqLmVvAzhy97k4XLaWmiTOQ4ZHcjpD1_8QzfCULPsF&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AflAhMg9NE5gWvcvbUlJJxCrRWaa-MQ_JkNY3Xg_5OhvxA&oe=695595B5)
 
 This is created by using the *when trigger is entered by player* event codeblock with an *IF* statement inside. We use a *NOT* operator and drag the *player owns item* codeblock inside of it. Using the *player* parameter from the event and an *in-world items* input value, we can complete this *IF* statement and respawn our players.
 
@@ -282,7 +282,7 @@ Durable items with assets do not require scripts, but what if we need to communi
 
 This script can run anywhere in the world since it uses a broadcast event.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461857291_558937556644200_2432027789069136617_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=lh-h7Ef7gJ8Q7kNvwGRp5J9&_nc_oc=AdnZ_tWpDhxLd70BuygqcD9Hjij_vBxr352ZEtAOAKFDDX5b-3R35y9Ru6gdSZALjXk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfnM8BPe7ghdO3gx9rxEfsmqYU48JiR17MvDo2aSBSuxFg&oe=694BDC5A)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461857291_558937556644200_2432027789069136617_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=7tnPpVTSz4IQ7kNvwHEdYkK&_nc_oc=AdkJYCSacAw2oS_SRQ4w7cM34EjwDCEajviD52y-25OhWUo8cKZN5Hpmh4AbEfBUyRblsCMbwkBMthIAyGcF4h6s&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afn1I6GzF2S1vONhTizJH7-M8DEBNMBczIeYWiyUBvPe_g&oe=6955875A)
 
 Using the *when an asset spawns from player inventory* codeblock we get the object that spawned, the asset it was created from, and the player who spawned it. Since this is a broadcast event that will fire on any item spawning from any player, we’re going to check that the asset received by the event is the one we want by using an IF statement to compare the parameter to a specific asset variable in our script. Once we determine this is our asset, we can now send an event to the newly spawned object with our player as a parameter for the object to receive.
 
@@ -296,7 +296,7 @@ In this example, we use a consumable to provide time-based(30 days) access to ou
 
 **Note**: Because the script is too wide, I had to cut and modify the IF statement to show on two lines.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461976494_558937583310864_878520296293413428_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=iEG_K0h6nnQQ7kNvwFcGuw2&_nc_oc=AdmcwmGqJYuwdwrsSAvCDfsm9nph_CL0xKC3hR0DBKlhNH_pS73pkzbqaresPoZc-x4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfmS_TQvJBLV5qxt1-4MFvX2QApQptMhS9yOQfnJAJIIPg&oe=694BDB2C)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461976494_558937583310864_878520296293413428_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=SDRyAy4M6q0Q7kNvwF-Jv9Q&_nc_oc=Adl0Bsn_2evUp9ReIuXu7iT_CApSVwivf9xPdAOI3h_TnNOo71WrLPx1JyTxz5zUVcOj61tfGyKatBWWTpmL2FzF&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afn3TtFTwsB7VfCaU4FZa-WDHIu1AhJYS7jV468Vm429ag&oe=6955862C)
 
 This script uses the *IF* statement and the *NOT* operator just like in our previous example. We also incorporate the *AND* operator so we can check two conditions. First, we use the *player has consumed item* codeblock to tell us if they have consumed the item, then we use the *time since player consumed item* codeblock in conjunction with the *LESS THAN* operator and *number* input value to determine if it has been less than 30 days since they consumed. Because of our *AND* operator, if one of these conditions returns false, they will be teleported away from the area.
 
@@ -312,11 +312,11 @@ We don’t have any need for the *when player purchase succeeds on item* or *whe
 
 We wait for the *when player consume succeeds on item* event to fire, although since this is an auto-consumed item, we could have also sent *restoreHealth* under the *when player purchase succeeds on item* event too.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461900167_558937563310866_6112818593593678494_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=tSyibh5kGnoQ7kNvwGqRlVb&_nc_oc=AdlPVFoyskUSGiqg2eNNZAXIsg307Uh5gv-2xzVM1W1M15peHRh-2959CiQ4MDiak5M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfkhCJqy_KNrDax7YmE5UWiCdVWQV5h0G-bWoxhqLVfHKQ&oe=694BCA31)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461900167_558937563310866_6112818593593678494_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=IDMk_ohcj0sQ7kNvwEvan8N&_nc_oc=AdnEYwgEHCDKuC6x-hOf82B8HXf-rLIEQJeT6KV3kwAGaLB5smH0gqmC8jauyDZ6dkLxJ5xuY2aWUAHcS_j-2Mv_&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afk9Nj21ap10RNFf2vlzE6jEHLs9QsehU26nPchrVunbBw&oe=69557531)
 
 Below you’ll see an example of my player manager script to give you an idea of what that looks like. This script can be ran on any object in the world and listens for events being sent to players.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461981641_558937419977547_840786302865238297_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=miVN1wN99HoQ7kNvwHna5FD&_nc_oc=Adn7HteeNQsvV9Bd7skL9pKxJfKY-ekCmq3hShN2T_ODPYne_N8vzGwE0XAZHpsDpk0&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_Afk2wDBcc2eqJAwPl4bQ5zZYptSXpC_cZ6fv3WBSZyuvBQ&oe=694BE9FB)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/461981641_558937419977547_840786302865238297_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=tl9mpGJ0s9cQ7kNvwG29T8V&_nc_oc=Adm7rT0p4VxBM2nxHu7KB1i2IsgBaAk-cmMllKm_u45z-zHbX6FIdBarFVtEkfZbFaqZUpfB8B9zXDsluIYMEngw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afnl2GdBce-1-84otKl5ASsHI0e1-NV2DXKWb5Q7QISk-A&oe=695594FB)
 
 **Coin Shop**
 
@@ -328,7 +328,7 @@ In this example, the user purchases 100 coins so we need to add the coins to the
 
 We use the *set player persistent var* to codeblock with a + operator to add their current Coin PPV that we retrieved using the *get user persistent var* codeblock to a number input value of 100.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461688722_558937579977531_291030443651548477_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=zI_nIF__wFgQ7kNvwGB7_ZV&_nc_oc=AdnHsNXwN7fqTNl5SWtw2Clzm06oTl8ZsNnscpr4DpRwnDNMX4x9TEvTbmDB9zmJm14&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_AfkkE_27aC6ZKwj74sYvkvXDfK1GR6IPZP2jrRhDMpOGaQ&oe=694BBE36)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/461688722_558937579977531_291030443651548477_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Vqd3dmHw5wEQ7kNvwEWal--&_nc_oc=AdkiwjTwwEsR7pLYOTUZOw1kOQqXN15kKpMqtbVAqP4vo4sgsH43xgG_cqg_HXp0LFXyQ7HCLNlk9-zvsfkyGbJ2&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_Afle-3zGFBrI3rlA3Fnh6kn9Gws55CugRr70IBMDf0798Q&oe=6955A176)
 
 ### Consumable without Auto-use
 
@@ -340,7 +340,7 @@ In this example we show how to handle manual consumption of an In-World Item wit
 
 The important thing to note when a player tries to consume a *Consumable without Auto-use* is that you must recognize this using the *when player try to consume item**from inventory* codeblock and decide whether to acknowledge this attempt using the *consume item for player* codeblock before the consumption is considered successful, otherwise, the consumption will fail. Refer to the previous example, **Restore Health**, to see what a player manager script would look like.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461732831_558937416644214_556034990091293698_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=_cIeZg4gn8wQ7kNvwG56-5_&_nc_oc=AdnblqOpga4x1VZcZWdRODgrWbP8M00X42ImFUn5IvYNMb1mPttW1pv7T-uOmDx2EJE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=SmAJWU9ncWftNnm1lkxKwg&oh=00_Afn4bz4AoHLq-_jfralicYRMwJ6TP0H8HOSlsMnoiNi4Rw&oe=694BC26F)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461732831_558937416644214_556034990091293698_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=-g7R4x_HvaAQ7kNvwFld0Mk&_nc_oc=AdnEtIYYu1EgRMagPsQ1wdxFLcipp8x76xmSeEuUOuRwCjLz-GiqYWJK9fdW2AcGmrK6OyZd0S51bV7Lvw6YJqRd&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gUCVEp_OZmp_To5HrxlVPA&oh=00_AfnNXOQF6RN7dNPoEKTCFuhxTBCO9R0vj-m3RAa305CN5g&oe=69556D6F)
 
 ## Extended Learning
 

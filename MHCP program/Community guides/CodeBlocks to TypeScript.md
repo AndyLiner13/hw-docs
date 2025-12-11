@@ -45,16 +45,16 @@ Begin by setting up your development environment and creating your new world wit
 
 Set up and configure your new script in the development environment by following these detailed steps:
 
-* Click the down arrow for the Scripts Panel and select *Create New Script*![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702897_512500621287894_8264079504247726649_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=jkYohP-brw4Q7kNvwG2mHgJ&_nc_oc=AdnHKH7OZtedgi7K7akLVEsgYFkUHZcYQrf-BOZndkpK43GjdWkvqrVexdiQXCM0QPg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=O5sciYNY9GUv2Y9i8FmODw&oh=00_Afng8QU1g85UtDJO3jDMU9GpNJ7PSNFJNPiaAvI_KcrtrA&oe=694BB4D1)
+* Click the down arrow for the Scripts Panel and select *Create New Script*![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702897_512500621287894_8264079504247726649_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=CJK5Ea_gWdAQ7kNvwHa2rmt&_nc_oc=AdmilP-wWYx0iSTCN9cbUOhfvCfZ6rZD7OGnUKQC2uOPn4neo7aJ_YeVAyJMk5iL4yRK-mHl5uLFHEhROkMhcVj1&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=vWk7cGAaULRUOi9Q1vK6FQ&oh=00_AfkcWK5NvxDhMYY-D5wyLhQclpVk-t58jLlYFKf_FCpCgA&oe=69559811)
 * Name this script *ExampleScript* and hit the Enter key on your keyboard.
 * Click the gear cog icon in the Scripts Panel.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702844_512500524621237_7831056844952000870_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=8MAORlvfnpMQ7kNvwFVAr5K&_nc_oc=AdnoxfOVgQWlS8q_NmAqEy9bLtvi1FDEVzxs3tMLM0HitU7PUjJ1xmoG0-6jPQHY4-E&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=O5sciYNY9GUv2Y9i8FmODw&oh=00_Afmdc9Ibveg2758aQcVcVV-L_a9ruIp9b6suiExQQohh3w&oe=694BD475)
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702844_512500524621237_7831056844952000870_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=nynUuf3OhlAQ7kNvwH_rQOG&_nc_oc=Adla-Yt5gblWwD9aXs882QCWsAhAqi_Oc022f9muQYyRfwR2BBzSN_xM_M8KACz4LQmyJsT7cBksWNfVC20yRq3a&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=vWk7cGAaULRUOi9Q1vK6FQ&oh=00_AflS214y2NBoPKKShcv4ukakrlq5TB_wSBtVvNPvZVRong&oe=69557F75)
 * External Editor should say Default (VS Code)
 * External Editor Directory can be any folder you wish to store all of your world’s scripts.
 * API Version needs to be changed to 2.0.0 if it isn’t already.
   + Note: You may need it to create a script(see below) before you can see the API 2.0.0 option.
 * Camera and other features can be enabled here if required for your project.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452555778_512500527954570_5113380244908814218_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=NfMgbEj6MkYQ7kNvwElxcIZ&_nc_oc=AdmU5Jbout84LjmCnsHnxYBDOiL_NoeyY5aS5LZ97Vt5KGkztRpqMQHNFodXJd8ivaM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=O5sciYNY9GUv2Y9i8FmODw&oh=00_Afk_5A_n88Jkeb74h_wDEB51SN8DYUyFmj36334uQjaflQ&oe=694BD4E0)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452555778_512500527954570_5113380244908814218_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=GVdCpO58it8Q7kNvwENZ_Hc&_nc_oc=AdleXVah2YlBWX446-sK_vj0y5Hex8AcOeaoFENDfBskrSkMA9Yttn3KAc8y9p9MxDEqlaBIJzCUmRLOHgBDboz_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=vWk7cGAaULRUOi9Q1vK6FQ&oh=00_AfnxrxZmHosltYZKagwodGK43qnp5lPI0DJjQVRRq4nddA&oe=69557FE0)
 * Click *Apply* after making any changes.
 * Mouse over your newly created script, click the 3-vertical dots that appear and select *Open in External Editor* .
 * This should open Visual Studio Code and ask if you trust the Author of this file, you can select *Yes, I trust the authors* .

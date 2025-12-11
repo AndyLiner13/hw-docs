@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 As you explore these tutorial worlds, you may find scripts, art, or other entities that you would like to use in your own worlds. Go for it!
 
-![Create Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486150007_681803081024313_7695353008648675033_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=eL7GvGm041UQ7kNvwHCYf6U&_nc_oc=AdkWV-ctYPHS4pay_UNLh81mwNjHQOBU2HItI3iWlwvMg1AB_nB26zxMBt7c0InzW4A&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AQW1uAQptmBW4IfTtaV2aQ&oh=00_AfkQmrTsRdOYpwKMd3fnedYRfgl8TS0fWWqf_4XAjI9YNQ&oe=6953F4FE)
+![Create Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486150007_681803081024313_7695353008648675033_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=J08CdKVwA00Q7kNvwEYNjXA&_nc_oc=AdmDe2y6lToDNbT8wiRroblhwuTt5irsDCSM6nDcEWOZbQ6P-6Xsy-z4_wmpv39aEaE3TrY22-su15G1VsAsNmw7&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0qj1HvzqnLyoZtTF36-U-g&oh=00_Afm0vRaCLQR3beigdsKSnCJlgKgTd9DMCo82x49aVhL3eQ&oe=69557EBE)
 
 Tutorials contain the following categories of assets:
 
@@ -29,13 +29,13 @@ To add an entity to your Asset Library, please complete the following steps. Whe
 
 - Click **Create**. The asset template is created in the selected folder.
 
-![Create asset template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485933354_681803091024312_2636679759612280667_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=cl943t-SJ3EQ7kNvwHqbugL&_nc_oc=AdmHTgwEiFWEDPKybYNcczf0fCqaBz6VNzBnoOSxn8O7saP4WwL_MSDdPVKoInWgF8M&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=AQW1uAQptmBW4IfTtaV2aQ&oh=00_Afm0wZaNzt1Pd0o51lCScOdNEVOTVXTQTRlr-Tp7padS-g&oe=69541513)
+![Create asset template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485933354_681803091024312_2636679759612280667_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=cl943t-SJ3EQ7kNvwG7lb-N&_nc_oc=Admo0x7zxyYLineD8_3hHdzonuUMDZnQiuIbam8bEufubpkRPaSJodDVoGebLDXYCdJ5KbFtPs6Ede0USXUHjtof&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0qj1HvzqnLyoZtTF36-U-g&oh=00_Aflj36ofAMg9QtnPF_NA4JeB1puCPTXP4TP_EUfta7TxWw&oe=69559ED3)
 
 This asset template is now available for you to use in any world!
 
 To add the asset to a world, open the Asset Library tab in the desktop editor. Locate the folder where the asset is located. Drag the asset into the world.
 
-Asset templates can also be spawned into a world at runtime using TypeScript. For more information, see [Spawning and Pooling in TypeScript](../../Spawning%20and%20Pooling%20tutorial/Module%201%20-%20Setup.md).
+Asset templates can also be spawned into a world at runtime using TypeScript. For more information, see [Spawning and Pooling in TypeScript](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup).
 
 ## Use Scripts from Worlds
 
@@ -67,7 +67,7 @@ If you are using the desktop editor, scripts are stored as independent files in 
 
 **Note**: You cannot copy and paste files from one world’s directory to another. These files are not automatically picked up by the desktop editor and integrated into the world’s codebase. Instead, you must open the files and copy out the contents, pasting them into new or existing script files associated with the target world.
 
-**Note**: These worlds are non-FBS worlds. In a non-FBS world, the option to Spawn New Gizmo from a script in the Script panel is not available. For more information, see [Tutorial Assumptions](../../Getting%20started%20with%20tutorial%20worlds/Tutorial%20Assumptions.md).
+**Note**: These worlds are non-FBS worlds. In a non-FBS world, the option to Spawn New Gizmo from a script in the Script panel is not available. For more information, see [Tutorial Assumptions](Tutorial%20Assumptions.md).
 
 To locate your files, please do the following:
 
@@ -77,7 +77,7 @@ To locate your files, please do the following:
 - Locate the value for the External Editor Directory.
 - Navigate your local environment to find this directory. Scripts for individual worlds are stored as sub-directories.
 
-![Script Editing settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000278_512536444617645_8408972957475533201_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=nWJpvMImbJ8Q7kNvwECbL3M&_nc_oc=AdnF9bRsT5GRN7ZU4_oTBuWhbbET7aUF8SaEx1RIZm2jksn9AtN-6aXASbMFeUTfz80&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AQW1uAQptmBW4IfTtaV2aQ&oh=00_AfnNV6QUClaR2gAWZux9_0atlF2xg9KvSGJAlsrfVvI7Cg&oe=6953FE56)
+![Script Editing settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000278_512536444617645_8408972957475533201_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=nWJpvMImbJ8Q7kNvwFoH-21&_nc_oc=AdkAW8NL6ZIFhrD2gbAeoxOci9teGXnUVTsgP2S4RJesOsX7Eeld7uUI0NOc4709s1IfTFsRvau0F1aNO5H9jVJH&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0qj1HvzqnLyoZtTF36-U-g&oh=00_AflAF0sfqigRj_AJDzuOuAkWTXcaIDKD_dbMEJFAjQzCtA&oe=69558816)
 
 ### Scripts in asset templates
 

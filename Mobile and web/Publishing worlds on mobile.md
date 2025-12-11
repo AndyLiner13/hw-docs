@@ -16,7 +16,7 @@ You can choose to make your world accessible to only Meta Quest players by follo
 - When creating your world, open the three-dot menu and select **Publish World**.
 - From the menu, click the toggle next to **Available Through** and select **VR only**.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/496297289_715823317622289_2031894491323375951_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=Hxwxpo0-25sQ7kNvwERvYOQ&_nc_oc=AdnkQIYxFiC5DS5MF9cLsgJvURn_QjBr9wECjVmlBnIRBFQdoHbikisTlaIExhDQ7gk&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Z8x8DRaIqoXGEjfPtjN8uw&oh=00_AfkmJJs9v_2rdALZSNzMIGN1CX3Hm74jv56Xmqzy-G7U9Q&oe=694BBD68)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/496297289_715823317622289_2031894491323375951_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=YJF4I8AsXSgQ7kNvwER_iLy&_nc_oc=Adlk4KNPuNNiDS8Q7jRrztElDEiMErnfZyHlhKEXZU2Ib9yudzRD77kHaOZ-uo2grDDAyahTaxP7cHW19Jw3WrQy&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=OC1xQz83FFi8IpbB17-Fzw&oh=00_Afl0QCYw1WK8MkgfRsCBmZO2HREjDY2L_g0m2Fe4imga3Q&oe=6955A0A8)
 
 Changing this option affects your published version immediately. You can change this option at any time.
 
@@ -27,7 +27,7 @@ If you have tested your world and are happy with how it plays on web and mobile 
 - When creating your world, open the three-dot menu and select **Publish World**.
 - Navigate to the **Optimized for Web and Mobile** section and toggle it on.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495722110_715823370955617_7050137306372778481_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=QuPhBrrvkggQ7kNvwFlo5XP&_nc_oc=AdnJm-v55vW-1tV0OZzkN6Dn0AROYz_HQTQ7A-qm5_vUiW1tMKWYP_iMwi6xPY3UWoI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z8x8DRaIqoXGEjfPtjN8uw&oh=00_AflO_CqN53CmieUFEFcB6-ml78yBh8qD-iNp1teZ0pxMlA&oe=694BD276)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495722110_715823370955617_7050137306372778481_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=nqJeX2DCuxwQ7kNvwEV0_b5&_nc_oc=AdkPPt78tEEaN8ugExU_DQyJcUTh03XIRXbgvQ9cb9CkunQckXip3HWKJCAbGFZca1Kwq_zR-OlTgvrFfmvq66bM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OC1xQz83FFi8IpbB17-Fzw&oh=00_AfkOUC62kUd4xVboLGVbJfGdNlelqLzJkhF3TyuTQ1ukZg&oe=69557D76)
 
 Changing this option affects your published version immediately. You can change this option at any time.
 

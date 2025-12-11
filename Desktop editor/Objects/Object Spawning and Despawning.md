@@ -57,69 +57,9 @@ When a spawned object is no longer needed, you can then remove the object from t
 
 ### CodeBlocks
 
-<details>
-<summary>A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.</summary>
+![A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460204911_548705517667404_7824595070708973058_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=OcmIGl0_lkUQ7kNvwHVBS8T&_nc_oc=Adn8uWsktmmWLrnhwJZUm9RjEI8hFakIlGTv4vJEMGrXX7-WCdNZu5tput5gFmmCAC8Zm0Vj3I0yuxcxoj3c7WFb&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6dsVuH3gjpNPxLRp5IrHTg&oh=00_AfkRZgZb9C2UCaF_vVJPYnYisyXBYEqqK8_DXlvsIkOsxw&oe=695597E8)
 
-<p></p>
-
-[A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](../../../../images/output/img_20251211_073320_20251211_073320.md)
-
-### Overview
-This image depicts a user interface for a scripting or programming environment, specifically a block-based code editor. The interface is divided into multiple sections, each containing blocks that represent different commands or actions within a script. The background is a gradient of blue shades, and the main interface has a dark theme with light-colored text and blocks.
-
-### Key Elements
-- **Title Bar**: Located at the top, labeled "Runtime Manager." It includes icons for settings, copy, and close functions.
-- **Code Blocks**: These are arranged vertically and horizontally, forming a flowchart-like structure. Each block contains text and icons representing specific actions or conditions.
-    - **Block 1**: "when objSpawned is received with obj"
-    - **Block 2**: "add obj to [ ] objList"
-    - **Block 3**: "when spawnEvent is received with + New Param"
-    - **Block 4**: "if length of [ ] objList == #0"
-    - **Block 5**: "set # objIdx to #0"
-    - **Block 6**: "while # objIdx < # numObj"
-    - **Block 7**: "Spawn asset at position of self + [0 0 1] * # objIdx using #0"
-    - **Block 8**: "set # objIdx to # objIdx + #1"
-    - **Block 9**: "when despawnEvent is received with + New Param"
-
-### Visual Flow / Relationships
-The blocks are arranged in a sequential manner, indicating a step-by-step process. There are no arrows or lines connecting the blocks, but the vertical stacking suggests a chronological order. The blocks are aligned to the left, with some blocks extending horizontally to show nested conditions or actions.
-
-</details>
-
-<p></p>
-
-
-
-<details>
-<summary>A view of the CodeBlocks Editor with blocks to handle despawning assets.</summary>
-
-<p></p>
-
-[A view of the CodeBlocks Editor with blocks to handle despawning assets.](../../../../images/output/img_20251211_073423_20251211_073423.md)
-
-### Overview
-This image depicts a user interface of a programming environment, specifically a block-based scripting interface. The interface is titled "Runtime Manager" and contains a series of interconnected blocks representing code logic. The background is a gradient of blue shades, and the interface itself has a dark theme with colorful blocks for visual differentiation.
-
-### Key Elements
-- **Title Bar**: Located at the top, labeled "Runtime Manager." It includes a settings gear icon, a copy icon, and a close (X) icon.
-- **Code Blocks**: These are arranged horizontally and vertically, forming a flowchart-like structure. Each block contains text and numbers, indicating variables and operations.
-    - **Block 1**: "Spawn asset" followed by "asset at position of self."
-    - **Block 2**: "Set # objIdx to # objIdx + # 1."
-    - **Block 3**: "When despawnEvent is received with + New Param."
-    - **Block 4**: "If length of [ ] objList != # 0."
-    - **Block 5**: "Set # objIdx to # 0."
-    - **Block 6**: "While # objIdx < length of [ ] objList."
-    - **Block 7**: "Delete spawned object get item # objIdx from [ ] objList."
-    - **Block 8**: "Set # objIdx to # objIdx + # 1."
-    - **Block 9**: "Clear [ ] objList."
-
-### Visual Flow / Relationships
-The blocks are arranged in a sequential manner, suggesting a step-by-step process. There are no arrows or lines connecting the blocks, but the vertical stacking implies a logical flow from top to bottom and left to right. The blocks are closely packed together, indicating a compact and efficient layout.
-
-</details>
-
-<p></p>
-
-
+![A view of the CodeBlocks Editor with blocks to handle despawning assets.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460197256_548705514334071_4968040419667574195_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=nqP1qIO4hUQQ7kNvwHZiQBK&_nc_oc=Adkx3eKi2FZyV8JvvdGyxc2thvUhI6LcXr-VNLSYQS8M3_N-bzE9Ve638UPO_MWOIs--OirYnLPwCnO1dtSB7WrM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6dsVuH3gjpNPxLRp5IrHTg&oh=00_Afl-aJvr-Cv--SYfPNmUGmEc2bzhgbg8Bcx7wascHavjZA&oe=695572E8)
 
 ### TypeScript
 

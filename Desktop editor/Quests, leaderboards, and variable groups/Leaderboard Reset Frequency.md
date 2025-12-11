@@ -25,150 +25,19 @@ Learn the workflow involved in setting the leaderboard frequency by following th
 
 - Choose a reset cadence for a new or existing leaderboard.
   - In the CUI, navigate to **Systems** > **Leaderboards**.
-    <details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_085441_20251211_085441.md)
-
-### Overview
-This image depicts a user interface screen from a game development tool, specifically showing the Leaderboards section under the Systems menu. The layout includes a sidebar with menu options and a main content area displaying leaderboard information.
-
-### Key Elements
-- **Sidebar Menu**: Located on the left side, with a dark background and white text. Contains four menu items: Systems, Quests, Leaderboards, Player Variables, and Variable Groups. The "Leaderboards" option is highlighted with a purple underline.
-- **Main Content Area**: Positioned on the right, with a dark background and white text. Displays the title "Leaderboards" at the top. Below that, it shows "World Leaderboards (2/3)" indicating the current progress out of three worlds. There are two leaderboard entries listed: "leaderboard1" marked as "Daily" and "leaderboard2" marked as "Never resets." Each entry has a small trophy icon next to it. To the right of the leaderboards, there is a "Create Leaderboard" button in a purple rectangle, and a dropdown menu labeled "A-Z" for sorting.
-- **Footer Bar**: At the bottom, there is a footer bar with several icons representing different functionalities such as world selection, scripting, and settings. The time displayed is "12:49 PM."
-
-### Visual Flow / Relationships
-The most prominent visual elements are the sidebar menu and the main content area. The sidebar is static and serves as a navigation tool, while the main content area dynamically displays leaderboard information. The footer bar at the bottom provides quick access to various tools and settings. Arrows or lines connecting elements are not present, but the layout suggests a linear reading order moving from left to right and then down the page.
-
-</details>
-
-<p></p>
-
-
+    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452887990_512510354620254_7933510091704899504_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=cY3pFoVEtKAQ7kNvwFSNGOo&_nc_oc=AdmsNwdq3IARJLSRaxUBW1s-2L2f4azUpTXHe43Iekav_NFsJz7PVYbageGdSe0UJV-Spqo15m5ENbqUbnJr4lgc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6AN-3Zj1uUCz2bmp74oKeQ&oh=00_Afl1fAo841gUCkpTsXAyuC-sarXBJnihmUU_YOfZ4VXbvA&oe=6955712E)
   - Either create a new leaderboard by selecting **Create Leaderboard**, or edit an existing leaderboard by selecting **Edit**.
-    <details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_085543_20251211_085543.md)
-
-### Overview
-This image depicts a user interface for managing leaderboards within a game development tool. The main focus is on the "Edit Leaderboard" modal window, which allows users to customize leaderboard settings. The interface includes a sidebar menu on the left and a central content area displaying leaderboard options and settings.
-
-### Key Elements
-- **Sidebar Menu**: Located on the left side, it has a dark background with white text and icons. The menu items include "Systems," "Quests," "Leaderboards," "Player Variables," and "Variable Groups." The "Leaderboards" option is highlighted, indicating it is currently selected.
-- **Central Content Area**: This area displays the "World Leaderboards" section, showing two leaderboard entries labeled "Daily" and "Never." Each entry has a trophy icon next to it.
-- **Modal Window**: Overlaid on the central content area, this window is titled "Edit Leaderboard." It contains fields for "Name," "Sort Order," "Reset frequency," and "Reset persistent variable (optional)." There are also buttons for "Cancel" and "Save."
-- **Action Buttons**: Located at the bottom of the modal window, these buttons allow users to cancel changes or save them.
-- **Background**: The background of the entire interface is a gradient of light blue to white, giving a clean and modern look.
-
-### Visual Flow / Relationships
-The most prominent visual element is the "Edit Leaderboard" modal window, as it is centrally located and occupies a significant portion of the screen. The sidebar menu provides navigation options, while the leaderboard entries in the central area offer specific data points. The action buttons at the bottom of the modal window suggest a clear call-to-action sequence.
-
-</details>
-
-<p></p>
-
-
+    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452413517_512510364620253_2373137635050804707_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Sh9iYox4QIAQ7kNvwFYk4Jw&_nc_oc=AdnBWj86FpucgSpMaWKX-pHTjsVL_HIJBaEJk-x-qX_2DzB9a-vDBgh_trLi1xVFHQLYZCcYbxitrXp4iWlnwuO5&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6AN-3Zj1uUCz2bmp74oKeQ&oh=00_AfmPsk9lezvNyFen0kkkcyNM-WLgL7c9LhMoVjbB9MpajQ&oe=69559379)
   - Beside **Reset frequency**, select the interval that you want. This can be Daily, Weekly, or Monthly. The value defaults to Never.
-    <details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_085650_20251211_085650.md)
-
-### Overview
-This image depicts a user interface for managing leaderboards within a system, likely part of a game development tool or platform. The interface includes a sidebar menu on the left and a main content area on the right displaying leaderboard settings. A dropdown menu for reset frequency is open, showing options such as "Never," "Daily," "Weekly," and "Monthly."
-
-### Key Elements
-- **Sidebar Menu**: Located on the left side, with a dark background and white text. Contains options like "Systems," "Quests," "Leaderboards," "Player Variables," and "Variable Groups." The "Leaderboards" option is highlighted with a purple underline.
-- **Main Content Area**: On the right, the title "Leaderboards" is displayed at the top. Below it, there are two leaderboard entries labeled "leaderboard" with icons resembling trophies. The first entry has a "Daily" reset frequency, and the second has a "Never" reset frequency. There are fields for "Name" and "Sort Order," both currently set to "leaderboard" and "Descending," respectively. A dropdown menu for sorting order is partially visible.
-- **Dropdown Menu**: Opened in the lower right, showing reset frequency options ("Never," "Daily," "Weekly," "Monthly") with descriptions underneath each option.
-- **Create Leaderboard Button**: Located at the top right corner, with a blue background and white text.
-- **Edit Leaderboard Button**: Positioned near the top right, with a white background and black text.
-- **Cancel Button**: At the bottom of the main content area, with a light gray background and black text.
-- **Time Display**: At the very bottom, showing "12:49 PM."
-- **Grid Background**: A light gray grid pattern serves as the background for the entire interface.
-
-### Visual Flow / Relationships
-The most prominent visual element is the dropdown menu for reset frequency, which is open and draws attention due to its lighter background compared to the rest of the interface. The main content area is structured with clear sections for leaderboard management, and the sidebar menu provides navigation options. The time display at the bottom is a static element that does not interact with the interface but provides context about when the screenshot was taken.
-
-</details>
-
-<p></p>
-
-
+    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452953630_512510321286924_6693651382984821063_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=fupgbPWZJ28Q7kNvwFtU1Cf&_nc_oc=AdmTBZe__a0omyc2apX9OY0e0qNDIahWOOxiose2SplLOYOA-RC3a06G19TyrFQb_t71hCSaE9EstOJdX8dBVz43&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6AN-3Zj1uUCz2bmp74oKeQ&oh=00_AflNwgFX4pXlawOe2fhvpywWAMETb4LWS7e02YdlholVbA&oe=695577EF)
   - Save your changes by selecting **Save**.
 - Optional: Link a player’s persistent variable to the leaderboard reset.
 
   - Set **Reset persistent variable (optional)** to Yes.
-    <details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_085807_20251211_085807.md)
-
-### Overview
-This image depicts a user interface for editing leaderboards within a game development tool. The main focus is on a modal window titled "Edit Leaderboard," which contains various settings for configuring a leaderboard. The interface includes options for naming the leaderboard, sorting order, reset frequency, and resetting a persistent variable.
-
-### Key Elements
-- **Left Panel**: Contains a sidebar with navigation options labeled "Systems," "Quests," "Leaderboards," "Player Variables," and "Variable Groups." The "Leaderboards" option is highlighted, indicating it is currently selected.
-- **Central Panel**: Displays a list of leaderboards under the heading "World Leaderboards." Two leaderboards are partially visible, each with a trophy icon and a label indicating daily or never reset frequency.
-- **Modal Window**: Overlays the central panel, titled "Edit Leaderboard." It includes fields for "Name," "Sort Order," "Reset frequency," and a toggle switch for "Reset persistent variable."
-- **Buttons**: Two buttons at the bottom of the modal window, labeled "Cancel" and "Save."
-- **Icons**: A trophy icon next to the "leaderboard" field in the modal window.
-- **Dropdowns**: A dropdown menu for sorting order and reset frequency.
-- **Toggle Switch**: A toggle switch for enabling or disabling the reset of a persistent variable.
-- **Text Fields**: Input fields for entering the leaderboard name and selecting a persistent variable.
-- **Action Buttons**: A "Create Leaderboard" button in the top right corner of the central panel.
-
-### Visual Flow / Relationships
-The most prominent visual element is the "Edit Leaderboard" modal window, which is centrally located and takes up a significant portion of the screen. The action buttons ("Cancel" and "Save") are positioned at the bottom of the modal window, suggesting that users should interact with them after making changes. The dropdown menus for "Sort Order" and "Reset frequency" are adjacent to their respective labels, facilitating easy selection. The toggle switch for the persistent variable is placed to the right of its label, maintaining a clear relationship between the label and the control.
-
-</details>
-
-<p></p>
-
-
+    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452588453_512510267953596_8425387457302036980_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=wIlYAiP2qGcQ7kNvwHek7hl&_nc_oc=AdkPlPfh6Lq03GB0O0kqIKoLk8c4TsteWq9eU8Cnz11Wik-z8K9SIxxaORVM48XYuv-qUgjYTL-OueRcJqMWkHQc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6AN-3Zj1uUCz2bmp74oKeQ&oh=00_Afl0QzjRdxdeyDZ7WKPDMJy8-WoO_1p9_3Vjj5vQgjHFmw&oe=69558439)
   - Select a persistent variable from one of the variable groups attached to this world.
     > **Note** : You can link only persistent variables with a number data type.
-    > <details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_085911_20251211_085911.md)
-
-### Overview
-The image depicts a user interface element within a virtual environment, specifically a modal window titled "Variable Groups." The modal is part of a larger interface that includes a sidebar menu labeled "Systems," offering options such as "Quests," "Leaderboards," "Commerce," and "Variable Groups."
-
-### Key Elements
-- **Modal Window Title**: "Variable Groups" located at the top of the modal.
-- **Search Bar**: Positioned below the title, with placeholder text "Search."
-- **Persistent Variable Groups**: Two groups are listed:
-  - **hh3**: Displays "0 Persistent Variables."
-  - **hh1**: Displays "1 Persistent Variable," highlighted with a blue border indicating selection.
-- **Navigation Arrows**: Rightward-pointing arrows next to each group name.
-- **Cancel Button**: Located at the bottom left of the modal.
-- **Attach Button**: Partially visible at the bottom right of the modal.
-- **Background**: A blurred landscape with green hills, trees, and a blue sky.
-
-### Visual Flow / Relationships
-- **Most Prominent Element**: The "Variable Groups" modal window.
-- **Arrows**: Rightward-pointing arrows suggest navigation or selection actions.
-- **Spatial Relationships**: The modal is centered over the sidebar menu, which is partially visible behind it.
-
-</details>
-
-<p></p>
-
-
+    > ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452757986_512510257953597_3604445875626678830_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=d2YJbUBgs-0Q7kNvwEL_LeD&_nc_oc=Adll_cdDWQuO4ILSRKDaa4uSdCyqE2xUU5JA2q5x_G4Kf0Jvh1PIOUNI0zrCfON82Rz6RxjwoQ_7NGxzPfV5BMah&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6AN-3Zj1uUCz2bmp74oKeQ&oh=00_AfnWPiTx3NQBx1p9Sl2S9TZyZ-K1MQxTo3S4583lQRLY9w&oe=695588CD)
   - Save your changes by selecting **Save**.
 
 ## How leaderboard frequency affects world visitors
@@ -177,30 +46,7 @@ The image depicts a user interface element within a virtual environment, specifi
 * Any user entries to the linked player persistent variable are set to zero.
 * The Leaderboard gizmo shows a reset countdown for any leaderboard that periodically resets.
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_090002_20251211_090002.md)
-
-### Overview
-This image depicts a leaderboard interface with a clean design, featuring a navigation bar at the bottom and a reset timer notification above it.
-
-### Key Elements
-- **Header**: Located at the top-center, features a circular badge with a trophy icon and a star inside, indicating achievement or ranking.
-- **Title**: Positioned below the header, reads "Leaderboard" in bold black font.
-- **Reset Timer**: Situated beneath the title, states "Resets in 2 days," accompanied by a small clock icon.
-- **Navigation Bar**: At the bottom, contains four tabs labeled "Global," "My Rank," "Session," and "Mutuals." Each tab has a rounded rectangular shape with a gradient blue background.
-
-### Visual Flow / Relationships
-The most prominent visual element is the "Leaderboard" title, which draws attention due to its size and bold font. The reset timer provides context about the leaderboard's periodic updates. The navigation bar at the bottom offers options for users to switch between different leaderboard views.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452818142_512510254620264_910205012762278358_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=1k-W1mXjeUYQ7kNvwH-FlNo&_nc_oc=AdmKiE7QrDpPuKmwX4ql545vCAmy9J1_DY0c2ZVyIEnnW03-2DfPVxNv-8BPZjrKDD9Tc_WiKyEsSDfhrpn17sSw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=6AN-3Zj1uUCz2bmp74oKeQ&oh=00_AfmYcfrEjbj9FT4LNVvamzfXxRuyML1gRG4Emt1_Kp8bWg&oe=69558026)
 
 * If there are active users in a world when a leaderboard is scheduled to reset, then all leaderboard(s) scheduled to reset at that time automatically reset.
 * If there are no users in the world at the time of the reset, then the reset happens silently, and changes are reflected the next time a player enters the world.

@@ -8,36 +8,7 @@ This page provides a break down of the NPC examples used in the NPC Example Worl
 
 You can select the **NPC Examples** option from the **Creation Home** view.
 
-<details>
-<summary>Creation Home NPC examples tutorial world</summary>
-
-<p></p>
-
-[Creation Home NPC examples tutorial world](../../../../images/output/img_20251211_072110_20251211_072110.md)
-
-### Overview
-The image displays a user interface of a platform called "Creation Home," specifically within the "Tutorials" section. It features a grid layout showcasing various tutorials related to game development and TypeScript. Each tutorial card includes a thumbnail image, a title, and a brief description.
-
-### Key Elements
-- **Left Sidebar**: Contains navigation options such as "Home," "My worlds," "Tutorials," "Templates," and "Documentation." The "Tutorials" option is highlighted in blue, indicating the current selection.
-- **Main Content Area**: Displays six tutorial cards arranged in two rows of three. Each card has a thumbnail image, a title, and a brief description.
-    - **Card 1**: Title: "Spawning and Pooling in TypeScript," Description: "Spawning and Pooling Tutorial W..."
-    - **Card 2**: Title: "Typescript Multiplayer Lobby Controls," Description: "Typescript Multiplayer Lobby Co..."
-    - **Card 3**: Title: "Developing for Mobile and Web Players: Completed Examples," Description: "Developing for Mobile and Web Pl..."
-    - **Card 4**: Title: "Camera API Examples," Description: "Camera API Examples"
-    - **Card 5**: Title: "Text as an Asset," Description: "Text as an Asset"
-    - **Card 6**: Title: "NPC Examples," Description: "NPC Examples"
-
-### Visual Flow / Relationships
-- The most prominent visual elements are the tutorial cards, which are arranged in a grid layout.
-- Arrows or lines connecting elements are absent.
-- The spatial relationship is hierarchical, with the left sidebar providing navigation and the main content area displaying the tutorials.
-
-</details>
-
-<p></p>
-
-
+![Creation Home NPC examples tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/596947627_883141714223781_8886681707864991987_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6DkYK2Y76dQQ7kNvwEpcaXj&_nc_oc=Adn4kJWiEni5b3iTndo9ZtSwQZvrH2MDrMPcKgvs3C9d2L5jNXL-YltmgCHgC550EW1aXGb1bAfQnJjdd5bXyS_L&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=bWBk_qitJclpF9dpgmScLA&oh=00_AfmMq939Sfzd509f-b6W9aqqEf6zNLRw-3HRXIXvrzzEuw&oe=6955A1CD)
 
 ## NPCAgent.ts
 
@@ -229,7 +200,7 @@ hz.Component.register(NPCAgent);
 
 The Stand and Look sample script allows NPCs to acknowledge your character when loading into the world.
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/459309296_1250615282610996_6400995796393963617_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=-ArSBt5d8h8Q7kNvwFFBKAj&_nc_oc=AdlujRwIAKEyc8aHxPuDYj-R8hzeeNyN5db_QYv92xWh7L9uRlLcr1PkF6E_wIYg5Mw&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_Afne9miCP_o1-NI6ggSsEynwORFD2CSQ106DTh78JOCfcg&oe=69376629)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/459309296_1250615282610996_6400995796393963617_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=L4GvoyVjBdgQ7kNvwH1cfmU&_nc_oc=AdnU0dpwh-idOw6z7Wt2hbkKLnE8yKvaviGUJmEMC0AChCZj82Qq-WawQVctmAf5mEM7MEYqTLMatxXLZfLzAqc2&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=bWBk_qitJclpF9dpgmScLA&oh=00_Aflu3NY8XhBh4XPWR_OULufaTb23b8iQwIQrJOdM5H9knw&oe=69411129)
 
 ### NPCStandAndLook.ts
 
@@ -345,7 +316,7 @@ hz.Component.register(NPCStandAndLook);
 
 NPCs added to your world are capable of emoting a variety of animations. In the NPC Example World you can interact with NPCs by approaching them and pressing the ‘E’ key. As you move through the sample world and approach NPCs, you will be greeted by the robot with an animation.
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/459334217_1712214692930509_8081481470604567857_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=7CrNyqxANPsQ7kNvwGOKN1C&_nc_oc=AdkzQ2e3uF2DqYI3Mo9Cg8ks1RyWITfnxUuqBvCX5yc9KboNnT_dn3RfxF8uPAs_2-o&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_AfncXK16f2VDif1hCS3Q4DIie6sYo-GVuMcg6XEe6tUmmw&oe=69375256)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/459334217_1712214692930509_8081481470604567857_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=tpVNuKQDnPYQ7kNvwF91aTz&_nc_oc=AdmjE__eDMVaoi9BjX_FzQ-y-kOVCZkxA57IdZefKyN_IfG-KljozXcXQYHNNxnNTyk3nGJpPiY9qbyD8IjfWpIb&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=bWBk_qitJclpF9dpgmScLA&oh=00_Afkst1BdP-anNoS7k-dseAaE3WF0kenmYwwmkwpT0x5GZQ&oe=6940FD56)
 
 ### TriggerNpcEmotes.ts
 
@@ -534,11 +505,11 @@ NPCs are able to path through the world using a Navigation Mesh Volume. In the s
 
 Your NPCs are able to path through the world using a [Navigation Mesh Volume](Navigation%20mesh%20generation.md). In the NPC Example world, Chicken NPCs can be seen wandering around the Navigation Bounding Box based on the their pathing logic.
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/459326773_883524513709142_2055811114306402530_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=uACY1xyc86cQ7kNvwHr5lQc&_nc_oc=AdlKSYq1KvBm5l-Ll-IdVrhT8UC9QI0xK6PmVTOzPcE1u_cOTa6zQfqDsET398xM9QY&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_Afml36RRRX6Aw7hm_u6JWaNH9qH6hzB2XQQ5cJmsT3trCA&oe=693772B6)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/459326773_883524513709142_2055811114306402530_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=Fwx9xFV757oQ7kNvwFs2G9H&_nc_oc=AdlMDhjFFz3ILmdrSMGHuHnSTzvuU61HNYSgHDMoylh7upnYEK_8rvXFUKcHo2Iz19wSDaQoKgCKnF2zguGbeAmm&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=bWBk_qitJclpF9dpgmScLA&oh=00_Aflpod8_D30BvaN7CYqERzOfHnI6X2FNIQXev8xIy04zSw&oe=69411DB6)
 
 In the next room, Android NPCs use pathfinding to navigate between different waypoints that have been placed throughout the level.
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/459288690_1517730898925213_2842468215419064473_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=MFZ7wXrwO44Q7kNvwGuasIX&_nc_oc=AdlK5sFwBpL99uqlx8pshQclVGpVgqe6TLbXb7DDbS5vmavYmrjD4-qM47Da2B37FVg&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_AfkrypdLSp3MoFRuB9ZOFsKUC0_LR_AN_tjkU8uoWuyi9Q&oe=69375D5F)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/459288690_1517730898925213_2842468215419064473_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=9Iw43KtbhSoQ7kNvwH8oOYW&_nc_oc=Adl1H8GDvklqV-m2D7I2aPwROdr0-w5WCgNTHgCEqsl_fJTuhdo1hBQmi4-j7YzeXZ2DBC6dlY8j1AD9Zdsp4vk0&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=bWBk_qitJclpF9dpgmScLA&oh=00_AfnKs1EzmlavytNWyH5W01S-cljRaM05zvO4dD-hXDYc_g&oe=6941085F)
 
 ### NPCChickenPathing.ts
 
@@ -769,7 +740,7 @@ NPCs added to your worlds can also be set as enemies for players in your world. 
 
 Players can defend themselves with a weapon like the [Sword](NPC%20Scripts.md#swordts) in the example and the NPCs also have hit reaction animations to indicate they’ve taken damage.
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/458933021_829251449394537_1287573333970264365_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=AL1R_fzSD1YQ7kNvwET6EyX&_nc_oc=Adlo7h-YqWgGi5aTX_cEz14S2aHHU16AuOe4tbypOxQUU2_CuF2iJfWvXhS42-p9SMs&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=BQ9pwneZI0572YgtWirZFQ&oh=00_AfmD6KzE9_sLtwTod_uP4a9MrvJopuERdBx_1xsGT2Ugyw&oe=6937713F)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/458933021_829251449394537_1287573333970264365_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=tNXX550HM2UQ7kNvwEubCe-&_nc_oc=Adl3_fWj1EPqpLDx0TVhsqrPgQ33_2pL0T_HuZj--G0-Z4edLTGhKNWNpNyiJWoEwKecvGGUBLKYo19LdZhuAht0&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=bWBk_qitJclpF9dpgmScLA&oh=00_AfmFZkXtM3lVFgw7IySS3DUkWLduYkk3qCdbo6okkbhmHw&oe=69411C3F)
 
 ### NPCMonster.ts
 

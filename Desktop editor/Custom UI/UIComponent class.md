@@ -30,97 +30,11 @@ You cannot change the panel size after the UI panel is initialized. Assigning ne
 
 The following image shows two different sets of **Scale** attributes in **Properties**.
 
-<details>
-<summary>An example that shows that scale controls the size of the UI panel in properties</summary>
-
-<p></p>
-
-[An example that shows that scale controls the size of the UI panel in properties](../../../../images/output/img_20251211_031023_20251211_031023.md)
-
-### Overview
-This image displays two side-by-side panels showing attributes of an object, specifically its position, rotation, and scale. Each panel has a dark background with white text and light gray buttons for inputting values.
-
-### Key Elements
-- **Left Panel:**
-  - **Position:** Contains three fields labeled X, Y, Z with corresponding values.
-    - **X:** 0.64
-    - **Y:** 0.86
-    - **Z:** 1.26
-  - **Rotation:** Similar layout as Position but with zero values for all axes.
-    - **X:** 0
-    - **Y:** 0
-    - **Z:** 0
-  - **Scale:** Displays values for X, Y, and Z.
-    - **X:** 1
-    - **Y:** 1
-    - **Z:** 1
-  - **Background:** Dark gray with white text and light gray input fields.
-  
-- **Right Panel:**
-  - **Position:** Identical layout and values as the left panel.
-    - **X:** 0.64
-    - **Y:** 0.86
-    - **Z:** 1.26
-  - **Rotation:** Same as the left panel.
-    - **X:** 0
-    - **Y:** 0
-    - **Z:** 0
-  - **Scale:** Values changed to double those of the left panel.
-    - **X:** 2
-    - **Y:** 2
-    - **Z:** 2
-  - **Background:** Identical to the left panel.
-
-### Visual Flow / Relationships
-Both panels follow a similar structure with consistent placement of elements. The most prominent feature is the clear distinction between Position, Rotation, and Scale. There are no arrows or lines connecting elements, and the reading order is linear from top to bottom within each panel.
-
-</details>
-
-<p></p>
-
-
+![An example that shows that scale controls the size of the UI panel in properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481452194_659847703219851_1693440629986334814_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=u-z6PFlO3QAQ7kNvwEzMEG4&_nc_oc=AdmC-PKRGF0CpjQPJzUPlfHn0_-F1cvvgSEH26H9naYq6ht6ngD2vyyBcPVW3AK3EhAiQu_B32cqaXazxN7e4vh-&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PTmV_N9-NQ-a4Mlird_Xlw&oh=00_AfkrkpZjFQQPOe2o7iiyHQnydYaoJsuuW3tC9jW2XHSRUQ&oe=69559B25)
 
 The following image shows the left UI gizmo is smaller than the right UI gizmo with **Scale** attribute of (1, 1, 1) vs. (2, 2, 2).
 
-<details>
-<summary>An example that shows that scale controls the size of the UI panel in the scene</summary>
-
-<p></p>
-
-[An example that shows that scale controls the size of the UI panel in the scene](../../../../images/output/img_20251211_031133_20251211_031133.md)
-
-### Overview
-This image consists of two side-by-side screenshots of a 3D environment. The environment features a grid floor and a simple 3D model of a person and a box. The person is interacting with the box, which has various visual indicators around it.
-
-### Key Elements
-1. **Person Model**
-   - **Visual description**: A small, simplified 3D model of a person.
-   - **Location**: Bottom left in both images.
-   - **Contents**: The person is depicted in a light blue color with a white outline.
-   - **Visual styling**: The person has a simplistic design with no detailed facial features or clothing textures.
-
-2. **Box Model**
-   - **Visual description**: A rectangular 3D box with a brownish-orange color.
-   - **Location**: Center of the first image and right side of the second image.
-   - **Contents**: The box has a label with some text on it that reads "T" and "F".
-   - **Visual styling**: The box has a slightly reflective surface and is surrounded by various visual indicators.
-
-3. **Visual Indicators**
-   - **Green Arrow**: Located at the top of the box in the second image.
-   - **Red Arrow**: Located at the bottom right of the box in the second image.
-   - **Blue Arrow**: Located at the top right of the box in the second image.
-   - **White Outline**: Surrounding the box in the second image, indicating selection or interaction.
-
-### Visual Flow / Relationships
-- **Most Prominent Element**: The box in the second image due to its larger size and surrounding visual indicators.
-- **Arrows**: The arrows indicate directions or possible interactions with the box.
-- **Spatial Relationships**: The person is positioned to interact with the box, suggesting a focus on the box as the primary object of interest.
-
-</details>
-
-<p></p>
-
-
+![An example that shows that scale controls the size of the UI panel in the scene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480799630_659847699886518_6437251460310613006_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UYX3sGHEANUQ7kNvwFVBHz9&_nc_oc=Adk2lIqz5mfxNt_okt_xJLumxMxak387ffki7RukVPKE8qJ-u2dDBAUV2Pxc8o9rs6AkFK8plcrVpXvBPolrxojd&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PTmV_N9-NQ-a4Mlird_Xlw&oh=00_AfnKhvq9crHQBu0Eti7B74lO1brzhr5UTdAX3QalDOhKfA&oe=69559CCB)
 
 ## Method: initializeUI()
 

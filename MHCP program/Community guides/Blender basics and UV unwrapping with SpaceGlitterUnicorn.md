@@ -47,7 +47,7 @@ In this section, you will become more familiar with the basic interface, which i
 * Properties Panel
   + The Properties Panel in Blender is a user interface element that displays and allows editing of active data, such as the scene and object. The panel has several categories, or tabs, that group properties and settings by data type.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468450823_597980812739874_1049115858088829387_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=g01eWQk1BWMQ7kNvwGgszE-&_nc_oc=Adk0VASxSNzz52fL8o4R05EMymyl6UwOnR-5zShSOTFZLqcOWMLIq4ysum2iXpYnRls&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_Afkg1zIzxicGygKBXnlqZ1pk1aiGKFbRf1wrSfIlSe_wbA&oe=694BEAA3)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468450823_597980812739874_1049115858088829387_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=f1S8Vde3KHIQ7kNvwHjGwcs&_nc_oc=AdlYF1sy983jPOIn2-PuMnjOjaEjf51GAtAzRD-u8-srokjQdNWiDErpx3UsWEriUUMKHH4MQVffaEFC5TjlZAv0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_Afnfzzx_ShWOm0P9jMZsrApuZl-MMk_biljay_h780Tteg&oe=695595A3)
 
 **Mentor’s Note:**
 The best thing to do is to get familiar with these main areas. Explore and toggle all of the functions and see what they do!
@@ -75,13 +75,13 @@ Here’s a [PDF with a full list of Basic Navigation and Hotkey Essentials](Basi
 
 **Basic Navigation and Hotkeys video walkthrough:**
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/468092420_387742254328197_9061162084494682747_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=j386aHebikEQ7kNvwEDXeoo&_nc_oc=AdnXE-5DXUFcS4CW6BtNI2iOxq8nkstD2qy4oWM7KJHijFs5eqRxltyeL9fb_uTSFpY&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AfkrDWJ9lR5oVsSUskg94k2IUu3GGzhnTHDFOiYL_qvo3Q&oe=6937648B)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/468092420_387742254328197_9061162084494682747_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=j5Q0IFNYABkQ7kNvwEnq2Iv&_nc_oc=AdlBmDA9SCMTrxaq2qOEcLR2E8oeKNBek74uzsSDEfj3wqHYmcTb1vOYFNV2_Mfuw2kMYjA8BXfgNOelzyCegImZ&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_Afndr3uPjOguFVUYkL1QcrxnizPHDyo22B-OdTXLiwCdPQ&oe=69410F8B)
 
 ## Asset 1: Create a Book
 
 Follow the steps below to create your first 3D asset:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468445600_597980802739875_2964957396061656219_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=IeoesSDMR-oQ7kNvwEgw6mk&_nc_oc=AdnlOF26Jhi64b3AxM9ok3mWKoLPy9sIVHI7q0eq1sBGXnIxmlTin9dFKKvY-WsJYug&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AfnJ_eKiN2oeOnlob5o41dqzjVi3ih91TxTgNj1G1CbnOA&oe=694BB4CF)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468445600_597980802739875_2964957396061656219_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=WBBPNo_DB9cQ7kNvwF43Jqa&_nc_oc=AdkyMMj0FdayWkMnduirYZ6LtF5DHANbdweb1wtSc28F2Jfnt0FPrqekJlDFILD4EDY91g68uIacGSikdhYWDBI7&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfkOK5HFpWP1zIT9eUKp4zsqiNOLsapyTCiL5m0QUWFfuQ&oe=6955980F)
 
 **Mentor’s Note:** Always use references when modeling. I have included my reference image of a book above.
 
@@ -92,19 +92,19 @@ Follow the steps below to create your first 3D asset:
 - **Extruding:** In face select mode, Select where the book covers would be; front and back. Then select the spine. Press **E** to extrude.
 - **Inset:** Staying in face select mode, now you will select where the pages will go. Press **I** to inset.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468529862_597980809406541_6907319099951515187_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=A1FsQ6vu3jIQ7kNvwGcRtyW&_nc_oc=AdkSw_wlOYn5CmynKI6W1vX4UUAG-XkrOarjTdrAtcyUJizE_vcwG4AFUz09zoDHLfk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_Afm64lA5uPV-eLsV914UlgjR4q2AH-KwYFmEEHUtJjtfaw&oe=694BD90B)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468529862_597980809406541_6907319099951515187_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=0ytC2scfWx4Q7kNvwGgajDI&_nc_oc=AdlaVrhFPaMhFkNuM50IxFuXWOpnczEVNWU32WIpm6dXn66Hv83QLGZ_tt_sfMkt0QYOnyCVdc_tdsMNJyL8nC0d&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_Afl5cnD7Y3Yu2THAnebtIQ3GYYyettW2RfKBUH-_ERMEHQ&oe=6955840B)
 
 These guidelines will help you Model your book.
 
 **Create a Book video walkthrough:**
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/467818278_543494048592517_1147038650273540791_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=hZ0RU7h6ZHQQ7kNvwGu2czI&_nc_oc=AdnKnJ_PIuFRWnuagIqq9fDcTLiXaFDpPSaprLEvygtyi07FBfFU8TghSN3h7riTOqA&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_Afmi4ryqp-oaoWXPL8R2rONrcZzlD5CYMKLivODAYXtrxQ&oe=69376BD0)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/467818278_543494048592517_1147038650273540791_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=Ygibu1HdfQoQ7kNvwH-OC0D&_nc_oc=Adk-FLUP6p8KNhxVFwG5IvBIixGDsW6ZMx6RR-U4dQsDmWL408Bf99WQDDQi_cdHjVL_o1TonFboAyCztyBW2Mxj&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfkyVCVxtEsXp7Vi_DZ4TiLWaDis3unshcMgfu_7JWUBjg&oe=694116D0)
 
 ### Asset 2: Make That Table
 
 This section will explore a more advanced technique to elevate your project.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468593117_597980816073207_7869972322125947484_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=L5QE1ozL6ngQ7kNvwFNngE8&_nc_oc=AdlRoi28Xl6PTpy7QggBRQKXG1kf2fUezraXpNqUcHQsa8bUYJ5EwVze_OMJVczsqMU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AfmOj_1zxZyKeMvoFudubZqs_g8-hOl4rRxSr1639rYxTA&oe=694BE2F5)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468593117_597980816073207_7869972322125947484_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ikLxDTjJoW0Q7kNvwE14S8o&_nc_oc=AdmDoItThkqfQwu50Vrnpzj8YXSqHOh1V6BABft-ulg_2ZSrdn8oQXCXWGuB6KyrtOfd0VY7C8NVxydKX5qgfsf3&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfnP9dX93UlksW6OA_4fFNDKJtQwhEZNIJNJA45-Xwi4ng&oe=69558DF5)
 
 **Mentor’s Note:** Save a lot. Save Often. Make it a habit to constantly save your progress. If you like what you made, **Press Save**!
 
@@ -118,7 +118,7 @@ This section will explore a more advanced technique to elevate your project.
 
   The image below will show the symmetry turned on by the X-axis, indicating mirrored actions. Take the time to experiment with symmetry!
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468426950_597980796073209_4096584711949522589_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=PG886ZoJZucQ7kNvwG3fZwQ&_nc_oc=AdkXQCh1ls0nPuPbp0nU28MjMgsirr1NxyqnoLzARRaSH0ytNvGREhOKkx5X-8gGQHE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AfnhM-9hyAwXNaj8sV3ETCeQraIPgHABT6v0adMrS8AU5g&oe=694BD55C)
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468426950_597980796073209_4096584711949522589_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zvVGBQ1QSIkQ7kNvwE80Mx2&_nc_oc=AdkF69UWIQRkKzXrBQOeLhUo5B9J8p9v65sFMnlobRacJcmESXT4kRRmLcL24Rx6CYG0iKbE-KxZ4FHVTqG2LrRv&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfkBZAEduS1nLhuUw5PutiJIxj4iUeoTOTccgKZQJFMAjw&oe=6955805C)
 - **Make a Drawer:** We’re going to go back to the face we left over specifically to build the drawer.
   * **Extrude Face:** Pressing **E** to extrude, Just enough to fill the space inside the table.
   * **Inset: \*\*Selecting the top face you’re going to press** I \*\*to inset.
@@ -132,15 +132,15 @@ This section will explore a more advanced technique to elevate your project.
 
 Shown here are the different stages of the table being built! Sometimes it’s good to take a step back and look at the stages from a distance. If it looks close to this, you’re doing great!
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468544650_597980819406540_8924688177684564166_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=k6vsYIpgKAcQ7kNvwGPtNiE&_nc_oc=AdlwQxoibX0fXcfKOs5d5u_PEVRTi7llL2YTW4-2bm1nis2iA21Eu-RpqqlCzEp9vCE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AflSZbWgnKxVt0BqRczAZju_2_p5_WVDNmIq3sYndtEH-A&oe=694BC379)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468544650_597980819406540_8924688177684564166_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=IFXrcyVPB7YQ7kNvwHlVsza&_nc_oc=AdnEE-6TlM2uPf2DWzdWDqr7KZaVq0_uLsZMRA5vzVors0mp_FeLZrdkyjko0CUdbB6B123yEJKwhxJDzxDRf0HY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfmhX0ggnjiBwpEohtaTMzn8xm8077n0tMjj5ebYH2eiaw&oe=69556E79)
 
 **Make that Table video walkthrough:**
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/468230012_1122730475862007_6389819872229815162_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=npUDNUNdjHIQ7kNvwHvFL2q&_nc_oc=AdnePJQmUR899aUVxncZWYWjTGrEUtH37Pw4EepC3z7_AGdKc2NKB0qnTYJAOQpOwq0&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AflPskkMmhkCEpa-YUI2wmuq1eiQawUTPmlmr-PbxMM5SQ&oe=693745A0)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/468230012_1122730475862007_6389819872229815162_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=THgQOMObzw4Q7kNvwFIjo7m&_nc_oc=AdlIvGwMtfA7CtUgNXvrhJBcin5LbwrT9QqHlpqhzYi5vrD7z-oMe-69919xVSGxc7mZzRKHabF7CsQJZ3KdRCPn&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_Afl4fvwNhSyyY346XCEzCiCJIkpNmxf3Wx4Uxo2oJh_MoA&oe=694128E0)
 
 ## Asset 3: Brighten Up the Room with a Lamp
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468426021_597980826073206_2883939057841447670_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=RLIePdr45EMQ7kNvwGIEZBo&_nc_oc=Adk8CdaowKiHiLM1QSvink77IekgnSG_q26oOoLkDsA-6sbLapw59tzOkIFApDaUCc0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AfmU5Dvj_iJrpf8y3NERz_wj3ejX8sH-fGmEfNXOWbsCUg&oe=694BBBA3)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468426021_597980826073206_2883939057841447670_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=0CoUWMKlD88Q7kNvwFZZkP1&_nc_oc=Adn1hNpjnBPk_QgQ3-Bhi_SXGAwn8NrWeTXhxRna46rmb6_a41_sGYWVEbP1dVBztEhYCjV5eSUggwwVz9UgbIFw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AflIuZWaASk_kZ__CCx6Z3Rijz-ENFrXlYY074oh6divKA&oe=69559EE3)
 
 **Mentor’s Note:** Don’t be afraid to experiment by adding additional shapes to form your model.
 
@@ -152,23 +152,23 @@ Shown here are the different stages of the table being built! Sometimes it’s g
 
 After you create your mesh cylinder, this menu pops up on the lower left of your screen. Here you can adjust the vertice count! Keep an eye for these menus that pop up on the lower left, they can be very handy.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468425601_597980806073208_4836716041152208545_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=MfHDiK0CvIsQ7kNvwGqf5sP&_nc_oc=AdnUMmpBhktdkmFAF75Ck9GX2XmzBxxy63Uj7GOdHebvU7jVHgggxubgzxqiv3GrzlQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AfmBAEXAkOqlOEvMWTFF2vLLdvXD_3a1rLgX27Zc1Pn9hQ&oe=694BBE4A)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468425601_597980806073208_4836716041152208545_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=hw_CyLwINNwQ7kNvwFU0MU9&_nc_oc=AdmGRD5G4XhBjVQS7PYIjuwONI85dTstdPVYHyC4F91pvt7ZnayKSV7ytnDMFaZjAXXEzHlA5p8f5xebqVRvScxs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AflnCNYulzsK5tjSnL9wS4ZuxeJFD7ALCg2wklJn3FLe1g&oe=6955A18A)
 
 - **Delete Faces and Extrude:** After the lampshade is modeled as desired, you will then delete the top faces on the cylinder and the bottom. Afterwards, Press **A** to select all. Press **E** to extrude.
 
 **Brighten Up the Room With a Lamp Video Walkthrough:**
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/468399185_1345230203130323_8626381660905559130_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=nFoAEWI2CT0Q7kNvwEfsUDp&_nc_oc=AdnJVVaAyBLiPL0rejlx9ZvNx6VgHRpTZyiwxsU59nXYxW1voOuAeCE4QorpWE-xy4I&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AfkDeYCCp7XS9R9v2Bx7PdZYVKpBI8AbMu8feHfZqjQHOA&oe=69375CF8)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/468399185_1345230203130323_8626381660905559130_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=6500a6&_nc_ohc=tc5zHxHeZgQQ7kNvwH2DlGB&_nc_oc=AdkBiX88yiUujZo53A-ZOmUBbj_URMMj7i_F8UMwtLD9Tmo0m_SUHVAMm27H4ksUkBXdNRAwCVrhBr7ZFLbTofEP&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AflR9vPE3XbzDvcUR25xFusXb9wnerKwj3UudXjmhMZGWg&oe=694107F8)
 
 Cheers! You’ve created your first set of 3D assets!
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468528836_597980822739873_1400011933091746245_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=cLvOZ-L_3tYQ7kNvwFQsU9M&_nc_oc=AdmOx4hQUe9x-SHnTrsd6uqLP4C2qos40WseYSQdRyc25sXxpKMCD6WMZvriDnwKsY0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_Afk05ojrTjFzehkxIuGIntQ606Y32bemDVbLGEGBH7fZbw&oe=694BBF97)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468528836_597980822739873_1400011933091746245_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=XBqCJMTZTMYQ7kNvwHSELPU&_nc_oc=Adk7HuXeDQXV9QW-bpzXAmVuwEBi1zOpdZM3tskWh3ABYseOsAh2183PMvOasuLJO0Jsg5O8AWBJzo70JUHEWnHp&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfkaFUSl3TM26R2Ax9ZJq9bdy_xPI1KxnZQo9afZcXLzXg&oe=6955A2D7)
 
 **Mentor Note:** With these same steps you can easily create your very own set of assets remembering to gather references and start with simple shapes!
 
 Here is what the UV unwrapping stage will look like. It’s very basic and it should get you prepared for texturing! Pretend you’re taking a pair of scissors and cut along seams.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468544795_597980799406542_3094959477454634743_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=vaxaIL_zDzQQ7kNvwEQ4tPR&_nc_oc=AdlJnLV0x8wkVC6ykUWXoRdx0kDNr6WeRtCNShsBFhsgDlfu8640ip1xy2aEo3wCITE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AfkWQnCwIfN1VGvVccMR545m-OXVhTG4aSZvoUeQT70Odg&oe=694BC905)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468544795_597980799406542_3094959477454634743_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=BN3zQgvLjdUQ7kNvwGIOQxz&_nc_oc=Adkd11jWwP6CpJCz4gvNVu32ddynxwXYI_6Opaf6Q-Q-Z3t_DpRV4oAOEqKHz2WGdALBeI6k5QA7vqTNP5VlYpG_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AflCi6enOWJjRHVdldVrX-GaeR--8m_nHQRjys13IYxnVA&oe=69557405)
 
 ## Introduction to UV Unwrapping
 
@@ -185,7 +185,7 @@ Now that we’ve got our models, let’s talk about UV unwrapping. This process 
 
 **UV Unwrapping Video Walkthrough:**
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1500170830674070_8467381353476647092_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=YLETCaB2_bEQ7kNvwE5Foed&_nc_oc=Adl4-_jKfmxeOS8gU2b1KAWb8MBzVvulnBSCZVCzaP0J5N6TATFbLm1ekHlb0OMshP4&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=13omtbVEqONJiI8eBd75Kg&oh=00_AflYWsyWw4yrsiO4KxJZye4j-O4Yfn5km3lUNZI57VocCw&oe=69377B67)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1500170830674070_8467381353476647092_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=6500a6&_nc_ohc=ZQwtEdtlov0Q7kNvwF83OrD&_nc_oc=AdlOHukSQZIl6M8VTqaAIV1Tybf5zRDnG0GoUsi-Ajdggvj3k_4W8bWuA7MneBsOcsx5MfGvH2mb-Qmwf52o3gci&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_Afn_30PzLGvUUQpTTCjqjNeNVxTV9_8sI2whIGmiWGOOQQ&oe=69412667)
 
 ## Extended Learning
 

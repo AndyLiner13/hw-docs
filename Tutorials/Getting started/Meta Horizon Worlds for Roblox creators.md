@@ -11,7 +11,7 @@ The [desktop editor](../../Desktop%20editor/Get%20started%20with%20Desktop%20Edi
 * The Hierarchy window in Meta Horizon Worlds is similar to the Workspace folder in the Explorer window in Roblox Studio for organizing elements in your 3D scene. Both allow you to manage and organize objects (called entities in Meta Horizon Worlds), and both use a tree structure to represent parent-child relationships between objects.
 * Roblox Studio’s Creator Store and Inventory are also similar to the Asset Store and Assets window in Meta Horizon Worlds, respectively.
 
-![Meta Horizon Worlds UI Overview](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/556862227_829681122903174_8986154431168730759_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=9RcHRFMI8REQ7kNvwGqSslk&_nc_oc=Adm0ZKomiAJv6nIBJ7Vl8DU0uA6ZBYa68xeVjFxgOtUeCL-qROSgY41CqP81gHA5rfA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=2ZrsEM5Eg9yoiCgTA-JwiA&oh=00_Afku-NN7RsePNoOMDc-YN50R0Ji1mHcMNjIq0xjAn7ugzA&oe=69541F6C)
+![Meta Horizon Worlds UI Overview](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/556862227_829681122903174_8986154431168730759_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=9RcHRFMI8REQ7kNvwFM_Jni&_nc_oc=AdkmATX3iK0w0xhWG30P4cdw-JduOH9144GFw9jkABr-eEYAeh9T-KoJnnvPypbRosbmNXfQie57vEuZdYKN6wJg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UAQBEZAYFzCo9TBLo4xp9g&oh=00_AfkKMvqlPXdgwa_LM7LcDfEBUbNsTNHgxJ4w9L-o1fCVuw&oe=695570EC)
 
 ## Terminology differences
 
@@ -126,7 +126,7 @@ If the assets in your Place were originally imported from an external source as 
 
 To export an asset from Roblox, you can right-click it in the Explorer and choose **Export Selection**. Models and textures exported from Roblox are in .OBJ and .MTL format, respectively.
 
-![Export Selection](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480812910_656797433524878_3994810472038585410_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=7rkddOrktToQ7kNvwGFwp32&_nc_oc=AdkgtSxgwG6yofhQXownssfUzmK1Hkk6DNKviLxB_W877WObHL7uf9f5FzWFPDPRMFM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2ZrsEM5Eg9yoiCgTA-JwiA&oh=00_AflmbfVGQ-XRrdtlGZV1KEnLnx-2nlDtM0lL6qD-xDEwfg&oe=69541587)
+![Export Selection](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480812910_656797433524878_3994810472038585410_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=7rkddOrktToQ7kNvwFfmmwB&_nc_oc=AdmjU3nJvU6Zi2fcjoDJZKiVKOCKB-DgVmuEBDCom2ylxA88WXnSATrBFPrQllSdgO6roPBR4elbkYwezwZcTrVj&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UAQBEZAYFzCo9TBLo4xp9g&oh=00_AfkZA4s-H8y1QqcEslnhhLa00BoeMwkakDnYQ36I4m7hDQ&oe=69559F47)
 
 ## Monetization
 

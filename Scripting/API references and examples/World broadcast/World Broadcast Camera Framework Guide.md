@@ -147,7 +147,7 @@ This preset includes:
 
 To add more camera zones, duplicate the Static Camera Zone entity. Ensure each zone has a unique id, or leave the `zoneId` field empty to generate a unique id automatically.
 
-![Static Zone](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/580475573_862854959585790_4049440863384266801_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=hHooAdEBgl4Q7kNvwF-ps5W&_nc_oc=AdlRnREw5yI8JnEttfcxmHbzUwCp1xoinI0NDSDj3ku9XzF36_X2K3xckv5mOKe7l2vIYwt89HqNzjOm15-B3HCE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=4X7bGs5ATHHmUa9YPk33qQ&oh=00_Afn-XGDC57Oc1YOSwUyzrDeoEnSNgx1CEOfw5OmBcFJEzA&oe=6955725B)
+![Static Zone](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/580475573_862854959585790_4049440863384266801_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=hHooAdEBgl4Q7kNvwF-ps5W&_nc_oc=AdlRnREw5yI8JnEttfcxmHbzUwCp1xoinI0NDSDj3ku9XzF36_X2K3xckv5mOKe7l2vIYwt89HqNzjOm15-B3HCE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=xFM1qLek-xzv0Q-JCKDfVQ&oh=00_AfmaV2pvnH8etVBGFDlCGPVj1MYRt_aE_vNAqx9gpfr9Kg&oe=6955725B)
 
 ### Camera Trigger Preset
 
@@ -159,7 +159,7 @@ This preset includes:
 
 To add more camera zones, duplicate the Camera Trigger Zone entity. Ensure each zone has a unique id, or leave the `zoneId` field empty to generate a unique id automatically.
 
-![Trigger Zone](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581160962_862854956252457_5624530874400437713_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=lr6ZlzaOxmoQ7kNvwHzsVTv&_nc_oc=Adnf8M2V8CkYxV2mB1EbZ99aDZLeqyJmauiCdrJnhApU1oh-_grlX8DghjIxEjzWkMIziG1PWWx1Hk4iVKOyuEKC&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=4X7bGs5ATHHmUa9YPk33qQ&oh=00_Afm_RqJBPEQ1yLX6hWJREWE2tXjJXnLT8T_W0ar4iPJFwg&oe=695541CB)
+![Trigger Zone](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581160962_862854956252457_5624530874400437713_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=lr6ZlzaOxmoQ7kNvwHzsVTv&_nc_oc=Adnf8M2V8CkYxV2mB1EbZ99aDZLeqyJmauiCdrJnhApU1oh-_grlX8DghjIxEjzWkMIziG1PWWx1Hk4iVKOyuEKC&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=xFM1qLek-xzv0Q-JCKDfVQ&oh=00_AflU2B2BR-3ATSqYCWPwBWFahfVNnLUDPui3k3dQ5zUJ1Q&oe=69557A0B)
 
 ## Troubleshooting
 

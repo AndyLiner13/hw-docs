@@ -26,9 +26,9 @@ In the past, number-type persistent variables were only capable of using simple 
 You can find persistent variables by looking under **Variable Groups** in the **Systems** menu of the CUI tool. When you create a new variable within a variable group, you’ll see an option to choose the **Number**, or the **Object** type.
 
 - Access **Persistent Variables** in a **Variables Group** .
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512524701285486_2041147541414773851_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=fpqCABh2m2QQ7kNvwH90L6v&_nc_oc=AdlxnD5xwK1GKeQmfk2tmjalZoPJVwGVQqXbf5mCmdzXdJLD9yn5zNw5loM3MKlam8U&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FOOjLExwYM9SUeKCgBjjHQ&oh=00_AfloJHCaeCFpUoCliVNmKD9I5cpwWeWoM11P6JG0kyiWvg&oe=694BD484)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512524701285486_2041147541414773851_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=vFLFUh2MUHUQ7kNvwHG5yem&_nc_oc=AdmJGsQbRoN-fKitX-1RmeVPwYkXPsMcttNlIQzPS6xrObjOX0lyOfIphYQdgY8a4u6UqlIzy3rfEIABIGYNld_2&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JrgS2oOaEdS6DgHxy-aq6A&oh=00_AfnErzkKHWyPk0-8l9LhdAVefBnVukbC89xA4dNOobk3vA&oe=69557F84)
 - To configure a variable, specify either **Object** or **Number**:
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452965108_512524707952152_3292887128801188756_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yvwiBnWwpj0Q7kNvwENdu40&_nc_oc=AdnQw3AJ5kItpqcxs_0Dp-DZNNESRlK1IMyube6e2h1NnGzC_0bmoDqF2UhssHs_ZSg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FOOjLExwYM9SUeKCgBjjHQ&oh=00_Aflc82DnO1jOYAmB7H9AXXmjy31NieU9kGz8bTXoTgUXFA&oe=694BD650)
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452965108_512524707952152_3292887128801188756_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=w4CN3cStr38Q7kNvwFuD1Ak&_nc_oc=Adni0Kf56j_k2FCr8RNNdI6JLhrsEzr_d0e0eU003tmNHvhNwi72diVUexCcGliRk5UIvJnX8WS62jKOvKzCFI-8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JrgS2oOaEdS6DgHxy-aq6A&oh=00_Afnj6njFfY-UkcH3Suc9vU73TV5IV3HyiJ20EHkoGaNZbA&oe=69558150)
 
 ## Accessing variables from TypeScript
 

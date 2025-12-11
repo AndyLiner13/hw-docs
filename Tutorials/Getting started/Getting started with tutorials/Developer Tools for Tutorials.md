@@ -10,7 +10,7 @@ When you are building and refining a world, you may find it valuable to have acc
 
 You can also Start, Stop, and Reset the execution of scripts in your world while you are in headset.
 
-![Debug Console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480858407_660734646464490_3192499164679418316_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=63LAg7o8jrsQ7kNvwG44lVx&_nc_oc=Adnxc0sHkZCORgTlMZdLHRd8fX6VdYBDI4jjezZNs8CcYPSkNcfor063hpXndoQCSTU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=S53k0xB_6QG8DeA7QdScOQ&oh=00_AfkjvL5op_kU5o30jSEYpbC9aUZAdKtNVn88ViVm4zBwjA&oe=6953FC09)
+![Debug Console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480858407_660734646464490_3192499164679418316_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=63LAg7o8jrsQ7kNvwEuoHvx&_nc_oc=AdkdB3-BGVocNPLrWtdYysYrBH1_H-elUe9310rdFaaXrl5jB2kGuoUqDQEfWR1mvRUZO8zqBK9uKK2DyyUImg34&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=E1hjIBibDwPuoFWCx4gF8g&oh=00_AfkAxlx6fS0bhbDBliowPaean8Pu_7jJGVALAA8NBFTG1g&oe=695585C9)
 
 Debug messages include:
 
@@ -28,7 +28,7 @@ When you are in headset, you can review realtime performance metrics of your wor
 
 Through the following display, you can inspect the results to scrub performance over a recent interval, which provides greater fidelity on the data.
 
-![Realtime Performance Metrics](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578347_512501267954496_2333260332297354645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=sNIW3Ami7AkQ7kNvwHOxAQH&_nc_oc=AdmFtA-VZDg-STVwgZB33XXaiQwBHR_Hq7ztfyuAs7AOzJIyvCNf_rdpKqk19AQEM8U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=S53k0xB_6QG8DeA7QdScOQ&oh=00_Aflu3aV-14_xl87-lyYF-8OeO70RWvhyayp8MhVQpI_sxQ&oe=6954141B)
+![Realtime Performance Metrics](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578347_512501267954496_2333260332297354645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=sNIW3Ami7AkQ7kNvwEaY4qE&_nc_oc=AdkorNEUDvFjgBx1v_azWcQishMg3MjdGiPAPB14bA_ZJP3Ml0bCpX0CDdP_Prd_7-8B-CGEBX7pcnKN2sJTjQwg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=E1hjIBibDwPuoFWCx4gF8g&oh=00_AfkEFzq_EQcYTEkIo3l6xUK1RgESV2g8wv7Ml_4JihiEww&oe=69559DDB)
 
 * **Perfetto tracing**: Click the Red button to begin a trace capture of your world. This tracing down can later be analyzed through Perfetto.
 * **Performance scrubbing**: Click the Inspect button to analyze data on recent segments of activity in greater detail.

@@ -8,31 +8,7 @@ This topic shows you how to create a custom UI panel. To create one, you need a 
 
 Before you begin building custom UIs in the desktop editor, enable auto-start and auto-stop of the simulation when previewing.
 
-<details>
-<summary>Preview Configuration panel</summary>
-
-<p></p>
-
-[Preview Configuration panel](../../../../images/output/img_20251211_025305_20251211_025305.md)
-
-### Overview
-This image depicts a settings interface within a Unity development environment, specifically the "Preview Configuration" section. It includes toggle switches, dropdown menus, and action buttons related to preview settings.
-
-### Key Elements
-- **Toggle Switches**: Two toggle switches labeled "Auto-start simulation on Preview entry" and "Auto-stop simulation on Preview exit." Both are in the 'on' position, indicated by the blue color and checked state.
-- **Dropdown Menu**: A dropdown menu labeled "Preview device" with the current selection set to "None."
-- **Checkbox**: A checkbox labeled "UI safe zone overlay," which is unchecked.
-- **Action Buttons**: Three circular buttons at the bottom right labeled with icons representing actions such as refresh, reset, and possibly a save or apply action.
-- **Title Bar**: At the top, a title bar reads "[dev-only] Unity View."
-
-### Visual Flow / Relationships
-The most prominent elements are the toggle switches due to their size and placement. The dropdown menu and checkbox are secondary but still noticeable. The action buttons at the bottom are less prominent but clearly defined. There is no explicit visual flow direction, but the layout suggests a linear progression from top to bottom.
-
-</details>
-
-<p></p>
-
-
+![Preview Configuration panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481946976_667154419155846_1581585323779466962_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Qm3V3FMTo_MQ7kNvwEL5vNb&_nc_oc=Adny0PZE6fvro0s1f3-nGIL1F-ozbwrWVALGJlHtDUoX3dS71ukEmCVuLNgARFckvLFxgh7Ai1loSZzVDQ09a_5x&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2ZAsWJWHn-lNuy3PBo-05A&oh=00_AfnxML5gSHWxi492wd5jpQX98oeH8uC1mr2owfkR9CuEMQ&oe=69557BE4)
 
 Unlike other physical entities in the world, a custom UI is entirely generated from TypeScript code. If auto-start is disabled when you begin the preview, then no code is executed when you enter the preview. Your custom UIs are not initialized, and are therefore invisible.
 
@@ -42,31 +18,7 @@ On the menu bar, find the **Custom UI** gizmo in the **Build** dropdown menu > *
 
 The **Gizmos** panel is where you’d find the **Custom UI** gizmo.
 
-<details>
-<summary>Select the Custom UI gizmo</summary>
-
-<p></p>
-
-[Select the Custom UI gizmo](../../../../images/output/img_20251211_025402_20251211_025402.md)
-
-### Overview
-This image depicts a user interface element within a software application, specifically a window titled "Gizmos." The window contains a grid layout of icons representing various functionalities, with one particular icon highlighted in red.
-
-### Key Elements
-- **Title Bar**: Located at the top of the window, labeled "Gizmos."
-- **Search Bar**: Positioned below the title bar, featuring a magnifying glass icon and a placeholder text field.
-- **Icon Grid**: A 2x3 grid of icons, each with a distinct color and iconography. The icons represent different features such as "World Leaderboard," "Projectile Launcher," "Snap Destination," "Raycast," "Debug Console," "Scheduled Video Player," "Custom UI," and "Avatar Playback."
-- **Highlighted Icon**: The "Custom UI" icon is highlighted with a red bounding box, indicating selection or focus.
-- **Menu Bar**: At the very top of the screen, there are several icons and dropdown menus, likely for navigation and settings.
-
-### Visual Flow / Relationships
-The most prominent visual element is the "Custom UI" icon due to its red highlighting. The grid layout organizes the icons in a structured manner, with each icon having a consistent size and spacing. There are no arrows or lines connecting the elements, but the arrangement suggests a logical flow from top to bottom and left to right.
-
-</details>
-
-<p></p>
-
-
+![Select the Custom UI gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480602105_661373913067230_2289491615613106605_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=7S8LXqqIURgQ7kNvwFOpK-Y&_nc_oc=AdniSIbnpcC80CqT_dRFaUP0hvPW_3i0dPq6OKRQeSe3q4-o8DcA4WGsiudjGtxV1ik1Cw4wQ3XktutDAseP3mK8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2ZAsWJWHn-lNuy3PBo-05A&oh=00_Afk4jow3s3JkJAUJ7plmX5zwOCVdYY_3_2NgvSOI1BlGuQ&oe=69557031)
 
 On the far right of the desktop editor, you’d find the Custom UI’s **Properties** panel.
 
@@ -78,54 +30,7 @@ In the past, creators often placed duplicate Custom UI gizmos in the world and c
 
 The Custom UI gizmo does nothing unless you attach a script to it. The script controls the content of the panel. Next, [create a TypeScript script using the desktop editor](../../Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md#create-a-new-meta-horizon-worlds-script-in-the-desktop-editor). To use the Custom UI functionalities, include `horizon/ui` module for TypeScript API v2.0.0 from the **Scripts** dropdown menu > **Settings** (the gear button on the top right of Scripts menu). The examples here are for TypeScript API v2.0.0.
 
-<details>
-<summary>Create a UI script</summary>
-
-<p></p>
-
-[Create a UI script](../../../../images/output/img_20251211_025521_20251211_025521.md)
-
-### Overview
-This image depicts a settings interface titled "Script Settings." It has a sidebar with options such as "Script editing," "API," and "Console." The main content area displays a list of API endpoints under the "API" tab. There are toggle switches next to each API endpoint, indicating whether they are enabled or disabled. At the bottom, there are two buttons labeled "Cancel" and "Apply."
-
-### Key Elements
-- **Sidebar (Left Panel)**: Located on the left side of the interface.
-  - **Visual description**: Dark gray background with white text.
-  - **Contents**: Contains three options: "Script editing," "API," and "Console."
-  - **Visual styling**: Text is in a sans-serif font, with "API" highlighted in blue.
-  
-- **Main Content Area (Right Panel)**: Occupies the right side of the interface.
-  - **Visual description**: Dark gray background with white text.
-  - **Contents**: Lists API endpoints with toggle switches next to them.
-    - Examples include "horizon/navmesh," "horizon/test_bridge," "horizon/ui," etc.
-  - **Visual styling**: Text is in a sans-serif font, and toggle switches are white with blue backgrounds when enabled.
-  
-- **Toggle Switches**: Located to the right of each API endpoint.
-  - **Visual description**: White switch with a blue background.
-  - **Location**: Adjacent to each API endpoint.
-  - **Contents**: Indicate whether the API is enabled or disabled.
-  - **Visual styling**: Simple toggle design with a white switch and blue background.
-  
-- **Buttons at the Bottom**:
-  - **"Cancel" Button**: Located at the bottom left.
-    - **Visual description**: Dark gray background with white text.
-    - **Contents**: "Cancel" written in white.
-    - **Visual styling**: Standard button design with rounded corners.
-  - **"Apply" Button**: Located at the bottom right.
-    - **Visual description**: Blue background with white text.
-    - **Contents**: "Apply" written in white.
-    - **Visual styling**: Standard button design with rounded corners.
-
-### Visual Flow / Relationships
-- **Most Prominent Element**: The "API" tab is the most prominent due to its highlighted blue color.
-- **Arrows/Lines/Connectors**: None.
-- **Spatial Relationships**: Toggle switches are aligned vertically next to their respective API endpoints. Buttons at the bottom are aligned horizontally.
-
-</details>
-
-<p></p>
-
-
+![Create a UI script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480522573_661373903067231_3023285926290038565_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=uW617gZAEJQQ7kNvwGzhjY_&_nc_oc=AdmFxq0IJvNRd-8yW4oLlB8YrgXOykK3JIE6JntkjddvT5SoyQ9NJoG0B2I2gk_GZ8voE_8_ssbhE-KbaLVo17Sh&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2ZAsWJWHn-lNuy3PBo-05A&oh=00_AfmDCRwEPYLdtmLmpcM-HpcOJCeaRZbylmVZ3ek0Air_Jg&oe=6955725A)
 
 In your Custom UI script, you can add `preStart()` and `start()` methods in addition to the `initializeUI()` method. These methods are called in the following order:
 
@@ -165,31 +70,7 @@ To achieve [player-specific custom UIs](Player-Specific%20Custom%20UI.md) and he
 
 You can find the registered `HelloWorld` component in the **Script** section of the **Properties** panel.
 
-<details>
-<summary>Attach the HelloWorld script to the Custom UI entity close up</summary>
-
-<p></p>
-
-[Attach the HelloWorld script to the Custom UI entity close up](../../../../images/output/img_20251211_025622_20251211_025622.md)
-
-### Overview
-The image displays a user interface from a software application, likely related to game development or 3D modeling, given the presence of terms like "World Sim Off," "Switch to VR," and "Attached Script." The interface includes a preview area on the left and various settings and options on the right.
-
-### Key Elements
-- **Preview Area**: Located on the left side, showing a gradient blue background.
-- **Top Bar**: Contains several icons and buttons, including a green checkmark, a globe icon labeled "World Sim Off," a back arrow, a character icon with a dropdown menu, a pencil icon, a "Switch to VR" button, and a "Publish" button.
-- **Camera Settings**: Below the top bar, there are camera settings with a camera icon and dropdown menus labeled "1.0" and "0.0."
-- **Properties Panel**: On the right side, it displays various properties and settings. It includes sections like "Debug Data," "Script Instance Data," "Visual & Interaction," and "Attached Script."
-- **Attached Script**: Highlighted at the bottom of the properties panel with a red bounding box, showing "Attached Script HelloWorld:HelloWorld."
-
-### Visual Flow / Relationships
-The layout is structured with the preview area on the left and the properties panel on the right. The properties panel is divided into sections with expandable headers. The "Attached Script" section is particularly emphasized with a red bounding box.
-
-</details>
-
-<p></p>
-
-
+![Attach the HelloWorld script to the Custom UI entity close up](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480666001_661373906400564_4241762125279907481_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=HYTbM8ab0R8Q7kNvwEc4v0L&_nc_oc=AdmaEmhQL4KvoUAkB3Hq1TezbsMzDLnq5Krqu4f_MDg-uKfyCBOMnA1Bk3nbFBTws5twv2RrJNxxFB8OdevVNYRe&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2ZAsWJWHn-lNuy3PBo-05A&oh=00_Afm9wfrnOkjngJkZdZ84y2ZxKqEOnxREKzb6tIgK0ljihA&oe=69558EA5)
 
 After you attach the `HelloWorld` script to the **Custom UI** entity, click Play to enter the preview mode. If you haven’t already, ensure you have turned on **Auto-start simulation on Preview entry** and **Auto-stop simulation on Preview exit** in [**Preview Configuration**](../Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-configuration) to successfully complete this tutorial.
 
@@ -197,26 +78,4 @@ While in preview, you will be prompted to press the “E” key when your avatar
 
 **Note**: You can choose the display mode based on your preference in the **Properties** panel > **Visual & Interaction** > **Display mode**. The following image shows the “Hello World” panel in the **Spatial** display mode. Additionally, you can [resize the panel](UIComponent%20class.md#properties-panelheight-and-panelwidth) and place it wherever you like.
 
-<details>
-<summary>Hello World custom UI panel</summary>
-
-<p></p>
-
-[Hello World custom UI panel](../../../../images/output/img_20251211_025718_20251211_025718.md)
-
-### Overview
-The image displays a user interface element that appears to be part of a web page or application. It features a search bar at the top, a menu icon on the left, and a microphone icon along with a close button on the right. The background is a gradient of blue shades, transitioning from a lighter blue at the top to a darker blue at the bottom.
-
-### Key Elements
-- **Search Bar**: Located centrally at the top, spanning horizontally across the width of the screen. Contains the text "> Hello World".
-- **Menu Icon**: Positioned on the far left, consisting of three horizontal lines stacked vertically.
-- **Microphone Icon**: Situated to the right of the search bar, depicted as a stylized microphone.
-- **Close Button**: Found on the far right, represented by an 'X' symbol.
-
-### Visual Flow / Relationships
-The most prominent visual element is the search bar, which draws attention due to its central placement and the text within it. The menu icon and close button are secondary elements, providing additional functionality and allowing users to interact with the interface. There are no arrows or lines connecting elements, suggesting a flat design without a specific directional flow.
-
-</details>
-
-<p></p>
-
+![Hello World custom UI panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481075889_661373909733897_3770997712728765389_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=9p9-iW-qpCkQ7kNvwEsF4aA&_nc_oc=AdkZUlugE_RvjMs6OMyX0pWyBqD0jQ8bVrUSPuekHO-WbScv2JKSimXPeBoTPg8YnWiFSNvqFBxqt6mbSkZgx9Ys&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2ZAsWJWHn-lNuy3PBo-05A&oh=00_AflV-EpnDXZ5IJFXoGONKt3oLygbT7PFJcbMbRa3n7uE6w&oe=69556CA7)

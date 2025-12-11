@@ -16,7 +16,7 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Inventory Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Inventory” in the search field. Finally, select the Inventory Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Inventory Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495704689_734911825713438_4000559892879335779_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=hnPIilY4cPsQ7kNvwGNc9Bo&_nc_oc=AdnLPDuMeclTCYwESJr5YbfFJr6kHerLCxSkMwDuhgrrok1dJI2byxCK1Alr3Bk-XhU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=3nIt0-Xx3uTcYZ3nAbdBlg&oh=00_AflqaH-MMAuip5_Wbr2h124lLqGcjyLVVjFciPQjripLdA&oe=694BC4C5)
+![Finding the Inventory Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495704689_734911825713438_4000559892879335779_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=xtRHhiggfmwQ7kNvwGwXz2K&_nc_oc=AdkE-T-uzyoPuHbQGM1qEpgMmhnQ54w9eZS0yV3TY3ZwwOm88Eh-pa-BiR723Rx4AQCLorOmfvjXROxNKJN7ERZr&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=8K1uvu7sV_znC7XLqL9qtg&oh=00_AfmH-UnEQPz9wuQDxIx2VeoN2AvWL7uDj1GrehA0B6DL0g&oe=69556FC5)
 
 ## Inventory Asset Template properties
 

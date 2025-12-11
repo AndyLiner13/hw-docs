@@ -12,40 +12,40 @@ It’s now easier than ever to make promo videos of your world. With just a few 
 
 ## How to record your world
 
-- While in preview mode in the Worlds Desktop Editor, click the camera icon in the top navigation. ![Record your world icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/582674912_865348869336399_8783375228292014714_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=IY9vtoNjJVEQ7kNvwGCzsMY&_nc_oc=AdmBF2Vs_9ernNb9bWsSIfO6qpFSuIB3jYLA_UrfEfYMq7Khb7zWBn5P4ccOZd-FLGw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_UOwR-gpg_365rg1DdNqHQ&oh=00_AfmNjEp8kOS_lZ8EdiSqOvQWJrUM4o_2soyh9fZpWj98bQ&oe=694D0D3A)
+- While in preview mode in the Worlds Desktop Editor, click the camera icon in the top navigation. ![Record your world icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/582674912_865348869336399_8783375228292014714_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=MsjbRli5iEYQ7kNvwG9mYjb&_nc_oc=Adk9vG1kmA11ZJdiP975fJn0YU_MSSpqfrzaOLD0pPVcC6_oMZTsUtoikT-X_dtyIecKJLubuF_UcBQlnub1Uvg7&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=h9whHL4hIujTlvDASB64Fg&oh=00_AfnDh2PfYkYtrj3x9JyRRfA_pqLwPhWBA_rFPtk78xL0tA&oe=69559EFA)
 - Choose your camera mode.
 
 **Single Camera**: Full-screen, controllable camera.
 
 **Player POV**: Records from the player’s perspective (the way it looks during gameplay). The camera will follow behind the player.
 
-![Camera mode selector](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581935293_865348859336400_5175665325326098046_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=3Oge6geZXykQ7kNvwEXRMc0&_nc_oc=AdnK1WoZ6Ih-KlFe664ZfjDv_oHbOLwTPzzrOvGhN1_uFd6AAZqki6uKpJRSQAyUkng&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_UOwR-gpg_365rg1DdNqHQ&oh=00_Afm3ND8TZVKgOLI2dH4RuuAWVI7SsY5VCzEIa0KV7sKbKw&oe=694CDC63)
+![Camera mode selector](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581935293_865348859336400_5175665325326098046_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=ACdX-s9-1qwQ7kNvwHsK1XA&_nc_oc=Admawtc-4Ip29avgmklRJ6ZdfGpFN4y3ahqIbP14vLVGK8laVFLV9Z3jB1qWNdJznY3h_oBUa3PqlHywNe4sjKKq&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=h9whHL4hIujTlvDASB64Fg&oh=00_AfmoESsELW_nYLpNG3p1r1tlftIGnLHMwpkk054oLwzYgQ&oe=69556E23)
 
 Single Camera
 
-![Single camera](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/491824674_688354314040905_7748861269306486834_n.gif?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=XlF4BIYOXOEQ7kNvwHKrIsl&_nc_oc=AdlGEz615DQ0miUdI8PAdNREY-TrM96wVf8WjLRozXI_CuOj-ZGHWF_4fwy1_eTHjd0&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfnYKytz076GIixN2kDjpTEGuiQlKmL_zEj3nM4EFEijwQ&oe=694D08B3)
+![Single camera](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/491824674_688354314040905_7748861269306486834_n.gif?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=K3tqRI0cK3gQ7kNvwEZ2OlX&_nc_oc=Adm_7M-byDzC-LI5CmlsM8hFGgbvpZxn6Cs66L0ZugoiaQfF-UhjAODaAYJCNcKdEFf9eNZJGng5v_2Ace0ab-QG&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfmvYj4_GljoGxhQgYS38UOLg96aJpKV5VyVGRa9GxU6jA&oe=69559A73)
 
 Player POV
 
-![Single camera](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499308103_9816137295177488_1439831140316478829_n.gif?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=SSxsXrxTcfkQ7kNvwEWJuXB&_nc_oc=Adm9gfYlpY0tIwpSIl3cciXpuLHypj7FhrAa2G0l9tBGyBCGUXnR4ibaM_wBwLRDpNQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afne9_O778zHllHmAEEgmYQg9b3UR5LuEfp4-Md9WvgOnw&oe=694CE5D1)
+![Single camera](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/499308103_9816137295177488_1439831140316478829_n.gif?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xi86Ln9f508Q7kNvwFos5mM&_nc_oc=AdlfI6YNv98MvZC-d-dS68Bh1D28AMbDZ-DltpHR7LwCnfUGtcuh6EoIVtL5ncgD6nxs4CSYnJLYjsAC_pxtQpZ9&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmZ861NJ8dLpIIZZkOTZ1DuY9mVsUMyftiQ4qWZhWuTjQ&oe=69557791)
 
 - Choose an aspect ratio for your video.
 
 If you want your video to look great on phones and social media, choose 9:16 (portrait). This vertical format is the standard for mobile screens. For desktop or standard YouTube videos, use 16:9 (landscape).
 
-![Aspect ratio options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/583011567_865348856003067_2667468132335111783_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=kGmuHXm8GCMQ7kNvwERgzUL&_nc_oc=AdmZ4P88PkvT2pM1NNHS1PLn-BmCx1viC8FLSTfDssF--UyY0MMp367UOYcyZp2DuTA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_UOwR-gpg_365rg1DdNqHQ&oh=00_Afm93_mG58AXH_022rJpTjHBtWV8QoFaSN5RQOClQl8GCw&oe=694D0334)
+![Aspect ratio options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/583011567_865348856003067_2667468132335111783_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=JPUuHsIqMR4Q7kNvwHVZ-ZF&_nc_oc=AdlSZ_WsrOmyzMC09tsSD1V_R9phqDpBaCDM2zefN7oX8Nf3CaYBIPabM2pUSh4haCDQDSzfgOihZUiH6c7uvlB7&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=h9whHL4hIujTlvDASB64Fg&oh=00_AfnDAzLN4bhGsc-kIOTSNsHjj8ue8tYrZmgXuSt_d7jv2g&oe=695594F4)
 
 - Toggle additional settings for your recording as needed.
 
 See below for a full breakdown of each setting.
 
-![Additional settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581837930_865348866003066_3441142235551514944_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=9SHIyqxkKHkQ7kNvwGGJY1u&_nc_oc=AdmcCfmfSuJCwmiMAwrGUO2aNz8TJAZzAkwnd9fdXWt-IeOfySD6jP-FSIClUT-chyQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_UOwR-gpg_365rg1DdNqHQ&oh=00_AflrodnyRTMPKuQ6oxmilGZBgfHu-70NjrBJHvyyZ51OZA&oe=694CEDCA)
+![Additional settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581837930_865348866003066_3441142235551514944_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=CM1hBm9if8IQ7kNvwFnzjaW&_nc_oc=AdmIxCZtKfiJmUoMZepGhP37SbJcaeAWlPib1tiSCiYkpKSWX3wi4ADWoFiyZg1kuTRlZvAlTrUQsHadbjDGp-zn&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=h9whHL4hIujTlvDASB64Fg&oh=00_AfkVjpxhr7Poy2D5zKaXqBT2ihIcezlQpY40uvwxvXEnMA&oe=69557F8A)
 
 - Record!
 
 This is the best part. When you’re ready, click the record button to start capturing your world. You can stop recording at any time by clicking the stop button.
 
-![Recording options](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/582103601_865348862669733_7715524293825419952_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=KDHiqwE3m_kQ7kNvwGczAO7&_nc_oc=Adn957-vJjYwKp4EhpB1I7ovsSg1j4iXxPkX5jN-01SHvsKA9bDpj658BfcytQu5MMw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_UOwR-gpg_365rg1DdNqHQ&oh=00_Afnu_4Pe2xVcfFx6xUhP6aqUmqFwNE4XLQrDgCgGHDOSEw&oe=694D0760)
+![Recording options](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/582103601_865348862669733_7715524293825419952_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=TBI_jABsBrkQ7kNvwEA9ACJ&_nc_oc=Admy-LUU40Rv7qj2Y3JcdART_EjofoRzmNd_aaH1rkV2bKsYyLr21HqvbPpcKqGOC_HsGkPLcV5rmJu_0IflZ7SJ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=h9whHL4hIujTlvDASB64Fg&oh=00_AfmPJ3bFoxHVUiuKsKQ3xnvVe7i7bobvfgpYZ65w-Sk5lQ&oe=69559920)
 
 - Adjust your camera sensitivity.
 

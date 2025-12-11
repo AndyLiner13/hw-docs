@@ -28,7 +28,7 @@ To change the door’s destination, click **Change**. Search for public worlds a
 
 The **Visible** toggle controls the visibility of the gizmo in the world.
 
-![Door gizmo properties panel](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494960168_710920418112579_1665985283251277521_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=V4wenx1Tnr8Q7kNvwHBM9-6&_nc_oc=Adn5kXxdGuIA9bcFxZ11g2_iksGS3YqencntaFf9mhTpJ-B2Z1aKUPPclMVMTaAu7sc&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=nvRH6-ogJwWFhZpBN5SfkQ&oh=00_AfnIO4PHLOoCVQz8cFOz0CXH8k9xj7GjlsYCCe4lGe_Xrw&oe=694BE309)
+![Door gizmo properties panel](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494960168_710920418112579_1665985283251277521_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=wFSqfQ8o5ckQ7kNvwEz7_40&_nc_oc=AdmJQ8KdJVJzynzh8f7flpb_DhpdcvKU21jWEltA58h4rBOR87I6WoMmS91TfDwm2E6WNeXM3HDxzfKyC0o8qLI4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=lvC6GhW45FZWmy6i5M1Tbg&oh=00_AflY7Doz8zqYeghcm_fwjdMTm9Fbt_V3Ze9V1ewpU4XHhg&oe=69558E09)
 
 ## Travel to another world using the door gizmo
 
@@ -41,7 +41,7 @@ While using the door gizmo, keep in mind of the following:
 
 The following outlines the steps to travel to another world using the door gizmo:
 
-- After you’ve configured the door gizmo in the desktop editor, [publish](../Save,%20optimize,%20and%20publish/Publish%20your%20world.md) the world. For an example of publishing a world on mobile, see [Play in your world on mobile](../Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#section-4-play-in-your-world-on-mobile).
+- After you’ve configured the door gizmo in the desktop editor, [publish](../Save,%20optimize,%20and%20publish/Publish%20your%20world.md) the world. For an example of publishing a world on mobile, see [Play in your world on mobile](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world#section-4-play-in-your-world-on-mobile).
 - Visit the published world with the door gizmo on mobile, web or VR.
 - Approach the door gizmo and interact with it by clicking the trigger.
 - Click the **Go** button on the door gizmo to travel to the linked world. Wait for the new world to load. This may take a few seconds.
@@ -51,7 +51,7 @@ The following image shows the player in front of the door gizmo. Pressing the tr
 
 **Note**: Travel is not supported when you’re in the play mode of the desktop editor.
 
-![Door gizmo in the play mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494753285_710920421445912_6107526059820057792_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=7B5zLWA2C1sQ7kNvwFnTi7h&_nc_oc=AdnFvJLms5bs7eHUDpC5QUyxnylwc-oni94qd4lnWar3O4z3wInu92LYzm6zTQLcxKg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=nvRH6-ogJwWFhZpBN5SfkQ&oh=00_AfnHo83wztNvGt_gySdiVJHJwcBB9paDbCoYFMOGStsmdQ&oe=694BC516)
+![Door gizmo in the play mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494753285_710920421445912_6107526059820057792_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=YunPlodZmnwQ7kNvwEW-OP9&_nc_oc=Adk9i4byBa016fEUsrQpVj22W1VEnXZYyTYkJGPlXBvQ59pQG3h_CjaRu8xUe076DyT0V_z6QWwf6QveCafX5lOH&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lvC6GhW45FZWmy6i5M1Tbg&oh=00_Afmvue1OZleoNjzodhiEdsULlz0XDI6tdNSRkA44YSS5Lg&oe=69557016)
 
 ## What’s next?
 

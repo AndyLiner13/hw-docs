@@ -100,7 +100,7 @@ this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemPurchaseComplete,
 
 This is also possible using code blocks in VR:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653334_512509804620309_7449246252743342538_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=2gzqe7aUVb4Q7kNvwGZDeKl&_nc_oc=AdlWFdjhOvGgLeVeYyFfSRorvzGijP0LtWAL4QF0EGXh7_5yhGrmwH9UdO4GrnPGMz8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_Afk2IRjEi91XdlW-vXsNFeyfSkLTqIbHAWSEebYb9SqNoQ&oe=694BBD37)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653334_512509804620309_7449246252743342538_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=n7n3YCCJLUoQ7kNvwGVmO6j&_nc_oc=Adk_7YM1jpxEvQAgLprj-3DbbaYdvVxf3U7X6ysg_zaNn5tdgH8YD4-6OIRF_52GY_WrqUVB_KGAOQwcQhY5DO4r&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_Afl1EuRUH6F7TRyMe2aFI_M6ixNeSL-XsHCbiu8W1J7Smg&oe=6955A077)
 
 Here, the ‘t1’ is supposed to be a Text gizmo object, which needs to be connected to the in-world gizmo, which refers to this script.
 
@@ -121,7 +121,7 @@ For example, if you want to use a trigger that lets a player “verify” whethe
 
 This is also possible using code blocks in VR:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532481_512509801286976_3963140044187378221_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=iqHNNp2dy2YQ7kNvwE5Uc9y&_nc_oc=AdlTGGTz7kaFVw5l2YbKyE8G2SyiLNkhSlR40eRgU9pV6nhFCrE4p1kaDjgcfc_Kf9M&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_AfmTRvPyGxXb-p0gZ6OOKI-FUeA28we3hVE6M-m4lZBRFw&oe=694BB6E7)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532481_512509801286976_3963140044187378221_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=eMIpafatfKYQ7kNvwGcfiIS&_nc_oc=Adlissb_HtEBvP5kp4v33rZXR8tRdS2fXPAdFWMTYLwQz4ubyVjCRS-bdAfyS2EoL9gFFcT6Q2m--jokmbms4F_v&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AflcDEu5XfZbrCKqm7pNolS7wS_KPz30EE9DrZWxW0T5UA&oe=69559A27)
 
 ### Consume event listener
 
@@ -144,7 +144,7 @@ this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemConsumeComplete,�
 
 This is also possible using code blocks in VR:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452743645_512509807953642_1775503207172858437_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=b8I40eBQmL0Q7kNvwEhVZEq&_nc_oc=AdnE9IxTRRQC7OlAQ5ghUGqrMFDxR6ddJjMhhFFAWbyha-TcLwJYjI7ZK4BNm-vDuTk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_AfnFdxA1uRmTUo7pdLcdVkeMJI0K2FF5ouc1FTO1xlYuhw&oe=694BC506)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452743645_512509807953642_1775503207172858437_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=pUJBNSJP-uUQ7kNvwHhZyGa&_nc_oc=Adk3SUjmiMXhJNxi44t8poMSVofdqETPZemOxU7N5qy8P07GTm_r3GSYatEQ07svdU0y-M9Or7irpvS4QUwKpXzt&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AfnimYycORBTQjqr90MMBAeKGhWHnihNqApZIqRtCigEhA&oe=69557006)
 
 These events are also available in TypeScript:
 
@@ -177,7 +177,7 @@ To prevent players from accidentally consuming a purchased inventory item when i
 
 The VR code blocks look like this:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512509831286973_6338731087421512787_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=qetb7OkeCRYQ7kNvwH4i8qM&_nc_oc=AdnEFgFs3QsW-JKHSTYSr4ZuVnUUhX1mjmczyvLoXdJDiT9xnwUpa-C17Y_8eWUMEJQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_AfnPEji22oz4tl2AmpSCA2wPYEB62Zq3t6DRp0VSNiNEnA&oe=694BD87E)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512509831286973_6338731087421512787_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=r4tVDri7xIcQ7kNvwFJPYuw&_nc_oc=AdmuTPaMWakJYhRnnw9xzd4HnACM244fNzz7wWRrblB05yMo7WInVqxQPOzkLPH29aczatjnZC-ekaVJ6iwQGGsM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_Afm-_49C6O-MZp0KoV55xb_bzVsc4TFgzzKY6f3wapTNyg&oe=6955837E)
 
 This is where you should replace the “display text” behavior with the actual things you want to happen, such as changing a person’s gravity or speed, adding health points, playing a sound, etc.
 
@@ -195,9 +195,9 @@ When creating a durable item, you have the option to attach an asset to the item
 
 In VR, that looks like this:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652791_512509714620318_7608227791481175327_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=57qkgoUypxYQ7kNvwG_QyS8&_nc_oc=AdmrRMz6tJ2TYMubIq1NM5t-rwk8GSmV18WRkBD6B2Q5NWkDftkbSI_1k8O3Vs4wmhg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_AfmMmRmoEAQd4rkENKE3A1AUQynPjf8t5V7uowoEql_X4w&oe=694BBED2)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652791_512509714620318_7608227791481175327_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=2_JIDNcykcYQ7kNvwFa0cdZ&_nc_oc=AdnfQOu4pwJnlfa3gNgli_mO3uOtcJn2hYnIjOUvwQODAcGG3nOsjMF_PLVHxf72my_o4YnpCdhFqnDn86sf_t9w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AflkE-avbRWWDuEyWH97gNns9txYpdMpTlmxGknPR0Pm3Q&oe=6955A212)
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452916924_512509727953650_5419197595682710966_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=SqYJQwfLV-IQ7kNvwHPrc_L&_nc_oc=Adm_zn7DKlw0v3tHBLbQuAQHbTG2C8pthjOl-ubescnRT74CnXt-adgOpXZkGLuXa08&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_AfllEzkTAM_qtEpE4UDk-HV6CL8brIqcq8azXD-V_4ZIUg&oe=694BD2CC)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452916924_512509727953650_5419197595682710966_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=_BfVlfkgO1cQ7kNvwHON7fh&_nc_oc=AdmKluE-ML5EoU3zFLZOz6-aBR16EU_c-Kv6JqipOYc2hyYUjuwgZK2ZDjm8C9thJh8dNwhu1CWZZ_2HSMkeOXPQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AfmpODYs5-WVnbLUrVhmdavLMNEFTLWdJOt-PxzJSf_cdA&oe=69557DCC)
 
 ## Kudos panel
 
@@ -228,17 +228,17 @@ A purchase panel will appear when a gizmo is set up and people interact with it.
 
 After a person purchases an item, they’ll be able to access it in the inventory (again, if the item is not auto-consumed) by clicking the inventory button on the identity panel.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452615534_512509711286985_6202407311245192958_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=7M5vFO9Cm5YQ7kNvwHo0a2c&_nc_oc=AdncjKrILfloNrkZ04w96QRKj7n7uyJTemoH8vmdQPDlSDZW0lyMSAUm0WfZGLS3tqk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_Afn1N70fz9lui66_QqF-I2oaPzofpR_ZdQmGsMa3T5MEgA&oe=694BE9A4)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452615534_512509711286985_6202407311245192958_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=rLXdV6WS2A8Q7kNvwGeg377&_nc_oc=Adnvbyxn0fVazcewm6hHQk6Z6C231YbTHTX1brOAAeOyEwqmdJAtzNA4lidz_DJ3pj2GdbEpYI2WmjX61K5uRhdM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_Afnw1gJlZAPSfUFGYxxL8za3e2tCvAgIDgPXqjNXLQ5eFw&oe=695594A4)
 or
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452945339_512509704620319_2347572327308779188_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=3oPLqcXd8G0Q7kNvwFrEtWQ&_nc_oc=Adn3eOiq9zGEwykho1Y1pBMAtNVJTlRbijUy0vRMVh86vAfrfMsQBZJmQnv0Tg4j18I&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_Afk3Efrl31Fkyd_udsfmiOrLsuZmu1QGvIAPHG-FNpCkaQ&oe=694BCFE6)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452945339_512509704620319_2347572327308779188_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=4Q8sbRU2iVIQ7kNvwGBSRpd&_nc_oc=AdlmPYtWTMfCrMYhHoBLMfy07cj1laLAdCTZgGpBTXWZXF2VUX3k9aDtKe3m6YEgZlyuqoJth3QJTFvFMSJLFVAY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AfmJt9tTs23apng95hs_iTNGPiq-Yx5kR8vWoIPHhksH2Q&oe=69557AE6)
 
 All items that are available in the current world are shown in the inventory along with their item detail information; additionally, players can see what items can be used if applicable.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452863904_512509707953652_8349587293785080155_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=IehVJM6l8A0Q7kNvwE1qzKc&_nc_oc=AdkqVPYaec6yAtk3T97fL33hzzpcyjuq5lBralf2VUn3cWm-r2GonpC9ntjeo6JUgtg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_AfkjS4XAUxguh2ntdvj80l_P5ZKnIE0AmG_IMrJCeLE2ug&oe=694BE5CB)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452863904_512509707953652_8349587293785080155_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=vN6YkBDcKaoQ7kNvwGoFD99&_nc_oc=AdlOwRrWlWL8ZEgic9z3wSWcF9Oh-8Yn-fAC5CJ8Mf-w4F5En9O5msyPHB89ikNpDbEJSviYVIk4sdUO4RT5g-Jy&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AfkssuDLqiA_9t6Ht-W5Mn2-GW0F6Z177gr3sfizmHX0wg&oe=695590CB)
 
 * **If the item is consumable**, the player will be able to click the icon to consume it. When hovering on the item, the overlay will show ‘Use’ with the remaining amount of the consumable. The consuming will only succeed if the creator has correctly set up the consume-listeners as mentioned above.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532418_512509701286986_4770500461266213628_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Dm8YyjoFe9EQ7kNvwEHJZXS&_nc_oc=AdmkkFS9Om9NN5lKdwd18QVsjL5WmZle1EBw_Tz7rzqflEFWhMAqd00BWGRsKQPibDU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-emONB8BAPTBy9XqtASEtQ&oh=00_AfnrBMMNbfz15dg2tWGeqqbC7LlP5-uvJzihwVvVqyqkDA&oe=694BE2F0)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532418_512509701286986_4770500461266213628_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=z05dq7dwfpUQ7kNvwGSXB_Z&_nc_oc=AdmVYFL8pXZaOMqn-xG3ZnxhUeA2JC_mtcEFF5Y9VCRASlQNe6C2ZampL5lrvgDLf4PfYeQ91pfXVV14cTn74Nmh&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AflK2A4XxdTbhUlIfjnPMnRCl98X7Z2qPb1ytxn1jAEMDg&oe=69558DF0)
 
 The player can also point to the item name and click on ‘info’, which will lead to the item detail page.
 

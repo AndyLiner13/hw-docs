@@ -6,7 +6,7 @@ World analytics is the usage and performance data associated with a world in Met
 
 **Note**: To see the World Analytics dashboard for your world, it must have already had visitors for at least two days on the Production channel of Meta Horizon Worlds.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578340_512537547950868_1622790614547008646_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=7OQlXFVKkhcQ7kNvwHqMMJ_&_nc_oc=Adkj9R7QdWjF1U0Q0nmmqudPVkddfjuDCxjUpuI3CFx0dOofK_SpziJfJ2HGwDlO1J0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=w66QbzKb2dxmTbz7pMj2qQ&oh=00_Afm9pI_QLi3tF-VwWw1MTJtcOP_9FeeQRqRT3LF0HSkUgw&oe=694BC38C)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578340_512537547950868_1622790614547008646_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=7qHFWger_3gQ7kNvwG6TdiS&_nc_oc=AdmBnskT9NAItXFW9DC-ml4qh9Ns3jKs5H4dLDrYWyzZp5HCoErAp-hW0h48o2LBOszIdiVjLORPg0BI7gc4B6oa&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EY6in29zCvx7thSFjEmEzg&oh=00_Afkk2JHmRdW9M4lD0hOtB9w0st9e_YgKkGxgLIZj5ZJlgA&oe=69556E8C)
 
 ## How to use the World Analytics tool
 

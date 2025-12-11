@@ -6,17 +6,17 @@ This topic describes the `avatarScale` property in the [Player](../../Reference/
 
 In the following image of [Kaiju City Showdown](https://horizon.meta.com/world/1279402616789539), the Kaiju player is larger than the rest of players using the API.
 
-![The Kaiju player is larger than the rest of the players](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487459574_686297430574878_1704284363227182690_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=yWHS7ZlOLfcQ7kNvwHKe5Jv&_nc_oc=AdkH1wAbo06PJA5CSulOQPbw-kLmh7rf7aRn0K94EbBbrorX29uWWlmSFP9orXyMiF8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Ju2JAaqC2p-JYwNkRehwYw&oh=00_AfnyNrzNJP7dkRIvTAzMz2hs8_7UOX6ib6biorEtlVwiYQ&oe=694BC55A)
+![The Kaiju player is larger than the rest of the players](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487459574_686297430574878_1704284363227182690_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=pE3JITtf39EQ7kNvwFYcFr5&_nc_oc=AdkaSyDpjDzvw2sve4D0DTarZWLchB4Yejl0AB3UFTQIjrHqG1BZ5oLY7SI-2IBIwvXY6JDthbCh7CcpP43NyGi6&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7zBckCuHwbbV4xPXlvvfHg&oh=00_AfnLxyXTQcL1IWANWq9RNi76Z016w5V9SppeEM59ApYr-w&oe=6955705A)
 
 You can now unlock new content on the platform. The API enables creators to incorporate mechanics such as platform jumping and puzzle games that rely on scaling avatars up or down in order to progress in the game. Additionally, you can use avatar scaling as part of a progression system for prestige or reputation.
 
 The following image shows the avatar at the beginning of the game.
 
-![The avatar before it's scaled down](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487334824_686297433908211_277638335994097776_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=LcPSf_c7vcgQ7kNvwHkVIFR&_nc_oc=AdkAjXuV2n1uePQ7GcC-Yf4AjQvarYfeESptmyiQVOOXirbOI6yMqFN7VREOoGfl-sk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Ju2JAaqC2p-JYwNkRehwYw&oh=00_Afmfjj7zcIBkwUfUTJQb9VUxmSq2hSqqusMepu30rtEjiA&oe=694BE405)
+![The avatar before it's scaled down](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487334824_686297433908211_277638335994097776_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=JdfrHouqNRwQ7kNvwGABnsi&_nc_oc=AdnfWpMRlIYu5RvsZT6Lm7f7Ls0_Jl0ag4Qc3D9JgQ4oXQPioS-SvBw-NR8u3hePo4BPF9RJInQ9IDrC0LgG00DU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7zBckCuHwbbV4xPXlvvfHg&oh=00_AfklY_oUFd_3iYEN5ECBmg_PFX9cmXDwcmK3OwxrZcCtVw&oe=69558F05)
 
 The following image shows the avatar is scaled down to jump through the doughnut hole.
 
-![The avatar scaled down to fit through the doughnut hole](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487357450_686297427241545_4741437208343931387_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=A5KESxMLxgsQ7kNvwEqF6BZ&_nc_oc=AdkPXaIUtO8Jpaxv9j50mlvC9ROllnEP7XlcpTkI3LseOZ9JUrjG4vzh0STT3YJi5B4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Ju2JAaqC2p-JYwNkRehwYw&oh=00_AfnX3C-vLxBkfCwHDir2dLqaN5In7gNvlsaPUTYAwSQG6g&oe=694BE08E)
+![The avatar scaled down to fit through the doughnut hole](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487357450_686297427241545_4741437208343931387_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=EYlAGvuhiU8Q7kNvwH4dUrc&_nc_oc=Adn1vBTgaAjE0luW-A3BoG7QIkORFUqLwyE_L7cbvJ06gy94uWY39cpkMj06YOM13Dc9i1U3WiA4YyZCNSoQr2CQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7zBckCuHwbbV4xPXlvvfHg&oh=00_AflM7c4aWXueYWt8y_upcTflZuo2aH_8lt6Vjh2YRi1qPQ&oe=69558B8E)
 
 ## Prerequisites
 
@@ -92,4 +92,4 @@ hz.Component.register(SetAvatarScale);
 Try more tutorials and follow examples in these topics:
 
 * [Scripting](../Scripting%20using%20TypeScript.md)
-* [Tutorial worlds](../../Tutorials/Build%20your%20first%20game/Module%201%20-%20Build%20your%20first%20game.md)
+* [Tutorial worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game)

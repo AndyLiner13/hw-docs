@@ -34,7 +34,7 @@ When you create a new component in Desktop Editor, the editor generates a script
 [Component.propsDefinition](Component.md#propsdefinition) - Defines internal properties for the class, which are also added to the Properties panel in Desktop Editor.
 [Component.start()](Component.md#start) - The method that executes when the class initially loads. This is where you can add event listeners that need to run when the script starts running.
 [Component.register()](Component.md#register) - The method that registers the new component class as a component definition that can be used to generate instances of the component in your world.
-For more information about using components, see the [Intro to Scripting](../../../Tutorials/Build%20your%20first%20game/Module%202%20-%20Intro%20to%20Scripting.md) tutorial, and the [TypeScript Components, Properties, and Variables](../../../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md) guide.
+For more information about using components, see the [Intro to Scripting](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/tutorial-worlds/intro-to-desktop-editor-and-typescript/module-2-intro-to-scripting) tutorial, and the [TypeScript Components, Properties, and Variables](../../../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md) guide.
 
 ## Properties
 

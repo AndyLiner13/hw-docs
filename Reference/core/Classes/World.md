@@ -24,7 +24,7 @@ export declare class World
 | **persistentStorageWorld** | A persistent storage object, which contains a set of functions that interact with player variables.      Signature  ``` persistentStorageWorld: IPersistentStorageWorld; ``` |
 | **snapshotId** | Returns the current snapshot ID.      Signature  ``` snapshotId: ReadableHorizonProperty<bigint>; ``` |
 | **team** | Basic functions for teams based gameplay.      Signature  ``` team: ITeam; ```  Remarks  In horizon, every world comes with a team management logic. Players, at any moment during their session, can join, leave or change teams at will. But a player can only be in one team of a given team group. Team groups are ways to separate teams in different sets. This allows the creation of multiple gameplay bubbles with their own teams in one single world. |
-| **ui** | Basic UI functions for displaying popups and tooltips.      Signature  ``` ui: IUI; ```  Remarks  For an example, see the [Lobby tutorial](../../../Tutorials/TypeScript%20Multiplayer%20Lobby%20tutorial/Module%204%20-%20Starting%20the%20Game.md#display-a-countdown-timer). |
+| **ui** | Basic UI functions for displaying popups and tooltips.      Signature  ``` ui: IUI; ```  Remarks  For an example, see the [Lobby tutorial](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/multiplayer-lobby-tutorial/module-4-starting-the-game#display-a-countdown-timer). |
 
 ## Methods
 

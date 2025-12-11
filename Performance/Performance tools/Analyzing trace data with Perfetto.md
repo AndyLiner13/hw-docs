@@ -14,7 +14,7 @@ By the end of this user guide, you’ll know how to:
 
 As you get more familiar with Perfetto and the Real-time Metrics menu, reference this checklist to better understand the cause and effect of performance issues. For a more in-depth explanation and step-by-step tutorial on how to use this checklist, go watch the [Connect ‘23 Horizon World Performance Optimization Best Practices talk](../Connect%20'23%20Video%20Series-%20World%20Optimization%20Best%20Practices.md).
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452392375_512500747954548_2104090671995035942_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=uX9Tq6aE2m0Q7kNvwH_qiSH&_nc_oc=AdnHFNo-npBhOdoDbwebe2Ur1xgrunNCnYACypVohobt6v-kI-onIXqxLK1J-xkV22A&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Vq8sU_WGbjKCbKNblLloQg&oh=00_Afm4qz7malyeDnbsgTC3pMwt7IH4VfVfbmjMjruAX3nENA&oe=694BE1A4)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452392375_512500747954548_2104090671995035942_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=KD78QIgF_gEQ7kNvwFkb5pr&_nc_oc=AdnIc41Ynr9hW6yTGAOwsWFV-XpLjFAn_E69eNLnaXy4OlkWuCAqB2pnMtI1n9UDYKiVgaOpQTZHu4FbW9D8Gq9_&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_Afl-RwA9Q-VcJ4M6MTxgsS5Hm2Zq9ZYjaHx8i7Ch7oAhOg&oe=69558CA4)
 
 The first step in analyzing traces is downloading them once they’ve been captured.
 
@@ -33,10 +33,10 @@ To view a trace file directly from the Developer Dashboard, select **Perfetto** 
 * Use **CTRL + mouse wheel** or the **w/s** keys on the keyboard to zoom in and zoom out on the specific thread and event. Use the **a/d** keys to pan left and right, respectively.
 * Use the **Search** input box at the top of the Prefetto UI tool to find a thread or process.
 
-  ![Perfetto UI search box](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/487878008_688281963709758_2966033283031449348_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=vimMLg4JQFIQ7kNvwEqNbs6&_nc_oc=AdmA-nVxwSDhef63qUydGHB31KNwWa1bzuSQxSl74CMKcldJ2LEedM6gZdQZbQyhdQ4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Vq8sU_WGbjKCbKNblLloQg&oh=00_AfnFxFzA5G7iyCUqEttioX_uEGi-nXWj1BtUQCFuvGg0-Q&oe=694BE54F)
+  ![Perfetto UI search box](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/487878008_688281963709758_2966033283031449348_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=k5AZ_UqFWFwQ7kNvwEV4dmR&_nc_oc=Adkb3OQmy2Ux7G1D8GxcKbpwBYS_RM6Oyj91d7ulz-GvsgEVFVDcWPqHZ7eKXkRoNyr-FsiZPg_BdgqkUUZi1Lpi&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfmDOVizcbeie1sW-V6DYwx65TPpOo9vtZd7CCLtWdo5-w&oe=6955904F)
 * If the search function finds a match, it will highlight the counter in yellow.
 
-  ![Using the Search bar to find a call inside a call graph](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487971033_688281967043091_5021087545001880111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=WucmnSwnVbkQ7kNvwG2EMQ-&_nc_oc=AdnGxHS9sgGyGImDZ-Q0lKAF29yE7fKIIxV9euDzhTDpsrpe4T3XeHkJS2LN08TMg8o&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Vq8sU_WGbjKCbKNblLloQg&oh=00_AflCJP9w7EGEXaidejN9P8821I11MpUjY3D61J_5LJY-Fw&oe=694BBA03)
+  ![Using the Search bar to find a call inside a call graph](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487971033_688281967043091_5021087545001880111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=DAHpk_GNavYQ7kNvwGfNs3t&_nc_oc=AdmrMEf2sgM9xmUcYtW2EQoYWrC4PzJujbvr8DBgZyIfLAzcGYq5LTGioPG2S2dBHEvzLdbKFrKgRd-VH1DaMkVs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfnhsdPEhZVVmZJoIgd-ykRYwwYKNYQO4EYpn4EYa1SF7Q&oe=69559D43)
 * Select an event on the thread to get more information, such as:
 
   + Name
@@ -45,11 +45,11 @@ To view a trace file directly from the Developer Dashboard, select **Perfetto** 
   + Duration
   + Process ID
 
-  ![Selecting a counter on the main thread, revealing the Current Selection tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488185144_688281973709757_4126500563093795126_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=kSs0ZFG3EQQQ7kNvwEZ88bQ&_nc_oc=Adky14doqoNuftzswBtsRqDul0Tmicu-CWQZNVccdFYSoU39hG7yrUEybQwB8Z0YRGI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Vq8sU_WGbjKCbKNblLloQg&oh=00_AfkCU0Apor1V7S6vEHjtfSrivdHZ26RJ8jHzD7A2jWL61Q&oe=694BCEC1)
+  ![Selecting a counter on the main thread, revealing the Current Selection tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488185144_688281973709757_4126500563093795126_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=OhUe7jK8aFgQ7kNvwF48AdK&_nc_oc=AdkDJziljLiUEloIeOnuIf2MMwe-StqIrkqCLoph46FGH4Zpr7NUub4PYnYJ9niYkz9BPLtVe1CXidO4rPpRCMxc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfmxT3grYIOpsekKVzdX4kfSMGG0Y5Nt-pRpazcvH-7McQ&oe=695579C1)
 
 ### Perfetto Tool keyboard shortcuts
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452702818_512500764621213_1299181058192558473_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=FvZLZNF0e74Q7kNvwH2JGvo&_nc_oc=AdnxoBYsrsuL9Oy9nTSavSqYFBIt_d98wDtUtH550JXWnhogYCkCICvlwlhHN47hePc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Vq8sU_WGbjKCbKNblLloQg&oh=00_AfljUNZ09AKwckyW9f9vp_EYiRgzrf5DxNIn_0jfzL-pYg&oe=694BCBFD)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452702818_512500764621213_1299181058192558473_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Nd-kyTpA49AQ7kNvwEytldr&_nc_oc=AdlCImGk98C50KBMuLcqvDifXi4pEeyyd5h9WJNahfB_tUpzvRSTlCch1NFSeqNGAiwRSMnv774tbFCgqDSE1VwK&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfkhM-S_MMTTi4BqJmyWzG-mzAJHgYlfk-MqQG4aM0QolQ&oe=695576FD)
 
 ## Examining the main thread
 
@@ -59,7 +59,7 @@ You can zoom into the thread to see the different calls being made on the main t
 
 If you use your left mouse button to drag across a frame in the main thread, you can get more information from the **Area Selection** dialog at the bottom of the screen. If you select **Slices**, you can see the frame time under “Wall duration (ms)”. You can scroll down for a list of all the calls made during the selected time. The next column, “Avg Wall duration (ms)” will show you the average frame time across the whole trace. A trace taken with the Deep setting will give more inflated CPU times (around 5%) but you will have access to more detailed markers. A trace taken with the Overview setting will have more accurate CPU times but fewer markers will be captured. Here is an example selection:
 
-![Selecting a frame to view the slice durations](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488666923_688281960376425_3834413545093838867_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=MKVJlEt-5yYQ7kNvwFNxg7x&_nc_oc=AdlLVLjMpPXTvXUSGI92S1W9JGt7JRdfqB0wp-onI2qEbAu478WSz4a8xCA0C1pzVtE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Vq8sU_WGbjKCbKNblLloQg&oh=00_AflZJGFcGj2TfXfEXd1pH8O0jlOCAVmMLWCwmuF_aiC73w&oe=694BCD83)
+![Selecting a frame to view the slice durations](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488666923_688281960376425_3834413545093838867_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Zpnn5fKBpaAQ7kNvwE-OPZq&_nc_oc=AdkUSxkMfFDhh9w9UngRYiBbCcbT2GaQt2NUA38xxmm0Zm_b4ai66Hua5DrPdfiUO6k74bHdVSyY4EzzmxOFnhKd&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfkwDeuWlI-sdmNzGEFfALWAQAmt5F6jcyZdWfWXRk_2OA&oe=69557883)
 
 When you zoom into a single frame on the thread, you can get a better understanding of how the time is being spent. For example, while the `PlayerLoop::Update` call seems very large, it is made up of a lot of calls that vary in size. Even if a single marker is large, that may not be an area of concern. For example, it is normal for `HorizonAvatarManagerUpdateRunner::Update` to take 1.5ms.
 

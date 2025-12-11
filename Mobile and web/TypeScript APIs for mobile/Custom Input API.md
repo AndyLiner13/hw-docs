@@ -162,10 +162,10 @@ You can now add your own images to input actions which are configured using [Pla
 
 To add a custom icon, you need a texture asset. Upload any image to your asset folder and reference it in your code. From this asset, you can obtain the asset ID, which is required for the icon.
 
-* **(Recommended)** Define a [texture asset in your script properties](../../Tutorials/Custom%20UI%20Examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md#station02-imagefromasset). This allows you to use the asset picker GUI in the script inspector for easier selection.
+* **(Recommended)** Define a [texture asset in your script properties](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-2-image-from-asset#station02-imagefromasset). This allows you to use the asset picker GUI in the script inspector for easier selection.
 * Alternatively, you can directly reference the texture asset’s ID in your code. This approach is less flexible but also valid.
 
-![Properties panel showing the textureAsset property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487726045_686408240563797_5149593947553231907_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=6fIZDdnllTMQ7kNvwE5CLee&_nc_oc=AdlexlQUv7aXC7CWpg4yU1L6jZSnxMFNvAh-9_MwYIEPdPQodNsJaqcuWKU1PmmjCZ0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=pTu7jQfuKH8OOdCDEBcYZA&oh=00_AflhHUoGReKcwBjOZiJzvjJ9fDCf6fBFxbUA3NbtgKcqCg&oe=694BD3F0)
+![Properties panel showing the textureAsset property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487726045_686408240563797_5149593947553231907_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=fAct1P86JrMQ7kNvwEOG_3t&_nc_oc=AdkLDUaEIhXWPA4WNlxejPByk_Xum3h5yHnzXmtimHL-UejlpbPtbV3FYcnxnK23bggCo5pJXiyqaC_IdJGDz3L-&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iLfYISDd5l9eVDjlHC6-tA&oh=00_AfkpZOHWxUaDyOuz_pUr5kc4SRQFtScI8E2sDUjSwfwkLA&oe=69557EF0)
 
 ### Using the Texture Asset
 

@@ -14,60 +14,10 @@ This topic shows you how to build an interactive custom UI, because creating a s
 This topic and [Build a dynamic custom UI](Building%20dynamic%20custom%20UI.md) explore these capabilities by working through an example. Consider a game where the players are given a chance to change the color for a ball. In the UI, you’d like to have a text prompt and a confirmation button in the UI. After any player clicks the button, you’d want the ball’s color to be updated, button removed, and the prompt’s content and color changed.
 
 The following image is an interactive UI showing a text prompt and a confirmation button.
-<details>
-<summary>A text prompt and a confirmation button</summary>
-
-<p></p>
-
-[A text prompt and a confirmation button](../../../../images/output/img_20251211_025128_20251211_025128.md)
-
-### Overview
-This image depicts a simple dialog box with a question and a single button.
-
-### Key Elements
-- **Question Box**: Located centrally, with rounded corners and a light beige background.
-  - **Contents**: The text reads: > **"Want to change the color of the ball?"**
-  - **Visual styling**: Black text on a light beige background.
-- **Button**: Positioned below the question box, with rounded corners and a green background.
-  - **Contents**: The text reads: > **"Sure!"**
-  - **Visual styling**: Green background with white text, slightly darker green border.
-
-### Visual Flow / Relationships
-- The most prominent visual element is the question box.
-- There are no arrows or lines connecting elements.
-- The button is directly below the question box, indicating a sequential interaction where the user would click the button after reading the question.
-
-</details>
-
-<p></p>
-
-
+![A text prompt and a confirmation button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522652_512500634621226_5566709019236532182_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Tv8x2acjiOQQ7kNvwFog21s&_nc_oc=AdmZwY2qSPUsiyL9E2keey0vGBjWMfc3012Q8Ci-BtEZTUcoL9CqrNZhDZLqFKarITFQNdf5EdWS3sUyyhxV8efj&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ihRbbgOg3lS5RYUa0YORmQ&oh=00_Afnr65wwfKm01rCxsNwW3oh0aYBAUI64X89kmaRz7aljWQ&oe=69558BA2)
 
 The following image is an interactive UI showing some confirmation text.
-<details>
-<summary>Some confirmation text after clicking the button</summary>
-
-<p></p>
-
-[Some confirmation text after clicking the button](../../../../images/output/img_20251211_025202_20251211_025202.md)
-
-### Overview
-This image depicts a simple rectangular notification or message box with rounded edges. The content is centered within the box and contains a single line of text.
-
-### Key Elements
-- **Visual description**: The box has a rounded rectangular shape with a light beige background.
-- **Location**: The box occupies the central area of the image.
-- **Contents**: The text inside the box reads: "Enjoy the new color!" in red font.
-- **Visual styling**: The text is bold and the background is a solid light beige color.
-
-### Visual Flow / Relationships
-The most prominent visual element is the message box itself. There are no arrows, lines, or connectors present. The text is centrally aligned within the box, and there is no implied reading order beyond the natural progression of reading from left to right.
-
-</details>
-
-<p></p>
-
-
+![Some confirmation text after clicking the button](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576827_512500611287895_1449283729304710085_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=w24zNGAOdhsQ7kNvwFkETru&_nc_oc=AdmHxZMO7txOLx92wuEWvraOnp53plH6trHbTMyby9on_I42hotvs1SNvfJ4f71m0HhBpve5nX_F6OHi8dYnUu5Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ihRbbgOg3lS5RYUa0YORmQ&oh=00_AflId5eVJr2P9uqflrPrroblnlq3OM_J7XHxXmaxJwGLAQ&oe=6955740D)
 
 ## Build a static UI
 

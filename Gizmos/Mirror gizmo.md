@@ -70,7 +70,7 @@ For example, to resize the mirror, you can resize the mirror by changing the **S
 
 The following shows you how to configure the gizmo’s properties in VR.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974860_1582777578979793_4578442253378448808_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=n546TBVhTRcQ7kNvwEd5hFM&_nc_oc=AdlZJZ50Yt1_0zKRu3KCJWqbIPqZ65RrFDNuIAtf4pC0_MCIVlgcsO_9-kYtbktEEtc&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afm7zc4Cb3ZtJ-D2mPWypbWYthPrWKMnXqjAzn7BjkWxPw&oe=694BE0DA)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974860_1582777578979793_4578442253378448808_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=fxJgPPBS-v8Q7kNvwFhCBH-&_nc_oc=AdkINnDOA4pn7JnUpGYELFK-MUlINtIDVaQMfHXIJXEpk37z486M-tMxqgQC0u6_rQ2fWapaC7XuWSnYxDkUAdHB&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkX_K4Yw3m4Ps61fDc4u3W3HR9-ZMt8bTPGcGEEKqZeSA&oe=69558BDA)
 
 ## Take photos and edit your avatar
 
@@ -78,11 +78,11 @@ After placing the gizmo in your world and configuring the properties, you can ta
 
 The following shows you how to take a photo.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974721_499114159825081_5750543788586459815_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=XhucixqYhz4Q7kNvwHba8un&_nc_oc=Adk8d4yAOpoTur4AQ6J8ewlzVmrOE4nYY-thYn_zx3uXCAjJg4qd6yB3SNxt8E5eLbw&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkhY-SVbw-L3xZxFngCBe2Ox8yooRwEn_-sm3xFiLKgHg&oe=694BE912)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974721_499114159825081_5750543788586459815_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=KnyZi650I5EQ7kNvwHARIVl&_nc_oc=AdmJKgeaRMgF3i5d-QuNZDNl6Ux0No80UhXxTtR7udptFUlIvEQ677h25Ofcz5MCa8s8iJGAFBZDvfJuoBCd8h_M&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AflIzEneEkfRslx-xjJ4fHdp7cqbUTPmuyc8HFTv1CHgcw&oe=69559412)
 
 The following shows you how to edit your avatar.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982534_585330297294458_1498502693454280462_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=c2qap4O-nwUQ7kNvwGI_hLc&_nc_oc=AdkvZWkoSWuqSN2bH1XByPup_0cnT0CfhuU9HZYYmZKCNGVl9l2S-DDKg1z8cYpJOPY&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkE1lzDWxsILWHy6CHpCyIFZiz9Mwu-oDUuOTIWJCAp5w&oe=694BC427)
+![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982534_585330297294458_1498502693454280462_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=SAsoQAhz4B8Q7kNvwGw1TPQ&_nc_oc=Adl82_nkZZ75jBi1D40q204xv0ckhs0cAXI2T5EgQvQ_YR44j2dNstBa7JZWNUcGS9EqPx5SogzFJ8v_bzSFZW8Z&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Aflg_nU47lX0u-FM6la0Nz9fNQqUx_58DmN-MeWnAeB7NA&oe=69556F27)
 
 ## What’s next?
 

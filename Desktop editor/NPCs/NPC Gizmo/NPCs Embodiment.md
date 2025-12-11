@@ -8,30 +8,7 @@ When creating an NPC there are two embodiment options to choose from: **None** a
 
 While **None** AI embodied and **Horizon Avatar** both leverage the core NPC Gizmo as their foundation, they provide distinct functionalities and use cases for populating your virtual world with interactive characters. The choice between them depends on whether or not you want to attach the NPC gizmo to an entity in your world, or make use of a Horizon Avatar as an NPC character.
 
-<details>
-<summary>Horizon Avatar and None embodied NPC</summary>
-
-<p></p>
-
-[Horizon Avatar and None embodied NPC](../../../../../images/output/img_20251211_070846_20251211_070846.md)
-
-### Overview
-The image depicts a virtual environment with a character standing on a grid floor, a floating red humanoid figure above them, and a purple cube with white symbols to the right. The background is a gradient sky transitioning from light blue at the horizon to a lighter shade higher up.
-
-### Key Elements
-- **Character**: A human-like figure wearing a dark gray T-shirt, blue jeans, and white sneakers. Positioned centrally in the lower part of the image.
-- **Red Humanoid Figure**: A stylized, simplified humanoid figure in a red color scheme. It is floating above the character, with one hand on its hip and the other raised near its head. Below this figure is a rectangular tag labeled "Test Bot."
-- **Purple Cube**: A cube with a purple face featuring white star-like symbols. Located to the right of the character.
-- **Background**: A gradient sky with a light blue hue at the horizon, fading to a lighter shade higher up. The ground is a light gray grid pattern.
-
-### Visual Flow / Relationships
-The most prominent visual elements are the red humanoid figure and the character. There is no clear arrow or line indicating a specific reading order. The elements are spatially arranged with the character in the foreground, the red figure above, and the purple cube to the right. The red figure and the tag appear to be a single unit, as they are closely positioned and connected visually.
-
-</details>
-
-<p></p>
-
-
+![Horizon Avatar and None embodied NPC](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545887387_810235231514430_8912002839303763770_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=FywLmAumoEMQ7kNvwHMSGLz&_nc_oc=AdlhrgRWeIt4G4Rf79ziXyddRarIDiRTtSq-sPRbYSDncXICe2wMGPWr3T37Hy9RCmdNMDeHbPYNM4sM-Po19x35&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=8qoNT0NFU0DL4WrIoVaHYg&oh=00_AfmhC6GY-OX0VFLh0TCbFcYIu1VdHuN--29BDQJ3udwfhA&oe=695586AB)
 
 ## Non-AI Embodied NPCs
 

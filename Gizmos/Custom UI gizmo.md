@@ -22,13 +22,13 @@ For additional descriptions of the custom UI gizmo properties, see [Custom UI pa
 
 ## Scripting
 
-Use scripting to add interactivity and dynamic behavior to their UI panels. For example, scripts can be used to bind data from the world to the UI panel for displaying a player’s health or score. Another good example involves player interaction in which scripts can be used to handle user input, such as button clicks, text entry, or other interactions, and respond accordingly. Completed sample worlds called Custom UI examples with compiled scripts in [Creation Home](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Create%20a%20New%20World.md) are also available. These worlds have [companion documentation](../Tutorials/Custom%20UI%20Examples%20tutorial/Station%200%20-%20Setup.md).
+Use scripting to add interactivity and dynamic behavior to their UI panels. For example, scripts can be used to bind data from the world to the UI panel for displaying a player’s health or score. Another good example involves player interaction in which scripts can be used to handle user input, such as button clicks, text entry, or other interactions, and respond accordingly. Completed sample worlds called Custom UI examples with compiled scripts in [Creation Home](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Create%20a%20New%20World.md) are also available. These worlds have [companion documentation](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-0-setup).
 
 ## What’s next?
 
 Now that you’ve been introduced to the custom UI gizmo, further your learning with tutorials and related developer guides:
 
 * [Custom UI](../Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)
-* [Tutorial worlds on custom UI](../Tutorials/Custom%20UI%20Examples%20tutorial/Station%200%20-%20Setup.md)
+* [Tutorial worlds on custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-0-setup)
 * [TypeScript component lifecycle](../Scripting/TypeScript%20Script%20Lifecycle.md)
 * [Meta Horizon Creator Program’s creator manual on custom UI gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#custom-ui-gizmo)

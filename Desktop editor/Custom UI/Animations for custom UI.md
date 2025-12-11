@@ -390,4 +390,4 @@ anim.set(Animation.timing(v => v + 10));
 
 ## What’s next?
 
-Try the tutorial world [Animation effects](../../Tutorials/Custom%20UI%20Examples%20tutorial/Station%209%20-%20Animation%20Effects.md).
+Try the tutorial world [Animation effects](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-9-animation-effects).

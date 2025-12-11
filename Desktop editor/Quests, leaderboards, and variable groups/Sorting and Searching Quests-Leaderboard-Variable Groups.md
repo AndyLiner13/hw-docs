@@ -4,31 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 You can use the Desktop Editor to view, create, edit, delete, debug, sort, and search quests, leaderboards, and variable groups, just like you can in VR.
 
-<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_092333_20251211_092333.md)
-
-### Overview
-This image depicts a user interface from a game development environment, likely a scene editor or level builder. The interface includes a hierarchy view on the left, a preview window in the center, and various toolbars at the top and bottom. The preview window shows a 3D environment with a focus on a corridor and a staircase.
-
-### Key Elements
-- **Hierarchy View**: Located on the left side, it displays a tree-like structure of objects and assets within the project. Elements include folders labeled "LOBBY," "[ARENA-CORE]," "BROADSIDE," and others. Some elements have lock icons next to them, indicating locked assets.
-- **Search Bar**: Below the hierarchy view, there is a search bar labeled "Search hierarchy."
-- **Preview Window**: Occupies the central area of the screen, showing a 3D environment with a corridor and a staircase. The environment has a muted color palette with beige, brown, and gray tones.
-- **Toolbars**: At the top, there are several toolbars with icons and dropdown menus. These include navigation options ("Navigation," "Quests," "Variable Groups," "Leaderboards"), system-related options ("Build," "Systems," "Preview," "Scripts"), and a Gen AI button. On the right side, there are additional toolbars with camera controls, zoom settings, and other editing tools.
-- **Bottom Toolbars**: At the very bottom, there are tabs labeled "Asset Library," "Console," "Tests," "NPC Debugger," and "Performance." There is also a search bar for the Asset Library and a dropdown menu for sorting assets.
-
-### Visual Flow / Relationships
-The hierarchy view is the most prominent element on the left, guiding the viewer's attention to the assets and objects within the project. The preview window in the center provides a visual representation of the 3D environment being worked on. The toolbars at the top and bottom offer various functionalities and settings that can be adjusted during the editing process. The layout suggests a workflow where users navigate through the hierarchy, select assets, and then view and edit them in the preview window.
-
-</details>
-
-<p></p>
-
-
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/584739231_869065648964721_6447029802297341528_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=jqvmZt_v4ZgQ7kNvwHMQM9k&_nc_oc=AdnueO55a3B7yznz5PidC5iFjdshs39VLx0jc7-QgA_fW5Qzt32UjT96bxaftPi8C2JFBTnPIhdTEsfE3dB874Tj&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=EwDxBspkwvx4zTOO_2TvoA&oh=00_Afm62sWYoONlsZ9AWj1gOd2vifqy_x1fQUCsI_xOKv4vQA&oe=69557784)
 
 ## Getting Started
 
@@ -40,92 +16,21 @@ The first step for using all procedures in this article is to open the **systems
 ## How to sort quests
 
 - Click the sort icon.
-  <details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_092438_20251211_092438.md)
-
-### Overview
-This image depicts a user interface from a 3D modeling or game development software. The interface is divided into several panels: Hierarchy, Quests, and Properties. The central area displays a 3D scene with a geodesic dome and a small trailer-like object. The Quests panel contains a search bar, sorting options, and a list of quests. The Properties panel is currently empty, indicating no object is selected for property viewing.
-
-### Key Elements
-- **Hierarchy Panel**: Located on the left side, it lists various entities such as SpawnPoint, Group, Sphere, EntityGroup, etc. Each item has a lock icon next to it, suggesting some form of locking or visibility control.
-- **Quests Panel**: Positioned at the top center, it includes a search bar, a sort button, and a list of quests. The quest "saddas" is highlighted, showing its name and script ID.
-- **Central Scene**: The middle area displays a 3D model of a geodesic dome and a trailer-like object on a green plane with a tiled floor.
-- **Properties Panel**: On the right side, it prompts the user to select an object to view its properties but currently shows no selected object.
-
-### Visual Flow / Relationships
-The interface follows a typical layout for 3D modeling software, with the Hierarchy panel on the left, the central scene in the middle, and the Properties panel on the right. The Quests panel is above the central scene, providing quick access to quest management. The visual flow is linear, moving from the Hierarchy to the central scene and then to the Properties.
-
-</details>
-
-<p></p>
-
-
+  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/585595466_869065652298054_806818149233165422_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=FyiQmsIP5L0Q7kNvwFDCBXx&_nc_oc=AdnLP6Ae0RMA7M-olQP8SUEs08q2zfv6g1DEJF-Kz2nKSWynI7gYNeHEsvn58t6_LGGKN65ig2Rkq4CsxTIQIDIj&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=EwDxBspkwvx4zTOO_2TvoA&oh=00_AfkByPtWX6BNq7OijTch1spic6eK61Y8Br_vIonY3iflog&oe=6955739C)
 - Select the sort method.
 - The list will be updated to match the sort method selected.
 
 ## How to sort leaderboards
 
 - Click the sort icon.
-  <details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_092552_20251211_092552.md)
-
-### Overview
-This image depicts a user interface within a game development environment, specifically showing a scene preview and a side panel with a leaderboard feature. The scene preview displays a foggy, eerie graveyard at dusk, with silhouettes of tombstones and a mausoleum. The leaderboard panel is open, showing a single entry labeled "Sample" with a note that it "Never resets."
-
-### Key Elements
-- **Scene Preview**: Located centrally, showing a graveyard scene with a purple and pink gradient sky, fog, and silhouettes of tombstones and a mausoleum.
-- **Leaderboard Panel**: Positioned on the left side, with a dark background and light text. Contains a search bar, a plus sign for adding new leaderboards, and a "Sort" button. The leaderboard itself shows one entry labeled "Sample," with a trophy icon next to it and a note stating "Never resets."
-- **Navigation Panel**: On the far left, with a dark background and light text, listing items such as "SpawnPoint," "MyFirstWorld," "CemeteryMausoleum_geom," "Pedistal," and "ACWpnBattleRifle."
-- **Properties Panel**: On the right side, currently empty, indicating no object is selected for property viewing.
-- **UI Elements**: Various UI elements such as tabs ("Navigation," "Quests," "Variable Groups"), a play button, and a publish button are visible at the top.
-
-### Visual Flow / Relationships
-The most prominent visual is the scene preview, which dominates the central area. The leaderboard panel is secondary but still noticeable due to its size and content. The navigation panel on the left provides context for the scene being viewed. The properties panel on the right is currently inactive, suggesting the focus is on the scene and leaderboard.
-
-</details>
-
-<p></p>
-
-
+  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/579859263_863661416171811_4281078525434971798_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=zQL2HOEWIhEQ7kNvwFbgqgF&_nc_oc=Adnfv7qsqS7gEvBj_HLHOCnZIRc3or9RvnmGzKyjxCHKPuZSzKTKofeRPOOlPpBCFV5e3gTKJkwde0zT5iKbLQXc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EwDxBspkwvx4zTOO_2TvoA&oh=00_AfnLfrFtTTBwpXK_5Oaqul7vXC75mpM9FPTIB454vyugIw&oe=69557305)
 - Select the sort method.
 - The list will be updated to match the sort method selected.
 
 ## How to sort variable groups
 
 - Click the sort icon.
-  <details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_092722_20251211_092722.md)
-
-### Overview
-This image depicts a user interface from a game development environment, showing a 3D scene preview alongside various toolbars and panels. The scene preview displays a foggy, eerie landscape with silhouettes of buildings and a graveyard, suggesting a spooky atmosphere. The interface includes multiple tabs and panels for navigation, variable management, and other development tools.
-
-### Key Elements
-- **Scene Preview**: A large central area showing a foggy, purple-lit landscape with silhouettes of buildings and a graveyard. The sky has a gradient of purple hues.
-- **Variable Groups Panel**: Located on the left side, this panel is titled "Variable Groups." It shows a list with one item labeled "Sample," indicating persistent variables.
-- **Hierarchy Panel**: Below the Variable Groups panel, this panel lists project elements such as "SpawnPoint," "MyFirstWorld," "CemeteryMausoleum_geom," "Pedistal," and "ACWpnBattleRifle."
-- **Navigation Bar**: At the very top, this bar contains options like "Build," "Systems," "Preview," "Scripts," "Gen AI," "Navigation," and "Quests."
-- **Properties Panel**: On the right side, this panel is currently empty, with a prompt to "Select an object to view its properties."
-
-### Visual Flow / Relationships
-The most prominent visual is the scene preview, which dominates the central area. The Variable Groups panel is secondary but still noticeable due to its size and content. The Hierarchy panel is positioned below the Variable Groups panel, providing context for the scene being viewed. The Navigation bar at the top serves as a header for the interface, while the Properties panel on the right remains inactive.
-
-</details>
-
-<p></p>
-
-
+  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/580484597_863661409505145_3660990533565566392_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=bsQKnDlQdmwQ7kNvwE2VzyZ&_nc_oc=Adk3BufuAYowRnzHritERJqQKJmJsK2l5Y5LCzeI1Ndby3kMZ1Vgeh3A_B2HJQwiok3zYBuMT7UisTAgkoItpL0A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=EwDxBspkwvx4zTOO_2TvoA&oh=00_Aflc8tPEF23ICUrukAb2iLCVmxnrAR3axSOqd3fFMuqPJw&oe=695580F5)
 - Select the sort method.
 - The list will be updated to match the sort method selected.
 

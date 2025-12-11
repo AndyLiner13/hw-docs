@@ -20,7 +20,7 @@ When someone visits Worlds as a user, they always see the published version of a
 ## Getting started
 
 The initial step toward creating your first world is to [install the desktop editor](Get%20started/Install%20the%20desktop%20editor.md). This desktop editor is your main platform for creating a world, and it contains many other tools that you’ll find useful as you create. To see what tools are available to you as a creator, check out our [tools overview](Get%20started/Tools%20overview.md).
-After you’ve installed the desktop editor, we suggest you try the [create your first world tutorial](Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md). This is the first of a two-part tutorial where you’ll learn how to create a simple game in Worlds. You can follow this up with the second part of the tutorial, which continues to walk you through building a simple game. In these two introductory tutorials, you’ll experience most of the basic aspects of working with a world, such as:
+After you’ve installed the desktop editor, we suggest you try the [create your first world tutorial](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world). This is the first of a two-part tutorial where you’ll learn how to create a simple game in Worlds. You can follow this up with the second part of the tutorial, which continues to walk you through building a simple game. In these two introductory tutorials, you’ll experience most of the basic aspects of working with a world, such as:
 
 * Creating your world
 * Setting up the tooling you need
@@ -37,7 +37,7 @@ You can find a lot of useful information in the Worlds documentation. Info about
 
 ### Creating your world
 
-* [Tutorial Worlds](Tutorials/Getting%20started%20with%20tutorial%20worlds/Access%20Tutorial%20Worlds.md): Explore our Tutorial Worlds, which allow you to explore scripts, manipulate entities, and learn how different types of worlds work.
+* [Tutorial Worlds](Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md): Explore our Tutorial Worlds, which allow you to explore scripts, manipulate entities, and learn how different types of worlds work.
 * [Desktop editor](Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md): The desktop editor is the main platform you’ll use to create in Worlds and it contains most of the main tools you’ll be using. Check this out to get to know what’s available and how best to use it.
 * [Scripting](https://developers.meta.com/horizon-worlds/typescript/getting-started/using-typescript-in-horizon-worlds): Scripting in Worlds gives you a way to write scripts more efficiently using traditional programming processes and tools. Click [here](Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md) to learn more about TypeScript.
 * [Code blocks and gizmos](Gizmos/About%20gizmos.md): The desktop editor provides you with a series of dynamic helper tools, called *gizmos* that enable you easily add interactivity to your world.

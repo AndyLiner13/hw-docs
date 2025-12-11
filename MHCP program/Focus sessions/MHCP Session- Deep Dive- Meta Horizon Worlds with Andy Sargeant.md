@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # MHCP Session: Deep Dive: Meta Horizon Worlds with Andy Sargeant
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_1923704104725451_4516273454553345534_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=6500a6&_nc_ohc=QbNrtG7iK9oQ7kNvwGPqUYY&_nc_oc=AdkPof5M3eVhkpNsW67okWpHUPQCRKuadD5AD2uG700_djFu4n6aWF8EInoI8xBnxtM&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=XCy3z0purr0Vqo6HEZmuZQ&oh=00_AfnF_RT6vUqW7HToY8Z0O-ijHwB4ZQidlfBSJIZEZ3HzOA&oe=69375D45)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_1923704104725451_4516273454553345534_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=6500a6&_nc_ohc=UV9QWEALol0Q7kNvwFTo8Wr&_nc_oc=AdnKLRmSrD9FPcRIFs-1BLVvVOgkjO05dlq3D9gubjKXG2XPTqbFwiluFego2SAURf558LHT0AYVSxEq4sKlAM2s&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=YIpYNDUxON-fPbmYNvi4fg&oh=00_Afn2SIMqPhvgUPIwYFyTstBcVTgOxDBtW4oqXl-1La8K9A&oe=69410845)
 
 Join Andy Sargeant for a comprehensive workshop on adapting your worlds for web and mobile platforms. This session will cover the fundamentals of setting up or modifying an existing world and launching it for screen-based experiences.
 

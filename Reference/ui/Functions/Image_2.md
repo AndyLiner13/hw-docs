@@ -24,4 +24,4 @@ A `UINode` object representing the Image component.
 
 ## Remarks
 
-You can use the [ImageSource](../Classes/ImageSource.md) class to define the source of an image asset. For information about usage, see the [Image from Asset](../../../Tutorials/Custom%20UI%20Examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md) section of the Custom UI Examples tutorial.
+You can use the [ImageSource](../Classes/ImageSource.md) class to define the source of an image asset. For information about usage, see the [Image from Asset](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/tutorial-worlds/custom-ui-examples-tutorial/station-2-image-from-asset) section of the Custom UI Examples tutorial.

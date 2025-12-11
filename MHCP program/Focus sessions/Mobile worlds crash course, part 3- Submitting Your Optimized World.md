@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # Mobile worlds crash course, part 3: Submitting Your Optimized World
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_911439580972904_3421646507249018857_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=0In9a0YIqC8Q7kNvwFfsycg&_nc_oc=Adnu6loYVgNEjtxv1PnadUoaPbimqSMc_4XUj9_ptwiuweUIXpmJkTpYYW1W7b2BrgQ&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=bMklJWzSs7l0G_kVJMIRQg&oh=00_AfmP1iEe2O6alqJ_JAqNZo4qrjtkL78LyZwRxs0u9VETjw&oe=69375778)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_911439580972904_3421646507249018857_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=I8ZikGdlYA0Q7kNvwFcc0I0&_nc_oc=AdmhhTsRCkS-JW07OIaUMNCgJqsRSfACIsnw3cM0QE4jcV3GYPCLZcLnafBK7fOFSG06VNCzwC7g01SyW5wEToDI&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=BFSAMQjgH_b1Xou6MHHhWg&oh=00_AfkdFjVpVK_68nQdwUh8RIVj3esYeOyFShLy-s1cviPhCw&oe=69410278)
 
 Learn essential steps for successful mobile submission, including:
 

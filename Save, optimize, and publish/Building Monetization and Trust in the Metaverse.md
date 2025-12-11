@@ -8,7 +8,7 @@ A trusted and profitable digital economy in the metaverse depends on three core 
 - Ensuring a clear and valuable exchange for in-app purchases (IAP).
 - Establishing robust safety nets that protect players and reassure parents.
 
-![Graphic depicting the flow for building monetization trust](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/559526772_829820546222565_4029383624387910230_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=8oRtHThupPMQ7kNvwF0e6qu&_nc_oc=AdlqOCqEKu_buKcDrK1hPXUENg8dfkDn7F2r9ZPbSatL6Bvg7ZfLN0ttLoIV_xyc3y4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=wIbf4gH1D6tfFKZL5pk2PQ&oh=00_Afn9ObNBvoNjl1WalOKJDtptPfZNYIZQ9ibDc73CD93gOQ&oe=694BBC0D)
+![Graphic depicting the flow for building monetization trust](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/559526772_829820546222565_4029383624387910230_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=DbEQmdiITWEQ7kNvwGlpcBS&_nc_oc=Admc4XlEBCS1O2w8v3WExxCfNA9sgzF7ALAOTKOQ2hYCVTAEYjUNCIFdVp5zJ84qKe6fPZfIGVhSDhkgXyZoOj0y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ejn1WO-XDZ-tyh2KU1J6Qw&oh=00_AfmSL_CrQDttn25I6UmSt8vmDlBljO7uDrvqNuDMw7LqHQ&oe=69559F4D)
 
 ## Engagement is paramount
 

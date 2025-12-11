@@ -8,33 +8,7 @@ Custom UI controls is an extension of custom UI with the **Input Mode** set to *
 
 This input mode is primarily designed for creating a set of custom on-screen controls to work alongside or replace the built-in system controls on mobile.
 
-<details>
-<summary>custom_ui_controls_in_kaiju</summary>
-
-<p></p>
-
-[custom_ui_controls_in_kaiju](../../../../images/output/img_20251211_025903_20251211_025903.md)
-
-### Overview
-This image depicts a vibrant, animated urban environment within a video game. The scene features a character standing on a rooftop, holding a weapon, with various interactive elements and UI components overlaid on the screen. The backdrop includes a cityscape with buildings, some of which have distinctive architectural designs, and a clear blue sky with scattered clouds.
-
-### Key Elements
-- **Character**: A person wearing a white shirt and blue jeans, viewed from behind, holding a green gun. Positioned centrally in the foreground.
-- **Buildings**: Various multi-story structures with different facades, including a traditional-style building with red and gold accents. Buildings are detailed with windows, doors, and other architectural elements.
-- **UI Elements**: 
-  - **Action Buttons**: Circular buttons labeled "Fire!", "Jump!", and "Dash!" appear at the bottom right corner.
-  - **Special Effects**: Blue energy beams and debris are scattered around, suggesting recent combat or destruction.
-  - **Foreground Objects**: A large, broken piece of debris is in front of the character, indicating recent action.
-- **Background**: A bustling cityscape with numerous buildings, some with unique designs, and a clear blue sky.
-
-### Visual Flow / Relationships
-The character is the focal point, with the action buttons positioned for easy access. The blue energy beams and debris suggest dynamic gameplay elements, with the character likely engaging in combat or exploration. The buildings provide a sense of scale and environment, while the scattered debris implies recent activity.
-
-</details>
-
-<p></p>
-
-
+![custom_ui_controls_in_kaiju](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/465167356_579437347927554_7916055051400203269_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=aDM7xSEIye0Q7kNvwEFXQZn&_nc_oc=AdmMv4HAOefg4Cf_yHQxFDMBjYFAW9jzeDHLz3MxV6n0xzRF7_ic4om_bImZMZ3V9_AJtnki8TTJVfm3J_hIaOgs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=fkBNfZSZdFOn1gQgUmR_9Q&oh=00_Afl49ug1_5FBSVxcrZ6InHweWblcZ8UGSKf9_jFxOHWqcg&oe=69557AF2)
 
 ## Getting started
 

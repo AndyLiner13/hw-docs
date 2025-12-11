@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # MHCP Q&A Session: Game Design with Andy Sargeant
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/10000000_996283602039240_2600638972506614805_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=VppoV9rIPo4Q7kNvwET9Yxi&_nc_oc=AdnWtO-L4yOL5RB8pkE9ra1LGJp0fer1__OSZChzRwfW31IoCVUDuyxeTlVex5rIl9E&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=cBkYJFvX9OZ7pE5wNAGCxw&oh=00_AfkLs-hO1alhatMYXkA0-Lug-Xp7qX0Buout_yiNpQmQfA&oe=69376B7D)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/10000000_996283602039240_2600638972506614805_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=bITQar8MlB8Q7kNvwGRCy_t&_nc_oc=AdmYfey_oair4QP6Dz9SlZEQK7q4GtdK89YHjD_ppjB4J_389YdNPK5tZdYqWz3SxltQqKSKS6T3fJL1koSYUZAL&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=3Ey5CIvCHk5jnX1uNhixyA&oh=00_Afl6rODT13rP3qH43PuwLVDbpNGJuDvl4Y49KHktOuk6Uw&oe=6941167D)
 
 Join us as our Meta game design expert Andy Sargeant as he answers your questions related to his recent session on game design in Meta Horizon Worlds.
 

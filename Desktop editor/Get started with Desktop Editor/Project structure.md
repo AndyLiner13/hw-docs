@@ -8,7 +8,7 @@ Snapshots of your worlds are backed up to the cloud at regular intervals for con
 
 ## Worlds
 
-Projects in Meta Horizon Worlds are organized around *worlds*, which are comparable to Places in Roblox, scenes in Unity, or maps in Unreal Engine. Each world contains its own specific environment, objects, scripts, and [user interface](../Custom%20UI/Create%20a%20custom%20UI%20panel.md). You can create your own world and see these components in action by following the [Create your first world tutorial](../../Get%20started/Create%20your%20first%20world%20tutorial,%20part%201.md).
+Projects in Meta Horizon Worlds are organized around *worlds*, which are comparable to Places in Roblox, scenes in Unity, or maps in Unreal Engine. Each world contains its own specific environment, objects, scripts, and [user interface](../Custom%20UI/Create%20a%20custom%20UI%20panel.md). You can create your own world and see these components in action by following the [Create your first world tutorial](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md).
 
 Every world is organized into a [hierarchy](../Hierarchy%20window/Hierarchy%20panel%20overview.md) of objects that represents everything in that world. By default, this hierarchy is visible on the left side of the desktop editor. Proper, intentional organization and management of the object hierarchy is essential for managing large scenes full of complex objects.
 
@@ -39,7 +39,7 @@ You and your collaborators can edit your world together in real-time, and can se
 
 ## Testing
 
-You can instantly [test your world](../../Tutorials/Getting%20started%20with%20tutorial%20worlds/Test%20Your%20World.md) in desktop editor by clicking the Play button to enter [Preview mode](Preview%20mode.md). Your avatar is dropped into the world’s spawn point, allowing you to explore and interact with the world to test various aspects of it. Preview mode also allows you to test how your world looks and feels on the various devices that support Meta Horizon Worlds.
+You can instantly [test your world](../../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Test%20Your%20World.md) in desktop editor by clicking the Play button to enter [Preview mode](Preview%20mode.md). Your avatar is dropped into the world’s spawn point, allowing you to explore and interact with the world to test various aspects of it. Preview mode also allows you to test how your world looks and feels on the various devices that support Meta Horizon Worlds.
 
 You may also choose to enable world simulation without entering the world yourself; this initializes all entities in the world, runs all active scripts, and starts the physics simulation.
 
