@@ -151,7 +151,7 @@ For additional information on doing this, see [Preview](/hw-docs/Desktop%20edito
 - Rotate the walls 180 degrees and line them up with the backside of the gate. Now you have an enclosed graveyard.
 
   ![Rotate the walls 180 degrees](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480303210_670883468782941_9044902028404479957_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=D6vyYK1xUoMQ7kNvwFet-M7&_nc_oc=AdlMFdBz2dHLEjOGqJW7fIsQZmxSCKuBBmvfhgW7OcMsmuEn87KkElfRvtldEuKPfko&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=c_mDQ2lUiB2_eLdFRsJFtQ&oh=00_AfkzbGaU5y0UcLkw3DSeImJFUBgVIXx0P5YSMka54T_YUA&oe=6953FB4C)
-- Use the other assets in the world to finish creating the graveyard. Feel free to get creative and add objects from the [asset library](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/using-asset-library).
+- Use the other assets in the world to finish creating the graveyard. Feel free to get creative and add objects from the [asset library](/hw-docs/VR%20tools/Getting%20started/Use%20the%20Asset%20Library%20in%20Meta%20Horizon%20Worlds.md).
 
   ![Add other assets to finish the graveyard](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480964798_670883482116273_7936198911651044981_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=9njLIwfKk9wQ7kNvwEtXQXq&_nc_oc=Adkpw47lwtsEar9kD5JDfNEc9mo88i491868QGW_5EQzeTLU8JbrHy5oHn_g1n0teKQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=c_mDQ2lUiB2_eLdFRsJFtQ&oh=00_AflC1xGVX8xph_V5_UnzSTHjrs1yNNLQBj-Qu8f9J6JImQ&oe=69540D3B)
 

@@ -35,6 +35,15 @@ Keyframes use specific classes that replace From/To properties with a Keyframe c
 * **Spline keyframes** - Defines motion as a cubic Bezier curve using a KeySpline property, allowing of custom, non-linear timing control
 * **Discrete keyframes** - No interpolation occurs; the value changes instantly at the specified time
 
-## Additonal resources
+## Process Storyboard Animation End Event
+
+Sometimes creators may want to add specific action at the end of an animation. To do so please follow steps in the Noesis Studio:
+
+- Open **Interactivity** tab in the left toolbar
+- Select desired component and press plus icon to **Add trigger**
+- Select **Storyboard Completed Trigger** to handle end of animation state. ![Noesis animation tutorial panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594016181_880045787866707_1116802637052352730_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=VUhzld_YnogQ7kNvwFkFDrs&_nc_oc=AdkQjhnJBlsZ8gdPfX696jYS9CWWsqC4Ke3OHsa_cJy43-cAjVdhkuckaKJ1_UsrSTM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pR_j7MMKepwJXWZE8EHiTA&oh=00_AfmI9T_74RJRrsDVQFYE9iDN2E5miBVNN3akHOA9LOv7ng&oe=695454B2)
+- In the properties panel on the right add **InvokeCommandAction** in the **Actions** section and select a desired command. ![Noesis animation tutorial panel](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/594976077_880045784533374_5601497425012940037_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=0ABMJcuhSZ4Q7kNvwElch8M&_nc_oc=AdkgDdjMEqq-iPrVhCrjH3pclATkH9xp90alkbD7zCPNP7Pdnk5yEK43iVcMIj1VOGA&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=pR_j7MMKepwJXWZE8EHiTA&oh=00_AfkQ6P_XNqeZmkps-tHrNRbWPQbC2IUq0N_qIuwiLGhNlQ&oe=69545CBF)
+
+## Additional resources
 
 For more information about Noesis UI animations, see the [Noesis UI documentation](https://www.noesisengine.com/studio/) and check the [NoesisUI Animation Tutorial](https://www.noesisengine.com/docs/Gui.Core.AnimationTutorial.html).

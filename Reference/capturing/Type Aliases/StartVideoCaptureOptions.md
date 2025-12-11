@@ -2,6 +2,9 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_sta
 
 # StartVideoCaptureOptions type
 
+> Warning: This API is now obsolete.
+> This module is deprecated and will be removed in a future version.
+
 The options for the method.
 
 ## Signature
@@ -17,8 +20,8 @@ export declare type StartVideoCaptureOptions = {
 
 ## References
 
-[CameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/CameraMovementPreset.md), [VideoCaptureNotifications](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Enumerations/VideoCaptureNotifications.md)
+[CameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/CameraMovementPreset.md), [VideoCaptureNotifications](/hw-docs/Reference/capturing/Enumerations/VideoCaptureNotifications.md)
 
 ## Remarks
 
-[DefaultStartVideoCaptureOptions](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Variables/DefaultStartVideoCaptureOptions.md) specifies the default options.
+[DefaultStartVideoCaptureOptions](/hw-docs/Reference/capturing/Variables/DefaultStartVideoCaptureOptions.md) specifies the default options.

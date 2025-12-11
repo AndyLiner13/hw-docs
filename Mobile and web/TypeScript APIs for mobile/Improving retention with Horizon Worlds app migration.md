@@ -8,7 +8,7 @@ Encouraging users to transition enables them to access richer content, participa
 
 This feature allows creators to **influence time spent and user retention** in their worlds by **rewarding users who switch to the Horizon app**. Horizon app users have better return rates because they experience a consistent entry point, better visibility of metaverse offerings, and Horizon-focused social features.
 
-![App migration upgrade offer UI](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/582202036_865015572703062_7049078428565750275_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=TvoXh5nmRCYQ7kNvwFAWTv5&_nc_oc=AdnRQvmQMMggtnQvKWypEKQvOPfa2UV-52ugth6EKpYfAfTpSJUYh0xRCmIrjIT2Igc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z-Htp9x-hr3ARjKjJFEfLA&oh=00_AfmbQsuFzdqlRt_IWYCLRytEoRoBoJCi9CjbAWvCKIXKPw&oe=694BBA71)
+![App migration upgrade offer UI](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/582202036_865015572703062_7049078428565750275_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=bLfkfN-6krMQ7kNvwGLkgoD&_nc_oc=AdmynZUIvmFkuLzPOMmu1DsQOHMypgjoxbVopbAY9_mOCm1yMDvsj98E1-LukANn0uU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=asOuntxYGoGnTwi_hWn-YA&oh=00_AfkgjOnOgiMN-YvOJcZuGvWax1xfWhWU8q5JLFH8F-6b2g&oe=69544C31)
 
 ### Feature eligibility
 
@@ -39,19 +39,15 @@ Warning
 
 Some advice on what and when to offer migration to a new user.
 
-- **Show the offer when a user will understand why the reward is desirable.**
-  Surfacing the migration offer at the right time increases engagement when the user can connect the reward with something they want to achieve in the game. Consider showing it after they’ve seen your in-game shop for the first time or after a certain amount of playtime.
-- **Be specific about what the reward will be.**
-  Tell the user exactly what they will receive for completing the app migration. Use colorful imagery to catch their attention.
+- **Show the offer when a user will understand why the reward is desirable.** Surfacing the migration offer at the right time increases engagement when the user can connect the reward with something they want to achieve in the game. Consider showing it after they’ve seen your in-game shop for the first time or after a certain amount of playtime.
+- **Be specific about what the reward will be.** Tell the user exactly what they will receive for completing the app migration. Use colorful imagery to catch their attention.
 - **If at first you don’t succeed, try and try again.**
 
   Re-offer the migration to eligible users periodically, as they might change their mind after spending more time in your world. However, be careful not to annoy them.
-- **Make the reward claim a positive action.**
-  Ensure the user knows they have successfully completed their journey by providing a simple action to claim their reward upon completing migration. This reconnects them with the offer and could inspire them to seek out other rewards in your world.
-- **Be creative.**
-  The rewards and manner in which you present app migration to visitors is completely up to you. Rather than using a 2D UI panel with buttons, you could use in-world text and trigger volumes.
+- **Make the reward claim a positive action.** Ensure the user knows they have successfully completed their journey by providing a simple action to claim their reward upon completing migration. This reconnects them with the offer and could inspire them to seek out other rewards in your world.
+- **Be creative.** The rewards and manner in which you present app migration to visitors is completely up to you. Rather than using a 2D UI panel with buttons, you could use in-world text and trigger volumes.
 
-![Welcome back rewards claim screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581715000_865015569369729_7470897419061814929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=n9ih1CYr2JoQ7kNvwF8e5qz&_nc_oc=AdkGrnHip1uWv7XvRU78S86d0_adTisR2rjWblR8wVCHgr8ubAsNnWkQ9gLQkcJlgUY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Z-Htp9x-hr3ARjKjJFEfLA&oh=00_Afng0LyfJFR5Q4RnO6JoBqCbK0inkT8ZIMiRrcrH_xEjJw&oe=694BD55F)
+![Welcome back rewards claim screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581715000_865015569369729_7470897419061814929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=5be0mZthrH4Q7kNvwF5WvzI&_nc_oc=Adk_D77r4aFOfKDon3F101_lMD1DX3pUZl1AdbI385MwnXhJgHsh5PktqM8aGPzCuyk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=asOuntxYGoGnTwi_hWn-YA&oh=00_AfnurmLmTyIa3BRdj_7L9LakNbKdQQu9MguCX1qYy6BOsQ&oe=6954671F)
 
 ## Enabling the Migration Module
 
@@ -59,7 +55,7 @@ Some advice on what and when to offer migration to a new user.
 - Click the cog icon to open **Script Settings**.
 - Navigate to the **API** section and enable `horizon/migration`.
 
-![API Settings (808x412px)](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/571286590_850327374171882_228439192796093506_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=7413S4Yy1AsQ7kNvwGFLaYT&_nc_oc=AdkC93tOw491bcEssvi-M_FjaZ3Pc6CqYVXV3_4lmfadt6T7K4ORGYxMHkcyfhVpZrI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Z-Htp9x-hr3ARjKjJFEfLA&oh=00_AflB8Eps71vmML3NfLntvOGfgLvUgn_7MpZnJzpsY8TTXg&oe=694BD2AF)
+![API Settings (808x412px)](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/571286590_850327374171882_228439192796093506_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=h5G5hT1x8qkQ7kNvwHKcqp1&_nc_oc=AdnRFvB6Po2AX8GF4WoXY8vBH5e2qm5ja-57z4YILAoyJE2tYUquJe988lrkWG2trX4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=asOuntxYGoGnTwi_hWn-YA&oh=00_AfmZFenupInY6ygo54Jl93nrROoM1KmerLi1xtFDnZx3sg&oe=6954646F)
 
 ## Setup
 
@@ -68,7 +64,7 @@ Some advice on what and when to offer migration to a new user.
 The Migration module is an extension of the player class, so it can be imported as such:
 
 ```
-import { PlayerMigration } from 'horizon/migration';
+import {PlayerMigration} from 'horizon/migration';
 ```
 
 ### Create PlayerMigration from Local Player
@@ -96,7 +92,7 @@ Migrations are performed from Meta’s Family of Apps (e.g., Facebook or Instagr
 To ensure you call the migration on the correct platform, get the current App Platform by calling the following API:
 
 ```
-this.migratingPlayer.mobileAppPlatform.get()
+this.migratingPlayer.mobileAppPlatform.get();
 ```
 
 This will return one of the following:
@@ -105,15 +101,15 @@ This will return one of the following:
 /**
  * The player is not on a mobile device.
  */
-NOT_MOBILE = "NOT_MOBILE",
-/**
- * The player is playing through the dedicated Meta Horizon app
- */
-META_HORIZON = "META_HORIZON",
-/**
- * The player is playing through other Meta Apps like Facebook or Instagram.
- */
-META_OTHER = "META_OTHER"
+((NOT_MOBILE = 'NOT_MOBILE'),
+  /**
+   * The player is playing through the dedicated Meta Horizon app
+   */
+  (META_HORIZON = 'META_HORIZON'),
+  /**
+   * The player is playing through other Meta Apps like Facebook or Instagram.
+   */
+  (META_OTHER = 'META_OTHER'));
 ```
 
 **NOTE:** You want to look for `"META_OTHER"` to know the player is playing on one of the Family of Apps to be migrated to Meta Horizon App.
@@ -127,7 +123,10 @@ The **migration ID** allows you to filter migrations if you have multiple migrat
 The **destination world ID** specifies a different world for the player to migrate to if you don’t want them to migrate to the current world they’re playing in the Family of Apps.
 
 ```
-let migrated = await this.migratingPlayer.migrateToHorizonApp({migrationIdentifier: `testId`, destinationWorldId: this.world.id.get().toString()});
+let migrated = await this.migratingPlayer.migrateToHorizonApp({
+  migrationIdentifier: `testId`,
+  destinationWorldId: this.world.id.get().toString(),
+});
 ```
 
 You can await the API call results to return a **`Promise<bool>`** indicating whether the call was successful.
@@ -139,8 +138,10 @@ A successful call sets the migration ID for the player and target world (destina
 Once a user has migrated to the Meta Horizon app (**`META_HORIZON`** on the `mobileAppPlatform` check), you can call the API to get the player’s migration data.
 
 ```
-this.migratingPlayer.getMigrationData().then((migrated) => {
-  console.log(`migrated data: ${migrated.migrationIdentifier} | hasMigrated: ${migrated.hasMigrated}`);
+this.migratingPlayer.getMigrationData().then(migrated => {
+  console.log(
+    `migrated data: ${migrated.migrationIdentifier} | hasMigrated: ${migrated.hasMigrated}`,
+  );
 });
 ```
 
@@ -159,9 +160,19 @@ this.migratingPlayer.getMigrationData(autoRewardPlayer: true)...
 Use this if you want to perform extra steps between getting the migration data and fully finalizing the flow.
 
 ```
-this.migratingPlayer.setMigrationComplete().then((migrated) => {
+this.migratingPlayer.setMigrationComplete().then(migrated => {
   console.log(`migration completed: ${migrated}`);
 });
 ```
 
 This completes the player migration flow.
+
+## How to Test
+
+To test the app migration flow, access your world through the Facebook app to simulate the real user journey.
+
+- **Publish your world** and set it to publicly available.
+- **Open the Facebook app** on your mobile device.
+- **Open the hamburger menu** and tap **Games.** If you don’t see it, tap **See more** first.
+- **Find your world** in the **Jump back in** section.
+- **Enter your world** and trigger the migration offer to test the complete flow.

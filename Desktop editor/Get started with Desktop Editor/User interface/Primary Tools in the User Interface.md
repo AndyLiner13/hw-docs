@@ -49,7 +49,7 @@ The Desktop Editor provides you with a large palette of tools to work with, occa
 
 The final step in releasing your world to players is to publish it. To release your world click the **Publish** button.
 
-For more information, see [Publish Your World](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-a-world-in-horizon/).
+For more information, see [Publish Your World](/hw-docs/VR%20tools/Publish%20your%20world%20using%20VR%20tools.md).
 
 ## World simulation toggle
 

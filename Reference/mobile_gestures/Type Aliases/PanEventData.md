@@ -14,4 +14,6 @@ export declare type PanEventData = TouchEventData & {
 
 ## References
 
-[TouchEventData](/hw-mcp-tools/documentation/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchEventData.md)
+[TouchEventData](/hw-docs/Reference/mobile_gestures/Type%20Aliases/TouchEventData.md)
+
+Sponsored

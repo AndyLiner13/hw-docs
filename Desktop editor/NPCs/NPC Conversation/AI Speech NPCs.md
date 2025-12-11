@@ -36,7 +36,7 @@ To create and configure an AI Speech NPC, use the following process:
 - Once your script is named, click Create and attach it to your NPC. Once attached, you can select the script in your NPC’s property panel, click the three dots, then select Edit script.
 - Your newly created script will open in your linked code editor. This new script’s default behavior will be speaking when the world initially starts. `elicitResponse()` takes an instruction for the NPC to respond to. You can find more examples of scripted NPCs in the NPC section of the asset library.
 
-### Backstory
+## Backstory
 
 The NPCs backstory should be a condensed version of the character that includes core personality traits. The NPC’s backstory is included in its entirety in the prompt for the AI Speech NPC, so it’s recommended that you keep it simple. Too much detail in the backstory has been shown to water down the character’s performance rather than reinforce it, after a certain threshold. Make sure to also check the spelling of the backstory, as unintentional misspellings can negatively affect GenAI outputs.
 
@@ -72,15 +72,45 @@ Guardrails are also useful for establishing hard rules around your NPC’s behav
 | If [NPC name] has the player’s name, he will occasionally refer to players by their name, but not in every response. | If NPCs start new conversations, they may not be aware of how many times they’ve said a player’s name (nor how annoying that might be). |
 | [NPC name] expresses their emotions through their face, their voice, and the things they say. | This can reduce the number of times an NPC tries verbalizing actions. |
 
-### Voice and Speech
+## Voice and Speech
 
-Voice is how your NPC sounds when speaking. After naming your NPC and selecting **AI** for the conversation type, you can select the **Voice and Speech** tab to view the available voices.
+Voice is how your NPC sounds when speaking. After setting your NPC’s conversation type to **AI** and naming your NPC in the **Character Description** tab, you can selecting the **Voice and Speech** tab to begin configuring your NPC’s voice.
+
+In the **Voice and Speech** tab you can either select a preset voice from the **Voice Library** or select **Generate voices** to generate a voice for your NPC.
+
+### Voice Library
+
+The **Voice library** is a collection of voices that can be assigned to your NPC.
+
+![Voice selection window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581815799_862928519578434_4376748016963998332_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=_hrrRARFn1IQ7kNvwG6TcH9&_nc_oc=AdkMGHxHJM1Bcx-1iir7vWgaYY6_Z8ByJK3upsz5NOUYDi1caoK8fgiTv3kgX6Cye94&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_Aflfra8ZSEoRT3iA_uAyd0evgTMMYcueRkS-gEfbw-t74w&oe=69543B0D)
 
 You can use the search bar to search the **Voice library** for a specific voice and filter the results by **Gender** (Male, Female, or Nonbinary), and **Tags**. After finding a voice you’d like to use, you can use the right panel to preview the voice and alter it’s **Properties**. You can update the **Speed** and **Pitch** of the voice, and use the **Voice test phrase** window to provide text for the voice to speak allowing you to preview the voice.
 
-![Voice selection window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581815799_862928519578434_4376748016963998332_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4Su0JMVRByUQ7kNvwEttMRy&_nc_oc=AdnVaYOlr1Vnofm3QvMcPbCdi0YzMzYNxQp6PaoAxqH3t7CS8bOnmvm3Calx26aINps&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=qLWdx-2fkEZ0XcaLwVqB6g&oh=00_Afk2Bib15-zwXoQUQILZxSQ1Lf7dpHR8VLl24BvG6LFB-w&oe=694BE18D)
+Once you’ve selected a voice from the library, and adjusted it appropriately, click **Assign** to apply it to your created NPC.
 
-Once you’ve selected a voice from the library, and adjusted it appropriately, click **Save** to save the voice and apply it to your created NPC.
+Additionally, any generated voices will appear in the **Voice library** and can be selected and used in the same way as the preset voices once they’ve been generated.
+
+### Generate Voices
+
+You can select the **Generate voices** option to generate an AI voice for your NPC.
+
+![NPC voice generate window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594535982_880779667793319_6260597479868965753_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=I4fTqSdBtVoQ7kNvwFdPrvX&_nc_oc=AdmlemyLfjX-jGRdgLgep2y47H5ZTgdVj80K47xtjF6jCRWIf0t5-KHFevv7_ZK3LNA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_AfnwsMMW9zp99RvIrOGecGrxZ6qqcd7iwrQy0HPPkeUXKQ&oe=6954620B)
+
+The **Generate voices** tab offers a variety of prebuilt prompts to help you generate a voice for your NPC. You can also use the text box to create your own prompt by describing the tone, pacing, and personality of the generated voice.
+
+Once the prompt is input into the field, click **Generate** to begin generating voices. Once finished you will be presented with 2 options.
+
+![NPC voice generate options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/595787575_880779664459986_1897033345219005343_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=6z7rrj23ZvkQ7kNvwEyc5yf&_nc_oc=Adnussq08Xivx2rcl9AlU0efMafe-0o4rrJRry6u4JWg97YEIW3eVhO3hDFJ_Hm0KkE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_AfkiYUexFb_KfQUQnOgoSdhSJOzByQ63ho41gDJSQhQeDw&oe=69543EFF)
+
+Click the play button next to the option to have the voice read the text in the **Voice test phraase** box. You also can alter the voice’s properties to dial in the generated voice to your preference for the NPC.
+
+Once your generated voice is ready, click **Save to library** and give the generated voice a **Name**, **Description**, then set its **Gender** and any **Tags** you want associated with the voice. When finished, click **Save** to save the generated voice.
+
+![Save generated NPC voice](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/594662600_880779674459985_8980570193491485826_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=qu50zAP5wCMQ7kNvwGYdCaS&_nc_oc=Adnfyw2g7r_lWG6OtThKNk6PwFoev_TdgcHCp23YMVrYIpC9jMbOYZMcarexKqCapgo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_Afl7zbRRTh4ZViaSH7-ad7qrXVnKm0fMxuEFNx3I51mLcg&oe=69545EC7)
+
+Your generated voices will appear in the **Voice library** tab in the **Generated voices** section. You can have up to 10 generated voices per world saved and available at a time.
+
+![Saved generated NPC voice](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/594519743_880779671126652_5423770805525811616_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=OV17TeV8MJIQ7kNvwG3ib6i&_nc_oc=Adlz7tO4PIHoANtUyTUT-AMDhYfYAa6FofSms6dNqmNp2chExFrQlPuUTlO54dx9L3o&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=eV6AX1OcyBBJA5sQR2-fXg&oh=00_Afl2YvJtHov7dcDl2jKJsDVdx1dMsNZBNAjmdTOLHG4pqg&oe=69546AEA)
 
 ## Event Perceptions
 

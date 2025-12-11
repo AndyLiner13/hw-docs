@@ -130,3 +130,64 @@ Choose the appropriate display mode based on your use case:
 * **Spatial Default** is better for world-integrated UI that multiple players may see
 * **Screen Overlay** is better for player-specific information and HUDs
 * Screen overlays typically have lower performance impact than spatial panels
+
+## API methods
+
+### `setLocalEntityVisibility`
+
+`setLocalEntityVisibility(visible: boolean)`
+
+Controls the visibility of a Noesis UI entity locally for the calling client only. This does not affect visibility for other players and is useful for shared script mode, where each player can independently show or hide UI elements.
+
+```
+// Get the Noesis UI entity and hide it locally
+const noesisUI = world.getEntityByName('MyNoesisUI') as NoesisGizmo;
+if (noesisUI) {
+  noesisUI.setLocalEntityVisibility(false); // Hide for this client only
+  // Later, show it again
+  noesisUI.setLocalEntityVisibility(true); // Show for this client only
+}
+```
+
+Keep the following in mind when using this API:
+
+* Changes are not synchronized across clients
+* For network-synchronized visibility, use `setVisibilityForPlayers()` instead
+* Only works on NoesisGizmo entities
+
+### `changePage`
+
+`changePage(xamlFile: NoesisAssetResource, dataContext?: IUiViewModelObject): boolean`
+
+Dynamically switch the displayed XAML page in a Noesis panel. The XAML file must exist in the loaded Noesis asset. Optionally set a new data context for the page.
+
+```
+// Get the Noesis UI entity and its asset
+const noesisUI = world.getEntityByName('MyNoesisUI') as NoesisGizmo;
+const asset = noesisUI.getAsset();
+if (asset != null) {
+  // Get a reference to the XAML page
+  const settingsPage = asset.getResource('SettingsPage.xaml');
+  if (settingsPage != null) {
+    // Change to the page, preserving the existing data context
+    if (noesisUI.changePage(settingsPage)) {
+      console.log('Page change initiated successfully');
+    }
+    // Or change with a new data context
+    const newContext = {title: 'Settings', version: '1.0'};
+    noesisUI.changePage(settingsPage, newContext);
+  }
+}
+```
+
+Keep the following in mind when using this API:
+
+* If `dataContext` is provided, it replaces the existing context; otherwise, the current context is preserved
+* Returns `true` if the page change was successful, `false` otherwise
+
+### API summary
+
+| API | Purpose | Example |
+| --- | --- | --- |
+| `setLocalEntityVisibility` | Show or hide UI locally for this client | `noesisUI.setLocalEntityVisibility(false)` |
+| `changePage` | Switch XAML page, optionally set data context | `noesisUI.changePage(settingsPage, newContext)` |

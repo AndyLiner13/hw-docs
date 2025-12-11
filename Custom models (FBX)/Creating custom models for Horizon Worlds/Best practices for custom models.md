@@ -31,7 +31,7 @@ It is important to plan your topology to support different lighting scenarios. I
 
 **Solution:** The meshes in the bottom example solves this problem by adding in a vertex in the center of the cube sides where it intersects the bar to define the shadow. It places support loops on the center bar to define which area is in the light.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452945192_512500654621224_1117938882276573410_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=SZjQZzBTV-MQ7kNvwFLaUMs&_nc_oc=AdliStuW01spvqG6KLBTMMA-BOGnsQUQSEinke6h3kxGX5U7j-HIT9slw_fVKXX3Tws&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_Afk5yKrqOm-EsKiyeYScN7ysvXvvg0OmFse0Lad7YTeE9A&oe=694BD671)![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452816787_512500667954556_7310310293534084824_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Zv-wMIRb0RUQ7kNvwGVhlsx&_nc_oc=Adl7Up42Nfj_T8i1SdZhl9fNRtf5252POg4X4dYP__IueVpDnOtrvvB3pMD5NqdFnL0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_AfkLVYsj7FV5qGtwslUNjxQNNTA1bmUGvYTSedBcNoNuYQ&oe=694BBEFE)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452945192_512500654621224_1117938882276573410_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=sMd9Ay9GfNgQ7kNvwF-JAmV&_nc_oc=Adl1xS3mMud0wSkCguy1KPcQFGybz8oxgYLcQMR0mABmBtdQXVVf0WhCnG7EW17eXeo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_AfnqvWAtSZCRD4T4DyiHd6A9iQnsl2wpiOZwEyGqCOUyjg&oe=69546831)![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452816787_512500667954556_7310310293534084824_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=plVgUzVuRQAQ7kNvwG1cTyw&_nc_oc=AdkoF13Wy67w9rO2Uqgeb5gSi4JurdWglA1bTimlN73WDiwVNje5XW3mIbqhP68zs6o&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_Afnv-X0sE04FfVA5m2EN_Z7cOWGzBRJsabN15nErA62xHA&oe=695450BE)
 
 ## Scale
 
@@ -41,7 +41,7 @@ Build objects on real-world scales. Make sure that when you export your FBX, the
 
 **Maya** - There is a known scale issue where models will come in at the correct size but will have their transforms set to 0.01 scale.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452816154_512500651287891_9110139022826988635_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=fAqW2SXuZLsQ7kNvwHWxXDu&_nc_oc=AdlP66w24G7Ff9_1sI1oGBW_PvI1UMZk4k8GeiygK_j9r9rOUawzSeW03oykyVSDKbM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_Afm8ylAd-G0AKL5p3Mr2xjpknarcFBG65CpZDVZJF00xmA&oe=694BC59F)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452816154_512500651287891_9110139022826988635_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=sOltP0yoKSQQ7kNvwEnsQZB&_nc_oc=Adk5tDsNdrhihmXDeSFbs63qBjps0JdPUYqIqesCGjRXMkaC3BSywwqBQM2bw4sq0Hs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_AflJ0CSKIdXyuWymCMtzkUmrxRlU98ke2gPhiHYfuD0L2g&oe=6954575F)
 
 ## Pivots
 
@@ -57,7 +57,7 @@ Consider breaking your asset into pieces if those pieces would be useful for rem
 
 **Maya** - Prior to exporting from Maya, you should group your kit, then arrange it in a way that is convenient to see and access all of the items in your kit. We recommend that the history is deleted and the transform is frozen.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452915469_512500647954558_2366646221517633934_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=KUjocZAOGpUQ7kNvwFtrN9J&_nc_oc=AdlDdNrBI2x7rY4zos2_rzen9yfsDh9FxtdOhuU48wTb2g41Qs3ROtFdLkuPJiJRNck&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_Afkplu6VqPAunkhNcz9IKVHxPs8XmY3-nlbGu6VLCoV3Yg&oe=694BC6D6)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452555349_512500607954562_5062833201515023605_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=DNQX911otiQQ7kNvwHXXOKj&_nc_oc=AdmHIBsaqaTARDIXyR_nUslzfQ2aab47H3akSodNtBwogp57nd632qQfmNXUX587o3Q&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_AfmET0Dm7CkS36f0Xh6pNe6CtEmSBTRLswcic5KVHNR37A&oe=694BB7F8)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452915469_512500647954558_2366646221517633934_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=U9jYx901O6wQ7kNvwHbjYpL&_nc_oc=Adkq2HptyryQsF4PqDaYcW9xdl7ty0khFSmXKxn8C6vZ04S2SfxxhMhQymT-WseR4Pc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_Afk0x0q1CyxCfxmsFLrnH0YVjzMZAc4lQBE7adPK0j4D_Q&oe=69545896)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452555349_512500607954562_5062833201515023605_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=vkJaIwEJ9skQ7kNvwHRHhX_&_nc_oc=AdmJgB16mDz8v1v345Ka2o6qnlAYcUBr-JQMRtp8QgTVjLIzPXhHQoTZEjCIZAAzTWk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_AfmqjONyv0i3dLfcpDWkvuUyL9x7nUXVwUptXlI-4ZAcuw&oe=695449B8)
 
 ## UV padding
 
@@ -73,28 +73,28 @@ Minimum padding you should use for **large color differences**:
 
 Because the Quest 2 screens are high resolution, you can get extremely close to object surfaces. This makes it challenging for textures with fine details to remain good-looking when you are very close to them or they are very large. We recommend creating textures with less high-frequency detail, a style which holds up well in VR.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452704033_512500644621225_6271284546319336980_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=L1iH3nr6eYkQ7kNvwGvvAi6&_nc_oc=AdnDjwtH7BsyUgb1vCSJbu5FNkNiLv9CNMwF-RV7Ggi0BpZuoQO0WQRioknoXoTfpcY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_AflPdiVWP5GBHx-ISV9Vz1b4xpzvmBlD-vPzRRQ4rSrbEg&oe=694BCFB7)*High frequency detail.*
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452704033_512500644621225_6271284546319336980_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=egY8-gTQjBYQ7kNvwE-RX7E&_nc_oc=AdnaS-M1juARHiJNGih5jzdpK6Cht4Qy5tH74ie8AAkaGuSdO3Qu6Obv1gFfUbtTQRU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_AfksJggEPrusJ9kib6Bvw0wBLH2ju0-1fyTNoxJSQMwWkA&oe=69546177)*High frequency detail.*
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452915469_512500637954559_2669172308057156383_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7HZedKKQ7hsQ7kNvwG4CEDq&_nc_oc=AdmUVj0tIqp80kjvpQp-RbZCYaJQj1tvAL7fIE2W7U5AAoi7x0_-RpZwAh4QHmngXqY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_AfmH1jHNUBEPAz_6-vV_dEXHUv-9JNzZkoRrK3Ealrb8qQ&oe=694BBBF9)*Lower frequency details look better close up in VR.*
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452915469_512500637954559_2669172308057156383_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Fp0suFjA_FcQ7kNvwEkgSwz&_nc_oc=AdkKufmNGgVFAj1mv0jDA6ddDMmR116sWwDr3vqpBXTDNmaBKThebX7Za4f4AZJ4u7k&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_Afnu2awseopXZPK8Kv3PZI-oXMJxhgcaMN4Qyu6JPXAG3Q&oe=69544DB9)*Lower frequency details look better close up in VR.*
 
 ## Model baking
 
 Model baking is a common technique. Keep in mind that we currently do not support normal maps, so use geometry to convey information you typically might put into a normal map.  Using geometry instead of normals works very well in VR and gives you nicer kitbash piece intersections when laying out worlds.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452589309_512500544621235_5986002142499223076_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=SAtAvwladvsQ7kNvwHzaOKq&_nc_oc=Adn8fQmEvSvBTrwMh-dvyWuCk7OP-8G89yf-BqeMqE7mVF3xIE9egP3cJCyWASVEmKo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_AfkSifApb3dC0VctctgdkxDMiB75KoL_BZWxlWJTfp0XmA&oe=694BC3E1)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452589309_512500544621235_5986002142499223076_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=AhTtes0mnKEQ7kNvwEbvAWJ&_nc_oc=AdkLCY_Ghn2xoWDNSzBR1Ta2QlSpkfKsfiLZHLkoh1UYAh8IwGchch6DHojU50dbi3Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_AflEg-xzbnjTG8L76vUjUFfuPMCUUul3SdJYRWWMj4uacw&oe=695455A1)
 
 ## Trim sheets
 
 One of the best ways to optimize your textures is to use what are called trim-sheets, also known as artist-authored texture atlases. These are tiled strips of re-usable texture information that is assigned with UV coordinates onto different parts of the model.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452414106_512500551287901_1941084852038364963_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Sue2Sy5OhT8Q7kNvwHFvXRZ&_nc_oc=AdmcfCzFGyDceesAl8i8oUOLwWjHyiRyF46H7zckEDIt1mI0-QPHlUb5VbIsDh09gUg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_Afl1AOTlEu5d_SHlrk7I5odcpW-rLQKr_UU2L7ElJwA8MQ&oe=694BD74B)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452414106_512500551287901_1941084852038364963_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Bal8ehqvoD4Q7kNvwHZMhEI&_nc_oc=AdmaoylvulQrMLGQnmlEVeHLTsTQybIYIjeSNxte33h43u_H5lz0fArl_GI_jtOoMHs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_AflPcynkwUM3075x_FuEmgSKrmtA5Qr7sSIQKfByiQo4Uw&oe=6954690B)
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452915713_512500664621223_893951861776114436_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PZ4DGvVwslcQ7kNvwH0wBWt&_nc_oc=AdnPdSZ0g4KxWgZBkW4P9qPF765eJNjxCDSx5wjhEJbcSVB4wEOdvnRovKhboKYwHQQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_AflCzkhFwTMm1X7TlIkVM4cyjvNEUpzL8va732aDjc-9wg&oe=694BCAE2)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452915713_512500664621223_893951861776114436_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=YXt5poovkvMQ7kNvwGdKJr4&_nc_oc=AdlbBGyNf-1EQSSkhGIlf4tA0HWQ8R-XvqQrBGYzKCl-XqeWFxEhJ6BJHyVCCb3G0kQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_AflsN5hwliuPA_54QFwavFXO1h9TMnW_p6TbrkA0JZ2o-Q&oe=69545CA2)
 
 ## When to use the Metalness Channel
 
 Examples showing basecolor + roughness compared to basecolor + roughness + metalness.
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452917873_512500657954557_8219246528713603699_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=lL4v4xr_SlMQ7kNvwHUyYOv&_nc_oc=Adk66zkFw6Bzjoea5A_99v53R9jWttNdIUt8S6jlNrQFUmlAsU9Uvocwh-IoxV4A-qM&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_AfkeHbYz4VJZxFIlpNHQ6mbipRHvSheumFIuQx7yjeTMjw&oe=694BCD70)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452684750_512500661287890_5145557696178384622_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=qf_5EWc6F7YQ7kNvwFd2FsZ&_nc_oc=AdkJoVcENqXcbdjisQ-gWkwiZS_CgXtekvw8oN3U0QLeBmfeSWJ_XlrgHkbLUkNa7yc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0JwUHWwOak6nw_EWV-pmug&oh=00_AfkehQUXkIysatUwH2KHxQcAK_4M_0UFTG83X8Qlc0VpIg&oe=694BD065)
+![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452917873_512500657954557_8219246528713603699_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=QtycxQJoinYQ7kNvwEXkiou&_nc_oc=AdlJ6JToxi1uTOnTtsWVVUZf6wHRni6_ThFXtg2ueCdTsSpTV6-ziTka8EXM2s-WWcY&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_AfkPZaABnsAB_QNtmTpuSJiZvNUmxUMSXVK8FdpNzQhcog&oe=69545F30)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452684750_512500661287890_5145557696178384622_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=RLhxTeRvnowQ7kNvwElE4br&_nc_oc=AdmI-_4wq7TIywK1LpjyRh9vtr89KtIXC9dfciyr0Eouu8rC-dtijjmZrxNZ8t-liig&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KJVmetStXel56rhp5y0bFQ&oh=00_AflsnyiVZEh3RMvSwcM8z7ZYsLgvfREQbRhs4Wx7CLymDw&oe=69546225)
 
 ## World budgets
 
@@ -133,7 +133,7 @@ This is a very general recommendation, and artists should adjust as needed.
 
 A 3D model is made up of Mesh + Textures + Materials.
 
-**Note:** See [**Materials Specifications**](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md) section for channel packing.
+**Note:** See [**Materials Specifications**](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md) section for channel packing.
 
 ### Mesh recommendations
 

@@ -2,6 +2,9 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_vid
 
 # VideoCaptureNotifications Enum
 
+> Warning: This API is now obsolete.
+> This module is deprecated and will be removed in a future version.
+
 The flags for notification types to show players after video recording completes.
 
 ## Signature

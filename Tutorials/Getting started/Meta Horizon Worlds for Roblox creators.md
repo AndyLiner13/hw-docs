@@ -165,4 +165,4 @@ Meta Horizon Worlds implements some features in ways that may not be obvious to 
 
 ## Publishing and world discovery
 
-Our recommendation engine fuels discovery across multiple product surfaces in headset (such as Horizon Feed, Horizon Worlds catalog, Horizon Store), on web, and in our Meta Horizon mobile app. For more information about how world discovery works in Meta Horizon Worlds, see [Intro to Horizon Worlds Discovery](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/faq/intro-to-worlds-discovery).
+Our recommendation engine fuels discovery across multiple product surfaces in headset (such as Horizon Feed, Horizon Worlds catalog, Horizon Store), on web, and in our Meta Horizon mobile app. For more information about how world discovery works in Meta Horizon Worlds, see [Intro to Horizon Worlds Discovery](/hw-docs/Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md).

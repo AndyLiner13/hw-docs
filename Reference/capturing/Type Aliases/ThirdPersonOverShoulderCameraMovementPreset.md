@@ -2,7 +2,10 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_thi
 
 # ThirdPersonOverShoulderCameraMovementPreset type
 
-A [CameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/CameraMovementPreset.md) option that provides a third-person over-the-shoulder camera view where the camera is positioned slightly above and behind the player avatar.
+> Warning: This API is now obsolete.
+> This module is deprecated and will be removed in a future version.
+
+A [CameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/CameraMovementPreset.md) option that provides a third-person over-the-shoulder camera view where the camera is positioned slightly above and behind the player avatar.
 
 ## Signature
 

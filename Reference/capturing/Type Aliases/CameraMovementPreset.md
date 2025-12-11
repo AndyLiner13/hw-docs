@@ -2,6 +2,9 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_cam
 
 # CameraMovementPreset type
 
+> Warning: This API is now obsolete.
+> This module is deprecated and will be removed in a future version.
+
 The preset camera viewing angles to use when viewing and recording a player's avatar as it moves throughout the world.
 
 ## Signature
@@ -12,11 +15,11 @@ export declare type CameraMovementPreset = FirstPersonMovementCameraMovementPres
 
 ## References
 
-[FirstPersonMovementCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/FirstPersonMovementCameraMovementPreset.md), [ThirdPersonOverShoulderCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/ThirdPersonOverShoulderCameraMovementPreset.md), [FixedPositionTrackingPlayerCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/FixedPositionTrackingPlayerCameraMovementPreset.md)
+[FirstPersonMovementCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/FirstPersonMovementCameraMovementPreset.md), [ThirdPersonOverShoulderCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/ThirdPersonOverShoulderCameraMovementPreset.md), [FixedPositionTrackingPlayerCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/FixedPositionTrackingPlayerCameraMovementPreset.md)
 
 ## Remarks
 
 The available presets are:
-[FirstPersonMovementCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/FirstPersonMovementCameraMovementPreset.md)
-[ThirdPersonOverShoulderCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/ThirdPersonOverShoulderCameraMovementPreset.md)
-[FixedPositionTrackingPlayerCameraMovementPreset](/hw-mcp-tools/documentation/hw-docs/Reference/capturing/Type%20Aliases/FixedPositionTrackingPlayerCameraMovementPreset.md)
+[FirstPersonMovementCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/FirstPersonMovementCameraMovementPreset.md)
+[ThirdPersonOverShoulderCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/ThirdPersonOverShoulderCameraMovementPreset.md)
+[FixedPositionTrackingPlayerCameraMovementPreset](/hw-docs/Reference/capturing/Type%20Aliases/FixedPositionTrackingPlayerCameraMovementPreset.md)

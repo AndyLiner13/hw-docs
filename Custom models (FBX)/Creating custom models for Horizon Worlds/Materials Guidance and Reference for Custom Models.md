@@ -8,7 +8,7 @@ A [mesh](https://en.wikipedia.org/wiki/Polygon_mesh) is a collection of vertices
 
 A material is a set of properties that define how an object responds to light. A material specifies the way that the object reflects, absorbs, and transmits light. You can think of materials as the “paint” that you apply to the surface of an object. Materials can have various properties such as color, reflectivity, transparency, and roughness.
 
-You can assign multiple materials per mesh in the FBX file, and multiple FBX meshes can share the same material. For more information, see [Multiple Materials per Mesh](/hw-mcp-tools/documentation/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Multiple%20Materials%20per%20Mesh.md).
+You can assign multiple materials per mesh in the FBX file, and multiple FBX meshes can share the same material. For more information, see [Multiple Materials per Mesh](/hw-docs/Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Multiple%20Materials%20per%20Mesh.md).
 
 ## Filename Criteria
 
@@ -52,7 +52,7 @@ Using two textures gives control over more of the PBR properties.
 
 ### Unlit Materials
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746741_512510151286941_7543427180543090042_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=emt0V1gWwAAQ7kNvwFYxEiA&_nc_oc=Adkf3ZffGnGTpZousXyBZNMj1nE6rHSdnAAhoeeIsbTSa7ndXbh559wsHf7BBn47nQU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_Afnfj-etocGcM3NIW9JBTiPHDDKkCbN-QuNXpielg8hldw&oe=694BD53B)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746741_512510151286941_7543427180543090042_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=uHzkdh7dC5wQ7kNvwFUGzEX&_nc_oc=AdmPfUlCbAk7D0UaMv8wNAxVfa01dLlWDWuK7PiPg4aBTziFxspuwvts9zyJzKkUX00&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1F3VVDPLD6T6cVAqMQwnEg&oh=00_AflJgZAI5fYhvEspVFvIt8lOOmsEWlf4PnILG6vtK9-BSQ&oe=695466FB)
 
 Materials that do not receive or cast lighting or shading are considered unlit. The material name in the FBX must end in “\_Unlit”. Any extra channels, such as the fourth channel, are discarded.
 
@@ -64,7 +64,7 @@ Materials that do not receive or cast lighting or shading are considered unlit. 
 
 ### Unlit Blend Materials
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452955733_512510171286939_5181638036183860130_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=cCwYpLcIJtMQ7kNvwGvx75C&_nc_oc=Adl9rr8dreg9q0OjUU-LPLqpJVsIv85OxtImJJWQDsJDd2nLy8OWHXV5qx5vTkgcLTo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfkomenHcA696yPgJUKm7yKkAhQarnfdaIeQ9VO40r4S_w&oe=694BC5B7)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452955733_512510171286939_5181638036183860130_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=5GlwWTYSXWwQ7kNvwHmEGf8&_nc_oc=AdlS18vjjAr8DePkinJEm-gWbEQYCwGO-LnYojehzd41YTt2epX1gJbMabFtaZvkYBs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1F3VVDPLD6T6cVAqMQwnEg&oh=00_AfmOBsF0_PLrGMlaG1H8QBs_9xWB1m4QM1_thAHKd6YZ4w&oe=69545777)
 
 Blended materials that do not receive or cast lighting or shading are considered blended and unlit. The material name in the FBX must end in “\_Blend”. Unlit blended materials do not have any specular or reflection properties.
 
@@ -76,7 +76,7 @@ Blended materials that do not receive or cast lighting or shading are considered
 
 ### Transparent Materials
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522449_512510154620274_2357687186968881662_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=wy9N_le8_EsQ7kNvwGJMQe1&_nc_oc=Adnh2ANVRiLCZV1Cku6C1j5To6OGHUaCivoE2NtMHjdIWs1tnW6v_4rJFGzHuGUwL30&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_Afno8dD2e7oWEjFNy6gzRowdwbgxZ6cXfegMNfCn9_sdQg&oe=694BCE38)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522449_512510154620274_2357687186968881662_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=dfpNMHwTc6gQ7kNvwHjAZPg&_nc_oc=Adk_80a30B61CHPMFUSmXNWOgQwHxXSQzv0V_L1vM5leF2kxRO1xlMarGLT_lD25_yg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1F3VVDPLD6T6cVAqMQwnEg&oh=00_Afk7QpoxRPoZy8O0XZs4sbEzf3DBi6XyhD-jVvbvkcaWtg&oe=69545FF8)
 
 Transparent materials allow light to pass through. A specular channel is used, which modulates specular and reflection amounts. Using two textures gives control over more of the PBR properties. Material name in FBX must end in “\_Transparent”
 
@@ -89,7 +89,7 @@ Transparent materials allow light to pass through. A specular channel is used, w
 
 ### Masked Materials
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452635163_512510161286940_8652445767142113425_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=u66wlI2O6KsQ7kNvwGQ_ayY&_nc_oc=AdmsPDFvZ01o1md5dd-vesk6qXKh6bSx69oJGAn-5I55NU9WzyfWQxdaGlnXp8bn4GY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfmG5lhCMlWWLfXVJLaNfe_qaUqzoyhrT2AvcaDFnwd3zg&oe=694BC002)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452635163_512510161286940_8652445767142113425_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FnRggIdiqhAQ7kNvwG8M1Y-&_nc_oc=AdkNcRdFTG996OcrA_YIERux3xdEZapG5-fRwZ15HKJdx4E0F14TPElCKWbkct_MclA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1F3VVDPLD6T6cVAqMQwnEg&oh=00_AfklglWHhroBoQj8wpchiCGHNfmqRROgi0ZvPxj8UbGhZg&oe=695451C2)
 
 Masked materials are used for controlling the mixing of two textures. The material does respond to specular and roughness properties, but is considered fully rough; i.e., roughness = 1. The A channel of the texture drives the alpha, where white is opaque and black is clear. Alpha cutout happens at 0.5 (matching the default for GLTF 2.0 and Unity). Material names in FBX must end in “\_Masked”.
 
@@ -101,11 +101,11 @@ Masked materials are used for controlling the mixing of two textures. The materi
 
 Also supported is a “masked vertex color” material. In this case, the **BaseColor** texture is multiplied with the mesh’s vertex color. Material names in FBX must end in “\_MaskedVXM”.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/539055655_798794379325182_7362778889624657389_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ld-TG0xyKoMQ7kNvwExhwK9&_nc_oc=AdlRjnFpvvPYjw6r2Huunb0YjGAVyfyVC3ul0SRbY1TkjMeNJMXVeyuiCGZoqP98qOY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfmYzggYI7ZhGoifgrJtd1bD59UggVzaKVUFHkv6Hc_Q9Q&oe=694BE4AA)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/539055655_798794379325182_7362778889624657389_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=_4w_-X6dMgkQ7kNvwFTQYTa&_nc_oc=AdkWmyT0MztonYSC3_ihraBpcfeCCTuBvm0GwL_BziAPrVQr4EyhBEsCTCtSZbn9JA0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1F3VVDPLD6T6cVAqMQwnEg&oh=00_Afmv21vARz1FWTJDOqicQkvHhID3KObyWFDpJXWxvtHQZw&oe=69543E2A)
 
 ### Vertex Color PBR
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452846268_512510174620272_2366064968037736374_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=gS4tkJeaewYQ7kNvwGWSkp9&_nc_oc=Adm_WM9M1ovvakvZqbgarG-Z3IA4q7N6sPfLguez8TDc3zez4Iuwe1y1mAJf5233RBE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AflaqF4yIJB34jByGw8sKdUHzCBBZHy0PpF7-nYWz-_Sjg&oe=694BE603)
+![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452846268_512510174620272_2366064968037736374_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=tIIStJbI2HYQ7kNvwEghdB8&_nc_oc=AdmMiAgHvXe03MQmHA9Jgh2E-RoL4xA7LbadozBh67uMhJpk8jIQgjQHZZmtKm5HO_A&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1F3VVDPLD6T6cVAqMQwnEg&oh=00_Afndr8k2pUQabFRAduYQ_BZmvqH-AbRGTj131FMzSCkUIA&oe=69543F83)
 
 Vertex colors are RGBA values that are applied directly to mesh vertices. They do not contain any textures. You can use vertex color for:
 
@@ -117,7 +117,7 @@ A material name in the FBX must end in “\_VXC”.
 
 ### Vertex Color Single-Texture PBR
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522576_512510164620273_7391129338506219413_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=dU1HZtdPwOsQ7kNvwHgn_hN&_nc_oc=AdkjmBH0rkPc2js0-c7oKPdKpkwu82jQQ5TL2d3H4kJNuvhzMoljZ5P-hdUlQ5WycM0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfnOezODy4ets2rjBjZVx_2VwZOV5rJVqVNfSaPaVmlMrw&oe=694BC362)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522576_512510164620273_7391129338506219413_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=AlkLud3OAq4Q7kNvwFCr_fC&_nc_oc=AdnlROHV4C3CEaWr4G6ds6qdLSc6HP2ySK-0q2ok03MHRaf_zgZP6QD2GVtITAf13tg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1F3VVDPLD6T6cVAqMQwnEg&oh=00_Afkw6n84X96lhswJqhSZHSdVWRvly9BbSjmy2Wyvi_uG-A&oe=69545522)
 
 Vertex colors are RGBA values that are applied directly to mesh vertices and then multiplied with a texture **BaseColor** as input to both GI and shading. You can use vertex color for:
 
@@ -149,7 +149,7 @@ Material names in FBX must end in “\_VXM”.
 
 ### UI Optimized Materials
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452541679_512510181286938_784385883995309106_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=7Ia4TafptdkQ7kNvwGdQtCR&_nc_oc=AdmGN9pBtSgq_BvFTFSOFR3YEGZPpz_d1GVKhQdde7YiGECCycv7HSVtAcAVncqpqyw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d9YRrSQekpackRuHCftDWA&oh=00_AfmiM72P_VZGzvKiwFzaoQrEK4oBAmIY3Oxbhu9ElY2hTg&oe=694BBA33)
+![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452541679_512510181286938_784385883995309106_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=VRxOUwbci_4Q7kNvwG12747&_nc_oc=AdnfzAJIVTHWO8QlOob8RtZC1V_q-tYSUZ7C7pq4GA7Xmgf9w0dpfxE3eIXbdRAgoxc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1F3VVDPLD6T6cVAqMQwnEg&oh=00_AfmczHjOpeDbbH-9-7SVE1RgecnnHTL5aYTmRzSfmIy95A&oe=69544BF3)
 
 UI Optimized Materials are optimized to provide better quality UI elements (e.g. text, icon) when displayed. These textures are unlit and do not receive or cast lighting or shading.
 
