@@ -49,7 +49,7 @@ With LOD, you avoid overshading sub-pixel triangles by switching to a lower-deta
 
 Here is a demo video on how to use LOD.
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453534749_1201716487733176_295925959581960111_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=6500a6&_nc_ohc=fuefYyrn7dMQ7kNvwFplZLH&_nc_oc=Adkb-RBzGMNObinpkAdVdm1wDFQGqI6cDG3fJzFfKvQPebJKOUjJJS3HVH-sPfLQT6A&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=3-D9sSnp53MJc32swroKZw&oh=00_AfkYW99sr_sFhNuKYWZbddYs8nU98SaCNYQvo_RLMdrBNw&oe=693751FB)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453534749_1201716487733176_295925959581960111_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=6500a6&_nc_ohc=KT0cBY-rCjQQ7kNvwEkGi8v&_nc_oc=Adk_YVidR9Ifxe-x6-fPgHLScPEXiiIMraWVMtHVGsUke-uxLT7H4laWIEtkLGIFI36xdSTQ75XTsU8LeEHsFV3G&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=MmshCpjCgPq_cYht9bscNw&oh=00_Afl6HlgSMcfMMwGh-ebSswqoEzLFddPa1QodEtJqfZhiSw&oe=6940FCFB)
 
 ### Sample assets
 
@@ -57,151 +57,10 @@ You can download sample assets to test LOD import from the links at the bottom o
 
 | Asset Name | LOD assets | Recommended relative screen size setting | Vertex | Texture assets | Notes |
 | --- | --- | --- | --- | --- | --- |
-| DamagedHelmet | [DamagedHelmet\_LOD0](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38974452_1110977567398498_3267634047256809730_n.fbx?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-WeGBfqW8bEQ7kNvwFFzcWY&_nc_oc=AdlZ3xV04nlwQnVl-DHjkGE30TLDL1AUKBi1rroWnU6WzqcTqourqwwJO4lRAjRys1g&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfkFUpZ1aTuYmVU1BvjXCvwwNOyKU1tBhPsiFSraY4Posg&oe=694BBE89)  [DamagedHelmet\_LOD1](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75241698_1084209123102490_8721696503486453490_n.fbx?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=iA_hht866DUQ7kNvwEK4BeE&_nc_oc=Adnn_N_hOo4i9K0FG0gDP2VJeX4L2nMMPhy78Mkf4PH6Vos7rZjXdh9CQy4_JEXek9Y&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AflVay9fSuSjHsRbk9TYB6bQSah9qPbE6vDfUdJpmvsVQw&oe=694BC348)  [DamagedHelmet\_LOD2](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/39036644_543824368397921_749567675276430240_n.fbx?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=dWE9hd9GebwQ7kNvwEkgtJF&_nc_oc=Admqx2zmDBqiF_ovXbgNveoXqg7GTJff7SnS1HluosuFY4KuD6O8O3LidOSbWLaVeg0&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AflcYcTVrcT9vWAaMPbiXnAnGsasiNKjF8Rc0ZgQwNHTYQ&oe=694BD402) | .3    .1    .01 | 13341    5763    2208 | [DamagedHelmet\_BR.png](<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_053502_20251211_053502.md)
-
-### Overview
-This image appears to be a complex, abstract collage featuring various mechanical and industrial elements. The composition is chaotic, with numerous fragmented pieces scattered across the frame. The elements include gears, pipes, and other mechanical components, rendered in a mix of grayscale tones with some colored accents.
-
-### Key Elements
-- **Mechanical Gears**: These are the most prominent elements, appearing in various sizes and orientations. They are primarily in shades of gray but have some yellow and black accents.
-- **Pipes and Cylinders**: These are elongated shapes that resemble pipes or cylinders, often with a metallic sheen. Some have a blue tint.
-- **Fragmented Pieces**: Smaller fragments of mechanical parts are scattered throughout, adding to the cluttered feel.
-- **Background Texture**: The background has a grungy texture, possibly resembling concrete or metal, with some areas appearing worn or scratched.
-
-### Visual Flow / Relationships
-The image lacks a clear visual hierarchy due to its chaotic nature. There are no distinct lines or arrows guiding the viewer’s eye through the composition. The elements are randomly placed, creating a sense of disarray.
-
-</details>
-
-<p></p>
-
-)  [DamagedHelmet\_MEO.png](<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_053632_20251211_053632.md)
-
-### Overview
-The image appears to be a highly stylized, abstract representation of mechanical or technological components. It features a mix of blue and pink hues, with various shapes and lines that resemble parts of machinery or circuitry. The overall composition is chaotic and layered, giving a sense of complexity and depth.
-
-### Key Elements
-- **Visual description**: The image is composed of geometric shapes and lines, predominantly in blue and pink.
-- **Location**: The elements are scattered throughout the image, with no clear top, bottom, left, or right.
-- **Contents**: There are no discernible texts or specific symbols within the shapes.
-- **Visual styling**: The shapes are outlined with varying thicknesses, and some areas have a gradient effect transitioning between blue and pink.
-
-### Visual Flow / Relationships
-- **Most prominent visually**: The overlapping shapes and lines create a sense of movement and interconnectedness.
-- **Arrows, lines, connectors**: There are no explicit arrows or connectors, but the arrangement of shapes suggests a network-like structure.
-- **Spatial relationships**: Elements overlap and intertwine, creating a layered effect.
-
-</details>
-
-<p></p>
-
-) |  |
-| Suzanne | [Suzanne\_LOD0](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/86620687_424732963772558_3603515224534172233_n.fbx?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=gETTiz0gUoAQ7kNvwEZXROi&_nc_oc=AdmvRmQ9utsFuxbJDfzXBvkvtCggr-uByTjzxWpSgwndLg_VNP44CYv-DrePCnK03xQ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmagyViv6Gbynpux9LzqdReDtNoMZu49IQe51_o_WE7nA&oe=694BCA62)  [Suzanne\_LOD1](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974679_1774312949997424_3774288506792177577_n.fbx?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=5AXms7zsZKkQ7kNvwGkSNxy&_nc_oc=Adl_z_8v-3iYra6TMUSVyHJBQPCi0NoS34rWi4gdULIUIYj8elOmdCKBb530-E1JZ1s&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkghGp_GEi7HjJHcp55lf76IUAK-4JrvnMCxP6pkGy0ag&oe=694BB5F4)  [Suzanne\_LOD2](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75404233_507077025666832_7688880730582757364_n.fbx?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=moSRdOKzHfcQ7kNvwFHzn0x&_nc_oc=Adng-7J-Dd9LvNMNuXVqVSWSiZ4ebcozgO9RtQ1zN2Hziu3BZ0uQSlp9jhhQf0bsRFA&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Aflv5joCkKQv8dWXsyAQ0kwXm4kqy6lOOSZKOfCIa3xmTg&oe=694BBDF7) | .3   .1    .01 | 7958    2573    909 | [Suzanne\_BR.png](<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_053746_20251211_053746.md)
-
-### Overview
-The image displays a solid blue background with no discernible objects, text, or design elements present.
-
-### Key Elements
-There are no key elements to describe as the image consists solely of a uniform blue color.
-
-### Visual Flow / Relationships
-Since there are no elements to interact with or relate to one another, there is no visual hierarchy or spatial relationships to discuss.
-
-</details>
-
-<p></p>
-
-)  [Suzanne\_MESA.png](<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_053914_20251211_053914.md)
-
-### Overview
-This image features a vibrant, abstract design composed of geometric shapes and blocks in bright pink and blue hues. The composition is dynamic, with overlapping and layered elements creating a sense of depth and movement.
-
-### Key Elements
-- **Visual Description**: The image consists of irregularly shaped blocks and geometric forms.
-- **Location**: Distributed across the entire image.
-- **Contents**: The blocks are filled with solid colors, primarily pink and blue, with some areas showing gradients or lighter shades within the blocks.
-- **Visual Styling**: The blocks have sharp edges and are arranged in a seemingly random pattern. Some blocks have internal patterns or textures, such as small circular designs or gradient fills.
-
-### Visual Flow / Relationships
-- **Most Prominent Visually**: The large, irregularly shaped blocks dominate the composition.
-- **Arrows, Lines, Connectors**: There are no clear directional arrows or lines connecting elements.
-- **Spatial Relationships**: Elements overlap and layer over one another, creating a complex interplay of shapes and colors.
-
-</details>
-
-<p></p>
-
-) | Ignore import warnings. |
-| StoneFloor | [StoneFloor\_LOD0](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974803_3611041129041311_2668313382660000807_n.fbx?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=A5AqHzJmgNEQ7kNvwECjeo_&_nc_oc=Adldc_vGhtW-LZOKFU16d_sZErmBTtpIdbTr4_7p1Js8BIokl_DnFnpLRTl5fnNUR00&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmZHIRKmuu0UowSS4h8PGM9qmhg7Cbwy1OdO_n6Qyo9IQ&oe=694BD03E)  [StoneFloor\_LOD1](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57575351_583790344173233_5836712915629891216_n.fbx?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=MNpJ4P4m2SIQ7kNvwHMQqaL&_nc_oc=Adll-28U8s7Rhr1sHVGS9nfhjGxV8IxiilQ1Nu7BJ2QzM5IMU9mZzulI1gZWdAeMSNI&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmylmbvPcz3gmE5Lmu21ia8rc5Vxso1ke_3YtLh6TpXVg&oe=694BDB12) | .3   .01 | 1502  266 | [StoneFloor\_BR.png](<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_054042_20251211_054042.md)
-
-### Overview
-The image depicts a seamless pattern resembling a cobblestone or stone-paved surface. The stones are irregularly shaped and vary in size, arranged in a grid-like manner. The overall texture gives a sense of aged stone, with some areas appearing darker and more worn than others.
-
-### Key Elements
-- **Visual description**: The stones are depicted with a textured, painted appearance, giving them a rough, uneven look.
-- **Location**: The entire image is filled with these stones, covering the full frame.
-- **Contents**: The stones are light gray with varying shades, and the grout lines between them are a slightly darker gray.
-- **Visual styling**: The stones have a slightly worn and weathered look, with some areas appearing darker and more shadowed.
-
-### Visual Flow / Relationships
-There is no specific visual hierarchy or relationships among the elements as the image is a uniform pattern without any distinct features or focal points.
-
-</details>
-
-<p></p>
-
-) |  |
-| ColumnSetA | [ColumnSetA\_LOD0](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75207235_572656031963575_8134019312426795705_n.fbx?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=v8DKZxBQMt8Q7kNvwGgHyhY&_nc_oc=AdmED_vosXj9IoIWSda2ik-YZ_QzJzRzvl9fbbCEC3ILy36es16sEOb_a8BbZZF7tGM&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfnOv0W4kq0FKexOfHx4ArTP0a3nsop4xafgnDeWDCis7A&oe=694BBF78)  [ColumnSetA\_LOD1](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75422379_1117471496715133_9153812592022689103_n.fbx?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=rhjy5z-_MuUQ7kNvwEXqABC&_nc_oc=Adk6QVCk6Y5e5WsxVisdsAxokWwFsJcxsVY1ibAUQwDnRNM1EM4XQrwRa5JChxFRXek&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfnbtS9KuLjw67ugVwUt5ql5eVUpZ7DR0fC1IYEO4upfzw&oe=694BD8F3)  [ColumnSetA\_LOD2](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38974723_1229165174971481_2089172905872648967_n.fbx?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=-0Cx7VtxRTQQ7kNvwGQ2Kab&_nc_oc=Adm2HleEiIi-cG-h1G-AT-87Sl1rJAPDvNItZjrSnZQM_kZGtuBKIjvDQmJGaL2lYo0&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfljdmW2c4aA5toHq3HQL6UC7VFPXvsMBjd4ixQRZpaTDg&oe=694BBB5C) | .5  .3  .1 | 7657  4733  2515 | [ColumnSetA\_BR.png](<details>
-<summary>Image Content</summary>
-
-<p></p>
-
-[All image details and metadata](../../../../images/output/img_20251211_054213_20251211_054213.md)
-
-### Overview
-The image appears to be an abstract, monochromatic artwork featuring a variety of geometric shapes and patterns. The overall composition is chaotic, with no clear focal point or discernible subject matter. The image has a textured, almost grungy aesthetic, with elements that resemble windows, circles, and lines.
-
-### Key Elements
-- **Visual description**: The image consists of various geometric shapes and patterns, resembling windows, circles, and lines.
-- **Location**: These elements are scattered across the entire image, with no specific arrangement or grouping.
-- **Contents**: The shapes include rectangles, squares, and circular forms, some of which appear to have grid-like patterns within them.
-- **Visual styling**: The image is rendered in grayscale tones, with varying shades of gray creating a sense of depth and texture. There are no distinct colors, only different intensities of gray.
-
-### Visual Flow / Relationships
-- **Most prominent visually**: The image lacks a clear focal point due to its abstract nature.
-- **Arrows, lines, connectors**: There are no arrows, lines, or connectors present in the image.
-- **Spatial relationships**: The elements are randomly placed without any apparent relationship or hierarchy.
-
-</details>
-
-<p></p>
-
-) | Use this asset to clearly view LOD switching. Use the recommended values on the “Recommended relative screen size setting” column. This asset has visual issues on purpose to facilitate the LOD switch viewing. |
+| DamagedHelmet | [DamagedHelmet\_LOD0](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38974452_1110977567398498_3267634047256809730_n.fbx?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=B5OwK2pQNgcQ7kNvwG4_pKo&_nc_oc=AdmABHLmKcZdkagk9Hd0OS3yHqFiJiSgcDUlEAYxS9iFlqkcuhf5K0L-7tpkrLztMigouBYNKCQoL_gU5Be09me7&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afnwmzxe965hU9-DehbSIN0iI_KaRandOMajqa3ADySd4w&oe=69556989)  [DamagedHelmet\_LOD1](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75241698_1084209123102490_8721696503486453490_n.fbx?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zJNbAMqZU_AQ7kNvwEsTMLB&_nc_oc=Adm2z3TTwqB8ovmnSoHTHmAr-y488vVZAjm2wGrk8sTIPwxbfvGvLHxglv5gdz3vbHb-24CZ-AfJBpp0Oq6k-ZfT&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfnPNu3FYEtsZ_4Rera8vjtwJPIbfZX_SonJhInlt8ts1A&oe=69556E48)  [DamagedHelmet\_LOD2](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/39036644_543824368397921_749567675276430240_n.fbx?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=h9X2wW8yvkoQ7kNvwFY3Vzx&_nc_oc=AdkaMNIxaVMp8gOEp1AcAth29gOahGerslTY7ozsGeHW-SwmnkCHZ9C3Nyux_zQn2jyQPD0OoC99p130LNQOwPhy&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afk4gz_YtyOw7pgEbj-EO5tRX4ispuQm8rkcQPHbsEWkLg&oe=695546C2) | .3    .1    .01 | 13341    5763    2208 | [DamagedHelmet\_BR.png](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/39031396_1211383596830479_1106960686933552311_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=U4IckqaLTQYQ7kNvwEyHrCR&_nc_oc=AdmGZh5O23IszrbLFwwONGam9BREtvrvCU7Oi5OJZ2R4lEpBMO2iniGoQRPXkYYgOC8_9hdLDdgg24Q_svsprkWm&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfmrFyGp7sDOBBBhzwFEkj8yYrQIov6yvrFfWuabcMd78A&oe=6955537F)  [DamagedHelmet\_MEO.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39035471_460649110467753_1686906741871334990_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=r86rBggLFyYQ7kNvwFJl11Y&_nc_oc=Adk0b1Q9wXFD9M2iuwBsrIQUO5U4N0wjsPWPPnll1Bv6zQ7UZqj2hKcqpi_u6tFOrlupbnY1qBoe9ZAVRlPDI73H&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmpSi9GfLWKFckywecI0jd7V_p_vmXayPeGZclDW2T5cg&oe=695546DA) |  |
+| Suzanne | [Suzanne\_LOD0](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/86620687_424732963772558_3603515224534172233_n.fbx?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=VChu-uRbqgIQ7kNvwHSdQRA&_nc_oc=AdlLG326xSwNGCTvwabVMcpOgM7p6_RUKKIlS0phwoTbk5400UEWvEVB8uU0pk7V_b3v6G00MIqh_uyhy82464Tw&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afndv2TqvR1--U1L7Oyk34y7qdl8TbnkjdgRZN4DCB5LYw&oe=69557562)  [Suzanne\_LOD1](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974679_1774312949997424_3774288506792177577_n.fbx?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=8AgSzUXQ6ZMQ7kNvwEPvcuw&_nc_oc=AdnIV_ASD4rjjuIFdgWczOGCxDMEPPolSQdg1ZVuzmCXi-9EdThFWRIM7oFiVaxk1XQqiTSlxRVPPxA_b3dFEctg&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Aflrd5Zbn7UWgmyq_gcP0QNaGjebvjfe8f5h_HqYLOZrKQ&oe=695560F4)  [Suzanne\_LOD2](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75404233_507077025666832_7688880730582757364_n.fbx?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ho3ZlhPKAWMQ7kNvwF2DR9t&_nc_oc=Adkw5w_Iqrz_8IvE34ED2rI9wf1cdIX8Jia-tBKKgF8EjIF5Ry7UZ4ysPytDCR4Z9eYvEdF1KeEJi7o8qb7RV3Ii&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfmXVVSETzOFhJ76jS1fKixE4oNcSN_Hbc3ofaL3SrJGgA&oe=695568F7) | .3   .1    .01 | 7958    2573    909 | [Suzanne\_BR.png](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75210401_522547524089238_3818379784629030093_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=QRxtF7SkpgsQ7kNvwEO4jxE&_nc_oc=AdnTwT6EDAc1uq6Sd97UHqgENyb0TDIkKNHzNaBPz1_9Ls8thl-aMFR29AchQFDaSadKVIrJNFToNJIsedoWjykD&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfkjcJ8qqyxACax-VqZKosMayA0b9bFz5gPwHrKHdqa5Gw&oe=69555A0F)  [Suzanne\_MESA.png](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75334063_485564684498051_5902144713115885952_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=xC359yUl5-4Q7kNvwHi1CUl&_nc_oc=Adn8_f54qenFcNH1SA-mZHwO1eLFnfsx2ZIkDpkWGpI_rAVgbE5oNzw3Zo5n0aym3k35kOiOeyus6cWY3yurm57j&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfmRTa232VK80-2uyUOqx7D-BZGz2N0aZIQcCs4YPbFEVw&oe=69553F3A) | Ignore import warnings. |
+| StoneFloor | [StoneFloor\_LOD0](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974803_3611041129041311_2668313382660000807_n.fbx?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZSRkIYKT3IAQ7kNvwGI7SrL&_nc_oc=AdnGZfetStjt_tET5hrJArqa1Kev1gPOKWZLYcn5VgZqP1bTEtKhN8FCgutnpGvA2vVc1PVVwMypwyNMvKHCqfN8&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afkb9ZkhioYbuD3zYybtGiDFkeozh_uwGHZpU_e9DVsmOQ&oe=695542FE)  [StoneFloor\_LOD1](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57575351_583790344173233_5836712915629891216_n.fbx?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=GcWUBrlSagEQ7kNvwEUHOeR&_nc_oc=Adk1fIPX_dwjTwKGxakYY2EcEKlzEKp6PeQ340XSYVC3-k0s_zMlazeclLqvLy47i-EXmYbEmErLrw7zqxA7Fq3F&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfnlzPeNaCef9u4d1JzMm6mYjOOhKhVY0PvQSuPmg4IFyg&oe=69554DD2) | .3   .01 | 1502  266 | [StoneFloor\_BR.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982708_1041123087752366_8769918822486248358_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=uIoKgDEya5QQ7kNvwFVTqH6&_nc_oc=Adm9JXhdF4X_i33jdFb_8L2iwqcbCT0iTP6r6BAbowZC_qQba8cUWj_UzVuAEWe-4eNa6yZ8HdD0hUI06OIOm8DG&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkKPG3aja5EsJa3iFwPt-hdqz_2pPamAzpQB4QtTOPy9Q&oe=695560B8) |  |
+| ColumnSetA | [ColumnSetA\_LOD0](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75207235_572656031963575_8134019312426795705_n.fbx?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=72s5dmMyiTsQ7kNvwGUlcdB&_nc_oc=Adnab3Z7RmIHiyqO_5v4T_rDmmRo3Rj8uwpPiYbBJJYJhqWHQ4StEbWeOyLlb4xgjT9CwtU66YU5JdPmCLJDR7eU&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afn4lsmvQsgEs1Cj6u1cLVaXcUB6N_DqfHlcmy0nDFcZhQ&oe=69556A78)  [ColumnSetA\_LOD1](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75422379_1117471496715133_9153812592022689103_n.fbx?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=uu5ugxa_IHAQ7kNvwH8C02m&_nc_oc=AdmFr3QauedrD1BvMcEzDkROjlTNVdMU_Zhei5C4P32pYOXKL7Tzbftwu0bJVqiDix3IRBFyyebJRNqPlZhzlf0n&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfniuO6kij9wcUa4cCXyFkyx2iJxWzuQZpDKDZf5w1VNSA&oe=69554BB3)  [ColumnSetA\_LOD2](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38974723_1229165174971481_2089172905872648967_n.fbx?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=fZvbpX47Tr4Q7kNvwGrau0g&_nc_oc=AdneddkNkMdJJlovR_qIkVOd5EP3NYAx8hymiWsQIRyZrc2IvEwSpuT2SEsO4De-rzfAogvA0GgGFOfW-YCSLLDv&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afmg8Qoo8WfY75qtsRu-BEv1sYyZc4b97SJbN1ZUZbel6Q&oe=6955665C) | .5  .3  .1 | 7657  4733  2515 | [ColumnSetA\_BR.png](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982480_1328835308493384_834914125048304768_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=6Ks78robm-cQ7kNvwGmC0JZ&_nc_oc=AdnjF_RM-4JcIbofbSDEX_Ad-lISFK5jDk3nQ_JjZ8-voDyfzNBd5ZUZNOnpl3WYzzsX7sIDMZnU4HDkNhpEUuwC&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkMz14bFeY34L4M5kekKNo8Z6-w6ZG_GtfshiPgsgO-Gw&oe=695563CD) | Use this asset to clearly view LOD switching. Use the recommended values on the “Recommended relative screen size setting” column. This asset has visual issues on purpose to facilitate the LOD switch viewing. |
 
 ## Ingest LOD Assets
 
@@ -236,6 +95,7 @@ The image shows a screenshot of a computer desktop with a taskbar at the bottom.
 <p></p>
 
 
+
 - Click **Add New > Folder** and give the folder a name.
   <details>
 <summary>Image Content</summary>
@@ -261,6 +121,8 @@ This image depicts a user interface element within a software application, speci
 </details>
 
 <p></p>
+
+
 
 
 
@@ -295,6 +157,7 @@ The most prominent visual element is the viewport in the center. The 3D model is
 <p></p>
 
 
+
 - The mesh ingestion window will appear.
   <details>
 <summary>Image Content</summary>
@@ -320,6 +183,7 @@ The most prominent visual elements are the informational message and the file se
 </details>
 
 <p></p>
+
 
 
 - Click **Choose files on your device**, navigate to the folder with your assets, and select your LOD 0 model FBX file as well as your textures. Click **Open**.
@@ -371,6 +235,7 @@ The most prominent visual elements are the highlighted files in the directory tr
 <p></p>
 
 
+
 - The ingestion window should now show the files you selected.
   <details>
 <summary>Image Content</summary>
@@ -401,6 +266,8 @@ The most prominent visual element is the instruction box, as it provides crucial
 </details>
 
 <p></p>
+
+
 
 
 
@@ -439,6 +306,7 @@ The most prominent visual elements are the instructional message box and the fil
 </details>
 
 <p></p>
+
 
 
 - Click **Add LOD(s)**<details>
@@ -492,6 +360,7 @@ This image depicts a user interface element from a software application, specifi
 <p></p>
 
 
+
 - In the file selection window, multi-select your additional LOD FBX model files then click **Open**.
   * If you’re using the sample files, select DamagedHelmet\_LOD1.fbx and DamagedHelmet\_LOD2.fbx. <details>
 <summary>Image Content</summary>
@@ -523,6 +392,7 @@ This image depicts a file explorer window showing a directory structure related 
 <p></p>
 
 
+
 - The ingestion window should now also show the new LOD files.
   <details>
 <summary>Image Content</summary>
@@ -552,6 +422,7 @@ The interface is organized hierarchically. The main focus is on the imported fil
 </details>
 
 <p></p>
+
 
 
 - Now, set the desired relative screen size for each LOD level. The relative screen size determines the threshold for each LOD level as a percentage of the full screen. When the object on the screen is smaller than this threshold percentage, the engine switches to the LOD mesh of the next LOD level.See the following example values for a more intuitive explanation:
@@ -590,6 +461,7 @@ The most prominent visual elements are the model files and the LODs listed under
 </details>
 
 <p></p>
+
 
 
 - Wait for the importing process to be finished. You may see a clock icon on the top right of the asset icon.
@@ -670,6 +542,7 @@ This image depicts a user interface section of a software application, likely re
 <p></p>
 
 
+
 - When the import finishes, a “Success” banner will appear.
   <details>
 <summary>Image Content</summary>
@@ -694,6 +567,8 @@ This image depicts a notification or confirmation message box with a simple desi
 </details>
 
 <p></p>
+
+
 
 
 
@@ -729,6 +604,8 @@ The helmet is the most prominent visual element due to its size and reflective s
 
 
 
+
+
 If the object is too far from the view point, it may have a green color. This is because the additional LOD level GI is being computed in the background and isn’t ready yet. You can move the object around in the world before the GI data is computed.
 
 <details>
@@ -753,6 +630,8 @@ The motorcycle is the most prominent visual element due to its size and central 
 </details>
 
 <p></p>
+
+
 
 
 
@@ -792,6 +671,8 @@ The image displays a simple interface with a gradient blue background. At the bo
 
 
 
+
+
 You can also see LOD behavior in Desktop Editor’s preview mode.
 
 <details>
@@ -816,6 +697,8 @@ The most prominent visual element is the humanoid figure, as it occupies the cen
 </details>
 
 <p></p>
+
+
 
 
 

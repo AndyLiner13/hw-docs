@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-start
 
 Meta Horizon provides a variety of tools so you can create engaging worlds quickly and efficiently.
 
-You can use [VR creation tools](https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation) or PC creation tools.
+You can use [VR creation tools](../VR%20tools/Publish%20your%20world%20using%20VR%20tools.md) or PC creation tools.
 
 PC creation tools support cross-platform publishing across VR and mobile, offering richer creation capabilities. The PC environment provides efficient world-building with established workflows and powerful tools like the desktop editor, custom model import, and TypeScript scripting, enabling immersive, interactive, and fun experiences.
 
