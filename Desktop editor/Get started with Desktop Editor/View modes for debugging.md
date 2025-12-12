@@ -12,17 +12,89 @@ Debugging view modes in desktop editor can help you debug your world. Its featur
 
 To open the view modes menu, select the view icon on the right side of the toolbar.
 
-![The debugging view mode icon](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485353085_677084098162878_564880857810169754_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=sQB3DahOLjcQ7kNvwErKihh&_nc_oc=AdnGL6rXcJEucCHa6WKwdrPNA4-FEfSfBHqJP_4CWsNJPCdy6kjPhJ3BlXIooUYIhhECifadX9bQZ5N0EAvtEBrZ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=-AeCUdGUvRY0rPzFUtv2wQ&oh=00_AfnGaZlFUu3JNaEOybQ2_7KpnASlcyaLDPic5GJhAEKRnA&oe=695585EB)
+<details>
+<summary>The debugging view mode icon</summary>
+
+<p></p>
+
+[The debugging view mode icon](../../image_data/33d3dd01a1b19ad193473bd5c14b02f97b83141bba75c026f007100ae8130768.md)
+
+### Overview
+This image depicts a simple interface element consisting of a circular icon and a downward-pointing triangle, likely representing a dropdown menu or a toggle switch.
+
+### Key Elements
+- **Circular Icon**: Located at the left side of the image. It has a gradient fill transitioning from dark gray to lighter gray, with a white circle in the center. The icon appears slightly blurred.
+- **Downward Triangle**: Positioned to the right of the circular icon. It is a solid dark gray triangle pointing downwards.
+- **Background**: The background is a solid dark gray color, providing contrast to the lighter elements.
+
+### Visual Flow / Relationships
+The circular icon and the downward triangle are closely aligned horizontally, suggesting a relationship as part of a single interactive element. There are no arrows or lines connecting them, implying a direct spatial adjacency rather than a hierarchical relationship.
+
+</details>
+
+<p></p>
+
+
 
 Hovering your cursor over each option reveals a description of the view mode. See [Available view modes](https://developers.meta.com/horizon-worlds/learn/documentation/view-modes-for-debugging#available-view-modes) for further details. After selecting an option, the view mode will be displayed inside the dropdown button. Hovering over this dropdown button will also show you the active view mode.
 
-![List of Available viewmodes](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484836232_677084111496210_6923534349643550921_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=QfU-DwLnB2UQ7kNvwH2odn5&_nc_oc=AdkXFmQyXA_63qA8ArYzipUTvpAuGxfPD0E6v-g6Tl0e8iYFAINKw06oMRyqXsLznwL9HhiRzaEzF6bNR8YFJJtQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-AeCUdGUvRY0rPzFUtv2wQ&oh=00_AfmncsqM3hOgPCojy6RyEBHqhAJkn2SiUCxewFzkZ_G0tw&oe=6955A190)
+<details>
+<summary>List of Available viewmodes</summary>
+
+<p></p>
+
+[List of Available viewmodes](../../image_data/b36d7c7d363917e173952bafe680287aab938c8c03e2a0a595f48ab49161f5ff.md)
+
+### Overview
+This image depicts a user interface element showing a dropdown menu with various options listed vertically. The menu has a dark background with light-colored text and icons, and some elements are highlighted with lighter backgrounds.
+
+### Key Elements
+- **Visual description**: The dropdown menu has a dark background with light text and icons.
+- **Location**: The dropdown menu is located in the upper part of the image.
+- **Contents**: 
+  - "Shaded" option with a checkmark next to it.
+  - "Wireframe," "Solid wireframe," "Shaded wireframe," "Collision," and "Overdraw" options listed below.
+- **Visual styling**: The text is white, and the icons are circular with a white fill and a black outline. The selected option has a lighter background compared to others.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Shaded" option with the checkmark.
+- **Arrows, lines, connectors, or implied reading order**: There are no arrows or lines connecting elements. The reading order is vertical, moving from top to bottom.
+- **Spatial relationships**: Elements are arranged in a stacked manner, with each option having its own line.
+
+</details>
+
+<p></p>
+
+
 
 ### Opening in VR
 
 In VR, first [Enable the Utilities Menu](../../Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md), then open your wearable and select the desired view mode.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75348041_964519652195117_6384169750030954787_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=wbnxDB4JaLUQ7kNvwGIFyNE&_nc_oc=AdnewBbPcAcYHDo1YS3PzJTR0Qrji3vFUFfk_IqbvSlxZq0-D5FpdlY_KRHu845g2tk5If5hqaHYvBmZwak0sQJH&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afk-l8dIz4jDmubbioakMqvXiFg0qYXn5TpsSqWzZpP73Q&oe=6955A1FA)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/8eb21f268197532829442b1589ab2f84c2e0d23c32533765bd3a4845c1d2fa83.md)
+
+### Overview
+The image depicts a stylized, geometric landscape with a hand reaching towards a glowing, hexagonal portal. The scene has a warm, orange-yellow color palette, giving it a dreamy, almost otherworldly atmosphere. The background features abstract shapes resembling mountains or structures, and a central figure that appears to be a tree or plant with a circular base and a flower-like top.
+
+### Key Elements
+- **Hand**: A light yellow hand with a black sleeve is positioned in the bottom left corner, reaching upwards. It is the focal point of the image.
+- **Hexagonal Portal**: A large, golden hexagon dominates the upper part of the image. It has a dark interior and is surrounded by a glowing aura.
+- **Background Shapes**: Abstract, angular shapes in shades of orange and yellow fill the background, resembling stylized mountains or buildings.
+- **Central Figure**: A central, darker shape in the middle of the hexagon appears to be a tree or plant with a circular base and a flower-like top, emitting a soft glow.
+
+### Visual Flow / Relationships
+The hand is the most prominent element, drawing the viewer's attention downward. The hexagonal portal acts as a gateway, leading the eye into the scene. The background shapes create a sense of depth and frame the central figure, which is illuminated and stands out against the darker hexagon.
+
+</details>
+
+<p></p>
+
+
 
 ## Available view modes
 
@@ -60,19 +132,117 @@ Wireframe view mode comes in three variants:
 
 For reference, the screenshot below displays a scene in the default **Shaded view** mode:
 
-![Default shaded view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484854812_677084104829544_7156692161690434146_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=KifcAztmi78Q7kNvwFOFfrh&_nc_oc=Adm9HSZSjW5Honvs-mfI1k4iyFrJqvXH9eGtU2H4ZhtMfW2Mfub9JrtZK9zewe6vKYezcssV_ay4ABw4E-4ST4kg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-AeCUdGUvRY0rPzFUtv2wQ&oh=00_Afk4iVq9z8lBG2Do_000NIW278PifqqmPsqC3hmPxTkEqA&oe=69559FA2)*Shaded (default) view mode.*
+<details>
+<summary>Default shaded view mode</summary>
+
+<p></p>
+
+[Default shaded view mode](../../image_data/8d4e770bbf283d8294512f2d41f2fb823e39aaecfd373b82f5d9b0b4687be246.md)
+
+### Overview
+The image depicts a 3D modeling environment with a scene rendered in a shaded view mode. The scene includes a small figure standing near some trees and a building structure that appears to be under construction or modification. There are various green lines and shapes indicating different aspects of the model, such as planes and possibly lighting or material properties.
+
+### Key Elements
+- **Background**: A gradient sky transitioning from dark blue at the top to purple at the bottom, suggesting a twilight or night setting.
+- **Foreground**: Silhouettes of leafless trees and a small figure resembling a person or character.
+- **Building Structure**: A rectangular building with a flat roof, partially transparent, and surrounded by green lines and shapes, likely representing construction or design elements.
+- **Green Lines and Shapes**: These indicate planes or areas of interest within the model, possibly for lighting, materials, or geometry.
+- **Small Figure**: A small, blue-colored figure positioned near the trees and the building structure.
+
+### Visual Flow / Relationships
+The most prominent visual element is the building structure, which is centrally located and surrounded by the green lines and shapes. The small figure is positioned in front of the building, suggesting interaction or observation. The trees are scattered around the scene, adding to the eerie atmosphere.
+
+</details>
+
+<p></p>
+
+*Shaded (default) view mode.*
 
 **Wireframe view** mode allows you to see through 3D models to get a high level view of your world’s geometric complexity and identify unintended overlaps between models in your world.
 
-![Wireframe view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/485027199_677084101496211_3942768371206233632_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=vK4NjuIjiJkQ7kNvwHv_16p&_nc_oc=AdnUO5xeDVJfml9fXU_QXyt6Fg1SHm-Jc2zJIXxmpqf7jCOMEz44-7QeOj-9BS_yCutt9jUjA2_JxvZ01Qhovuyk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-AeCUdGUvRY0rPzFUtv2wQ&oh=00_AfnDNk19o4WFfu6r6FLT5nYGPIpwehXG8O7tsuCWgplgUA&oe=6955791E)*Wireframe view mode.*
+<details>
+<summary>Wireframe view mode</summary>
+
+<p></p>
+
+[Wireframe view mode](../../image_data/d546392f988257caf14786d5d24dfb162b92178f7ab9cca2ab3bdd0d6a83a299.md)
+
+### Overview
+The image displays a wireframe view of a complex architectural structure, likely a 3D model of a building or a cityscape. The structure is composed of numerous interconnected lines forming a network-like pattern, with various shapes and forms that suggest a multi-story building with multiple levels and possibly a bridge or walkway connecting different parts. The overall composition is intricate and somewhat abstract.
+
+### Key Elements
+- **Visual Description**: The image features a black wireframe against a light gray background.
+- **Location**: The wireframe spans the entire image, occupying the central area.
+- **Contents**: The wireframe includes straight and curved lines forming a complex network. There are also some irregular shapes resembling trees or branches, adding to the abstract nature of the structure.
+- **Visual Styling**: The lines are uniformly black, and the background is a solid light gray. There are no gradients or additional colors.
+
+### Visual Flow / Relationships
+- **Most Prominent Visually**: The central part of the wireframe structure.
+- **Arrows, Lines, Connectors**: There are no explicit arrows or connectors; the lines form a continuous network.
+- **Spatial Relationships**: The elements are arranged in a way that suggests a three-dimensional space, with some lines extending upwards and others curving horizontally and vertically.
+
+</details>
+
+<p></p>
+
+*Wireframe view mode.*
 
 **Solid wireframe view** mode places a solid material underneath the wireframe. Use this view mode to help you tell objects apart more clearly and distinguish which objects are closer to the camera while in wireframe view.
 
-![Solid wireframe view mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484850704_677084091496212_497250801397507062_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Wk4RlUTY-EIQ7kNvwHruVzw&_nc_oc=AdllOaYtTd1D5r61aRYHzRWskno4sXMWMX2nWCfM85kfsaE3BCeD86AAt5NXv12O-xq6pWrRg9sX0pw4Lrr-ExK0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-AeCUdGUvRY0rPzFUtv2wQ&oh=00_AfmdpB60PZiSK6UzyNyCrbA2N9Hs-WmZRlQtGY2EmGU5uA&oe=69557497)*Solid wireframe view mode.*
+<details>
+<summary>Solid wireframe view mode</summary>
+
+<p></p>
+
+[Solid wireframe view mode](../../image_data/0e8b399ac954dfcbf90657836103ce34099877447113bb07f84d0d4d4b5e3fdf.md)
+
+### Overview
+The image displays a 3D wireframe model of a town or village scene viewed in a 3D modeling software interface. The scene includes buildings, trees, and bridges, all rendered in a monochromatic wireframe style. The user interface elements are visible at the top and right side of the screen.
+
+### Key Elements
+- **Wireframe Buildings**: Located centrally and extending across the image, these represent houses with pitched roofs and chimneys. They are interconnected by bridges.
+- **Trees**: Scattered throughout the scene, these are depicted as bare, skeletal structures without leaves.
+- **Bridges**: Connecting the buildings, these are geometrically structured, resembling trusses or lattice frameworks.
+- **User Interface Elements**: At the top, there are various tool icons and dropdown menus. On the right, there’s a vertical panel with options labeled "View mode," "Solid wireframe," and others.
+- **Grid**: A faint grid overlay is visible beneath the wireframe models, aiding in spatial orientation.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central area of the wireframe model, featuring the buildings and bridges.
+- **Arrows/Connectors**: None explicitly shown, but the layout suggests connections between elements.
+- **Spatial Relationships**: The buildings are arranged in a row, with bridges connecting them. Trees are dispersed around the buildings.
+
+</details>
+
+<p></p>
+
+*Solid wireframe view mode.*
 
 **Shaded wireframe view** mode shows the object’s texture underneath the wireframe. Use this view mode to help you understand how textures are affected by their underlying 3D models and debug texture issues that may be caused by the meshes underneath them.
 
-![Shaded wireframe view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/485768707_677084114829543_6632284219993419295_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=qryhTSsKnaMQ7kNvwGsnC81&_nc_oc=AdlVYzYZm35mzuiDbn89ZcLfgNuOkuzIZ0i4tBarkBP8y9sGjxf808sGdi-zGssmT3KWO8f68I8yLErbICoIZJAV&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-AeCUdGUvRY0rPzFUtv2wQ&oh=00_AfmpRSbaUbL8wGrM9Q61JDKj8DYNsioMvR7BzPK5n9A-tw&oe=69558E5B)*Shaded wireframe view mode.*
+<details>
+<summary>Shaded wireframe view mode</summary>
+
+<p></p>
+
+[Shaded wireframe view mode](../../image_data/c62b6095f6c036a963e5bae9b3acf79f51b857a4354b655e574043dc2de0ddd1.md)
+
+### Overview
+The image depicts a 3D wireframe model of a small town or village, viewed in a shaded wireframe mode within a 3D modeling software interface. The scene includes buildings, trees, and possibly bridges or roads, all rendered in a monochromatic wireframe style against a purple grid background.
+
+### Key Elements
+- **Buildings**: Silhouetted structures with triangular roofs, arranged in a clustered formation. They appear to be multi-story houses or small buildings.
+- **Trees**: Bare, leafless trees scattered throughout the scene, some with intricate branch patterns.
+- **Roads/Bridges**: Geometric shapes resembling roads or bridges, constructed with triangular and rectangular wireframes.
+- **Grid Background**: A purple grid overlaying the entire scene, providing a reference for scale and perspective.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the buildings and trees, which are distributed across the scene. The grid background helps establish depth and perspective. There are no arrows or lines connecting elements, but the arrangement suggests a layout typical of a small town or village.
+
+</details>
+
+<p></p>
+
+*Shaded wireframe view mode.*
 
 ## Collision view mode
 
@@ -82,7 +252,32 @@ For reference, the screenshot below displays a scene in the default **Shaded vie
 
 In collision view mode, colliders are visualized using a semi-transparent colored material.
 
-![Collision view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484831925_677084094829545_4062895164199937649_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=l3_KKZ__CWMQ7kNvwFS4qVg&_nc_oc=AdnAAf8R7uKoxjs5k9xgLajsyQZ_Rof-PuPIHFNuP5TiQ2CfOmanhog9bQTCHoMyDjBfQEliKShZv3mQgzzJEoS-&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-AeCUdGUvRY0rPzFUtv2wQ&oh=00_AfnlB6zIS7LBfS0g9uHryn7Wv31UIsUsRHtdw56rFbao7A&oe=69559C80)*Collision view mode.*
+<details>
+<summary>Collision view mode</summary>
+
+<p></p>
+
+[Collision view mode](../../image_data/a304b93c02cf5f339b7d22805875ca40e44576ba7f620e1967f3ed407608c20c.md)
+
+### Overview
+The image depicts a 3D environment viewed from an overhead perspective, likely a scene from a video game or a 3D modeling software. The environment includes a variety of geometric shapes and objects, some of which appear to be part of a collision detection system. The scene has a Halloween theme, indicated by the presence of tombstones and barren trees.
+
+### Key Elements
+- **Background**: A gradient sky transitioning from purple to blue, suggesting a twilight or night setting.
+- **Foreground**: A reddish-orange area that could represent terrain or ground.
+- **Geometric Shapes**: Several rectangular and triangular shapes are scattered throughout the scene. These shapes are highlighted in green and red, indicating collision detection zones.
+- **Trees**: Bare, leafless trees are distributed across the scene, adding to the eerie atmosphere.
+- **Tombstones**: Silhouettes of tombstones are visible in the background, reinforcing the Halloween theme.
+- **UI Elements**: At the top, there are various interface elements such as buttons and dropdown menus, indicating this might be a 3D modeling or game development tool.
+
+### Visual Flow / Relationships
+The most prominent elements are the collision detection shapes, which are spread across the scene. There are no clear arrows or lines connecting elements, but the arrangement suggests a spatial relationship where the shapes interact within the environment. The interface elements at the top provide context, suggesting user interaction with the scene.
+
+</details>
+
+<p></p>
+
+*Collision view mode.*
 
 ## Overdraw view mode
 
@@ -92,4 +287,28 @@ In collision view mode, colliders are visualized using a semi-transparent colore
 
 In overdraw view mode, you can see where geometries overlap the most in your world by looking for the areas that are most opaque. Each occurrence of overdraw is a place where unnecessary pixels are being drawn. You can optimize your world by modifying your meshes and optimizing your layout to minimize overdraw.
 
-![Overdraw view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484810609_677084108162877_6307321041192439066_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=phVvsNJnYlUQ7kNvwFOICPe&_nc_oc=Adn2DXqxv6hRyXeoBKvPMtAM9tOATqMYlbQIE4een4CzTp8HUibmgv2TSfsrvm2eKGX3xU10xhM-8V47mQHpwzjy&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-AeCUdGUvRY0rPzFUtv2wQ&oh=00_AfkZN15BEhcGXBR2hDKtBIE0us9DDhG68uIJH1MJHK-QXw&oe=6955738F)*Overdraw view mode.*
+<details>
+<summary>Overdraw view mode</summary>
+
+<p></p>
+
+[Overdraw view mode](../../image_data/fc597e3557835df11e6acd661f46d09f5d68f13894eccfc5f7a849407791192f.md)
+
+### Overview
+The image depicts a 3D model of a cemetery scene viewed in a software interface, likely a 3D modeling or rendering program. The scene includes gravestones, trees, and a few small structures resembling mausoleums or chapels. The overall color scheme is a muted orange, giving the scene a somewhat eerie or spooky atmosphere.
+
+### Key Elements
+- **Gravestones**: Numerous gravestones are scattered throughout the scene, varying in shape and size. They appear as simple rectangular blocks with flat tops.
+- **Trees**: Bare, leafless trees are distributed across the scene, some with intricate branch patterns. These trees are stylized and lack foliage.
+- **Mausoleums/Chapels**: A few larger structures resembling mausoleums or chapels are present, featuring pointed roofs and decorative elements.
+- **Fencing**: Wooden fencing runs through parts of the scene, separating different areas.
+- **Ground**: The ground is a uniform brown, with some areas appearing slightly lighter, possibly indicating different materials or lighting effects.
+
+### Visual Flow / Relationships
+The scene is arranged in a grid-like pattern, with the gravestones and trees distributed across the area. The mausoleums are positioned towards the back, while the fencing creates boundaries within the scene. There are no arrows or lines connecting elements, but the layout suggests a structured arrangement typical of a cemetery design.
+
+</details>
+
+<p></p>
+
+*Overdraw view mode.*

@@ -6,7 +6,36 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The World capacity guidelines dialog shows you how close your world is to meeting or exceeding the capacity limits of a World. To access the World Capacity dialog, open the **Main Menu** and select **World Capacity**.
 
-![World Capacity menu item](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493703357_717633330774621_7408317430748065666_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=EC-dBW3QEMIQ7kNvwHY4g9g&_nc_oc=Adlao6oUG4Dr3LZ3f5WgEhqANiJZLUgFcC47Ty1TtYwsGpdykd4Xpel45tXhy0qxpffrbG3qrqm95Fytc2eXPrXM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PeLGbOE5anZ2DbpztcYqLA&oh=00_AfkWRcm9s_Rd2OWsuTPb1VvWB_YMTJBc9Tif8whcijx_CQ&oe=69557270)
+<details>
+<summary>World Capacity menu item</summary>
+
+<p></p>
+
+[World Capacity menu item](../../image_data/33accbd5c4e75e1ab065f3bcdb1d11fc6a10143d338c0e7a0c45cc2e56d6afbb.md)
+
+### Overview
+This image depicts a menu interface with a list of options. The options are presented as clickable items with varying background colors and text alignment. The highlighted option, "World Capacity," stands out due to its darker background compared to the others.
+
+### Key Elements
+- **Visual description**: The menu items are rectangular blocks with rounded corners.
+- **Location**: The items are arranged vertically.
+- **Contents**: 
+    - "Keyboard Shortcuts"
+    - "Player Settings"
+    - "World Capacity" (highlighted)
+    - "Report a Problem"
+- **Visual styling**: The background colors vary, with "World Capacity" having a darker shade compared to the others. The text is white across all items.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: "World Capacity" is highlighted, drawing attention.
+- **Arrows, lines, connectors**: None present.
+- **Spatial relationships**: Items are stacked vertically, with no overlapping or connecting lines.
+
+</details>
+
+<p></p>
+
+
 
 The World capacity guidelines dialog shows you the used capacity, as a percentage, of four major categories: Objects, Simulation and animation, World vertex count, and Sounds. If you at more than 75% of the capacity limit for any of these categories, you will see a yellow bar for the category. If you are at more than 100% of the capacity limit for any of these categories, you will see a red bar and an error message.
 
@@ -14,13 +43,108 @@ Note
 
  The World vertex count category is incorrectly named in the dialog as world tricount. This will be fixed soon.
 
-![World capacity dialog](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/495375229_717633327441288_7014509691232050718_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=uHoP7QZM8-EQ7kNvwFc4DZE&_nc_oc=Adm8nHmPdpqSZ1WMmMplyCbY7eNKc4qTrJr2lLNHGohf2qZvrQCBj7-NwnjxN15NWPSMELN7j8PCVux9jG97cCkt&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PeLGbOE5anZ2DbpztcYqLA&oh=00_Afl-LVa-Kgqpwr6VOmCWomxx1QAC9sHCUklNKHyscUCd9A&oe=6955737F)
+<details>
+<summary>World capacity dialog</summary>
+
+<p></p>
+
+[World capacity dialog](../../image_data/2b3cbd091d1d047c6951a7acb311c650c535fdfe84bdb7f88f0b75d493a2054a.md)
+
+### Overview
+This image displays a user interface section titled "World capacity guidelines." It presents various metrics related to world performance, with progress bars indicating the usage percentage for each category. There is also a notification at the top providing advice on testing methods for accurate performance measurements.
+
+### Key Elements
+- **Title**: "World capacity guidelines"
+- **Notification Bar**: Located at the top, it contains an informational icon and text advising users to test their world live and use real-time metrics. The text includes a clickable "Documentation" link.
+- **Progress Bars**: Multiple horizontal progress bars are displayed below the title, each representing a different metric.
+    - **Objects**: A blue progress bar showing 4% usage.
+    - **Simulation and animation**: A blue progress bar showing 7% usage.
+    - **Dynamics**: Two progress bars side-by-side labeled "Physics" and "Triggers," both showing 0% usage.
+    - **VFX**: Two progress bars side-by-side labeled "Texts" and "Players," both showing 0% usage.
+    - **World vertex count**: A blue progress bar showing 39% usage.
+    - **Sounds**: A progress bar showing 0% usage.
+
+### Visual Flow / Relationships
+The layout is structured with the title at the top, followed by the notification bar, and then the progress bars arranged vertically. Each progress bar has its corresponding label and percentage next to it. The visual hierarchy is clear, with the title being the most prominent element, followed by the notification, and then the individual progress bars.
+
+</details>
+
+<p></p>
+
+
 *World capacity dialog*
 
-![World capacity with Sounds at yellow](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/492508614_717633320774622_186645589074315552_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RW_VV2VT4w8Q7kNvwG1ptRW&_nc_oc=AdnQoRs5LkImdO3O2Pbw2bbaZ1C6vrZQZCg4nOCa8AVrulHm19EqcdDjZ5oN8w3HV46qYSiBvzEgNs64Wy_A1BIZ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PeLGbOE5anZ2DbpztcYqLA&oh=00_AfmXeA2jYJdlrhmo2hX1R9ZRfjmh8QorsjehApO24njgbw&oe=695593BB)
+<details>
+<summary>World capacity with Sounds at yellow</summary>
+
+<p></p>
+
+[World capacity with Sounds at yellow](../../image_data/fc1d10ac0065733d3ca162d0e26759802c3dd754f8e46dad2c370950eb44f157.md)
+
+### Overview
+This image displays a user interface section titled "World capacity guidelines." It presents various performance metrics related to a game or simulation environment, with progress bars indicating the usage percentage for each category. The interface includes a notification at the top providing guidance on accurate performance measurement.
+
+### Key Elements
+- **Title**: "World capacity guidelines"
+- **Notification Bar**: Located at the top, contains an informational icon and text advising users to test live and use real-time metrics. The text includes a clickable "Documentation" link.
+- **Progress Bars**: Multiple horizontal progress bars, each labeled with a category and its corresponding usage percentage.
+    - **Objects**: 4% usage
+    - **Simulation and animation**: 7% usage
+        - **Dynamics**: 0% usage
+        - **Triggers**: 0% usage
+        - **VFX**: 0% usage
+    - **World vertex count**: 39% usage
+    - **Sounds**: 81% usage
+
+### Visual Flow / Relationships
+The layout is structured with a clear hierarchy:
+- The title is prominently displayed at the top.
+- Below the title, a notification bar provides important information.
+- The progress bars are arranged vertically, each representing a different metric.
+- The percentages next to each category indicate the current usage level.
+
+</details>
+
+<p></p>
+
+
 *World capacity dialog with Sounds at yellow*
 
-![World capacity with vertex count at 407% and error message](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493105892_717633324107955_9093427791641727680_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=H8BafCczwp0Q7kNvwEPsFyz&_nc_oc=AdnIyr4N3cd25izQPfnBWjzhIzCdUasr-VH7mKI5FDHjr23_JWbwW0AIq2b6XRKOsMje3HM0Gh-ziYZqUcCHTXKQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PeLGbOE5anZ2DbpztcYqLA&oh=00_AfkzTt2ZGMN2BTqR0Rxja2MfWNSobChs3apLXDXEH2xxlA&oe=69559C6F)
+<details>
+<summary>World capacity with vertex count at 407% and error message</summary>
+
+<p></p>
+
+[World capacity with vertex count at 407% and error message](../../image_data/39c8aa9109e7b1f9a29e6778efd8ffc7c19176a4bf0ab6471a60d013756220b6.md)
+
+### Overview
+This image is a screenshot of a user interface displaying world capacity guidelines. It includes various performance metrics and a warning message indicating that the scene exceeds the vertex capacity.
+
+### Key Elements
+- **Title**: "World capacity guidelines" at the top.
+- **Warning Message**: A red-bordered box with a red minus sign and text stating, "You can no longer spawn objects. Your scene exceeds the vertex capacity."
+- **Performance Metrics**:
+  - **Objects**: A progress bar showing 4% completion.
+  - **Simulation and animation**: A progress bar showing 7% completion.
+    - **Dynamics**: 0% Physics.
+    - **Triggers**: 0% Texts.
+    - **VFX**: 0% Players.
+  - **World vertex count**: Displays 407%, highlighted in red.
+- **Sounds**: A progress bar showing 0% completion.
+
+### Visual Flow / Relationships
+The layout is structured with a clear hierarchy:
+- The title is at the top.
+- Below the title, there is a warning message.
+- Performance metrics are listed below the warning, grouped into categories.
+- The world vertex count is prominently displayed with a red highlight.
+- The sounds metric is at the bottom.
+
+</details>
+
+<p></p>
+
+
 *World capacity with vertex count at 407% and error message*
 
 ## Understanding capacity limits

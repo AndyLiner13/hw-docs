@@ -1270,7 +1270,38 @@ Fortunately for us, there is [Prettier](https://prettier.io/), an industry leadi
 
 To install prettier in VSCode, simply open VSCode, go to the Extensions tab on the right sidebar (the three cubes with the fourth cube offset), search for “Prettier”, click on “Prettier - Code formatter”, and click Install.
 
-![Screenshot shows a user in VSCode, preparing to install the Prettier app](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470676008_612820944589194_6716381116547135037_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=yCH2ftYvqVAQ7kNvwF_D8C_&_nc_oc=AdnXq4oZVDlq-JoCDNrl25fUMTi_j6k0HU99vu7cOSiP5y_u8SZp_rhPqMph9vq_cF2C7yyiDxQg_6hi74cWQ99b&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_NuwJKsY7n8NBaI8Ur2svg&oh=00_AfkSxrtUIxCEE5IEACbwf9v288EhESh3t5sf98x0wABcww&oe=69558CB5)
+<details>
+<summary>Screenshot shows a user in VSCode, preparing to install the Prettier app</summary>
+
+<p></p>
+
+[Screenshot shows a user in VSCode, preparing to install the Prettier app](../../image_data/7ffd0b12943f6463d8e0c38a8e4bf5fc5215e882a7fb3878d69dffc197d5c1c0.md)
+
+### Overview
+This image shows a screenshot of a Visual Studio Code extension marketplace search results page. The focus is on the search bar and the results displayed below it. The interface includes a search query being entered into the search bar, and the results are listed as extensions that match the search term "prettier."
+
+### Key Elements
+- **Search Bar**: Located at the top, with a yellow arrow pointing to it. Contains the text "prettier."
+- **Search Query**: The text "prettier" is typed into the search bar.
+- **Results List**: Below the search bar, there are several extension results listed. Each result has a title, a brief description, an install button, and an "install" label.
+    - **Title**: "Prettier"
+    - **Description**: "Code formatter using prettier."
+    - **Install Button**: A blue button labeled "Restart Extensions" with an "install" label.
+    - **Title**: "Prettier ESLint"
+    - **Description**: "A Visual Studio Code Extension by Rebecca Vest."
+    - **Install Button**: A blue button labeled "Install."
+    - **Title**: "Prettier SQ"
+    - **Description**: "VSCode Extension to format SQL."
+    - **Install Button**: A blue button labeled "Install."
+
+### Visual Flow / Relationships
+The most prominent visual element is the search bar, as indicated by the yellow arrow. The search results are arranged vertically below the search bar. There are no arrows or lines connecting elements, but the layout suggests a typical reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 For other editors, check out the [Editor Integrations](https://prettier.io/docs/en/editors) page.
 
@@ -1280,13 +1311,59 @@ The most important configuration setting to make is to ensure that Prettier is u
 
 If you don’t get a popup when doing Format Document for the first time, it means you already have a typescript formatter configured. You will want to change that to Prettier by going to File -> Preferences -> Settings, typing `@id:editor.defaultFormatter @lang:typescript` in the search bar, and switching the Default Formatter to ‘Prettier - Code Formatter’.
 
-![Screenshot shows a user setting the formatting type in Prettier](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470572912_612820937922528_693198462409116070_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7nTPKbAlIyEQ7kNvwGtdkRa&_nc_oc=AdnQCdH12Z4lp5BnPERG4Q-zoeR75AXWGa7fYXqjsp1oLYQJfKpMxci-r0G6oLX6vqvFKtSGwmV-eIBGqUFL2E-s&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_NuwJKsY7n8NBaI8Ur2svg&oh=00_AfnHt43aL8A0wWY7zlwYGw8elkV-yiWl26yah1qkgrRcbg&oe=69559E9F)
+<details>
+<summary>Screenshot shows a user setting the formatting type in Prettier</summary>
+
+<p></p>
+
+[Screenshot shows a user setting the formatting type in Prettier](../../image_data/f9e6a8db2a99595f2b85157c00e2796d6c86e172ad8629c3faf6f27dbddc5ba3.md)
+
+### Overview
+This image depicts a screenshot of a code editor interface, specifically showing the settings for a TypeScript formatter within a development environment. The interface includes a search bar at the top, a settings menu, and a list of formatter options.
+
+### Key Elements
+- **Search Bar**: Located at the top-left, contains the text "scripts".
+- **Settings Menu**: Positioned above the formatter options, with tabs labeled "Settings", "eslint.config.js", and "TestESLint".
+- **Formatter Options**: A list under the "User [TypeScript]" tab, showing "Text Editor (1)" and "Editor: Default Formatter". Below that, there's a description of the default formatter and a dropdown menu listing "Prettier - Code formatter".
+- **Workspace Tab**: Located next to the formatter options, labeled "Workspace [TypeScript]".
+- **Tabs**: Multiple tabs are open, indicating different configurations or projects being managed.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the formatter options and the workspace tab. The formatter options are nested under the "User [TypeScript]" tab, which is part of the "Workspace [TypeScript]" workspace. The search bar at the top is used to filter through the settings. The tabs at the top provide navigation between different configuration areas.
+
+</details>
+
+<p></p>
+
+
 
 By default, Prettier won’t format anything until you tell it to via Format Document or Format Selection. However, you can also configure VSCode to Format On Save, On Paste, and On Type. Note that if you have File: Auto Save set to `afterDelay`, then Format On Save will only work on an explicit save.
 
 To find the formatting options in File->Preferences->Settings, search for `editor:format` and tick on whichever options you prefer (below shows all of On Paste, On Save, and On Type enabled).
 
-![Screenshot shows a user searching for formatting settings in VS Code](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470641657_612820931255862_1622390255235448701_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=t3bYe_iVx7oQ7kNvwGr7ozm&_nc_oc=AdmGpOQKHLRpg8AlkuH8nCT3VOt4KSN9frP6e0GoiUnDFV8SPykjIlK6thRUYrfKciuNYfbvd8eNCOz_PuKIF-ob&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_NuwJKsY7n8NBaI8Ur2svg&oh=00_AflxX9YW0fhKhXKyiIZLeLbdiEkNC3b21OTAp5D-ApzFyg&oe=695586E8)
+<details>
+<summary>Screenshot shows a user searching for formatting settings in VS Code</summary>
+
+<p></p>
+
+[Screenshot shows a user searching for formatting settings in VS Code](../../image_data/ceb1db8653a1af4e328fed636eca1a0de144a78dc9a17835acd8bf463b6e9653.md)
+
+### Overview
+This image depicts a screenshot of a software interface, specifically a settings menu within a code editor or similar application. The layout includes a sidebar on the left with various menu options, and the main content area on the right displaying settings configurations.
+
+### Key Elements
+- **Sidebar (Left Panel)**: Contains a vertical list of menu items such as "General," "Editor," "Workspace," "Text Editor," "Editor Management," "Accessibility," "Extensions," "Themes," "Keymap," "Predictor," and "Help."
+- **Main Content Area (Right Panel)**: Displays settings related to "Formatter On Paste" and "Formatter On Save" modes. Text blocks include descriptions and checkboxes for enabling these features.
+- **Status Bar (Top Right)**: Shows the current workspace name ("work on jinja2") and the last sync time.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the menu items in the sidebar and the settings descriptions in the main content area. The layout follows a standard left-side navigation pattern common in applications. There are no arrows or lines connecting elements, but the natural reading flow moves from the sidebar to the main content area.
+
+</details>
+
+<p></p>
+
+
 
 There are a number of other minor settings you can adjust, listed on the [options](https://prettier.io/docs/en/options) page and via the ‘gear’ icon on the plugin, such as Tab Width (default 2), and Print Width (default 80). Those values are a bit of an anachronism from when people didn’t have very wide monitors. However, if you make customizations, make sure you put a [configuration file](https://prettier.io/docs/en/configuration) like `.prettierrc` or `.editorconfig` in the `scripts` directory of *each* of your horizon world projects so that others using your code will pick up the same settings. Thus, it’s best to just not change them at all.
 
@@ -1316,19 +1393,102 @@ Installation of typescript-eslint is significantly more complicated than install
 
 * Desktop Editor - Open Scripts Folder in Explorer
 
-![Screenshot shows a user selecting the 'Open Scripts Folder in Explorer' option](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470675128_612820934589195_8552402997182994833_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=N0hobGk2DEMQ7kNvwFcP-bC&_nc_oc=AdkuLyMAUDO71-jTRyIorJOneyMpmXpsgzSudx0212tUBSN6BlDfiuyN8-_LrZSd2vh6b0Kl5ptQGgANlOgHhwQI&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=_NuwJKsY7n8NBaI8Ur2svg&oh=00_AfmvdfJ80nClGxip4znlmHRae4WO6Q-Doin0C69pEi9l-w&oe=6955A216)
+<details>
+<summary>Screenshot shows a user selecting the 'Open Scripts Folder in Explorer' option</summary>
+
+<p></p>
+
+[Screenshot shows a user selecting the 'Open Scripts Folder in Explorer' option](../../image_data/d86fe98d34cc5eb62d04624fca7a230da5139e2ac588653de757d04236c2a018.md)
+
+### Overview
+This image depicts a user interface element within a software application, likely a code editor or IDE, showing a script management or search feature. The interface includes a search bar, a list of scripts, and various icons and buttons for interaction.
+
+### Key Elements
+- **Search Bar**: Located at the top-left, with a magnifying glass icon next to it. Contains the placeholder text "> Search hierarchy".
+- **Script List**: Positioned centrally, displaying a single script named "TestESLint" with a status indicator "Compiled". Below the script name, there's a small icon resembling a folder.
+- **Icons and Buttons**: At the top, there are several icons and buttons, including a settings gear, a plus sign, and others that appear to be for managing scripts or performing actions related to them.
+- **Search Results Panel**: On the right side, there's a panel labeled "Scripts" with a search input field and a button with a downward arrow, suggesting a dropdown menu or additional options.
+- **Status Indicator**: A small blue circle with a white exclamation mark appears next to the script name, indicating some form of alert or status update.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the search bar and the script list. The search bar is interactive, allowing users to search for scripts within the hierarchy. The script list is the central focus, displaying the current selection. The icons and buttons above provide additional functionalities, such as adding new scripts or accessing settings. The search results panel on the right suggests that the user can filter or view more scripts based on the search query.
+
+</details>
+
+<p></p>
+
+
 
 Go to the scripts menu, press on the triple dot menu, and select Open Scripts Folder in Explorer (note it actually opens the folder *above* the scripts folder, you will need to click on `scripts` once the window opens to go into that folder)
 
 * VS Code - Reveal in File Explorer
 
-![Screenshot shows a user selecting the 'Reveal in File Explorer' option](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470640654_612820947922527_7851473101062803703_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=PWE4-HWcFkUQ7kNvwE2CULL&_nc_oc=AdlgVpEI90QJpBeXd3L3-qjWCmJulrkDEazn41TSWsQ4-Sux2ALgV8rDjOkmHZ9uUtKswORDFgZzdUnP8ABwyP0v&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_NuwJKsY7n8NBaI8Ur2svg&oh=00_AfmmauKWknofdr4gtGs15P7Z8D_SjWnkSfVDPEHkkP9Sbw&oe=69559B33)
+<details>
+<summary>Screenshot shows a user selecting the 'Reveal in File Explorer' option</summary>
+
+<p></p>
+
+[Screenshot shows a user selecting the 'Reveal in File Explorer' option](../../image_data/4fc6a747e130d59ff698dd2346229b706758cfcc907b026abbb05cbe329e6f7f.md)
+
+### Overview
+This image depicts a screenshot of a code editor interface, specifically showing a file explorer window open within the editor. The interface includes a sidebar with project folders and a main editor area displaying TypeScript configuration settings.
+
+### Key Elements
+- **Visual Description**: The image shows a dark-themed code editor with a sidebar on the left and a main editor area on the right.
+- **Location**: 
+  - **Sidebar**: Left side of the screen.
+  - **Editor Area**: Right side of the screen.
+- **Contents**:
+  - **Sidebar**:
+    - **Project Folders**: Lists directories such as "SCIRPS," "Backups," "accord," "node_modules," "editor," and others.
+    - **Selected File**: "tsconfig.json" is highlighted in the sidebar.
+  - **Main Editor Area**:
+    - **Code Display**: Displays TypeScript configuration settings.
+    - **Highlighted Text**: Contains code snippets like `compilerOptions`, `allowJs`, `strict`, `esModuleInterop`, `target`, and `typeRoots`.
+- **Visual Styling**:
+  - **Background**: Dark theme with light text.
+  - **Text Colors**: White text on a dark background.
+  - **Highlighting**: Code snippets are highlighted in yellow.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The highlighted "tsconfig.json" file in the sidebar.
+- **Arrows/Connectors**: None visible.
+- **Reading Order**: The user likely reads from left to right, starting with the sidebar and moving to the editor area.
+
+</details>
+
+<p></p>
+
+
 
 Right click on your `tsconfig.json` file and select Reveal in File Explorer
 
 In the File Explorer, you can then click past the *end* of the location bar text (don’t click on any of the text), and copy the path to the `scripts` directory to the clipboard for use with your command line terminal of choice.
 
-![Image shows a user preparing to copy the path to the scripts directory](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/470759816_612820924589196_4853819129964169081_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=tFmqUAsKaRYQ7kNvwGfUGrj&_nc_oc=AdlOWuMonk20SFHpx6WMZ5q9l2pgVlEAexPdjnj5O5FOT-sKalg8bpRHURcwdruyTv3O7kCEhLgNgtNbdSTMRUe_&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=_NuwJKsY7n8NBaI8Ur2svg&oh=00_AfkVdFlGG4h0RiSBKYN8sI1haSEhTEL6XguLA1zI9okysw&oe=69559C4A)
+<details>
+<summary>Image shows a user preparing to copy the path to the scripts directory</summary>
+
+<p></p>
+
+[Image shows a user preparing to copy the path to the scripts directory](../../image_data/5d3d9f239b94b5fb3a88f679ba7527cd1b94086fe6072a0b8c03ea527bd81930.md)
+
+### Overview
+This image depicts a screenshot of a file explorer window within a software interface, likely a code editor or IDE given the presence of a search bar and various toolbars. The window is divided into several sections, including a navigation pane, a search bar, and a toolbar at the bottom.
+
+### Key Elements
+- **Navigation Pane**: Located on the left side, it contains a folder named "scripts". It has a dark background with a light-colored folder icon.
+- **Search Bar**: Positioned at the top-center, it includes a search field with placeholder text ("Meta > Horizon Worlds > eslint test_101608329356056146 > scripts") and a refresh icon next to it.
+- **Toolbar**: At the bottom, there are several icons and options such as "New", "Cut", "Copy", "Paste", "Sort", "View", and more. These icons are blue with white icons inside them.
+- **Tabs**: A tab labeled "Meta" is visible above the search bar.
+
+### Visual Flow / Relationships
+The most prominent visual element is the search bar, which is centrally located at the top. The navigation pane on the left provides context for the current directory path. The toolbar at the bottom offers various actions that can be performed within the current view.
+
+</details>
+
+<p></p>
+
+
 
 It should be something like `C:\Users\live\AppData\LocalLow\Meta\Horizon Worlds\eslint test_10160832935606146\scripts`
 
@@ -1336,7 +1496,35 @@ It should be something like `C:\Users\live\AppData\LocalLow\Meta\Horizon Worlds\
 
 To install ESLint in VSCode, open VSCode, go to the Extensions tab on the right sidebar (the three cubes with the fourth cube offset), search for “ESLint”, and click Install (same procedure as for Prettier).
 
-![Image shows a user preparing to install ESLint](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470678210_612820941255861_8275137836878447550_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=apjaruFrYV8Q7kNvwE00Lk4&_nc_oc=AdnWearpzawgmJ9YClSLhVKtTvdKplf01ck8EFYZ6gF74P9VB23O2Gye9U0Lf90GrY7wuS1jS6Rnyn-SlK6RU_1-&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_NuwJKsY7n8NBaI8Ur2svg&oh=00_Afkxa4IdAs3W0PzLUNNb5jsNw_gO8fmGnyIQzwrbtp3BPg&oe=695584B0)
+<details>
+<summary>Image shows a user preparing to install ESLint</summary>
+
+<p></p>
+
+[Image shows a user preparing to install ESLint](../../image_data/e14ca761a70087bf9ffdaa2146c3056f28bdc316c9813b535c25c9c3f223c2d3.md)
+
+### Overview
+This image depicts a screenshot of a Visual Studio Code (VS Code) interface, specifically showing the Extensions view with a focus on the ESLint extension. The screen includes various UI elements such as search bar, file explorer, and extension listings.
+
+### Key Elements
+- **Search Bar**: Located at the top right, contains the text "scripts".
+- **File Explorer**: On the left side, showing a tree structure with folders and files.
+- **Extensions View**: Dominates the central area, displaying extensions related to ESLint.
+    - **ESLint Extension**: Highlighted prominently with its logo (orange circle with "ESLint" written in white), version number (v3.0.18), and download count (39,277,949).
+    - **Description**: Below the extension name, it states that ESLint integrates ESLint JavaScript into VS Code.
+    - **Action Buttons**: Two buttons labeled "Restart Extensions" and "Install" are visible under the ESLint extension listing.
+    - **Rating**: A star rating system is shown next to the extension, indicating user reviews.
+    - **Other Extensions**: Below ESLint, there are other extensions listed, such as Prettier, with their respective logos, versions, sizes, and download counts.
+- **Status Bar**: At the bottom, it indicates that the ESLint extension is recommended based on recently opened files.
+
+### Visual Flow / Relationships
+The most prominent visual element is the ESLint extension due to its large size and central placement. The search bar at the top-right acts as a navigation tool. The file explorer on the left provides access to project files. The extensions are arranged in a grid-like layout within the central area, with the ESLint extension being the focal point.
+
+</details>
+
+<p></p>
+
+
 
 #### Node.js runtime (one time)
 
@@ -1464,7 +1652,30 @@ This popular plugin checks your code and comments for spelling mistakes. It is e
 
 To install Code Spell Checker in VSCode, simply open VSCode, go to the Extensions tab on the right sidebar (the three cubes with the fourth cube offset), search for “spell check”, click on “Code Spell Check”, and click Install.
 
-![Screenshot shows a user downloading spell checker in VS Code](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470586099_612820927922529_2792969151739980727_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=qKAbCAkhw4oQ7kNvwFY8_tz&_nc_oc=AdmfOxajaB_Y4Yzmvwjf012NnVa_siM9PU2GPZgXy6VxqrMu3QBT01WnURLSaKZuq1IGD0-L2mGg_hFRWU1rhHA6&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_NuwJKsY7n8NBaI8Ur2svg&oh=00_AflLRJSTJQpy_BKhkbGROA5tx64jkrh0fu-E-TfL5_Y6mw&oe=69558EB3)
+<details>
+<summary>Screenshot shows a user downloading spell checker in VS Code</summary>
+
+<p></p>
+
+[Screenshot shows a user downloading spell checker in VS Code](../../image_data/9197f5fa36c94da6d7136a420497145f6f12b24715f3e72c259fae2b77d097df.md)
+
+### Overview
+This image depicts a screenshot of a code editor interface, specifically showing the Visual Studio Code environment. The focus is on a spell checker extension named "Code Spell Checker" by Street Side Software. The interface includes a search bar, a list of extensions, and the spell checker extension's details page.
+
+### Key Elements
+- **Search Bar**: Located at the top-left, it contains the text "spell checker" and has a magnifying glass icon next to it.
+- **Extension List**: On the left side, there are several extensions listed, such as "Code Spell Checker," "Spanish Add-On," and "Russian Add-On." Each entry includes a green checkmark, a star rating, and the number of downloads.
+- **Spell Checker Extension Details**: On the right side, the spell checker extension is highlighted. It features a large green circle with a white checkmark, the text "Spell Checker," and the version number "v4.8.0.21."
+- **Details Page**: Below the spell checker logo, there is a description stating "Spelling checker for source code" along with the developer's name and website. There are also buttons labeled "Disable," "Uninstall," and "Auto Update."
+
+### Visual Flow / Relationships
+The most prominent visual element is the spell checker extension detail page, which is centrally located on the right side. The search bar is at the top-left, and the extension list is on the left side. Arrows and lines are not present, but the layout suggests a typical reading order moving from left to right and then down.
+
+</details>
+
+<p></p>
+
+
 
 #### Configuration
 

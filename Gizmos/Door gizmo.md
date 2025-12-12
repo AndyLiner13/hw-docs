@@ -28,7 +28,31 @@ To change the door’s destination, click **Change**. Search for public worlds a
 
 The **Visible** toggle controls the visibility of the gizmo in the world.
 
-![Door gizmo properties panel](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494960168_710920418112579_1665985283251277521_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=wFSqfQ8o5ckQ7kNvwEz7_40&_nc_oc=AdmJQ8KdJVJzynzh8f7flpb_DhpdcvKU21jWEltA58h4rBOR87I6WoMmS91TfDwm2E6WNeXM3HDxzfKyC0o8qLI4&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=lvC6GhW45FZWmy6i5M1Tbg&oh=00_AflY7Doz8zqYeghcm_fwjdMTm9Fbt_V3Ze9V1ewpU4XHhg&oe=69558E09)
+<details>
+<summary>Door gizmo properties panel</summary>
+
+<p></p>
+
+[Door gizmo properties panel](../image_data/5af72426181839abedac7e5ae1ac28ad8e60524d6d2a05f13e62df03381af7f6.md)
+
+### Overview
+This image depicts a user interface element showing properties and attributes of a "Door" object within a game or application. The layout includes a header, a property panel, and a preview section.
+
+### Key Elements
+- **Header**: Located at the top, labeled "Properties." Contains a small icon resembling a door and a text field with "[Door]" inside.
+- **Debug Data Section**: Below the header, a section titled "Debug Data" with a plus sign indicating expandable content.
+- **Attributes Section**: Expands under "Debug Data," showing "Position," "Rotation," and "Scale" with numerical values next to them.
+- **Door Section**: Below the Attributes, a section labeled "Door" with a subtitle "Current Destination: My First World P1 and 2." Contains a small thumbnail image of a game environment and a "Change" button next to it.
+- **Visible Toggle**: At the bottom right, a toggle switch labeled "Visible."
+
+### Visual Flow / Relationships
+The most prominent visual elements are the "Attributes" section and the "Door" section. The "Attributes" section is expanded, making its contents more noticeable. The "Door" section is below and to the right of the "Attributes" section, with the thumbnail image and "Change" button positioned side-by-side. The "Visible" toggle is located far to the right, at the bottom of the interface.
+
+</details>
+
+<p></p>
+
+
 
 ## Travel to another world using the door gizmo
 
@@ -51,7 +75,30 @@ The following image shows the player in front of the door gizmo. Pressing the tr
 
 **Note**: Travel is not supported when you’re in the play mode of the desktop editor.
 
-![Door gizmo in the play mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494753285_710920421445912_6107526059820057792_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=YunPlodZmnwQ7kNvwEW-OP9&_nc_oc=Adk9i4byBa016fEUsrQpVj22W1VEnXZYyTYkJGPlXBvQ59pQG3h_CjaRu8xUe076DyT0V_z6QWwf6QveCafX5lOH&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lvC6GhW45FZWmy6i5M1Tbg&oh=00_Afmvue1OZleoNjzodhiEdsULlz0XDI6tdNSRkA44YSS5Lg&oe=69557016)
+<details>
+<summary>Door gizmo in the play mode</summary>
+
+<p></p>
+
+[Door gizmo in the play mode](../image_data/0e08f12e75d606f9cb4b95d179a700d4b566252bbefce464563cccde944ce918.md)
+
+### Overview
+The image depicts a virtual environment where a character is interacting with a large, rectangular object resembling a door or terminal. The character is facing away from the viewer, wearing a pink hoodie and light blue pants. The object has a dark frame and a purple-lit interior, suggesting a futuristic or high-tech setting. There is a button labeled 'E' on the object, which the character appears to be interacting with.
+
+### Key Elements
+- **Character**: A figure with blue and pink hair tied up in a bun, wearing a pink hoodie and light blue pants. The character is positioned centrally but slightly angled towards the right side of the image.
+- **Object**: A large rectangular device with a dark frame and a purple-lit interior. It has a button labeled 'E' in white text on a black background.
+- **Button**: A black rectangular button with the letter 'E' in white. It is located near the center of the object, slightly below the top edge.
+- **Background**: The scene is set against a simple, light blue gradient sky and a flat, light gray ground, giving the impression of an open space or a virtual world.
+
+### Visual Flow / Relationships
+The most prominent visual element is the character, as they are the focal point of the interaction. The button on the object is the secondary focus, indicating that the character is likely interacting with it. The object itself is the largest element in the image, drawing attention due to its size and the glowing purple light within it.
+
+</details>
+
+<p></p>
+
+
 
 ## What’s next?
 

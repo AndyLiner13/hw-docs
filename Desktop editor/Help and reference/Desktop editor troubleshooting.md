@@ -8,7 +8,33 @@ The following sections provide troubleshooting tips for a variety of common situ
 
 You can report bugs or submit suggestions through the desktop editor by selecting the **Report a problem** menu option.
 
-![Desktop editor menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/477778594_650754094129212_8861686553192081413_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=TIJWYmBoQdAQ7kNvwGTTNeX&_nc_oc=Adno0Au9f-XrFvTAagjuuXEOYCq7xVYB9KKJZVS9OlCYKL6hF7pyn92SaZhSFheKG8tAmAoEgm7YDBHyCTqAWjct&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kEMPUNS6VV8VzgSn42_15g&oh=00_AfntwCILu76zzv7OYm_RV7GwK_djMTnK8A9hjWe7bF3NvQ&oe=6955752A)
+<details>
+<summary>Desktop editor menu</summary>
+
+<p></p>
+
+[Desktop editor menu](../../image_data/dda2656c2ce16cac46f0cb6f11103253a3639d2ce8de612727683f3b133a7f6e.md)
+
+### Overview
+This image depicts a dropdown menu with a dark theme, likely from a software application interface. The menu items are listed vertically, each with a distinct label and some have additional elements like a right-pointing arrow next to certain options.
+
+### Key Elements
+- **Visual description**: The dropdown menu has a dark background with white text and light gray separators between items.
+- **Location**: The menu is located on the left side of the screen, extending downward from the top-left corner.
+- **Contents**: 
+    - **Return to Creation Home**: This item is at the top of the menu.
+    - **View Application Logs**: Followed by other menu items such as "Launch Typescript Editor," "Publish World," "Rename World," etc.
+    - **[dev-only] Internal Options**: This item has a right-pointing arrow indicating more options underneath.
+- **Visual styling**: The text is in a sans-serif font, and the menu items are evenly spaced. The separators are thin and light gray, providing a subtle distinction between items.
+
+### Visual Flow / Relationships
+The menu items are arranged in a vertical list, with no arrows or lines connecting them. The most prominent feature is the right-pointing arrow next to "[dev-only] Internal Options," which suggests that clicking this option would reveal further choices.
+
+</details>
+
+<p></p>
+
+
 
 For more information about reporting a bug, filing a suggestion, or editing a submitted report check the [Feedback tool documentation](../../Get%20started/Feedback%20tool.md).
 

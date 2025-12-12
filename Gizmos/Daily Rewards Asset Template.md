@@ -2,7 +2,33 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Daily Rewards Asset Template
 
-![Daily Rewards Asset Template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/497935804_734911832380104_6962771998323814286_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=3My4CmjywDAQ7kNvwEfrWHh&_nc_oc=AdlpezIqjiDd8n061EmbGf-FUP1q-QSMAZlu_PYbYJlci_Gr3mMiGRgcfP3Pk-tWkLhMPLkMQ_TxYft8_D-YhoNL&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=9wk-sK5aG-Befd2b3ewJSg&oh=00_AfnslEFI2uKmKFVv_xZ1cVnai_XJaT9dl8hQn9_0L1nRMA&oe=69558978)
+<details>
+<summary>Daily Rewards Asset Template</summary>
+
+<p></p>
+
+[Daily Rewards Asset Template](../image_data/54cfd7372f6dfc7b2e1fe7d9327a75b03ba2f7fd0662ebe724ea9364e550f836.md)
+
+### Overview
+This image depicts a user interface element showing daily rewards in a game or application. It includes a grid layout with five reward slots, each representing a day of the week, and a countdown timer at the bottom indicating when the next reward will be available.
+
+### Key Elements
+- **Title**: "My Daily Rewards" located at the top-left corner.
+- **Reward Slots**: There are five reward slots arranged horizontally across the screen.
+  - **Day 2**: Contains an image of a green potion bottle labeled "1x Green Potion."
+  - **Day 3**: Contains an image of a green potion bottle labeled "2x Green Potion."
+  - **Day 4**: Contains an image of a pink potion bottle labeled "1x Green Potion."
+  - **Day 5**: Contains an image of a pie labeled "1x Green Potion."
+- **Countdown Timer**: Located at the bottom-center of the screen, displaying "Next Reward in 16:58:15."
+
+### Visual Flow / Relationships
+The most prominent visual element is the title at the top. The reward slots are arranged in a horizontal line, with the countdown timer positioned below them. There are no arrows or lines connecting the elements, but the arrangement suggests a linear progression through the days.
+
+</details>
+
+<p></p>
+
+
 
 Note
 
@@ -18,7 +44,34 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Daily Rewards Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Daily Rewards” in the search field. Finally, select the Daily Rewards Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Daily Rewards Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/503910304_734911829046771_4309394035385604873_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=dLE-bSV-PSsQ7kNvwEej101&_nc_oc=AdmsobRtcOyKYk6-QfDglwyeuJKFMD9QR6GlfGixlB2Q94UCCLHEQPHjL0SIh3HUWgmGu9581gtOGsTfJLvfSZM9&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9wk-sK5aG-Befd2b3ewJSg&oh=00_AfkTWWHrhtYjLJ8YdcmqGIuiKoT5VMf6ulPB7SszN0AIxw&oe=69559E96)
+<details>
+<summary>Finding the Daily Rewards Asset Template</summary>
+
+<p></p>
+
+[Finding the Daily Rewards Asset Template](../image_data/e4d8b7c4c08576276c082cd6ad8242c87a593bb830cc94aec9d9489ba32c37e3.md)
+
+### Overview
+This image depicts a user interface of an asset library within a software application. The layout includes a sidebar with navigation options, a search bar, and a grid of asset thumbnails. The interface is designed for managing and searching through assets related to daily rewards.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **Public Assets**: A section labeled "Public Assets" with a lock icon, indicating restricted access.
+  - **My Assets**: A folder icon next to "My Assets," suggesting a personal asset collection area.
+- **Main Content Area (Center)**:
+  - **Search Bar**: Located at the top, with a magnifying glass icon and the placeholder text "daily rewards." There are also sorting options ("Name (A-Z)") and filter options ("All" and "Creator").
+  - **Asset Thumbnails**: Three identical thumbnails are displayed, each showing a star icon within a circle, with a wrench symbol underneath. The text beneath each thumbnail reads "Daily Rewards..." followed by a partially obscured creator name starting with "MetaHoriz...".
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The search bar is the most prominent feature due to its central placement and the placeholder text prompting user interaction.
+- **Arrows/Connectors**: No arrows or connectors are present in the image.
+- **Spatial Relationships**: The sidebar is on the left, the search bar is at the top, and the asset thumbnails are arranged horizontally below the search bar.
+
+</details>
+
+<p></p>
+
+
 
 ## Daily Rewards Asset Template properties
 

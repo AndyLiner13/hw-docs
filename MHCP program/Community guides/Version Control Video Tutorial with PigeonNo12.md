@@ -102,8 +102,123 @@ After successfully installing Git on your machine, no additional steps are requi
 Visual Studio Code provides easy integration of Source Control in your TypeScript projects. To initialize a repository simply follow the steps below:
 
 - In Visual Code Studio, navigate to the “View” menu. From there, select the “Source Control” option to begin the process.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452995707_512537577950865_8390463397834706074_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=M1saCccaFt4Q7kNvwH6ce0Y&_nc_oc=AdmNYWw1lTYuHDACnDmSGkyp_ozs9DElRUTuioCkYCijT3g21dOnTW7fd74otg0OeLqsOavqFKz8B96jZDbx8LWG&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QrFAlAqjdMBhljdoWT9W9g&oh=00_AfnaogpW7MSHpas-MGY-2oCO_nuT9N7kk-fnP0ZyE-c8NQ&oe=69557BE1)
-- Once in the “Source Control” tab, click on the “Initialize Repository” button. Git will then detect all files in your project and display them for your review. You can then stage the files you want to include in your repository by selecting them. Staging files prepares them for commitment to your backup or source control repository. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000757_512537447950878_4010954102108811180_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=_gCX2AVJBZ0Q7kNvwH53Fm_&_nc_oc=Adn3QMANESUVtFT2goeugF5CNfStzKOgj8-XAkeBgCMjZtdkDKbreKVdhQFNujZLGaRDsUhpHE-and87tx67tTUe&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QrFAlAqjdMBhljdoWT9W9g&oh=00_AfmlDNBv1zr4X1t7wapkU8qhDI52iYMvgPIGNPk0LB3NGg&oe=69557F58)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452635830_512537441284212_5829106462267404284_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=_pyYchBxTyoQ7kNvwHWEF9b&_nc_oc=Adkjulk6uvXlnBH1Tfh08R1iGSXBoXejLz2zO8OtSwo0a6R0119BNYHdTXpGJgWNLoinF6m_o8dvIPTo-yQikXWC&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QrFAlAqjdMBhljdoWT9W9g&oh=00_AfkOSBg-GjxItW3Bd8Yn1XbfjoszkRyTfM7mz6JhSb-bTw&oe=69557754)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/3ad43b25c2a9cede3b31b028e5360653b2b0091198b6a142640b98737389aec5.md)
+  
+  ### Overview
+  This image depicts a screenshot of the Visual Studio Code interface, specifically showing the "View" menu expanded. The menu contains various options related to the editor's functionality, such as command palette, open view, appearance settings, and source control integration.
+  
+  ### Key Elements
+  - **Menu Header**: Located at the top, the "View" menu header is highlighted.
+  - **Menu Items**: Below the header, there are several menu items listed vertically:
+    - Command Palette...
+    - Open View...
+    - Appearance
+    - Editor Layout
+    - Explorer
+    - Search
+    - Source Control
+    - Run
+    - Extensions
+    - Problems
+    - Output
+    - Debug Console
+    - Terminal
+    - Word Wrap
+  - **Shortcut Keys**: Each menu item has associated shortcut keys displayed next to them.
+  - **Menu Background**: The menu has a dark gray background with white text.
+  - **Menu Border**: The menu has a thin light gray border around its edges.
+  - **Menu Position**: The menu is positioned centrally over the main editor area.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The "Source Control" option is highlighted, indicating it is currently selected.
+  - **Reading Order**: The menu items are arranged in a vertical list, with no specific directional flow indicated by arrows or lines.
+  - **Spatial Relationships**: All menu items are aligned vertically within the menu, with no overlapping or nested elements.
+  
+  </details>
+  
+  <p></p>
+  
+  
+- Once in the “Source Control” tab, click on the “Initialize Repository” button. Git will then detect all files in your project and display them for your review. You can then stage the files you want to include in your repository by selecting them. Staging files prepares them for commitment to your backup or source control repository. <details>
+                                                                                                                                                                                                                                                                                                                                                 <summary>Image Content</summary>
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 <p></p>
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 [All image details and metadata](../../image_data/5849930645eaf503d627a23fd0f5ec80039494b5f492253a19de81f82a0f1abe.md)
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 ### Overview
+                                                                                                                                                                                                                                                                                                                                                 This image depicts the welcome screen of Visual Studio Code (VS Code), a popular code editor. The screen is divided into two main sections: a sidebar on the left and the main content area on the right. The sidebar contains a message about source control and options related to Git repositories. The main content area displays a welcome message and a list of recent files.
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 ### Key Elements
+                                                                                                                                                                                                                                                                                                                                                 - **Sidebar (Left Panel)**:
+                                                                                                                                                                                                                                                                                                                                                   - **Visual description**: A vertical sidebar with icons and text.
+                                                                                                                                                                                                                                                                                                                                                   - **Location**: Left side of the screen.
+                                                                                                                                                                                                                                                                                                                                                   - **Contents**: Icons for various functions like file management, search, and more.
+                                                                                                                                                                                                                                                                                                                                                   - **Visual styling**: Dark theme with white icons and light-colored text.
+                                                                                                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                 - **Message Box**:
+                                                                                                                                                                                                                                                                                                                                                   - **Visual description**: A rectangular box with a blue header and white text.
+                                                                                                                                                                                                                                                                                                                                                   - **Location**: Top-left corner of the sidebar.
+                                                                                                                                                                                                                                                                                                                                                   - **Contents**: Text explaining that the folder currently open doesn't have a Git repository and providing options to initialize a repository or publish to GitHub.
+                                                                                                                                                                                                                                                                                                                                                   - **Visual styling**: Blue background with white text.
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 - **Buttons**:
+                                                                                                                                                                                                                                                                                                                                                   - **Initialize Repository**: A blue button with white text.
+                                                                                                                                                                                                                                                                                                                                                   - **Publish to GitHub**: Another blue button with white text.
+                                                                                                                                                                                                                                                                                                                                                   - **Location**: Below the message box.
+                                                                                                                                                                                                                                                                                                                                                   - **Visual styling**: Blue background with white text.
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 - **Main Content Area (Right Panel)**:
+                                                                                                                                                                                                                                                                                                                                                   - **Visual description**: A large area displaying the VS Code logo and welcome message.
+                                                                                                                                                                                                                                                                                                                                                   - **Location**: Right side of the screen.
+                                                                                                                                                                                                                                                                                                                                                   - **Contents**: Text saying "Visual Studio Code Editing evolved" and a list of start options like "New File...", "Open File...", "Open Folder...", and "Connect to...".
+                                                                                                                                                                                                                                                                                                                                                   - **Visual styling**: Dark background with white text.
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 - **Recent Files List**:
+                                                                                                                                                                                                                                                                                                                                                   - **Visual description**: A list of recent files with paths displayed.
+                                                                                                                                                                                                                                                                                                                                                   - **Location**: Bottom-right corner of the main content area.
+                                                                                                                                                                                                                                                                                                                                                   - **Contents**: Paths to recent files starting with "scripts" and ending with a "More..." option.
+                                                                                                                                                                                                                                                                                                                                                   - **Visual styling**: Dark background with white text.
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 ### Visual Flow / Relationships
+                                                                                                                                                                                                                                                                                                                                                 - **Most prominent visually**: The welcome message and the recent files list.
+                                                                                                                                                                                                                                                                                                                                                 - **Arrows/lines/connectors**: None.
+                                                                                                                                                                                                                                                                                                                                                 - **Spatial relationships**: The sidebar is on the left, the welcome message is at the top-left of the sidebar, and the main content area occupies the right side of the screen. The recent files list is at the bottom-right of the main content area.
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 </details>
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 <p></p>
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 <details>
+                                                                                                                                                                                                                                                                                                                                                 <summary>Image Content</summary>
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 <p></p>
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 [All image details and metadata](../../image_data/db065eabbd240bb05ddb4c993f8288fff47c2b22c376505fd09a1df65354a016.md)
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 ### Overview
+                                                                                                                                                                                                                                                                                                                                                 This image depicts a screenshot of a source control interface within a code editor, likely Visual Studio Code, showing a file explorer and commit options. The interface includes a sidebar with various icons representing different actions, a main content area displaying files, and a commit message field at the top.
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 ### Key Elements
+                                                                                                                                                                                                                                                                                                                                                 - **Sidebar Icons**: Located on the left side, these icons represent different functionalities such as file operations, version control, and more. The icon for changes is highlighted with a blue circle indicating 34 changes.
+                                                                                                                                                                                                                                                                                                                                                 - **Main Content Area**: This occupies the central part of the screen, showing a list of files under `.editor` and `.gitignore`. The `.gitignore` file is highlighted with a cursor, suggesting it is the current selection.
+                                                                                                                                                                                                                                                                                                                                                 - **Commit Message Field**: At the top, there is a field labeled "Message (Ctrl+Enter to commit on 'main')" with a placeholder text indicating how to commit changes.
+                                                                                                                                                                                                                                                                                                                                                 - **Commit Button**: Below the commit message field, there is a blue button labeled "Commit" with a checkmark icon.
+                                                                                                                                                                                                                                                                                                                                                 - **Changes Counter**: To the right of the commit button, there is a counter showing "34" next to a small icon, indicating the number of changes.
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 ### Visual Flow / Relationships
+                                                                                                                                                                                                                                                                                                                                                 The most prominent visual element is the `.gitignore` file in the main content area, as indicated by the cursor. The commit button is the secondary focal point, suggesting the user can commit changes. The commit message field is positioned above the commit button, guiding the user to provide a message before committing. The sidebar icons are arranged vertically, providing quick access to different functionalities.
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 </details>
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 <p></p>
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                 
 
 ## Staging a Change
 
@@ -115,11 +230,113 @@ To stage a change in Visual Studio Code, click on the plus (+) sign next to the 
 
 You can repeat this process for each file individually, or if you want to stage all files within the repository at once, you can click on the plus (+) sign next to the header that says “Changes.” This will move all files to the “Staged Changes” section of the panel.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452677911_512537494617540_6078825956406230297_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ee8aGk7uvMkQ7kNvwEqCJTZ&_nc_oc=AdkLCscbQH5bNdsxVxpIKpClG6BP491KsXIJWghW_aStC-pLOdoDXeZ_a1Jy_Jmrgp6iAQ2smGwhbXzUobeEtfQR&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QrFAlAqjdMBhljdoWT9W9g&oh=00_AfnanXHGzpnNrnGz7MkbXanz70vdPthMyl42_GlAxmZ1rQ&oe=69559159)![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452845714_512537514617538_6658451868732766575_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=MwGCp51qXZwQ7kNvwHhdMze&_nc_oc=AdkrQ-Mhfkg3FpnMqaPInR7o3Bt_mHnBGXw-iqesHm0pzcVmqVOz12cHNl6m01gF5ayAIk4OmkhophJx4BIbmyrp&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=QrFAlAqjdMBhljdoWT9W9g&oh=00_Afk0Vyezorc5kTb9MewKe2u99XHrjfQzxHq9JCLdje_6nA&oe=69559A7C)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/dfc0c6b1fc27fd9d852f0d14f3e20d3ea726893344ad61f25da1c2ece7b5d2c1.md)
+
+### Overview
+This image depicts a screenshot of a source control interface within a code editor, likely Visual Studio Code. The interface includes a sidebar with file changes, a commit message input field, and a commit button. There's also a welcome panel on the right side.
+
+### Key Elements
+- **Source Control Panel**: Located at the top-left, showing a list of files with their status (U for untracked, T for tracked).
+    - **Visual description**: A vertical list of files with icons indicating their status.
+    - **Location**: Top-left corner.
+    - **Contents**: Files listed include `GameController.ts`, `PlayerManager.ts`, and `TeleportManager.ts`.
+    - **Visual styling**: Dark background with light text, icons in white.
+- **Commit Message Input Field**: Positioned above the file list.
+    - **Visual description**: A rectangular input field with placeholder text.
+    - **Location**: Above the file list.
+    - **Contents**: Placeholder text reads "Message (Ctrl+Enter to commit on 'main'...)".
+    - **Visual styling**: Light background with dark text, bordered by a thin line.
+- **Commit Button**: A blue button labeled "Commit" with a checkmark icon.
+    - **Visual description**: A rectangular button with rounded corners.
+    - **Location**: Below the commit message field.
+    - **Contents**: Text "Commit" with a checkmark icon.
+    - **Visual styling**: Blue background with white text and icon.
+- **Changes Section**: A section under the file list showing the number of changes.
+    - **Visual description**: A small icon and a number indicating changes.
+    - **Location**: Below the file list.
+    - **Contents**: An icon resembling a folder with a plus sign and the number "3".
+    - **Visual styling**: White icon on a dark background.
+- **Stage Changes Button**: A button located near the bottom-right of the screen.
+    - **Visual description**: A rectangular button with text.
+    - **Location**: Bottom-right corner.
+    - **Contents**: Text "Stage Changes".
+    - **Visual styling**: Light background with dark text.
+- **Welcome Panel**: On the far right.
+    - **Visual description**: A panel with a title and a close button.
+    - **Location**: Far right.
+    - **Contents**: Title "Welcome" with a close button next to it.
+    - **Visual styling**: Light background with dark text and a dark border.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The commit button due to its central placement and prominent color.
+- **Arrows/Connections**: No arrows or connections are visible.
+- **Spatial Relationships**: The commit button is below the commit message field, and the changes section is below the file list. The stage changes button is positioned at the bottom-right corner. The welcome panel is on the far right.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/77762b0f6d9640854f5373914ddbd8123690da60382a77347890a9351e5692a2.md)
+
+### Overview
+This image depicts a screenshot of a source control interface within a code editor, likely Visual Studio Code, showing staged changes and commit options. The interface includes a message field for committing changes, a commit button, and a list of files with their respective statuses.
+
+### Key Elements
+- **Message Field**: Located at the top, it has a placeholder text "> Message (Ctrl+Enter to commit on "main")". It is a rectangular input field with a dark gray background.
+- **Commit Button**: Positioned below the message field, it is a blue button labeled "Commit" with a checkmark icon.
+- **Staged Changes Section**: This section lists files that have been staged for commit. Files include "Collectibles.ts", "HUD.ts", and "LoadingUI.ts", each with a small icon next to them indicating their status.
+- **Changes Section**: Below the Staged Changes, this section lists additional files with a plus sign icon next to them, suggesting new additions to the changeset.
+- **File List**: Contains a vertical list of TypeScript (.ts) files such as "AnimationController.ts", "Blaster.ts", "CustomLogger.ts", etc., each with a small icon indicating their status.
+- **Icons**: Small icons next to file names represent different statuses or actions related to the files.
+- **Counters**: Numbers next to some icons indicate the count of changes or pending actions.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the message field and the commit button. The interface flows from the top-down, starting with the message field, followed by the commit button, then the Staged Changes section, and finally the Changes section. There are no arrows or lines connecting elements, but the layout suggests a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 To remove the files from the staging state, select the subtraction (-) symbol next to the name of the files that you don’t want to stage. This will move the file back to the “Changes” section of the panel.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452916333_512537431284213_6812551739992151224_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=sxHlz2FsZHsQ7kNvwFYTrTE&_nc_oc=AdlLQ91uKk3fAfqTi2Gev3dERWG58RoX6bXbfZQfzpoqk03ViXpeSePwSGj2MfGTXfVqA2KvA3Yb2n8ew9Cigp0f&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QrFAlAqjdMBhljdoWT9W9g&oh=00_AflBHHkW9t-z-L0UACZJolbU25vJ4dRayMBt2qThvhjiLQ&oe=69558A73)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/58c0808f8a98514fc57f2ed9c37269adb8645882dd91778a9338a5d2f38fcaf6.md)
+
+### Overview
+This image depicts a screenshot of a Source Control interface within a code editor, likely Visual Studio Code. The interface includes a sidebar with file listings and a commit message input field at the top. There are also buttons for committing changes and unstaging changes.
+
+### Key Elements
+- **Source Control Panel**: Located on the left side, showing a tree view of files with TypeScript files (`GameController.ts`, `PlayerManager.ts`, `TeleportManager.ts`) listed under `Staged Changes`.
+- **Commit Button**: A blue button labeled `Commit` with a checkmark icon, located above the file list.
+- **Unstage Changes Button**: A button labeled `Unstage Changes` in a dropdown menu that appears when hovering over the `GameController.ts` file.
+- **Message Input Field**: A text input field at the top with placeholder text indicating how to commit changes.
+- **Sidebar Icons**: Various icons representing different actions such as file operations and project management, located on the far left.
+- **Welcome Panel**: A small panel on the right side displaying the word "Welcome" with a close button.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the `Commit` button and the `Unstage Changes` button, which are interactive elements. The `Commit` button is larger and more central compared to the `Unstage Changes` button, which is smaller and located within a dropdown menu. The `Message` input field is positioned above the file list, and the `Welcome` panel is on the far right. The file list is hierarchical, with folders and files nested under `Staged Changes`.
+
+</details>
+
+<p></p>
+
+
 
 ## Committing a Change
 
@@ -129,7 +346,35 @@ When you commit a change in source control, you’re saving the changes you’ve
 
 To commit a change in Visual Studio Code, enter a brief description of the changes that you are saving in the field that says “Message” above the “Commit” button. Then, select “Commit” to save the changes.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452714379_512537571284199_8935988249060385698_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=8YjSr4NLWRkQ7kNvwEnap9T&_nc_oc=AdlKJvOJetsMfIoSWFGs6h_wJSZVd3QW0D91WLzYIN78yTXmk1fLe-yJewSDUjvImkcTEus5Z8iBitln3SXAJnJ8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QrFAlAqjdMBhljdoWT9W9g&oh=00_Afk4OVNFF5GeLl-FZD_fnfqKe2wMiqzoWogw6krTiVBldA&oe=69556E55)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/c4829c28c18b10abc8d904ef1c773f709c1d912686a42dd776fef29f2164a98b.md)
+
+### Overview
+This image depicts a screenshot of a source control interface within a code editor, likely Visual Studio Code, showing a commit process. The interface includes a sidebar with file changes and a commit button.
+
+### Key Elements
+- **Source Control Header**: Located at the top-left, labeled "SOURCE CONTROL". Contains a search bar with the text "> Implemented game managers".
+- **Commit Button**: A blue button with a checkmark icon and the text "> Commit" below it.
+- **File List**: On the left side, under "Staged Changes", there are several TypeScript files listed:
+  - PlayerManager.ts
+  - TeleportManager.ts
+  - GameController.ts
+- **Changes Section**: Below the file list, there's a section labeled "Changes" with a count of 1 next to it.
+- **Sidebar Icons**: On the far left, there are icons representing different functionalities such as file management and version control.
+- **Welcome Panel**: On the right side, there's a "Welcome" panel with a blue icon and text.
+
+### Visual Flow / Relationships
+The most prominent visual element is the commit button, which is centrally located and highlighted. The file list is organized vertically under the "Staged Changes" heading. The Welcome panel is positioned on the far right, providing a contrast to the darker theme of the main interface.
+
+</details>
+
+<p></p>
+
+
 
 ## Comparing and Restoring Versions
 
@@ -139,7 +384,45 @@ The importance of source control is the ability to revert to a prior state of yo
 
 Go to the “View” menu and select “Explorer,” or click the icon that looks like a sheet of paper on the left side of the panel.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452588229_512537491284207_1788830861911557850_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=4Yh_67t_av0Q7kNvwGSE94d&_nc_oc=AdklVyb8UT-SnwwM0NjJyBIbDDvEbGe69VsFYoUZrShXzVgveNqYgMtB2lAiVjxLWEJDnbzaOeyi5k9FR21jRPfB&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=QrFAlAqjdMBhljdoWT9W9g&oh=00_Afml0z1m_ojgK_hYh4Qk4ZZrDNxkOENjn8cRdynP50ZAOQ&oe=6955922A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/efb585d4c2abf8b41304e76dc8c5ae787d4d546d038702351509496ffb21a378.md)
+
+### Overview
+This image depicts a screenshot of a Visual Studio Code interface, specifically showing the "View" menu expanded under the "Window" menu. The menu items are listed vertically, with some shortcuts provided next to them.
+
+### Key Elements
+- **Visual description**: The menu items are listed in a vertical column.
+- **Location**: Located in the right panel of the screen.
+- **Contents**: 
+    - "Command Palette..."
+    - "Open View..."
+    - "Appearance"
+    - "Editor Layout"
+    - "Explorer" (highlighted)
+    - "Search"
+    - "Source Control"
+    - "Run"
+    - "Extensions"
+    - "Problems"
+    - "Output"
+    - "Debug Console"
+    - "Terminal"
+- **Visual styling**: The menu has a dark theme with white text and light gray separators between items.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Explorer" item is highlighted, indicating it is currently selected or active.
+- **Arrows/lines/connectors**: There are no arrows or lines connecting the items.
+- **Spatial relationships**: Items are arranged in a vertical list, with each item aligned to the left.
+
+</details>
+
+<p></p>
+
+
 
 ## Comparing Versions
 
@@ -150,7 +433,32 @@ To compare a file to a previous version in Visual Studio Code (VSC), follow thes
 - Each commit is displayed with its associated comment, helping you identify specific versions.
 - When you select a checkpoint, VSC displays the changes made at that point. Additions to the code are highlighted in green, while deletions are marked in red.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452875322_512537487950874_5027238636395676812_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=r9p-jN9ab-oQ7kNvwGqERUt&_nc_oc=Adnjh2CIZNr8U3_GD86256YoZ5yf49kYd60ob4wk6G8sUztFICBNybf8CJ2F8xpwhVOYWUw1V0r1t99uAcxME5gg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=QrFAlAqjdMBhljdoWT9W9g&oh=00_Afn3XFO9rgIPE6oKl2bUPOwhfDqcGijezjWJQqtnzVynKg&oe=69557D4E)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/66958702c0b8d6b41132686aa7fcfbbf2363fd2f9cbcc321c579abcf6fe4f19e.md)
+
+### Overview
+This image depicts a screenshot of a code editor interface, specifically showing a TypeScript file named `PhysicsVehicle.ts`. The editor displays code related to a class `PhysicsVehicle`, which extends another class `hz.Component`. The code includes methods such as `start()` and `delayedStart()`, along with conditional checks for various properties like `playerCamera`, `visibleCar`, `playerFloor`, `carBigWheel`, and `carBigWheelZAxis`.
+
+### Key Elements
+- **Visual description**: Code editor window with syntax highlighting.
+- **Location**: Center of the image.
+- **Contents**: Code snippet with TypeScript syntax.
+- **Visual styling**: Dark theme with syntax highlighting for keywords, comments, and strings.
+
+### Visual Flow / Relationships
+- Most prominent visually: The code editor window.
+- Arrows, lines, or connectors: None.
+- Spatial relationships: The code is organized into methods and conditional statements, with logical flow indicated by indentation and line breaks.
+
+</details>
+
+<p></p>
+
+
 
 ## Restoring Versions
 

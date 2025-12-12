@@ -12,7 +12,47 @@ While it’s not necessary to designate an existing object in the scene as the p
 
 - Press Ctrl + Click or Shift + Click to select multiple objects.
 
-  ![Create a hierarchy](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486620414_681803087690979_4488656560382183237_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZjwLyd8DZesQ7kNvwEAum8H&_nc_oc=AdnCm11zSTcwUt1rOYuaBHqbIEYBT8UGM2PLBtzSMSmo1Atr4JJZpmhGwpeDVECxFj4Mu7uKhGrplICsDEL9Yb8L&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=t-7SMvq-M60scx1Tfxd2Xw&oh=00_AfmvOBjDu1PkG791atVGjp-OQxQIo6RkYLrgzndMuRty_w&oe=6955A082)
+  <details>
+  <summary>Create a hierarchy</summary>
+  
+  <p></p>
+  
+  [Create a hierarchy](../../image_data/560fb9dfa6c87fc429ba751370cf4800d88efd139769d95666ec878d0da06649.md)
+  
+  ### Overview
+  This image depicts a 3D modeling software interface, specifically showing a scene view with objects placed within a grid environment. The left side displays a hierarchical list of objects, while the right side shows the 3D workspace with various 3D models.
+  
+  ### Key Elements
+  - **Left Panel (Hierarchy)**:
+    - **Visual description**: A vertical menu with a dark background.
+    - **Location**: Left side of the image.
+    - **Contents**: Contains a list of objects such as "SpawnPoint," "Sound Recorder," "SmoothCylinder," and "Capsule." The "SmoothCylinder" item is highlighted in blue, indicating selection.
+    - **Visual styling**: Dark gray background, white text, blue highlight for selected items.
+  
+  - **Right Panel (Scene View)**:
+    - **Visual description**: A 3D workspace with a light blue gradient sky and a gray grid floor.
+    - **Location**: Right side of the image.
+    - **Contents**: Three 3D models are visible:
+      - Two white, rounded objects resembling cylinders or spheres.
+      - One small cube with a microphone icon and a blue arrow pointing upwards.
+    - **Visual styling**: White objects, gray grid, light blue sky.
+  
+  - **Bottom Right Corner**:
+    - **Visual description**: A small blue humanoid figure.
+    - **Location**: Bottom right corner.
+    - **Contents**: A simple blue stick figure character.
+    - **Visual styling**: Blue color, simplistic design.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Visually**: The 3D models in the scene view.
+  - **Arrows/Connectors**: None visible.
+  - **Spatial Relationships**: The objects are arranged in a scattered manner within the scene view, with no clear implied reading order.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Create an empty object to be the parent of the selected objects:
 
   Press Ctrl + G on your keyboard, or right click to select **Create parent object** from the context menu.
@@ -24,7 +64,45 @@ While it’s not necessary to designate an existing object in the scene as the p
 
   In the following image, the **Sound Recorder** is dragged to the **Empty Object** hierarchy.
 
-  ![The object is added to the chosen hierarchy](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486610726_681803084357646_8044919782849029886_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=vPgKPuQxQlIQ7kNvwEc2vFd&_nc_oc=AdkKMubcBsI5af33g-U3V5IvxlSXNJ9FN8k1pv7v8nSKxnRghoPenBizxV_nDKhYV5ke-LlSANCNWZ5OxjQt2Zg7&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=t-7SMvq-M60scx1Tfxd2Xw&oh=00_AfmNVHyrn7-adwsHi00vRNTgf0QQzMGFD1yHXBKJ9N4vbA&oe=695577BA)
+  <details>
+  <summary>The object is added to the chosen hierarchy</summary>
+  
+  <p></p>
+  
+  [The object is added to the chosen hierarchy](../../image_data/299b11fd770facfcc9a831979e2af2e23cd4ee10e3cb6a108281abcbab888756.md)
+  
+  ### Overview
+  This image depicts a 3D modeling software interface, specifically showing a scene view with a grid floor and a sky background. The left side displays a hierarchical structure of objects within the scene, while the right side shows the 3D view of the scene itself.
+  
+  ### Key Elements
+  - **Left Panel (Hierarchy)**:
+    - **Visual description**: A vertical panel with a dark background.
+    - **Location**: Left side of the image.
+    - **Contents**: Contains a list of objects with icons next to them. Examples include "SpawnPoint," "[Empty Object]," "Sound Recorder," "SmoothCylinder," and "Capsule."
+    - **Visual styling**: Icons are small and white, text is white against a dark background.
+  
+  - **Scene View**:
+    - **Visual description**: A 3D view with a light blue sky and a gray grid floor.
+    - **Location**: Right side of the image.
+    - **Contents**: Three white 3D objects resembling cylinders are placed on the floor. There is also a small cube with a microphone icon on it.
+    - **Visual styling**: Objects are simple and geometric, with no additional textures or colors.
+  
+  - **Right-Top Corner**:
+    - **Visual description**: A small avatar figure standing on the floor.
+    - **Location**: Bottom-right corner of the scene view.
+    - **Contents**: A blue humanoid figure with a hand raised, possibly indicating interaction or selection.
+    - **Visual styling**: Simple, stylized human form with a blue color scheme.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Visually**: The 3D objects in the scene view.
+  - **Arrows/Connectors**: None visible.
+  - **Spatial Relationships**: The objects are arranged in a scattered manner on the floor, with no specific order or grouping indicated.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ## Remove objects from a hierarchy
 

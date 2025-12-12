@@ -45,16 +45,90 @@ Begin by setting up your development environment and creating your new world wit
 
 Set up and configure your new script in the development environment by following these detailed steps:
 
-* Click the down arrow for the Scripts Panel and select *Create New Script*![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702897_512500621287894_8264079504247726649_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=CJK5Ea_gWdAQ7kNvwHa2rmt&_nc_oc=AdmilP-wWYx0iSTCN9cbUOhfvCfZ6rZD7OGnUKQC2uOPn4neo7aJ_YeVAyJMk5iL4yRK-mHl5uLFHEhROkMhcVj1&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=vWk7cGAaULRUOi9Q1vK6FQ&oh=00_AfkcWK5NvxDhMYY-D5wyLhQclpVk-t58jLlYFKf_FCpCgA&oe=69559811)
+* Click the down arrow for the Scripts Panel and select *Create New Script*<details>
+                                                                           <summary>Image Content</summary>
+                                                                           
+                                                                           <p></p>
+                                                                           
+                                                                           [All image details and metadata](../../image_data/e9262d768f5f5c8f862c4121c3c6f0e471c247457100513b456bb4bab97c75a3.md)
+                                                                           
+                                                                           ### Overview
+                                                                           This image depicts a user interface element within a software application, specifically a section labeled "Scripts." It includes a search bar, a button for creating new scripts, and some additional settings options.
+                                                                           
+                                                                           ### Key Elements
+                                                                           - **Search Bar**: Located at the top, spanning horizontally across the width of the interface. Contains a magnifying glass icon and the placeholder text "> checkCor".
+                                                                           - **Create New Script Button**: Positioned centrally below the search bar. It has a plus sign (+) icon and is circled in red for emphasis.
+                                                                           - **Settings Options**: Located to the right of the create new script button, featuring a gear icon and three vertical dots indicating more options.
+                                                                           - **Close Button**: A small 'X' icon located at the top-right corner of the interface.
+                                                                           
+                                                                           ### Visual Flow / Relationships
+                                                                           The most prominent visual element is the "Create new script" button due to its central placement and the red circle highlighting it. The search bar is secondary but still important as it allows users to find existing scripts. The settings options provide additional functionality but are less immediately noticeable. The close button is the least prominent but serves a crucial function for closing the interface.
+                                                                           
+                                                                           </details>
+                                                                           
+                                                                           <p></p>
+                                                                           
+                                                                           
 * Name this script *ExampleScript* and hit the Enter key on your keyboard.
 * Click the gear cog icon in the Scripts Panel.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452702844_512500524621237_7831056844952000870_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=nynUuf3OhlAQ7kNvwH_rQOG&_nc_oc=Adla-Yt5gblWwD9aXs882QCWsAhAqi_Oc022f9muQYyRfwR2BBzSN_xM_M8KACz4LQmyJsT7cBksWNfVC20yRq3a&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=vWk7cGAaULRUOi9Q1vK6FQ&oh=00_AflS214y2NBoPKKShcv4ukakrlq5TB_wSBtVvNPvZVRong&oe=69557F75)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/197d59132b5185e4503ba9d802c13e86cd14cf3a0f1f53ef585b9b71b1e1ec3d.md)
+  
+  ### Overview
+  This image depicts a user interface element within a software application, specifically a settings or configuration panel. The panel is part of a larger interface that includes a search bar, a plus sign for adding new items, and a gear icon for settings.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top-left, it has a magnifying glass icon and a placeholder text "> checkConsumeAutoUse". It is rectangular with a light gray background.
+  - **Plus Sign**: Positioned next to the search bar, it is a simple '+' symbol on a white background.
+  - **Gear Icon**: A circular icon with a gear design, located to the right of the plus sign. It is highlighted with a red circle, indicating its importance or selection status.
+  - **Settings Button**: A rectangular button labeled "Settings" with a black background and white text, positioned below the gear icon.
+  - **Three Dots**: Located to the far right of the gear icon, it is a vertical ellipsis (...).
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the gear icon due to the red circle highlighting it. The elements are arranged horizontally, with the search bar on the left, the plus sign in the middle, the gear icon in the center-right, and the settings button on the far right. There are no arrows or lines connecting these elements, suggesting a linear reading order from left to right.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * External Editor should say Default (VS Code)
 * External Editor Directory can be any folder you wish to store all of your world’s scripts.
 * API Version needs to be changed to 2.0.0 if it isn’t already.
   + Note: You may need it to create a script(see below) before you can see the API 2.0.0 option.
 * Camera and other features can be enabled here if required for your project.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452555778_512500527954570_5113380244908814218_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=GVdCpO58it8Q7kNvwENZ_Hc&_nc_oc=AdleXVah2YlBWX446-sK_vj0y5Hex8AcOeaoFENDfBskrSkMA9Yttn3KAc8y9p9MxDEqlaBIJzCUmRLOHgBDboz_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=vWk7cGAaULRUOi9Q1vK6FQ&oh=00_AfnxrxZmHosltYZKagwodGK43qnp5lPI0DJjQVRRq4nddA&oe=69557FE0)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/5a4f59c796c9db1c86dab66fbcafb5c1075db9f1b94916b8d46c0da51b68cf84.md)
+  
+  ### Overview
+  This image depicts a settings dialog box titled "Script Settings." It contains various configuration options related to scripting, with interactive elements such as buttons, checkboxes, and a dropdown menu. The layout is structured with labels and input fields arranged in a grid-like fashion.
+  
+  ### Key Elements
+  - **Title**: "Script Settings" located at the top-left corner.
+  - **External Editor**: A section with two buttons labeled "Select" and "Reset."
+  - **Default (VS Code)**: A label indicating the default external editor is VS Code.
+  - **External Editor Directory**: A field displaying the directory path: `C:/Users/Josh/AppData/LocalLow/Meta/Horizon Worlds`.
+  - **API Version**: A dropdown menu set to version `1.0.0`.
+  - **@early_access_api/camera**: A checkbox with no label next to it.
+  - **@early_access_api/capturing**: Another checkbox with no label next to it.
+  - **Buttons**: Two buttons labeled "Cancel" and "Apply," with "Apply" highlighted in blue.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the title at the top. The elements are arranged in a grid-like structure, with labels and corresponding input fields. The "Apply" button is visually emphasized due to its blue color, suggesting it is the primary action to take after making changes.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * Click *Apply* after making any changes.
 * Mouse over your newly created script, click the 3-vertical dots that appear and select *Open in External Editor* .
 * This should open Visual Studio Code and ask if you trust the Author of this file, you can select *Yes, I trust the authors* .

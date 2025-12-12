@@ -17,7 +17,33 @@ From the hierarchy view in the desktop editor, you can drag and drop any entity 
 
 When an entity is at the top of the hierarchy and has no parent, it is called a *root entity*.
 
-![Drag and drop any entity on top of any other entity](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452514110_512510764620213_1429075691349308108_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=a2Z350mfTeMQ7kNvwF91vn9&_nc_oc=Adk1kBLh4TJW3o3VODM7rs3eUR5GlUgb9-IuG3oOQw5h4jOeX7UFfEmade36ekIXIh6GL7MunPntKIuED1qPJ77l&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mbm5s0Fc_G5raZhykhzNcg&oh=00_Afl4p9H0NkIwvz1u-FbOeNkDO5OlNXwubakGGDHOSERZYw&oe=6955A097)
+<details>
+<summary>Drag and drop any entity on top of any other entity</summary>
+
+<p></p>
+
+[Drag and drop any entity on top of any other entity](../../image_data/48d3c82faa067c7f030e3af3e406b5afc0aeeacab0fbfbdcccb8303c9a3e84e2.md)
+
+### Overview
+This image depicts a user interface element showing a hierarchical structure, likely from a 3D modeling software or game development tool. The main focus is on a tree-like structure displaying various nodes, with a search bar at the top for navigating through the hierarchy.
+
+### Key Elements
+- **Search Bar**: Located at the top, spanning the width of the interface. Contains a magnifying glass icon and the placeholder text "> Search hierarchy <".
+- **Hierarchy Tree**: Positioned below the search bar, occupying the majority of the screen. It consists of expandable nodes labeled `[Spawn Point]`, `Cube`, `Cone`, and `Sphere`.
+  - **[Spawn Point]**: A node with a small icon resembling a person, located above the `Cube` node.
+  - **Cube**: A node highlighted in blue, indicating selection or active status. It has a small icon resembling a cube.
+  - **Cone**: A node with a small icon resembling a cone, located below the `Cube` node.
+  - **Sphere**: A node with a small icon resembling a sphere, located below the `Cone` node.
+- **Expand/Collapse Icons**: Small triangle icons next to each node, suggesting that clicking them would expand or collapse the subtree beneath.
+
+### Visual Flow / Relationships
+The most prominent visual element is the `Cube` node, which is highlighted in blue. The expand/collapse icons indicate a hierarchical relationship, with the `Cube` node being the parent of `Cone` and `Sphere`. The search bar at the top suggests a way to navigate through the hierarchy efficiently.
+
+</details>
+
+<p></p>
+
+
 
 ### Empty objects
 
@@ -27,7 +53,31 @@ Empty objects have their own rules for visualization. In order to keep them from
 
 **Note**: This visualization of the empty object does not scale with its child objects, because it’s just a UI marker and not part of the content itself.
 
-![Empty objects remain invisible until selected or become parents](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452541301_512510767953546_1065862861088532929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=AlmTrBXY5mQQ7kNvwG8YiZn&_nc_oc=AdmzM1ix1m79JIOG_CRHTcrG7W4gOBOGeRkQcNz2ppcJzQMGOjPayB3qaCSgRZZfqpfG0vvgxqYTAsOwbvQRaGVu&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mbm5s0Fc_G5raZhykhzNcg&oh=00_Afk7nhm7g9Q_jj4l03HA1RuOz8r8gXfbqmYVDiqxhXLe4A&oe=69559351)
+<details>
+<summary>Empty objects remain invisible until selected or become parents</summary>
+
+<p></p>
+
+[Empty objects remain invisible until selected or become parents](../../image_data/f231f2d71714edaa4c36002c17bc0f0095a83bc0ba64812a241a9ba44605b8c2.md)
+
+### Overview
+The image depicts a single, three-dimensional cube rendered in a 3D modeling software environment. The cube is centered within a grid background, suggesting a workspace for 3D modeling tasks.
+
+### Key Elements
+- **Visual Description**: The cube has a solid blue face with white checkered edges, indicating a selection or active state.
+- **Location**: The cube is centrally located within the image.
+- **Contents**: The cube's faces are uniformly colored blue, and the edges are marked with white checkers.
+- **Visual Styling**: The cube has a smooth texture with soft lighting, giving it a realistic appearance. The background grid is light gray with darker gray lines forming a uniform grid pattern.
+
+### Visual Flow / Relationships
+- **Most Prominent Visually**: The cube is the focal point of the image.
+- **Spatial Relationships**: There are no arrows, lines, or connectors present. The cube is isolated against the grid background, emphasizing its standalone nature.
+
+</details>
+
+<p></p>
+
+
 
 ### Pivot around parent objects
 
@@ -40,7 +90,32 @@ To pivot an object around its parent:
 - Select Pivot from the dropdown menu in the top menu bar.
 - Use the manipulators to rotate or scale the grouped object and observe how it pivots in relation to the parent object.
 
-![Pivot around parent objects](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452532398_512510757953547_2671853206226151862_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZZ_3JbJW96cQ7kNvwEOetAJ&_nc_oc=AdlOVpwijjX7c7k8UTagWRPP4gvG3zGqj6kYXqBKBjyujrDKQeomdsbe1ITMS9rE0VVwbx6nij1EmDeYz5hKzd-w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=mbm5s0Fc_G5raZhykhzNcg&oh=00_AfkhIsAPPviPd5U7W7jJKaytCkO7RNfI_Cj7-B0ucOU1IA&oe=69557FA7)
+<details>
+<summary>Pivot around parent objects</summary>
+
+<p></p>
+
+[Pivot around parent objects](../../image_data/56bf5d58dbe8514700eb7bf205f761ce36c3fd6e4bc973c519201a4b620020fa.md)
+
+### Overview
+This image depicts a user interface element showing a dropdown menu with two options: "Center" and "Pivot". The dropdown is triggered by a button labeled "Local" with a downward arrow indicating a drop-down action. The interface has a dark theme with blue and black as primary colors.
+
+### Key Elements
+- **Visual description**: The dropdown menu is rectangular with rounded corners.
+- **Location**: Positioned below the "Local" button.
+- **Contents**: Contains two options: "Center" and "Pivot", both with a checkmark icon next to them.
+- **Visual styling**: The "Center" option is highlighted in blue, suggesting it is currently selected. The "Pivot" option is in black, indicating it is not selected.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Center" option due to its blue highlight.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: The dropdown menu is directly below the "Local" button, and the options are arranged vertically within the dropdown.
+
+</details>
+
+<p></p>
+
+
 
 ### Direct selection of children in the scene
 

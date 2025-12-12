@@ -30,11 +30,90 @@ You cannot change the panel size after the UI panel is initialized. Assigning ne
 
 The following image shows two different sets of **Scale** attributes in **Properties**.
 
-![An example that shows that scale controls the size of the UI panel in properties](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/481452194_659847703219851_1693440629986334814_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=u-z6PFlO3QAQ7kNvwEzMEG4&_nc_oc=AdmC-PKRGF0CpjQPJzUPlfHn0_-F1cvvgSEH26H9naYq6ht6ngD2vyyBcPVW3AK3EhAiQu_B32cqaXazxN7e4vh-&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PTmV_N9-NQ-a4Mlird_Xlw&oh=00_AfkrkpZjFQQPOe2o7iiyHQnydYaoJsuuW3tC9jW2XHSRUQ&oe=69559B25)
+<details>
+<summary>An example that shows that scale controls the size of the UI panel in properties</summary>
+
+<p></p>
+
+[An example that shows that scale controls the size of the UI panel in properties](../../image_data/a82891d44d2b9f43c6664d589d685dd56e146a61f0fc16f9e042dd92556076c1.md)
+
+### Overview
+This image displays two side-by-side panels, both showing attributes of an object in a 3D modeling software interface. The panels are identical in layout but differ slightly in content.
+
+### Key Elements
+- **Left Panel**:
+  - **Title**: "Attributes" located at the top-left corner.
+  - **Position**: Contains three fields labeled X, Y, Z with numerical values.
+    - X: 0.64
+    - Y: 0.86
+    - Z: 1.26
+  - **Rotation**: Contains three fields labeled X, Y, Z with numerical values.
+    - X: 0
+    - Y: 0
+    - Z: 0
+  - **Scale**: Contains three fields labeled X, Y, Z with numerical values.
+    - X: 1
+    - Y: 1
+    - Z: 1
+- **Right Panel**:
+  - **Title**: "Attributes" located at the top-left corner.
+  - **Position**: Contains three fields labeled X, Y, Z with numerical values.
+    - X: 0.64
+    - Y: 0.86
+    - Z: 1.26
+  - **Rotation**: Contains three fields labeled X, Y, Z with numerical values.
+    - X: 0
+    - Y: 0
+    - Z: 0
+  - **Scale**: Contains three fields labeled X, Y, Z with numerical values.
+    - X: 2
+    - Y: 2
+    - Z: 2
+
+### Visual Flow / Relationships
+The panels are arranged horizontally next to each other. Each panel has a title at the top-left corner followed by three sections: Position, Rotation, and Scale. These sections are vertically stacked within each panel. There are no arrows or lines connecting the panels, indicating that they are independent entities.
+
+</details>
+
+<p></p>
+
+
 
 The following image shows the left UI gizmo is smaller than the right UI gizmo with **Scale** attribute of (1, 1, 1) vs. (2, 2, 2).
 
-![An example that shows that scale controls the size of the UI panel in the scene](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480799630_659847699886518_6437251460310613006_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=UYX3sGHEANUQ7kNvwFVBHz9&_nc_oc=Adk2lIqz5mfxNt_okt_xJLumxMxak387ffki7RukVPKE8qJ-u2dDBAUV2Pxc8o9rs6AkFK8plcrVpXvBPolrxojd&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=PTmV_N9-NQ-a4Mlird_Xlw&oh=00_AfnKhvq9crHQBu0Eti7B74lO1brzhr5UTdAX3QalDOhKfA&oe=69559CCB)
+<details>
+<summary>An example that shows that scale controls the size of the UI panel in the scene</summary>
+
+<p></p>
+
+[An example that shows that scale controls the size of the UI panel in the scene](../../image_data/a59868bf4c5850b0a4e5a9e6d989f6cd735d4ef4ad150ed10f166aad189787ed.md)
+
+### Overview
+The image consists of two side-by-side screenshots of a 3D environment, likely a simulation or game interface. The environment features a grid floor and a blue ceiling, suggesting a virtual space. Two main elements are present: a small humanoid figure and a rectangular object resembling a box or container.
+
+### Key Elements
+1. **Humanoid Figure**
+   - **Visual description**: A small, stylized human-like figure with a blue body and white limbs.
+   - **Location**: Positioned on the left side of both images.
+   - **Contents**: The figure has a number "5" above its head.
+   - **Visual styling**: The figure is simple and lacks detailed features, with a smooth surface and minimal shading.
+
+2. **Rectangular Object**
+   - **Visual description**: A rectangular object with a brownish-orange color and a white label on one side.
+   - **Location**: In the first image, it is located to the right of the humanoid figure. In the second image, it is closer to the center and slightly larger.
+   - **Contents**: The label on the object reads "T" and "F".
+   - **Visual styling**: The object has a matte finish with subtle lighting that highlights its edges.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The humanoid figure remains consistently positioned across both images.
+- **Arrows and lines**: There are no arrows or lines connecting the elements.
+- **Spatial relationships**: The rectangular object moves closer to the humanoid figure in the second image, indicating some form of interaction or movement within the environment.
+
+</details>
+
+<p></p>
+
+
 
 ## Method: initializeUI()
 

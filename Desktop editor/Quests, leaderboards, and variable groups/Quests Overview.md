@@ -4,11 +4,64 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Quests provide you with tools to create rich and engaging progression experiences in your worlds. You can access the Quests pane, which displays a list of a world’s quests, in the Desktop Editor by selecting **Quests** under the **Systems** button.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/584528292_869065635631389_5394942153922205566_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=qEfTK-64TGcQ7kNvwHF8bLD&_nc_oc=Adll9g0h_OygzvpBcH90jdJdLawYUsx6W3jbhKp2tRZsyAnpSs-ywic-Z7fwjXd3xuH_z9bNkCk_dD4m3L0N1me-&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Hm4T3etXS2cgpwRyHxFMzQ&oh=00_AflaGU22YhyzAp1jxjE3V8RBo0iLJwRia96u7Zs2TYtT7A&oe=69558911)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/b76cc167252c85cb2bf4bd475712dae3c9784d05fb89a629e8c00ddf55da0b7e.md)
+
+### Overview
+The image depicts a user interface of a game development environment, specifically showing a scene preview within a 3D editor. The left side displays a hierarchical structure of assets and scenes, while the central area shows a 3D model of a room or corridor. A small dialogue box is visible in the bottom right, indicating some form of interaction or feedback related to the scene.
+
+### Key Elements
+- **Left Panel**: Hierarchical structure labeled as "Hierarchy". Contains folders and assets such as "LOBBY", "BROADSIDE", "Strike_Broadside", and others. Each folder has a lock icon next to it, suggesting locked assets.
+- **Scene Preview**: Central area showing a 3D model of a corridor or room with a metallic ceiling and walls. The perspective suggests the viewer is looking down a hallway.
+- **Dialogue Box**: Located at the bottom right, displaying text that seems to be related to object selection or interaction ("Selection of an object...").
+- **Navigation Bar**: At the top, includes options like "Navigation", "Quests", "Variable Groups", and "Leaderboards".
+- **Toolbars**: Below the navigation bar, there are toolbars with icons for actions like play, pause, and settings.
+- **Tabs**: At the bottom, tabs labeled "Asset Library", "Console", "Tests", "NPC Debugger", and "Performance".
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The scene preview in the central area.
+- **Arrows/Connectors**: None visibly present.
+- **Reading Order**: The hierarchy on the left is read vertically, while the scene preview and dialogue box are read horizontally across the screen.
+
+</details>
+
+<p></p>
+
+
 
 Quests are automatically displayed to the player in two ways: a Quests gizmo object placed in the world, and by short-lived popups that appear in front of the player when the quest is completed.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751771_512527237951899_4210170058283152757_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ov2NAMkPTqQQ7kNvwHJCqx8&_nc_oc=AdlxgjIUgWb-1XzBH4jPPzTjCM4qb0OcDWH4vg4zqtJpcr50fPB0UWXY9xwzWnYFLl177AH4nMrFn1z3kzAsalDF&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Hm4T3etXS2cgpwRyHxFMzQ&oh=00_AflTXqIj2g_8cIQMRdyxmqCpehsh624gaJPvZpMXVznCBg&oe=69558193)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/f2e7109f37edb686bc6ec0d42e801f6e282e7683901ed0f8ae6a286cd89e58c0.md)
+
+### Overview
+The image depicts a user interface element labeled "Quests." It appears to be part of a game or application interface, showing a quest titled "Example Quest" with a description underneath. The layout includes navigation controls at the bottom and a circular icon at the top.
+
+### Key Elements
+- **Title**: "Quests" located at the top-center of the interface.
+- **Quest Card**: Positioned centrally, containing the quest title "Example Quest" and a description "This is an example of creating a Simple quest." Below the description, there is a progress indicator showing "0/1," indicating the completion status of the quest.
+- **Circular Icon**: Located at the top-left corner, featuring a star symbol within a circle.
+- **Navigation Buttons**: Two buttons are present at the bottom-left and bottom-right corners, likely for previous and next actions respectively.
+- **Progress Indicator**: Positioned to the right of the quest card, showing "0/1."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The quest card is the most prominent visual element as it contains the core information.
+- **Arrows/Connections**: There are no arrows or lines connecting elements, but the navigation buttons suggest a sequential flow.
+- **Spatial Relationships**: The circular icon is separate from the quest card, while the navigation buttons are positioned symmetrically at the bottom.
+
+</details>
+
+<p></p>
+
+
 
 ## Quests pane
 
@@ -42,7 +95,34 @@ Because tracked persistent quests have one or more persistent variables attached
 
 Tracked Persistent quests have all the configuration parameters of Simple quests as described above (**Script ID**, **Name**, **Description**, **Who can see this quest?**), plus the following:
 
-![Screenshot 2024-05-14 at 3.34.37 PM.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653624_512527144618575_2951338986895663304_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=4rgT3DbVAH0Q7kNvwFrM8YZ&_nc_oc=AdnUjfkg_6XxJPBzelz6opDwHo1EaOTCfxXjGhnvgztDA72ZwQR4oQWpwPLdlQSEaZdeILA6x_wBtxSHGPKLXwei&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Hm4T3etXS2cgpwRyHxFMzQ&oh=00_Afn7PCXJ-IDkowjgctSvZLZvhgXg6df5iRLhc45YElpY-A&oe=6955924B)
+<details>
+<summary>Screenshot 2024-05-14 at 3.34.37 PM.png</summary>
+
+<p></p>
+
+[Screenshot 2024-05-14 at 3.34.37 PM.png](../../image_data/7d1010de6a156c1c5a9e306129f28507212a4e2c4a01ae6d88b1afcad8f91052.md)
+
+### Overview
+This image depicts a form interface titled "Edit Quest." It includes various fields and buttons for editing quest details such as Script ID, Name, Description, Quest Type, Activation criteria, and Success criteria. There are also buttons labeled "Cancel" and "Save."
+
+### Key Elements
+- **Script ID**: Located at the top left, with a placeholder text "Example ID."
+- **Name**: Positioned below the Script ID field, showing "Example Ques" with a counter "13/40" indicating character limit.
+- **Description**: A text area containing the text "This is an example of creating a Simple quest." with a counter "46/100" indicating remaining characters.
+- **Quest Type**: A dropdown menu currently set to "Tracked."
+- **Activation criteria**: Below the Quest Type, with a "Define" button to its right.
+- **Success criteria**: Below the Activation criteria, with another "Define" button to its right.
+- **Cancel**: A button located at the bottom left.
+- **Save**: A blue button located at the bottom right.
+
+### Visual Flow / Relationships
+The form is structured vertically with clear labels above each input field. The "Cancel" and "Save" buttons are positioned at the bottom, with the "Save" button highlighted in blue, suggesting it is the primary action button. The form elements are arranged in a linear fashion, with no overlapping or complex relationships indicated.
+
+</details>
+
+<p></p>
+
+
 
 * **Quest Type:** Changing to the type to **Tracked** unlocks the following two fields:
 
@@ -51,7 +131,45 @@ Tracked Persistent quests have all the configuration parameters of Simple quests
 * **Activation Criteria:** This is the criteria that will be used to determine if the quest is active. You can define the criteria by clicking ‘Define’ and adding an objective, which is a persistent variable from a variable group attached to the world, with its completion threshold. You must set up the persistent variables and variable groups before you create the Tracked Persistent quest. You can add multiple objectives by clicking **Add objective** or remove objectives by clicking the **trash bin** on the right side of the objective. Objectives can be evaluated with either an “AND” or “OR” condition, which is set for *all* criteria and not individually.
 * **Success Criteria:** This is the criteria that will be used to determine completion of this quest. The criteria can be defined in the same way as the Activation Criteria. The threshold for the Success Criteria is the threshold value for the persistent variables at which you want this quest to be automatically marked complete. Note that if one or more objectives later drop below the threshold, the quest will *not* automatically revert to incomplete.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453002677_512527141285242_4410578538436637672_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=PhB-2dSR3SAQ7kNvwERLhb_&_nc_oc=Adnyo5Rw77UdUAFdaNpCb32qXi-C7Tfr9IUts5-e9aZG-EDnwtYajEXSVeIh5CFKrEsmYUsnsc6iAecJq7SXM3AA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Hm4T3etXS2cgpwRyHxFMzQ&oh=00_AfnjnYNMa6azwnAVA47fZHXbejhxr864PkMWLwGgUzMtRg&oe=6955A25F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/987edf634b7b573051033d5b34ddb0c2f8f73dae2c809b2f54d287edb9fe0eef.md)
+
+### Overview
+This image depicts a user interface for defining success criteria in a quest management system. It includes two objectives with conditions based on persistent variables, along with buttons for navigation and saving changes.
+
+### Key Elements
+- **Title**: "Define success criteria" located at the top-center.
+- **Header**: "Determines when your quest shows as complete, and what players have to do in order to complete it." Positioned just below the title.
+- **Actions Section**: Contains two objectives labeled "Objective 1" and "Objective 2."
+  - **Objective 1**: 
+    - **Persistent Variable**: "Example PPV"
+    - **Condition**: "is at least 2"
+  - **Objective 2**: 
+    - **Persistent Variable**: "Example2 PPV"
+    - **Condition**: "is at least 100"
+- **Buttons**: 
+  - "Add objective" button located to the right of Objective 1.
+  - "Back" button located at the bottom-left.
+  - "Save" button located at the bottom-right.
+- **Dropdown Menu**: Located within Objective 1 and Objective 2, showing "Example PPV" and "Example2 PPV" respectively.
+- **Trash Icons**: Small trash icons next to each objective for deleting them.
+- **Input Fields**: Numeric inputs for setting thresholds ("2" and "100").
+- **AND Connector**: A connector labeled "AND" between the two objectives.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The objectives and their conditions.
+- **Arrows/Connectors**: The "AND" connector implies a logical relationship between the two objectives.
+- **Spatial Relationships**: Objectives are stacked vertically, with the "AND" connector connecting them horizontally.
+
+</details>
+
+<p></p>
+
+
 
 ### Edit/Reset My Quests
 
@@ -59,7 +177,45 @@ The **Debug Quests** button in the upper right of the Quests pane opens the Debu
 
 Note that while setting simple quests to complete or incomplete is straightforward, tracked persistent quests can have unexpected interactions with their corresponding persistent variables. It is always possible to mark a tracked persistent quest “complete” using the Debug Quest panel, but you cannot mark a tracked persistent quest incomplete if the underlying variable has a value that meets the configured threshold for the quest. To mark such tracked persistent quests incomplete, you must first set the persistent variable to a value below the threshold for the quest. You can also reset a tracked persistent quest to be in a partially completed state by setting the persistent variable to a nonzero value (but below the threshold), and then setting the quest as incomplete.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453002677_512527141285242_4410578538436637672_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=PhB-2dSR3SAQ7kNvwERLhb_&_nc_oc=Adnyo5Rw77UdUAFdaNpCb32qXi-C7Tfr9IUts5-e9aZG-EDnwtYajEXSVeIh5CFKrEsmYUsnsc6iAecJq7SXM3AA&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Hm4T3etXS2cgpwRyHxFMzQ&oh=00_AfnjnYNMa6azwnAVA47fZHXbejhxr864PkMWLwGgUzMtRg&oe=6955A25F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/987edf634b7b573051033d5b34ddb0c2f8f73dae2c809b2f54d287edb9fe0eef.md)
+
+### Overview
+This image depicts a user interface for defining success criteria in a quest management system. It includes two objectives with conditions based on persistent variables, along with buttons for navigation and saving changes.
+
+### Key Elements
+- **Title**: "Define success criteria" located at the top-center.
+- **Header**: "Determines when your quest shows as complete, and what players have to do in order to complete it." Positioned just below the title.
+- **Actions Section**: Contains two objectives labeled "Objective 1" and "Objective 2."
+  - **Objective 1**: 
+    - **Persistent Variable**: "Example PPV"
+    - **Condition**: "is at least 2"
+  - **Objective 2**: 
+    - **Persistent Variable**: "Example2 PPV"
+    - **Condition**: "is at least 100"
+- **Buttons**: 
+  - "Add objective" button located to the right of Objective 1.
+  - "Back" button located at the bottom-left.
+  - "Save" button located at the bottom-right.
+- **Dropdown Menu**: Located within Objective 1 and Objective 2, showing "Example PPV" and "Example2 PPV" respectively.
+- **Trash Icons**: Small trash icons next to each objective for deleting them.
+- **Input Fields**: Numeric inputs for setting thresholds ("2" and "100").
+- **AND Connector**: A connector labeled "AND" between the two objectives.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The objectives and their conditions.
+- **Arrows/Connectors**: The "AND" connector implies a logical relationship between the two objectives.
+- **Spatial Relationships**: Objectives are stacked vertically, with the "AND" connector connecting them horizontally.
+
+</details>
+
+<p></p>
+
+
 
 ## TypeScript support
 

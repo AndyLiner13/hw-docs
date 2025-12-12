@@ -47,7 +47,32 @@ In this section, you will become more familiar with the basic interface, which i
 * Properties Panel
   + The Properties Panel in Blender is a user interface element that displays and allows editing of active data, such as the scene and object. The panel has several categories, or tabs, that group properties and settings by data type.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468450823_597980812739874_1049115858088829387_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=f1S8Vde3KHIQ7kNvwHjGwcs&_nc_oc=AdlYF1sy983jPOIn2-PuMnjOjaEjf51GAtAzRD-u8-srokjQdNWiDErpx3UsWEriUUMKHH4MQVffaEFC5TjlZAv0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_Afnfzzx_ShWOm0P9jMZsrApuZl-MMk_biljay_h780Tteg&oe=695595A3)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/bf270a3440a303f9f9394f6ea970219737cc7a2f84f0304ff94fb8462214e180.md)
+
+### Overview
+This image depicts a user interface of Blender 4.2.1 LTS, a 3D modeling software. The screen is divided into several panels, each serving a specific function within the software. The main focus is on the 3D Viewport, which displays a 3D scene with a cube and a pyramid. Surrounding the viewport are various panels for managing objects, transformations, and properties.
+
+### Key Elements
+- **3D Viewport**: Located centrally, displaying a 3D scene with a cube and a pyramid. The cube is highlighted with a red bounding box, indicating selection. The axes (red, green, blue) are visible, showing the orientation of the cube.
+- **Properties Panel**: Positioned at the bottom right, labeled as "Properties Panel." This panel contains numerical data related to the selected object, such as location, rotation, and scale.
+- **Outliner Panel**: Situated on the far right, labeled as "Outliner." This panel lists objects in the scene, including a "Cube" and a "Light," along with their respective icons and checkboxes.
+- **Menu Bar**: At the top, containing options like File, Edit, Render, Window, Help, Layout, Modeling, Sculpting, UV Editing, Texture Paint, Shading, Animation, Rendering, Compositing, and Scene. There are also tool icons and dropdown menus for quick access to functions.
+- **Tool Panel**: On the left side, labeled as "Object Mode." It contains various tools for manipulating objects, such as select, add, and object modes.
+- **Status Bar**: At the bottom, displaying playback controls, keyframe settings, view options, and timeline information.
+
+### Visual Flow / Relationships
+The most prominent visual element is the 3D Viewport, as it occupies the largest area of the screen and serves as the primary workspace. The Properties Panel and Outliner Panel provide supplementary information and management tools. The menu bar offers a wide range of functions accessible through dropdown menus and icons. The Tool Panel offers quick access to object manipulation tools. The status bar at the bottom provides playback and timeline controls.
+
+</details>
+
+<p></p>
+
+
 
 **Mentor’s Note:**
 The best thing to do is to get familiar with these main areas. Explore and toggle all of the functions and see what they do!
@@ -81,7 +106,31 @@ Here’s a [PDF with a full list of Basic Navigation and Hotkey Essentials](Basi
 
 Follow the steps below to create your first 3D asset:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468445600_597980802739875_2964957396061656219_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=WBBPNo_DB9cQ7kNvwF43Jqa&_nc_oc=AdkyMMj0FdayWkMnduirYZ6LtF5DHANbdweb1wtSc28F2Jfnt0FPrqekJlDFILD4EDY91g68uIacGSikdhYWDBI7&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfkOK5HFpWP1zIT9eUKp4zsqiNOLsapyTCiL5m0QUWFfuQ&oe=6955980F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/f1fbafa8f69754906e92c233547701858aca3670c4e8d302b1841159db64dd13.md)
+
+### Overview
+The image depicts a stylized illustration of a closed book with a colorful abstract cover design. The book is positioned centrally against a plain white background.
+
+### Key Elements
+- **Visual description**: The book has a rectangular shape with rounded edges.
+- **Location**: The book is centered in the image.
+- **Contents**: The cover features a vibrant, abstract pattern composed of various geometric shapes and colors such as red, blue, yellow, and green.
+- **Visual styling**: The book has a simple, flat design with no gradients or shading. The spine of the book is dark blue, contrasting with the lighter blue of the cover.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The book itself is the focal point of the image.
+- **Spatial relationships**: There are no arrows, lines, or connectors. The image is static with no implied reading order.
+
+</details>
+
+<p></p>
+
+
 
 **Mentor’s Note:** Always use references when modeling. I have included my reference image of a book above.
 
@@ -92,7 +141,33 @@ Follow the steps below to create your first 3D asset:
 - **Extruding:** In face select mode, Select where the book covers would be; front and back. Then select the spine. Press **E** to extrude.
 - **Inset:** Staying in face select mode, now you will select where the pages will go. Press **I** to inset.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468529862_597980809406541_6907319099951515187_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=0ytC2scfWx4Q7kNvwGgajDI&_nc_oc=AdlaVrhFPaMhFkNuM50IxFuXWOpnczEVNWU32WIpm6dXn66Hv83QLGZ_tt_sfMkt0QYOnyCVdc_tdsMNJyL8nC0d&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_Afl5cnD7Y3Yu2THAnebtIQ3GYYyettW2RfKBUH-_ERMEHQ&oe=6955840B)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/c50fd66b07a5430dd5e2cbb22e33d96a27cbd7391242ea99c06a14405c6f3120.md)
+
+### Overview
+The image depicts a 3D model of a rectangular object resembling a drawer or cabinet. The model has a light gray exterior and a beige interior. The perspective is slightly angled, showing the front and one side of the object.
+
+### Key Elements
+- **Visual description**: The object is a rectangular prism with a flat top and bottom.
+- **Location**: The object is centered in the image.
+- **Contents**: 
+    - **Exterior**: Light gray, smooth surface.
+    - **Interior**: Beige, also smooth but with a slightly different texture compared to the exterior.
+- **Visual styling**: The edges are sharp and well-defined, suggesting a clean, modern design. There are no additional elements or decorations on the object.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The rectangular shape of the object.
+- **Spatial relationships**: The object is isolated against a neutral background with grid lines, indicating a 3D modeling environment. There are no arrows or lines connecting elements.
+
+</details>
+
+<p></p>
+
+
 
 These guidelines will help you Model your book.
 
@@ -104,7 +179,30 @@ These guidelines will help you Model your book.
 
 This section will explore a more advanced technique to elevate your project.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468593117_597980816073207_7869972322125947484_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ikLxDTjJoW0Q7kNvwE14S8o&_nc_oc=AdmDoItThkqfQwu50Vrnpzj8YXSqHOh1V6BABft-ulg_2ZSrdn8oQXCXWGuB6KyrtOfd0VY7C8NVxydKX5qgfsf3&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfnP9dX93UlksW6OA_4fFNDKJtQwhEZNIJNJA45-Xwi4ng&oe=69558DF5)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/32b55aa49ddc0023a696b8431cb148d0e02c3cedf98dbd2a1b4386f663f2fbcb.md)
+
+### Overview
+This image depicts a stylized, colorful table with a drawer. The table has a geometric design with various shapes and colors, giving it a modern and artistic look.
+
+### Key Elements
+- **Table Base**: Located at the bottom, the base of the table features a rectangular shape with rounded edges. It has a mix of orange, blue, and green colors, with a pattern that includes squares and rectangles.
+- **Table Top**: Positioned above the base, the tabletop is divided into several geometric shapes, including triangles and rectangles, in shades of green, yellow, and orange.
+- **Drawer**: Situated on the left side of the table, the drawer has a simple handle and is colored in a gradient of blue and purple tones.
+- **Legs**: Four legs support the table, each with a unique color and design. They are thin and elongated, with a mix of orange, blue, and green hues.
+
+### Visual Flow / Relationships
+The most prominent visual element is the table itself, as it occupies the majority of the space. The drawer is secondary but still noticeable due to its placement on the left side. The legs are distributed evenly around the base, providing structural balance. There are no arrows or lines connecting elements, so the visual flow is primarily spatial arrangement.
+
+</details>
+
+<p></p>
+
+
 
 **Mentor’s Note:** Save a lot. Save Often. Make it a habit to constantly save your progress. If you like what you made, **Press Save**!
 
@@ -118,7 +216,31 @@ This section will explore a more advanced technique to elevate your project.
 
   The image below will show the symmetry turned on by the X-axis, indicating mirrored actions. Take the time to experiment with symmetry!
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468426950_597980796073209_4096584711949522589_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zvVGBQ1QSIkQ7kNvwE80Mx2&_nc_oc=AdkF69UWIQRkKzXrBQOeLhUo5B9J8p9v65sFMnlobRacJcmESXT4kRRmLcL24Rx6CYG0iKbE-KxZ4FHVTqG2LrRv&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfkBZAEduS1nLhuUw5PutiJIxj4iUeoTOTccgKZQJFMAjw&oe=6955805C)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/efc3427fe392b0cc8587ab2eac829004e5eb3e48217887a01736260f6910834c.md)
+  
+  ### Overview
+  This image depicts a user interface element, specifically a 3D modeling software tool showing a coordinate system with axes labeled X, Y, Z. The interface includes various icons and options at the top, and a grid-like workspace below.
+  
+  ### Key Elements
+  - **Coordinate Axes**: Three axes (X, Y, Z) are represented by colored circles at the origin point (0,0,0). The X-axis is red, the Y-axis is green, and the Z-axis is blue.
+  - **Origin Point**: Located at the center of the grid, marked by a small white cross.
+  - **Grid Workspace**: A dark gray grid occupies the lower portion of the image, serving as the workspace for 3D modeling.
+  - **Top Bar Icons**: Various icons are present at the top, likely representing different functions such as undo, redo, save, and preferences. These icons are small and circular, with some having additional symbols inside them.
+  - **Options Menu**: A dropdown menu labeled "Options" is visible near the top right, suggesting additional settings or tools can be accessed here.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the coordinate axes and the origin point. The axes are arranged in a triangular formation around the origin, with the X-axis pointing right, the Y-axis pointing up, and the Z-axis pointing outwards. There are no arrows or lines connecting these elements, but their arrangement implies a spatial relationship indicating the directions of the axes. The grid workspace serves as the backdrop for the coordinate system, providing a reference for the 3D space being modeled.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - **Make a Drawer:** We’re going to go back to the face we left over specifically to build the drawer.
   * **Extrude Face:** Pressing **E** to extrude, Just enough to fill the space inside the table.
   * **Inset: \*\*Selecting the top face you’re going to press** I \*\*to inset.
@@ -132,7 +254,32 @@ This section will explore a more advanced technique to elevate your project.
 
 Shown here are the different stages of the table being built! Sometimes it’s good to take a step back and look at the stages from a distance. If it looks close to this, you’re doing great!
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468544650_597980819406540_8924688177684564166_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=IFXrcyVPB7YQ7kNvwHlVsza&_nc_oc=AdnEE-6TlM2uPf2DWzdWDqr7KZaVq0_uLsZMRA5vzVors0mp_FeLZrdkyjko0CUdbB6B123yEJKwhxJDzxDRf0HY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfmhX0ggnjiBwpEohtaTMzn8xm8077n0tMjj5ebYH2eiaw&oe=69556E79)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/4f5df0e97956c77de41dff6e012a9facd7d5d88ea3f5b902f9bf69ebfd965b15.md)
+
+### Overview
+This image displays a 3D modeling interface with various furniture models arranged around a central focus object. The interface includes keyboard shortcuts overlaid on the models, indicating actions that can be performed within the software.
+
+### Key Elements
+- **Central Focus Object**: A small table with a drawer, highlighted in the center of the image. It has a blue line extending from its center, suggesting interaction or selection.
+- **Top Left Corner**: A smaller table model with a keyboard shortcut "Ctrl + R" displayed above it.
+- **Top Right Corner**: Another table model with a keyboard shortcut "Shift" displayed above it.
+- **Bottom Left Corner**: A smaller table model with no visible keyboard shortcuts.
+- **Bottom Right Corner**: A larger table model with a keyboard shortcut "E" displayed above it.
+- **Background**: The background is dark gray with grid lines, typical of a 3D modeling environment.
+
+### Visual Flow / Relationships
+The visual hierarchy is centered around the central focus object, which is the largest and most detailed model. The keyboard shortcuts are placed directly above the respective objects, indicating their association. There are no arrows or lines connecting the elements, but the arrangement suggests a logical flow from the central object outward.
+
+</details>
+
+<p></p>
+
+
 
 **Make that Table video walkthrough:**
 
@@ -140,7 +287,31 @@ Shown here are the different stages of the table being built! Sometimes it’s g
 
 ## Asset 3: Brighten Up the Room with a Lamp
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/468426021_597980826073206_2883939057841447670_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=0CoUWMKlD88Q7kNvwFZZkP1&_nc_oc=Adn1hNpjnBPk_QgQ3-Bhi_SXGAwn8NrWeTXhxRna46rmb6_a41_sGYWVEbP1dVBztEhYCjV5eSUggwwVz9UgbIFw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AflIuZWaASk_kZ__CCx6Z3Rijz-ENFrXlYY074oh6divKA&oe=69559EE3)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/9fe478004ddfe2ed78d4b854ea9dbc363e9e946cce1de665ba92829b9d27aee6.md)
+
+### Overview
+The image depicts a single object, a lamp, presented against a plain white background. The lamp has a distinct shape and color scheme, with a focus on its design and form.
+
+### Key Elements
+- **Visual description**: The lamp has a rounded base that tapers into a narrower neck supporting a wide, conical lampshade. The lampshade features a gradient of orange and yellow hues.
+- **Location**: The lamp is centered in the image.
+- **Contents**: The lampshade is the primary feature, with a gradient of orange and yellow shades. The lamp base is blue with a green and yellow geometric pattern.
+- **Visual styling**: The lamp has a smooth texture and a glossy finish, giving it a polished look.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The lamp itself is the sole focus of the image.
+- **Spatial relationships**: There are no additional elements or connections within the image. The lamp is isolated against a plain white background.
+
+</details>
+
+<p></p>
+
+
 
 **Mentor’s Note:** Don’t be afraid to experiment by adding additional shapes to form your model.
 
@@ -152,7 +323,35 @@ Shown here are the different stages of the table being built! Sometimes it’s g
 
 After you create your mesh cylinder, this menu pops up on the lower left of your screen. Here you can adjust the vertice count! Keep an eye for these menus that pop up on the lower left, they can be very handy.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468425601_597980806073208_4836716041152208545_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=hw_CyLwINNwQ7kNvwFU0MU9&_nc_oc=AdmGRD5G4XhBjVQS7PYIjuwONI85dTstdPVYHyC4F91pvt7ZnayKSV7ytnDMFaZjAXXEzHlA5p8f5xebqVRvScxs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AflnCNYulzsK5tjSnL9wS4ZuxeJFD7ALCg2wklJn3FLe1g&oe=6955A18A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/21eb9264875e4b6a691edf753acd4bf624b082c9f8d6185f886488e241250341.md)
+
+### Overview
+This image depicts a settings panel within a 3D modeling software interface. The panel is titled "Add Cylinder" and contains various parameters for creating a cylinder object. The layout is structured with labels and input fields for configuring the cylinder's dimensions and alignment.
+
+### Key Elements
+- **Panel Title**: "Add Cylinder" located at the top-left corner.
+- **Vertices Input**: A field labeled "Vertices" with the value "32".
+- **Radius Input**: A field labeled "Radius" with the value "1 m".
+- **Depth Input**: A field labeled "Depth" with the value "2 m".
+- **Cap Fill Type Dropdown**: A dropdown menu labeled "Cap Fill Type" set to "N-Gon".
+- **Generate UVs Checkbox**: A checked checkbox labeled "Generate UVs".
+- **Align Dropdown**: A dropdown menu labeled "Align" set to "World".
+- **Location XYZ Inputs**: Three fields labeled "Location X", "Y", and "Z" all set to "0 m".
+- **Rotation XYZ Inputs**: Three fields labeled "Rotation X", "Y", and "Z" all set to "0°".
+
+### Visual Flow / Relationships
+The panel is the most prominent visual element, taking up the central area of the image. The inputs and dropdown menus are arranged in a grid-like structure, with labels aligned to the left and input fields to the right. There are no arrows or lines connecting elements, suggesting a linear reading order from top to bottom and left to right.
+
+</details>
+
+<p></p>
+
+
 
 - **Delete Faces and Extrude:** After the lampshade is modeled as desired, you will then delete the top faces on the cylinder and the bottom. Afterwards, Press **A** to select all. Press **E** to extrude.
 
@@ -162,13 +361,92 @@ After you create your mesh cylinder, this menu pops up on the lower left of your
 
 Cheers! You’ve created your first set of 3D assets!
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468528836_597980822739873_1400011933091746245_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=XBqCJMTZTMYQ7kNvwHSELPU&_nc_oc=Adk7HuXeDQXV9QW-bpzXAmVuwEBi1zOpdZM3tskWh3ABYseOsAh2183PMvOasuLJO0Jsg5O8AWBJzo70JUHEWnHp&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AfkaFUSl3TM26R2Ax9ZJq9bdy_xPI1KxnZQo9afZcXLzXg&oe=6955A2D7)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/34534c023483889e337ca40398c159b73d94983173865f63ecf9e9e8944b0efa.md)
+
+### Overview
+The image depicts a 3D model of a small table with a lamp and some books placed on it. The scene is set against a dark gray grid background, suggesting a 3D modeling environment.
+
+### Key Elements
+- **Table**: A rectangular table with four legs and a single drawer. The table has a light gray color with subtle shading to give it depth. The drawer handle is a small, round, metallic knob.
+- **Lamp**: Positioned on the left side of the table, the lamp has a conical shade with a gradient from light gray at the bottom to a slightly darker shade at the top. The base of the lamp is a smooth, rounded shape, also in light gray.
+- **Books**: There are three stacked books on the right side of the table. They appear to be uniform in size and color, with a light gray cover.
+- **Background**: The background is a dark gray grid, likely representing a 3D modeling workspace.
+
+### Visual Flow / Relationships
+The lamp is the most prominent object due to its central placement and larger size compared to the books. The books are secondary but still noticeable as they are stacked neatly on the table. The table itself serves as the base for both the lamp and the books, creating a stable arrangement.
+
+</details>
+
+<p></p>
+
+
 
 **Mentor Note:** With these same steps you can easily create your very own set of assets remembering to gather references and start with simple shapes!
 
 Here is what the UV unwrapping stage will look like. It’s very basic and it should get you prepared for texturing! Pretend you’re taking a pair of scissors and cut along seams.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/468544795_597980799406542_3094959477454634743_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=BN3zQgvLjdUQ7kNvwGIOQxz&_nc_oc=Adkd11jWwP6CpJCz4gvNVu32ddynxwXYI_6Opaf6Q-Q-Z3t_DpRV4oAOEqKHz2WGdALBeI6k5QA7vqTNP5VlYpG_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UKaktz0OJdOxCl80jhzY-g&oh=00_AflCi6enOWJjRHVdldVrX-GaeR--8m_nHQRjys13IYxnVA&oe=69557405)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/80054e09d8724b1f8554093593ae0fac37897d49ad8037dd3720f55936abf3bb.md)
+
+### Overview
+This image displays a screenshot of a 3D modeling software interface, specifically showing multiple views of a 3D model being manipulated. The interface includes various panels and tools typical of 3D modeling software.
+
+### Key Elements
+1. **Left Panel**
+   - **Visual description**: A grid view panel.
+   - **Location**: Left side of the screen.
+   - **Contents**: A grid layout with a small 3D model preview in the bottom-left corner.
+   - **Visual styling**: Dark background with light gray grid lines.
+
+2. **Center Left Panel**
+   - **Visual description**: A 3D model view panel.
+   - **Location**: Center-left side of the screen.
+   - **Contents**: A 3D model resembling a stack of books or a similar rectangular object.
+   - **Visual styling**: The model is shaded with a neutral gray color, and the edges are highlighted in red.
+
+3. **Center Right Panel**
+   - **Visual description**: Another 3D model view panel.
+   - **Location**: Center-right side of the screen.
+   - **Contents**: A different perspective of the same or a similar 3D model as seen in the center-left panel.
+   - **Visual styling**: The model is displayed in a wireframe mode, with red and white lines indicating edges and vertices.
+
+4. **Right Panel**
+   - **Visual description**: A 3D model view panel.
+   - **Location**: Right side of the screen.
+   - **Contents**: A complex 3D model with multiple interconnected parts, possibly representing a mechanical or architectural structure.
+   - **Visual styling**: The model is colored in orange and brown tones, with some parts highlighted in lighter shades.
+
+5. **Top Bar**
+   - **Visual description**: A menu bar with various icons and options.
+   - **Location**: Top of the screen.
+   - **Contents**: Icons for file operations, view settings, and other tools.
+   - **Visual styling**: Dark background with light-colored icons.
+
+6. **Side Panels**
+   - **Visual description**: Toolbars and property panels.
+   - **Location**: Left and right sides of the screen.
+   - **Contents**: Various tool icons and dropdown menus.
+   - **Visual styling**: Dark background with light-colored text and icons.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The 3D models in the center and right panels.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: The panels are arranged in a row, with each panel displaying a different view of the 3D model. The left panel shows a grid view, while the others show 3D views from different angles.
+
+</details>
+
+<p></p>
+
+
 
 ## Introduction to UV Unwrapping
 

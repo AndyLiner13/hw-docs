@@ -14,10 +14,60 @@ This topic shows you how to build an interactive custom UI, because creating a s
 This topic and [Build a dynamic custom UI](Building%20dynamic%20custom%20UI.md) explore these capabilities by working through an example. Consider a game where the players are given a chance to change the color for a ball. In the UI, you’d like to have a text prompt and a confirmation button in the UI. After any player clicks the button, you’d want the ball’s color to be updated, button removed, and the prompt’s content and color changed.
 
 The following image is an interactive UI showing a text prompt and a confirmation button.
-![A text prompt and a confirmation button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522652_512500634621226_5566709019236532182_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Tv8x2acjiOQQ7kNvwFog21s&_nc_oc=AdmZwY2qSPUsiyL9E2keey0vGBjWMfc3012Q8Ci-BtEZTUcoL9CqrNZhDZLqFKarITFQNdf5EdWS3sUyyhxV8efj&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ihRbbgOg3lS5RYUa0YORmQ&oh=00_Afnr65wwfKm01rCxsNwW3oh0aYBAUI64X89kmaRz7aljWQ&oe=69558BA2)
+<details>
+<summary>A text prompt and a confirmation button</summary>
+
+<p></p>
+
+[A text prompt and a confirmation button](../../image_data/8d610e1f95d97997d43fe6391b3cd765e792fcf90de49a37d2076c7ae5c4ce65.md)
+
+### Overview
+This image depicts a simple dialog box with a question and a single button.
+
+### Key Elements
+- **Question Box**: Located centrally, with rounded corners and a light beige background.
+  - **Contents**: The text "Want to change the color of the ball?" is displayed in bold black font.
+  - **Visual styling**: The text is centered within the box, and the box has a subtle shadow effect.
+
+- **Button**: Positioned below the question box, with rounded corners and a green background.
+  - **Contents**: The word "Sure!" is written in white font.
+  - **Visual styling**: The button has a solid green background with no additional borders or highlights.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The question box containing the question.
+- **Spatial relationships**: The button is directly below the question box, suggesting a direct interaction sequence where the user would click the button after reading the question.
+
+</details>
+
+<p></p>
+
+
 
 The following image is an interactive UI showing some confirmation text.
-![Some confirmation text after clicking the button](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576827_512500611287895_1449283729304710085_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=w24zNGAOdhsQ7kNvwFkETru&_nc_oc=AdmHxZMO7txOLx92wuEWvraOnp53plH6trHbTMyby9on_I42hotvs1SNvfJ4f71m0HhBpve5nX_F6OHi8dYnUu5Y&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ihRbbgOg3lS5RYUa0YORmQ&oh=00_AflId5eVJr2P9uqflrPrroblnlq3OM_J7XHxXmaxJwGLAQ&oe=6955740D)
+<details>
+<summary>Some confirmation text after clicking the button</summary>
+
+<p></p>
+
+[Some confirmation text after clicking the button](../../image_data/881c48008991f14add1ff2ee9da4e035ed10b20aef36d34e3c010e7dc2f1c11b.md)
+
+### Overview
+This image depicts a simple rectangular button with rounded corners containing text that reads "Enjoy the new color!" The overall composition is minimalistic, focusing solely on the message conveyed by the text within the button.
+
+### Key Elements
+- **Visual description**: The button has a rounded rectangular shape with a smooth, slightly curved edge.
+- **Location**: Positioned centrally in the image.
+- **Contents**: The text "Enjoy the new color!" is written in red font.
+- **Visual styling**: The button has a light beige background with a subtle gradient effect, giving it a soft, muted appearance. There are no additional elements or decorations within the button.
+
+### Visual Flow / Relationships
+The button is the sole focus of the image, with no other elements or connections to other parts of the interface. The text is centered within the button, making it the most prominent feature.
+
+</details>
+
+<p></p>
+
+
 
 ## Build a static UI
 

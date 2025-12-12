@@ -27,16 +27,137 @@ Gen AI Tool Availability & Rates
 The skybox feature offers different models that can be used to establish a style for your generated skybox. Below are the currently available skybox models generated with the following phrase: “A view of a nighttime sky with an aurora. rolling snow-capped rocky hills barely visible far out in the distance.”
 
 * Skydome - A traditional skybox featuring wide open reflected horizons and realistic rendering
-  ![generated skybox in the skydome style](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484843258_675614044976550_7641456277170156748_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=DgtwiQclh1YQ7kNvwFSWcAX&_nc_oc=AdkBtZhN9JtjGZfC-DdEIiFGEJ0aRaOsdB2fiuk_tM8UOcHdnq8_23vvkcIQHb8fnEIg3U8OF65MnotII8mrQ4-C&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OBaYafVZYEtDSrwCgFppxg&oh=00_AfnzNf9809N8_0r3vMtuF5fOZl8uU7XfSDDUrg0e4g4rxQ&oe=69559726)
+  <details>
+  <summary>generated skybox in the skydome style</summary>
+  
+  <p></p>
+  
+  [generated skybox in the skydome style](../../image_data/16f63395066777703a6c98da8d0e11560a534c516fd62ad8009b2ac4e7c371f5.md)
+  
+  ### Overview
+  The image depicts a user interface of a software application, likely related to image editing or asset management, showcasing a vibrant aurora display as the central visual element. The interface includes various panels and tools for managing assets and generating content.
+  
+  ### Key Elements
+  - **Central Visual Element**: A stunning aurora display dominates the screen, featuring vivid green, pink, purple, and yellow hues against a dark sky. The aurora is reflected in a body of water below, creating a symmetrical effect.
+  - **Left Panel**: Contains a sidebar labeled "Assets," showing folders and individual assets represented by cloud icons. Text labels such as "My Assets" and "generated_sky..." are visible next to the icons.
+  - **Right Panel**: Displays a smaller preview window of the aurora image, labeled "Horizon AI." Below this, there are options for style selection ("Photorealistic") and a "Generate" button.
+  - **Top Bar**: Includes various tool icons and settings, such as zoom controls, orientation adjustments, and a "Gen AI BETA" indicator.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual is the aurora display in the center. The left panel serves as a navigation area for accessing different assets, while the right panel provides options for generating new content based on the displayed image. The top bar offers various interactive tools for adjusting the view and settings.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * Photorealistic - Photographic realism with good visual fidelity
-  ![generated skybox in the photorealistic style](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/485160468_675614048309883_7846075386437929284_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Bijqv8HGi_sQ7kNvwEnWDI7&_nc_oc=Adm1H_3YC8XhgYByIrkcMC6gLctkxz8flXK36H_szawtAjEtjuT-nmp3tAMPbs_IpOn_wOAlpB_E0R6lbaWxCAKk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OBaYafVZYEtDSrwCgFppxg&oh=00_Afn1Y09y08CSoQHZc8sIsNF0dGg9gVDm9LvJCgM6468Omw&oe=6955926F)
+  <details>
+  <summary>generated skybox in the photorealistic style</summary>
+  
+  <p></p>
+  
+  [generated skybox in the photorealistic style](../../image_data/077e00106cfebfe2f96cf26f5f64fcf8753e9404ee76fa54af67726a90bed824.md)
+  
+  ### Overview
+  The image depicts a user interface of a digital art or design software application. The central part of the screen displays a vibrant image of a night sky with auroras over a snowy mountain landscape. On the right side, there is a panel labeled "Gen AI BETA" showing generated images related to the described scene. Below the main image, there is a navigation bar with folders and asset management options. The bottom right contains interactive elements for generating content.
+  
+  ### Key Elements
+  - **Central Image**: A large, colorful depiction of a night sky with auroras over snow-capped mountains. The auroras display a range of colors, including pink, purple, green, and yellow.
+  - **Right Panel**: Contains two sections labeled "Horizon AI" with generated images of auroras over snowy landscapes. Each section has a thumbs-up and thumbs-down icon below the images.
+  - **Navigation Bar**: Located at the bottom left, includes tabs labeled "Assets," "Console," and "Tests." There are also folders named "My Folders" and "My Assets," with a list of generated skybox assets displayed as icons.
+  - **Interactive Elements**: Buttons and dropdown menus for adding new assets, searching for assets, and managing shared assets. There is also a "Generate" button in the bottom right corner.
+  
+  ### Visual Flow / Relationships
+  - The most prominent visual is the central image of the aurora-lit landscape.
+  - Arrows or lines are not present, but the layout suggests a sequential flow from the main image to the generated content on the right.
+  - Elements are arranged in a grid-like structure, with the main image occupying the largest space, followed by the navigation bar at the bottom and the generated content on the right.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * Digital Painting - Digitally illustrated concept art
 * Open World - Pastel paintings of beautiful worlds
-  ![generated skybox in the open world style](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484265621_675614038309884_6466651506436893979_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=mslo-Ml_U2oQ7kNvwHun49U&_nc_oc=AdkqWD6edHLFF_y3fd31SfkBNuG9QnOlkUQ5oaU3Fhrqob_UvVGCqcRNlEKvh0Ql1S-4U2xSjJDj3N4tBGGj0Unv&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OBaYafVZYEtDSrwCgFppxg&oh=00_AfkV3QHUk53UO50QZQLIkdeG61MclZrKvhcnyg-QjcVevQ&oe=69558E52)
+  <details>
+  <summary>generated skybox in the open world style</summary>
+  
+  <p></p>
+  
+  [generated skybox in the open world style](../../image_data/77ccde25df1da45a8af625a056f5926769708cfe648b6a1f482388a73320860b.md)
+  
+  ### Overview
+  The image depicts a user interface of a digital art or design software. The central focus is a generated image of a snowy landscape with a tunnel leading into a glowing light source, set against a vibrant aurora borealis in the sky. On the right side, there are AI-generated suggestions for similar scenes. The bottom left shows a file explorer with folders and assets related to the project.
+  
+  ### Key Elements
+  - **Central Scene**: A snowy mountainous landscape with a tunnel leading into a glowing light source. The aurora borealis dominates the sky, with green, yellow, and purple hues.
+  - **Right Panel**: Contains AI-generated suggestions labeled "Horizon AI." Each suggestion includes a thumbnail image of a snowy landscape with auroras.
+  - **Bottom Left**: A file explorer with folders named "My Assets" and "Shared With Me," showing various asset thumbnails labeled with filenames such as "generated_skybox_32..." and "jee_test_skybox."
+  
+  ### Visual Flow / Relationships
+  - The most prominent visual is the central scene, which draws attention due to its vivid colors and dynamic lighting.
+  - Arrows or lines are not present, but the layout suggests a sequential flow from the central scene to the AI suggestions and then to the file explorer.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * Anime - Bright and cheery Japanese styled animation
-  ![generated skybox in the anime style](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484725101_675614031643218_6452299790829256071_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=bTRDuLaKCuMQ7kNvwFxhha1&_nc_oc=AdlWgou4F3huHfrwILGbr_4JHGW7CvtXM3KYewP_U_3LOevnOGw-eaaMbI6b8qMgw6XLBBzikiHyONbTt3rWdsNU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OBaYafVZYEtDSrwCgFppxg&oh=00_AfmFmKrIOYoquFydM-gNCo9oVrmSBjZ27W5fmnb3x1pBqg&oe=695586CF)
+  <details>
+  <summary>generated skybox in the anime style</summary>
+  
+  <p></p>
+  
+  [generated skybox in the anime style](../../image_data/3ec95e924fdba74c7f429324ef6e4f5efc39173f83b45687bd72b9fdfe8b67a2.md)
+  
+  ### Overview
+  The image depicts a digital interface, likely from a software application designed for creating or editing digital art. The central area showcases a vibrant, computer-generated landscape featuring a night sky with auroras, snow-capped mountains, and a gradient horizon transitioning from purple to orange. On the right side, there are AI-generated images of similar landscapes displayed in a vertical list, suggesting a feature for generating or selecting background images. The bottom part of the interface includes a navigation bar with folders labeled "My Assets," and a series of thumbnail previews of various assets, some labeled as "generated_skybox."
+  
+  ### Key Elements
+  - **Central Landscape**: A large, colorful image of a night sky with auroras, snow-capped mountains, and a gradient horizon. The auroras are predominantly green and blue, with a starry sky above and a sunset or sunrise gradient below.
+  - **Right Panel**: Contains a vertical list of AI-generated images of similar landscapes. Each image has a thumbs-up and thumbs-down icon below it, indicating user interaction options.
+  - **Navigation Bar**: Located at the bottom left, includes tabs labeled "Assets," "Console," and "Tests." Below these tabs, there are folders named "All Assets," "My Folders," and "Shared With Me." The "My Assets" folder is expanded, showing thumbnails of various generated skybox assets.
+  - **Thumbnail Previews**: Below the navigation bar, there are multiple thumbnail previews of generated skybox assets, each labeled with a filename starting with "generated_skybox_."
+  
+  ### Visual Flow / Relationships
+  The most prominent visual is the central landscape image. The AI-generated images on the right are secondary but equally important, as they represent the output of the AI feature. The navigation bar at the bottom provides context and access to different sections of the application. The thumbnails at the bottom are arranged horizontally, suggesting a grid layout for easy browsing through assets.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * Comic - Cel-shaded illustration style with clean lines and bright colors
-  ![generated skybox in the comic style](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484918867_675614041643217_5716770861462679951_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=AK9lKr2_1WkQ7kNvwGUXrrz&_nc_oc=AdnXcxRx6dCIxT_TjJbaqLMQxRG_KBsZ0AEVCwKivH-BE3cG3eyH3gXY-2UbBNFRQl5EwYtvNm4j2RIjOJWeXiP_&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OBaYafVZYEtDSrwCgFppxg&oh=00_Afn0OkebsJIL5vq2q62ucVMRVfT0vbLia-HlUf9xj9jtaA&oe=6955766D)
+  <details>
+  <summary>generated skybox in the comic style</summary>
+  
+  <p></p>
+  
+  [generated skybox in the comic style](../../image_data/46252710eba8a78b8d020a302f8ebd64cec3db2a5b09e6fa0879e40c20f677ba.md)
+  
+  ### Overview
+  The image depicts a user interface of a software application, likely related to 3D modeling or asset management, showcasing a generated skybox scene featuring a night sky with auroras and snow-capped mountains. The right side displays a chat-like interaction with AI-generated images of the same scene at different angles.
+  
+  ### Key Elements
+  - **Main Scene**: A vibrant night sky filled with auroras in shades of purple and pink, with stars scattered across the sky. Below the sky, there are snow-covered mountain peaks extending into the horizon.
+  - **User Interface Elements**:
+    - **Top Bar**: Contains various icons and settings such as zoom level, orientation, and a "Gen AI BETA" indicator.
+    - **Left Panel**: Labeled "Assets," showing folders named "My Folders" and "My Assets." There are thumbnail previews of different skybox assets labeled with names like "sky-22193f21..." and "generated_sky_...". 
+    - **Right Panel**: Displays a chat interaction with AI-generated images of the night sky scene. Each image has a thumbs-up and thumbs-down icon below it.
+    - **Bottom Right Corner**: Contains a "Generate" button and a "Style" dropdown menu set to "Comic."
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The central scene of the night sky with auroras and mountains.
+  - **Arrows/Connectors**: None visible.
+  - **Spatial Relationships**: The main scene dominates the left side, while the AI chat and user interface elements occupy the right side. The thumbnails in the left panel are arranged horizontally beneath the "My Assets" folder.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ## Generate Skyboxes for your world
 

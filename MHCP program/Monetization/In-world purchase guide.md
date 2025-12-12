@@ -100,7 +100,32 @@ this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemPurchaseComplete,
 
 This is also possible using code blocks in VR:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653334_512509804620309_7449246252743342538_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=n7n3YCCJLUoQ7kNvwGVmO6j&_nc_oc=Adk_7YM1jpxEvQAgLprj-3DbbaYdvVxf3U7X6ysg_zaNn5tdgH8YD4-6OIRF_52GY_WrqUVB_KGAOQwcQhY5DO4r&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_Afl1EuRUH6F7TRyMe2aFI_M6ixNeSL-XsHCbiu8W1J7Smg&oe=6955A077)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/4284bbec81156a69664f5794fdf51923d270e2a2520e0f7dd7e13ecde34912d7.md)
+
+### Overview
+This image depicts a visual programming interface with a dark theme. It shows a sequence of blocks representing conditional logic and actions within a script editor. The interface includes a control panel at the bottom with a directional pad and a script capacity indicator.
+
+### Key Elements
+- **Top Bar**: Contains the word "durable" and icons for settings, copy, and close.
+- **Script Blocks**: Located in the upper left area, these blocks represent conditions and actions. They include:
+  - A block labeled "when world is started."
+  - Two blocks under "when player purchase succeeds on item" and "when player purchase fails on item," both displaying "display ok" and "display not ok" respectively.
+- **Control Panel**: At the bottom, there's a directional pad with a blue lightbulb icon above it, indicating a script action or hint.
+- **Bottom Indicator**: Shows "No Errors" and "Script Mode: Default" along with a script capacity of 2%.
+
+### Visual Flow / Relationships
+The blocks are arranged vertically, with the "when world is started" block at the top, followed by the success and failure conditions. The control panel is positioned at the bottom, and the script capacity indicator is on the far right side.
+
+</details>
+
+<p></p>
+
+
 
 Here, the ‘t1’ is supposed to be a Text gizmo object, which needs to be connected to the in-world gizmo, which refers to this script.
 
@@ -121,7 +146,37 @@ For example, if you want to use a trigger that lets a player “verify” whethe
 
 This is also possible using code blocks in VR:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532481_512509801286976_3963140044187378221_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=eMIpafatfKYQ7kNvwGcfiIS&_nc_oc=Adlissb_HtEBvP5kp4v33rZXR8tRdS2fXPAdFWMTYLwQz4ubyVjCRS-bdAfyS2EoL9gFFcT6Q2m--jokmbms4F_v&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AflcDEu5XfZbrCKqm7pNolS7wS_KPz30EE9DrZWxW0T5UA&oe=69559A27)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/de945f5e7196352473a36a8a43c57b61fabba69d2583e5fe972239619f2fb85f.md)
+
+### Overview
+This image depicts a visual representation of a script editor interface, specifically showing a block-based programming environment. The interface includes a series of interconnected blocks representing conditional logic and actions within a script named "Script 1."
+
+### Key Elements
+- **Top Bar**: Contains the title "Script 1" and icons for settings, copy, and close functions.
+- **Script Blocks**: Located centrally, these blocks are arranged in a vertical sequence.
+  - **Block 1**: "when world is started"
+  - **Block 2**: "when trigger is entered by player"
+    - Sub-blocks under this include:
+      - "if player owns entitlement of durable1_b3acdc45"
+      - "display yes on t1"
+      - "else display no on t1"
+- **Background**: Dark theme with light blue accents around the edges.
+- **Cursor**: A white cursor arrow is visible near the right side of the screen.
+- **Bottom Bar**: Displays "No Errors" and "Script Mode: Default," along with a script capacity indicator showing "2%."
+
+### Visual Flow / Relationships
+The blocks are arranged vertically, with the "else" block positioned below the "if" block. The cursor suggests interaction is possible at the right edge of the screen. The blocks are connected by lines, indicating the flow of logic.
+
+</details>
+
+<p></p>
+
+
 
 ### Consume event listener
 
@@ -144,7 +199,28 @@ this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemConsumeComplete,�
 
 This is also possible using code blocks in VR:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452743645_512509807953642_1775503207172858437_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=pUJBNSJP-uUQ7kNvwHhZyGa&_nc_oc=Adk3SUjmiMXhJNxi44t8poMSVofdqETPZemOxU7N5qy8P07GTm_r3GSYatEQ07svdU0y-M9Or7irpvS4QUwKpXzt&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AfnimYycORBTQjqr90MMBAeKGhWHnihNqApZIqRtCigEhA&oe=69557006)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/9b827a695baa806db9792a94e292f24f421d5058461a8a78faad0775cd521bc7.md)
+
+### Overview
+This image displays a user interface snippet that appears to be part of a visual programming environment or a game development tool. It shows conditional logic blocks with text inputs and outputs. The blocks are arranged vertically, indicating a sequence of actions or events.
+
+### Key Elements
+- **Block 1**: Located at the top, it has a green header with the text "> when player consume succeeds on item". Inside the block, there is a text input field labeled "ok" and a variable reference "t2".
+- **Block 2**: Below Block 1, it has a blue header with the text "> when player consume fails on item". Similar to Block 1, it contains a text input field labeled "not ok" and a variable reference "t2".
+
+### Visual Flow / Relationships
+The blocks are arranged in a vertical sequence, suggesting a step-by-step process. There are no arrows or lines connecting the blocks, implying that the sequence is linear but not necessarily sequential in terms of execution order within the larger context of the program.
+
+</details>
+
+<p></p>
+
+
 
 These events are also available in TypeScript:
 
@@ -177,7 +253,37 @@ To prevent players from accidentally consuming a purchased inventory item when i
 
 The VR code blocks look like this:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512509831286973_6338731087421512787_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=r4tVDri7xIcQ7kNvwFJPYuw&_nc_oc=AdmuTPaMWakJYhRnnw9xzd4HnACM244fNzz7wWRrblB05yMo7WInVqxQPOzkLPH29aczatjnZC-ekaVJ6iwQGGsM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_Afm-_49C6O-MZp0KoV55xb_bzVsc4TFgzzKY6f3wapTNyg&oe=6955837E)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/157c0cb5035d620d5ad34086bd204f5de2f8fe7c5bf6d53095e9c3dc9062cf09.md)
+
+### Overview
+This image depicts a user interface for scripting within a game development environment. It shows a script editor window with a series of blocks representing conditional statements and actions related to player interactions with items in the game inventory.
+
+### Key Elements
+- **Script Title**: "Script 2" at the top left corner.
+- **Conditional Blocks**:
+  - **Block 1**: "display ok on t1" when "player purchase fails on item".
+  - **Block 2**: "display not ok on t1" when "player purchase fails on item".
+  - **Block 3**: "display ok on t2" when "player consume succeeds on item".
+  - **Block 4**: "display not ok on t2" when "player consume fails on item".
+  - **Block 5**: "when player try to consume item from inventory" with a dropdown menu showing "consumablepro_1bb255d4".
+- **Action Block**: "consume item consumablepro_1bb255d4 for player".
+- **Status Indicator**: "No Errors" with a green checkmark at the bottom left.
+- **Script Mode**: "Default" displayed at the bottom left.
+- **Script Capacity**: "4%" shown at the bottom right.
+
+### Visual Flow / Relationships
+The blocks are arranged vertically, with conditions leading to specific displays or actions. The blocks are connected by lines indicating the sequence of events. The most prominent visual elements are the conditional blocks and the action block, which are aligned horizontally under the conditions.
+
+</details>
+
+<p></p>
+
+
 
 This is where you should replace the “display text” behavior with the actual things you want to happen, such as changing a person’s gravity or speed, adding health points, playing a sound, etc.
 
@@ -195,9 +301,73 @@ When creating a durable item, you have the option to attach an asset to the item
 
 In VR, that looks like this:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652791_512509714620318_7608227791481175327_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=2_JIDNcykcYQ7kNvwFa0cdZ&_nc_oc=AdnfQOu4pwJnlfa3gNgli_mO3uOtcJn2hYnIjOUvwQODAcGG3nOsjMF_PLVHxf72my_o4YnpCdhFqnDn86sf_t9w&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AflkE-avbRWWDuEyWH97gNns9txYpdMpTlmxGknPR0Pm3Q&oe=6955A212)
+<details>
+<summary>Image Content</summary>
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452916924_512509727953650_5419197595682710966_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=_BfVlfkgO1cQ7kNvwHON7fh&_nc_oc=AdmKluE-ML5EoU3zFLZOz6-aBR16EU_c-Kv6JqipOYc2hyYUjuwgZK2ZDjm8C9thJh8dNwhu1CWZZ_2HSMkeOXPQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AfmpODYs5-WVnbLUrVhmdavLMNEFTLWdJOt-PxzJSf_cdA&oe=69557DCC)
+<p></p>
+
+[All image details and metadata](../../image_data/9a9a0ac177e4fd2b4f47f0f16645fa8f44b8877c437d8e59530e72a796875804.md)
+
+### Overview
+This image depicts a user interface element that appears to be part of a scripting or programming environment, specifically a script editor window. The interface includes a search bar at the top, a settings gear icon, a copy icon, and a close button. Below the search bar, there is a script content area displaying a conditional statement and an action command.
+
+### Key Elements
+- **Search Bar**: Located at the top, spans the width of the window. Contains the text "asset script" within a black background.
+- **Settings Gear Icon**: Positioned to the right of the search bar, within a black circle.
+- **Copy Icon**: Situated next to the settings gear, also within a black circle.
+- **Close Button**: A purple circle with a white "X" located farthest to the right.
+- **Script Content Area**: Below the search bar, contains a conditional statement and an action command. The background of this area is dark gray.
+  - **Conditional Statement**: "when player spawned asset obj from inventory"
+  - **Action Command**: "attach obj to player Head"
+- **Dropdown Menu**: Part of the action command, showing a dropdown arrow indicating more options can be selected.
+
+### Visual Flow / Relationships
+The most prominent visual element is the search bar at the top. The script content area is the second most prominent, as it contains the main functionality of the interface. There are no arrows or lines connecting elements, but the layout suggests a linear reading order moving from the search bar down to the script content area.
+
+</details>
+
+<p></p>
+
+
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/cdbae3df7ed951e8c3377448b29edf1cf1f167ef033a9db0d0ee0786a47f80d9.md)
+
+### Overview
+The image depicts a user interface from a game development tool or engine, showing a scene editor or asset management interface. The left side displays settings for an interactive object, while the right side shows a scripting interface for attaching scripts to assets.
+
+### Key Elements
+- **Left Panel (Settings)**:
+  - **Title**: "Behavior"
+  - **Options**:
+    - **Visible**: Toggle switch set to "On"
+    - **Collidable**: Toggle switch set to "On"
+    - **Collision Layer**: Dropdown menu set to "Everything"
+    - **Motion**: Options include "None," "Animated," and "Interactive," with "Interactive" selected
+    - **Interaction**: Options include "Grabbable," "Physics," and "Both," with "Both" selected
+  - **Attached Script**: A button labeled "hhat2" indicating an attached script
+  - **Asset Script**: A dropdown menu showing "asset script"
+
+- **Right Panel (Scripting Interface)**:
+  - **Title**: "asset script"
+  - **Script Code**: 
+    ```when player spawned asset obj from inventory attach obj to player Head```
+  - **Visual Elements**: A small icon of a player character, a green circle, and a purple cube labeled "asset script."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The scripting interface on the right.
+- **Arrows/Connectors**: None visible.
+- **Spatial Relationships**: The left panel is stacked vertically above the right panel, with the scripting interface taking up more space on the right.
+
+</details>
+
+<p></p>
+
+
 
 ## Kudos panel
 
@@ -228,17 +398,115 @@ A purchase panel will appear when a gizmo is set up and people interact with it.
 
 After a person purchases an item, they’ll be able to access it in the inventory (again, if the item is not auto-consumed) by clicking the inventory button on the identity panel.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452615534_512509711286985_6202407311245192958_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=rLXdV6WS2A8Q7kNvwGeg377&_nc_oc=Adnvbyxn0fVazcewm6hHQk6Z6C231YbTHTX1brOAAeOyEwqmdJAtzNA4lidz_DJ3pj2GdbEpYI2WmjX61K5uRhdM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_Afnw1gJlZAPSfUFGYxxL8za3e2tCvAgIDgPXqjNXLQ5eFw&oe=695594A4)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/d6be180ce85ac39779343eaf9799d50324d21933ad50be398424209f4daaae36.md)
+
+### Overview
+This image depicts a simple button interface element with text inside it. The button has rounded corners and a light background.
+
+### Key Elements
+- **Visual description**: The button is rectangular with rounded edges.
+- **Location**: Positioned centrally in the image.
+- **Contents**: Contains the text "Open inventory" in a sans-serif font.
+- **Visual styling**: The button has a light gray background with a subtle shadow effect underneath, giving it a slight elevation. The text is black and centered within the button.
+
+### Visual Flow / Relationships
+The button is the most prominent element in the image, as there are no other elements to interact with or connect to. There are no arrows or lines indicating a specific reading order.
+
+</details>
+
+<p></p>
+
+
 or
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452945339_512509704620319_2347572327308779188_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=4Q8sbRU2iVIQ7kNvwGBSRpd&_nc_oc=AdlmPYtWTMfCrMYhHoBLMfy07cj1laLAdCTZgGpBTXWZXF2VUX3k9aDtKe3m6YEgZlyuqoJth3QJTFvFMSJLFVAY&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AfmJt9tTs23apng95hs_iTNGPiq-Yx5kR8vWoIPHhksH2Q&oe=69557AE6)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/feff9a7ee3c859a28bb939837867b80ced8cb4648f278720479da712837b9c20.md)
+
+### Overview
+This image depicts a simple icon of a backpack. It is circular with a white background and contains a black silhouette of a backpack.
+
+### Key Elements
+- **Visual description**: The icon is a circular shape with a white background and a black silhouette of a backpack.
+- **Location**: The icon is centered within the circular frame.
+- **Contents**: The contents include a black outline of a backpack with a handle and a front pocket.
+- **Visual styling**: The icon uses a stark contrast between the white background and the black silhouette.
+
+### Visual Flow / Relationships
+The icon is the sole focus of the image, with no additional elements or relationships to describe.
+
+</details>
+
+<p></p>
+
+
 
 All items that are available in the current world are shown in the inventory along with their item detail information; additionally, players can see what items can be used if applicable.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452863904_512509707953652_8349587293785080155_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=vN6YkBDcKaoQ7kNvwGoFD99&_nc_oc=AdlOwRrWlWL8ZEgic9z3wSWcF9Oh-8Yn-fAC5CJ8Mf-w4F5En9O5msyPHB89ikNpDbEJSviYVIk4sdUO4RT5g-Jy&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AfkssuDLqiA_9t6Ht-W5Mn2-GW0F6Z177gr3sfizmHX0wg&oe=695590CB)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/59398bc18ec1fbeb77bd20133c9d486c0f4c683bc45e5442fd04bc7490a1b94f.md)
+
+### Overview
+This image depicts a user interface element labeled "iwp examples 2 Inventory." It appears to be part of a digital inventory or asset management system, showcasing various items or assets arranged in a grid layout.
+
+### Key Elements
+- **Title**: "iwp examples 2 Inventory" located at the top-left corner.
+- **Inventory Items**: There are five items displayed in a grid format:
+  - **Top-left item**: A wooden structure resembling a wheel or a cart, with a small number "51" in the upper right corner.
+  - **Second row, first column**: An orange cap with a white "C" logo on a gray textured surface.
+  - **Second row, second column**: Another orange cap with a white "C" logo, but placed on a white surface against a green landscape background.
+  - **Second row, third column**: A green ring or donut shape floating above a blue surface.
+  - **Bottom-left item**: A similar orange cap as the one in the second row, first column, but positioned on a gray textured surface.
+
+### Visual Flow / Relationships
+The items are arranged in a 2x3 grid layout. The title is prominently displayed at the top. The items are evenly spaced within their respective cells, and there are no connecting lines or arrows indicating a specific reading order. The items are visually distinct in terms of color and background, making them easily distinguishable.
+
+</details>
+
+<p></p>
+
+
 
 * **If the item is consumable**, the player will be able to click the icon to consume it. When hovering on the item, the overlay will show ‘Use’ with the remaining amount of the consumable. The consuming will only succeed if the creator has correctly set up the consume-listeners as mentioned above.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532418_512509701286986_4770500461266213628_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=z05dq7dwfpUQ7kNvwGSXB_Z&_nc_oc=AdmVYFL8pXZaOMqn-xG3ZnxhUeA2JC_mtcEFF5Y9VCRASlQNe6C2ZampL5lrvgDLf4PfYeQ91pfXVV14cTn74Nmh&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=g5HNtpATYHsny8thWcIJ9A&oh=00_AflK2A4XxdTbhUlIfjnPMnRCl98X7Z2qPb1ytxn1jAEMDg&oe=69558DF0)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/6e3ddefc16a0b5b81588a8b49de0390232647b1c7c71ae6506fa38a0147d9dc5.md)
+
+### Overview
+This image depicts a user interface element, specifically a tooltip or information card, likely from a game or application. It contains text and a small icon, providing information about a "jump booster."
+
+### Key Elements
+- **Visual description**: The element is rounded rectangular with a white background and a subtle shadow effect.
+- **Location**: Positioned at the bottom of the image.
+- **Contents**: 
+  - **Text**: "Use\n(99 available)" displayed prominently in black font.
+  - **Icon**: A small, partially visible icon resembling a jump pad or similar object, located to the right of the text.
+- **Visual styling**: The text has a bold font weight, and the icon is outlined in a light gray color.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The text "Use" is the most prominent due to its larger font size and placement.
+- **Spatial relationships**: The icon is positioned to the right of the text, and the text "jump booster" is placed below the main card, indicating the item being referred to.
+
+</details>
+
+<p></p>
+
+
 
 The player can also point to the item name and click on ‘info’, which will lead to the item detail page.
 

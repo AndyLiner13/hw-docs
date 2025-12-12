@@ -8,7 +8,43 @@ This page provides a break down of the NPC examples used in the NPC Example Worl
 
 You can select the **NPC Examples** option from the **Creation Home** view.
 
-![Creation Home NPC examples tutorial world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/596947627_883141714223781_8886681707864991987_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6DkYK2Y76dQQ7kNvwEpcaXj&_nc_oc=Adn4kJWiEni5b3iTndo9ZtSwQZvrH2MDrMPcKgvs3C9d2L5jNXL-YltmgCHgC550EW1aXGb1bAfQnJjdd5bXyS_L&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=bWBk_qitJclpF9dpgmScLA&oh=00_AfmMq939Sfzd509f-b6W9aqqEf6zNLRw-3HRXIXvrzzEuw&oe=6955A1CD)
+<details>
+<summary>Creation Home NPC examples tutorial world</summary>
+
+<p></p>
+
+[Creation Home NPC examples tutorial world](../../image_data/dbdf7e81355e70646bf22586e4963560b99afe344c8c99dcb7a0d598b33b7d6d.md)
+
+### Overview
+This image depicts a scene with three distinct characters in a grid-like environment. The characters are positioned against a yellow tiled wall backdrop. Each character has unique attributes and poses, suggesting a playful or combat-ready stance.
+
+### Key Elements
+1. **Robot Character**:
+   - **Visual description**: A small robot with a white body, orange accents, and black limbs.
+   - **Location**: Left side of the image.
+   - **Contents**: The robot has a rectangular head with two eyes and a small antenna on top.
+   - **Visual styling**: The robot has a metallic sheen with orange highlights on its arms and legs.
+
+2. **Skeleton Character**:
+   - **Visual description**: A humanoid skeleton holding a sword and shield.
+   - **Location**: Center of the image.
+   - **Contents**: The skeleton is depicted in a dynamic pose, ready for action.
+   - **Visual styling**: The skeleton is light gray with a darker gray shield and sword.
+
+3. **Green-skinned Character**:
+   - **Visual description**: A green-skinned figure wearing a gray jacket and purple pants.
+   - **Location**: Right side of the image.
+   - **Contents**: The character has red eyes and is in a running or jumping pose.
+   - **Visual styling**: The green skin contrasts sharply with the gray and purple clothing.
+
+### Visual Flow / Relationships
+The characters are arranged in a triangular formation, with the robot on the left, the skeleton in the middle, and the green-skinned character on the right. There are no connecting lines or arrows, but the positioning suggests a sequence or interaction among them.
+
+</details>
+
+<p></p>
+
+
 
 ## NPCAgent.ts
 

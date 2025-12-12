@@ -16,7 +16,32 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Inventory Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Inventory” in the search field. Finally, select the Inventory Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Inventory Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495704689_734911825713438_4000559892879335779_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=xtRHhiggfmwQ7kNvwGwXz2K&_nc_oc=AdkE-T-uzyoPuHbQGM1qEpgMmhnQ54w9eZS0yV3TY3ZwwOm88Eh-pa-BiR723Rx4AQCLorOmfvjXROxNKJN7ERZr&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=8K1uvu7sV_znC7XLqL9qtg&oh=00_AfmH-UnEQPz9wuQDxIx2VeoN2AvWL7uDj1GrehA0B6DL0g&oe=69556FC5)
+<details>
+<summary>Finding the Inventory Asset Template</summary>
+
+<p></p>
+
+[Finding the Inventory Asset Template](../image_data/dc26c192cf0a8cd5a7c12cbefb5f13ebc9f0063a85a56355df3773a097b66b25.md)
+
+### Overview
+This image depicts a user interface of an asset library within a software application. The interface includes a search bar, sorting options, and a grid of asset thumbnails. The layout suggests a focus on managing digital assets, likely for game development or similar purposes.
+
+### Key Elements
+- **Search Bar**: Located at the top right, contains a magnifying glass icon and the word "inventory." The search bar has a light gray background.
+- **Sorting Options**: Positioned next to the search bar, offering sorting by name (A-Z) and creator. These options have a dark gray background.
+- **Filter Button**: A blue filter icon is located to the far right of the search bar.
+- **Asset Grid**: Below the search bar, there are three asset thumbnails arranged horizontally. Each thumbnail has a pink or gray background with a white icon resembling a backpack and a wrench.
+- **Asset Labels**: Below each thumbnail, there are labels indicating the asset names: "Inventory," "Inventory But..." (partially cut off), and "Inventory UI."
+- **Creator Information**: Each asset thumbnail has a small circular icon with a copyright symbol followed by "MetaHoriz..." indicating the creator.
+
+### Visual Flow / Relationships
+The most prominent visual element is the search bar, as it is centrally located and larger than the other elements. The assets are arranged in a grid format, suggesting a logical reading order from left to right. The sorting and filtering options are secondary but important for navigation and customization.
+
+</details>
+
+<p></p>
+
+
 
 ## Inventory Asset Template properties
 

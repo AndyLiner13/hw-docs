@@ -6,7 +6,37 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 The new Social Following feature enables Horizon World creators to seamlessly connect and promote their Instagram and Horizon profiles to their Worlds. This allows visitors to easily follow creators’ social accounts directly from within Horizon Worlds, reducing friction and enhancing creator engagement.
 
-![Social Following Asset Template in editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/563443649_837715312099755_5519017558597424000_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=bCSGVbsKNXwQ7kNvwFmbYCl&_nc_oc=AdkpS2wLS69-j9zdeBEX2sJA9SZh1b6K76xnsX08FwZONhr7KFEYC4lH1zh9xf5QursrfuZDPNaieZPuFZFDQgLe&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=f9DfoJhjfS1A3z1SJTNVxg&oh=00_AfmCvAttBw3yhhfwqlkvhI3zlUOIcWqR6h1NeUcns9EKww&oe=69558CC8)
+<details>
+<summary>Social Following Asset Template in editor</summary>
+
+<p></p>
+
+[Social Following Asset Template in editor](../image_data/c9572209a8387d62a7a9c24bcd0d12c21168861d5213877864a674bc255a3895.md)
+
+### Overview
+The image depicts a virtual environment featuring a character standing on a wooden dock next to a blue wall with a shingled roof. There are interactive elements overlaid on the scene, suggesting a user interface for social interaction or exploration.
+
+### Key Elements
+- **Character**: A male avatar wearing a patterned shirt, dark pants, and sandals stands facing right. The avatar has short hair and glasses.
+- **Background**: A rocky cliff and a body of water are visible in the distance.
+- **Interactive Overlay**: 
+  - **Follow Button**: A blue rectangular button labeled "Follow" is positioned at the top right.
+  - **Like Icon**: A circular icon with a thumbs-up symbol is located below the Follow button.
+  - **Comment Bubble**: A white speech bubble is situated to the right of the Like icon.
+  - **Interaction Button**: A small black square with the letter "E" and a hand cursor icon is placed near the center-left of the screen.
+  - **Navigation Arrow**: A white arrow pointing downward is shown below the interaction button.
+  - **Highlight**: A blue rectangular highlight surrounds the lower part of the wall, possibly indicating an interactive area or a point of interest.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The Follow button is the most visually prominent due to its placement and color contrast.
+- **Arrows and Lines**: The downward-pointing arrow suggests a potential drop-down menu or further interaction.
+- **Spatial Relationships**: The elements are arranged in a vertical sequence, with the Follow button at the top, followed by the Like icon, then the Comment Bubble, and finally the Interaction Button and Navigation Arrow.
+
+</details>
+
+<p></p>
+
+
 
 ## Key benefits
 
@@ -39,7 +69,33 @@ You can add social handles to your World using the Social Following asset templa
 - Enter your Instagram handles and/or Horizon profiles in the asset configuration.
 - Save and publish your World.
 
-![Social Following Asset Template in editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/565120812_837715315433088_2479173747082082933_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=VYHFpNgYaKQQ7kNvwGQPjq0&_nc_oc=Adk3fZipjzsZL003cvEskZ2Yq50hIyGwQHaHMMHth9ZjyjPteRKHPeMUYGLSgqyuEH9oaf3k0xbU5Xdt8iPyFhsR&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=f9DfoJhjfS1A3z1SJTNVxg&oh=00_AflF1CMiJxDPoy3fxptXQ30ZMpf_gIRbojdXCie01jQXWw&oe=69557474)
+<details>
+<summary>Social Following Asset Template in editor</summary>
+
+<p></p>
+
+[Social Following Asset Template in editor](../image_data/68e94e90f1da3f5ee0b7087c39a0f58bf9307dc99fff9c00d775b41f7cf22007.md)
+
+### Overview
+This image depicts a 3D modeling environment within a software interface, likely a game development tool. The central focus is a transparent cube with a blue "Follow" button and a smaller interactive icon resembling a thumbs-up and a speech bubble. The interface includes various panels and tools around the workspace.
+
+### Key Elements
+- **Central Cube**: A transparent green cube with a blue "Follow" button at the top and a smaller interactive icon below it. The icon consists of a thumbs-up symbol and a speech bubble.
+- **Interactive Icon**: Located within the cube, the icon has a blue outline and a white fill. It features a thumbs-up symbol and a speech bubble.
+- **Follow Button**: Positioned above the interactive icon, it is a rectangular blue button with the word "Follow" in white text.
+- **Grid Background**: A light gray grid serves as the background, indicating a 3D space.
+- **Left Panel**: Contains a tree-like structure labeled "Hierarchy" with nodes such as "SpawnPoint" and "Social Following (preview)".
+- **Right Panel**: Displays properties related to the selected object, including attributes, behavior, and gameplay tags.
+- **Bottom Panel**: Includes tabs labeled "Asset Library", "Console", "Tests", "NPC Debugger", and "Performance".
+
+### Visual Flow / Relationships
+The most prominent visual element is the central cube, which contains the interactive icon and follow button. The interactive icon is nested within the cube, and the follow button is positioned above it. The layout suggests a hierarchical relationship between the elements, with the cube serving as a container for the interactive icon and follow button. The grid background provides a sense of depth and spatial orientation.
+
+</details>
+
+<p></p>
+
+
 
 Once added, the asset template appears as a standardized UI element in your World. Users can view your linked social accounts and follow you with a single click.
 
@@ -83,7 +139,54 @@ Users can follow creators’ social profiles directly from within a World. To do
 - Click the asset to open the follow panel.
 - Click **Follow** for the Instagram or Horizon account you want to follow.
 
-![Social Following panel view](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/563996210_837715318766421_3194938916108605084_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7Cal8fKhe5oQ7kNvwE6vtkJ&_nc_oc=AdnAi2rq7NHmgzNMB4jA2VlJY1pU0JItj6top8t337qiLTC8e4tLHKGCv7TccD2DDC0f0QQ3AUBGxx6xj7gCtQfk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=f9DfoJhjfS1A3z1SJTNVxg&oh=00_AfkxMW7M06Kh_BrKKt5uVd6E8oTclHlGlQgwlOjZvSsBgw&oe=695574EB)
+<details>
+<summary>Social Following panel view</summary>
+
+<p></p>
+
+[Social Following panel view](../image_data/b1d71d6d1bce2a8503b9eb98e9c6bc9df8580cf8c2e9bdfd2a18f52d46e45dc8.md)
+
+### Overview
+This image depicts a pop-up window titled "Creator picks to follow" with a list of social media profiles to follow. The layout is structured with user profiles and corresponding "Follow" buttons.
+
+### Key Elements
+- **Title**: "Creator picks to follow" located at the top of the pop-up.
+- **Close Button**: An 'X' icon located at the top right corner of the pop-up.
+- **Profile 1**: 
+  - **Visual description**: A circular icon with a white circle on a black background.
+  - **Location**: Top-left of the first profile card.
+  - **Contents**: "@MetaHorizon" and "Horizon".
+  - **Visual styling**: Black background, white text.
+- **Profile 2**: 
+  - **Visual description**: A blue infinity symbol icon.
+  - **Location**: Top-left of the second profile card.
+  - **Contents**: "@meta" and "Instagram".
+  - **Visual styling**: Blue background, white text.
+- **Profile 3**: 
+  - **Visual description**: A circular icon with a white circle on a black background.
+  - **Location**: Top-left of the third profile card.
+  - **Contents**: "@metahorizon" and "Instagram".
+  - **Visual styling**: Black background, white text.
+- **Profile 4**: 
+  - **Visual description**: A red square with a black sunglasses icon.
+  - **Location**: Top-left of the fourth profile card.
+  - **Contents**: "@raybanmeta" and "Instagram".
+  - **Visual styling**: Red background, black text.
+- **Follow Buttons**: 
+  - **Visual description**: Rounded rectangular buttons labeled "Follow".
+  - **Location**: To the right of each profile card.
+  - **Contents**: Text "Follow".
+  - **Visual styling**: Gray background for the first button, dark gray for the second, and black for the third and fourth buttons.
+- **Background**: A light gray gradient background for the pop-up itself.
+
+### Visual Flow / Relationships
+The pop-up is the most prominent visual element, with the profiles listed vertically. Each profile card contains a profile icon, username, and platform name. The "Follow" buttons are aligned to the right of each profile card. There are no arrows or lines connecting the elements, but the vertical arrangement implies a sequential reading order.
+
+</details>
+
+<p></p>
+
+
 
 Users will follow the Instagram accounts using their linked Instagram in their Meta Accounts.
 

@@ -3,12 +3,115 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 # Object Instantiation
 
 - Click on the “Build” box icon from the top bar.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/584957099_869065625631390_2604824952247048476_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=xuS5Ia7lRsMQ7kNvwGeUoBr&_nc_oc=AdkSr0yPKjvj_05BEeEpFcmRuCeil818aWVrlsW5m0dZ1nfOMXeM5obrGITbwbwU_qp2-RFdSYQlV52cII_YyGRg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yQu4zN2WB8BRdawTxBtpGA&oh=00_Afnz_PIjUZqIc7vlK37lagweeClGMy1EC4p7UO3z2q2ERA&oe=695575BB)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/0ef94a281f122dfd8f6d89f1a7486a45ed5e62a657b4b0841df395a849254b2b.md)
+  
+  ### Overview
+  This image depicts a user interface from a software application, likely related to game development or asset management. The interface includes a sidebar with a hierarchical structure and a preview window showing a 3D environment. The top bar contains various menu options and tools.
+  
+  ### Key Elements
+  - **Sidebar (Left Panel)**:
+    - **Title**: "Hierarchy"
+    - **Search Bar**: "Search hierarchy"
+    - **Tree Structure**: Contains nodes labeled with items like "_P", "ConstsWorld", "[ARENA-CORE]", "Ouro Console Transform Ref", etc.
+    - **Lock Icons**: Next to some nodes, indicating locked assets.
+  - **Preview Window (Right Panel)**:
+    - **3D Scene**: Displays a 3D environment with a ceiling and walls.
+    - **Mouse Cursor**: Positioned over the scene.
+  - **Top Bar**:
+    - **Menu Options**: "Build", "Systems", "Preview", "Scripts", "Gen AI".
+    - **Tool Buttons**: Includes icons for actions like "Local", "Center", "Zoom", etc.
+    - **Status Bar**: Shows "Launch typescript editor".
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The 3D preview window.
+  - **Arrows/Connections**: None explicitly shown.
+  - **Reading Order**: The user would typically interact with the sidebar first, then view the preview window.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Selecting shapes, gizmos, sounds from the drop-down menu will display 3D objects.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/585009828_869065622298057_6667590264092858657_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Qhve7L95DykQ7kNvwGpTtgG&_nc_oc=Adl2qvd6mTgF6FL39kvncGZhGyF0dtMdljXDVa7uHoIls4nkXojSxUAVEVaYc4ik1ld_w9uNxrAWkQziQju0cfjj&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yQu4zN2WB8BRdawTxBtpGA&oh=00_Afnqb1CvrVODCkWFemWJLVZoun3syrly5cu76bgtVuN7PQ&oe=69557737)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/cf8348d580beead0e528c5c09c6a4218197c4cb16305a09bda44e83bc1a907bb.md)
+  
+  ### Overview
+  This image depicts a screenshot of a Unity Editor interface, specifically showing the Hierarchy window on the left side and the Scene view on the right. The interface includes various panels and tools typical of a game development environment.
+  
+  ### Key Elements
+  - **Hierarchy Panel**: Located on the left side, displaying a tree-like structure of game objects. It has a dark background with white text and icons. The text includes object names like "LOBBY," "[ARENA-CORE]," and "Broadside_EnvSFX."
+  - **Search Bar**: Positioned at the top of the Hierarchy panel, labeled "Search hierarchy."
+  - **Scene View**: On the right side, showing a 3D scene with a light brown floor and a blue skybox. There are some UI elements overlaid on the scene, such as a red arrow and a green cube.
+  - **Asset Library Tab**: At the bottom of the screen, labeled "Asset Library," with options like "Console" and "Tests."
+  - **Navigation Bar**: At the very top, containing tabs like "Build," "Systems," "Preview," "Scripts," and others related to game development.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the Hierarchy panel and the Scene view. The Scene view is the focal point, showing the 3D environment being worked on. The Hierarchy panel is secondary but essential for managing the objects within the scene. The navigation bar at the top provides access to different functionalities within the Unity Editor.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - When the user clicks on a 3D object, the object is spawned in the world.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/584429722_869065628964723_8448383362128441669_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7tc78tumGzQQ7kNvwGfTuwR&_nc_oc=AdmLU0LnQeKUUqfTI5nH3Es4S4uofsDVtA2ZIPKnB0qzatR5iX8ZCchpynePKqNCjrmf2Z9hYXKYjwsfBSv2Hrxi&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yQu4zN2WB8BRdawTxBtpGA&oh=00_AfnI4-6BagOGJt3LFCMOevN-6QhNlhomAf2En4PiaNOg7w&oe=695581E0)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/92d1f6a2862e29a180e5c6a02b273091fe1f2c1f738a60ede369ba536d79c606.md)
+  
+  ### Overview
+  This image depicts a 3D modeling interface with a grid workspace, shape selection panel, and properties panel. The workspace shows a sphere placed at the center. The interface includes various controls for manipulating shapes and objects within the scene.
+  
+  ### Key Elements
+  - **Shapes Panel**: Located on the left side, it displays a grid of 3D shape options such as cube, sphere, cone, cylinder, ramp, pyramid, tube, half-cylinder, half-tube, faceted-cylinder, capsule, torus, half-sphere, and cube-soft. The sphere option is highlighted with a red bounding box.
+  - **Workspace**: The central area of the interface is a 3D grid workspace where a white sphere is positioned near the center.
+  - **Properties Panel**: On the right side, it contains properties related to the selected object (Sphere). It includes toggles for visibility, collision, and attributes like position, rotation, scale, texture, material roughness, color, tag, physics settings, and script attachments.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the sphere in the workspace. The shapes panel is secondary but serves as a reference for selecting new shapes. The properties panel is tertiary, providing detailed information about the currently selected object. There are no arrows or lines connecting elements, indicating a linear reading order from left to right and top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ## Demo
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/584612955_869065632298056_453729850077245006_n.gif?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=2SXRWAC98u8Q7kNvwFVDN6P&_nc_oc=AdlvAXwPBtIdHMELK38R8c0ajXp3a9wMY_IrjXyqEfWJ8dgmjovXxg9chCh4J8TMBH5CQZh4p-wIqOqpleIGir4E&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yQu4zN2WB8BRdawTxBtpGA&oh=00_AfmjQrCYnjcL6M41w3ESCM0oc4npBWWAID_rMvlTudaUdg&oe=69557596)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/77585c60704c4fee4e3f66126c389685bf020a8aaf93a56b9138bd128dfc3026.md)
+
+### Overview
+The image depicts a user interface from a game development environment, specifically showing a scene view and a hierarchy panel. The scene view displays a 3D environment with a focus on a specific area, while the hierarchy panel on the left lists various game assets and scenes.
+
+### Key Elements
+- **Scene View**: Located in the right half of the image, showing a 3D environment with a focus on a specific area. The environment includes a ceiling and walls with a mix of textures and lighting.
+- **Hierarchy Panel**: On the left side, displaying a tree-like structure with various game assets and scenes. Elements include folders labeled "LOBBY," "[ARENA-CORE]," "BROADSIDE," and others.
+- **Search Bar**: Below the hierarchy panel, there is a search bar labeled "Search hierarchy."
+- **Asset Library Tab**: At the bottom of the hierarchy panel, there is a tab labeled "Asset Library" with options for "Public Assets" and "My Assets."
+
+### Visual Flow / Relationships
+- The most prominent visual element is the scene view, which occupies the majority of the right side of the screen.
+- The hierarchy panel on the left provides context and navigation for the assets displayed in the scene view.
+- There are no arrows or lines connecting elements, but the layout suggests a hierarchical relationship between the assets listed in the hierarchy panel and the scene being viewed.
+
+</details>
+
+<p></p>
+

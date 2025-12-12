@@ -69,9 +69,63 @@ You can download sample assets to test LOD import from the links at the bottom o
 First, create a folder to store your ingested assets.
 
 - Click the **Assets** pane at the bottom of the editor.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746635_512510217953601_3114243496821367227_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=kQKYAtVJuawQ7kNvwHvkQDh&_nc_oc=AdnQcFgbKuQLQxPbNA_U6uPF9wiBoyDf4uurtjT-Bgw_zm0m1kSZEZeeIqL7sZGze2TjGfiXI8T7pB3vUGFwIRCl&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_Aflb8LOi3rRMRBJMGoA6vdo9nbxzq7INZzTLywrD7rs23g&oe=69559E22)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/2400832749ad67f9e78f8353e7a2d4d8b1b82413d55ec4815d6584dd0906b625.md)
+  
+  ### Overview
+  This image shows a screenshot of a computer interface, likely a desktop environment, with a focus on a taskbar at the bottom and a partially visible window above it. The taskbar contains various application icons and a notification area indicating some activity.
+  
+  ### Key Elements
+  - **Taskbar**: Located at the bottom of the screen, spanning the width of the display.
+    - **Assets Button**: A rectangular button labeled "Assets" with a dark background and white text.
+    - **Other Buttons**: Adjacent to the Assets button are other buttons labeled "Console" and "Tests," also with dark backgrounds and white text.
+    - **Application Icons**: Various application icons are present, such as Chrome, Discord, and others, located below the taskbar.
+    - **Notification Area**: On the far right of the taskbar, there is a small icon indicating notifications, possibly for a specific application.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The "Assets" button is the most prominent due to its central placement and larger size compared to the other buttons.
+  - **Arrows/Connectors**: There are no arrows or connectors visible in this image.
+  - **Spatial Relationships**: The buttons are arranged horizontally, with the "Assets" button being the largest and most central. The other buttons are smaller and positioned to the right of the "Assets" button. The application icons are below the taskbar, and the notification area is on the far right.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Click **Add New > Folder** and give the folder a name.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452933706_512510127953610_2127077901733027775_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=sAorOcTjEFkQ7kNvwEN4Nm_&_nc_oc=Adn__MknaRfEIGmakJLyvwlt_7fKg5spE2OTqw-bYhcloN6NperoH4Aih-D20LF0SlSGOQqk7ZqPWp72eYvq64C1&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_Afn-CrdX_oUri9RXDthSzLf-7t6Dr5xLc0eE1jGMi7GIAQ&oe=69557622)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/d3ebecaca672ee2bfe42b718488e0cc792fa8cc7a222dfec9e2ba4dfcdb1655d.md)
+  
+  ### Overview
+  This image depicts a user interface element within a software application, specifically a dropdown menu under the "Add New" option in the "Assets" section. The interface has a dark theme with white and orange accents. The main focus is on the dropdown menu options and the folder icons displayed below them.
+  
+  ### Key Elements
+  - **Visual description**: Dropdown menu with a dark background and white text.
+  - **Location**: Top-left corner of the screen.
+  - **Contents**: 
+      - "Add New" with a dropdown arrow indicating more options.
+      - Options listed include "Folder," "3D Model," "Audio," "Skydome," "Texture," and "Text."
+      - "Removed Assets" is visible at the bottom.
+  - **Visual styling**: Dark background with white text and orange highlights.
+  
+  ### Visual Flow / Relationships
+  - Most prominent visually: The "Add New" dropdown menu.
+  - Arrows and lines: The dropdown arrow points downward, indicating the direction of the expanded menu.
+  - Spatial relationships: The dropdown menu is adjacent to the folder icons below it, which are part of the main interface area.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ### Add your LOD 0 assets
 
@@ -80,15 +134,144 @@ First, create a folder to store your ingested assets.
 Start by ingesting your most detailed model, called LOD 0, and textures.
 
 - Click **Add New > 3D Model**.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/476358530_650633064141315_6123901305812892096_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q0ryBi2zI1MQ7kNvwH5KunQ&_nc_oc=AdkvWeygSIyN-sATx63xYCAtsOH07L9dEhBIKx274kfuxfeIbQXVgYwlSvbZPTijcUq74Up3850evM2K6Fqn6Bjg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_Afk_9CtG578i3feEoM62wcG80Nj-iMpJAYsf5BY9jQ3-hg&oe=6955901F)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/36e5b22becbd02eaf5b3d08a2dafc39372795f138b5774df97dfdbd6e95a17e7.md)
+  
+  ### Overview
+  This image depicts a 3D modeling software interface, specifically showing a viewport with a 3D character model placed on a grid plane. The interface includes various panels and tools for asset management and scene manipulation.
+  
+  ### Key Elements
+  - **Viewport**: Central area displaying a 3D scene with a blue grid plane and a simple 3D character model. The character has a humanoid shape with a tail-like appendage extending from its back.
+  - **Character Model**: Located near the center of the viewport, the model is a basic human figure with a distinct tail feature.
+  - **Grid Plane**: A large, light gray grid covering the entire viewport, serving as a reference for positioning objects.
+  - **Top Bar**: Contains various icons and options such as play, undo, redo, and settings.
+  - **Left Panel**: Displays a hierarchical structure labeled "Hierarchy" and "SpawnPoint," suggesting object placement and organization.
+  - **Bottom Panel**: Shows tabs labeled "Assets," "Console," and "Tests." The "Assets" tab is active, revealing a dropdown menu with options like "Folder," "3D Model," "Skydome," "Texture," and "Text."
+  - **Properties Panel**: Located on the right side, currently empty, indicating no object is selected for properties editing.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the 3D character model in the viewport. The grid plane serves as a foundational layer for the scene. The left panel provides navigation and organization, while the bottom panel offers asset management options. The right panel is currently inactive, awaiting interaction.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - The mesh ingestion window will appear.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452672915_512510131286943_16962784959826029_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Zsdd2C-jWOoQ7kNvwGSMYnD&_nc_oc=Adks5I9D1oGSuR6lEaR_sHjejcqmAYP-H5yTyJljdHQZEqCCnHdG4GF4JtO3eY2JiIDCYCBwGvkyLjwB68Ekp2uI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AfkFH3jyAxqTcz8-PJbPHA0sAtyvv3DuxXLE_z1gQH_uiw&oe=695599CF)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/b9aa1a11f1823c8765a0da661dc0c0f3f5d75ed4efd8c40d3c5fb71516472bea.md)
+  
+  ### Overview
+  This is a screenshot of a dialog box titled "Import Model(s)" that provides instructions and options for importing a 3D model into a software application. The dialog box includes a warning message, file selection option, and a toggle switch for offset pivots.
+  
+  ### Key Elements
+  - **Title**: "Import Model(s)" located at the top-left corner.
+  - **Warning Message**: A light gray box with a light blue icon on the left side, containing a message explaining that hierarchies are flattened when importing a 3D model, pivot points are centered, and colors can't be modified.
+  - **File Selection Button**: A blue button labeled "Choose files on your device" located below the warning message.
+  - **Offset Pivots Section**: A yellow warning box with a red triangle icon on the left side, stating that the offset pivots feature is only supported on single mesh FBX files and may lead to unexpected behavior if the FBX file contains more than one mesh.
+  - **Preserve Offset Pivots Toggle Switch**: A toggle switch with a blue circle indicating the current state of the switch, located below the warning box. It has a label "Preserve offset pivots" above it.
+  - **Buttons**: Two buttons at the bottom of the dialog box, "Cancel" and "Import," both with rounded corners and blue backgrounds.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the warning messages and the file selection button. The warning messages are enclosed in boxes for emphasis, while the file selection button is centrally placed below the warning messages. The toggle switch is positioned below the warning box, and the buttons at the bottom are aligned horizontally.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Click **Choose files on your device**, navigate to the folder with your assets, and select your LOD 0 model FBX file as well as your textures. Click **Open**.
   * To select multiple files, hold Ctrl while clicking the files.
   * If you’re using the test sample assets, select DamagedHelmet\_BR.png, DamagedHelmet\_MEO.png, and DamagedHelmet\_LOD0.fbx.
-    ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452933706_512510087953614_3767056647331480894_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=r-qsIvPWEQoQ7kNvwFqIJgz&_nc_oc=Adn6mfZWNxQayXnRQrae5Fn-CCqmj3ycgQ1V6Z6XlDVSvryhpNhGH25jWg9kw7ddo1u9-FI8rStfFe3LDEUEE6Xv&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AflgL3vrh5i_foB8NkO6CO_jTTNSnnSVXPgygXgUJOGUmA&oe=695596D7)
+    <details>
+    <summary>Image Content</summary>
+    
+    <p></p>
+    
+    [All image details and metadata](../../image_data/098d68f49f1923b99a66c2dfcb2e91d91034a4bd19aa24fda397b177feece158.md)
+    
+    ### Overview
+    This image depicts a file explorer window showing a directory tree on the left side and a list of files on the right side. The focus is on a selection of files highlighted within the file list area. There is also a preview pane on the right displaying a thumbnail image of one of the selected files.
+    
+    ### Key Elements
+    - **File Explorer Tree**: Located on the left side, showing directories and files organized hierarchically.
+      - **Visual description**: Folder icons and text labels.
+      - **Location**: Left side of the window.
+      - **Contents**: Directory names such as "horizon," "Captures," "LOD tests," etc.
+      - **Visual styling**: Standard Windows folder icons and text.
+    
+    - **File List**: Located on the right side, showing a list of files with their names, dates modified, and icons.
+      - **Visual description**: File icons and text labels.
+      - **Location**: Right side of the window.
+      - **Contents**: File names like "DamagedHelmet_BR.png," "DamagedHelmet_LOD0.fbx," etc.
+      - **Visual styling**: Icons indicating file types (e.g., .png, .fbx).
+    
+    - **Highlighted Files**: Files "DamagedHelmet_MEO.png," "DamagedHelmet_BR.png," and "DamagedHelmet_LOD0.fbx" are circled in red.
+      - **Visual description**: Highlighted files with a blue background.
+      - **Location**: Center of the file list.
+      - **Contents**: File names mentioned above.
+      - **Visual styling**: Blue background highlighting.
+    
+    - **Preview Pane**: Located on the far right, showing a thumbnail image of the selected file "DamagedHelmet_MEO.png."
+      - **Visual description**: A small image thumbnail.
+      - **Location**: Far right side of the window.
+      - **Contents**: A colorful image resembling a damaged helmet.
+      - **Visual styling**: Standard Windows image preview style.
+    
+    - **Open Button**: Located at the bottom right of the window.
+      - **Visual description**: A blue rectangular button labeled "Open."
+      - **Location**: Bottom right corner.
+      - **Contents**: Text "Open."
+      - **Visual styling**: Standard Windows button design with a blue background and white text.
+    
+    ### Visual Flow / Relationships
+    - **Most Prominent Visually**: The highlighted files in the file list.
+    - **Arrows/Connectors**: None visible.
+    - **Spatial Relationships**: Files are arranged in a vertical list, with the preview pane showing the selected file's thumbnail. The Open button is positioned to the right of the file list.
+    
+    </details>
+    
+    <p></p>
+    
+    
 - The ingestion window should now show the files you selected.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908638_512510097953613_7636898147610062708_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=gTWw3m2LBnEQ7kNvwH8E0Sh&_nc_oc=AdkwJ975ht3nVS2kbZSUjxA48M3UQspppvWtJuyoNB2CAhfE9onkTGhclcJuk4vPcBvQsgMfR6EYi9YyKxCBSVTI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AflHh2pHAQRzuGVj3Q7SXs2EbWVTyVEOvxwOSTgsLBnoKA&oe=69556AD2)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/cb81581acc1c15cae3e8c9794e6e1b9d61f69247653a42e7d673d02e56c99812.md)
+  
+  ### Overview
+  This is a screenshot of a file import interface for importing a 3D model into a software application. The interface includes a message about importing 3D models, a file selection area, and a list of selected files.
+  
+  ### Key Elements
+  - **Message Box**: Located at the top, it contains a warning message about importing 3D models. The message states that hierarchies are flattened, pivot points are centered, and colors can't be modified.
+  - **File Selection Button**: Positioned centrally, it has a blue plus sign and the text "Choose files on your device."
+  - **Selected Files List**: Below the file selection button, there are three entries showing the names of the selected files:
+    - **DamagedHelmet_BR.png**
+    - **DamagedHelmet_LOD0.fbx**
+    - **DamagedHelmet_MEO.png**
+    Each entry has a green checkmark next to it indicating selection status.
+  - **Cancel Button**: Located at the bottom left, it is gray with the word "Cancel" in white text.
+  - **Import Button**: Positioned at the bottom right, it is blue with the word "Import" in white text.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the message box at the top. The file selection button is central and draws attention due to its placement and contrasting color. The selected files list is below the button, providing a clear view of the current selections. The cancel and import buttons are at the bottom, offering options to either cancel the action or proceed with the import.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 At this point, you should have all the files you need to import a fully functional asset with only one level of detail. To add additional levels of detail, you must append more LOD assets to this 3D model.
 
@@ -97,22 +280,252 @@ When you import LOD meshes, they are appended to the MeshAsset containing the LO
 ### Append LOD assets
 
 - To append more LOD assets, expand the LOD 0 FBX file by clicking the expander arrow.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452946039_512510114620278_3499214126645664613_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=cfQyMIagZbwQ7kNvwENFQDp&_nc_oc=Adn5NLuT0_Iml8aYiGZdcY2X6xJElq4QRSatWq_ZVfFwhqnMDbtXUnk8ihtzBJJWaKVktNtlkAVkKNlMw02NBIBi&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AflZq8vGQ45g2-BfUMzNW8F04KaKtK0XzgvgyXqXTTcwnw&oe=69557733)
-- Click **Add LOD(s)**![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452587898_512510111286945_6432106008314023031_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Fi1XUupgPEoQ7kNvwH7Ex9z&_nc_oc=Adnz4TM6VUT4LzGlDd-0n0JEviaj-2JHaf40B2fTXcosOzs5ZAYhATpz6GjzdnNP75OyEZG0zlZuX1FlL5SDV7b5&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AfmdaK2-ugWban9ICWMaDA9g-uLHqY9twWBGL44hovBZKA&oe=6955842C)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/d49a4c94b05538a63702bbbaae68b84b53b6a7f7fc8cb5ff3f0bcb1d70655551.md)
+  
+  ### Overview
+  This image depicts a user interface dialog box titled "Import Model(s)" which guides the user through the process of importing a 3D model into a software application. The dialog box includes instructions, file selection options, and confirmation of imported files.
+  
+  ### Key Elements
+  - **Title Bar**: Located at the top, the title bar reads "Import Model(s)".
+  - **Instructional Message**: A gray box with a light bulb icon explains that hierarchies are flattened when importing a 3D model, pivot points are centered, and colors can't be modified.
+  - **File Selection Button**: A blue button labeled "Choose files on your device" is situated below the instructional message.
+  - **File List**: Below the button, there is a list of files that have been selected for import. Each file has a green checkmark next to it indicating successful selection.
+      - **DamagedHelmet_BR.png**: A PNG file named "DamagedHelmet_BR.png" is listed first.
+      - **DamagedHelmet_L0D0.fbx**: A FBX file named "DamagedHelmet_L0D0.fbx" is listed second.
+      - **DamagedHelmet_MEO.png**: Another PNG file named "DamagedHelmet_MEO.png" is listed third.
+  - **Cancel and Import Buttons**: At the bottom of the dialog box, there are two buttons: "Cancel" and "Import". The "Import" button is highlighted in blue.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the instructional message and the file list. The file list is arranged vertically under the file selection button. The "Import" button is the most visually emphasized element due to its blue color and placement at the bottom right.
+  
+  </details>
+  
+  <p></p>
+  
+  
+- Click **Add LOD(s)**<details>
+                      <summary>Image Content</summary>
+                      
+                      <p></p>
+                      
+                      [All image details and metadata](../../image_data/68c828d44dcb7a62eb5ba2a2d2268bc6c7b631524de0e274078d95ed45ec263d.md)
+                      
+                      ### Overview
+                      This image depicts a user interface element from a software application, specifically a dialog box related to importing models. The interface includes options for adding LODs (Level of Detail) and managing pivot offsets for imported models.
+                      
+                      ### Key Elements
+                      - **Header**: "Import Model(s)" at the top.
+                      - **Model List**: 
+                        - "DamagedHelmet_BR.png" with a green checkmark indicating successful import.
+                        - "DamagedHelmet_LODO.fbx" with a green checkmark and a dropdown arrow indicating expandable content.
+                        - "DamagedHelmet_MEO.png" with a green checkmark.
+                      - **Add LODs Button**: A button labeled "Add LOD(s)" located within the expanded section under "DamagedHelmet_LODO.fbx".
+                      - **Warning Box**: A yellow warning box stating that the offset pivots feature is only supported on single mesh FBX files.
+                      - **Offset Pivots Section**: Contains a toggle switch labeled "Preserve offset pivots" with a description underneath.
+                      - **Buttons**: Two buttons at the bottom labeled "Cancel" and "Import".
+                      
+                      ### Visual Flow / Relationships
+                      The most prominent visual element is the "Add LOD(s)" button, as it is centrally located within the expanded section. The warning box is visually distinct due to its yellow background and exclamation mark icon. The buttons at the bottom are aligned horizontally, with the "Import" button being larger and more prominent than the "Cancel" button.
+                      
+                      </details>
+                      
+                      <p></p>
+                      
+                      
 - In the file selection window, multi-select your additional LOD FBX model files then click **Open**.
-  * If you’re using the sample files, select DamagedHelmet\_LOD1.fbx and DamagedHelmet\_LOD2.fbx. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452772355_512510091286947_7590734842067493140_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=X812tn20vaQQ7kNvwEjoY49&_nc_oc=Adlf3NeKZL08gHebitrKaRwRVDjATuARzXaqxzRW24FYuiFRhSMUR8aX-I4poH4-480hvh8sU9cvAdKeGBI7qxka&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AfkYol29NzqtgUWhwT7UJoOcvJ52GdXPGUnhfmMHqnEZxQ&oe=69558D97)
+  * If you’re using the sample files, select DamagedHelmet\_LOD1.fbx and DamagedHelmet\_LOD2.fbx. <details>
+                                                                                                  <summary>Image Content</summary>
+                                                                                                  
+                                                                                                  <p></p>
+                                                                                                  
+                                                                                                  [All image details and metadata](../../image_data/0ae86f52e81d4866fede604277a02e11af066371abb07d39036a0b1b89be89f8.md)
+                                                                                                  
+                                                                                                  ### Overview
+                                                                                                  This image depicts a file explorer window showing a directory structure with a focus on selecting specific files. The interface includes a file list view with file names, dates modified, and a highlighted selection area.
+                                                                                                  
+                                                                                                  ### Key Elements
+                                                                                                  - **File Explorer Window**: The main visual element is the file explorer window displaying a directory path.
+                                                                                                  - **File List**: Located in the right pane, showing a list of files with their names, dates modified, and checkboxes next to them.
+                                                                                                      - **Highlighted Files**: Two files (`DamagedHelmet_LOD0.fbx`, `DamagedHelmet_LOD1.fbx`) are highlighted with a red circle, indicating selection.
+                                                                                                      - **File Names**: Examples include `ColumnSetA_LOD0.fbx`, `StoneFloor_LOD0.fbx`, `Suzanne_LOD0.fbx`.
+                                                                                                      - **Date Modified**: Dates are displayed next to each file name, e.g., `4/16/2024 10:02 AM`.
+                                                                                                  - **Navigation Pane**: On the left side, showing folders and drives such as `horizon`, `Captures`, `LOD tests`, `Videos`, `OneDrive - Personal`, `This PC`, `Desktop`, `Documents`, `Downloads`, `Music`, `Pictures`, `Videos`, and `Windows (C:)`.
+                                                                                                  - **Search Bar**: At the top right, with placeholder text `Search lod`.
+                                                                                                  - **Buttons**: At the bottom right, there are two buttons labeled `Open` and `Cancel`.
+                                                                                                  
+                                                                                                  ### Visual Flow / Relationships
+                                                                                                  - **Most Prominent Element**: The highlighted files (`DamagedHelmet_LOD0.fbx`, `DamagedHelmet_LOD1.fbx`) are the most prominent due to the red circle highlighting.
+                                                                                                  - **Arrows and Lines**: There are no arrows or lines connecting elements.
+                                                                                                  - **Spatial Relationships**: The highlighted files are adjacent to each other within the file list. The navigation pane is on the left, and the search bar is at the top right. The buttons are at the bottom right.
+                                                                                                  
+                                                                                                  </details>
+                                                                                                  
+                                                                                                  <p></p>
+                                                                                                  
+                                                                                                  
 - The ingestion window should now also show the new LOD files.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452817871_512510214620268_3811525399855144317_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=6IlW9jqEcyEQ7kNvwEXgxS8&_nc_oc=AdlufcX8B-p6ynrxl7eUmVTcyV9expOW1glufbbCUzuEQchb0vv4xXNbWk7m8gMMsiLM1GPNndgF_xu4ec_-43e2&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AfkC-dKvmxsqh_XkRkU2fsfEoP2EhRbpUJtj4_zOikkn0A&oe=69556B43)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/761f1161729df9b15ea3535edb1cf0c71a85ad1d866b336bafb024cf64795117.md)
+  
+  ### Overview
+  This image depicts a user interface element for importing models into a software application. It shows a list of imported model files with options to manage them, including adding more LODs (Level of Detail).
+  
+  ### Key Elements
+  - **Header**: "Import Model(s)" at the top left corner.
+  - **Model List**: 
+    - **DamagedHelmet_BR.png**: A file with a green checkmark indicating it is imported successfully.
+    - **DamagedHelmet_LOD0.fbx**: A folder with a green checkmark and a dropdown arrow, indicating multiple LODs are available. Below it, there are three entries labeled "LOD0," "LOD1," and "LOD2," each with a checkbox next to them.
+    - **Add LOD(s)**: A button located below the LOD entries.
+  - **Model List**: 
+    - **DamagedHelmet_MEO.png**: Another file with a green checkmark indicating it is imported successfully.
+  - **Buttons**: Two buttons at the bottom, one labeled "Cancel" and another labeled "Import."
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the model files and the "Add LOD(s)" button. The layout follows a vertical flow, with the model list expanding vertically as new items are added. The buttons at the bottom are aligned horizontally.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Now, set the desired relative screen size for each LOD level. The relative screen size determines the threshold for each LOD level as a percentage of the full screen. When the object on the screen is smaller than this threshold percentage, the engine switches to the LOD mesh of the next LOD level.See the following example values for a more intuitive explanation:
   * **LOD 0: .3** - LOD 0 will be used when the object is larger than 30% of the full screen.
   * **LOD 1: .1** - LOD 1 will be used when the object is between 30% and 10% of the full screen.
   * **LOD 2: .01** - LOD 2 will be used when the object is between 10% and 1% of the full screen. - The object will be culled when smaller than 1% of the full screen.
 - Click **Import**.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452520181_512510207953602_2188403874289102963_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=-xRH6JhCUS0Q7kNvwGjsK6c&_nc_oc=Admb1D2Hzdt5_y2hLah7xj2YznlKhFun5Eb6ykHbYVjAG8rVYUvsru7vVRyZU3tdT93fdGVSEn_RMjWk45FCNsZm&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AfktrocgvNLweOBQSO2ST2B5VlUZA-IfliKVpoGqr1cGwQ&oe=69557F75)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/810ac668bfb63bd835cd548d5edf335dfe56f9f2343134838912bcd240c587c7.md)
+  
+  ### Overview
+  This image depicts a user interface element from a software application, specifically a dialog box for importing models. The interface includes a list of model files with their respective LODs (Level of Detail) settings.
+  
+  ### Key Elements
+  - **Model List**: Located in the upper part of the dialog box. Contains a list of model files with checkboxes next to them.
+    - **DamagedHelmet_BR.png**: A green checkmark indicates it is selected.
+    - **DamagedHelmet_LOD0.fbx**: A green checkmark indicates it is selected.
+    - **DamagedHelmet_LOD1.fbx**: A green checkmark indicates it is selected.
+    - **DamagedHelmet_LOD2.fbx**: A green checkmark indicates it is selected.
+  - **LOD Settings**: Below the model list, there are three entries labeled as LOD0, LOD1, and LOD2, each with a numerical value next to them.
+    - **LOD0**: Displays the value `.3`.
+    - **LOD1**: Displays the value `.1`.
+    - **LOD2**: Displays the value `.01`.
+  - **Add LOD(s)** Button: Positioned below the LOD settings, this button allows users to add more LODs.
+  - **Import Button**: Located at the bottom right of the dialog box, this button is blue and labeled "Import".
+  - **Cancel Button**: Located at the bottom left of the dialog box, this button is gray and labeled "Cancel".
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the model list and the LOD settings. The Add LOD(s) button is secondary but important for adding new LODs. The Import and Cancel buttons are at the bottom, indicating the primary actions available in this dialog box.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Wait for the importing process to be finished. You may see a clock icon on the top right of the asset icon.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452520043_512510204620269_1030569126414916300_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=LGojhVVezBYQ7kNvwGxTfFp&_nc_oc=AdlYbRb0WItbDxTrMoaReAipTztzHllHTuJoGaYRZ4iUHFZmfR-J6XUu4p8CkODWBf1QTuFSHnNj-F4awvMngewD&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_Afneet2CC3znLeerwGv99TJAKeBtE0A106mSMQ-E5pGjcw&oe=695593E5)![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452746741_512510201286936_7556625726474085776_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=5ruoUZEr6-IQ7kNvwEnUvC8&_nc_oc=AdkFX_RBNoADIQmOG59uhxJFsphLZTUv9ZCY6J01QKIZ8fU3j5SXjX-zq8Jg1Y-3AThkrGRdRol3s2Vtp8sEpFO8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_Afn54khQbBPOdyv3ihgLs5dSMYARMHabPS-prOurnmMSIQ&oe=69559D2F)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/39dcd6b3e650a9f21112ed58c6d24a4cd17dd64ed92ef1658b2e514b526345f7.md)
+  
+  ### Overview
+  This image depicts a notification or message box that appears to be part of a user interface, likely a dialog or alert indicating an ongoing process related to asset import.
+  
+  ### Key Elements
+  - **Visual description**: The box has a simple rectangular shape with rounded corners.
+  - **Location**: Positioned centrally at the bottom of the screen.
+  - **Contents**: Contains the text "> Importing asset (allow the import to finish before leaving the world)".
+  - **Visual styling**: The background is dark gray (#333333), and the text is white (#FFFFFF).
+  
+  ### Visual Flow / Relationships
+  - Most prominent visually: The message box itself.
+  - There are no arrows, lines, or connectors present.
+  - The text is aligned horizontally within the box, and there is no implied reading order beyond the natural progression of reading from left to right.
+  
+  </details>
+  
+  <p></p>
+  
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/c3cba35832d05e6c27788ea7b469ec4bb829aaaa2e09b9e616df274820a13537.md)
+  
+  ### Overview
+  This image depicts a user interface element from a software application, likely related to asset management or file organization. The layout includes a sidebar with folders and a preview area on the right side.
+  
+  ### Key Elements
+  - **Sidebar (Left Panel)**:
+    - **Visual description**: A vertical menu with folder icons and names.
+    - **Location**: Left side of the image.
+    - **Contents**: 
+      - "My Folders"
+      - "My Assets"
+      - "LOD Test" (highlighted)
+      - "Charlie's test"
+      - "Zane's test"
+    - **Visual styling**: Dark gray background with white text and icons. The highlighted folder has a slightly darker background.
+    
+  - **Preview Area (Right Side)**:
+    - **Visual description**: A small thumbnail preview with a circular icon indicating loading or status.
+    - **Location**: Right side of the image.
+    - **Contents**: 
+      - A thumbnail image of a damaged helmet.
+      - Text: "DamagedHelm..."
+    - **Visual styling**: Light gray background with a darker gray border around the thumbnail. The thumbnail itself has a subtle gradient effect.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The highlighted "LOD Test" folder in the sidebar.
+  - **Arrows/Connectors**: None visible.
+  - **Spatial relationships**: The sidebar is on the left, and the preview area is on the right. The highlighted folder in the sidebar corresponds to the previewed item on the right.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - When the import finishes, a “Success” banner will appear.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452653243_512510197953603_4225377072029174481_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=jnc_LRbPPMMQ7kNvwFtwCUH&_nc_oc=AdkLZWy5xSSPvHNeLl2Ge-I1LbynwjlluChEIO-i1vKo375UX5AxgaTfZMdihCO3iHe0LUtjD5ztksrALp-XvrN-&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AfmcROvqFzWwa8Xwaa5uZjmiAJAjRepwFE110j9GIYGyTA&oe=69559F79)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/78b81861b004d5da994b1a282ff2a43cda3f8c01be2f2d76d252d6fb9b0c96ef.md)
+  
+  ### Overview
+  This image depicts a notification or confirmation message box with a simple design, likely part of a user interface for asset management or import processes.
+  
+  ### Key Elements
+  - **Visual description**: A rectangular box with rounded corners.
+  - **Location**: Centered horizontally and vertically within the image.
+  - **Contents**: Contains the text "> Success! All assets imported" and a green checkmark icon on the left side.
+  - **Visual styling**: The background is white, the text is black, and the checkmark is green.
+  
+  ### Visual Flow / Relationships
+  - Most prominent visually: The text and checkmark.
+  - There are no arrows or lines connecting elements, but the checkmark icon is positioned to the left of the text, indicating success.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 > **Note:** When importing FBX files containing multiple meshes, the system will try to match LOD meshes to the LOD 0 mesh by node name matching.
 
@@ -122,21 +535,111 @@ When you import LOD meshes, they are appended to the MeshAsset containing the LO
 
 To use an LOD asset, drag the asset to the world window.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578653_512510141286942_8187160058036161687_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=qvAFEWYfn20Q7kNvwFSC0KD&_nc_oc=AdlLC5OKa8tYA-LIj9dyJnp3T0AaH1jmcXFoaBcACs2MgA6euTvKIkKy2SpnE1uEHmzc8yfQaARSDVkEekpwFCEz&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AflYDnqC53QKrgC7bBOFPgzj68OeQ4T_52-uQnlx0Tqh8w&oe=695576E3)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/4c092a8c8e9841fe58f6a93550e95d016dfd7e0ddf62a4299aa3f9fa0b0292e1.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a futuristic helmet-like object and a small humanoid figure. The helmet is metallic with a reflective surface, and the figure appears to be a simplified, stylized human form with a blue body and a red hand gesture.
+
+### Key Elements
+- **Helmet**: Located towards the upper right of the image. It has a sleek, aerodynamic design with a large, curved visor that reflects light. The helmet is predominantly silver with some dark accents and a green eye-like feature near the bottom.
+- **Humanoid Figure**: Positioned below and slightly to the left of the helmet. It is a simple, blue-colored figure with a humanoid shape. The figure's right hand is raised, showing a red symbol resembling a plus sign.
+- **Background**: A grid pattern covers the entire background, suggesting a virtual environment or a 3D modeling workspace.
+
+### Visual Flow / Relationships
+The helmet is the most prominent visual element due to its size and reflective surface. The humanoid figure is secondary but draws attention due to its bright color and the red symbol on the hand. There are no arrows or lines connecting the elements, so the relationship is implied through their placement within the frame.
+
+</details>
+
+<p></p>
+
+
 
 If the object is too far from the view point, it may have a green color. This is because the additional LOD level GI is being computed in the background and isn’t ready yet. You can move the object around in the world before the GI data is computed.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452513309_512510124620277_672843571951153038_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=e1VAe0AS-3YQ7kNvwHmAxfC&_nc_oc=Adk05q9GkG86PQwq71cqrsGyXG6rxfB6LgCOWGVbvW4rdJfXHIjtS08P_QCqwxFfmYXQQlbprfWVVbRCewmqV6kf&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AfmdQTkumV-UF02swYLYfD2NL4xEAPS-m4tIaR_-4NRc2w&oe=69559A92)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/f61c2ba8357330fba071dc85d99fb1b8a186565a84a6b6bc9d6aa85bd9cf7f38.md)
+
+### Overview
+The image depicts a 3D scene viewed from above, featuring a small humanoid figure and a larger, green, futuristic vehicle. The scene is set against a grid background, suggesting a virtual environment or a game interface.
+
+### Key Elements
+- **Humanoid Figure**: Located at the bottom center of the image, this character is small compared to the vehicle. It has a simple design with a blue body and white limbs. The figure appears to be interacting with the vehicle, as indicated by its raised arm.
+- **Green Vehicle**: Positioned above and slightly to the right of the humanoid figure, this object resembles a futuristic vehicle or robot. It has a sleek, aerodynamic shape with a transparent green body and metallic accents.
+- **Grid Background**: The entire scene is set on a light gray grid, which serves as the backdrop for the objects. The grid lines are faint but clearly defined, providing a sense of depth and space.
+
+### Visual Flow / Relationships
+The most prominent visual element is the green vehicle, which is situated higher up in the frame than the humanoid figure. The grid background creates a sense of depth, with the objects appearing to float above the grid lines. There are no arrows or lines connecting the elements, so the relationship is primarily spatial rather than directional.
+
+</details>
+
+<p></p>
+
+
 
 You can verify that LOD is working by moving around in the world to make the object take up different amounts of space on your screen and watching as different LOD models populate.
 
 It can be hard to notice this happening if the relative screen size values are small. If you move far away from the object, eventually it will be culled.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452587746_512510134620276_9189181265092177001_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=CNHB91jkBzoQ7kNvwEV79kg&_nc_oc=AdnXmq1jvkM3mdanGtL2Q6gbT6iXeipWKurqWUIPIskFAqWqnOuzrmjgxybxYh6jGrjO_-FSxmzpdpyQazwdf78C&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AfkjUpno5Fnal76ltJMPNf6V0g5Y4mWptVbNBUJk6jJODg&oe=69557EAA)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/dc9c293ec6d37d648422b857fcb4574b46d08b7a76b8192c80a38e177d53f4f6.md)
+
+### Overview
+The image displays a simple interface with a gradient blue background. At the center, there is a semi-transparent white square shape. Below the square, there is a black rectangular button with text inside. The bottom right corner features a small icon.
+
+### Key Elements
+- **Gradient Background**: A light blue gradient that transitions to a darker blue at the bottom.
+- **White Square**: Located centrally, it is semi-transparent and has a subtle shadow effect.
+- **Black Button**: Positioned below the white square, it contains the text "> Preview from here". The button has a solid black background with white text.
+- **Small Icon**: In the bottom right corner, there is a small, dark icon resembling a bee or similar symbol.
+
+### Visual Flow / Relationships
+The white square is the most prominent visual element due to its central placement and semi-transparency. The black button is secondary but draws attention due to its contrasting color. The small icon in the bottom right corner is the least prominent but still noticeable.
+
+</details>
+
+<p></p>
+
+
 
 You can also see LOD behavior in Desktop Editor’s preview mode.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452590061_512510137953609_1190235246472948998_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=pCoWKEHatecQ7kNvwHnKIp-&_nc_oc=AdkRDgCVF4Bc2zHPawJ6ERdloPIJKGGC9nVqmIZQjVPq83G85z0sVdoyKoiyIWO0tcS8BmZSSEMlGHSc8pt-Tfnz&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JuL9snl1UQvJal55KwUa9Q&oh=00_AfnLKsAkPrWs5qf8ppabcfGlZSs8wduDBHnJaIsTAjHSsQ&oe=6955785F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/55e3e48c82c9e29d94ea59dcb34b309d0e2b4af9c8a61cd6721660be13ffd847.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a humanoid figure standing in a virtual environment. The figure is viewed from behind, wearing a hoodie and pants, with a futuristic helmet hovering above its head. The background consists of a simple grid floor and a gradient sky.
+
+### Key Elements
+- **Humanoid Figure**: Located centrally in the image, facing away from the viewer. The figure has a neutral expression and is wearing a black and gray hoodie, dark pants, and green sneakers. The hair is short and dark.
+- **Helmet**: Positioned above the figure's head, floating in the air. It appears metallic and futuristic, with a reflective surface and intricate detailing.
+- **Grid Floor**: Extends across the bottom of the image, serving as the ground plane. It is light gray with darker gray grid lines forming a checkered pattern.
+- **Gradient Sky**: Forms the backdrop, transitioning from a lighter blue at the horizon to a slightly darker shade higher up, suggesting a clear day.
+
+### Visual Flow / Relationships
+The most prominent visual element is the humanoid figure, which is the focal point of the image. The floating helmet above the figure's head draws attention upward. There are no arrows or lines connecting elements, but the arrangement suggests a focus on the figure and its hovering helmet. The grid floor provides a sense of depth and scale, while the gradient sky adds a sense of openness to the scene.
+
+</details>
+
+<p></p>
+
+
 
 ### Publish the world
 

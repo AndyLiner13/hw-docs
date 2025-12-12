@@ -70,7 +70,31 @@ For example, to resize the mirror, you can resize the mirror by changing the **S
 
 The following shows you how to configure the gizmo’s properties in VR.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974860_1582777578979793_4578442253378448808_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=fxJgPPBS-v8Q7kNvwFhCBH-&_nc_oc=AdkINnDOA4pn7JnUpGYELFK-MUlINtIDVaQMfHXIJXEpk37z486M-tMxqgQC0u6_rQ2fWapaC7XuWSnYxDkUAdHB&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkX_K4Yw3m4Ps61fDc4u3W3HR9-ZMt8bTPGcGEEKqZeSA&oe=69558BDA)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/ce21467791d2ccab7ec2ba983f6fb2c8e050d8afd9e42ec559bfde49620ead83.md)
+
+### Overview
+This image depicts a virtual environment interface, likely from a game development tool or a 3D modeling software. The scene includes a character model, a floating interface window, and various controls and indicators.
+
+### Key Elements
+- **Character Model**: A humanoid figure with a blue face and a black jacket is centered in the foreground. The model has a red sphere attached to its chest area.
+- **Floating Interface Window**: Located on the right side of the image, this window displays attributes such as "Behavior," "Attributes," and "Gameplay Tags." It also shows numerical values for "Position," "Rotation," and "Scale."
+- **Control Joysticks**: Two circular controllers are positioned at the bottom of the image. One has a hand icon, and the other has a lock icon.
+- **Smartphone Mockup**: On the left side, there is a smartphone mockup displaying a time of "6:39 PM" and some app icons.
+- **Background**: The background consists of a simple grid floor and a gradient sky transitioning from light blue to white clouds.
+
+### Visual Flow / Relationships
+The most prominent visual element is the character model, which is the focal point of the scene. The floating interface window provides additional information about the character, while the control joysticks suggest interactive elements for manipulating the character. The smartphone mockup adds a layer of realism, indicating that the character might interact with mobile devices within the game world.
+
+</details>
+
+<p></p>
+
+
 
 ## Take photos and edit your avatar
 
@@ -78,11 +102,58 @@ After placing the gizmo in your world and configuring the properties, you can ta
 
 The following shows you how to take a photo.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974721_499114159825081_5750543788586459815_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=KnyZi650I5EQ7kNvwHARIVl&_nc_oc=AdmJKgeaRMgF3i5d-QuNZDNl6Ux0No80UhXxTtR7udptFUlIvEQ677h25Ofcz5MCa8s8iJGAFBZDvfJuoBCd8h_M&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AflIzEneEkfRslx-xjJ4fHdp7cqbUTPmuyc8HFTv1CHgcw&oe=69559412)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/3c2f2f45cfbd5a1baf955645a43181885bdda9a28cf56b769653c56b9f45503a.md)
+
+### Overview
+The image depicts a virtual environment with a floating tablet device displaying an avatar editing interface. The background consists of a simple grid floor and a gradient sky, suggesting a virtual space or game environment.
+
+### Key Elements
+- **Avatar**: A cartoon-style character wearing a black suit and gray shirt, displayed within the tablet screen.
+- **Tablet**: A rectangular device with rounded corners, showing a blue interface with a green bar labeled "World Creator."
+- **Edit Avatar Button**: Located at the bottom of the tablet screen, featuring a camera icon and the text "> Edit Avatar."
+- **Background**: A flat, light gray grid floor extending into the distance, with a gradient sky transitioning from light blue to darker blue at the horizon.
+
+### Visual Flow / Relationships
+The avatar is the most prominent visual element, centrally positioned within the tablet screen. The tablet itself is the focal point of the image, with the avatar and edit button serving as secondary elements. The grid floor and gradient sky provide a neutral backdrop that emphasizes the tablet and its contents.
+
+</details>
+
+<p></p>
+
+
 
 The following shows you how to edit your avatar.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982534_585330297294458_1498502693454280462_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=SAsoQAhz4B8Q7kNvwGw1TPQ&_nc_oc=Adl82_nkZZ75jBi1D40q204xv0ckhs0cAXI2T5EgQvQ_YR44j2dNstBa7JZWNUcGS9EqPx5SogzFJ8v_bzSFZW8Z&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Aflg_nU47lX0u-FM6la0Nz9fNQqUx_58DmN-MeWnAeB7NA&oe=69556F27)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/9a00ccea6e9d596f1c46c25119de785b7eaee878e2512404322a1a5e21ca70a7.md)
+
+### Overview
+The image depicts a virtual environment with a floating smartphone interface displaying an avatar customization screen. The phone is centrally positioned against a grid-like floor and a gradient sky background. The interface includes a character model and options for avatar editing.
+
+### Key Elements
+- **Avatar Model**: A 3D character model wearing a black suit and gray shirt, standing in a neutral pose. The character has brown hair and is positioned slightly off-center within the phone's display.
+- **Phone Interface**: The phone screen displays a blue background with a green banner at the top labeled "World Creator." Below the banner, the character model is shown. At the bottom of the phone screen, there is a purple button labeled "Edit Avatar."
+- **Background**: A simple, light gray grid pattern representing the floor, and a gradient sky transitioning from light blue to darker blue at the top.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central focus is the smartphone interface, which contains the avatar model and the "Edit Avatar" button.
+- **Arrows/Connectors**: There are no arrows or connectors visible in the image.
+- **Spatial Relationships**: The avatar model is centered within the phone's display, and the "Edit Avatar" button is located at the bottom of the phone screen. The phone itself is floating above the grid floor, and the sky forms the backdrop.
+
+</details>
+
+<p></p>
+
+
 
 ## What’s next?
 

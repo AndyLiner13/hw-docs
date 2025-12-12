@@ -14,9 +14,62 @@ To build a conversation for your scripted NPC, use the following process:
 
 - Navigate to **Build > Gizmos**, select the **NPC** gizmo and drag it into your scene. Set the **NPC type** to **Horizon Avatar (Body Only).**
 - After configuring the NPC’s properties in the **Properties** pane, click **Attach script** and select **New NPC conversation script** from the menu.
-  ![Attach Script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/546840266_810235228181097_6981823577862926430_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Tq5iuGs8UbkQ7kNvwFKL8Zy&_nc_oc=AdkR2o3X9Jg0IGDdNAJwi3Q1RKArmKzVrRkrk4xs9sI_Zzrmgr1gVn5XV1K93CqESjo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=h2TVQqetm5gCmIBgZC2Szg&oh=00_AfkjtNtwOMn9owAXaJ6NXQTsfkvRAwJOSz3tKnHnhClZTw&oe=69556C16)
+  <details>
+  <summary>Attach Script</summary>
+  
+  <p></p>
+  
+  [Attach Script](../../../image_data/17c8b9cb58aff85c283224237034f6a935b1c5cc2193ef140e0bcad8ac6d743f.md)
+  
+  ### Overview
+  This image depicts a user interface element within a software application, specifically a settings menu related to nametags. The focus is on a search bar and a dropdown menu with script options.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top of the dropdown menu, it has a blue outline and contains a magnifying glass icon. The placeholder text reads `|`.
+  - **Dropdown Menu**: Contains several items listed vertically:
+    - `{}` CrystalBall:CrystalBall
+    - `+ New NPC conversation script`
+    - `+ New script`
+  - **Attach Script Button**: Positioned above the dropdown menu, it is a blue button labeled `Attach script`.
+  - **Menu Header**: At the top of the screen, it reads `Nametag settings`.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the search bar, as it is the first interactive element encountered when interacting with the dropdown. The dropdown menu is nested under the `Attach script` button, indicating that selecting the button would open the dropdown. The items in the dropdown are arranged in a vertical list, suggesting a sequential reading order from top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Name your script for your NPC, click **Create and attach**, and wait for the script to compile. Once compiled you can click the three dot menu and select **Edit script** to open the script in your preferred IDE.
-  ![Edit Script](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/545977385_810235181514435_2134096870227171498_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xu-dZRw42JgQ7kNvwFAzhmt&_nc_oc=Adl3cUvrcNJEiKDTCvvvzBTfmjgvO8GVVZJaD_WjMlJq0_zFVp4xQ10JsM3F58BrpW8&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=h2TVQqetm5gCmIBgZC2Szg&oh=00_AfkQIIFmvT1gsF4V4FFVgGc7j4tzVrq-QVswEr3ffQ51_w&oe=69557F03)
+  <details>
+  <summary>Edit Script</summary>
+  
+  <p></p>
+  
+  [Edit Script](../../../image_data/83fc57b660124d5e9980b397c37cac3cffaa996f004b0123ce6b1aeff003d824.md)
+  
+  ### Overview
+  This image depicts a contextual menu that appears when interacting with a script named "testconversationscript:testc..." in a development environment. The menu offers several options related to managing the script.
+  
+  ### Key Elements
+  - **Visual description**: The menu has a dark background with light-colored text and a blue icon at the top right corner.
+  - **Location**: The menu is positioned below the script name "testconversationscript:testc..." which is displayed above the menu.
+  - **Contents**:
+    - **Edit script**: A menu option with white text on a dark background.
+    - **Copy script**: Another menu option with white text on a dark background.
+    - **Paste all script properties**: A menu option with white text on a dark background.
+    - **Remove script**: A menu option with white text on a dark background.
+  - **Visual styling**: The menu has a clean, modern look with a dark theme. The text is white, providing good contrast against the dark background. The blue icon at the top right corner likely indicates additional actions or settings.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the menu itself, as it is the focal point of the image. The options are arranged vertically, suggesting a linear reading order from top to bottom. There are no arrows or lines connecting the elements, indicating a straightforward, sequential interaction.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 This created script attached to your NPC manages its behavior and maps to various APIs to drive its actions.
 

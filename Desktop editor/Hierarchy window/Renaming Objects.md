@@ -4,17 +4,188 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 This feature enables you to rename objects and gizmos in the hierarchy, so they are easy to find later.
 
-![renamed.gif](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452415597_512527127951910_1338217283483600511_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=Y6w-ftnscCkQ7kNvwGJ5LWt&_nc_oc=AdmtbqtA6WJW69hF-9F2voUslM7IeaM4hmrvIxBGvgi-J-YxVB-D9CcAXabwr4vS9qeULETfb6nAaoe9Ru-c1ofH&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rxYo4Teaz-npkkm2S1GcRQ&oh=00_Afkiew3LDoCEtUs2UQ_drB89smdxEJ5Aj9ZjiHfb4ahB0A&oe=69558578)
+<details>
+<summary>renamed.gif</summary>
+
+<p></p>
+
+[renamed.gif](../../image_data/8b37240f40d5551f24a4eb5599b4fddbee096d5e54bfc980560a9b90e4bd77c5.md)
+
+### Overview
+This image depicts a screenshot of a user interface, specifically a hierarchy view within a software application. The interface shows a list of objects or entities, each represented as a node in a tree-like structure. The focus is on the "Cube" node, which is highlighted with a blue border, indicating selection or active focus.
+
+### Key Elements
+- **Visual description**: The interface has a dark theme with light text and icons.
+- **Location**: The "Cube" node is located in the center of the list, slightly shifted to the right due to the highlighted selection.
+- **Contents**: The text "Cube" is displayed next to a small icon resembling a cube.
+- **Visual styling**: The text is white, the background is dark gray, and the highlighted selection uses a blue border.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Cube" node is the most prominent due to its highlighted selection.
+- **Arrows, lines, connectors**: There are no arrows or lines connecting nodes, as this is a flat list rather than a hierarchical tree with connections.
+- **Spatial relationships**: Nodes are arranged vertically in a list format, with each node having a small icon and text label. The "Cube" node is the focal point, with the rest of the list items stacked below it.
+
+</details>
+
+<p></p>
+
+
 
 Follow these steps to rename objects in the hierarchy:
 
 - Select any entity in the world (*single left click*).
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452869683_512527227951900_7209877553680932515_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=5T4ESVxlYewQ7kNvwEVWD2Y&_nc_oc=AdmGqmbLvuQAVv32fyGDrXz1oBOclvMGfhavoinJKuhw51J5YCaGf9T08-U_DDS0dakWn4HFhHuo_b1V9angcOjs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rxYo4Teaz-npkkm2S1GcRQ&oh=00_Afl4YWY3vmndSIHOokObTaqtq4KOthlG8bwFLEG_SQsVkA&oe=69558FC1)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/d4859f1469f156f0e409f19c67397385239e1f97d85af66756cc7ddcd63ecb4b.md)
+  
+  ### Overview
+  This image depicts a menu or selection interface showing a list of geometric shapes or objects. The items are arranged vertically, and one item is highlighted in blue, indicating it is currently selected or active.
+  
+  ### Key Elements
+  - **Visual description**: The elements are simple text labels with icons next to them.
+  - **Location**: The elements are listed vertically down the left side of the image.
+  - **Contents**: 
+      - Ramp
+      - Half Tube
+      - Faceted Cylinder
+      - Capsule (highlighted in blue)
+      - Torus B
+      - Cube Soft
+  - **Visual styling**: The text is white, and the icons are also white. The background is dark gray. The selected item has a blue highlight.
+  
+  ### Visual Flow / Relationships
+  - The most prominent visual element is the selected "Capsule" option.
+  - There are no arrows or lines connecting the elements, but the vertical arrangement implies a sequential reading order from top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Click on the selected entity again (*single left click*) or Press F2.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578812_512527224618567_8996967759305590928_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=jloV1HJ-isMQ7kNvwGbPLaS&_nc_oc=Admj3HZw_W2aay3Fo1MGYj1ET2sor_K1PZlmbWSCQmoq7lMdaokIfrIb-3A67AL_f-uAPtVCrK7X6ndhXh3IE6iu&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rxYo4Teaz-npkkm2S1GcRQ&oh=00_AflzUnDCGkCcsdZ0Wz2nOGwMBrMIKjT7tjw6Xm4p9n9hCg&oe=69559832)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/ab5c3738c4df5f7ded521128ff9d53b2d93366fb602f8bb8ffd5d85c3d8542d8.md)
+  
+  ### Overview
+  This image depicts a dropdown menu or a list of options, likely part of a user interface for selecting geometric shapes or objects. The menu items are arranged vertically, with each item having a distinct label and some visual indicators.
+  
+  ### Key Elements
+  - **Visual description**: The menu items are rectangular blocks with rounded corners.
+  - **Location**: Each item is located in a vertical column on the left side of the image.
+  - **Contents**: 
+      - **Capsule**: Highlighted with a blue background, indicating selection or focus.
+      - **Torus B**: Standard item without any special highlighting.
+      - **Cube Soft**: Standard item without any special highlighting.
+  - **Visual styling**: The background is dark gray, and the text is white. The highlighted item has a black background with white text.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The **Capsule** item due to its blue highlight.
+  - **Arrows, lines, connectors, or implied reading order**: None visible.
+  - **Spatial relationships**: Items are stacked vertically, with no overlapping or connecting lines.
+  
+  </details>
+  
+  <p></p>
+  
+  
   You can also right click and select **Rename** from the popup menu.
-  ![Rename option from right click menu](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/475456016_643175448220410_4577554162907610986_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=qlTgFv65Rg0Q7kNvwEeZjkc&_nc_oc=AdnzuzvWzEFTflVQmRea5_8p4gOMqT3sWxSVzZTqGEYgYpja8aFfznDCgNm-oBtl66rZFMMhANGq748mEAp2_uP0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rxYo4Teaz-npkkm2S1GcRQ&oh=00_AfmWcsm9sI_sRxheqPZoVCAAIyN3TC06zCZ7xOalY3Qk-A&oe=69557DF3)
+  <details>
+  <summary>Rename option from right click menu</summary>
+  
+  <p></p>
+  
+  [Rename option from right click menu](../../image_data/36a29252dbbe9669bb07172fe7c8f52f8cc5a8338a1d2f9440ac53aeef4ce4f2.md)
+  
+  ### Overview
+  This image depicts a dropdown menu with a dark theme, likely from a software application. The menu items are listed vertically, each accompanied by a keyboard shortcut on the right side.
+  
+  ### Key Elements
+  - **Visual description**: The menu has a dark background with white text and light gray separators between items.
+  - **Location**: Items are listed vertically from top to bottom.
+  - **Contents**: 
+      - **Rename**: Top item, no keyboard shortcut shown.
+      - **Duplicate selection**: Followed by its keyboard shortcut (`Ctrl + D`).
+      - **Create Asset**: No keyboard shortcut shown.
+      - **Delete selection**: Followed by its keyboard shortcut (`Del`).
+      - **Unparent child objects**: Followed by its keyboard shortcut (`Ctrl + G`).
+      - **Unlink instance root**: No keyboard shortcut shown.
+      - **Focus on selection**: Followed by its keyboard shortcut (`F`).
+      - **Create parent object**: No keyboard shortcut shown.
+  - **Visual styling**: The text is white, and the background is dark gray. There are light gray vertical lines separating the menu items.
+  
+  ### Visual Flow / Relationships
+  The menu items are arranged in a linear fashion, with each item followed by its corresponding keyboard shortcut. The layout suggests a hierarchical relationship where each action is distinct and can be performed with a specific shortcut.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Type in the new name.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452520176_512527107951912_1297209859359763167_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=PFnZamYM1xsQ7kNvwFOizjD&_nc_oc=AdnNgv5tVQXy6BJT2diPCIf37C6SbhMjGhxcbRZdH3dFDD7uvSEeBozrbel43Kjwy_zMaCGLBGEkWCVnWO-r_URb&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=rxYo4Teaz-npkkm2S1GcRQ&oh=00_AfnjaWPdLW5iezgyn12CPwVuxC0tsMphbyLoxe3ft1m2vA&oe=69557C50)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/8f3d56c7bf5425727d6878e636d4bd8cce7c6b42df47a0efbbf923bd02e3ea49.md)
+  
+  ### Overview
+  This image displays a portion of a user interface, specifically a dropdown menu or a list of options. The menu items are arranged vertically, and one item is highlighted with a blue background, indicating selection or focus.
+  
+  ### Key Elements
+  - **Visual description**: The menu items are rectangular with rounded corners.
+  - **Location**: The items are aligned vertically down the left side of the image.
+  - **Contents**: 
+      - "Capsule New" is highlighted with a blue background.
+      - Other items include "Ramp," "Half Tube," "Faceted Cylinder," "Torus B," and "Cube Soft."
+  - **Visual styling**: The background is dark gray, and the text is white. The highlighted item has a black background with white text.
+  
+  ### Visual Flow / Relationships
+  - The most prominent visual element is the highlighted "Capsule New" option.
+  - There are no arrows or lines connecting the elements, but the vertical arrangement implies a sequential reading order.
+  - Elements are adjacent to each other horizontally within their respective rows.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Press Enter or unfocus the text input to save.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452694614_512527124618577_9191890227449134237_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=V8v07gelsPMQ7kNvwHhBxnK&_nc_oc=AdlBPxiqr2B8dApTlqcbFX48yWb0O5430Bbag_Pgx-vyh_-oJvGdyU30Gk827c6kZKwkkOayA1Eo9YGbPD8y9_yI&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=rxYo4Teaz-npkkm2S1GcRQ&oh=00_Afnh5Cymg0YeT3_x3jPRHidHj2d8BzFpVeWMZmtpQYTZFg&oe=69556E38)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/9f424bc746dc74b78130a644b8cf2b4ffc5e39a64513e71ee6705568f94f7ed1.md)
+  
+  ### Overview
+  This image depicts a dropdown menu or a list of options within a user interface. The menu items are arranged vertically, and one item is highlighted, indicating selection or focus.
+  
+  ### Key Elements
+  - **Visual description**: The menu items are represented as icons followed by text labels.
+  - **Location**: The elements are aligned vertically down the left side of the image.
+  - **Contents**: 
+      - **Ramp**
+      - **Half Tube**
+      - **Faceted Cylinder**
+      - **Capsule New** (highlighted)
+      - **Torus B**
+      - **Cube Soft**
+  - **Visual styling**: The background is dark gray, and the text is white. The highlighted item has a blue background with a white border.
+  
+  ### Visual Flow / Relationships
+  - The most prominent visual element is the **Capsule New** option, which is highlighted.
+  - There are no arrows or lines connecting the elements, but the vertical arrangement implies a sequential reading order from top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  

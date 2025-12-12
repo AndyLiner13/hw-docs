@@ -4,7 +4,30 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 The trigger zone [gizmo](About%20gizmos.md) triggers an event when you enter or exit a specified area.
 
-![Trigger zone gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578801646_863563276181625_6970024535789345268_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=WO8cPi1ueAAQ7kNvwED0aOA&_nc_oc=AdnYBGEckzqMD3A27PNwl0ogB_MbXHNkp-CzDQVsbNiR-oHFyvqRnRcHOCCu6uBDFVxCKOt7sKSLyJsPKbtg8Gex&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=J3EM9kAORjsWFMFP1vegBQ&oh=00_AfmsydCvTi0rsYDNy5AZo7miYtnT_HfFnnA7UV3HJR8Ejg&oe=6955A05B)
+<details>
+<summary>Trigger zone gizmo</summary>
+
+<p></p>
+
+[Trigger zone gizmo](../image_data/6b6314a1a99fce3a389f8f9607f4bd0b42d420d3f2435998d51a80ac30fcb446.md)
+
+### Overview
+This image depicts a user interface from a 3D modeling or game development software. The main focus is on a 3D cube model displayed in a viewport, with various tools and settings above it. The interface includes tabs for different functionalities such as "Trigger Zone," "Avatars," "Media," "Effects," and "Environment."
+
+### Key Elements
+- **Top Bar**: Contains multiple icons and tabs. The "Trigger Zone" tab is highlighted, indicating it is currently active. The icons include a target, a wrench, a play button, and others that likely represent different functions within the software.
+- **Viewport**: Shows a 3D cube model with a grid background. The cube has a blue outline and green faces, suggesting it can be manipulated in 3D space.
+- **Settings Panel**: Located below the top bar, it includes fields for "# 1," "10°," and "10%." These likely represent parameters related to the current selection or object being edited.
+- **Cube Model**: A transparent cube with a blue outline is centered in the viewport. It has a red dot at its center, possibly indicating the origin point or a specific point of interest within the cube.
+
+### Visual Flow / Relationships
+The most prominent visual element is the 3D cube model in the viewport. The interface is structured with a clear top bar for navigation and a settings panel for parameter adjustments. The cube model is centrally located, drawing attention to its geometry and orientation.
+
+</details>
+
+<p></p>
+
+
 
 ## Use the trigger zone gizmo
 

@@ -4,25 +4,118 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 You can click the play button to enter preview mode.
 
-![The Play button](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/512705931_751449550726332_5770995378625805736_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=YoI9orLU19kQ7kNvwGyPOiN&_nc_oc=AdlT1hG3q2mdOdUtClHo1LeBwnwFY3aqzlZPBLmAKKkHVv8buJ76iWFlCQJEJbbnRXyrZ4Ea87lO58Hsi4il_RUg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_AflGg5mqMGuOfuoWgOfIB-WFzbY_CmeeBvqpLgwDXgAaiA&oe=695585B1)
+<details>
+<summary>The Play button</summary>
+
+<p></p>
+
+[The Play button](../../image_data/0a952a4e5f265c688cedf87c5bfd45ca5b25b50924c3b009d85aff7d66989256.md)
+
+### Overview
+This image depicts a user interface element consisting of a play button icon within a red square, alongside a gray square and a vertical ellipsis menu icon.
+
+### Key Elements
+- **Play Button Icon**: A black triangle pointing right, located within a red square at the top-left corner.
+- **Gray Square**: A small gray square positioned to the right of the play button icon.
+- **Ellipsis Menu Icon**: Three vertically aligned dots, located further to the right of the gray square.
+
+### Visual Flow / Relationships
+The most prominent visual element is the play button icon due to its larger size and distinct red square. The gray square and ellipsis menu icon are secondary elements placed to the right of the play button icon. There are no arrows or lines connecting these elements, suggesting a simple horizontal arrangement.
+
+</details>
+
+<p></p>
+
+
 
 When you enter preview mode, you will start at your world’s spawn point. If an avatar is present, you can move it around a bit using the arrow keys to get a feel for how your users will experience your world. You can also change the direction the avatar faces using your mouse.
 
 **Note**: The avatar displayed in the playtest will probably be your own personal avatar. In the actual game, the avatar of the user will be used.
 
-![Moving your avatar around the scene.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480259231_670883478782940_1923663298810362210_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=OMUuBEC__k0Q7kNvwGvRKJ1&_nc_oc=AdlGgm5lcUPfyq5m5t18tDvqrTkYADKQ_0LyujhIBN1HTcuoCctYygW1WqxCBJDvsOh2pLN0z6jXcLJyXhB6529c&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_AfkxVOtwbhHUDnTJ7CRhAx8btRvrPSfBCvse521JnZy-Ug&oe=695593E9)
+<details>
+<summary>Moving your avatar around the scene.</summary>
+
+<p></p>
+
+[Moving your avatar around the scene.](../../image_data/e7a8f5b4a65a8350f97aef1a2f42feac042bd49b72698dcc835a5cbc603408c0.md)
+
+### Overview
+The image depicts a virtual environment resembling a graveyard at dusk or night, with a character standing in the foreground facing away from the viewer. The setting includes tombstones, a stone wall, and a carved pumpkin, contributing to a Halloween theme. The sky has a gradient of purple hues, and the overall atmosphere is eerie and spooky.
+
+### Key Elements
+- **Character**: A figure with red hair, wearing a brown sweater and gray pants, stands facing away from the viewer towards the tombstones.
+- **Tombstones**: Several green-topped tombstones are arranged in a row in the middle ground.
+- **Stone Wall**: A large stone wall occupies the left side of the image, with a wooden crate placed against it.
+- **Pumpkin**: A carved pumpkin with a jack-o'-lantern face is located near the right side of the image, slightly in front of the stone wall.
+- **Background**: The background features a dark, foggy sky with a gradient of purple hues, and silhouettes of bare trees and a small house with a chimney are visible in the distance.
+
+### Visual Flow / Relationships
+The most prominent visual element is the character, as they are the focal point of the scene. The tombstones form a secondary line of interest, leading the eye towards the background. The stone wall and pumpkin add depth and context to the setting. There are no explicit arrows or lines connecting elements, but the arrangement suggests a natural flow from the character forward through the tombstones to the distant background.
+
+</details>
+
+<p></p>
+
+
 
 ## Configuring your preview
 
 You can also configure aspects of the preview mode using the preview mode **Settings** button.
 
-![The Preview Settings options](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506447993_741373301733957_9056966089980730970_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=IFS35Z0MCF0Q7kNvwE2zqMC&_nc_oc=AdlfAzrSAJmOQWM3nkPZuML9Vg0uqNvNA_ahrY30MUh_PuWbwMq5uaPtTlABnMAI7PBLMLR-JgeqdQqED7f435N6&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_AfmElc85YvvY2Myg5PQSoMmrWxzwEFr2Yx7QiiFImOnaag&oe=695572CD)
+<details>
+<summary>The Preview Settings options</summary>
+
+<p></p>
+
+[The Preview Settings options](../../image_data/9fc274fa177fa4a8ae9a28281337cc9fece66ab55210f643bb41df300caf461a.md)
+
+### Overview
+This image depicts a user interface section labeled "Preview Configuration." It includes toggle switches, dropdown menus, and buttons within a dark-themed interface. The layout is structured with options grouped into sections, and there are interactive elements such as buttons at the bottom.
+
+### Key Elements
+- **Toggle Switches**: Located under "Auto-start simulation on Preview entry" and "Auto-stop simulation on Preview exit," both toggles are in the 'on' position, indicated by the blue background and white checkmark.
+- **Dropdown Menu**: Positioned next to "Preview device," showing "None" as the current selection.
+- **Checkbox**: Located under "UI safe zone overlay," which is unchecked.
+- **Buttons**: At the bottom, there are three circular buttons with arrows, likely for preview actions, but no text is visible on them.
+- **Menu Icon**: A blue menu icon with three vertical dots is located at the top-left corner of the interface.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the toggle switches due to their size and placement. The dropdown menu and checkbox are secondary elements, and the buttons at the bottom are tertiary elements. There are no arrows or lines connecting elements, suggesting a linear reading order moving from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 ### Auto-stop and Auto-start
 
 You can configure when world simulation automatically starts and ends. This allows you to begin editing your world right away after switching out of preview mode.
 
-![The auto-start and auto-stop options](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/506467730_741373325067288_496271156028909332_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=yFDyA0YJVA0Q7kNvwF6sXkI&_nc_oc=AdlrPElW-JvRD6lOV_5r1IXRq1jUxASFUhZiA7tGjy8NtZPxsH77TMj9GuoKvUxBeu5J5zeS5SAQ-SSQQJSU5hwR&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_Afn6sPedGyp6r7G1B-u6JLcAWpv_PeanCY6pD_3tW379Jg&oe=6955987B)
+<details>
+<summary>The auto-start and auto-stop options</summary>
+
+<p></p>
+
+[The auto-start and auto-stop options](../../image_data/5183b6635d10f99e7c17c71909205ab3dffe5d061456328706ee8910f131254a.md)
+
+### Overview
+This image displays a settings interface with two toggle switches related to simulation behavior during preview mode. The layout is simple, with options listed vertically against a dark background.
+
+### Key Elements
+- **Toggle Switch 1**: Located in the right column under the first option labeled "Auto-start simulation on Preview entry." It has a blue background with a white circle indicating the current state.
+- **Toggle Switch 2**: Positioned similarly to Toggle Switch 1 but under the second option labeled "Auto-stop simulation on Preview exit." It also has a blue background with a white circle.
+- **Option Labels**: Both options have labels in white text on a dark background.
+- **Background**: A solid dark gray/black color fills the entire background.
+
+### Visual Flow / Relationships
+The visual hierarchy is straightforward, with the toggle switches being the most prominent elements due to their size and placement. There are no arrows or lines connecting the elements, suggesting a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 You can:
 
@@ -45,25 +138,152 @@ These auto-start and auto-stop settings persist across different worlds and sess
 
 By default, when you preview your world, you’ll see it in the desktop editor. However, you can choose a different device for the preview if you choose. For example, you can choose to preview for Mobile, which adjusts the viewport and other characteristics of the previewing. Options are available the **Preview Configuration** panel:
 
-![Preview device configuration menu](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506400981_741373318400622_1554998207546703014_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=kgJyfydqeGIQ7kNvwG6ohvb&_nc_oc=AdniYjDvT8s-hEOOkLfY5ceKeI8izDrni-Stj86R8RSsbgPYz8ed0Hv3a1eSCnQ71O8ZprTHwOC1MdLt5cUPSLcD&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_AflEkjFZn405a3WsNB7kM9OTEapj8zSojz8ao7FP4ZdNYA&oe=69557263)
+<details>
+<summary>Preview device configuration menu</summary>
+
+<p></p>
+
+[Preview device configuration menu](../../image_data/512d96fe3f2b63297376eb8f4d7ce53b8ab756d325032fd8cbf25705dfa16ccf.md)
+
+### Overview
+This image depicts a user interface section with two settings options displayed against a dark background. The layout includes a label followed by a toggle switch and a dropdown menu.
+
+### Key Elements
+- **Preview device**: Located at the top-left corner, this label indicates a setting related to selecting a preview device.
+- **Dropdown menu**: Positioned to the right of the "Preview device" label, it contains the word "None" and a downward-facing arrow, suggesting a dropdown selection.
+- **UI safe zone overlay**: Found below the "Preview device" label, this option has a label indicating a setting for an "UI safe zone overlay."
+- **Toggle switch**: Situated next to the "UI safe zone overlay" label, it is a white square with a black border, indicating a binary choice setting.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the labels and the toggle switch. The dropdown menu is less prominent but still noticeable due to its distinct shape and placement. The toggle switch is adjacent to the "UI safe zone overlay" label, implying that this setting is related to the overlay feature.
+
+</details>
+
+<p></p>
+
+
 
 You have the following preview device configuration options:
 
 * **Preview device**: Select the type of device for which you are previewing. Select the desired device from the drop-down list.
 
-  ![Preview device selection](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/506400093_741373328400621_2502151585104254728_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=L47VVFvfClIQ7kNvwHGyvw7&_nc_oc=AdnS6_b9U3jlqglw6T3SJdfiA0Z0RDLBHPeEHxQhIPAw_ti9t77BkePXJAJIe55vajDYX1vWzoQoR5CTvS6xU9RF&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_Afl5wo-MHYZyB4RDIkYJ4D-wek-1K9ml4erdJPhyTCjriA&oe=69557950)
+  <details>
+  <summary>Preview device selection</summary>
+  
+  <p></p>
+  
+  [Preview device selection](../../image_data/b905d2df7ebd07126397d9137ef29bbe82447352cbb71a9c57906eca32dd2501.md)
+  
+  ### Overview
+  This image depicts a dropdown menu interface element with a list of options. The menu is open, revealing three items: "Mobile," "Web," and "None." The "None" option is currently selected, indicated by a checkmark next to it.
+  
+  ### Key Elements
+  - **Visual description**: A dropdown menu with a dark background and light-colored text.
+  - **Location**: Top-left corner of the image.
+  - **Contents**: 
+    - "Mobile" (text only)
+    - "Web" (text only)
+    - "None" (text with a checkmark)
+  - **Visual styling**: Dark gray background, white/light gray text, and a subtle drop shadow under the selected item.
+  
+  ### Visual Flow / Relationships
+  - Most prominent visually: The selected "None" option.
+  - Arrows or lines: None visible.
+  - Spatial relationships: Items are arranged vertically, with the selected item at the bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
   **Note**: You must publish your world at least once before you can preview on web or mobile.
 * **Device model**: This is only visible with the **Preview device** option set to **mobile**. This allows you to simulate the look of an Android or iOS phone during preview mode which features common screen blocking elements such as rounded corners and a camera hole-punch or island.
 
-  ![Preview device model selection](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/557896402_835702875634332_2722894868533961222_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=LtX2qEHOfvQQ7kNvwH_FORK&_nc_oc=Adl9y4RDtPbHZGnBpXETuHm9N-ZKdybsE8XT_x0VBg7QCLCPCKH0w7wH4NzS0u-kWO0sTZ7tJxB6nzTbLGdNSINz&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_AfkyZdTmP0w7UZrHrjFpPbBv6sozUI-PKBOIqoCCn1-g_A&oe=69559198)
+  <details>
+  <summary>Preview device model selection</summary>
+  
+  <p></p>
+  
+  [Preview device model selection](../../image_data/4827ca299b58689b08878aec801a1810da7356f5daab98508c0b49bf02953be7.md)
+  
+  ### Overview
+  This image depicts a dropdown menu interface element within a user interface, likely part of a settings or configuration screen. The dropdown is open, revealing a list of options related to device models.
+  
+  ### Key Elements
+  - **Dropdown Menu**: Located centrally, with a dark gray background and white text. The selected option is highlighted with a checkmark.
+    - **Contents**: Contains the text "Samsung Galaxy S25" with a downward-facing arrow indicating that more options are available when expanded.
+  - **Options List**: Below the dropdown, the list includes:
+    - **Apple iPhone 15**
+    - **Samsung Galaxy S25** (selected, indicated by a checkmark next to it)
+    - **None**
+  - **Background**: The surrounding area has a dark gray background with lighter gray panels for the settings options above the dropdown.
+  
+  ### Visual Flow / Relationships
+  The dropdown is the most prominent visual element due to its central placement and the checkmark indicating selection. The options list is arranged vertically beneath the dropdown, with clear separation between items. There are no arrows or lines connecting elements, suggesting a straightforward reading order from top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * **Preview orientation**: Select the device orientation you wish to use when previewing your world. You can choose between landscape or portrait.
 
-  ![Preview orientation selection](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/557793137_835702878967665_7227064071621298799_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=mofqzm23_ZUQ7kNvwHqgwgF&_nc_oc=Adm5M-ilcd_UhgKSxNmDw7WEDi5eUNUpte7Wsff9Oa87-gI65ZWlkIKjQjnIwd6Onl6r1uWFuIn2tQGZZXUaFxZ5&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_AflQo-vye9BeN7pzoiDV-dgDXUeX_y3yxjcfeBCNjt0RJQ&oe=695589AE)
+  <details>
+  <summary>Preview orientation selection</summary>
+  
+  <p></p>
+  
+  [Preview orientation selection](../../image_data/61cb188470763f2aa5582e05487ef4e3d8fa54fdced3e69e12788bd7ea9fc60b.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a dropdown menu with options for selecting orientation ("Landscape" and "Portrait") within a larger interface that includes other settings such as "Preview orientation" and "Fit viewport."
+  
+  ### Key Elements
+  - **Dropdown Menu**: Located on the right side of the image, with a dark gray background and white text. The menu has a downward-facing arrow indicating it can be expanded.
+  - **Options**: Two options are visible under the dropdown menu:
+    - **Landscape**: Highlighted with a checkmark next to it, suggesting it is currently selected.
+    - **Portrait**: Unselected option listed below "Landscape."
+  - **Background**: The surrounding area is a dark gray, likely representing a sidebar or a menu area.
+  - **Text**: The text "Landscape" and "Portrait" are clearly visible in white font against the dark gray background.
+  - **Other Interface Elements**: To the left, there are additional settings labeled "Preview orientation" and "Fit viewport," which appear to be part of the same interface but are not directly related to the dropdown menu.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the dropdown menu itself, as it is the focal point of the image. The options within the dropdown are arranged vertically, with the selected option ("Landscape") being emphasized by the checkmark. There are no arrows or lines connecting elements, so the relationship is purely hierarchical, with the dropdown menu being the primary interactive element.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * **UI safe zone overlay**: When enabled, an overlay is displayed in the preview to indicate safe zones on the screen, which appear across all publishing platforms.
 * **Preview actions**: There are three options for previewing your world for web or mobile.
 
-  ![Preview actions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/506400109_741373321733955_71673718152800444_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=fR_7nKQtwPIQ7kNvwGFNgNh&_nc_oc=Adm-0pox7ztCEvre5VFr6d5BNs4WPpQAXqdSdyty2tePmrifrb5Hsu_laaR9ghjniGktTz0L3hMY3TC46ioM401U&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_Afmy4FLXOIgKEHmQZShxVJnin3E0clOW5Qv27ezI7cBlZA&oe=69559816)
+  <details>
+  <summary>Preview actions</summary>
+  
+  <p></p>
+  
+  [Preview actions](../../image_data/10675bb738d369704344f8559aa3c9eebb6f3c3bf96f8de0e11375ca7b76e44f.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a set of actions labeled as "Preview actions." There are three circular icons arranged horizontally to the right of the label.
+  
+  ### Key Elements
+  - **Label ("Preview actions")**: Located at the top-left corner. The text is white against a dark background.
+  - **Circular Icons**: Positioned to the right of the label. Each icon has a white background with a black border.
+    - **First Icon**: A refresh symbol (a circle with an arrow pointing clockwise).
+    - **Second Icon**: A globe symbol (a circle with a line through it, indicating a toggle or switch).
+    - **Third Icon**: An icon resembling a person with a checkmark above their head, possibly indicating verification or approval.
+  
+  ### Visual Flow / Relationships
+  The label is the most prominent element due to its placement and larger font size. The circular icons follow in importance, arranged in a horizontal line. There are no arrows or lines connecting the elements, suggesting a simple, direct relationship where users can interact with these icons sequentially.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
   These options are:
 
@@ -89,7 +309,54 @@ In addition using the standard preview mode option, the desktop editor also prov
 
 - In your **Scene** panel, right-click and select **Preview from here**.
 
-  ![Preview from here](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/485039622_676518281552793_3948411784150592332_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=DcTyr8ER41MQ7kNvwHNcHBw&_nc_oc=Adl7FsxIdFblw3gBtiGHTMf_bYNKG3-CTBTFPbN4-VBDkr9D2SiLHsTbF4oM_I50i7PYw9gf0AtJEwh_QqE_yJcm&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_AfnEX_Ikn-HWsKkcfURvbZVXVYjBwL_apLrbPAAjylEsWA&oe=69558AFD)
+  <details>
+  <summary>Preview from here</summary>
+  
+  <p></p>
+  
+  [Preview from here](../../image_data/49aff7e63f7e69a0fde5bd9b4890860246aa957aa30f384e25ebeb6462c3dc7d.md)
+  
+  ### Overview
+  The image depicts a 3D modeling software interface showing a scene with a trophy placed on a pedestal. The environment includes a grassy area with some trees and flowers in the background. There are user interface elements at the top indicating various tools and settings.
+  
+  ### Key Elements
+  - **Trophy**: A golden trophy with a red base is centered on a pedestal.
+  - **Pedestal**: The trophy sits on a rectangular pedestal with a gray surface and white edges.
+  - **Background**: The background features a green landscape with hills, trees, and scattered flowers.
+  - **User Interface Elements**: At the top, there are icons for selection, rotation, and other editing tools. There are also dropdown menus labeled "Local" and "Pivot," numerical inputs for angle adjustments, and a scale indicator set to 100%.
+  - **Preview Text**: Below the pedestal, there is a black rectangle with white text that reads "> Preview from here."
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the trophy, which is centrally located. The user interface elements are arranged horizontally at the top. The preview text is positioned below the trophy, suggesting a focus on the object being modeled.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - You will enter into preview mode based on your current location. If your location is a non-traversable, non-collidable location such as the sky, then you’ll enter preview mode from your world’s spawn point.
 
-  ![Previewing your world from a specific location](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480807602_656400890231199_6870449552384031991_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=SLEvkI8jKvIQ7kNvwGEBb92&_nc_oc=AdmIXU8eMElPGYrARHksVoAW31vmE_4BsEMwI0osHGk6RuKEVXTfQVTzs5Cu8sGv4yvuZlOxPlR5jWROBKFASw35&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yI--YDvZ8fgY-f3aCq5yfg&oh=00_AfnpbmNrMFFJiQphJMqlQi_A9Ia_jmyUqqxHDQUfXjTdtQ&oe=695593ED)
+  <details>
+  <summary>Previewing your world from a specific location</summary>
+  
+  <p></p>
+  
+  [Previewing your world from a specific location](../../image_data/2bbdc6b8564c036bccc4f68257137713648c331d4afa156dc37bb5c1e4fb6da7.md)
+  
+  ### Overview
+  This image depicts a scene from a virtual environment, likely within a game or simulation software. The central focus is on a character standing in front of a trophy, which is placed on a pedestal. The environment includes a grassy landscape with some spherical objects resembling hills or large rocks, and a few stylized trees. The interface at the top suggests that this is being viewed through a digital drawing or modeling program.
+  
+  ### Key Elements
+  - **Character**: A figure with long dark hair, wearing a light-colored jacket and shorts, standing facing away from the viewer. The character is positioned slightly to the right of the center.
+  - **Trophy**: A golden trophy with a green glowing outline, placed on a white pedestal. It is located centrally in the image.
+  - **Background**: A simple, stylized landscape with green grass, a few stylized trees, and spherical objects resembling hills or rocks. The sky is a gradient of blue and white, suggesting a clear day.
+  - **Interface Elements**: At the top, there are various toolbars and options typical of a digital drawing or modeling program, such as "Local," "Pivot," and zoom controls.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the character and the trophy, which are the focal points of the scene. The character is positioned slightly to the right, while the trophy is centered. The background elements provide context but are less prominent. There are no arrows or lines connecting elements, and the reading order seems to follow a natural progression from the character to the trophy and then to the background.
+  
+  </details>
+  
+  <p></p>
+  
+  

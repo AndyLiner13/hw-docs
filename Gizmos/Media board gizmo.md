@@ -10,7 +10,33 @@ The media board [gizmo](About%20gizmos.md) allows you to display the top 30 phot
 
 Players in a world can react to media displayed on the media board with the **Like** button, which triggers a thumbs up emote. They can also share their own photos with the **Add post** button. The following image illustrates the description of the media board gizmo.
 
-![An screenshot of the media board gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452514566_512510187953604_8648481134651688436_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=JGqCZy0AowUQ7kNvwEFDUR2&_nc_oc=AdnVwopvA6oeaMwPuDkV1raC8XKLQMlreqsZYaBV7yn-IkLZ9xbrKuAKeQ371681KAmKLSt5eG-43V53C2Ffzw_Z&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=uO4cNhRmPomz8VjYwrePhQ&oh=00_Afm0wF5260jYEbNwg1XRnM0adsqcj24zSBauqfd0_P_siQ&oe=695579FD)
+<details>
+<summary>An screenshot of the media board gizmo</summary>
+
+<p></p>
+
+[An screenshot of the media board gizmo](../image_data/0810f8d83d2b5e4197909d82878810384696c0dbae69d3ef03ee95f9fdf23319.md)
+
+### Overview
+This image depicts a social media-style post featuring a virtual character in a stylized environment. The central focus is a 3D-rendered avatar standing in front of a futuristic backdrop. The interface includes interactive elements such as a like counter, a profile picture icon, and navigation arrows.
+
+### Key Elements
+- **Avatar**: A 3D character wearing a dark blue shirt and black pants, holding a large, metallic object resembling a trophy or award.
+- **Background**: A sci-fi setting with geometric structures, floating crystals, and a basketball hoop in the distance.
+- **Profile Picture Icon**: Located at the top-center, showing a circular icon with a green border and a white image of a camera.
+- **Like Counter**: Positioned at the bottom-right corner, displaying "72" likes.
+- **Navigation Arrows**: Blue circular arrows with white directional indicators are located at the bottom-left and bottom-right corners.
+- **Post Text**: At the bottom-left, "@Bobby_VR" and the caption "dressed to kill."
+- **Add Post Button**: A white button with a plus sign and the text "Add post" is situated at the bottom-center.
+
+### Visual Flow / Relationships
+The most prominent visual element is the avatar, which is centrally placed within the frame. The background elements are arranged around the avatar, creating a sense of depth. The like counter and navigation arrows are secondary elements that provide interaction points. The post text and add post button are positioned at the bottom, ensuring they are easily accessible.
+
+</details>
+
+<p></p>
+
+
 
 Each player sees a personalized set of 30 photos, selected from photos that are included in the approved world posts. Photos from others that the player follows and photos with a high **Like** count are prioritized for the media board.
 
@@ -50,7 +76,35 @@ Once you approve a photo, it becomes available on the media board and visible to
 - Pending posts have 3 buttons: **Approve**, **Reject**, and **Report**.
 - Select the **Approve** button to makes a photo visible on a media board.
 
-![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57568685_9616779308338433_7778029375936424794_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZdHN_eQcsPwQ7kNvwFK5CU6&_nc_oc=AdnDsdoVPQS-rgWUSKDG9K6DsbPyIKJnkvN3jezDkEoGIavEINF9XzMNwc8UqNM2vW4-w_Jv7gAgY4B_m_ozRiyR&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afnkmgy_ae8Ywkhu_4cXXmxADd8x8w8b4JclMCyFfC_Agg&oe=6955A136)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/44a65d7587c28eb7224e575ec4b83389aba502bc572e91382f8c7177fad39312.md)
+
+### Overview
+This image depicts a virtual environment interface, likely from a virtual reality or augmented reality application. The central focus is a floating window with a user interface layout, surrounded by avatars and interactive elements. The background features a stylized sky with clouds, suggesting an outdoor setting within the virtual space.
+
+### Key Elements
+- **Central Window**: Located in the center, this is the primary interface element. It has a light blue header with a close button (`×`) on the right side. Below the header, the title reads `"cliu2 test"` followed by some smaller text indicating user information and options.
+- **User Interface Buttons**: Within the central window, there are four rectangular buttons with icons and text. From left to right, the buttons read:
+  - `Message people`
+  - `Post & Feedback`
+  - `Settings`
+  - `Help & Support`
+- **Avatar Panel**: On the left side, there is a vertical panel containing an avatar of a person with a name tag below it. The name tag reads `"cliu2 test"` and includes a small icon next to it.
+- **Hand Gesture**: A hand gesture is visible at the bottom center, suggesting interaction with the interface.
+- **Right Panel**: On the far right, there is another vertical panel displaying a list of users with their avatars and names. This panel seems to represent a chat or social feed.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central window, which draws attention due to its larger size and central placement. The hand gesture suggests interactivity, implying that the user can engage with the interface. The avatar panels on both sides provide additional context about the user's interactions and connections within the virtual environment.
+
+</details>
+
+<p></p>
+
+
 
 Conversely, to remove a photo from the media board once it’s been approved, follow these steps to reject it from the approved posts.
 

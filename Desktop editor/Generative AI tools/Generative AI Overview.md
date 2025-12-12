@@ -24,9 +24,71 @@ The Gen AI panel features pre-made sample prompts that you can select to create 
 To open and use the Horizon desktop editor’s Generative AI tool, use the following process:
 
 - Select and open your world then click the Gen AI icon on the top toolbar to open the Gen AI panel.
-  ![Gen AI toolbar selector](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581938662_863563282848291_2344867213088467592_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=pjjalpVnKEMQ7kNvwEgH6wm&_nc_oc=Adke2wvEzkRebb1Mz2iRETaYL2DtHuzg4GBDghS8ufGpNVAI4QSqvx-0fqYJNAKeKaFxyg7UbbV0KRJu3AOiV7AF&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=BrRmp3ddW63O_LaChPJEVg&oh=00_Afktzw3ZVObdnRm4FtTPTLw363WsI8le5SRMYt-pvCZIdA&oe=69556B32)
+  <details>
+  <summary>Gen AI toolbar selector</summary>
+  
+  <p></p>
+  
+  [Gen AI toolbar selector](../../image_data/b9b6b6c0bd26e02fefc1f5f53f2c5a6736d5c460b21bc998718099202c757929.md)
+  
+  ### Overview
+  The image displays a user interface element within a software application. It features a navigation bar at the top with various menu options and a highlighted section labeled "Gen AI."
+  
+  ### Key Elements
+  - **Navigation Bar**: Located at the top of the image, spanning across the width of the screen.
+    - **Build**: Positioned second from the left.
+    - **Systems**: Positioned third from the left.
+    - **Preview**: Positioned fourth from the left.
+    - **Scripts**: Positioned fifth from the left.
+    - **Gen AI**: Highlighted with a red bounding box, positioned sixth from the left. Contains a small icon resembling a lightbulb and the text "Gen AI."
+  - **Hierarchy Panel**: Located below the navigation bar on the left side.
+    - **Icon**: A list icon is displayed next to the word "Hierarchy."
+    - **Text**: The word "Hierarchy" is written below the icon.
+  - **Local and Pivot Buttons**: Positioned on the right side of the image.
+    - **Local**: A button with a downward arrow indicating a dropdown menu.
+    - **Pivot**: Another button with a downward arrow indicating a dropdown menu.
+  - **Cursor**: A white arrow cursor is visible near the center-right of the image.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The "Gen AI" option is the most prominent due to its red bounding box highlighting.
+  - **Arrows and Lines**: There are no arrows or lines connecting elements.
+  - **Spatial Relationships**: Elements are arranged horizontally along the top bar, with the "Hierarchy" panel and buttons on the sides.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - The AI Creation Tool panel opens on the right side of the screen.
-  ![AI Creation panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/470671869_611458581392097_4829464275397483224_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qryY3imwvKgQ7kNvwFXnTRJ&_nc_oc=AdmGrAvXDNtr4OoGdTI8wuoeeiDxR9emCsB72ERbWkNVDBqj1uEIjVNF-dfI-nQKwm2UeitrfkIshScM9JjsRvNd&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=BrRmp3ddW63O_LaChPJEVg&oh=00_AfkyR2eC7LWsgQHM-FV9LmQ2m-q8FN7zVnVR425p6q4xmg&oe=69557A62)
+  <details>
+  <summary>AI Creation panel</summary>
+  
+  <p></p>
+  
+  [AI Creation panel](../../image_data/316126039c5d424fb7e13a6c7cc5f5dc53768bb0258a62709c6e808502df9151.md)
+  
+  ### Overview
+  The image displays a user interface for a tool called "Gen AI for Horizon Worlds." It features a welcome message at the top, followed by a prompt area with sample prompts listed below. There is also a model selection dropdown and a text input field at the bottom.
+  
+  ### Key Elements
+  - **Welcome Message**: Located at the top, centered. Contains the text: > "Welcome to Gen AI for Horizon Worlds. Get started by trying a sample prompt or writing your own."
+  - **Sample Prompts**: Three rectangular boxes below the welcome message, each containing a title and a brief description:
+    - **Cicadas**: > "Cicadas chirping in a field at night"
+    - **Waves**: > "Gentle waves at the beach"
+    - **Gears**: > "Metal gears turning slowly"
+  - **Move Entity**: A rectangular box with a description: > "Move the attached entity to a position on world start."
+  - **Change Player Speed**: Another rectangular box with a description: > "Change the speed of a player’s locomotion when they enter the world."
+  - **Model Selection**: A dropdown menu labeled "Model" with the current selection set to "Specialist."
+  - **Generate Input Field**: A text input field at the bottom with the placeholder text "> Respondo nly" and a cursor indicating active typing.
+  
+  ### Visual Flow / Relationships
+  The layout is structured with the welcome message at the top, followed by the sample prompts arranged vertically. The "Move Entity" and "Change Player Speed" options are positioned below the prompts. The model selection dropdown is placed above the generate input field. The input field is the most prominent element at the bottom, drawing attention due to its active cursor.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 With the creation panel open, you can generate either typescript or audio for your selected world.
 
@@ -38,11 +100,61 @@ Once you’ve generated content using the Gen AI tool you can start a new chat o
 
 With the Gen AI panel open select the pencil icon to start a new chat. This can only be selected when you’ve already started generating content.
 
-![Gen AI panel new chat icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476850671_651374570733831_2051486668962484572_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=IUEVSrFpnh8Q7kNvwH7r3-V&_nc_oc=AdnKM5yukDQc1NvVhpXLcwCBKqPHmjXhFsuMtko7dEIzpGOdJ_vNxrG0y7G5JiLsk5awqmZo4mHrpBkVK3xCwv2-&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=BrRmp3ddW63O_LaChPJEVg&oh=00_AfkV5Zul8uIYqexdQ5jgzXmEpmNWU29eh-5PDxax0SOmrg&oe=695591A7)
+<details>
+<summary>Gen AI panel new chat icon</summary>
+
+<p></p>
+
+[Gen AI panel new chat icon](../../image_data/0fc0f1280b49ecf5f374193e81ebd6e24f560396014ec6cd35ebad9e71f43ba3.md)
+
+### Overview
+This image depicts a user interface element from a chat application, specifically a "New Chat" button. The interface includes a "Gen AI BETA" indicator at the top, suggesting a feature related to artificial intelligence in beta testing phase.
+
+### Key Elements
+- **Top Left Corner**: Contains the text "Gen AI BETA". The word "BETA" is enclosed in a green oval.
+- **Left Panel**: A vertical menu icon resembling three horizontal lines stacked vertically.
+- **Center**: A gray square containing a white pencil icon, indicating a new message or edit functionality.
+- **Below Center**: A button labeled "New Chat".
+
+### Visual Flow / Relationships
+The most prominent visual element is the "New Chat" button, which is centrally located below the "Gen AI BETA" indicator. The pencil icon within the gray square is adjacent to the "New Chat" button, suggesting a connection between creating a new chat and editing or starting a conversation.
+
+</details>
+
+<p></p>
+
+
 
 To view previous conversations select the **Open chat history** button, then select a previous conversation from the list.
 
-![Gen AI panel chat history window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/477468586_651374550733833_2753780227460932468_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=syUV4sys_c4Q7kNvwGOv-fy&_nc_oc=Adltr6eQDE8X8BQasW8Xe7iNHAs2YJoxxwgn9Tp4zeZTaf1w9enxu7hsv6LpwIZxEasxXQKVE7mz_vcAOFBZybxE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=BrRmp3ddW63O_LaChPJEVg&oh=00_AfkfmQuyw5l5Zs9jPUEJQw2SQdJGG5XQaRyuAGZU1B-ldg&oe=69558E39)
+<details>
+<summary>Gen AI panel chat history window</summary>
+
+<p></p>
+
+[Gen AI panel chat history window](../../image_data/290d22f70c3cf8ce8ca7e97c4cdcd7736e988bec30292f12ae3bc90b54b32d77.md)
+
+### Overview
+This image depicts a screenshot of a user interface showing a list of past conversations or topics. The layout is structured with timestamps indicating when each conversation was last accessed or created. The interface includes a header with a "BETA" tag and a menu icon.
+
+### Key Elements
+- **Header**: Located at the top-left corner. Contains the text "Gen AI BETA" with a green "BETA" badge next to it. There is also a close button ("X") on the far right.
+- **Menu Icon**: Positioned to the left of the "BETA" badge, resembling a hamburger menu icon.
+- **Close Button**: Located to the far right of the header.
+- **Conversation List**: Below the header, there are three entries listed vertically.
+  - **First Entry**: "Speed Boost Conversation" dated "1 DAY AGO". It has a checkmark next to it.
+  - **Second Entry**: "Nighttime Cicada Chirping in a Field Conversation" dated "6 DAYS AGO".
+  - **Third Entry**: "Cicada Serenade: Nighttime Field Sounds" dated "1 WEEK AGO".
+  - **Fourth Entry**: "Entity Positioning on World Start" dated "1 WEEK AGO".
+
+### Visual Flow / Relationships
+The visual hierarchy is clear with the header at the top, followed by the conversation list. Each entry is separated by a horizontal line. The checkmark next to the first entry suggests it might be marked as completed or important.
+
+</details>
+
+<p></p>
+
+
 
 You can also delete previous conversations from this list by hovering over an entry, then clicking the trash icon.
 

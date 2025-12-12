@@ -35,7 +35,35 @@ You use the Desktop Editor to edit worlds, adding content and scripts to build o
 
 ### Publishing and Player Settings
 
-**Publishing**![Image shows the publish world window with a message stating that a genre tag must be selected](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480830190_656797526858202_6486575020987318744_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=yEY43TD2LVkQ7kNvwFOcVOS&_nc_oc=Adk5419SPKqHBU7s7ZZMaiwCfJjdcx1QNqbl7BOsIC46cG36kkvn4cjjQe3LmxHw9kSZrJib9EUX3G-oO-0PRcGl&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afk7K_lNMLrXjxWCPJHpjr8zz0DP06pWWA9OiVPcLQJdfg&oe=69557076)
+**Publishing**<details>
+              <summary>Image shows the publish world window with a message stating that a genre tag must be selected</summary>
+              
+              <p></p>
+              
+              [Image shows the publish world window with a message stating that a genre tag must be selected](../../image_data/ea7236264ea75954b67f9df4287286d3754bffb7e1a37392179449842f4ddefb.md)
+              
+              ### Overview
+              This image depicts a user interface for publishing a world, likely within a platform that allows users to create and share virtual worlds. The interface includes fields for entering world details such as name, description, tags, and settings related to visibility and accessibility.
+              
+              ### Key Elements
+              - **World Status**: Located at the top left, indicating the current status as "Unpublished."
+              - **Name Field**: Positioned below the World Status, with the placeholder text "Gizmos" entered into it.
+              - **Description Text Area**: Below the Name field, containing the prompt "What can people do in your world?" with a character limit indicator showing "6/60."
+              - **World Rating Section**: Includes a rating option labeled "NOT_RATED" with a dropdown arrow suggesting more options.
+              - **Comfort Rating Section**: Similar to the World Rating, with a dropdown arrow next to "NOT_RATED."
+              - **Tags Section**: Contains a button labeled "Add tags," indicating where users can add genre tags.
+              - **Genre Tag Error Message**: A red highlighted box with the message "Choose at least one genre tag."
+              - **Visibility Settings**: Options include "Visible to Public," "Members-Only World," "Beta World," and "Available Through Web and Mobile." Each has a toggle switch next to it.
+              - **Publish Button**: Located at the bottom right, with the label "Publish."
+              
+              ### Visual Flow / Relationships
+              The interface is structured in a linear fashion, guiding the user through various inputs before publication. The error message is prominently displayed, drawing attention to the missing genre tag requirement. The layout is clean and organized, with clear sections for different types of information.
+              
+              </details>
+              
+              <p></p>
+              
+              
 
 | Field | Description |
 | --- | --- |
@@ -207,7 +235,42 @@ The Editor Instance
 
 There is only ever (at most) one **editor instance** of a given world. When that one instance is full, no other editors can load the world to edit.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849720_656797523524869_5636069937135617719_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=-YWtwSoz3B8Q7kNvwGkng4L&_nc_oc=AdkjpCDXymySVrcJdZPzHfgTfKhA0fLH-H2yDGcg-sQEnX6PEB82tfL5MCWkonrtRYGUGti1TiDTNH0Dh0gOeE6e&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfnjbY9WppIHKOBrsI5nFY1OUuIGq2IsqYovNTbRP1sd5w&oe=695575CC)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/f9386346235b28d18a283124ed0ecfaf48879f1ff17cadc59ba68234928eb134.md)
+
+### Overview
+This image depicts a flowchart-style diagram with decision points and pathways leading to various outcomes. The chart is designed to guide through a process related to travel initiation and instance availability.
+
+### Key Elements
+- **Central Question**: "How was travel initiated?" This is the starting point of the flowchart.
+- **Decision Points**:
+  - **Left Path**: "Is the Editor Instance available?"
+    - **Sub-question**: "Is the instance they are in available?"
+      - **Outcome**: "Existing Published Instance"
+    - **Outcome**: "Failed to Travel"
+  - **Middle Path**: "Travel to other Player"
+    - **Sub-question**: "Is the instance they are in available?"
+      - **Outcome**: "Existing Published Instance"
+  - **Right Path**: "Visit World button, link, or door"
+    - **Sub-question**: "Is there an available instance?"
+      - **Outcome**: "New Published Instance"
+- **End States**:
+  - **Left End**: "Editor Instance"
+  - **Middle End**: "Failed to Travel"
+  - **Right End**: "New Published Instance"
+
+### Visual Flow / Relationships
+The flowchart uses arrows to indicate the progression of decisions and outcomes. The central question branches into three paths, each leading to specific end states. The paths are visually distinct but follow a logical sequence based on the availability of instances.
+
+</details>
+
+<p></p>
+
+
 
 ### Travel, Doors, and Links
 
@@ -300,7 +363,32 @@ They **behave differently with the [projectile launcher](Meta%20Horizon%20Worlds
 
 **Left-handed**. The coordinate system is *left-handed*, meaning that if you position the camera so that the positive y-axis is pointing up and the positive x-axis is pointing right then the positive z-axis points forward.
 
-![Diagram showing coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481024720_656797420191546_2462169612641144284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bzHTtiC7Rp8Q7kNvwGukDn4&_nc_oc=AdlwcORPdOTpkq74NK0iZ7MzpSuUoYiRjE-uMioFLWFwrRxqsBcsqGBON-XBtQsEjjYWXBAq3Q0V8zcm58nge5Tq&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afll9zsw65f6Lsoqg8dvu1uHhVVnLWzAB4v5b3jDIlbLLw&oe=69557AC7)
+<details>
+<summary>Diagram showing coordinate system</summary>
+
+<p></p>
+
+[Diagram showing coordinate system](../../image_data/fbd88914b9707966a54ac5b199e304f3883c6f502474c775fe356f1ac5323ec4.md)
+
+### Overview
+The image depicts a simple geometric representation of a coordinate system. It includes three axes labeled X, Y, and Z, each represented by a directional arrow.
+
+### Key Elements
+- **X-axis**: A red arrow pointing right, labeled 'X' in red.
+- **Y-axis**: A green arrow pointing upwards, labeled 'Y' in green.
+- **Z-axis**: A blue arrow pointing diagonally towards the upper right, labeled 'Z' in blue.
+- **Origin**: A black dot at the intersection of the X, Y, and Z axes.
+
+### Visual Flow / Relationships
+- The most prominent visual elements are the arrows representing the axes.
+- There are no arrows connecting the axes, but the arrangement implies a relationship where the axes intersect at a single point.
+- The spatial relationship is linear, with the axes extending outward from the origin.
+
+</details>
+
+<p></p>
+
+
 
 #### Local coordinates
 
@@ -310,7 +398,32 @@ Every [entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) and every
 
 The *forward* axis of *a player head* is always pointing away from their face (parallel to their nose), its *right* axis is always point “outward” their right ear, and its *up* axis is pointing out from the top of the skull. When the entity or player body part moves, the origin of these axes move; likewise the axes rotate along with the entity (so that the *right* axis always points out from the right ear).
 
-![Example of coordinate system](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480611159_656797476858207_8234151886777029936_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZPcekiwEB2EQ7kNvwFPle3M&_nc_oc=AdkkR_Ncnl1AHgHU-Qy_jHzDnPNyab5snY2GgQ-mMQQEqaN9a4wzVce0vzRw0uE4dOER_M2MDpFnCkr-ZscVDeyM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afnn4m6GKD1QSjtvX0q3C5qmqw17YrtEfRA4Da10n2wfFg&oe=695572CF)
+<details>
+<summary>Example of coordinate system</summary>
+
+<p></p>
+
+[Example of coordinate system](../../image_data/a1903a404680ce8ea91dc49eb7262f9785ebc7f304ab5327875ee0b9429a8d67.md)
+
+### Overview
+The image depicts a simple diagram illustrating directional vectors emanating from a cube. The cube is at the bottom left, and three arrows point upwards, forward, and rightward, each labeled with a direction.
+
+### Key Elements
+- **Cube**: A black-outlined cube located at the bottom-left corner.
+- **Green Arrow ("up")**: Points upwards from the cube. It has a green arrowhead and is labeled "up" in green text above it.
+- **Blue Arrow ("forward")**: Points diagonally upwards and to the right from the cube. It has a blue arrowhead and is labeled "forward" in blue text near its midpoint.
+- **Red Arrow ("right")**: Points horizontally to the right from the cube. It has a red arrowhead and is labeled "right" in red text to its right.
+
+### Visual Flow / Relationships
+- The most prominent visual is the cube as the starting point for the arrows.
+- Arrows are arranged in a triangular formation around the cube, suggesting a coordinate system or directional reference frame.
+- The arrows are connected to the cube but do not overlap, maintaining clear separation.
+
+</details>
+
+<p></p>
+
+
 
 **Meters**. Distances and positions in Horizon are referenced using meters. For example, the position `(0, 1, 0)` is 1 meter (roughly 3.28 feet) up from the center of the world. Avatars in Horizon are approximately 1.8 meter tall (5 feet 11 inches).
 
@@ -1406,7 +1519,56 @@ The **return type** of the `raycast` method is `RaycastHit | null`. The result i
 
 Here’s the algorithm that is used (it is [tag bubbling](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tag-bubbling)):
 
-![Entity tag bubbling algorithm diagram.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480737365_656797466858208_6408611987938000829_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=mNhI17sPvTgQ7kNvwHAcyY4&_nc_oc=AdnG7xnNV7wKwRNtCJcuTZY0OtDfQATknF-C2n21cF71o3L-jm2Mj55kzOhRQ9L1hFRD0WC3F-RYH3yWao1eJXyG&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afk7AArhhYXNEA-wCeeTMWeOoLjJtH2rsafb_gyGtjYJlg&oe=695591EA)
+<details>
+<summary>Entity tag bubbling algorithm diagram.</summary>
+
+<p></p>
+
+[Entity tag bubbling algorithm diagram.](../../image_data/43bbb9093647d618b666e28111bb16056388fd4a79884e291c2e292bfb1d3bcf.md)
+
+### Overview
+This image depicts a decision-making flowchart with a series of questions and corresponding outcomes. The flowchart uses rounded rectangles for questions and circles for outcomes, with arrows indicating the flow of logic.
+
+### Key Elements
+- **Top Question**: "What is the collider that was hit associated with?" 
+  - **Location**: Top-center.
+  - **Contents**: "What is the collider that was hit associated with?"
+  - **Visual styling**: Purple background, white text.
+- **Branching Questions**:
+  - **Left Branch**: "Does it have the right tag?"
+    - **Location**: Below the top question, left side.
+    - **Contents**: "Does it have the right tag?"
+    - **Visual styling**: Purple background, white text.
+  - **Right Branch**: "Does it have a parent?"
+    - **Location**: Below the top question, right side.
+    - **Contents**: "Does it have a parent?"
+    - **Visual styling**: Purple background, white text.
+- **Outcomes**:
+  - **Left Outcome**: "return Entity with the entity"
+    - **Location**: Bottom-left.
+    - **Contents**: "return Entity with the entity"
+    - **Visual styling**: Light green circle, white text.
+  - **Right Outcome**: "Shift focus to the parent"
+    - **Location**: Bottom-right.
+    - **Contents**: "Shift focus to the parent"
+    - **Visual styling**: Light orange rectangle, black text.
+  - **Right Outcome**: "return Player with the player"
+    - **Location**: Right side, near the top-right corner.
+    - **Contents**: "return Player with the player"
+    - **Visual styling**: Light green circle, white text.
+- **Arrows**:
+  - Arrows connect the questions to their respective outcomes, indicating the flow of logic.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The top question.
+- **Arrows** indicate the logical flow from questions to outcomes.
+- **Spatial Relationships**: Questions are at the top, with outcomes branching out below them.
+
+</details>
+
+<p></p>
+
+
 
 Here’s the `RaycastHit` type, which shows the 3 bullets above, in code:
 
@@ -2463,11 +2625,60 @@ The following table assumes that `v`, `w`, `r`, and `out` are `Vec3`s; `s` and `
 
 The **dot product** is a fundamental vector operation that multiples the lengths of the two vectors together and then multiples in a “sameness value”; that value is 1 if they are parallel, 0 if they are perpendicular, and -1 if the are facing opposite directions (anti-parallel). If the two vectors both have length 1 then the dot product gives you a number between -1 and 1. The length of the dot product in general is:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=KeTaP9IZ-bwQ7kNvwFmF5rW&_nc_oc=Adk6iljFRwgWfLewE9KnWfCFoFI96xGvEiMH3lKhpBUM5fYsS3qpMbnXeYnlcuI8oqRgRtlpwYKiRjguw_3XzNyx&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmePT3unp6hCbrPFBPf2idVjYfIBalfJDy-tA9N61pd8Q&oe=6955924A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/a49728a54f1907d0f50561f5cd5406c4e080d306057ca95166273f879b15aabc.md)
+
+### Overview
+The image depicts a simple diagram with geometric shapes and directional indicators. It includes a line segment, an arrow, and some labeled points.
+
+### Key Elements
+- **Line Segment**: A straight line connects two points marked with black circles. The line is orange with a solid border.
+- **Arrow**: A blue arrow is drawn along the line segment, pointing upwards.
+- **Point V**: Above the line segment, there is a small letter 'V' written in black.
+- **Point W**: To the right of the line segment, there is a small letter 'W' written in black.
+- **Dashed Line**: A dashed line extends from the end of the orange line segment towards point 'W'.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the blue arrow along the orange line segment.
+- There is no explicit arrow indicating a specific reading order, but the dashed line suggests a continuation or connection to point 'W'.
+- Spatially, the elements are arranged in a linear fashion: the line segment, the arrow, and then the dashed line leading to point 'W'.
+
+</details>
+
+<p></p>
+
+
 
 where
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480737482_657839683420653_3915350552174156915_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ewpgcprpSbgQ7kNvwEfwbxJ&_nc_oc=AdmuVwdZ5Ds78DO0x2WUDRVATcEV7fRl1xIH-DD0ATbh2cP91rpi-4Q9b68uwLRJVemxoVgrIXteFKntaTgMQkYD&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afn4o3c8q_i4TQ-AW6zlFuupfZRLIyyfrD3zumqMT7-Ypw&oe=69558175)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/72d42fd3721ae431e9b4b31707cff34b58164220c77af0e1897272ed554223c0.md)
+
+### Overview
+The image displays a single character resembling the Greek letter theta (θ) against a plain white background.
+
+### Key Elements
+- **Visual description**: The character is a simple, black, sans-serif symbol.
+- **Location**: Positioned centrally within the image.
+- **Contents**: The symbol is a lowercase 'theta' (θ).
+- **Visual styling**: Black color, no additional elements or shading.
+
+### Visual Flow / Relationships
+There are no additional elements or relationships depicted in the image.
+
+</details>
+
+<p></p>
+
+
 
 is the angle between the two vectors.
 
@@ -2489,7 +2700,33 @@ Common uses for dot product include:
 
 The diagram below shows the “projection of `v` only `w`” as the orange arrow; it’s like the “shadow” of `v` on `w`.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480580704_656797443524877_7997749403668499427_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=KeTaP9IZ-bwQ7kNvwFmF5rW&_nc_oc=Adk6iljFRwgWfLewE9KnWfCFoFI96xGvEiMH3lKhpBUM5fYsS3qpMbnXeYnlcuI8oqRgRtlpwYKiRjguw_3XzNyx&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmePT3unp6hCbrPFBPf2idVjYfIBalfJDy-tA9N61pd8Q&oe=6955924A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/a49728a54f1907d0f50561f5cd5406c4e080d306057ca95166273f879b15aabc.md)
+
+### Overview
+The image depicts a simple diagram with geometric shapes and directional indicators. It includes a line segment, an arrow, and some labeled points.
+
+### Key Elements
+- **Line Segment**: A straight line connects two points marked with black circles. The line is orange with a solid border.
+- **Arrow**: A blue arrow is drawn along the line segment, pointing upwards.
+- **Point V**: Above the line segment, there is a small letter 'V' written in black.
+- **Point W**: To the right of the line segment, there is a small letter 'W' written in black.
+- **Dashed Line**: A dashed line extends from the end of the orange line segment towards point 'W'.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the blue arrow along the orange line segment.
+- There is no explicit arrow indicating a specific reading order, but the dashed line suggests a continuation or connection to point 'W'.
+- Spatially, the elements are arranged in a linear fashion: the line segment, the arrow, and then the dashed line leading to point 'W'.
+
+</details>
+
+<p></p>
+
+
 
 ##### Cross Product
 
@@ -2527,7 +2764,35 @@ Vec3.cross(right, up, result)  // Stores result in existing vector
 
 Vector reflection, via `v.reflect(n)`, calculates how a vector bounces off a surface. Given a vector `n`, it acts like that vector is pointing directly out from a surface. Then it takes the `v` and gives the direction after `v` “bounces” off the surface.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481015041_656797593524862_7262592726504005854_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=5ZCDBjtP5XoQ7kNvwFuYn4L&_nc_oc=Adn044y-e-2qZEL9L8AiwBITkE53mJXvMwXw0f8YYnmoEcWRSHE1XGAjKHeTZVXAp26aMkIcaCw__MzOrtZQy7Nk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfnLc6ymI_4vQnrpx3PQonA_DK_X_T1gjZcUW54hnOJtdA&oe=69559851)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/8e1387946a27a3e2a9e02871c3ae890c54ba584a282fe8909fe99051ec081c86.md)
+
+### Overview
+The image depicts a diagram illustrating vector relationships, specifically showing three vectors emanating from a single point. The overall composition includes labeled vectors and a dashed line representing a plane.
+
+### Key Elements
+- **Visual description**: Arrows indicating vectors.
+- **Location**: Centered in the image.
+- **Contents**: 
+  - A vertical black arrow labeled 'n'.
+  - A blue arrow labeled 'v' pointing downward-left.
+  - An orange arrow labeled 'r' pointing upward-right.
+- **Visual styling**: Simple arrows with solid lines and filled tips. The labels are in a sans-serif font.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The vertical black arrow labeled 'n'.
+- **Arrows**: Positioned at the bottom of the image, forming a triangular arrangement around the central point.
+- **Spatial relationships**: The vectors are arranged in a triangular formation, suggesting a relationship among them, possibly indicating a right-hand rule scenario.
+
+</details>
+
+<p></p>
+
+
 
 Vector reflection is most often used for:
 
@@ -3047,7 +3312,53 @@ This is true for:
 
 The diagram below shows the full lifecycle of a component. All green rectangle boxes are TypeScript code executing during the [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase). The [full breakdown a frame](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) gives another view into when all these actions occur and the [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) section explains how a “move” is implemented as one component *tearing down* and then a new one *preparing and starting*.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480610569_656797566858198_2645415609124319419_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=2MuilW3qrI0Q7kNvwE8UWEs&_nc_oc=AdniF1Zn6LCrQiA1bTQjesaQgEWQqSq7AnzcO-6Z-pvT8p1IBKKfHWc_3sffDAFvJ3Lc3YzPYZXslDzlUOnIIpVe&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AflsgBAMJh3mC2sFCQdslrf-h3adosI8LGdkqmSptSaF6A&oe=69557329)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/d5061282f31e39bb4a789a8c2cda6a4a571ad82ee48d5fafbd160ce74cd13487.md)
+
+### Overview
+This image is a flowchart depicting a process flow with decision points and actions labeled with specific functions. The flowchart is divided into three main sections: Prepare, Start, and Teardown. Arrows indicate the sequence of steps and decisions taken within the process.
+
+### Key Elements
+- **Prepare Section**:
+  - **Visual description**: A light gray rectangle at the top.
+  - **Location**: Top part of the flowchart.
+  - **Contents**: Contains two green parallelograms labeled "constructor and property initializers run" and "preStart() runs".
+  - **Visual styling**: Green parallelogram shape, white text, black outline.
+  - **Decision Point**: A purple diamond-shaped node asking "Is this a UIComponent?" with "yes" leading to "initializeUI() runs" and "no" leading to "preStart() runs".
+
+- **Start Section**:
+  - **Visual description**: A light gray rectangle below the Prepare section.
+  - **Location**: Middle part of the flowchart.
+  - **Contents**: Contains a green parallelogram labeled "start() runs" followed by another decision point asking "Is this the result of an ownership transfer?".
+  - **Visual styling**: Green parallelogram shape, white text, black outline.
+  - **Decision Point**: A purple diamond-shaped node with "yes" leading to "receiveOwnership()" and "no" leading to "Script Phase runs".
+
+- **Script Phase**:
+  - **Visual description**: A light blue parallelogram.
+  - **Location**: Below the Start section.
+  - **Contents**: Contains a green parallelogram labeled "Script Phase runs".
+  - **Visual styling**: Light blue parallelogram shape, white text, black outline.
+
+- **Teardown Section**:
+  - **Visual description**: A light gray rectangle at the bottom.
+  - **Location**: Bottom part of the flowchart.
+  - **Contents**: Contains two green parallelograms labeled "transferOwnership() runs" and "dispose() runs".
+  - **Visual styling**: Green parallelogram shape, white text, black outline.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central flowchart structure with decision points and sequential steps.
+- **Arrows and lines**: Connect nodes indicating the flow of the process.
+- **Spatial relationships**: Sequential steps move downward, with decision points branching off to different paths based on conditions.
+
+</details>
+
+<p></p>
+
+
 
 Connect to events in `preStart`. Send events in `start`.
 
@@ -3230,7 +3541,95 @@ All event types can be instantiated with **custom user-made types** by simply ca
 
 Here’s a flowchart that may help:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480762485_656797583524863_6769530497988193685_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=NZXai9IUK3YQ7kNvwGPNwON&_nc_oc=Adm6NLL1PtuV5bX0_I0-tUH531uYf1qYeNLqTONQE9dX8wGyw6NvofRN4z691-FzrjJnLyhlz1cSKV49gqUC0LO5&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmBBrFEaFlOWoF48eeqmCTzifNtelUgSrT48ktBdcOdvw&oe=69557C87)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/f093275a153e03eb1e82b16b084cbe3524d015ed48277db1e5a64e31e9b4053c.md)
+
+### Overview
+This image depicts a decision-making flowchart designed to guide through a series of questions and decisions based on specific conditions related to event handling in a software application. The flowchart uses a mix of purple and green boxes to represent different stages and outcomes of the process.
+
+### Key Elements
+1. **Main Question Box**:
+   - **Visual description**: A large purple box with rounded corners.
+   - **Location**: Top-center of the flowchart.
+   - **Contents**: "Are you receiving to a built-in event?"
+   - **Visual styling**: Purple background, white text, thin black border.
+
+2. **Decision Branches**:
+   - **Yes Path**:
+     - **Visual description**: Green box labeled "Use the associated event type."
+     - **Location**: Below the main question box.
+     - **Contents**: "Use the associated event type"
+     - **Visual styling**: Light green background, white text, thin black border.
+   - **No Path**:
+     - **Visual description**: Purple box asking "What kind of scripts is/are the receiver(s) using?"
+     - **Location**: Below the main question box.
+     - **Contents**: "What kind of scripts is/are the receiver(s) using?"
+     - **Visual styling**: Purple background, white text, thin black border.
+     - **Sub-question**:
+       - **Visual description**: Purple box asking "Is/are the receiver(s) known to be on the same client?"
+       - **Location**: Below the previous purple box.
+       - **Contents**: "Is/are the receiver(s) known to be on the same client?"
+       - **Visual styling**: Purple background, white text, thin black border.
+       - **Further Sub-questions**:
+         - **Visual description**: Purple box asking "How many receivers?"
+         - **Location**: Below the previous purple box.
+         - **Contents**: "How many receivers?"
+         - **Visual styling**: Purple background, white text, thin black border.
+         - **Further Sub-questions**:
+           - **Visual description**: Green box labeled "CodeBlockEvent."
+           - **Location**: Below the previous purple box.
+           - **Contents**: "CodeBlockEvent"
+           - **Visual styling**: Light green background, white text, thin black border.
+           - **Further Sub-questions**:
+             - **Visual description**: Purple box asking "Do you have a reference to the Component?"
+             - **Location**: Below the previous green box.
+             - **Contents**: "Do you have a reference to the Component?"
+             - **Visual styling**: Purple background, white text, thin black border.
+             - **Further Sub-questions**:
+               - **Visual description**: Green box labeled "Method Call."
+               - **Location**: Below the previous purple box.
+               - **Contents**: "Method Call"
+               - **Visual styling**: Light green background, white text, thin black border.
+               - **Further Sub-questions**:
+                 - **Visual description**: Green box labeled "LocalEvent."
+                 - **Location**: Below the previous green box.
+                 - **Contents**: "LocalEvent"
+                 - **Visual styling**: Light green background, white text, thin black border.
+             - **Further Sub-questions**:
+               - **Visual description**: Green box labeled "LocalEvent in a loop."
+               - **Location**: Below the previous green box.
+               - **Contents**: "LocalEvent in a loop"
+               - **Visual styling**: Light green background, white text, thin black border.
+           - **Further Sub-questions**:
+             - **Visual description**: Green box labeled "Broadcast LocalEvent."
+             - **Location**: Below the previous purple box.
+             - **Contents**: "Broadcast LocalEvent"
+             - **Visual styling**: Light green background, white text, thin black border.
+             - **Further Sub-questions**:
+               - **Visual description**: Green box labeled "NetworkEvent."
+               - **Location**: Below the previous green box.
+               - **Contents**: "NetworkEvent"
+               - **Visual styling**: Light green background, white text, thin black border.
+               - **Further Sub-questions**:
+                 - **Visual description**: Green box labeled "NetworkEvent in a loop."
+                 - **Location**: Below the previous green box.
+                 - **Contents**: "NetworkEvent in a loop"
+                 - **Visual styling**: Light green background, white text, thin black border.
+             - **Further Sub-questions**:
+               - **Visual description**: Green box labeled "Broadcast a NetworkEvent."
+               - **Location**: Below the previous green box.
+               - **Contents**: "Broadcast a NetworkEvent"
+               - **Visual styling**: Light green background, white text, thin black border.
+
+</details>
+
+<p></p>
+
+
 
 #### Receiving Events
 
@@ -3691,7 +4090,42 @@ Every action in Horizon happens somewhere within a frame. Frames execute in 3 ma
 - **[Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase)**: Handles [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events), [LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events), and [NetworkEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events). Processes [player input](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) changes and runs [async callbacks](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers). Changes to the [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) are committed.
 - **[Synchronization Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)**: Processes received [network](Meta%20Horizon%20Worlds%20creator%20manual.md#network) information, sends out network updates, and renders the scene (if not the server).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480753109_656797426858212_8295246835889529619_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=q5EwhGX3MbQQ7kNvwH3uHx1&_nc_oc=Adn_CrJsdCe5yRt--6ScKL_Gs02eGGdQpAr7uyTM6W5utP0L9Pe5SldiegtDa6rlaYqbv5JjWlsCX2ZAuLG1ffPb&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfnY-iwvCRQKZshfZTMtOo3A4SMjsfz9h3xPPyPKNw_SDw&oe=695599BC)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/91a4d8bfd7d3851732ec62bc0f69fc63c8ca81fef6db4ac4c32375abc4336ec1.md)
+
+### Overview
+This image is a flowchart depicting a process flow in a game engine or similar system. It is divided into three main phases: Simulation Phase, Script Phase, and Synchronization Phase. Each phase contains several steps represented as rectangular boxes with text descriptions.
+
+### Key Elements
+1. **Simulation Phase**
+   - **Pre-Physics**: A light green box labeled "Pre-Physics."
+   - **Physics Updates**: A blue box containing text that reads: "Update players from locomotion and pose, update recorded animation playback." Below this, another line states: "Run physics calculations, identify collisions."
+   - **On-Update**: A light green box labeled "On-Update."
+
+2. **Script Phase**
+   - **Prepare Scene Graph mutations for Commit**: A purple box.
+   - **New components prepare, new components start**: A light green box.
+   - **NetworkEvents handled, PlayerInput handled, CodeBlockEvents handled**: A light green box.
+   - **Commit Scene Graph Mutations**: A purple box.
+   - **Async callbacks run, ownership callbacks run, disposables handled**: A light green box.
+
+3. **Synchronization Phase**
+   - **Prepare received Network Events to process next frame**: A purple box.
+   - **Broadcast NetworkEvents created this frame**: A purple box.
+   - **Render**: A purple box.
+
+### Visual Flow / Relationships
+The flowchart has a clear linear progression from left to right. Arrows connect the boxes, indicating the sequence of actions. The most prominent elements are the boxes within the Script Phase, as they contain multiple steps and are visually larger compared to others.
+
+</details>
+
+<p></p>
+
+
 
 Script execution is \*single-threaded\* (long-running functions will 'stall' the script runtime).
 
@@ -4110,7 +4544,99 @@ The component is [torn down](Meta%20Horizon%20Worlds%20creator%20manual.md#compo
 
 In the process above (and diagram below) that if one of the players involved is the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player) then steps #3 and #4 are merged into just one step.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480849120_656797436858211_4910455202806412283_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=qkL3v6Jyv3gQ7kNvwF-sdA1&_nc_oc=AdndmL9wPJS1kMPy2ocI_q8kjZDntkJZ63s6uogr5Q2s70gPrMLJU8yhuVuty2Ww8AWpA6D9Pjz2zy3NKE2x7Lxa&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmiwTiiV6s8oZx4550qTmKcSUOA6kuLQZeXL4SniRjG_g&oe=69557E1F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/afdf3368be7a2b62899c29001505e9c27786d52e8d1187b621ccf8cabec579d2.md)
+
+### Overview
+This image depicts a sequence diagram illustrating a process involving multiple components and interactions between clients and a server. The diagram highlights steps related to transferring ownership of a component from one client to another.
+
+### Key Elements
+1. **Client A (player "A")**
+   - **Visual description**: A rectangular box labeled as Client A.
+   - **Location**: Top-left corner.
+   - **Contents**: Contains a yellow box labeled "Request ownership change."
+   - **Visual styling**: Light blue background, white text.
+
+2. **Server**
+   - **Visual description**: A central rectangular box labeled as Server.
+   - **Location**: Center.
+   - **Contents**: No additional elements within the box itself.
+   - **Visual styling**: Light blue background, white text.
+
+3. **Client B (player "B")**
+   - **Visual description**: A rectangular box labeled as Client B.
+   - **Location**: Top-right corner.
+   - **Contents**: Contains a yellow box labeled "Validate ownership change."
+   - **Visual styling**: Light blue background, white text.
+
+4. **Request ownership change**
+   - **Visual description**: A yellow box containing the text "Request ownership change."
+   - **Location**: Below Client A.
+   - **Contents**: Text "state = component.transferOwnership(A, B)".
+   - **Visual styling**: Yellow background, black text.
+
+5. **component.dispose()**
+   - **Visual description**: A yellow box containing the text "component.dispose()".
+   - **Location**: Below the request ownership change box.
+   - **Contents**: Text "component.dispose()".
+   - **Visual styling**: Yellow background, black text.
+
+6. **Change ownership {from:A, to:B, state}**
+   - **Visual description**: An arrow pointing from Client A to the Server.
+   - **Location**: Between Client A and the Server.
+   - **Contents**: Text "Change ownership {from:A, to:B, state}".
+   - **Visual styling**: Black text on a white arrow.
+
+7. **Validate ownership change**
+   - **Visual description**: A yellow box containing the text "Validate ownership change."
+   - **Location**: Below the Server.
+   - **Contents**: Text "Validate ownership change".
+   - **Visual styling**: Yellow background, black text.
+
+8. **Allocate newComponent**
+   - **Visual description**: An arrow pointing from the Server to Client B.
+   - **Location**: Between the Server and Client B.
+   - **Contents**: Text "Allocate newComponent".
+   - **Visual styling**: Black text on a white arrow.
+
+9. **newComponent.preStart()**
+   - **Visual description**: A yellow box containing the text "newComponent.preStart()".
+   - **Location**: Below the allocate newComponent arrow.
+   - **Contents**: Text "newComponent.preStart()".
+   - **Visual styling**: Yellow background, black text.
+
+10. **newComponent.start()**
+    - **Visual description**: A yellow box containing the text "newComponent.start()".
+    - **Location**: Below the preStart box.
+    - **Contents**: Text "newComponent.start()".
+    - **Visual styling**: Yellow background, black text.
+
+11. **newComponent.receiveOwnership(state, A, B)**
+    - **Visual description**: An arrow pointing from the Server to Client B.
+    - **Location**: Between the Server and Client B.
+    - **Contents**: Text "newComponent.receiveOwnership(state, A, B)".
+    - **Visual styling**: Black text on a white arrow.
+
+12. **newComponent is ready to be used**
+    - **Visual description**: A yellow box containing the text "newComponent is ready to be used".
+    - **Location**: Below the receiveOwnership arrow.
+    - **Contents**: Text "newComponent is ready to be used".
+    - **Visual styling**: Yellow background, black text.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central flow of the sequence, starting from Client A requesting ownership change, through the server processing the request, and ending with Client B receiving the new component.
+- **Arrows and lines**: Connects the sequence of actions logically.
+- **Spatial relationships**: Actions are arranged in a linear fashion, with arrows indicating the direction of communication and control flow.
+
+</details>
+
+<p></p>
+
+
 
 `getLocalPlayer()` and `entity.owner.get()` are different.
 
@@ -4358,13 +4884,60 @@ A high resolution mesh with a low resolution collider.
 
 Here’s an example of a mesh (a character’s face) that has a lot of geometry. It would really hurt perf to have Horizon compute collisions with the full face. So instead, a separate collider has been added (the icosahedron). This can be achieved by making the face with `collidable=false` and the icosahedron with `visible=false`. Or you could use the [sphere collider](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) instead.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480587385_656797580191530_2217575239024647133_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=hXQJldZ6D0cQ7kNvwG_PTS4&_nc_oc=Adk5Em1F8CUg2lmYCjlMvVimNQ6BlO_h4Y-sKtf4slKScUiVlUvQF9Zjx-WaxXHgKIeUuYM_FzBffyMthKL9jhxa&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_Afn61bniVgxhNpG6yQayzbSa8tK-GvUnVunVr9HmbDSIGA&oe=69557E44)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/a0f7a9225470236e93f655c661e3ae9c5bf5ec3df18a399faa4973fa6c219e29.md)
+
+### Overview
+The image depicts a stylized, geometric representation of a face. It features a large, central circular shape with a pink nose and two eyes, surrounded by a series of intersecting polygons forming a complex pattern.
+
+### Key Elements
+- **Central Circle**: A large circle occupies the center of the image. Inside this circle, there is a pink, rounded shape resembling a nose. Above the nose, two white circles represent eyes, each with a small black dot in the center.
+- **Polygonal Edges**: Surrounding the central circle are numerous polygons, including triangles and quadrilaterals, which intersect and overlap. These polygons are outlined in a light brown color with blue edges.
+- **Background**: The background is plain white, providing contrast to the colored shapes.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central circle containing the nose and eyes. The polygonal edges create a layered effect, with some polygons partially overlapping others. There are no arrows or lines indicating a specific reading order, but the arrangement suggests a symmetrical and balanced composition.
+
+</details>
+
+<p></p>
+
+
 
 ### Entity Tag Bubbling
 
 When Horizon is looking for an entity with a specific tag it performs a process we’ll call **tag bubbling** where it walks up the [ancestor chain](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) in search of an entity with the tag. This process is used in [collision detection](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) and [raycasting](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480831061_656797576858197_2777501900950716303_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=E1f_YJcuAnYQ7kNvwE6zrh8&_nc_oc=AdkT4xam0hEHUwjVi2Jfu82BiYA_icmIDPLKDitjfps6aC10qUBZKZdm15sjHU9Fw7NoXxWPMvL6B-HHMcV-VnZi&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfkGOsXHNu5FRcy9LcDbW4nrrQN-6KocL9pTKSapYDcK4g&oe=695570EB)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/8490b2439160aca42e94c51aeee101bdf49dcf5426a8a17c991bfbfcc706b754.md)
+
+### Overview
+This image depicts a flowchart with decision points and actions. It starts with a step labeled "start with an entity," followed by a series of yes/no questions and corresponding actions.
+
+### Key Elements
+- **Start Box**: Located at the top, it contains the text "> start with an entity". This box is light orange with rounded corners.
+- **Decision Box**: Positioned centrally, it asks "Does it have the right tag?" and is highlighted in purple with a hexagonal shape.
+- **Yes Path**: Arrows point from the decision box to a green circle containing "> use the entity". The arrow is black with a white outline.
+- **No Path - Tag**: Arrows point downward from the decision box to another decision box asking "Does it have a parent?" This box is also purple and hexagonal.
+- **No Path - No Parent**: Arrows point to a red circle containing "> stop". This circle has a solid red background with a white outline.
+- **No Path - Has Parent**: Arrows point to a light orange rectangle containing "> Shift focus to the parent". This rectangle has a light orange background with a white outline.
+
+### Visual Flow / Relationships
+The flowchart begins with the start box, then branches into two paths based on the answers to the questions. The yes path leads to the "use the entity" action, while the no path continues to ask if the entity has a parent. If it does not, the process stops. If it does have a parent, the focus shifts to that parent.
+
+</details>
+
+<p></p>
+
+
 
 In code this algorithm looks like
 
@@ -5041,7 +5614,93 @@ When a player exits the world, [all entities owned by them](Meta%20Horizon%20Wor
 
 The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480310115_656797590191529_1870444710099372950_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=JqwMX2o63SkQ7kNvwEB-vep&_nc_oc=Admzki-rzyK6QZjrS6UDqx2AMag_tixQbmhFrJdFl1Zi0-zP7jGmNAxIbST24WTnF7KoGular54sO7PQoP3culHn&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmuBdlCjb_qBzz8wYtdLU1qM6OqK5nrpAIMoPuPncD5Ig&oe=69557699)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/e20a1240abb5c13e2d6b01637c22a730bcc61a121b545515754d1b09deb51274.md)
+
+### Overview
+This image depicts a flowchart-style diagram illustrating player states and corresponding events in a game environment. The chart uses rounded rectangles and circles to represent different states and transitions between them. Arrows indicate the flow of events and conditions that trigger transitions.
+
+### Key Elements
+- **Player is not in the instance**: A circle at the top of the diagram indicating a state where the player is not currently in the game instance.
+  - **Visual description**: Light purple circle.
+  - **Location**: Top-center.
+  - **Contents**: "Player is not in the instance".
+  - **Visual styling**: Light purple background, white text, no borders.
+  
+- **Player travels out or quits Horizon**: A rectangle below the top circle.
+  - **Visual description**: Light blue rectangle.
+  - **Location**: Below the top circle, left-aligned.
+  - **Contents**: "player travels out or quits Horizon".
+  - **Visual styling**: Light blue background, white text, no borders.
+  
+- **OnPlayerExitWorld**: A green rectangle below the previous one.
+  - **Visual description**: Green rectangle.
+  - **Location**: Below the previous rectangle, left-aligned.
+  - **Contents**: "OnPlayerExitWorld".
+  - **Visual styling**: Green background, white text, no borders.
+  
+- **Owned entities transfer to the server**: A yellow rectangle below the green one.
+  - **Visual description**: Yellow rectangle.
+  - **Location**: Below the green rectangle, left-aligned.
+  - **Contents**: "owned entities transfer to the server".
+  - **Visual styling**: Yellow background, white text, no borders.
+  
+- **Player is active in the instance**: A circle below the top circle.
+  - **Visual description**: Light purple circle.
+  - **Location**: Bottom-center.
+  - **Contents**: "Player is active in the instance".
+  - **Visual styling**: Light purple background, white text, no borders.
+  
+- **Player becomes inactive or quits Horizon(AFK)**: A rectangle below the bottom circle.
+  - **Visual description**: Light blue rectangle.
+  - **Location**: Bottom-left.
+  - **Contents**: "player becomes inactive or quits Horizon(AFK)".
+  - **Visual styling**: Light blue background, white text, no borders.
+  
+- **OnPlayerEnterAFK**: A green rectangle below the previous one.
+  - **Visual description**: Green rectangle.
+  - **Location**: Bottom-left.
+  - **Contents**: "OnPlayerEnterAFK".
+  - **Visual styling**: Green background, white text, no borders.
+  
+- **Player is AFK in the instance**: A circle below the bottom circle.
+  - **Visual description**: Light purple circle.
+  - **Location**: Bottom-center.
+  - **Contents**: "Player is AFK in the instance".
+  - **Visual styling**: Light purple background, white text, no borders.
+  
+- **Player travels out of the instance**: A rectangle below the bottom circle.
+  - **Visual description**: Light blue rectangle.
+  - **Location**: Bottom-right.
+  - **Contents**: "player travels out of the instance".
+  - **Visual styling**: Light blue background, white text, no borders.
+  
+- **OnPlayerExitAFK**: A green rectangle below the previous one.
+  - **Visual description**: Green rectangle.
+  - **Location**: Bottom-right.
+  - **Contents**: "OnPlayerExitAFK".
+  - **Visual styling**: Green background, white text, no borders.
+  
+- **Owned entities do NOT transfer to the server**: A yellow rectangle below the green one.
+  - **Visual description**: Yellow rectangle.
+  - **Location**: Bottom-right.
+  - **Contents**: "owned entities do NOT transfer to the server".
+  - **Visual styling**: Yellow background, white text, no borders.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central circle labeled "Player is active in the instance".
+- **Arrows and lines**: Arrows connect the circles and rectangles, indicating the flow of events and transitions.
+- **Spatial relationships**: Circles represent states, rectangles represent events, and arrows show the progression from one state to another or an event occurring within a state.
+
+</details>
+
+<p></p>
+
+
 
 `OnPlayerEnterWorld` and `OnPlayerExitWorld` are sent to only server-owned entities
 
@@ -5349,7 +6008,87 @@ For an entity to be grabbable it needs:
   - Match the rules of [“Who Can Grab”](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-grab)
   - If it is currently held, match the rules of [“Who Can Take From Holder”](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-take-from-holder)
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/481059196_656797573524864_5104228813229080794_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ccm9yQgVkjkQ7kNvwHqgtqL&_nc_oc=Adk32u-yODdGKYQGod-w-gS0NJFX7JvMhI3tdU8A0x2EKEDPw23yJIQ2guWkppcivD-pO-mjt5uWHdAIljqrjzpq&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmqlriUJKBjhxUpU8ePlk0jh3XqRYpe3ryZBjCwWoD6fw&oe=695572B1)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/e0493b27cfe722ae6591066ffe3e7a98a54fdc31ac87f982aadd5db10f967754.md)
+
+### Overview
+This image depicts a flowchart-style decision tree with multiple branching paths. The chart is designed to determine whether an entity can be grabbed based on various conditions. The flowchart uses hexagonal nodes for questions and diamond-shaped nodes for decisions, with arrows indicating the flow of logic.
+
+### Key Elements
+1. **Can Grab?** (Circular node at the top)
+   - **Visual description**: A circular node with a green background.
+   - **Location**: Top-left corner.
+   - **Contents**: "Can Grab?"
+   - **Visual styling**: Green background, white text, no borders.
+
+2. **Does the entity have a parent?**
+   - **Visual description**: Hexagonal node with a light purple background.
+   - **Location**: Center-left.
+   - **Contents**: "Does the entity have a parent?"
+   - **Visual styling**: Light purple background, white text, thin black border.
+
+3. **Is every ancestor an empty object with Motion set to None?**
+   - **Visual description**: Hexagonal node with a light purple background.
+   - **Location**: Right of the first hexagon.
+   - **Contents**: "Is every ancestor an empty object with Motion set to None?"
+   - **Visual styling**: Light purple background, white text, thin black border.
+
+4. **Does the entity have Interactive set to Grabbable or Both?**
+   - **Visual description**: Hexagonal node with a light purple background.
+   - **Location**: Below the first hexagon.
+   - **Contents**: "Does the entity have Interactive set to Grabbable or Both?"
+   - **Visual styling**: Light purple background, white text, thin black border.
+
+5. **Does the entity contain an active collider?**
+   - **Visual description**: Hexagonal node with a light purple background.
+   - **Location**: Below the second hexagon.
+   - **Contents**: "Does the entity contain an active collider?"
+   - **Visual styling**: Light purple background, white text, thin black border.
+
+6. **Is simulated set to true?**
+   - **Visual description**: Hexagonal node with a light purple background.
+   - **Location**: Below the third hexagon.
+   - **Contents**: "Is simulated set to true?"
+   - **Visual styling**: Light purple background, white text, thin black border.
+
+7. **Is the player allowed by "Who Can Grab"?**
+   - **Visual description**: Hexagonal node with a light purple background.
+   - **Location**: Below the fourth hexagon.
+   - **Contents**: "Is the player allowed by \"Who Can Grab\"?"
+   - **Visual styling**: Light purple background, white text, thin black border.
+
+8. **Is the entity currently held by a player?**
+   - **Visual description**: Hexagonal node with a light purple background.
+   - **Location**: Below the fifth hexagon.
+   - **Contents**: "Is the entity currently held by a player?"
+   - **Visual styling**: Light purple background, white text, thin black border.
+
+9. **Is the player allowed by "Who Can Take From Holder?"**
+   - **Visual description**: Hexagonal node with a light purple background.
+   - **Location**: Below the sixth hexagon.
+   - **Contents**: "Is the player allowed by \"Who Can Take From Holder\"?"
+   - **Visual styling**: Light purple background, white text, thin black border.
+
+10. **Cannot Grab**
+    - **Visual description**: Circular node with a pink background.
+    - **Location**: Bottom-right corner.
+    - **Contents**: "Cannot Grab"
+    - **Visual styling**: Pink background, white text, thin black border.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central flowchart structure.
+- **Arrows and lines**: Red and green arrows indicate the flow of logic.
+- **Spatial relationships**: Nodes are arranged in a vertical sequence, with branches extending from yes/no answers.
+
+</details>
+
+<p></p>
+
+
 
 bug Entities with grab anchors can be grabbed even when collidable is set to false.
 
@@ -5467,7 +6206,39 @@ There are a number of events associated with grabbing and holding. The diagram b
 
 The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/480969837_656797440191544_3479717928870876208_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ynXXq71g8TEQ7kNvwH1oylr&_nc_oc=AdlmwvVEKT3tUsIl_BQz2XmDqjBJqxpFzZIApzWkbSirs4eudGKakGfjsJKchUErN-ZJ8am8epn6FeUjDBEuVmBN&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfltGhvJYyEuHVrGBKALmB_GPf5rQxxrvgZsWJxO5byOKA&oe=69556D53)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/2a2f369dcdf875a712151e2f07e8c8ee886e25cda477e4af6bc86f447594b930.md)
+
+### Overview
+This image depicts a flowchart-style diagram illustrating transitions between states related to player interaction with an object. The chart includes decision points and actions that determine the state of the object based on player actions.
+
+### Key Elements
+- **Not Held**: A purple oval at the top, indicating the initial state where the object is not held by the player.
+- **player grabs with a hand**: A light blue rectangle below "Not Held," describing the action of grabbing the object with one hand.
+- **Ownership transfer**: A yellow highlight underlines the phrase "Ownership transfer," suggesting a specific focus on this action.
+- **OnGrabStart**: A green rectangle below the blue rectangle, labeled as the event triggered when the grab starts.
+- **Held with 1 hand**: A purple oval below the "Not Held" state, indicating the state where the object is held with one hand.
+- **player grabs with second hand**: A light blue rectangle below the "Held with 1 hand" state, describing the action of grabbing the object with the second hand.
+- **OnMultiGrabStart**: A green rectangle below the blue rectangle, labeled as the event triggered when multiple hands start grabbing.
+- **Held with 2 hands**: A purple oval below the "Held with 1 hand" state, indicating the state where the object is held with both hands.
+- **player releases hand or forceReleasecalled**: A light blue rectangle below the "Held with 1 hand" state, describing the action of releasing the hand or calling a force release.
+- **OnGrabEnd**: A green rectangle below the blue rectangle, labeled as the event triggered when the grab ends.
+- **forceReleasecalled**: A light blue rectangle below the "Held with 1 hand" state, describing the action of calling a force release.
+- **OnMultiGrabEnd**: A green rectangle below the blue rectangle, labeled as the event triggered when multiple hands end grabbing.
+- **OnGrabEnd**: A green rectangle below the blue rectangle, labeled as the event triggered when the grab ends.
+
+### Visual Flow / Relationships
+The flowchart has a clear hierarchical structure with arrows connecting the states and actions. The most prominent visual element is the "Not Held" state at the top, which branches out into different paths depending on the player's actions. Arrows indicate the sequence of events and transitions between states. The flowchart uses a top-down approach, starting from the initial state and moving through various scenarios until reaching the final state.
+
+</details>
+
+<p></p>
+
+
 
 bug `OnGrabEnd` and `OnMultiGrabEnd` are not sent if a player leaves suddenly.
 
@@ -5618,7 +6389,37 @@ Attaching entities involves two built-in code block events being sent to the att
 
 The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480454017_656797570191531_1078493421499719284_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=_N7AbG5ev0YQ7kNvwEU8L0q&_nc_oc=AdnSVIaDXqRsGk2EwmN2rU3yh5oohTMoXbqMM4K_PcA-spbTCKKj7BkVJrdipZ2cvOUj54dTeZMISoMlvx2aYmIu&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AfmDOzi20Uq_nfDtU84-IbsQxjAj0QzY1dvIIVUkht3gdA&oe=695587E5)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/f77e2c9c18c6185559668f83ca1740661331058c51041c85dc1c370d776c6d82.md)
+
+### Overview
+This image depicts a state diagram or flowchart illustrating transitions between states related to attaching and detaching an attachable entity to a player. The diagram includes two main states: "Detached" and "Attached," with transitions triggered by specific events and actions.
+
+### Key Elements
+- **Detached State**: Located at the top of the diagram, represented by a purple oval labeled "Detached." It has a green arrow pointing downward to the "Attached" state.
+- **Attached State**: Located at the bottom of the diagram, represented by another purple oval labeled "Attached." It has a red arrow pointing upward to the "Detached" state.
+- **Events and Actions**: 
+  - **player releases attachable entity on body part**: This event leads to the "OnAttachStart" state within the "Detached" state.
+  - **attachToPlayer()**: This action transitions from "OnAttachStart" to "Attached."
+  - **player grabs attachable entity**: This event leads to the "OnGrabStart" state within the "Detached" state.
+  - **detach()**: This action transitions from "Attached" back to "Detached."
+  - **ownership transfer**: This label appears under the "OnGrabEnd" state, indicating a transition point.
+- **Transitions**: Arrows indicate the flow of transitions between states and events. Green arrows represent transitions initiated by the player releasing or grabbing the attachable entity, while red arrows represent the transition when the detach action is performed.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central focus is the circular flow between the "Detached" and "Attached" states.
+- **Arrows and Lines**: Green arrows connect the "Detached" state to the "Attached" state via the "OnAttachStart" and "OnGrabStart" events, and red arrows connect the "Attached" state back to the "Detached" state via the "detach()" action.
+- **Spatial Relationships**: The states are arranged in a circular flow, with the "Detached" state at the top and the "Attached" state at the bottom, indicating a continuous cycle of attachment and detachment.
+
+</details>
+
+<p></p>
+
+
 
 bug `OnAttachEnd` is not sent if a player leaves suddenly.
 
@@ -5771,7 +6572,55 @@ You will need to add a script that attaches the entity to the player when releas
 
 When a player has more than one attached entity, they will see this UI when pressing the holster icon.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480590377_656797586858196_8956842387091686648_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=QWsWgzmKV_gQ7kNvwE4tMgU&_nc_oc=Adm2iYzX2ko6JH_MpzZriLb64NBfgkYyz_Rob9dz8OitjEMgjzWlTn2R09ASXTLLYIv-SM5KTR-4c77TONo4b0gr&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AflqRm0pwJ9JshIaqAfzhBRS3pOIQnL95XdjQITE3wyUFg&oe=69558FC3)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/fb243784b70a7545305a1504326b3b3e4ed615e59300689ceef65e0678dc5056.md)
+
+### Overview
+This image displays a row of six icons arranged horizontally against a light gray background. Each icon has a distinct shape and color, suggesting they represent different functionalities or actions within a user interface.
+
+### Key Elements
+1. **Visual description**: A small, dark gray icon resembling a gear.
+   - **Location**: Leftmost position.
+   - **Contents**: No text or additional elements.
+   - **Visual styling**: Dark gray, solid, small size compared to others.
+
+2. **Visual description**: A white icon with a black phone receiver.
+   - **Location**: Second from the left.
+   - **Contents**: No text or additional elements.
+   - **Visual styling**: White with a black phone receiver, small size.
+
+3. **Visual description**: A white icon with a black square inside.
+   - **Location**: Third from the left.
+   - **Contents**: No text or additional elements.
+   - **Visual styling**: White with a black square, small size.
+
+4. **Visual description**: A white icon with a black circle containing a crosshair.
+   - **Location**: Fourth from the left.
+   - **Contents**: No text or additional elements.
+   - **Visual styling**: White with a black crosshair, small size.
+
+5. **Visual description**: A white icon with a black starburst pattern.
+   - **Location**: Fifth from the left.
+   - **Contents**: No text or additional elements.
+   - **Visual styling**: White with a black starburst, small size.
+
+6. **Visual description**: A white icon with a red circle containing a white cross.
+   - **Location**: Rightmost position.
+   - **Contents**: No text or additional elements.
+   - **Visual styling**: White with a red circle and white cross, small size.
+
+### Visual Flow / Relationships
+The icons are arranged in a single horizontal line, evenly spaced. There are no arrows, lines, or connectors indicating a specific reading order. The icons are aligned horizontally, with no overlapping or nested elements.
+
+</details>
+
+<p></p>
+
+
 
 The icon that is displayed can be selected in the entity’s `Holster Icon` property in the Properties panel.
 
@@ -6763,7 +7612,34 @@ If any of the spawn process fails (promises reject), you can find the error in `
 
 **Labeled edges** describe the actions that occur to go from one `currentState` to the next.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480573611_656797446858210_8427218712583755701_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=BaV7blwVkh4Q7kNvwGN5mRt&_nc_oc=Adm7WHQNmGwl9ICtk_MLJtrWY5v6UCeA2zMyth3w2QpIg69IKUmtkFaZ_bsrAHSYTM4BDLslmTmP0itT-sHYdWI_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d6jvMmpl3CaXRFlexzFBXg&oh=00_AflC6Bb3D8U8eqdm_Qp02g37EtgfJeMPa6R9E8DiitZZxg&oe=6955A27B)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/1fe5cca0d66be8555c2b8eba0f4402896847f7b271e4f4b0762e953bf2f281e5.md)
+
+### Overview
+This image depicts a flowchart with various states and transitions represented by boxes and arrows. The flowchart illustrates a process involving multiple stages labeled as "NotReady," "Unloaded," "Loading," "Paused," "Loaded," "Active," "Unloading," and "Disposed." Arrows indicate the progression and conditions under which transitions occur.
+
+### Key Elements
+- **NotReady**: A light purple box at the top with the label "NotReady." It has a single arrow pointing downward labeled "download asset info."
+- **Unloaded**: A light purple box below "NotReady" with the label "Unloaded." An arrow points downward to "Loading."
+- **Loading**: A light purple box with the label "Loading." Arrows point from "NotReady" and "Unloaded" to "Loading."
+- **Paused**: A yellow box below "Loading" with the label "Paused." Arrows point from "Loading" to "Paused."
+- **Loaded**: A light purple box below "Loading" with the label "Loaded." Arrows point from "Loading" to "Loaded."
+- **Active**: A light green box below "Loaded" with the label "Active." Arrows point from "Loaded" to "Active."
+- **Unloading**: A light purple box below "Active" with the label "Unloading." Arrows point from "Active" and "Loaded" to "Unloading."
+- **Disposed**: A pink box at the bottom with the label "Disposed." Arrows point from "Unloading" and "Active" to "Disposed."
+
+### Visual Flow / Relationships
+The most prominent visual element is the sequence of states moving from "NotReady" through "Unloaded," "Loading," "Paused," "Loaded," "Active," "Unloading," and finally to "Disposed." Arrows indicate the direction of transitions, with some loops indicating conditions that can cause cycles within certain states. The flowchart uses dotted lines for some transitions, suggesting optional paths or conditions.
+
+</details>
+
+<p></p>
+
+
 
 ### Sublevels
 

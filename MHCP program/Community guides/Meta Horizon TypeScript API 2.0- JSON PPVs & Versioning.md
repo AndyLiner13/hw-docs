@@ -32,19 +32,94 @@ By reading and reviewing this written guide you will be able to:
 
 Once the world is loaded, click the systems drop-down and select “Persistent Variables.”
 
-![Screenshot 2024-03-12 165250.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452885043_512509794620310_1164532069211912730_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=W97lvadbQW0Q7kNvwHv5EeK&_nc_oc=Adnrz7fgaAnoHu5IUbXJ5TrwLtlQk7ScR9dU7274AuuqQWFzIFm3ro8kkJFcifxqCtuVRS3b4EkWWcRD5Dj3SL20&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfmDVj0TaIjnGDbXGSvz_luPnsNkTsP-O0DAapdMGvPgdg&oe=69558812)
+<details>
+<summary>Screenshot 2024-03-12 165250.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 165250.png](../../image_data/bee72a717c3657011a0e76c835f7a04f5dd63f0aab750467892456b110c19ccf.md)
+
+### Overview
+This image depicts a user interface element showing a dropdown menu within a game development environment. The menu is part of a larger interface that includes a sidebar labeled "Hierarchy" and a main workspace area displaying a grid-like terrain.
+
+### Key Elements
+- **Dropdown Menu**: Located centrally in the image, with a dark background and white text. It contains three options: "Quests," "Leaderboards," and "Persistent Variables." The "Persistent Variables" option is highlighted with a blue border.
+- **Sidebar**: On the left side, labeled "Hierarchy," with a search bar and a list of items such as "SpawnPoint," "PlayerVar_Defs," and "PlayerVar_Manager."
+- **Main Workspace**: On the right side, showing a grid-like terrain with a gradient sky background.
+- **Top Bar**: At the very top, there is a title bar indicating the project name "Horizon Worlds - JSON PPV Workshop World."
+
+### Visual Flow / Relationships
+The most prominent visual element is the dropdown menu, which is the focal point of the image. The menu items are arranged vertically, and the highlighted item suggests interaction. The sidebar and main workspace provide context but are secondary to the dropdown menu.
+
+</details>
+
+<p></p>
+
+
 
 Click the plus icon to create a variable.
 
 In this example, we will name it “TestVar” making sure to select “{ } Object” from the drop-down.
 
-![Screenshot 2024-03-12 165344.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652041_512509847953638_1230264767479043441_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=GlbLt7rE8NQQ7kNvwHo6mLi&_nc_oc=AdkpPgKrvKPjf2fMYFcZRgJGbl2lKGTYuhGrFJEuWeJRofEnmV5r9uuJGHPmKweW47uKJ34NN_3zwtL6MNmzRa8Q&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Afkp_i8EHPXpz60fKKzvNKHNCXnxC2H-ZOhM1d6ha4vFQQ&oe=69557E6C)
+<details>
+<summary>Screenshot 2024-03-12 165344.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 165344.png](../../image_data/53b5abc688a14f3effb3bb0d9dd92e6b277e629efd31fb5298b2137c63f19aa7.md)
+
+### Overview
+This image depicts a user interface element titled "Persistent Variables." It appears to be a modal window or a dropdown menu within a software application. The interface includes a search bar, a plus sign for adding new variables, and a settings gear icon. There is also a sorting arrow indicating the ability to reorder items.
+
+### Key Elements
+- **Title Bar**: Located at the top, labeled "Persistent Variables."
+- **Search Bar**: Positioned below the title, with a magnifying glass icon on the left side.
+- **Add Button**: A plus sign icon located next to the search bar.
+- **Settings Gear Icon**: A gear icon situated near the add button.
+- **Sort Arrow**: An upward-pointing arrow with a downward arrow, suggesting the ability to sort items.
+- **Variable List**: Below the title, displaying "World Persistent Variables (1/100)" followed by a single variable entry labeled "TestVar Object."
+- **Variable Icon**: A blue square with curly brackets on the left side of the variable name.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Persistent Variables" title bar. The search bar, add button, settings gear, and sort arrow are arranged horizontally beneath the title. The variable list is displayed below the title bar, with the variable icon and name clearly separated. The layout suggests a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 Now that JSON Object PPV has been created, it can be used in TypeScript scripts by referencing it using the string name it was given: “TestVar.”
 
 ## Step 2: Create Scripts
 
-To begin, we will create two scripts with the specified names seen below. It’s important to verify that Meta Horizon’s 2.0 API is selected by accessing the settings via the gear icon. ![Screenshot 2024-03-12 165632.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452915617_512509827953640_3795839271183190167_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=B_jgcPxY8BUQ7kNvwENjSMG&_nc_oc=Adl0Tixbld9TxIEQk_H7RJpR7qGAIKKoi4AW9AieGWbHImjwglCBgDVGniBq3wgO4jmD5ol91AfsYU6kppFfYqyX&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Afk0DiqIHGxcTewUfPJxoy4nx22fm1ELUQPsxmNUCHmgrg&oe=695588BD)
+To begin, we will create two scripts with the specified names seen below. It’s important to verify that Meta Horizon’s 2.0 API is selected by accessing the settings via the gear icon. <details>
+                                                                                                                                                                                        <summary>Screenshot 2024-03-12 165632.png</summary>
+                                                                                                                                                                                        
+                                                                                                                                                                                        <p></p>
+                                                                                                                                                                                        
+                                                                                                                                                                                        [Screenshot 2024-03-12 165632.png](../../image_data/5bdf510b828bb81b1265affdb47fbbbc01e0d4e8bf68329945bcbf2a267d426d.md)
+                                                                                                                                                                                        
+                                                                                                                                                                                        ### Overview
+                                                                                                                                                                                        This image depicts a user interface element labeled "Scripts." It appears to be a section within a software application, likely related to managing scripts or code snippets. The interface includes a search bar, a button to create new scripts, and a list of existing scripts.
+                                                                                                                                                                                        
+                                                                                                                                                                                        ### Key Elements
+                                                                                                                                                                                        - **Search Bar**: Located at the top-left, it has a magnifying glass icon and is empty.
+                                                                                                                                                                                        - **Create New Script Button**: Positioned next to the search bar, it is a gray button with a plus sign.
+                                                                                                                                                                                        - **List of Scripts**: Below the search bar, there are two entries:
+                                                                                                                                                                                          - **PlayerVar_Defs**: Saved at 4:49:59 PM · Compiled
+                                                                                                                                                                                          - **PlayerVar_Manager**: Saved at 4:44:44 PM · Compiled
+                                                                                                                                                                                        - **Menu Icons**: At the top-right, there are four icons: a magnifying glass, a refresh symbol, a gear, and three vertical dots.
+                                                                                                                                                                                        - **Dropdown Menu**: A dropdown menu is partially open, showing the option "Create new script."
+                                                                                                                                                                                        
+                                                                                                                                                                                        ### Visual Flow / Relationships
+                                                                                                                                                                                        The most prominent visual element is the dropdown menu, as it is actively engaged. The list of scripts is secondary but clearly organized under the "Last updated" label. The menu icons at the top-right provide additional functionality options.
+                                                                                                                                                                                        
+                                                                                                                                                                                        </details>
+                                                                                                                                                                                        
+                                                                                                                                                                                        <p></p>
+                                                                                                                                                                                        
+                                                                                                                                                                                        
 
 ### Specified Script Names:
 
@@ -67,7 +142,34 @@ As of the current Meta Horizon desktop build (March 2024), creating a new world 
 
 Access to this feature is found under the script tab: select the gear icon, followed by Script Settings to view the API Version drop-down:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452690902_512509841286972_4120111531248974789_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=UqJp95Jz-d0Q7kNvwFc0_pa&_nc_oc=AdlVfsAS2fmihOdPlZapwN9QQ7tV_SmPQJs1ngCNgH4zkt1HWu5T4TaHEl9XDKDcb2qrqG-LFkGky9_cquaKfl1N&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Afk7f0HYyMyUwKOznj1FZcr4R_5YnQj6BtYNaf4b6A3Gdg&oe=69558E4C)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/fab504cbac9dac68862db6db08bda68e108f275638559380bc9e6c95b49a9e41.md)
+
+### Overview
+This image depicts a settings dialog box titled "Script Settings." It contains various configuration options related to external editors and API versions. The dialog box has a dark theme with light text and interactive elements such as buttons and checkboxes.
+
+### Key Elements
+- **Title**: "Script Settings" located at the top of the dialog box.
+- **External Editor**: A section labeled "Default (VS Code)" indicating the default external editor.
+- **Select Button**: A button labeled "Select" next to the "External Editor Directory" field.
+- **Reset Button**: A button labeled "Reset" next to the "External Editor Directory" field.
+- **Directory Path**: The path "C:/Users/alex/.../Horizon Worlds" displayed under the "External Editor Directory" field.
+- **API Version**: A dropdown menu set to "2.0.0."
+- **horizon/camera**: A checkbox labeled "horizon/camera" with a toggle switch next to it.
+- **Buttons**: Two buttons at the bottom labeled "Cancel" and "Apply."
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Script Settings" title at the top. The "External Editor" section is below it, followed by the "API Version" dropdown. The "horizon/camera" checkbox is at the bottom. The "Cancel" and "Apply" buttons are positioned at the very bottom, with the "Apply" button highlighted in blue, suggesting it is the primary action button.
+
+</details>
+
+<p></p>
+
+
 
 ## Step 3: Prepare Scripts
 
@@ -79,9 +181,65 @@ Note: This is a personal preference, please choose the approach that works best 
 
 I personally like the explicit approach as you will know all items that have been imported from specific APIs, and you can do less typing, which is always nice!
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576403_512509797953643_5285657881568124068_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=adKWDoV7M9AQ7kNvwHIQVUv&_nc_oc=AdnhaAAnSezMfm9uqz0BzTNlG4HA-aiJYmOGkleR0HyG3OjYhIMJQpBE4ufQZcNLKQHZEBPk6pgVktkP7CQ7wGj5&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Afm448PkfxG68pg7az3pwFwCopczJrxRD1b9C32-3ZSQfw&oe=69557DF1)
+<details>
+<summary>Image Content</summary>
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452532488_512509834620306_1267219142950200425_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=lJDCvy8ko1cQ7kNvwHA06RN&_nc_oc=AdkAS9iUfKRIU8jxYcxF1TeiBDM0xYHViDfr7u-WVzzvT7E3Et4FAB6t0r3VRSdG1VsAWiLl7AZKY00H1A300tmO&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Afl6NuYJM9-B1XtdloaQtjLf-SE80YMHv4FNdTtb957hyw&oe=69559F81)
+<p></p>
+
+[All image details and metadata](../../image_data/667c2ade4372d10f7a41852c9604ba5d0a7595c0160a8ba026722e07e7ecf0b1.md)
+
+### Overview
+This image depicts a code editor interface, specifically showing a dark-themed environment with multiple tabs open. The interface includes various toolbars, panels, and a search bar at the top. The main area is a large, empty code editor space ready for coding.
+
+### Key Elements
+- **Tabs**: There are two tabs open labeled "PlayerVar_Defs.ts" and "PlayerVar_Manager.ts". Both have a "TS" icon indicating TypeScript files.
+- **Code Editor Area**: Located centrally, it is a large, empty space with a line number "1" displayed, suggesting the start of a new file.
+- **Search Bar**: Positioned at the top right, it contains the text "scripts".
+- **Menu Bar**: At the very top, it includes standard menu options like File, Edit, Selection, View, Go, among others.
+- **Toolbars**: On the left side, there are several icons representing different functionalities such as search, share, settings, and more.
+- **Status Bar**: At the bottom, it displays information like line number (Ln 1, Col 1), character count (Spaces: 2), encoding (UTF-8), and language (TypeScript).
+
+### Visual Flow / Relationships
+The most prominent visual element is the large, empty code editor area. The tabs are arranged horizontally above the editor, and the toolbars are positioned vertically on the left side. The search bar is located at the top right, and the status bar is at the bottom. There are no arrows or lines connecting elements, but the layout suggests a typical workflow where users navigate through tabs, use the search bar, and interact with the editor.
+
+</details>
+
+<p></p>
+
+
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/2d86d34858c38420c6b9c8ead9e0ade1531dfdc2b6ab0b2f4290faf9fbc98ec0.md)
+
+### Overview
+This image depicts a code editor window open in a development environment, specifically showing a TypeScript file named `PlayerVar_Manager.ts`. The editor displays a class definition within the file, with syntax highlighting indicating code blocks and comments. The interface includes various toolbars and panels typical of a code editor.
+
+### Key Elements
+- **Visual description**: A code editor window with syntax-highlighted TypeScript code.
+- **Location**: Center of the image.
+- **Contents**: 
+    - `import { Component } from "horizon/core";`
+    - `class PlayerVar_Manager extends Component<typeof PlayerVar_Manager> {`
+    - `static propsDefinition = {};`
+    - `start() {`
+    - `}`
+    - `Component.register(PlayerVar_Manager);`
+- **Visual styling**: Dark theme with syntax highlighting in bright colors like green, blue, and yellow.
+
+### Visual Flow / Relationships
+- Most prominent visually: The code editor window itself.
+- No arrows or lines connecting elements.
+- Reading order follows the standard left-to-right, top-to-bottom flow of text.
+
+</details>
+
+<p></p>
+
+
 
 ## What Are JSON Objects?
 
@@ -148,17 +306,159 @@ highScore: 0,
 
 Next, we will connect the CodeBlockEvents for player enter and exit world to local methods. We have also added a console log to the methods to confirm the script is working.
 
-![Screenshot 2024-03-12 171631.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452881431_512509817953641_3022961139974047751_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=qVBVDs3P1YcQ7kNvwHmW-C7&_nc_oc=AdnSQ0d44AEyUqjci212pPPWGCi9P3sXwJX_Hu35uor9VOeiFXW-TWGrENhnD0njU_Zt43C6Boyn-10P7ofuVT8D&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Afk6c4jXaIA_FvgSi55paXwegktEEc3BpvuJQk7ucyxO7Q&oe=6955965F)
+<details>
+<summary>Screenshot 2024-03-12 171631.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 171631.png](../../image_data/393b15a935f1331f3b5c9b46e42da60566d889c4f9a8c3f035d4e2792396715a.md)
+
+### Overview
+This image depicts a code editor window open in a development environment, specifically showing a TypeScript file named `PlayerVar_Manager.ts`. The editor displays a class definition within a larger project structure, with syntax highlighting and a dark theme.
+
+### Key Elements
+- **Visual Description**: The editor has a dark theme with syntax highlighting.
+- **Location**: Top-left corner.
+- **Contents**: The text `PlayerVar_Manager.ts` is visible as the active file name.
+- **Visual Styling**: The text is white, and the background is black. There are no borders around the editor area.
+
+### Visual Flow / Relationships
+- Most prominent visually: The code content itself.
+- No arrows or lines connecting elements.
+- Spatial relationships: The code is organized into methods (`preStart`, `start`, `playerEnterWorld`, `playerExitWorld`) and a class definition (`PlayerVar_Manager`).
+
+</details>
+
+<p></p>
+
+
 
 Ensure that the PlayerVar\_Manager script is attached to an object in your world. In this example, I used a text object:
 
-![Screenshot 2024-03-12 171735.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452513283_512509791286977_42569017604569069_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=uoDMWiOlNXkQ7kNvwG0j9HO&_nc_oc=AdljzUm5Xe6vngjekHcp1Qd390ycc_T9PO5tSV4eheNIzHoHwZY3rrqZeBujpFNhCrq54gCTi_QJ-45KVsGQ8rj1&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfmiB7Jc2TMj1kaqU9vUau3tthv2rad22o-wE92IzxvKXQ&oe=695592E7)![Screenshot 2024-03-12 171909.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452742345_512509761286980_4350714917524728780_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PpFryK5XfvcQ7kNvwEFnFk2&_nc_oc=AdkqWeNSPZ4w999vx2BvHVMf3ipUqtMuQaYEsP0-At4E30K6TTsTzKYakalp9XacA5z-EHLKX9Qoify2n9iyl9is&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfnP_xD7DgmzR7NjDFw7xk8OLbraWA9BrvAPlSkE9alfpg&oe=69559EB5)![Screenshot 2024-03-12 171909.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452701864_512509787953644_6289865107426242307_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=eHEd-hGWr90Q7kNvwFEkJnk&_nc_oc=AdkIR9vQc2kIdHlpWUlRqYftw7Qmn658cCz_h02ewrsY7HYtXZAiMzeqlfY4aYJSsDcDB7T7binb4uihO7Fl8LVQ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Afmh5SsBggAT4lL2UHHOCCtk8LdpXnCWD7VxFsP0BLbm0A&oe=69557F92)
+<details>
+<summary>Screenshot 2024-03-12 171735.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 171735.png](../../image_data/7d95b4b74eb9680d09d9c6a5bd566ba13a70735130874afd693ccdded65446b8.md)
+
+### Overview
+This image depicts a user interface element, specifically a menu or panel titled "Gizmos." It contains a grid layout of icons representing various functionalities or assets within a software environment, likely related to game development or asset management.
+
+### Key Elements
+- **Search Bar**: Located at the top, with a magnifying glass icon indicating a search function.
+- **Title**: "Gizmos" displayed prominently above the search bar.
+- **Icons and Labels**: A grid of icons with corresponding labels beneath them.
+  - **Trigger Zone**: Green hexagon icon labeled "Trigger Zone."
+  - **Script**: Purple code icon labeled "Script."
+  - **Text**: Purple font icon labeled "Text."
+  - **Spawn Point**: Blue human figure icon labeled "Spawn Point."
+  - **Door**: Pink door icon labeled "Door."
+  - **Environment**: Light blue cloud icon labeled "Environment."
+  - **Dynamic Light**: Yellow light bulb icon labeled "Dynamic Light."
+  - **Static Light**: Light blue cube icon labeled "Static Light."
+  - **TrailFx**: Red trail icon labeled "TrailFx."
+  - **ParticleFx**: Orange particle icon labeled "ParticleFx."
+  - **Sound Recorder**: Teal microphone icon labeled "Sound Recorder."
+  - **Quests**: Orange star icon labeled "Quests."
+  - **World**: Gold trophy icon labeled "World."
+  - **Projectile**: Blue wrench icon labeled "Projectile."
+  - **Snap**: Blue gear icon labeled "Snap."
+  - **Raycast**: Blue target icon labeled "Raycast."
+
+### Visual Flow / Relationships
+The icons are arranged in a grid layout, with each icon accompanied by its label. The layout is organized in rows and columns, making it easy to navigate through the different options. The search bar at the top suggests that users can search for specific items within this menu.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Screenshot 2024-03-12 171909.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 171909.png](../../image_data/de335ecf08a3a5f3a4e93e7c93ac064394aba59f7470e0e9410d7cb162d25a18.md)
+
+### Overview
+This image depicts a 3D modeling environment interface, likely from a game development tool. The central focus is a humanoid figure standing on a purple cube labeled "PlayerVarManager." Above the figure, there is a blue rectangular frame with the text "PlayerVar_Manager." To the right, there is a sidebar with various attributes and settings related to the object.
+
+### Key Elements
+- **Humanoid Figure**: A blue humanoid figure with a simplistic design, standing on a purple cube. The figure has a small circular icon above its head.
+- **Cube**: A purple cube with white text that reads "PlayerVarManager..." positioned beneath the humanoid figure.
+- **Text Frame**: A blue rectangular frame with the text "PlayerVar_Manager" displayed prominently within it.
+- **Sidebar**: Located on the right side of the image, containing several sections such as "Behavior," "Attributes," "GameplayTags," and "Script." Each section includes various attributes and settings related to the object.
+
+### Visual Flow / Relationships
+The most prominent visual element is the humanoid figure and the cube it stands on. The text frame above the figure draws attention due to its larger size and bold text. The sidebar on the right provides additional information and settings related to the object, creating a hierarchical layout where the figure and cube are the primary focus, followed by the text frame, and then the detailed settings in the sidebar.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Screenshot 2024-03-12 171909.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 171909.png](../../image_data/de335ecf08a3a5f3a4e93e7c93ac064394aba59f7470e0e9410d7cb162d25a18.md)
+
+### Overview
+This image depicts a 3D modeling environment interface, likely from a game development tool. The central focus is a humanoid figure standing on a purple cube labeled "PlayerVarManager." Above the figure, there is a blue rectangular frame with the text "PlayerVar_Manager." To the right, there is a sidebar with various attributes and settings related to the object.
+
+### Key Elements
+- **Humanoid Figure**: A blue humanoid figure with a simplistic design, standing on a purple cube. The figure has a small circular icon above its head.
+- **Cube**: A purple cube with white text that reads "PlayerVarManager..." positioned beneath the humanoid figure.
+- **Text Frame**: A blue rectangular frame with the text "PlayerVar_Manager" displayed prominently within it.
+- **Sidebar**: Located on the right side of the image, containing several sections such as "Behavior," "Attributes," "GameplayTags," and "Script." Each section includes various attributes and settings related to the object.
+
+### Visual Flow / Relationships
+The most prominent visual element is the humanoid figure and the cube it stands on. The text frame above the figure draws attention due to its larger size and bold text. The sidebar on the right provides additional information and settings related to the object, creating a hierarchical layout where the figure and cube are the primary focus, followed by the text frame, and then the detailed settings in the sidebar.
+
+</details>
+
+<p></p>
+
+
 
 ## Step 5: Define Type
 
 Before we can get and set a JSON Object PPV, we need to define it. Because this type is stored in a \_Defs script, we need to be able to access it from our other script files. To do this we add the word export to the front.
 
-![Screenshot 2024-03-12 181652.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452506810_512509757953647_8787940282338034104_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=s_jksFybUUwQ7kNvwGF52sJ&_nc_oc=AdnxWVr2QFdhLaYl1Nh3gOma3a32N90SSbqRfZR3K1QagXuNJIkHDrekf81wEvuh-KBvCtL8L75ZRBniibPT_m_4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AflE3QzYtaubtkqbAIVm_JwxsuYRgar-i5XZ4HYkk24YWg&oe=69558DFA)
+<details>
+<summary>Screenshot 2024-03-12 181652.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 181652.png](../../image_data/4a3926554ac87410b20dd6cf64ffcf90920b621c3e41bf4154a3671b035cc44c.md)
+
+### Overview
+This image depicts a code snippet within a text editor, specifically showing a TypeScript interface definition for a variable named `PlayerVar`. The interface includes properties such as `version`, `name`, and `visits`.
+
+### Key Elements
+- **Visual description**: A code editor window with syntax highlighting.
+- **Location**: Top-left corner.
+- **Contents**: 
+    - `export type PlayerVar = {`
+    - `version: number,`
+    - `name: string,`
+    - `visits: number,`
+    - `}`
+- **Visual styling**: 
+    - Syntax highlighting colors: `version` and `visits` are highlighted in yellow, `name` is in cyan, and the rest of the text is in white.
+    - Background color of the editor window is light gray.
+    - The file name `PlayerVar_Defs.ts` is displayed at the top-left corner.
+
+### Visual Flow / Relationships
+- Most prominent visually: The code snippet itself.
+- There are no arrows, lines, or connectors indicating a specific reading order.
+- Elements are aligned vertically, with each line of code starting at the left margin.
+
+</details>
+
+<p></p>
+
+
 
 Now that we have exported the type, we can import it into any of our other scripts by typing “PlayerVar” and clicking “enter” or “return” on our keyboard to import the type.
 
@@ -168,7 +468,36 @@ Now that our \_Defs file is setup, we need a place to store all of our player va
 
 Create a new script in Meta Horizon named “PlayerVar\_Data,” and then we will delete all of the prefilled code as we did with the \_Defs script.
 
-![Screenshot 2024-03-12 181658.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452554819_512509784620311_8209205062022272298_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=2Ie-kSq8k7sQ7kNvwHzvshz&_nc_oc=Adn_TLLcgQ9d0Mb4BCn-IoQqGAYCAkEvEBjXLKw8Q9Gi4v471dYzkvnRGsKOqRRhAZLi6G9vDhvNlCLAtC-ic_LB&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfnfvS9c5Oqr_3wchdryiPrMWL0fVXr34nGzwbJoFT7PKg&oe=695586A5)
+<details>
+<summary>Screenshot 2024-03-12 181658.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 181658.png](../../image_data/596fe39d30e57eedc2ad82c8e28134fc7efd5819c50f4ed5245436e65b1f6cfd.md)
+
+### Overview
+This image displays a code snippet written in TypeScript, specifically showing imports and an export statement within a file named `PlayerVar_Data.ts`. The code is part of a larger project, likely related to game development given the context of player variables.
+
+### Key Elements
+- **Visual description**: Code editor interface with syntax highlighting.
+- **Location**: Top-left corner.
+- **Contents**: 
+    - Line 1: `import { PlayerVar } from "PlayerVar_Defs";`
+    - Line 2: `import { Player } from "horizon/core";`
+    - Line 3: Empty line.
+    - Line 4: `export const allPlayerVarData = new Map<Player, PlayerVar>();`
+- **Visual styling**: Syntax highlighting colors include pink for keywords (`import`, `const`, `new`, `Map`), blue for variable names (`PlayerVar`, `Player`, `allPlayerVarData`), and green for types (`Player`, `PlayerVar`). The background is white, and the editor has a dark theme.
+
+### Visual Flow / Relationships
+- Most prominent visually: The code lines themselves.
+- There are no arrows or lines connecting elements, as this is a static image of code.
+- Elements are aligned vertically, with each line of code starting at the left margin.
+
+</details>
+
+<p></p>
+
+
 
 We will only need to write one line of code, and as we do, VS Code will write the import lines seen in the screenshot on lines 1 and 2.
 
@@ -192,15 +521,117 @@ We also export this data, because it is very likely you will need to use it acro
 
 In this step, we will start to write some code.  On the next few pages, we will provide in-depth explanations for each line:
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452578528_512509781286978_2962179804368749502_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=1yhBoMAwGjgQ7kNvwFMkjpd&_nc_oc=Adnt-0tZFhSp20jtSXzT-j8SD84fM1U5L_XgC5vc-Cfit1qnmkpxZZAEv7mZFKekvQuyocixwySmbeIoSU4X1KYP&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfktCPd0vUGLZ3Y_M4qLCpTH7fNPk4LMhVmcUYwyUsLHxg&oe=695598A4)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/fc291d51e08241ad99747b6db1aceba22e2830eb4ccb64e434ad8864cda49cb9.md)
+
+### Overview
+The image displays a code editor window open to a TypeScript file named `PlayerVar_Manager.ts`. The content is structured as a class definition within a component framework, likely for managing player variables in a game or application. The code includes imports, constants, a class definition, event handlers, and a function for initializing player variables.
+
+### Key Elements
+- **Visual description**: A code editor interface with syntax highlighting.
+- **Location**: Top-left corner.
+- **Contents**: 
+    - `import` statements at the top.
+    - Constants `playerVariableVersion` and `playerVarName`.
+    - Class `PlayerVar_Manager` extending `Component`.
+    - `static propsDefinition` property.
+    - `preStart()` method with event bindings.
+    - `start()` method.
+    - `playerEnterWorld(player: Player)` method.
+    - `playerExitWorld(player: Player)` method.
+    - `initializePlayerVar(player: Player, prevPlayerVar: PlayerVar | null): PlayerVar` function.
+- **Visual styling**: Dark theme with syntax highlighting in various colors (e.g., blue for keywords, green for strings, pink for comments).
+
+### Visual Flow / Relationships
+- Most prominent visually: The class definition and its methods.
+- Arrows, lines, or connectors: None.
+- Spatial relationships: Methods and functions are arranged vertically, with the class definition at the top and methods/functions below.
+
+</details>
+
+<p></p>
+
+
 
 At the beginning of the script, you’ll encounter the variables. These variables are globally scoped variables, which means they are accessible from anywhere inside this script. These variables are constants; for instance, the playerVariableVersion should only be updated manually when introducing new variables—a process detailed later in the document (Step 9). Similarly, the playerVarName remains unchanged as it serves as a reference to the PPV variable.
 
-![Screenshot 2024-03-12 181721.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452893310_512509764620313_8601289411585962013_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=gqAGONGe56sQ7kNvwFeI29K&_nc_oc=AdmtujqkM7-l6_xoYv38rvsxsOW5pANIqChFuVSUOnFqbu9YQawALrGe2mrhSZqpfZI5hkwnJcBIwJ2mgsZzSWME&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfkI5NBtOFl-X81L5Ej2kfP8Kcb3Fvt2JDN2nwwUaNxDYA&oe=69558302)
+<details>
+<summary>Screenshot 2024-03-12 181721.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 181721.png](../../image_data/fc291d51e08241ad99747b6db1aceba22e2830eb4ccb64e434ad8864cda49cb9.md)
+
+### Overview
+The image displays a code editor window open to a TypeScript file named `PlayerVar_Manager.ts`. The content is structured as a class definition within a component framework, likely for managing player variables in a game or application. The code includes imports, constants, a class definition, event handlers, and a function for initializing player variables.
+
+### Key Elements
+- **Visual description**: A code editor interface with syntax highlighting.
+- **Location**: Top-left corner.
+- **Contents**: 
+    - `import` statements at the top.
+    - Constants `playerVariableVersion` and `playerVarName`.
+    - Class `PlayerVar_Manager` extending `Component`.
+    - `static propsDefinition` property.
+    - `preStart()` method with event bindings.
+    - `start()` method.
+    - `playerEnterWorld(player: Player)` method.
+    - `playerExitWorld(player: Player)` method.
+    - `initializePlayerVar(player: Player, prevPlayerVar: PlayerVar | null): PlayerVar` function.
+- **Visual styling**: Dark theme with syntax highlighting in various colors (e.g., blue for keywords, green for strings, pink for comments).
+
+### Visual Flow / Relationships
+- Most prominent visually: The class definition and its methods.
+- Arrows, lines, or connectors: None.
+- Spatial relationships: Methods and functions are arranged vertically, with the class definition at the top and methods/functions below.
+
+</details>
+
+<p></p>
+
+
 
 In playerEnterWorld we first get the PPV. Notice that it could be null, we handle this in the initializePlayerVar method (seen at the end of this step). Which we use to create a newPlayerVar. We have to create a newPlayerVar because the player may have last played in an older version with less variables stored in the PlayerVar type.
 
-![Screenshot 2024-03-12 181721.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452963336_512509777953645_4263171605963207015_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=mMK4Pv4lDYgQ7kNvwElfsR-&_nc_oc=AdlxzFwouHOO8ALf1FTUxYU2RVf1pOGkQFn5iwFUTvRl4Az7tPZG4V-4T1D06r-q0VZTa3ou2WhAAZiUezmF16__&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AflT6U4rq1-m3Xn9_QOtB-W3ooA4x1hfrTVhiuY06vFoGw&oe=69557B28)
+<details>
+<summary>Screenshot 2024-03-12 181721.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 181721.png](../../image_data/fc291d51e08241ad99747b6db1aceba22e2830eb4ccb64e434ad8864cda49cb9.md)
+
+### Overview
+The image displays a code editor window open to a TypeScript file named `PlayerVar_Manager.ts`. The content is structured as a class definition within a component framework, likely for managing player variables in a game or application. The code includes imports, constants, a class definition, event handlers, and a function for initializing player variables.
+
+### Key Elements
+- **Visual description**: A code editor interface with syntax highlighting.
+- **Location**: Top-left corner.
+- **Contents**: 
+    - `import` statements at the top.
+    - Constants `playerVariableVersion` and `playerVarName`.
+    - Class `PlayerVar_Manager` extending `Component`.
+    - `static propsDefinition` property.
+    - `preStart()` method with event bindings.
+    - `start()` method.
+    - `playerEnterWorld(player: Player)` method.
+    - `playerExitWorld(player: Player)` method.
+    - `initializePlayerVar(player: Player, prevPlayerVar: PlayerVar | null): PlayerVar` function.
+- **Visual styling**: Dark theme with syntax highlighting in various colors (e.g., blue for keywords, green for strings, pink for comments).
+
+### Visual Flow / Relationships
+- Most prominent visually: The class definition and its methods.
+- Arrows, lines, or connectors: None.
+- Spatial relationships: Methods and functions are arranged vertically, with the class definition at the top and methods/functions below.
+
+</details>
+
+<p></p>
+
+
 
 Then we update the visits to be visits + 1, using the shorthand visits++. To make sure this is working we add a console log.
 
@@ -208,7 +639,41 @@ The last step is to add the player to the map we created in the previous step. W
 
 In playerExitWorld we get the playerVar from the map, which if you hover over the const playerVar will show that it is of type PlayerVar or Undefined. This is because it is possible that a player has not yet been mapped. We can check for this with if (playerVar) which checks if it is “true,” meaning not *undefined* , *null* , *false* or sort of false (i.e., 0, empty string). We can use an else statement that calls on console log if it is undefined; this can help locate bugs now and in the future. It is recommended to use checks like this in your code.
 
-![Screenshot 2024-03-12 181721.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452673104_512509774620312_3142404411627905147_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=qI5t9gtT5_sQ7kNvwHhbkLS&_nc_oc=AdmZdUuUchr1UyUzlx0XKilpdNUa8Hz6LQSwmkHJm9bx9QmIC4VHHBFjGWM6dV-sS8MbIx4Cx40b7rzJZDMsd7mX&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfkgCP5r0p2t9K5-dNb0mstg09ZFb6R6UBS6-kCGtfXkVg&oe=69558791)
+<details>
+<summary>Screenshot 2024-03-12 181721.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 181721.png](../../image_data/fc291d51e08241ad99747b6db1aceba22e2830eb4ccb64e434ad8864cda49cb9.md)
+
+### Overview
+The image displays a code editor window open to a TypeScript file named `PlayerVar_Manager.ts`. The content is structured as a class definition within a component framework, likely for managing player variables in a game or application. The code includes imports, constants, a class definition, event handlers, and a function for initializing player variables.
+
+### Key Elements
+- **Visual description**: A code editor interface with syntax highlighting.
+- **Location**: Top-left corner.
+- **Contents**: 
+    - `import` statements at the top.
+    - Constants `playerVariableVersion` and `playerVarName`.
+    - Class `PlayerVar_Manager` extending `Component`.
+    - `static propsDefinition` property.
+    - `preStart()` method with event bindings.
+    - `start()` method.
+    - `playerEnterWorld(player: Player)` method.
+    - `playerExitWorld(player: Player)` method.
+    - `initializePlayerVar(player: Player, prevPlayerVar: PlayerVar | null): PlayerVar` function.
+- **Visual styling**: Dark theme with syntax highlighting in various colors (e.g., blue for keywords, green for strings, pink for comments).
+
+### Visual Flow / Relationships
+- Most prominent visually: The class definition and its methods.
+- Arrows, lines, or connectors: None.
+- Spatial relationships: Methods and functions are arranged vertically, with the class definition at the top and methods/functions below.
+
+</details>
+
+<p></p>
+
+
 
 Now that we know playerVar is defined, we can set the player’s JSON Object PPV, which saves their JSON Object to the world’s persistent storage.
 
@@ -220,7 +685,32 @@ This function is important because it allows us to take a potentially null/undef
 
 **Please note**: There is an error as of the time of writing in Meta Horizon’s API, which says the variable could be defined or null, but is actually defined or undefined. This distinction caused an error with the code seen at the beginning of this step, **below the code is corrected, checking the truthiness of (prevPlayerVar) rather than (prevPlayerVar !== null).**
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452415047_512509744620315_2203337898861099810_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=JEJ1QP18XzAQ7kNvwES4DUD&_nc_oc=AdmJwgDc4Zqo616xiLGxx97407WvXiD2JJnQIqCPI_60LtQOGYaoarntr4kZ2jG4JIuGsH2c2GcWZ4hwHvO3EVX4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AflpO4QtE8PiRYZTyuXO1BZM9grJWd2az1nCL-2TwLSyyw&oe=69557D56)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/d388046a3d1dacaeace13c7da33887cb1cf84a8addef5ac9448727991936d532.md)
+
+### Overview
+This image displays a code snippet written in TypeScript, specifically a function named `initializePlayerVar`. The function takes a `Player` object and an optional `prevPlayerVar` parameter, which can be either a `PlayerVar` object or `null`. The function returns a `PlayerVar` object.
+
+### Key Elements
+- **Visual description**: Code editor interface.
+- **Location**: Top-left corner.
+- **Contents**: Code content.
+- **Visual styling**: Dark theme with syntax highlighting.
+
+### Visual Flow / Relationships
+- Most prominent visually: The code itself.
+- No arrows or lines connecting elements.
+- Reading order follows the standard left-to-right, top-to-bottom flow typical of code editors.
+
+</details>
+
+<p></p>
+
+
 
 The first thing we do in this function is create a brand new object variable with values we would assign to a first-time visitor. That way if the prevPlayerVar is not truthy we return those values. Otherwise, we can check that the version contains values we want to recall, and save them to the new object.
 
@@ -230,38 +720,372 @@ Now you can compile your newly saved code and test it. If all goes well, every t
 
 Now that we have our JSON Object PPV, we need to make sure we don’t run it over the 10,000 character limit. To test this we can create an artificial maxed variable and stringify it to see how long it is.
 
-![Screenshot 2024-03-12 184022.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452751568_512509754620314_8517786802089207349_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=HF9OOo4mjfAQ7kNvwEeMIj5&_nc_oc=AdkXrAeYU1rrx_bFYnZyALt8w9d026a1pW-HankRyxsgIoNibhSr6NERX6ls3p9wAZh1H6ueprdIUF_tJdr5eP52&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfmNyB6SRRWM6fY6ITlQ5OifrN_YC5lmpDgi96oV1frxqA&oe=69557B55)
+<details>
+<summary>Screenshot 2024-03-12 184022.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 184022.png](../../image_data/f7639785a7a12c3fad928c0b190e1711657bc4012e6b1faa6eeb6b61bf769111.md)
+
+### Overview
+This image displays a code snippet written in TypeScript within a code editor environment. The code defines a function named `testPlayerVarSize()` that initializes a variable `testPlayerVar` with a large string containing both letters and numbers. The function then calculates the length of this string using `JSON.stringify()` and logs the result to the console.
+
+### Key Elements
+- **Code Editor Interface**: The background is dark, typical of a code editor theme.
+- **Function Definition**: Located at line 62.
+    - **Visual description**: A function declaration.
+    - **Location**: Top-left corner of the image.
+    - **Contents**: `function testPlayerVarSize() {`
+    - **Visual styling**: White text on a dark background.
+- **Variable Declaration**: At line 65.
+    - **Visual description**: A constant declaration.
+    - **Location**: Below the function definition.
+    - **Contents**: `const testPlayerVar: PlayerVar = {`
+    - **Visual styling**: White text on a dark background.
+- **Object Properties**: Contains three properties (`version`, `name`, `visits`) initialized with specific values.
+    - **Visual description**: Property names and values.
+    - **Location**: Inside the curly braces `{ }`.
+    - **Contents**: `version: 1000000, name: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890', visits: 1000000,`
+    - **Visual styling**: White text on a dark background.
+- **String Concatenation**: At line 70.
+    - **Visual description**: A constant assignment.
+    - **Location**: Below the object declaration.
+    - **Contents**: `const testLength = JSON.stringify(testPlayerVar).length;`
+    - **Visual styling**: White text on a dark background.
+- **Console Log Statement**: At line 72.
+    - **Visual description**: A console log statement.
+    - **Location**: Below the string concatenation.
+    - **Contents**: `console.log(testLength.toString());`
+    - **Visual styling**: White text on a dark background.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The function definition at the top.
+- **Arrows/Connections**: None.
+- **Spatial Relationships**: The elements are arranged vertically, with each line of code appearing sequentially below the previous one.
+
+</details>
+
+<p></p>
+
+
 
 In our testPlayerVarSize function, we have created a testPlayerVar variable with larger-than-possible values. We then calculate the length using JSON.stringify, and the .length property of strings. We then simply log that number to the console.
 
 All that is left, is to call this in the start method. When we are done, we can delete this line of code from start, and write it in anytime we need to check the max length.
 
-![Screenshot 2024-03-12 184035.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452616143_512509751286981_1414151313288137369_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=ntrwMGGpDvIQ7kNvwG1Y4fp&_nc_oc=AdlS9UNcU05NJ5kfCIbv3NRSpveCApN4paopXuaUUs1k9MYNB65gHdAi6tg7AeSR9d5252dIV1mN1gdPbKtLJI0J&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfkzS-2J22AXyCZ8Lm9JDZ6VlIAV7PhoLA-ZBL0vZZCeWw&oe=69556C0B)
+<details>
+<summary>Screenshot 2024-03-12 184035.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 184035.png](../../image_data/b5089de69a6f35c6dde4c493aee94fc5a5e05a744e7f82fc3131ee59a5af8bb3.md)
+
+### Overview
+This image depicts a code snippet within a text editor interface. The code is written in a programming language that uses curly braces `{}` for block structures. The text editor highlights syntax, with keywords and functions highlighted in specific colors.
+
+### Key Elements
+- **Visual description**: The code is written in a monospaced font typical of code editors.
+- **Location**: The code is centered in the image.
+- **Contents**: 
+    ```plaintext
+    start() {
+        testPlayerVarSize();
+    }
+    ```
+- **Visual styling**: 
+    - Keywords (`start`, `testPlayerVarSize`) are highlighted in blue.
+    - Functions (`start`, `testPlayerVarSize`) are highlighted in purple.
+    - The curly braces `{}` are standard black characters.
+    - The semicolons (`;`) are also standard black characters.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the code itself.
+- There are no arrows, lines, or connectors present.
+- The code is read from top to bottom and left to right as per the standard reading order.
+
+</details>
+
+<p></p>
+
+
 
 ## Step 9: Add More Variables
 
 Start by updating the type to include additional variables. In this case we added isAFK and afkCount:
 
-![Screenshot 2024-03-19 at 12.18.46 PM.png](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452916228_512509767953646_8032047240862163427_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=LuMEhVcC8IwQ7kNvwGJebAX&_nc_oc=AdkeNZmRfu57mFBEPs_i7JdrDCCuZw4pv9_jYrbIO86fqtebXsCRQDWTliHVi4b09gBLWAzs2Qf1zUHxR1Goo-Bh&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfmSob0Exxlc7Ze54UVMBTrWmeGOAHhwZW7xVhcVp4sjNw&oe=695593E7)
+<details>
+<summary>Screenshot 2024-03-19 at 12.18.46 PM.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-19 at 12.18.46 PM.png](../../image_data/888694505d8358b01237dd96938b9e2d98716a1e144a7b382cfb8ce6838e0367.md)
+
+### Overview
+This image displays a TypeScript export statement defining a type named `PlayerVar`. The type includes five properties: `version`, `name`, `visits`, `isAFK`, and `afkCount`.
+
+### Key Elements
+- **Visual description**: Code snippet.
+- **Location**: Centered within the image.
+- **Contents**: 
+    - `export type PlayerVar = {`
+    - `version: number,`
+    - `name: string,`
+    - `visits: number,`
+    - `isAFK: boolean,`
+    - `afkCount: number,`
+    - `}`
+- **Visual styling**: Dark background with syntax highlighting in green, blue, and white for keywords, strings, numbers, and comments respectively.
+
+### Visual Flow / Relationships
+- Most prominent visually: The code snippet itself.
+- No arrows or lines connecting elements.
+- Reading order follows the standard left-to-right, top-to-bottom flow typical of code snippets.
+
+</details>
+
+<p></p>
+
+
 
 We then add these to the initialize and test size functions:
 
-![Screenshot 2024-03-12 185301.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452742345_512509857953637_3325756538951273658_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=G1jRqBQ0kHsQ7kNvwHbh2NP&_nc_oc=AdmIxurjn7E2PSCl12GOdhPZdExvzsR-jSWxqTjejCyQxOTRwLFVI5jZBqlI6klKYc6MPtHtzxS1KND3tg0LnavI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfmRinNFJ9NXp-6rOVHdNqvE2VUM0_ODomF_fjxn9EfbaA&oe=695595CD)![Screenshot 2024-03-12 185200.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746744_512509741286982_2246072596883689413_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=N1mAnQhE1_gQ7kNvwFOZCWR&_nc_oc=AdmBwQv1LUiX7FDyId5SGHXYy9O0sJdLbzqyNJNkPzxSDQpRacpbeZ0-dsnVLO7M-2LOChYuv3CM_xyF07-gKjpD&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfmV9X1Bwt871cpa-YRBQ9748x4GCz9ivVKHhHnAueddeA&oe=695581F9)
+<details>
+<summary>Screenshot 2024-03-12 185301.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 185301.png](../../image_data/6a0fb30143deaae5b4d6187ec96195a6e154521c0877deb73127b66ba8b94a3c.md)
+
+### Overview
+This image displays a code snippet written in TypeScript, specifically a function named `initializePlayerVar`. The function takes a `Player` object and an optional `prevPlayerVar` parameter, which can be either a `PlayerVar` object or `null`. It returns a `PlayerVar` object. The code is part of a larger program, likely related to managing player variables in a game or application.
+
+### Key Elements
+- **Function Header**: `function initializePlayerVar(player: Player, prevPlayerVar: PlayerVar | null): PlayerVar {`
+  - **Location**: Top-left corner.
+  - **Contents**: Function name, parameters, return type.
+  - **Visual styling**: Standard TypeScript syntax highlighting, dark background.
+
+- **Variable Declaration**: `const newPlayerVar: PlayerVar = {`
+  - **Location**: Below the function header.
+  - **Contents**: Variable name (`newPlayerVar`), type (`PlayerVar`), and curly braces `{}` indicating start of object literal.
+  - **Visual styling**: Standard TypeScript syntax highlighting, dark background.
+
+- **Object Properties**:
+  - `version`: `playerVariableVersion`, located within the object literal.
+  - `name`: `player.name.get()`, located within the object literal.
+  - `visits`: `0`, located within the object literal.
+  - `isAFK`: `false`, located within the object literal.
+  - `afkCount`: `0`, located within the object literal.
+
+- **Conditional Logic**:
+  - `if (prevPlayerVar) {`
+    - **Location**: Below the object literal.
+    - **Contents**: Conditional statement checking if `prevPlayerVar` is truthy.
+    - **Visual styling**: Standard TypeScript syntax highlighting, dark background.
+  - `if (prevPlayerVar.version >= 1) {`
+    - **Location**: Within the conditional block.
+    - **Contents**: Nested conditional statement setting `newPlayerVar.visits`.
+    - **Visual styling**: Standard TypeScript syntax highlighting, dark background.
+  - `if (prevPlayerVar.version >= 2) {`
+    - **Location**: Within the nested conditional block.
+    - **Contents**: Nested conditional statement setting `newPlayerVar.afkCount`.
+    - **Visual styling**: Standard TypeScript syntax highlighting, dark background.
+
+- **Return Statement**: `return newPlayerVar;`
+  - **Location**: At the end of the function body.
+  - **Contents**: Return value of the function.
+  - **Visual styling**: Standard TypeScript syntax highlighting, dark background.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The function header and its parameters.
+- **Arrows/Connections**: None.
+- **Reading Order**: The code flows from the function header down through the variable declaration and conditional logic, ending with the return statement.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Screenshot 2024-03-12 185200.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 185200.png](../../image_data/44c4da6e6951255a4db83008db89d22b7fe857ca6a81b75e9183318b37d5104e.md)
+
+### Overview
+This image displays a code snippet written in JavaScript, specifically within a function named `testPlayerVarSize()`. The code defines a variable `testPlayerVar` which contains several properties, and then calculates the length of its JSON string representation.
+
+### Key Elements
+- **Code Block**: The entire content is enclosed within a code block, likely part of a larger script or file.
+  - **Version**: `version: 1000000`
+    - **Location**: Top-left portion of the code block.
+    - **Contents**: `1000000`.
+    - **Visual styling**: Black text on a dark background.
+  - **Name**: `name: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'`
+    - **Location**: Below the version property.
+    - **Contents**: `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890`.
+    - **Visual styling**: Black text on a dark background.
+  - **Visits**: `visits: 1000000`
+    - **Location**: Below the name property.
+    - **Contents**: `1000000`.
+    - **Visual styling**: Black text on a dark background.
+  - **isAFK**: `isAFK: false`
+    - **Location**: Below the visits property.
+    - **Contents**: `false`.
+    - **Visual styling**: Black text on a dark background.
+  - **afkCount**: `afkCount: 1000000000`
+    - **Location**: Below the isAFK property.
+    - **Contents**: `1000000000`.
+    - **Visual styling**: Black text on a dark background.
+  - **Function Call**: `JSON.stringify(testPlayerVar).length`
+    - **Location**: Below the afkCount property.
+    - **Contents**: `JSON.stringify(testPlayerVar).length`.
+    - **Visual styling**: Blue highlighted text indicating code syntax highlighting.
+  - **Length Calculation**: `const testLength = JSON.stringify(testPlayerVar).length;`
+    - **Location**: Below the function call.
+    - **Contents**: `const testLength = JSON.stringify(testPlayerVar).length;`.
+    - **Visual styling**: Blue highlighted text indicating code syntax highlighting.
+  - **Logging**: `console.log(testLength.toString());`
+    - **Location**: Below the length calculation.
+    - **Contents**: `console.log(testLength.toString());`.
+    - **Visual styling**: Blue highlighted text indicating code syntax highlighting.
+
+### Visual Flow / Relationships
+- **Most Prominent**: The code block itself is the most prominent visual element as it contains the primary content.
+- **Arrows/Connections**: There are no arrows or connections between elements.
+- **Spatial Relationships**: Elements are arranged vertically, one after another, with no overlapping or adjacency issues.
+
+</details>
+
+<p></p>
+
+
 
 We also need to update the version number from 1 to 2:
-![Screenshot 2024-03-12 185053.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452701864_512509737953649_3962852608460184155_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=qtTpjQla1ZoQ7kNvwFmZc2d&_nc_oc=AdmQpznmhLjCzGfnRNC06IjLqdDR8s2JYXHQGT172wOU0IZ2C4YTsGfObF5p3lZKmEoNEA0LGeJks58-PfO_dilD&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Afkgs0YjQYBHNtCU2MyuBDat41l6kyVh5x89CiSukoA5Vw&oe=695595EA)
+<details>
+<summary>Screenshot 2024-03-12 185053.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 185053.png](../../image_data/0c45814ccb96e3e44804542021e6da849d2e5e547a2e2dbb7eda152c0c132e9a.md)
+
+### Overview
+This image shows a code snippet within a text editor interface. The focus is on a variable declaration line that includes a variable name and its value assignment.
+
+### Key Elements
+- **Visual description**: A text editor window displaying code.
+- **Location**: Centered in the image.
+- **Contents**: 
+    - `const playerVariableVersion = 2;`
+- **Visual styling**: The text is in a monospaced font, typical of code editors. The background is dark, likely representing a theme setting in the editor.
+
+### Visual Flow / Relationships
+The code line is the most prominent element, as it is the focal point of the image. There are no arrows or lines connecting elements, and the reading order is straightforward, moving from left to right across the line.
+
+</details>
+
+<p></p>
+
+
 
 Then we can use this new version number to get the afkCount for players who have visited our world since the variable was added:
 
-![Screenshot 2024-03-12 185249.png](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652242_512509854620304_1398487090111015541_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=eauGdCIf3w8Q7kNvwHehSPB&_nc_oc=AdnJfOdMUki2M2YWJbL-8hRFE2sS4d-gWDjMtFx2dmPsTPOn9u9Y2v08K0CM2EXoj1pyHNbmfwUYvMEH2fNi2VDq&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_AfkalssNDWG9G8atST2iOA8l2gA4g20HgbxiuDyIwX__hA&oe=6955809E)
+<details>
+<summary>Screenshot 2024-03-12 185249.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 185249.png](../../image_data/4f1eee536bb1a05c9c77c6575e16d05f583bc55b3401681f6c5501ef74de4148.md)
+
+### Overview
+This image displays a code snippet written in TypeScript, specifically a function named `initializePlayerVar`. The function takes a `player` object and an optional `prevPlayerVar` parameter, and returns a new `PlayerVar` object. The code is part of a larger program, likely related to managing player variables in a game or application.
+
+### Key Elements
+- **Visual description**: Code editor interface with syntax highlighting.
+- **Location**: Top-left corner.
+- **Contents**: Code block with TypeScript syntax.
+- **Visual styling**: Dark theme with syntax highlighting in various colors.
+
+### Visual Flow / Relationships
+- Most prominent visually: The code block itself.
+- There are no arrows or lines connecting elements, as this is a static image of code.
+- Elements are aligned vertically within the code editor.
+
+</details>
+
+<p></p>
+
+
 
 ## Step 10: Use the Variables
 
 To get started using our new afkCount variable, we will connect the CodeBlockEvents for entering AFK to our local method:
 
-![Screenshot 2024-03-12 185526.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578037_512509851286971_2231847787475568309_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=v9qhNweHyikQ7kNvwEqtQ-V&_nc_oc=Adk7_d-uGfrahj1mSHIv27KnrBHSJh3xUUpPZHWkIgvspsAe7xMAuL073FRXiw7PYElcbhALTLSPfAURII9lgF85&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Aflf9T-eFBB7mnancyYzpE3M2muC3N-vNY2UN9__DRVZaQ&oe=6955828D)
+<details>
+<summary>Screenshot 2024-03-12 185526.png</summary>
 
-![Screenshot 2024-03-12 185514.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452909009_512509837953639_6530190211756898574_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=tgdvQmlrYW8Q7kNvwEA192j&_nc_oc=AdmvYKxH3x0av-guPfbhIhNzeQKQYgKkXoGTfI3_ucnAM_E3MpnGZhkKd_0uLONCgQ6mIWAayXUUQwVrx1R6s4Zv&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kwxDMe9nmQ02UsAiGnPOzg&oh=00_Afnz-vU7kowRGi47WpNCxPsVN4GsfrxTR72mznTta5acBQ&oe=69558D8F)
+<p></p>
+
+[Screenshot 2024-03-12 185526.png](../../image_data/d6e38726057bb5d32b29d82951c685513a5a617a880f4817b9514a203bd66c3f.md)
+
+### Overview
+This image depicts a code snippet within a text editor interface. The code is part of a method definition, specifically handling event parameters and a callback function. The syntax highlighting indicates that the code is being written in a programming language, likely JavaScript or TypeScript.
+
+### Key Elements
+- **Visual description**: The code is displayed in a monospaced font typical of code editors.
+- **Location**: The code is located in the bottom half of the image, occupying the right side of the screen.
+- **Contents**: 
+  - `@param event` — The CodeBlockEvent.
+  - `@param callback` — Called when the event is received with any data as arguments.
+  - `this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnPlayerEnterAFK, this.playerEnterAFK.bind(this));`
+- **Visual styling**: The code uses syntax highlighting with different colors for keywords (`this`, `connectCodeBlockEvent`, `CodeBlockEvents`, `OnPlayerEnterAFK`, `playerEnterAFK`) and strings (`event`, `callback`). The background is dark, suggesting a theme suitable for coding environments.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The code snippet itself.
+- **Arrows, lines, connectors**: None.
+- **Spatial relationships**: The code is aligned horizontally, with parameters and the function call clearly separated.
+
+</details>
+
+<p></p>
+
+
+
+<details>
+<summary>Screenshot 2024-03-12 185514.png</summary>
+
+<p></p>
+
+[Screenshot 2024-03-12 185514.png](../../image_data/f9d2ce2e60fc48c96f9da3e3c9f398ce0af8e847345baed90bd463bd7effbd36.md)
+
+### Overview
+This image displays a snippet of code written in TypeScript, specifically within a function named `playerEnterAFK`. The code is part of a larger program, likely related to managing player data in a game or application.
+
+### Key Elements
+- **Visual description**: The code is presented in a monospaced font typical of programming editors.
+- **Location**: The code is centered in the image.
+- **Contents**: 
+    ```typescript
+    playerEnterAFK(player: Player) {
+        const playerVar = allPlayerVarData.get(player);
+
+        if (playerVar) {
+            playerVar.afkCount++;
+        }
+    }
+    ```
+- **Visual styling**: The code uses syntax highlighting with keywords in blue (`player`, `const`, `if`, `get`, `var`, `++`) and strings in green (`allPlayerVarData`). The background is white, and the text is black.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The function definition and its contents.
+- **Arrows, lines, connectors**: None.
+- **Spatial relationships**: The code is structured linearly, with indentation indicating the nested `if` statement.
+
+</details>
+
+<p></p>
+
+
 
 Then we can get the playerVar and check the truthiness, updating the count to be +1. For extra credit try adding the playerExitAFK method and updating the boolean we added to the playerVar. Setting it to true when AFK, and false when they return from AFK.
 

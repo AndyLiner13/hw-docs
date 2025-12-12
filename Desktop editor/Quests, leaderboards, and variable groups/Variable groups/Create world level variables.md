@@ -11,7 +11,34 @@ Use the following process to create a world level variable:
 - Select **Systems** > **Variable Groups** from the menu bar.
 - In the Variable Groups panel, click the **Create Variable Group** button, then name your created variable group.
 - After creating the variable group, click the **Create Variable** button. In the **Create Persistent Variable** panel, use the **Variable Type** dropdown to select **World Persistent Variable**.
-  ![Create Persistent Variable panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/517447534_760611476476806_2459560139301980966_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=rt0RR0RhssAQ7kNvwF777nL&_nc_oc=AdnpzyglD9cURmlmWlOHGpm58w6HJz8nF2a3LQfEm8oBa81DLK9nAtcSXjFeRVoWnJl9CQmzHzDKHM8vvnh0atIa&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ebAM8PPtMJowXrarD9lffA&oh=00_Afku2wNTrdSR9lDynu65UdfO3RvfBX_jRTpjJyCSGpu_4Q&oe=69558192)
+  <details>
+  <summary>Create Persistent Variable panel</summary>
+  
+  <p></p>
+  
+  [Create Persistent Variable panel](../../../image_data/cb0637885d3718f3dd3c24d8642e811202ed38f29012b9385996b18a9c2d19d2.md)
+  
+  ### Overview
+  This image depicts a modal dialog box titled "Create Persistent Variable." It contains form fields for creating a persistent variable within a game development interface. The dialog box includes options for selecting the variable type, entering the name, choosing the data type, setting an initial value, and two buttons labeled "Cancel" and "Create."
+  
+  ### Key Elements
+  - **Title Bar**: Located at the top of the dialog box, reads "Create Persistent Variable."
+  - **Close Button**: Positioned on the right side of the title bar, represented by an "X."
+  - **Variable Type Section**: On the left side, labeled "Variable Type," with a dropdown menu currently set to "World Persistent Variable."
+  - **Name Field**: Below the Variable Type section, labeled "Name," with no text entered.
+  - **Data Type Section**: Below the Name field, labeled "Data Type," with no selection made.
+  - **Initial Value Section**: Below the Data Type section, labeled "Initial Value," showing the number "0."
+  - **Dropdown Menu**: A dropdown menu is open, showing two options: "Player Persistent Variable" and "World Persistent Variable," with "World Persistent Variable" selected.
+  - **Buttons**: At the bottom of the dialog box, there are two buttons labeled "Cancel" and "Create."
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the dropdown menu, as it is open and actively selected. The form fields are arranged vertically, with the "Variable Type" section being the first, followed by the "Name," "Data Type," and "Initial Value" sections. The buttons at the bottom are aligned horizontally, with "Cancel" on the left and "Create" on the right. There are no arrows or lines connecting elements, but the form fields follow a logical sequence for data entry.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Next, name your created variable and select the **Data Type**. You can choose from the following data types:
   * Number - used by world counter APIS to save community activity counters
   * Object - used by world variable APIs to save complex world states

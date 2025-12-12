@@ -14,4 +14,28 @@ Locking objects can be helpful for:
 * When an object is “locked,” a user will not be able to move it using the manipulators or select it in the scene.
 * In order to change properties from the property panel, the user must select the object from the hierarchy.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578055_512524694618820_67119210335259919_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=3QaZ9PBtBQgQ7kNvwGDjBEY&_nc_oc=AdliD9Na3GhaRgWfe8cf2sqwgXhLAVLUjZmDRFZs8p-s2nUmAvxZ-Fim8T3wqZfVt4SaMJiFNJuQnPYLt-HLBHJS&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=soDZS4hD-jQ50GHTmzaKVg&oh=00_AfnPJAgTMcdP8kI-HWwFMyHTt79Pwl7Oc-FD8NIPsA4MtQ&oe=6955978D)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/607640227f921f92f6412d8e5aab7e869a978748cb6e8ce82109cb986a843ac1.md)
+
+### Overview
+The image depicts a 3D modeling software interface with a snowman model prominently displayed in the center. The interface includes a sidebar with a hierarchy of objects, a central workspace showing the snowman, and a properties panel on the right side. The snowman has a textured surface resembling snowballs stacked together, with a carrot nose and coal eyes. There are lock icons next to some objects in the hierarchy.
+
+### Key Elements
+- **Hierarchy Sidebar**: Located on the left side, displaying a list of objects with names like "Cone," "Sphere B," and "Group." Lock icons are visible next to certain objects.
+- **Workspace**: Centered area showing the snowman model. The snowman has a textured white surface, a carrot nose, and coal eyes. A blue bounding box with a red arrow is overlaid on the snowman’s nose, indicating a selection or transformation tool.
+- **Properties Panel**: On the right side, showing attributes such as position, rotation, scale, material roughness, and physics properties. The snowman object is labeled as "Cone" in the hierarchy.
+- **Lock Icons**: Red arrows point to lock icons next to specific objects in the hierarchy, indicating locked states.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The snowman model in the center.
+- **Arrows and Lines**: Red arrows highlight the lock icons in the hierarchy.
+- **Spatial Relationships**: The hierarchy is on the left, the workspace is in the middle, and the properties panel is on the right. The lock icons are visually linked to the corresponding objects in the hierarchy.
+
+</details>
+
+<p></p>
+

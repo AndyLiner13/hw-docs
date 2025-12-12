@@ -56,7 +56,32 @@ npc.conversation.speak(“Welcome! I’m Bob the NPC. Please step forward so I c
 
 To test how NPCs behave when the AI system is disabled or unreachable, you can disable AI Speech in the NPC Debugger tab. This will simulate an AI NPC Speech disabled fallback instance when previewing your world in the editor by forcing your scripts that use the `isAiAvailable` API to return false and the `elicitResponse` LLM API to throw a `AiNotAvailableError`.
 
-![NPC Debugger](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/544801771_810235168181103_5986713930012268315_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=h2OPxreI4pYQ7kNvwEuyRFo&_nc_oc=AdkI9ENERNX1EQLlB1_SL7WSTCgvxgk9yxzdHY83XdN8A9kcZlQYqTeNnk0w7zZpeY9hgVMDvhDeMyz7ofjjznY7&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2VbyLjJdVl1MdNw2XkO_XA&oh=00_Afn8JTTAe2T_4mNDRsIK53MJHnWWX0QEeGhwtscSSBrqrw&oe=69559271)
+<details>
+<summary>NPC Debugger</summary>
+
+<p></p>
+
+[NPC Debugger](../../../image_data/713934863ebf1f01938a846e4612ae1aa7d51667c772048a33eb0c20eae31f5b.md)
+
+### Overview
+This image depicts a user interface section within a software application, specifically related to NPC (Non-Player Character) debugging. The interface includes tabs at the top labeled "Asset Library," "Console," "Tests," and "NPC Debugger." Below these tabs, there is a dropdown menu, a clear button, and a toggle switch labeled "AI Speech." A search bar is also present. A tooltip is displayed over the "AI Speech" toggle switch, providing additional information about enabling/disabling NPC AI speech during testing in the Editor.
+
+### Key Elements
+- **Tabs**: Located at the top, these include "Asset Library," "Console," "Tests," and "NPC Debugger."
+- **Dropdown Menu**: Positioned below the tabs, labeled "Select a gizmo."
+- **Clear Button**: Situated next to the dropdown menu, labeled "Clear."
+- **Toggle Switch**: Next to the clear button, labeled "AI Speech."
+- **Search Bar**: To the right of the toggle switch, with a magnifying glass icon.
+- **Tooltip**: A pop-up message stating, "Enable/Disable NPC AI Speech while testing in the Editor. Hold ctrl to learn more."
+
+### Visual Flow / Relationships
+The most prominent visual element is the tooltip, as it draws immediate attention due to its placement above the toggle switch and its distinct white background with black text. The tabs are arranged horizontally at the top, indicating a navigation structure. The dropdown menu, clear button, toggle switch, and search bar are aligned vertically below the tabs, suggesting a secondary level of interaction within the interface.
+
+</details>
+
+<p></p>
+
+
 
 ### Production testing
 
@@ -66,8 +91,73 @@ Outside of the editor, you can test AI disabled fallback instances by using an a
 
 Once you have completed testing AI Speech Fallbacks and are satisfied, it’s time to publish your world with the new Fallback features. By default, AI ineligible users are denied entry to worlds that contain AI Speech NPCs. Once you have completed this step, ineligible users will be routed to a separate instance of the world where AI is disabled:
 
-- Open **Player Settings**![Player Settings](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/546927353_810235221514431_2938994321209409501_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=r8KTnywwrlwQ7kNvwEqtnfp&_nc_oc=AdnPkGYUeMGqRLSgO9moY8J3nKyXBYZLnGj4trhD42w8SDcwR-UtaMt_aOClRnHT15VOPJYpIt2muHsVqowTBJku&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=2VbyLjJdVl1MdNw2XkO_XA&oh=00_AflavfgMUW1Z2OoDXd0-yfkHRAVgNyDBL75kajCLwZ9V8w&oe=69558133)
-- Set the **“NPC fallback option** to **Scripted Dialog Only**![NPC Fallback Option](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/544952915_810235198181100_6064166759231089005_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=BZ-nyhampO4Q7kNvwFooXM1&_nc_oc=AdkHJj0kSKV3azw53G30Z0TQFofbVT_tHdiv0V0osGoZzqu1K8noJayu8ffNP4g3_GKU-r5Oen4xar_HazNJ0CL_&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=2VbyLjJdVl1MdNw2XkO_XA&oh=00_AfmXPTXY3T6WhovfITIDePp1FUvnsVC0tTx_h3mCGkgAZw&oe=6955735E)
+- Open **Player Settings**<details>
+                          <summary>Player Settings</summary>
+                          
+                          <p></p>
+                          
+                          [Player Settings](../../../image_data/426c1871da677cfa84480f1209542fcda39e92cba99fdcb60da187df7696e352.md)
+                          
+                          ### Overview
+                          This image depicts a dropdown menu with a dark theme, likely part of a software interface. The menu contains several options listed vertically, each with a distinct label and some with additional sub-elements.
+                          
+                          ### Key Elements
+                          - **Visual description**: The menu has a dark background with white text and light gray separators.
+                          - **Location**: The menu is located on the left side of the screen, occupying the vertical space.
+                          - **Contents**: The menu items include:
+                              - "Return to Creation Home"
+                              - "View Application Logs"
+                              - "Launch Typescript Editor"
+                              - "Publish World"
+                              - "Rename World"
+                              - "Save Backup"
+                              - "Backups"
+                              - "Export Geometry"
+                              - "World capacity"
+                              - "Keyboard Shortcuts"
+                              - "Player Settings"
+                          - **Visual styling**: The text is in a sans-serif font, and the separators are thin horizontal lines.
+                          
+                          ### Visual Flow / Relationships
+                          The menu items are arranged in a linear fashion, with each item stacked vertically. There are no arrows or connectors, and the reading order is straightforward from top to bottom.
+                          
+                          </details>
+                          
+                          <p></p>
+                          
+                          
+- Set the **“NPC fallback option** to **Scripted Dialog Only**<details>
+                                                              <summary>NPC Fallback Option</summary>
+                                                              
+                                                              <p></p>
+                                                              
+                                                              [NPC Fallback Option](../../../image_data/aa8e2e31e93c5a589c51f5eac1be46c1404f27a2b8de65286d2ac374b58950d3.md)
+                                                              
+                                                              ### Overview
+                                                              This image depicts a settings dialog box titled "Player Settings." It contains various configuration options related to player interactions and world settings within a game environment. The interface is dark-themed with blue accents for interactive elements.
+                                                              
+                                                              ### Key Elements
+                                                              - **Title**: "Player Settings" at the top.
+                                                              - **Global Dropdown**: Located at the top right, showing "Global" as the selected option.
+                                                              - **Maximum Player Count Slider**: A slider set to 5, indicating the maximum number of players allowed in the world simultaneously.
+                                                              - **Suggested Minimum Player Count Slider**: Set to 1, suggesting the minimum number of players needed for optimal gameplay.
+                                                              - **Emotes Toggle**: A toggle switch labeled "Allow emotes to be triggered by gestures," currently off.
+                                                              - **NPC Fallback Option Dropdown**: Displays "Scripted Dialog Only" as the selected option, with other choices like "Deny world entry."
+                                                              - **Emote Audio Toggle**: A toggle switch labeled "Allow emotes to have sound effects," currently off.
+                                                              - **Can Hands Collide With Physical Objects Toggle**: A toggle switch labeled "Can Hands Collide With Physical Objects," currently on.
+                                                              - **Can Hands Collide With Static Objects Toggle**: A toggle switch labeled "Can Hands Collide With Static Objects," currently off.
+                                                              - **Custom Player Movement Toggle**: A toggle switch labeled "Custom Player Movement," currently off.
+                                                              - **Custom Name Tag Visibility Toggle**: A toggle switch labeled "Custom Name Tag Visibility," currently off.
+                                                              - **Buttons**: Two buttons at the bottom, "Cancel" and "Save."
+                                                              
+                                                              ### Visual Flow / Relationships
+                                                              The interface is structured in a linear fashion, with options listed vertically. Each option has a label followed by its corresponding control (slider, toggle, dropdown). The "Save" button is positioned at the bottom right, while the "Cancel" button is to its left. The dropdown menu for NPC fallback options is expanded, showing the current selection and other available options.
+                                                              
+                                                              </details>
+                                                              
+                                                              <p></p>
+                                                              
+                                                              
 - Publish update to your world
 
 ## Group Party Travel

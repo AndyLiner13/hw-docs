@@ -2,7 +2,31 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Shop Asset Template
 
-![Shop Asset Template](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/504085884_734185555786065_4230548913834177985_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7rJVnkpOBxMQ7kNvwHehfBy&_nc_oc=Admrl0l6zTSY8nkfEksWbsVL9c0JzoARGjYL0SYoanq6uyMSoQ_Gy3m1L55gkVilEgLoOCPIEKpnPPnPbAyYNd4u&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=1NfsE8224DwRTnMjgpnCpA&oh=00_AfnPklT4yRKlPv98kKsY2xGmYzc4k8EqYpnjQMDRpAuSkg&oe=69559B12)
+<details>
+<summary>Shop Asset Template</summary>
+
+<p></p>
+
+[Shop Asset Template](../image_data/9a4df1504e9b9f610a84b25180e4bf29d52e6e2fcc1364665381fa7b3cf5b4f9.md)
+
+### Overview
+This image depicts a user interface element from a game or application, specifically a market section labeled "Fresh Market." It shows items available for purchase, each with an icon, name, description, price, and quantity.
+
+### Key Elements
+- **Top Left Corner**: A coin icon with a dollar sign, labeled "Banana" with a price of "25" and a description "A banana."
+- **Center Left**: A green potion bottle icon, labeled "Green Potion" with a description "A green potion, wow," priced at "4."
+- **Right Center**: A purple potion bottle icon, labeled "Purple Potion" with a description "purple :O," priced at "10."
+- **Top Right Corner**: A circular icon showing a banana and the number "159," likely representing the player's current balance or inventory.
+- **Top Right Corner (Closest to Banana Icon)**: A small "X" button, presumably for closing the market window.
+
+### Visual Flow / Relationships
+The layout is grid-like, with three items arranged horizontally. The items are evenly spaced, and there are no connecting lines or arrows indicating a specific reading order. The most prominent visual elements are the item icons and their corresponding labels and descriptions.
+
+</details>
+
+<p></p>
+
+
 
 Note
 
@@ -18,7 +42,43 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Shop Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Shop” in the search field. Finally, select the Shop Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Shop Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/503737348_734185559119398_8977711842245773395_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=xuBARzpaahEQ7kNvwEhqzNc&_nc_oc=Adkj3nMrA4yF3W0APv8ucHO9uF0piTOdAm6o1ng6-0Ug2ZLUxNzd3z0pueFieIYffOrmrLOCRZixdek0bk7TAZRS&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1NfsE8224DwRTnMjgpnCpA&oh=00_AflrvEtKlMih-fk8lSCcIZSgSGbHN8O6oHqmoqlxkYjgqg&oe=69558891)
+<details>
+<summary>Finding the Shop Asset Template</summary>
+
+<p></p>
+
+[Finding the Shop Asset Template](../image_data/abad0a1d59e114694d3312d03dfde81fd2729073df07dfc447cb8de6a7075c00.md)
+
+### Overview
+This image depicts a user interface of an asset library within a software application. The layout includes a sidebar with categories, a search bar, sorting options, and a grid of asset thumbnails. The interface is designed for managing and viewing digital assets related to shop interiors.
+
+### Key Elements
+- **Sidebar (Left Panel)**:
+  - **Public Assets**: A folder icon labeled "Public Assets" indicating a section for shared assets.
+  - **My Assets**: A folder icon labeled "My Assets," suggesting a personal collection of assets.
+- **Search Bar (Top Center)**:
+  - Contains a magnifying glass icon and the word "shop," indicating a search query.
+- **Sorting Options (Top Right)**:
+  - "Newest" dropdown menu showing sorting criteria.
+  - "All" dropdown menu likely for filtering asset types.
+  - "Creator" dropdown menu for filtering by creator.
+- **Asset Grid (Center)**:
+  - Contains thumbnails of various assets labeled as "Shop Awning," "Shop Door," and "Shop Window."
+  - Each thumbnail has a circular icon with "MetaHoriz..." text, possibly indicating the creator or source.
+- **Highlighted Asset (Right)**:
+  - A larger thumbnail of a "Shop" asset with a thumbs-up icon showing one like and zero dislikes.
+  - The asset has a purple background with a white storefront icon and a paintbrush icon, suggesting customization options.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The highlighted "Shop" asset on the right.
+- **Arrows/Connectors**: None visible.
+- **Spatial Relationships**: The sidebar is on the left, the search bar is at the top, and the asset grid occupies the central area. The highlighted asset draws attention due to its larger size and distinct color.
+
+</details>
+
+<p></p>
+
+
 
 ## Shop Asset Template properties
 

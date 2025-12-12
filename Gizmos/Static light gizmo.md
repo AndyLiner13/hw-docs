@@ -8,13 +8,62 @@ The following image shows the static light gizmo, the red cube, lighting an obje
 
 **Note**: An [environment gizmo](Environment%20gizmo.md) is added to the world where a night skydome is applied.
 
-![The static light gizmo lighting an object in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505590096_738224345382186_9005774872030246077_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=JM2-0DPcM2sQ7kNvwFtxESZ&_nc_oc=AdnXZ3YmDGiyB-WjE7gGejdJlC5TkxPIWdlzBj9PbU1yyzuKBt65D0x1QmOIGQUa-SVToUOYKLUue6TTkSsBFspk&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AD2Sai1ozZ55ooBhddsFpA&oh=00_AfkT2OKyb-Uwos2pXXx5RmO0bGUxHwldaOLIrW0ZEGKeJQ&oe=695594AE)
+<details>
+<summary>The static light gizmo lighting an object in the Build mode</summary>
+
+<p></p>
+
+[The static light gizmo lighting an object in the Build mode](../image_data/d755bc59ae495d2379e51a7cb22b41db4d2a26bc9eecaf0524034f967bc90a38.md)
+
+### Overview
+This image depicts a 3D scene viewed from above, resembling a virtual environment or a game interface. The scene includes geometric shapes, a small humanoid figure, and a floating icon.
+
+### Key Elements
+- **Red Cube**: Located near the bottom-left area of the image. It has a blue arrow pointing towards its front face and a green arrow pointing upwards. The cube is outlined in red.
+- **Green Arrow**: Positioned on the red cube, pointing upwards.
+- **Blue Arrow**: Positioned on the red cube, pointing towards its front face.
+- **Gray Pyramid**: Situated below the red cube, partially obscured by it.
+- **Humanoid Figure**: A small, light blue humanoid figure is located near the center of the image, slightly to the right. It appears to be floating and is facing upwards.
+- **Floating Icon**: A small, light blue icon with a plus sign is positioned above the humanoid figure.
+- **Background**: The background is a gradient of dark to light gray, with a grid overlay suggesting a floor or surface.
+- **Floating Icon (Top Right)**: A small, light blue icon with a sun and cloud design is located in the top-right corner of the image.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the red cube and the humanoid figure. The green and blue arrows on the red cube draw attention to specific directions. The floating icon above the humanoid figure suggests some form of interaction or action related to the figure. The overall layout implies a user interface or a simulation environment.
+
+</details>
+
+<p></p>
+
+
 
 The following image shows the same static light gizmo lighting an object in the [Preview mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md).
 
 **Note**: The geometry of the light, the red cube, is hidden in the Preview mode.
 
-![The static light gizmo lighting an object in the Preview mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/505424288_738224342048853_1656212214900149301_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=87JP29-4_a8Q7kNvwHv5Q5D&_nc_oc=AdkF9YOLXK9fvV9LGgDpYgpZXpr6VUU4ZKZkwV_VTwTWoQHiEl_0LHSdLEgFuQ0HQl2Ml1uEVyUw4QBbMxRSSnpc&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AD2Sai1ozZ55ooBhddsFpA&oh=00_AflKevZ7p0dpidE2O8WK_Wu_w1ozjXqu_NhfJ04_4TB0hA&oe=69558D36)
+<details>
+<summary>The static light gizmo lighting an object in the Preview mode</summary>
+
+<p></p>
+
+[The static light gizmo lighting an object in the Preview mode](../image_data/3f50acad87da630b016b5c1dbc0ff074756a7905107cd930dbccd7d06127b529.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a character standing in a minimalist environment. The character has a back view, wearing a pink hoodie, blue jeans, and light-colored sneakers. There is a large, geometric cube to the left of the character. The background consists of a flat, tiled floor extending into the distance under a gradient sky.
+
+### Key Elements
+- **Character**: Located centrally in the image, facing away from the viewer. The character has a stylized appearance with a bun hairstyle in pink and blue tones. They are wearing a pink hoodie, blue jeans, and light-colored sneakers.
+- **Cube**: Positioned to the left of the character, it is a large, simple geometric shape with a gradient from pink to white.
+- **Background**: A flat, tiled floor with a grid pattern, transitioning from a darker shade at the top to a lighter shade at the bottom. The sky above is a gradient of dark to light blue.
+
+### Visual Flow / Relationships
+The character is the most prominent visual element due to their central placement and distinct features. The cube is secondary but still noticeable due to its size and color contrast against the background. The background provides a neutral setting that does not distract from the main subjects.
+
+</details>
+
+<p></p>
+
+
 
 ## Access the static light gizmo
 

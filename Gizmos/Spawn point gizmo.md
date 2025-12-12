@@ -30,10 +30,69 @@ The spawn point gizmo includes enhanced camera options for mobile and web platfo
 
 * **Mobile Camera**: A mobile-specific setting which allows you to configure camera behavior. This can greatly improve the accessibility to your world for mobile users.
 
-  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558914867_835743105630309_479224545206663294_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=9tEpPq8m83wQ7kNvwFhErjU&_nc_oc=Adm34UMokRfmNxD__RwhFBhqSLEGKFjENoS09NogTTtwuQj46Jba8Z6N_SBYq7LJSq9kpV_vINNVS5SI1zFBQNiD&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jpjSAHEoid927RkX8FAqaA&oh=00_Aflrzd3BazqfKCmqVIIcTekXP8mC4yrjNlwFjlyqTAylDg&oe=69559095)
+  <details>
+  <summary>Screenshot shows the desktop editor</summary>
+  
+  <p></p>
+  
+  [Screenshot shows the desktop editor](../image_data/0e4f75d49c4c7b4b8d0782b215327849e0fb9db1235dbbd4d6e9256d19b01579.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a dropdown menu with camera options under the "Landscape" section of a mobile camera settings interface. The dropdown is open, revealing several camera modes.
+  
+  ### Key Elements
+  - **Visual description**: The dropdown menu has a dark background with white text.
+  - **Location**: The dropdown menu is located in the upper right area of the image.
+  - **Contents**: The text within the dropdown includes "Third Person," "First Person," "Orbit," "Pan," and "Follow." The "Follow" option is highlighted with a checkmark next to it.
+  - **Visual styling**: The dropdown has a dark gray background with white text. There are no borders around the dropdown itself, but there is a subtle shadow effect underneath the dropdown, giving it a slight elevation.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The "Follow" option with the checkmark is the most prominent due to its highlighted status.
+  - **Arrows, lines, connectors**: There are no arrows, lines, or connectors visible in the image.
+  - **Spatial relationships**: The dropdown menu is positioned to the right of the "Landscape" section heading, which is located in the top-left corner of the image.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * **Portrait/Landscape separation**: You can define different visual parameters for each orientation to optimize the player experience across different device orientations
 
-  ![Screenshot shows the desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/562978628_835743102296976_2582391894108356684_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=atOnBzIIaLcQ7kNvwEVn52E&_nc_oc=AdnG9bbmdKcN6qvx7nxdfFQbv9NBwnwGAFQq8VKadhdUkLcLL_tDFHPX1EMH-gpVkHbTFS0-1TGrddBklvRpL4eN&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jpjSAHEoid927RkX8FAqaA&oh=00_Afln1vtjVzQRxHOzmJeKyfCGMxSfy11eFLDZUxdByeH9FA&oe=69559DC9)
+  <details>
+  <summary>Screenshot shows the desktop editor</summary>
+  
+  <p></p>
+  
+  [Screenshot shows the desktop editor](../image_data/f40773e5897ae70f7ad97fdf598c643ea12207bf97c68d8350159b3dcf4c2cf3.md)
+  
+  ### Overview
+  This image displays a settings interface with adjustable parameters for camera settings in both landscape and portrait modes. The layout is structured with two expandable sections, each containing multiple configuration options.
+  
+  ### Key Elements
+  - **Landscape Section**:
+    - **Camera Auto Follow Delay**: Located in the top-left area, the value is set to `2`.
+    - **Enable Continuous Rotation**: Positioned to the right of the delay setting, this option has a toggle switch that is currently off.
+    - **Camera Distance**: Found below the continuous rotation toggle, its value is `5`.
+    - **Allow Horizon Levelling**: Below the camera distance, this option also has a toggle switch, which is off.
+    - **Rotation Rate**: Positioned below the horizon levelling toggle, its value is `1`.
+    - **Camera Vertical Offset**: At the bottom of the landscape section, its value is `0`.
+  
+  - **Portrait Section**:
+    - **Camera Auto Follow Delay**: Located in the top-left area, the value is set to `2`.
+    - **Enable Continuous Rotation**: Positioned to the right of the delay setting, this option has a toggle switch that is currently off.
+    - **Camera Distance**: Below the continuous rotation toggle, its value is `6.5`.
+    - **Allow Horizon Levelling**: Below the camera distance, this option has a toggle switch that is currently on.
+    - **Rotation Rate**: Positioned below the horizon levelling toggle, its value is `1`.
+    - **Camera Vertical Offset**: At the bottom of the portrait section, its value is `0.5`.
+  
+  ### Visual Flow / Relationships
+  The interface is organized into two main sections, each with its own set of parameters. The parameters within each section are arranged vertically, with the most prominent elements being the toggle switches for enabling features. The visual hierarchy is clear due to the distinct separation of the two sections.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ## Preview and publishing configuration
 

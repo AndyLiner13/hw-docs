@@ -32,15 +32,93 @@ In the **Visual** section, additional properties are available to customize the 
 
 The following image shows how the **Preview** property works while you’re in the [Build mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md). Once the TrailFx gizmo is configured with a simple trail in colors of purple and green, click **Play** next to **Preview**. You can [move](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#move) the gizmo manually to see the trailing effect.
 
-![The TrailFx gizmo configured with a simple trail in colors of purple and green in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/506212074_739691291902158_3023337851867814073_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=hBG6XeglcAcQ7kNvwGUyI8M&_nc_oc=AdkeTgCoZWj0RboRax8FBdR9AxMgJCPZqUo1gcYGZCzyOTyga60rOFc5EFRHi15_5tU7bJ_ht1G2hLDAv-I4gOp2&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=7RQuQ0BQl41nMfNKhikiaQ&oh=00_AfnrtUjmKn5lPos4ZJAp2VVBoAzdWPY4C5xCGGs6JW3J7w&oe=69558B49)
+<details>
+<summary>The TrailFx gizmo configured with a simple trail in colors of purple and green in the Build mode</summary>
+
+<p></p>
+
+[The TrailFx gizmo configured with a simple trail in colors of purple and green in the Build mode](../image_data/05b341cf1f4245f0a8d0b3184494734562ae7fdeae002e0a8735689f65a63b9a.md)
+
+### Overview
+This image depicts a 3D modeling environment with a large rectangular object and a smaller cube-like object. The scene includes a grid floor and a small human figure for scale. There are also directional arrows and a coordinate indicator.
+
+### Key Elements
+- **Rectangular Object**: A large, elongated object with a gradient from purple to green at one end. It has a smooth surface and is positioned horizontally across the scene.
+- **Cube Object**: A smaller, cube-shaped object with a red face featuring white markings. It is located to the left of the rectangular object and is oriented slightly tilted.
+- **Directional Arrows**: Green upward arrow near the cube and a yellow arrow pointing towards the rectangular object.
+- **Coordinate Indicator**: A black oval with white text indicating "X:-10.77" near the yellow arrow.
+- **Human Figure**: A small blue figure with a head and limbs, positioned below the rectangular object, serving as a scale reference.
+- **Grid Floor**: A dark gray grid covering the entire floor, providing a structured background.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the rectangular object and the cube. The arrows indicate movement or direction towards the rectangular object. The human figure provides a sense of scale, emphasizing the size of the objects. The coordinate indicator suggests a focus on the X-axis measurement.
+
+</details>
+
+<p></p>
+
+
 
 The following images show the TrailFx gizmo at work while you’re in the [Preview mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) with **Play on Start** turned on. The shape and the color of the trail are configured as **Tapered** with colors of purple and pink.
 
 **Note**: To reproduce what you see in the image below, create a world by first following the [Batting cage tutorial](../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md) and then add a TrailFx gizmo as a [child object](../Desktop%20editor/Objects/Object%20hierarchy%20and%20groups.md) of the ball in the [**Hierarchy** panel](../Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md). [Adjust the position](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#move) of the TrailFx gizmo so that it appears to be trailing the ball.
 
-![The TrailFx gizmo configured as the child of the ball in Hierarchy](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506050919_739691298568824_5981076667099177757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=NfFb_ozRnBcQ7kNvwG4Boqt&_nc_oc=AdljtIZ3I9hNqTtgOBsWsJbRalKVpGeiZa85JalXGs6HXShI5XLmSFFsMIgWPIBCfUHPbonOCGLyRL4efqn5o-Nq&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=7RQuQ0BQl41nMfNKhikiaQ&oh=00_Afldzmqt9Xxkfpcz3ekFsS9kvD-EWItIje9B0UiyGIi6Ow&oe=695599DD)
+<details>
+<summary>The TrailFx gizmo configured as the child of the ball in Hierarchy</summary>
 
-![The TrailFx gizmo in the Preview mode](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506407852_739691295235491_2590837823088924789_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=_eC0pNSHAmIQ7kNvwGiZTGQ&_nc_oc=Adl7Yq_Krcp7agNd7uYUbKdtYZvMSEG3CkRZWgZ-lH3LZ4nbuepDhlgKkgk4WX2pW5dp5kgzhGFywcQNj2Sri-yH&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=7RQuQ0BQl41nMfNKhikiaQ&oh=00_AfkXG-3AyANzRsQLe19wglczfz1oLztl8NOqY6NXKvySbg&oe=695570EB)
+<p></p>
+
+[The TrailFx gizmo configured as the child of the ball in Hierarchy](../image_data/9253b51d87c31aa5884ce34d9ae6ae2f126330f7a0a94f66d7d36df4cb063420.md)
+
+### Overview
+This image displays a list of items with corresponding icons next to them against a dark background. The items appear to be part of a menu or interface, possibly related to game development or asset management.
+
+### Key Elements
+- **Visual description**: Icons and text labels.
+- **Location**: Top-left corner of the image.
+- **Contents**: 
+    - Icon: A person figure.
+      > SpawnPoint
+    - Icon: A cube.
+      > Bat
+    - Icon: Another cube.
+      > Ball
+    - Icon: A gear with a lightning bolt.
+      > PrototypeTrailFx
+- **Visual styling**: Dark background, white text, and icons with a subtle glow effect.
+
+### Visual Flow / Relationships
+The elements are arranged vertically, with each item having its own line. There are no arrows or lines connecting the elements, indicating a simple list structure without hierarchical relationships.
+
+</details>
+
+<p></p>
+
+
+
+<details>
+<summary>The TrailFx gizmo in the Preview mode</summary>
+
+<p></p>
+
+[The TrailFx gizmo in the Preview mode](../image_data/e98b328543c9b5292fe1055fe4dccbc28d5788188f7edb5778c61bae820ac9c3.md)
+
+### Overview
+The image depicts a 3D-rendered character standing outdoors on a stone-paved area under a clear sky. The character has a distinctive hairstyle split into pink and blue sections, wearing a pink hoodie, light blue jeans, and white sneakers. Above the character, there is a floating object resembling a cone with a gradient from purple at the top to white at the base.
+
+### Key Elements
+- **Character**: Located centrally in the image, facing away from the viewer. The character has a split hairstyle with pink on one side and blue on the other. They are wearing a pink hoodie with a small emblem on the chest, light blue jeans, and white sneakers.
+- **Floating Object**: Positioned above the character's head, resembling a cone with a gradient from purple at the top to white at the bottom.
+- **Background**: A clear blue sky occupies the upper portion of the image, transitioning to a lighter shade near the horizon line. Below the horizon, there is a flat expanse of water, and the ground is covered with large, irregularly shaped stones forming a paved surface.
+
+### Visual Flow / Relationships
+The most prominent visual element is the character, as they occupy the central focus of the image. The floating object is secondary but draws attention due to its unusual shape and color contrast against the sky. There are no arrows or lines connecting elements, and the reading order is implied by the character's position and the floating object's placement above them.
+
+</details>
+
+<p></p>
+
+
 
 ## Scripting
 

@@ -8,7 +8,30 @@ By default, an entity’s pivot point is its center. This behavior works well fo
 
 When you create an asset using a [digital content creation tool](../../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md#setup-requirements), you can configure the [3D model](../../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md) to use an offset pivot instead of a center pivot. As you import [this type of asset](../../Reference/core/Classes/MeshEntity.md) to your personal asset library in Meta Horizon Worlds, you have the option to [**Preserve offset pivots**](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%202.md#part-2-import-custom-models-and-write-your-first-script). When you enable **Preserve offset pivot**, entities spawned from the asset will rotate and scale around the pivot defined in the FBX file, instead of the default center pivot.
 
-![Turn on Preserve Offset Pivot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489545097_693923539812267_8172185265185112732_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=17znv4WbmF4Q7kNvwEvCIwt&_nc_oc=AdmUgFwFd2XxOGqrzkgR4wAMAFwQN3liTWkExI54GS4LWius4J2N7uMjmI-FABslczPENn_b62KUzIVeONu5KN4I&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0eb06jx2GigQC-P_B5zeAQ&oh=00_AfmhsIGD26r_LnJ7IRHyzIAkykLf2qojyPiMTpfGz4VYZQ&oe=69557FF2)
+<details>
+<summary>Turn on Preserve Offset Pivot</summary>
+
+<p></p>
+
+[Turn on Preserve Offset Pivot](../../image_data/b907e014b4554cce7b3f982ec1ae843f151ee0a9517390782989963424ec7917.md)
+
+### Overview
+This image depicts a user interface element showing a toggle switch and accompanying text explaining its function. The overall composition is simple, with a focus on the toggle switch and descriptive text below it.
+
+### Key Elements
+- **Toggle Switch**: Located in the top-left corner. It is a blue rectangular button with a white square inside, indicating the current state of the toggle.
+- **Text**: Positioned below the toggle switch. The text reads: 
+    > "Preserve offset pivots\nPreserves pivot defined in original asset (if disabled, pivots will be centered)"
+- **Background**: The background is a dark gray color, providing contrast to the lighter elements.
+
+### Visual Flow / Relationships
+The toggle switch is the most prominent visual element due to its placement and distinct color. The text below explains the function of the toggle switch, creating a clear relationship between the visual and the information provided.
+
+</details>
+
+<p></p>
+
+
 
 Although you can use offset pivots in both the [desktop editor](../Desktop%20Editor.md) and the [VR editor](../../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), this topic focuses on the desktop experience. Additionally, you can also write [TypeScript code](../../Reference/core/Classes/Entity.md) that uses the offset pivot for rotating and scaling.
 
@@ -31,12 +54,79 @@ Follow these steps to use the asset file provided by Meta that contains an offse
 - Download the [Demo asset](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38974594_480602711643840_7021902764535901297_n.zip?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=8ccTEdTjkqMQ7kNvwEt2eLx&_nc_oc=AdnWGggOArEgn2I4M4gDW6ruc2UEEkwORF4rtWp80Cj9M26yLiYvIagXyEbNKPI9FLNsUZQuYlQ0P0D_c5KXNZq0&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfmZj791Igv8XbinsWpcco7ISHTXaa6YNjHkEmHKpNH5pw&oe=69557F0B)
   . This file is a zip archive that contains a single mesh 3D model that contains an offset pivot, and a texture file.
 
-  ![A single mesh 3D model provided by Meta](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461927797_559139473290675_4813403258144594456_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=iqg3AANdR5MQ7kNvwEChQ71&_nc_oc=AdkU-ct7o87J68jWC8bnEq8dYN7Jm7J4c8ONS48mknkacU0BGSTgr5N0H9EaGQ1nAoDlLHrMrFJWeHkh7l-hzF3Z&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0eb06jx2GigQC-P_B5zeAQ&oh=00_AfknWm5pUiJNG_vZIec8N_yco0CHIAgwNWKXtwsxWT7oEg&oe=69558E57)
+  <details>
+  <summary>A single mesh 3D model provided by Meta</summary>
+  
+  <p></p>
+  
+  [A single mesh 3D model provided by Meta](../../image_data/2746e16515be6eb4a14dcb38dd88f8e425983a944e6f8aa4bf627f1f647118f9.md)
+  
+  ### Overview
+  The image displays two file icons side by side, labeled with their respective filenames beneath them. The icons represent different file formats, one being a PNG image and the other a .fbx file.
+  
+  ### Key Elements
+  1. **Left Icon**
+     - **Visual description**: A pixelated, colorful icon resembling a bird's eye view of a landscape.
+     - **Location**: Left side of the image.
+     - **Contents**: Contains various shades of brown, beige, and red, suggesting a terrain or map-like design.
+     - **Visual styling**: The icon has a grid-like pattern, possibly indicating a tile-based map. The colors are vibrant but somewhat muted.
+  
+  2. **Right Icon**
+     - **Visual description**: A simple black cube icon enclosed within a white document folder icon.
+     - **Location**: Right side of the image.
+     - **Contents**: The cube is solid black, and the folder icon is white with a gray outline.
+     - **Visual styling**: The cube is centered within the folder, which has a subtle shadow effect giving it a slight 3D appearance.
+  
+  3. **File Names**
+     - **Left**: "Bird_BR.png"
+     - **Right**: "SkateboardBird.fbx"
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The left icon due to its larger size and more complex design.
+  - **Arrows/lines/connectors**: None.
+  - **Spatial relationships**: The icons are evenly spaced horizontally, with the filenames directly below each icon.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Unzip the archive to a local folder. Next, import the 3D model to **My Assets** either through the desktop editor or your [Meta Horizon portal account](https://horizon.meta.com/creator/assets/folder/). The following steps highlight the experience from the desktop editor.
 - In the desktop editor, navigate to [Asset Library](../Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#assets-library) under the [Scene pane](../Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 - Click on **My Assets** > **Add New** > **3D Model**.
 
-  ![Import a 3D model](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/490513036_693923536478934_4393520325363504919_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=e20xiowgRD0Q7kNvwEHJsrV&_nc_oc=AdnIRIv2hqNvWxsOvcdiKmkyJPlX-Gr8rOaf14UinW_vR74F2OB8T6WolvQWHGWLPNBWh5OjgXQBTdAT-qdjd303&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0eb06jx2GigQC-P_B5zeAQ&oh=00_AfnzIezBam7j_pUNTInv8Sd6FZJmK_FkcnSdGJkWRfh6EA&oe=69556EFB)
+  <details>
+  <summary>Import a 3D model</summary>
+  
+  <p></p>
+  
+  [Import a 3D model](../../image_data/18dd2d0c8f2fae121dea2fe9a906c4ea80eb9faf845de47d864e9432d417a7c8.md)
+  
+  ### Overview
+  This image depicts a user interface element within a software application, specifically a dropdown menu that appears when interacting with a "Add New" button. The interface is part of an asset management system, as indicated by the "Asset Library" header at the top.
+  
+  ### Key Elements
+  - **Visual description**: A dropdown menu with a dark background and light-colored text options.
+  - **Location**: Positioned below the "Add New" button in the center of the screen.
+  - **Contents**: The dropdown contains several menu items listed vertically:
+      - Folder
+      - 3D Model
+      - Material
+      - Skydome
+      - Texture
+      - Text
+  - **Visual styling**: The dropdown has a dark gray background with white text. The selected item, "My Assets," is highlighted with a darker shade of gray.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The dropdown menu itself, as it is the focal point of the interaction.
+  - **Arrows, lines, connectors, or implied reading order**: There are no arrows or lines connecting elements, but the vertical arrangement of the menu items suggests a sequential reading order.
+  - **Spatial relationships**: The dropdown is directly beneath the "Add New" button, indicating its purpose as a dropdown menu for selecting new asset types.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - The **Import Model(s)** dialog appears. Click **choose files on your device**.
 - Navigate to the folder that contains the unzipped asset files.
 - Select the two asset files and then click **Open**.
@@ -50,11 +140,81 @@ Follow these steps to use the asset file provided by Meta that contains an offse
 
   **Note**: Once the mesh of the custom model is imported, changes to the pivot must be done in a [digital content creation tool](../../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md#setup-requirements). While you cannot change the pivot’s position in the Meta Horizon Worlds desktop or VR editor, you can toggle between the entity’s offset pivot and the center pivot as shown in the image below. The setting persists across Meta Horizon Worlds sessions.
 
-  ![Comparing center pivot to offset pivot](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489759643_693923543145600_2643000062555377148_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=T4zvnW58yHwQ7kNvwF2hn62&_nc_oc=AdmVDMllqutoVWszSYoyvdBXUWJaOXF0YiVKvvPPtRsPJ5op5koVPTkSbSuTfHdLiHhlcYEXoXaisV5PY-YEZll2&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0eb06jx2GigQC-P_B5zeAQ&oh=00_AfkjwYiOQx30yJWaWo2_43jw1XMO-5k82xoJPRpc5O4STA&oe=6955758E)
+  <details>
+  <summary>Comparing center pivot to offset pivot</summary>
+  
+  <p></p>
+  
+  [Comparing center pivot to offset pivot](../../image_data/3324be6b1b82df128c43898a397d72bddab9535d497a0ff7a8fd777c7811a26c.md)
+  
+  ### Overview
+  The image displays a split-screen view of a 3D modeling software interface showing a character model on a skateboard. The left side shows the model without any transformation applied, while the right side shows the model after a transformation has been applied. The interface includes various toolbars at the top with options for local and center transformations, as well as a pivot point selection feature.
+  
+  ### Key Elements
+  #### Left Side
+  - **Visual description**: A 3D model of a cartoonish bird wearing sunglasses, standing on a skateboard.
+  - **Location**: Center of the left panel.
+  - **Contents**: The bird is orange with a round head, large feet, and a small beak. It is wearing dark sunglasses.
+  - **Visual styling**: The background is a gradient blue sky with a light gray ground plane.
+  
+  #### Right Side
+  - **Visual description**: The same 3D model of the bird on a skateboard, but with additional visual elements indicating transformations.
+  - **Location**: Center of the right panel.
+  - **Contents**: The bird is still orange with sunglasses, standing on a skateboard. There are green and red arrows indicating axes of rotation, and a red dot marking the pivot point.
+  - **Visual styling**: The background remains a gradient blue sky with a light gray ground plane.
+  
+  #### Toolbars
+  - **Visual description**: Toolbars at the top of both panels.
+  - **Location**: Top of both panels.
+  - **Contents**: Options for "Local," "Pivot," "Center," and "Relative" transformations.
+  - **Visual styling**: Dark background with white text and icons.
+  
+  #### Transformation Axes
+  - **Visual description**: Green and red arrows indicating axes of rotation.
+  - **Location**: Below the bird on the right side.
+  - **Contents**: Green arrow pointing upwards, red arrow pointing to the right, and a red dot marking the pivot point.
+  - **Visual styling**: Green and red arrows with a white outline.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The 3D model of the bird on the skateboard.
+  - **Arrows and dots**: Indicate the axes of rotation and the pivot point, guiding the viewer's attention to the transformation applied to the model.
+  - **Spatial relationships**: The left side shows the original model, while the right side shows the model after applying transformations indicated by the axes and pivot point.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
   You can also enable the offset pivot in [VR](../../VR%20tools/Getting%20started/Use%20the%20Creator%20Menu%20in%20Meta%20Horizon%20Worlds.md) as shown below.
 
-  ![Turn on offset pivot in VR](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/489927670_693923533145601_7120568709072388555_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=_x1xQKrV9aUQ7kNvwETsrXK&_nc_oc=Adm-FCQAc2iL6IE6TtvvaVAEH0Lan3vZ_2tlro8RCw0Cvg11ZERC40LMal23GGg1eb0p55-Y-SIbvotNaT33WX-a&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0eb06jx2GigQC-P_B5zeAQ&oh=00_Aflb3gdtIPUbH_k7eVjoUZ3PjyOIHWsp3PWajolj4mK_-g&oe=6955733D)
+  <details>
+  <summary>Turn on offset pivot in VR</summary>
+  
+  <p></p>
+  
+  [Turn on offset pivot in VR](../../image_data/12b2696d615178841cc75ad780855710942ce2c00deccfd4e8173439b5cbb731.md)
+  
+  ### Overview
+  The image depicts a 3D modeling interface with a character model being manipulated within a grid environment. The interface includes a settings panel and a build panel, both of which are interactive and provide various options for object manipulation and customization.
+  
+  ### Key Elements
+  - **Character Model**: A cartoonish orange bird wearing sunglasses, standing on a skateboard. The model has a simple design with basic shapes and lacks detailed textures.
+  - **Settings Panel**: Located on the left side, it contains a menu with options such as "Build," "Comfort," and "Settings." The "Build" option is highlighted.
+  - **Build Panel**: Positioned on the right, it offers various parameters for building objects, including "Dominant Hand," "Snap to Point," "Grid Unit," "Object Rotation," "Angle," and "Object Manipulation."
+  - **Grid Environment**: The background features a tiled floor with a grid overlay, indicating a virtual workspace for 3D modeling.
+  - **Interaction Tools**: Below the build panel, there are icons representing different interaction tools, such as selection, rotation, scaling, and more.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The character model is the focal point, as it is the subject of the manipulation.
+  - **Arrows and Lines**: Blue lines form a bounding box around the character model, suggesting that it is being selected or manipulated.
+  - **Spatial Relationships**: The settings panel is adjacent to the build panel, providing contextual options for the model. The interaction tools are positioned below the build panel, ready for use.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Manipulate the entity based on its offset pivot, including position, rotation, and scale. You can do this in the [desktop editor](../Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md) and in the [VR editor](../../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md).
 
   **Note**: If you need to define custom pivots for entities created in the Meta Horizon Worlds desktop editor, see [Pivot around parent object](../Hierarchy%20window/Hierarchy%20panel%20overview.md#pivot-around-parent-objects) for a different approach.

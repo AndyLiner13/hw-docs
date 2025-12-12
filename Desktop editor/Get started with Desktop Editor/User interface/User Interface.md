@@ -4,7 +4,31 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The Desktop Editor contains a variety of controls that enable you to create objects to add to your scene. These tools provide you the control to position, scale, and program an object’s behaviour with scripts.
 
-![The Desktop Editor screen with groups of controls labeled](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/585580538_867432745794678_3017995306772719798_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=BRoqhPnrhxIQ7kNvwFD6K8y&_nc_oc=Adni5-zegmw6u8vImqBiWF3dWBs889m5BiuFL5dRvNZ2Du6mPp-VZ-nvSSzajfnwx11Qp7LWdCe2A5zqldJ_jKmz&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=LaGI5-TrIfm-ADWadyIApw&oh=00_AflP2TadCvjcwuHAfwP87YLNKdxdbUr1cxekv62wVk_n4w&oe=69558D13)
+<details>
+<summary>The Desktop Editor screen with groups of controls labeled</summary>
+
+<p></p>
+
+[The Desktop Editor screen with groups of controls labeled](../../../image_data/e1e54e4021dc76586e31c4c385f07468b7a6b3c021fbca4e32cc0554c5b3a531.md)
+
+### Overview
+This image depicts a user interface of a 3D modeling or game development software. The central area displays a 3D scene with a gradient sky and a grid floor. The left side contains a hierarchy panel with nodes labeled "Spawn Point," "emerald," "Completed Scripts," and "Environment." The top bar includes various menu options and tool buttons. The right side has a properties panel, and at the bottom, there are tabs for "Asset Library," "Console," "NPC Debugger," and "Performance."
+
+### Key Elements
+- **Hierarchy Panel (Left)**: Located on the left side, it shows a tree structure with nodes. The nodes include "Spawn Point," "emerald," "Completed Scripts," and "Environment." The panel has a dark background with white text and a search bar at the top.
+- **Scene View (Center)**: The central area displays a 3D scene with a blue gradient sky and a yellow grid floor. The grid is likely used for positioning objects within the scene.
+- **Top Bar (Menu Bar)**: Positioned at the top, it contains several menu options such as "Build," "Systems," "Scripts," "Gen AI," and others. There are also buttons for play, pause, and settings.
+- **Properties Panel (Right)**: Located on the right side, it appears to be empty but is likely used for adjusting properties of selected objects in the scene view.
+- **Tabs at the Bottom**: At the very bottom, there are tabs labeled "Asset Library," "Console," "NPC Debugger," and "Performance."
+
+### Visual Flow / Relationships
+The most prominent visual element is the 3D scene view in the center. The hierarchy panel on the left provides context for the objects in the scene. The top bar serves as a navigation and control panel, while the properties panel on the right is intended for object-specific adjustments. The tabs at the bottom suggest additional tools or views available within the software.
+
+</details>
+
+<p></p>
+
+
 
 - [Main menu](Primary%20Tools%20in%20the%20User%20Interface.md#the-main-menu) provides quick access to the Desktop Editor’s most popular features.
 - [Creator tools](Creator%20Tools.md) provide a set of commonly used tools for building scenes and using assets. Each button provides a menu of different tool types you can use for creating your world.

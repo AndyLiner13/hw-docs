@@ -96,13 +96,62 @@ Select **Scripts \*\*from the top menu bar, then click the options icon. Select 
 
 After verifying that the **horizon/navmesh** API is enabled, you can begin building navigation for your NPCs.
 
-![Horizon navmesh](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/544925716_810235214847765_9217701032005179170_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=5U_ZQAVkXWEQ7kNvwENwMAY&_nc_oc=Adnk589S2gQwY0bcPe1seaDRxHDz1-1JQKmU-QlpXSHVErWPillzyuYrDWALbCxPUUX7M1LNae5TgTbrZ9wCUTKK&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JA99o2hrBfekJhUnFLRCCQ&oh=00_AfkcgvVLRb9p-jfUkV3PK5BpfWncdh3QAXCDqHFgpE640A&oe=69559CCD)
+<details>
+<summary>Horizon navmesh</summary>
+
+<p></p>
+
+[Horizon navmesh](../../../image_data/fda5ef80c7caed0dc67831395b62bdfc1d155b1b3b9f6be14d7ba4f4a4499bf5.md)
+
+### Overview
+This image depicts a settings interface titled "Script Settings." It is a modal window with a dark theme, likely part of a software application. The interface includes a sidebar with navigation options ("API," "Console," "Script editing") and a main content area displaying API settings. The main content area has a list of API endpoints with toggle switches next to them.
+
+### Key Elements
+- **Sidebar Navigation**: Located on the left side, with options "API," "Console," and "Script editing." Each option is a clickable link.
+- **Main Content Area**: Positioned centrally, showing API settings. Contains a header "API" and a list of API endpoints.
+  - **API Version**: Displayed as "2.0.0" at the top right.
+  - **API Endpoints List**: A vertical list of API endpoints such as "horizon/in_world_analytics," "horizon/internal," "horizon/mobile_gestures," etc. Each endpoint has a toggle switch next to it.
+    - **Toggles**: Toggle switches are located on the far right of each line item. Some toggles are checked (indicated by a blue background), while others are unchecked (white background).
+    - **Highlighted Toggle**: The toggle switch for "horizon/navmesh" is highlighted with a red bounding box, indicating it is currently selected or focused.
+- **Buttons**: At the bottom of the interface, there are two buttons labeled "Cancel" and "Apply."
+
+### Visual Flow / Relationships
+The interface follows a linear flow from left to right and top to bottom. The sidebar navigation is the primary menu, directing the user to different sections. The main content area displays the API settings, with the API version at the top and the list of endpoints below. The toggle switches allow users to enable or disable specific APIs. The "Apply" button suggests that changes can be saved, while the "Cancel" button likely resets the interface to its previous state.
+
+</details>
+
+<p></p>
+
+
 
 Use the following process to setup and generate nav meshes that can be accessed with the NavMesh API:
 
 - In the **Systems** menu, click **Navigation** to open the **Navigation Profiles** menu. This menu lists any navigation profiles defined for your world and allows you to create new ones.
 - Click the **+** button to begin creating a new profile.
-  ![Create profile](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581306146_863533342851285_195327867686303909_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=RiGORoA_3-IQ7kNvwHHRH_l&_nc_oc=AdkL185JwkLDovOYLxwVboy1o6hkyHyVYWAqVjFHK6y0rApHOz-E-NiLPRu9k4fKaeKV6PId6mxuF5HY-2g8qu_D&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JA99o2hrBfekJhUnFLRCCQ&oh=00_Afn03S6PCqSGWIz4pb18fPOCfGkzD-vMsRXbfgs-ItPe2w&oe=69559B69)
+  <details>
+  <summary>Create profile</summary>
+  
+  <p></p>
+  
+  [Create profile](../../../image_data/cf42fa3e4d4086b430087ab571c1f6d3588135bf3c0d038794e5fd17b91c9899.md)
+  
+  ### Overview
+  The image depicts a user interface section within a software application, specifically related to navigation profiles. The interface includes a search bar, a button for creating new profiles, and a placeholder message indicating the purpose of the section.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top-left, it has a magnifying glass icon and spans horizontally across the width of the section. It is black with white text.
+  - **Create Profile Button**: Positioned to the right of the search bar, it is a black button with a white plus sign inside a red square. The button has a tooltip labeled "Create Profile."
+  - **Placeholder Message**: Below the search bar, there is a light gray icon of a walking figure and a message that reads: "Create navigation profiles here, then use scripts to add pathfinding to your world." The text is centered and written in white.
+  - **Navigation Tabs**: At the very top, there are several tabs labeled "Build," "Systems," "Preview," "Scripts," and others partially cut off. The "Navigation" tab is highlighted in blue, indicating it is currently active.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the "Create Profile" button, as it is centrally located and highlighted. The search bar is secondary but still important for functionality. The placeholder message provides context for the user. The navigation tabs at the top provide additional context about the application's functionality.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - In the **Navigation Profiles** window, click the **Create Profile** button to begin creating a new agent profile. The agent profile options are as follows:
 
 | Property | Description |
@@ -113,25 +162,150 @@ Use the following process to setup and generate nav meshes that can be accessed 
 | Step Height | How high an obstacle needs to be before it will block the NPC. For example, a small stone would be easy for the Android to step over and a bigger rock might be more difficult or might actually obstruct their path.  These properties could be different for the Android as opposed to the Chicken. It would be able to step over a smaller stone. |
 
 - Once finished click **Create** to create and save your profile. Your created profile will be added to the **Navigation profiles** window.
-  ![Navigation profiles window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/581124292_863533329517953_7097862410776349541_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ejCfhTOMj50Q7kNvwEI0Dsm&_nc_oc=AdmReYOHipmk1YbFsIRpUslpjYbfbS6_Cfd41GkP4QgOmIGzADamkTyRzf_YLGZnW_nu1aehW0s5uS8NL6ZoVNs1&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=JA99o2hrBfekJhUnFLRCCQ&oh=00_Afn9zpeQoopTqoR8Jd75e5gwco3ivetRd9j27V7yivjLPg&oe=69559A64)
+  <details>
+  <summary>Navigation profiles window</summary>
+  
+  <p></p>
+  
+  [Navigation profiles window](../../../image_data/b151e1a58dd8e9d900e4bfffed1b17fa76399b656b4c7cddf9f6b0c6e5d7f021.md)
+  
+  ### Overview
+  This image depicts a user interface section of a software application, specifically a navigation profiles management screen. The layout includes a search bar, a list of navigation profiles, and various interactive elements.
+  
+  ### Key Elements
+  - **Navigation Bar**: Located at the top-left corner, it contains a blue button labeled "Navigation" with a downward arrow indicating a dropdown menu.
+  - **Search Bar**: Positioned below the navigation bar, it has a magnifying glass icon on the left side and spans across the width of the screen.
+  - **Add Button**: A plus sign icon is located to the right of the search bar.
+  - **Edit/Cogwheel Icon**: A wrench icon is situated next to the add button.
+  - **Sort/Order Icon**: An up-and-down arrow icon is positioned to the far right of the search bar.
+  - **Profile List**: Below the search bar, a list titled "Navigation Profiles (1/100)" is displayed. It shows one entry labeled "Test nav mesh" with a description "Nav mesh test input." To the left of this entry is an orange square containing a white silhouette of a person running.
+  - **Close Button**: An 'X' icon is located at the top-right corner of the screen.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the search bar, as it occupies a significant portion of the screen and is centrally located. The interactive icons (add, edit, sort) are arranged horizontally to the right of the search bar. The profile list is below the search bar, providing a clear separation between the search functionality and the content display area. The close button is the least prominent but easily accessible for closing the interface.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 After creating a profile, you can add the **Navigation volume** gizmo to your world to define which areas are navigable.
 
 To do so use the following process:
 
 - After adding an NPC to your world and choosing its embodiment, select the dropdown arrow in the **Navigation** portion of the tool bar. In the menu, select **Navigation volume**. The Navigation volume will be used in order to determine what areas are navigable by the NPC. So you want to stretch this box out to cover the entire floor of what you want to be navigable.
-  ![Navigation volume gizmo](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581939883_863533332851286_8604663435429527805_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=7ntQFLdytjEQ7kNvwFWmHxj&_nc_oc=AdkbGixec0LVyCHIrQu8HiGK01bRk4DehMNau9ytagVAQc1pGPERJf38Mm0CQISJgXSNZ10iOaK7CtN9t7bv_7be&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=JA99o2hrBfekJhUnFLRCCQ&oh=00_Afn3v-gazmBLLFH6izAEkVnkLH5d6ZhNwYQt6YcTsIwFUQ&oe=6955711F)
+  <details>
+  <summary>Navigation volume gizmo</summary>
+  
+  <p></p>
+  
+  [Navigation volume gizmo](../../../image_data/0390bfec396b693a2c30c37d8ac6e1c6deb595e7da2cfc11b6da48280484683a.md)
+  
+  ### Overview
+  This image depicts a user interface section labeled "Navigation" within a larger application or software tool. The interface includes various icons and labels representing different navigation-related functionalities. The layout is organized into rows and columns, with icons and labels clearly defined.
+  
+  ### Key Elements
+  - **Navigation Label**: Located at the top-left corner, the word "Navigation" is displayed prominently.
+  - **Search Bar**: Positioned below the "Navigation" label, it contains a magnifying glass icon and a black search bar.
+  - **Icons and Labels**:
+    - **Spawn Point**: A blue square with a white figure walking downwards, labeled "Spawn Point."
+    - **Door**: A pink square with a white door icon, labeled "Door."
+    - **Snap Destination**: A blue square with a white compass icon, labeled "Snap Destination."
+    - **SafeSpawnZ one**: A white cube icon, labeled "SafeSpawnZ one."
+    - **Navigation Volume**: A green square with a white figure walking, highlighted with a red bounding box, labeled "Navigation Volume."
+  
+  ### Visual Flow / Relationships
+  The visual hierarchy is clear, with the "Navigation" label as the primary heading. Below it, the search bar serves as a secondary element. The icons are arranged in a grid-like structure, with each icon accompanied by its respective label. The highlighted "Navigation Volume" icon draws attention due to the red bounding box.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Once your navigation volume is added and you can configure the **Volume Type** which controls whether it is an **Inclusion** or **Exclusion** navigation volume. Setting the volume to **Exclusion** cuts the covered area out from any generated navigation mesh.
-  ![Navigation volume settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546150608_810235164847770_2891489873504620929_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=wvQ7SJLpaicQ7kNvwFe3obE&_nc_oc=AdkuFzJ-bKTH8m9bEANvTI4XmL49qqToh9P_YcxfUXV2rTquhlkzNrX8fcJqqWvU_AgaKyM9eC0YZgTSMlkZOXjX&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JA99o2hrBfekJhUnFLRCCQ&oh=00_AfmuJxgLrUbq5XDM4EPue4w69lv6EoeQOhJck0wwljf7yw&oe=69557F92)
+  <details>
+  <summary>Navigation volume settings</summary>
+  
+  <p></p>
+  
+  [Navigation volume settings](../../../image_data/91c2833c17f5712ce78c5f9fbecfb118981668174f43fdc64b85ae7d6e1e99ef.md)
+  
+  ### Overview
+  This image depicts a user interface element within a settings or configuration menu. It shows a dropdown selection menu for choosing between "Inclusion" and "Exclusion" options under the "Navigation Volume" section. The layout suggests a preference setting for how navigation volume is managed within a game or application.
+  
+  ### Key Elements
+  - **Dropdown Menu**: Located on the right side of the image, it has a dark gray background with white text. The dropdown is open, showing two options: "Inclusion" and "Exclusion". The "Inclusion" option is selected, indicated by a checkmark next to it.
+  - **Section Header**: "Navigation Volume" is displayed at the top left, with a small triangle icon indicating expandable/collapsible content.
+  - **Subsections**: Below the main header, there are two subsections labeled "Volume Type" and "Navigation Profile". These appear to be additional settings related to navigation volume but are not expanded in the image.
+  - **Gameplay Tags Section**: Below the "Navigation Volume" section, there is another section labeled "Gameplay Tags", which is also collapsed.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the dropdown menu, as it is the focal point of interaction. The dropdown is positioned to the right of the section header, and the selected option is clearly highlighted. The subsections below the main header are secondary elements that provide additional context but are not interacted with in the current view.
+  
+  </details>
+  
+  <p></p>
+  
+  
   Exclusion is useful for in-world assets that shouldn’t affect NPC navigation like doors.
 - Next, set what the created navigation volume applies to. Use **Navigation Profile** and select a created navigation profile or set to **All** to apply to all entities.
-  ![Navigation profile](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545387234_810235201514433_2287177445923012240_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=6FWQfFVyNhUQ7kNvwEboEHE&_nc_oc=AdlZA6dWy-0A1voWqk_knNCXw08gzJNAr5S10uCo6ERz2e4-H9zfEru7Ftfi14DkmdaIwVCPYUola2bSPDbnWOkH&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JA99o2hrBfekJhUnFLRCCQ&oh=00_AfnODHJsmYXWQpfeo_230GrFBIq4YKvpzMOyi0g6vuoCcA&oe=695578D6)
+  <details>
+  <summary>Navigation profile</summary>
+  
+  <p></p>
+  
+  [Navigation profile](../../../image_data/0a23dc78c94cd7f8e70ae8b2ca22966a3441ee5e5d4038269805a651b4612068.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a dropdown menu within a navigation profile section. The dropdown is open, revealing two options: "Island man" and "All". There is also a collapsed section labeled "Gameplay Tags" with a search bar below it.
+  
+  ### Key Elements
+  - **Navigation Profile Header**: Located at the top-left, the header reads "Navigation Profile" in a lighter gray font against a darker gray background.
+  - **Dropdown Menu**: Positioned to the right of the header, the dropdown menu is open, displaying two options: "Island man" and "All". The option "Island man" has a checkmark next to it, indicating selection.
+  - **Gameplay Tags Section**: Below the header, there is a section titled "Gameplay Tags" with a downward-facing arrow indicating that it can be expanded/collapsed. The section is partially obscured by the dropdown menu.
+  - **Search Bar**: At the bottom of the image, there is a search bar with the placeholder text "Search attached tags".
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the open dropdown menu. The dropdown menu is positioned to the right of the header, and its contents are clearly visible. The "Gameplay Tags" section is below the header but partially covered by the dropdown menu. The search bar is at the very bottom of the image.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 Once you have created and defined profiles and navigation volume gizmos for your world, the next step is to build the meshes for each profile. Alternatively, this is called “baking” the navigation mesh.
 
 Navigate to **Systems > Navigation** and select **Bake All**.
 
-![Bake All](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546228971_810235188181101_1142415572734745848_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=8yeBPOfn14IQ7kNvwGh___N&_nc_oc=AdmX0YbPrRhWJRpSBeEWZrMhZO25gJzNxHDM2TIdTVqwz5GMww9qZBAdDdKpOi_ibkagFa5ACoNFdg03swBhK6la&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JA99o2hrBfekJhUnFLRCCQ&oh=00_AfkcCSEH1W3CFf_CCQqxrapfkZyZiG8VsGCpu4WJqez-pA&oe=6955A094)
+<details>
+<summary>Bake All</summary>
+
+<p></p>
+
+[Bake All](../../../image_data/3e53a9c9854e41e3bc67123e0d532f2697b5c926f408ada242224a3345c5e2b3.md)
+
+### Overview
+This image depicts a user interface element titled "Navigation Profiles." It includes a search bar, a plus sign for adding new profiles, a wrench icon likely representing settings, and a "Bake All" button. Below the title, there's a list item showing a navigation profile named "Island man."
+
+### Key Elements
+- **Search Bar**: Located at the top-left, rectangular shape, black background, white magnifying glass icon.
+- **Plus Sign**: Positioned next to the search bar, white plus symbol on a light gray background.
+- **Wrench Icon**: To the right of the plus sign, a wrench icon on a gray background.
+- **Bake All Button**: A black button with white text saying "Bake All," located to the right of the wrench icon.
+- **Navigation Profiles Title**: At the top, white text on a dark background.
+- **Profile List**: Below the title, a list item showing "Navigation Profiles (1/100)" followed by a profile entry labeled "Island man" with a subtitle "Island man nav mesh."
+- **Profile Icon**: An orange square with a white silhouette of a person running.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Bake All" button due to its placement and contrasting color. The search bar and wrench icon are secondary but still important for functionality. The profile list item is less prominent as it is part of the interface rather than a primary action.
+
+</details>
+
+<p></p>
+
+
 
 After selecting **Bake All** you should see the navigation meshes built for your world. If it appears that nothing happened when building the navigation mesh, you likely need to enable the in-editor previews. Hover over each profile and ensure the visibility indicator is set to 👁 by clicking the relevant button.
 

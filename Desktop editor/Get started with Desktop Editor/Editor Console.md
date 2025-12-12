@@ -18,17 +18,97 @@ This article describes the parts of the Console UI, and it explains how to acces
 
 By default, the console pane doesn’t appear on the editor screen. Instead, it displays in a tab (collapsed by default) located beneath the **Scene** pane.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452523171_512510987953524_878710757606192403_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=z2GXli1D4rcQ7kNvwHoLe9M&_nc_oc=AdmR-Eo0aSYSbntDFI5sWpZxaxo3Pq9kW20jiUVsftZuO-uzVrJoutooCIY4dWapUlfqIOsrQM43w5nH3nFzAoik&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yufv_h5ix1u4D6ZsqjpZkg&oh=00_AfnIbBJUYEfEzz50GmwhVMe_i5oOIWqSURe7Fb6bsU4taA&oe=69558F11)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/74268ee0def74f5f93f650272f3f76af87c1e505988b42f473289e394eee12ca.md)
+
+### Overview
+This image depicts a user interface element showing a navigation bar at the bottom of a screen. The background is a grid pattern, suggesting a workspace or development environment. The navigation bar contains three tabs labeled "Assets," "Console," and "Tests."
+
+### Key Elements
+- **Visual description**: The navigation bar has a dark background with white text and a light gray grid overlay.
+- **Location**: The navigation bar spans the width of the screen at the bottom.
+- **Contents**:
+  - **Assets**: Located on the far left, the tab reads "Assets."
+  - **Console**: This tab is highlighted, indicating it is currently active. It has a white background with black text and a small downward-pointing arrow icon next to the word "Console."
+  - **Tests**: Located on the far right, the tab reads "Tests."
+- **Visual styling**: The tabs have a clean, modern look with a subtle shadow effect under them, giving a slight 3D appearance.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Console" tab, which is highlighted. There are no arrows or lines connecting the elements, but the layout suggests a linear progression through the tabs. The grid background implies a workspace environment, possibly for game development or similar software.
+
+</details>
+
+<p></p>
+
+
 
 To open the console, click the **Console** tab. The tab expands and displays the contents of one of its two sub-views: **Status View** and **Simulation View**.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452968560_512510974620192_4973244662247373020_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=bR6j-JpvL0IQ7kNvwHmyXuh&_nc_oc=Adk9NZ6_37vgcr8oXjf0CztEdQvYiVl10x8tulCLHbOpEI5JzrfwiECV2FnQy7qiVoQa2xXsdjTP7MGcmY26rHQq&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=yufv_h5ix1u4D6ZsqjpZkg&oh=00_Afk-jBxYzJUpe4ueIPr-oX1Vgj_gk-RXL9KLAmzvDjC9GA&oe=69556A7C)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/62afcc31c8c30f7b28cf85134c4a16019939ced90097454a489f5a11e184819f.md)
+
+### Overview
+This image depicts a user interface section of a software application, specifically a console or log viewer within a development environment. The interface includes a list of messages categorized under "Turtles" and "Dogs," with indicators for warnings and errors.
+
+### Key Elements
+- **Header**: Located at the top, showing tabs labeled "Assets," "Console," and "Tests." Below these tabs, there's a dropdown menu labeled "Status View."
+- **Message List**: Underneath the header, there's a list of messages categorized into "Turtles" and "Dogs."
+  - **Turtles**: Contains two error messages:
+    - "Cannot find name 'cowabunga'."
+    - "Cannot find name 'dude'."
+    - There's also a note indicating that the code is "Not compiled on the local client."
+  - **Dogs**: Contains one warning message:
+    - "Not compiled on the server."
+- **Indicators**: Above the message list, there are icons and numbers indicating the count of informational ("i"), warning ("!"), and error ("x") messages.
+- **Columns**: The message list has three columns: "MESSAGE," "WARNINGS," and "ERRORS."
+
+### Visual Flow / Relationships
+The most prominent visual elements are the error messages under "Turtles." The layout follows a standard table structure with a hierarchical view for the "Turtles" and "Dogs" categories. The error messages are visually distinct due to their red color and exclamation mark icons.
+
+</details>
+
+<p></p>
+
+
 
 ## Console interface
 
 The following image highlights the main components of the Editor Console.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452540445_512510967953526_6206587723372307201_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=QAClVTL5xvsQ7kNvwGOPwp8&_nc_oc=AdlWIx2LwKkLV2Cw5y45FZc9DkbBt3VexnMr_zYOl1A-jOfRW6Ro5F12N_5CTag_q8pUODySaJt7v5bfIQ-q34YP&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yufv_h5ix1u4D6ZsqjpZkg&oh=00_Afmp6vUAdrA7l2D8-YkgC-MYodvuR1Pm71YcJ4khtLdrIw&oe=6955A265)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/cfc6aa4b716a30d9de86170c7f7c1f809977a1f68b40f773279d3ccef2632fd6.md)
+
+### Overview
+This image depicts a console interface with various messages and indicators. The layout includes a header with counters for clear messages, info messages, warnings, and errors. Below the header, there are message entries with timestamps and content.
+
+### Key Elements
+- **Header**: Located at the top, contains counters for clear messages ("Clear"), info messages ("i"), warnings ("⚠️"), and errors ("❌").
+- **Message Entries**: Below the header, there are several message entries displayed vertically.
+  - **Entry 1**: Contains the message "hello world!" with a timestamp "12:44:34" and a counter "999+" indicating the number of messages.
+  - **Entry 2**: Displays "World capacity almost full" with a timestamp "12:44:34" and a counter "1".
+  - **Entry 3**: Shows a blue-highlighted message "Can't get list item. Expected item number [0-1], got '2'" with a timestamp "12:44:34" and a counter "55".
+  - **Entry 4**: States "This world has been published" with a timestamp "12:44:34".
+
+### Visual Flow / Relationships
+The visual hierarchy is established by the placement of the header above the message entries. The messages are arranged in a vertical list, with the most recent messages appearing at the bottom. The blue highlight on Entry 3 draws attention to that specific error message.
+
+</details>
+
+<p></p>
+
+
 
 - **Toolbar**: Contains controls that let you clear and filter message logs.
 - **Header**: Arranges the message details in a structured format to make the information easy to find, and easy to read. In this format, log messages display along with associated metadata, and the name of the script and or world object that generated the message.
@@ -39,7 +119,48 @@ The following image highlights the main components of the Editor Console.
 
 The Status View displays compilation information about each one of your scripts for each connected client, and for the server. Details include the current status of each one of your scripts. Script status is either `Not Compiled`, `Compiling`, or `Finished Compiling`. These details are displayed along with timestamps of the latest update for each script. Compilation errors and warnings are also shown.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452505807_512510971286859_5411541064383179947_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=yGsyph351OAQ7kNvwH2-MAu&_nc_oc=AdkXq3RvsGMLetRfYjB1yiLD9d2jEhIUJtVin1Aq91m5w6OXCM_kD6bo1vU81wSFFbGoU_cpuTmSPWSHmo_qqMMT&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yufv_h5ix1u4D6ZsqjpZkg&oh=00_AfkyeUVyw18mxbLY1AIgNpothRAtHqkg98nUpB-cirUcTg&oe=69558540)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/9af9cd111d7d9950f0ec0ec76f28a53454b21f56f7e5903b9c94f39a95d96764.md)
+
+### Overview
+This image depicts a user interface screen showing a list of items under categories such as Turtles, Dogs, Geckos, and Penguins. Each category has associated warnings and errors displayed, along with timestamps indicating when compilation processes were completed. The interface also includes a search bar at the top right and a status view indicator at the top left.
+
+### Key Elements
+- **Left Panel (Categories)**: Contains expandable categories labeled Turtles, Dogs, Geckos, and Penguins. Each category has a small icon next to its name.
+    - **Turtles**: Contains two error messages:
+        - "Cannot find name 'cowabunga'."
+        - "Cannot find name 'dude'."
+        - Two warnings:
+            - "Not compiled on the local client."
+            - "Not compiled on the server."
+    - **Dogs**: Contains one warning:
+        - "Script could not be compiled due to errors within dependencies: Turtles."
+        - Two warnings:
+            - "Not compiled on the local client."
+            - "Not compiled on the server."
+    - **Geckos**: Contains no warnings or errors.
+    - **Penguins**: Contains no warnings or errors.
+- **Right Panel (Timestamps)**: Displays timestamps corresponding to the compilation statuses of the categories.
+    - Turtles: N/A
+    - Dogs: N/A
+    - Geckos: 10:31:36 AM
+    - Penguins: 10:31:35 AM
+- **Status View Indicator**: Located at the top left, showing "Status View" with a dropdown arrow.
+- **Search Bar**: Positioned at the top right, with a magnifying glass icon and a placeholder text field.
+- **Warning and Error Counters**: At the top of the left panel, showing "8" for warnings and "2" for errors.
+
+### Visual Flow / Relationships
+The interface is organized into two main sections: the left panel for categories and the right panel for timestamps. The left panel is expandable, allowing users to view more details under each category. The right panel displays timestamps that correspond to the compilation statuses of the categories listed on the left. The visual hierarchy is clear, with the left panel being the primary focus and the right panel providing supplementary information.
+
+</details>
+
+<p></p>
+
+
 
 Build log messages on this tab aren’t displayed in chronological order. Instead they’re organized by script. The list displays details from just the most recent script compilation. Status View also shows the compilation time on each connected client, along with any compilation errors.
 
@@ -47,7 +168,39 @@ Build log messages on this tab aren’t displayed in chronological order. Instea
 
 The Simulation View displays `console.log()` messages from your code, as well as system errors and warnings, in chronological order.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452653592_512510977953525_2575711248561541443_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ovOmOUhqeBsQ7kNvwGAas5-&_nc_oc=Adn5r8-h1HASIEOP4fGdgihr32DekmWD3wMxeI9BOm_nPsWk8X7P4aGNveRTtcinMK31vwuoBJolZaLfct2ok1AD&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=yufv_h5ix1u4D6ZsqjpZkg&oh=00_AfmtEMCD5NS-5RBhO_75G2xsYlAtrmmWoS2TYxvv8v34cA&oe=69556E6F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/39e5347169691f132255b0b3790ef990fd7d2323fa220b44372b216c96f738a1.md)
+
+### Overview
+This image depicts a user interface section of a software application, specifically a console or log viewer. It shows a message log with various entries, icons, and indicators related to system status and user interactions.
+
+### Key Elements
+- **Simulation View Button**: Located at the top-left, it has a dropdown arrow indicating a menu or options.
+- **Clear Button**: Positioned next to the Simulation View button, it is a standard button labeled "Clear."
+- **Information Icon**: A blue button with an "i" icon and the number "4," likely indicating a count of notifications or messages.
+- **Warning Icon**: A yellow triangle with an exclamation mark inside, labeled "0," suggesting no warnings are currently active.
+- **Error Icon**: A red circle with a diagonal line through it, labeled "6," indicating six errors.
+- **System Button**: A blue button with a wrench icon labeled "System."
+- **User Button**: A blue button with a "<>" icon labeled "User."
+- **Cloud Icon**: A blue button with a cloud icon labeled "7," possibly indicating a count of cloud-related items.
+- **Laptop Icon**: A blue button with a laptop icon labeled "3," likely indicating a count of open applications or tabs.
+
+Below these buttons, there is a section labeled "MESSAGE" containing several log entries:
+- **Error Entry**: An entry marked with a red "X" icon, timestamped at "10:31:34," and labeled "Client."
+- **Info Entries**: Two entries marked with an "i" icon, timestamped at "10:31:36," and labeled "Server."
+
+### Visual Flow / Relationships
+The most prominent visual elements are the error icon and the error message, as they stand out due to the red "X" icon and the error message itself. The log entries follow a chronological order based on timestamps, with the most recent entries appearing first. The buttons at the top provide quick access to different functionalities within the console.
+
+</details>
+
+<p></p>
+
+
 
 ## Console toolbar
 

@@ -6,11 +6,66 @@ When you create your world, there are helpful development tools for [debugging a
 
 The following image shows the [debug console](../Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md) gizmo while you have the headset on, providing an immersive debugging experience. As shown, the **Start world**, **Stop world**, and **Rest world** buttons control the executing states of the scripts.
 
-![Debug console gizmo showing debug messages in-world console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/493597714_723416580196296_8022545866060318316_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=YxkjNJDKG-IQ7kNvwGrg1EL&_nc_oc=AdkXkWhb2LfX-Sozi6bmZ2kc0LblxTKpHvH1Qfj3_KIk6TfmFts3EnogdpMBMwO_MaYpEcBg2J9e2zAJucYB_i_4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FYQT2eqAnK7SUgtzvZ4X_Q&oh=00_AfkzGNGwXPfKCoKppQss-ZaPWzoaAFu73_Ut4kayl0yZ0g&oe=6955929C)
+<details>
+<summary>Debug console gizmo showing debug messages in-world console</summary>
+
+<p></p>
+
+[Debug console gizmo showing debug messages in-world console](../image_data/4c1fa7eff63b3ccf9d7a2491137c896bc159288d26f743b1cb081be5b3cfc62f.md)
+
+### Overview
+The image displays a debug console interface overlaid on a game environment. The console has a dark background with light text and buttons, and it is situated in the foreground against a backdrop of a game world featuring a purple sky, a gate, and some trees.
+
+### Key Elements
+- **Title**: "Debug Console" located at the top-left corner.
+- **Buttons**: Three blue buttons labeled "Start world," "Stop world," and "Reset world" are positioned near the top right.
+- **Search Bar**: A search bar with a magnifying glass icon is centered below the buttons.
+- **Clear Button**: A "Clear" button is located to the right of the search bar.
+- **Message Box**: A message box contains a message that reads "Hello, World! at Shoot.start (Shoot.ts:55:16) (Shoot)" with "(2)" indicating the number of messages.
+- **Message Label**: A label "MESSAGE" is placed next to the message box.
+- **Background**: The game world behind the console features a purple sky, a gate, and some trees.
+
+### Visual Flow / Relationships
+The most prominent visual element is the debug console itself. The buttons are arranged horizontally above the search bar, which is centrally located. The message box is below the search bar, and the label is to its left. The game world forms the background, providing context but not interacting with the console.
+
+</details>
+
+<p></p>
+
+
 
 The following image shows the debug console gizmo while you are using the desktop editor without the headset. The log messages are also displayed under the desktop editor **Console** tab.
 
-![Debug console gizmo showing debug messages in the desktop editor console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/499399178_723580280179926_4040817637596418026_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=qu8YSLm4Gp0Q7kNvwGbKNNd&_nc_oc=AdkdEnFXkgtIHQZzVl4fUatfj4JzB35beuuj9bWzdLpMtinnw_OJu3IBa77j1AOGCqg0f_TPXOkvo-OuFGoqscyz&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FYQT2eqAnK7SUgtzvZ4X_Q&oh=00_AflwXXASBxgCkccT1FOLjnay2UPV2u52_oMBM2k5pWE6Ww&oe=6955A0D0)
+<details>
+<summary>Debug console gizmo showing debug messages in the desktop editor console</summary>
+
+<p></p>
+
+[Debug console gizmo showing debug messages in the desktop editor console](../image_data/d8012826b38fc46be6ddff2fe8811ef1f20db51ec0cde3e69037f20a31604f56.md)
+
+### Overview
+The image depicts a user interface from a development environment, likely a game or simulation editor. It includes a character model in a virtual environment, a debug console, and various interactive elements such as buttons and menus.
+
+### Key Elements
+- **Character Model**: A female character with blue hair, wearing a pink hoodie and jeans, is positioned in the center-right of the screen. She is facing away from the viewer.
+- **Debug Console**: Located on the right side of the screen, it displays a message: "Hello, World!" along with some system information.
+- **Control Panel**: On the left side, there is a circular control pad with a white center, likely for movement or interaction within the environment.
+- **Menu Icons**: At the top-left corner, there are two icons resembling a menu and a pause button.
+- **Simulation View**: At the bottom-left corner, there is a dropdown labeled "Simulation View" indicating different views available.
+- **Console Tab**: At the bottom-center, there is a tab labeled "Console" which is currently active.
+- **Performance Metrics**: Below the console tab, there are indicators for system performance metrics such as CPU, memory, and network usage.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the character model, as she is the focal point of the scene.
+- The debug console provides contextual information about the simulation environment.
+- The control panel and menu icons provide interactive options for the user.
+- The layout follows a typical user interface design with clear sections for different functionalities.
+
+</details>
+
+<p></p>
+
+
 
 The following sections show you how to access and configure the gizmos so you can start debugging in VR.
 
@@ -28,7 +83,45 @@ All objects in a world are represented by [entities](../Reference/core/Classes/E
 
 The visibility of the debug console is configured under [**Visibility**](../Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md#controlling-visibility-of-the-debug-console). The options are **Edit Mode Only**, [**Edit and Preview Mode**](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) , or [**In Published World**](../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#section-4-play-in-your-world-on-mobile). Be aware that the gizmo is only visible in the Build mode when **Visibility** is in the default **Edit Mode Only**.
 
-![Debug console gizmo's visibility options](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/498317217_723416583529629_2536898422592253740_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=xT8CsbAanAQQ7kNvwHBbvE-&_nc_oc=AdnRQYrvE3JCeZB_Wiu0LGUH4_P5a7Ql3Iky2MTz24PnoKI3xNVfENBAef7TyHSfHl_l-ySGeGYuzYlAadoqOrYh&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FYQT2eqAnK7SUgtzvZ4X_Q&oh=00_Afl1e5lJTeh7FtthtpZRpyK_NBt2p1xupMxvxtUUGspp-w&oe=69557F36)
+<details>
+<summary>Debug console gizmo's visibility options</summary>
+
+<p></p>
+
+[Debug console gizmo's visibility options](../image_data/264e8b491a1dd4d70e69f093c89ba2a97de968025c1366dd5f2ae45df32a55be.md)
+
+### Overview
+This image depicts a user interface element showing a dropdown menu within a settings or configuration panel. The dropdown is part of a larger interface that includes a sidebar with expandable sections labeled "Behavior" and "Gameplay Tags."
+
+### Key Elements
+- **Dropdown Menu**: Located in the upper right area of the image. It contains options such as "In Published World," "Edit Mode Only," "Edit And Preview Mode," and "In Published World" again at the bottom.
+  - **Visual description**: A rectangular dropdown with rounded corners.
+  - **Location**: Top-right area of the image.
+  - **Contents**: Contains text options listed vertically.
+  - **Visual styling**: Dark background with white text, drop shadow effect for depth.
+
+- **Sidebar Section**: Located on the left side of the image.
+  - **Visual description**: A vertical panel with expandable sections.
+  - **Location**: Left side of the image.
+  - **Contents**: Includes "Behavior" and "Gameplay Tags" sections, both with a downward arrow indicating expandable content.
+  - **Visual styling**: Dark background with light-colored text and a subtle highlight under the expanded section.
+
+- **Search Bar**: Located at the bottom left.
+  - **Visual description**: A rectangular search bar with a magnifying glass icon.
+  - **Location**: Bottom-left corner of the image.
+  - **Contents**: Displays the placeholder text "Search attacks" in a lighter font.
+  - **Visual styling**: Dark background with white text and a blue magnifying glass icon.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The dropdown menu is the most prominent due to its central placement and the drop shadow effect.
+- **Arrows and Lines**: The downward arrow next to "Behavior" indicates an expandable section.
+- **Reading Order**: The dropdown menu is accessed by clicking on the "In Published World" option in the "Behavior" section.
+
+</details>
+
+<p></p>
+
+
 
 **Note**: The Edit Mode that the Properties panel refers to is also known as the [Build mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md). See also the [Build mode](../VR%20tools/Getting%20started/Use%20your%20controllers%20in%20Build%20Mode%20of%20Meta%20Horizon%20Worlds.md) in VR.
 

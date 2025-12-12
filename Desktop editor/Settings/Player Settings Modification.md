@@ -9,7 +9,38 @@ The Player Settings Modification feature in the desktop editor has the same capa
 - Click the top left menu button.
 - Click **Player Settings**.
 - A modal dialog with all of the available Player settings will appear.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452933939_512527524618537_1063237396836849902_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=KPjrzlyhWZIQ7kNvwHdEST1&_nc_oc=AdlKGGiXOCdRj6bZRLWCjkqNWL-o68Cw3mdnNCdNxGDnoU1zKvuxUVbDE1-5WQmxOxV6F-yVpY-gA5zw1w8ArhO5&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=SrXfqsiFfbFUP4xj0N46Hw&oh=00_AfmwxxQkTBtzA-v04hgxT4Tfui851c1iA7p_MaKJxZgb0Q&oe=695570A3)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/2cb6890454dbf4cd3cdbc8e6267af6b154101c7267cc030c2311fad9c54899ab.md)
+  
+  ### Overview
+  The image depicts a user interface from a development environment, specifically a settings window titled "Player Settings." The interface includes various adjustable settings related to player interactions within a virtual world. The layout is structured with a central settings panel, navigation panels on the sides, and a preview area in the background.
+  
+  ### Key Elements
+  - **Central Settings Panel**: Located in the center of the screen, this panel contains multiple settings options with corresponding toggles and sliders.
+    - **VOIP Settings**: A dropdown menu labeled "Global."
+    - **Maximum Player Count**: A slider set to 8.
+    - **Suggested Minimum Player Count**: A slider set to 1.
+    - **Emotes**: A toggle switch with a blue indicator.
+    - **Emote Audio**: A toggle switch with a blue indicator.
+    - **Can Hands Collide With Physical Objects**: A toggle switch with a blue indicator.
+    - **Can Hands Collide With Static Objects**: A toggle switch with a white indicator.
+  - **Navigation Panels**: On the left side, there are panels labeled "Hierarchy" and "SpawnPoint," indicating a file system or object management interface. On the right side, there is a "Properties" panel showing a placeholder message "Select an object to view its properties."
+  - **Background Preview**: A grid-based 3D preview area in the background, suggesting a virtual environment being developed.
+  - **Top Bar**: Contains icons for file operations, undo/redo actions, and publish options.
+  - **Status Bar**: At the bottom, there are tabs labeled "Assets," "Console," and "Tests."
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the central settings panel, which draws attention due to its larger size and central placement. The navigation panels provide context and functionality, while the background preview area offers a visual representation of the environment. The top bar and status bar provide additional information and control options.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ## Changing Player Settings
 

@@ -6,7 +6,30 @@ The ParticleFX [gizmo](About%20gizmos.md) is a helper tool that allows you to ea
 
 The following image is taken from the [sample world](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md) called [Chop-n-pop](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup) where the ParticleFX gizmos provide the sparkles around the loot.
 
-![the ParticleFx gizmo is at work in the sample world](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/507682304_743560894848531_5873676846396048984_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=Zd3Z3AtyfwwQ7kNvwEYllzR&_nc_oc=Adk4-BSgW6OL3C62I43ml6aYc7o8sIt3xuzWrsP6M-vpQ-8jT0_kOYxI4gCcz8LcrfZyBtiQ_aIf2FC82M4d7_D2&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=WS4sWycrUNKeX2RHgky9vg&oh=00_Afl2QtVRL1Zrd-NNsUlvljgrvaCg1pdxarg8eXxjqHb4Cw&oe=6955900A)
+<details>
+<summary>the ParticleFx gizmo is at work in the sample world</summary>
+
+<p></p>
+
+[the ParticleFx gizmo is at work in the sample world](../image_data/45f10e2dd72ee2675e14039eb925d520c7d83d83b4cfe808b789fd5b8bcb2532.md)
+
+### Overview
+This image depicts a scene from a video game or animated environment. It features a character from behind, looking at a wooden chest with glowing magical effects emanating from it. The setting appears to be a dimly lit, possibly abandoned stone structure with a mystical atmosphere.
+
+### Key Elements
+- **Character**: A figure with pink hair tied up in a bun, wearing a pink hoodie. Positioned in the bottom left, facing away from the viewer towards the chest.
+- **Chest**: A large wooden chest with a dark handle, located centrally in the foreground. It has a rustic appearance with visible wood grain and wear.
+- **Glowing Effects**: Sparkling magical effects appear above and around the chest, suggesting some form of enchantment or magic.
+- **Background**: The setting is a stone structure with arches and a purple-hued sky, giving a mystical or eerie ambiance.
+
+### Visual Flow / Relationships
+The most prominent visual element is the glowing effect above the chest, drawing attention to it as the focal point. The character is positioned to look at the chest, indicating interaction or interest. The background elements provide context but do not compete for attention.
+
+</details>
+
+<p></p>
+
+
 
 ## Limitations
 
@@ -40,11 +63,57 @@ The following image shows the ParticleFx gizmo is at work in the [Build mode](..
 
 **Note**: Once the configuration is complete in the **Properties** panel, you can immediately see the effect in either the [Build Mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) by clicking **Play** next to **Preview** or enter the [Preview mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md).
 
-![the ParticleFx gizmo is at work in the Build mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/508169171_743560911515196_8638356247995966737_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=w84CHsGMyAkQ7kNvwF5_oba&_nc_oc=AdnWvoVMp5-URyKHRI2h-Xzw7pnHiqwa5a7pqiX5MMevKKveq7tvJSJd-eSPKg3aI7xg12Vymxs6D7GEO5WWz4mm&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=WS4sWycrUNKeX2RHgky9vg&oh=00_AfmL3fRJRvtXXZBiemWo5_ihqf8y1eYMzuIY5uRhU3_Atw&oe=69558283)
+<details>
+<summary>the ParticleFx gizmo is at work in the Build mode</summary>
+
+<p></p>
+
+[the ParticleFx gizmo is at work in the Build mode](../image_data/18faa6b7b0c5fdef9e9d16dc687cf35e4daa4c9b9ea77a20c71f347cf85dbe7f.md)
+
+### Overview
+The image depicts a 3D scene with a character and a floating cube. The character is standing on a grid floor, facing towards the cube. The cube has a bright orange color with white symbols and sparkles around it.
+
+### Key Elements
+- **Character**: A blue humanoid figure with a simplistic design, standing on the ground. The character is facing forward, with one hand raised as if waving.
+- **Cube**: An orange cube with white symbols resembling a diamond and a stylized 'i'. Sparkles are emanating from the cube, giving it a glowing effect.
+- **Background**: A light gray grid floor with a light blue ceiling.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the cube, which is centrally located above the character.
+- There are no arrows or lines connecting elements, but the character's raised hand suggests interaction with the cube.
+- Spatially, the cube is above the character, and the character is positioned below the cube.
+
+</details>
+
+<p></p>
+
+
 
 The following image shows the ParticleFx gizmo is at work in the [Preview mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md).
 
-![the ParticleFx gizmo is at work in the Preview mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/506729784_743560914848529_4035407153014293926_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=PaywB0Eld0YQ7kNvwGKNZmX&_nc_oc=AdnpcxcNR-MtX8m8jYwxWUiT1VX-cL8xr-GGX04ROqJuoM10cMGib8Uat81iqzEDo7xkrY9FTM5rj9x3hVURIEEw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=WS4sWycrUNKeX2RHgky9vg&oh=00_Afn0lcX6k2itrM-MEzgZQuNTbOxVp3CbFEjQVlHryE5Gcg&oe=69556FE3)
+<details>
+<summary>the ParticleFx gizmo is at work in the Preview mode</summary>
+
+<p></p>
+
+[the ParticleFx gizmo is at work in the Preview mode](../image_data/1fcf75eb2d31f3228ed375ef88ed8f457a759b99e64aa4e0131db4a2ade5d94d.md)
+
+### Overview
+The image depicts a rear view of a character standing in a minimalist environment with a gradient sky background. The character has a colorful hairstyle split into pink and blue sections tied up in buns. Sparkling yellow star shapes are scattered across the sky above the character. The ground is a simple tiled floor.
+
+### Key Elements
+- **Character**: A person viewed from behind, wearing a pink hoodie and light-colored pants. The hair is styled in two buns, one pink and one blue.
+- **Stars**: Multiple yellow star shapes of varying sizes are floating in the sky. They appear to be sparkles or decorative elements.
+- **Background**: A gradient sky transitioning from light blue at the bottom to a lighter, almost white hue at the top. The ground is a tiled floor with a light gray color.
+
+### Visual Flow / Relationships
+The stars are distributed across the sky, creating a sense of depth and focus towards the upper part of the image. The character stands still, looking upwards, which draws attention to the stars above.
+
+</details>
+
+<p></p>
+
+
 
 ## Scripting
 

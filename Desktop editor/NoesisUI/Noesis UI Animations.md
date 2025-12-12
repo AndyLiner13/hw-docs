@@ -41,8 +41,59 @@ Sometimes creators may want to add specific action at the end of an animation. T
 
 - Open **Interactivity** tab in the left toolbar
 - Select desired component and press plus icon to **Add trigger**
-- Select **Storyboard Completed Trigger** to handle end of animation state. ![Noesis animation tutorial panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594016181_880045787866707_1116802637052352730_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=VUhzld_YnogQ7kNvwHR51cR&_nc_oc=AdlmGf3NskBrFsvM1dpXlmnJ3zWQGOuxTKjnorGFdDdf2aHwvPSOk3nGLfwIxJace8RRLNhrwf0kv9wWxnnVBnSS&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=VdI_Wwcm0t2MpynFORHI-g&oh=00_AfnmkbbTgBhFR1cvQYrD5pmt3iBrfIRs8UgfWNPrHurIHQ&oe=69556DF2)
-- In the properties panel on the right add **InvokeCommandAction** in the **Actions** section and select a desired command. ![Noesis animation tutorial panel](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/594976077_880045784533374_5601497425012940037_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=0ABMJcuhSZ4Q7kNvwHW1H9I&_nc_oc=Adn5daqxQiGN526NPddusZU7-IXBWTqGxYXdgkjvVT2xr9KwFk7_nZKAax9M7DTVE1wq0gz5KJGsnqRPEyCzh1GD&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=VdI_Wwcm0t2MpynFORHI-g&oh=00_Afksqb5eTLpzilPdgd13PkG6Qa3306fuCwPrO8e_hVVUSQ&oe=695575FF)
+- Select **Storyboard Completed Trigger** to handle end of animation state. <details>
+                                                                            <summary>Noesis animation tutorial panel</summary>
+                                                                            
+                                                                            <p></p>
+                                                                            
+                                                                            [Noesis animation tutorial panel](../../image_data/7582664255d90187dd97102e1014eee1dadbcdd7a60ad9af9bbe517e31d0e1c4.md)
+                                                                            
+                                                                            ### Overview
+                                                                            This image depicts a user interface element within a software development environment, specifically a window titled "Interactivity." It shows a list of triggers being added to a component named "AnimRect."
+                                                                            
+                                                                            ### Key Elements
+                                                                            - **Header**: "Interactivity" at the top left corner.
+                                                                            - **Tabs**: Three tabs labeled "Triggers," "Behaviors," and "Setters" are visible.
+                                                                            - **Search Bar**: A search bar labeled "Search triggers" is located below the tabs.
+                                                                            - **Component List**: A tree view on the left side lists components such as "AnimRect" and "Button."
+                                                                            - **Trigger List**: A dropdown menu on the right displays trigger options like "DataEventTrigger," "DataTrigger," "EventTrigger," etc.
+                                                                            - **Highlighted Trigger**: The "StoryboardCompletedTrigger" is highlighted in the dropdown menu.
+                                                                            
+                                                                            ### Visual Flow / Relationships
+                                                                            The most prominent visual element is the dropdown menu displaying trigger options. The dropdown is positioned to the right of the tree view. The tree view is nested under the "Adding to:" label which points to "AnimRect." The search bar is above the tree view, and the tabs are at the very top of the interface.
+                                                                            
+                                                                            </details>
+                                                                            
+                                                                            <p></p>
+                                                                            
+                                                                            
+- In the properties panel on the right add **InvokeCommandAction** in the **Actions** section and select a desired command. <details>
+                                                                                                                            <summary>Noesis animation tutorial panel</summary>
+                                                                                                                            
+                                                                                                                            <p></p>
+                                                                                                                            
+                                                                                                                            [Noesis animation tutorial panel](../../image_data/6580557533a2243a7e0bc63911c280c25910ee767366895195601793a475e9a7.md)
+                                                                                                                            
+                                                                                                                            ### Overview
+                                                                                                                            This image depicts a user interface element, specifically a properties panel within a software application. The panel is divided into sections for different properties such as Storyboard, Conditions, Actions, and Command parameters. The layout includes dropdown menus, text fields, checkboxes, and toggle switches.
+                                                                                                                            
+                                                                                                                            ### Key Elements
+                                                                                                                            - **Storyboard Dropdown**: Located at the top right, contains a dropdown menu with the option "Anim" highlighted.
+                                                                                                                            - **Conditions Section**: Positioned below the Storyboard dropdown, with a plus sign indicating expandable content.
+                                                                                                                            - **Actions Section**: Below the Conditions section, also with a plus sign for expandable content.
+                                                                                                                            - **Command Section**: Contains a dropdown menu labeled "InvokeCommandAction," which is expanded to show a nested "Command" section.
+                                                                                                                            - **Binding Table**: Below the Command section, a table with headers "Name," "Relative," and "Context." A row under "Path" contains the text "AnimationIsDone."
+                                                                                                                            - **Command Parameter Fields**: Below the binding table, several fields for entering command parameters, including "Use Event Args," "Event Args Parameter Path," "Event Args Converter," and "Event Args Converter Parameters."
+                                                                                                                            - **Enabled Toggle Switch**: At the bottom, a toggle switch labeled "Enabled" with a checkmark indicating it is enabled.
+                                                                                                                            
+                                                                                                                            ### Visual Flow / Relationships
+                                                                                                                            The most prominent visual elements are the dropdown menus and text fields. The dropdown menus are nested within sections, and the nested "Command" section is expanded to reveal additional details. The visual flow follows a top-down and left-to-right sequence, with expandable sections allowing users to view more details when needed.
+                                                                                                                            
+                                                                                                                            </details>
+                                                                                                                            
+                                                                                                                            <p></p>
+                                                                                                                            
+                                                                                                                            
 
 ## Additional resources
 

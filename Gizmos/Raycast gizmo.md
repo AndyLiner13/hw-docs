@@ -24,7 +24,30 @@ In the Meta Horizon Worlds desktop editor, do the following to access the raycas
 
 Whenever a collision event occurs when the ray is projected into the world, the information returned about the object depends on the configuration in **Properties**. You can filter collision events by configuring **Collide With**, or by adding an additional condition when using **Object Tagged**.
 
-![Raycast gizmo properties panel](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/491864717_702686125602675_3809255897420655060_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=S7yYSr3bBQEQ7kNvwHnj1f6&_nc_oc=Adn_gmj2mIY71716BZO4gtijiblPYijYSZhyNZt0gt1qrojggh84s8HJ4y_srpJkNLcQzPM9DGd6XBiaPOk5JZqe&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=E0sUNMk7haooGJzSQFdirQ&oh=00_AfmRrCNAU6GX3zFRztl2SLKf2jQnD2JmC7b2mmqn3qZH-A&oe=69556B57)
+<details>
+<summary>Raycast gizmo properties panel</summary>
+
+<p></p>
+
+[Raycast gizmo properties panel](../image_data/90ccf9d866125f461c46fed4e98d84b24c6cc08a60a8180d9d09b451742665ee.md)
+
+### Overview
+This image depicts a user interface element, specifically a settings panel within a software application. The panel is dark-themed with light-colored text and interactive elements. It includes a dropdown menu, text fields, and a toggle switch.
+
+### Key Elements
+- **Dropdown Menu**: Located at the top right, labeled "Both" with a downward arrow indicating a dropdown option.
+- **Text Field**: Positioned below the dropdown, labeled "Object Tag," containing the text "raycastHit2."
+- **Number Input Field**: Below the text field, labeled "Raycast Distance," showing the value "2000."
+- **Toggle Switch**: At the bottom, labeled "Stop On First Hit," with a blue indicator showing it is enabled.
+
+### Visual Flow / Relationships
+The elements are arranged vertically, with the dropdown menu being the most prominent due to its placement at the top. The text field and number input follow sequentially, and the toggle switch is at the bottom. There are no arrows or lines connecting the elements, suggesting a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 In the **Collide With** field, you can choose between **Players**, **Object Tagged** or **Both**. Remember that whenever **Object Tagged** is chosen, the [tag](../Reference/core/Classes/Entity.md#properties) needs to be provided in the **Object Tag** field. The raycast will then return hits for objects with matching tags.
 

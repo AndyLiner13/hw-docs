@@ -11,7 +11,35 @@ Adding an NPC Gizmo to your world has the **same performance impact as adding an
 To create and configure an NPC using the NPC Gizmo, use the following process:
 
 - Select **Build** from the top menu and navigate to select the **NPC** icon from the **Avatar** section.
-  ![NPC Gizmo Build window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/578267194_863533339517952_5977020901995238590_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=2aRmGt8InNwQ7kNvwGCF9Im&_nc_oc=AdmT-2jyh7Sx3ejeQsCg3fc5YAauv5SHN0uvaz2xbZ74Uhpc0u0rcaTXIdLzChtYdg2xf9hrdV7j8nCmk6wtx9Tj&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6fQlOSRphVyzPMZTIT-H5g&oh=00_AflS4qWklt0H2QREfSWFx3dg_cnNK3xTRxik7iuFWVF9Qw&oe=69557C3C)
+  <details>
+  <summary>NPC Gizmo Build window</summary>
+  
+  <p></p>
+  
+  [NPC Gizmo Build window](../../../image_data/88b2209431ad9fd4aa2071be3a71102aaa846e234d72edd37167907bcdd325b2.md)
+  
+  ### Overview
+  The image displays a user interface toolbar within a software application, likely related to game development or asset management. The toolbar contains various categories and tools for building and managing assets. The interface has a dark theme with light-colored text and icons.
+  
+  ### Key Elements
+  - **Hierarchy**: Located at the far left, this category is represented by a plus sign and a minus sign, indicating expand/collapse functionality.
+  - **Shapes**: Positioned next to Hierarchy, this category includes icons for spheres, cubes, and other shapes, suggesting tools for creating geometric objects.
+  - **Colliders**: Contains icons for different types of colliders, which are physics components used in games.
+  - **UI**: Includes icons for UI elements such as text fields, buttons, and navigation controls.
+  - **Navigation**: Features icons for navigation tools, possibly related to scene transitions or pathfinding.
+  - **Display**: Contains icons for display-related functions, such as rendering and lighting adjustments.
+  - **Interactions**: Includes icons for interaction tools, likely for scripting or event handling.
+  - **Avatars**: Displays an icon resembling a character or avatar, suggesting tools for character creation or customization.
+  - **Media**: Likely related to audio or video assets, indicated by a play button and a microphone icon.
+  
+  ### Visual Flow / Relationships
+  The elements are arranged horizontally across the toolbar. The most prominent visual is the "Avatars" category, highlighted with a red bounding box. The elements follow a logical sequence from left to right, with each category having its own set of icons and labels.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Drag the NPC Gizmo from the toolbar into your world scene and place it. **Note**: the NPC may initially appear as a single, flat color as a placeholder. It is also important to position the NPC gizmo on a surface in your world and not above or below it.
 - Once your NPC has been added to your world, you can configure its properties.
 
@@ -36,6 +64,37 @@ You can also duplicate or delete NPC Gizmos within your world like any asset add
 
 After adding the NPC Gizmo (**Gizmos > NPC)** and positioning it in your world, you can set its’ **Body Type** to Horizon Avatar to use a Horizon based avatar as an NPC. When selecting a Horizon Avatar as an NPC you can also **customize its visual appearance** by clicking “**Edit Avatar**” in the Properties panel. This opens a web-based editor for body, face, clothing, and accessories.
 
-![Edit your avatar window](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469049488_603532515518037_2698379075646803421_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=H7EBSPlcLxoQ7kNvwG_IcV7&_nc_oc=AdknpGq6oA13EfYZPAdtNM2HZ5vKBwv5wPIpzuwc9uSxSlAAL2HBjUDUtCkPxyiIbTUFnJVs4SWfGq5MougGTDFV&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6fQlOSRphVyzPMZTIT-H5g&oh=00_Afn3POSp_-X-sYuh61EOmIoF7fTpHG6L6M0wPFUfRGJbcw&oe=69558953)
+<details>
+<summary>Edit your avatar window</summary>
+
+<p></p>
+
+[Edit your avatar window](../../../image_data/7dc97bd81a67deea47d7d01940ba4e49b3e371472e03c16ad42088b8d00e2345.md)
+
+### Overview
+This image depicts a user interface for editing an avatar within a virtual environment, specifically a character customization screen. The interface allows users to modify various aspects of the avatar, such as clothing, accessories, hair, makeup, face features, and body shape. The central focus is on the hairstyle customization options, which are displayed in a grid layout on the right side of the screen.
+
+### Key Elements
+- **Left Panel**: Contains a vertical menu with categories for editing the avatar. The categories include Clothing, Accessories, Hair, Makeup, Face, and Body. Each category has a downward arrow indicating more options can be expanded.
+    - **Clothing**: A dropdown arrow next to the label.
+    - **Accessories**: A dropdown arrow next to the label.
+    - **Hair**: Expanded to show Hairstyle and Facial hair options.
+        - **Hairstyle**: Selected option, highlighted with a darker background.
+        - **Facial hair**: Not currently selected.
+    - **Makeup**: A dropdown arrow next to the label.
+    - **Face**: A dropdown arrow next to the label.
+    - **Body**: A dropdown arrow next to the label.
+- **Central Grid**: Displays a grid of hairstyle options for the avatar. Each thumbnail shows a different hairstyle.
+- **Right Side**: Shows a 3D model of the avatar wearing the selected hairstyle.
+- **Bottom Right**: A blue button labeled "Done editing."
+
+### Visual Flow / Relationships
+The interface follows a clear hierarchical structure. The left panel acts as the primary navigation area, guiding the user through different customization options. The central grid provides a visual representation of available choices, while the 3D model on the right showcases the current selection. The "Done editing" button at the bottom right suggests that the user can finalize their changes.
+
+</details>
+
+<p></p>
+
+
 
 Remember to click **“Refresh”** in the Desktop Editor to see your updates after you click **Done editing**.

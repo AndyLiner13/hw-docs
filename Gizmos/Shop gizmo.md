@@ -8,7 +8,32 @@ You will need to be a member of MHCP and have accepted the terms in the Develope
 
 Gizmos are a suite of helper tools which are designed to enhance the creation and interactivity of worlds. The shop gizmo allows users to trade Meta credits and in-world items for other in-world items.
 
-![Shop Gizmo in Meta Horizon Worlds](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/518277094_762929259578361_3593903843151039697_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=WB2O9-OWFT4Q7kNvwGioPc4&_nc_oc=AdkZKVz-JxlVMrMuv70m7OPTMaB0DIKgI7TI3Hbf54B-ToceFdPNh4iF5eRiLhmTTJ5uOfsyqZoiCFG88aDsZdE_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FUWpIGUetX9uW45XEaLhCg&oh=00_AfnQB7cWpPIonh_1abwEgaUg2NVJ0gc4Hhck4UDmTqg7vA&oe=69557191)
+<details>
+<summary>Shop Gizmo in Meta Horizon Worlds</summary>
+
+<p></p>
+
+[Shop Gizmo in Meta Horizon Worlds](../image_data/d81b154a0b0c28ac46ed26f0f0a8f9525e55b7670d018ea6304028efd1a6b060.md)
+
+### Overview
+This image depicts a user interface element from a shopping or inventory management application. It shows a grid layout with eight items labeled as Item 1 through Item 8. The layout is arranged in two rows, with four items per row. The top right corner displays a badge indicating a count of 390, likely representing a notification or a total quantity of items.
+
+### Key Elements
+- **Visual description**: Light purple squares with rounded corners.
+- **Location**: Top row: Items 1, 2, 3, 4; Bottom row: Items 5, 6, 7, 8.
+- **Contents**: Each square contains the text "Item X" where X is the number corresponding to the item.
+- **Visual styling**: Light purple background, white text, no additional icons or images within the squares.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The badge in the top right corner.
+- **Arrows/lines/connectors**: None.
+- **Spatial relationships**: Items are evenly spaced in a grid layout, with no overlapping or nested elements.
+
+</details>
+
+<p></p>
+
+
 
 The shop gizmo can be configured to display in-world items created in the **Systems > Commerce** menu. For more information on creating in-world items, visit the [In-World Purchase Guide](../MHCP%20program/Monetization/In-world%20purchase%20guide.md#creating-an-item).
 

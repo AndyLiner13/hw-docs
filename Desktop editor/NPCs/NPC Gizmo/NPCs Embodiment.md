@@ -8,7 +8,51 @@ When creating an NPC there are two embodiment options to choose from: **None** a
 
 While **None** AI embodied and **Horizon Avatar** both leverage the core NPC Gizmo as their foundation, they provide distinct functionalities and use cases for populating your virtual world with interactive characters. The choice between them depends on whether or not you want to attach the NPC gizmo to an entity in your world, or make use of a Horizon Avatar as an NPC character.
 
-![Horizon Avatar and None embodied NPC](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545887387_810235231514430_8912002839303763770_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=FywLmAumoEMQ7kNvwHMSGLz&_nc_oc=AdlhrgRWeIt4G4Rf79ziXyddRarIDiRTtSq-sPRbYSDncXICe2wMGPWr3T37Hy9RCmdNMDeHbPYNM4sM-Po19x35&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=8qoNT0NFU0DL4WrIoVaHYg&oh=00_AfmhC6GY-OX0VFLh0TCbFcYIu1VdHuN--29BDQJ3udwfhA&oe=695586AB)
+<details>
+<summary>Horizon Avatar and None embodied NPC</summary>
+
+<p></p>
+
+[Horizon Avatar and None embodied NPC](../../../image_data/a3a23ef07ddda8c929296890ba4b79dd9dac36d0cd4f5d3435440b21362418ce.md)
+
+### Overview
+The image depicts a virtual environment with three distinct characters and a cube with symbols. The scene is set against a gradient blue sky and a tiled floor grid.
+
+### Key Elements
+1. **Top Left Character**
+   - **Visual description**: A stylized humanoid figure with a red body and black hair.
+   - **Location**: Top-left quadrant.
+   - **Contents**: The character is standing with one hand on their hip and the other raised near their head.
+   - **Visual styling**: Red body, black hair, simple design.
+
+2. **Bottom Left Character**
+   - **Visual description**: A human-like figure wearing a dark gray T-shirt and blue jeans.
+   - **Location**: Bottom-left quadrant.
+   - **Contents**: The character has short brown hair and is standing upright with a neutral expression.
+   - **Visual styling**: Dark gray T-shirt, blue jeans, light skin tone.
+
+3. **Cube with Symbols**
+   - **Visual description**: A purple cube with white symbols resembling people and stars.
+   - **Location**: Right side, bottom-right quadrant.
+   - **Contents**: The cube features four white symbols arranged in a pattern.
+   - **Visual styling**: Purple cube, white symbols.
+
+4. **Floating Text Box**
+   - **Visual description**: A rectangular box with rounded corners.
+   - **Location**: Above the top-left character.
+   - **Contents**: Contains the text "Test Bot" with "Test" in white and "Bot" in gray.
+   - **Visual styling**: White background with a gray bottom section.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The top-left character due to its central placement and larger size.
+- **Arrows, lines, connectors**: None present.
+- **Spatial relationships**: Characters are spaced apart, with the cube positioned further right than the human-like figure.
+
+</details>
+
+<p></p>
+
+
 
 ## Non-AI Embodied NPCs
 

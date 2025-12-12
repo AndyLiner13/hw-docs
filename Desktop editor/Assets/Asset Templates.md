@@ -457,7 +457,33 @@ To override a property:
   
   
 - It’s also possible to revert overrides. Reverting override values will revert the asset back to the same state as any draft version that exists, or in the absence of a draft version, the current major version of the asset.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652316_512500674621222_1012367075903542989_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=0k7qfoopEBEQ7kNvwF9zYjR&_nc_oc=AdkmLLprS52lgZTBAjHtW39qFWYa7up2MsxqoaUln4TvTd0jofMdYwKJ7gFbVjvVogFsFyIzqI3FmYXchZ3160pB&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfmeJd8cAwis9ZjgCQ5TEnzlCOmXPBeLE2SNXL8UHnU2mg&oe=6955827B)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/a35360ebfd8eeb76a9e1551e6472288ceea4dd7f6cafdc2d8c2f9c91402b3dde.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a dropdown menu with two options: "Apply to definition" and "Revert." The dropdown is triggered by clicking on a color swatch labeled "Color" in a settings panel. The panel also includes a slider for "Material Roughness" set at 0.5, and a search bar for "Search attached tags."
+  
+  ### Key Elements
+  - **Color Swatch**: A small rectangular swatch with a gradient from red to pink, located near the top-left of the dropdown menu. It has a white border.
+  - **Dropdown Menu**: A black rectangular dropdown menu with rounded corners, containing two options: "Apply to definition" and "Revert." The menu has a white background and black text.
+  - **Slider**: A horizontal slider with a blue handle positioned at 0.5. It is located above the dropdown menu.
+  - **Search Bar**: A black rectangular search bar with a magnifying glass icon on the left and a plus sign on the right. It is located below the dropdown menu.
+  - **Material Roughness Label**: Text reading "Material Roughness" in white, located above the slider.
+  - **Roughness Value**: The value "0.5" displayed next to the slider.
+  - **Toggle Button**: A toggle button with a downward arrow indicating a dropdown menu, located to the right of the slider.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the dropdown menu, as it is the focal point of interaction. The color swatch is adjacent to the dropdown, suggesting that clicking it triggers the dropdown. The slider and search bar are secondary elements, providing additional functionality within the same interface area.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 **Note:** Property overrides persist even when you update the asset. To test this, you can edit the asset definition, add a new shape to it and then exit. You will see that the color of the sphere will remain even after the update!
 
@@ -469,7 +495,32 @@ The following steps will walk through asset migration:
 
 - You will see a blue icon at the top right corner of an asset card if the asset needs to be migrated. Right click on the asset card, and select **Update Asset** from the menu that appears.
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452665936_512500581287898_7545021707173957534_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=q5oIYnWxl24Q7kNvwEuibBx&_nc_oc=AdkuCN9hdpBgHz0MEkuhJCA9_MSURZa1emetWh9fpfjahiaOa5OETPI_Zpup1aOxWTL6Gusc5KC4ONjOVhtiCP5u&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_Aflf1W5naNOw4R3ShHOb09nmLfWIdUjC84AxIhSrWijRsg&oe=69558B24)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/733cd3d10e8dfcfeb802ff795055600a7f2b90bff6ffacc81375cd1b18a0c949.md)
+  
+  ### Overview
+  This image displays a grid layout of various asset icons, likely from a digital asset management tool or a game development environment. The assets are arranged in a 5x3 grid, with some icons having small warning symbols next to them.
+  
+  ### Key Elements
+  - **Visual description**: Each icon is a square with rounded corners.
+  - **Location**: Top row: leftmost column, middle row: leftmost column, bottom row: leftmost column.
+  - **Contents**: Text labels underneath each icon.
+  - **Visual styling**: Gradient background colors ranging from light blue to purple, with white icons and text.
+  
+  ### Visual Flow / Relationships
+  - Most prominent visually: The icons themselves due to their size and distinct color gradients.
+  - Arrows, lines, or connectors: None present.
+  - Spatial relationships: Icons are evenly spaced within rows and columns, creating a grid-like structure.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Alternatively, you can also click on the folder and update all assets in a folder at once by clicking on the link at the bottom right of the asset browser.
 
 **Note**: Ingested asset types don’t have to be migrated, only assets created within Horizon.
@@ -489,7 +540,41 @@ To unlink an instance from a template:
   - Choose **Unlink instance root** to only unlink the parent template.
   - Choose **Unlink instance root and children** to unlike the parent template and any nested child templates.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452934219_512500594621230_5600854580075909703_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=iSynghBUPcMQ7kNvwFGpOT0&_nc_oc=AdleH61TLORItXDEJ_1d1JpDrIjz-DA2gOoZn991nohJLHtLL5gVZOHplCghGHxeuQZjj8V5xOXWCC3OPf7iJOLd&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfnWNlPpEk1YdU5OXsCVl6dAu15I80UWAINvuRmI1_aBjA&oe=69557CCE)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/f89107380ba4e148d10850a282f7e37f520072837691c0cc93d2dff0e3de6055.md)
+
+### Overview
+This image depicts a user interface element showing a context menu that appears when interacting with a specific item labeled "asset_template" within a hierarchical structure. The menu contains several options for managing the selected asset template.
+
+### Key Elements
+- **Visual description**: The context menu is a rectangular pop-up with rounded corners.
+- **Location**: Positioned to the right of the "asset_template" item in the hierarchy.
+- **Contents**: 
+    - **Rename**: Option to rename the asset template.
+    - **Duplicate**: Option to duplicate the asset template, accompanied by a keyboard shortcut (`Ctrl + D`).
+    - **Edit Template Definition**: Option to edit the definition of the template.
+    - **Delete selection**: Option to delete the selected asset template, with a keyboard shortcut (`Del`).
+    - **Unparent child objects**: Option to unparent any child objects under the selected template, with a keyboard shortcut (`Ctrl + G`).
+    - **Unlink instance root**: Option to unlink the instance root of the selected template.
+    - **Unlink instance root & children**: Option to both unlink the instance root and its children.
+    - **Focus on selection**: Option to focus on the selected asset template.
+    - **Create parent object**: Option to create a new parent object for the selected template.
+- **Visual styling**: The menu has a dark background with white text. The highlighted option ("Duplicate") is in blue, indicating it is currently selected.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Duplicate" option is highlighted in blue, drawing attention to it as the current selection.
+- **Arrows, lines, connectors**: There are no arrows, lines, or connectors in this image.
+- **Spatial relationships**: The menu items are arranged vertically, with each option listed one after another. The highlighted option is positioned slightly above the others.
+
+</details>
+
+<p></p>
+
+
 
 ## Attaching scripts to asset templates and updating the definition
 
@@ -502,26 +587,189 @@ You can attach a script to the asset template by:
 
 - Edit a script in the world from the property panel.
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452953164_512500601287896_1058603146175003068_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=4f_Pn-02kY8Q7kNvwGwYra4&_nc_oc=Adm_kbYMzaNnjSy1cCM9tXrKo45ADQCc0ujXxGGRgtvIMKiWWAqL8I9Vk249GFP1jO0WFd3QfOGJgdoD3RGEBNLX&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AflGP3T4RSkGcafYV8_if6WAQBZbtRoLSVyXQM_zlkmi1g&oe=69557D4E)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/953b2dd33e2da0a97f0ba2fe1637a1b11dcf3307174b93b3c685e7dae0c073cf.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a script selection dropdown within a software application. The layout includes a collapsed section header labeled "Script," a checkbox indicating an attached script, and a dropdown menu displaying a script name.
+  
+  ### Key Elements
+  - **Header ("Script")**: Located at the top-left, this is a dark gray rectangular area with white text.
+  - **Checkbox ("Attached Script")**: Positioned to the left of the header, it is a small blue circle with a white checkmark inside.
+  - **Dropdown Menu**: Situated to the right of the header, it is a light gray rectangle with rounded corners. Inside, the text "Script A:ScriptA" is displayed in white, along with a downward-pointing arrow indicating a dropdown.
+  - **Background**: The overall background is dark gray, providing contrast to the lighter-colored elements.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual is the collapsed "Script" header. The attached script checkbox is secondary but still noticeable due to its distinct color. The dropdown menu is the focal point as it contains interactive content.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - When a script is attached to an asset template, you should see it appear as an override. You will see a blue dot next to **Attached Script** (above image) and two overrides applied: one for the script and one for motion (shown below).
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652931_512500564621233_8795829224957538121_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=wyrsesuufpYQ7kNvwFjykc2&_nc_oc=AdnNS0ngeRBADn2v24peiEIVZdD3awg8P3Jm35I3z1G5_ejcmhp7gWQ5qoGAyzJ6M7b1tfjYFD67Xf6l6iLQp4m1&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfnmNpM-Kbr3gy0CGD8udpYHMnhTGT2j4RQQRFD06rsZew&oe=6955863A)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/2d9bd8fe0be5281a3bc0ee31da10207343e687889828787ba7d396d28e8f14a6.md)
+  
+  ### Overview
+  The image displays a user interface section within a software application, specifically showing properties related to an asset template named "asset_template". The interface includes a notification about overrides that haven't been applied, a toggle for visibility, and options for motion settings.
+  
+  ### Key Elements
+  - **Notification Box**: Located at the top, highlighted with a red border. Contains a message stating, "This instance has 2 overrides that haven't been applied to the definition." Below the message, there is a clickable link labeled "Review."
+  - **Toggle Switch**: Positioned below the notification box, to the right of the "Behavior" heading. It is a blue toggle switch indicating the asset is currently visible.
+  - **Motion Dropdown**: Situated under the "Behavior" section, next to the toggle switch. It shows the current setting as "Animated," with a downward arrow indicating a dropdown menu for more options.
+  - **Buttons**: At the bottom of the interface, there are two blue buttons labeled "Play" and "Record."
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the notification box and the toggle switch. The notification box draws attention due to its red border and placement above the toggle switch. The toggle switch is adjacent to the "Behavior" heading, and the motion dropdown is positioned next to it. The buttons at the bottom are less prominent but still noticeable due to their distinct blue color.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Edit the script’s source code by selecting **Open in external editor.** When the script’s source code is updated, this will also appear as an override.
 - Publish the script change through overrides. This will update the asset template definition with the script.
 - Publish the script change through the overrides panel. This will update the asset template definition with the script changes included in the latest version of the template definition. See the note at the end of this section for more information.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452652238_512500577954565_6836600478890992788_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=VI6vp15mMf0Q7kNvwFx8OoB&_nc_oc=AdkBTDbgxA2YcLF9Qh2VOvsP1ewBC279DJigGfWRUd3WYmVp9Cfb-jmicoeAc21mTu6yaRWvD8-iixEXAaEcnYyF&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AflcdWwLLp9T7ltwr11aOsXurJ3wO77JqdF8gbtyy28JjQ&oe=69559AB3)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/9e6775d6598e74e57fc5e980a0af0238d36d45ad3d993050a3380195b27bb11f.md)
+  
+  ### Overview
+  This image depicts a user interface window titled "Template Overrides." It has a dark theme with a sidebar on the left and a table on the right. The interface allows users to manage overrides for components within a template.
+  
+  ### Key Elements
+  - **Title Bar**: "Template Overrides" at the top.
+  - **Close Button**: An 'X' icon on the far right of the title bar.
+  - **Sidebar (Left Panel)**:
+    - **Header**: "OBJECT HIERARCHY."
+    - **Tree View**: Contains nested objects under "asset_template," labeled as "Cube" and "Sphere."
+    - **Selected Node**: "asset_template" is highlighted in blue with a counter "1" indicating the number of children.
+  - **Table (Right Panel)**:
+    - **Headers**: Columns labeled "COMPONENT," "PROPERTY," "OLD VALUE," and "NEW VALUE."
+    - **Row**: Displays a single entry with "Script" under COMPONENT, "Attached Script" under PROPERTY, and timestamps under OLD VALUE and NEW VALUE.
+  - **Buttons (Bottom)**:
+    - **Revert All Overrides**: A gray button with white text.
+    - **Apply All Overrides**: A blue button with white text.
+  
+  ### Visual Flow / Relationships
+  The interface follows a linear flow from left to right. The tree view on the left provides navigation, while the table on the right displays override information. The buttons at the bottom allow users to either revert or apply changes.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ### Attaching the script to the asset template definition
 
 - Right click on the asset instance (or asset in **Assets**) to edit the definition.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452951204_512500597954563_4508069784119552394_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=jXfTUkKYNbsQ7kNvwGx1U6I&_nc_oc=AdlJyMbShYTDerB7lzwtPBtQjm9NxAcQhKiFlheIssXnHa7uwc7UAfrueY2QA0rXOZH8-jm2B19URWPY2FnIukqL&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AflIKn2UTXfdETLcI_NK9BGOqSzchLadh-0d9k9SCrlH8w&oe=6955A167)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/d1594ed41cf30b4cca504a6f785f10c544c9ac8bc264914b67563c016849705f.md)
+  
+  ### Overview
+  This image depicts a contextual menu that appears when interacting with a specific item named "asset_template" in a user interface. The menu contains several options, each with a corresponding keyboard shortcut next to them.
+  
+  ### Key Elements
+  - **Visual description**: The menu has a dark background with white text and light gray separators between options.
+  - **Location**: The menu is positioned directly beneath the "asset_template" item.
+  - **Contents**:
+    - **Rename**: Located at the top of the menu.
+    - **Duplicate**: Followed by its keyboard shortcut "Ctrl + D".
+    - **Edit Template Definition**: Highlighted with a red bounding box, indicating it is the current focus or selection.
+    - **Delete selection**: Located at the bottom of the menu.
+    - **Unparent child objects**: Partially visible at the very bottom.
+  - **Visual styling**: The menu uses a dark theme with white text for readability. The highlighted option has a subtle shadow effect.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the "Edit Template Definition" option, as indicated by the red bounding box. The options are arranged vertically, with no arrows or lines connecting them. The keyboard shortcuts provide a quick reference guide for each action.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Edit a script in the world from the property panel.
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452054064_512500541287902_5048148391692387350_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=7aVr431WrCgQ7kNvwFzMr4Y&_nc_oc=AdmGrfjPsNo_UjOIvk2HecdPYiZk71T_zL6jlVradY08-9_AKpbnLoytxw9-BLYcftzMaxGlZRSaK5dMvIOboTXP&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfllW7MDT7mScSQVBcGaVlbMupF77ZOef7MxQkiYADMcQQ&oe=69556DBC)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/953b2dd33e2da0a97f0ba2fe1637a1b11dcf3307174b93b3c685e7dae0c073cf.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a script selection dropdown within a software application. The layout includes a collapsed section header labeled "Script," a checkbox indicating an attached script, and a dropdown menu displaying a script name.
+  
+  ### Key Elements
+  - **Header ("Script")**: Located at the top-left, this is a dark gray rectangular area with white text.
+  - **Checkbox ("Attached Script")**: Positioned to the left of the header, it is a small blue circle with a white checkmark inside.
+  - **Dropdown Menu**: Situated to the right of the header, it is a light gray rectangle with rounded corners. Inside, the text "Script A:ScriptA" is displayed in white, along with a downward-pointing arrow indicating a dropdown.
+  - **Background**: The overall background is dark gray, providing contrast to the lighter-colored elements.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual is the collapsed "Script" header. The attached script checkbox is secondary but still noticeable due to its distinct color. The dropdown menu is the focal point as it contains interactive content.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Save and publish the template definition. This will create a new version of the asset that includes the script changes. See the note below for more information.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452757259_512500557954567_7387970478247480678_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=1KoEizJlcAwQ7kNvwHyW1B7&_nc_oc=AdmrERiIE4EgBv-8UmQ0IS-8NLPdKcdArKTUGvxgp1Yqo74HjtA8bG77jBHueouUuBqPACPYdAsTJ08zYnwLMc7a&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfnqpKkwkjJc5JJ5z89mHovwn7G_-RHNhKJr_7CJOrl7eA&oe=695588BF)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/94f384209af7a87ae7d731c6114c438bd1d463d891ca44b53e59bdb8fc73f270.md)
+  
+  ### Overview
+  This image depicts a modal dialog box within a software interface, specifically for editing a template definition. The dialog box is centered and contains two buttons: "Discard" and "Save."
+  
+  ### Key Elements
+  - **Dialog Box**: A rectangular box with rounded corners, located centrally in the image.
+    - **Visual description**: Dark gray background with white text.
+    - **Contents**: Contains the text "> Editing the template definition for <asset_template>" and two buttons labeled "Discard" and "Save."
+    - **Visual styling**: White text on a dark gray background, with a blue button for "Save."
+  - **Buttons**: Two rectangular buttons within the dialog box.
+    - **"Discard" Button**: Located on the left side of the dialog box.
+      - **Visual description**: Gray button with white text.
+      - **Contents**: "Discard"
+      - **Visual styling**: Gray background with white text.
+    - **"Save" Button**: Located on the right side of the dialog box.
+      - **Visual description**: Blue button with white text.
+      - **Contents**: "Save"
+      - **Visual styling**: Blue background with white text.
+  - **Background**: The background behind the dialog box is blurred but appears to be a workspace or editor interface with various panels and tools.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The dialog box itself, as it is the central focus of the image.
+  - **Arrows, lines, connectors**: None visible.
+  - **Spatial relationships**: The dialog box is centered, with the "Discard" button on the left and the "Save" button on the right. The background elements are out of focus and do not interact with the dialog box.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 **❗️Important** : When you open a new world that uses this asset template, the script change will be included in the asset templates update. If the script in your world is on a different version than what is in the template update, accepting the template update will also update the script to be on the same version.

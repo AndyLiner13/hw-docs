@@ -28,7 +28,31 @@ Based on the above information, you’ll notice that the screen overlay feature 
 
 - When you [create a UI with the **Custom UI** gizmo](Create%20a%20custom%20UI%20panel.md#step-1-create-a-custom-ui-gizmo), find the [**Display Mode** property](Custom%20UI%20panel%20configurations.md) under **Visual & Interaction** on the **Properties** panel.
 
-  ![The Visual and Interaction section on the Properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487875307_686297440574877_2174095531124152284_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=IEgMOcYBGGEQ7kNvwFt-jD8&_nc_oc=AdlE16TpXmXfXJfbgaMqDbORp7TdJsvIjleCaXbB0LBii02UA9YfFOTaNEuTcK5nXWffLp2ksiUUpMsKJXFlmRb-&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PfFN-ojtzBUCTne0Ltwn0g&oh=00_Afk9_dpd1YEVasOrpXcRjcOh_1AZvTBi5vK-jx05wyyZSQ&oe=69559F88)
+  <details>
+  <summary>The Visual and Interaction section on the Properties panel</summary>
+  
+  <p></p>
+  
+  [The Visual and Interaction section on the Properties panel](../../image_data/f529f23ad94653f398d09c5323b1f1483717b71e1700911660ece03aaf7d93bf.md)
+  
+  ### Overview
+  This image depicts a settings interface with multiple configuration options grouped under different headers. The interface has a dark theme with toggle switches and input fields for adjusting settings.
+  
+  ### Key Elements
+  - **Header "Visual & Interaction"**: Located at the top, this section contains a dropdown menu labeled "Display Mode" set to "Spatial." Below it are toggles for "Raycast" and "Mipmap," both currently off.
+  - **Input Field "Raycast distance"**: Positioned below the "Raycast" toggle, it shows the value "3."
+  - **Toggle "Mipmap"**: Located next to the "Raycast distance" field, it is off.
+  - **Header "Web and Mobile"**: Below the previous section, this header contains a toggle switch labeled "Focus prompt," which is on. Next to it is an input field labeled "Focus prompt distance" showing the value "2.5."
+  - **Header "Behavior"**: At the bottom, this section includes a toggle switch labeled "Visible," which is on.
+  
+  ### Visual Flow / Relationships
+  The interface is organized into distinct sections, each with its own header. The toggles and input fields are arranged vertically within each section. The toggles have a blue background when active, while the input fields show the current values clearly.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Switch the **Display Mode** to **Screen Overlay**.
 - Next, write Typescript code to craft a screen overlay UI that aligns with your design.
 - Ensure that the outermost view container includes the [position: “absolute” property](../../Reference/ui/Type%20Aliases/LayoutStyle.md).
@@ -97,7 +121,30 @@ class ScreenOverlay2 extends UIComponent {
 
 Now that you have created these two screen overlays, you can see two UI layouts as shown in this screenshot. The content varies depending on your TypeScript code.
 
-![Two examples of screen overlays](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487698781_686297437241544_7890064344951409983_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=PTMPEo-6NBwQ7kNvwGgTd7J&_nc_oc=AdmVGwoFs2-zivfZIfjM-0mVIHdmQMkO9fA0SZbgqJV2m4PvylNXlcSoRONp5q0GqzBUEc6HXhlZGQUYToCQ8aYp&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=PfFN-ojtzBUCTne0Ltwn0g&oh=00_Aflsy57fpDdN4EaaL-nZ4FH0WBBs2CN4oMmld54mwrtmgg&oe=69557EF4)
+<details>
+<summary>Two examples of screen overlays</summary>
+
+<p></p>
+
+[Two examples of screen overlays](../../image_data/07bc67d8eb06eaa1bab0e81b6084aaef02db567a5ff3dee3832b61cc3d55c189.md)
+
+### Overview
+The image depicts a virtual environment viewed from behind a character standing on a grid floor. The character has long dark hair and is wearing a white coat over a gray dress. The scene is set against a gradient blue sky. There are two overlays labeled "OVERLAY 1" and "OVERLAY 2" at the bottom corners, each containing red and green buttons labeled "Red" and "Green," respectively. The top left corner features a menu icon and an "ESC" key symbol, while the top right corner includes a microphone icon and a smiley face icon.
+
+### Key Elements
+- **Character**: A 3D model of a person with long dark hair, facing away from the viewer. Wearing a white coat over a gray dress.
+- **Background**: A gradient blue sky and a tiled floor with a grid pattern.
+- **Overlays**: Two rectangular areas labeled "OVERLAY 1" and "OVERLAY 2" at the bottom corners. Each contains a red button labeled "Red" and a green button labeled "Green."
+- **Top Icons**: A menu icon and an "ESC" key symbol in the top left corner. A microphone icon and a smiley face icon in the top right corner.
+
+### Visual Flow / Relationships
+The most prominent visual element is the character in the center. The overlays are positioned symmetrically at the bottom corners. The top icons provide interactive elements for the user.
+
+</details>
+
+<p></p>
+
+
 
 ### Player-specific screen overlay
 

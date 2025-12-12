@@ -6,7 +6,31 @@ The dynamic light [gizmo](About%20gizmos.md) allows creators to add dynamic ligh
 
 The following image is taken from the [tutorial world](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md) called [Economy world](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/economy-world-tutorial/module-3-configuring-gameplay) where the dynamic light gizmos are at work. The dynamic light is used to draw attention to the apple.
 
-![An screenshot of the dynamic light gizmo at work](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/505443192_738224338715520_974421412205283361_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=E5eZeX4-0_4Q7kNvwH9vAPJ&_nc_oc=Adn_R0M6jsBhf0439hg2o7tmXcR1bkHDHKNg5Rndze67lQ3yE0DrqhwVdhZeBufysFc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=hIWWfRJWQCz3-ti23h6qrA&oh=00_Afl3VA2Hx3gGjzTm7LEzYW86sN7hpV7ny70hdnXocPYa9w&oe=69557AAA)
+<details>
+<summary>An screenshot of the dynamic light gizmo at work</summary>
+
+<p></p>
+
+[An screenshot of the dynamic light gizmo at work](../image_data/96d17fd3fa6e991d32111c72ccd9e809749c98f0e8c6646c920c7d8e1d49fef8.md)
+
+### Overview
+This image depicts a virtual environment with a character standing under a tree. The scene includes two apples, one on the ground and one hanging from the tree. The character is wearing casual clothing and has blue hair tied up in a bun. There is a circular icon at the bottom right corner that resembles a menu or interaction button.
+
+### Key Elements
+- **Character**: A figure with blue hair in a bun, wearing a pink hoodie and blue jeans. Located centrally in the image.
+- **Tree**: A large tree with a brown trunk and green leaves. Positioned on the right side of the image.
+- **Apples**: Two red apples, one on the ground and one hanging from the tree. Both apples have small white lines around them, possibly indicating selection or interaction points.
+- **Ground**: A grid-patterned floor, suggesting a virtual or game-like setting.
+- **Menu Icon**: A circular icon with a white menu symbol located at the bottom right corner.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the character and the apples. The apples are connected by lines, suggesting interactivity. The character is positioned between the two apples, and the tree is partially obstructing the view of the hanging apple. The menu icon at the bottom right suggests an interactive element within the scene.
+
+</details>
+
+<p></p>
+
+
 
 ## Limitations
 

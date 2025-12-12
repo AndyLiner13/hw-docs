@@ -57,9 +57,66 @@ When a spawned object is no longer needed, you can then remove the object from t
 
 ### CodeBlocks
 
-![A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460204911_548705517667404_7824595070708973058_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=OcmIGl0_lkUQ7kNvwHVBS8T&_nc_oc=Adn8uWsktmmWLrnhwJZUm9RjEI8hFakIlGTv4vJEMGrXX7-WCdNZu5tput5gFmmCAC8Zm0Vj3I0yuxcxoj3c7WFb&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6dsVuH3gjpNPxLRp5IrHTg&oh=00_AfkRZgZb9C2UCaF_vVJPYnYisyXBYEqqK8_DXlvsIkOsxw&oe=695597E8)
+<details>
+<summary>A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.</summary>
 
-![A view of the CodeBlocks Editor with blocks to handle despawning assets.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/460197256_548705514334071_4968040419667574195_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=nqP1qIO4hUQQ7kNvwHZiQBK&_nc_oc=Adkx3eKi2FZyV8JvvdGyxc2thvUhI6LcXr-VNLSYQS8M3_N-bzE9Ve638UPO_MWOIs--OirYnLPwCnO1dtSB7WrM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6dsVuH3gjpNPxLRp5IrHTg&oh=00_Afl-aJvr-Cv--SYfPNmUGmEc2bzhgbg8Bcx7wascHavjZA&oe=695572E8)
+<p></p>
+
+[A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](../../image_data/db3393552f5688b619d19c978f9dbb992113cfe4f3c6dcd5cefb2788de7e78a3.md)
+
+### Overview
+This image depicts a user interface of a programming environment, specifically a block-based scripting interface. The interface is titled "Runtime Manager" and contains a series of interconnected blocks representing code snippets. The blocks are arranged in a vertical sequence, indicating a step-by-step process or script flow. The background is a gradient blue, and the interface has a dark theme with light-colored text and highlights.
+
+### Key Elements
+- **Title Bar**: Located at the top, labeled "Runtime Manager." It includes a settings gear icon, a copy icon, and a close (X) icon.
+- **Code Blocks**: These are the primary elements, arranged vertically. Each block contains text and icons, forming part of a larger script.
+  - **Block 1**: "when objSpawned is received with obj + New Param"
+  - **Block 2**: "add obj to [ ] objList"
+  - **Block 3**: "when spawnEvent is received with + New Param"
+  - **Block 4**: "if length of [ ] objList == #0"
+  - **Block 5**: "set #objIdx to #0"
+  - **Block 6**: "while #objIdx < #numObj"
+  - **Block 7**: "Spawn asset asset at position of self + [0 0 1] * #objIdx using 0"
+  - **Block 8**: "set #objIdx to #objIdx + #1"
+  - **Block 9**: "when despawnEvent is received with + New Param"
+
+### Visual Flow / Relationships
+The blocks are arranged in a linear fashion, suggesting a sequential execution of commands. There are no arrows or lines connecting the blocks, but the vertical arrangement implies a step-by-step process. The blocks are closely packed together, with some blocks having nested elements, indicated by the indentation.
+
+</details>
+
+<p></p>
+
+
+
+<details>
+<summary>A view of the CodeBlocks Editor with blocks to handle despawning assets.</summary>
+
+<p></p>
+
+[A view of the CodeBlocks Editor with blocks to handle despawning assets.](../../image_data/e27fedad0ecdad6b0abd499e4aded5e0ec50955abd9e1a72b46fe1c7aa4b27b4.md)
+
+### Overview
+This image depicts a user interface for a programming environment, specifically a block-based scripting tool named "Runtime Manager." The interface is designed for creating scripts using visual blocks that represent code logic. The blocks are arranged in a vertical sequence, forming a script flow.
+
+### Key Elements
+- **Title Bar**: Located at the top, labeled "Runtime Manager."
+- **Block Editor**: A series of interconnected blocks forming a script. Blocks include operations such as "Spawn asset," "Set," "When," "If," "While," "Delete spawned object," and "Clear."
+- **Input Fields**: Some blocks contain input fields with placeholders like "# objIdx" and "# objList."
+- **Event Trigger**: A block labeled "when despawnEvent is received with + New Param."
+- **Conditional Logic**: An "If" block checks the length of "[ ] objList" against zero.
+- **Loop Structure**: A "While" loop iterates over the "[ ] objList."
+- **Script Status**: At the bottom left, a green checkmark indicates "No Errors," and at the bottom right, "Script Mode: Default" is displayed.
+- **Script Capacity**: Shown as "6%."
+
+### Visual Flow / Relationships
+The blocks are arranged vertically, with some horizontal connections indicating the flow of the script. The most prominent elements are the conditional "If" block and the "While" loop, which form the core logic of the script. Arrows and lines connect the blocks, showing the sequence of execution.
+
+</details>
+
+<p></p>
+
+
 
 ### TypeScript
 

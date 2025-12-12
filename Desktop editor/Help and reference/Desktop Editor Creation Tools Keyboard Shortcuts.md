@@ -6,7 +6,40 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 You can access Keyboard Shortcuts from the desktop editor by clicking on the three-dot menu and selecting **Keyboard shortcuts**.
 
-![Image of Keyboard Shortcuts](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/500105721_723378303533457_7443828204987334499_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=2nNfrlijd0sQ7kNvwHbsRHm&_nc_oc=AdncID1ADgHlv7mMeBI3DoyoLLwjRayZA4LOh9DXvpFUxxzZrAW-Mo8YaYJbuhA23jAQBulCIiXCchQsclpUO0bm&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=yGsF-n5Ahp4bB1-HkFDBdg&oh=00_Afm7fY-aBrOeIu1172YhBa1LJtb6bxirOsclfMdQ2J1biQ&oe=69558166)
+<details>
+<summary>Image of Keyboard Shortcuts</summary>
+
+<p></p>
+
+[Image of Keyboard Shortcuts](../../image_data/cc9a28164a612c5c04c231c6e284f7082cd013c9339c7285c93b8abb289e1260.md)
+
+### Overview
+The image displays a dropdown menu that appears when clicking on a hamburger menu icon in the top-left corner of a user interface. The menu contains several options related to world management and settings within a software application.
+
+### Key Elements
+- **Hamburger Menu Icon**: Located at the top-left corner, highlighted in yellow. It consists of three horizontal lines stacked vertically.
+- **Dropdown Menu**: Appears when the menu icon is clicked. Contains a list of options, each with a line separator beneath them.
+  - **Return to Creation Home**
+  - **View Application Logs**
+  - **Launch Typescript Editor**
+  - **Publish World**
+  - **Rename World**
+  - **Save Backup**
+  - **Backups**
+  - **Export Geometry**
+  - **World capacity**
+  - **Keyboard Shortcuts**
+
+### Visual Flow / Relationships
+- The most prominent visual element is the dropdown menu itself.
+- The menu items are arranged vertically, with each item separated by a thin horizontal line.
+- There are no arrows or connectors, but the dropdown menu suggests a hierarchical relationship with the hamburger menu icon above it.
+
+</details>
+
+<p></p>
+
+
 
 ## Build mode
 

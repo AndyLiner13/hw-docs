@@ -8,7 +8,35 @@ Custom UI controls is an extension of custom UI with the **Input Mode** set to *
 
 This input mode is primarily designed for creating a set of custom on-screen controls to work alongside or replace the built-in system controls on mobile.
 
-![custom_ui_controls_in_kaiju](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/465167356_579437347927554_7916055051400203269_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=aDM7xSEIye0Q7kNvwEFXQZn&_nc_oc=AdmMv4HAOefg4Cf_yHQxFDMBjYFAW9jzeDHLz3MxV6n0xzRF7_ic4om_bImZMZ3V9_AJtnki8TTJVfm3J_hIaOgs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=fkBNfZSZdFOn1gQgUmR_9Q&oh=00_Afl49ug1_5FBSVxcrZ6InHweWblcZ8UGSKf9_jFxOHWqcg&oe=69557AF2)
+<details>
+<summary>custom_ui_controls_in_kaiju</summary>
+
+<p></p>
+
+[custom_ui_controls_in_kaiju](../../image_data/5f7e2890b500c787850f2aa519ac22fda4f57ab8643bc1ccc45c2f7cd53971df.md)
+
+### Overview
+This image depicts a vibrant, action-packed scene from a video game set in a cityscape. The player character is seen from behind, holding a weapon and facing a large, floating platform with a futuristic design. The environment is filled with colorful buildings, some of which appear damaged or destroyed, suggesting recent combat or destruction. Various interactive elements and UI components are overlaid on the screen, indicating gameplay mechanics such as movement controls and special abilities.
+
+### Key Elements
+- **Player Character**: Positioned centrally, wearing a white shirt and blue jeans, holding a weapon with a glowing green tip.
+- **Floating Platform**: Located above the player, featuring a rectangular shape with a grid-like pattern and a blue energy beam shooting out.
+- **Buildings**: Surrounding the player and platform, showcasing a mix of modern and traditional architectural styles. Some buildings show signs of damage, with broken windows and debris.
+- **UI Elements**: 
+  - **Movement Controls**: A circular control pad at the bottom left corner.
+  - **Action Buttons**: "Special!", "Dash!", "Jump!" displayed as circular icons at the bottom right.
+  - **Health/Status Icons**: Small icons resembling health bars or power-ups scattered around the edges of the screen.
+- **Energy Beam**: A bright blue beam extending from the platform towards the upper right corner of the image.
+- **Background**: A bustling city skyline with various skyscrapers and a clear sky.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the player character and the floating platform. The player is looking towards the platform, and the energy beam suggests an interaction point. The UI elements are positioned for easy access during gameplay, with the movement controls at the bottom left and action buttons at the bottom right. The floating platform is the focal point, drawing attention upwards.
+
+</details>
+
+<p></p>
+
+
 
 ## Getting started
 

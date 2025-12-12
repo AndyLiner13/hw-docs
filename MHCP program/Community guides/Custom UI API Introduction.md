@@ -87,19 +87,124 @@ You can then adjust the position and rotation to your liking, and after selectin
 
 *Note: Rotating around will be useful as the UI is only rendered on one side, so if you don’t see it later in the tutorial you can rotate to the other side.*
 
-![Image shows a user beginning to work in the desktop editor](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473575538_631480276056594_4482215321456536119_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=CJ0_iLTvbi4Q7kNvwF9CB23&_nc_oc=Adn3vTx0ctmc5-iCDoKstQw3qdrPgJJoRqYzrB6l9U9eqYVxl7UdnQ-dmq9_ThIRvDDyytP3WEKVpW6RJhnz4say&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfmBtvT6BcXGD_7N-Tt8_5uNIa9R5SeRlBU7lCcryijlVA&oe=69556C8D)
+<details>
+<summary>Image shows a user beginning to work in the desktop editor</summary>
+
+<p></p>
+
+[Image shows a user beginning to work in the desktop editor](../../image_data/b187579ec2851026e1b46459c7c6616d09337df0ed956d833fba014c8f8ec204.md)
+
+### Overview
+The image depicts a 3D modeling software interface with a focus on a custom UI element being previewed in a virtual environment. The central part of the image shows a 3D cube with a stylized icon resembling a document or file, placed within a grid-based workspace. On the right side, there is a properties panel displaying various settings related to the UI element.
+
+### Key Elements
+- **Central 3D Cube**: A large orange cube with a white icon in the center. The icon consists of two stacked rectangles with a smaller rectangle above them, resembling a document or file.
+- **Virtual Environment**: The cube is situated in a virtual space with a light blue sky and a gray ground plane, suggesting a 3D modeling environment.
+- **Properties Panel**: Located on the right side, it contains multiple sections such as "Visual & Interaction," "Web and Mobile," "Behavior," and "Attributes." Each section has various toggles, sliders, and input fields for adjusting properties of the UI element.
+- **Navigation Bar**: At the top, there are several icons and dropdown menus indicating different functionalities within the software.
+- **Console and Asset Panel**: At the bottom left, there are panels labeled "Assets" and "Console," showing simulation view indicators and system/user messages.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central 3D cube with the icon.
+- **Arrows/Connectors**: None visible.
+- **Spatial Relationships**: The cube is centered in the virtual environment, with the properties panel on the right providing contextual information about the UI element.
+
+</details>
+
+<p></p>
+
+
 
 Next, create your first script. In the example below, we will name it **CUI\_Test\_Entity**. The prefix “CUI” will help you easily find all scripts that are related to the CUI gizmo, you will see that later in this tutorial. “Test” lets you know what this script is supposed to do. “Entity” is one of several postfixes you can use to describe what the script is, in this case, it is attached to an entity, a Custom UI gizmo.
 
-![Screenshot shows the script menu with CUI_Test_Entity entered in the field](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473765158_631480316056590_3304733782305001022_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=otzEe0zRaFEQ7kNvwH4mZ2a&_nc_oc=AdlyGpDXinuR1beLJU4dxeUmCqLlyi4-3jOBNbvhd5IFSu0OdOKR--XbBi7lhQ7Xv0hsr5TmT2vJPVgusUK4n4fK&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_Afm_UKj8JEMUOJriuidcOFZSTx-R2boOQxgq5D_M711ykA&oe=695592F3)
+<details>
+<summary>Screenshot shows the script menu with CUI_Test_Entity entered in the field</summary>
+
+<p></p>
+
+[Screenshot shows the script menu with CUI_Test_Entity entered in the field](../../image_data/8e672d03206b123e5293920f7b5bf84dce2086980cc18dcad6dbb359b7bfd99c.md)
+
+### Overview
+This image depicts a user interface element within a software application, specifically a section labeled "Scripts." It includes a search bar, a text input field, and various interactive elements such as buttons and icons.
+
+### Key Elements
+- **Search Bar**: Located at the top-left, it has a magnifying glass icon and a placeholder text area.
+- **Text Input Field**: Positioned below the search bar, containing the text "CUI_Test_Entity" and a counter indicating "15/128."
+- **Plus Button**: A small plus sign icon located next to the search bar.
+- **Settings Gear Icon**: A gear icon situated to the right of the search bar.
+- **More Options Menu**: Three vertical dots indicating additional options.
+- **Close Button**: An 'X' icon at the top-right corner of the "Scripts" section.
+- **Language Selector**: A small icon resembling a flag with a 'T' inside, located above the text input field.
+
+### Visual Flow / Relationships
+The most prominent visual element is the text input field, as it is the active area where the user is currently interacting. The search bar and settings gear are secondary elements that provide functionality. The language selector is positioned above the text input field, suggesting it might be related to the content being entered. The layout follows a standard form input pattern with a search function and additional settings options.
+
+</details>
+
+<p></p>
+
+
 
 Now that you have created our first script, you can go back to the Scripts drop-down, and click the gear settings icon.
 
-![Screenshot highlights the placement of the settings icon](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473556853_631480306056591_7590379382942365878_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=XT_55kIkXSUQ7kNvwHRSfWI&_nc_oc=AdkX0mU0lhV8Mjh6X_p9fbsj6fwvpgrgztaxr0teq_3E7hM2BNymdtmkcPO0OCHT90aTH5my24_5OPr5lFv5sCQa&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_Afn__GMUrjCGl_-mOfVHU7buDyUf2-4HuBimQH_gQZwnyg&oe=695575BE)
+<details>
+<summary>Screenshot highlights the placement of the settings icon</summary>
+
+<p></p>
+
+[Screenshot highlights the placement of the settings icon](../../image_data/1df59a4f3036a8ca39f5b5a9fd76a3dbd2c199520dbcae24979f47056e58fe58.md)
+
+### Overview
+This image depicts a user interface element, specifically a toolbar or menu section within a software application. The focus is on a "Scripts" section that includes various interactive elements such as a search bar, buttons, and a settings gear icon.
+
+### Key Elements
+- **Search Bar**: Located at the bottom left, it has a magnifying glass icon and a placeholder text area.
+- **Plus Button**: Positioned next to the search bar, it is a simple plus sign.
+- **Arrow Button**: To the right of the plus button, it features a double-headed arrow pointing left and right.
+- **Settings Gear Icon**: Situated further to the right, it is a standard gear symbol.
+- **Ellipsis Menu**: On the far right, represented by three vertical dots.
+- **Close Button**: A small 'X' located above the ellipsis menu.
+- **Header**: At the top, the word "Scripts" is displayed prominently.
+- **Dropdown Menu**: A blue dropdown arrow is visible on the left side, indicating additional options or a menu.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Scripts" header, which draws attention due to its larger font size and central placement. The search bar and related interactive elements are arranged horizontally beneath the header. The settings gear icon and ellipsis menu are positioned to the right, suggesting they are secondary actions related to the primary "Scripts" functionality. The red arrow points towards the settings gear icon, indicating a possible interaction or focus point.
+
+</details>
+
+<p></p>
+
+
 
 From the settings menu, select the API tab on the left, enable the UI API, and click Apply.
 
-![Screenshot shows the settings menu with the UI API enabled](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473453002_631480372723251_7188675402706182604_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=HFAhoqQWeyYQ7kNvwEEFVEy&_nc_oc=AdnF91thZdknbsOXYzyFDXyS86K1mFB8wWgloA33oVDsc6hIuTZ_EKCBM5xHoH4m2H861hAL6ipnP6eRXLr-uZ9I&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_Aflv7TzKaG6EQ_hHza7GGfl_YKv3zNXGRD1ZU_eJMYlaIw&oe=69558679)
+<details>
+<summary>Screenshot shows the settings menu with the UI API enabled</summary>
+
+<p></p>
+
+[Screenshot shows the settings menu with the UI API enabled](../../image_data/80d3ed732a8808cbf3df6e3c5adda584ec1f7ce526f0fe5c20aa72c68a10127c.md)
+
+### Overview
+This image depicts a settings dialog box titled "Script Settings." It is part of a user interface, likely within a development environment or game engine configuration tool. The dialog box contains options related to API settings, with a focus on toggling specific API components.
+
+### Key Elements
+- **Title Bar**: "Script Settings" at the top left, with a close button ("X") at the top right.
+- **Left Panel**: Contains navigation options labeled "Script editing," "API," and "Console."
+- **Main Content Area**: Displays API settings with a list of API components and toggle switches next to them.
+  - **API Version**: Set to "2.0.0" with a dropdown menu.
+  - **API Components**: Listed as "horizon/performance," "horizon/navmesh," "horizon/ui," "horizon/unity_asset_bundles," "horizon/camera," and "horizon/world_streaming."
+    - Toggle switches next to each component, with some toggled on (e.g., "horizon/ui").
+- **Buttons**: Two buttons at the bottom, "Cancel" and "Apply."
+
+### Visual Flow / Relationships
+The most prominent visual element is the API settings area, which is centrally located and takes up the majority of the screen space. The toggle switches are arranged vertically under each API component name. The "Apply" button is positioned at the bottom right, while the "Cancel" button is at the bottom left. The navigation panel on the left acts as a sidebar, providing access to different settings categories.
+
+</details>
+
+<p></p>
+
+
 
 You are now finished setting up. In the next step, you will begin working on the base UIComponent script.
 
@@ -107,7 +212,35 @@ You are now finished setting up. In the next step, you will begin working on the
 
 - Open your script in VS Code. From the Scripts drop-down to the right of your newly created script, click the three-dot icon. Then select “**Open in External Editor**.”
 
-*Note: If this doesn’t do anything, you will need to install VS Code, and after installing restart your computer for Horizon to be able to “Open in External Editor,” ie. VS Code.*![Screenshot shows the settings menu a mouse cursor on the 'three-dot icon'](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473388018_631480302723258_7884291281224528330_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=QU_lhGi7lo4Q7kNvwGfel8f&_nc_oc=AdnuJEURZvdkpib64pnmBcbXS9_ep-9ss1N-NOfiWJNbM65TEmpme5oOqpjxrMCPcXnVcw3UaB1kt0i6iunVdDEi&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfmVUoqADoaumdG97cbODQUbZLCTLFbJJBSuvIsgl86P2g&oe=69556CB2)
+*Note: If this doesn’t do anything, you will need to install VS Code, and after installing restart your computer for Horizon to be able to “Open in External Editor,” ie. VS Code.*<details>
+                                                                                                                                                                                   <summary>Screenshot shows the settings menu a mouse cursor on the 'three-dot icon'</summary>
+                                                                                                                                                                                   
+                                                                                                                                                                                   <p></p>
+                                                                                                                                                                                   
+                                                                                                                                                                                   [Screenshot shows the settings menu a mouse cursor on the 'three-dot icon'](../../image_data/c4477e05a4bdebda8345cf62e1d826261ceccf48cc175999d4a4149a3266d146.md)
+                                                                                                                                                                                   
+                                                                                                                                                                                   ### Overview
+                                                                                                                                                                                   This image depicts a user interface element within a software application, specifically a section labeled "Scripts." It includes various interactive and informational components arranged in a grid-like layout.
+                                                                                                                                                                                   
+                                                                                                                                                                                   ### Key Elements
+                                                                                                                                                                                   - **Top Bar**: Located at the very top, this bar contains a blue button with a white downward arrow and a small icon resembling a gear or settings symbol.
+                                                                                                                                                                                   - **Title Area**: Below the top bar, the word "Scripts" is prominently displayed in white text against a dark background.
+                                                                                                                                                                                   - **Search Box**: Positioned beneath the title area, there is a search box with a magnifying glass icon on the left side, indicating a search functionality.
+                                                                                                                                                                                   - **Action Buttons**: To the right of the search box, there are two interactive buttons: one with a plus sign (+) and another with a double-headed arrow (possibly for copying or sharing).
+                                                                                                                                                                                   - **Settings Icon**: A gear icon is situated next to the action buttons, suggesting access to settings or preferences.
+                                                                                                                                                                                   - **More Options Button**: On the far right of the top bar, there is a vertical ellipsis (...), typically indicating more options or a menu.
+                                                                                                                                                                                   - **Last Updated Information**: Below the search box, the text "Last updated just now" is displayed, providing information about the last update time.
+                                                                                                                                                                                   - **Script Entry**: The bottom section features a script entry labeled "CUL_Test_Entity," which was saved at a specific timestamp ("Saved at 9:43:16 AM · Compiled").
+                                                                                                                                                                                   - **Right Arrow**: A right-pointing arrow is located on the far right, possibly indicating a next action or navigation option.
+                                                                                                                                                                                   
+                                                                                                                                                                                   ### Visual Flow / Relationships
+                                                                                                                                                                                   The most prominent visual elements are the search box and the script entry, as they are central to the functionality described. The top bar acts as a header, providing context and navigation options. The right arrow suggests a progression or continuation of actions related to the script entry.
+                                                                                                                                                                                   
+                                                                                                                                                                                   </details>
+                                                                                                                                                                                   
+                                                                                                                                                                                   <p></p>
+                                                                                                                                                                                   
+                                                                                                                                                                                   
 
 - Adjust the default script to match the base UIComponent script seen below. To do this start by deleting the import line and the two “**hz**.” You can then explicitly import Component by backspacing the “**t**” in Component, and when we retype the **T**, click “**Enter**” on your keyboard to allow VS Code to automatically write the import line seen on line 1 in the screenshot below.
 
@@ -123,7 +256,35 @@ You also need the “**initializeUI**” method, which must return a UINode, whi
 
 *Note: If you don’t click enter to autocomplete, this method and the previous “initializeUI” method, they are both case sensitive, and if misspelled will not work correctly or report an error.*
 
-![Screenshot shows an example script](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/473707634_631480299389925_1506503231421137776_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=JUx5kNijS6EQ7kNvwFxX_rW&_nc_oc=AdnTp5YeaZSZV5zwI5ReBAaCd7IH-z8KpWL5vi_x8O8wySirXy66FhjbMXinTFLhYA56631ZnF5i4da6cFZ5G1hP&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AflffbawDDMdkh-mKN5EHp8SlL9iLOkZaYrSvt8hFD0Atg&oe=69558F4F)
+<details>
+<summary>Screenshot shows an example script</summary>
+
+<p></p>
+
+[Screenshot shows an example script](../../image_data/75f6a831c4d6a53fd9f3ad3172c7035d6b3c2c56ae21e766f365c7c28f2f47db.md)
+
+### Overview
+This image displays a code editor window open to a TypeScript file named `CUI_Test_Entity.ts`. The content is structured as a class definition within a larger codebase, likely part of a user interface component library.
+
+### Key Elements
+- **File Header**: Located at the top-left corner, showing the file name `CUI_Test_Entity.ts`.
+- **Code Editor Interface**: The main area of the image contains the code itself.
+    - **Imports**: At the beginning of the file, imports from `"horizon/core"` and `"horizon/ui"` are listed.
+    - **Class Definition**: A class `CUI_Test_Entity` extends `UIComponent`.
+    - **Static Props Definition**: An empty static property definition `{}`.
+    - **Initialize Method**: `initializeUI()` method returns a `View({})`.
+    - **PreStart Method**: `preStart()` method is partially typed but not fully implemented.
+    - **Start Method**: `start()` method is also partially typed but not fully implemented.
+    - **Component Registration**: The last line registers the class with `Component.register(CUI_Test_Entity);`.
+
+### Visual Flow / Relationships
+The visual flow follows a typical code editor layout with a clear separation between the file header and the code content. The methods are logically grouped under the class definition. There are no arrows or lines connecting elements, indicating a linear reading order from top to bottom and left to right.
+
+</details>
+
+<p></p>
+
+
 Let’s take a minute to understand how each of these lines works, and what they do.
 
 **Lines 1 and 2:** The first two lines are imports, this declares what you are using in your script. If you come from a background in CodeBlocks, think of this as not having access to any CodeBlocks unless you explicitly requested them. Fortunately, these two lines are automatically written for you by VS Code.
@@ -158,19 +319,108 @@ Now that you understand the base script, in the next section, you are going to a
 
 To start, go back into Horizon and from the bottom of the CUI gizmo’s properties panel attach your script.
 
-![Screenshot shows an example script being attached to the gizmo properties panel](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473590719_631480369389918_9061693884799285476_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=j1v5pI0tMVUQ7kNvwHyDXFq&_nc_oc=Adl81HdnCyU5DFTqCR6C3W9lG5SSqtSKK-8LlafZe0EJoopThtr9vkWF3qXZzYC3_ZBZ9ldUjnMYl_PEVpg7eRCy&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_Afn93y9lkDI-ehfL4Tpo3JQYP-dwJjQo9rvBNEdzLp4SmA&oe=69559D43)
+<details>
+<summary>Screenshot shows an example script being attached to the gizmo properties panel</summary>
+
+<p></p>
+
+[Screenshot shows an example script being attached to the gizmo properties panel](../../image_data/39687af15d69ded94340f3f9c9c717b3e22bd98caccdd659bc189f4d96fb8354.md)
+
+### Overview
+This image depicts a portion of a user interface (UI) settings panel, likely from a game development tool or similar software. The panel includes expandable sections labeled "More" and "Script," with various configuration options and dropdown menus.
+
+### Key Elements
+- **More Section**:
+  - **Collision Events From**: A dropdown menu labeled "Nothing."
+  - **Avatar Attachable**: A dropdown menu set to "Off."
+- **Script Section**:
+  - **Attached Script**: A dropdown menu showing "CUI_Test_Entity:CUI_Test_Enti..." truncated at the end.
+- **Expandable Sections**:
+  - Both sections have a downward-pointing arrow indicating they can be expanded further.
+- **Menu Button**: A vertical ellipsis ("...") located to the right of the "Script" section, suggesting additional options or settings.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the dropdown menus and the expandable sections. The dropdown menus are aligned horizontally under their respective labels. The expandable sections are stacked vertically, with the "Script" section partially obscured by the "More" section due to the dropdown menu content. The menu button is positioned to the far right of the "Script" section.
+
+</details>
+
+<p></p>
+
+
 
 In addition to creating a UINode with View, you can also do it with “Text.” Below you will see a change from “**View**” to use “**Text**,” don’t forget to click enter while typing Text, to both autocomplete and auto-import Text from the UI API.
 
 Next, add the property “ **text: ‘Hello World!’** ” inside the curly braces. You will make this look pretty in the next section, but the gist is that the Text function takes a JSON Object parameter, the curly braces, commonly thought of as a bag of stuff, and requires one property to be filled out: “text.” There are a bunch of other properties in this “bag of stuff” that can be filled out and will be explored in the next step. You can then define the text as a string using single ticks: ‘Hello World!’.
 
-![Image shows an example script with the text: 'Hello World!' property](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473323077_631480339389921_3285744369286532959_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=yxndGSlDmmMQ7kNvwE_10p2&_nc_oc=Admt2HUvuifAr0NhJ56Ivv7VDabfzQ2dxcdaR8bpLdZv2jP0TPXmW-Q7LeTgKpLlqz5L8OSnAs2DHAy9KHCif3Gu&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AflqLNmci_cT9_CIrFZ9EK4xhOLAAqk1aNF4lej1E-A5SA&oe=6955700C)
+<details>
+<summary>Image shows an example script with the text: 'Hello World!' property</summary>
+
+<p></p>
+
+[Image shows an example script with the text: 'Hello World!' property](../../image_data/c5a7bc5f56a5e3f8ee80e805915aee3f03c31c778923541ac4fa87b7660e9619.md)
+
+### Overview
+This image displays a snippet of code written in Swift, specifically within a function named `initializeUI`. The code is part of a larger program that initializes a user interface component (`UINode`) and returns a `Text` element with the text 'Hello World!'.
+
+### Key Elements
+- **Visual description**: The image contains a code editor interface with syntax highlighting.
+- **Location**: The code is located in the center of the image.
+- **Contents**: 
+    - Line 7: `initializeUI(): UINode {`
+    - Line 8: `return Text({ text: 'Hello World! '});`
+    - Line 9: `}`
+- **Visual styling**: The code uses a monospaced font, with keywords highlighted in purple (`initializeUI`, `return`, `Text`, `text`), and string literals in red (`'Hello World!'`). The background is white, and the editor has a dark theme.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the code itself.
+- There are no arrows, lines, or connectors present.
+- The code is read from top to bottom, left to right.
+
+</details>
+
+<p></p>
+
+
 
 With that filled out, make sure to press Ctrl+S to save, and then you can return to Horizon, and press play on our world after compilation has finished (you’ll see compilation steps detailed on the console log, which only takes a few seconds).
 
 *Note: If you don’t see anything on the UI gizmo, you may need to rotate and look at the other side. Press F to focus the UI gizmo, then Alt+Left Click to rotate around it.*
 
-![Screenshot shows a world in desktop editor displaying the 'Hello World!' message](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473530862_631480296056592_8186256504370472838_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=5-zv3E_LWj0Q7kNvwHZLJyF&_nc_oc=AdkIT47nIHvVNLzXnbCGP_r_y0jrwYcJacLKYYKF7FCWP7FQ-HNoaruaca3Cla1NfWuAvTzmbU5sgeiU1myfcJ2J&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfmJQ-1H3qnmdEwcCYHXgj9BTdPjEMtJNvjEUpb8hFvG_Q&oe=69556CA6)
+<details>
+<summary>Screenshot shows a world in desktop editor displaying the 'Hello World!' message</summary>
+
+<p></p>
+
+[Screenshot shows a world in desktop editor displaying the 'Hello World!' message](../../image_data/ec1d616b587f0cd3f8d4496b4c887b2e6b9bae8e3d9d2aa16fcb0dd04b562fa3.md)
+
+### Overview
+The image depicts a user interface with a central canvas area displaying a 3D model of a rectangular frame with a transparent glass-like texture. Above the canvas, there are various toolbars and options. The interface appears to be part of a 3D modeling software.
+
+### Key Elements
+- **Canvas Area**: A large rectangular area in the center containing a 3D model of a frame with a transparent glass-like texture. The frame has a light blue outline and is positioned against a gradient background transitioning from light blue at the top to white at the bottom.
+- **Text**: The text "Hello World!" is displayed within the frame on the left side.
+- **Toolbars**: Located at the top of the image, there are several icons and options:
+  - **Play Button**: A blue play button with a white play icon.
+  - **Selection Tool**: A white cursor icon pointing towards the selection tool icon.
+  - **Rotate Tool**: A blue icon with a wrench symbol.
+  - **Zoom Tool**: A blue icon with a person symbol.
+  - **Menu Dropdown**: A downward arrow indicating a dropdown menu.
+  - **Angle Measurement Tool**: A blue icon with a protractor symbol labeled "10°".
+  - **Scale Tool**: A blue icon with a percentage symbol labeled "10%".
+  - **Relative Scale Option**: A dropdown menu labeled "Relative" with a downward arrow.
+  - **Zoom Level Indicator**: A dropdown menu showing "10%".
+  - **Zoom Mode Selector**: A dropdown menu labeled "Relative".
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central canvas area with the 3D model.
+- **Arrows and Lines**: There are no arrows or lines connecting elements.
+- **Spatial Relationships**: The elements are arranged horizontally across the top of the image, with the canvas area occupying the lower portion of the interface.
+
+</details>
+
+<p></p>
+
+
 
 And just like that you have displayed your first message on a Custom UI gizmo, great work!
 
@@ -190,33 +440,371 @@ In the style properties, you are going to add a “borderColor,” and “border
 
 *Note: borderColor can be any color you like, make sure to autocomplete Color by clicking enter so that it is also imported. you are just using a simple red here, so technically you could just use “Color.red” and get the same result. But this, “new Color(1, 0, 0),” allows you to easily customize the color later if you decide you want to keep the border. The values are in the order RGB, with values ranging from 0 to 1, where 0 is no color, and 1 is 100%.*
 
-![Image shows a sample script with the border options highlighted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473759687_631480362723252_956441516191612248_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Rfls5zhkRloQ7kNvwEh8qKl&_nc_oc=AdmrRDd3WJO4O1F2q6sImGu2KiwBMGDEKUOQx1VHqxtqiU1BpcjJOSJ27YNHxQYNHtmP6d3dTRleqHZWWoRn9lBl&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AflX1zoLrgWwUTFeo-oPlTHyyQ_JA_DN13ua_sGzL8dA9A&oe=69558A65)
+<details>
+<summary>Image shows a sample script with the border options highlighted</summary>
+
+<p></p>
+
+[Image shows a sample script with the border options highlighted](../../image_data/0120b80a86db6121e8d74eba83fd91b829e02618ba1adc9e11ba2914b9535b45.md)
+
+### Overview
+This image displays a snippet of code written in a programming language that uses a syntax highlighting theme. The code is part of a method definition within a class or function named `initializeUI`. The code snippet includes a return statement that creates a `Text` object with specific styling attributes.
+
+### Key Elements
+- **Visual description**: The code snippet is presented in a monospaced font typical of code editors.
+- **Location**: The code is located in the center of the image.
+- **Contents**: 
+    - Line 7: `initializeUI(): UINode {`
+    - Line 8: `return Text({`
+    - Line 9: `text: 'Hello World!',`
+    - Line 10: `style: [`
+    - Line 11: `borderColor: new Color(1, 0, 0),`
+    - Line 12: `borderWidth: 2,`
+    - Line 13: `],`
+    - Line 14: `});`
+    - Line 15: `}`
+- **Visual styling**: The code is highlighted with syntax coloring. The text is black, the curly braces `{}` are light gray, and the keywords (`initializeUI`, `return`, `Text`, `text`, `style`, `borderColor`, `borderWidth`) are in blue. The comment `//` is in green.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the code snippet itself.
+- There are no arrows, lines, or connectors indicating a specific reading order.
+- The elements are arranged vertically, following the standard indentation of the code.
+
+</details>
+
+<p></p>
+
+
 
 Now pressing “ctrl+s” to save, you can go back into Horizon and wait for compilation to complete, making sure to press the world start button at the top center of our screen.
 
 You might be surprised to see that our default text box stretches across the length but not the height of the gizmo. Later you will learn how to adjust the style properties to fill a percentage of the available space.
 
-![Image shows a highlighted 'Hello World' image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473630492_631480359389919_281062405271264325_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=SFYYqia8B2QQ7kNvwGUsUiD&_nc_oc=AdnqMyNcEVac41Ct7hvtR_XBJtVntfh-gUpuWiJkxAQ5Ec1ZhU2bn7xPKD6I0dYq-rLLwVjhOJFRImj24eUOltC2&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AflCsR1JghupEutCiSZAwlrp5Y7n_INISwd9OBqfQD8M-w&oe=6955A0DC)
+<details>
+<summary>Image shows a highlighted 'Hello World' image</summary>
+
+<p></p>
+
+[Image shows a highlighted 'Hello World' image](../../image_data/f34684c610526bc92dd511f9693c9b82c9af3eca21bb737b23ffe626a77e8433.md)
+
+### Overview
+This image depicts a simple text input field with a placeholder text inside. The field is highlighted with a red border, indicating focus or selection.
+
+### Key Elements
+- **Visual description**: A rectangular text input field.
+- **Location**: Centered horizontally and vertically within the image.
+- **Contents**: Contains the text `Hello World!`.
+- **Visual styling**: The text is white, the background of the field is transparent, and the border is a solid red line.
+
+### Visual Flow / Relationships
+The most prominent visual element is the text input field itself. There are no arrows, lines, or connectors present. The text inside the field is the focal point, and the red border draws attention to the field as the user's current interaction point.
+
+</details>
+
+<p></p>
+
+
 
 Before you do that though, you need to learn about children- UIChildren. UIChildren can either be a single UINode or an array of UINodes. It hasn’t been super clear, but both “Text” and “View” return UINodes. You may remember the initializeUI method must return a UINode, which you first created using View and then changed to Text. Both of these tell the UI gizmo what to render. But it only takes a single UINode. What if you want to render multiple? That is where children come in.
 
 The “View” JSON Object from earlier has a property not available on Text called “children” where you can then use square brackets to create an array. In the example below you will see several text objects nested inside the square brackets, and at the bottom the style being applied to the group of children.
 
-![Image shows an extended sample script with nested objects that have applied styles](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473527386_631480332723255_1020087181007245061_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=-ovIVrLA3HMQ7kNvwF6XIDJ&_nc_oc=AdmJAmcxsO3FHelWphMmkXZK7GAUlKJ8FUKKrjamy0Lm6wlqLilacBBzYa_y8xTZzxb3RJLbIfZcMQENQpmt9E8t&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AflG69l8F-6ySX7cLHtryvCR3YzMzPXbOKN18FAZU0Vk4w&oe=69559D50)
+<details>
+<summary>Image shows an extended sample script with nested objects that have applied styles</summary>
+
+<p></p>
+
+[Image shows an extended sample script with nested objects that have applied styles](../../image_data/958ecca78e5a70600854fc60d747454e5a29fa9375fbacd6c5b764e9f3c13bf6.md)
+
+### Overview
+This image displays a code snippet written in a programming language that appears to be defining a user interface (UI) component. The code is structured within a function named `initializeUI` which returns a `View` object containing two `Text` components. The code uses a custom style object to define the appearance of these components.
+
+### Key Elements
+1. **Function Definition**
+   - **Visual description**: A function definition.
+   - **Location**: Top-left corner.
+   - **Contents**: `initializeUI(): UINode {`.
+   - **Visual styling**: Standard syntax highlighting, no specific styling applied.
+
+2. **Return Statement**
+   - **Visual description**: A return statement.
+   - **Location**: Below the function definition.
+   - **Contents**: `return View({`.
+   - **Visual styling**: Standard syntax highlighting, no specific styling applied.
+
+3. **Children Array**
+   - **Visual description**: An array of child elements.
+   - **Location**: Below the return statement.
+   - **Contents**: Contains two `Text` components.
+   - **Visual styling**: Standard syntax highlighting, no specific styling applied.
+
+4. **First Text Component**
+   - **Visual description**: A `Text` component.
+   - **Location**: First item in the children array.
+   - **Contents**: `text: 'Hello World!',`.
+   - **Visual styling**: Standard syntax highlighting, no specific styling applied.
+
+5. **Style Object for First Text Component**
+   - **Visual description**: A style object.
+   - **Location**: Below the `text` property.
+   - **Contents**: `borderColor: new Color(0, 1, 0), borderWidth: 2,`.
+   - **Visual styling**: Standard syntax highlighting, no specific styling applied.
+
+6. **Second Text Component**
+   - **Visual description**: Another `Text` component.
+   - **Location**: Second item in the children array.
+   - **Contents**: `text: 'Hello World!',`.
+   - **Visual styling**: Standard syntax highlighting, no specific styling applied.
+
+7. **Style Object for Second Text Component**
+   - **Visual description**: Another style object.
+   - **Location**: Below the `text` property.
+   - **Contents**: `borderColor: new Color(0, 0, 1), borderWidth: 2,`.
+   - **Visual styling**: Standard syntax highlighting, no specific styling applied.
+
+8. **View Object**
+   - **Visual description**: A `View` object.
+   - **Location**: Enclosing the children array.
+   - **Contents**: `{children: [ ... ]}`.
+   - **Visual styling**: Standard syntax highlighting, no specific styling applied.
+
+9. **Final Style Object**
+   - **Visual description**: A style object.
+   - **Location**: Below the `children` array.
+   - **Contents**: `borderColor: new Color(1, 0, 0), borderWidth: 2,`.
+   - **Visual styling**: Standard syntax highlighting, no specific styling applied.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The function definition and its contents.
+- **Arrows/Connectors**: None.
+- **Reading Order**: The code is read from top to bottom, left to right.
+- **Spatial Relationships**: Elements are arranged in a nested structure typical of programming code.
+
+</details>
+
+<p></p>
+
+
 
 If you would like to continue following along, please adjust your previous initializeUI method to match the one above. This takes a bit of work, copy and paste can help, but a missing comma, or line off just slightly could cause an error. My recommendation is to move “Text” down and create a new View as seen below.
 
-![Image shows a new view after the "text" field](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473449481_631480329389922_5747572748883123818_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=-jdI_6pNAGwQ7kNvwGdixA7&_nc_oc=AdndDz0LhOeW8knolqZ3dsYwEMzZmxGF6PbBH0qLfvHy0PIoZg0PQ9vJ6PDfRDBNVx08deB4DixTSvNzsIKOt5u5&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AflPId05F9hTr3Dx8gEgr_Q-oaQ-7tfUjpcrAzMUmWoqQQ&oe=69556C09)
+<details>
+<summary>Image shows a new view after the "text" field</summary>
+
+<p></p>
+
+[Image shows a new view after the "text" field](../../image_data/4e2210ce976a20e362e01253ba3fe498d29a92bfc87cc3a74d8fad5f42f6da5a.md)
+
+### Overview
+This image displays a code snippet written in a syntax that resembles a declarative programming language, possibly for UI development. The code defines a method `initializeUI()` which returns a `View` object with specified styles and a `Text` object containing a message.
+
+### Key Elements
+1. **Method Definition**
+   - **Visual description**: A method definition.
+   - **Location**: Top-left area.
+   - **Contents**: `initializeUI(): UINode {`.
+   - **Visual styling**: Standard code formatting, no specific styling applied.
+
+2. **Return Statement**
+   - **Visual description**: A return statement.
+   - **Location**: Below the method definition.
+   - **Contents**: `return View({`.
+   - **Visual styling**: Standard code formatting, no specific styling applied.
+
+3. **View Object**
+   - **Visual description**: A `View` object with properties.
+   - **Location**: Below the return statement.
+   - **Contents**: `children: [], style: {`.
+   - **Visual styling**: Standard code formatting, no specific styling applied.
+
+4. **Style Properties**
+   - **Visual description**: Properties within the `style` object.
+   - **Location**: Below the `View` object.
+   - **Contents**: `borderColor: new Color(1, 0, 0), borderWidth: 2,`.
+   - **Visual styling**: Standard code formatting, no specific styling applied.
+
+5. **Text Object**
+   - **Visual description**: A `Text` object with properties.
+   - **Location**: Below the `View` object.
+   - **Contents**: `Text({`.
+   - **Visual styling**: Standard code formatting, no specific styling applied.
+
+6. **Text Properties**
+   - **Visual description**: Properties within the `Text` object.
+   - **Location**: Below the `Text` object.
+   - **Contents**: `text: 'Hello World!',`.
+   - **Visual styling**: Standard code formatting, no specific styling applied.
+
+7. **Additional Style Properties**
+   - **Visual description**: Additional properties within the `Text` object.
+   - **Location**: Below the `text` property.
+   - **Contents**: `borderColor: new Color(0, 1, 0), borderWidth: 2,`.
+   - **Visual styling**: Standard code formatting, no specific styling applied.
+
+8. **Closing Parentheses**
+   - **Visual description**: Closing parentheses for the `Text` object.
+   - **Location**: Bottom of the `Text` object.
+   - **Contents**: `}]`.
+   - **Visual styling**: Standard code formatting, no specific styling applied.
+
+9. **Method Closing Bracket**
+   - **Visual description**: Closing bracket for the `initializeUI()` method.
+   - **Location**: Bottom of the method definition.
+   - **Contents**: `}`.
+   - **Visual styling**: Standard code formatting, no specific styling applied.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The `initializeUI()` method definition.
+- **Arrows/Connections**: None.
+- **Reading Order**: The code flows from top to bottom, left to right.
+- **Spatial Relationships**: Elements are arranged in a linear fashion, with nested objects (`View` and `Text`) placed within the larger `initializeUI()` method.
+
+</details>
+
+<p></p>
+
+
 
 You can then cut and paste the Text into the children’s square brackets. Make sure to convert the semicolon to a comma as seen on line 16. You can then copy and paste another copy below this to match the screenshot earlier and adjust each style to have a unique color.
 
-![Image shows text being pasted back into the sample script as per the instructions](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473453125_631480356056586_2449452631674760424_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7KSwIPIxj6YQ7kNvwGnn0vj&_nc_oc=AdlJGa5G7pqsoBvA_zRJzPXwqgIA6ZwuR3OvTwgmWUaDeksLxycKVC-oV-I0G38XSitDK9vExICrLFGyFHRFIz4J&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfkkNrmKkUImstE-NRnSBOpv6zqTv9gCOTLB47ZMUPodJQ&oe=69558AF5)
+<details>
+<summary>Image shows text being pasted back into the sample script as per the instructions</summary>
+
+<p></p>
+
+[Image shows text being pasted back into the sample script as per the instructions](../../image_data/db7959081037a202aa851314e8e68e999406f6a142abdaba74169c4b0d8d9206.md)
+
+### Overview
+This image displays a code snippet written in a programming language that appears to be related to user interface (UI) development, specifically for a framework that supports building views programmatically. The code defines a method `initializeUI()` which returns a `View` object containing a child element (`Text`) with specific styling attributes.
+
+### Key Elements
+1. **Code Editor Interface**
+   - **Visual description**: A code editor interface with syntax highlighting.
+   - **Location**: Top-left corner.
+   - **Contents**: Code blocks with syntax highlighting.
+   - **Visual styling**: Dark theme with light-colored text and blue highlights for code blocks.
+
+2. **Code Block**
+   - **Visual description**: A highlighted code block within the editor.
+   - **Location**: Center-left area.
+   - **Contents**: Code defining a method `initializeUI()` that returns a `View` object.
+   - **Visual styling**: Blue background for the code block, white text, and green and purple keywords.
+
+3. **Text Element**
+   - **Visual description**: A `Text` element within the `View`.
+   - **Location**: Inside the `View` definition.
+   - **Contents**: `text: 'Hello World!'`.
+   - **Visual styling**: Blue background, white text.
+
+4. **Style Attributes**
+   - **Visual description**: Style attributes for the `Text` element.
+   - **Location**: Below the `text` attribute.
+   - **Contents**: `borderColor: new Color(0, 1, 0), borderWidth: 2`.
+   - **Visual styling**: Blue background, white text.
+
+5. **Method Definition**
+   - **Visual description**: Method definition `initializeUI()`.
+   - **Location**: Top-left area.
+   - **Contents**: `initializeUI(): UINode {`.
+   - **Visual styling**: Blue background, white text.
+
+6. **Return Statement**
+   - **Visual description**: Return statement `return View({`.
+   - **Location**: Below the method definition.
+   - **Contents**: `return View({`.
+   - **Visual styling**: Blue background, white text.
+
+7. **Children Array**
+   - **Visual description**: Array defining children elements.
+   - **Location**: Below the return statement.
+   - **Contents**: `children: [`.
+   - **Visual styling**: Blue background, white text.
+
+8. **Text Element Definition**
+   - **Visual description**: Definition of the `Text` element.
+   - **Location**: Below the `children` array.
+   - **Contents**: `Text({`.
+   - **Visual styling**: Blue background, white text.
+
+9. **Text Content**
+   - **Visual description**: Content of the `Text` element.
+   - **Location**: Below the `Text` definition.
+   - **Contents**: `text: 'Hello World!'.`
+   - **Visual styling**: Blue background, white text.
+
+10. **Style Attribute Definition**
+    - **Visual description**: Style attribute definition for the `Text` element.
+    - **Location**: Below the `text` content.
+    - **Contents**: `style: {`.
+    - **Visual styling**: Blue background, white text.
+
+11. **Border Color and Width**
+    - **Visual description**: Border color and width attributes.
+    - **Location**: Below the `style` attribute.
+    - **Contents**: `borderColor: new Color(0, 1, 0), borderWidth: 2`.
+    - **Visual styling**: Blue background, white text.
+
+12. **Closing Parentheses**
+    - **Visual description**: Closing parentheses for the `Text` element definition.
+    - **Location**: Below the `borderWidth` attribute.
+    - **Contents**: `});`.
+    - **Visual styling**: Blue background, white text.
+
+13. **View Style Definition**
+    - **Visual description**: Style definition for the `View` object.
+    - **Location**: Below the `children` array.
+    - **Contents**: `style: {`.
+    - **Visual styling**: Blue background, white text.
+
+14. **Border Color and Width**
+    - **Visual description**: Border color and width attributes for the `View` object.
+    - **Location**: Below the `style` attribute.
+    - **Contents**: `borderColor: new Color(1, 0, 0), borderWidth: 2`.
+    - **Visual styling**: Blue background, white text.
+
+</details>
+
+<p></p>
+
+
 
 As you might imagine this can get crazy very quickly with so much nesting. There are a couple of tricks you will look at later that can help improve the readability and condense the initializeUI method down some. But first let’s see how these boxes in boxes look by saving, compiling, and starting our world.
 
 As you can see, they are stacked by default. Thinking back to our cardboard box analogy you will notice that because our width is set to 2 pixels, the red border shrinks the space available by 2 pixels. When you delete these two style lines in the future the two Text children will reclaim the space.
 
-![Screenshot shows 2 hello world messages displayed, with color borders](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473248041_631480279389927_1224305611724849647_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=pESmOapEKfkQ7kNvwGxz0Hr&_nc_oc=Adldy5JLp9f26c4pAcAf63pJ1dTKCa3H3Lxq3cTRA4Pu1JmjSAINvZ7k3LkPIUL_8yI5P3Lm7MbEA2Gi2-4nCkOy&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfnDGmTcayHjAkO2Shs0ntn3f9JTwZS3l4WX_PMLxbfQ5g&oe=69556CD6)
+<details>
+<summary>Screenshot shows 2 hello world messages displayed, with color borders</summary>
+
+<p></p>
+
+[Screenshot shows 2 hello world messages displayed, with color borders](../../image_data/14c090dccd4203fe0676cf33c2eccb93ee5d6e6fbec5384c71a401e1a30457e7.md)
+
+### Overview
+The image displays a simple user interface element with two text inputs labeled "Hello World!" placed side-by-side against a gradient blue background. The layout includes visual indicators such as colored borders around the inputs.
+
+### Key Elements
+1. **Text Input 1**
+   - **Visual description**: A rectangular text input field.
+   - **Location**: Top-left corner.
+   - **Contents**: Contains the text "> Hello World!".
+   - **Visual styling**: Light gray background, red border, white text.
+
+2. **Text Input 2**
+   - **Visual description**: Another rectangular text input field.
+   - **Location**: Directly below Text Input 1.
+   - **Contents**: Contains the text "> Hello World!".
+   - **Visual styling**: Light gray background, blue border, white text.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: Both text inputs are equally prominent due to their placement and similar design.
+- **Arrows, lines, connectors**: None present.
+- **Spatial relationships**: The inputs are stacked vertically, with no additional connections or arrows indicating a specific reading order.
+
+</details>
+
+<p></p>
+
+
 
 In the next section, you are going to explore more of the style options and learn how to better organize our styles.
 
@@ -224,13 +812,78 @@ In the next section, you are going to explore more of the style options and lear
 
 Start by creating a new script to store various styles, **CUI\_Styles\_Data**. Press enter on your keyboard to create the script.
 
-![Image shows a user creating a CUI_Styles_Data script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473536317_631480326056589_5069739203234681704_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=nwkx9sDRlQgQ7kNvwE6EseR&_nc_oc=AdmALfd96V2b9dd87WZhqY9hTaqMW-MN6zU00lNpHLwQDxR1WHP_HEQVBgnnT6J-s6dPd8-T37v0x3arbPaBwIw4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfntC65LQY10FDAQYQ3_qZwHpFu28W0CRDE1qCf1gMeM2A&oe=69557E5D)
+<details>
+<summary>Image shows a user creating a CUI_Styles_Data script</summary>
+
+<p></p>
+
+[Image shows a user creating a CUI_Styles_Data script](../../image_data/6e58053d571c47ce3935c51a3c0807bd9f0baf7e1263c940ca2e14647e9099dd.md)
+
+### Overview
+This image depicts a user interface element within a software application, specifically a section for creating new scripts. The interface includes a search bar, a button to create a new script, and a list of existing scripts.
+
+### Key Elements
+- **Search Bar**: Located at the top-left, it has a magnifying glass icon and a placeholder text that reads ">". It is black with white text.
+- **Create New Script Button**: Positioned centrally below the search bar, it is a light gray button with a plus sign inside a circle.
+- **List of Scripts**: Below the search bar, there are two entries:
+  - **CUI_Styles_Data**: This entry is partially filled with text "CUI_Styles_Data|15/128" indicating a file name and a progress bar.
+  - **CUI_Test_Entity**: This entry shows a timestamp "Saved at 9:43:16 AM · Compiled" indicating when the script was saved and compiled.
+- **Last Updated Label**: Above the search bar, it displays "Last updated 22" which likely refers to the last update time or version number.
+- **Settings Gear Icon**: Located to the right of the search bar, it is a standard gear icon typically used for settings.
+- **More Options Menu**: A vertical ellipsis menu is located to the far right of the search bar, suggesting additional options.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Create new script" button, as it is central and highlighted. The search bar is secondary but important for functionality. The list of scripts is tertiary, providing context and history. There are no arrows or lines connecting elements, so the relationship is primarily through proximity and interaction.
+
+</details>
+
+<p></p>
+
+
 
 Once you have the new script you can click the three-dot icon, “**open in external editor**.” Alternatively back in VS Code, if you click the top left files icon, it will expand and show you all of your scripts. You can click on the newly created .ts file, and optionally close the file browser.
 
 After loading the script, delete all the defaults. A shortcut to use is, “ctrl+a” to select all, and then backspace.
 
-![Image shows a script with all of the defaults deleted](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473364465_631480282723260_2627229903712946738_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=6cgpfHdvO2UQ7kNvwHPZwuy&_nc_oc=AdnTPux5P37EMmG5oyrXN8sarxObTVuSX5B48Zg08mMSogLPWhp4_Mahft2oOBwByaLb7QUfsyCyvADekTqlgO_q&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfkQyqKvEWzfr_Fe2dJMmGRvabqcVLhr6iRctwpgnvR5Mw&oe=69559A3B)
+<details>
+<summary>Image shows a script with all of the defaults deleted</summary>
+
+<p></p>
+
+[Image shows a script with all of the defaults deleted](../../image_data/b24f08e11a1cd61fb24ba3c6ea1437033908bc11302a54e8ded4f6e6bec6a4fc.md)
+
+### Overview
+This image depicts a code editor interface with a file explorer sidebar on the left and a main editing area on the right. The interface includes tabs at the top, a search icon, and several other icons representing different functionalities.
+
+### Key Elements
+- **File Explorer Sidebar**: Located on the left side of the image.
+  - **Visual description**: Contains icons and labels.
+  - **Location**: Left side of the image.
+  - **Contents**: Icons include a folder with a document inside labeled "CUI_Test_Entity.ts," a magnifying glass for search, a share icon, a light bulb with a triangle, and a grid with two squares.
+  - **Visual styling**: Icons are simple line drawings with a white background and black outlines. The folder icon has a blue dot indicating a file count (1).
+
+- **Tabs**: Located at the top of the image.
+  - **Visual description**: Text labels on tabs.
+  - **Location**: Top of the image.
+  - **Contents**: Two tabs labeled "TS CUI_Test_Entity.ts" and "TS CUI_Styles_Data.ts."
+  - **Visual styling**: White background with black text and a blue dot next to the first tab.
+
+- **Main Editing Area**: Located on the right side of the image.
+  - **Visual description**: A blank text area with a cursor.
+  - **Location**: Right side of the image.
+  - **Contents**: The text area contains the text "CUI_Styles_Data.ts > ...".
+  - **Visual styling**: White background with a gray border.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The file explorer sidebar and the tabs at the top.
+- **Arrows, lines, connectors, or implied reading order**: None.
+- **Spatial relationships**: The file explorer sidebar is on the left, the tabs are at the top, and the main editing area is on the right. The tabs are above the main editing area.
+
+</details>
+
+<p></p>
+
+
 
 The idea of this script is to be a place you can store and modify our styles so it doesn’t clutter our initializeUI method. You could have multiple files like this, one for each UI gizmo, but instead you can create a folder structure by nesting JSON Objects, with each nested Object storing the styles for a specific UI gizmo. You’ll see this in practice from lines 14 to 19 in the screenshot below. You start by exporting a const Object named cuiStylesData, which allows us to import this data in any of our scripts. Then inside the curly braces you have another Object on line 15 named “test” matching the name of our UI gizmo’s script.
 
@@ -240,19 +893,171 @@ Above on lines 3 and 8 you create two new constants. One is a TextStyle, this al
 
 Inside these styles you are introducing two new properties, “width,” and “height.” This allows us to specify what percentage of the available space in the parent UINode you want to occupy. You can use a number to specify pixels, but I highly encourage adopting percentages for everything except ScrollView where you can specify the amount that can be scrolled as a number in pixels.
 
-![Image shows an example style script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473442498_631480319389923_7473526534380015109_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=qtapSsRLNqgQ7kNvwFOTVP0&_nc_oc=AdkRTQUm7Gn6V8-0LvsKTw-agY-e2RPa-092VEYttdXWNhlStB49jrQq6MC121Gdr7KzaHjCDRFa1zQ5o6Ppa7oD&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfmDuSreRrbe5hqUVHMQKw_1vWpVHzbLOIvtgDRhHmBKXw&oe=69557824)
+<details>
+<summary>Image shows an example style script</summary>
+
+<p></p>
+
+[Image shows an example style script](../../image_data/e7d1db11393a80b705c761cc297e72c4bbf8f8aace6bc9731038b0997d290286.md)
+
+### Overview
+This image displays a code snippet written in TypeScript, specifically defining style data for a user interface component. The code includes imports for `TextStyle` and `ViewStyle`, followed by the definition of two constants (`testTextStyle` and `testViewStyle`) that represent style objects. These styles are then combined into an object named `cuiStylesData`.
+
+### Key Elements
+- **Visual description**: Code editor interface with syntax highlighting.
+- **Location**: Top-left corner.
+- **Contents**: 
+    - `import { TextStyle, ViewStyle } from "horizon/ui"`
+    - `const testTextStyle: TextStyle = { width: '50%', height: '50%' }`
+    - `const testViewStyle: ViewStyle = { width: '100%', height: '100%' }`
+    - `export const cuiStylesData = { test: { text: testTextStyle, view: testViewStyle } }`
+- **Visual styling**: White background, syntax highlighted keywords and strings in various colors (e.g., blue for keywords, red for strings).
+
+### Visual Flow / Relationships
+- Most prominent visually: The code blocks and syntax highlighting.
+- No arrows or lines connecting elements.
+- Reading order follows the standard left-to-right, top-to-bottom flow typical of code editors.
+
+</details>
+
+<p></p>
+
+
 
 Back in our CUI\_Test\_Entity script, let’s apply this to our View’s style. Below borderWidth you start with an ellipses, “...” which is the spread operator, and then import our cuiStylesData Object by clicking enter as you type it out. Then when you type period at the end you get a drop-down list and can select “test.view.” What you have done is spread the contents of the ViewStyle “view” to be included in our style’s properties.
 
-![Image shows a viewstyle view for the example script](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473439276_631480322723256_2003121008108723121_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=EmzL2zp2OcMQ7kNvwEAkWI4&_nc_oc=AdnLTWARTTwpnGnEVEp9VOBgxKEzrB-9Rxz0WqvJJhYUyP4AANJGjtZiGSl-rpjMrUjd56sos_BsAu1JQZYwqyEW&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfmqeOg4aDrb2aq5NKjF2pTewABNN1HbEJJXTDYRmpJ1XQ&oe=69556E1A)
+<details>
+<summary>Image shows a viewstyle view for the example script</summary>
+
+<p></p>
+
+[Image shows a viewstyle view for the example script](../../image_data/8f3323379b46a8817077cb4da16aa35b3a9134a128eab0ad7d4a41e3a4e8741b.md)
+
+### Overview
+This image displays a code snippet within a text editor or IDE environment. The content focuses on a JavaScript object definition that includes a `style` property containing CSS-like properties such as `borderColor` and `borderWidth`.
+
+### Key Elements
+- **Visual description**: Code snippet with syntax highlighting.
+- **Location**: Top-left corner of the image.
+- **Contents**: 
+    - `style`: Object containing properties.
+    - `borderColor`: Property set to `new Color(1, 0, 0)` which corresponds to red.
+    - `borderWidth`: Property set to `2`.
+    - `cuiStylesData.test.view`: Property referencing another object.
+- **Visual styling**: Syntax highlighting colors are used for keywords (`style`, `borderColor`, `borderWidth`) and values (`new Color(1, 0, 0)`).
+
+### Visual Flow / Relationships
+- Most prominent visually: The `style` object.
+- No arrows or lines connecting elements.
+- Reading order follows the standard left-to-right, top-to-bottom flow typical of code snippets.
+
+</details>
+
+<p></p>
+
+
 
 Now you can do the same thing to our “Text” children. I recommend putting the data to be spread at the top of our style, because if you write a property that was spread above, it is overwritten by the later one below.
 
-![Image shows code as per the previous instructions](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473442399_631480352723253_1648226294578166336_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=BtJ8eUwvOm4Q7kNvwENp4wf&_nc_oc=AdnqyKj433I-gxgPIJzEwthUxmdO08avVmU6d4ul4aAY1KodVCxO0Bwt3yG5qahKE7X9WPT-KtRoIn5GXObLQPMy&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfmcFCOCtrnX8-JW_CN5M2CEuo0ejX9z5AJyTV6gOQXPxg&oe=6955849E)
+<details>
+<summary>Image shows code as per the previous instructions</summary>
+
+<p></p>
+
+[Image shows code as per the previous instructions](../../image_data/dbb2ef93c7bb0e7111f65ca59b1127f2fce0a6acb2bc0eb4b4cc73d6059da993.md)
+
+### Overview
+This image displays a code snippet written in a programming language that appears to be related to user interface (UI) development, specifically for a framework that uses a view-based approach. The code defines a method `initializeUI()` which returns a `UINode`. The method constructs a `View` object containing two `Text` elements with specific styles.
+
+### Key Elements
+1. **Method Definition**
+   - **Visual description**: A method definition within a code editor.
+   - **Location**: Top-left corner of the image.
+   - **Contents**: `initializeUI(): UINode {`
+   - **Visual styling**: Standard syntax highlighting in a code editor.
+
+2. **Return Statement**
+   - **Visual description**: A return statement within the method.
+   - **Location**: Below the method definition.
+   - **Contents**: `return View({`
+   - **Visual styling**: Standard syntax highlighting in a code editor.
+
+3. **First Text Element**
+   - **Visual description**: A `Text` element with a red-colored text.
+   - **Location**: Inside the `View` object.
+   - **Contents**: `text: 'Hello World, How Are You Today!!',`
+   - **Visual styling**: Red text color, bordered with a green stroke.
+
+4. **Style for First Text Element**
+   - **Visual description**: Style properties for the first `Text` element.
+   - **Location**: Below the `text` property.
+   - **Contents**: `style: { ...cuiStylesData.test.text, borderColor: new Color(0, 1, 0), borderWidth: 2, }`
+   - **Visual styling**: Green border color, 2-pixel border width.
+
+5. **Second Text Element**
+   - **Visual description**: Another `Text` element with blue-colored text.
+   - **Location**: Below the first `Text` element.
+   - **Contents**: `text: 'Hello World, I Am Good!',`
+   - **Visual styling**: Blue text color, bordered with a purple stroke.
+
+6. **Style for Second Text Element**
+   - **Visual description**: Style properties for the second `Text` element.
+   - **Location**: Below the `text` property.
+   - **Contents**: `style: { ...cuiStylesData.test.text, borderColor: new Color(0, 0, 1), borderWidth: 2, }`
+   - **Visual styling**: Purple border color, 2-pixel border width.
+
+7. **View Element**
+   - **Visual description**: The enclosing `View` element.
+   - **Location**: Below the `Text` elements.
+   - **Contents**: `style: { ...cuiStylesData.test.view, borderColor: new Color(1, 0, 0), borderWidth: 2, }`
+   - **Visual styling**: Red border color, 2-pixel border width.
+
+8. **Closing Parentheses**
+   - **Visual description**: Closing parentheses of the `View` object.
+   - **Location**: Bottom-right corner of the image.
+   - **Contents**: `});`
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The `View` object containing the two `Text` elements.
+- **Arrows/Connectors**: None.
+- **Reading Order**: The code is read from top to bottom, left to right.
+- **Spatial Relationships**: The `Text` elements are nested within the `View`, and both `Text` elements are nested within the `View`.
+
+</details>
+
+<p></p>
+
+
 
 Saving and compiling back in Horizon, you can now realize our dream of boxes in boxes!
 
-![Screenshot displays a world with text boxes in boxes](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473801216_631480286056593_8304832575925416005_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=YPAB-qJs80kQ7kNvwHkgX41&_nc_oc=Adl64bkrWpDOexS7AtVxUmmDAwRQ3VkqdKRKCe8j6kXfO7ucRAsw54AcWueAQ9mhFveEYpQ8tgiCCI2lmG9SJSxU&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfnYuPslxmibo8SNsQD865qh55j9l1wDbcAdLokWcTIAQw&oe=69559B7C)
+<details>
+<summary>Screenshot displays a world with text boxes in boxes</summary>
+
+<p></p>
+
+[Screenshot displays a world with text boxes in boxes](../../image_data/d9f1f833cc53745e638d7349c83fd655c8f681ba62a9c2fafee5cbacae73378d.md)
+
+### Overview
+This image depicts a virtual environment with a grid floor and a sky background. There are two text messages displayed within the scene, along with a semi-transparent blue arc and a cursor indicating interaction.
+
+### Key Elements
+- **Text Messages**: 
+    - Located at the top-left corner: "Hello World, How Are You Today!!"
+    - Located at the bottom-left corner: "Hello World, I Am Good!"
+- **Blue Arc**: A semi-transparent blue arc is positioned centrally, slightly above the grid floor.
+- **Cursor**: A white arrow cursor is located near the center of the image, suggesting user interaction.
+- **Grid Floor**: A light gray grid pattern covers the floor, providing a sense of depth and perspective.
+- **Sky Background**: The background consists of a gradient sky transitioning from light blue to white, giving the impression of a clear day.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the text messages, which are static and serve as the primary content. The blue arc and cursor suggest interactivity, drawing attention towards the center of the image. The grid floor and sky background provide context and depth without distracting from the central elements.
+
+</details>
+
+<p></p>
+
+
 
 Next, you are going to look at bindings, which are used to update the UI.
 
@@ -266,25 +1071,200 @@ Let’s start by looking at how to create a couple of bindings inside our compon
 
 *Note: You cannot access the values of these bindings elsewhere, they are just for the CUI to read, if you need access to the current value, it is recommended to have a secondary variable to store the current value.*
 
-![Image shows example bindings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473788371_631480346056587_3758836557906571406_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=lB5CbPLdq0AQ7kNvwFXqNF7&_nc_oc=Adn9grUrwdTq0QQ80lL7I9__QsPuFfkUyeG6XcUPPZWDWb8897M4DcWhlopKsyRFR4eej9Sbnz7-m491NEAeca3L&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfkFSLAflK_KkEd3QIidJo1_UuWI4UlpSheoaP4CR3MzWw&oe=695584AA)
+<details>
+<summary>Image shows example bindings</summary>
+
+<p></p>
+
+[Image shows example bindings](../../image_data/c0ffa75f8aa0201734caf0becba81aa30e4b8848bd5b6aed9f9b52645ce40dda.md)
+
+### Overview
+The image displays a snippet of code written in a programming language that involves creating instances of a `Binding` class with specific types and parameters.
+
+### Key Elements
+- **Visual description**: The code snippet is written in a monospaced font typical of programming languages.
+- **Location**: The code is centered within the image.
+- **Contents**: 
+  - `nameBinding = new Binding<string>('Name');`
+  - `levelBinding = new Binding<number>(1);`
+- **Visual styling**: The text is black, and the keywords (`new`, `Binding`, `<string>`, `<number>`) are highlighted in red. The string literals `'Name'` and `'1'` are in quotes and appear in white.
+
+### Visual Flow / Relationships
+- The code is structured as two separate lines, indicating two distinct bindings being created.
+- There are no arrows, lines, or connectors, so the visual flow is linear and straightforward, following the natural reading order of the code.
+
+</details>
+
+<p></p>
+
+
 
 When a player enters the world, you can set the **nameBinding** using .set, the second parameter “[player]” is optional. This optional parameter allows us to specify a list of players who will receive the binding update. In this case, you only want the player who entered the world to see their name. The square brackets create an array, and you place the “player” inside. When this list parameter is not specified, it defaults to updating the bindings for all players.
 
-![Code snippet shows the optional 'player' parameter](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473450918_631480349389920_6846511320562073639_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ckndrJsUO9gQ7kNvwGPSe6E&_nc_oc=AdlKJF2IU0yOCtblVd-khbKqagPRPpRfIYx2j3csy2Va-pKHBKHR7Wpj6irwDN8ejaLsAJUdFlKITV_1VXWboMsr&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AflzPWFYg4dF3iEkI91xF8z1i1xCfiztAP1d4KQPyI8d-g&oe=69557FC2)
+<details>
+<summary>Code snippet shows the optional 'player' parameter</summary>
+
+<p></p>
+
+[Code snippet shows the optional 'player' parameter](../../image_data/060c3f71041c530ede83c1dce2bda07e9ade33f821126c73ab7c1226d453bdfa.md)
+
+### Overview
+This image displays a snippet of code written in TypeScript. The code is part of a method named `playerEnterWorld`, which takes a `Player` object as its parameter. The method appears to be part of a larger class or function that manages player interactions within a game world.
+
+### Key Elements
+- **Visual description**: The image shows a code snippet with syntax highlighting.
+- **Location**: The code is centered in the image.
+- **Contents**: 
+    ```typescript
+    playerEnterWorld(player: Player) {
+        this.nameBinding.set(player.name.get(), [player]);
+    }
+    ```
+- **Visual styling**: The code uses a monospaced font typical for programming languages. The syntax highlighting includes keywords in blue (`player`, `Player`, `this`, `nameBinding`, `set`, `player.name`, `get`, `[player]`) and strings in green (`"player"`).
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The method definition and its contents are the focal point.
+- **Arrows, lines, connectors**: There are no arrows, lines, or connectors in the image.
+- **Spatial relationships**: The code is structured linearly, with the method name at the top and the method body below it.
+
+</details>
+
+<p></p>
+
+
 
 To use this binding you just have to place it after the text property, ie: “**text: this.nameBinding**,” but then you would just have their name, for additional text, you can use derive. Below you can see that when you derive the binding, you get the name and using an arrow function, you can return a string.
 
 *Note: “\n” is a line break and is the same as “`<br>`” on a Text Gizmo.*
 
-![Code snippet shows an arrow function used to return a string as described previously](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/473534069_631480312723257_8695516344311955994_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=q9b_K-8nBBkQ7kNvwF-AM__&_nc_oc=AdlfeuW0CFWLA9fDKQcHFKNgZtMQOozt83NuWGUVmj3ZswqEubNQp_BbnKVrQq7PFcl6JapRJY4zCT2v2MsW2QBn&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfnRXyG6NJ7Qjak31tS0iSI5wRswnHqTZe3eyLohR_5LQQ&oe=69559832)
+<details>
+<summary>Code snippet shows an arrow function used to return a string as described previously</summary>
+
+<p></p>
+
+[Code snippet shows an arrow function used to return a string as described previously](../../image_data/dcaea8a7bc6a5295226c078ce2c6b9500d68b6733e1d2ae79354384b869ba330.md)
+
+### Overview
+This image displays a code snippet written in JavaScript, specifically targeting a `Text` component. The code defines the `text` property and `style` property for the `Text` component.
+
+### Key Elements
+- **Visual description**: Code snippet.
+- **Location**: Top-left corner.
+- **Contents**: 
+  - `text`: A function that returns a string formatted as `\nUpgrade \n + name + '\nPower Washer!\n'`.
+  - `style`: An object containing `textAlign`, `fontFamily`, and `fontSize`.
+- **Visual styling**: 
+  - `textAlign`: 'center'.
+  - `fontFamily`: 'Bangers'.
+  - `fontSize`: 48.
+
+### Visual Flow / Relationships
+- Most prominent visually: The code snippet itself.
+- No arrows, lines, or connectors present.
+- Reading order follows the standard left-to-right, top-to-bottom flow typical of code snippets.
+
+</details>
+
+<p></p>
+
+
 
 There is also .reset(), which “resets the player-specific value of the binding, if any, back to the global value.” You can also provide an array of players if you just want to reset some players.
 
-![Code snippet shows .reset() being used](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473440370_631480309389924_3803244681385835232_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=zEzirlKaYv8Q7kNvwFvRO8K&_nc_oc=AdkfG7e629WlUshiriUL4J-4NWUEbI4sptUCVh7-Cd-E5EtJRZUNcF7tebkh_ixCcozLbxQw5sO56EtEnrtLtzvT&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfnMu6HlVQCvFG7SxSmpa3kCF5VEBLFbDixjEqN50zgldw&oe=69558944)
+<details>
+<summary>Code snippet shows .reset() being used</summary>
+
+<p></p>
+
+[Code snippet shows .reset() being used](../../image_data/a8108e0e703ddaf0c031f56330ce4290394ea69776bdef6a01d4a18b9c5b0ed7.md)
+
+### Overview
+This image displays a code snippet within a software development environment, specifically showing method documentation and usage examples. The content is structured with a method definition, a comment explaining its functionality, and a usage example demonstrating how to call the method.
+
+### Key Elements
+- **Method Definition**: `(method) Binding<string>.reset(players?: Array<Player>): void`
+  - **Visual description**: A method signature indicating a method named `reset` that takes an optional array of `Player` objects as a parameter and returns `void`.
+  - **Location**: Top right section of the image.
+  - **Contents**: `(method) Binding<string>.reset(players?: Array<Player>): void`
+  - **Visual styling**: Black text on a light gray background.
+  
+- **Documentation Comment**: 
+  - **Visual description**: A block of text explaining the `reset` method.
+  - **Location**: Below the method definition.
+  - **Contents**: 
+    > Resets the player-specific value of the binding, if any, back to the global value. Like the set method, this method also queues a re-render operation for all UI panels that use this Binding.
+    > @param players
+    > The players to reset the value for. If not provided, all player-specific values are cleared. If provided, only value for players in the list are reset and receive the global value.
+  - **Visual styling**: Black text on a white background.
+  
+- **Usage Example**: 
+  - **Visual description**: Code snippet demonstrating how to call the `reset` method.
+  - **Location**: Bottom left section of the image.
+  - **Contents**: `this.nameBinding.reset()`
+  - **Visual styling**: Black text on a white background.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The method definition and its documentation comment are the most prominent due to their larger font size and central placement.
+- **Arrows/Connectors**: There are no arrows or connectors in this image.
+- **Spatial Relationships**: The method definition is at the top, followed by the documentation comment, and then the usage example at the bottom. The elements are arranged vertically, with the method definition and documentation comment being closely related and the usage example being further down.
+
+</details>
+
+<p></p>
+
+
 
 You can also use a map function to set the value of a binding, here is a screenshot of the example given here: <https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui>
 
-![Image shows bindings for multiple players](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473442035_631480289389926_4182927293809331075_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=eyslqFNh8z8Q7kNvwHfC9k4&_nc_oc=Adk2CYwHXn1WF54PwI1FTfH3U96J3vcwBQrlVuCAZs1OHKHnOKQ7MGTCTcVC1zQVtL65SXCIdivW-IH6ayCcfX8h&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfkEm-6zTvZ_KY9g2tfhmVOALTHF0unWW9b46WKqNrmIUQ&oe=69557FF9)
+<details>
+<summary>Image shows bindings for multiple players</summary>
+
+<p></p>
+
+[Image shows bindings for multiple players](../../image_data/9c08eadfdd80050c80829895fdfe92b176183a3c3f3b672fc67f8d809fbfef4b.md)
+
+### Overview
+The image displays a code snippet alongside a table that tracks the values of variables `binding`, `derived`, `player1`, `player2`, and `player3`. The code demonstrates the use of a `Binding` object and its methods `set` and `derive`.
+
+### Key Elements
+- **Code Snippet**: Located on the left side of the image.
+    - **Visual description**: Code written in a monospaced font.
+    - **Contents**: 
+        ```javascript
+        const binding = new Binding(0);
+        binding.set(1);
+        binding.set(2, [player1, player2]);
+        binding.set(v => v + 1);
+        const derived = binding.derive(v => v + 1);
+        binding.set(4, [player2, player3]);
+        binding.set(v => v + 1, [player3]);
+        ```
+    - **Visual styling**: Black text on a white background.
+- **Table**: Located on the right side of the image.
+    - **Visual description**: A table with alternating row colors (light pink and white).
+    - **Contents**:
+        | binding | 0 | 0 | 0 | 0 |
+        | binding | 1 | 1 | 1 | 1 |
+        | binding | 1 | 2 | 2 | 1 |
+        | binding | 2 | 3 | 3 | 2 |
+        | binding | 2 | 3 | 3 | 2 |
+        | derived | 3 | 4 | 4 | 3 |
+        | binding | 2 | 3 | 4 | 4 |
+        | derived | 3 | 4 | 5 | 5 |
+        | binding | 2 | 3 | 4 | 5 |
+        | derived | 3 | 4 | 5 | 6 |
+    - **Visual styling**: Light pink and white cells, black text on a light pink background for the first column, and black text on a white background for the rest.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The table on the right side.
+- **Arrows/lines/connectors**: None.
+- **Spatial relationships**: The code snippet is aligned to the left, while the table occupies the right side. The table has a clear column header and row headers, indicating a structured layout.
+
+</details>
+
+<p></p>
+
+
 
 Next, you are going to look at and discuss various examples that you’ll be able to take apart and try on your own.
 
@@ -294,13 +1274,119 @@ In this example, you display an image png asset, which is uploaded to your asset
 
 **Mentor’s Note:***I don’t like to use the “!” seen on line 13, but it is the easiest way to get this setup and working, otherwise you have to use an image binding and check that the bgImage is not undefined. Be aware that doing it this way will break if your asset is not referenced on the properties panel.*
 
-![Image shows code snippet for including a background image](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473691452_631480292723259_8863074035084342711_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=rB8oZrhHzmsQ7kNvwFlMR6X&_nc_oc=Adk8VI2UYJPf80_fKvPQTQlIOWaqs0fJh1jTUs9nc3XBJvrrfx5zbqQNFGKqkv9hftIc-Sh5YC1nVBY-lHm1au8h&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_Aflkt6K96TalNIESILWhww8bf7B2zAHzPu-nW-y9gaMtHw&oe=69556AF2)
+<details>
+<summary>Image shows code snippet for including a background image</summary>
+
+<p></p>
+
+[Image shows code snippet for including a background image](../../image_data/b2439494f795c80027de19b15e3897efb8f7c1a2d6ea803c4acbc9acaf207383.md)
+
+### Overview
+This image displays a code snippet written in TypeScript, specifically defining a class named `CUI_Test_Entity`. The code is part of a larger project involving UI components and is structured within a file named `CUI_Test_Entity.ts`.
+
+### Key Elements
+- **Code Editor Interface**: The code is displayed in a code editor interface with syntax highlighting.
+- **Imports**: At the top, there are imports for `Component`, `PropTypes`, `Image`, `ImageSource`, `UIComponent`, `UINode`, `View`, and `horizon/ui`.
+- **Class Definition**: A class `CUI_Test_Entity` extends `UIComponent`.
+- **Static Props Definition**: A static property `propsDefinition` is defined, which includes a single prop `bgImage` of type `Asset`.
+- **initializeUI Method**: This method returns a `UINode` containing an `Image` component that sets its `source` to `this.props.bgImage!` and applies a style with `width` and `height` set to `'100%'` and `position` set to `'absolute'`.
+- **start Method**: An empty method `start()` is defined at the bottom of the class definition.
+- **Component Registration**: The last line registers the `CUI_Test_Entity` component with `Component.register(CUI_Test_Entity);`.
+
+### Visual Flow / Relationships
+The code is structured linearly from top to bottom, with each line of code clearly delineated. There are no arrows or connectors indicating relationships between elements, as this is a textual representation of code rather than a graphical user interface.
+
+</details>
+
+<p></p>
+
+
 
 ## Instruction Board Example
 
 This example shows how you can have multiple images, and when a user presses back or next buttons it changes to the next image.
 
-![Image shows code snippet for an instruction board](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/473299682_631480342723254_5406964871793628909_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=UIEL8AL_qckQ7kNvwFIH7ZS&_nc_oc=Admt9HsuVJKiR8e8oayh935h4fssLfZQv9eQtV_7kHrRS-nzBwPtdCt6FfgQPOApPYbr0OOwoDQNgJq2UuDlv2rm&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfkThpz6MRLLyJexpD-ZouAXz7-5EveIg6OS9mnJbZEnKA&oe=69558F97)
+<details>
+<summary>Image shows code snippet for an instruction board</summary>
+
+<p></p>
+
+[Image shows code snippet for an instruction board](../../image_data/5a2537e080bcb50d7edff44525efa2ed17a39ba27194a62539f23f8b7744798e.md)
+
+### Overview
+This image displays a code snippet written in TypeScript, specifically a class definition named `Instructions`. The class extends `UIComponent` and contains methods and properties related to UI interactions and rendering.
+
+### Key Elements
+1. **Class Definition**
+   - **Visual description**: A TypeScript class declaration.
+   - **Location**: Top of the image.
+   - **Contents**: `class Instructions extends UIComponent<typeof Instructions>`
+   - **Visual styling**: Standard TypeScript syntax highlighting.
+
+2. **Static Prop Definitions**
+   - **Visual description**: A static property definition block.
+   - **Location**: Below the class definition.
+   - **Contents**: `static propDefinition = { ... }`.
+   - **Visual styling**: Standard TypeScript syntax highlighting.
+
+3. **Instance Variables**
+   - **Visual description**: Instance variables declared within the class.
+   - **Location**: Below the static prop definitions.
+   - **Contents**: `readonly backgroundImage = new Binding<ImageSource>(``);`, `index = 0;`, `readonly textures: TextureAsset[] = [];`.
+   - **Visual styling**: Standard TypeScript syntax highlighting.
+
+4. **Initialization Method**
+   - **Visual description**: An initialization method (`initializeUI`) that sets up the UI components.
+   - **Location**: Below the instance variables.
+   - **Contents**: `initializeUI() { ... }`.
+   - **Visual styling**: Standard TypeScript syntax highlighting.
+
+5. **Return Statement**
+   - **Visual description**: The return statement of the `initializeUI` method.
+   - **Location**: Below the initialization method.
+   - **Contents**: `return View({ children: { ... } });`.
+   - **Visual styling**: Standard TypeScript syntax highlighting.
+
+6. **Method `addTextureToArray`**
+   - **Visual description**: A method that adds textures to an array.
+   - **Location**: Below the return statement.
+   - **Contents**: `addTextureToArray(texture: Asset | undefined): void { ... }`.
+   - **Visual styling**: Standard TypeScript syntax highlighting.
+
+7. **Array `buttons`**
+   - **Visual description**: An array containing buttons.
+   - **Location**: Below the method `addTextureToArray`.
+   - **Contents**: `buttons: UIChildren[] = [ ... ]`.
+   - **Visual styling**: Standard TypeScript syntax highlighting.
+
+8. **Method `createButton`**
+   - **Visual description**: A method that creates a button.
+   - **Location**: Below the array `buttons`.
+   - **Contents**: `createButton(buttonText: string, goUp: boolean): UIChildren { ... }`.
+   - **Visual styling**: Standard TypeScript syntax highlighting.
+
+9. **Method `start`**
+   - **Visual description**: A method that starts the component.
+   - **Location**: Below the method `createButton`.
+   - **Contents**: `start() { ... }`.
+   - **Visual styling**: Standard TypeScript syntax highlighting.
+
+10. **Method `updateIndex`**
+    - **Visual description**: A method that updates the index.
+    - **Location**: Below the method `start`.
+    - **Contents**: `updateIndex(goUp: boolean) { ... }`.
+    - **Visual styling**: Standard TypeScript syntax highlighting.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The `View` returned at the end of the `initializeUI` method.
+- **Arrows/Connections**: None.
+- **Spatial Relationships**: The code is structured in a linear fashion, moving from class definition to methods and properties.
+
+</details>
+
+<p></p>
+
+
 
 ## ScrollView Example
 
@@ -308,7 +1394,100 @@ This example shows how to implement a ScrollView. It is relatively simple. Most 
 
 *Note: At the time of writing you may need to go into VR to see it work, or preview the build on XS before it will start working in the Desktop editor. So if it doesn’t seem to work at first don’t worry, just try it from another device.*
 
-![Image shows code snippet for implementing the scrollview](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/473533283_631480336056588_431901923760677626_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=7zduIvWJ8QcQ7kNvwEKc9qJ&_nc_oc=AdllFt3aK800wTSWtpZbgT6lWwCXjSY5_wkAZYczBvbbZc7mJzkxWa1hiGyJenEKrDRiuuPExqtGxVMpXBYn1yHo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=MTEHObgnryPSCI-8CS6vmg&oh=00_AfkljuQ-RNizlaikVRzhut1ft1W3Rz-ev1gNqqy6fJHOxQ&oe=695575D8)
+<details>
+<summary>Image shows code snippet for implementing the scrollview</summary>
+
+<p></p>
+
+[Image shows code snippet for implementing the scrollview](../../image_data/cae0ee2363d72b44d3c86b07e5913db7cacae03723fd77cb795d68c88e57855a.md)
+
+### Overview
+This image displays a code snippet written in TypeScript, which appears to be part of a user interface component definition. The code includes imports from various modules, class definitions, method implementations, and utility functions. The content is structured around creating a console-like interface with bindings for strings and colors.
+
+### Key Elements
+1. **Imports**
+   - `cuiStyles` from `"CustomUIStyles_Data"`
+   - `Color`, `Component`, `PropTypes` from `"horizon/core"`
+   - `Binding`, `Image`, `ImageSource`, `ScrollView`, `Text`, `UIComponent`, `UINode`, `View` from `"horizon/ui"`
+   - `inWorldConsoleData` from `"InWorldConsole_Data"`
+   - `ConsoleData` from `"InWorldConsole_Defs"`
+   - `posTrackerVisibility_Data` from `"PositionTracker_Visibility_Data"`
+   - `EntityVisibilityGroups` from `"PositionTracker_Visibility_Types"`
+   - `objectUtils` from `"UtilObject_Func"`
+
+2. **Variable Definitions**
+   - `stringBindings`: An array of `Binding<string>` initialized with a length equal to `inWorldConsoleData.maxConsoleLength`.
+   - `colorBindings`: An array of `Binding<Color>` initialized similarly.
+
+3. **Class Definition**
+   ```typescript
+   class console extends UIComponent<typeof console> {
+       static propsDefinition = {
+           empty: { type: PropTypes.Asset },
+       };
+
+       preStart() {}
+
+       start() {
+           posTrackerVisibility_Data.addEntity(this.entity, EntityVisibilityGroups.front);
+       }
+
+       initializeUI() {
+           return View({
+               children: [
+                   Image({
+                       source: ImageSource.fromTextureAsset(this.props.empty!),
+                       style: cuiStyles.instructionBoard.imageStyle,
+                   }),
+                   View({
+                       children: Text({
+                           text: 'Console:',
+                           style: cuiStyles.console.titleText,
+                       }),
+                       style: cuiStyles.console.titleTextContainer,
+                   }),
+                   ScrollView({
+                       children: generateConsoleChildren(),
+                       style: cuiStyles.console.textContainer,
+                       contentContainerStyle: { height: 8520, alignItems: 'flex-start' },
+                   }),
+               ],
+               style: cuiStyles.console.container,
+           });
+       }
+   }
+   ```
+
+4. **Utility Function**
+   ```typescript
+   function generateConsoleChildren(): UINode[] {
+       return stringBindings.map((binding, index) => 
+           Text({
+               text: binding,
+               style: objectUtils.partialFill(cuiStyles.console.text, { color: colorBindings[index] }),
+           })
+       );
+   }
+   ```
+
+5. **Exported Function**
+   ```typescript
+   export function inWorldConsoleUpdateBinding(consoleData: ConsoleData[],) {
+       consoleData.forEach((data, index) => {
+           stringBindings[index].set(data.text);
+           colorBindings[index].set(data.color);
+       });
+   }
+   ```
+
+### Visual Flow / Relationships
+The code is structured linearly, moving from imports to variable definitions, then to a class definition, followed by utility functions, and finally an exported function. There are no visual elements as this is a textual representation of code.
+
+</details>
+
+<p></p>
+
+
 
 ## Thank You!
 
