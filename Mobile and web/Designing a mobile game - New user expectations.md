@@ -20,9 +20,70 @@ The NUX encompasses more than a tutorial. It’s how you introduce your game and
 
 A good NUX begins at the point of discovery. When a player is looking for an experience to explore in Worlds, they will either discover you through the first page of the Meta Horizon app or by searching by name. Therefore, you must be mindful of how your icon, key art, name, and descriptions display on mobile, as all of these elements communicate what players can expect from your experience. It’s also advisable to keep load times reasonable, as longer waits may drive them away. Refer to our [Intro to Worlds Discovery article](../Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md) for more best practices on presenting your game.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581367873_863747082829911_4158166952519410995_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=lcPlSBKGyQIQ7kNvwEIzCzA&_nc_oc=Adm__jKTvXpXoXeWrh4qMuMH9RWtnskoPwOMKrAMFcC5XUHjjb_QI85QgGo7g9E_yRsawP9XnxSuRGmHQN5R8ThQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=531pJPkjgN7XEc7SE58T5g&oh=00_AflpXS4Q1yDbB2woR6o4qAc9s4WzcORppUplA3GZfe0Xpg&oe=6955914A)
+<details>
+<summary>Image Content</summary>
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581820287_863747079496578_1437313693711950770_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=HwtAQGGlaUQQ7kNvwHtYdwA&_nc_oc=Admnm9NZaCEMXbRJE7LqrkmmYGnjGp6EuzYAn2D7k9AtaaQB4T6JTpUEYBR777-SpOe0wvPKKyT2oWkmJ9C2h2FH&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=531pJPkjgN7XEc7SE58T5g&oh=00_AfkG_IqGx4jcEpVVHgeXziQrXDYz-p2dNcEp18iH6oZoqA&oe=69559DA5)
+<p></p>
+
+[All image details and metadata](../image_data/a9a30fccd17181e3b863557432799ecdbb96113f3363028b9de62f2a6b31a780.md)
+
+### Overview
+The image displays a mobile app store interface showing search results for "shovel up." The screen is divided into two sections: "Worlds" and "Apps," with the "Worlds" section currently active. Each result includes an icon, title, category, rating, and a "Go" button.
+
+### Key Elements
+- **Search Bar**: Located at the top, with the query "shovel up" entered.
+- **Sort By Button**: Positioned below the search bar, indicating sorting options.
+- **Worlds Tab**: Active tab, showing results related to worlds.
+- **Apps Tab**: Below Worlds tab, showing results related to apps.
+- **Results Section - Worlds**: Contains three entries:
+  - **First Entry**: "Shovel Up!" with a mobile simulation category, 3.5K likes, and 62 followers. Includes a "Go" button.
+  - **Second Entry**: "Shovel Up" with a mobile VR hangout category, 60 likes. Includes a "Go" button.
+  - **Third Entry**: "Update! Haunted Cemetery" with a mobile VR action category, 135 likes. Includes a "Go" button.
+- **Results Section - Apps**: Contains one entry:
+  - **First Entry**: "HuntyVerse" with a 4.8-star rating, 56 reviews, and shooter category. Includes a "Get" button.
+- **See All Button**: Below the "Worlds" results, allowing users to view more results if available.
+- **Navigation Bar**: At the bottom, with icons for home, messages, profile, search, and cloud.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The search results under the "Worlds" tab.
+- **Arrows/Connectors**: None visible.
+- **Reading Order**: Results are listed vertically, with the "Go" or "Get" buttons aligned to the right.
+- **Spatial Relationships**: Entries are arranged in a grid-like structure within their respective sections.
+
+</details>
+
+<p></p>
+
+
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/53deadff7dffd80018001a2c8e1d7aafbc1f0370ffe698e27b9d947578692d3e.md)
+
+### Overview
+The image depicts a mobile interface showing a virtual world titled "Shovel Up!" created by BigBox Studio. The screen displays a live stream environment with a character standing in a forested area. Below the stream, there is a card providing information about the world, including its popularity metrics and interactive options.
+
+### Key Elements
+- **Top Section**: A live stream view featuring a character in a forest setting. The character is wearing a pink top and blue jeans, standing on a grassy area surrounded by trees and a wooden cabin.
+- **Middle Section**: A black card with white text displaying the title "Shovel Up!" and the creator's name "BigBox Studio." There is a "Follow" button next to the creator's name.
+- **Metrics**: Below the title, there are metrics such as "182.4K visitors," "3.5K likes," "62 here," and an age rating "ages 10+."
+- **Buttons**: Two buttons labeled "Go" and "Invite" are present below the metrics.
+- **Bottom Section**: A description stating "Available to spectators" followed by a list of activities: "DIG • COLLECT • UPGRADE • EXPLORE." There is also a link to join the community via Discord and a partially visible tagline starting with "Grab your shovel, dig with friends and discover the t..."
+
+### Visual Flow / Relationships
+- The most prominent visual is the live stream view at the top.
+- The card with the world's information is centrally located below the stream.
+- The buttons are positioned below the metrics, with "Go" on the left and "Invite" on the right.
+- The description and community link are at the bottom, with a downward arrow indicating more content can be revealed.
+
+</details>
+
+<p></p>
+
+
 
 *Shovel Up! is an excellent example of a good game presentation on Meta Horizon. It includes strong key art, a recognizable icon, and strong descriptions of their updates to the game.*
 
@@ -35,7 +96,30 @@ When designing your NUX, there are four main ways to structure the experience:
 - **Just in Time/Triggered** - A prompt triggers exactly as a player encounters some part of the tutorial as they are exploring. For example, if your health bar dips below 60%, for the first time you get a tutorial on using a health potion.
 - **Open to player agency**: This approach is rare on mobile. Players can direct their own tutorial experience by choosing what aspects of the game to explore. Typically, they start with a guided NUX before the game gradually removes the guardrails and allows them to dictate the flow.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581559393_863747076163245_403884654627850526_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=wkYFjFnxWhAQ7kNvwH_tHP3&_nc_oc=AdloUF46v9C8ZWW1zqkDW05nHyEkN7AilO6i7SzzG7aKcjj1Kta9AZmDcn9PKu1yzy-aFMGB2ZSzhIoRML2Aicxv&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=531pJPkjgN7XEc7SE58T5g&oh=00_AfkFA4hQuqZhGO2C1-KzL9pp5acFezHRHu0wkzDRQN_jdQ&oe=69559AC6)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/31253c403acc2606b527ebc9950d5d739ce40097076590f7268d1a377da3549c.md)
+
+### Overview
+The image depicts a game interface where the player is tasked with popping a balloon using darts. The central focus is a dartboard with concentric circles in blue, pink, and yellow, and a white outer ring. A hand is shown dragging a dart towards the board. Instructions at the bottom guide the player to drag and throw the dart to pop the balloon. In the upper right corner, there are darts displayed, indicating the remaining number of darts available.
+
+### Key Elements
+- **Dartboard**: A circular target with concentric rings in blue, pink, and yellow, and a white outer ring. The center contains a yellow balloon with a small arrow pointing upwards.
+- **Hand**: A white hand icon is positioned at the bottom right, holding a dart that is being dragged towards the dartboard.
+- **Instructions**: Text at the bottom reads, "> Drag and throw the dart to pop the balloon".
+- **Remaining Darts**: In the upper right corner, there are three darts displayed, with one highlighted as pink, indicating the current selection. Above them, the text "2 Darts left" is shown.
+
+### Visual Flow / Relationships
+The most prominent visual element is the dartboard, which is centrally located. The hand and dart are positioned to the right of the dartboard, suggesting the action of throwing the dart. The instructions are placed below the dartboard, guiding the player on how to interact with the game. The remaining darts are displayed in the upper right corner, providing feedback on the player's resources.
+
+</details>
+
+<p></p>
+
+
 
 *When tutorializing, prioritize non-intuitive mechanics. Players should be encouraged to experiment with basic actions like picking up items or firing weapons. Our recommendation is to provide clear goals and allow players to discover how to achieve them.*
 
@@ -70,7 +154,34 @@ In general, players expect a light tutorial. Many Worlds simply drop the player 
 
 Depending on the target audience, it may not be necessary to teach them commonly found mechanics (movement, shooting a weapon, etc.). It may be more valuable to provide goals and focus on helping players truly understand new mechanics.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580589313_863747146163238_1624727151959125390_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=VCO_39lOXq4Q7kNvwGaINPW&_nc_oc=AdmFDsB1C9O2LLCzv2t541r8Yda_wtaYXeCEO1HfTEhfO4bpkmXXPcUY_ROEnBZxBQT_MLoNXeaVKfRxUyYi89lL&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=531pJPkjgN7XEc7SE58T5g&oh=00_AflXoOSq_z8tWQ0JJSVHMqsJWbOo0hMAvwT6xV2W2v6bGg&oe=69557418)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/f31d040e9ab9828e5eced878bfa3ca09b830189b2d5b25a25ba391c0a348fe8e.md)
+
+### Overview
+The image depicts a scene from a game or interactive interface. It features a character standing on one side of a gap, with a glowing arch connecting to a treasure chest on the other side. The instruction at the bottom suggests tapping a button to cross the gap. The background is a simple sky with clouds.
+
+### Key Elements
+- **Character**: A female figure with brown hair, wearing a red top and black pants, positioned on the left side of the gap.
+- **Gap**: A large, pink cylindrical structure spanning horizontally across the image, representing a gap that needs to be crossed.
+- **Treasure Chest**: A pink and yellow treasure chest with a golden lock, located on the right side of the gap.
+- **Glowing Arch**: A white, curved line connecting the character to the treasure chest, indicating a path or jump point.
+- **Instruction Text**: "Tap the jump button to cross" displayed at the bottom of the image.
+- **Jump Button**: A circular button with a white silhouette of a running figure and a small circle around it, located at the bottom right.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the glowing arch, which draws attention to the treasure chest as the goal.
+- The instruction text at the bottom guides the viewer on how to proceed.
+- Spatially, the character is on the left, the gap spans the middle, and the treasure chest is on the right.
+
+</details>
+
+<p></p>
+
+
 
 *Players in Horizon Worlds generally prefer clear goals and autonomy. However, if a player is inactive, a tip should appear after a few seconds.*
 
@@ -90,6 +201,32 @@ Consider checking out the [showInfoSlides API Tutorial Manager](https://develope
 
 Additionally, you can check out an entire Tutorial World we created as reference content on how to make in-world NUXes for more advanced creators. Go [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-1-setup) to see the tutorial world.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/580482029_863747116163241_3947661849111246645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=PXkyprIkDRsQ7kNvwHXEage&_nc_oc=Adm1aG3O3GsP89yPA_2TSXyc3rocm0_eagPSfYByf_Xi2l7yTOC0vY0jLnMGidTqayxlEcUbKM851JDDY8gUIdSq&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=531pJPkjgN7XEc7SE58T5g&oh=00_AfnzNeJoJFq41mdjmCDZev2U-G6SybEVI1uzTcGh7KRPyQ&oe=69558170)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/19c97700d136f95979dc3ded2d6771e0f25cc35a29110d7eb4f86315ff1b0045.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a character standing on a platform labeled "Start." The character is surrounded by a green circular path and above them, there are three green downward-pointing arrows. The background consists of a grid-like pattern, suggesting a virtual environment.
+
+### Key Elements
+- **Character**: A person wearing a red hoodie, blue jeans, and white sneakers. Positioned centrally, facing right.
+- **Platform**: Dark blue rectangular platform with the word "Start" written in white text at the bottom left corner.
+- **Green Path**: A bright green circle encircles the character, indicating a path or boundary.
+- **Green Arrows**: Three green downward-pointing arrows are located above the character, positioned vertically.
+- **Background**: A light gray grid pattern covers the entire background, resembling a floor or surface in a virtual space.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The character and the green path around them.
+- **Arrows**: Positioned above the character, pointing downwards.
+- **Path**: Surrounds the character, implying movement or direction within the scene.
+
+</details>
+
+<p></p>
+
+
 
 *Visit our Tutorial World [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-1-setup) to get a sense of how a tutorial system in Worlds works.*

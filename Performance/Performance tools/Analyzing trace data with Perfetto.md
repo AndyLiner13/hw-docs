@@ -14,7 +14,38 @@ By the end of this user guide, you’ll know how to:
 
 As you get more familiar with Perfetto and the Real-time Metrics menu, reference this checklist to better understand the cause and effect of performance issues. For a more in-depth explanation and step-by-step tutorial on how to use this checklist, go watch the [Connect ‘23 Horizon World Performance Optimization Best Practices talk](../Connect%20'23%20Video%20Series-%20World%20Optimization%20Best%20Practices.md).
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452392375_512500747954548_2104090671995035942_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=KD78QIgF_gEQ7kNvwFkb5pr&_nc_oc=AdnIc41Ynr9hW6yTGAOwsWFV-XpLjFAn_E69eNLnaXy4OlkWuCAqB2pnMtI1n9UDYKiVgaOpQTZHu4FbW9D8Gq9_&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_Afl-RwA9Q-VcJ4M6MTxgsS5Hm2Zq9ZYjaHx8i7Ch7oAhOg&oe=69558CA4)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/e40808d1c5ff691d720774a87a063818f22b6f316aaf7d31c87903d5110992b0.md)
+
+### Overview
+This image depicts a checklist with two columns labeled "Checklist" and "Status." The checklist contains a series of tasks, some of which have checkboxes next to them. The status column has checkboxes that appear to be in a default state, indicating no action has been taken yet.
+
+### Key Elements
+- **Checklist Column**: Contains a list of tasks written in a bullet-point format.
+  - **Visual description**: Text-based list.
+  - **Location**: Left side of the image.
+  - **Contents**: Tasks include "Is there a performance problem?", "Make a base capture," "Get Real-time performance metrics data," "(Depends) Get a Perfetto capture," "Add in or remove a feature(s) to World," "Compare data against base capture," "Consider trade-offs," and "Fix."
+  - **Visual styling**: Black text on a white background.
+- **Status Column**: Contains checkboxes next to each task in the checklist.
+  - **Visual description**: Checkbox elements.
+  - **Location**: Right side of the image.
+  - **Contents**: Checkboxes are blue with a white checkmark.
+  - **Visual styling**: Blue background with white checkmark, black border.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The checklist tasks.
+- **Arrows, lines, connectors**: None.
+- **Spatial relationships**: Tasks are listed vertically under the "Checklist" heading, with corresponding checkboxes in the "Status" column to the right. There is no implied reading order beyond the vertical listing of tasks.
+
+</details>
+
+<p></p>
+
+
 
 The first step in analyzing traces is downloading them once they’ve been captured.
 
@@ -33,10 +64,54 @@ To view a trace file directly from the Developer Dashboard, select **Perfetto** 
 * Use **CTRL + mouse wheel** or the **w/s** keys on the keyboard to zoom in and zoom out on the specific thread and event. Use the **a/d** keys to pan left and right, respectively.
 * Use the **Search** input box at the top of the Prefetto UI tool to find a thread or process.
 
-  ![Perfetto UI search box](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/487878008_688281963709758_2966033283031449348_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=k5AZ_UqFWFwQ7kNvwEV4dmR&_nc_oc=Adkb3OQmy2Ux7G1D8GxcKbpwBYS_RM6Oyj91d7ulz-GvsgEVFVDcWPqHZ7eKXkRoNyr-FsiZPg_BdgqkUUZi1Lpi&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfmDOVizcbeie1sW-V6DYwx65TPpOo9vtZd7CCLtWdo5-w&oe=6955904F)
+  <details>
+  <summary>Perfetto UI search box</summary>
+  
+  <p></p>
+  
+  [Perfetto UI search box](../../image_data/6ce44cc588b6f3db009df4f56329ce591ff3be3e31af3e77d366088ef046e17b.md)
+  
+  ### Overview
+  This image depicts a search bar interface element commonly found in software applications or web interfaces. The search bar contains a placeholder text and some navigation controls.
+  
+  ### Key Elements
+  - **Search Bar Placeholder Text**: Located centrally within the search bar. Contains the text: `UpdateRunner::Update`.
+  - **Navigation Controls**: Positioned at the far right of the search bar. Includes a forward arrow (`<`) and a backward arrow (`>`).
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the search bar itself. The navigation controls are secondary but clearly positioned as interactive elements to navigate through results.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * If the search function finds a match, it will highlight the counter in yellow.
 
-  ![Using the Search bar to find a call inside a call graph](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487971033_688281967043091_5021087545001880111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=DAHpk_GNavYQ7kNvwGfNs3t&_nc_oc=AdmrMEf2sgM9xmUcYtW2EQoYWrC4PzJujbvr8DBgZyIfLAzcGYq5LTGioPG2S2dBHEvzLdbKFrKgRd-VH1DaMkVs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfnhsdPEhZVVmZJoIgd-ykRYwwYKNYQO4EYpn4EYa1SF7Q&oe=69559D43)
+  <details>
+  <summary>Using the Search bar to find a call inside a call graph</summary>
+  
+  <p></p>
+  
+  [Using the Search bar to find a call inside a call graph](../../image_data/2c17490ffb669dc095e7d759c7bd41655ef7de91c7b97b22e539163f109da878.md)
+  
+  ### Overview
+  This image depicts a screenshot of a profiling tool interface, specifically Perfetto, which is used for performance analysis of applications. The main area of the interface displays a timeline with various events and processes, indicating the performance of a specific trace file named "thinkpad-web-deep-3.ptrace".
+  
+  ### Key Elements
+  - **Navigation Panel**: Located on the left side, contains options such as "Open trace file," "Record new trace," "Show timeline," "Download," "Query (SQL)," "Viz," "Metrics," "Info and stats," "Convert trace," "Example Traces," and "Support." The current trace file is highlighted as "thinkpad-web-deep-3.ptrace (8 MB)."
+  - **Timeline**: The central area of the interface shows a timeline with time stamps ranging from 00:00:00 to 00:00:10. Events are represented as colored bars and labels, such as "PlayerLoop:Update," "UpdateRunner:Update," and "FinishFrameRendering:PostLateUpdate."
+  - **Thread Information**: Below the timeline, there are threads listed, such as "IL2CPP Threadpool worker 660," "IL2CPP Threadpool worker 664," etc.
+  - **Slice Details**: At the bottom, there is a section labeled "Slice UpdateRunner:Update" showing details like Name, Category, Start time, Duration, Thread ID, Process ID, and SQL ID.
+  
+  ### Visual Flow / Relationships
+  The timeline is the most prominent visual element, with events arranged horizontally along the timeline. Threads are listed vertically below the timeline. The slice details at the bottom provide additional information about the selected event.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * Select an event on the thread to get more information, such as:
 
   + Name
@@ -45,11 +120,63 @@ To view a trace file directly from the Developer Dashboard, select **Perfetto** 
   + Duration
   + Process ID
 
-  ![Selecting a counter on the main thread, revealing the Current Selection tab](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/488185144_688281973709757_4126500563093795126_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=OhUe7jK8aFgQ7kNvwF48AdK&_nc_oc=AdkDJziljLiUEloIeOnuIf2MMwe-StqIrkqCLoph46FGH4Zpr7NUub4PYnYJ9niYkz9BPLtVe1CXidO4rPpRCMxc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfmxT3grYIOpsekKVzdX4kfSMGG0Y5Nt-pRpazcvH-7McQ&oe=695579C1)
+  <details>
+  <summary>Selecting a counter on the main thread, revealing the Current Selection tab</summary>
+  
+  <p></p>
+  
+  [Selecting a counter on the main thread, revealing the Current Selection tab](../../image_data/cd33224a4ad852a97efc13a5e995a4fb7eeb8c62670442cca0790e51f13509dd.md)
+  
+  ### Overview
+  This image depicts a user interface element showing details of a specific event or operation within a profiling tool. The layout includes a header, a collapsible section labeled "Details," and various data fields such as Name, Category, Start time, Duration, Thread ID, Process ID, and SQL ID.
+  
+  ### Key Elements
+  - **Header**: Located at the top, it reads "Current Selection" and "Slice ScriptingRuntime::HandleEvent." This is a title bar indicating the current focus of the interface.
+  - **Details Section**: Below the header, this section contains several data fields:
+    - **Name**: Displays "ScriptingRuntime::HandleEvent."
+    - **Category**: Shows "None."
+    - **Start time**: Displays "00:00:05.017 977 100."
+    - **Duration**: Indicates "399us 300ns."
+    - **Thread**: Lists "160."
+    - **Process**: Shows "156."
+    - **SQL ID**: Contains "slice[83835]..." with a clickable element next to it.
+  
+  ### Visual Flow / Relationships
+  The visual hierarchy is clear, with the header providing context and the "Details" section offering specific information. The data fields are arranged vertically, with each field having its own label and value. There are no arrows or lines connecting elements, suggesting a linear reading order from top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ### Perfetto Tool keyboard shortcuts
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452702818_512500764621213_1299181058192558473_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Nd-kyTpA49AQ7kNvwEytldr&_nc_oc=AdlCImGk98C50KBMuLcqvDifXi4pEeyyd5h9WJNahfB_tUpzvRSTlCch1NFSeqNGAiwRSMnv774tbFCgqDSE1VwK&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfkhM-S_MMTTi4BqJmyWzG-mzAJHgYlfk-MqQG4aM0QolQ&oe=695576FD)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/41f06ff378c1791403a03f136cba67f0f258ed331bb1fc00ab9e178d0ba1a105.md)
+
+### Overview
+The image displays a help menu for a software application named "Perfetto." It provides keyboard shortcuts and mouse controls for navigating and interacting with the application. The layout is structured into sections for navigation, Dvorak keyboard mapping, mouse controls, SQL query execution, and miscellaneous commands.
+
+### Key Elements
+- **Navigation Section**: Located at the top-left, contains keyboard shortcuts for zooming in/out (`w/s`) and panning left/right (`a/d`). The text is black on a white background.
+- **Dvorak Navigation Section**: Below the Navigation section, similar layout but with Dvorak-specific keys (`,/o`, `a/e`). The text is also black on a white background.
+- **Mouse Controls Section**: Positioned below the Dvorak section, includes actions like clicking, using the Ctrl + Scroll wheel, Click + Drag, and Shift + Click + Drag. The text is black on a white background.
+- **SQL Queries Section**: Divided into two parts: "Making SQL queries from the viewer page" and "Making SQL queries from the query page." Each part has specific keyboard shortcuts for executing queries and pinning outputs. The text is black on a white background.
+- **Other Section**: At the bottom, contains additional keyboard shortcuts for various functions such as scrolling, selecting slices, switching focus, marking areas, selecting all, toggling the sidebar, and showing help. The text is black on a white background.
+
+### Visual Flow / Relationships
+The content is organized in a vertical list format, with each section clearly delineated. The most prominent elements are the headings ("Navigation," "Dvorak Navigation," "Mouse Controls," etc.), which are larger and bolder than the rest of the text. There are no arrows or lines connecting elements, so the flow is linear, moving from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 ## Examining the main thread
 
@@ -59,7 +186,34 @@ You can zoom into the thread to see the different calls being made on the main t
 
 If you use your left mouse button to drag across a frame in the main thread, you can get more information from the **Area Selection** dialog at the bottom of the screen. If you select **Slices**, you can see the frame time under “Wall duration (ms)”. You can scroll down for a list of all the calls made during the selected time. The next column, “Avg Wall duration (ms)” will show you the average frame time across the whole trace. A trace taken with the Deep setting will give more inflated CPU times (around 5%) but you will have access to more detailed markers. A trace taken with the Overview setting will have more accurate CPU times but fewer markers will be captured. Here is an example selection:
 
-![Selecting a frame to view the slice durations](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488666923_688281960376425_3834413545093838867_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Zpnn5fKBpaAQ7kNvwE-OPZq&_nc_oc=AdkUSxkMfFDhh9w9UngRYiBbCcbT2GaQt2NUA38xxmm0Zm_b4ai66Hua5DrPdfiUO6k74bHdVSyY4EzzmxOFnhKd&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=5Fa2UeBNhh7kE6qjdHyOzw&oh=00_AfkwDeuWlI-sdmNzGEFfALWAQAmt5F6jcyZdWfWXRk_2OA&oe=69557883)
+<details>
+<summary>Selecting a frame to view the slice durations</summary>
+
+<p></p>
+
+[Selecting a frame to view the slice durations](../../image_data/7bf2c467fa0c0e45d12fc75cffad208006c96c8a4a576a5d70a84cd964b62354.md)
+
+### Overview
+The image depicts a user interface of a profiling tool named Perfetto, specifically showing a timeline view of a trace file. The interface includes a timeline at the top, a list of processes and threads in the middle, and a table of performance metrics at the bottom. The timeline highlights specific events and their durations, while the table provides detailed statistics for each event.
+
+### Key Elements
+- **Navigation Panel**: Located on the left side, contains options such as "Open trace file," "Record new trace," "Show timeline," "Download," "Query (SQL)," "Viz," "Info and stats," "Convert trace," "Example Traces," "Support," and "Plugins." The panel has a dark theme with white text.
+- **Current Trace**: Displays the name of the current trace file ("thinkpad-web-deep-3.ptrace") and its size (8 MB).
+- **Timeline**: At the top, spans horizontally across the screen, showing a timeline with time markers ranging from 00:00:00 to 00:00:08. Events are represented as colored bars indicating their duration and occurrence.
+- **Process List**: Below the timeline, a list of processes and threads is displayed. The highlighted process is labeled "Process 156."
+- **Thread List**: Underneath the process list, a list of threads is shown, with Thread 160 being highlighted.
+- **Performance Table**: At the bottom, a table titled "Area Selection" lists various events along with their wall duration, average wall duration, and occurrences. Examples include "Frame," "PlayerLoop.Frame," and "UpdateRunner.Update."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The timeline at the top is the most prominent due to its large size and central placement.
+- **Arrows and Lines**: There are no arrows or lines connecting elements, but the timeline suggests a sequential flow of events.
+- **Spatial Relationships**: Elements are arranged in a grid-like structure, with the navigation panel on the left, the timeline at the top, and the performance table at the bottom. Threads and processes are listed vertically under the timeline.
+
+</details>
+
+<p></p>
+
+
 
 When you zoom into a single frame on the thread, you can get a better understanding of how the time is being spent. For example, while the `PlayerLoop::Update` call seems very large, it is made up of a lot of calls that vary in size. Even if a single marker is large, that may not be an area of concern. For example, it is normal for `HorizonAvatarManagerUpdateRunner::Update` to take 1.5ms.
 

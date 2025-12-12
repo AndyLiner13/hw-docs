@@ -72,15 +72,158 @@ You can learn about the workflow involved in creating a world with sublevels by 
 ### Create sublevel worlds.
 
 - In the Horizon Desktop Editor, create two new worlds called Sublevel1 and Sublevel2. Under **Choose how you’ll create**, select **Custom model imports**.
-  ![Image shows the world creation window with the 'custom model imports' option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462507050_563224309548858_7735022226235344296_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Qb5bwt5bPRQQ7kNvwGzY7yU&_nc_oc=AdkiGdzrk4z9nk5Xu6Bwin2ATaa8DFClOCXUEyjrfXTDWe3XeSunhYBwriKePTB3h5uNft9vtXmhL1JLkWg3LT4d&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AfkqX-oMHMbGaIMT-DOtFg_olYmPX4Fxxl4Qolls-z3qtA&oe=695580C2)
+  <details>
+  <summary>Image shows the world creation window with the 'custom model imports' option selected.</summary>
+  
+  <p></p>
+  
+  [Image shows the world creation window with the 'custom model imports' option selected.](../../image_data/b977f703c6d47e13b22913afaed55bcc33f345e5ee1e046eb9ed06a18173aae5.md)
+  
+  ### Overview
+  This image depicts a user interface dialog box titled "Create a World." It contains options for creating a world within a software application, specifically for importing assets into a 3D environment called Horizon Worlds.
+  
+  ### Key Elements
+  - **Title Bar**: Located at the top, the title bar displays the text "Create a World" with a close button ("X") on the right side.
+  - **Name Input Field**: Positioned below the title bar, it has a placeholder text "Blank World" indicating the current name of the world being created.
+  - **Instructional Text**: Below the name field, there is a section explaining how to choose the method of creation. The text reads: "Choose how you'll create. Primitive assets: Use shapes, templates and a library of assets in Horizon Worlds. If you've created in Horizon before, you've used this method. Custom model import: Import all your worlds' assets from your favorite 3D creation tool. You won't be able to use assets previously created in Horizon Worlds."
+  - **Radio Buttons**: Two radio buttons are present under the instructional text. One is labeled "Use shapes, templates and a library of assets in Horizon Worlds," and the other is labeled "Import all your worlds' assets from your favorite 3D creation tool." The second option is selected, as indicated by the blue dot next to it.
+  - **Buttons**: At the bottom of the dialog box, there are two buttons: "Cancel" and "Create World." The "Create World" button is highlighted in blue, suggesting it is the primary action button.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the "Create World" button, which is located at the bottom right. The radio buttons are arranged vertically beneath the instructional text, with the selected option highlighted. The name input field is positioned above the instructional text, and the "Cancel" button is placed to the left of the "Create World" button.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Place several pieces of recognizable geometry inside each world. For example, you could use green objects in Sublevel1, and red objects in Sublevel2.
-  ![Image shows an example of two worlds, one with green furniture and one with red furniture.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462629009_563224286215527_7331852403028520582_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=wKMZU_4fOTkQ7kNvwHbt0Tt&_nc_oc=AdkR1uQlOpKhfEtAHw0AA7ziJ1LKq88nHk59wtxMUj78hJjyQ4bf-Jm_1q5ggUnlBtNMjizneCDtl_pK8NIUWYbI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AfmrvHN4s1Xs8r9bkPCtRFdF6FhSPvHvs2_o5JA54YtS0Q&oe=695580A7)
+  <details>
+  <summary>Image shows an example of two worlds, one with green furniture and one with red furniture.</summary>
+  
+  <p></p>
+  
+  [Image shows an example of two worlds, one with green furniture and one with red furniture.](../../image_data/9bc62519053063cf7b51b7c06d53b3ce20685e00ebd15ae9315d0534bea76125.md)
+  
+  ### Overview
+  This image displays two side-by-side panels, each containing a 3D model and a title indicating the level name and edit timestamp.
+  
+  ### Key Elements
+  1. **Left Panel**
+     - **Visual description**: A green 3D model resembling a box or container.
+     - **Location**: Left side of the image.
+     - **Contents**: The model is centered within a grid background.
+     - **Visual styling**: The model has a solid green color with sharp edges and no additional textures or highlights.
+     
+  2. **Right Panel**
+     - **Visual description**: A red 3D model resembling a shelf or stand.
+     - **Location**: Right side of the image.
+     - **Contents**: The model is also centered within a grid background.
+     - **Visual styling**: The model has a solid red color with sharp edges and no additional textures or highlights.
+  
+  3. **Title and Timestamp**
+     - **Left Panel**: Title reads "Sublevel 2" and timestamp says "Edited 2 hours ago."
+     - **Right Panel**: Title reads "Sublevel 1" and timestamp says "Edited 2 hours ago."
+  
+  4. **Panel Border**
+     - **Visual description**: Each panel has a dark blue border.
+     - **Location**: Surrounding the content of each panel.
+     - **Contents**: Contains the title and timestamp information.
+     - **Visual styling**: The border is solid and matches the color of the panel's background.
+  
+  5. **Three-Dots Icon**
+     - **Visual description**: A small three-dot icon located at the bottom right of each panel.
+     - **Location**: Bottom right corner of each panel.
+     - **Contents**: Likely indicates more options or settings related to the panel.
+     - **Visual styling**: Small, white, and circular.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Visually**: The 3D models are the most prominent elements due to their size and distinct colors.
+  - **Arrows/Connectors**: There are no arrows or connectors between the panels.
+  - **Spatial Relationships**: The panels are arranged side by side, with the left panel showing a green model and the right panel showing a red model. Both panels share the same layout and design elements.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - In each world, create a new sublevel entity.
-  ![Image shows a dropdown menu with the 'Sublevel' option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462369543_563224319548857_5410471249327829752_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=lw4rpxMEXokQ7kNvwF-wfFQ&_nc_oc=AdlbHY8I16FAkZukLD3mOfdwCyQo1gr99f1GwPTKmJq9ky6njcBYCG2B7Kcm5UQ5tnC3cMvLL-AQ28YTt7JFoAEt&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AfkwGz_h6ozuZL2aUgJ9H004OZi1ufYg2HKalHYNxF7fng&oe=69558296)
+  <details>
+  <summary>Image shows a dropdown menu with the 'Sublevel' option selected.</summary>
+  
+  <p></p>
+  
+  [Image shows a dropdown menu with the 'Sublevel' option selected.](../../image_data/d1b2a42387113f7ff1d582640a7fddaa0735b94c3f91b0f67e0ccba353905f61.md)
+  
+  ### Overview
+  This image depicts a dropdown menu interface, likely from a software application, showing a list of options under a header labeled "Shapes." The menu items are arranged vertically, with some items partially obscured by the dropdown arrow.
+  
+  ### Key Elements
+  - **Dropdown Header**: "Shapes"
+    - **Location**: Top of the dropdown menu
+    - **Contents**: "Shapes"
+    - **Visual styling**: Dark gray text on a black background
+  - **Menu Items**
+    - **Gizmos**: Located below "Shapes"
+      - **Location**: Second item in the list
+      - **Contents**: "Gizmos"
+      - **Visual styling**: Dark gray text on a black background
+    - **Sounds**: Located below "Gizmos"
+      - **Location**: Third item in the list
+      - **Contents**: "Sounds"
+      - **Visual styling**: Dark gray text on a black background
+    - **Colliders**: Located below "Sounds"
+      - **Location**: Fourth item in the list
+      - **Contents**: "Colliders"
+      - **Visual styling**: Dark gray text on a black background
+    - **Empty Object**: Located below "Colliders"
+      - **Location**: Fifth item in the list
+      - **Contents**: "Empty Object"
+      - **Visual styling**: Dark gray text on a black background
+    - **Sublevel**: Located below "Empty Object"
+      - **Location**: Sixth item in the list
+      - **Contents**: "Sublevel"
+      - **Visual styling**: Dark gray text on a black background
+  - **Launch Button**: "Launch My Horizon Creations..."
+    - **Location**: Bottom of the dropdown menu
+    - **Contents**: "Launch My Horizon Creations..."
+    - **Visual styling**: Dark gray text on a black background
+  
+  ### Visual Flow / Relationships
+  The dropdown menu is organized in a vertical list, with each item clearly separated by a thin horizontal line. The items are aligned to the left, and the dropdown arrow is positioned at the top-left corner of the dropdown area. The "Launch My Horizon Creations..." button is the last item in the list, indicating it might be a secondary action or a call-to-action.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Set the type of the sublevels to **Exclude**, and rename it to “Testing Only”.
 
   This informs the world that any entities that are children to this sublevel should be ignored when loading it into the parent world. Note that they still exist when you load the sublevel world directly. This allows you to add content that you can use to test sublevels in isolation, without worrying about it being included in the integrated version.
-  ![Image shows a Properties menu with the type set to Exclude.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/462454490_563224282882194_1061395988203076613_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Z3vQwvNrKPMQ7kNvwEbNkQg&_nc_oc=AdlixJCDX9Vo4Mr3nY58r0CWVaWpc7zeYcYGdagmh1UVRjnRIO_pu5AglPvXKWVMzQt5rhLw-NwBCPHkRz0U5_fo&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AflWBQtXZq0rmiTyLHZS0wLe-az_bn4TepAlbTwr0e1zRQ&oe=69557CD6)
+  <details>
+  <summary>Image shows a Properties menu with the type set to Exclude.</summary>
+  
+  <p></p>
+  
+  [Image shows a Properties menu with the type set to Exclude.](../../image_data/7df5732e5dc872fa0f1c3b31cbdad04f29c9458a2db8e98a49a87b8db16f3123.md)
+  
+  ### Overview
+  This image depicts a user interface element showing settings for a sublevel within a larger configuration interface. The layout includes a header, a dropdown menu, and a toggle switch.
+  
+  ### Key Elements
+  - **Header**: Located at the top, labeled "Properties". Contains a small icon resembling a user profile and a text field with placeholder text "Testing Only".
+  - **Sublevel Settings Section**: Below the header, with a collapsed arrow indicating expandable content.
+  - **Sublevel Type Dropdown**: Positioned next to "Sublevel Type", offering options "Deeplink" and "Exclude".
+  - **Toggle Switch**: A switch labeled "Exclude" with a downward-facing arrow, indicating a dropdown menu is available when interacted with.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the "Exclude" toggle switch, as it is the focal point due to its placement and the downward arrow suggesting interactivity. The dropdown menu is nested under the "Sublevel Type" label, and the header provides contextual information about the settings being displayed.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Drag the default spawn point under this new sublevel entity in the hierarchy so it won’t be included when you load this sublevel into the parent world.
 - Publish both worlds, and be sure to turn off the setting **Visible to the public**.
 
@@ -88,32 +231,166 @@ You can learn about the workflow involved in creating a world with sublevels by 
 
 * Create a new world called “Overworld”. Under **Choose how you’ll create**, select **Custom model imports**.
 
-![Image shows the 'Create a World' window with the 'Custom Model Import' option selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462492910_563224332882189_5157749398908009325_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=9I4JC6geOtgQ7kNvwHri6WS&_nc_oc=AdkUr7j1PK5pN8BA68vnn1GbV_HVrMX35g0GTD-iibSebS2kt9oA5jX2aXAtYE7Ily71Y7KIfDgLsdoy1dQk6mcT&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_Afkve7gjWgCLXjdWueqAimnhDK9-psku1ed2kjQzJSX6jA&oe=69557AE2)
+<details>
+<summary>Image shows the 'Create a World' window with the 'Custom Model Import' option selected.</summary>
+
+<p></p>
+
+[Image shows the 'Create a World' window with the 'Custom Model Import' option selected.](../../image_data/b977f703c6d47e13b22913afaed55bcc33f345e5ee1e046eb9ed06a18173aae5.md)
+
+### Overview
+This image depicts a user interface dialog box titled "Create a World." It contains options for creating a world within a software application, specifically for importing assets into a 3D environment called Horizon Worlds.
+
+### Key Elements
+- **Title Bar**: Located at the top, the title bar displays the text "Create a World" with a close button ("X") on the right side.
+- **Name Input Field**: Positioned below the title bar, it has a placeholder text "Blank World" indicating the current name of the world being created.
+- **Instructional Text**: Below the name field, there is a section explaining how to choose the method of creation. The text reads: "Choose how you'll create. Primitive assets: Use shapes, templates and a library of assets in Horizon Worlds. If you've created in Horizon before, you've used this method. Custom model import: Import all your worlds' assets from your favorite 3D creation tool. You won't be able to use assets previously created in Horizon Worlds."
+- **Radio Buttons**: Two radio buttons are present under the instructional text. One is labeled "Use shapes, templates and a library of assets in Horizon Worlds," and the other is labeled "Import all your worlds' assets from your favorite 3D creation tool." The second option is selected, as indicated by the blue dot next to it.
+- **Buttons**: At the bottom of the dialog box, there are two buttons: "Cancel" and "Create World." The "Create World" button is highlighted in blue, suggesting it is the primary action button.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Create World" button, which is located at the bottom right. The radio buttons are arranged vertically beneath the instructional text, with the selected option highlighted. The name input field is positioned above the instructional text, and the "Cancel" button is placed to the left of the "Create World" button.
+
+</details>
+
+<p></p>
+
+
 
 ### Add the sublevels.
 
 * Using the drop-down list, add the two sublevel worlds to the overworld.
 
-![Image shows a drop-down menu with the 'Sublevel' option selected.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462463696_563224326215523_8369992740494252695_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ffu8Xgx8X-0Q7kNvwH4we9Y&_nc_oc=AdlixBjljYlKPq2x09IwqHfZHSDDNEJhulneSOsC-aJAKqQLpFiLNjnX0Px5r8LBXi-5y-buxKLPecWT-Kn72fsv&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_Afl5cylYShoWNBTuLXQrrgCDiQH7IlvWPdaFjj4umLHFSA&oe=69557827)
+<details>
+<summary>Image shows a drop-down menu with the 'Sublevel' option selected.</summary>
+
+<p></p>
+
+[Image shows a drop-down menu with the 'Sublevel' option selected.](../../image_data/94d8a11be9c48e09d60b9e7321da709fa1b19769b4a6450399c93c407a7eead6.md)
+
+### Overview
+This image depicts a dropdown menu within a user interface, likely from a game development tool or similar software. The menu is open, revealing several options related to object creation and management.
+
+### Key Elements
+- **Dropdown Menu**: A rectangular dropdown menu with a dark background and light text, located in the upper right area of the interface.
+  - **Visual description**: The menu has a dark gray background with white text.
+  - **Location**: Positioned above and to the right of the "Hierarchy" panel.
+  - **Contents**: Contains the following items:
+    - Shapes
+    - Gizmos
+    - Sounds
+    - Colliders
+    - Empty Object
+    - Sublevel
+    - Launch My Horizon Creations...
+  - **Visual styling**: The menu has a simple, clean design with no additional borders or highlights.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The open dropdown menu is the focal point of the image.
+- **Arrows, lines, connectors**: There are no arrows or lines connecting elements.
+- **Spatial relationships**: The menu is stacked vertically beneath the "Hierarchy" panel, with the "Sublevel" option highlighted, indicating it is currently selected.
+
+</details>
+
+<p></p>
+
+
 
 ### Link the sublevels.
 
 * Select a sublevel object from the hierarchy.
 * In the property panel, ensure that the **Sublevel Type** is set to Deeplink.
 
-![Image shows the 'Properties' menu with the 'Sublevel Type' set to Deeplink.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462466842_563224302882192_512977330414403837_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=QnJ3wPSYOcwQ7kNvwGc7qQF&_nc_oc=Adme_eiU02IItSJnbAsBLe3kT0jBMm55Iq7gA3uAjVy402ZVTOw2K-syCUlXnzFCitIaj2qd-gIxKq2A-oWZYWz4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AfnlIYS9j0dZj-iB0aQAXZsUWZgpsYCfCSGXBuG0dix54w&oe=69557A60)
+<details>
+<summary>Image shows the 'Properties' menu with the 'Sublevel Type' set to Deeplink.</summary>
+
+<p></p>
+
+[Image shows the 'Properties' menu with the 'Sublevel Type' set to Deeplink.](../../image_data/a031d0801fc5a8200ea2d2d281f3a95be62725c7e08d762d31739389803074a3.md)
+
+### Overview
+This image depicts a user interface element showing settings for a sublevel within a larger interface. The layout includes a header, a settings section, and a preview area.
+
+### Key Elements
+- **Header**: Located at the top, it displays the title "Properties" and a subtitle "[Sublevel]" with a small icon resembling a lock and key.
+- **Sublevel Settings Section**: Below the header, this section has a header labeled "Sublevel Settings" with a downward-facing arrow indicating a dropdown or expandable menu.
+- **Sublevel Type**: A label followed by a dropdown menu set to "Deeplink".
+- **Sublevel Initial State**: Another label followed by a dropdown menu set to "Loaded".
+- **Preview Area**: A large rectangular area below the settings section displaying a gradient background transitioning from blue to purple, with a white circular icon resembling a chain or links.
+- **World Id**: At the bottom, there is a label "World Id" next to a field containing the number "0".
+
+### Visual Flow / Relationships
+The most prominent visual element is the preview area due to its size and central placement. The settings section is secondary but important as it contains interactive elements. The preview area is below the settings section, suggesting that the settings influence the preview content.
+
+</details>
+
+<p></p>
+
+
 
 * Click on the thumbnail square.
 * Select one of the sublevels from the world picker dialog box.
 
-![Image shows an example window where sublevels may be chosen.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462531591_563224366215519_3816575801335575806_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xf4NeyOwNdwQ7kNvwFBsD7M&_nc_oc=AdmNZTtVT8It3GAIv_aVlDT_sXKtybGt-5ZqFeXHyq15yxf1hPM7B2mVs27BtPfLNNcuLtG6n1yNCWlrvapIiDQG&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AfmIFojGMsHD_wgI2niBytUPJY9eXZWExoOJPNb81edpnw&oe=69559F73)
+<details>
+<summary>Image shows an example window where sublevels may be chosen.</summary>
+
+<p></p>
+
+[Image shows an example window where sublevels may be chosen.](../../image_data/1f10017712f77d5c5c65f88b48b880bdb3f21a8cc734daa4f74d7487f93cc819.md)
+
+### Overview
+This image depicts a user interface for selecting a world deeplink within a game or application. The interface includes a search bar at the top, a list of worlds with their names, owners, and dates added, and a header indicating the purpose of the screen.
+
+### Key Elements
+- **Header**: "Select World Deeplink" located at the top-left corner.
+- **Search Bar**: Positioned at the top-right, with a magnifying glass icon indicating its function as a search tool.
+- **My Worlds Section**: A tab labeled "My Worlds" with a blue underline, suggesting it is currently active.
+- **World List**: Below the header, a table-like structure displays four rows of world information:
+  - **World Name**: "Sublevel 2," "Sublevel 1," "SUBLEVEL TEST 2...," and "Mysterious Jungle."
+  - **Owner**: All entries show "doctorbron" as the owner.
+  - **Date Added**: Dates range from February 7, 2024, to September 18, 2023.
+
+### Visual Flow / Relationships
+The most prominent visual element is the list of worlds, which is arranged in a grid-like structure. There are no arrows or lines connecting elements, but the layout implies a sequential reading order from top to bottom and left to right. The search bar is positioned above the world list, suggesting it should be used before interacting with the list.
+
+</details>
+
+<p></p>
+
+
 
 ### Position the sublevels.
 
 * Select a sublevel in the scene hierarchy.
 * Using the transform handles, position the sublevel so you can easily see it turn on and off.
 
-![Image shows a sublevel being placed into a scene.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462395401_563224316215524_2125350969875732958_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=IFrXUepQYCYQ7kNvwHVhMsH&_nc_oc=AdnVcHrutaMHI9NvT9UZH7sT-1I-1xurMMOcVRled1cg66yaqhgL9wA8VRXJ4yY7gsz41hYubicsIlbGRJ5iVbfT&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AflZdg4Ag9j3onAzPdECpmX6pPs83Sj9jzTOj6CPNMAdpQ&oe=6955A345)
+<details>
+<summary>Image shows a sublevel being placed into a scene.</summary>
+
+<p></p>
+
+[Image shows a sublevel being placed into a scene.](../../image_data/ad3810466f27a07343ba83a6fb3d6f3868534ca34e72736a908835e7c4e944a9.md)
+
+### Overview
+The image depicts a 3D modeling environment within a software interface, likely a game development tool. The central focus is on two geometric shapes, one green and one red, which appear to be part of a larger structure. The interface includes panels for navigation, properties, and asset management.
+
+### Key Elements
+- **Central 3D Scene**: Two geometric shapes are prominently displayed. The green shape has a rectangular base with a smaller rectangular extension, while the red shape is a cube with a smaller rectangular cutout on its side.
+- **Grid Background**: A light gray grid serves as the backdrop for the 3D scene, indicating a workspace for modeling.
+- **Navigation Panel**: Located on the left, it contains a tree-like structure labeled "Hierarchy," showing nodes such as "[Sublevel]" and "[Spawn Point]."
+- **Properties Panel**: On the right, it displays settings for the currently selected object, labeled "[Sublevel]." It includes fields for Sublevel Type, Sublevel Initial State, World ID, Position, Rotation, Scale, and Script.
+- **Toolbars**: At the top, various icons and options are visible, suggesting functions like play, pause, and publish.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The two geometric shapes in the center.
+- **Arrows and Lines**: No arrows or lines are present in the image.
+- **Spatial Relationships**: The green shape is positioned above and slightly behind the red shape, creating a layered effect. The grid provides a sense of depth and perspective.
+
+</details>
+
+<p></p>
+
+
 
 * Repeat the preceding two steps for the other sublevel.
 
@@ -127,7 +404,41 @@ You can learn about the workflow involved in creating a world with sublevels by 
 
 As you change the states, you’ll see the sublevel load and become active, and unload.
 
-![Image shows the properties menu with the 'Sublevel Initial State' field highlighted.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462525127_563224322882190_3387601690689725349_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=kO585W-Mg7EQ7kNvwGfSBmi&_nc_oc=AdkaPAEuviBPldNtqDavpMVSyc78B125y1FUaDwt__kg6eB-uzJ5USDXOL2995bpWoSZ-drrWQGqjx2OT0OP3go5&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AfkHSz-_HyiqcANrNCuZwpif5ErnAYAl14HPerHP01Vlvw&oe=695586FF)
+<details>
+<summary>Image shows the properties menu with the 'Sublevel Initial State' field highlighted.</summary>
+
+<p></p>
+
+[Image shows the properties menu with the 'Sublevel Initial State' field highlighted.](../../image_data/b9dd70bf17b9342e21e048963ebf7872cb6532d5e41c9c9596e7c0f1fc0fcb0e.md)
+
+### Overview
+This image depicts a user interface element within a software application, specifically a settings panel for configuring a sublevel in a game development environment. The interface includes dropdown menus, text fields, and a selection of attributes related to the sublevel.
+
+### Key Elements
+- **Sublevel Settings Section**: Located at the top of the interface.
+  - **Sublevel Type**: A dropdown menu labeled "Deeplink" indicating the type of sublevel.
+  - **Sublevel Initial State**: Another dropdown menu labeled "Active," which is currently selected.
+  - **Unloaded**: A menu option listed but not selected.
+  - **Loaded**: A menu option listed but not selected.
+  - **Active**: A menu option highlighted in blue, indicating it is the current selection.
+
+- **Attributes Section**: Below the Sublevel Settings.
+  - **World ID**: Displays a numerical identifier "10163264775" with a copy icon next to it.
+  - **Position**: Contains three text fields labeled X, Y, Z with values "0", "0", "-2.37" respectively.
+  - **Rotation**: Contains three text fields labeled X, Y, Z with values "0", "0", "0" respectively.
+  - **Scale**: Contains three text fields labeled X, Y, Z with values "1", "1", "1" respectively.
+
+- **Script Section**: At the bottom of the interface.
+  - **Attached Script**: Displays "None" with a dropdown arrow indicating no script is attached.
+
+### Visual Flow / Relationships
+The interface follows a vertical layout with clear sections for different settings. The Sublevel Settings section is the most prominent due to its larger size and the active selection of the "Active" option. The Attributes section is secondary, providing specific parameters for the sublevel. The Script section is the least prominent, placed at the very bottom.
+
+</details>
+
+<p></p>
+
+
 
 ## Programmatically spawn and despawn the sublevels
 
@@ -154,11 +465,86 @@ You can find the SublevelEntity class API in the [v2.0.0 world\_streaming packag
 Follow these steps to configure the Desktop Editor for running the example script.
 
 - In the Desktop Editor, click the Scripts panel dropdown.
-  ![Image shows the icon for the dropdown menu.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462463689_563224329548856_8861115945399082503_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=lOKCBIvgWHMQ7kNvwE6AJyr&_nc_oc=AdnooI_9fHDQobhQaG2XTh5jJfRb-JgeUWjR6dmRtHCKLly0ox8L-MUQ2bxolHfoshFrVLf5rMXKgZziF6FGDYR8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AfmU4ujamNp8_jyowAp34qFBVanKPBFeND6XTrqlR4dQXA&oe=695588F9)
+  <details>
+  <summary>Image shows the icon for the dropdown menu.</summary>
+  
+  <p></p>
+  
+  [Image shows the icon for the dropdown menu.](../../image_data/30c4136990ef7abe790143961bbb9e069dd490d1334afe102e4cdcc46615c586.md)
+  
+  ### Overview
+  This image depicts a simple interface element consisting of a blue rectangular button with a white code snippet icon on the left side and a downward-pointing arrow on the right side.
+  
+  ### Key Elements
+  - **Visual description**: The button has a rounded rectangle shape with a solid blue fill.
+  - **Location**: The button occupies the entire frame.
+  - **Contents**: 
+    - On the left side, there is a white code snippet icon represented as `<code></code>`.
+    - On the right side, there is a white downward-pointing arrow.
+  - **Visual styling**: The button has a uniform blue color with no gradients or additional shading. There are no borders or shadows around the button.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the blue button itself. The code snippet icon and the downward arrow are secondary elements placed within the button. There are no arrows or lines connecting these elements, suggesting that they are part of a single interactive element rather than separate components.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - When the Scripts panel appears, select the **Settings** icon.
-  ![Image shows a close-up of the settings icon.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/462596018_563224369548852_1254548336609362418_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=k5tHhO1XF1oQ7kNvwEoNIp1&_nc_oc=AdlK1fP67y5pYYVKuEWQNhJDcVFKxm935C18gpS97D-RykuObaCIGLbUzv0wOAI98PrX-DlHKLsYepzciJ53qzCn&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_AflOTzU8AGzfXcibApokPxLQ4f5uPxfbH9PHwRgSAX8uUw&oe=695581D8)
+  <details>
+  <summary>Image shows a close-up of the settings icon.</summary>
+  
+  <p></p>
+  
+  [Image shows a close-up of the settings icon.](../../image_data/f7d7dfd39b1f8dd8b33be5e803102036a47eca02ce4cecb52afc02a2e1557c67.md)
+  
+  ### Overview
+  This image depicts a user interface element from a software application, specifically a settings or configuration panel related to scripts. The layout includes a search bar, a plus sign for adding new items, a settings gear icon, and a menu icon.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top-left, it has a magnifying glass icon and a placeholder text "> Search for scripts".
+  - **Plus Sign**: Positioned next to the search bar, indicating the option to add new scripts.
+  - **Settings Gear Icon**: Situated to the right of the plus sign, representing the settings for scripts.
+  - **Menu Icon**: A vertical ellipsis icon located to the far right, likely for additional options or a dropdown menu.
+  - **Settings Button**: A black button labeled "Settings" at the bottom-right, suggesting access to more detailed settings.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the search bar, as it is the largest and most central. The settings gear icon is secondary but still important, as it suggests configuration options. The menu icon is less prominent but still noticeable due to its distinct shape. The settings button at the bottom-right acts as a call-to-action for accessing detailed settings.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Enable the **horizon/world\_streaming** module.
-  ![Image shows the script settings menu with the 'horizon/world streaming' option enabled.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/462429142_563224362882186_9097024643678864104_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ih1H0jn0ztUQ7kNvwFpHaPu&_nc_oc=AdlTckcu8C9qhdm8vf7gOtYwfDxtQo9QjsElaCOczHnczgXxfs-TEHxKbu6BBdZHVjkd4MSI2qoGKsI5q33KyUAo&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GpUaxA3OKMprpNRBFdh_2g&oh=00_Afmp2spKjkUmzGrGNQAZ6JvkYEcRiUdpDCOPPn2wQCKybA&oe=695596AA)
+  <details>
+  <summary>Image shows the script settings menu with the 'horizon/world streaming' option enabled.</summary>
+  
+  <p></p>
+  
+  [Image shows the script settings menu with the 'horizon/world streaming' option enabled.](../../image_data/fbba3e22b57130d35f87523e8c780cf1875fbbb51e1ec19eb61dbcf1b8788193.md)
+  
+  ### Overview
+  This image depicts a settings dialog box titled "Script Settings." It contains a list of API versions with toggle switches next to them, along with buttons at the bottom for canceling or applying changes.
+  
+  ### Key Elements
+  - **API Version Label**: Located at the top left, reads "API Version."
+  - **Version Selection Box**: Positioned to the right of the API Version label, showing "2.0.0" with a downward arrow indicating a dropdown menu.
+  - **Toggle Switches**: A series of toggle switches listed vertically under the "horizon/experimental" label. Each switch has a white square with a small white circle on the left side, indicating the current state.
+  - **List Items**: The items listed include "horizon/experimental," "horizon/testing," "horizon/2p," "horizon/navmesh," "horizon/test_bridge," "horizon/ui," "horizon/camera," and "horizon/world_streaming."
+  - **Apply Button**: A blue rectangular button labeled "Apply" located at the bottom right.
+  - **Cancel Button**: A gray rectangular button labeled "Cancel" located at the bottom left.
+  - **Close Button**: A small "X" icon located at the top right corner of the dialog box.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the list of API versions with toggle switches. The Apply and Cancel buttons are positioned at the bottom, with the Apply button being more prominent due to its blue color compared to the gray Cancel button. The toggle switches are arranged vertically under each API version label, and the API version selection box is to the right of the label.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 **Note** : You must have at least one script to enable a module.
 

@@ -16,7 +16,31 @@ You can choose to make your world accessible to only Meta Quest players by follo
 - When creating your world, open the three-dot menu and select **Publish World**.
 - From the menu, click the toggle next to **Available Through** and select **VR only**.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/496297289_715823317622289_2031894491323375951_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=YJF4I8AsXSgQ7kNvwER_iLy&_nc_oc=Adlk4KNPuNNiDS8Q7jRrztElDEiMErnfZyHlhKEXZU2Ib9yudzRD77kHaOZ-uo2grDDAyahTaxP7cHW19Jw3WrQy&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=OC1xQz83FFi8IpbB17-Fzw&oh=00_Afl0QCYw1WK8MkgfRsCBmZO2HREjDY2L_g0m2Fe4imga3Q&oe=6955A0A8)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/5228d4c8c4a920e3b7b3bb20fa8e73882caedb859e14599fd434b79295eb4c93.md)
+
+### Overview
+This image depicts a settings interface for configuring how a virtual world can be accessed. It includes options for visibility, membership restrictions, beta status, and device availability.
+
+### Key Elements
+- **Visible to Public**: A toggle switch located at the top right, indicating whether the world can be found in searches or featured.
+- **Members-Only World**: A toggle switch below the first one, explaining that only members can access the world and emphasizing that this setting is irreversible.
+- **Beta World**: Another toggle switch further down, allowing users to mark the world as still in development.
+- **Available Through**: A label in the lower left corner specifying the devices through which the world will be available.
+- **Device Options**: A dropdown menu on the right side offering choices for device availability: "All (Mobile, Web, VR)", "VR only", and "Mobile and web only".
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Available Through" label, which draws attention to the dropdown menu below it. The dropdown menu is the focal point for selecting device availability options.
+
+</details>
+
+<p></p>
+
+
 
 Changing this option affects your published version immediately. You can change this option at any time.
 
@@ -27,7 +51,32 @@ If you have tested your world and are happy with how it plays on web and mobile 
 - When creating your world, open the three-dot menu and select **Publish World**.
 - Navigate to the **Optimized for Web and Mobile** section and toggle it on.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/495722110_715823370955617_7050137306372778481_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=nqJeX2DCuxwQ7kNvwEV0_b5&_nc_oc=AdkPPt78tEEaN8ugExU_DQyJcUTh03XIRXbgvQ9cb9CkunQckXip3HWKJCAbGFZca1Kwq_zR-OlTgvrFfmvq66bM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OC1xQz83FFi8IpbB17-Fzw&oh=00_AfkOUC62kUd4xVboLGVbJfGdNlelqLzJkhF3TyuTQ1ukZg&oe=69557D76)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/c37a8411832d018a3fad96e89de9754ccffb8b7eaeb4e9e5b01cd844a98c53a5.md)
+
+### Overview
+This image depicts a settings interface with toggle switches and descriptive text related to world visibility and optimization options. The layout is structured vertically with labels and corresponding toggle switches on the right side.
+
+### Key Elements
+- **Visible to Public**: A toggle switch located at the top right, currently off.
+- **Members-Only World**: A toggle switch below the first option, also off.
+- **Beta World**: A toggle switch further down, off as well.
+- **Available Through**: A dropdown menu indicating "All (Mobile, Web, VR)".
+- **Optimized for Web and Mobile**: A toggle switch at the bottom right, turned on.
+- **Description Box**: A yellow-highlighted box explaining the "Optimized for Web and Mobile" setting.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Optimized for Web and Mobile" toggle switch, which is highlighted. The toggles are arranged vertically, with the description box providing additional information about the selected setting.
+
+</details>
+
+<p></p>
+
+
 
 Changing this option affects your published version immediately. You can change this option at any time.
 

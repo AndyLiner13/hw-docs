@@ -108,21 +108,206 @@ Component.register(SimpleSpawn);
 
 You can also use CodeBlocks with a Trigger gizmo to trigger the asset spawning script:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452578226_512510381286918_2130091807967526852_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=1-y2X82sQ8UQ7kNvwGpbWop&_nc_oc=Adneu5v80kK3GziR8E-ntGJECSTI2ussUBG9gWuj2y3BFHGJ3tQzZPxWWOLYEkBi-j7TpDju8bLZU3dJQuFlh9-X&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fXNV2M8ZR_pQzyG_Nwl5GQ&oh=00_AflJExggptHT6x2Lm5Gvt7ga8VcKVJ4Sh0jGvLvZCPGv7A&oe=695583FC)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/68c392c5c267d13f60682f3bb47105be3cf55b3da4a2c5ba0ab53bdc40ed1f6c.md)
+
+### Overview
+The image displays a user interface (UI) for a game development tool, specifically a visual scripting environment. The UI is divided into two main sections: a larger central area showing a script flowchart and a smaller right-side panel with control structures and event handling options.
+
+### Key Elements
+- **Central Script Flowchart**:
+  - **Visual description**: A dark rectangular area with a grid-like background, resembling a workspace for visual scripting.
+  - **Location**: Center-left of the image.
+  - **Contents**: Contains a series of nodes connected by lines, representing a sequence of events and actions.
+    > "when world is started"
+    > "when trigger is entered by player"
+    > "send SpawnEvent to SpawnCTRL with New Param"
+    > "when trigger is exited by player"
+    > "send DespawnEvent to SpawnCTRL with New Param"
+  - **Visual styling**: Dark background with light blue highlights around nodes, white text, and purple connecting lines.
+
+- **Right-Side Control Panel**:
+  - **Visual description**: A vertical rectangular panel with a dark background and light blue accents.
+  - **Location**: Right side of the image.
+  - **Contents**: Contains control structures and event handling options.
+    > **Control**:
+      - "if"
+      - "else if"
+      - "else"
+      - "while"
+    > **Events**:
+      - "when world is started"
+      - "when event is received"
+    > **Update Events**:
+      - "on update"
+    > **Event Actions**:
+      - Placeholder text indicating event actions.
+
+- **Background**:
+  - **Visual description**: A simple grid pattern with a light blue sky at the top.
+  - **Location**: Surrounding the UI elements.
+  - **Contents**: A neutral grid and sky background.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central script flowchart.
+- **Arrows/lines/connectors**: Purple lines connect nodes within the flowchart, indicating the sequence of events.
+- **Spatial relationships**: Nodes are arranged in a linear fashion within the flowchart, and the control panel is positioned to the right, providing additional options for scripting.
+
+</details>
+
+<p></p>
+
+
 
 - Create a trigger CodeBlock script to send the spawn and despawn events to an object. These scripts can be different for the spawn and despawn, but in this case we keep them together since they will be tied to the same trigger.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452514526_512510377953585_8446492638471105033_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=uaEktUIRMxUQ7kNvwHb-X-Z&_nc_oc=AdmtTNC75s5MkLqKN6fuhXZUBZmwCys3a9j9___yR7mk8U5bQirGi1hzsc3bx6t6e0VEMpu5eiCOyprgggRaOWAs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=fXNV2M8ZR_pQzyG_Nwl5GQ&oh=00_AfmHaxkloosYzmUgxJCHnfaZrFAAgP6zXVJh9oJ36OReDA&oe=69557EF3)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/95df91e49445c3c7b1fa3f8fe516c7a9852fa6fd8e2d6a6a4f5d27fdad4724ee.md)
+  
+  ### Overview
+  The image depicts a user interface element within a 3D environment, likely a game development tool or editor. It shows a window with settings for a trigger object, connected to another interface element via a wire.
+  
+  ### Key Elements
+  - **Trigger Window**: Located centrally, this window has a dark background with light text. It contains several settings:
+    - **Enabled**: A toggle switch set to 'On'.
+    - **Trigger On**: Options for 'Players' and 'Objects Tagged'.
+    - **Object Tag**: A field for entering tags.
+    - **Attached Script**: Displays 'WallTriggerCB' as the attached script name.
+    - **SpawnCTRL**: A field showing '<empty>'.
+  - **Wire Connection**: A black wire connects the 'Trigger' window to another interface element labeled 'WallTriggerCB' at the top-left corner.
+  - **Background**: The environment is a simple grid floor with a blue sky above, suggesting a virtual space for game development.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The 'Trigger' window.
+  - **Arrows/Connections**: The wire acts as a connection line, indicating interaction between the trigger and the script.
+  - **Spatial Relationships**: The 'Trigger' window is central, with the connected element 'WallTriggerCB' positioned to its left and slightly above.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Create a Trigger gizmo and attach the CodeBlock script to the trigger.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452702326_512510374620252_2897307560533346680_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=1ho3P5M4oeUQ7kNvwENcS6t&_nc_oc=Adlz3y5a1uv8lPrhDTTSv2-AG1sHIWyRQJNCUUoFb6SF_ZegvH2ptRVnEN502_mtlXFd1nxaEPwIP3SaNn6rwyDS&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fXNV2M8ZR_pQzyG_Nwl5GQ&oh=00_AfnLGgJIQKaU4rDv3wqaTwXpzg35LDmnJAIStHyAza6Bjw&oe=69557516)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/2822dd7fb3018674126d1ad79351028587d3302884f4318c92d683329ca6c916.md)
+  
+  ### Overview
+  The image depicts a user interface element within a 3D modeling or game development environment. It shows a floating window with various settings and options related to an object named "WallSpawnObj." The window is semi-transparent with a dark background, and the interface includes tabs, checkboxes, and interactive elements.
+  
+  ### Key Elements
+  - **Floating Window**: Located centrally in the image, with a dark background and light text. Contains multiple tabs labeled "Behavior," "Attributes," "Physics," and "More."
+  - **Tabs**: 
+    - **Behavior Tab**: Active tab, showing options such as "Visible," "Collidable," "Motion," "Animation," and "Loop."
+    - **Attributes Tab**: Partially visible, likely containing additional settings.
+    - **Physics Tab**: Partially visible, likely containing physics-related settings.
+    - **More Tab**: Partially visible, likely containing more advanced settings.
+  - **Options**: 
+    - **Visible**: Toggle switch set to "Off."
+    - **Collidable**: Toggle switch set to "Off."
+    - **Motion**: Options include "No," "Animated," and "Infinite."
+    - **Animation**: Options include "Play" and "Record."
+    - **Loop**: Set to "Never."
+  - **Object Name**: Below the window, a label reads "WallSpawnObj" in a semi-transparent gray box.
+  - **Pointer**: A white arrow points towards the "WallSpawnObj" label, indicating interaction or selection.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The floating window with the "Behavior" tab active.
+  - **Arrows/Connections**: A white arrow connects the floating window to the "WallSpawnObj" label, suggesting interaction or selection.
+  - **Spatial Relationships**: The window is positioned above the grid background, which serves as the workspace. The "WallSpawnObj" label is below the window, indicating the object being interacted with.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Create an object and attach the TypeScript script to it. Depending on the application, it might be a good idea to make this object invisible.
 - Attach the asset you would like to spawn in the asset field that appears when you attach the script. This is done with the following steps:
 
   - Navigate to your asset library from the build menu, then to the asset you want to spawn.
   - Select the view info (“i”) icon on that asset.
   - On the property panel, scroll down to see the asset reference pill (a blue oval containing the asset name).
-  - Select and drag this reference pill to the Asset Variable field “empty” on the object’s property panel. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453003138_512510371286919_5172008865838978843_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=aKPfW226edIQ7kNvwHfHDQp&_nc_oc=AdnYvX0O2A3oHgOYHaTcxDPyhZg2URBQ0WXFa27n5xOwcTyNGZh6tRTlyh6FfU4bntOoZeA-HpnfeIlfob12siaM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fXNV2M8ZR_pQzyG_Nwl5GQ&oh=00_Afm0N8Zn4q40wMNNtf1Cv2fIvR1BuLUCzPifHtsHCMD2-w&oe=6955A3C8)
+  - Select and drag this reference pill to the Asset Variable field “empty” on the object’s property panel. <details>
+                                                                                                            <summary>Image Content</summary>
+                                                                                                            
+                                                                                                            <p></p>
+                                                                                                            
+                                                                                                            [All image details and metadata](../../image_data/ab8a950f877598269c85678201469012724cad7743b8fa66a568d687506ed70e.md)
+                                                                                                            
+                                                                                                            ### Overview
+                                                                                                            The image depicts a user interface from a 3D modeling or game development software environment. It shows a scene with a grid floor and a floating object labeled "WallSpawnObj." There are two pop-up windows open, one on the left side and another on the right side of the screen, both containing various settings and options related to the object.
+                                                                                                            
+                                                                                                            ### Key Elements
+                                                                                                            - **Left Pop-up Window ("Trigger")**:
+                                                                                                              - **Visual description**: A rectangular window with rounded corners.
+                                                                                                              - **Location**: Left side of the screen.
+                                                                                                              - **Contents**: Contains tabs labeled "Behavior" and "Attributes," with a toggle switch labeled "Enabled" set to "On."
+                                                                                                              - **Visual styling**: Dark background with light text, blue tabs, and white toggles.
+                                                                                                            
+                                                                                                            - **Right Pop-up Window ("WallSpawnObj")**:
+                                                                                                              - **Visual description**: Another rectangular window with rounded corners.
+                                                                                                              - **Location**: Right side of the screen.
+                                                                                                              - **Contents**: Contains tabs labeled "Behavior," "Attributes," "Physics," and "More." The "Behavior" tab is active, showing options such as "Visible," "Collidable," "Motion," "Animation," and "Loop."
+                                                                                                              - **Visual styling**: Dark background with light text, blue tabs, and white toggles.
+                                                                                                            
+                                                                                                            - **Scene**:
+                                                                                                              - **Visual description**: A 3D grid floor with a floating object labeled "WallSpawnObj."
+                                                                                                              - **Location**: Below the pop-up windows.
+                                                                                                              - **Contents**: The object is a simple cube with a grayish color.
+                                                                                                              - **Visual styling**: The object has a subtle shadow effect, indicating depth.
+                                                                                                            
+                                                                                                            - **Connections**:
+                                                                                                              - **Visual description**: White lines connecting the "Trigger" pop-up window to the "WallSpawnObj" object.
+                                                                                                              - **Location**: Below the "Trigger" pop-up window.
+                                                                                                              - **Contents**: These lines represent connections or interactions between the trigger and the object.
+                                                                                                            
+                                                                                                            ### Visual Flow / Relationships
+                                                                                                            - **Most prominent visually**: The pop-up windows and the "WallSpawnObj" object.
+                                                                                                            - **Arrows/lines/connectors**: White lines connecting the "Trigger" pop-up window to the "WallSpawnObj" object.
+                                                                                                            - **Spatial relationships**: The pop-up windows are positioned above the scene, while the "WallSpawnObj" object is below them. The connections indicate a relationship between the trigger and the object.
+                                                                                                            
+                                                                                                            </details>
+                                                                                                            
+                                                                                                            <p></p>
+                                                                                                            
+                                                                                                            
 - Finally, attach this script object to the Trigger gizmo.
 
 Once you are done, you should have a CodeBlock script attached to a Trigger gizmo which in turn is attached to an object. The object should have the TypeScript script attached to it as well as the asset to be spawned and despawned.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452746658_512510367953586_6703341356671159163_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=zWNL8dkw7KYQ7kNvwFpKqL4&_nc_oc=AdmBnqtlzqhreWQUTl888EFOOIcjySBs1wcsGCX6yJKkJOqHTVzwWwBxYijQzRwCkSg5pdkBVIxbsXw43sJoy0tC&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=fXNV2M8ZR_pQzyG_Nwl5GQ&oh=00_AfmWk5JxVAYq5YXsBLv3x97PXFt-iGHbEWpOQxQYW0q4Ww&oe=6955789B)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/666ad9627d7e2c35db1e1c374f96f8bbe9ff98411b131addf895f09713e479a7.md)
+
+### Overview
+The image depicts a virtual environment with a user interface overlaying a 3D scene. The interface consists of multiple panels displaying code-like content and interconnected with lines, suggesting a programming or scripting context within a game development tool.
+
+### Key Elements
+- **Large Panel (Left)**: Located on the left side, this panel contains a series of code blocks with purple and blue highlights. The text includes keywords like "player," "spawn," and "update." The panel has a dark background with light text.
+- **Smaller Panels (Right)**: Two smaller panels are positioned to the right of the large panel. These panels appear to be interactive, with some elements highlighted in green and others in white. They seem to represent different functions or settings related to the larger panel.
+- **Lines/Connections**: Black lines connect the panels, indicating a flow or sequence of operations.
+- **3D Scene**: Below the interface, a simple 3D environment is visible. It includes a transparent blue cube and a green rectangular object, both placed on a grid floor. A small purple cube is also present near the green object.
+- **Background**: The background is a gradient sky with a light blue hue, giving the impression of an open-world environment.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The large panel on the left.
+- **Arrows/Connections**: The black lines connecting the panels suggest a flow or sequence of operations.
+- **Spatial Relationships**: The panels are arranged horizontally, with the smaller panels to the right of the larger one. The 3D objects are positioned below the interface, indicating a separation between the UI and the game world.
+
+</details>
+
+<p></p>
+

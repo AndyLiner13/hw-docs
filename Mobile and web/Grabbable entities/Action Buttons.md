@@ -19,7 +19,33 @@ Hide Action Buttons by Default will change the default visibility of action butt
 * **Toggled on:** Hide the action buttons unless the action icons have been explicitly set in the object properties.
 * **Toggle off:** All action buttons will be visible when holding a grabbable object, regardles of whether the action icons have been set.
 
-![action-buttons-default.png](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452590061_512510457953577_8055809186848124743_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=3J55fLVDE_YQ7kNvwH5qVza&_nc_oc=AdlBhaA4toIS4d4QI6rNyykqePEKb8rRDKEjcYo0lL0nNQtjoePsF6H19CfqAFHCKOsz7KZPsTA6QpDJdTbNzOkP&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ulkshT9euyHjhziwcmLnZQ&oh=00_AfnxSbJu4LF-biXVk2txUiR9RLKBLH4b-0xOmmtxPyiJlA&oe=69556EA0)
+<details>
+<summary>action-buttons-default.png</summary>
+
+<p></p>
+
+[action-buttons-default.png](../../image_data/60166ad0c662a70e3fb28e87e306303494eef4bda2f71bc2929f6050f275a35a.md)
+
+### Overview
+This image depicts a settings dialog box titled "Player Settings." It contains various adjustable options related to game audio settings and player behavior. The interface has a dark theme with a blue accent color for interactive elements.
+
+### Key Elements
+- **Title**: "Player Settings" at the top-left corner.
+- **Frame Budget Boost**: A toggle switch labeled "Default" with a description explaining its function.
+- **Spawn Nearby**: A toggle switch with a description allowing players to spawn near others when joining a session.
+- **Footsteps Volume**: A slider control set to 0 with a description adjusting the decibel boost of footstep audio.
+- **Footsteps Min Distance**: A slider control set to 1 with a description adjusting the minimum attenuation distance of footstep audio in meters.
+- **Footsteps Max Distance**: A slider control set to 100 with a description adjusting the maximum attenuation distance of footstep audio in meters.
+- **Hide Action Buttons by Default**: A toggle switch with a description explaining that action buttons for grabbables can be hidden by default on mobile devices.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Hide Action Buttons by Default" option, highlighted with a red bounding box. The layout follows a vertical arrangement with options stacked one after another. There are no arrows or lines connecting elements, but the layout implies a sequential reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 ## How to handle button presses
 
@@ -73,7 +99,35 @@ class SimpleInputAPITest extends hz.Component {
 hz.Component.register(SimpleInputAPITest);
 ```
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558876645_833836055821014_9082785492339016001_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FBv1dU-FNosQ7kNvwH6uZgf&_nc_oc=AdkxKm42KRbWQbQ_OgTnaO843TbbVhouDfEHFkELGfAVZHWOZaQKrtM7VU834wMcokAIaVPxMyhVu8haErwF6KQa&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ulkshT9euyHjhziwcmLnZQ&oh=00_Afkv9fiNufSvg7qlcQtrCScshivp7pmGvSzM992VAUIm9w&oe=69557A61)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/9ec7594908b65da2d38856506ccea8753e557939154b9689c5aeeabd04c0538f.md)
+
+### Overview
+This image depicts a first-person view within a virtual environment, likely from a video game or interactive simulation. The scene includes a character holding a weapon, with a user interface overlaying the game world. The environment features rocky terrain, palm trees, and a colorful sky with clouds.
+
+### Key Elements
+- **Character**: A figure with long hair, wearing a green jacket and black pants, is seen from behind, holding a gun-like object.
+- **Weapon**: The character is holding a gun with a green and black design, positioned in the right hand.
+- **User Interface Elements**:
+  - **Top Left**: Two circular icons, one with a microphone symbol and another with three dots.
+  - **Top Center**: A curved progress bar with a timer showing "0:00," indicating no time has elapsed yet.
+  - **Top Right**: A menu icon represented by three horizontal lines.
+  - **Bottom Center**: A red rectangular highlight around a circular icon with a lightning bolt symbol.
+  - **Right Side**: Several circular icons with various symbols, including a pencil, a speaker, and a download arrow.
+- **Background**: The environment consists of rocks, palm trees, and a vibrant sky with purple and pink hues.
+
+### Visual Flow / Relationships
+The most prominent visual element is the character holding the weapon, as the player's perspective is centered on them. The user interface elements are arranged around the edges of the screen, providing quick access to various functions. The red highlight draws attention to the lightning bolt icon, suggesting it might be the current focus or action being performed.
+
+</details>
+
+<p></p>
+
+
 
 In the above screen shot, the icon is hidden when no special ability is available.
 

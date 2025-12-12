@@ -4,7 +4,33 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 The spring physics API enables you to push entities toward a specifed position and spin them toward a specified rotation. These push and spin movements are based on the simulated physics of springs.
 
-![Image of push and spin physics applied to two entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/466612751_589983626872926_3635910101322979139_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=5BoRxaUC-HYQ7kNvwGeaWqr&_nc_oc=AdmmADLOYuJVstED_iI4trFsMqt32EVTyMENBTXUQwCbVLvVPvfWqinrpkIhrRmFSl6WzJt45cbRGsKH26Nk5LY0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=lSrT15LdmLyxhEglOVhsdg&oh=00_Afli3IobdKN2nyk5UxJ8Q-Tv72iV9l0-Wwk5atz5Clu8lA&oe=69557F85)
+<details>
+<summary>Image of push and spin physics applied to two entities</summary>
+
+<p></p>
+
+[Image of push and spin physics applied to two entities](../../image_data/d751b2ab5b9bd2fa55bded14156ddb144e8a60a1d5823535343c615ead1b8133.md)
+
+### Overview
+The image depicts a 3D environment with a grid floor and a floating white cube in the center. There are two purple blocks labeled "Spring push" and "Spring spin" at the bottom corners, along with a small humanoid figure in the foreground. The scene appears to be part of a simulation or physics experiment setup.
+
+### Key Elements
+- **Grid Floor**: A light gray grid covering the entire floor, serving as the base for the 3D environment.
+- **White Cube**: A white, translucent cube floating above the grid near the center of the image.
+- **Purple Blocks**: Two purple blocks with white text indicating "Spring push" and "Spring spin." Each block has a small icon resembling a code snippet.
+- **Humanoid Figure**: A small blue humanoid figure positioned centrally, holding a blue circular object.
+- **Background**: A light blue sky visible at the top of the image.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The white cube in the center.
+- **Arrows/Connectors**: None visible.
+- **Spatial Relationships**: The blocks and the humanoid figure are arranged symmetrically around the central white cube.
+
+</details>
+
+<p></p>
+
+
 
 ## Prerequisites
 

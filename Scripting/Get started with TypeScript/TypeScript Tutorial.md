@@ -9,7 +9,33 @@ Follow these steps to access the Desktop Editor
 - Navigate to *Scripts -> CreateNewScript*.
 - We will use a starter script named Shoot.
 - Choose the *:* menu next to the new script. You can select “Open in External Editor” if using a preferred editor.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452888405_512535114617778_4622023437168026365_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=cnGKEttFUdYQ7kNvwHhcm_i&_nc_oc=Adn6aX-l98UlpMpn1SSHlwETSAywNkVOrWT7L2sDX3__ZdR2It6gJ9WcL0N0bvy5vqAsaaDmhUiofoT6AFhU4K4V&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Yc54R4f3-HtWwapY5_yRdw&oh=00_AfmhpZDWKDPBuiH_H1SUhIlZCAhn6lBdfPBFLuo3U6NWiw&oe=69557190)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/7da05bbc430ae190ca0742ed9fa65fb51aa8772e0abf347770d3365e55519298.md)
+  
+  ### Overview
+  This image depicts a contextual menu with three options displayed as part of a user interface. The menu is triggered by a button or icon located at the top right of the screen, indicated by a vertical ellipsis (...).
+  
+  ### Key Elements
+  - **Visual description**: The menu has a rectangular shape with rounded corners.
+  - **Location**: Positioned to the right of the screen, slightly below the top bar.
+  - **Contents**: 
+      - **Recompile**: A menu item labeled "Recompile" in white text on a dark background.
+      - **Open in External Editor**: A menu item labeled "Open in External Editor" in white text on a dark background.
+      - **Execution Mode**: A menu item labeled "Execution Mode" in white text on a dark background, with a right-pointing arrow indicating a dropdown or additional options.
+  - **Visual styling**: The menu has a dark background with white text. There are no borders around the menu items themselves, but the menu itself has a subtle shadow effect, giving it a slight elevation.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the menu itself, which is the focal point due to its central placement and the presence of the ellipsis icon that triggers it. The menu items are arranged vertically, with each option clearly separated by a thin line. There are no arrows or lines connecting the elements, suggesting a simple, linear reading order.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - The `start()` function is called whenever the object it is attached to is created. To print to the debug console for an object created, add a *console* print:
 
   ```
@@ -19,13 +45,128 @@ Follow these steps to access the Desktop Editor
   ```
 - Save the file.
 - In the Desktop world editor, connect your new script to an object you have in the hierarchy. Scroll down to the bottom of the property panel on the right. Select “Attached Script” and choose the script file named “Shoot:Shoot”. This will associate the script with the object.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452635355_512535174617772_4931592019167273635_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=9cnq0AOukcUQ7kNvwG9kSzl&_nc_oc=Adm7QXPozRAy64lL4XokcKhWVZFKnWadjxwk6hK613SwHf8H_lKN32n6wFkIiyCLoh9Rcul5W7D_Ua3wnJnLPr55&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Yc54R4f3-HtWwapY5_yRdw&oh=00_AfmfRyPbkRwzSdiRjxdJtStLaP6XT3mmcvdWaMigNRp52Q&oe=69559E23)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/02123404d801c5af3efca6cb7ab948b4baece831bdf609df6690eb9e2e535861.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a dropdown menu within a software application. The dropdown is part of a settings or configuration panel, specifically under a section labeled "Script."
+  
+  ### Key Elements
+  - **Dropdown Menu**: Located centrally, with a blue background and white text indicating options.
+    - **"None"**: A standard option listed above the selected item.
+    - **"Shoot:Shoot"**: Highlighted in blue, indicating it is currently selected. It has a checkmark next to it.
+  - **Attached Script Label**: Positioned above the dropdown, with the text "Attached Script" in a lighter gray font.
+  - **Dropdown Button**: Located to the right of the "Attached Script" label, with a downward-pointing arrow indicating the dropdown functionality.
+  - **Background**: The surrounding area is dark gray, typical of a sidebar or menu area.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the blue-highlighted "Shoot:Shoot" option, which draws attention due to its color contrast and checkmark. The dropdown menu itself is the focal point, with the "Attached Script" label providing context for the dropdown's purpose.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Preview the world by clicking on the person icon next to the wrench.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452460755_512535221284434_2821360807848336884_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=LB0lQ9bO0zYQ7kNvwF36MVX&_nc_oc=AdmblqwXNy5nqU7eaLV07cOE-goOKYOSo-jUCXfPrNTi0nas-g4lEUI8vzI9aTemrwdtR7X26xlRM0Q82LaosbGm&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Yc54R4f3-HtWwapY5_yRdw&oh=00_Afk9hjkB9sSwieprrtGtAFsjLhrA5WmrQi9D5hYg6_gkvw&oe=69557FB3)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/7738547e078b37ee872e6299caf7fb808e8a9b70ea68192c8fd21314827727a1.md)
+  
+  ### Overview
+  This image displays a row of five icons arranged horizontally against a dark background. The icons appear to be part of a user interface, possibly for a software application or website.
+  
+  ### Key Elements
+  1. **Visual description**: A blue play button icon.
+     - **Location**: Leftmost position.
+     - **Contents**: A white play symbol within a blue square.
+     - **Visual styling**: Blue background, white play symbol, rounded corners.
+  
+  2. **Visual description**: A white square icon.
+     - **Location**: Second from the left.
+     - **Contents**: A white square.
+     - **Visual styling**: White background, black border, rounded corners.
+  
+  3. **Visual description**: A backward arrow icon.
+     - **Location**: Third from the left.
+     - **Contents**: A white backward arrow.
+     - **Visual styling**: White background, black border, rounded corners.
+  
+  4. **Visual description**: A wrench icon.
+     - **Location**: Fourth from the left.
+     - **Contents**: A white wrench symbol.
+     - **Visual styling**: White background, black border, rounded corners.
+  
+  5. **Visual description**: A blue square with a white human figure icon.
+     - **Location**: Rightmost position.
+     - **Contents**: A white human figure within a blue square.
+     - **Visual styling**: Blue background, white human figure, rounded corners.
+  
+  ### Visual Flow / Relationships
+  The icons are arranged in a horizontal line, suggesting a navigation bar or a set of actions available to the user. There are no arrows or lines connecting the elements, indicating that they are independent actions or options.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Press escape and click on Console window at the bottom of the editor.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452683821_512535171284439_1029448456687135659_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=lUxKMn8E9owQ7kNvwH8bVU7&_nc_oc=Adl_uYkL_Kk_5ensGyHzmzfu3BtCNTrXaY_uHpBRFw7sj5Oq0Lc67xXxZ7uYACnSchv1Coua0sBx-kVCrAMaL_sv&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Yc54R4f3-HtWwapY5_yRdw&oh=00_Afl-vR1LqYcs7oxQ8CUtZM2uyQge1VJcxPGAuzlRNyjRJg&oe=69559F29)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/0d4f8584dbaff08fa8c803491f66eedc906329b2b0a235509d8b2cd8736858f0.md)
+  
+  ### Overview
+  This image depicts a user interface section of a software application, likely a development environment or a project management tool. The focus is on a navigation bar with tabs labeled "Assets," "Console," and "Tests."
+  
+  ### Key Elements
+  - **Tab "Assets"**: Located at the top-left, it is a dark blue tab with white text that reads "Assets."
+  - **Tab "Console"**: Positioned centrally, it is also a dark blue tab with white text that reads "Console."
+  - **Tab "Tests"**: Situated to the right of the "Console" tab, it is another dark blue tab with white text that reads "Tests."
+  - **Navigation Bar**: The tabs are part of a larger navigation bar that spans across the top of the interface. It has a dark blue background with lighter blue accents around the tabs.
+  - **Tabs' Hover Effect**: There is a subtle hover effect on the "Console" tab, indicated by a slight change in its color and a small triangle pointing upwards, suggesting interactivity.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the navigation bar itself. The tabs are arranged horizontally, and the hover effect on the "Console" tab suggests a user interaction sequence. The tabs are evenly spaced, and there are no connecting lines or arrows indicating a specific reading order.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - When the object you associated the script with is created, the console will print the  debug message you specified.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452992907_512535111284445_4360884428134174850_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=FEsl7Ko_2cUQ7kNvwHV3P10&_nc_oc=AdnFTJdJ3U1jxeSXqbJ6mr31Ar32RTJHddgkdebyfVV2n0Ze88XhrhZhGS2cjvX00S0pGWmhO_BribOZq5CGUuEw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Yc54R4f3-HtWwapY5_yRdw&oh=00_AfnIgOJxw_fdeFB0m3o3CvMnJM1Bw5nBuzec4yvdWv51Tw&oe=69559F3C)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/ab5e02b6b2ba5d3d5fa0b24fe33cfa0eacc383f157954cdffa43095925df56d9.md)
+  
+  ### Overview
+  This image depicts a user interface section of a software application, likely related to asset management or console logs. The layout includes tabs, informational icons, a message area, and a timestamp.
+  
+  ### Key Elements
+  - **Tabs**: Located at the top, showing "Assets" and "Console". The "Assets" tab is active.
+  - **Clear Button**: A rectangular button labeled "Clear" with a white background and blue border, located next to the tabs.
+  - **Information Icons**: Three circular icons with information symbols (i, exclamation mark, and cross) indicating counts of notifications: "i 1", "0", and "0".
+  - **Message Area**: Below the tabs, a section labeled "MESSAGE" contains a message: "Hello, World! ...". There is also a smaller icon next to the message, resembling a speech bubble with a number "1" inside, and a timestamp "08:19:22".
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the "Assets" tab, as it is highlighted. The information icons are arranged horizontally beneath the tabs. The message area is below the icons, drawing attention downward. The message itself is the focal point within the message area.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ### Sharing Code Between Scripts
 

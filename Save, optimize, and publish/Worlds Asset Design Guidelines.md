@@ -66,7 +66,32 @@ Refer to the following asset types and guidance when creating your world assets.
 
 Cover assets come in three varieties (landscape, portrait, square) and are the most frequently viewed marketing content for your experience. They may be displayed in web browsers, mobile and PC clients, in the headset, and other places at various sizes.
 
-![An example of a set of cover assets in landscape, portrait and square. Note the design consistency. The images are not identical, but have the same design elements in similar positions.](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/596819971_884464727424813_92797240545585289_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=NAKVJazISjQQ7kNvwGAuxhR&_nc_oc=AdmxknM9PA4VEdPjXY0EzI5YPzueRHa2vDFhq9P9PtdHc6nI-Yl-qrOVVp56_7egaPwJHLlmNhQX5lsp_ZrV-3JK&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=FLVGJB74zFwSf_8ebWGIvg&oh=00_AfmdhhZ0ZLSxUsN3igoCAqo1btn19R3GsLAaVZ2keOIo-Q&oe=695595AD)
+<details>
+<summary>An example of a set of cover assets in landscape, portrait and square. Note the design consistency. The images are not identical, but have the same design elements in similar positions.</summary>
+
+<p></p>
+
+[An example of a set of cover assets in landscape, portrait and square. Note the design consistency. The images are not identical, but have the same design elements in similar positions.](../image_data/5fe4ad367b07113f5cae9cf4e5a0294aa0fa285dc886c0e8ecff947c129e41e6.md)
+
+### Overview
+This image consists of three side-by-side panels depicting a concert scene with a performer on stage. The panels appear identical, showing a vibrant concert atmosphere with a crowd of people waving light sticks and a large screen displaying the text "HORIZON IDOL."
+
+### Key Elements
+- **Visual description**: The image is a wide, panoramic view of a concert setting.
+- **Location**: The central figure is on a stage, with the audience in the foreground and a large screen behind them.
+- **Contents**: The text "HORIZON IDOL" is prominently displayed on the screen, with stars flanking the words.
+- **Visual styling**: The colors are bright and varied, with a mix of blues, purples, and whites dominating the scene.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central figure on stage.
+- **Arrows, lines, connectors**: None.
+- **Spatial relationships**: The audience is in front of the stage, and the screen is positioned above the stage.
+
+</details>
+
+<p></p>
+
+
 
 #### Cover assets requirements:
 
@@ -78,7 +103,61 @@ Cover assets come in three varieties (landscape, portrait, square) and are the m
 
 Icons are primarily used for situations requiring a small, yet clear and readable image. Your icon art needs to maintain legibility across various sizes, so you may have to modify visual elements so that they remain clear as the image is scaled down.
 
-![Examples of icons for various worlds. Note the clear focal points for each icon.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/596799811_884464734091479_8908579346496386649_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=hzacQ_kNsYAQ7kNvwFIjIzR&_nc_oc=AdmtJE1YjRPl4CcAHR2mbOVTDHHzlIhOwMw8-iHsoUSbDkTP2cXz14rh-COamvBaUuGGadDIlnp-g_eVTrg-cUdr&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FLVGJB74zFwSf_8ebWGIvg&oh=00_AfnPMBflG2FCUnKUWre-zea-n3nq2xxBDvmbkOk2wgpOig&oe=695589A8)
+<details>
+<summary>Examples of icons for various worlds. Note the clear focal points for each icon.</summary>
+
+<p></p>
+
+[Examples of icons for various worlds. Note the clear focal points for each icon.](../image_data/95e71d79885f43a896808b8fa903f7443a612234c276390b72a77898013a9fd1.md)
+
+### Overview
+This image displays six app icons arranged horizontally. Each icon features a distinct animated character or object against a colorful background.
+
+### Key Elements
+1. **Leftmost Icon**
+   - **Visual description**: A large, green, snake-like creature with a menacing expression.
+   - **Location**: Leftmost icon.
+   - **Contents**: The creature has sharp teeth and a forked tongue, with a cityscape in the background.
+   - **Visual styling**: Green scales, dark eyes, and a blue sky with white clouds.
+
+2. **Second Icon from the Left**
+   - **Visual description**: A humanoid figure holding a gun.
+   - **Location**: Second icon from the left.
+   - **Contents**: The figure wears a brown outfit and has blonde hair. The background is a gradient of orange and yellow with palm trees.
+   - **Visual styling**: Brown outfit, blonde hair, and a gun with a green light.
+
+3. **Third Icon from the Left**
+   - **Visual description**: A dinosaur-like creature with a red head.
+   - **Location**: Third icon from the left.
+   - **Contents**: The creature has a red head and a gray body, with a dark background that suggests a nighttime setting.
+   - **Visual styling**: Red head, gray body, and a dark background.
+
+4. **Fourth Icon from the Left**
+   - **Visual description**: A basketball, a microphone, and a bucket filled with popcorn.
+   - **Location**: Fourth icon from the left.
+   - **Contents**: The basketball is orange, the microphone is silver, and the bucket is purple with popcorn spilling out.
+   - **Visual styling**: Orange basketball, silver microphone, purple bucket, and popcorn.
+
+5. **Fifth Icon from the Left**
+   - **Visual description**: A mug with a speech bubble saying "WORLD'S BEST BOSS."
+   - **Location**: Fifth icon from the left.
+   - **Contents**: The mug is white with a black handle, and the speech bubble is white with black text.
+   - **Visual styling**: White mug, black handle, and a speech bubble with black text.
+
+6. **Rightmost Icon**
+   - **Visual description**: A stone structure resembling a castle with a small figure on top.
+   - **Location**: Rightmost icon.
+   - **Contents**: The structure is made of gray stones, and the figure on top appears to be a small, golden statue.
+   - **Visual styling**: Gray stones, golden statue, and a dark background suggesting a cave or underground setting.
+
+### Visual Flow / Relationships
+The icons are arranged in a single row, with no connecting lines or arrows. The visual hierarchy is determined by the size and prominence of the characters or objects within each icon. The most prominent elements are the creatures and the speech bubble, as they stand out due to their larger size and distinct features.
+
+</details>
+
+<p></p>
+
+
 
 #### Icon asset best practices:
 
@@ -97,7 +176,45 @@ Icons are primarily used for situations requiring a small, yet clear and readabl
 
 Screenshots are essential for helping users decide whether to visit your world by giving them a preview of what to expect. Each image you use should represent a unique scene highlighting the best part of the experience.
 
-![Examples of screenshots from Kaiju City Showdown.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594975081_884464730758146_6976910341751765405_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=xTYjKHurb9MQ7kNvwHfMcjb&_nc_oc=Adn0m-miOfaU_SEkoM_uhGiCKs15gEDkG_9WGDouYbENGFCP4EB-1v-ja4a5Qt0pvNA1z8IpI-vE4KahCUHZjh30&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FLVGJB74zFwSf_8ebWGIvg&oh=00_AfnHskZYVsGE2uaYCZxWJ84d4nlfI3p15PpuXycu_Kz5Zg&oe=6955862D)
+<details>
+<summary>Examples of screenshots from Kaiju City Showdown.</summary>
+
+<p></p>
+
+[Examples of screenshots from Kaiju City Showdown.](../image_data/440fb1987eb151d0a695010598cadb42db0b362f58fa6b3a6f521909faaa1d05.md)
+
+### Overview
+This image is a collage of three panels depicting scenes from a video game. Each panel shows characters engaged in combat against various creatures or robotic enemies in an urban environment. The scenes are vibrant and action-packed, featuring dynamic poses and colorful effects.
+
+### Key Elements
+1. **Left Panel**
+   - **Visual description**: A green, dragon-like creature with sharp spikes.
+   - **Location**: Left side of the first panel.
+   - **Contents**: The creature is being shot at by multiple characters, with bright laser beams emanating from their weapons.
+   - **Visual styling**: The creature has a textured surface with green scales and a yellow mouth. The background includes buildings and a clear blue sky.
+
+2. **Middle Panel**
+   - **Visual description**: A large, black robot with a yellow head.
+   - **Location**: Center of the second panel.
+   - **Contents**: The robot is facing off against a character who is shooting at it with a weapon. There are additional characters in the background, one of whom is jumping in the air.
+   - **Visual styling**: The robot has a metallic texture with red accents. The background features a cityscape with modern buildings and a clear blue sky.
+
+3. **Right Panel**
+   - **Visual description**: Three characters in mid-air, holding futuristic weapons.
+   - **Location**: Right side of the third panel.
+   - **Contents**: The characters are smiling and appear to be celebrating or reacting to the battle. One character is wearing a red hoodie, another a blue jacket, and the third a white shirt.
+   - **Visual styling**: The characters have stylized hair and are wearing casual clothing. The background shows a city skyline under a clear blue sky.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central robot in the middle panel.
+- **Arrows/lines/connectors**: None explicitly shown.
+- **Spatial relationships**: The panels are arranged horizontally, with each scene occupying its own space. The characters and creatures are positioned dynamically within each scene, suggesting movement and action.
+
+</details>
+
+<p></p>
+
+
 
 #### Screenshot requirements:
 

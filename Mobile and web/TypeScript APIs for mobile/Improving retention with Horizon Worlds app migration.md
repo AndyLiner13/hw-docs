@@ -8,7 +8,37 @@ Encouraging users to transition enables them to access richer content, participa
 
 This feature allows creators to **influence time spent and user retention** in their worlds by **rewarding users who switch to the Horizon app**. Horizon app users have better return rates because they experience a consistent entry point, better visibility of metaverse offerings, and Horizon-focused social features.
 
-![App migration upgrade offer UI](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/582202036_865015572703062_7049078428565750275_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=bLfkfN-6krMQ7kNvwHjd7f-&_nc_oc=AdkI3pfkc-kO36ni-tbpPtIW6oT-iK1pRRI_xZpQ352zV_9iRPebWiX3XeWmWbftLcRiyLZeBc3PNjFNfAoQhoN0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OFydzkCxp2rKctdXTHFzqQ&oh=00_AfmgInyqDm5JGtPfUxqiUFR7vUbXXjiJbabsQfXig5rafg&oe=69559DB1)
+<details>
+<summary>App migration upgrade offer UI</summary>
+
+<p></p>
+
+[App migration upgrade offer UI](../../image_data/a9f80d087feb48037fe97e75696596c89e67ec03debe9a6947fe35cdf11c3ed4.md)
+
+### Overview
+This image is a promotional advertisement for a game called "Meta Horizon." It features two animated characters in a room setting, with a call-to-action encouraging users to download the game to unlock rewards. The layout includes a large banner at the top, rewards displayed in the center, and interactive buttons at the bottom.
+
+### Key Elements
+- **Left Character**: A female character wearing a yellow shirt with red accents and a red skirt. She has a friendly expression and is pointing towards the rewards.
+- **Right Character**: A male character dressed in a purple and green jumpsuit with a colorful hairstyle. He is in a dynamic pose, suggesting excitement.
+- **Banner**: A red banner with a yellow crown at the top reads "UPGRADE TODAY."
+- **Rewards**: Three distinct rewards are shown:
+  - **Coin Reward**: A circular icon labeled "6000 Coins."
+  - **Loot Reward**: A hexagonal icon labeled "4000 Loot."
+  - **T-shirt Reward**: An image of a white T-shirt with red trim and a logo, labeled "Exclusive Offer 'Employee' T-shirt."
+- **Text**: Promotional text in the center states, "Download Meta Horizon to play Profit or Perish and instantly unlock these rewards."
+- **Buttons**: Two buttons at the bottom:
+  - **"Maybe later"**: A white button with black text.
+  - **"Get Meta Horizon"**: A yellow button with black text and a circular arrow icon.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the characters and the rewards. The banner draws attention first, followed by the rewards, and then the buttons at the bottom. There are no arrows or lines connecting elements, but the layout suggests a sequential reading order moving from the banner down to the rewards and finally to the buttons.
+
+</details>
+
+<p></p>
+
+
 
 ### Feature eligibility
 
@@ -47,7 +77,34 @@ Some advice on what and when to offer migration to a new user.
 - **Make the reward claim a positive action.** Ensure the user knows they have successfully completed their journey by providing a simple action to claim their reward upon completing migration. This reconnects them with the offer and could inspire them to seek out other rewards in your world.
 - **Be creative.** The rewards and manner in which you present app migration to visitors is completely up to you. Rather than using a 2D UI panel with buttons, you could use in-world text and trigger volumes.
 
-![Welcome back rewards claim screen](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/581715000_865015569369729_7470897419061814929_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=5be0mZthrH4Q7kNvwEjBSY8&_nc_oc=AdklU4gdINe3KFottL3anIUZsoJ-clRYKV7Ji4-4QdAf-XvO-lP8mc5ue-f2TPr9PfZm2Epvt0M5HGMuqsF7ps_f&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=OFydzkCxp2rKctdXTHFzqQ&oh=00_AfkHGsI4SduOozKx7oih5oweyIao24vLfkbAW9UkUwiRKA&oe=6955805F)
+<details>
+<summary>Welcome back rewards claim screen</summary>
+
+<p></p>
+
+[Welcome back rewards claim screen](../../image_data/5371e0331fde49ad91a0e09d9403fe2be018b9b02ceff81134cae9a0fcd09282.md)
+
+### Overview
+This image depicts a vibrant in-game reward screen with a "Welcome Back" banner at the top. Two animated characters flank a central message and rewards display. The scene is set in a room resembling a workplace environment, with a vending machine and a poster in the background.
+
+### Key Elements
+- **Left Character**: A female character wearing a yellow shirt with red accents and a red skirt. She has a friendly expression and is gesturing towards the central message.
+- **Right Character**: A male character dressed in a purple and green tracksuit with a distinctive hairstyle. He is in a dynamic pose, seemingly excited.
+- **Central Message**: A large banner reads "WELCOME BACK" with a crown icon above it. Below the banner, the text states "Your rewards are ready!".
+- **Rewards Display**: Three icons are shown below the message:
+  - **First Icon**: A red coin with the text "6000 Coins".
+  - **Second Icon**: A hexagonal loot icon labeled "4000 Loot".
+  - **Third Icon**: An "Employee" T-shirt with a "Claim Now!" tag.
+- **Claim Button**: A prominent yellow button at the bottom with the word "Claim".
+
+### Visual Flow / Relationships
+The most prominent visual elements are the "Welcome Back" banner and the two characters. The central message draws attention first, followed by the rewards displayed below. The claim button at the bottom is designed to be easily accessible. The characters frame the central message, creating a balanced composition.
+
+</details>
+
+<p></p>
+
+
 
 ## Enabling the Migration Module
 
@@ -55,7 +112,32 @@ Some advice on what and when to offer migration to a new user.
 - Click the cog icon to open **Script Settings**.
 - Navigate to the **API** section and enable `horizon/migration`.
 
-![API Settings (808x412px)](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/571286590_850327374171882_228439192796093506_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=h5G5hT1x8qkQ7kNvwGY2qAe&_nc_oc=AdkQrrziUgZDixB4SgsQp-YkBDdYkmiNa_LyCi5iP84Y3Fgj5-NsqPPEfX-S2kf7orP3XAGi6Qzg9eXI5UN6C3Ji&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=OFydzkCxp2rKctdXTHFzqQ&oh=00_AfmS_tDxdG1k9rzcpn-SfBuZl1g69eITQ77-HtqX40OJ0w&oe=69557DAF)
+<details>
+<summary>API Settings (808x412px)</summary>
+
+<p></p>
+
+[API Settings (808x412px)](../../image_data/1f4b49f8a81dd83b325794763260c6a73fb527c8730b4b5690960bba7e9ef68f.md)
+
+### Overview
+This image depicts a settings interface titled "Script Settings." It is a modal window with a dark theme, likely part of a software application. The interface includes a sidebar with navigation options ("API," "Console," "Script editing") and a main content area displaying API settings. The API version is set to "2.0.0."
+
+### Key Elements
+- **Sidebar Navigation**: Located on the left side, with options "API," "Console," and "Script editing." Each option has a blue vertical line indicating selection.
+- **Main Content Area**: Occupies the right side of the window, showing API settings.
+  - **API Version Label**: Positioned at the top-right corner of the main content area.
+  - **API Settings List**: Contains multiple toggle switches, some of which are highlighted with a red bounding box. The text "horizon/migration" is visible next to one of the toggles.
+  - **Toggle Switches**: Located on the far right of the API settings list. Some toggles are in the "on" position, indicated by a blue background and white checkmark.
+- **Buttons**: At the bottom of the window, there are two buttons labeled "Cancel" and "Apply."
+
+### Visual Flow / Relationships
+The most prominent visual element is the API settings list, as it occupies the largest portion of the screen. The toggle switches are arranged vertically within this list. The "horizon/migration" label is emphasized by the red bounding box. The "Cancel" and "Apply" buttons are positioned at the bottom, suggesting that users can cancel changes or apply them after making adjustments.
+
+</details>
+
+<p></p>
+
+
 
 ## Setup
 

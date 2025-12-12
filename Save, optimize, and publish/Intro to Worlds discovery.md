@@ -75,7 +75,57 @@ The goal of our discovery system is to connect people with fun and engaging worl
 - **Multiple image upload**: You will soon be able to upload 3 different image sizes for portrait, landscape, and square (16:9, 9:16, 1:1), which will map to the sizes used across different surfaces. It is imperative to design for these sizes to put your best foot forward, as square images (1:1) do not look appealing when cropped to another size like 16:9 (and vice versa). Poor cropping can significantly impair clicks and visits.
 - **[Coming soon] World videos**: Along with your thumbnails, you will soon be able to upload videos, which have also been validated to be one of the strongest levers for world engagement (even stronger than images). The above principles apply on accuracy for quality engagement.
 
-![Image shows two screenshots side by side, with the right image displaying a green checkmark noting it as the correct option](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/508550914_743234598214494_383569735638523571_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=TWmI3G5YVokQ7kNvwFbW7Uj&_nc_oc=AdmmiGKzJQ0KAgFBzZX4wdpdLaynNUHxnYAZw_JlpH9fkb1xludlbrw-worzOqL-D2F3oPYgIrH96bUrkUDBEpej&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=cETMtEGVWLQAJ-1nJ_bkzw&oh=00_AfkRHelWGb9tH71J4011p-f8KGQhv-Digv0Wh9ennr5VBA&oe=69557014)*Kawaii Grocery before vs after, with testing showing significant improvement on traffic and visits*
+<details>
+<summary>Image shows two screenshots side by side, with the right image displaying a green checkmark noting it as the correct option</summary>
+
+<p></p>
+
+[Image shows two screenshots side by side, with the right image displaying a green checkmark noting it as the correct option](../image_data/0b419bcfe431938526e560adf87abc00eb7b5daa27cd902d88e7dd6b735a3dd4.md)
+
+### Overview
+The image presents a side-by-side comparison of two visuals related to "Kawaii's Grocery." On the left, there is a promotional graphic, while on the right, there is a screenshot from a video game or interactive environment featuring a character.
+
+### Key Elements
+#### Left Panel
+- **Visual description**: A colorful promotional graphic with autumn-themed elements.
+- **Location**: Left side of the image.
+- **Contents**: 
+  - Text: "KAWAII'S GROCERY," "NEW AND IMPROVED!," "20+ NEW PRODUCTS!"
+  - Icons: Various grocery items like bread, corn, carrots, and pumpkins.
+  - Background: A gradient sky with autumn leaves scattered around.
+- **Visual styling**: Bright colors, playful fonts, and a festive atmosphere.
+
+#### Right Panel
+- **Visual description**: A screenshot from a video game or interactive environment.
+- **Location**: Right side of the image.
+- **Contents**: 
+  - A character holding a shopping cart.
+  - Text: "KAWAII'S GROCERY" displayed prominently.
+  - Background: An indoor grocery store setting with shelves and products.
+- **Visual styling**: Realistic textures and lighting, typical of a 3D game environment.
+
+#### Center
+- **Visual description**: The word "VS" indicating a comparison.
+- **Location**: Between the two panels.
+- **Contents**: The letters "VS" in a simple font.
+- **Visual styling**: Black text on a white background.
+
+#### Top Right
+- **Visual description**: A green checkmark icon.
+- **Location**: Top right corner.
+- **Contents**: A green square with a white checkmark inside.
+- **Visual styling**: Minimalist design, commonly used as a symbol of approval or correctness.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The promotional graphic on the left due to its larger size and more vibrant colors.
+- **Arrows/lines/connectors**: None.
+- **Spatial relationships**: The left panel is larger and more detailed compared to the right panel, which is smaller and more focused on a single character. The "VS" text acts as a separator between the two visuals.
+
+</details>
+
+<p></p>
+
+*Kawaii Grocery before vs after, with testing showing significant improvement on traffic and visits*
 
 Provide all the metadata requests for the system to accurately understand your world:
 
@@ -83,7 +133,37 @@ Provide all the metadata requests for the system to accurately understand your w
 - **Description**: Many users will review the world details pages before visiting the world. Give informative and relevant descriptions so they understand what the experience is and how to interact in the world.
 - **Genres**: While only 1 is required, providing 3 accurate tags will help users more quickly understand their interest and help the system distribute your world in relevant places. However, inaccurate genre tags can mislead users with high drop-offs that hurt engagement metrics used to rank your world and also muddy how the system understands your world.
 
-![Image shows a world page with all of the metadata filled in](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/508387186_743234608214493_5074538767631862430_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ez32okfw3SQQ7kNvwHBgtE6&_nc_oc=AdnbkdDoXu5gAZ03IAUW3gwf5gdgUsB1blPnuLavFHJA9evyam01Z3OiNuV9GwFiAr4mrHU8ldDfpzQVZngPazcJ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cETMtEGVWLQAJ-1nJ_bkzw&oh=00_Afn6TWE0ae3ABbjGP5HVW1vRMXG_tjzvYhCPWGhQZEoZRA&oe=69556D1F)*Horizon central with clear assets, tags, and descriptions*
+<details>
+<summary>Image shows a world page with all of the metadata filled in</summary>
+
+<p></p>
+
+[Image shows a world page with all of the metadata filled in](../image_data/1e2fec4a3b655b30f99c7c5330304f60361a1429182233081f714208bfd900ab.md)
+
+### Overview
+The image is a screenshot of a game page titled "Horizon Central." It features a vibrant, futuristic cityscape as the background with large white text reading "Horizon Central." Below the title, there are several avatars of characters in a lively urban setting. On the right side, there is a vertical column with information about the game, including its rating, number of players currently online, and compatibility with mobile and VR platforms.
+
+### Key Elements
+- **Title**: "Horizon Central" in large white font against a colorful, neon-lit cityscape background.
+- **Background**: A bustling, futuristic city scene with neon lights, buildings, and a street filled with characters.
+- **Avatars**: Several characters are depicted in the foreground, standing in a social gathering area. They appear to be interacting with each other.
+- **Right Column**: Contains game information such as ratings, player count, and compatibility details.
+- **Rating**: "31.6K" with a thumbs-up icon.
+- **Player Count**: "853 here now" with a small icon indicating players.
+- **Compatibility**: "Mobile and VR" with a VR headset icon.
+- **Social Interaction Button**: A black button labeled "Go" with a walking figure icon.
+- **Share Button**: A light gray button with a share icon and the word "Share."
+
+### Visual Flow / Relationships
+- The most prominent visual is the large title "Horizon Central."
+- The avatars are positioned in the lower part of the image, drawing attention to the social aspect of the game.
+- The right column provides additional information in a structured layout, with clear headings and icons for easy navigation.
+
+</details>
+
+<p></p>
+
+*Horizon central with clear assets, tags, and descriptions*
 
 #### Visit quality: Hook and deepen engagement
 
@@ -94,7 +174,33 @@ Provide all the metadata requests for the system to accurately understand your w
 - **Instructions**: Helpful and clear directions or tutorials on what to do on their first visit that is easily accessible from the spawn point. The showInfoSlides API for typescript is an easy way to do this for mobile users.
 - **Multiplayer**: If your world is best played with other people, provide some things to do solo as well while the user is waiting for others to join or use [scripted NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs) to simulate other players. For worlds that have synchronous matches, use a lobby as a place where users can interact and queue up between matches.
 
-![Image shows an example world with a tutorial pop-up window directing the player to the next goal](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/508136590_743234581547829_5814352829136910543_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=UBREo1rGxGQQ7kNvwE0k8mZ&_nc_oc=AdnHMkBt9v9WXqG9EVU-hwd1WXPYalnifcbH0RJc46OtH34Ho4s1MaNzfNtsT4OxA3ytwAbZ2bA8b1A6SqP6IlUv&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cETMtEGVWLQAJ-1nJ_bkzw&oh=00_AflMuQ-a5jWu5bbi94pLB4PGPmUkT-Wco1HM28kr7QweLw&oe=695581F0)*Shovel Up features new user onboarding with tutorials on what actions to take next*
+<details>
+<summary>Image shows an example world with a tutorial pop-up window directing the player to the next goal</summary>
+
+<p></p>
+
+[Image shows an example world with a tutorial pop-up window directing the player to the next goal](../image_data/67f37c092b6c442ac547c45d401c2fbcef13a2866d2de807d8a333eff5cafdec.md)
+
+### Overview
+This image depicts a scene from a video game interface, specifically a tutorial screen. The player character is standing on a wooden dock near a body of water, with a beach and some structures in the background. A dialogue box at the top provides instructions, while a prompt at the bottom instructs the player to tap anywhere to continue.
+
+### Key Elements
+- **Dialogue Box**: Located at the top center, it has a pink background with white text that reads, *"The arrow points to your next quest goal."*
+- **Player Character**: Positioned on the dock, facing away from the camera. The character is wearing casual attire.
+- **Quest Text**: Located in the upper left corner, it says, *"Talk to Doug Dig!"* with a blue background.
+- **Version and Level**: On the left side, it displays *"v0.0.20"* and *"Level 1"* along with a progress bar indicating $0.
+- **Navigation Controls**: At the top, there are icons for menu, pause, and settings.
+- **Bottom Prompt**: At the very bottom, it says, *"Tap anywhere to continue."*
+- **Inventory**: At the bottom right, there is an inventory slot showing a shovel icon.
+
+### Visual Flow / Relationships
+The most prominent visual element is the dialogue box, which draws attention due to its bright color and central placement. The player character is secondary but still noticeable. The quest text and version information provide context for the player. The bottom prompt encourages interaction, directing the player's focus downward. The dock and surrounding environment establish the setting.
+
+</details>
+
+<p></p>
+
+*Shovel Up features new user onboarding with tutorials on what actions to take next*
 
 #### Repeat consumption: Drive retention
 
@@ -113,9 +219,69 @@ Maintain live operations of your world to consistently give users new reasons to
 - **[Events](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/creating-events/)** (currently available to Meta Horizon Creator Program members, [join now](https://developers.meta.com/horizon-worlds/programs)!): Host events in your world so users have fresh activities to do in your world. By hosting an event, users can subscribe and receive notifications to come back to your world. It also gives surfacing to your world in event shelves. When users have good experiences with your world’s events, they’ll subscribe to attend more, which creates a positive cycle of engagement and retention.
 - **Save**: Help users come back to your world by encouraging them to save your world, which will help them to find your world again in the **Saved** entrypoint or shelf. Your world will also be eligible to be surfaced when we recommend content from a user’s list of saved worlds. You can do this via giving instructions in the world or by utilizing the save gizmo.
 
-![Image shows the world listing for Bobber bay, including a note of recent updates](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/506476570_743234588214495_3191315324697182511_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=qqpDA1T3Ij8Q7kNvwGS0aBv&_nc_oc=AdmdXIstboU4Woo8_1CB34Tuki1Pa4V-5epGnDtQDLWu14ddf9QaRtYXnqTMGsGOD6f97_bZlMnjpxbfawJ5mOk7&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cETMtEGVWLQAJ-1nJ_bkzw&oh=00_AfkGldnWIV9p-I9VKC67bT83vZ4PvSJBOQ0sLEUJYy7diQ&oe=69558150)*Bobber Bay Fishing does regular updates on new content*
+<details>
+<summary>Image shows the world listing for Bobber bay, including a note of recent updates</summary>
 
-![Image shows an example leaderboard](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/506452807_743234614881159_2816668089721638828_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=3WJHJ9dUNf0Q7kNvwEsfp3u&_nc_oc=AdnZNIQ3M55_Q-UEUrjn5LYT7Y7XnRukMItiwT9ve1pas7qKxKyxAkRLcaWcT7zU0SqpbR_7H5lB5gLAFWF4l1bs&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=cETMtEGVWLQAJ-1nJ_bkzw&oh=00_AfkA6uGrA3nIuUtJcbQUo2g2iiV2AlFrgk_KCQdUCjdHkA&oe=695598E5)*Super Rumble implements a leaderboard for users to compete around*
+<p></p>
+
+[Image shows the world listing for Bobber bay, including a note of recent updates](../image_data/b6516ba33dd1ca7c1146d3dbf1157ffeb48c46d0585228444814418d1b8d6ce0.md)
+
+### Overview
+The image displays a promotional graphic for the game "Bobber Bay Fishing." It features a vibrant, cartoon-style depiction of a fishing dock with the game title prominently displayed. The right side of the image contains information about the game, including player count, compatibility, and updates.
+
+### Key Elements
+- **Visual Description**: The left side showcases a wooden dock extending into water, with a sign that reads "WARP WHARF." There’s a fish near the dock, and a character standing on the dock. The right side has a title card with the game name "Bobber Bay Fishing," a player count indicator, and a description of the game's features.
+- **Location**: The dock scene is on the left, while the game information is on the right.
+- **Contents**: 
+    - Left side: "WARP WHARF" sign, wooden dock, fish, character figure.
+    - Right side: Title "Bobber Bay Fishing," player count "173 here now," compatibility "Mobile and VR," update notification "Bobber Bay Updated!" and a brief description of the game's features.
+- **Visual Styling**: Bright, colorful graphics with a playful theme. The dock is detailed with ropes and wooden planks, while the text is bold and eye-catching.
+
+### Visual Flow / Relationships
+- Most prominent visually: The dock scene on the left.
+- Spatial relationships: The dock scene is adjacent to the game information on the right. There are no arrows or lines connecting the two sections.
+
+</details>
+
+<p></p>
+
+*Bobber Bay Fishing does regular updates on new content*
+
+<details>
+<summary>Image shows an example leaderboard</summary>
+
+<p></p>
+
+[Image shows an example leaderboard](../image_data/501f8af3579ea0d6803e64a692477acaef9b65dd16732abd58ce67e29c7b8be6.md)
+
+### Overview
+The image displays a leaderboard screen titled "Global Highest Level" within a game interface. The screen shows rankings of players based on their level scores, with a focus on the global leaderboard. The layout includes player names, their respective levels, and additional tabs for "My Rank," "Session," and "Mutuals."
+
+### Key Elements
+- **Title Bar**: Located at the top, the title "Global Highest Level" is prominently displayed in white text against a dark background. A trophy icon is situated above the title.
+- **Tabs**: Below the title bar, there are three tabs labeled "Global," "My Rank," "Session," and "Mutuals." These tabs are white with black text.
+- **Player List**: The central part of the screen lists players ranked from 1 to 10. Each entry includes a small profile picture next to the player's name and their corresponding level score.
+    - **Visual description**: Circular profile pictures with varying avatars.
+    - **Location**: Below the tabs.
+    - **Contents**: Player names and level scores.
+    - **Visual styling**: Dark background with light text for readability.
+- **Ranking Numbers**: Numbers 1 through 10 are displayed vertically on the left side of the player list.
+- **Player Names**: Names such as "Djmondoent," "BOND.007," "Joeyfosho," etc., are listed alongside their respective levels.
+- **Level Scores**: Numerical values representing the players' levels appear to the right of each name.
+- **Pagination**: At the bottom of the player list, there are navigation arrows indicating that more entries can be viewed.
+- **Background**: The background of the leaderboard screen is dark, likely to enhance contrast and readability of the text and images.
+- **Sidebar**: On the right side, there is a sidebar displaying "STATS" with a prompt to step into the stats section. This sidebar contains additional information and options related to the game.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The leaderboard itself is the most prominent visual element.
+- **Arrows and Lines**: Navigation arrows at the bottom suggest a way to scroll through more content.
+- **Spatial Relationships**: The leaderboard is centered, with the sidebar on the right providing supplementary information. The tabs at the top allow users to switch between different views of the leaderboard data.
+
+</details>
+
+<p></p>
+
+*Super Rumble implements a leaderboard for users to compete around*
 
 #### Technical performance: Target performance benchmarks
 

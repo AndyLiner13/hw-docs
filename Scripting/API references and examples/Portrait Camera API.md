@@ -20,11 +20,130 @@ To use the Portrait Camera API, you need:
 
 ## Enabling the API
 
-- Open the **Scripts panel** in the desktop editor. !['Menu bar script button](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/555073546_835743082296978_4049885224438889596_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=EhjoGssIffMQ7kNvwFxebol&_nc_oc=AdmqhliF1fZVv_IOWAF8mse9PFJWy8WvQM6JXvYKaKGyU6DjaowtVCZjcLTEkIArmqb6td3eEUhQz1Coz9vy_E9d&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ZSiga8qcaWkuYVtKkd1Kng&oh=00_AfnkdYqj0TjpvkfkHwuskazFsZFgT_4JQcSsRiwmODUlWw&oe=695598B8)
-- Click the gear icon to open Script Settings. !['Script button dropdown gear icon](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558820269_835743088963644_8046250276998552311_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=_ZMdb3wsz3oQ7kNvwEWl40k&_nc_oc=AdldRNw3ORsjDIXH6iA_eZG2m0_g7eoq9pXQVBU0Fto3yFA1azhy7XmlQx_mQcpOBk36FA2W4GB4VplAXzRDGc33&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ZSiga8qcaWkuYVtKkd1Kng&oh=00_AfnwYvy559sQDuJwA9YKxZvFfYApR9Dkvk1o871wMOUxwQ&oe=6955973C)
-- Click on **API** on the left side of the settings. !['Script settings API tab](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558832699_835743095630310_3754706073599624222_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=-IVRLiwgN6sQ7kNvwFFwgav&_nc_oc=AdmZOZ4cS8ynSIn7GMEPtK3982UmVplqyC8n5Qs-PSQa-Q0Rkd-88l-jqfWNK5ald01C_mAXjuiG4CHnlJmcXcZX&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ZSiga8qcaWkuYVtKkd1Kng&oh=00_AfmgCYjv6uMGuel-9JptdE897r5ndLgdkASPlA5OcLBcjw&oe=6955A3A3)
-- Enable **horizon/portrait\_camera**. !['Script settings toggle horizon/portrait_cameras](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/558696010_835743078963645_3222124908869930014_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=oHxt5u3fZ0YQ7kNvwFdiinh&_nc_oc=AdkuvhsBvC3ztTagFvb1o07upteKjkL_n80ZdD5nRKeL8ePOHO4KS7V6X_0OrAcKNmWpRaSp94SH5tD1ihSM03-h&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ZSiga8qcaWkuYVtKkd1Kng&oh=00_AfnIr2S-98Jva-g0bEkIXgYkmM7-6GTvLmezi_fKHg4DAw&oe=695583D3)
-- Click **Apply** to save the changes. !['Script settings toggle horizon/portrait_cameras](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/558905396_835743092296977_6218382442484754449_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=FCpxsixd6IIQ7kNvwHj9984&_nc_oc=AdmWqRbJ7aTzMw290YeFFp8sa8wQB9BBWq1mEkFyr1l3CMWaaRlJqxv6awnr3kovdjCuZNjVCGPSL_u73rSYzMm7&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ZSiga8qcaWkuYVtKkd1Kng&oh=00_AfmwWONc1wQ0ztx7fa2NKL1pHFqsYndumoX4xBnfTul_Ig&oe=69559B7C)
+- Open the **Scripts panel** in the desktop editor. <details>
+                                                    <summary>'Menu bar script button</summary>
+                                                    
+                                                    <p></p>
+                                                    
+                                                    ['Menu bar script button](../../image_data/1862b15822e8a0e02d949b7ec8310c9e10746b21f89af7522ef21c2218830f29.md)
+                                                    
+                                                    ### Overview
+                                                    This image depicts a user interface element from a software application, specifically a menu item labeled "Scripts". The interface includes a search bar, a sidebar labeled "Hierarchy", and various toolbars with icons and dropdown menus.
+                                                    
+                                                    ### Key Elements
+                                                    - **Menu Item "Scripts"**: Located at the top right, this is a dropdown menu indicated by a downward arrow next to the text "Scripts". It has a red bounding box highlighting it.
+                                                    - **Search Bar**: Positioned below the "Scripts" menu, it contains the placeholder text "> Search hierarchy".
+                                                    - **Sidebar "Hierarchy"**: On the left side, this section displays a tree-like structure with nodes such as "SpawnPoint".
+                                                    - **Toolbars**: At the top and bottom of the interface, there are toolbars with various icons representing different functions like build, systems, local, and others.
+                                                    - **Icons**: Various icons are present throughout the interface, such as a magnifying glass for the search bar and a plus sign for adding new items.
+                                                    
+                                                    ### Visual Flow / Relationships
+                                                    The most prominent visual element is the "Scripts" menu due to its highlighted bounding box. The search bar is secondary but important for functionality. The sidebar provides hierarchical navigation, while the toolbars offer quick access to different functionalities within the application.
+                                                    
+                                                    </details>
+                                                    
+                                                    <p></p>
+                                                    
+                                                    
+- Click the gear icon to open Script Settings. <details>
+                                               <summary>'Script button dropdown gear icon</summary>
+                                               
+                                               <p></p>
+                                               
+                                               ['Script button dropdown gear icon](../../image_data/324cba6fafae5390eab9f8dacd1bdca3c9118ced8b61c3123b269a86a238d044.md)
+                                               
+                                               ### Overview
+                                               This image depicts a user interface element within a software application, specifically a section labeled "Scripts." It includes a search bar, a plus sign for adding new items, a refresh icon, and a settings gear icon.
+                                               
+                                               ### Key Elements
+                                               - **Search Bar**: Located at the top-left, it has a magnifying glass icon and the placeholder text "> BasicOrientationDetection". The background is white, and the text is black.
+                                               - **Plus Sign**: Positioned next to the search bar, it is a simple '+' symbol.
+                                               - **Refresh Icon**: Situated to the right of the search bar, it is a circular arrow icon.
+                                               - **Settings Gear**: A gear icon located to the right of the refresh icon, encased in a red square for emphasis. It is a standard gear symbol representing settings.
+                                               - **Three Dots**: Positioned to the far right, it is a vertical ellipsis (...).
+                                               
+                                               ### Visual Flow / Relationships
+                                               The most prominent visual is the **Settings Gear** due to its placement and the red square highlighting it. The elements are arranged horizontally from left to right, with the search bar on the far left and the three dots on the far right. There are no arrows or lines connecting the elements, indicating a linear reading order from left to right.
+                                               
+                                               </details>
+                                               
+                                               <p></p>
+                                               
+                                               
+- Click on **API** on the left side of the settings. <details>
+                                                     <summary>'Script settings API tab</summary>
+                                                     
+                                                     <p></p>
+                                                     
+                                                     ['Script settings API tab](../../image_data/c5d120706f2516b9a897017bcd4921866c0bd2693ae8f31bbd0f00bfd709802d.md)
+                                                     
+                                                     ### Overview
+                                                     This image depicts a settings interface titled "Script Settings." It is divided into two main sections: a sidebar menu on the left and a content area on the right. The content area is further divided into two tabs: "API" and "Script editing," with the "API" tab currently active. The interface has a dark theme with blue accents for interactive elements.
+                                                     
+                                                     ### Key Elements
+                                                     - **Sidebar Menu**: Located on the left side, it contains options such as "API" and "Script editing." The "API" option is highlighted with a red rectangle and an arrow pointing towards it, indicating its selection status.
+                                                     - **Tab Header**: "API" is displayed at the top of the content area, enclosed within a red rectangle.
+                                                     - **Content Area**: The right side displays settings related to API scripting. It includes fields like "External Editor," "External Editor Directory," and "File-Backed Scripts." There are buttons labeled "Select" and "Reset" next to some fields.
+                                                     - **Footer Buttons**: At the bottom, there are two buttons labeled "Cancel" and "Apply."
+                                                     
+                                                     ### Visual Flow / Relationships
+                                                     The most prominent visual element is the "API" tab header, which is highlighted. The interface follows a linear reading order from left to right and top to bottom. The "API" tab is the focal point, drawing attention due to its highlighted state and the red arrow pointing to it.
+                                                     
+                                                     </details>
+                                                     
+                                                     <p></p>
+                                                     
+                                                     
+- Enable **horizon/portrait\_camera**. <details>
+                                       <summary>'Script settings toggle horizon/portrait_cameras</summary>
+                                       
+                                       <p></p>
+                                       
+                                       ['Script settings toggle horizon/portrait_cameras](../../image_data/6a5532055e5ca44e4b4c84f6f0711ab7da60acc236b4e5359b07b5ff1c6f4d6b.md)
+                                       
+                                       ### Overview
+                                       This image depicts a settings interface titled "Script Settings." It has a sidebar menu on the left with options labeled "API," "Console," and "Script editing." The main content area displays API-related settings, specifically showing an API version number and a toggle switch next to a text field containing a camera configuration string.
+                                       
+                                       ### Key Elements
+                                       - **Sidebar Menu**: Located on the left side, with options "API," "Console," and "Script editing." The "API" option is highlighted.
+                                       - **Main Content Area**: Positioned centrally, displaying API-related settings.
+                                         - **API Version**: Located at the top right, showing "2.0.0."
+                                         - **Camera Configuration Text Field**: A red-highlighted text field containing the text `horizon/portrait_camera`.
+                                         - **Toggle Switch**: Positioned to the right of the text field, indicating a selection status.
+                                       - **Buttons**: At the bottom, there are two buttons labeled "Cancel" and "Apply."
+                                       
+                                       ### Visual Flow / Relationships
+                                       The most prominent visual element is the red-highlighted text field, drawing attention to the camera configuration setting. The toggle switch is adjacent to this field, suggesting that selecting the toggle changes the camera configuration. The "API" option in the sidebar is highlighted, indicating the current focus of the interface.
+                                       
+                                       </details>
+                                       
+                                       <p></p>
+                                       
+                                       
+- Click **Apply** to save the changes. <details>
+                                       <summary>'Script settings toggle horizon/portrait_cameras</summary>
+                                       
+                                       <p></p>
+                                       
+                                       ['Script settings toggle horizon/portrait_cameras](../../image_data/c8448b30dbb57f86403843e8f250c5bfbbbe69d2ef19f8c876df2146c26846ef.md)
+                                       
+                                       ### Overview
+                                       This image depicts a user interface element within a software application, specifically a settings dialog box titled "Script Settings." The interface includes a sidebar with options ("API," "Console," "Script editing") and a main content area displaying API-related settings. A large red arrow points towards a prominent blue button labeled "Apply."
+                                       
+                                       ### Key Elements
+                                       - **Sidebar (Left Panel)**: Contains three options listed vertically: "API," "Console," and "Script editing." Each option has a small icon next to it.
+                                       - **Main Content Area**: Displays API-related settings, including "API Version" set to "2.0.0." There is a blurred-out text area below this setting.
+                                       - **Red Arrow**: Positioned centrally, pointing downward towards the "Apply" button.
+                                       - **Blue Button (Apply)**: Located at the bottom right of the main content area, outlined in red for emphasis. The button is blue with white text that reads "Apply."
+                                       
+                                       ### Visual Flow / Relationships
+                                       The most prominent visual element is the red arrow, which draws attention to the "Apply" button. The layout follows a standard form-filling pattern, with the "Apply" button being the final step after making changes. The red arrow acts as a visual guide, directing the user's focus to the action required.
+                                       
+                                       </details>
+                                       
+                                       <p></p>
+                                       
+                                       
 
 ## API reference
 

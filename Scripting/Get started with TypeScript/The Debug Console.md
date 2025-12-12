@@ -16,7 +16,33 @@ The Debug Console gizmo enables you to view the debug logs in a world while in p
   + Multiple Debug Consoles can be placed in a world, and all of them will receive the same logs.
   + Logs can be cleared by pressing the **Clear** button or searched by entering search terms in the search field.
 
-![The debug console as appears in VR](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/500046798_723434003527887_5773066203768188775_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=YzdHZWzEvWwQ7kNvwHMAxmU&_nc_oc=Admi_tDTMwf5nXJZ0MZRSr2cOC1E-ck8f9TNJVF7xrQ2VYyhOF1idbglozVx3j11wI4u62rds-jEVMe1s3Ua3ZxQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L7JmYKFdTbio4wQgDKFhaw&oh=00_AfkLA_PvyGSzeyd3F8HPpgenBFyUqRIeM-bELw_Y1oIByQ&oe=695597AD)
+<details>
+<summary>The debug console as appears in VR</summary>
+
+<p></p>
+
+[The debug console as appears in VR](../../image_data/d032292972eb365a4eca2f662afc0462ef7e592d0b18e1b6f9420b61c10cb1d7.md)
+
+### Overview
+The image depicts a user interface element labeled as a "Debug Console." It features a dark-themed design with a few interactive buttons and a search bar. The console area is currently empty, indicated by the text "Console is empty."
+
+### Key Elements
+- **Title**: "Debug Console" located at the top-left corner.
+- **Buttons**: Three purple buttons labeled "Start world," "Stop world," and "Reset world" are aligned horizontally near the top-center.
+- **Search Bar**: A rectangular search bar with a magnifying glass icon is positioned below the buttons.
+- **Clear Button**: A black button labeled "Clear" is situated to the right of the search bar.
+- **Message**: Below the search bar, the text "Console is empty." is displayed.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The title "Debug Console" is the most prominent visually due to its placement at the top.
+- **Arrows/Connections**: There are no arrows or lines connecting elements.
+- **Spatial Relationships**: The elements are arranged in a grid-like structure with the title at the top, buttons in the middle, search bar below them, and the clear button to the far right.
+
+</details>
+
+<p></p>
+
+
 
 ## Controlling Visibility of the Debug Console
 
@@ -31,7 +57,41 @@ In the Properties panel for a Debug Console, you can set the visibility of the c
 * **In Published World**
 * Visible in edit mode, preview mode, and published mode
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452531258_512535211284435_8472030137094230274_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=aA6eAvanIrYQ7kNvwFX4oyr&_nc_oc=AdmlSMwXWLhpc4jF9LwgaXgInWFCv8UflbZhLPySWQarSokuQ6iEbHpNlLPcuvlDUebyMJuolOhpjARmBrzKETFs&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=L7JmYKFdTbio4wQgDKFhaw&oh=00_AflmiXb771X2pxBn99MxaBxkNk0EIEdiXulJbi9j24udMg&oe=69559041)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/bdc4ec24644002a9b416ee4457fab9eebb25e6b44a4fb93a76d441e57700aa73.md)
+
+### Overview
+This image depicts a user interface element within a software application, specifically a dropdown menu under the "Behavior" section of a settings panel. The dropdown contains options related to visibility settings.
+
+### Key Elements
+- **Dropdown Menu**: A black dropdown menu with white text options.
+  - **Visual description**: The dropdown has a rectangular shape with rounded corners.
+  - **Location**: Positioned below the "Visibility" label.
+  - **Contents**: Contains three options:
+    > "Edit Mode Only"
+    > "Edit And Preview Mode"
+    > "In Published World"
+  - **Visual styling**: The background is dark gray, and the text is white. There are no borders around the dropdown itself.
+- **Background Panel**: The surrounding panel is dark gray with lighter gray headers.
+  - **Visual description**: The panel has a rectangular shape with rounded corners.
+  - **Location**: Surrounding the dropdown menu.
+  - **Contents**: Includes labels such as "Properties" and "Behavior," along with a small icon next to "CreatorDebugGizmo."
+  - **Visual styling**: The background is dark gray, and the text is white. There are no borders around the panel itself.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The dropdown menu is the most prominent element due to its central placement and larger size compared to the surrounding text.
+- **Arrows/Connectors**: There are no arrows or connectors visible in the image.
+- **Spatial relationships**: The dropdown menu is nested within the larger panel, which is part of a larger interface layout.
+
+</details>
+
+<p></p>
+
+
 
 The Visibility setting applies to the world owner, editors, and testers. If you configure a Debug Console with the “In Published World” setting, all collaborators will be able to see it. As a result, at no time will a regular world visitor see the console.
 

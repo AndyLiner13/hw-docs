@@ -8,7 +8,69 @@ Note
 
 World Broadcast does not work for worlds running in Portrait orientation at this time.
 
-![Kaiju TV Preview 1](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/574378543_856098620261424_7235849068988167141_n.gif?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=iFo6QllQE98Q7kNvwEmx963&_nc_oc=Adnf9LkujrMy1sJ9YJojSWBu9XhxCW6_qTOc42DJ9BMHp4KYAXRi1P57Ez3nnGjRzoSI3Gt0eyhPoUadwYyeLlTx&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=FnEDj3Oy8ZFtV_32uUmKgg&oh=00_AfnWCR8zltvB7e_LmAp2BoC669MoMLZtmFPCEnfF_Ec4Ag&oe=69557726)![Kaiju TV Preview 2](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/576919602_856786250192661_3609857197214141625_n.gif?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Svj9Agg5zakQ7kNvwEIUkMH&_nc_oc=AdlAGsG-IaGlvPw3lzmiMG3JEgiAQEEVmWpZk4yty41hxeezVKp_cVYWItVpO5M5x39Rb-9MVsqa7r_ayNJjlJq8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FnEDj3Oy8ZFtV_32uUmKgg&oh=00_AfkQz0qjHA3DRJ4hU5sSDJRje1226vdmOOTzYagnLjqVFQ&oe=6955838A)
+<details>
+<summary>Kaiju TV Preview 1</summary>
+
+<p></p>
+
+[Kaiju TV Preview 1](../../../image_data/20884ada8aea37c87bcf2b58cc1b19251e7186199786e778faaf9832c9602f50.md)
+
+### Overview
+This image appears to be a screenshot of a mobile application interface, likely related to a game or streaming service. The layout includes a mix of content tiles, a live stream announcement, and promotional content.
+
+### Key Elements
+- **Top Section**: Contains three content tiles with blurred images and text. Each tile has a "Go" button next to it.
+    - **Visual description**: Square-shaped tiles with rounded corners.
+    - **Location**: Top-left area.
+    - **Contents**: Blurred images and text that are not legible due to blurring.
+    - **Visual styling**: Dark background with light-colored text and icons.
+- **Middle Section**: Features a live stream announcement.
+    - **Visual description**: A rectangular banner with a cityscape image.
+    - **Location**: Center of the screen.
+    - **Contents**: Text stating "Streaming live from worlds" followed by a cityscape image and a "BREAKING NEWS" banner.
+    - **Visual styling**: Dark background with light-colored text and a red banner.
+- **Bottom Section**: Displays a promotional announcement.
+    - **Visual description**: A rectangular banner with text and an image of a character.
+    - **Location**: Bottom-left area.
+    - **Contents**: Text stating "Kaiju City Showdown" and "Fall Frights Sale" with additional information about availability.
+    - **Visual styling**: Dark background with light-colored text and a red banner.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The live stream announcement banner in the middle.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: Tiles are arranged vertically, with the live stream announcement banner spanning across the width of the screen below the tiles.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Kaiju TV Preview 2</summary>
+
+<p></p>
+
+[Kaiju TV Preview 2](../../../image_data/0a750825996e1c01b215dce7e62e164f005d0508832e8683ab86ddfcf8f5527c.md)
+
+### Overview
+This image depicts a mobile game interface, specifically for a game called "Kaiju City Showdown." The layout includes a banner at the top, a game description in the middle, and a call-to-action section at the bottom.
+
+### Key Elements
+- **Top Banner**: Located at the very top, it features a cityscape with buildings and greenery. It has a red "BREAKING NEWS" banner stating "The Kaiju has moved onto the Town Hall district."
+- **Game Title**: Below the banner, the title "Kaiju City Showdown" is prominently displayed in white text against a dark background.
+- **Game Details**: Includes "Unit 2 Games," a follow button, and tags such as "World," "Shooter," "Action," and "Party game."
+- **Statistics**: Displays visitor numbers ("1.6M visitors"), player count ("20.7K players"), and age rating ("ages 10+").
+- **Call-to-Action Buttons**: Two buttons labeled "Go" and "Invite" are present beneath the statistics.
+- **Description Section**: Contains a brief description of the game, encouraging players to defend or destroy the city as a Kaiju.
+- **Similar Worlds**: At the bottom, there's a section titled "Similar worlds" with thumbnail previews of other games.
+
+### Visual Flow / Relationships
+The visual hierarchy is clear, with the game title and statistics being the most prominent elements. The call-to-action buttons are secondary but easily noticeable. The description section provides additional information without overwhelming the user. The layout flows from top to bottom, with the banner introducing the game, followed by the core game information, and concluding with a call-to-action and similar games suggestions.
+
+</details>
+
+<p></p>
+
+
 
 A high-quality integration shows the world’s action: what players are doing, how they’re playing together, and cool moments. It chooses where to point the camera to capture the best shots where the action happens.
 
@@ -43,7 +105,33 @@ this.connectCodeBlockEvent(
 
 # High-level Overview
 
-![High Level Overview](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/576812439_856098626928090_4647607474605769259_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=mkBCbcQCTCEQ7kNvwHpjvJO&_nc_oc=AdltjMNbUN-Ikr52ZbtjsLLv-hytAKWtJC_Y6eCVXLqXdc-Tv0y-w1KwT2WHvqob5erD-WcRBg4RNXa3QePo8cFS&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FnEDj3Oy8ZFtV_32uUmKgg&oh=00_AfmBQ5wk3LufPC_VpdiAtVIfkL3u65XonsEFYeXZ6xoV9w&oe=69559CB3)
+<details>
+<summary>High Level Overview</summary>
+
+<p></p>
+
+[High Level Overview](../../../image_data/5d98bae48c88f87203bf6a574e6dd40f687e75d2367ef7b51dfcccaf06406241.md)
+
+### Overview
+This image depicts a flowchart-style diagram illustrating a process involving multiple components and connections. The diagram includes labeled boxes representing different entities and arrows indicating the flow or relationship between them.
+
+### Key Elements
+- **Kaiju City Showdown**: Four identical boxes located at the left side of the diagram. Each contains the text "Kaiju City Showdown." These boxes are connected to the central "Stream Controller" box via dashed lines labeled "On Standby."
+- **Stream Controller**: A central rectangular box labeled "Stream Controller." It has two incoming arrows from the "Kaiju City Showdown" boxes and one outgoing arrow pointing to the "Stream" box.
+- **Active**: A label within the "Stream Controller" box that reads "Active," indicating a state or condition.
+- **Stream**: A rectangular box labeled "Stream," which receives an arrow from the "Stream Controller."
+- **Facebook**, **Instagram**, **Meta Horizon**: Three boxes on the right side of the diagram, each containing the respective platform name. These boxes are connected to the "Stream" box via solid arrows, suggesting a connection or output from the stream.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the "Stream Controller" as it acts as the central hub connecting various components.
+- Arrows indicate the direction of flow or connection between elements.
+- The "Kaiju City Showdown" boxes are grouped together and connected to the "Stream Controller" via dashed lines labeled "On Standby," while the platforms on the right are connected to the "Stream" box via solid arrows.
+
+</details>
+
+<p></p>
+
+
 
 The World Broadcast Stream Controller periodically scans all public instances of a given world, and discards those with players below a minimum count. It ranks the remaining instances (e.g., by population, player idleness) and selects some to prepare for streaming. One instance is then selected and presented to the public via a live-stream on the Meta Horizon app and potentially within the wider Family of Apps (exact locations vary). Periodically, a different instance is selected for presentation, e.g. if the current instance’s population drops or a more active instance becomes available.
 
@@ -72,13 +160,65 @@ Two Unit 2 Games worlds are currently integrated: Kaiju City Showdown and Pets P
 
 Uses a custom-scripted setup with a prop news helicopter that circles the Kaiju with a camera attached underneath. Custom UI creates the appearance of a live news broadcast, with headlines that react to in-world events.
 
-![Kaiju City Showdown Broadcast](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/596797597_883625014175451_6761727229233062246_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=z1umYpevRqMQ7kNvwGuXPxX&_nc_oc=Adk1yKapfiSCO40G0A9ddz5GuHRSScIpmfXzNYq99EIIZyhrs_7VuSl2l25X6gsuvIBKAhB0BsrfU6fqwKiGpCOn&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FnEDj3Oy8ZFtV_32uUmKgg&oh=00_Afmi4bP-t0JTBgZ3NEqySAxs8FDrkFJ52gAQnuvblOPHzA&oe=69558248)
+<details>
+<summary>Kaiju City Showdown Broadcast</summary>
+
+<p></p>
+
+[Kaiju City Showdown Broadcast](../../../image_data/3f068ba8858c52827a2d9ed9a57eaa03f0c40aa446b682333aee992ab59df016.md)
+
+### Overview
+This image depicts a live stream interface from a mobile game called "Kaiju City Showdown." The screen shows a top-down view of a cityscape, with a notification banner at the bottom providing information about the game's current status and a live chat section above it.
+
+### Key Elements
+- **Top Section**: A 3D cityscape viewed from above, showing streets, buildings, and a small blue marker indicating the player's location.
+- **Notification Banner**: Located at the top of the screen, displaying "BREAKING NEWS" in bold white letters against a red background. Below it, a message states, "The Kaiju has moved onto the Bank district."
+- **Live Stream Overlay**: A small "LIVE" indicator in the top-left corner, with a microphone icon next to it.
+- **Game Information**: Below the notification banner, the game title "Kaiju City Showdown" is displayed, along with its genre ("Action • Arcade") and the number of players currently in the game ("25 here now").
+- **Game Description**: A brief description of the game's premise, stating, "Defend the city or destroy the city as a monstrous Kaiju. Find out how you roll in our newest world, Kaiju City Showdown. You can play as the 60-foot Kaiju in VR and experience scale."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The 3D cityscape in the top section.
+- **Arrows/Connectors**: None.
+- **Reading Order**: The information flows from the top-down cityscape to the notification banner, then to the game information, and finally to the description.
+
+</details>
+
+<p></p>
+
+
 
 ## Pets Park
 
 [Pets Park - Meta Horizon](https://horizon.meta.com/world/9116337161745306/) (open on mobile to see the stream in the Meta Horizon app). Uses the example framework to place trigger zones in the world. These zones activate cameras when players are present.
 
-![Pets Park Broadcast](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/595160997_883625010842118_1936089552443882208_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=8vanmyzBWd8Q7kNvwF4FJWu&_nc_oc=Adko5vAQBhsk-8d1CfSOl3x18feaRfV-2_MU6U4meSQHfA25OrrMF9f9M31JfXFIIm4eyK7RNbf7QoMcI_wtuqy0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FnEDj3Oy8ZFtV_32uUmKgg&oh=00_Afl0xd_5X0ZYO9PATzJw4oQQdta2xkK7V2Lm5-ASX_I3zA&oe=69559DFB)
+<details>
+<summary>Pets Park Broadcast</summary>
+
+<p></p>
+
+[Pets Park Broadcast](../../../image_data/5b3be281d25cea747fd46fd3c20891ad5b1e44a0fbf73c174d6c0c536344550f.md)
+
+### Overview
+This image depicts a screenshot from a virtual environment, specifically a live stream interface for a game or app called "Pets Park." The scene shows a virtual park setting with a character standing on a large paw print design in the center. The layout includes interactive elements such as a chat bubble, player count, and various buttons for sharing, inviting friends, and saving the stream.
+
+### Key Elements
+- **Top Left Corner**: A chat bubble icon with "LIVE" text indicating a live stream status.
+- **Top Right Corner**: An "X" button likely for closing the stream interface.
+- **Center**: A circular area with a character standing on a large pink paw print design on green grass. The ground around this area is paved stone.
+- **Left Panel**: A circular icon with a cat silhouette and "1/8" indicating a series or episode number.
+- **Bottom Left**: A thumbnail image of a paw print with a cat face, labeled "Pets Park Adventure," showing "15 here now" and compatibility with mobile and VR devices.
+- **Bottom Center**: Interactive buttons for "Share," "Invite," and "Save."
+- **Bottom Text**: Describes the activity as "Available to spectators" and provides a brief description of the game mechanics.
+
+### Visual Flow / Relationships
+The most prominent visual is the central paw print design where the character stands. The chat bubble and "LIVE" indicator are secondary but still noticeable. The interactive buttons at the bottom are arranged horizontally, suggesting a linear reading order from left to right. The thumbnail image and player count are positioned to the left, drawing attention to the game title and current player count.
+
+</details>
+
+<p></p>
+
+
 
 # Additional Recommendations
 

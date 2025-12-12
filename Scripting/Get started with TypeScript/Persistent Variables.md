@@ -30,7 +30,34 @@ To begin, you must create a new variable group to hold your persistent variables
 - Open the Desktop Editor.
 - From the menubar, select the **Systems menu**. Then, select **Variable Groups**.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/488371343_686408227230465_558522364558440630_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=iJBSfkjSoSgQ7kNvwG6ihun&_nc_oc=AdlNXZ0KXNdc1ZFT4v-OYVieprvTGIsn13_j50TZhGIWktrxnmcH_1SU8RXa9M5LxKy2XA---KqFcreoSfa_S3M3&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=8BTFydYwnJBC3Dr51v9eTg&oh=00_AfnFjiIr3HKhM-JIaH9Nh3QbGT1Jb2xN4pYSEc_v35N-8w&oe=69557E7B)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/8c2915e5f9472e2933f6e094127e7fe99724e459720ed22c06bdb826398ee4e1.md)
+  
+  ### Overview
+  This image depicts a user interface section within a software application, specifically showing a list of variable groups under the "Systems" tab. The layout includes navigation options at the top, a search bar, and a list of variable groups with some interactive elements.
+  
+  ### Key Elements
+  - **Navigation Bar**: Located at the top, with tabs labeled "Systems," "Scripts," and "Gen." Each tab has a downward arrow indicating a dropdown menu.
+  - **Search Bar**: Positioned below the navigation bar, with a magnifying glass icon on the left side.
+  - **Variable Groups List**: Below the search bar, displaying two entries:
+    - **First Entry**: "v2.0.0 Example Cloned Variable Group" with a red and orange icon on the left, indicating persistent variables (3 Persistent Variables).
+    - **Second Entry**: "varPlayerGlobals" with a similar icon, also indicating persistent variables (3 Persistent Variables) and collaborators (1 Collaborator).
+  - **Dropdown Menu**: To the right of the search bar, labeled "Added to World" with a downward arrow, suggesting a filter or sorting option.
+  - **Add Button**: A plus sign (+) icon located to the right of the search bar, likely for adding new items.
+  - **Sort Icon**: An icon resembling a shuffle symbol (↑↓) next to the add button, possibly for sorting functionality.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the variable group entries, which are arranged in a vertical list. The navigation bar and search bar are positioned at the top, providing context and functionality. The dropdown menu and add button are secondary elements that interact with the main content. The sort icon is placed to the right of the search bar, indicating its relation to the search functionality.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - In the Variable Groups panel, you can select, import, or create a variable group to store your variables:
 
   * **Select**: Select one of the variable groups that has already been added to the world.
@@ -51,7 +78,33 @@ The following basic steps describe how to create an Object persistent variable a
 - If you have not done so already, select the variable group in which to store your persistent variable.
 - The name of your variable group and all persistent variables that it contains is displayed:
 
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/487316880_686408230563798_1945088927905705895_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=s3nCsW6gtQoQ7kNvwGdTlrA&_nc_oc=Adm2La0C1EsthWnYGEaiK4yIwoh_TfzRc9agt5uW3STRVUozK_pzEfDvJ0b6B5pSQBXbzFt6Ao8eZUnVga1bouHY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=8BTFydYwnJBC3Dr51v9eTg&oh=00_AfmZvWevmFBXPIx_rX6DUvt87DhNFWVK8kygTzYVz82jmw&oe=69556DAB)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/cdd2ad5c45bf83646cccc4fa983bd7d19de5f657b783b1789b1e547d8b13480a.md)
+  
+  ### Overview
+  This image depicts a user interface section of a software application, specifically a variable management screen within a systems or scripts module. The interface includes a dropdown menu, a search bar, and a list of persistent variables.
+  
+  ### Key Elements
+  - **Dropdown Menu**: Located at the top-left corner, labeled "Systems" with a downward arrow indicating a dropdown functionality.
+  - **Search Bar**: Positioned below the dropdown menu, spanning horizontally across the middle of the screen. It has a magnifying glass icon on the left side.
+  - **Persistent Variables List**: Below the search bar, displaying two entries:
+    - **intTotalPoints**: A variable entry with a yellow icon and the label "Number".
+    - **objQuestObjectives**: Another variable entry with a blue icon and the label "Object".
+  - **Variable Groups Section**: Above the persistent variables list, labeled "Variable Groups". There is a partially visible group name starting with "v2.0.0 Example..." followed by ellipsis (...).
+  - **Additional Controls**: To the right of the group name, there are a plus sign (+), a gear icon (settings), and a vertical ellipsis (...).
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the dropdown menu and the persistent variables list. The dropdown menu is the primary interactive element, suggesting that users can expand it to view more options. The persistent variables list is secondary but important as it displays the current state of the system's variables. The search bar acts as a tool for filtering through the variables. The layout follows a standard grid structure with elements aligned horizontally and vertically.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Next to the name of the variable group, click the **+ icon**.
 - In the Create Variable dialog:
   - **Name**: Enter the name of the variable. This name is displayed in the user interface and is referenced in any TypeScript that you use to access the variable.

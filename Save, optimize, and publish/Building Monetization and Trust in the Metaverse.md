@@ -8,7 +8,37 @@ A trusted and profitable digital economy in the metaverse depends on three core 
 - Ensuring a clear and valuable exchange for in-app purchases (IAP).
 - Establishing robust safety nets that protect players and reassure parents.
 
-![Graphic depicting the flow for building monetization trust](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/559526772_829820546222565_4029383624387910230_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=DbEQmdiITWEQ7kNvwGlpcBS&_nc_oc=Admc4XlEBCS1O2w8v3WExxCfNA9sgzF7ALAOTKOQ2hYCVTAEYjUNCIFdVp5zJ84qKe6fPZfIGVhSDhkgXyZoOj0y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ejn1WO-XDZ-tyh2KU1J6Qw&oh=00_AfmSL_CrQDttn25I6UmSt8vmDlBljO7uDrvqNuDMw7LqHQ&oe=69559F4D)
+<details>
+<summary>Graphic depicting the flow for building monetization trust</summary>
+
+<p></p>
+
+[Graphic depicting the flow for building monetization trust](../image_data/9deab33a369fff36debc65dfa583d4c74c13894d639b4883541b1eb781fb502b.md)
+
+### Overview
+This image depicts a circular flowchart with three distinct sections, each labeled with a number and a brief description. The flowchart uses an infinity symbol shape to represent a continuous loop, indicating a cycle or process that repeats indefinitely.
+
+### Key Elements
+- **Visual description**: The infinity symbol is light blue with a gradient effect, transitioning from yellow to purple.
+- **Location**: The infinity symbol spans horizontally across the image, with the left side being yellow and the right side purple.
+- **Contents**: 
+  - **Left Section**: "Cultivate" with the description "> Continued play builds affinity and confidence, making players more open to in-app purchases." The number "1" is in a yellow circle at the top-left corner.
+  - **Middle Section**: A large blue arrow pointing clockwise, connecting the two ends of the infinity symbol.
+  - **Right Section**: "Unlock engagement" with the description "> A successful purchase leads to more fun, deeper connection, and reasons to return." The number "3" is in a purple circle at the top-right corner.
+  - **Bottom Section**: "Make a purchase" with the description "> Players spend money or earned credits on IAPs that should enhance enjoyment and progression." The number "2" is in a blue circle at the bottom-center.
+
+- **Visual styling**: The infinity symbol has a smooth gradient transition from yellow to purple. The numbers are encased in circles of corresponding colors (yellow, purple, and blue).
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The infinity symbol itself, as it forms the central structure of the flowchart.
+- **Arrows/lines/connectors**: The large blue arrow connects the two ends of the infinity symbol, indicating the flow of the process.
+- **Spatial relationships**: The sections are arranged in a circular manner, with the left and right sections connected by the arrow, and the bottom section positioned below the middle of the infinity symbol.
+
+</details>
+
+<p></p>
+
+
 
 ## Engagement is paramount
 

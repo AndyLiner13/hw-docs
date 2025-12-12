@@ -86,6 +86,56 @@ Incorporating the Five Flavors into Your World
 
 Core loops are critical to retention — and integrating one or more of these motivators can make your World even stickier. Here’s how to put each into practice:
 
-![Combining the five flavors chart](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/556642021_829820549555898_2329900846174901174_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=sQotlbKD1h8Q7kNvwEwdvnd&_nc_oc=AdnHH4pbLrmmW_ZFI9_CwmxDTs6DjmAYb1Uuj1xPJmIjvwKhIv2N6YOHE-V0rwbDpHWsUZdQl2R0yD-uW4Ez02MU&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UhHS45zRctMfYN7FU0vF7g&oh=00_AfmmoO1HZUOxtL6gTecNr-zVNtvuhTILHcaJlUfn3UXNgw&oe=695581E2)
+<details>
+<summary>Combining the five flavors chart</summary>
+
+<p></p>
+
+[Combining the five flavors chart](../image_data/b258998e550ede82d71c693a51cbf3608c5cd3ca71ebe8764443230eff111840.md)
+
+### Overview
+The image displays a layout of five distinct sections, each representing a different aspect of game design or development. Each section has a title and a corresponding description, presented within a colored box. The sections are arranged in a grid-like pattern, with two sections on the top row and three on the bottom row.
+
+### Key Elements
+1. **Customization**
+   - **Visual description**: A light purple box with rounded corners.
+   - **Location**: Top-left corner.
+   - **Contents**: > "Enable personal expression through extensive customization options.\nImplement distinct visual styles.\nLet players save and share their creations.\nKeep things fresh with new customization elements delivered through updates and seasonal events."
+   - **Visual styling**: Light purple background, white text, no borders.
+
+2. **Collection**
+   - **Visual description**: A light yellow box with rounded corners.
+   - **Location**: Top-center.
+   - **Contents**: > "Design a tiered rarity system for items, ensuring some level of friction and surprise in acquisition (such as 'lucky dip' mechanics or time-limited events).\nProvide ways for players to display their collections and work towards completing sets."
+   - **Visual styling**: Light yellow background, white text, no borders.
+
+3. **Care**
+   - **Visual description**: A light teal box with rounded corners.
+   - **Location**: Top-right corner.
+   - **Contents**: > "Create opportunities for players to care for pets or NPCs, with agentic behaviors that make the relationship feel real.\nIncorporate low-stakes, high-reward chores and visually depict the growth of these relationships over time."
+   - **Visual styling**: Light teal background, white text, no borders.
+
+4. **Competition**
+   - **Visual description**: A light blue box with rounded corners.
+   - **Location**: Bottom-left.
+   - **Contents**: > "Implement clear win/lose conditions, time limits, and opportunities for technical mastery that create excitement.\nIntroduce dynamic ranking systems and seasonal tournaments to keep stakes high and showcase player progress."
+   - **Visual styling**: Light blue background, white text, no borders.
+
+5. **Narrative**
+   - **Visual description**: A light peach box with rounded corners.
+   - **Location**: Bottom-center.
+   - **Contents**: > "Develop a rich, multi-layered storyline with engaging characters players can connect with.\nProvide a main character perspective and add side quests to deepen immersion.\nIncorporate mystery and depth through unexplored areas."
+   - **Visual styling**: Light peach background, white text, no borders.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central section titled "Collection" due to its larger size compared to others.
+- **Arrows, lines, connectors**: None.
+- **Implied reading order**: From left to right, then down to the next row.
+
+</details>
+
+<p></p>
+
+
 
 By thoughtfully designing your game around these motivators, and emphasizing their social potential, you can deliver experiences that captivate players in the moment while building long-term engagement and community.

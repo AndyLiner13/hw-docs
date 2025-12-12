@@ -37,11 +37,71 @@ If an item is held incorrectly on web and mobile, you can enable the **Use HWXS 
 
 This setting will only override the behaviour for web and mobile clients, and if disabled, the standard **VR Grab Anchor** selection will be used.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519427754_770476942156926_5720430056048818403_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=2w-c3Kr4DwYQ7kNvwGcZW8W&_nc_oc=Adk-tjhNLFDnZ8-NZ0-if7B2lBPPL2Rc8U75VnxdfpLlNBQVawAKf84_rpQoyjXtiyGvVo1QiZ_8LIDEaaCjkNdx&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ss36IJyxUWrSDtfSKlO2EA&oh=00_AfngylatMFKU3QHmUIedwPQOyZsC7oEx_elYZsk2zOh04A&oe=6955A1DD)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/6d25ec2e6064db0c3fd58795e7e802b2c78f10ac7e6a8e1875ab747da8d3f9b3.md)
+
+### Overview
+This image depicts a settings interface with various configuration options related to collision events and grab anchors. The layout is structured with labels on the left and corresponding input fields or toggle switches on the right.
+
+### Key Elements
+- **Collision Events From**: A dropdown menu labeled "Nothing" indicating no specific collision events are currently selected.
+- **Use Grab Lock**: A toggle switch that is off, indicated by its unselected state.
+- **Use Grab Anchor**: A toggle switch that is on, indicated by its selected state.
+- **Grab Anchor... X -40 Y -10 Z 0**: An input field showing coordinates for one grab anchor.
+- **Grab Anchor... X -15 Y 90 Z 0**: Another input field showing coordinates for another grab anchor.
+- **Use Per Hand Grab Anchors**: A toggle switch that is off.
+- **Grab Aim P... X 11.61 Y 0.71 Z 0.27**: An input field showing coordinates for a grab aim point.
+- **Grab Aim R... X 0 Y 90 Z 0**: Another input field showing coordinates for a grab aim rotation.
+- **Avatar Pose**: A dropdown menu set to "Pistol".
+
+### Visual Flow / Relationships
+The interface is organized in a grid-like structure with labels on the left and corresponding input fields or toggle switches on the right. The toggles and input fields are arranged vertically under their respective labels. The most prominent visual elements are the toggle switches, as they stand out due to their distinct blue color when selected.
+
+</details>
+
+<p></p>
+
+
 
 Alternatively, you can also set the grip anchor in VR, and then manipulate the grip hand visually.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519422621_770476948823592_8191593475986477756_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=xjTwGTT9GOIQ7kNvwF51kLY&_nc_oc=Adl41_-jrkkES9RB4Tbowo8Ayf07rycD-TyYvNfPXVYLkqednNT4iumQK0qdVnhTc1BSNYCjeAg6vJirXH1f3k_P&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ss36IJyxUWrSDtfSKlO2EA&oh=00_AflwSr1Jsi4kyMc2DFSwG8hvBCU2UuY20lLZ5Ed0N5ke3g&oe=6955709A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/40a41f42559e37dca94829db1f8e542f174df5a29a21f9339ecba62cb20b4d04.md)
+
+### Overview
+The image depicts a 3D model of a futuristic-looking weapon, likely a blaster or energy gun, with a user interface overlaying part of the scene. The weapon has a sleek design with green accents and a blue energy effect emanating from its barrel. A floating interface window is visible above the weapon, displaying various settings and attributes related to the object.
+
+### Key Elements
+1. **Weapon Model**
+   - **Visual description**: A 3D model of a blaster with a cylindrical barrel and a handle.
+   - **Location**: Bottom-left quadrant of the image.
+   - **Contents**: The model includes a green circular detail near the barrel and a blue energy effect at the end of the barrel.
+   - **Visual styling**: The weapon has a metallic finish with green highlights.
+
+2. **User Interface Window**
+   - **Visual description**: A rectangular window with a dark background and light-colored text.
+   - **Location**: Top-right quadrant of the image.
+   - **Contents**: Contains multiple fields and toggles, such as "Attribute," "Colliding Type," "On," "Visible," "Collidable," "Motion," and "Attached."
+   - **Visual styling**: The window has a semi-transparent black background with white and purple text, and a small 'X' icon in the top-right corner.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The blaster model is the focal point due to its size and central placement.
+- **Arrows, lines, connectors**: There are no explicit arrows or lines connecting elements within the image.
+- **Spatial relationships**: The interface window is positioned above the blaster model, suggesting it is a tool for interacting with or modifying the weapon.
+
+</details>
+
+<p></p>
+
+
 
 ## Disable Physics While Grabbed
 
@@ -54,7 +114,29 @@ To avoid hand collision issues on mobile devices, disable physics interactions f
 - In the **Interaction** dropdown, select **Physics and Grabbable**.
 - Enable the **Disable physics while grabbed** toggle. This will temporarily bypass physics interactions.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519412753_770476945490259_2338891858305916899_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=JEoidoSg66cQ7kNvwEhU_Qg&_nc_oc=Adka5i8NSTbm36WA4PAkzfMoaLa1Jjx-5wHNUT7VwWZHqcaDQhnT1hARvhRiaJ0KFEnvOuBBMJWvJu1J6kwNgfUE&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ss36IJyxUWrSDtfSKlO2EA&oh=00_Afkkx_sGpzjMg80npa3FJGHj6GOEQ7hYOLo3vm4-e6v5yA&oe=695594E8)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/cbfc73e991535a4ee3b998ab855bb2cdfc539779494b7fb50a382964118fb81f.md)
+
+### Overview
+This image displays a user interface snippet featuring two interactive dropdown menus within a dark-themed interface. The layout includes a sidebar on the left and a content area on the right.
+
+### Key Elements
+- **Sidebar (Left Panel)**: Located on the left side, containing two menu items labeled "Motion" and "Interaction". The text is white against a dark background.
+- **Interactive Dropdown (Top Right)**: Positioned at the top right, it has a white background with a dark border. The text "Interactive" is displayed inside, accompanied by a downward-facing arrow indicating a dropdown functionality.
+- **Physics and Grabbable Dropdown (Bottom Right)**: Below the "Interactive" dropdown, another similar white-background dropdown is visible. It contains the text "Physics and Grabbable".
+
+### Visual Flow / Relationships
+The most prominent elements are the two dropdown menus. The "Interactive" dropdown is slightly more prominent due to its placement at the top right compared to the "Physics and Grabbable" dropdown below it. There are no arrows or lines connecting the elements, suggesting a linear reading order moving from left to right and then down.
+
+</details>
+
+<p></p>
+
+
 
 ## Programmatically Control Physics for Grabbable Entities
 
@@ -142,4 +224,39 @@ By increasing the interaction range, you make it easier for players—especially
 
 The interaction range setting is available in the Properties panel of the interactable entity, allowing creators to customize the effective distance at which the entity can be interacted with.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/524627770_776044151600205_8550447281540913694_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=7UjZDlHObiQQ7kNvwHnC6tg&_nc_oc=AdmnnsYxWrIUCEuKVynQTpxjCkMTyVwTSmRoaE27Jozgw41Aii2syQ6HBrTHZ_EqR0PPb1DpQ3XpxYBwKZ_5aukT&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ss36IJyxUWrSDtfSKlO2EA&oh=00_Afl3CikxCpzXp999rqz8CF0WJQHqDmCrSVqPZDh7k0GnHQ&oe=69558D0A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/d6e23ecbb184eacf3ae1615820aef5d5b2bfd478be01a32ac7a2074dd97d8064.md)
+
+### Overview
+The image displays a user interface element showing settings for an interactive object within a game development environment. The left side of the image shows a 3D model of a weapon-like object, while the right side contains a settings menu with various parameters listed under categories such as "Interactivity," "Physics," and "Navigation."
+
+### Key Elements
+- **Left Panel (3D Model)**: A 3D model resembling a gun with a scope is shown. It has a brown handle, a blue barrel, and a purple grip. There is a small gray triangle at the top with an upward-pointing arrow.
+- **Right Panel (Settings Menu)**:
+  - **Header**: "This object has no tags"
+  - **Interactivity Section**:
+    - **Targeting Delay After Release**: 0.00
+    - **Perfect Rank Distance**: 0.30
+    - **Max Distance**: 2.50
+    - **Distance Rank Multiplier**: 0.10
+    - **Perfect Rank Angle**: 1.00
+    - **Max Angle**: 45.00
+    - **Angle Rank Multiplier**: 1.00
+    - **Bypass Line of Sight**: Toggle switch (off)
+    - **Uses Raycast Direction**: Toggle switch (off)
+    - **Use Grab Anchors**: Toggle switch (off)
+  - **Physics Section**:
+    - **Physics Audio Material**: Dropdown menu set to "None"
+  - **Navigation Section**: Partially visible but not fully expanded.
+
+### Visual Flow / Relationships
+The left panel shows the 3D model, which is likely the object being configured. The right panel lists various parameters that can be adjusted for this object. The parameters are organized into sections, and the interactivity settings are most prominent due to their larger font size compared to the other sections. The settings are arranged vertically, with each parameter followed by its value or toggle switch.
+
+</details>
+
+<p></p>
+

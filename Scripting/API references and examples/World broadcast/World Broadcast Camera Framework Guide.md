@@ -147,7 +147,45 @@ This preset includes:
 
 To add more camera zones, duplicate the Static Camera Zone entity. Ensure each zone has a unique id, or leave the `zoneId` field empty to generate a unique id automatically.
 
-![Static Zone](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/580475573_862854959585790_4049440863384266801_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=hHooAdEBgl4Q7kNvwF-ps5W&_nc_oc=AdlRnREw5yI8JnEttfcxmHbzUwCp1xoinI0NDSDj3ku9XzF36_X2K3xckv5mOKe7l2vIYwt89HqNzjOm15-B3HCE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=xFM1qLek-xzv0Q-JCKDfVQ&oh=00_AfmaV2pvnH8etVBGFDlCGPVj1MYRt_aE_vNAqx9gpfr9Kg&oe=6955725B)
+<details>
+<summary>Static Zone</summary>
+
+<p></p>
+
+[Static Zone](../../../image_data/a8bc6ec7b186b371f0e581df2c5b5e1070f365ea5189525853d003912916e50b.md)
+
+### Overview
+This image depicts a hierarchical menu or tree view interface, likely part of a software application or configuration tool. The layout is structured with nested items under categories, indicated by expandable/collapsible nodes.
+
+### Key Elements
+- **Static Camera Zone**
+  - **Visual description**: A node with a square icon and a plus sign indicating expandability.
+  - **Location**: Top-left corner of the image.
+  - **Contents**: Contains two child nodes: "Activation Control Capability" and "Camera Position Capability".
+  - **Visual styling**: Dark gray background with white text and a light gray border.
+
+- **Camera Controller**
+  - **Visual description**: Another node with a square icon and a plus sign.
+  - **Location**: Below the "Static Camera Zone" node.
+  - **Contents**: Contains two child nodes: "Default Camera" and "Local - World Broadcast Camera Object".
+  - **Visual styling**: Similar to the first node, with a dark gray background, white text, and a light gray border.
+
+- **Camera Zone Registry**
+  - **Visual description**: A node with a square icon and a plus sign.
+  - **Location**: Below the "Camera Controller" node.
+  - **Contents**: Not expanded, showing only the icon and label.
+  - **Visual styling**: Same as the previous nodes.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The expandable nodes ("Static Camera Zone" and "Camera Controller") are the most prominent due to their larger size and the plus signs indicating expandability.
+- **Arrows/lines/connectors**: There are no explicit arrows or lines connecting the nodes; the indentation suggests a hierarchical relationship.
+- **Spatial relationships**: Nodes are arranged vertically, with each node indented beneath its parent node. The expandable nodes are slightly larger than the non-expandable ones.
+
+</details>
+
+<p></p>
+
+
 
 ### Camera Trigger Preset
 
@@ -159,7 +197,60 @@ This preset includes:
 
 To add more camera zones, duplicate the Camera Trigger Zone entity. Ensure each zone has a unique id, or leave the `zoneId` field empty to generate a unique id automatically.
 
-![Trigger Zone](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581160962_862854956252457_5624530874400437713_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=lr6ZlzaOxmoQ7kNvwHzsVTv&_nc_oc=Adnf8M2V8CkYxV2mB1EbZ99aDZLeqyJmauiCdrJnhApU1oh-_grlX8DghjIxEjzWkMIziG1PWWx1Hk4iVKOyuEKC&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=xFM1qLek-xzv0Q-JCKDfVQ&oh=00_AflU2B2BR-3ATSqYCWPwBWFahfVNnLUDPui3k3dQ5zUJ1Q&oe=69557A0B)
+<details>
+<summary>Trigger Zone</summary>
+
+<p></p>
+
+[Trigger Zone](../../../image_data/487958a054abe376ffc4b7c1a4951c6850bf71b83c5600279f7db29265c83425.md)
+
+### Overview
+The image displays a section of a user interface (UI) that appears to be part of a software application or documentation. It shows a hierarchical list under two main categories: "Camera Trigger Zone" and "Camera Controller." The layout suggests a tree-like structure with expandable nodes.
+
+### Key Elements
+- **Camera Trigger Zone**
+  - **Priority Calculation Capability**
+    - **Visual description**: A checkbox icon next to the text.
+    - **Location**: Below the "Camera Trigger Zone" heading.
+    - **Contents**: `Priority Calculation Capability`.
+    - **Visual styling**: Dark gray checkbox icon, white text, dark blue background.
+  - **Activation Control Capability**
+    - **Visual description**: A checkbox icon next to the text.
+    - **Location**: Below the previous item.
+    - **Contents**: `Activation Control Capability`.
+    - **Visual styling**: Same as above.
+  - **Camera Position Capability**
+    - **Visual description**: A checkbox icon next to the text.
+    - **Location**: Below the previous item.
+    - **Contents**: `Camera Position Capability`.
+    - **Visual styling**: Same as above.
+- **Camera Controller**
+  - **Default Camera**
+    - **Visual description**: A checkbox icon next to the text.
+    - **Location**: Below the "Camera Controller" heading.
+    - **Contents**: `Default Camera`.
+    - **Visual styling**: Same as above.
+  - **Local - World Broadcast Camera Object**
+    - **Visual description**: A checkbox icon next to the text.
+    - **Location**: Below the previous item.
+    - **Contents**: `Local - World Broadcast Camera Object`.
+    - **Visual styling**: Same as above.
+  - **Camera Zone Registry**
+    - **Visual description**: A checkbox icon next to the text.
+    - **Location**: Below the previous item.
+    - **Contents**: `Camera Zone Registry`.
+    - **Visual styling**: Same as above.
+
+### Visual Flow / Relationships
+- The most prominent visual elements are the checkboxes and their corresponding labels.
+- There are no arrows or lines connecting elements, indicating a simple hierarchical relationship.
+- Elements are arranged in a vertical list under their respective headings, with sub-elements indented beneath them.
+
+</details>
+
+<p></p>
+
+
 
 ## Troubleshooting
 

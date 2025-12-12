@@ -196,14 +196,70 @@ To copy a created item’s link, use the following process:
   
   
 - You can also select the item entry, and in the **Listing detail** page click **Copy item link** button to copy the item URL.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/597757600_885149104023042_1437517492683791078_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=yVoDEd3-xMMQ7kNvwHRUPDT&_nc_oc=AdnoDqOVfiSOBkwBE79EGBmAE0Wg6fxDg3whgIH-ZCqsmdCKg44_57RPPCI37PsTp7bPnwMGQhMxryHwv-iE9lxX&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GtX0x0K_9-FpMKQeuD3kSw&oh=00_AflmVBp0eLzHE6Cg_I0AExdz2uW7s2lHw4oWr87MTCWuRQ&oe=69557EE0)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/47c84247c69a99bb839c70bcd401a53b92419e2a593631d68171ebbf7017e549.md)
+  
+  ### Overview
+  The image displays a modal window titled "Item details" within a web application interface. The modal contains information about a digital item, specifically a jacket with cat faces printed on it. The layout includes a central image of the item, followed by a table listing various attributes such as name, description, inventory type, category, acquisition type, price, item type, age rating, and item tier. There are also buttons at the top for actions like downloading, deleting, and editing the item. The background shows a partially obscured list of similar items.
+  
+  ### Key Elements
+  - **Visual description**: A modal window with a light background.
+  - **Location**: Centered on the screen.
+  - **Contents**: 
+      - **Image**: A jacket with cat faces printed on it.
+      - **Table headers**: Name, Description, Inventory type, Category, Acquisition type, Price, Item type, Can be used, Age rating, Item tier.
+      - **Table content**: Cat Puffer, black/white cat faces on puffer, Avatar Item, Top, Paid, 175, Durable, Anywhere, 10+, Common.
+      - **Buttons**: Download, Delete item, Edit.
+  - **Visual styling**: The modal has a white background with black text. The image of the jacket is in grayscale with a slight shadow effect. The buttons have a blue background with white text.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The modal window itself.
+  - **Arrows/lines/connectors**: None.
+  - **Spatial relationships**: The image of the jacket is centered above the table of attributes. The buttons are aligned horizontally at the top right of the modal.
+  
+  </details>
+  
+  <p></p>
+  
+  
   You can now paste the copied item URL and it will link directly to the selected item’d product description page in the Meta Horizon mobile app in the avatar editor.
 
 You can now paste the copied item URL and it will link directly to the selected item’s product description page in the Meta Horizon mobile app in the avatar editor.
 
 In-World item Example UI pic:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/598774977_885149100689709_3870048160421000609_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=852Nygeh0LwQ7kNvwHm_mIs&_nc_oc=Adn1tl5IrQAg-5S67uZGz-S39ZYofqZRam92hssagk__EMOu4y9iKQ1ZM816LC181dUYu_f1qbbqb83DPdGzJEIW&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GtX0x0K_9-FpMKQeuD3kSw&oh=00_AfkIHaCRadPEp5A6DwSQ1yaZdC9mHajX6Pkt8J7Q-ALiYg&oe=695586DB)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/701a2f661b7087fb14c02703b593bc4ef95abb01cb7239256a9af1f9d7f82d2f.md)
+
+### Overview
+The image displays a web interface from Meta Horizon, specifically the "In-world items (Editor)" section within the "Inventory" category under "Digital items." The page shows a table listing items in a virtual world named "Super mason 5 world."
+
+### Key Elements
+- **Left Sidebar**: Contains navigation options such as "Avatar items," "In-world items (Editor)," and "In-world items (Studio)." The "In-world items (Editor)" option is highlighted, indicating the current view.
+- **Header**: Displays the title "Digital items" at the top left.
+- **Main Content Area**: Shows a table with columns labeled "Item," "SKU Name," "Type," "World," "Current price," and "Item link." Two items are listed:
+  - **Cat 77**: SKU name `cat_77_812ee171`, Type `Durable`, World `Super mason 5 world`, Current price `200`.
+  - **testitem**: SKU name `testitem_b2dac382`, Type `Durable`, World `Super mason 5 world`, Current price `300`.
+- **Search Bar**: Located above the table, with placeholder text "Search for pages or documentation."
+- **World Selector**: A dropdown menu labeled "World: Super mason 5 world" is positioned near the search bar.
+- **Search Input Box**: Positioned next to the world selector, with placeholder text "Search...".
+
+### Visual Flow / Relationships
+The layout follows a standard web interface design with a sidebar navigation on the left and content displayed on the right. The table is the central focus, with the search bar and world selector serving as interactive elements above it. The items in the table are arranged in rows, with columns providing specific information about each item.
+
+</details>
+
+<p></p>
+
+
 
 Note: In world items only have the Item link Column with the icon
 
@@ -214,9 +270,60 @@ You can also link directly to your storefront so users can view all of your crea
 To link to your storefront, use the following process:
 
 - Navigate to and select the **Item Inventory** from the left menu options.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/599933065_885149097356376_43151814579233368_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=gj0yhazd-PwQ7kNvwFDcNoA&_nc_oc=AdmP6Y0xEOtTf5OxKH5FpnHEmpJ8TfQeH-MBfN757mKtxsDhOSqoQL0IpLY2jEBbXo6WYwH074akyczaspvkaBci&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GtX0x0K_9-FpMKQeuD3kSw&oh=00_AfkXz2BU6gG9AwvGxl1vvkS7S-fygiuucNyOxS3TMBHn9w&oe=6955700B)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/f1e60dd9ac60c3e70e6201d7d6debaae5e3a6e41b9a145aa0242cafc74d53a42.md)
+  
+  ### Overview
+  This image depicts a screenshot of a menu interface from Meta Horizon, likely a dashboard or administrative panel. The layout consists of a vertical list of menu items with expandable sections indicated by downward-facing chevrons next to each item.
+  
+  ### Key Elements
+  - **Meta Horizon logo**: Located at the top-left corner. It features a stylized 'M' within a circle, followed by the text "Meta Horizon."
+  - **Worlds**: A menu item with a location pin icon, located second in the list. It has a downward-facing chevron indicating it can be expanded.
+  - **Assets**: A menu item with a folder icon, located third in the list. It also has a downward-facing chevron.
+  - **Item inventory**: A menu item highlighted in blue, suggesting it is currently selected or active. It has a blue tag icon preceding the text.
+  - **Creator program**: A menu item with a dollar sign icon, located fifth in the list. It has a downward-facing chevron.
+  - **Payout**: A menu item with a banknote icon, located sixth in the list. It has a downward-facing chevron.
+  - **Performance**: A menu item with a gear icon, located seventh in the list. It has a downward-facing chevron.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the "Item inventory" due to its blue highlight. The downward-facing chevrons suggest that clicking them would reveal more options or content related to the respective menu item. The items are arranged vertically, with no horizontal connections or arrows, implying a linear navigation flow.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - On the inventory page, you will see a list of your created avatar items. Select **Copy storefront link**.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/598867955_885149140689705_7048856232762092727_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=6fM2OXuaouwQ7kNvwFIqehn&_nc_oc=AdlXfpzrxZMLhedMs9UKdf0tMK7vcKOKDa_OYbY785x4erpb0NV0LoBMZ6n6MmOpxH3_0U5l13Wk_EDPmqmLe3DF&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GtX0x0K_9-FpMKQeuD3kSw&oh=00_Afm4NsaELZjQlyHvr2n7IBUpS9LYMjrml2J_ARABKOoqjg&oe=6955917F)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/e08130e2840c1f4b24c00b11f6ee7892116d36a4d17834b2f30cb17ce08b67ca.md)
+  
+  ### Overview
+  The image displays a web interface titled "Meta Horizon" with a focus on managing item inventories within a virtual world platform. The page is structured around a sidebar menu on the left and a main content area on the right. The main content area is labeled "Item inventory," showing a list of items available for distribution across multiple worlds.
+  
+  ### Key Elements
+  - **Sidebar Menu**: Located on the left side, with options such as "Worlds," "Assets," "Item inventory," "Creator program," "Payout," and "Performance." Each option has a downward arrow indicating expandable sections.
+  - **Main Content Area**: On the right, the title "Item inventory" is prominently displayed at the top. Below this, there’s a subtitle explaining that these items are for distributing in your worlds. There are buttons for actions like "Copy Storefront link," "View item sales," and "Create avatar item."
+  - **Item List**: A table listing various items with columns for "Item," "Status," "Can be acquired in," "Price," "Updated," and "Listing link." Each row contains an image of the item, its name, status (e.g., Published, Ready to list), price, acquisition location, update date, and a download icon.
+  - **Pagination**: At the bottom of the item list, there’s pagination control showing "1-20 of 100 items."
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The "Item inventory" title is the most prominent visually.
+  - **Arrows and Connections**: The downward arrows next to the menu items suggest expandable sections.
+  - **Reading Order**: The layout follows a typical web interface flow, starting with the menu on the left and moving to the content area on the right. The item list is organized in a tabular format, with a clear columnar structure.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 You can now paste the copied storefront URL and, when clicking it, users will be linked directly to your storefront page in the **Meta Horizon** app in the avatar editor.
 

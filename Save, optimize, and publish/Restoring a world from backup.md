@@ -13,7 +13,31 @@ To manage your backups in the desktop editor:
 - Open Meta Horizon Worlds in Desktop Mode from the Meta Quest Link app on your PC.
 - Click the **My worlds** tab in the left navigation bar.
 - Choose the world you would like to restore from backup, select the three dots next to it, and choose **Backups**. A list of backups for that world appears. By default, each backup is labeled with the date and time it was created. You can edit the name and description of each backup by clicking the pencil icon next to it.
-  ![Restoring a world from backup in desktop editor](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/490065536_692067243331230_7444377862867920864_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=_kvJG0D-wWgQ7kNvwFFeRH3&_nc_oc=Adm4xCvDECWpfWkVnuk1ujSD15lpEhuQtUy2dOaILRs7_Yn91dCu-XuMriNxKZxzzFE0HN1RU3RkPE2WEcewlNCh&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=lZwlOodSXVhl5GhtrSatxw&oh=00_Afl3Bf9nzu8qLpYc8c4IkTynw_Q1Rm8jkyjgBnx0sd-GLw&oe=69557E54)
+  <details>
+  <summary>Restoring a world from backup in desktop editor</summary>
+  
+  <p></p>
+  
+  [Restoring a world from backup in desktop editor](../image_data/6370aaf82ca3faad76a5ce5ed460b6c5346651f1b646bc32d3269adcf9ba1d00.md)
+  
+  ### Overview
+  This image displays a user interface section related to backups within a software application. It includes information about backup features and a list of recent backups.
+  
+  ### Key Elements
+  - **Title**: "Backups" located at the top-left corner.
+  - **Main Text**: Describes the purpose of regular backups and how users can manually create new backups or restore from existing ones.
+  - **Backup Information**: Two entries labeled "Untitled Backup," each detailing a snapshot created from a source snapshot ID.
+  - **Restore Buttons**: Each backup entry has a blue "Restore" button next to it.
+  - **Close Button**: Located at the top-right corner of the interface.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the backup entries and the "Restore" buttons. The text flows downward, with the "Restore" buttons aligned to the right of each backup entry. There are no arrows or lines connecting elements, but the layout suggests a linear reading order from top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Click the **Restore** button next to the backup you would like to restore. A confirmation window appears.
 - Click **Restore** to confirm the restore. The world is restored to the state it was in at the time of the backup.
 

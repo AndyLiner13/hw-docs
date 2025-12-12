@@ -6,7 +6,31 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 Hey Creators! The Meta Horizon Worlds team has created a new “Kudos Panel” asset to help with monetizing your worlds. The Kudos Panel is a ready-to-use component that automatically configures your world with everything you need to allow people to purchase Kudos as a way to show their support for your creations.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452672915_512509574620332_6330255663687350902_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=ovnGT5Wq-ewQ7kNvwEpGvHv&_nc_oc=AdnNlUhdtF2L1faWE6SeaKNZ64R9DOGepsZFFwSUU6Jq3uw5rxzdYnzyCzKkM0lKYXjggB5qQZWTEnuicMJ9yu8M&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0sZXB3gDDbyF3ZOkICQmWg&oh=00_AfkZvt-4SdY9jbpcOHMQ4yk_qivGFWZIQCxSfqZZQjnCVQ&oe=69558992)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/8c9987f4ab859d332d775fe60ad389e0c8307311a1a3af4030c5b22083f4d7c3.md)
+
+### Overview
+The image depicts a user interface element that appears to be part of a game or application related to purchasing items. The central focus is a card labeled "Top Kudos Contributors," which seems to display a list of contributors or rewards. Below this card, there are options to purchase Kudos at different levels.
+
+### Key Elements
+- **Card (Top Kudos Contributors)**: Located centrally, this card has a light blue background with rounded corners. It contains text indicating contributors but no specific names are visible.
+- **Purchase Options**: Below the card, there are three buttons labeled "Level 1," "Level 5," and "Level 10." Each button has a gradient background transitioning from dark blue to lighter blue, with white text indicating the level price ($5.99, $4.99, $9.99 respectively).
+- **Background**: The background consists of a grid pattern with a light gray floor and a blue sky, suggesting a virtual environment.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The "Top Kudos Contributors" card.
+- **Arrows/Connections**: There are no arrows or lines connecting elements.
+- **Spatial Relationships**: The purchase options are aligned horizontally below the card, with the levels stacked vertically under each button.
+
+</details>
+
+<p></p>
+
+
 
 ## Benefits of the Kudos Panel
 
@@ -44,13 +68,157 @@ To add a Kudos Panel to your world, please do the following:
 
 - Confirm that you have no more than two leaderboards in your world. If you have previously added a Kudos Panel to your world and have a leaderboard called “Kudos” you can skip this step.
 - Open the Creation UI and select Assets->Asset Library.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452964709_512509571286999_2791455551734617244_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=riSR-JkXjlUQ7kNvwG8_OJz&_nc_oc=AdlrHaCTOo15VQB5YMwCWBc-nEVcrOk_CkbUSOD0v01bZ0FeItxz2hanq39YLTSEOVV6AU_VMdWLkgd2D6RsJHal&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0sZXB3gDDbyF3ZOkICQmWg&oh=00_AflNNQFyfTO63mrwQ8C4dzEJgaykaAdmVz3n6nPPnTY3Hw&oe=695588D9)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/2e8fd6b14e095c073189e0770f74b5aad21a17febcde7cbdd02f06105b47211c.md)
+  
+  ### Overview
+  This image depicts a user interface (UI) screen from a software application, likely related to game development or asset management. The screen is divided into two main sections: a sidebar on the left and a content area on the right.
+  
+  ### Key Elements
+  - **Sidebar (Left Panel)**:
+    - **Visual description**: A vertical menu with a blue header labeled "Build."
+    - **Location**: Left side of the screen.
+    - **Contents**: Contains multiple categories such as "Platforms," "Characters," "Sounds," "Assets," and "Tools."
+    - **Visual styling**: The menu items have a white background with black text, and some items are highlighted in purple, indicating selection.
+    
+  - **Content Area (Right Panel)**:
+    - **Visual description**: A large rectangular area with a dark gray background.
+    - **Location**: Right side of the screen.
+    - **Contents**: Displays the message "There are no assets in this world. You can create new assets later in any world."
+    - **Visual styling**: The text is white, and there is a small icon resembling a camera or photo, which is also white.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The content area displaying the message about assets.
+  - **Arrows, lines, connectors**: None visible.
+  - **Spatial relationships**: The sidebar is on the left, and the content area occupies the right side of the screen. The content area is larger than the sidebar but both are clearly distinct sections.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Select the Commerce folder.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452683821_512509591286997_2165290840578957292_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=mv5CuA3by0gQ7kNvwHJKeRk&_nc_oc=AdkXW9Df4Uvmh-ySX5P6Glbu8o6v2N7TCNCdiO6nB8xh0G1wE4mtfrxtSu0gqQdq4arpO8UB8uOUvO3AaSXVx5ab&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0sZXB3gDDbyF3ZOkICQmWg&oh=00_AflsP1GwyH01DxpB8IBGgqs9wyRKw5SzKjY0G-L2oJVccg&oe=69557D6A)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/cdad28ef7d617c6170b8fbcfc0daa2fbac831c39afbc1c50734a7622be39b677.md)
+  
+  ### Overview
+  This image depicts a user interface (UI) screen from a game or application, likely related to building or asset management. The layout includes a sidebar menu on the left and a main content area on the right. The sidebar contains a list of categories, while the main area displays assets with thumbnails and labels.
+  
+  ### Key Elements
+  - **Sidebar Menu**:
+    - **Visual description**: A vertical menu with rounded corners and a light blue background.
+    - **Location**: Left side of the screen.
+    - **Contents**: Contains categories such as "Build," "Reused," "Structures," "Lights," "Animations," and "Animals."
+    - **Visual styling**: Light blue background, white text, and a darker blue border.
+  
+  - **Main Content Area**:
+    - **Visual description**: A grid layout displaying asset thumbnails and labels.
+    - **Location**: Right side of the screen.
+    - **Contents**:
+      - **Top-left thumbnail**: A small model of a structure labeled "The Sailor's World."
+      - **Top-right thumbnail**: A small model of a teleporter device labeled "Teleporter Device."
+      - **Bottom-left thumbnail**: A small model of a vehicle labeled "Vehicle."
+      - **Bottom-right thumbnail**: A small model of a character labeled "Character."
+    - **Visual styling**: Each thumbnail has a light gray background with a darker gray border, and the labels are in black text.
+  
+  - **Navigation Bar**:
+    - **Visual description**: A horizontal bar at the bottom with various icons.
+    - **Location**: Bottom of the screen.
+    - **Contents**: Contains icons for actions like "Save," "Load," "Add," and others.
+    - **Visual styling**: White background with colored icons.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The main content area displaying assets.
+  - **Arrows, lines, connectors**: None visible.
+  - **Spatial relationships**: The sidebar menu is on the left, the main content area is on the right, and the navigation bar is at the bottom. The thumbnails within the main content area are arranged in a grid layout.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Select the Kudos Panel asset and place it in your world.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452916228_512509587953664_2086566107633930231_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=sUUuEXdE4H0Q7kNvwE41PnW&_nc_oc=Adkua-DsGQec24EAdbIVhtSWUGjgsOxlMQyWhjhYxKvXJs_fcmJBLxuxlqurILvtQy5dcanOBMQWC09auZNdwI0p&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0sZXB3gDDbyF3ZOkICQmWg&oh=00_AfmZWjN9hYbmxRWM136UMeRPIrBkIDkKqc3Mai6dmTwOpw&oe=6955921F)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/149856d5972862db4423dc80cf33699f56c96b3f55036a5007cd19925037b117.md)
+  
+  ### Overview
+  This image depicts a user interface (UI) screen divided into two main sections: "Build" on the left and "Assets" on the right. The layout suggests a design or game development tool where users can manage assets and build components.
+  
+  ### Key Elements
+  - **Left Panel ("Build")**:
+    - **Visual description**: A vertical menu with rounded corners.
+    - **Location**: Left side of the screen.
+    - **Contents**: Contains options such as "Featured," "Environment," "Structures," "Home," "Lights," "Decorations," "Food," "Game Items," "Electronics," "Animals," and "Commerce."
+    - **Visual styling**: Dark background with white text and light gray accents.
+  
+  - **Right Panel ("Assets")**:
+    - **Visual description**: A larger area displaying asset thumbnails and a placeholder for placing assets.
+    - **Location**: Right side of the screen.
+    - **Contents**: Displays two asset thumbnails labeled "Kudos Panel" and "Gunmetal Machine."
+    - **Visual styling**: Light gray background with darker gray accents around the thumbnails.
+  
+  - **Central Area**:
+    - **Visual description**: A central area with a placeholder for placing assets.
+    - **Location**: Below the "Assets" title and above the thumbnails.
+    - **Contents**: A white placeholder with a plus sign and the text "> Place asset" in black.
+    - **Visual styling**: White background with black text and a subtle shadow effect.
+  
+  - **Cursor**:
+    - **Visual description**: A white arrow cursor.
+    - **Location**: Bottom-right corner of the screen.
+    - **Contents**: Indicates interaction readiness.
+    - **Visual styling**: Standard white arrow cursor.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The "Place asset" placeholder in the central area.
+  - **Arrows/lines/connectors**: None.
+  - **Spatial relationships**: The left panel is vertically aligned with the right panel, and both are separated by a clear margin. The central area is below the "Assets" title and above the thumbnails.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Once the Kudos Panel is placed in your world, Publish your world. The Kudos Panel asset is now ready to use.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452597981_512509584620331_2747521599041840352_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=MpwualzdqdMQ7kNvwHwBEP7&_nc_oc=Adn2PUEZN3qcf94XWPJOJJ9yWV8YMlq9WrIWcPxOUhJv8RqIXcjdWwTPjeIBRrPs-sjY11yIM39E5-4UrFJYsYab&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0sZXB3gDDbyF3ZOkICQmWg&oh=00_Afl63ilm46euMI5Vz2fMHPRrvzx8qD2LVqh9SVepPppHzQ&oe=6955917F)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/d922fc8d54199e85be422ef06f332eff61ab206bd3686c5369051c86a0d3a118.md)
+  
+  ### Overview
+  This image depicts a user interface element within a virtual environment, likely part of a game or application. It shows a card-like interface with a title, content area, and pricing information.
+  
+  ### Key Elements
+  - **Title Card**: Located at the top, it reads "Top Kudos Contributors." The card has a light gray background with rounded corners and a subtle shadow effect.
+  - **Content Area**: Below the title, there's a message stating "No recent Kudos." This text is centered and written in a smaller font compared to the title.
+  - **Pricing Section**: At the bottom, there are three levels of Kudos contributors with corresponding prices:
+    - Level 1: "$0.99"
+    - Level 5: "$4.99"
+    - Level 10: "$9.99"
+  - **Background**: The background of the interface is a simple grid pattern, suggesting a virtual space or a 3D environment.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the title card, as it draws attention due to its larger size and central placement. The content area follows closely beneath it, providing additional information. The pricing section at the bottom is less prominent but still noticeable due to the use of bold text and distinct separation from the rest of the interface.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 > **NOTE:** If you do not see these options, it means you have not been correctly added to the Creator Program. You must be invited to join the Creator Program before you can use the Kudos Panel.
 

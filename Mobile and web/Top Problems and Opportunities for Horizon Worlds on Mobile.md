@@ -4,7 +4,36 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 In the rapidly evolving landscape of mobile gaming, user experience is paramount to retaining and engaging players. As creators strive to create immersive and seamless environments, understanding and addressing mobile user pain points becomes crucial. This article highlights some of the top in-world content and usability opportunities for mobile experiences that creators can immediately take action on to retain and engage players.
 
-![An image of a mobile user playing a game.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/539980314_800244475846839_2642433371738981588_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=AoT3klWm1dYQ7kNvwF3pXNF&_nc_oc=AdlyWyMlLVQNba1QPcoz2agIl__yYIAk1P0yt9CtkVCUokG9XlQ3zPTC5pb2aF0OsH9ku_P4GW1SRFDHIsP62QWH&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=KGwgko2ZkJpT3OOtIcyVTg&oh=00_Afko4mj8Nan-UIXZkC5tmXzT7cMo00Utbrx2CeFAkWjhpw&oe=69558168)
+<details>
+<summary>An image of a mobile user playing a game.</summary>
+
+<p></p>
+
+[An image of a mobile user playing a game.](../image_data/251c6ac5738c10efc6fbd218b3d4183a6af0b0b44e51139e467e6ff661b1581f.md)
+
+### Overview
+The image depicts a hand holding a smartphone displaying a mobile game. The game screen shows a battle scene with characters engaged in combat. The background of the image features a dark, futuristic environment with glowing particles and a large explosion effect.
+
+### Key Elements
+- **Hand holding the phone**: The hand is positioned at the bottom left and right corners of the image, gripping the edges of the smartphone.
+- **Smartphone screen**: The screen displays a game interface with a character named "OBANIN" at the top. The game scene includes two characters fighting, one with a blue and red design and another with a green and brown design. There are also various game controls and icons around the screen.
+- **Game interface elements**: 
+  - **Health bar**: Located above the character names.
+  - **Combat scene**: Depicts two characters in a battle, with one character being attacked by the other.
+  - **Game controls**: Positioned around the screen, likely for movement and attacks.
+  - **Character portraits**: Small icons representing different characters or abilities.
+  - **Background**: A dark, futuristic environment with glowing particles and a large explosion effect.
+
+### Visual Flow / Relationships
+- **Most prominent visual**: The smartphone screen displaying the game.
+- **Arrows/lines/connectors**: None.
+- **Spatial relationships**: The hands hold the phone, with the game screen centered. The background elements are secondary and enhance the gaming atmosphere.
+
+</details>
+
+<p></p>
+
+
 
 # Key Opportunities
 
@@ -48,6 +77,32 @@ In the rapidly evolving landscape of mobile gaming, user experience is paramount
   - Enhance load screens with engaging content and tips to retain user interest
   - Leverage smooth animations to make the wait feel intentional.
 
-![A mobile game with a loading bar.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/539989351_800244479180172_1067296130533047070_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=5yKqHnVimi0Q7kNvwHbpXsS&_nc_oc=AdlZGrG3ZJdnJOYjgVGGWyo6uLlwPkRqAL4NoLm5CIRpZWMYvpTBnrUbiUGaak3hC5GHi_3vEKlQkKjbE0YjYPrT&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=KGwgko2ZkJpT3OOtIcyVTg&oh=00_Afk8jgA5dv0iMW-k3SkWvliSPRtI0mjfO4kaldU9q5IZBA&oe=69559C8F)
+<details>
+<summary>A mobile game with a loading bar.</summary>
+
+<p></p>
+
+[A mobile game with a loading bar.](../image_data/156018870a157c40398786b543f18ed1326eafd71d572bd2cc9d483f4ffb26d5.md)
+
+### Overview
+The image depicts a loading screen for a mobile game titled "Mystic Quest." The screen is framed by a smartphone with a colorful, animated background featuring a castle, greenery, and a knight character. The loading bar is partially filled with green segments, indicating progress. The overall aesthetic is whimsical and cartoonish.
+
+### Key Elements
+- **Title Text**: "Mystic Quest" is prominently displayed in large, white, bold letters centered on the screen.
+- **Loading Bar**: A horizontal progress bar with green segments fills approximately half of its length, indicating partial loading. It has a white outline and is positioned below the title.
+- **Loading Percentage**: The text "LOADING%" is written in a playful font beneath the loading bar.
+- **Knight Character**: A small, pixelated knight character holding a sword and shield is located at the bottom right of the screen.
+- **Background**: The background outside the phone frame features a whimsical landscape with a castle, green fields, trees, and a blue sky with fluffy clouds.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The title "Mystic Quest" is the most visually prominent due to its size and central placement.
+- **Arrows/Connections**: There are no arrows or lines connecting elements.
+- **Spatial Relationships**: The knight character is positioned to the bottom right, while the loading bar is centrally placed under the title. The background scenery is behind the phone frame, creating a layered effect.
+
+</details>
+
+<p></p>
+
+
 
 By focusing on these core opportunities, creators can significantly enhance the mobile gaming experience for Horizon players. Creating intuitive and accessible mobile gameplay will ensure a rewarding experience that appeals to a diverse audience. Through the strategies provided, creators are equipped to overcome common challenges and foster deeper player engagement.

@@ -23,7 +23,56 @@ To enable real-time metrics in Meta Horizon Worlds:
 - Open the PUI and open **Settings**.
 - Click on the **Utilities** tab and enable the utilities menu.
 
-  ![](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/39036683_537601795737638_1061973206288611017_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=5hVMOXP90r0Q7kNvwH85_yu&_nc_oc=Adk_8yd9JlZZuJACSu-fyewabXtTSoeMQetJIlH2kCR2HKDo6hkOR4VfNlup2Rgd2Ds&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afkxf0PUILEY01WpTkvjCfAabtxLGs141h1gQmgu2PSVAw&oe=695590FC)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../image_data/e65cbeb2f3a68414eb6f9c56bade3f1435d8bc15d51a46b2b49941be84dd694a.md)
+  
+  ### Overview
+  This image depicts a wooden deck or balcony at night, viewed through a window frame. The scene outside features a starry sky, distant mountains, and a calm horizon line suggesting a serene coastal or lakeside setting. The interior of the deck is simple, with a wooden floor and a low railing.
+  
+  ### Key Elements
+  - **Wooden Deck**: A wooden floor occupies the foreground, with a light brown wood grain texture. It has a simple, clean design with no additional decorations.
+  - **Window Frame**: A dark brown wooden frame surrounds the window, providing a clear view of the exterior.
+  - **Horizon Line**: A faint blue line separates the dark blue night sky above from the lighter blue horizon below, indicating a calm sea or lake.
+  - **Stars**: Numerous small white dots scattered across the dark blue sky represent stars.
+  - **Mountains**: Two dark silhouettes of mountains are visible in the distance, adding depth to the landscape.
+  - **Sky**: The sky transitions from a deep navy blue at the top to a lighter blue near the horizon, creating a gradient effect.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the window frame, which frames the entire scene. The wooden deck serves as a base, leading the viewer’s eye towards the tranquil outdoor view. There are no arrows or lines connecting elements, but the natural progression is from the deck into the vastness of the night sky and distant mountains.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Once the wearable is open, tap the **Real-time metrics** button under Utilities to open the Real-time metrics panel.
 
-  ![](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75282161_485350857190282_7080255518188907201_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=4bAFrOaQc9kQ7kNvwF6usQk&_nc_oc=AdmQKtHzYD8pKplZ15dqpttPiGny8bAr-XgG_kNaZQAh6yUgk6KEpPZrrnHQMraMT4g&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfkQs66wxT_3PY_zhfiW2jXuXjD-VbVCP11i7xU7kNi0cA&oe=69558814)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../image_data/4c0f18d7537259014877d4998a1c81487c40909f891359bd8edbbd1e6cb4a871.md)
+  
+  ### Overview
+  This image depicts a vibrant, futuristic game environment with a central arena labeled "Super Rumble." The scene is set in a sci-fi landscape featuring alien-like structures and palm trees under a colorful sky. The foreground includes a circular track with barriers, suggesting a racing or combat scenario. Various UI elements are visible around the arena, indicating player information and game controls.
+  
+  ### Key Elements
+  - **Arena Label**: Located centrally at the top of the arena, the text reads "**SUPER RUMBLE**" in bold, stylized font with a glowing effect.
+  - **Foreground Track**: A circular track with barriers and a smooth surface occupies the lower part of the image. The track has white markers and a dark gray surface.
+  - **Background Landscape**: Features alien-like structures, palm trees, and a gradient sky transitioning from blue to pink, giving a surreal atmosphere.
+  - **UI Elements**: On the left side, there are small rectangular panels displaying player stats or game information. On the right, there are additional UI elements that appear to be controls or indicators.
+  - **Sky**: The sky is a blend of blue and pink hues, with some stars visible, adding to the alien setting.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the **arena label**, which draws attention due to its size and glowing effect. The **track** is the secondary focal point, guiding the viewer's eye towards the center. The **background landscape** provides context and atmosphere, while the **UI elements** offer functional information but are less visually dominant.
+  
+  </details>
+  
+  <p></p>
+  
+  

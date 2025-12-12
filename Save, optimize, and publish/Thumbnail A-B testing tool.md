@@ -16,42 +16,313 @@ Consumers are randomly grouped into the A or B group and see one of the two prod
 
 You can create A/B tests for your horizon world products through the Developer Dashboard by navigating to **Optimization Tools** > **A/B Testing**. A list of your worlds will be displayed.
 
-![A list of available worlds in the Optimization Tools](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494282935_708821504989137_4917555889100578769_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=EhYtfD79fSkQ7kNvwHnKvUm&_nc_oc=Adk8HFaJaO0JDBa9lgrzTdb7dD5dDXoL1fkZIbJgvPy_Sykb4Dvy9nb7eilPlIDicSD7zwebSjj90Ipd2ofq_E4h&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=aO50mJ9JwVvvoF2yfzZbWg&oh=00_Afk5Q3uURbsivNA8I4eeZ6b6u-UN5dhVnPBi4ujOW_Ex5g&oe=69558CAC)
+<details>
+<summary>A list of available worlds in the Optimization Tools</summary>
+
+<p></p>
+
+[A list of available worlds in the Optimization Tools](../image_data/4a47adcd0afe4b01110bc4ee4ed840ff01d7a039bb75cc3f71397c86dfcb8983.md)
+
+### Overview
+This image depicts a user interface section of a software application named "Meta Horizon." It shows a menu with expandable categories and a highlighted sub-item under one of the categories.
+
+### Key Elements
+- **Logo**: Located at the top-left corner, the logo consists of a blue infinity symbol followed by the text "Meta Horizon."
+- **Menu Items**: There are four main menu items listed vertically:
+  - **My Worlds**: A location pin icon next to the text "My Worlds," with a downward arrow indicating it can be expanded.
+  - **My Assets**: A cube icon next to the text "My Assets," also with a downward arrow.
+  - **Optimization Tools**: A gear icon next to the text "Optimization Tools," which is currently expanded as indicated by the upward arrow. This item has a yellow highlight box around it.
+    - **Sub-item**: "A/B testing" is shown as a clickable option within the "Optimization Tools" section.
+  - **Performance**: A gear icon next to the text "Performance," with a downward arrow.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the "Optimization Tools" section due to its yellow highlight.
+- The downward and upward arrows indicate expandable/collapsible functionality.
+- The elements are arranged vertically, with each item having a consistent layout of an icon, text, and an arrow.
+
+</details>
+
+<p></p>
+
+
 
 ### Creating an A/B test
 
 You can create a new A/B test by clicking **Create thumbnail A/B test**.
 
-![Creating a new A/B test from the Optimization Tools menu](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494062114_708821501655804_6223474015791337459_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=D-urRa-UmEEQ7kNvwF7kxrf&_nc_oc=Adku6_VZ14okw8CHWWaTX2T5GQumA-2M93TnNcqBdfflWjBSrXw2Y5H2tXfczBMr5mkkgf7NAsYlPJYcko0sdheb&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aO50mJ9JwVvvoF2yfzZbWg&oh=00_AfnKGB5OaLzLJFBGpj9NN2SmB_pbxeUIZnhvSMFEjBXPBw&oe=69558FC6)
+<details>
+<summary>Creating a new A/B test from the Optimization Tools menu</summary>
+
+<p></p>
+
+[Creating a new A/B test from the Optimization Tools menu](../image_data/7e130f692a624f18ab4dd7144f99f300569018d392ba8dc995f420c40ce353d3.md)
+
+### Overview
+The image displays a user interface for managing A/B testing scenarios, specifically for thumbnail image tests. It includes a table listing various test entries with columns for Name, Target, Type, Status, Winner, Start date, and Completion date. There are also filters at the top and a search bar for finding specific tests.
+
+### Key Elements
+- **Header**: "A/B testing" is prominently displayed at the top.
+- **Description**: Below the header, there's a brief explanation about the purpose of A/B testing.
+- **Filters**: Three dropdown menus labeled "All worlds," "All statuses," and "This year" allow users to filter the tests.
+- **Search Bar**: Positioned below the filters, it has a placeholder text "Search tests..." indicating its purpose.
+- **Table**: Contains rows of test information:
+  - **Name**: "Legacy update," "New year update," "Spring cover test," "Holiday special test."
+  - **Target**: Displays world names and icons.
+  - **Type**: All entries are marked as "Thumbnail image."
+  - **Status**: Includes "Rejected," "Running," "Completed," and "Draft."
+  - **Winner**: Shows either "--" or "Test."
+  - **Start**: Dates range from September 2024 to February 2025.
+  - **Completion**: Some dates are filled in, others are "--".
+- **Action Button**: Located in the top-right corner, it says "Create thumbnail A/B test."
+
+### Visual Flow / Relationships
+- The most prominent visual element is the table, which organizes the test data.
+- Arrows next to column headers indicate sorting functionality.
+- The action button is positioned separately but is part of the interface for creating new tests.
+- The layout follows a grid structure with clear separation between the header, filters, search bar, and the main content area.
+
+</details>
+
+<p></p>
+
+
 
 A list of all your eligible worlds to test is displayed. Select a world you would like to test.
 
-![Choosing a world to test](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494524117_708821498322471_5704040799216937529_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=_bBDkZ5TH7gQ7kNvwG9IfxK&_nc_oc=Adl2ulMbmmE2J3sFgDydAgJDugN9-cVY9rIeomeNCQSX0XZvji0jlLmNL6fVlR23oKnxmrj9MRsaOQVV3eW0RYq_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aO50mJ9JwVvvoF2yfzZbWg&oh=00_AfnAIIJAUYuKCi8WKQijYk2o8nfZWXQrP7YzZEd5L6ePyA&oe=69557FEA)
+<details>
+<summary>Choosing a world to test</summary>
+
+<p></p>
+
+[Choosing a world to test](../image_data/e98f3785873b0e9ac165ec03c597e41dc727526000980354c5e37bbef9c00fce.md)
+
+### Overview
+The image displays a user interface for selecting a world within a game or simulation environment. It features a grid layout with six distinct world options, each represented by a thumbnail image and a brief description. The interface also includes a header indicating that an A/B test is in progress.
+
+### Key Elements
+1. **Header**
+   - **Visual description**: Text at the top of the interface.
+   - **Location**: Top-left corner.
+   - **Contents**: "Create an A/B test"
+   - **Visual styling**: Black text on a white background.
+
+2. **World Selection Grid**
+   - **Visual description**: A grid layout containing six world thumbnails.
+   - **Location**: Center of the interface.
+   - **Contents**:
+     - **Magical island**: A whimsical landscape with floating islands and a lollipop-shaped structure.
+     - **Creepy cabin**: A dark, eerie cabin with a doll-like figure.
+     - **Magical island**: Another instance of the same whimsical landscape as the first "Magical island."
+     - **Animal farm**: A cheerful farm scene featuring a pig and a cow.
+     - **Magical island**: Another instance of the whimsical landscape.
+     - **Magical island prequel**: A beach scene with palm trees and people walking near a shipwreck.
+     - **Creepy cabin**: Another instance of the dark cabin.
+   - **Visual styling**: Each thumbnail has a light gray border and a white background beneath it.
+
+3. **World Descriptions**
+   - **Visual description**: Text below each thumbnail.
+   - **Location**: Directly below each thumbnail.
+   - **Contents**:
+     - **Magical island**: "ID: 2633169872689634"
+     - **Creepy cabin**: "ID: 9751936718645478"
+     - **Magical island**: "ID: 2633169872689634"
+     - **Animal farm**: "ID: 2633165692764197"
+     - **Magical island**: "ID: 2633169872689634"
+     - **Magical island prequel**: "ID: 2633165692764197"
+     - **Creepy cabin**: "ID: 9751936718645478"
+   - **Visual styling**: Black text on a white background.
+
+4. **Progress Indicator**
+   - **Visual description**: A small yellow badge with text.
+   - **Location**: Top-left corner of the first thumbnail.
+   - **Contents**: "A/B testing in progress"
+   - **Visual styling**: Yellow background with black text.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The grid layout of the world thumbnails.
+- **Arrows, lines, connectors**: None.
+- **Implied reading order**: Rows are read from left to right, then down to the next row.
+- **Spatial relationships**: Each thumbnail is adjacent to its neighbors horizontally and vertically.
+
+</details>
+
+<p></p>
+
+
 
 Once your world is selected, input a unique name for your test in the **Test Name** text box. You can publish and schedule your test date by selecting from the calendar in the **Start date**. Drag and drop or choose an image file from your device from the **Upload test image** section.
 You can preview your images in **16:9**, **4:3**, and **1:1** by selecting the aspect ratio dimensions.
 
-![Previewing a thumbnail A/B test](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/494423290_708821481655806_8824756114133034886_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=vQpvRlQ_5_IQ7kNvwFpgdUn&_nc_oc=AdkJqeLqmcaBub0hhNHQ3WuGyL5Hs_zGXOC5pfEgJU_Yj_OM8ApBejBQ9fypEedPDURf9ti7gBwnPfdPllu2MLyw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=aO50mJ9JwVvvoF2yfzZbWg&oh=00_AfkZHi0A7szU9cMDT0AwrZRhMUuuQpUDANHUraWelW3iGQ&oe=695570D3)
+<details>
+<summary>Previewing a thumbnail A/B test</summary>
+
+<p></p>
+
+[Previewing a thumbnail A/B test](../image_data/497faea790a9dded660be3aa9639033e18c654dbf7473d0cf6f5501490b7e550.md)
+
+### Overview
+The image depicts a user interface for creating a thumbnail A/B test. It includes fields for entering a test name, setting traffic allocation, choosing a start date, and uploading test images. There are also previews of two different images labeled as "Original" and "Test."
+
+### Key Elements
+- **Test Name**: Located at the top left, this field prompts the user to give the test a unique name. The placeholder text reads: "Give your test a unique name. This name is not visible to the public." The field has a counter indicating "0/30" characters remaining.
+- **Traffic Allocation**: Below the Test Name field, there’s a slider or input field set to 50%, indicating the percentage of traffic allocated to the test image.
+- **Start Date**: Positioned below the Traffic Allocation field, this section allows users to select a start date for the test. The date shown is April 16, 2025.
+- **Automatically Publish Test Images**: A checkbox option is available to automatically publish test images if they perform better.
+- **Upload Test Image**: This section instructs users to upload a test image file. It specifies that images should be in JPEG or PNG format and must be 2560 x 1440 pixels in size. There’s a drag-and-drop area and a link to choose a file from the device.
+- **Previews**: Two images are displayed side-by-side under the Preview section. The left image is labeled "Original," showing a cartoon-style farm scene with a pig wearing a red cap surrounded by animals. The right image is labeled "Test," depicting a more realistic farm scene with a person and animals inside a barn.
+
+### Visual Flow / Relationships
+The layout is structured with clear sections for input fields and previews. The "Original" and "Test" images are prominently displayed, drawing attention to the comparison being made. The start date and traffic allocation fields are positioned above the upload area, suggesting a logical sequence for completing the form before uploading the images.
+
+</details>
+
+<p></p>
+
+
 
 If you check the box to **Automatically publish test images if they perform better**,then this will automatically replace your thumbnail image at the end of the experiment with the image that performs better from the A/B test.
 
 Click **Submit for review** to submit your test. Your world status will be updated to “In review” and you will receive a notification on the bottom right of your screen informing you that your test has been successfully submitted.
 
-![Successfully submiting an ab test](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494195912_708821484989139_5801214339602137070_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=o0kU8w4EH70Q7kNvwG7f-Op&_nc_oc=AdlD7atVdVYJVm3TNjGbhPh9GnF6954PXygInk8K2Yuc9ZIQZawnOoIPQ3mUPmraH2ywfD2Qg-SW0jTmMAcT1xxO&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aO50mJ9JwVvvoF2yfzZbWg&oh=00_AfnbuNq43q57NXWVQP5q5kGVmi0r-2BfkcJiDbW2xDBdJQ&oe=695591B8)
+<details>
+<summary>Successfully submiting an ab test</summary>
+
+<p></p>
+
+[Successfully submiting an ab test](../image_data/bd4b01f2e45e52afa5c24ccdf0dcf8a381cd5658fa4141a5b52570015a709e00.md)
+
+### Overview
+The image displays a user interface for managing A/B testing experiments within a platform called "My Worlds." It features a table listing various tests with columns for Name, Target, Type, Status, Winner, Start date, and Completion date. There are filters at the top for selecting worlds, statuses, and time periods, along with a search bar. The interface also includes navigation options on the left side and a notification at the bottom indicating a new test submission.
+
+### Key Elements
+- **Left Panel Navigation**: Contains links such as "All," "Drafts," "Published," "Currently Occupied," "Owner," "Collaborations: Editor," and "Collaborations: Tester." The "Creative AB testing" option is highlighted.
+- **Table Header**: Lists column headers: Name, Target, Type, Status, Winner, Start, and Completion.
+- **Test Listings**: Each row represents a different test:
+    - **Name**: Examples include "Cover style test," "Legacy update," "New year update," "Spring cover test," and "Holiday special test."
+    - **Target**: Displays the name of the world being tested, e.g., "Animal Farm World," "Creepy Cabin World," "Magical island World."
+    - **Type**: All entries are marked as "Thumbnail image."
+    - **Status**: Includes statuses like "In review," "Rejected," "Running," "Completed," and "Draft."
+    - **Winner**: Indicates whether a winner has been determined ("Original").
+    - **Start Date**: Dates range from March 1, 2025, to November 4, 2024.
+    - **Completion Date**: Some dates are marked as "--" indicating no completion yet.
+- **Filters**: Located at the top, allowing users to filter by world, status, and time period.
+- **Search Bar**: Positioned above the table, enabling users to search for specific tests.
+- **Create New AB Test Button**: A green button located at the top right corner.
+- **Notification Bar**: At the bottom, a black bar indicates a successful test submission with a checkmark and message.
+
+### Visual Flow / Relationships
+The layout is structured with a clear hierarchy:
+- The left panel serves as a menu for navigating different sections.
+- The central table is the primary content area, displaying the list of A/B tests.
+- Filters and the search bar are positioned above the table for easy access.
+- The notification bar at the bottom provides feedback on recent actions.
+
+</details>
+
+<p></p>
+
+
 
 ### Cancelling a test
 
 You can cancel a test from the A/B testing page by clicking on the three dot menu beside the test you want to cancel, then click **Cancel submission**.
 
-![Cancelling a test submission](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494780521_708821494989138_6875432839123580671_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=ovp5kkb3y7kQ7kNvwEZ20tM&_nc_oc=AdmReKJhHFwQ0uP4e3dTv7uR_MIxVRewLJR71ysHOiW59QMytyXMVFaF3LV9xguGw8mkxC1Q_UMX3cbZTwz9soll&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aO50mJ9JwVvvoF2yfzZbWg&oh=00_Afknm36EqpUxB6O1y0SjajICKuBlZDkS6763R5lLvf1nRg&oe=69559989)
+<details>
+<summary>Cancelling a test submission</summary>
+
+<p></p>
+
+[Cancelling a test submission](../image_data/8683b5e8de28f1bf12704978c1f3a0987c42407eaa31330114d8d991eb1f8931.md)
+
+### Overview
+The image displays a user interface from a web application named "Meta Horizon." It is part of the "Optimization Tools" section under "My Assets," specifically focusing on A/B testing. The interface includes a table listing various A/B test entries, filters, and interactive elements.
+
+### Key Elements
+- **Logo**: Located at the top-left corner, the logo reads "Meta Horizon."
+- **Navigation Menu**: On the left side, there are menu items such as "My Worlds," "My Assets," "Optimization Tools," and "Performance."
+- **Title**: "A/B testing" is prominently displayed above the table.
+- **Filter Options**: Below the title, there are dropdown menus labeled "All worlds," "All statuses," and "All years," along with a search bar.
+- **Table Header**: The table has headers for "Name," "Target," "Type," "Status," "Winner," "Start," and "Completion."
+- **Test Entries**: Two rows are visible in the table:
+  - First row: "test Example NPC" with a thumbnail image labeled "NPC Test World."
+  - Second row: "Test" with a thumbnail image labeled "Intro to Desktop Editor & Typescript World."
+- **Interactive Elements**: There are buttons labeled "View details" and "Cancel submission" next to each entry.
+- **Create Button**: A green button labeled "Create thumbnail A/B test" is located at the top-right corner.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The table containing the A/B test entries is the most prominent visual element.
+- **Arrows/Connectors**: No arrows or connectors are present.
+- **Reading Order**: The reading order follows a left-to-right and top-to-bottom sequence, starting with the navigation menu, then the filter options, followed by the table content, and finally the interactive elements.
+
+</details>
+
+<p></p>
+
+
 
 ### Viewing test results
 
 You can view your test results from the Creative AB testing page by clicking on **View details**.
 
-![View the details of a test](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/494446830_708821488322472_6897989637701424506_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=M6iW2LQVeBsQ7kNvwFBSglJ&_nc_oc=AdkqK6udipliMwoVWKLKXiWtkub1n61AK7x-PJBvynVPBc1aH-KtBSTFDcEXffnw0i5qSqoPcIqd4Pot-IaC5AWm&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=aO50mJ9JwVvvoF2yfzZbWg&oh=00_AfmxYUVvBByerIjCwwR3j4K0s_3Qas0h0lcU2Ry6ioCZYA&oe=69557010)
+<details>
+<summary>View the details of a test</summary>
 
-![Test completion details categories](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/494033071_708821491655805_2438431851548078921_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=O1exYpVM4N0Q7kNvwFYhH-B&_nc_oc=Adn212dKLk36_X_WxacIupOYOkXmDWDi06YF9MSEkbgz5mw4Qc9llv9_cMifH7Hs_6HtaGqAMof_b5whDsCcdP6R&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=aO50mJ9JwVvvoF2yfzZbWg&oh=00_Afmw6x0uvliNS6J1WdaQpm9iMkzs1wVhEhqLYAZS1frnLA&oe=69558A13)
+<p></p>
+
+[View the details of a test](../image_data/d0dd1edca30d8e6052c56b85be9eb4b8ddfb603770b2e6c4144653f8ab3184b9.md)
+
+### Overview
+The image displays a user interface for managing A/B testing experiments within a creative tool. It features a table listing various tests with columns for Name, Target, Type, Status, Winner, Start date, and Completion date. There are filters at the top for selecting worlds, statuses, and dates, along with a search bar. The interface also includes navigation options on the left side.
+
+### Key Elements
+- **Left Panel**: Contains navigation links such as "All," "Drafts," "Published," "Currently Occupied," "Owner," "Collaborations: Editor," and "Collaborations: Tester." Below that, there are sections labeled "My Assets," "Optimization Tools," "Creator Program," "Payout," and "Performance."
+- **Main Content Area**: Displays a table with rows representing different A/B tests. Each row contains information such as the test name ("Cover style test," "Legacy update," etc.), target world ("Animal Farm World," "Creepy Cabin World," etc.), type ("Thumbnail image"), status ("In review," "Rejected," "Running," "Completed," "Draft"), winner ("Original"), start date ("Mar 1, 2025," "Feb 28, 2025," etc.), and completion date ("--," "Dec 5, 2024," "Nov 4, 2024," etc.). There is a "View details" button next to some entries.
+- **Top Bar**: Includes filters for "All worlds," "All statuses," and "This year," along with a search bar.
+- **Right Panel**: Contains a green button labeled "Create new AB test."
+
+### Visual Flow / Relationships
+The layout is structured with a sidebar on the left, a main content area in the center, and a top bar with filters and a search function. The table rows are arranged vertically, and the "View details" button is positioned to the right of the completion date column.
+
+</details>
+
+<p></p>
+
+
+
+<details>
+<summary>Test completion details categories</summary>
+
+<p></p>
+
+[Test completion details categories](../image_data/fa77531cbc4125029b9c888856475301158005079012982039e0cca27f8533d1.md)
+
+### Overview
+The image displays the results of an A/B test conducted on thumbnail images within a platform called "My Worlds." The layout is structured to show key performance indicators (KPIs) such as conversion rate, impressions, and world visits for both the original and test variations.
+
+### Key Elements
+- **Left Panel**: Contains navigation options like "All," "Drafts," "Published," among others.
+- **Main Content Area**: 
+  - **Status**: "Completed" in green, indicating the test has finished.
+  - **Improvement**: "+22.98%" displayed prominently.
+  - **Statistically Significant**: "Yes" in green, signifying the improvement is statistically significant.
+  - **Variations**: Two rows showing "Original" and "Test."
+    - **Original**: Baseline data with a conversion rate of 35.96%.
+    - **Test**: Data marked as a "Winner" with a conversion rate of 29.24%, showing a +22.98% improvement over the baseline.
+  - **Conversion Rate**: Displays percentages and improvements.
+  - **Impressions**: Original: 3,612 (50.05%), Test: 3,605 (49.95%).
+  - **World Visits**: Original: 1,299, Test: 1,054.
+- **Right Panel**: Buttons labeled "Publish test" and "Download csv."
+
+### Visual Flow / Relationships
+- **Most Prominent**: The "Completed" status and the "+22.98%" improvement.
+- **Arrows/Connectors**: None.
+- **Reading Order**: Top-down, left-to-right, focusing on the test results first before moving to the variations' details.
+
+</details>
+
+<p></p>
+
+
 
 You can see the following data for your test:
 

@@ -22,7 +22,32 @@ Example of a Core Loop:
 * **Action**: Play through levels, complete challenges, or defeat enemies to collect coins.
 * **Reward**: Unlock the new character skin, which provides a sense of accomplishment and visual customization.
 
-![Core loop example](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/540870129_800244485846838_9095679404064891863_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uXnIMkpCKF0Q7kNvwEnDMjI&_nc_oc=AdmFr3X5WFEyS1hYAgyR5_QBUYDRH6dxJuw-8VEODXieKJ34kTW8ROPsN0CsxF6U4DPEaEXvvkSI1Eu1n19TC5Ll&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-7QmcOacj4gTKFPcNwIi6Q&oh=00_Aflg9qx-_IlDdF2IuR0gfveLOn2gxUcjkEGgrD4NJt1COw&oe=69556D34)
+<details>
+<summary>Core loop example</summary>
+
+<p></p>
+
+[Core loop example](../image_data/fa73b330cae6e48b0646b61f21297766a826190d72b6869cfac84498a6375a08.md)
+
+### Overview
+The image depicts a circular flowchart or cycle diagram illustrating a core loop process. It consists of three main stages connected by arrows forming a continuous loop. The diagram is labeled as "Example Core Loop."
+
+### Key Elements
+- **Motivation**: Located at the top-left of the circle, connected by a green arrow pointing clockwise. Contains text: > *"complete level, collect cosmetic, collect coins, etc"*.
+- **Action**: Positioned at the top-right of the circle, also connected by a green arrow. Contains text: > *"Play level, complete challenge, finish puzzle, defeat enemies, etc"*.
+- **Reward**: Situated at the bottom of the circle, connected by a green arrow. Contains text: > *"Currencies, cosmetics, level up, progress on path, etc"*.
+- **Circular Path**: A large dark green circle forms the boundary of the loop, with smaller green arrows indicating the direction of movement within the cycle.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central label "Example Core Loop" is the focal point.
+- **Arrows**: Green arrows connect the three stages, forming a clear directional flow from Motivation to Action to Reward back to Motivation.
+- **Spatial Relationships**: The stages are evenly spaced around the circle, with each stage connected to the next by a green arrow, creating a continuous loop.
+
+</details>
+
+<p></p>
+
+
 
 ## Why do core loops work? – UX Research insights
 
@@ -40,7 +65,39 @@ Core loops engage users for several psychological and design-related reasons. By
 - **Emotional Investment**- Core loops can create an emotional investment in the game by providing a sense of ownership and customization. Players become attached to their characters, items, or progress, making them more likely to enjoy playing.
 - **Social Interaction and Community**- Many core loops involve social interaction, such as multiplayer modes or leaderboards. This social aspect fosters a sense of community, encouraging players to compete, cooperate, or share experiences with others.
 
-![Leaderboard example](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/540068430_800244492513504_7247250885031684060_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=0c7uVeYLXvkQ7kNvwEo86Wa&_nc_oc=AdliHhOoK3rt3PioCw9ZG-6rLxmDhyeVD7WKVUg599UD8fkVYeeCpGd04WwYmWS2rEMp105wUp6S_IvVyvHp8kXy&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=-7QmcOacj4gTKFPcNwIi6Q&oh=00_Afm8CiBUSu9WP37hePVOHJc4M6uzjhEpAJccnzEPl7gt0Q&oe=69558F99)
+<details>
+<summary>Leaderboard example</summary>
+
+<p></p>
+
+[Leaderboard example](../image_data/9d84f2a4f6dd933323f99a3387a1c0766bcdebd535528cdaa7fe041b17f2ba18.md)
+
+### Overview
+The image depicts a futuristic leaderboard display within a virtual environment. The scene features multiple holographic panels showing player statistics, avatars, and scores. The setting is illuminated with neon lights, creating a high-tech ambiance. A character wearing a VR headset stands in the foreground, seemingly interacting with the leaderboard system.
+
+### Key Elements
+- **Holographic Panels**: There are four main panels, each displaying a leaderboard with player information. Each panel has a distinct avatar and score.
+    - **Panel 1**: Located on the left side, showing a female avatar with the score "21,195".
+    - **Panel 2**: Positioned above Panel 1, featuring a male avatar named "YONV&TUNIS AEHSTHEAN" with the score "27,125".
+    - **Panel 3**: Situated on the right side, displaying another female avatar with the score "29,125".
+    - **Panel 4**: Placed below Panel 3, showing a third female avatar with the score "28,125".
+
+- **Character**: A person wearing a VR headset is standing in the center, facing the panels. They are dressed in a pink jacket and dark pants.
+
+- **Background**: The room is dimly lit with blue and purple neon lighting, giving a modern, sci-fi feel. The ceiling features circular light fixtures that emit a bright glow.
+
+- **UI Elements**: Each leaderboard panel includes a shield icon at the top left corner and a downward arrow indicating more options. Scores are displayed prominently, along with smaller numerical values beneath them.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central character and the large leaderboard panel in the middle.
+- **Arrows and Lines**: There are no explicit arrows or lines connecting elements, but the layout suggests a sequential reading path from left to right and top to bottom.
+- **Spatial Relationships**: The panels are arranged in a grid-like pattern, with the central character positioned between the two rows of panels.
+
+</details>
+
+<p></p>
+
+
 
 ## Core Loops Work – What We Know From Player Data
 
@@ -58,13 +115,67 @@ An effective core loop quest with compelling rewards significantly engages users
 
 As previously noted, users who were offered rewards showed increased engagement with core loop quest content. This was further reinforced by a recent season event featuring weekly new quests and a set of rewards that could be earned throughout the season. Notably, every time a new reward was released, Paddle Mini Golf observed significant spikes in engagement. In contrast, the launch of new quests did not trigger similar spikes in engagement. This suggests that the promise of rewards is a key driver of user behavior, supporting the hypothesis that rewards are the primary motivator for core loop engagement (see graphic below).
 
-![VR mini golf example](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/540900196_800244489180171_3840151860229517560_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=tvvQh3gcba0Q7kNvwHXRGHj&_nc_oc=AdnuITDxugfEaldeGQaTiCtEeCu_c_5KiSS4hOiAPSjios9P2_BRskVTpe2LQKMUKczxVnh1X5llGATkz8KDrsES&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-7QmcOacj4gTKFPcNwIi6Q&oh=00_AfkrIcvzmFf9tPQPuy6z_yh_SuEm_CfCfwvxuHfNbh_Uhg&oe=69559645)
+<details>
+<summary>VR mini golf example</summary>
+
+<p></p>
+
+[VR mini golf example](../image_data/cdbd5ea96a9097fbd8400c70384633d37aaffb96a081c2c781724d814e1828cf.md)
+
+### Overview
+This image depicts a virtual reality golf game set in a futuristic, neon-lit environment. The scene includes multiple mini-golf holes, glowing elements, and a player wearing a VR headset. The background features stylized mountains and a starry sky.
+
+### Key Elements
+- **Player**: A person wearing a VR headset and holding a putter, positioned near a green mini-golf hole.
+- **Mini-Golf Holes**: Several green mini-golf holes with white golf balls placed on them. The holes are outlined with bright blue lights.
+- **Glowing Elements**: Neon lights and glowing spheres scattered throughout the scene, adding to the futuristic aesthetic.
+- **Background**: Stylized mountains with a grid-like texture, and a starry sky with a purple hue.
+- **Virtual Reality Interface**: A small control box with a red button located near one of the holes.
+
+### Visual Flow / Relationships
+The most prominent visual is the player interacting with the mini-golf holes. The holes are arranged in a scattered pattern across the scene, with some in the foreground and others in the background. The glowing elements and neon lights create a dynamic and immersive atmosphere.
+
+</details>
+
+<p></p>
+
+
 
 ### **Keep rewards fresh and rotating**
 
 Rewards do not maintain their impact forever, as users will eventually acquire the rewards you offer. To maintain engagement, it’s crucial to establish a consistent flywheel of fresh rewards. A recent case study illustrates this point: when a world on Horizon Worlds introduced a new gun skin, in-world purchases surged. However, within a month, this lift returned to baseline as the content became stale. This highlights the importance of regularly refreshing rewards to sustain user interest and drive continued engagement.
 
-![Expanded core loop example](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/540222634_800244482513505_7301925332625881082_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=2de9PASom6YQ7kNvwFGI-ZN&_nc_oc=AdktapCNRXXEOPRDwEcRlIw1qv7i2YOMYicOaCblLduVuwFT6inTXmsxu4v29R_2cpDcGhm8N8Dp-WCHAziX3UHK&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-7QmcOacj4gTKFPcNwIi6Q&oh=00_AfmCU-Lt6MPZza6LiS5yl6nl_K8JOI223DrLxU6T9pVfnA&oe=69558D91)
+<details>
+<summary>Expanded core loop example</summary>
+
+<p></p>
+
+[Expanded core loop example](../image_data/4d4c4d92695ba3287cbccb21de1dfc2926306f089a88d99c348af7e89165a67f.md)
+
+### Overview
+The image depicts a circular diagram illustrating a cycle labeled as the "Expanded Core Loop." It consists of four interconnected loops representing different stages of a process, with directional arrows indicating the flow between them. The diagram includes labels at the points where the loops connect to external elements.
+
+### Key Elements
+- **Central Text**: "Expanded Core Loop" is written in the center of the diagram.
+- **Motivation Loop**: A light green loop with the label "Motivation" pointing towards the center.
+- **Action Loop**: A dark green loop with the label "Action" pointing towards the center.
+- **Reward Loop**: A blue loop with the label "Reward" pointing towards the center.
+- **External Connections**: 
+  - Top-left: "New Seasons Expansions Large Updates"
+  - Top-right: "New Features New Maps/Modes"
+  - Bottom-right: "New Rewards Chase Items"
+  - Bottom-left: "New Rewards Chase Items"
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central text "Expanded Core Loop."
+- **Arrows and Lines**: Directional arrows connect the loops, forming a continuous cycle. The arrows point from one stage to another, indicating the sequence of the process.
+- **Spatial Relationships**: The loops are arranged in a circular pattern, with each loop connecting to the next in a clockwise direction. The external connections are placed at the ends of the loops, suggesting that these elements feed into or are influenced by the core loop.
+
+</details>
+
+<p></p>
+
+
 
 ## Examples of Core Loops
 

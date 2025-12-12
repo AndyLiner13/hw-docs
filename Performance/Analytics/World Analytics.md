@@ -6,7 +6,38 @@ World analytics is the usage and performance data associated with a world in Met
 
 **Note**: To see the World Analytics dashboard for your world, it must have already had visitors for at least two days on the Production channel of Meta Horizon Worlds.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578340_512537547950868_1622790614547008646_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=7qHFWger_3gQ7kNvwG6TdiS&_nc_oc=AdmBnskT9NAItXFW9DC-ml4qh9Ns3jKs5H4dLDrYWyzZp5HCoErAp-hW0h48o2LBOszIdiVjLORPg0BI7gc4B6oa&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EY6in29zCvx7thSFjEmEzg&oh=00_Afkk2JHmRdW9M4lD0hOtB9w0st9e_YgKkGxgLIZj5ZJlgA&oe=69556E8C)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/6554f0c9c9f003a6933db31365d298f16561ee8812c00dc776bf58213d38f794.md)
+
+### Overview
+The image displays a dashboard titled "World analytics," showing metrics related to a world created by Meta Horizon. It includes graphs for visits and unique visitors over a specified date range. There are also sections for filters and a note about data availability.
+
+### Key Elements
+- **World Information Box**: Located at the top-left, contains a thumbnail image of the world, the world name ("Sample World"), creator information ("Created by Meta Horizon"), last saved time ("Last saved on Mar 18, 2024, 5:52 AM"), and last published time ("Last published on Mar 18, 2024, 5:53 AM").
+- **Before Jumping In Note**: A section below the world information box, providing a notice about potential delays in data availability and thresholds for metric visibility.
+- **Metrics Dropdown**: Positioned under the "Before jumping in" note, offering options for selecting metrics such as "Visits and Unique visitors."
+- **Filters Dropdown**: Adjacent to the metrics dropdown, allowing selection of filter criteria such as "All devices."
+- **Date Range Selector**: Below the filters, specifying the date range for the metrics displayed ("Feb 20, 2024 – Mar 18, 2024").
+- **View Metrics Button**: A blue button next to the date range selector, likely used to refresh or view the metrics.
+- **Visits Graph**: A line graph showing visits over time, spanning from February 20 to March 18.
+- **Unique Visitors Graph**: Another line graph displaying unique visitors over the same period.
+
+### Visual Flow / Relationships
+The layout is structured with a clear hierarchy:
+- The world information box introduces the context.
+- The "Before jumping in" note provides important information before proceeding.
+- Metrics, filters, and date range selectors are grouped together for easy access.
+- The graphs are placed side-by-side, with the visits graph on the left and the unique visitors graph on the right, both covering the same timeline.
+
+</details>
+
+<p></p>
+
+
 
 ## How to use the World Analytics tool
 

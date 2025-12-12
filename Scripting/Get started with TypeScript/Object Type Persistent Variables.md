@@ -26,9 +26,90 @@ In the past, number-type persistent variables were only capable of using simple 
 You can find persistent variables by looking under **Variable Groups** in the **Systems** menu of the CUI tool. When you create a new variable within a variable group, you’ll see an option to choose the **Number**, or the **Object** type.
 
 - Access **Persistent Variables** in a **Variables Group** .
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452816754_512524701285486_2041147541414773851_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=vFLFUh2MUHUQ7kNvwHG5yem&_nc_oc=AdmJGsQbRoN-fKitX-1RmeVPwYkXPsMcttNlIQzPS6xrObjOX0lyOfIphYQdgY8a4u6UqlIzy3rfEIABIGYNld_2&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JrgS2oOaEdS6DgHxy-aq6A&oh=00_AfnErzkKHWyPk0-8l9LhdAVefBnVukbC89xA4dNOobk3vA&oe=69557F84)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/cfc6ac3a915832e21adb3d471e8f2269daca13db4a6a75e52533358d772b2ba8.md)
+  
+  ### Overview
+  The image depicts a user interface screen from a software application, specifically a section related to managing persistent variables within a game development environment. The layout includes a sidebar menu on the left and a main content area on the right.
+  
+  ### Key Elements
+  - **Sidebar Menu (Left Panel)**:
+    - **Visual description**: A vertical menu with a dark background and light text.
+    - **Location**: Left side of the screen.
+    - **Contents**: Includes options such as "Systems," "Quests," "Leaderboards," "Commerce," "Variable Groups," "Added To World," "Owned By Me," and "Shared with Me." The "Added To World" option is highlighted, indicating it is currently selected.
+    - **Visual styling**: Dark gray background, white text, and a subtle blue highlight under the selected option.
+  
+  - **Main Content Area (Right Panel)**:
+    - **Visual description**: A large rectangular area with a dark background and light text.
+    - **Location**: Right side of the screen.
+    - **Contents**: Displays a heading "Persistent Variables (1/100)" followed by a description explaining the purpose of creating persistent variables across worlds and using them in scripts. Below this, there is a variable named "# v11 Number."
+    - **Visual styling**: Dark gray background, white text, and a light gray number indicator (#).
+  
+  - **Top Bar (Right Panel)**:
+    - **Visual description**: A horizontal bar at the top of the main content area.
+    - **Location**: Top of the main content area.
+    - **Contents**: Includes a back arrow, a title "hh1," a settings gear icon, and a "Create Variable" button.
+    - **Visual styling**: White text and icons against a dark gray background.
+  
+  - **Sorting Dropdown (Right Panel)**:
+    - **Visual description**: A dropdown menu for sorting variables alphabetically.
+    - **Location**: Top-right corner of the main content area.
+    - **Contents**: Displays "A-Z" with a downward arrow indicating a dropdown.
+    - **Visual styling**: White text against a dark gray background.
+  
+  - **Action Buttons (Right Panel)**:
+    - **Visual description**: Two small icons located to the right of the variable name "# v11 Number."
+    - **Location**: Right side of the variable name.
+    - **Contents**: An icon resembling a clipboard and another icon with three vertical dots.
+    - **Visual styling**: White icons against a dark gray background.
+  
+  - **Bottom Navigation Bar**:
+    - **Visual description**: A horizontal bar at the bottom of the screen with various icons.
+    - **Location**: Bottom of the screen.
+    - **Contents**: Includes icons for a cube, a wrench, a shopping bag, a globe, a play button, a code snippet, and a gear.
+    - **Visual styling**: White icons against a dark gray background.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The main content area displaying the persistent variable information.
+  - **Arrows/Lines/Connectors**: None.
+  - **Reading Order**: The flow starts from the sidebar menu, moves to the main content area, and then to the bottom navigation bar.
+  - **Spatial Relationships**: The sidebar menu is on the left, the main content area occupies the central and right portions of the screen, and the bottom navigation bar is at the very bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - To configure a variable, specify either **Object** or **Number**:
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452965108_512524707952152_3292887128801188756_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=w4CN3cStr38Q7kNvwFuD1Ak&_nc_oc=Adni0Kf56j_k2FCr8RNNdI6JLhrsEzr_d0e0eU003tmNHvhNwi72diVUexCcGliRk5UIvJnX8WS62jKOvKzCFI-8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=JrgS2oOaEdS6DgHxy-aq6A&oh=00_Afnj6njFfY-UkcH3Suc9vU73TV5IV3HyiJ20EHkoGaNZbA&oe=69558150)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/180b076bb9c6d52a86ef78d2e9f56435ef8e6324278361b513660675306d0329.md)
+  
+  ### Overview
+  The image displays a user interface screen from a software application, specifically a section for creating persistent variables within a game development environment. The screen includes a sidebar menu on the left and a main content area on the right. The main content area is focused on creating a new variable, with fields for entering the name and selecting the type of variable.
+  
+  ### Key Elements
+  - **Sidebar Menu**: Located on the left side of the screen, with options such as "Systems," "Quests," "Leaderboards," "Commerce," "Variable Groups," "Added To World," "Owned By Me," and "Shared with Me." The "Variable Groups" option is highlighted, indicating it is currently selected.
+  - **Main Content Area**: On the right, the title "Persistent Variables (1/100)" is displayed at the top. Below that, there is a brief description explaining the purpose of creating persistent variables. The main action is the creation of a new persistent variable, with fields for "Name" and "Type." A dropdown menu is open under the "Type" field, showing options "# Number" and "{} Object."
+  - **Create Persistent Variable Section**: This section contains fields for entering the name and selecting the type of variable. There is also a "Cancel" button below the form fields.
+  - **Top Bar**: At the top of the main content area, there is a back arrow, a settings gear icon, and a "Create Variable" button.
+  - **Dropdown Menu**: Opened under the "Type" field, showing options "# Number" and "{} Object."
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the open dropdown menu under the "Type" field. The form fields for "Name" and "Type" are adjacent to each other, with the "Name" field being larger and more prominent. The "Cancel" button is positioned below the form fields. The back arrow and settings gear icon are located at the top of the main content area, while the "Create Variable" button is on the far right. The sidebar menu on the left provides navigation options.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ## Accessing variables from TypeScript
 

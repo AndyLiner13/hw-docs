@@ -8,7 +8,48 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 It’s a good idea to use [Tracing](../Performance%20tools/Tracing.md) to verify the cost of haptic feedback in your world. In some cases, the cost can be extreme. In this case you should look into modifying/removing the haptic feedback.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452415052_512500641287892_3419482455229549771_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=5oitbgzg2ZgQ7kNvwEYIXX2&_nc_oc=AdmOgkPf8KheEP2MDupT7AX9z8Pp8o1JvzGhHD4xo7YK_pxIvEyUvLqdeLxew0lmahZVzuFSbwQl5GYmduL8JiPb&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfnKXEjoOcttuU9lCcZzITf-7VNrSd81fufxVlCP8wr6uA&oe=69558273)*In this example, haptic feedback takes ~7.8 ms per frame when active.*
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/0ff1710019166b2bcc3f9a241b729a80bc45a899954afbf07bc4c5c1271a0a1e.md)
+
+### Overview
+This image depicts a screenshot of a profiling tool interface, specifically Perfetto, which is used for performance analysis of applications. The main area of the interface displays a timeline with various colored bars representing different processes or events within an application trace. On the left side, there is a navigation pane with options for managing traces and viewing examples. The bottom section shows detailed information about a specific slice of the timeline.
+
+### Key Elements
+- **Timeline**: Located centrally, filled with horizontal bars of varying colors and lengths, indicating different processes or events over time.
+    - **Visual description**: Bars are horizontal, rectangular shapes.
+    - **Location**: Central area, spanning horizontally across the screen.
+    - **Contents**: Text labels such as "PlayerLoop: Update," "WorldRunner: Update," etc., appear above some bars.
+    - **Visual styling**: Bars have distinct colors like purple, green, red, and blue, with varying widths and lengths.
+- **Navigation Pane**: Located on the left side.
+    - **Visual description**: Vertical pane with a dark background.
+    - **Location**: Left side of the screen.
+    - **Contents**: Contains menu items like "Open trace file," "Record new trace," "Show timeline," etc.
+    - **Visual styling**: White text on a dark background.
+- **Current Trace**: Below the navigation pane, showing the current trace being analyzed.
+    - **Visual description**: A smaller section with a light background.
+    - **Location**: Below the navigation pane.
+    - **Contents**: Displays the name of the current trace ("com.facebook.together.together.stable").
+    - **Visual styling**: Light background with black text.
+- **Details Section**: At the bottom, providing information about a specific slice of the timeline.
+    - **Visual description**: A white section with black text.
+    - **Location**: Bottom of the screen.
+    - **Contents**: Includes fields like "Name," "Category," "Start time," "Duration," "Thread," "Process," and "SQL ID."
+    - **Visual styling**: Black text on a white background.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The timeline with colored bars.
+- **Arrows/lines/connectors**: None visible.
+- **Spatial relationships**: The timeline spans horizontally across the central area, with the navigation pane on the left and the details section at the bottom.
+
+</details>
+
+<p></p>
+
+*In this example, haptic feedback takes ~7.8 ms per frame when active.*
 
 ### Trimesh and SubD don’t mix
 
@@ -20,7 +61,72 @@ When editing objects in Desktop Editor, ensure that only settings that are neede
 
 For example, if the “Motion” property is set to “Animated”, components will be automatically added to account for that change (CollisionNotifier, Rigidbody, and a PhysicsComponentSG component).
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452954647_512500631287893_7177151756270803345_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=3uqfzgKxmnsQ7kNvwF9KSbD&_nc_oc=AdmQaeYhJqpnCiNCccS24USNhV6aCrenz3kHhzxLVyBV1jMgbblugev00hWOQiAohVI1Azf_Mb4zr6d0AyDgy-zM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_Afkhfw3etm8D7h4ISP8idRzX7vWPdJ82Or0W6cDJz-1QQw&oe=695599B1)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/a0266e30315e90d08ec1090596a8897777f06d59489f38c40b97e0021d375409.md)
+
+### Overview
+The image displays a user interface from a game development environment, specifically showing the properties and inspector panels of an object named "Blue Frank." The interface includes sections for properties, behavior, attributes, and gameplay tags. The right side of the image shows the object's scripts and components, while the bottom part highlights a comparison between two states of the object's properties.
+
+### Key Elements
+- **Left Panel (Properties)**:
+  - **Header**: "Properties" at the top.
+  - **Icon**: A small icon labeled "[Icon] Blue Frank."
+  - **Behavior Section**:
+    - **Visible**: Toggle switch.
+    - **Collidable**: Toggle switch.
+    - **Motion**: Dropdown menu set to "Animated."
+      - **Sub-elements**: "Play" and "Record" buttons.
+    - **Animation**: Dropdown menu set to "Never."
+    - **Loop**: Dropdown menu set to "Never."
+    - **Speed**: Slider with value "1."
+    - **Enable client smoothing**: Toggle switch.
+  - **Attributes Section**:
+    - **Position**: X: -9.37, Y: -24.9, Z: 39.8.
+    - **Rotation**: X: 0.00, Y: 0.00, Z: -0.00.
+    - **Scale**: X: 1.78, Y: 1.78, Z: 1.78.
+    - **Billboard**: Dropdown menu set to "None."
+    - **Color**: RGB values (0, 0, 0).
+
+- **Bottom Section (Gameplay Tags)**:
+  - **Search Bar**: "Search attached tags."
+  - **Tag Placeholder**: "This object has no tags."
+
+- **Right Panel (Inspector)**:
+  - **Transform Section**:
+    - **Position**: X: 0, Y: 0, Z: 0.
+    - **Rotation**: X: 0, Y: 0, Z: 0.
+    - **Scale**: X: 1.778252, Y: 0, Z: 0.
+  - **Collision Notifier (Script)**:
+    - **Script**: CollisionNotifier.
+    - **Rigidbody**:
+      - **Mass**: 1.
+      - **Drag**: 0.
+      - **Use Gravity**: Checked.
+      - **Is Kinematic**: Checked.
+      - **Interpolate**: None.
+      - **Collision Detection**: Discrete.
+  - **Physics Component SG (Script)**:
+    - **Script**: PhysicsComponentSG.
+    - **Base Config**: Checked.
+    - **Override Config**: Checked.
+
+- **Bottom Right Section (Comparison)**:
+  - **Text**: "No Physics Component, Rigidbody, or CollisionNotifier."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The "Motion" section in the left panel, as it is highlighted and contains interactive elements.
+- **Arrows/Connections**: None explicitly shown.
+- **Spatial Relationships**: The left panel is vertically aligned with the right panel, which is further divided into sections. The bottom section is a standalone comparison area.
+
+</details>
+
+<p></p>
+
+
 
 Also, if objects won’t ever be seen by the player, then turn off visibility as well. Keep in mind that additional settings will add runtime cost to a world such as costs to Physics and Sunlight so recommend turning off settings that aren’t needed.
 
@@ -40,7 +146,35 @@ Optimizing TypeScript can have some of the largest impact when trying to improve
 
 You can use deep profiling to find out what the expensive bridge calls actually are and how much CPU time they use when tracing. Note that associating these calls directly back to a line of code is not currently automatic and you’ll have to manually find those in your code.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452416347_512500627954560_8716800481369087731_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=usoJ_NyW4bkQ7kNvwFzS-Bb&_nc_oc=Adm5FyQHEy4t8IiF9AuiQzfgUzhBNV7ZMZov149efvv5UnlG2UQGaGgkSZHIYX7AVM2s1R0EQa2OSQ4QUBnXO8Do&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_Afn8LSV6mHtGk3uj7TrggCfR_OKtqB3NoaozSxiXZfJfTA&oe=69556D43)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/d1c14ae95b4c67acad44d1dae4b503d308c151c5c717af72ecbe28addb41a135.md)
+
+### Overview
+This image depicts a dialog box with two radio button options for selecting a trace type. The box is set against a hexagonal tiled floor background with pink confetti scattered around. The dialog box has a dark gray background with white text and blue accents.
+
+### Key Elements
+- **Title**: "Start a trace" displayed at the top of the dialog box.
+- **Question**: "What type of trace do you want to run?" located below the title.
+- **Options**:
+  - **Overview**: A radio button option labeled "Overview" with a description underneath stating, "Set a baseline for how your world performs in visit mode. Viewable in Perfetto."
+  - **Deep**: Another radio button option labeled "Deep" with a description underneath stating, "Uncover possible ways to optimize parts of your world. Viewable in Perfetto."
+- **Buttons**:
+  - **Start capture**: A blue button with white text that says "Start capture" located on the right side of the dialog box.
+  - **Cancel**: A gray button with white text that says "Cancel" located at the bottom left of the dialog box.
+- **Close Button**: A small white "X" icon located at the top right corner of the dialog box.
+
+### Visual Flow / Relationships
+The most prominent visual element is the dialog box itself. The radio buttons are arranged vertically under the question, with the "Deep" option currently selected as indicated by the blue dot next to it. The "Start capture" button is positioned to the right of the dialog box, while the "Cancel" button is at the bottom left. There are no arrows or lines connecting the elements, but the layout suggests a linear reading order moving from the question, through the options, and ending with the buttons.
+
+</details>
+
+<p></p>
+
+
 
 *Toggle to enable deep tracing*
 
@@ -171,7 +305,33 @@ Raycasts can be very expensive. Using a short raycast distance will be much chea
 
 Playing audio clips is very CPU intensive. Whenever possible, combine multiple separate sounds into one merged sound file to improve performance. There is an option for audio called **Play and Forget** that runs faster but it does not provide any callbacks. We recommend that you use **Play and Forget** whenever possible. You can still get a similar effect as the callback by using a timer.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452878100_512500624621227_8465348933482063789_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=8wluW6c_vnIQ7kNvwFG0ANL&_nc_oc=Adk4Zj21WSkR2qEKh1yRbg5-DGcuQVSndo_98HM73ZrbaE6xTi0TJIN3H4GLt-8ChT8WrPwWHFH7gNsapBUnNzE_&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfnE07REHRcdje2m6yBOfEFGMqrMLcuTUIEXGcjcFQ5iqg&oe=695571A2)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/de68483e07d0b36c3b64ed43dc9ed12b778244d500ee4a531714b39d008695d6.md)
+
+### Overview
+This image depicts a user interface element showing properties related to a sound asset named "Air Boost End 01". The layout is structured with a header, a toggle switch, and a slider control.
+
+### Key Elements
+- **Header**: Located at the top, labeled "Properties". Contains a small icon resembling a cube with a gear inside, indicating settings or properties.
+- **Asset Name**: Below the header, the name "Air Boost End 01" is displayed in a black rectangular box with white text.
+- **Sound Section**: A collapsed section titled "Sound" is shown with expandable arrow indicators.
+- **Preview Label**: Positioned under the "Sound" section, reads "Preview".
+- **Play on Start Toggle**: A toggle switch located to the right of the "Preview" label, currently in the off state.
+- **Play and Forget Toggle**: Another toggle switch next to "Play and Forget", which is in the on state.
+- **Play Limit Slider**: A slider control labeled "Play Limit" with a value of "0".
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Play and Forget" toggle switch due to its active state. The elements are arranged vertically, with labels to the left and controls to the right. There are no arrows or lines connecting elements, but the layout suggests a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 Here are some more audio playback optimization recommendations:
 
@@ -196,7 +356,34 @@ In server traces, an object spawn can take a significant amount of time. Traces 
   + GetEntityCount
   + ClientSpawn
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452704475_512500537954569_7031487538570193556_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=HtEMXC3UzhAQ7kNvwFit3kB&_nc_oc=AdmJtTa3bPz3cBKKEpTA6RLQGtQnNP8dIIk7b6PUqGCQQHj8LVNnKElBsRtoxSmk5tZinf6ZCyPgWrVVEUNMaTa0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AflGS_fznHKybMFkxA_RI-fDhv4gUGO1tjHV9U6sSAzFUg&oe=69557E92)*ServerSpawn, in this trace, lasts over 1.5 seconds.*
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/8ac5445dec3aad68f18b2df73a3f88041dfeb63ff75ae0054a949b502c9090a3.md)
+
+### Overview
+This image depicts a timeline or Gantt chart-style visualization showing various tasks or processes labeled with their durations. The timeline is segmented into time intervals marked at the top, and tasks are represented as horizontal bars extending across these intervals.
+
+### Key Elements
+- **Timeline Bars**: These represent tasks or processes. They are colored differently to distinguish between them.
+  - **GetAssetDataFrom...**: A green bar starting at 2.4 seconds and ending at 2.8 seconds.
+  - **GetEntityCount**: An orange bar starting at 2.6 seconds and ending at 3.0 seconds.
+  - **ClientSpawn**: A pink bar starting at 2.8 seconds and ending at 3.2 seconds.
+  - **Create...**: A teal bar starting at 3.0 seconds and ending at 3.4 seconds.
+  - **ServerSpawn**: A brown bar spanning from 2.8 seconds to 3.8 seconds.
+- **Time Intervals**: Labeled at the top of the timeline, indicating the start times of the intervals.
+- **Task Labels**: Located within the bars, providing names for the tasks.
+
+### Visual Flow / Relationships
+The timeline is linear, with tasks arranged horizontally according to their start times. The bars extend from left to right, indicating the duration of each task. There are no arrows or connectors, and the reading order follows the sequence of the timeline from left to right.
+
+</details>
+
+<p></p>
+
+*ServerSpawn, in this trace, lasts over 1.5 seconds.*
 
 Although ServerSpawn is not processed on the main thread, secondary effects are seen there.
 
@@ -207,11 +394,85 @@ Multiple calls can be seen in the trace:
 * `ScriptingRuntimeIntegration::InstantiationStep`
 * `DynamicLightsRuntimeIntegration::PostSpawnInstantiationStep`
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452533527_512500531287903_3706876015676299264_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=aj5VSq5k5G0Q7kNvwFQlYFw&_nc_oc=AdmO2hYiVCbBqxCYITKZBRd3JmATOl6Wz1MGUtQaRGiqhHwcjdI9U2WMR6ZQSWBnpP1whRndf238w70uu8E5GqDz&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfmnHt_V9NxIIhHbmqkj0IKfko9t6mjjubyUvjoCpDMw8A&oe=6955897E)*In the server’s main thread, spawning objects also leads to skipped updates.*
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/eec6d7d23423dee9951dc3e0d701544d1661b07bf4d3db7556f8083e44bfcdf3.md)
+
+### Overview
+This image depicts a timeline or Gantt chart-style visualization showing various tasks or processes labeled with different categories and states. The timeline is divided into two main sections: "Main Thread 1" at the top and "Async 11361" at the bottom. Each task is represented by a colored bar indicating its duration and status.
+
+### Key Elements
+- **Main Thread 1**:
+  - **Task Bars**: Multiple colored bars representing different tasks.
+  - **Labels**: Text labels such as "Sce_DataMode", "Act...", "Sc_...", "ScriptingRuntime..." are visible within the bars.
+  - **Colors**: Bars are filled with various shades of green, blue, red, and purple.
+  - **Background**: A light gray background with a darker gray vertical line on the left side.
+- **ServerSpawn**:
+  - **Bar**: A large yellow bar spanning across both sections.
+  - **Label**: "ServerSpawn" written above the bar.
+- **Async 11361**:
+  - **Task Bars**: Similar colored bars as in Main Thread 1.
+  - **Labels**: Text labels such as "CreateAssetNodes", "InstantiateObjects", and "SpawnTreeEntities" are visible within the bars.
+  - **Colors**: Bars are filled with shades of teal, pink, and orange.
+- **UnityRuntime...**: 
+  - **Bars**: Multiple bars with the label "UnityRuntime..." repeated several times.
+  - **Colors**: Bars are filled with shades of red and teal.
+- **DynamicLightsR...**: 
+  - **Bar**: A single bar with the label "DynamicLightsR...".
+  - **Color**: Filled with a red shade.
+- **Other Elements**:
+  - **Vertical Line**: A thin vertical line on the left side of the image.
+  - **Horizontal Line**: A thin horizontal line separating the two main sections.
+
+### Visual Flow / Relationships
+- **Most Prominent**: The large yellow "ServerSpawn" bar.
+- **Arrows/Connections**: No explicit arrows or connections are visible.
+- **Spatial Relationships**: Bars are arranged horizontally, with some stacked vertically within the sections.
+
+</details>
+
+<p></p>
+
+*In the server’s main thread, spawning objects also leads to skipped updates.*
 
 A similar pattern is seen in client traces.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935617_512500534621236_8571856347165737758_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Pz2DzYqj3hMQ7kNvwGSHRyr&_nc_oc=AdkLU9wbmJGFRDFJ77eAgC2iHceT_x2Q5XUtK4VTKbtF3fZ1SC3EDRjm_vBMDiZSjxrtHgkKE7HRDsTHaAFzGx7z&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AflpgzEQvW-xuHuBRuiSTaZG5Di48Gp90Qcqx9SGWibBig&oe=69557310)*ClientSpawn runs for 280 milliseconds on a secondary thread.*
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/8fbfbc7fcee7edaaabb6d0c8157685d00199305078aa3a672642ea8370eadca8.md)
+
+### Overview
+This image depicts a timeline or Gantt chart-style visualization showing various tasks or processes occurring over time. The timeline is segmented into time intervals marked at the top, and each task is represented by a colored bar indicating its duration and progress.
+
+### Key Elements
+- **Time Intervals**: Located at the top of the image, these represent the progression of time. Each interval is labeled with a timestamp.
+- **Task Bars**: These are horizontal bars representing different tasks. Each bar has a distinct color and label.
+    - **ConvertJSONToEntityTree**: A purple bar starting at 101.50 s.
+    - **LoadSceneGraphFromEntityTree**: A light orange bar starting at 101.55 s.
+    - **SceneGraphTreeNodeLoader.Lo**: A pink bar starting at 101.60 s.
+    - **SceneGraphTreeNodeLoader.Pr**: A light purple bar starting at 101.65 s.
+    - **[ConvertToT_**: A green bar starting at 101.70 s.
+    - **[Remap] Rem**: A pink bar starting at 101.75 s.
+    - **ClientSpawn**: A large magenta bar spanning from 101.50 s to 101.75 s.
+    - **CreateAssetNodes**: A dark teal bar starting at 101.50 s.
+    - **InstantiateObjects**: A light red bar starting at 101.65 s.
+    - **SpawnTreeEntities**: A brown bar starting at 101.70 s.
+    - **WBSceneGraphSnapshotDeserialization**: A teal bar starting at 101.70 s.
+
+### Visual Flow / Relationships
+The visual hierarchy is primarily determined by the length and color of the bars, which indicate the duration and importance of each task. The magenta bar for `ClientSpawn` is the longest, suggesting it is the most significant process. The bars are arranged horizontally, with no connecting lines or arrows, implying a linear sequence rather than a hierarchical or parallel relationship.
+
+</details>
+
+<p></p>
+
+*ClientSpawn runs for 280 milliseconds on a secondary thread.*
 
 Effects of spawning on the client’s main thread are more troublesome. Multiple calls can be seen disrupting the main thread:
 
@@ -222,7 +483,33 @@ Effects of spawning on the client’s main thread are more troublesome. Multiple
 * `SubDRuntimeIntegration::InstantiationStep`
 * `PhysicsRuntimeIntegration::InstantiationStep`
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452486020_512500617954561_1498065068073528888_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=NxjrvdB8w68Q7kNvwEM7rNW&_nc_oc=AdnGJq7V_cys1PeU6qKwj0i3nOiaL3NxmiUwrRz7J8SXdsKHfusCE6GgAUvTDdxIBcEBGsYJe9mwj5cK7g0yEPsV&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfnFkl3IyjJcW3IN3gSlv0FbM58pOeQoof3voKdYmG0zuA&oe=69558E6C)*ClientSpawn disruptions on the main thread cause multiple long and skipped frames.*
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/31cc74eda0f0ef1a8468665bc4c050a029b016548ec5d409814c6824c4391af4.md)
+
+### Overview
+This image depicts a timeline or log viewer interface, likely from a debugging tool or profiler. It shows a sequence of frames over time, with various events and states labeled within each frame. The timeline is segmented into time intervals marked at the top with timestamps.
+
+### Key Elements
+- **Timeline Header**: Located at the top, showing time intervals such as "101.50 s," "101.55 s," etc.
+- **Frame Labels**: Each frame is labeled with "Frame" followed by a number or identifier.
+- **Event Log**: Within each frame, there are entries that appear to represent different events or states. These are color-coded and include text labels like "PlayerLoop::Frame," "PlayerLoop::Update," "PlayerLoop::Render," among others.
+- **Timestamps**: Time intervals are marked at the top of the timeline, indicating when each frame begins.
+- **Color Coding**: Different colors are used to distinguish between various events or states within the same frame.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The timeline itself, which spans across the entire width of the image.
+- **Arrows/Connectors**: There are no arrows or connectors visible in this image.
+- **Reading Order**: The timeline progresses from left to right, with each frame representing a snapshot of the system's state at a specific point in time.
+
+</details>
+
+<p></p>
+
+*ClientSpawn disruptions on the main thread cause multiple long and skipped frames.*
 
 ### Potential solutions
 
@@ -409,7 +696,45 @@ Highlights:
 * Do not define bindings without a concrete purpose. This may happen by writing a custom abstract API layer wrapping the base UI components (View, Image, Pressable, etc.), and defining bindings for every prop as a convenience to consumers. On the local client, a binding set operation passes the entire key-value store to ReactVR. So the bigger this gets, the greater the CPU cost to perform a single binding set.
 * Animations, by way of periodic binding updates, should be implemented with care or not at all. This is due to the twofold nature of the bridge call frequency limits, and network latency and droughts/bursts associated with that. Consider using the [Animation API](../../Desktop%20editor/Custom%20UI/Animations%20for%20custom%20UI.md) instead when needing animations for UI.
 
-![Architecutral diagram of the server-client relationship](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501031261_729959856208635_1618126584846801507_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=lqMTbXtv1bsQ7kNvwHBzxCe&_nc_oc=AdnlO-SZGZVgoHVAYrBh65D6p2vmgZ3tanXIwV2bafhF_yK12BFHYR9CEzIHHPF89CgVQ5A1Li9vpXDfR_Zm4gEh&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfnEual2PujTcR837eXq54W3-ZvaJJpMkRj56wDYTgqPhw&oe=695582BE)
+<details>
+<summary>Architecutral diagram of the server-client relationship</summary>
+
+<p></p>
+
+[Architecutral diagram of the server-client relationship](../../image_data/bf19dfd8d41e6de6d1d42ecf99caba6ee9a021a1f54a249f9894ccdadf9adb08.md)
+
+### Overview
+The image depicts a diagram illustrating a server-client interaction involving TypeScript runtime and CustomUIStateService components. The diagram uses arrows to indicate data flow between the server and client environments.
+
+### Key Elements
+- **Server Section**:
+  - **Visual description**: A large rectangular box labeled "Server" at the top.
+  - **Location**: Top section of the image.
+  - **Contents**: Contains two smaller rectangles within the larger box labeled "TypeScript Runtime" and "CustomUIStateService".
+  - **Visual styling**: Dark teal background with white text, bordered edges.
+
+- **Client Section**:
+  - **Visual description**: A large rectangular box labeled "Client" at the bottom.
+  - **Location**: Bottom section of the image.
+  - **Contents**: Contains two smaller rectangles within the larger box labeled "ReactVR (Redux store, Custom UI DOM)" and "CustomUIStateService".
+  - **Visual styling**: Dark green background with white text, bordered edges.
+
+- **Arrows**:
+  - **Network RPC**: An arrow pointing downward from the server to the client.
+  - **initialize()**: An arrow pointing downward from the server to the client.
+  - **Binding.set()**: An arrow pointing downward from the server to the client.
+  - **Callback**: An arrow pointing upward from the client to the server.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The large rectangular boxes labeled "Server" and "Client".
+- **Arrows**: Indicate the direction of data flow between the server and client.
+- **Spatial relationships**: The server box is above the client box, and the arrows connect specific components within the boxes.
+
+</details>
+
+<p></p>
+
+
 *Architectural diagram of the server-client relationship*
 
 ### Profiling UI
@@ -439,7 +764,51 @@ From a Deep trace pulled into Perfetto, watch the synchronous cost of these mark
 
 One useful method to make sense of this in aggregate is to drag a 5 second block across the main thread and look at the total wall time for that marker, divided by 360. For `Verts::PollDriver::Rpc` in the screenshot below, that is **0.25 ms** (90.03099 wall duration in seconds divided by 360 frames).
 
-![Verts::PollDriver::Rpc in Perfetto](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/501585933_729959869541967_3381825224616955454_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=VjO31VE0FnwQ7kNvwE8IaKX&_nc_oc=AdlYwjfZ3wOotjSdvWq3iKKH792M1n4sl68WEFH3x1DtjAQEh8XvYXzpcbzn4Ny4Zr_i2oUU3pTgkan2ws-2wKQx&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=686AHFAgPT95HVWKIu25sQ&oh=00_AfkRd8XyFzniRY-zdvpP7Sj_oWi0hTYn67-mg1PTNXMFGA&oe=69559120)
+<details>
+<summary>Verts::PollDriver::Rpc in Perfetto</summary>
+
+<p></p>
+
+[Verts::PollDriver::Rpc in Perfetto](../../image_data/b8078b1be44b27a353b571d7c0417a419407ab823f900fc1828382eae4c1d0a7.md)
+
+### Overview
+This image depicts a user interface of a profiling tool, likely for analyzing performance data of a software application. The layout includes a navigation pane on the left, a timeline visualization in the center, and a table of performance metrics at the bottom.
+
+### Key Elements
+- **Navigation Pane (Left)**:
+  - **Visual description**: A vertical sidebar with a dark theme.
+  - **Location**: Left side of the image.
+  - **Contents**: Contains options such as "Open trace file," "Record new trace," "Show timeline," "Download," "Query (SQL)," "Viz," "Metrics," "Info and stats," "Switch to legacy UI," "Convert to .json," "Convert to .sysrace," "Open Android example," and "Open Chrome example."
+  - **Visual styling**: Dark background with white text and icons.
+
+- **Timeline Visualization (Center)**:
+  - **Visual description**: A horizontal timeline with colored bars representing different events or processes over time.
+  - **Location**: Center of the image.
+  - **Contents**: The timeline spans from 00:00:00 to 00:00:09, with timestamps marked every second.
+  - **Visual styling**: White background with colored bars, some with labels indicating specific events.
+
+- **Tree View (Center)**:
+  - **Visual description**: A hierarchical tree view showing trace events and kernel threads.
+  - **Location**: Center of the image, above the timeline.
+  - **Contents**: Includes nodes labeled "Trace Events," "Misc Global Tracks," and "Kernel threads," with expandable/collapsible sections.
+  - **Visual styling**: Dark background with white text and checkboxes next to each node.
+
+- **Performance Table (Bottom)**:
+  - **Visual description**: A table listing performance metrics.
+  - **Location**: Bottom of the image.
+  - **Contents**: Columns include "Name," "Wall duration (ms)," "Avg Wall duration (ms)," and "Occurrences." Rows show various functions and their respective durations and occurrences.
+  - **Visual styling**: Light gray background with black text, bordered by a thin line.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The timeline visualization in the center.
+- **Arrows/lines/connectors**: None explicitly shown.
+- **Spatial relationships**: The timeline is below the tree view, and the performance table is at the bottom. The tree view branches out from the timeline, suggesting a relationship between the timeline events and the tree nodes.
+
+</details>
+
+<p></p>
+
+
 
 ### Binding Set and Callback Frequency Limits
 

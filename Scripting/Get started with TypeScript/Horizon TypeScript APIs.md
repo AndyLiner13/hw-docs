@@ -15,7 +15,44 @@ All new Worlds use V2 of the TypeScript API by default. We strongly recommend us
 
 Horizon API content class list example below:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452665661_512510677953555_9214172361803849395_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=IIJRT-aVICUQ7kNvwEY1u4h&_nc_oc=Adnj_OJkGgbx75w9fQ_5bt75KZWTHFP7_6acdNvS6TGy-rrgXmraxO117GhITTrvCNbcitFL-licXfdYZQK-jQzZ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=onIoQvYsR0h2UMWyeO9WQQ&oh=00_AfnDstmE7hb0swsw_RmeSJSTN6gY8Cj9dlY0xQSdEy2aaQ&oe=69557043)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/afdb001575ec0ce2af797f5e183b2cbad1c9ce5d29bbc5d732bf41c27a60c7e6.md)
+
+### Overview
+The image displays a table titled "Classes" with two columns: "Class" and "Description". The table lists various classes related to entities and gizmos within a game development environment, specifically Horizon.
+
+### Key Elements
+- **Column Headers**: 
+  - **Class**: Located at the top left, spanning the width of the first column.
+  - **Description**: Located at the top right, spanning the width of the second column.
+  
+- **Rows**: Each row contains a class name and its corresponding description.
+  - **AchievementsGizmo**: Represents an achievement gizmo in the world.
+  - **AnimatedEntity**: Represents an entity that can be animated by a transform.
+  - **Asset**: Represents an asset in Horizon world.
+  - **AttachableEntity**: Represents an entity that can be attached to other entities.
+  - **AudioGizmo**: Represents an Audio gizmo in the world.
+  - **CodeBlockEvent**: Represents an event within the Code Block scripting system in Horizon. These events can be sent and received both locally and over the network, and only support predefined serializable types. These are less performant then LocalEvent, so use them with care.
+  - **Color**: Represents an RGB color.
+  - **DynamicLightGizmo**: Represents a dynamic lighting gizmo in the world.
+  - **Entity**: Represents an entity in a world.
+  - **GrabbableEntity**: Represents an entity that the user can grab.
+  - **HorizonProperty**: Represents a property in Horizon world.
+
+- **Background Colors**: Alternating light blue and white rows for better readability.
+
+### Visual Flow / Relationships
+The table is structured in a grid layout with alternating background colors for readability. The columns are clearly defined, and the descriptions provide context for each class listed.
+
+</details>
+
+<p></p>
+
+
 
 **Note:** This is only a shapshot of the Classes available to you.
 

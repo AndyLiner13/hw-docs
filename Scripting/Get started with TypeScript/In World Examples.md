@@ -12,14 +12,73 @@ There are 4 world templates available to help you create starter worlds. Templat
 
 - Navigate to the Horizon “Create New World” page.
 - Scroll down to section **TypeScript Environments**.
-- Select the template world you want to create and click Create world. ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452653112_512510427953580_5716430260051889052_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=DsbDepX7IdIQ7kNvwGA41_v&_nc_oc=Admm68wAcOGnvgcI_2PHr-gAfzJjTg7v0JAI1CETFgGPNUfESqk1U7NLRkGTBIPb5E53a70VuKfHchtH-LvzZXQH&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L-aY16Z191-7GGDaymSVqA&oh=00_AfltK9xZM9YQOGOM8rgoH0_lcGPyYGTMie3iIoE9Qe5LJQ&oe=69556C93)
+- Select the template world you want to create and click Create world. <details>
+                                                                       <summary>Image Content</summary>
+                                                                       
+                                                                       <p></p>
+                                                                       
+                                                                       [All image details and metadata](../../image_data/53b9acbb767a75e468148d272254abda67aab570e76a214666464ad56089d3a8.md)
+                                                                       
+                                                                       ### Overview
+                                                                       The image depicts a virtual environment, likely within a VR application or game. It features a user interface overlaying the virtual space, which includes options for managing guests, settings, and inventory. The central focus is a menu titled "Choose a world to create," displaying various templates such as "City Parkour Template," "Puzzle," "Narrative," "TypeScript Testbench," "TypeScript and Code Block Example," and "TypeScript Modules Demo." There's also a floating button labeled "Create a party."
+                                                                       
+                                                                       ### Key Elements
+                                                                       - **User Interface Overlay**: Located centrally, it contains a profile picture labeled "Cosmorp" and options like "Manage guests," "Settings," and "Open inventory."
+                                                                       - **Menu Title**: "Choose a world to create" is prominently displayed at the top of the overlay.
+                                                                       - **World Templates**: Six templates are listed:
+                                                                         - **City Parkour Template**
+                                                                         - **Puzzle**
+                                                                         - **Narrative**
+                                                                         - **TypeScript Testbench**
+                                                                         - **TypeScript and Code Block Example**
+                                                                         - **TypeScript Modules Demo**
+                                                                       - **Floating Button**: Positioned in the upper right corner, it says "Create a party."
+                                                                       - **Virtual Environment**: The background shows a modern interior with bookshelves, a lamp, and a view of a cityscape through large windows.
+                                                                       - **Hand Gesture**: A hand is visible in the bottom left corner, suggesting interaction with the interface.
+                                                                       
+                                                                       ### Visual Flow / Relationships
+                                                                       - **Most Prominent Element**: The central menu overlay.
+                                                                       - **Arrows/Connectors**: None visible.
+                                                                       - **Reading Order**: The menu items are arranged in a grid layout, with the templates grouped together under "TypeScript Environments."
+                                                                       - **Spatial Relationships**: The user interface elements are layered over the virtual environment, with the hand gesture indicating potential interaction.
+                                                                       
+                                                                       </details>
+                                                                       
+                                                                       <p></p>
+                                                                       
+                                                                       
 - You can open the Desktop Editor and view or update the TypeScript files to experiment with how it works. To see how the code creates the module’s behavior, navigate to the module’s definitions and interface.
 
 ### A: TypeScript and Code Block Example Scripts
 
 This template world is an expansion of the Code Block Example Scripts template. Each example has both a TypeScript and Code Block implementation and a station to experience those next to each other. If you are familiar with using Code Blocks, the examples show common use cases for both CodeBlocks and TypeScript.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452976859_512510424620247_187077101860429859_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=GKGDAV5qRWUQ7kNvwF48eAb&_nc_oc=Adn-50GIt5SnDNpZeaGydSuVM_XtXunZSPerO1_BIDDtReBSCQvAgnrTCBo3DalJsTIM--kfMffTEOqcpYSO_zTF&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L-aY16Z191-7GGDaymSVqA&oh=00_Afl7rbTGokEe8NoECS_9HdMlpXZFhWWnKVkl_3CXWCD6nQ&oe=69556D9E)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/88704d754fd03fb06347f625a92122b8edc78525cde250be7dfe9c8a89837505.md)
+
+### Overview
+The image depicts a virtual room resembling a conference hall or a meeting space. The room has a modern design with a large central screen displaying a circular graphic with the word "Transform" below it. There are multiple podiums arranged in a semi-circular pattern facing the screen. The room has large windows allowing natural light to enter, and the walls are painted in a bright teal color. 
+
+### Key Elements
+- **Central Screen**: Located at the back of the room, displaying a blue circle with a smaller blue circle inside, and the word "Transform" written below it.
+- **Podiums**: Arranged in a semi-circle in front of the screen, each podium has a small display screen showing various names or titles.
+- **Windows**: Large windows on both sides of the room, allowing natural light to illuminate the space.
+- **Columns**: Tall, gray columns supporting the ceiling, located on either side of the room.
+- **Signage**: A sign on the left side of the room reads "First Day" with additional text underneath that is not fully legible.
+- **Flooring**: The floor is a gradient of light blue and pink, with a darker blue area in the foreground.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central screen, which draws attention due to its size and the bold text displayed. The podiums are arranged symmetrically around the screen, creating a sense of balance. The columns frame the room, adding structural integrity and aesthetic appeal. The windows provide a contrast to the solid interior elements, introducing a sense of openness. The signage on the left adds context to the setting, suggesting a formal event or presentation.
+
+</details>
+
+<p></p>
+
+
 
 ### B: TypeScript Events
 
@@ -32,7 +91,30 @@ The template complements the Horizon events documentation [here](../Events/Local
 * Creating events and subscribing to events
 * Interactions and events detection and world updates
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452917745_512510421286914_5952549616907279129_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=gvMb0c4Gc1cQ7kNvwFAN_I2&_nc_oc=AdmAAxEU3TWCv8vHSYhuUgQ2Fpv8cSeYQOg0xQxaOSh5ukXWl7i7oQjmMNTQ6Svik2t4AX2fw_zJwcTaP9zc9HWa&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L-aY16Z191-7GGDaymSVqA&oh=00_Aflax0rsbbOuvhoD2Jk_f_zmuxRJy8pefNDzNFklRLVjKQ&oe=695592F5)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/9e8a547d0af31cecc5a8c2d0ba69f29a3e892397dd6a5ec858daf0d5633e011a.md)
+
+### Overview
+The image depicts a virtual environment resembling a modern, possibly futuristic, indoor setting. The space has a clean, open layout with a mix of geometric shapes and smooth surfaces. There are various interactive elements and informational signs within the scene.
+
+### Key Elements
+- **Left Panel**: Contains a circular sign with the text "Horizon Events" in a yellow banner. Below it, there are two smaller informational signs mounted on poles.
+- **Center**: A red carpet leads towards a control panel with a red button and a screen displaying some information. To the left of the control panel, there are barriers with a red and black design.
+- **Right Panel**: Features a large, circular object with a metallic finish and a central knob, positioned near the ceiling.
+- **Background**: The walls are light green, and the ceiling has a blue hue with a geometric pattern.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the signs and the control panel. The red carpet guides the viewer's eye towards the control panel, which is the focal point of interaction. The circular object on the right seems to be a decorative or functional element, adding to the futuristic aesthetic of the room.
+
+</details>
+
+<p></p>
+
+
 
 ### C: The Lab: TypeScript Testbench
 
@@ -42,7 +124,34 @@ This world has demos introducing:
 * Object Pooling
 * Bezier Curve math implemented with custom TypeScript Classes
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452653615_512510434620246_3243192593321753654_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=LPcI-aJIuSYQ7kNvwEmvjgl&_nc_oc=AdkoQy5dDSxsYBs1XAT7dNvrdc5YHhdfdhWvVtD1SW0oYqtaqIAHfdU36AS8as5CTLn_j9bOgbnXgFzGznCfs_uc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=L-aY16Z191-7GGDaymSVqA&oh=00_AfnGT_KNop_NoIDppU3HH5EbzKqKs7bpvrhFWRQ2ty2qEA&oe=6955883A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/eaf136e45bef42eade65b09e2ef20cd6091b53409fb9312a4bef7951fcfe8108.md)
+
+### Overview
+The image depicts a virtual environment resembling a laboratory or experimental space. The room has a futuristic design with a low-poly geometric ceiling and a tiled floor. The walls are plain and light-colored, with some text and icons visible. The perspective suggests the viewer is standing at the entrance of the lab.
+
+### Key Elements
+- **Ceiling**: Geometric, low-poly design with triangular shapes, primarily in shades of gray.
+- **Walls**: Plain, light-colored surfaces with minimal decoration.
+- **Floor**: Tiled, light gray with grid lines, suggesting a clean, industrial look.
+- **Text**: "Welcome to THE LAB" prominently displayed in the center of the wall facing the viewer.
+- **Icons**: Small, colorful cubes are scattered around the room, particularly near the right wall.
+- **Door**: A large, teal arch-shaped door is centered in the wall facing the viewer.
+- **Text on Right Wall**: "Asset (De)Spawner" written vertically along the right wall.
+- **Foreground Object**: A small, pixelated figure stands near the center of the room, facing away from the viewer.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Welcome to THE LAB" text, which draws attention as the focal point. The door serves as another significant visual element, leading the viewer's eye towards the entrance. The scattered cubes add a sense of activity or purpose within the space. The overall layout suggests a structured, organized environment.
+
+</details>
+
+<p></p>
+
+
 
 ### D: Modules
 
@@ -52,4 +161,29 @@ TypeScript modules are an exciting new addition to Horizon scripting. They let y
 * Simple math library that can be used by other scripts
 * More complex data store example showcasing how to force a single global instance of a script
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652224_512510414620248_8372057275696785054_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=U1MSF4-PDbsQ7kNvwG7glIN&_nc_oc=AdkNmFeJBgU-ChXYUAXkVSfj7MPCUYeCttTyybfPIauY-ac8ao_BvwczUN2Cfd_-gpob5lEOLEXKSxS_5xhRkvce&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L-aY16Z191-7GGDaymSVqA&oh=00_Afn3nAYgTYVsAyGpUgIBxqdonXSGvFzAWUswZ-98y6AmWQ&oe=695576F7)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/1356deb781954feea13a7573a791f3bade1546baecca237a8c6982cb3ba1b667.md)
+
+### Overview
+The image depicts a virtual environment resembling a futuristic room or exhibit space. The central focus is a large, semi-transparent structure labeled "Modules Demo." Inside this structure, there are several panels displaying text and diagrams. Above the structure, there are colorful geometric shapes arranged symmetrically. The surrounding area includes spherical objects and abstract shapes, suggesting a sci-fi or experimental setting.
+
+### Key Elements
+- **Central Structure**: A large, semi-transparent cube-like structure with the text "Modules Demo" prominently displayed in white font. The structure has a reflective surface, showing faint reflections of the surrounding environment.
+- **Interior Panels**: Inside the structure, there are four vertical panels with text and diagrams. Each panel has a light pink base and dark purple upper sections containing text and small illustrations.
+- **Text and Diagrams**: The panels contain various texts and diagrams, though the specific content is not legible due to resolution limitations.
+- **Colorful Shapes**: Above the structure, there are four groups of geometric shapes in blue, green, red, and yellow. These shapes are arranged symmetrically, with two groups on either side of the structure.
+- **Background**: The background features a dark, starry sky with spherical objects resembling planets or moons, adding to the futuristic ambiance.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The "Modules Demo" structure is the most prominent visual element.
+- **Arrows/Connections**: There are no explicit arrows or connections within the image itself.
+- **Spatial Relationships**: The colorful shapes above the structure are positioned symmetrically, creating a balanced layout. The interior panels are evenly spaced within the structure.
+
+</details>
+
+<p></p>
+

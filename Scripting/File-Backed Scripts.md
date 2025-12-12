@@ -57,12 +57,115 @@ Once you’ve created scripts in your world, use the following process to duplic
 - Enter your world in VR and press down on the right control stick to enter the world management view.
 - Press the three line menu icon on the left controller, then select **Assets** from the menu.
 - In the Assets menu, select the **Script** icon from the floating menu bar at the bottom.
-  ![Filebacked-scripts icon and library view](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480474314_656797416858213_30943595802067939_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4Eh6vA4zLNoQ7kNvwF48BCH&_nc_oc=AdnkMvJS23Jl4LIZn5SqY_LhKKShHliB7vjWoNckVlhtO9leAk5LIIlpGRJt8j4Ui4Y3bHhz6pBKvetXrAKT7L-_&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=dDKEP6jtY256edvwljzbig&oh=00_AfkIPhcmQKq3lyG5Jp2KicUL0EKJruNwDDBUJdpcF-QKmw&oe=695598FD)
+  <details>
+  <summary>Filebacked-scripts icon and library view</summary>
+  
+  <p></p>
+  
+  [Filebacked-scripts icon and library view](../image_data/825a631201b748aed460d495e8df477b0d400552c41c8dd17e86c39b52c94565.md)
+  
+  ### Overview
+  This image depicts a user interface from a software application, likely related to game development or scripting. The interface includes a sidebar menu, a library view, and various interactive elements such as buttons and icons.
+  
+  ### Key Elements
+  - **Sidebar Menu**: Located on the left side, it has a dark background with white text. The menu items include "Script," "Console," and "Library." The "Library" option is highlighted, indicating it is currently selected.
+  - **Library View**: Positioned on the right, it displays a list of script names within code tags (`<code>`). The scripts listed are "NPCAgent2," "NPCAndroid," "NPCAndroidWaypoint," and "NPCChicken."
+  - **Interactive Elements**: 
+    - A "New Script" button is located at the top-right corner of the library view.
+    - There are icons next to each script name, likely representing edit or delete functions.
+  - **Bottom Toolbar**: At the bottom, there are several icons, possibly representing different functionalities within the application. One of them resembles a script tag (`<code>`).
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the library view, which contains the list of scripts. The interactive elements (icons next to the scripts) are arranged vertically beside each script name. The bottom toolbar provides additional functionality options.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Once in the Script menu, select **Library** to view all the scripts currently added to your world.
 - Hover over a script and select the three dots on the script entry field, then select **Duplicate**.
-  ![Filebacked-scripts duplicate selected script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/480866704_656797516858203_53212230083168444_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=pW-1gjhwh4wQ7kNvwEr390s&_nc_oc=Adm4YR1wGiSQH4OblHxchC1fWi2fbxRKz6iOLrc5ifUvQrthkwMI7dG8LajWI5FCmLpWXmMzd9rvT7BYDtgixdd5&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=dDKEP6jtY256edvwljzbig&oh=00_AfkmnuLsTfgbZX_rsXDlgEXKJX4F_nvOEPw2BNS6p9oxsQ&oe=69559820)
+  <details>
+  <summary>Filebacked-scripts duplicate selected script</summary>
+  
+  <p></p>
+  
+  [Filebacked-scripts duplicate selected script](../image_data/eab177bbadf4eae4d2bc307dae2d3ddace7ba3e3a7e8a0ad53e830bd908ec45f.md)
+  
+  ### Overview
+  The image depicts a user interface element within a software application, likely related to scripting or game development. It shows a list of items under the "Library" tab, with options for managing these items via a contextual menu.
+  
+  ### Key Elements
+  - **Left Panel**: Contains tabs labeled "Script," "Console," and "Library." The "Library" tab is highlighted, indicating it is active.
+  - **Main Content Area**: Displays a list of items with code tags (`<code>` symbols) preceding them. Items include "NPCAgent2," "NPCAndroid," "NPCAndroidWaypoint," and "NPCChicken."
+  - **Contextual Menu**: Appears as a dropdown menu on the right side of the screen, offering options such as "Delete," "Spawn New Gizmo," and "Duplicate."
+  - **Top Bar**: Includes buttons labeled "Compile All," "New Script," and a search icon.
+  - **Bottom Bar**: Contains various icons, possibly representing different functionalities within the application.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The list of items under the "Library" tab.
+  - **Arrows/Connectors**: None visible.
+  - **Spatial Relationships**: Items are listed vertically, with the contextual menu appearing as a dropdown next to the list.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - A new script will be created and added to your script library.
-  ![Filebacked-scripts successfully duplicated script](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480543342_656797600191528_601406966847970179_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=gNKTBwPbNZQQ7kNvwEfJwPt&_nc_oc=Adlcq3hhOqzHyvhQMhQT9KkgT3EFQbq5g_rBuJBZsfOhs5r7WdElH1y8M06BnIiBF5iLiwH2vEiPT6RyTpIpRsa1&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=dDKEP6jtY256edvwljzbig&oh=00_AfnPLFGeBRBxWW5jHgrbFu3A5I-F28QMMTQfUwtHHr3lMg&oe=69557D58)
+  <details>
+  <summary>Filebacked-scripts successfully duplicated script</summary>
+  
+  <p></p>
+  
+  [Filebacked-scripts successfully duplicated script](../image_data/d7dc4de99f540467e9c18a2f6d7c86ceca227ae27bea7e9c9c97d4c7a37c0595.md)
+  
+  ### Overview
+  The image depicts a user interface element within a software application, likely related to scripting or programming. It shows a list of script names on the left side, with icons and additional controls on the right side. The interface has a dark theme with some interactive elements.
+  
+  ### Key Elements
+  - **Left Panel (Scripts List)**:
+    - **Visual description**: A vertical list of items with icons and text.
+    - **Location**: Left side of the interface.
+    - **Contents**: 
+      - NPCAgent2
+      - NPCAgent3
+      - NPCAndroid
+      - NPCAndroidWaypoint
+    - **Visual styling**: Icons are white with a black background, text is white, and the background is dark gray.
+  
+  - **Right Panel (Controls)**:
+    - **Visual description**: A series of icons and buttons.
+    - **Location**: Right side of the interface.
+    - **Contents**: 
+      - A pencil icon next to each script name.
+      - Three dots next to each script name, likely indicating more options.
+    - **Visual styling**: Icons are white, and the background is dark gray.
+  
+  - **Top Bar**:
+    - **Visual description**: Contains buttons labeled "Compile All," "New Script," and others.
+    - **Location**: Top of the interface.
+    - **Contents**: 
+      - "Compile All"
+      - "New Script"
+      - Other buttons partially visible.
+    - **Visual styling**: Buttons have a light gray background with white text.
+  
+  - **Background**:
+    - **Visual description**: A grid pattern in the background, suggesting a workspace or editor environment.
+    - **Location**: Behind the main interface elements.
+    - **Contents**: A grid layout with orange and green squares.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The scripts list on the left.
+  - **Arrows/lines/connectors**: None visible.
+  - **Spatial relationships**: Items are arranged in a vertical list on the left, with corresponding controls on the right. The top bar contains global actions.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 **Note**: In file-backed scripts worlds the script gizmos are references to a script. Duplicating a script gizmo creates a new reference to the same script as the original gizmo. This means that any edits made to the duplicated gizmo will also apply to the original script.
 

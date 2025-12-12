@@ -4,7 +4,31 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 The `Simple World Broadcast` asset group provides an easy, “plug-and-play” set of entities for creators who want to quickly begin working with the World Broadcast system. It includes the minimum required tech to use all features and can be extended with custom logic.
 
-![Simple World Broadcast](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/576914763_858604166677536_3578087410803227640_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=k_32zqE_5KIQ7kNvwFm-Jaq&_nc_oc=Adno2uuEzsZu_PIIMi987AQh6tKweAp9uFOOaccmFS4ediKp6RH5-qlS5gAO0B-phLOnsNSWPPeE02FjTClHvCo8&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Uv7cBG3BqJV5rqR4AugJoQ&oh=00_AfnjG-JWvpr7s9yNd5UOn-DUPMsoPiY08uxwNEEMeql1pw&oe=695583DE)
+<details>
+<summary>Simple World Broadcast</summary>
+
+<p></p>
+
+[Simple World Broadcast](../../../image_data/fcabb581db04617349a1513986698be47d61a53cb4f98d0f031ac6c0209d1c63.md)
+
+### Overview
+This image depicts a user interface element showing asset details for a broadcast titled "Simple World Broadcast." The interface includes a title bar, a text input field, and a description area.
+
+### Key Elements
+- **Title Bar**: Located at the top, spans the width of the interface. Contains the text "Asset details" and a back arrow icon on the left side.
+- **Text Input Field**: Positioned below the title bar, it has a placeholder text "Simple World Broadcast" and a counter indicating "22/40" characters remaining.
+- **Icon**: A small icon resembling a gear or settings symbol is placed next to the text input field.
+- **Main Content Area**: A large rectangular section occupies the majority of the screen, featuring a gradient background transitioning from dark gray to light gray. Within this area, there is a white outline of a cube.
+- **Description Text**: At the bottom, there is a block of text describing the asset as "A version of World Broadcast which only has a controller (World Broadcast Brain) and an entity which can act as a 'camera position'."
+
+### Visual Flow / Relationships
+The most prominent visual element is the title bar at the top. The text input field is secondary but important for interaction. The main content area with the cube icon is central and draws attention due to its larger size and distinct shape. The description text at the bottom provides additional context without being overly prominent.
+
+</details>
+
+<p></p>
+
+
 
 ## System Setup
 
@@ -45,7 +69,31 @@ The `World Broadcast Brain` component handles cycling through all camera handles
 
 The World Broadcast Brain picks up all `Camera Handle` components at `start`. To add more handles, duplicate the handle bundled with the Asset Group.
 
-![Simple World Broadcast](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/574497167_856098613594758_7925879309636927751_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=9HMlcHvme5AQ7kNvwGVdvXy&_nc_oc=AdnFdCCZ81xTAVZTgTrAmVn31Tr3iG3yeh055Lj6CTy96hGKAfgQXKbTw-PQnJoLHuDgdbgbJj5GFDwqQB6IPpyr&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Uv7cBG3BqJV5rqR4AugJoQ&oh=00_AfmtKB9c_gOKT_9xcOp5-IM0A1Wqra_FuPmAzFXHkuOBQg&oe=695595FF)
+<details>
+<summary>Simple World Broadcast</summary>
+
+<p></p>
+
+[Simple World Broadcast](../../../image_data/a9d3892219397b19385bd339da1b6a471e9388a7146bc985edaf101a162d40aa.md)
+
+### Overview
+The image depicts a 3D modeling environment interface, likely from a game development tool such as Unreal Engine. The central area shows a grid floor with a gradient sky background. On the left side, there is a hierarchical tree view, and on the right side, there is a properties panel displaying various attributes and settings related to a selected object named "Camera Handle."
+
+### Key Elements
+- **Left Panel (Hierarchy)**: Located on the left side, it displays a tree structure with nodes labeled "SpawnPoint," "World Broadcast:Brain," and "Camera Handle." The "Camera Handle" node is highlighted, indicating it is the currently selected item.
+- **Central Area**: The main workspace shows a grid floor with a gradient sky background transitioning from light blue at the horizon to a lighter shade above. There are no objects or models placed in the scene yet.
+- **Right Panel (Properties)**: Positioned on the right side, it contains detailed information about the "Camera Handle." It includes sections for attributes, behavior, interactivity, navigation, and more. Text fields and checkboxes are visible within this panel.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The "Camera Handle" node in the hierarchy panel.
+- **Arrows/Connectors**: None visible.
+- **Reading Order**: The hierarchy panel on the left guides the viewer to the properties panel on the right, which provides detailed information about the selected object.
+
+</details>
+
+<p></p>
+
+
 
 ## Extending The System
 
@@ -57,7 +105,45 @@ The forced focus API can be used with custom logic to create gameplay-dependent 
 
 This error appears when no “Default Camera” entity exists as a child of the brain. The Asset Group includes this by default when imported, but the object hierarchy may have changed. If the “default camera” is no longer a child of the `World Broadcast Brain`, add an empty entity and copy these values from the inspector (excluding the transform):
 
-![Default Camera](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/576844213_856098640261422_4822725382626636124_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=tkWgp8E9gdUQ7kNvwEEuRsj&_nc_oc=AdlL_OcrCY6q49KSjhcn6V0xuC98LpvVH6pJDYKcj8GXbwSB5rJOYEiwcEBP3mKEYbvKEkZh-InZLA5Uiblf6Tbz&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Uv7cBG3BqJV5rqR4AugJoQ&oh=00_AfntmTa_0mtd5pNCdU2QYLl2KPeYh5EZhcuVFCpkic30yg&oe=6955A0F4)
+<details>
+<summary>Default Camera</summary>
+
+<p></p>
+
+[Default Camera](../../../image_data/c6019c5de42a6ac56dbec96a88de3a7dcbd0afa1471584694dd895281041fcf2.md)
+
+### Overview
+This image depicts a user interface element showing properties and attributes of a game object, likely within a game development tool or engine. The layout is structured with sections for attributes, behavior, and gameplay tags.
+
+### Key Elements
+- **Header**: "Properties" at the top, indicating the section of the interface.
+- **Default Camera**: A field labeled "Default Camera" with a value "0.00 -6.72 -6" under the "Attributes" section.
+- **Debug Data**: A collapsed section labeled "Debug Data."
+- **Attributes Section**: Contains fields for Position, Rotation, Scale, and Billboard.
+  - **Position**: Displays coordinates X: 0.00, Y: -6.72, Z: -6.
+  - **Rotation**: Displays coordinates X: 0, Y: 180, Z: 0.
+  - **Scale**: Displays coordinates X: 1, Y: 1, Z: 1.
+  - **Billboard**: A dropdown menu set to "None."
+- **Behavior Section**: Contains toggles and dropdown menus for Visible, Collidable, Collision Layer, Motion, Animation, Loop, Play on Start, and Speed.
+  - **Visible**: Toggled on.
+  - **Collidable**: Toggled on.
+  - **Collision Layer**: Dropdown menu set to "Everything."
+  - **Motion**: Dropdown menu set to "Animated."
+  - **Animation**: Two buttons labeled "Play" and "Record."
+  - **Loop**: Dropdown menu set to "Never."
+  - **Play on Start**: Toggled off.
+  - **Speed**: Value set to "1."
+- **Gameplay Tags Section**: Contains a search bar labeled "Search attached tags" and a plus sign for adding new tags.
+  - **DefaultCamera**: A tag labeled "DefaultCamera."
+
+### Visual Flow / Relationships
+The interface is organized into distinct sections with clear headings. The attributes and behavior sections are nested under the main properties header. The layout follows a vertical flow, with each section stacked vertically. The attributes section is expanded, while the behavior section is partially expanded, revealing its contents.
+
+</details>
+
+<p></p>
+
+
 
 ### “WorldBroadcastBrain: Cannot force focus on null target”, or “WorldBroadcastBrain: Cannot update camera to undefined transform”
 

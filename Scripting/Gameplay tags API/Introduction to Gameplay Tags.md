@@ -31,30 +31,268 @@ Using Desktop Editor, you can search for, add, remove, and modify gameplay tags.
 **Search for a tag**
 
 - Navigate to the right-most menu and find the “Gameplay Tags” section
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452819243_512510297953593_3713360108182145117_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=ylrvrygakrAQ7kNvwFklVsu&_nc_oc=AdlMiiIPJAMZZ2G2viJAkRX40Kjn0ZaC9UBjp9su5uQYpkWXiTuyZX8oJ-NCEW_xjfcUn4GOvshJJiI8Nxlk8-SV&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_Afk1627QEHKPgZxhEdnu_9AvYcp757UxvBE1SgmGHNvEsQ&oe=695598F0)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/f3ebd4281c61d1af243678fe4406a0793a7e92b734bc2b4a0953731be4cdcc72.md)
+  
+  ### Overview
+  The image depicts a 3D modeling environment interface, likely from a game development tool or a 3D asset management software. The central area shows a 3D scene with various geometric shapes arranged on a flat surface. On the left side, there is a hierarchical list of objects, and on the right side, there is a properties panel displaying settings for an object named "Cylinder C."
+  
+  ### Key Elements
+  - **Left Panel (Hierarchy)**: 
+    - **Visual description**: A vertical list of objects.
+    - **Location**: Left side of the image.
+    - **Contents**: Includes objects like "Sphere," "Cube," "Trigger - raycast," and others.
+    - **Visual styling**: Dark background with white text and icons.
+  
+  - **Central Scene**: 
+    - **Visual description**: A 3D scene with a flat surface and several colorful cubes scattered around.
+    - **Location**: Center of the image.
+    - **Contents**: Multiple cubes in red, blue, green, and yellow, some with small spheres attached.
+    - **Visual styling**: Simple 3D models with basic textures.
+  
+  - **Right Panel (Properties)**:
+    - **Behavior Section**: 
+      - **Visual description**: Settings for visibility, light/shadow, collision, and motion.
+      - **Location**: Right side of the image.
+      - **Contents**: Options like "Visible," "Light & Shadow," "Collidable," and "Collision Layer."
+      - **Visual styling**: Dark background with white text and blue checkboxes.
+  
+    - **Attributes Section**: 
+      - **Visual description**: Position, rotation, scale, texture, material roughness, and color settings.
+      - **Location**: Below the Behavior section.
+      - **Contents**: Values such as position coordinates (X, Y, Z) and rotation angles.
+      - **Visual styling**: Dark background with white text and gray input fields.
+  
+    - **Gameplay Tags Section**: 
+      - **Visual description**: A search bar for tags and a message indicating no tags are attached.
+      - **Location**: Bottom part of the right panel.
+      - **Contents**: A search bar labeled "Search attached tags" and a message stating "This object has no tags."
+      - **Visual styling**: Dark background with white text and a red highlight around the section.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Visually**: The central 3D scene.
+  - **Arrows/Connectors**: None visible.
+  - **Spatial Relationships**: The left panel is a list of objects, the central scene displays the 3D models, and the right panel provides properties for the selected object.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Enter the keyword in the search bar and press enter
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452531950_512510307953592_5435334402365433075_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=igr21issxaoQ7kNvwHcxr1y&_nc_oc=AdmpVmf87IFqrJss5IYF0ZnAJ1TX8Ke3hFccH-hIq0KterskptbYbmjHtQctbvEXMSAbPgdVSeUH9zgpBsBgxP0Y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_AflQsIwqdiTpU5ELXmqdQN4911BlI14gWOmS1TuJCLqzVg&oe=69559301)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/b9c7d4a064663afd3849c200f7e17fcc130f996b38be119440bcc96bb3cf39d4.md)
+  
+  ### Overview
+  This image depicts a user interface element within a game or application, specifically a section labeled "Gameplay Tags." It includes a search bar, a placeholder tag icon, and a message indicating that no tags are currently assigned to the object.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top, it has a magnifying glass icon on the left and contains the text "> test". The bar has a dark background with white text.
+  - **Placeholder Tag Icon**: Below the search bar, there is a small white icon resembling a tag or label.
+  - **Message Text**: Positioned beneath the icon, it reads "This object has no tags."
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the search bar, as it is the largest and most central feature. The placeholder tag icon is secondary but still noticeable due to its distinct shape. The message text is the least prominent but serves as a clear indicator of the current state of the object.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Any entities with this tag should appear
 
 **Add a tag**
 
 - Select the object
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452932800_512510317953591_7736172710593851318_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=dr_eLMUobLAQ7kNvwGX4e1C&_nc_oc=AdlRHXfTBTnfhxLvs0f4TNlyhWQ2Qgq0bY6YYrHFYhQIFIx2-eoN84BN43244-zARaFWGOk00_v0QeyM9pZjs88z&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_AfmraHIhs9Q7pNVf2mOahGXX78ETup1eU6CjN40DNjo_bA&oe=69557354)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/8f493d3345098a21bdef378e89812d71cabc668c6da94064a52944781688244b.md)
+  
+  ### Overview
+  The image depicts a 3D modeling environment interface, likely from a game development tool or a 3D modeling software. The central area shows a 3D scene with various geometric shapes arranged on a platform. On the left side, there is a hierarchical list of objects, and on the right side, there are properties and attributes related to the selected object. A red bounding box highlights a specific area within the scene.
+  
+  ### Key Elements
+  - **Left Panel (Hierarchy)**: Contains a list of objects with names such as "test Sphere," "Cube," "Cylinder C," etc. Each item has a circular icon next to it.
+  - **Central Scene**: Shows a 3D environment with a flat ground and a blue sky. Several colored cubes (red, blue, green) are placed on a black platform. A small character model is also visible near the cubes.
+  - **Right Panel (Properties)**: Displays properties of the selected object, which is labeled as "Cylinder C." It includes sections for Behavior, Attributes, Gameplay Tags, Physics, and More. The selected object is highlighted with a bounding box in the scene.
+  - **Red Bounding Box**: Positioned over the central scene, highlighting a specific area that contains a small character model and some colored cubes.
+  
+  ### Visual Flow / Relationships
+  - The most prominent visual is the central 3D scene.
+  - Arrows or lines are not present, but the layout suggests a typical user interface flow where users interact with objects listed on the left and view properties on the right.
+  - The red bounding box implies a focus on a particular area within the scene, drawing attention to the highlighted elements.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Navigate to the right-most menu and find the “Gameplay Tags” section
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652805_512510324620257_7535330597218424662_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=RogQKZ1H3_4Q7kNvwF9H0hC&_nc_oc=AdlhZZ1IC-frFhOBmYqCECePSS6j3gLW7uuoVO_eJLn8qpfRLkRcqguNdIONLH8aptnF9vq_khQQbu5B9WrHOmHG&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_AflLxJq09bECYtNl-wxs_QIZe6jfBwOCDjI9vDkRvZH1zA&oe=6955900C)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/f3ebd4281c61d1af243678fe4406a0793a7e92b734bc2b4a0953731be4cdcc72.md)
+  
+  ### Overview
+  The image depicts a 3D modeling environment interface, likely from a game development tool or a 3D asset management software. The central area shows a 3D scene with various geometric shapes arranged on a flat surface. On the left side, there is a hierarchical list of objects, and on the right side, there is a properties panel displaying settings for an object named "Cylinder C."
+  
+  ### Key Elements
+  - **Left Panel (Hierarchy)**: 
+    - **Visual description**: A vertical list of objects.
+    - **Location**: Left side of the image.
+    - **Contents**: Includes objects like "Sphere," "Cube," "Trigger - raycast," and others.
+    - **Visual styling**: Dark background with white text and icons.
+  
+  - **Central Scene**: 
+    - **Visual description**: A 3D scene with a flat surface and several colorful cubes scattered around.
+    - **Location**: Center of the image.
+    - **Contents**: Multiple cubes in red, blue, green, and yellow, some with small spheres attached.
+    - **Visual styling**: Simple 3D models with basic textures.
+  
+  - **Right Panel (Properties)**:
+    - **Behavior Section**: 
+      - **Visual description**: Settings for visibility, light/shadow, collision, and motion.
+      - **Location**: Right side of the image.
+      - **Contents**: Options like "Visible," "Light & Shadow," "Collidable," and "Collision Layer."
+      - **Visual styling**: Dark background with white text and blue checkboxes.
+  
+    - **Attributes Section**: 
+      - **Visual description**: Position, rotation, scale, texture, material roughness, and color settings.
+      - **Location**: Below the Behavior section.
+      - **Contents**: Values such as position coordinates (X, Y, Z) and rotation angles.
+      - **Visual styling**: Dark background with white text and gray input fields.
+  
+    - **Gameplay Tags Section**: 
+      - **Visual description**: A search bar for tags and a message indicating no tags are attached.
+      - **Location**: Bottom part of the right panel.
+      - **Contents**: A search bar labeled "Search attached tags" and a message stating "This object has no tags."
+      - **Visual styling**: Dark background with white text and a red highlight around the section.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Visually**: The central 3D scene.
+  - **Arrows/Connectors**: None visible.
+  - **Spatial Relationships**: The left panel is a list of objects, the central scene displays the 3D models, and the right panel provides properties for the selected object.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Select the “+” symbol next to the search bar
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452533361_512510337953589_5428023551380485005_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=6iPhxVgc51EQ7kNvwELIqrO&_nc_oc=AdlN4sxJ0MvUOQ98oW4fORjl8qnM76DY9BL1fpBZOEpthcEfcYLQrk3lEZGv1Ut76RN1V5VJRYln9dZX8UKC6cA8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_AfmGCfSVWEBAqR5eeUffXVDORy8WrW5HMUGUzkofNnjuNw&oe=69557528)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/7b6acdd4e08d43e2ddc6ddd926eee64e6d9e273689536ee11587849d1ac15763.md)
+  
+  ### Overview
+  This image depicts a user interface element from a software application, specifically a settings or configuration panel related to gameplay tags and physics audio material. The layout includes a search bar for tags and a dropdown menu for selecting physics audio material.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top, spanning the width of the panel. It has a placeholder text "> Search attached tags" and a magnifying glass icon indicating a search function. The background is dark gray, and the text is white.
+  - **Tag Input Field**: Below the search bar, there is a blue-highlighted input field with a tag icon on the left. The field is empty, and the placeholder text reads "0/20," suggesting a limit of 20 tags can be entered.
+  - **Physics Section**: Below the tag input field, there is a section labeled "Physics." This section contains a label "Physics Audio Material" followed by a dropdown menu with the word "None" and a downward arrow, indicating that no selection has been made yet.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the search bar, as it is the first interactive element users would engage with. The tag input field is secondary but crucial for user interaction. The Physics section is less interactive but provides additional configuration options. There are no arrows or lines connecting elements, so the relationship is primarily through the user's interaction with the search bar and tag input field.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Enter tag name into field and press enter
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452698786_512510327953590_7203122234308935135_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=6RjG7W3tiLgQ7kNvwHMb4Ie&_nc_oc=AdlzkEp0PO43uxgTSMMGc2LUZAsRxLAtJaQlSTiZPrcRmIXkUiFMExE5dlP10sfdwD4UI2YN5VHOPAjGMQ-sLYbZ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_AfnJctHyKDw7L8vKbgaIDwT5F4RdKuW8Xo0UB9V55BDTyg&oe=695597AC)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/1943bbab72aef00d896f4e629214f6786feb9bb1478dde4a0c3b406601630cbf.md)
+  
+  ### Overview
+  This image depicts a user interface element within a software application, specifically a section labeled "Gameplay Tags." It includes a search bar, a tag input field, and a dropdown menu under the "Physics" section.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top, it has a magnifying glass icon and the placeholder text "> Search attached tags". The background is dark gray, and the text is white.
+  - **Tag Input Field**: Below the search bar, there is a blue-highlighted input field containing the text "red". The field has a tag icon on the left side and a counter "3/20" on the right indicating the number of tags attached.
+  - **Dropdown Menu**: Underneath the "Physics" section, there is a dropdown menu labeled "None" with a downward arrow, suggesting that users can select a physics audio material.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the tag input field due to its blue highlight. The search bar is above the tag input field, and the dropdown menu is below the "Physics" section. There are no arrows or lines connecting elements, but the layout suggests a sequential reading order from top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - The tag will now appear under the object’s tags
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452915412_512510331286923_4938518147116670862_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=C-xzGd5tKKAQ7kNvwFPh9Ml&_nc_oc=AdmFYoQ0TCr0nMBcM_3PNlLH4x5koZLwk9Bxtx0nHf54ZwYZPZPENWpv7lUi9fCIr-tdBAOkal-IkNm91pW5bbEg&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_AflsxKcHlkCuTRxdMh-MF6L_u4ovrLGME9rkoJT8YokuEQ&oe=695572F2)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/8cfc6b4c115ae83619f8145b353a31f1be20420b552b7495e5ac3b5fde7c3f75.md)
+  
+  ### Overview
+  This image depicts a user interface element from a software application, specifically a section for managing tags related to gameplay and physics settings. The layout includes a search bar, a tag entry field, and a dropdown menu for selecting physics audio material.
+  
+  ### Key Elements
+  - **Search Attached Tags Bar**: Located at the top, this is a rectangular input field with a magnifying glass icon on the left. It contains the placeholder text "> Search attached tags". The background is dark gray, and the text is white.
+  - **Tag Entry Field**: Positioned below the search bar, this field has a label "red" next to it. To the right of the label, there are two icons: one resembling a trash can for deleting the tag and another for editing the tag.
+  - **Physics Section**: Below the tag entry field, there’s a section labeled "Physics". This section includes a label "Physics Audio Material" followed by a dropdown menu with the option "None".
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the search bar at the top. The tag entry field is directly below it, and the Physics section is further down. There are no arrows or lines connecting these elements, but the layout suggests a logical flow from searching for tags to entering them and then moving on to configuring physics settings.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 **Remove a tag**
 
 Repeat steps 1 and 2 from “Add a tag”
 
 - Navigate to the desired tag to remove and click on the “-” icon
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452533360_512510341286922_8800632251859838755_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=2JbrcqLTlEUQ7kNvwGiwLeS&_nc_oc=Adli8IZtruFUk5Z14miUS0CG4suBk-6vN8M0YjxEU8Y_mQjT6Ng-4CRqr35A1Am4Dt6ozeXzzCehiDzoVgz38WgW&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_AfmMRRq9RB2stgh--foKDGWI_DxVEJNp1wUzPJv5uQG-EA&oe=69559822)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/cc8882391f0c667cf84bdddd9ffd5b1d3f84ea46c5f7b8209b2a403b0c63e34a.md)
+  
+  ### Overview
+  This image depicts a user interface element from a software application, specifically a section for managing tags related to gameplay and physics settings. The interface includes a search bar, a list of tags, and a dropdown menu for selecting physics audio material.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top, it has a magnifying glass icon and the placeholder text "> Search attached tags". It is rectangular with rounded corners and a dark background.
+  - **Tags List**: Below the search bar, there are three tags listed: "red", "square", and "blue". Each tag is accompanied by a small icon resembling a tag label.
+  - **Add Tag Button**: Positioned to the right of the search bar, it is a plus sign within a circle.
+  - **Physics Section**: At the bottom, there is a section labeled "Physics" with a dropdown menu titled "Physics Audio Material". The dropdown currently shows "None".
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the search bar, as it is the first interactive element users would engage with. The tags are arranged vertically beneath the search bar, and the physics section is at the bottom. There are no arrows or lines connecting elements, but the layout suggests a linear reading order from top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - The tag will be removed from the object’s tags
 
 **Modify a tag**
@@ -62,9 +300,56 @@ Repeat steps 1 and 2 from “Add a tag”
 Repeat steps 1 and 2 from “Add a tag”
 
 - Navigate to the desired tag to modify and click on the pencil icon
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452704028_512510334620256_4085579888356380485_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=nfsDFJm_fUQQ7kNvwFGx6Ue&_nc_oc=AdmsdtZDJIJ1csyal2JWT3_w2pwZ4aDhbF3owWjcjnEL-nH3CYPvoGV-oPxuJoJRVA2YUGhCLxiPrQcpyagEACGt&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_AfmBLrQAi6yp8W2U0zDG4ZpvDgj5tn8SsTrDcGNB2oiWsw&oe=695579FE)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/93a1462cb41bcde4672bd725da2acc4f6375ad26effcb334a534fb4b430f31a5.md)
+  
+  ### Overview
+  This image depicts a user interface element from a game development tool or asset manager. It shows a section labeled "Gameplay Tags" with a search bar and a list of tags. Below that, there's another section labeled "Physics" with a dropdown menu for selecting a physics audio material.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top, it has a magnifying glass icon and the placeholder text "> Search attached tags". The background is dark gray, and the text is white.
+  - **Tags List**: Below the search bar, there are two tags listed: "red" and "square". Each tag has a small icon resembling a tag label.
+  - **Tag Removal Button**: To the right of the "square" tag, there's a small circular button with a minus sign, indicating the option to remove the tag.
+  - **Physics Section**: At the bottom, there's a section labeled "Physics" with a dropdown menu labeled "None". The dropdown arrow is pointing downwards, suggesting a list of options is available but not fully visible in the image.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the search bar at the top. The tags list is below it, and the Physics section is at the bottom. There are no arrows or lines connecting these elements, so the relationship is primarily hierarchical, with the search bar as the primary input area, followed by the tags list, and then the Physics section as a secondary setting.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Enter the new tag name or modifications
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/453001282_512510314620258_5253799186195480687_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=IGL_L4ksgmUQ7kNvwGF3pub&_nc_oc=AdlKhZa-2ZdakPHLkGLc9_g--r73jqX7W_pwtDxMr4RqhlDH52awIPC3F1_-xgJSmfvMIJl5laeHehApu61Y0oNL&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_AflYQbEM10mi5Eug3AWHWuUcPMM3L-ZpheV9Hunw0W_peg&oe=6955778B)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/465a7d31e7fb0439acf178b755f8a705ee73fe259491587a248578d97e9a8210.md)
+  
+  ### Overview
+  This image depicts a user interface element from a software application, specifically a section for managing tags related to gameplay and physics settings. The interface includes a search bar, a tag input field, and a dropdown menu for selecting physics audio material.
+  
+  ### Key Elements
+  - **Search Bar**: Located at the top, it has a magnifying glass icon and the placeholder text "> Search attached tags". It is rectangular with rounded corners and a dark background.
+  - **Tag Input Field**: Below the search bar, there is a tag input field labeled "red" with a tag icon next to it. The input field is currently active, as indicated by the cursor inside it.
+  - **Tag Entry**: The word "round" is typed into the tag input field.
+  - **Counter**: To the right of the tag input field, there is a counter showing "5/20", indicating the number of tags entered out of the maximum allowed.
+  - **Physics Section**: Below the tag input field, there is a section labeled "Physics" with a dropdown menu titled "Physics Audio Material" set to "None".
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the tag input field, which is actively being used. The counter next to it indicates progress within the tagging process. The Physics section is less interactive but still part of the interface. The layout follows a vertical flow, with elements stacked one after another.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Click enter and the tag will update
 
 ## Tag Editing in VR
@@ -77,7 +362,31 @@ Adding, removing, and modifying tags in VR is a similar process to that of Deskt
 
 In the “Hierarchy” menu of Desktop Editor, you’re able to filter entities by their associated tags. To do so, click on the filter icon and select the appropriate tag and watch the list re-populate with only the entities using that tag.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652242_512510271286929_4441725871151863114_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=9liuXM6BCXAQ7kNvwGkWZMS&_nc_oc=Adnpr0MvOh1f-wWSaFZYHErj0dpKJu1IAju5lXT2OfkxPeXrCXjVLOHv_MMILpAspw5VLlhJhplQU8Q2Qx5apRRj&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=YXKZzAMW-YamIUTryRtjrQ&oh=00_Aflq58kYafQxuYjGqdog7ePcWiHPpYGCwhYwRahe3NygtQ&oe=69559ABB)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/edaabe9b96c4de2f85aed7df792e3188a45b150013c7e54364ca19197ccaa4d6.md)
+
+### Overview
+This image depicts a 3D game development environment interface, specifically a scene editor within a game engine. The central area shows a rendered 3D environment with a skybox background, while the surrounding panels display various tools and settings related to the game development process.
+
+### Key Elements
+- **Central Scene View**: A 3D environment featuring a skybox with a gradient sunset, clouds, and a greenish structure resembling a stadium or arena. The scene includes a small red object labeled "WIP" and some blue objects that appear to be player characters or NPCs.
+- **Left Panel**: Contains a Hierarchy window showing a list of objects in the scene, such as "Weapon Pulse Projectile Flyby." There are also search and filter options available.
+- **Right Panel**: Displays various configuration options under "Launch Config," including settings for sound, volume, pitch, and global attributes. There’s also a "Navigation Tracker" section with a list of completed tasks.
+- **Top Bar**: Shows the game mode as "CLIENT," and there are buttons for play, pause, and other controls.
+- **Bottom Bar**: Includes a console window displaying error messages and a project explorer on the left side.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central scene view, which serves as the focal point. The left panel provides a hierarchical overview of the scene objects, while the right panel offers detailed configuration options. The top bar provides control functions, and the bottom bar includes a console for debugging and project management.
+
+</details>
+
+<p></p>
+
+
 
 ## Known Issues
 

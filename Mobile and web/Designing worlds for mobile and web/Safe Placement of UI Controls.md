@@ -6,7 +6,32 @@ When designing your game’s user interface, consider both the gameplay controls
 
 The following illustration provides general guidance for where you can place UI, combining both desktop and mobile surfaces:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/557931283_835743075630312_7296711773413738046_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=XxgJydkQVIcQ7kNvwFOm_Gu&_nc_oc=Adm7i7T4EvWc3EnRxYZfUt2ZY5-aNT_5GP_ELDdV3TegHwLPBjhRF10mT-rZoWfkxqzEPCaQyihfgeX2VftpzKqo&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AfnaKXiOEBEqeY9uKpM_7dLnyx6E0_JlpzIagNPPcAfgZg&oe=69558DC2)*Mobile (@852x393 screen - iPhone 16)*
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/1a3e421c4768e5c2d657caded34cff42a513839a69feacdecee8f62093e6385f.md)
+
+### Overview
+This image depicts a user interface element labeled as "Navigation /Notification (48px height)" at the top. The layout includes a green central area surrounded by circular icons and a few linear elements. The design appears to be a prototype or a wireframe for a mobile app or web application.
+
+### Key Elements
+- **Central Green Area**: A large rectangular section filled with a solid green color, occupying most of the space.
+- **Circular Icons**: Multiple circular icons are scattered around the green area. These icons vary in color and design, some appearing darker red, others lighter pink, and some with icons inside them.
+- **Linear Elements**: A series of small, light yellow circles with lightning bolt symbols are arranged horizontally near the bottom of the green area.
+- **Left Side Text**: The text "Device Notch Height" is written vertically along the left side of the green area.
+- **Right Side Text**: Similar to the left side, the text "Device Notch Height" is written vertically along the right side of the green area.
+- **Top Bar**: A thin red bar spans the top of the image, containing several icons and a menu button on the far right.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central green area. Circular icons are distributed around it, with some appearing closer to the edges than others. The linear elements at the bottom provide a horizontal line of interaction points. The left and right texts serve as labels indicating the height of the device notch. The top bar acts as a header, providing navigation options.
+
+</details>
+
+<p></p>
+
+*Mobile (@852x393 screen - iPhone 16)*
 
 ## Portrait orientation considerations
 
@@ -20,9 +45,75 @@ When testing your world’s UI for portrait orientation:
 
 **Note:** You can configure different camera parameters for portrait and landscape orientations using the [spawn point gizmo](../../Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) to optimize the visual experience for each orientation.
 
-* ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452615758_512532801284676_8886395584801346512_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=p2ERKA176tMQ7kNvwHQAIt-&_nc_oc=AdljEV_-82kaZE1n_mwrbg0u8fkqGXOJHkxRAqEBu6WusXNCr6YhRDWckorHTrks6HHQCHe_uHovcflcF1TVq4mj&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AflTp3_RAPC2IHaX6JHvGSVIZPE85udpFvSpyWnDubry9A&oe=69558BC4) Unobstructed.
-* ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452883040_512532784618011_112216473924849842_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=0Lj5etPd260Q7kNvwEUt-wV&_nc_oc=AdlScoUvtsKlhUps3_BhjIO6cjHn4G5Imt-JIrbEhSmWj1GJ3s7COJVKcbH9kZVeZyKDbY3Q3Ky3-hrpDGJKDwnS&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AfmF3cwvzSnXphL31LZVE8MspSC7JfPRb29sEizMNbtgtA&oe=695593B3) Potentially obstructed.
-* ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452665546_512532781284678_1258298437483562209_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=82kYufqXWLsQ7kNvwES1Hww&_nc_oc=AdnwSa34JhVpcccUC4wS12at7RYWXSUa3_7mckj-gxYoqV1bwmsFUNb50qYqbzf9kqJsIIPssTJGE2fUjk2yXjwb&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AfnhPgxfVxgvpQtMzo3iZgaySd5RuObTyoSYCAjAj9j0KA&oe=6955906F) Permanently obstructed.
+* <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/64be8b07173bfdb9927063fed6499c402161e16de4def6d77876c096ad0ddcca.md)
+  
+  ### Overview
+  The image displays a solid green background with no discernible objects, text, or additional elements.
+  
+  ### Key Elements
+  - **Visual description**: The entire image is filled with a uniform green color.
+  - **Location**: The entire image area.
+  - **Contents**: There are no contents within the image.
+  - **Visual styling**: The green color is solid and uniform without any gradients, textures, or patterns.
+  
+  ### Visual Flow / Relationships
+  There are no elements to describe relationships or visual hierarchy since the image contains only a single color.
+  
+  </details>
+  
+  <p></p>
+  
+   Unobstructed.
+* <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/c8c01cae609373e4f34d7ef33868dae02c2794ba2d19fdd9c756e867535455e5.md)
+  
+  ### Overview
+  The image displays a solid, uniform color without any discernible elements, text, or patterns. It appears to be a blank canvas or a placeholder image.
+  
+  ### Key Elements
+  There are no elements, text, or visual features present in the image.
+  
+  ### Visual Flow / Relationships
+  Since there are no elements, there is no visual hierarchy or spatial relationships to describe.
+  
+  </details>
+  
+  <p></p>
+  
+   Potentially obstructed.
+* <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/eb0f57aab50aa3a5b09829680a8e767af91be0cdf37e621d57555cbc06998140.md)
+  
+  ### Overview
+  The image displays a solid pink background with no additional elements or text present.
+  
+  ### Key Elements
+  - **Visual description**: The entire image is filled with a uniform pink color.
+  - **Location**: The entire image area.
+  - **Contents**: There are no texts, icons, or sub-elements within the image.
+  - **Visual styling**: The color is a solid pink (#FFC0CB).
+  
+  ### Visual Flow / Relationships
+  There are no elements to describe relationships or visual hierarchy since the image contains only a single color.
+  
+  </details>
+  
+  <p></p>
+  
+   Permanently obstructed.
 
 > **Note:** The amount of space will vary depending on the features your world has enabled, how you set up grabbables, and the user’s screen size.
 
@@ -30,11 +121,64 @@ Always test your world on both mobile and desktop, to check for any overlapping 
 
 For a deeper look at why these regions, let’s take a look at each surface with all possible UI states enabled:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/528040520_782028431001777_6820185301692830714_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Z7V3D63spDYQ7kNvwHwJUb2&_nc_oc=Adkrjfx-8s7rR4A88BqJP17_IFSmMktFi6fAGMeSSOFNMmY6Wr3ttjHIUMnTHJ-gMbOdQYEnm9pKCjGEv0MEdUHX&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AflGTObg8gGcvtyYywjFbUIyWohu5zM-vlPyZZtbhq5VqQ&oe=69559EF7)*Mobile (@852x393)*
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/6d89afe62f85b63d301c6d9c1f16960d04805381980590bd7911f8419637d8f6.md)
+
+### Overview
+This image depicts a virtual environment featuring a character standing on a grassy hill overlooking a lighthouse. The scene includes natural elements like trees and a body of water in the background. There are user interface elements around the edges suggesting this might be a screenshot from a mobile application.
+
+### Key Elements
+- **Character**: A figure wearing a red dress with polka dots and white pants stands facing away from the viewer towards the lighthouse. The character has long hair.
+- **Lighthouse**: A red and white lighthouse with a red roof is situated on the hill. It has a small balcony and a door at its base.
+- **Trees**: Two green trees flank the lighthouse, one on each side.
+- **Background**: The sky is blue with some clouds, and there is a body of water extending into the horizon.
+- **User Interface Elements**: 
+  - Top left: Icons for camera, microphone, and more options.
+  - Top right: Three horizontal lines indicating a menu.
+  - Left side: A vertical red bar with a circular red button.
+  - Right side: A circular icon with a running figure and another red button.
+
+### Visual Flow / Relationships
+The most prominent visual is the character facing the lighthouse. The lighthouse is central in the composition, with the trees framing it symmetrically. The background elements provide depth, and the user interface elements suggest interactivity within the app.
+
+</details>
+
+<p></p>
+
+*Mobile (@852x393)*
 
 Taking into account the typical usage percentage of each gameplay control and the frequency of each transient UI element, the per-surface safe zones look like this:
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/527979922_782028447668442_7244985344024777297_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=wIvHRyUXhjkQ7kNvwHonqR6&_nc_oc=AdnV6f7MTY7DRIR3OhLSbEh6yBxeyPV0b8OBfWpyAJlHQOHZK1LlCBAlS-XOcMS7ILMFbEQLzG2hBCCSygKC1MSr&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AfmOo9K8g6sLBXjkMc_R8FD4g3UHJQMV9O0Q7jAz2PwCoA&oe=69558919)*Mobile (@852x393)*
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/3d3554254b04f3c367b3289afb0ea646d934442c0da00141a57ffa7415148e71.md)
+
+### Overview
+This image depicts a virtual environment within a game or simulation interface. The central focus is a character standing near a lighthouse, surrounded by natural scenery. The interface includes various interactive elements overlaid on the scene.
+
+### Key Elements
+- **Character**: A female figure wearing a red dress with polka dots stands facing away from the viewer towards the lighthouse. She has long hair.
+- **Lighthouse**: A red and white lighthouse with a red roof is situated on a grassy hill. It has a small balcony and a door at the base.
+- **Background**: The background features a clear blue sky with some clouds, green trees, and a body of water reflecting the sky.
+- **Interactive Overlay**: Several circular icons with symbols are scattered around the screen. These include icons resembling a camera, a microphone, a person running, a bottle, a lightning bolt, and others.
+- **Navigation Controls**: At the bottom, there are five circular icons with lightning bolts, likely representing movement controls.
+- **Menu Icons**: In the top corners, there are icons for settings, voice commands, and more options.
+
+### Visual Flow / Relationships
+The most prominent visual is the character and the lighthouse. The interactive icons are distributed around the screen, suggesting different actions or functions that can be performed within the game. The layout implies a user interface designed for interaction and exploration.
+
+</details>
+
+<p></p>
+
+*Mobile (@852x393)*
 
 ## Mobile
 
@@ -46,15 +190,95 @@ No held item:
 
 Item with Primary & Secondary actions:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/526964709_782028444335109_6196025312724401057_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=6MmyXoju8OUQ7kNvwEvo5gU&_nc_oc=AdmSCZAoOu3PEcM3P1Z1pNzvd5ReQq31wcpobW7UJsrUjeXYTqo0lQAsPuk5UFqaq3oSr0sOLYDL2QEe3nINv_Yg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_Afl8UBukE5SSYxq8bxWUuoOrHF7bk9FSiCwewOm-mfmUVw&oe=6955930B)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/fbfe180fd88e2d0eeed25d1a6219a5866644aa74d2a9d00e230fce690a79e26f.md)
+
+### Overview
+This image depicts a user interface element, likely a control panel or settings menu, with various interactive icons and a central circular element that could represent a camera or a similar device.
+
+### Key Elements
+- **Central Circular Element**: Located in the bottom-left quadrant, this element has a white circle surrounded by a darker ring, resembling a camera lens or a similar interface component.
+- **Top Left Icons**: Three icons are located at the top-left corner:
+  - A square with a smaller square inside, possibly representing a camera or a photo gallery.
+  - A microphone icon, suggesting audio recording functionality.
+  - An ellipsis (...), indicating more options or settings.
+- **Top Right Icon**: A hamburger menu icon, typically used for accessing additional settings or navigation options.
+- **Right Side Icons**: Four circular icons are arranged in a row on the right side:
+  - A rocket ship icon, possibly related to a launch or send function.
+  - A figure running, which might indicate a timer or a countdown feature.
+  - Two additional icons, one appearing to be a gear or settings icon, and another that seems to be a lock or security icon.
+- **Bottom Icons**: Two small circular icons are positioned at the bottom-center:
+  - One resembles a hammer, potentially indicating a settings or configuration option.
+  - The other looks like a gear, similar to the one mentioned above.
+
+### Visual Flow / Relationships
+The layout is structured with a clear division into functional areas. The central circular element draws attention due to its prominent placement and distinct design. The top icons provide quick access to different functionalities, while the right-side icons offer additional features. The bottom icons seem to be for specific settings or actions.
+
+</details>
+
+<p></p>
+
+
 
 Item with Primary, Secondary and Tertiary actions Holstering enabled on world:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/528034865_782028441001776_5691077705260993484_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=RIJI6cCeiNsQ7kNvwGErjtG&_nc_oc=AdkFqdLxeLzmM1KdOF8ESspIN-7IrD9OC1JNkwY9U_RKZBiyuXZ-mIXvnLugKvSNCG-d2kpsrbJzuHsoNX1_tYWY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AfnHvvnBUWwqImA1mmdAIfFROXthsUbRXxS6ABwfE1S63w&oe=69558C76)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/831f13f038833c4d00a811ba15bf77cbb40a53eba4c6d0215a5abe21ced9b83c.md)
+
+### Overview
+This image depicts a user interface element that resembles a control panel or a settings menu. The layout includes a central circular element surrounded by various icons and buttons, suggesting functionality related to media playback or streaming.
+
+### Key Elements
+- **Central Circular Element**: Located in the bottom-left quadrant, this element has a white center and a darker outer ring, resembling a play/pause button or a volume control.
+- **Top Left Corner Icons**: Three icons are present here, likely representing media controls such as play/pause, record, and more. They are small and circular with distinct symbols.
+- **Top Right Corner Menu Icon**: A three-line icon, typically representing a menu or settings option.
+- **Right Side Icons**: Several circular icons are arranged vertically on the right side, each containing a small icon or symbol. These appear to represent different functions or options within the interface.
+- **Bottom Icons**: Two additional circular icons are located at the bottom, possibly for additional settings or actions.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central circular element, which draws attention due to its larger size and central placement. The icons are distributed around the edges, creating a balanced layout. There are no arrows or lines connecting the elements, implying a free-flowing interaction pattern where users can interact with any element independently.
+
+</details>
+
+<p></p>
+
+
 
 Item with Primary, Secondary and Tertiary actions Holstering enabled on world Using Custom input:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/527981935_782028451001775_205883410573939696_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=TXnFm0I94UgQ7kNvwGbp722&_nc_oc=Adkqus1kANl1vfSPvmTVUfX-QWt8KyficFfnLPQerp88kCiBTtrWbVwX3MqpUogGX1_KG41m0Q3LfQxBFGuEryC1&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AfmNifn4U5cHumsiBT8uogul1mpFbby6UffKSW12n_jjuw&oe=69558B93)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/2d140f33066ed1c92eb1e723cb03416ab78917bd4cc54edb65d76ab4c2372909.md)
+
+### Overview
+This image depicts a user interface layout with various interactive elements arranged around a central circular control. The layout includes icons, buttons, and a menu icon at the top right corner.
+
+### Key Elements
+- **Central Control**: A large circular element located in the bottom-left quadrant. It has a smaller circle in the middle, possibly indicating a button or a pointer.
+- **Top Left Corner**: Three icons are present here, likely representing camera, microphone, and more options.
+- **Top Right Corner**: A menu icon with three horizontal lines.
+- **Right Side**: A series of circular icons arranged in a curved pattern, each containing different symbols such as a camera, a person, a target, a lightning bolt, a hammer, and others.
+- **Bottom Center**: A row of small circular icons with lightning bolt symbols.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central control. The icons on the right side are arranged in a curved line, suggesting a radial arrangement. The top icons provide additional functionality, while the bottom icons seem to represent different settings or actions.
+
+</details>
+
+<p></p>
+
+
 
 ## Desktop
 
@@ -62,8 +286,82 @@ Desktop controls are also contextual, but they’re limited to a list anchored i
 
 You generally have more space available on desktop, because the on-screen elements are confined to the top left, top right, and bottom right corners.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/526991907_782028427668444_6750170821704673280_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=SSOOhzm9mCsQ7kNvwGvJDCp&_nc_oc=AdmiBAA8AUImu0WI0IY3gNVqPDyheFk_uQKfvr3zC3t9HC2qSGD0GZwt_nmBsIDhzR9g5_4xrdE9w18azdRNszFD&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AfkY3MhTrcbpv8BtFNXIW1qw865VOiZ_eTVul-tQNUVVwg&oe=69559789)*Desktop (@1920x1080)*
+<details>
+<summary>Image Content</summary>
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/528230183_782028424335111_3068904171470470838_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=zThKD5WhYbwQ7kNvwHyczPV&_nc_oc=AdkCUUIZwjCeSmyTCA2mMbTVAHO4K4o2OxRvfYbbRA3ZU3pxXXOO5-dZ-HGdO3c3KI3DuT1hXMYDBgWE2pDbNzTa&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AfkI84O0dOgH-75rTgfkCkPY4LEuB6IWnRpwXcp4RunafA&oe=695591A8)*Desktop (@1920x1080)*
+<p></p>
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/527267521_782028434335110_3806974184132376722_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=SoGsYPn545gQ7kNvwGt7_E_&_nc_oc=Adl4FWLWx53430MSP5vopqkpm5fRfVvSVD6OIEthLKFWXExr9lEGBiWmzlaZV3ADBS4kksl2obUjNSXggx2pL3H8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kN6vmXF-fQD0h96-WxEUBQ&oh=00_AflOf1fHAcaSPsf1bF4yHHxWvH7X9EVC2I8pKA0AmqsHHg&oe=69558BEC)*Desktop (@1920x1080)*
+[All image details and metadata](../../image_data/534e82efe916f732ed414f750a7254968d9e2648b3d4d9472dbdffd0ed7491be.md)
+
+### Overview
+This image depicts a virtual environment, likely from a video game or simulation. The scene features a character standing in a room with a tiled floor and yellow walls. There are various interactive elements and icons present, suggesting gameplay mechanics.
+
+### Key Elements
+- **Character**: A male figure wearing a black jacket and blue jeans stands facing away from the viewer. He is positioned centrally in the room.
+- **Room**: The room has a tiled floor and yellow walls with a grid pattern. There is a doorway leading to another area in the distance.
+- **Targets**: Two red bullseye targets are visible on the right side of the image, suggesting a shooting or aiming game mechanic.
+- **Weightlifting Figure**: On the left wall, there is a small figure holding a barbell, possibly indicating a weightlifting challenge or exercise.
+- **Menu Icons**: At the top left, there are circular icons labeled "TAB" and "ESC," which are typical keyboard shortcuts for game controls.
+- **Control Icons**: At the bottom, there are circular icons arranged horizontally, likely representing different actions or abilities within the game.
+- **Background**: The sky is clear blue, and there is a green rectangular shape at the top, possibly indicating a health bar or another game metric.
+
+### Visual Flow / Relationships
+The character is the most prominent visual element, as he is centrally located. The targets and weightlifting figure provide additional points of interest. The layout suggests a first-person perspective, with the character facing forward into the room. The menu icons and control icons are placed at the top and bottom respectively, providing easy access to game controls.
+
+</details>
+
+<p></p>
+
+*Desktop (@1920x1080)*
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/791215e819954acc20be2b9712afd1997b31a07b09d10852aed482428c668b9a.md)
+
+### Overview
+The image depicts a first-person view within a virtual environment, likely a game or simulation. The scene is set in a green-tiled room with a character standing in the center, facing away from the viewer. The environment has a grid-like floor and walls, suggesting a structured, possibly maze-like layout. There are various interactive elements and UI components at the top of the screen.
+
+### Key Elements
+- **Character**: A figure wearing a dark outfit stands in the center of the room, facing away from the viewer.
+- **Room**: The room is tiled with green squares, creating a grid pattern. The floor and walls are also green, with some areas appearing lighter, possibly indicating different materials or lighting effects.
+- **Interactive Elements**: On the left side, there is a small figure holding a sword, seemingly floating in the air. On the right side, there are circular targets or markers.
+- **UI Components**: At the top of the screen, there are several rectangular panels with rounded corners. These panels contain icons and labels such as "TAB," "ESC," and others that appear to be controls or settings.
+- **Background**: The background is a gradient of blue and yellow, with a vertical yellow line running through the middle.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The character in the center of the room.
+- **Arrows/Connectors**: There are no explicit arrows or connectors visible in the image.
+- **Spatial Relationships**: The character is positioned centrally, with the interactive elements on either side and the UI components at the top. The background gradient adds depth to the scene.
+
+</details>
+
+<p></p>
+
+*Desktop (@1920x1080)*
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/d9160e5426444d9933dd00e6a8e84c2c0f8c476778d67e8b90ddd4abfc1f6af3.md)
+
+### Overview
+This image depicts a user interface with various control elements arranged at the top and bottom edges of the screen. The central area is blank, suggesting a placeholder or a loading state.
+
+### Key Elements
+- **Top Left Corner**: Contains two circular icons labeled "TAB" and "ESC". These appear to be keyboard shortcuts.
+- **Top Right Corner**: Features two circular icons with symbols resembling a microphone and a robot face, likely representing voice commands and chat functionalities. Below them are small letters "V" and "B".
+- **Bottom Right Corner**: Displays three circular icons with distinct symbols: a crosshair, a circle with dots, and a hand holding a weapon. Below these icons are letters "LMB", "R", and "X".
+
+### Visual Flow / Relationships
+The most prominent elements are the circular icons at the corners. There are no arrows or lines connecting the elements, indicating a flat layout without a specific reading order. The elements are evenly distributed around the edges of the screen.
+
+</details>
+
+<p></p>
+
+*Desktop (@1920x1080)*

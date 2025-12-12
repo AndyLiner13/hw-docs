@@ -2,7 +2,51 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 # Introduction to creating worlds for mobile
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/461801121_558937499977539_1061214547025883489_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=15N8NiVohxkQ7kNvwH1vih3&_nc_oc=Admi66iVeo2__Uxq8cuE6j9XiT93Hw17bP57AOAEuy2z67L_6ZMbKDsVrXwJ7SpH4LY-dm1bi6hKtaZ00Uao18LW&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=TUHv6PvrHrSgrd9XL73pbA&oh=00_Afn62pgpTxhkixRcsPquMuCX6gcQIZlbLnxne4S2RpT_QA&oe=695587D8)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/ea44aac639fb39177ce3076bfaa993b239b5adfab803fbb44a4913be3bfe5d39.md)
+
+### Overview
+The image displays a user interface of a social media or gaming platform, showcasing multiple screens side by side. The layout includes avatars, user profiles, game recommendations, and interactive elements such as buttons and icons.
+
+### Key Elements
+1. **Left Panel**
+   - **Visual description**: A large profile picture of a character wearing a hat and casual outfit.
+   - **Location**: Left side of the image.
+   - **Contents**: Text indicating the username "Giselle (Gigi)" and follower counts ("472 Following," "291 Followers," "80 Guests").
+   - **Visual styling**: The background is a gradient of light colors, and the profile picture has a white outline.
+
+2. **Center Panel**
+   - **Visual description**: A smaller screen showing a user profile with a circular avatar and the name "Luna."
+   - **Location**: Center of the image.
+   - **Contents**: Text indicating "Discover people" and a list of user profiles with names like "Maleko," "Sage," and "Robin."
+   - **Visual styling**: The background is white, and the text is black.
+
+3. **Right Panel**
+   - **Visual description**: Another smaller screen displaying a list of popular worlds with images and titles like "Pink paradise," "Camping retreat," and "NBA Arena."
+   - **Location**: Right side of the image.
+   - **Contents**: Text indicating "Jump back in" and a list of game worlds with images and likes counts.
+   - **Visual styling**: The background is white, and the text is black.
+
+4. **Bottom Panel**
+   - **Visual description**: A smaller screen showing a game world titled "KAIJU CITY" with a colorful graphic.
+   - **Location**: Bottom right of the image.
+   - **Contents**: Text indicating the game title and a blue button labeled "Cast."
+   - **Visual styling**: The background is white, and the text is black.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central profile picture and the list of popular worlds.
+- **Arrows, lines, connectors**: None visible.
+- **Spatial relationships**: The panels are arranged horizontally, with the left panel showing a single profile, the center panel showing a list of profiles, and the right panel showing a list of game worlds. The bottom panel shows a specific game world.
+
+</details>
+
+<p></p>
+
+
 
 Making your worlds available on mobile and web enables users to access worlds from any device and as a result, can unlock broader reach for your published worlds on Meta Horizon Worlds.
 
@@ -15,11 +59,62 @@ The best way to ensure your worlds show up in discovery surfaces to reach wider 
 
 ## Start creating worlds for mobile now
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/559190943_833836049154348_1338189310288348086_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=l-VqGkVUz6oQ7kNvwHPCQ3h&_nc_oc=AdnaKRigozEi11RlPXEM77zHhujQyHhf74JcstndQMl0cOgbGo5P3B_2gPC9E2-17rTm1C4kfkzv_7IflKuiiFrt&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=TUHv6PvrHrSgrd9XL73pbA&oh=00_AfnkzA0mJqrvG9tDlAG1ZLqEXE-Ndt3C1T64kXXq5oBnBg&oe=69559085)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/46d7b6f8ed7c0d94929ec52e26376c953ed0bb6398b341756761014693f6eb93.md)
+
+### Overview
+The image depicts a person sitting on a couch, holding a smartphone that displays a mobile game. The game features animated characters and a dinosaur-like creature. The person is wearing a light-colored shirt and has blonde hair. The background includes a wooden table with a blue mug and some papers.
+
+### Key Elements
+- **Person**: A person with blonde hair, wearing a light-colored shirt, sitting on a couch. They are holding a smartphone.
+- **Smartphone**: A pink smartphone displaying a game. The screen shows a game interface with animated characters and a green dinosaur-like creature.
+- **Game Interface**: The game screen shows a character in the sky, another character on the ground, and a large green dinosaur-like creature. There are controls at the bottom of the screen, likely for movement and actions.
+- **Background**: A wooden table with a blue mug and some papers. The couch has a brown cushion and a textured blanket.
+
+### Visual Flow / Relationships
+- **Most Prominent**: The smartphone screen displaying the game.
+- **Arrows/Connections**: None visible.
+- **Spatial Relationships**: The smartphone is held in the person's hands, which are positioned in front of them. The game screen is the focal point, with the person's face partially visible on the left side of the image.
+
+</details>
+
+<p></p>
+
+
 
 Creating worlds for mobile is the same as creating worlds for VR. You use the VR editor to build your world, adding Code Blocks and functionality as desired, and then publish the world. All published worlds in Meta Horizon Worlds are available to play in the Meta Horizon App on mobile and on [horizon.meta.com](https://horizon.meta.com/) in the browser by default.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/460553022_547780904426532_3533426530060538066_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=uIF0p9Df-FUQ7kNvwGWengx&_nc_oc=AdlEBTWHYUhQ3L9319XfoEh1QIVXfvBrr94F8eLbObSj8d81NRWuHHZcUAfky48tvg4v0Pn1-0sbdxg0vygJGMCG&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=TUHv6PvrHrSgrd9XL73pbA&oh=00_AfmIhs2icDoTtLy1aAGQDbIk3VrXm1yTgVFUvBXLbfkEfA&oe=6955958F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/c6ca3b7278965abb1eac2b2165e27ed96a5a7b8f5e5721f45b25b298a801bc1b.md)
+
+### Overview
+The image is a screenshot of a mobile game advertisement featuring a character in a futuristic outfit holding a weapon, facing off against a large green monster. The scene is set outdoors with a cityscape in the background. Below the image, there is promotional text and interactive elements for sharing and inviting friends.
+
+### Key Elements
+- **Character**: A person with short black hair, wearing a white and blue outfit with a backpack, holding a futuristic-looking weapon. Positioned on the left side of the image.
+- **Monster**: A large green creature resembling a kaiju, with sharp teeth and claws, emitting a pink beam from its weapon. Located on the right side of the image.
+- **Background**: An outdoor setting with a clear sky, clouds, trees, and buildings in the distance.
+- **Promotional Text**: "Kaiju City Showdown PvP" is displayed prominently. Below that, it says "4 here now" indicating the number of players currently in the game. It also mentions compatibility with "Mobile and VR."
+- **Social Interaction Buttons**: Includes options to share, invite friends, and view likes ("8.1K").
+- **Game Description**: "Defend the city or destroy the city as a monstrous Kaiju. Find out how you roll in our newest world, Kaiju City Showdown. You can play as the 60-foot..."
+- **Interactive Button**: A blue "Go" button at the bottom with a walking figure icon.
+
+### Visual Flow / Relationships
+The image is structured with the character and monster in the upper half, and the promotional content and interactive buttons in the lower half. The visual hierarchy is clear, with the game title and description taking precedence over the social interaction buttons and the "Go" button.
+
+</details>
+
+<p></p>
+
+
 
 ## Testing you world on mobile and web
 

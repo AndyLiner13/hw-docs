@@ -12,11 +12,70 @@ The v244 release contains the ability to generate 3D heatmap data for worlds and
 
 Read on for more details on Meta Horizon v244:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594064815_1343173533689038_6483820331339147687_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=GAFdZQL3hR0Q7kNvwFzk1bN&_nc_oc=Admkid083pB-FSRdaAlBR0MSbM07pAlTNgGDIa2Gmy0aFmtyVZArE8Mjme0id_TKbn0pfwfhrcfRPjnvYSU8QoR3&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AflwjfzaXRmvUZ3Jzn9Dc_lsS7EkEH2v0P9NGHT78tH06Q&oe=69559AFC)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/9f7eae5e1bbc830db0b74b739342d5bb4293f610d256d71048abd739386e909c.md)
+
+### Overview
+The image is a slide or presentation slide titled "Release Highlights" on the left side and "New Announcements" on the right side. It features a small thumbnail image and two bullet points under the announcements section.
+
+### Key Elements
+- **Left Side - Release Highlights**: 
+  - **Visual description**: A rectangular thumbnail image showing hands holding a smartphone displaying a 3D heatmap data camera interface.
+  - **Location**: Bottom-left quadrant.
+  - **Contents**: The image shows a person's hands holding a smartphone with a screen displaying a 3D heatmap data camera interface, featuring a grid layout with various colored squares representing heatmaps.
+  - **Visual styling**: The image has a light background with a blurred environment, possibly a classroom or office setting, and the hands are wearing green sleeves.
+
+- **Right Side - New Announcements**: 
+  - **Visual description**: Text listing new announcements.
+  - **Location**: Top-right quadrant.
+  - **Contents**: Two bullet points:
+    - "3D Heatmap data camera now persists between refreshes and the Percentile Filter has been updated"
+    - "Creative guidelines update for World Preview Images in Navigator"
+  - **Visual styling**: The text is black on a gradient blue background that transitions from light blue at the top to white at the bottom.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The title "Release Highlights" on the left and the announcements on the right.
+- **Arrows/lines/connectors**: None.
+- **Spatial relationships**: The left side is distinct from the right side, with the thumbnail image and text clearly separated.
+
+</details>
+
+<p></p>
+
+
 
 ## Quality Of Life Improvements
 
-* **[Developer Dashboard](https://horizon.meta.com/creator/worlds_all/) 3D Heatmaps**![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/594557540_1160677869468533_1078901159942852620_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=rZAJiyadyUwQ7kNvwF41zx5&_nc_oc=AdmguTUlZ0K4N7wOH3-D_f9DtTsDmvrWle0QDDI2nkSZ3p5fTkB5MQjbgQBNqOiWbpBUtYLnSo6y1tQWC3tKRXsP&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afl-yA8vq6Wc_mc36j79d93iCaIeiCgPvot-I6fX1yj5Gw&oe=69559D18)
+* **[Developer Dashboard](https://horizon.meta.com/creator/worlds_all/) 3D Heatmaps**<details>
+                                                                                     <summary>Image Content</summary>
+                                                                                     
+                                                                                     <p></p>
+                                                                                     
+                                                                                     [All image details and metadata](image_data/9979acdbbff4945e24eb66cb2ae75842caee81c7af963cd019cb34275e447b6b.md)
+                                                                                     
+                                                                                     ### Overview
+                                                                                     The image displays a heatmap visualization overlaid on a 3D environment. The heatmap uses a color gradient to represent data distribution across the scene, with a legend at the bottom indicating percentiles. There are interactive controls on the left side and data settings on the right side.
+                                                                                     
+                                                                                     ### Key Elements
+                                                                                     - **Heatmap Visualization**: A 3D environment with buildings and trees, colored according to the heatmap gradient. The colors range from green (low percentile) to red (high percentile).
+                                                                                     - **Legend**: Located at the bottom, showing a color bar with labels for different percentiles: 0-20th percentile, 20-40th percentile, 40-60th percentile, 60-80th percentile, and 80-100th percentile.
+                                                                                     - **Interactive Controls**: Two buttons labeled "Heatmap controls" and "Reset camera" located at the top left.
+                                                                                     - **Data Settings Panel**: On the right side, a panel titled "Data settings" with toggles for "Show data" and "Show mesh," a slider for "Filter percentile," and a dropdown menu labeled "Location details."
+                                                                                     
+                                                                                     ### Visual Flow / Relationships
+                                                                                     - The heatmap is the most prominent visual element, covering the majority of the image.
+                                                                                     - The legend at the bottom provides context for the color coding.
+                                                                                     - The interactive controls and data settings panel are secondary elements, providing functionality and configuration options for the heatmap visualization.
+                                                                                     
+                                                                                     </details>
+                                                                                     
+                                                                                     <p></p>
+                                                                                     
+                                                                                     
 
 + The camera will now persist between refreshes, allowing creators to compare metrics with the same camera angles viewing their data.
 + When filtering data using the Data Settings: Percentile Filter, the heatmap will now recolor the data-cubes based on what is visible. This allows better viewing of high value areas of a world.
@@ -35,7 +94,39 @@ The v243 release contains the ability to generate voices for AI NPCs, as well as
 
 Read on for more details on Meta Horizon v243:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/591737655_1490479825372289_745779225719514255_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=kRudvRQlW78Q7kNvwG6v0N8&_nc_oc=AdmyxVwdC4x6HwxPGIFzHHYzbA-5JTuP2Fve2xy4ZKDBfPaZ66BEFgy8qEFsY-cPLSvRFYxBZPU2NggDQbEavzRQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfntGL85HCS1qyBQFMnAKXbKbgN5pn9QztEZ3mBJjMMQ4Q&oe=69557309)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/a34877b5011f2e534b6fdafc3c8605dbfec81ce6f989f5028d9ea28121b3d52f.md)
+
+### Overview
+The image is a slide or announcement slide with a two-column layout. The left column features a small image of hands holding a smartphone displaying a game interface, while the right column lists new announcements and bug fixes. The background transitions from light pink to light blue.
+
+### Key Elements
+- **Left Column (Image)**: A rectangular image showing hands holding a smartphone. The phone screen displays a game interface with a character and a building. The hands are wearing green sleeves.
+- **Left Column (Text)**: The text reads "Release Highlights" in large black font with a white underline beneath the word "Highlights."
+- **Right Column (Announcements)**: A heading "New Announcements" in bold black font. Below it, a bulleted list includes:
+    - NPCs Voices update
+    - Desktop editor Noesis updates
+    - Event Support for Noesis
+    - Image & Two-Way Bindings Support
+- **Right Column (Bug Fixes)**: A heading "Bug Fixes" in bold black font. Below it, a bulleted list includes:
+    - Fixed issues with Unity Asset Bundles
+    - Fixed an issue with player avatar visibility
+    - Fixed an issue with being unable to enter edit mode
+    - Fixed an issue with Style2 avatars not refreshing
+    - And more!
+
+### Visual Flow / Relationships
+The image has a clear hierarchical structure with the left column as a smaller, secondary element that complements the larger right column. The announcements and bug fixes are presented in a straightforward, bullet-pointed list format, making them easy to read. There are no arrows or lines connecting elements, but the visual flow is from left to right, starting with the image and then moving to the text.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -76,7 +167,36 @@ The new toolbar is now live as part of the v241 release, making building worlds 
 
 Read on for more details on Meta Horizon v241:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/581957643_1559902765206307_753059272481803957_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=lty2ns9buW8Q7kNvwGSaIuj&_nc_oc=AdnL2DPdhKTUd7-rZJTkGKAGF-QlAUSVUkPq05LkB_Le_GoTTw0_astyOL3E3Oao4JixS3MLohY-LIx1OJFz81eB&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfmLIHz4NIyNEskNRWl_0KD_f7GPDU5928eoedccbHrg0A&oe=695582D4)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/4cffaac9415b3c08c5d7bbcb2ad83f87c47e5ece3574bdf4a968888a1f785e3d.md)
+
+### Overview
+The image is a slide or announcement slide with a two-column layout. The left column features a small image of hands holding a smartphone displaying a game interface, while the right column lists new announcements and bug fixes. The background transitions from pink to blue.
+
+### Key Elements
+- **Left Column (Image)**: A rectangular image showing hands holding a smartphone. The phone screen displays a game interface with a character and a building. The hands are wearing green gloves.
+- **Left Column (Text)**: The text reads "Release Highlights" in large black font with a white underline beneath the word "Highlights."
+- **Right Column (Announcements)**: A list of bullet points under the heading "New Announcements." The bullet points include:
+  - Desktop editor toolbar update expanded access
+  - Record your world (MHCP only)
+  - Customizable names for Leaderboards
+  - Tiering for digital items (MHCP only)
+- **Right Column (Bug Fixes)**: A list of bullet points under the heading "Bug Fixes." The bullet points include:
+  - Fixed disabling "Hide UI Elements" in Player Mode freezing the game
+  - Fixed "Comfort Rating" dropdown unresponsiveness
+
+### Visual Flow / Relationships
+The image has a clear hierarchical structure with the left column as a smaller image and the right column as a larger text area. The text is organized into two distinct sections: "New Announcements" and "Bug Fixes," with each section having its own bullet points. The image of the hands holding the phone is positioned to the left of the text, drawing attention to the announcement content.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -101,7 +221,53 @@ The Horizon desktop editor toolbar has been updated! The updated toolbar improve
 
 Read on for more details on Meta Horizon v240:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/577543412_1564427288239998_969561287266112495_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q3rX2WKhsUAQ7kNvwF-pSc2&_nc_oc=AdkKCBLQweVnTv-AfTp7KFUbcZGIc69q1wPkufNhiUIQVd9bTyVT3FnULQ-WE-pqgxDQ0Vwnp_yn8og-_DznqQ0y&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfnNJMRyB1SBywfMbAOv2gBH_PSPNOe-OWxO1ZWTMCQhyg&oe=69558D0A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/f945b8c58c9b43464e87c0b826be60c322c3fd62e01da23d9fe7e9f513b8f916.md)
+
+### Overview
+The image is a slide or announcement slide with a split design. On the left side, there is a smaller image of hands holding a smartphone displaying a game interface. The right side contains text listing new announcements and bug fixes. The title "Release Highlights" is prominently displayed at the top left.
+
+### Key Elements
+- **Title**: "Release Highlights" located at the top left.
+  - **Visual description**: Text in bold black font.
+  - **Location**: Top left corner.
+  - **Contents**: "Release Highlights"
+  - **Visual styling**: Black text on a light pink background.
+- **Left Image**: A small rectangular image showing hands holding a smartphone with a game interface displayed.
+  - **Visual description**: A photograph of hands holding a phone with a game screen showing a character in a room.
+  - **Location**: Bottom left.
+  - **Contents**: Hands holding a smartphone with a game interface.
+  - **Visual styling**: Clear image, no specific borders or effects.
+- **Right Side Text**:
+  - **New Announcements**:
+    - **Visual description**: Bullet points with text.
+    - **Location**: Right side, above Bug Fixes.
+    - **Contents**: 
+      - "Desktop editor toolbar updated"
+      - "NPC voices library expanded"
+    - **Visual styling**: Black text on a light blue gradient background.
+  - **Bug Fixes**:
+    - **Visual description**: Bullet points with text.
+    - **Location**: Below New Announcements.
+    - **Contents**: 
+      - "Fix for invite-only group travel conflict"
+      - "Fix setWhoCanTrigger bug when used in onPlayerEnterTrigger"
+    - **Visual styling**: Black text on a light blue gradient background.
+
+### Visual Flow / Relationships
+- **Most Prominent Visually**: The title "Release Highlights" is the most prominent as it introduces the content.
+- **Arrows/Connectors**: No arrows or connectors are present.
+- **Spatial Relationships**: The left image is separate from the text on the right but is part of the overall layout. The text is organized into two sections: New Announcements and Bug Fixes, with clear separation between them.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -126,7 +292,49 @@ Additionally, in v239 we're adding NoesisUI to the Horizon desktop editor! Noesi
 
 Read on for more details on Meta Horizon v239:
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/571349119_1511264456793529_3675016343678229996_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=-d0lGyifa1MQ7kNvwEp2cEb&_nc_oc=AdkNa1DHoaeo6Ff8UnbXrPRd8ef1R9lNG9wwHBvuCDII6mKzH63lxFOmUfRmH4xf5jXp5YwwCjp2-sWajf6xKUUb&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfkHdwTPL8_zemCf6zjGgFlp2UJeJvGMUSKAclqDpTxwRw&oe=69558F7B)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/62c75cc4922db0af4ed23d8284e4f786ab7e885f1668e985dd8b755518b26e1f.md)
+
+### Overview
+The image is a slide or announcement slide with a light gradient background transitioning from pink to blue. It contains text and a small image of a hand holding a smartphone displaying a game environment. The slide is divided into two main sections: "Release Highlights" on the left and "New Announcements" and "New Features" on the right.
+
+### Key Elements
+- **Left Panel ("Release Highlights")**:
+  - **Visual description**: A rectangular image of hands holding a smartphone.
+  - **Location**: Left side, below the title.
+  - **Contents**: A person wearing green sleeves holding a smartphone with a game environment displayed on the screen.
+  - **Visual styling**: The image has a rounded rectangle border, and the background within the rectangle is slightly darker than the surrounding area.
+
+- **Right Panel ("New Announcements")**:
+  - **Visual description**: Text listing new announcements.
+  - **Location**: Right side, above the "New Features" section.
+  - **Contents**: 
+    - "Mobile Innovation Competition (MHCP)"
+  - **Visual styling**: Black text on a white background.
+
+- **Right Panel ("New Features")**:
+  - **Visual description**: Text listing new features.
+  - **Location**: Below the "New Announcements" section.
+  - **Contents**: 
+    - "NoesisUI"
+    - "NoesisUI Tutorial World"
+    - "Player Locomotion API update"
+  - **Visual styling**: Black text on a white background.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Release Highlights" section with the image of the hand holding the smartphone.
+- **Arrows/lines/connectors**: None.
+- **Spatial relationships**: The left panel is distinct from the right panels, which are stacked vertically under the "New Announcements" heading.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -142,7 +350,30 @@ Read on for more details on Meta Horizon v239:
 
 ---
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/571165114_1508250603632339_346638681177823591_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=1riAExIANQgQ7kNvwHfMS-W&_nc_oc=AdkDaKg_1FLHfHsXuogyrHsFwWlB2JyBbOJa-Z_kWAFKfYi9zW9YjtDQ68uL7DeWhuBL0tbgzRDvXQvm_McGHH5m&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfmeCGhtdDjAUhSFYeKJV1Phz25129f65hjAi1A6mGOEIQ&oe=6955886F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/5ca781da3f574ac709a5c365c3d945d1ec6f7188cdf7fce0368f409d2f2835ac.md)
+
+### Overview
+The image is a slide or infographic presenting release highlights and bug fixes for a software update. It features a title, a small image, and a bullet point under the "Bug Fixes" section.
+
+### Key Elements
+- **Title ("Release Highlights")**: Located on the left side, written in bold black font against a light pink gradient background. A white horizontal line separates the title into two parts.
+- **Small Image**: Positioned below the title, showing hands holding a smartphone displaying a game environment. The image has a rounded rectangular frame.
+- **Bug Fixes Text**: On the right side, written in bold black font against a light blue gradient background. A bullet point lists the fix: "Disable physics while grabbed is now enabled by default for new grabbable objects."
+
+### Visual Flow / Relationships
+- The most prominent visual is the title "Release Highlights."
+- There is no arrow or line connecting the elements, but the layout suggests a sequential reading order from left to right and then down.
+
+</details>
+
+<p></p>
+
+
 
 # Meta Horizon v238 Release Notes
 
@@ -156,7 +387,30 @@ Read on for more details on Meta Horizon v238:
 
 # Meta Horizon v237 Release Notes
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/566225250_4350745975155448_9066964261512399740_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=eyv4vaCEhBoQ7kNvwFIYgR-&_nc_oc=AdnTtCOYVrFsl6d0VeaiL7LxbkyRWcoojuGogOP6OWAIkzURN_q01bhqzCkgy89B2etxxIgUbsc3rlFIL7oOWI6g&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AflILDUs3aq_d9fbAWcBq5rgkkm2nPQnY29QLGHCemSnhQ&oe=69559D2D)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/f66756fe789376de2c3dc69f14fac2c8d414457f0f8885e58b0acb7909f10570.md)
+
+### Overview
+The image is a slide or card from a presentation or update notification. It highlights new features and bug fixes related to a mobile application or system update. The layout includes a title, a feature section, and a bug fix section.
+
+### Key Elements
+- **Title Area**: Located on the left side, the title reads "Release Highlights." The text is bold and large, with a white background and black text.
+- **Feature Section**: Positioned on the right, it starts with "New Feature (MHCP Only)" in a larger font. Below this, there's a bullet point listing "Daily Claims Gizmo."
+- **Bug Fixes Section**: Also on the right, it begins with "Bug Fixes" in a larger font. Two bullet points detail the bug fixes mentioned.
+- **Image Placeholder**: A small rectangular placeholder image is located below the title area, showing hands holding a smartphone displaying a game-like interface.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the title "Release Highlights" and the two sections detailing new features and bug fixes. The flow moves from the title to the feature section, then to the bug fixes section. There are no arrows or lines connecting elements, but the placement suggests a sequential reading order.
+
+</details>
+
+<p></p>
+
+
 
 Read on for more details on Meta Horizon v237
 
@@ -180,7 +434,34 @@ Read on for more details on Meta Horizon v237
 
 Read on for more details on Meta Horizon v236
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/559385672_2627241590960730_8754128353591310825_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=mC-zv4UwQKMQ7kNvwGQdcaI&_nc_oc=AdkAQ75nZ5glw6M9B4dT92vkzEgzzV39r1fKnQlIqus0-5SB2MBf2ifHVX6VPdfRf-aIWFRRfcZwjdM18IfdEjFZ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfkMOg0rC3N1gmuchA_e1CfTgD0-sk-9rtrTr2tIr5NPZw&oe=695571C5)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/14691f7fdeccf6cec2867d4133134fb3f68ee278e2872ab5bbcce9ebbbef4de9.md)
+
+### Overview
+The image is a slide or infographic showcasing release highlights for a software update. It features a title, a small image, and two sections listing new features and quality-of-life improvements.
+
+### Key Elements
+- **Title**: "Release Highlights" is prominently displayed at the top left, with a white horizontal line underneath.
+- **Small Image**: A rectangular inset image showing hands holding a smartphone displaying a virtual environment. The hands are wearing green gloves.
+- **New Features Section**: Located on the right side, listing:
+  - "Social Following Asset Template"
+  - "Remixable Worlds"
+- **Quality Of Life Section**: Below the New Features, listing:
+  - "Local File and Asset Iteration"
+  - "Mesh Generation Improvements"
+
+### Visual Flow / Relationships
+The layout is structured with the title on the left, the small image below it, and the two sections of text on the right. The text is organized into bullet points under each heading.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -206,7 +487,31 @@ Read on for more details on Meta Horizon v236
 
 # Meta Horizon v235 Release Notes
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/556889063_855146954342326_531033109757397357_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=3az1G5VNLIAQ7kNvwHlQg73&_nc_oc=AdkKPiecnv5L8sC8WWpQd03wChuE5fckUDCnXbNIGlkp0BW0ZX3HNdPcHu-pIYJ03U0a_BBtNmQv3dRkie6iNULA&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afmtu0DUwZ2wS8QPOoxHZ5Zatk1z6qQuQOr4vyYktPJZQA&oe=6955833D)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/af478ce1ce001e8f40dfcc31c9f66e629b8cf86794f99b8e65b3b9b9d3e9fbf2.md)
+
+### Overview
+The image is a slide or card from a presentation or announcement, likely related to software updates or new features. It highlights new features, quality-of-life improvements, and bug fixes. The layout is clean and organized, with a mix of text and a small image.
+
+### Key Elements
+- **Title Area**: Located at the top-left, the title reads "Release Highlights." The text is large and bold, with a white background and black text.
+- **Small Image**: Positioned below the title, showing hands holding a smartphone displaying a scene from a game or app. The image has a rounded rectangular frame.
+- **New Features Section**: Located on the right side, the heading "New Features" is in bold, followed by a bullet point listing "AI Conversation Template."
+- **Quality Of Life Section**: Below the New Features, the heading "Quality Of Life" is in bold, followed by a bullet point stating "Ctrl+Z will now undo object combinations."
+- **Bug Fixes Section**: Further down, the heading "Bug Fixes" is in bold, followed by a bullet point mentioning "Fixed a bug where grab anchors on objects would not be visible in the editor."
+
+### Visual Flow / Relationships
+The visual hierarchy is clear, with the title area drawing attention first. The sections follow a logical flow from top to bottom, with each section clearly delineated by headings. There are no arrows or lines connecting elements, but the placement of the sections suggests a sequential reading order.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -243,7 +548,34 @@ Visit the [competition site](https://mhcp-mobile-genre-2.devpost.com/) to learn 
 
 Read on for more details on Meta Horizon v234:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/555394727_773540015573606_204444784833276433_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=JAQUI42PP38Q7kNvwGEr7Ih&_nc_oc=AdlbpCpvl83_FmPJhdSOqQDMCoM0IZ0BdRtQpBlBe-A5M8tU8RBKjp17VSsSjrphXpYoqLRYDJNOS7sox7YS1PfZ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfnIiXAi4k5BBnsI9eCt_19iihl2Sc6Bu57EFUVaKrigLA&oe=69556DDB)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/54b1bcb2b17b07a41a8be75e82e80135580ebe6a6133f1c987d2ea0866db6441.md)
+
+### Overview
+The image is a slide or infographic showcasing new features for a specific user group ("MHCP Only"). It includes a title, a small image, and a list of features. The layout is clean and uses a gradient background transitioning from pink to blue.
+
+### Key Elements
+- **Title**: "Release Highlights" is prominently displayed at the top left, with a white horizontal line underneath.
+- **Small Image**: A rectangular inset image showing hands holding a smartphone displaying a virtual environment. The hands are wearing green gloves.
+- **List of Features**: Located on the right side, it includes bullet points listing new features:
+    - Shop Gizmo Overlay Support
+    - Avatar Item Deep Links
+    - Avatar Video Sharing
+    - Public Animation Assets
+    - Avatar Creation Prompts
+
+### Visual Flow / Relationships
+The title is the most prominent element, followed by the small image, which serves as a visual example of one of the features. The list of features is clearly aligned to the right, creating a balanced layout. There are no arrows or lines connecting elements, but the vertical arrangement implies a sequential reading order.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -271,7 +603,30 @@ Visit the [competition site](https://mhcp-mobile-genre-2.devpost.com/) to learn 
 
 Read on for more details on Meta Horizon v233
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/550126516_1329511801967592_6523216065991040107_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=WfbgrYqYgR4Q7kNvwEBLm__&_nc_oc=AdkOrYkYmVo3gt1h_dz3YkTpet1tthraUweW3Ku4GyKaFNTcJA-VWNgsILAaYGSSwpv4v-_MiaUWbo7_ypz381ZZ&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afl8jpO6uyfrln-gKtLpb0-TJ5DYDbzULXCsOArIFKLkZw&oe=69559FB7)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/ef554de998f0d499d7b8be3e05274d8d74ac65cbbccdabcedf547d9c087f5f33.md)
+
+### Overview
+The image is a promotional slide or announcement card featuring a mix of text and imagery. It highlights new announcements and features related to a mobile game or application update. The layout is divided into two main sections: "New Announcements" and "New Features," each listing specific updates.
+
+### Key Elements
+- **Title Section ("Release Highlights")**: Located at the top left, the title is bolded and spans across two lines. The background is a gradient of light pink to white.
+- **Image**: A small rectangular image is placed below the title. It shows hands holding a smartphone displaying a game environment with a bus and characters inside.
+- **Announcements Section**: Positioned to the right of the title, this section lists a single announcement titled "Mobile Genre Showdown: Reloaded" Competition (MHCP).
+- **Features Section**: Below the announcements, this section lists three new features: World Discovery Metrics, Avatar Clothing Creation (MHCP), and New Tutorial & Template Worlds.
+
+### Visual Flow / Relationships
+The visual hierarchy is clear, with the title as the most prominent element. The image serves as a visual anchor under the title. The announcements and features are listed sequentially, with bullet points for clarity.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -308,7 +663,49 @@ Reminder: Submit your project for the Meta Horizon Creator Competition by Septem
 
 Read on for more details on Meta Horizon v231:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/543001249_1554106785458166_291874251711032008_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=2CWoRYB-WrUQ7kNvwF8y6Gq&_nc_oc=AdnL3XIuaGxQhT7HHA1HVUxsb91bcuyUi-0cMi101u4LxGyai5FC_ztMdQJbxtJbNtyJKYK6jxg8rgtX5ywjbxx9&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AflRDncJblmGLSEFE9d779fxyWQbxwKM-1N_a5guWEX0dg&oe=6955979A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/5db0ebb39f9fc946b414e9df84a5b9556208fc4a3577873f9e8b1d73dca9df1b.md)
+
+### Overview
+The image is a slide presentation slide titled "Release Highlights." It contains information about new features and bug fixes related to a software update. The slide is divided into two sections: "New Features" and "Bug Fixes," each accompanied by a brief description. There are also two smaller images showing a person using a laptop and a smartphone within the context of the software being discussed.
+
+### Key Elements
+- **Title**: "Release Highlights" located at the top right.
+- **Section 1: New Features**
+  - **Visual description**: A bullet point list.
+  - **Location**: Below the title.
+  - **Contents**: "Embodied LLM NPCs"
+  - **Visual styling**: Black text on a light blue background.
+- **Section 2: Bug Fixes**
+  - **Visual description**: Two bullet points.
+  - **Location**: Below the "New Features" section.
+  - **Contents**:
+    - "Fixed a bug where other user avatars could appear as copies of yourself."
+    - "Fixed a bug where all NPCs would play the same animation despite using different animation assets."
+  - **Visual styling**: Black text on a light blue background.
+- **Image 1**: A person wearing headphones, sitting at a desk, interacting with a laptop displaying a virtual environment.
+  - **Location**: Left side of the slide.
+  - **Contents**: The laptop screen shows a virtual environment with characters and a user interface.
+  - **Visual styling**: The laptop has a white keyboard, and the screen displays a colorful interface with various icons and a 3D scene.
+- **Image 2**: A person holding a smartphone, interacting with a virtual environment displayed on the screen.
+  - **Location**: Bottom left of the slide.
+  - **Contents**: The phone screen shows a virtual environment similar to the one on the laptop.
+  - **Visual styling**: The phone has a black frame, and the screen displays a colorful interface with characters and a bus.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The title "Release Highlights."
+- **Arrows/lines/connectors**: None.
+- **Spatial relationships**: The title is at the top, followed by the "New Features" and "Bug Fixes" sections. The images are placed below the respective sections they illustrate.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -335,7 +732,38 @@ This week, Worlds desktop editor is now in General Availability. Thank you for y
 
 Read on for more details on Meta Horizon v230
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/540026516_773752591686896_3809304553087380741_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=TPoDRpXfmPkQ7kNvwEdTTd-&_nc_oc=AdnuLWWiLFQgbfOhoUups98SSwgmDHEDH0tVa99WA0dvMd0Ij0YQVKwF0JGzzBcfnef_T6IEAmrxbZ6LQZJ057Wc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afk7z24jtt_96F2TyE2TF8mF4j022cZFYB79C_xUiwza2g&oe=695572F0)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/a65ada7593ed0a8710bcf9a0c87e1a9078741d95699ce029edd6be28255b610b.md)
+
+### Overview
+The image is a slide or infographic showcasing release highlights for a software update. It includes a laptop screen showing a 3D modeling environment, a person wearing headphones working on the laptop, and a smartphone screen displaying a mobile game interface. The slide is divided into sections highlighting new features, quality of life improvements, and bug fixes.
+
+### Key Elements
+- **Top Left Panel**: A laptop screen showing a 3D modeling environment with a user interface. The screen displays a 3D scene with characters and a user interface with various tools and options.
+- **Top Right Text**: "Release Highlights" in bold, large font.
+- **Middle Section**: "New Features" listed as bullet points:
+  - Mobile World Leaderboards (MHCP Only)
+  - Purchase API Callback (MHCP Only)
+- **Bottom Section**: "Quality of Life" listed as a bullet point:
+  - Optimizations to the initial spawning of assets.
+- **Bottom Left Panel**: A smartphone screen showing a mobile game interface with a character and a bus in the background.
+- **Person**: A person wearing headphones is partially visible, interacting with the laptop and holding the smartphone.
+
+### Visual Flow / Relationships
+The slide is structured with a clear hierarchy:
+- The title "Release Highlights" is prominently displayed at the top.
+- The "New Features" section is below the title, followed by the "Quality of Life" section.
+- The bottom left panel shows a smartphone screen, which complements the laptop screen above it, suggesting a connection between desktop and mobile experiences.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -359,7 +787,31 @@ This week in v229, we have numerous quality of life and bug fixes requested by t
 
 Read on for more details on Meta Horizon v229
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/538274188_795639509604479_6404396624031413673_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=o-kSTPwoDtwQ7kNvwGxnwTT&_nc_oc=Adljoy1YhAnsDSdUbi0huXJU1GMFGv6RoDipUGmi7seDgIUATGxDfYi9g-yTNdebmr26wqAjAC5NQpcNz_1yLkaL&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_AfnOBioz6T9yuVzZvnbBpRNh1YT1HYUl8Hhn0CqxjhTUvA&oe=695576C3)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/ab7c8f422214cda0a83d5eae4155d391d34adb689bdd4e3f5742496355fda89d.md)
+
+### Overview
+The image is a slide or infographic showcasing release highlights for a software update. It includes two sections: "Quality of Life" and "Bug Fixes," each with bullet points detailing improvements and fixes. The left side features two smaller images showing a person using a laptop and a smartphone, both displaying a 3D modeling or simulation environment.
+
+### Key Elements
+- **Top Left Image**: A person wearing headphones, using a laptop with a 3D modeling interface open. The screen displays a virtual environment with characters and objects.
+- **Bottom Left Image**: A person holding a smartphone, also showing a 3D modeling interface similar to the laptop screen but viewed through a mobile device.
+- **Header**: "Release Highlights" prominently displayed at the top.
+- **Quality of Life Section**: Contains a bullet point stating, "Enable searching editor hierarchy for entityid."
+- **Bug Fixes Section**: Contains a bullet point stating, "Fixed a bug where undoing the delete of a Custom UI entity caused the UI to stop rendering until the world is reloaded."
+
+### Visual Flow / Relationships
+The layout is structured with two main sections, each containing an image and a list of improvements or fixes. The images are positioned to the left of the text blocks, and the text flows from the top down within each section. There are no arrows or lines connecting the elements, indicating a straightforward linear flow.
+
+</details>
+
+<p></p>
+
+
 
 ## Quality of Life Improvements
 
@@ -401,7 +853,36 @@ Visit the competition site [here](https://mhcp-open-source-competition.devpost.c
 
 Read on for more details on Meta Horizon v228
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/534422833_769756112105013_8661029236016705134_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=sBBlvfF60u4Q7kNvwFtn6cY&_nc_oc=Adly2ZBcISux9FAzcmpi93kPjxowegK02j7vsbNfc8ln-ieoWNylhf5L38ziAQADGTg1qcO_JGRlms7OklRRNXit&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afl9OB5ivLC4DrJGYh9QdKjtZGbb3wjh3nnr9w3btnkA2g&oe=69557114)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/03da2b5cff6e1dd719fd74388a33614d9968591f2aac5a20a4addba037a96951.md)
+
+### Overview
+The image is a slide presentation showcasing release highlights for a software update. It includes a laptop screen showing a 3D modeling interface, a person wearing headphones interacting with the laptop, and a smartphone displaying a 3D environment. The slide is divided into sections highlighting new features, quality of life improvements, and bug fixes.
+
+### Key Elements
+- **Top Left Section**: A laptop screen showing a 3D modeling software interface with a scene being edited. The interface includes various tools and panels.
+- **Top Right Section**: Text titled "Release Highlights" followed by bullet points under "New Features," "Quality of Life," and "Bug Fixes."
+- **Bottom Left Section**: A smartphone screen showing a 3D environment, likely a mobile version of the same software.
+- **Person**: A person wearing headphones is partially visible behind the laptop screen, interacting with the laptop keyboard.
+
+### Visual Flow / Relationships
+The slide is structured with a clear hierarchy:
+- The title "Release Highlights" is prominently displayed at the top.
+- Below the title, the slide is divided into three main sections:
+  - **New Features**: Lists specific updates.
+  - **Quality of Life**: Describes improvements in the software.
+  - **Bug Fixes**: Lists resolved issues.
+- The laptop and smartphone images provide visual examples of the software in use.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -429,7 +910,38 @@ This week in v227, we are launching audio previews in the asset library for all 
 
 Read on for more details on Meta Horizon v227:
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/530161553_1877485456167352_5255716721926701093_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=LeXx-JqhSYYQ7kNvwGiq8j3&_nc_oc=AdmA4pI4umoBwWBl-D8u1DZqc7h4alucb63-0DQm5L-IlYY8ERvazF-iDluMoyohlpug23li2r5C4l4KeH3Kn1T2&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afm2vjSW0Ara4AFwl_89XHJvlHUszs0tC9xEndRsejOqew&oe=6955786E)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/34817c6e262bfd4dcf22bc566b6a0831843b6e917636e616988deae17111f8d6.md)
+
+### Overview
+The image is a slide presentation slide titled "Release Highlights." It contains two smaller images on the left side, one showing a person working on a laptop and the other showing hands holding a smartphone. The right side of the slide lists new features, quality of life improvements, and bug fixes.
+
+### Key Elements
+- **Top Left Image**: A person wearing headphones is working on a laptop. The screen displays a 3D modeling software interface with a scene being edited. The person’s hands are visible, typing on the keyboard.
+- **Bottom Left Image**: Hands holding a smartphone displaying a 3D model of a bus and some characters.
+- **Right Side Text**: 
+  - **New Features**: Lists three points:
+    - Audio Previews in Asset Library.
+    - Additional Supported Audio Formats.
+    - Entity References By Name.
+  - **Quality of Life**: One point:
+    - Adding new logging so creators are alerted when “no mesh found” errors populate so the error can be detected when developing worlds.
+  - **Bug Fixes**: Two points:
+    - Fixed a bug where an error message would incorrectly appear when saving and applying a texture that was created with Gen AI.
+    - Fixed a bug where any custom UI that was deleted was not properly reverted when using the undo key.
+
+### Visual Flow / Relationships
+The slide has a clear hierarchical structure with the title at the top, followed by the two images, and then the text content. The images are positioned to the left, while the text is aligned to the right. There are no arrows or lines connecting the elements, but the layout suggests a sequential reading order from left to right and top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -458,7 +970,39 @@ Read on for more details on Meta Horizon v227:
 
 Read on for more details on Meta Horizon v226:
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/526767937_718956634288466_2018836161174500979_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=NphljPLKznsQ7kNvwEbm6oX&_nc_oc=AdmBQrY5JE_KAZjSJ8OKTg0Z2P3iNRZe_HeWy5CuV0v71xJH6E73u9kofaxhQpU3vYlWTeaFO4tvZZZQgi3vK-bm&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afn_Jvbj2m0GIsvniufMQ0bA5RQi2XpBK6xPnk8MKIIvLQ&oe=69559616)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/512cdf59d4d413c9e1f53a92c064a430ae5d7c0d5f5dbb54467715c29d0ac789.md)
+
+### Overview
+The image is a slide presentation slide titled "Release Highlights." It showcases new features, quality of life improvements, and bug fixes related to a software update. The slide includes two smaller images showing hands interacting with a laptop and a smartphone, both displaying a 3D modeling environment.
+
+### Key Elements
+- **Top Left Image**: A person wearing headphones is using a laptop. The screen displays a 3D modeling environment with a scene featuring characters and objects. The person’s hands are typing on the keyboard.
+- **Bottom Left Image**: A hand holding a smartphone is shown. The screen displays a similar 3D modeling environment as seen on the laptop, but viewed through a mobile device interface.
+- **Slide Title**: "Release Highlights" is prominently displayed at the top.
+- **New Features Section**: Lists three items:
+  - Social API.
+  - Mobile Gestures API.
+  - World Videos.
+- **Quality of Life Section**: Lists two items:
+  - All creators can now customize particle FX at runtime.
+  - Improvements to the speed of multiple assets spawning at once.
+- **Bug Fixes Section**: Lists two items:
+  - Fixed a performance degradation issue when the camera faces many objects.
+  - Fixed a timeout issue during asset spawning.
+
+### Visual Flow / Relationships
+The slide is structured hierarchically with the title at the top, followed by the three main sections: New Features, Quality of Life, and Bug Fixes. Each section contains bullet points that are visually aligned under their respective headings. The images are placed to the left of the text blocks, providing visual context to the content described.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -499,7 +1043,29 @@ To help you create the best preview images to showcase your worlds, we have publ
 
 Read on for more details on Meta Horizon v224:
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/519964536_1885130389079245_5277775352498366_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=a99CptRARJUQ7kNvwEAnuWa&_nc_oc=AdmjP2wYBVo5vPtA9t5qt38mTu5huNmCT7l6IM1ebd-55lBNYM7WfbkMFg99XtEdDApUL-nI-Oao6AC7qfbz9qnh&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Aflu7o2Eq-hwMMLIOjQSl7zQV5Z5hB5UFdK-LlFI20NEcw&oe=69557F2F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/96d4b0d68840919d99b3813839ac2ebfbb4a34f8c875cce6bac6b865391f6ece.md)
+
+### Overview
+The image is a promotional slide showcasing release highlights for a software update. It features a split-screen layout with two smaller images on the left and a larger text area on the right. The left side displays a person using a laptop and a smartphone, both showing a 3D modeling environment. The right side lists new features, quality of life improvements, and bug fixes.
+
+### Key Elements
+- **Top Left Image**: A person wearing headphones, sitting at a desk, working on a laptop. The screen shows a 3D modeling interface with a scene being edited. The person’s hands are visible, typing on the keyboard.
+- **Bottom Left Image**: A close-up of a hand holding a smartphone displaying a similar 3D modeling interface as seen on the laptop.
+- **Right Side Text Area**: Contains headings and bullet points detailing the release highlights. The headings include "New Features," "Quality of Life," and "Bug Fixes." Bullet points under each heading list specific updates.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the two smaller images on the left, which draw attention due to their larger size compared to the text area on the right. The text area flows vertically, with each heading followed by a list of bullet points. Arrows or lines are not present, but the natural reading flow moves from left to right within each section before moving down to the next.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 
@@ -529,7 +1095,32 @@ Read on for more details on Meta Horizon v224:
 
 This week in v223, we are launching improved creator control for shops and inventory which will help provide a more customized experience for users visiting worlds where creators choose to make their own shop and inventory systems. Additionally, audio previews in assets library (MHCP Only) were launched allowing the capability to listen to audio clips for any sound asset directly from assets library. Read on for more details on Meta Horizon v223:
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/518327882_1233322694785860_78061001846773034_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=aoj1wSlFYuYQ7kNvwGwmNEt&_nc_oc=Adm9f5FU2X6NDXT-kukqsU7MDCbs24vJxL32cumaM_ajwPSmok-6jZVAExBOxDRYQ2ToOb4Ou0GtTkeSKr5M2PJN&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=gIyoHKw_vyVcglVstGPnQw&oh=00_Afntqul2PdTdgb4lEB0mlzRH6XmMOtItFaNOIBrWA_thfQ&oe=69558AC2)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](image_data/a253df64d506e0f12a6b6be190ec565747a1bd0213250774cf9a1174ada52eb8.md)
+
+### Overview
+The image is a screenshot of a release notes page, likely from a software update or game update. It features a split layout with a visual on the left side showing a person using a laptop and another visual on the bottom left showing hands holding a smartphone. The right side contains text detailing new features, quality of life changes, and bug fixes.
+
+### Key Elements
+- **Top Left Visual**: A person wearing headphones is using a laptop. The screen displays a 3D modeling or game development interface with a scene being edited. The person’s hands are interacting with the keyboard.
+- **Bottom Left Visual**: Hands holding a smartphone are shown, displaying a 3D game environment similar to the one seen on the laptop screen.
+- **Right Side Text**: 
+  - **New Features**: Lists improvements such as "Improved Creator Control for Shops and Inventory" and "Audio Preview in Assets Library (MHCP Only)."
+  - **Quality of Life**: States that "Portals and doors will no longer be usable for navigation while in the Editor or Edit mode."
+  - **Bug Fixes**: Mentions fixing a bug related to textures.
+
+### Visual Flow / Relationships
+The layout is structured with the visuals on the left and the text on the right. The top-left visual is larger and more prominent, drawing attention before moving to the smaller bottom-left visual. The text on the right is organized into distinct sections with bullet points for clarity.
+
+</details>
+
+<p></p>
+
+
 
 ## New Features
 

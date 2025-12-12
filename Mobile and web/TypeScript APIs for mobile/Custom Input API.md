@@ -165,7 +165,30 @@ To add a custom icon, you need a texture asset. Upload any image to your asset f
 * **(Recommended)** Define a [texture asset in your script properties](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-2-image-from-asset#station02-imagefromasset). This allows you to use the asset picker GUI in the script inspector for easier selection.
 * Alternatively, you can directly reference the texture asset’s ID in your code. This approach is less flexible but also valid.
 
-![Properties panel showing the textureAsset property](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487726045_686408240563797_5149593947553231907_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=fAct1P86JrMQ7kNvwEOG_3t&_nc_oc=AdkLDUaEIhXWPA4WNlxejPByk_Xum3h5yHnzXmtimHL-UejlpbPtbV3FYcnxnK23bggCo5pJXiyqaC_IdJGDz3L-&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=iLfYISDd5l9eVDjlHC6-tA&oh=00_AfkpZOHWxUaDyOuz_pUr5kc4SRQFtScI8E2sDUjSwfwkLA&oe=69557EF0)
+<details>
+<summary>Properties panel showing the textureAsset property</summary>
+
+<p></p>
+
+[Properties panel showing the textureAsset property](../../image_data/05a83bd3f1e6e57abf6ee9cdb00fae7413488fa9606658f0c3cfa8f0e3f0a83e.md)
+
+### Overview
+This image depicts a user interface element within a software application, likely related to asset management or scene creation. The interface includes a tree-like structure on the left side, a label indicating an asset path, and a button labeled "Attach script."
+
+### Key Elements
+- **Tree Structure**: Located on the left side, with a minus sign indicating a collapsed node. Contains the text `Station02-ImageFromAss...`.
+- **Asset Label**: Positioned next to the tree structure, displaying `textureAsset`.
+- **Asset Path**: A clickable element showing `Cat_WorldTools`, which seems to be a folder or asset name.
+- **Button**: Situated below the asset path, labeled `Attach script`.
+
+### Visual Flow / Relationships
+The most prominent visual element is the tree structure on the left. The asset path and button are secondary elements, positioned to the right of the tree structure. There are no arrows or lines connecting elements, suggesting a linear reading order moving from left to right.
+
+</details>
+
+<p></p>
+
+
 
 ### Using the Texture Asset
 

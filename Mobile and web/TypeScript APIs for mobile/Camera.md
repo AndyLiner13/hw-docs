@@ -10,7 +10,35 @@ The spawn point can be configured to control the player’s camera and modify it
 
 To set the player’s camera, select the spawn point and use the **Mobile Camera** drop-down in the object properties window.
 
-![Set Player Camera](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/510881416_749600250911262_533806309759582464_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Zzx9C9qaAsQQ7kNvwFohOYs&_nc_oc=Admu75-XvsRyauRIXCvATau1bOnXmoQETmzY5mnQx7zKYS83iYIhQu_3Q4_5TqfAG4496uL00K7fTpmFSKxVtN-j&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bsyeSmtr82FwcuXv-Uek-g&oh=00_AfnLjxDQPsQ2xzeVth2F23XhSk22duF-Z7B9Roz9BLrhAw&oe=6955890A)
+<details>
+<summary>Set Player Camera</summary>
+
+<p></p>
+
+[Set Player Camera](../../image_data/72543923218f6c5ffb163cfc4036cef5c9123922c427d64c44f507600096135f.md)
+
+### Overview
+This image depicts a user interface element within a game development environment, specifically showing a character model and its associated settings in a scene editor. The right side of the image displays a panel with various attributes and behavior options for the character model named "SpawnPoint."
+
+### Key Elements
+- **Character Model**: A blue humanoid figure is positioned within a blue bounding box, indicating its spawn point. The figure is standing with one hand on its hip.
+- **Scene Editor Background**: The background is a grid, suggesting a 3D modeling workspace.
+- **Spawn Point Indicator**: A blue circle with a white downward arrow is located at the top-left of the bounding box, indicating the spawn point location.
+- **Debug Data Panel**: On the right, there is a panel titled "Debug Data" which includes sections for "Attributes," "Behavior," and "Gameplay Tags."
+    - **Attributes Section**: Contains fields for Position (X: 8.02, Y: 5.12, Z: -168.), Rotation (X: 0, Y: 0, Z: 0), and Scale (X: 1, Y: 1, Z: 1).
+    - **Behavior Section**: Includes options such as "Spawn on start," "Set Position Only," "Player Gravity," and "Player Speed." There is also a dropdown menu labeled "Mobile Camera" set to "Third Person."
+    - **Gameplay Tags Section**: Displays a search bar labeled "Search attached tags" and a tag icon with a label "This object has no tags."
+- **Dropdown Menu**: The "Mobile Camera" dropdown menu is expanded, showing options like "Third Person," "First Person," "Orbit," "Pan," and "Follow."
+- **Attach Script Button**: At the bottom of the Debug Data panel, there is a blue button labeled "Attach script."
+
+### Visual Flow / Relationships
+The most prominent visual elements are the character model and the Debug Data panel. The character model is central in the left portion of the image, while the Debug Data panel occupies the right side. The dropdown menu is nested under the "Mobile Camera" heading. The layout follows a typical user interface design with clear sections and interactive elements.
+
+</details>
+
+<p></p>
+
+
 
 Note
 
@@ -52,10 +80,83 @@ Before using the Camera API, you need to:
 
 - **Enable the Camera API module:**
   * Open the **Scripts** dropdown
-  * Click the **Settings** icon ![Script settings](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452715951_512536464617643_2581711984717896530_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=YXI0f7PHyOIQ7kNvwHxQSVQ&_nc_oc=Adkdhkcp7z-SrO0hWvdJsRyDmoPrfAFAoVKHSAL5nlOglXBOSlkr944Qifd7Am_k3TH5sOeoyhqB0xn5Hl0iRPA8&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=bsyeSmtr82FwcuXv-Uek-g&oh=00_Afntq5imXwfX16r0LglGHKee_9hlcdENv_3e3t0dtmAD9Q&oe=69558F28)
-  * Enable **horizon/camera**![Enable Camera API module](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/557415887_835743098963643_369281294224086013_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=_55F1Gh1vIgQ7kNvwFQXkJs&_nc_oc=AdmYlwGBnbIfb0NuJpqPxUKMgC0x5oq79lNS3WKJjUd3svxhdH1EH38M-ccNc83qupU0_aefbtiJbPyWdbH2ObQ0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=bsyeSmtr82FwcuXv-Uek-g&oh=00_AfkDVkWj0c5X3vo8jkDrc99haI41o-x2Ttova-xnMeJ2jA&oe=69559DC3)
+  * Click the **Settings** icon <details>
+                                <summary>Script settings</summary>
+                                
+                                <p></p>
+                                
+                                [Script settings](../../image_data/f7d7dfd39b1f8dd8b33be5e803102036a47eca02ce4cecb52afc02a2e1557c67.md)
+                                
+                                ### Overview
+                                This image depicts a user interface element from a software application, specifically a settings or configuration panel related to scripts. The layout includes a search bar, a plus sign for adding new items, a settings gear icon, and a menu icon.
+                                
+                                ### Key Elements
+                                - **Search Bar**: Located at the top-left, it has a magnifying glass icon and a placeholder text "> Search for scripts".
+                                - **Plus Sign**: Positioned next to the search bar, indicating the option to add new scripts.
+                                - **Settings Gear Icon**: Situated to the right of the plus sign, representing the settings for scripts.
+                                - **Menu Icon**: A vertical ellipsis icon located to the far right, likely for additional options or a dropdown menu.
+                                - **Settings Button**: A black button labeled "Settings" at the bottom-right, suggesting access to more detailed settings.
+                                
+                                ### Visual Flow / Relationships
+                                The most prominent visual element is the search bar, as it is the largest and most central. The settings gear icon is secondary but still important, as it suggests configuration options. The menu icon is less prominent but still noticeable due to its distinct shape. The settings button at the bottom-right acts as a call-to-action for accessing detailed settings.
+                                
+                                </details>
+                                
+                                <p></p>
+                                
+                                
+  * Enable **horizon/camera**<details>
+                             <summary>Enable Camera API module</summary>
+                             
+                             <p></p>
+                             
+                             [Enable Camera API module](../../image_data/7edbfe760b4cdf5557ff01a942f80dc51874c61c86a7ee051cc2e8b14cb179f2.md)
+                             
+                             ### Overview
+                             This image depicts a user interface element showing a text input field with a checkbox next to it. The interface includes a "Cancel" button at the bottom left and an "Apply" button at the bottom right. The background is dark gray, and the text input field has a red bounding box highlighting it.
+                             
+                             ### Key Elements
+                             - **Text Input Field**: Located at the top, it contains the text "horizon/camera". It is rectangular with rounded corners and has a light gray background.
+                             - **Checkbox**: Positioned to the right of the text input field, it is a small square with a blue border and a white checkmark inside.
+                             - **Buttons**: Two buttons are located at the bottom of the interface. The "Cancel" button is gray with white text, while the "Apply" button is blue with white text.
+                             - **Background**: The entire interface has a dark gray background.
+                             
+                             ### Visual Flow / Relationships
+                             The most prominent visual element is the text input field due to its size and the red bounding box. The checkbox is secondary but important as it indicates an option that can be toggled. The buttons at the bottom are less prominent but serve functional purposes. There are no arrows or lines connecting elements, so the reading order is linear from top to bottom.
+                             
+                             </details>
+                             
+                             <p></p>
+                             
+                             
 - **Set Local execution mode:**
-  * Set your script to execute in Local mode ![UI path to set Local execution mode](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480543861_656120566925898_450547107366261658_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=HiXA8b0prEUQ7kNvwHu0b0B&_nc_oc=AdlyjBT4HDCwlRFp4xaLJN6cXBWsBI5H_7DBMyMHaDskyioad-y9A8AYrBUz_eIyqWZ50oqUGlgeiA-dTbzZAD81&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=bsyeSmtr82FwcuXv-Uek-g&oh=00_Afk7iwZCad5QPfhFzc9Wh7S8pic6CqWAL67xLUMEoDIdvw&oe=69556CAE)
+  * Set your script to execute in Local mode <details>
+                                             <summary>UI path to set Local execution mode</summary>
+                                             
+                                             <p></p>
+                                             
+                                             [UI path to set Local execution mode](../../image_data/8cd4d197b20093de4d7100111ae5dad8830b1e180a2396a7a157c913dc41b654.md)
+                                             
+                                             ### Overview
+                                             The image displays a user interface element within a development environment, specifically a menu for managing scripts. The main focus is on a dropdown menu that appears to be part of a larger interface, likely related to game development given the context of the environment.
+                                             
+                                             ### Key Elements
+                                             - **Left Panel**: A vertical list of compiled scripts labeled with icons resembling text blocks and names such as "DoorButton," "DoorCutscene," "FixedCameraTrigger," etc.
+                                             - **Search Bar**: Located at the top of the left panel, partially obscured but showing a placeholder text.
+                                             - **Dropdown Menu**: Appears in the lower right quadrant, offering options like "Recompile," "Open in External Editor," "Execution Mode," "Rename," and "Delete." The "Execution Mode" option has a sub-menu arrow indicating further options.
+                                             - **Contextual Menu**: Positioned to the right of the dropdown, showing "Default" and "Local" options, with "Local" highlighted in red.
+                                             - **Background**: The main background is a gradient sky with a grid floor, suggesting a game development environment.
+                                             
+                                             ### Visual Flow / Relationships
+                                             - **Most Prominent Element**: The dropdown menu is the most prominent due to its central placement and active selection.
+                                             - **Arrows and Lines**: The dropdown menu has a downward arrow indicating it is open. There are no other directional arrows or lines connecting elements.
+                                             - **Spatial Relationships**: The dropdown menu is nested within the larger interface, with the contextual menu appearing to the right of the dropdown.
+                                             
+                                             </details>
+                                             
+                                             <p></p>
+                                             
+                                             
 
 ### Camera transitions
 
