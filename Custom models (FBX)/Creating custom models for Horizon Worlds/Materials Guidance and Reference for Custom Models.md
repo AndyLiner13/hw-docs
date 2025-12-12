@@ -137,7 +137,33 @@ Blended materials that do not receive or cast lighting or shading are considered
 
 ### Transparent Materials
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522449_512510154620274_2357687186968881662_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=dfpNMHwTc6gQ7kNvwHJYQH8&_nc_oc=Adl7PdZ_j55SATJgSKxwCoCs78OCxn4Axk_XXrJ_HaCTF0pZ2cgiKzW_q-jW2ezH7CfusNsLyopaEUPh3-p55ESw&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_AfmN6_7RhTBebvij9601RoRQ6V5OaQ8JrShUfrb2xlPVDA&oe=69557938)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/c460a7f7edd5aef7b71f0726281a94bafb4111e2ec67612fc9824ee8b10b8b66.md)
+
+### Overview
+The image displays a collection of colorful, faceted objects resembling crystals or gemstones arranged on a tiled floor. The objects vary in shape, size, and color, creating a visually striking display.
+
+### Key Elements
+- **Purple Crystal Cluster**: Located on the left side, composed of numerous purple, faceted crystals. They are densely packed and have a glossy finish.
+- **Green Crystal Cluster**: Positioned centrally, featuring green, faceted crystals that are less dense than the purple cluster but still form a group.
+- **Red Crystal Cluster**: Situated on the right, consisting of red, faceted crystals similar in style to the green ones but with a slightly different arrangement.
+- **Small Blue Bottle**: A small, translucent blue bottle with an orange cap is placed near the purple crystal cluster.
+- **Small Green Bottle**: A smaller, translucent green bottle with an orange cap is positioned near the green crystal cluster.
+- **Small Red Bottle**: A small, translucent red bottle with an orange cap is located near the red crystal cluster.
+- **Large White Crystal**: A large, white, faceted crystal is situated on the far right, separate from the clusters.
+
+### Visual Flow / Relationships
+The objects are arranged in a loose grid-like pattern across the tiled floor. The clusters of crystals are the most prominent elements, drawing the viewer's attention due to their vibrant colors and reflective surfaces. The bottles are smaller and less prominent, serving as supporting elements in the composition.
+
+</details>
+
+<p></p>
+
+
 
 Transparent materials allow light to pass through. A specular channel is used, which modulates specular and reflection amounts. Using two textures gives control over more of the PBR properties. Material name in FBX must end in “\_Transparent”
 
