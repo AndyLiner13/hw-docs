@@ -19,7 +19,160 @@ Below we provide beginner-friendly resources for learning 3D modeling with Blend
 * [BlenderArtists Community](https://blenderartists.org/): Join the BlenderArtists forum to connect with other Blender enthusiasts. You can share your work and seek advice from experienced users.
 * [Blender Keyboard Shortcuts](https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html): Familiarize yourself with Blender’s keyboard shortcuts to improve your efficiency.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467744415_593133493224606_8770757779523313871_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=JCkgS36HLYAQ7kNvwEsNR2k&_nc_oc=AdmeCoJvHUUPb08ZnWEClL-aF5NDbE1NS0STBOO50NQlkmFGfPjN9tNDjyry-cIJO7fjiM7U531puaTlUu1Ou3EZ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L_SfI0WE4a0a2y7d6FrssA&oh=00_AfmmqaG4CcsRXwEZK1WFxQdE95f1KkK13lmt8tGkW9Z44g&oe=695575DC)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467504552_593133486557940_5939399866071061079_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=LXbhdbbbgNwQ7kNvwGM1CFq&_nc_oc=AdkqxCLY1Ik1i32b8Ae93VqZ-ABzL9dJpTI_xY8E3U6dwgzYHA4gTNKUloQqi1H76AirN64I6MeV2B6379mo_BTq&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L_SfI0WE4a0a2y7d6FrssA&oh=00_AflkxLlnhwCzzVJbbE0K8vJb09shCLfrrKLn8VIWv_gZRQ&oe=695589FA)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/467396625_593133426557946_8672861226003161059_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=W_rWgYSq9G4Q7kNvwGQR0Ah&_nc_oc=AdnQEWLjlve2E5Z-Zz1eA2L13iNnbe1Xk5k0ic0iF0s-UtsWqtEJWeF_xoy2Ctgfm9cCODC39zUziTe0vnEXhqfa&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L_SfI0WE4a0a2y7d6FrssA&oh=00_AfmnqJwyl-wnYL6ALsLqwJ8APYRP_f6Hlryarjvw2jdjsA&oe=6955966A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/0549701422dc4b6ae4bd497e0ead04870a477c13a4398c05e6448b8bc399a27e.md)
+
+### Overview
+The image displays a section of a manual or guide explaining keyboard shortcuts and mouse button usage. It is structured into two main parts: "Keyboards" and "Mouse." The content is presented in a clean, readable format with clear headings and bullet points.
+
+### Key Elements
+- **Title**: "Keyboards"
+  - **Visual description**: Bold heading at the top.
+  - **Location**: Top of the image.
+  - **Contents**: "Hotkey letters are shown in this manual like they appear on a keyboard; for example:"
+  - **Visual styling**: Black font on a light gray background.
+
+- **Modifier Keys**:
+  - **Visual description**: Subheading under "Keyboards."
+  - **Location**: Below the title.
+  - **Contents**: "Shift, Ctrl, Alt" and "Ctrl-W, Shift-Alt-A, ..."
+  - **Visual styling**: Black font on a white background.
+
+- **Numeric Keypad**:
+  - **Visual description**: Subheading under "Keyboards."
+  - **Location**: Below the modifier keys.
+  - **Contents**: "Numpad0 to Numpad9, NumpadPlus refer to the keys on the separate numeric keypad."
+  - **Visual styling**: Black font on a white background.
+
+- **Special Keys**:
+  - **Visual description**: Subheading under "Keyboards."
+  - **Location**: Below the numeric keypad.
+  - **Contents**: "Other keys are referred to by their names, such as Esc, Tab, F1 to F12. Of special note are the arrow keys, Left, Right and so on."
+  - **Visual styling**: Black font on a white background.
+
+- **Mouse Section**:
+  - **Visual description**: Heading "Mouse."
+  - **Location**: Below the "Keyboards" section.
+  - **Contents**: "This manual refers to mouse buttons as:"
+  - **Visual styling**: Black font on a white background.
+
+- **Mouse Buttons**:
+  - **Visual description**: Subheadings under "Mouse."
+  - **Location**: Below the heading.
+  - **Contents**: "LMB," "RMB," "MMB," and "Wheel, WheelUp & WheelDown."
+  - **Visual styling**: Black font on a white background.
+
+- **Note Section**:
+  - **Visual description**: A blue header with white text.
+  - **Location**: At the bottom of the image.
+  - **Contents**: "Blender has two main selection modes: left-click select and right-click select. See the Select with Mouse Button preference."
+  - **Visual styling**: Blue header with white font on a light gray background.
+
+### Visual Flow / Relationships
+- **Most Prominent Visually**: The blue header at the bottom.
+- **Arrows/Connectors**: None.
+- **Reading Order**: The content flows from top to bottom, left to right.
+- **Spatial Relationships**: Elements are arranged in a linear fashion with clear headings and subheadings.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/d67514ecf4e2f93623061dcf599025f93c6047296ebb3bbda5c3d91a2ada9404.md)
+
+### Overview
+The image displays a user interface section titled "Hovering," which explains keyboard shortcuts for interacting with a button while hovering over it. Below that, another section labeled "Properties" lists additional keyboard shortcuts related to value manipulation and keyframe operations.
+
+### Key Elements
+- **Title ("Hovering")**: Located at the top, centered.
+- **Description**: Below the title, explaining the context of hovering over a button.
+- **Properties Section**: Contains a list of keyboard shortcuts with descriptions.
+    - **Visual description**: Each item is a bullet point with a shortcut key combination followed by a dash and a description.
+    - **Location**: Below the "Properties" heading.
+    - **Contents**: 
+        - `Ctrl-C`: Copy the single value of the button.
+        - `Ctrl-V`: Paste the single value of the button.
+        - `Ctrl+Alt+C`: Copy the entire vector or color of the field.
+        - `Ctrl+Alt+V`: Paste the entire vector or color of the field.
+        - `RMB`: Open the context menu.
+        - `Backspace`: Clear the value (sets to zero or clears a text field).
+        - `Minus`: Negate number values (multiply by -1.0).
+        - `Ctrl-Wheel`: Change the value incremental steps.
+    - **Visual styling**: The shortcuts are enclosed in rectangles with rounded corners, and the descriptions are in a standard font.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The title "Hovering" at the top.
+- **Arrows/lines/connectors**: None.
+- **Spatial relationships**: Items are arranged in a vertical list under the "Properties" heading.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../image_data/bb6bc8d48841c58fff001b2d97f47d5495b12256ca41df298612ebafdac03b87.md)
+
+### Overview
+The image displays a user interface section that provides keyboard shortcuts for text editing functions. It is divided into three main sections: Dragging, Text Editing, and Confirm & Cancel. Each section lists keyboard shortcuts and their corresponding actions.
+
+### Key Elements
+#### Dragging
+- **Visual description**: A list item with a bullet point.
+- **Location**: Top section.
+- **Contents**: 
+    - **Ctrl**: While dragging, snap to discrete steps.
+    - **Shift**: Gives precision control over the value.
+    - **Shift-Ctrl**: Precise snap will move the object with high precision along with the snapping constraint.
+- **Visual styling**: Black text on a light gray background.
+
+#### Text Editing
+- **Visual description**: A list item with a bullet point.
+- **Location**: Middle section.
+- **Contents**: 
+    - **Home**: Go to the start of the line.
+    - **End**: Go to the end of the line.
+    - **Left**, **Right**: Move the cursor a single character.
+    - **Ctrl-Left**, **Ctrl-Right**: Move the cursor an entire word.
+    - **Backspace**, **Delete**: Delete characters.
+    - **Ctrl-Backspace**, **Ctrl-Delete**: Delete words.
+    - **Shift**: Select while holding the key and moving the cursor.
+    - **Ctrl-A**: Select all text.
+    - **Ctrl-C**: Copy the selected text.
+    - **Ctrl-X**: Cut the selected text.
+    - **Ctrl-V**: Paste text at the cursor position.
+- **Visual styling**: Black text on a light gray background.
+
+#### Confirm & Cancel
+- **Visual description**: A list item with a bullet point.
+- **Location**: Bottom section.
+- **Contents**: 
+    - **Esc**, **RMB**: Cancel.
+    - **Return**, **LMB**: Confirm.
+- **Visual styling**: Black text on a light gray background.
+
+### Visual Flow / Relationships
+- The content is organized into three distinct sections, each with its own heading.
+- Each section contains a list of keyboard shortcuts and their descriptions.
+- There are no arrows or lines connecting the sections, indicating a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 ## Additional Tools for 3D Modeling
 

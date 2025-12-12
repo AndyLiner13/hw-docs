@@ -37,7 +37,35 @@ The geometry for primitive colliders (box, sphere, capsule) is expected to have 
 
 This screenshot from Blender shows a visible mesh (RingTarget) with a number of primitive colliders defined for it.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652340_512500407954582_5623056193016771241_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=bYv0A8OSCvUQ7kNvwG-GPH2&_nc_oc=Adl0jFkeBfo-rlIAtrCLLIjJGDKcHWk1zO4b4FZUN7_CqZGVvtIlNKWk0Fgu2Au5c5PWNDPWwQSZWii7_O4dSJ2K&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=WPEnE0kY80WT0x1Obe6_dw&oh=00_Afkv-6J6OA-GD_CWsSXZHf0SowVBwGmXeYTUpzPLgM9DmQ&oe=69559E6B)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/e9cc637c5b4603e65a55770c761703ddf35c7668cb1f37fecb5bca47ae0ca71d.md)
+
+### Overview
+This image depicts a hierarchical tree view interface, likely from a software application. It shows a nested structure with expandable nodes, indicated by triangle icons. The nodes contain text labels and small circular icons next to them.
+
+### Key Elements
+- **Tree Structure**: A vertical list of nodes, each representing a category or item within a larger structure.
+  - **Nodes**: Each node has a triangle icon indicating whether it can be expanded or collapsed.
+  - **Text Labels**: Inside each node, there is a label such as "RingTarget," "UBX_RingTarget_6," etc.
+  - **Circular Icons**: Small icons next to the text labels, possibly indicating status or action options.
+- **Background**: Dark gray background with lighter gray vertical lines separating the nodes.
+- **Expand/Collapse Triangles**: Located at the beginning of each node, pointing right when closed and down when expanded.
+- **Node Labels**: Text labels are in white, with some in green and others in orange, suggesting different categories or statuses.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The expandable nodes are the most prominent due to their hierarchical nature.
+- **Arrows/Connectors**: There are no explicit arrows or connectors between nodes, but the indentation suggests a parent-child relationship.
+- **Spatial Relationships**: Nodes are arranged vertically, with each level indented further than the previous one. The expandable triangles indicate the direction of expansion/collapse.
+
+</details>
+
+<p></p>
+
+
 
 ## Spawning collider entities in the desktop editor
 
@@ -52,6 +80,36 @@ To add a primitive collider to the world, select **Colliders** from the **Build*
 
 We automatically enter Colliders view mode when you place a collider entity into the world. To enter collider view manually, select **Collisions** from the **View Mode** menu at the top right of the **Preview** window.
 
-![Collider view option](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/514025692_754517587086195_4881851379016605796_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=8k7J95LvVfkQ7kNvwGhFbis&_nc_oc=AdngB0_GfCuYUKtbtO5VDXgzzSXhwZibIMY-79fNTc91yEBvSC6QTMvsWtjP9fegnEoo4IMYWwGZue2_TaOzwWZ1&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=WPEnE0kY80WT0x1Obe6_dw&oh=00_Afnzw4UIcSb5RRZl3OaAxnGPzFqihCK4UCMwAMVg56LVVA&oe=695593DF)
+<details>
+<summary>Collider view option</summary>
+
+<p></p>
+
+[Collider view option](../../image_data/9be631f88b6d570d97264e6adb30cfd3fefa71d1e4c3d87a1cbfc366770a3aa5.md)
+
+### Overview
+This image depicts a user interface element from a software application, specifically a settings or properties panel. It shows a list of options related to object visualization and collision detection. The layout is structured with a vertical arrangement of items, each accompanied by a toggle switch or checkbox indicator.
+
+### Key Elements
+- **Header**: "Properties" at the top, indicating the section of the interface.
+- **Toggle Switches**: Each option has a toggle switch next to it, which can be in one of three states: unchecked, checked, or partially checked (indicated by a blue highlight).
+- **Options List**: 
+  - **Shaded**: Toggle switch is unchecked.
+  - **Wireframe**: Toggle switch is unchecked.
+  - **Solid wireframe**: Toggle switch is unchecked.
+  - **Shaded wireframe**: Toggle switch is unchecked.
+- **Collision Section**: 
+  - **Collision**: Toggle switch is checked.
+  - **Show object colliders**: Toggle switch is unchecked.
+- **Show Gizmos**: A checkbox at the bottom right corner, which is checked.
+
+### Visual Flow / Relationships
+The visual hierarchy is clear with the toggles arranged vertically. The checked and unchecked states of the toggles are visually distinct, making them easy to identify. There are no arrows or lines connecting the elements, but the layout suggests a linear reading order from top to bottom.
+
+</details>
+
+<p></p>
+
+
 
 *Collider view option*

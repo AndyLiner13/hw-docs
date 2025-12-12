@@ -31,7 +31,57 @@ It is important to plan your topology to support different lighting scenarios. I
 
 **Solution:** The meshes in the bottom example solves this problem by adding in a vertex in the center of the cube sides where it intersects the bar to define the shadow. It places support loops on the center bar to define which area is in the light.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452945192_512500654621224_1117938882276573410_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=sMd9Ay9GfNgQ7kNvwHsHqcl&_nc_oc=AdkZNn4dPH8147jaDekAGprMcpoKb8jNLYRBuIeZYrrf0DKYF5jiz8dcSPWE9GcMEZpM0PrjdEm-JNclF60ynmQN&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_Afll4JqGOnzUNiR-kcCUdWS1V3TGqWHrk54Q3LHAJsK__g&oe=69558171)![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452816787_512500667954556_7310310293534084824_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=plVgUzVuRQAQ7kNvwEbDT6E&_nc_oc=AdlgeS3e-JAtkgBOCCrH0MAyKX886SCCL3799CQ9iAjbOE9xf6NwnMiUR7Urb3eFvbfESbAInfzz1nE3U8ykXNbE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_Afl8rT7o5kpwn0iA7xKlE4lxu4vt-7Z7lCNGY--8Gj1sUQ&oe=6955A23E)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/2d2002bd4ccbd98e53e3eb860db55d93c117b521b675885af9e1230f2e1122d1.md)
+
+### Overview
+The image displays a 3D wireframe model of a dumbbell against a solid background. The dumbbell consists of two identical weights connected by a central rod. The overall composition is simple and geometric.
+
+### Key Elements
+- **Visual description**: The dumbbell is composed of white wireframe lines forming the shape of two cube-like weights and a connecting rod.
+- **Location**: The dumbbell is centered in the image.
+- **Contents**: The weights are symmetrical, with each weight having a rectangular prism shape. The connecting rod is straight and connects the centers of the two weights.
+- **Visual styling**: The lines are thin and white, creating a clean and minimalistic look.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The dumbbell as a whole.
+- **Spatial relationships**: The weights are positioned symmetrically around the rod, with no additional elements or connections between them.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/f55eda2a265518c016f236c6368622eae90cabee47ad7801f221e2904b5354ba.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring four cubes arranged around a central black rectangular prism. The cubes are light blue with white edges, and the background is a solid dark brown.
+
+### Key Elements
+- **Cubes**: There are four cubes, each with a light blue face and white edges. They are positioned at the corners of a larger cube-like structure formed by the arrangement of the cubes.
+  - **Cube 1**: Located at the bottom right.
+  - **Cube 2**: Positioned at the top left.
+  - **Cube 3**: Situated at the top right.
+  - **Cube 4**: Found at the bottom left.
+- **Central Black Prism**: A black rectangular prism is centrally located, connecting the four cubes. It has a matte finish and is oriented horizontally.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The central black prism.
+- **Spatial Relationships**: The cubes are evenly spaced around the central prism, forming a symmetrical arrangement. The cubes connect to the prism via a blue cylindrical connector.
+
+</details>
+
+<p></p>
+
+
 
 ## Scale
 
@@ -41,7 +91,43 @@ Build objects on real-world scales. Make sure that when you export your FBX, the
 
 **Maya** - There is a known scale issue where models will come in at the correct size but will have their transforms set to 0.01 scale.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452816154_512500651287891_9110139022826988635_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=sOltP0yoKSQQ7kNvwEToz2X&_nc_oc=AdmTl5QY1csGMss1EdLknSMjVVqqNn4dtuboMZrXo_39qLgewxfEcMp7JpFQEJegzKW5MMOdTgxzTABow24JdnU2&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_AfnD_R4MsHfrLAbW7CPXiRnb9GNi1K-ND4uSoK019KZ63g&oe=6955709F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/41cca76ff505a7fb4f55a06150842e9946fde95dff90c1d70c5bf26f72ebd6c0.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a desk lamp and a pair of headphones placed on a flat surface against a neutral gray background. The lamp is illuminated, and its dimensions are marked as 36 cm in height and 21 cm in width. The headphones are positioned to the left of the lamp and are marked with a dimension of 20 cm across.
+
+### Key Elements
+- **Desk Lamp**: 
+  - **Visual description**: A classic desk lamp with a green shade, gold-colored base and arm, and a pull cord.
+  - **Location**: Positioned on the right side of the image.
+  - **Contents**: The lamp is lit, casting a glow that highlights the green shade.
+  - **Visual styling**: The lamp has a metallic gold finish on the base and arm, with a glossy green shade. The pull cord is visible hanging down.
+  
+- **Headphones**: 
+  - **Visual description**: Over-ear headphones with orange ear cups and black ear cushions.
+  - **Location**: Positioned to the left of the lamp.
+  - **Contents**: The headphones are laid flat, showing both ear cups and the connecting band.
+  - **Visual styling**: The headphones have a matte finish with bright orange ear cups and black ear cushions.
+
+- **Dimensions**: 
+  - **Desk Lamp**: 36 cm height, 21 cm width.
+  - **Headphones**: 20 cm width.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The illuminated desk lamp.
+- **Arrows, lines, connectors**: None.
+- **Spatial relationships**: The lamp is to the right of the headphones, and both objects are clearly separated by space. The dimensions are marked with white lines extending from the objects.
+
+</details>
+
+<p></p>
+
+
 
 ## Pivots
 
@@ -57,7 +143,65 @@ Consider breaking your asset into pieces if those pieces would be useful for rem
 
 **Maya** - Prior to exporting from Maya, you should group your kit, then arrange it in a way that is convenient to see and access all of the items in your kit. We recommend that the history is deleted and the transform is frozen.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452915469_512500647954558_2366646221517633934_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=U9jYx901O6wQ7kNvwH6oSiJ&_nc_oc=AdmHlAUb8jNLlMyMNUcoZxPN_BBVXlC2XhCEF7MLbb6U1krEz0Vz1CvWJubaTTZ5Q_UPdwA5U50VTSZMHMCbiJqQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_Afn2HnWWZlbiS5EAS70U0hkfdMT7gO_aUPkxxYX5HE0gDA&oe=695571D6)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452555349_512500607954562_5062833201515023605_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=_oZb0hvg1EsQ7kNvwEGrIjb&_nc_oc=Adm5O-pxuDkmxG85hGjSjYhGDPZGZFarBfMjUkmpgaGOYkrEqK-XblLEi--GuIeUyFPvGcqXVseyfZwFLJMqmIhT&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_AfklVxZUKZlzo1oe_zY971kfegeKXKuWIZPbSJTdidzfkA&oe=69559B38)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/93dbfd4959d36109c42b3d643e8cb47f9cd282d531fd0a64054dc9d5f64715dc.md)
+
+### Overview
+The image displays a 3D model of a wooden structure resembling a bed frame or a storage rack. The model is rendered with a checkered floor beneath it, indicating a virtual environment. The bottom left corner contains technical information about the model's geometry and materials.
+
+### Key Elements
+- **Visual Description**: The structure is composed of wooden planks and beams arranged in a grid-like pattern. It has a rectangular shape with a slanted top section that could represent a headboard or a backrest.
+- **Location**: The structure is centrally placed against a plain gray background.
+- **Contents**: The wooden planks are brown, and some are painted green, while others are left natural wood. There is a blue patterned fabric at the base, possibly representing bedding or a mattress.
+- **Visual Styling**: The lighting is soft, casting subtle shadows on the checkered floor. The model has a matte finish, suggesting a non-reflective material.
+
+### Visual Flow / Relationships
+- **Most Prominent Visually**: The central wooden structure is the focal point.
+- **Spatial Relationships**: The structure is positioned slightly off-center, with the checkered floor providing a contrast to the smooth gray background. There are no arrows or lines connecting elements, implying a static display.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/d60481d0fe3cabed70e48cf120048b6e9cdd1c29bdc5f08d40896ea2d8c0c8be.md)
+
+### Overview
+The image displays a collection of 3D models of wooden furniture and architectural elements arranged on a grid-like surface. The models appear to be part of a design or modeling software interface, as indicated by the floating controls and indicators at the bottom of the screen.
+
+### Key Elements
+- **Wooden Furniture Models**: 
+  - Benches, tables, and chairs are scattered across the scene. They are made of wood and have a consistent brown color.
+  - Some pieces are assembled, while others are disassembled into individual parts.
+- **Architectural Elements**: 
+  - Windows, doors, and other structural components are also present. These elements are simpler in design compared to the furniture.
+- **Grid Surface**: 
+  - The objects rest on a light gray grid, which suggests a workspace for 3D modeling.
+- **Floating Controls**: 
+  - At the bottom, there are circular controls with icons and text, likely for manipulating the objects in the scene.
+- **Sphere and Phone Model**: 
+  - A sphere with a patterned texture and a phone model are visible on the left side of the image. These might be additional elements being designed or referenced within the software.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: 
+  - The wooden furniture models are the most prominent due to their quantity and variety.
+- **Spatial Relationships**: 
+  - The objects are spread out across the grid, suggesting a layout for organization or design planning.
+  - The floating controls imply interactive manipulation of the models.
+
+</details>
+
+<p></p>
+
+
 
 ## UV padding
 
@@ -73,28 +217,277 @@ Minimum padding you should use for **large color differences**:
 
 Because the Quest 2 screens are high resolution, you can get extremely close to object surfaces. This makes it challenging for textures with fine details to remain good-looking when you are very close to them or they are very large. We recommend creating textures with less high-frequency detail, a style which holds up well in VR.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452704033_512500644621225_6271284546319336980_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=egY8-gTQjBYQ7kNvwE4MwIx&_nc_oc=Adl29fmfzroV3QHdsht9_oUtEafIslfB87KY8iRjlQJouXbwFcUZL06ah_jurfCN7I8Dhu9566ueVGQq0DWj27d7&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_Afmic_HO6DJ2Sd0JoHAQRS0ypiCqmcSwU7NmblHrIUMouQ&oe=69557AB7)*High frequency detail.*
+<details>
+<summary>Image Content</summary>
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452915469_512500637954559_2669172308057156383_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=Fp0suFjA_FcQ7kNvwHII6yx&_nc_oc=Adn_SpKXv3HpfIl88TvtNP0B9AUGzyZsKOTCa9I69_OnU3RSAy_ccivUO7XZrxrzEpsXJVljfVowi-rplII-nFgF&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_AfknyfAlM6JmUke3qDFY-Vhu6CbMQoOj3WnruJOJX8smIg&oe=69559F39)*Lower frequency details look better close up in VR.*
+<p></p>
+
+[All image details and metadata](../../image_data/f48da0a4ee84aad76e094b01cc87df1c2ac92b1db423724161d692aa82fa89c4.md)
+
+### Overview
+The image depicts a scene set in an ancient ruin, featuring stone columns and remnants of a structure. The environment includes scattered wooden barrels, a wheelbarrow, and a small stone pedestal. The sky above has a gradient of pink and blue hues, suggesting either dawn or dusk.
+
+### Key Elements
+- **Stone Columns**: Large, weathered columns dominate the left side and center of the image. They are light gray with darker grays and browns indicating wear and age.
+- **Stone Structure**: A partially collapsed wall or structure is visible in the background, constructed from similar stone blocks as the columns.
+- **Ground**: The ground is paved with large, irregularly shaped stones, some of which appear wet or reflective.
+- **Wooden Barrels**: Two wooden barrels are placed near the left side of the image, leaning against the structure.
+- **Wheelbarrow**: A wooden wheelbarrow lies on its side in the foreground on the right side of the image.
+- **Stone Pedestal**: A small, square stone pedestal stands upright on the right side of the image.
+- **Sky**: The sky occupies the upper portion of the image, transitioning from a soft pink near the horizon to a clear blue higher up.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the stone columns and the scattered objects on the ground. The wheelbarrow and barrels are positioned towards the bottom right, while the columns extend upwards and to the left. The sky provides a backdrop that contrasts with the earthy tones of the ruins.
+
+</details>
+
+<p></p>
+
+*High frequency detail.*
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/0f8a679d4e2b7ac6937f3441358cacd1bafaf0fabb7403e52e51bc551a090474.md)
+
+### Overview
+The image depicts a virtual scene resembling an ancient Roman or Greek-style courtyard. The setting includes stone columns, a paved ground, and various objects scattered around, suggesting a historical or archaeological site. The sky above is partly cloudy, indicating daytime.
+
+### Key Elements
+- **Columns**: Large, white, classical columns line the left side of the image. They are evenly spaced and appear weathered, with some showing signs of aging.
+- **Ground**: The ground is paved with large, irregularly shaped stones arranged in a grid pattern.
+- **Benches**: A wooden bench is positioned on the left side near the foreground.
+- **Barrels**: Two wooden barrels are placed near the bench.
+- **Wheelbarrow**: A wooden wheelbarrow lies on its side in the bottom right corner.
+- **Watering Can**: A small watering can is visible in the background on the right side.
+- **Sky**: The sky is light blue with scattered clouds, providing natural lighting to the scene.
+
+### Visual Flow / Relationships
+The most prominent visual element is the central pathway formed by the stone pavement. The columns create a sense of depth and perspective, drawing the viewer's eye towards the back of the scene. The scattered objects add interest and suggest human activity in this space.
+
+</details>
+
+<p></p>
+
+*Lower frequency details look better close up in VR.*
 
 ## Model baking
 
 Model baking is a common technique. Keep in mind that we currently do not support normal maps, so use geometry to convey information you typically might put into a normal map.  Using geometry instead of normals works very well in VR and gives you nicer kitbash piece intersections when laying out worlds.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452589309_512500544621235_5986002142499223076_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=AhTtes0mnKEQ7kNvwHE9z5H&_nc_oc=AdljJUK8EZF3tkoEdoi3xJ7dUcUWqA2l8eLwei5f6qsk3P8kW_swGBd6QGNz2qmLg9EHAwzRks2NS3ButVXxIAYt&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_AfmYh77cWz0o2io8o-qWPyYP58gIsInGCUf9uUhnmR5PhA&oe=69556EE1)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/842f6dc6c7d33282a28fc3f8fe45642713a5aaeee7b988be7629ce9505aea209.md)
+
+### Overview
+This image presents four different views of a stone-paved surface at various stages of modeling and texturing. Each view is labeled with a description indicating the process or result being shown.
+
+### Key Elements
+1. **Hi-Res Model / Sculpt**
+   - **Visual description**: A high-resolution model of a stone-paved surface.
+   - **Location**: Leftmost panel.
+   - **Contents**: The surface is highly detailed, showing individual stones and cracks.
+   - **Visual styling**: Grayish tones, smooth texture, and intricate details.
+
+2. **Low-Res Model**
+   - **Visual description**: A low-resolution model of the same surface.
+   - **Location**: Second panel from the left.
+   - **Contents**: The surface is simplified into a triangular mesh with fewer polygons.
+   - **Visual styling**: Light gray triangles forming the low-poly representation.
+
+3. **Texture Baking**
+   - **Visual description**: A close-up of the stone-paved surface after applying texture baking.
+   - **Location**: Third panel from the left.
+   - **Contents**: The surface now has more detail due to the baked textures, though less than the Hi-Res model.
+   - **Visual styling**: Gray stones with some white highlights, showing improved detail over the low-res model.
+
+4. **Silhouette + Texture**
+   - **Visual description**: A final view combining the silhouette and textured details.
+   - **Location**: Rightmost panel.
+   - **Contents**: The surface is rendered with both the silhouette and detailed textures, showing a good alignment between the two.
+   - **Visual styling**: Gray stones with white and light gray highlights, closely matching the Hi-Res model but with a simpler, more stylized look.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The Hi-Res Model / Sculpt is the most detailed and visually complex.
+- **Arrows, lines, connectors**: None present.
+- **Spatial relationships**: Panels are arranged horizontally, with each representing a different stage of the modeling process.
+
+</details>
+
+<p></p>
+
+
 
 ## Trim sheets
 
 One of the best ways to optimize your textures is to use what are called trim-sheets, also known as artist-authored texture atlases. These are tiled strips of re-usable texture information that is assigned with UV coordinates onto different parts of the model.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452414106_512500551287901_1941084852038364963_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Bal8ehqvoD4Q7kNvwEtvZUN&_nc_oc=Adk-5hEeee3Bo2zwL39kzge2YnXiP-ViXBg7451INieUdpEP5AyMGFuZON2TnLTLD3PIerPK-FZkZtjP1Vv1G2B7&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_AfnsgG67o0bsQPJQtWbaD7OeR2ENC0T_S-8cAw0PoRA9Kg&oe=6955824B)
+<details>
+<summary>Image Content</summary>
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452915713_512500664621223_893951861776114436_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=4Dow8go6GeUQ7kNvwHudzp9&_nc_oc=AdnrtTPBNpEmDnEV5fA13BlaawUp_1rhmhEcWfEqwabMaYkxlgPvCb1oztX3MOXSjXdEukH3SiommZ6QQQQErpFF&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_AfkTMC7RYGnsh_chYdvjoBBCfoWOhSUEhC_H3IZxISac0w&oe=695575E2)
+<p></p>
+
+[All image details and metadata](../../image_data/bfb5b8f513b8f654bbecc3ce32a9969fa9c623d266b3515de4d0de49f131419f.md)
+
+### Overview
+This image depicts a 3D modeling software interface, specifically a UV editor window alongside a 3D view of a model. The UV editor window on the left displays a grid layout with various panels showing different textures and materials, while the right side shows a 3D model of a structure resembling a pavilion or gazebo.
+
+### Key Elements
+- **UV Editor Window (Left)**:
+  - **Visual description**: A grid layout with multiple panels.
+  - **Location**: Left side of the image.
+  - **Contents**: Panels display different textures and materials, including wood patterns and geometric shapes.
+  - **Visual styling**: Dark background with white grid lines and text, some panels have a light brown background with darker brown textures.
+  
+- **3D Model View (Right)**:
+  - **Visual description**: A 3D model of a structure with a roof, supports, and a table.
+  - **Location**: Right side of the image.
+  - **Contents**: The model includes a canopy-like roof with a red and brown pattern, wooden supports, and a rectangular table with a similar patterned surface.
+  - **Visual styling**: The model has a dark brown color scheme with green grid lines indicating UV mapping coordinates.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The UV editor window on the left.
+- **Arrows/lines/connectors**: None explicitly shown.
+- **Spatial relationships**: The UV editor window is adjacent to the 3D model view, with the UV editor providing material information that corresponds to the 3D model.
+
+</details>
+
+<p></p>
+
+
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/065877fc9fb856df8f9c35c81fc3efe015e13b35410c4d06b111b02711c438b0.md)
+
+### Overview
+The image displays a collection of wooden furniture and structures arranged on a plain surface. The objects appear to be part of a set designed for a specific purpose, possibly related to crafting or market stalls, given the presence of looms and canopies.
+
+### Key Elements
+- **Large Loom (Top Left)**: A wooden frame with a blue and white patterned fabric stretched across it. It has a dark brown frame with lighter brown accents.
+- **Canopy (Top Center and Right)**: Two identical canopies with red fabric tops and dark brown frames. They are positioned side by side.
+- **Small Bench (Right Center)**: A simple wooden bench with a dark brown finish.
+- **Decorative Panel (Right Center)**: A vertical wooden panel with intricate carvings, placed vertically next to the bench.
+- **Small Chest (Far Right)**: A rectangular wooden chest with a dark brown finish.
+- **Larger Chest (Far Left)**: A larger wooden chest with a darker finish and a small window-like opening at the front.
+- **Wooden Planks (Bottom Left)**: Several pieces of wooden planks scattered on the ground, varying in length and width.
+- **Small Bowl (Center Bottom)**: A small, dark brown bowl placed near the center bottom of the image.
+
+### Visual Flow / Relationships
+The objects are arranged loosely, with no clear hierarchical structure. The loom and canopies are grouped together on the left side, while the benches and chests are on the right. The wooden planks are scattered in the foreground, and the small bowl is placed centrally but slightly below the main group.
+
+</details>
+
+<p></p>
+
+
 
 ## When to use the Metalness Channel
 
 Examples showing basecolor + roughness compared to basecolor + roughness + metalness.
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452917873_512500657954557_8219246528713603699_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=c2uV1XJuQDoQ7kNvwGgNhjA&_nc_oc=AdkRMioAOE2gWY5Ux9wM-6i91LMy9cHV4aE2RxwlRUZTKEb-1J2NqGDnCUjjvH5ETDSTKQJJ77Y4VO8L7XvW7JJN&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_AflyY0aoAFONXchfyUKewnfGqM_ez5f-9FkLkAzjKZnVXw&oe=69557870)![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452684750_512500661287890_5145557696178384622_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=RLhxTeRvnowQ7kNvwFeODsI&_nc_oc=AdmmBaTdlW14fkmIdXo_FGiv1BKr6fwikqkYy7tnzas_Ij-ccwqanuR8M5yElLrjd-rtWT8WP_GVFAFNWN6sfGV0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=McULKt_Ah-mwuVWVA2eo8Q&oh=00_AfljyaqDkM_H4haFRJae5WRfBu6DU3PCOnDY-bq1aO62PQ&oe=69557B65)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/dfb11bc6550702c1f6d2c9b41a50f6e6bf8d3729566df47d82367eb1ac8b38cb.md)
+
+### Overview
+The image displays a grid layout showcasing various 3D models rendered under different lighting conditions and material settings. The models include a spaceship, a refrigerator, a briefcase, a train car, a desk lamp, and a trash can. Each model has four variations shown side-by-side, labeled as Basecolor, Basecolor and Roughness, PBR without Normals, and PBR with Normals.
+
+### Key Elements
+1. **Spaceship**
+   - **Visual description**: A sleek, futuristic spacecraft with angular wings and a central cockpit.
+   - **Location**: Top row, first column.
+   - **Contents**: The label "Basecolor" is visible beneath the spaceship.
+   - **Visual styling**: Dark gray with yellow accents, metallic sheen.
+
+2. **Refrigerator**
+   - **Visual description**: A standard white refrigerator with a freezer compartment on top.
+   - **Location**: Second row, first column.
+   - **Contents**: The label "Basecolor" is visible beneath the refrigerator.
+   - **Visual styling**: White with some reflective highlights.
+
+3. **Briefcase**
+   - **Visual description**: A brown leather briefcase with metal clasps.
+   - **Location**: Third row, first column.
+   - **Contents**: The label "Basecolor" is visible beneath the briefcase.
+   - **Visual styling**: Brown leather texture with metallic hardware.
+
+4. **Train Car**
+   - **Visual description**: A freight train car with a flatbed design, carrying a container.
+   - **Location**: Fourth row, first column.
+   - **Contents**: The label "Basecolor" is visible beneath the train car.
+   - **Visual styling**: Gray with red and white markings.
+
+5. **Desk Lamp**
+   - **Visual description**: A classic desk lamp with a green shade and a brass base.
+   - **Location**: Fifth row, first column.
+   - **Contents**: The label "Basecolor" is visible beneath the desk lamp.
+   - **Visual styling**: Green shade with brass accents.
+
+6. **Trash Can**
+   - **Visual description**: A simple cylindrical trash can with a lid.
+   - **Location**: Sixth row, first column.
+   - **Contents**: The label "Basecolor" is visible beneath the trash can.
+   - **Visual styling**: Silver with a black interior.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The spaceship model due to its larger size and distinct shape.
+- **Arrows, lines, connectors**: None present.
+- **Spatial relationships**: The models are arranged in a grid format, with each model having four variations displayed side-by-side. The labels are placed directly below each model.
+
+</details>
+
+<p></p>
+
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/c0f72fcc7a61c037d3a6a44c858dd78eaf3fc613c899bcae733e741cf42ae81d.md)
+
+### Overview
+The image displays a grid of three different objects rendered under various lighting conditions and material settings. Each object is shown four times, demonstrating the effect of different rendering parameters on the final appearance. The objects include a kettle, a flashlight, and a hanging sign.
+
+### Key Elements
+1. **Kettle**
+   - **Visual description**: A turquoise-colored kettle with a wooden handle.
+   - **Location**: Top row, first column.
+   - **Contents**: Labelled as "Basecolor," "Basecolor and Roughness," "PBR without Normals," and "PBR with Normals."
+   - **Visual styling**: The kettle has a glossy finish in the "Basecolor" and "Basecolor and Roughness" images, while the "PBR without Normals" and "PBR with Normals" images show more detailed reflections and highlights.
+
+2. **Flashlight**
+   - **Visual description**: A silver flashlight with a black grip.
+   - **Location**: Top row, second column.
+   - **Contents**: Same labels as the kettle.
+   - **Visual styling**: The flashlight has a metallic sheen in the "Basecolor" and "Basecolor and Roughness" images, with more pronounced highlights and reflections in the "PBR without Normals" and "PBR with Normals" images.
+
+3. **Hanging Sign**
+   - **Visual description**: A green emergency exit sign with a white arrow pointing left.
+   - **Location**: Bottom row, first column.
+   - **Contents**: Same labels as the kettle and flashlight.
+   - **Visual styling**: The sign has a matte finish in the "Basecolor" and "Basecolor and Roughness" images, with more defined edges and lighting effects in the "PBR without Normals" and "PBR with Normals" images.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The objects are arranged in a grid format, making them equally prominent.
+- **Arrows, lines, connectors, or implied reading order**: There are no arrows, lines, or connectors; the layout is purely visual and symmetrical.
+- **Spatial relationships**: Objects are evenly spaced within rows and columns, with clear labels indicating the different rendering parameters being demonstrated.
+
+</details>
+
+<p></p>
+
+
 
 ## World budgets
 

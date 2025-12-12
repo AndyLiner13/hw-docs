@@ -52,7 +52,43 @@ Using two textures gives control over more of the PBR properties.
 
 ### Unlit Materials
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452746741_512510151286941_7543427180543090042_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=YfloD-1jxt8Q7kNvwGYSx85&_nc_oc=AdnvtZhcwKxchavfqLS7o_4wRPIGV_YdIDhV50wn1rakGXrYQrDVKCXf0e-69ypfMcKzqgthMfbFDn-Myw4CbCrv&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_AflKR36gx7QnPbkoSYSarcwa7R_CX5aVvPH9Okh41Z9AZw&oe=6955803B)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/fec4fd489891e15c44790c02bb5b366352daf19846d4ea19b52b76d8eab62c2a.md)
+
+### Overview
+This image displays a grid background with three distinct hexagonal icons arranged horizontally. Each icon contains a symbol or question mark within a gradient background.
+
+### Key Elements
+1. **Left Icon**
+   - **Visual description**: A red hexagon with a black border.
+   - **Location**: Leftmost position.
+   - **Contents**: Contains a black exclamation mark (`!`).
+   - **Visual styling**: Solid red fill, black border, and white exclamation mark.
+
+2. **Middle Icon**
+   - **Visual description**: A yellow hexagon with a black border.
+   - **Location**: Centered between the left and right icons.
+   - **Contents**: Contains a black exclamation mark (`!`).
+   - **Visual styling**: Solid yellow fill, black border, and white exclamation mark.
+
+3. **Right Icon**
+   - **Visual description**: A hexagon with a gradient background transitioning from green at the top to purple at the bottom.
+   - **Location**: Rightmost position.
+   - **Contents**: Contains a black question mark (`?`).
+   - **Visual styling**: Gradient background with green at the top, transitioning to purple at the bottom, and a black question mark.
+
+### Visual Flow / Relationships
+The icons are arranged in a horizontal line, with no connecting lines or arrows. The arrangement suggests a sequence or a set of options, but there is no implied reading order indicated by the layout itself.
+
+</details>
+
+<p></p>
+
+
 
 Materials that do not receive or cast lighting or shading are considered unlit. The material name in the FBX must end in “\_Unlit”. Any extra channels, such as the fourth channel, are discarded.
 
@@ -64,7 +100,32 @@ Materials that do not receive or cast lighting or shading are considered unlit. 
 
 ### Unlit Blend Materials
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452955733_512510171286939_5181638036183860130_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=5GlwWTYSXWwQ7kNvwE8gQWW&_nc_oc=Admhc-OQb7vqOv8j5eBYMD6jx9EYy_4Rt1zOow9UdHVRy0RQ5YmEUzlDMDgQ9PcjSPUDsKBU7f7krN8bFNQxHs1t&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_AflPN0ubUpomsmRD8cmQSABTD8SCjHLpsWGBrrqF4aJ-qQ&oe=695570B7)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/a9cbc835ee4012098aec4203f966ab876832933a173f8a6537ea6003bc722ddb.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a brick wall with a window and a white, curved object resembling a lampshade or a piece of furniture. The background consists of a tiled floor with a grid pattern.
+
+### Key Elements
+- **Brick Wall**: Located on the left side of the image, constructed from red bricks arranged in a staggered pattern. The wall has a window with a dark brown frame and a light beige interior divided into smaller panes.
+- **Window**: Positioned centrally within the brick wall, with a dark brown frame and a light beige interior divided into smaller panes.
+- **White Object**: A curved, white object resembling a lampshade or a piece of furniture is situated on the right side of the image. It has a smooth, glossy surface with subtle reflections.
+- **Background**: The floor is tiled with large, light gray tiles forming a grid pattern.
+
+### Visual Flow / Relationships
+- The most prominent visual element is the brick wall with the window.
+- There are no arrows, lines, or connectors indicating a specific reading order.
+- Spatially, the white object is positioned to the right of the brick wall, creating a contrast in the composition.
+
+</details>
+
+<p></p>
+
+
 
 Blended materials that do not receive or cast lighting or shading are considered blended and unlit. The material name in the FBX must end in “\_Blend”. Unlit blended materials do not have any specular or reflection properties.
 
