@@ -55,16 +55,123 @@ This section will go through the general workflow for templates once you are par
 There are two ways to create a template:
 
 * By converting a legacy asset to an asset template. See [Asset Migration](Asset%20Templates.md#asset-migration) section for more information.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452458941_512500697954553_8078786083910498359_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=dDdV2Uic8BYQ7kNvwHIAukf&_nc_oc=Adlt5FjiUZLA5lKFwKKGKEqwdxHvYXSMC_KuQboAp62UDI-v58cC8uxUS_A2S7j9NDjLWCMoA4o46vAicir2o2Ol&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_Aflp6Ryhyp0y60M6CyxzHEAnRBC1Si6393pJwJ7AO95nrg&oe=6955960C)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/82fb9e47a8814266b8c612b99c121cccb43f4b2aaff51c7d4be801fc51ddc156.md)
+  
+  ### Overview
+  This image depicts a user interface of an asset management tool within a software application. The layout includes a sidebar with folders and a main content area displaying asset thumbnails and names. There are also interactive elements such as buttons and a notification banner at the bottom.
+  
+  ### Key Elements
+  - **Sidebar (Left Panel)**:
+    - **Visual description**: A vertical navigation panel with expandable folders.
+    - **Location**: Left side of the screen.
+    - **Contents**: Contains folders labeled "All Assets," "My Folders," "My Assets," and "KV test." The "My Assets" folder is expanded.
+    - **Visual styling**: Dark gray background with white icons and text.
+  
+  - **Main Content Area (Center)**:
+    - **Visual description**: A grid of asset thumbnails with names underneath.
+    - **Location**: Center of the screen.
+    - **Contents**: Each thumbnail has a unique icon representing the asset type, followed by the asset name. Some thumbnails have additional icons or indicators next to them.
+    - **Visual styling**: Gray background with white icons and text. Some thumbnails have blue circular icons with arrows, indicating updates or actions.
+  
+  - **Notification Banner (Bottom)**:
+    - **Visual description**: A red banner with white text.
+    - **Location**: Bottom of the screen.
+    - **Contents**: States "6 assets in My Assets can be updated to a new format" and includes a "Review" button.
+    - **Visual styling**: Red background with white text and a blue button.
+  
+  - **Search Bar (Top Right)**:
+    - **Visual description**: A search bar with a magnifying glass icon.
+    - **Location**: Top right corner.
+    - **Contents**: Placeholder text "Search My Assets."
+    - **Visual styling**: White background with black text and a blue magnifying glass icon.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The main content area displaying asset thumbnails.
+  - **Arrows and Lines**: Blue circular icons with arrows indicate updates or actions for specific assets.
+  - **Spatial Relationships**: Elements are arranged in a grid layout within the main content area. The notification banner is positioned at the bottom, and the search bar is at the top right.
+  
+  </details>
+  
+  <p></p>
+  
+  
 * By selecting objects in the scene and creating a new asset template from them.
 
 To begin, first create a basic asset template.
 
 - Add a basic cube to your scene. You can get it from the **Shapes** drop-down menu.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452893303_512500567954566_2630102149456461559_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=wN71ZOT-rgYQ7kNvwHvl99j&_nc_oc=Adla1BMI9atl3R7r_BdWGh35a7xBF_9G26ew-7DNilkuSTFhqbPsvVJBHmx09BkTnkI8KsM9AWhS-15sAo2Hrqf4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_Afmj-yLyJ6vTPU051qzCtV4AZPXlMTVHmLzUkA5bJwwCog&oe=69558AED)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/f7a961780754f2e8d83a3e06ed8f44ddab8d3396bc37039b3147d248e1c1ccae.md)
+  
+  ### Overview
+  This image depicts a modal window titled "Shapes" within a software interface. The window displays various geometric shapes represented as icons with corresponding labels underneath them. The layout is grid-based, with shapes arranged in rows and columns. The window has a dark background with lighter-colored shapes and labels for contrast.
+  
+  ### Key Elements
+  - **Modal Window Title**: "Shapes" located at the top-left corner.
+  - **Close Button**: A small "X" icon located at the top-right corner of the modal window.
+  - **Search Bar**: A rectangular search bar with a magnifying glass icon located just below the title.
+  - **Shape Icons**: There are twelve shape icons arranged in a 3x4 grid.
+      - **Cube**: Located in the first row, first column.
+      - **Sphere**: Located in the first row, second column.
+      - **Cone**: Located in the first row, third column.
+      - **Cylinder**: Located in the first row, fourth column.
+      - **Ramp**: Located in the second row, first column.
+      - **Pyramid**: Located in the second row, second column.
+      - **Tube**: Located in the second row, third column.
+      - **Half Cylinder**: Located in the second row, fourth column.
+      - **Half Tube**: Located in the third row, first column.
+      - **Faceted Cylinder**: Located in the third row, second column.
+      - **Capsule**: Located in the third row, third column.
+      - **Torus**: Located in the third row, fourth column.
+      - **Half Torus**: Located in the fourth row, first column.
+      - **Half Sphere**: Located in the fourth row, second column.
+      - **Cube Soft**: Located in the fourth row, third column.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the modal window itself. The shapes are arranged in a grid layout, with each shape having its own icon and label. The search bar is positioned above the grid, suggesting that users can search for specific shapes. The shapes are evenly spaced, and the labels are placed directly beneath their respective icons. There are no arrows or lines connecting the elements, indicating a straightforward reading order from left to right and top to bottom.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Add a basic sphere to your scene. You can get it from the **Shapes** drop-down menu.
 - In the Hierarchy, create an asset out of the two shapes by selecting both of them, and then right clicking on them. In the menu that appears, click **Create Asset**, and then enter the asset details.
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452863899_512500587954564_4581130950048103563_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=JgMmZEdiwzgQ7kNvwE1Om1S&_nc_oc=Adn_K40wWriJtvVe0BCiz8ZK7K0x6BXudfRuIb354CdHUOaRntQJygagCyiBQVoyFUlkRZejwGQDDVlpQ2IlSaX9&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfkZuA5A_9vqSnltg-xv5rqpgL6LRVUMEaX-re6hkGllSQ&oe=6955768F)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/43bcbff7ec608367dbe10cf568d60fb9c578e42c6a0f983ccb21901ca334346b.md)
+  
+  ### Overview
+  The image depicts a 3D modeling software interface, specifically showing a menu that has been opened from the left side of the screen. The main workspace displays a 3D scene with a cube and a sphere, along with a grid floor and a blue sky background. There are also some UI elements indicating selection tools and a small avatar at the bottom of the screen.
+  
+  ### Key Elements
+  - **Menu**: Located on the left side of the screen, it is a vertical dropdown menu with options such as "Create Asset," "Delete selection," "Group selection," and "Focus on selection." The menu has a dark background with white text.
+  - **3D Scene**: In the center and right of the screen, there is a 3D environment with a cube and a sphere. The cube is green with a brown top, and the sphere is white with a blue dot on it. There are also axis indicators (red, green, and blue arrows) around the sphere.
+  - **Grid Floor**: A light gray grid is visible at the bottom of the screen, representing the floor plane.
+  - **Avatar**: A small blue figure with a white head is located near the bottom center of the screen.
+  - **Background**: The background is a gradient of blue, representing the sky.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The menu on the left side.
+  - **Spatial Relationships**: The menu is positioned on the left, while the 3D scene occupies the central and right areas of the screen. The grid floor spans the entire width of the screen at the bottom. The avatar is placed near the bottom center.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
   You can create the asset as a template or as a legacy asset by selecting the asset type. If you choose **Legacy Asset Group**, your asset will not have instancing, property overrides, or change propagation.
 
@@ -89,19 +196,129 @@ A draft asset is an asset that has been updated in the current world, but whose 
 
   **Note**: Anytime you edit an asset it’s stored as a draft.
 
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/505490657_741347521736535_8523116864699304202_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=Y7qQyObFZtAQ7kNvwFOBB4W&_nc_oc=Adm1MIKMzzZObYIoYF03ooXTxw76CcnS_GWfWjYC4A9y6VjusJeCLsfuIz68Z4FbUCaGLl0lVghXhaWOcZYnz2tW&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AflnI1iaeseaoXyNNQB_Mv8n0mgXKLQ6H_JjS8kU04Gmqg&oe=69558005)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/605e10739de871c736d8bbc32851236caa74a4948a83069cd49a3a3b165c668c.md)
+  
+  ### Overview
+  This is a screenshot of a user interface displaying a list of unpublished changes within an asset management system. The interface includes a header indicating the presence of updates and unpublished changes, along with options to publish or discard changes. The layout is structured with columns for asset name, changed by, and date.
+  
+  ### Key Elements
+  - **Header**: "Asset Updates" at the top left, "Unpublished changes (17)" in the center, and "Publish all" button on the right.
+  - **Column Headers**: "ASSET," "CHANGED BY," and "DATE" appear at the top of the list.
+  - **List Items**: Each item contains an icon, an asset name ("a"), a username ("jmavra"), and a timestamp.
+      - **Visual description**: Icons are small, square, and gray with a white symbol inside.
+      - **Location**: Top-left corner of each list item.
+      - **Contents**: "a" (asset name), "jmavra" (username), and timestamps.
+      - **Visual styling**: Gray icons, white text, and blue timestamps.
+  - **Buttons**: "Discard" and "Publish" buttons next to the last list item.
+      - **Visual description**: Blue rectangular buttons with white text.
+      - **Location**: Right side of the last list item.
+      - **Contents**: "Discard" and "Publish" labels.
+      - **Visual styling**: Blue background, white text, and rounded corners.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The list items with timestamps and usernames.
+  - **Arrows/lines/connectors**: None.
+  - **Spatial relationships**: List items are arranged vertically, with each item having its own row. Buttons are aligned horizontally next to the last list item.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - From here you can either discard or publish your draft asset.
   * When you discard a draft of an asset, all asset instances in the current world will automatically switch to the latest major version, as dictated by the asset definition in the asset library.
   * When you publish a draft asset, it will create a new major version of the asset in the asset library.
 - Click **Publish** publish the draft asset. You will be presented with a publish modal. You can optionally write a comment to be saved as version notes with the new version, and then when the publishing operation finishes, a new major version of the asset will be saved to asset definition in the asset library.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452576260_512500694621220_7586723531942177562_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=2VznAXHTn7AQ7kNvwG13Gv9&_nc_oc=AdkDcevk0cCYRAqlX1ZGgdGDVWyB0NQa3bPZx9fYou7MRTn-6l4_2KNLbUt2x6Pz-vGqYnAm0PaqCB8dSmf2Xzrp&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfmQlilBo4hRbDF6tQK0-DNolad2QdzCcBC4Ad5plbWR2A&oe=6955959D)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/8ca522887fb2d00562d3712dd8c4f2d9b6280a07a32a2229b556016ebdf293e2.md)
+  
+  ### Overview
+  This image depicts a modal dialog box within a user interface, specifically a prompt asking the user if they want to publish a draft asset. The dialog box is centered over the main interface, which includes tabs for "Updates" and "Drafts," and a list of assets on the left side.
+  
+  ### Key Elements
+  - **Modal Dialog Box**: A rectangular box with rounded corners, located centrally over the main interface.
+    - **Title**: "Publish draft?" displayed at the top.
+    - **Content**: A message explaining that the user is about to publish draft changes to an asset, creating a new version.
+    - **Message**: "Tweaked some properties" is highlighted in a black box below the message.
+    - **Buttons**: Two buttons at the bottom of the dialog box, labeled "Cancel" and "Publish." The "Publish" button has a blue background with a loading spinner indicating it is currently active.
+  - **Background Interface**: The main interface behind the dialog box shows tabs for "Updates" and "Drafts," with "Drafts" being active. There is also a list of assets on the left side, with one asset partially visible.
+  - **Interface Elements**: Buttons labeled "Discard" and "Publish" are visible outside the dialog box, suggesting actions related to the draft asset.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the modal dialog box, which is the focal point of the image. The dialog box is positioned above the main interface, ensuring it captures attention. The "Publish" button is the most interactive element, as it is highlighted and in a loading state, indicating the current action. The "Cancel" button is less prominent but still clearly visible.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Once the asset is published, click on the **Version History** button in the Asset Details panel to see its version history.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452935806_512500691287887_214574099878998720_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=bkwXPJfONQYQ7kNvwHdijAp&_nc_oc=Adn6CMvFYGyJC2426m7DldQ9MhidA7M_Gyq2HXqW662MJnu2i5l6vyZA_Od0mNAxjJvGJHbJ7CMIRuJq0XY-ZvJl&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AflFPnKH8KsVsLsH3ZhoVc-SJzIQymVhuUf6Hpin4wq3HA&oe=6955969E)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/842eb089525b5eef51511e18332c310d668ce673071014f422d7f956b14c80b0.md)
+  
+  ### Overview
+  The image displays a user interface element titled "Asset details." It includes a preview area, metadata fields, version history, and file download options.
+  
+  ### Key Elements
+  - **Preview Area**: Located at the top, it features a gradient background transitioning from blue to purple, with a white cube logo centered within it.
+  - **Metadata Fields**: Below the preview area, there are fields labeled "Asset Type," "Asset ID," "Owner," and "Created." The "Asset Type" field contains the word "Template," while the "Asset ID" field has a placeholder icon followed by a long numerical ID.
+  - **Version History Section**: Positioned below the metadata fields, it shows a collapsed section labeled "Versions." Inside, there is a note stating "Tweaked some properties" and a button labeled "Version History."
+  - **Download Button**: At the bottom, there is a button labeled "Download" with a download icon next to it.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the preview area, which draws attention due to its large size and central placement. The metadata fields follow sequentially below the preview. The "Version History" section is highlighted with a red circle, indicating its importance. The download button is located at the very bottom, completing the layout.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - The version history modal will display all of the major versions of an asset. These are all of the asset versions that have been previously published. If you go into other worlds or share an asset with other users, these are the versions that will be stored on the root asset definition. The asset can be restored to any of these versions at any time.
 
-  ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452933022_512500687954554_6151449604564408312_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=oVJ5d9rZ5OcQ7kNvwGAtmjE&_nc_oc=AdmlQLVLPHP31FaSitw41raODh75TOyGLmX5GL7A_qua3wbfL4TqpfA24WF7h3AXDxiy3CkRz9xTEwdjS5PwADsK&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfmqC7QLxwrNDT8eV13IUxPdwlgdRy7Bh0wW90eJyy9F0w&oe=69559E2D)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/b096801718fb9af1862c44a3ab0c4f8dd79b2d898568297c8af0b0f7078c1140.md)
+  
+  ### Overview
+  This image displays a version history interface for an asset template. It includes a table listing changes made to the asset over time, with columns for ID, Added By, Date Added, and Notes. The interface has a dark theme with light-colored text and icons.
+  
+  ### Key Elements
+  - **Header**: "Version history: asset_template" at the top.
+  - **Table Headers**: "ID," "ADDED BY," "DATE ADDED," and "NOTES."
+  - **Rows**: Three rows are visible, each representing a change to the asset.
+      - **Row 1**: Contains an ID (3), username ("goopitygoopgoop"), date added ("Dec 4, 2023 at 12:10 PM"), and notes ("Tweaked some properties").
+      - **Row 2**: Contains an ID (2), username ("goopitygoopgoop"), date added ("Dec 4, 2023 at 8:36 AM"), and no notes.
+      - **Row 3**: Contains an ID (1), username ("goopitygoopgoop"), date added ("Nov 30, 2023 at 12:55 PM"), and no notes.
+  - **User Avatar**: A small circular icon next to each username.
+  - **ID Box**: A small box with a purple cube icon and a number indicating the ID.
+  - **Current Label**: A small rectangular label saying "Current" next to the row with ID 3.
+  
+  ### Visual Flow / Relationships
+  The interface is structured as a table with a clear hierarchical layout. The most prominent visual element is the table itself, which is divided into columns and rows. There are no arrows or lines connecting elements, but the reading order follows the standard left-to-right, top-to-bottom sequence typical of tables.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ## Property Overrides
 
@@ -110,11 +327,135 @@ Property overrides enable you to override the property values on an instance of 
 To override a property:
 
 - Click on the root level asset template in your world. Review the properties. There shouldn’t be any overrides.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452684749_512500684621221_5369449154585863544_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=oR8Kd726-agQ7kNvwHtjWis&_nc_oc=AdlODz2DB4lKrsLQ1cgHH5uy3L7M2ZkuBfKKKDuqjPPNjDoBqzQUEy5cst0BTykEP76Jj5iKGlqcylydgpWsvF3x&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AflbJ6g2nTt8tEWbn1brBynRPHDb7FYbGVZh69BxvuJ5Og&oe=69559395)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/65b4999783acdd8df522c3441bd882afce4740ee509266be4c26000594459b6d.md)
+  
+  ### Overview
+  This image depicts a user interface element showing properties of a sphere object in a game development or 3D modeling software. The layout is structured into sections for properties, debug data, behavior, attributes, and material settings.
+  
+  ### Key Elements
+  - **Properties Section**: Located at the top, contains a title "Sphere" within a black rectangular input field.
+  - **Debug Data Section**: Below the properties, indicated by a downward arrow, suggesting expandable content.
+  - **Behavior Section**: Contains toggles for visibility, light reflection, casting shadows, and collision properties.
+  - **Attributes Section**: Includes fields for position, rotation, scale, texture, material roughness, and color.
+  - **Position Fields**: Show numerical values for X, Y, Z coordinates.
+  - **Rotation Fields**: Display numerical values for X, Y, Z angles.
+  - **Scale Fields**: Similar to position fields but with different numerical values.
+  - **Texture Field**: A dropdown menu next to a label indicating texture selection.
+  - **Material Roughness Field**: Displays a numerical value.
+  - **Color Field**: Shows a swatch with numerical values for RGB components.
+  
+  ### Visual Flow / Relationships
+  The interface is organized hierarchically with expandable sections. The most prominent elements are the toggle switches under the Behavior section, as they are visually distinct and interactive. The flow moves from general properties to specific attributes, with each section clearly delineated by headers and expandable arrows.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Now, create an overridden property value. Edit the object to change its color. You’ll notice that the color label has a bold treatment, as well as a blue dot next to it to indicate that the value has been overridden. In the overrides panel, you will see a property override on the object showing different values for the previous and current color.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452757156_512500681287888_1648985213895312295_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=3B_mHGtkRyUQ7kNvwE-YU_r&_nc_oc=AdkTzydNSJvJ4_Nlhh0LDIbwNFt87l6lYyi0KVdA5aEX0Cd7ErGv34DjzHVuY0-pUrxfEYpVr00Iti4KJ6BEO4Uc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfktOg7gUwVnchqwUAwKKUZXBY0QPXmj5o1WsUNWUKaGUw&oe=69558061)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/ac6b4b58282880fdedcf474099d171c656a0450232846761609935a63a53fbcc.md)
+  
+  ### Overview
+  This image displays a user interface element showing properties settings for an object or model. It includes fields for adjusting position, rotation, scale, texture, material roughness, and color. The layout is structured with labels and input fields arranged vertically.
+  
+  ### Key Elements
+  - **Position**: Located at the top left, contains X, Y, Z coordinates with input fields.
+      - **Visual description**: Input fields with placeholder text.
+      - **Location**: Top-left corner.
+      - **Contents**: Placeholder text `-0.69`, `0`, `0`.
+      - **Visual styling**: Dark background with white text, black input fields.
+  - **Rotation**: Below Position, similar layout with X, Y, Z coordinates.
+      - **Visual description**: Input fields with placeholder text.
+      - **Location**: Directly below Position.
+      - **Contents**: Placeholder text `0`, `180`, `-0.0C`.
+      - **Visual styling**: Same as Position.
+  - **Scale**: Below Rotation, with X, Y, Z coordinates.
+      - **Visual description**: Input fields with placeholder text.
+      - **Location**: Directly below Rotation.
+      - **Contents**: Placeholder text `1`, `1`, `1`.
+      - **Visual styling**: Same as Position.
+  - **Texture**: Below Scale, with a downward arrow indicating a dropdown menu.
+      - **Visual description**: A small downward arrow next to a label.
+      - **Location**: Below Scale.
+      - **Contents**: Label `Texture`.
+      - **Visual styling**: Dark background with white text, light gray arrow.
+  - **Material Roughness**: Below Texture, with a value field.
+      - **Visual description**: A numeric input field with a value.
+      - **Location**: Below Texture.
+      - **Contents**: Value `0.5`.
+      - **Visual styling**: Light gray background with black text.
+  - **Color**: Below Material Roughness, with a color swatch and numerical values.
+      - **Visual description**: A color swatch with a hex code and three numerical values.
+      - **Location**: Below Material Roughness.
+      - **Contents**: Color swatch with hex code `#8B0000` (dark red), and numerical values `0.20`, `0.03`, `0.10`.
+      - **Visual styling**: Dark red swatch, light gray background for numerical values.
+  
+  ### Visual Flow / Relationships
+  The elements are arranged vertically, with each property having its own label and input field. The layout is linear, moving from top to bottom. There are no arrows or connectors, and the reading order follows the vertical arrangement.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - From the property overrides panel, you can either select specific overrides to apply back to the definition, or apply all overrides. When you apply overrides back to the asset template definition, all instances whose matching properties haven’t been overridden will inherit the changes, and a new draft version of the asset will be created.
-  ![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452591119_512500677954555_6513963071618982978_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=2QsncbiWjfIQ7kNvwHLCc-k&_nc_oc=AdllH9UJJo_ic08_jKX3GYicBRl1DwYp1wF4nLmMhSMQhBnhEm0xJL-XHQnLxSClk_jnGAd9HsXKNcFsG1lQTelc&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_Afl-Doo5x-GhGCaJlZuzGkR0a24za7mlFiD8jvUqKevDbA&oe=6955A0BE)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/73fed3df1147c82b477df155eda6cf5e5972c85fc94e6a14a74dee915e71f14e.md)
+  
+  ### Overview
+  This image depicts a user interface element showing an object hierarchy on the left side and a table on the right side displaying property changes. The left side has a tree-like structure with expandable nodes, while the right side shows a table with columns for component, property, old value, and new value.
+  
+  ### Key Elements
+  - **Left Panel (Object Hierarchy)**:
+    - **Visual description**: A vertical list with expandable nodes.
+    - **Location**: Left side of the image.
+    - **Contents**: Nodes labeled as "asset_template," "Sphere," "Cube," and "Cylinder C."
+    - **Visual styling**: Dark background with light text, blue highlight when expanded or selected.
+  
+  - **Right Panel (Table)**:
+    - **Visual description**: A table with headers for component, property, old value, and new value.
+    - **Location**: Right side of the image.
+    - **Contents**: 
+      - **Row 1**: 
+        - **Component**: Empty checkbox.
+        - **Property**: Attributes.
+        - **Old Value**: `(0.93,0.92,0.93,...)`
+        - **New Value**: `(0.10,0.92,0.93,...)`
+      - **Row 2**: 
+        - **Component**: Empty checkbox.
+        - **Property**: Color.
+        - **Old Value**: `(0.93,0.92,0.93,...)`
+        - **New Value**: `(0.10,0.92,0.93,...)`
+    - **Visual styling**: Dark background with light text, blue highlight for the "Sphere" node.
+  
+  - **Buttons at the Bottom**:
+    - **Revert All Overrides**: Gray button with white text.
+    - **Apply All Overrides**: Blue button with white text.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The "Sphere" node under "asset_template" is highlighted, indicating selection.
+  - **Arrows/Connectors**: None.
+  - **Reading order**: The left panel is read vertically first, then the right panel is read horizontally from left to right.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - It’s also possible to revert overrides. Reverting override values will revert the asset back to the same state as any draft version that exists, or in the absence of a draft version, the current major version of the asset.
   ![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452652316_512500674621222_1012367075903542989_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=0k7qfoopEBEQ7kNvwF9zYjR&_nc_oc=AdkmLLprS52lgZTBAjHtW39qFWYa7up2MsxqoaUln4TvTd0jofMdYwKJ7gFbVjvVogFsFyIzqI3FmYXchZ3160pB&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GIvhmXZkUX_ZP6-4SBWB8A&oh=00_AfmeJd8cAwis9ZjgCQ5TEnzlCOmXPBeLE2SNXL8UHnU2mg&oe=6955827B)
 

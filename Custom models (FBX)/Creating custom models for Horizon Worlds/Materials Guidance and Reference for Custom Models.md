@@ -176,7 +176,32 @@ Transparent materials allow light to pass through. A specular channel is used, w
 
 ### Masked Materials
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452635163_512510161286940_8652445767142113425_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FnRggIdiqhAQ7kNvwHJI84Q&_nc_oc=Adl0yGH2Tq2vkOEHcfUv5KZ3eI-b8fTT2e_QRjM16hadyimWiTjhBRWRS-0vYMPrO0T_b9BrvKlyvKJJzajtWdUn&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_AfkUeyoK7ldwwMFG6MBEySNOrPXL7Rx9hnGOizkzc4KlvA&oe=69556B02)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/6cbd03314f0678e9124134b4f9ed3ea6eb343e31804bf4bb64e91851b6997ed9.md)
+
+### Overview
+The image depicts a vibrant outdoor scene featuring ancient stone ruins partially overgrown with grass and wildflowers. The setting includes two large stone pillars, some broken stone steps, and a small blue object resembling a bowling pin near one pillar. The background showcases lush greenery, trees, and a clear sky with a geometric pattern overlaying the upper part of the image.
+
+### Key Elements
+- **Stone Pillars**: Two large, weathered stone pillars stand prominently in the center. They are light gray with darker gray cracks and bases. They are positioned slightly apart, forming a small archway.
+- **Broken Stone Steps**: Between the pillars, there are several broken stone steps leading up to a higher platform.
+- **Blue Object**: A small, round, blue object resembling a bowling pin is placed on the steps near one of the pillars.
+- **Grass and Wildflowers**: The foreground is covered with green grass and scattered white daisies. The grass is depicted in various shades of green, with some areas appearing lighter and others darker.
+- **Trees**: Large trees with bright green leaves are visible in the background, partially obscuring the sky.
+- **Sky and Geometric Pattern**: The sky is a clear blue with a few clouds. Overlaid on the sky is a geometric pattern consisting of interconnected triangles in a light blue hue.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the stone pillars and the blue object. The blue object is positioned near the base of one pillar, drawing attention to that area. The broken stone steps lead the viewer's eye towards the pillars, creating a sense of depth. The trees in the background provide a sense of scale and frame the scene. The grass and wildflowers add texture and color contrast to the image.
+
+</details>
+
+<p></p>
+
+
 
 Masked materials are used for controlling the mixing of two textures. The material does respond to specular and roughness properties, but is considered fully rough; i.e., roughness = 1. The A channel of the texture drives the alpha, where white is opaque and black is clear. Alpha cutout happens at 0.5 (matching the default for GLTF 2.0 and Unity). Material names in FBX must end in “\_Masked”.
 
@@ -188,11 +213,56 @@ Masked materials are used for controlling the mixing of two textures. The materi
 
 Also supported is a “masked vertex color” material. In this case, the **BaseColor** texture is multiplied with the mesh’s vertex color. Material names in FBX must end in “\_MaskedVXM”.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/539055655_798794379325182_7362778889624657389_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=mEHjK9SWUbsQ7kNvwGUv1VZ&_nc_oc=Adl4JDhUgH3QJDTdse7_7vxIhuthyoQSsvSUP_RY0gUpMBPGrbEZE6WMw2QAyq2kTUGuGElWpfMXNsb2f2IHFRFJ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_Afm6kZJMMulAFxETOJihX-7pcNdUZ9PbOie6scKiNK35Hg&oe=69558FAA)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/3ad49554a44edde797194100924cf5e50bafa8e1f718b92e9559ec13656f31e9.md)
+
+### Overview
+The image depicts a third-person view of a character walking through a field of tall grass and wildflowers. The character is viewed from behind, wearing a black hoodie and dark pants with a knee brace on one leg. The environment is vibrant with various shades of green and yellow, and the scene has a natural, outdoor setting.
+
+### Key Elements
+- **Character**: A figure with short, dark hair, wearing a black hoodie and dark pants with a knee brace. The character is walking away from the viewer.
+- **Grass**: Tall, golden-yellow grass dominates the foreground and background, creating a dense field.
+- **Wildflowers**: Scattered throughout the grass are colorful flowers, including yellow dandelions and purple blooms.
+- **Background**: The horizon line is visible in the distance, suggesting an open landscape beyond the field.
+
+### Visual Flow / Relationships
+The character is the focal point, positioned centrally in the frame. The grass and wildflowers surround the character, creating a sense of immersion in nature. There are no arrows or lines connecting elements, but the natural progression of the grass and flowers guides the viewer's eye through the scene.
+
+</details>
+
+<p></p>
+
+
 
 ### Vertex Color PBR
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452846268_512510174620272_2366064968037736374_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Jxo_OXkh_xkQ7kNvwF3vOJO&_nc_oc=AdneDU8g9-URKR3Q-tFiJVL4wtZbKzo6iIjJSoki3pLDa6ibhrwk6Ywm7LpnaLeFSBtnvdTvF6FiqnlXX6INpfsb&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_Afn0kEF1xFJHsfxw0aYNW5ufDYyjHUx4aFJtzYBbhCPGOw&oe=69559103)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/e7a355d2e70bf051611937578bd9494ac66c2b481ade89a46a7e3b86bb9fee94.md)
+
+### Overview
+The image depicts a simple scene with two swords floating above a desert landscape under a clear blue sky. The composition is minimalistic, focusing on the two swords as the primary subjects.
+
+### Key Elements
+- **Left Sword**: A sword with a red blade and a brown hilt featuring a circular design with a yellow center and radiating lines. The hilt has a metallic sheen.
+- **Right Sword**: A simpler sword with a white blade and a dark green hilt. It lacks any intricate designs compared to the left sword.
+- **Background**: A gradient blue sky transitioning from light to darker blue at the horizon. Below the sky, there is a flat, sandy terrain with gentle undulations.
+
+### Visual Flow / Relationships
+The two swords are positioned symmetrically, one on the left and one on the right. There are no connecting lines or arrows, and the reading order is not implied by the layout.
+
+</details>
+
+<p></p>
+
+
 
 Vertex colors are RGBA values that are applied directly to mesh vertices. They do not contain any textures. You can use vertex color for:
 
@@ -204,7 +274,29 @@ A material name in the FBX must end in “\_VXC”.
 
 ### Vertex Color Single-Texture PBR
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452522576_512510164620273_7391129338506219413_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=AlkLud3OAq4Q7kNvwFc2hPm&_nc_oc=AdlDZ4L6X6JrebuENeV8JV6r6uUkp7CLY1HvO_gITbhiXWK2GERpKfgeZy2M_vW7PxLqd20ZwNp1_jY43g5jEk_M&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_Afl46E1Se_Su_rOmCIKIpI_p4fEpvk_lPPlW7Jq9MmwxGw&oe=69556E62)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/85d1671be38c8461a0ad4100f95cbe4b3f3276f312eff13bba2879c60b879483.md)
+
+### Overview
+The image depicts a scene with a desert-like environment featuring a collection of large, blocky structures resembling futuristic or industrial buildings. The sky is clear blue, and the ground is sandy. There are faint white lines in the sky that could be interpreted as power lines or some form of communication infrastructure.
+
+### Key Elements
+- **Structures**: These are the central elements, appearing as large, rectangular blocks stacked together. They vary in height and width, with some having flat tops and others with more angular designs. The structures are primarily light gray with some darker gray accents, suggesting wear or shadowing.
+- **Ground**: The foreground consists of a flat, sandy surface, light brown in color.
+- **Sky**: The background is a clear blue sky with no clouds. Two faint white lines are visible in the sky, extending diagonally across the image.
+
+### Visual Flow / Relationships
+The structures are scattered across the landscape, with some appearing closer to the viewer than others. There is no clear path or direction suggested by the arrangement of the structures. The sky lines add a sense of depth but do not connect to any specific elements on the ground.
+
+</details>
+
+<p></p>
+
+
 
 Vertex colors are RGBA values that are applied directly to mesh vertices and then multiplied with a texture **BaseColor** as input to both GI and shading. You can use vertex color for:
 
@@ -236,7 +328,51 @@ Material names in FBX must end in “\_VXM”.
 
 ### UI Optimized Materials
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452541679_512510181286938_784385883995309106_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=zD4F9Ie06gMQ7kNvwFiO5UJ&_nc_oc=AdmChM5HIJ-Ljci0mrqwYI1sx5UAztlBaSiC3UkiRgdkcjhL3D7kge1zWqkENQe6KUnbv-OTYuubPv0jDsAhEk4B&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=cbEHMgS33N1W-L46ImsaJg&oh=00_Afk3jwMPXL47VZIzTpubCTu1sHzV1CQ2E3sbvwI3YgJMSg&oe=69559D73)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/0eba16d338f0e208680e6f3313e5df10161658340701f9df94a4fa54a4a991e6.md)
+
+### Overview
+The image displays a scene with a blue sky background and a large, textured object resembling a pillar or column in the center. The object has a fiery, lava-like texture with dark and bright orange hues. There are two identical panels on either side of the central object, each containing text and graphical elements.
+
+### Key Elements
+1. **Left Panel**
+   - **Visual description**: A rectangular panel with rounded corners.
+   - **Location**: Left side of the image.
+   - **Contents**: Contains a title labeled "Text Title," followed by placeholder text "Lorem ipsum dolor sit amet, consectetur adipiscing elit." Below that, there's another line stating "This example texture is 512x256." A pink "Hello" text is present, along with the phrase "Fog text fog" underneath.
+   - **Visual styling**: White background, black text, pink accent for "Hello."
+
+2. **Central Object**
+   - **Visual description**: A large, vertical, textured object resembling a pillar or column.
+   - **Location**: Center of the image.
+   - **Contents**: The object itself is the focal point, featuring a lava-like texture with dark and bright orange tones.
+   - **Visual styling**: No specific text or labels, just the texture.
+
+3. **Right Panel**
+   - **Visual description**: Identical to the left panel but with additional red text "un-optimized" above the title.
+   - **Location**: Right side of the image.
+   - **Contents**: Same as the left panel but includes the red text "un-optimized."
+   - **Visual styling**: White background, black text, pink "Hello," and red "un-optimized."
+
+4. **Additional Elements**
+   - **Visual description**: A small red cube and a sphere are placed within the panels.
+   - **Location**: Below the text in both panels.
+   - **Contents**: The red cube is labeled "A round sphere."
+   - **Visual styling**: Red cube, white background, black text.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central object.
+- **Arrows/lines/connectors**: None.
+- **Spatial relationships**: Panels are symmetrical, with the central object separating them. The red cube and sphere are positioned below the text in each panel.
+
+</details>
+
+<p></p>
+
+
 
 UI Optimized Materials are optimized to provide better quality UI elements (e.g. text, icon) when displayed. These textures are unlit and do not receive or cast lighting or shading.
 

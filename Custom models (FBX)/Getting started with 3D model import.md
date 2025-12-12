@@ -11,7 +11,31 @@ A custom 3D model is composed of multiple files, all of them must be specified w
 
 For example, you need to import five files in order to import this rifle asset:
 
-![Image shows a 3D model of a futuristic rifle](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/469383086_604977648706857_1533817991015737609_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=dOslQ750DsQQ7kNvwHj1Hh8&_nc_oc=Adk-IqoixkGR953_q5FEHXOxsVMxSP_45qWV__HO5ADVAoGJ-PO2xPOKx_pFrKA6Gsw&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=US7YM9PW6EbMMm-z-ljCbg&oh=00_Afm7ivDQ0C0V2Lt2v5l5ptcs8KOxqpLvzFBHwvax0OVsbA&oe=69559BAA)
+<details>
+<summary>Image shows a 3D model of a futuristic rifle</summary>
+
+<p></p>
+
+[Image shows a 3D model of a futuristic rifle](../image_data/175112b7f57806d57c0494c4d58a34b8fe7297245057b474ba00c6da1d002b66.md)
+
+### Overview
+The image depicts a futuristic-looking weapon or device with a sleek, angular design. It has a predominantly metallic finish with some orange accents. The object is set against a simple, light-colored background that resembles a desert landscape.
+
+### Key Elements
+- **Visual description**: The object is a rectangular, elongated shape with a pointed tip at one end and a handle-like grip at the other.
+- **Location**: The object is centrally positioned in the image.
+- **Contents**: The device features a series of buttons, switches, and a scope-like sight at the front. There are also orange highlights on the sides near the handle.
+- **Visual styling**: The metal parts appear to have a brushed texture, while the orange areas have a glossy finish. The overall color scheme includes silver, gray, and orange.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The central rectangular body of the device.
+- **Spatial relationships**: The device is symmetrical, with the handle on one side and the scope on the other. There are no arrows or lines indicating a specific reading order.
+
+</details>
+
+<p></p>
+
+
 
 ## Import a custom model asset
 
@@ -22,21 +46,168 @@ Follow this procedure to import a custom model asset, spawn an object from it, a
 
 - From the Desktop Editor, click the **Asset Library** tab at the bottom of the screen and select **My Assets**.
 
-  ![Click on the Asset Library tab to open the Personal Asset Library](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/463982802_573870205150935_1936916611175683589_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=48oh-NpMsq4Q7kNvwGmYSkc&_nc_oc=AdntdL1RFaGEuGR9q8lgyiGaJW38Of6AbqVuRlcCVljC1uu4LqrXOyCIikGu2GHPmwI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=US7YM9PW6EbMMm-z-ljCbg&oh=00_Afml9iEqELg8HaFmaKraDeX9g4oCkgHwXZKUVuXDgTIvWA&oe=695575A2)
+  <details>
+  <summary>Click on the Asset Library tab to open the Personal Asset Library</summary>
+  
+  <p></p>
+  
+  [Click on the Asset Library tab to open the Personal Asset Library](../image_data/0af824844c675e7a046fb18756a3cd1c1e8225f501e7ae760bf54aa45a6bca70.md)
+  
+  ### Overview
+  This image depicts a user interface for managing assets, likely within a digital asset management system. The layout includes a sidebar with navigation options and a central area displaying a message indicating that no assets are currently available in the selected folder.
+  
+  ### Key Elements
+  - **Sidebar Navigation**:
+    - **Visual description**: A vertical menu with expandable sections.
+    - **Location**: Left side of the image.
+    - **Contents**: 
+      - "Add New" button with a dropdown arrow.
+      - "All Assets" section with a downward arrow indicating expandable content.
+        - Subsections include "My Folders," "Shared With Me," and "Removed Assets."
+    - **Visual styling**: Dark background with light text and icons.
+  
+  - **Central Message Area**:
+    - **Visual description**: A placeholder message displayed in the main content area.
+    - **Location**: Right side of the image.
+    - **Contents**: "There are no assets in this folder yet."
+    - **Visual styling**: Light text on a dark background.
+  
+  - **Search Bar**:
+    - **Visual description**: A search bar at the top right.
+    - **Location**: Top right corner.
+    - **Contents**: Placeholder text "Search My Assets."
+    - **Visual styling**: Dark background with white text.
+  
+  - **Folder Icon**:
+    - **Visual description**: An icon resembling a folder with a document inside.
+    - **Location**: Next to the "My Assets" label in the sidebar.
+    - **Contents**: "My Assets" label.
+    - **Visual styling**: Gray icon on a dark background.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The "My Assets" folder in the sidebar.
+  - **Arrows and lines**: Downward arrows next to "All Assets" and "My Folders" indicate expandable sections.
+  - **Implied reading order**: The user would typically navigate through the sidebar first before interacting with the central message area.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Add a new asset by clicking **Add New**, and select **3D Model** from the menu.
 
-  ![The Import Models dialog box appears](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/469364005_604977652040190_8339871927361378787_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=Nm979I3lCPMQ7kNvwG8yR_8&_nc_oc=AdkPrH96u3OHRTjlFv46hD9MEgFVud0VcUOc1NKJhuBI-jDtdhn5i4YPGG2BjMs5sGM&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=US7YM9PW6EbMMm-z-ljCbg&oh=00_Afnda5msC_P4wFwUYMDaRJU27DVF_ExLiVlqaqHE8qtH6A&oe=695583EA)
+  <details>
+  <summary>The Import Models dialog box appears</summary>
+  
+  <p></p>
+  
+  [The Import Models dialog box appears](../image_data/2514ffc9f3067c82d411e2ea760412338fb698532b399f122f2ee99b8bcc9550.md)
+  
+  ### Overview
+  This image depicts a user interface dialog box titled "Import Model(s)" with instructions and options related to importing 3D models into a software application. The dialog includes a warning message, file selection button, and a toggle option for offset pivots.
+  
+  ### Key Elements
+  - **Title**: "Import Model(s)" located at the top-left corner.
+  - **Warning Message**: A yellow-highlighted box containing a warning about the offset pivots feature being supported only on single mesh FBX files.
+  - **File Selection Button**: A blue button labeled "Choose files on your device" situated below the warning message.
+  - **Offset Pivots Toggle**: A toggle switch labeled "Preserve offset pivots" with a description underneath explaining its function.
+  - **Buttons**: Two buttons at the bottom, "Cancel" and "Import," with the "Import" button highlighted in blue.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the warning message and the file selection button. The warning message is enclosed in a yellow box, drawing attention to the potential issue. The file selection button is centrally located below the warning message. The toggle switch for offset pivots is positioned below the warning message as well. The "Cancel" and "Import" buttons are at the bottom, with the "Import" button being larger and more prominent than the "Cancel" button.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Select the asset files to import by clicking **+ Choose files on your device** on the dialog window that appears.
 - In the file picker window, select the 3D model file and associated texture files; click **Open**.
 
-  ![Select the five asset files](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/464310803_573870025150953_4833471769077242766_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=fCO1vN64CbgQ7kNvwFC3xMB&_nc_oc=Admyl4UqkiE8mpinhiInzC3spPQKkhfa36zA8bmrZM3JDcGHs5k6kjoJqvEINpzhJBE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=US7YM9PW6EbMMm-z-ljCbg&oh=00_AfmBi1tiG8W_24O8Id1JB_VUJtLPpBM-xtogqKtfmsfzqQ&oe=695581E8)
+  <details>
+  <summary>Select the five asset files</summary>
+  
+  <p></p>
+  
+  [Select the five asset files](../image_data/38df716c5d24f9e50a6b0d565b757d0752ae78b27d61c623598c6b1d227644d6.md)
+  
+  ### Overview
+  This image depicts a file selection dialog box within a file explorer interface. The dialog box contains a list of files and folders, with options to open or cancel the action. The interface includes navigation buttons, a search bar, and a list of files categorized by name, type, and size.
+  
+  ### Key Elements
+  - **Navigation Buttons**: Located at the top-left corner, showing "Desktop" as the current directory.
+  - **File List**: Positioned centrally, displaying a list of files and folders with their names, types, and sizes.
+      - **Visual description**: Each entry has a thumbnail icon, file name, type, and size.
+      - **Contents**: Examples include "ACWpnBattleRifle.fbx" (3D Object, 284 KB), "SingleBlockBR.png" (PNG File, 33 KB), etc.
+      - **Visual styling**: Icons are small and located to the left of the file name. The background is white, and the text is black.
+  - **Search Bar**: At the top-right, with placeholder text "Search DemoAssets".
+  - **Open/Cancel Buttons**: Located at the bottom-right, with "Open" highlighted in blue and "Cancel" in gray.
+  - **Directory Path**: At the top-left, showing the path "Desktop > DemoAssets".
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The file list is the most prominent due to its size and central placement.
+  - **Arrows/Connectors**: Navigation arrows are present but static, indicating the current directory.
+  - **Reading Order**: The interface follows a standard left-to-right, top-to-bottom reading order, starting with the directory path, then the search bar, followed by the file list, and finally the action buttons.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - In the dialog box, click **Import**. The following asset icon appears in your **My Assets** folder when the process is complete.
 
-  ![This is what the rifle asset looks like after you import it](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/464292127_573870045150951_3415127998518177098_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=LrDNCXuB6vYQ7kNvwEkGg84&_nc_oc=AdkiQX5y6OUBWuUFAdxBdE5SEvbHTm2tvKMehl9l7w_qcLmUq32Iywgv5uVeuxo0o1k&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=US7YM9PW6EbMMm-z-ljCbg&oh=00_AfmExBt-jG7Ges3xLHz-4Q4DVbnfaakL_7cqgtiuVG6wnQ&oe=69559B43)
+  <details>
+  <summary>This is what the rifle asset looks like after you import it</summary>
+  
+  <p></p>
+  
+  [This is what the rifle asset looks like after you import it](../image_data/ef9375afae1cc7e22fb7e08d0b75c4b5176850a81746c7bc5279bea9b6ed942c.md)
+  
+  ### Overview
+  This image depicts a small, rectangular icon or button with rounded corners. It has a light gray background with a darker gray accent at the bottom right corner, suggesting a three-dimensional effect. The icon itself is a stylized, geometric shape resembling a triangle or arrow pointing upwards.
+  
+  ### Key Elements
+  - **Visual description**: The icon is a simple geometric shape with a gradient effect.
+  - **Location**: Positioned centrally within the icon.
+  - **Contents**: The icon contains a white triangle pointing upwards.
+  - **Visual styling**: The icon has a light gray background with a darker gray accent at the bottom right corner.
+  
+  ### Visual Flow / Relationships
+  The icon is the most prominent visual element, and there are no arrows, lines, or connectors present. The icon is the sole focus of the image, with no additional elements to interact with or relate to.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 Spawn an instance of the asset by clicking on the icon for the asset, dragging it into the scene, and dropping it anywhere in the scene. A rifle object appears in the scene, and in the hierarchy.
 
-![The rifle floats over the pedestal](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/475232756_641654861705802_4132254507512158168_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=GVaOZurCQIgQ7kNvwFu__3n&_nc_oc=AdlBPiwTUganBYl7kVDVDU9LraEWrw5p1jcRAQSQJi6OMvvORCu9kKs2ukQCn-7HpSM&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=US7YM9PW6EbMMm-z-ljCbg&oh=00_Afmu9W7eExWSlH8aC6btBumId6PvfrXdaCCtZfBSyCrXGg&oe=69558557)
+<details>
+<summary>The rifle floats over the pedestal</summary>
+
+<p></p>
+
+[The rifle floats over the pedestal](../image_data/f81411e3fcff5c6069f6c7cc4850f247308b590ba297f83bb0b6ab592649c648.md)
+
+### Overview
+The image depicts a 3D-rendered scene featuring a gun placed on a purple cube floating above a textured surface resembling water. The overall composition is simple, with a focus on the gun and the cube.
+
+### Key Elements
+- **Visual description**: The gun is a stylized, futuristic-looking weapon with a sleek design, featuring glowing blue accents.
+- **Location**: The gun is positioned on the top of the purple cube.
+- **Contents**: The gun has a rectangular body with a handle and a barrel, and there are glowing blue lights near the front sight.
+- **Visual styling**: The gun has a metallic finish with blue highlights, and the cube is a solid purple with some wear and tear visible on its surface.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The gun is the focal point due to its size and glowing elements.
+- **Spatial relationships**: The gun is centered on the cube, which is floating above the water-like surface. There are no arrows or lines connecting elements, and the reading order is straightforward, moving from the background to the foreground.
+
+</details>
+
+<p></p>
+
+
 
 ## Custom model workflows
 
