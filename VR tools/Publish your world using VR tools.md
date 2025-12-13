@@ -10,7 +10,38 @@ In order to publish a world, you’ll need to provide pertinent information such
 - Open the Creator Menu.
 - Tap the **Publish** icon in the dock.
 - Enter your information into the **Publish World** window, including:
-  ![Screenshot shows the desktop editor window](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/464911860_578674298003859_6982466518147434724_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=0zOh2uGhzxsQ7kNvwGlLj_I&_nc_oc=AdnLksP7tFtJiLdqpTHgnulp8f5C-LIj35tr5FH2-Y0U5sHsNLVwzHrL3xDz1kCnL4pwlwiAnagqBssSuKK09ZRE&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=r0BJxLPSMnJJYp-ZBd7qiw&oh=00_AfkVTRa_O70mW1hyH02Hp57kUcLy7fL1vRQ_2K77XMqPAA&oe=69556BF6)
+  <details>
+  <summary>Screenshot shows the desktop editor window</summary>
+  
+  <p></p>
+  
+  [Screenshot shows the desktop editor window](../image_data/50fcaf128f39ef3722746d89c4c4ecc736b8dc0169a1d97a1cc885aae7507ce3.md)
+  
+  ### Overview
+  This image depicts a user interface for creating or editing a world, likely within a platform that allows users to create virtual worlds or communities. The layout is structured with various input fields and toggle switches for different settings.
+  
+  ### Key Elements
+  - **World Name**: Located at the top left, labeled "Name," with the input field containing the text "Vera's Book Club."
+  - **Description**: Below the name field, labeled "Description," with an input field marked "Input."
+  - **World Rating**: Positioned below the description field, with a placeholder "Not Rated" next to a dropdown menu.
+  - **Comfort Rating**: Below the world rating, with a dropdown menu labeled "Not Rated."
+  - **Tags**: A section with a label "Tags" and a dropdown menu indicated by a downward arrow.
+  - **Mute Assist**: A toggle switch labeled "On" with a purple circle indicating it is active.
+  - **Visible to Public**: A toggle switch labeled "Visible to Public" with a white circle indicating it is active.
+  - **Members-Only**: A toggle switch labeled "Members-Only" with a gray circle indicating it is inactive.
+  - **Beta**: A toggle switch labeled "Beta" with a gray circle indicating it is inactive.
+  - **Publish Now**: At the top right, with a timestamp showing the last publication date and time.
+  - **Thumbnail Image**: Below the publish information, with a placeholder image featuring abstract shapes in purple and blue tones.
+  - **Choose**: Next to the thumbnail image, with a dropdown menu labeled "Choose."
+  
+  ### Visual Flow / Relationships
+  The interface is organized into two main columns. The left column contains input fields and dropdown menus, while the right column displays a thumbnail image and toggle switches. The toggle switches are visually distinct due to their color coding, with active states highlighted in purple and inactive states in gray. The layout suggests a linear progression from inputting basic world details to configuring visibility and access settings.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - **Name:** Enter a name for your world.
 - **Description:** Provide a short, punchy description of what makes your world special.
 - **World Rating:** Click on the ‘Get rating’ button to take a survey to determine your world rating. For more information on world ratings, [click here.](../MHCP%20program/FAQ/World%20Ratings%20FAQs.md)

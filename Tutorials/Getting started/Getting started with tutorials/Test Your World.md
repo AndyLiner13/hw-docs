@@ -12,7 +12,31 @@ When you are building in the desktop editor, you can immediately preview the res
 
 At the top of the application, you should see the following toolbar:
 
-![Previewing Toolbar](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486000668_681803094357645_1545901750511085235_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=987pLJyOFqoQ7kNvwEPfIVe&_nc_oc=AdknViPpQcZ3FX9phaxFae_GEtR4tI4PCIokDiOPWFp-fAYSzBxNG_eZ5NDzpYBNXnE&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jBKKs0CUzmKbfGrQXjl-OQ&oh=00_Afn5CiuAdkCL4j7LhNeqNoGKFmE9mxKknEf4et9pOdgasw&oe=6955A0C6)
+<details>
+<summary>Previewing Toolbar</summary>
+
+<p></p>
+
+[Previewing Toolbar](../../../image_data/9fff9a6f0ca769b8d418cef4cfafee2875a060b2f4afde68eb2382e007542546.md)
+
+### Overview
+This image displays a user interface segment with various interactive elements arranged horizontally against a dark background. The layout includes a series of buttons and a toggle switch.
+
+### Key Elements
+- **Play Button**: Located on the far left, it is a rounded rectangle with a white play icon inside a white triangle pointing right.
+- **Square Button**: Positioned next to the play button, it is a small square with a white fill.
+- **Menu Button**: Situated to the right of the square button, it is a rounded rectangle with vertical dots indicating a menu.
+- **Toggle Switch**: On the far right, it has a green checkmark on the left side, followed by a globe icon, the text "World Sim Off," and a circular arrow icon on the right side.
+- **Background**: The entire area is a dark grayish-blue.
+
+### Visual Flow / Relationships
+The elements are arranged horizontally from left to right. The play button, square button, and menu button are grouped together on the left side. The toggle switch is positioned on the right side, creating a clear visual separation between the two groups. There are no connecting lines or arrows, suggesting a linear reading order moving from left to right.
+
+</details>
+
+<p></p>
+
+
 
 #### Playback tools
 
@@ -46,7 +70,36 @@ For more information, see [Preview Mode](../../../Desktop%20editor/Get%20started
 
 In TypeScript, you can push messages through code to the Console log in the desktop editor.
 
-![Console logging](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452813677_512535131284443_5372359272148648923_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=xBIARnKpPPYQ7kNvwGGO-l1&_nc_oc=AdkwHIjAP0quTOQ9I3hTsDZauLTXT29HNY8j_XVEpBmFBtSdWPW8ss7Z8eG13lcZAks&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=jBKKs0CUzmKbfGrQXjl-OQ&oh=00_Afl7Bgakk9vt7dyKxQEECCdWFQDOFKAwg2Jruhy9l1TWUw&oe=6955775F)
+<details>
+<summary>Console logging</summary>
+
+<p></p>
+
+[Console logging](../../../image_data/5fa425da8a79d6011bffa041c924d6a7e6bfee1f6d97cc0272c83c3851ca9935.md)
+
+### Overview
+This image depicts a console interface within a software application, likely related to game development or asset management. The interface includes a message log and some status indicators at the top.
+
+### Key Elements
+- **Top Bar**: Located at the very top, spans the width of the interface. Contains tabs labeled "Assets" and "Console," with the "Console" tab currently active.
+- **Status Indicators**: Positioned just below the top bar, showing three icons with numbers next to them:
+  - **Info Icon**: Displays "i 4" indicating four informational messages.
+  - **Warning Icon**: Displays "⚠️ 0" indicating zero warnings.
+  - **Error Icon**: Displays "❌ 0" indicating zero errors.
+- **Clear Button**: A button labeled "Clear" is located to the left of the status indicators.
+- **Message Log**: Below the status indicators, there is a log of messages with timestamps and icons:
+  - **Info Icon**: Used for informational messages.
+  - **Timestamps**: Each message has a timestamp next to it, e.g., "12:52:09."
+  - **Message Content**: Messages include actions such as "deleted player: SteveONo..." and "added player: SteveONo..."
+
+### Visual Flow / Relationships
+The most prominent visual elements are the messages in the log, which are arranged vertically. The status indicators are positioned horizontally above the message log. The clear button is aligned to the left of the status indicators. The messages are read from top to bottom, with the most recent messages appearing at the bottom.
+
+</details>
+
+<p></p>
+
+
 
 #### Example:
 
@@ -105,7 +158,36 @@ In the VR headset, you can enable a set of runtime utilities in your wrist.
 
 The Utilities menu is now available in your avatar’s wrist when you are in VR.
 
-![Utilities menu](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452632980_512535207951102_6453613817001339111_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=RAriAagTlMAQ7kNvwEM9k4J&_nc_oc=Adl0ys8I3J2ITIG9CL5z_20-PUBPSTgaKRdYSUp-K1nmfc_fcIoTxkrO7S3REx9ibRQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jBKKs0CUzmKbfGrQXjl-OQ&oh=00_AfmfkXfLeO5tyVftuC8qgUW8WZwHc8diFmyLzDG6b9q3Dw&oe=69559878)
+<details>
+<summary>Utilities menu</summary>
+
+<p></p>
+
+[Utilities menu](../../../image_data/88baeb1c4e6ac53375d2a13fabff0bb22a0cfacfdfc23584a7d5351d2d78b9b0.md)
+
+### Overview
+The image depicts a first-person view within a virtual environment, likely a game or simulation. The foreground shows a hand holding a device with a menu interface, while the background features a wooden structure resembling a house or shed. The scene is outdoors, with green grass and trees visible in the distance under a clear blue sky.
+
+### Key Elements
+- **Hand and Device**: A hand is holding a device with a circular interface. The device has a white background with rounded edges and displays text and icons.
+  - **Text**: "Utilities," "Tracing," "HUD Metrics," "Collision."
+  - **Icons**: A shield icon, a camera icon, and a microphone icon appear below the text.
+  - **Colors**: White background, blue gradient at the bottom, black icons.
+- **Background Structure**: A wooden structure with a door and a small balcony is visible.
+  - **Details**: The structure has a light brown wood texture, a dark brown door, and a small window.
+- **Foreground**: The ground is green, suggesting grass.
+- **Sky and Trees**: The sky is a clear blue, and there are green trees in the distance.
+
+### Visual Flow / Relationships
+- **Most Prominent**: The hand and device are the focal point, drawing attention to the utility menu.
+- **Arrows/Connectors**: None.
+- **Spatial Relationships**: The hand and device are in the foreground, the wooden structure is in the mid-ground, and the sky and trees form the background.
+
+</details>
+
+<p></p>
+
+
 
 ### Open Your World
 

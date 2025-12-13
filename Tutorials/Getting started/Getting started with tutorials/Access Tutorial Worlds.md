@@ -15,7 +15,32 @@ Please complete the following steps to create a copy of a tutorial.
 - Select the development environment where you wish to create your tutorial.
 - In the Creation Home screen, click the **Tutorials option** in the left nav bar.
 - Select the world of interest.
-  ![Select World](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486646646_681803097690978_4056229082749550078_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=v4WQ26TFadIQ7kNvwFQ1pqL&_nc_oc=Adk5Qm3J1LYwJDHDhrsNaEp1VIPxSLVgfPh_VxbN3F7sCrLyEpkw0sy1R7TM8V90TrMJDdsv-3XzpVxGWeUPIMNk&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=m4udJpL7h1zA6jsZHCOdVg&oh=00_AfkgxU60BG8ARNHGvRu7PsHLaufSgEVQSZfjqIZ9hyxlLA&oe=69558B8F)
+  <details>
+  <summary>Select World</summary>
+  
+  <p></p>
+  
+  [Select World](../../../image_data/4ed137f2b00913630e96538a6a5ec82a8782451cae416a68e99df59768b4240b.md)
+  
+  ### Overview
+  The image displays a user interface for a platform called "Creation Home," specifically within the "Tutorials" section. It showcases a grid layout of tutorial cards, each representing a different topic related to game development and programming. The interface has a dark theme with colorful highlights on the tutorials.
+  
+  ### Key Elements
+  - **Left Sidebar**: Contains navigation options such as "Home," "My worlds," "Tutorials," and "Documentation." The "Tutorials" option is highlighted in blue, indicating the current selection.
+  - **Header**: Displays the title "Creation Home" at the top left. On the right side, there are icons for notifications and a search bar, along with a button labeled "New world."
+  - **Tutorials Grid**: A grid of six tutorial cards, each with a title and a brief description. The titles include topics like "Intro to Desktop Editor & Typescript," "Custom UI Examples," "Simple Shooting Mechanics," "Spawning and Pooling in TypeScript," "Typescript Multiplayer Lobby Controls," and "Developing for Mobile and Web Players."
+  - **Background**: The main background is dark gray, with each tutorial card having a lighter gray background.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The tutorials grid is the most prominent feature, as it occupies the central area of the screen.
+  - **Arrows/Connectors**: There are no arrows or connectors visible in the image.
+  - **Spatial Relationships**: The tutorials are arranged in a 2x3 grid, with each card having its own distinct title and description. The sidebar and header are positioned at the top left and top right corners, respectively.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - The companion documentation for the world is opened for you.
 - A copy of the world is created, with you as the owner.
 
@@ -23,7 +48,39 @@ Please complete the following steps to create a copy of a tutorial.
 
 - Go to the Create menu in your headset and click the **Tutorials tab**.
 - Select the world of interest and click **Start**.
-  ![Tutorial Worlds](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908913_512500614621228_5666679600029672920_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=s1cPfDMrFgMQ7kNvwE0IALg&_nc_oc=AdnbvR503y0ewweM-_6RiFyL1lBwLulEvb9xtxiKiqXyv1xqORqLMPtUMm3iLS42DNoHFWcQu4fvlJp85CF_gpGi&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=m4udJpL7h1zA6jsZHCOdVg&oh=00_AflXvT9GRXdb71lQtWtj8GXaQ7LnN_jEw_leLQBwn_UBdQ&oe=695582F2)
+  <details>
+  <summary>Tutorial Worlds</summary>
+  
+  <p></p>
+  
+  [Tutorial Worlds](../../../image_data/f32d7c16c3bbedc154b7e077404335d238c4629c76b19647d36cc1c979673e64.md)
+  
+  ### Overview
+  The image depicts a user interface element within a virtual environment, likely a tutorial or learning platform. It features a central panel labeled "Create" with tabs for "Creations," "Tutorials," and "Invites." Below the tabs, there are several tutorials listed with small preview images and titles. The interface includes various interactive elements such as icons and buttons at the bottom.
+  
+  ### Key Elements
+  - **Central Panel**: A large rectangular area with rounded corners, containing the "Create" title and tabs.
+    - **Tabs**: Three tabs labeled "Creations," "Tutorials," and "Invites."
+    - **Tutorials Section**: Contains four tutorials with small images and titles.
+      - **Intro to Desktop Editor & Typescript**
+      - **Developing for Mobile and Web Players: Follow Along Tutorial**
+      - **Developing for Mobile and Web Players: Completed Examples**
+      - **Spawning and Pooling in Typescript**
+    - **Icons and Buttons**: Located at the bottom of the panel, including a profile icon, settings gear, notification bell, location pin, favorites star, group icon, and a circular icon with a blue light effect.
+  
+  - **Top Bar**: Contains icons for search, bookmark, camera, and close functions.
+  - **Background**: A blurred virtual environment with a sky and buildings.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The central panel with tutorials.
+  - **Arrows/Connectors**: None visible.
+  - **Spatial Relationships**: The tutorials are arranged horizontally, with each having its own small image and title. The icons at the bottom are aligned horizontally beneath the tutorials.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ## Rename world
 

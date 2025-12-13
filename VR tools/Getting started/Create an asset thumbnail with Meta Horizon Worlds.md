@@ -6,8 +6,65 @@ In Meta Horizon Worlds, you can create custom assets and save them to your libra
 
 ## Create a thumbnail during asset creation
 
-- Navigate to asset creation from the property panel or build menu. ![VR screenshot of the New asset menu with information filled in for all fields for a Bouncy Boxes asset, except Thumbnail.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/454377856_520901737114449_8204526596315498700_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=IteaRruvogUQ7kNvwEPlaXV&_nc_oc=Adnx3iPKyOxM9BpYaCFcnFTCfjCm-5xzCunjSXX_weOsJ38lNlay8hojM3eomAgUUh6emvkg1zLKVUvyxi7Uy9b6&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_bLREgc1W-mBv0auBcuqEA&oh=00_Afm8zRPZEhDc8nEYVgO_DSPej-vDQJaADs8MG-1LXIex8Q&oe=6955911A)
-- Select **Choose** for Thumbnail and select **Take Photo**. ![VR screenshot of the New asset menu with Thumbnail > Take Photo selected.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/454285368_520901743781115_6385176096874566915_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=v-VTwsM7WV4Q7kNvwEwm8pS&_nc_oc=Adn2dOyMaI_iKid3luQrAh7Ro-DaqeHSscIePfzP4BMKDN9Z8slw_oacVLsOOHFKovOM3Z8wPV00D7QIbfJKdCUW&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_bLREgc1W-mBv0auBcuqEA&oh=00_AfnPYqd1vo3HMsKxOQ7HEcOARXRyDbl1UZIzJMeHqR-D1g&oe=6955941C)
+- Navigate to asset creation from the property panel or build menu. <details>
+                                                                    <summary>VR screenshot of the New asset menu with information filled in for all fields for a Bouncy Boxes asset, except Thumbnail.</summary>
+                                                                    
+                                                                    <p></p>
+                                                                    
+                                                                    [VR screenshot of the New asset menu with information filled in for all fields for a Bouncy Boxes asset, except Thumbnail.](../../image_data/fb525421371d67e95c4cf708d67cb1d7f316f8356ef71e38a8184ad6432a9637.md)
+                                                                    
+                                                                    ### Overview
+                                                                    This image depicts a user interface element within a software application, specifically a modal window titled "New asset." The modal is centered over a darker background that appears to be part of a larger application interface, which includes panels on the left side labeled "Build," "Animals," and others. The modal contains fields for entering a name, description, selecting a folder, choosing a thumbnail, and object selection options.
+                                                                    
+                                                                    ### Key Elements
+                                                                    - **Modal Window**: A dark rectangular box with rounded corners, positioned centrally over the background panels.
+                                                                      - **Title**: "New asset"
+                                                                      - **Name Field**: Contains the text "Bouncy Boxes" with a character limit indicator "0/40" next to it.
+                                                                      - **Description Field**: Displays a partial description starting with "The boxes bounce when you drop them on the floor. The animation curves..."
+                                                                      - **Folder Selection**: A dropdown menu set to "My Assets."
+                                                                      - **Thumbnail Section**: Includes a "Choose" button.
+                                                                      - **Object Selection**: A section with a "Change" button and a note explaining the functionality of changing object selection.
+                                                                      - **Buttons**: Two buttons at the bottom, "Cancel" and "Create," with the "Create" button highlighted in purple.
+                                                                    - **Background Panels**: Dark panels on the left side with categories such as "Build," "Animals," "Shapes," "Gizmos," "Sounds," "Assets," "My Assets," "Gameplay," "Attachables," "Nature," and "Furniture."
+                                                                    - **Back Button**: A circular button with a left-pointing arrow located at the top-left corner of the modal window.
+                                                                    
+                                                                    ### Visual Flow / Relationships
+                                                                    The most prominent visual element is the modal window itself, which is the focal point of the image. The back button is secondary but still noticeable due to its distinct shape and color. The background panels provide context and are slightly blurred compared to the modal window, indicating they are secondary elements. The layout suggests a hierarchical structure where the modal window is the primary action area, followed by the background panels offering additional navigation options.
+                                                                    
+                                                                    </details>
+                                                                    
+                                                                    <p></p>
+                                                                    
+                                                                    
+- Select **Choose** for Thumbnail and select **Take Photo**. <details>
+                                                             <summary>VR screenshot of the New asset menu with Thumbnail > Take Photo selected.</summary>
+                                                             
+                                                             <p></p>
+                                                             
+                                                             [VR screenshot of the New asset menu with Thumbnail > Take Photo selected.](../../image_data/067d435a1a4ee0981e90b05f529219c7f84c7966b665dce8d89e69a05f7775cd.md)
+                                                             
+                                                             ### Overview
+                                                             The image depicts a user interface element within a software application, specifically a modal window titled "New asset." The window contains fields for entering a name, description, folder selection, thumbnail upload, and object selection options. There are also buttons for canceling or creating the asset. The background shows a blurred view of the application's main interface, which includes categories like "Build," "Animals," and "My Assets."
+                                                             
+                                                             ### Key Elements
+                                                             - **Modal Window Title**: "New asset"
+                                                             - **Name Field**: Contains the text "Bouncy Boxes" with a counter indicating 0/40 characters remaining.
+                                                             - **Description Text Area**: Displays placeholder text explaining that the boxes bounce when dropped on the floor.
+                                                             - **Folder Dropdown**: Set to "My Assets."
+                                                             - **Thumbnail Section**: Includes a "Choose" button next to a placeholder for a thumbnail image.
+                                                             - **Object Selection**: An optional section allowing users to change the objects making up the asset.
+                                                             - **Buttons**: Two buttons labeled "Cancel" and "Create."
+                                                             - **Thumbnail Upload Options**: Two buttons labeled "Take photo" and "Select from your photos."
+                                                             - **Background Interface**: Shows categories like "Build," "Animals," and "My Assets" with icons and text descriptions.
+                                                             
+                                                             ### Visual Flow / Relationships
+                                                             The most prominent visual element is the "New asset" modal window. The flow is linear, starting with the name field, followed by the description area, then the folder selection, thumbnail upload, object selection, and finally the buttons for canceling or creating the asset. The thumbnail upload options are positioned below the main modal content.
+                                                             
+                                                             </details>
+                                                             
+                                                             <p></p>
+                                                             
+                                                             
 - You will see an instruction modal with the following information:
 
   * Move the asset to a clear area
@@ -15,15 +72,126 @@ In Meta Horizon Worlds, you can create custom assets and save them to your libra
   * Press the right trigger button on your controller
   * The thumbnail will appear in Asset Details page
 
-  ![VR screenshot showning instructions on how to take a photo.](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/454284586_520901730447783_6217509005737253397_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=T0rw_WXZ34UQ7kNvwG96J1K&_nc_oc=AdlG3sm6uLTmMKzwsPXdcUsIiT4JUW0ek90-xcR7zky-kmLC5s3Gs3UQvpBM8rEdrHi62UwhTjq-mWgUYavO97po&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_bLREgc1W-mBv0auBcuqEA&oh=00_AfkwZFpBtpKp5eAeKVhwXUczeRFVgBHSwvG9TpuSx8-S4Q&oe=69559F1D)
+  <details>
+  <summary>VR screenshot showning instructions on how to take a photo.</summary>
+  
+  <p></p>
+  
+  [VR screenshot showning instructions on how to take a photo.](../../image_data/6bbd3f383ff1c81a46a5d336b77ad70c268c14e9088a6973b01ce57f02a8bec4.md)
+  
+  ### Overview
+  The image depicts a user interface (UI) screen, likely from a game development or asset management tool. The screen includes a sidebar menu on the left, a central content area displaying a thumbnail instruction, and a footer with various icons. The background features a gradient sky transitioning from light blue to yellow, suggesting a sunset or sunrise scene.
+  
+  ### Key Elements
+  - **Sidebar Menu (Left Panel)**: Located on the left side of the screen, it has a dark background with white text and icons. The menu items include "Build," "Shapes," "Gizmos," "Sounds," "Assets," "My Assets," "Gameplay," "Attachables," "Nature," and "Furniture." Each item has a corresponding icon next to the text.
+  - **Central Content Area**: Positioned centrally, this area displays a thumbnail image of a hand holding a controller, with an arrow pointing towards it. Below the image, there is a title that reads "How to Take a Thumbnail" followed by four steps listed as numbered points.
+  - **Footer Icons**: At the bottom of the screen, there are several icons arranged horizontally. These include a cube, a globe, a shopping bag, a wrench, a code snippet, and a gear.
+  - **Background**: The background is a gradient sky with a horizon line, giving a sense of a virtual environment.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The central content area with the thumbnail image and instructions.
+  - **Arrows and Lines**: There are no explicit arrows or lines connecting elements.
+  - **Spatial Relationships**: The sidebar menu is on the left, the central content area is in the middle, and the footer icons are at the bottom. The thumbnail image within the central content area is the focal point.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - You will see a dashed box in your view. Ensure your asset is in the view and press the right trigger button on your controller.
 
   **Note**: Don’t worry about the panels in the view. They won’t be included in the thumbnail image.
 
-  ![VR screenshot showing a low-poly polar bear in focus.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/454642476_520901733781116_8987735862440914752_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=pjAZjIz6Fw4Q7kNvwHA_3R1&_nc_oc=Adn28vRiF4cc0PhkUEJ2yL-zpv5BcfnWwY3lyN6c4ta1S8HnMo2XX0s-LQpkAaIsyPW-wH_iQIUECB2t3-gkC-oQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_bLREgc1W-mBv0auBcuqEA&oh=00_AfnpWAr8lf_0YuwrIGIaVxytDmuGesbCeZEzZSep4HD7-Q&oe=69557312)
+  <details>
+  <summary>VR screenshot showing a low-poly polar bear in focus.</summary>
+  
+  <p></p>
+  
+  [VR screenshot showing a low-poly polar bear in focus.](../../image_data/3d3056e1c4babb69d263b8a4b651887f558faef2f1a73ad887321c8a61796c4a.md)
+  
+  ### Overview
+  The image depicts a 3D modeling environment with a low-poly animal model, likely a bear, in the center. To the left, there is a sidebar with a thumbnail image and some text. The background features a gradient sky transitioning from orange to yellow, suggesting a sunset or sunrise scene.
+  
+  ### Key Elements
+  - **Low-poly Bear Model**: A white, geometric bear model with a low-poly design. It is positioned centrally in the foreground.
+  - **Sidebar**: Located on the left side of the image. Contains a thumbnail image of a deer and some text.
+    - **Thumbnail Image**: A small image of a deer with a gradient background of blue and purple.
+    - **Text**: Includes phrases like "Your field of view," "Your controller," and "Details page."
+  - **Gradient Sky**: A large area in the background with a gradient effect, transitioning from orange at the top to yellow at the bottom.
+  - **Grid Floor**: A light gray grid pattern covers the floor beneath the bear model.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The low-poly bear model.
+  - **Arrows/Connectors**: None visible.
+  - **Spatial Relationships**: The bear model is in the foreground, the sidebar is to the left, and the gradient sky forms the backdrop.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Check if the thumbnail image you just took looks good. If so, click **Looks Good**. If not, you can retake it by clicking **Take Again**.
 
-  ![VR screenshot showing the approve thumbnail dialog with "Looks Good" selected.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/454319429_520901747114448_1343689990525403785_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=FRD7MVoVBvsQ7kNvwHgf3iD&_nc_oc=AdkNFqP7EhJRiGWHiqr2rTxGx75_UKn6FZsN9BcKfwn9GNnyYaAX01bCkGVOA6wTLDPXqK3x6MGVeT9Dhz7T3iyn&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_bLREgc1W-mBv0auBcuqEA&oh=00_Afnp8wTFZbcKForhHym9L1rzF9OpxhymuYtNgRMy8cuJiw&oe=695582CD)
+  <details>
+  <summary>VR screenshot showing the approve thumbnail dialog with "Looks Good" selected.</summary>
+  
+  <p></p>
+  
+  [VR screenshot showing the approve thumbnail dialog with "Looks Good" selected.](../../image_data/640b312ae05b0ff13c564bba49dc9e40e1a367b9fa03c4eeb8b0026aba5d69a0.md)
+  
+  ### Overview
+  The image depicts a user interface from a 3D modeling or asset creation application. It shows a modal window titled "New asset" with options for naming and selecting objects. The interface includes a sidebar menu on the left labeled "Build," listing categories such as Shapes, Gizmos, Sounds, Assets, My Assets, Gameplay, Attachables, Nature, and Furniture. On the right side, there is a section labeled "Animals" displaying a polar bear model. A floating action button labeled "Looks Good!" is prominently displayed within the modal window.
+  
+  ### Key Elements
+  - **Modal Window**: Located centrally, with a dark background and light gray content area. Contains a 3D model of a polar bear, a "Take Again" button, and a "Looks Good!" button.
+    - **Polar Bear Model**: A low-poly 3D model of a polar bear, displayed in the center of the modal window.
+    - **"Take Again" Button**: A gray button located below the polar bear model.
+    - **"Looks Good!" Button**: A purple button located below the "Take Again" button.
+  - **Sidebar Menu**: On the left, a black sidebar with white text. Lists categories under "Build."
+    - **Categories**: Shapes, Gizmos, Sounds, Assets, My Assets, Gameplay, Attachables, Nature, Furniture.
+  - **Animals Section**: On the right, a section labeled "Animals" showing a polar bear model with a label "Polar Bear" underneath.
+    - **Polar Bear Label**: "Polar Bear" written in white text below the model.
+    - **Additional Animals**: Another animal model partially visible on the far right, labeled "run and walk."
+  - **Floating Action Button**: A purple button labeled "Looks Good!" located at the bottom right of the modal window.
+  - **Background**: A gradient sky with a sunset effect, transitioning from orange to yellow.
+  
+  ### Visual Flow / Relationships
+  - **Most Prominent Element**: The modal window containing the polar bear model and buttons.
+  - **Arrows/Connectors**: None.
+  - **Spatial Relationships**: The modal window is the focal point, with the sidebar menu providing navigation options and the animals section offering additional models. The floating action button is designed to be easily accessible for confirmation.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Click **Create** to create a new asset with the thumbnail.
 
-  ![VR screenshot showing the New Asset dialog with "Create" selected.](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/454007057_520901740447782_697271474958636614_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=78ZQ0h2JKe0Q7kNvwFhoBZc&_nc_oc=AdlUFA7CAmHNMJUwwG0Fuq4oz9DWxMUxMGt6Bkpbu_Uee9i94Gub8fjvWWOGOJQ9VJHij63P-ni66UMnseNrE26N&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_bLREgc1W-mBv0auBcuqEA&oh=00_Afn5VcuD2VUeOXxF2wvVBKk2UVf9CYXlP3o45Qf-7P9AZg&oe=69559906)
+  <details>
+  <summary>VR screenshot showing the New Asset dialog with "Create" selected.</summary>
+  
+  <p></p>
+  
+  [VR screenshot showing the New Asset dialog with "Create" selected.](../../image_data/923a31ac45754888f4571d3cf911ada43f5e10add023e70a2ecb05d83bc21838.md)
+  
+  ### Overview
+  This image depicts a user interface element within a software application, specifically a modal window titled "New asset." The modal is designed for creating a new asset, with various fields and options available for input. The background shows a virtual environment with a grid floor and a sunset sky, suggesting a 3D modeling or game development tool.
+  
+  ### Key Elements
+  - **Modal Window**: A dark gray modal window with rounded corners, centered on the screen.
+    - **Title**: "New asset" at the top.
+    - **Name Field**: Below the title, a text field labeled "Name" with the placeholder text "Bouncy Boxes" and a counter "0/40" indicating character limit.
+    - **Description Field**: Below the name field, a text area labeled "Description" containing the text "> The boxes bounce when you drop them on the floor. The animation curves...".
+    - **Folder Dropdown**: To the right of the description field, a dropdown menu labeled "Folder" with the selected option "My Assets."
+    - **Thumbnail Section**: Below the folder dropdown, a section labeled "Thumbnail" showing a small thumbnail image of a white bear.
+    - **Object Selection Section**: At the bottom, a section labeled "Object selection (optional)" explaining that changing the object selection allows choosing which objects make up the asset. Below this, a button labeled "Change" is visible.
+    - **Buttons**: At the bottom of the modal, two buttons labeled "Cancel" and "Create."
+  
+  ### Visual Flow / Relationships
+  The modal is the most prominent visual element, drawing attention due to its central placement and darker color contrast against the lighter background. The form fields are arranged vertically, with the name field at the top, followed by the description field, then the folder dropdown, thumbnail section, and finally the object selection section. The buttons at the bottom provide clear actions for canceling or creating the asset.
+  
+  </details>
+  
+  <p></p>
+  
+  

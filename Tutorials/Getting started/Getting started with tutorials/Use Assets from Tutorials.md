@@ -4,7 +4,43 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 As you explore these tutorial worlds, you may find scripts, art, or other entities that you would like to use in your own worlds. Go for it!
 
-![Create Asset Template](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/486150007_681803081024313_7695353008648675033_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=J08CdKVwA00Q7kNvwEYNjXA&_nc_oc=AdmDe2y6lToDNbT8wiRroblhwuTt5irsDCSM6nDcEWOZbQ6P-6Xsy-z4_wmpv39aEaE3TrY22-su15G1VsAsNmw7&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0qj1HvzqnLyoZtTF36-U-g&oh=00_Afm0vRaCLQR3beigdsKSnCJlgKgTd9DMCo82x49aVhL3eQ&oe=69557EBE)
+<details>
+<summary>Create Asset Template</summary>
+
+<p></p>
+
+[Create Asset Template](../../../image_data/2d43cdedd9413db3e28176c1eeac1887810d097460ad6c84aa7b6baa22dffec9.md)
+
+### Overview
+This image depicts a contextual menu that appears when interacting with a 3D object in a design or modeling software environment. The menu is dark-themed with white text and light gray accents. The heart-shaped object is prominently displayed in the background, suggesting the focus is on a specific 3D model.
+
+### Key Elements
+- **Visual description**: The menu has a rectangular shape with rounded corners.
+- **Location**: Positioned centrally, slightly overlapping the heart-shaped object.
+- **Contents**: 
+    - "Copy" with shortcut "Ctrl + C"
+    - "Cut" with shortcut "Ctrl + X"
+    - "Paste" with shortcut "Ctrl + V"
+    - "Paste as child"
+    - "Duplicate selection" with shortcut "Ctrl + D"
+    - "Create Asset" highlighted with a red bounding box
+    - "Delete selection" with shortcut "Del"
+    - "Create parent object" with shortcut "Ctrl + G"
+    - "Unparent selection"
+    - "Scroll to selection"
+    - "Preview from here"
+- **Visual styling**: The menu has a dark background (#000000) with white text for readability. The highlighted "Create Asset" option has a subtle glow effect.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Create Asset" option is emphasized with a red bounding box.
+- **Arrows, lines, connectors**: None visible.
+- **Spatial relationships**: The menu items are arranged vertically, with each item followed by its corresponding keyboard shortcut.
+
+</details>
+
+<p></p>
+
+
 
 Tutorials contain the following categories of assets:
 
@@ -29,7 +65,33 @@ To add an entity to your Asset Library, please complete the following steps. Whe
 
 - Click **Create**. The asset template is created in the selected folder.
 
-![Create asset template](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/485933354_681803091024312_2636679759612280667_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=cl943t-SJ3EQ7kNvwG7lb-N&_nc_oc=Admo0x7zxyYLineD8_3hHdzonuUMDZnQiuIbam8bEufubpkRPaSJodDVoGebLDXYCdJ5KbFtPs6Ede0USXUHjtof&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=0qj1HvzqnLyoZtTF36-U-g&oh=00_Aflj36ofAMg9QtnPF_NA4JeB1puCPTXP4TP_EUfta7TxWw&oe=69559ED3)
+<details>
+<summary>Create asset template</summary>
+
+<p></p>
+
+[Create asset template](../../../image_data/e80555464ed752c3d1fd836e77c8a84a09eed056c0717c6be7a39c0f24de28c7.md)
+
+### Overview
+This is a screenshot of a modal window titled "Create New Asset." The window contains fields for entering an asset name, description, selecting an asset type, and choosing a folder within a file structure. There are also buttons for canceling or creating the asset.
+
+### Key Elements
+- **Title Bar**: "Create New Asset" at the top.
+- **Warning Banner**: A yellow banner with a warning icon and text stating that the feature is only recommended for desktop use due to VR limitations.
+- **Asset Name Field**: Located below the title bar, with the text "Red Heart" entered.
+- **Description Text Area**: Below the asset name field, containing the text "Test asset from Spawning tutorial."
+- **Asset Type Dropdown**: Positioned to the right of the description area, showing "Template Asset."
+- **Folder Structure**: A nested folder structure under "All Assets" and "My Folders," with "My Assets" highlighted.
+- **Buttons**: Two buttons at the bottom, labeled "Cancel" and "Create."
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Create New Asset" title bar. The warning banner is positioned above the form fields. The form fields follow a logical sequence from top to bottom: asset name, description, asset type selection, and then folder selection. The buttons at the bottom are clearly defined as interactive elements, with "Create" being the primary action button.
+
+</details>
+
+<p></p>
+
+
 
 This asset template is now available for you to use in any world!
 
@@ -77,7 +139,34 @@ To locate your files, please do the following:
 - Locate the value for the External Editor Directory.
 - Navigate your local environment to find this directory. Scripts for individual worlds are stored as sub-directories.
 
-![Script Editing settings](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453000278_512536444617645_8408972957475533201_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=nWJpvMImbJ8Q7kNvwFoH-21&_nc_oc=AdkAW8NL6ZIFhrD2gbAeoxOci9teGXnUVTsgP2S4RJesOsX7Eeld7uUI0NOc4709s1IfTFsRvau0F1aNO5H9jVJH&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0qj1HvzqnLyoZtTF36-U-g&oh=00_AflAF0sfqigRj_AJDzuOuAkWTXcaIDKD_dbMEJFAjQzCtA&oe=69558816)
+<details>
+<summary>Script Editing settings</summary>
+
+<p></p>
+
+[Script Editing settings](../../../image_data/ca7d0609d7c980a46086ed64ee782af1647e7ac7ceb5dc76e75d70e1d162238f.md)
+
+### Overview
+This image depicts a settings interface titled "Script Settings." It is a dialog box with a sidebar menu on the left and a content area on the right. The content area is divided into sections with labels and options related to script editing.
+
+### Key Elements
+- **Sidebar Menu**: Located on the left side, it has three options: "Script editing," "API," and "Console." Each option is a clickable item.
+- **Content Area**: On the right, it displays the "Script editing" section with several settings.
+  - **External Editor**: A label followed by "Default (VS Code)" indicating the default external editor.
+  - **External Editor Directory**: A label followed by a path: "C:/Users/solson/AppData/LocalLow/Meta/Horizon Worlds."
+  - **File-Backed Scripts**: A label with a green "Update available" message underneath.
+  - **Buttons**: Two buttons labeled "Select" and "Reset" appear next to some of the settings.
+  - **Review Button**: A button labeled "Review" is located at the bottom right of the content area.
+- **Apply and Cancel Buttons**: At the very bottom, there are two buttons: "Cancel" and "Apply."
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Script editing" section in the content area. The buttons are arranged horizontally at the bottom. There are no arrows or lines connecting elements, but the layout suggests a linear reading order moving from left to right and then down the page.
+
+</details>
+
+<p></p>
+
+
 
 ### Scripts in asset templates
 

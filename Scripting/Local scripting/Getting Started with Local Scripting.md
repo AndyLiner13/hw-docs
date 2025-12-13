@@ -9,10 +9,91 @@ Horizon scripts are run on the server by default, enabling your world to maintai
 To set your script to run in local scripting mode in Desktop Editor, perform the following steps.
 
 - In Desktop Editor, select **Scripts** in the menu bar to open the Scripts panel.
-  ![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452652035_512510781286878_7011830116582645952_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=lZ8or3vd_UAQ7kNvwFTc_oF&_nc_oc=AdlfvLkF5GZAPqmOrW3M8EO6drr5YNnQjfENpRzCKOx3I8aQr0qUC4OwVxq5T4tBq_utK2gheghgnDhF9ruo0GO-&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Iozn1C7hOeojmZGtgmHdEQ&oh=00_AflkghPCTPTdFhlA0YOeNI25b04Ij9liApsGUIBCyqQrAA&oe=69559788)
+  <details>
+  <summary>Image Content</summary>
+  
+  <p></p>
+  
+  [All image details and metadata](../../image_data/4567850c82ba3763d945a2c67a470e9b3897a96e7103a58d910e96d79ea42e14.md)
+  
+  ### Overview
+  The image displays a user interface (UI) window divided into two main sections: "Hierarchy" on the left and "Scripts" on the right. The background is dark-themed, suggesting a software application interface, possibly related to game development or asset management.
+  
+  ### Key Elements
+  - **Hierarchy Section**:
+    - **Visual description**: A vertical pane with a search bar at the top.
+    - **Location**: Left side of the window.
+    - **Contents**: Contains items listed as "SpawnPoint," "Wedge," and "TS_LocalPointer."
+    - **Visual styling**: Dark background with white text and icons.
+  
+  - **Scripts Section**:
+    - **Visual description**: A vertical pane with a search bar at the top.
+    - **Location**: Right side of the window.
+    - **Contents**: Displays a script named "TS_LocalPointer" with a timestamp indicating it was last updated 3 minutes ago.
+    - **Visual styling**: Dark background with white text and icons.
+  
+  - **Search Bar**:
+    - **Visual description**: A rectangular search bar located at the top of both panes.
+    - **Location**: Top of the "Hierarchy" and "Scripts" sections.
+    - **Contents**: Placeholder text "Search hierarchy" in the "Hierarchy" pane and "Search scripts" in the "Scripts" pane.
+    - **Visual styling**: Dark background with white text.
+  
+  - **Buttons**:
+    - **Visual description**: Small icons and buttons located at the top of the "Hierarchy" pane.
+    - **Location**: Top-left corner of the "Hierarchy" pane.
+    - **Contents**: Icons for expanding/collapsing the pane, filtering options, and other settings.
+    - **Visual styling**: White icons on a dark background.
+  
+  - **Timestamp**:
+    - **Visual description**: Text indicating the last update time.
+    - **Location**: Below the "Scripts" search bar.
+    - **Contents**: "Last updated 3 minutes ago."
+    - **Visual styling**: White text on a dark background.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The search bars at the top of both sections.
+  - **Arrows/lines/connectors**: None visible.
+  - **Spatial relationships**: The "Hierarchy" and "Scripts" sections are adjacent and vertically stacked within the window.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Click the more options menu of your script and change the **Script Execution Mode** from **Default** to **Local**.
 
-![](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452577880_512510777953545_862034031477793040_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=oTXOOok-SfMQ7kNvwG9q3H1&_nc_oc=AdkB1CZi9IIOKx2lpW7jMuwb4F-U3prD34tCwPXIxkP7bpLamgDIoqxRfnV6S6XLUkjD4DiSMJqpbH4unJcAUl1m&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Iozn1C7hOeojmZGtgmHdEQ&oh=00_AfkI0RVjKRiDSutY__ikf-XtreeAymUhHJ32ZRsylhsVEQ&oe=695575C6)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/f6efb42a84c29c19e11cea3f584a65e40a76f6f5a0104d587d34503c66216bbe.md)
+
+### Overview
+The image displays a user interface element within a software application, specifically a dropdown menu that appears when interacting with a specific area of the interface. The dropdown contains several options related to script execution and management.
+
+### Key Elements
+- **Dropdown Menu**: A black rectangular dropdown menu with white text, located centrally in the image.
+  - **Recompile**: Option labeled "Recompile" with no additional text or icon.
+  - **Open in External Editor**: Option labeled "Open in External Editor" with no additional text or icon.
+  - **Execution Mode**: Option labeled "Execution Mode" with a right-pointing arrow indicating a dropdown or expandable menu.
+    - Sub-options under "Execution Mode": "Default" and "Local," both with checkmarks next to them.
+
+- **Background**: The background is a gradient transitioning from dark blue at the top to lighter blue at the bottom, suggesting a window or panel within the application.
+
+- **Left Panel**: On the left side, there is a sidebar labeled "Scripts." It includes a search bar, a plus sign for adding new scripts, and a gear icon for settings. Below this, there is a script named "TS_LocalPointer" with a timestamp indicating it was saved and compiled six minutes ago.
+
+- **Top Bar**: At the very top, there is a small icon resembling a browser tab with a forward arrow, likely indicating navigation functionality.
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The dropdown menu is the most prominent feature due to its central placement and larger size compared to surrounding elements.
+- **Spatial Relationships**: The dropdown menu is positioned below the "Execution Mode" option and to the right of the "Scripts" panel. There are no arrows or lines connecting elements, but the layout suggests a logical flow from the "Scripts" panel to the dropdown menu.
+
+</details>
+
+<p></p>
+
+
 
 ## Entity ownership
 

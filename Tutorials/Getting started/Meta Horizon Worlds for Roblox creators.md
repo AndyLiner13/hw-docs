@@ -11,7 +11,37 @@ The [desktop editor](../../Desktop%20editor/Get%20started%20with%20Desktop%20Edi
 * The Hierarchy window in Meta Horizon Worlds is similar to the Workspace folder in the Explorer window in Roblox Studio for organizing elements in your 3D scene. Both allow you to manage and organize objects (called entities in Meta Horizon Worlds), and both use a tree structure to represent parent-child relationships between objects.
 * Roblox Studio’s Creator Store and Inventory are also similar to the Asset Store and Assets window in Meta Horizon Worlds, respectively.
 
-![Meta Horizon Worlds UI Overview](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/556862227_829681122903174_8986154431168730759_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=9RcHRFMI8REQ7kNvwFM_Jni&_nc_oc=AdkmATX3iK0w0xhWG30P4cdw-JduOH9144GFw9jkABr-eEYAeh9T-KoJnnvPypbRosbmNXfQie57vEuZdYKN6wJg&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=UAQBEZAYFzCo9TBLo4xp9g&oh=00_AfkKMvqlPXdgwa_LM7LcDfEBUbNsTNHgxJ4w9L-o1fCVuw&oe=695570EC)
+<details>
+<summary>Meta Horizon Worlds UI Overview</summary>
+
+<p></p>
+
+[Meta Horizon Worlds UI Overview](../../image_data/7658f49a010a9f63f917dc58895a22d6f5729afd060104da3308e39c4ca88f66.md)
+
+### Overview
+The image depicts a user interface of a 3D modeling or game development software. The layout includes various panels, toolbars, and interactive elements designed for scene manipulation and asset management.
+
+### Key Elements
+- **Hierarchy window**: Located on the left side, showing a tree structure with nodes labeled "SpawnPoint" and "StoneFloor". It has a search bar at the top.
+- **Console tabs**: Positioned at the bottom left, with tabs labeled "Asset Library," "Console," "Tests," "NPC Debugger," and "Performance."
+- **Scene Window**: Central area displaying a 3D environment with a grid floor and a blue sky background. Labels such as "Manipulation tools," "Coordinate space," "Pivot," and "Snapping tools" are overlaid on the scene.
+- **Play/preview controls**: Located at the top right, with options for play, pause, and settings.
+- **Creator tools**: Toolbar above the Scene Window containing icons for shapes, colliders, navigation, display, interactions, avatars, media, effects, and environment.
+- **Gen AI panel**: On the right side, offering options for generating environments, textures, models, skies, and sound effects.
+- **Properties panel**: Also on the right, currently empty, with a placeholder message indicating to select an object to view its properties.
+
+### Visual Flow / Relationships
+The interface is organized into distinct sections:
+- The left side contains the Hierarchy window and Console tabs.
+- The central area is the Scene Window, which is the focal point for manipulating the 3D environment.
+- The right side houses the Gen AI panel and Properties panel.
+- Toolbars and menus are arranged at the top for quick access to functions.
+
+</details>
+
+<p></p>
+
+
 
 ## Terminology differences
 
@@ -126,7 +156,35 @@ If the assets in your Place were originally imported from an external source as 
 
 To export an asset from Roblox, you can right-click it in the Explorer and choose **Export Selection**. Models and textures exported from Roblox are in .OBJ and .MTL format, respectively.
 
-![Export Selection](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480812910_656797433524878_3994810472038585410_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=7rkddOrktToQ7kNvwFfmmwB&_nc_oc=AdmjU3nJvU6Zi2fcjoDJZKiVKOCKB-DgVmuEBDCom2ylxA88WXnSATrBFPrQllSdgO6roPBR4elbkYwezwZcTrVj&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=UAQBEZAYFzCo9TBLo4xp9g&oh=00_AfkZA4s-H8y1QqcEslnhhLa00BoeMwkakDnYQ36I4m7hDQ&oe=69559F47)
+<details>
+<summary>Export Selection</summary>
+
+<p></p>
+
+[Export Selection](../../image_data/b64a5dc93904e047ca8f2e51330864fd5894b5d2b1bab4459a05182233d6d522.md)
+
+### Overview
+This image depicts a right-click context menu within a software application, likely a 3D modeling or game development tool given the presence of terms like "Terrain," "Baseplate," and "Part." The menu is part of a workspace explorer interface, as indicated by the "Workspace" header at the top.
+
+### Key Elements
+- **Visual description**: The menu has a light gray background with black text and blue highlights for selected items.
+- **Location**: The menu is located in the right panel of the interface.
+- **Contents**: 
+    - **Workspace**: A tree view showing folders and items like "Camera," "Terrain," "SpawnLocation," "Baseplate," and "Part."
+    - **Context Menu Items**: Options such as "Cut," "Copy," "Paste Into," "Duplicate," "Delete," "Rename," among others.
+    - **Shortcuts**: Each menu item has a corresponding keyboard shortcut listed next to it.
+- **Visual styling**: The menu uses a clean, modern design with a consistent color scheme of light gray, black text, and blue highlights.
+
+### Visual Flow / Relationships
+- **Most prominent visually**: The "Export Selection..." option is highlighted in red, drawing attention to it.
+- **Arrows/Connectors**: There are no arrows or connectors in this menu.
+- **Spatial relationships**: Items are arranged vertically in a list format, with shortcuts aligned to the right.
+
+</details>
+
+<p></p>
+
+
 
 ## Monetization
 

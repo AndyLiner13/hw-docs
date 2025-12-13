@@ -10,7 +10,31 @@ When you are building and refining a world, you may find it valuable to have acc
 
 You can also Start, Stop, and Reset the execution of scripts in your world while you are in headset.
 
-![Debug Console](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/480858407_660734646464490_3192499164679418316_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=63LAg7o8jrsQ7kNvwEuoHvx&_nc_oc=AdkdB3-BGVocNPLrWtdYysYrBH1_H-elUe9310rdFaaXrl5jB2kGuoUqDQEfWR1mvRUZO8zqBK9uKK2DyyUImg34&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=E1hjIBibDwPuoFWCx4gF8g&oh=00_AfkAxlx6fS0bhbDBliowPaean8Pu_7jJGVALAA8NBFTG1g&oe=695585C9)
+<details>
+<summary>Debug Console</summary>
+
+<p></p>
+
+[Debug Console](../../../image_data/5fc83e2d75c498dd22eea8c1fcfb94b7ce28428e27e6f3a831e74c6bd6751d81.md)
+
+### Overview
+This image depicts a user interface element labeled as a "Debug Console." It features a warning message, control buttons, a search bar, and a clear button. The layout suggests a focus on debugging and managing a virtual world environment.
+
+### Key Elements
+- **Title**: "Debug Console" located at the top-left corner.
+- **Buttons**: Three purple buttons labeled "Start world," "Stop world," and "Reset world" are positioned centrally above the console area.
+- **Search Bar**: A rectangular search bar with a magnifying glass icon is situated below the buttons.
+- **Clear Button**: A circular button labeled "Clear" is placed to the right of the search bar.
+- **Warning Message**: A gray box with a yellow warning icon contains the text "> WARNING: The server started before your client joined. Some logging may be lost."
+
+### Visual Flow / Relationships
+The most prominent visual element is the warning message, which draws attention due to its placement and color contrast. The buttons are grouped together, suggesting they are related functions. The search bar and clear button are secondary controls, likely for filtering or clearing logs.
+
+</details>
+
+<p></p>
+
+
 
 Debug messages include:
 
@@ -28,7 +52,47 @@ When you are in headset, you can review realtime performance metrics of your wor
 
 Through the following display, you can inspect the results to scrub performance over a recent interval, which provides greater fidelity on the data.
 
-![Realtime Performance Metrics](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452578347_512501267954496_2333260332297354645_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=sNIW3Ami7AkQ7kNvwEaY4qE&_nc_oc=AdkorNEUDvFjgBx1v_azWcQishMg3MjdGiPAPB14bA_ZJP3Ml0bCpX0CDdP_Prd_7-8B-CGEBX7pcnKN2sJTjQwg&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=E1hjIBibDwPuoFWCx4gF8g&oh=00_AfkEFzq_EQcYTEkIo3l6xUK1RgESV2g8wv7Ml_4JihiEww&oe=69559DDB)
+<details>
+<summary>Realtime Performance Metrics</summary>
+
+<p></p>
+
+[Realtime Performance Metrics](../../../image_data/18a8ba8cb3e550ced9e762044cbcd49458e8f096b86189d9679edd44dd316342.md)
+
+### Overview
+This image depicts a performance metrics overlay displayed over a 3D modeling environment. The overlay provides real-time data on FPS, CPU usage, and GPU usage. The interface includes various interactive elements such as buttons and sliders.
+
+### Key Elements
+- **Title**: "Performance Metrics" located at the top-left corner.
+- **FPS Section**:
+  - **Visual description**: A section displaying current FPS value.
+  - **Location**: Top-left area.
+  - **Contents**: "72 current", "72 target • 72 max".
+  - **Visual styling**: Dark background with white text, a progress bar with a red highlight indicating the current FPS.
+- **CPU Section**:
+  - **Visual description**: A section displaying average CPU usage.
+  - **Location**: Below the FPS section.
+  - **Contents**: "CPU (ms)", "10.4 avg (0.5s)", "13.9 target • 12.67 max".
+  - **Visual styling**: Similar to the FPS section but with a blue progress bar.
+- **GPU Section**:
+  - **Visual description**: A section displaying average GPU usage.
+  - **Location**: Below the CPU section.
+  - **Contents**: "GPU (ms)", "4.1 avg (0.5s)", "13.9 target • 4.09 max".
+  - **Visual styling**: Similar to the FPS section but with a purple progress bar.
+- **Interactive Elements**:
+  - **Inspect Button**: Located at the bottom-right corner.
+  - **Camera Icon**: Located at the bottom-left corner.
+  - **Settings Icon**: Located at the top-right corner.
+- **Background**: A grid-like pattern typical of a 3D modeling software environment.
+
+### Visual Flow / Relationships
+The overlay is designed to be easily readable, with the FPS section being the most prominent due to its placement at the top. The CPU and GPU sections follow sequentially below, maintaining a consistent layout. The interactive elements are placed at the corners for easy access without obstructing the main data display.
+
+</details>
+
+<p></p>
+
+
 
 * **Perfetto tracing**: Click the Red button to begin a trace capture of your world. This tracing down can later be analyzed through Perfetto.
 * **Performance scrubbing**: Click the Inspect button to analyze data on recent segments of activity in greater detail.

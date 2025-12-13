@@ -22,7 +22,38 @@ Horizon specifically has some features that stand out compared to UEFN that any 
 
 The Horizon Desktop Editor is the starting point for managing existing worlds, viewing documentation, exploring tutorials and templates and more. It is the equivalent of both the Epic Games Launcher and the UEFN editor bundled into one. [The Horizon Desktop Editor can be installed](../../Get%20started/Install%20the%20desktop%20editor.md) either standalone or through the Meta Quest Link app (if developing for VR).
 
-![Horizon Creation Home](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/546218067_811522964718990_2334895237106097278_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=Wf37MdbH8iAQ7kNvwH8RjUF&_nc_oc=AdlaD_vDC4rRuZxM_oVIw8a4OYUiOh2K9HkKAk9PHVD0a-k2z6rAIOdOoPcXuqaOoSMJ-DTawKHIVA1eDQkXbMJI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6HUeHlA4oS4I-RWxalVG1Q&oh=00_AfkC7Tmwu7c8es_7s1hG8kkx87x0WiYphG3MDY_Kl2HGRQ&oe=69558AAC)
+<details>
+<summary>Horizon Creation Home</summary>
+
+<p></p>
+
+[Horizon Creation Home](../../image_data/8dca33bff582ce22a1a64c7017761e8719c1936c739678fe881f4e8a278aa177.md)
+
+### Overview
+The image depicts a user interface of a desktop application named "Worlds Desktop Editor." It appears to be a creation tool for building worlds within Meta Horizon Worlds. The layout includes a sidebar menu, a main content area with sections for tutorials, templates, and world creations, and a promotional banner at the top.
+
+### Key Elements
+- **Sidebar Menu**: Located on the left side, with options such as "Home," "My worlds," "Tutorials," "Templates," and "Documentation." The "Home" option is highlighted in blue, indicating the current selection.
+- **Main Content Area**: Occupies the right side of the screen, divided into sections.
+  - **Promotional Banner**: At the top, a banner promotes the Meta Horizon Creator Program with a call-to-action button labeled "Join now."
+  - **Getting Started Section**: Contains four tiles, each representing a different starting point for creators. The tiles include:
+    - "Start Here" with an image of a character and the text "How to create your first world."
+    - "Explore resources and forums" with an image of characters and the text "Unleash your imagination, build your business, and watch your creations grow."
+    - "Apply to MHCP" with an image of characters and the text "Gain access to earning opportunities for your creations, helpful resources, a vibrant community, dedicated support, and more."
+    - "Get started with documentation" with an image of a cityscape and the text "Learn what it means to be a creator and why you should create for Meta Horizon Worlds."
+  - **My Worlds Section**: Displays a grid of world thumbnails with titles and edit timestamps. Examples include "Escape Room Vertical Slice," "Rooftop Racers," "WeaponsTutorial," and "Custom UI Examples."
+  - **Tutorials Section**: Below the "My Worlds" section, there are tiles for various tutorials such as "Build Your First Game," "Custom UI Examples," "Simple Shooting Mechanics," and "Spawning and Pooling in TypeScript."
+
+### Visual Flow / Relationships
+- **Most Prominent Element**: The "Start Here" tile in the "Getting started" section is the most prominent due to its placement and the "Start Here" button overlay.
+- **Arrows/Connectors**: There are no explicit arrows or connectors in the layout.
+- **Spatial Relationships**: Elements are arranged in a grid-like structure, with the sidebar menu on the left and the main content area on the right. The promotional banner spans the width of the main content area above the "Getting started" section.
+
+</details>
+
+<p></p>
+
+
 
 ## Editor comparisons
 
@@ -41,7 +72,39 @@ Otherwise, Horizon shares much of the same functionality such as:
 * A scene view that shows the 3D view of the world.
 * An asset library that shows both the creator’s library of assets, as well as assets created by external creators.
 
-![Horizon Editor comparison](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545251985_811522958052324_6764831470634074968_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=GBp9XzqaoPcQ7kNvwH_6yZ_&_nc_oc=AdkhyCpVg1XQdkyIxLEI-HxghrgzfHAP8AheW10lS4Q2aeQP-19Nf-XoKpb4KjfxmOL7WqzBmuKY-j2vEbrt-dN4&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6HUeHlA4oS4I-RWxalVG1Q&oh=00_AfnOtbUiz2MlIJbaAOU4dLXkD9h2G7k7l6AJ2QfxKe97Sw&oe=69557361)
+<details>
+<summary>Horizon Editor comparison</summary>
+
+<p></p>
+
+[Horizon Editor comparison](../../image_data/777f90f06514f674563f30adee5205e650c9998fb0c42987e089f4fc76f57591.md)
+
+### Overview
+This image depicts a user interface of a 3D modeling or game development software, specifically showing a scene within a game environment. The interface is divided into several panels, each serving a specific function related to asset management, scene viewing, and property editing.
+
+### Key Elements
+1. **Hierarchy Panel (Left)**: A vertical panel displaying a tree-like structure labeled "Hierarchy." It lists various nodes such as "Environment," "LobbySpawnPoint," and others, indicating the structure of the game world. The highlighted node is "VictoryTrigger."
+
+2. **Scene View (Center)**: The central area displays a 3D scene rendered in a game engine. The scene includes a building, a small blue cube, and some other structures. The scene is viewed from a slightly elevated angle, suggesting a rooftop perspective.
+
+3. **Properties Panel (Right)**: This panel shows detailed properties of the currently selected object in the hierarchy, which is "VictoryTrigger." It includes attributes like position, rotation, scale, and behavior settings.
+
+4. **Asset Library (Bottom Left)**: A panel labeled "Asset Library" contains a grid of assets, such as "Mobile Start," "chaise de jardin," "bar starwars," among others. These are likely game assets that can be dragged into the scene view.
+
+5. **Navigation Bar (Top Center)**: Located at the top center, this bar includes icons for navigation and scene manipulation, such as play, pause, and zoom controls.
+
+6. **Toolbars (Top Left and Top Right)**: These toolbars contain various icons and options for managing the scene, assets, and publishing the project.
+
+7. **World Sim Off Toggle (Top Right)**: A toggle switch labeled "World Sim Off" is located near the top right corner, likely controlling the simulation mode of the scene.
+
+### Visual Flow / Relationships
+The interface is structured hierarchically, with the left panel providing a tree view of the scene structure, the center showing the actual scene, and the right panel offering detailed properties of selected objects. The bottom left panel provides access to assets, while the top center and top right offer tools for navigation and scene management.
+
+</details>
+
+<p></p>
+
+
 
 | Index | UEFN | Horizon | Description |
 | --- | --- | --- | --- |
@@ -118,7 +181,33 @@ Horizon allows a [variety of different asset types to be imported](../../Desktop
 
 Horizon offers multiple ways to playtest your world on desktop, mobile, and VR. The first step to playtesting is to publish your world. Make sure to mark it as invisible to the public.
 
-![Horizon Publish World](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/545673526_811522954718991_5394657970832061088_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=M-IeepRaBl0Q7kNvwEwmmb6&_nc_oc=AdnpnFbnJoykG-TDWbnyyk53wuuUjRFC6_K_LkEi_Z4CSQ93emlUOnTse2lteVUc6HT5Dd8b_rBk1DjGfpg1y2xy&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=6HUeHlA4oS4I-RWxalVG1Q&oh=00_AfkvWjWFbq7j4mt7jBspkvXtibD0nMwycMM5aLqz2NCVGQ&oe=69557F19)
+<details>
+<summary>Horizon Publish World</summary>
+
+<p></p>
+
+[Horizon Publish World](../../image_data/d6040fd9d7a522c05fd71a78f701272d7e759de7e1fd4127af5e55f48b8648d3.md)
+
+### Overview
+This image depicts a user interface for publishing a world, likely within a platform that allows users to create and share content such as games or experiences. The interface includes various fields and options for configuring the world before publication.
+
+### Key Elements
+- **Thumbnail**: A preview image of the world titled "Rooftop Racers," described as a "Sample Parkour Racing Game." The thumbnail is located at the top-left corner.
+- **Status**: Displays "Unpublished" indicating the current status of the world.
+- **Name**: The name field contains "My Rooftop Racers" with a character limit of 17 out of 60 characters.
+- **Description**: A text area labeled "What can people do in your world?" is partially filled with placeholder text.
+- **World options**: Includes checkboxes for "Beta label," "Members-only world," and "Optimized for Web and Mobile."
+- **Publishing options**: Includes fields for rating, tags, availability, comfort rating, mute assist, visibility, and a "Publish" button at the bottom right.
+- **Buttons**: "Save for later" and "Publish" buttons are present at the bottom of the interface.
+
+### Visual Flow / Relationships
+The interface is structured with a clear hierarchy. The thumbnail is the most prominent visual element, followed by the name and description fields. The publishing options are arranged vertically on the right side, with the "Publish" button being the most prominent interactive element.
+
+</details>
+
+<p></p>
+
+
 
 Once a world is published, that specific published version is what will be available to playtest. More information on the publishing flow can be found [here](../../Save,%20optimize,%20and%20publish/Publish%20your%20world.md). Some important steps to keep in mind:
 
@@ -127,4 +216,35 @@ Once a world is published, that specific published version is what will be avail
 
 For easy access to playtest builds, use the preview actions found under the preview configuration drop down at the top of the editor.
 
-![Horizon Preview Actions](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/547194483_811522961385657_2537791522362502658_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zZMSs2btTGEQ7kNvwF89pLF&_nc_oc=Adnwcj8ycTS6bfnxCUwD_w1tIftC8zKraclRPexpCEIpadhIEfb7xm8OxTL7FbwSxmMJk7pe_W12sojTGNeUxgz0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=6HUeHlA4oS4I-RWxalVG1Q&oh=00_AfkXu0j1iEtv06sbOFru5Vj_wqPnomHxctk6__3i-ggzqg&oe=6955703F)
+<details>
+<summary>Horizon Preview Actions</summary>
+
+<p></p>
+
+[Horizon Preview Actions](../../image_data/506f4d5fff420641cfb50d74fae8994be76b5364c5d79464225c0edf9c55666a.md)
+
+### Overview
+This image depicts a settings panel titled "Preview Configuration." It contains various configuration options related to previewing simulations within a software interface. The layout is structured with toggle switches, dropdown menus, and buttons for preview actions.
+
+### Key Elements
+- **Title**: "Preview Configuration" located at the top-center of the panel.
+- **Toggle Switches**:
+  - "Auto-start simulation on Preview entry" located in the upper-left area.
+  - "Auto-stop simulation on Preview exit" located slightly below the first toggle switch.
+- **Dropdown Menu**:
+  - "Preview device" located near the middle-left side of the panel.
+  - The dropdown menu is set to "Web."
+- **Checkbox**:
+  - "UI safe zone overlay" located below the dropdown menu.
+  - The checkbox is unchecked.
+- **Buttons**:
+  - "Preview actions" located at the bottom-right corner of the panel.
+  - Three circular icons are present under the "Preview actions" label.
+
+### Visual Flow / Relationships
+The most prominent visual elements are the toggle switches and the dropdown menu. The toggle switches are aligned horizontally above the dropdown menu. The "Preview device" dropdown is positioned to the right of the toggle switches. The "UI safe zone overlay" checkbox is placed below the dropdown menu. The "Preview actions" buttons are aligned horizontally at the bottom-right corner. There are no arrows or lines connecting the elements, suggesting a linear reading order from top to bottom and left to right.
+
+</details>
+
+<p></p>
+

@@ -45,7 +45,31 @@ Scripts have an execution mode property that specifies whether the script can ru
 * The script will run on the client that owns the entity that the script component is attached to.
 * You must select this execution mode.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452532429_512524664618823_2690924150930112816_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=0nqnNJdQYHIQ7kNvwGmvr5y&_nc_oc=Adnd3dMSnGTY3FnVh-4jkoF1bKCSzR4whsbhn2k6qjG3_XyS01YtZ1KRXveVOvGlCZKqPzOrjy0B2JGXhkfHFNrQ&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=_ZG1epCgp1ZPRjoefaQtiQ&oh=00_AfmdLkaTUN63itcjEckxaz0-6WQUxAETTbzpEO3N1PDwrA&oe=69558F33)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/8e2f5627245dc4d9408ed977ca79672b94e082bcd7acb8825e6d65fe29156f23.md)
+
+### Overview
+This image depicts a portion of a user interface showing a dropdown menu with two options: "Execution Mode" and "Local". The "Local" option is highlighted, indicating it has been selected. Above the dropdown, there are two additional menu items: "Recompile" and "Open in External Editor".
+
+### Key Elements
+- **Recompile**: Located at the top-left corner, this item is a standard menu option without any additional elements.
+- **Open in External Editor**: Positioned below "Recompile", this option also lacks additional elements.
+- **Execution Mode**: A dropdown menu item located below the previous two. It contains two options: "Default" and "Local". The "Local" option is highlighted with a checkmark next to it.
+- **Default**: This option is part of the dropdown menu but is not highlighted.
+- **Local**: This option is part of the dropdown menu and is highlighted with a checkmark next to it.
+
+### Visual Flow / Relationships
+The most prominent visual element is the "Local" option within the dropdown menu. The dropdown menu is positioned to the right of the "Execution Mode" option. There are no arrows or lines connecting elements, and the reading order follows a top-to-bottom, left-to-right sequence.
+
+</details>
+
+<p></p>
+
+
 
 **Note** : Entity ownership is its own construct, separate from scripting. Local execution uses this property to determine which client a script runs on (it’s always the client that owns the entity that a script component is attached to).
 

@@ -21,13 +21,118 @@ If your created world is on the legacy system, you can always opt-in to the file
 To opt-in to file-backed scripts as your script storage solution use the following process:
 
 - Open the **Scripts** dropdown and click the **Settings** gear.
-  ![Horizon scripts drop-down menu](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452597170_512510831286873_3548532530261191130_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=xwqYpdr6rJQQ7kNvwH5QA_e&_nc_oc=Adkx_q01uL-Tm33050SaTtjqmWRmi0Q6X8Ob9WvBhFp35GJoMjpogIbOggIw2jRRdaFKNMxqcELuMajY0xrOj9-f&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L2cCCVj17A_Vf30WTP_5aw&oh=00_AfmTNPkS0LW3gbQh2lWsIeN2PRKFXVWrOpPMFc9zRVtOiQ&oe=695597A0)
+  <details>
+  <summary>Horizon scripts drop-down menu</summary>
+  
+  <p></p>
+  
+  [Horizon scripts drop-down menu](../image_data/8b4c5925febfb712b5dcf3ced6a446ed6fc0fe3c0cf2b8baa3b21422a83f4dfd.md)
+  
+  ### Overview
+  The image depicts a user interface element within a software application, specifically a section labeled "Scripts." It appears to be part of a development environment or a tool for managing scripts. The interface includes a search bar, a settings icon, and a button to create a new script.
+  
+  ### Key Elements
+  - **Header**: Located at the top-left corner, the word "Scripts" is displayed in white text against a dark background.
+  - **Search Bar**: Positioned below the header, it has a magnifying glass icon on the left side and a black background.
+  - **Settings Icon**: A gear icon is located to the right of the search bar.
+  - **Create New Script Button**: A gray button with the text "Create new script" is situated at the bottom of the "Scripts" section.
+  - **Empty State Message**: Below the "Create new script" button, the message "This world doesn't have any scripts." is displayed in white text.
+  - **Close Button**: An "X" icon is located at the top-right corner of the "Scripts" section, indicating the ability to close the panel.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the "Create new script" button, as it is centrally located and designed to draw attention. The search bar and settings icon are secondary elements that provide functionality but are less visually dominant. The empty state message serves as a placeholder when no scripts exist, guiding the user to take action.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Under **File-Backed Scripts**, click **Review**.
-  ![File-backed scripts review option select](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452615549_512510827953540_9044292763116055780_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=NpZfH9ElzWAQ7kNvwF0l_Q4&_nc_oc=AdlwFYuHviIbEU1c4UJXAQi1HOx88qhdPrMZd6qybAZ_aYlmrnP46hu8d_9WG94h-y5NY7fVpb42i8bFSyHVoeXX&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=L2cCCVj17A_Vf30WTP_5aw&oh=00_AflKz0yikGmGzA2oznkf_EdT8_8LZBdNj8llo2wODIKAYQ&oe=69558756)
+  <details>
+  <summary>File-backed scripts review option select</summary>
+  
+  <p></p>
+  
+  [File-backed scripts review option select](../image_data/e3bd2469f95f370c808d65f6efa2afa43b4d10a7bf346bb6230b2182d59f973a.md)
+  
+  ### Overview
+  This image depicts a settings dialog box titled "Script Settings." It contains various configuration options related to script management, with interactive elements such as buttons and dropdown menus. The layout is structured with labels on the left and corresponding controls or information on the right.
+  
+  ### Key Elements
+  - **Title**: "Script Settings" located at the top-left corner.
+  - **External Editor**: A section with a label "External Editor" on the left. To the right, there are two buttons labeled "Select" and "Reset."
+  - **Default**: Below "External Editor," the word "Default" is displayed without any additional elements.
+  - **External Editor Directory**: Another section with a label "External Editor Directory" on the left. Similar to the previous section, there are "Select" and "Reset" buttons to the right.
+  - **File-Backed Scripts**: A label indicating "File-Backed Scripts" is present, with a "Review" button to the right.
+  - **Update available**: A green notification stating "Update available" is shown below the "File-Backed Scripts" section.
+  - **API Version**: A label "API Version" is displayed on the left, with a dropdown menu showing "1.0.0" on the right.
+  - **Buttons**: Two buttons are present at the bottom—one labeled "Cancel" and the other "Apply," both with blue backgrounds.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual elements are the labels and the buttons. The "Apply" button is highlighted in blue, suggesting it is the primary action to take after making changes. The "Cancel" button is gray, indicating it is secondary. The "Select" and "Reset" buttons are consistently placed next to their respective sections, implying they are associated with those settings. The "Review" button is positioned to the right of the "File-Backed Scripts" label, indicating it is related to reviewing scripts.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - After reading the information, click **Update**.
-  ![File-backed scripts update window](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452815592_512510834620206_8372864601099325167_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=GuKhChieBMwQ7kNvwHo7Xot&_nc_oc=Admr1BYYeK5Hg046Lt8ztVRjTnCJv9sHuD3joQaFm90bVYeIyoHu8FzbpUIgS1cKUxr-OHyv5TCJB2r-Wx3DzIpI&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L2cCCVj17A_Vf30WTP_5aw&oh=00_AfnSkurg9THBcuI2ozNgiBU-mZYkHKc_YfTZ-M7ZCNLIfw&oe=69559155)
+  <details>
+  <summary>File-backed scripts update window</summary>
+  
+  <p></p>
+  
+  [File-backed scripts update window](../image_data/30d05c2655d2be5dc27da886158ae990a9aa81548a9b49ad46461c8925385417.md)
+  
+  ### Overview
+  This image depicts a dialog box with two buttons, providing information about updating to file-backed scripts in Meta Horizon. The dialog box has a dark background with white text and blue buttons.
+  
+  ### Key Elements
+  - **Title**: "Update to file-backed scripts" located at the top-left corner.
+  - **Close Button**: An 'X' icon located at the top-right corner.
+  - **Main Text**: Describes the update to file-backed scripts and its benefits, located centrally within the dialog box.
+  - **Bullet Points**: Three points listed under "What you should know about the update," detailing considerations before updating.
+  - **Buttons**: Two buttons labeled "Not now" and "Update," located at the bottom of the dialog box.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the title at the top. The main text flows downward, followed by the bullet points. The buttons are positioned at the bottom, with "Not now" on the left and "Update" on the right. There are no arrows or lines connecting elements, but the layout suggests a linear reading order from top to bottom and then from left to right for the buttons.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Once you click **Apply**, your changes will be saved and your world and all the scripts in it will be migrated to FBS.
-  ![Script settings window after opting in to FBS](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452632855_512510837953539_4593726217778374945_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=PsJwVe0azawQ7kNvwFVttEt&_nc_oc=Admep_garwWgUTIcVIQENN_Zqh-Ab_568A8V5V5s6201wSD1RAxB25OkfYFDkoQjh6D_aAm3OWwOrzInGl-OTGzs&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=L2cCCVj17A_Vf30WTP_5aw&oh=00_AfkxRh4MAePHfIbvXEizr7fnjmoB4f-bvbSxW77wuTeBUg&oe=6955860C)
+  <details>
+  <summary>Script settings window after opting in to FBS</summary>
+  
+  <p></p>
+  
+  [Script settings window after opting in to FBS](../image_data/a63f9e93fd5995ed44f29f5438c8cb9d57cc707bb7b62ab19fdc6db408172485.md)
+  
+  ### Overview
+  This image depicts a settings interface titled "Script Settings." It is a modal window with a dark theme, featuring a sidebar menu on the left and a content area on the right. The content area includes options related to script editing, such as selecting an external editor and setting a directory path.
+  
+  ### Key Elements
+  - **Sidebar Menu**: Located on the left side, with a vertical list of options: "Script editing," "API," and "Console." The "Script editing" option is highlighted with a blue vertical line, indicating selection.
+  - **Title**: At the top of the content area, the title "Script editing" is displayed prominently.
+  - **Options Section**: Below the title, there are two options:
+    - "External Editor" with a "Select" and "Reset" button next to it.
+    - "Default (VS Code @ Meta)" which appears to be the current selection.
+    - "External Editor Directory" with a "Select" and "Reset" button next to it.
+    - A path to a directory is shown under "External Editor Directory."
+    - "File-Backed Scripts" with a "Review" button next to it.
+  - **Status Message**: Below the options, there is a message stating "Update pending" in yellow text.
+  - **Buttons**: At the bottom of the content area, there are two buttons labeled "Cancel" and "Apply."
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the "Script editing" title, as it is the active section. The "External Editor" and "External Editor Directory" options are closely related and grouped together. The "Update pending" message is a key indicator of the current status. The "Cancel" and "Apply" buttons at the bottom suggest interactive actions that can be taken based on the user's decisions within this interface.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - A notification will appear when the migration is complete.
 
 ## What to look out for after opting in a world

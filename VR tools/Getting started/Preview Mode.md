@@ -10,8 +10,54 @@ Preview Mode is a way for creators test a world without publishing it and while 
 
 In Build Mode, press **up** one time on the left thumbstick to enter Preview Mode. This will teleport your avatar you to the world’s spawn point.
 
-![](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/469747446_608097715061517_887496612660465493_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=I6wsVVxg9QYQ7kNvwG58Pzz&_nc_oc=Adnb_GtCOSC83SbjmCu8ijpRAgwkzfNlwNDqrSrkj7n9MTh5e3SBP9C8x67220SnHBG9OHL5JAotd3YAv84xfw3c&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=CT6b1uGJtKPXLPgidZaLow&oh=00_AfklQ_Nq6Jsjuu_cThjCZTMx8Ph7MfWRDRhoL_KbgKa0QQ&oe=69559A8F)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/b4612a4d1a771bbf93a0287d7195b325eec881f198096ca1ed2d1cec42d69bed.md)
+
+### Overview
+The image depicts a circular interface with various control options arranged around its perimeter. The central area features a hand icon, suggesting interaction or selection. Surrounding the circle are labels indicating different functions such as "Undo," "Redo," "Menu," and "Snap." The layout suggests a user interface for a digital tool or application.
+
+### Key Elements
+- **Central Hand Icon**: A white hand icon with a blue glow, located at the top-center of the circle. It is surrounded by a light blue, teardrop-shaped highlight.
+- **Circular Interface**: A dark gray circle with a black center, containing four quadrant sections labeled "Undo," "Redo," "Menu," and "Snap."
+- **Labels**: Text labels for each quadrant, written in white, positioned outside the circle.
+- **Background**: A solid blue background that fills the entire image.
+
+### Visual Flow / Relationships
+The most prominent visual element is the hand icon, which draws attention due to its glowing effect. The circular interface is the focal point, with the quadrant labels arranged symmetrically around it. The hand icon appears to be the target of interaction, as indicated by the highlight.
+
+</details>
+
+<p></p>
+
+
 
 Alternatively, you can press and hold **up** on the left thumbstick. A line with a circle on the end will appear. When you release the left thumbstick, you will enter preview mode at the circle’s location.
 
-![](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/470186836_608097698394852_4386727109292534099_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=OyCL_eFdaicQ7kNvwEbTDu4&_nc_oc=Adn7tUaF6gvlskaf5H1Uj_XeR0ubSBeVabi-tW-EAYIPIuRrhuFlt5BwQNc9UT7RCwpm9kZ07DlumQA_1fj3YPP9&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=CT6b1uGJtKPXLPgidZaLow&oh=00_AfkfUxdfWR7fNEh_EuYPmfZzy80rKprw-odGm6J_WkNQeg&oe=69559F7A)
+<details>
+<summary>Image Content</summary>
+
+<p></p>
+
+[All image details and metadata](../../image_data/dc66c2124ff6ed4df35083c14e0dd0104cacc1b191118ceadd4b09b6a05596df.md)
+
+### Overview
+This image depicts a virtual environment within a game or simulation. It features a character interacting with a modular construction system, set against a backdrop of a grassy landscape with trees and distant mountains. The scene includes interactive elements and a control interface on the left side.
+
+### Key Elements
+- **Character**: A blue humanoid figure is positioned near the center-right of the image, interacting with the construction system. The character is pointing towards the structure.
+- **Construction System**: A modular, gray, stone-like structure with open panels and a central circular cutout. The structure appears to be part of a larger building or platform.
+- **Control Interface**: Located on the left side of the image, featuring a circular control pad with directional arrows and labeled buttons such as "Menu," "Undo," "Snap," "Array," and "Preview."
+- **Background**: A green grassy field with scattered trees, rocks, and distant mountains under a clear blue sky.
+- **Additional Elements**: A wooden structure resembling a small shelter or gazebo is visible in the background, along with a floating blue icon above the character indicating a possible action or interaction point.
+
+### Visual Flow / Relationships
+The most prominent visual element is the character, which draws attention due to its central placement and active engagement with the construction system. The control interface on the left provides interactive options for the player. The background elements provide context and depth to the scene, while the floating icon suggests a focus area for the player’s next action.
+
+</details>
+
+<p></p>
+

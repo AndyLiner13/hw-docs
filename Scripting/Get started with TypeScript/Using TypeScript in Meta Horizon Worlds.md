@@ -371,17 +371,92 @@ You can hover over the symbol to get a description of the error. To fix the erro
   
 - Select **Recompile**.
 
-  ![Selecting the Recompile option](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484176691_673266581877963_3979474993532795633_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=BwRO6YWb0_sQ7kNvwHOU7n4&_nc_oc=AdlUmdhhokv0rcfxtK4zX-XAGYLyuuINlefahmyv55f05pUUKR0sHy9VG2jhKIBIUFPKpCcs_f4zQB2XUXBHfkyd&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=y1tKGVqSoAWMevJSj9JnHg&oh=00_Aflwf4hZylnGmneimZbQkG1jiQFGXcDJ71-6_tKdmg0Gaw&oe=69559E99)
+  <details>
+  <summary>Selecting the Recompile option</summary>
+  
+  <p></p>
+  
+  [Selecting the Recompile option](../../image_data/e3018f68c6dde5eb4f8a64b8bcdefd08540c3e1ba2ce8ff12efc73d742c015b0.md)
+  
+  ### Overview
+  This image depicts a user interface element, specifically a menu item within a software application. The menu item is highlighted with a red bounding box, indicating its importance or selection status.
+  
+  ### Key Elements
+  - **Visual description**: The menu item is rectangular with rounded corners.
+  - **Location**: Positioned at the top of the menu.
+  - **Contents**: Contains the text "Recompile" in white font against a dark background.
+  - **Visual styling**: The background is dark gray (#333333), and the text is white (#FFFFFF).
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the "Recompile" menu item, which is clearly marked by the red bounding box. There are no arrows or lines connecting elements, but the menu items are arranged vertically, suggesting a typical dropdown menu layout.
+  
+  </details>
+  
+  <p></p>
+  
+  
 
 ## Rename an existing script
 
 - Select the TypeScript file in your script library.
 - Hover over the script file, and click the menu button.
 
-  ![A vertical ellipsis menu next to the script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/482961547_673266611877960_3416918244632570124_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=brzUhbx1sf0Q7kNvwEdeVm4&_nc_oc=AdnT7CBouftzWT_K_9B4mdOYQdOD43V78xQ7L1dnIiwrAFFY1WCA7WST-T-6a6VfxpGTh8JnH_mWvnUnIoUGVJno&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=y1tKGVqSoAWMevJSj9JnHg&oh=00_Afmbuu_SZmosoSzWmaO1F8lidsPCJDuOUPTk_C1m5fbV9w&oe=6955724E)
+  <details>
+  <summary>A vertical ellipsis menu next to the script</summary>
+  
+  <p></p>
+  
+  [A vertical ellipsis menu next to the script](../../image_data/87387261df910edb893a6ae0809a5fa0abff38d86b0a7440286a0e089eaa86ec.md)
+  
+  ### Overview
+  This image depicts a notification or status bar at the top of a user interface, likely within a software application. It contains a message and a set of interactive elements.
+  
+  ### Key Elements
+  - **Visual description**: The notification bar has a dark background with light-colored text and icons.
+  - **Location**: Positioned at the top of the screen.
+  - **Contents**: 
+      - A circular icon with a 'T' inside, possibly representing a user profile or a specific feature.
+      - Text that reads "new behavior" followed by "Saved at 2:21:58 - Compiled".
+      - A vertical ellipsis ('...') icon located on the far right.
+  - **Visual styling**: The text is white, and the background is a dark grayish-blue. The ellipsis icon has a red border.
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the text message, which conveys the primary information. The ellipsis icon suggests additional options or settings related to the notification.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Select **Rename**.
 
-  ![Selecting the rename option](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/482989027_673266625211292_1290338324610601907_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=LNnkew7EmnQQ7kNvwHkEPmS&_nc_oc=AdnWYj06pn5mZcU9AvrisrqP7TP2iESkPiJjxqpuxxnTYRuMbDKWZyeLDIqQw_KQiyqS0IZyHUjQaIz1cCfRT49m&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=y1tKGVqSoAWMevJSj9JnHg&oh=00_AfmFuLNXEs-F135R9D626OWjU5JXraUNIJytYkI8a92ucA&oe=69556DB2)
+  <details>
+  <summary>Selecting the rename option</summary>
+  
+  <p></p>
+  
+  [Selecting the rename option](../../image_data/e2fc3ff46b69a7066dd09dc264ecfff590b67d6cc7a00b6e21876a3e507843f1.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a menu or options panel with two actionable buttons labeled "Rename" and "Delete". The layout suggests a settings or configuration screen.
+  
+  ### Key Elements
+  - **Visual description**: The image shows a rectangular panel with two buttons.
+  - **Location**: The buttons are located within a larger panel that seems to be part of a settings or configuration interface.
+  - **Contents**: 
+    - The first button has the text "Rename" in white font on a red background.
+    - The second button has the text "Delete" in white font on a red background.
+  - **Visual styling**: Both buttons have a solid red background with white text. There are no borders around the buttons themselves, but the entire panel has a subtle shadow effect, giving it a slight elevation.
+  
+  ### Visual Flow / Relationships
+  - **Most prominent visually**: The "Rename" button is the most prominent due to its placement and color contrast.
+  - **Spatial relationships**: The buttons are arranged horizontally, with "Rename" above "Delete". There are no connecting lines or arrows indicating a specific reading order.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Make any name changes in the text box.
   **Note**: Changing the name of a script will only change the reference to it. It will not recompile the script.
 
@@ -390,10 +465,58 @@ You can hover over the symbol to get a description of the error. To fix the erro
 - Select the TypeScript file in your script library.
 - Hover over the script file, and click the menu button.
 
-  ![A vertical ellipsis menu next to the script](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/482961547_673266611877960_3416918244632570124_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=brzUhbx1sf0Q7kNvwEdeVm4&_nc_oc=AdnT7CBouftzWT_K_9B4mdOYQdOD43V78xQ7L1dnIiwrAFFY1WCA7WST-T-6a6VfxpGTh8JnH_mWvnUnIoUGVJno&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=y1tKGVqSoAWMevJSj9JnHg&oh=00_Afmbuu_SZmosoSzWmaO1F8lidsPCJDuOUPTk_C1m5fbV9w&oe=6955724E)
+  <details>
+  <summary>A vertical ellipsis menu next to the script</summary>
+  
+  <p></p>
+  
+  [A vertical ellipsis menu next to the script](../../image_data/87387261df910edb893a6ae0809a5fa0abff38d86b0a7440286a0e089eaa86ec.md)
+  
+  ### Overview
+  This image depicts a notification or status bar at the bottom of a user interface, likely within a software application. It contains a message and a set of interactive elements.
+  
+  ### Key Elements
+  - **Visual description**: A rectangular area with rounded corners.
+  - **Location**: Bottom of the screen.
+  - **Contents**: 
+      - Text: "new behavior"
+      - Sub-text: "Saved at 2:21:58 - Compiled"
+  - **Visual styling**: The background is dark gray (#333333), and the text is white (#FFFFFF).
+  
+  ### Visual Flow / Relationships
+  The most prominent visual element is the text message indicating a new behavior has been saved and compiled. There is a vertical ellipsis ("...") icon on the right side, which likely indicates more options or settings related to the notification.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Select **Delete**.
 
-  ![Selecting the Delete option](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/484139456_673266605211294_8095133706982699723_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Reuyjol69Q8Q7kNvwHsjtOy&_nc_oc=AdmCHMXBkjayrKwaVzhEeXo-4ToBBZtW9WOvQXkg5qEFk1ZnwIJJSTVETe1VN6jFmI4Spel_yHOkK7c8ECfs3UVN&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=y1tKGVqSoAWMevJSj9JnHg&oh=00_AfkrlvfAGuwXCN-Uacy5Xc3x4ZPNo-HmA5pxO0COjyb1rQ&oe=69559BEF)
+  <details>
+  <summary>Selecting the Delete option</summary>
+  
+  <p></p>
+  
+  [Selecting the Delete option](../../image_data/6d38cc3ff15368670958d1359bdc15468b68edb29a34832f24b2ca48bb198a9f.md)
+  
+  ### Overview
+  This image depicts a user interface element showing a menu item with a "Delete" option highlighted in red. The menu is part of a larger interface, likely a file management or application settings screen.
+  
+  ### Key Elements
+  - **Visual description**: The menu item is rectangular with rounded corners.
+  - **Location**: Positioned centrally within the menu.
+  - **Contents**: The word "Delete" is written in white text on a red background.
+  - **Visual styling**: The text is bold and the background is solid red.
+  
+  ### Visual Flow / Relationships
+  The "Delete" option is the most prominent element due to its red highlighting. There are no arrows or lines connecting elements, suggesting a simple linear menu structure where users can select options sequentially.
+  
+  </details>
+  
+  <p></p>
+  
+  
 - Click **Confirm** to delete the script.
 
 ## An example of a simple script
