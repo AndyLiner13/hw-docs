@@ -452,5 +452,5 @@ The **Creator** toolbar is part of the suite of tools in the Desktop Editor UI. 
 
 You can also try out the editor by working through these beginner tutorials:
 
-* [Create Your First World](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world)
+* [Create Your First World](../../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
 * [Batting Cage Tutorial](../../../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)

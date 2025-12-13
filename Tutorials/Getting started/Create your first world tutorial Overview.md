@@ -5,7 +5,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 Welcome to the “Create Your First World” tutorial.
 In this tutorial, you’ll learn how to create a simple game in Worlds. This tutorial has two parts. You can go to either part directly, by clicking the link for part 1 or part 2. Or you can go to Part 1 and continue from there to Part 2 following the link you’ll find there.
 
-* [Part 1](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world) shows you how to create a new world, then place an asset in your newly created world, manipulate that asset using the desktop editor before previewing your world, and finally playing in your world on a mobile device.
+* [Part 1](Create%20your%20first%20world%20tutorial,%20part%201.md) shows you how to create a new world, then place an asset in your newly created world, manipulate that asset using the desktop editor before previewing your world, and finally playing in your world on a mobile device.
 * [Part 2](Create%20your%20first%20world%20tutorial,%20part%202.md) takes you a step further, and it shows you how to import custom 3D models to your world and write your first script to create unique behavior for the objects in the world. The tutorial then ends with playing the simple game in virtual reality.
 
 ## Prerequisites

@@ -4,12 +4,12 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 **Welcome to Part 2 of the Creating Your First World Tutorial**
 
-In this tutorial, you’ll continue to learn how to create a simple game in Horizon Worlds, where you shoot marauding skeletons in a graveyard. Where [Create your first world tutorial, part 1](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world) showed you how to create a new world and build the basics of the game, part 2 will take you a bit farther.
+In this tutorial, you’ll continue to learn how to create a simple game in Horizon Worlds, where you shoot marauding skeletons in a graveyard. Where [Create your first world tutorial, part 1](Create%20your%20first%20world%20tutorial,%20part%201.md) showed you how to create a new world and build the basics of the game, part 2 will take you a bit farther.
 Part 2 shows you how to import custom models, which are which are complex 3D models that are not available in the public asset library. You won’t be creating them here—you’ll use demo assets so you can see how they’re imported. Once you’ve done that, the tutorial shows you how to write a basic script and attach it to the entity to create behavior. The tutorial ends with testing the simple game in virtual reality.
 
 Creating customs models is outside the scope of this tutorial, but if you want to find out more about them, see [Creating a custom model](../../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md).
 
-If you’re looking for the first half of the tutorial, go to the [Introductory Tutorial part 1](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world).
+If you’re looking for the first half of the tutorial, go to the [Introductory Tutorial part 1](Create%20your%20first%20world%20tutorial,%20part%201.md).
 
 The key things you should learn from this module are the following:
 
@@ -20,7 +20,7 @@ The key things you should learn from this module are the following:
 
 **Note**: This tutorial assumes that you’ve completed the prerequisites discussed in [Create your first world tutorial introduction](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-a-new-world-intro).
 
-This part of the tutorial requires that you first complete [part 1](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world), as this is a continutation of that process.
+This part of the tutorial requires that you first complete [part 1](Create%20your%20first%20world%20tutorial,%20part%201.md), as this is a continutation of that process.
 
 ## Step 1: Add a pedestal and a rifle
 

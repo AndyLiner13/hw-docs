@@ -343,6 +343,6 @@ For more information, see the [Gen AI Texture Generation tool](../Desktop%20edit
 
 To learn more about Worlds, try the following:
 
-- [Create your first world](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world) using our step-by-step tutorial.
+- [Create your first world](../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
 - Learn about the desktop editor with the [Introduction to the desktop editor](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs) to learn about our program benefits.

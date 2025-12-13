@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Debug console gizmo
 
-When you create your world, there are helpful development tools for [debugging and optimization](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/developer-tools-for-tutorials). One such tool is the debug console [gizmo](About%20gizmos.md), which allows you to debug scripts in real time while you’re in the virtual environment with the headset on. This is often referred to as in-world debugging. It is designed to display script messages with an in-world interface for viewing debug information, making it more suitable for interactive and real-time debugging scenarios. You can see logs and debug information as you interact with the world. In comparison, the standard console displays similar information in the log viewer in the [desktop editor](../Desktop%20editor/Desktop%20Editor.md) under the tab **Console**.
+When you create your world, there are helpful development tools for [debugging and optimization](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Developer%20Tools%20for%20Tutorials.md). One such tool is the debug console [gizmo](About%20gizmos.md), which allows you to debug scripts in real time while you’re in the virtual environment with the headset on. This is often referred to as in-world debugging. It is designed to display script messages with an in-world interface for viewing debug information, making it more suitable for interactive and real-time debugging scenarios. You can see logs and debug information as you interact with the world. In comparison, the standard console displays similar information in the log viewer in the [desktop editor](../Desktop%20editor/Desktop%20Editor.md) under the tab **Console**.
 
 The following image shows the [debug console](../Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md) gizmo while you have the headset on, providing an immersive debugging experience. As shown, the **Start world**, **Stop world**, and **Rest world** buttons control the executing states of the scripts.
 
@@ -130,7 +130,7 @@ This image depicts a user interface element showing a dropdown menu within a set
 Now you’ve been introduced to the debug console gizmo, further your learning with tutorial worlds with completed samples, and developer guides:
 
 * [Meta Horizon Creator Program creators manual on the debug console gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#debug-console-gizmo)
-* [Developer tools for tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/developer-tools-for-tutorials)
+* [Developer tools for tutorials](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Developer%20Tools%20for%20Tutorials.md)
 * [The debug console](../Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md)
 * [Roof top racer tutorial worlds on testing tools](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-2-overall-game-manager-systems#testing-tools)
 * [TypeScript Tutorial](../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Tutorial.md)

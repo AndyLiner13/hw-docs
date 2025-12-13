@@ -197,9 +197,9 @@ Instead, most mobile games introduce new mechanics or game modes during early le
 
 The next article in this series will focus on ten best practices for your new user experience. By mastering these fundamentals, you can build a NUX that is deeply engaging for your players.
 
-Consider checking out the [showInfoSlides API Tutorial Manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-2-tutorial-manager) for Horizon Worlds. It is a popup system at launch where creators can put images and texts into a short slide show of instructions for their NUX.
+Consider checking out the [showInfoSlides API Tutorial Manager](../Tutorials/Feature%20samples/New%20user%20experience%20tutorial/Module%202%20-%20Tutorial%20Manager.md) for Horizon Worlds. It is a popup system at launch where creators can put images and texts into a short slide show of instructions for their NUX.
 
-Additionally, you can check out an entire Tutorial World we created as reference content on how to make in-world NUXes for more advanced creators. Go [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-1-setup) to see the tutorial world.
+Additionally, you can check out an entire Tutorial World we created as reference content on how to make in-world NUXes for more advanced creators. Go [here](../Tutorials/Feature%20samples/New%20user%20experience%20tutorial/Module%201%20-%20Introduction.md) to see the tutorial world.
 
 <details>
 <summary>Image Content</summary>
@@ -229,4 +229,4 @@ The image depicts a 3D-rendered scene featuring a character standing on a platfo
 
 
 
-*Visit our Tutorial World [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-1-setup) to get a sense of how a tutorial system in Worlds works.*
+*Visit our Tutorial World [here](../Tutorials/Feature%20samples/New%20user%20experience%20tutorial/Module%201%20-%20Introduction.md) to get a sense of how a tutorial system in Worlds works.*

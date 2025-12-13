@@ -20,7 +20,7 @@ When someone visits Worlds as a user, they always see the published version of a
 ## Getting started
 
 The initial step toward creating your first world is to [install the desktop editor](Get%20started/Install%20the%20desktop%20editor.md). This desktop editor is your main platform for creating a world, and it contains many other tools that you’ll find useful as you create. To see what tools are available to you as a creator, check out our [tools overview](Get%20started/Tools%20overview.md).
-After you’ve installed the desktop editor, we suggest you try the [create your first world tutorial](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world). This is the first of a two-part tutorial where you’ll learn how to create a simple game in Worlds. You can follow this up with the second part of the tutorial, which continues to walk you through building a simple game. In these two introductory tutorials, you’ll experience most of the basic aspects of working with a world, such as:
+After you’ve installed the desktop editor, we suggest you try the [create your first world tutorial](Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md). This is the first of a two-part tutorial where you’ll learn how to create a simple game in Worlds. You can follow this up with the second part of the tutorial, which continues to walk you through building a simple game. In these two introductory tutorials, you’ll experience most of the basic aspects of working with a world, such as:
 
 * Creating your world
 * Setting up the tooling you need
