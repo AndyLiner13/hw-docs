@@ -97,7 +97,7 @@ This asset template is now available for you to use in any world!
 
 To add the asset to a world, open the Asset Library tab in the desktop editor. Locate the folder where the asset is located. Drag the asset into the world.
 
-Asset templates can also be spawned into a world at runtime using TypeScript. For more information, see [Spawning and Pooling in TypeScript](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup).
+Asset templates can also be spawned into a world at runtime using TypeScript. For more information, see [Spawning and Pooling in TypeScript](../../Feature%20samples/Spawning%20and%20pooling%20in%20typescript/Module%201%20-%20Setup.md).
 
 ## Use Scripts from Worlds
 

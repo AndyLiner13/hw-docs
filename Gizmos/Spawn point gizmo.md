@@ -173,9 +173,9 @@ Now you’ve been introduced to the spawn point gizmo, further your learning wit
 
 * [Create your first world tutorial: designate a spawn point](../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#section-2-place-assets-in-the-scene)
 * [Simple respawn script](../MHCP%20program/Community%20guides/CodeBlocks%20to%20TypeScript.md#simplerespawnscriptts)
-* [Multiplayer lobby entering the match](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/multiplayer-lobby-tutorial/module-5-entering-the-match)
+* [Multiplayer lobby entering the match](../Tutorials/Feature%20samples/Multiplayer%20lobby%20tutorial/Module%205%20-%20Entering%20the%20Match.md)
 * [Chop’N pop](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup)
-* [Rooftop racer](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-1-setup)
-* [Set initial PlayerCamera point of view](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-2-playercamera-overview#set-initial-playercamera-point-of-view)
+* [Rooftop racer](../Tutorials/Genre%20samples/Horizon%20traversal%20sample%20world/Module%201%20-%20Setup.md)
+* [Set initial PlayerCamera point of view](../Tutorials/Feature%20samples/Camera%20api%20examples%20tutorial/Module%202%20-%20PlayerCamera%20Overview.md#set-initial-playercamera-point-of-view)
 * [Meta Horizon Creator Program creators manual](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#spawn-point-gizmo)
-* [Object spawning](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup)
+* [Object spawning](../Tutorials/Feature%20samples/Spawning%20and%20pooling%20in%20typescript/Module%201%20-%20Setup.md)

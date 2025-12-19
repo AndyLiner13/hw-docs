@@ -48,9 +48,9 @@ Additionally, built-in [`CodeBlockEvents`](../Reference/core/Variables/CodeBlock
 
 Now that you’ve been introduced to the quests gizmo, continue your learning with hands-on tutorials, and more related developer guides:
 
-* [Tutorial worlds on variable groups and persistent variables](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-1-setup)
-* [Tutorial worlds on quests](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-5-quest-manager)
-* [Tutorial worlds on persistent variables](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-7-persistent-variables)
+* [Tutorial worlds on variable groups and persistent variables](../Tutorials/Feature%20samples/Scripted%20Avatar%20NPC%20tutorial/Module%201%20-%20Setup.md)
+* [Tutorial worlds on quests](../Tutorials/Feature%20samples/Scripted%20Avatar%20NPC%20tutorial/Module%205%20-%20Quest%20Manager.md)
+* [Tutorial worlds on persistent variables](../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%207%20-%20Persistent%20Variables.md)
 * [Meta Horizon Creator Program’s creator manual on the quests gizmo](https://my-od.developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/quest-gizmo)
 * [Quests, leaderboards, and variable groups](../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
 * [Writing for localization on providing description of the quest](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/internationalization/writing-for-localization)

@@ -177,4 +177,4 @@ hz.Component.register(TestSeatGizmo);
 Try the following topics to further your learning:
 
 * [Avatar poses](../Mobile%20and%20web/Grabbable%20entities/Avatar%20Poses.md)
-* [Tutorial worlds customize avatar interaction](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-6-room-a-the-magic-wand#customize-avatar-interactions)
+* [Tutorial worlds customize avatar interaction](../Tutorials/Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%206%20-%20Room%20A-%20The%20Magic%20Wand.md#customize-avatar-interactions)

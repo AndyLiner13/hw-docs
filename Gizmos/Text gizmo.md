@@ -38,8 +38,8 @@ To create a dynamic text display, use Meta Horizon Worlds [text gizmo API](../Re
 Now you’ve been introduced to the text gizmo, further your learning with hands-on tutorials, [tutorial worlds](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md) with completed samples, and developer guides:
 
 * [Create your first world tutorial part 2 display the score](../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%202.md#section-9-display-the-score)
-* [Chop ‘n’ Pop sample world floating text manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-5-floating-text-manager)
-* [Chop ‘n’ Pop sample world weapon systems pistol](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-8-weapon-systems-pistol)
-* [Simple gun](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-3-simple-gun)
-* [Develop for web and mobile the HUD system](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-2-the-hud-system)
+* [Chop ‘n’ Pop sample world floating text manager](../Tutorials/Genre%20samples/Chop%20N%20Pop%20sample%20world/Module%205%20-%20Floating%20Text%20Manager.md)
+* [Chop ‘n’ Pop sample world weapon systems pistol](../Tutorials/Genre%20samples/Chop%20N%20Pop%20sample%20world/Module%208%20-%20Weapon%20Systems%20-%20Handgun.md)
+* [Simple gun](../Tutorials/Feature%20samples/Simple%20shooting%20mechanics%20tutorial/Module%203%20-%20Simple%20Gun.md)
+* [Develop for web and mobile the HUD system](../Tutorials/Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%202%20-%20The%20HUD%20System.md)
 * [Meta Horizon Creator Program creators manual](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#text-gizmo)

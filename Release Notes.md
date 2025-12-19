@@ -339,7 +339,7 @@ The image is a slide or announcement slide with a light gradient background tran
 ## New Features
 
 * **NoesisUI for Desktop Editor:** NoesisUI is a new 2D UI solution we have added to Horizon editor so creators can build more compelling, creative and performant 2D UI panels. When using Noesis with the desktop editor, users can build their UI panels in Noesis Studio and import them into the desktop editor. Check the documentation here for information on [creating your Noesis panels](Desktop%20editor/NoesisUI/Create%20a%20Noesis%20UI%20Panel.md), [configuring your NoesisUI panel](Desktop%20editor/NoesisUI/Customizing%20Noesis%20UI%20Behavior.md), [setting up animations for your panels](Desktop%20editor/NoesisUI/Noesis%20UI%20Animations.md), [performance considerations](Desktop%20editor/NoesisUI/Noesis%20UI%20Performance%20Considerations.md), and [fonts](Desktop%20editor/NoesisUI/Noesis%20UI%20Fonts%20Usage.md).
-* **NoesisUI Tutorial World:** A new [tutorial world](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/noesis-ui-tutorial-world/module-1-setup) is also available that demonstrates the NoesisUI integration in the desktop editor and provides examples for implementing NoesisUI into your world. Check out the NoesisUI tutorial world here.
+* **NoesisUI Tutorial World:** A new [tutorial world](Tutorials/Feature%20samples/Noesis%20UI%20tutorial%20world/Module%201%20-%20Setup.md) is also available that demonstrates the NoesisUI integration in the desktop editor and provides examples for implementing NoesisUI into your world. Check out the NoesisUI tutorial world here.
 * **Player Locomotion API:** The player class in TypeScript now includes locomotion functions previously exclusive to NpcPlayer, enabling local player movement, pathfinding, jumping, and rotation. Great for 'tap to move' gameplay styles, see the API docs and tutorial for details.
 
 ## Bug Fixes
@@ -517,7 +517,7 @@ The visual hierarchy is clear, with the title area drawing attention first. The 
 
 * **New Template World:** We are launching a new template world to help creators speed up their development. Find this when opening the editor in the creation home under the Template header.
 
-+ **AI Conversation Template:** This template provides step-by-step instructions for setting up NPCs, customizing their personalities, and configuring how they respond to player actions and game events. Learn more about this template  [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-1-introduction).
++ **AI Conversation Template:** This template provides step-by-step instructions for setting up NPCs, customizing their personalities, and configuring how they respond to player actions and game events. Learn more about this template  [here](Tutorials/Feature%20samples/AI%20conversation%20tutorial/Module%201%20-%20Introduction.md).
 
 ## Quality Of Life Improvements
 
@@ -638,8 +638,8 @@ The visual hierarchy is clear, with the title as the most prominent element. The
     
   For avatar clothing creation and best practices, items must be rated 10+, adhere to content guidelines, create original content and leverage AI responsibly. Learn more about this feature [here](https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/avatar-clothing-creation-and-selling).
 * **New Tutorial and Template Worlds:** We are launching two new tutorial worlds and one new template world to help creators speed up their development. Find these when opening the editor in the creation home under the Tutorial and Template headers.
-  + **Sim Tycoon | Template:** This tutorial contains all the game logic and systems needed for compelling player progression within a Sim Tycoon like game. It is designed to be easily reskinned and rethemed to anything the player can imagine. Learn more [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-0-setup).
-  + **Custom UI | Tutorial:** UI is very hard! With this sample world we provide several useful UI elements for Creators to copy and use in their game. Learn more [here](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-0-setup).
+  + **Sim Tycoon | Template:** This tutorial contains all the game logic and systems needed for compelling player progression within a Sim Tycoon like game. It is designed to be easily reskinned and rethemed to anything the player can imagine. Learn more [here](Tutorials/Genre%20samples/Sim%20tycoon%20tutorial/Module%200%20-%20Setup.md).
+  + **Custom UI | Tutorial:** UI is very hard! With this sample world we provide several useful UI elements for Creators to copy and use in their game. Learn more [here](Tutorials/Feature%20samples/Custom%20UI%20tutorial%20world/Zone%200%20-%20Setup.md).
   + **New User Experience | Tutorial:** This sample world contains many useful components to help new users learn the game in a more step-by-step way: arrows to lure them to points of interest, hint texts, and the ability to lock progression on certain actions. Learn more [here](Tutorials/Feature%20samples/New%20user%20experience%20tutorial/Module%201%20-%20Introduction.md).
 
 ## Quality of Life Improvements

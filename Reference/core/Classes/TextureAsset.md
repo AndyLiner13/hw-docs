@@ -14,7 +14,7 @@ export declare class TextureAsset extends Asset
 
 ## Remarks
 
-For information about usage, see the [Image from Asset](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-2-image-from-asset) tutorial.
+For information about usage, see the [Image from Asset](../../../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md) tutorial.
 
 ## Methods
 

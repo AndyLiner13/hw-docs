@@ -13,7 +13,7 @@ export declare class ImageSource
 ## Remarks
 
 In order to apply an image to an image component, the image must be uploaded to your asset library as a PNG.
-For information about usage, see the [Image from Asset](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/tutorial-worlds/custom-ui-examples-tutorial/station-2-image-from-asset) section of the Custom UI Examples tutorial.
+For information about usage, see the [Image from Asset](../../../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md) section of the Custom UI Examples tutorial.
 
 ## Methods
 

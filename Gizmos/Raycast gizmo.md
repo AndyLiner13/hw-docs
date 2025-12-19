@@ -82,6 +82,6 @@ The result of the raycast collision is [RaycastHit](../Reference/core/Type%20Ali
 
 Try the following tutorial worlds with code samples and related guides:
 
-* [Simple shooting mechanics](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-4-laser-gun#raycast-gizmo)
-* [Use tap inputs to interact with a keypad](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-7c-use-tap-inputs-to-interact-with-a-keypad)
+* [Simple shooting mechanics](../Tutorials/Feature%20samples/Simple%20shooting%20mechanics%20tutorial/Module%204%20-%20Laser%20Gun.md#raycast-gizmo)
+* [Use tap inputs to interact with a keypad](../Tutorials/Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%207C%20-%20Use%20tap%20inputs%20to%20interact%20with%20a%20keypad.md)
 * [Meta Horizon Creator Program creators manual](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#raycast-gizmo)

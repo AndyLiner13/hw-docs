@@ -14,7 +14,7 @@ export declare class UIGizmo extends Entity
 
 ## Remarks
 
-For information about usage, see the [Custom UI Examples](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/tutorial-worlds/custom-ui-examples-tutorial/station-0-setup) tutorial.
+For information about usage, see the [Custom UI Examples](../../../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%200%20-%20Setup.md) tutorial.
 
 ## Methods
 

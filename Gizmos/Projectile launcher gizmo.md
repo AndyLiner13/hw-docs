@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Projectile launcher gizmo
 
-The projectile launcher [gizmo](About%20gizmos.md) allows creators to launch objects or projectiles from a specific point in their world. With options to configure properties such as size and speed as well as implementing more customized launching mechanism through scripting, this gizmo can be used to create a variety of interactive and immersive experiences, such as [shooting games](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-1-setup) and [obstacle courses](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-6-room-a-the-magic-wand).
+The projectile launcher [gizmo](About%20gizmos.md) allows creators to launch objects or projectiles from a specific point in their world. With options to configure properties such as size and speed as well as implementing more customized launching mechanism through scripting, this gizmo can be used to create a variety of interactive and immersive experiences, such as [shooting games](../Tutorials/Feature%20samples/Simple%20shooting%20mechanics%20tutorial/Module%201%20-%20Setup.md) and [obstacle courses](../Tutorials/Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%206%20-%20Room%20A-%20The%20Magic%20Wand.md).
 
 ## Limitations
 
@@ -31,7 +31,7 @@ The projectile launcher gizmo is an entity. All objects in a world are represent
 
 ### Behavior
 
-[Properties and variables](../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md#properties-and-variables) that define the behavior and are specific to the projectile launcher gizmo are listed under **Properties** > **Behavior** in the UI panel. For the [projectile launcher gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-2-projectile#projectile-launcher-gizmo), physics properties are notable. For example, configure **Gravity** for gravity, and **Player Collision**, **Object Collision**, and **Static Collision** for collision detection when the projectiles collide with other entities such as players, objects, or static objects.
+[Properties and variables](../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md#properties-and-variables) that define the behavior and are specific to the projectile launcher gizmo are listed under **Properties** > **Behavior** in the UI panel. For the [projectile launcher gizmo](../Tutorials/Feature%20samples/Simple%20shooting%20mechanics%20tutorial/Module%202%20-%20Projectile.md#projectile-launcher-gizmo), physics properties are notable. For example, configure **Gravity** for gravity, and **Player Collision**, **Object Collision**, and **Static Collision** for collision detection when the projectiles collide with other entities such as players, objects, or static objects.
 
 Additionally, you can choose from different types of projectiles, such as spheres, cubes, or grenade in **Projectile Preset**. Configure projectile launch speed in **Speed** and color in **Projectile Color**. To make the projectiles easier to see, adjust **Scale** and **Trail Length Scale** based on your preferences.
 
@@ -56,8 +56,8 @@ For example, to customize certain behavior in reaction to occurrences in the wor
 Now you’ve been introduced to the projectile launcher gizmo, further your learning with hands-on tutorials, tutorial worlds with completed samples, and developer guides:
 
 * [Create your first world tutorial on projectile launcher gizmo](../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%202.md#section-6-add-a-projectile-launcher-to-the-rifle)
-* [Simple shooting mechanics on projectile](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/simple-shooting-mechanics-tutorial/module-2-projectile)
-* [Tutorial worlds for web and mobile on the magic wand](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-6-room-a-the-magic-wand#set-up-a-grabbable-object-that-shoots-projectiles)
+* [Simple shooting mechanics on projectile](../Tutorials/Feature%20samples/Simple%20shooting%20mechanics%20tutorial/Module%202%20-%20Projectile.md)
+* [Tutorial worlds for web and mobile on the magic wand](../Tutorials/Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%206%20-%20Room%20A-%20The%20Magic%20Wand.md#set-up-a-grabbable-object-that-shoots-projectiles)
 * [Meta Horizon Worlds creator’s manual on projectile launcher gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#projectile-launcher-gizmo)
 * [Batting cage](../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)
 * [TypeScript components, properties, and variables](../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md#gizmos).

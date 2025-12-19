@@ -171,4 +171,4 @@ In certain scenarios, you may observe that the UI aligns well on web and mobile 
 
 ## What’s next?
 
-Try the tutorial world on [non-interactive screen overlay](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-examples-tutorial/station-10-timer-and-build-info-overlays).
+Try the tutorial world on [non-interactive screen overlay](../../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%2010%20-%20Timer%20and%20Build%20Info%20Overlays.md).

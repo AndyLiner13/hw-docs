@@ -14,7 +14,7 @@ export declare class SpawnPointGizmo extends Entity
 
 ## Remarks
 
-For more information about using the Spawn Point gizmo, see [Spawn Points](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/multiplayer-lobby-tutorial/module-5-entering-the-match) guide.
+For more information about using the Spawn Point gizmo, see [Spawn Points](../../../Tutorials/Feature%20samples/Multiplayer%20lobby%20tutorial/Module%205%20-%20Entering%20the%20Match.md) guide.
 
 ## Properties
 
