@@ -152,7 +152,7 @@ Script dependencies:
 
 ## How to Deploy
 
-Scripts and their related script dependencies and assets must be deployed into your world. For more information, see “Deploying Systems” in [Module 1 - Setup](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
+Scripts and their related script dependencies and assets must be deployed into your world. For more information, see “Deploying Systems” in [Module 1 - Setup](Module%201%20-%20Setup.md).
 
 ## How to Use
 

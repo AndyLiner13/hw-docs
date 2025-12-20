@@ -64,4 +64,4 @@ Whenever that asset template is deployed, a reference to the script is deployed 
 
 For more information, see [Asset Templates](../../../Desktop%20editor/Assets/Asset%20Templates.md).
 
-For more information, see “Deploying Systems” in [Module 1 - Setup](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
+For more information, see “Deploying Systems” in [Module 1 - Setup](Module%201%20-%20Setup.md).
