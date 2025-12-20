@@ -132,5 +132,5 @@ Now you’ve been introduced to the debug console gizmo, further your learning w
 * [Meta Horizon Creator Program creators manual on the debug console gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#debug-console-gizmo)
 * [Developer tools for tutorials](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Developer%20Tools%20for%20Tutorials.md)
 * [The debug console](../Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md)
-* [Roof top racer tutorial worlds on testing tools](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-2-overall-game-manager-systems#testing-tools)
+* [Roof top racer tutorial worlds on testing tools](../Tutorials/Genre%20samples/Horizon%20traversal%20sample%20world/Module%202%20-%20Overall%20Game%20Manager%20Systems.md#testing-tools)
 * [TypeScript Tutorial](../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Tutorial.md)

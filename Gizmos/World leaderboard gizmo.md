@@ -51,7 +51,7 @@ Now that you’ve been introduced to the world leaderboards gizmo, continue your
 * [Meta Horizon Creator Program’s creator manual on the world leaderboard gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#world-leaderboard-gizmo)
 * [Meta Horizon Creator Program’s creator manual on the leaderboards](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#leaderboards)
 * [Meta Horizon Creator Program’s creator manual on using persistent variables with leaderboards](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#using-a-leaderboard-with-a-player-persistent-variable)
-* [Tutorial worlds on variable groups and persistent variables](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-1-setup)
+* [Tutorial worlds on variable groups and persistent variables](../Tutorials/Feature%20samples/Scripted%20Avatar%20NPC%20tutorial/Module%201%20-%20Setup.md)
 * [Tutorial worlds on persistent variables](../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%207%20-%20Persistent%20Variables.md)
 * [Quests, leaderboards, and variable groups](../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
 * [Using in-world analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics#levelup)
