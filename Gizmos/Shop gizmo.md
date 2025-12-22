@@ -35,13 +35,11 @@ This image depicts a user interface element from a shopping or inventory managem
 
 
 
+
+
 The shop gizmo can be configured to display in-world items created in the **Systems > Commerce** menu. For more information on creating in-world items, visit the [In-World Purchase Guide](../MHCP%20program/Monetization/In-world%20purchase%20guide.md#creating-an-item).
 
 Behind the scenes, the world inventory stores how many of each in-world item is owned by each player. While the shop interfaces with the world inventory automatically, you can use [World Inventory TypeScript APIs](../Reference/core/Classes/WorldInventory.md) to manually query, grant, and consume in-world items in a player’s world inventory.
-
-## Limitations
-
-The shop gizmo can only handle in-world items set to “Consumable.” This is because “Durable” in-world items can only be granted to a player once and are never consumed; therefore, they have limited application for the shop.
 
 ## Access the shop gizmo
 

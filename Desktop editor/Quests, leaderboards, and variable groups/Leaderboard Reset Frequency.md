@@ -84,6 +84,7 @@ Learn the workflow involved in setting the leaderboard frequency by following th
     <p></p>
     
     
+  
   - Either create a new leaderboard by selecting **Create Leaderboard**, or edit an existing leaderboard by selecting **Edit**.
     <details>
     <summary>Image Content</summary>
@@ -146,6 +147,7 @@ Learn the workflow involved in setting the leaderboard frequency by following th
     <p></p>
     
     
+  
   - Beside **Reset frequency**, select the interval that you want. This can be Daily, Weekly, or Monthly. The value defaults to Never.
     <details>
     <summary>Image Content</summary>
@@ -176,6 +178,7 @@ Learn the workflow involved in setting the leaderboard frequency by following th
     <p></p>
     
     
+  
   - Save your changes by selecting **Save**.
 - Optional: Link a player’s persistent variable to the leaderboard reset.
 
@@ -207,6 +210,7 @@ Learn the workflow involved in setting the leaderboard frequency by following th
     <p></p>
     
     
+  
   - Select a persistent variable from one of the variable groups attached to this world.
     > **Note** : You can link only persistent variables with a number data type.
     > <details>
@@ -222,18 +226,19 @@ Learn the workflow involved in setting the leaderboard frequency by following th
     > ### Key Elements
     > - **Modal Window Title**: "Variable Groups"
     > - **Modal Window Content**: 
-    >   - **Search Bar**: Located at the top of the modal window.
+    >   - **Search Bar**: Located at the top, with placeholder text "Search."
     >   - **Persistent Variable List**: Contains two entries:
-    >     - **hh3**: "0 Persistent Variables"
-    >     - **hh1**: "1 Persistent Variable"
-    >       - This entry is highlighted with a blue border, indicating selection.
+    >     - **hh3**: "0 Persistent Variables" with a right arrow.
+    >     - **hh1**: "1 Persistent Variable" highlighted with a blue border, indicating selection.
+    >       - **Persistent Variable Icon**: A red database icon next to hh1.
+    >       - **Persistent Variable Label**: "hh1" with a count of "1 Persistent Variable."
     > - **Buttons**: Two buttons labeled "Cancel" and "Attach" are located at the bottom of the modal window.
-    > - **Background**: A stylized landscape with green hills, trees, and a blue sky.
+    > - **Background**: A stylized landscape with green hills, trees, and a blue sky, suggesting a virtual world environment.
     > 
     > ### Visual Flow / Relationships
-    > - **Most Prominent Element**: The modal window itself, as it is the focal point of the image.
+    > - **Most Prominent Element**: The "Variable Groups" modal window.
     > - **Arrows/Connectors**: None.
-    > - **Spatial Relationships**: The modal window is centered over the landscape background, with the sidebar menu partially visible on the left side.
+    > - **Reading Order**: The modal window is the focal point, with the persistent variable list being the secondary focus. The buttons at the bottom are less prominent but still important for interaction.
     > 
     > </details>
     > 
@@ -270,6 +275,8 @@ The most prominent visual element is the title "Leaderboard." The reset notice i
 </details>
 
 <p></p>
+
+
 
 
 
