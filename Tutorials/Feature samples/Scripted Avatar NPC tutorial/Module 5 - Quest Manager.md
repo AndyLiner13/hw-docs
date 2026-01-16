@@ -23,7 +23,7 @@ To manage quests in your world, you must create the following entities:
 | Quests | Quests are data entities that you create through the **Systems menu** in the Desktop Editor. A quest is some descriptive text for the player to be displayed in the Quest board, as well as the type of quest: Simple or Tracked (which means it is governed by a persistent variable). These quest types are discussed below. |
 | Script | In TypeScript, you must create the mechanisms for tracking and resolving the quests in your world. In this tutorial world, `QuestManager.ts` provides a simple model for managing quests. It is described in this module. |
 
-For more information, see [Quests Overview](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/quests-overview).
+For more information, see [Quests Overview](../../../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests%20Overview.md).
 
 ### Define quests
 

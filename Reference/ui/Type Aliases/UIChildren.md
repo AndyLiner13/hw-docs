@@ -12,4 +12,4 @@ export declare type UIChildren = UINode | UINode[];
 
 ## References
 
-[UINode](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uinode)
+[UINode](../Classes/UINode.md)

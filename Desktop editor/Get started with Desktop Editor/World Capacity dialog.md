@@ -25,7 +25,7 @@ Note
 
 ## Understanding capacity limits
 
-The capacity limits shown in this dialog are a quick snapshot of the current capacity of your world. There are other factors related to world capacity that are not shown in this dialog. To understand world capacity in more detail, see [Performance limits for a world](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-limits-for-a-world).
+The capacity limits shown in this dialog are a quick snapshot of the current capacity of your world. There are other factors related to world capacity that are not shown in this dialog. To understand world capacity in more detail, see [Performance limits for a world](../../Performance/Performance%20limits%20for%20a%20World.md).
 
 ### Objects
 
@@ -40,13 +40,13 @@ The simulation and animation category is a shared bucket of objects related to s
 * **VFX** - Each VFX object has its own estimated simulation time, from 0.0059ms to 0.1ms.
 * **Physics** - Each physics object counts as 0.008ms.
 * **Texts** - Each text object counts as 0.0035ms.
-* **Players** - The estimated simulation time for the [maximum allowed players](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/player-settings-modification) in the world, ranging from 0.0ms for 1-4 players up to 2.8ms for 20-32 players.
+* **Players** - The estimated simulation time for the [maximum allowed players](../Settings/Player%20Settings%20Modification.md) in the world, ranging from 0.0ms for 1-4 players up to 2.8ms for 20-32 players.
 
 ### World vertex count
 
 The world vertex count is the number of vertices currently rendered in your world. This includes all the vertices in your world, even the ones that may be culled by being out of view. You can have at most 125,000 vertices in a world.
 
-You can reduce vertices by using simpler meshes. See the section for “Highly detailed meshes” in [GPU best practices](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/gpu-best-practices#highly-detailed-meshes).
+You can reduce vertices by using simpler meshes. See the section for “Highly detailed meshes” in [GPU best practices](../../Performance/Performance%20best%20practices/GPU%20best%20practices.md#highly-detailed-meshes).
 
 ### Sounds
 

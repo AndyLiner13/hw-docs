@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 # Custom Metrics API
 
-Custom metrics are a way for creators to capture data about their TypeScript scripts while they run. This data shows when your scripts run and how long they take, which you can use to optimize world performance. You can view this data with the [Performance Scrubbing](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/performance-scrubbing/) tool or in [Perfetto](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/analyzing-trace-data-with-perfetto/).
+Custom metrics are a way for creators to capture data about their TypeScript scripts while they run. This data shows when your scripts run and how long they take, which you can use to optimize world performance. You can view this data with the [Performance Scrubbing](Performance%20Scrubbing.md) tool or in [Perfetto](Analyzing%20trace%20data%20with%20Perfetto.md).
 
 To use custom metrics:
 
@@ -119,16 +119,16 @@ For a marker sampler, call `markerSamplerEx.mark()`.
 
 **Note:** Only data from client-side scripts are available in the VR scrubbing tool.
 
-To view data from the custom metrics you added to your client-side scripts, open the [real-time metrics panel](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/enabling-and-modifying-the-realtime-metrics-panel/) and use the [scrubbing tool](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/performance-scrubbing/). Performance data is collected by profiling your scripts whenever the real-time metrics panel is open. Click **Inspect** to look at the profile data and scroll to the bottom of the pane to see your metrics data. A buffer of the last 30 seconds of data is available to view.
+To view data from the custom metrics you added to your client-side scripts, open the [real-time metrics panel](Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md) and use the [scrubbing tool](Performance%20Scrubbing.md). Performance data is collected by profiling your scripts whenever the real-time metrics panel is open. Click **Inspect** to look at the profile data and scroll to the bottom of the pane to see your metrics data. A buffer of the last 30 seconds of data is available to view.
 
 ### Viewing Data in Perfetto
 
-You can use [Perfetto](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/analyzing-trace-data-with-perfetto/) to view data from the custom metrics you added to your client and server side scripts.
+You can use [Perfetto](Analyzing%20trace%20data%20with%20Perfetto.md) to view data from the custom metrics you added to your client and server side scripts.
 
-- Create a trace using the instructions in the [Tracing](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/tracing/) docs.
+- Create a trace using the instructions in the [Tracing](Tracing.md) docs.
 - Open your browser and navigate to the [Developer Dashboard](https://developers.meta.com/horizon/manage/worlds/).
 - Select your world.
 - From the left-side navigation, select **Performance** > **Traces** to find the trace. The name of the trace file should include “custom\_metrics”.
 - Click **Open in Perfetto** to open the trace.
 
-Now, you can analyze your custom metrics data from the trace in [Perfetto](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/analyzing-trace-data-with-perfetto).
+Now, you can analyze your custom metrics data from the trace in [Perfetto](Analyzing%20trace%20data%20with%20Perfetto.md).

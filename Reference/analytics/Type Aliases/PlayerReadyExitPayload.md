@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_pla
 
 # PlayerReadyExitPayload type
 
-A payload sent by the `OnPlayerReadyExit` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnPlayerReadyExit` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

@@ -19,4 +19,4 @@ export declare type TouchState = {
 
 ## References
 
-[TouchPhase](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchphase), [TouchInfo](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchinfo)
+[TouchPhase](TouchPhase.md), [TouchInfo](TouchInfo.md)

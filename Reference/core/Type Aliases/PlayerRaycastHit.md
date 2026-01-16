@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerra
 
 # PlayerRaycastHit type
 
-The result of a [raycast](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycastgizmo#raycast) collision against a [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player).
+The result of a [raycast](../Classes/RaycastGizmo.md#raycast) collision against a [Player](../Classes/Player.md).
 
 ## Signature
 
@@ -15,4 +15,4 @@ export declare type PlayerRaycastHit = BaseRaycastHit & {
 
 ## References
 
-[BaseRaycastHit](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_baseraycasthit), [RaycastTargetType.Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycasttargettype), [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player)
+[BaseRaycastHit](BaseRaycastHit.md), [RaycastTargetType.Player](../Enumerations/RaycastTargetType.md), [Player](../Classes/Player.md)

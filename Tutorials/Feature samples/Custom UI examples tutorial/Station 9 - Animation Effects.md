@@ -117,7 +117,7 @@ const timerPromise = new Promise<string>(resolve, reject) => {
 })
 ```
 
-Promises are a useful programming structure for ensuring that code is executed in a specific order, which is very helpful in a non-deterministic execution environment. For more information on how to use Promises in Meta Horizon Worlds, see [TypeScript Script Lifecycle](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle).
+Promises are a useful programming structure for ensuring that code is executed in a specific order, which is very helpful in a non-deterministic execution environment. For more information on how to use Promises in Meta Horizon Worlds, see [TypeScript Script Lifecycle](../../../Scripting/TypeScript%20Script%20Lifecycle.md).
 
 The core of the animation is two animation timing calls, the first of which is listed below:
 

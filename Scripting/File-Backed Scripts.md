@@ -23,7 +23,7 @@ Script gizmos aren’t required with file-backed scripts and won’t be automati
   + Script state should stay in sync, even when edited by multiple collaborators across different editors (Desktop Editor or VR Editor).
 * Spawning multiple copies of an asset no longer creates multiple copies of that asset’s scripts. Instead, all spawned assets reference a single instance of that asset’s scripts.
 * Assets don’t require script gizmos. Assets automatically import the scripts they reference into the world when spawned or dragged in.
-* FBS worlds are compatible with [asset templates](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/asset-templates/)**(not available to all creators)**.
+* FBS worlds are compatible with [asset templates](../Desktop%20editor/Assets/Asset%20Templates.md)**(not available to all creators)**.
 
 ## Important considerations
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_fri
 
 # FrictionHitPayload type
 
-A payload sent by the `OnFrictionHit` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnFrictionHit` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

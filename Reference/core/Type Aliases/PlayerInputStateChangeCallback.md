@@ -12,10 +12,10 @@ export declare type PlayerInputStateChangeCallback = (action: PlayerInputAction,
 
 ## References
 
-[PlayerInputAction](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerinputaction)
+[PlayerInputAction](../Enumerations/PlayerInputAction.md)
 
 ## Remarks
 
-Use [PlayerInput.registerCallback()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerinput#registercallback) to register this callback.
+Use [PlayerInput.registerCallback()](../Classes/PlayerInput.md#registercallback) to register this callback.
 action - The input action that triggered the callback.
 pressed - true if the input was pressed; false if it was released.

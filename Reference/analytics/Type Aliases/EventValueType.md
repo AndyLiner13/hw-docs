@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_eve
 
 # EventValueType type
 
-A valid value type for an [EventData](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_eventdata) object.
+A valid value type for an [EventData](EventData.md) object.
 
 ## Signature
 

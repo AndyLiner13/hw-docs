@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_trailgiz
 
 # TrailGizmo Class
 
-Extends *[Entity](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity)*
+Extends *[Entity](Entity.md)*
 
 Represents a trail effect in the world.
 

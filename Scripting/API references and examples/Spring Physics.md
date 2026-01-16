@@ -16,11 +16,11 @@ To apply spring physics to an entity through your TypeScript code, you must set 
 | **Interaction** | Set to `Physics or Both`. |
 | **Gravity** | Enable it. |
 
-To ensure continuous motion toward the specified target, the spring physics methods must be called within the `World.onUpdate` loop. For more information about this event, see [World Update Events](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/world-update-events).
+To ensure continuous motion toward the specified target, the spring physics methods must be called within the `World.onUpdate` loop. For more information about this event, see [World Update Events](../Events/World%20Update%20Events.md).
 
 ## Pushing an entity toward a position
 
-The `springPushTowardPosition()` method pushes an entity toward a specific position, with additional options to control the spring’s behavior. For details, see the [PhysicalEntity.springPushTowardPosition method](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_physicalentity#springpushtowardposition) in the API reference documentation.
+The `springPushTowardPosition()` method pushes an entity toward a specific position, with additional options to control the spring’s behavior. For details, see the [PhysicalEntity.springPushTowardPosition method](../../Reference/core/Classes/PhysicalEntity.md#springpushtowardposition) in the API reference documentation.
 
 **Note**: In desktop editor, you can select the entity and specify the physics properties applied to it through the **Properties** panel for the script.
 
@@ -60,7 +60,7 @@ hz.Component.register(SpringTest);
 
 ## Spinning an object toward a rotation
 
-The `PhysicalEntity.springSpinTowardRotation` method spins an Entity toward a specific rotation, with additional options to control the spring’s behavior. For details, see the [PhysicalEntity.springSpinTowardRotation method](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_physicalentity#springspintowardrotation) in the API reference documentation.
+The `PhysicalEntity.springSpinTowardRotation` method spins an Entity toward a specific rotation, with additional options to control the spring’s behavior. For details, see the [PhysicalEntity.springSpinTowardRotation method](../../Reference/core/Classes/PhysicalEntity.md#springspintowardrotation) in the API reference documentation.
 
 **Note**: In desktop editor, you can select the entity and specify the physics properties applied to it through the **Properties** panel for the script.
 

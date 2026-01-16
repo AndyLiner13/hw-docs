@@ -133,9 +133,9 @@ this.navMesh = navMesh;
 
 **Usage**:
 
-Locomotion along the navmesh is handled through a set of methods on the `locomotion` property. For more information, see [Module 3 - NPC Manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
+Locomotion along the navmesh is handled through a set of methods on the `locomotion` property. For more information, see [Module 3 - NPC Manager](Module%203%20-%20NPC%20Manager.md).
 
-For more information on NavMesh, see [Setting up NPCs with Navigation](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation).
+For more information on NavMesh, see [Setting up NPCs with Navigation](../../../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md).
 
 ### Grabbing
 
@@ -160,7 +160,7 @@ private onGemCollected(gem: hz.Entity, collector: hz.Player): void {
 };
 ```
 
-For more information on NPC grabbing in the example world, see [Module 3 - NPC Manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
+For more information on NPC grabbing in the example world, see [Module 3 - NPC Manager](Module%203%20-%20NPC%20Manager.md).
 
 ## Unsupported Features
 
@@ -168,4 +168,4 @@ The following features are not currently available for Scripted Avatar NPCs.
 
 * **Conversation integration**: Integration with the Conversation LLM gizmo is not supported at this time.
 
-**Tip**: As a workaround, this tutorial world demonstrates how to trigger voice based on NPC activities. For more information, see [Module 3 - NPC Manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/scripted-avatar-npc-tutorial/module-3-npc-manager).
+**Tip**: As a workaround, this tutorial world demonstrates how to trigger voice based on NPC activities. For more information, see [Module 3 - NPC Manager](Module%203%20-%20NPC%20Manager.md).

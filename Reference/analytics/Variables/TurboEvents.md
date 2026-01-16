@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_tur
 
 # TurboEvents Variable
 
-The events sent by the [Turbo](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turbo) instance to capture analytics data from a world. This variable defines the events to pass to the `Turbo.send(event, payload)` method and the data fields to use in the payload.
+The events sent by the [Turbo](Turbo.md) instance to capture analytics data from a world. This variable defines the events to pass to the `Turbo.send(event, payload)` method and the data fields to use in the payload.
 
 ## Signature
 
@@ -230,9 +230,9 @@ TurboEvents: {
 
 The available payloads are defined in the Type Aliases section of the API documentation. The name of the payload type to use corresponds to the name of the event you send.
 For example, the `TurboEvents.OnKOPlayer` event is sent with the `KOPlayerPayload` type.
-The `TurboEvents.OnKOPlayer` event defines the `otherPlayerKilled: string` and the `killedByWeaponKey: string` data fields to use in the [KOPlayerPayload](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_koplayerpayload) object that you pass to the `Turbo.send(event, payload)` method.
+The `TurboEvents.OnKOPlayer` event defines the `otherPlayerKilled: string` and the `killedByWeaponKey: string` data fields to use in the [KOPlayerPayload](../Type%20Aliases/KOPlayerPayload.md) object that you pass to the `Turbo.send(event, payload)` method.
 However, there is one additional field you must include in each payload: the player. For example `player: this.serverPlayer`.
-For details about using the `Turbo.send(event, payload)` method, see the [Turbo](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turbo) variable.
+For details about using the `Turbo.send(event, payload)` method, see the [Turbo](Turbo.md) variable.
 
 ## Examples
 

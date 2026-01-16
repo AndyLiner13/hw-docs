@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMeshAgent Class
 
-Extends *[INavMeshAgent](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_inavmeshagent)*
+Extends *[INavMeshAgent](../Interfaces/INavMeshAgent.md)*
 
 Extends *Entity*
 
@@ -16,7 +16,7 @@ export declare class NavMeshAgent extends Entity implements INavMeshAgent
 
 ## Remarks
 
-For more information, see the [NavMesh agents](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/nav-mesh-agents) guide.
+For more information, see the [NavMesh agents](../../../Desktop%20editor/NPCs/Nav%20Mesh%20Agents.md) guide.
 
 ## Properties
 
@@ -24,7 +24,7 @@ For more information, see the [NavMesh agents](https://developers.meta.com/horiz
 | --- | --- |
 | **Constants**  static | List of common constants used when setting the avoidance layer and mask.      Signature  ``` static Constants: {         LAYER_DEFAULT: number;         MASK_DEFAULT: number;         LAYER_PLAYERS: number;         MASK_IGNORE_ALL: number;     }; ```  Remarks  Constants: `LAYER_DEFAULT: 1 << 0` - Represents the default layer that agents belong to upon creation. For use with the `avoidanceLayer` property. `MASK_DEFAULT: (1 << 0) | (1 << 30)` - Represents the default masks that agents apply upon creation. For use with the `avoidanceMask` property. `LAYER_PLAYERS: 1 << 30` - Represents the collision layer for human players. For use with the `avoidanceLayer` property. `MASK_IGNORE_ALL: -1` - Ensure an agent ignores all other agents during collision avoidance, regardless of the layer they are on. For use with the `avoidanceMask` property. |
 | **acceleration** | The acceleration rate for the agent. This is used to propel the agent forward until it reaches its max speed.      Signature  ``` acceleration: HorizonProperty<number>; ```  Remarks  This should be a positive number. The default value is `10 m/s^2`. |
-| **alignmentMode** | The orientation faced by the agent when traveling.      Signature  ``` alignmentMode: HorizonProperty<NavMeshAgentAlignment>; ```  Remarks  When travelling, agents default to facing towards their next waypoint. To change the orientation of the agent as it is moving, you can use this property. See [NavMeshAgentAlignment](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshagentalignment) for more information on the available modes. Default: `NavMeshAgentAlignment.NextWaypoint` |
+| **alignmentMode** | The orientation faced by the agent when traveling.      Signature  ``` alignmentMode: HorizonProperty<NavMeshAgentAlignment>; ```  Remarks  When travelling, agents default to facing towards their next waypoint. To change the orientation of the agent as it is moving, you can use this property. See [NavMeshAgentAlignment](../Enumerations/NavMeshAgentAlignment.md) for more information on the available modes. Default: `NavMeshAgentAlignment.NextWaypoint` |
 | **avoidanceLayer** | A bitmask that represents the avoidance layer used to perform collision avoidance calculations for the navigation mesh agent.      Signature  ``` avoidanceLayer: HorizonProperty<number>; ```  Remarks  Each agent belongs to an avoidance layer. These layers are taken into consideration during collision avoidance calculations to identify which agents to avoid. In tandem with the layer is the avoidance mask, which is a bitmask representing the layers which this agent should take into consideration during collision avoidance calculations. This property only sets the agent's avoidance layer. If you want to set the mask, see . |
 | **avoidanceMask** | A bitmask that represents the layers the navigation mesh agent should avoid colliding with.      Signature  ``` avoidanceMask: HorizonProperty<number>; ```  Remarks  Each agent belongs to an avoidance layer. These layers are taken into consideration during collision avoidance calculations, to identify which agents to avoid. In tandem with the layer is the avoidance mask, a bitmask representing the layers which this agent should take into consideration during collision avoidance calculations. This method only sets the agent's avoidance mask. If you want to set the layer, see . |
 | **avoidanceRadius** | The radius used for the agent when calculating collision avoidance.      Signature  ``` avoidanceRadius: HorizonProperty<number>; ```  Remarks  Default: The attached navigation profile radius. |

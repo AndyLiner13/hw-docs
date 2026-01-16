@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 [](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1184936316096082_4855001440585577500_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=6500a6&_nc_ohc=o_6-e-COeHkQ7kNvwGvf-oD&_nc_oc=AdndLr1PqEw8gqWi5ySh1nPOEy33vMoWjIFNu3oC4C93_8w295aF3Go39IUiMfTeagDj0Td0hJtCzxaZNcgZHbWY&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=xnkmS8Q5CJshytK67voNrw&oh=00_AfqgzaAe1t59hFvwMX49vKh-OPH7H6jBeoJYVsVdmdMvuw&oe=696FD1F6)
 
-[Click here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/marketing-essentials-for-mhcp-part-1) to view **part 1** of this series.
+[Click here](Marketing%20Essentials%20for%20MHCP%20Part%201%20with%20Shannon%20O’Flaherty%20and%20Candace%20Locklear.md) to view **part 1** of this series.
 
 Learn from the marketing experts who propelled Breachers, Gorilla Tag, Hello Neighbor, and your fellow MHCP creators to success.
 

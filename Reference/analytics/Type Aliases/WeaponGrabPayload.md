@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_wea
 
 # WeaponGrabPayload type
 
-A payload sent by the `OnWeaponGrab` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnWeaponGrab` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

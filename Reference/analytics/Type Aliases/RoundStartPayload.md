@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_rou
 
 # RoundStartPayload type
 
-A payload sent by the `OnRoundStart` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnRoundStart` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

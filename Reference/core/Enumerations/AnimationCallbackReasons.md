@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_animatio
 
 # AnimationCallbackReasons Enum
 
-The possible reasons for the [AnimationCallbackReason](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_animationcallbackreason) type that is provided when an [animation callback](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_animationcallbackreason) triggers.
+The possible reasons for the [AnimationCallbackReason](../Type%20Aliases/AnimationCallbackReason.md) type that is provided when an [animation callback](../Type%20Aliases/AnimationCallbackReason.md) triggers.
 
 ## Signature
 

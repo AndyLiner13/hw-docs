@@ -12,12 +12,12 @@ export declare function EditorText(props: Readonly<EditorTextProps>): UINode<Edi
 
 ## Parameters
 
-props: Readonly<[EditorTextProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editortextprops)>
+props: Readonly<[EditorTextProps](../Type%20Aliases/EditorTextProps.md)>
 
 The props of the component.
 
 ## Returns
 
-UINode<[EditorTextProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editortextprops)>
+UINode<[EditorTextProps](../Type%20Aliases/EditorTextProps.md)>
 
 A that represents the EditorText component.

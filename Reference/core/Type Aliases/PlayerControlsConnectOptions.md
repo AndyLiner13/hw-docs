@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerco
 
 # PlayerControlsConnectOptions type
 
-The options to pass to [PlayerControls.connectLocalInput()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playercontrols#connectlocalinput).
+The options to pass to [PlayerControls.connectLocalInput()](../Classes/PlayerControls.md#connectlocalinput).
 
 ## Signature
 
@@ -15,7 +15,7 @@ export declare type PlayerControlsConnectOptions = {
 
 ## References
 
-[ButtonPlacement](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_buttonplacement)
+[ButtonPlacement](../Enumerations/ButtonPlacement.md)
 
 ## Remarks
 

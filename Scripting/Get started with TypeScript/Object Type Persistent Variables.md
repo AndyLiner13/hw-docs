@@ -16,10 +16,10 @@ In the past, number-type persistent variables were only capable of using simple 
 
 ### This document will cover the following topics:
 
-* [Creating an Object-type variable](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/object-type-persistent-variables#creating-an-object-type-variable)
-* [Accessing variables from TypeScript](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/object-type-persistent-variables#accessing-variables-from-typescript)
-* [Updating a variable from TypeScript](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/object-type-persistent-variables#updating-a-variable-from-typescript)
-* [Best Practices](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/object-type-persistent-variables#best-practices)
+* [Creating an Object-type variable](Object%20Type%20Persistent%20Variables.md#creating-an-object-type-variable)
+* [Accessing variables from TypeScript](Object%20Type%20Persistent%20Variables.md#accessing-variables-from-typescript)
+* [Updating a variable from TypeScript](Object%20Type%20Persistent%20Variables.md#updating-a-variable-from-typescript)
+* [Best Practices](Object%20Type%20Persistent%20Variables.md#best-practices)
 
 ## Creating an Object-type variable
 

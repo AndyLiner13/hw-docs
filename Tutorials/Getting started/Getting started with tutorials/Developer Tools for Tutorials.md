@@ -20,7 +20,7 @@ Debug messages include:
 
 In the desktop editor, this information is displayed in the Console tab. However, it is not available in headset unless you deploy the Debug Console gizmo.
 
-For more information, see [Introducing the Debug Console](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/the-debug-console/).
+For more information, see [Introducing the Debug Console](../../../Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md).
 
 ## Realtime Performance Metrics
 
@@ -35,4 +35,4 @@ Through the following display, you can inspect the results to scrub performance 
 
 These metrics are displayed through the Utilities menu in your avatar’s wrist. This menu must be enabled.
 
-For more information, see [Enabling the Real-time Metrics Panel](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/enabling-and-modifying-the-realtime-metrics-panel/).
+For more information, see [Enabling the Real-time Metrics Panel](../../../Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md).

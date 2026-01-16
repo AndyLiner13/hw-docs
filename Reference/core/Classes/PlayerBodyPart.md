@@ -14,7 +14,7 @@ export declare class PlayerBodyPart
 
 |  |  |
 | --- | --- |
-| **(constructor)(player, type)** | Creates a `PlayerBodyPart`.  ---  Signature  ``` constructor(player: Player, type: PlayerBodyPartType); ```  Parameters  player: [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player)  The player that owns the body part.  type: [PlayerBodyPartType](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerbodyparttype)  The type of the body part. |
+| **(constructor)(player, type)** | Creates a `PlayerBodyPart`.  ---  Signature  ``` constructor(player: Player, type: PlayerBodyPartType); ```  Parameters  player: [Player](Player.md)  The player that owns the body part.  type: [PlayerBodyPartType](../Enumerations/PlayerBodyPartType.md)  The type of the body part. |
 
 ## Properties
 
@@ -33,5 +33,5 @@ export declare class PlayerBodyPart
 
 |  |  |
 | --- | --- |
-| **getPosition(space)** | Gets the world or the local position of the body part.      Signature  ``` getPosition(space: Space): Vec3; ```  Parameters  space: [Space](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_space)  Indicates whether to get the world or local position of the body part.  Returns  [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3)  The position of the body part in this space. |
-| **getRotation(space)** | Gets the rotation or the local rotation of the body part.      Signature  ``` getRotation(space: Space): Quaternion; ```  Parameters  space: [Space](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_space)  Indicates whether to get the world or local rotation of the body part.  Returns  [Quaternion](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_quaternion)  The rotation of the body part in this space. |
+| **getPosition(space)** | Gets the world or the local position of the body part.      Signature  ``` getPosition(space: Space): Vec3; ```  Parameters  space: [Space](../Enumerations/Space.md)  Indicates whether to get the world or local position of the body part.  Returns  [Vec3](Vec3.md)  The position of the body part in this space. |
+| **getRotation(space)** | Gets the rotation or the local rotation of the body part.      Signature  ``` getRotation(space: Space): Quaternion; ```  Parameters  space: [Space](../Enumerations/Space.md)  Indicates whether to get the world or local rotation of the body part.  Returns  [Quaternion](Quaternion.md)  The rotation of the body part in this space. |

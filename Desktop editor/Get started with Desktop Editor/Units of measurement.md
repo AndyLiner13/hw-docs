@@ -7,13 +7,13 @@ Scale, distance, movement, and other physical properties in Meta Horizon Worlds 
 | Quantity | Unit |
 | --- | --- |
 | Distance | Meters |
-| Rotation | Values shown in the desktop editor are given in degrees. Rotations using the TypeScript API use [Quaternions](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_quaternion). The Quaternion class includes functions to convert to or from Euler angles. |
+| Rotation | Values shown in the desktop editor are given in degrees. Rotations using the TypeScript API use [Quaternions](../../Reference/core/Classes/Quaternion.md). The Quaternion class includes functions to convert to or from Euler angles. |
 | Scale | Percentage of the original model size, where 1.0 is 100% |
 | Mass | Kilograms |
 | Acceleration | Meters/second2 |
-| Velocity | [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3) with magnitude in meters/second |
-| Angular Velocity | [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3) where the direction is the axis of rotation and the magnitude is in radians/second |
-| Angular Acceleration | [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3) where the direction is the axis of rotation and the magnitude is in radians/second2 |
-| Force | [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3) with magnitude in Newtons |
-| Impulse | [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3) with magnitude in Newtons \* seconds |
-| Torque | [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3) where the direction is the axis of rotation and the magnitude is in Newton meters |
+| Velocity | [Vec3](../../Reference/core/Classes/Vec3.md) with magnitude in meters/second |
+| Angular Velocity | [Vec3](../../Reference/core/Classes/Vec3.md) where the direction is the axis of rotation and the magnitude is in radians/second |
+| Angular Acceleration | [Vec3](../../Reference/core/Classes/Vec3.md) where the direction is the axis of rotation and the magnitude is in radians/second2 |
+| Force | [Vec3](../../Reference/core/Classes/Vec3.md) with magnitude in Newtons |
+| Impulse | [Vec3](../../Reference/core/Classes/Vec3.md) with magnitude in Newtons \* seconds |
+| Torque | [Vec3](../../Reference/core/Classes/Vec3.md) where the direction is the axis of rotation and the magnitude is in Newton meters |

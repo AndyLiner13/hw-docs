@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_imageprops
 
 # ImageProps type
 
-Represents the props of an [Image](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_image_2) component.
+Represents the props of an [Image](../Functions/Image_2.md) component.
 
 ## Signature
 
@@ -15,4 +15,4 @@ export declare type ImageProps = {
 
 ## References
 
-[Bindable](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_bindable), [ImageSource](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_imagesource), [ImageStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_imagestyle)
+[Bindable](Bindable.md), [ImageSource](../Classes/ImageSource.md), [ImageStyle](ImageStyle.md)

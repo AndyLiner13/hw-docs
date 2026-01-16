@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing
 
 # Easing Class
 
-A set of easing functions for configuring [timing animations](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_timinganimationconfig). Easing functions provide physical motion animations.
+A set of easing functions for configuring [timing animations](../Type%20Aliases/TimingAnimationConfig.md). Easing functions provide physical motion animations.
 
 ## Signature
 
@@ -28,9 +28,9 @@ export declare class Easing
 
 |  |  |
 | --- | --- |
-| **bezier(x1, y1, x2, y2)** static | Returns an easing that uses a cubic bezier curve.      Signature  ``` static bezier(x1: number, y1: number, x2: number, y2: number): Easing; ```  Parameters  x1: number  The x coordinate of the first control point of the curve.  y1: number  The y coordinate of the first control point of the curve.  x2: number  The x coordinate of the second control point of the curve.  y2: number  The y coordinate of the second control point of the curve.  Returns  [Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing) |
-| **elastic(bounciness)** static | Returns and elastic easing.      Signature  ``` static elastic(bounciness: number): Easing; ```  Parameters  bounciness: number  Returns  [Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing)  The updated easing. |
-| **in(easing)** static | Returns an easing that runs forwards.      Signature  ``` static in(easing: Easing): Easing; ```  Parameters  easing: [Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing)  The easing to update.  Returns  [Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing)  The updated easing. |
-| **inOut(easing)** static | Returns an easing that runs forwards and then backwards.      Signature  ``` static inOut(easing: Easing): Easing; ```  Parameters  easing: [Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing)  The easing to update.  Returns  [Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing)  The updated easing. |
-| **out(easing)** static | Returns an easing that runs backwards.      Signature  ``` static out(easing: Easing): Easing; ```  Parameters  easing: [Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing)  The easing to update.  Returns  [Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing)  The updated easing. |
-| **poly(n)** static | Returns a power easing.      Signature  ``` static poly(n: number): Easing; ```  Parameters  n: number  Returns  [Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_easing)  The updated easing. |
+| **bezier(x1, y1, x2, y2)** static | Returns an easing that uses a cubic bezier curve.      Signature  ``` static bezier(x1: number, y1: number, x2: number, y2: number): Easing; ```  Parameters  x1: number  The x coordinate of the first control point of the curve.  y1: number  The y coordinate of the first control point of the curve.  x2: number  The x coordinate of the second control point of the curve.  y2: number  The y coordinate of the second control point of the curve.  Returns  [Easing](Easing.md) |
+| **elastic(bounciness)** static | Returns and elastic easing.      Signature  ``` static elastic(bounciness: number): Easing; ```  Parameters  bounciness: number  Returns  [Easing](Easing.md)  The updated easing. |
+| **in(easing)** static | Returns an easing that runs forwards.      Signature  ``` static in(easing: Easing): Easing; ```  Parameters  easing: [Easing](Easing.md)  The easing to update.  Returns  [Easing](Easing.md)  The updated easing. |
+| **inOut(easing)** static | Returns an easing that runs forwards and then backwards.      Signature  ``` static inOut(easing: Easing): Easing; ```  Parameters  easing: [Easing](Easing.md)  The easing to update.  Returns  [Easing](Easing.md)  The updated easing. |
+| **out(easing)** static | Returns an easing that runs backwards.      Signature  ``` static out(easing: Easing): Easing; ```  Parameters  easing: [Easing](Easing.md)  The easing to update.  Returns  [Easing](Easing.md)  The updated easing. |
+| **poly(n)** static | Returns a power easing.      Signature  ``` static poly(n: number): Easing; ```  Parameters  n: number  Returns  [Easing](Easing.md)  The updated easing. |

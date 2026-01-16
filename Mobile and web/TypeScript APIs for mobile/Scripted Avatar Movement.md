@@ -8,7 +8,7 @@ Note
 
 This feature requires Desktop Editor **v239** or higher.
 
-For detailed method signatures, parameters, and return types, see the [Player API Reference](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player).
+For detailed method signatures, parameters, and return types, see the [Player API Reference](../../Reference/core/Classes/Player.md).
 
 ## Locomotion API Methods
 
@@ -16,15 +16,15 @@ The Player class includes these locomotion methods for scripted avatar movement:
 
 | Method | Description |
 | --- | --- |
-| [moveToPosition](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement#movetoposition) | Moves the player to a specified position. |
-| [moveToPositions](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement#movetopositions) | Moves the player along a path of positions. |
-| [rotateBy](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement#rotateby) | Rotates the player by a specified angle in degrees. |
-| [rotateTo](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement#rotateto) | Rotates the player to face a specified direction. |
-| [jump](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement#jump) | Makes the player jump. |
-| [isJumping](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement#isjumping) | True when the player is jumping. |
-| [isMoving](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement#ismoving) | True when the player is moving. |
-| [isNavigating](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement#isnavigating) | True when the player moves via scripted navigation. |
-| [stopMovement](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/scripted-avatar-movement#stopmovement) | Stops any movement in progress. |
+| [moveToPosition](Scripted%20Avatar%20Movement.md#movetoposition) | Moves the player to a specified position. |
+| [moveToPositions](Scripted%20Avatar%20Movement.md#movetopositions) | Moves the player along a path of positions. |
+| [rotateBy](Scripted%20Avatar%20Movement.md#rotateby) | Rotates the player by a specified angle in degrees. |
+| [rotateTo](Scripted%20Avatar%20Movement.md#rotateto) | Rotates the player to face a specified direction. |
+| [jump](Scripted%20Avatar%20Movement.md#jump) | Makes the player jump. |
+| [isJumping](Scripted%20Avatar%20Movement.md#isjumping) | True when the player is jumping. |
+| [isMoving](Scripted%20Avatar%20Movement.md#ismoving) | True when the player is moving. |
+| [isNavigating](Scripted%20Avatar%20Movement.md#isnavigating) | True when the player moves via scripted navigation. |
+| [stopMovement](Scripted%20Avatar%20Movement.md#stopmovement) | Stops any movement in progress. |
 
 ### moveToPosition
 
@@ -38,12 +38,12 @@ moveToPosition(position: Vec3, options?: LocomotionOptions): Promise<Locomot
 
 **Parameters**
 
-* `position`: [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3) - The destination position.
-* `options`: [LocomotionOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_locomotionoptions) - *(Optional)* Optional parameters.
+* `position`: [Vec3](../../Reference/core/Classes/Vec3.md) - The destination position.
+* `options`: [LocomotionOptions](../../Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_locomotionresult)> - A promise that resolves when locomotion ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
 
 ### moveToPositions(path, options)
 
@@ -57,12 +57,12 @@ moveToPositions(path: Array<Vec3>, options?: LocomotionOptions): Promise<Loc
 
 **Parameters**
 
-* `path`: Array<[Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3)> - An array of positions to follow in order.
-* `options`: [LocomotionOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_locomotionoptions) - *(Optional)* Optional parameters.
+* `path`: Array<[Vec3](../../Reference/core/Classes/Vec3.md)> - An array of positions to follow in order.
+* `options`: [LocomotionOptions](../../Reference/core/Type%20Aliases/LocomotionOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_locomotionresult)> - A promise that resolves when locomotion ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when locomotion ends.
 
 ### rotateBy(angle, options)
 
@@ -77,11 +77,11 @@ rotateBy(angle: number, options?: RotationOptions): Promise<LocomotionResult
 **Parameters**
 
 * `angle`: number - The rotation angle in degrees.
-* `options`: [RotationOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_rotationoptions) - *(Optional)* Optional parameters.
+* `options`: [RotationOptions](../../Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_locomotionresult)> - A promise that resolves when rotation ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
 
 ### rotateTo(direction, options)
 
@@ -95,12 +95,12 @@ rotateTo(direction: Vec3, options?: RotationOptions): Promise<LocomotionResu
 
 **Parameters**
 
-* `direction`: [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3) - The target facing direction.
-* `options`: [RotationOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_rotationoptions) - *(Optional)* Optional parameters.
+* `direction`: [Vec3](../../Reference/core/Classes/Vec3.md) - The target facing direction.
+* `options`: [RotationOptions](../../Reference/core/Type%20Aliases/RotationOptions.md) - *(Optional)* Optional parameters.
 
 **Returns**
 
-Promise<[LocomotionResult](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_locomotionresult)> - A promise that resolves when rotation ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when rotation ends.
 
 ### jump()
 
@@ -114,7 +114,7 @@ jump(): Promise<LocomotionResult>;
 
 **Returns**
 
-Promise<[LocomotionResult](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_locomotionresult)> - A promise that resolves when the jump ends.
+Promise<[LocomotionResult](../../Reference/core/Enumerations/LocomotionResult.md)> - A promise that resolves when the jump ends.
 
 ### isJumping
 

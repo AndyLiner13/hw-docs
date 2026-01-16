@@ -14,8 +14,8 @@ export declare type EventData = {
 
 ## References
 
-[EventValueType](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_eventvaluetype)
+[EventValueType](EventValueType.md)
 
 ## Remarks
 
-See [EventValueType](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_eventvaluetype) for the available value types.
+See [EventValueType](EventValueType.md) for the available value types.

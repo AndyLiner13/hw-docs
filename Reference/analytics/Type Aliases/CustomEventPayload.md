@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_cus
 
 # CustomEventPayload type
 
-A payload sent by the `OnCustomAction` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnCustomAction` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

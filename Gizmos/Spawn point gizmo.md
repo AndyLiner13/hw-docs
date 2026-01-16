@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Spawn point gizmo
 
-In Meta Horizon Worlds, a spawn point refers to a designated location within a virtual environment where [entities](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity) such as players, enemies, and NPCs appear or spawn when they enter the world. These spawn points are important for managing entities’ entry and movement within the game.
+In Meta Horizon Worlds, a spawn point refers to a designated location within a virtual environment where [entities](../Reference/core/Classes/Entity.md) such as players, enemies, and NPCs appear or spawn when they enter the world. These spawn points are important for managing entities’ entry and movement within the game.
 
-The spawn point [gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/about-gizmos), is a helper tool that you can use to enhance the creation and interactivity of worlds. In the desktop editor, it is a visual representation of a spawn point with editable options for adjusting properties such as position, rotation, and scale. You can also use the [SpawnPointGizmo API](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawnpointgizmo) to facilitate the management of spawn points such as [respawn](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/codeblocks-to-typescript#simplerespawnscriptts). Additionally, when developing for mobile and web platforms, the spawn point gizmo can be configured to control [player camera’s point of view](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-4-camera-manager#spawnpoint-camera-control).
+The spawn point [gizmo](About%20gizmos.md), is a helper tool that you can use to enhance the creation and interactivity of worlds. In the desktop editor, it is a visual representation of a spawn point with editable options for adjusting properties such as position, rotation, and scale. You can also use the [SpawnPointGizmo API](../Reference/core/Classes/SpawnPointGizmo.md) to facilitate the management of spawn points such as [respawn](../MHCP%20program/Community%20guides/CodeBlocks%20to%20TypeScript.md#simplerespawnscriptts). Additionally, when developing for mobile and web platforms, the spawn point gizmo can be configured to control [player camera’s point of view](../Tutorials/Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%204%20-%20Camera%20Manager.md#spawnpoint-camera-control).
 
-**Note:** While you can access and use spawn point gizmo in the [VR tool](https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/create-a-new-world-in-horizon), this introductory topic to spawn point gizmo focuses on the creator experience in the [desktop editor](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/install-desktop-editor).
+**Note:** While you can access and use spawn point gizmo in the [VR tool](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), this introductory topic to spawn point gizmo focuses on the creator experience in the [desktop editor](../Get%20started/Install%20the%20desktop%20editor.md).
 
 ## Limitations
 
@@ -22,7 +22,7 @@ In the Meta Horizon Worlds desktop editor, do the following to access the spawn 
 
 ## Spawn point properties
 
-The spawn point gizmo properties can be configured in the [Properties panel](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/UI-panels-and-tabs#properties-pane) of the desktop editor or through [scripting](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/using-typescript-in-horizon-worlds).
+The spawn point gizmo properties can be configured in the [Properties panel](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane) of the desktop editor or through [scripting](../Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md).
 
 ### Mobile camera options
 
@@ -41,7 +41,7 @@ The spawn point gizmo includes enhanced camera options for mobile and web platfo
 
 When testing your world in the desktop editor, you can simulate different device orientations:
 
-- In [**Preview Configuration**](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#setting-the-preview-device) options, locate the **Preview orientation** setting under **Mobile and Web device simulations**.
+- In [**Preview Configuration**](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options, locate the **Preview orientation** setting under **Mobile and Web device simulations**.
 - Change the setting to **Portrait** to simulate how the world appears in portrait orientation.
 - This allows you to test and validate your spawn point camera configurations before publishing.
 
@@ -49,7 +49,7 @@ When testing your world in the desktop editor, you can simulate different device
 
 When publishing your world, you can specify the target orientation:
 
-- In the [**Publish World**](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/world-settings-modification#changing-world-settings) panel, navigate to the **Advanced** section.
+- In the [**Publish World**](../Desktop%20editor/Settings/World%20Settings%20Modification.md#changing-world-settings) panel, navigate to the **Advanced** section.
 - Set the **World Orientation** option to **Portrait** to mark your world for portrait orientation.
 - Use **Save for later** to prepare your world configuration without immediately publishing.
 
@@ -57,7 +57,7 @@ When publishing your world, you can specify the target orientation:
 
 ## Scripting
 
-To govern entity lifecycles throughout the game and implement more complex and dynamic behaviors, use Meta Horizon Worlds [SpawnPointGizmo API](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawnpointgizmo). See [tutorial worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites) for complete code samples and follow the [companion documentation](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds#in-the-desktop-editor) for an in-depth explanation of the implementation details.
+To govern entity lifecycles throughout the game and implement more complex and dynamic behaviors, use Meta Horizon Worlds [SpawnPointGizmo API](../Reference/core/Classes/SpawnPointGizmo.md). See [tutorial worlds](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md) for complete code samples and follow the [companion documentation](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md#in-the-desktop-editor) for an in-depth explanation of the implementation details.
 
 ### Portrait camera API
 
@@ -112,11 +112,11 @@ hz.Component.register(OrientationChecker);
 
 Now you’ve been introduced to the spawn point gizmo, further your learning with hands-on tutorials, tutorial worlds with completed samples, and developer guides:
 
-* [Create your first world tutorial: designate a spawn point](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world#section-2-place-assets-in-the-scene)
-* [Simple respawn script](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/codeblocks-to-typescript#simplerespawnscriptts)
-* [Multiplayer lobby entering the match](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/multiplayer-lobby-tutorial/module-5-entering-the-match)
-* [Chop’N pop](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup)
-* [Rooftop racer](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/horizon-traversal-sample-world/module-1-setup)
-* [Set initial PlayerCamera point of view](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-2-playercamera-overview#set-initial-playercamera-point-of-view)
+* [Create your first world tutorial: designate a spawn point](../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#section-2-place-assets-in-the-scene)
+* [Simple respawn script](../MHCP%20program/Community%20guides/CodeBlocks%20to%20TypeScript.md#simplerespawnscriptts)
+* [Multiplayer lobby entering the match](../Tutorials/Feature%20samples/Multiplayer%20lobby%20tutorial/Module%205%20-%20Entering%20the%20Match.md)
+* [Chop’N pop](../Tutorials/Genre%20samples/Chop%20N%20Pop%20sample%20world/Module%201%20-%20Setup.md)
+* [Rooftop racer](../Tutorials/Genre%20samples/Horizon%20traversal%20sample%20world/Module%201%20-%20Setup.md)
+* [Set initial PlayerCamera point of view](../Tutorials/Feature%20samples/Camera%20api%20examples%20tutorial/Module%202%20-%20PlayerCamera%20Overview.md#set-initial-playercamera-point-of-view)
 * [Meta Horizon Creator Program creators manual](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#spawn-point-gizmo)
-* [Object spawning](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/spawning-and-pooling-in-typescript/module-1-setup)
+* [Object spawning](../Tutorials/Feature%20samples/Spawning%20and%20pooling%20in%20typescript/Module%201%20-%20Setup.md)

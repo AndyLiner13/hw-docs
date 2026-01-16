@@ -503,7 +503,7 @@ hz.Component.register(NPCWelcomeRobot);
 
 NPCs are able to path through the world using a Navigation Mesh Volume. In the sample world you can observe the Chicken NPC wandering around the Navigation Bounding Box.
 
-Your NPCs are able to path through the world using a [Navigation Mesh Volume](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation/). In the NPC Example world, Chicken NPCs can be seen wandering around the Navigation Bounding Box based on the their pathing logic.
+Your NPCs are able to path through the world using a [Navigation Mesh Volume](Navigation%20mesh%20generation.md). In the NPC Example world, Chicken NPCs can be seen wandering around the Navigation Bounding Box based on the their pathing logic.
 
 [](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/459326773_883524513709142_2055811114306402530_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=6500a6&_nc_ohc=q1R-wlhFgkcQ7kNvwGkXhpu&_nc_oc=Adn_Q8nnE7ZmEKkSs1p1RCNR_kGMMwbLd9Jo2uTTLbDJ8Dt3o1Y-2kJ_FHKe2MkZTeMHK_43FxfzPFWSc2-JyEHL&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=YgMSdN3is27FRYDA4KSTWA&oh=00_Afo89d05ze63t24AwDv9SobuOpaxXcIUtvXhLRd0Po6-zg&oe=696FB2B6)
 
@@ -738,7 +738,7 @@ hz.Component.register(NPCAndroidWaypoint);
 
 NPCs added to your worlds can also be set as enemies for players in your world. With the following scripts your enemy NPCs can recognize the player, follow them, and attempt to attack.
 
-Players can defend themselves with a weapon like the [Sword](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-scripts/#swordts) in the example and the NPCs also have hit reaction animations to indicate they’ve taken damage.
+Players can defend themselves with a weapon like the [Sword](NPC%20Scripts.md#swordts) in the example and the NPCs also have hit reaction animations to indicate they’ve taken damage.
 
 [](https://video-dfw6-1.xx.fbcdn.net/v/t42.1790-2/458933021_829251449394537_1287573333970264365_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=mBXtffNB7A8Q7kNvwH_sXhs&_nc_oc=Admj1PwfzzkEfYm57tk7zxLcyTo8x_c8pdQ-M4JGyHYRU2p-Q0BqbbifCKrAVsE-G2SRRLZhlJl5LdJeFi1o0MnH&_nc_zt=28&_nc_ht=video-dfw6-1.xx&_nc_gid=YgMSdN3is27FRYDA4KSTWA&oh=00_AfpM0pU_CjyMGnjj_VC0WDbm3ok70sdEHxeilVCBNe5rcQ&oe=696FB13F)
 

@@ -20,7 +20,7 @@ Each zone and station described in this guide corresponds to the interactive exa
 
 ## Tutorial world overview
 
-This world covers how to use Custom UI assets available in the public library. The goal of this tutorial world is to be a demo space to find Custom UI examples that you can use in your worlds while also providing examples on how to use the asset in your worlds. To use this world to its fullest extent, you should have a basic understanding of [TypeScript](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/using-typescript-in-horizon-worlds), [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel), and [asset templates](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/asset-templates).
+This world covers how to use Custom UI assets available in the public library. The goal of this tutorial world is to be a demo space to find Custom UI examples that you can use in your worlds while also providing examples on how to use the asset in your worlds. To use this world to its fullest extent, you should have a basic understanding of [TypeScript](../../../Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md), [Custom UI](../../../Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md), and [asset templates](../../../Desktop%20editor/Assets/Asset%20Templates.md).
 
 Although implementing Custom UI requires knowledge of TypeScript, these Custom UI examples come with functions to simplify the process of using them. These Custom UI examples should help you get past the difficult part of building a Custom UI from scratch and get you to the important part of being able to use Custom UI in your world.
 
@@ -28,14 +28,14 @@ The first step to utilizing these Custom UI examples is to explore this world. T
 
 The zones in this example world are:
 
-* **[Zone 1: Option Lists](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-1-option-lists)** - Toggle lists, radio buttons, task lists, and option APIs
-* **[Zone 2: Basics](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-2-basics)** - Basic buttons, timers, dialog prompts, and button APIs
-* **[Zone 3: Bars](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-3-bars)** - Loading bars and health bars with progress indicators
-* **[Zone 4: Advanced Lists](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-4-advanced-lists)** - Inventory systems, stats lists, and player lists
-* **[Zone 5: Animation](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-5-animation)** - Spinning elements, timers with animation, and sliding banners
-* **[Zone 6: Scroll Views](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-6-scroll-views)** - Basic text scrolling and advanced scrollable content
-* **[Zone 7: HUD](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-7-hud)** - Head-up display implementations for games
-* **[Zone 8: Store](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/custom-ui-tutorial-world/zone-8-store)** - Comprehensive storefront with purchase functionality
+* **[Zone 1: Option Lists](Zone%201%20-%20Option%20Lists.md)** - Toggle lists, radio buttons, task lists, and option APIs
+* **[Zone 2: Basics](Zone%202%20-%20Basics.md)** - Basic buttons, timers, dialog prompts, and button APIs
+* **[Zone 3: Bars](Zone%203%20-%20Bars.md)** - Loading bars and health bars with progress indicators
+* **[Zone 4: Advanced Lists](Zone%204%20-%20Advanced%20Lists.md)** - Inventory systems, stats lists, and player lists
+* **[Zone 5: Animation](Zone%205%20-%20Animation.md)** - Spinning elements, timers with animation, and sliding banners
+* **[Zone 6: Scroll Views](Zone%206%20-%20Scroll%20Views.md)** - Basic text scrolling and advanced scrollable content
+* **[Zone 7: HUD](Zone%207%20-%20HUD.md)** - Head-up display implementations for games
+* **[Zone 8: Store](Zone%208%20-%20Store.md)** - Comprehensive storefront with purchase functionality
 
 Each zone contains multiple stations with working examples, complete documentation, and implementation details for the Custom UI components.
 

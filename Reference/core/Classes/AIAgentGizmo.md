@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_aiagentg
 
 # AIAgentGizmo Class
 
-Extends *[Entity](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity)*
+Extends *[Entity](Entity.md)*
 
 Represents an AI Agent gizmo, which enables NPCs and objects to use locomotion and pathfinding capabilities, and optionally be embodied by an avatar.
 
@@ -14,7 +14,7 @@ export declare class AIAgentGizmo extends Entity
 
 ## Remarks
 
-For more information about using NPCs, see the [NPC](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npcs) guide.
+For more information about using NPCs, see the [NPC](../../../Desktop%20editor/NPCs/NPCs%20Overview.md) guide.
 
 ## Methods
 

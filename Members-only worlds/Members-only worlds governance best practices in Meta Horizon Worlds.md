@@ -8,7 +8,7 @@ Members-only worlds deprecated
 
 Members-only worlds are membership-based communities where like-minded people can come together and enjoy a shared experience. In order to join a members-only world, you must be sent an invite by a member of the world, or you must request to join a world and have your request approved by a creator or admin.
 
-As a creator or admin of a members-only world, you have a responsibility to ensure the world is a safe and inclusive space for all members. For a creator, this includes setting rules, and for both creators and admins, enforcing rules and [handling reports](https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/manage-reports-members-only-worlds) in a timely and effective manner. In this article, we’ll discuss some best practices for governance in members-only worlds, and provide a few scenarios to help you understand how to handle different situations that may arise.
+As a creator or admin of a members-only world, you have a responsibility to ensure the world is a safe and inclusive space for all members. For a creator, this includes setting rules, and for both creators and admins, enforcing rules and [handling reports](Manage%20reports%20for%20members-only%20worlds%20in%20Meta%20Horizon%20Worlds.md) in a timely and effective manner. In this article, we’ll discuss some best practices for governance in members-only worlds, and provide a few scenarios to help you understand how to handle different situations that may arise.
 
 Here are some best practices to follow:
 

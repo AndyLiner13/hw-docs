@@ -25,7 +25,7 @@ When a player enters the Trigger Zone, the SetCameraCollisions and SetCameraPan 
 * A listener for `SetCameraCollisions` triggers a call to the `setCameraCollisions()` function.
 * A listener for `SetCameraPan` triggers a call to the `setCameraPan()` function.
 
-For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-2-playercamera-overview).
+For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](Module%202%20-%20PlayerCamera%20Overview.md).
 
 ## Checkpoint
 

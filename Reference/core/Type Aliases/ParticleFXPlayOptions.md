@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particle
 
 # ParticleFXPlayOptions type
 
-The settings for [playing](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particlegizmo#play) a particle effect.
+The settings for [playing](../Classes/ParticleGizmo.md#play) a particle effect.
 
 ## Signature
 
@@ -16,7 +16,7 @@ export declare type ParticleFXPlayOptions = {
 
 ## References
 
-[Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player)
+[Player](../Classes/Player.md)
 
 ## Remarks
 

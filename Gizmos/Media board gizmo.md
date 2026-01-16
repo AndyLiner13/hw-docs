@@ -4,9 +4,9 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 Note
 
-You will need to be a member of [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/welcome) to access the media board gizmo.
+You will need to be a member of [Meta Horizon Creator Program](../MHCP%20program/Welcome%20to%20the%20Meta%20Horizon%20Creator%20Program.md) to access the media board gizmo.
 
-The media board [gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/about-gizmos) allows you to display the top 30 photos from a world. Adding a media board can show players how others have interacted with the world and encourage players to post their own photos to the world. The media board auto-rotates through photos unless a player is interacting with it.
+The media board [gizmo](About%20gizmos.md) allows you to display the top 30 photos from a world. Adding a media board can show players how others have interacted with the world and encourage players to post their own photos to the world. The media board auto-rotates through photos unless a player is interacting with it.
 
 Players in a world can react to media displayed on the media board with the **Like** button, which triggers a thumbs up emote. They can also share their own photos with the **Add post** button. The following image illustrates the description of the media board gizmo.
 
@@ -16,17 +16,17 @@ Each player sees a personalized set of 30 photos, selected from photos that are 
 
 ## Access the media board gizmo
 
-While you can access and configure the gizmos in the [VR tool](https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/create-a-new-world-in-horizon), the following steps show you how to access the media board gizmo from the desktop editor and add it to the [scene pane](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/UI-panels-and-tabs#scene-pane).
+While you can access and configure the gizmos in the [VR tool](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the media board gizmo from the desktop editor and add it to the [scene pane](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
 - In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “media board” in the search field.
 - Select the media board gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [**Properties panel**](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/UI-panels-and-tabs#properties-pane).
+- You can now edit the new gizmo properties in the [**Properties panel**](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
 **Note:** There is a known issue where media boards appear smaller than expected in desktop. The size in VR is correct.
 
 ## Properties
 
-The media board gizmo is an entity. All objects in a world are represented by entities. [Entities](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity) have their respective properties such as position, rotation, and scale. In the Properties panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
+The media board gizmo is an entity. All objects in a world are represented by entities. [Entities](../Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the Properties panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
 
 In the **Behavior** section, additional properties are available to customize the media board gizmo.
 
@@ -42,7 +42,7 @@ For more information on the media board gizmo properties, see the [MHCP creator�
 
 ## Approve or reject photos
 
-Once you approve a photo, it becomes available on the media board and visible to the public. The following steps show you how to approve photos for a world from the [VR tool](https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/create-a-new-world-in-horizon).
+Once you approve a photo, it becomes available on the media board and visible to the public. The following steps show you how to approve photos for a world from the [VR tool](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md).
 
 - Open the Creation page.
 - Click on **Posts & feedback**.

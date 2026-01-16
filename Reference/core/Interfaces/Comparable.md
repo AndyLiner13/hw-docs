@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_comparab
 
 # Comparable Interface
 
-The Comparable interface defines a set of methods for comparing values of the same type, including [equals()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_comparable#equals) and [equalsApprox()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_comparable#equalsapprox) methods.
+The Comparable interface defines a set of methods for comparing values of the same type, including [equals()](Comparable.md#equals) and [equalsApprox()](Comparable.md#equalsapprox) methods.
 
 ## Signature
 

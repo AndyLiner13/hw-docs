@@ -16,7 +16,7 @@ export declare type CameraTransitionOptions = {
 
 ## References
 
-[Easing](https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_easing)
+[Easing](../Enumerations/Easing.md)
 
 ## Remarks
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_sta
 
 # StageStartPayload type
 
-A payload sent by the `OnStageStart` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnStageStart` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

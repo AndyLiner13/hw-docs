@@ -15,4 +15,4 @@ export declare type PinchEventData = TouchEventData & {
 
 ## References
 
-[TouchEventData](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_toucheventdata)
+[TouchEventData](TouchEventData.md)

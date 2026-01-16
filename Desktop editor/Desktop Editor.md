@@ -6,16 +6,16 @@ The desktop editor for Meta Horizon Worlds enables you to create and modify worl
 
 This section contains the following topics:
 
-* [Get started with Desktop Editor](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/)
-* [Assets](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/)
-* [Hiearchy window](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/hierarchy-window/)
-* [Generative AI tools](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/)
-* [Quests, leaderboards, and variable groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/quests-leaderboards-and-variable-groups)
-* [Objects](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/)
-* [Settings](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/)
-* [Help and reference](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/)
-* [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/)
-* [NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/)
+* [Get started with Desktop Editor](Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md)
+* [Assets](Assets/Introduction%20to%20the%20Desktop%20Editor%20Asset%20Library.md)
+* [Hiearchy window](Hierarchy%20window/Hierarchy%20panel%20overview.md)
+* [Generative AI tools](Generative%20AI%20tools/Generative%20AI%20Overview.md)
+* [Quests, leaderboards, and variable groups](Quests,%20leaderboards,%20and%20variable%20groups/Quests,%20leaderboards,%20and%20variable%20groups.md)
+* [Objects](Objects/Object%20Instantiation.md)
+* [Settings](Settings/Player%20Settings%20Modification.md)
+* [Help and reference](Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
+* [Custom UI](Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)
+* [NPCs](NPCs/NPCs%20Overview.md)
 
 Important
 

@@ -10,11 +10,11 @@ In order to help meet this limit, creators will be restricted from publishing or
 
 When creating your Worlds, there are many strategies and best practices to keep memory costs low. Even if your World does not exceed the memory limit, reducing your World’s memory usage can provide additional benefits, such as reduced load times.
 
-We have compiled a set of best practices to help you get started reducing your memory usage here: [Memory Best Practices](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/memory-best-practices/).
+We have compiled a set of best practices to help you get started reducing your memory usage here: [Memory Best Practices](Performance%20best%20practices/Memory%20best%20practices.md).
 
 ## Real-time performance metrics
 
-Access to real-time metrics can help you identify and address aspects of your World that are consuming the most resources, including memory. For full details on the real-time metrics panel, see [Enabling and Modifying the Real-time Metrics Panel](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/enabling-and-modifying-the-realtime-metrics-panel/).
+Access to real-time metrics can help you identify and address aspects of your World that are consuming the most resources, including memory. For full details on the real-time metrics panel, see [Enabling and Modifying the Real-time Metrics Panel](Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md).
 
 To enable real-time metrics in Meta Horizon Worlds:
 

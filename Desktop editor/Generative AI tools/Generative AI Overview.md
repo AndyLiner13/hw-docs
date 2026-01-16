@@ -30,7 +30,7 @@ To open and use the Horizon desktop editor’s Generative AI tool, use the follo
 
 With the creation panel open, you can generate either typescript or audio for your selected world.
 
-For more detailed information on generating script or audio check the [Generative AI Creation Code Tool](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-code-tool) and [Generative AI Creation Audio Tool](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-creation-audio-tool) guides.
+For more detailed information on generating script or audio check the [Generative AI Creation Code Tool](Generative%20AI%20Assistant%20Tool.md) and [Generative AI Creation Audio Tool](Generative%20AI%20Creation%20Audio%20Tool.md) guides.
 
 ## Start new chats and view chat history
 
@@ -50,8 +50,8 @@ You can also delete previous conversations from this list by hovering over an en
 
 To learn more about Meta Horizon Worlds, try the following:
 
-- [Create your first world](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world/) using our step-by-step tutorial.
-- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/troubleshooting/)
-- Learn about the desktop editor with the [Introduction to the Desktop Editor](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor/).
-- Learn about the other tools available by reading our [Tools Overview](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/tools-overview/).
+- [Create your first world](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
+- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](../Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
+- Learn about the desktop editor with the [Introduction to the Desktop Editor](../Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+- Learn about the other tools available by reading our [Tools Overview](../../Get%20started/Tools%20overview.md).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.

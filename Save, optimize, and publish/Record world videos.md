@@ -61,7 +61,7 @@ There are many settings to help you record your world. Here’s a breakdown of h
 
 | **Toggle** | **What it does** |
 | --- | --- |
-| Camera mode | Choose the POV of your camera.  *Single Camera*: Full-screen, controllable camera. See controls for single camera [below](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/record-world-videos#controls-for-single-camera-mode).  *Player POV*: Records from the player’s perspective (the way it looks during gameplay). The camera will follow behind the player. |
+| Camera mode | Choose the POV of your camera.  *Single Camera*: Full-screen, controllable camera. See controls for single camera [below](Record%20world%20videos.md#controls-for-single-camera-mode).  *Player POV*: Records from the player’s perspective (the way it looks during gameplay). The camera will follow behind the player. |
 | Aspect ratio | If you want your video to look great on phones and social media, choose 9:16 (portrait). This vertical format is the standard for mobile screens. For desktop or standard YouTube videos, use 16:9 (landscape). |
 | Only record global audio | When on, anyone speaking *anywhere* in the world will be captured. Your recording will ignore audio zones you may have set for your world. |
 | Disable name tags | Hides all player name tags in your recording, making the video look cleaner and more private. |

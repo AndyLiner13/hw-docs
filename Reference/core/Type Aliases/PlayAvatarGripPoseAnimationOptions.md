@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playavat
 
 # PlayAvatarGripPoseAnimationOptions type
 
-An optional parameter for the [AvatarGripPoseAnimationCallback](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avatargripposeanimationcallback) function type alias.
+An optional parameter for the [AvatarGripPoseAnimationCallback](AvatarGripPoseAnimationCallback.md) function type alias.
 
 ## Signature
 
@@ -14,4 +14,4 @@ export declare type PlayAvatarGripPoseAnimationOptions = {
 
 ## References
 
-[AvatarGripPoseAnimationCallback](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avatargripposeanimationcallback)
+[AvatarGripPoseAnimationCallback](AvatarGripPoseAnimationCallback.md)

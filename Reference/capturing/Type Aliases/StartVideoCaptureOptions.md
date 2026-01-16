@@ -20,8 +20,8 @@ export declare type StartVideoCaptureOptions = {
 
 ## References
 
-[CameraMovementPreset](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_cameramovementpreset), [VideoCaptureNotifications](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_videocapturenotifications)
+[CameraMovementPreset](CameraMovementPreset.md), [VideoCaptureNotifications](../Enumerations/VideoCaptureNotifications.md)
 
 ## Remarks
 
-[DefaultStartVideoCaptureOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_defaultstartvideocaptureoptions) specifies the default options.
+[DefaultStartVideoCaptureOptions](../Variables/DefaultStartVideoCaptureOptions.md) specifies the default options.

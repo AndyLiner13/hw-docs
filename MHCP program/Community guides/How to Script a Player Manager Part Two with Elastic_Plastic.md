@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 [](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453526746_1008304017365768_4916667398358088026_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=bOvfmyz2DfUQ7kNvwEGoQ7I&_nc_oc=AdnK2aKV1QUTREXUSSPzX-GXoTFOofRRIZoAe9djQcb4m5dSOPeHPIFtBZYOppf_1LKFDJD_Izjp0dj_ZaZdpTEA&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=aWZvMP1KUOQFe8H0lrlxrA&oh=00_AfrgOyhwFakGeteuszsI4gfHurYpd4d-NTD_M8I9Xz7vuA&oe=696FD3A5)
 
-Follow along with MHCP Mentor **@Elastic\_Plastic** to learn how to integrate player managers into your world. Watch Part One [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/how-to-script-a-player-manager-with-elastic-plastic/).
+Follow along with MHCP Mentor **@Elastic\_Plastic** to learn how to integrate player managers into your world. Watch Part One [here](How%20to%20Script%20a%20Player%20Manager%20with%20Elastic_Plastic.md).
 
 ## Timestamps:
 

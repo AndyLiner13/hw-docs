@@ -14,7 +14,7 @@ export declare class Transform
 
 |  |  |
 | --- | --- |
-| **(constructor)(entity)** | Constructs a new instance of the `Transform` class.  ---  Signature  ``` constructor(entity: Entity); ```  Parameters  entity: [Entity](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity)  The entity to transform. |
+| **(constructor)(entity)** | Constructs a new instance of the `Transform` class.  ---  Signature  ``` constructor(entity: Entity); ```  Parameters  entity: [Entity](Entity.md)  The entity to transform. |
 
 ## Properties
 

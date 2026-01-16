@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_fetchasd
 
 # FetchAsDataOptions type
 
-The additional options for the [Asset.fetchAsData()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_asset#fetchasdata) method.
+The additional options for the [Asset.fetchAsData()](../Classes/Asset.md#fetchasdata) method.
 
 ## Signature
 

@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
 ## Welcome
 
@@ -21,7 +21,7 @@ Before hopping in, you may want to take a look at the following worlds that show
 * Multiplayer Lobby Tutorial world
 * Developing for Web and Mobile Players world
 
-See [Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
+See [Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md).
 
 ## Key game development areas
 
@@ -40,7 +40,7 @@ This sample world is a full game world experience within Meta Horizon Worlds tha
 You can explore the world in the following ways:
 
 * **Play the game**. Explore areas of the game and interface to determine areas of interest to you.
-* **Explore the tutorial**. You can use the signposts in the world for pointers into the TypeScript files where individual systems are created. You can create a new world based on a tutorial world from the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+* **Explore the tutorial**. You can use the signposts in the world for pointers into the TypeScript files where individual systems are created. You can create a new world based on a tutorial world from the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 * **Dig into the code**. Comments in the code should give you a start in learning how to use it.
 * **Use in your world**. For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
 
@@ -54,7 +54,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0. You can learn more about how to upgrade your own world to TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+See [Getting Started with Tutorials](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
 ## Introduction to Rooftop Racers
 
@@ -80,7 +80,7 @@ To explore the finished world on mobile or desktop, please use the following lin
 
 **Note**: Desktop users must be signed in first.
 
-**Note**: If you are interested in web and mobile development, see [Developing for Web and Mobile Players Tutorial](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-1-setup).
+**Note**: If you are interested in web and mobile development, see [Developing for Web and Mobile Players Tutorial](../../Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%201%20-%20Setup.md).
 
 ## Game Design
 

@@ -2,15 +2,15 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 # CodeBlock Achievements
 
-TypeScript provides methods and a [CodeBlock event](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/codeblock-events) to check for and grant achievements when a player completes actions or feats in your world. Creators previously used CodeBlocks to handle player Achievements. Now, TypeScript enables more flexible development options.
+TypeScript provides methods and a [CodeBlock event](../Events/CodeBlock%20Events.md) to check for and grant achievements when a player completes actions or feats in your world. Creators previously used CodeBlocks to handle player Achievements. Now, TypeScript enables more flexible development options.
 
 **Note:** “Achievements” is a legacy name for Quests in Meta Horizon Worlds; at this time, Quests are still referrd to as Achievements in the TypeScript API.
 
 The following TyepScript APIs are available for managing achievements:
 
-* [OnAchievementComplete CodeBlock event](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_codeblockevents) - This is a built-in CodeBlock event that is called when a player completes a specified achievement.
-* [Player.hasCompletedAchievement method](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player#hascompletedachievement) - Verifies whether the player has completed the specified achievement.
-* [Player.setAchievementComplete method](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player#setachievementcomplete) - Specifies whether a player has completed the given achievement.
+* [OnAchievementComplete CodeBlock event](../../Reference/core/Variables/CodeBlockEvents.md) - This is a built-in CodeBlock event that is called when a player completes a specified achievement.
+* [Player.hasCompletedAchievement method](../../Reference/core/Classes/Player.md#hascompletedachievement) - Verifies whether the player has completed the specified achievement.
+* [Player.setAchievementComplete method](../../Reference/core/Classes/Player.md#setachievementcomplete) - Specifies whether a player has completed the given achievement.
 
 ## Example Code
 

@@ -147,7 +147,7 @@ Key files to explore:
 
 To complete the board, players must complete all of the objectives before they run out of moves.
 
-Players also earn points for each match they make, which is covered within [Module 2 - Scoring System](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/genre-samples/match-3-tutorial/module-2-scoring-system).
+Players also earn points for each match they make, which is covered within [Module 2 - Scoring System](Module%202%20-%20Scoring%20System.md).
 
 Let’s learn how the game tracks objectives and determines victory.
 

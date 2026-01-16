@@ -19,4 +19,4 @@ export declare type LaunchProjectileOptions = {
 
 ## References
 
-[Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3)
+[Vec3](../Classes/Vec3.md)

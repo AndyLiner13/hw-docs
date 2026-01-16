@@ -10,4 +10,4 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-opti
 
 Keep in mind, you can only duplicate a world if you’re the original creator.
 
-[Learn more](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/adding-collaborators-in-horizon) about collaborators and duplicating worlds.
+[Learn more](Permissions%20when%20you%20add%20a%20collaborator%20to%20your%20world.md) about collaborators and duplicating worlds.

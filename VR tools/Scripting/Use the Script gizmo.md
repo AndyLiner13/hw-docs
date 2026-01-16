@@ -35,4 +35,4 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creati
 * The name of the script will be displayed on the gizmo itself. If you change the name of a script, it won’t automatically update references to that script.
 * Collaborators can see the Script Panel, but they won’t be able to see changes unless the script is compiled and the panel is closed and reopened. Code Block Reference
 
-To learn more, see our article on [using code blocks](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-code-blocks).
+To learn more, see our article on [using code blocks](Use%20code%20blocks.md).

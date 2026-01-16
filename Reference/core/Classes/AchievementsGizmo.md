@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_achievem
 
 # AchievementsGizmo Class
 
-Extends *[Entity](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity)*
+Extends *[Entity](Entity.md)*
 
 Represents an Achievements gizmo, which is used to display player achievements.
 
@@ -14,7 +14,7 @@ export declare class AchievementsGizmo extends Entity
 
 ## Remarks
 
-For information about working with Player Achievements, see the [Player Ahievements](https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/create-player-achievements) guide.
+For information about working with Player Achievements, see the [Player Ahievements](../../../VR%20tools/Scripting/Create%20player%20achievements.md) guide.
 
 ## Methods
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMeshInstanceInfo type
 
-Data about the of a [NavMesh](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmesh) instance.
+Data about the of a [NavMesh](../Classes/NavMesh.md) instance.
 
 ## Signature
 
@@ -16,7 +16,7 @@ export declare type NavMeshInstanceInfo = {
 
 ## References
 
-[NavMeshProfile](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshprofile), [NavMeshState](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshstate)
+[NavMeshProfile](NavMeshProfile.md), [NavMeshState](../Enumerations/NavMeshState.md)
 
 ## Remarks
 

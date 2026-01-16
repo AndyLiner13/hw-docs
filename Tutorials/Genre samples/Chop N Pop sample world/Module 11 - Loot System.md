@@ -18,7 +18,7 @@ The loot system manages these sets of physical entities in the world as separate
 
 * **Placement of entities**: at startup, all instances of each loot type are stacked together outside of the playing area. These entities are moved via script to designated locations in the Graveyard.
   + Loot is moved to the locations of the reference objects underneath the AmmoSpawnPoints node.
-  + Loot items could not be spawned in. For more information, see [Module 2 - Design Patterns](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-2-design-patterns).
+  + Loot items could not be spawned in. For more information, see [Module 2 - Design Patterns](Module%202%20-%20Design%20Patterns.md).
 * **Animation**: Each loot type entity has an associated glowing or sparkling animation to draw the player’s eye to it.
 * **Spawning**: Loot items can be spawned during gameplay to reward the player for defeating enemies.
 * **Pickup**: When the player makes contact with a loot item, its benefits are added to the player’s personal data, and the instance is moved back off the playing area, indicating that the loot has been consumed.
@@ -129,7 +129,7 @@ Script dependencies:
 
 ## How to Deploy
 
-Scripts and their related script dependencies and assets must be deployed into your world. For more information, see “Deploying Systems” in [Module 1 - Setup](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
+Scripts and their related script dependencies and assets must be deployed into your world. For more information, see “Deploying Systems” in [Module 1 - Setup](Module%201%20-%20Setup.md).
 
 ## How to Use
 

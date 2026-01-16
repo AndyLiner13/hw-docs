@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # Door gizmo
 
-The door gizmo is part of a suite of tools called [gizmos](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/about-gizmos), which are designed to enhance the creation and interaction capabilities within Meta Horizon Worlds.
+The door gizmo is part of a suite of tools called [gizmos](About%20gizmos.md), which are designed to enhance the creation and interaction capabilities within Meta Horizon Worlds.
 
 The door gizmo in Meta Horizon Worlds allows you to place a door in the virtual world, configure its properties to link your world with another published world, and as a result, enables players to interact with the door and travel from one world to another.
 
-**Note**: While you can access and use the door gizmo in the [VR tool](https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/create-a-new-world-in-horizon), this topic focuses on the creator experience in the [desktop editor](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor).
+**Note**: While you can access and use the door gizmo in the [VR tool](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), this topic focuses on the creator experience in the [desktop editor](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 
 ## Access the door gizmo
 
@@ -18,7 +18,7 @@ In the Meta Horizon Worlds desktop editor, do the following to access the door g
 
 ## Properties
 
-The door gizmo is an entity. All objects in a world are represented by [entities](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity). Entities have their respective properties such as position, rotation, and scale.
+The door gizmo is an entity. All objects in a world are represented by [entities](../Reference/core/Classes/Entity.md). Entities have their respective properties such as position, rotation, and scale.
 
 In the **Properties** panel, edit the door gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
 
@@ -41,7 +41,7 @@ While using the door gizmo, keep in mind of the following:
 
 The following outlines the steps to travel to another world using the door gizmo:
 
-- After you’ve configured the door gizmo in the desktop editor, [publish](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-your-world) the world. For an example of publishing a world on mobile, see [Play in your world on mobile](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world#section-4-play-in-your-world-on-mobile).
+- After you’ve configured the door gizmo in the desktop editor, [publish](../Save,%20optimize,%20and%20publish/Publish%20your%20world.md) the world. For an example of publishing a world on mobile, see [Play in your world on mobile](../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md#section-4-play-in-your-world-on-mobile).
 - Visit the published world with the door gizmo on mobile, web or VR.
 - Approach the door gizmo and interact with it by clicking the trigger.
 - Click the **Go** button on the door gizmo to travel to the linked world. Wait for the new world to load. This may take a few seconds.

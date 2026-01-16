@@ -18,7 +18,7 @@ export declare type TooltipLineAttachmentProperties = {
 
 ## References
 
-[Entity](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity), [PlayerBodyPartType](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerbodyparttype), [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3)
+[Entity](../Classes/Entity.md), [PlayerBodyPartType](../Enumerations/PlayerBodyPartType.md), [Vec3](../Classes/Vec3.md)
 
 ## Remarks
 

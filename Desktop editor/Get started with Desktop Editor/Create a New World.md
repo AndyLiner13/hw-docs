@@ -28,4 +28,4 @@ From this page, you can open an existing world that you’ve created, or start c
 
 ### Your next step
 
-* [The Desktop Editor user interface](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/user-interface/)
+* [The Desktop Editor user interface](User%20interface/User%20Interface.md)

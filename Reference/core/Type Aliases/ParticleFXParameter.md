@@ -15,4 +15,4 @@ export declare type ParticleFXParameter<T extends VFXParameterType> = {
 
 ## References
 
-[VFXParameterType](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vfxparametertype)
+[VFXParameterType](VFXParameterType.md)

@@ -6,16 +6,16 @@ Quests provide you with tools to create rich and engaging progression experience
 
 | **Sections** |
 | --- |
-| [Variable groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/using-variable-groups/) |
+| [Variable groups](Variable%20groups/Using%20Variable%20Groups.md) |
 
 **Articles**
 
-* [Quests overview](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/quests-overview)
-* [Creating quests/leaderboards/variable groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/creating-quests-leaderboard-variable-groups)
-* [Viewing quests/leaderboards/variable groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/viewing-quests-leaderboard-variable-groups)
-* [Editing quests/leaderboards/variable groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/editing-quests-leaderboard-variable-groups)
-* [Deleting quests/leaderboards/variable groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/deleting-quests-leaderboard-variable-groups)
-* [Sorting and searching quests/leaderboards/variable groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/sorting-and-searching-quests-leaderboard-variable-groups)
-* [Debugging and searching quests/leaderboards/variable groups](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/debugging-quests-leaderboards-variable-groups)
+* [Quests overview](Quests%20Overview.md)
+* [Creating quests/leaderboards/variable groups](Creating%20Quests-Leaderboard-Variable%20Groups.md)
+* [Viewing quests/leaderboards/variable groups](Viewing%20Quests-Leaderboard-Variable%20Groups.md)
+* [Editing quests/leaderboards/variable groups](Editing%20Quests-Leaderboard-Variable%20Groups.md)
+* [Deleting quests/leaderboards/variable groups](Deleting%20Quests-Leaderboard-Variable%20Groups.md)
+* [Sorting and searching quests/leaderboards/variable groups](Sorting%20and%20Searching%20Quests-Leaderboard-Variable%20Groups.md)
+* [Debugging and searching quests/leaderboards/variable groups](Debugging%20Quests-Leaderboards-Variable%20Groups.md)
 
-* [Leaderboard reset frequency](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/leaderboard-reset-frequency)
+* [Leaderboard reset frequency](Leaderboard%20Reset%20Frequency.md)

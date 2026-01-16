@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_dea
 
 # DeathPayload type
 
-A payload sent by the `OnDeath` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnDeath` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

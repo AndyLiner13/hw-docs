@@ -33,7 +33,7 @@ When you are adding a screen overlay, you should consider where to locate it bas
 
 **Tip**: The lower-left corner is generally a safe location. These example overlays are added there.
 
-For more information, see [Safe Placement of UI Controls](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/designing-worlds-for-mobile-and-web/safe-placement-of-ui-controls/).
+For more information, see [Safe Placement of UI Controls](../../../Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Safe%20Placement%20of%20UI%20Controls.md).
 
 ## Assets
 

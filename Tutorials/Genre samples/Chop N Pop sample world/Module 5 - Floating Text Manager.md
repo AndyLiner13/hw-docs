@@ -76,7 +76,7 @@ In Chop ‘N Pop: Graveyard Bash, the FloatingTextManager script property for fl
 - Create an asset out of your configured Text gizmo.
 - In `FloatingTextManager.ts` properties, select this asset for the floatingTextAsset property.
 
-For more information, see “Deploying Systems” in [Module 1 - Setup](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-1-setup).
+For more information, see “Deploying Systems” in [Module 1 - Setup](Module%201%20-%20Setup.md).
 
 ## How to Use
 

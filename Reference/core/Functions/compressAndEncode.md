@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_compress
 
 # compressAndEncode() Function
 
-Compress and encode to a serializable value. Complimentary function to [decodeAndInflate()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_decodeandinflate).
+Compress and encode to a serializable value. Complimentary function to [decodeAndInflate()](decodeAndInflate.md).
 Mainly used for PersistentVariable storage to more easily manage max size limits (10kb) for variables.
 
 ## Signature

@@ -92,7 +92,7 @@ The following are examples of use cases that the Gen AI Assistant can do and can
 
 ## Generating TypeScript code snippets
 
-**Note**: The Generative AI Creation Tool can only generate code using [version 2 of the Meta Horizon Worlds Typescript API](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/horizon-typescript-v2-changes).
+**Note**: The Generative AI Creation Tool can only generate code using [version 2 of the Meta Horizon Worlds Typescript API](../../Scripting/API%20references%20and%20examples/Horizon%20TypeScript%20V2%20Changes.md).
 
 The Generative AI Assistant tool can also generate Typescript snippets for you to attach to objects in your world. For best results when generating Typescript APIs, try to keep your scope limited to one API at a time.
 
@@ -127,8 +127,8 @@ After opening the history window you can select a previous conversation. This wi
 
 To learn more about Meta Horizon Worlds, try the following:
 
-- [Create your first world](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world/) using our step-by-step tutorial.
-- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/help-and-reference/troubleshooting/)
-- Learn about the desktop editor with the [Introduction to the Desktop Editor](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor/).
-- Learn about the other tools available by reading our [Tools Overview](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/tools-overview/).
+- [Create your first world](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
+- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](../Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
+- Learn about the desktop editor with the [Introduction to the Desktop Editor](../Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+- Learn about the other tools available by reading our [Tools Overview](../../Get%20started/Tools%20overview.md).
 - Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.

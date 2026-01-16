@@ -69,7 +69,7 @@ Select your NoesisUI gizmo in the **Hierarchy** panel, then adjust these propert
 
 [Attach script for Noesis UI script](https://developers.meta.com/horizon-worlds/images/noesis-ui-1.png)
 
-Learn more about **Shared Mode Noesis** scripts [here](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/shared-mode-noesis-scripts).
+Learn more about **Shared Mode Noesis** scripts [here](Shared%20Mode%20for%20Noesis%20UI%20Scripts.md).
 
 ## Enable UI interactions
 
@@ -249,7 +249,7 @@ Noesis provides a broad set of features. The implementation for the desktop edit
 | Paths(shapes) | Supported. **Note**: Use with caution due to performance implications |
 | Data Bindings | Supported |
 | Commands | Supported |
-| [Fonts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-fonts-usage) | Support for a limited number of approved fonts. |
+| [Fonts](Noesis%20UI%20Fonts%20Usage.md) | Support for a limited number of approved fonts. |
 | Nine-slicing | Will not be supported. |
 | Extensions requiring C#/C++ code injection: custom components, user controls, external plugins, and additional brushes | Will not be supported. |
 | Switching between XAMLS | Supported. |

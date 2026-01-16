@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_dea
 
 # DeathByEnemyPayload type
 
-A payload sent by the `OnDeathByEnemy` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnDeathByEnemy` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

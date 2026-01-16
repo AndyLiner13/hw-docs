@@ -6,9 +6,9 @@ When you experience a world in Meta Horizon Worlds, you may experience times whe
 
 ### Designing your world for performance
 
-When you start designing your world, our topic [Designing a performant world](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/unity-performance-designing-a-performant-world/) is a guide for how to remove unnecessary rendering from your world through thoughtful design.
+When you start designing your world, our topic [Designing a performant world](Designing%20a%20performant%20world.md) is a guide for how to remove unnecessary rendering from your world through thoughtful design.
 
-You will also want to familiarize yourself with the [Performance limits for a World](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-limits-for-a-world/). Here are a few key metrics to keep in mind:
+You will also want to familiarize yourself with the [Performance limits for a World](Performance%20limits%20for%20a%20World.md). Here are a few key metrics to keep in mind:
 
 * The memory limit for Quest 2 and Quest 3 worlds is **6GB**.
 * For VR, the worlds should run at 72hz (frames per second), giving you a frame budget of **13.9ms** per frame.
@@ -16,12 +16,12 @@ You will also want to familiarize yourself with the [Performance limits for a Wo
 
 For more detail, check out our best practices topics:
 
-* [CPU and TypeScript optimization and best practices](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/cpu-and-typescript-optimization-best-practices/)
-* [GPU best practices](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/gpu-best-practices/)
-* [Memory best practices](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/memory-best-practices/)
-* [Physics best practices](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/physics-best-practices/)
-* [Network best practices](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/network-best-practices/)
-* [Custom UI optimization](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-best-practices/custom-ui-optimization/)
+* [CPU and TypeScript optimization and best practices](Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md)
+* [GPU best practices](Performance%20best%20practices/GPU%20best%20practices.md)
+* [Memory best practices](Performance%20best%20practices/Memory%20best%20practices.md)
+* [Physics best practices](Performance%20best%20practices/Physics%20best%20practices.md)
+* [Network best practices](Performance%20best%20practices/Network%20best%20practices.md)
+* [Custom UI optimization](Performance%20best%20practices/Custom%20UI%20optimization.md)
 
 ### Diagnosing performance issues
 
@@ -53,14 +53,14 @@ Profiling a performance issue goes through a familiar set of steps:
 - Decide on a potential fix for the performance issue, and implement the fix.
 - Profile the fixed world and compare it to your base capture to see if you have fixed the issue.
 
-To capture performance profiles, you will take traces from your world using [VR](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/tracing/) capture or [web and mobile](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/using-performance-tools-from-web-and-mobile/) capture. Those traces are stored in the [Performance](https://horizon.meta.com/creator/performance/traces/) tab under [My Creations](https://horizon.meta.com/creator/worlds_all/) so you can access them online or download them. You will then analyze the traces using [Perfetto](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/analyzing-trace-data-with-perfetto). Perfetto uses files that end in `.ptrace`.
+To capture performance profiles, you will take traces from your world using [VR](Performance%20tools/Tracing.md) capture or [web and mobile](Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md) capture. Those traces are stored in the [Performance](https://horizon.meta.com/creator/performance/traces/) tab under [My Creations](https://horizon.meta.com/creator/worlds_all/) so you can access them online or download them. You will then analyze the traces using [Perfetto](Performance%20tools/Analyzing%20trace%20data%20with%20Perfetto.md). Perfetto uses files that end in `.ptrace`.
 
-Watch [Connect ‘23 Video Series: World Optimization Best Practices](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/connect-23-video-series-world-optimization-best-practices/) to see profiling in action.
+Watch [Connect ‘23 Video Series: World Optimization Best Practices](Connect%20'23%20Video%20Series-%20World%20Optimization%20Best%20Practices.md) to see profiling in action.
 
-World content traces are a special type of trace that allows you to get frame-by-frame details on your world’s performance and understand how the assets in your world might contribute to it. If you take a world content trace you can find the trace in the same [Performance](https://horizon.meta.com/creator/performance/traces/) tab but it will have a `.json` extension. You can find instructions on how to take and analyze a world content trace [here](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/world-content-traces).
+World content traces are a special type of trace that allows you to get frame-by-frame details on your world’s performance and understand how the assets in your world might contribute to it. If you take a world content trace you can find the trace in the same [Performance](https://horizon.meta.com/creator/performance/traces/) tab but it will have a `.json` extension. You can find instructions on how to take and analyze a world content trace [here](Performance%20tools/World%20Content%20Traces.md).
 
-[A/B tests](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/thumbnail-ab-testing-tool) allow developers to publish two versions of their app’s thumbnail on the product page.
+[A/B tests](../Save,%20optimize,%20and%20publish/Thumbnail%20A-B%20testing%20tool.md) allow developers to publish two versions of their app’s thumbnail on the product page.
 
 ### Analyzing your world
 
-Once your world is online, you’ll want to familiarize yourself with the [World Analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/world-analytics). That will give you a wealth of useful information, including average FPS and hitch rates. You will add analytics to your world using the techniques outlined in [Using in-world analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics).
+Once your world is online, you’ll want to familiarize yourself with the [World Analytics](Analytics/World%20Analytics.md). That will give you a wealth of useful information, including average FPS and hitch rates. You will add analytics to your world using the techniques outlined in [Using in-world analytics](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics).

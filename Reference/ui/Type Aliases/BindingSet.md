@@ -12,4 +12,4 @@ export declare type BindingSet = Set<ValueBindingBase<unknown>>;
 
 ## References
 
-[ValueBindingBase](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_valuebindingbase)
+[ValueBindingBase](../Abstract%20Classes/ValueBindingBase.md)

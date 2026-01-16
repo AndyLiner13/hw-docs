@@ -12,8 +12,8 @@ export declare class NetworkEvent<TPayload extends NetworkEventData = Record<str
 
 ## Remarks
 
-When sent over the network, NetworkEvent outperforms [CodeBlockEvent](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_codeblockevent) because it doesn't use the legacy messaging system used by Code Block scripting.
-For events sent between event listeners on the same client (locally), you can use [LocalEvent](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_localevent).
+When sent over the network, NetworkEvent outperforms [CodeBlockEvent](CodeBlockEvent.md) because it doesn't use the legacy messaging system used by Code Block scripting.
+For events sent between event listeners on the same client (locally), you can use [LocalEvent](LocalEvent.md).
 
 ## Constructors
 

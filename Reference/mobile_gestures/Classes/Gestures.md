@@ -42,17 +42,17 @@ class MyComponent extends Component {
 
 |  |  |
 | --- | --- |
-| **(constructor)(component, options)** | Creates a Gestures helper  ---  Signature  ``` constructor(component: Component, options?: Partial<GesturesOptions>); ```  Parameters  component: Component  the component to attach to, must be owned by the local player  options: Partial<[GesturesOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gesturesoptions)>  *(Optional)*  Remarks  Requires to start processing events. |
+| **(constructor)(component, options)** | Creates a Gestures helper  ---  Signature  ``` constructor(component: Component, options?: Partial<GesturesOptions>); ```  Parameters  component: Component  the component to attach to, must be owned by the local player  options: Partial<[GesturesOptions](GesturesOptions.md)>  *(Optional)*  Remarks  Requires to start processing events. |
 
 ## Properties
 
 |  |  |
 | --- | --- |
-| **onLongTap** | Connect to this event for long tap gestures. See [Gestures](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gestures) for example usage.      Signature  ``` onLongTap: GestureEvent<LongTapEventData>; ``` |
-| **onPan** | Connect to this event for pan gestures. See [Gestures](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gestures) for example usage.      Signature  ``` onPan: GestureEvent<PanEventData>; ``` |
-| **onPinch** | Connect to this event for pinch gestures. See [Gestures](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gestures) for example usage.      Signature  ``` onPinch: GestureEvent<PinchEventData>; ``` |
-| **onSwipe** | Connect to this event for swipe gestures. See [Gestures](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gestures) for example usage.      Signature  ``` onSwipe: GestureEvent<SwipeEventData>; ``` |
-| **onTap** | Connect to this event for tap gestures. See [Gestures](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gestures) for example usage.      Signature  ``` onTap: GestureEvent<TapEventData>; ``` |
+| **onLongTap** | Connect to this event for long tap gestures. See [Gestures](Gestures.md) for example usage.      Signature  ``` onLongTap: GestureEvent<LongTapEventData>; ``` |
+| **onPan** | Connect to this event for pan gestures. See [Gestures](Gestures.md) for example usage.      Signature  ``` onPan: GestureEvent<PanEventData>; ``` |
+| **onPinch** | Connect to this event for pinch gestures. See [Gestures](Gestures.md) for example usage.      Signature  ``` onPinch: GestureEvent<PinchEventData>; ``` |
+| **onSwipe** | Connect to this event for swipe gestures. See [Gestures](Gestures.md) for example usage.      Signature  ``` onSwipe: GestureEvent<SwipeEventData>; ``` |
+| **onTap** | Connect to this event for tap gestures. See [Gestures](Gestures.md) for example usage.      Signature  ``` onTap: GestureEvent<TapEventData>; ``` |
 
 ## Methods
 

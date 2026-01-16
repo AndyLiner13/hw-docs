@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
 In this example world, we explore the core capabilities of custom UIs, which enable you to build custom 2D interfaces in your worlds.
 
@@ -14,11 +14,11 @@ Example worlds are intended to provide simple, clear, and well-documented exampl
 
 This doc is intended to be a companion to the example world listed below.
 
-For platform documentation on custom UIs, see [Custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui/).
+For platform documentation on custom UIs, see [Custom UI](../../../Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md).
 
 ## Before You Begin
 
-Before you begin exploring this world, please verify that you have reviewed and met the prerequisites for access. See [Getting Started with Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
+Before you begin exploring this world, please verify that you have reviewed and met the prerequisites for access. See [Getting Started with Tutorials](../../Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md).
 
 ### Enable Auto-start of the simulation
 
@@ -85,7 +85,7 @@ To explore the TypeScript of this Examples Tutorial, you should use the desktop 
 Create a copy of this Examples Tutorial first. Then, you can modify the scripts as needed.
 
 You can create your own copy from the desktop editor or from the headset. For more information on this workflow, see
-[Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+[Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
 ### Start at Station 1
 

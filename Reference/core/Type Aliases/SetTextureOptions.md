@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_settextu
 
 # SetTextureOptions type
 
-Options for the [MeshEntity.setTexture()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_meshentity#settexture) method.
+Options for the [MeshEntity.setTexture()](../Classes/MeshEntity.md#settexture) method.
 
 ## Signature
 
@@ -14,7 +14,7 @@ export declare type SetTextureOptions = {
 
 ## References
 
-[Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player)
+[Player](../Classes/Player.md)
 
 ## Remarks
 

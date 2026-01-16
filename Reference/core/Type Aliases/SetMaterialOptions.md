@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_setmater
 
 # SetMaterialOptions type
 
-Options for the [MeshEntity.setMaterial()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_meshentity#setmaterial) method.
+Options for the [MeshEntity.setMaterial()](../Classes/MeshEntity.md#setmaterial) method.
 
 ## Signature
 

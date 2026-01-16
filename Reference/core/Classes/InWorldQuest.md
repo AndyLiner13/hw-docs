@@ -12,10 +12,10 @@ export declare class InWorldQuest
 
 ## Remarks
 
-Similar to world purchase item, [InWorldQuest.launchQuestDetailsPanel()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_inworldquest#launchquestdetailspanel) is to launch the UI for quest in world.
+Similar to world purchase item, [InWorldQuest.launchQuestDetailsPanel()](InWorldQuest.md#launchquestdetailspanel) is to launch the UI for quest in world.
 
 ## Methods
 
 |  |  |
 | --- | --- |
-| **launchQuestDetailsPanel(player, questID)** static | Launches the quest details panel of a in-world quest for the given player.      Signature  ``` static launchQuestDetailsPanel(player: Player, questID: string): void; ```  Parameters  player: [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player)  The player purchasing the item.  questID: string  The ID of the in-world quest  Returns  void |
+| **launchQuestDetailsPanel(player, questID)** static | Launches the quest details panel of a in-world quest for the given player.      Signature  ``` static launchQuestDetailsPanel(player: Player, questID: string): void; ```  Parameters  player: [Player](Player.md)  The player purchasing the item.  questID: string  The ID of the in-world quest  Returns  void |

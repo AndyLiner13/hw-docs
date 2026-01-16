@@ -2,8 +2,8 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawncon
 
 # SpawnControllerBase Class
 
-The base class for a [spawn controller](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawncontroller).
-For information about usage, see [Introduction to Asset Spawning](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/introduction-to-asset-spawning).
+The base class for a [spawn controller](SpawnController.md).
+For information about usage, see [Introduction to Asset Spawning](../../../Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md).
 
 ## Signature
 

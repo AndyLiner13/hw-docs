@@ -24,7 +24,7 @@ The conventions and best practices are written using [RFC 2119](https://datatrac
 
 This document has a shorter Minimal Recommendations section that, if you adopt nothing else, you should at least do, followed by an Extended Recommendations section that has a more robust set of rules.
 
-Finally, if you are using an IDE like VSCode or Webstorm or similar to write your typescript code (rather than, say Notepad or something), there are freely available plugins that you can install that will handle many of these recommendations for you automatically (and probably even more!). If you’re impatient, skip to the [TL;DR Plugins](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-conventions-and-best-practices-for-horizon-worlds) section, install those tools, and be on your way.
+Finally, if you are using an IDE like VSCode or Webstorm or similar to write your typescript code (rather than, say Notepad or something), there are freely available plugins that you can install that will handle many of these recommendations for you automatically (and probably even more!). If you’re impatient, skip to the [TL;DR Plugins](Typescript%20Conventions%20and%20Best%20Practices%20for%20Meta%20Horizon%20Worlds.md) section, install those tools, and be on your way.
 
 ## Section 1: Minimal Recommendations
 
@@ -1170,7 +1170,7 @@ Like using descriptive names, you want to write ‘really obvious code’. Don�
 
 #### Comment the important things
 
-A ‘future you’ will thank yourself if you write down what you were thinking when you wrote your code! However, do not comment pedantically, and make sure you have [used descriptive names](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-conventions-and-best-practices-for-horizon-worlds#naming) for your variables and functions, as that can make extra comments unnecessary. Only comment the *important* things, and comment things that the VSCode hover popups will pick up, such as documentation comments on functions describing its effects, parameters, and return values.
+A ‘future you’ will thank yourself if you write down what you were thinking when you wrote your code! However, do not comment pedantically, and make sure you have [used descriptive names](Typescript%20Conventions%20and%20Best%20Practices%20for%20Meta%20Horizon%20Worlds.md#naming) for your variables and functions, as that can make extra comments unnecessary. Only comment the *important* things, and comment things that the VSCode hover popups will pick up, such as documentation comments on functions describing its effects, parameters, and return values.
 
 #### Write TSDoc comments on functions and on important variables/classes
 
@@ -1421,7 +1421,7 @@ The installation configuration above installs the [‘recommended’](https://es
 
 * [recommendedTypeChecked](https://typescript-eslint.io/users/configs#recommended-type-checked)
   + Uses the power of the typescript typing engine to do even deeper checks on your code usage
-  + Requires a minor amount of [extra configuration](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-conventions-and-best-practices-for-horizon-worlds#appendix)
+  + Requires a minor amount of [extra configuration](Typescript%20Conventions%20and%20Best%20Practices%20for%20Meta%20Horizon%20Worlds.md#appendix)
 * [strict](https://typescript-eslint.io/users/configs#strict)
   + Includes everything in ‘recommended’, plus somewhat more ‘opinionated’ rules that may not be applicable to all codebases
   + Also comes in a [strictTypeChecked](https://typescript-eslint.io/users/configs#strict-type-checked) variant with extra typing checks

@@ -14,11 +14,11 @@ When designing for portrait orientation on mobile devices, the available screen 
 
 When testing your world’s UI for portrait orientation:
 
-- Use the [**Preview Configuration**](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#setting-the-preview-device) options to ensure safe zones are kept clear to avoid overlapping UI.
+- Use the [**Preview Configuration**](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options to ensure safe zones are kept clear to avoid overlapping UI.
 - Consider how UI elements stack vertically rather than horizontally in portrait mode.
 - Test with different device models to account for various screen aspect ratios and safe areas.
 
-**Note:** You can configure different camera parameters for portrait and landscape orientations using the [spawn point gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-spawn-point-gizmo#mobile-camera-options) to optimize the visual experience for each orientation.
+**Note:** You can configure different camera parameters for portrait and landscape orientations using the [spawn point gizmo](../../Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options) to optimize the visual experience for each orientation.
 
 * ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAGUlEQVR4AWNgOBZONhpgzaOaRzWPah7VDADTkL1gLv8oJwAAAABJRU5ErkJggg==) Unobstructed.
 * ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAGUlEQVR4AWN4vjmQbDTAmkc1j2oe1TyqGQBqr/9PiXFhxQAAAABJRU5ErkJggg==) Potentially obstructed.

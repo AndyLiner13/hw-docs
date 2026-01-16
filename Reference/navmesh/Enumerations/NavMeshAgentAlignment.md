@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMeshAgentAlignment Enum
 
-The possible orientation values for [NavMeshAgent](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshagent) locomotion.
+The possible orientation values for [NavMeshAgent](../Classes/NavMeshAgent.md) locomotion.
 
 ## Signature
 
@@ -22,4 +22,4 @@ export declare const enum NavMeshAgentAlignment
 
 ## Remarks
 
-See the [NavMeshAgent.alignmentMode](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshagent#alignmentmode) property for usage.
+See the [NavMeshAgent.alignmentMode](../Classes/NavMeshAgent.md#alignmentmode) property for usage.

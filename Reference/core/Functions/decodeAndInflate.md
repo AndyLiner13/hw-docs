@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_decodean
 
 # decodeAndInflate() Function
 
-Decode and inflate serialized value. Complimentary function to [compressAndEncode()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_compressandencode).
+Decode and inflate serialized value. Complimentary function to [compressAndEncode()](compressAndEncode.md).
 Mainly used for PersistentVariable storage to more easily manage max size limits (10kb) for variables.
 
 ## Signature

@@ -12,12 +12,12 @@ export declare function Pressable(props: Readonly<PressableProps>): UINode<Press
 
 ## Parameters
 
-props: Readonly<[PressableProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_pressableprops)>
+props: Readonly<[PressableProps](../Type%20Aliases/PressableProps.md)>
 
 The props of the Pressable component.
 
 ## Returns
 
-[UINode](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uinode)<[PressableProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_pressableprops)>
+[UINode](../Classes/UINode.md)<[PressableProps](../Type%20Aliases/PressableProps.md)>
 
 A `UINode` object representing the Pressable component.

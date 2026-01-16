@@ -38,8 +38,8 @@ this.connectCodeBlockEvent(
 
 ### Alternate implementation methods
 
-* To accelerate development, we provide a simple asset group implementation with a largely plug-and-play experience: [World Broadcast Simple Asset Group Guide](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/world-broadcast/asset-group-guide)
-* We’ve also created a more advanced drop-in framework to help you get started. This provides static cameras and trigger zones that activate when players are present: [World Broadcast Camera Framework Guide](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/world-broadcast/camera-framework-guide)
+* To accelerate development, we provide a simple asset group implementation with a largely plug-and-play experience: [World Broadcast Simple Asset Group Guide](World%20Broadcast%20Simple%20Asset%20Group%20Guide.md)
+* We’ve also created a more advanced drop-in framework to help you get started. This provides static cameras and trigger zones that activate when players are present: [World Broadcast Camera Framework Guide](World%20Broadcast%20Camera%20Framework%20Guide.md)
 
 # High-level Overview
 

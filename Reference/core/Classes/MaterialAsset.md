@@ -2,9 +2,9 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_material
 
 # MaterialAsset Class
 
-Extends *[Asset](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_asset)*
+Extends *[Asset](Asset.md)*
 
-A material [asset](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_asset), which describes how the surface of a mesh is rendered.
+A material [asset](Asset.md), which describes how the surface of a mesh is rendered.
 
 ## Signature
 

@@ -43,7 +43,7 @@ The following events may be executed during the script lifecycle:
 
 Ownership is a mechanism used to determine which client (either the server or a user’s device) is the authority for a particular entity’s state. A script component is attached to a particular entity, and that entity is owned by a particular client. So in effect, ownership determines where the script executes.
 
-To learn more about ownership, see [Ownership in Meta Horizon Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/ownership-in-horizon-worlds/).
+To learn more about ownership, see [Ownership in Meta Horizon Worlds](Local%20scripting/Ownership%20in%20Meta%20Horizon%20Worlds.md).
 
 Ownership transfer is triggered explicitly by the scripting API, or implicitly by one of the following methods:
 

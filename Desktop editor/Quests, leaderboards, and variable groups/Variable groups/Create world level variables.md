@@ -57,7 +57,7 @@ await this.world.persistentStorageWorld.setWorldVariableAcrossAllInstancesAsync
 });
 ```
 
-> **Note:** When multiple instances update the same world variable simultaneously, race conditions can cause data loss. For scenarios requiring data integrity (like leaderboards or shared inventory), see [Concurrent-safe world level variable updates](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/concurrent-world-variable-updates) to learn about conflict detection and protection.
+> **Note:** When multiple instances update the same world variable simultaneously, race conditions can cause data loss. For scenarios requiring data integrity (like leaderboards or shared inventory), see [Concurrent-safe world level variable updates](../../../Scripting/API%20references%20and%20examples/Concurrent-safe%20world%20level%20variable%20updates.md) to learn about conflict detection and protection.
 
 ## Set world-level counters
 

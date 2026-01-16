@@ -14,4 +14,4 @@ export declare type ParticleFXSetParameterOptions = {
 
 ## References
 
-[Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player)
+[Player](../Classes/Player.md)

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_pressablep
 
 # PressableProps type
 
-Represents the props of a [pressable](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_pressable) component on a UI panel.
+Represents the props of a [pressable](../Functions/Pressable.md) component on a UI panel.
 
 ## Signature
 
@@ -22,4 +22,4 @@ export declare type PressableProps = {
 
 ## References
 
-[UIChildren](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uichildren), [Bindable](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_bindable), [Callback](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_callback), [ViewStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewstyle)
+[UIChildren](UIChildren.md), [Bindable](Bindable.md), [Callback](Callback.md), [ViewStyle](ViewStyle.md)

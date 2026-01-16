@@ -8,7 +8,7 @@ Welcome! This module introduces the NoesisGUI and prepares you to work with the 
 
 Note
 
- Changes to **.noesis** and XAML files require reuploading to the Desktop Editor. Before making edits, ensure the [approved fonts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-fonts-usage) have been downloaded in preparation.
+ Changes to **.noesis** and XAML files require reuploading to the Desktop Editor. Before making edits, ensure the [approved fonts](../../../Desktop%20editor/NoesisUI/Noesis%20UI%20Fonts%20Usage.md) have been downloaded in preparation.
 
 ## What You’ll Learn
 
@@ -40,7 +40,7 @@ Before you begin, make sure to:
 - Run the application named **App.StudioTool.exe**
 - Select Add Existing, to import the Tutorial project
 - Navigate to the Tutorial Project folder and select the **.noesis** file
-- Download and add supported fonts from the [NoesisGUI Fonts Usage Guide](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-fonts-usage) to your project
+- Download and add supported fonts from the [NoesisGUI Fonts Usage Guide](../../../Desktop%20editor/NoesisUI/Noesis%20UI%20Fonts%20Usage.md) to your project
 
 ## Step-by-Step: Uploading Noesis Projects to Horizon Station
 

@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The desktop editor loads in **Build** mode by default when you open it. This enables you to immediately start building a world, creating a scene, or placing objects.
 
-You can then use **Preview** mode to test-run your world, experiencing it fully rendered, with scripts executing in order to ensure it works properly. With this, you can interact with your partially-developed world, test world mechanics, and see player controls and interaction prompts. For more information, see [Preview Mode](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode/).
+You can then use **Preview** mode to test-run your world, experiencing it fully rendered, with scripts executing in order to ensure it works properly. With this, you can interact with your partially-developed world, test world mechanics, and see player controls and interaction prompts. For more information, see [Preview Mode](../Preview%20mode.md).
 
 You can change modes by selecting the appropriate mode button at the top of the editor.
 
@@ -21,7 +21,7 @@ You can change modes by selecting the appropriate mode button at the top of the 
 
 These tools are part of the suite of tools in the Worlds desktop editor. You can find out more about the UI at:
 
-* [The desktop editor user interface](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/user-interface/)
+* [The desktop editor user interface](User%20Interface.md)
 
 You can also try out the editor by working through our introductory tutorial:
 

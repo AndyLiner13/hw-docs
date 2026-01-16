@@ -6,7 +6,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Important
 
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+ This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
 ## Welcome
 
@@ -41,7 +41,7 @@ To build this world based on this tutorial, you must create a copy for yourself.
 - Select the **Tutorials** tab.
 - Select **Developing for Mobile and Web Players: Follow Along** world in the **Advanced Tutorials** shelf.
 
-You can create a new world based on a tutorial world from the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
+You can create a new world based on a tutorial world from the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
 ### Explore complete world
 
@@ -61,7 +61,7 @@ If you haven’t done so, please review the Getting Started section for tutorial
 
 **Note**: All tutorials are created using TypeScript 2.0.0. You can learn more about how to upgrade your own world to TypeScript 2.0.0.
 
-See [Getting Started with Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/upgrade-world-to-typescript-api-v200).
+See [Getting Started with Tutorials](../../../Scripting/Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md).
 
 ## Prerequisites
 
@@ -71,7 +71,7 @@ To follow along and complete this tutorial, you need the following:
 * The Meta Horizon Worlds app installed on your Quest device.
 * The desktop editor downloaded and installed on a PC device.
 
-See [Tutorial Prerequisites](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/tutorial-prerequisites).
+See [Tutorial Prerequisites](../../Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md).
 
 Optional:
 
@@ -111,7 +111,7 @@ This tutorial explores how to deliver compelling experiences across these platfo
 * Web (desktop)
 * Mobile
 
-As part of the development process, you must test your work on each of these platforms, which requires setting up a development environment for them. For more information, see [Preview device](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#preview-device).
+As part of the development process, you must test your work on each of these platforms, which requires setting up a development environment for them. For more information, see [Preview device](../../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#preview-device).
 
 ### Using the modules
 

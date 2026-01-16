@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_interact
 
 # InteractionInfo type
 
-Information about an input received from the player during [Focused Interaction](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusedinteraction) mode.
+Information about an input received from the player during [Focused Interaction](../Classes/FocusedInteraction.md) mode.
 
 ## Signature
 
@@ -18,7 +18,7 @@ export declare type InteractionInfo = {
 
 ## References
 
-[Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3)
+[Vec3](../Classes/Vec3.md)
 
 ## Remarks
 
@@ -27,5 +27,5 @@ screenPosition: The screen position of the input normalized to the range (0,0) t
 worldRayOrigin: The origin point of a ray in the world generated from a touch gesture.
 worldRayDirection: The direction vector of a ray in the world generated from a touch gesture.
 interactionStringId: A unique string identifier for the interaction.
-InteractionInfo is passed by the [PlayerControls.onFocusedInteractionInputStarted](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playercontrols#onfocusedinteractioninputstarted), [PlayerControls.onFocusedInteractionInputMoved](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playercontrols#onfocusedinteractioninputmoved), and [PlayerControls.onFocusedInteractionInputEnded](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playercontrols#onfocusedinteractioninputended) events.
-For more information, see the [Focused Interaction guide](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-use-focused-interaction).
+InteractionInfo is passed by the [PlayerControls.onFocusedInteractionInputStarted](../Classes/PlayerControls.md#onfocusedinteractioninputstarted), [PlayerControls.onFocusedInteractionInputMoved](../Classes/PlayerControls.md#onfocusedinteractioninputmoved), and [PlayerControls.onFocusedInteractionInputEnded](../Classes/PlayerControls.md#onfocusedinteractioninputended) events.
+For more information, see the [Focused Interaction guide](../../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md).

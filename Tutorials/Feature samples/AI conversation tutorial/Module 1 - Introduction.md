@@ -23,19 +23,19 @@ After creating a new copy of this template world, you need to do the following i
 
 ## Example world overview
 
-This world provides examples on how to add an AI Speech NPC. This example world is built on top of the [Sim Tycoon reference world](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/sim-tycoon-tutorial/module-0-setup). We recommend reviewing the Sim Tycoon world and its associated documentation to better understand the examples in this world.
+This world provides examples on how to add an AI Speech NPC. This example world is built on top of the [Sim Tycoon reference world](../../Genre%20samples/Sim%20tycoon%20tutorial/Module%200%20-%20Setup.md). We recommend reviewing the Sim Tycoon world and its associated documentation to better understand the examples in this world.
 
 ## Prerequisites
 
-We recommend familiarizing yourself with the “AI Speech NPCs” [documentation](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-conversations/ai-speech-npcs-overview).
+We recommend familiarizing yourself with the “AI Speech NPCs” [documentation](../../../Desktop%20editor/NPCs/NPC%20Conversation/AI%20Speech%20NPCs.md).
 
 ## What you’ll learn
 
 In this tutorial, you will learn how to:
 
-* [Meet and interact with existing AI Speech NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-2-meet-the-npcs)
-* [Understand how NPCs respond to game events](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-3-understanding-npc-implementation)
-* [How NPCs interact with players and other NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-4-player-interaction-and-multiple-npcs)
-* [Add and configure your own NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-5-exercise-add-your-own-ai-npc)
-* [Add game events for your world](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-6-exercise-add-game-events)
-* [Debug and optimize NPC performance](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/ai-conversation-tutorial/module-7-debugging-and-best-practices)
+* [Meet and interact with existing AI Speech NPCs](Module%202%20-%20Meet%20the%20NPCs.md)
+* [Understand how NPCs respond to game events](Module%203%20-%20NPC%20Implementation.md)
+* [How NPCs interact with players and other NPCs](Module%204%20-%20Introduction.md)
+* [Add and configure your own NPCs](Module%205%20-%20Exercise%20-%20Add%20Your%20Own%20AI%20NPC.md)
+* [Add game events for your world](Module%206%20-%20Exercise%20-%20Add%20Game%20Events.md)
+* [Debug and optimize NPC performance](Module%207%20-%20Debugging%20and%20Best%20Practices.md)

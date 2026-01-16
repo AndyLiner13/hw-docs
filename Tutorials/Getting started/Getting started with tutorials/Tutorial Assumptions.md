@@ -18,7 +18,7 @@ Unless otherwise stated, these tutorials are intended to be explored through the
 
 These tutorials are based on v2.0.0 of the TypeScript APIs.
 
-**Note**: If you have been working in an earlier version of the TypeScript API, you will need to upgrade your world to use the elements of these tutorials. See [Upgrade World to API v2.0.0](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/upgrade-world-to-typescript-api-v200).
+**Note**: If you have been working in an earlier version of the TypeScript API, you will need to upgrade your world to use the elements of these tutorials. See [Upgrade World to API v2.0.0](../../../Scripting/Upgrade%20World%20to%20TypeScript%20API%20v2.0.0.md).
 
 ## Non-file backed scripts worlds
 

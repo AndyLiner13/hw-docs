@@ -10,4 +10,4 @@ Creators who are responsible for governing a members-only world should take step
 
 Please note that while the primary goal of this test is to learn how Meta can empower creator-led governance, unaddressed persistent or egregious issues in a creator’s members-only world may result in their removal from the Alpha program.
 
-To learn more about moderation, reference the [“How should creators moderate their members-only worlds?”](https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/how-should-creators-moderate-their-membersonly-worlds/) article.
+To learn more about moderation, reference the [“How should creators moderate their members-only worlds?”](How%20should%20creators%20moderate%20their%20members-only%20worlds.md) article.

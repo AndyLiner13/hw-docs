@@ -11,7 +11,7 @@ World owners are able to test purchase items at no cost and delete items from th
 
 Enrollment in the Meta Horizon Creator Program is a prerequisite to accessing monetization tools offered to creators in Meta Horizon Worlds, including test-world purchases. Program members must also agree to the [IWP Offering Terms](https://horizon.meta.com/creator) in order to access the Commerce tab in their Creator User Interface (CUI).
 
-For more information and instructions on how to create an IWP item, please review the [Meta Horizon Worlds In-World Purchase Guide](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/meta-horizon-worlds-inworld-purchase-guide/).
+For more information and instructions on how to create an IWP item, please review the [Meta Horizon Worlds In-World Purchase Guide](In-world%20purchase%20guide.md).
 
 ## Test purchasing an IWP item
 

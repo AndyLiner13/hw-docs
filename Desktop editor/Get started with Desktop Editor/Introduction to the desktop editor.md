@@ -17,8 +17,8 @@ Using the desktop editor when creating your world makes it easier to:
 
 The following topics will help you start working with the desktop editor:
 
-* [**Creating a new world in Meta Horizon Worlds**](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/creating-a-new-world/)
-* [**Installing the desktop editor**](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/install-desktop-editor/)
-* [**Using the desktop editor**](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/user-interface/)
-* [**Modifying the properties of objects in your world**](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/modifying-editable-entity-properties/)
-* [**Creating scripts for more activities and greater flexibility**](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/adding-and-editing-scripts/)
+* [**Creating a new world in Meta Horizon Worlds**](Create%20a%20New%20World.md)
+* [**Installing the desktop editor**](../../Get%20started/Install%20the%20desktop%20editor.md)
+* [**Using the desktop editor**](User%20interface/User%20Interface.md)
+* [**Modifying the properties of objects in your world**](Modifying%20editable%20entity%20properties.md)
+* [**Creating scripts for more activities and greater flexibility**](Adding%20and%20editing%20scripts.md)

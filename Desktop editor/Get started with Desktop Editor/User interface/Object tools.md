@@ -6,17 +6,17 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The object tools in the Desktop Editor provide a set of commonly used tools for building scenes and asset use. Each option provides a menu of different types of tools that you can use for creating your worlds.
 
-For more in-depth information about the object tools, see [Using the Object tools](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation)
+For more in-depth information about the object tools, see [Using the Object tools](../../Objects/Using%20the%20Object%20Tools.md)
 
 This suite of tools contains the following object tool tyou can use:
 
-* [Select](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#select)
-* [Move](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#move)
-* [Rotate](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#rotate)
-* [Scale](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#scale)
-* [Local and Global Coordinate Systems](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#local-and-global-scripts)
-* [Pivot](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#pivot)
-* [Snapping tools](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#snapping-tools)
+* [Select](Object%20tools.md#select)
+* [Move](Object%20tools.md#move)
+* [Rotate](Object%20tools.md#rotate)
+* [Scale](Object%20tools.md#scale)
+* [Local and Global Coordinate Systems](Object%20tools.md#local-and-global-scripts)
+* [Pivot](Object%20tools.md#pivot)
+* [Snapping tools](Object%20tools.md#snapping-tools)
 
 ## Select
 
@@ -62,11 +62,11 @@ You can use the **Snapping** tools to precisely translate, rotate, and scale obj
 
 The following snapping tools are availabe in the Desktop Editor UI:
 
-* [Translation Grid Snap](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#translation-grid-snap)
-* [Rotation Angle Snap](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#rotation-angle-snap)
-* [Scale Snap](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#scale-snap)
-* [Relative or Absolute Snap](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#relative-or-absolute-snap)
-* [Snap to Surfaces](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/object-tools#snap-to-surfaces)
+* [Translation Grid Snap](Object%20tools.md#translation-grid-snap)
+* [Rotation Angle Snap](Object%20tools.md#rotation-angle-snap)
+* [Scale Snap](Object%20tools.md#scale-snap)
+* [Relative or Absolute Snap](Object%20tools.md#relative-or-absolute-snap)
+* [Snap to Surfaces](Object%20tools.md#snap-to-surfaces)
 
 ### Translation Grid Snap
 
@@ -109,7 +109,7 @@ Use the **Snap to surfaces** to snap the pivot point of one object to the collid
 
 The **Object tool** suite is part of the collection of tools in the Desktop Editor UI. You can find out more about the UI at:
 
-* [The Desktop Editor user interface](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/user-interface/)
+* [The Desktop Editor user interface](User%20Interface.md)
 
 You can also try out the editor by working through the the introductory tutorials:
 

@@ -4,13 +4,13 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Requirements
 
- You will need to be a member of MHCP and have accepted the monetization Terms Of Service in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-monetization-partner-program).
+ You will need to be a member of MHCP and have accepted the monetization Terms Of Service in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](../../../MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 ## Creating in-world items
 
 In-world items are tied to the world in which they are created, and can only be created by owners and editors of the world. This means that in order for the shop to work as expected the in-world items for this tutorial will need to be created by you.
 
-Follow the [In-World Purchase Guide: Creating An Item](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/meta-horizon-worlds-inworld-purchase-guide#creating-an-item) to create the following in-world items:
+Follow the [In-World Purchase Guide: Creating An Item](../../../MHCP%20program/Monetization/In-world%20purchase%20guide.md#creating-an-item) to create the following in-world items:
 
 * Apple
 * Apple Pie

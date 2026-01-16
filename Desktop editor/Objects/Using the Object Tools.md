@@ -76,11 +76,11 @@ You can use the **Snapping** tools to precisely translate, rotate, and scale obj
 
 The following snapping tools are availabe in the Desktop Editor UI:
 
-* [Translation Grid Snap](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation#translation-grid-snap)
-* [Rotation Angle Snap](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation#rotation-angle-snap)
-* [Scale Snap](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation#scale-snap)
-* [Relative or Absolute Snap](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation#relative-or-absolute-snap)
-* [Snap to Surfaces](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation#snap-to-surfaces)
+* [Translation Grid Snap](Using%20the%20Object%20Tools.md#translation-grid-snap)
+* [Rotation Angle Snap](Using%20the%20Object%20Tools.md#rotation-angle-snap)
+* [Scale Snap](Using%20the%20Object%20Tools.md#scale-snap)
+* [Relative or Absolute Snap](Using%20the%20Object%20Tools.md#relative-or-absolute-snap)
+* [Snap to Surfaces](Using%20the%20Object%20Tools.md#snap-to-surfaces)
 
 ### Translation Grid Snap
 

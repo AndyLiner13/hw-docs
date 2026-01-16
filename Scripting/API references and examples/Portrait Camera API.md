@@ -15,7 +15,7 @@ The Portrait Camera API provides the `PortraitCamera` class, which extends the c
 To use the Portrait Camera API, you need:
 
 * **Editor version**: Desktop Editor version 229 or later.
-* **Script configuration**: Scripts must be set to [local execution mode](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting#set-a-script-to-run-locally) and owned by the target player.
+* **Script configuration**: Scripts must be set to [local execution mode](../Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md#set-a-script-to-run-locally) and owned by the target player.
 * **Compiling scripts**: You must have at least one script which successfully compiles in order to see the scripting API options.
 
 ## Enabling the API
@@ -28,7 +28,7 @@ To use the Portrait Camera API, you need:
 
 ## API reference
 
-The [`PortraitCamera`](https://developers.meta.com/horizon-worlds/reference/2.0.0/portrait_camera_portraitcamera) class extends the standard [`Camera`](https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_camera) class with orientation detection capabilities.
+The [`PortraitCamera`](../../Reference/portrait_camera/Classes/PortraitCamera.md) class extends the standard [`Camera`](../../Reference/camera/Classes/Camera.md) class with orientation detection capabilities.
 
 ### Properties
 
@@ -38,7 +38,7 @@ The [`PortraitCamera`](https://developers.meta.com/horizon-worlds/reference/2.0.
 
 ### Methods
 
-The [`PortraitCamera`](https://developers.meta.com/horizon-worlds/reference/2.0.0/portrait_camera_portraitcamera) class inherits all methods from the standard [`Camera`](https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_camera) class and can be used as a drop-in replacement with additional orientation capabilities.
+The [`PortraitCamera`](../../Reference/portrait_camera/Classes/PortraitCamera.md) class inherits all methods from the standard [`Camera`](../../Reference/camera/Classes/Camera.md) class and can be used as a drop-in replacement with additional orientation capabilities.
 
 ### Usage example: basic orientation detection
 
@@ -93,25 +93,25 @@ hz.Component.register(OrientationChecker);
 
 ### Script execution requirements
 
-* **Local execution mode**: Always set scripts using the Portrait Camera API to [local execution mode](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting#set-a-script-to-run-locally).
+* **Local execution mode**: Always set scripts using the Portrait Camera API to [local execution mode](../Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md#set-a-script-to-run-locally).
 * **Player ownership**: Ensure the script entity is owned by the target player before making camera API calls.
 * **Ownership transfer**: Transfer ownership when players enter the world, similar to other camera-related scripts.
 
 ### Integration with spawn point gizmos
 
-The Portrait Camera API works well alongside [spawn point gizmo Mobile Camera Options](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-spawn-point-gizmo#mobile-camera-options):
+The Portrait Camera API works well alongside [spawn point gizmo Mobile Camera Options](../../Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options):
 
 ## Testing and preview
 
-Use the [Preview Configuration](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#setting-the-preview-device) options in the desktop editor.
+Use the [Preview Configuration](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device) options in the desktop editor.
 
 ## Related documentation
 
-* [Spawn Point Gizmo - Mobile Camera Options](https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-spawn-point-gizmo#mobile-camera-options)
-* [Preview Mode - Setting the Preview Device](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/preview-mode#setting-the-preview-device)
-* [Camera API for Web and Mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/camera/)
-* [Local Scripting Documentation](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting/)
-* [World Settings Modification - World Orientation](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/world-settings-modification#advanced)
+* [Spawn Point Gizmo - Mobile Camera Options](../../Gizmos/Spawn%20point%20gizmo.md#mobile-camera-options)
+* [Preview Mode - Setting the Preview Device](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md#setting-the-preview-device)
+* [Camera API for Web and Mobile](../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
+* [Local Scripting Documentation](../Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
+* [World Settings Modification - World Orientation](../../Desktop%20editor/Settings/World%20Settings%20Modification.md#advanced)
 
 ## Limitations and notes
 

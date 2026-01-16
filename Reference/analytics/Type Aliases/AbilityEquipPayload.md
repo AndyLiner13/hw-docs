@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_abi
 
 # AbilityEquipPayload type
 
-A payload sent by the `OnAbilityEquip` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnAbilityEquip` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_dynamicl
 
 # DynamicLightGizmo Class
 
-Extends *[Entity](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity)*
+Extends *[Entity](Entity.md)*
 
 Represents a dynamic lighting gizmo in the world, which provides lighting that's calculated in real-time.
 

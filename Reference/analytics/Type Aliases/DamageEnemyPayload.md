@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_dam
 
 # DamageEnemyPayload type
 
-A payload sent by the `OnDamageEnemy` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnDamageEnemy` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editor
 
 # EditorTextProps type
 
-The props of an [EditorText()](https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editortext) component.
+The props of an [EditorText()](../Functions/EditorText.md) component.
 
 ## Signature
 
@@ -18,4 +18,4 @@ export declare type EditorTextProps = {
 
 ## References
 
-[TextType](https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_texttype)
+[TextType](TextType.md)

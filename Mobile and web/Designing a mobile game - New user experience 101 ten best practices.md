@@ -23,7 +23,7 @@ This article continues our two-part series, *Designing a Mobile Game New User Ex
 
 The first session is one of the most important parts of your player’s new user experience. Mobile players need to be convinced early that the game is fun, offers lasting appeal, and rewards their effort. If players find your game confusing or uninteresting, they’ll likely move on to something else.
 
-Please feel free to [view the tutorial World](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/new-user-experience-tutorial/module-1-setup) for a strong example of a Worlds NUX experience that is guided by quests.
+Please feel free to [view the tutorial World](../Tutorials/Feature%20samples/New%20user%20experience%20tutorial/Module%201%20-%20Introduction.md) for a strong example of a Worlds NUX experience that is guided by quests.
 
 The first session should set the stage for your entire experience by highlighting both **how** and **why** to play. We’ll use a walkthrough of *Clash Royale’s* first session as an example. Though *Clash Royale* has a guided tutorial, the principles can be easily adapted to a hands off minimalistic approach.
 

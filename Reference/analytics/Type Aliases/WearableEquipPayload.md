@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_wea
 
 # WearableEquipPayload type
 
-A payload sent by the `OnWearableEquip` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
+A payload sent by the `OnWearableEquip` [event](../Variables/TurboEvents.md).
 
 ## Signature
 

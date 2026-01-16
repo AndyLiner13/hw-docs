@@ -12,4 +12,4 @@ export declare type AvatarGripPoseAnimationCallback = (reason: AnimationCallback
 
 ## References
 
-[AnimationCallbackReason](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_animationcallbackreason)
+[AnimationCallbackReason](AnimationCallbackReason.md)

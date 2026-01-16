@@ -63,7 +63,7 @@ In `PlayerCamera.ts`:
   + Sets locomotion on the player to 0
   + Calls to displayCameraResetButton(), which activates the Q button on the mobile and web screen.
 
-For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/camera-api-examples-tutorial/module-2-playercamera-overview).
+For more information on parameters of this event and the above functions, see [Module 2 - PlayerCamera Overview](Module%202%20-%20PlayerCamera%20Overview.md).
 
 ## Checkpoint
 

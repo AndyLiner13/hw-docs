@@ -97,4 +97,4 @@ A creator decides he wants to build a simple town in Horizon using editable hier
   - He clicks on the “Town” empty object in the hierarchy.
   - He then uses the manipulators to move and align the town to where he wants it.
 
-Thanks to the object nesting capabilities of [hierarchy editing](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-grouping), the entire town easily moves together in one big piece.
+Thanks to the object nesting capabilities of [hierarchy editing](../Objects/Object%20hierarchy%20and%20groups.md), the entire town easily moves together in one big piece.

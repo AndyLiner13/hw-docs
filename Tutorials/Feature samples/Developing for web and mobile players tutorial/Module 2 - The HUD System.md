@@ -386,8 +386,8 @@ This system is used throughout the puzzle game to teach players how to use objec
 #### Additional Documentation:
 
 * [2D UI for Web and Mobile](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/2d-ui-for-web-and-mobile)
-* [Safe Placement of UI Controls](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/designing-worlds-for-mobile-and-web/safe-placement-of-ui-controls/)
-* [Events](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/local-events)
+* [Safe Placement of UI Controls](../../../Mobile%20and%20web/Designing%20worlds%20for%20mobile%20and%20web/Safe%20Placement%20of%20UI%20Controls.md)
+* [Events](../../../Scripting/Events/Local%20Events.md)
 
 #### API docs:
 

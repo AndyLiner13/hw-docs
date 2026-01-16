@@ -10,7 +10,7 @@ The Generative AI Mesh tool allows you to dynamically generate textured meshes t
 
 Prerequisites
 
-* [Horizon Desktop editor](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/introduction-to-desktop-editor) installed on your PC
+* [Horizon Desktop editor](../Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md) installed on your PC
 
 Gen AI Tool Availability & Rates
 
