@@ -5,7 +5,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_thi
 > Warning: This API is now obsolete.
 > This module is deprecated and will be removed in a future version.
 
-A [CameraMovementPreset](CameraMovementPreset.md) option that provides a third-person over-the-shoulder camera view where the camera is positioned slightly above and behind the player avatar.
+A [CameraMovementPreset](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_cameramovementpreset) option that provides a third-person over-the-shoulder camera view where the camera is positioned slightly above and behind the player avatar.
 
 ## Signature
 

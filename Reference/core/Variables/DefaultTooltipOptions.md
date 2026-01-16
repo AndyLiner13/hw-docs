@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_defaultt
 
 # DefaultTooltipOptions Variable
 
-The default values for showing a tooltip using the [TooltipOptions](../Type%20Aliases/TooltipOptions.md) type.
+The default values for showing a tooltip using the [TooltipOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_tooltipoptions) type.
 
 ## Signature
 

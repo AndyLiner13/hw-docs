@@ -3,7 +3,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_d
 # DurationSampler Class
 
 > Warning: This API is now obsolete.
-> Use [HorizonDurationSampler](HorizonDurationSampler.md) instead!
+> Use [HorizonDurationSampler](https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizondurationsampler) instead!
 
 This class is deprecated.
 

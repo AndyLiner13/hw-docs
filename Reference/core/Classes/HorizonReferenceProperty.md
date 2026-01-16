@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_horizonr
 
 Extends *BaseHorizonProperty<T>*
 
-Represents a property of a reference type in Horizon Worlds, such as a ([Vec3](Vec3.md), [Quaternion](Quaternion.md), or [Color](Color.md)) instance. Use this class for properties of reference types that implement `copy` or `clone` methods to ensure the methods snapshot the state of the copied or cloned object at the time of the method call.
+Represents a property of a reference type in Horizon Worlds, such as a ([Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3), [Quaternion](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_quaternion), or [Color](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_color)) instance. Use this class for properties of reference types that implement `copy` or `clone` methods to ensure the methods snapshot the state of the copied or cloned object at the time of the method call.
 
 ## Signature
 

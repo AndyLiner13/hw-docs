@@ -12,12 +12,12 @@ export declare function EditorTextInput(props: Readonly<EditorTextInputProps>): 
 
 ## Parameters
 
-props: Readonly<[EditorTextInputProps](../Type%20Aliases/EditorTextInputProps.md)>
+props: Readonly<[EditorTextInputProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editortextinputprops)>
 
 The props of the component.
 
 ## Returns
 
-UINode<[EditorTextInputProps](../Type%20Aliases/EditorTextInputProps.md)>
+UINode<[EditorTextInputProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editortextinputprops)>
 
 A that represents the EditorTextInput component.

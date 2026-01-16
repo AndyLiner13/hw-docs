@@ -69,7 +69,7 @@ Select your NoesisUI gizmo in the **Hierarchy** panel, then adjust these propert
 
 [Attach script for Noesis UI script](https://developers.meta.com/horizon-worlds/images/noesis-ui-1.png)
 
-Learn more about **Shared Mode Noesis** scripts [here](Shared%20Mode%20for%20Noesis%20UI%20Scripts.md).
+Learn more about **Shared Mode Noesis** scripts [here](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/shared-mode-noesis-scripts).
 
 ## Enable UI interactions
 
@@ -165,7 +165,7 @@ this.entity.as(NoesisGizmo).dataContext = dataContext;
 
 You can see a working example here:
 
-![MouseMove Event example](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/499304131_893860719986354_6580421482938489396_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=Mkh_QzZPpmwQ7kNvwEL6jV2&_nc_oc=AdmEKC8hKtL4ReG3kXCwbV32gnBWST2Y9jyjJMfV8D6Fwkb_ebNvy1G4FdoLgG41gOxL_quK4Q_w1tRE9NAJ7blE&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfmvvGo-ygmGfY47_4npch9niJogVOBoqKymaoZhiJSq7Q&oe=69557134)
+![MouseMove Event example](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/499304131_893860719986354_6580421482938489396_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=OUFXNmaE9HsQ7kNvwGOh2Dl&_nc_oc=AdmZixr75V4H_FEt6NCVDe7e83RarRT9bidctEAc2J3U34d-D7UXEEltABObQz18wFA&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfpQJqKKQYm9dRPQfc7J-IoU5HtfG6rPWHgCxumxjhfghA&oe=69840634)
 
 ## Command param tutorial
 
@@ -236,7 +236,7 @@ this.entity.as(NoesisGizmo).dataContext = dataContext;
 
 See a working example here:
 
-![MouseMove Event example](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/499298150_1967665127426257_5329898611576816400_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=IN1NiyH-LbUQ7kNvwFHFYxy&_nc_oc=AdkMz75VRbxnvAXo25kmDgxLrnRK6ucPTwkvXBkgBW61K6wBy199KsGBQG4XkKt6JUN_SoclASrrkvUNjSwfMf77&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfnP4MnSg2jemGD89FrDvUz8PXMcyw7EZ5FDd7qihIy2pg&oe=6955A06F)
+![MouseMove Event example](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/499298150_1967665127426257_5329898611576816400_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PmCdsNtQY9sQ7kNvwFMPnjq&_nc_oc=AdkBoNIt1uwuw-AF3Q4VRTdeFDAjrmv5rj-30aEydWCQCCgMEQLlZY8hFvwRrwBxXeo&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afqklhw7g1G9wDQ-gb_kGun8OVx5y9QgWYPMCba0nJ0d-Q&oe=6983FD2F)
 
 ## Noesis Features Support
 
@@ -249,7 +249,7 @@ Noesis provides a broad set of features. The implementation for the desktop edit
 | Paths(shapes) | Supported. **Note**: Use with caution due to performance implications |
 | Data Bindings | Supported |
 | Commands | Supported |
-| [Fonts](Noesis%20UI%20Fonts%20Usage.md) | Support for a limited number of approved fonts. |
+| [Fonts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/noesis-ui-fonts-usage) | Support for a limited number of approved fonts. |
 | Nine-slicing | Will not be supported. |
 | Extensions requiring C#/C++ code injection: custom components, user controls, external plugins, and additional brushes | Will not be supported. |
 | Switching between XAMLS | Supported. |

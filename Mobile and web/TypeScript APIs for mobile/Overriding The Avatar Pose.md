@@ -4,10 +4,10 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 You can programmatically override the avatar pose on a grabbable item at runtime. This approach lets you play a different set of animations. For example, you could use a gun in a melee attack by switching to the sword set. This is done by calling the following methods:
 
-* [setAvatarGripPoseOverride](../../Reference/core/Classes/Player.md#setavatargripposeoverride)
-* [clearAvatarGripPoseOverride](../../Reference/core/Classes/Player.md#clearavatargripposeoverride)
+* [setAvatarGripPoseOverride](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player#setavatargripposeoverride)
+* [clearAvatarGripPoseOverride](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player#clearavatargripposeoverride)
 
-The existing avatar grip poses are defined in the [AvatarGripPose enumumeration](../../Reference/core/Enumerations/AvatarGripPose.md).
+The existing avatar grip poses are defined in the [AvatarGripPose enumumeration](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avatargrippose).
 
 The following example demonstrates how to override an avatar pose on a grabble item:
 

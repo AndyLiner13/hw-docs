@@ -12,4 +12,4 @@ export declare type LongTapEventData = TouchEventData;
 
 ## References
 
-[TouchEventData](TouchEventData.md)
+[TouchEventData](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_toucheventdata)

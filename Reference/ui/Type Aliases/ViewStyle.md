@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewstyle
 
 # ViewStyle type
 
-Represents the styles of a [View()](../Functions/View.md) component on a UI panel. For descriptions of the available styles, see [Custom UI Styles](../../../Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#viewstyle).
+Represents the styles of a [View()](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_view) component on a UI panel. For descriptions of the available styles, see [Custom UI Styles](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#viewstyle).
 
 ## Signature
 
@@ -23,8 +23,8 @@ export declare type ViewStyle = LayoutStyle & BorderStyle & ShadowStyle & Transf
 
 ## References
 
-[LayoutStyle](LayoutStyle.md), [BorderStyle](BorderStyle.md), [ShadowStyle](ShadowStyle.md), [TransformStyle](TransformStyle.md), [Bindable](Bindable.md), [ColorValue](ColorValue.md)
+[LayoutStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_layoutstyle), [BorderStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_borderstyle), [ShadowStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_shadowstyle), [TransformStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_transformstyle), [Bindable](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_bindable), [ColorValue](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_colorvalue)
 
 ## Remarks
 
-The [UIComponent](../Abstract%20Classes/UIComponent.md) class is the base class for controlling custom UI panels in a world. See [Create a custom UI panel](../../../Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) for guides about using the API.
+The [UIComponent](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uicomponent) class is the base class for controlling custom UI panels in a world. See [Create a custom UI panel](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel) for guides about using the API.

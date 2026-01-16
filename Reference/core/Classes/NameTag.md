@@ -14,7 +14,7 @@ export declare class NameTag
 
 |  |  |
 | --- | --- |
-| **(constructor)(player)** | Creates a new `NameTag`.  ---  Signature  ``` constructor(player: Player); ```  Parameters  player: [Player](Player.md)  The Player to attach the tag to. |
+| **(constructor)(player)** | Creates a new `NameTag`.  ---  Signature  ``` constructor(player: Player); ```  Parameters  player: [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player)  The Player to attach the tag to. |
 
 ## Properties
 

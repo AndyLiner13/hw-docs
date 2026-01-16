@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_textgizm
 
 # TextGizmo Class
 
-Extends *[Entity](Entity.md)*
+Extends *[Entity](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity)*
 
 Represents a text label in the world.
 

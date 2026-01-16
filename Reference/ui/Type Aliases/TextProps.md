@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_textprops
 
 # TextProps type
 
-Represents the props of a [text](../Functions/Text_2.md) component.
+Represents the props of a [text](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_text_2) component.
 
 ## Signature
 
@@ -16,4 +16,4 @@ export declare type TextProps = {
 
 ## References
 
-[Bindable](Bindable.md), [TextStyle](TextStyle.md)
+[Bindable](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_bindable), [TextStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_textstyle)

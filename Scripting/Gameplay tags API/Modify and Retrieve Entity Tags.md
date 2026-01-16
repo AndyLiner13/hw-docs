@@ -4,9 +4,9 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 You can use the following APIs to create and update tags for an entity as well as retrieve all entities in the world with a specified set of tags.
 
-* [Entity.tags propery](../../Reference/core/Classes/Entity.md#tags)
-* [World.GetEntitiesWithTags method](../../Reference/core/Classes/World.md#getentitieswithtags)
-* [EntityTagMatchOperation enum](../../Reference/core/Enumerations/EntityTagMatchOperation.md)
+* [Entity.tags propery](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity#tags)
+* [World.GetEntitiesWithTags method](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_world#getentitieswithtags)
+* [EntityTagMatchOperation enum](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entitytagmatchoperation)
 
 ## TypeScript Example Code
 
@@ -61,7 +61,7 @@ console.log(entity.Tags.length()); // 2
 
 This video demonstrates how to query entities based on tagging, using a script similar to the example below.
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453652358_1271239434033510_5162475170574308196_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=jaAyjZyacqwQ7kNvwGFp3ea&_nc_oc=AdlqVWpg6kmXKcaPAumq65pnvmWWdhkFbjCVm5Uqs5N9nMlIjhCcSl6x8cShfEC_CzBVhGu5zTuwkJVS_JffR2gJ&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=KXRzMYUkrUro9TWMD3DWcg&oh=00_Afm-vN3DAmJBn7xy-RkWXY9tORUN7UbrZ17HMT2-5bwRTw&oe=69411990)
+[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453652358_1271239434033510_5162475170574308196_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=RIKEY75q8xcQ7kNvwEzJwr3&_nc_oc=AdlyaQ5P9CN9TanuYzNLwfS0SZgypvRvIF__LCre49wLBGE4Yl5ki--2A2RfMvD-UdBNSaSKPeiQd1EmlKr3x9ND&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=p4eMesIme5U2UrfPoRveqw&oh=00_AfoNUFEd0jb7Q7Pf-BgFsUsyb-PgmfvvWvtlTBcu9OKGIg&oe=696FAE90)
 
 ```
 entity1.Tags.add('tag1');

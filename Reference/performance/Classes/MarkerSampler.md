@@ -3,7 +3,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_m
 # MarkerSampler Class
 
 > Warning: This API is now obsolete.
-> Use [HorizonMarkerSampler](HorizonMarkerSampler.md) instead.
+> Use [HorizonMarkerSampler](https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizonmarkersampler) instead.
 
 This class is deprecated.
 
@@ -27,4 +27,4 @@ Creates a sampler that can be used to record an event without a duration.
 
 |  |  |
 | --- | --- |
-| **mark()** | Warning: This API is now obsolete. Use [HorizonMarkerSampler.mark()](HorizonMarkerSampler.md#mark) instead. This method is deprecated.      Signature  ``` mark(): void; ```  Returns  void |
+| **mark()** | Warning: This API is now obsolete. Use [HorizonMarkerSampler.mark()](https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizonmarkersampler#mark) instead. This method is deprecated.      Signature  ``` mark(): void; ```  Returns  void |

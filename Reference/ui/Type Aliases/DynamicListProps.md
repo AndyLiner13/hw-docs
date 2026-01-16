@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_dynamiclis
 
 # DynamicListProps type
 
-Represents the props of a [DynamicList()](../Functions/DynamicList.md) component in a UI panel.
+Represents the props of a [DynamicList()](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_dynamiclist) component in a UI panel.
 
 ## Signature
 
@@ -16,4 +16,4 @@ export declare type DynamicListProps<T> = {
 
 ## References
 
-[Binding](../Classes/Binding.md), [UINode](../Classes/UINode.md), [ViewStyle](ViewStyle.md)
+[Binding](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_binding), [UINode](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uinode), [ViewStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewstyle)

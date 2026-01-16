@@ -21,7 +21,7 @@ The **Worlds** page serves as your primary landing page as a world creator in th
 * **Development** - Build and configure your world’s core functionality
 * **Distribution** - Manage versions, release channels, and publishing workflow
 * **Engagement** - Set up features that drive user retention and interaction
-* **[Insights](../Performance/Analytics/World%20Analytics.md)** - View analytics to track your world’s performance
+* **[Insights](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/world-analytics)** - View analytics to track your world’s performance
 
 ### World overview and management
 
@@ -34,8 +34,8 @@ For each world, you’ll see essential information at a glance including the pre
 Each world has its own dedicated detail page where you can:
 
 * **Monitor build status** - View production build status and assigned world categories, which correspond to top-level navigation in the Meta Horizon Store
-* **Continue submissions** - Resume the submission process for worlds in draft status (for complete publishing guidance, see [Publishing](Publish%20your%20world.md))
-* **Edit metadata** - Update world information, descriptions, and other details (for detailed instructions, see [Add world details](Add%20world%20details.md))
+* **Continue submissions** - Resume the submission process for worlds in draft status (for complete publishing guidance, see [Publishing](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-your-world/))
+* **Edit metadata** - Update world information, descriptions, and other details (for detailed instructions, see [Add world details](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/add-world-details-in-horizon/))
 * **View store presence** - Access your world’s live Meta Horizon Store page via the **View World Page** button once published
 
 ### Development
@@ -92,7 +92,7 @@ On this page you can manage the release channels for your world. This page inclu
 
 #### world details
 
-On this page you can manage the metadata for your world. For more information, see [Add world details](Add%20world%20details.md).
+On this page you can manage the metadata for your world. For more information, see [Add world details](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/add-world-details-in-horizon/).
 
 ### Engagement
 
@@ -130,7 +130,7 @@ Clicking on the **Team** left-side nabigation option will open the **Teams** sec
 
 ### Members
 
-On this page you can manage the members of your team. This page includes a list of all members as well as the option to add new members. For more information, see [Manage your team](Manage%20your%20team.md).
+On this page you can manage the members of your team. This page includes a list of all members as well as the option to add new members. For more information, see [Manage your team](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/worlds-manage-team/).
 
 ### Payment
 

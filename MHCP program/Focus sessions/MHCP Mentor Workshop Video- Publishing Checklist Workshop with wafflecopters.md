@@ -11,4 +11,4 @@ Develop practical strategies to:
 * Build a systematic approach to quality assurance
 * Optimize your world for cross-platform experiences
 
-You can download the publishing checklist [here](World%20publishing%20guide.md).
+You can download the publishing checklist [here](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/world-publishing-guide).

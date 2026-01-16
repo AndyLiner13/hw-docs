@@ -53,7 +53,7 @@ Component.register(CodeBlockEvent_CB);
 
 **Example 2**
 
-This example demonstrates how to receive a built-in CodeBlock event using the [Component.connectCodeBlockEvent()](../Abstract%20Classes/Component.md#connectcodeblockevent) function.
+This example demonstrates how to receive a built-in CodeBlock event using the [Component.connectCodeBlockEvent()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_component#connectcodeblockevent) function.
 
 ```
 // Import CodeBlockEvents to access Built-in Events.
@@ -83,15 +83,15 @@ Component.register(BuiltInEventExample);
 
 ## Remarks
 
-A code block event is a legacy event that doesn't perform as well as a [local event](LocalEvent.md) or a [network event](NetworkEvent.md). You should only use the `CodeBlockEvent` class to interact with world scripting events.
-You can create, send, and receive custom code block events, or subscribe to built-in code block events defined in the [CodeBlockEvents](../Variables/CodeBlockEvents.md) variable.
-For information about using code block events, see the [Code Block Events](../../../Scripting/Events/CodeBlock%20Events.md) guide.
+A code block event is a legacy event that doesn't perform as well as a [local event](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_localevent) or a [network event](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_networkevent). You should only use the `CodeBlockEvent` class to interact with world scripting events.
+You can create, send, and receive custom code block events, or subscribe to built-in code block events defined in the [CodeBlockEvents](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_codeblockevents) variable.
+For information about using code block events, see the [Code Block Events](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/codeblock-events) guide.
 
 ## Constructors
 
 |  |  |
 | --- | --- |
-| **(constructor)(name, expectedTypes)** | Creates a `CodeBlockEvent` object.  ---  Signature  ``` constructor(name: string, expectedTypes: ConstrainedPropTypes<T> | []); ```  Parameters  name: string  The name of the event.  expectedTypes: ConstrainedPropTypes<T> | []  The list of possible event types.  Remarks  Each of these types defines the parameters for the event and must be of type [PropTypes](../Variables/PropTypes.md). |
+| **(constructor)(name, expectedTypes)** | Creates a `CodeBlockEvent` object.  ---  Signature  ``` constructor(name: string, expectedTypes: ConstrainedPropTypes<T> | []); ```  Parameters  name: string  The name of the event.  expectedTypes: ConstrainedPropTypes<T> | []  The list of possible event types.  Remarks  Each of these types defines the parameters for the event and must be of type [PropTypes](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_proptypes). |
 
 ## Properties
 

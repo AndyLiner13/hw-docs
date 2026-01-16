@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_arm
 
 # ArmorEquipPayload type
 
-A payload sent by the `OnArmorEquip` [event](../Variables/TurboEvents.md).
+A payload sent by the `OnArmorEquip` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
 
 ## Signature
 

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMeshPath type
 
-Defines the pathfinding calculation results retrieved by the [NavMesh.getPath](../Classes/NavMesh.md#getpath) property.
+Defines the pathfinding calculation results retrieved by the [NavMesh.getPath](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmesh#getpath) property.
 
 ## Signature
 

@@ -12,13 +12,13 @@ The API provides detection for the following gestures:
 * Pan (drag)
 * Pinch (scale and rotate)
 
-You use the [Gestures](../../Reference/mobile_gestures/Classes/Gestures.md) class to listen for these gesture events on a component owned by the local player.
+You use the [Gestures](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gestures) class to listen for these gesture events on a component owned by the local player.
 
 ## Step 1: Setup and initialization
 
 To use the gestures API, you need to:
 
-* Import the [Gestures](../../Reference/mobile_gestures/Classes/Gestures.md) class from `horizon/mobile_gestures`.
+* Import the [Gestures](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gestures) class from `horizon/mobile_gestures`.
 * Create an instance of `Gestures` attached to your component.
 * Call `enterFocusedInteractionMode()` on the player to start processing gesture events.
 
@@ -50,7 +50,7 @@ The `Gestures` instance exposes the following events you can subscribe to:
 * `onPan`
 * `onPinch`
 
-Each event is a [GestureEvent](../../Reference/mobile_gestures/Classes/GestureEvent.md) that you connect to with a callback function receiving gesture data.
+Each event is a [GestureEvent](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gestureevent) that you connect to with a callback function receiving gesture data.
 
 ### Example: Connecting to gesture events
 
@@ -90,28 +90,28 @@ Each gesture event provides specific data:
 
 | Gesture | Payload Type | Key Data |
 | --- | --- | --- |
-| Tap | [TapEventData](../../Reference/mobile_gestures/Type%20Aliases/TapEventData.md) | `touches` array containing [TouchState](../../Reference/mobile_gestures/Type%20Aliases/TouchState.md) objects |
-| Long Tap | [LongTapEventData](../../Reference/mobile_gestures/Type%20Aliases/LongTapEventData.md) | `touches` array containing [TouchState](../../Reference/mobile_gestures/Type%20Aliases/TouchState.md) objects |
-| Swipe | [SwipeEventData](../../Reference/mobile_gestures/Type%20Aliases/SwipeEventData.md) | `touches` array, `swipeDirection` enum indicating direction of the swipe (`up`, `down`, `left`, `right`, or `none`) |
-| Pan | [PanEventData](../../Reference/mobile_gestures/Type%20Aliases/PanEventData.md) | `touches` array, `pan` vector (`Vec3`) reperesenting the movement delta in screen space |
-| Pinch | [PinchEventData](../../Reference/mobile_gestures/Type%20Aliases/PinchEventData.md) | `touches` array, `scale` (number), `rotate` (radians) |
+| Tap | [TapEventData](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_tapeventdata) | `touches` array containing [TouchState](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchstate) objects |
+| Long Tap | [LongTapEventData](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_longtapeventdata) | `touches` array containing [TouchState](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchstate) objects |
+| Swipe | [SwipeEventData](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_swipeeventdata) | `touches` array, `swipeDirection` enum indicating direction of the swipe (`up`, `down`, `left`, `right`, or `none`) |
+| Pan | [PanEventData](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_paneventdata) | `touches` array, `pan` vector (`Vec3`) reperesenting the movement delta in screen space |
+| Pinch | [PinchEventData](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_pincheventdata) | `touches` array, `scale` (number), `rotate` (radians) |
 
 #### Touch state details
 
-Each touch in a `touches` array has the following [state information](../../Reference/mobile_gestures/Type%20Aliases/TouchState.md):
+Each touch in a `touches` array has the following [state information](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchstate):
 
 | Propert Name | Data Type | Description |
 | --- | --- | --- |
-| `phase` | [TouchPhase](../../Reference/mobile_gestures/Type%20Aliases/TouchPhase.md) | The current phase of the touch: `'start'`, `'move'`, or `'end'`. Indicates if the touch just began, is moving, or ended. |
-| `start` | [TouchInfo](../../Reference/mobile_gestures/Type%20Aliases/TouchInfo.md) | The state of the touch when it first started. Includes position and timestamp. |
-| `previous` | [TouchInfo](../../Reference/mobile_gestures/Type%20Aliases/TouchInfo.md) | The state of the touch during the previous frame. Useful for calculating movement deltas. |
-| `current` | [TouchInfo](../../Reference/mobile_gestures/Type%20Aliases/TouchInfo.md) | The state of the touch during the current frame. Contains the latest position and timestamp. |
-| `screenDelta` | [Vec3](../../Reference/core/Classes/Vec3.md) | The vector representing how far the touch has moved since the previous frame, in screen space. |
+| `phase` | [TouchPhase](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchphase) | The current phase of the touch: `'start'`, `'move'`, or `'end'`. Indicates if the touch just began, is moving, or ended. |
+| `start` | [TouchInfo](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchinfo) | The state of the touch when it first started. Includes position and timestamp. |
+| `previous` | [TouchInfo](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchinfo) | The state of the touch during the previous frame. Useful for calculating movement deltas. |
+| `current` | [TouchInfo](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchinfo) | The state of the touch during the current frame. Contains the latest position and timestamp. |
+| `screenDelta` | [Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3) | The vector representing how far the touch has moved since the previous frame, in screen space. |
 | `screenTraveled` | `number` | The total distance the touch has moved since it started, accumulated over all frames. |
 
 ## Step 3 (Optional): Setting custom gesture detection thresholds
 
-You can customize gesture detection thresholds by passing [options](../../Reference/mobile_gestures/Classes/GesturesOptions.md) to the `Gestures` constructor:
+You can customize gesture detection thresholds by passing [options](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gesturesoptions) to the `Gestures` constructor:
 
 | Option | Description | Default |
 | --- | --- | --- |

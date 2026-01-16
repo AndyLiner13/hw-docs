@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uigizmo
 
 Extends *Entity*
 
-Represents the Custom UI Gizmo used to create custom 2D UI panels containing interactive [text](../Functions/Text_2.md), [images](../Functions/Image_2.md), and other elements.
+Represents the Custom UI Gizmo used to create custom 2D UI panels containing interactive [text](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_text_2), [images](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_image_2), and other elements.
 
 ## Signature
 
@@ -14,7 +14,7 @@ export declare class UIGizmo extends Entity
 
 ## Remarks
 
-For information about usage, see the [Custom UI Examples](../../../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%200%20-%20Setup.md) tutorial.
+For information about usage, see the [Custom UI Examples](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/tutorial-worlds/custom-ui-examples-tutorial/station-0-setup) tutorial.
 
 ## Methods
 

@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 ## Important Information
 
-This content is a companion to the Match 3 genre sample world, which you can access through the desktop editor. When you open the genre sample world, the editor creates a copy for you to explore while following along with this guide. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
+This content is a companion to the Match 3 genre sample world, which you can access through the desktop editor. When you open the genre sample world, the editor creates a copy for you to explore while following along with this guide. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 In this genre sample, you learn how to create a simple and effective Match 3 game using ready-made assets.
 
@@ -61,13 +61,13 @@ To explore the finished world on mobile or desktop, visit the [Match 3 world pag
 
 ### Prerequisites
 
-Verify that you have access to your own copy of Match 3. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
+Verify that you have access to your own copy of Match 3. For more information, see [Access Tutorial Worlds](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/access-tutorial-worlds).
 
 **Note**: This tutorial assumes that you are familiar with the desktop editor, a desktop application for building in Meta Horizon Worlds. If you are new to the desktop editor, start with [Build your first game](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game).
 
 ### Getting started
 
-- Open the [Meta Quest Link](../../../Get%20started/Install%20the%20desktop%20editor.md) application on your desktop.
+- Open the [Meta Quest Link](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/install-desktop-editor) application on your desktop.
 - In the **Library tab**, locate the **Meta Horizon** application.
 - From the context menu for the application, select **Start in Desktop Mode**.
 - In the **Creation Home** page, select **My worlds** from the left navigation bar.

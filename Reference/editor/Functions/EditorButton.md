@@ -12,12 +12,12 @@ export declare function EditorButton(props: Readonly<EditorButtonProps>): UINode
 
 ## Parameters
 
-props: Readonly<[EditorButtonProps](../Type%20Aliases/EditorButtonProps.md)>
+props: Readonly<[EditorButtonProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editorbuttonprops)>
 
 The props of the component.
 
 ## Returns
 
-UINode<[EditorButtonProps](../Type%20Aliases/EditorButtonProps.md)>
+UINode<[EditorButtonProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editorbuttonprops)>
 
 A that represents the EditorButton component.

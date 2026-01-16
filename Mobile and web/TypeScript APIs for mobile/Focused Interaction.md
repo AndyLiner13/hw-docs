@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 # Focused Interaction
 
-**Note**: This feature requires [local scripting](../../Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md).
+**Note**: This feature requires [local scripting](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting).
 
 Focused Interaction is an interaction mode for users of the web and mobile version of Meta Horizon Worlds. This mode replaces the default input, such as the on-screen joysticks and buttons, with touch and click events on the screen. You use Focused Interaction to provide user interactions that feel more intuitive to desktop and mobile users. It gives them the ability to interact directly with objects within the world by clicking, tapping, swiping or dragging.
 
@@ -192,7 +192,7 @@ The `OnPlayerExitedFocusedInteraction` CodeBlock event fires either when you dir
 
 For worlds or small instances where you would want to keep the player in Focused Interaction, you can now disable the system bar exit button.
 
-To do this you can trigger the `player.enterFocusedInteractionMode()` with the new [FocusedInteractionOptions](../../Reference/core/Type%20Aliases/FocusedInteractionOptions.md). These options enable you to disable the exit button for that Focused Interaction instance.
+To do this you can trigger the `player.enterFocusedInteractionMode()` with the new [FocusedInteractionOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusedinteractionoptions). These options enable you to disable the exit button for that Focused Interaction instance.
 
 ```
 player.enterFocusedInteractionMode({disableFocusExitButton: true});
@@ -244,7 +244,7 @@ player.focusedInteraction.setTrailOptions(true  /*isEnabled*/, newTrailOption
 
 ## Focus the camera on a custom UI
 
-You can use [player.focusUI()](../../Reference/core/Classes/Player.md#focusui) to focus the player’s camera on a selectable entity in the world, such as a custom UI:
+You can use [player.focusUI()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player#focusui) to focus the player’s camera on a selectable entity in the world, such as a custom UI:
 
 ```
  player.focusUI(selectableEntity, {
@@ -254,7 +254,7 @@ You can use [player.focusUI()](../../Reference/core/Classes/Player.md#focusui) t
       });
 ```
 
-To remove focus from any in-world UI the player’s camera is currently focused on, you use [player.unfocusUI()](../../Reference/core/Classes/Player.md#unfocusui):
+To remove focus from any in-world UI the player’s camera is currently focused on, you use [player.unfocusUI()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player#unfocusui):
 
 ```
 player.unfocusUI();

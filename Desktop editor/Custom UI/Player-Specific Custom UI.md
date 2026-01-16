@@ -4,7 +4,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 When building a UI panel, a common scenario is to display different content for each player. An example is the button hover color, which should only be shown to the player interacting with the button, but not all players. (Therefore, you can see that the hover state implementation in the previous section is in fact incorrect, because the button background color will change when *any* player hovers onto the button.) Another example would be players’ HUD (heads-up display) where we obviously want to show different numbers and stats for each player.
 
-One straightforward way to achieve this is to duplicate the entity and set the visibility of each entity so that it is only visible to one player. We actually recommend using the [Local Mode](Local%20Mode%20Custom%20UI%20Scripts.md) when adopting this approach. Please see a more detailed discussion and examples in the [Local Mode](Local%20Mode%20Custom%20UI%20Scripts.md) section. But there are cases where we don’t want to have multiple UI gizmos, and want to keep one single panel that is publicly visible. Custom UI feature allows us to display different content to each player *on the same UI Gizmo* . This is achieved by only updating the value of a Binding to certain players, thus creating a player-specific value for them.
+One straightforward way to achieve this is to duplicate the entity and set the visibility of each entity so that it is only visible to one player. We actually recommend using the [Local Mode](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/local-mode-custom-ui-scripts/) when adopting this approach. Please see a more detailed discussion and examples in the [Local Mode](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/local-mode-custom-ui-scripts/) section. But there are cases where we don’t want to have multiple UI gizmos, and want to keep one single panel that is publicly visible. Custom UI feature allows us to display different content to each player *on the same UI Gizmo* . This is achieved by only updating the value of a Binding to certain players, thus creating a player-specific value for them.
 
 ## Setting New Values for Only Certain Players
 
@@ -21,7 +21,7 @@ someBinding.set(newValue);
 someBinding.set(newValue, [player1, player2]);
 ```
 
-Therefore, the correct implementation for the button with hover state needs to take [the acting player](Build%20an%20interactive%20custom%20UI.md) into account, and only manipulate the player specific value:
+Therefore, the correct implementation for the button with hover state needs to take [the acting player](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-interactive-custom-ui/) into account, and only manipulate the player specific value:
 
 ```
 function MyButton(props: MyButtonProps): UINode {

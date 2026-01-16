@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_staticra
 
 # StaticRaycastHit type
 
-The result of a [raycast](../Classes/RaycastGizmo.md#raycast) collision against a static [Entity](../Classes/Entity.md).
+The result of a [raycast](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycastgizmo#raycast) collision against a static [Entity](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entity).
 
 ## Signature
 
@@ -14,4 +14,4 @@ export declare type StaticRaycastHit = BaseRaycastHit & {
 
 ## References
 
-[BaseRaycastHit](BaseRaycastHit.md), [RaycastTargetType.Static](../Enumerations/RaycastTargetType.md)
+[BaseRaycastHit](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_baseraycasthit), [RaycastTargetType.Static](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycasttargettype)

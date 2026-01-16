@@ -14,9 +14,9 @@ export declare type SerializableState = {
 
 ## References
 
-[SerializableState](SerializableState.md)
+[SerializableState](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_serializablestate)
 
 ## Remarks
 
-This type is used to transfer the state of an entity when its ownership changes from one player to another. The state of an entity isn't automatically transferred when its ownership changes. To transfer the state, you can pass it to the new owner using SerializableState through the [Component.transferOwnership()](../Abstract%20Classes/Component.md#transferownership) and [Component.receiveOwnership()](../Abstract%20Classes/Component.md#receiveownership) methods.
-For more information, see [Maintaining local state on ownership change](../../../Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md).
+This type is used to transfer the state of an entity when its ownership changes from one player to another. The state of an entity isn't automatically transferred when its ownership changes. To transfer the state, you can pass it to the new owner using SerializableState through the [Component.transferOwnership()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_component#transferownership) and [Component.receiveOwnership()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_component#receiveownership) methods.
+For more information, see [Maintaining local state on ownership change](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/maintaining-local-state-on-ownership-change).

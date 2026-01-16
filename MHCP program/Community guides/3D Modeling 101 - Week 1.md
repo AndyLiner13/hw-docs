@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # 3D Modeling 101 - Week 1
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_8978974752189776_2476416406260947000_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=6500a6&_nc_ohc=GrTer2BXQWkQ7kNvwFQ52ir&_nc_oc=AdkqtucNpsyBXK6r4iPaNjg027iNq4ArEtarcLv6FVUeadoFbytm0-VFr9ZC_-zmh6sT4AVKhs5zfr62iy8EVb5N&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=xEe4RCCxHjFU5bp0fUWo9Q&oh=00_Afm-JjK2bAYvcSXP9gJdRnf053qNW3sYFAl-SuusVJXFqw&oe=6940FFB1)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_8978974752189776_2476416406260947000_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=6500a6&_nc_ohc=8F5UEN2UbhcQ7kNvwGmvGAj&_nc_oc=AdlaTnwRKriUGMxNG4oPyYbWq2qKhmfQ3IRwXVdR-PYIJTTrj_w_pJ068rEVrWAW95IyFNctKFkl1GQQhuodI0YX&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=B9GH7P1RBGkkpUAbASpSgg&oh=00_AfoI8--Vmn8sVtjN7_MCdCvQzhAhZowf5NxzE5zGDE49Mw&oe=696FCCF1)
 
 Ready to transform your creative vision into 3D reality? Join MHCP Mentor SpaceGlitterUnicorn for a comprehensive introduction to 3D modeling, designed specifically to give you the confidence and skills to create your first 3D assets.
 
-For more helpful Blender tips, be sure to review the [hotkey guide to the Blenderverse](Basic%20Hotkey%20Guide%20to%20the%20Blenderverse.md) as well!
+For more helpful Blender tips, be sure to review the [hotkey guide to the Blenderverse](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/basic-hotkey-guide-to-the-blenderverse) as well!
 
 ## Week 1: Introduction to Blender
 

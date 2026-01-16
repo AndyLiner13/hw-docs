@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_tur
 
 # TurboDefaultSettings Variable
 
-The default [settings](../Interfaces/ITurboSettings.md) for a [Turbo](Turbo.md) instance, including the initial Turbo events and data to collect.
+The default [settings](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings) for a [Turbo](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turbo) instance, including the initial Turbo events and data to collect.
 
 ## Signature
 
@@ -12,46 +12,46 @@ TurboDefaultSettings: ITurboSettings
 
 ## Remarks
 
-To use these settings, pass this value to `Turbo.register(component, configs)` method. For more information, see the [Turbo](Turbo.md) variable.
+To use these settings, pass this value to `Turbo.register(component, configs)` method. For more information, see the [Turbo](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turbo) variable.
 Default settings:
-[debug](../Interfaces/ITurboSettings.md#debug) `false`
-[experiments](../Interfaces/ITurboSettings.md#experiments) `new Set<string>()`
-[frictionNoKOsTimerSeconds](../Interfaces/ITurboSettings.md#frictionnokostimerseconds) `120.0`
-[gameMode](../Interfaces/ITurboSettings.md#gamemode) - game mode is empty
-[heartbeatFrequencySeconds](../Interfaces/ITurboSettings.md#heartbeatfrequencyseconds) `120`
-[maxAFKSecondsBeforeRemove](../Interfaces/ITurboSettings.md#maxafksecondsbeforeremove) `180`
-[maxFrictionNoKOEvents](../Interfaces/ITurboSettings.md#maxfrictionnokoevents) `30`
-[playerInitialArea](../Interfaces/ITurboSettings.md#playerinitialarea) `lobby_world_enter`
-[playerInitialState](../Interfaces/ITurboSettings.md#playerinitialstate) `ParticipationEnum.IN_LOBBY`
-[turboUpdateSeconds](../Interfaces/ITurboSettings.md#turboupdateseconds) `1.0`
+[debug](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#debug) `false`
+[experiments](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#experiments) `new Set<string>()`
+[frictionNoKOsTimerSeconds](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#frictionnokostimerseconds) `120.0`
+[gameMode](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#gamemode) - game mode is empty
+[heartbeatFrequencySeconds](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#heartbeatfrequencyseconds) `120`
+[maxAFKSecondsBeforeRemove](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#maxafksecondsbeforeremove) `180`
+[maxFrictionNoKOEvents](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#maxfrictionnokoevents) `30`
+[playerInitialArea](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#playerinitialarea) `lobby_world_enter`
+[playerInitialState](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#playerinitialstate) `ParticipationEnum.IN_LOBBY`
+[turboUpdateSeconds](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#turboupdateseconds) `1.0`
 These settings are set to true by default, which enables the associated Turbo actions:
-[useAFK](../Interfaces/ITurboSettings.md#useafk)
-[useDiscovery](../Interfaces/ITurboSettings.md#usediscovery)
-[useFriction](../Interfaces/ITurboSettings.md#usefriction)
-[useGameMode](../Interfaces/ITurboSettings.md#usegamemode)
-[useHeartbeats](../Interfaces/ITurboSettings.md#useheartbeats)
-[useLevelUp](../Interfaces/ITurboSettings.md#uselevelup)
-[useQuests](../Interfaces/ITurboSettings.md#usequests)
-[useRewards](../Interfaces/ITurboSettings.md#userewards)
+[useAFK](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#useafk)
+[useDiscovery](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usediscovery)
+[useFriction](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usefriction)
+[useGameMode](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usegamemode)
+[useHeartbeats](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#useheartbeats)
+[useLevelUp](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#uselevelup)
+[useQuests](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usequests)
+[useRewards](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#userewards)
 These settings are set to false by default, which disables the associated Turbo actions:
-[eventsForWearableEquipAndRelease](../Interfaces/ITurboSettings.md#eventsforwearableequipandrelease)
-[useAbilities](../Interfaces/ITurboSettings.md#useabilities)
-[useArmor](../Interfaces/ITurboSettings.md#usearmor)
-[useDamage](../Interfaces/ITurboSettings.md#usedamage)
-[useForward](../Interfaces/ITurboSettings.md#useforward)
-[useFrictionNoKOs](../Interfaces/ITurboSettings.md#usefrictionnokos)
-[useRotation](../Interfaces/ITurboSettings.md#userotation)
-[useRounds](../Interfaces/ITurboSettings.md#userounds)
-[useSections](../Interfaces/ITurboSettings.md#usesections)
-[useStages](../Interfaces/ITurboSettings.md#usestages)
-[useTasks](../Interfaces/ITurboSettings.md#usetasks)
-[useTeamAndRole](../Interfaces/ITurboSettings.md#useteamandrole)
-[useTransforms](../Interfaces/ITurboSettings.md#usetransforms)
-[useWeaponEquip](../Interfaces/ITurboSettings.md#useweaponequip)
-[useWeaponGrabAndRelease](../Interfaces/ITurboSettings.md#useweapongrabandrelease)
-[useWeapons](../Interfaces/ITurboSettings.md#useweapons)
-[useWearableEquipAndRelease](../Interfaces/ITurboSettings.md#usewearableequipandrelease)
-[useWearables](../Interfaces/ITurboSettings.md#usewearables)
+[eventsForWearableEquipAndRelease](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#eventsforwearableequipandrelease)
+[useAbilities](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#useabilities)
+[useArmor](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usearmor)
+[useDamage](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usedamage)
+[useForward](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#useforward)
+[useFrictionNoKOs](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usefrictionnokos)
+[useRotation](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#userotation)
+[useRounds](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#userounds)
+[useSections](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usesections)
+[useStages](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usestages)
+[useTasks](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usetasks)
+[useTeamAndRole](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#useteamandrole)
+[useTransforms](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usetransforms)
+[useWeaponEquip](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#useweaponequip)
+[useWeaponGrabAndRelease](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#useweapongrabandrelease)
+[useWeapons](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#useweapons)
+[useWearableEquipAndRelease](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usewearableequipandrelease)
+[useWearables](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_iturbosettings#usewearables)
 
 ## Examples
 

@@ -19,4 +19,4 @@ export declare enum AvatarPoseUseMode
 
 ## Remarks
 
-You can set the permission list by calling the [AvatarPoseGizmo.setCanUseForPlayers()](../Classes/AvatarPoseGizmo.md#setcanuseforplayers) method.
+You can set the permission list by calling the [AvatarPoseGizmo.setCanUseForPlayers()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avatarposegizmo#setcanuseforplayers) method.

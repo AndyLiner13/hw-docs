@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/migration_mig
 
 # MigrationData type
 
-The data returned from the [PlayerMigration.getMigrationData()](../Classes/PlayerMigration.md#getmigrationdata) method.
+The data returned from the [PlayerMigration.getMigrationData()](https://developers.meta.com/horizon-worlds/reference/2.0.0/migration_playermigration#getmigrationdata) method.
 
 ## Signature
 
@@ -15,4 +15,4 @@ export declare type MigrationData = {
 
 ## Remarks
 
-`migrationIdentifier` - (string) A unique identifier for the migration flow. Set via the [PlayerMigration.migrateToHorizonApp()](../Classes/PlayerMigration.md#migratetohorizonapp) method, can be empty/null if none set during migration. `hasMigrated` - (boolean) Whether the player has migrated to the Meta Horizon app.
+`migrationIdentifier` - (string) A unique identifier for the migration flow. Set via the [PlayerMigration.migrateToHorizonApp()](https://developers.meta.com/horizon-worlds/reference/2.0.0/migration_playermigration#migratetohorizonapp) method, can be empty/null if none set during migration. `hasMigrated` - (boolean) Whether the player has migrated to the Meta Horizon app.

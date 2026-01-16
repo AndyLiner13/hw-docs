@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewprops
 
 # ViewProps type
 
-Represents the props of a [View()](../Functions/View.md) component.
+Represents the props of a [View()](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_view) component.
 
 ## Signature
 
@@ -15,4 +15,4 @@ export declare type ViewProps = {
 
 ## References
 
-[UIChildren](UIChildren.md), [ViewStyle](ViewStyle.md)
+[UIChildren](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uichildren), [ViewStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewstyle)

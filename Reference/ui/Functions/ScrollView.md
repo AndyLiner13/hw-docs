@@ -12,12 +12,12 @@ export declare function ScrollView(props: Readonly<ScrollViewProps>): UINode<Scr
 
 ## Parameters
 
-props: Readonly<[ScrollViewProps](../Type%20Aliases/ScrollViewProps.md)>
+props: Readonly<[ScrollViewProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_scrollviewprops)>
 
 The props of the ScrollView component.
 
 ## Returns
 
-[UINode](../Classes/UINode.md)<[ScrollViewProps](../Type%20Aliases/ScrollViewProps.md)>
+[UINode](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uinode)<[ScrollViewProps](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_scrollviewprops)>
 
 A `UINode` representing the ScrollView component.

@@ -32,7 +32,7 @@ Navigation for an NPC requires the following entities:
 * An **Agent Profile** is a role assignment, which connects an NPC entity to a set of one or more NavMeshes.
 * Scripts to drive behaviors of the NPC across its assigned NavMesh. Scripts are described below.
 
-For more information on navigation meshes (NavMesh) and agent profiles, see [Navigation Mesh Generation](../../../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md).
+For more information on navigation meshes (NavMesh) and agent profiles, see [Navigation Mesh Generation](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation).
 
 ### NPC Behavior
 
@@ -116,7 +116,7 @@ The provided NPCs require additional scripted behaviors to make them come to lif
 
 ## How to Use
 
-In Chop ‘N Pop: Graveyard Bash, NPCs are deployed in the world based on spawning waves. It’s the Enemy Wave Manager system that contains the configuration of individual waves and manages the spawning of individual entities based on those configurations. If you are not using the Enemy Wave Manager, NPC assets can be spawned or deployed as entities in the world. For more information, see [Module 9 - Enemy Wave Manager](Module%209%20-%20Enemy%20Wave%20Manager.md).
+In Chop ‘N Pop: Graveyard Bash, NPCs are deployed in the world based on spawning waves. It’s the Enemy Wave Manager system that contains the configuration of individual waves and manages the spawning of individual entities based on those configurations. If you are not using the Enemy Wave Manager, NPC assets can be spawned or deployed as entities in the world. For more information, see [Module 9 - Enemy Wave Manager](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/chop-n-pop-sample-world/module-9-enemy-wave-manager).
 
 * Create your own NPC assets.
   + See “previous”.
@@ -143,6 +143,6 @@ In Chop ‘N Pop: Graveyard Bash, NPCs are deployed in the world based on spawni
 
 The NPC system in Chop ‘N Pop: Graveyard Bash can be deployed into your world to provide challenging opposition. Much of the configuration for individual NPC types is externalized through configuration parameters, allowing you to tune NPC behavior through Script properties, instead of code. This architecture allows designers to change behaviors without having to modify code.
 
-This module introduces the NavMesh and navigation profile concepts, which are significant topics by themselves. See [Navigation Mesh Generation](../../../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md).
+This module introduces the NavMesh and navigation profile concepts, which are significant topics by themselves. See [Navigation Mesh Generation](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/navigation-mesh-generation).
 
-For additional exploration of what NPCs can do, please see the NPC tutorial world, which can be opened as a new world through the desktop editor. For more information, see [NPC Scripts](../../../Desktop%20editor/NPCs/NPC%20Scripts.md).
+For additional exploration of what NPCs can do, please see the NPC tutorial world, which can be opened as a new world through the desktop editor. For more information, see [NPC Scripts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-scripts).

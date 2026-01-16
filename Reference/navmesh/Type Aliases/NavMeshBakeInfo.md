@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navme
 
 # NavMeshBakeInfo type
 
-Data about a call on a [NavMesh](../Classes/NavMesh.md) object.
+Data about a call on a [NavMesh](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmesh) object.
 
 ## Signature
 

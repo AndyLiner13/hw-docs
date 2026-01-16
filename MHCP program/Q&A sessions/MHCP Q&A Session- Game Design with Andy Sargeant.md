@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # MHCP Q&A Session: Game Design with Andy Sargeant
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/10000000_996283602039240_2600638972506614805_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=bITQar8MlB8Q7kNvwGRCy_t&_nc_oc=AdmYfey_oair4QP6Dz9SlZEQK7q4GtdK89YHjD_ppjB4J_389YdNPK5tZdYqWz3SxltQqKSKS6T3fJL1koSYUZAL&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=3Ey5CIvCHk5jnX1uNhixyA&oh=00_Afl6rODT13rP3qH43PuwLVDbpNGJuDvl4Y49KHktOuk6Uw&oe=6941167D)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/10000000_996283602039240_2600638972506614805_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=FlTFZLwZRpsQ7kNvwEQqiOE&_nc_oc=AdnEyqXERgM1IVHTneia8Tf9QPeobCPnSH6QvjiHqEj1S9vHdpGJFhGAlYwGNsdoobtdO3jDQJRB3v2FzUxyk6kM&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=JTATrM0A1gJwwSvtcmOXqg&oh=00_AfqJ47le1pZ2qjk6lmwP9YmEeG3Mr4bBajkZRQCHRnh_Ng&oe=696FAB7D)
 
 Join us as our Meta game design expert Andy Sargeant as he answers your questions related to his recent session on game design in Meta Horizon Worlds.
 
-If you want to see more, please watch [the Game Design in Meta Horizon Worlds Live Session](../Focus%20sessions/Connect%20'23%20Video%20Series-%20Game%20Design%20in%20Meta%20Horizon%20Worlds.md) here.
+If you want to see more, please watch [the Game Design in Meta Horizon Worlds Live Session](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/connect-23-video-series-game-design-in-meta-horizon-worlds) here.
 
 Timestamps:
 

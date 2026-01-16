@@ -14,4 +14,4 @@ export declare type TouchEventData = {
 
 ## References
 
-[TouchState](TouchState.md)
+[TouchState](https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchstate)

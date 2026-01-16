@@ -14,7 +14,7 @@ export declare type NavMeshDetailedPath = Omit<NavMeshPath, 'waypoints'> & {
 
 ## References
 
-[NavMeshPath](NavMeshPath.md), [NavMeshWaypoint](NavMeshWaypoint.md)
+[NavMeshPath](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshpath), [NavMeshWaypoint](https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshwaypoint)
 
 ## Remarks
 

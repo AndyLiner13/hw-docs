@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_abi
 
 # AbilityDequipPayload type
 
-A payload sent by the `OnAbilityDequip` [event](../Variables/TurboEvents.md).
+A payload sent by the `OnAbilityDequip` [event](https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_turboevents).
 
 ## Signature
 

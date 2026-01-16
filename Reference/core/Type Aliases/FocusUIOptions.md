@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusuio
 
 # FocusUIOptions type
 
-Options for the [Player.focusUI()](../Classes/Player.md#focusui) method including settings to apply to the camera view and animation transitions.
+Options for the [Player.focusUI()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player#focusui) method including settings to apply to the camera view and animation transitions.
 
 ## Signature
 
@@ -18,4 +18,4 @@ export declare type FocusUIOptions = {
 
 ## References
 
-[Vec3](../Classes/Vec3.md)
+[Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3)

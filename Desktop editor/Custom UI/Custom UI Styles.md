@@ -2,19 +2,19 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Custom UI Styles
 
-The available styles for [customizing](Create%20a%20custom%20UI%20panel.md) UI panels in your world are defined in the type aliases of the [UI](../../Reference/ui/Abstract%20Classes/UIComponent.md) API, such as the [ColorValue](../../Reference/ui/Type%20Aliases/ColorValue.md) type. This topic describes the available style for each type.
+The available styles for [customizing](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel) UI panels in your world are defined in the type aliases of the [UI](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uicomponent) API, such as the [ColorValue](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_colorvalue) type. This topic describes the available style for each type.
 
 Type aliases:
 
 ## LayoutStyle
 
-API documentation: [LayoutStyle](../../Reference/ui/Type%20Aliases/LayoutStyle.md) type alias.
+API documentation: [LayoutStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_layoutstyle) type alias.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| display | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<'none' \| 'flex'>` | [Default: `'flex'`]   Similar to `display` in CSS, but only supports ‘none’ and ‘flex’. The display mode of the UI element.  `none`: The UI element is not rendered.  `flex`: The UI element is displayed as a block. This is the default value. |
-| height | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<number \| string>` | Similar to `height` in CSS, but only supports points and percentages. Ems and other units are not supported. |
-| width | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<number \| string>` | Similar to `width` in CSS, but only supports points and percentages. Ems and other units are not supported. |
+| display | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<'none' \| 'flex'>` | [Default: `'flex'`]   Similar to `display` in CSS, but only supports ‘none’ and ‘flex’. The display mode of the UI element.  `none`: The UI element is not rendered.  `flex`: The UI element is displayed as a block. This is the default value. |
+| height | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number \| string>` | Similar to `height` in CSS, but only supports points and percentages. Ems and other units are not supported. |
+| width | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number \| string>` | Similar to `width` in CSS, but only supports points and percentages. Ems and other units are not supported. |
 | bottom | `number \| string` | Similar to `bottom` in CSS, but only supports points and percentages. Ems and other units are not supported. |
 | end | `number \| string` | Equivalent to `right` when `direction` is `'ltr'`. Equivalent to `left` when `direction` is `'rtl'`. |
 | left | `number \| string` | Similar to `left` in CSS, but only supports points and percentages. Ems and other units are not supported. |
@@ -62,17 +62,17 @@ API documentation: [LayoutStyle](../../Reference/ui/Type%20Aliases/LayoutStyle.m
 
 ## BorderStyle
 
-API documentation: [BorderStyle](../../Reference/ui/Type%20Aliases/BorderStyle.md) type alias.
+API documentation: [BorderStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_borderstyle) type alias.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| borderColor | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<ColorValue>`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md) | Works like `border-color` in CSS. The color of the border. |
+| borderColor | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | Works like `border-color` in CSS. The color of the border. |
 | borderRadius | `number` | Works like `border-radius` in CSS. The radius of the border. |
 | borderBottomLeftRadius | `number` | Works like `border-bottom-left-radius` in CSS. The radius of the bottom left corner. |
 | borderBottomRightRadius | `number` | Works like `border-bottom-right-radius` in CSS. The radius of the bottom right corner. |
 | borderTopLeftRadius | `number` | Works like `border-top-left-radius` in CSS. The radius of the top left corner. |
 | borderTopRightRadius | `number` | Works like `border-top-right-radius` in CSS. The radius of the top right corner. |
-| borderWidth | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<number>` | Works like `border-width` in CSS, but only supports points. The width of the border. |
+| borderWidth | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>` | Works like `border-width` in CSS, but only supports points. The width of the border. |
 | borderBottomWidth | `number` | Works like `border-bottom-width` in CSS. The width of the bottom border. |
 | borderEndWidth | `number` | Equivalent to `borderRightWidth` when `direction` is `'ltr'`. Equivalent to `borderLeftWidth` when `direction` is `'rtl'`. |
 | borderLeftWidth | `number` | Works like `border-left-width` in CSS. The width of the left border. |
@@ -82,39 +82,39 @@ API documentation: [BorderStyle](../../Reference/ui/Type%20Aliases/BorderStyle.m
 
 ## ShadowStyle
 
-API documentation: [ShadowStyle](../../Reference/ui/Type%20Aliases/ShadowStyle.md) type alias.
+API documentation: [ShadowStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_shadowstyle) type alias.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| shadowColor | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<ColorValue>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-u) | The drop color of the shadow. |
+| shadowColor | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-u) | The drop color of the shadow. |
 | shadowFalloff | `'linear'` `'sqrt'` `'sigmoid'` | The falloff function, or fading, of the shadow. |
 | shadowOffset | `[number, number]` | The offset of the shadow in [x, y] format. |
-| shadowOpacity | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<number>` | The opacity of the shadow. The number is multiplied by the color’s alpha component, and should be in the range from ‘0.0’ to ‘1.0’. |
+| shadowOpacity | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>` | The opacity of the shadow. The number is multiplied by the color’s alpha component, and should be in the range from ‘0.0’ to ‘1.0’. |
 | shadowRadius | `number` | The blur radius of the shadow. |
 | shadowSpreadRadius | `number` | The radius by which the shadow expands or shrinks under the component. May take a negative number. |
 
 ## TransformStyle
 
-API documentation: [TransformStyle](../../Reference/ui/Type%20Aliases/TransformStyle.md) type alias.
+API documentation: [TransformStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_transformstyle) type alias.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| transform | `Array<{rotate:[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<string>}` `\| {scale:[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<number>}` `\| {scaleX:[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<number>}` `\| {scaleY:[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<number>}` `\| {translate:[[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<number>,[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<number>]}` `\| {translateX:[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<number>}` `\| {translateY:[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<number>}` `\| {skewX:[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<string>}` `\| {skewY:[`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)<string>}` | `transform` accepts an array of transformation objects. Each object specifies the property that will be transformed as the key, and the value to use in the transformation.   `rotate`: Rotate the element around the `transformOrigin`. Value requires a string expressed in degrees (e.g. ‘45deg’ ) or radians (e.g. ‘0.7854rad’).   `scale`: Scale the element uniformly by the given multiplier, with the `transformOrigin` being the fixed point. Equivalent to providing the same value to both `scaleX` and `scaleY`.   `scaleX`: Scale the element horizontally by the given multiplier.   `scaleY`: Scale the element vertically by the given multiplier.   `translate`: Move the element by the given x and y values in [x, y] format. Equivalent to providing the values to `translateX` and `translateY` independently.   `translateX`: Move the element horizontally by the given value in pixels.   `translateY`: Move the element vertically by the given value in pixels.   `skewX`: Skew the element horizontally by the given angle, represented in degrees or radians.   `skewY`: Skew the element vertically by the given angle, represented in degrees or radians. |
+| transform | `Array<{rotate:[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<string>}` `\| {scale:[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<number>}` `\| {scaleX:[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<number>}` `\| {scaleY:[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<number>}` `\| {translate:[[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<number>,[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<number>]}` `\| {translateX:[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<number>}` `\| {translateY:[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<number>}` `\| {skewX:[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<string>}` `\| {skewY:[`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)<string>}` | `transform` accepts an array of transformation objects. Each object specifies the property that will be transformed as the key, and the value to use in the transformation.   `rotate`: Rotate the element around the `transformOrigin`. Value requires a string expressed in degrees (e.g. ‘45deg’ ) or radians (e.g. ‘0.7854rad’).   `scale`: Scale the element uniformly by the given multiplier, with the `transformOrigin` being the fixed point. Equivalent to providing the same value to both `scaleX` and `scaleY`.   `scaleX`: Scale the element horizontally by the given multiplier.   `scaleY`: Scale the element vertically by the given multiplier.   `translate`: Move the element by the given x and y values in [x, y] format. Equivalent to providing the values to `translateX` and `translateY` independently.   `translateX`: Move the element horizontally by the given value in pixels.   `translateY`: Move the element vertically by the given value in pixels.   `skewX`: Skew the element horizontally by the given angle, represented in degrees or radians.   `skewY`: Skew the element vertically by the given angle, represented in degrees or radians. |
 | transformOrigin | `[number \| string, number \| string]` | [Default: [‘50%’, ‘50%’]]   The origin point of the transform, specified as an [x, y] array, where [0, 0] denotes the top left corner of the UI element. Each component can be a number in pixels or a percentage string. |
 
 ## ViewStyle
 
-API documentation: [ViewStyle](../../Reference/ui/Type%20Aliases/ViewStyle.md) type alias.
+API documentation: [ViewStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewstyle) type alias.
 
-Inherits the [LayoutStyle](../../Reference/ui/Type%20Aliases/LayoutStyle.md), [BorderStyle](../../Reference/ui/Type%20Aliases/BorderStyle.md), [ShadowStyle](../../Reference/ui/Type%20Aliases/ShadowStyle.md), and [TransformStyle](../../Reference/ui/Type%20Aliases/TransformStyle.md) type aliases.
+Inherits the [LayoutStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_layoutstyle), [BorderStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_borderstyle), [ShadowStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_shadowstyle), and [TransformStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_transformstyle) type aliases.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| backgroundColor | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<ColorValue>`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md) | Works like `'background-color'` in CSS. The background color of the component. |
+| backgroundColor | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | Works like `'background-color'` in CSS. The background color of the component. |
 | backgroundClip | `'border-box' \| 'padding-box'` | [Default: `'border-box'`]    Controls whether to render the background behind the border. Useful when the border color is transparent. |
-| opacity | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<number>` | Set an opacity for the component. The number should be in the range from ‘0.0’ to ‘1.0’. |
-| gradientColorA | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<ColorValue>`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md) | The starting color of the gradient background. |
-| gradientColorB | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<ColorValue>`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md) | The ending color of the gradient background. |
+| opacity | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>` | Set an opacity for the component. The number should be in the range from ‘0.0’ to ‘1.0’. |
+| gradientColorA | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | The starting color of the gradient background. |
+| gradientColorB | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | The ending color of the gradient background. |
 | gradientXa | `number \| string` | The x component of the starting position (corresponding to gradientColorA) of the gradient background. The value is a percentage as a number (from ‘0.0’ to ‘1.0’) or a string (from ‘0%’ to ‘100%’). |
 | gradientYa | `number \| string` | The y component of the starting position (corresponding to gradientColorA ) of the gradient background. The value is a percentage as a number (from ‘0.0’ to ‘1.0’) or a string (from ‘0%’ to ‘100%’). |
 | gradientXb | `number \| string` | The x component of the ending position (corresponding to gradientColorB) of the gradient background. The value is a percentage as a number (from ‘0.0’ to ‘1.0’) or a string (from ‘0%’ to ‘100%’). |
@@ -123,22 +123,22 @@ Inherits the [LayoutStyle](../../Reference/ui/Type%20Aliases/LayoutStyle.md), [B
 
 ## TextStyle
 
-API documentation: [TextStyle](../../Reference/ui/Type%20Aliases/TextStyle.md) type alias.
+API documentation: [TextStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_textstyle) type alias.
 
-Inherits the [ViewStyle](../../Reference/ui/Type%20Aliases/ViewStyle.md) type alias. Italics are not supported, and there are only a limited number of custom fonts available.
+Inherits the [ViewStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewstyle) type alias. Italics are not supported, and there are only a limited number of custom fonts available.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| color | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<ColorValue>`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md) | [Default: `'white'`]  The color of the text. |
+| color | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | [Default: `'white'`]  The color of the text. |
 | fontFamily | `string` | [Default: `'Roboto'`]  The font family of the text. |
-| fontSize | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<number>` | [Default: `'20'`]  The font size of the text. |
-| fontWeight | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<'normal'` `\| 'bold'` `\| '100'` `\| '200'` `\| '300'` `\| '400'` `\| '500'` `\| '600'` `\| '700'` `\| '800'` `\| '900' >` | [Default: `'normal'`]  The font weight. Not all fonts have all the weight variations. If the specified variation does not exist, it will fallback to the closest one. |
+| fontSize | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<number>` | [Default: `'20'`]  The font size of the text. |
+| fontWeight | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<'normal'` `\| 'bold'` `\| '100'` `\| '200'` `\| '300'` `\| '400'` `\| '500'` `\| '600'` `\| '700'` `\| '800'` `\| '900' >` | [Default: `'normal'`]  The font weight. Not all fonts have all the weight variations. If the specified variation does not exist, it will fallback to the closest one. |
 | letterSpacing | `number` | The spacing between the characters of the text. By default there is no extra letter spacing. |
 | lineHeight | `number` | The height of each line in the text. |
 | textAlign | `'auto' \| 'left' \| 'right' \| 'center'` | The alignment of the text. |
 | textAlignVertical | `'auto' \| 'top' \| 'bottom' \| 'center'` | The vertical alignment of the text. |
-| textDecorationLine | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)`<'none' \| 'underline' \| 'line-through' \| 'underline line-through' >` | Additional text decorations. |
-| textShadowColor | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<[ColorValue]>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | The color of the text shadow. Text shadow is only drawn when a nonzero textShadowOffset is set. |
+| textDecorationLine | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)`<'none' \| 'underline' \| 'line-through' \| 'underline line-through' >` | Additional text decorations. |
+| textShadowColor | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<[ColorValue]>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | The color of the text shadow. Text shadow is only drawn when a nonzero textShadowOffset is set. |
 | textShadowOffset | `[number, number]` | The offset of the text shadow, in pixels, in [x, y] format. |
 | textShadowRadius | `number` | The blur radius of the text shadow. Text shadow is only drawn when textShadowOffset is set. |
 | whiteSpace | `'normal' \| 'pre-line' \| 'pre-wrap'` | Additional space if needed for justification. |
@@ -166,12 +166,12 @@ Inherits the [ViewStyle](../../Reference/ui/Type%20Aliases/ViewStyle.md) type al
 
 ## ImageStyle
 
-API documentation: [ImageStyle](../../Reference/ui/Type%20Aliases/ImageStyle.md)
+API documentation: [ImageStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_imagestyle)
 
-Inherits the [ViewStyle](../../Reference/ui/Type%20Aliases/ViewStyle.md) type alias.
+Inherits the [ViewStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewstyle) type alias.
 
 | Name | Type | Description |
 | --- | --- | --- |
 | resizeMode | `'cover' \| 'contain' \| 'stretch' \| 'center' \| 'repeat'` | [Default: `'cover'`]   Determines how to resize the image when the frame doesn’t match the raw image dimensions.   `cover`: Scale the image uniformly (maintain the aspect ratio) so that at least one of width and height will be equal to the corresponding dimension of the view, and the other will be larger.   `contain`: Scale the image uniformly (maintain the aspect ratio) so that both width and height will be equal to or less than the corresponding dimension of the view.   `stretch`: Scale width and height independently, which may change the aspect ratio of the source.   `center`: Center the image in the view along both dimensions. If the image is larger than the view, scale it down uniformly so that it is contained in the view.   `repeat`: Repeat the image to cover the frame of the view. The image will keep its size and aspect ratio if it is smaller than the view, and will be scaled down uniformly so that it is contained in the view if it is larger than the view. |
-| tintColor | [`Bindable`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md)[`<ColorValue>`](Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md) | Changes the color of all the non-transparent pixels to the `tintColor`. |
+| tintColor | [`Bindable`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui)[`<ColorValue>`](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/custom-ui) | Changes the color of all the non-transparent pixels to the `tintColor`. |
 | tintOperation | `'replace' \| 'multiply'` | Changes how the tint color is applied to the original image source. |

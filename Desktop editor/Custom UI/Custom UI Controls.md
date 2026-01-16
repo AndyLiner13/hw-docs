@@ -8,43 +8,15 @@ Custom UI controls is an extension of custom UI with the **Input Mode** set to *
 
 This input mode is primarily designed for creating a set of custom on-screen controls to work alongside or replace the built-in system controls on mobile.
 
-<details>
-<summary>custom_ui_controls_in_kaiju</summary>
-
-<p></p>
-
-[custom_ui_controls_in_kaiju](../../image_data/5f7e2890b500c787850f2aa519ac22fda4f57ab8643bc1ccc45c2f7cd53971df.md)
-
-### Overview
-This image depicts a vibrant, action-packed scene from a video game set in a cityscape. The player character is seen from behind, holding a weapon and facing a large, floating platform with a futuristic design. The environment is filled with colorful buildings, some of which appear damaged or destroyed, suggesting recent combat or destruction. Various interactive elements and UI components are overlaid on the screen, indicating gameplay mechanics such as movement controls and special abilities.
-
-### Key Elements
-- **Player Character**: Positioned centrally, wearing a white shirt and blue jeans, holding a weapon with a glowing green tip.
-- **Floating Platform**: Located above the player, featuring a rectangular shape with a grid-like pattern and a blue energy beam shooting out.
-- **Buildings**: Surrounding the player and platform, showcasing a mix of modern and traditional architectural styles. Some buildings show signs of damage, with broken windows and debris.
-- **UI Elements**: 
-  - **Movement Controls**: A circular control pad at the bottom left corner.
-  - **Action Buttons**: "Special!", "Dash!", "Jump!" displayed as circular icons at the bottom right.
-  - **Health/Status Icons**: Small icons resembling health bars or power-ups scattered around the edges of the screen.
-- **Energy Beam**: A bright blue beam extending from the platform towards the upper right corner of the image.
-- **Background**: A bustling city skyline with various skyscrapers and a clear sky.
-
-### Visual Flow / Relationships
-The most prominent visual elements are the player character and the floating platform. The player is looking towards the platform, and the energy beam suggests an interaction point. The UI elements are positioned for easy access during gameplay, with the movement controls at the bottom left and action buttons at the bottom right. The floating platform is the focal point, drawing attention upwards.
-
-</details>
-
-<p></p>
-
-
+![custom_ui_controls_in_kaiju](https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/465167356_579437347927554_7916055051400203269_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4y8XIKmbdKQQ7kNvwH3FbR8&_nc_oc=Adk_HAG6hiwOvsrsGC4cuCsIszIVMznmOylBlF2uutKTZ7e0UC7vG-BDsVC3wfUJ7c2ELXmnVlUEQwjr4mb-9bF3&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=NXSbWytrD2UPhwiB0UYItw&oh=00_Afqs5MGGsgBn_oFDSMuKJLVhqawTJzxEGeGWdSAgQpdkCw&oe=69844832)
 
 ## Getting started
 
 Before you begin, it is recommended you review the following how-to guides:
 
-* [Creating a Custom UI Panel](Create%20a%20custom%20UI%20panel.md)
-* [Local Mode Custom UI Scripts](Local%20Mode%20Custom%20UI%20Scripts.md)
-* [Non-Interactive Custom UI Screen Overlay](Non-interactive%20custom%20UI%20screen%20overlay.md)
+* [Creating a Custom UI Panel](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/creating-a-custom-ui-panel/)
+* [Local Mode Custom UI Scripts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/local-mode-custom-ui-scripts/)
+* [Non-Interactive Custom UI Screen Overlay](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/noninteractive-custom-ui-screen-overlay/)
 
 ## Step by step guide
 
@@ -63,7 +35,7 @@ Before you begin, it is recommended you review the following how-to guides:
 
 ### Set ownership of the custom controls entity
 
-Please refer to [Local Mode Custom UI Scripts](Local%20Mode%20Custom%20UI%20Scripts.md) for more detailed instructions on using local mode.
+Please refer to [Local Mode Custom UI Scripts](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/local-mode-custom-ui-scripts/) for more detailed instructions on using local mode.
 
 * Create a new script asset and leave it in **Default** execution mode.
 * Create an empty gizmo and assign the script to it.
@@ -89,7 +61,7 @@ initializeUI() {
 
 ### Triggering Player Input Actions
 
-We have provided two TypeScript functions to trigger the down / up input actions on the player controls. These functions support the same PlayerInputAction enum as the [Custom Input API](../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md).
+We have provided two TypeScript functions to trigger the down / up input actions on the player controls. These functions support the same PlayerInputAction enum as the [Custom Input API](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/custom-input-api/).
 
 ```
 return Pressable({

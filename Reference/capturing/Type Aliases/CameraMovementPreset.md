@@ -15,11 +15,11 @@ export declare type CameraMovementPreset = FirstPersonMovementCameraMovementPres
 
 ## References
 
-[FirstPersonMovementCameraMovementPreset](FirstPersonMovementCameraMovementPreset.md), [ThirdPersonOverShoulderCameraMovementPreset](ThirdPersonOverShoulderCameraMovementPreset.md), [FixedPositionTrackingPlayerCameraMovementPreset](FixedPositionTrackingPlayerCameraMovementPreset.md)
+[FirstPersonMovementCameraMovementPreset](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_firstpersonmovementcameramovementpreset), [ThirdPersonOverShoulderCameraMovementPreset](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_thirdpersonovershouldercameramovementpreset), [FixedPositionTrackingPlayerCameraMovementPreset](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_fixedpositiontrackingplayercameramovementpreset)
 
 ## Remarks
 
 The available presets are:
-[FirstPersonMovementCameraMovementPreset](FirstPersonMovementCameraMovementPreset.md)
-[ThirdPersonOverShoulderCameraMovementPreset](ThirdPersonOverShoulderCameraMovementPreset.md)
-[FixedPositionTrackingPlayerCameraMovementPreset](FixedPositionTrackingPlayerCameraMovementPreset.md)
+[FirstPersonMovementCameraMovementPreset](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_firstpersonmovementcameramovementpreset)
+[ThirdPersonOverShoulderCameraMovementPreset](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_thirdpersonovershouldercameramovementpreset)
+[FixedPositionTrackingPlayerCameraMovementPreset](https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_fixedpositiontrackingplayercameramovementpreset)

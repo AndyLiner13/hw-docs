@@ -14,7 +14,7 @@ export declare class HorizonProperty<T> extends BaseHorizonProperty<T>
 
 ## Remarks
 
-For properties of reference types that perform copy and clone operations ([Vec3](Vec3.md), [Quaternion](Quaternion.md), [Color](Color.md)), use the [HorizonReferenceProperty](HorizonReferenceProperty.md) class.
+For properties of reference types that perform copy and clone operations ([Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3), [Quaternion](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_quaternion), [Color](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_color)), use the [HorizonReferenceProperty](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_horizonreferenceproperty) class.
 
 ## Constructors
 

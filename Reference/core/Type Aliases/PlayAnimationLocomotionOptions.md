@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playanim
 
 # PlayAnimationLocomotionOptions type
 
-The options for the [Player.playAvatarAnimationLocomotion()](../Classes/Player.md#playavataranimationlocomotion) method.
+The options for the [Player.playAvatarAnimationLocomotion()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player#playavataranimationlocomotion) method.
 
 ## Signature
 
@@ -15,4 +15,4 @@ export declare type PlayAnimationLocomotionOptions = {
 
 ## References
 
-[Vec3](../Classes/Vec3.md)
+[Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3)

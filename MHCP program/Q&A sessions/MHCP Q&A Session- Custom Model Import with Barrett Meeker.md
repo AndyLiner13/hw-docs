@@ -2,9 +2,9 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # MHCP Q&A Session: Custom Model Import with Barrett Meeker
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453568979_804216788524677_5442964682020855821_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=95f_JpGjMYEQ7kNvwHbOuh7&_nc_oc=AdkrZj7NIaTTD58YkQBOElykXQa0XDEjfyANJBoyXD9XzcdVnHivIu76BBXdgladHxGQU5GVaOxup_bJJ59kE53b&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=yCgR2GxEVtIOXnVeLO-9aQ&oh=00_Afn66cm8gBTe_fN9zeJgfoIWE2JHMs48VY5K2nPNPajPbA&oe=6941101C)
+[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453568979_804216788524677_5442964682020855821_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=wGbWCd2N3r0Q7kNvwEB5JH8&_nc_oc=Adn9wuGAWoj219Rqkjlhriu271S3lBqNQiLNXnBuSZ9YFJnau4mpyErWF8-Ktlwo6jEmfkyDLwkt3Z2AzN_OD3jZ&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=hbF0KMbJdxGEJJwC4W10jA&oh=00_AfpwIAHPqirhLSkbk7C3RH5Nbk-J8YvpRJpxNAUk0DoRpg&oe=696FA51C)
 
-Join Meta expert, Barrett Meeker, as he answers questions related to integrating Custom Models in your worlds. If you liked this video, be sure to watch [the “Custom Model Worlds” video](../../Custom%20models%20(FBX)/Connect%20'23%20Video%20Series-%20Custom%20Model%20Worlds.md) to lay even more groundwork in this area.
+Join Meta expert, Barrett Meeker, as he answers questions related to integrating Custom Models in your worlds. If you liked this video, be sure to watch [the “Custom Model Worlds” video](https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/connect-23-video-series-custom-model-worlds) to lay even more groundwork in this area.
 
 #### Timestamps
 

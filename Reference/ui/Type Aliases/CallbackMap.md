@@ -12,4 +12,4 @@ export declare type CallbackMap = Map<string, Callback | CallbackWithPayload>;
 
 ## References
 
-[Callback](Callback.md), [CallbackWithPayload](CallbackWithPayload.md)
+[Callback](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_callback), [CallbackWithPayload](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_callbackwithpayload)

@@ -14,7 +14,7 @@ export declare class HorizonTraceEvent
 
 |  |  |
 | --- | --- |
-| **(constructor)(samplerName, type, value)** | Constructs a `HorizonTraceEvent` object.  ---  Signature  ``` constructor(samplerName: string, type: HorizonTraceEventType, value: number); ```  Parameters  samplerName: string  The name of the `HorizonTraceEvent` object.  type: [HorizonTraceEventType](../Enumerations/HorizonTraceEventType.md)  The type of the sampler.  value: number  The value of the trace. |
+| **(constructor)(samplerName, type, value)** | Constructs a `HorizonTraceEvent` object.  ---  Signature  ``` constructor(samplerName: string, type: HorizonTraceEventType, value: number); ```  Parameters  samplerName: string  The name of the `HorizonTraceEvent` object.  type: [HorizonTraceEventType](https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizontraceeventtype)  The type of the sampler.  value: number  The value of the trace. |
 
 ## Properties
 

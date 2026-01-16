@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_defaultf
 
 # DefaultFocusedInteractionTrailOptions Variable
 
-The default values for the [FocusedInteractionTrailOptions](../Type%20Aliases/FocusedInteractionTrailOptions.md) type, which displays visual trails when players use swipe and drag input.
+The default values for the [FocusedInteractionTrailOptions](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusedinteractiontrailoptions) type, which displays visual trails when players use swipe and drag input.
 
 ## Signature
 

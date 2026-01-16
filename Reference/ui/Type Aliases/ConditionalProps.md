@@ -16,4 +16,4 @@ export declare type ConditionalProps = {
 
 ## References
 
-[Bindable](Bindable.md), [UIChildren](UIChildren.md)
+[Bindable](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_bindable), [UIChildren](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uichildren)

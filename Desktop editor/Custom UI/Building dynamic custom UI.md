@@ -2,11 +2,11 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 # Building dynamic custom UI
 
-This topic continues [Building an interactive custom UI](Building%20dynamic%20custom%20UI.md), and so far the UI panel is still static. In this topic, you will make it dynamic so that after the user clicks the button, the text content and color are updated.
+This topic continues [Building an interactive custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui), and so far the UI panel is still static. In this topic, you will make it dynamic so that after the user clicks the button, the text content and color are updated.
 
 ## Updating UI with Binding
 
-Conceptually, you need a container for a variable value that can be changed later. The custom UI API has a [`Binding`](../../Reference/ui/Classes/Binding.md) class that serves as such a container. You can instantiate a `Binding` with an initial value, and can call its `set()` method to change the value later, which is usually done in a callback or an event listener.
+Conceptually, you need a container for a variable value that can be changed later. The custom UI API has a [`Binding`](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_binding) class that serves as such a container. You can instantiate a `Binding` with an initial value, and can call its `set()` method to change the value later, which is usually done in a callback or an event listener.
 
 To see that in action, an example can be implemented as follows:
 
@@ -45,11 +45,11 @@ Summary of the code above:
 
 Every time you call the `set()` method on any Binding instance, it will trigger a potential re-render of the UI panel. Setting a new value to a Binding is the only way to update a UI panel after it is initialized.
 
-Not every prop or style can receive a Binding as its value. Refer to the [API reference](../../Reference/ui/Classes/Binding.md) to see which props and styles are marked as [`Bindable`](../../Reference/ui/Type%20Aliases/Bindable.md). Notice that Binding is not a class field, but is created within the scope of `initializeUI()`. This is possible because the only place you update the Binding is also inside `initializeUI()`. This pattern allows you to avoid creating many class fields, keeping the code clean and readable.
+Not every prop or style can receive a Binding as its value. Refer to the [API reference](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_binding) to see which props and styles are marked as [`Bindable`](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_bindable). Notice that Binding is not a class field, but is created within the scope of `initializeUI()`. This is possible because the only place you update the Binding is also inside `initializeUI()`. This pattern allows you to avoid creating many class fields, keeping the code clean and readable.
 
 ## Conditional rendering
 
-A common practice is to conditionally render a part of the UI, depending on some states of the game. In the example above, suppose you want to hide the button after it is clicked. The custom UI API has a method [`UINode.if()`](../../Reference/ui/Classes/UINode.md), which is used to conditionally render the UI element by using the boolean condition.
+A common practice is to conditionally render a part of the UI, depending on some states of the game. In the example above, suppose you want to hide the button after it is clicked. The custom UI API has a method [`UINode.if()`](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_uinode), which is used to conditionally render the UI element by using the boolean condition.
 
 ```
 initializeUI() {
@@ -128,7 +128,7 @@ this.entity.setVisibilityForPlayers([], PlayerVisibilityMode.VisibleTo);
 
 In the example above, you may have noticed that the three Bindings are always updated together. And if you think about the UI flow, there are really only two states: before and after the button click. Wouldn’t it be nice if you can use only one boolean to indicate the state of the UI?
 
-The custom UI API has a [`derive()`](../../Reference/ui/Classes/Binding.md#methods) method that allows you to derive a new value from the existing Binding. With this, you can rewrite the UI as follows:
+The custom UI API has a [`derive()`](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_binding#methods) method that allows you to derive a new value from the existing Binding. With this, you can rewrite the UI as follows:
 
 ```
 initializeUI() {
@@ -165,7 +165,7 @@ Summary of the code above:
 
 Instead of creating three Bindings, one for each prop, style, or condition, you only create one Binding of boolean type. You will use this Binding to tell the components what value should be used for all props/styles/conditions.
 
-- You call the [`derive()`](../../Reference/ui/Classes/Binding.md#methods) method on the Binding to derive its new value before sending it to the props, styles, or conditions. The function that you pass to the `derive()` method specifies how the derived value is calculated. It takes the current Binding value and returns a new value.
+- You call the [`derive()`](https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_binding#methods) method on the Binding to derive its new value before sending it to the props, styles, or conditions. The function that you pass to the `derive()` method specifies how the derived value is calculated. It takes the current Binding value and returns a new value.
 - Instead of setting new values for three Bindings in the callback, you only need to do so for one. When a new value is set for the boolean Binding, all of its derived values are also updated together.
 
 There is also a static `derive()` method that allows you to derive a new value from more than one Binding. For example, maybe you have two boolean Bindings that we want to combine into one condition:
@@ -281,7 +281,7 @@ initializeUI() {
 
 This implementation is wrong, because the values of `text` and `color` are not Bindings but explicit values. When the Binding `hasClicked` is updated, the UI will not re-render. A public `get()` method is not exposed to prevent this scenario.
 
-If you need to get the value of a Binding because you need to use it in multiple styles, like in the example above, you should use [derived Bindings](Building%20dynamic%20custom%20UI.md#deriving-binding-values). If you need to get the value of a Binding because you need to set a new value based on the old value, use [functional updates](Building%20dynamic%20custom%20UI.md#functional-updates).
+If you need to get the value of a Binding because you need to use it in multiple styles, like in the example above, you should use [derived Bindings](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui#deriving-binding-values). If you need to get the value of a Binding because you need to set a new value based on the old value, use [functional updates](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/building-dynamic-custom-ui#functional-updates).
 
 In some rare cases, you want to keep track of the value of the Binding for some other uses. To do this, you will have to create a separate variable to track the value:
 
@@ -301,4 +301,4 @@ initializeUI() {
 
 ## What’s next?
 
-The example continues in [User-defined components for custom UI](User-Defined%20Components%20for%20Custom%20UI.md)
+The example continues in [User-defined components for custom UI](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/userdefined-components-for-custom-ui)

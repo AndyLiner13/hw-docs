@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # How to Script Fire with thejohnmclay
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453527029_1154495575666435_5062044208968422190_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=yJKNrQDOKKgQ7kNvwHHb9AU&_nc_oc=AdnUsauEQvvaSjObWHofRXsgk0ly_L6mIi6r3C3ePf9T9jO1W4ODZnD2iU4pduoJWdn4-DqcOVQrZsXbDZ1nyFP2&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=2jOLosofNsnzF_PtOaRv0w&oh=00_AfmYHR3g92t7nWhqXMLJMtUt2v6NFUso8w33L7aqrZ5cSg&oe=694102BF)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/453527029_1154495575666435_5062044208968422190_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=5RWMtfLMgisQ7kNvwH9Huqs&_nc_oc=AdkmPENtt6pU8NrzWS0Pbz2g8IbxfTV752WzuaESl9zH-0iapmmtKtBX6xDquWmh0CuParUxLeR9ChA6E6jtYbZ0&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=bKrrzMTAytmklYkfpAX4BQ&oh=00_Afq5h_RJQWfcu0jZO7r7A59k7l5sFsJdZloF2AEuWKjywg&oe=696FCFFF)
 
 Follow along with **MHCP Mentor @thejohnmclay** to learn how to use Script Gizmos and random numbers to make a flame.
 

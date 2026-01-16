@@ -34,7 +34,7 @@ As players progress through the game they often start performing more advanced a
 
 ### VR design recommendations
 
-**Note**: VR gameplay typically averages about 30 minute sessions in comparison to mobile, which average 5-10 minutes. For information about gameplay loops on mobile and web, see [Short loop mobile world design guidance](../Mobile%20and%20web/Short%20loop%20mobile%20world%20design%20guidance.md).
+**Note**: VR gameplay typically averages about 30 minute sessions in comparison to mobile, which average 5-10 minutes. For information about gameplay loops on mobile and web, see [Short loop mobile world design guidance](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/short-loop-mobile-world-design-guidance).
 
 **Engagement:**
 
@@ -43,8 +43,8 @@ As players progress through the game they often start performing more advanced a
   + Start simple and build a fun and engaging experience.
   + Provide fun mechanics and social dynamics quickly.
 * Provide players with a sense of mastery early.
-* Leverage the [physics system](Physics%20Overview.md) to respond to movement and collisions.
-* Use [local scripting](../Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md) to optimize latency for the local player.
+* Leverage the [physics system](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/physics) to respond to movement and collisions.
+* Use [local scripting](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/getting-started-with-local-scripting) to optimize latency for the local player.
 
 **Player input:**
 
@@ -63,7 +63,7 @@ As players progress through the game they often start performing more advanced a
 
 ## Mid-level gameplay loop
 
-A mid-level gameplay loop is a 10-30 minute loop that combines the actions of the [core loop](Gameplay%20Loops%20for%20VR.md#core_gameplay_loop) into a goal or task. The focus of this loop is on midterm tasks and completion, such as completing rounds, stages, crafting objectives, and social activities.
+A mid-level gameplay loop is a 10-30 minute loop that combines the actions of the [core loop](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/game-loops#core_gameplay_loop) into a goal or task. The focus of this loop is on midterm tasks and completion, such as completing rounds, stages, crafting objectives, and social activities.
 
 The mid-level loop also has more involvement with story and dialog. Furthermore, this is the primary loop where you can start to identify friction points for players, such as closing the game during a long story session or after being killed repeatedly by players in a short period of time.
 
@@ -123,7 +123,7 @@ A progression loop is a long-term loop that supports progression over numerous h
 ### VR design recommendations
 
 * Provide endgame content or challenges that give players long term goals.
-* [Analyze](Gameplay%20Loops%20for%20VR.md#measuring_effectiveness) the progression loop to identify and support personal challenges that are popular among players.
+* [Analyze](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/game-loops#measuring_effectiveness) the progression loop to identify and support personal challenges that are popular among players.
 * Provide in-game introductions to upcoming content updates.
 * Use physical storytelling, environmental queues, and NPCs to build lore.
 * Make content relevant to new and veteran players.
@@ -132,19 +132,19 @@ A progression loop is a long-term loop that supports progression over numerous h
 
 ### Achievements
 
-The achievements system allows you to define a list of player objectives for tracking player progression and display the progress with players. You can define, read, and write player achievements using code blocks and then display them using the [Achievements gizmo](../VR%20tools/Scripting/Create%20player%20achievements.md), which you can also access using [TypeScript](../Reference/core/Classes/AchievementsGizmo.md).
+The achievements system allows you to define a list of player objectives for tracking player progression and display the progress with players. You can define, read, and write player achievements using code blocks and then display them using the [Achievements gizmo](https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/create-player-achievements), which you can also access using [TypeScript](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_achievementsgizmo).
 
 ## Monetization
 
 Your monetization strategy can have a large impact on your gameplay loops, so you should implement it carefully and then monitor the impact on your gameplay loops. Poorly implemented monetization can be a major source of friction events in games that game communities and content creators will often highlight before a game is released publicly.
 
-Any monetization efforts that appear pay-to-win, unfair, or block progression should be carefully reconsidered. Once your world is live, you should [analyze](Gameplay%20Loops%20for%20VR.md#measuring_effectiveness) your gameplay loops for friction events related to monetization. This is often challenging because the results can impact players long after the event that caused the issue.
+Any monetization efforts that appear pay-to-win, unfair, or block progression should be carefully reconsidered. Once your world is live, you should [analyze](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/game-loops#measuring_effectiveness) your gameplay loops for friction events related to monetization. This is often challenging because the results can impact players long after the event that caused the issue.
 
 In the core loop, the event might be a disruptive ad or a poor roll on a paid item that contains random rewards. In a mid-term loop, the friction event might be a poor win rate for players that aren’t heavy spenders. In a progression loop, you might have to identify players with poor long-term progress and then narrow the issues down in the mid-term and core loops.
 
 ## Measuring effectiveness
 
-In addition to testing and using [performance tools](../Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md), you can measure the effectiveness of your gameplay loops by using gameplay metrics provided by the In-World Analytics framework.
+In addition to testing and using [performance tools](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/using-performance-tools-from-web-and-mobile), you can measure the effectiveness of your gameplay loops by using gameplay metrics provided by the In-World Analytics framework.
 
 The In-World Analytics framework provides scripts and APIs for capturing metrics that provide insight into the effectiveness of your gameplay loops. The framework includes the following [modules](https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/using-in-world-analytics#in-world-analytics-modules) for capturing progression, rewards, gameplay actions, and friction events directly from your scripts.
 
@@ -156,11 +156,11 @@ For more information, see [Using In-World Analytics](https://developers.meta.com
 
 ## Frame and script integration
 
-A gameplay loop of any size runs over multiple frames that execute in multiple stages where players, physics, world updates, components, and rendering are updated every frame. For details about where your code runs throughout a frame sequence, see the [Frames overview](Frame%20Update%20Cycle.md).
+A gameplay loop of any size runs over multiple frames that execute in multiple stages where players, physics, world updates, components, and rendering are updated every frame. For details about where your code runs throughout a frame sequence, see the [Frames overview](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/frames).
 
-For information about how scripts execute and how to integrate a sequence of events into a script, see the [TypeScript Lifecycle](../Scripting/TypeScript%20Script%20Lifecycle.md) guide.
+For information about how scripts execute and how to integrate a sequence of events into a script, see the [TypeScript Lifecycle](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle) guide.
 
 ## Additional information
 
-* [Q&A Session: Gameplay Loops](../MHCP%20program/Q&A%20sessions/Q&A%20Session-%20Gameplay%20Loops%20with%20Victor%20Riddel.md)
+* [Q&A Session: Gameplay Loops](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/qa-session-gameplay-loops-with-victor-riddel)
 * [Q&A Session: New User Experience](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/new-user-experience)

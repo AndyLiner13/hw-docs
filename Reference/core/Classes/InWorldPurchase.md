@@ -12,10 +12,10 @@ export declare class InWorldPurchase
 
 ## Remarks
 
-Typically when providing purchasing of in-world items, you provide an In-World Item gizmo that players can interact with to make purchases. However, this prevents you from incorporating the checkout process into a custom UI. [InWorldPurchase.launchCheckoutFlow()](InWorldPurchase.md#launchcheckoutflow) makes it possible to launch the checkout process from a custom UI.
+Typically when providing purchasing of in-world items, you provide an In-World Item gizmo that players can interact with to make purchases. However, this prevents you from incorporating the checkout process into a custom UI. [InWorldPurchase.launchCheckoutFlow()](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_inworldpurchase#launchcheckoutflow) makes it possible to launch the checkout process from a custom UI.
 
 ## Methods
 
 |  |  |
 | --- | --- |
-| **launchCheckoutFlow(player, sku)** static | Launches the checkout process for an in-world item for the given player.      Signature  ``` static launchCheckoutFlow(player: Player, sku: string): void; ```  Parameters  player: [Player](Player.md)  The player purchasing the item.  sku: string  Returns  void |
+| **launchCheckoutFlow(player, sku)** static | Launches the checkout process for an in-world item for the given player.      Signature  ``` static launchCheckoutFlow(player: Player, sku: string): void; ```  Parameters  player: [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player)  The player purchasing the item.  sku: string  Returns  void |

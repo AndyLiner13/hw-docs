@@ -15,5 +15,5 @@ export declare enum HorizonTraceEventType
 | Member | Value | Description |
 | --- | --- | --- |
 | Counter | `2` | Produced by . |
-| Duration | `0` | Produced by [HorizonCountSampler](../Classes/HorizonCountSampler.md). |
-| Marker | `1` | Produced by [HorizonMarkerSampler](../Classes/HorizonMarkerSampler.md). |
+| Duration | `0` | Produced by [HorizonCountSampler](https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizoncountsampler). |
+| Marker | `1` | Produced by [HorizonMarkerSampler](https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_horizonmarkersampler). |

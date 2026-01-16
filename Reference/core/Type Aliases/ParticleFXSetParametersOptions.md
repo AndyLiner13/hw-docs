@@ -15,4 +15,4 @@ export declare type ParticleFXSetParametersOptions = {
 
 ## References
 
-[Player](../Classes/Player.md), [ParticleFXParameter](ParticleFXParameter.md), [VFXParameterType](VFXParameterType.md)
+[Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player), [ParticleFXParameter](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particlefxparameter), [VFXParameterType](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vfxparametertype)

@@ -23,18 +23,18 @@ Typescript is a strongly-typed version of JavaScript, adding additional syntax t
 
 ## Prerequisite knowledge
 
-* [Getting started with scripting in your world](Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md)
-* [API references and examples](API%20references%20and%20examples/Horizon%20TypeScript%20V2%20Changes.md)
-* [Local scripting](Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md)
-* [Gameplay tags API](Gameplay%20tags%20API/Introduction%20to%20Gameplay%20Tags.md)
-* [Asset spawning](Asset%20spawning/Introduction%20to%20Asset%20Spawning.md)
-* [Events](Events/Local%20Events.md)
+* [Getting started with scripting in your world](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/)
+* [API references and examples](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/)
+* [Local scripting](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/local-scripting/)
+* [Gameplay tags API](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/gameplay-tags-api/)
+* [Asset spawning](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/)
+* [Events](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/)
 
 ## Articles
 
-* [Recommended version control strategies](Recommended%20Version%20Control%20Strategies.md)
-* [File-backed scripts](File-Backed%20Scripts.md)
-* [Importing data with JSON](Importing%20Data%20with%20JSON.md)
+* [Recommended version control strategies](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/recommended-version-control-strategies)
+* [File-backed scripts](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/filebacked-scripts)
+* [Importing data with JSON](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/importing-data-with-json)
 
 ## Resources (external sites)
 

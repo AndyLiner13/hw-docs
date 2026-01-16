@@ -37,9 +37,9 @@ soundGizmo.pitch.set(12);
 
 ## Audio clip completion APIs
 
-If you have actions to perform when playback of an audio source completes, you can listen for the `OnAudioCompleted` CodeBlockEvent in your TypeScript code. For full details on listening for CodeBlockEvents, see the [Built-In CodeBlock Events section](../Events/CodeBlock%20Events.md#built-in-codeblock-events).
+If you have actions to perform when playback of an audio source completes, you can listen for the `OnAudioCompleted` CodeBlockEvent in your TypeScript code. For full details on listening for CodeBlockEvents, see the [Built-In CodeBlock Events section](https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/codeblock-events#built-in-codeblock-events).
 
-This examples demonstrates how to trigger the [CodeBlockEvents.OnAudioCompleted](../../Reference/core/Variables/CodeBlockEvents.md) event.
+This examples demonstrates how to trigger the [CodeBlockEvents.OnAudioCompleted](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_codeblockevents) event.
 
 ```
 this.connectCodeBlockEvent(

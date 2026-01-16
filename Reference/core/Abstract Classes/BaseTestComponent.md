@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_basetest
 
 # BaseTestComponent Class
 
-Extends *[Component](Component.md)<TComponent>*
+Extends *[Component](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_component)<TComponent>*
 
 Used only in internal tests for compatibility between the v1 and v2 APIs.
 

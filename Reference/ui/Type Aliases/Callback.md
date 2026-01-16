@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_callback
 
 # Callback type
 
-Represents a callback function interface for a [Player](../../core/Classes/Player.md) object.
+Represents a callback function interface for a [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player) object.
 
 ## Signature
 

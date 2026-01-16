@@ -8,4 +8,4 @@ In this workshop, 5andw1ch and wafflecopters introduce structured pre-production
 * Improving your design from the start
 * Managing problems and risk
 
-**World planning form**: [\*\*here\*\*](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/473391960_3924578207766164_2630832554482094150_n.pdf?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=OTuGthUg1PsQ7kNvwF_jzVL&_nc_oc=AdlC8yci2eQKqf1Qc7Wa_NCjfnfbZJv6Vm3pZbUe21irxxLFN1fSiCm25fyvQq2-vHXWjHXYg5CYgDVNVnvBsoGa&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfnscbL0QX_iCI6yOAeqwAtTHGszFEyITOh1v9p2byCCTg&oe=69559532)
+**World planning form**: [\*\*here\*\*](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/473391960_3924578207766164_2630832554482094150_n.pdf?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=MfPMQez-CbEQ7kNvwEHSPGT&_nc_oc=Adknb7LbOAsddJTpfVWkmIXY9fEtJJtLGtrWg06l_CKAJZ67AvISpkLF7eZnM1SX-Prh_1qz7Wsd7XPEfWN91ZLd&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfpTGbKYd475oh5cdHvTSzJbY5xAX9ctxGLkDWzlQcHsow&oe=69842A32)

@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerha
 
 # PlayerHand Class
 
-Extends *[PlayerBodyPart](PlayerBodyPart.md)*
+Extends *[PlayerBodyPart](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerbodypart)*
 
 A player's hand.
 
@@ -16,7 +16,7 @@ export declare class PlayerHand extends PlayerBodyPart
 
 |  |  |
 | --- | --- |
-| **(constructor)(player, handedness)** | Contructs a new `PlayerHand`.  ---  Signature  ``` constructor(player: Player, handedness: Handedness); ```  Parameters  player: [Player](Player.md)  The player associated with the hand.  handedness: [Handedness](../Enumerations/Handedness.md)  The player's handedness. |
+| **(constructor)(player, handedness)** | Contructs a new `PlayerHand`.  ---  Signature  ``` constructor(player: Player, handedness: Handedness); ```  Parameters  player: [Player](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player)  The player associated with the hand.  handedness: [Handedness](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_handedness)  The player's handedness. |
 
 ## Properties
 
@@ -28,4 +28,4 @@ export declare class PlayerHand extends PlayerBodyPart
 
 |  |  |
 | --- | --- |
-| **playHaptics(duration, strength, sharpness)** | Plays haptic feedback on the specified hand.      Signature  ``` playHaptics(duration: number, strength: HapticStrength, sharpness: HapticSharpness): void; ```  Parameters  duration: number  The duration of the feedback in MS.  strength: [HapticStrength](../Enumerations/HapticStrength.md)  The strength of feedback to play.  sharpness: [HapticSharpness](../Enumerations/HapticSharpness.md)  The sharpness of the feedback.  Returns  void |
+| **playHaptics(duration, strength, sharpness)** | Plays haptic feedback on the specified hand.      Signature  ``` playHaptics(duration: number, strength: HapticStrength, sharpness: HapticSharpness): void; ```  Parameters  duration: number  The duration of the feedback in MS.  strength: [HapticStrength](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_hapticstrength)  The strength of feedback to play.  sharpness: [HapticSharpness](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_hapticsharpness)  The sharpness of the feedback.  Returns  void |

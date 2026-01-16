@@ -17,7 +17,7 @@ export declare type TooltipOptions = {
 
 ## References
 
-[Vec3](../Classes/Vec3.md), [TooltipLineAttachmentProperties](TooltipLineAttachmentProperties.md)
+[Vec3](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_vec3), [TooltipLineAttachmentProperties](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_tooltiplineattachmentproperties)
 
 ## Remarks
 

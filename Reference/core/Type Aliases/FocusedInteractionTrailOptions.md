@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusedi
 
 # FocusedInteractionTrailOptions type
 
-The [FocusedInteraction](../Classes/FocusedInteraction.md) options for visual trails that are displayed when players use swipe and drag input.
+The [FocusedInteraction](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusedinteraction) options for visual trails that are displayed when players use swipe and drag input.
 
 ## Signature
 
@@ -20,4 +20,4 @@ export declare type FocusedInteractionTrailOptions = {
 
 ## References
 
-[Color](../Classes/Color.md)
+[Color](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_color)

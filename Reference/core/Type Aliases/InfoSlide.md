@@ -17,4 +17,4 @@ export declare type InfoSlide = {
 
 ## References
 
-[InfoSlideStyle](InfoSlideStyle.md)
+[InfoSlideStyle](https://developers.meta.com/horizon-worlds/reference/2.0.0/core_infoslidestyle)

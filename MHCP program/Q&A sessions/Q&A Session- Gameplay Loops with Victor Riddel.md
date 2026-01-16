@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # Q&A Session: Gameplay Loops with Victor Riddel
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/10000000_1019785633129820_8857769660737234622_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=1hLrDqa_lqoQ7kNvwEaTQFX&_nc_oc=AdmBs2GLCZMPWWt8WuiQSAQ_EvsMoW7wXCJoFyc65tplC_4n0t0f-ELET8g8EIbIj_-_nhhdOcYkUavXFE4VFIKw&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=eHt-C3kBoGZVWZRjCwDq5g&oh=00_Afnk51adsXK4ueo8DX9STGSc7pVTcMJr6itaa4iRLxESwQ&oe=69412259)
+[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_1019785633129820_8857769660737234622_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=6500a6&_nc_ohc=McnGpFOAAHIQ7kNvwH7MBZ6&_nc_oc=AdmR_CTNYEckrSuYMgGWA0WZZAzb1kf3FbH9_yhpcApIGUI6MHnf68f-YsRGyDs_sCX9zS_Am6wZT-7cTMj8NRYN&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=Vxv7wyRU3A8wSvMPLNnitw&oh=00_AfrwuCYzpIVxkzi_I0ds1RbY1IjlAL7nvY7Yz5U7FIlcZQ&oe=696FB759)
 
 Watch this session for an exclusive intro to Gameplay Loops with Creative Director and Game Designer Victor Riddel.
 

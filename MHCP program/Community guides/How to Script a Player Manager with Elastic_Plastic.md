@@ -2,7 +2,7 @@ Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # How to Script a Player Manager with Elastic\_Plastic
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_507093501973606_3040301008295410209_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=hwB6qh8e9doQ7kNvwEeCU2x&_nc_oc=AdnT6THWdEV84bQ-IhDjKiBVA6vOMzKQTKOwb12yxpDYoIqrs1jxiGUudbpKnGQovTG2A2oA4xb7v-qwyOpOYECp&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=7As3TKPa5XXbtGMeD8IXkw&oh=00_AfmfFZgrNhcr3ac9dJ56Bs-2XG8W1mAHvObL6K9wVK9kdw&oe=69412DD7)
+[](https://video-dfw6-1.xx.fbcdn.net/v/t42.1790-2/10000000_507093501973606_3040301008295410209_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=6500a6&_nc_ohc=MstjsQ8aPS8Q7kNvwGrTtym&_nc_oc=Adk4j8VRBrzuKd45ABsWGS6GphUtsp2GRihMJM9yOIGY3T9xznBZ38p2wzj4ONFunyKKdRfEts2Yzdufdd-39dgM&_nc_zt=28&_nc_ht=video-dfw6-1.xx&_nc_gid=mZ9L86kdKTRYU1GcUsJ4Ag&oh=00_AfqZdjWEoiMyKjvRl1DY05CQtS9hGXBE9FvXgCPkOk-n5w&oe=696FC2D7)
 
 Follow along with **MHCP Mentor @Elastic\_Plastic** to learn how to integrate player managers into your world.
 
