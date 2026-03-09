@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/bonus-program-overview
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/bonus-program-overview/
 ---
 
 # Bonus Program Overview
@@ -44,6 +44,8 @@ This bonus rewards creators for selling in-world purchases.
 * **How to increase bonus earnings**: There are a few ways to increase how much you can earn from this bonus. The first is to increase the average number of Meta Credits exchanged during the bonus period by growing the number of visitors making in-world purchases and the amount of Meta Credits they use. This is because the higher the average of Meta Credits exchanged per user, the higher your bonus multiplier will be. You can also increase your bonus by growing your overall monthly earnings, because the multiplier for the bonus is applied to your total monthly earnings from in-world purchases during the bonus period.
 
 ## Mobile milestone rewards
+
+**Note:** Mobile milestone rewards are being discontinued. See [Mobile Milestone Rewards Deprecation](https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/mobile-milestone-rewards-deprecation) for more information.
 
 These are one-time rewards that can be earned as creators grow their mobile worlds, with more active monthly users spending more time in said worlds. As these are one-time rewards, they will only be activated once, regardless of how many worlds hit the rewards thresholds.
 

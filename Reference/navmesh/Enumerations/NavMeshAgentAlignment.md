@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshagentalignment
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshagentalignment/
 ---
 
 # NavMeshAgentAlignment Enum
@@ -24,4 +24,4 @@ export declare const enum NavMeshAgentAlignment
 
 ## Remarks
 
-See the [NavMeshAgent.alignmentMode](../Classes/NavMeshAgent.md#alignmentmode) property for usage.
+See the [alignmentMode](../Classes/NavMeshAgent.md#alignmentmode) property for usage.

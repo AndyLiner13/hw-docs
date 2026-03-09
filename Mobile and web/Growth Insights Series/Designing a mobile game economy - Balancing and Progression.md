@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-economy-balancing-and-progression
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-economy-balancing-and-progression/
 ---
 
 # Designing a mobile game economy - Balancing and Progression
@@ -97,7 +97,7 @@ For example, in a match-three game, you may not see many $79.99 purchases, but y
 
 ![](../../_assets/images/b6cb9e1ba64cc6712a8d27e738fea92e166b2fe0d676aaffe0b187eb0f05973b.png)
 
-*Which Clash of Clans skins are most popular overall? Which resonate with first-time purchasers? \
+*Which Clash of Clans skins are most popular overall? Which resonate with first-time purchasers?
 Without telemetry and analytics, questions like these are almost impossible to answer.*
 
 As live operations and analytics matured, games began experimenting more with their pricing structures. It’s not recommended that every game sell only higher-value packs, but it’s equally risky to assume a default pricing ladder will work across the board.

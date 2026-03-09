@@ -1,8 +1,12 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/intro-to-worlds-discovery
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/intro-to-worlds-discovery/
 ---
 
 # Intro to Worlds discovery
+
+Update on Horizon Feed in VR
+
+ January 21, 2026: We’re starting the process to sunset Horizon Feed in VR and shift users to our new UI (called Navigator) to improve the overall user journey and make exploration in VR more seamless. This shift starts with a small set of users, and we will be slowly ramping up testing until releasing to all users later this year. When Horizon Feed in VR is no longer available, we will update the documentation on this page. [Learn more here](https://communityforums.atmeta.com/discussions/product-news-/horizon-feed-being-replaced-by-navigator-starting-in-v85/1363700).
 
 ## Introduction
 

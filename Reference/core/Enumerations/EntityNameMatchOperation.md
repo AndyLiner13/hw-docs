@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entitynamematchoperation
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_entitynamematchoperation/
 ---
 
 # EntityNameMatchOperation Enum
@@ -19,5 +19,5 @@ export declare enum EntityNameMatchOperation
 | Contains | `3` | Entity name must contain the provided string |
 | EndsWith | `2` | Entity name must end with the provided string |
 | Exact | `0` | Entity name must exactly match the provided string |
-| Regex | `4` | Entity name must match the provided [regular expression](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions) |
+| Regex | `4` | Entity name must match the provided [regular expression⁠](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions) |
 | StartsWith | `1` | Entity name must start with the provided string |

@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawnerror
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_spawnerror/
 ---
 
 # SpawnError Enum
@@ -23,3 +23,5 @@ export declare enum SpawnError
 | None | `0` | No error since the last attempt to spawn. |
 | UnauthorizedContent | `4` | The asset contains content which is not approved for spawning in this world. |
 | Unknown | `6` | An unexpected error. |
+
+Sponsored

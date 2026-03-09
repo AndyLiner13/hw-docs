@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started/create-your-first-world
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started/create-your-first-world/
 ---
 
 # Create your first world tutorial, part 1
@@ -43,7 +43,7 @@ The key things you should learn from this module are the following:
 
 ## Step 2: Place assets in the scene
 
-Assets are objects that you can place in your world so that players an interact with them. Tables, chairs, laser guns, doors, and so on, are all potentially assets you can use. There are many assets created both by Worlds developers and by other creators that are available in the public asset library, which you’ll use in this tutorial. Public assets are displayed on the **Public Assets** panel of the **Assets Library** tab in the center bottom of the desktop editor. You can also create your own assets, which are stored in the **My Assets** panel of the same tab.
+Assets are objects that you can place in your world so that players can interact with them. Tables, chairs, laser guns, doors, and so on, are all potentially assets you can use. There are many assets created both by Worlds developers and by other creators that are available in the public asset library, which you’ll use in this tutorial. Public assets are displayed on the **Public Assets** panel of the **Assets Library** tab in the center bottom of the desktop editor. You can also create your own assets, which are stored in the **My Assets** panel of the same tab.
 
 In this section, you will learn how to place an asset from the public assets into your scene. (Just like in a movie, a *scene* is a sequence of continuous action that’s usually oriented around a particular location. Many games consist of many scenes, although this one includes just one).
 

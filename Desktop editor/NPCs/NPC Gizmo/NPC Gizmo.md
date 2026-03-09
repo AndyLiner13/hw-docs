@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-gizmo/npc-gizmo
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-gizmo/npc-gizmo/
 ---
 
 # NPC Gizmo
@@ -27,6 +27,7 @@ To create and configure an NPC using the NPC Gizmo, use the following process:
 | Refresh | Click this button after you have edited your avatar’s appearance to refresh it in this world. |
 | Conversation | Sets the conversation type for the NPC. The available choices are **AI** and **None**. |
 | Default Speech Bubble | Toggles whether or not the created NPC will display a speech bubble when speaking. |
+| Default Push Toggle Talk Button | Only visible when **Conversation** is set to **AI**. When enabled, a toggle-to-talk button automatically appears on mobile players’ screens when they approach the NPC, allowing them to tap to open and close their microphone. Creators can disable this to implement custom voice input via TypeScript. See [AI Speech NPCs](../NPC%20Conversation/AI%20Speech%20NPCs.md) for more details. |
 | AI Character | Click **Edit Character** to begin the process of creating and customizing the NPC’s name, backstory, voice, and more. |
 | Nametag Settings | Updates the nametag for the NPC that displays in world. You can change title for the nametag and the left/right color gradient |
 | Audio Settings | Controls the audio produced by the NPC. |

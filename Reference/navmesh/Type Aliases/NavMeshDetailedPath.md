@@ -1,10 +1,10 @@
 ---
-source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshdetailedpath
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshdetailedpath/
 ---
 
 # NavMeshDetailedPath type
 
-Defines the pathfinding calculation results for the property. This contains slightly more information than the property.
+Defines the pathfinding calculation results for the [NavMesh.getPathAlongSurface](../Classes/NavMesh.md#getpathalongsurface) property. This contains slightly more information than the [NavMesh.getPath](../Classes/NavMesh.md#getpath) property.
 
 ## Signature
 

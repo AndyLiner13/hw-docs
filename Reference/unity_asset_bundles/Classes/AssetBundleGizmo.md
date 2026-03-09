@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/reference/2.0.0/unity_asset_bundles_assetbundlegizmo
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/unity_asset_bundles_assetbundlegizmo/
 ---
 
 # AssetBundleGizmo Class
@@ -16,7 +16,7 @@ export declare class AssetBundleGizmo extends Entity
 
 ## Remarks
 
-For more information about AssetBundles, see the [Horizon developer guides](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/unity-assetbundles/horizon-unity-assetbundles-overview) and the [Unity developer guides](https://docs.unity3d.com/Manual/AssetBundlesIntro.html) (external).
+For more information about AssetBundles, see the [Horizon developer guides](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/unity-assetbundles/horizon-unity-assetbundles-overview) and the [Unity developer guides⁠](https://docs.unity3d.com/Manual/AssetBundlesIntro.html) (external).
 
 ## Methods
 

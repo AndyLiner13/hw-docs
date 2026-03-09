@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/create-grabbable-entities
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/create-grabbable-entities/
 ---
 
 # Grabbable Entities On Mobile And Web
@@ -120,28 +120,3 @@ Current crosshair options include:
 * **Dot**
 * **Cross**
 * **Spread**
-
-## Configurable Interaction Range
-
-The interaction range for grabbable entities can be configured to control how close a player must be to interact with the entity. Adjusting this range allows you to fine-tune the user experience for different types of interactions and device inputs.
-
-By increasing the interaction range, you make it easier for players—especially on web and mobile platforms—to interact with objects without needing precise positioning. Conversely, reducing the range requires more deliberate player movement, which may be desirable for certain gameplay mechanics.
-
-| Interactivity Option | Explanation |
-| --- | --- |
-| Targeting Delay After Release | Time to wait after releasing an interaction before targeting the same object again, preventing rapid re-triggering. |
-| Perfect Rank Distance | Ideal distance where an interaction target has the highest priority in targeting. |
-| Max Distance | Maximum distance to target or interact. Beyond this range, targeting is disabled. |
-| Distance Rank Multiplier | Multiplier scaling the importance of distance in targeting priority calculations. |
-| Perfect Rank Angle | Ideal angle (degrees) between player’s forward direction and target for highest priority. |
-| Max Angle | Maximum angle at which an object can be targeted; objects outside this angle are ignored. |
-| Angle Rank Multiplier | A multiplier that scales the importance of angle in the targeting ranking calculation. |
-| Bypass Line of Sight | Allows targeting or grabbing objects without direct line of sight when enabled. |
-| Use Raycast Direction | Determines whether the targeting uses the direction of a raycast instead of a fixed shoulder-to-hand direction. |
-| Use Grab Anchors | Uses predefined grab anchor points on an object for targeting and interaction. |
-
-### Setting the Configurable Interaction Range
-
-The interaction range setting is available in the Properties panel of the interactable entity, allowing creators to customize the effective distance at which the entity can be interacted with.
-
-![](../../_assets/images/e497fb0c1f2494c33a5b68e3be026ba65aa3f0a8b0ce07105c6fc16b0e97163f.png)

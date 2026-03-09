@@ -1,14 +1,14 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-conversations/ai-speech-npcs-overview
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-conversations/ai-speech-npcs-overview/
 ---
 
 # AI Speech NPCs
 
 This guide details the process of creating Conversation NPCs that leverage the power of Large Language Models (LLMs). The core focus of these NPCs is to engage with players in dynamic, relevant, and diverse conversations. By integrating LLMs, these NPCs can process natural language input, understand context, generate coherent and contextually appropriate responses, and even exhibit emergent behaviors, leading to truly unpredictable and engaging encounters.
 
-**Note**: While these NPCs are AI-powered, **scripting is currently required to trigger their speech**.
+**Note**: While these NPCs are AI-powered, **scripting is required to trigger their speech unless the Default Push Toggle Talk Button is enabled** (see below).
 
-## Implement AI Speech NPC Conversations
+## Implement AI Speech NPC conversations
 
 To configure your AI Speech NPC for conversations, use the following process:
 
@@ -37,6 +37,34 @@ To create and configure an AI Speech NPC, use the following process:
 - Currently, scripting is required for your created NPC to speak. In your NPC’s **Properties** panel select Attach Script then, Create new script and name your script.
 - Once your script is named, click Create and attach it to your NPC. Once attached, you can select the script in your NPC’s property panel, click the three dots, then select Edit script.
 - Your newly created script will open in your linked code editor. This new script’s default behavior will be speaking when the world initially starts. `elicitResponse()` takes an instruction for the NPC to respond to. You can find more examples of scripted NPCs in the NPC section of the asset library.
+
+## Default Push Toggle Talk Button (Mobile)
+
+On mobile, you can enable a built-in toggle-to-talk button that enables your players to speak to your AI NPC without custom scripting. When this feature is enabled, a button will appear on mobile players’ screens when they approach an enabled NPC.
+
+To enable this feature for a NPC, set it’s **Conversation** property to **AI** in the **Properties** panel, then toggle the **Default Push Toggle Button** to **On**. Once enabled:
+
+* A button appears when a player approaches an AI NPC.
+* The player can tap the button to “open” their microphone and begin speaking.
+* The player can tap the button again to “close” the micrphone and send their input to the NPC.
+
+The microphone will automatically close in the following situations:
+
+* The player moves out of proximity of the NPC.
+* After **3 seconds** of silence.
+* After **15 seconds** of total input.
+
+If the player’s device microphone is muted, the toggle-to-talk button will not function. The mute state overrides the toggle-to-talk input.
+
+When a player is near multiple AI NPCs, the button appears for the NPC the player is currently focused on.
+
+### Platform availability
+
+The default push-to-toggle talk button is designed for **mobile** platforms. In VR, players interact with AI NPCs through the existing open microphone experience, which uses gaze and proximity for activation.
+
+### Custom voice input
+
+Creators who want more control over voice input behavior can disable the default push-to-toggle talk button and implement their own solution using TypeScript. This is useful for custom activation triggers, different input timing, or experiences that require a specific interaction flow. See [Scripted NPCs](Scripted%20NPCs.md) for API details and examples.
 
 ## Backstory
 

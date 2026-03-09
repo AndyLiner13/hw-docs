@@ -1,5 +1,5 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/replacing-primitive-worlds-with-custom-model-worlds
+source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/replacing-primitive-worlds-with-custom-model-worlds/
 ---
 
 # Replacing Primitive Worlds with Custom Model Worlds
@@ -10,7 +10,7 @@ As a reminder, mixing geometry from primitive and custom model worlds will block
 
 Before getting started, we recommended that you make a world backup and/or check for a recent world backup. If something isn’t quite right after import, this ensures you have a recent copy of your world to restore from.
 
-## How to Replace your Primitive World with a Custom Model World
+## How to replace your Primitive World with a Custom Model World
 
 - Create a new Custom Model world. If you haven’t done this before [see this Getting Started guide](Getting%20started%20with%203D%20model%20import.md) for Quick Start instructions.
   ![](../_assets/images/9bb9765948e5acdb1bc420822a19a7ab929499758bdfed2a4025ad7ee726f0bd.png)
@@ -29,3 +29,7 @@ Before getting started, we recommended that you make a world backup and/or check
 - Select “Start Import”.
 
 Your world’s primitive geometry will be replaced with the new custom model geometry. You may now republish your world when ready!
+
+## Troubleshooting: “Pre-Release Asset” error when publishing
+
+Note that when attempting to republish your world, you may encounter an error referencing a **pre-release asset**. This error indicates that one or more **primitive assets** still remains in your world. You will need to locate and replace these with a tri-mesh/custom model geometry, or remove them altogether, before world publishing will succeed.
