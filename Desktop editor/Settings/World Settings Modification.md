@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/world-settings-modification
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/world-settings-modification
+---
 
 # World Settings Modification
 

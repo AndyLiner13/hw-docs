@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_agent_agentrotationoptions
+---
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_agent_agentrotationoptions
+---
 
 # AgentRotationOptions type
 

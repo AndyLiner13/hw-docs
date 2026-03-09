@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/using-asset-library
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/using-asset-library
+---
 
 # Use the Asset Library in Meta Horizon Worlds
 

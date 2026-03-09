@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/economy-world-tutorial/module-4-adding-the-shop
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/economy-world-tutorial/module-4-adding-the-shop
+---
 
 # Module 4 - Adding The Shop
 

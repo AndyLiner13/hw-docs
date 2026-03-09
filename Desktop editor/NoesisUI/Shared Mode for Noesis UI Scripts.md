@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/shared-mode-noesis-scripts
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/noesis-ui/shared-mode-noesis-scripts
+---
 
 # Shared Mode for Noesis UI Scripts
 

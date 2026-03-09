@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/new-user-experience-tutorial/module-6-waypoint-arrows
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/new-user-experience-tutorial/module-6-waypoint-arrows
+---
 
 # Module 6 - 3D Waypoint Arrows
 

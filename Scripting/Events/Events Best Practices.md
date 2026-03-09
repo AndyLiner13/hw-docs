@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/events-best-practices
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/events-best-practices
+---
 
 # Events Best Practices
 

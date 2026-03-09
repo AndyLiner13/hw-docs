@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/3d-modeling-101-week-3
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/3d-modeling-101-week-3
+---
 
 # 3D Modeling 101 - Week 3
 

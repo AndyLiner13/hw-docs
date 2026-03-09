@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/inworld-test-purchase
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/inworld-test-purchase
+---
 
 # In-World Test Purchase
 

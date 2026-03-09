@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-examples-tutorial/station-4-generic-yes-no-dialog
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-examples-tutorial/station-4-generic-yes-no-dialog
+---
 
 # Station 4 - Generic Yes/No Dialog
 

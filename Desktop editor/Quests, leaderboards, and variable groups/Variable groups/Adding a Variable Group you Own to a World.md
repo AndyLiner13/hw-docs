@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/adding-a-variable-group-you-own-to-a-world
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/adding-a-variable-group-you-own-to-a-world
+---
 
 # Adding a Variable Group you Own to a World
 

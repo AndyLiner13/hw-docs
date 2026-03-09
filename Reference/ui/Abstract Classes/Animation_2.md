@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_animation_2
+---
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_animation_2
+---
 
 # Animation\_2 Class
 

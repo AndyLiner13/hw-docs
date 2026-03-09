@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/world-streaming
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/world-streaming
+---
 
 # World Streaming
 

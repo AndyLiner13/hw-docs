@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/meta-horizon-creator-manual-with-wafflecopters
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/meta-horizon-creator-manual-with-wafflecopters
+---
 
 # MHCP Mentor Workshop Video: Meta Horizon Creator Manual with wafflecopters
 

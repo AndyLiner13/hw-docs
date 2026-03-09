@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/replacing-primitive-worlds-with-custom-model-worlds
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/replacing-primitive-worlds-with-custom-model-worlds
+---
 
 # Replacing Primitive Worlds with Custom Model Worlds
 

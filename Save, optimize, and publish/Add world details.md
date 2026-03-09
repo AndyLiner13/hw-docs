@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/add-world-details-in-horizon
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/add-world-details-in-horizon
+---
 
 # Add world details
 

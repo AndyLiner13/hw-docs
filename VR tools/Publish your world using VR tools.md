@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/publish-a-world-in-horizon
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/publish-a-world-in-horizon
+---
 
 # Publish your world using VR tools
 

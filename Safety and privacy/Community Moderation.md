@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/community-moderation
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/safety-and-privacy/community-moderation
+---
 
 # Community Moderation
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/typescript-script-lifecycle
+---
 
 # TypeScript Script Lifecycle
 

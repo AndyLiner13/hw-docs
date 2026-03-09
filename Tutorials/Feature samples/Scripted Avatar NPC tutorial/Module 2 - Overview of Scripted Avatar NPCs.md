@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/scripted-avatar-npc-tutorial/module-2-overview
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/scripted-avatar-npc-tutorial/module-2-overview
+---
 
 # Module 2 - Overview of Scripted Avatar NPCs
 

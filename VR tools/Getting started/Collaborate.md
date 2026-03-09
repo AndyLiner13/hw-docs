@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/collaborate-in-meta-horizon
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/collaborate-in-meta-horizon
+---
 
 # Collaborate
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshwaypoint
+---
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshwaypoint
+---
 
 # NavMeshWaypoint type
 

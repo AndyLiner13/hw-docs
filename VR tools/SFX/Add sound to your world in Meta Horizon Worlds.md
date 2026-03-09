@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/sfx/adding-sound-in-horizon
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/sfx/adding-sound-in-horizon
+---
 
 # Add sound to your world in Meta Horizon Worlds
 

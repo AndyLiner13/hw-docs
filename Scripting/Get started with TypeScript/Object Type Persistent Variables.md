@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/object-type-persistent-variables
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/object-type-persistent-variables
+---
 
 # Object Type Persistent Variables
 

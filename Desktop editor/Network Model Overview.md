@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/network-model
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/network-model
+---
 
 # Network Model Overview
 

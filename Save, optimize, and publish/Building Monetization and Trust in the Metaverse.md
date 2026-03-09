@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/building-monetization-trust-in-the-metaverse
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/building-monetization-trust-in-the-metaverse
+---
 
 # Building Monetization and Trust in the Metaverse
 

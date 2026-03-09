@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-instantiation
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-instantiation
+---
 
 # Object Instantiation
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_swipedirection
+---
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_swipedirection
+---
 
 # SwipeDirection Enum
 

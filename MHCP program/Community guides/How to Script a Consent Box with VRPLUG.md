@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/how-to-script-a-consent-box-with-vrplug
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/how-to-script-a-consent-box-with-vrplug
+---
 
 # How to Script a Consent Box with VRPLUG
 

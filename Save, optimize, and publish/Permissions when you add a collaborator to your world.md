@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/adding-collaborators-in-horizon
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/adding-collaborators-in-horizon
+---
 
 # Permissions when you add a collaborator to your world
 

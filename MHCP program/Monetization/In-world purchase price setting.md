@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/setting-in-world-purchase-pricing
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/setting-in-world-purchase-pricing
+---
 
 # In-world purchase price setting
 

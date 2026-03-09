@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/connect-23-video-series-custom-model-worlds
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/connect-23-video-series-custom-model-worlds
+---
 
 # Connect '23 Video Series: Custom Model Worlds
 

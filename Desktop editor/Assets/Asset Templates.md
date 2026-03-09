@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/asset-templates
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/asset-templates
+---
 
 # Asset Templates
 

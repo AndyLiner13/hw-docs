@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/trailer-upload-tool
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/trailer-upload-tool
+---
 
 # Upload trailers for your world
 

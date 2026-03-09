@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/social_iavatarimageoptions
+---
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/social_iavatarimageoptions
+---
 
 # IAvatarImageOptions Interface
 

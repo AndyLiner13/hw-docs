@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/next-gen-avatars-faq
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/next-gen-avatars-faq
+---
 
 # Next-Generation Avatars FAQ
 

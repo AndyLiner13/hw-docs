@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/set-up-members-only-world
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/set-up-members-only-world
+---
 
 # Set up a members-only world using VR tools
 

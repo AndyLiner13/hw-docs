@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/get-started/game-creation-basics
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/get-started/game-creation-basics
+---
 
 # Introduction to game creation video series
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/Teams-api
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/Teams-api
+---
 
 # Teams API Reference
 

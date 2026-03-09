@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/mhcp-mentor-workshop-publishing-checklist
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/mhcp-mentor-workshop-publishing-checklist
+---
 
 # MHCP Mentor Workshop Video: Publishing Checklist Workshop with wafflecopters
 

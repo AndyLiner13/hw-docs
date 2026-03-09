@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/modifying-editable-entity-properties
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/modifying-editable-entity-properties
+---
 
 # Modifying editable entity properties
 

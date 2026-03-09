@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/filebacked-scripts
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/filebacked-scripts
+---
 
 # File-Backed Scripts
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/cross-screens-crash-course-week-1
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/cross-screens-crash-course-week-1
+---
 
 # Mobile worlds crash course, part 1: Getting Started
 

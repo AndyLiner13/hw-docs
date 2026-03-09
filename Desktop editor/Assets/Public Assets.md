@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/public-asset-library
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/public-asset-library
+---
 
 # Public Assets
 

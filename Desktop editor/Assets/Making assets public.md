@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/making-assets-public
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/making-assets-public
+---
 
 # Making assets public
 

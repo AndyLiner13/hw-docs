@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/ai-conversation-tutorial/module-5-exercise-add-your-own-ai-npc
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/ai-conversation-tutorial/module-5-exercise-add-your-own-ai-npc
+---
 
 # Module 5 - Exercise - Add Your Own AI NPC
 

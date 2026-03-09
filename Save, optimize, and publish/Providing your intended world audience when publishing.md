@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/intended-world-audience
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/intended-world-audience
+---
 
 # Providing your intended world audience when publishing
 

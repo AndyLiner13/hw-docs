@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerbodyparttype
+---
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerbodyparttype
+---
 
 # PlayerBodyPartType Enum
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/camera-api-examples-tutorial/module-5-fixed-camera-and-spectator-mode
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/camera-api-examples-tutorial/module-5-fixed-camera-and-spectator-mode
+---
 
 # Module 5 - Fixed Camera and Spectator Mode
 

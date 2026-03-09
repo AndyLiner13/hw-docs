@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-economy-live-ops-tracking-and-updating
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-economy-live-ops-tracking-and-updating
+---
 
 # Designing a mobile game economy - Live Ops Tracking and Updating
 

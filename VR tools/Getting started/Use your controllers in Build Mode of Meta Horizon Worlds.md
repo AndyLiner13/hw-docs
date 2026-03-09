@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/using-controllers-in-build-mode
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/using-controllers-in-build-mode
+---
 
 # Use your controllers in Build Mode of Meta Horizon Worlds
 

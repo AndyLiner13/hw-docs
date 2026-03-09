@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/game-loops
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/game-loops
+---
 
 # Gameplay Loops for VR
 

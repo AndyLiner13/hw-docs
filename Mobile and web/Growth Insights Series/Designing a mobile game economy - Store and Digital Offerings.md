@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-economy-store-and-digital-offerings
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-economy-store-and-digital-offerings
+---
 
 # Designing a mobile game economy - Store and Digital Offerings
 

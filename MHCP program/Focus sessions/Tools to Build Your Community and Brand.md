@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/tools-to-build-your-community-and-brand
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/tools-to-build-your-community-and-brand
+---
 
 # Tools to Build Your Community and Brand
 

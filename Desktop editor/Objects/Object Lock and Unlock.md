@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-lock-and-unlock
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-lock-and-unlock
+---
 
 # Object Lock and Unlock
 

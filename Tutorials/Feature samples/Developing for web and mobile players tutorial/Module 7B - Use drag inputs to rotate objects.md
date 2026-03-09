@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/developing-for-web-and-mobile-players-tutorial/module-7b-use-drag-inputs-to-rotate-objects
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/developing-for-web-and-mobile-players-tutorial/module-7b-use-drag-inputs-to-rotate-objects
+---
 
 # Module 7B - Use drag inputs to rotate objects
 

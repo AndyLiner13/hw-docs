@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/multiplayer-lobby-tutorial/module-6-completing-the-match-and-returning-players
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/multiplayer-lobby-tutorial/module-6-completing-the-match-and-returning-players
+---
 
 # Module 6 - Completing the Match and Returning Players
 

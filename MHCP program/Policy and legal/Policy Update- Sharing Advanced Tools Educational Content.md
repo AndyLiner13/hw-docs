@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/policy-and-legal/advanced-tools-content-policy
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/policy-and-legal/advanced-tools-content-policy
+---
 
 # Policy Update: Sharing Advanced Tools Educational Content
 

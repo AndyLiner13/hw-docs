@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-your-world
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/publish-your-world
+---
 
 # Publish your world
 

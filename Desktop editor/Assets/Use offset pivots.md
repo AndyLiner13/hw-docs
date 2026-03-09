@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/offset-pivots
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/offset-pivots
+---
 
 # Use offset pivots
 

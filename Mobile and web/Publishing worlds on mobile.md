@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/publishing-worlds-on-mobile
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/publishing-worlds-on-mobile
+---
 
 # Publishing worlds on mobile
 

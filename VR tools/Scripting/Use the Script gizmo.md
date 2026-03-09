@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/use-the-script-gizmo
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/use-the-script-gizmo
+---
 
 # Use the Script gizmo
 

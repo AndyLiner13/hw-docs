@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/build-your-first-world-with-seeingblue
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/build-your-first-world-with-seeingblue
+---
 
 # MHCP Mentor Office Hour Video: Build Your First World with SeeingBlue
 

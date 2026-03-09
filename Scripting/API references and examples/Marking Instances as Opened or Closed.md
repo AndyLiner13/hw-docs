@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/marking-instances-as-opened-or-closed
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/marking-instances-as-opened-or-closed
+---
 
 # Marking Instances as Opened or Closed
 

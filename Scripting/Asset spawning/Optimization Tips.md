@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/optimization-tips
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/asset-spawning/optimization-tips
+---
 
 # Optimization Tips
 

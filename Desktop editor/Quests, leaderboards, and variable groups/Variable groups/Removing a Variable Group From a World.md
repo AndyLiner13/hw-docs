@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/removing-a-variable-group-from-a-world
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/removing-a-variable-group-from-a-world
+---
 
 # Removing a Variable Group From a World
 

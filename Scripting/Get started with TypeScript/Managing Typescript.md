@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/managing-typescript
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/managing-typescript
+---
 
 # Managing Typescript
 

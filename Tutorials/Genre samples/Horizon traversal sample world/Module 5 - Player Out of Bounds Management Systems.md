@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/genre-samples/horizon-traversal-sample-world/module-5-player-out-of-bounds-management-systems
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/genre-samples/horizon-traversal-sample-world/module-5-player-out-of-bounds-management-systems
+---
 
 # Module 5 - Player Out of Bounds Management Systems
 

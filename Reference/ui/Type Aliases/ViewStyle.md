@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewstyle
+---
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_viewstyle
+---
 
 # ViewStyle type
 

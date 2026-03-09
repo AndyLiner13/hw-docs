@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/how-to-script-a-player-manager-part-two-with-elastic-plastic
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/how-to-script-a-player-manager-part-two-with-elastic-plastic
+---
 
 # How to Script a Player Manager Part Two with Elastic\_Plastic
 

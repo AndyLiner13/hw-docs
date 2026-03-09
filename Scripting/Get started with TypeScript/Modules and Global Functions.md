@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/modules-and-global-functions
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/modules-and-global-functions
+---
 
 # Modules and Global Functions
 

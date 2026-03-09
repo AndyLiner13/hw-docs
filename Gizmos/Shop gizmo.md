@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/shop-gizmo
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/shop-gizmo
+---
 
 # Shop gizmo
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/mhcp-creator-panel-with-emmanuel-rebollar-may-23-2023
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/mhcp-creator-panel-with-emmanuel-rebollar-may-23-2023
+---
 
 # MHCP Creator Panel with Emmanuel Rebollar (May 23, 2023)
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/connect-23-video-series-world-optimization-best-practices
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/connect-23-video-series-world-optimization-best-practices
+---
 
 # Connect '23 Video Series: World Optimization Best Practices
 

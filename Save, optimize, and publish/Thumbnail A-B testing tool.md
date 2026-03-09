@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/thumbnail-ab-testing-tool
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/thumbnail-ab-testing-tool
+---
 
 # Thumbnail A/B testing tool
 

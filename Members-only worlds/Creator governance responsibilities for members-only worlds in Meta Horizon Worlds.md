@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/creator-responsibilities-members-only-worlds
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/creator-responsibilities-members-only-worlds
+---
 
 # Creator governance responsibilities for members-only worlds in Meta Horizon Worlds
 

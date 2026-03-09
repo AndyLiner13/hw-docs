@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/importing-data-with-json
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/importing-data-with-json
+---
 
 # Importing Data with JSON
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/what-is-a-membersonly-world
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/what-is-a-membersonly-world
+---
 
 # What is a members-only world?
 

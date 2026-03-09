@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/adding-core-loops-for-retention
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/adding-core-loops-for-retention
+---
 
 # Adding Core Loops for Retention
 

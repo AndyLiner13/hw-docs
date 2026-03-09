@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/player-settings-modification
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/settings-modifications/player-settings-modification
+---
 
 # Player Settings Modification
 

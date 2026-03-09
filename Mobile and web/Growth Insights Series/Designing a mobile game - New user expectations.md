@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-new-user-experience-101-ten-best-practices
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-new-user-experience-101-ten-best-practices
+---
 
 # Designing a mobile game - New user expectations
 

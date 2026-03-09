@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/setting-up-worlds-for-web-and-mobile-compatibility
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/setting-up-worlds-for-web-and-mobile-compatibility
+---
 
 # Setting up worlds for mobile and web
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/camera-api-examples-tutorial/module-6-fixed-camera-and-cutscenes
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/camera-api-examples-tutorial/module-6-fixed-camera-and-cutscenes
+---
 
 # Module 6 - Fixed Camera and Cutscenes
 

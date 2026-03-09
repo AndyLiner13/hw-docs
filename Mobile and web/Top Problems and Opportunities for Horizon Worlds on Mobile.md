@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/top-problems-and-opportunities-for-horizon-mobile
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/top-problems-and-opportunities-for-horizon-mobile
+---
 
 # Top Problems and Opportunities for Horizon Worlds on Mobile
 

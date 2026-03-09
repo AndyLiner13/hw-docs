@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/worlds-manage-team
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/worlds-manage-team
+---
 
 # Manage your team
 

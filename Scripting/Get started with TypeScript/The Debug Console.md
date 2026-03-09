@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/the-debug-console
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/the-debug-console
+---
 
 # The Debug Console
 

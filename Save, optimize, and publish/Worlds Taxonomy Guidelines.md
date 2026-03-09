@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/worlds-taxonomy-guidelines
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/worlds-taxonomy-guidelines
+---
 
 # Worlds Taxonomy Guidelines
 

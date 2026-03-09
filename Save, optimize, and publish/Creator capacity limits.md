@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/capacity-limits-in-horizon
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/capacity-limits-in-horizon
+---
 
 # Creator capacity limits
 

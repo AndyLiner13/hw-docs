@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/five-flavors-of-sticky-core-loops
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/five-flavors-of-sticky-core-loops
+---
 
 # Five Flavors of Sticky Core Loops
 

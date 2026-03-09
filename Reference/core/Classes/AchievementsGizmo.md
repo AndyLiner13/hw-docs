@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_achievementsgizmo
+---
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_achievementsgizmo
+---
 
 # AchievementsGizmo Class
 

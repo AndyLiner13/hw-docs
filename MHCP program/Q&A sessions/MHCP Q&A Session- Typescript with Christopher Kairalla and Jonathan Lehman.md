@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/mhcp-qa-session-typescript-with-christopher-kairalla-and-jonathan-lehman
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/mhcp-qa-session-typescript-with-christopher-kairalla-and-jonathan-lehman
+---
 
 # MHCP Q&A Session: Typescript with Christopher Kairalla and Jonathan Lehman
 

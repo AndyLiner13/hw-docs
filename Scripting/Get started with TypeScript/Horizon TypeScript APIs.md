@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/horizon-typescript-apis
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/horizon-typescript-apis
+---
 
 # Horizon TypeScript APIs
 

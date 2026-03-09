@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/connect-23-video-series-game-design-in-meta-horizon-worlds
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/connect-23-video-series-game-design-in-meta-horizon-worlds
+---
 
 # Connect '23 Video Series: Game Design in Meta Horizon Worlds
 

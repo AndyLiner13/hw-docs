@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/persistent-variables-v2
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/persistent-variables-v2
+---
 
 # Persistent Variables
 

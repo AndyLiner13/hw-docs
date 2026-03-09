@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/governance-members-only-worlds
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/governance-members-only-worlds
+---
 
 # Members-only worlds governance best practices in Meta Horizon Worlds
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/world-analytics
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/analytics/world-analytics
+---
 
 # World Analytics
 

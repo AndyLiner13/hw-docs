@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/recommended-version-control-strategies
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/recommended-version-control-strategies
+---
 
 # Recommended Version Control Strategies
 

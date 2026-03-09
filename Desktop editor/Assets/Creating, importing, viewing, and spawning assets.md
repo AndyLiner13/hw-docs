@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/creating-importing-viewing-and-spawning-assets
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/creating-importing-viewing-and-spawning-assets
+---
 
 # Creating, importing, viewing, and spawning assets
 

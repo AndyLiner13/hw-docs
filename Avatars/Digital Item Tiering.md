@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/digital-item-tiering
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/digital-item-tiering
+---
 
 # Digital Item Tiering
 

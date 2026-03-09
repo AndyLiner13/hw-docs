@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/project-structure
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/project-structure
+---
 
 # Project structure
 

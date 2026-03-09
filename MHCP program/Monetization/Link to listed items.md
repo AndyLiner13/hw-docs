@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/link-to-listed-items
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/link-to-listed-items
+---
 
 # Link to listed items
 

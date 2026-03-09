@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/pathing-possibilities
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/pathing-possibilities
+---
 
 # MHCP Mentor Office Hour Video: Pathing Possibilities with SpaceGlitterUnicorn
 

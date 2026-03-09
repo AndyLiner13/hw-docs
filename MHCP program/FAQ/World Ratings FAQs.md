@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/faq/world-rating-faqs
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/faq/world-rating-faqs
+---
 
 # World Ratings FAQs
 

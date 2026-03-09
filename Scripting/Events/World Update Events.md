@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/world-update-events
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/events/world-update-events
+---
 
 # World Update Events
 

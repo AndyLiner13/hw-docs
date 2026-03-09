@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-portal-bonus-program-analytics
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/creator-portal-bonus-program-analytics
+---
 
 # Bonus Program Analytics
 

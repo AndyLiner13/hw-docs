@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/what-does-it-mean-to-be-responsible-for-governing-my-membersonly-world
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/what-does-it-mean-to-be-responsible-for-governing-my-membersonly-world
+---
 
 # What does it mean to be responsible for governing my members-only world?
 

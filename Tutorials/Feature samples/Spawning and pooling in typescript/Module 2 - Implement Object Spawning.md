@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/spawning-and-pooling-in-typescript/module-2-implement-object-spawning
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/spawning-and-pooling-in-typescript/module-2-implement-object-spawning
+---
 
 # Module 2 - Implement Object Spawning
 

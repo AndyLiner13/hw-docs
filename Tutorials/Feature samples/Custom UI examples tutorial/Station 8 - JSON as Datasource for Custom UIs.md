@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-examples-tutorial/station-8-json-as-datasource-for-custom-uis
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-examples-tutorial/station-8-json-as-datasource-for-custom-uis
+---
 
 # Station 8 - JSON as Datasource for Custom UIs
 

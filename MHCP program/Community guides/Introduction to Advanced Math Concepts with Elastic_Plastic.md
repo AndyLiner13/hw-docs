@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/introduction-to-advanced-math-concepts-with-elastic-plastic
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/introduction-to-advanced-math-concepts-with-elastic-plastic
+---
 
 # Introduction to Advanced Math Concepts with Elastic\_Plastic
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/world-preview-image-design-guidelines
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/world-preview-image-design-guidelines
+---
 
 # Worlds Asset Design Guidelines
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/text-as-asset-tutorial-world/module-2-using-text-assets-as-ingame-content
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/text-as-asset-tutorial-world/module-2-using-text-assets-as-ingame-content
+---
 
 # Module 2 - Using Text assets as in-game content
 

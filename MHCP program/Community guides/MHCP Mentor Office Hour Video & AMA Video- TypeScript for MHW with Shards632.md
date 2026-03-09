@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-for-mhw-with-shards632
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/typescript-for-mhw-with-shards632
+---
 
 # MHCP Mentor Office Hour Video & AMA Video: TypeScript for MHW with Shards632
 

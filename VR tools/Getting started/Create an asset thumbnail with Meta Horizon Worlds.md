@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/asset-thumbnail-creation-horizon
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/getting-started/asset-thumbnail-creation-horizon
+---
 
 # Create an asset thumbnail with Meta Horizon Worlds
 

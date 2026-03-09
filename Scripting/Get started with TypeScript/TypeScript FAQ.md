@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/typescript-faq
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/typescript-faq
+---
 
 # TypeScript FAQ
 

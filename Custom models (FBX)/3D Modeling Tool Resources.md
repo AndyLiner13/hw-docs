@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/3d-modeling-tool-resources
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/custom-model-import/3d-modeling-tool-resources
+---
 
 # 3D Modeling Tool Resources
 

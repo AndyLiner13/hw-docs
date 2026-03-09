@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-spawning-and-despawning
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-spawning-and-despawning
+---
 
 # Object Spawning and Despawning
 

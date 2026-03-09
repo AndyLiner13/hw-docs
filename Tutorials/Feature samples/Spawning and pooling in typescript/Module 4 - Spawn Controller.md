@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/spawning-and-pooling-in-typescript/module-4-spawn-controller
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/spawning-and-pooling-in-typescript/module-4-spawn-controller
+---
 
 # Module 4 - Spawn Controller
 

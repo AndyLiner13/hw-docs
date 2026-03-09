@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/marketing-essentials-for-mhcp-part-1
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/marketing-essentials-for-mhcp-part-1
+---
 
 # Marketing Essentials for MHCP Part 1 with Shannon O’Flaherty and Candace Locklear
 

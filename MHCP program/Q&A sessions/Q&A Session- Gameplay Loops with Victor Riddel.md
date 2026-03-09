@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/qa-session-gameplay-loops-with-victor-riddel
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/qa-session-gameplay-loops-with-victor-riddel
+---
 
 # Q&A Session: Gameplay Loops with Victor Riddel
 

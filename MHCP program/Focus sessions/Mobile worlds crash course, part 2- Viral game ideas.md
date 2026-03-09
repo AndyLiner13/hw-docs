@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/cross-screens-crash-course-week-2
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/focus-sessions/cross-screens-crash-course-week-2
+---
 
 # Mobile worlds crash course, part 2: Viral game ideas
 

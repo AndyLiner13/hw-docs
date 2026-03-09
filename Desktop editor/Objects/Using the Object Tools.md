@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/objects/object-manipulation
+---
 
 # Using the Object Tools
 

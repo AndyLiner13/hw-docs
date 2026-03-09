@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/snap-destination-gizmo
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/snap-destination-gizmo
+---
 
 # Snap destination gizmo
 

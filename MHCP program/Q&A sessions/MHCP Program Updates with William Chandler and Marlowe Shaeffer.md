@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/october-2024-town-hall
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/october-2024-town-hall
+---
 
 # MHCP Program Updates with William Chandler and Marlowe Shaeffer
 

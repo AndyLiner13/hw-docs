@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/part-one-understanding-asset-spawning-with-seeingblue
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/part-one-understanding-asset-spawning-with-seeingblue
+---
 
 # Part One: Understanding Asset Spawning with SeeingBlue
 

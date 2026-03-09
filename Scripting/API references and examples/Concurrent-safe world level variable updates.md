@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/concurrent-world-variable-updates
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/api-references-and-examples/concurrent-world-variable-updates
+---
 
 # Concurrent-safe world level variable updates
 

@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/replacing-legacy-and-imported-assets
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/replacing-legacy-and-imported-assets
+---
 
 # Replacing Legacy and Imported Assets
 

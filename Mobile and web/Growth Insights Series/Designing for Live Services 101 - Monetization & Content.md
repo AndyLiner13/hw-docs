@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-for-live-services-101-monetization-and-content/
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-for-live-services-101-monetization-and-content/
+---
 
 # Designing for Live Services 101 - Monetization & Content
 

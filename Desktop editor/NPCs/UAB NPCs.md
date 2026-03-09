@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/uab-npcs
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/uab-npcs
+---
 
 # UAB NPCs
 

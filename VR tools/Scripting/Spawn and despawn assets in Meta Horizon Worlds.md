@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/spawn-despawn-assets-horizon-worlds
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/scripting/spawn-despawn-assets-horizon-worlds
+---
 
 # Spawn and despawn assets in Meta Horizon Worlds
 

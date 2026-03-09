@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/data-as-an-asset
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/data-as-an-asset
+---
 
 # Data as an Asset
 

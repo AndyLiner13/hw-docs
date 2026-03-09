@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/avatar-posts
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/avatar-posts
+---
 
 # Avatar Posts
 

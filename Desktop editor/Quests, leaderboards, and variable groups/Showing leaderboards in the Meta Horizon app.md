@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/showing-leaderboards-in-the-meta-horizon-app
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/showing-leaderboards-in-the-meta-horizon-app
+---
 
 # Showing leaderboards in the Meta Horizon app
 

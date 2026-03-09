@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/meta-horizon-looking-ahead-in-2023-featuring-jeff-lin-january-18-2023
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/qa-sessions/meta-horizon-looking-ahead-in-2023-featuring-jeff-lin-january-18-2023
+---
 
 # Meta Horizon: Looking Ahead in 2023 featuring Jeff Lin (January 18, 2023)
 

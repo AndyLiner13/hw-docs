@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/world-inventory-api-guide
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/monetization/world-inventory-api-guide
+---
 
 # World Inventory API Guide
 

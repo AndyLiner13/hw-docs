@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/memory-limits-horizon-worlds
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/memory-limits-horizon-worlds
+---
 
 # Memory limits and performance metrics
 

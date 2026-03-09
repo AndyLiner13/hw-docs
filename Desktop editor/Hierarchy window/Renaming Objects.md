@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/hierarchy-window/renaming-objects
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/hierarchy-window/renaming-objects
+---
 
 # Renaming Objects
 

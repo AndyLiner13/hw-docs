@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/legacy-script-storage
+---
+source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/legacy-script-storage
+---
 
 # Legacy Script Storage
 

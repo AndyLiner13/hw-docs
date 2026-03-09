@@ -1,4 +1,6 @@
-Source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_image_2
+---
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_image_2
+---
 
 # Image\_2() Function
 
