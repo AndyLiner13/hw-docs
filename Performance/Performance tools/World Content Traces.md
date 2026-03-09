@@ -23,9 +23,9 @@ Unlike other types of trace data, you’ll use the Desktop Editor to view and an
 - Look at your left wrist to bring up the wrist wearable.
 - Select **Tracing**, then select **World Content**.
 - Select **Start tracing** to start the trace.
-  ![BROKEN_REF](https://scontent-dfw5-3.xx.fbcdn.net/v/t39.2365-6/452627729_512538211284135_1680560941989953568_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ya1oPFaTzNUQ7kNvwFGVZcU&_nc_oc=AdkJnn_ULPJNAyHOecY2DcXHxuGQ-pffo7_unRgaFQt2Y0pEzeQAyHZQU9t6UTGRMubLITeYIEuxvqPNjIk48qIL&_nc_zt=14&_nc_ht=scontent-dfw5-3.xx&_nc_gid=ov9Ky3XQDmnF4V6S3YpwjQ&oh=00_AfrWSznM1hoTwr3nzOGevzDd-8oFRPaRrX2oc_3Uj4xs6w&oe=698424B5)
+  ![](BROKEN_REF)
 - Select **Stop trace** to stop the trace. After stopping the trace, a toast notification will appear to let you know that a data file has been uploaded.
-  ![BROKEN_REF](https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/452909159_512538197950803_5004692860220154049_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=GzTcV0eR5m4Q7kNvwGhfrfv&_nc_oc=AdmUmh5p82TnL91Ip2ITTMDwkobDxmyTuhBMk8D0aNQo9GW6TgTZYu7o4NjgvTg-w7QgegORUTckhlz1nVOy0-NT&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=ov9Ky3XQDmnF4V6S3YpwjQ&oh=00_Afog-nebKlIGCyUAY5x1XqXiRpsDZVOGnwLkzoIKuZyE2w&oe=69843D0A)
+  ![](BROKEN_REF)
 
 ## View world content trace data
 

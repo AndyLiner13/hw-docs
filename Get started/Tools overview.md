@@ -58,7 +58,7 @@ To get started, see [Using TypeScript in Worlds](../Scripting/Get%20started%20wi
 ## Custom Model Import
 
 The custom model import option in the desktop editor enables you to fill your world with objects spawned from imported 3D models, created using your favorite 3D creation tool. In Worlds, you refer to the resulting world as a custom model world. You can find your imported assets in your personal asset library. The following image shows an example of what a complex 3D object spawned from an imported asset looks like. In this case, it’s a park bench.
-![BROKEN_REF: Custom model import screenshot](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/476631803_650754080795880_4339261981796990598_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=eFWLH1QuB6kQ7kNvwH65vO9&_nc_oc=AdlMU9UA6AFRl-aXVXzSATHYyBy3WQ2FtQwGogFYIsooh2EloPwejYOHHgUuLdOdPD-J5PI4Pl2LY0H3fJ9frxkh&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0g4DLnitHmAj5i0UYs8j-Q&oh=00_Afp0gkoV4eWdHTKtzY_bkj0J3T-1JB60VK6QeqNoBrqySA&oe=69842246)
+![Custom model import screenshot](BROKEN_REF)
 A custom 3D model is composed of multiple files, and you need to specify all of them when you import a 3D model into the desktop editor. These files include:
 
 * An FBX file. This is the 3D model file format. It contains the 3D mesh along with scene data such as cameras, lighting, geometry, materials, and animations.
@@ -77,7 +77,7 @@ A Non-Player Character (NPC) is a computer-controlled character within a world (
 * To serve as enemies or obstacles for the player to overcome.
 * To add to the game’s atmosphere and immersion.
 
-![BROKEN_REF: NPC screenshot](https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/476644421_650754077462547_870136976936096742_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=zK8fYURKJLQQ7kNvwE4k-jP&_nc_oc=Adm4xuhkjlbunCY7k6l_w6b7vc_3UoFrEzEco9mo8CWwDpOpbJBCSehjK12o-WqssSm6D8RetA0rmg5HmazaguHT&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=0g4DLnitHmAj5i0UYs8j-Q&oh=00_Afr_4gYaMrl9t93xtMWi-0u4Y-yN-F84bM0TOZt03psDeA&oe=698414BD)
+![NPC screenshot](BROKEN_REF)
 
 NPCs can range from simple scripted characters to complex AI-driven characters that learn and adapt to the player’s actions.
 There are four types of archetype NPC characters that you can spawn into your scene, according to your needs. Utility, Storyteller, Antagonist, and Ally types of NPCs all exhibit behaviors that are controlled with an AI script.

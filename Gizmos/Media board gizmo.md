@@ -52,7 +52,7 @@ Once you approve a photo, it becomes available on the media board and visible to
 - Pending posts have 3 buttons: **Approve**, **Reject**, and **Report**.
 - Select the **Approve** button to makes a photo visible on a media board.
 
-![BROKEN_REF](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/57568685_9616779308338433_7778029375936424794_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=s6V5YEAy-I0Q7kNvwFsRH6X&_nc_oc=AdkexJwuSGVDIFzoAT7_hcJ7AVEozcusFfpPsOcqa2J63yKWvWMuHJtrAAYMH1uhigVbsLW13bg10LYY7kNJOPkb&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afp3Xr6FZFdXRZpIr0BsHRFigj_4td9X-FStf_q3BiSEyw&oe=69843636)
+![](BROKEN_REF)
 
 Conversely, to remove a photo from the media board once it’s been approved, follow these steps to reject it from the approved posts.
 

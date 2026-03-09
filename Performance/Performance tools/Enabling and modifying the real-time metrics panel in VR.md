@@ -21,10 +21,10 @@ To enable and view the Real-time metrics panel:
 - Open the PUI and open **Settings**.
 - Click on the **Utilities** tab and enable the utilities menu.
 
-  ![BROKEN_REF](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75221331_412831071878343_528955629382787019_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=FPZk8_xOm50Q7kNvwHJX2E5&_nc_oc=Adm2JxAw63vSn9QWBsmwqNoTQ8e_oI1ju5j-8tc10hooDw0TqjQy18nEd0pulRB45gSYq3hdahUmp-MhM_r2I3aT&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afqg7WubCesD6H0MSNgdzAOo34FGlx7B8w2nDnqJuJdPrg&oe=698437DA)
+  ![](BROKEN_REF)
 - Once the wearable is open, tap the **Real-time metrics** button under **Utilities** to open the Real-time metrics panel.
 
-  ![BROKEN_REF](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974631_1067404328005233_3978220469242024765_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=h_G12HKcI8MQ7kNvwE_xFoU&_nc_oc=AdmGHOGDPyPnkqf4JCnY0dc1Tdjy_q6_Z3jdv7N7ReySyHUtVDvbDuCmUXTnKroMwNWJr-JrnPv7YtdrO1paLrYA&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfpaBxm6vt-VcgdSNnnRs2lup0WO3GPtf7SRncJMWaC1Kw&oe=698425D3)
+  ![](BROKEN_REF)
 
 ## Real-time metrics settings
 
@@ -36,13 +36,13 @@ To change the position of the Real-time metrics panel, open the display settings
 
 Select a position from the **Position** drop-down in Display Settings. You may choose from **Top Left**, **Top Right**, **Bottom Left**, and **Bottom Right**. This snaps the Real-time performance metrics panel to one of those locations in your view.
 
-![BROKEN_REF](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38974744_882757683924270_5831926352659266548_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=5PXFV5IO9wYQ7kNvwGEa-c0&_nc_oc=AdnZs5v1ms-4C1LcnjsHGngt2ohsXL_GMaczipgtxDVDJAOdAxj4OoFXar-SncNVOBm048KtqHEtmfC0IeFW11ek&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afqi_oGivXRNEvXgy50E0G1qEsnrsCBnkKw_pdm9h9PHOg&oe=69841994)
+![](BROKEN_REF)
 
 ### Moving the panel by dragging
 
 You can grab the white bar below the Real-time performance metrics panel by using either trigger on your Quest controller. While holding down the trigger, you can move the panel by dragging it.
 
-![BROKEN_REF](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38982480_2356130594723696_3190464533623185518_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=dikPP0QqoyIQ7kNvwHjSUsJ&_nc_oc=AdlE4mJEZeGuccvcEC1--bBBHeTRFleH6uNZu-N3UhIjlY0ESZvUNu-XvAruSK-nN5_V0npd1vbdfroV_esAjtN1&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfrviFkn_1aUB-sNjvdTB3jgPiTSXr59wFyHsjereDRssQ&oe=69843DAA)
+![](BROKEN_REF)
 
 ### Minimizing
 
@@ -70,7 +70,7 @@ To add a metric to the Real-time settings panel, open the display settings, hove
 
 If you attempt to select too many metrics, you receive a notification informing you that you have reached the maximum number of metrics that can be viewed at once. In order to add more metrics, you must first deselect one or more currently displayed metrics using the same process you used to select them.
 
-![BROKEN_REF](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39031328_1099726101568625_685785638073979096_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=okK1KDVjpscQ7kNvwHPQeIT&_nc_oc=AdlGyhoF6Ubzxk08tTRkPN1_gIlYHEitORYoeAHk-_3X8uLAhytoZpWQ9FKk4a8dISwLt7_qLhHA_bocuTGezZDO&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfqeA7VuIvnUNwIO7KfdKpiuGM37A2wp2pE2xdSJ3cFiTQ&oe=6984168B)
+![](BROKEN_REF)
 
 ### Changing metric targets
 

@@ -54,7 +54,7 @@ In this world, camera management is handled through the assignment of PlayerCame
 
 The core entities for managing player cameras are positioned above the plane of the world.
 
-![BROKEN_REF: PlayerCamera core entities](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487312367_686408207230467_1588549126556306988_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=DcrFv1vLR4AQ7kNvwEWsEoI&_nc_oc=AdnQPyBnfOg1iC1LNZVCpsdZQl9Xqj6ZJ8-Wpvu7jmR_62X95ZbBZ3r8PLo0zZY0PnZ7RRCdXrjosZyadR6Pvyrj&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=8jhpKecOunqKJrc1c4k0YA&oh=00_Afr8nVAdjViXPPjbx0I7vxSCMQ4Dudv4Y1hfoP-To3IOtw&oe=69843D52)
+![PlayerCamera core entities](BROKEN_REF)
 
 In the Hierarchy panel, these entities are stored under PlayerCameraCore.
 

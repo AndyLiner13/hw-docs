@@ -57,7 +57,7 @@ After you have created the custom skydome asset, you can deploy it into your wor
   ![Horizontal strip layout and example display map](../_assets/images/d60e18724f6a0b4a0aeb4256efdff293e271765de68f06c75ad4563cf14bedea.png)
 - An instance of the Environment gizmo is created in the world, and the skydome in the world now matches the one that you uploaded.
   **Note**: Initially, the skydome is displayed at a lower resolution unitl the high-resolution display finishes downloading.
-  ![BROKEN_REF: Horizontal strip layout and example display map](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/487303222_686408197230468_6006533098210667677_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=UcfQImQ9t-gQ7kNvwGeXUHL&_nc_oc=Adn1_CYgL55e_DmJoPVDOfMjp7gqvmNGJlQjG1R7rjWKpHpe3gh2NLi9XIrc-zFD-L5v9Sx-AQU6suPdJWUuSdRn&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=j524PbI6vvn2beD8S_deUQ&oh=00_Afpf6bZ94659TwSNQO9GwHb5hU5zjM6KMHvzpvC2cYAb6g&oe=698438C4)
+  ![Horizontal strip layout and example display map](BROKEN_REF)
 - Your custom skydome is displayed when you re-enter the world in the Desktop Editor or, after publication, in Visit mode on a supported device.
 
 ## Download Example Assets

@@ -145,7 +145,7 @@ Key files to explore:
 
 ### Step 4: Win Conditions
 
-![BROKEN_REF: An example of winning in Match 3](https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/602317406_893336896537596_563015140864132342_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=EjQtuU5tu80Q7kNvwEAt8sp&_nc_oc=Adm5XoHzYJ7Y6qa9lKZHCk5wxu3p0CneRa7rm4Bhy19QDhD3sFqko8h_miFmDosEgnxKV0c-Sgl381bgyphAJLUe&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=SplaCLFW4oAc2YXKewsIoA&oh=00_AfqgO58WVIKTq312nFDCZ_Yw5iKz5JCrtjp8UNQ_ytXReQ&oe=6984388F)
+![An example of winning in Match 3](BROKEN_REF)
 
 To complete the board, players must complete all of the objectives before they run out of moves.
 

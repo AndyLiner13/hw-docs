@@ -8,7 +8,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 The new Social Following feature enables Horizon World creators to seamlessly connect and promote their Instagram and Horizon profiles to their Worlds. This allows visitors to easily follow creators’ social accounts directly from within Horizon Worlds, reducing friction and enhancing creator engagement.
 
-![BROKEN_REF: Social Following Asset Template in editor](https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/563443649_837715312099755_5519017558597424000_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=RbqMa193mQcQ7kNvwGPyrZm&_nc_oc=AdlfMp6cV_k0MiGsd7V1Fp6Rq5xT2HAyQjeUoTDMq5tVQ-GBzLE3k-cJ3TfH-nzpLF0&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=cRbKjHpshxL5Hb2MSLuOWQ&oh=00_AfoB-AfqxiAioYA2TLscm3gWkXdIX_iV53SxgmCm4Vesrw&oe=698421C8)
+![Social Following Asset Template in editor](BROKEN_REF)
 
 ## Key benefits
 

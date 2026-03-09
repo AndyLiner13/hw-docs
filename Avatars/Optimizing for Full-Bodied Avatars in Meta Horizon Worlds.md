@@ -18,7 +18,7 @@ We are planning to create a feature that allows users to sit down on designated 
 
 **Option 1:** We recommend keeping the collider toggle off for objects that moonlight as a place to sit down. This will result in the users’ legs going through the object keeping the same height and line of sight that users previously had when they hover over objects.
 
-![](../_assets/gifs/51c2ef50e5ac63d7b4bde3b242a2ac129c84368b8bb77fe22a3623a56b91d2e7.gif)![BROKEN_REF](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/38982610_542616035054591_8643514275666338455_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ir-GXJdYUB4Q7kNvwG-sA9Q&_nc_oc=AdlWI2XuRZeR2sAbFe2eNT2qwSanqzZlpgGqOY4RCDJIXUbM6rk4OHmRxeZygK90qHhi6o5AjrdHea5GIZ7I3yQv&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afrh9U9ooP5Gq5b-W-RTbrjwzWlW_oLvNgYthXX_u0eytg&oe=6984398C)
+![](../_assets/gifs/51c2ef50e5ac63d7b4bde3b242a2ac129c84368b8bb77fe22a3623a56b91d2e7.gif)![](BROKEN_REF)
 
 Along with the recommendation of keeping colliders off for objects meant for seating, you can modify objects to cover the entire lower parts of the avatar’s bodies. This hides the avatar legs going through the object which can help with the overall aesthetic experience of your world.
 
@@ -38,7 +38,7 @@ Feet may clip when walking on ramps and stairs that use an (invisible) ramp as a
 
 **Option 2:** Remove the invisible ramp collider and turn on collisions for individual stairs. Make sure the height between stairs is low enough that users don’t need to jump to go up them.
 
-![BROKEN_REF](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75221323_871126325010914_1249234752214974528_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ff0pjtAGploQ7kNvwEanyi_&_nc_oc=AdlcRbGUJtnMw1cybAYSvxrL612a7EdT4uy2tado8Tr3EPPquVOJQSCAZ5hBXWITsLMBSRUMeS9E6g3uTJ0yut6b&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfoPhVtLn6mvgaJUXeK91QWzetuq8lisgh-OjWUPfiTMBA&oe=69841EB3)![BROKEN_REF](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/39031387_1126158859510461_3379014022272679256_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=JeAicrz6ipsQ7kNvwHySYRh&_nc_oc=AdnCZeIH8kMPBbZLNwFHndHpY6bG4JGCvnB2Y-bfMsoqJQAuthEFZz9henIQCS_xXX3CSY_ULtPbLj_X5uij2s8M&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afoe-M-aZWMGgTnOPhJUWpl5dxe85dGIzDElDN8j28ROvw&oe=698420A8)![BROKEN_REF](https://scontent-dfw6-1.oculuscdn.com/v/t64.5771-25/38974721_534714159465403_1403686194185599494_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=v61YfAGpuxwQ7kNvwGaAC8Y&_nc_oc=AdnXb-NmwKBGKseGJPj60HAP9P4nMEwljVST5ou38i-pgM8IFhdrMDYp-FndHHekbjCzqyid-O77cTNTLuULNbt2&_nc_zt=3&_nc_ht=scontent-dfw6-1.oculuscdn.com&oh=00_Afpe7jDixhNdi4wVhjRsC_b-hi3ROJgwd3a12E_6At0hWQ&oe=698415B1)
+![](BROKEN_REF)![](BROKEN_REF)![](BROKEN_REF)
 
 ### Frequently Asked Questions
 

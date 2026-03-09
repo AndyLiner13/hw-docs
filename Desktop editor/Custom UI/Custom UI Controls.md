@@ -10,7 +10,7 @@ Custom UI controls is an extension of custom UI with the **Input Mode** set to *
 
 This input mode is primarily designed for creating a set of custom on-screen controls to work alongside or replace the built-in system controls on mobile.
 
-![BROKEN_REF: custom_ui_controls_in_kaiju](https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/465167356_579437347927554_7916055051400203269_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=4y8XIKmbdKQQ7kNvwH3FbR8&_nc_oc=Adk_HAG6hiwOvsrsGC4cuCsIszIVMznmOylBlF2uutKTZ7e0UC7vG-BDsVC3wfUJ7c2ELXmnVlUEQwjr4mb-9bF3&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=NXSbWytrD2UPhwiB0UYItw&oh=00_Afqs5MGGsgBn_oFDSMuKJLVhqawTJzxEGeGWdSAgQpdkCw&oe=69844832)
+![custom_ui_controls_in_kaiju](BROKEN_REF)
 
 ## Getting started
 

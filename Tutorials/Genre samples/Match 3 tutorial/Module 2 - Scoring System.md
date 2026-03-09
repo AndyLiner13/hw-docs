@@ -75,7 +75,7 @@ Key files to explore:
 
 ### Step 2: Combo System
 
-![BROKEN_REF: Match 3 example showing a 3 match cascade](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/604734280_893336883204264_5298779656700038042_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=NplG6Y62EqcQ7kNvwGCFAHV&_nc_oc=Adn1HzB6LKz7Qz0-X-S5hf6n5FZsvH-JCmQGhgoJ5ltv18Nr9aas4g4LhbfotIi9eEjojp6E8Tq0wxU6tqjKzAt0&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=2DDAxXvsk5nngjNP11VP5w&oh=00_Afrf2eUlwgGSOF4JW8GFSY1oKr0l_Ezk4u-LbdprminewQ&oe=69840A2A)
+![Match 3 example showing a 3 match cascade](BROKEN_REF)
 
 Learn how cascades increase your score through multipliers.
 

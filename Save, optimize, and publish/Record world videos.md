@@ -25,11 +25,11 @@ It’s now easier than ever to make promo videos of your world. With just a few 
 
 Single Camera
 
-![BROKEN_REF: Single camera](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/491824674_688354314040905_7748861269306486834_n.gif?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=P7jiO8-0kacQ7kNvwED3he2&_nc_oc=AdkcpPEkqWg6NrDZfsp7_CoNbtCGYZol2wDu3LFNi-eibJ_L493J1qQd_4z1-3HHw4mddr0NIdWK2vGB5GsIT5x1&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afp3OHjhyBgzperxeMmgO1IjvB-23QNQbjpzliv57K-zjQ&oe=69842F73)
+![Single camera](BROKEN_REF)
 
 Player POV
 
-![BROKEN_REF: Single camera](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/499308103_9816137295177488_1439831140316478829_n.gif?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=LaQA2GD1xbgQ7kNvwEGG23U&_nc_oc=Adnjz5LAwThOREftgzlwExMSKdtwNd55LOzeZd7dH73wVMALEyBRgV7L4sVpKpuarHgERYh92GNXnx4LNIZifLZo&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfoyNjpSKJy7h3X51oN5-Fv3rvBRL6ehYnha5UjSExwLSg&oe=69840C91)
+![Single camera](BROKEN_REF)
 
 - Choose an aspect ratio for your video.
 

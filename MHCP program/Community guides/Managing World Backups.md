@@ -30,7 +30,7 @@ These steps will enable creators to make manual backups using the save process.
 
 A demo of how to save a backup is shown below.
 
-![BROKEN_REF](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/39001694_1254246125617689_6862972063551484044_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=f8ZbSMoplYgQ7kNvwHxIT1F&_nc_oc=AdkDzVD0CXq2yBXsrXlGbNA_rvbwmDnx_iIpo_fHMM8U7LYv-DLft6gN9HnZRSHAewcStVBMTg_E55ak32FdsDpd&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_Afrva8d8PfJp8C5Je4gS6zrYDw1Sj62nHoR3HzH4BhU_Sg&oe=69842EE6)
+![](BROKEN_REF)
 
 ## Editing a Backup
 
@@ -42,7 +42,7 @@ A demo of how to save a backup is shown below.
 
 A demo of how to edit a backup is shown below.
 
-![BROKEN_REF](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/75245822_1818778612196185_5886203919901258140_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=Z7AHyFLESGcQ7kNvwFL1gFI&_nc_oc=Admi4bCsteGLpdKiINoan6D9FRTF2p5iWbCbH8RfSDNVEcmSeh0cUdGQhEDUIMNJ8eUVRSkJhqwkUrfCBqdtkY24&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfrZNCo6EaWhL2VKu5_4oivvQ1oWSYUM058VWqLSAOILAw&oe=69842DFF)
+![](BROKEN_REF)
 
 ## Restoring a Backup
 
@@ -54,4 +54,4 @@ A demo of how to edit a backup is shown below.
 
 A demo of how to restore a backup is shown below.
 
-![BROKEN_REF](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/57569475_574057601971477_8132279391683472306_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=nHqyuvum_EAQ7kNvwEe5gAC&_nc_oc=AdmDak97aNknWvEJpyZZcK7FL7v5DYjTql-a6KpsO7GJLIoeJuTWdSh-rTKZYtZxZ5zvijpTnMPBs5xQDOGcc_HY&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afrfuzb1qBI9N1PrO-QMGTxS6t2JuwLgYD583uDv0pep4A&oe=69842E72)
+![](BROKEN_REF)

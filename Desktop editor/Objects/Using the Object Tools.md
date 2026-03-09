@@ -30,7 +30,7 @@ When you click the **Move** button with an object selected, a small three-dimens
 
 It has arrows going along the red X (left-right), green Y (up-down), and blue Z (forward-back) directions. You can move the object in any of those directions by clicking and dragging on one of the arrows.You can move the object along the XY, XZ, or YZ planes by dragging one of the planar handles (the squares where the arrows meet in the center).
 
-![BROKEN_REF: Moving an object](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/453001218_512524691285487_6705275935354642462_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q4xGL1_D4JgQ7kNvwGTVFeP&_nc_oc=AdlmuoeBQeOouX0N91FpAicsXhjJeaewtYfPIFnBUerSEAeLJHZv2XdpR5sMsACudukdU1x5An02q6fqprbuDbNq&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=T10a51MqgH5lExOZ47Alzg&oh=00_AfqFg1i1O5kccLSdd5VYe_0816L-I52_42GFKGLGlta-1g&oe=69843F9A)
+![Moving an object](BROKEN_REF)
 
 ## Rotate object
 
@@ -44,7 +44,7 @@ When you click the **Rotate** button with an object selected, a small three-dime
 
 Rotate objects around the X, Y, or Z axes by dragging the red (X), green (Y) or blue (Z) angles. These partial circles show the rotation around either the center or the pivot point of the object (whichever you’ve chosen with the **Pivot** tool.) You can rotate the object in any of those directions by clicking the angle and dragging it so that the object rotates the desired amount.
 
-![BROKEN_REF: Rotating an object](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452977393_512524697952153_1776562809217327607_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=RrInBpU1yLwQ7kNvwGfN-a7&_nc_oc=AdmolBUo_TED5IFkcGTUloH3H2ydXhGc-zkPBO8VYXIlRFVbbqzU7CRi75Z8-v22_kUQ67fWw-nOv8khe4Ka5qfQ&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=T10a51MqgH5lExOZ47Alzg&oh=00_AfqMKQV-ISpzok7RmBIAHuiEr9KApBte4HyAJwsi7y2m1w&oe=6984290B)
+![Rotating an object](BROKEN_REF)
 
 ## Scale object
 
@@ -54,7 +54,7 @@ Keyboard shortcut: **Shift** + **R**
 
 Scale objects along the X, Y, or Z axes by dragging the red (X), green (Y) or blue (Z) arrows. Doing this will only change the scale along that single axis. If you want to uniformly scale the object, drag the center gray box, or press **Shift** and drag one of the red, green, or blue handles.
 
-![BROKEN_REF: Scaling an object](https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/452882502_512524704618819_4306826134347465696_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=jaWeR7VB4LIQ7kNvwHx0uYF&_nc_oc=Admmr084qh3-qCJTXHD7xcJDiAT9UdVRMWsa0jNV7EjX_6NXHvDyDJrTosux9QVg1IuPqXvMnGKGbj8Ocgep2B0d&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=T10a51MqgH5lExOZ47Alzg&oh=00_Afq8OGJF3NI4w-9nNZlLBB0uOYx2vWT8WhLwkxwSTJZA2g&oe=69841679)
+![Scaling an object](BROKEN_REF)
 
 ## Global / local coordinates
 
@@ -62,7 +62,7 @@ Scale objects along the X, Y, or Z axes by dragging the red (X), green (Y) or bl
 
 This option toggles between **Local** and **Global** axes for the **Rotate** and **Move** tools. If this is set to **Local** (the default), any movement or rotation along (or about) an axis will be relative to the current orientation of the object. If it’s set to **Global**, it will move or rotate relative to the world’s X, Y, and Z axes.
 
-![BROKEN_REF](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/38982716_1322793558690369_7686788648962514108_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=DQfue0Y0-6YQ7kNvwH-WEOw&_nc_oc=Adm2Oph_yZBgDBVrtEVr8pycF_3QtmANm3VLCx1qu7Z6FFBu_0eguKhbzMl-G13MVQEBCEzePxZhR9Gz_eOlshrk&_nc_zt=3&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfoeCWJPnhMRzFcHqN5gIqLcmM06BSNw0FuJSBhncmTLaQ&oe=69841187)
+![](BROKEN_REF)
 
 ## Pivot
 

@@ -10,7 +10,7 @@ Power-ups are special tiles created by making matches of 4 or more tiles. When m
 
 Boosters are consumable items earned through achievements. Their effects can significantly impact the board—from removing a single tile to transforming multiple tiles into a specific type for easier matches.
 
-![BROKEN_REF: Power-up example showing the color clear power-up](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/603853015_893336876537598_5317778986687529015_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=VYvcAOAeRfkQ7kNvwFMGx2b&_nc_oc=AdnrSXgB6el1Sv4bPwvKN768KO42gWfn3veaFxIpOkH9x3AhfNPbfqIyijKFLkc-VDPdCce5pkESJoudNWoJKvGw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=LunRN3q7xnZ7V8ViVmRhzg&oh=00_AfpAii06BX2zTc9Comghic_bELNVsHV6qufFzyZD4Aw54A&oe=69841B67)![Power-up example showing the line clear power up](../../../_assets/gifs/69882cc5ea1e16c35443651517e088ea9c2efc9989b64246aef91b4c90a485d4.png)
+![Power-up example showing the color clear power-up](BROKEN_REF)![Power-up example showing the line clear power up](../../../_assets/gifs/69882cc5ea1e16c35443651517e088ea9c2efc9989b64246aef91b4c90a485d4.png)
 
 To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down.
 ![A view of the "scripts in this world" drop down](../../../_assets/images/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)

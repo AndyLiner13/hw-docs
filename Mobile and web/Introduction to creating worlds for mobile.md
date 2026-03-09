@@ -17,7 +17,7 @@ The best way to ensure your worlds show up in discovery surfaces to reach wider 
 
 ## Start creating worlds for mobile now
 
-![BROKEN_REF](https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/559190943_833836049154348_1338189310288348086_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=dclP6VFVJD0Q7kNvwErBFho&_nc_oc=AdkkaoeBatZYlMtXuDWK5qw7HIg5BLFxo033aE00_HfYy1CoNfb-vzO2NZ5k42q4bSK_Mx87Oz5zOKPfsLLju90R&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=ADtLLHCMM6pHfKQIrvjfMw&oh=00_Afr6PVTL60cQ8-nFv9gG_YNV7qoXAGyssePR2cfq4-Haow&oe=69842585)
+![](BROKEN_REF)
 
 Creating worlds for mobile is the same as creating worlds for VR. You use the VR editor to build your world, adding Code Blocks and functionality as desired, and then publish the world. All published worlds in Meta Horizon Worlds are available to play in the Meta Horizon App on mobile and on [horizon.meta.com](https://horizon.meta.com/) in the browser by default.
 

@@ -24,7 +24,7 @@ Hovering your cursor over each option reveals a description of the view mode. Se
 
 In VR, first [Enable the Utilities Menu](../../Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md), then open your wearable and select the desired view mode.
 
-![BROKEN_REF](https://scontent-dfw5-2.oculuscdn.com/v/t64.5771-25/75348041_964519652195117_6384169750030954787_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=nVteXaP8KugQ7kNvwHnFbni&_nc_oc=Adk0d4-jb7rPgMMePeph3WW_InDNyukF9tlJvOb723CoS8I7uOac6jaCcISkJWzSD1LRDmKNeRJngB-w0KpeURRJ&_nc_zt=3&_nc_ht=scontent-dfw5-2.oculuscdn.com&oh=00_AfrGCaQG2ol4lG11LF33hTG1Jl9SmTrrjh1bqN0OOv4frw&oe=698436FA)
+![](BROKEN_REF)
 
 ## Available view modes
 
@@ -62,7 +62,7 @@ Wireframe view mode comes in three variants:
 
 For reference, the screenshot below displays a scene in the default **Shaded view** mode:
 
-![BROKEN_REF: Default shaded view mode](https://scontent-dfw6-1.xx.fbcdn.net/v/t39.2365-6/484854812_677084104829544_7156692161690434146_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=zqet7rG4UVoQ7kNvwHyHtYu&_nc_oc=AdmwylbGHKmjx0v3CyAws-jQeQp2R0feRBjtLESo5wb5u2RVZkVnWTaherKLv1_gEzWNGvGYBy6FTUPGGinYcn0c&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=86Pk05xnppv_5EQTJAOFQg&oh=00_AfoHNAaRfUUoFxfo84TrFHtUM7Kq6bR2kWT8BQq32zaBXQ&oe=698434A2)*Shaded (default) view mode.*
+![Default shaded view mode](BROKEN_REF)*Shaded (default) view mode.*
 
 **Wireframe view** mode allows you to see through 3D models to get a high level view of your world’s geometric complexity and identify unintended overlaps between models in your world.
 
@@ -74,7 +74,7 @@ For reference, the screenshot below displays a scene in the default **Shaded vie
 
 **Shaded wireframe view** mode shows the object’s texture underneath the wireframe. Use this view mode to help you understand how textures are affected by their underlying 3D models and debug texture issues that may be caused by the meshes underneath them.
 
-![BROKEN_REF: Shaded wireframe view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/485768707_677084114829543_6632284219993419295_n.png?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=2tO0m2sL80kQ7kNvwGAhfAy&_nc_oc=AdmVWLJoV5MTcXQqvETvK873dmZdwdCLI78_XtPpYZ0FwTpQeRUMQ_Cuvsai324rCNZDjHNRK4dQZl2-fVyiXof4&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=86Pk05xnppv_5EQTJAOFQg&oh=00_AfrGL55ai55uLwpPl6r--NRliYZPAamRNh3PL6E2-KXZXw&oe=6984235B)*Shaded wireframe view mode.*
+![Shaded wireframe view mode](BROKEN_REF)*Shaded wireframe view mode.*
 
 ## Collision view mode
 
@@ -84,7 +84,7 @@ For reference, the screenshot below displays a scene in the default **Shaded vie
 
 In collision view mode, colliders are visualized using a semi-transparent colored material.
 
-![BROKEN_REF: Collision view mode](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/484831925_677084094829545_4062895164199937649_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=iJfaCEQTPyEQ7kNvwHWiXGY&_nc_oc=Adl-tXDarFpN0z_bDG78UeU1gICMFqBz02pOa1sfawBaaLGh2Z0UwjhtScPaoQxu-a6OjUaVr2w0xldio-NN2KzW&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=86Pk05xnppv_5EQTJAOFQg&oh=00_Afov_ae6DGy3k-Zbp1KeLKnmk0IpUlk0EghpP-PKOTVRTw&oe=69843180)*Collision view mode.*
+![Collision view mode](BROKEN_REF)*Collision view mode.*
 
 ## Overdraw view mode
 

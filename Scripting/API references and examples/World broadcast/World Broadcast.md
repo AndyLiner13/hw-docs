@@ -10,7 +10,7 @@ Note
 
 World Broadcast does not work for worlds running in Portrait orientation at this time.
 
-![BROKEN_REF: Kaiju TV Preview 1](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/574378543_856098620261424_7235849068988167141_n.gif?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=TNlSi11EChsQ7kNvwFoS5Ak&_nc_oc=AdntdMB4ympzRKDbxrbZSaxXHCXQGqVYXJpdeDT7E0PYcKHGCE-eaReLBr0-w4j4tp0&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=vNeMt6grfv1weKo50sGH3g&oh=00_AfoEA0jN6JGXelA5CSygumFOVauuGx2dhcYHHzr1n_e5Cg&oe=69840C26)![Kaiju TV Preview 2](../../../_assets/gifs/2829eb4bf9fe9a8f48a8c09f4f37e0a27cb436f3f861bda52bf1e710cb2c83e6.gif)
+![Kaiju TV Preview 1](BROKEN_REF)![Kaiju TV Preview 2](../../../_assets/gifs/2829eb4bf9fe9a8f48a8c09f4f37e0a27cb436f3f861bda52bf1e710cb2c83e6.gif)
 
 A high-quality integration shows the world’s action: what players are doing, how they’re playing together, and cool moments. It chooses where to point the camera to capture the best shots where the action happens.
 

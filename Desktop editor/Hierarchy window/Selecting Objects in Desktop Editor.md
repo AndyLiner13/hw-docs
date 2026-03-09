@@ -9,9 +9,9 @@ When working in the Desktop Editor, you can select an object and edit its proper
 * Clicking on an object directly in the scene.
 * Clicking on an object in the Hierarchy panel window.
 
-![BROKEN_REF](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/452908562_512532827951340_3391031282719828034_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=Xh30N7zimEoQ7kNvwHTD3jr&_nc_oc=Adnk96PTgDVSbj5cs3cY0E1sp-Sc1YWZ7AJ_lY3A68fNLdHdoTq304p49YDQGHoNo291QpSn2TXujLoeLFQD_2-e&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=jWLZsiEY19tHd8KrREtsUg&oh=00_AfoTuifa8Q7_cuXPKGzXz88ucqgY2hKmLnYjQFnKoMFKxQ&oe=69843E22)
+![](BROKEN_REF)
 
-![BROKEN_REF](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/75416836_1103563701114794_7392234213205777378_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=Q91EoLIh4EwQ7kNvwGMmyqS&_nc_oc=AdknuzFfx-dFek_yQ4nshdN-4NfVjpZFk6GA7hlb6JwhpsOdVEya2gJ-XH4bOBkBnVZVglg8ntBIMK2jUYLOqM74&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_Afp1pnCvlgYhhO_ioSRUE9IWjo647tzxJFFiyKpOXGJp4Q&oe=69841D5E)
+![](BROKEN_REF)
 
 **Note:** To redirect the view towards a specific object, select an object and press the “F” key.
 
@@ -25,7 +25,7 @@ You can select multiple objects in the Hierarchy panel in the following ways:
 
 * Select an object, then hold the Shift key and click another object to select those objects and all objects in between them.
 
-![BROKEN_REF](https://scontent-dfw5-1.oculuscdn.com/v/t64.5771-25/38982529_1576236403284573_8965784620002181160_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=IQqpldq9mK0Q7kNvwFB3Pmh&_nc_oc=AdmeaWrb9i2kQdhUraHI58fS8G_mWyJnwPSajsORHujv_5PEmEbERYLfY9XJu1SqCwqsEyjbFiBDKjCZMVmVJOOB&_nc_zt=3&_nc_ht=scontent-dfw5-1.oculuscdn.com&oh=00_AfpmshHmTFzMolGISPpMcyJE8vqBSZYxwCWfXNqYsmjqbg&oe=69844049)
+![](BROKEN_REF)
 
 **NOTE:** You can also click individual objects in the scene while holding Shift or Ctrl to add or remove them from the current selection.
 
@@ -82,7 +82,7 @@ This works for both regular selection and marquee selection.
 
 ## Focusing the camera on a selected entity
 
-To focus the camera on a specific object or gizmo, select the object and press the “F” key. ![BROKEN_REF](https://scontent-dfw6-1.oculuscdn.com/v/t64.5771-25/39001711_555881607346476_6364462366655503089_n.gif?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=RK7bGQZOeesQ7kNvwG6bgyT&_nc_oc=Adnneb5eiljYG9DoriZvloY626_-QCBEDTb5YkmR00nSUsrL2oIk2Rz_q-KSMjIit_XQPeE6XMsGyq-B348uAkKY&_nc_zt=3&_nc_ht=scontent-dfw6-1.oculuscdn.com&oh=00_AfpQppWnkmZIi3so9qDmhIr43JjlUG3S4imzfsS-nzVg_w&oe=69843BB2)
+To focus the camera on a specific object or gizmo, select the object and press the “F” key. ![](BROKEN_REF)
 
 ## Grouped object behaviors
 

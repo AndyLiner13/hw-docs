@@ -28,7 +28,7 @@ You can create a new A/B test by clicking **Create thumbnail A/B test**.
 
 A list of all your eligible worlds to test is displayed. Select a world you would like to test.
 
-![BROKEN_REF: Choosing a world to test](https://scontent-dfw5-2.xx.fbcdn.net/v/t39.2365-6/494524117_708821498322471_5704040799216937529_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e280be&_nc_ohc=9hegY1ujsigQ7kNvwHoum2a&_nc_oc=AdlySqwAxvABdASoROI2Zumj_oiyByZSg_6gR2kDIOmYndBR7bnTUT7J5X9VbhJGVVmXEf4Xed094obyvVFNZOFw&_nc_zt=14&_nc_ht=scontent-dfw5-2.xx&_nc_gid=NQksMvi8a76WMnGzTNaf1g&oh=00_AfpKZDJAhtkVJcZ7siJkyqcOYExgYYZoq3R8DLmpu_MSig&oe=698414EA)
+![Choosing a world to test](BROKEN_REF)
 
 Once your world is selected, input a unique name for your test in the **Test Name** text box. You can publish and schedule your test date by selecting from the calendar in the **Start date**. Drag and drop or choose an image file from your device from the **Upload test image** section.
 You can preview your images in **16:9**, **4:3**, and **1:1** by selecting the aspect ratio dimensions.

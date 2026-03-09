@@ -508,7 +508,7 @@ Now let’s click play world!
 
 The speed was a little slow, so we’ll adjust to 0.1 seconds. You might have also noticed that the first play through the loop had some hiccups due to needing to download the images, but after it played once, it was smooth.
 
-![30 Horizon - Adjust Speed To Your Liking.png](../../_assets/images/112ce7effebbc6a0a6dc720482b7503b7f688e6f34b13f05c9bbbc9a460a939c.png)![BROKEN_REF: 35 Horizon - Billboarded Nyan Cat.gif](https://scontent-dfw5-1.xx.fbcdn.net/v/t39.2365-6/452540279_512509977953625_2643885165784093538_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=un5anIYhB8EQ7kNvwHrNcNz&_nc_oc=Adk_U2iHyKl2dea684MmcG0wxKv2Go5FcAUqfeYXJb_pX9Jk5uXygDL3IsYeeukX-ip8znEx4jZPKfSwlOLkezT6&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=0RrH918i7rshPWMN8PSSnA&oh=00_AfrGoflRIXG45FLMMyiW5xt7ZAWHcORK9c-FL1O6-9sHuw&oe=698435E7)
+![30 Horizon - Adjust Speed To Your Liking.png](../../_assets/images/112ce7effebbc6a0a6dc720482b7503b7f688e6f34b13f05c9bbbc9a460a939c.png)![35 Horizon - Billboarded Nyan Cat.gif](BROKEN_REF)
 
 ## Step 7: Billboarding
 
