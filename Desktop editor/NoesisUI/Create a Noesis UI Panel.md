@@ -167,7 +167,7 @@ this.entity.as(NoesisGizmo).dataContext = dataContext;
 
 You can see a working example here:
 
-![MouseMove Event example](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/499304131_893860719986354_6580421482938489396_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=OUFXNmaE9HsQ7kNvwGOh2Dl&_nc_oc=AdmZixr75V4H_FEt6NCVDe7e83RarRT9bidctEAc2J3U34d-D7UXEEltABObQz18wFA&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfpQJqKKQYm9dRPQfc7J-IoU5HtfG6rPWHgCxumxjhfghA&oe=69840634)
+![BROKEN_REF: MouseMove Event example](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/499304131_893860719986354_6580421482938489396_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=OUFXNmaE9HsQ7kNvwGOh2Dl&_nc_oc=AdmZixr75V4H_FEt6NCVDe7e83RarRT9bidctEAc2J3U34d-D7UXEEltABObQz18wFA&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_AfpQJqKKQYm9dRPQfc7J-IoU5HtfG6rPWHgCxumxjhfghA&oe=69840634)
 
 ## Command param tutorial
 
@@ -238,7 +238,7 @@ this.entity.as(NoesisGizmo).dataContext = dataContext;
 
 See a working example here:
 
-![MouseMove Event example](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/499298150_1967665127426257_5329898611576816400_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PmCdsNtQY9sQ7kNvwFMPnjq&_nc_oc=AdkBoNIt1uwuw-AF3Q4VRTdeFDAjrmv5rj-30aEydWCQCCgMEQLlZY8hFvwRrwBxXeo&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afqklhw7g1G9wDQ-gb_kGun8OVx5y9QgWYPMCba0nJ0d-Q&oe=6983FD2F)
+![BROKEN_REF: MouseMove Event example](https://scontent-dfw5-3.oculuscdn.com/v/t64.5771-25/499298150_1967665127426257_5329898611576816400_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=PmCdsNtQY9sQ7kNvwFMPnjq&_nc_oc=AdkBoNIt1uwuw-AF3Q4VRTdeFDAjrmv5rj-30aEydWCQCCgMEQLlZY8hFvwRrwBxXeo&_nc_zt=28&_nc_ht=scontent-dfw5-3.oculuscdn.com&oh=00_Afqklhw7g1G9wDQ-gb_kGun8OVx5y9QgWYPMCba0nJ0d-Q&oe=6983FD2F)
 
 ## Noesis Features Support
 
