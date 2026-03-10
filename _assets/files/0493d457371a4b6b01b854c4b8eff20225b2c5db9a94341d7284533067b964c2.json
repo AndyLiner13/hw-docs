@@ -1,0 +1,81 @@
+{
+   "monstersnew": {
+	"cat": {
+		"colour": "brown",
+		"damage": "10"
+       },
+	"dog": {
+	       "colour": "white",
+		"damage": "5"
+
+	},
+	"dog1": {
+	       "colour": "white",
+		"damage": "5"
+
+	},
+	"dog2": {
+	       "colour": "white",
+		"damage": "5"
+
+	},
+	"dog3": {
+	       "colour": "white",
+		"damage": "5"
+
+	},
+	"dog4": {
+	       "colour": "white",
+		"damage": "5"
+
+	},
+	"dog5": {
+	       "colour": "white",
+		"damage": "5"
+
+	},
+	"dog6": {
+	       "colour": "white",
+		"damage": "5"
+
+	}
+   },
+   "mapnew" : {
+		"forest" : {
+			"land" : [1,2,3],
+			"water" : [10, -1, 2],
+			"temp" : 50.2
+		},
+		"desert" : {
+			"land" : [21,32,13],
+			"water" : [11, -2, 6],
+			"temp" : 30.2
+		},
+		"desert1" : {
+			"land" : [21,32,13],
+			"water" : [11, -2, 6],
+			"temp" : 30.2
+		},
+		"desert2" : {
+			"land" : [21,32,13],
+			"water" : [11, -2, 6],
+			"temp" : 30.2
+		},
+		"desert3" : {
+			"land" : [21,32,13],
+			"water" : [11, -2, 6],
+			"temp" : 30.2
+		},
+		"desert4" : {
+			"land" : [21,32,13],
+			"water" : [11, -2, 6],
+			"temp" : 30.2
+		}
+   },
+   "thingnew" : "value",
+   "thingnew1" : "value2",
+   "thingnew2" : "value",
+   "thingnew3" : "value",
+   "thingnew4" : "value",
+   "thingnew4" : "value"
+}

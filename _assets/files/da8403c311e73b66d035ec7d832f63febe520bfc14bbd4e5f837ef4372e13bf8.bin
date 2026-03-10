@@ -1,0 +1,5712 @@
+﻿1
+00:00:00,000 --> 00:00:01,584
+Viral game ideas with Laex05. 
+
+2
+00:00:01,584 --> 00:00:03,570
+Hi, everybody! I’m Laex05.
+
+3
+00:00:03,570 --> 00:00:05,238
+If you haven't met me before,
+
+4
+00:00:05,238 --> 00:00:06,573
+I'm the creative director at Vidyuu LLC.
+
+5
+00:00:06,573 --> 00:00:10,377
+Technically, I own the company,
+but, like, I just I work on vision.
+
+6
+00:00:10,493 --> 00:00:13,013
+You know,
+I help sculpt some worlds sometimes.
+
+7
+00:00:13,013 --> 00:00:14,581
+Sometimes I come in at the end of a build.
+
+8
+00:00:14,581 --> 00:00:16,099
+Sometimes I'm there at the beginning.
+
+9
+00:00:16,099 --> 00:00:17,967
+Sometimes I'm there throughout.
+
+10
+00:00:17,967 --> 00:00:21,287
+But point is,
+I’ve built quite a few worlds over the years,
+
+11
+00:00:21,538 --> 00:00:24,441
+and I'm excited to share with you
+everything I know.
+
+12
+00:00:24,441 --> 00:00:27,360
+And so, without further ado,
+we'll move on to the next slide.
+
+13
+00:00:27,360 --> 00:00:29,429
+Our agenda for today—
+we're going to cover some basics
+
+14
+00:00:29,429 --> 00:00:32,132
+of what makes things
+kind of exciting and fun,
+
+15
+00:00:32,132 --> 00:00:36,086
+and potentially viral. We're also going
+to be looking at some example worlds
+
+16
+00:00:36,086 --> 00:00:39,089
+and looking at
+what made those worlds pop.
+
+17
+00:00:39,272 --> 00:00:41,341
+We're also going to look at Horizon
+Algorithm.
+
+18
+00:00:41,341 --> 00:00:44,778
+What is there today
+that we need to be tracing and tracking?
+
+19
+00:00:45,745 --> 00:00:46,913
+I don't know the algorithm,
+
+20
+00:00:46,913 --> 00:00:50,100
+but I can share with you what I've heard
+and kind of what I've seen work.
+
+21
+00:00:50,750 --> 00:00:52,802
+We're going to be talking
+about progressive depth—
+
+22
+00:00:52,802 --> 00:00:54,921
+And depth
+referring to depth of knowledge.
+
+23
+00:00:54,921 --> 00:00:58,191
+So how much do you as a user know
+about your game? When you go viral
+
+24
+00:00:58,191 --> 00:00:59,392
+they don't know as much.
+
+25
+00:00:59,392 --> 00:01:02,429
+So how do you grow that depth over time,
+but also make it not
+
+26
+00:01:02,429 --> 00:01:05,632
+required for the new users
+who are showing up en mass?
+
+27
+00:01:06,449 --> 00:01:07,951
+Then I'll have some recommendations
+for you.
+
+28
+00:01:07,951 --> 00:01:11,821
+And then at the end we have time for Q&A.
+So we'll just keep on
+
+29
+00:01:11,988 --> 00:01:14,908
+jiving. 
+The basics! All right.
+
+30
+00:01:14,908 --> 00:01:18,778
+Making your users feel something
+and allowing them to create action.
+
+31
+00:01:18,778 --> 00:01:20,180
+I don't want to keep reading the slides,
+
+32
+00:01:20,180 --> 00:01:21,865
+so I'm going to try
+to kind of go more freeform.
+
+33
+00:01:21,865 --> 00:01:23,032
+But, the point is
+
+34
+00:01:23,032 --> 00:01:27,387
+that when a user shows up in your world,
+they want to have an impact on the world.
+
+35
+00:01:27,387 --> 00:01:29,422
+And I call that creating action.
+
+36
+00:01:29,422 --> 00:01:30,774
+And the easiest way to think about
+
+37
+00:01:30,774 --> 00:01:35,161
+that is like effects—visual effects,
+sound effects, haptic effects.
+
+38
+00:01:35,512 --> 00:01:37,097
+We're all in the mindset right now,
+
+39
+00:01:37,097 --> 00:01:41,518
+or we should be in the mindset, of like
+mobile development. Developing for mobile.
+
+40
+00:01:41,518 --> 00:01:45,872
+So haptics might not be top of mind,
+but you really want to make sure
+
+41
+00:01:45,872 --> 00:01:51,444
+your worlds are both amazing on mobile
+and amazing in VR.
+
+42
+00:01:51,744 --> 00:01:55,098
+And haptic feedback is one of those things
+that's easy to forget,
+
+43
+00:01:55,115 --> 00:01:58,118
+especially when you're developing
+on the desktop editor
+
+44
+00:01:58,201 --> 00:02:01,137
+and you're just building
+and you don't go into VR as often.
+
+45
+00:02:01,137 --> 00:02:02,539
+I've been developing on the desktop editor
+
+46
+00:02:02,539 --> 00:02:05,575
+for nearly a year now, and yeah,
+I don't go into VR nearly enough.
+
+47
+00:02:05,575 --> 00:02:08,845
+So the most recent game I built,
+the haptics were a little too strong.
+
+48
+00:02:08,845 --> 00:02:11,698
+Even though we had them on light,
+we needed to change them to very light
+
+49
+00:02:11,698 --> 00:02:12,799
+and just change them up.
+
+50
+00:02:12,799 --> 00:02:15,802
+But I wasn't getting into VR enough,
+so fortunately I had some testers
+
+51
+00:02:15,802 --> 00:02:16,519
+who were able to be like,
+
+52
+00:02:16,519 --> 00:02:18,838
+“Hey, this is a problem.”
+And I was like, “Oh, thank you.”
+
+53
+00:02:18,838 --> 00:02:20,840
+But definitely—
+got to make sure you've got haptics.
+
+54
+00:02:20,840 --> 00:02:24,661
+The feedback that you get from a haptic
+pulse is very satisfying,
+
+55
+00:02:25,428 --> 00:02:29,883
+and these satisfaction,
+these sort of feelings are very primal.
+
+56
+00:02:29,883 --> 00:02:33,953
+When you get like a pop-up, 
+or the pop-up effect,
+
+57
+00:02:33,953 --> 00:02:37,524
+like when a confetti bursts
+or any sort of effect happens
+
+58
+00:02:37,524 --> 00:02:40,760
+because you did something,
+that releases a very primal feeling.
+
+59
+00:02:40,760 --> 00:02:41,661
+I see this in my daughter.
+
+60
+00:02:41,661 --> 00:02:44,731
+She's two and a half years old now,
+and when she accomplishes
+
+61
+00:02:44,731 --> 00:02:47,634
+something, she goes around yelling,
+“Oh my gosh, I did it, I did it!”
+
+62
+00:02:47,634 --> 00:02:48,418
+“Can you believe it?”
+
+63
+00:02:48,418 --> 00:02:50,270
+“Give me a high five, dad, I need a hug.”
+
+64
+00:02:50,270 --> 00:02:51,838
+“This is the most amazing thing ever.”
+
+65
+00:02:51,838 --> 00:02:53,690
+And
+like I said, it's just very primal.
+
+66
+00:02:53,690 --> 00:02:58,344
+When you create action,
+it causes this sort of inner excitement.
+
+67
+00:02:58,645 --> 00:03:02,031
+And so visual effects,
+sound effects, and haptic feedback are ways
+
+68
+00:03:02,031 --> 00:03:05,034
+that users can feel the action
+and see the action.
+
+69
+00:03:05,068 --> 00:03:07,136
+You can also provide them with pop-ups.
+
+70
+00:03:07,136 --> 00:03:08,821
+I recommend being careful with pop-ups.
+
+71
+00:03:08,821 --> 00:03:11,274
+I've definitely overused these
+in my experience.
+
+72
+00:03:11,274 --> 00:03:13,443
+I need to be a little bit more toning down
+
+73
+00:03:13,443 --> 00:03:17,180
+because people will start toning them out,
+but you can use pop-ups to convey
+
+74
+00:03:17,180 --> 00:03:22,168
+information. Like, you hit so-and-so
+or you gained X amount of money,
+
+75
+00:03:22,952 --> 00:03:26,522
+and using pop-ups can definitely
+be very satisfying for the user
+
+76
+00:03:26,522 --> 00:03:29,342
+to learn
+more about what's going on in the world.
+
+77
+00:03:29,342 --> 00:03:31,761
+Motion
+and scale are examples of additional types
+
+78
+00:03:31,761 --> 00:03:34,764
+of ways that users can create action
+that isn't just effects.
+
+79
+00:03:34,764 --> 00:03:37,584
+So, if something moves. If you
+
+80
+00:03:37,584 --> 00:03:40,703
+punch something and it moves around,
+even just like a punching bag,
+
+81
+00:03:41,671 --> 00:03:43,256
+which we've all seen, right?
+
+82
+00:03:43,256 --> 00:03:45,775
+But that, like, that's very satisfying.
+
+83
+00:03:45,775 --> 00:03:48,895
+Scale, physics objects,
+just like you name it.
+
+84
+00:03:49,262 --> 00:03:51,631
+Anything that can give the user
+the feeling
+
+85
+00:03:51,631 --> 00:03:54,617
+that they've created
+the action is very exciting.
+
+86
+00:03:54,834 --> 00:03:58,771
+And so you can use these basics
+to create simple,
+
+87
+00:03:58,771 --> 00:04:02,425
+addictive loops that people are going
+to want to continue doing over and over.
+
+88
+00:04:02,692 --> 00:04:05,245
+And so I say use effects always.
+
+89
+00:04:05,245 --> 00:04:08,281
+And I'm sure there's a case
+where this doesn't apply,
+
+90
+00:04:08,281 --> 00:04:09,699
+but really try your best
+
+91
+00:04:09,699 --> 00:04:13,853
+to include like a visual effect,
+a sound effect, and haptic feedback
+
+92
+00:04:14,070 --> 00:04:17,724
+wherever you're building these sort of
+like miniature loops and experiences.
+
+93
+00:04:18,474 --> 00:04:20,660
+So we're gonna quickly
+look at some viral hit worlds
+
+94
+00:04:20,660 --> 00:04:22,729
+and see what they did that worked.
+
+95
+00:04:22,729 --> 00:04:24,447
+And, I'm going to just like
+
+96
+00:04:24,447 --> 00:04:27,300
+prepare you, like,
+get a glass of ice to dump on your head
+
+97
+00:04:27,300 --> 00:04:29,369
+because the first world is Hit
+People Simulator.
+
+98
+00:04:29,369 --> 00:04:32,121
+I know, I know—
+We're ripping this Band-Aid off early.
+
+99
+00:04:32,121 --> 00:04:34,490
+This is actually a great world
+for quite a few reasons,
+
+100
+00:04:34,490 --> 00:04:37,193
+and I think it's very important
+that we take a look at worlds
+
+101
+00:04:37,193 --> 00:04:40,647
+that are in the top of the menu
+and understand why are these great worlds.
+
+102
+00:04:40,647 --> 00:04:43,650
+What makes them really successful?
+
+103
+00:04:43,766 --> 00:04:46,586
+And the thing that I found after
+sitting in there for half an hour
+
+104
+00:04:46,586 --> 00:04:49,589
+with just three other kids
+just continuously playing
+
+105
+00:04:49,706 --> 00:04:51,991
+is that you have
+a small number of players,
+
+106
+00:04:51,991 --> 00:04:55,345
+and this social experience
+allows for each of the players
+
+107
+00:04:55,495 --> 00:04:58,681
+to have a say
+and an impact on the experience.
+
+108
+00:04:58,998 --> 00:05:02,819
+When you have 16 players or 32 players,
+suddenly you feel like
+
+109
+00:05:02,819 --> 00:05:05,271
+you have to sit in the corner
+and not be a participant.
+
+110
+00:05:05,271 --> 00:05:09,108
+But being a small player experience,
+you really got to have an impact on
+
+111
+00:05:09,108 --> 00:05:12,078
+what people are talking about.
+The stories they were telling.
+
+112
+00:05:12,078 --> 00:05:13,196
+And this is the other part.
+
+113
+00:05:13,196 --> 00:05:16,132
+This is a tell your own story
+type of location.
+
+114
+00:05:16,132 --> 00:05:18,534
+This isn't like a prescribed story.
+
+115
+00:05:18,534 --> 00:05:20,520
+The kids get to be like
+they're in the toy box,
+
+116
+00:05:20,520 --> 00:05:23,189
+like they're at home with their friends
+making believe.
+
+117
+00:05:23,189 --> 00:05:26,209
+And this is what I saw
+continuously in this world.
+
+118
+00:05:26,909 --> 00:05:29,245
+I think that is part of the reason
+it was so successful
+
+119
+00:05:29,245 --> 00:05:30,980
+and it's still so successful.
+
+120
+00:05:30,980 --> 00:05:32,815
+And there's constantly creating action.
+
+121
+00:05:32,815 --> 00:05:33,783
+Everywhere you look
+
+122
+00:05:33,783 --> 00:05:37,487
+you're bopping things around,
+you're interacting with things.
+
+123
+00:05:37,637 --> 00:05:41,574
+You create action everywhere you look,
+and you get a lot of creativity.
+
+124
+00:05:41,574 --> 00:05:44,544
+So, I think that's what makes this world
+so successful.
+
+125
+00:05:44,544 --> 00:05:45,928
+Do I think it's the perfect world?
+
+126
+00:05:45,928 --> 00:05:49,399
+No! But we've seen obviously
+it's had quite a massive hit
+
+127
+00:05:49,399 --> 00:05:52,852
+with the younger audiences, and I think
+there's a lot we can take away from that.
+
+128
+00:05:52,852 --> 00:05:55,488
+So, that was our first one to look at.
+
+129
+00:05:55,488 --> 00:05:55,938
+Next up
+
+130
+00:05:55,938 --> 00:05:59,642
+we're going to take a look at Murder
+Village, Murder Manor, and Spin the Bottle.
+
+131
+00:05:59,642 --> 00:06:01,711
+What do these three worlds have in common?
+
+132
+00:06:01,711 --> 00:06:02,545
+You want to be it.
+
+133
+00:06:02,545 --> 00:06:06,933
+I think this is something that you can use
+to your advantage in most worlds.
+
+134
+00:06:07,367 --> 00:06:08,634
+It's random selection.
+
+135
+00:06:08,634 --> 00:06:10,053
+Whether we're talking about random role
+
+136
+00:06:10,053 --> 00:06:12,355
+selection like in these theory
+worlds, where in Murder Village
+
+137
+00:06:12,355 --> 00:06:14,006
+you get to be the murderer,
+in Murder Manor
+
+138
+00:06:14,006 --> 00:06:15,475
+you have a couple different roles
+you can be
+
+139
+00:06:15,475 --> 00:06:17,543
+whether that's murderer, sheriff,
+or innocent.
+
+140
+00:06:17,543 --> 00:06:20,880
+And in Spin the Bottle, you get to be
+the person who gets to make the decision.
+
+141
+00:06:21,481 --> 00:06:23,966
+But that random selection means
+you want to keep playing
+
+142
+00:06:23,966 --> 00:06:25,701
+because you want to be it, right?
+
+143
+00:06:25,701 --> 00:06:26,702
+So if you're in Murder Village,
+
+144
+00:06:26,702 --> 00:06:30,123
+you really want to be the murderer,
+and that takes a while.
+
+145
+00:06:30,123 --> 00:06:31,741
+You have to get signed up on a list.
+
+146
+00:06:31,741 --> 00:06:34,010
+You've got to wait a few rounds
+until you're it.
+
+147
+00:06:34,010 --> 00:06:37,730
+And then once you get that hit of
+being it, you want to do that again.
+
+148
+00:06:37,730 --> 00:06:40,733
+So you stay for another few sessions
+until you're it again.
+
+149
+00:06:40,733 --> 00:06:44,187
+And I really think that's something
+you can implement, whether it's
+
+150
+00:06:44,187 --> 00:06:47,323
+role selection, you can also use this
+in the latest world I built with Ash.xo.
+
+151
+00:06:47,457 --> 00:06:51,260
+We have random cars being generated
+
+152
+00:06:51,511 --> 00:06:54,447
+and people
+determine the cars by buying them.
+
+153
+00:06:54,447 --> 00:06:57,083
+And so if you buy a brand new vehicle
+and you want to see that
+
+154
+00:06:57,083 --> 00:07:00,086
+vehicle, you're going to stay for longer
+until that vehicle appears.
+
+155
+00:07:00,169 --> 00:07:04,307
+So using this sort of random selection
+to get people to hang out longer
+
+156
+00:07:04,307 --> 00:07:08,094
+and wait to see the thing that they want.
+And if that thing is really satisfying,
+
+157
+00:07:08,094 --> 00:07:09,979
+like getting to be it,
+
+158
+00:07:09,979 --> 00:07:13,649
+or getting that vehicle that maybe it
+gives you an extra boost of money,
+
+159
+00:07:14,033 --> 00:07:16,803
+that then keeps them there
+for a little bit longer
+
+160
+00:07:16,803 --> 00:07:18,020
+because they're like,
+“Oh, that was amazing.”
+
+161
+00:07:18,020 --> 00:07:19,889
+“I want to feel that again.”
+
+162
+00:07:19,889 --> 00:07:23,126
+And I think one of the things
+that I would share here—
+
+163
+00:07:27,213 --> 00:07:28,131
+[Laughs]
+Sorry, I'm going
+
+164
+00:07:28,131 --> 00:07:31,350
+to say this politely,
+my experiences in Murder Village
+
+165
+00:07:31,350 --> 00:07:34,937
+have been less than ideal
+because being it is so rare.
+
+166
+00:07:35,087 --> 00:07:37,890
+So when I went to build Murder Manor,
+
+167
+00:07:37,890 --> 00:07:40,793
+I made sure that you could be the murderer
+more frequently.
+
+168
+00:07:40,793 --> 00:07:43,913
+So in Murder Manor,
+it's a 1 in 5 chance. In Murder Village 
+
+169
+00:07:43,913 --> 00:07:46,649
+it can be that way
+if there's not a lot of people signed up,
+
+170
+00:07:46,649 --> 00:07:49,368
+but you can also see where there's ten
+people signed up,
+
+171
+00:07:49,368 --> 00:07:52,371
+and you could play for two hours
+and not be the murderer in Murder Village.
+
+172
+00:07:52,488 --> 00:07:57,560
+But in Murder Manor, you're going to be
+it 25 or 20% of the time, roughly.
+
+173
+00:07:58,427 --> 00:08:00,930
+And it's pretty much guaranteed
+
+174
+00:08:00,930 --> 00:08:03,933
+that you'll get to be it
+at least once within an hour.
+
+175
+00:08:04,500 --> 00:08:06,352
+I'd like to make
+that even more guaranteed
+
+176
+00:08:06,352 --> 00:08:09,472
+because it is possible using random chance,
+like we do in Murder Manor,
+
+177
+00:08:09,472 --> 00:08:13,459
+that you could go missing it over and over
+and over again for over an hour.
+
+178
+00:08:13,459 --> 00:08:15,711
+And when that happens,
+people feel really bad
+
+179
+00:08:15,711 --> 00:08:17,280
+and it kind of ruins the experience.
+
+180
+00:08:17,280 --> 00:08:18,631
+So I'd love to put a counter in that
+
+181
+00:08:18,631 --> 00:08:20,666
+tracks how many times are they not murderer
+
+182
+00:08:20,666 --> 00:08:22,502
+and then be like, oh,
+if it's the 10th time,
+
+183
+00:08:22,502 --> 00:08:24,170
+we guarantee they're going to be murderer.
+
+184
+00:08:24,170 --> 00:08:29,692
+So, okay. Random selection,
+pretty awesome. Social experiences.
+
+185
+00:08:29,692 --> 00:08:32,879
+These three also are huge
+social experiences.
+
+186
+00:08:33,446 --> 00:08:38,901
+The way the users control
+these experiences is unbelievable. So,
+
+187
+00:08:40,319 --> 00:08:41,521
+let's start with Spin the Bottle
+
+188
+00:08:41,521 --> 00:08:44,507
+because it's the one that
+we've heard a lot about recently.
+
+189
+00:08:44,507 --> 00:08:47,343
+And in Spin the Bottle,
+the users can make up their own rules.
+
+190
+00:08:47,343 --> 00:08:50,329
+There isn't a lot of prescribed
+rules to the game.
+
+191
+00:08:50,396 --> 00:08:52,732
+And so if you want to say
+like it's a truth
+
+192
+00:08:52,732 --> 00:08:55,735
+or dare version of Spin
+the Bottle, you have to answer a question
+
+193
+00:08:55,735 --> 00:08:57,086
+otherwise you're getting shot.
+
+194
+00:08:57,086 --> 00:09:00,089
+People can make their own rules up
+and that is really fun.
+
+195
+00:09:00,239 --> 00:09:02,658
+I see the same thing in Murder Manor
+where you see sometimes
+
+196
+00:09:02,658 --> 00:09:05,661
+people playing it differently.
+So sometimes people will play it like,
+
+197
+00:09:05,695 --> 00:09:08,965
+“Oh yeah, I'm the murderer.”
+Or sometimes they'll lie and sometimes,
+
+198
+00:09:08,965 --> 00:09:12,535
+you know, there's all sorts of variants
+on the way that people play the game,
+
+199
+00:09:12,985 --> 00:09:15,688
+creating differences
+in how that experiences.
+
+200
+00:09:15,688 --> 00:09:18,541
+And same thing is true in Murder Village,
+depending on how people engage
+
+201
+00:09:18,541 --> 00:09:19,308
+and how they play,
+
+202
+00:09:19,308 --> 00:09:22,011
+they can kind of make their own
+experience, which makes it a lot of fun.
+
+203
+00:09:22,011 --> 00:09:27,199
+So, social can cause a crafting
+of the experience that allows,
+
+204
+00:09:27,199 --> 00:09:30,202
+in my opinion, the world to be a long-
+
+205
+00:09:30,202 --> 00:09:33,205
+lasting hit. With a game that is more
+
+206
+00:09:34,307 --> 00:09:37,310
+uniformly the
+same and it's always the same experience,
+
+207
+00:09:37,410 --> 00:09:40,079
+I feel like that's going to die off
+relatively quickly.
+
+208
+00:09:40,079 --> 00:09:41,213
+But if you can have something
+
+209
+00:09:41,213 --> 00:09:44,717
+that the users who are playing
+it change the experience,
+
+210
+00:09:45,685 --> 00:09:47,987
+that has a lot more staying power
+
+211
+00:09:47,987 --> 00:09:50,039
+because every time you play,
+depending on who you're playing with,
+
+212
+00:09:50,039 --> 00:09:51,841
+it can be a completely different
+experience.
+
+213
+00:09:51,841 --> 00:09:55,077
+Another example of this
+that I want to mention about Spin
+
+214
+00:09:55,077 --> 00:09:58,197
+the Bottle is I've never played
+with my friends, which is really sad.
+
+215
+00:09:58,197 --> 00:09:59,849
+I've only played it 4 or 5 times
+
+216
+00:09:59,849 --> 00:10:02,602
+and I've only played it with kids,
+and they always shoot me.
+
+217
+00:10:02,602 --> 00:10:04,020
+And I never have a good experience
+
+218
+00:10:04,020 --> 00:10:07,023
+because I'm the adult in the room
+and they're like, “Ah, get him out of here.”
+
+219
+00:10:07,106 --> 00:10:10,042
+But I've heard from my friends
+who do play Spin the Bottle that if you go
+
+220
+00:10:10,042 --> 00:10:13,579
+into an instance with just people
+you know, it's an incredible experience.
+
+221
+00:10:13,879 --> 00:10:15,681
+And at some point
+I should give that a shot,
+
+222
+00:10:15,681 --> 00:10:19,352
+but just another example
+of how the people you're with can really
+
+223
+00:10:19,368 --> 00:10:20,453
+shape the experience.
+
+224
+00:10:21,621 --> 00:10:24,056
+We're going to move into Murder Manor.
+
+225
+00:10:24,056 --> 00:10:27,259
+And here I wanted to talk about some of
+the retention tactics that we implemented.
+
+226
+00:10:27,827 --> 00:10:28,794
+I'm not saying these are perfect
+
+227
+00:10:28,794 --> 00:10:30,212
+or that you need
+to put all of these in your world,
+
+228
+00:10:30,212 --> 00:10:33,199
+but I just thought I'd share a little bit
+of what worked for us.
+
+229
+00:10:33,265 --> 00:10:36,168
+And so the first thing that we got to talk
+about is the Daily Streak.
+
+230
+00:10:36,168 --> 00:10:40,256
+Now this is not going to hook
+every single person, but we have at least
+
+231
+00:10:40,256 --> 00:10:44,460
+one user with well over 300 days
+straight of playing Murder Manor,
+
+232
+00:10:44,543 --> 00:10:46,729
+which breaks my brain. I don't think I—
+
+233
+00:10:46,729 --> 00:10:49,799
+I definitely didn't expect
+that when we created this world.
+
+234
+00:10:50,549 --> 00:10:53,552
+But yeah, they're very quickly
+approaching a full year of playing
+
+235
+00:10:53,552 --> 00:10:55,071
+and we'll probably see that continue.
+
+236
+00:10:56,789 --> 00:10:59,909
+So the daily streak, for the users
+who know about it
+
+237
+00:10:59,909 --> 00:11:02,928
+and who care about it, encourages them
+to come back every day
+
+238
+00:11:02,928 --> 00:11:04,697
+to make sure they're getting that
+daily streak,
+
+239
+00:11:04,697 --> 00:11:06,932
+which is incredible for your retention,
+obviously.
+
+240
+00:11:06,932 --> 00:11:11,037
+So, implementing a daily streak
+is relatively easy to implement.
+
+241
+00:11:11,237 --> 00:11:12,054
+If you're in Code Blocks,
+
+242
+00:11:12,054 --> 00:11:15,057
+there's a way that you can get
+the number of days since the epoch.
+
+243
+00:11:15,207 --> 00:11:16,158
+And in TypeScript,
+
+244
+00:11:16,158 --> 00:11:21,297
+you can get the milliseconds since epoch
+and divide it by 24 times 60 times
+
+245
+00:11:21,297 --> 00:11:24,300
+60 times a thousand, which is the number
+of milliseconds in a day.
+
+246
+00:11:25,251 --> 00:11:26,969
+And that gives you the number of days
+since the epoch.
+
+247
+00:11:26,969 --> 00:11:29,238
+And basically you can compare that
+to the last day they were there.
+
+248
+00:11:29,238 --> 00:11:32,758
+And if it is minus one,
+then you can set it to more.
+
+249
+00:11:32,992 --> 00:11:36,028
+It's a little oversimplifying it,
+but daily streaks are relatively simple
+
+250
+00:11:36,028 --> 00:11:37,646
+to implement.
+Would highly encourage you to do that.
+
+251
+00:11:39,749 --> 00:11:42,902
+And moving on to the next bit—
+leveling up.
+
+252
+00:11:42,902 --> 00:11:43,919
+I find leveling up
+
+253
+00:11:43,919 --> 00:11:47,940
+is something that we can say
+is akin to a lot of different things.
+
+254
+00:11:48,541 --> 00:11:51,293
+In my opinion,
+what this means for users of Murder Manor
+
+255
+00:11:51,293 --> 00:11:55,681
+specifically is that when they come back,
+they retain where they left off.
+
+256
+00:11:55,948 --> 00:11:58,951
+There's this sort of sense of
+I didn't lose anything
+
+257
+00:11:59,118 --> 00:12:02,121
+by
+leaving the world and coming back.
+
+258
+00:12:02,154 --> 00:12:05,124
+And so, there's a lot of ways
+you can implement that just generically
+
+259
+00:12:05,124 --> 00:12:06,692
+across a lot of other worlds,
+
+260
+00:12:06,692 --> 00:12:09,145
+but for us
+you have a level above your head.
+
+261
+00:12:09,145 --> 00:12:11,480
+There really isn't like
+anything in the world you get to keep,
+
+262
+00:12:11,480 --> 00:12:14,483
+but when you come back,
+you have this,
+
+263
+00:12:14,667 --> 00:12:17,169
+I would like—
+This is a terrible way to describe it,
+
+264
+00:12:17,169 --> 00:12:19,255
+but it's kind of like a prestigious-ness
+in the world.
+
+265
+00:12:19,255 --> 00:12:21,257
+People know you are higher level.
+
+266
+00:12:21,257 --> 00:12:22,558
+That's kind of exciting.
+
+267
+00:12:22,558 --> 00:12:25,578
+We've also made that
+this level has a specific color set to it.
+
+268
+00:12:25,578 --> 00:12:28,581
+So you see users who are brand
+new have a light blue,
+
+269
+00:12:28,581 --> 00:12:31,467
+and then if you're relatively new,
+it's a darker blue.
+
+270
+00:12:31,467 --> 00:12:35,721
+And then it changes to a purple, and
+then it goes to gold, then it goes to red.
+
+271
+00:12:35,905 --> 00:12:38,808
+And we are about to see our first users
+hit the next color tier,
+
+272
+00:12:38,808 --> 00:12:39,859
+which is super exciting.
+
+273
+00:12:41,360 --> 00:12:42,978
+And when people do hit the next tier,
+
+274
+00:12:42,978 --> 00:12:45,631
+we are like looking out for that,
+and we make a big deal about it.
+
+275
+00:12:45,631 --> 00:12:47,516
+We have a whole party inside the world.
+
+276
+00:12:47,516 --> 00:12:51,203
+We record a video, post it to Instagram,
+and build a whole social presence
+
+277
+00:12:51,203 --> 00:12:54,990
+about this whole leveling up and why it's
+this kind of really amazing experience.
+
+278
+00:12:55,224 --> 00:12:57,543
+So, yeah, leveling up
+
+279
+00:12:57,543 --> 00:13:00,112
+and you see people just like
+very proud of their levels.
+
+280
+00:13:00,112 --> 00:13:01,914
+It's very exciting.
+
+281
+00:13:01,914 --> 00:13:03,048
+Daily reward box.
+
+282
+00:13:03,048 --> 00:13:04,800
+This is another like easy one.
+
+283
+00:13:04,800 --> 00:13:07,136
+I think this is much better
+than the daily streak.
+
+284
+00:13:07,136 --> 00:13:09,438
+I think daily streak is great
+for the users that it works for,
+
+285
+00:13:09,438 --> 00:13:12,241
+but daily reward box is one
+that's very tangible.
+
+286
+00:13:12,241 --> 00:13:16,111
+You go in, you collect your reward
+in the basement, and then you feel
+
+287
+00:13:16,111 --> 00:13:19,098
+that immediate satisfaction
+of having gotten your daily reward.
+
+288
+00:13:19,982 --> 00:13:22,968
+And so,
+I think this is a lot more tangible
+
+289
+00:13:23,302 --> 00:13:25,471
+and I just like the way that works.
+
+290
+00:13:25,471 --> 00:13:28,491
+It's very similar to the daily streak,
+but it's actually giving you something.
+
+291
+00:13:28,757 --> 00:13:30,893
+In Murder Manor where
+we don't have anything to give users,
+
+292
+00:13:30,893 --> 00:13:34,013
+what we give them is experience,
+which helps them level up faster,
+
+293
+00:13:34,013 --> 00:13:36,932
+right? So you get an XP
+bonus every day that you log in.
+
+294
+00:13:36,932 --> 00:13:40,169
+And I think a way that you can make this
+even better is every day
+
+295
+00:13:40,169 --> 00:13:43,172
+they log in, you increase the amount
+that's in the box.
+
+296
+00:13:43,222 --> 00:13:47,576
+So for us, we increase it
+by ten XP per day that you come back.
+
+297
+00:13:47,760 --> 00:13:50,696
+So if you've been to Murder Manor
+ten days, you get a bonus of an extra
+
+298
+00:13:50,696 --> 00:13:52,431
+hundred experience.
+
+299
+00:13:52,431 --> 00:13:53,549
+And it starts at 100.
+
+300
+00:13:53,549 --> 00:13:56,035
+So it's like doubled
+after ten days of playing.
+
+301
+00:13:56,035 --> 00:14:00,139
+And so for our user at 300 days,
+they're getting what, 300 times that ten.
+
+302
+00:14:00,139 --> 00:14:02,191
+So 3,000 on top of that, it's pretty insane.
+
+303
+00:14:04,193 --> 00:14:05,327
+Pretty cool.
+
+304
+00:14:05,327 --> 00:14:08,697
+So we talked about the random roles
+being a retention tactic.
+
+305
+00:14:08,697 --> 00:14:10,232
+I don't think
+I need to describe this too much,
+
+306
+00:14:10,232 --> 00:14:13,402
+but what I will share is we have that 1 in 5 
+chance to be murderer,
+
+307
+00:14:13,402 --> 00:14:16,405
+and we have a 1 in N chance
+to be the sheriff.
+
+308
+00:14:16,438 --> 00:14:19,225
+Where if you are just a single player,
+one over one,
+
+309
+00:14:19,225 --> 00:14:22,228
+so then you are 100% chance of being the
+sheriff.
+
+310
+00:14:22,344 --> 00:14:24,296
+You can play Murder Manor solo.
+
+311
+00:14:24,296 --> 00:14:26,882
+You can go collect the keys,
+unlock the front door, and escape.
+
+312
+00:14:26,882 --> 00:14:28,968
+It is a game
+that you can play by yourself.
+
+313
+00:14:28,968 --> 00:14:30,986
+I wouldn't say
+that's the most fun experience.
+
+314
+00:14:30,986 --> 00:14:34,857
+What's nice about that, though, is that
+people can still join during that window.
+
+315
+00:14:35,007 --> 00:14:37,977
+So if somebody arrives late,
+they are guaranteed to be the murderer
+
+316
+00:14:37,977 --> 00:14:41,430
+and suddenly it's sheriff versus murderer
+and it's a lot of fun.
+
+317
+00:14:42,331 --> 00:14:45,351
+So, you might be having
+an unexpected guest
+
+318
+00:14:45,351 --> 00:14:48,387
+while you're working on finding your keys.
+And then if you have two players,
+
+319
+00:14:48,387 --> 00:14:51,040
+you have a 50% chance of being sheriff.
+If you've got three, it can
+
+320
+00:14:51,040 --> 00:14:52,308
+so on and so forth.
+
+321
+00:14:52,308 --> 00:14:54,960
+It does mean
+the sheriff role is a lot harder to
+
+322
+00:14:56,095 --> 00:14:57,930
+get because of this—
+
+323
+00:14:57,930 --> 00:14:59,298
+Like if it's a 16 player world, it's
+
+324
+00:14:59,298 --> 00:15:02,301
+a 1 in 16 chance
+when you have all 16 people there.
+
+325
+00:15:02,334 --> 00:15:05,838
+And so what we've done because being
+the sheriff is so important
+
+326
+00:15:05,838 --> 00:15:09,391
+and we wanted to make sure
+that you could be sheriff more than like
+
+327
+00:15:09,391 --> 00:15:13,562
+once per 16, is we've made it
+so that if you are a skilled player,
+
+328
+00:15:13,796 --> 00:15:16,882
+you can seek out the gun
+when the sheriff is murdered.
+
+329
+00:15:16,882 --> 00:15:21,470
+So if you have the sheriff pass away,
+we send out a pop-up notification
+
+330
+00:15:21,470 --> 00:15:24,740
+to all of the innocent players
+that tells them what floor
+
+331
+00:15:24,740 --> 00:15:28,794
+the gun has been is placed on,
+and then they can all go searching out.
+
+332
+00:15:28,794 --> 00:15:30,362
+And that creates its own
+social engagement.
+
+333
+00:15:30,362 --> 00:15:31,730
+Where it’s like
+“Did you find it? Did you find it?”
+
+334
+00:15:32,998 --> 00:15:35,100
+And so
+like that has a pretty fun effect as well,
+
+335
+00:15:35,100 --> 00:15:38,087
+but it also allows another person
+to get to be the sheriff.
+
+336
+00:15:39,471 --> 00:15:42,291
+So increasing those odds, which is nice.
+
+337
+00:15:42,291 --> 00:15:44,810
+This next slide is about winning
+more than 50% of the time.
+
+338
+00:15:44,810 --> 00:15:46,912
+I don't know if we've done this
+well enough, but
+
+339
+00:15:46,912 --> 00:15:48,480
+like I feel like we're doing pretty good.
+
+340
+00:15:48,480 --> 00:15:51,867
+And so the general rule of thumb is that
+players want to feel like they're winning
+
+341
+00:15:51,867 --> 00:15:55,137
+more than 50% of the time, otherwise
+they feel like they're losing overall.
+
+342
+00:15:55,137 --> 00:15:56,972
+And that's just not a fun experience.
+
+343
+00:15:56,972 --> 00:15:59,959
+And so I think we see winning a little bit
+differently here.
+
+344
+00:15:59,959 --> 00:16:01,343
+So you can win by escaping.
+
+345
+00:16:01,343 --> 00:16:03,512
+You can win by
+just having all the murderers pass away
+
+346
+00:16:03,512 --> 00:16:04,346
+if you're on the innocents.
+
+347
+00:16:04,346 --> 00:16:07,166
+And the reverse is true
+if you're the murderer.
+
+348
+00:16:07,166 --> 00:16:09,018
+And if you have a large number
+of murderers,
+
+349
+00:16:09,018 --> 00:16:11,337
+you're more likely
+to want to win as a group.
+
+350
+00:16:11,337 --> 00:16:15,024
+And this kind of creates
+a good like group winning chance.
+
+351
+00:16:15,024 --> 00:16:16,825
+So you can imagine—
+
+352
+00:16:16,825 --> 00:16:18,594
+Anyway,
+so I'm not going to go too crazy on that.
+
+353
+00:16:18,594 --> 00:16:22,314
+But what I think is important here
+is that there's other ways to feel
+
+354
+00:16:22,314 --> 00:16:24,350
+like you're winning inside this game.
+
+355
+00:16:24,350 --> 00:16:26,001
+So you might feel like you're winning
+
+356
+00:16:26,001 --> 00:16:29,838
+if you get a single kill as a murderer.
+You might feel like you're winning
+
+357
+00:16:29,838 --> 00:16:32,808
+if you got to be the murderer.
+You might feel like you're winning
+
+358
+00:16:32,808 --> 00:16:34,910
+if you got a couple keys
+and put them in the locks,
+
+359
+00:16:34,910 --> 00:16:36,478
+or maybe you were the last person.
+
+360
+00:16:36,478 --> 00:16:38,514
+I feel like
+there's just a lot of different ways
+
+361
+00:16:38,514 --> 00:16:41,784
+to give them that sense of winning,
+even if they're not winning.
+
+362
+00:16:42,418 --> 00:16:45,320
+And I feel like that helps. Anyway,
+
+363
+00:16:45,320 --> 00:16:47,906
+I don't know if we're doing it perfectly,
+but I like how we're doing it.
+
+364
+00:16:48,957 --> 00:16:51,477
+Easy to play.
+Murder Manor is relatively easy to play.
+
+365
+00:16:51,477 --> 00:16:54,530
+You can come in. You walk in
+and if you're an innocent,
+
+366
+00:16:54,530 --> 00:16:56,098
+you're walking around. You find a key.
+
+367
+00:16:56,098 --> 00:16:57,633
+You have to discover where the door is.
+
+368
+00:16:57,633 --> 00:16:59,101
+You put the key in the lock.
+
+369
+00:16:59,101 --> 00:17:00,986
+Pretty straightforward.
+
+370
+00:17:00,986 --> 00:17:02,087
+Same thing if you're a murderer, right?
+
+371
+00:17:02,087 --> 00:17:03,772
+You grab a weapon, you slash somebody.
+
+372
+00:17:03,772 --> 00:17:05,207
+If you're a sheriff, you've got a gun.
+
+373
+00:17:05,207 --> 00:17:07,743
+That's probably the hardest role because
+you have to click your index trigger.
+
+374
+00:17:07,743 --> 00:17:09,178
+And honestly, there's quite a few people
+
+375
+00:17:09,178 --> 00:17:11,630
+who are still struggling
+to figure that out,
+
+376
+00:17:11,630 --> 00:17:13,015
+especially new VR users.
+
+377
+00:17:13,015 --> 00:17:14,700
+I've definitely,
+when I take my friends and family in,
+
+378
+00:17:14,700 --> 00:17:17,703
+they can never figure out how to use
+weapons.
+
+379
+00:17:18,070 --> 00:17:21,023
+Like, “How do I grab stuff?
+How do I pull index triggers?”
+
+380
+00:17:21,023 --> 00:17:23,609
+It just doesn’t makes sense
+for newer VR users, but
+
+381
+00:17:24,827 --> 00:17:26,161
+that is that.
+
+382
+00:17:26,161 --> 00:17:28,130
+One thing I want to say,
+now that I'll be talking
+
+383
+00:17:28,130 --> 00:17:31,200
+a little bit more in a minute is about
+one of the biggest downfalls of Murder
+
+384
+00:17:31,200 --> 00:17:34,286
+Manor that I really want to work out
+in the next version of it,
+
+385
+00:17:35,070 --> 00:17:37,556
+with like next version
+being like a complete rewrite.
+
+386
+00:17:37,556 --> 00:17:42,061
+But the idea is that when people
+join this world, I see a frequent number
+
+387
+00:17:42,377 --> 00:17:46,281
+that come in
+and they're waiting for the game to end,
+
+388
+00:17:46,915 --> 00:17:49,134
+and the timer is like 1 and a half
+minutes and like,
+
+389
+00:17:49,134 --> 00:17:51,687
+“I don't want to wait 1 and a half minutes.”
+And we see people bump out of here.
+
+390
+00:17:51,687 --> 00:17:53,222
+And when we're talking
+about mobile development,
+
+391
+00:17:53,222 --> 00:17:56,208
+which we'll be talking about
+very soon too, is
+
+392
+00:17:57,209 --> 00:18:00,813
+people need to get into the action 
+within 20 seconds. Like 10 seconds, ideally.
+
+393
+00:18:01,230 --> 00:18:04,917
+And you can't have a game like this
+for mobile development.
+
+394
+00:18:04,917 --> 00:18:06,902
+It needs to be like
+you can continue walking in.
+
+395
+00:18:06,902 --> 00:18:09,738
+And so one of the ways that we're looking
+at fixing that in Murder Manor
+
+396
+00:18:09,738 --> 00:18:10,322
+is to make it
+
+397
+00:18:10,322 --> 00:18:14,426
+so that the game is continuously open
+and running, and I don't know exactly
+
+398
+00:18:14,426 --> 00:18:17,429
+if that's going to work or not, but
+we're going to play around with the idea.
+
+399
+00:18:17,463 --> 00:18:20,215
+But you can imagine, if you walk
+in, you just get assigned a role.
+
+400
+00:18:21,200 --> 00:18:22,951
+And the game just kind of keeps rolling.
+
+401
+00:18:22,951 --> 00:18:24,203
+And maybe there's a way to kill everybody.
+
+402
+00:18:24,203 --> 00:18:27,272
+I don't know, but we'll we'll be playing
+with that idea in the future.
+
+403
+00:18:27,272 --> 00:18:28,974
+But just—
+
+404
+00:18:28,974 --> 00:18:30,843
+Designing worlds and coming up with ideas
+
+405
+00:18:30,843 --> 00:18:33,829
+that are...
+
+406
+00:18:34,830 --> 00:18:35,447
+already
+
+407
+00:18:35,447 --> 00:18:38,400
+having that idea in mind from
+the beginning will make it a lot easier.
+
+408
+00:18:38,400 --> 00:18:38,634
+Right?
+
+409
+00:18:38,634 --> 00:18:41,687
+So we're kind of trying to fix
+a world where I'm seeing people
+
+410
+00:18:41,687 --> 00:18:44,690
+leaving actively because of this timer.
+
+411
+00:18:45,541 --> 00:18:47,943
+One other suggestion I've had for some of
+
+412
+00:18:47,943 --> 00:18:51,330
+my students
+is that we want to have the last 30 seconds
+
+413
+00:18:51,713 --> 00:18:56,635
+be when it closes up, so they only have to wait a 
+maximum of 30 seconds or maybe even 20 seconds.
+
+414
+00:18:56,635 --> 00:19:01,440
+And at that point you say, okay, games—
+We're in the final scene.
+
+415
+00:19:01,740 --> 00:19:04,977
+We'll pause there
+and continue moving on. Growing depth.
+
+416
+00:19:05,844 --> 00:19:06,211
+Okay—
+
+417
+00:19:06,211 --> 00:19:08,847
+So when you start Murder Manor,
+you don't need to know a lot.
+
+418
+00:19:08,847 --> 00:19:09,648
+It's pretty easy to play
+
+419
+00:19:09,648 --> 00:19:13,669
+without a lot of knowledge,
+but you get more depth as you play.
+
+420
+00:19:13,702 --> 00:19:15,204
+You learn more about the game.
+
+421
+00:19:15,204 --> 00:19:18,090
+You learn about the key positions,
+the weapon positions, where are things hidden.
+
+422
+00:19:18,090 --> 00:19:21,960
+You learn about where the reward box is.
+You learn where the power up bonus box is.
+
+423
+00:19:22,194 --> 00:19:26,298
+You learn how to become the sheriff.
+And all of these things make the game more
+
+424
+00:19:26,298 --> 00:19:30,452
+fun the longer you play, and reward
+people who do play for longer.
+
+425
+00:19:30,452 --> 00:19:34,039
+So, I think it's important to have the game
+very simple and easy to play—
+
+426
+00:19:34,590 --> 00:19:35,958
+Any world you're building—
+
+427
+00:19:35,958 --> 00:19:37,593
+But then give something to people
+
+428
+00:19:37,593 --> 00:19:40,579
+who stay for longer and spend time
+learning the game,
+
+429
+00:19:40,829 --> 00:19:42,798
+so it's not just the same thing.
+
+430
+00:19:43,882 --> 00:19:45,567
+Next up is Power Wash and Pop Pop.
+
+431
+00:19:45,567 --> 00:19:48,570
+These are less violent games.
+[Laughs]
+
+432
+00:19:48,687 --> 00:19:54,543
+So, what are these worlds?
+Progressive difficulty.
+
+433
+00:19:54,543 --> 00:19:57,529
+Okay, so—
+This is the question that was just asked,
+
+434
+00:19:57,529 --> 00:19:58,197
+<i>“What are the worlds?”</i>
+
+435
+00:19:58,197 --> 00:20:01,617
+So Power Wash is a game where you show up
+and you clean gunk off of cars.
+
+436
+00:20:02,334 --> 00:20:05,721
+Pop Pop is a world where you show up
+and you pop balloons.
+
+437
+00:20:06,054 --> 00:20:08,840
+Relatively simple game mechanics.
+
+438
+00:20:08,840 --> 00:20:12,327
+The thing that makes these
+similar is the fact
+
+439
+00:20:12,327 --> 00:20:14,129
+that they both have progressive
+difficulty.
+
+440
+00:20:14,129 --> 00:20:18,050
+The longer you play Pop Pop, the more the
+balloons get harder, and bigger, and larger.
+
+441
+00:20:18,417 --> 00:20:21,420
+And Power Wash, the harder the gunk gets
+and the harder it is to clean off.
+
+442
+00:20:22,070 --> 00:20:23,338
+And you have to level up.
+
+443
+00:20:23,338 --> 00:20:26,425
+So you have your power
+washer gets leveled up. In Pop Pop,
+
+444
+00:20:26,425 --> 00:20:29,428
+you have these
+playful guns that get leveled up and
+
+445
+00:20:30,512 --> 00:20:31,463
+eventually it creates this
+
+446
+00:20:31,463 --> 00:20:34,499
+what I call good insanity,
+where things are just kind of like crazy.
+
+447
+00:20:34,499 --> 00:20:38,387
+I think one of the things that inspired
+Pop Pop when I first created it is
+
+448
+00:20:38,387 --> 00:20:41,189
+I was playing a ton of Bloons Tower
+defense on my phone,
+
+449
+00:20:41,189 --> 00:20:43,558
+and I really wanted to be able
+to do that in VR.
+
+450
+00:20:43,558 --> 00:20:46,261
+And if you've ever played Bloons Tower
+Defense,
+
+451
+00:20:46,261 --> 00:20:49,014
+the balloons that are coming in
+get insane.
+
+452
+00:20:49,014 --> 00:20:50,599
+It’s just there's so many, it's impossible.
+
+453
+00:20:50,599 --> 00:20:52,768
+We can't recreate that experience
+in Horizon,
+
+454
+00:20:52,768 --> 00:20:55,404
+at least not that I'm aware of,
+because there's just too much—
+
+455
+00:20:55,404 --> 00:20:58,040
+And there's too many physics objects,
+and it's three-dimensional,
+
+456
+00:20:58,040 --> 00:21:00,442
+and that's a whole
+other talk on its own.
+
+457
+00:21:00,442 --> 00:21:01,860
+But the point is,
+
+458
+00:21:01,860 --> 00:21:05,697
+Pop Pop tried to emulate that
+by getting larger and larger balloons.
+
+459
+00:21:05,697 --> 00:21:08,717
+So you had maximum
+20 balloons in the scene at a time.
+
+460
+00:21:09,601 --> 00:21:12,137
+But they got so massive,
+it was just insane.
+
+461
+00:21:12,137 --> 00:21:15,691
+And Power Wash is very similar where the cars
+get harder and harder to clean,
+
+462
+00:21:15,958 --> 00:21:19,711
+and they also reward you
+with a lot of money the harder they are.
+
+463
+00:21:19,711 --> 00:21:20,879
+So that's pretty,
+
+464
+00:21:22,281 --> 00:21:22,914
+pretty fun—
+
+465
+00:21:22,914 --> 00:21:25,817
+Good insanity. Satisfying effects.
+
+466
+00:21:25,817 --> 00:21:27,753
+Both of these have very satisfying
+effects.
+
+467
+00:21:27,753 --> 00:21:29,237
+The dings are literally the same.
+
+468
+00:21:29,237 --> 00:21:32,941
+I'm using the exact same sound effect
+in both of these for the popping.
+
+469
+00:21:32,941 --> 00:21:33,992
+It's like ding-ding.
+
+470
+00:21:33,992 --> 00:21:37,763
+It's so, so satisfying.
+And so using a very satisfying effect,
+
+471
+00:21:37,763 --> 00:21:41,783
+and then a visual effect, and then haptic
+feedback as you're using the
+
+472
+00:21:42,050 --> 00:21:46,038
+weapons in each of these. And then user
+upgrades, they both have user upgrades.
+
+473
+00:21:46,038 --> 00:21:48,890
+So the user has a real impact
+on the power that they have,
+
+474
+00:21:48,890 --> 00:21:51,593
+and I find that users
+having control is fun.
+
+475
+00:21:51,593 --> 00:21:54,329
+What I will say, is two things.
+
+476
+00:21:54,329 --> 00:21:59,001
+Number one, I feel like both of these
+are more geared towards an adult audience.
+
+477
+00:21:59,001 --> 00:22:02,454
+I have not seen a staying power
+in either of these with younger—
+
+478
+00:22:02,821 --> 00:22:06,325
+Younger audiences. And I think it's
+because there's too many variables,
+
+479
+00:22:06,508 --> 00:22:10,228
+and that's hard for the younger audiences
+to really grasp and work with.
+
+480
+00:22:10,579 --> 00:22:14,282
+And so I love both of these games,
+but I think they really are more for
+
+481
+00:22:14,583 --> 00:22:16,168
+kind of an adult or an
+
+482
+00:22:17,369 --> 00:22:19,287
+older teen audience.
+
+483
+00:22:19,287 --> 00:22:21,923
+The other thing I will mention for both of
+these is that they're difficult to balance.
+
+484
+00:22:21,923 --> 00:22:25,644
+These both having progressive difficulty
+means that you have to balance
+
+485
+00:22:25,644 --> 00:22:29,581
+the power of the
+the user versus the power of the level.
+
+486
+00:22:29,848 --> 00:22:34,736
+And also, when you have a new user arrive,
+how does that new user play into what's
+
+487
+00:22:34,820 --> 00:22:35,987
+really difficult to play?
+
+488
+00:22:35,987 --> 00:22:37,489
+Because it's usually—
+
+489
+00:22:37,489 --> 00:22:39,057
+You know, people have been playing
+for more than ten minutes
+
+490
+00:22:39,057 --> 00:22:42,027
+and after ten minutes you
+get to these kind of crazy levels.
+
+491
+00:22:42,027 --> 00:22:45,030
+And then hours later, it's even worse. So—
+
+492
+00:22:45,113 --> 00:22:47,632
+we did our best in Power Wash
+to try to balance this out.
+
+493
+00:22:47,632 --> 00:22:51,269
+So we have an easy bay
+where it takes the lowest level player
+
+494
+00:22:51,269 --> 00:22:54,272
+in the world
+and uses that to spawn a car for them.
+
+495
+00:22:54,439 --> 00:22:58,377
+And then the hard bay spawns the hard car
+for the hardest players in the world.
+
+496
+00:22:58,710 --> 00:23:00,062
+And then it's random selection,
+
+497
+00:23:00,062 --> 00:23:02,297
+so the hard bay
+can still have easy cars in it.
+
+498
+00:23:02,297 --> 00:23:05,784
+And if the low level players are
+really high, then you can still get
+
+499
+00:23:05,967 --> 00:23:07,352
+hard cars in the easy bay.
+
+500
+00:23:07,352 --> 00:23:08,987
+So, there's a little bit of that there.
+
+501
+00:23:08,987 --> 00:23:12,691
+But the balancing act in Power Wash
+took way longer than I expected.
+
+502
+00:23:12,691 --> 00:23:16,111
+So we had the game built in
+like a week, but then it was nearly
+
+503
+00:23:16,111 --> 00:23:20,282
+three weeks of just tweaking the numbers
+to get it to play right
+
+504
+00:23:20,282 --> 00:23:23,402
+where the—
+you didn't get overpowered too quickly.
+
+505
+00:23:23,635 --> 00:23:25,670
+And with Pop Pop,
+I really think we got lucky.
+
+506
+00:23:25,670 --> 00:23:29,875
+I don't know how, but I built it
+in two days and the math just worked well.
+
+507
+00:23:30,092 --> 00:23:31,793
+But this one I spent three weeks literally
+
+508
+00:23:31,793 --> 00:23:35,931
+tweaking numbers until it felt like
+the game was progressing at a decent pace
+
+509
+00:23:36,932 --> 00:23:39,868
+for both users new and old.
+
+510
+00:23:39,868 --> 00:23:42,621
+So, I do think the balancing act here
+is very hard
+
+511
+00:23:42,621 --> 00:23:45,624
+and I wouldn't recommend
+anybody try to tackle this,
+
+512
+00:23:45,891 --> 00:23:48,894
+unless they're willing
+to spend a lot of time tweaking numbers.
+
+513
+00:23:49,044 --> 00:23:52,998
+So, that is Power Wash and Pop Pop. 
+All right—
+
+514
+00:23:52,998 --> 00:23:55,917
+Next up, we're looking at Splash
+and Horizon Royale.
+
+515
+00:23:55,917 --> 00:23:58,937
+So, there is so much
+I can say about these two worlds alone.
+
+516
+00:23:58,937 --> 00:24:02,240
+It could be a talk on its own,
+but here are a few key takeaways.
+
+517
+00:24:02,958 --> 00:24:05,310
+Both of these are social hangout spaces.
+
+518
+00:24:05,310 --> 00:24:06,711
+And I know at the very beginning
+
+519
+00:24:06,711 --> 00:24:09,414
+we talked about this like,
+“Oh man, I hope it's not just games.”
+
+520
+00:24:09,414 --> 00:24:13,702
+Splash is a very perfect example
+of not being a game. But Horizon Royale,
+
+521
+00:24:13,735 --> 00:24:15,687
+most of you wouldn't think of it
+
+522
+00:24:15,687 --> 00:24:19,591
+being a social hangout space.
+But for my experience, that's what it was.
+
+523
+00:24:19,591 --> 00:24:21,710
+It was a social lubricant.
+
+524
+00:24:21,710 --> 00:24:23,578
+The game itself was not important.
+
+525
+00:24:23,578 --> 00:24:25,347
+Sure,
+there was a lot of depth to the game.
+
+526
+00:24:25,347 --> 00:24:26,548
+You could learn how to use the weapons.
+
+527
+00:24:26,548 --> 00:24:29,701
+There was a lot of special features,
+and I had so much fun building a game
+
+528
+00:24:29,701 --> 00:24:33,088
+that I thought was like,
+“Oh, it's this really cool royale PvP game.”
+
+529
+00:24:33,421 --> 00:24:35,941
+And then at the end of the day,
+it was really just people talking about
+
+530
+00:24:35,941 --> 00:24:39,211
+life and having a great time.
+Laughing, making jokes.
+
+531
+00:24:40,078 --> 00:24:43,131
+And the reason people stayed
+was so that they could hang out and talk.
+
+532
+00:24:43,131 --> 00:24:46,251
+And, you know, the game itself—
+
+533
+00:24:46,251 --> 00:24:47,602
+Like I said, it's a social lubricant.
+
+534
+00:24:47,602 --> 00:24:49,104
+It really allowed you to
+
+535
+00:24:49,104 --> 00:24:51,389
+start talking with people
+you wouldn't have otherwise talked with.
+
+536
+00:24:51,389 --> 00:24:55,560
+So, you can definitely use games
+to create social experiences.
+
+537
+00:24:55,560 --> 00:24:58,547
+And I've always felt that
+Horizon is a social space,
+
+538
+00:24:58,697 --> 00:25:02,117
+and so anything that leans into social
+is going to have more
+
+539
+00:25:02,484 --> 00:25:05,687
+staying power in my mind,
+or it's going to be a lot more fun.
+
+540
+00:25:06,955 --> 00:25:07,856
+I do think Royale
+
+541
+00:25:07,856 --> 00:25:10,976
+is a little too complex
+for the younger generations.
+
+542
+00:25:10,976 --> 00:25:12,527
+And there's a lot of things
+we're going to say bad
+
+543
+00:25:12,527 --> 00:25:16,231
+about these two in a second, but for now
+we're going to say social was amazing.
+
+544
+00:25:17,132 --> 00:25:19,551
+And Splash had tons of hangout spots.
+
+545
+00:25:19,551 --> 00:25:20,785
+There was lots of places—
+
+546
+00:25:20,785 --> 00:25:24,472
+You have the DJ booth,
+you've got like the—all the places.
+
+547
+00:25:24,472 --> 00:25:27,509
+There's a little fire pit in the back
+and lots of places
+
+548
+00:25:27,509 --> 00:25:31,012
+you can hang out and just chat with people.
+And lots of little activities.
+
+549
+00:25:31,012 --> 00:25:33,048
+And each of these activities
+was really small.
+
+550
+00:25:33,048 --> 00:25:35,450
+They didn't have to be
+these massive game loops.
+
+551
+00:25:35,450 --> 00:25:36,117
+They could just be,
+
+552
+00:25:36,117 --> 00:25:39,421
+“Hey, I'm going down the water slide.”
+Or, “I'm going to go do the obstacle course.”
+
+553
+00:25:39,905 --> 00:25:42,474
+Or, “I'm going to sit at the
+fire and smoke a marshmallow.”
+
+554
+00:25:43,441 --> 00:25:44,576
+That's not how you say that.
+
+555
+00:25:44,576 --> 00:25:47,245
+Roast a marshmallow. Excuse me.
+
+556
+00:25:47,245 --> 00:25:50,482
+And so the point is that
+those little experiences
+
+557
+00:25:50,482 --> 00:25:52,167
+are also social lubricant.
+
+558
+00:25:52,167 --> 00:25:53,902
+And there was
+things for you to discover.
+
+559
+00:25:53,902 --> 00:25:55,337
+There was a little bit of depth
+there, right?
+
+560
+00:25:55,337 --> 00:25:59,274
+So, you might have discovered
+that if you put a floatie on
+
+561
+00:25:59,274 --> 00:26:01,526
+somebody else,
+you got attached to that person
+
+562
+00:26:01,526 --> 00:26:03,962
+and floated with them.
+And that became really fun,
+
+563
+00:26:03,962 --> 00:26:05,430
+and people
+had to share that with each other.
+
+564
+00:26:05,430 --> 00:26:07,098
+And there was just all these little,
+
+565
+00:26:07,098 --> 00:26:10,101
+little things that you could discover
+as you played.
+
+566
+00:26:11,303 --> 00:26:14,422
+And there was, yeah—there was just lots to
+discover. Lots of little things.
+
+567
+00:26:14,539 --> 00:26:16,291
+So it didn't need a massive game loop.
+
+568
+00:26:16,291 --> 00:26:18,627
+It just had lots of miniature loops.
+
+569
+00:26:18,627 --> 00:26:21,596
+The eventual death of both of these.
+I mean, Splash and Horizon Royale are
+
+570
+00:26:21,596 --> 00:26:23,064
+still getting visitors to this day.
+
+571
+00:26:23,064 --> 00:26:25,100
+So like saying eventual death...
+
+572
+00:26:25,100 --> 00:26:28,887
+But it feels like it because Royale,
+within the first week or two,
+
+573
+00:26:28,887 --> 00:26:30,288
+you had 5,000 visitors.
+
+574
+00:26:30,288 --> 00:26:33,775
+It's just an insane number of people,
+even in today's world, for me at least.
+
+575
+00:26:34,342 --> 00:26:35,777
+I think that's a ton.
+
+576
+00:26:35,777 --> 00:26:39,681
+But it died very quickly after that.
+And Splash was super successful
+
+577
+00:26:39,681 --> 00:26:42,751
+for the first few months
+and we didn't continue updating,
+
+578
+00:26:42,751 --> 00:26:44,219
+which was a big part of the reason.
+
+579
+00:26:45,470 --> 00:26:48,707
+But the
+point is, I feel like, I could be wrong—
+
+580
+00:26:48,857 --> 00:26:51,843
+But I feel like what
+we generated in both of these worlds
+
+581
+00:26:51,843 --> 00:26:54,829
+was something that was really unique
+and really exciting.
+
+582
+00:26:55,080 --> 00:26:58,083
+And once it became less
+unique and less exciting, once
+
+583
+00:26:58,083 --> 00:27:02,387
+people started seeing it in other worlds,
+it was less of a draw.
+
+584
+00:27:02,387 --> 00:27:05,390
+So, Royale launched and had—
+
+585
+00:27:08,093 --> 00:27:09,361
+[...]
+
+586
+00:27:09,361 --> 00:27:14,516
+It had, I think one of the first times
+we saw maps being loaded randomly,
+
+587
+00:27:14,516 --> 00:27:14,816
+right?
+
+588
+00:27:14,816 --> 00:27:17,969
+And I remember,
+I think I thought every creator in Horizon
+
+589
+00:27:17,969 --> 00:27:20,455
+had come and stopped by
+to see this unique thing.
+
+590
+00:27:20,455 --> 00:27:22,223
+And it was still in a gray box state
+at that time,
+
+591
+00:27:22,223 --> 00:27:24,209
+that first week
+when it was just blowing up.
+
+592
+00:27:24,209 --> 00:27:25,644
+So there was nothing to look at visually,
+
+593
+00:27:25,644 --> 00:27:26,878
+it was just all gray boxes.
+
+594
+00:27:26,878 --> 00:27:31,466
+But what you got to see was tiles
+being placed randomly on the grid,
+
+595
+00:27:31,733 --> 00:27:35,387
+and then you could go and play on the grid
+in this kind of random map generation.
+
+596
+00:27:35,637 --> 00:27:37,372
+And what I love about this
+is that we inspired
+
+597
+00:27:37,372 --> 00:27:41,159
+loads of creators to go and make map
+generating worlds where they—
+
+598
+00:27:41,276 --> 00:27:43,411
+You saw Mighty Tiny
+is probably the most prominent example,
+
+599
+00:27:43,411 --> 00:27:46,398
+but you can load into that
+with a different map every time you play.
+
+600
+00:27:46,398 --> 00:27:48,750
+And I'm so glad we got to inspire that.
+
+601
+00:27:48,750 --> 00:27:51,052
+Whether or not
+they actually saw our world, I don't know.
+
+602
+00:27:51,052 --> 00:27:54,055
+But the point is
+that was what I had hoped to accomplish
+
+603
+00:27:54,873 --> 00:27:56,875
+by making Royale. So—
+
+604
+00:27:57,842 --> 00:27:58,877
+It was unique at first, but
+
+605
+00:27:58,877 --> 00:28:02,814
+then immediately after that, it's now
+just another Super Rumble. Another PvP
+
+606
+00:28:02,814 --> 00:28:05,817
+and there's plenty of those out there. So—
+
+607
+00:28:06,468 --> 00:28:08,370
+Not unique anymore.
+
+608
+00:28:08,370 --> 00:28:09,621
+It also is—
+
+609
+00:28:09,621 --> 00:28:12,407
+It was also flawed in the beginning
+because there was tons of Horizon bugs.
+
+610
+00:28:12,407 --> 00:28:14,159
+And if I had to make a recommendation
+
+611
+00:28:14,159 --> 00:28:17,312
+to anybody running into a Horizon bug that's
+preventing the build of their world,
+
+612
+00:28:17,312 --> 00:28:20,298
+we spent four months with the Horizon team
+fixing the bug.
+
+613
+00:28:20,515 --> 00:28:22,133
+I would have either republished it, 
+
+614
+00:28:22,133 --> 00:28:24,803
+might have been an option because at
+the time that's how the algorithm worked.
+
+615
+00:28:24,803 --> 00:28:26,004
+Not today. That's not a problem.
+
+616
+00:28:26,004 --> 00:28:29,007
+That's why we see Horizon Royale still
+getting traffic pretty much every day.
+
+617
+00:28:30,258 --> 00:28:33,261
+But the...
+
+618
+00:28:34,112 --> 00:28:36,781
+recommendation would be to just stop
+developing that mechanic.
+
+619
+00:28:36,781 --> 00:28:38,366
+Report it to Meta. Do your due diligence,
+
+620
+00:28:38,366 --> 00:28:40,318
+but go find something else to develop
+
+621
+00:28:40,318 --> 00:28:42,921
+because the asset spawning bug
+was so broken,
+
+622
+00:28:42,921 --> 00:28:44,939
+if you had multiple players
+they saw different things.
+
+623
+00:28:44,939 --> 00:28:46,508
+It was just like, really—
+
+624
+00:28:46,508 --> 00:28:49,461
+I'm assuming it's fixed
+because we spent four months fixing it.
+
+625
+00:28:49,461 --> 00:28:52,947
+But if you run into a bug like that
+that's like game-breaking, breaks
+
+626
+00:28:52,947 --> 00:28:53,398
+your mechanic,
+
+627
+00:28:53,398 --> 00:28:56,785
+it's probably best to just shelf
+that idea and work on something else.
+
+628
+00:28:58,286 --> 00:29:01,289
+But that’s just my two cents.
+
+629
+00:29:02,056 --> 00:29:06,511
+The next thought there is Splash.
+
+630
+00:29:06,511 --> 00:29:08,630
+We gave out those scripts
+and I'm glad we did.
+
+631
+00:29:08,630 --> 00:29:11,099
+And we got to see this start showing up
+in other worlds.
+
+632
+00:29:11,099 --> 00:29:13,918
+Like Kate Austin's world had a great
+implementation of the water slide,
+
+633
+00:29:13,918 --> 00:29:16,921
+which I really enjoyed. And...
+
+634
+00:29:17,238 --> 00:29:19,224
+But you start 
+seeing like the climbing mechanics
+
+635
+00:29:19,224 --> 00:29:21,509
+and all these things that we had shown off
+on how to build
+
+636
+00:29:21,509 --> 00:29:23,511
+appearing in other worlds.
+So it stops being less—
+
+637
+00:29:23,511 --> 00:29:27,081
+But I do think, you know, Waffle literally
+told me he's like, “You could just like,”
+
+638
+00:29:27,081 --> 00:29:30,385
+“continue updating Splash
+and it'll stay stay popular.”
+
+639
+00:29:30,752 --> 00:29:32,003
+And I think he's right.
+
+640
+00:29:32,003 --> 00:29:33,021
+And we didn't like we went
+
+641
+00:29:33,021 --> 00:29:36,207
+and worked on other projects
+and just kind of did other things.
+
+642
+00:29:36,841 --> 00:29:38,576
+So eventually,
+it's kind of fallen to this place
+
+643
+00:29:38,576 --> 00:29:40,195
+where I still hear people talk about it
+and they're like, “Yeah,”
+
+644
+00:29:40,195 --> 00:29:42,080
+“I wish you'd continue
+working on Splash.” And, eh
+
+645
+00:29:43,648 --> 00:29:46,468
+I've got other projects I'm working on
+now, but
+
+646
+00:29:46,468 --> 00:29:51,122
+anyway. So I think that also alludes
+to my recommendation for worlds
+
+647
+00:29:51,122 --> 00:29:52,290
+you want to build are worlds
+
+648
+00:29:52,290 --> 00:29:56,094
+that don't require you to continuously
+update it to be successful.
+
+649
+00:29:56,094 --> 00:29:57,595
+So something like Murder Manor,
+
+650
+00:29:57,595 --> 00:30:00,598
+where I haven't really put an update in in
+six months
+
+651
+00:30:00,832 --> 00:30:01,466
+is nice.
+
+652
+00:30:01,466 --> 00:30:03,535
+It's very nice to be able
+to work on other projects.
+
+653
+00:30:03,535 --> 00:30:05,270
+Like that's my brain.
+
+654
+00:30:05,270 --> 00:30:07,789
+My brain likes to do multiple things.
+I know not everybody's like that.
+
+655
+00:30:07,789 --> 00:30:10,792
+So just kind of work with your
+your brain, right?
+
+656
+00:30:11,209 --> 00:30:12,627
+Player motion is uncomfortable.
+
+657
+00:30:12,627 --> 00:30:14,279
+Both of these worlds had a player motion.
+
+658
+00:30:14,279 --> 00:30:15,947
+That's a bad thing.
+
+659
+00:30:15,947 --> 00:30:17,999
+New users cannot do player motion.
+
+660
+00:30:17,999 --> 00:30:20,718
+I definitely attribute
+some of the death of these
+
+661
+00:30:20,718 --> 00:30:23,121
+to being the fact
+that you were being moved.
+
+662
+00:30:24,289 --> 00:30:26,808
+And in Splash, it was a little bit
+more like you expected it,
+
+663
+00:30:26,808 --> 00:30:26,975
+right?
+
+664
+00:30:26,975 --> 00:30:29,978
+You're stepping on a water slide
+or whatever it is.
+
+665
+00:30:30,211 --> 00:30:31,613
+In Murder Manor, you're getting blown up.
+
+666
+00:30:31,613 --> 00:30:34,616
+So maybe a
+little less expected, but
+
+667
+00:30:34,949 --> 00:30:35,300
+yeah.
+
+668
+00:30:35,300 --> 00:30:37,852
+Point is: try not to use player motion.
+
+669
+00:30:37,852 --> 00:30:40,588
+It can be very uncomfortable.
+
+670
+00:30:40,588 --> 00:30:41,773
+And Royale was over complicated,
+
+671
+00:30:41,773 --> 00:30:42,407
+We talked about that.
+
+672
+00:30:42,407 --> 00:30:44,943
+So moving on to the next slide.
+
+673
+00:30:44,943 --> 00:30:45,326
+All right.
+
+674
+00:30:45,326 --> 00:30:47,328
+We're talking about the Horizon
+algorithm now.
+
+675
+00:30:47,328 --> 00:30:50,064
+And we're specifically—
+we're going to address mobile game
+
+676
+00:30:50,064 --> 00:30:53,902
+development kind of in depth
+a little bit here
+
+677
+00:30:55,169 --> 00:30:57,772
+because this is Meta's priority.
+
+678
+00:30:57,772 --> 00:31:01,259
+We need to recognize that we should be
+following what Meta is looking for.
+
+679
+00:31:01,259 --> 00:31:02,660
+and they want us to be developing
+for mobile.
+
+680
+00:31:02,660 --> 00:31:05,163
+This doesn't mean
+you do need to be mobile-first.
+
+681
+00:31:05,163 --> 00:31:07,999
+This means you should be thinking,
+“If I'm building a VR world,”
+
+682
+00:31:07,999 --> 00:31:10,518
+“it should be playable on mobile as well.”
+It doesn't need to be perfect.
+
+683
+00:31:10,518 --> 00:31:11,970
+It doesn't need to be the best
+mobile game.
+
+684
+00:31:11,970 --> 00:31:13,821
+It can still take a minute to get in,
+
+685
+00:31:13,821 --> 00:31:16,824
+but it should be playable on mobile
+at the very least.
+
+686
+00:31:17,208 --> 00:31:21,980
+Mobile-first though, means that in
+less than 20 seconds you need to be to the fun.
+
+687
+00:31:22,347 --> 00:31:26,267
+And this is because sometimes people
+coming in on mobile only have one minute.
+
+688
+00:31:26,601 --> 00:31:30,655
+Like that's real,
+and I will attest that I am one of them.
+
+689
+00:31:30,655 --> 00:31:34,976
+I've literally been waiting outside
+of a restaurant for my food to come out,
+
+690
+00:31:35,159 --> 00:31:38,963
+and I will be jumping into Horizon
+playing Power Wash. And I'll have one
+
+691
+00:31:38,963 --> 00:31:40,582
+or maybe two minutes to play,
+
+692
+00:31:40,582 --> 00:31:43,434
+and then somebody shows up
+and I have to close my phone down.
+
+693
+00:31:43,434 --> 00:31:44,702
+Like, this is real.
+
+694
+00:31:44,702 --> 00:31:47,639
+And one of the things
+I love about Powerwash is
+
+695
+00:31:47,639 --> 00:31:50,692
+I can literally walk in and play for 20 seconds
+and then walk out, and it just
+
+696
+00:31:50,692 --> 00:31:52,577
+is a game that has that.
+
+697
+00:31:52,577 --> 00:31:57,565
+And what makes that possible in my mind
+is miniature loops and major loops.
+
+698
+00:31:57,565 --> 00:32:01,219
+So the miniature loop in Power Wash
+is where you're cleaning the gunk off.
+
+699
+00:32:01,502 --> 00:32:04,138
+And when you clean,
+that feels super satisfying,
+
+700
+00:32:04,138 --> 00:32:06,357
+and you're getting paid for it 
+in that game.
+
+701
+00:32:06,357 --> 00:32:09,360
+And so you're rewarded in many ways.
+
+702
+00:32:09,594 --> 00:32:10,979
+And then there's major loops,
+
+703
+00:32:10,979 --> 00:32:13,982
+which is when you finish a car
+and the next car comes in.
+
+704
+00:32:14,632 --> 00:32:16,618
+And there's an even what
+I call a massive loop
+
+705
+00:32:16,618 --> 00:32:20,038
+that I didn't put into the slide deck,
+but a massive loop in Power Wash is that
+
+706
+00:32:20,271 --> 00:32:21,389
+because the game is so—
+
+707
+00:32:21,389 --> 00:32:23,458
+There's an end point,
+
+708
+00:32:24,742 --> 00:32:27,061
+but you want people to keep playing,
+
+709
+00:32:27,061 --> 00:32:29,330
+we built a prestige system in.
+And if you haven't played
+
+710
+00:32:29,330 --> 00:32:32,333
+a lot of mobile games that have prestige,
+what that means is when
+
+711
+00:32:32,333 --> 00:32:36,321
+you basically reach the end of the game,
+you can reset back to level
+
+712
+00:32:36,321 --> 00:32:40,158
+one and restart,
+but you get a bonus multiplier.
+
+713
+00:32:40,408 --> 00:32:44,312
+And so in the case of Power Wash,
+you can prestige
+
+714
+00:32:44,462 --> 00:32:47,882
+and double your money
+that you're earning from level one.
+
+715
+00:32:47,882 --> 00:32:49,050
+And you get to start all over again.
+
+716
+00:32:49,050 --> 00:32:51,753
+And for people who want to seek that out,
+that's a lot of fun.
+
+717
+00:32:51,753 --> 00:32:53,871
+So we have miny, major,
+and even massive loops
+
+718
+00:32:53,871 --> 00:32:55,757
+if you want to like
+literally reset the players.
+
+719
+00:32:55,757 --> 00:32:58,860
+And I felt like we kind of had to in there.
+If you don't have to, don't do it.
+
+720
+00:32:59,210 --> 00:33:02,163
+But you definitely need mini
+and major loops.
+
+721
+00:33:02,163 --> 00:33:04,432
+Mini loops are the small fun, moment-
+to-moment
+
+722
+00:33:04,432 --> 00:33:07,285
+fun. And major loops are the 
+thing that keeps you
+
+723
+00:33:07,285 --> 00:33:08,670
+excited to keep playing.
+
+724
+00:33:09,721 --> 00:33:12,523
+All right.
+
+725
+00:33:12,523 --> 00:33:13,224
+I wanted to
+
+726
+00:33:13,224 --> 00:33:17,161
+repeat this again because I think it's
+so important: under 20 seconds.
+
+727
+00:33:17,161 --> 00:33:19,797
+Like your target should be 10 seconds
+to get to fun.
+
+728
+00:33:19,797 --> 00:33:23,935
+People, I think, have felt like they saw
+the 20 second number and said, “Oh yeah,”
+
+729
+00:33:23,935 --> 00:33:26,938
+“I can make it 20 seconds in the beginning
+before you get to the fun.”
+
+730
+00:33:26,938 --> 00:33:27,355
+No, no, no.
+
+731
+00:33:27,355 --> 00:33:31,309
+It's like, if you hit 20 seconds they're 
+leaving your world.
+
+732
+00:33:31,492 --> 00:33:34,429
+Or they start leaving your world
+because it's too long. So you should
+
+733
+00:33:34,429 --> 00:33:37,432
+try 10 seconds as your target.
+
+734
+00:33:37,432 --> 00:33:40,018
+Like that would be my recommendation.
+
+735
+00:33:40,018 --> 00:33:44,038
+The session length.
+Whether we're talking about VR or mobile,
+
+736
+00:33:44,038 --> 00:33:47,358
+I think five minutes should be like
+your minimum target session length.
+
+737
+00:33:47,358 --> 00:33:50,578
+So if you're thinking about an experience,
+when I was developing Powerwash
+
+738
+00:33:50,578 --> 00:33:54,198
+I thought about how long does it take
+to clean the first car by yourself?
+
+739
+00:33:54,382 --> 00:33:56,818
+And the time in my mind was five minutes.
+It takes you five minutes.
+
+740
+00:33:56,818 --> 00:33:57,719
+It's a long time,
+
+741
+00:33:57,719 --> 00:34:00,688
+but there's miniature loops in there
+on top of the miniature loop.
+
+742
+00:34:00,688 --> 00:34:02,457
+So you have the mini
+loop of cleaning each gunk,
+
+743
+00:34:02,457 --> 00:34:05,209
+but then you can also upgrade
+your power washer
+
+744
+00:34:05,209 --> 00:34:07,161
+while you're in that first
+five minute loop.
+
+745
+00:34:07,161 --> 00:34:10,164
+And that's super satisfying
+because it doubles up your speed.
+
+746
+00:34:10,431 --> 00:34:13,434
+And that doubling up of speed
+is a hooking algorithm.
+
+747
+00:34:13,434 --> 00:34:15,053
+It's like a hook.
+
+748
+00:34:15,053 --> 00:34:18,172
+When you start really slow and
+it takes forever to clean a level one car,
+
+749
+00:34:18,289 --> 00:34:21,542
+but then you go and level up your power 
+washer by one level,
+
+750
+00:34:21,542 --> 00:34:25,730
+and it literally doubles your speed
+because you're damage goes from 1 to 2
+
+751
+00:34:26,130 --> 00:34:28,916
+and you feel that. And it's so impactful.
+
+752
+00:34:28,916 --> 00:34:30,301
+And then you go and do it a third time,
+
+753
+00:34:30,301 --> 00:34:33,171
+it goes from 2 to 3,
+which is a much smaller increment.
+
+754
+00:34:33,171 --> 00:34:34,072
+It's not a double now.
+
+755
+00:34:34,072 --> 00:34:37,075
+It's now it's just a 50% increase.
+
+756
+00:34:37,075 --> 00:34:40,678
+That is still—
+you're trying to get the same hit you got the
+
+757
+00:34:40,678 --> 00:34:41,846
+first time, but you can't.
+
+758
+00:34:43,765 --> 00:34:46,768
+It's engaging as waffle put it.
+
+759
+00:34:46,818 --> 00:34:49,036
+I feel like I'm balancing a fine line
+here.
+
+760
+00:34:49,036 --> 00:34:52,824
+I'm like really nervous, to be honest,
+as I develop what I consider to be
+
+761
+00:34:52,824 --> 00:34:54,292
+addicting games.
+
+762
+00:34:54,292 --> 00:34:58,012
+But, engaging is definitely
+a more positive spin on that.
+
+763
+00:34:58,279 --> 00:35:03,084
+But I do find myself actually being
+almost negatively addicted to these games
+
+764
+00:35:03,084 --> 00:35:06,354
+where I have to play and I can't leave,
+and I have a hard time stopping.
+
+765
+00:35:06,587 --> 00:35:09,357
+So the negative connotation
+could be there.
+
+766
+00:35:09,357 --> 00:35:13,494
+So, I have a moral dilemma there
+that I'm kind of facing as I develop
+
+767
+00:35:14,028 --> 00:35:17,031
+engaging, quote unquote, games.
+
+768
+00:35:18,416 --> 00:35:20,852
+But yeah, so—
+But there are a lot of fun, right?
+
+769
+00:35:20,852 --> 00:35:23,337
+So it's a lot of fun. 5 to 15 minutes.
+
+770
+00:35:23,337 --> 00:35:27,258
+So we start with making a game,
+and you imagine your first major
+
+771
+00:35:27,258 --> 00:35:29,510
+loop is a five minute loop.
+At least that's what I did.
+
+772
+00:35:29,510 --> 00:35:32,780
+And you can take your own spin on this
+however you want to take a spin on it.
+
+773
+00:35:32,780 --> 00:35:35,817
+But then you can imagine, 
+“Oh, they play three of those.”
+
+774
+00:35:36,083 --> 00:35:37,218
+That's 15 minutes, right?
+
+775
+00:35:38,703 --> 00:35:40,371
+How do
+you get them up to like a 15 minutes?
+
+776
+00:35:40,371 --> 00:35:42,140
+If you can get them
+up to a 15 minute average session—
+
+777
+00:35:42,140 --> 00:35:45,143
+[...]
+
+778
+00:35:45,560 --> 00:35:47,612
+And obviously mobile's
+a little bit shorter session time,
+
+779
+00:35:47,612 --> 00:35:50,748
+but when we're thinking about 15 minute
+average session length for a VR
+
+780
+00:35:50,748 --> 00:35:53,751
+user, that's a pretty good
+chunk of their session time.
+
+781
+00:35:54,085 --> 00:35:58,339
+At the Meta Connect Summit, we were told,
+and they should be
+
+782
+00:35:58,339 --> 00:36:01,342
+putting videos out with this,
+so you can watch those soon too.
+
+783
+00:36:02,927 --> 00:36:05,096
+But we were told that the average session
+length
+
+784
+00:36:05,096 --> 00:36:07,849
+is about 40, 45 minutes for VR users.
+
+785
+00:36:07,849 --> 00:36:10,468
+So if you're taking up
+15 minutes of their time in VR,
+
+786
+00:36:10,468 --> 00:36:12,303
+you're taking up
+a good majority of their time.
+
+787
+00:36:12,303 --> 00:36:17,208
+And I know for the games that I play,
+like Powerwash and Murder Manor and heck,
+
+788
+00:36:17,208 --> 00:36:20,328
+even Royale back in the day,
+those games we would spend hours in.
+
+789
+00:36:20,411 --> 00:36:22,680
+And a lot of users
+would be there for an hour.
+
+790
+00:36:22,680 --> 00:36:25,233
+And so it was a prime spot.
+
+791
+00:36:25,233 --> 00:36:28,769
+So we had a strong audience that really 
+enjoyed that game
+
+792
+00:36:29,003 --> 00:36:29,971
+and that was pretty awesome.
+
+793
+00:36:29,971 --> 00:36:32,807
+Very, very rewarding as a creator even
+
+794
+00:36:32,807 --> 00:36:35,760
+just like—
+Yeah, it's pretty awesome to see that.
+
+795
+00:36:35,760 --> 00:36:36,861
+But that's a good target.
+
+796
+00:36:36,861 --> 00:36:37,311
+So like
+
+797
+00:36:37,311 --> 00:36:40,498
+think about 15 minutes as a good target
+to get people spending time in there.
+
+798
+00:36:40,982 --> 00:36:42,717
+And then also think about those new users.
+
+799
+00:36:42,717 --> 00:36:44,402
+Really,
+really think about those new users.
+
+800
+00:36:44,402 --> 00:36:47,221
+You really need to nail
+their very first experience
+
+801
+00:36:47,221 --> 00:36:49,740
+and make sure that it's amazing,
+so that they actually end up
+
+802
+00:36:49,740 --> 00:36:52,910
+staying for the first five minutes,
+that they end up staying for those next
+
+803
+00:36:52,910 --> 00:36:53,778
+15 minutes.
+
+804
+00:36:53,778 --> 00:36:56,547
+And that they're coming back the next day
+to not just spend 15 minutes,
+
+805
+00:36:56,547 --> 00:36:57,682
+but to spend maybe an hour.
+
+806
+00:36:58,883 --> 00:37:00,902
+And so
+how do you do that is very difficult.
+
+807
+00:37:00,902 --> 00:37:03,738
+It's like, okay, you got to get them
+to the fun really fast.
+
+808
+00:37:03,738 --> 00:37:07,608
+You've got to build something that rewards
+them. Give them enough information
+
+809
+00:37:07,608 --> 00:37:10,611
+that they've learned enough
+on how to play the game.
+
+810
+00:37:11,362 --> 00:37:14,065
+If you can socially engage them,
+
+811
+00:37:14,065 --> 00:37:16,367
+so that they have some friends there
+that they want to bring back—
+
+812
+00:37:16,367 --> 00:37:17,418
+I don't know, there's a lot to it.
+
+813
+00:37:17,418 --> 00:37:20,488
+But definitely think about it
+as you're developing.
+
+814
+00:37:20,488 --> 00:37:23,157
+And one of the ways that I do that,
+personally, when I'm developing a world is
+
+815
+00:37:23,157 --> 00:37:25,643
+I always think,
+what's the very first experience,
+
+816
+00:37:25,643 --> 00:37:26,777
+and I start there.
+
+817
+00:37:26,777 --> 00:37:28,346
+I don't know
+if this is the right way to do it.
+
+818
+00:37:28,346 --> 00:37:31,849
+You should probably have an idea
+of what the full
+
+819
+00:37:32,099 --> 00:37:35,253
+user experience is from the beginning.
+But I always start at the very beginning,
+
+820
+00:37:35,253 --> 00:37:39,023
+and then I tweak it. And I keep feeling it
+out. Like I use a little bit of my own
+
+821
+00:37:39,023 --> 00:37:43,010
+gut and intuition to be like, “Okay,
+what is this like as a brand new user?”
+
+822
+00:37:43,010 --> 00:37:46,247
+I load into the world.
+So I go into preview mode, I walk in,
+
+823
+00:37:46,380 --> 00:37:48,149
+and I try to just imagine
+being a brand new user.
+
+824
+00:37:48,149 --> 00:37:51,719
+And I do that over, and over, and over again
+every single time.
+
+825
+00:37:51,719 --> 00:37:55,289
+And even in my my scripts in TypeScript,
+I've got a button that I can press
+
+826
+00:37:55,289 --> 00:37:58,292
+that resets me back
+to being like day zero.
+
+827
+00:37:58,309 --> 00:38:02,313
+So every time I can try
+testing it as a new user.
+
+828
+00:38:03,331 --> 00:38:04,081
+So building
+
+829
+00:38:04,081 --> 00:38:07,285
+debugging tools and such like that
+is really, really useful.
+
+830
+00:38:08,269 --> 00:38:10,588
+But definitely a higher level topic.
+
+831
+00:38:10,588 --> 00:38:13,074
+But point is, really refining
+
+832
+00:38:13,074 --> 00:38:16,527
+that very first experience
+and reliving it over and over again.
+
+833
+00:38:16,527 --> 00:38:19,764
+But then, the other thing that we did
+with Power Wash that I think worked out
+
+834
+00:38:19,764 --> 00:38:22,316
+pretty well for us
+is we kept bringing in new testers
+
+835
+00:38:22,316 --> 00:38:24,618
+so that we could see
+what that first experience was like.
+
+836
+00:38:24,618 --> 00:38:27,888
+So the first time we brought in testers,
+we had a button that would spawn the car
+
+837
+00:38:27,888 --> 00:38:30,541
+in, and we found that
+that was a bad experience.
+
+838
+00:38:30,541 --> 00:38:32,610
+People couldn't figure out the button,
+they were confused.
+
+839
+00:38:32,610 --> 00:38:34,829
+It was too much to try and figure out
+right off the bat,
+
+840
+00:38:34,829 --> 00:38:38,032
+even with like text and pop-ups
+and all the things that you could possibly
+
+841
+00:38:38,032 --> 00:38:38,883
+do to make that button
+
+842
+00:38:39,867 --> 00:38:40,651
+more visible.
+
+843
+00:38:40,651 --> 00:38:42,720
+So we had to make sure it happened
+automatically.
+
+844
+00:38:42,720 --> 00:38:45,723
+You walked in
+and then poof, the thing happened.
+
+845
+00:38:46,007 --> 00:38:47,958
+And we kept bringing in new users
+to test and
+
+846
+00:38:47,958 --> 00:38:49,310
+figure out what was the next problem.
+
+847
+00:38:49,310 --> 00:38:52,613
+And we learned, “Oh, they can't figure out
+what to do because it wasn't very clear.”
+
+848
+00:38:52,613 --> 00:38:56,701
+So we start adding like exclamations
+above the thing and make it as clear
+
+849
+00:38:56,701 --> 00:38:58,319
+as we possibly can.
+
+850
+00:38:58,319 --> 00:39:01,322
+So bringing
+people in to test is very important.
+
+851
+00:39:01,372 --> 00:39:05,009
+And making sure that that initial user
+experience is what you expect it to be
+
+852
+00:39:05,009 --> 00:39:08,696
+because there's often times that
+when you're playing it, you miss—
+
+853
+00:39:08,696 --> 00:39:11,699
+Things that are obvious to you are just completely
+not obvious to new users.
+
+854
+00:39:12,266 --> 00:39:13,818
+Okay.
+
+855
+00:39:13,818 --> 00:39:16,470
+Continuing on the algorithm
+side of things. Things
+
+856
+00:39:16,470 --> 00:39:19,340
+that Horizon is looking for.
+We know that we have to get people, users
+
+857
+00:39:19,340 --> 00:39:21,625
+to return within seven days,
+or at least I hope you know this.
+
+858
+00:39:21,625 --> 00:39:25,563
+And if you don't, take a note.
+When a user first visits,
+
+859
+00:39:26,130 --> 00:39:28,733
+they need to visit the next day
+through the next
+
+860
+00:39:28,733 --> 00:39:31,769
+seven days for that to be considered
+like a retained user.
+
+861
+00:39:32,002 --> 00:39:34,805
+But then there's this kind of larger
+algorithm in Horizon
+
+862
+00:39:34,805 --> 00:39:36,507
+that's looking at the monthly version
+of this. 
+
+863
+00:39:36,507 --> 00:39:40,077
+Did they return for the next week,
+and the next week, and the next week?
+
+864
+00:39:40,344 --> 00:39:42,747
+And so on, and for at least four weeks.
+
+865
+00:39:42,747 --> 00:39:44,698
+And so when you're
+really thinking about like,
+
+866
+00:39:44,698 --> 00:39:46,467
+“Oh, how do I get this to be like something”
+
+867
+00:39:46,467 --> 00:39:49,253
+“that Meta will pick up
+and start promoting?”
+
+868
+00:39:49,253 --> 00:39:50,671
+This is the numbers they're looking at.
+
+869
+00:39:50,671 --> 00:39:52,673
+They're looking to see are your users,
+
+870
+00:39:52,673 --> 00:39:56,761
+a good percentage of your users
+retaining for months? Not just days,
+
+871
+00:39:56,761 --> 00:39:59,997
+not just a week,
+but actually like monthly.
+
+872
+00:40:00,748 --> 00:40:02,750
+So be thinking about that
+as you're developing.
+
+873
+00:40:02,750 --> 00:40:04,652
+And one of the biggest downsides
+to Power Wash is
+
+874
+00:40:04,652 --> 00:40:06,470
+I really believe it's a two week game.
+
+875
+00:40:06,470 --> 00:40:08,939
+I do not think it's a four week game.
+And it's one thing that we're
+
+876
+00:40:08,939 --> 00:40:11,942
+trying to figure out how do we make it
+so that you can play it for longer?
+
+877
+00:40:12,626 --> 00:40:14,428
+Because right now
+the game ends after two weeks.
+
+878
+00:40:14,428 --> 00:40:16,397
+You've basically
+done everything you can do.
+
+879
+00:40:17,665 --> 00:40:19,283
+And that kind of stinks.
+
+880
+00:40:19,283 --> 00:40:21,535
+I don't hate it.
+I still love the game.
+
+881
+00:40:21,535 --> 00:40:23,988
+I put a lot of fun into it,
+but I might go work on the next project
+
+882
+00:40:23,988 --> 00:40:26,424
+and just leave it where it's at
+and be like, “Oh, that's okay.”
+
+883
+00:40:26,424 --> 00:40:27,408
+It doesn't hit that target,
+
+884
+00:40:27,408 --> 00:40:29,577
+but we did our best.
+
+885
+00:40:29,577 --> 00:40:31,579
+Next up: Progressive depth.
+
+886
+00:40:31,579 --> 00:40:33,647
+So we talked a lot about depth here
+and there.
+
+887
+00:40:33,647 --> 00:40:36,267
+But let's like really dive into it.
+So here's a graph.
+
+888
+00:40:36,267 --> 00:40:38,569
+This is a similar graph to the one
+represented at the summit,
+
+889
+00:40:38,569 --> 00:40:40,821
+and you'll see that in one of those talks,
+like I mentioned.
+
+890
+00:40:40,821 --> 00:40:44,341
+And what you have here on the left is the
+number of visitors visiting your world.
+
+891
+00:40:44,642 --> 00:40:46,977
+And this is how much knowledge they have.
+
+892
+00:40:46,977 --> 00:40:51,198
+So this means
+if you were the only visitor to your world
+
+893
+00:40:51,198 --> 00:40:54,919
+and you're the creator,
+you have 100% depth of knowledge.
+
+894
+00:40:55,169 --> 00:40:58,939
+The second you add a second visitor,
+you can share a lot of knowledge
+
+895
+00:40:58,939 --> 00:41:00,624
+with them,
+but you can't give them everything.
+
+896
+00:41:00,624 --> 00:41:03,177
+You can do your best,
+but it's going to be slightly less.
+
+897
+00:41:03,177 --> 00:41:07,731
+And as you grow your users to the point
+where Meta is pushing out
+
+898
+00:41:07,998 --> 00:41:10,801
+this to the world, and everybody's seeing it, 
+and everybody’s jumping
+
+899
+00:41:10,801 --> 00:41:12,570
+in. And you can advertise
+your own world yourself too.
+
+900
+00:41:12,570 --> 00:41:14,722
+It doesn't have to be by Meta,
+but point is
+
+901
+00:41:14,722 --> 00:41:18,058
+if your world's getting advertised
+and tons of new users are showing up,
+
+902
+00:41:20,127 --> 00:41:22,346
+suddenly there's no depth of knowledge.
+
+903
+00:41:22,346 --> 00:41:24,048
+Nobody knows anything about your game.
+
+904
+00:41:24,048 --> 00:41:26,634
+They're showing up with actually
+no knowledge whatsoever,
+
+905
+00:41:26,634 --> 00:41:29,637
+and they’ve got to
+still have a good experience.
+
+906
+00:41:29,937 --> 00:41:33,240
+And so I think a lot of us,
+and I fully admit to being in
+
+907
+00:41:33,240 --> 00:41:36,527
+this, are down here a little bit
+where we've got a lot of users
+
+908
+00:41:36,527 --> 00:41:39,630
+who know our game
+very well, and people are showing up
+
+909
+00:41:39,830 --> 00:41:40,915
+and they're new users,
+
+910
+00:41:40,915 --> 00:41:43,951
+but they're showing up in an instance
+with people who do know the game.
+
+911
+00:41:44,268 --> 00:41:47,071
+And those people are really what continues
+
+912
+00:41:47,071 --> 00:41:50,057
+training those new visitors
+and teaching them how to play.
+
+913
+00:41:50,658 --> 00:41:52,793
+And so that's okay.
+
+914
+00:41:52,793 --> 00:41:55,312
+But it's going to prevent you
+from getting to here.
+
+915
+00:41:55,312 --> 00:41:58,132
+Like if your game doesn't
+have the ability to be played—
+
+916
+00:41:58,132 --> 00:42:00,801
+Or your world, whether it's a game
+or not, this doesn't really matter.
+
+917
+00:42:02,836 --> 00:42:05,039
+They need to be able
+
+918
+00:42:05,039 --> 00:42:08,092
+to enjoy the experience
+the moment they arrive with
+
+919
+00:42:08,092 --> 00:42:11,545
+nobody—like you need to show up in a world
+that has zero people in there
+
+920
+00:42:11,545 --> 00:42:12,897
+who've ever played your world,
+
+921
+00:42:12,897 --> 00:42:14,815
+and they need to be able
+to have a good time.
+
+922
+00:42:14,815 --> 00:42:16,050
+And then they come back with that
+
+923
+00:42:16,050 --> 00:42:19,486
+same group of people let’s say, the next day—
+their depth is going to grow.
+
+924
+00:42:19,820 --> 00:42:21,505
+And so I call this like—
+
+925
+00:42:21,505 --> 00:42:24,542
+I don't know, I don't have a really good
+name for it. But progressive depth, right?
+
+926
+00:42:25,142 --> 00:42:27,228
+Over time,
+the longer they play, the more they come
+
+927
+00:42:27,228 --> 00:42:29,330
+back, the larger
+their depth is going to be.
+
+928
+00:42:29,330 --> 00:42:32,366
+And so the focus in my mind
+when I think about depth of knowledge
+
+929
+00:42:32,583 --> 00:42:36,053
+is not to have to require them
+to have a bunch of knowledge.
+
+930
+00:42:36,053 --> 00:42:36,804
+It's not to limit
+
+931
+00:42:36,804 --> 00:42:40,291
+the amount of depth of knowledge. It's
+to see them as coming in with nothing,
+
+932
+00:42:40,524 --> 00:42:43,561
+and every day they continue playing
+that knowledge grows a little bit
+
+933
+00:42:43,561 --> 00:42:44,628
+more, and a little bit more.
+
+934
+00:42:46,163 --> 00:42:49,166
+So that's the idea in my mind.
+
+935
+00:42:49,350 --> 00:42:50,601
+More visitors equals less stuff.
+
+936
+00:42:50,601 --> 00:42:51,986
+We mentioned that. Little depth required.
+
+937
+00:42:51,986 --> 00:42:54,355
+We mentioned that. Retain the users
+and grow their depth.
+
+938
+00:42:54,355 --> 00:42:56,190
+That's really
+what I think is most important.
+
+939
+00:42:56,190 --> 00:42:58,259
+Retain the users, grow their depth.
+
+940
+00:42:58,259 --> 00:43:01,912
+Don't think about it as like you can't
+build a fun, engaging, deep game.
+
+941
+00:43:02,429 --> 00:43:05,549
+Build it
+so that they don't have to be deep,
+
+942
+00:43:05,699 --> 00:43:07,901
+but they can get there
+the longer they play.
+
+943
+00:43:07,901 --> 00:43:12,089
+And I feel like that 
+really is an amazing thing to provide
+
+944
+00:43:12,089 --> 00:43:12,573
+to users.
+
+945
+00:43:12,573 --> 00:43:15,559
+If you can really give them more
+to explore and discover—
+
+946
+00:43:15,960 --> 00:43:18,862
+I think a good example of this
+is actually one of
+
+947
+00:43:18,862 --> 00:43:21,865
+my good friends,
+
+948
+00:43:22,082 --> 00:43:22,650
+MetaJorgen.
+
+949
+00:43:22,650 --> 00:43:26,570
+He has a world
+where he put the most complicated mechanic
+
+950
+00:43:26,570 --> 00:43:30,207
+behind the building
+you spawn in, so you will not discover it
+
+951
+00:43:30,324 --> 00:43:33,927
+until you've been playing for a long time.
+Because nobody looks behind the building
+
+952
+00:43:33,927 --> 00:43:37,014
+you spawn in.
+It's such a hard place to discover,
+
+953
+00:43:37,014 --> 00:43:40,351
+but when you do discover it, it's
+one of the most incredible mechanics.
+
+954
+00:43:42,086 --> 00:43:43,020
+I forgot the name of the world.
+
+955
+00:43:43,020 --> 00:43:44,838
+It's like Lost in the Wild by Meta
+
+956
+00:43:44,838 --> 00:43:48,092
+Jorgen. It's an exploration world
+with asset spawning.
+
+957
+00:43:48,092 --> 00:43:49,376
+It's really cool.
+
+958
+00:43:49,376 --> 00:43:49,710
+And the—
+
+959
+00:43:49,710 --> 00:43:52,946
+It’s a crafting table behind
+the building just for reference.
+
+960
+00:43:52,946 --> 00:43:54,565
+Yeah, so super cool.
+
+961
+00:43:54,565 --> 00:43:57,801
+Okay, so continuing on in our talk—
+recommendations.
+
+962
+00:44:00,204 --> 00:44:02,940
+It is highly recommended that you learn
+and apply the following things.
+
+963
+00:44:02,940 --> 00:44:03,857
+And I want to just before
+
+964
+00:44:03,857 --> 00:44:06,860
+we talk about what these things are,
+explain a little bit of why.
+
+965
+00:44:08,095 --> 00:44:10,381
+What I saw—this is like,
+
+966
+00:44:10,381 --> 00:44:13,133
+I guess, my opinion.
+
+967
+00:44:13,133 --> 00:44:16,136
+At Connect, the last two summits—
+
+968
+00:44:16,520 --> 00:44:19,757
+This year, previous year to that.
+
+969
+00:44:19,790 --> 00:44:21,508
+Let's go back to the very beginning.
+
+970
+00:44:21,508 --> 00:44:24,511
+The first summit.
+They told us very explicitly,
+
+971
+00:44:24,511 --> 00:44:27,498
+TypeScript is the future. Custom Model
+Import is the future.
+
+972
+00:44:27,564 --> 00:44:30,467
+And without being like, “Do this.”
+
+973
+00:44:30,467 --> 00:44:33,420
+Without overly saying,
+“Do this. Do this. Do this.”
+
+974
+00:44:33,420 --> 00:44:35,572
+It was pretty clear we had to do this.
+
+975
+00:44:35,572 --> 00:44:38,842
+And so, I had to immediately
+start transitioning—
+
+976
+00:44:38,842 --> 00:44:41,845
+Like we built Murder Manor
+originally in Code Blocks.
+
+977
+00:44:42,112 --> 00:44:43,497
+And I think we're going to just do
+
+978
+00:44:43,497 --> 00:44:46,500
+Custom Model Import,
+but they're like—anyway, the point is
+
+979
+00:44:47,251 --> 00:44:50,037
+it was our very first world
+using both TypeScript
+
+980
+00:44:50,037 --> 00:44:53,207
+and Custom Model Import, but it was like
+we were told we have to do this.
+
+981
+00:44:54,508 --> 00:44:55,409
+And so I want you to
+
+982
+00:44:55,409 --> 00:44:58,412
+hear the “Do this” for this last year.
+
+983
+00:44:58,529 --> 00:45:01,348
+And what we saw at this Summit
+this year, in my opinion,
+
+984
+00:45:01,348 --> 00:45:04,501
+was mostly people invited who were using
+TypeScript, who were using Custom
+
+985
+00:45:04,501 --> 00:45:07,488
+Model Import,
+or who at least dabbled in it.
+
+986
+00:45:07,554 --> 00:45:10,974
+And so this year we were told,
+“We need you to do mobile development.”
+
+987
+00:45:10,974 --> 00:45:12,543
+“We need you to do in-world purchases.”
+
+988
+00:45:12,543 --> 00:45:14,628
+And without saying overly “Do, do, do.”
+
+989
+00:45:14,628 --> 00:45:17,631
+We were basically told, “Do these two things.”
+
+990
+00:45:17,664 --> 00:45:20,417
+And so if you want to do this for more
+
+991
+00:45:20,417 --> 00:45:23,987
+than just fun, you really need to take
+these recommendations
+
+992
+00:45:23,987 --> 00:45:25,139
+from Meta seriously.
+
+993
+00:45:25,139 --> 00:45:28,592
+We got to look at what Meta is targeting,
+what their direction is.
+
+994
+00:45:29,009 --> 00:45:31,795
+And as much as I love Code Blocks,
+because I really do,
+
+995
+00:45:31,795 --> 00:45:34,498
+I love the fact that it makes it easy
+for everyone to create.
+
+996
+00:45:34,498 --> 00:45:38,869
+I also recognize that it's
+not as heavily supported.
+
+997
+00:45:38,869 --> 00:45:41,872
+I hope we can continue pushing on them
+to keep it supported forever.
+
+998
+00:45:42,689 --> 00:45:45,809
+But it definitely, like,
+we just saw weeks of it
+
+999
+00:45:45,809 --> 00:45:48,812
+being broken and that
+would never happen in TypeScript.
+
+1000
+00:45:49,580 --> 00:45:52,232
+So we need to keep vocalizing
+that we need them to fix it,
+
+1001
+00:45:52,232 --> 00:45:53,784
+absolutely. But,
+
+1002
+00:45:55,252 --> 00:45:56,754
+we also should be recognizing
+
+1003
+00:45:56,754 --> 00:45:58,939
+where their priorities are
+and potentially shifting,
+
+1004
+00:45:58,939 --> 00:46:01,308
+especially if you feel like
+you want to do it
+
+1005
+00:46:01,308 --> 00:46:04,311
+for the long term. For the,
+let's be honest, the money.
+
+1006
+00:46:04,795 --> 00:46:07,548
+And you really want to grow with Meta
+in that regard.
+
+1007
+00:46:07,548 --> 00:46:11,001
+So, mobile world
+development is obviously their priority.
+
+1008
+00:46:11,268 --> 00:46:14,455
+And we talked a little bit
+about being mobile-first versus VR-first.
+
+1009
+00:46:14,455 --> 00:46:16,740
+And I think you can choose either/or. 
+I don't really care.
+
+1010
+00:46:16,740 --> 00:46:18,559
+But what I really care about is that
+
+1011
+00:46:18,559 --> 00:46:21,562
+if you do choose VR-first,
+you think about supporting mobile.
+
+1012
+00:46:21,562 --> 00:46:25,532
+I just went to a world a couple days ago
+and it was VR-
+
+1013
+00:46:25,532 --> 00:46:27,801
+only to the point
+where you couldn't get in the entrance
+
+1014
+00:46:27,801 --> 00:46:30,420
+unless you could open your
+controllers apart.
+
+1015
+00:46:30,420 --> 00:46:31,822
+And so, you couldn't even go into—
+
+1016
+00:46:31,822 --> 00:46:34,825
+Because I was just going in on mobile
+to demonstrate what was in there,
+
+1017
+00:46:34,975 --> 00:46:35,809
+but I couldn't do that.
+
+1018
+00:46:37,528 --> 00:46:39,480
+And like, just don't put blockers
+in!
+
+1019
+00:46:39,480 --> 00:46:42,900
+At least let them in. Even if it's
+not a great experience on mobile,
+
+1020
+00:46:42,900 --> 00:46:45,903
+at least let them in
+to come and play and hang out.
+
+1021
+00:46:46,019 --> 00:46:49,022
+And one of my favorite experiences
+of this most recently is
+
+1022
+00:46:49,673 --> 00:46:51,175
+being in Power Wash, developing it.
+
+1023
+00:46:51,175 --> 00:46:54,978
+I would go in VR. My headset would die.
+
+1024
+00:46:54,978 --> 00:46:56,780
+Then I’d pick up my phone and I’d jump back in
+
+1025
+00:46:56,780 --> 00:46:58,398
+and be able to continue the conversation.
+
+1026
+00:46:58,398 --> 00:47:02,636
+And I feel like that's
+the dream universe for this
+
+1027
+00:47:02,636 --> 00:47:05,989
+mobile and VR, 
+where you can pick up immediately.
+
+1028
+00:47:05,989 --> 00:47:09,109
+Your headset dies, or the opposite—
+you're on your phone, you get home
+
+1029
+00:47:09,359 --> 00:47:12,362
+and you want to continue
+picking up in VR and you can do that.
+
+1030
+00:47:12,663 --> 00:47:15,199
+So like imagining a kid in the back seat,
+right?
+
+1031
+00:47:15,199 --> 00:47:17,334
+You're not playing on your phone
+while you're driving.
+
+1032
+00:47:17,334 --> 00:47:18,752
+Maybe you're on a bus.
+
+1033
+00:47:18,752 --> 00:47:19,970
+I don't know. There's scenarios
+
+1034
+00:47:19,970 --> 00:47:21,688
+there. Point is—
+
+1035
+00:47:21,688 --> 00:47:24,808
+you want to be seeing your users
+going from mobile to VR, back to mobile,
+
+1036
+00:47:25,042 --> 00:47:25,792
+and vice versa.
+
+1037
+00:47:26,927 --> 00:47:29,179
+So mobile-first to me means
+
+1038
+00:47:29,179 --> 00:47:32,633
+that you're really putting an emphasis
+on making it an amazing mobile experience,
+
+1039
+00:47:32,633 --> 00:47:34,968
+but if you come into VR it's even better.
+
+1040
+00:47:34,968 --> 00:47:37,971
+And if you're VR-first, it's playable 
+on mobile.
+
+1041
+00:47:38,088 --> 00:47:41,358
+We didn't prioritize you, but
+at least you can come in and play.
+
+1042
+00:47:42,593 --> 00:47:47,431
+So, definitely think
+about that ability to go back and forth
+
+1043
+00:47:47,431 --> 00:47:50,934
+and make sure you're developing for mobile, 
+at least on the minor level.
+
+1044
+00:47:52,019 --> 00:47:54,888
+In-World Purchases. This is,
+like I mentioned, very huge.
+
+1045
+00:47:54,888 --> 00:47:59,660
+I feel so much better about it
+than I did a year ago. Two years ago even.
+
+1046
+00:48:00,027 --> 00:48:03,864
+The point is, to me, in-world
+purchases for so long have been kids
+
+1047
+00:48:03,864 --> 00:48:08,118
+asking their parents to use their credit
+card to buy X, Y, or Z.
+
+1048
+00:48:08,118 --> 00:48:10,220
+Insert your in-world purchase here.
+
+1049
+00:48:10,220 --> 00:48:15,859
+And that never felt good to me.
+But what I can feel good about
+
+1050
+00:48:15,859 --> 00:48:18,145
+is the new credit system
+that Meta is working on,
+
+1051
+00:48:18,145 --> 00:48:20,964
+because what we see
+there is this potential for kids
+
+1052
+00:48:20,964 --> 00:48:22,766
+to be given monthly allowances.
+
+1053
+00:48:22,766 --> 00:48:26,270
+They can—and I feel like to me
+that's going to be huge
+
+1054
+00:48:26,270 --> 00:48:26,987
+because I don't have to
+
+1055
+00:48:26,987 --> 00:48:30,807
+feel bad about saying, “Hey, here's
+this thing you can buy for X credits.”
+
+1056
+00:48:30,958 --> 00:48:31,642
+Meta credits.
+
+1057
+00:48:33,527 --> 00:48:37,014
+And that therefore removes
+
+1058
+00:48:37,014 --> 00:48:41,518
+that sort of mental blocker for me,
+and makes it a lot more easy to do.
+
+1059
+00:48:41,518 --> 00:48:44,838
+And I have family,
+some nieces, who already get that.
+
+1060
+00:48:44,838 --> 00:48:47,941
+They get $20 a month in Roblox. $20
+a month in
+
+1061
+00:48:49,076 --> 00:48:50,777
+Fortnite, and so on.
+
+1062
+00:48:50,777 --> 00:48:53,880
+And so I think in a year to two years,
+we're going to see that normalize,
+
+1063
+00:48:53,880 --> 00:48:55,766
+where people who are VR
+
+1064
+00:48:55,766 --> 00:48:59,519
+regular kid players are going to be asking
+their parents for Christmas next year.
+
+1065
+00:48:59,703 --> 00:49:02,689
+“Hey, can I get some Meta
+credits? Gift cards?”
+
+1066
+00:49:03,440 --> 00:49:04,074
+And we'll see
+
+1067
+00:49:04,074 --> 00:49:06,059
+the grandparents
+start doing that in a couple of years.
+
+1068
+00:49:06,059 --> 00:49:07,711
+I’m very excited about that
+
+1069
+00:49:07,711 --> 00:49:09,329
+because I think for us,
+this means we're going to able
+
+1070
+00:49:09,329 --> 00:49:12,082
+to make a ton more money
+than we've ever been able to make before.
+
+1071
+00:49:13,884 --> 00:49:16,253
+And so, the two things that we've been told
+
+1072
+00:49:16,253 --> 00:49:20,357
+are the most successful in present day
+Horizon are currency and power-ups.
+
+1073
+00:49:20,357 --> 00:49:24,061
+So in-world currency is being able
+to exchange real world money for in-world
+
+1074
+00:49:24,061 --> 00:49:28,398
+currencies is something that people love
+doing. And it's very successful.
+
+1075
+00:49:28,682 --> 00:49:31,401
+And power-ups would be thinking 
+about Mythioses
+
+1076
+00:49:31,401 --> 00:49:33,470
+racing game
+where you can buy a speed boost.
+
+1077
+00:49:33,470 --> 00:49:36,473
+And so you can buy a bunch of speed boosts
+and get going,
+
+1078
+00:49:37,641 --> 00:49:38,241
+and so on.
+
+1079
+00:49:38,241 --> 00:49:40,761
+So those are the two things
+that are currently most successful.
+
+1080
+00:49:40,761 --> 00:49:42,829
+I will note that
+I think the most important thing
+
+1081
+00:49:42,829 --> 00:49:45,349
+about in-world purchases
+is that they're not one-off purchases.
+
+1082
+00:49:45,349 --> 00:49:47,401
+They're kind of like—think about
+how can you make sure
+
+1083
+00:49:47,401 --> 00:49:50,387
+that they can keep making that purchase
+over, and over, and over again?
+
+1084
+00:49:50,971 --> 00:49:52,439
+For better or worse.
+
+1085
+00:49:52,439 --> 00:49:56,877
+But if you do one-time purchases,
+you can't continue doing that, right?
+
+1086
+00:49:56,877 --> 00:50:00,831
+So a one-time purchase means that
+it's already been bought.
+
+1087
+00:50:00,981 --> 00:50:03,050
+There's nothing else for them to buy.
+
+1088
+00:50:03,050 --> 00:50:05,602
+So, if you have users who could spend $100,
+
+1089
+00:50:05,602 --> 00:50:09,272
+but you only have one $10 item,
+you have missed that opportunity.
+
+1090
+00:50:10,741 --> 00:50:12,359
+So just—
+
+1091
+00:50:12,359 --> 00:50:15,328
+Think about that as you're developing
+your in-world purchases.
+
+1092
+00:50:15,328 --> 00:50:18,331
+TypeScript is amazingly powerful.
+
+1093
+00:50:18,632 --> 00:50:21,568
+Once you get into TypeScript,
+you can easily
+
+1094
+00:50:21,568 --> 00:50:25,022
+develop potentially even faster
+than you can develop Code Blocks.
+
+1095
+00:50:25,022 --> 00:50:27,174
+It definitely has a steep learning curve,
+
+1096
+00:50:27,174 --> 00:50:28,942
+especially if you don't have any coding
+background.
+
+1097
+00:50:28,942 --> 00:50:30,894
+I had a mild coding background.
+
+1098
+00:50:30,894 --> 00:50:33,864
+I mostly knew how to 
+write code that I'd seen other people write,
+
+1099
+00:50:33,864 --> 00:50:36,717
+but I was able to pick it up.
+I mean, I guess I was learning.
+
+1100
+00:50:36,717 --> 00:50:41,455
+I followed a Unity tutorial series earlier
+in the last year about
+
+1101
+00:50:41,872 --> 00:50:42,873
+developing for C Sharp,
+
+1102
+00:50:42,873 --> 00:50:46,159
+and that was like probably
+the best kickstart into TypeScript for me.
+
+1103
+00:50:46,860 --> 00:50:48,628
+But it is so much different than C Sharp.
+
+1104
+00:50:48,628 --> 00:50:51,331
+So definitely, if you're gonna dive into
+TypeScript, just dive into TypeScript.
+
+1105
+00:50:53,250 --> 00:50:55,435
+But the point is: it is hard.
+
+1106
+00:50:55,435 --> 00:50:56,837
+It's not easy.
+
+1107
+00:50:56,837 --> 00:50:59,306
+Like, I had some coding background
+in TypeScript.
+
+1108
+00:50:59,306 --> 00:51:02,309
+It took me two months to get a firm grasp of.
+
+1109
+00:51:02,309 --> 00:51:05,629
+And then even after that,
+I spent this entire year developing that.
+
+1110
+00:51:05,629 --> 00:51:07,531
+And still there's
+so much more to learn.
+
+1111
+00:51:07,531 --> 00:51:10,217
+And I'm still just barely,
+
+1112
+00:51:10,217 --> 00:51:11,701
+barely what I'd say competent.
+
+1113
+00:51:11,701 --> 00:51:16,039
+There's still so much more
+to grasp at and uncover.
+
+1114
+00:51:16,039 --> 00:51:18,892
+So—but that doesn't mean you can't start.
+
+1115
+00:51:18,892 --> 00:51:23,180
+So for me, I think learning TypeScript
+means seeing action happen.
+
+1116
+00:51:23,396 --> 00:51:25,165
+So I just recently posted a tutorial.
+
+1117
+00:51:25,165 --> 00:51:27,534
+You can check it out
+in the tutorial section off the Discord.
+
+1118
+00:51:27,534 --> 00:51:29,419
+And then last up is Custom Model Import.
+
+1119
+00:51:29,419 --> 00:51:32,789
+Another really awesome one,
+but I feel like it's very easy to assume
+
+1120
+00:51:33,023 --> 00:51:35,942
+that you have to build all the 3D models
+yourself.
+
+1121
+00:51:35,942 --> 00:51:37,127
+That is not the case.
+
+1122
+00:51:37,127 --> 00:51:39,529
+If you are 3D modeler and that's
+what you want to do, absolutely.
+
+1123
+00:51:39,529 --> 00:51:42,048
+By all means be a 3D modeler.
+
+1124
+00:51:42,048 --> 00:51:45,051
+Do what you enjoy is my mantra in life.
+
+1125
+00:51:45,602 --> 00:51:47,988
+As best as you can, of course, but the—
+
+1126
+00:51:47,988 --> 00:51:50,690
+Don't be a murderer.
+Don't enjoy murder. Okay?
+
+1127
+00:51:50,690 --> 00:51:53,043
+Just do it in Murder Manor.
+Do it in Murder Village.
+
+1128
+00:51:53,043 --> 00:51:54,744
+Or is this—
+Don’t do it in real life!
+
+1129
+00:51:56,163 --> 00:51:57,147
+This is not legal advice.
+
+1130
+00:51:57,147 --> 00:51:57,747
+Consult a lawyer.
+
+1131
+00:51:57,747 --> 00:51:59,633
+I don't know, I'm
+losing my mind right now!
+
+1132
+00:51:59,633 --> 00:52:02,519
+Point is: do what you enjoy in life.
+
+1133
+00:52:02,519 --> 00:52:05,122
+[Laughs]
+With some limitations.
+
+1134
+00:52:05,122 --> 00:52:10,076
+Woo! Anyhoo...
+Custom Model Import.
+
+1135
+00:52:10,076 --> 00:52:12,479
+If you enjoy it, do it.
+
+1136
+00:52:12,479 --> 00:52:14,247
+But there's this, like, separating.
+
+1137
+00:52:14,247 --> 00:52:16,766
+I've focused my entire year
+on learning coding.
+
+1138
+00:52:16,766 --> 00:52:19,769
+I've had to learn a little bit of Custom
+Model Import, but
+
+1139
+00:52:20,787 --> 00:52:23,657
+it's better for me
+to work with other creators
+
+1140
+00:52:23,657 --> 00:52:26,660
+that do Custom Model Import.
+Like that's their thing.
+
+1141
+00:52:26,660 --> 00:52:30,564
+And so, it's going to be a good time
+to start networking,
+
+1142
+00:52:30,564 --> 00:52:33,266
+connecting with people
+and trading services.
+
+1143
+00:52:33,266 --> 00:52:34,951
+Whether that's, “Hey,
+you helped me with mine
+
+1144
+00:52:34,951 --> 00:52:37,938
+and I'll help you with yours.”
+Or however you want to work that out.
+
+1145
+00:52:38,522 --> 00:52:41,391
+But definitely, you don't have to do
+Custom Model Import.
+
+1146
+00:52:41,391 --> 00:52:43,260
+You can buy Unity assets.
+
+1147
+00:52:43,260 --> 00:52:46,379
+There's whole packages of asset sets.
+
+1148
+00:52:46,580 --> 00:52:48,331
+I think the biggest thing
+
+1149
+00:52:48,331 --> 00:52:52,352
+that I've heard that I agree with
+is being careful not to buy too
+
+1150
+00:52:53,303 --> 00:52:55,739
+separated themes.
+
+1151
+00:52:55,739 --> 00:52:58,041
+Right? Like styles.
+You want your styles to match.
+
+1152
+00:52:58,041 --> 00:53:00,293
+If your styles don't match,
+
+1153
+00:53:00,293 --> 00:53:01,828
+it's just not going to look very good.
+
+1154
+00:53:01,828 --> 00:53:05,282
+So you really want to try to make sure
+the styling of the assets
+
+1155
+00:53:05,282 --> 00:53:08,268
+you're buying matches
+the overall styling of your world.
+
+1156
+00:53:08,752 --> 00:53:11,538
+So think about that.
+
+1157
+00:53:11,538 --> 00:53:13,173
+But yeah, if you're a scripter
+
+1158
+00:53:13,173 --> 00:53:16,643
+and you don't want to learn 3D modeling,
+you can do that.
+
+1159
+00:53:16,643 --> 00:53:18,778
+There is some solutions there.
+
+1160
+00:53:18,778 --> 00:53:21,448
+Next up, we've got takeaways!
+
+1161
+00:53:21,448 --> 00:53:21,932
+Remember—
+
+1162
+00:53:21,932 --> 00:53:25,886
+So this is just a quick recap
+of the whole talk. Effects & Action.
+
+1163
+00:53:25,886 --> 00:53:28,822
+This is important.
+Users need to create action in the world.
+
+1164
+00:53:28,822 --> 00:53:32,659
+They want to feel effects—visual effects,
+sound effects, haptic feedback.
+
+1165
+00:53:32,659 --> 00:53:34,461
+They want to make—
+
+1166
+00:53:34,461 --> 00:53:37,230
+Give them something! Make them
+feel something in some sort of way.
+
+1167
+00:53:37,230 --> 00:53:39,749
+When they do something,
+it causes something to happen.
+
+1168
+00:53:39,749 --> 00:53:41,101
+You need mini and major loops.
+
+1169
+00:53:41,101 --> 00:53:43,370
+So things that are really small
+that are satisfying,
+
+1170
+00:53:43,370 --> 00:53:47,357
+but major loops that are also satisfying
+and engaging, so to speak.
+
+1171
+00:53:47,724 --> 00:53:51,294
+Social Creativity: allow users
+to define the experience.
+
+1172
+00:53:51,294 --> 00:53:52,345
+Don't overly,
+
+1173
+00:53:53,546 --> 00:53:54,598
+[...]
+
+1174
+00:53:54,598 --> 00:53:58,969
+Don't be too strict
+on what the experience is. 
+
+1175
+00:53:59,269 --> 00:54:01,972
+I had an example
+I was going to share, which was
+
+1176
+00:54:01,972 --> 00:54:05,425
+if you're building a card game,
+and the card game is—
+
+1177
+00:54:06,543 --> 00:54:09,179
+You don't want anyone else
+to see the cards, so you make it
+
+1178
+00:54:09,179 --> 00:54:12,332
+so only the user sitting at that booth
+can see their cards.
+
+1179
+00:54:12,866 --> 00:54:14,267
+But what about the people who want to walk
+
+1180
+00:54:14,267 --> 00:54:17,487
+around the table and
+engage and see what everyone's got?
+
+1181
+00:54:17,487 --> 00:54:21,775
+Like a real world would be like?
+Maybe that extra effort to make it
+
+1182
+00:54:21,775 --> 00:54:24,828
+so only one user can see
+it is actually ruining the experience.
+
+1183
+00:54:24,828 --> 00:54:26,997
+Sure,
+you could make it so that only that user
+
+1184
+00:54:26,997 --> 00:54:29,849
+and the people not playing could see it.
+That's an option.
+
+1185
+00:54:29,849 --> 00:54:31,618
+But you might be thinking, “Oh,
+but what if that person”
+
+1186
+00:54:31,618 --> 00:54:34,621
+“who's looking over the shoulder
+tells everybody what the cards are?”
+
+1187
+00:54:34,821 --> 00:54:36,506
+That's a fun social experience.
+
+1188
+00:54:36,506 --> 00:54:39,175
+As much as that quote ruins
+the experience,
+
+1189
+00:54:39,175 --> 00:54:42,178
+it actually create something unique
+that you wouldn't have otherwise had,
+
+1190
+00:54:42,295 --> 00:54:46,383
+which makes it more fun.
+Because, “Oh! We can talk bad.”
+
+1191
+00:54:46,383 --> 00:54:46,766
+We can talk
+
+1192
+00:54:46,766 --> 00:54:50,570
+about how that affected the gameplay,
+and how that made the outcomes different.
+
+1193
+00:54:51,988 --> 00:54:54,057
+Social creativity is huge.
+
+1194
+00:54:54,057 --> 00:54:56,393
+Don't overly regulate.
+That's what I would say.
+
+1195
+00:54:56,393 --> 00:55:00,330
+So, give them some freedom
+to be creative.
+
+1196
+00:55:00,447 --> 00:55:02,399
+Randomness can turn into retention, guys.
+
+1197
+00:55:02,399 --> 00:55:03,984
+We talked a lot about that
+at the beginning, right?
+
+1198
+00:55:03,984 --> 00:55:07,103
+So random roles, random items—
+expecting random.
+
+1199
+00:55:07,103 --> 00:55:09,155
+I feel like
+this is a little like loot boxes.
+
+1200
+00:55:09,155 --> 00:55:10,940
+So I feel a little nervous
+
+1201
+00:55:10,940 --> 00:55:14,878
+building randomness in like this,
+but it is like a loot box.
+
+1202
+00:55:14,878 --> 00:55:16,730
+It's really exciting to see.
+“What are you going to get?”
+
+1203
+00:55:16,730 --> 00:55:18,331
+“What are you going to get?”
+
+1204
+00:55:18,331 --> 00:55:21,601
+Whether it's a role, or an item,
+or anything else.
+
+1205
+00:55:22,669 --> 00:55:23,520
+Keep it simple.
+
+1206
+00:55:23,520 --> 00:55:27,540
+I think one of the biggest things that 
+cannot be overstated
+
+1207
+00:55:27,540 --> 00:55:29,943
+is the fact that it's very easy
+to make things
+
+1208
+00:55:29,943 --> 00:55:33,146
+that are overly complicated. But keeping
+it simple is the most important thing.
+
+1209
+00:55:33,747 --> 00:55:37,650
+And find the fun in that simple thing.
+Find that fun really early
+
+1210
+00:55:37,851 --> 00:55:40,253
+and then focus in on that.
+Try not to lose it.
+
+1211
+00:55:40,253 --> 00:55:42,722
+If you do lose it, go back and see
+how can we bring it back?
+
+1212
+00:55:42,722 --> 00:55:44,207
+How can we like get back to the fun?
+
+1213
+00:55:45,542 --> 00:55:47,160
+And keeping it simple can help
+you do that.
+
+1214
+00:55:47,160 --> 00:55:49,729
+And also, we've only got one month
+for this current competition,
+
+1215
+00:55:49,729 --> 00:55:52,949
+which is a great exercise
+whether or not you win or not.
+
+1216
+00:55:52,949 --> 00:55:57,320
+It's a great exercise in building simple
+mechanics that are fun and are retaining.
+
+1217
+00:55:57,320 --> 00:56:00,840
+So definitely, encourage
+you to have fun with that.
+
+1218
+00:56:01,591 --> 00:56:04,978
+Having little depth required,
+and gaining that depth over time.
+
+1219
+00:56:04,978 --> 00:56:07,731
+So, thank you so much
+for joining this call.
+
+1220
+00:56:07,731 --> 00:56:09,749
+I've had an absolute blast.
+
+1221
+00:56:09,749 --> 00:56:14,337
+I hope there's been a few nuggets in here
+for you to take back on your builds.
