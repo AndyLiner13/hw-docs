@@ -2,20 +2,26 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_cameratransitionendreason
 ---
 
-# CameraTransitionEndReason Enum
+# [CameraTransitionEndReason Enum](#cameratransitionendreason-enum)
 
 The possible reasons for a camera transition to end.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum CameraTransitionEndReason
+export
+ declare 
+enum
+ 
+CameraTransitionEndReason
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| Completed | `0` |  |
-| Error | `2` |  |
-| Interrupted | `1` |  |
+| Member      | Value | Description |
+| ----------- | ----- | ----------- |
+| Completed   | `0`   |             |
+| Error       | `2`   |             |
+| Interrupted | `1`   |             |
+

@@ -2,30 +2,66 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_tooltiplineattachmentproperties
 ---
 
-# TooltipLineAttachmentProperties type
+# [TooltipLineAttachmentProperties type](#tooltiplineattachmentproperties-type)
 
 Determines how the line attached to a tooltip is displayed.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type TooltipLineAttachmentProperties = {
-    lineAttachmentEntity?: Entity | PlayerBodyPartType;
-    lineAttachmentLocalOffset?: Vec3;
-    lineAttachmentRounded?: boolean;
-    lineChokeStart?: number;
-    lineChokeEnd?: number;
+export
+ declare type 
+TooltipLineAttachmentProperties
+ 
+=
+ 
+{
+
+    lineAttachmentEntity
+?:
+ 
+Entity
+ 
+|
+ 
+PlayerBodyPartType
+;
+
+    lineAttachmentLocalOffset
+?:
+ 
+Vec3
+;
+
+    lineAttachmentRounded
+?:
+ 
+boolean
+;
+
+    lineChokeStart
+?:
+ number
+;
+
+    lineChokeEnd
+?:
+ number
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [Entity](../Classes/Entity.md), [PlayerBodyPartType](../Enumerations/PlayerBodyPartType.md), [Vec3](../Classes/Vec3.md)
 
-## Remarks
+## [Remarks](#remarks)
 
-`lineAttachmentEntity` - The entity to attach to the line (defaults to the anchor attachment point). You can also set this to a `PlayerBodyPartType`.
-`lineAttachmentLocalOffset` - Adds a local `Vec3` offset on the attachment point of the line.
-`lineAttachmentRounded` - `true` to round off the start and end edges of the line; `false` otherwise.
-`lineChokeStart` - The distance where the line should start rendering, after the attachment point.
+`lineAttachmentEntity` - The entity to attach to the line (defaults to the anchor attachment point). You can also set this to a `PlayerBodyPartType`.\
+`lineAttachmentLocalOffset` - Adds a local `Vec3` offset on the attachment point of the line.\
+`lineAttachmentRounded` - `true` to round off the start and end edges of the line; `false` otherwise.\
+`lineChokeStart` - The distance where the line should start rendering, after the attachment point.\
 `lineChokeEnd` - The distance where the line should stop rendering, before the line hits the tooltip.
+

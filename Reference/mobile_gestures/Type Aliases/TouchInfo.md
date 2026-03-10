@@ -2,14 +2,31 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_touchinfo
 ---
 
-# TouchInfo type
+# [TouchInfo type](#touchinfo-type)
 
 Extends an $
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type TouchInfo = InteractionInfo & {
-    time: number;
+export
+ declare type 
+TouchInfo
+ 
+=
+ 
+InteractionInfo
+ 
+&
+ 
+{
+
+    time
+:
+ number
+;
+
+
 };
 ```
+

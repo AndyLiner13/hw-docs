@@ -2,17 +2,21 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_defaultfetchasdataoptions
 ---
 
-# DefaultFetchAsDataOptions Variable
+# [DefaultFetchAsDataOptions Variable](#defaultfetchasdataoptions-variable)
 
 Defines the default values for the type.
 
-## Signature
+## [Signature](#signature)
 
 ```
-DefaultFetchAsDataOptions: FetchAsDataOptions
+DefaultFetchAsDataOptions
+:
+ 
+FetchAsDataOptions
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
-Values:
+Values:\
 `skipCache: false`
+

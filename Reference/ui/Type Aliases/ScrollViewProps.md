@@ -2,19 +2,42 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_scrollviewprops
 ---
 
-# ScrollViewProps type
+# [ScrollViewProps type](#scrollviewprops-type)
 
 Represents the props of a [ScrollView()](../Functions/ScrollView.md) component, which is a scrollable version of a [View()](../Functions/View.md) component. It supports horizontal and vertical scrolling, as well as distinct styling for the view itself and underlying content wrapper.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type ScrollViewProps = ViewProps & {
-    contentContainerStyle?: ViewStyle;
-    horizontal?: boolean;
+export
+ declare type 
+ScrollViewProps
+ 
+=
+ 
+ViewProps
+ 
+&
+ 
+{
+
+    contentContainerStyle
+?:
+ 
+ViewStyle
+;
+
+    horizontal
+?:
+ 
+boolean
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [ViewProps](ViewProps.md), [ViewStyle](ViewStyle.md)
+

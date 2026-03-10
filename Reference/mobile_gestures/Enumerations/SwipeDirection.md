@@ -2,22 +2,28 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_swipedirection
 ---
 
-# SwipeDirection Enum
+# [SwipeDirection Enum](#swipedirection-enum)
 
 For swipe events, which direction did it go
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum SwipeDirection
+export
+ declare 
+enum
+ 
+SwipeDirection
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| Down | `"down"` |  |
-| Left | `"left"` |  |
-| None | `"none"` |  |
-| Right | `"right"` |  |
-| Up | `"up"` |  |
+| Member | Value     | Description |
+| ------ | --------- | ----------- |
+| Down   | `"down"`  |             |
+| Left   | `"left"`  |             |
+| None   | `"none"`  |             |
+| Right  | `"right"` |             |
+| Up     | `"up"`    |             |
+

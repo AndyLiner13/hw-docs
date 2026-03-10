@@ -2,41 +2,41 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/camera-api-examples-tutorial/module-3-playercameramanager
 ---
 
-# Module 3 - PlayerCameraManager
+# [Module 3 - PlayerCameraManager](#module-3---playercameramanager)
 
 The PlayerCameraManager is responsible for managing the assignment of PlayerCamera entities to players when they enter the world.
 
-## PlayerCamera Self-Registration
+## [PlayerCamera Self-Registration](#playercamera-self-registration)
 
 A PlayerCamera is 1) an empty reference object and 2) `PlayerCamera.ts` script to it. Each PlayerCamera object executes its `PlayerCamera.ts` script on start.
 
 In the `start()` method of `PlayerCamera.ts`, the script emits the OnRegisterPlayerCamera event to register itself with the PlayerCameraManager:
 
-```
-  start() {
-    // Self register this PlayerCamera to the PlayerManager using a broadcast event.
-    // We are using a broadcast event because it is easier to add / remove cameras as you adjust the number of max players for your world.
-    // For more performance at world startup you may want to make this a non-broadcast network event and use the propsDefinition
-    //  to specify a reference to the PlayerManager, then just use a sendNetworkEvent directly.
-    this.sendNetworkBroadcastEvent(CameraManagerEvents.OnRegisterPlayerCamera, {ObjectId: "PlayerCamera", Object: this.entity});
-  };
+```typescript
+  start() {
+    // Self register this PlayerCamera to the PlayerManager using a broadcast event.
+    // We are using a broadcast event because it is easier to add / remove cameras as you adjust the number of max players for your world.
+    // For more performance at world startup you may want to make this a non-broadcast network event and use the propsDefinition
+    //  to specify a reference to the PlayerManager, then just use a sendNetworkEvent directly.
+    this.sendNetworkBroadcastEvent(CameraManagerEvents.OnRegisterPlayerCamera, {ObjectId: "PlayerCamera", Object: this.entity});
+  };
 ```
 
 In `PlayerCameraManager.ts`, a listener in the `preStart()` method pushes the registering camera into the list of available PlayerCameras:
 
-```
-  preStart(): void {
-    this.connectNetworkBroadcastEvent(CameraManagerEvents.OnRegisterPlayerCamera, ({ObjectId, Object}) => {
-      if (ObjectId === "PlayerCamera") {
-        this.playerCameras.push(Object);
-      };
-    });
-  };
+```typescript
+  preStart(): void {
+    this.connectNetworkBroadcastEvent(CameraManagerEvents.OnRegisterPlayerCamera, ({ObjectId, Object}) => {
+      if (ObjectId === "PlayerCamera") {
+        this.playerCameras.push(Object);
+      };
+    });
+  };
 ```
 
 From this list of PlayerCameras, individual players are assigned PlayerCameras.
 
-## Assign and Unassign PlayerCameras
+## [Assign and Unassign PlayerCameras](#assign-and-unassign-playercameras)
 
 In this example, camera assignment happens through an iterative process of attempting to assign an available camera to a player that does not have one.
 
@@ -44,9 +44,9 @@ Since execution of code is non-deterministic in the Meta Horizon Worlds platform
 
 In this case, PlayerCamera assignments are based off of the following constants:
 
-```
-  private retryCameraAssignDelay: number = 0.1;
-  private maxAssignAttempts: number = 5;
+```typescript
+  private retryCameraAssignDelay: number = 0.1;
+  private maxAssignAttempts: number = 5;
 ```
 
 When a player enters a world, the PlayerCameraManager makes up to 5 attempts, each of which is separated by a 0.1 second time delay. If the PlayerCameraManager fails to assign a camera, an error is reported.
@@ -57,34 +57,35 @@ Each attempt to assign a camera consists of calling `getCameraForPlayer(player: 
 
 Similarly, when the player exits the world, the camera is unassigned from the player and returned to the pool of PlayerCameras available for use.
 
-## PlayerCameraManager.ts events
+## [PlayerCameraManager.ts events](#playercameramanagerts-events)
 
 The following CameraManagerEvents are defined and exported from this script:
 
-```
-export const CameraManagerEvents = {
-  OnRegisterPlayerCamera: new hz.NetworkEvent<{
-    ObjectId: string;
-    Object: hz.Entity;
-  }>('OnRegisterPlayerCamera'),
-  OnSetPlayerCamera: new hz.NetworkEvent<{
-    player: hz.Player;
-    camera: hz.Entity;
-  }>('OnSetPlayerCamera'),
+```typescript
+export const CameraManagerEvents = {
+  OnRegisterPlayerCamera: new hz.NetworkEvent<{
+    ObjectId: string;
+    Object: hz.Entity;
+  }>('OnRegisterPlayerCamera'),
+  OnSetPlayerCamera: new hz.NetworkEvent<{
+    player: hz.Player;
+    camera: hz.Entity;
+  }>('OnSetPlayerCamera'),
 };
 ```
 
 **Event uses**:
 
-| Event name | Use |
-| --- | --- |
+| Event name             | Use                                                                                                                                     |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | OnRegisterPlayerCamera | When the player has been assigned a PlayerCamera, the player/PlayerCamera combination is pushed in the PlayerCameras array of entities. |
-| OnSetPlayerCamera | When a player enters the world, `PlayerCameraManager.ts` attempts to assign a PlayerCamera object to the player. |
+| OnSetPlayerCamera      | When a player enters the world, `PlayerCameraManager.ts` attempts to assign a PlayerCamera object to the player.                        |
 
-## Checkpoint
+## [Checkpoint](#checkpoint)
 
 Now you can manage your PlayerCamera entities! In this module, we explored how to use the PlayerCameraManager class to assign and unassign PlayerCamera entities to players entering the world.
 
 **Tip**: This assignment mechanism can be generalized to handle assignment of other entity types to players entering and exiting the world.
 
 Next, we explore the Pan Camera mode and use cases.
+

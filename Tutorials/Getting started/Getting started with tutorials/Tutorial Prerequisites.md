@@ -2,23 +2,23 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started/getting-started-with-tutorials/tutorial-prerequisites
 ---
 
-# Tutorial Prerequisites
+# [Tutorial Prerequisites](#tutorial-prerequisites)
 
 Before you begin exploring these tutorials, please verify that you have met the following requirements.
 
-## Meta Horizon Worlds Account
+## [Meta Horizon Worlds Account](#meta-horizon-worlds-account)
 
 You need a Meta Horizon Worlds account. See <https://horizon.meta.com/>.
 
-## Meta Quest Link App on Your Desktop
+## [Meta Quest Link App on Your Desktop](#meta-quest-link-app-on-your-desktop)
 
 You must install the Meta Quest Link application on your desktop. See [Install Oculus app for Meta Quest Link](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/).
 
-## Desktop Editor
+## [Desktop Editor](#desktop-editor)
 
 The desktop editor is the interface for building your worlds and the TypeScript scripts to support them. This desktop application is available for download and is auto-updated with each release of the platform. For installation instructions, see [Install and run the desktop editor](../../../Get%20started/Install%20the%20desktop%20editor.md).
 
-## TypeScript Basics
+## [TypeScript Basics](#typescript-basics)
 
 TypeScript is the scripting language used in building Meta Horizon Worlds. TypeScript extends core JavaScript with strict data typing, which provides better support for complex programming structures.
 
@@ -26,12 +26,13 @@ For a brief overview of TypeScript, see [Using TypeScript in Meta Horizon Worlds
 
 For a tutorial, see [TypeScript Tutorial](../../../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Tutorial.md).
 
-## Optional
+## [Optional](#optional)
 
-#### IDE
+#### [IDE](#ide)
 
 An integrated development environment (IDE) can be connected to the desktop editor for building your TypeScript scripts.
 
 **Visual Studio Code is recommended.**
 
 For more information, see [Adding an IDE to Desktop Editor](../../../Scripting/Get%20started%20with%20TypeScript/Adding%20an%20IDE%20to%20the%20desktop%20editor.md).
+

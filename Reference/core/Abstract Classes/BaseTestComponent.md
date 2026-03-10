@@ -2,14 +2,48 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_basetestcomponent
 ---
 
-# BaseTestComponent Class
+# [BaseTestComponent Class](#basetestcomponent-class)
 
-Extends *[Component](Component.md)<TComponent>*
+Extends *[Component](Component.md)\<TComponent>*
 
 Used only in internal tests for compatibility between the v1 and v2 APIs.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare abstract class BaseTestComponent<_TProps extends unknown, TComponent extends ComponentWithConstructor<Record<string, unknown>>> extends Component<TComponent>
+export
+ declare 
+abstract
+ 
+class
+ 
+BaseTestComponent
+<
+_TProps
+ 
+extends
+ unknown
+,
+ 
+TComponent
+ 
+extends
+ 
+ComponentWithConstructor
+<
+Record
+<
+string
+,
+ unknown
+>>>
+ 
+extends
+ 
+Component
+<
+TComponent
+>
+ 
 ```
+

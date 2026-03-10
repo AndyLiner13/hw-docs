@@ -2,21 +2,40 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_fixedcameraoptions
 ---
 
-# FixedCameraOptions type
+# [FixedCameraOptions type](#fixedcameraoptions-type)
 
 The available options to apply when activating a fixed camera.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type FixedCameraOptions = {
-    position?: Vec3;
-    rotation?: Quaternion;
+export
+ declare type 
+FixedCameraOptions
+ 
+=
+ 
+{
+
+    position
+?:
+ 
+Vec3
+;
+
+    rotation
+?:
+ 
+Quaternion
+;
+
+
 };
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
-Type Parameters:
-position - (Vec3) The position in world space to set the camera to. If not set, the camera will maintain it's current position.
+Type Parameters:\
+position - (Vec3) The position in world space to set the camera to. If not set, the camera will maintain it's current position.\
 rotation - The rotation for the camera to face. If not set, the camera maintains its current rotation.
+

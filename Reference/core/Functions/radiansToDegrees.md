@@ -2,24 +2,35 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_radianstodegrees
 ---
 
-# radiansToDegrees() Function
+# [radiansToDegrees() Function](#radianstodegrees-function)
 
 Converts radians to degrees.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare function radiansToDegrees(radians: number): number;
+export
+ declare 
+function
+ radiansToDegrees
+(
+radians
+:
+ number
+):
+ number
+;
 ```
 
-## Parameters
+## [Parameters](#parameters)
 
 radians: number
 
 The value in radians.
 
-## Returns
+## [Returns](#returns)
 
 number
 
 The value in degrees.
+

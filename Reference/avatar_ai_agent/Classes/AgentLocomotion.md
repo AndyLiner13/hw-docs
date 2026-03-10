@@ -2,39 +2,170 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_agent_agentlocomotion
 ---
 
-# AgentLocomotion Class
+# [AgentLocomotion Class](#agentlocomotion-class)
 
-> Warning: This API is now obsolete.
-> Please use the NpcPlayer class in the horizon/npc module instead.
+> [!Warning]
+>
+> This API is now obsolete.\
+> Please use the NpcPlayer class in the horizon/npc module instead.\
 > Exposes the locomotion features of an AI agent.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare class AgentLocomotion
+export
+ declare 
+class
+ 
+AgentLocomotion
+ 
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
 To use agent locomotion, you must enable Navigation Locomotion in Desktop Editor. For more information, see the [Nav Mesh Agents](../../../Desktop%20editor/NPCs/Nav%20Mesh%20Agents.md) guide.
 
-## Properties
+## [Properties](#properties)
 
-|  |  |
-| --- | --- |
-| **entity** | The entity that is attached to the agent.      Signature  ``` entity: Entity; ``` |
-| **isGrounded** | Indicates whether the agent is on the ground. true if the agent is on the ground, false if the agent is above, below, or otherwise away from the ground.      Signature  ``` isGrounded: ReadableHorizonProperty<boolean>; ``` |
-| **isJumping** | Indicates whether the agent is performing a jump.      Signature  ``` isJumping: ReadableHorizonProperty<boolean>; ``` |
-| **isMoving** | Indicates whether the agent is moving.      Signature  ``` isMoving: ReadableHorizonProperty<boolean>; ``` |
-| **targetDirection** | The current target direction of the agent. Undefined if the agent isn't currently rotating to a specific target direction.      Signature  ``` targetDirection: ReadableHorizonProperty<Vec3 | undefined>; ``` |
-| **targetPosition** | The current locomotion target of the agent. Undefined if the agent isn't currently moving.      Signature  ``` targetPosition: ReadableHorizonProperty<Vec3 | undefined>; ``` |
+|            |                                                          |
+| ---------- | -------------------------------------------------------- |
+| **entity** | The entity that is attached to the agent.Signature\`\`\` |
+| entity     |                                                          |
+| :          |                                                          |
 
-## Methods
+Entity
+;
 
-|  |  |
-| --- | --- |
-| **jump()** | Issues a jump command.      Signature  ``` jump(): Promise<AgentLocomotionResult>; ```  Returns  Promise<[AgentLocomotionResult](../Enumerations/AgentLocomotionResult.md)>  A promise describing how the jump ended. |
-| **moveToPosition(position, options)** | Issues a movement command to the agent. Issuing a new move, rotate, follow, or jump command cancels any previous move command.      Signature  ``` moveToPosition(position: Vec3, options?: AgentLocomotionOptions): Promise<AgentLocomotionResult>; ```  Parameters  position: Vec3  The desired destination.  options: [AgentLocomotionOptions](../Type%20Aliases/AgentLocomotionOptions.md)  *(Optional)* Optional parameters.  Returns  Promise<[AgentLocomotionResult](../Enumerations/AgentLocomotionResult.md)>  - A promise describing how the locomotion ended. |
-| **moveToPositions(path, options)** | Issues a movement command along a path. Issuing a new move, rotate, follow, or jump command cancels any previous move command.      Signature  ``` moveToPositions(path: Array<Vec3>, options?: AgentLocomotionOptions): Promise<AgentLocomotionResult>; ```  Parameters  path: Array<Vec3>  An array of points to follow, in order.  options: [AgentLocomotionOptions](../Type%20Aliases/AgentLocomotionOptions.md)  *(Optional)* Optional parameters  Returns  Promise<[AgentLocomotionResult](../Enumerations/AgentLocomotionResult.md)>  - A promise describing how the locomotion ended. |
-| **rotateTo(direction, options)** | Issues a rotation command to change the direction the agent faces. Issuing a new move, rotate, follow, or jump command cancels any previous move command.      Signature  ``` rotateTo(direction: Vec3, options?: AgentRotationOptions): Promise<AgentLocomotionResult>; ```  Parameters  direction: Vec3  The desired facing direction.  options: [AgentRotationOptions](../Type%20Aliases/AgentRotationOptions.md)  *(Optional)* Optional parameters.  Returns  Promise<[AgentLocomotionResult](../Enumerations/AgentLocomotionResult.md)>  - A promise describing how the rotation ended. |
-| **stopMovement()** | Stops any movement in progress.      Signature  ``` stopMovement(): void; ```  Returns  void |
+````|
+| **isGrounded**      | Indicates whether the agent is on the ground. true if the agent is on the ground, false if the agent is above, below, or otherwise away from the ground.Signature```
+isGrounded
+:
+ 
+ReadableHorizonProperty
+<boolean>
+;
+``` |
+| **isJumping**       | Indicates whether the agent is performing a jump.Signature```
+isJumping
+:
+ 
+ReadableHorizonProperty
+<boolean>
+;
+```                                                                                                         |
+| **isMoving**        | Indicates whether the agent is moving.Signature```
+isMoving
+:
+ 
+ReadableHorizonProperty
+<boolean>
+;
+```                                                                                                                     |
+| **targetDirection** | The current target direction of the agent. Undefined if the agent isn't currently rotating to a specific target direction.Signature```
+targetDirection
+:
+ 
+ReadableHorizonProperty
+<
+Vec3
+ 
+|
+ 
+undefined
+>;
+```            |
+| **targetPosition**  | The current locomotion target of the agent. Undefined if the agent isn't currently moving.Signature```
+targetPosition
+:
+ 
+ReadableHorizonProperty
+<
+Vec3
+ 
+|
+ 
+undefined
+>;
+```                                             |
+
+## [Methods](#methods)
+
+|                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **jump()**                            | Issues a jump command.Signature```
+jump
+():
+ 
+Promise
+<
+AgentLocomotionResult
+>;
+```ReturnsPromise<[AgentLocomotionResult](../Enumerations/AgentLocomotionResult.md)>A promise describing how the jump ended.                                                                                                                                                                                                                                                                                                                                                                            |
+| **moveToPosition(position, options)** | Issues a movement command to the agent. Issuing a new move, rotate, follow, or jump command cancels any previous move command.Signature```
+moveToPosition
+(
+position
+:
+ 
+Vec3
+,
+ options
+?:
+ 
+AgentLocomotionOptions
+):
+ 
+Promise
+<
+AgentLocomotionResult
+>;
+```Parametersposition: Vec3The desired destination.options: [AgentLocomotionOptions](../Type%20Aliases/AgentLocomotionOptions.md)*(Optional)* Optional parameters.ReturnsPromise<[AgentLocomotionResult](../Enumerations/AgentLocomotionResult.md)>- A promise describing how the locomotion ended.                         |
+| **moveToPositions(path, options)**    | Issues a movement command along a path. Issuing a new move, rotate, follow, or jump command cancels any previous move command.Signature```
+moveToPositions
+(
+path
+:
+ 
+Array
+<
+Vec3
+>,
+ options
+?:
+ 
+AgentLocomotionOptions
+):
+ 
+Promise
+<
+AgentLocomotionResult
+>;
+```Parameterspath: Array\<Vec3>An array of points to follow, in order.options: [AgentLocomotionOptions](../Type%20Aliases/AgentLocomotionOptions.md)*(Optional)* Optional parametersReturnsPromise<[AgentLocomotionResult](../Enumerations/AgentLocomotionResult.md)>- A promise describing how the locomotion ended. |
+| **rotateTo(direction, options)**      | Issues a rotation command to change the direction the agent faces. Issuing a new move, rotate, follow, or jump command cancels any previous move command.Signature```
+rotateTo
+(
+direction
+:
+ 
+Vec3
+,
+ options
+?:
+ 
+AgentRotationOptions
+):
+ 
+Promise
+<
+AgentLocomotionResult
+>;
+```Parametersdirection: Vec3The desired facing direction.options: [AgentRotationOptions](../Type%20Aliases/AgentRotationOptions.md)*(Optional)* Optional parameters.ReturnsPromise<[AgentLocomotionResult](../Enumerations/AgentLocomotionResult.md)>- A promise describing how the rotation ended.     |
+| **stopMovement()**                    | Stops any movement in progress.Signature```
+stopMovement
+():
+ 
+void
+;
+```Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+````
+

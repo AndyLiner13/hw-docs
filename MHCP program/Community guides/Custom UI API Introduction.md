@@ -2,45 +2,44 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/cui-api-introduction
 ---
 
-# Custom UI API Introduction
+# [Custom UI API Introduction](#custom-ui-api-introduction)
 
-## Introduction
+## [Introduction](#introduction)
 
-### Creator Skill level
+### [Creator Skill level](#creator-skill-level)
 
 All levels
 
-### Required Background Knowledge
+### [Required Background Knowledge](#required-background-knowledge)
 
 No prior skills are required
 
-### Recommended Background Knowledge
+### [Recommended Background Knowledge](#recommended-background-knowledge)
 
 Windows Computers
 
-## Description
+## [Description](#description)
 
 In this guide, you’ll learn the fundamentals of the Custom UI (CUI) Gizmo, a powerful tool for creating custom interfaces. While traditionally requiring TypeScript knowledge and API expertise, this beginner-friendly tutorial breaks down complex concepts into accessible steps. You’ll gain hands-on experience with formatting basics and essential features, building the confidence needed to understand official documentation and start building your own custom interfaces right away.
 
-## Learning Objectives
+## [Learning Objectives](#learning-objectives)
 
 By reading and reviewing this written guide you will be able to:
 
-* Setup The Desktop Editor
-  + Add the CUI API to your worlds
-* Create Base UIComponent Scripts
-* Display Text On CUI
-* Visualize The Boxes Inside of Boxes
-* Organize Styles
-* Understand Bindings
-* Background Image Example
-* Instructions Board Example
-* ScrollView Example
-* Learn more in docs
-  + Tutorials
-    -Custom UI
+- Setup The Desktop Editor
+  - Add the CUI API to your worlds
+- Create Base UIComponent Scripts
+- Display Text On CUI
+- Visualize The Boxes Inside of Boxes
+- Organize Styles
+- Understand Bindings
+- Background Image Example
+- Instructions Board Example
+- ScrollView Example
+- Learn more in docs
+  - Tutorials -Custom UI
 
-## What Is A Custom UI (CUI) Gizmo?
+## [What Is A Custom UI (CUI) Gizmo?](#what-is-a-custom-ui-cui-gizmo)
 
 The Custom UI gizmo makes it possible to create interactive user interfaces that work great for both VR and XS users. You can create clickable buttons, display images, update text being displayed to specific users, and much more.
 
@@ -48,38 +47,37 @@ Creating with the Custom UI (CUI) Gizmo is sophisticated enough to warrant dedic
 
 After completing this tutorial, I encourage you to continue deeper down the rabbit hole if you enjoy making these UIs. Alternatively, use the basics learned in this guide to augment your current workflow. There are dozens of niches in the creative process in Horizon, with new features like this one added regularly. It won’t be for everyone, but for those who have CSS background, or who pick it up quickly, have a blast!
 
-### How important is knowing Horizon’s Typescript API, to get started?
+### [How important is knowing Horizon’s Typescript API, to get started?](#how-important-is-knowing-horizons-typescript-api-to-get-started)
 
 Knowing Typescript may help, but the UI API is very different compared to the Horizon Core API, so you really can be a beginner and dive deep into UI with little background knowledge.
 
-## Limitations And Use Cases
+## [Limitations And Use Cases](#limitations-and-use-cases)
 
 At first, your creativity might seem like the only limiting factor, and in some ways that is true. However, there are some limitations and use cases to be aware of.
 
-### Text Styling Constraints
+### [Text Styling Constraints](#text-styling-constraints)
 
 Unlike the Text Gizmo, a block of text displayed on the Custom UI cannot have multiple styles applied to it without a lot of extra work. You will often find yourself creating multiple header and body styles. You also have to apply color in these styles, so if you want a rainbow title, then you will have to color each letter with its own style (which is more work than it might at first seem).
 
-### Static Layout Architecture
+### [Static Layout Architecture](#static-layout-architecture)
 
 The Custom UI layout is determined prior to world start and cannot be modified with the current UI API. This means that if you want to have multiple pages, you will need to hide and show them as needed. Note that while it may seem intuitive to design multiple UINodes with active display bindings, this functionality is not supported in the current version (as of September 2024).
 
-### Performance Constraints
+### [Performance Constraints](#performance-constraints)
 
-The recommended update frequency is limited to **two updates per second** per world instance. This is very little, imagine you have a player walk up and it displays their name and score, that is two updates. This constraint applies globally across all Custom UI gizmos, not individually.
-For example, one thing I tried to develop at first and learned just wasn’t possible was a cookie clicker-like game. But the number of clicks, color changes, and everything going on, was too much for the UI and it caused Horizon’s menus to stop working.
+The recommended update frequency is limited to **two updates per second** per world instance. This is very little, imagine you have a player walk up and it displays their name and score, that is two updates. This constraint applies globally across all Custom UI gizmos, not individually. For example, one thing I tried to develop at first and learned just wasn’t possible was a cookie clicker-like game. But the number of clicks, color changes, and everything going on, was too much for the UI and it caused Horizon’s menus to stop working.
 
-### System Impact
+### [System Impact](#system-impact)
 
 Custom UI implementations can have unexpected effects on world performance. Key considerations:
 
-* Monitor binding update frequency carefully
-* Performance issues may manifest in seemingly unrelated systems (e.g., delayed trigger responses, physics interactions)
-* Use trace debugging to identify UI-related performance impacts early in development
+- Monitor binding update frequency carefully
+- Performance issues may manifest in seemingly unrelated systems (e.g., delayed trigger responses, physics interactions)
+- Use trace debugging to identify UI-related performance impacts early in development
 
 **Mentor’s Note:** Overall, if you ask me what I think about the CUI gizmo- I love it! I love that it makes menus compatible on all devices, and I love how it looks. That being said I use it cautiously, and recommend sticking to simple Pop Ups or Text Gizmos when you need a lot of updates or are just developing something simple. Most CUIs take multiple hours to build, which can really slow down your production if there isn’t someone assigned to this task specifically.
 
-## Desktop Editor Setup
+## [Desktop Editor Setup](#desktop-editor-setup)
 
 When working with the Custom UI gizmo it is highly recommended to use the Horizon desktop editor. This is because when you update the UI, you will want to be able to see the changes quickly and iterate rapidly.
 
@@ -93,7 +91,7 @@ You can then adjust the position and rotation to your liking, and after selectin
 
 Next, create your first script. In the example below, we will name it **CUI\_Test\_Entity**. The prefix “CUI” will help you easily find all scripts that are related to the CUI gizmo, you will see that later in this tutorial. “Test” lets you know what this script is supposed to do. “Entity” is one of several postfixes you can use to describe what the script is, in this case, it is attached to an entity, a Custom UI gizmo.
 
-![Screenshot shows the script menu with CUI_Test_Entity entered in the field](../../_assets/images/f2fba28545f1391d7b74b22ffb8e835d997e0a571a12ea0e0fd1ebf6e9c4f5b9.png)
+![Screenshot shows the script menu with CUI\_Test\_Entity entered in the field](../../_assets/images/f2fba28545f1391d7b74b22ffb8e835d997e0a571a12ea0e0fd1ebf6e9c4f5b9.png)
 
 Now that you have created our first script, you can go back to the Scripts drop-down, and click the gear settings icon.
 
@@ -105,28 +103,27 @@ From the settings menu, select the API tab on the left, enable the UI API, and c
 
 You are now finished setting up. In the next step, you will begin working on the base UIComponent script.
 
-## Create Base UIComponent Script
+## [Create Base UIComponent Script](#create-base-uicomponent-script)
 
-- Open your script in VS Code. From the Scripts drop-down to the right of your newly created script, click the three-dot icon. Then select “**Open in External Editor**.”
+1. Open your script in VS Code. From the Scripts drop-down to the right of your newly created script, click the three-dot icon. Then select “**Open in External Editor**.”
 
 *Note: If this doesn’t do anything, you will need to install VS Code, and after installing restart your computer for Horizon to be able to “Open in External Editor,” ie. VS Code.*![Screenshot shows the settings menu a mouse cursor on the 'three-dot icon'](../../_assets/images/58f6ebe7defea351ea030d1732bf79ce8866241fb77cf876788fdf036d277e2a.png)
 
-- Adjust the default script to match the base UIComponent script seen below. To do this start by deleting the import line and the two “**hz**.” You can then explicitly import Component by backspacing the “**t**” in Component, and when we retype the **T**, click “**Enter**” on your keyboard to allow VS Code to automatically write the import line seen on line 1 in the screenshot below.
+1. Adjust the default script to match the base UIComponent script seen below. To do this start by deleting the import line and the two “**hz**.” You can then explicitly import Component by backspacing the “**t**” in Component, and when we retype the **T**, click “**Enter**” on your keyboard to allow VS Code to automatically write the import line seen on line 1 in the screenshot below.
 
 *Note: Using explicit importing is optional, but for this tutorial, it is recommended you follow this method instead of using “hz.” to reduce the chance of discrepancy-related errors.*
 
-- Rewrite the first “**Component**” as UIComponent, matching line 4 in the script below. Be sure to click “**Enter**” again to allow VS Code to auto-import from the UI API.
+1. Rewrite the first “**Component**” as UIComponent, matching line 4 in the script below. Be sure to click “**Enter**” again to allow VS Code to auto-import from the UI API.
 
 You also need the “**initializeUI**” method, which must return a UINode, which you can do with “View.” You will see this written out on line 7 in the script below.
 
 *Note: You can click “Enter” as you type to autocomplete. In some cases may need to so that the import line gets correctly filled out. For instance “View” is also an import from the UI API. You may also find that “UINode” doesn’t auto import, in which case, backspace the “e” and retype E, clicking Enter like before to import.*
 
-- Add the preStart method.
+1. Add the preStart method.
 
 *Note: If you don’t click enter to autocomplete, this method and the previous “initializeUI” method, they are both case sensitive, and if misspelled will not work correctly or report an error.*
 
-![Screenshot shows an example script](../../_assets/images/6d283717c2f03f7519211a95d13004a6f0898a4158625c7336bb928d414a71f1.png)
-Let’s take a minute to understand how each of these lines works, and what they do.
+![Screenshot shows an example script](../../_assets/images/6d283717c2f03f7519211a95d13004a6f0898a4158625c7336bb928d414a71f1.png) Let’s take a minute to understand how each of these lines works, and what they do.
 
 **Lines 1 and 2:** The first two lines are imports, this declares what you are using in your script. If you come from a background in CodeBlocks, think of this as not having access to any CodeBlocks unless you explicitly requested them. Fortunately, these two lines are automatically written for you by VS Code.
 
@@ -156,7 +153,7 @@ Use preStart to connect events and do anything that needs to happen before the s
 
 Now that you understand the base script, in the next section, you are going to attach the script and display a simple “Hello World” message.
 
-## Displaying Hello World
+## [Displaying Hello World](#displaying-hello-world)
 
 To start, go back into Horizon and from the bottom of the CUI gizmo’s properties panel attach your script.
 
@@ -178,7 +175,7 @@ And just like that you have displayed your first message on a Custom UI gizmo, g
 
 In the next section, you will start to understand the inner workings of UINodes and their children, which will enable you to position, scale, stylize, and much more!
 
-## Boxes Inside of Boxes
+## [Boxes Inside of Boxes](#boxes-inside-of-boxes)
 
 The best analogy I have come across to help learn how to use the CSS-like styling used on the Custom UI gizmo is to start thinking of the whole thing as just one giant cardboard box.
 
@@ -222,11 +219,11 @@ As you can see, they are stacked by default. Thinking back to our cardboard box 
 
 In the next section, you are going to explore more of the style options and learn how to better organize our styles.
 
-## Organizing UI Styles
+## [Organizing UI Styles](#organizing-ui-styles)
 
 Start by creating a new script to store various styles, **CUI\_Styles\_Data**. Press enter on your keyboard to create the script.
 
-![Image shows a user creating a CUI_Styles_Data script](../../_assets/images/58fda46bbf24cb05882ab35ead1bd22653aa062fb8aefddc08e0bf99d25fc93c.png)
+![Image shows a user creating a CUI\_Styles\_Data script](../../_assets/images/58fda46bbf24cb05882ab35ead1bd22653aa062fb8aefddc08e0bf99d25fc93c.png)
 
 Once you have the new script you can click the three-dot icon, “**open in external editor**.” Alternatively back in VS Code, if you click the top left files icon, it will expand and show you all of your scripts. You can click on the newly created .ts file, and optionally close the file browser.
 
@@ -258,7 +255,7 @@ Saving and compiling back in Horizon, you can now realize our dream of boxes in 
 
 Next, you are going to look at bindings, which are used to update the UI.
 
-## What Are Bindings?
+## [What Are Bindings?](#what-are-bindings)
 
 Bindings allow us to update our UI after the world has started. Bindings are able to be various simple types, ie: string, number, boolean, Color, LocalizableText, ImageSource.
 
@@ -270,7 +267,7 @@ Let’s start by looking at how to create a couple of bindings inside our compon
 
 ![Image shows example bindings](../../_assets/images/e35ecb5a931dd2fd16da5b40b651da28ad1ac07f769ba8355cc0bf5b44f7f64d.png)
 
-When a player enters the world, you can set the **nameBinding** using .set, the second parameter “[player]” is optional. This optional parameter allows us to specify a list of players who will receive the binding update. In this case, you only want the player who entered the world to see their name. The square brackets create an array, and you place the “player” inside. When this list parameter is not specified, it defaults to updating the bindings for all players.
+When a player enters the world, you can set the **nameBinding** using .set, the second parameter “\[player]” is optional. This optional parameter allows us to specify a list of players who will receive the binding update. In this case, you only want the player who entered the world to see their name. The square brackets create an array, and you place the “player” inside. When this list parameter is not specified, it defaults to updating the bindings for all players.
 
 ![Code snippet shows the optional 'player' parameter](../../_assets/images/52ec52f0f28edb3136b3a56baf9e6d769921b92d47569a44adb5eb0b801e52bb.png)
 
@@ -284,27 +281,27 @@ There is also .reset(), which “resets the player-specific value of the binding
 
 ![Code snippet shows .reset() being used](../../_assets/images/0aa7e076b9932f63dce9424f0547f4019bbe4ec20ea8a9077bfb118677017bd3.png)
 
-You can also use a map function to set the value of a binding, here is a screenshot of the example given here: <https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui>
+You can also use a map function to set the value of a binding, here is a screenshot of the example given here: [https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui](../../Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md)
 
 ![Image shows bindings for multiple players](../../_assets/images/1b27b2746e471a9638c2ed69e4f2d2aeeeea0822a27627e62f8f93496d45013a.png)
 
 Next, you are going to look at and discuss various examples that you’ll be able to take apart and try on your own.
 
-## Background Image Example
+## [Background Image Example](#background-image-example)
 
 In this example, you display an image png asset, which is uploaded to your asset library as a texture, and then referenced on the properties panel of your CUI gizmo.
 
-**Mentor’s Note:***I don’t like to use the “!” seen on line 13, but it is the easiest way to get this setup and working, otherwise you have to use an image binding and check that the bgImage is not undefined. Be aware that doing it this way will break if your asset is not referenced on the properties panel.*
+\*\*Mentor’s Note:\*\**I don’t like to use the “!” seen on line 13, but it is the easiest way to get this setup and working, otherwise you have to use an image binding and check that the bgImage is not undefined. Be aware that doing it this way will break if your asset is not referenced on the properties panel.*
 
 ![Image shows code snippet for including a background image](../../_assets/images/aac6bc12b73f2474063bc60864cf33ad9a0b8361e54ce4d143ddd04d27597e93.png)
 
-## Instruction Board Example
+## [Instruction Board Example](#instruction-board-example)
 
 This example shows how you can have multiple images, and when a user presses back or next buttons it changes to the next image.
 
 ![Image shows code snippet for an instruction board](../../_assets/images/13a08944e8dd9252fc40f43c71000857938452e45f519479a82da2619218590d.png)
 
-## ScrollView Example
+## [ScrollView Example](#scrollview-example)
 
 This example shows how to implement a ScrollView. It is relatively simple. Most of the time it is recommended using percentages for height and width. But in a ScrollView, the height is best as a number of pixels (seen on line 43).
 
@@ -312,7 +309,7 @@ This example shows how to implement a ScrollView. It is relatively simple. Most 
 
 ![Image shows code snippet for implementing the scrollview](../../_assets/images/e1e0265946c322314e7e9864c9cee7ea813ef5199cf95de6e7edd2d190b6746d.png)
 
-## Thank You!
+## [Thank You!](#thank-you)
 
 From here, I hope you’ll continue growing your typescript and UI skillset, expanding on the knowledge gained today to bring great looking UIs to the visitors of your worlds! If you have any questions or need help, don’t hesitate to ask in Discord!
 
@@ -320,22 +317,23 @@ Sincerely,
 
 Laex05
 
-## Extended Learning
+## [Extended Learning](#extended-learning)
 
 Below we have provided challenges for you to implement on your own. The Advanced task may require some outside knowledge, and we encourage you to ask questions in Discord if you get stuck or are unsure how to complete any of these.
 
-### Novice
+### [Novice](#novice)
 
 Create a UI with a background image, and an instruction board with multiple images.
 
-### Intermediate
+### [Intermediate](#intermediate)
 
 Create a UI with a ScrollView.
 
-### Advanced
+### [Advanced](#advanced)
 
-Learn about animated bindings on the docs site and create a simple animation, ie. image swiping in and out of view. <https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/animations-for-custom-ui>
+Learn about animated bindings on the docs site and create a simple animation, ie. image swiping in and out of view. [https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/animations-for-custom-ui](../../Desktop%20editor/Custom%20UI/Animations%20for%20custom%20UI.md)
 
-### Further Assistance
+### [Further Assistance](#further-assistance)
 
 For any questions or further assistance, creators are encouraged to join the discussion on the Discord server or to schedule a mentor session for personalized guidance.
+

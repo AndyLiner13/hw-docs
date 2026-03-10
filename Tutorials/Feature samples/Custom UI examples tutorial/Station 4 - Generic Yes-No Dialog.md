@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-examples-tutorial/station-4-generic-yes-no-dialog
 ---
 
-# Station 4 - Generic Yes/No Dialog
+# [Station 4 - Generic Yes/No Dialog](#station-4---generic-yesno-dialog)
 
 This station demonstrates how to set up a generic dialog with Yes/No buttons.
 
@@ -10,21 +10,21 @@ This customUI panel contains a text message and a Yes button and No button, with
 
 ![Image of Station 4](../../../_assets/images/f6caa76b6f1aca7423e723232ae41b4feb7497130ec7186e28bda54b9c2ad7ca.png)
 
-## Assets
+## [Assets](#assets)
 
-* **Station04-CustomUI: CustomUI gizmo**
-  + Visible: true
-  + Script: the script that defines the custom UI elements must be attached.
-* **Station04-GenericYesNoDialog: script**
-  + This script defines the customUI object and loads the image referenced in the CustomUI gizmo properties panel.
-  + It also defines the method by which the panel is filled over a series of frames.
-  + Updates are performed every five frames.
-* **StationAll-CustomUI-Library: script**
-  + Some elements of this library file are imported in the script.
+- **Station04-CustomUI: CustomUI gizmo**
+  - Visible: true
+  - Script: the script that defines the custom UI elements must be attached.
+- **Station04-GenericYesNoDialog: script**
+  - This script defines the customUI object and loads the image referenced in the CustomUI gizmo properties panel.
+  - It also defines the method by which the panel is filled over a series of frames.
+  - Updates are performed every five frames.
+- **StationAll-CustomUI-Library: script**
+  - Some elements of this library file are imported in the script.
 
-## Script
+## [Script](#script)
 
-### Station04-GenericYesNoDialog
+### [Station04-GenericYesNoDialog](#station04-genericyesnodialog)
 
 This customUI creates the two buttons using two calls to a function (`MyButton()`), passing in properties (`MyButtonProps`).
 
@@ -32,11 +32,11 @@ In the definition for the function, you can see how properties of the button are
 
 This function returns a `UINode()`, which is added to the customUI `View()` definition. This node is an instance of a Pressable object, which is a customUI component that supports the following JavaScript-style events:
 
-* `onClick()`
-* `onEnter()`
-* `onExit()`
-* `onPress()`
-* `onRelease()`
+- `onClick()`
+- `onEnter()`
+- `onExit()`
+- `onPress()`
+- `onRelease()`
 
 There are definitions or placeholders for definitions for each of these events in the Pressable definition. In Visual Studio Code, you can right-click these strings and select **Go to Definition** to learn more.
 
@@ -46,13 +46,14 @@ Placeholder functions are added for what happens when the buttons are clicked: `
 
 `MyPrompt()` is called within the `initializeUI()` method as part of initialize setup of the customUI panel.
 
-## Key Learnings
+## [Key Learnings](#key-learnings)
 
-### Meta Horizon Worlds learnings
+### [Meta Horizon Worlds learnings](#meta-horizon-worlds-learnings)
 
-* The use of a function (`MyButton()`) to return a `UINode()`, which can be added to your customUI panel.
-* The Pressable UI component and its JavaScript-style supported events
+- The use of a function (`MyButton()`) to return a `UINode()`, which can be added to your customUI panel.
+- The Pressable UI component and its JavaScript-style supported events
 
-### TypeScript coding
+### [TypeScript coding](#typescript-coding)
 
-* None.
+- None.
+

@@ -2,16 +2,33 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avatargripposeanimationcallback
 ---
 
-# AvatarGripPoseAnimationCallback type
+# [AvatarGripPoseAnimationCallback type](#avatargripposeanimationcallback-type)
 
 Represents a callback that signals changes in the animation state of a player.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type AvatarGripPoseAnimationCallback = (reason: AnimationCallbackReason) => void;
+export
+ declare type 
+AvatarGripPoseAnimationCallback
+ 
+=
+ 
+(
+reason
+:
+ 
+AnimationCallbackReason
+)
+ 
+=>
+ 
+void
+;
 ```
 
-## References
+## [References](#references)
 
 [AnimationCallbackReason](AnimationCallbackReason.md)
+

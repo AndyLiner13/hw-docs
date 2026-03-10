@@ -2,11 +2,11 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/members-only-worlds/manage-reports-members-only-worlds
 ---
 
-# Manage reports for members-only worlds in Meta Horizon Worlds
+# [Manage reports for members-only worlds in Meta Horizon Worlds](#manage-reports-for-members-only-worlds-in-meta-horizon-worlds)
 
 Members-only worlds deprecated
 
- Members-only worlds have been deprecated. With the launch of Home Worlds, we recommend using home worlds for private, membership-based experiences. For more information about Home Worlds, please refer to the updated Horizon Worlds documentation.
+Members-only worlds have been deprecated. With the launch of Home Worlds, we recommend using home worlds for private, membership-based experiences. For more information about Home Worlds, please refer to the updated Horizon Worlds documentation.
 
 Members-only worlds are membership-based communities where like-minded people can come together and enjoy a shared experience. In order to join a members-only world, you must be sent an invite by a member of the world, or you must request to join a world and have your request approved by a creator or admin.
 
@@ -14,7 +14,7 @@ Reports within a members-only world help creators and assigned admins maintain a
 
 Learn how to [report someone](https://www.meta.com/help/quest/articles/horizon/safety-and-privacy-in-horizon-worlds/report-someone-horizon-worlds/) in Meta Horizon Worlds.
 
-## Receiving reports
+## [Receiving reports](#receiving-reports)
 
 Members of a members-only world can file reports that go directly to creators and admins for violations of the creator’s [world-specific rules](Set%20up%20a%20members-only%20world%20using%20VR%20tools.md) and for some violations of the CCVE. Reports for other violations will go directly to Meta. The reporting flow will indicate whether Meta or the creator and admin will receive the report. Unresolved member reports sent to a creator and admin of a members-only world will trigger Meta’s Community Management Support process.
 
@@ -24,31 +24,32 @@ If the report is still unresolved 14 days from the date when the report was firs
 
 **Note**: Meta will still respond to a select set of reported violations to help ensure world safety.
 
-## Reviewing reports
+## [Reviewing reports](#reviewing-reports)
 
 Reports are generated when a member reports another member of the world. Creators and admins will receive a notification in Meta Horizon Worlds when a report is submitted. They can review reports by selecting the notification in Meta Horizon Worlds, or by visiting the Insights tab from the world details page.
 
 To review reports:
 
-- From Meta Horizon Worlds, press the **Menu** button on your left Touch controller to open the Worlds menu.
-- Select **Create**.
-- Hover over the world you want to review and select **Insights**.
-- Select **Reports**.
+1. From Meta Horizon Worlds, press the **Menu** button on your left Touch controller to open the Worlds menu.
+2. Select **Create**.
+3. Hover over the world you want to review and select **Insights**.
+4. Select **Reports**.
 
 From here, creators and admins can review reports, take actions against reported members, and close reports.
 
-## Taking action on reports
+## [Taking action on reports](#taking-action-on-reports)
 
 Creators and admins can take action on a report by selecting **More actions** from the report details screen. The following actions are available:
 
-* **Mute**: temporarily mute the reported member in the world for 2 hours.
-* **Remove**: temporarily restrict reported member from entering the world for 2 hours.
-* **Revoke access**: only creators can permanently block reported members from entering the world. If the world is hidden, the blocked member will also no longer be able to search for it.
+- **Mute**: temporarily mute the reported member in the world for 2 hours.
+- **Remove**: temporarily restrict reported member from entering the world for 2 hours.
+- **Revoke access**: only creators can permanently block reported members from entering the world. If the world is hidden, the blocked member will also no longer be able to search for it.
 
-## Closing reports
+## [Closing reports](#closing-reports)
 
 Creators and admins can close a report by selecting **Close this report** from the report details screen. As a reminder, failure to close a report in a timely fashion will trigger Meta’s Community Management Support process as described above.
 
 Once a report is closed, it cannot be reopened. Closed reports will appear under the **Closed reports** tab for 30 days after they are submitted.
 
 Learn more about how the CCVE [applies to members-only worlds](https://www.meta.com/help/quest/articles/horizon/safety-and-privacy-in-horizon-worlds/code-of-conduct-members-only-worlds/).
+

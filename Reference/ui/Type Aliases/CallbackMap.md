@@ -2,16 +2,33 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_callbackmap
 ---
 
-# CallbackMap type
+# [CallbackMap type](#callbackmap-type)
 
 Stores a map of IDs to callback functions for use during data model serialization.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type CallbackMap = Map<string, Callback | CallbackWithPayload>;
+export
+ declare type 
+CallbackMap
+ 
+=
+ 
+Map
+<
+string
+,
+ 
+Callback
+ 
+|
+ 
+CallbackWithPayload
+>;
 ```
 
-## References
+## [References](#references)
 
 [Callback](Callback.md), [CallbackWithPayload](CallbackWithPayload.md)
+

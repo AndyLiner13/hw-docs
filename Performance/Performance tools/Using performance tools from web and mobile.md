@@ -2,24 +2,22 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/performance-best-practices-and-tooling/performance-tools/using-performance-tools-from-web-and-mobile
 ---
 
-# Using performance tools from web and mobile
+# [Using performance tools from web and mobile](#using-performance-tools-from-web-and-mobile)
 
-Important
+> [!Important]
+>
+> Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs)! As a member, you gain:* Access to monetization opportunities including monthly bonuses, in-world purchases and competition cash prizes.
+> * Helpful resources including educational content, technical support and a collaborative creator community.
 
- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs)! As a member, you gain:
-
-* Access to monetization opportunities including monthly bonuses, in-world purchases and competition cash prizes.
-* Helpful resources including educational content, technical support and a collaborative creator community.
-
-Important
-
- To report bugs, go to the main menu and select **Report a problem**. To give us feedback, select **Help us improve** from the main menu.
+> [!Important]
+>
+> To report bugs, go to the main menu and select **Report a problem**. To give us feedback, select **Help us improve** from the main menu.
 
 Real-time performance metrics and server-side tracing can help creators find and address performance issues in their worlds. In this article, you will learn how to access the performance tools via browser while visiting your world, alleviating the need to put on a VR headset to get performance data about your world.
 
 Let’s begin with opening the Performance panel.
 
-## Opening the Performance panel
+## [Opening the Performance panel](#opening-the-performance-panel)
 
 In the web browser, the Performance panel displays a real-time view of all currently selected metrics. While visiting a world, press **P** to open the Performance panel. The panel appears at the bottom of the screen, and the world viewport shrinks to accommodate it. Pressing **P** again closes the Performance panel and expands the viewport back to full size.
 
@@ -29,7 +27,7 @@ In mobile, you open the Performance dialog but pressing the **Settings** button 
 
 ![The Performance dialog in a mobile world.](../../_assets/images/a4e852223b78af5de13e814a4fbb9b9179900a041057bf973f9412bb1261dcdc.png)
 
-## Displaying real-time metrics
+## [Displaying real-time metrics](#displaying-real-time-metrics)
 
 You can select which real-time metrics to display in the Performance panel by clicking the **Gear** icon to open the Display Settings. From there,simply check the box next to each metric you’d like to see in the Performance panel. Unselected metrics will not be shown.
 
@@ -41,7 +39,7 @@ In mobile, once the Performance dialog is open, click the check box for **Show r
 
 ![The Performance dialog in a mobile world with Show real-time metrics (RTM) overlay selected.](../../_assets/images/65343c517db0ab2093e112ce461df69ed03ce92d55f49715c1ec1a6a17abbd8f.png)
 
-### Scrubbing (web only)
+### [Scrubbing (web only)](#scrubbing-web-only)
 
 With Scrubbing, you can review data that has recently appeared on the Performance panel (approximately 30 seconds of data) in detail. Click the **Inspect** button to open the Scrubbing view.
 
@@ -53,15 +51,15 @@ Below the Frame Time scrubber, a “zoomed-in,” detailed view is shown for eac
 
 Click the **Back** button to return to the Performance panel.
 
-## Tracing
+## [Tracing](#tracing)
 
 With Tracing, you can capture performance data from your world to [view in Perfetto](Analyzing%20trace%20data%20with%20Perfetto.md). You can choose between three trace types:
 
-* **Overview** - An overview trace can help set a baseline for how your world is performing in visit mode. It captures high-level data like FPS, CPU, and GPU. Additionally, overview provides a high-level capture of metrics like physics, rendering, and lighting to identify possible sources of performance impact and provide a direction for deeper investigation.
-* **Deep** - A deep trace provides scripting information and metrics like draw calls. It’s best used for identifying specific performance improvements like optimizing physics, colliders, and tri/poly count of certain meshes as well as reducing draw calls in a particular area. Deep traces are the most commonly run because they can give more specific, actionable information when it comes to performance optimizations.
-* **Playtest** - Playtest capture allows for up to 2 hours of gameplay to be recorded across multiple worlds without needing to be plugged in or running any special software. This type of trace can be taken on any build, anytime, anywhere. Playtest capture generates a report similar to the ones we use internally to track the performance of our hottest worlds and the performance of Horizon itself. Unlike other types of traces, which are viewable in Perfetto, the results of this trace are viewable on the [Horizon website](https://horizon.meta.com/creator/performance/reports). In general, playtest traces are best used for initial testing.
+- **Overview** - An overview trace can help set a baseline for how your world is performing in visit mode. It captures high-level data like FPS, CPU, and GPU. Additionally, overview provides a high-level capture of metrics like physics, rendering, and lighting to identify possible sources of performance impact and provide a direction for deeper investigation.
+- **Deep** - A deep trace provides scripting information and metrics like draw calls. It’s best used for identifying specific performance improvements like optimizing physics, colliders, and tri/poly count of certain meshes as well as reducing draw calls in a particular area. Deep traces are the most commonly run because they can give more specific, actionable information when it comes to performance optimizations.
+- **Playtest** - Playtest capture allows for up to 2 hours of gameplay to be recorded across multiple worlds without needing to be plugged in or running any special software. This type of trace can be taken on any build, anytime, anywhere. Playtest capture generates a report similar to the ones we use internally to track the performance of our hottest worlds and the performance of Horizon itself. Unlike other types of traces, which are viewable in Perfetto, the results of this trace are viewable on the [Horizon website](https://horizon.meta.com/creator/performance/reports). In general, playtest traces are best used for initial testing.
 
-### Starting a trace
+### [Starting a trace](#starting-a-trace)
 
 In the web browser, click the **Trace** button (red dot with white corner brackets) to open the Start a Trace window.
 
@@ -75,7 +73,7 @@ In mobile, click the drop-down menu next to the **Start trace** button to select
 
 ![The Performance dialog showing the three trace types](../../_assets/images/892777ae7729248119a922654bbf0841a4aeb1f3ca278eddddcf4f8631939010.png)
 
-### Stopping a trace
+### [Stopping a trace](#stopping-a-trace)
 
 In the web browser, to end a trace early, click the **Stop** button at the top of the panel.
 
@@ -87,12 +85,13 @@ In mobile, to end a trace early, open the Performance dialog and click the **Sto
 
 When a trace is completed in mobile or web, the results are uploaded to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) in the Performance section.
 
-## What’s next?
+## [What’s next?](#whats-next)
 
 To learn more about Meta Horizon Worlds, try the following:
 
-- [Create your first world](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
-- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](../../Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
-- Learn about the desktop editor with the [Introduction to the Desktop Editor](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
-- Learn about the other tools available by reading our [Tools Overview](../../Get%20started/Tools%20overview.md).
-- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.
+1. [Create your first world](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial%2C%20part%201.md) using our step-by-step tutorial.
+2. If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](../../Desktop%20editor/Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
+3. Learn about the desktop editor with the [Introduction to the Desktop Editor](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+4. Learn about the other tools available by reading our [Tools Overview](../../Get%20started/Tools%20overview.md).
+5. Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.
+

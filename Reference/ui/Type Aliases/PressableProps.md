@@ -2,26 +2,81 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_pressableprops
 ---
 
-# PressableProps type
+# [PressableProps type](#pressableprops-type)
 
 Represents the props of a [pressable](../Functions/Pressable.md) component on a UI panel.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type PressableProps = {
-    children?: UIChildren;
-    disabled?: Bindable<boolean>;
-    onClick?: Callback;
-    onEnter?: Callback;
-    onExit?: Callback;
-    onPress?: Callback;
-    onRelease?: Callback;
-    propagateClick?: boolean;
-    style?: ViewStyle;
+export
+ declare type 
+PressableProps
+ 
+=
+ 
+{
+
+    children
+?:
+ 
+UIChildren
+;
+
+    disabled
+?:
+ 
+Bindable
+<boolean>
+;
+
+    onClick
+?:
+ 
+Callback
+;
+
+    onEnter
+?:
+ 
+Callback
+;
+
+    onExit
+?:
+ 
+Callback
+;
+
+    onPress
+?:
+ 
+Callback
+;
+
+    onRelease
+?:
+ 
+Callback
+;
+
+    propagateClick
+?:
+ 
+boolean
+;
+
+    style
+?:
+ 
+ViewStyle
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [UIChildren](UIChildren.md), [Bindable](Bindable.md), [Callback](Callback.md), [ViewStyle](ViewStyle.md)
+

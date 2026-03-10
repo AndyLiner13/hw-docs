@@ -2,15 +2,15 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/multiplayer-lobby-tutorial/module-4-starting-the-game
 ---
 
-# Module 4 - Starting the Game
+# [Module 4 - Starting the Game](#module-4---starting-the-game)
 
-## Start Game Trigger Zone
+## [Start Game Trigger Zone](#start-game-trigger-zone)
 
 Now, let’s make it possible for players to participate. In our game, we want players to be able to:
 
-* Enter the world in a state and a location outside of the gameplay space
-* Wait in this space for others to join.
-* When players are ready, start a new game.
+- Enter the world in a state and a location outside of the gameplay space
+- Wait in this space for others to join.
+- When players are ready, start a new game.
 
 A common mechanic is to designate a zone as the lobby area, where players enter, wait, and launch new matches.
 
@@ -22,13 +22,13 @@ Our tracking events are already created in the provided **GameUtils** module. We
 
 Replace:
 
-```
+```typescript
 // TODO: import all events from our GameUtils file
 ```
 
 With:
 
-```
+```typescript
 import Events from 'GameUtils';
 ```
 
@@ -38,33 +38,33 @@ We want to broadcast this event, the registerNewMatch event, when a player enter
 
 In the **StartGameTrigger** script, replace:
 
-```
+```typescript
 // TODO: broadcast the "registerNewMatch" event
 ```
 
 With:
 
-```
+```typescript
 this.sendLocalBroadcastEvent(Events.registerNewMatch, {});
 ```
 
-## Updating Game State
+## [Updating Game State](#updating-game-state)
 
 Our GameManager script is already designed to listen for the registerNewMatch event. We must update the code so that when this event is received, the game state is changed to **Starting**.
 
 In the **GameManager** script, replace:
 
-```
+```typescript
 // TODO: Call the "handleNewMatchStarting" event handler
 ```
 
 With:
 
-```
+```typescript
 this.handleNewMatchStarting();
 ```
 
-## Display a countdown timer
+## [Display a countdown timer](#display-a-countdown-timer)
 
 Before teleporting players into the game, we should show a simple countdown to all lobby players.
 
@@ -74,13 +74,13 @@ For our countdown timer, we are going to use the built-in **Popup UI**. The code
 
 In the **GameManager** script, replace:
 
-```
+```typescript
 // TODO: update the game state to "Starting"
 ```
 
 With:
 
-```
+```typescript
 this.setGameState(GameState.Starting);
 ```
 
@@ -88,39 +88,43 @@ For Popup UI, we are going to use the **World** class from TypeScript API v2.0.0
 
 In our **GameManager** file, replace:
 
-```
+```typescript
 // TODO: show Popup UI message to everyone with remaining time
 ```
 
 With:
 
-```
+```typescript
 this.world.ui.showPopupForEveryone(
+
   `Match Start teleport in  ${this.countdownTimeInMS / 1000}`,
+
   1,
+
 );
 ```
 
 In the above code snippet, we are using the **showPopupForEveryone** method. This method takes 2 parameters:
 
-* the first param is the text to display
-* the second param is the time (in seconds) to display that message
+- the first param is the text to display
+- the second param is the time (in seconds) to display that message
 
 After the designated time, the Popup UI will dismiss itself.
 
-## Testing
+## [Testing](#testing)
 
 At this point, we can test what we have built so far.
 
-- Enter the world in **Visit** mode.
-- Jump up on the **Start Match** platform.
-- You should see the **Popup UI** that displays a countdown.
+1. Enter the world in **Visit** mode.
+2. Jump up on the **Start Match** platform.
+3. You should see the **Popup UI** that displays a countdown.
 
-## Checkpoint
+## [Checkpoint](#checkpoint)
 
 Done with Module 4! In this module, you:
 
-* Triggered a new game to start using events and game state
-* Displayed a Popup UI message to all players
+- Triggered a new game to start using events and game state
+- Displayed a Popup UI message to all players
 
 Right now, when the countdown finishes, nothing happens. We’ll cover that in the next module.
+

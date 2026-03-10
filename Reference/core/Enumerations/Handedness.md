@@ -2,19 +2,25 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_handedness
 ---
 
-# Handedness Enum
+# [Handedness Enum](#handedness-enum)
 
 Indicates whether a player is left or right-handed.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum Handedness
+export
+ declare 
+enum
+ 
+Handedness
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| Left | `0` | The player is left-handed. |
-| Right | `1` | The player is right-handed. |
+| Member | Value | Description                 |
+| ------ | ----- | --------------------------- |
+| Left   | `0`   | The player is left-handed.  |
+| Right  | `1`   | The player is right-handed. |
+

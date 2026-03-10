@@ -2,25 +2,50 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_orbitcameraoptions
 ---
 
-# OrbitCameraOptions type
+# [OrbitCameraOptions type](#orbitcameraoptions-type)
 
 Available options when applying an orbit camera.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type OrbitCameraOptions = {
-    distance?: number;
-    verticalOffset?: number;
-    translationSpeed?: number;
-    rotationSpeed?: number;
+export
+ declare type 
+OrbitCameraOptions
+ 
+=
+ 
+{
+
+    distance
+?:
+ number
+;
+
+    verticalOffset
+?:
+ number
+;
+
+    translationSpeed
+?:
+ number
+;
+
+    rotationSpeed
+?:
+ number
+;
+
+
 };
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
-Type Parameters:
-`distance` - (number) The distance from the target to the camera. If not set, the camera remains at its current distance. Default = 5.0
-`verticalOffset` - Vertical offset up from the target position. Camera rotates around the offsetted point
-`translationSpeed` - Controls how quickly the camera moves to the desired position. If not set, the camera is always snapped to it instantly.
+Type Parameters:\
+`distance` - (number) The distance from the target to the camera. If not set, the camera remains at its current distance. Default = 5.0\
+`verticalOffset` - Vertical offset up from the target position. Camera rotates around the offsetted point\
+`translationSpeed` - Controls how quickly the camera moves to the desired position. If not set, the camera is always snapped to it instantly.\
 `rotationSpeed` - Controls how quickly the camera rotates to the desired rotation. If not set, the camera is always snapped to it instantly.
+

@@ -2,131 +2,132 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started/meta-horizon-worlds-for-uefn-creators
 ---
 
-# Meta Horizon Worlds for UEFN Creators
+# [Meta Horizon Worlds for UEFN Creators](#meta-horizon-worlds-for-uefn-creators)
 
 This article serves as the starting point for creators that are making the switch from UEFN to Horizon. While some aspects may seem unfamiliar, there are core concepts that translate from one platform to the other. This guide will provide comparisons and recommendations for the following:
 
-* Project structure, iteration and collaboration
-* Navigating the editor
-* Managing content and assets
-* Translating UEFN actor and device framework to Horizon entity and component structure
+- Project structure, iteration and collaboration
+- Navigating the editor
+- Managing content and assets
+- Translating UEFN actor and device framework to Horizon entity and component structure
 
-## Primary Horizon features
+## [Primary Horizon features](#primary-horizon-features)
 
 Horizon specifically has some features that stand out compared to UEFN that any creator should take into consideration when choosing which platform to develop on.
 
-* The Horizon Desktop Editor is light weight, coming in under 2GB to install. Updates occur on a weekly cadence.
-* Horizon Worlds on mobile and desktop are streamed in. Players do not need to wait for the world to download before playing, and visual fidelity is the same across all mobile and desktop devices.
-* VR with the Quest family of devices is a supported platform for Horizon.
-* Experimental GenAI features for generating game content such as 3D models, skyboxes, textures, sound effects and ambient audio.
+- The Horizon Desktop Editor is light weight, coming in under 2GB to install. Updates occur on a weekly cadence.
+- Horizon Worlds on mobile and desktop are streamed in. Players do not need to wait for the world to download before playing, and visual fidelity is the same across all mobile and desktop devices.
+- VR with the Quest family of devices is a supported platform for Horizon.
+- Experimental GenAI features for generating game content such as 3D models, skyboxes, textures, sound effects and ambient audio.
 
-# Epic Games Launcher -> Horizon Desktop Editor
+# [Epic Games Launcher -> Horizon Desktop Editor](#epic-games-launcher---horizon-desktop-editor)
 
 The Horizon Desktop Editor is the starting point for managing existing worlds, viewing documentation, exploring tutorials and templates and more. It is the equivalent of both the Epic Games Launcher and the UEFN editor bundled into one. [The Horizon Desktop Editor can be installed](../../Get%20started/Install%20the%20desktop%20editor.md) either standalone or through the Meta Quest Link app (if developing for VR).
 
 ![Horizon Creation Home](../../_assets/images/ba5f2e4c81b13730d918a55ba9027930adce2e323050ce3efb91434a7c4b7ac6.png)
 
-## Editor comparisons
+## [Editor comparisons](#editor-comparisons)
 
 The Horizon Desktop Editor is the application used for creating games and experiences. Once in Creation Home, you can create a new world or select an existing world to load into. The editor is similar to that in UEFN, though with some notable differences:
 
-* The Horizon project hub and the editor are all bundled into one application, and do not require separate installs.
-* Testing a Horizon game can be done fully in editor for non-VR applications. There is no separate client that is created.
-* Creating scripts goes through the specific scripts menu in the top toolbar, not through the asset library.
-* The Horizon Asset Library shows not only the creator’s own assets, but those that are publicly available for use and created by external creators.
+- The Horizon project hub and the editor are all bundled into one application, and do not require separate installs.
+- Testing a Horizon game can be done fully in editor for non-VR applications. There is no separate client that is created.
+- Creating scripts goes through the specific scripts menu in the top toolbar, not through the asset library.
+- The Horizon Asset Library shows not only the creator’s own assets, but those that are publicly available for use and created by external creators.
 
 Otherwise, Horizon shares much of the same functionality such as:
 
-* A top toolbar that has menus for placing objects into the scene, managing project settings, and playing the game.
-* A hierarchy view that shows all the objects that are physically placed into the world.
-* A properties panel that shows the details of an object when it is selected.
-* A scene view that shows the 3D view of the world.
-* An asset library that shows both the creator’s library of assets, as well as assets created by external creators.
+- A top toolbar that has menus for placing objects into the scene, managing project settings, and playing the game.
+- A hierarchy view that shows all the objects that are physically placed into the world.
+- A properties panel that shows the details of an object when it is selected.
+- A scene view that shows the 3D view of the world.
+- An asset library that shows both the creator’s library of assets, as well as assets created by external creators.
 
 ![Horizon Editor comparison](../../_assets/images/e0e862e3b5208921b5dc777a60a39da9fb67f534b702d74d1b8dbe9de826500d.png)
 
-| Index | UEFN | Horizon | Description |
-| --- | --- | --- | --- |
-| 1 | Outlier | Hierarchy View | Displays the entities that are present in the world |
-| 2 | Viewport | Scene Window | Displays the world |
-| 3 | Details | Properties | Displays the specific properties of the selected entity in the scene window |
-| 4 | Content Browser | Asset Library | Displays reusable assets that can be used within the project |
-| 5 | Main Menu | Menu + Creator Tools | Drop down menus for configuring project settings, placing gizmos, creating scripts and more |
-| 6 | Play Controls | Play Controls | Controls for running and previewing the game within the editor |
-| 7 | Viewport Controls | Scene Controls | Settings and controls for the scene, including snapping and camera speed |
+| Index | UEFN              | Horizon              | Description                                                                                 |
+| ----- | ----------------- | -------------------- | ------------------------------------------------------------------------------------------- |
+| 1     | Outlier           | Hierarchy View       | Displays the entities that are present in the world                                         |
+| 2     | Viewport          | Scene Window         | Displays the world                                                                          |
+| 3     | Details           | Properties           | Displays the specific properties of the selected entity in the scene window                 |
+| 4     | Content Browser   | Asset Library        | Displays reusable assets that can be used within the project                                |
+| 5     | Main Menu         | Menu + Creator Tools | Drop down menus for configuring project settings, placing gizmos, creating scripts and more |
+| 6     | Play Controls     | Play Controls        | Controls for running and previewing the game within the editor                              |
+| 7     | Viewport Controls | Scene Controls       | Settings and controls for the scene, including snapping and camera speed                    |
 
-# Engine concepts
+# [Engine concepts](#engine-concepts)
 
-## Terminology
+## [Terminology](#terminology)
 
 While both UEFN and Horizon follow similar underlying concepts, the terminology is different. Below is an overview of the differences between these main concepts.
 
-| UEFN | Horizon | Description |
-| --- | --- | --- |
-| GameObjects/Actor | Entity | The in-world representation of an object |
-| Prefabs | Asset Templates | Reusable pieces of content |
-| Devices | Gizmos | Entities that perform a specific function out of the box (such as colliders, triggers, spawn points). In UEFN, the creator can make custom devices. For Horizon, a custom script attached to an entity is the equivalent. |
-| Verse | Typescript | The coding language used for scripting |
+| UEFN              | Horizon         | Description                                                                                                                                                                                                               |
+| ----------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GameObjects/Actor | Entity          | The in-world representation of an object                                                                                                                                                                                  |
+| Prefabs           | Asset Templates | Reusable pieces of content                                                                                                                                                                                                |
+| Devices           | Gizmos          | Entities that perform a specific function out of the box (such as colliders, triggers, spawn points). In UEFN, the creator can make custom devices. For Horizon, a custom script attached to an entity is the equivalent. |
+| Verse             | Typescript      | The coding language used for scripting                                                                                                                                                                                    |
 
-## Networking and ownership
+## [Networking and ownership](#networking-and-ownership)
 
 Unlike UEFN, Horizon has a clear distinction of where (client vs server) and how scripts/components are run.
 
-* Scripts are marked as Default (runs on server) or Local (runs on client).
-* Default scripts will never run on the client. Clients have no visibility into the logic or properties that are stored on those scripts.
-* Client scripts will initially run on the server, until their owning entity gets assigned a client owner. At that time the script will only run locally on the owning client, and no other instance will have visibility into its logic or properties.
-* To check if a script is currently running on the server or client, compare the world local player to the world server player.
+- Scripts are marked as Default (runs on server) or Local (runs on client).
+- Default scripts will never run on the client. Clients have no visibility into the logic or properties that are stored on those scripts.
+- Client scripts will initially run on the server, until their owning entity gets assigned a client owner. At that time the script will only run locally on the owning client, and no other instance will have visibility into its logic or properties.
+- To check if a script is currently running on the server or client, compare the world local player to the world server player.
 
 Due to the Horizon networking model, it is up to the creator to manage the state of components when they change ownership between server and client. See the following [documentation](../../Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md) on managing local state for more information.
 
-## Gameplay structure
+## [Gameplay structure](#gameplay-structure)
 
 Within UEFN, the standard gameplay structure is to connect devices together with existing Fortnite items and functionality. Additionally, UEFN also supports component-based design, where in custom coded components are attached to entities to give them behavior. Horizon is similar except that:
 
-* Only one script can be attached to an entity.
-* Scripts can either by default or local, but not both.
-* Out of the box, Horizon does not have the same quantity of gameplay systems as UEFN does, specifically for things such as weapons and inventory.
-* While UEFN contains predefined player and game settings that can be configured in separate menus, the ones that Horizon has are more limited. Creators will need to implement their own features for teams, friendly fire, game loop, and so on.
-* Horizon uses the propsDefinition type within a component to expose variables that can be modified in the editor.
-* There is no concept of a customizable player object that scripts can be attached to. Creators will need to make their own systems to track players and associate data/logic with them, for example using a singleton approach with the PlayerEnter/ExitWorld events.
+- Only one script can be attached to an entity.
+- Scripts can either by default or local, but not both.
+- Out of the box, Horizon does not have the same quantity of gameplay systems as UEFN does, specifically for things such as weapons and inventory.
+- While UEFN contains predefined player and game settings that can be configured in separate menus, the ones that Horizon has are more limited. Creators will need to implement their own features for teams, friendly fire, game loop, and so on.
+- Horizon uses the propsDefinition type within a component to expose variables that can be modified in the editor.
+- There is no concept of a customizable player object that scripts can be attached to. Creators will need to make their own systems to track players and associate data/logic with them, for example using a singleton approach with the PlayerEnter/ExitWorld events.
 
-### Object communication
+### [Object communication](#object-communication)
 
 With UEFN, the preferred approach for communication between objects/actors is to either fetch a component on the object, or the event binding system. In Horizon, the preferred approach is through [local or network events](../../Scripting/Events/Events%20Best%20Practices.md). Horizon also has an API to fetch a component on an entity by a class type, however note that this will return nothing if the component is on the server and the API was called on a client (and vice versa). Some important event distinctions to remember are:
 
-* Events only exist in code, and must be defined and hooked up there.
-* Events are not specific to an object. They are defined externally from it. Any entity can send and register for any event.
-* NetworkEvents are the only way for entities on different instances to communicate with each other.
-* Horizon comes with a variety of events out of the box.
-  + [The update event](../../Scripting/Events/World%20Update%20Events.md) must be explicitly registered for if the entity wants to receive update ticks.
+- Events only exist in code, and must be defined and hooked up there.
+- Events are not specific to an object. They are defined externally from it. Any entity can send and register for any event.
+- NetworkEvents are the only way for entities on different instances to communicate with each other.
+- Horizon comes with a variety of events out of the box.
+  - [The update event](../../Scripting/Events/World%20Update%20Events.md) must be explicitly registered for if the entity wants to receive update ticks.
 
-## TypeScript
+## [TypeScript](#typescript)
 
 In Horizon, Typescript is the language used for coding. The language provides standard object oriented, statically typed functionality and should be an easy transition for anyone who has worked with JavaScript. The main limitation in Typescript to be aware of is that there is no safe run time casting of objects.
 
-# Developer workflow
+# [Developer workflow](#developer-workflow)
 
 Horizon is a collaborative platform that allows developers to work together on the same world, similar to UEFN. However, there are a few important differences to keep in mind.
 
-* Horizon only offers version control for asset templates, and the world itself (through snapshots). There is no version control specifically for scripts or being able to compare differences between snapshots or asset versions.
-* Horizon allows for collaborators with edit permissions, and playtesters with view permissions to be added to the world. Note that there are limits to how many other people can be added to the project. See the [collaborator documentation](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) for more information.
-* Horizon does not have any concept of branches or workspaces for individual developers. Instead, the recommended approach for a developer working on a new feature is to clone the world, do their development work there, and then manually merge the changes back in.
+- Horizon only offers version control for asset templates, and the world itself (through snapshots). There is no version control specifically for scripts or being able to compare differences between snapshots or asset versions.
+- Horizon allows for collaborators with edit permissions, and playtesters with view permissions to be added to the world. Note that there are limits to how many other people can be added to the project. See the [collaborator documentation](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) for more information.
+- Horizon does not have any concept of branches or workspaces for individual developers. Instead, the recommended approach for a developer working on a new feature is to clone the world, do their development work there, and then manually merge the changes back in.
 
-## Custom content
+## [Custom content](#custom-content)
 
-Horizon allows a [variety of different asset types to be imported](../../Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) into the engine for use within the world. However, there is no current guarantee that assets used with UEFN will work within Horizon. Verse scripts cannot be imported directly into Horizon. Any gameplay logic written within UEFN will need to be re-written for Horizon.
+Horizon allows a [variety of different asset types to be imported](../../Desktop%20editor/Assets/Creating%2C%20importing%2C%20viewing%2C%20and%20spawning%20assets.md) into the engine for use within the world. However, there is no current guarantee that assets used with UEFN will work within Horizon. Verse scripts cannot be imported directly into Horizon. Any gameplay logic written within UEFN will need to be re-written for Horizon.
 
-## Playtesting
+## [Playtesting](#playtesting)
 
 Horizon offers multiple ways to playtest your world on desktop, mobile, and VR. The first step to playtesting is to publish your world. Make sure to mark it as invisible to the public.
 
 ![Horizon Publish World](../../_assets/images/8e30d7522aace25c83fd6e27bb489122e2b556d83cf1700029db6996a2b0ca3a.png)
 
-Once a world is published, that specific published version is what will be available to playtest. More information on the publishing flow can be found [here](../../Save,%20optimize,%20and%20publish/Publish%20your%20world.md). Some important steps to keep in mind:
+Once a world is published, that specific published version is what will be available to playtest. More information on the publishing flow can be found [here](../../Save%2C%20optimize%2C%20and%20publish/Publish%20your%20world.md). Some important steps to keep in mind:
 
-* A player must be added to your world as either a collaborator or playtester to be able to playtest your game.
-* You can continue making changes in the world without affecting the playtest. The changes will only propagate once you publish again.
+- A player must be added to your world as either a collaborator or playtester to be able to playtest your game.
+- You can continue making changes in the world without affecting the playtest. The changes will only propagate once you publish again.
 
 For easy access to playtest builds, use the preview actions found under the preview configuration drop down at the top of the editor.
 
 ![Horizon Preview Actions](../../_assets/images/5f026ffa0dcfcb7dacd895e53c18ac08530c043221f64e7a25c39ad55f0e6614.png)
+

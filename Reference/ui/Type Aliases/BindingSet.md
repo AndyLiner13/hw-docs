@@ -2,16 +2,27 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_bindingset
 ---
 
-# BindingSet type
+# [BindingSet type](#bindingset-type)
 
 Stores a set of bindings (both Binding and DerivedBinding) during data model serialization.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type BindingSet = Set<ValueBindingBase<unknown>>;
+export
+ declare type 
+BindingSet
+ 
+=
+ 
+Set
+<
+ValueBindingBase
+<unknown>
+>;
 ```
 
-## References
+## [References](#references)
 
 [ValueBindingBase](../Abstract%20Classes/ValueBindingBase.md)
+

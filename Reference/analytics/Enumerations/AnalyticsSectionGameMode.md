@@ -2,24 +2,30 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_analyticssectiongamemode
 ---
 
-# AnalyticsSectionGameMode Enum
+# [AnalyticsSectionGameMode Enum](#analyticssectiongamemode-enum)
 
 The game modes for analytics sections.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum AnalyticsSectionGameMode
+export
+ declare 
+enum
+ 
+AnalyticsSectionGameMode
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| GAMEPLAY | `0` | The default game mode for gameplay. |
-| LOADING | `1` | The game mode for loading sections. |
-| LOBBY | `2` | The game mode for lobby sections. |
+| Member   | Value | Description                         |
+| -------- | ----- | ----------------------------------- |
+| GAMEPLAY | `0`   | The default game mode for gameplay. |
+| LOADING  | `1`   | The game mode for loading sections. |
+| LOBBY    | `2`   | The game mode for lobby sections.   |
 
-## Remarks
+## [Remarks](#remarks)
 
 To enable sections analytics, see the [ITurboSettings.useSections](../Interfaces/ITurboSettings.md#usesections) property.
+

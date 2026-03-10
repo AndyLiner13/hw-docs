@@ -2,32 +2,31 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/use-the-environment-gizmo
 ---
 
-# Environment gizmo
+# [Environment gizmo](#environment-gizmo)
 
 The environment [gizmo](About%20gizmos.md) is a helper tool that allows creators to control and customize the environment of a virtual world. The environment is enabled by the skydome feature, a dome-shaped visual that provides a simulated backdrop. The skydome feature has options to choose different textures, as well as allowing the customization of the environment, such as lighting and fog. Additionally, the Voice Over Internet Protocol or [VOIP setting](../Desktop%20editor/Settings/Player%20Settings%20Modification.md) is available to configure how players hear each other in the world.
 
 **Note**: You have the option to create your custom skydome asset, import it, and deploy the skydome to Worlds. This process creates a new instance of the environment gizmo that’s mapped to the custom skydome asset. See [Preparing skydome maps for Worlds ingestion](../Desktop%20editor/Preparing%20Skydome%20Maps%20for%20Meta%20Horizon%20Worlds%20Ingestion.md) for details. Additionally, if you would like to consider using generative AI to create your skydome, see [Generative AI skybox generation tool](../Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Skybox%20Generation%20Tool.md) for more information.
 
-## Access the environment gizmo
+## [Access the environment gizmo](#access-the-environment-gizmo)
 
 While you can access and use gizmos in the [VR tool](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), this topic focuses on the creator experience in the [desktop editor](../Get%20started/Install%20the%20desktop%20editor.md).
 
 In the desktop editor, do the following to access the environment gizmo:
 
-- In the desktop editor while in Build mode, select **Build** > **Gizmos** from the menu bar, search for “Environment” in the search field.
-- Select the environment gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the **Properties** panel.
+1. In the desktop editor while in Build mode, select **Build** > **Gizmos** from the menu bar, search for “Environment” in the search field.
+2. Select the environment gizmo and drag it into the scene.
+3. You can now edit the new gizmo properties in the **Properties** panel.
 
-## Properties
+## [Properties](#properties)
 
 The following sections highlights the environment gizmo’s attributes and behavior in the [Properties](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane) panel.
 
-### Attributes
+### [Attributes](#attributes)
 
-The environment gizmo is an entity. All objects in a world are represented by [entities](../Reference/core/Classes/Entity.md). Entities have their respective properties such as position, rotation, and scale.
-In the Properties panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**. Keep in mind that these fields have no effects on the environment gizmo’s behavior.
+The environment gizmo is an entity. All objects in a world are represented by [entities](../Reference/core/Classes/Entity.md). Entities have their respective properties such as position, rotation, and scale. In the Properties panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**. Keep in mind that these fields have no effects on the environment gizmo’s behavior.
 
-### Behavior
+### [Behavior](#behavior)
 
 You can have multiple environment gizmos in the world, but only one can be active at a time and affect the world. Turning on the **Active** toggle of a particular environment gizmo activates its effects that you’ve configured while other environment gizmos remain inactive.
 
@@ -47,27 +46,28 @@ For example, adjusting **Fog Density** lets you change how light spreads through
 
 You can configure how players hear each other in the world under the **VOIP Settings** in the Properties panel, and through the [TypeScript API](../Reference/core/Type%20Aliases/VoipSetting.md). For additional information, see `setVoipSetting(setting)` in the [Player](../Reference/core/Classes/Player.md) class on how players interact with the environment gizmo.
 
-## Scripting
+## [Scripting](#scripting)
 
 The environment gizmo lets you configure the settings for a static environment. But to achieve a dynamic environment where, for example, the day transitions to night, use [object spawning and despawning](../Desktop%20editor/Objects/Object%20Spawning%20and%20Despawning.md). As the day moves from one phase to another, you spawn a new active environment gizmo and despawn the old one. Spawning and despawning can be achieved through [three different approaches](../Desktop%20editor/Objects/Object%20Spawning%20and%20Despawning.md#how-do-we-implement-this-feature-in-our-world): codeblocks, TypeScript, and TypeScript with SpawnController class. The recommended way is using the [SpawnController class](../Reference/core/Classes/SpawnController.md). See also [Implementing SpawnController](../Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md#implementing-spawncontroller).
 
 To do a day-to-night cycle, the following outlines the steps:
 
-- The world is set to daytime by default.
-- You spawn an active afternoon environment gizmo, and the world becomes afternoon.
-- When you want the world to be nighttime, spawn an active nighttime environment gizmo first, and then despawn the afternoon environment gizmo.
+1. The world is set to daytime by default.
+2. You spawn an active afternoon environment gizmo, and the world becomes afternoon.
+3. When you want the world to be nighttime, spawn an active nighttime environment gizmo first, and then despawn the afternoon environment gizmo.
 
 **Note**: Be aware of the following when despawning an active environment gizmo:
 
-* If an active environment gizmo is deleted/despawned by a script in the Build mode, it will still affect the world.
-* When using the VR tool, if an active environment gizmo is deleted by using the [Disk UI in Build mode](../VR%20tools/Getting%20started/Use%20your%20controllers%20in%20Build%20Mode%20of%20Meta%20Horizon%20Worlds.md), deleting the gizmo will remove its effects on the world. Because of this, you will know what your worlds look like when they’re published. In the VR tool, the Disk UI is the primary user interface when creators are in the Build mode. The Disk UI provides a primary set of tools that you can access to build and edit worlds when using the VR tool.
+- If an active environment gizmo is deleted/despawned by a script in the Build mode, it will still affect the world.
+- When using the VR tool, if an active environment gizmo is deleted by using the [Disk UI in Build mode](../VR%20tools/Getting%20started/Use%20your%20controllers%20in%20Build%20Mode%20of%20Meta%20Horizon%20Worlds.md), deleting the gizmo will remove its effects on the world. Because of this, you will know what your worlds look like when they’re published. In the VR tool, the Disk UI is the primary user interface when creators are in the Build mode. The Disk UI provides a primary set of tools that you can access to build and edit worlds when using the VR tool.
 
-## What’s next?
+## [What’s next?](#whats-next)
 
 Now you’ve been introduced to the environment gizmo, further your understanding with the following topics on spawning and despawning.
 
-* [Example uses of spawning](../Desktop%20editor/Assets/Asset%20Spawning%20Reference.md#example-uses-of-spawning)
-* [Asset spawning and despawning example](../Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md#asset-spawning-and-despawning-example)
-* [Meta Horizon Creator Program creator manual on environment gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#environment-gizmo)
-* [Meta Horizon Creator Program creator manual on spawning](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#spawning)
-* [Meta Horizon Creator Program creator manual on VOIP settings](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#voip-settings)
+- [Example uses of spawning](../Desktop%20editor/Assets/Asset%20Spawning%20Reference.md#example-uses-of-spawning)
+- [Asset spawning and despawning example](../Scripting/Asset%20spawning/Introduction%20to%20Asset%20Spawning.md#asset-spawning-and-despawning-example)
+- [Meta Horizon Creator Program creator manual on environment gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#environment-gizmo)
+- [Meta Horizon Creator Program creator manual on spawning](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#spawning)
+- [Meta Horizon Creator Program creator manual on VOIP settings](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#voip-settings)
+

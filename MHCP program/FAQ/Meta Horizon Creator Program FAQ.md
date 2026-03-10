@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/faq/mhcp-faq
 ---
 
-# Meta Horizon Creator Program FAQ
+# [Meta Horizon Creator Program FAQ](#meta-horizon-creator-program-faq)
 
 **What is the Meta Horizon Creator Program?**
 
@@ -34,9 +34,9 @@ Whether you’re an experienced creator coming in from another platform, a Meta 
 
 To join the Meta Horizon Creator Program, you must:
 
-* Be age 18 or older
-* Reside in a supported country; excluding Korea, Japan, and the U.S. Territories (American Samoa, Guam, Northern Mariana Islands, Puerto Rico, and U.S. Virgin Islands)
-* Have a Meta account in good standing
+- Be age 18 or older
+- Reside in a supported country; excluding Korea, Japan, and the U.S. Territories (American Samoa, Guam, Northern Mariana Islands, Puerto Rico, and U.S. Virgin Islands)
+- Have a Meta account in good standing
 
 Meta full-time employees, interns, and contingent workers are not eligible for the program.
 
@@ -54,8 +54,8 @@ We’re looking for creators who’ve published great content on Meta Horizon or
 
 In addition to meeting the eligibility guidelines to join the Meta Horizon Creator Program, partners must also:
 
-* Be actively editing, testing, and/or have published at least 1 world on Meta Horizon and have at least 400 monthly active users in 1 world in the past 30 days; and/or
-* Have published at least 1 equivalent mobile game or metaverse experience on a platform such as Roblox, VR Chat, or Fortnite, and have at least 400 monthly active users in 1 world
+- Be actively editing, testing, and/or have published at least 1 world on Meta Horizon and have at least 400 monthly active users in 1 world in the past 30 days; and/or
+- Have published at least 1 equivalent mobile game or metaverse experience on a platform such as Roblox, VR Chat, or Fortnite, and have at least 400 monthly active users in 1 world
 
 You can learn more about becoming a partner [here](../How%20to%20Become%20a%20Meta%20Horizon%20Creator%20Partner.md).
 
@@ -70,3 +70,4 @@ If you reside in a location that’s not one of our supported countries, your ap
 We know that this can be a disappointing result. Successful applicants often come from developers and creators who have shipped great content on Meta Horizon Worlds or other platforms, and/or those who have contributed to the ecosystem of developers creating immersive content.
 
 Although you weren’t eligible to be a partner at this time, if you’ve met the eligibility guidelines to be in the Meta Horizon Creator Program, you’ve been automatically enrolled and will get access to exclusive program benefits, including monetization opportunities and educational programming.
+

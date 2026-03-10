@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/UI-panels-and-tabs
 ---
 
-# Panels and Tabs in the desktop editor
+# [Panels and Tabs in the desktop editor](#panels-and-tabs-in-the-desktop-editor)
 
 ![Panels and tabs in the desktop editor UI](../../../_assets/images/ef6a660f12a8887b627bdd2072e829b87a05f4e20e4159be25d9c6b6ee4b686e.png)
 
@@ -10,14 +10,14 @@ The desktop editor contains a variety of different panels and tabs to give you a
 
 The editor contains the following panels and tabs available for creative and building functionality:
 
-* [Hierarchy panel](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#hierarchy-pane)
-* [Scene panel](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane)
-* [Properties panel](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane)
-* [Assets Library](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#assets-library)
-* [Console tab](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#console-tab)
-* [Tests tab](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#tests-tab)
+- [Hierarchy panel](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#hierarchy-pane)
+- [Scene panel](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane)
+- [Properties panel](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane)
+- [Assets Library](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#assets-library)
+- [Console tab](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#console-tab)
+- [Tests tab](Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#tests-tab)
 
-## Hierarchy panel
+## [Hierarchy panel](#hierarchy-panel)
 
 ![Objects in a scene listed in the Hierarchy panel](../../../_assets/images/0d4036b5fd671cbfa938dd0325969fbc4438363440e47bacc5d4a6d3a2514d39.png)
 
@@ -25,19 +25,19 @@ The **Hierarchy** panel displays the list of objects in the current scene, such 
 
 For more information, see the [Hiearchy Panel Overview](../../Hierarchy%20window/Hierarchy%20panel%20overview.md).
 
-## Scene panel
+## [Scene panel](#scene-panel)
 
 ![Objects in a scene shown in the Scene panel](../../../_assets/images/b9286563268773a72f64c6e3a1dd3931a74beeca9a6298d12164f1a59b229e94.png)
 
 The **Scene** panel is the window located in the middle of the desktop editor screen. It displays the scene you’re currently working on. When you add objects to a scene, they will appear in the world.
 
-## Properties panel
+## [Properties panel](#properties-panel)
 
 ![The Properties pane containing a selected object's properties](../../../_assets/images/19ed88e175bfbc24fac214da6912684656a8c06cef0c9724774c57870f612739.png)
 
 When you select an object from the **Hierarchy**, or from the scene, its properties display in the **Properties** panel. From here, you can make specific changes to the details of that object.
 
-## Assets library
+## [Assets library](#assets-library)
 
 ![The Assets Library](../../../_assets/images/66f2268369b1eac4b22ae71717f0a03d8e703c9a636d2b612d7b57f9998d4d0b.png)
 
@@ -45,7 +45,7 @@ The **Assets Library** contains your public and private assets library. It shows
 
 For more information, see [Introduction to the desktop editor Asset Library](../../Assets/Introduction%20to%20the%20Desktop%20Editor%20Asset%20Library.md).
 
-## Console tab
+## [Console tab](#console-tab)
 
 ![The desktop editor Console](../../../_assets/images/3a009ce9c84169813a286d6fce0c78c894f78646abc1d80dbc53728dc2f170d9.png)
 
@@ -53,7 +53,7 @@ The **Console** tab opens a panel that displays a running list of status message
 
 For more information, see the [Desktop editor Console](../Editor%20Console.md) page.
 
-## NPC Debugger tab
+## [NPC Debugger tab](#npc-debugger-tab)
 
 ![NPC Debugger](../../../_assets/images/4298868b97050296378f878929ef802b93a1ae81c09e89a5a88dda504d355dcb.png)
 
@@ -61,17 +61,18 @@ The **NPC Debugger** tab helps you test your NPC’s behavior and speech and its
 
 For more information, see the [NPC Debugger](../../NPCs/NPC%20Conversation/Debugging%20AI%20Speech%20NPCs.md) page.
 
-## Performance tab
+## [Performance tab](#performance-tab)
 
 The **Performance** tab allows you to render the results of a World Content Trace, containing frame-by-frame details on your world’s performance and understand how the assets in your world might contribute to it.
 
 For more information, see the [Performance](../../../Performance/Performance%20tools/World%20Content%20Traces.md) page.
 
-### Additional Resources
+### [Additional Resources](#additional-resources)
 
 The UI panels and tabs are part of the suite of tools in the desktop editor. See the [The desktop editor user interface](User%20Interface.md) for more information.
 
 You can become familiar with the editor by working through the beginner tutorials below:
 
-* [Create Your First World](../../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md)
-* [Batting Cage Tutorial](../../../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)
+- [Create Your First World](../../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial%2C%20part%201.md)
+- [Batting Cage Tutorial](../../../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)
+

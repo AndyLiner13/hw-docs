@@ -2,18 +2,36 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_paneventdata
 ---
 
-# PanEventData type
+# [PanEventData type](#paneventdata-type)
 
 Payload received by pan events
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type PanEventData = TouchEventData & {
-    pan: Vec3;
+export
+ declare type 
+PanEventData
+ 
+=
+ 
+TouchEventData
+ 
+&
+ 
+{
+
+    pan
+:
+ 
+Vec3
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [TouchEventData](TouchEventData.md)
+

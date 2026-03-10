@@ -2,41 +2,173 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_transformstyle
 ---
 
-# TransformStyle type
+# [TransformStyle type](#transformstyle-type)
 
 Represents the style used to transform a UI element on a UI panel. For descriptions of the available styles, see [Custom UI Styles](../../../Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#transformstyle).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type TransformStyle = {
-    transform?: Array<{
-        rotate: Bindable<string>;
-    } | {
-        scale: Bindable<number>;
-    } | {
-        scaleX: Bindable<number>;
-    } | {
-        scaleY: Bindable<number>;
-    } | {
-        translate: [Bindable<number>, Bindable<number>];
-    } | {
-        translateX: Bindable<number>;
-    } | {
-        translateY: Bindable<number>;
-    } | {
-        skewX: Bindable<string>;
-    } | {
-        skewY: Bindable<string>;
-    }>;
-    transformOrigin?: [DimensionValue, DimensionValue];
+export
+ declare type 
+TransformStyle
+ 
+=
+ 
+{
+
+    transform
+?:
+ 
+Array
+<{
+
+        rotate
+:
+ 
+Bindable
+<string>
+;
+
+    
+}
+ 
+|
+ 
+{
+
+        scale
+:
+ 
+Bindable
+<number>
+;
+
+    
+}
+ 
+|
+ 
+{
+
+        scaleX
+:
+ 
+Bindable
+<number>
+;
+
+    
+}
+ 
+|
+ 
+{
+
+        scaleY
+:
+ 
+Bindable
+<number>
+;
+
+    
+}
+ 
+|
+ 
+{
+
+        translate
+:
+ 
+[
+Bindable
+<number>
+,
+ 
+Bindable
+<number>
+];
+
+    
+}
+ 
+|
+ 
+{
+
+        translateX
+:
+ 
+Bindable
+<number>
+;
+
+    
+}
+ 
+|
+ 
+{
+
+        translateY
+:
+ 
+Bindable
+<number>
+;
+
+    
+}
+ 
+|
+ 
+{
+
+        skewX
+:
+ 
+Bindable
+<string>
+;
+
+    
+}
+ 
+|
+ 
+{
+
+        skewY
+:
+ 
+Bindable
+<string>
+;
+
+    
+}>;
+
+    transformOrigin
+?:
+ 
+[
+DimensionValue
+,
+ 
+DimensionValue
+];
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [Bindable](Bindable.md), [DimensionValue](DimensionValue.md)
 
-## Remarks
+## [Remarks](#remarks)
 
 The [UIComponent](../Abstract%20Classes/UIComponent.md) class is the base class for controlling custom UI panels in a world. See [Create a custom UI panel](../../../Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) for guides about using the API.
+

@@ -2,10 +2,14 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editor
 ---
 
-# Editor Variable
+# [Editor Variable](#editor-variable)
 
-## Signature
+## [Signature](#signature)
 
 ```
-Editor: EditorAPI
+Editor
+:
+ 
+EditorAPI
 ```
+

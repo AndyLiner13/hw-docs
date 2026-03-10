@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_abilitydequippayload
 ---
 
-# AbilityDequipPayload type
+# [AbilityDequipPayload type](#abilitydequippayload-type)
 
 A payload sent by the `OnAbilityDequip` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type AbilityDequipPayload = FullTurboEventPayload<typeof OnAbilityDequip>;
+export
+ declare type 
+AbilityDequipPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnAbilityDequip
+>;
 ```
+

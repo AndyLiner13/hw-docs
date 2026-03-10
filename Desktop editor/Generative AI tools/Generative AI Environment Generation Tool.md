@@ -2,31 +2,29 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-environment-generation-tool
 ---
 
-# Generative AI Environment Generation Tool
+# [Generative AI Environment Generation Tool](#generative-ai-environment-generation-tool)
 
 The GenAI Environment Generation tool offers a rapid solution for creating immersive environments in your world. Currently this tool supports generating island themed environments, with more themes planned to come in the future.
 
 This document will cover how to:
 
-* Generate an environment using the environment generation tool
-* Influence the theme and mood of your generations using LLM prompt
+- Generate an environment using the environment generation tool
+- Influence the theme and mood of your generations using LLM prompt
 
-## Generate an environment using the environment generation tool
+## [Generate an environment using the environment generation tool](#generate-an-environment-using-the-environment-generation-tool)
 
 You can enable the environment generation tool through the **GenAI** menu or with the Environment Generation gizmo.
 
 To generate an environment using the environment generation tool, use the following process:
 
-- Open the desktop editor and select the **GenAI** menu from the top menu bar. Note that the **GenAI** panel may be open and visible by default in the right hand panel of the desktop editor.
-  ![Environment Generation GenAI Panel](../../_assets/images/718f3a13714834bbacf0bb72807573db585cdbee408b4ffb932ddd639f0678da.png)
-- In the **GenAI** menu, select **Generate an Environment**.
-- Select one of the example prompts listed in the **GenAI** menu. The Environment Generation properties window will appear with the selected prompt input in the **Prompt Input** field.
-  ![Environment Generation recommended prompts](../../_assets/images/302e14e335364de6122e859946d4025905313a586470341d152cd77781f7beb5.png)
-- Click **Generate** to generate the environment. The time needed to generate the environment is based on the complexity of the generated environment, but usually takes between 1 and 2 minutes.
+1. Open the desktop editor and select the **GenAI** menu from the top menu bar. Note that the **GenAI** panel may be open and visible by default in the right hand panel of the desktop editor. ![Environment Generation GenAI Panel](../../_assets/images/718f3a13714834bbacf0bb72807573db585cdbee408b4ffb932ddd639f0678da.png)
+2. In the **GenAI** menu, select **Generate an Environment**.
+3. Select one of the example prompts listed in the **GenAI** menu. The Environment Generation properties window will appear with the selected prompt input in the **Prompt Input** field. ![Environment Generation recommended prompts](../../_assets/images/302e14e335364de6122e859946d4025905313a586470341d152cd77781f7beb5.png)
+4. Click **Generate** to generate the environment. The time needed to generate the environment is based on the complexity of the generated environment, but usually takes between 1 and 2 minutes.
 
 Once finished, your environment will be generated and you can click the **Play** button to walk around your generated environment and explore the environment with your avatar. Once you’re satisfied with your generated environment, click **Save to Asset Library**
 
-## Environment Generation Parameters
+## [Environment Generation Parameters](#environment-generation-parameters)
 
 When generating an environment, there are a variety of parameters in the **Environment Generation** tool. The following parameters are available in the Environment Generation tool:
 
@@ -48,7 +46,7 @@ When generating an environment, there are a variety of parameters in the **Envir
 
 **Environment theme prompt**: Used to inform the overall theme / vibe of the generation influencing vegetation density, and color palette.
 
-## World building with the environment generation tool
+## [World building with the environment generation tool](#world-building-with-the-environment-generation-tool)
 
 The environment generation tool can be used in conjunction with the other suite of Horizon GenAI tools to quickly build a world’s environment and tone for your users and players to explore.
 
@@ -73,3 +71,4 @@ The example prompts used will be listed and included in the image:
 **Prompt**: “A desolate wasteland”
 
 ![A desolate wasteland](../../_assets/images/600d5b298d543a0f7efc3533912074cada7666176ffb46d02835ae14cbe377f2.png)
+

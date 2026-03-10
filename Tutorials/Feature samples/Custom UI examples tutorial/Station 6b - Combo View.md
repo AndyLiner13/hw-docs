@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-examples-tutorial/station-6b-combo-view
 ---
 
-# Station 6b - Combo View
+# [Station 6b - Combo View](#station-6b---combo-view)
 
 This station demonstrates how you can combine multiple nested view objects to assemble groups of elements in your user interface.
 
@@ -12,69 +12,70 @@ In this manner, you can build sophisticated user interfaces by assembling core U
 
 ![Image of Station 6b](../../../_assets/images/686a14db4474fc349e12567b2643d2e163a6c7eb2c97bb73ecba03157c6b238c.png)
 
-## Assets
+## [Assets](#assets)
 
-* **Station06b-CustomUI: CustomUI gizmo**
-  + Visible: true
-  + Script: the script that defines the custom UI elements must be attached.
-* **Station06b-ComboView: script**
-  + This script defines the customUI object and loads referenced objects.
+- **Station06b-CustomUI: CustomUI gizmo**
+  - Visible: true
+  - Script: the script that defines the custom UI elements must be attached.
+- **Station06b-ComboView: script**
+  - This script defines the customUI object and loads referenced objects.
 
-## Script
+## [Script](#script)
 
-### Station06b-ComboView
+### [Station06b-ComboView](#station06b-comboview)
 
-* This script includes more constructor `View()` object declarations: The structure of the UI is as follows:
-  + UIComponentViewCombo class
+- This script includes more constructor `View()` object declarations: The structure of the UI is as follows:
+  - UIComponentViewCombo class
     - `Text()`
     - `viewNestedCombo()`: `flexDirection = "column"`
-      * `viewNestedRow()`: `flexDirection = "row"`
-        + `Text()` instance
-        + `viewSimple()`: `flexDirection` is not specified
+      - `viewNestedRow()`: `flexDirection = "row"`
+        - `Text()` instance
+        - `viewSimple()`: `flexDirection` is not specified
           - `Text()` instance
           - `MyButton()` instance
-        + `MyButton()` instance
-        + `viewSimple()`:
+        - `MyButton()` instance
+        - `viewSimple()`:
           - `Text()` instance
           - `MyButton()` instance
-      * `View()` instance: This view is declared inline and not as a constructor
-        + `viewNestedCol()`: `flexDirection = "column"`
+      - `View()` instance: This view is declared inline and not as a constructor
+        - `viewNestedCol()`: `flexDirection = "column"`
           - `Text()` instance
           - `viewSimple()`: `flexDirection` is not specified
-            * `Text()` instance
-            * `MyButton()` instance
+            - `Text()` instance
+            - `MyButton()` instance
           - `viewSimple()`: `flexDirection` is not specified
-            * `Text()` instance
-            * `MyButton()` instance
+            - `Text()` instance
+            - `MyButton()` instance
           - `ViewBorder()`: `flexDirection` is not specified
-            * `Text()` instance
-        + `viewNestedCol()`: `flexDirection = "column"`
+            - `Text()` instance
+        - `viewNestedCol()`: `flexDirection = "column"`
           - `Text()` instance
           - `viewSimple()`: `flexDirection` is not specified
-            * `Text()` instance
-            * `MyButton()` instance
+            - `Text()` instance
+            - `MyButton()` instance
           - `viewSimple()`: `flexDirection` is not specified
-            * `Text()` instance
-            * `MyButton()` instance
+            - `Text()` instance
+            - `MyButton()` instance
           - `ViewBorder()`: `flexDirection` is not specified
-            * `Text()` instance
-        + `viewNestedCol()`: `flexDirection = "column"`
+            - `Text()` instance
+        - `viewNestedCol()`: `flexDirection = "column"`
           - `Text()` instance
           - `viewSimple()`: `flexDirection` is not specified
-            * `Text()` instance
-            * `MyButton()` instance
+            - `Text()` instance
+            - `MyButton()` instance
           - `viewSimple()`: `flexDirection` is not specified
-            * `Text()` instance
-            * `MyButton()` instance
+            - `Text()` instance
+            - `MyButton()` instance
           - `ViewBorder()`: `flexDirection` is not specified
-            * `Text()` instance
+            - `Text()` instance
 
-## Key Learnings
+## [Key Learnings](#key-learnings)
 
-### Meta Horizon Worlds learnings
+### [Meta Horizon Worlds learnings](#meta-horizon-worlds-learnings)
 
-* Building combinations of constructor `View()` objects to assemble more complex interfaces.
+- Building combinations of constructor `View()` objects to assemble more complex interfaces.
 
-### TypeScript coding
+### [TypeScript coding](#typescript-coding)
 
-* None.
+- None.
+

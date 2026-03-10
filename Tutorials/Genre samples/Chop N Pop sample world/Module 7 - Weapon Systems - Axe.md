@@ -2,12 +2,12 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/genre-samples/chop-n-pop-sample-world/module-7-weapon-systems-axe
 ---
 
-# Module 7 - Weapon Systems - Axe
+# [Module 7 - Weapon Systems - Axe](#module-7---weapon-systems---axe)
 
 Chop ‘N Pop: Graveyard Bash allows visitors to select one of two kinds of weapons:
 
-* **Axe**: Grab the axe and chop away at the enemies. This weapon is swung one-handed at the opposition.
-* **Pistol**: Collect a pistol and pop the enemies at a distance. The gun requires an ammo clip and can hit targets that are displayed behind the gun sight.
+- **Axe**: Grab the axe and chop away at the enemies. This weapon is swung one-handed at the opposition.
+- **Pistol**: Collect a pistol and pop the enemies at a distance. The gun requires an ammo clip and can hit targets that are displayed behind the gun sight.
 
 Since the weapons have different mechanisms for attacking, they are covered in different modules. This module covers the Axe weapon and related systems.
 
@@ -19,62 +19,62 @@ Each axe is an independent instance of an asset template. This asset template is
 
 The axe requires helper scripts to fulfill the functions of:
 
-* Detect button press to swing axe
-* Swing the axe
-* Detect axe hits and issue damage events
+- Detect button press to swing axe
+- Swing the axe
+- Detect axe hits and issue damage events
 
 **Note**: `Axe.ts` must be set to Local execution mode.
 
-## System Components
+## [System Components](#system-components)
 
-### Properties
+### [Properties](#properties)
 
-#### Axe properties
+#### [Axe properties](#axe-properties)
 
 The root entity for the axe is the BadAxe UAB. Select an instance of this entity to review the following key properties:
 
-| Property | Description |
-| --- | --- |
-| Visible | Enabled to allow players to find them. |
-| Collidable | Enabled to allow for collisions, including hits. |
-| Collision Layer | Set to Objects Only, so that the axe does not damage other players. **Note**: To enable the axe to hit other players, you would need to add player hit detection and damage. |
-| Motion | Set to Interactive, which allows you to set the Interaction property. |
-| Interaction | Set to Grabbable. |
-| Collision Events From | Set to Objects Tagged. This setting allows for linking the axe to objects, with which it can collide. In this case, the axe and the enemies are tagged with “Baddie”. |
-| Object Tag | See previous. |
-| Use Grab Lock | Enable this to allow the grabbed axe to lock into the player’s hand. Otherwise, the axe must be “held” by the player during combat. |
-| Use VR Anchor | Enable this to specify grab points for VR players. In this case, the VR grab points are specified and used for both VR and web/mobile (which is disabled). The Position and Rotation values are specified below. |
-| Avatar Pose | Set this value to Sword, so that the weapon is held in the avatar’s hand like a sword. |
-| Who Can Grab? | Set to Anyone, so that all players can collect. |
-| Who Can Take from Holder? | Set to Only You. |
-| Primary Action Icon | Set this to Swing Weapon, which displays an icon on XS to swing the weapon off of the primary button. |
-| Avatar Attachable | Since this weapon is grabbed, it should not be attachable to the avatar. Disable this setting. |
-| Include in Bakes | Enable this setting to bake this weapon into the navigation mesh used by enemies to move about the graveyard. This means that when the weapon is not in a player’s hand, enemies must move around it during navigation. |
-| Navigation Locomotion | Disable this setting, which would allow the entity to use navigation meshes for movement. |
+| Property                  | Description                                                                                                                                                                                                             |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Visible                   | Enabled to allow players to find them.                                                                                                                                                                                  |
+| Collidable                | Enabled to allow for collisions, including hits.                                                                                                                                                                        |
+| Collision Layer           | Set to Objects Only, so that the axe does not damage other players. **Note**: To enable the axe to hit other players, you would need to add player hit detection and damage.                                            |
+| Motion                    | Set to Interactive, which allows you to set the Interaction property.                                                                                                                                                   |
+| Interaction               | Set to Grabbable.                                                                                                                                                                                                       |
+| Collision Events From     | Set to Objects Tagged. This setting allows for linking the axe to objects, with which it can collide. In this case, the axe and the enemies are tagged with “Baddie”.                                                   |
+| Object Tag                | See previous.                                                                                                                                                                                                           |
+| Use Grab Lock             | Enable this to allow the grabbed axe to lock into the player’s hand. Otherwise, the axe must be “held” by the player during combat.                                                                                     |
+| Use VR Anchor             | Enable this to specify grab points for VR players. In this case, the VR grab points are specified and used for both VR and web/mobile (which is disabled). The Position and Rotation values are specified below.        |
+| Avatar Pose               | Set this value to Sword, so that the weapon is held in the avatar’s hand like a sword.                                                                                                                                  |
+| Who Can Grab?             | Set to Anyone, so that all players can collect.                                                                                                                                                                         |
+| Who Can Take from Holder? | Set to Only You.                                                                                                                                                                                                        |
+| Primary Action Icon       | Set this to Swing Weapon, which displays an icon on XS to swing the weapon off of the primary button.                                                                                                                   |
+| Avatar Attachable         | Since this weapon is grabbed, it should not be attachable to the avatar. Disable this setting.                                                                                                                          |
+| Include in Bakes          | Enable this setting to bake this weapon into the navigation mesh used by enemies to move about the graveyard. This means that when the weapon is not in a player’s hand, enemies must move around it during navigation. |
+| Navigation Locomotion     | Disable this setting, which would allow the entity to use navigation meshes for movement.                                                                                                                               |
 
-#### Script properties
+#### [Script properties](#script-properties)
 
 These properties are defined in `Axe.ts` and can be used to modify some of the behaviors of the axe.
 
-| Property | Description |
-| --- | --- |
-| swingCooldown | Time in milliseconds after the axe is swung before it can be swung again. |
-| threatRange | Maximum striking distance for the axe in meters. |
-| threatAngle | Maximum angle off of the direction vector of the avatar at which an enemy can be hit. |
-| hitSound | This sound entity is played when the axe hits an enemy. The entity to use is a sub-node of the parent BadAxe entity. |
-| hitVfx | This particle entity is played when the axe hits an enemy. The entity to use is a sub-node of the parent BadAxe entity. |
+| Property      | Description                                                                                                             |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| swingCooldown | Time in milliseconds after the axe is swung before it can be swung again.                                               |
+| threatRange   | Maximum striking distance for the axe in meters.                                                                        |
+| threatAngle   | Maximum angle off of the direction vector of the avatar at which an enemy can be hit.                                   |
+| hitSound      | This sound entity is played when the axe hits an enemy. The entity to use is a sub-node of the parent BadAxe entity.    |
+| hitVfx        | This particle entity is played when the axe hits an enemy. The entity to use is a sub-node of the parent BadAxe entity. |
 
-### Axe components
+### [Axe components](#axe-components)
 
 Attached to each instance of the BadAxe UAB entity are the following components:
 
-| Component | Description |
-| --- | --- |
-| `Axe.ts` | Core script for handling the axe weapon. |
-| ChopSound | An audio sound of chopping. This entity is also referenced as a Script property of `Axe.ts`. |
-| hitVFx | Particle effect for when the axe hits an enemy. This entity is also referenced as a Script property of `Axe.ts`. |
+| Component | Description                                                                                                      |
+| --------- | ---------------------------------------------------------------------------------------------------------------- |
+| `Axe.ts`  | Core script for handling the axe weapon.                                                                         |
+| ChopSound | An audio sound of chopping. This entity is also referenced as a Script property of `Axe.ts`.                     |
+| hitVFx    | Particle effect for when the axe hits an enemy. This entity is also referenced as a Script property of `Axe.ts`. |
 
-### Script dependencies
+### [Script dependencies](#script-dependencies)
 
 **Axe.ts**:
 
@@ -82,13 +82,13 @@ This script handles grabbing the axe and listening for the primary button press,
 
 Script dependencies:
 
-* `Events.ts`
-* `Throttler.ts`
-* `HapticFeedback.ts`
-* `Behaviour.ts`
-* `StageHand.ts`
+- `Events.ts`
+- `Throttler.ts`
+- `HapticFeedback.ts`
+- `Behaviour.ts`
+- `StageHand.ts`
 
-## How to Deploy
+## [How to Deploy](#how-to-deploy)
 
 **Scripts**:
 
@@ -100,7 +100,7 @@ Create an asset template out of the BadAxe node and its child nodes. Add this to
 
 For more information, see [Module 1 - Setup](Module%201%20-%20Setup.md).
 
-## How to Use
+## [How to Use](#how-to-use)
 
 Add the asset and scripts to your world.
 
@@ -108,20 +108,21 @@ Add the asset and scripts to your world.
 
 **Note**: Make sure that your versions of these scripts are configured to operate in Local mode.
 
-## Modifications
+## [Modifications](#modifications)
 
-### Modify script properties
+### [Modify script properties](#modify-script-properties)
 
 You can make changes to the numeric values of the Script properties on `Axe.ts` to experiment with gameplay effects in your world.
 
 **Note**: Other than the Gameplay Tags value, avoid making changes to the properties of the Unity Asset Bundle asset.
 
-### Replace axe assets
+### [Replace axe assets](#replace-axe-assets)
 
 You can replace the BadAxe Unity Asset Bundle with a UAB of your own for a personalized swinging weapon. Note that the property settings for the BadAxe should be applied to your new UAB.
 
 You may also choose to replace the sound and the VFX, too.
 
-## Summary
+## [Summary](#summary)
 
 This module describes the systems in place for the axe weapon in the game. This system can be modified for use in your game and can be deployed for other swinging weapons, like a sword or a hammer.
+

@@ -2,42 +2,42 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-examples-tutorial/station-5-light-the-sphere-dialog
 ---
 
-# Station 5 - Light the Sphere Dialog
+# [Station 5 - Light the Sphere Dialog](#station-5---light-the-sphere-dialog)
 
 This station demonstrates how to use a custom UI to alter some aspect of the external world. In this case, when you click a button on the custom UI, you set the color for a sphere (The Orb of UINess) in front of you.
 
 ![Image of Station 5](../../../_assets/images/3f9757f55047c98cabd2c96a3c2bbab1096f2e4c6ee4700716452cbe47308e2b.png)
 
-## Assets
+## [Assets](#assets)
 
-* **Station05-CustomUI: CustomUI gizmo**
-  + Visible: true
-  + Script: the script that defines the custom UI elements must be attached. See below.
-  + ball:
+- **Station05-CustomUI: CustomUI gizmo**
+  - Visible: true
+  - Script: the script that defines the custom UI elements must be attached. See below.
+  - ball:
     - This option is defined as part of the properties of the script. In the code, this Entity is referenced through this.props.ball references.
     - When this option is enabled through the script, a designer is permitted to select an Entity that is part of the world from the drop-down.
-* **Station05-OrbOfUINess: script**
-  + This script defines the customUI object.
-  + It also creates the property definition for attaching the Sphere object to the customUI.
-* **Sphere**
-  + A basic shape of Sphere type
+- **Station05-OrbOfUINess: script**
+  - This script defines the customUI object.
+  - It also creates the property definition for attaching the Sphere object to the customUI.
+- **Sphere**
+  - A basic shape of Sphere type
 
-## Script
+## [Script](#script)
 
-### Station05-OrbOfUINess
+### [Station05-OrbOfUINess](#station05-orbofuiness)
 
 This customUI is similar to the one deployed in Station04. Differences:
 
-* A third “Off” button
-* Code to affect the color of the ball entity, based on the `onClick()` event for each button.
+- A third “Off” button
+- Code to affect the color of the ball entity, based on the `onClick()` event for each button.
 
-#### Property definition
+#### [Property definition](#property-definition)
 
 In the code for the ClickerDialog class, you can see the following definition:
 
-```
-static propsDefinition = {
-  ball: { type: PropTypes.Entity },
+```typescript
+static propsDefinition = {
+  ball: { type: PropTypes.Entity },
 };
 ```
 
@@ -51,151 +51,151 @@ From this drop-down, the designer can select an object that already is present i
 
 As an experiment, you can try:
 
-* Add a different Shape to the world.
-* Select this Shape from the ball entry in the Properties panel of the Custom UI.
-* See if the code works.
+- Add a different Shape to the world.
+- Select this Shape from the ball entry in the Properties panel of the Custom UI.
+- See if the code works.
 
-#### MyButton() code
+#### [MyButton() code](#mybutton-code)
 
 For the `MyButton()` function, you have the following code:
 
-```
-type MyButtonProps = {
-  label: string;
-  onClick: Callback;
-  style: ViewStyle;
-  baseColor: string;
+```typescript
+type MyButtonProps = {
+  label: string;
+  onClick: Callback;
+  style: ViewStyle;
+  baseColor: string;
 };
 
-function MyButton(props: MyButtonProps): UINode {
-  const DEFAULT_COLOR = props.baseColor;
-  const HOVERED_COLOR = "blue";
-  const backgroundColor = new Binding<string>(DEFAULT_COLOR);
-  const buttonText = new Binding<string>(props.label);
+function MyButton(props: MyButtonProps): UINode {
+  const DEFAULT_COLOR = props.baseColor;
+  const HOVERED_COLOR = "blue";
+  const backgroundColor = new Binding<string>(DEFAULT_COLOR);
+  const buttonText = new Binding<string>(props.label);
 
-  return Pressable({
-    children: Text({
-      text: buttonText,
-      style: {color: "white"},
-    }),
-    onClick: props.onClick,
-    onEnter: (player: Player) => {
-      console.log("onEnter");
-      backgroundColor.set(HOVERED_COLOR, [player]);
-      buttonText.set("hovered", [player]);
-    },
-    onExit: (player: Player) => {
-      console.log("onExit");
-      backgroundColor.set(DEFAULT_COLOR, [player]);
-      buttonText.set(props.label, [player]);
-    },
-    style: {
-      backgroundColor: backgroundColor,
-      borderRadius: 8,
-      height: 36,
-      width: 120,
-      alignItems: "center",
-      justifyContent: "center",
-      // additional styles are spreaded the last
-      // to override default styles
-      ...props.style,
-    },
-  });
+  return Pressable({
+    children: Text({
+      text: buttonText,
+      style: {color: "white"},
+    }),
+    onClick: props.onClick,
+    onEnter: (player: Player) => {
+      console.log("onEnter");
+      backgroundColor.set(HOVERED_COLOR, [player]);
+      buttonText.set("hovered", [player]);
+    },
+    onExit: (player: Player) => {
+      console.log("onExit");
+      backgroundColor.set(DEFAULT_COLOR, [player]);
+      buttonText.set(props.label, [player]);
+    },
+    style: {
+      backgroundColor: backgroundColor,
+      borderRadius: 8,
+      height: 36,
+      width: 120,
+      alignItems: "center",
+      justifyContent: "center",
+      // additional styles are spreaded the last
+      // to override default styles
+      ...props.style,
+    },
+  });
 }
 ```
 
 The type definition for `MyButtonProps` contains four fields:
 
-```
-label: string;
-onClick: Callback;
-style: ViewStyle;
-baseColor: string;
+```typescript
+label: string;
+onClick: Callback;
+style: ViewStyle;
+baseColor: string;
 ```
 
 These are the four variables that can be applied to a UI object of MyButton type.
 
-| **Field** | **Description** |
-| --- | --- |
-| `label` | Text label that appears on the button. |
-| `onClick` | The `onClick()` event is defined as a callback to a function defined in the call to the `MyButton` function. |
-| `style` | This is a customUI object type called `ViewStyle`, which enables styling of a UI View definition with JavaScript-like styling attributes. |
-| `baseColor` | Text string identifying the base color for the button |
+| **Field**   | **Description**                                                                                                                           |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| `label`     | Text label that appears on the button.                                                                                                    |
+| `onClick`   | The `onClick()` event is defined as a callback to a function defined in the call to the `MyButton` function.                              |
+| `style`     | This is a customUI object type called `ViewStyle`, which enables styling of a UI View definition with JavaScript-like styling attributes. |
+| `baseColor` | Text string identifying the base color for the button                                                                                     |
 
-### Color constants
+### [Color constants](#color-constants)
 
 Above the class declaration, you can see the following constants, which define the colors to apply:
 
-```
-const colorOff: Color = new Color(0, 0, 1.0)
-const colorRed: Color = new Color(0.8, 0, 0)
-const colorGreen: Color = new Color (0, 0.8, 0)
+```typescript
+const colorOff: Color = new Color(0, 0, 1.0)
+const colorRed: Color = new Color(0.8, 0, 0)
+const colorGreen: Color = new Color (0, 0.8, 0)
 ```
 
-### Define sphere as a mesh entity
+### [Define sphere as a mesh entity](#define-sphere-as-a-mesh-entity)
 
 To apply color properties to an entity in the world, you must create a reference to the entity as a MeshEntity type. This allows you to access via TypeScript the entity’s `style` properties, which include the color properties.
 
 Within the `initializeUI()` method, you can see the internal variable that is defined to hold the Sphere entity from the `hz.props.ball` property value as a MeshEntity object. If this entity is valid, then the styling properties are applied to set the default color for the sphere:
 
-```
-const myBall = this.props.ball?.as(MeshEntity)!
-if (myBall) {
-  myBall.style.tintStrength.set(1)
-  myBall.style.brightness.set(100)
-  myBall.style.tintColor.set(colorOff)
+```typescript
+const myBall = this.props.ball?.as(MeshEntity)!
+if (myBall) {
+  myBall.style.tintStrength.set(1)
+  myBall.style.brightness.set(100)
+  myBall.style.tintColor.set(colorOff)
 }
 ```
 
 You can also see the references to the nested `View()` objects. The second, nested `View()` object is defined as follows:
 
-```
+```typescript
 View({
-  children: [
-    MyButton({
-      label: "Off",
-      baseColor: "black",
-      onClick: () => {
-        console.log("onClick() callback fired for: Off")
-        if (myBall) {
-          myBall.style.tintColor.set(colorOff)
-        }
-      },
-      style: {
-        marginRight: 24,
-      },
-    }),
-    MyButton({
-      label: "Red",
-      baseColor: "red",
+  children: [
+    MyButton({
+      label: "Off",
+      baseColor: "black",
+      onClick: () => {
+        console.log("onClick() callback fired for: Off")
+        if (myBall) {
+          myBall.style.tintColor.set(colorOff)
+        }
+      },
+      style: {
+        marginRight: 24,
+      },
+    }),
+    MyButton({
+      label: "Red",
+      baseColor: "red",
 
-      onClick: () => {
-        // console.log("Pressed Red button.");
-        console.log("onClick() callback fired for: Red")
-        if (myBall) {
-          myBall.style.tintColor.set(colorRed)
-        }
-      },
-      style: {
-        marginRight: 24,
-      },
-    }),
-    MyButton({
-      label: "Green",
-      baseColor: "green",
-      onClick: () => {
-        // console.log("Pressed Green button.");
-        if (myBall) {
-          console.log("onClick() callback fired for: Green")
-          myBall.style.tintColor.set(colorGreen)
+      onClick: () => {
+        // console.log("Pressed Red button.");
+        console.log("onClick() callback fired for: Red")
+        if (myBall) {
+          myBall.style.tintColor.set(colorRed)
+        }
+      },
+      style: {
+        marginRight: 24,
+      },
+    }),
+    MyButton({
+      label: "Green",
+      baseColor: "green",
+      onClick: () => {
+        // console.log("Pressed Green button.");
+        if (myBall) {
+          console.log("onClick() callback fired for: Green")
+          myBall.style.tintColor.set(colorGreen)
 
-        }
-      },
-      style: {
-      },
-    }),
-  ],
-  style: { flexDirection: "row", marginTop: 12 },
+        }
+      },
+      style: {
+      },
+    }),
+  ],
+  style: { flexDirection: "row", marginTop: 12 },
 }),
 ```
 
@@ -203,22 +203,23 @@ You can see three different calls to `MyButton()`, which returns a Pressable obj
 
 In particular, you can see in the `onClick()` event for each button the arrow function that is called back from the `MyFunction()` function. This callback functionality is enabled through the type definition for `MyButtonProps`.
 
-* Since the reference to the ball entity is defined as part of the customUI object to which the script is attached, you can reference the ball entity using the this keyword.
+- Since the reference to the ball entity is defined as part of the customUI object to which the script is attached, you can reference the ball entity using the this keyword.
 
 So, to enable a customUI object to modify properties of another object in the world:
 
-* Add a property to the Properties panel of the custom UI. This is done through the type definition of the Props for the class that you are extending in the TypeScript.
-* Modify the `MyButton()` function:
-  + Add the `onClick()` property as a callback to `MyButtonProps`.
-  + Add code to reference `props.onClick` in the `MyButtonProps` definition.
-  + Since the above is of `Callback` type, you can define the callback function as an arrow function in the parameters of the call you make to `MyButton()` function from within the `View()` in your `initializeUI()` method.
+- Add a property to the Properties panel of the custom UI. This is done through the type definition of the Props for the class that you are extending in the TypeScript.
+- Modify the `MyButton()` function:
+  - Add the `onClick()` property as a callback to `MyButtonProps`.
+  - Add code to reference `props.onClick` in the `MyButtonProps` definition.
+  - Since the above is of `Callback` type, you can define the callback function as an arrow function in the parameters of the call you make to `MyButton()` function from within the `View()` in your `initializeUI()` method.
 
-## Key Learnings
+## [Key Learnings](#key-learnings)
 
-### Meta Horizon Worlds learnings
+### [Meta Horizon Worlds learnings](#meta-horizon-worlds-learnings)
 
-* None.
+- None.
 
-### TypeScript coding
+### [TypeScript coding](#typescript-coding)
 
-* How to use a customUI to affect other entities in your world.
+- How to use a customUI to affect other entities in your world.
+

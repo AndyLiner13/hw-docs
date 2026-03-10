@@ -2,15 +2,15 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/creator-manual
 ---
 
-# Meta Horizon Worlds creator manual
+# [Meta Horizon Worlds creator manual](#meta-horizon-worlds-creator-manual)
 
 **Created by the Horizon Community.** This document may be out of date or incorrect.
 
-* **Author**: wafflecopters (Ari Grant)
-* **Contributors**: PigeonNo12, SeeingBlue, Shards632, Tellous (Matt Torres), and UnravelWinter
-* **Thanks**: HomeMed
+- **Author**: wafflecopters (Ari Grant)
+- **Contributors**: PigeonNo12, SeeingBlue, Shards632, Tellous (Matt Torres), and UnravelWinter
+- **Thanks**: HomeMed
 
-## Overview
+## [Overview](#overview)
 
 Meta Horizon (called “Horizon” for the rest of this document) is a Metaverse content platform where people can find and create 3D immersive content to play, explore, and socialize in. Horizon calls each experience a [world](Meta%20Horizon%20Worlds%20creator%20manual.md#worlds). The content can be accessed on:
 
@@ -26,82 +26,82 @@ The tools support many features for managing and scripting [players](Meta%20Hori
 
 **TypeScript and Code Blocks**. Horizon uses [TypeScript](https://www.typescriptlang.org/) as its scripting language. TypeScript scripts can only be edited in the Desktop Editor. Horizon also has a custom block-based scripting system (where you write scripts by combining blocks together) that it calls **Codeblocks**. Codeblock Scripts can only be edited in the VR Editor. This documentation only includes TypeScript features.
 
-## Worlds
+## [Worlds](#worlds)
 
 You use the Desktop Editor to edit worlds, adding content and scripts to build out your ideas. The [publishing menu](Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings) enables you to configure worlds settings and publish the world when ready. Worlds are saved in automatic system “files” called [world snapshots](Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot) which allow [rollback](Meta%20Horizon%20Worlds%20creator%20manual.md#world-backups). A published world may be running many [instances](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) at once.
 
-### Creating a World
+### [Creating a World](#creating-a-world)
 
-- Install and launch the [desktop editor](../../Get%20started/Install%20the%20desktop%20editor.md).
-- [Create a new world](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+1. Install and launch the [desktop editor](../../Get%20started/Install%20the%20desktop%20editor.md).
+2. [Create a new world](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
 
-### Publishing and Player Settings
+### [Publishing and Player Settings](#publishing-and-player-settings)
 
 **Publishing**![Image shows the publish world window with a message stating that a genre tag must be selected](../../_assets/images/4156cce7c3d69ed395bde753f0c639cb81970554b55c7d9df48d657cdaa46be6.png)
 
-| Field | Description |
-| --- | --- |
-| World Status | Displays the current status of the world. |
-| Name | Allows you to name your world. Beware, renaming your world will change the name of the folder where the scripts are saved when using Typescript. |
-| Description | Allows you to set a description for your world. This will be seen when viewing your world in the Horizon menu, online, or in the app. |
-| World Rating | Will prompt a series of questions about your world to determine your world rating: 10+, 13+, or 18+. |
-| Comfort Rating | Allows you to select a rating for your world that players will see before they visit. This lets players know what kind of experience they can expect. You cannot publish a world as `NOT_RATED`. `COMFORTABLE` suggest not a lot of movement involved, overall calm and slow environment. `Moderate` suggest your world has some limited movement or possible motion sickness inducing aspects. `INTENSE` suggest your world may not be suitable for users who suffer from motion sickness. |
-| Tags | Allows you to set up to 3 Tags for your world that helps categorize it in the menu and tells players what kind of experience they can expect. |
-| Mute Assist | Turning this on will allow your world to detect loud sounds, profanity or offensive language and prompt your players to mute the offending players. |
-| Visible to Public | Determines whether your world will appear in the Horizon Menu, searches, or be featured. If disabled, players can only join your world through invites or Door Gizmo. |
-| Members-Only World | Enables `Moderation Presence Required` option. Only allows users who are invited to join your world. Does not allow IWP. WARNING: When enabled and published, it cannot be disabled again. |
-| Moderation Presence Required | If enabled, invited players can only enter the world when the creator or a moderator is present. |
-| Beta | If enabled, shows your world in Beta status so players know there could be bugs or issues. |
-| Available Through Web and Mobile | Determines whether players can join your world on web and mobile. |
-| Compatible with Web and Mobile | Determines whether your world is optimized for web and mobile so players can know what to expect. |
+| Field                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| World Status                     | Displays the current status of the world.                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Name                             | Allows you to name your world. Beware, renaming your world will change the name of the folder where the scripts are saved when using Typescript.                                                                                                                                                                                                                                                                                                                                            |
+| Description                      | Allows you to set a description for your world. This will be seen when viewing your world in the Horizon menu, online, or in the app.                                                                                                                                                                                                                                                                                                                                                       |
+| World Rating                     | Will prompt a series of questions about your world to determine your world rating: 10+, 13+, or 18+.                                                                                                                                                                                                                                                                                                                                                                                        |
+| Comfort Rating                   | Allows you to select a rating for your world that players will see before they visit. This lets players know what kind of experience they can expect. You cannot publish a world as `NOT_RATED`. `COMFORTABLE` suggest not a lot of movement involved, overall calm and slow environment. `Moderate` suggest your world has some limited movement or possible motion sickness inducing aspects. `INTENSE` suggest your world may not be suitable for users who suffer from motion sickness. |
+| Tags                             | Allows you to set up to 3 Tags for your world that helps categorize it in the menu and tells players what kind of experience they can expect.                                                                                                                                                                                                                                                                                                                                               |
+| Mute Assist                      | Turning this on will allow your world to detect loud sounds, profanity or offensive language and prompt your players to mute the offending players.                                                                                                                                                                                                                                                                                                                                         |
+| Visible to Public                | Determines whether your world will appear in the Horizon Menu, searches, or be featured. If disabled, players can only join your world through invites or Door Gizmo.                                                                                                                                                                                                                                                                                                                       |
+| Members-Only World               | Enables `Moderation Presence Required` option. Only allows users who are invited to join your world. Does not allow IWP. WARNING: When enabled and published, it cannot be disabled again.                                                                                                                                                                                                                                                                                                  |
+| Moderation Presence Required     | If enabled, invited players can only enter the world when the creator or a moderator is present.                                                                                                                                                                                                                                                                                                                                                                                            |
+| Beta                             | If enabled, shows your world in Beta status so players know there could be bugs or issues.                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Available Through Web and Mobile | Determines whether players can join your world on web and mobile.                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Compatible with Web and Mobile   | Determines whether your world is optimized for web and mobile so players can know what to expect.                                                                                                                                                                                                                                                                                                                                                                                           |
 
 **Player Settings**
 
-| Field | Description |
-| --- | --- |
-| VOIP Settings | `Global` will set every player to global voice. It is not possible to change any VOIP settings further (all gizmos and TypeScript related to VOIP are ignored). The `Local` setting gives the world the default setting, which can then be further changed by environment gizmos and TypeScript. |
-| Maximum Player Count | Set the maximum number of people who can be in your world at the same time. Values are between 4 and 32, default is 8. |
-| Suggested Minimum Player Count | Sets the recommended minimum number of people needed to enjoy your world. |
-| Emotes | Allows players to use emotes in your world |
-| Emotes Audio | Allows emotes to play sound effects in your world. |
-| Can Hands Collide With Physics Objects | Sets whether a player’s hands will collide with interactive objects or pass through them. |
-| Can Hands Collide With Static Objects | Sets whether a player’s hands will collide with static objects or pass through them. |
-| Custom Player Movement | Allows you to move players by script. Warns players they may be moved by script in your world. |
-| Generate Instant Replays | Allows scripts to record players after a specific action or event. Requires [horizon/capturing](https://horizon.meta.com/resources/scripting-api/capturing.md) API |
-| Frame Budget Boost | Helps boost frames. Setting to `Default` or `On` may cause visual distortions. [Learn more...](https://fb.me/fbb) |
-| Spawn Nearby | When enabled players joining your world will spawn near other players. |
-| Footsteps Volume | Adjusts the volume of footstep audio |
-| Footsteps Min Distance | Foots steps will play at full volume up to this distance(in meters). |
-| Footsteps Max Distance | Foots steps fade out until they reach the max distance then you will be unable to hear them. |
-| Hide Action by Default | Mobile Only. Hides action icons by default unless specified otherwise in items properties. |
-| Disable Dynamic LOD Toggles on Avatar | If enabled, LOD will no longer be applied to avatars. This decreases their detail for players when viewed from a distance. |
-| Enable Max Quality Avatar | Enabled advanced shading and increased texture resolution on avatars. May affect performance. |
+| Field                                  | Description                                                                                                                                                                                                                                                                                      |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| VOIP Settings                          | `Global` will set every player to global voice. It is not possible to change any VOIP settings further (all gizmos and TypeScript related to VOIP are ignored). The `Local` setting gives the world the default setting, which can then be further changed by environment gizmos and TypeScript. |
+| Maximum Player Count                   | Set the maximum number of people who can be in your world at the same time. Values are between 4 and 32, default is 8.                                                                                                                                                                           |
+| Suggested Minimum Player Count         | Sets the recommended minimum number of people needed to enjoy your world.                                                                                                                                                                                                                        |
+| Emotes                                 | Allows players to use emotes in your world                                                                                                                                                                                                                                                       |
+| Emotes Audio                           | Allows emotes to play sound effects in your world.                                                                                                                                                                                                                                               |
+| Can Hands Collide With Physics Objects | Sets whether a player’s hands will collide with interactive objects or pass through them.                                                                                                                                                                                                        |
+| Can Hands Collide With Static Objects  | Sets whether a player’s hands will collide with static objects or pass through them.                                                                                                                                                                                                             |
+| Custom Player Movement                 | Allows you to move players by script. Warns players they may be moved by script in your world.                                                                                                                                                                                                   |
+| Generate Instant Replays               | Allows scripts to record players after a specific action or event. Requires [horizon/capturing](https://horizon.meta.com/resources/scripting-api/capturing.md) API                                                                                                                               |
+| Frame Budget Boost                     | Helps boost frames. Setting to `Default` or `On` may cause visual distortions. [Learn more...](https://fb.me/fbb)                                                                                                                                                                                |
+| Spawn Nearby                           | When enabled players joining your world will spawn near other players.                                                                                                                                                                                                                           |
+| Footsteps Volume                       | Adjusts the volume of footstep audio                                                                                                                                                                                                                                                             |
+| Footsteps Min Distance                 | Foots steps will play at full volume up to this distance(in meters).                                                                                                                                                                                                                             |
+| Footsteps Max Distance                 | Foots steps fade out until they reach the max distance then you will be unable to hear them.                                                                                                                                                                                                     |
+| Hide Action by Default                 | Mobile Only. Hides action icons by default unless specified otherwise in items properties.                                                                                                                                                                                                       |
+| Disable Dynamic LOD Toggles on Avatar  | If enabled, LOD will no longer be applied to avatars. This decreases their detail for players when viewed from a distance.                                                                                                                                                                       |
+| Enable Max Quality Avatar              | Enabled advanced shading and increased texture resolution on avatars. May affect performance.                                                                                                                                                                                                    |
 
-### Editor Roles
+### [Editor Roles](#editor-roles)
 
 The **owner** is the person who [created the world](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-world). Once a world is created, there is no way to change the owner. **Collaborators**, can than be added to (and removed from) the world via the Collaborators menu. When adding a collaborator, you choose whether they are an editor or tester.
 
-| Role | Can travel to [editor instances](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-lifetime)? | Can enter [build mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish), edit [scene](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph), and edit [scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting)? | Can [publish](Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings) the world? | Can edit [persistence](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence) settings (create and edit [leaderboards](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards), [quests](Meta%20Horizon%20Worlds%20creator%20manual.md#quests), and [PPVs](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs))? | Can assign [editor roles](Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles)? |
-| --- | --- | --- | --- | --- | --- |
-| *Owner* | ✅ | ✅ | ✅ | ✅ | ✅ |
-| *Editor* | ✅ | ✅ | ❌ | ❌ (Exception: editing Quests *are* allowed) | ❌ |
-| *Tester* | ✅ (using the VR Headset) | ❌ | ❌ | ❌ | ❌ |
+| Role     | Can travel to [editor instances](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-lifetime)? | Can enter [build mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish), edit [scene](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph), and edit [scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting)? | Can [publish](Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings) the world? | Can edit [persistence](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence) settings (create and edit [leaderboards](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards), [quests](Meta%20Horizon%20Worlds%20creator%20manual.md#quests), and [PPVs](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs))? | Can assign [editor roles](Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles)? |
+| -------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| *Owner*  | ✅                                                                                                  | ✅                                                                                                                                                                                                                                                                      | ✅                                                                                                      | ✅                                                                                                                                                                                                                                                                                                                                                    | ✅                                                                                      |
+| *Editor* | ✅                                                                                                  | ✅                                                                                                                                                                                                                                                                      | ❌                                                                                                      | ❌ (Exception: editing Quests *are* allowed)                                                                                                                                                                                                                                                                                                          | ❌                                                                                      |
+| *Tester* | ✅ (using the VR Headset)                                                                           | ❌                                                                                                                                                                                                                                                                      | ❌                                                                                                      | ❌                                                                                                                                                                                                                                                                                                                                                    | ❌                                                                                      |
 
-### Cloning a World
+### [Cloning a World](#cloning-a-world)
 
 World owners can clone a world. This creates a new one with a different ID than the original. The scene configuration and scripting will be completely independent than the original one, except [template assets](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) and --> FBS scripts.
 
 To Clone a world:
 
-- Open the Desktop Editor and wait for the Creation Home to load. If you are already inside a world, navigate back to the Creation Home by clicking the sandwich menu (the 3 horizontal lines on the upper left corner), and select Return to Creation Home.
-- Click on the ellipsis menu of the world that you want to clone, and select Duplicate.
-- A “Duplicate your world?” UI will appear, with the option of using a default name (the original world name with the world Clone at the end). You can overwrite this field accordingly, if needed.
-- Toggle on the “Add variable groups to duplicate world” option, if you wish to preserve a connection to the Variables Groups of the original world.
-- Click Duplicate to close the UI. Once the Clone is created, you will see in the list of worlds of the Creation Home.
+1. Open the Desktop Editor and wait for the Creation Home to load. If you are already inside a world, navigate back to the Creation Home by clicking the sandwich menu (the 3 horizontal lines on the upper left corner), and select Return to Creation Home.
+2. Click on the ellipsis menu of the world that you want to clone, and select Duplicate.
+3. A “Duplicate your world?” UI will appear, with the option of using a default name (the original world name with the world Clone at the end). You can overwrite this field accordingly, if needed.
+4. Toggle on the “Add variable groups to duplicate world” option, if you wish to preserve a connection to the Variables Groups of the original world.
+5. Click Duplicate to close the UI. Once the Clone is created, you will see in the list of worlds of the Creation Home.
 
 Quests and Leaderboards are also cloned by default, but their completion state and values will be reset. Tracked Quests will continue referencing a connected PPV, even if the Variable Group was not included in the cloned world.
 
-### World Snapshot
+### [World Snapshot](#world-snapshot)
 
 When you create a new world, Horizon creates a new “file” on their servers which contains all the information and data for the world. Horizon calls this a **world snapshot**. Every time you update the world, a new snapshot is created. You can manage all the saves snapshots via the [backups](Meta%20Horizon%20Worlds%20creator%20manual.md#world-backups) feature.
 
@@ -109,7 +109,7 @@ The world snapshot
 
 Whenever this document refers to **the world snapshot** it is referring to the specific snapshot that you have loaded the world from (which is the last one saved, unless you did a rollback).
 
-### World Backups
+### [World Backups](#world-backups)
 
 The editor regularly “auto saves” the world, creating a new [world snapshot](Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot) that is called a **backup**. You can manually create a snapshot as a via the “Save Backup” option.
 
@@ -121,11 +121,11 @@ Source Control
 
 Currently there is no way to put a whole world into an external source control system, such as git, but it is possible to [put the scripts into source control](Meta%20Horizon%20Worlds%20creator%20manual.md#scripts-in-source-control).
 
-Warning
+> [!Warning]
+>
+> Restoring a backup will overwrite the editable version of the world. Currently, branching is not available.
 
-Restoring a backup will overwrite the editable version of the world. Currently, branching is not available.
-
-## Instances
+## [Instances](#instances)
 
 Once published, Horizon maybe have multiple *copies* of a world running at the same time. For example if the [maximum player count](Meta%20Horizon%20Worlds%20creator%20manual.md#maximum-player-count) is set to 20 and there are 100 people “in the world” then they would be spread out across *at least* 5 separate copies. These copies are called **instances**.
 
@@ -133,7 +133,7 @@ Horizon sometimes refers to Instances as Sessions
 
 In all technical documentation, Horizon uses the word *instance*. Given that this is a somewhat technical term, it refers to them as **sessions** within the user-facing side of the product. For example, a person can “create a new session”.
 
-### Instance Lifetime
+### [Instance Lifetime](#instance-lifetime)
 
 **Creation**: When a player travels to a world (to play it or edit it), Horizon [finds or creates an instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection) of the right [type](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-types).
 
@@ -145,43 +145,43 @@ Destroyed instances are permanently gone and so is their data.
 
 When an instance is destroyed there is no way for players to get back that specific instance. Any data they had “acquired” in that instance is permanently lost. You can **use [Horizon persistence](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence) to track data across instances and visits**.
 
-### Instance Types
+### [Instance Types](#instance-types)
 
 There are three types of instances: **published instances**, **editor instances** and **preview instances**. The editing tools, for modifying a world, are only available inside of an *editor instance*. There is no way to turn one into the other; when Horizon [starts up a new instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection), based on how the player is traveling, and then the type never changes, for as long as the instance is [alive](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-lifetime).
 
-| Instance Type | How do you travel to one? | Can you open the editing tools? | How many instances are allowed? |
-| --- | --- | --- | --- |
-| *Published* | Use the “Visit World” button, or [travel](Meta%20Horizon%20Worlds%20creator%20manual.md#travel-doors-and-links) to a friend, travel via a door. | No | No limit |
-| *Editor* | Use the “Edit World” button if you are the [world owner, editor, or a tester](Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles). | Yes, if you are the [owner or an editor](Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles). | 1 |
-| *Preview* | Use the “Preview version” button on the [Developer Dashboard](https://developers.meta.com/horizon/manage/), or using the Preview Configuration actions (send link to Meta Quest phone app, open in browser or copy preview url). | No | No limit |
+| Instance Type | How do you travel to one?                                                                                                                                                                                                        | Can you open the editing tools?                                                                       | How many instances are allowed? |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------- |
+| *Published*   | Use the “Visit World” button, or [travel](Meta%20Horizon%20Worlds%20creator%20manual.md#travel-doors-and-links) to a friend, travel via a door.                                                                                  | No                                                                                                    | No limit                        |
+| *Editor*      | Use the “Edit World” button if you are the [world owner, editor, or a tester](Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles).                                                                                       | Yes, if you are the [owner or an editor](Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles). | 1                               |
+| *Preview*     | Use the “Preview version” button on the [Developer Dashboard](https://developers.meta.com/horizon/manage/), or using the Preview Configuration actions (send link to Meta Quest phone app, open in browser or copy preview url). | No                                                                                                    | No limit                        |
 
-</gk>
+\</gk>
 
 Preview instances mirror the same functionality as Published instance. The difference is that Preview instances will contain recent-unpublished edits of a world. Preview instances are not discoverable.
 
-#### Visitation Modes: Edit, Preview, and Publish
+#### [Visitation Modes: Edit, Preview, and Publish](#visitation-modes-edit-preview-and-publish)
 
 “Visiting” a world in Horizon is done in one of three modes: edit, play, and publish. In a [published instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-types), all players are always in “publish mode”. In an [editor instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-types), the creator and editors can switch back and forth between edit and preview modes; testers are always in preview mode.
 
-| Mode | Description | Instance Type | Required Role |
-| --- | --- | --- | --- |
-| *Edit* | Experience the world **as an editor** where you can modify the world. | Editor Instance | Editor |
-| *Preview* | Experience the world **as a player** from within the editable instance. | Editor Instance | Editor or Tester |
-| *Publish* | Experience the world **as a player** in a published instance. | Published Instance | n/a |
+| Mode      | Description                                                             | Instance Type      | Required Role    |
+| --------- | ----------------------------------------------------------------------- | ------------------ | ---------------- |
+| *Edit*    | Experience the world **as an editor** where you can modify the world.   | Editor Instance    | Editor           |
+| *Preview* | Experience the world **as a player** from within the editable instance. | Editor Instance    | Editor or Tester |
+| *Publish* | Experience the world **as a player** in a published instance.           | Published Instance | n/a              |
 
 Debug console gizmo visibility.
 
 The [Debug Console Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#debug-console-gizmo) has setting to control which visitation mode(s) it is visible in.
 
-### Available Instances
+### [Available Instances](#available-instances)
 
 A player can only travel to an instance if that instance is **available for the player**. Availability is determined by three criteria, all of which must be met:
 
-- **[Isn’t at maximum player count](Meta%20Horizon%20Worlds%20creator%20manual.md#maximum-player-count)**: a player can only travel to a world if there as at least one [index](Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices) available. If the capacity is set to 20 and there are 19 people there, then 1 more can travel to the world. It is then unavailable for all players until at one player leaves.
-- **Is Safe**: Horizon has an undisclosed, and evolving, set of rules for what it deems *safe*, regarding travel. These rules may include: which players have blocked one another (and how recently), if the traveling player has recently been voted out of that instance, if the instance has a moderated event running, and more.
-- **[Instance is Open](Meta%20Horizon%20Worlds%20creator%20manual.md#open-closed-and-private-instances-matchmaking)**: all [published instances](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-types) exist as either *open* or *closed*. An **open instance** can be joined by a player (if the above criteria are met). A **closed instance** can only be joined by players who are explicitly invited by players already in the instance.
+1. **[Isn’t at maximum player count](Meta%20Horizon%20Worlds%20creator%20manual.md#maximum-player-count)**: a player can only travel to a world if there as at least one [index](Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices) available. If the capacity is set to 20 and there are 19 people there, then 1 more can travel to the world. It is then unavailable for all players until at one player leaves.
+2. **Is Safe**: Horizon has an undisclosed, and evolving, set of rules for what it deems *safe*, regarding travel. These rules may include: which players have blocked one another (and how recently), if the traveling player has recently been voted out of that instance, if the instance has a moderated event running, and more.
+3. **[Instance is Open](Meta%20Horizon%20Worlds%20creator%20manual.md#open-closed-and-private-instances-matchmaking)**: all [published instances](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-types) exist as either *open* or *closed*. An **open instance** can be joined by a player (if the above criteria are met). A **closed instance** can only be joined by players who are explicitly invited by players already in the instance.
 
-#### Open, Closed, and Private Instances (Matchmaking)
+#### [Open, Closed, and Private Instances (Matchmaking)](#open-closed-and-private-instances-matchmaking)
 
 Instances can be *open* or *private*, controlling whether anyone can join, or if you can join by invite only. The *matchmaking* APIs allow you to *close* an *open instance* meaning that no one else can jon.
 
@@ -193,15 +193,15 @@ Instances can be *open* or *private*, controlling whether anyone can join, or if
 
 Matchmaking is a property of the `World` class.
 
-```
+```typescript
 //Property
-allowPlayerJoin(allow: boolean): Promise<void>;
+allowPlayerJoin(allow: boolean): Promise<void>;
 
 //Example
 this.world.matchmaking.allowPlayerJoin(false)
 ```
 
-### Instance Selection
+### [Instance Selection](#instance-selection)
 
 When a player travels to a world, Horizon will determine which instance to send them to (if there are multiple) or create a new instance if needed (if all are full, none exist, or the player specifically created a new one).
 
@@ -211,48 +211,48 @@ There is only ever (at most) one **editor instance** of a given world. When that
 
 ![](../../_assets/images/dc5c1eb658a073ca7681758bfa6aff6e4d9ec7197f78cc3c551f8acc1970025f.png)
 
-### Travel, Doors, and Links
+### [Travel, Doors, and Links](#travel-doors-and-links)
 
 Players move around Horizon by *traveling* from one location to another. A player is traveling when they are in the loading screen, going from one world to another.
 
 A player may travel for a number of reasons:
 
-* they are loading into Horizon
-* they selected a world, in their menu
-* they selected a person and then “join”, in their menu
-* they pressed a button on a [door](Meta%20Horizon%20Worlds%20creator%20manual.md#door-gizmo)
-* they walked into a “travel area” (such as in Venues)
-* they were voted out of their current instance
-* they experience an error and were sent back to their “home” space
+- they are loading into Horizon
+- they selected a world, in their menu
+- they selected a person and then “join”, in their menu
+- they pressed a button on a [door](Meta%20Horizon%20Worlds%20creator%20manual.md#door-gizmo)
+- they walked into a “travel area” (such as in Venues)
+- they were voted out of their current instance
+- they experience an error and were sent back to their “home” space
 
 The [door gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#door-gizmo) allows you to put “travel buttons” in your world and link them together.
 
-To get a **URL (text link) to one of your worlds** go here: https://horizon.meta.com/creator/worlds\_all and then choose a world and navigate to its details page. You will be at a URL starting with `https://horizon.meta.com/world/...`. That is the URL / link for that world!
+To get a **URL (text link) to one of your worlds** go here: https\://horizon.meta.com/creator/worlds\_all and then choose a world and navigate to its details page. You will be at a URL starting with `https://horizon.meta.com/world/...`. That is the URL / link for that world!
 
 If you are visiting a world in the browser and copy the URL, it will include a session id, which can help people join you (if you send them that URL).
 
-## Starting, Stopping and Resetting an Instance
+## [Starting, Stopping and Resetting an Instance](#starting-stopping-and-resetting-an-instance)
 
 An **instance starts** when any of the following occur:
 
-* player chooses “new session” (instance is created and starts)
-* player travels to a world with no currently [available instance](Meta%20Horizon%20Worlds%20creator%20manual.md#available-instances) (instance is created and starts)
-* player travels to the editor for a world that doesn’t currently have the editor instance running (instance is created and starts)
-* creator presses the “Play” button in the desktop editor (instance is not created, but it is started)
+- player chooses “new session” (instance is created and starts)
+- player travels to a world with no currently [available instance](Meta%20Horizon%20Worlds%20creator%20manual.md#available-instances) (instance is created and starts)
+- player travels to the editor for a world that doesn’t currently have the editor instance running (instance is created and starts)
+- creator presses the “Play” button in the desktop editor (instance is not created, but it is started)
 
 When an instance starts, all the [script files are run](Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution) and the [components](Meta%20Horizon%20Worlds%20creator%20manual.md#components) associated with the [entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) in the [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) are [initialized](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
 
 An **instance stops** when any of the following occur:
 
-* the instance has had no players in it for a while
-* creator presses the “Stop” button in the desktop editor
+- the instance has had no players in it for a while
+- creator presses the “Stop” button in the desktop editor
 
 When an instance stops in the desktop editor, all the components are disposed. In a non-editor instance, all the running scripts can simply be halted.
 
 An **instance resets** when any of the following occur:
 
-* [World class](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class)`reset()` method is called
-* creator presses the “Reset” button in the desktop editor
+- [World class](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class)`reset()` method is called
+- creator presses the “Reset” button in the desktop editor
 
 When an instance resets, all components are disposed, all assets are [despawned](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning), all entities are reset to their initial state in the [world snapshot](Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot), all (new) components are initialized.
 
@@ -262,39 +262,39 @@ If an instance is reset while it is playing, it is possible that some in-flight 
 
 In the desktop editor we recommend that when you want to test the world that you habitually **press: “Stop, then Reset, then Play”**.
 
-## Scene Graph
+## [Scene Graph](#scene-graph)
 
 Every world in Horizon is made out of [entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) each of which has an [intrinsic type](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-types) such as being a mesh or a particle effect. Entities can be configured to have *behaviors* (such as being [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) or [attachable](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)) and be have other entities as their children (or as a parent). The collection of all of these entities, their attributes, and relationships is called the **scene graph**. When you modify the scene graph in the editor, those changes are saved in the [world snapshot](Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot).
 
-### Hierarchy
+### [Hierarchy](#hierarchy)
 
 Any [entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) can be set as the child of another entity. For example, you might make a robot’s forearm a Mesh Entity that is a child of the upper arm Mesh Entity. Or you might put a steering wheel inside a car. The main reasons to create parent-child relationships are:
 
-- To have the transform of one entity impact another (e.g. moving a car also moves the steering wheel within it).
-- To create “layers” or “folders” in the editor (e.g. putting all trees in a [“collection”](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) to make them easier to manage).
+1. To have the transform of one entity impact another (e.g. moving a car also moves the steering wheel within it).
+2. To create “layers” or “folders” in the editor (e.g. putting all trees in a [“collection”](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) to make them easier to manage).
 
 When an entity has no parent, it is called a **root entity**.
 
-#### Ancestors
+#### [Ancestors](#ancestors)
 
 We call the collection of an entity’s parent, grandparent, great-grandparent, etc the entity’s **ancestors**. If the entity has no parent, we say it has 0 ancestors. If it has just a parent and then grandparent, it would have 2.
 
 We call the children, and their children, and their children, etc of an entity its **descendants**.
 
-#### Empty Object and Groups
+#### [Empty Object and Groups](#empty-object-and-groups)
 
 Empty Objects and Groups are two entity types that create “collections” of entities. They are similar in most regards, with **only a few differences**:
 
-| Type | [Pivots](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) | [Interactive](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) Children | [Projectile Launcher](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | [Child Count](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) |
-| --- | --- | --- | --- | --- |
-| Group | At the **build-mode center of all their children**. Meaning that moving a child in build-mode will move the [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). | Children have their **interaction disabled** and cannot be [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) or [physical](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class). | [Projectile collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) happen **on the group**. | 1+ |
-| Empty Object | The **center of the Empty Object** is always the [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). | Children **can be [Interactive Entities](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)**, if the Empty Object’s `Motion` is `None`. | [Projectile collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) happen **on a child**. | 0+ |
+| Type         | [Pivots](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points)                                                                                                                   | [Interactive](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) Children                                                                                                                                             | [Projectile Launcher](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)                            | [Child Count](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Group        | At the **build-mode center of all their children**. Meaning that moving a child in build-mode will move the [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). | Children have their **interaction disabled** and cannot be [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) or [physical](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class). | [Projectile collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) happen **on the group**. | 1+                                                                     |
+| Empty Object | The **center of the Empty Object** is always the [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points).                                                            | Children **can be [Interactive Entities](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)**, if the Empty Object’s `Motion` is `None`.                                                                              | [Projectile collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) happen **on a child**.   | 0+                                                                     |
 
 Empty Objects and Groups **behave identically in regard to [collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions), [triggers](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo), and [raycasts](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)**.
 
 They **behave differently with the [projectile launcher](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)**. When a projectile launch is hit, Horizon checks if it has a [parent](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) and if the parent is a group. If there is a group parent, it uses that as the entity. Otherwise, it uses the original entity it started with. Thus, a group will appear to “bubble up” one level; empty objects do not.
 
-### Coordinate System
+### [Coordinate System](#coordinate-system)
 
 **Axes**. Following standard convention, the editor uses *red* for the *x-axis*, *green* for the *y-axis*, and *blue* for the *z-axis* when displaying “manipulation handles” to move, rotate, or scale an entity.
 
@@ -302,32 +302,27 @@ They **behave differently with the [projectile launcher](Meta%20Horizon%20Worlds
 
 **Left-handed**. The coordinate system is *left-handed*, meaning that if you position the camera so that the positive y-axis is pointing up and the positive x-axis is pointing right then the positive z-axis points forward.
 
-![Diagram showing coordinate system](../../_assets/images/6506d8ddbf98a75b1714dfe90c9f024e15bb8e60b3b4efa1631ee880b5ac4222.png)
+![Diagram showing coordinate system](../../_assets/images/6e49a3b8f49c26aa381a8961bf2349e393077d8971a36096a2c995631a07fa20.png)
 
-#### Local coordinates
+#### [Local coordinates](#local-coordinates)
 
 Every [entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) and every [player and player body part](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) has a set of [local axes](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) called: **right**, **up**, and **forward** which have an origin at the [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points), if an entity, and at the center of the body part if it is a body part (example: player center is the hips; head center is literally the center of the head). Local coordinates are used for moving entities around in the Desktop editor (if enabled) and are used when interacting with [local transforms](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms).
 
-##### Example: Local Coordinates
+##### [Example: Local Coordinates](#example-local-coordinates)
 
 The *forward* axis of *a player head* is always pointing away from their face (parallel to their nose), its *right* axis is always point “outward” their right ear, and its *up* axis is pointing out from the top of the skull. When the entity or player body part moves, the origin of these axes move; likewise the axes rotate along with the entity (so that the *right* axis always points out from the right ear).
 
-![Example of coordinate system](../../_assets/images/81efa4a19bea49c5e80cfea9be6c8d068205169ec263654961ad56e4b3dd3df7.png)
+![Example of coordinate system](../../_assets/images/cca087b3ce2793ed604cd9eec87bbb69287ea3f9bb6c876feaf0ba3b0ac7fdd6.png)
 
 **Meters**. Distances and positions in Horizon are referenced using meters. For example, the position `(0, 1, 0)` is 1 meter (roughly 3.28 feet) up from the center of the world. Avatars in Horizon are approximately 1.8 meter tall (5 feet 11 inches).
 
 **Origin**. The editor has the origin `(0,0,0)` at the center of the grid. The origin cannot be moved.
 
-### Transforms
+### [Transforms](#transforms)
 
 Entities have three transform properties: [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position), [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation), and [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale). You can use the Properties panel or the “manipulation handles” to manipulate these properties. Editing these values determines how entities are transformed when a new instance starts. **Within the Horizon editor you can only configure initial position, rotation, and scale**. If you want these values to change while the world is running, you will need to modify the values using scripting.
 
-In the desktop editor you can switch quickly between transform tools via the keyboard.
-| Manipulation Tool | Keyboard Shortcut |
-|---|---|
-| Move | W |
-| Rotate | E |
-| Scale | R |
+In the desktop editor you can switch quickly between transform tools via the keyboard. | Manipulation Tool | Keyboard Shortcut | |---|---| | Move | W | | Rotate | E | | Scale | R |
 
 Entities can be transformed globally and [locally](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms), they have [pivot points](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points), and can be [transformed relative to other entities or players](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers).
 
@@ -335,32 +330,31 @@ No Arbitrary Matrix Transforms
 
 Horizon does not currently allow matrix transforms. You can achieve some skew effects by rotating an entity inside a non-uniformly scaled one. Arbitrary matrix transforms are not exposed to the developer.
 
-#### Position
+#### [Position](#position)
 
 Positions are specified as 3-dimensional vectors, represented as the `Vec3` type in TypeScript. In the editor these are written as a “triple” such as `(0, 0, 0)`.
 
 The `position` property on an entity determines where in 3D space the [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) of the entity is, in relation to the origin of the world. Often the pivot is just the center of the entity, and so typically the position of an entity is where its center point is.
 
-#### Example: Setting a position
+#### [Example: Setting a position](#example-setting-a-position)
 
 Position is a [read-write property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the `Entity` class. To get the current position of an entity, do:
 
-```
+```typescript
 entity.position.get()
 ```
 
 To move an entity to be 3 meters up from the origin and 4 meters forward, do:
 
+```typescript
+entity.position.set(new Vec3(0, 3, 4))
 ```
-entity.position.set(new Vec3(0, 3, 4))
-```
 
-Setting the `position` property is not influenced by the position of any [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors).
-See [local transforms](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) for setting position relative to a parent entity.
+Setting the `position` property is not influenced by the position of any [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors). See [local transforms](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) for setting position relative to a parent entity.
 
-##### World max bounds
+##### [World max bounds](#world-max-bounds)
 
-Danger: An entity position cannot have a value outside of `[-10,000, 10,000]`
+Danger: An entity position cannot have a value outside of \`\[-10,000, 10,000]\`
 
 When an entity moves (via `position.set` or via physics) to a location where any of its x-, y-, or z-values are outside the range `[-10,000, 10,000]`, then instead, the **entity will be automatically moved to the location it had at world start** (or at spawn-time if it was spawn). If it is a physics entity, then it will also have its velocity cleared out.
 
@@ -370,7 +364,7 @@ bug Entities can be spawned farther than 10,000 away from the origin.
 
 It is a bug that entities can be spawned outside the bounds of the world.
 
-#### Rotation
+#### [Rotation](#rotation)
 
 Rotations are specified using a mathematical object called a `Quaternion`. Whenever you see the word “Quaternion”, you can just think it means “rotation”. This isn’t mathematically true but is sufficient for nearly all uses.
 
@@ -382,34 +376,33 @@ Rotations, Quaternions, Euler Angles, etc are all rather tricky and subtle conce
 
 The `rotation` property on an entity determines how much the entity is rotated around its [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). This rotation is specified *globally*, meaning that it is measured with respect to the world. A zero-rotation will have an entity’s up-axis align with the world’s y-axis, its right-axis align with the world’s x-axis, etc.
 
-##### Example: Setting a rotation
+##### [Example: Setting a rotation](#example-setting-a-rotation)
 
 Rotation is a [read-write property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the `Entity` class. To get the current rotation of an entity, do:
 
-```
+```typescript
 entity.rotation.get()
 ```
 
 To rotate an entity so that it yaws 45 degrees and then rolls 90 degrees, do:
 
-```
-entity.rotation.set(Quaternion.fromEuler(new Vec3(0, 90, 45)))
+```typescript
+entity.rotation.set(Quaternion.fromEuler(new Vec3(0, 90, 45)))
 ```
 
 Default Rotation : Not rotated
 
 If you want an entity to be “not rotated”, set its rotation to be `(0, 0, 0)` in the editor. In TypeScript, you can use any of these lines (they all do the same thing):
 
-```
-entity.rotation.set(Quaternion.fromEuler(new Vec3(0, 0, 0)))
+```typescript
+entity.rotation.set(Quaternion.fromEuler(new Vec3(0, 0, 0)))
 entity.rotation.set(Quaternion.fromEuler(Vec3.zero))
 entity.rotation.set(Quaternion.one)
 ```
 
-Setting the `rotation` property is not influenced by the rotation of any [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors).
-See [local transforms](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) for setting rotation relative to a parent entity.
+Setting the `rotation` property is not influenced by the rotation of any [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors). See [local transforms](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) for setting rotation relative to a parent entity.
 
-#### Scale
+#### [Scale](#scale)
 
 Scales are specified as 3-dimensional vectors, represented as the `Vec3` type in TypeScript. In the editor these are written as a “triple” such as `(0, 0, 0)`.
 
@@ -417,56 +410,55 @@ Scales are specified as 3-dimensional vectors, represented as the `Vec3` type in
 
 The `scale` property determines the fraction an entity should be of its inherent size. For instance, a SubD cube is inherently 1 meter long on each side. If you set its scale to be `(1, 0.5, 2)` then the cube will be 1 meter long on its right-axis, 0.5 meters long on its up-axis, and 2 meters long on its forward-axis. In this example, the object has been “shrunk” along its up-axis, and “expanded” along its forward-axis.
 
-##### Example: Setting a scale
+##### [Example: Setting a scale](#example-setting-a-scale)
 
 Scale is a [read-write property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the `Entity` class. To get the current scale of an entity, do:
 
-```
+```typescript
 entity.scale.get()
 ```
 
 To scale an entity so that it is 3 times bigger on its up axis (than its inherent size), do:
 
-```
-entity.scale.set(new Vec3(1, 3, 1))
+```typescript
+entity.scale.set(new Vec3(1, 3, 1))
 ```
 
 Since the default scale is `(1,1,1)`, you can set any part of a scale to `1` to leave the entity “un-scaled” along that axis.
 
-Setting the `scale` property is not influenced by the rotation of any [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors).
-See [local transforms](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) for setting scale relative to a parent entity.
+Setting the `scale` property is not influenced by the rotation of any [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors). See [local transforms](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) for setting scale relative to a parent entity.
 
 danger: Mesh Primitives Have Unexpected Inherent Sizes
 
 The built-in mesh primitives have an inherent scale of 150 meters on each side (as of Feb 2025). Thus, if you wanted to use a built-in mesh cube and have it be 1 meter long on each side, you would need to give it a scale of (1/150, 1/150, 1/150). This is a longstanding bug.
 
-#### Offsets - Move, Rotate, and Scale
+#### [Offsets - Move, Rotate, and Scale](#offsets---move-rotate-and-scale)
 
 When you want to set the position of an entity in relation to the current position we call this **offsetting** the position. There is no built-in API for doing this (as of Feb 2025) but it can be accomplished easily with the pattern of *get-modify-set*.
 
-##### Example: Offsetting position and scale
+##### [Example: Offsetting position and scale](#example-offsetting-position-and-scale)
 
 To move an entity up 2 meters from its current location you can do:
 
-```
-const offset = new Vec3(0, 2, 0)
+```typescript
+const offset = new Vec3(0, 2, 0)
 
-const pos = entity.position.get()
-const newPos = pos.add(offset)
+const pos = entity.position.get()
+const newPos = pos.add(offset)
 entity.position.set(pos)
 ```
 
 Offsetting scale works similarly.
 
-##### Example: Offsetting rotation
+##### [Example: Offsetting rotation](#example-offsetting-rotation)
 
 To rotate an entity 90 degrees around the world’s y-axis, from its current rotation, you can do:
 
-```
-const offset = Quaternion.fromEuler(new Vec3(0, 90, 0))
+```typescript
+const offset = Quaternion.fromEuler(new Vec3(0, 90, 0))
 
-const rot = entity.rotation.get()
-const newRot = offset.mul(rot)
+const rot = entity.rotation.get()
+const newRot = offset.mul(rot)
 entity.rotation.set(newRot)
 ```
 
@@ -474,43 +466,43 @@ Note that `mul()` is used to combine rotations.
 
 If instead you wanted to rotate an entity 90 degrees around its own up-axis you would do:
 
-```
-const offset = Quaternion.fromEuler(new Vec3(0, 90, 0))
+```typescript
+const offset = Quaternion.fromEuler(new Vec3(0, 90, 0))
 
-const rot = entity.rotation.get()
-const newRot = rot.mul(offset)
+const rot = entity.rotation.get()
+const newRot = rot.mul(offset)
 entity.rotation.set(newRot)
 ```
 
 where the order of the Quaternion multiplication has been flipped. See [Quaternions](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) for more explanation.
 
-#### Transform Property
+#### [Transform Property](#transform-property)
 
 Each entity has a transform property that can be accessed via `entity.transform`.
 
-```
-class Entity {
-  readonly transform: Transform
-  // ...
+```typescript
+class Entity {
+  readonly transform: Transform
+  // ...
 }
 ```
 
 Position, rotation, and scale can all be accessed through a `Transform`. The following two lines behave identically.
 
-```
+```typescript
 entity.position.set(p)
 entity.transform.position.set(p)
 ```
 
 Additionally, the `Transform` object can be used to access **local** position, rotation, and scale. See the next section for more information.
 
-#### Local Transforms
+#### [Local Transforms](#local-transforms)
 
 Entities have a `localPosition`, `localRotation`, and `localScale` that can be accessed via the transforms (e.g. `entity.transform.localPosition.get()`). These properties specify values in relation to a parent entity (or to the world if there is no parent), specified in the parent’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-coordinates).
 
 Throughout this doc, other than this section, we omit the word *global*. When you see “position”, it means “global position”.
 
-##### Example: Local Position
+##### [Example: Local Position](#example-local-position)
 
 Let `parent` be an entity that has not been rotated nor scaled with `child` as one of its children.
 
@@ -524,86 +516,82 @@ An entity’s global position/rotation/scale influences the global position/rota
 
 Local values exist in the transformed local coordinate system of the parent.
 
-Local values exist in the transformed [local coordinate system](Meta%20Horizon%20Worlds%20creator%20manual.md#local-coordinates) of the parent.
-Rotating and/or scaling an entity causing it axes to rotate and scaled as well. We call these the *transformed axes*.
+Local values exist in the transformed [local coordinate system](Meta%20Horizon%20Worlds%20creator%20manual.md#local-coordinates) of the parent. Rotating and/or scaling an entity causing it axes to rotate and scaled as well. We call these the *transformed axes*.
 
 A child with local position of `(0, 6, 0)` is moved 6 units **from the global position** of its parent **along the parent’s transformed up-axis**. If there is no parent then this is just 6 meters up the world’s y-axis.
 
-#### Pivot Points
+#### [Pivot Points](#pivot-points)
 
 The transformation origin point of an entity is called its **pivot point**. It rotates around its pivot point, it scales around its pivot point, and when you move an entity its pivot point end ups at the position specified.
 
-- **Mesh entities** have their pivot points specified when they are authored (e.g. in Blender)
-- **Empty objects** have their pivot points at the center of the gizmo (the grey cube)
-- **Group entities** compute their pivot point to be at the center of their “bounding box” **in edit mode**. For example if you move a child in a group in edit mode then when click off the group it will recompute its pivot point to be at the center of all of its children. *This only happens in edit mode. The pivot of a group doesn’t auto-change when the world is running (even if its children move around).*
-- **All other entities** (e.g. door, text gizmo, box collider gizmo, etc) have a built-in pivot point (usually at their center).
+1. **Mesh entities** have their pivot points specified when they are authored (e.g. in Blender)
+2. **Empty objects** have their pivot points at the center of the gizmo (the grey cube)
+3. **Group entities** compute their pivot point to be at the center of their “bounding box” **in edit mode**. For example if you move a child in a group in edit mode then when click off the group it will recompute its pivot point to be at the center of all of its children. *This only happens in edit mode. The pivot of a group doesn’t auto-change when the world is running (even if its children move around).*
+4. **All other entities** (e.g. door, text gizmo, box collider gizmo, etc) have a built-in pivot point (usually at their center).
 
 In the desktop editor the manipulator handles don't always render at the pivot points!
 
 The desktop editor lets you choose to put the “manipulator handles” at either the `Center` or `Pivot` of entities. Check that dropdown if you aren’t seeing the pivots as you expect. This dropdown has no effect on how the world *runs* and is simply there to help with *editing*.
 
-#### Transform Helpers
+#### [Transform Helpers](#transform-helpers)
 
 The [Entity class](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class) has a few methods to help with moving and rotating entities. Note that these methods are “just math”; they update the entity’s [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position) and [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation).
 
-* **Look At**: Rotate the entity to point its [forward axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) in the direction of the target
-
+- **Look At**: Rotate the entity to point its [forward axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) in the direction of the target
+  ```typescript
+    // Entity
+    lookAt(target: Vec3, up?: Vec3): void;
   ```
-    // Entity
-    lookAt(target: Vec3, up?: Vec3): void;
-  ```
-* **Move Relative To**: Move the `entity` so that its `position` to (*relative to* the `target` or `player`’s `bodyPart`) is `relativePosition` when measured in the `space`[coordinate system](Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system).
+- **Move Relative To**: Move the `entity` so that its `position` to (*relative to* the `target` or `player`’s `bodyPart`) is `relativePosition` when measured in the `space`[coordinate system](Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system).
+  ```typescript
+    // Entity
+    moveRelativeTo(
+      target: Entity,
+      relativePosition: Vec3,
+      space?: Space
+    ): void;
 
+    // Entity
+    moveRelativeToPlayer(
+      player: Player,
+      bodyPart: PlayerBodyPartType,
+      relativePosition: Vec3,
+      space?: Space
+    ): void;
   ```
-    // Entity
-    moveRelativeTo(
-      target: Entity,
-      relativePosition: Vec3,
-      space?: Space
-    ): void;
+- **Rotate Relative To**: Rotate the `entity` so that its `rotation` to (*relative to* the `target` or `player`’s `bodyPart`) is `relativeRotation` when measured in the `space`[coordinate system](Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system).
+  ```typescript
+    // Entity
+    rotateRelativeTo(
+      target: Entity,
+      relativeRotation: Quaternion,
+      space?: Space
+    ): void;
 
-    // Entity
-    moveRelativeToPlayer(
-      player: Player,
-      bodyPart: PlayerBodyPartType,
-      relativePosition: Vec3,
-      space?: Space
-    ): void;
-  ```
-* **Rotate Relative To**: Rotate the `entity` so that its `rotation` to (*relative to* the `target` or `player`’s `bodyPart`) is `relativeRotation` when measured in the `space`[coordinate system](Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system).
-
-  ```
-    // Entity
-    rotateRelativeTo(
-      target: Entity,
-      relativeRotation: Quaternion,
-      space?: Space
-    ): void;
-
-    // Entity
-    rotateRelativeToPlayer(
-      player: Player,
-      bodyPart: PlayerBodyPartType,
-      relativeRotation: Quaternion,
-      space?: Space
-    ): void;
+    // Entity
+    rotateRelativeToPlayer(
+      player: Player,
+      bodyPart: PlayerBodyPartType,
+      relativeRotation: Quaternion,
+      space?: Space
+    ): void;
   ```
 
-#### Billboarding
+#### [Billboarding](#billboarding)
 
 An entity is a “billboard” when it automatically rotates to face the player. This uses *per-player rotation* so that each player can see the entity facing toward them.
 
 [Empty objects and groups](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) have a property (in the Properties panel) called **Billboard** with 3 options:
 
-| Billboard Setting |  |
-| --- | --- |
-| None | No automatic rotation |
-| Lock-Y | Auto-rotate *per-player* around the y-axis so that the entity always points its [local forward axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) in the direction of the player (but locked to the *xz*-plane). Its local up axis will always point straight up in the world. |
-| Freeform | Auto-rotate *per-player* around any axis to face the player as best as possible. The entity’s [local forward axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) will point exactly in the direction of the player. |
+| Billboard Setting |                                                                                                                                                                                                                                                                                                   |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| None              | No automatic rotation                                                                                                                                                                                                                                                                             |
+| Lock-Y            | Auto-rotate *per-player* around the y-axis so that the entity always points its [local forward axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) in the direction of the player (but locked to the *xz*-plane). Its local up axis will always point straight up in the world. |
+| Freeform          | Auto-rotate *per-player* around any axis to face the player as best as possible. The entity’s [local forward axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) will point exactly in the direction of the player.                                                             |
 
 **Billboard User Interfaces (UIs)**: [Leaderboard gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#using-the-world-leaderboard-gizmo) contain a setting called “UI Anchor Style” which can be set to “Static” or “Billboard”. When set to “Billboard” it acts just like a group with the billboard property set to “Freeform”. All other UIs ([Custom UI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui), [Debug Console Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#debug-console-gizmo), [Quests Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#quests-gizmo), etc) can be made into a billboard by putting them in a [group](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) or as the child of an [empty object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) and then using the billboard option there.
 
-## Entities
+## [Entities](#entities)
 
 Every “thing” in the Horizon scene is an *entity* (a grabbable item, a mesh, a light, a particle effect, a sound, a group of other entities, etc).
 
@@ -615,44 +603,44 @@ In TypeScript `Object` is a built-in for managing data, whereas `Entity` is a Ho
 
 Entities are represented by the [Entity class](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class). They have an [intrinsic type](Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) (such as being a [particle effect](Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)) and may have (multiple) [behavior types](Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) (such as being [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)). Entities have a number of [properties](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-properties) and methods for managing [visibility](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility). Entities can be [transferred to run on player devices](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to improve “smoothness”, can be impacted by [physics](Meta%20Horizon%20Worlds%20creator%20manual.md#physics) via forces, be made [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities), be made [attachable](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities), and so much more.
 
-### Entity Class
+### [Entity Class](#entity-class)
 
-| `Entity` Class Member | Description |
-| --- | --- |
-| **Scene Graph** |  |
-| [children](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) | All entities that are children of this one (in the Hierarchy panel) |
-| [getComponents](Meta%20Horizon%20Worlds%20creator%20manual.md#converting-between-components-and-entities) | All components attached to this entity |
-| id | A unique id in this [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) |
-| name | The name in the Properties panel |
-| [parent](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) | The parent (if any) in the Hierarchy panel |
-| **Interaction** |  |
-| [as](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) | Convert the entity to an [intrinsic](Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) or [behavior](Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) entity type |
-| [collidable](Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) | Control collidability |
-| color | Set the color of the mesh (only works for [SubD](Meta%20Horizon%20Worlds%20creator%20manual.md#subd-vs-custom-models)) |
-| [exists](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) | Check if the entity exists (either from despawn or a Codeblock script passing an uninitialized reference) |
-| [interactionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) | Control the type of interactivity |
-| [owner](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) | The player whose [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) has [authority](Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation) of the entity (defaults to the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player)) |
-| [simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) | If the entity updated in the [simulation phase](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) of each frame |
-| [tags](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) | The list of [tags](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) on the entity |
-| **Transforms** |  |
-| [forward](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | The local forward vector |
-| [lookAt](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Rotate to look at a point |
-| [moveRelativeTo](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Move in another entity’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
-| [moveRelativeToPlayer](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Move in a player’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
-| [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position) | The entity’s global position |
-| [right](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | The local right vector |
-| [rotateRelativeTo](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Rotate in another entity’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
-| [rotateRelativeToPlayer](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers) | Rotate in a player’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
-| [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) | The entity’s global rotation |
-| [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale) | The entity’s global scale |
-| [transform](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms) | The entity’s transform object |
-| [up](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | The local up vector |
-| **Visibility** |  |
-| [isVisibleToPlayer](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility) | Does a player have *[permission](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility-permissions)* to see the entity? |
-| [setVisibilityForPlayers](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility) | Set the *[permission](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility-permissions)* for a player to see the entity |
-| [visible](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility) | Is the entity visible (which may be [overridden by its parent or by permissions](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility)) |
+| `Entity` Class Member                                                                                     | Description                                                                                                                                                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Scene Graph**                                                                                           |                                                                                                                                                                                                                                                                                                                  |
+| [children](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy)                                       | All entities that are children of this one (in the Hierarchy panel)                                                                                                                                                                                                                                              |
+| [getComponents](Meta%20Horizon%20Worlds%20creator%20manual.md#converting-between-components-and-entities) | All components attached to this entity                                                                                                                                                                                                                                                                           |
+| id                                                                                                        | A unique id in this [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances)                                                                                                                                                                                                                          |
+| name                                                                                                      | The name in the Properties panel                                                                                                                                                                                                                                                                                 |
+| [parent](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy)                                         | The parent (if any) in the Hierarchy panel                                                                                                                                                                                                                                                                       |
+| **Interaction**                                                                                           |                                                                                                                                                                                                                                                                                                                  |
+| [as](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method)                                      | Convert the entity to an [intrinsic](Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) or [behavior](Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) entity type                                                                                                        |
+| [collidable](Meta%20Horizon%20Worlds%20creator%20manual.md#colliders)                                     | Control collidability                                                                                                                                                                                                                                                                                            |
+| color                                                                                                     | Set the color of the mesh (only works for [SubD](Meta%20Horizon%20Worlds%20creator%20manual.md#subd-vs-custom-models))                                                                                                                                                                                           |
+| [exists](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning)                                        | Check if the entity exists (either from despawn or a Codeblock script passing an uninitialized reference)                                                                                                                                                                                                        |
+| [interactionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)                     | Control the type of interactivity                                                                                                                                                                                                                                                                                |
+| [owner](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership)                                   | The player whose [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) has [authority](Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation) of the entity (defaults to the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player)) |
+| [simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated)                                      | If the entity updated in the [simulation phase](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) of each frame                                                                                                                                                                                    |
+| [tags](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags)                                         | The list of [tags](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) on the entity                                                                                                                                                                                                                      |
+| **Transforms**                                                                                            |                                                                                                                                                                                                                                                                                                                  |
+| [forward](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                 | The local forward vector                                                                                                                                                                                                                                                                                         |
+| [lookAt](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers)                                 | Rotate to look at a point                                                                                                                                                                                                                                                                                        |
+| [moveRelativeTo](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers)                         | Move in another entity’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                                                                                                                                                                                     |
+| [moveRelativeToPlayer](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers)                   | Move in a player’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                                                                                                                                                                                           |
+| [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position)                                        | The entity’s global position                                                                                                                                                                                                                                                                                     |
+| [right](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                   | The local right vector                                                                                                                                                                                                                                                                                           |
+| [rotateRelativeTo](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers)                       | Rotate in another entity’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                                                                                                                                                                                   |
+| [rotateRelativeToPlayer](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers)                 | Rotate in a player’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                                                                                                                                                                                         |
+| [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation)                                        | The entity’s global rotation                                                                                                                                                                                                                                                                                     |
+| [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale)                                              | The entity’s global scale                                                                                                                                                                                                                                                                                        |
+| [transform](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms)                                     | The entity’s transform object                                                                                                                                                                                                                                                                                    |
+| [up](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                      | The local up vector                                                                                                                                                                                                                                                                                              |
+| **Visibility**                                                                                            |                                                                                                                                                                                                                                                                                                                  |
+| [isVisibleToPlayer](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility)                      | Does a player have *[permission](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility-permissions)* to see the entity?                                                                                                                                                                                |
+| [setVisibilityForPlayers](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility)                | Set the *[permission](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility-permissions)* for a player to see the entity                                                                                                                                                                               |
+| [visible](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility)                                | Is the entity visible (which may be [overridden by its parent or by permissions](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility))                                                                                                                                                               |
 
-### Entity Types
+### [Entity Types](#entity-types)
 
 Every entity in Horizon has an underlying **[intrinsic type](Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types)** determined by how the entity was originally created (e.g. whether you instantiated a [Sound Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo), [Text Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo), [3D Model](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), etc).
 
@@ -660,7 +648,7 @@ Additionally, an entity can have (multiple) **[behavior types](Meta%20Horizon%20
 
 For example, a *hat mesh that is grabbable and attachable* has a intrinsic type of [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) and two behavior types: [GrabbableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and [AttachableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities).
 
-#### Static vs Dynamic Entities
+#### [Static vs Dynamic Entities](#static-vs-dynamic-entities)
 
 All entities in Horizon are either **static** or **dynamic**.
 
@@ -668,14 +656,14 @@ All entities in Horizon are either **static** or **dynamic**.
 
 **Dynamic entity**: A dynamic entity is one that changes. It may move and rotate, have its color changed, have forces applied, be grabbed, be attached to an avatar, etc. A dynamic entity has [simpler lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting) than static entities. Dynamic entities *can* have [behaviors](Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types). An entity **is dynamic when `Motion` is set to `Animated` or `Interactive` in the Properties panel**
 
-* When `Motion` is set to `Animated` you can [record a “hand animation”](Meta%20Horizon%20Worlds%20creator%20manual.md#animated-entities) on the entity.
-* When `Motion` is set to `Interactive` you can make the entity [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities), [physics-simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class), or both.
+- When `Motion` is set to `Animated` you can [record a “hand animation”](Meta%20Horizon%20Worlds%20creator%20manual.md#animated-entities) on the entity.
+- When `Motion` is set to `Interactive` you can make the entity [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities), [physics-simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class), or both.
 
 Parents don't affect static vs dynamic.
 
 A static entity can have a dynamic parent and vice versa.
 
-#### Intrinsic Entity Types
+#### [Intrinsic Entity Types](#intrinsic-entity-types)
 
 The table below lists all intrinsic types, which are subclasses of `Entity`. Note that some intrinsic types don’t have an associated subclass and thus are accessed simply as `Entity` instances. Every entity only has **one intrinsic type** which can be accessed via the [entity.as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) method.
 
@@ -683,84 +671,84 @@ The intrinsic type classes (in the table below) all subclass `Entity`. All the [
 
 [Intrinsic entity types](Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) are organized in the desktop editor into a few top-level categories:
 
-* **Shapes**: built-in mesh “primitive” shapes (such as cube, sphere, torus, cylinder, etc) all of which instantiate [Mesh Entities](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class).
-* **Gizmos**: entities that have in-world behavior (such as for spawning a player at a location, showing UI, rendering a particle effect, launching a projectile, and so much more). These are all listed in the [table below](Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) and enumerated in full detail [below](Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types).
-* **Colliders**: mesh-less entities that still have [a “shape” that can be collided with](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) (such as sphere, cube, and capsule). Its type is just `Entity`.
-* **Sounds**: a large library of pre-made sound effects; you can also create more using the AI sound feature. These all instantiate [sounds gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) (which have the type `AudioGizmo`).
-* **Empty Object**: a special [“collection” entity](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups). Its TypeScript type is just `Entity`.
-* **Group**: another special [“collection” entity](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups). Its TypeScript type is just `Entity`.
-* **Sublevel**: an abstract entity containing information for spawning in [portions of levels](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels).
+- **Shapes**: built-in mesh “primitive” shapes (such as cube, sphere, torus, cylinder, etc) all of which instantiate [Mesh Entities](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class).
+- **Gizmos**: entities that have in-world behavior (such as for spawning a player at a location, showing UI, rendering a particle effect, launching a projectile, and so much more). These are all listed in the [table below](Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) and enumerated in full detail [below](Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types).
+- **Colliders**: mesh-less entities that still have [a “shape” that can be collided with](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) (such as sphere, cube, and capsule). Its type is just `Entity`.
+- **Sounds**: a large library of pre-made sound effects; you can also create more using the AI sound feature. These all instantiate [sounds gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) (which have the type `AudioGizmo`).
+- **Empty Object**: a special [“collection” entity](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups). Its TypeScript type is just `Entity`.
+- **Group**: another special [“collection” entity](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups). Its TypeScript type is just `Entity`.
+- **Sublevel**: an abstract entity containing information for spawning in [portions of levels](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels).
 
 There is a [full list of all intrinsic entity types and their documentation](Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types) below.
 
-#### Behavior Entity Types
+#### [Behavior Entity Types](#behavior-entity-types)
 
 A [dynamic entity](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities) can have **multiple behavior types** which can be accessed via the [entity.as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) method.
 
 The behavior type classes (in the table below) all subclass `Entity`. All the [entity properties](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-properties) are available on all of them.
 
-| Behavior Type | Description | TypeScript Class | How to Enable |
-| --- | --- | --- | --- |
-| [Animated (Recording)](Meta%20Horizon%20Worlds%20creator%20manual.md#animated-entities) | An entity that has a recording on it. | `AnimatedEntity` | Set `Motion` to `Animated`. Use the `Record` button in the Properties panel. |
-| [Attachable](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) | An entity that can be attached to a [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players). | `AttachableEntity` | Set `Motion` to `Animated` or `Interactive`. Set `Avatar Attachable` to `Sticky` or `Anchor` in the Properties panel. |
-| [Grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) | An entity that can be grabbed and held. | `GrabbableEntity` | Set `Motion` to `Interactive`. Set `Interaction` to `Grabbable` or `Both`. Interaction can also be changed with `entity.interactionMode.set(...)`. |
-| [Physics-Simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) | An entity that can respond to [forces and torques](Meta%20Horizon%20Worlds%20creator%20manual.md#physics). | `PhysicalEntity` | Set `Motion` to `Interactive`. Set `Interaction` to `Physics` or `Both`. Interaction can also be changed with `entity.interactionMode.set(...)` |
-| [Navigation Mesh Agent](Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-agent) | An entity that can do its own locomotion using a [navigation mesh profile](Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-profile) | `NavMeshAgent` | In the `Navigation Locomotion` property sub-panel, set `Enabled` to `true`. |
+| Behavior Type                                                                                | Description                                                                                                                                       | TypeScript Class   | How to Enable                                                                                                                                      |
+| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Animated (Recording)](Meta%20Horizon%20Worlds%20creator%20manual.md#animated-entities)      | An entity that has a recording on it.                                                                                                             | `AnimatedEntity`   | Set `Motion` to `Animated`. Use the `Record` button in the Properties panel.                                                                       |
+| [Attachable](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)               | An entity that can be attached to a [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players).                                              | `AttachableEntity` | Set `Motion` to `Animated` or `Interactive`. Set `Avatar Attachable` to `Sticky` or `Anchor` in the Properties panel.                              |
+| [Grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)     | An entity that can be grabbed and held.                                                                                                           | `GrabbableEntity`  | Set `Motion` to `Interactive`. Set `Interaction` to `Grabbable` or `Both`. Interaction can also be changed with `entity.interactionMode.set(...)`. |
+| [Physics-Simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)      | An entity that can respond to [forces and torques](Meta%20Horizon%20Worlds%20creator%20manual.md#physics).                                        | `PhysicalEntity`   | Set `Motion` to `Interactive`. Set `Interaction` to `Physics` or `Both`. Interaction can also be changed with `entity.interactionMode.set(...)`    |
+| [Navigation Mesh Agent](Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-agent) | An entity that can do its own locomotion using a [navigation mesh profile](Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-profile) | `NavMeshAgent`     | In the `Navigation Locomotion` property sub-panel, set `Enabled` to `true`.                                                                        |
 
-#### Entity as() method
+#### [Entity as() method](#entity-as-method)
 
 You can convert an [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class) instance into its [intrinsic](Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) or [behavior](Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) types using the entity `as()` method.
 
 For example:
 
-```
-const particleEffect: ParticleGizmo = entity.as(ParticleGizmo)
+```typescript
+const particleEffect: ParticleGizmo = entity.as(ParticleGizmo)
 ```
 
 Once you call `as()` on an entity, you can store that “casted” entity (in a `let`, `const`, or `class` member) and you don’t need to call `as()` on it again.
 
 Note that `as()` returns the same entity back, preserving equality. Thus after the line above, `particleEffect === entity` would evaluate to `true`.
 
-Danger: The Entity `as()` method always succeeds! Do not cast to the wrong type!
+Danger: The Entity \`as()\` method always succeeds! Do not cast to the wrong type!
 
 The `as()` method will always return an instance of the requested type. This means that you can convert a text gizmo entity into an `AudioGizmo` without error or warning. However if you then attempt to use it as an `AudioGizmo` you will get errors, warnings, and other unexpected behavior. Don’t cast entities, with `as()` to classes they are not. **This is a brittle part of Horizon’s TypeScript API that has no workaround.**
 
-danger Do not use TypeScript's built-in `as` operator on an `Entity`.
+danger Do not use TypeScript's built-in \`as\` operator on an \`Entity\`.
 
 The `as()` method on `Entity` actually does work at runtime; it is not just a type-cast. That means the following two lines are **not the same**:
 
-```
-✅ const sound = entity.as(AudioGizmo)
-❌ const sound = entity as AudioGizmo
+```typescript
+✅ const sound = entity.as(AudioGizmo)
+❌ const sound = entity as AudioGizmo
 ```
 
-#### Animated Entities
+#### [Animated Entities](#animated-entities)
 
 An **`AnimatedEntity`** is an entity whose **Motion** is set to **Animated** and has a “hand-recorded animation” (created with the “Record” button) which can be played, paused, and stopped.
 
 Animated Entity has these properties in the Properties panel:
 
-* **Animation [Play/Stop/Record]** - Animations can be recorded without scripting. To record an animation in the desktop editor or in VR, set **Motion** to **Animated**, press **“Record”**, adjust the entity’s position, rotation, and/or scale, and then press **“Stop”**. Press **“Play”** to preview the recorded animation.
-* **Play on Start** - To play/stop an animation on the first frame on world start, enable/disable **Play on Start**.
-* **Loop** - Controls whether an animation loops again (forever) after it finishes playing.
-  + **Never** - After an animation finishes playing, do nothing.
-  + **Continuously** - After an animation finishes playing, replay the animation again from the first frame.
-  + **Back and Forth** - After an animation finishes playing, replay the animation in the opposite direction, starting from the current frame. When that animation finishes, play it again in the forward direction. Repeat alternating forward and backward playback.
-* **Speed** - Playback speed of the animation. Defaults to 1. A 0.5 speed would take twice as long to play back.
+- **Animation \[Play/Stop/Record]** - Animations can be recorded without scripting. To record an animation in the desktop editor or in VR, set **Motion** to **Animated**, press **“Record”**, adjust the entity’s position, rotation, and/or scale, and then press **“Stop”**. Press **“Play”** to preview the recorded animation.
+- **Play on Start** - To play/stop an animation on the first frame on world start, enable/disable **Play on Start**.
+- **Loop** - Controls whether an animation loops again (forever) after it finishes playing.
+  - **Never** - After an animation finishes playing, do nothing.
+  - **Continuously** - After an animation finishes playing, replay the animation again from the first frame.
+  - **Back and Forth** - After an animation finishes playing, replay the animation in the opposite direction, starting from the current frame. When that animation finishes, play it again in the forward direction. Repeat alternating forward and backward playback.
+- **Speed** - Playback speed of the animation. Defaults to 1. A 0.5 speed would take twice as long to play back.
 
 Use the `AnimatedEntity` class to control recorded animations.
 
-| **Method** | **Description** |
-| --- | --- |
-| **`play()`** | Play the animation from the current frame, or from the beginning if the animation last completed. |
-| **`pause()`** | Pause the animation at the current frame. Playing again will resume, starting at this frame. |
-| **`stop()`** | Reset the animation to the first frame, restoring the entity’s position/rotation/scale to its initial state. |
+| **Method**    | **Description**                                                                                              |
+| ------------- | ------------------------------------------------------------------------------------------------------------ |
+| **`play()`**  | Play the animation from the current frame, or from the beginning if the animation last completed.            |
+| **`pause()`** | Pause the animation at the current frame. Playing again will resume, starting at this frame.                 |
+| **`stop()`**  | Reset the animation to the first frame, restoring the entity’s position/rotation/scale to its initial state. |
 
-bug `AnimatedEntity` is not yet 'active' in `preStart()` and `start()`.
+bug \`AnimatedEntity\` is not yet 'active' in \`preStart()\` and \`start()\`.
 
 Calling `play()` in `preStart()` or `start()` doesn’t always work. If you always want to play at start, use the **Play on Start** setting. If you want to do it conditionally, then use a small timeout to delay it.
 
-You cannot directly transform an `AnimatedEntity` with a recorded animation.
+You cannot directly transform an \`AnimatedEntity\` with a recorded animation.
 
 An animated entity ignores any calls to `set()` its position, rotation, or scale.
 
@@ -776,34 +764,34 @@ Nested animations can be triggered all at once
 
 If an `AnimatedEntity` is a group that has the “Animate Group” property enabled, when `play()`, `pause()`, or `stop()` is called on the group, all descendants of that group that are `AnimatedEntity`s will also have the corresponding play/pause/stop method called on them, even if they are not immediate children.
 
-#### Interactive Entities
+#### [Interactive Entities](#interactive-entities)
 
 When a [dynamic entity](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities)’s `Motion` is set to `Interactive` in the Properties panel it can be used for [grabbing](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities), [physics](Meta%20Horizon%20Worlds%20creator%20manual.md#physics), or both. We call these **interactive entities**.
 
 An interactive entity’s [behavior types](Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) can be changed at runtime
 
-```
+```typescript
 entity.interactionMode.set(EntityInteractionMode.Grabbable)
 ```
 
 with any of the following options:
 
-| Value | Behavior |
-| --- | --- |
-| `EntityInteractionMode.Grabbable` | The entity is a [GrabbableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) |
-| `EntityInteractionMode.Physics` | The entity is a [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) |
-| `EntityInteractionMode.Both` | The entity is both a [GrabbableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and a [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) |
+| Value                             | Behavior                                                                                                                                                                                                       |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `EntityInteractionMode.Grabbable` | The entity is a [GrabbableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)                                                                                                 |
+| `EntityInteractionMode.Physics`   | The entity is a [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)                                                                                                           |
+| `EntityInteractionMode.Both`      | The entity is both a [GrabbableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and a [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) |
 
 When checking for an entity’s interactive [behavior types](Meta%20Horizon%20Worlds%20creator%20manual.md#behavior-entity-types) at runtime
 
-```
-const mode = entity.interactionMode.get()
+```typescript
+const mode = entity.interactionMode.get()
 ```
 
 you will get one of the above values, unless the entity is not interactive (meaning that its *Motion* is set to *None* or *Animated*), in which you will instead get the following value:
 
-| Value | Behavior |
-| --- | --- |
+| Value                           | Behavior                                                                           |
+| ------------------------------- | ---------------------------------------------------------------------------------- |
 | `EntityInteractionMode.Invalid` | The entity is not interactive and has neither grabbable nor physics behavior types |
 
 You cannot `set` the `interactionMode` to the `Invalid` value. **To temporarily disable interaction set [simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) to `false`** (and the entity will behave as if [“Motion”](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) is set to “None”).
@@ -818,62 +806,62 @@ If any of its ancestors are a [Group Entity](Meta%20Horizon%20Worlds%20creator%2
 
 If there are any ancestors other than Mesh Entities, Empty Objects, and Group Entities then it is undefined whether or not interaction is disabled.
 
-### Entity Properties
+### [Entity Properties](#entity-properties)
 
 All `Entity` instances have the class properties in the table below. Additionally, entities have methods for managing [visibility](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility), [transforming relative to an entity or player](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers), and checking if an entity [exists](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-exists).
 
-| `Entity` Class Member | Type | Description |
-| --- | --- | --- |
-| **[Scene Graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph)** |  |  |
-| id | `bigint` | A unique value representing this entity in this instance. `id`s are not reused (within an instance). |
-| name | `ReadableHorizonProperty` `<string>` | The name the Entity has in Properties panel. |
-| [parent](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) | `ReadableHorizonProperty` `<Entity \| null>` | The entity’s parent (if there is one). |
-| [children](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy) | `ReadableHorizonProperty` `<Entity[]>` | The entity’s children. |
-| [tags](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) | `HorizonSetProperty` `<string>` | The array of tags on the entity. |
-| **[Transform](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms)** |  |  |
-| [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position) | `HorizonProperty` `<Vec3>` | The entity’s *global* position. |
-| [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) | `HorizonProperty` `<Quaternion>` | The entity’s *global* rotation. |
-| [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale) | `HorizonProperty` `<Vec3>` | The entity’s *global* scale. |
-| [transform](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-property) | `Transform` | The entity’s transform instance (containing properties for [local](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) and global values). |
-| **[Local Coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)** |  |  |
-| forward | `ReadableHorizonProperty` `<Vec3>` | The entity’s [local positive z-axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms). |
-| up | `ReadableHorizonProperty` `<Vec3>` | The entity’s [local positive y-axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms). |
-| right | `ReadableHorizonProperty` `<Vec3>` | The entity’s [local positive x-axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms). |
-| **Rendering** |  |  |
-| color | `HorizonProperty` `<Color>` | The color the entity renders as. This is *only supported with the [SubD rendering](Meta%20Horizon%20Worlds%20creator%20manual.md#subd-vs-custom-models) system*. To change the color of a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) use [tinting](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style). |
-| visible | `HorizonProperty` `<boolean>` | The top-level control for visibility. Read the [rules for when an entity is visible](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility). |
-| **[Behavior](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)** |  |  |
-| [collidable](Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) | `HorizonProperty` `<boolean>` | If the entity has its [collider active](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders). This impacts [grabbability](Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab), physics [collision](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions), [trigger detection](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions), if a play can stand on an entity (or is blocked by it), etc. |
-| [interactionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) | `HorizonProperty` `<EntityInteractionMode>` | The kind of [interactive entity](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) the entity is. This only works when `Motion` is set to `Interactive`. |
-| [simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) | `HorizonProperty` `<boolean>` | Whether the entity is impacted by [physics](Meta%20Horizon%20Worlds%20creator%20manual.md#physics) (if its position and rotation are updated in the [physics calculations](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) of the frame). |
-| **Ownership** |  |  |
-| [owner](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) | `HorizonProperty` `<Player>` | The [owner](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) of the entity. Changing this property executes an [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer). |
+| `Entity` Class Member                                                                   | Type                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Scene Graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph)**            |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| id                                                                                      | `bigint`                                      | A unique value representing this entity in this instance. `id`s are not reused (within an instance).                                                                                                                                                                                                                                                                                                                             |
+| name                                                                                    | `ReadableHorizonProperty` `<string>`          | The name the Entity has in Properties panel.                                                                                                                                                                                                                                                                                                                                                                                     |
+| [parent](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy)                       | `ReadableHorizonProperty` `<Entity \\| null>` | The entity’s parent (if there is one).                                                                                                                                                                                                                                                                                                                                                                                           |
+| [children](Meta%20Horizon%20Worlds%20creator%20manual.md#hierarchy)                     | `ReadableHorizonProperty` `<Entity[]>`        | The entity’s children.                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [tags](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags)                       | `HorizonSetProperty` `<string>`               | The array of tags on the entity.                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **[Transform](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms)**               |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position)                      | `HorizonProperty` `<Vec3>`                    | The entity’s *global* position.                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation)                      | `HorizonProperty` `<Quaternion>`              | The entity’s *global* rotation.                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale)                            | `HorizonProperty` `<Vec3>`                    | The entity’s *global* scale.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [transform](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-property)           | `Transform`                                   | The entity’s transform instance (containing properties for [local](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) and global values).                                                                                                                                                                                                                                                                           |
+| **[Local Coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)** |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| forward                                                                                 | `ReadableHorizonProperty` `<Vec3>`            | The entity’s [local positive z-axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms).                                                                                                                                                                                                                                                                                                                            |
+| up                                                                                      | `ReadableHorizonProperty` `<Vec3>`            | The entity’s [local positive y-axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms).                                                                                                                                                                                                                                                                                                                            |
+| right                                                                                   | `ReadableHorizonProperty` `<Vec3>`            | The entity’s [local positive x-axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms).                                                                                                                                                                                                                                                                                                                            |
+| **Rendering**                                                                           |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| color                                                                                   | `HorizonProperty` `<Color>`                   | The color the entity renders as. This is *only supported with the [SubD rendering](Meta%20Horizon%20Worlds%20creator%20manual.md#subd-vs-custom-models) system*. To change the color of a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) use [tinting](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style).                                                                            |
+| visible                                                                                 | `HorizonProperty` `<boolean>`                 | The top-level control for visibility. Read the [rules for when an entity is visible](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility).                                                                                                                                                                                                                                                                           |
+| **[Behavior](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)**      |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [collidable](Meta%20Horizon%20Worlds%20creator%20manual.md#colliders)                   | `HorizonProperty` `<boolean>`                 | If the entity has its [collider active](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders). This impacts [grabbability](Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab), physics [collision](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions), [trigger detection](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions), if a play can stand on an entity (or is blocked by it), etc. |
+| [interactionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)   | `HorizonProperty` `<EntityInteractionMode>`   | The kind of [interactive entity](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) the entity is. This only works when `Motion` is set to `Interactive`.                                                                                                                                                                                                                                                       |
+| [simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated)                    | `HorizonProperty` `<boolean>`                 | Whether the entity is impacted by [physics](Meta%20Horizon%20Worlds%20creator%20manual.md#physics) (if its position and rotation are updated in the [physics calculations](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) of the frame).                                                                                                                                                                        |
+| **Ownership**                                                                           |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [owner](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership)                 | `HorizonProperty` `<Player>`                  | The [owner](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) of the entity. Changing this property executes an [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer).                                                                                                                                                                                                            |
 
-#### entity exists
+#### [entity exists](#entity-exists)
 
 **`exists()` method**: When an entity is [depawned](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) its `Entity` instances will then have `exists()` return `false`. Additionally, in Horizon’s code block system it is possible to create an `Entity` variable, never set it to anything, and then send it in an event. TypeScript will also see this as an `Entity` instance with `exists()` returning `false`. Non-existent entities return “default values” (e.g. [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position) returns the [origin](Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system)); you should not `set()` any properties on one.
 
-#### Simulated
+#### [Simulated](#simulated)
 
 The **simulated** property is only available in scripting (as a `boolean`[read-write Horizon property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)). The property allows you to disable interaction (as if temporarily setting “Motion” to “None”) so that entities don’t respond to [physics](Meta%20Horizon%20Worlds%20creator%20manual.md#physics) and are not [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities).
 
 When an [entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) has **`simulated` set to `false`**:
 
-* It **cannot be grabbed** ❌ (even if [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)). If a held entity has its `simulated` set to `false` it *will [force release](Meta%20Horizon%20Worlds%20creator%20manual.md#force-release)*.
-* It **cannot have [forces applied](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)** ❌ (even if it is [physical](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)).
-* It **can be attached via scripting** ✅ (if it is [attachable](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)) though it [may push the player](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach) (if `collidable` is `true`). If an attached entity has its `simulated` set to `false` it *will NOT detach*.
-* It **can be moved** ✅ via `position.set(...)` and `rotation.set(...)` (if it is [dynamic](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities)).
-* It **can be collided with** following the standard rules for [collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions).
+- It **cannot be grabbed** ❌ (even if [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)). If a held entity has its `simulated` set to `false` it *will [force release](Meta%20Horizon%20Worlds%20creator%20manual.md#force-release)*.
+- It **cannot have [forces applied](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)** ❌ (even if it is [physical](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)).
+- It **can be attached via scripting** ✅ (if it is [attachable](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)) though it [may push the player](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach) (if `collidable` is `true`). If an attached entity has its `simulated` set to `false` it *will NOT detach*.
+- It **can be moved** ✅ via `position.set(...)` and `rotation.set(...)` (if it is [dynamic](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities)).
+- It **can be collided with** following the standard rules for [collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions).
 
 The `simulated` property defaults to `true`.
 
 When you call `entity.simulated.set(false)` the entity will lose all [linear and angular velocity](Meta%20Horizon%20Worlds%20creator%20manual.md#physics) (as if you had called `entity.zeroVelocity()`). If, or when, `simulated` is re-enabled, those velocities are *not* returned.
 
-Note
+> [!Note]
+>
+> The [PhysicalEntity class](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) has a method `locked`; [locked is very similar to simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated-vs-locked-entities).
 
-The [PhysicalEntity class](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) has a method `locked`; [locked is very similar to simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated-vs-locked-entities).
-
-#### Entity Tags
+#### [Entity Tags](#entity-tags)
 
 Entities in Horizon can be assigned a list of **tags** which are used of “classifying” entities. Tags are just `string`s. Tags can be assigned in the Properties panel; they can also be modified in scripting with the `Entity` property `tags: HorizonSetProperty<string>`.
 
@@ -881,29 +869,29 @@ When `entity.tags.get().contains(thing)` returns `true` we say that the **`entit
 
 Tags (currently) have three primary use cases:
 
-- **Controlling triggers**: [Trigger gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) have a Properties panel setting that lets you specify a *tag* so that the trigger will only receive trigger enter and exit events for entities that have that tag.
-- **Controlling collisions**: [Entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) have a Properties panel setting that lets you specify a *tag* that the entity will receive [collision events](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) from. The entity will only receive collision events if it collides with another entity which has the specified tag.
-- **Controlling raycasts**: [Raycast gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) have a Properties panel setting that lets you specify a *tag* so that the raycast will only generate [RaycastTargetType.Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) hit results for entities that have that tag.
-- **Finding entities**: Horizon has a method on the [World class](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) to get all entities in the [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) which match a given “query”:
+1. **Controlling triggers**: [Trigger gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) have a Properties panel setting that lets you specify a *tag* so that the trigger will only receive trigger enter and exit events for entities that have that tag.
+2. **Controlling collisions**: [Entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) have a Properties panel setting that lets you specify a *tag* that the entity will receive [collision events](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) from. The entity will only receive collision events if it collides with another entity which has the specified tag.
+3. **Controlling raycasts**: [Raycast gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) have a Properties panel setting that lets you specify a *tag* so that the raycast will only generate [RaycastTargetType.Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) hit results for entities that have that tag.
+4. **Finding entities**: Horizon has a method on the [World class](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) to get all entities in the [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) which match a given “query”:
 
-```
-// World
+```typescript
+// World
 getEntitiesWithTags(
-  tags: string[],
-  matchOperation?: EntityTagMatchOperation
-): Entity[];
+  tags: string[],
+  matchOperation?: EntityTagMatchOperation
+): Entity[];
 ```
 
 The method takes an list of tags (a string array) and optionally a match operation (the enum `EntityTagMatchOperation` has `HasAnyExact` and `HasAllExact`) which defaults to `HasAnyExact` if not specified.
 
-* `HasAnyExact`: return all entities in the world that have at least one of the tags in the `tags` argument.
-* `HasAllExact`: return all entities in the world that have all of the tags in the `tags` argument.
+- `HasAnyExact`: return all entities in the world that have at least one of the tags in the `tags` argument.
+- `HasAllExact`: return all entities in the world that have all of the tags in the `tags` argument.
 
 Horizon does not auto-check for duplicate tags.
 
 Be careful not to give an entity the same tag more than once. Doing so may result in certain events happening more than once or the entity appearing multiple times in lists.
 
-#### Entity Visibility
+#### [Entity Visibility](#entity-visibility)
 
 Entities can be rendered (“visible”) or not rendered (“invisible”). When an entity is rendered for a specific player we say that it is *visible to that player*. Visibility is controlled in the [world snapshot](Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot) by setting the **visible** property in the Properties panel. Visibility at runtime is controlled by the `visible` Horizon property on `Entity` and by **player [visibility permissions](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility-permissions)**.
 
@@ -913,16 +901,16 @@ Entities can be rendered (“visible”) or not rendered (“invisible”). When
 
 **Permissions persist when Visible=false**: Changing the `visible` property does not change the visibility permissions. When `visible` is changed to `false` the entity becomes invisible to everyone, but the per-player permissions are intact and will begin acting again if the entity has `visible` changed to `true`.
 
-##### Entity Visibility Permissions
+##### [Entity Visibility Permissions](#entity-visibility-permissions)
 
 Initially an entity’s permissions allow the entity to be seen by all players (when `visible` is set to `true`). You can then modify the settings with the entity method:
 
-```
-// Entity
+```typescript
+// Entity
 setVisibilityForPlayers(
-  players: Array<Player>,
-  mode: PlayerVisibilityMode
-  ): void;
+  players: Array<Player>,
+  mode: PlayerVisibilityMode
+  ): void;
 ```
 
 where `PlayerVisibilityMode` has the values `VisibleTo` and `HiddenFrom`. When you call this method, it sets the entire permissions for the entity.
@@ -939,322 +927,307 @@ Visibility and Collidability are separate
 
 Making an entity invisible (by setting `visible` to `false` or by using per-player visibility controls) does not impact [collidability](Meta%20Horizon%20Worlds%20creator%20manual.md#colliders). Even if an entity is invisible it can still be collided with (if it has an [active collider](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders)). If you want an invisible entity to not be a “blocker” then set `collidable` to `false` as well. At this time **there is no per-player collidability**.
 
-###### Example
+###### [Example](#example)
 
 Let `entity` be a cube with `visible` set to `true` in the Properties panel. Let `playerA` and `playerB` be the two [players](Meta%20Horizon%20Worlds%20creator%20manual.md#players) in the [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances).
 
+```typescript
+// Initially, both players can see it.
+entity.visible.set(false) // now no one can see it
+entity.visible.set(true) // both can see it
+
+// This makes it so only playerA can see it
+entity.setVisibilityForPlayers([playerA], PlayerVisibilityMode.VisibleTo)
+
+entity.visible.set(false) // no one can see it
+entity.visible.set(true) // only player A can see it
+
+entity.visible.set(false) // no one can see it
+
+// This changes the rules, but still no one can see it
+entity.setVisibilityForPlayers([playerB], PlayerVisibilityMode.VisibleTo)
+
+entity.visible.set(true) // only player B can see it
 ```
-// Initially, both players can see it.
-entity.visible.set(false) // now no one can see it
-entity.visible.set(true) // both can see it
 
-// This makes it so only playerA can see it
-entity.setVisibilityForPlayers([playerA], PlayerVisibilityMode.VisibleTo)
-
-entity.visible.set(false) // no one can see it
-entity.visible.set(true) // only player A can see it
-
-entity.visible.set(false) // no one can see it
-
-// This changes the rules, but still no one can see it
-entity.setVisibilityForPlayers([playerB], PlayerVisibilityMode.VisibleTo)
-
-entity.visible.set(true) // only player B can see it
-```
-
-## All Gizmos (Intrinsic Entity Types)
+## [All Gizmos (Intrinsic Entity Types)](#all-gizmos-intrinsic-entity-types)
 
 All [intrinsic entity types](Meta%20Horizon%20Worlds%20creator%20manual.md#intrinsic-entity-types) are listed in the table below, each of which link to detailed documentation.
 
-| [Intrinsic Type](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-types) | TypeScript Class |
-| --- | --- |
-| [Avatar Pose](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-pose-gizmo) | `Entity` |
-| [Box Collider](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) | `Entity` |
-| [Capsule Collider](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) | `Entity` |
-| [Custom UI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui-gizmo) | `Entity` |
-| [Debug Console](Meta%20Horizon%20Worlds%20creator%20manual.md#debug-console-gizmo) | `Entity` |
-| [Door](Meta%20Horizon%20Worlds%20creator%20manual.md#door-gizmo) | `Entity` |
-| [Dynamic Light](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) | `DynamicLightGizmo` |
-| [Empty Object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) | `Entity` |
-| [Environment](Meta%20Horizon%20Worlds%20creator%20manual.md#environment-gizmo) | `Entity` |
-| [Group](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) | `Entity` |
-| [In-World Item](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-gizmo) | `IWPSellerGizmo` |
-| [Media Board](Meta%20Horizon%20Worlds%20creator%20manual.md#media-board-gizmo) | `Entity` |
-| [Mesh](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | `MeshEntity` |
-| [Mirror](Meta%20Horizon%20Worlds%20creator%20manual.md#mirror-gizmo) | `Entity` |
-| [Navigation Volume](Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-volume) | `Entity` |
-| [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo) | `AIAgentGizmo` |
-| [ParticleFx](Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo) | `ParticleGizmo` |
+| [Intrinsic Type](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-types)                   | TypeScript Class          |
+| ---------------------------------------------------------------------------------------------- | ------------------------- |
+| [Avatar Pose](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-pose-gizmo)                 | `Entity`                  |
+| [Box Collider](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo)                   | `Entity`                  |
+| [Capsule Collider](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo)               | `Entity`                  |
+| [Custom UI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui-gizmo)                     | `Entity`                  |
+| [Debug Console](Meta%20Horizon%20Worlds%20creator%20manual.md#debug-console-gizmo)             | `Entity`                  |
+| [Door](Meta%20Horizon%20Worlds%20creator%20manual.md#door-gizmo)                               | `Entity`                  |
+| [Dynamic Light](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo)             | `DynamicLightGizmo`       |
+| [Empty Object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups)          | `Entity`                  |
+| [Environment](Meta%20Horizon%20Worlds%20creator%20manual.md#environment-gizmo)                 | `Entity`                  |
+| [Group](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups)                 | `Entity`                  |
+| [In-World Item](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-gizmo)             | `IWPSellerGizmo`          |
+| [Media Board](Meta%20Horizon%20Worlds%20creator%20manual.md#media-board-gizmo)                 | `Entity`                  |
+| [Mesh](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset)                           | `MeshEntity`              |
+| [Mirror](Meta%20Horizon%20Worlds%20creator%20manual.md#mirror-gizmo)                           | `Entity`                  |
+| [Navigation Volume](Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-volume)      | `Entity`                  |
+| [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)                                 | `AIAgentGizmo`            |
+| [ParticleFx](Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)                   | `ParticleGizmo`           |
 | [Projectile Launcher](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `ProjectileLauncherGizmo` |
-| [Quests](Meta%20Horizon%20Worlds%20creator%20manual.md#quests-gizmo) | `AchievementsGizmo` |
-| [Raycast](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) | `RaycastGizmo` |
-| [Script](Meta%20Horizon%20Worlds%20creator%20manual.md#script-gizmo) | `Entity` |
-| [Snap Destination](Meta%20Horizon%20Worlds%20creator%20manual.md#snap-destination-gizmo) | `Entity` |
-| [Sound](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) | `AudioGizmo` |
-| [Sound Recorder](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) | `AudioGizmo` |
-| [Spawn Point](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-point-gizmo) | `SpawnPointGizmo` |
-| [Static Light](Meta%20Horizon%20Worlds%20creator%20manual.md#static-light-gizmo) | `Entity` |
-| [Sphere Collider](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) | `Entity` |
-| [Sublevel](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) | `SublevelEntity` |
-| [Text](Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo) | `TextGizmo` |
-| [TrailFx](Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo) | `TrailGizmo` |
-| [Trigger Zone](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `TriggerGizmo` |
-| [World Leaderboard](Meta%20Horizon%20Worlds%20creator%20manual.md#world-leaderboard-gizmo) | `Entity` |
-| [World Promotion](Meta%20Horizon%20Worlds%20creator%20manual.md#world-promotion-gizmo) | `Entity` |
+| [Quests](Meta%20Horizon%20Worlds%20creator%20manual.md#quests-gizmo)                           | `AchievementsGizmo`       |
+| [Raycast](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)                         | `RaycastGizmo`            |
+| [Script](Meta%20Horizon%20Worlds%20creator%20manual.md#script-gizmo)                           | `Entity`                  |
+| [Snap Destination](Meta%20Horizon%20Worlds%20creator%20manual.md#snap-destination-gizmo)       | `Entity`                  |
+| [Sound](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)                             | `AudioGizmo`              |
+| [Sound Recorder](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)                    | `AudioGizmo`              |
+| [Spawn Point](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-point-gizmo)                 | `SpawnPointGizmo`         |
+| [Static Light](Meta%20Horizon%20Worlds%20creator%20manual.md#static-light-gizmo)               | `Entity`                  |
+| [Sphere Collider](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo)                | `Entity`                  |
+| [Sublevel](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels)                            | `SublevelEntity`          |
+| [Text](Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo)                               | `TextGizmo`               |
+| [TrailFx](Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo)                         | `TrailGizmo`              |
+| [Trigger Zone](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo)                    | `TriggerGizmo`            |
+| [World Leaderboard](Meta%20Horizon%20Worlds%20creator%20manual.md#world-leaderboard-gizmo)     | `Entity`                  |
+| [World Promotion](Meta%20Horizon%20Worlds%20creator%20manual.md#world-promotion-gizmo)         | `Entity`                  |
 
-### Avatar Pose Gizmo
+### [Avatar Pose Gizmo](#avatar-pose-gizmo)
 
 **Description**: Allows a player to enter into a specific pose (e.g. electing to sit down in a chair).
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Pose | `Seat` | There’s currently only one option and this is not changeable. |
-| Use Custom Exit Direction | `boolean` | Enable if you want the player to exit the pose and face a specific direction (e.g. getting out of a chair and facing away from it). |
-| Exit Direction | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The direction the player is facing when they exit the pose. This is only available if “Use Custom Exist Direction” is on. |
+| Property                  | Type                                                       | Description                                                                                                                         |
+| ------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Pose                      | `Seat`                                                     | There’s currently only one option and this is not changeable.                                                                       |
+| Use Custom Exit Direction | `boolean`                                                  | Enable if you want the player to exit the pose and face a specific direction (e.g. getting out of a chair and facing away from it). |
+| Exit Direction            | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The direction the player is facing when they exit the pose. This is only available if “Use Custom Exist Direction” is on.           |
 
 **TypeScript**: Avatar Pose gizmos are referenced as `Entity` instances with no additional scripting capabilities.
 
-### Collider Gizmo
+### [Collider Gizmo](#collider-gizmo)
 
-**Description**: Represents a collision field in your world. Used to stop players, objects, and/or projectiles.
-| Property | Type | Description |
-|---|---|---|
-| Collidable | `boolean` | Determines whether collision is applied to this collider. |
-| Collision Layer | `Everything`, `Objects Only`, or `Players Only`. Default is `Everything` | Determines which layers will collide. With `Objects Only`, projectiles and other objects will be blocked, but players can pass through and with `Players Only` everything can pass through except players. |
+**Description**: Represents a collision field in your world. Used to stop players, objects, and/or projectiles. | Property | Type | Description | |---|---|---| | Collidable | `boolean` | Determines whether collision is applied to this collider. | | Collision Layer | `Everything`, `Objects Only`, or `Players Only`. Default is `Everything` | Determines which layers will collide. With `Objects Only`, projectiles and other objects will be blocked, but players can pass through and with `Players Only` everything can pass through except players. |
 
 **TypeScript**: Collider Gizmos are referenced as `Entity` instances with no additional scripting capabilities.
 
 **Limitations**: There is currently no way to script a player to “force”-enter a pose. There is also no way to prevent them from exiting.
 
-### Custom UI Gizmo
+### [Custom UI Gizmo](#custom-ui-gizmo)
 
 **Description**: Presents a custom UI (User Interface) to your players. Also see [Custom UI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui)
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Display mode | `Spatial` or `Screen Overlay` | Determines how your UIs will be seen. `Spatial` means the UI is 3D object somewhere in your world. `Screen Overlay` means it will appear on top of the players screen. |
-| Input mode | `No interaction`, `Interactive, Blocking`, or `Interactive, Non Blocking` | Only displayed if the ‘Display mode’ is `Screen Overlay`. Controls whether the overlay has interaction and, if so, whether it blocks navigation (only for XS players, VR user never have blocked navigation) or does not block navigation (in which case it is invisible to [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)) |
-| Raycast | `boolean` | Determines if the raycast will appear for [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type). If disabled, [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) cannot interact, [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can unless `Focus Prompt` is disabled. |
-| Raycast distance | `number` | Controls the distance within which a player can interact with the UI panel if `Raycast` is enabled. |
-| Mipmap | `boolean` | If enabled, allows you to adjust the level of mipmap which affects how much detail is drawn when viewed from a distance. |
-| Focus Prompt | `boolean` | Determines if [Mobile/Web](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can interact with the UI. If disabled, [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) cannot interact, but [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can unless `Raycast` is disabled. |
-| Focus prompt distance | `number` | Controls the distance within which a player can interact with the UI panel if `Focus Prompt` is enabled. |
+| Property              | Type                                                                      | Description                                                                                                                                                                                                                                                                                                                                                          |
+| --------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Display mode          | `Spatial` or `Screen Overlay`                                             | Determines how your UIs will be seen. `Spatial` means the UI is 3D object somewhere in your world. `Screen Overlay` means it will appear on top of the players screen.                                                                                                                                                                                               |
+| Input mode            | `No interaction`, `Interactive, Blocking`, or `Interactive, Non Blocking` | Only displayed if the ‘Display mode’ is `Screen Overlay`. Controls whether the overlay has interaction and, if so, whether it blocks navigation (only for XS players, VR user never have blocked navigation) or does not block navigation (in which case it is invisible to [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type))          |
+| Raycast               | `boolean`                                                                 | Determines if the raycast will appear for [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type). If disabled, [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) cannot interact, [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can unless `Focus Prompt` is disabled. |
+| Raycast distance      | `number`                                                                  | Controls the distance within which a player can interact with the UI panel if `Raycast` is enabled.                                                                                                                                                                                                                                                                  |
+| Mipmap                | `boolean`                                                                 | If enabled, allows you to adjust the level of mipmap which affects how much detail is drawn when viewed from a distance.                                                                                                                                                                                                                                             |
+| Focus Prompt          | `boolean`                                                                 | Determines if [Mobile/Web](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can interact with the UI. If disabled, [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) cannot interact, but [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can unless `Raycast` is disabled.     |
+| Focus prompt distance | `number`                                                                  | Controls the distance within which a player can interact with the UI panel if `Focus Prompt` is enabled.                                                                                                                                                                                                                                                             |
 
 **TypeScript**: Custom UI Gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `UIGizmo` class from `horizon/ui` with no properties or methods. For more information on `horizon/ui` see [Custom UI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui)
 
 **Limitations**: Custom UI Gizmo and their bindings will cause performance issues. See [Custom UI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui) for recommendations.
 
-### Debug Console Gizmo
+### [Debug Console Gizmo](#debug-console-gizmo)
 
 **Description**: Allows creators to monitor the console for messages in Play and Publish [visitation modes](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish). Debug consoles are never visible to non-collaborators on the world.
 
-| Property | Type | Description |
-| --- | --- | --- |
+| Property   | Type                                                               | Description                                                                                                                                                                                       |
+| ---------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Visibility | `Edit Mode Only`, `Edit and Preview Mode`, or `In Published World` | Determines which [visitation modes](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish) testers, editors, and the the owner can see the Debug Console Gizmo. |
 
 **TypeScript**: Debug Console is referenced as `Entity` instances with no additional scripting capabilities.
 
-### Door Gizmo
+### [Door Gizmo](#door-gizmo)
 
 **Description**: Showcase selected public (or unlisted) worlds and allow players to easily travel to them.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Door | Existing World | Which will the door should showcase. |
-| Visible | `boolean` | Whether the door is visible or not. |
+| Property | Type           | Description                          |
+| -------- | -------------- | ------------------------------------ |
+| Door     | Existing World | Which will the door should showcase. |
+| Visible  | `boolean`      | Whether the door is visible or not.  |
 
 **TypeScript**: doors are referenced as `Entity` instances with no additional scripting capabilities.
 
 **Limitations**:
 
-* Cannot be [transformed](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms) by script. You can put a door in [a group or empty object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) if you want to script its movement, make it grabbable, etc.
-* Performance intensive due to VFX - use sparingly.
-* Doors play a “shimmering sound” on loop that are audible near them; there is no way to disable the sound. The only partial workaround is to put the door in [a group or empty object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) and move that parent from the “play area”; the sound will then be too far away to hear.
+- Cannot be [transformed](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms) by script. You can put a door in [a group or empty object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) if you want to script its movement, make it grabbable, etc.
+- Performance intensive due to VFX - use sparingly.
+- Doors play a “shimmering sound” on loop that are audible near them; there is no way to disable the sound. The only partial workaround is to put the door in [a group or empty object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) and move that parent from the “play area”; the sound will then be too far away to hear.
 
-### Dynamic Light Gizmo
+### [Dynamic Light Gizmo](#dynamic-light-gizmo)
 
 **Description**: Casts movable and changing light during runtime. It can move, rotate, change intensity, etc. If you don’t need the light to change, use a [static light](Meta%20Horizon%20Worlds%20creator%20manual.md#static-light-gizmo) for better performance.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Light Type | `Point` or `Spot` | Type of light. A point light is a point of light emitting in all directions (like a small bulb). A spot like is a “cone” of focused light (just like real spotlights). |
-| Color | `Color` | RGB values between 0.0 - 1.0 |
-| Intensity | `number` | Light brightness (0-10). |
-| Falloff Distance | `number` | Distance light travels (0-100). |
+| Property         | Type              | Description                                                                                                                                                            |
+| ---------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Light Type       | `Point` or `Spot` | Type of light. A point light is a point of light emitting in all directions (like a small bulb). A spot like is a “cone” of focused light (just like real spotlights). |
+| Color            | `Color`           | RGB values between 0.0 - 1.0                                                                                                                                           |
+| Intensity        | `number`          | Light brightness (0-10).                                                                                                                                               |
+| Falloff Distance | `number`          | Distance light travels (0-100).                                                                                                                                        |
 
 **TypeScript**: dynamic light gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `DynamicLightGizmo` class with the following properties (light type and color are *not* modifiable in scripts):
 
-```
-// DynamicLightGizmo
-enabled: HorizonProperty<boolean>;        // Enable/disable the light
-falloffDistance: HorizonProperty<number>; // Travel distance (0-100)
-intensity: HorizonProperty<number>;       // Brightness (0-10)
-spread: HorizonProperty<number>;          // Spot light spread (0-100)
+```typescript
+// DynamicLightGizmo
+enabled: HorizonProperty<boolean>;        // Enable/disable the light
+falloffDistance: HorizonProperty<number>; // Travel distance (0-100)
+intensity: HorizonProperty<number>;       // Brightness (0-10)
+spread: HorizonProperty<number>;          // Spot light spread (0-100)
 ```
 
 **Limitations**:
 
-* Maximum of 20 Dynamic Lights per world
-* Performance intensive due to per-frame light/shadow processing
-* Dynamic light gizmos do **not** obey [entity visibility](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility). They must be turned on/off using their ‘enabled’ property.
+- Maximum of 20 Dynamic Lights per world
+- Performance intensive due to per-frame light/shadow processing
+- Dynamic light gizmos do **not** obey [entity visibility](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility). They must be turned on/off using their ‘enabled’ property.
 
-### Environment Gizmo
+### [Environment Gizmo](#environment-gizmo)
 
 **Description**: Allows creators to make changes to the properties of their world like skydome, lighting, fog, voip settings, etc...
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Active | `boolean` | Only one Environment Gizmo can be active in a world. Enabling this will active this Environment Gizmo, but disable any other Environment Gizmos in the world. |
-| Skydome Type | `Cubemap` or `Custom Gradient` | `Cubemap` allows you to choose from a predefined texture and `Custom Gradient` lets you paint the sky a gradient color instead. |
-| Texture | dropdown | List of predefined Skydome textures. |
-| Texture Rotation | `number` | Sets the rotation of the Skydome texture on the Y axis only. |
-| Exposure | `number` | Sets the light intensity of the world. Accepts a value between 0.0 and 2.0. Default is 1.0. |
-| Custom Light Intensity | `boolean` | If enabled, allows you to adjust the `Light Intensity` property. |
-| Light Intensity | `number` | Sets the brightness of global lighting in the world. Accepts values between 0.0 and 2.0 with 1.0 as the default. |
-| Custom Fog Color | `boolean` | If enabled, allows you to adjust the `Fog Color` property. |
-| Fog Color | `Color` | Sets a custom color to the fog in your world. |
-| Fog Density | `number` | Sets how dense or thick the fog is. Accepts values between 0.0000 and 0.1000. |
-| Show Grid | `boolean` | Determines whether the world grid is visible at x:0, y:0, z:0. |
-| [VOIP Settings](Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings) | `Environment`, `Default`, `Nearby`, `Extended`, `Whisper`, or `Mute`. `Default` is default. | Sets the default [VOIP setting](Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings) for all players in your world. |
+| Property                                                                     | Type                                                                                        | Description                                                                                                                                                   |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Active                                                                       | `boolean`                                                                                   | Only one Environment Gizmo can be active in a world. Enabling this will active this Environment Gizmo, but disable any other Environment Gizmos in the world. |
+| Skydome Type                                                                 | `Cubemap` or `Custom Gradient`                                                              | `Cubemap` allows you to choose from a predefined texture and `Custom Gradient` lets you paint the sky a gradient color instead.                               |
+| Texture                                                                      | dropdown                                                                                    | List of predefined Skydome textures.                                                                                                                          |
+| Texture Rotation                                                             | `number`                                                                                    | Sets the rotation of the Skydome texture on the Y axis only.                                                                                                  |
+| Exposure                                                                     | `number`                                                                                    | Sets the light intensity of the world. Accepts a value between 0.0 and 2.0. Default is 1.0.                                                                   |
+| Custom Light Intensity                                                       | `boolean`                                                                                   | If enabled, allows you to adjust the `Light Intensity` property.                                                                                              |
+| Light Intensity                                                              | `number`                                                                                    | Sets the brightness of global lighting in the world. Accepts values between 0.0 and 2.0 with 1.0 as the default.                                              |
+| Custom Fog Color                                                             | `boolean`                                                                                   | If enabled, allows you to adjust the `Fog Color` property.                                                                                                    |
+| Fog Color                                                                    | `Color`                                                                                     | Sets a custom color to the fog in your world.                                                                                                                 |
+| Fog Density                                                                  | `number`                                                                                    | Sets how dense or thick the fog is. Accepts values between 0.0000 and 0.1000.                                                                                 |
+| Show Grid                                                                    | `boolean`                                                                                   | Determines whether the world grid is visible at x:0, y:0, z:0.                                                                                                |
+| [VOIP Settings](Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings) | `Environment`, `Default`, `Nearby`, `Extended`, `Whisper`, or `Mute`. `Default` is default. | Sets the default [VOIP setting](Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings) for all players in your world.                                   |
 
 **Typescript**: TypeScript: Environment Gizmos are referenced as Entity instances with no additional scripting capabilities.
 
 **Limitations:**
 
-* Multiple Environment Gizmos are allowed, but only one can be active at a time. You cannot use typescript to directly change their ‘Active’ property. You can use asset spawning to add a new Environment Gizmo dynamically that will become the new ‘Active’ gizmo.
-* When spawning multiple Environment Gizmos, the original Environment Gizmo may not reactivate when all other gizmos despawn. It might be safer to respawn your original Environment Gizmo when needed.
+- Multiple Environment Gizmos are allowed, but only one can be active at a time. You cannot use typescript to directly change their ‘Active’ property. You can use asset spawning to add a new Environment Gizmo dynamically that will become the new ‘Active’ gizmo.
+- When spawning multiple Environment Gizmos, the original Environment Gizmo may not reactivate when all other gizmos despawn. It might be safer to respawn your original Environment Gizmo when needed.
 
-### In-World Item Gizmo
+### [In-World Item Gizmo](#in-world-item-gizmo)
 
 **Description**: Used to sell In-World Items to users in your worlds. See the [in-world purchases](Meta%20Horizon%20Worlds%20creator%20manual.md#using-the-in-world-purchase-gizmo) section for detail.
 
-### Media Board Gizmo
+### [Media Board Gizmo](#media-board-gizmo)
 
 **Description**: Allows players to scroll through pictures that have been shared to the world and approved by the creator.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| LoD Radius | `number` | Determines at what distance(in meters) the media board will appear for players. |
-| Panel UI Mode | `Light Mode` or `Dark Mode` | Set the view for the gizmo. |
-| Pinned Page | `number` | Up to 30 photos can be listed, each photo is a page numbered 1-30. If a valid number if used here, the media board will always show that page. |
-| Deterministic Ranking | `boolean` | If enabled, photos will be ranked by recency rather than likes. |
+| Property              | Type                        | Description                                                                                                                                    |
+| --------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| LoD Radius            | `number`                    | Determines at what distance(in meters) the media board will appear for players.                                                                |
+| Panel UI Mode         | `Light Mode` or `Dark Mode` | Set the view for the gizmo.                                                                                                                    |
+| Pinned Page           | `number`                    | Up to 30 photos can be listed, each photo is a page numbered 1-30. If a valid number if used here, the media board will always show that page. |
+| Deterministic Ranking | `boolean`                   | If enabled, photos will be ranked by recency rather than likes.                                                                                |
 
 **TypeScript**: Media Board Gizmos are referenced as the `Entity` class with no properties or methods.
 
-### Mirror Gizmo
+### [Mirror Gizmo](#mirror-gizmo)
 
 **Description**: A stationary gizmo that allows players to see a reflection of themselves and the world. Can be used to edit avatars and take pictures.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Visible | `boolean` | Sets whether the Mirror Gizmo is visible to players. |
-| Photo Capture | `boolean` | Sets whether players can take pictures using the Mirror Gizmo. |
-| Name Tag Visibility | `Show` or `Hide` | Sets whether player name tags will appear in the Mirror Gizmo, including pictures. |
-| Has Edit Avatar Button | `boolean` | Sets whether players can use the Mirror Gizmo to edit their avatars. |
-| Has Frame | `boolean` | Sets whether the Mirror Gizmo has a border around the edge. |
-| Aspect Ratio | `9:16`, `16:9` | Determines the Mirror Gizmo’s aspect ratio, making it appear in landscape or portrait mode. |
-| Render Radius | `number` | Determines how close(in meters) players or objects must be before the mirror will render them. |
-| Near LOD Radius | `number` | Determines how close a player must be to see the best level of detail. |
-| Far LOD Radius | `number` | Determines how far a player must be to see the lowest level of detail. |
-| Near Resolution | `240p`, `340p`, `480p`, `540p`, `720p`, `1080p`, `1440p`, or `2160p` | Determines the reflection resolution when viewed at the best level of detail. |
-| Far Resolution | `240p`, `340p`, `480p`, `540p`, `720p`, `1080p`, `1440p`, or `2160p` | Determines the reflection resolution when viewed the lowest level of detail. |
-| Near Camera FPS | `number` | Determines the framerate of the reflection when viewed the best detail. |
-| Far Camera FPS | `number` | Determines the framerate of the reflection when viewed the lowest detail. |
+| Property               | Type                                                                 | Description                                                                                    |
+| ---------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Visible                | `boolean`                                                            | Sets whether the Mirror Gizmo is visible to players.                                           |
+| Photo Capture          | `boolean`                                                            | Sets whether players can take pictures using the Mirror Gizmo.                                 |
+| Name Tag Visibility    | `Show` or `Hide`                                                     | Sets whether player name tags will appear in the Mirror Gizmo, including pictures.             |
+| Has Edit Avatar Button | `boolean`                                                            | Sets whether players can use the Mirror Gizmo to edit their avatars.                           |
+| Has Frame              | `boolean`                                                            | Sets whether the Mirror Gizmo has a border around the edge.                                    |
+| Aspect Ratio           | `9:16`, `16:9`                                                       | Determines the Mirror Gizmo’s aspect ratio, making it appear in landscape or portrait mode.    |
+| Render Radius          | `number`                                                             | Determines how close(in meters) players or objects must be before the mirror will render them. |
+| Near LOD Radius        | `number`                                                             | Determines how close a player must be to see the best level of detail.                         |
+| Far LOD Radius         | `number`                                                             | Determines how far a player must be to see the lowest level of detail.                         |
+| Near Resolution        | `240p`, `340p`, `480p`, `540p`, `720p`, `1080p`, `1440p`, or `2160p` | Determines the reflection resolution when viewed at the best level of detail.                  |
+| Far Resolution         | `240p`, `340p`, `480p`, `540p`, `720p`, `1080p`, `1440p`, or `2160p` | Determines the reflection resolution when viewed the lowest level of detail.                   |
+| Near Camera FPS        | `number`                                                             | Determines the framerate of the reflection when viewed the best detail.                        |
+| Far Camera FPS         | `number`                                                             | Determines the framerate of the reflection when viewed the lowest detail.                      |
 
 **TypeScript**: Mirror Gizmos are referenced as the `Entity` class with no properties or methods
 
 **Limitations**: Mirror Gizmos are costly, recommend only one per world and be careful about how much geometry it reflects in your world to avoid performance issues.
 
+### [Navigation Volume](#navigation-volume)
+
 **Description**: Allows the creation of [navigation mesh profiles](Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-profile) that can be used to route paths around obstacles in your world. Can be used directly by [NavMeshAgents](Meta%20Horizon%20Worlds%20creator%20manual.md#navigation-mesh-agent) or indirectly by other animated objects such as [NPCs](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo).
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Volume Type | `Inclusion` or `Exclusion` | Sets whether the volume is considered an area where NPCs can walk or not walk. |
-| Navigation Profile | dropdown | The navigation profiles added to the world for which this volume should contribute a walkable area configuration. Defaults to All. |
+| Property           | Type                       | Description                                                                                                                        |
+| ------------------ | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Volume Type        | `Inclusion` or `Exclusion` | Sets whether the volume is considered an area where NPCs can walk or not walk.                                                     |
+| Navigation Profile | dropdown                   | The navigation profiles added to the world for which this volume should contribute a walkable area configuration. Defaults to All. |
 
 **TypeScript**: Navigation Volume Gizmos are referenced as the `Entity` class with no properties or methods
 
-### NPC Gizmo
+### [NPC Gizmo](#npc-gizmo)
 
 **Description**: Represents an NPC Avatar (bot) spawning location. NPCs act like real [Players](Meta%20Horizon%20Worlds%20creator%20manual.md#players). They get a [player id](Meta%20Horizon%20Worlds%20creator%20manual.md#player-id) and have events like [Player Enter](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world). Also see [NPCs](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo).
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Character Name | `string` | Sets the NPC’s name. |
-| Spawn on Start | `boolean` | Determines whether the NPC spawns into the world when the world is started. |
-| Appearance | `Edit Avatar` and `Refresh` buttons. | Allows you to edit the avatar’s appearance and refresh that appearance in the world. |
+| Property       | Type                                 | Description                                                                          |
+| -------------- | ------------------------------------ | ------------------------------------------------------------------------------------ |
+| Character Name | `string`                             | Sets the NPC’s name.                                                                 |
+| Spawn on Start | `boolean`                            | Determines whether the NPC spawns into the world when the world is started.          |
+| Appearance     | `Edit Avatar` and `Refresh` buttons. | Allows you to edit the avatar’s appearance and refresh that appearance in the world. |
 
 **TypeScript**: NPC gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `AIAgentGizmo` class. However, control of NPCs spawned by the NPC Gizmo are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `AvatarAIAgent` class from the `horizon/avatar_ai_agent` with the following properties and methods.
 
-```
+```typescript
 //Properties
-agentPlayer: ReadableHorizonProperty<Player | undefined>; //The player this agent is associated with.
-readonly grabbableInteraction: AgentGrabbableInteraction; //The grabbable interaction capabilities of the agent.
-readonly locomotion: AgentLocomotion; //The Locomotion capabilities of the agent.
+agentPlayer: ReadableHorizonProperty<Player | undefined>; //The player this agent is associated with.
+readonly grabbableInteraction: AgentGrabbableInteraction; //The grabbable interaction capabilities of the agent.
+readonly locomotion: AgentLocomotion; //The Locomotion capabilities of the agent.
 
 //Methods
-despawnAgentPlayer(): void; //Removes the player embodied by this agent from the world.
-static getGizmoFromPlayer(player: Player): Entity | undefined; //Returns the AIAgentGizmo that is associated with the provided player.
-spawnAgentPlayer(): Promise<AgentSpawnResult>; //Spawns a player to be embodied by this agent from the world.
+despawnAgentPlayer(): void; //Removes the player embodied by this agent from the world.
+static getGizmoFromPlayer(player: Player): Entity | undefined; //Returns the AIAgentGizmo that is associated with the provided player.
+spawnAgentPlayer(): Promise<AgentSpawnResult>; //Spawns a player to be embodied by this agent from the world.
 
-export declare enum AgentSpawnResult //The result of a player spawn request
+export declare enum AgentSpawnResult //The result of a player spawn request
 /*
-0 = Success
-1 = AlreadySpawned
-2 = WorldAtCapacity
-3 = Error
+0 = Success
+1 = AlreadySpawned
+2 = WorldAtCapacity
+3 = Error
 */
 ```
 
 **Limitations**:
 
-* Costly to performance. Considered the same cost as a real player.
-* Some methods that work on Players do not work on NPCs, e.g. `GrabbableEntity.forceHold()`, for which `AvatarAIAgent.grabbableInteraction.grab()` should be used instead.
-* NPCs do not persist their PPV values past world shutdown.
+- Costly to performance. Considered the same cost as a real player.
+- Some methods that work on Players do not work on NPCs, e.g. `GrabbableEntity.forceHold()`, for which `AvatarAIAgent.grabbableInteraction.grab()` should be used instead.
+- NPCs do not persist their PPV values past world shutdown.
 
-### ParticleFx Gizmo
+### [ParticleFx Gizmo](#particlefx-gizmo)
 
 **Description**: Play built-in particle effects (smoke burst, water spray, muzzle flare, camp fire, etc). Available from two places in the editor:
 
-- Gizmo ParticleFX: Created via Build Menu’s Gizmos section
-- Asset ParticleFX: Created via Asset Library’s VFX category
+1. Gizmo ParticleFX: Created via Build Menu’s Gizmos section
+2. Asset ParticleFX: Created via Asset Library’s VFX category
 
-**Gizmo ParticleFX Properties**:
-| Property | Type | Description |
-|---|---|---|
-| Play on Start | `boolean` | Auto-play when the worlds starts (or when it is [spawned in](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)) |
-| Looping | `boolean` | Repeat effect continuously |
-| Preset | Dropdown | Select from predefined particles |
-| Preview | Button | Test effect in the desktop editor |
+**Gizmo ParticleFX Properties**: | Property | Type | Description | |---|---|---| | Play on Start | `boolean` | Auto-play when the worlds starts (or when it is [spawned in](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)) | | Looping | `boolean` | Repeat effect continuously | | Preset | Dropdown | Select from predefined particles | | Preview | Button | Test effect in the desktop editor |
 
-**Asset ParticleFX Properties**:
-| Property | Type | Description |
-|---|---|---|
-| Prefab Name | Dropdown | Select from predefined particles |
-| Play on Start | `boolean` | Auto-play when world loads |
-| Looping | `boolean` | Repeat effect continuously |
-| Preview | Button | Test effect |
-| Custom FX Properties | Various | Effect-specific settings (e.g., fire color) |
+**Asset ParticleFX Properties**: | Property | Type | Description | |---|---|---| | Prefab Name | Dropdown | Select from predefined particles | | Play on Start | `boolean` | Auto-play when world loads | | Looping | `boolean` | Repeat effect continuously | | Preview | Button | Test effect | | Custom FX Properties | Various | Effect-specific settings (e.g., fire color) |
 
 **TypeScript**: particle effect gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `ParticleGizmo` class with the following methods:
 
-```
-/// Particle Gizmo
-play(options?: ParticleFXPlayOptions): void;
-stop(options?: ParticleFXStopOptions): void;
+```typescript
+/// Particle Gizmo
+play(options?: ParticleFXPlayOptions): void;
+stop(options?: ParticleFXStopOptions): void;
 ```
 
 which support optional configuration via the types:
 
-```
-type ParticleFXPlayOptions = {
-  fromStart?: boolean;     // Resource allocation priority
-  players?: Array<Player>; // Target specific players
-  oneShot?: boolean;       // Override looping property
+```typescript
+type ParticleFXPlayOptions = {
+  fromStart?: boolean;     // Resource allocation priority
+  players?: Array<Player>; // Target specific players
+  oneShot?: boolean;       // Override looping property
 };
 
-type ParticleFXStopOptions = {
-  players?: Array<Player>;// Target specific players
+type ParticleFXStopOptions = {
+  players?: Array<Player>;// Target specific players
 };
 ```
 
@@ -1262,147 +1235,147 @@ The `player` property defaults to [all players](Meta%20Horizon%20Worlds%20creato
 
 `fromStart` is a nuanced expert-level feature; it defaults to `true`. Effects have limited resources (such as a maximum number of particles). When playing an effect while it is already playing the `fromStart` property lets you specify whether the “already playing” or the “new play” gets more priority:
 
-* `fromStart: true` prioritizes the new effect instance.
-* `fromStart: false` prioritizes completing the current effect.
+- `fromStart: true` prioritizes the new effect instance.
+- `fromStart: false` prioritizes completing the current effect.
 
-bug `oneShot` is currently being ignored.
+bug \`oneShot\` is currently being ignored.
 
 Currently (Feb 2025) the `oneShot` property has no impact on whether an effect loops or not. It will also use the value in the Looping setting. This is a bug.
 
-### TrailFx Gizmo
+### [TrailFx Gizmo](#trailfx-gizmo)
 
 **Description**: Emits a colored line behind moving objects with a configurable length, width, and color gradient.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Play on Start | `boolean` | Auto-start trail effect when the world starts (or the effect is [spawned in](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)) |
-| Length | `number` | Trail length in meters |
-| Width | `number` | Trail width in meters |
-| Start Color | `Color` | RGB values (0.0-1.0) at trail start |
-| End Color | `Color` | RGB values (0.0-1.0) at trail end |
-| Preset | `Simple Trail` or `Tapered Trail` | Trail style preset to determine if the trail gets narrower toward the tail (tapered) or stays the same width throughout (simple) |
+| Property      | Type                              | Description                                                                                                                           |
+| ------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Play on Start | `boolean`                         | Auto-start trail effect when the world starts (or the effect is [spawned in](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)) |
+| Length        | `number`                          | Trail length in meters                                                                                                                |
+| Width         | `number`                          | Trail width in meters                                                                                                                 |
+| Start Color   | `Color`                           | RGB values (0.0-1.0) at trail start                                                                                                   |
+| End Color     | `Color`                           | RGB values (0.0-1.0) at trail end                                                                                                     |
+| Preset        | `Simple Trail` or `Tapered Trail` | Trail style preset to determine if the trail gets narrower toward the tail (tapered) or stays the same width throughout (simple)      |
 
 **TypeScript**: trail effect gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `TrailGizmo` class with the following members:
 
-```
-// TrailGizmo
-length: HorizonProperty<number>;  // Trail length in meters
-width: HorizonProperty<number>;   // Trail width in meters
-play(): void;                     // Start trail effect
-stop(): void;                     // Stop and remove trail
+```typescript
+// TrailGizmo
+length: HorizonProperty<number>;  // Trail length in meters
+width: HorizonProperty<number>;   // Trail width in meters
+play(): void;                     // Start trail effect
+stop(): void;                     // Stop and remove trail
 ```
 
 **Limitations**:
 
-* Performance intensive - use sparingly
-* Stopping the effect removes the entire drawn trail
+- Performance intensive - use sparingly
+- Stopping the effect removes the entire drawn trail
 
 bug Trail's sync incorrectly if stopped and started in the same frame.
 
 When you `stop()` a [TrailFX Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo) the trail *de-renders* (disappears). If you `stop()` and then `start()` in the same frame then the local client will see the trail disappear and start over. However other clients will only get the `play()` event (due to state compression) and so they won’t see the trail “reset”. If you need to stop and then start a trail, it is recommended to do it across (at least) 2 frames.
 
-### Projectile Launcher Gizmo
+### [Projectile Launcher Gizmo](#projectile-launcher-gizmo)
 
 **Description**: Launches configurable particles with customizable physics properties. Ideal for weapons and launchers.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Projectile Preset | `string` | Predefined particle effect to launch |
-| Speed | `number` | Launch speed in meters per second |
-| Player Collision | `No Players`, `All Players Except Owner`, or `All Players` | Determines which players the projectile can collide with. Defaults to `All Players Except Owner`. |
-| Object Collision | `No Objects`, `All Objects Except Launcher's Group`, or `All Objects` | Determines which objects the projectile can collide with. Defaults to `All Objects Except Launcher's Group`. |
-| Static Collision | `boolean` | Enable/disable collision with static objects |
-| Gravity | `number` | Percent of gravity force applied to projectile (value of 1 is standard gravity). Defaults to 0. |
-| Scale | `number` | Size multiplier for the projectile. Default to 0.1. |
-| Trail Length Scale | `number` | Length of particle trail in meters. Defaults to 1. |
-| Projectile Color | `Color` | RGB values (0.0-1.0) for projectile tint. Defaults to (1,1,1) white. |
+| Property           | Type                                                                  | Description                                                                                                  |
+| ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Projectile Preset  | `string`                                                              | Predefined particle effect to launch                                                                         |
+| Speed              | `number`                                                              | Launch speed in meters per second                                                                            |
+| Player Collision   | `No Players`, `All Players Except Owner`, or `All Players`            | Determines which players the projectile can collide with. Defaults to `All Players Except Owner`.            |
+| Object Collision   | `No Objects`, `All Objects Except Launcher's Group`, or `All Objects` | Determines which objects the projectile can collide with. Defaults to `All Objects Except Launcher's Group`. |
+| Static Collision   | `boolean`                                                             | Enable/disable collision with static objects                                                                 |
+| Gravity            | `number`                                                              | Percent of gravity force applied to projectile (value of 1 is standard gravity). Defaults to 0.              |
+| Scale              | `number`                                                              | Size multiplier for the projectile. Default to 0.1.                                                          |
+| Trail Length Scale | `number`                                                              | Length of particle trail in meters. Defaults to 1.                                                           |
+| Projectile Color   | `Color`                                                               | RGB values (0.0-1.0) for projectile tint. Defaults to (1,1,1) white.                                         |
 
 **TypeScript**: projectile launcher gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `ProjectileLauncherGizmo` class with the following members:
 
-```
-// ProjectileLauncherGizmo
-projectileGravity: WritableHorizonProperty<number>;
-launch(options?: LaunchProjectileOptions): void;
+```typescript
+// ProjectileLauncherGizmo
+projectileGravity: WritableHorizonProperty<number>;
+launch(options?: LaunchProjectileOptions): void;
 ```
 
 where launch can be configured with
 
-```
-type LaunchProjectileOptions = {
-  speed: number;
-  duration?: number;
+```typescript
+type LaunchProjectileOptions = {
+  speed: number;
+  duration?: number;
 }
 ```
 
 **Built-In CodeBlockEvents**: the following events are [sent to](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) a `ProjectileLauncherGizmo`:
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| `OnProjectileLaunched` | `launcher : Entity` | Sent when a projectile is launched from a launcher with a reference to the launcher. |
-| `OnProjectileHitPlayer` | `playerHit: Player` `position: Vec3` `normal: Vec3` `headshot: boolean` | Sent when a projectile collides with a `Player`. `playerHit` gives us a reference to the `Player` that was hit by the projectile. `position` is where the collision happened. `normal` is the direction of the surface or face that was hit. `headshot` tells us whether it collided with the players head. |
-| `OnProjectileHitEntity` | `objectHit: Entity` `position: Vec3` `normal: Vec3` `isStaticHit: boolean` | Sent when a projectile hits any `Entity`. |
-| `OnProjectileExpired` | `position: Vec3` `rotation: Quaternion` `velocity: Vec3` | Sent when a projectile despawns by duration limit only. |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)                                                               | Description                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `OnProjectileLaunched`                                                                              | `launcher : Entity`                                                        | Sent when a projectile is launched from a launcher with a reference to the launcher.                                                                                                                                                                                                                        |
+| `OnProjectileHitPlayer`                                                                             | `playerHit: Player` `position: Vec3` `normal: Vec3` `headshot: boolean`    | Sent when a projectile collides with a `Player`. `playerHit` gives us a reference to the `Player` that was hit by the projectile. `position` is where the collision happened. `normal` is the direction of the surface or face that was hit. `headshot` tells us whether it collided with the players head. |
+| `OnProjectileHitEntity`                                                                             | `objectHit: Entity` `position: Vec3` `normal: Vec3` `isStaticHit: boolean` | Sent when a projectile hits any `Entity`.                                                                                                                                                                                                                                                                   |
+| `OnProjectileExpired`                                                                               | `position: Vec3` `rotation: Quaternion` `velocity: Vec3`                   | Sent when a projectile despawns by duration limit only.                                                                                                                                                                                                                                                     |
 
 **Limitations**:
 
-* Requires setting Projectile Preset before use
-* Maximum 10 active projectiles per launcher (the 11th launch causes the oldest alive to “vanish”)
-* OnProjectileHitEntity triggers for any entities
-* High projectile speeds may cause collision detection issues
+- Requires setting Projectile Preset before use
+- Maximum 10 active projectiles per launcher (the 11th launch causes the oldest alive to “vanish”)
+- OnProjectileHitEntity triggers for any entities
+- High projectile speeds may cause collision detection issues
 
 Note that [empty objects and groups](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups)**behave differently with the [projectile launcher](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)**. When a projectile launch is hit, Horizon checks if it has a [parent](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) and if the parent is a group. If there is a group parent, it uses that as the entity. Otherwise it uses the original entity it started with. Thus a group will appear to “bubble up” one level; empty objects do not.
 
-### Quests Gizmo
+### [Quests Gizmo](#quests-gizmo)
 
 **Description**: Displays a list of Quests available in your world for players to track their progress. See the [Quests](Meta%20Horizon%20Worlds%20creator%20manual.md#quests) section for full details.
 
-### Raycast Gizmo
+### [Raycast Gizmo](#raycast-gizmo)
 
 **Description**: “Raycasting” is the act of “firing a laser” from a location out into a direction and finding the first thing that it collides with (player, entity, or nothing) and information about the hit (location, surface normal, etc). The act of “casting a ray” into the world like this is thus called a **raycast**. In order to raycast in Horizon you need a Raycast Gizmo to do it from.
 
 **Raycast Gizmo Properties**
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Collide With | `Players`, `Objects Tagged`, or `Both` | Sets which “collision layer(s)” the raycast will interact with. |
-| Object Tag | `string` | When the *Collide With* property is “Objects Tagged” or “Both” this specifies which [entity tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) the raycast will activate on. |
-| Raycast Distance | `number` | The maximum distance (in meters) that the ray should travel before concluding it didn’t hit anything. |
+| Property         | Type                                   | Description                                                                                                                                                                               |
+| ---------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Collide With     | `Players`, `Objects Tagged`, or `Both` | Sets which “collision layer(s)” the raycast will interact with.                                                                                                                           |
+| Object Tag       | `string`                               | When the *Collide With* property is “Objects Tagged” or “Both” this specifies which [entity tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) the raycast will activate on. |
+| Raycast Distance | `number`                               | The maximum distance (in meters) that the ray should travel before concluding it didn’t hit anything.                                                                                     |
 
 **Limitations**: Raycasting too often in a short period of time can hurt performance.
 
 **Typescript**: Raycast Gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `RaycastGizmo` class with the following method:
 
-```
-/// Raycast Gizmo
-raycast(origin: Vec3, direction: Vec3, options?: {
-  layerType?: LayerType;
-  maxDistance?: number;
-}): RaycastHit | null;
+```typescript
+/// Raycast Gizmo
+raycast(origin: Vec3, direction: Vec3, options?: {
+  layerType?: LayerType;
+  maxDistance?: number;
+}): RaycastHit | null;
 ```
 
 which takes the following parameters:
 
-| `RaycastGizmo`’s `raycast()` Method Arguments | Type | Notes |
-| --- | --- | --- |
-| origin | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The location in the world that the ray should start. |
-| direction | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The direction the ray should travel in. |
-| options | <pre class="language-ts ts">`{ layerType?: LayerType, maxDistance?: number} \| undefined`</pre> | This argument is optional. It allows you to momentarily override the “Collide With” and the “Raycast Distance” properties (listed above). The “Object Tag” is only settable in the Properties panel and cannot be overridden. The `LayerType` enum has the values `Player`, `Object`, and `Both`. |
+| `RaycastGizmo`’s `raycast()` Method Arguments | Type                                                                                               | Notes                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| origin                                        | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)                                         | The location in the world that the ray should start.                                                                                                                                                                                                                                              |
+| direction                                     | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)                                         | The direction the ray should travel in.                                                                                                                                                                                                                                                           |
+| options                                       | \<pre class="language-ts ts">`{ layerType?: LayerType, maxDistance?: number} \\| undefined`\</pre> | This argument is optional. It allows you to momentarily override the “Collide With” and the “Raycast Distance” properties (listed above). The “Object Tag” is only settable in the Properties panel and cannot be overridden. The `LayerType` enum has the values `Player`, `Object`, and `Both`. |
 
 The **return type** of the `raycast` method is `RaycastHit | null`. The result is `null` when the ray traveled the maximum distance without intersecting with any [active colliders](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) in the world. Otherwise the result is a `RaycastHit` which has the following properties (notice that the `targetType` value changes the type/existence of the `target` property).
 
-| `RaycastHit` Property | Type | Description |
-| --- | --- | --- |
-| distance | `number` | The distance traveled from the ray start location until the `hitPoint`. |
-| hitPoint | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The world location where the ray first hit an [active collider](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders). |
-| normal | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | A vector [pointing straight out from the surface](Meta%20Horizon%20Worlds%20creator%20manual.md) where the ray hit. This is useful for [reflecting](Meta%20Horizon%20Worlds%20creator%20manual.md#vector-reflect) the ray, for example. |
-| targetType | `RaycastTargetType` | The type that was hit. `RaycastTargetType` has the values: `Entity`, `Player`, and `Static`. See the notes below this table. |
-| target | `Entity`, `Player`, or *absent* (see the note below the table) | The `Entity` or `Player` hit (matching `targetType`). This field is *missing* if `targetType` is `RaycastTargetType.Static`. |
+| `RaycastHit` Property | Type                                                           | Description                                                                                                                                                                                                                              |
+| --------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| distance              | `number`                                                       | The distance traveled from the ray start location until the `hitPoint`.                                                                                                                                                                  |
+| hitPoint              | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)     | The world location where the ray first hit an [active collider](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders).                                                                                                         |
+| normal                | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)     | A vector [pointing straight out from the surface](Meta%20Horizon%20Worlds%20creator%20manual.md#) where the ray hit. This is useful for [reflecting](Meta%20Horizon%20Worlds%20creator%20manual.md#vector-reflect) the ray, for example. |
+| targetType            | `RaycastTargetType`                                            | The type that was hit. `RaycastTargetType` has the values: `Entity`, `Player`, and `Static`. See the notes below this table.                                                                                                             |
+| target                | `Entity`, `Player`, or *absent* (see the note below the table) | The `Entity` or `Player` hit (matching `targetType`). This field is *missing* if `targetType` is `RaycastTargetType.Static`.                                                                                                             |
 
 **Target Type and Target**: The `RaycastHit` type contains the field `targetType` which will contain a value of `RaycastTargetType` (values are: `Entity`, `Player`, and `Static`). The values in `targetType` and `target` depend on what the ray first intersected with:
 
-* **An entity with the right tag**: if the ray collided with an entity that has [the tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) specified in the properties of the Raycast gizmo then `targetType` will be `RaycastTargetType.Entity` and the `target` field will be of type `Entity`. Note that this might return one of the entity’s [ancestor](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors)’s (see the diagram below). It can return an entity that is [static of dynamic](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities).
-* **Any other entity**: if the ray collided with an entity that does not have [the tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) specified in the properties of the Raycast gizmo then `targetType` will be `RaycastTargetType.Static` and there is not a `target` field. Note that “Static” is not the same as [static entities](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities); this is used when there is no tag match (and is thus *misnamed*).
-* **A player**: if the ray collided with a player (human or [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)) then `targetType` will be `RaycastTargetType.Player` and the `target` field will be of type `Player`.
+- **An entity with the right tag**: if the ray collided with an entity that has [the tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) specified in the properties of the Raycast gizmo then `targetType` will be `RaycastTargetType.Entity` and the `target` field will be of type `Entity`. Note that this might return one of the entity’s [ancestor](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors)’s (see the diagram below). It can return an entity that is [static of dynamic](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities).
+- **Any other entity**: if the ray collided with an entity that does not have [the tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) specified in the properties of the Raycast gizmo then `targetType` will be `RaycastTargetType.Static` and there is not a `target` field. Note that “Static” is not the same as [static entities](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities); this is used when there is no tag match (and is thus *misnamed*).
+- **A player**: if the ray collided with a player (human or [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)) then `targetType` will be `RaycastTargetType.Player` and the `target` field will be of type `Player`.
 
 **Tag checking (Hit Algorithm)**: when the ray intersects an [active collider](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders), if it is associated with an entity, it will walk up the entity’s [ancestor chain](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) looking for an entity with a matching tag. If it reaches the end of the chain (an entity with no parent) it will return `targetType` as `RaycastTargetType.Static` and there will *not* be a `target` field present.
 
@@ -1412,151 +1385,150 @@ Here’s the algorithm that is used (it is [tag bubbling](Meta%20Horizon%20World
 
 Here’s the `RaycastHit` type, which shows the 3 bullets above, in code:
 
-```
-// Equivalent
-type RaycastHit = {
-  distance: number; // meters
-  hitPoint: Vec3;
-  normal: Vec3;
-} & (
-  | {
-    targetType: RaycastTargetType.Static
-  } | {
-    targetType: RaycastTargetType.Entity;
-    target: Entity;
-  } | {
-    targetType: RaycastTargetType.Player;
-    target: Player;
-  }
+```typescript
+// Equivalent
+type RaycastHit = {
+  distance: number; // meters
+  hitPoint: Vec3;
+  normal: Vec3;
+} & (
+  | {
+    targetType: RaycastTargetType.Static
+  } | {
+    targetType: RaycastTargetType.Entity;
+    target: Entity;
+  } | {
+    targetType: RaycastTargetType.Player;
+    target: Player;
+  }
 )
 ```
 
-### Script Gizmo
+### [Script Gizmo](#script-gizmo)
 
 For Codeblock scripts, the Script gizmo is an in-world gizmo that you can use to open up the Codeblock editor (only in VR).
 
 In the desktop editor, using Typescript scripts, the Script Gizmo doesn’t provide much utility. For more info see [file-backed scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#file-backed-scripts-fbs).
 
-### Snap Destination Gizmo
+### [Snap Destination Gizmo](#snap-destination-gizmo)
 
 **Description**: Designed to help position and orientate players that land on it using teleport locomotion. Has no effect for players using slide locomotion.
 
-| Property | Type | Description |
-| --- | --- | --- |
+| Property          | Type      | Description                                                                     |
+| ----------------- | --------- | ------------------------------------------------------------------------------- |
 | Apply Orientation | `boolean` | Applies a rotation on the player that teleports onto the Snap Destination Gizmo |
 
 **Typescript**: Snap Destination Gizmos are referenced as the `Entity` class (with no special methods).
 
-### Sound Gizmo
+### [Sound Gizmo](#sound-gizmo)
 
-**Description**: Sound Recorders allow you to record audio for playback, but that’s not the only type of audio gizmo in Horizon.
-We have 3 different types:
+**Description**: Sound Recorders allow you to record audio for playback, but that’s not the only type of audio gizmo in Horizon. We have 3 different types:
 
-* `Sound Recorder` found in the Gizmo menu. Lets creators record up to 20 minutes of their own audio.
-* `Pre-made sound` found in the Sounds menu. Collection of Horizon provided sound effects, background audio, and music. Some are looping, others are not.
-* `Audio Graph` obtained from your personal Assets library, such as those generated by [Gen AI](../../Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md). Allows you playback audio generated by the Gen AI in the Desktop Editor.
+- `Sound Recorder` found in the Gizmo menu. Lets creators record up to 20 minutes of their own audio.
+- `Pre-made sound` found in the Sounds menu. Collection of Horizon provided sound effects, background audio, and music. Some are looping, others are not.
+- `Audio Graph` obtained from your personal Assets library, such as those generated by [Gen AI](../../Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md). Allows you playback audio generated by the Gen AI in the Desktop Editor.
 
 **Sound Recorder**
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Sound | `Play` and `Record` button | `Play` will attempt to play any audio on the Sound Record Gizmo. `Record` will start recording any sounds coming through your headset mic. |
-| Loop | `boolean` | Determines if the sound will repeat after it is finished. |
-| Play on Start | `boolean` | Determines if the sound will start to play when the world starts. |
-| Volume | `number` | Sets the volume of the Sound Recorder Gizmo. Values are between 0.0 and 1.0. |
-| Pitch | `number` | Sets the pitch of the Sound Record Gizmo. Values are between -24 and 24. |
-| Global | `boolean` | Determines whether the Sound Recorder Gizmo will play where everyone in the world can hear it. |
-| Minimum Distance | `number` | Sets the distance from the Sound Recorder Gizmo before the volume levels starts to fade. Values between 0.0 and 1000.0 |
-| Maximum Distance | `number` | Sets the distance from the Sound Recorder Gizmo before the volume completely fades out. Values are between 0.0 and 1000.0. |
-| Send Audio Complete | `boolean` | Determines whether the Sound Record Gizmo sends an event when the audio is finished. |
+| Property            | Type                       | Description                                                                                                                                |
+| ------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Sound               | `Play` and `Record` button | `Play` will attempt to play any audio on the Sound Record Gizmo. `Record` will start recording any sounds coming through your headset mic. |
+| Loop                | `boolean`                  | Determines if the sound will repeat after it is finished.                                                                                  |
+| Play on Start       | `boolean`                  | Determines if the sound will start to play when the world starts.                                                                          |
+| Volume              | `number`                   | Sets the volume of the Sound Recorder Gizmo. Values are between 0.0 and 1.0.                                                               |
+| Pitch               | `number`                   | Sets the pitch of the Sound Record Gizmo. Values are between -24 and 24.                                                                   |
+| Global              | `boolean`                  | Determines whether the Sound Recorder Gizmo will play where everyone in the world can hear it.                                             |
+| Minimum Distance    | `number`                   | Sets the distance from the Sound Recorder Gizmo before the volume levels starts to fade. Values between 0.0 and 1000.0                     |
+| Maximum Distance    | `number`                   | Sets the distance from the Sound Recorder Gizmo before the volume completely fades out. Values are between 0.0 and 1000.0.                 |
+| Send Audio Complete | `boolean`                  | Determines whether the Sound Record Gizmo sends an event when the audio is finished.                                                       |
 
 **Pre-made Sound**
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Preview | `Play` button | Lets creators hear a preview of the sound in Edit Mode. |
-| Play on Start | `boolean` | Determines if the sound will start to play when the world starts. |
-| Play and Forget | `boolean` | (Effects sounds only) A performance enhancement that detaches playback from the sound gizmo location once played. Other copies of the sound can then be played by the gizmo at new locations. |
-| Play Limit | `number` | (`Play and Forget` only) The limit on the number of outstanding ‘forgotten’ copies of the sound that are still playing. Oldest still playing sound is stopped when active number of playing copies is reached. |
-| Volume | `number` | Sets the volume of the Pre-made Sound Recorder Gizmo. Values are between 0.0 and 1.0. |
-| Pitch | `number` | Sets the pitch of the Pre-made Sound Record Gizmo. Values are between -24 and 24. |
-| Global | `boolean` | Determines whether the Pre-made Sound Recorder Gizmo will play where everyone in the world can hear it. |
-| Minimum Distance | `number` | Sets the distance from the Pre-made Sound Recorder Gizmo before the volume levels starts to fade. Values between 0.0 and 1000.0 |
-| Maximum Distance | `number` | Sets the distance from the Pre-made Sound Recorder Gizmo before the volume completely fades out. Values are between 0.0 and 1000.0. |
-| Send Audio Complete | `boolean` | Determines whether the Pre-made Sound Gizmo sends an event when the audio is finished. |
+| Property            | Type          | Description                                                                                                                                                                                                    |
+| ------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Preview             | `Play` button | Lets creators hear a preview of the sound in Edit Mode.                                                                                                                                                        |
+| Play on Start       | `boolean`     | Determines if the sound will start to play when the world starts.                                                                                                                                              |
+| Play and Forget     | `boolean`     | (Effects sounds only) A performance enhancement that detaches playback from the sound gizmo location once played. Other copies of the sound can then be played by the gizmo at new locations.                  |
+| Play Limit          | `number`      | (`Play and Forget` only) The limit on the number of outstanding ‘forgotten’ copies of the sound that are still playing. Oldest still playing sound is stopped when active number of playing copies is reached. |
+| Volume              | `number`      | Sets the volume of the Pre-made Sound Recorder Gizmo. Values are between 0.0 and 1.0.                                                                                                                          |
+| Pitch               | `number`      | Sets the pitch of the Pre-made Sound Record Gizmo. Values are between -24 and 24.                                                                                                                              |
+| Global              | `boolean`     | Determines whether the Pre-made Sound Recorder Gizmo will play where everyone in the world can hear it.                                                                                                        |
+| Minimum Distance    | `number`      | Sets the distance from the Pre-made Sound Recorder Gizmo before the volume levels starts to fade. Values between 0.0 and 1000.0                                                                                |
+| Maximum Distance    | `number`      | Sets the distance from the Pre-made Sound Recorder Gizmo before the volume completely fades out. Values are between 0.0 and 1000.0.                                                                            |
+| Send Audio Complete | `boolean`     | Determines whether the Pre-made Sound Gizmo sends an event when the audio is finished.                                                                                                                         |
 
 **Audio Graph**
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Preview | `Play` button | Lets creators hear a preview of the sound in Edit Mode. |
-| Loop | `boolean` | Determines if the sound will repeat after it is finished. |
-| Play on Start | `boolean` | Determines if the sound will start to play when the world starts. |
-| Volume | `number` | Sets the volume of the Pre-made Sound Recorder Gizmo. Values are between 0.0 and 1.0. |
-| Volume Randomness | `number` | Randomly adjust the Audio Graph Gizmo volume each play. Values are between 0.0 and 1.0. |
-| Pitch | `number` | Sets the pitch of the Pre-made Sound Record Gizmo. Values are between -24 and 24. |
-| Pitch Randomness | `number` | Randomly adjust the Audio Graph Gizmo pitch each play. Values are between 0.0 and 4.0. |
-| Global | `boolean` | Determines whether the Pre-made Sound Recorder Gizmo will play where everyone in the world can hear it. |
-| Minimum Distance | `number` | Sets the distance from the Pre-made Sound Recorder Gizmo before the volume levels starts to fade. Values between 0.0 and 1000.0 |
-| Maximum Distance | `number` | Sets the distance from the Pre-made Sound Recorder Gizmo before the volume completely fades out. Values are between 0.0 and 1000.0. |
-| Low-Pass Cutoff | `number` | Reduces the amplitude of higher frequency signals. Values are between 1 and 20000. |
-| Send Audio Complete | `boolean` | Determines whether the Pre-made Sound Gizmo sends an event when the audio is finished. |
+| Property            | Type          | Description                                                                                                                         |
+| ------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Preview             | `Play` button | Lets creators hear a preview of the sound in Edit Mode.                                                                             |
+| Loop                | `boolean`     | Determines if the sound will repeat after it is finished.                                                                           |
+| Play on Start       | `boolean`     | Determines if the sound will start to play when the world starts.                                                                   |
+| Volume              | `number`      | Sets the volume of the Pre-made Sound Recorder Gizmo. Values are between 0.0 and 1.0.                                               |
+| Volume Randomness   | `number`      | Randomly adjust the Audio Graph Gizmo volume each play. Values are between 0.0 and 1.0.                                             |
+| Pitch               | `number`      | Sets the pitch of the Pre-made Sound Record Gizmo. Values are between -24 and 24.                                                   |
+| Pitch Randomness    | `number`      | Randomly adjust the Audio Graph Gizmo pitch each play. Values are between 0.0 and 4.0.                                              |
+| Global              | `boolean`     | Determines whether the Pre-made Sound Recorder Gizmo will play where everyone in the world can hear it.                             |
+| Minimum Distance    | `number`      | Sets the distance from the Pre-made Sound Recorder Gizmo before the volume levels starts to fade. Values between 0.0 and 1000.0     |
+| Maximum Distance    | `number`      | Sets the distance from the Pre-made Sound Recorder Gizmo before the volume completely fades out. Values are between 0.0 and 1000.0. |
+| Low-Pass Cutoff     | `number`      | Reduces the amplitude of higher frequency signals. Values are between 1 and 20000.                                                  |
+| Send Audio Complete | `boolean`     | Determines whether the Pre-made Sound Gizmo sends an event when the audio is finished.                                              |
 
 **Typescript**: Sound Gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `AudioGizmo` class with the following properties and methods.
 
-```
+```typescript
 //Properties
-pitch: WritableHorizonProperty<number>; //The audio pitch in semitones, which ranges from -24 to 24.
-volume: WritableHorizonProperty<number, AudioOptions>; //The audio volume, which ranges from 0 (no sound) to 1 (full volume).
+pitch: WritableHorizonProperty<number>; //The audio pitch in semitones, which ranges from -24 to 24.
+volume: WritableHorizonProperty<number, AudioOptions>; //The audio volume, which ranges from 0 (no sound) to 1 (full volume).
 
 //Methods
-play(audioOptions?: AudioOptions): void; //Plays an AudioGizmo sound.
-stop(audioOptions?: AudioOptions): void; //Stops an AudioGizmo sound.
-pause(audioOptions?: AudioOptions): void; //Pauses an AudioGizmo sound.
+play(audioOptions?: AudioOptions): void; //Plays an AudioGizmo sound.
+stop(audioOptions?: AudioOptions): void; //Stops an AudioGizmo sound.
+pause(audioOptions?: AudioOptions): void; //Pauses an AudioGizmo sound.
 
-//Provides AudioGizmo playback options for a set of players.
-export declare type AudioOptions = {
-    fade: number; //The duration, in seconds, that it takes for the audio to fade in or fade out.
-    players?: Array<Player>; //Only plays the audio for the specified players.
-    audibilityMode?: AudibilityMode; //Indicates whether the audio is audible to the specified players.
+//Provides AudioGizmo playback options for a set of players.
+export declare type AudioOptions = {
+    fade: number; //The duration, in seconds, that it takes for the audio to fade in or fade out.
+    players?: Array<Player>; //Only plays the audio for the specified players.
+    audibilityMode?: AudibilityMode; //Indicates whether the audio is audible to the specified players.
 };
 
-enum AudibilityMode {
-    AudibleTo = 0
-    InaudibleTo = 1
+enum AudibilityMode {
+    AudibleTo = 0
+    InaudibleTo = 1
 }
 ```
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| `OnAudioCompleted` |  | Sent when an Sound Gizmo is finished playing or stopped. |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description                                              |
+| --------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------- |
+| `OnAudioCompleted`                                                                                  |              | Sent when an Sound Gizmo is finished playing or stopped. |
 
 **Limitations**:
 
-* Due to memory cost of storing audio data and CPU cost of spatial audio processing it is recommended 10 max audio graphs in scene.
-* The `OnAudioCompleted` event is not sent when sounds loop back to the beginning.
+- Due to memory cost of storing audio data and CPU cost of spatial audio processing it is recommended 10 max audio graphs in scene.
+- The `OnAudioCompleted` event is not sent when sounds loop back to the beginning.
 
-### Spawn Point Gizmo
+### [Spawn Point Gizmo](#spawn-point-gizmo)
 
 **Description**: Used to move players instantly to predetermined locations, includes a brief black transition scene. Can also affect camera view, player gravity, and speed.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Spawn on start | `boolean` | Determines if the Spawn Point Gizmo will be used to spawn players as they join the world. |
-| Set Position Only | `boolean` | Determines if the Spawn Point Gizmo will rotate the player to match its rotation when it spawns them. |
-| Player Gravity | `number` | Sets the gravity of each player to this value when this spawn is used. Values between 0.0 and 9.81. |
-| Player Speed | `number` | Sets the speed of each player to this value when this spawn is used. Values between 0.0 and 45. |
+| Property          | Type                                                       | Description                                                                                                                                                                                             |
+| ----------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Spawn on start    | `boolean`                                                  | Determines if the Spawn Point Gizmo will be used to spawn players as they join the world.                                                                                                               |
+| Set Position Only | `boolean`                                                  | Determines if the Spawn Point Gizmo will rotate the player to match its rotation when it spawns them.                                                                                                   |
+| Player Gravity    | `number`                                                   | Sets the gravity of each player to this value when this spawn is used. Values between 0.0 and 9.81.                                                                                                     |
+| Player Speed      | `number`                                                   | Sets the speed of each player to this value when this spawn is used. Values between 0.0 and 45.                                                                                                         |
 | Force HWXS Camera | `None`, `Third Person`, `First Person`, `Orbit`, and `Pan` | Determines which camera view [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) will have after using the spawn (HWXS stands for Meta Horizon Worlds Cross Screens) |
 
 **Typescript**: Spawn Point Gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `SpawnPointGizmo` class with the following properties and methods.
 
-```
+```typescript
 //Properties
-gravity: HorizonProperty<number>; //The gravity for players spawned using this gizmo.
-speed: HorizonProperty<number>; //The speed for players spawned using this gizmo.
+gravity: HorizonProperty<number>; //The gravity for players spawned using this gizmo.
+speed: HorizonProperty<number>; //The speed for players spawned using this gizmo.
 
 //Methods
-teleportPlayer(player: Player): void; //Teleports a player to the spawn point.
+teleportPlayer(player: Player): void; //Teleports a player to the spawn point.
 
 //Example
 this.entity.as(SpawnPointGizmo).gravity.set(9.81)
@@ -1566,89 +1538,89 @@ this.entity.as(SpawnPointGizmo).teleportPlayer(player)
 
 **Notes**:
 
-* If no spawn points have `Spawn on start` enabled then a spawn point will be picked at random.
-* If multiple spawn points have `Spawn on start` enabled, one will be picked at random for each player entering the world.
-* The blue button above the spawn point can be used to set a default spawn for yourself in Edit mode.
+- If no spawn points have `Spawn on start` enabled then a spawn point will be picked at random.
+- If multiple spawn points have `Spawn on start` enabled, one will be picked at random for each player entering the world.
+- The blue button above the spawn point can be used to set a default spawn for yourself in Edit mode.
 
-### Static Light Gizmo
+### [Static Light Gizmo](#static-light-gizmo)
 
 **Description**: Emits static light that cannot be moved during run-time. Improved performance over [Dynamic Light Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo).
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Shape | `Cuboid`, `Ellipsoid`, `Disk`, or `Rectangle` | Determines the shape of the static light, affecting how the light is casted onto the surrounding geometry. `Cuboid` and `Ellipsoid` are omnidirectional, while `Disk` and `Rectangle` have a visual directional arrow. |
-| Color | `Color` | Sets the color of the light coming from the Static Light Gizmo. |
-| Intensity | `number` | Sets the intensity of the light emitted from the Static Light Gizmo. Values between 0.0 and 100.00 |
+| Property  | Type                                          | Description                                                                                                                                                                                                            |
+| --------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Shape     | `Cuboid`, `Ellipsoid`, `Disk`, or `Rectangle` | Determines the shape of the static light, affecting how the light is casted onto the surrounding geometry. `Cuboid` and `Ellipsoid` are omnidirectional, while `Disk` and `Rectangle` have a visual directional arrow. |
+| Color     | `Color`                                       | Sets the color of the light coming from the Static Light Gizmo.                                                                                                                                                        |
+| Intensity | `number`                                      | Sets the intensity of the light emitted from the Static Light Gizmo. Values between 0.0 and 100.00                                                                                                                     |
 
 **Typescript**: Static Light Gizmos are referenced simply as the `Entity` class.
 
-### Sublevel Gizmo
+### [Sublevel Gizmo](#sublevel-gizmo)
 
 **Description**: An entity that helps manage [sublevel spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels).
 
 **Properties**: The first property is called “Sublevel Type”, which can be set to `Deeplink` or `Exclude`:
 
-* Use **`Deeplink`** in the world that will load in the sublevel (the *container*). You can then use this entity [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) a [SublevelEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) to stream the level in. When this setting is used, 2 more settings appear:
-  + **Sublevel Initial State** determines the state of the sublevel at world-start. It can be `Active` (which means the sublevel is fully present to players), `Loaded` (meaning that the sublevel is fully ready, just waiting to be “shown”), or `Unloaded` (none of the data is present or ready). See [advanced spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller) for more information on these options.
-  + **World Id** is the world that this entity will stream in (the sublevel). There is a thumbnail picture to click on that will open a “world selector”.
-* Use **`Exclude`** in a world that is meant to be streamed in (a *sublevel*). Any entities that are [children (or descendants)](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) of an “Exclude Sublevel” will not load when the sublevel is streamed into the “container world”.
-  + Example, in the sublevel world you can have a spawn point which is a child of an “Exclude Sublevel” gizmo; that makes it easy to test the sublevel world, but the spawn gizmo won’t load in when the container world streams this world in.
+- Use **`Deeplink`** in the world that will load in the sublevel (the *container*). You can then use this entity [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) a [SublevelEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) to stream the level in. When this setting is used, 2 more settings appear:
+  - **Sublevel Initial State** determines the state of the sublevel at world-start. It can be `Active` (which means the sublevel is fully present to players), `Loaded` (meaning that the sublevel is fully ready, just waiting to be “shown”), or `Unloaded` (none of the data is present or ready). See [advanced spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller) for more information on these options.
+  - **World Id** is the world that this entity will stream in (the sublevel). There is a thumbnail picture to click on that will open a “world selector”.
+- Use **`Exclude`** in a world that is meant to be streamed in (a *sublevel*). Any entities that are [children (or descendants)](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) of an “Exclude Sublevel” will not load when the sublevel is streamed into the “container world”.
+  - Example, in the sublevel world you can have a spawn point which is a child of an “Exclude Sublevel” gizmo; that makes it easy to test the sublevel world, but the spawn gizmo won’t load in when the container world streams this world in.
 
 **TypeScript**: When the sublevel entity has “Sublevel Type” set to “Deeplink” you can then use the entity [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) a [SublevelEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) to stream the level in.
 
-### Text Gizmo
+### [Text Gizmo](#text-gizmo)
 
 **Description**: The text gizmo is a 2D surface on which text can be rendered. It supports a wide variety of [markup](Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo-markup) commands that allows changing color, size, font, bold, italics, underline, vertical and horizontal offsets, line height, alignment, and [more](Meta%20Horizon%20Worlds%20creator%20manual.md#supported-text-gizmo-tags).
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Text | `string` | Sets the text displaying on the Text Gizmo. |
-| Auto Fit | `boolean` | Automatically determines the size of the font. If disabled, you can set the size manually. |
-| Fixed Font Size | `number` | Sets the font size of the text when `Auto Fit` is disabled. |
-| Visible | `boolean` | Determines if the Text Gizmo is visible to players. |
+| Property        | Type      | Description                                                                                |
+| --------------- | --------- | ------------------------------------------------------------------------------------------ |
+| Text            | `string`  | Sets the text displaying on the Text Gizmo.                                                |
+| Auto Fit        | `boolean` | Automatically determines the size of the font. If disabled, you can set the size manually. |
+| Fixed Font Size | `number`  | Sets the font size of the text when `Auto Fit` is disabled.                                |
+| Visible         | `boolean` | Determines if the Text Gizmo is visible to players.                                        |
 
 **Notes**:
 
-* When using fixed font size, the rendered size of text is a combination of the fixed font size and the scale properties of the text gizmo itself
+- When using fixed font size, the rendered size of text is a combination of the fixed font size and the scale properties of the text gizmo itself
 
 **Typescript**: Text Gizmos are referenced as the `TextGizmo` class with the following properties.
 
-```
+```typescript
 //Properties
-text: HorizonProperty<string>; //The content to display in the text label
+text: HorizonProperty<string>; //The content to display in the text label
 ```
 
-#### Using a Text Gizmo
+#### [Using a Text Gizmo](#using-a-text-gizmo)
 
 The initial text of a text gizmo can be set in the Properties panel. Changing the text after that can be done via the `text`[read-write property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the `TextGizmo` class, such as:
 
-```
-this.entity.as(TextGizmo).text.set('Hello World')
+```typescript
+this.entity.as(TextGizmo).text.set('Hello World')
 ```
 
 Auto Fit Property
 
 The text gizmo has the property **auto fit**, which is only settable in the Properties panel. When it is set to `true`, the font size will change to fit the scaled extents of the text gizmo. This is useful for making signs, for example; but, it can look weird to have all signs using slightly different text sizes. You’ll have more control of the text, and have more consistency in the world, if you **turn auto fit off**.
 
-Note
+> [!Note]
+>
+> Text gizmos contribute to draw calls.
 
-Text gizmos contribute to draw calls.
-
-#### Text Gizmo Limitations
+#### [Text Gizmo Limitations](#text-gizmo-limitations)
 
 The total length of the text, including all markup, cannot be longer than 1000 characters. If the text is longer than 1000 characters, the text will be truncated.
 
 The text gizmo only supports the English characters (essentially whatever can be typed on an English keyboard without any modifier keys). This means that the text gizmo is not capable of displaying any of the following: á ê ï o ū ç ñ ¿ 月 😂, for example.
 
-#### Text Gizmo Markup
+#### [Text Gizmo Markup](#text-gizmo-markup)
 
 Horizon exposes Unity’s TextMeshPro markup. The rest of this guide is a summary of [Unity’s TextMeshPro documentation](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html).
 
-#### Text Gizmo Tags
+#### [Text Gizmo Tags](#text-gizmo-tags)
 
 Text markup is able to modify the contents (e.g. making all letters uppercase), styling (such as size or color), and layout (such as alignment, rotation, and spacing) of the text. Markup is specified using tags, which are a word surrounded in angle brackets (e.g. `<b>`). Once a tag is specified, all text that comes after it will have that attribute applied, until that tag “closes” by specifying the tag with a slash before the name (e.g. `</b>`).
 
-##### Example
+##### [Example](#example-1)
 
 `this is <b>bold</b> text`
 
@@ -1658,7 +1630,7 @@ this is **bold** text
 
 **Tags that are never *closed* stay active**. The bold attribute starts being applied once `<b>` is encountered and stops when `</b>` is encountered. The closing tag is optional, and if it is omitted, the attribute will continue to be applied until the end of the text.
 
-##### Example
+##### [Example](#example-2)
 
 `this is <b>bold text`
 
@@ -1666,116 +1638,116 @@ will render as
 
 this is **bold text**
 
-##### Text Gizmo Tag Parameters
+##### [Text Gizmo Tag Parameters](#text-gizmo-tag-parameters)
 
 Some tags accept a parameter, which is specified after the tag name and an equals sign.
 
-#### Supported Text Gizmo Tags
+#### [Supported Text Gizmo Tags](#supported-text-gizmo-tags)
 
-| Tag | Description | Example | Image |
-| --- | --- | --- | --- |
-| **Text Decoration** |  |  |  |
-| `b` | Make text bold. | `This is <b>bold</b> text.` |  |
-| `u` | Make text underlined. | `This is <u>underlined</u> text.` |  |
-| `i` | Make text italicized. | `This is <i>italicized</i> text.` |  |
-| `s` | Make text have a strikethrough. | `This is <s>strikethrough</s> text.` |  |
-| `color` | Set the text color.   *Parameter:* A hex RGB value with either 1 or 2 digits per component (e.g. #ﬀ0000 or #f00) or RGBA (e.g. #ﬀ0000ﬀ or #f00f). You can also specify a color by name. The following are supported: black, blue, green, orange, purple, red, white, and yellow | `This is <color=#f00>red<color=#0000ff> and blue</color> text.` |  |
-| `mark` | Make text highlighted (on top of the text).   *Parameter:* A hex RGB color with 2 digits per component (e.g. #ﬀ0000) or RGBA (e.g. #ﬀ0000ﬀ). | `This is <mark=#ffff007f>highlighted</mark> text.` |  |
-| `alpha` | Set the text alpha.   *Parameter:* A hex two-digit value (e.g. #ﬀ). | `This is <alpha=#4f>transparent</alpha> text.` |  |
-| `size` | Change the font size of text.   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `<size=75%>small</size>, <size=18>medium</size>, and <size=2em>large</size>` |  |
-| `font` | Change the font of text.   *Parameter:* One of the following:    anton sdf   bangers sdf   electronic highway sign sdf   liberationsans sdf   oswald bold sdf   roboto-bold sdf   default | `This is <font=bangers sdf>vibrant</size> text.` |  |
-| `material` | Change the material of text.   *Parameter:* The name of the material used to render the current font. The following combinations are supported:   *anton sdf*  - anton sdf - drop shadow   - anton sdf - outline   *bangers sdf*  - bangers sdf - drop shadow   - bangers sdf - outline   - bangers sdf glow   - bangers sdf logo   *liberationsans sdf*  - liberationsans sdf - metalic green   - liberationsans sdf - overlay   *roboto-bold sdf*  - roboto-bold sdf - drop shadow   - roboto-bold sdf - surface | `<font=bangers sdf>bangers sdf<br><material=bangers sdf glow>bangers sdf glow<br><material=bangers sdf logo>bangers sdf logo` |  |
-| `gradient` | Render a gradient over text. If the text is not white, the gradient will be “blended” with the text color.   *Parameter:* One of the following: | `This is <gradient=Yellow to Orange - Vertical>stylish</gradient> text.` |  |
-| `uppercase` | Make text uppercase. | `This is <uppercase>biG</uppercase> text.` |  |
-| `lowercase` | Make text lowercase. | `This is <lowercase>SmAlL</lowercase> text.` |  |
-| `smallcaps` | Make text uppercase but small. | `This is <smallcaps>biggish</smallcaps> text.` |  |
-| `sup` | Make text superscript. | `Math like x<sup>2</sup> is fun!` |  |
-| `sub` | Make text subscript. | `Chemistry like H<sub>2</sub>O if cool!` |  |
-| `rotate` | Rotate the letters within text.   *Parameter:* An angle in degrees (e.g. 45). | `This is <rotate=-20>rotated</rotate> text.` |  |
-| **Vertical Layout** |  |  |  |
-| `br` | Insert a line break. | `This is a<br>line break.` |  |
-| `line-height` | Set the line height for the current line and those that follow. `<line-height=200%>line A<br><line-height=100%>line B<br><line-height=50%>line C<br>line D` |  |  |
-| `voffset` | Shift the “cursor” vertically up or down (impacting the text that comes next). | `do<voffset=2em>mi<voffset=1em>re` |  |
-| **Horizontal Layout** |  |  |  |
-| `align` | Set the alignment of the current line and those that follow.   *Parameter:* One of the following: left, center, right, justified, or flush. | `<width=150><align=right>hello<br><align=left>world` |  |
-| `width` | Set the width of the current line and those that follow.   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `<width=150><align=right>hello<br><align=left>world` |  |
-| `indent` | Set the indent level for this line and all lines after it. It applies to lines created with `<br>` or due to wrapping. If you only want to indent lines made with `<br>`, use line-indent.   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `<indent=25%>This is a kind of boring sentence.<br><indent=0%>Followed by a less interesting one.` |  |
-| `line-indent` | This is the same as “indent” but it only applies to manual line breaks made with `<br>` and not line breaks causes from wrapping (e.g. when using the width attribute).   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `<line-indent=25%>This is a kind of boring sentence.<br>Followed by a less interesting one.` |  |
-| `pos` | Set the position of text cursor for the rest of the line. When the tag closes with `</pos>` the cursor returns back to where it was.   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `And a step<pos=3em>to the right!` |  |
-| `space` | Insert whitespace.   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `Let me...<space=3em>think` |  |
-| `margin` | Set the margin for the current line and those that follow.   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `This is a kind of boring sentence.<br><margin=4em>Followed by a less interesting one.` |  |
-| `margin-left` | Set the left margin for the current line and those that follow.   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `This is a kind of boring sentence.<br><margin-left=4em>Followed by a less interesting one.` |  |
-| `margin-right` | Set the right margin for the current line and those that follow.   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `This is a kind of boring sentence.<br><margin-right=4em>Followed by a less interesting one.` |  |
-| `cspace` | Modify the spacing between letters. A positive value spreads them out and a negative value brings them closer together.   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `This is <cspace=1em>crazy` |  |
-| `mspace` | Modify the width of each letter, turning the font into a monospace font (meaning every character takes up the same horizontal space).   *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font. | `This is <mspace=1em>whimsy</mspace> text.` |  |
-| **Glyphs / Sprites** |  |  |  |
-| `sprite` | Render a builtin sprite. Notice that this tag takes a second attribute called “index” that specifies which sprite to render in the set.   *Parameter:* Only “dropcap numbers” is currently supported. | `<sprite=“dropcap numbersz” index=3>` |  |
-| **Parsing** |  |  |  |
-| `noparse` | Disable parsing on text. | `Is <noparse>this <b>bold</b></noparse> or is <b>this</b>?` |  |
+| Tag                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Example                                                                                                                       | Image                                                                                          |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Text Decoration**   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                               |                                                                                                |
+| `b`                   | Make text bold.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | `This is <b>bold</b> text.`                                                                                                   | ![](../../_assets/images/320109982e2801bb7174301fa3c0531a8af59d1ad8c00b27b4a6b223e6bb3944.png) |
+| `u`                   | Make text underlined.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | `This is <u>underlined</u> text.`                                                                                             | ![](../../_assets/images/7248814c14b00e63a1c0f8a708531a80b2c39a3756a370e1e67c33e667797bf8.png) |
+| `i`                   | Make text italicized.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | `This is <i>italicized</i> text.`                                                                                             | ![](../../_assets/images/46ed90d1c3bef4023c5624cf1f01bcc8abc55affb1eb6326619a0aab3123912b.png) |
+| `s`                   | Make text have a strikethrough.                                                                                                                                                                                                                                                                                                                                                                                                                                                          | `This is <s>strikethrough</s> text.`                                                                                          | ![](../../_assets/images/12e804ab39a37e900be889131b7e480f6ba2911b0cd77064dc92007e1ab98b92.png) |
+| `color`               | Set the text color. *Parameter:* A hex RGB value with either 1 or 2 digits per component (e.g. #ﬀ0000 or #f00) or RGBA (e.g. #ﬀ0000ﬀ or #f00f). You can also specify a color by name. The following are supported: black, blue, green, orange, purple, red, white, and yellow                                                                                                                                                                                                            | `This is <color=#f00>red<color=#0000ff> and blue</color> text.`                                                               | ![](../../_assets/images/a697a083ea774eb504236df74d0ae0032f0631c4bd285bc94be17e28aa663205.png) |
+| `mark`                | Make text highlighted (on top of the text). *Parameter:* A hex RGB color with 2 digits per component (e.g. #ﬀ0000) or RGBA (e.g. #ﬀ0000ﬀ).                                                                                                                                                                                                                                                                                                                                               | `This is <mark=#ffff007f>highlighted</mark> text.`                                                                            | ![](../../_assets/images/f52df6027a568b94b64ee852bc5a209436a9f1f0d215ec63aab89e7897bb7764.png) |
+| `alpha`               | Set the text alpha. *Parameter:* A hex two-digit value (e.g. #ﬀ).                                                                                                                                                                                                                                                                                                                                                                                                                        | `This is <alpha=#4f>transparent</alpha> text.`                                                                                | ![](../../_assets/images/404bc220803f2e4475322d23fbe75759b33ddaacaf90e6c05119facae30a3cd8.png) |
+| `size`                | Change the font size of text. *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                                                                                                                                                                 | `<size=75%>small</size>, <size=18>medium</size>, and <size=2em>large</size>`                                                  | ![](../../_assets/images/4c04214c1f6e6035f9f1126c1d6951c1bfce5c16f4f4f81545f3fe22d0bcb9ca.png) |
+| `font`                | Change the font of text. *Parameter:* One of the following: anton sdf bangers sdf electronic highway sign sdf liberationsans sdf oswald bold sdf roboto-bold sdf default                                                                                                                                                                                                                                                                                                                 | `This is <font=bangers sdf>vibrant</size> text.`                                                                              | ![](../../_assets/images/8f5fc36006be892c98a3af86c1c40c20b4b183e84bef4a06ffaa6f05bf1c95a2.png) |
+| `material`            | Change the material of text. *Parameter:* The name of the material used to render the current font. The following combinations are supported: *anton sdf* - anton sdf - drop shadow - anton sdf - outline *bangers sdf* - bangers sdf - drop shadow - bangers sdf - outline - bangers sdf glow - bangers sdf logo *liberationsans sdf* - liberationsans sdf - metalic green - liberationsans sdf - overlay *roboto-bold sdf* - roboto-bold sdf - drop shadow - roboto-bold sdf - surface | `<font=bangers sdf>bangers sdf<br><material=bangers sdf glow>bangers sdf glow<br><material=bangers sdf logo>bangers sdf logo` | ![](../../_assets/images/e8e74397d15ad6d4769380c03cfd765160c40d996f8648a45a44c8b3e9c47524.png) |
+| `gradient`            | Render a gradient over text. If the text is not white, the gradient will be “blended” with the text color. *Parameter:* One of the following:                                                                                                                                                                                                                                                                                                                                            | `This is <gradient=Yellow to Orange - Vertical>stylish</gradient> text.`                                                      | ![](../../_assets/images/1996d215224f510dc6bd7b44c41f789f19ab395265c6b7390e3090d13ef9ec97.png) |
+| `uppercase`           | Make text uppercase.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | `This is <uppercase>biG</uppercase> text.`                                                                                    | ![](../../_assets/images/f22adab622dee23ed170bec86e4f0cb9fda489d5454c1421b2306fd1d6dfbb8c.png) |
+| `lowercase`           | Make text lowercase.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | `This is <lowercase>SmAlL</lowercase> text.`                                                                                  | ![](../../_assets/images/08e0ebbf5482c3e05e8a52a1a30e6e13dda2f7871ca9db69c98fea62f6e1af2b.png) |
+| `smallcaps`           | Make text uppercase but small.                                                                                                                                                                                                                                                                                                                                                                                                                                                           | `This is <smallcaps>biggish</smallcaps> text.`                                                                                | ![](../../_assets/images/0ca359e4ce5fa5e53cab4d72efc7ce0df14e4b9146bdfd151156a89e0ed55734.png) |
+| `sup`                 | Make text superscript.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | `Math like x<sup>2</sup> is fun!`                                                                                             | ![](../../_assets/images/476549a5a0ab6278c71a2554d0b03e0a79aa85042d161e6f6f99d245a43b85ca.png) |
+| `sub`                 | Make text subscript.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | `Chemistry like H<sub>2</sub>O if cool!`                                                                                      | ![](../../_assets/images/0818823b64edc45683adce2eee5aa3fdbc599bf69588f43f4877203ce83266a4.png) |
+| `rotate`              | Rotate the letters within text. *Parameter:* An angle in degrees (e.g. 45).                                                                                                                                                                                                                                                                                                                                                                                                              | `This is <rotate=-20>rotated</rotate> text.`                                                                                  | ![](../../_assets/images/8eaf583c7de25287d140ee756174fecf1a36a5505478761dfa64e601506a6a83.png) |
+| **Vertical Layout**   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                               |                                                                                                |
+| `br`                  | Insert a line break.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | `This is a<br>line break.`                                                                                                    | ![](../../_assets/images/1d0413751afad7326d45034306c003ed6b34fdef0245d84ddcca5610775fc949.png) |
+| `line-height`         | Set the line height for the current line and those that follow. `<line-height=200%>line A<br><line-height=100%>line B<br><line-height=50%>line C<br>line D`                                                                                                                                                                                                                                                                                                                              | ![](../../_assets/images/5c519813f37261a3da016006360c2b0691da4ef598f9d90a8009a98a089a2039.png)                                |                                                                                                |
+| `voffset`             | Shift the “cursor” vertically up or down (impacting the text that comes next).                                                                                                                                                                                                                                                                                                                                                                                                           | `do<voffset=2em>mi<voffset=1em>re`                                                                                            | ![](../../_assets/images/f9385fa0d39502e99ffd1a15adc297dd50852cfc7c782e0add37d7d403cb9c63.png) |
+| **Horizontal Layout** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                               |                                                                                                |
+| `align`               | Set the alignment of the current line and those that follow. *Parameter:* One of the following: left, center, right, justified, or flush.                                                                                                                                                                                                                                                                                                                                                | `<width=150><align=right>hello<br><align=left>world`                                                                          | ![](../../_assets/images/8937f1d41456f44eff15e2efe89c16f341c43637fb4cf8eff7a0b04a4979b091.png) |
+| `width`               | Set the width of the current line and those that follow. *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                                                                                                                                      | `<width=150><align=right>hello<br><align=left>world`                                                                          | ![](../../_assets/images/7b8d85a2f7ace714d3bd6c7042da6ec20951e10cbf1d23b5ea36b6f54ab87dcf.png) |
+| `indent`              | Set the indent level for this line and all lines after it. It applies to lines created with `<br>` or due to wrapping. If you only want to indent lines made with `<br>`, use line-indent. *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                    | `<indent=25%>This is a kind of boring sentence.<br><indent=0%>Followed by a less interesting one.`                            | ![](../../_assets/images/45b05c7a2e1d24ed3361a54d4058808ea00f5b4a9690c90f95c993b58e8980fc.png) |
+| `line-indent`         | This is the same as “indent” but it only applies to manual line breaks made with `<br>` and not line breaks causes from wrapping (e.g. when using the width attribute). *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                       | `<line-indent=25%>This is a kind of boring sentence.<br>Followed by a less interesting one.`                                  | ![](../../_assets/images/2fad80f4e7947007c40085e4a4d0d4e0f0e8fcaea62b6e98dc11b57f84413f15.png) |
+| `pos`                 | Set the position of text cursor for the rest of the line. When the tag closes with `</pos>` the cursor returns back to where it was. *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                                                          | `And a step<pos=3em>to the right!`                                                                                            | ![](../../_assets/images/c3362fb15100ad5c00e3cd441af99ae50507cd4a456566512ee1f8cb16d3262f.png) |
+| `space`               | Insert whitespace. *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                                                                                                                                                                            | `Let me...<space=3em>think`                                                                                                   | ![](../../_assets/images/62c623e03aaeb3b37911c842f884b65b437e61dddd6446dbe096ea7f8abb5d41.png) |
+| `margin`              | Set the margin for the current line and those that follow. *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                                                                                                                                    | `This is a kind of boring sentence.<br><margin=4em>Followed by a less interesting one.`                                       | ![](../../_assets/images/5e5a8bfd19ac20434e3072c6cdad71a1d7c2a79859c2f043e23633e0dacafe0c.png) |
+| `margin-left`         | Set the left margin for the current line and those that follow. *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                                                                                                                               | `This is a kind of boring sentence.<br><margin-left=4em>Followed by a less interesting one.`                                  | ![](../../_assets/images/3d459b4f78282a5506251faaf8dcace0b2792a0d047bfaea47c082a38c56f085.png) |
+| `margin-right`        | Set the right margin for the current line and those that follow. *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                                                                                                                              | `This is a kind of boring sentence.<br><margin-right=4em>Followed by a less interesting one.`                                 | ![](../../_assets/images/3fed2bd42a259a5ec20ec35078b0f4adc18f7e56d29f344827efb5b36aea90ab.png) |
+| `cspace`              | Modify the spacing between letters. A positive value spreads them out and a negative value brings them closer together. *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                                                                       | `This is <cspace=1em>crazy`                                                                                                   | ![](../../_assets/images/66e2425a6117a3757a0da846a0b5c7f6a65e4f9214a233bb5d520083d00d51ed.png) |
+| `mspace`              | Modify the width of each letter, turning the font into a monospace font (meaning every character takes up the same horizontal space). *Parameter:* A measurement value in pixels (e.g. 10), font units (e.g. 2em), or percent (e.g. 50%). Percents are relative to the initial size of the font.                                                                                                                                                                                         | `This is <mspace=1em>whimsy</mspace> text.`                                                                                   | ![](../../_assets/images/ae8b47473b2f5e18669d322aecbb59cddc747ba7b82118ef4f3a89c28393222e.png) |
+| **Glyphs / Sprites**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                               |                                                                                                |
+| `sprite`              | Render a builtin sprite. Notice that this tag takes a second attribute called “index” that specifies which sprite to render in the set. *Parameter:* Only “dropcap numbers” is currently supported.                                                                                                                                                                                                                                                                                      | `<sprite=“dropcap numbersz” index=3>`                                                                                         | ![](../../_assets/images/7306d053996ad45a630260c9842a7e7cbd17218825d50e3056d1c69343b9709c.png) |
+| **Parsing**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                               |                                                                                                |
+| `noparse`             | Disable parsing on text.                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | `Is <noparse>this <b>bold</b></noparse> or is <b>this</b>?`                                                                   | ![](../../_assets/images/35583576a47b6d775e28a73dd7bc7bfae8d2f634b947bea332e67482fe698894.png) |
 
-### Trigger Gizmo
+### [Trigger Gizmo](#trigger-gizmo)
 
 **Description**: Detects when a player or object enters or exits an area.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Enabled | `boolean` | Determines whether the Trigger Gizmo will detect any events. |
-| Trigger On | `Players` or `Objects Tagged` | Sets whether the triggers response to players or objects with a specific tag. |
-| Object Tag | `string` | If `Trigger On` is set to `Objects Tagged` then this is the required tag for an object to trigger an event. |
-| Selectable in Screen Mode | `boolean` | Determines whether [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) will see an interaction option when near the Trigger Gizmo. |
+| Property                  | Type                          | Description                                                                                                                                                           |
+| ------------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enabled                   | `boolean`                     | Determines whether the Trigger Gizmo will detect any events.                                                                                                          |
+| Trigger On                | `Players` or `Objects Tagged` | Sets whether the triggers response to players or objects with a specific tag.                                                                                         |
+| Object Tag                | `string`                      | If `Trigger On` is set to `Objects Tagged` then this is the required tag for an object to trigger an event.                                                           |
+| Selectable in Screen Mode | `boolean`                     | Determines whether [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) will see an interaction option when near the Trigger Gizmo. |
 
 Under the hood, triggers detect *enter* and *exit* using [collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions). See the [trigger collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions) section for details on when triggers can and can’t detect entities.
 
 **Typescript**: Trigger Gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `TriggerGizmo` class with the following properties.
 
-```
+```typescript
 //Properties
-enabled: WritableHorizonProperty<boolean>; //Whether the Trigger is enabled.
+enabled: WritableHorizonProperty<boolean>; //Whether the Trigger is enabled.
 
-//Example of connecting to a trigger entered event.
-this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnPlayerEnterTrigger, (enteredBY) => {
-    console.log('Player entered the world.', enteredBY.name.get());
+//Example of connecting to a trigger entered event.
+this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnPlayerEnterTrigger, (enteredBY) => {
+    console.log('Player entered the world.', enteredBY.name.get());
 })
 ```
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| OnPlayerEnterTrigger | `enteredBy: Player` | Sent each time a player has entered the trigger area. |
-| OnPlayerExitTrigger | `exitedBy: Player` | Sent each time a player has exited the trigger area. |
-| OnEntityEnterTrigger | `enteredBy: Entity` | Sent each time an object has entered the trigger area. |
-| OnEntityExitTrigger | `player: Player` | Sent each time an object has exited the trigger area. |
-| “occupied” | `by: Player \| Entity` | Sent when the first player (or entity) enters a trigger area. This is not a built-in codeblock like the others, you must create this as custom codeblock event. |
-| “empty” | `by: Player \| Entity` | Sent when the last player (or entity) exits the trigger area. This is not a built-in codeblock like the others, you must create this as custom codeblock event. |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)            | Description                                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OnPlayerEnterTrigger                                                                                | `enteredBy: Player`     | Sent each time a player has entered the trigger area.                                                                                                           |
+| OnPlayerExitTrigger                                                                                 | `exitedBy: Player`      | Sent each time a player has exited the trigger area.                                                                                                            |
+| OnEntityEnterTrigger                                                                                | `enteredBy: Entity`     | Sent each time an object has entered the trigger area.                                                                                                          |
+| OnEntityExitTrigger                                                                                 | `player: Player`        | Sent each time an object has exited the trigger area.                                                                                                           |
+| “occupied”                                                                                          | `by: Player \\| Entity` | Sent when the first player (or entity) enters a trigger area. This is not a built-in codeblock like the others, you must create this as custom codeblock event. |
+| “empty”                                                                                             | `by: Player \\| Entity` | Sent when the last player (or entity) exits the trigger area. This is not a built-in codeblock like the others, you must create this as custom codeblock event. |
 
 **Note**: The *occupied* and *empty* events in the table above are not currently exposed through `CodeBlockEvents`. To use them you you must allocate the events yourself, e.g.
 
-```
-import { CodeBlockEvent, Entity, Player, PropTypes } from "horizon/core"
+```typescript
+import { CodeBlockEvent, Entity, Player, PropTypes } from "horizon/core"
 
-const ExtraTriggerCodeBlockEvents = {
-  PlayerOccupied : new CodeBlockEvent<[Player]>(
-    'occupied',
-    [PropTypes.Player]
-  ),
-  PlayerEmpty : new CodeBlockEvent<[Player]>(
-    'empty',
-    [PropTypes.Player]
-  ),
+const ExtraTriggerCodeBlockEvents = {
+  PlayerOccupied : new CodeBlockEvent<[Player]>(
+    'occupied',
+    [PropTypes.Player]
+  ),
+  PlayerEmpty : new CodeBlockEvent<[Player]>(
+    'empty',
+    [PropTypes.Player]
+  ),
 
-  EntityOccupied : new CodeBlockEvent<[Entity]>(
-    'occupied',
-    [PropTypes.Entity]
-  ),
-  EntityEmpty : new CodeBlockEvent<[Entity]>(
-    'empty',
-    [PropTypes.Entity]
-  )
+  EntityOccupied : new CodeBlockEvent<[Entity]>(
+    'occupied',
+    [PropTypes.Entity]
+  ),
+  EntityEmpty : new CodeBlockEvent<[Entity]>(
+    'empty',
+    [PropTypes.Entity]
+  )
 }
 ```
 
 **Limitations**: Using too many Trigger Gizmos can affect performance due to their impact on the physics system for collision detection.
 
-### Trigger Collisions
+### [Trigger Collisions](#trigger-collisions)
 
 Trigger detection is done at the [collider](Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) level.
 
@@ -1789,22 +1761,22 @@ When an entity-related collider (from a [mesh](Meta%20Horizon%20Worlds%20creator
 
 When a trigger sends an [OnEntityEnterTrigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) event it checks to see if the trigger was previously unoccupied; if so, then the “secret” [occupied](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) is also sent to the trigger. Likewise, if this is an `OnEntityExitTrigger` event and the trigger is now unoccupied, then the “secret” [empty](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) event is also sent to the trigger.
 
-### World Leaderboard Gizmo
+### [World Leaderboard Gizmo](#world-leaderboard-gizmo)
 
 **Description**: Used to track and display *sorted* player scores in your world. See the [leaderboard section](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards) for full detail.
 
-### World Promotion Gizmo
+### [World Promotion Gizmo](#world-promotion-gizmo)
 
 **Description**: Used to show a sign in a world that offers to let players “save the world for later” in the bookmarked worlds.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Promotion Type | `Save Panel` | This option cannot currently be changed. |
-| Panel UI Mode | `Light Mode` or `Dark Mode` | Determines the color theme. Light vs dark refers to the background color of the gizmo. |
+| Property       | Type                        | Description                                                                            |
+| -------------- | --------------------------- | -------------------------------------------------------------------------------------- |
+| Promotion Type | `Save Panel`                | This option cannot currently be changed.                                               |
+| Panel UI Mode  | `Light Mode` or `Dark Mode` | Determines the color theme. Light vs dark refers to the background color of the gizmo. |
 
 **TypeScript**: World Promotion gizmos are referenced as `Entity` instances with no additional scripting capabilities.
 
-## Assets
+## [Assets](#assets)
 
 **Assets** represent data that can be created and used in a world.
 
@@ -1812,37 +1784,37 @@ When a trigger sends an [OnEntityEnterTrigger](Meta%20Horizon%20Worlds%20creator
 
 **Asset types**: There are various types of assets that are split into two categories:
 
-* **Entity Asset Types**: Assets that are used to *create (configured) entities*.
-* **Data Asset Types**: Assets that *provide data* (most of which are used to modify a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)).
+- **Entity Asset Types**: Assets that are used to *create (configured) entities*.
+- **Data Asset Types**: Assets that *provide data* (most of which are used to modify a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)).
 
 **Note**: [3D Model](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) is in both groups (although it can only be used as data, as a mesh, when there is exactly 1 mesh in the asset).
 
-| Entity Asset Type | Entities Created ([spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) or in-editor) | Where to [Create](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-assets) |
-| --- | --- | --- |
-| [3D Model](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) or [Empty Object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) (with [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) children) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Audio](Meta%20Horizon%20Worlds%20creator%20manual.md#audio-asset) | [Sound Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) | [Gen AI](../../Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md) |
-| [Legacy Group](Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group) | Array of [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Right-click then “Create Asset” |
-| [Template](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) | Array of [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Right-click then “Create Asset” |
+| Entity Asset Type                                                                | Entities Created ([spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) or in-editor)                                                                                                                                                                 | Where to [Create](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-assets)                      |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| [3D Model](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset)         | [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) or [Empty Object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) (with [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) children) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/)                    |
+| [Audio](Meta%20Horizon%20Worlds%20creator%20manual.md#audio-asset)               | [Sound Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)                                                                                                                                                                                           | [Gen AI](../../Desktop%20editor/Generative%20AI%20tools/Generative%20AI%20Creation%20Audio%20Tool.md) |
+| [Legacy Group](Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group) | Array of [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities)                                                                                                                                                                                          | Right-click then “Create Asset”                                                                       |
+| [Template](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset)         | Array of [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities)                                                                                                                                                                                          | Right-click then “Create Asset”                                                                       |
 
-| Data Asset Type | How to apply at runtime | Where to [Create](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-assets) |
-| --- | --- | --- |
-| Single Mesh [3D Model](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | Use [setMesh](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) assets section |
-| [Material](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) | Use [setMaterial](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel |
-| [Text](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) | Use [fetchAsData](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) on an `Asset` | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Texture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) | Use [setTexture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Legacy Group](Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group) | Array of [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Right-click then “Create Asset” |
-| [Template](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) | Array of [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Right-click then “Create Asset” |
+| Data Asset Type                                                                      | How to apply at runtime                                                                                                                                   | Where to [Create](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-assets)                  |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Single Mesh [3D Model](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | Use [setMesh](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities)     | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) assets section |
+| [Material](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset)             | Use [setMaterial](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel                                                                                      |
+| [Text](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)                | Use [fetchAsData](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) on an `Asset`                                                            | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/)                |
+| [Texture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)               | Use [setTexture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities)   | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/)                |
+| [Legacy Group](Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group)     | Array of [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities)                                                                                 | Right-click then “Create Asset”                                                                   |
+| [Template](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset)             | Array of [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities)                                                                                 | Right-click then “Create Asset”                                                                   |
 
-| Data Asset Type | How to apply at runtime | Where to [Create](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-assets) |
-| --- | --- | --- |
-| Single Mesh [3D Model](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | Use [setMesh](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Material](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) | Use [setMaterial](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel |
-| [Text](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) | Use [fetchAsData](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) on an `Asset` | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
-| [Texture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) | Use [setTexture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
+| Data Asset Type                                                                      | How to apply at runtime                                                                                                                                   | Where to [Create](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-assets)   |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Single Mesh [3D Model](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) | Use [setMesh](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities)     | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
+| [Material](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset)             | Use [setMaterial](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | Assets panel                                                                       |
+| [Text](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)                | Use [fetchAsData](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) on an `Asset`                                                            | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
+| [Texture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)               | Use [setTexture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities)   | Assets panel or [Developer Dashboard](https://developers.meta.com/horizon/manage/) |
 
-</gk>
+\</gk>
 
-### Creating Assets
+### [Creating Assets](#creating-assets)
 
 In the Desktop editor there is the “Assets” panel. In this panel you can view, organize, edit, delete, and create assets.
 
@@ -1852,87 +1824,88 @@ In the Desktop editor there is the “Assets” panel. In this panel you can vie
 
 **Create Asset from Editor Selection**: In the desktop editor, select some entities and then right-click. One of the options is “Create Asset”. This is where to create [Template Assets](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) and [Legacy Asset Groups](Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group).
 
-### Managing Assets
+### [Managing Assets](#managing-assets)
 
 In the Assets panel and the [Developer Dashboard](https://developers.meta.com/horizon/manage/) you can edit assets, remove assets, create asset folders, move assets into asset folders, and so on.
 
-### Referencing Assets (Props and IDs)
+### [Referencing Assets (Props and IDs)](#referencing-assets-props-and-ids)
 
 You need an instance of the `Asset` class in order to [spawn](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), fetch [text data](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json), or [modify the material/mesh/style/texture on a mesh](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class). There are two ways to get an instance of `Asset`:
 
-- **Props**: Create a [Component property](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) with type `PropTypes.Asset` and then when the script is [attached to an entity](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities) you can drag the asset from the Assets panel into the property slot in the Properties panel.
-- **Direct Allocation**: You can call `new Asset` with the asset id (which you can find by clicking on an asset in the Assets panel). The constructor takes an optional second argument if you want to instance a specific *version* of the asset (you can also find version ids when clicking on an asset and clicking “Version History”). Horizon **does not support JavaScript bigint notation** so you have to create a `bigint` from a `string`. So, you might instantiate an asset like:
+1. **Props**: Create a [Component property](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) with type `PropTypes.Asset` and then when the script is [attached to an entity](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities) you can drag the asset from the Assets panel into the property slot in the Properties panel.
 
-  ```
-     const myAsset = new Asset(BigInt("10000"))
-  ```
+2. **Direct Allocation**: You can call `new Asset` with the asset id (which you can find by clicking on an asset in the Assets panel). The constructor takes an optional second argument if you want to instance a specific *version* of the asset (you can also find version ids when clicking on an asset and clicking “Version History”). Horizon **does not support JavaScript bigint notation** so you have to create a `bigint` from a `string`. So, you might instantiate an asset like:
 
-  If you don’t want the latest version you can do:
+   ```typescript
+      const myAsset = new Asset(BigInt("10000"))
+   ```
 
-  ```
-     const myAsset = new Asset(BigInt("10000"), BigInt("1"))
-  ```
+   If you don’t want the latest version you can do:
 
-#### Asset as() method
+   ```typescript
+      const myAsset = new Asset(BigInt("10000"), BigInt("1"))
+   ```
+
+#### [Asset as() method](#asset-as-method)
 
 You can convert an `Asset` instance into its specific type using the asset `as()` method, which behaves just like the [Entity as() method](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method).
 
 For example:
 
-```
-const materialAsset: MaterialAsset = asset.as(MaterialAsset)
+```typescript
+const materialAsset: MaterialAsset = asset.as(MaterialAsset)
 ```
 
 Once you call `as()` on an asset, you can store that “casted” asset (in a `let`, `const`, or `class` member) and you don’t need to call `as()` on it again.
 
 Note that `as()` returns the same asset back, preserving equality. Thus after the line above, `materialAsset === asset` would evaluate to `true`.
 
-The Asset] `as()` method always succeeds! Do not cast to the wrong type!
+The Asset] \`as()\` method always succeeds! Do not cast to the wrong type!
 
 The `as()` method will always return an instance of the requested type. This means that you can convert a text asset into a `TextureAsset` without error or warning. However if you then attempt to use it in [setTexture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset), you will get errors, warnings, or other unexpected behavior. Don’t cast assets, with `as()` to classes they are not. **This is a brittle part of Horizon’s TypeScript API that has no workaround.**
 
-Note
-
-Do not use TypeScript’s built-in `as` operator on an `Asset`.
+> [!Note]
+>
+> Do not use TypeScript’s built-in `as` operator on an `Asset`.
 
 The `as()` method on `Asset` actually does work at runtime; it is not just a type-cast. That means the following two lines are **not the same**:
 
-```
-✅ const material = asset.as(MaterialAsset)
-❌ const material = asset as MaterialAsset
+```typescript
+✅ const material = asset.as(MaterialAsset)
+❌ const material = asset as MaterialAsset
 ```
 
-### 3D Model Asset
+### [3D Model Asset](#3d-model-asset)
 
 **Description**: A 3D Model Asset is 1, or many, 3D meshes with associated materials (and possibly textures).
 
-**Creation**: To create a 3D model asset go to the Assets panel and click “Add New” or go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) and click “Import”. Then add [fbx](https://www.autodesk.com/products/fbx/overview) files and images (typically created in digital content creation tools, DCCs, such as [Blender](https://www.blender.org/), [ZBrush](https://www.maxon.net/en/zbrush), or [Maya](https://www.autodesk.com/products/maya/overview) along with [GIMP](Meta%20Horizon%20Worlds%20creator%20manual.md) or [Adobe Substance Painter](Meta%20Horizon%20Worlds%20creator%20manual.md)). To learn about creating these files, **see the section on [Custom Model Import](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-model-import)**.
+**Creation**: To create a 3D model asset go to the Assets panel and click “Add New” or go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/) and click “Import”. Then add [fbx](https://www.autodesk.com/products/fbx/overview) files and images (typically created in digital content creation tools, DCCs, such as [Blender](https://www.blender.org/), [ZBrush](https://www.maxon.net/en/zbrush), or [Maya](https://www.autodesk.com/products/maya/overview) along with [GIMP](Meta%20Horizon%20Worlds%20creator%20manual.md#) or [Adobe Substance Painter](Meta%20Horizon%20Worlds%20creator%20manual.md#)). To learn about creating these files, **see the section on [Custom Model Import](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-model-import)**.
 
 **Updating**: To update the contents of a 3D Model Asset, find the asset in the Assets panel, click it, and then in the Properties panel click “Replace asset”. You can also go to the [Developer Dashboard](https://developers.meta.com/horizon/manage/), click the 3 dots on an asset and choose “edit”.
 
 **Instantiation**: When you drag out a 3D Model Asset from the Assets panel new entities are created in the world, depending on how many *root meshes* are in the asset:
 
-* **1 Mesh**: A single [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) is instantiated in the editor.
-* **2 or More Meshes**: A an [Empty Object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) containing an array children (each of which is a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)) is instantiated in the editor.
+- **1 Mesh**: A single [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) is instantiated in the editor.
+- **2 or More Meshes**: A an [Empty Object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) containing an array children (each of which is a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)) is instantiated in the editor.
 
 **Spawning**: Regardless of the number of *root meshes*, a 3D Model Asset will spawn as `Array<Entity>`. The entities in the array can be casted to [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) instances using the [Asset as() method](Meta%20Horizon%20Worlds%20creator%20manual.md#asset-as-method).
 
 **Usage**: Instantiating and spawning 3D Model Assets is where all the geometry in worlds come from. These entities will be used to create the world that players move around in, by creating [empty objects and groups](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) of them, [grabbables](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) to pick up, [attachables](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) to wear, [physics elements](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) to interact with, and all other things in a world. These assets are how you create [MeshEntities](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class), on which you can make [modifications via scripting](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class).
 
-#### MeshEntity Class
+#### [MeshEntity Class](#meshentity-class)
 
 Every [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) that has a 3D mesh (including the built-in “CMI Primitives”) can be used as a `MeshEntity` (accessed using the [Asset as() method](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method)). These come from [3D Model Assets](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset).
 
 You can apply a [tint](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style), [modify color brightness](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style), [change the texture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset), [change the material](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset), or [change the mesh](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-setmesh).
 
-| `MeshEntity` Class Member | Description |
-| --- | --- |
-| [setMaterial](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) | Change a material |
-| [setTexture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset) | Change the texture |
-| [setMesh](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-setmesh) | Change the mesh |
-| [style](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style) | Change the tint color, tint strength, and overall brightness of the material |
+| `MeshEntity` Class Member                                                   | Description                                                                  |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [setMaterial](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset) | Change a material                                                            |
+| [setTexture](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)   | Change the texture                                                           |
+| [setMesh](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-setmesh) | Change the mesh                                                              |
+| [style](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style)     | Change the tint color, tint strength, and overall brightness of the material |
 
-#### MeshEntity Style
+#### [MeshEntity Style](#meshentity-style)
 
 The [MeshEntity class](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) has a property `style` of type `EntityStyle`. You can use it for tweaking the visual presentation of the `MeshEntity`.
 
@@ -1940,62 +1913,63 @@ The [MeshEntity class](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-
 
 `EntityStyle` has a few [read-write Horizon properties](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties):
 
-| `EntityStyle` read-write Horizon property | Type | Default | Notes |
-| --- | --- | --- | --- |
-| `brightness` | `number` (`0` to `100`) | `1` | Luminance adjustment. `0` is black `1` is no change `100` is very bright. |
-| `tintColor` | [Color](Meta%20Horizon%20Worlds%20creator%20manual.md#color) | white `(1,1,1)` | A color to mix into the base color. |
-| `tintStrength` | `number` (`0` to `1`) | `0` | The amount to mix `tintColor` into the base color. `0` is no tint `1` is fully tinted |
+| `EntityStyle` read-write Horizon property | Type                                                         | Default         | Notes                                                                                 |
+| ----------------------------------------- | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------------------------------- |
+| `brightness`                              | `number` (`0` to `100`)                                      | `1`             | Luminance adjustment. `0` is black `1` is no change `100` is very bright.             |
+| `tintColor`                               | [Color](Meta%20Horizon%20Worlds%20creator%20manual.md#color) | white `(1,1,1)` | A color to mix into the base color.                                                   |
+| `tintStrength`                            | `number` (`0` to `1`)                                        | `0`             | The amount to mix `tintColor` into the base color. `0` is no tint `1` is fully tinted |
 
 **Mesh Style Equation**: When Horizon is rendering a pixel on a textured [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class), it computes a color (by looking up a pixel in the texture, a “texel”). Call that the `baseColor` is then augments that color by the equation (these are not all real functions in Horizon):
 
-```
+```typescript
 colorLerp(
-  baseColor,
-  tintColor.mul(luminance(baseColor)),
-  tintStrength
+  baseColor,
+  tintColor.mul(luminance(baseColor)),
+  tintStrength
 ).mul(brightness)
 ```
 
 where `luminance` gets the brightness of the texel color and `colorLerp` acts just like [Vec3 lerp](Meta%20Horizon%20Worlds%20creator%20manual.md#vector-linear-interpolation-lerp).
 
-#### MeshEntity setMesh
+#### [MeshEntity setMesh](#meshentity-setmesh)
 
 You can change the mesh on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) while the world is running via the `setMesh` method:
 
-```
-// MeshEntity
+```typescript
+// MeshEntity
 setMesh(
-  mesh: Asset,
-  options: SetMeshOptions
-): Promise<void>;
+  mesh: Asset,
+  options: SetMeshOptions
+): Promise<void>;
 ```
 
-#### MeshEntity setMesh
+#### [MeshEntity setMesh](#meshentity-setmesh-1)
 
 You can change the mesh on a [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) while the world is running via the `setMesh` method:
 
-```
-// MeshEntity
+```typescript
+// MeshEntity
 setMesh(
-  mesh: Asset,
-  options: SetMeshOptions
-): Promise<void>;
+  mesh: Asset,
+  options: SetMeshOptions
+): Promise<void>;
 ```
 
 Which takes two arguments:
 
-* **mesh**: An asset which needs to actually be a [3D Model Asset](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) or you will get an error. If the asset has 1 mesh then it will replace the current mesh on the entity. If the asset has multiple root meshes, then the first one will be used for the replacement.
-* **options**: An optional parameter to specify whether you also want to update the material as well (which defaults to `true`)
+- **mesh**: An asset which needs to actually be a [3D Model Asset](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) or you will get an error. If the asset has 1 mesh then it will replace the current mesh on the entity. If the asset has multiple root meshes, then the first one will be used for the replacement.
 
-  ```
-  type SetMeshOptions = {
-    updateMaterial?: boolean;
+- **options**: An optional parameter to specify whether you also want to update the material as well (which defaults to `true`)
+
+  ```typescript
+  type SetMeshOptions = {
+    updateMaterial?: boolean;
   };
   ```
 
 The method returns a `Promise<void>` which you can `await` for to know when the swap has occurred. Note that the swap is not instantaneous since the new mesh may have to be downloaded, have its lighting computed, have its [collider](Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) updated, etc.
 
-### Texture Asset
+### [Texture Asset](#texture-asset)
 
 **Description**: A Texture Asset is a 2D image (or set of images) that can be applied to [MeshEntities](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) or used in [Custom UIs](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui). You can convert an `Asset` to a `TextureAsset` using the [Asset as() method](Meta%20Horizon%20Worlds%20creator%20manual.md#asset-as-method).
 
@@ -2007,15 +1981,15 @@ For best performance and memory usage, texture dimensions should be powers of tw
 
 **Usage**: Textures can be applied to [MeshEntities](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) via the `setTexture` method:
 
-```
-// MeshEntity
+```typescript
+// MeshEntity
 setTexture(
-  texture: TextureAsset,
-  options?: SetTextureOptions
-): Promise<void>;
+  texture: TextureAsset,
+  options?: SetTextureOptions
+): Promise<void>;
 
-type SetTextureOptions = {
-  players?: Array<Player>;
+type SetTextureOptions = {
+  players?: Array<Player>;
 };
 ```
 
@@ -2025,7 +1999,7 @@ Player-specific textures
 
 Using the `players` option lets you show different textures to different players. This is useful for things like player-specific UI elements or visual effects that should only be visible to certain players.
 
-### Material Asset
+### [Material Asset](#material-asset)
 
 **Description**: A Material Asset defines how a surface should be rendered, representing one of the [supported materials](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-model-import). You can convert an `Asset` to a `MaterialAsset` using the [Asset as() method](Meta%20Horizon%20Worlds%20creator%20manual.md#asset-as-method).
 
@@ -2033,16 +2007,16 @@ Using the `players` option lets you show different textures to different players
 
 **Usage**: Materials can be applied to [MeshEntities](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) via the `setMaterial` method:
 
-```
-// MeshEntity
+```typescript
+// MeshEntity
 setMaterial(
-  materialAsset: MaterialAsset,
-  options?: SetMaterialOptions
-): Promise<void>;
+  materialAsset: MaterialAsset,
+  options?: SetMaterialOptions
+): Promise<void>;
 
-type SetMaterialOptions = {
-  // Which material slot to update (for multi-material meshes)
-  materialSlot?: number | string;
+type SetMaterialOptions = {
+  // Which material slot to update (for multi-material meshes)
+  materialSlot?: number | string;
 }
 ```
 
@@ -2052,9 +2026,9 @@ Material slots
 
 If a mesh uses multiple materials, you must specify which slot to update using the `materialSlot` option. Slots can be referenced by index or by using the Unreal naming convention: a material name ending in `_skin##` will determine a slot index (e.g. `face_skin00` is slot `0`; `face_skin03` is slot `3`). You cannot specify a slot number higher than the number of materials in the original material.
 
-See more info [here](../../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Multiple%20Materials%20per%20Mesh.md).
+See more info [here](../../Custom%20models%20\(FBX\)/Creating%20custom%20models%20for%20Horizon%20Worlds/Multiple%20Materials%20per%20Mesh.md).
 
-### Audio Asset
+### [Audio Asset](#audio-asset)
 
 **Description**: Audio assets create [Sound Gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) when instantiated or spawned.
 
@@ -2062,7 +2036,7 @@ See more info [here](../../Custom%20models%20(FBX)/Creating%20custom%20models%20
 
 **Usage**: Instantiate or [spawn](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) the asset. Usage is then the same as a [Sound Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo).
 
-### Text Asset (JSON)
+### [Text Asset (JSON)](#text-asset-json)
 
 **Description**: Text Assets make it easy to store (and version) `string` or [JSON](https://en.wikipedia.org/wiki/JSON) data. You could also paste the data into a TypeScript file, but Text Assets make it much easier to manage, share, version, etc.
 
@@ -2070,18 +2044,18 @@ See more info [here](../../Custom%20models%20(FBX)/Creating%20custom%20models%20
 
 **Usage**: To use a text asset, first get it [as an Asset instance](Meta%20Horizon%20Worlds%20creator%20manual.md#referencing-assets-props-and-ids). Then call `fetchAsData` on it:
 
-```
-// Asset
+```typescript
+// Asset
 fetchAsData(
-  options?: Partial<FetchAsDataOptions>
-): Promise<AssetContentData>;
+  options?: Partial<FetchAsDataOptions>
+): Promise<AssetContentData>;
 ```
 
 **fetchAsData options**: The optional `options` parameter in `fetchAsData` lets you specify if you want to “skip the cache”:
 
-```
-type FetchAsDataOptions = {
-  skipCache: boolean;
+```typescript
+type FetchAsDataOptions = {
+  skipCache: boolean;
 };
 ```
 
@@ -2089,17 +2063,17 @@ Skipping the caches means to fetch the latest data from the servers. If you don�
 
 **fetchAsData return type**: The `fetchAsData` function returns `Promise<AssetContentData>`. The `AssetContentData` class has two relevant methods:
 
-```
-// AssetContentData
-asText(): string
-asJSON<T = JSON>(): T | null
+```typescript
+// AssetContentData
+asText(): string
+asJSON<T = JSON>(): T | null
 ```
 
 The `asText` method will return the JSON serialized (e.g. as if with [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)).
 
 The `asJSON` method returns `null` if the the asset is not a text asset with JSON. Otherwise it returns the JSON data casted to the type `T`. **`asJson()` does no work to ensure that the data is compatible with the type `T`**. You should do runtime checks to ensure that the data has the right structure before using it. We recommend included a type “tag” and version number in the JSON if possible, to ease these checks. This is the same advice we give for [persistent object data](Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-object-data). See that section for more details on our advice.
 
-### Template Asset
+### [Template Asset](#template-asset)
 
 **Description**: Template Assets are similar to [Prefabs in Unity](https://docs.unity3d.com/Manual/Prefabs.html). They allow you to create an asset that you can instantiate, and then edit such that edits propagate to all instantiations (without losing any *overrides* on instantiations).
 
@@ -2113,7 +2087,7 @@ The `asJSON` method returns `null` if the the asset is not a text asset with JSO
 
 **Spawning**: If you [spawn](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) a template asset into a world, you will get a single entity (if the asset only has 1) or you will get an [Empty Object](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) with all the entities as children. In either case, the entity created is the [root entity](Meta%20Horizon%20Worlds%20creator%20manual.md#deleting-simply-spawned-entities).
 
-### Legacy Asset Group
+### [Legacy Asset Group](#legacy-asset-group)
 
 Recommendation: do not use
 
@@ -2127,7 +2101,7 @@ You should use [Template Assets](Meta%20Horizon%20Worlds%20creator%20manual.md#t
 
 **Spawning**: If you [spawn](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) a legacy asset group into a world, the entities will be in the array in the same order that you selected the entities when you made the asset. The first entity you select, when making the asset, becomes the **root entity**.
 
-## Custom Model Import
+## [Custom Model Import](#custom-model-import)
 
 Horizon allows creators to import 3D meshes (with materials and texture) into their worlds, which become [3D Model Assets](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) that can be instantiated (by dragging them out into the world from the Assets panel) or [spawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) while a world is running.
 
@@ -2135,30 +2109,28 @@ Note that Horizon has two different rendering systems: [SubD and Meshes](Meta%20
 
 To use custom models, see the “creating” notes in the [3D Model Assets](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset) section. You upload FBX files and png files to create a single asset (which may include multiple separate meshes / objects). The meshes are instantiated as the [MeshEntity class](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) which can be [tinted and modified with scripting](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style).
 
-The guides for creating custom models are [here](../../Custom%20models%20(FBX)/Getting%20started%20with%203D%20model%20import.md); There are a number of [supported material types](../../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md).
+The guides for creating custom models are [here](../../Custom%20models%20\(FBX\)/Getting%20started%20with%203D%20model%20import.md); There are a number of [supported material types](../../Custom%20models%20\(FBX\)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md).
 
-Note
+> [!Note]
+>
+> No post-processing, custom shaders, normal maps, rigs, skinning, baked animations, LODs, mipmaps, or custom particle effects.Currently there are no post-process rendering options which makes things like bloom, motion blur, sepia, etc impossible. Likewise, you cannot write custom shaders or use normal / bump / displacement maps. Other advanced features such as rigging, skinning, LODs, mipmaps, terrain, etc are currently unavailable. Emissive materials will look bright but don’t actually contribute to the ambient [lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting).
 
-No post-processing, custom shaders, normal maps, rigs, skinning, baked animations, LODs, mipmaps, or custom particle effects.
-
-Currently there are no post-process rendering options which makes things like bloom, motion blur, sepia, etc impossible. Likewise, you cannot write custom shaders or use normal / bump / displacement maps. Other advanced features such as rigging, skinning, LODs, mipmaps, terrain, etc are currently unavailable. Emissive materials will look bright but don’t actually contribute to the ambient [lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting).
-
-### SubD vs Custom Models
+### [SubD vs Custom Models](#subd-vs-custom-models)
 
 Horizon has two different mesh+rendering systems. They cannot be mixed; you must choose which you want to use when [creating a world](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-world). *If you find any workarounds to mix them in one world, you may experience unexpected and unpredictable results.*
 
-- **SubD (“primitives”)** - This is the original “legacy” system in Horizon. Worlds are created solely using primitive shapes (cub, sphere, cylinder, cone, etc). The primitives are implement using [subdivision](https://en.wikipedia.org/wiki/Subdivision_surface); you’ll notice that as you get closer to the shapes they will subdivide and become smoother and smooth. Since Horizon uses [vertex lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting) this means that [static lights](Meta%20Horizon%20Worlds%20creator%20manual.md#static-light-gizmo) and [dynamic lights](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) can appear to have decent spatial resolution.
-- **Custom Models (“tri-mesh”)** - This system uses a more standard rendering pipeline of triangular mesh (tri-mesh) models with materials and textures. Here you can make detailed meshes (and bake geometric detail into textures), make transparent meshes, create custom colliders, offset pivots, and more.
+1. **SubD (“primitives”)** - This is the original “legacy” system in Horizon. Worlds are created solely using primitive shapes (cub, sphere, cylinder, cone, etc). The primitives are implement using [subdivision](https://en.wikipedia.org/wiki/Subdivision_surface); you’ll notice that as you get closer to the shapes they will subdivide and become smoother and smooth. Since Horizon uses [vertex lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting) this means that [static lights](Meta%20Horizon%20Worlds%20creator%20manual.md#static-light-gizmo) and [dynamic lights](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) can appear to have decent spatial resolution.
+2. **Custom Models (“tri-mesh”)** - This system uses a more standard rendering pipeline of triangular mesh (tri-mesh) models with materials and textures. Here you can make detailed meshes (and bake geometric detail into textures), make transparent meshes, create custom colliders, offset pivots, and more.
 
-#### Horizon Lighting
+#### [Horizon Lighting](#horizon-lighting)
 
 Horizon uses [vertex lighting](https://en.wikipedia.org/wiki/Gouraud_shading). You’ll notice that [dynamic lights](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) (e.g. if you make a flashlight) don’t look good on your meshes unless you tessellate sufficient (cut triangles into smaller triangular to create a higher density of vertices).
 
 Horizon has a custom built [global illumination (GI)](https://en.wikipedia.org/wiki/Global_illumination) system that calculates [ambient occlusion (AO)](https://en.wikipedia.org/wiki/Ambient_occlusion) (so that meshes self-shadow) as well as color bounce and color bleed. All of this lighting information is baked onto the meshes and into light probes (some of which is stored in the [world snapshot](Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot)). This is one of the main reasons that [spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) is slow; it is computing the lighting. [Sublevel streaming](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) is so much faster because lighting is pre-computed at the (static) world level.
 
-If you want to create meshes that *disable* Horizon’s GI system then you should use the [*unlit* material](../../Custom%20models%20(FBX)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md#unlit-materials).
+If you want to create meshes that *disable* Horizon’s GI system then you should use the [*unlit* material](../../Custom%20models%20\(FBX\)/Creating%20custom%20models%20for%20Horizon%20Worlds/Materials%20Guidance%20and%20Reference%20for%20Custom%20Models.md#unlit-materials).
 
-## Scripting
+## [Scripting](#scripting)
 
 Scripts are how you create dynamism in worlds. You use them to create interactivity and movement. You use scripts to make something simple like a door that opens when you approach it as well as the most complex things, such as an entire complex team-vs-team shooter game (which would use many separate scripts).
 
@@ -2170,40 +2142,40 @@ Scripts are how you create dynamism in worlds. You use them to create interactiv
 
 **Core types**: Component instances communicate with one another and [the world](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) by [sending and receiving events](Meta%20Horizon%20Worlds%20creator%20manual.md#communication-between-components). There are many types in Horizon, but you’ll most often use the core game types: [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities), [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players), [Asset](Meta%20Horizon%20Worlds%20creator%20manual.md#assets), [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#components), and [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class); the core data types: [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) (for position and scale), [Color](Meta%20Horizon%20Worlds%20creator%20manual.md#color), and [Quaternion](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) (for rotations); and the event types: [LocalEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events), and [NetworkEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events).
 
-### Creating and Editing Scripts
+### [Creating and Editing Scripts](#creating-and-editing-scripts)
 
-You can create scripts by using the create button in the scripts dropdown or simply creating a new file in the scripts folder. Click the [≣] button in the editor and then “Launch TypeScript Editor”. You can then create and edit files. Note that script-editing behaves quite differently depending on if [file-backed scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#file-backed-scripts-fbs) are enabled.
+You can create scripts by using the create button in the scripts dropdown or simply creating a new file in the scripts folder. Click the \[≣] button in the editor and then “Launch TypeScript Editor”. You can then create and edit files. Note that script-editing behaves quite differently depending on if [file-backed scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#file-backed-scripts-fbs) are enabled.
 
 Editing a script while the editor is playing a world reloads that file.
 
 This is often useful, but it can cause surprises with only part of the world reloading. You may need to restart the world for certain efforts. Read about [file execution](Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution) for more information.
 
-#### Syncing Scripts
+#### [Syncing Scripts](#syncing-scripts)
 
 When you create, edit, or delete scripts in a world’s scripts folder, Horizon automatically tracks and syncs those edits to the [world snapshot](Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot).
 
-Tip
+> [!Tip]
+>
+> If syncing doesn’t appear to be working, delete the *.editor* file, leave world, and come back.
 
-If syncing doesn’t appear to be working, delete the *.editor* file, leave world, and come back.
-
-#### Scripts in Source Control
+#### [Scripts in Source Control](#scripts-in-source-control)
 
 When you open a world in the editor, Horizon checks to see if the scripts match what is saved in the [world snapshot](Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot). If they don’t match, it will ask if you want to update the world with the scripts you have in the folder. Thus, the scripts folder acts like an “auto-sync directory”. This means that you can put a git repo in the scripts folder, share the same repo with different “forks” of a world, use submodules to share scripts, and more!
 
-### Horizon Properties
+### [Horizon Properties](#horizon-properties)
 
 Most data in the Horizon [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) is accessed via *Horizon Properties*:
 
-```
-const pos = entity.position.get()
+```typescript
+const pos = entity.position.get()
 otherEntity.position.set(pos)
 ```
 
 Properties can be
 
-- **read-only**: only a `get()` method. Uses `ReadableHorizonProperty`.
-- **write-only**: only a `set()` method. Uses `WritableHorizonProperty`.
-- **read-write**: `get()` and `set()` methods. Uses `HorizonProperty`.
+1. **read-only**: only a `get()` method. Uses `ReadableHorizonProperty`.
+2. **write-only**: only a `set()` method. Uses `WritableHorizonProperty`.
+3. **read-write**: `get()` and `set()` methods. Uses `HorizonProperty`.
 
 **Calling `set` on a Horizon property does *not* change the value immediately**. See the section on [scene graph mutations](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations) for the details.
 
@@ -2213,56 +2185,56 @@ Horizon Property Example
 
 Here is some of the [`PhysicalEntity`](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) class:
 
-```
-class PhysicalEntity extends Entity {
-  gravityEnabled: WritableHorizonProperty<boolean>
-  locked: HorizonProperty<boolean>
-  velocity: ReadableHorizonProperty<Vec3>
- // ...
+```typescript
+class PhysicalEntity extends Entity {
+  gravityEnabled: WritableHorizonProperty<boolean>
+  locked: HorizonProperty<boolean>
+  velocity: ReadableHorizonProperty<Vec3>
+ // ...
 }
 ```
 
 From the above definition we can discern that we can do the following with a physical entity:
 
-* `set` if is gravity enabled, as a `boolean`, but can’t get the current setting.
-* `set` if it is locked, as a `boolean`, and `get` if it is locked.
-* `get` the current velocity, as a `Vec3`, but not set the velocity (instead, you must use [forces](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)).
+- `set` if is gravity enabled, as a `boolean`, but can’t get the current setting.
+- `set` if it is locked, as a `boolean`, and `get` if it is locked.
+- `get` the current velocity, as a `Vec3`, but not set the velocity (instead, you must use [forces](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)).
 
 Note that Writable properties may accept a second argument. Consider this snippet of the [AudioGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) class:
 
-```
-class AudioGizmo extends Entity {
-pitch: WritableHorizonProperty<number>;
-volume: WritableHorizonProperty<number, AudioOptions>;
-// ...
+```typescript
+class AudioGizmo extends Entity {
+pitch: WritableHorizonProperty<number>;
+volume: WritableHorizonProperty<number, AudioOptions>;
+// ...
 }
 ```
 
 We can `set` the current pitch and volume (but not get them):
 
-```
+```typescript
 audioGizmo.pitch.set(12)
 audioGizmo.volume.set(0.5)
 ```
 
 The `set()` on `volume` takes an additional second parameter of type `AudioOptions`, allowing further configuration (duration of the fade, in this case).
 
-```
-audioGizmo.volume.set(0.5, { fade: 1 })
+```typescript
+audioGizmo.volume.set(0.5, { fade: 1 })
 ```
 
-#### Horizon Property Subtleties
+#### [Horizon Property Subtleties](#horizon-property-subtleties)
 
-Horizon Property's `set()` is not immediate.
+Horizon Property's \`set()\` is not immediate.
 
 When you `set` a Horizon property the value is not immediately saved back to the [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph). This allows different scripts to all “see the same state of the world” regardless of what order they run in. This means that if you `get` a value right after setting it that you will still get the old value.
 
 In the following code `pos1` and `pos2` will have the same value.
 
-```
-const pos1 = entity.position.get()
+```typescript
+const pos1 = entity.position.get()
 entity.position.set(Vec3.zero)
-const pos2 = entity.position.get()
+const pos2 = entity.position.get()
 ```
 
 Read about the [frame sequence](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) to learn more about when properties update.
@@ -2275,62 +2247,61 @@ To avoid a dangerous situation, never modify the result of `get()`. Create a new
 
 Horizon properties cache their values until the scene graph is updated (see [frame sequence](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) for when). This means that `get()` keeps returning the same value until the update occurs. The following code is then dangerous:
 
-```
-// BAD #1!
-const p = entity.position.get()
-p.x += 10
+```typescript
+// BAD #1!
+const p = entity.position.get()
+p.x += 10
 
-// BAD #1!
-const p = entity.position.get()
-p.addInPlace(new Vec3(0, 10, 0))
+// BAD #1!
+const p = entity.position.get()
+p.addInPlace(new Vec3(0, 10, 0))
 ```
 
 If any code now reads that object’s position it will get the wrong value, until the next time the property is updated in the [frame sequence](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence).
 
 You should always `clone` a Horizon property’s value before modifying it (or add a [method that creates a new value](Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods)).
 
-```
-// OK #1
-const p = entity.position.get().clone()
-p.x += 10
+```typescript
+// OK #1
+const p = entity.position.get().clone()
+p.x += 10
 
-// OK #2
-const p = entity.position.get().add(new Vec3(0, 10, 0))
+// OK #2
+const p = entity.position.get().add(new Vec3(0, 10, 0))
 ```
 
-Another dangerous item to consider is that [TypeScript’s built-in class property setters and getters](https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters) do not work with Horizon properties.”>
-Horizon does not use standard TypeScript properties. You must do:
+Another dangerous item to consider is that [TypeScript’s built-in class property setters and getters](https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters) do not work with Horizon properties.”> Horizon does not use standard TypeScript properties. You must do:
 
-```
+```typescript
 entity.position.set(newPosition)
 ```
 
 and will get an error if you do:
 
-```
-entity.position = newPosition
+```typescript
+entity.position = newPosition
 ```
 
-### Types
+### [Types](#types)
 
 There are many TypeScript types in Horizon; however, there are a few that form the backbone of most scripts:
 
-| Type | Description |
-| --- | --- |
-| [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#components) | Add interactivity and logic to a world (by creating a [subclasses](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) and attaching it to an entity). |
-| [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) | Information and methods related to the current [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances). |
-| [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | A [node](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) in the [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) with intrinsic attributes and behavior. There are many [subtypes](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-types) available via [entity.as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method). |
-| [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) | A [player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) in the world ([instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances)), including the “[server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player)” and [NPC players](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo). |
-| [Asset](Meta%20Horizon%20Worlds%20creator%20manual.md#assets) | Data that lives outside the scene graph (such as [text blobs](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) and [textures](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)). |
-| [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | A “3D quantity” which can be used to represent [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position), [velocity, acceleration, force, torque](Meta%20Horizon%20Worlds%20creator%20manual.md#physics), [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale), and more. |
-| [Quaternion](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) | An abstract mathematical object primarily used for representing *rotations*. |
-| [Color](Meta%20Horizon%20Worlds%20creator%20manual.md#color) | An RGB Color with each component between 0 and 1. |
+| Type                                                                   | Description                                                                                                                                                                                                                                                                                                                                                                 |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#components)  | Add interactivity and logic to a world (by creating a [subclasses](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) and attaching it to an entity).                                                                                                                                                                                                           |
+| [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class)     | Information and methods related to the current [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances).                                                                                                                                                                                                                                                         |
+| [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities)       | A [node](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) in the [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) with intrinsic attributes and behavior. There are many [subtypes](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-types) available via [entity.as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method). |
+| [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players)        | A [player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) in the world ([instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances)), including the “[server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player)” and [NPC players](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo).                                              |
+| [Asset](Meta%20Horizon%20Worlds%20creator%20manual.md#assets)          | Data that lives outside the scene graph (such as [text blobs](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json) and [textures](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)).                                                                                                                                                                  |
+| [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)             | A “3D quantity” which can be used to represent [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position), [velocity, acceleration, force, torque](Meta%20Horizon%20Worlds%20creator%20manual.md#physics), [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale), and more.                                                                                  |
+| [Quaternion](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) | An abstract mathematical object primarily used for representing *rotations*.                                                                                                                                                                                                                                                                                                |
+| [Color](Meta%20Horizon%20Worlds%20creator%20manual.md#color)           | An RGB Color with each component between 0 and 1.                                                                                                                                                                                                                                                                                                                           |
 
 **Construction / new**: `Component`s, `Entity`s, `Player`s, and the `World` are all created by the system. You should never instantiate these directly with `new`. You can (and will) instantiate `Vec3`, `Quaternion`, and `Color`. You can allocate `Asset`s directly with their asset ids.
 
 **Equality comparison**: `Entity` and `Player` can be compared directly with `===` and `!==`; these have been implemented to compare their underlying `id`s. All other types will use built-in TypeScript equality checks. `Vec3`, `Quaternion`, and `Color` implement [`Comparable<T>`](Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface).
 
-#### Comparable Interface
+#### [Comparable Interface](#comparable-interface)
 
 `Vec3`, `Quaternion`, and `Color` implement `Comparable<T>` which provides the methods `equal(other: T): boolean` and `equalApprox(other: T, epsilon?: number): boolean`.
 
@@ -2338,134 +2309,134 @@ There are many TypeScript types in Horizon; however, there are a few that form t
 
 All three classes also implement static versions of these methods. For clarity here is a subset of the `Vec3` class:
 
-```
-class Vec3 implements Comparable<Vec3> {
-  equals(vec: Vec3): boolean;
-  equalsApprox(vec: Vec3, epsilon?: number): boolean;
+```typescript
+class Vec3 implements Comparable<Vec3> {
+  equals(vec: Vec3): boolean;
+  equalsApprox(vec: Vec3, epsilon?: number): boolean;
 
-  static equals(vecA: Vec3, vecB: Vec3): boolean;
-  static equalsApprox(vecA: Vec3, vecB: Vec3, epsilon?: number): boolean;
+  static equals(vecA: Vec3, vecB: Vec3): boolean;
+  static equalsApprox(vecA: Vec3, vecB: Vec3, epsilon?: number): boolean;
 
-  // ...
+  // ...
 }
 ```
 
 Example: Comparing Vec3 instances
 
-```
-const a = new Vec3(1, 2, 3)
-const b = new Vec3(1, 2, 3)
-console.log(a === b)            // false ❌
-console.log(a.equal(b))         // true  ✅
-const c = new Vec3(1, 2, 3.000000001)
-console.log(a.equal(c))         // false ❌
-console.log(a.equalApprox(c))   // true  ✅
+```typescript
+const a = new Vec3(1, 2, 3)
+const b = new Vec3(1, 2, 3)
+console.log(a === b)            // false ❌
+console.log(a.equal(b))         // true  ✅
+const c = new Vec3(1, 2, 3.000000001)
+console.log(a.equal(c))         // false ❌
+console.log(a.equalApprox(c))   // true  ✅
 ```
 
 If you compare `Vec3`, `Quaternion`, and `Color` with `===` or `!==` then you are doing *referential* equality which means “is this the exact same instance?”. In the above example `a === b` is `false` because `a` and `b` are different class instances (even though they represent the same vector); however `a === a` is `true` because both sides are the same class instance (the same *reference*).
 
-#### Copying vs Mutating Methods
+#### [Copying vs Mutating Methods](#copying-vs-mutating-methods)
 
 `Vec3`, `Quaternion`, and `Color` all implement a number of patterns around mutability. This section only refers to those 3 classes.
 
-- **inPlace methods**: methods that end with the suffix `...InPlace` will mutate the `this` they are called on. Thus `vec.mulInPlace(2)` is the same as `vec.x *= 2; vec.y *= 2; vec.z *= 2`. In place methods return `this` for convenience (chaining operations).
-- **new by default**: in contrast to the above point, if a method *does not end with `...InPlace` then it creates a \*new* instance. Thus `vec.mul(2)` is the same as `new Vec3(vec.x * 2, vec.y * 2, vec.z * 2)`. The one exception is `copy()`.
-- **copy(input)**: this method should really be called `copyInPlace`. It takes the `input` argument and makes `this` be `equal()` to it. It returns `this` again for convenience (chaining operations). Thus `vec.copy(other)` is the same as `vec.x = other.x; vec.y = other.y; vec.z = other.z`.
-- **clone()**: creates a new equivalent instance ([which would return true with `equal()` but not `===`](Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface)). Thus `vec.clone()` is the same as `new Vec3(vec.x, vec.y, vec.z)`.
-- **out argument**: some methods (e.g. `Vec3.add`) take an optional `out` argument. If the `out` argument is provided then the result is “created” inside of that argument (similar to `out.copy(result)`) and also returned. If the *out* argument is not provided then a new instance is created and returns. Thus `Vec3.add(a, b)` is the same as `a.add(b)`, whereas `Vec3.add(a, b, result)` is equivalent to `result.copy(a).addInPlace(b)`.
+1. **inPlace methods**: methods that end with the suffix `...InPlace` will mutate the `this` they are called on. Thus `vec.mulInPlace(2)` is the same as `vec.x *= 2; vec.y *= 2; vec.z *= 2`. In place methods return `this` for convenience (chaining operations).
+2. **new by default**: in contrast to the above point, if a method *does not end with `...InPlace` then it creates a \*new* instance. Thus `vec.mul(2)` is the same as `new Vec3(vec.x * 2, vec.y * 2, vec.z * 2)`. The one exception is `copy()`.
+3. **copy(input)**: this method should really be called `copyInPlace`. It takes the `input` argument and makes `this` be `equal()` to it. It returns `this` again for convenience (chaining operations). Thus `vec.copy(other)` is the same as `vec.x = other.x; vec.y = other.y; vec.z = other.z`.
+4. **clone()**: creates a new equivalent instance ([which would return true with `equal()` but not `===`](Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface)). Thus `vec.clone()` is the same as `new Vec3(vec.x, vec.y, vec.z)`.
+5. **out argument**: some methods (e.g. `Vec3.add`) take an optional `out` argument. If the `out` argument is provided then the result is “created” inside of that argument (similar to `out.copy(result)`) and also returned. If the *out* argument is not provided then a new instance is created and returns. Thus `Vec3.add(a, b)` is the same as `a.add(b)`, whereas `Vec3.add(a, b, result)` is equivalent to `result.copy(a).addInPlace(b)`.
 
-Danger: Don't mutate the result of a Horizon Property `get()`.
+Danger: Don't mutate the result of a Horizon Property \`get()\`.
 
 Mutating the result of a property `get()` -- either by mutating a field, such as `v.x += 4` on a vector or via an *in place* method such as `v.addInPlace(w)` or `v.copy(w)` -- will cause the property to [report the wrong value](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-property-subtleties) to future `get()`s.
 
-#### Vec3
+#### [Vec3](#vec3)
 
 The `Vec3` class represents a 3-dimensional quantity which is usually a 3D [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position). It can also be used to represent an [offset](Meta%20Horizon%20Worlds%20creator%20manual.md#offsets---move-rotate-and-scale), [velocity, force, torque](Meta%20Horizon%20Worlds%20creator%20manual.md#physics), [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale), [Euler Angles](Meta%20Horizon%20Worlds%20creator%20manual.md#euler-angles), and more.
 
-##### Vector Creation
+##### [Vector Creation](#vector-creation)
 
 `Vec3s` can be created in several ways:
 
+```typescript
+// Direct construction
+const vec = new Vec3(1, 2, 3)
+
+// Static convenience vectors
+const origin = Vec3.zero      // ( 0,  0,  0)
+const unit = Vec3.one         // ( 1,  1,  1)
+const right = Vec3.right      // ( 1,  0,  0)
+const up = Vec3.up            // ( 0,  1,  0)
+const forward = Vec3.forward  // ( 0,  0,  1)
+const down = Vec3.left        // (-1,  0,  0)
+const down = Vec3.down        // ( 0, -1,  0)
+const forward = Vec3.backward // ( 0,  0, -1)
 ```
-// Direct construction
-const vec = new Vec3(1, 2, 3)
 
-// Static convenience vectors
-const origin = Vec3.zero      // ( 0,  0,  0)
-const unit = Vec3.one         // ( 1,  1,  1)
-const right = Vec3.right      // ( 1,  0,  0)
-const up = Vec3.up            // ( 0,  1,  0)
-const forward = Vec3.forward  // ( 0,  0,  1)
-const down = Vec3.left        // (-1,  0,  0)
-const down = Vec3.down        // ( 0, -1,  0)
-const forward = Vec3.backward // ( 0,  0, -1)
-```
+##### [Vector Properties](#vector-properties)
 
-##### Vector Properties
+- `x: number` - The magnitude along the X axis
+- `y: number` - The magnitude along the Y axis
+- `z: number` - The magnitude along the Z axis
 
-* `x: number` - The magnitude along the X axis
-* `y: number` - The magnitude along the Y axis
-* `z: number` - The magnitude along the Z axis
-
-##### Vector Operations
+##### [Vector Operations](#vector-operations)
 
 `Vec3` has the `equal(other: Vec3)` and `equalApprox(other: Vec3, epsilon?: number)` methods from [`Comparable<T>`](Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface), and their `static` counterparts. It also has `copy(other)` and `clone()`[methods](Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods).
 
 `Vec3`s support many common mathematical operations which support both [copying and mutating versions](Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods):
 
-```
-const v1 = new Vec3(1, 0, 0)
-const v2 = new Vec3(0, 1, 0)
+```typescript
+const v1 = new Vec3(1, 0, 0)
+const v2 = new Vec3(0, 1, 0)
 
-// Addition and subtraction
-const sum = v1.add(v2)       // (1,  1, 0)
-const diff = v1.sub(v2)      // (1, -1, 0)
+// Addition and subtraction
+const sum = v1.add(v2)       // (1,  1, 0)
+const diff = v1.sub(v2)      // (1, -1, 0)
 
-// Scalar multiplication and division
-const doubled = v1.mul(2)    // (2,   0, 0)
-const halved = v1.div(2)     // (0.5, 0, 0)
+// Scalar multiplication and division
+const doubled = v1.mul(2)    // (2,   0, 0)
+const halved = v1.div(2)     // (0.5, 0, 0)
 
-// Length operations
-const length = v1.magnitude()           // 1
-const lengthSqr = v1.magnitudeSquared() // 1
+// Length operations
+const length = v1.magnitude()           // 1
+const lengthSqr = v1.magnitudeSquared() // 1
 
-// Normalization (makes length 1)
-const normalized = v1.normalize() // (1, 0, 0)
+// Normalization (makes length 1)
+const normalized = v1.normalize() // (1, 0, 0)
 
-// Vector products
-const dot = v1.dot(v2)       // 0
-const cross = v1.cross(v2)   // (0, 0, 1)
+// Vector products
+const dot = v1.dot(v2)       // 0
+const cross = v1.cross(v2)   // (0, 0, 1)
 
-// Get distance between vectors
-const dist = v1.distance(v2)           // 1.414...
-const distSqr = v1.distanceSquared(v2) // 2
+// Get distance between vectors
+const dist = v1.distance(v2)           // 1.414...
+const distSqr = v1.distanceSquared(v2) // 2
 ```
 
 The following table assumes that `v`, `w`, `r`, and `out` are `Vec3`s; `s` and `n` are `number`s.
 
-| Operation | Code | Math | Description |
-| --- | --- | --- | --- |
-| Addition | `r = v.add(w)` `v.addInPlace(w)` `Vec3.add(v, w, out)` | Get the sum of two vectors. |  |
-| Subtraction | `r = v.sub(w)` `v.subInPlace(w)` `Vec3.sub(v, w, out)` | Get the difference of two vectors. |  |
-| Scalar Multiplication | `r = v.mul(w)` `v.mulInPlace(w)` `Vec3.mul(v, s, out)` | Scale a vector. |  |
-| Scalar Division | `r = v.div(w)` `v.divInPlace(w)` `Vec3.div(v, s, out)` | Inverse-scale a vector. |  |
-| Component-wise Multiplication | `r = v.componentMul(w)` `v.componentMulInPlace(w)` | Multiply the two vectors component-by-component. |  |
-| Component-wise Division | `r = v.componentDiv(w)` `v.componentDivInPlace(w)` | Divide the two vectors component-by-component. |  |
-| Magnitude (Length) | `n = v.magnitude()` | Compute the Euclidean magnitude (length or norm) of the vector. |  |
-| Magnitude (Length) Squared | `n = v.magnitudeSquared()` | Compute the Euclidean magnitude (length or norm) squared of the vector. |  |
-| Normalize | `r = v.normalize()` `v.normalizeInPlace()` `Vec3.normalize(v, out)` | Divide a vector by its length to product a vector with a length of 1 (in the same direction). Exception: the zero-vector normalizes to the zero-vector. |  |
-| Distance | `n = v.distance(w)` | The (Euclidean) distance between `v` and `w`. |  |
-| Distance Squared | `n = v.distanceSquared(w)` | The squared (Euclidean) distance between `v` and `w`. |  |
-| Dot Product | `n = v.dot(w)` `n = Vec3.dot(v, w)` | The [dot product](Meta%20Horizon%20Worlds%20creator%20manual.md#dot-product) of `v` and `w`. |  |
-| Cross Product | `r = v.cross(w)` `v.crossInPlace(w)` `Vec3.cross(v, w, out)` | The [cross product](Meta%20Horizon%20Worlds%20creator%20manual.md#cross-product) of `v` and `w`. |  |
-| Reflection | `r = v.reflect(w)` `v.reflectInPlace(w)` | [Reflect](Meta%20Horizon%20Worlds%20creator%20manual.md#vector-reflect)`v` across `w`. |  |
-| Lerp | `Vec3.lerp(v, w, s, out)` | Compute the [linear interpolation](Meta%20Horizon%20Worlds%20creator%20manual.md#vector-linear-interpolation-lerp)`v` and `w` the amount `s` |  |
+| Operation                     | Code                                                                | Math                                                                                                                                                    | Description |
+| ----------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Addition                      | `r = v.add(w)` `v.addInPlace(w)` `Vec3.add(v, w, out)`              | Get the sum of two vectors.                                                                                                                             |             |
+| Subtraction                   | `r = v.sub(w)` `v.subInPlace(w)` `Vec3.sub(v, w, out)`              | Get the difference of two vectors.                                                                                                                      |             |
+| Scalar Multiplication         | `r = v.mul(w)` `v.mulInPlace(w)` `Vec3.mul(v, s, out)`              | Scale a vector.                                                                                                                                         |             |
+| Scalar Division               | `r = v.div(w)` `v.divInPlace(w)` `Vec3.div(v, s, out)`              | Inverse-scale a vector.                                                                                                                                 |             |
+| Component-wise Multiplication | `r = v.componentMul(w)` `v.componentMulInPlace(w)`                  | Multiply the two vectors component-by-component.                                                                                                        |             |
+| Component-wise Division       | `r = v.componentDiv(w)` `v.componentDivInPlace(w)`                  | Divide the two vectors component-by-component.                                                                                                          |             |
+| Magnitude (Length)            | `n = v.magnitude()`                                                 | Compute the Euclidean magnitude (length or norm) of the vector.                                                                                         |             |
+| Magnitude (Length) Squared    | `n = v.magnitudeSquared()`                                          | Compute the Euclidean magnitude (length or norm) squared of the vector.                                                                                 |             |
+| Normalize                     | `r = v.normalize()` `v.normalizeInPlace()` `Vec3.normalize(v, out)` | Divide a vector by its length to product a vector with a length of 1 (in the same direction). Exception: the zero-vector normalizes to the zero-vector. |             |
+| Distance                      | `n = v.distance(w)`                                                 | The (Euclidean) distance between `v` and `w`.                                                                                                           |             |
+| Distance Squared              | `n = v.distanceSquared(w)`                                          | The squared (Euclidean) distance between `v` and `w`.                                                                                                   |             |
+| Dot Product                   | `n = v.dot(w)` `n = Vec3.dot(v, w)`                                 | The [dot product](Meta%20Horizon%20Worlds%20creator%20manual.md#dot-product) of `v` and `w`.                                                            |             |
+| Cross Product                 | `r = v.cross(w)` `v.crossInPlace(w)` `Vec3.cross(v, w, out)`        | The [cross product](Meta%20Horizon%20Worlds%20creator%20manual.md#cross-product) of `v` and `w`.                                                        |             |
+| Reflection                    | `r = v.reflect(w)` `v.reflectInPlace(w)`                            | [Reflect](Meta%20Horizon%20Worlds%20creator%20manual.md#vector-reflect)`v` across `w`.                                                                  |             |
+| Lerp                          | `Vec3.lerp(v, w, s, out)`                                           | Compute the [linear interpolation](Meta%20Horizon%20Worlds%20creator%20manual.md#vector-linear-interpolation-lerp)`v` and `w` the amount `s`            |             |
 
-##### Dot Product
+##### [Dot Product](#dot-product)
 
 The **dot product** is a fundamental vector operation that multiples the lengths of the two vectors together and then multiples in a “sameness value”; that value is 1 if they are parallel, 0 if they are perpendicular, and -1 if the are facing opposite directions (anti-parallel). If the two vectors both have length 1 then the dot product gives you a number between -1 and 1. The length of the dot product in general is:
 
-![](../../_assets/images/add6c1ec50aff2bc9610215d61f8324e6e2c2a16063e25ed910e093fd5c0ff41.png)
+![](../../_assets/images/18b928413f17e4526fe992899520dfbe64433cf7d1e17f864213ffdbc4b3d3eb.png)
 
 where
 
@@ -2475,567 +2446,563 @@ is the angle between the two vectors.
 
 Common uses for dot product include:
 
-* Determining if vectors are **perpendicular** (dot product is 0)
-* Testing if vectors are pointing in **similar directions** (dot product > 0)
-* Testing if vectors are **pointing apart** (dot product < 0)
-* Finding the **angle between** vectors. The angle (in radians) between `v` and `w` is
-
+- Determining if vectors are **perpendicular** (dot product is 0)
+- Testing if vectors are pointing in **similar directions** (dot product > 0)
+- Testing if vectors are **pointing apart** (dot product < 0)
+- Finding the **angle between** vectors. The angle (in radians) between `v` and `w` is
+  ```typescript
+  Math.acos(v.dot(w).div(v.magnitude() * w.magnitude()))
   ```
-  Math.acos(v.dot(w).div(v.magnitude() * w.magnitude()))
-  ```
-* Calculating the **projection** of one vector onto another. To find the vector you get when “flattening” `v` onto `w` you do
-
-  ```
-  w.mul(v.dot(w) / w.magnitudeSquared())
+- Calculating the **projection** of one vector onto another. To find the vector you get when “flattening” `v` onto `w` you do
+  ```typescript
+  w.mul(v.dot(w) / w.magnitudeSquared())
   ```
 
 The diagram below shows the “projection of `v` only `w`” as the orange arrow; it’s like the “shadow” of `v` on `w`.
 
-![](../../_assets/images/add6c1ec50aff2bc9610215d61f8324e6e2c2a16063e25ed910e093fd5c0ff41.png)
+![](../../_assets/images/18b928413f17e4526fe992899520dfbe64433cf7d1e17f864213ffdbc4b3d3eb.png)
 
-##### Cross Product
+##### [Cross Product](#cross-product)
 
 The cross product produces a new vector that is perpendicular to both input vectors.
 
 This is especially useful for:
 
-* Finding perpendicular directions
-* Determining surface normals
-* Creating coordinate systems (e.g. finding the `right` vector from `up` and `forward`).
+- Finding perpendicular directions
+- Determining surface normals
+- Creating coordinate systems (e.g. finding the `right` vector from `up` and `forward`).
 
 Cross product order matters.
 
 The cross product is not commutative: `up.cross(forward)` produces `right`, whereas `forward.cross(up)` produces `left`.
 
+```typescript
+const right = new Vec3(1, 0, 0)
+const up = new Vec3(0, 1, 0)
+
+// Cross product returns a vector perpendicular to both inputs
+const forward = right.cross(up)    // (0,  0,  1)
+const backward = up.cross(right)   // (0,  0, -1)
+
+// Building a coordinate system
+const normal = surfaceNormal.normalize()
+const tangent = normal.cross(Vec3.up).normalize()
+const bitangent = normal.cross(tangent)
+
+// Static method with optional output vector
+const result = new Vec3(0, 0, 0)
+Vec3.cross(right, up, result)  // Stores result in existing vector
 ```
-const right = new Vec3(1, 0, 0)
-const up = new Vec3(0, 1, 0)
 
-// Cross product returns a vector perpendicular to both inputs
-const forward = right.cross(up)    // (0,  0,  1)
-const backward = up.cross(right)   // (0,  0, -1)
-
-// Building a coordinate system
-const normal = surfaceNormal.normalize()
-const tangent = normal.cross(Vec3.up).normalize()
-const bitangent = normal.cross(tangent)
-
-// Static method with optional output vector
-const result = new Vec3(0, 0, 0)
-Vec3.cross(right, up, result)  // Stores result in existing vector
-```
-
-##### Vector Reflect
+##### [Vector Reflect](#vector-reflect)
 
 Vector reflection, via `v.reflect(n)`, calculates how a vector bounces off a surface. Given a vector `n`, it acts like that vector is pointing directly out from a surface. Then it takes the `v` and gives the direction after `v` “bounces” off the surface.
 
-![](../../_assets/images/0145aca002d43883601a3c419a2e83b91a6c599cec73f5a369a672531d8f392f.png)
+![](../../_assets/images/4a2fc0a378aa0c24a2915fa9a7da918374ae8ba87ba5794209d85d40ebda14d8.png)
 
 Vector reflection is most often used for:
 
-* [Collision](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) calculations
-* Physics simulations
-* Ray calculations
+- [Collision](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) calculations
+- Physics simulations
+- Ray calculations
 
 The code `v.reflect(n)` is equivalent to
 
-```
-v.sub(n.mul(2 * v.dot(n) / n.magnitudeSquared()))
+```typescript
+v.sub(n.mul(2 * v.dot(n) / n.magnitudeSquared()))
 ```
 
-##### Vector Linear Interpolation (Lerp)
+##### [Vector Linear Interpolation (Lerp)](#vector-linear-interpolation-lerp)
 
-Linear interpolation is the act of smoothly blending between two values (linearly) and is usually abbreviated as “Lerp” (Linear interpolation).
+Linear interpolation is the act of smoothly blending between two values (linearly) and is usually abbreviated as “Lerp” (*L*inear int*erp*olation).
 
 **Blend value**: Lerp takes a start a value, an end value, and a “blend” number. If the blend value is 0 then you get back the start value. If the blend value is 1 then you get the end value. A blend value of 0.5 gives you the value halfway between the start and the end. A blend value of 0.25 gives the point one-fourth of the way from the start to the end. And so on.
 
-```
-const start = new Vec3(0, 0, 0)
-const end = new Vec3(10, 0, 0)
+```typescript
+const start = new Vec3(0, 0, 0)
+const end = new Vec3(10, 0, 0)
 
-const mid = Vec3.lerp(start, end, 0.5)        //  (5, 0, 0)
-const nearStart = Vec3.lerp(start, end, 0.3)  //  (3, 0, 0)
-const atEnd = Vec3.lerp(start, end, 1.0)      // (10, 0, 0)
+const mid = Vec3.lerp(start, end, 0.5)        //  (5, 0, 0)
+const nearStart = Vec3.lerp(start, end, 0.3)  //  (3, 0, 0)
+const atEnd = Vec3.lerp(start, end, 1.0)      // (10, 0, 0)
 ```
 
-#### Color
+#### [Color](#color)
 
 The `Color` class contains an RGB (red, green, blue) color with each component between 0 and 1. The class allows color space conversion (from [HSV](Meta%20Horizon%20Worlds%20creator%20manual.md#color-space-conversions-hsv)), [hex colors](Meta%20Horizon%20Worlds%20creator%20manual.md#hex-colors), and [operations](Meta%20Horizon%20Worlds%20creator%20manual.md#color-operations) that can be used for effects such as [blending and filtering](Meta%20Horizon%20Worlds%20creator%20manual.md#color-blending).
 
 **No alpha**: The `Color` class does not have an `alpha` component (transparency). It is possible to use alpha with [Custom UI](Meta%20Horizon%20Worlds%20creator%20manual.md#uinode-types) and with [meshes](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-model-import) but those alpha values are *not* part of the `Color` class.
 
-##### Creation
+##### [Creation](#creation)
 
 Colors can be created in several ways:
 
-```
-// Direct construction with RGB values (0-1)
-const red = new Color(1, 0, 0)
-const purple = new Color(0.5, 0, 0.5)
+```typescript
+// Direct construction with RGB values (0-1)
+const red = new Color(1, 0, 0)
+const purple = new Color(0.5, 0, 0.5)
 
-// Static convenience colors
-const r = Color.red    // (1, 0, 0)
-const g = Color.green  // (0, 1, 0)
-const b = Color.blue   // (0, 0, 1)
-const w = Color.white  // (1, 1, 1)
-const k = Color.black  // (0, 0, 0)
+// Static convenience colors
+const r = Color.red    // (1, 0, 0)
+const g = Color.green  // (0, 1, 0)
+const b = Color.blue   // (0, 0, 1)
+const w = Color.white  // (1, 1, 1)
+const k = Color.black  // (0, 0, 0)
 
-// From hex string
-const fromHex = Color.fromHex("#ff0000")  // (1, 0, 0)
+// From hex string
+const fromHex = Color.fromHex("#ff0000")  // (1, 0, 0)
 
-// From HSV (hue, saturation, value)
-const fromHSV = Color.fromHSV(new Vec3(0, 1, 1))  // red
+// From HSV (hue, saturation, value)
+const fromHSV = Color.fromHSV(new Vec3(0, 1, 1))  // red
 ```
 
 The `fromHex` method only supports 6-digit colors which must be preceded by the `#` mark.
 
-##### Color Properties
+##### [Color Properties](#color-properties)
 
-* `r: number` - The red component (0 to 1)
-* `g: number` - The green component (0 to 1)
-* `b: number` - The blue component (0 to 1)
+- `r: number` - The red component (0 to 1)
+- `g: number` - The green component (0 to 1)
+- `b: number` - The blue component (0 to 1)
 
-##### Color Operations
+##### [Color Operations](#color-operations)
 
 `Color` has the `equals(other: Color)` and `equalsApprox(other: Color, epsilon?: number)` methods from [`Comparable<T>`](Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface), and their `static` counterparts. It also has `copy(other)` and `clone()`[methods](Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods).
 
 Colors support several common operations which have both copying and mutating versions:
 
-```
-const c1 = new Color(1, 0, 0)
-const c2 = new Color(0, 1, 0)
+```typescript
+const c1 = new Color(1, 0, 0)
+const c2 = new Color(0, 1, 0)
 
-// Addition and subtraction
-const sum = c1.add(c2)       // (1, 1, 0)
-const diff = c1.sub(c2)      // (1, -1, 0)
+// Addition and subtraction
+const sum = c1.add(c2)       // (1, 1, 0)
+const diff = c1.sub(c2)      // (1, -1, 0)
 
-// Scalar multiplication and division
-const darker = c1.mul(0.5)   // (0.5, 0, 0)
-const brighter = c1.div(0.5) // (1, 0, 0) - clamped to 1
+// Scalar multiplication and division
+const darker = c1.mul(0.5)   // (0.5, 0, 0)
+const brighter = c1.div(0.5) // (1, 0, 0) - clamped to 1
 
-// Component-wise multiplication
-const mixed = c1.componentMul(c2)  // (0, 0, 0)
+// Component-wise multiplication
+const mixed = c1.componentMul(c2)  // (0, 0, 0)
 
-// Color space conversions
-const hsv = c1.toHSV()       // (0, 1, 1)
-const hex = c1.toHex()       // "#ff0000"
-const vec = c1.toVec3()      // Vec3(1, 0, 0)
+// Color space conversions
+const hsv = c1.toHSV()       // (0, 1, 1)
+const hex = c1.toHex()       // "#ff0000"
+const vec = c1.toVec3()      // Vec3(1, 0, 0)
 ```
 
 The following table assumes that `c`, `d`, and `out` are `Color`s; `s` is a number; `v` is a `Vec3`.
 
-| Operation | Code | Description |
-| --- | --- | --- |
-| Addition | `r = c.add(d)` `c.addInPlace(d)` `Color.add(c, d, out)` | Adds two colors component-wise. |
-| Subtraction | `r = c.sub(d)` `c.subInPlace(d)` `Color.sub(c, d, out)` | Subtracts colors component-wise. |
-| Scalar Multiplication | `r = c.mul(s)` `c.mulInPlace(s)` `Color.mul(c, s, out)` | Multiplies each component by a scalar. |
-| Scalar Division | `r = c.div(s)` `c.divInPlace(s)` `Color.div(c, s, out)` | Divides each component by a scalar. |
-| Component-wise Multiplication | `r = c.componentMul(d)` `c.componentMulInPlace(d)` | Multiplies two colors component-by-component. Useful for color filtering, e.g. `color.componentMul(new Color(0, 0.5, 1))` “deletes” the red component, cuts the green component in half, and leaves the blue component alone. |
-| To Vec3 | `v = c.toVec3()` | Convenience method to move the `r`, `g`, and `b` values into a `Vec3`’s `x`, `y`, and `z`, respectively. |
+| Operation                     | Code                                                    | Description                                                                                                                                                                                                                   |
+| ----------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Addition                      | `r = c.add(d)` `c.addInPlace(d)` `Color.add(c, d, out)` | Adds two colors component-wise.                                                                                                                                                                                               |
+| Subtraction                   | `r = c.sub(d)` `c.subInPlace(d)` `Color.sub(c, d, out)` | Subtracts colors component-wise.                                                                                                                                                                                              |
+| Scalar Multiplication         | `r = c.mul(s)` `c.mulInPlace(s)` `Color.mul(c, s, out)` | Multiplies each component by a scalar.                                                                                                                                                                                        |
+| Scalar Division               | `r = c.div(s)` `c.divInPlace(s)` `Color.div(c, s, out)` | Divides each component by a scalar.                                                                                                                                                                                           |
+| Component-wise Multiplication | `r = c.componentMul(d)` `c.componentMulInPlace(d)`      | Multiplies two colors component-by-component. Useful for color filtering, e.g. `color.componentMul(new Color(0, 0.5, 1))` “deletes” the red component, cuts the green component in half, and leaves the blue component alone. |
+| To Vec3                       | `v = c.toVec3()`                                        | Convenience method to move the `r`, `g`, and `b` values into a `Vec3`’s `x`, `y`, and `z`, respectively.                                                                                                                      |
 
-##### Color Space Conversions (HSV)
+##### [Color Space Conversions (HSV)](#color-space-conversions-hsv)
 
 The `Color` class supports conversions between RGB and HSV (Hue, Saturation, Value):
 
-```
-// RGB to HSV
-const red = new Color(1, 0, 0)
-const hsv = red.toHSV() // Vec3(0, 1, 1)
-                        // x: hue (0-1)
-                        // y: saturation (0-1)
-                        // z: value (0-1)
+```typescript
+// RGB to HSV
+const red = new Color(1, 0, 0)
+const hsv = red.toHSV() // Vec3(0, 1, 1)
+                        // x: hue (0-1)
+                        // y: saturation (0-1)
+                        // z: value (0-1)
 
-// HSV to RGB
-const purple = Color.fromHSV(new Vec3(0.83, 1, 1))
+// HSV to RGB
+const purple = Color.fromHSV(new Vec3(0.83, 1, 1))
 ```
 
-##### Hex Colors
+##### [Hex Colors](#hex-colors)
 
 Hex color codes are a standard method of specifying colors by using a hash sign (#) and then six hexadecimal digits (0-9 and a-f). The `Color` class supports conversion to and from hex format:
 
-```
-// From hex to Color
-const red = Color.fromHex("#ff0000")
-const purple = Color.fromHex("#800080")
-const navy = Color.fromHex("#000080")
+```typescript
+// From hex to Color
+const red = Color.fromHex("#ff0000")
+const purple = Color.fromHex("#800080")
+const navy = Color.fromHex("#000080")
 
-// From Color to hex
-const color = new Color(1, 0, 0)
-const hex = color.toHex()  // "#ff0000"
+// From Color to hex
+const color = new Color(1, 0, 0)
+const hex = color.toHex()  // "#ff0000"
 ```
 
 Note that hex colors must include the `#` prefix and use two digits for each of red, green, and blue (with `00` being the lowest value and `ff` being the highest for each component).
 
-##### Color Blending
+##### [Color Blending](#color-blending)
 
 Colors can be blended using the various mathematical operations:
 
+```typescript
+// Mix two colors equally
+const color1 = new Color(1, 0, 0)  // red
+const color2 = new Color(0, 0, 1)  // blue
+const purple = color1.mul(0.5).add(color2.mul(0.5))
+
+// Create a darker version
+const darker = color1.mul(0.5)
+
+// Color filtering using component multiplication
+const filter = new Color(1, 0.8, 0.8)  // slight red tint
+const filtered = color1.componentMul(filter)
 ```
-// Mix two colors equally
-const color1 = new Color(1, 0, 0)  // red
-const color2 = new Color(0, 0, 1)  // blue
-const purple = color1.mul(0.5).add(color2.mul(0.5))
 
-// Create a darker version
-const darker = color1.mul(0.5)
-
-// Color filtering using component multiplication
-const filter = new Color(1, 0.8, 0.8)  // slight red tint
-const filtered = color1.componentMul(filter)
-```
-
-#### Quaternion
+#### [Quaternion](#quaternion)
 
 The `Quaternion` class represents an abstract mathematical object which is often used to represent rotations in 3D space, as they avoid issues like gimbal lock that can occur with Euler angles.
 
-##### Quaternion Creation
+##### [Quaternion Creation](#quaternion-creation)
 
 `Quaternion`s can be created in several ways:
 
+```typescript
+// Direct construction
+const quat = new Quaternion(0, 0, 0, 1)
+
+// Static convenience quaternions
+const zero = Quaternion.zero     // (0, 0, 0, 0)
+const identity = Quaternion.one  // (0, 0, 0, 1)
+const xRot = Quaternion.i        // (1, 0, 0, 0)
+const yRot = Quaternion.j        // (0, 1, 0, 0)
+const zRot = Quaternion.k        // (0, 0, 1, 0)
+
+// From Euler angles (in degrees)
+const fromEuler = Quaternion.fromEuler(new Vec3(90, 0, 0))
+
+// From axis-angle (angle in radians)
+const fromAxisAngle = Quaternion.fromAxisAngle(Vec3.up, Math.PI/2)
+
+// From forward and up vectors
+const lookRot = Quaternion.lookRotation(Vec3.forward)
 ```
-// Direct construction
-const quat = new Quaternion(0, 0, 0, 1)
 
-// Static convenience quaternions
-const zero = Quaternion.zero     // (0, 0, 0, 0)
-const identity = Quaternion.one  // (0, 0, 0, 1)
-const xRot = Quaternion.i        // (1, 0, 0, 0)
-const yRot = Quaternion.j        // (0, 1, 0, 0)
-const zRot = Quaternion.k        // (0, 0, 1, 0)
-
-// From Euler angles (in degrees)
-const fromEuler = Quaternion.fromEuler(new Vec3(90, 0, 0))
-
-// From axis-angle (angle in radians)
-const fromAxisAngle = Quaternion.fromAxisAngle(Vec3.up, Math.PI/2)
-
-// From forward and up vectors
-const lookRot = Quaternion.lookRotation(Vec3.forward)
-```
-
-`Quaternion.one` means 'no rotation'.
+\`Quaternion.one\` means 'no rotation'.
 
 Do not use `Quaternion.zero` when you mean “a rotation of 0 degrees”. It turns out that `Quaternion.zero` isn’t even a rotation and should (nearly) never be used unless you truly know what you are doing math-wise.
 
-Don't `new` a `Quaternion`, unless you know the math!
+Don't \`new\` a \`Quaternion\`, unless you know the math!
 
 `Quaternion`s are complex beasts. You can’t just pass any 4 values into the constructor (you might not even get a valid rotation). Instead always create a rotation from [euler angles](Meta%20Horizon%20Worlds%20creator%20manual.md#euler-angles), [axis and angle](Meta%20Horizon%20Worlds%20creator%20manual.md#axis-and-angle), or a [look rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#look-rotation).
 
-##### Quaternion Properties
+##### [Quaternion Properties](#quaternion-properties)
 
-* `x: number` - The x component of the quaternion
-* `y: number` - The y component of the quaternion
-* `z: number` - The z component of the quaternion
-* `w: number` - The w component of the quaternion (scalar part)
+- `x: number` - The x component of the quaternion
+- `y: number` - The y component of the quaternion
+- `z: number` - The z component of the quaternion
+- `w: number` - The w component of the quaternion (scalar part)
 
-##### Quaternion Operations
+##### [Quaternion Operations](#quaternion-operations)
 
 `Quaternion` has the `equals(other: Quaternion)` and `equalsApprox(other: Quaternion, epsilon?: number)` methods from [`Comparable<T>`](Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface), and their `static` counterparts. It also has `copy(other)` and `clone()`[methods](Meta%20Horizon%20Worlds%20creator%20manual.md#copying-vs-mutating-methods). Note that quaternion equality is special: two quaternions are considered equal if their components are equal OR if the negation of their components are equal, since both represent the same rotation. Only every compare with the methods above.
 
 `Quaternion`s support several common operations which have both copying and mutating versions:
 
-```
-const q1 = new Quaternion(0, 0, 0, 1)
-const q2 = new Quaternion(0, 1, 0, 0)
+```typescript
+const q1 = new Quaternion(0, 0, 0, 1)
+const q2 = new Quaternion(0, 1, 0, 0)
 
-// Multiplication (combines rotations)
-const combined = q1.mul(q2)
+// Multiplication (combines rotations)
+const combined = q1.mul(q2)
 
-// Inversion (reverses rotation)
-const inverse = q1.inverse()
+// Inversion (reverses rotation)
+const inverse = q1.inverse()
 
-// Normalization (ensures unit length)
-const normalized = q1.normalize()
+// Normalization (ensures unit length)
+const normalized = q1.normalize()
 
-// Conjugate
-const conjugate = q1.conjugate()
+// Conjugate
+const conjugate = q1.conjugate()
 
-// Convert to Euler angles (in degrees)
-const euler = q1.toEuler()
+// Convert to Euler angles (in degrees)
+const euler = q1.toEuler()
 
-// Get rotation axis and angle
-const axis = q1.axis()
-const angle = q1.angle() // in radians
+// Get rotation axis and angle
+const axis = q1.axis()
+const angle = q1.angle() // in radians
 ```
 
 The following table assumes that `q`, `r`, and `out` are `Quaternion`s; `v` and `w` are `Vec3`s; `t` is a `number`.
 
-| Operation | Code | Description |
-| --- | --- | --- |
-| Multiplication | `r = p.mul(q)` `p.mulInPlace(q)` | Combines two rotations. Order matters: `p.mul(q)` means apply `q` rotation first, then `p`. |
-| Inversion | `r = q.inverse()` `q.inverseInPlace()` `r = Quaternion.inverse(q)` | Creates a quaternion that represents the opposite rotation (negative angle around the same axis). |
-| Normalization | `r = q.normalize()` `q.normalizeInPlace()`  `Quaternion.normalize(q, out)` | Ensures the quaternion has unit length. *If it doesn’t have unit length then it isn’t a valid rotation!* |
-| Conjugate | `r = q.conjugate()` `q.conjugateInPlace()`  `Quaternion.conjugate(q, out)` | Negates the x, y, and z components. For unit quaternions, this is the same as `inverse`. |
-| Vector Rotation | `w = Quaternion.mulVec3(q, v)` | Rotates a `v` by `q`, producing a new `Vec3`. |
-| Interpolation | `Quaternion.slerp(q, p, t, out)` | Smoothly interpolates between two rotations via [Spherical Linear Interpolation (Slerp)](Meta%20Horizon%20Worlds%20creator%20manual.md#spherical-linear-interpolation-slerp) |
-| Vector Quaternion | `q = Quaternion.fromVec3(v)` | Create a quaternion with values `(v.x, v.y, v.z, 0)`. Note that this will likely not be a valid rotation and is only useful for advanced math techniques. |
+| Operation         | Code                                                                      | Description                                                                                                                                                                  |
+| ----------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Multiplication    | `r = p.mul(q)` `p.mulInPlace(q)`                                          | Combines two rotations. Order matters: `p.mul(q)` means apply `q` rotation first, then `p`.                                                                                  |
+| Inversion         | `r = q.inverse()` `q.inverseInPlace()` `r = Quaternion.inverse(q)`        | Creates a quaternion that represents the opposite rotation (negative angle around the same axis).                                                                            |
+| Normalization     | `r = q.normalize()` `q.normalizeInPlace()` `Quaternion.normalize(q, out)` | Ensures the quaternion has unit length. *If it doesn’t have unit length then it isn’t a valid rotation!*                                                                     |
+| Conjugate         | `r = q.conjugate()` `q.conjugateInPlace()` `Quaternion.conjugate(q, out)` | Negates the x, y, and z components. For unit quaternions, this is the same as `inverse`.                                                                                     |
+| Vector Rotation   | `w = Quaternion.mulVec3(q, v)`                                            | Rotates a `v` by `q`, producing a new `Vec3`.                                                                                                                                |
+| Interpolation     | `Quaternion.slerp(q, p, t, out)`                                          | Smoothly interpolates between two rotations via [Spherical Linear Interpolation (Slerp)](Meta%20Horizon%20Worlds%20creator%20manual.md#spherical-linear-interpolation-slerp) |
+| Vector Quaternion | `q = Quaternion.fromVec3(v)`                                              | Create a quaternion with values `(v.x, v.y, v.z, 0)`. Note that this will likely not be a valid rotation and is only useful for advanced math techniques.                    |
 
-##### Euler Angles
+##### [Euler Angles](#euler-angles)
 
 **Euler angles** are one intuitive way to think about rotations (they are similar to “yaw, pitch, and roll”). When you type a rotation into the desktop editor as 3 values, you are describing a rotation via Euler angles.
 
 The `Quaternion` class provides methods to convert between the quaternions and Euler angles:
 
-```
-// Convert from Euler angles (in degrees)
-const quat = Quaternion.fromEuler(
-  new Vec3(90, 0, 0),
-  EulerOrder.XYZ
+```typescript
+// Convert from Euler angles (in degrees)
+const quat = Quaternion.fromEuler(
+  new Vec3(90, 0, 0),
+  EulerOrder.XYZ
 )
 
-// Convert to Euler angles (in degrees)
-const euler = quat.toEuler(EulerOrder.XYZ)
+// Convert to Euler angles (in degrees)
+const euler = quat.toEuler(EulerOrder.XYZ)
 ```
 
 **Rotation order** matters: rotating around the y-axis by 90 degrees and then the x-axis by 90 degrees is *not* the same as doing those rotations in the other order. So when you specify Euler angle, it is important to specify the order the 3 numbers are applied in. The desktop editor uses the order: rotate around y (“yaw”), then rotate around x (“pitch”), then rotate around z (“roll”). This order is called “YXZ” since it matches the order the values are applied.
 
 The `EulerOrder` enum specifies the order in which rotations are applied. The default value for `fromEuler` and `toEuler` is `EulerOrder.YXZ`. All possible orders are supported: `XYZ`, `XZY`, `YXZ`, `YZX`, `ZXY`, and `ZYX`.
 
-##### Axis and Angle
+##### [Axis and Angle](#axis-and-angle)
 
 Every rotation can be represented as rotating around some axis by some angle. Given an `axis` vector and an `angle` (in radians) you can create a quaternion. The `axis` does *not* need to be normalized.
 
-```
-const axis = new Vec3(0, 1, 0)  // rotate around y-axis
-const angle = Math.PI / 4       // rotate by 45 degrees
+```typescript
+const axis = new Vec3(0, 1, 0)  // rotate around y-axis
+const angle = Math.PI / 4       // rotate by 45 degrees
 
-const q = Quaternion.fromAxisAngle(axis, angle)
+const q = Quaternion.fromAxisAngle(axis, angle)
 ```
 
 which will create a quaternion with the components:
 
-```
-const a = axis.normalized()
-const s = Math.sin(angle/2)
-const c = Math.cos(angle/2)
-const q = new Quaternion(a.x * s, a.y * s, a.z * s, c)
+```typescript
+const a = axis.normalized()
+const s = Math.sin(angle/2)
+const c = Math.cos(angle/2)
+const q = new Quaternion(a.x * s, a.y * s, a.z * s, c)
 ```
 
 You can also go the other way - extracting the axis and angle from a quaternion:
 
-```
-const quat = Quaternion.fromAxisAngle(Vec3.up, Math.PI/2)
+```typescript
+const quat = Quaternion.fromAxisAngle(Vec3.up, Math.PI/2)
 
-const axis = quat.axis()    // (0, 1, 0)
-const angle = quat.angle()  // ~1.57 radians (90 degrees)
+const axis = quat.axis()    // (0, 1, 0)
+const angle = quat.angle()  // ~1.57 radians (90 degrees)
 ```
 
 Axis-angle representation is particularly useful for:
 
-* Understanding rotations geometrically
-* Rotating around specific axes like joints or hinges
-* Creating smooth circular motion by incrementing the angle
-* Converting between different rotation representations
+- Understanding rotations geometrically
+- Rotating around specific axes like joints or hinges
+- Creating smooth circular motion by incrementing the angle
+- Converting between different rotation representations
 
-##### Look Rotation
+##### [Look Rotation](#look-rotation)
 
 Look rotation is particularly useful for cameras and objects that need to orient themselves to face a particular direction. You specify which direction you want the `forward` to point in and then what direction the `up` should point in (or point as closely as possible to). The `up` value is optional and defaults to `Vec3.up`. The two input vectors *do not need to be normalized*.
 
-```
-// Look down the world's x-axis with your up pointing along the world's z-axis
-const quat = Quaternion.lookRotation(Vec3.right, Vec3.forward)
+```typescript
+// Look down the world's x-axis with your up pointing along the world's z-axis
+const quat = Quaternion.lookRotation(Vec3.right, Vec3.forward)
 ```
 
 This is commonly used to:
 
-* Orient cameras to look at targets
-* Make objects face their direction of movement
-* Align objects with surface normals
+- Orient cameras to look at targets
+- Make objects face their direction of movement
+- Align objects with surface normals
 
-##### Spherical Linear Interpolation (Slerp)
+##### [Spherical Linear Interpolation (Slerp)](#spherical-linear-interpolation-slerp)
 
-Similar to [lerp](Meta%20Horizon%20Worlds%20creator%20manual.md#vector-linear-interpolation-lerp), **Slerp** (Spherical Lerp) provides smooth interpolation between two quaternion rotations. Like vector lerp, it takes a blend value between 0 and 1:
+Similar to [lerp](Meta%20Horizon%20Worlds%20creator%20manual.md#vector-linear-interpolation-lerp), **Slerp** (*S*pherical *Lerp*) provides smooth interpolation between two quaternion rotations. Like vector lerp, it takes a blend value between 0 and 1:
 
+```typescript
+const start = Quaternion.fromEuler(new Vec3(0, 0, 0))
+const end = Quaternion.fromEuler(new Vec3(0, 90, 0))
+
+const halfway = Quaternion.slerp(start, end, 0.5)    // 45 degree rotation
+const quarter = Quaternion.slerp(start, end, 0.25)   // 22.5 degree rotation
+const complete = Quaternion.slerp(start, end, 1.0)   // 90 degree rotation
 ```
-const start = Quaternion.fromEuler(new Vec3(0, 0, 0))
-const end = Quaternion.fromEuler(new Vec3(0, 90, 0))
 
-const halfway = Quaternion.slerp(start, end, 0.5)    // 45 degree rotation
-const quarter = Quaternion.slerp(start, end, 0.25)   // 22.5 degree rotation
-const complete = Quaternion.slerp(start, end, 1.0)   // 90 degree rotation
-```
-
-### World Class
+### [World Class](#world-class)
 
 The `World` class represents the currently running [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) and the [world](Meta%20Horizon%20Worlds%20creator%20manual.md#worlds)’s [persistent data](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence).
 
-| `World` Class Member | Description |
-| --- | --- |
-| **System Events** |  |
-| `static onUpdate` | The built-in [LocalEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) for subscribing to the [on-update frame event](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate). |
+| `World` Class Member        | Description                                                                                                                                                                                                                    |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **System Events**           |                                                                                                                                                                                                                                |
+| `static onUpdate`           | The built-in [LocalEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) for subscribing to the [on-update frame event](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate).   |
 | `static onPrePhysicsUpdate` | The built-in [LocalEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) for subscribing to the [pre-physics frame event](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate). |
-| **Instance Management** |  |
-| `reset` | [Reset the instance](Meta%20Horizon%20Worlds%20creator%20manual.md#starting-stopping-and-resetting-an-instance). |
-| `matchmaking` | Manage the instance’s [open setting](Meta%20Horizon%20Worlds%20creator%20manual.md#open-closed-and-private-instances-matchmaking). |
-| **Instance Players** |  |
-| `getPlayerFromIndex` | Find which, if any, [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) has the given [index](Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices). |
-| `getPlayers` | Get [all current players in the instance](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players). |
-| `getServerPlayer` | Get the [player representing the server](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). |
-| `getLocalPlayer` | Determine [which player’s client is running the current code](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
-| `ui` | Show a [popup or tooltip UI](Meta%20Horizon%20Worlds%20creator%20manual.md#showing-players-temporary-messages) to players. |
-| **World Entities** |  |
-| `getEntitiesWithTags` | [Find entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) in the instance. |
-| `spawnAsset` | [Spawn an asset](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning) into the instance. |
-| `deleteAsset` | [Delete spawned entities](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) from the instance. |
-| **World Data** |  |
-| `id` | Get the unique id for this world. |
-| `leaderboards` | Manage player [leaderboard scores](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards). |
-| `persistentStorage` | Manager [persistence (player saved data)](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence). |
+| **Instance Management**     |                                                                                                                                                                                                                                |
+| `reset`                     | [Reset the instance](Meta%20Horizon%20Worlds%20creator%20manual.md#starting-stopping-and-resetting-an-instance).                                                                                                               |
+| `matchmaking`               | Manage the instance’s [open setting](Meta%20Horizon%20Worlds%20creator%20manual.md#open-closed-and-private-instances-matchmaking).                                                                                             |
+| **Instance Players**        |                                                                                                                                                                                                                                |
+| `getPlayerFromIndex`        | Find which, if any, [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) has the given [index](Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices).                                                       |
+| `getPlayers`                | Get [all current players in the instance](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players).                                                                                                                  |
+| `getServerPlayer`           | Get the [player representing the server](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).                                                                                                                         |
+| `getLocalPlayer`            | Determine [which player’s client is running the current code](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).                                                                                   |
+| `ui`                        | Show a [popup or tooltip UI](Meta%20Horizon%20Worlds%20creator%20manual.md#showing-players-temporary-messages) to players.                                                                                                     |
+| **World Entities**          |                                                                                                                                                                                                                                |
+| `getEntitiesWithTags`       | [Find entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) in the instance.                                                                                                                                    |
+| `spawnAsset`                | [Spawn an asset](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning) into the instance.                                                                                                                             |
+| `deleteAsset`               | [Delete spawned entities](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) from the instance.                                                                                                                         |
+| **World Data**              |                                                                                                                                                                                                                                |
+| `id`                        | Get the unique id for this world.                                                                                                                                                                                              |
+| `leaderboards`              | Manage player [leaderboard scores](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards).                                                                                                                                |
+| `persistentStorage`         | Manager [persistence (player saved data)](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence).                                                                                                                          |
 
-### Components
+### [Components](#components)
 
 Components are the powerhouse of scripting in Horizon. They contain the logic and behaviors for [reacting to events](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) in the world and making stuff happen in the world (such as [transforming entities](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms), activating [gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types), and more).
 
 The **primary steps for scripting** are:
 
-- Create a [new file](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-and-editing-scripts) (or add to an existing one)
-- Create a new [Component class](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
-- [Attach the Component](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities) to an entity (or many entities)
-- Add [property definitions](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) that will appear in the Properties panel
-- Connect code to run when [system (or user) events occur](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)
+1. Create a [new file](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-and-editing-scripts) (or add to an existing one)
+2. Create a new [Component class](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+3. [Attach the Component](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities) to an entity (or many entities)
+4. Add [property definitions](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) that will appear in the Properties panel
+5. Connect code to run when [system (or user) events occur](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)
 
 The steps above are the “main path” but there are also many more parts of scripting:
 
-* [Sending events](Meta%20Horizon%20Worlds%20creator%20manual.md#sending-events)
-* [Creating timers and async code](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers)
-* [Creating local scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) and [transferring ownership](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) for low-latency interactions
-* [Running code every frame](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate)
-* [Interacting with the physics system](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)
-* [Rendering UI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui)
-* [Creating popups (or tooltips)](Meta%20Horizon%20Worlds%20creator%20manual.md#showing-players-temporary-messages)
-* [Spawning assets](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)
-* [Tinting and modifying meshes](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)
-* [Managing NPCs](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)
-* [Creating and updating persistence](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence)
-  and so much more!
+- [Sending events](Meta%20Horizon%20Worlds%20creator%20manual.md#sending-events)
+- [Creating timers and async code](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers)
+- [Creating local scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) and [transferring ownership](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) for low-latency interactions
+- [Running code every frame](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate)
+- [Interacting with the physics system](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)
+- [Rendering UI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui)
+- [Creating popups (or tooltips)](Meta%20Horizon%20Worlds%20creator%20manual.md#showing-players-temporary-messages)
+- [Spawning assets](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)
+- [Tinting and modifying meshes](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)
+- [Managing NPCs](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)
+- [Creating and updating persistence](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence) and so much more!
 
-#### Component Class
+#### [Component Class](#component-class)
 
 Scripting an entity requires [attaching a component to it](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities). Creating Components is the core of scripting. To create a component, you subclass `Component`, override the `start` method (code that runs when the entity [“awakens”](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)), and [register the component](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities). A minimal component looks like:
 
-```
-class BasicComponent extends Component<typeof BasicComponent> {
-  override start() {}
+```typescript
+class BasicComponent extends Component<typeof BasicComponent> {
+  override start() {}
 }
 Component.register(BasicComponent)
 ```
 
 The most unusual part is the `<typeof BasicComponent>` part. You must always put the component’s class name within the angle brackets (`<>`) after `Component` (this is a trick Horizon uses for [component props](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties)).
 
-#### Attaching Components to Entities
+#### [Attaching Components to Entities](#attaching-components-to-entities)
 
 **Registering**: the code `Component.register(BasicComponent)` above must be called for every component subclass that you create. This call results in the component appearing in the **Attached Script** dropdown in the desktop editor. The component will appear with the format *filename:componentName*. So if the `BasicComponent` above is inside the TypeScript file `Demo` then the script will appear in the Attached Script dropdown as `Demo:BasicComponent`. This allows you to put **multiple components in a [file](Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution)**.
 
 The `Component.register` method takes an optional second argument to override the name in the dropdown. So if the following line of code is in a file `Obstacles`:
 
-```
-Component.register(SpinningTurntableComponent, 'Spinner')
+```typescript
+Component.register(SpinningTurntableComponent, 'Spinner')
 ```
 
 then the class will appear in the Attached Script dropdown as *Obstacles:Spinner*. If you want to override the name in `Component.register`, only use letters, numbers, and underscore in the name.
 
 **Attaching**: once a component subclass is registered, you can click an entity in the desktop editor, open the Properties panel, and choose it from the Attached Script dropdown. That entity will now [run the code](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) in that component. Once you attach a script, the Properties panel will show all the component’s properties as editable fields. The next section explains how to add properties to a component.
 
-#### Component Properties
+#### [Component Properties](#component-properties)
 
 Components can define properties that appear in the Properties panel by implementing the optional static method `propsDefinition`. When you [attach the component](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-components-to-entities), these properties will be configurable in the UI and accessible via the component’s `props` field.
 
-#### Component Properties Example
+#### [Component Properties Example](#component-properties-example)
 
 Here’s a simple example showing how to define properties:
 
-```
-import {Color, Component, PropTypes} from 'horizon/core'
+```typescript
+import {Color, Component, PropTypes} from 'horizon/core'
 
-class ExampleComponent extends Component<typeof ExampleComponent> {
-  static propsDefinition = {
-    name : {type : PropTypes.String},
-    color : {type : PropTypes.Color, default: new Color(1, 0.5, 0)}
-  }
+class ExampleComponent extends Component<typeof ExampleComponent> {
+  static propsDefinition = {
+    name : {type : PropTypes.String},
+    color : {type : PropTypes.Color, default: new Color(1, 0.5, 0)}
+  }
 
-  override start() {
-    console.log(this.props.name, this.props.color.toString())
-  }
+  override start() {
+    console.log(this.props.name, this.props.color.toString())
+  }
 }
 Component.register(ExampleComponent)
 ```
 
 This example creates:
 
-* A name field that shows as a text input
-* A color field that shows as a color picker, defaulting to orange (1, 0.5, 0)
+- A name field that shows as a text input
+- A color field that shows as a color picker, defaulting to orange (1, 0.5, 0)
 
 The static `propsDefinition` object defines your properties. Each property needs:
 
-* A *key* that will become the property name in `this.props`
-* An *object* value containing:
-  + `type`: *Required*. a value from [PropTypes](Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes) (note that not all kinds of `PropTypes` are useful in a `propsDefinition`; see the limitations below).
-  + `default`: *Optional*. Initial value for the property in the Properties panel.
+- A *key* that will become the property name in `this.props`
+- An *object* value containing:
+  - `type`: *Required*. a value from [PropTypes](Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes) (note that not all kinds of `PropTypes` are useful in a `propsDefinition`; see the limitations below).
+  - `default`: *Optional*. Initial value for the property in the Properties panel.
 
-| `PropTypes` Value | Results In | Default Value | Notes |
-| --- | --- | --- | --- |
-| `Number` | `number` | `0` | - |
-| `String` | `string` | `''` | - |
-| `Boolean` | `boolean` | `false` | - |
-| `Vec3` | `Vec3` | `(0, 0, 0)` | - |
-| `Color` | `Color` | `(0, 0, 0)` Black | RGB values between 0 and 1. |
-| `Entity` | `Entity \| null` | `null` | Cannot specify default |
-| `Quaternion` | `Quaternion` | `(0, 0, 0)` | Properties panel value is edited as [YXZ Euler angles](Meta%20Horizon%20Worlds%20creator%20manual.md#euler-angles) |
-| `Asset` | `Asset \| null` | `null` | Cannot specify default |
+| `PropTypes` Value | Results In        | Default Value     | Notes                                                                                                              |
+| ----------------- | ----------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `Number`          | `number`          | `0`               | -                                                                                                                  |
+| `String`          | `string`          | `''`              | -                                                                                                                  |
+| `Boolean`         | `boolean`         | `false`           | -                                                                                                                  |
+| `Vec3`            | `Vec3`            | `(0, 0, 0)`       | -                                                                                                                  |
+| `Color`           | `Color`           | `(0, 0, 0)` Black | RGB values between 0 and 1.                                                                                        |
+| `Entity`          | `Entity \\| null` | `null`            | Cannot specify default                                                                                             |
+| `Quaternion`      | `Quaternion`      | `(0, 0, 0)`       | Properties panel value is edited as [YXZ Euler angles](Meta%20Horizon%20Worlds%20creator%20manual.md#euler-angles) |
+| `Asset`           | `Asset \\| null`  | `null`            | Cannot specify default                                                                                             |
 
 Be aware of these important Type Distinctions:
 
 Entity is a type used in code like:
 
-```
-const e: Entity = ...
+```typescript
+const e: Entity = ...
 ```
 
 While `PropTypes.Entity` is data used in `propsDefinition` or [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events).
 
 No Type Checking
 
- TypeScript does not type-check the `static propsDefinition` object. Verify your property definitions carefully.
+TypeScript does not type-check the \`static propsDefinition\` object. Verify your property definitions carefully.
 
 **Limitations**
 
-* **Player**: the `PropTypes` object includes `PropTypes.Player` but there is no way to make use of it for `propsDefinition`.
-* **Arrays**: the `PropTypes` enum includes array versions of all types (like `NumberArray`), but there is no way to make use of them for `propsDefinition`.
-* **Nullable Types**: Properties using `PropTypes.Entity` or `PropTypes.Asset` will always be nullable: `Entity | null` or `Asset | null`, respectively. You must check for `null` before using these properties:
+- **Player**: the `PropTypes` object includes `PropTypes.Player` but there is no way to make use of it for `propsDefinition`.
+- **Arrays**: the `PropTypes` enum includes array versions of all types (like `NumberArray`), but there is no way to make use of them for `propsDefinition`.
+- **Nullable Types**: Properties using `PropTypes.Entity` or `PropTypes.Asset` will always be nullable: `Entity | null` or `Asset | null`, respectively. You must check for `null` before using these properties:
+  ```typescript
+  static propsDefinition = {theEntity: {type: PropTypes.Entity}}
 
-  ```
-  static propsDefinition = {theEntity: {type: PropTypes.Entity}}
+  // ...
 
-  // ...
-
-  override start() {
-    if (this.props.theEntity !== null) {
-      // Safe to use this.props.theEntity here
-    }
+  override start() {
+    if (this.props.theEntity !== null) {
+      // Safe to use this.props.theEntity here
+    }
   }
   ```
 
-#### Component Lifecycle
+#### [Component Lifecycle](#component-lifecycle)
 
 Components follow a strict, sequential lifecycle with 3 key parts. All components are **prepared** and then all are **started** (this is useful for [event subscriptions](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)). Then all components are “active”, running in the world. If, or when, the editor stops, the component’s entity [despawns](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning), or the component’s entity [prepares to change owner](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) then they are **torn down**.
 
 Likewise, when a group of entities are [spawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), all them are prepared; then, all of them are started.
 
-- **Preparation** - When components are created (via instance start, [spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), or [after an ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer)):
-  * Component allocation occurs
-  * Constructor executes
-  * Property initializers run
-  * `initializeUI()` executes ([UIComponents](Meta%20Horizon%20Worlds%20creator%20manual.md#uicomponent-class) only)
-  * `preStart()` executes
-- **Start** - After preparation:
-  * `start()` executes
-  * `receiveOwnership()` executes (only during ownership transfers)
-  * Component becomes “active” (begins processing events and timers)
-- **Teardown** - When the editor stops, component [despawns](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning), or an [before an ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer):
-  * `transferOwnership()` executes (only during ownership transfers)
-  * Component is [disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects), meaning that `dispose()` executes and all callbacks registered with `registerDisposeOperation` run, except for the ones where the `DisposeOperationRegistration` was already [canceled or ran](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects).
-  * All [async timeouts and intervals] created with the component are canceled.
-  * All [event subscriptions](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) created with the component are [disconnected](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events).
+1. **Preparation** - When components are created (via instance start, [spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), or [after an ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer)):
+   - Component allocation occurs
+   - Constructor executes
+   - Property initializers run
+   - `initializeUI()` executes ([UIComponents](Meta%20Horizon%20Worlds%20creator%20manual.md#uicomponent-class) only)
+   - `preStart()` executes
+2. **Start** - After preparation:
+   - `start()` executes
+   - `receiveOwnership()` executes (only during ownership transfers)
+   - Component becomes “active” (begins processing events and timers)
+3. **Teardown** - When the editor stops, component [despawns](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning), or an [before an ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer):
+   - `transferOwnership()` executes (only during ownership transfers)
+   - Component is [disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects), meaning that `dispose()` executes and all callbacks registered with `registerDisposeOperation` run, except for the ones where the `DisposeOperationRegistration` was already [canceled or ran](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects).
+   - All \[async timeouts and intervals] created with the component are canceled.
+   - All [event subscriptions](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) created with the component are [disconnected](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events).
 
 Initializing a collection of Components
 
@@ -3043,33 +3010,33 @@ When a set of components need to be initialized, **all are prepared before any a
 
 This is true for:
 
-* all components at the start of the instance
-* all components in a group of [spawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) entities
-* all components [changing owner](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) at the same time
+- all components at the start of the instance
+- all components in a group of [spawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) entities
+- all components [changing owner](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) at the same time
 
 The diagram below shows the full lifecycle of a component. All green rectangle boxes are TypeScript code executing during the [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase). The [full breakdown a frame](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) gives another view into when all these actions occur and the [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) section explains how a “move” is implemented as one component *tearing down* and then a new one *preparing and starting*.
 
 ![](../../_assets/images/6f4eae6b8e07f0d6e2a26cfb95708c689bcee404687868e92010afa0455a194e.png)
 
-Connect to events in `preStart`. Send events in `start`.
+Connect to events in \`preStart\`. Send events in \`start\`.
 
 Do *not* connect in `start`. Do *not* send in `preStart`. See the explanation in the [events section](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) for a detailed. explanation.
 
 Please note that Property initializers run before `props` are available.
 
-```
-// ❌ Incorrect: Props not available during initialization
-class BadComponent extends Component<typeof BadComponent> {
-    private color = this.props.color  // Will throw an error!
+```typescript
+// ❌ Incorrect: Props not available during initialization
+class BadComponent extends Component<typeof BadComponent> {
+    private color = this.props.color  // Will throw an error!
 }
 
-// ✅ Correct: Initialize in preStart
-class GoodComponent extends Component {
-    private color: Color = new Color(0, 0, 0)  // Default value if needed
+// ✅ Correct: Initialize in preStart
+class GoodComponent extends Component {
+    private color: Color = new Color(0, 0, 0)  // Default value if needed
 
-    override preStart() {
-        this.color = this.props.color  // Safe to access props here
-    }
+    override preStart() {
+        this.color = this.props.color  // Safe to access props here
+    }
 }
 ```
 
@@ -3077,38 +3044,38 @@ Do not attempt to override the component constructor.
 
 The base Component class handles critical setup that could break if the constructor is overridden. So, instead:
 
-* Use property initializers for data (without accessing props)
-* Use `preStart()` for event registration
-* Use `start()` for initialization behavior
+- Use property initializers for data (without accessing props)
+- Use `preStart()` for event registration
+- Use `start()` for initialization behavior
 
-#### Async (Delays and Timers)
+#### [Async (Delays and Timers)](#async-delays-and-timers)
 
 There are two ways to delay code (to run it later):
 
-* **timeouts**: code that will run once after a delay (unless canceled before it runs).
-* **intervals**: code that will run after a delay, and then again after that same delay, and so on forever (unless it is canceled).
+- **timeouts**: code that will run once after a delay (unless canceled before it runs).
+- **intervals**: code that will run after a delay, and then again after that same delay, and so on forever (unless it is canceled).
 
 Canceling a timeout or an interval is called **clear**ing it. These naming conventions are consistent with standard JavaScript.
 
 [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#components) instances have a member `async` that provides access to functions for creating async code. For example if you have a `component` you might write:
 
-```
-component.async.setTimeout(() => console.log('ready!'), 1000 /* ms */)
+```typescript
+component.async.setTimeout(() => console.log('ready!'), 1000 /* ms */)
 ```
 
 to execute the given `console.log(...)` after 1000 milliseconds(1 second). The following methods are provided in `Component`’s `async` member:
 
-| `Component``async` member | Description |
-| --- | --- |
-| `setTimeout(`  `callback: TimerHandler,`</nobr>  `timeout?: number,`</nobr>  `...args: unknown[]`</nobr> `) => number` | Schedule the `callback` to fire after `timeout` milliseconds. If `args` are provided then they will be passed into `callback` when it is called. `setTimeout` returns an `id` that can be passed to `clearTimeout` to cancel running `callback` (if it is cancelled before it does so). If `timeout` is omitted it will be treated as 0 (see below). |
-| `clearTimeout(`  `id: number` `) => void` | Cancel the timeout with the given `id` (if it hasn’t run yet). |
-| `setInterval(`  `callback: TimerHandler,`</nobr>  `timeout?: number,`</nobr>  `...args: unknown[]`</nobr> `) => number` | Schedule the `callback` to fire after `timeout` milliseconds (and then again after the same delay, and again, and so on). If `args` are provided then they will be passed into `callback` every time that it is called. `setInterval` returns an `id` that can be passed to `clearInterval` to cancel running `callback` (so that it doesn’t run any more times). If `timeout` is omitted it will be treated as 0 (see below). |
-| `clearInterval(`  `id: number` `) => void` | Cancel the interval with the given `id` (it will not run any more times). |
+| `Component``async` member                                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `setTimeout(` `callback: TimerHandler,`\</nobr> `timeout?: number,`\</nobr> `...args: unknown[]`\</nobr> `) => number`  | Schedule the `callback` to fire after `timeout` milliseconds. If `args` are provided then they will be passed into `callback` when it is called. `setTimeout` returns an `id` that can be passed to `clearTimeout` to cancel running `callback` (if it is cancelled before it does so). If `timeout` is omitted it will be treated as 0 (see below).                                                                           |
+| `clearTimeout(` `id: number` `) => void`                                                                                | Cancel the timeout with the given `id` (if it hasn’t run yet).                                                                                                                                                                                                                                                                                                                                                                 |
+| `setInterval(` `callback: TimerHandler,`\</nobr> `timeout?: number,`\</nobr> `...args: unknown[]`\</nobr> `) => number` | Schedule the `callback` to fire after `timeout` milliseconds (and then again after the same delay, and again, and so on). If `args` are provided then they will be passed into `callback` every time that it is called. `setInterval` returns an `id` that can be passed to `clearInterval` to cancel running `callback` (so that it doesn’t run any more times). If `timeout` is omitted it will be treated as 0 (see below). |
+| `clearInterval(` `id: number` `) => void`                                                                               | Cancel the interval with the given `id` (it will not run any more times).                                                                                                                                                                                                                                                                                                                                                      |
 
 **Component disposal**: the `id`s returned from `setTimeout` and `setInterval` are automatically registered with the component’s [disposal](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects) to be cleared. Thus if you write:
 
-```
-component.async.setInterval(() => console.log('hi!'), 1000 /* ms */)
+```typescript
+component.async.setInterval(() => console.log('hi!'), 1000 /* ms */)
 ```
 
 then if, or when, `component` is [torn down](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle), the interval will be automatically canceled.
@@ -3123,24 +3090,24 @@ Use underscores to make numbers more readable.
 
 JavaScript (and therefore TypeScript) allows underscores to be inserted into numbers solely for readability. That means `123` and `1_2_3` are the same value. You can thus use underscores to make numbers more readable. So instead of writing `10000` to mean 10,000 milliseconds, you can write `10_000`!
 
-#### Run Every Frame (PrePhysics and OnUpdate)
+#### [Run Every Frame (PrePhysics and OnUpdate)](#run-every-frame-prephysics-and-onupdate)
 
 [Async intervals](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers) are not effective for **running code every frame** because they are difficult to align the timing of (due to being [imprecise](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers)).
 
 The [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) has two static members exposing [Local Events](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) that are [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) every frame (to all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)):
 
-| `World` class `static` member | Type | Description |
-| --- | --- | --- |
-| `onPrePhysicsUpdate` | `LocalEvent<{deltaTime: number}>` | A built-in [local event](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) that is [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) every frame **[before physics runs](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)** to all clients [device and server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
-| `onUpdate` | `LocalEvent<{deltaTime: number}>` | A built-in [local event](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) that is [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) every frame **[after physics runs](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)** to all clients [device and server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
+| `World` class `static` member | Type                              | Description                                                                                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `onPrePhysicsUpdate`          | `LocalEvent<{deltaTime: number}>` | A built-in [local event](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) that is [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) every frame **[before physics runs](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)** to all clients [device and server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
+| `onUpdate`                    | `LocalEvent<{deltaTime: number}>` | A built-in [local event](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) that is [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) every frame **[after physics runs](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)** to all clients [device and server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).  |
 
-```
-const subscription = component.connectLocalBroadcastEvent(
-  World.onUpdate,
-  (info) => {
-    // runs every frame before physics updates
-    console.log(`${info.deltaTime} seconds since last frame`)
-  }
+```typescript
+const subscription = component.connectLocalBroadcastEvent(
+  World.onUpdate,
+  (info) => {
+    // runs every frame before physics updates
+    console.log(`${info.deltaTime} seconds since last frame`)
+  }
 )
 ```
 
@@ -3148,71 +3115,71 @@ Callbacks registered with `onPrePhysicsUpdate` run before physics computations o
 
 The callback provides a single argument of type `{deltaTime: number}` which contains the amount of time that has passed since the event was last broadcast. See the section on [receiving events](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) to learn about `connectLocalBroadcastEvent` and the `EventSubscription` that it returns.
 
-#### BuiltInVariableType
+#### [BuiltInVariableType](#builtinvariabletype)
 
 `BuiltInVariableType` represent “primitive Horizon data”. It is used in [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) and [defining props with PropTypes](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties). The different types in `BuiltInVariableType` are available as a TypeScript object in [PropTypes](Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes).
 
-```
-type BuiltInVariableType =
-  | string      | string[]
-  | number      | number[]
-  | boolean     | boolean[]
-  | Vec3        | Vec3[]
-  | Entity      | Entity[]
-  | Quaternion  | Quaternion[]
-  | Color       | Color[]
-  | Player      | Player[]
-  | Asset       | Asset[]
+```typescript
+type BuiltInVariableType =
+  | string      | string[]
+  | number      | number[]
+  | boolean     | boolean[]
+  | Vec3        | Vec3[]
+  | Entity      | Entity[]
+  | Quaternion  | Quaternion[]
+  | Color       | Color[]
+  | Player      | Player[]
+  | Asset       | Asset[]
 ```
 
-#### PropTypes
+#### [PropTypes](#proptypes)
 
 `PropTypes` is an enum representing all the same values in [BuiltInVariableType](Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype). `PropTypes` is used in creating the [component propsDefinition](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) and in creating [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events).
 
-```
-const PropTypes = {
-  Number: "number";
-  String: "string";
-  Boolean: "boolean";
-  Vec3: "Vec3";
-  Color: "Color";
-  Entity: "Entity";
-  Quaternion: "Quaternion";
-  Player: "Player";
-  Asset: "Asset";
-  NumberArray: "Array<number>";
-  StringArray: "Array<string>";
-  BooleanArray: "Array<boolean>";
-  Vec3Array: "Array<Vec3>";
-  ColorArray: "Array<Color>";
-  EntityArray: "Array<Entity>";
-  QuaternionArray: "Array<Quaternion>";
-  PlayerArray: "Array<Player>";
-  AssetArray: "Array<Asset>";
+```typescript
+const PropTypes = {
+  Number: "number";
+  String: "string";
+  Boolean: "boolean";
+  Vec3: "Vec3";
+  Color: "Color";
+  Entity: "Entity";
+  Quaternion: "Quaternion";
+  Player: "Player";
+  Asset: "Asset";
+  NumberArray: "Array<number>";
+  StringArray: "Array<string>";
+  BooleanArray: "Array<boolean>";
+  Vec3Array: "Array<Vec3>";
+  ColorArray: "Array<Color>";
+  EntityArray: "Array<Entity>";
+  QuaternionArray: "Array<Quaternion>";
+  PlayerArray: "Array<Player>";
+  AssetArray: "Array<Asset>";
 };
 ```
 
-#### SerializableState
+#### [SerializableState](#serializablestate)
 
 `SerializableState` represents the type of data that can be packaged up to be **sent over the network**. It is used in [NetworkEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) and [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners).
 
-```
-type SerializableState =
-  | { [key: string]: SerializableState }
-  | SerializableState[]
-  | PersistentSerializableStateNode
-  | TransientSerializableStateNode
+```typescript
+type SerializableState =
+  | { [key: string]: SerializableState }
+  | SerializableState[]
+  | PersistentSerializableStateNode
+  | TransientSerializableStateNode
 
-type PersistentSerializableStateNode =
-  | Vec3 | Entity | Quaternion | Color
-  | number | boolean | string
-  | bigint | null;
-type TransientSerializableStateNode = Player;
+type PersistentSerializableStateNode =
+  | Vec3 | Entity | Quaternion | Color
+  | number | boolean | string
+  | bigint | null;
+type TransientSerializableStateNode = Player;
 ```
 
 `PersistentSerializableState` is data that can be packaged up to store in [persistent data](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence). It is the same as `SerializableState`*except* that it *does not include Player* (since player instances are [ephemeral to the instance](Meta%20Horizon%20Worlds%20creator%20manual.md#player-id)).
 
-### Communication Between Components
+### [Communication Between Components](#communication-between-components)
 
 The primary way in which components communicate with one another, and react to occurrences in the world, is by **sending** and **receiving** events through entities (or [through players](Meta%20Horizon%20Worlds%20creator%20manual.md#routing-events-through-players)). If two components are running on the same [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) then you can have them [interact directly without using events](Meta%20Horizon%20Worlds%20creator%20manual.md#converting-between-components-and-entities).
 
@@ -3222,32 +3189,32 @@ There are multiple kinds of events with different purposes. Event listeners are 
 
 All event types can be instantiated with **custom user-made types** by simply calling `new` on the event type and making one. When creating custom events, export them so that you can create them once and share them across files. If you keep instantiating the same event repeatedly across your code, you are likely to make an error (and make refactors more difficult).
 
-| Event | Purpose | Timing | Payload |
-| --- | --- | --- | --- |
-| **CodeBlockEvent** | Listen to [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events). Communicate with [Codeblock scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting). | *Asynchronously* run in the next [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) if sent to the [same client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Otherwise, it runs after a network trip on the receiving [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). | Tuple of [BuiltInVariableType](Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype)s. |
-| **LocalEvent** | Communicate with a TypeScript scripted entity on the [same client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Supports [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events). | Delivered *synchronously* (immediately). | *Anything* |
-| **NetworkEvent** | Communicate with a TypeScript scripted entity on [any client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Supports [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events). | *Asynchronously* run in the next [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) if sent to the [same client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Otherwise, it runs after a network trip on the receiving [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) | [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate) |
+| Event              | Purpose                                                                                                                                                                                                                                 | Timing                                                                                                                                                                                                                                                                                                                                                                            | Payload                                                                                             |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **CodeBlockEvent** | Listen to [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events). Communicate with [Codeblock scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting).                          | *Asynchronously* run in the next [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) if sent to the [same client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Otherwise, it runs after a network trip on the receiving [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). | Tuple of [BuiltInVariableType](Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype)s. |
+| **LocalEvent**     | Communicate with a TypeScript scripted entity on the [same client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Supports [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events). | Delivered *synchronously* (immediately).                                                                                                                                                                                                                                                                                                                                          | *Anything*                                                                                          |
+| **NetworkEvent**   | Communicate with a TypeScript scripted entity on [any client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Supports [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events).      | *Asynchronously* run in the next [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) if sent to the [same client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Otherwise, it runs after a network trip on the receiving [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)  | [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)                |
 
-**When to use each event type**: you should always try to use a [LocalEvent] or direct method call, and you need to cross a [network](Meta%20Horizon%20Worlds%20creator%20manual.md#network) then use a [NetworkEvent]. Use [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) when listening to [certain built-in events](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) or when communicating with [Codeblock scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting).
+**When to use each event type**: you should always try to use a \[LocalEvent] or direct method call, and you need to cross a [network](Meta%20Horizon%20Worlds%20creator%20manual.md#network) then use a \[NetworkEvent]. Use [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) when listening to [certain built-in events](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) or when communicating with [Codeblock scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting).
 
 Here’s a flowchart that may help:
 
 ![](../../_assets/images/e42a4392e8ac906bd38ae5a6589f8b9e2f7b4540477b59057f42bfa01b811dd4.png)
 
-#### Receiving Events
+#### [Receiving Events](#receiving-events)
 
 **Connecting Events**: Events are “subscribed” to using a `Component` method starting with `connect...`, such as
 
-```
-const subscription = component.connectLocalEvent(
-  entity, event, callback
+```typescript
+const subscription = component.connectLocalEvent(
+  entity, event, callback
 )
 ```
 
 which will result in `callback` being run every time `event` is sent to `entity` (if `entity` has the same owner as `component.owner`, since the line above used a *local* event).When using [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events), there is no specified entity to listen to.
 
-```
-component.connectLocalBroadcastEvent(event, callback)
+```typescript
+component.connectLocalBroadcastEvent(event, callback)
 ```
 
 Many “system actions” are communicated by sending [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) to entities. There are also some [built-in local-events](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events).
@@ -3256,13 +3223,13 @@ You can also connect to [events sent to players](Meta%20Horizon%20Worlds%20creat
 
 **Disconnecting Events**: All `connect...` events return an `EventSubscription`, a type with a single `disconnect(): void` method. Calling
 
-```
+```typescript
 subscription.disconnect()
 ```
 
 would make it so that `callback` is no longer called. It’s good practice to disconnect listeners when you are done with them.
 
-Connect to events in `preStart`. Send in `start`.
+Connect to events in \`preStart\`. Send in \`start\`.
 
 Imagine the following scenario: `ComponentA`, in its `start`, sends an event to `ComponentB`’s entity; but `ComponentB` doesn’t register to listen to the event until its `start`. Does `ComponentB` get the event? It depends on which component `start`ed first!
 
@@ -3270,31 +3237,31 @@ This is a subtle problem. To address this: **all components `preStart` before an
 
 **Never `connect` in `start`. Never `send` in `preStart`**. This can cause events to get missed!
 
-Long-running event callbacks will hurt execution [frame rate](#frame-rate ) and eventually time out and be 'killed'.
+Long-running event callbacks will hurt execution \[frame rate]\(#frame-rate ) and eventually time out and be 'killed'.
 
 If an event callbacks runs for a long time it will “stall” all script execution (since it is single-threaded). Eventually Horizon will kill a long-running callback (but only after some number of seconds). When a long callback runs for too long it can block most of the other system behavior and cause unexpected results. Extremely large work-loads should be split up across frames.
 
-#### Sending Events
+#### [Sending Events](#sending-events)
 
 There are many events sent by the system ([built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) and [built-in local-events](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events)). You can also `new` your own events and then send and receive them as well.
 
 To send an event you simply use the `Component``send...` method matching the event type:
 
-```
-component.sendNetworkEvent(entity, networkEvent, data)
+```typescript
+component.sendNetworkEvent(entity, networkEvent, data)
 ```
 
 The `data` will then be passed into any callback that are connected to that event on that entity. If you are sending a broadcast even then you don’t specify the receiver:
 
-```
-component.sendNetworkBroadcastEvent(networkEvent, data)
+```typescript
+component.sendNetworkBroadcastEvent(networkEvent, data)
 ```
 
 You can also [send events to players](Meta%20Horizon%20Worlds%20creator%20manual.md#routing-events-through-players).
 
 **Cannot Cancel**: once an event is sent there is no way to revoke it.
 
-#### Routing Events through Players
+#### [Routing Events through Players](#routing-events-through-players)
 
 The (non-[broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events)) `connect...` and `send...` methods on [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) allow either an [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) or a [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) for the `target` argument.
 
@@ -3304,112 +3271,112 @@ The example below shows a script that has [props](Meta%20Horizon%20Worlds%20crea
 
 Note that the `playerCaptured` event is `export`ed from the file so that other scripts can listen to it. Also, this particular example could have also been achieved with a [broadcast event](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events).
 
-```
-import {
-  NetworkEvent, Component, PropTypes, CodeBlockEvents
-} from "horizon/core"
+```typescript
+import {
+  NetworkEvent, Component, PropTypes, CodeBlockEvents
+} from "horizon/core"
 
-export const playerCaptured = new NetworkEvent<{ index: number }>(
-  'didCapturePlayerInTrigger'
+export const playerCaptured = new NetworkEvent<{ index: number }>(
+  'didCapturePlayerInTrigger'
 )
 
-class TriggerCaptureComponent extends Component<
-  typeof TriggerCaptureComponent
-> {
-  static propsDefinition = {
-    trigger : { type : PropTypes.Entity },
-    index : { type : PropTypes.Number }
-  }
+class TriggerCaptureComponent extends Component<
+  typeof TriggerCaptureComponent
+> {
+  static propsDefinition = {
+    trigger : { type : PropTypes.Entity },
+    index : { type : PropTypes.Number }
+  }
 
-  override preStart() {
-    const {trigger, index} = this.props
-    if (trigger) {
-      this.connectCodeBlockEvent(
-        trigger,
-        CodeBlockEvents.OnPlayerEnterTrigger,
-        (player) => {
-          this.sendNetworkEvent(player, playerCaptured, {index})
-        }
-      )
-    }
-  }
+  override preStart() {
+    const {trigger, index} = this.props
+    if (trigger) {
+      this.connectCodeBlockEvent(
+        trigger,
+        CodeBlockEvents.OnPlayerEnterTrigger,
+        (player) => {
+          this.sendNetworkEvent(player, playerCaptured, {index})
+        }
+      )
+    }
+  }
 
-  start() {}
+  start() {}
 }
 Component.register(TriggerCaptureComponent)
 ```
 
-#### Code Block Events
+#### [Code Block Events](#code-block-events)
 
 `CodeBlockEvent`s are a **legacy event type** used for listening to [built-in events](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) and for communicating with [Codeblock scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting). **Do not create custom `CodeBlockEvent`s** as they can conflict with built-in events and cause unexpected behavior (unless you are communicating with [Codeblock scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting), then you *must* use `CodeBlockEvent`s).
 
 **Creation**:
 
-```
-const cbEvent = new CodeBlockEvent<[food: string, count: number]>(
-    'registerGroceries',
-    [PropTypes.String, PropTypes.Number]
+```typescript
+const cbEvent = new CodeBlockEvent<[food: string, count: number]>(
+    'registerGroceries',
+    [PropTypes.String, PropTypes.Number]
 )
 ```
 
 A `CodeBlockEvent` requires:
 
-* A name string (e.g. `'registerGroceries'`)
-* A tuple of parameter types passing in as [PropTypes](Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes) and as generics (in the `<...>`)
+- A name string (e.g. `'registerGroceries'`)
+- A tuple of parameter types passing in as [PropTypes](Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes) and as generics (in the `<...>`)
 
 Usage example (where the event is sent to the component’s entity):
 
-```
-import {
-  CodeBlockEvent, Component, PropTypes
-} from "horizon/core"
+```typescript
+import {
+  CodeBlockEvent, Component, PropTypes
+} from "horizon/core"
 
-const cbEvent = new CodeBlockEvent<[food: string, count: number]>(
-  'registerGroceries',
-  [PropTypes.String, PropTypes.Number]
+const cbEvent = new CodeBlockEvent<[food: string, count: number]>(
+  'registerGroceries',
+  [PropTypes.String, PropTypes.Number]
 )
 
-class ExampleComponent extends Component<typeof ExampleComponent> {
-  override preStart() {
-    this.connectCodeBlockEvent(this.entity, cbEvent, (food, count) => {
-      console.log(`I need to buy ${count} ${food}!`)
-    })
-  }
+class ExampleComponent extends Component<typeof ExampleComponent> {
+  override preStart() {
+    this.connectCodeBlockEvent(this.entity, cbEvent, (food, count) => {
+      console.log(`I need to buy ${count} ${food}!`)
+    })
+  }
 
-  override start() {
-    this.sendCodeBlockEvent(this.entity, cbEvent, 'apples', 5)
-  }
+  override start() {
+    this.sendCodeBlockEvent(this.entity, cbEvent, 'apples', 5)
+  }
 }
 Component.register(ExampleComponent)
 ```
 
 **Properties**:
 
-* **Client Support**: Can be sent and received across [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), meaning that you can send to an entity with a different owner than the sender, and likewise connect to an entity with a different owner than the connector. One exception: [built-in broadcast CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events)*cannot* be received on a different client than the event is emitted on.
-* **Execution**: Runs in the next [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase) after receipt (which maybe be on a different client after a “network trip”)
-* **Data Format**: Requires a tuple of [BuiltInVariableType](Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype)s
-* **Event Disambiguation**: System checks both name and parameterTypes before executing listeners
+- **Client Support**: Can be sent and received across [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), meaning that you can send to an entity with a different owner than the sender, and likewise connect to an entity with a different owner than the connector. One exception: [built-in broadcast CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events)*cannot* be received on a different client than the event is emitted on.
+- **Execution**: Runs in the next [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase) after receipt (which maybe be on a different client after a “network trip”)
+- **Data Format**: Requires a tuple of [BuiltInVariableType](Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype)s
+- **Event Disambiguation**: System checks both name and parameterTypes before executing listeners
 
 CodeBlockEvents have a per-frame limit.
 
 If `sendCodeBlockEvent` is called, including for [built-in events](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events), 2048 times or more in a frame, then an error is thrown, disrupting [event execution for the frame](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase).
 
-##### Built-In Code Block Events
+##### [Built-In Code Block Events](#built-in-code-block-events)
 
 The system uses `CodeBlockEvent`s for many built-in actions. For example, when an [entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) enters a [trigger zone](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) with matching [tags](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags), the system sends `CodeBlockEvents.onEntityEnterTrigger` to the trigger. See the [list of built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#all-built-in-codeblockevents) for more info.
 
-###### Built in broadcasted code block events
+###### [Built in broadcasted code block events](#built-in-broadcasted-code-block-events)
 
 **Broadcast `CodeBlockEvents`**: some built-in `CodeBlockEvent`s are “broadcast” meaning that you can *listen to any entity to receive them* (as long the receiver is executing on the same [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) the event is emitted on). The [list built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#all-built-in-codeblockevents) includes information on which ones are *broadcast*. Throughout this document, 🔈 denotes a *server-broadcast*`CodeBlockEvent`; 🏠 denotes a *device-broadcast*`CodeBlockEvent`.
 
 For example, to listen to `CodeBlockEvents.onPlayerEnterWorld`, you can listen to it on *any entity* (though it has to be [server-owned](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership)). There is no way to *send* a broadcast event yourself.
 
-```
-// on a Component
+```typescript
+// on a Component
 this.connectCodeBlockEvent(
-  entity, // any entity owned by the server
-  CodeBlockEvents.onPlayerEnterWorld,
-  callback
+  entity, // any entity owned by the server
+  CodeBlockEvents.onPlayerEnterWorld,
+  callback
 )
 ```
 
@@ -3427,132 +3394,132 @@ Some times TypeScript and [Codeblock scripts](Meta%20Horizon%20Worlds%20creator%
 
 Example: Imagine a [trigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) that has a [Codeblock script](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting) attached to it that listens to [trigger enter](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) on `self` (Codeblock’s version of `this.entity`). If you then have a TypeScript script also connect to the [trigger enter](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) event then it turns out that neither script will receive trigger events for that trigger.
 
-#### Network Events
+#### [Network Events](#network-events)
 
 `NetworkEvent`s are the **recommended alternative to `CodeBlockEvent`s** for communication between components with different [owners](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership).
 
 **Creation**:
 
-```
-const networkEvent = new NetworkEvent<{ code: number }>(
-  'setCodeWithNumber'
+```typescript
+const networkEvent = new NetworkEvent<{ code: number }>(
+  'setCodeWithNumber'
 )
 ```
 
 A `NetworkEvent` requires:
 
-* A name string (highly specific to avoid conflicts)
-* A payload type satisfying `SerializableState`
+- A name string (highly specific to avoid conflicts)
+- A payload type satisfying `SerializableState`
 
 Usage example (where the event is sent to the component’s entity):
 
-```
-import {
-  NetworkEvent, Component
-} from "horizon/core"
+```typescript
+import {
+  NetworkEvent, Component
+} from "horizon/core"
 
-const networkEvent = new NetworkEvent<{ code: number }>(
-  'setCodeWithNumber'
+const networkEvent = new NetworkEvent<{ code: number }>(
+  'setCodeWithNumber'
 )
 
-class ExampleComponent extends Component<typeof ExampleComponent> {
-  override preStart() {
-    this.connectNetworkEvent(this.entity, networkEvent, ({code}) => {
-      console.log(`I got ${code}!`)
-    })
-  }
+class ExampleComponent extends Component<typeof ExampleComponent> {
+  override preStart() {
+    this.connectNetworkEvent(this.entity, networkEvent, ({code}) => {
+      console.log(`I got ${code}!`)
+    })
+  }
 
-  override start() {
-    this.sendNetworkEvent(this.entity, networkEvent, {code: 42})
-  }
+  override start() {
+    this.sendNetworkEvent(this.entity, networkEvent, {code: 42})
+  }
 }
 Component.register(ExampleComponent)
 ```
 
 **Properties**:
 
-* **Client Support**: Can be sent and received across [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), meaning that you can send to an entity with a different owner than the sender, and likewise connect to an entity with a different owner than the connector.
-* **Execution**: Runs in the next [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase) after receipt (which maybe be on a different client after a “network trip”)
-* **Data Format**: Accepts any [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)
-* **Event Disambiguation**: ⚠️ The system only checks the event name - use highly specific names to avoid conflicts between different `NetworkEvent`s!
+- **Client Support**: Can be sent and received across [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), meaning that you can send to an entity with a different owner than the sender, and likewise connect to an entity with a different owner than the connector.
+- **Execution**: Runs in the next [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase) after receipt (which maybe be on a different client after a “network trip”)
+- **Data Format**: Accepts any [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)
+- **Event Disambiguation**: ⚠️ The system only checks the event name - use highly specific names to avoid conflicts between different `NetworkEvent`s!
 
-#### Local Events
+#### [Local Events](#local-events)
 
 `LocalEvent`s are designed for communication between entities on the same client, offering maximum flexibility with minimal overhead. They execute essentially as **synchronous function calls**.
 
 **Creation**:
 
-```
-const doorEvent = new LocalEvent<{open: boolean, date: Date}>(
-  'setDoorState'
+```typescript
+const doorEvent = new LocalEvent<{open: boolean, date: Date}>(
+  'setDoorState'
 )
 ```
 
 A `LocalEvent` requires:
 
-* An optional name string (useful for debugging)
-* A type parameter for payload; it can be any type whatsoever (since there is no network serialization). Note that the example above *cannot* be done with [NetworkEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) because `Date` is not compatible with [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate).
+- An optional name string (useful for debugging)
+- A type parameter for payload; it can be any type whatsoever (since there is no network serialization). Note that the example above *cannot* be done with [NetworkEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) because `Date` is not compatible with [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate).
 
 Usage example (where the event is sent to the component’s entity):
 
-```
-import {
-  LocalEvent, Component
-} from "horizon/core"
+```typescript
+import {
+  LocalEvent, Component
+} from "horizon/core"
 
-const doorEvent = new LocalEvent<{open: boolean, date: Date}>(
-  'setDoorState'
+const doorEvent = new LocalEvent<{open: boolean, date: Date}>(
+  'setDoorState'
 )
 
-class ExampleComponent extends Component<typeof ExampleComponent> {
-  override preStart() {
-    this.connectLocalEvent(this.entity, doorEvent, (info) => {
-      console.log(`I got ${info.open} on ${info.date}!`)
-    })
-  }
+class ExampleComponent extends Component<typeof ExampleComponent> {
+  override preStart() {
+    this.connectLocalEvent(this.entity, doorEvent, (info) => {
+      console.log(`I got ${info.open} on ${info.date}!`)
+    })
+  }
 
-  override start() {
-    this.sendLocalEvent(this.entity, doorEvent, {
-      open: true, date: new Date()
-    })
-  }
+  override start() {
+    this.sendLocalEvent(this.entity, doorEvent, {
+      open: true, date: new Date()
+    })
+  }
 }
 Component.register(ExampleComponent)
 ```
 
 **Properties**:
 
-* **Client Support**: Local only - events cannot cross [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) boundaries
-* **Execution**: Immediate synchronous execution on the [local client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)
-* **Data Format**: Accepts any arbitrary type as payload type
-* **Event Disambiguation**: Uses referential equality - no risk of name conflicts.
+- **Client Support**: Local only - events cannot cross [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) boundaries
+- **Execution**: Immediate synchronous execution on the [local client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)
+- **Data Format**: Accepts any arbitrary type as payload type
+- **Event Disambiguation**: Uses referential equality - no risk of name conflicts.
 
-You must use the exact same `LocalEvent` instance for both `sendLocalEvent` and `connectLocalEvent`.
+You must use the exact same \`LocalEvent\` instance for both \`sendLocalEvent\` and \`connectLocalEvent\`.
 
 Since `LocalEvent`s are disambiguated *referentially* you **must use the same `LocalEvent` instance**. In the code below, the first example will run `callback`. The second example does not.
 
-```
-// Example 1: ✅ Right!
-const evt = new LocalEvent('jump')
-this.connectLocalEvent(entity, evt, callback)
-// ... later ...
-this.sendLocalEvent(entity, evt, {})
+```typescript
+// Example 1: ✅ Right!
+const evt = new LocalEvent('jump')
+this.connectLocalEvent(entity, evt, callback)
+// ... later ...
+this.sendLocalEvent(entity, evt, {})
 
-// Example 2: ❌ Wrong!
-// The send is using a different event than the connect.
-this.connectLocalEvent(entity, new LocalEvent('jump'), callback)
-// ... later ...
-this.sendLocalEvent(entity, new LocalEvent('jump'), {})
+// Example 2: ❌ Wrong!
+// The send is using a different event than the connect.
+this.connectLocalEvent(entity, new LocalEvent('jump'), callback)
+// ... later ...
+this.sendLocalEvent(entity, new LocalEvent('jump'), {})
 ```
 
-##### Built-In Local Events
+##### [Built-In Local Events](#built-in-local-events)
 
 There are currently two groups of built-in [LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events):
 
-* The [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) class has static members [onPrePhysicsUpdate and onUpdate](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) for running code every frame ([before and after physics](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase), respectively). These are broadcast on all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
-* The [PlayerControls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) class has static members for `onFocusedInteractionInputStarted`, `onFocusedInteractionInputMoved`, `onFocusedInteractionInputEnded`, and `onHolsteredItemsUpdated` which are all [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) on the [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that own the controls.
+- The [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) class has static members [onPrePhysicsUpdate and onUpdate](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) for running code every frame ([before and after physics](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase), respectively). These are broadcast on all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
+- The [PlayerControls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) class has static members for `onFocusedInteractionInputStarted`, `onFocusedInteractionInputMoved`, `onFocusedInteractionInputEnded`, and `onHolsteredItemsUpdated` which are all [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) on the [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that own the controls.
 
-#### Broadcast events
+#### [Broadcast events](#broadcast-events)
 
 [NetworkEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) and [LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) both support broadcasting. Instead of [sending events](Meta%20Horizon%20Worlds%20creator%20manual.md#sending-events) to and [listening to events](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) on a specific entity, you instead simply listen for the event being “broadcast”, and then any registered listener can receive it.
 
@@ -3564,21 +3531,20 @@ Broadcast events decouple senders from receivers without requiring specific enti
 
 For example, if you create the following `LocalEvent`:
 
-```
-const evt = new LocalEvent<{value: number}>()
+```typescript
+const evt = new LocalEvent<{value: number}>()
 ```
 
 then you send it like this (there is no `entity` receiver arg)
 
-```
-component.sendLocalBroadcastEvent(evt, {value: 10})
+```typescript
+component.sendLocalBroadcastEvent(evt, {value: 10})
 ```
 
-and it will be received by all listeners on the same [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) (since it’s a local event). To register one of those listeners, do:
-then you can register to listen to it being sent from
+and it will be received by all listeners on the same [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) (since it’s a local event). To register one of those listeners, do: then you can register to listen to it being sent from
 
-```
-component.connectLocalBroadcastEvent(evt, callback)
+```typescript
+component.connectLocalBroadcastEvent(evt, callback)
 ```
 
 **[LocalEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) Broadcast**: `sendLocalBroadcastEvent` will synchronously (immediately) call all registered listeners on the same [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). The order that the callbacks are called in is undefined and should not be relied on. [There are some built-in LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) which are broadcasted.
@@ -3593,14 +3559,14 @@ The `sendNetworkBroadcastEvent` method takes an extra, optional, final parameter
 
 **Limit receiving players**: all `send...` methods (except for [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events)) take an additional optional final parameter: `players?: Player[]` which allows you to specify that the event will only be sent to those players’ [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). This is an *expert-level* feature; **only use it if you truly know what you are doing**.
 
-#### Converting Between Components and Entities
+#### [Converting Between Components and Entities](#converting-between-components-and-entities)
 
 When two components are running on the same [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) they can directly call one another’s functions (instead of going through [entities and the event system](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)). There are 2 ways to “find [component](Meta%20Horizon%20Worlds%20creator%20manual.md#components) instances on the [local client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server):
 
-- **components attached to entities**: you can do `entity.getComponents()` to get all components on an entity. If only one component is attached to the entity then the array will have 1 element in it. You can also pass in a class `entity.getComponents(ExampleComponent)` to get an array of `ExampleComponent` instances attached to the entity (which, again, will be at most one).
-- **all component instances**: you can run `Component.getComponents(ExampleComponent)` to get an array of all instances of `ExampleComponent` on the [local client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
+1. **components attached to entities**: you can do `entity.getComponents()` to get all components on an entity. If only one component is attached to the entity then the array will have 1 element in it. You can also pass in a class `entity.getComponents(ExampleComponent)` to get an array of `ExampleComponent` instances attached to the entity (which, again, will be at most one).
+2. **all component instances**: you can run `Component.getComponents(ExampleComponent)` to get an array of all instances of `ExampleComponent` on the [local client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
 
-Danger: `getComponents` cannot be used until start.
+Danger: \`getComponents\` cannot be used until start.
 
 You cannot call `entity.getComponents(...)` or `Component.getComponents(...)` in a property initializer, `initializeUI`, or in `preStart`. This information isn’t ready until after the [prepare state](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) of component instantiation.
 
@@ -3608,72 +3574,72 @@ Calling a method on a component.
 
 In this example we find all `ListenerComponent`s in the [local client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) from within the `SpeakerComponent`. We are then able to directly access the `props` and the `hear` method on `ListenerComponent`.
 
-```
-import {Component, PropTypes} from 'horizon/core'
+```typescript
+import {Component, PropTypes} from 'horizon/core'
 
-class ListenerComponent extends Component<typeof ListenerComponent> {
-  static propsDefinition = {
-    name: { type: PropTypes.String }
-  }
+class ListenerComponent extends Component<typeof ListenerComponent> {
+  static propsDefinition = {
+    name: { type: PropTypes.String }
+  }
 
-  override start() {}
+  override start() {}
 
-  hear(message: string) {
-    console.log('I heard: ' + message)
-  }
+  hear(message: string) {
+    console.log('I heard: ' + message)
+  }
 }
 Component.register(ListenerComponent)
 
-class SpeakerComponent extends Component<typeof SpeakerComponent> {
-  override start() {
-    const listeners = Component.getComponents(ListenerComponent)
+class SpeakerComponent extends Component<typeof SpeakerComponent> {
+  override start() {
+    const listeners = Component.getComponents(ListenerComponent)
 
-    for (const listener of listeners) {
-      listener.hear('Hello, ' + listener.props.name)
-    }
-  }
+    for (const listener of listeners) {
+      listener.hear('Hello, ' + listener.props.name)
+    }
+  }
 }
 Component.register(SpeakerComponent)
 ```
 
-### Disposing Objects
+### [Disposing Objects](#disposing-objects)
 
 The `DisposableObject` interface represents a TypeScript object with a `dispose()` method which can be called to do “cleanup”. Additionally a `DisposableObject` must also have the `registerDisposeOperation` method, which allows callbacks to be registered to also be run when the object is `dispose`d.
 
-Note
+> [!Note]
+>
+> Currently only [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) implements the `DisposableObject` interface.
 
-Currently only [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) implements the `DisposableObject` interface.
-
-```
-interface DisposableObject {
-  dispose(): void;
-  registerDisposeOperation(
-    operation: DisposeOperation
-  ): DisposeOperationRegistration;
+```typescript
+interface DisposableObject {
+  dispose(): void;
+  registerDisposeOperation(
+    operation: DisposeOperation
+  ): DisposeOperationRegistration;
 };
 
-type DisposeOperation = () => void;
+type DisposeOperation = () => void;
 
-interface DisposeOperationRegistration {
-  // run the dispose operation
-  run: () => void;
+interface DisposeOperationRegistration {
+  // run the dispose operation
+  run: () => void;
 
-  // cancel the operation so it never runs
-  cancel: () => void;
+  // cancel the operation so it never runs
+  cancel: () => void;
 };
 ```
 
 When you call `registerDisposeOperation` you get back a `DisposeOperationRegistration` which has methods `run`, to manually dispose (even earlier), and `cancel` to stop the passed in `operation` from ever running.
 
-`PlayerControls` takes a `DisposableObject`
+\`PlayerControls\` takes a \`DisposableObject\`
 
 In the [PlayerControls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) class, the static method `connectLocalInput` takes a `DisposableObject` object as an argument. The controls will be *unregistered* when the disposable object disposes.
 
-### Frames
+### [Frames](#frames)
 
 Each [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) in an [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) runs a fixed set of actions repeatedly while the instance runs. The sequence of actions is called the **[frame sequence](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence)** and each run of the sequence is called one **frame**. The number of frames per second (fps) is called the [frame rate](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-rate).
 
-#### Frame Rate
+#### [Frame Rate](#frame-rate)
 
 The number of frames that occur per second is called the **frame rate** and is abbreviated “fps” for “frames per second”. The time it takes to run each frame is the *frame time* (the time per frame).
 
@@ -3685,13 +3651,13 @@ There is no separate 'physics simulation rate'.
 
 In many game engines the physics simulation runs at a different rate than the rendering does. The physics simulation rate is often called a “fixed update”. In Horizon there is no such separation. Every [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) executes the [same sequence every frame](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence), including both physics simulation and rendering (although rendering is skipped on the [server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) since it lacks a display).
 
-#### Frame sequence
+#### [Frame sequence](#frame-sequence)
 
 Every action in Horizon happens somewhere within a frame. Frames execute in 3 main stages, in the following order:
 
-- **[Simulation Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)**: Updates player movement and recorded animations. Computes physics updates and detects collisions. Allows code to be run [before or after the physics calculations](Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events).
-- **[Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase)**: Handles [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events), [LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events), and [NetworkEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events). Processes [player input](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) changes and runs [async callbacks](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers). Changes to the [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) are committed.
-- **[Synchronization Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)**: Processes received [network](Meta%20Horizon%20Worlds%20creator%20manual.md#network) information, sends out network updates, and renders the scene (if not the server).
+1. **[Simulation Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)**: Updates player movement and recorded animations. Computes physics updates and detects collisions. Allows code to be run [before or after the physics calculations](Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events).
+2. **[Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase)**: Handles [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events), [LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events), and [NetworkEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events). Processes [player input](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) changes and runs [async callbacks](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers). Changes to the [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) are committed.
+3. **[Synchronization Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)**: Processes received [network](Meta%20Horizon%20Worlds%20creator%20manual.md#network) information, sends out network updates, and renders the scene (if not the server).
 
 ![](../../_assets/images/c514f0ad0b3dd9359c1e8cf00b1726aab6f2408c0641b6a334a09041d3a010ca.png)
 
@@ -3699,51 +3665,51 @@ Script execution is \*single-threaded\* (long-running functions will 'stall' the
 
 If a callback ([event](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) or [async](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers)) runs for too much time it will “stall” all script execution. Eventually Horizon will kill a long-running callback (but only after some number of seconds). When a callback runs for too long it can block most of the other system behavior and cause unexpected results. Extremely large work-loads should be split up across frames.
 
-##### Simulation Phase
+##### [Simulation Phase](#simulation-phase)
 
 The **Simulation Phase** runs at the start of the frame and includes physics calculations and avatar/animation updates.
 
-- **Pre-Physics**
-  * [Broadcasts](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) the [World.onPrePhysicsUpdate](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) event locally, causing all local listeners to run.
-- **Physics Updates**
-  * Players update their [positions and pose](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) based on locomotion inputs.
-  * Animation playback is updated.
-  * Physics calculations run, applying [accumulated forces and torques](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque) to entities with [simulated=true](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) to update their linear and angular velocities.
-  * Collisions [with object and players](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions) as well as with [triggers](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) are detected; the [associated CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) are queued to run later in the frame in the [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase).
-- **On-Update**
-  * [Broadcasts](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) the [World.onUpdate](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) event locally, causing all local listeners to run.
-  * Player positions that are modified in the `onPrePhysicsUpdate` callbacks will be used in the *physics updates* that follow. However, **modifications to entities will not be used in the *physics updates***.
+1. **Pre-Physics**
+   - [Broadcasts](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) the [World.onPrePhysicsUpdate](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) event locally, causing all local listeners to run.
+2. **Physics Updates**
+   - Players update their [positions and pose](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) based on locomotion inputs.
+   - Animation playback is updated.
+   - Physics calculations run, applying [accumulated forces and torques](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque) to entities with [simulated=true](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) to update their linear and angular velocities.
+   - Collisions [with object and players](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions) as well as with [triggers](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) are detected; the [associated CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) are queued to run later in the frame in the [Script Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#script-phase).
+3. **On-Update**
+   - [Broadcasts](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events) the [World.onUpdate](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) event locally, causing all local listeners to run.
+   - Player positions that are modified in the `onPrePhysicsUpdate` callbacks will be used in the *physics updates* that follow. However, **modifications to entities will not be used in the *physics updates***.
 
-##### Script Phase
+##### [Script Phase](#script-phase)
 
 The **Script Phase** executes all event listeners, handles player input, instantiates components, and commits pending scene graph changes.
 
-- **Scene Graph Updates Preparation**
-  * Any [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) mutations performed via [property.set(...)](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) throughout the frame thus far are copied to the side and the “pending updates” cache is cleared. There are [subtleties in how scene graph mutations are applied](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations).
-- **Component Initialization**
-  * New [files](Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution), from world start or [spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), are executed, running all code in the *top-level scope* (initializing *globals*, running `static` class members and blocks, etc).
-  * New components are instantiated (due to the instance starting, assets [spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) in, or entities having their [ownership transferred](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) to this [device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)). Those new components will [all be prepared and then started](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
-- **Event Processing**
-  * [NetworkEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) listeners run
-  * [PlayerInput](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) callbacks run
-  * [CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) listeners run (including [built-in](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) ones, such as those prepared in the [physics calculations](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)).
-- **Scene Graph Updates**
-  * The mutations prepared in step #2 are now applied. There are [subtleties in how scene graph mutations are applied](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations).
-- **Final Callbacks**
-  * Any [asynchronous](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers) callbacks (e.g., `setTimeout`, `setInterval`) that are “passed due” are run (meaning that the current time is equal to or later than their scheduled times). Note that Horizon will limit how many async callbacks run in one frame; if too much time has been used, and there are still async callbacks to run, it may delay running them until the next frame. Note that events do *not* do this. [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) and [NetworkEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) are all processed until the queue is empty.
-  * Any entities owned by the [local device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that had [owner.set(...)](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) called on them during the frame will now have [transferOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) called to get the *transfer* state that will be dispatched in the [Synchronization Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase). These entities will be marked for [disposal](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
-  * Any components that were created in step #2 due to an [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) will have [receiveOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) called on them with their *transferred state* (or with `null` if the transfers were [discontinuous](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers)).
-  * Any components that were marked for [disposal](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) (due to being spawned out, the instance stopping, or in the step 2 bullets above) will have `dispose()` called. All their [event subscriptions](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) will be `disconnect`ed. All the ongoing [timeouts and intervals](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers) will be `clear`ed.
+1. **Scene Graph Updates Preparation**
+   - Any [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph) mutations performed via [property.set(...)](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) throughout the frame thus far are copied to the side and the “pending updates” cache is cleared. There are [subtleties in how scene graph mutations are applied](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations).
+2. **Component Initialization**
+   - New [files](Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution), from world start or [spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning), are executed, running all code in the *top-level scope* (initializing *globals*, running `static` class members and blocks, etc).
+   - New components are instantiated (due to the instance starting, assets [spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) in, or entities having their [ownership transferred](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) to this [device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)). Those new components will [all be prepared and then started](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
+3. **Event Processing**
+   - [NetworkEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) listeners run
+   - [PlayerInput](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) callbacks run
+   - [CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) listeners run (including [built-in](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) ones, such as those prepared in the [physics calculations](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)).
+4. **Scene Graph Updates**
+   - The mutations prepared in step #2 are now applied. There are [subtleties in how scene graph mutations are applied](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations).
+5. **Final Callbacks**
+   - Any [asynchronous](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers) callbacks (e.g., `setTimeout`, `setInterval`) that are “passed due” are run (meaning that the current time is equal to or later than their scheduled times). Note that Horizon will limit how many async callbacks run in one frame; if too much time has been used, and there are still async callbacks to run, it may delay running them until the next frame. Note that events do *not* do this. [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) and [NetworkEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events) are all processed until the queue is empty.
+   - Any entities owned by the [local device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that had [owner.set(...)](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) called on them during the frame will now have [transferOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) called to get the *transfer* state that will be dispatched in the [Synchronization Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase). These entities will be marked for [disposal](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
+   - Any components that were created in step #2 due to an [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) will have [receiveOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) called on them with their *transferred state* (or with `null` if the transfers were [discontinuous](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers)).
+   - Any components that were marked for [disposal](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) (due to being spawned out, the instance stopping, or in the step 2 bullets above) will have `dispose()` called. All their [event subscriptions](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) will be `disconnect`ed. All the ongoing [timeouts and intervals](Meta%20Horizon%20Worlds%20creator%20manual.md#async-delays-and-timers) will be `clear`ed.
 
-###### Scene Graph Mutations
+###### [Scene Graph Mutations](#scene-graph-mutations)
 
 When you call `set(...)` on a [Horizon property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) the changes are not immediately written to the [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph). This means that **if you call `get()` you will not get the new value you just set.** Instead, the changed is *buffered* (stored off to the side to be applied later). We call a buffered change a **scene graph mutation**.
 
 For example if you do:
 
-```
+```typescript
 entity.position.set(newPos);
-const pos = entity.position.get();  // Still the old position!
+const pos = entity.position.get();  // Still the old position!
 ```
 
 then the `get()` returns the old position, not the new one you just set. This is because the change is *buffered*, waiting to be applied.
@@ -3754,22 +3720,22 @@ This buffering system means that modifications made during the [script phase](Me
 
 This means that:
 
-* **Scene graph mutations performed in *[prePhysics and onUpdate handlers](Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events)* will be seen *the next frame*** (and technically in the async callbacks at the end of this frame).
-* **Scene graph mutations performed *anywhere else* will be seen *2 frames from now*** (and technically in the async callbacks at the end of the next frame).
+- **Scene graph mutations performed in *[prePhysics and onUpdate handlers](Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events)* will be seen *the next frame*** (and technically in the async callbacks at the end of this frame).
+- **Scene graph mutations performed *anywhere else* will be seen *2 frames from now*** (and technically in the async callbacks at the end of the next frame).
 
 **Player position is an exception**: Player position behaves differently. When you [set a player’s position in an OnPrePhysicsUpdate callback](Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-physics), that change is available immediately for physics calculations. **[OnPrePhysicsUpdate callbacks](Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events) are useful for moving players (but not other entities)**.
 
 **Position/rotation and physics forces don’t play well together** in the same frame. If you try to [move an entity](Meta%20Horizon%20Worlds%20creator%20manual.md#position) (or [move a player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-physics)) with both `position.set()` and [forces](Meta%20Horizon%20Worlds%20creator%20manual.md#forces) at the same time, they’ll conflict and give unexpected results. You should choose one approach or the other - either move things by setting their position directly, or move them with physics forces, but never both at once. The same applies to [setting rotations](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) vs using [torques](Meta%20Horizon%20Worlds%20creator%20manual.md#torques).
 
-##### Synchronization Phase
+##### [Synchronization Phase](#synchronization-phase)
 
 The **Synchronization Phase** finalizes the frame, managing network synchronization and rendering the world (on [player-device clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)).
 
-- **Network Sync**
-  * Events sent this frame are broadcasted to other clients.
-  * Networked entity transformations are synchronized across players.
-- **Render (if on a player device)**
-  * The game world is rendered for the player based on the state of the world as it is on their [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) due to that client’s current [reconciliation](Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation).
+1. **Network Sync**
+   - Events sent this frame are broadcasted to other clients.
+   - Networked entity transformations are synchronized across players.
+2. **Render (if on a player device)**
+   - The game world is rendered for the player based on the state of the world as it is on their [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) due to that client’s current [reconciliation](Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation).
 
 Network Events sent to the same client are processed on the frame \*after\* the next one.
 
@@ -3779,58 +3745,58 @@ This happens because, as shown in the [frame sequence diagram](Meta%20Horizon%20
 
 This delay is usually not an issue, since network events always involve some lag. However, if you need an immediate response, consider using [LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) along with [local scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) and [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer).
 
-### Component Inheritance
+### [Component Inheritance](#component-inheritance)
 
 It is not recommended to create deep hierarchies of components. We recommend you prefer **composition over inheritance** and use the general guidance of: **only subclass an abstract class**.
 
 If you want to make your own component subclass that is meant to be further subclassed, then this pattern should suffice (note that the abstract Parent is *not* registered).
 
-```
-abstract class Parent<T> extends Component<typeof Parent & T> {
-  static propsDefinition = {
-    name: {type: PropTypes.String},
-  }
-  start() {}
-  abstract greeting() : string
+```typescript
+abstract class Parent<T> extends Component<typeof Parent & T> {
+  static propsDefinition = {
+    name: {type: PropTypes.String},
+  }
+  start() {}
+  abstract greeting() : string
 }
 
-class Child<T> extends Parent<typeof Child> {
-  static propsDefinition = {
-    ...Parent.propsDefinition,
-    favoriteNumber: {type: PropTypes.Number},
-  }
-  start() {}
-  greeting() {
-    return this.props.name + ' ' + this.props.favoriteNumber
-  }
+class Child<T> extends Parent<typeof Child> {
+  static propsDefinition = {
+    ...Parent.propsDefinition,
+    favoriteNumber: {type: PropTypes.Number},
+  }
+  start() {}
+  greeting() {
+    return this.props.name + ' ' + this.props.favoriteNumber
+  }
 }
 Component.register(Child)
 ```
 
-### File-Backed Scripts (FBS)
+### [File-Backed Scripts (FBS)](#file-backed-scripts-fbs)
 
 There are two ways of storing the code for scripts: legacy Gizmo-Backed Scripts and modern File-Backed Scripts.
 
-| Type | Description |
-| --- | --- |
-| Gizmo-Backed Scripts | Script data is stored *within* script gizmo entities located in your world’s scene graph. The script data is tied to your world. |
-| File-Backed Scripts (FBS) | Script data is stored in a central file server unrelated to your world. The script data is pulled into your world by reference. |
+| Type                      | Description                                                                                                                      |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Gizmo-Backed Scripts      | Script data is stored *within* script gizmo entities located in your world’s scene graph. The script data is tied to your world. |
+| File-Backed Scripts (FBS) | Script data is stored in a central file server unrelated to your world. The script data is pulled into your world by reference.  |
 
 FBS are ‘production ready’ and used by many high profile worlds. The legacy gizmo-backed script storage, while intuitive, had a number of shortcomings:
 
-| Constraint | Gizmo-Backed Scripts | File-Backed Scripts (FBS) |
-| --- | --- | --- |
-| Script size | 32 KB per script | No reasonable limit |
-| Script count | Limited | No reasonable limit |
-| Travel time | Impacted by script size/count | Not significantly impacted |
-| Scripted Assets | Duplicates scripts when spawned (with a generic “Script” name with auto-appended digits if the script already exists or spawns more than once) | Share single script when spawned |
-| Scripted Assets | Assets must include referenced Component scripts | Referenced Component scripts are automatically added to the world (\*see note below on asset module references) |
-| Cross-World Updates | Not possible, as script data is tied to one world | The latest updates to script data is seen in all worlds referencing the script |
-| [Cloned Worlds](Meta%20Horizon%20Worlds%20creator%20manual.md#cloning-a-world) | Scripts in cloned world have no link to script data in original world | Scripts in cloned world are linked to the same script data as the original world |
-| Versioning | Not supported | The script data is versioned (tho versions are not directly accessible) |
-| In-Scene Gizmo | Requires an in-screen script gizmo to store the script data | In-scene gizmos are optional |
-| In-Scene Gizmo | Each in-scene gizmo has distinct script data | Multiple in-scene gizmos can be aliases to the same script data |
-| Use in [Template Assets](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) | Not advised | Fully supported (and strongly advised) |
+| Constraint                                                                             | Gizmo-Backed Scripts                                                                                                                           | File-Backed Scripts (FBS)                                                                                       |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Script size                                                                            | 32 KB per script                                                                                                                               | No reasonable limit                                                                                             |
+| Script count                                                                           | Limited                                                                                                                                        | No reasonable limit                                                                                             |
+| Travel time                                                                            | Impacted by script size/count                                                                                                                  | Not significantly impacted                                                                                      |
+| Scripted Assets                                                                        | Duplicates scripts when spawned (with a generic “Script” name with auto-appended digits if the script already exists or spawns more than once) | Share single script when spawned                                                                                |
+| Scripted Assets                                                                        | Assets must include referenced Component scripts                                                                                               | Referenced Component scripts are automatically added to the world (\*see note below on asset module references) |
+| Cross-World Updates                                                                    | Not possible, as script data is tied to one world                                                                                              | The latest updates to script data is seen in all worlds referencing the script                                  |
+| [Cloned Worlds](Meta%20Horizon%20Worlds%20creator%20manual.md#cloning-a-world)         | Scripts in cloned world have no link to script data in original world                                                                          | Scripts in cloned world are linked to the same script data as the original world                                |
+| Versioning                                                                             | Not supported                                                                                                                                  | The script data is versioned (tho versions are not directly accessible)                                         |
+| In-Scene Gizmo                                                                         | Requires an in-screen script gizmo to store the script data                                                                                    | In-scene gizmos are optional                                                                                    |
+| In-Scene Gizmo                                                                         | Each in-scene gizmo has distinct script data                                                                                                   | Multiple in-scene gizmos can be aliases to the same script data                                                 |
+| Use in [Template Assets](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset) | Not advised                                                                                                                                    | Fully supported (and strongly advised)                                                                          |
 
 FBS Asset Module References
 
@@ -3838,7 +3804,7 @@ While spawned assets will automatically import the FBS script containing Compone
 
 Assets reference a frozen version of FBS script data.
 
-When you create an asset, it locks in a version of the FBS script data at the time of creation. If you later want to update the script version used by the asset, you will need to re-create or update them to get a later script version. Using [template assets](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset>) helps with this.
+When you create an asset, it locks in a version of the FBS script data at the time of creation. If you later want to update the script version used by the asset, you will need to re-create or update them to get a later script version. Using [template assets](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset%3E) helps with this.
 
 Avoid sharing FBS scripts with untrusted partners
 
@@ -3848,7 +3814,7 @@ Danger: Do not mix assets with FBS and Gizmo-Backed Scripts in the same world
 
 If you spawn assets with FBS and Gizmo-Backed Scripts into the same world, you can get into very weird situations where it is unclear which script you are editing/referencing. The desktop editor seems to refuse to allow mixing at build time, but runtime spawning may not.
 
-#### FBS Script Ids
+#### [FBS Script Ids](#fbs-script-ids)
 
 The legacy Gizmo-Backed scripts identified script data by the name of the gizmo in the world. The world would not allow multiple script gizmos with the same name, and spawned in scripts would automatically get new names if there were a name conflict.
 
@@ -3862,44 +3828,44 @@ Multiple FBS with different ids but the same name are not allowed in the same wo
 
 When spawning in assets, especially at runtime, ensure that none of the assets use the same name for *different* script ids (not different versions of the same script id, rather unrelated scripts). A warning will be printed in the console when this happens, and the new script will not execute and its scripted entities will not function.
 
-##### Branched World Development Source Control Workflow Issues
+##### [Branched World Development Source Control Workflow Issues](#branched-world-development-source-control-workflow-issues)
 
 If you make clones of your main world for branching source control development workflow, and add new scripts in the branch world, it is *critically* important that you make assets of the scripts in the branch world and add them as assets to the main world *before* you use external source control to merge the file changes into the branch used by the main world.
 
 Example workflow steps:
 
-- Clone main world for branched work
-- Branch typescript source in external revision control system for branched world
-- Create new scripts and assets in branched world
-- Check in script changes in branched world to external revision control system branch
-- **Critical:** Add assets referencing *new* scripts from branch to the main world
-- Merge script changes in external revision control system back to main world branch
+1. Clone main world for branched work
+2. Branch typescript source in external revision control system for branched world
+3. Create new scripts and assets in branched world
+4. Check in script changes in branched world to external revision control system branch
+5. **Critical:** Add assets referencing *new* scripts from branch to the main world
+6. Merge script changes in external revision control system back to main world branch
 
 The reason for this is that you want to ensure that the script id used by the FBS in the main world matches the script id for the branch world, especially any assets created in the branch world that you plan to later spawn into the main world. By dragging the FBS scripts as assets in to the main world, they will *not* get new FBS script ids, but will reference the same script ids as those in the branch world. Then, when you use external source control to merge the typescript to the main world, the scripts will already be there with the correct id.
 
 If you did this in the other order (merging the source code to the main world before adding the scripts as assets), the merged code would appear as ‘brand new’ scripts in the main world and would be assigned unique script ids that did not match those of assets created in the branched world. Later, if you tried to spawn those assets into your main world, you would get runtime errors about colliding script names for different script ids.
 
-#### Converting to FBS
+#### [Converting to FBS](#converting-to-fbs)
 
 To convert your world to FBS through the desktop editor, select **Scripts** and then click the **Gear icon**. Go to the File Backed Scripts section, and if it says “Update Available” click the ‘Review’ button to read about the ramification, and click Update schedule a pending conversion. Then click Apply to start the conversion. Depending on the size and number of legacy Gizmo-Backed Scripts in your world, it can take some time to convert them all, and a progress meter is available in Script settings if curious.
 
-Note
+> [!Note]
+>
+> Though documented, a way of converting to FBS seems no longer available in the VR editor.
 
-Though documented, a way of converting to FBS seems no longer available in the VR editor.
-
-Warning
-
-Changing to FBS **cannot be undone**. Your only option to convert your world back to one that uses legacy > Gizmo-Backed Scripts is to roll back the entire world to a saved state backup prior to when you initiated the FBS conversion. You *may* want to clone your world and convert that clone to FBS first to debug any issues before converting your main world.
+> [!Warning]
+>
+> Changing to FBS **cannot be undone**. Your only option to convert your world back to one that uses legacy > Gizmo-Backed Scripts is to roll back the entire world to a saved state backup prior to when you initiated the FBS conversion. You *may* want to clone your world and convert that clone to FBS first to debug any issues before converting your main world.
 
 Be aware that after updating to FBS, you will also need to update all assets that were being used in the world to also have FBS scripts. Assets will not update to FBS scripts automatically.
 
-#### Typescript Scripts Workflow
+#### [Typescript Scripts Workflow](#typescript-scripts-workflow)
 
 Using FBS is largely seamless to the typescript workflow, as most edits to the scripts are done via the external editor (e.g. VSCode) without regard to in-world script gizmo entities. In fact, as new typescript scripts tend to pile up at the world at the origin (0, 0, 0), it can clean up your visual view by just deleting all the gizmos from the world and relying on either the VSCode view or the Scripts panel in the desktop editor to find/manage them.
 
 Note: you may need to add script gizmos for typescript FBS if you need to reference them as imported modules in any assets you create.
 
-#### Codeblock Scripts workflow
+#### [Codeblock Scripts workflow](#codeblock-scripts-workflow)
 
 Using FBS with codeblocks can be a challenging experience, as editing script data is primarily done via accessing the in-scene script gizmos. First, script gizmos are no longer synonymous with distinct script data. Simply copying a script gizmo does not make a duplicate of the script data, and editing the data in the copied gizmo will edit the data viewed in the original gizmo as well. Likewise, deleting a script gizmo does not delete the script data. The script data is still available in the Script->Library, and another gizmo can be instantiated.
 
@@ -3909,67 +3875,67 @@ When editing a codeblock script in an FBS world, at times, the script gizmo may 
 
 bug Codeblock script updates are slow when using FBS
 
- Many creators report that edits to codeblock scripts in an FBS world take a long time to sync/update in the scripting UI, greatly slowing development speed.
+Many creators report that edits to codeblock scripts in an FBS world take a long time to sync/update in the scripting UI, greatly slowing development speed.
 
-#### Scripts and Template Assets
+#### [Scripts and Template Assets](#scripts-and-template-assets)
 
 It is *highly* advised to use FBS when using [template assets](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset). Template assets have UI support for identifying when asset definition updates are needed because of version changes to FBS scripts, and for pulling in version updates of FBS scripts to worlds that have instantiated template assets.
 
-### Script File Execution
+### [Script File Execution](#script-file-execution)
 
-### Script Execution Timing
+### [Script Execution Timing](#script-execution-timing)
 
 Scripts run at different times depending on when and how a file is loaded. Below is a breakdown of when files are executed and how components behave in various scenarios.
 
-* **On File Save**: When a *TypeScript file is saved*, the editor *reloads it*, triggering the following sequence:
-  * Existing components are [disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
-  * The file *runs* (executing any top-level code).
-  * Any necessary [components are reinitialized](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
-  * [Props in the editor](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) are *updated* accordingly.
-* **On World Start**: When the [world starts](Meta%20Horizon%20Worlds%20creator%20manual.md#starting-stopping-and-resetting-an-instance), all scripts execute in the following order:
-  * *All files are run* (executing any top-level code) on the[server](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
-  * All [components are instantiated](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the [server](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
-* **On Player Join**: When a [player joins](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), the following occurs:
-  * *All files are run* on their [client device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). *No*[components instantiated](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)*until* later (if, or when, an [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) occurs).
-* **On Ownership Transfer**: When [ownership transfers](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) from one [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to another:
-  * Existing [components are disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the previous owner’s client.
-  * New [components are initialized](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the new owner’s client. The file itself is *not re-run* during ownership transfer (since all files were run when the player joined).
-* **On Asset Spawn / Sublevel Stream**: When an *asset spawns or sublevel streams in*, the following happens:
-  * *All files are run* (executing any top-level code) on all active [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) (the server and client devices for all players in the world).
-  * All [components are instantiated](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the [server](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
+- **On File Save**: When a *TypeScript file is saved*, the editor *reloads it*, triggering the following sequence:
+  1. Existing components are [disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
+  2. The file *runs* (executing any top-level code).
+  3. Any necessary [components are reinitialized](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
+  4. [Props in the editor](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties) are *updated* accordingly.
+- **On World Start**: When the [world starts](Meta%20Horizon%20Worlds%20creator%20manual.md#starting-stopping-and-resetting-an-instance), all scripts execute in the following order:
+  1. *All files are run* (executing any top-level code) on the[server](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
+  2. All [components are instantiated](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the [server](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
+- **On Player Join**: When a [player joins](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), the following occurs:
+  1. *All files are run* on their [client device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). *No*[components instantiated](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)*until* later (if, or when, an [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) occurs).
+- **On Ownership Transfer**: When [ownership transfers](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) from one [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to another:
+  1. Existing [components are disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the previous owner’s client.
+  2. New [components are initialized](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the new owner’s client. The file itself is *not re-run* during ownership transfer (since all files were run when the player joined).
+- **On Asset Spawn / Sublevel Stream**: When an *asset spawns or sublevel streams in*, the following happens:
+  1. *All files are run* (executing any top-level code) on all active [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) (the server and client devices for all players in the world).
+  2. All [components are instantiated](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the [server](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
 
-### Scripting Helper Functions
+### [Scripting Helper Functions](#scripting-helper-functions)
 
 Horizon has a few helper functions in `horizon/core`:
 
-* **clamp**: ensures that a given number stays within a specified range. `clamp(value: number, min: number, max: number): number`
-  + If `value` is less than `min`, it returns `min`.
-  + If `value` is greater than `max`, it returns `max`.
-  + Otherwise, it returns `value` unchanged.
-  + *Examples*:
+- **clamp**: ensures that a given number stays within a specified range. `clamp(value: number, min: number, max: number): number`
+  - If `value` is less than `min`, it returns `min`.
+  - If `value` is greater than `max`, it returns `max`.
+  - Otherwise, it returns `value` unchanged.
+  - *Examples*:
     - `clamp(15, 10, 20)` is `15`
     - `clamp(5, 10, 20)` is `10`
     - `clamp(25, 10, 20)` is `20`
-* **assert**: throws an error if the given condition is false. `assert(condition: boolean): void`
-  + This is typically used for debugging and enforcing invariants.
-  + Example: `assert(user !== null)` // Throws if user is null
-* **radian to degree conversion**: converts an angle from radians to degrees. `radiansToDegrees(radians: number): number`
-  + Uses the formula: `degrees = radians * 180 / Math.PI`
-  + Example: `radiansToDegrees(Math.PI)` is `180`
-* **degree to radian conversion**: converts an angle from degrees to radians. `degreesToRadians(degrees: number): number`
-  + Uses the formula: `radians = degrees * Math.PI / 180`.
-  + Example: `degreesToRadians(180)` is `3.141...`
+- **assert**: throws an error if the given condition is false. `assert(condition: boolean): void`
+  - This is typically used for debugging and enforcing invariants.
+  - Example: `assert(user !== null)` // Throws if user is null
+- **radian to degree conversion**: converts an angle from radians to degrees. `radiansToDegrees(radians: number): number`
+  - Uses the formula: `degrees = radians * 180 / Math.PI`
+  - Example: `radiansToDegrees(Math.PI)` is `180`
+- **degree to radian conversion**: converts an angle from degrees to radians. `degreesToRadians(degrees: number): number`
+  - Uses the formula: `radians = degrees * Math.PI / 180`.
+  - Example: `degreesToRadians(180)` is `3.141...`
 
-## Network
+## [Network](#network)
 
-### Clients (Devices and the Server)
+### [Clients (Devices and the Server)](#clients-devices-and-the-server)
 
 Horizon [instances](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) run as a *distributed systems* with multiple machines involved. Each machine is called a **client**. Clients have the full [scene graph](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph), can [run code](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting), and have a [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) associated with them.
 
 There are two types of clients:
 
-* **Player Devices**: a client associated with a human player. These clients receive player input, can run [local scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts), [render](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) the world from their player’s camera / eyes every frame, and [synchronize](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) data with Meta’s servers. For a mobile player the device is their phone or tablet, for a PC or web-based player it is the computer and for a VR user this is their headset (or their computer if they are tethered).
-* **Server**: a special client that lives on Meta’s servers. Its associated player is the special [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). The server client runs all [default scripts and local scripts on entities owned by the server player](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts). The server operates just like player devices except that it skips [rendering](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) at the end of each frame.
+- **Player Devices**: a client associated with a human player. These clients receive player input, can run [local scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts), [render](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) the world from their player’s camera / eyes every frame, and [synchronize](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) data with Meta’s servers. For a mobile player the device is their phone or tablet, for a PC or web-based player it is the computer and for a VR user this is their headset (or their computer if they are tethered).
+- **Server**: a special client that lives on Meta’s servers. Its associated player is the special [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). The server client runs all [default scripts and local scripts on entities owned by the server player](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts). The server operates just like player devices except that it skips [rendering](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase) at the end of each frame.
 
 Some [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) can only be connected to on the server (such as [OnPlayerEnterWorld](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world)) whereas others can only be connected to on a player device (such as [OnPlayerEnteredFocusedInteraction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)). Similarly, most [persistence APIs](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence) can only be called from [scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting) running on the server.
 
@@ -3977,23 +3943,23 @@ Clients have varying frame rates.
 
 The server typically runs at 60 frames per second. Quest VR headsets run at 72 fps. Do not rely on or hardcode specific frame rates. There’s more information in the [frame rate](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-rate) section.
 
-### Entity Ownership
+### [Entity Ownership](#entity-ownership)
 
 Each entity in the world is owned by exactly one [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). An entity’s owner:
 
-* **Runs local scripts**: The owning client runs the attached script on the entity (if there is one and if it is set to *[local execution mode](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts)*).
-* **Has scene graph authority**: The owning client is the *[authority](Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation)* for that entity’s core attributes (such as position, visibility, and collision settings). When a client wants to modify an entity it doesn’t own, it must send a message to the owning client requesting the change.
+- **Runs local scripts**: The owning client runs the attached script on the entity (if there is one and if it is set to *[local execution mode](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts)*).
+- **Has scene graph authority**: The owning client is the *[authority](Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation)* for that entity’s core attributes (such as position, visibility, and collision settings). When a client wants to modify an entity it doesn’t own, it must send a message to the owning client requesting the change.
 
 When an [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) starts (or assets / sublevels [spawn in](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning)) **all entities begin owned by the server** until their [ownership is changed](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer). When the owner changes, the [local components](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) attached to the entity [move](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer). When a [player leaves](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), all entities owned by them are [transferred](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) back to the [server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
 
-### Local and Default Scripts
+### [Local and Default Scripts](#local-and-default-scripts)
 
 In the Script dropdown in the desktop editor, scripts can be marked as *default* or *local***execution mode**. All scripts are originally created with a *default* execution mode, and must be manually changed to *local* if so desired.
 
 The *default* vs *local* terminology is a bit confusing. The execution mode setting describes what happens to a component when the entity it is attached to [changes owner](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer).
 
-* **Default script execution mode**: all components in the file will always executes on the server, regardless of ownership of the entity they are attached to.
-* **Local script execution mode**: components defined in the file will “[move](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer)” to execute on the client matching the new owner of the entity (every time the owner changes).
+- **Default script execution mode**: all components in the file will always executes on the server, regardless of ownership of the entity they are attached to.
+- **Local script execution mode**: components defined in the file will “[move](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer)” to execute on the client matching the new owner of the entity (every time the owner changes).
 
 **Component execution mode**: Even though execution mode is an aspect of files, we borrow the term for components, according to the execution mode of file they are defined in. So, we say *a component has default execution mode when the file it is defined in does*.
 
@@ -4001,58 +3967,58 @@ We often abbreviate the terms as: *default component*, *local component*, *defau
 
 A script file’s execution mode (local or default) affects how its components run:
 
-- **One execution mode per file**: All components in a [script file](Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution) share the file’s execution mode. However:
-  * A *local component* can run on any client.
-  * Different components in the same *local script* can run on different clients.
-  * Different instances of the same component class in a *local script* can run on different clients.
-- **“Local” means “movable”**: The term “local” means the component *can* run on player devices, not that it *must*:
-  * *Local components* run on whichever client owns their entity.
-  * If the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player) owns the entity, its *local component* runs on the server.
-- **Ownership transfer creates new components**: *Local components* don’t actually *move*. When their entity changes owner, an [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) occurs:
-  * The old component is [disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
-  * A new component is [instantiated](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the new owner.
-  * The old component may [pass data](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) to the new one.
-- **Mixed execution on one entity**: Some creators have the ability to attach multiple scripts to an entity.
-  * Only *local components* “move” when the entity owner changes.
-  * One entity may have some components running on the [server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) and others running on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
+1. **One execution mode per file**: All components in a [script file](Meta%20Horizon%20Worlds%20creator%20manual.md#script-file-execution) share the file’s execution mode. However:
+   - A *local component* can run on any client.
+   - Different components in the same *local script* can run on different clients.
+   - Different instances of the same component class in a *local script* can run on different clients.
+2. **“Local” means “movable”**: The term “local” means the component *can* run on player devices, not that it *must*:
+   - *Local components* run on whichever client owns their entity.
+   - If the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player) owns the entity, its *local component* runs on the server.
+3. **Ownership transfer creates new components**: *Local components* don’t actually *move*. When their entity changes owner, an [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) occurs:
+   - The old component is [disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).
+   - A new component is [instantiated](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle) on the new owner.
+   - The old component may [pass data](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) to the new one.
+4. **Mixed execution on one entity**: Some creators have the ability to attach multiple scripts to an entity.
+   - Only *local components* “move” when the entity owner changes.
+   - One entity may have some components running on the [server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) and others running on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).
 
-#### Why Local Scripts and Ownership Matter: Network Latency
+#### [Why Local Scripts and Ownership Matter: Network Latency](#why-local-scripts-and-ownership-matter-network-latency)
 
 When a client modifies an entity it owns, the changes happen immediately at the end of the current frame. But when a client modifies an entity owned by a different client:
 
-- The change is sent over the network to the owning client (through the server)
-- The owner applies the change
-- The owner broadcasts the new state to all clients
-- Other clients receive and apply the new state
+1. The change is sent over the network to the owning client (through the server)
+2. The owner applies the change
+3. The owner broadcasts the new state to all clients
+4. Other clients receive and apply the new state
 
 This process takes at least a few frames (or more if slow networks are involved). Using [local scripts](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on [player-owner](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) entities can make actions feel instantaneous to the local player (with no real impact to the other players). See the example below.
 
-##### Example
+##### [Example](#example-3)
 
 Imagine a player holding a flashlight and pressing a button to turn it on. The table below shows what happens if the script controlling the flashlight is running on the [player’s device vs the server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Note that **in the player-owned case, the player sees it immediately. In both cases others see it after 2 network trips**.
 
 In the table “📡” means that a network trip occurs.
 
-| Flight Owner | Steps | When The Player Sees | When Other Players See |
-| --- | --- | --- | --- |
-| Player | - Player [presses button](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) on their device   - Device [enables light](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo)  - Light’s [state sent to server](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡; from there it’s [sent to other clients](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡 | End of frame | 2 network trips |
-| Server | - Player [presses button](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) on their device   - Button press [sent to server](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡   - Server [enables light](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo)  - Light’s [state sent to all clients](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡 | 2 network trips | 2 network trips |
+| Flight Owner | Steps                                                                                                                                                                                                                                                                                                                                                                                                                     | When The Player Sees | When Other Players See |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ---------------------- |
+| Player       | - Player [presses button](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) on their device - Device [enables light](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) - Light’s [state sent to server](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡; from there it’s [sent to other clients](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡 | End of frame         | 2 network trips        |
+| Server       | - Player [presses button](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input) on their device - Button press [sent to server](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡 - Server [enables light](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo) - Light’s [state sent to all clients](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase)📡     | 2 network trips      | 2 network trips        |
 
-### Authority and Reconciliation
+### [Authority and Reconciliation](#authority-and-reconciliation)
 
 Each [entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) in a world has exactly one [owner](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) which is authoritative on its intrinsic state (such as [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position)).
 
 When a [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) modifies an entity it doesn’t own:
 
-- The client sends a network message to the owning client (through the server)
-- The owner processes changes in order received
-- The owner broadcasts updated state to all clients
-- Other clients apply the changes in their simulations
+1. The client sends a network message to the owning client (through the server)
+2. The owner processes changes in order received
+3. The owner broadcasts updated state to all clients
+4. Other clients apply the changes in their simulations
 
 Authority Considerations:
 
-- **Eventual Consistency**: If network latency causes updates to arrive in different orders on different devices, calculated positions might temporarily disagree. The system will automatically reconcile these differences within a few frames (once entities stop moving for long enough for all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to have the same state). Note that if updates are ongoing (as is typical) then it is **likely all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)*always* have slightly divergent views of the world**.
-- **State Change Compression**: Multiple changes in one frame compress to the final value. So if a client updates the position of an entity multiple times across a frame then only the [final value is broadcast out](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase). Note that this cause unexpected behavior in trails due to a bug (explained in [TrailFX Gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo)).
+1. **Eventual Consistency**: If network latency causes updates to arrive in different orders on different devices, calculated positions might temporarily disagree. The system will automatically reconcile these differences within a few frames (once entities stop moving for long enough for all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to have the same state). Note that if updates are ongoing (as is typical) then it is **likely all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)*always* have slightly divergent views of the world**.
+2. **State Change Compression**: Multiple changes in one frame compress to the final value. So if a client updates the position of an entity multiple times across a frame then only the [final value is broadcast out](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase). Note that this cause unexpected behavior in trails due to a bug (explained in [TrailFX Gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo)).
 
 Some attributes are *derived* from the entity and its [parent (and ancestors)](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors).
 
@@ -4060,22 +4026,22 @@ For example, an entity’s [position](Meta%20Horizon%20Worlds%20creator%20manual
 
 Consider a situation where the [parent entity](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) is owned by the [server](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) and the child entity is owned by a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server):
 
-- **Server’s View** (owning the parent):
-  * Has authority over parent entity’s position
-  * Receives child entity’s local position from the owning player device
-  * Calculates child’s world position by combining the parent’s position, which it *asserts*, and the child’s local position, which it *is sent*.
-- **Owner Player Device’s View** (owning the child):
-  * Receives parent entity’s position from the server
-  * Has authority over child entity’s local position
-  * Calculates child’s world position by combining the parent’s position, which it *is sent*, and the child’s local position, which it *asserts*.
-- **Other Player Devices’ View** (owning neither parent nor child):
-  * Receives parent entity’s position from server
-  * Receives child entity’s local position from owning player device
-  * Calculates child’s world position by combining both *received* positions
+1. **Server’s View** (owning the parent):
+   - Has authority over parent entity’s position
+   - Receives child entity’s local position from the owning player device
+   - Calculates child’s world position by combining the parent’s position, which it *asserts*, and the child’s local position, which it *is sent*.
+2. **Owner Player Device’s View** (owning the child):
+   - Receives parent entity’s position from the server
+   - Has authority over child entity’s local position
+   - Calculates child’s world position by combining the parent’s position, which it *is sent*, and the child’s local position, which it *asserts*.
+3. **Other Player Devices’ View** (owning neither parent nor child):
+   - Receives parent entity’s position from server
+   - Receives child entity’s local position from owning player device
+   - Calculates child’s world position by combining both *received* positions
 
 This means that if either the server moves the parent entity or the owning player device moves the child entity then all clients will recalculate the child’s final world position. This recalculation happens automatically each frame during the [Synchronization Phase](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase).
 
-### Ownership Transfer
+### [Ownership Transfer](#ownership-transfer)
 
 Ownership transfer is the process by which an entity’s authority is “moved” from one [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) to another. It affects both the entity’s intrinsic state (e.g. position, visibility, collision settings) and its attached [local components](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts). Transfers may be initiated programmatically via `entity.owner.set(newOwner)` or occur automatically (see [Automatic Ownership Transfers](Meta%20Horizon%20Worlds%20creator%20manual.md#automatic-ownership-transfers)).
 
@@ -4085,12 +4051,12 @@ Ownership transfer is the process by which an entity’s authority is “moved�
 
 **Non-Cascading Behavior**: Transfers affect only the targeted entity. Child entities retain their original owner unless explicitly transferred. You may want to transfer an entities children along with it (or in some extreme cases, transfer recursively). Here’s how to transfer `entity` and its children to `newOwner`:
 
-```
+```typescript
 entity.owner.set(newOwner);
-entity.children.get().forEach(c => c.owner.set(newOwner));
+entity.children.get().forEach(c => c.owner.set(newOwner));
 ```
 
-#### Ownership Transfer Sequence
+#### [Ownership Transfer Sequence](#ownership-transfer-sequence)
 
 An ownership transfer is initiated by a [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) running the code `entity.owner.set(newPlayer)` or via an [automatic ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#automatic-ownership-transfers). The ownership change request is sent (by the server) to the [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that currently owns `entity`.
 
@@ -4098,36 +4064,42 @@ The following in an ownership transfer for an entity with a **Local Script**.
 
 The component is [torn down](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle):
 
-- [transferOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) is called to get the *[transfer state](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners)*.
-- the component is [disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)
+1. [transferOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) is called to get the *[transfer state](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners)*.
 
-  The transfer request (with the relevant information) [propagates from the old client to the new](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase):
-- the state is sent to the server as a “transfer request”
-- the server validates the request and then forwards it onto the [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) matching the new owner
+2. the component is [disposed](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)
 
-  The new component is [prepared and started](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle):
-- a new component is *[prepared](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)* on the client associated with `toPlayer` (property initializers run, `initializeUI` runs if it’s a `UIComponent`, and then `preStart` runs).
-- `start()` runs on the new component
-- [receiveOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) is called on the new component along with [the state](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) from step #1 (or `null` if the transfer is [discontinuous](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers))
+   The transfer request (with the relevant information) [propagates from the old client to the new](Meta%20Horizon%20Worlds%20creator%20manual.md#synchronization-phase):
+
+3. the state is sent to the server as a “transfer request”
+
+4. the server validates the request and then forwards it onto the [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) matching the new owner
+
+   The new component is [prepared and started](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle):
+
+5. a new component is *[prepared](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle)* on the client associated with `toPlayer` (property initializers run, `initializeUI` runs if it’s a `UIComponent`, and then `preStart` runs).
+
+6. `start()` runs on the new component
+
+7. [receiveOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) is called on the new component along with [the state](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners) from step #1 (or `null` if the transfer is [discontinuous](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers))
 
 In the process above (and diagram below) that if one of the players involved is the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player) then steps #3 and #4 are merged into just one step.
 
 ![](../../_assets/images/23ff801030332a7c1ff0a2e5749e67e197e2e00f3ee11a91aa7fbf7e9750478e.png)
 
-`getLocalPlayer()` and `entity.owner.get()` are different.
+\`getLocalPlayer()\` and \`entity.owner.get()\` are different.
 
 [getLocalPlayer()](Meta%20Horizon%20Worlds%20creator%20manual.md#local-player) indicates the device the script is executing on, i.e. The vertical lines in the diagram indicating Client A, Server, or Client B.
 
 `entity.owner` is the owner that was manually or automatically requested. Note that before the ownership transfer and immediately after `entity.owner.set(B)`, the entity’s owner is A. Then from `transferOwnership` in step 1 and on, the entity’s owner is B.
 
-#### Discontinuous Ownership Transfers
+#### [Discontinuous Ownership Transfers](#discontinuous-ownership-transfers)
 
 When [ownership](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) of an entity is transferred from one [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) to another, including possibly the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player), we say that the transfer is a **continuous ownership transfer**. Whenever the “from” `Player` is unavailable we say that it is a **discontinuous ownership transfer**.
 
 **Causes**: Discontinuous transfers occur when:
 
-- A component initializes for the first time in an instance (either because the [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) started or it just [spawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) in).
-- A player quits the app or crashes then the player’s runtime is no longer available to package up the data.
+1. A component initializes for the first time in an instance (either because the [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) started or it just [spawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) in).
+2. A player quits the app or crashes then the player’s runtime is no longer available to package up the data.
 
 **Receiving Ownership**: In a discontinuous transfer the `state` argument in [receiveOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer) will be `null`.
 
@@ -4139,17 +4111,17 @@ If the script isn’t written to properly handle suddenly “resetting” then t
 
 A common pattern is to have *local scripts* send their state out to a server-owned entity so that if they “reset” they can then “ask” (via an [event](Meta%20Horizon%20Worlds%20creator%20manual.md#communication-between-components)) for the state, when they start up again.
 
-#### Automatic Ownership Transfers
+#### [Automatic Ownership Transfers](#automatic-ownership-transfers)
 
 There are a number of situations where an entity’s ownership is changed automatically. These situations act exactly if the ownership was changed via `entity.owner.set(...)`:
 
-- When an entity is [grabbed by](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) or [attached to](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) a player
-  * This ensures frame-accurate position updates when tracking player movement.
-- When an entity [collides](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions) with another entity or player (if “preserve ownership on collision” is disable in the Properties panel)
-  * This makes it easy to have the collided entities act with [low latency for the player](Meta%20Horizon%20Worlds%20creator%20manual.md#why-local-scripts-and-ownership-matter-network-latency) from then on.
-- When a [player leaves the world](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world)
-  * The entities they [own](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) transfer to the server.
-  * This is [discontinuous](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers) since the departing owner can’t participate.
+1. When an entity is [grabbed by](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) or [attached to](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) a player
+   - This ensures frame-accurate position updates when tracking player movement.
+2. When an entity [collides](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions) with another entity or player (if “preserve ownership on collision” is disable in the Properties panel)
+   - This makes it easy to have the collided entities act with [low latency for the player](Meta%20Horizon%20Worlds%20creator%20manual.md#why-local-scripts-and-ownership-matter-network-latency) from then on.
+3. When a [player leaves the world](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world)
+   - The entities they [own](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) transfer to the server.
+   - This is [discontinuous](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers) since the departing owner can’t participate.
 
 bug Exiting build preview does \*\*not\*\* automatically transfer ownership.
 
@@ -4157,77 +4129,77 @@ When in [build mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-mo
 
 Components with *local* execution mode will continue to run in the player’s device runtime. This can be confusing if they are scripted to track player avatar location, as they will start to follow the “big” build avatar around. It is best to handle `OnPlayerExitWorld` events and explicitly transfer ownership of all scripted Entities owned by the departing player back to the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
 
-#### Transferring Data Across Owners
+#### [Transferring Data Across Owners](#transferring-data-across-owners)
 
 During [continuous ownership transfers](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers), components with local execution mode can transfer state [from the old component to the new one](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer).
 
 In order to create a component that transfers data during an [ownership transfer](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer):
 
-- **Define a type** representing the data that will be transferred. The date must adhere to the [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate) type.
+1. **Define a type** representing the data that will be transferred. The date must adhere to the [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate) type.
 
-```
-  type Ammo = {count: number};
-```
-
-- Pass the type into the **second generic slot when extending `Component`**.
-
-```
-  class Weapon extends Component<typeof Weapon, Ammo> { ... }
+```typescript
+  type Ammo = {count: number};
 ```
 
-- Implement **`transferOwnership`** on the component to package up data that will be transferred. The `transferOwnership` method also passes in the players involved in the transfer. It’s possible, and likely, for one of them to be the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
+1. Pass the type into the **second generic slot when extending `Component`**.
 
-```
-  transferOwnership(from: Player, to: Player): Ammo {
-    return {count: this.ammo};
-  }
+```typescript
+  class Weapon extends Component<typeof Weapon, Ammo> { ... }
 ```
 
-- Implement **`receiveOwnership`** on the component to use the data packaged up by the previous owner. The `receiveOwnership` method also passes in the players involved in the transfer. It’s possible, and likely, for one of them to be the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). The state will be *`null`* if the transfer is [discontinuous](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers) (first awakening, or from a player that disconnected).
+1. Implement **`transferOwnership`** on the component to package up data that will be transferred. The `transferOwnership` method also passes in the players involved in the transfer. It’s possible, and likely, for one of them to be the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
 
-```
-  receiveOwnership(state: Ammo | null, from: Player, to: Player) {
-    if (state !== null) {
-      this.ammo = state.count
-    }
-  }
+```typescript
+  transferOwnership(from: Player, to: Player): Ammo {
+    return {count: this.ammo};
+  }
 ```
 
-#### Example
+1. Implement **`receiveOwnership`** on the component to use the data packaged up by the previous owner. The `receiveOwnership` method also passes in the players involved in the transfer. It’s possible, and likely, for one of them to be the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player). The state will be *`null`* if the transfer is [discontinuous](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers) (first awakening, or from a player that disconnected).
+
+```typescript
+  receiveOwnership(state: Ammo | null, from: Player, to: Player) {
+    if (state !== null) {
+      this.ammo = state.count
+    }
+  }
+```
+
+#### [Example](#example-4)
 
 The example below shows a simple script that tracks how much ammo is in a weapon. When the gun is [transferred](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer), it maintains the same ammo count. Note that if the [transfer is discontinuous](Meta%20Horizon%20Worlds%20creator%20manual.md#discontinuous-ownership-transfers) the amount of ammo will be the value in the [props](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties).
 
-```
-import { Component, Player, PropTypes } from "horizon/core"
+```typescript
+import { Component, Player, PropTypes } from "horizon/core"
 
-type Ammo = {count: number};
+type Ammo = {count: number};
 
-class Weapon extends Component<typeof Weapon, Ammo> {
-  static propsDefinition = {
-    initialAmmo: {type: PropTypes.Number, default: 20},
-  };
+class Weapon extends Component<typeof Weapon, Ammo> {
+  static propsDefinition = {
+    initialAmmo: {type: PropTypes.Number, default: 20},
+  };
 
-  // props are immutable; we store ammo in a private field
-  private ammo: number = 0;
+  // props are immutable; we store ammo in a private field
+  private ammo: number = 0;
 
-  override start() {
-    this.ammo = this.props.initialAmmo;
-  }
+  override start() {
+    this.ammo = this.props.initialAmmo;
+  }
 
-  override receiveOwnership(state: Ammo | null, from: Player, to: Player) {
-    if (state !== null) {
-      this.ammo = state.count
-    }
-  }
+  override receiveOwnership(state: Ammo | null, from: Player, to: Player) {
+    if (state !== null) {
+      this.ammo = state.count
+    }
+  }
 
-  override transferOwnership(from: Player, to: Player): Ammo {
-    return {count: this.ammo};
-  }
+  override transferOwnership(from: Player, to: Player): Ammo {
+    return {count: this.ammo};
+  }
 }
 Component.register(Weapon);
 ```
 
-## Collisions
+## [Collisions](#collisions)
 
 **Collisions** occur when one entity *intersects* with another or with a player (and then are typically pushed apart by [forces](Meta%20Horizon%20Worlds%20creator%20manual.md#physics) so that they don’t intersect any more).
 
@@ -4235,7 +4207,7 @@ Collisions are used (under the hood) to drive [trigger events](Meta%20Horizon%20
 
 There are a number of nuances: collisions start with entities that have a [collider](Meta%20Horizon%20Worlds%20creator%20manual.md#colliders) ([meshes](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class) and [collider gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo)) and those colliders must be [active](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) for a collision to occur. A number of these features involve [traversing up an ancestor chain to find an entity with a specific tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tag-bubbling).
 
-### Collision Events
+### [Collision Events](#collision-events)
 
 When an entity has [Motion set to Interactive](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) you can enable it to receive **[built-in collision CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)**. In the Properties panel, under “More”, is the setting “Collision Events From” which can be set to “Players”, “Object Tagged”, or “Both”. In the latter two cases a [tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) must be specified (in the field right below the setting).
 
@@ -4243,21 +4215,21 @@ A collider must be [active](Meta%20Horizon%20Worlds%20creator%20manual.md#active
 
 There are two [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) you can subscribe to on an entity to know when it collides with something:
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| `OnPlayerCollision` | `collidedWith: Player` `collisionAt: Vec3` `normal: Vec3` `relativeVelocity: Vec3` `localColliderName: string` `otherColliderName: string`</nobr> | Sent when the entity collides the `collidedWith` player. |
-| `OnEntityCollision` | `collidedWith: Entity` `collisionAt: Vec3` `normal: Vec3` `relativeVelocity: Vec3` `localColliderName: string` `otherColliderName: string`</nobr> | Sent when the entity collides the `collidedWith` entity. |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)                                                                                                                                       | Description                                              |
+| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| `OnPlayerCollision`                                                                                 | `collidedWith: Player` `collisionAt: Vec3` `normal: Vec3` `relativeVelocity: Vec3` `localColliderName: string` `otherColliderName: string`\</nobr> | Sent when the entity collides the `collidedWith` player. |
+| `OnEntityCollision`                                                                                 | `collidedWith: Entity` `collisionAt: Vec3` `normal: Vec3` `relativeVelocity: Vec3` `localColliderName: string` `otherColliderName: string`\</nobr> | Sent when the entity collides the `collidedWith` entity. |
 
 The parameters for both events are:
 
-| Collision Event Parameter | Type | Notes |
-| --- | --- | --- |
-| `collidedWith` | [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) or [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class) (depending on the event) | What the entity collided with. |
-| `collisionAt` | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global location where the entity *came in contact* with `collidedWith`. |
-| `normal` | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The [surface normal](Meta%20Horizon%20Worlds%20creator%20manual.md) at the position `collidedAt` on `collidedWith`. |
-| `relativeVelocity` | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global velocity of `entity` compared to `collidedWith` (which you can use to see how “hard the hit” was). |
-| `localColliderName` | `string` | The *name* of first “leaf-level” collider involved in the collision. |
-| `otherColliderName` | `string` | The *name* of second “leaf-level” collider involved in the collision. This could be a [player body part](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) (`"Head"`, `"LegCollider"`, `"Torso"`) if the entity is configured for collision events from players. Note that [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) have many colliders on their hands ( `"LeftPalm"`, `"LeftThumbMid"`, `"LeftThumbTip"`, `"LeftIndexFingerBase"`, `"LeftIndexFingerTip"`, `"LeftOtherFingersBase"`, `"LeftOtherFingersTip"`, and similar for the right hand). **[Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) do not have colliders on their hands**. |
+| Collision Event Parameter | Type                                                                                                                                                             | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `collidedWith`            | [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) or [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class) (depending on the event) | What the entity collided with.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `collisionAt`             | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)                                                                                                       | The global location where the entity *came in contact* with `collidedWith`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `normal`                  | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)                                                                                                       | The [surface normal](Meta%20Horizon%20Worlds%20creator%20manual.md#) at the position `collidedAt` on `collidedWith`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `relativeVelocity`        | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)                                                                                                       | The global velocity of `entity` compared to `collidedWith` (which you can use to see how “hard the hit” was).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `localColliderName`       | `string`                                                                                                                                                         | The *name* of first “leaf-level” collider involved in the collision.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `otherColliderName`       | `string`                                                                                                                                                         | The *name* of second “leaf-level” collider involved in the collision. This could be a [player body part](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) (`"Head"`, `"LegCollider"`, `"Torso"`) if the entity is configured for collision events from players. Note that [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) have many colliders on their hands ( `"LeftPalm"`, `"LeftThumbMid"`, `"LeftThumbTip"`, `"LeftIndexFingerBase"`, `"LeftIndexFingerTip"`, `"LeftOtherFingersBase"`, `"LeftOtherFingersTip"`, and similar for the right hand). **[Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) do not have colliders on their hands**. |
 
 **Collider Names**: If a group containing a cube collides with a player’s left hand, then the the `localColliderName` will be the name of the cube and `otherColliderName` will be the name of the
 
@@ -4275,51 +4247,51 @@ When `entity`’s collider intersects with `other` entity’s collider Horizon h
 
 Here’s the steps that Horizon takes in a one-sided collision check between `entity` and `other`:
 
-- check what [tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) the `entity` is configured to get events from. Find a `target` entity with that tag by looking at `other` and then [bubbling up its ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tag-bubbling).
-- If other was found (otherwise skip to #3), send `CodeBlockEvents.OnEntityCollision` to `entity` with `target` as the `collidedWith` parameter.
-- If `entity` has a `parent` then go back to step #1 and repeat the process with the `parent` replacing `entity`.
+1. check what [tag](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags) the `entity` is configured to get events from. Find a `target` entity with that tag by looking at `other` and then [bubbling up its ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tag-bubbling).
+2. If other was found (otherwise skip to #3), send `CodeBlockEvents.OnEntityCollision` to `entity` with `target` as the `collidedWith` parameter.
+3. If `entity` has a `parent` then go back to step #1 and repeat the process with the `parent` replacing `entity`.
 
-```
-// Code approximating the algorithm Horizon
-// uses to handle sending collision events
-function tryOneSidedCollision(
-  startEntity: Entity,
-  other: Entity,
-  otherNormal: Vec3,
-  collisionPoint: Vec3,
-  relativeVelocity: Vec3,
-) {
-  let entity : Entity | null = entity
+```typescript
+// Code approximating the algorithm Horizon
+// uses to handle sending collision events
+function tryOneSidedCollision(
+  startEntity: Entity,
+  other: Entity,
+  otherNormal: Vec3,
+  collisionPoint: Vec3,
+  relativeVelocity: Vec3,
+) {
+  let entity : Entity | null = entity
 
-  while (entity) {
-    // Find the tag that `entity` want to hear
-    // collision event from (not a real method)
-    const tag = collisionEventsFromTag(entity)
+  while (entity) {
+    // Find the tag that `entity` want to hear
+    // collision event from (not a real method)
+    const tag = collisionEventsFromTag(entity)
 
-    // Find the bubbled entity with the given tag.
-    // findTagBubbledEntity is in "Entity Tag Bubbling"
-    const target = findTagBubbledEntity(other, tag)
+    // Find the bubbled entity with the given tag.
+    // findTagBubbledEntity is in "Entity Tag Bubbling"
+    const target = findTagBubbledEntity(other, tag)
 
-    if (target) {
-      // send the event (not a real method)
-      sendCodeBlockEvent(
-        startEntity,
-        CodeBlockEvents.OnEntityCollision,
-        target,
-        collisionPoint,
-        otherNormal,
-        relativeVelocity,
-        startEntity.name.get(),
-        other.name.get(),
-      )
-    }
+    if (target) {
+      // send the event (not a real method)
+      sendCodeBlockEvent(
+        startEntity,
+        CodeBlockEvents.OnEntityCollision,
+        target,
+        collisionPoint,
+        otherNormal,
+        relativeVelocity,
+        startEntity.name.get(),
+        other.name.get(),
+      )
+    }
 
-    entity = entity.parent.get()
-  }
+    entity = entity.parent.get()
+  }
 }
 ```
 
-### Colliders
+### [Colliders](#colliders)
 
 **Colliders** are invisible (non-rendered) “shapes” that are used for detecting when entities and players overlap in 3D space (a “collision”). Colliders exist on [mesh entities](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class), on avatars (on each of their [body parts](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)), and as [collider gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) that are literally just colliders.
 
@@ -4327,15 +4299,15 @@ function tryOneSidedCollision(
 
 When a cube enters a trigger, the trigger detects its *collider* (which is shaped like a cube). When a player’s head enters a trigger, the trigger detects’ the heads *collider* (which is roughly sphere-shaped and has less resolution than the actual avatar head!). When two spheres collide and bounce off one another (with [physics](Meta%20Horizon%20Worlds%20creator%20manual.md#physics)), it was actually their colliders (which are spheres) that collided. All of the built-in custom model primitives have built-in colliders already. **When you import your own [3D models](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), Horizon uses the *meshes* to generate the colliders**. At times it makes sense to [separate out the collider](Meta%20Horizon%20Worlds%20creator%20manual.md#separating-a-collider-from-a-mesh) to improve performance (don’t pre-optimize this until you actually have a performance problem!).
 
-#### Active Colliders
+#### [Active Colliders](#active-colliders)
 
 In order for a collider to be detected it needs to be an **active collider**, otherwise it is ignored in [trigger events](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions), [collision events](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events), and [raycast detections](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo).
 
 A **collider is active** when the following true
 
-- Its entity has `collidable` set `true`
-- It has *no `parent`* or its `parent` (and all [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors)) have `collidable` set to `true`
-- It is *not occluded* by other colliders in the world (e.g. it’s not inside or blocked by some other collider)
+1. Its entity has `collidable` set `true`
+2. It has *no `parent`* or its `parent` (and all [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors)) have `collidable` set to `true`
+3. It is *not occluded* by other colliders in the world (e.g. it’s not inside or blocked by some other collider)
 
 Regarding #3, *occlusion is often from a specific direction*. Example: if you want to grab an object but it is behind a wall then the wall’s collider will occlude the object (from the vantage point of the player trying to grab it).
 
@@ -4345,24 +4317,24 @@ Regarding #3, *occlusion is often from a specific direction*. Example: if you wa
 
 **[Empty objects and groups](Meta%20Horizon%20Worlds%20creator%20manual.md#empty-object-and-groups) don’t have colliders** but their children may have them. When an empty object or group interacts with [triggers](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-collisions), [collisions](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions), or [raycasts](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) they have to have active colliders within them.
 
-#### Separating a Collider from a Mesh
+#### [Separating a Collider from a Mesh](#separating-a-collider-from-a-mesh)
 
 **For performance reasons a mesh may want to have a collider with less detail than the actual mesh**. Avatars do this. When you import your own [3D models](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), you can disable **collidability** and use [collider gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) to approximate the shape instead.
 
 You shouldn’t try separating out colliders unless:
 
-* you are experienced in doing so
-* you have identified an actual performance issue in your world
+- you are experienced in doing so
+- you have identified an actual performance issue in your world
 
-##### Example
+##### [Example](#example-5)
 
 A high resolution mesh with a low resolution collider.
 
 Here’s an example of a mesh (a character’s face) that has a lot of geometry. It would really hurt perf to have Horizon compute collisions with the full face. So instead, a separate collider has been added (the icosahedron). This can be achieved by making the face with `collidable=false` and the icosahedron with `visible=false`. Or you could use the [sphere collider](Meta%20Horizon%20Worlds%20creator%20manual.md#collider-gizmo) instead.
 
-![](../../_assets/images/fae7f7ad1447f7ebd2040d8714d952a9aca734f325a5241b87731fcbd1704dba.png)
+![](../../_assets/images/e54f9a437b285e0802512602b2797ceb392c557bcef5255427569a0e718642f3.png)
 
-### Entity Tag Bubbling
+### [Entity Tag Bubbling](#entity-tag-bubbling)
 
 When Horizon is looking for an entity with a specific tag it performs a process we’ll call **tag bubbling** where it walks up the [ancestor chain](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) in search of an entity with the tag. This process is used in [collision detection](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) and [raycasting](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo).
 
@@ -4370,27 +4342,27 @@ When Horizon is looking for an entity with a specific tag it performs a process 
 
 In code this algorithm looks like
 
-```
-// The algorithm used by Horizon in tag bubbling
-function findTagBubbledEntity(
-  startEntity: Entity,
-  tag: string
-): Entity | undefined {
-  let entity : Entity | undefined = startEntity
+```typescript
+// The algorithm used by Horizon in tag bubbling
+function findTagBubbledEntity(
+  startEntity: Entity,
+  tag: string
+): Entity | undefined {
+  let entity : Entity | undefined = startEntity
 
-  while (entity !== undefined) {
-    if (entity.tags.get().contains(tag)) {
-      return entity
-    } else {
-      entity = entity.parent.get()
-    }
-  }
+  while (entity !== undefined) {
+    if (entity.tags.get().contains(tag)) {
+      return entity
+    } else {
+      entity = entity.parent.get()
+    }
+  }
 
-  return undefined
+  return undefined
 }
 ```
 
-## Physics
+## [Physics](#physics)
 
 The Horizon physics system provides a lightweight simulation of rigid body dynamics. It allows you to add basic physical behaviors—such as gravity, mass, drag, friction, and bounciness to [interactive entities](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities). [Forces](Meta%20Horizon%20Worlds%20creator%20manual.md#forces) and [torques](Meta%20Horizon%20Worlds%20creator%20manual.md#torques) are applied to update an entity’s linear and rotational motion (with helpers to create [spring mechanics](Meta%20Horizon%20Worlds%20creator%20manual.md#springs) for moving and rotating). This is all done by [creating a physical entity](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-physical-entity) and using the [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class).
 
@@ -4398,64 +4370,64 @@ You can use [simulated and locked](Meta%20Horizon%20Worlds%20creator%20manual.md
 
 **Simple**: Horizon’s physics system is best used for simple and casual interactions. It lacks more advanced features such as constraints (rods, hinges, and ball-and-socket joints), rotational inertia modeling, fixed update, pre-physics features for entities, programmatic mass, and more. You can achieve a range of interactions, but creating complex physics-based mechanics or full-scale games may require creative workarounds (or doing your own physics calculations entirely).
 
-### Units
+### [Units](#units)
 
 The physics system in Horizon uses [SI Units](https://en.wikipedia.org/wiki/International_System_of_Units):
 
-| Quantity | Unit |
-| --- | --- |
-| Distance | meters |
-| Velocity | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) with `magnitude` in meters/second |
-| Acceleration | meters/second2 |
-| Angular Velocity | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) where the direction is the *axis of rotation* and the `magnitude` is in radians/second |
+| Quantity             | Unit                                                                                                                                               |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Distance             | meters                                                                                                                                             |
+| Velocity             | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) with `magnitude` in meters/second                                                       |
+| Acceleration         | meters/second2                                                                                                                                     |
+| Angular Velocity     | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) where the direction is the *axis of rotation* and the `magnitude` is in radians/second  |
 | Angular Acceleration | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) where the direction is the *axis of rotation* and the `magnitude` is in radians/second2 |
-| Mass | kilograms |
-| Force | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) with `magnitude` in Newtons |
-| Impulse | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) with `magnitude` in Newton \* seconds |
-| Torque | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) where the direction is the *axis of rotation* and the `magnitude` is in Newton meters |
+| Mass                 | kilograms                                                                                                                                          |
+| Force                | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) with `magnitude` in Newtons                                                             |
+| Impulse              | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) with `magnitude` in Newton \* seconds                                                   |
+| Torque               | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) where the direction is the *axis of rotation* and the `magnitude` is in Newton meters   |
 
-### PhysicalEntity Class
+### [PhysicalEntity Class](#physicalentity-class)
 
-| `PhysicalEntity` Class Member | Description |
-| --- | --- |
-| gravityEnabled | When `true`, a force is generated every [frame](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) with the magnitude set in the Properties panel |
-| [applyForce](Meta%20Horizon%20Worlds%20creator%20manual.md#forces) | Add a force (or impulse or velocity change) to the entity |
-| [applyLocalForce](Meta%20Horizon%20Worlds%20creator%20manual.md#forces) | Add a force (or impulse or velocity change) to the entity, expressed in [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
-| [applyForceAtPosition](Meta%20Horizon%20Worlds%20creator%20manual.md#forces) | Add a force (or impulse or velocity change) to the entity at a specific position, which may also generate a *torque* |
-| [applyTorque](Meta%20Horizon%20Worlds%20creator%20manual.md#torques) | Apply a torque |
-| [applyLocalTorque](Meta%20Horizon%20Worlds%20creator%20manual.md#torques) | Apply a torque expressed in [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) |
-| [zeroVelocity](Meta%20Horizon%20Worlds%20creator%20manual.md#forces) | Immediate stop the entity, positionally and rotationally |
-| [springPushTowardPosition](Meta%20Horizon%20Worlds%20creator%20manual.md#spring-push) | Apply a linear spring force |
-| [springSpinTowardRotation](Meta%20Horizon%20Worlds%20creator%20manual.md#spring-spin) | Apply a rotational spring torque |
+| `PhysicalEntity` Class Member                                                         | Description                                                                                                                                                    |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| gravityEnabled                                                                        | When `true`, a force is generated every [frame](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) with the magnitude set in the Properties panel |
+| [applyForce](Meta%20Horizon%20Worlds%20creator%20manual.md#forces)                    | Add a force (or impulse or velocity change) to the entity                                                                                                      |
+| [applyLocalForce](Meta%20Horizon%20Worlds%20creator%20manual.md#forces)               | Add a force (or impulse or velocity change) to the entity, expressed in [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)    |
+| [applyForceAtPosition](Meta%20Horizon%20Worlds%20creator%20manual.md#forces)          | Add a force (or impulse or velocity change) to the entity at a specific position, which may also generate a *torque*                                           |
+| [applyTorque](Meta%20Horizon%20Worlds%20creator%20manual.md#torques)                  | Apply a torque                                                                                                                                                 |
+| [applyLocalTorque](Meta%20Horizon%20Worlds%20creator%20manual.md#torques)             | Apply a torque expressed in [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                                |
+| [zeroVelocity](Meta%20Horizon%20Worlds%20creator%20manual.md#forces)                  | Immediate stop the entity, positionally and rotationally                                                                                                       |
+| [springPushTowardPosition](Meta%20Horizon%20Worlds%20creator%20manual.md#spring-push) | Apply a linear spring force                                                                                                                                    |
+| [springSpinTowardRotation](Meta%20Horizon%20Worlds%20creator%20manual.md#spring-spin) | Apply a rotational spring torque                                                                                                                               |
 
-### Creating a Physical Entity
+### [Creating a Physical Entity](#creating-a-physical-entity)
 
 For an entity to become a physical entity it must first be an [interactive entity](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities):
 
-- Its `Motion` to `Interactive`
-- Its `Interaction` to `Physics` or `Both`.
+1. Its `Motion` to `Interactive`
+2. Its `Interaction` to `Physics` or `Both`.
 
 As long as `Motion` is set to `Interactive`, the `Interaction` setting can be changed at runtime via the `interactionMode` property on the [Entity class](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class).
 
 In order for the entity to have physics applied to it, it must have:
 
-- An [active collider](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders)
-- [simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) set to `true`
-- [locked](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated-vs-locked-entities) set to `false`.
-- [All ancestors, if any, be Empty Objects with Motion set to None](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities).
+1. An [active collider](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders)
+2. [simulated](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) set to `true`
+3. [locked](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated-vs-locked-entities) set to `false`.
+4. [All ancestors, if any, be Empty Objects with Motion set to None](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities).
 
 When an entity has `Interaction` to `Physics` or `Both`, the following properties are available in the Properties panel:
 
-| Physics Properties | Units | Description |
-| --- | --- | --- |
-| Gravity | meters/second2 | Downward acceleration applied to objects. Default is 9.81 m/s2. |
-| Mass | kilogram | Used in calculations for [force](Meta%20Horizon%20Worlds%20creator%20manual.md#forces), |
-| Drag | fraction | A measure of how much velocity is lost every frame (simulating air resistance or any other resistive force). Higher numbers represent a much faster loss of velocity. |
-| Angular Drag | fraction | A measure of how much angular velocity is lost every frame (simulating air resistance or any other resistive force). Higher numbers represent a much faster loss of angular velocity. |
-| Dynamic Friction | fraction | A measure of how much velocity is lost every frame when sliding against another entity. Higher numbers represent more resistance (more loss of velocity). |
-| Static Friction | fraction | A measure of how much velocity is lost when *starting* to slide against another entity (from rest). Higher numbers represent more resistance (more loss of velocity). |
-| Bounciness | fraction | Elasticity of collisions (0 = none, 1 = full bounce). |
-| Center-of-Mass | displacement in meters | A [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) in [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms). This setting is only available when “Center of Mass Override” is enabled in the Properties panel. |
+| Physics Properties | Units                  | Description                                                                                                                                                                                                                                            |
+| ------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Gravity            | meters/second2         | Downward acceleration applied to objects. Default is 9.81 m/s2.                                                                                                                                                                                        |
+| Mass               | kilogram               | Used in calculations for [force](Meta%20Horizon%20Worlds%20creator%20manual.md#forces),                                                                                                                                                                |
+| Drag               | fraction               | A measure of how much velocity is lost every frame (simulating air resistance or any other resistive force). Higher numbers represent a much faster loss of velocity.                                                                                  |
+| Angular Drag       | fraction               | A measure of how much angular velocity is lost every frame (simulating air resistance or any other resistive force). Higher numbers represent a much faster loss of angular velocity.                                                                  |
+| Dynamic Friction   | fraction               | A measure of how much velocity is lost every frame when sliding against another entity. Higher numbers represent more resistance (more loss of velocity).                                                                                              |
+| Static Friction    | fraction               | A measure of how much velocity is lost when *starting* to slide against another entity (from rest). Higher numbers represent more resistance (more loss of velocity).                                                                                  |
+| Bounciness         | fraction               | Elasticity of collisions (0 = none, 1 = full bounce).                                                                                                                                                                                                  |
+| Center-of-Mass     | displacement in meters | A [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) in [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms). This setting is only available when “Center of Mass Override” is enabled in the Properties panel. |
 
 Set the mass of a physical entity when first creating a physical entity
 
@@ -4465,10 +4437,10 @@ Danger: Do not apply physics to an Empty Object.
 
 There are many bugs with Empty Objects and the physics system. For example:
 
-* `applyForceAtPosition` and `applyTorque` use different centers-of-mass
-* `applyForce` silently fails for `PhysicsForceMode.Force` and `PhysicsForceMode.Impulse`.
+- `applyForceAtPosition` and `applyTorque` use different centers-of-mass
+- `applyForce` silently fails for `PhysicsForceMode.Force` and `PhysicsForceMode.Impulse`.
 
-### Simulated vs Locked Entities
+### [Simulated vs Locked Entities](#simulated-vs-locked-entities)
 
 Every [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) has a [simulated property](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated) which *disables physics and interaction* (to make the entity act as if [Motion](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities) is set to “None”).
 
@@ -4478,13 +4450,13 @@ Locking a physical entity is useful for: [steering wheels, levers, and other thi
 
 Locked entities can still be [collided](Meta%20Horizon%20Worlds%20creator%20manual.md#collisions) with.
 
-### Applying Forces and Torque
+### [Applying Forces and Torque](#applying-forces-and-torque)
 
 Every [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) has internal state representing ***pending* (linear) acceleration** and ***pending* angular acceleration** (stored on the [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) that [owns](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) the entity, due to [authority](Meta%20Horizon%20Worlds%20creator%20manual.md#authority-and-reconciliation)). In the next [simulation phase](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) the engine will do a simulation step that accumulates the pending accelerations into the velocities, and accumulates the current velocities onto the position and rotation.
 
 The physics-based way to impact acceleration, velocity, and position is via [force](Meta%20Horizon%20Worlds%20creator%20manual.md#forces). The physics-based way to impact angular acceleration, angular velocity, and rotation is via [torque](Meta%20Horizon%20Worlds%20creator%20manual.md#forces) (the rotational analog of a force).
 
-#### Forces
+#### [Forces](#forces)
 
 **Force** causes object to *move* (whereas [torque](Meta%20Horizon%20Worlds%20creator%20manual.md#torques) causes them to *rotate*).
 
@@ -4496,80 +4468,84 @@ where *mass* can be set in Properties panel for the entity (defaulting to `1` ki
 
 Note that:
 
-* Force creates an *acceleration* for 1 frame, changing the *velocity* just *once*
-* *Velocity* will continue to update the position *every frame*
-* [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)’s “angular drag” setting will cause the *velocity* to shrink over time (as long as no further forces are applied)
-* A player or entity can create a force on an entity by colliding with it, grabbing it, or throwing it.
+- Force creates an *acceleration* for 1 frame, changing the *velocity* just *once*
+- *Velocity* will continue to update the position *every frame*
+- [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)’s “angular drag” setting will cause the *velocity* to shrink over time (as long as no further forces are applied)
+- A player or entity can create a force on an entity by colliding with it, grabbing it, or throwing it.
 
 Note that:
 
-* Force creates an *acceleration* for 1 frame, changing the *velocity* just *once*
-* *Velocity* will continue to update the position *every frame*
-* [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)’s “angular drag” setting will cause the *velocity* to shrink over time (as long as no further forces are applied)
-* A player or entity can create a force on an entity by colliding with it, grabbing it, or throwing it.
+- Force creates an *acceleration* for 1 frame, changing the *velocity* just *once*
+- *Velocity* will continue to update the position *every frame*
+- [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)’s “angular drag” setting will cause the *velocity* to shrink over time (as long as no further forces are applied)
+- A player or entity can create a force on an entity by colliding with it, grabbing it, or throwing it.
 
 You can apply a force with a number of methods on [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class):
 
-* `zeroVelocity`:
+- `zeroVelocity`:
 
-  ```
-    `zeroVelocity(): void`
+  ```typescript
+    `zeroVelocity(): void`
   ```
 
   Apply the exact force and torque needed to bring the entity to a stop (positionally and rotationally).
-* `applyForce`
 
-  ```
-    applyForce(
-      vector: Vec3,
-      mode: PhysicsForceMode
-    ): void
+- `applyForce`
+
+  ```typescript
+    applyForce(
+      vector: Vec3,
+      mode: PhysicsForceMode
+    ): void
   ```
 
   The `PhysicsForceMode` enum has three values, each of which will change how the input `vector` is will be used in the next [simulation phase](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase)
 
-  |  | `vector` units | velocity change |
-  | --- | --- | --- |
-  | `Force` | N | `v += vector/m * dt` |
-  | `Impulse` | N·s | `v += vector/m` |
-  | `VelocityChange` | m/s | `v += vector` |
+  |                  | `vector` units | velocity change      |
+  | ---------------- | -------------- | -------------------- |
+  | `Force`          | N              | `v += vector/m * dt` |
+  | `Impulse`        | N·s            | `v += vector/m`      |
+  | `VelocityChange` | m/s            | `v += vector`        |
 
   where v is the velocity, m is the mass, and dt is the “delta time” (the time, in seconds, since the last frame).
-* `applyLocalForce`
 
-  ```
-    applyLocalForce(
-      vector: Vec3,
-      mode: PhysicsForceMode
-    ): void
+- `applyLocalForce`
+
+  ```typescript
+    applyLocalForce(
+      vector: Vec3,
+      mode: PhysicsForceMode
+    ): void
   ```
 
   Behaves the same as `applyForce` except that the force is expressed in they entity’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)
-* `applyForceAtPosition`
 
-  ```
-    applyForceAtPosition(
-      vector: Vec3,
-      position: Vec3,
-      mode: PhysicsForceMode
-    ): void
+- `applyForceAtPosition`
+
+  ```typescript
+    applyForceAtPosition(
+      vector: Vec3,
+      position: Vec3,
+      mode: PhysicsForceMode
+    ): void
   ```
 
   Applies a force, impulse, or velocity change on the entity at the specified position, which will compute both a *force and a torque*. For example: pushing on an bar from the side will cause it to move and turn.
 
   The *position does not need to be “on” the entity*. The position is simply used to compute the torque (a position really far away from the [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) of the entity will generate a large torque).
-* `springPushTowardPosition`
 
-  ```
-    springPushTowardPosition(
-      position: Position,
-      options?: Partial
-    ): void
+- `springPushTowardPosition`
+
+  ```typescript
+    springPushTowardPosition(
+      position: Position,
+      options?: Partial
+    ): void
   ```
 
   See the documentation in [spring push](Meta%20Horizon%20Worlds%20creator%20manual.md#spring-push).
 
-#### Torques
+#### [Torques](#torques)
 
 **Torque** is the [rotational analogue of (linear) force](https://en.wikipedia.org/wiki/Torque). Force causes object to *move*. Torque causes them to *rotate*.
 
@@ -4581,139 +4557,143 @@ but unfortunately there is **no public documentation on how Horizon handles rota
 
 Note that:
 
-* Torque creates an *angular acceleration* for 1 frame, changing the *angular velocity* just *once*
-* *Angular velocity* will continue to update the rotation *every frame*
-* [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)’s “drag” setting will cause the *angular velocity* to shrink over time (as long as no further torques are applied)
-* A player or entity can create a torque on an entity by colliding with it, grabbing it, or throwing it.
+- Torque creates an *angular acceleration* for 1 frame, changing the *angular velocity* just *once*
+- *Angular velocity* will continue to update the rotation *every frame*
+- [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)’s “drag” setting will cause the *angular velocity* to shrink over time (as long as no further torques are applied)
+- A player or entity can create a torque on an entity by colliding with it, grabbing it, or throwing it.
 
 You can apply a torque with a number of methods on [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class):
 
-* `zeroVelocity`
+- `zeroVelocity`
 
-  ```
-    zeroVelocity(): void
+  ```typescript
+    zeroVelocity(): void
   ```
 
   Apply the exact force and torque needed to bring the entity to a stop (positionally and rotationally).
-* `applyTorque`
 
-  ```
-    applyTorque(vector: Vec3): void
+- `applyTorque`
+
+  ```typescript
+    applyTorque(vector: Vec3): void
   ```
 
   Apply a torque in [(global) world coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system).
-* `applyLocalTorque`
 
-  ```
-    applyLocalTorque(vector: Vec3): void
+- `applyLocalTorque`
+
+  ```typescript
+    applyLocalTorque(vector: Vec3): void
   ```
 
   Apply a torque in the entity’s [local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms).
-* `applyForceAtPosition`
 
-  ```
-    applyForceAtPosition(
-      vector: Vec3,
-      position: Vec3,
-      mode: PhysicsForceMode
-    ): void
+- `applyForceAtPosition`
+
+  ```typescript
+    applyForceAtPosition(
+      vector: Vec3,
+      position: Vec3,
+      mode: PhysicsForceMode
+    ): void
   ```
 
   See the documentation in [forces](Meta%20Horizon%20Worlds%20creator%20manual.md#forces).
-* `springSpinTowardRotation`
 
-  ```
-    springSpinTowardRotation(
-      rotation: Quaternion,
-      options?: Partial
-      ): void
+- `springSpinTowardRotation`
+
+  ```typescript
+    springSpinTowardRotation(
+      rotation: Quaternion,
+      options?: Partial
+      ): void
   ```
 
   See the documentation in [spring spin](Meta%20Horizon%20Worlds%20creator%20manual.md#spring-spin).
 
-#### Springs
+#### [Springs](#springs)
 
 Spring physics allows entities to move and rotate as if they were attached to a spring. This system provides smooth, natural motion that can be adjusted using stiffness and damping parameters. The spring helper methods are **intended to be called every frame**.
 
 **Spring Options**: spring behavior is controlled through the `SpringOptions` type, which defines key parameters for spring-based movement.
 
-```
-type SpringOptions = {
-  stiffness: number;
-  damping: number;
-  axisIndependent: boolean;
+```typescript
+type SpringOptions = {
+  stiffness: number;
+  damping: number;
+  axisIndependent: boolean;
 };
 ```
 
-* `stiffness`: The stiffness of the spring, which controls the amount of force applied to the object. Higher values represent a spring that “pulls harder”.
-* `damping`: The damping ratio of the spring, which reduces oscillation and prevents excessive bouncing. Higher values reduce in a faster “loss of energy”.
-* `axisIndependent`: If `true`, the object’s motion is parallel to the push direction; if `false`, rotation and movement may interact.
+- `stiffness`: The stiffness of the spring, which controls the amount of force applied to the object. Higher values represent a spring that “pulls harder”.
+- `damping`: The damping ratio of the spring, which reduces oscillation and prevents excessive bouncing. Higher values reduce in a faster “loss of energy”.
+- `axisIndependent`: If `true`, the object’s motion is parallel to the push direction; if `false`, rotation and movement may interact.
 
 **Default Spring Options**: if no options are provided, the following defaults are used.
 
-```
-const DefaultSpringOptions: SpringOptions = {
-  stiffness: 2,
-  damping: 0.5,
-  axisIndependent: true
+```typescript
+const DefaultSpringOptions: SpringOptions = {
+  stiffness: 2,
+  damping: 0.5,
+  axisIndependent: true
 };
 ```
 
 These values are intended to provide a balanced spring motion that feels natural without excessive oscillation.
 
-##### Spring Push
+##### [Spring Push](#spring-push)
 
 `springPushTowardPosition` moves an entity toward a target position as if attached to (and pulled by) a spring. Spring-push computes a [force](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque), so the entity must have **[Motion=Interactive](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)** and **[simulated=true](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated)**. A common use case is to call `springPushTowardPosition` every frame.
 
-```
-// PhysicalEntity
+```typescript
+// PhysicalEntity
 springPushTowardPosition(
-  position: Vec3, options?: Partial<SpringOptions>
-): void
+  position: Vec3, options?: Partial<SpringOptions>
+): void
 ```
 
-* `position`: the target position, which acts as the origin of the spring force.
-* `options` (optional): overrides the spring behavior (stiffness, damping, and axis independence).
+- `position`: the target position, which acts as the origin of the spring force.
+- `options` (optional): overrides the spring behavior (stiffness, damping, and axis independence).
 
 Example:
 
-```
-const physEnt = this.props.obj1.as(PhysicalEntity);
-this.connectLocalBroadcastEvent(World.onUpdate, (data: { deltaTime: number }) => {
-  physEnt.springPushTowardPosition(this.props.obj2.position.get(), {stiffness: 5, damping: 0.2});
+```typescript
+const physEnt = this.props.obj1.as(PhysicalEntity);
+this.connectLocalBroadcastEvent(World.onUpdate, (data: { deltaTime: number }) => {
+  physEnt.springPushTowardPosition(this.props.obj2.position.get(), {stiffness: 5, damping: 0.2});
 });
 ```
 
-##### Spring Spin
+##### [Spring Spin](#spring-spin)
 
 `springSpinTowardRotation` rotates an entity toward a target rotation as if attached to (and twisted by) a spring. Spring-spin computes a [torque](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque), so the entity must have **[Motion=Interactive](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)** and **[simulated=true](Meta%20Horizon%20Worlds%20creator%20manual.md#simulated)**. A common use case is to call `springSpinTowardRotation` every frame.
 
-```
-// PhysicalEntity
+```typescript
+// PhysicalEntity
 springSpinTowardRotation(
-  rotation: Quaternion, options?: Partial<SpringOptions>
-): void
+  rotation: Quaternion, options?: Partial<SpringOptions>
+): void
 ```
 
-* `rotation`: the target rotation, represented as a quaternion.
-* `options` (optional): overrides the spring behavior.
+- `rotation`: the target rotation, represented as a quaternion.
+- `options` (optional): overrides the spring behavior.
 
 Example:
 
-```
-const physEnt = this.props.obj1.as(PhysicalEntity);
-this.connectLocalBroadcastEvent(World.onUpdate, (data: { deltaTime: number }) => {
-  physEnt.springSpinTowardRotation(this.props.obj2.rotation.get(), {stiffness: 10, damping: 0.5, axisIndependent: false});
+```typescript
+const physEnt = this.props.obj1.as(PhysicalEntity);
+this.connectLocalBroadcastEvent(World.onUpdate, (data: { deltaTime: number }) => {
+  physEnt.springSpinTowardRotation(this.props.obj2.rotation.get(), {stiffness: 10, damping: 0.5, axisIndependent: false});
 });
 ```
 
-### PrePhysics vs OnUpdate Events
+### [PrePhysics vs OnUpdate Events](#prephysics-vs-onupdate-events)
 
 A common way to apply forces (or torques) to entities and players is to do so [every frame](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate), e.g. [spring](Meta%20Horizon%20Worlds%20creator%20manual.md#spring-push) might exert a [force](Meta%20Horizon%20Worlds%20creator%20manual.md#forces) on a [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) every frame.
 
 The [broadcast local events](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) for [OnPrePhysicsUpdate and OnUpdate](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) allow you to register callbacks to be run every frame *before* and *after* the physics computations, respectively.
 
-`OnPrePhysicsUpdate` is only useful for \*\*moving players\*\* (not entities).
+\`OnPrePhysicsUpdate\` is only useful for \*\*moving players\*\* (not entities).
 
 If you want to move entities every frame, do so in `OnUpdate`. An entity’s pending acceleration updates live in the scene graph and are updated following the [scene graph mutation rules](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations). Thus even if you apply a force in an `OnPrePhysicsUpdate` callback, the acceleration won’t be *committed* until the end of the frame, and then the physics updates will see it in the *next frame*. **The fact that player positions update after `OnPrePhysicsUpdate` is an exception to the rules.**
 
@@ -4721,49 +4701,52 @@ If you want to move entities every frame, do so in `OnUpdate`. An entity’s pen
 
 **OnUpdate is useful for moving the player as a result of physics.** If you wanted to move a player every frame so that they are standing on top of a boulder rolling down a hill, then you would want to position the player *after* the physics update each from (so that you can move the player *after* the boulder has moved, to keep them in sync).
 
-### Player Physics
+### [Player Physics](#player-physics)
 
 The player avatar acts like a single *physical entity*, although you cannot actually use it as one. But you can still apply forces to the player and have them interact with other physics-based entities in the world (players can [collide with entities and with other players](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events)).
 
-* `applyForce`
+- `applyForce`
 
-  ```
-    applyForce(force: Vec3): void
+  ```typescript
+    applyForce(force: Vec3): void
   ```
 
   Apply a force, as a vector with magnitude in Newtons, to the player. This acts just like [applying a force to an entity](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)
 
+  ```typescript
+    physicalEntity.applyForce(
+      force, PhysicsForceMode.Force
+    )
   ```
-    physicalEntity.applyForce(
-      force, PhysicsForceMode.Force
-    )
-  ```
-* `configurePhysicalHands`
 
-  ```
-    configurePhysicalHands(
-      collideWithDynamicObjects: boolean,
-      collideWithStaticObjects: boolean
-    ): void
+- `configurePhysicalHands`
+
+  ```typescript
+    configurePhysicalHands(
+      collideWithDynamicObjects: boolean,
+      collideWithStaticObjects: boolean
+    ): void
   ```
 
   This is only for [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type), allowing you to set if their hands should *physically* collide with [dynamic and static entities](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities) in the world. To be able to change these values you have to set “Can Hands Collide With Physics Objects” and “Can Hands Collide With Static Objects” in [Player Settings](Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings).
-* `gravity`
 
-  ```
-    gravity: HorizonProperty<number>
+- `gravity`
+
+  ```typescript
+    gravity: HorizonProperty<number>
   ```
 
   Read and write the downward acceleration (*not force*) on the player in m/s2. The default is Earth gravity: `9.81`.
-* `velocity`
 
-  ```
-    velocity: HorizonProperty<Vec3>
+- `velocity`
+
+  ```typescript
+    velocity: HorizonProperty<Vec3>
   ```
 
   The velocity of the player *due to physics*. See [player physical velocity](Meta%20Horizon%20Worlds%20creator%20manual.md#player-physical-velocity) for details.
 
-#### Player Physical Velocity
+#### [Player Physical Velocity](#player-physical-velocity)
 
 The [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class) has a property: `velocity: HorizonProperty<Vec3>`. Unfortunately **this property does not represent the actual `velocity` of the player**. If you want the actual velocity then you show measure the position two frames apart and divide by the time between (such as with an [OnUpdate callback](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate)).
 
@@ -4771,7 +4754,7 @@ Calling `player.velocity.get()` returns (or `set()` to modify it) a quantify cal
 
 **This feature was designed with the intent of being used for flying, swimming, climbing, etc where locomotion is replaced with force-based movement**. Any time that the player is [grounded](Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion), the values in player `velocity` may be unexpected.
 
-#### Player Position and Physics
+#### [Player Position and Physics](#player-position-and-physics)
 
 **Update player position in `OnPrePhysicsUpdate`**: If you set a player’s position in an [OnPrePhysicsUpdate callback](Meta%20Horizon%20Worlds%20creator%20manual.md#prephysics-vs-onupdate-events) on the [player’s device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), that position will be used in the physics calculation that follows, in the same frame. This is the [only scene graph property that works this way](Meta%20Horizon%20Worlds%20creator%20manual.md#scene-graph-mutations). This is useful to have the physics system respond to player movement.
 
@@ -4781,11 +4764,11 @@ Unfortunately, there is **some awkwardness in how Horizon reports the player pos
 
 **Position/rotation and physics forces don’t play well together** in the same frame. If you try to [move an entity](Meta%20Horizon%20Worlds%20creator%20manual.md#position) (or [move a player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-physics)) with both `position.set()` and [forces](Meta%20Horizon%20Worlds%20creator%20manual.md#forces) at the same time, they’ll conflict and give unexpected results. You should choose one approach or the other - either move things by setting their position directly, or move them with physics forces, but never both at once. The same applies to [setting rotations](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) vs using [torques](Meta%20Horizon%20Worlds%20creator%20manual.md#torques).
 
-## Players
+## [Players](#players)
 
 The `Player` class represents a person in the instance, an [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo) in the instance, or the “omnipotent player” (the server).
 
-### Max player count
+### [Max player count](#max-player-count)
 
 Each world has a maximum player count that controls the maximum number of players allowed in each [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances). The count is configured in [world settings](Meta%20Horizon%20Worlds%20creator%20manual.md#publishing-and-player-settings).
 
@@ -4797,88 +4780,88 @@ Each world has a maximum player count that controls the maximum number of player
 
 **ID and Index**: Each `Player` has an `id` and an `index` which serve different purposes (see below). From a `Player` instance you can access `PlayerBodyBart`s, e.g. `aPlayer.leftHand` or get their name `aPlayer.name.get()`. There are many `CodeBlockEvents` associated with players (such as entering/exiting a world, grabbing entities, and much). All aspects of players are described in detail in the next sections.
 
-### Player Class
+### [Player Class](#player-class)
 
-| `Entity` Class Member | Description |
-| --- | --- |
-| **Identification** |  |
-| [deviceType](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) | The type of device the player is using |
-| [id](Meta%20Horizon%20Worlds%20creator%20manual.md#player-id) | ID in this instance |
-| [index](Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices) | Index in this instance |
-| [isInBuildMode](Meta%20Horizon%20Worlds%20creator%20manual.md#identifying-players) | Is the player in an editor instance and in build mode |
-| [name](Meta%20Horizon%20Worlds%20creator%20manual.md#identifying-players) | Readonly `string`[Horizon Property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) of the player’s name |
-| **Body Parts** |  |
-| [foot](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s foot reference object |
-| [head](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s head object |
-| [leftHand](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s left hand object |
-| [rightHand](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s right hand object |
-| [torso](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) | Player’s torso object |
-| **Pose** |  |
-| [clearAvatarGripPoseOverride](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-grip-pose-animation) | Remove the current grip pose override |
-| [playAvatarAnimation](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation) | Play avatar animation (currently unsupported) |
-| [playAvatarGripPoseAnimationByName](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-grip-pose-animation) | Play a grip pose animation |
-| [setAvatarGripPoseOverride](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-grip-pose) | Set a grip pose override |
-| [stopAvatarAnimation](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation) | Stop avatar animation (currently unsupported) |
-| **Transform** |  |
-| [forward](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | Local forward of the player (measured from their hips) |
-| [position](Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-rotation) | Position of the player’s center point |
-| [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-rotation) | Rotation of the player around their center point |
-| [up](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) | Local up of the player (measured from their hips) |
-| **Locomotion** |  |
-| [isGrounded](Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion) | Is the player anchored “on the ground” (not falling or jumping) |
-| [locomotionSpeed](Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion) | The non-sprinting speed of the player |
-| [jumpSpeed](Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion) | The speed the player leaves the ground at when they jump |
-| **Physics** |  |
-| [applyForce](Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics) | Apply a force to the player |
-| [configurePhysicalHands](Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics) | Configure if a [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s hands can collide with entities in the world |
-| [gravity](Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics) | The vertical acceleration of the player (when they are in the air) |
-| [throwHeldItem](Meta%20Horizon%20Worlds%20creator%20manual.md#throwing) | Throw the currently held item |
-| [velocity](Meta%20Horizon%20Worlds%20creator%20manual.md#player-physical-velocity) | The player’s velocity due to physics (not including locomotion) |
-| **Quests / Achievements** |  |
-| [hasCompletedAchievement](Meta%20Horizon%20Worlds%20creator%20manual.md#quests) | Check if the player has completed the given achievement |
-| [setAchievementComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#quests) | Set if the player has completed the given achievement |
-| **UI / Focused Interaction** |  |
-| [enterFocusedInteractionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | Change a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) from locomotion mode to focus mode (where they can tap on the screen instead of moving the avatar). Must be called on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
-| [exitFocusedInteractionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | Return a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) to normal locomotion mode. Must be called on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
-| [focusedInteraction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | The `FocusedInteraction` object for the player. |
-| [unfocusUI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui) | Exit a player from the UI they are focused on |
-| **Aim Assist** |  |
-| [clearAimAssistTarget](Meta%20Horizon%20Worlds%20creator%20manual.md#aim-assist) | Remove the aim-assist target |
-| [setAimAssistTarget](Meta%20Horizon%20Worlds%20creator%20manual.md#aim-assist) | Configure a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s cursor to be attracted to a given target |
-| **Voip** |  |
-| [setVoipSetting](Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings) | Configure who can hear the player |
+| `Entity` Class Member                                                                                           | Description                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Identification**                                                                                              |                                                                                                                                                                                                                                                                                                                       |
+| [deviceType](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)                                  | The type of device the player is using                                                                                                                                                                                                                                                                                |
+| [id](Meta%20Horizon%20Worlds%20creator%20manual.md#player-id)                                                   | ID in this instance                                                                                                                                                                                                                                                                                                   |
+| [index](Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices)                                           | Index in this instance                                                                                                                                                                                                                                                                                                |
+| [isInBuildMode](Meta%20Horizon%20Worlds%20creator%20manual.md#identifying-players)                              | Is the player in an editor instance and in build mode                                                                                                                                                                                                                                                                 |
+| [name](Meta%20Horizon%20Worlds%20creator%20manual.md#identifying-players)                                       | Readonly `string`[Horizon Property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) of the player’s name                                                                                                                                                                                            |
+| **Body Parts**                                                                                                  |                                                                                                                                                                                                                                                                                                                       |
+| [foot](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)                                         | Player’s foot reference object                                                                                                                                                                                                                                                                                        |
+| [head](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)                                         | Player’s head object                                                                                                                                                                                                                                                                                                  |
+| [leftHand](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)                                     | Player’s left hand object                                                                                                                                                                                                                                                                                             |
+| [rightHand](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)                                    | Player’s right hand object                                                                                                                                                                                                                                                                                            |
+| [torso](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)                                        | Player’s torso object                                                                                                                                                                                                                                                                                                 |
+| **Pose**                                                                                                        |                                                                                                                                                                                                                                                                                                                       |
+| [clearAvatarGripPoseOverride](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-grip-pose-animation)       | Remove the current grip pose override                                                                                                                                                                                                                                                                                 |
+| [playAvatarAnimation](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)                           | Play avatar animation (currently unsupported)                                                                                                                                                                                                                                                                         |
+| [playAvatarGripPoseAnimationByName](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-grip-pose-animation) | Play a grip pose animation                                                                                                                                                                                                                                                                                            |
+| [setAvatarGripPoseOverride](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-grip-pose)                   | Set a grip pose override                                                                                                                                                                                                                                                                                              |
+| [stopAvatarAnimation](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)                           | Stop avatar animation (currently unsupported)                                                                                                                                                                                                                                                                         |
+| **Transform**                                                                                                   |                                                                                                                                                                                                                                                                                                                       |
+| [forward](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                       | Local forward of the player (measured from their hips)                                                                                                                                                                                                                                                                |
+| [position](Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-rotation)                          | Position of the player’s center point                                                                                                                                                                                                                                                                                 |
+| [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#player-position-and-rotation)                          | Rotation of the player around their center point                                                                                                                                                                                                                                                                      |
+| [up](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)                                            | Local up of the player (measured from their hips)                                                                                                                                                                                                                                                                     |
+| **Locomotion**                                                                                                  |                                                                                                                                                                                                                                                                                                                       |
+| [isGrounded](Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion)                                   | Is the player anchored “on the ground” (not falling or jumping)                                                                                                                                                                                                                                                       |
+| [locomotionSpeed](Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion)                              | The non-sprinting speed of the player                                                                                                                                                                                                                                                                                 |
+| [jumpSpeed](Meta%20Horizon%20Worlds%20creator%20manual.md#player-locomotion)                                    | The speed the player leaves the ground at when they jump                                                                                                                                                                                                                                                              |
+| **Physics**                                                                                                     |                                                                                                                                                                                                                                                                                                                       |
+| [applyForce](Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics)                                      | Apply a force to the player                                                                                                                                                                                                                                                                                           |
+| [configurePhysicalHands](Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics)                          | Configure if a [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s hands can collide with entities in the world                                                                                                                                                                           |
+| [gravity](Meta%20Horizon%20Worlds%20creator%20manual.md#player-physics)                                         | The vertical acceleration of the player (when they are in the air)                                                                                                                                                                                                                                                    |
+| [throwHeldItem](Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)                                         | Throw the currently held item                                                                                                                                                                                                                                                                                         |
+| [velocity](Meta%20Horizon%20Worlds%20creator%20manual.md#player-physical-velocity)                              | The player’s velocity due to physics (not including locomotion)                                                                                                                                                                                                                                                       |
+| **Quests / Achievements**                                                                                       |                                                                                                                                                                                                                                                                                                                       |
+| [hasCompletedAchievement](Meta%20Horizon%20Worlds%20creator%20manual.md#quests)                                 | Check if the player has completed the given achievement                                                                                                                                                                                                                                                               |
+| [setAchievementComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#quests)                                  | Set if the player has completed the given achievement                                                                                                                                                                                                                                                                 |
+| **UI / Focused Interaction**                                                                                    |                                                                                                                                                                                                                                                                                                                       |
+| [enterFocusedInteractionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)                | Change a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) from locomotion mode to focus mode (where they can tap on the screen instead of moving the avatar). Must be called on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
+| [exitFocusedInteractionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)                 | Return a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) to normal locomotion mode. Must be called on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).                                                                          |
+| [focusedInteraction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)                         | The `FocusedInteraction` object for the player.                                                                                                                                                                                                                                                                       |
+| [unfocusUI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui)                                            | Exit a player from the UI they are focused on                                                                                                                                                                                                                                                                         |
+| **Aim Assist**                                                                                                  |                                                                                                                                                                                                                                                                                                                       |
+| [clearAimAssistTarget](Meta%20Horizon%20Worlds%20creator%20manual.md#aim-assist)                                | Remove the aim-assist target                                                                                                                                                                                                                                                                                          |
+| [setAimAssistTarget](Meta%20Horizon%20Worlds%20creator%20manual.md#aim-assist)                                  | Configure a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s cursor to be attracted to a given target                                                                                                                                                                          |
+| **Voip**                                                                                                        |                                                                                                                                                                                                                                                                                                                       |
+| [setVoipSetting](Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings)                                   | Configure who can hear the player                                                                                                                                                                                                                                                                                     |
 
-### Identifying Players
+### [Identifying Players](#identifying-players)
 
 Players have three *readonly*[Horizon Properties](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) you can use to get information about them:
 
-| [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) readonly Horizon Property | Type | Notes |
-| --- | --- | --- |
-| [deviceType](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) | `PlayerDeviceType` | What kind of device the player is currently using. Values are `VR`, `Mobile`, and `Desktop`. |
-| isInBuildMode | `boolean` | Returns true if the player is in an [editor instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection)**[is in edit mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)**. |
-| name | `string` | The player’s in-game name. |
+| [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) readonly Horizon Property | Type               | Notes                                                                                                                                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [deviceType](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)                       | `PlayerDeviceType` | What kind of device the player is currently using. Values are `VR`, `Mobile`, and `Desktop`.                                                                                                                                           |
+| isInBuildMode                                                                                        | `boolean`          | Returns true if the player is in an [editor instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection)**[is in edit mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)**. |
+| name                                                                                                 | `string`           | The player’s in-game name.                                                                                                                                                                                                             |
 
 Players in Horizon all have a global “account id”. There is no way to access this id directly, although Horizon uses it under the hood for persistence (player variables, leaderboards, and quests). Within an instance players can be referenced by the `id` or the `index` they are assigned on entry. Player `index`es are reused when players leave; `id`s are not.
 
-#### Player Device Type
+#### [Player Device Type](#player-device-type)
 
 The `deviceType`[readonly Horizon property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) on the [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) let’s you check what kind of device a player is on. It returns an instance of `PlayerDeviceType` which has values of `VR`, `Mobile`, and `Desktop`.
 
 Here are some example functions that may be useful:
 
-```
-import { Player, PlayerDeviceType } from 'horizon/core'
+```typescript
+import { Player, PlayerDeviceType } from 'horizon/core'
 
-function isVRPlayer(player: Player) {
-  return player.deviceType.get() === PlayerDeviceType.VR
+function isVRPlayer(player: Player) {
+  return player.deviceType.get() === PlayerDeviceType.VR
 }
 
-function isScreenPlayer(player: Player) {
-  return player.deviceType.get() !== PlayerDeviceType.VR
+function isScreenPlayer(player: Player) {
+  return player.deviceType.get() !== PlayerDeviceType.VR
 }
 ```
 
-#### Player ID
+#### [Player ID](#player-id)
 
 Each `Player` instance has a `readonly id: number` property.
 
@@ -4894,7 +4877,7 @@ IDs should be used rarely.
 
 Since you can compare two `Player` instances directly with `===` and `!==` there is little reason to use the `id` property. You can even use `Player` instances as keys in a `Map`. If you have a reason to use the `id` field, be mindful that the association between a person and their `id` only exists until they leave that instance.
 
-#### Player Indices
+#### [Player Indices](#player-indices)
 
 When a player (human or [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)) enters a world they are also assigned an `index`. The `index` will be a number between `0` and `n-1`, where `n` is the maximum number of players allowed in an instance. When a player enters an instance they are assigned an `index` value that is not currently used by any other player. When they leave that value becomes available again.
 
@@ -4902,14 +4885,14 @@ For example: if three players arrive in an instance they may be assigned `index`
 
 You can read a player’s index with
 
-```
+```typescript
 player.index.get()
 ```
 
 and use
 
-```
-world.getPlayerFromIndex(index) // Player | null
+```typescript
+world.getPlayerFromIndex(index) // Player | null
 ```
 
 to find out which player currently, if any, has a given index.
@@ -4918,101 +4901,98 @@ Danger: Do not rely on the order indices are assigned
 
 There are no guarantees that a player gets the *smallest* available `index`. Any available value maybe be assigned to a new player.
 
-##### Example: per-player entities
+##### [Example: per-player entities](#example-per-player-entities)
 
 A common use of `index`es is managing per-player entities. For instance, if you want every player to have a shield when they spawn in. Then you could have an array of shield `Entity`s and when a player enters the world, assign them the shield from that array that matches their `index`.
 
-#### Listing All Players
+#### [Listing All Players](#listing-all-players)
 
 The `World` class has the method:
 
-```
-getPlayers() : Player[]
+```typescript
+getPlayers() : Player[]
 ```
 
 which returns the current list of players in the world (human and [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo), but does not include the server player). Note that the order of this array should not be relied upon. The order may change between calls and there is no relation to the `index` property described above.
 
 Note that since `getPlayers` returns both human and [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo) players you can use [the player type function](Meta%20Horizon%20Worlds%20creator%20manual.md#checking-human-vs-npc-vs-server) to get just the human players, or just the NPCs:
 
-```
-const humanPlayers = this.world.getPlayers().filter(
-  p => getPlayerType(p, this.world) === 'human'
+```typescript
+const humanPlayers = this.world.getPlayers().filter(
+  p => getPlayerType(p, this.world) === 'human'
 )
 ```
 
 When a [player leaves](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), they `Player` instance is no long in the `getPlayers()` array. So you can also use this helper:
 
-```
-import { Player, World } from 'horizon/core'
+```typescript
+import { Player, World } from 'horizon/core'
 
-function isPlayerInWorld(player: Player, world: World) {
-  return world.getPlayers().includes(player) &&
-    !player.isInBuildMode.get()
+function isPlayerInWorld(player: Player, world: World) {
+  return world.getPlayers().includes(player) &&
+    !player.isInBuildMode.get()
 }
 ```
 
-#### Checking Human vs NPC vs Server
+#### [Checking Human vs NPC vs Server](#checking-human-vs-npc-vs-server)
 
 Human players and [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo) players both use the `Player` class. You can use the function below to detect the type of a player:
 
-```
-import { Player, World } from 'horizon/core'
-import { AvatarAIAgent } from 'horizon/avatar_ai_agent'
+```typescript
+import { Player, World } from 'horizon/core'
+import { AvatarAIAgent } from 'horizon/avatar_ai_agent'
 
-type PlayerType = 'human' | 'npc' | 'server' | 'builder' | 'departed'
+type PlayerType = 'human' | 'npc' | 'server' | 'builder' | 'departed'
 
-function getPlayerType(player: Player, world: World) : PlayerType {
-  if (player === world.getServerPlayer()) {
-    return 'server'
-  } else if (!this.getPlayers().includes(player)) {
-    return 'departed'
-  } else if (player.isInBuildMode.get()) {
-    return 'builder'
-  } else if (AvatarAIAgent.getGizmoFromPlayer(player) !== undefined) {
-    return 'npc'
-  } else else {
-    return 'human'
-  }
+function getPlayerType(player: Player, world: World) : PlayerType {
+  if (player === world.getServerPlayer()) {
+    return 'server'
+  } else if (!this.getPlayers().includes(player)) {
+    return 'departed'
+  } else if (player.isInBuildMode.get()) {
+    return 'builder'
+  } else if (AvatarAIAgent.getGizmoFromPlayer(player) !== undefined) {
+    return 'npc'
+  } else else {
+    return 'human'
+  }
 }
 ```
 
-#### Server Player
+#### [Server Player](#server-player)
 
 There is a special instance of the `Player` class that represents the [*server*](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). It has an `id` but no meaningful `index`. All `Player` APIs work for the server player, but return default values (example: the location will return the origin; name will return the empty string).
 
 The **server player does not count as one of the human player**s:
 
-* it does not get assigned an `index`
-* it does not count toward the [maximum player count](Meta%20Horizon%20Worlds%20creator%20manual.md#maximum-player-count) being reached
-* it is not included in the [getPlayer()](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) array
+- it does not get assigned an `index`
+- it does not count toward the [maximum player count](Meta%20Horizon%20Worlds%20creator%20manual.md#maximum-player-count) being reached
+- it is not included in the [getPlayer()](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) array
 
 The server player [owns all entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) when the world starts (or when entities are [spawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) in).
 
 The `World` class has the method
 
-```
-getServerPlayer(): Player
+```typescript
+getServerPlayer(): Player
 ```
 
 which can be used to access the server player. The primary use cases are:
 
-- Transferring ownership to the server
+1. Transferring ownership to the server
+   ```typescript
+    entity.owner.set(world.getServerPlayer());
+   ```
+2. Checking if an entity is owned by the server
+   ```typescript
+    if (entity.owner.get() === world.getServerPlayer()) { ... }
+   ```
+3. Checking if a script is running locally
+   ```typescript
+    if (world.getLocalPlayer() === world.getServerPlayer()) { ... }
+   ```
 
-  ```
-   entity.owner.set(world.getServerPlayer());
-  ```
-- Checking if an entity is owned by the server
-
-  ```
-   if (entity.owner.get() === world.getServerPlayer()) { ... }
-  ```
-- Checking if a script is running locally
-
-  ```
-   if (world.getLocalPlayer() === world.getServerPlayer()) { ... }
-  ```
-
-#### Local Player
+#### [Local Player](#local-player)
 
 Every script is run on an execution client associated with a `Player` (see [Network](Meta%20Horizon%20Worlds%20creator%20manual.md#network) for more info). If the script is set to *default* mode, then it is always running on the server. If the script is set to *local* then is can be transferred to and from the servers and the local devices of players.
 
@@ -5020,13 +5000,13 @@ If a script is running locally on a human-player’s device then that player is 
 
 The `World` class has the method
 
-```
-getLocalPlayer() : Player
+```typescript
+getLocalPlayer() : Player
 ```
 
 for determining which `Player`’s device the current script is running one. This method with return a human-player in the world or the *server player*.
 
-### Player Entering and Exiting a World
+### [Player Entering and Exiting a World](#player-entering-and-exiting-a-world)
 
 When a player (human or [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)) enters an [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) they are assigned a [player id](Meta%20Horizon%20Worlds%20creator%20manual.md#player-id) and a [player index](Meta%20Horizon%20Worlds%20creator%20manual.md#player-indices). The [built-in CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)`OnPlayerEnterWorld` is then sent to all [component instances](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) that have [registered to receive](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) to it. Likewise `OnPlayerEnterWorld` is [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player leaves the instance.
 
@@ -5034,22 +5014,22 @@ When a player (human or [NPC](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-
 
 **CodeBlockEvents**: Both events in the table below are [🔈 server-broadcast CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events); you can connect to any [server-owned](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) entity to receive them.
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| 🔈`OnPlayerEnterWorld` | `player: Player` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player enters the instance. This occurs when a **player [travels](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection) to the instance**; it also happens when a player goes from **[edit mode to preview mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)** in the editor. The player is already in [getPlayers()](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) when this event is sent. |
-| 🔈`OnPlayerExitWorld` | `player: Player` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player exits the instance. This occurs when a **player [travels](Meta%20Horizon%20Worlds%20creator%20manual.md#travel-doors-and-links) away from the instance** or quits Horizon; it also happens when a player goes from **[preview mode to edit mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)** in the editor. The player is no longer in [getPlayers()](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) when this event is sent (unless they are in build mode; then they remain in the array). |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔈`OnPlayerEnterWorld`                                                                              | `player: Player` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player enters the instance. This occurs when a **player [travels](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection) to the instance**; it also happens when a player goes from **[edit mode to preview mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)** in the editor. The player is already in [getPlayers()](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) when this event is sent.                                                                                             |
+| 🔈`OnPlayerExitWorld`                                                                               | `player: Player` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player exits the instance. This occurs when a **player [travels](Meta%20Horizon%20Worlds%20creator%20manual.md#travel-doors-and-links) away from the instance** or quits Horizon; it also happens when a player goes from **[preview mode to edit mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)** in the editor. The player is no longer in [getPlayers()](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) when this event is sent (unless they are in build mode; then they remain in the array). |
 
 When a player exits the world, [all entities owned by them](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) are [transferred to the server](Meta%20Horizon%20Worlds%20creator%20manual.md#ownership-transfer).
 
-The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
+The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and *underlined text is a system action that occurs*.
 
 ![](../../_assets/images/89da8734b80d3c59df09642fe8daab9d903c8683fb591d8274ebb0f02aa9c340.png)
 
-`OnPlayerEnterWorld` and `OnPlayerExitWorld` are sent to only server-owned entities
+\`OnPlayerEnterWorld\` and \`OnPlayerExitWorld\` are sent to only server-owned entities
 
 If an entity is [owned by a player](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) then the two code blocks above *are not* sent to it. Any component connected to receive those events from that entity will not get them.
 
-bug `OnPlayerExitWorld` is not sent if a player leaves suddenly.
+bug \`OnPlayerExitWorld\` is not sent if a player leaves suddenly.
 
 When a player leaves suddenly (crash, quit the Horizon app, turn off the device, etc...) then some player-related events such as [OnPlayerExitWorld](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnAttachEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and [OnMultiGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)*may not be sent*. However, `OnPlayerEnterAFK` is sent immediately. So if you need to ensure a player releases held entities when they leave the world, then [detach](Meta%20Horizon%20Worlds%20creator%20manual.md#detaching)/[forceRelease](Meta%20Horizon%20Worlds%20creator%20manual.md#force-release) the entities on `OnPlayerEnterAFK` and [attach](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach)/[forceHold](Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing) them on `OnPlayerExitAFK`. Note [`getPlayers()`](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) is only affected by `OnPlayerEnterWorld` and `OnPlayerExitWorld`, so it will not have an accurate list of all players in the instance.
 
@@ -5057,15 +5037,15 @@ bug Entities are not [transferred to the server](Meta%20Horizon%20Worlds%20creat
 
 When `OnPlayerExitWorld` is called on a player all the entities they own are [automatically transferred to the server player](Meta%20Horizon%20Worlds%20creator%20manual.md#automatic-ownership-transfers). However this does not happen when going from preview to edit mode (when in an [editor instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances)). This can result in unusual behavior where entities continue to react to a player that is in build mode. To avoid this, listen to the `OnPlayerExitWorld` event and assign entities back to the [server player](Meta%20Horizon%20Worlds%20creator%20manual.md#server-player).
 
-In build mode, `OnPlayerEnterWorld` can occur twice in succession for one player id.
+In build mode, \`OnPlayerEnterWorld\` can occur twice in succession for one player id.
 
 In published mode, `OnPlayerEnterWorld` occurs only once per [player id](Meta%20Horizon%20Worlds%20creator%20manual.md#player-id). In build mode, a player on the desktop editor triggers `OnPlayerEnterWorld` twice when they enter Preview mode from a stopped instance. This means that if you’re tracking a list of all players using `OnPlayerEnterWorld`, add the new player to a set or dictionary instead of an array.
 
-### Player Enter and Exit AFK
+### [Player Enter and Exit AFK](#player-enter-and-exit-afk)
 
 A [player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) in an [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) can become **inactive**. The avatar of a player who has gone afk becomes a spinning coin.
 
-Horizon calls this inactive state: **AFK** (standing for Away From Keyboard). The exact rules for inactivity are not documented and are subject to change. Roughly speaking:
+Horizon calls this inactive state: **AFK** (standing for *A*way *F*rom *K*eyboard). The exact rules for inactivity are not documented and are subject to change. Roughly speaking:
 
 **Becoming inactive (AFK)**: A mobile player becomes inactive when they go for a while without touching the screen, when they temporarily switch to a different app, or when they quit the app. A [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) goes inactive when they take off their headset (or even raise it to their forehead) or when they open the Quest OS menu while in the app.
 
@@ -5073,18 +5053,18 @@ Horizon calls this inactive state: **AFK** (standing for Away From Keyboard). Th
 
 There are two [built-in code block events](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) associated with inactivity / AFK. Both are [🔈 server-broadcast CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events); you can connect to any server-owned entity to receive them.
 
-| [Built-In CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| 🔈`OnPlayerEnterAFK` | `player: Player` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player becomes inactive. |
-| 🔈`OnPlayerExitAFK` | `player: Player` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player is no longer inactive. |
+| [Built-In CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)     | Description                                                                                                                            |
+| ---------------------------------------------------------------------------------------------------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔈`OnPlayerEnterAFK`                                                                                 | `player: Player` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player becomes inactive.      |
+| 🔈`OnPlayerExitAFK`                                                                                  | `player: Player` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player is no longer inactive. |
 
 See the [diagram in the player enter / exit section](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) for a detailed overview of when the above two events are sent.
 
-`OnPlayerEnterAFK` and `OnPlayerExitAFK` are sent to only server-owned entities.
+\`OnPlayerEnterAFK\` and \`OnPlayerExitAFK\` are sent to only server-owned entities.
 
 If an entity is [owned by a player](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) then the two code blocks above *are not* sent to it. Any component connected to receive those events from that entity will not get them.
 
-### Player Locomotion
+### [Player Locomotion](#player-locomotion)
 
 A [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) locomotes (moves the avatar) using their controllers. A [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) locomotes via mouse and keyboard or via on-screen controls. These inputs are applied during the [simulation phase](Meta%20Horizon%20Worlds%20creator%20manual.md#simulation-phase) of each frame. You can also “take over” and override the inputs using [player controls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls).
 
@@ -5092,13 +5072,13 @@ The table below shows some methods related to player locomotion. There are addit
 
 The [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) has a few properties related to locomotion:
 
-| [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) locomotion [Horizon property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) | Type | Notes |
-| --- | --- | --- |
-| isGrounded | `ReadableHorizonProperty` `<boolean>` | A read-only `boolean` property denoting if the player is on the ground and able to walk around (grounded) or in the air due to falling or jumping (not grounded). |
-| jumpSpeed | `HorizonProperty` `<number>` | A read-write `number` property of how fast the player jumps in m/s. The value must be between `0` and `45`. `0` means that the player can’t jump. The default is `4.3` m/s. |
-| locomotionSpeed | `WritableHorizonProperty` `<number>` | A write-only `number` property of how fast the player can locomote when not sprinting, in m/s. `0` means that the player cannot move. The default is `4.5` m/s. |
+| [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) locomotion [Horizon property](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) | Type                                  | Notes                                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| isGrounded                                                                                                                                                                 | `ReadableHorizonProperty` `<boolean>` | A read-only `boolean` property denoting if the player is on the ground and able to walk around (grounded) or in the air due to falling or jumping (not grounded).           |
+| jumpSpeed                                                                                                                                                                  | `HorizonProperty` `<number>`          | A read-write `number` property of how fast the player jumps in m/s. The value must be between `0` and `45`. `0` means that the player can’t jump. The default is `4.3` m/s. |
+| locomotionSpeed                                                                                                                                                            | `WritableHorizonProperty` `<number>`  | A write-only `number` property of how fast the player can locomote when not sprinting, in m/s. `0` means that the player cannot move. The default is `4.5` m/s.             |
 
-### Player Position and Rotation
+### [Player Position and Rotation](#player-position-and-rotation)
 
 The [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) has properties for `position` and `rotation`. These are [Horizon properties](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) and so you must call `get()` (e.g. `player.position.get()`). The `position` properties returns the world location of the player’s center point (which is near the middle of their hips).
 
@@ -5106,12 +5086,12 @@ The [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) h
 
 **Rotating the player**: The only way to rotate a player is to have them enter an [avatar pose gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-pose-gizmo) and then script the movement of the gizmo. There is currently no way to force a player into a pose gizmo, nor to prevent them from exiting.
 
-### Player Body Parts
+### [Player Body Parts](#player-body-parts)
 
 A [player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) has a number of properties for accessing body parts: `head`, `torso`, `foot`, `leftHand`, and `rightHand`; each return an instance of the class `PlayerBodyPart` (or the more specific `PlayerHand`). They are [Horizon properties](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties) and so you must use `get()`:
 
-```
-const torso = player.torso.get()
+```typescript
+const torso = player.torso.get()
 ```
 
 The `foot` body part is an “abstract” location in between the two feet (directly below the avatar center point near the hips).
@@ -5122,24 +5102,24 @@ Additionally you can use `bodyPart.player` to identify which [player](Meta%20Hor
 
 Body parts have two helper methods: `getPosition` and `getRotation` that let you conditionally pass in an instance of the `Space` enum:
 
-* `bodyPart.getPosition(Space.World)` is the same as `bodyPart.position.get()`.
-* `bodyPart.getPosition(Space.Local)` is the same as `bodyPart.localPosition.get()`.
+- `bodyPart.getPosition(Space.World)` is the same as `bodyPart.position.get()`.
+- `bodyPart.getPosition(Space.Local)` is the same as `bodyPart.localPosition.get()`.
 
-#### Getting a body part’s local *right* vector.
+#### [Getting a body part’s local *right* vector.](#getting-a-body-parts-local-right-vector)
 
 Unlike for entities, there is no built-in `right` property to get the [local position x-axis](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) direction. You can compute it yourself with:
 
-```
-const torso = player.torso.get()
-const torsoUp = torso.up.get()
-const torsoForward = torso.forward.get()
+```typescript
+const torso = player.torso.get()
+const torsoUp = torso.up.get()
+const torsoForward = torso.forward.get()
 
-const torsoRight = torsoUp.cross(torsoForward)
+const torsoRight = torsoUp.cross(torsoForward)
 ```
 
 We did “up cross forward” because [Horizon is left-handed](Meta%20Horizon%20Worlds%20creator%20manual.md#coordinate-system); “forward cross up” gives the local *left* axis instead.
 
-#### Player Hand
+#### [Player Hand](#player-hand)
 
 `PlayerHand` is a subclass of [PlayerBodyPart](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts), thus inheriting all of the behaviors and properties outlined above.
 
@@ -5147,65 +5127,65 @@ We did “up cross forward” because [Horizon is left-handed](Meta%20Horizon%20
 
 Additionally, `PlayerHand` has the method `playHaptics` which is used to [make a VR player’s controllers vibrate](Meta%20Horizon%20Worlds%20creator%20manual.md#haptics).
 
-### Player Pose
+### [Player Pose](#player-pose)
 
 For [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type), it is possible to activate or deactivate an avatar pose through scripting or through the configuration of grabbable items.
 
-#### Grip Pose
+#### [Grip Pose](#grip-pose)
 
 Grip poses allow for a easy avatar configuration, activating as soon as the [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) grabs an entity (pistol, sword, etc). These poses do not require any scripting and in most cases have a secondary animation (recoil, attack sword motion, etc) which activate when the player presses the action button (Left mouse click on PC and on-screen button for mobile).
 
 To configure a pose animation through on a [grabbable entity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities):
 
-- Click on the entity in the desktop editor to open its properties.
-- Scroll down to the More category, and locate the Avatar Pose option.
-- Select an option from the dropdown menu.
+1. Click on the entity in the desktop editor to open its properties.
+2. Scroll down to the More category, and locate the Avatar Pose option.
+3. Select an option from the dropdown menu.
 
 To test the selection, enter preview mode and grab the object. Observe how the avatar chances its pose. Press the action button and observe the secondary animation.
 
-#### Scripted Grip Pose
+#### [Scripted Grip Pose](#scripted-grip-pose)
 
 Scripted animations allow for more control over the behavior of [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) avatar poses. You can set the pose the avatar is using with respect to a held item (the **grip pose**):
 
-```
-// Player
-setAvatarGripPoseOverride(avatarGripPose: AvatarGripPose): void;
-clearAvatarGripPoseOverride(): void;
+```typescript
+// Player
+setAvatarGripPoseOverride(avatarGripPose: AvatarGripPose): void;
+clearAvatarGripPoseOverride(): void;
 ```
 
 The setting will override any configurations set on held items and the avatar will remain in the grip pose until `setAvatarGripPoseOverride` is called again with a new pose or `clearAvatarGripPoseOverride` is called to clear the pose override.
 
 The **current possible AvatarGripPose options** are: *Default, Pistol, Shotgun, Rifle, RPG, Sword, Torch, Shield, Fishing, CarryLight, CarryHeavy*.
 
-#### Scripted Grip Pose Animation
+#### [Scripted Grip Pose Animation](#scripted-grip-pose-animation)
 
 When an item is configured with a grip pose, an animation plays whenever the player uses the action button. You can also script the animation to play directly, whenever you need it to:
 
-```
-// Player
+```typescript
+// Player
 playAvatarGripPoseAnimationByName(
-  avatarGripPoseAnimationName: string
-): void;
+  avatarGripPoseAnimationName: string
+): void;
 ```
 
 The animations names can be found under the exported enum **AvatarGripPoseAnimationNames**, with values of: *Fire, Reload, ReadyThrow, ChargeThrow, Throw, CancelThrow*
 
 Other animations names not included in the enum are:
 
-* *Die*: the avatar falls to the ground.
-* *Respawn*: the player stands up instantly.
+- *Die*: the avatar falls to the ground.
+- *Respawn*: the player stands up instantly.
 
-#### Avatar Animation
+#### [Avatar Animation](#avatar-animation)
 
 There are two methods on the [Player Class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class): `playAvatarAnimation` and `stopAvatarAnimation` which are currently **not supported** and are in `horizon/core` by error.
 
 Likewise the types `PlayAnimationOptions`, `StopAnimationOptions`, `AnimationCallback`, `AnimationCallbackReason`, and `AnimationCallbackReasons` are also **currently unsupported**.
 
-### Voip Settings
+### [Voip Settings](#voip-settings)
 
 Horizon has the ability control *who can hear a player and from how far away*.
 
-It call this the **Voip Setting** (borrowing the term [VoIP](Meta%20Horizon%20Worlds%20creator%20manual.md)) which can be configured with a number of values: **mute, whisper, nearby, *default*, extended, global** which representing increases ranges of being heard. Mute means that no one can hear the player, global means that everyone can hear the player (and with full volume). The other values represent a spectrum in between mute and global, with **default** being the recommended setting for most experiences (people in your general vicinity can hear and so can people farther away if you are loud). There is one more special VOIP Setting **environment**, which is described below.
+It call this the **Voip Setting** (borrowing the term [VoIP](Meta%20Horizon%20Worlds%20creator%20manual.md#)) which can be configured with a number of values: **mute, whisper, nearby, *default*, extended, global** which representing increases ranges of being heard. Mute means that no one can hear the player, global means that everyone can hear the player (and with full volume). The other values represent a spectrum in between mute and global, with **default** being the recommended setting for most experiences (people in your general vicinity can hear and so can people farther away if you are loud). There is one more special VOIP Setting **environment**, which is described below.
 
 There are no team-based voip settings (there are no 'voice channels').
 
@@ -5215,13 +5195,13 @@ The **[environment gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#environm
 
 You can change the VOIP setting for a given player in TypeScript with:
 
-```
+```typescript
 player.setVoipSetting(VoipSetting.Whisper)
 ```
 
 and at any point in time you can “cancel” that custom setting and return the player back to whatever setting is on the environment gizmo via:
 
-```
+```typescript
 player.setVoipSetting(VoipSetting.Environment)
 ```
 
@@ -5231,18 +5211,18 @@ When a new environment gizmo is [spawned](Meta%20Horizon%20Worlds%20creator%20ma
 
 **World’s Player Settings’ VOIP Setting**: there is a top-level setting in *Player Settings* called *VOIP Settings* that can be set to `Global` and `Local`. When set to `Global` every player has **global** as their setting, it is not possible to change any VOIP settings further (all gizmos and TypeScript related to VOIP are ignored). The `Local` setting gives the world the **default** setting, which can then be further changed by environment gizmos and TypeScript.
 
-Danger: Never use the World's Player Settings' `Global` VOIP Setting.
+Danger: Never use the World's Player Settings' \`Global\` VOIP Setting.
 
 The World’s Player Settings’ VOIP Settings toggle has bugs. We recommend that you **set it to `Local`** (or just never touch it after creating a new world).
 
-### Haptics
+### [Haptics](#haptics)
 
 A [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s controllers can be made to vibrate to add immersion to an experience. There is currently no way to vibrate a mobile device.
 
 To vibrate a [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s controllers, choose a [player hand](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts) and then call the `playHaptics` method on it with a duration (in seconds), a strength (via the `HapticsStrength` enum), and a sharpness (via the `HapticsSharpness` enum). For example:
 
-```
-player.leftHand.playHaptics(0.5, HapticStrength.Medium, HapticSharpness.Sharp)
+```typescript
+player.leftHand.playHaptics(0.5, HapticStrength.Medium, HapticSharpness.Sharp)
 ```
 
 **Strength**: the overall intensity of the vibration. For example, imagine a constant unchanging vibration; that vibration should occur at different levels of “intensity” or “volume”. This is the *strength* of the haptic effect.
@@ -5255,64 +5235,65 @@ Think of strength like “volume” and sharpness like “melody”.
 
 The supported values for haptics strength are:
 
-| `HapticsStrength` | Meaning |
-| --- | --- |
-| `VeryLight` | A barely noticeable vibration, just enough to create a faint tactile response without drawing attention. |
-| `Light` | A subtle vibration, likely intended for gentle feedback, such as indicating a soft touch or a minor interaction. |
-| `Medium` | A more noticeable vibration, suitable for standard feedback like button presses or interactions that require a stronger confirmation. |
-| `Strong` | A powerful vibration, used for significant events, such as impacts, collisions, or urgent notifications. |
+| `HapticsStrength` | Meaning                                                                                                                               |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `VeryLight`       | A barely noticeable vibration, just enough to create a faint tactile response without drawing attention.                              |
+| `Light`           | A subtle vibration, likely intended for gentle feedback, such as indicating a soft touch or a minor interaction.                      |
+| `Medium`          | A more noticeable vibration, suitable for standard feedback like button presses or interactions that require a stronger confirmation. |
+| `Strong`          | A powerful vibration, used for significant events, such as impacts, collisions, or urgent notifications.                              |
 
 The supported values for haptics sharpness are:
 
-| `HapticsSharpness` | Meaning |
-| --- | --- |
-| `Sharp` | A high-frequency vibration with a quick onset and quick decay. Ideal for rapid alerts or precision interactions. |
-| `Coarse` | A moderate vibration with a slightly longer duration, striking a balance between sharp and soft. Ideal for interactions that need to feel distinct without being abrupt. |
-| `Soft` | A low-frequency, smooth vibration that builds and fades gradually, creating a more diffuse, gentle sensation. Ideal for subtle cues or immersive environmental effects. |
+| `HapticsSharpness` | Meaning                                                                                                                                                                  |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `Sharp`            | A high-frequency vibration with a quick onset and quick decay. Ideal for rapid alerts or precision interactions.                                                         |
+| `Coarse`           | A moderate vibration with a slightly longer duration, striking a balance between sharp and soft. Ideal for interactions that need to feel distinct without being abrupt. |
+| `Soft`             | A low-frequency, smooth vibration that builds and fades gradually, creating a more diffuse, gentle sensation. Ideal for subtle cues or immersive environmental effects.  |
 
-### Aim Assist
+### [Aim Assist](#aim-assist)
 
 For experiences at involve the player aiming at something, Horizon offers the ability to \*assist a player with their aim\*\*. This only works for [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type).
 
 There are two methods on the [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) related to aiming:
 
-* **Setting an Aim Assist Target**: You can enable aim assist, via `player.setAimAssistTarget(target, options)`, to help `player` aim at `target`. You can call `setAimAssistTarget` again to change the target. The `setAimAssistTarget` method allows you to specify which [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players), [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities), or [location](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) you want to help the player aim at. It does this by “pulling” the center of the screen in the direction of the target.
+- **Setting an Aim Assist Target**: You can enable aim assist, via `player.setAimAssistTarget(target, options)`, to help `player` aim at `target`. You can call `setAimAssistTarget` again to change the target. The `setAimAssistTarget` method allows you to specify which [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players), [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities), or [location](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) you want to help the player aim at. It does this by “pulling” the center of the screen in the direction of the target.
 
-  ```
-    // Player
-    setAimAssistTarget(
-      target: Player | Entity | Vec3,
-      options?: AimAssistOptions
-    ): void;
+  ```typescript
+    // Player
+    setAimAssistTarget(
+      target: Player | Entity | Vec3,
+      options?: AimAssistOptions
+    ): void;
   ```
 
   The `AimAssistOptions` object has a few optional fields:
 
-  | `AimAssist` field | Type | Default | Notes |
-  | --- | --- | --- | --- |
-  | `assistanceStrength` | `number` | 10 | The speed the camera should rotate (in degrees/second) |
-  | `targetSize` | `number` | 4 | How close the center of the screen has to be to the target for the aim assist to start “pulling”. A larger number is *more helpful*. |
-  | `oInputGracePeriod` | `number` | 1 | How long the aim assist continues rotating the camera after the player stops providing input (in seconds) |
-* **Clearing an Aim Assist Target**: To disable aim assist, call `player.clearAimAssistTarget()`.
+  | `AimAssist` field    | Type     | Default | Notes                                                                                                                                |
+  | -------------------- | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+  | `assistanceStrength` | `number` | 10      | The speed the camera should rotate (in degrees/second)                                                                               |
+  | `targetSize`         | `number` | 4       | How close the center of the screen has to be to the target for the aim assist to start “pulling”. A larger number is *more helpful*. |
+  | `oInputGracePeriod`  | `number` | 1       | How long the aim assist continues rotating the camera after the player stops providing input (in seconds)                            |
 
-### Throwing
+- **Clearing an Aim Assist Target**: To disable aim assist, call `player.clearAimAssistTarget()`.
 
-```
-export declare type ThrowOptions = {
-    speed?: number | null;
-    pitch?: number | null;
-    yaw?: number | null;
-    playThrowAnimation?: boolean | null;
-    hand?: Handedness | null;
+### [Throwing](#throwing)
+
+```typescript
+export declare type ThrowOptions = {
+    speed?: number | null;
+    pitch?: number | null;
+    yaw?: number | null;
+    playThrowAnimation?: boolean | null;
+    hand?: Handedness | null;
 };
 
-export declare const DefaultThrowOptions: ThrowOptions;
+export declare const DefaultThrowOptions: ThrowOptions;
 
-// Player
-throwHeldItem(options?: Partial<ThrowOptions>): void;
+// Player
+throwHeldItem(options?: Partial<ThrowOptions>): void;
 ```
 
-## Grabbing and Holding Entities
+## [Grabbing and Holding Entities](#grabbing-and-holding-entities)
 
 When a [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) grabs an entity is stays grabbed until they release the trigger. The entity is only held as long as they are holding the entity. A screen-based player uses an on-screen button to grab and then (later) a different on-screen button to release.
 
@@ -5322,7 +5303,7 @@ There are rules for when an entity [can be grabbed](Meta%20Horizon%20Worlds%20cr
 
 When a player grabs an entity, [ownership](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) is [transferred to that player](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbables-and-ownership).
 
-### Creating a Grabbable Entity
+### [Creating a Grabbable Entity](#creating-a-grabbable-entity)
 
 Select an entity and then in the Properties panel set its `Motion` to `Interactive` and `Interaction` to `Grabbable` or `Both`. The entity *must* be a root entity or it will not actually be allowed to be grabbed. Ensure that `collidable` is `true` and that (if it is a group) there is an [active collider](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) within it.
 
@@ -5336,20 +5317,20 @@ If a grabbable entity is not `collidable` then it cannot be grabbed. If it is a 
 
 A grabbable entity can be configured to automatically modify a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)’s pose when they grab the item and also configure what action buttons are on-screen while holding the entity. For more details [see the article on configuring held items for Mobile/Web players](../../Mobile%20and%20web/Grabbable%20entities/Introduction%20To%20Grabbable%20Entities%20On%20Mobile%20And%20Web.md).
 
-### Can Grab
+### [Can Grab](#can-grab)
 
 For an entity to be grabbable it needs:
 
-- To be a grabbable entity
-  - `Motion` to be `Interactive`
-  - `Interaction` to be `Grabbable` or `Both`
-  - [All ancestors, if any, are Meshes and Empty Objects with Motion set to None](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities).
-- To be currently grabbable
-  - `simulated` set to `true`
-  - At least one [active collider](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) within it (which is not occluded from the perspective of the player)
-- To be grabbable by this player
-  - Match the rules of [“Who Can Grab”](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-grab)
-  - If it is currently held, match the rules of [“Who Can Take From Holder”](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-take-from-holder)
+1. To be a grabbable entity
+   1. `Motion` to be `Interactive`
+   2. `Interaction` to be `Grabbable` or `Both`
+   3. [All ancestors, if any, are Meshes and Empty Objects with Motion set to None](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities).
+2. To be currently grabbable
+   1. `simulated` set to `true`
+   2. At least one [active collider](Meta%20Horizon%20Worlds%20creator%20manual.md#active-colliders) within it (which is not occluded from the perspective of the player)
+3. To be grabbable by this player
+   1. Match the rules of [“Who Can Grab”](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-grab)
+   2. If it is currently held, match the rules of [“Who Can Take From Holder”](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-take-from-holder)
 
 ![](../../_assets/images/0da83fd2b09956b89e23e53f5f0192df38e29c53b84335774cb80ef240d599d1.png)
 
@@ -5357,15 +5338,15 @@ bug Entities with grab anchors can be grabbed even when collidable is set to fal
 
 There is currently a bug where when an entity has a grab anchor it can still be grabbed even when collidable is set to false. If you want to make an entity, with a grab anchor, “disappear” you should move it far away (instead of just setting visibility and collidability to false).
 
-#### Setting “Who Can Grab?”
+#### [Setting “Who Can Grab?”](#setting-who-can-grab)
 
 `Interactive` entities have a setting in the Properties panel called “Who Can Grab?” with the following options controlling who can grab the entity.
 
-| Setting | Behavior |
-| --- | --- |
-| **Anyone** | Any player is eligible to grab the entity. |
+| Setting                | Behavior                                                                                                                                                                                                                                                                                                                                                                   |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Anyone**             | Any player is eligible to grab the entity.                                                                                                                                                                                                                                                                                                                                 |
 | **First To Grab Only** | If an entity has never been grabbed then any player can grab it. Once a player grabs it, only that player can re-grab it until [they exit the world instance](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world). Then anyone can grab the entity, and only next player to grab it can re-grab it until they exit the instance, and so on. |
-| **Script Assignee(s)** | A player is only eligible to grab the entity if they are in the list of allowed players assigned with `entity.setWhoCanGrab(listOfPlayers)`. |
+| **Script Assignee(s)** | A player is only eligible to grab the entity if they are in the list of allowed players assigned with `entity.setWhoCanGrab(listOfPlayers)`.                                                                                                                                                                                                                               |
 
 When the **Who Can Grab** setting is set to **Script Assignee(s)**, no one can grab the entity until `setWhoCanGrab` is called with an array of some players. You can pass an empty array to make an entity not grabbable.
 
@@ -5375,19 +5356,19 @@ bug \*\*First To Grab Only\*\* can cause an entity to be grabbable by no one, ev
 
 If a player kills the app after going AFK, [OnPlayerExitWorld](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) is not triggered. When that happens, the entity will be ungrabbable unless that player re-enters the same world instance, thereby triggering OnPlayerExitWorld on that player and releasing held and attached entities. Our recommendation is to not use **First to Grab Only** because there would be no way to reset who can grab using scripts. Instead, set **Can Grab** to **Anyone**, or to **Script Assignee(s)** and `forceRelease` any held entity when a player is AFK.
 
-`setWhoCanGrab` does not auto-update.
+\`setWhoCanGrab\` does not auto-update.
 
 There is no way to have it auto-update when new players join the instance (example: everyone except one player can grab the entity). If you want to include a newly-joined player in the list then you must call the API again.
 
 `Interactive` entities have a setting in the Properties panel called “Who Can Taken From Holder?” with the following options controlling what can happen to the entity while it is held.
 
-| Setting | Can the holder grab it out of their own hand using their other hand? | Can another player take it from the player that is holding it? |
-| --- | --- | --- |
-| *No One* | No | No |
-| *Only You* | Yes | No |
-| *Anyone* | Yes | Yes (*if* the person can grab the entity) |
+| Setting    | Can the holder grab it out of their own hand using their other hand? | Can another player take it from the player that is holding it? |
+| ---------- | -------------------------------------------------------------------- | -------------------------------------------------------------- |
+| *No One*   | No                                                                   | No                                                             |
+| *Only You* | Yes                                                                  | No                                                             |
+| *Anyone*   | Yes                                                                  | Yes (*if* the person can grab the entity)                      |
 
-#### Grab Distance
+#### [Grab Distance](#grab-distance)
 
 Grab distance varies between platforms.
 
@@ -5397,24 +5378,24 @@ Grab-distance cannot be configured.
 
 You cannot explicitly control from how far away an entity can be grabbed; however you can use a trigger to control grabbability (for example: make an entity grabbable by a specific play when they are in that trigger).
 
-#### Grab Lock
+#### [Grab Lock](#grab-lock)
 
 When an entity is [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-grabbable-entity) there is a setting its Properties called `Grab Lock`. When it is enabled a [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) no longer needs to keep the trigger (on their VR controller) pressed to hold the entity (which gets tiring after a while!). When `Grab lock` is enabled a [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) presses (and releases) the trigger to grab. When they release the trigger the entity *stays held*. When they later again press and release the trigger again, the entity is released.
 
-#### Force Grabbing
+#### [Force Grabbing](#force-grabbing)
 
 An entity can be forced into the hand of a player used the TypeScript API:
 
-```
-// GrabbableEntity
-forceHold(player: Player, hand: Handedness, allowRelease: boolean): void;
+```typescript
+// GrabbableEntity
+forceHold(player: Player, hand: Handedness, allowRelease: boolean): void;
 ```
 
 It allows you to specify which player to have hold it, which hand they should hold it in, and whether or not that can *manually* release it. If `allowRelease` is `false` then the entity can only be released by [force release](Meta%20Horizon%20Worlds%20creator%20manual.md#force-release). When `allowRelease` is set to `true` a [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) can release the entity by pressing the trigger on their VR controller; a screen-based player can release it using the on-screen release button.
 
 **Not quite instantaneous**: calling `forceHold` “animates” the entity into the players hand. It can be a number of frames until they are holding it and the [OnGrabStart](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) event is sent.
 
-#### Example: Giving players a weapon when the game starts
+#### [Example: Giving players a weapon when the game starts](#example-giving-players-a-weapon-when-the-game-starts)
 
 A common use case for force-grabbing is a game where every player has a sword, for example. When the round starts, you given all players a weapon by force-grabbing it. If you don’t want them to let go then set `allowRelease` to `false`. Then you can [force release](Meta%20Horizon%20Worlds%20creator%20manual.md#force-release) the entities at the end of the game.
 
@@ -5422,17 +5403,17 @@ Danger: A force-grabbed item can be released 'accidentally'
 
 Even if an entity is force-grabbed with `allowRelease` set to `false`, it is still possible for the entity to be released by [force release](Meta%20Horizon%20Worlds%20creator%20manual.md#force-release), including if the entity gets too far away from the player or is knocked out of their hand (by physics). If you want to ensure that players are always holding an entity during a game, then you should listen for the [grab-release](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) event and have the player force-hold the entity again.
 
-### Releasing Entities
+### [Releasing Entities](#releasing-entities)
 
-#### Manual release
+#### [Manual release](#manual-release)
 
 If an entity was manually grabbed or it was [force-grabbed](Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing) with `allowRelease` set to `true`, then a player can manually release it. If an entity was [force-grabbed](Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing) with `allowRelease` set to `false` then a player will not be able to manually release the entity and instead must wait on it (eventually) being done for them.
 
-#### Force release
+#### [Force release](#force-release)
 
 A held entity can be forced out of a player’s hand at any time by calling
 
-```
+```typescript
 entity.forceRelease();
 ```
 
@@ -5444,11 +5425,11 @@ Some actions automatically force release.
 
 There are a number of ways in which a grabbable entity can be “automatically” force released:
 
-- **`Simulated` is set to `false`** - the entity is force released and then remains ungrabbable until `simulated` is set to `true` again.
-- **Entity is [attached](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities).** When an entity is attached to a player it is forced released (after attaching to the player, meaning that it is momentarily held *and* attached at the same time).
-- **Entity moves too far away from player** - either via scripting, animation, or physics “knocking it out of the hand”.
-- **Player moves too far away entity** - either via scripting, physics, or player movement input “walking away while grabbing physics locked object”.
-- (Not recommended)**[Ownership](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) is [changed while held](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbables-and-ownership)** - changing the owner of a held entity will cause it to be force-release from the player. The `grabEnd` event will *not* be sent in this case.
+1. **`Simulated` is set to `false`** - the entity is force released and then remains ungrabbable until `simulated` is set to `true` again.
+2. **Entity is [attached](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities).** When an entity is attached to a player it is forced released (after attaching to the player, meaning that it is momentarily held *and* attached at the same time).
+3. **Entity moves too far away from player** - either via scripting, animation, or physics “knocking it out of the hand”.
+4. **Player moves too far away entity** - either via scripting, physics, or player movement input “walking away while grabbing physics locked object”.
+5. (Not recommended)**[Ownership](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) is [changed while held](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbables-and-ownership)** - changing the owner of a held entity will cause it to be force-release from the player. The `grabEnd` event will *not* be sent in this case.
 
 Disabling collidability does *not* cause a force release.
 
@@ -5456,34 +5437,34 @@ Danger: Despawning a held object does not send a grab release event!
 
 This is a bug that may be fixed in the future. Be mindful of despawning assets that contain grabbable entities (you may need to clean up manually).
 
-### Grab Sequence and Events
+### [Grab Sequence and Events](#grab-sequence-and-events)
 
 There are a number of events associated with grabbing and holding. The diagram below shows how the state of an entity changes with user-actions (highlighted in blue). Actions have associated `CodeBlockEvent`s that are sent. If a box contains multiple events then they are sent in the top-down order shown.
 
-| [Built-In CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| `OnGrabStart` | `isRightHand: boolean` `player: Player` | Sent when a player grabs an entity (it is sent *both* for the first hand grabbing *and* the second hand grabbing in a *multi-grab*). |
-| `OnGrabEnd` | `player: Player` | Sent when a player stops holding the entity (both hands off, for a multi-grab). |
-| `OnMultiGrabStart` | `player: Player` | Sent when a player adds their second hand to a multi-grab entity. |
-| `OnMultiGrabEnd` | `player: Player` | Sent when a multi-grab entity is no longer held with 2 hands (either because it is now held by 1 or by none). |
+| [Built-In CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)                            | Description                                                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `OnGrabStart`                                                                                        | `isRightHand: boolean` `player: Player` | Sent when a player grabs an entity (it is sent *both* for the first hand grabbing *and* the second hand grabbing in a *multi-grab*). |
+| `OnGrabEnd`                                                                                          | `player: Player`                        | Sent when a player stops holding the entity (both hands off, for a multi-grab).                                                      |
+| `OnMultiGrabStart`                                                                                   | `player: Player`                        | Sent when a player adds their second hand to a multi-grab entity.                                                                    |
+| `OnMultiGrabEnd`                                                                                     | `player: Player`                        | Sent when a multi-grab entity is no longer held with 2 hands (either because it is now held by 1 or by none).                        |
 
-The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
+The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and *underlined text is a system action that occurs*.
 
 ![](../../_assets/images/3a1ec78648bc34748528ac3888343667816c480f4bcad51334d6e5180c43c22a.png)
 
-bug `OnGrabEnd` and `OnMultiGrabEnd` are not sent if a player leaves suddenly.
+bug \`OnGrabEnd\` and \`OnMultiGrabEnd\` are not sent if a player leaves suddenly.
 
 When a player leaves suddenly (crash, force quit, turn off the device, etc) then some player-related events such as [OnPlayerExit](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnAttachEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and [OnMultiGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)*may not be sent*. However, `OnPlayerEnterAFK` is sent immediately. So if you need to ensure a player releases a held entity when they leave the instance (for example, if the entity has [“Who Can Take From Holder?”=NoOne](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-who-can-take-from-holder)), then [forceRelease](Meta%20Horizon%20Worlds%20creator%20manual.md#force-release) the entity on `OnPlayerEnterAFK` and [forceHold](Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing) it on `OnPlayerExitAFK`. Note [`getPlayers()`](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) is only affected by `OnPlayerEnterWorld` and `OnPlayerExitWorld`, so it will not have an accurate list of all players in the instance.
 
-#### Hand-off (Switching Hands or Players)
+#### [Hand-off (Switching Hands or Players)](#hand-off-switching-hands-or-players)
 
 When an entity is transferred from one hand to another or from one player to another then the entity is *fully released* by the first player before being grabbed by the second player. This means there is a moment where the entity is held by no one. An entity is never held by 2 players (not even momentarily); and if it is not a multi-grab entity then it is never held by 2 hands (not even momentarily).
 
-`OnGrabEnd` is sent during a 'hand-off.'
+\`OnGrabEnd\` is sent during a 'hand-off.'
 
 The `OnGrabEnd` event may mean that an entity is about to grabbed by a different hand or player.
 
-#### Moving Held Entities
+#### [Moving Held Entities](#moving-held-entities)
 
 Normally the position and rotation of a held object is determined by the position and orientation of the player hand that is holding it (during the [physics stage](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-sequence) of the frame).
 
@@ -5491,7 +5472,7 @@ It is some times useful to invert that and instead have **the position and rotat
 
 This can be achieved due to the fact that
 
-```
+```typescript
 player.leftHand.position.get()
 ```
 
@@ -5499,13 +5480,13 @@ returns where the *player’s hand is **supposed** to be*, but not where the *av
 
 There are two approaches for moving a held entity:
 
-##### Moving a Held Entity Locally in Relation to the Hand
+##### [Moving a Held Entity Locally in Relation to the Hand](#moving-a-held-entity-locally-in-relation-to-the-hand)
 
 In a gun-recoil animation you want the player hand to be able to move freely, yet have the gun apply an additional local rotation “on top of it”. If you set the position / rotation of the entity when a user takes an action (such as firing the gun) then that change will only last for one frame (which might be ok for a quick recoil effect) because the entity’s position / rotation will be immediately updated the next frame from the avatar’s hand.
 
 If you want a multi-frame or ongoing effect then you need to set the position / rotation of the entity repeatedly in an [OnUpdate](Meta%20Horizon%20Worlds%20creator%20manual.md#run-every-frame-prephysics-and-onupdate) callback. In summary: **every frame in which you want the entity change from where the avatar want it, you must set it yourself**.
 
-##### Moving a Held Entity Globally in Relation to the World
+##### [Moving a Held Entity Globally in Relation to the World](#moving-a-held-entity-globally-in-relation-to-the-world)
 
 When building a lever, for example, you want the avatar hand to “lock onto” the lever. In this case you want to completely control the position of the avatar hand. To do this, set `locked` to `true` on the grabbable entity. This will prevent the entity from being moved by physics or by the avatar. Then you can move the entity by setting its `position` and `rotation`. The avatar hand will then be moved to match.
 
@@ -5515,53 +5496,53 @@ Note that if the grabbed entity gets too far away from the avatar hand you will 
 
 Here is a simple example of a grabbable entity that is constrained to move along the y-axis (you can only move it up and down).
 
-```
-import {CodeBlockEvents, Component, PhysicalEntity, Player, World} from 'horizon/core'
+```typescript
+import {CodeBlockEvents, Component, PhysicalEntity, Player, World} from 'horizon/core'
 
-class AxisYConstrainedGrabbable extends Component<typeof AxisYConstrainedGrabbable> {
-  private grabInfo?: {isRightHand: boolean, player: Player}
+class AxisYConstrainedGrabbable extends Component<typeof AxisYConstrainedGrabbable> {
+  private grabInfo?: {isRightHand: boolean, player: Player}
 
-  override start() {}
+  override start() {}
 
-  override preStart() {
-    // Lock the entity so it can't be moved by an avatar hand or by physics
-    this.entity.as(PhysicalEntity).locked.set(true)
+  override preStart() {
+    // Lock the entity so it can't be moved by an avatar hand or by physics
+    this.entity.as(PhysicalEntity).locked.set(true)
 
-    // Record which player and which hand grab
-    this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnGrabStart, (isRightHand, player) => {
-      this.grabInfo = {isRightHand, player}
-    })
+    // Record which player and which hand grab
+    this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnGrabStart, (isRightHand, player) => {
+      this.grabInfo = {isRightHand, player}
+    })
 
-    // Forget about the grabber when they release
-    this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnGrabEnd, () => {
-      this.grabInfo = undefined
-    })
+    // Forget about the grabber when they release
+    this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnGrabEnd, () => {
+      this.grabInfo = undefined
+    })
 
-    // Update the entity every frame
-    this.connectLocalBroadcastEvent(World.onUpdate, () => {
-      if (this.grabInfo) {
-        // Get the y-value of the *intended* player hand location
-        const {player, isRightHand} = this.grabInfo
-        const playerHand = isRightHand ? player.rightHand : player.leftHand
-        const handPosition = playerHand.position.get()
-        const handY = handPosition.y
+    // Update the entity every frame
+    this.connectLocalBroadcastEvent(World.onUpdate, () => {
+      if (this.grabInfo) {
+        // Get the y-value of the *intended* player hand location
+        const {player, isRightHand} = this.grabInfo
+        const playerHand = isRightHand ? player.rightHand : player.leftHand
+        const handPosition = playerHand.position.get()
+        const handY = handPosition.y
 
-        // Get the current location of the entity
-        const grabbablePosition = this.entity.position.get()
+        // Get the current location of the entity
+        const grabbablePosition = this.entity.position.get()
 
-        // Change the y-value in the vector
-        grabbablePosition.y = handY
+        // Change the y-value in the vector
+        grabbablePosition.y = handY
 
-        // Set the new location of the entity
-        this.entity.position.set(grabbablePosition)
-      }
-    })
-  }
+        // Set the new location of the entity
+        this.entity.position.set(grabbablePosition)
+      }
+    })
+  }
 }
 Component.register(AxisYConstrainedGrabbable)
 ```
 
-#### Grabbables and Ownership
+#### [Grabbables and Ownership](#grabbables-and-ownership)
 
 **Transfer-on-grab**: [Ownership](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership) of a [grabbable entity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) is transferred to the grabbing player, every time it is [grabbed](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities). The ownership transfer is visible in the [grab sequence diagram](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events). The ownership transfer occurs *before* the `OnGrabEvent`. When the `OnGrabEvent` is sent, the entity will already have the new owner. If the entity is released while the transfer is occurring you will get both `OnGrabStart` and `OnGrabEnd`.
 
@@ -5571,7 +5552,7 @@ Danger: Don't change the owner of a held object
 
 When you change the owner of a grabbable entity while it is held, it will be [force released](Meta%20Horizon%20Worlds%20creator%20manual.md#force-release). However, the [`OnGrabEnd`](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) event **will not** be sent. If you are tracking which entities are and are not held (by the `GrabStart` and `GrabEnd` events), this is likely to “break” your ability to correctly track the entity.
 
-## Attaching Entities
+## [Attaching Entities](#attaching-entities)
 
 Entities can be attached to players and avatar NPCs.
 
@@ -5579,13 +5560,13 @@ Attaching multiple entities to one player.
 
 It’s possible for a [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) to put multiple entities on their head at the same time, for example. You can also use [scripted attach](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach) to put multiple entities on a player at the same attachment anchor. If this behavior is undesirable, you should track when entities are attached to which players and handle the case where a second entity is attached to an anchor.
 
-### Creating an Attachable
+### [Creating an Attachable](#creating-an-attachable)
 
-- Set item properties in Horizon to `Motion: Animated`, or `Motion: Interactive` if you want players to grab the item or give it physics.
-- Make sure `Collidable` is Enabled.
-- Find the `Avatar Attachable` setting and select `Sticky` or `Anchor`.
-- If `Anchor` then select the `Anchor To` setting to either `Head`, `Torso`, `LeftHip`, or `RightHip`.
-- Either let the player grab the item and attach it to themselves or attach it by script.
+1. Set item properties in Horizon to `Motion: Animated`, or `Motion: Interactive` if you want players to grab the item or give it physics.
+2. Make sure `Collidable` is Enabled.
+3. Find the `Avatar Attachable` setting and select `Sticky` or `Anchor`.
+4. If `Anchor` then select the `Anchor To` setting to either `Head`, `Torso`, `LeftHip`, or `RightHip`.
+5. Either let the player grab the item and attach it to themselves or attach it by script.
 
 You can adjust the Anchor Position and Rotation which affects where and how the items appears on the player around the specified anchor.
 
@@ -5593,36 +5574,36 @@ Attaching by Hand versus Script
 
 Entity must have `Motion: Animated`, or `Motion: Interactive` and `Collidable` enabled to configure attachment settings and attach by hand, but none of that is required to attach by script after it has been configured.
 
-### Attachable By
+### [Attachable By](#attachable-by)
 
 This setting defines the permissions of which players can *manually* attach the entity (by releasing the entity while holding it over their body). This setting does not affect [scripted attach](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach) with `attachToPlayer`.
 
-| Attachable By | Description |
-| --- | --- |
-| *Owner* | Only the person holding the attachable entity is permitted to attach it to themselves. |
-| *Everyone* | Anyone holding the attachable entity is permitted to attach it to themselves or anyone else. |
+| Attachable By | Description                                                                                  |
+| ------------- | -------------------------------------------------------------------------------------------- |
+| *Owner*       | Only the person holding the attachable entity is permitted to attach it to themselves.       |
+| *Everyone*    | Anyone holding the attachable entity is permitted to attach it to themselves or anyone else. |
 
-### Avatar Attachable
+### [Avatar Attachable](#avatar-attachable)
 
 Attaching an entity to player can be done by the following:
 
-| Attach Method | Description |
-| --- | --- |
+| Attach Method          | Description                                                                                                                                                                                                                     |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | *Release on body part* | Upon releasing the held entity, the entity checks if collision has occurred between the active collider and the body part of the [Attachable By](Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) permitted player. |
-| *Script* | See attachables API. |
+| *Script*               | See attachables API.                                                                                                                                                                                                            |
 
 Attaching entities involves two built-in code block events being sent to the attachable. If the player attached or detached by hand (only possible for a [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)) then there are also events related to [grabbing](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events).
 
-| [Built-In CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| `OnAttachStart` | `player: Player` | Sent when the entity is attached to the given player |
-| `OnAttachEnd` | `player: Player` | Sent when the entity is detached from the given player |
+| [Built-In CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)     | Description                                            |
+| ---------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------ |
+| `OnAttachStart`                                                                                      | `player: Player` | Sent when the entity is attached to the given player   |
+| `OnAttachEnd`                                                                                        | `player: Player` | Sent when the entity is detached from the given player |
 
-The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and underlined text is a system action that occurs.
+The flow of events are shown in the diagram below. Ovals represent the *state* the entity is in. The boxes represent what happens when the entity goes from one state to another; in the box, *italics text is the action* that caused the change, **bold text is [built-in CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)** that are sent (in the order top-to-bottom if there are multiple in a box), and *underlined text is a system action that occurs*.
 
 ![](../../_assets/images/f9de6b1647e67bead3f835c68c67c5eba96d72d72762ac2c50e86f294cbbd929.png)
 
-bug `OnAttachEnd` is not sent if a player leaves suddenly.
+bug \`OnAttachEnd\` is not sent if a player leaves suddenly.
 
 When a player leaves suddenly (crash, force quit, turn off the device, etc) then some player-related events such as [OnPlayerExit](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnAttachEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world), [OnGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) and [OnMultiGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)*may not be sent*. However, `OnPlayerEnterAFK` is sent immediately. So if you need to ensure a player releases a held entity when they leave the instance (e.g. when the entity has **AttachableBy=Owner** so no one else can grab it), then [detach](Meta%20Horizon%20Worlds%20creator%20manual.md#detaching) the entity on `OnPlayerEnterAFK` and [re-attach](Meta%20Horizon%20Worlds%20creator%20manual.md#scripted-attach) it on `OnPlayerExitAFK`. Note [`getPlayers()`](Meta%20Horizon%20Worlds%20creator%20manual.md#listing-all-players) is only affected by `OnPlayerEnterWorld` and `OnPlayerExitWorld`, so it will not have an accurate list of all players in the instance.
 
@@ -5632,16 +5613,16 @@ An entity goes *from being held to being attached* when `attachToPlayer` is call
 
 **Events ordering**:
 
-* From Held to Attached: the `OnAttachStart` is sent and then `OnGrabEnd`.
-* From Attached to Held: the `OnGrabStart` is sent and then `OnAttachEnd`.
+- From Held to Attached: the `OnAttachStart` is sent and then `OnGrabEnd`.
+- From Attached to Held: the `OnGrabStart` is sent and then `OnAttachEnd`.
 
-#### Scripted Attach
+#### [Scripted Attach](#scripted-attach)
 
 Entities can be attached to players and detached from players in scripting using `Entity`’s `attachToPlayer` and `detach`, respectively. The `attachToPlayer` method is not not restricted by the [Attachable By](Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) and [Anchor To](Meta%20Horizon%20Worlds%20creator%20manual.md#anchor-attachment-to) settings set in Properties panel; those settings only impact a player manually grabbing an entity and attaching it to themselves (in VR). In order for `attachToPlayer` and `detach` to work the [Avatar Attachable](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-attachable) property must be enabled in the Properties panel.
 
 **Attach and ownership**: When `entity.attachToPlayer(player, anchor)` is run, the `entity` is attached to `player` at the `anchor`. If the entity has a Local Script, the ownership is [automatically transferred](Meta%20Horizon%20Worlds%20creator%20manual.md#automatic-ownership-transfers) to `player`. When `detach()` is called (or a [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) manually removes an item) there is *no* ownership transfer; ownership of the `entity` stays with the player.
 
-bug `attachToPlayer` only automatically transfers ownership of the entity when it has a Local Script on it.
+bug \`attachToPlayer\` only automatically transfers ownership of the entity when it has a Local Script on it.
 
 This behavior is different from `forceHold`, which always automatically transfer ownership of the entity to the player capable of holding the entity.
 
@@ -5651,43 +5632,43 @@ bug Non-grabbable collidable attachables can continuously push the player when t
 
 When a `attachToPlayer` is called on a **Collidable** entity with **Motion=Animated** or **Interaction=Physics** or `simulated` set to `false`, the entity can continuously push the player (forever). To mitigate this, disable collision on the entity before calling `attachToPlayer`.
 
-#### Detaching
+#### [Detaching](#detaching)
 
 An attachable entity can be detached in 2 ways:
 
-- By calling `entity.detach()`
-- A [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) grabs the attachment off their, or someone else’s, body (if it is [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-grabbable-entity) and the player [can grab](Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab) it).
+1. By calling `entity.detach()`
+2. A [VR player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) grabs the attachment off their, or someone else’s, body (if it is [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-a-grabbable-entity) and the player [can grab](Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab) it).
 
 In both cases the `OnAttachEnd` event is sent (as shown in [the diagram](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-attachable)).
 
-#### Socket Attachment
+#### [Socket Attachment](#socket-attachment)
 
 By default, attachables anchor their [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) to the attach point with no local rotation (e.g. attaching a hat to a head will have the hat’s [up vector](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms) aligned with the head’s up vector, and likewise for right and forward vectors).
 
 You can modify the attachment position and rotation (expressed as a local offset) in the Properties panel by setting `Anchor Position` and `Anchor Rotation` on the attachable entity. In scripting, you can get and set the attachment offsets with `socketAttachmentPosition : HorizonProperty<Vec3>` and `socketAttachmentRotation : HorizonProperty<Quaternion>` on the `AttachableEntity` class.
 
-##### Example: Attach 1 meter in front of a player’s torso.
+##### [Example: Attach 1 meter in front of a player’s torso.](#example-attach-1-meter-in-front-of-a-players-torso)
 
 The code below will attach `attachable` to `player` on their torso. Moving the socket position forward a meter, via `new Vec3(0, 0, 1)`, moves `attachable` to always be 1 meter forward from `player`’s torso.
 
-```
-attachable.attachToPlayer(player, AttachablePlayerAnchor.Torso)
-attachable.socketAttachmentPosition.set(new Vec3(0, 0, 1))
+```typescript
+attachable.attachToPlayer(player, AttachablePlayerAnchor.Torso)
+attachable.socketAttachmentPosition.set(new Vec3(0, 0, 1))
 ```
 
-#### Sticky Attachments
+#### [Sticky Attachments](#sticky-attachments)
 
 Whereas attachable entities may have their `Motion` set to `Animated`, `Sticky` entities work best when set to `Grabbable`. Upon releasing the held entity, it will attach to where the collision occurs between the active collider and the [Attachable By](Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) permitted player.
 
-##### Stick Attachment To
+##### [Stick Attachment To](#stick-attachment-to)
 
 The following is a list of player body parts that the attachable entity may stick to.
 
-| Body Part Setting | Sets the stickiness to |
-| --- | --- |
-| *Any* | Both head and torso |
-| *Head* | Anywhere on the player’s head |
-| *Torso* | Anywhere on the player’s torso |
+| Body Part Setting | Sets the stickiness to         |
+| ----------------- | ------------------------------ |
+| *Any*             | Both head and torso            |
+| *Head*            | Anywhere on the player’s head  |
+| *Torso*           | Anywhere on the player’s torso |
 
 Using code to attach a sticky entity does not place the entity at the center of the body part.
 
@@ -5695,7 +5676,7 @@ Wherever the entity is located upon calling `attachToPlayer()` will be where the
 
 Set `Avatar Attachable` to [Anchor](Meta%20Horizon%20Worlds%20creator%20manual.md#attachment-anchors) to reposition the entity to the body part when doing a scripted attach.
 
-#### Attachment Anchors
+#### [Attachment Anchors](#attachment-anchors)
 
 When attached, an anchored entity will position its [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) at a specified anchor position.
 
@@ -5705,30 +5686,30 @@ By default an anchored entity’s [rotation](Meta%20Horizon%20Worlds%20creator%2
 
 Once attached, the entity will be affixed to the body part defined in `Anchor To` until [detached](Meta%20Horizon%20Worlds%20creator%20manual.md#detaching) from player.
 
-##### Anchor Attachment To
+##### [Anchor Attachment To](#anchor-attachment-to)
 
 The following is a list of player body parts that the attachable entity may anchor to.
 
-| Body Part Setting | Sets the attachment point to |
-| --- | --- |
-| *Head* | Front-center of the player’s forehead. |
-| *Torso* | Front-center-bottom of the player’s ribcage. |
-| *Left Hip* | Front-left-bottom of the player’s pelvis. Note that the attachment will be rotated to “look down”, simulating a “holstered” item. |
-| *Right Hip* | Front-right-bottom of the player’s pelvis. Note that the attachment will be rotated to “look down”, simulating a “holstered” item. |
+| Body Part Setting | Sets the attachment point to                                                                                                       |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| *Head*            | Front-center of the player’s forehead.                                                                                             |
+| *Torso*           | Front-center-bottom of the player’s ribcage.                                                                                       |
+| *Left Hip*        | Front-left-bottom of the player’s pelvis. Note that the attachment will be rotated to “look down”, simulating a “holstered” item.  |
+| *Right Hip*       | Front-right-bottom of the player’s pelvis. Note that the attachment will be rotated to “look down”, simulating a “holstered” item. |
 
-As of 1/15, `Left Hip` or `Right Hip` are not available as a `AttachablePlayerAnchor`
+As of 1/15, \`Left Hip\` or \`Right Hip\` are not available as a \`AttachablePlayerAnchor\`
 
 Use [socket attachments](Meta%20Horizon%20Worlds%20creator%20manual.md#socket-attachment) with `AttachablePlayerAnchor.Torso` to get around this.
 
-##### Auto Scale to Anchor
+##### [Auto Scale to Anchor](#auto-scale-to-anchor)
 
 When an entity has “Avatar Attachable” set to “Anchor” there is a setting available: “Auto Scale to Anchor”. When enabled, the attached item will have its [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale) changed when it is [attached](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-attachable) to fit the anchor it has been attached to. This setting makes it easier to support avatars of different shapes and styles. When the entity is *detached* it will be [scaled](Meta%20Horizon%20Worlds%20creator%20manual.md#scale) back to its intrinsic size, its scale automatically becoming (1,1,1).
 
-### Attach to 2D camera
+### [Attach to 2D camera](#attach-to-2d-camera)
 
 This toggle causes the attachable entity to become **screen-attached**. This means the entity’s transformation will match the camera transformation. The transformation can be offset by setting the 2D Screen Position, 2D Screen Rotation, and 2D Screen Scale.
 
-* *Note that the attached entity is still rendered in world space, so settings such as the camera’s field of view setting (Fov) will affect the appearance of the attached entity.*
+- *Note that the attached entity is still rendered in world space, so settings such as the camera’s field of view setting (Fov) will affect the appearance of the attached entity.*
 
 Attach to 2D camera can be toggled on for both `Sticky` and `Anchor` attachable types.
 
@@ -5744,11 +5725,11 @@ bug VR players will see other players' screen-attached incorrectly
 
 The attachable follows their camera’s position, but the orientation will be wrong.
 
-## Holstering Entities
+## [Holstering Entities](#holstering-entities)
 
 Holstering is the action of attaching an entity to the player with the purpose of storing it for later use. Common holstered item examples are things like a torch, a grenade, or even food. In VR, You would simply [attach](Meta%20Horizon%20Worlds%20creator%20manual.md#anchor-attachment-to) the entity to the player (with `AttachablePlayerAnchor.Torso`) and ensure that it is [grabbable](Meta%20Horizon%20Worlds%20creator%20manual.md#can-grab). Cross-world players may use the [built-in cross-screen holstering system](Meta%20Horizon%20Worlds%20creator%20manual.md#cross-screen-holstering).
 
-### Cross-screen Holstering
+### [Cross-screen Holstering](#cross-screen-holstering)
 
 This cross-screen holstering system is basically a simple inventory system that makes use of the holster UI icon. Since a cross-screen player can only hold one entity at a time, this system gives the player a simple way to swap between a held entity and one of their attached entities. A player with at least one attached entity can holster by pressing Z on desktop or tapping the holster icon on mobile.
 
@@ -5760,12 +5741,12 @@ You can attach an entity to a player any time, like by trigger-enter or world-en
 
 For a [screen player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type):
 
-* When [attachToPlayer()](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) is called `AttachablePlayerAnchor.Torso` on a [grabbable entity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) it becomes *holstered*. If multiple entities are attached at once, they are all holstered.
-* If a holstered entity has `detach` called on it then it becomes unholstered.
-* When a player presses the *Holster Icon* they *unholster* an item and grab on it. If they were previously holding an entity, they release it.
-* While a player has multiple holstered items they can use the Z key to switch which item they are holstering.
+- When [attachToPlayer()](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities) is called `AttachablePlayerAnchor.Torso` on a [grabbable entity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities) it becomes *holstered*. If multiple entities are attached at once, they are all holstered.
+- If a holstered entity has `detach` called on it then it becomes unholstered.
+- When a player presses the *Holster Icon* they *unholster* an item and grab on it. If they were previously holding an entity, they release it.
+- While a player has multiple holstered items they can use the Z key to switch which item they are holstering.
 
-More info here: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/holster-icon-menu
+More info here: https\://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/holster-icon-menu
 
 Entities do not holster automatically on release.
 
@@ -5779,65 +5760,65 @@ The icon that is displayed can be selected in the entity’s `Holster Icon` prop
 
 The player may choose to unholster 1 of their attached items. They can only see 6 holstered items at a time in the UI. The player can press Z or the arrow button to see the next set of 6 items. Maximum amount of holstered items is limited to the maximum amount of grabbable entities allowed in a world.
 
-#### Scripting Holstering
+#### [Scripting Holstering](#scripting-holstering)
 
 The `PlayerControls` class allows you to manage holstering via scripting. These methods must be called [locally](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on a [player’s device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server):
 
-```
-// PlayerControls
+```typescript
+// PlayerControls
 
-// Open the holstering UI if more than one item is holstered
-static triggerContextualMultiHolsterAction(): void;
+// Open the holstering UI if more than one item is holstered
+static triggerContextualMultiHolsterAction(): void;
 
-// Cycle holstered items forward
-static equipNextHolsteredItem(): void;
+// Cycle holstered items forward
+static equipNextHolsteredItem(): void;
 
-// Cycle holstered items backward
-static equipPreviousHolsteredItem(): void;
+// Cycle holstered items backward
+static equipPreviousHolsteredItem(): void;
 
-// Cycle holstered items to a specific index
-static equipHolsteredItem(index: number): void;
+// Cycle holstered items to a specific index
+static equipHolsteredItem(index: number): void;
 ```
 
 There is also a [LocalEvent that is broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) every time the holstered item changes:
 
-```
-static readonly onHolsteredItemsUpdated: LocalEvent<{
-  player: Player;
-  items: Entity[];
-  grabbedItem: Entity;
+```typescript
+static readonly onHolsteredItemsUpdated: LocalEvent<{
+  player: Player;
+  items: Entity[];
+  grabbedItem: Entity;
 }>;
 ```
 
 The **player** is the local player, the one doing the holstering, the **items** are all currently holstered items (by `player`), and **grabbed item** is the currently holstered item. Note that `grabbedItem` will also be in the `items` array, so if you want to show a player the “other” items, you would need to filter `grabbedItem` out.
 
-## Player Input
+## [Player Input](#player-input)
 
 There are two main ways to get input from players:
 
-- [Player Controls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls): Observe on-screen buttons being pressed and configure custom buttons to be on-screen.
-- [Focused Interaction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction): Change the player’s input mode from locomotion (move the avatar around the world) to instead be a mode where they can interact with the world by directly tapping/clicking on the screen and dragging their finger/mouse around.
+1. [Player Controls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls): Observe on-screen buttons being pressed and configure custom buttons to be on-screen.
+2. [Focused Interaction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction): Change the player’s input mode from locomotion (move the avatar around the world) to instead be a mode where they can interact with the world by directly tapping/clicking on the screen and dragging their finger/mouse around.
 
-### Player Controls
+### [Player Controls](#player-controls)
 
 The `PlayerControls` class offers a number of `static` methods and [broadcast LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) for providing controls to the player and observing the input. The class has members and events related to:
 
-* [Holstering](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-holstering): A Mobile/Web player carrying multiple items at once.
-* [Focused Interaction](Meta%20Horizon%20Worlds%20creator%20manual.md#observing-focused-interactions): A Mobile/Web player directly touching/clicking the screen to interact with the world.
-* [Custom input](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-input): Overlaying custom controls on the screen to create buttons (or even disable all the standard on-screen buttons).
-* [Triggering Input Actions](Meta%20Horizon%20Worlds%20creator%20manual.md#triggering-player-input-actions): Using scripting to directly perform the actions that a player can do with the on-screen controls.
+- [Holstering](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-holstering): A Mobile/Web player carrying multiple items at once.
+- [Focused Interaction](Meta%20Horizon%20Worlds%20creator%20manual.md#observing-focused-interactions): A Mobile/Web player directly touching/clicking the screen to interact with the world.
+- [Custom input](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-input): Overlaying custom controls on the screen to create buttons (or even disable all the standard on-screen buttons).
+- [Triggering Input Actions](Meta%20Horizon%20Worlds%20creator%20manual.md#triggering-player-input-actions): Using scripting to directly perform the actions that a player can do with the on-screen controls.
 
-#### Triggering Player Input Actions
+#### [Triggering Player Input Actions](#triggering-player-input-actions)
 
 There are a few methods on the [PlayerControls class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) that let you perform an input action for a player (e.g. simulate them pressing/clicking on on-screen button). Just like the other methods in [PlayerControls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls), these **must be called [locally](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on the [player’s device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)**.
 
-```
-class PlayerControls {
-  static triggerDropAction()
-  static triggerInputActionDown(inputAction: PlayerInputAction): void;
-  static triggerInputActionUp(inputAction: PlayerInputAction): void;
+```typescript
+class PlayerControls {
+  static triggerDropAction()
+  static triggerInputActionDown(inputAction: PlayerInputAction): void;
+  static triggerInputActionUp(inputAction: PlayerInputAction): void;
 
-  // ...
+  // ...
 }
 ```
 
@@ -5845,19 +5826,19 @@ class PlayerControls {
 
 **Action Button Down/Up**: There are two methods for simulating a player starting/stopping an action (as if pressing/release an action button on-screen): `triggerInputActionDown` and `triggerInputActionUp`. Both methods take an argument of type [PlayerInputAction](Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction) to specify the action.
 
-#### Custom Input
+#### [Custom Input](#custom-input)
 
 There are a number of methods on the [PlayerControls class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) that listen to player inputs (physical or onscreen button presses) and configure onscreen buttons (for [non-VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)). Just like the other methods in [PlayerControls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls), these **must be called [locally](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on the [player’s device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)**.
 
-```
-class PlayerControls {
-  static isInputActionSupported(action: PlayerInputAction): boolean;
-  static getPlatformKeyNames(action: PlayerInputAction): Array<string>;
+```typescript
+class PlayerControls {
+  static isInputActionSupported(action: PlayerInputAction): boolean;
+  static getPlatformKeyNames(action: PlayerInputAction): Array<string>;
 
-  static disableSystemControls(): void;
-  static enableSystemControls(): void;
+  static disableSystemControls(): void;
+  static enableSystemControls(): void;
 
-  // ...
+  // ...
 }
 ```
 
@@ -5869,101 +5850,101 @@ The `disableSystemControls` method removes the onscreen buttons / controls for a
 
 There is an additional method, [connectLocalInput](Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input), described below.
 
-##### Connect Local Input
+##### [Connect Local Input](#connect-local-input)
 
 The [PlayerControls class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) allows you to register to receive input events from a playing, for a given action. Just like the other methods in [PlayerControls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls), this **must be called [locally](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on the [player’s device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server)**.
 
-```
-// PlayerControls
-static connectLocalInput(
-  input: PlayerInputAction,
-  icon: ButtonIcon,
-  disposableObject: DisposableObject,
-  options?: PlayerControlsConnectOptions
-): PlayerInput;
+```typescript
+// PlayerControls
+static connectLocalInput(
+  input: PlayerInputAction,
+  icon: ButtonIcon,
+  disposableObject: DisposableObject,
+  options?: PlayerControlsConnectOptions
+): PlayerInput;
 ```
 
 The `connectLocalInput` method has you specify:
 
-* **input**: Which action to [PlayerInputAction](Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction) to.
-* **icon**: The [ButtonIcon](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-buttonicon) to render the onscreen button with (if a [mobile player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)).
-* **disposableObject**: The [DisposableObject](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects) that this is tied to (usually its the [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#components) that registered it). When the `disposableObject` is disposed, the input will be disconnected.
-* **options**: The optional `options` let you specify where you prefer the button to be placed on a [mobile user’s](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) screen. This is a *preference*, the system may not respect it (for example if the spot is already taken).
+- **input**: Which action to [PlayerInputAction](Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction) to.
+- **icon**: The [ButtonIcon](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-buttonicon) to render the onscreen button with (if a [mobile player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)).
+- **disposableObject**: The [DisposableObject](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects) that this is tied to (usually its the [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#components) that registered it). When the `disposableObject` is disposed, the input will be disconnected.
+- **options**: The optional `options` let you specify where you prefer the button to be placed on a [mobile user’s](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) screen. This is a *preference*, the system may not respect it (for example if the spot is already taken).
 
-```
-type PlayerControlsConnectOptions = {
-  preferredButtonPlacement?: ButtonPlacement;
+```typescript
+type PlayerControlsConnectOptions = {
+  preferredButtonPlacement?: ButtonPlacement;
 };
 
-enum ButtonPlacement = { Default, Center }
+enum ButtonPlacement = { Default, Center }
 ```
 
 The `connectLocalInput` method returns an instance of the `PlayerInput` class. The class can be used in two ways: to read current values, and to register a callback for then there is a change.
 
-| `PlayerInput` Class Member | Description |
-| --- | --- |
-| `disconnect()` | Disconnect the input. You will no longer be able to read values or get callbacks. This method is automatically called when the `disposableObject` passed to `connectLocalInput` is disposed. |
-| `connected: ReadableHorizonProperty<boolean>` | Returns `false` once `disconnect()` is called. |
-| `action: ReadableHorizonProperty<PlayerInputAction>` | Get the [PlayerInputAction](Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction) that this is connected to (the one passed into `connectLocalInput` when this was created). |
-| `held: ReadableHorizonProperty<boolean>` | For a button `true` means that the button is pressed. For a continuous input (such as a joystick) this returns `true` if the value is at least halfway (e.g. more than 0.5 for a VR thumbstick axis). |
-| `pressed: ReadableHorizonProperty<boolean>` | Returns `true` if this is a button input and it went from unpressed to pressed in the last frame. |
-| `released: ReadableHorizonProperty<boolean>` | Returns `true` if this is a button input and it went from pressed to unpressed in the last frame. |
-| `axisValue: ReadableHorizonProperty<number>` | The current value of the axis (`0` to `1`) or `0` if it is a button. |
+| `PlayerInput` Class Member                                                    | Description                                                                                                                                                                                                                                |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `disconnect()`                                                                | Disconnect the input. You will no longer be able to read values or get callbacks. This method is automatically called when the `disposableObject` passed to `connectLocalInput` is disposed.                                               |
+| `connected: ReadableHorizonProperty<boolean>`                                 | Returns `false` once `disconnect()` is called.                                                                                                                                                                                             |
+| `action: ReadableHorizonProperty<PlayerInputAction>`                          | Get the [PlayerInputAction](Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction) that this is connected to (the one passed into `connectLocalInput` when this was created).                                                    |
+| `held: ReadableHorizonProperty<boolean>`                                      | For a button `true` means that the button is pressed. For a continuous input (such as a joystick) this returns `true` if the value is at least halfway (e.g. more than 0.5 for a VR thumbstick axis).                                      |
+| `pressed: ReadableHorizonProperty<boolean>`                                   | Returns `true` if this is a button input and it went from unpressed to pressed in the last frame.                                                                                                                                          |
+| `released: ReadableHorizonProperty<boolean>`                                  | Returns `true` if this is a button input and it went from pressed to unpressed in the last frame.                                                                                                                                          |
+| `axisValue: ReadableHorizonProperty<number>`                                  | The current value of the axis (`0` to `1`) or `0` if it is a button.                                                                                                                                                                       |
 | `registerCallback(<br/> callback: PlayerInputStateChangeCallback<br/>): void` | Register a callback to be called when the input changes. Only one callback is allowed at a time, so if you call this while one is registered then the existing one will first be unregistered. This is intended to be used with *buttons*. |
-| `unregisterCallback` | Unregister the current callback, if there is one. |
+| `unregisterCallback`                                                          | Unregister the current callback, if there is one.                                                                                                                                                                                          |
 
 The `registerCallback` method takes a callback argument with type:
 
-```
-type PlayerInputStateChangeCallback = (
-  action: PlayerInputAction, pressed: boolean
-) => void
+```typescript
+type PlayerInputStateChangeCallback = (
+  action: PlayerInputAction, pressed: boolean
+) => void
 ```
 
 which is meant to be used with *button* type inputs.
 
-##### PlayerInputAction
+##### [PlayerInputAction](#playerinputaction)
 
 The `PlayerInputAction` represents an action that a player can take (a button a player can press).
 
-| `PlayerInputAction` value | Mobile Player | Desktop / Web | Quest VR |
-| --- | --- | --- | --- |
-| Jump | on-screen button | spacebar | A button |
-| RightPrimary | on-screen button | R | right thumbstick click |
-| RightSecondary | on-screen button | F | B button |
-| RightTertiary | on-screen button | Y | *unavailable* |
-| RightGrip | on-screen button | E | right analog grip trigger |
-| RightTrigger | on-screen button | left mouse click | right analog trigger |
-| RightXAxis | *unavailable* | *unavailable* | right thumbstick x axis |
-| RightYAxis | *unavailable* | *unavailable* | right thumbstick y axis |
-| LeftPrimary | on-screen button | T | X button |
-| LeftSecondary | on-screen button | G | Y button |
-| LeftTertiary | on-screen button | H | left thumbstick click |
-| LeftGrip | on-screen button | Q | left analog grip trigger |
-| LeftTrigger | on-screen button | right mouse click | left analog trigger |
-| LeftXAxis | *unavailable* | *unavailable* | left thumbstick x axis |
-| LeftYAxis | *unavailable* | *unavailable* | left thumbstick y axis |
+| `PlayerInputAction` value | Mobile Player    | Desktop / Web     | Quest VR                  |
+| ------------------------- | ---------------- | ----------------- | ------------------------- |
+| Jump                      | on-screen button | spacebar          | A button                  |
+| RightPrimary              | on-screen button | R                 | right thumbstick click    |
+| RightSecondary            | on-screen button | F                 | B button                  |
+| RightTertiary             | on-screen button | Y                 | *unavailable*             |
+| RightGrip                 | on-screen button | E                 | right analog grip trigger |
+| RightTrigger              | on-screen button | left mouse click  | right analog trigger      |
+| RightXAxis                | *unavailable*    | *unavailable*     | right thumbstick x axis   |
+| RightYAxis                | *unavailable*    | *unavailable*     | right thumbstick y axis   |
+| LeftPrimary               | on-screen button | T                 | X button                  |
+| LeftSecondary             | on-screen button | G                 | Y button                  |
+| LeftTertiary              | on-screen button | H                 | left thumbstick click     |
+| LeftGrip                  | on-screen button | Q                 | left analog grip trigger  |
+| LeftTrigger               | on-screen button | right mouse click | left analog trigger       |
+| LeftXAxis                 | *unavailable*    | *unavailable*     | left thumbstick x axis    |
+| LeftYAxis                 | *unavailable*    | *unavailable*     | left thumbstick y axis    |
 
-### Player Input ButtonIcon
+### [Player Input ButtonIcon](#player-input-buttonicon)
 
 The `ButtonIcon` enum is used for [custom player input](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class). The list is long, and continually growing. The current values are:
 
 `Ability`, `Aim`, `Airstrike`, `Contract`, `Crouch`, `Door`, `Drink`, `Drop`, `DualWield`, `EagleEye`, `Eat`, `Expand`, `Fire`, `FireSpecial`, `Grab`, `Heal`, `InfiniteAmmo`, `Inspect`, `Interact`, `Invisible`, `Jump`, `LeftChevron`, `Map`, `Menu`, `MouseLeft`, `MouseMiddle`, `MouseRight`, `MouseScroll`, `Net`, `None`, `Place`, `Punch`, `Purchase`, `Reload`, `RightChevron`, `Rocket`, `RocketJump`, `RocketVolley`, `Shield`, `Speak`, `Special`, `SpeedBoost`, `Sprint`, `Swap`, `SwingWeapon`, `Throw`, `Use`
 
-#### Player Input CodeBlockEvents
+#### [Player Input CodeBlockEvents](#player-input-codeblockevents)
 
 The following [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events) can be listened to on a [grabbable entity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities). The code block events are **sent to the entity only if the player presses the buttons while holding the entity**. These are intended to be used with [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type). If you need to know which hand these events are coming from, listen to the [OnGrabEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) and store the `isRightHand` value.
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) |
-| --- | --- |
-| OnButton1Down | `player: Player` |
-| OnButton1Up | `player: Player` |
-| OnButton2Down | `player: Player` |
-| OnButton2Up | `player: Player` |
-| OnIndexTriggerDown | `player: Player` |
-| OnIndexTriggerUp | `player: Player` |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)     |
+| --------------------------------------------------------------------------------------------------- | ---------------- |
+| OnButton1Down                                                                                       | `player: Player` |
+| OnButton1Up                                                                                         | `player: Player` |
+| OnButton2Down                                                                                       | `player: Player` |
+| OnButton2Up                                                                                         | `player: Player` |
+| OnIndexTriggerDown                                                                                  | `player: Player` |
+| OnIndexTriggerUp                                                                                    | `player: Player` |
 
-### Focused Interaction
+### [Focused Interaction](#focused-interaction)
 
 **Locomotion Mode**: The primary way in which [Mobile/Web players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) use Horizon is by controller the avatar (via mouse and keyboard or on-screen controls) to interact with the world.
 
@@ -5973,117 +5954,117 @@ The following [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#co
 
 There are a few relevant members on the [Player class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class):
 
-| [Player Class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) member | Description |
-| --- | --- |
-| `enterFocusedInteractionMode(): void` | Change a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) from locomotion mode to focus mode (where they can tap on the screen instead of moving the avatar). Must be called on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
-| `exitFocusedInteractionMode(): void` | Return a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) to normal locomotion mode. Must be called on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
-| `focusedInteraction: FocusedInteraction` | The `FocusedInteraction` object for the player. |
+| [Player Class](Meta%20Horizon%20Worlds%20creator%20manual.md#player-class) member | Description                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `enterFocusedInteractionMode(): void`                                             | Change a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) from locomotion mode to focus mode (where they can tap on the screen instead of moving the avatar). Must be called on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). |
+| `exitFocusedInteractionMode(): void`                                              | Return a [Mobile/Web player](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) to normal locomotion mode. Must be called on a [player device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server).                                                                          |
+| `focusedInteraction: FocusedInteraction`                                          | The `FocusedInteraction` object for the player.                                                                                                                                                                                                                                                                       |
 
-#### Entering and Exiting Focused Interaction
+#### [Entering and Exiting Focused Interaction](#entering-and-exiting-focused-interaction)
 
 The methods `enterFocusedInteractionMode()` and `exitFocusedInteractionMode()` must be called [locally](Meta%20Horizon%20Worlds%20creator%20manual.md#local-and-default-scripts) on a [player’s device](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server). Calling these methods will [broadcast local events CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events):
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) |
-| --- | --- |
-| 🏠OnPlayerEnteredFocusedInteraction | `player: Player` |
-| 🏠OnPlayerExitedFocusedInteraction | `player: Player` |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)     |
+| --------------------------------------------------------------------------------------------------- | ---------------- |
+| 🏠OnPlayerEnteredFocusedInteraction                                                                 | `player: Player` |
+| 🏠OnPlayerExitedFocusedInteraction                                                                  | `player: Player` |
 
-#### Observing Focused Interactions
+#### [Observing Focused Interactions](#observing-focused-interactions)
 
 When a player is [in focused interaction mode](Meta%20Horizon%20Worlds%20creator%20manual.md#entering-and-exiting-focused-interaction) there are a number of [local events that are broadcasted](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-local-events) that you can listen to for information on input events (the player touching or clicking the screen, moving their finger or the mouse, and lifting their finger or releasing the mouse). All three events are `static` members of the [PlayerControls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls) class and have the same payload:
 
-```
-class PlayerControls {
-  static readonly onFocusedInteractionInputStarted: LocalEvent<{
-    interactionInfo: InteractionInfo[];
-  }>;
-  static readonly onFocusedInteractionInputMoved: LocalEvent<{
-    interactionInfo: InteractionInfo[];
-  }>;
-  static readonly onFocusedInteractionInputEnded: LocalEvent<{
-    interactionInfo: InteractionInfo[];
-  }>;
+```typescript
+class PlayerControls {
+  static readonly onFocusedInteractionInputStarted: LocalEvent<{
+    interactionInfo: InteractionInfo[];
+  }>;
+  static readonly onFocusedInteractionInputMoved: LocalEvent<{
+    interactionInfo: InteractionInfo[];
+  }>;
+  static readonly onFocusedInteractionInputEnded: LocalEvent<{
+    interactionInfo: InteractionInfo[];
+  }>;
 
-  // ...
+  // ...
 }
 ```
 
 When the [LocalEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events) above are [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#broadcast-events), they are each broadcast with an array of `InteractionInfo`, a type that gives information about the finger / mouse on the screen:
 
-```
-type InteractionInfo = {
-  interactionIndex: number;
-  screenPosition: Vec3;
-  worldRayOrigin: Vec3;
-  worldRayDirection: Vec3;
+```typescript
+type InteractionInfo = {
+  interactionIndex: number;
+  screenPosition: Vec3;
+  worldRayOrigin: Vec3;
+  worldRayDirection: Vec3;
 };
 ```
 
-| `InteractionInfo` Field | Type | Notes |
-| --- | --- | --- |
-| interactionIndex | `number` | The “multitouch” index. On Web/PC this number will always be `0`. On mobile it tells you which finger is used when there are multiple used simultaneously. |
-| screenPosition | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The location on the screen that the tap occurred. Only the `x` and `y` components are used. `(0, 0)` is the lower-left of the screen, `(1, 1)` is the top-right, and (0.5, 0.5)` is the exact center. |
-| worldRayOrigin | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global world position of the point on screen where the player tapped / clicked. |
-| worldRayDirection | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global world direction, from the point on screen where the player tapped / clicked, continuing into the world. |
+| `InteractionInfo` Field | Type                                                       | Notes                                                                                                                                                                                                  |
+| ----------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| interactionIndex        | `number`                                                   | The “multitouch” index. On Web/PC this number will always be `0`. On mobile it tells you which finger is used when there are multiple used simultaneously.                                             |
+| screenPosition          | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The location on the screen that the tap occurred. Only the `x` and `y` components are used. `(0, 0)` is the lower-left of the screen, `(1, 1)` is the top-right, and (0.5, 0.5)\` is the exact center. |
+| worldRayOrigin          | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global world position of the point on screen where the player tapped / clicked.                                                                                                                    |
+| worldRayDirection       | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | The global world direction, from the point on screen where the player tapped / clicked, continuing into the world.                                                                                     |
 
 Focused Interaction and Raycasts
 
 The `worldRayOrigin` and `worldRayDirection` values in `InteractionIfo` are exactly the data needed to perform a [raycast](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo) from the player’s finger / mouse out into the world!
 
-#### Configuring Focused Interaction Visuals
+#### [Configuring Focused Interaction Visuals](#configuring-focused-interaction-visuals)
 
 The `FocusedInteraction` class has two methods you can use to configure visuals:
 
-```
-// FocusedInteraction
+```typescript
+// FocusedInteraction
 setTapOptions(
-  isEnabled: boolean,
-  tapOptions?: Partial<FocusedInteractionTapOptions>
-): void;
+  isEnabled: boolean,
+  tapOptions?: Partial<FocusedInteractionTapOptions>
+): void;
 setTrailOptions(
-  isEnabled: boolean,
-  trailOptions?: Partial<FocusedInteractionTrailOptions>
-): void;
+  isEnabled: boolean,
+  trailOptions?: Partial<FocusedInteractionTrailOptions>
+): void;
 ```
 
 where `isEnabled` turns the interaction type on or off and the options options are used to configure the visual details:
 
-```
-type FocusedInteractionTapOptions = {
-  duration: number;      // default 0.5
-  startScale: number;    // default 0.4
-  endScale: number;      // default 1.0
-  startRotation: number; // default 0.0
-  endRotation: number;   // default 0.0
-  startColor: Color;     // default Color.white
-  endColor: Color;       // default Color.white
-  startOpacity: number;  // default 0.4
-  endOpacity: number;    // default 0.0
+```typescript
+type FocusedInteractionTapOptions = {
+  duration: number;      // default 0.5
+  startScale: number;    // default 0.4
+  endScale: number;      // default 1.0
+  startRotation: number; // default 0.0
+  endRotation: number;   // default 0.0
+  startColor: Color;     // default Color.white
+  endColor: Color;       // default Color.white
+  startOpacity: number;  // default 0.4
+  endOpacity: number;    // default 0.0
 }
 
-type FocusedInteractionTrailOptions = {
-  length: number;       // default 0.25
-  startWidth: number;   // default 1.0
-  endWidth: number;     // default 0.1
-  startColor: Color;    // default Color.white
-  endColor: Color;      // default Color.white
-  startOpacity: number; // default 0.4
-  endOpacity: number;   // default 0.0
+type FocusedInteractionTrailOptions = {
+  length: number;       // default 0.25
+  startWidth: number;   // default 1.0
+  endWidth: number;     // default 0.1
+  startColor: Color;    // default Color.white
+  endColor: Color;      // default Color.white
+  startOpacity: number; // default 0.4
+  endOpacity: number;   // default 0.0
 }
 ```
 
 The default values for the tap options and trail options are exposed in two `const` values: `DefaultFocusedInteractionTapOptions` and `DefaultFocusedInteractionTrailOptions`, respectively.
 
-## Persistence
+## [Persistence](#persistence)
 
 Persistence allows **data to be stored beyond a single session**, ensuring that player progress, achievements, and purchases remain available when they return.
 
 Persistent data is categorized into the following types:
 
-- [Leaderboards](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards): Track and display scores globally.
-- [Quests](Meta%20Horizon%20Worlds%20creator%20manual.md#quests): Track player progression with world-based achievements.
-- [In-World Purchases (IWP)](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-purchases-iwps): Store ownership of purchased items.
-- [Player Persistent Variables (PPVs)](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs): Store per-player custom data.
+1. [Leaderboards](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards): Track and display scores globally.
+2. [Quests](Meta%20Horizon%20Worlds%20creator%20manual.md#quests): Track player progression with world-based achievements.
+3. [In-World Purchases (IWP)](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-purchases-iwps): Store ownership of purchased items.
+4. [Player Persistent Variables (PPVs)](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs): Store per-player custom data.
 
 See the section on [cloning a world](Meta%20Horizon%20Worlds%20creator%20manual.md#cloning-a-world) for what happens to persistent data when you clone.
 
@@ -6099,13 +6080,13 @@ There is no persistent world data.
 
 Persistence is currently tied to individual players. A world cannot store “global” variables that persist *across sessions* (other than [leaderboards](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards) which don’t have a way to *read* the data back).
 
-### Leaderboards
+### [Leaderboards](#leaderboards)
 
 Leaderboards store and display player scores, allowing players to compare progress even when they are not in the same session. Leaderboards have two parts: a **leaderboard** and **leaderboard gizmos**. [Leaderboards contain the *properties*](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-leaderboards) (such as name, sort order, and auto-reset behavior). [Leaderboard Gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#using-the-world-leaderboard-gizmo) are an entity in the world that allow a player to see and interact with the data.
 
-* **Global Persistence**: Unlike other persistent data, leaderboards retain and display scores across all instances, even when the player is not present.
-* **Write-Only (by default)**: Scores can be updated (written) but not retrieved (read) via scripts. However, to work around this, you can create a [player persistent variable](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs) and then [always set them together](Meta%20Horizon%20Worlds%20creator%20manual.md#using-a-leaderboard-with-a-player-persistent-variable).
-* **Privacy and Player Control**: Players can opt out of leaderboard tracking and delete stored scores from the *in-app menu → General tab → Leaderboard Participation / Data*.
+- **Global Persistence**: Unlike other persistent data, leaderboards retain and display scores across all instances, even when the player is not present.
+- **Write-Only (by default)**: Scores can be updated (written) but not retrieved (read) via scripts. However, to work around this, you can create a [player persistent variable](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs) and then [always set them together](Meta%20Horizon%20Worlds%20creator%20manual.md#using-a-leaderboard-with-a-player-persistent-variable).
+- **Privacy and Player Control**: Players can opt out of leaderboard tracking and delete stored scores from the *in-app menu → General tab → Leaderboard Participation / Data*.
 
 One Cool Trick: Leaderboards Metrics Tracking
 
@@ -6115,28 +6096,28 @@ Leaderboards can be used to gain insight into a world’s. Common examples are t
 
 There is a limit of 10 leaderboards per world. In terms of the data that can be displayed:
 
-| Data Type | Intake Data Type | Display Limitations |
-| --- | --- | --- |
-| *Raw Value* | Integers | Integer values from -231 to 231-1 (roughly -2 billion to 2 billion) |
-| *Time in Secs* | Integers | - |
+| Data Type      | Intake Data Type | Display Limitations                                                 |
+| -------------- | ---------------- | ------------------------------------------------------------------- |
+| *Raw Value*    | Integers         | Integer values from -231 to 231-1 (roughly -2 billion to 2 billion) |
+| *Time in Secs* | Integers         | -                                                                   |
 
-Warning
+> [!Warning]
+>
+> Leaderboard values are clamped to integers in the range -231 to 231-1.
 
-Leaderboard values are clamped to integers in the range -231 to 231-1.
-
-#### Creating, Editing, and Deleting Leaderboards
+#### [Creating, Editing, and Deleting Leaderboards](#creating-editing-and-deleting-leaderboards)
 
 To **create a Leaderboard** using the Desktop Editor:
 
-- Access the Systems dropdown and select *Leaderboards*.
-- Click on *Create Leaderboard* indicated with the [+] symbol.
-- Add a Name, preferably without spaces. This is the leaderboard ID that will be used in the scripts.
-- Select the display order:
+1. Access the Systems dropdown and select *Leaderboards*.
+2. Click on *Create Leaderboard* indicated with the \[+] symbol.
+3. Add a Name, preferably without spaces. This is the leaderboard ID that will be used in the scripts.
+4. Select the display order:
 
-| Display Order | Meaning |
-| --- | --- |
-| *Ascending* | Scores *increase* as you go down the leaderboard.   The *lowest value is at the top*. |
-| *Descending* | Scores *decrease* as you go down the leaderboard.   The *highest value is at the top*. |
+| Display Order | Meaning                                                                              |
+| ------------- | ------------------------------------------------------------------------------------ |
+| *Ascending*   | Scores *increase* as you go down the leaderboard. The *lowest value is at the top*.  |
+| *Descending*  | Scores *decrease* as you go down the leaderboard. The *highest value is at the top*. |
 
 To **edit a leaderboard**, go to the systems menu, select Leaderboards in the dropdown, and then hover over the leaderboard and click the *pencil icon*.
 
@@ -6152,36 +6133,36 @@ Once a leaderboard is deleted, the data is gone. Even if a new one is create a n
 
 If you [pair the leaderboard with a player persistent variable](Meta%20Horizon%20Worlds%20creator%20manual.md#using-a-leaderboard-with-a-player-persistent-variable) then you could recover the data (partially) by setting the leaderboard data (from the PPV) whenever players enter the world again.
 
-#### Using the World Leaderboard Gizmo
+#### [Using the World Leaderboard Gizmo](#using-the-world-leaderboard-gizmo)
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Leaderboard | dropdown | Contains a list of all the available leaderboards in your world. |
-| Displayed Title | `string` | Sets the title of the Leaderboard Gizmo window. |
-| Number of Entries Per Page | `number` | Sets how many scores you can see per page. Value is between 1 and 10. |
-| UI Anchor Style | `Static` or `Billboard` | `Billboard` causes the Leaderboard Gizmo to have per-player rotation so that each player sees the leaderboard always rotate to face toward them (a [“Freeform” billboard](Meta%20Horizon%20Worlds%20creator%20manual.md#billboarding)). `Static` uses the normal rotation behavior of entities (meaning that it’s fixed in place unless it or one of its [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) transforms). |
-| Panel UI Mode | `Light Mode` or `Dark Mode` | Determines the color theme. Light vs dark refers to the background color of the gizmo. |
-| Entry Display Mode | `Raw Value` or ` Time in Secs `|` Raw Value `will display the value as an integer.` Time in Secs `will display the number in` hours:minutes:seconds `formats. E.g. a score of 90 (seconds) would render as` 1:30`. |  |
+| Property                   | Type                                                                                                                                                                                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Leaderboard                | dropdown                                                                                                                                                                                                                      | Contains a list of all the available leaderboards in your world.                                                                                                                                                                                                                                                                                                                                                                           |
+| Displayed Title            | `string`                                                                                                                                                                                                                      | Sets the title of the Leaderboard Gizmo window.                                                                                                                                                                                                                                                                                                                                                                                            |
+| Number of Entries Per Page | `number`                                                                                                                                                                                                                      | Sets how many scores you can see per page. Value is between 1 and 10.                                                                                                                                                                                                                                                                                                                                                                      |
+| UI Anchor Style            | `Static` or `Billboard`                                                                                                                                                                                                       | `Billboard` causes the Leaderboard Gizmo to have per-player rotation so that each player sees the leaderboard always rotate to face toward them (a [“Freeform” billboard](Meta%20Horizon%20Worlds%20creator%20manual.md#billboarding)). `Static` uses the normal rotation behavior of entities (meaning that it’s fixed in place unless it or one of its [ancestors](Meta%20Horizon%20Worlds%20creator%20manual.md#ancestors) transforms). |
+| Panel UI Mode              | `Light Mode` or `Dark Mode`                                                                                                                                                                                                   | Determines the color theme. Light vs dark refers to the background color of the gizmo.                                                                                                                                                                                                                                                                                                                                                     |
+| Entry Display Mode         | `Raw Value` or \` Time in Secs`  \|  `Raw Value`  will display the value as an integer.  `Time in Secs`  will display the number in  `hours:minutes:seconds`  formats. E.g. a score of 90 (seconds) would render as  `1:30\`. |                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 During play and preview mode, players will be able to see the following data categories displayed on the leaderboard:
 
-* Global: Top world leaderboard, from creation or since the last reset.
-* My Rank: Same as global, but scrolled to the ranked position of the player.
-* Session: Player’s score against the other current visitors in the world.
-* Mutuals: How the player compares against their friends.
+- Global: Top world leaderboard, from creation or since the last reset.
+- My Rank: Same as global, but scrolled to the ranked position of the player.
+- Session: Player’s score against the other current visitors in the world.
+- Mutuals: How the player compares against their friends.
 
 The leaderboard shows players names and their scores, sorted by values in descending or ascending order according to the [leaderboard properties](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-leaderboards).
 
 **Typescript**: Leaderboard Gizmos are referenced as the `Entity` class (with no special methods). However, there is one related method on the [World class](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class):
 
-```
-// World
+```typescript
+// World
 setScoreForPlayer(
-  leaderboardName: string,
-  player: Player,
-  score: number,
-  override: boolean
-): void;
+  leaderboardName: string,
+  player: Player,
+  score: number,
+  override: boolean
+): void;
 ```
 
 The **leaderboardName** parameter is the *name* field that you set in [leaderboard creation](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-leaderboards).
@@ -6191,51 +6172,51 @@ The **override** parameter specifies whether to *ignore [sort order](Meta%20Hori
 Example scenarios:
 
 | Display Order | Current Value | Incoming Value | Override Parameter | Final Value |
-| --- | --- | --- | --- | --- |
-| Descending | 5 | 4 | False | 5 |
-| Descending | 5 | 4 | True | 4 |
-| Ascending | 5 | 6 | False | 5 |
-| Ascending | 5 | 6 | True | 6 |
+| ------------- | ------------- | -------------- | ------------------ | ----------- |
+| Descending    | 5             | 4              | False              | 5           |
+| Descending    | 5             | 4              | True               | 4           |
+| Ascending     | 5             | 6              | False              | 5           |
+| Ascending     | 5             | 6              | True               | 6           |
 
 Leaderboard gizmos update their data every few seconds.
 
 When you call `setScoreForPlayer`, the score is immediately store. But to improve perf, leaderboard gizmos only update the data that they display every few seconds.
 
-#### Using a Leaderboard with a Player Persistent Variable
+#### [Using a Leaderboard with a Player Persistent Variable](#using-a-leaderboard-with-a-player-persistent-variable)
 
 There is no API to *read* leaderboard data. However a common trick is to create a [player persistent variable](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs) and then whenever you set the leaderboard value, also set the persistent variable with the example same value. If you are not careful about the *override* parameter then the two will get out of sync. If you use this technique, it is **recommended to always set *override* to true** and handle the logic yourself (by reading the persistent variable, comparing, and then deciding if you need to update).
 
 Note that if you ever [delete a leaderboard](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-leaderboards) there is no way to get its data back. But, if you use the technique described above, you can at least set the leaderboard data again when [players enter](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) the [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances).
 
-### Quests
+### [Quests](#quests)
 
 Quests (formerly known as Achievements) track player achievements and goals, providing motivation for players to engage with world content. Each quest represents a trackable objective that can be displayed to players through [Quest gizmos](Meta%20Horizon%20Worlds%20creator%20manual.md#using-the-quests-gizmo). Unlike [leaderboards](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards), quest data is private; players can only see their own quest progress and completions.
 
 **Quest Properties**
 
-* **Individual Progress**: Each player’s quest progress is tracked separately
-* **Two Types**: Simple (binary complete/incomplete) or Tracked (tied to a PPV value)
-* **Local Scripts Updates**: Unlike other persistence types, quests can be updated from any [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), including scripts running on [player-owned entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership).
-* **Privacy**: Quest progress is only visible to the individual player
+- **Individual Progress**: Each player’s quest progress is tracked separately
+- **Two Types**: Simple (binary complete/incomplete) or Tracked (tied to a PPV value)
+- **Local Scripts Updates**: Unlike other persistence types, quests can be updated from any [client](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server), including scripts running on [player-owned entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-ownership).
+- **Privacy**: Quest progress is only visible to the individual player
 
-#### Creating, Editing, and Deleting Quests
+#### [Creating, Editing, and Deleting Quests](#creating-editing-and-deleting-quests)
 
 Quests are created through the Desktop Editor by navigating to the Quests section, under the Systems menu. Clicking on `Create Quest` will open the configuration panel with the following mandatory fields:
 
-| Field | Description | Notes |
-| --- | --- | --- |
-| Script ID | Unique identifier used in scripts | Cannot be changed after creation |
-| Name | Display name shown to players | 40 character limit |
-| Description | Quest details shown to players | 100 character limit |
-| Quest Type | [Simple or Tracked](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) | Affects completion tracking |
-| Persistent Variable | For [Tracked quests](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) only | PPV to track (link to one already existing) |
-| Completion Threshold | For [Tracked quests](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) only | Value PPV must reach |
+| Field                | Description                                                                                       | Notes                                       |
+| -------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Script ID            | Unique identifier used in scripts                                                                 | Cannot be changed after creation            |
+| Name                 | Display name shown to players                                                                     | 40 character limit                          |
+| Description          | Quest details shown to players                                                                    | 100 character limit                         |
+| Quest Type           | [Simple or Tracked](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests)       | Affects completion tracking                 |
+| Persistent Variable  | For [Tracked quests](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) only | PPV to track (link to one already existing) |
+| Completion Threshold | For [Tracked quests](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) only | Value PPV must reach                        |
 
 To **edit a quest**, access it through *Systems → Quests* and click the pencil icon. Note that the Script ID cannot be changed after creation.
 
 To **delete a quest**, access it through *Systems → Quests* and click the trash can icon.
 
-#### Simple vs Tracked Quests
+#### [Simple vs Tracked Quests](#simple-vs-tracked-quests)
 
 A **simple** quest is one that is simple accomplished at some point in time (set via `player.setAchievementComplete(...)`).
 
@@ -6245,126 +6226,126 @@ Note that with tracked quests you can still use `player.setAchievementComplete(.
 
 To **revoke a Tracked quest** you must *both* lower the tracked [persistent variable](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs)*and* call `player.setAchievementComplete(scriptId, false)`. Simply lowering the variable will *not* revoke the achievement.
 
-#### Using the Quests Gizmo
+#### [Using the Quests Gizmo](#using-the-quests-gizmo)
 
 The Quest gizmo displays quest information to players. Each player sees only their own quest progress.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| Displayed Title | `string` | Header text shown on the gizmo |
-| Number of Entries Per Page | `number` | Quests shown per page (1-6) |
-| Panel UI Mode | `Light Mode` or `Dark Mode` | Color theme (light vs dark refers to background color) |
-| LoD Radius | `number` | Maximum visibility distance |
+| Property                   | Type                        | Description                                            |
+| -------------------------- | --------------------------- | ------------------------------------------------------ |
+| Displayed Title            | `string`                    | Header text shown on the gizmo                         |
+| Number of Entries Per Page | `number`                    | Quests shown per page (1-6)                            |
+| Panel UI Mode              | `Light Mode` or `Dark Mode` | Color theme (light vs dark refers to background color) |
+| LoD Radius                 | `number`                    | Maximum visibility distance                            |
 
 **Typescript**: Quest Gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `AchievementsGizmo` class with the method
 
-```
-// AchievementsGizmo
-displayAchievements(scriptIDs: string[]): void
+```typescript
+// AchievementsGizmo
+displayAchievements(scriptIDs: string[]): void
 ```
 
 allowing you to specify a subset of quests that will appear on the gizmo. For example, you could have two Quest gizmos in the world and have one show the “easy quests” and the other show the “hard ones”.
 
 The [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players) class has two methods for setting and for querying if an achievement is complete:
 
-```
-// Player
-setAchievementComplete(scriptID: string, complete: boolean): void;
-hasCompletedAchievement(scriptID: string): boolean;
+```typescript
+// Player
+setAchievementComplete(scriptID: string, complete: boolean): void;
+hasCompletedAchievement(scriptID: string): boolean;
 ```
 
 There is also a [broadcast CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) for knowing when an achievement has been completed. There are no events for knowing if one was revoked.
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| 🔈onAchievementComplete | `player: Player` `scriptID: string` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when an achievement is completed by a player. |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)                        | Description                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔈onAchievementComplete                                                                             | `player: Player` `scriptID: string` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when an achievement is completed by a player. |
 
-#### Resetting Quests
+#### [Resetting Quests](#resetting-quests)
 
 There are two ways of resetting a quest completion or progression:
 
-- Calling `player.setAchievementComplete(scriptId, false)` (`false` revokes it for the player).
-- Through the *systems menu > Quests*. Click `Debug Quests` (represented with a gear icon). From here, click on *Reset all quests* or toggle off the individual quests to reset.
+1. Calling `player.setAchievementComplete(scriptId, false)` (`false` revokes it for the player).
+2. Through the *systems menu > Quests*. Click `Debug Quests` (represented with a gear icon). From here, click on *Reset all quests* or toggle off the individual quests to reset.
 
 When resetting [tracked quests](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-vs-tracked-quests) the [persistent variable](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs) has to be reset first, otherwise the quest will change back to completed.
 
-### In-World Purchases (IWPs)
+### [In-World Purchases (IWPs)](#in-world-purchases-iwps)
 
 In-World Purchases (IWPs) allow players to use Meta Credits to acquire virtual items, enhancements, entitlements, unlocks, special access, give kudos/tips, and more within worlds.
 
 **IWPs Offer**
 
-* **Transaction Types**: Durable (one-time) or Consumable (repeatable) purchases
-* **Asset Integration**: Purchases can be linked to [spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) assets
-* **Auto-Use Option**: Consumables can trigger automatically on purchase
-* **Pricing Range**: 25 to 20,000 Meta Credits per item
-* **Presentation**: Customizable purchase UI with name, description, and thumbnail
+- **Transaction Types**: Durable (one-time) or Consumable (repeatable) purchases
+- **Asset Integration**: Purchases can be linked to [spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#spawning) assets
+- **Auto-Use Option**: Consumables can trigger automatically on purchase
+- **Pricing Range**: 25 to 20,000 Meta Credits per item
+- **Presentation**: Customizable purchase UI with name, description, and thumbnail
 
-#### Creating, Editing, and Deleting IWPs
+#### [Creating, Editing, and Deleting IWPs](#creating-editing-and-deleting-iwps)
 
 To **create an IWP** using the Desktop Editor:
 
-- Access the Systems dropdown and select Commerce
-- Click “Create In-world Item”
-- Configure required fields, shown in the table below
+1. Access the Systems dropdown and select Commerce
+2. Click “Create In-world Item”
+3. Configure required fields, shown in the table below
 
-| Field | Description | Notes |
-| --- | --- | --- |
-| Name | Display name (shown in UI and used to auto-generate script ID) | 25 character limit |
-| Description | Item details shown in UI | 250 character limit |
-| Thumbnail | Display icon (using in purchase flow and in UI showcasing the available purchases in the world) | Select from provided options (currently thumbnails must be created in the editor and cannot be uploaded) |
-| Item Price | Cost in Meta Credits | 25-20,000 range |
-| Item Type | [Durable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) or [Consumable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | Durable means “purchased once forever” and Consumable means “can be purchased and consumed, and then purchased again, indefinitely” |
-| Asset Reference | Link the [asset to be spawned](Meta%20Horizon%20Worlds%20creator%20manual.md#durable-in-world-item-asset) | For Durable items only |
-| Auto Use | Triggers use on purchase | For Consumable items only |
+| Field           | Description                                                                                                                                                              | Notes                                                                                                                               |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Name            | Display name (shown in UI and used to auto-generate script ID)                                                                                                           | 25 character limit                                                                                                                  |
+| Description     | Item details shown in UI                                                                                                                                                 | 250 character limit                                                                                                                 |
+| Thumbnail       | Display icon (using in purchase flow and in UI showcasing the available purchases in the world)                                                                          | Select from provided options (currently thumbnails must be created in the editor and cannot be uploaded)                            |
+| Item Price      | Cost in Meta Credits                                                                                                                                                     | 25-20,000 range                                                                                                                     |
+| Item Type       | [Durable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) or [Consumable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | Durable means “purchased once forever” and Consumable means “can be purchased and consumed, and then purchased again, indefinitely” |
+| Asset Reference | Link the [asset to be spawned](Meta%20Horizon%20Worlds%20creator%20manual.md#durable-in-world-item-asset)                                                                | For Durable items only                                                                                                              |
+| Auto Use        | Triggers use on purchase                                                                                                                                                 | For Consumable items only                                                                                                           |
 
-#### Using the In-World Purchase Gizmo
+#### [Using the In-World Purchase Gizmo](#using-the-in-world-purchase-gizmo)
 
 The IWP gizmo can be found in the Desktop Editor under the Build Menu, Gizmos option. Search for the “In-world Item” option, and drag it into the world scene.
 
-| Property | Type | Description |
-| --- | --- | --- |
-| In-world Item | dropdown | Contains a list of all the In-World Items you have created in this world. |
-| Customize Purchase Dialog Position | `boolean` | If enabled, allows you to adjust the `Purchase Dialog Position` (expressed [in local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)). |
-| Purchase Dialog Position | `Vec3` | Adjust the position on screen the Purchase Dialog menu appears. |
-| UI Property | `Trigger`, `Button`, or `Icon`. Default is `Trigger`. | Determines how your In-world Item Gizmo is displayed.<ul><li>`Trigger` doesn’t render anything; it opens the menu when a player enters into the trigger area.</li><li>`Button` renders a small symbol in the world that opens the menu when pressed. The button is *not* a [billboard](Meta%20Horizon%20Worlds%20creator%20manual.md#billboarding).<li>`Icon` shows a small button with the meta credit price. The icon is a [billboard](Meta%20Horizon%20Worlds%20creator%20manual.md#billboarding).</li></ul> |
+| Property                           | Type                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ---------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In-world Item                      | dropdown                                              | Contains a list of all the In-World Items you have created in this world.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Customize Purchase Dialog Position | `boolean`                                             | If enabled, allows you to adjust the `Purchase Dialog Position` (expressed [in local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)).                                                                                                                                                                                                                                                                                                                                                    |
+| Purchase Dialog Position           | `Vec3`                                                | Adjust the position on screen the Purchase Dialog menu appears.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| UI Property                        | `Trigger`, `Button`, or `Icon`. Default is `Trigger`. | Determines how your In-world Item Gizmo is displayed.\<ul>\<li>`Trigger` doesn’t render anything; it opens the menu when a player enters into the trigger area.\</li>\<li>`Button` renders a small symbol in the world that opens the menu when pressed. The button is *not* a [billboard](Meta%20Horizon%20Worlds%20creator%20manual.md#billboarding).\<li>`Icon` shows a small button with the meta credit price. The icon is a [billboard](Meta%20Horizon%20Worlds%20creator%20manual.md#billboarding).\</li>\</ul> |
 
 **Testing**: The In-World Item Gizmo allows [the world owner & editors](Meta%20Horizon%20Worlds%20creator%20manual.md#editor-roles) to test purchases (in [preview and play mode](Meta%20Horizon%20Worlds%20creator%20manual.md#visitation-modes-edit-preview-and-publish)) without being charged. Testers *cannot* perform test-purchases; they will be charged.
 
 **TypeScript**: In-World Item Gizmos are referenced [as()](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method) the `IWPSellerGizmo` class. There are methods for [durables](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) and for [consumables](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items).
 
-#### In-World Item ID String
+#### [In-World Item ID String](#in-world-item-id-string)
 
 Every in-world item ([Durable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) or [Consumable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)) has a `string``id` that is used in the TypeScript APIs for interacting with in-world items.
 
-Right now there is *no way to get an IWP id in the desktop editor*: go to https://horizon.meta.com/creator/monetization\_purchases and select “Item management”. The `id`s are listed under the column **SKU Name**.
+Right now there is *no way to get an IWP id in the desktop editor*: go to https\://horizon.meta.com/creator/monetization\_purchases and select “Item management”. The `id`s are listed under the column **SKU Name**.
 
-#### In-World Durable Items
+#### [In-World Durable Items](#in-world-durable-items)
 
 **Durable items** are purchased once and then owned forever. An example would be unlocking a golden sword (that you then never lose).
 
 **TypeScript**: Unlike leaderboards and quests, you need an actual `IWPSellerGizmo`, [via as](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-as-method), to interact with durable items. There is one method on the `IWPSellerGizmo` class related to durable items, which lets you check if a given `player` owns the item with the given [item id](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-id-string):
 
-```
-// IWPSellerGizmo
-playerOwnsItem(player: Player, item: string): boolean;
+```typescript
+// IWPSellerGizmo
+playerOwnsItem(player: Player, item: string): boolean;
 ```
 
 There are also [durable item CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) that can be connected to.
 
 There is no method for granting access to a durable item. If you want to allow people to “unlock” the item (e.g. with time instead of money) then you would have to use a combination of a durable item *and* a [player persistent variable](Meta%20Horizon%20Worlds%20creator%20manual.md#player-persistent-variables-ppvs), providing the functionality if they have *either*.
 
-##### Durable In-World Item Asset
+##### [Durable In-World Item Asset](#durable-in-world-item-asset)
 
 When creating an durable in-world item, you can specify an [asset](Meta%20Horizon%20Worlds%20creator%20manual.md#spawnable-assets) with it. If you do so, then any player who has purchased the item will be able to spawn that given asset (whenever they want). You can [connect to](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) the [OnPlayerSpawnedItem CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) to know when a player spawns the asset.
 
 You can [despawn](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) these assets with `world.deleteAsset(...)`.
 
-##### Durable In-World Item CodeblockEvents
+##### [Durable In-World Item CodeblockEvents](#durable-in-world-item-codeblockevents)
 
 All events in the table below are [🔈 server-broadcast CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events); you can connect to any server-owned entity to receive them.
 
-#### In-World Consumable Items
+#### [In-World Consumable Items](#in-world-consumable-items)
 
 **Consumable items** are purchased and then *used*. They can be purchased again and then used. It is possible to have many at once (“stockpiling” until you use them). An example would be a speed boost that lasts for 5 minutes once activated. When a player tries to use a consumable you are [sent a request that you must handle](Meta%20Horizon%20Worlds%20creator%20manual.md#handling-an-item-consume-item-request). There are a number of other APIs, listed below.
 
@@ -6374,148 +6355,151 @@ There are [consumable item CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20
 
 There are also a few methods on the `IWPSellerGizmo` class related to durable items. In the below methods `item` is an [item id](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-id-string):
 
-- Check how many of the given item a player has:
+1. Check how many of the given item a player has:
 
-  ```
-   // IWPSellerGizmo
-   quantityPlayerOwns(player: Player, item: string): number
-  ```
-- Check if the player has *ever* consumed the item:
+   ```typescript
+    // IWPSellerGizmo
+    quantityPlayerOwns(player: Player, item: string): number
+   ```
 
-  ```
-   // IWPSellerGizmo
-   playerHasConsumedItem(player: Player, item: string): boolean
-  ```
-- Check when the player last consumed the item. The API asks for a `MonetizationTimeOption` to request `Seconds`, `Hours`, or `Days`. Note that (unfortunately) it will return `0` if the item has never been consumed:
+2. Check if the player has *ever* consumed the item:
 
-  ```
-     // IWPSellerGizmo
-     timeSincePlayerConsumedItem(
-       player: Player,
-       item: string,
-       timeOption: MonetizationTimeOption
-     ): number;
-  ```
-- Consume the item for a player (if they have one otherwise a [OnItemConsumeComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) is sent with `success` set to `false`):
+   ```typescript
+    // IWPSellerGizmo
+    playerHasConsumedItem(player: Player, item: string): boolean
+   ```
 
-  ```
-   consumeItemForPlayer(player: Player, item: string): void
-  ```
+3. Check when the player last consumed the item. The API asks for a `MonetizationTimeOption` to request `Seconds`, `Hours`, or `Days`. Note that (unfortunately) it will return `0` if the item has never been consumed:
 
-##### Item Packs
+   ```typescript
+      // IWPSellerGizmo
+      timeSincePlayerConsumedItem(
+        player: Player,
+        item: string,
+        timeOption: MonetizationTimeOption
+      ): number;
+   ```
+
+4. Consume the item for a player (if they have one otherwise a [OnItemConsumeComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) is sent with `success` set to `false`):
+
+   ```typescript
+    consumeItemForPlayer(player: Player, item: string): void
+   ```
+
+##### [Item Packs](#item-packs)
 
 Consumables can be bundled into 2 or more of the same item so that players can purchase a collection instead of one-by-one (i.e. health packs, cannon balls, gems) as **item packs**. Item packs allow creators to offer special promotions to motivate purchases (such as 1 heart for 25 credits vs a pack of 5 hearts for 100 credits).
 
 To create a pack:
 
-- Create the consumable item following the steps from the prior section.
-- Once created, open the Commerce UI (Systems > Commerce), and Change the ***Displaying*** drop down to Iem Packs.
-- Click on the + Icon to opn the ***Create an item pack*** UI.
-- Select the consumable item, and click ***Select***.
-- Specify a quantity (between 2 and 99).
-- Specify a price (25 to 20,000 credits).
-- Click Create.
+1. Create the consumable item following the steps from the prior section.
+2. Once created, open the Commerce UI (Systems > Commerce), and Change the ***Displaying*** drop down to Iem Packs.
+3. Click on the + Icon to opn the ***Create an item pack*** UI.
+4. Select the consumable item, and click ***Select***.
+5. Specify a quantity (between 2 and 99).
+6. Specify a price (25 to 20,000 credits).
+7. Click Create.
 
 When a player purchases a pack of consumables *without auto-use*, they are able to see their unused item quantity in their inventory. Clicking the inventory icon will not trigger the consume automatically; instead, a broadcast code block event is emitted. This even can then be intercepted with a script, that would also confirm if the player can consume or not the item. For more details see [Handling an Item-Consume Item Request](Meta%20Horizon%20Worlds%20creator%20manual.md####handling-an-item-consume-item-request).
 
-##### Auto-Use Consumable In-World Items
+##### [Auto-Use Consumable In-World Items](#auto-use-consumable-in-world-items)
 
 When a [consumable item](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) is set to **auto-use**, the player does not initiate the use of the item (since it is used automatically at the time of purchase). This means that **[OnItemConsumeStart](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) is *never sent***. But the **[OnItemConsumeComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) is sent** right after the purchase succeeds (since the item is then auto-used).
 
-##### Handling an Item-Consume Item Request
+##### [Handling an Item-Consume Item Request](#handling-an-item-consume-item-request)
 
-- **Listen for consume-requests**: When a player attempts to use a [consumable item](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items), `CodeBlockEvents.OnItemConsumeStart` is [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events). You *need to listen to this event and handle it*; if you do not, then the item will not be consumed.
-- **Decide whether to consume**: When you [receive the event](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) you need to decide if you want the player to actually consume the item. For example, if the item is a 5-minute power boost and they already consumed one only 2 minutes ago, then you might not want them to consume another until the current one runs out!
-- **Consume, if desired**: If you want the play to consume the item then \*you should call `consumeItemForPlayer`, with the player and the [item id](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-id-string). You will then get a [OnItemConsumeComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) event with `success` set to `true`.
-- **Otherwise, ignore**: If you don’t call `consumeItemForPlayer` (because you don’t want them to consume it) then the request will timeout and send a [OnItemConsumeComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) event with `success` set to `false`.
+1. **Listen for consume-requests**: When a player attempts to use a [consumable item](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items), `CodeBlockEvents.OnItemConsumeStart` is [broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events). You *need to listen to this event and handle it*; if you do not, then the item will not be consumed.
+2. **Decide whether to consume**: When you [receive the event](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events) you need to decide if you want the player to actually consume the item. For example, if the item is a 5-minute power boost and they already consumed one only 2 minutes ago, then you might not want them to consume another until the current one runs out!
+3. **Consume, if desired**: If you want the play to consume the item then \*you should call `consumeItemForPlayer`, with the player and the [item id](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-id-string). You will then get a [OnItemConsumeComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) event with `success` set to `true`.
+4. **Otherwise, ignore**: If you don’t call `consumeItemForPlayer` (because you don’t want them to consume it) then the request will timeout and send a [OnItemConsumeComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-codeblockevents) event with `success` set to `false`.
 
 Example: Consume an item when the player requests to.
 
 Here is a simple example that always consumes a bagel every time the player tries to (in their menu):
 
-```
-this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemConsumeStart, (player, item) => {
-  if (item === 'bagel_id') {
-    const iwpGizmo = this.entity.as(hz.IWPSellerGizmo)
-    iwpGizmo.consumeItemForPlayer(player, item)
-  }
+```typescript
+this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemConsumeStart, (player, item) => {
+  if (item === 'bagel_id') {
+    const iwpGizmo = this.entity.as(hz.IWPSellerGizmo)
+    iwpGizmo.consumeItemForPlayer(player, item)
+  }
 })
 ```
 
-#### In-World Item CodeBlockEvents
+#### [In-World Item CodeBlockEvents](#in-world-item-codeblockevents)
 
 All events in the table below are [🔈 server-broadcast CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events); you can connect to any server-owned entity to receive them. Events marked with 🧱 are for [durable items](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items); events marked with 🍏 are for [consumable items](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items).
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| 🔈🧱🍏`OnItemPurchaseStart` | `player: Player` `item: string` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player opens the purchase menu (both [Durable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) and [Consumable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)). |
-| 🔈🧱🍏`OnItemPurchaseComplete` | `player: Player` `item: string` `success: boolean` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player closes the purchase menu (for both [Durable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) and [Consumable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)). `success` contains if purchase was successful. |
-| ~~🔈🧱🍏`OnItemPurchaseSucceeded`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player successfully purchases an item. |
-| ~~🔈🧱🍏`OnItemPurchaseFailed`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player fails to purchase an item. |
-| 🔈🍏`OnItemConsumeStart` | `player: Player` `item: string` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player tries to consume an item. You [should handle this event](Meta%20Horizon%20Worlds%20creator%20manual.md#handling-an-item-consume-item-request). This is not sent for [auto-use consumables](Meta%20Horizon%20Worlds%20creator%20manual.md#auto-use-consumable-in-world-items). |
-| 🔈🍏`OnItemConsumeComplete` | `player: Player` `item: string` `success: boolean` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player ‘s attempt-to-consume finishes, based on if you [handled the request](Meta%20Horizon%20Worlds%20creator%20manual.md#handling-an-item-consume-item-request). For an [auto-use consumable](Meta%20Horizon%20Worlds%20creator%20manual.md#auto-use-consumable-in-world-items) this will be broadcast right after purchase. |
-| ~~🔈🍏`OnPlayerConsumeSucceeded`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player consumes an item. |
-| ~~🔈🍏`OnPlayerConsumeFailed`~~ (deprecated) | `player: Player` `item: string` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player fails to consume an item. |
-| 🔈`OnPlayerSpawnedItem` | `player: Player` `item: Entity` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player spawns a Durable item into the world from their personal Horizon Inventory. The parameters give you a reference to the `Player` and the item (as an `Entity`). |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------- | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔈🧱🍏`OnItemPurchaseStart`                                                                         | `player: Player` `item: string`                    | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player opens the purchase menu (both [Durable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) and [Consumable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)).                                                                                                               |
+| 🔈🧱🍏`OnItemPurchaseComplete`                                                                      | `player: Player` `item: string` `success: boolean` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player closes the purchase menu (for both [Durable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) and [Consumable](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)). `success` contains if purchase was successful.                                                           |
+| ~~🔈🧱🍏`OnItemPurchaseSucceeded`~~ (deprecated)                                                    | `player: Player` `item: string`                    | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player successfully purchases an item.                                                                                                                                                                                                                                                                                         |
+| ~~🔈🧱🍏`OnItemPurchaseFailed`~~ (deprecated)                                                       | `player: Player` `item: string`                    | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player fails to purchase an item.                                                                                                                                                                                                                                                                                              |
+| 🔈🍏`OnItemConsumeStart`                                                                            | `player: Player` `item: string`                    | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player tries to consume an item. You [should handle this event](Meta%20Horizon%20Worlds%20creator%20manual.md#handling-an-item-consume-item-request). This is not sent for [auto-use consumables](Meta%20Horizon%20Worlds%20creator%20manual.md#auto-use-consumable-in-world-items).                                           |
+| 🔈🍏`OnItemConsumeComplete`                                                                         | `player: Player` `item: string` `success: boolean` | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player ‘s attempt-to-consume finishes, based on if you [handled the request](Meta%20Horizon%20Worlds%20creator%20manual.md#handling-an-item-consume-item-request). For an [auto-use consumable](Meta%20Horizon%20Worlds%20creator%20manual.md#auto-use-consumable-in-world-items) this will be broadcast right after purchase. |
+| ~~🔈🍏`OnPlayerConsumeSucceeded`~~ (deprecated)                                                     | `player: Player` `item: string`                    | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player consumes an item.                                                                                                                                                                                                                                                                                                       |
+| ~~🔈🍏`OnPlayerConsumeFailed`~~ (deprecated)                                                        | `player: Player` `item: string`                    | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player fails to consume an item.                                                                                                                                                                                                                                                                                               |
+| 🔈`OnPlayerSpawnedItem`                                                                             | `player: Player` `item: Entity`                    | [Broadcast](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) when a player spawns a Durable item into the world from their personal Horizon Inventory. The parameters give you a reference to the `Player` and the item (as an `Entity`).                                                                                                                                                          |
 
 An`OnItemPurchaseComplete` event with `success` set to `false` does not imply ownership.
 
 If a person tries to buy an item they already own you will get a `success=false` event. Some times a `success=false` event will even send (🐞 erroneously) right after a `success=true` event. When `OnItemPurchaseComplete` is sent `success=false` you should check if the player owns the item with `playerOwnsItem`*before* reacting to the failure.
 
-### Player Persistent Variables (PPVs)
+### [Player Persistent Variables (PPVs)](#player-persistent-variables-ppvs)
 
 Player Persistent Variables (PPVs) store custom data that persists across sessions for each player. PPVs provide flexible storage for tracking player state, progress, and preferences. Every PPV exists with a [variable group](Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-groups), which can be shared between worlds.
 
 **PPV Properties**
 
-* **Per-Player Storage**: Each player has their own independent values
-* **Server-Side Updates**: Can only be modified from server scripts
-* **Runtime Access**: PPV data is only accessible when the player is in the instance
-* **Type Safety**: Variables are strongly typed as either `number`s or [object](Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-object-data)
-* **[Group Organization](Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-groups)**: PPVs are organized into named groups for better management
+- **Per-Player Storage**: Each player has their own independent values
+- **Server-Side Updates**: Can only be modified from server scripts
+- **Runtime Access**: PPV data is only accessible when the player is in the instance
+- **Type Safety**: Variables are strongly typed as either `number`s or [object](Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-object-data)
+- **[Group Organization](Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-groups)**: PPVs are organized into named groups for better management
 
 **PPV Limitations**
 
-* PPV recognition requires world reload after creation
-* Reading or writing PPVs at rapid rates can significantly degrade perf and [frame rate](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-rate).
+- PPV recognition requires world reload after creation
+- Reading or writing PPVs at rapid rates can significantly degrade perf and [frame rate](Meta%20Horizon%20Worlds%20creator%20manual.md#frame-rate).
 
-#### Using Persistent Player Variables
+#### [Using Persistent Player Variables](#using-persistent-player-variables)
 
 After [creating a ppv](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-player-persistent-variables) in a [variable group](Meta%20Horizon%20Worlds%20creator%20manual.md#persistent-variable-groups), you can read and write data to it, per-player, only when the player is in the instance.
 
 The [World class](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) has a property `persistentStorage` that contains the `getPlayerVariable` (taking the player and the variable name) and `setPlayerVariable` (taking the player, variable name, and value to set).
 
-##### Example: Increment a counter every time a player enters the world.
+##### [Example: Increment a counter every time a player enters the world.](#example-increment-a-counter-every-time-a-player-enters-the-world)
 
-```
-import { CodeBlockEvents, Component, PropTypes } from 'horizon/core'
+```typescript
+import { CodeBlockEvents, Component, PropTypes } from 'horizon/core'
 
-const VisitPPVKey = 'FooGroupName:visits'
+const VisitPPVKey = 'FooGroupName:visits'
 
-class VisitCounter extends Component<typeof VisitCounter> {
-    static propsDefinition = {}
-    override start() { }
+class VisitCounter extends Component<typeof VisitCounter> {
+    static propsDefinition = {}
+    override start() { }
 
-    override preStart(): void {
-        this.connectCodeBlockEvent(
-            this.entity,
-            CodeBlockEvents.OnPlayerEnterTrigger,
-            (player) => {
+    override preStart(): void {
+        this.connectCodeBlockEvent(
+            this.entity,
+            CodeBlockEvents.OnPlayerEnterTrigger,
+            (player) => {
 
-                const count = this.world.persistentStorage.getPlayerVariable(
-                    player, VisitPPVKey
-                )
-                this.world.persistentStorage.setPlayerVariable(
-                    player, VisitPPVKey, count + 1
-                )
-            }
-        )
-    }
+                const count = this.world.persistentStorage.getPlayerVariable(
+                    player, VisitPPVKey
+                )
+                this.world.persistentStorage.setPlayerVariable(
+                    player, VisitPPVKey, count + 1
+                )
+            }
+        )
+    }
 }
 Component.register(VisitCounter)
 ```
 
-#### Persistent Variable Groups
+#### [Persistent Variable Groups](#persistent-variable-groups)
 
 Every player persistent variable belows to a **variables group**.
 
@@ -6525,71 +6509,69 @@ Every player persistent variable belows to a **variables group**.
 
 To create a PPV group using the Desktop Editor:
 
-- Access the Systems menu and select Persistent Variables
-- Click Create Variable Group
-- Provide a name and optional description
-- Toggle “Add to this world” to make it available
-- Click Create
+1. Access the Systems menu and select Persistent Variables
+2. Click Create Variable Group
+3. Provide a name and optional description
+4. Toggle “Add to this world” to make it available
+5. Click Create
 
 To add a pre-existing variable group created in a different world:
 
-- Access the Systems menu, and select Persistent Variables
-- Click on the Added to World dropdown, and select Owned by me.
-- Hover over the Variables Group that you want to implement, and click on the ellipsis menu (3 dots).
-- Select Add to world.
+1. Access the Systems menu, and select Persistent Variables
+2. Click on the Added to World dropdown, and select Owned by me.
+3. Hover over the Variables Group that you want to implement, and click on the ellipsis menu (3 dots).
+4. Select Add to world.
 
 In this same contextual menu, you have options to:
 
-* Edit variable group: to rename it or change its description.
-* View details: containing information about the owner, last modified date, creation date, people with access to these variables, and the list of worlds where the group is being used.
+- Edit variable group: to rename it or change its description.
+- View details: containing information about the owner, last modified date, creation date, people with access to these variables, and the list of worlds where the group is being used.
 
 When duplicating a world an UI will provide an option to also include a reference to the Variable Groups in the clone. Only the world owner can duplicate a world.
 
-#### Creating, Editing, and Deleting Player Persistent Variables
+#### [Creating, Editing, and Deleting Player Persistent Variables](#creating-editing-and-deleting-player-persistent-variables)
 
-**Creating PPVs**:
-Once the Variables Group is created and added to the world, you can add Player Persistent Variables by:
+**Creating PPVs**: Once the Variables Group is created and added to the world, you can add Player Persistent Variables by:
 
-- Access the Systems menu and select Persistent Variables.
-- Click on the Variables Groups that will contain the PPV.
-- Click on Create Variable (indicated with the + sign).
-- In the Create Persistent Variable UI, enter a name and select a type: Number or Object
+1. Access the Systems menu and select Persistent Variables.
+2. Click on the Variables Groups that will contain the PPV.
+3. Click on Create Variable (indicated with the + sign).
+4. In the Create Persistent Variable UI, enter a name and select a type: Number or Object
 
-**Editing and Deleting PPVs**:
-Once created, only the name and current value of a PPV can be edited. The type can’t not be modified.
+**Editing and Deleting PPVs**: Once created, only the name and current value of a PPV can be edited. The type can’t not be modified.
 
 To change the name of a PPV:
 
-- Access the Systems menu and select Persistent Variables.
-- Click on the Variables Groups that will contain the PPV.
-- Hover over the PPV, and click on:
-  * The pencil icon to change the name of PPV
-  * The trash can to delete it
+1. Access the Systems menu and select Persistent Variables.
+2. Click on the Variables Groups that will contain the PPV.
+3. Hover over the PPV, and click on:
+   - The pencil icon to change the name of PPV
+   - The trash can to delete it
 
-Warning
-
-Renaming or deleting a Player Persistent Variable will cause scripting compiling errors if it’s currently being used. When a ppv is deleted, its becomes unavailable to all the worlds it is used in.
+> [!Warning]
+>
+> Renaming or deleting a Player Persistent Variable will cause scripting compiling errors if it’s currently being used. When a ppv is deleted, its becomes unavailable to all the worlds it is used in.
 
 Sometimes it’s convenient to set the values of a PPV manually to test scenarios. To do this:
 
-- Return to the Persistent Variables UI (under the Systems menu).
-- Select a variable group.
-- Click on Debug Values to open a panel where you can set the PPV values. You can either click each text field individually, or click Clear All Debug Values to reset all of them at once.
-- If you make individual changes, click Save. If you used the Clear All Debug Values option, a window will appear asking to confirm this action.
+1. Return to the Persistent Variables UI (under the Systems menu).
+2. Select a variable group.
+3. Click on Debug Values to open a panel where you can set the PPV values. You can either click each text field individually, or click Clear All Debug Values to reset all of them at once.
+4. If you make individual changes, click Save. If you used the Clear All Debug Values option, a window will appear asking to confirm this action.
 
 Note that this manual changes only affect the PPVs of the user that is making the changes. Collaborators can modify their debug values as well. For testers, you would have to use scripts to clear or adjust their PPV values.
 
-#### Persistent Variable Object Data
+#### [Persistent Variable Object Data](#persistent-variable-object-data)
 
 When a PPV is [created](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-editing-and-deleting-player-persistent-variables), its type is set to “number” or “object”. If “object” is chosen then you can read and write values with the type [PersistentSerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate) (which is similar to [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) but also supports `Vec3`, `Entity`, and others. It *does not support `Player`* since [player ids](Meta%20Horizon%20Worlds%20creator%20manual.md#player-id) are per-instance).
 
 When you read data you need to use TypeScript’s `as` operator to cast it to the write type:
 
-```
-type UserStats = { points: number }
+```typescript
+type UserStats = { points: number }
 
-const data = this.world.persistentStorage.getPlayerVariable<UserStats>(
-  player, 'key'
+const data = this.world.persistentStorage.getPlayerVariable<UserStats>(
+  player, 'key'
 )
 ```
 
@@ -6599,37 +6581,37 @@ Reading object data has no type checks, no built-in versioning, and no migration
 
 You are responsible for the types of the data that you read and write. If you write a `{name: string}` and read it back as a `boolean[]` then you will have runtime errors when trying to use the value. We **recommend always storing actual object types** that **include a “kind” key and a “versionNumber” key**. This will make it much easier to change the data format in the future and have it easy to write code that can handle data written in the old vs new format. When you change the way you store data there is **no way to run a data migration** to change all persisted data, so instead your code has to be resilient and be able to read to versions that have ever been written.
 
-##### Example: Versioning PPV Object Data
+##### [Example: Versioning PPV Object Data](#example-versioning-ppv-object-data)
 
-```
-const UserStatsPPVKey = 'key'
-type UserStats =    { kind: 'stats', version: 0, points: number }
-type UserStats_v1 = {
-  kind: 'stats', version: 1, points: number, visits: number
+```typescript
+const UserStatsPPVKey = 'key'
+type UserStats =    { kind: 'stats', version: 0, points: number }
+type UserStats_v1 = {
+  kind: 'stats', version: 1, points: number, visits: number
 }
 
-const data = this.world.persistentStorage.getPlayerVariable<
-  UserStats | UserStats_v1
+const data = this.world.persistentStorage.getPlayerVariable<
+  UserStats | UserStats_v1
 >(
-  player, UserStatsPPVKey
+  player, UserStatsPPVKey
 )
 
-if (data?.kind === 'stats') {
-  if (data.version === 0) {
-    console.log(`User score: ${data.points}`)
-  } else if (data.version === 1) {
-    console.log(`User score: ${data.points}, visits: ${data.visits}`)
-  }
+if (data?.kind === 'stats') {
+  if (data.version === 0) {
+    console.log(`User score: ${data.points}`)
+  } else if (data.version === 1) {
+    console.log(`User score: ${data.points}, visits: ${data.visits}`)
+  }
 }
 ```
 
-## Spawning
+## [Spawning](#spawning)
 
 **Spawning** is the act of loading content into a world [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances) while it is already running (meaning that the content was not “laid out” in the Desktop editor; it’s not in the [world snapshot](Meta%20Horizon%20Worlds%20creator%20manual.md#world-snapshot)). For example, imagine a racing game that has 100 kinds of vehicles to choose from and allows 8 players. It would use too much memory and really impact perf to put 800 vehicles into the world (so all 8 players have full choice). Instead, you could create a [UI](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui) to let players choose from and then load in the vehicle that they choose. This act of “load in when needed” is *spawning*.
 
 Spawning requires a “template” or “blueprint”, a description of entities / meshes / scripts / properties, that should be “stamped” into the world. Horizon calls these blueprints **assets**.
 
-### What can be spawned
+### [What can be spawned](#what-can-be-spawned)
 
 Not all asset types can be spawned. You can only spawn the ones that encode [Entities](Meta%20Horizon%20Worlds%20creator%20manual.md#entities). You **can spawn [3D models](Meta%20Horizon%20Worlds%20creator%20manual.md#3d-model-asset), [audio assets](Meta%20Horizon%20Worlds%20creator%20manual.md#audio-asset), [template assets](Meta%20Horizon%20Worlds%20creator%20manual.md#template-asset), and [legacy asset groups](Meta%20Horizon%20Worlds%20creator%20manual.md#legacy-asset-group)**.
 
@@ -6637,16 +6619,16 @@ Spawn an environment gizmo to change \*lighting and the sky\*.
 
 You can spawn an [Environment Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#environment-gizmo) to change the sky and lighting while a world is running. But note that this will change [Voip Settings](Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings), fog, and all other properties associated with the gizmo.
 
-### Simple Spawning
+### [Simple Spawning](#simple-spawning)
 
 The simplest way to spawn an asset is using the [World class’](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class)`spawnAsset` method which takes the following parameters:
 
-| `spawnAsset` Parameter Name | Type | Default Value | Notes |
-| --- | --- | --- | --- |
-| asset | [Asset](Meta%20Horizon%20Worlds%20creator%20manual.md#assets) | n/a - required | The asset to spawn. |
-| position | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | n/a - required | The global [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position) to spawn the asset. Its [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) will be at that location. |
-| rotation | [Quaternion](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) | `Quaternion.one` (“no rotation”) | The global [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) to spawn the asset with. It will be rotated around its [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). |
-| scale | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3) | `Vec3.one` (“no-stretch” scale) | The global [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#position) to spawn the asset with, as a multiple of the assets *inherent size*. |
+| `spawnAsset` Parameter Name | Type                                                                   | Default Value                    | Notes                                                                                                                                                                                                           |
+| --------------------------- | ---------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| asset                       | [Asset](Meta%20Horizon%20Worlds%20creator%20manual.md#assets)          | n/a - required                   | The asset to spawn.                                                                                                                                                                                             |
+| position                    | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)             | n/a - required                   | The global [position](Meta%20Horizon%20Worlds%20creator%20manual.md#position) to spawn the asset. Its [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points) will be at that location.       |
+| rotation                    | [Quaternion](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion) | `Quaternion.one` (“no rotation”) | The global [rotation](Meta%20Horizon%20Worlds%20creator%20manual.md#rotation) to spawn the asset with. It will be rotated around its [pivot point](Meta%20Horizon%20Worlds%20creator%20manual.md#pivot-points). |
+| scale                       | [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)             | `Vec3.one` (“no-stretch” scale)  | The global [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#position) to spawn the asset with, as a multiple of the assets *inherent size*.                                                                |
 
 `spawnAsset` will spawn the specified asset with the specified [transform](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms) data and return a `Promise<Entity[]>` which will *resolve* with a list of entities matching the top-level entities defined in the asset. If the spawn fails for any reason, the promise will *reject*.
 
@@ -6656,51 +6638,51 @@ The simplest way to spawn an asset is using the [World class’](Meta%20Horizon%
 
 **Spawning static content**: You can spawn [static](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities) anywhere in the world, but once it is spawned you cannot move it, since it would have to be [dynamic](Meta%20Horizon%20Worlds%20creator%20manual.md#static-vs-dynamic-entities) to be moved in scripting. The closest you could get to moving a static spawned entity would be [despawn](Meta%20Horizon%20Worlds%20creator%20manual.md#despawning) it and then spawn it again elsewhere. Since spawning is not immediate, you **cannot use this technique to move anything quickly**.
 
-#### Deleting Simply Spawned Entities
+#### [Deleting Simply Spawned Entities](#deleting-simply-spawned-entities)
 
 The [World Class](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) has one more spawn-related method: `deleteAsset` (which is misnamed; it should be “delete spawned entities) which takes the following parameters:
 
-| `deleteAsset` Parameter Name | Type | Default Value | Notes |
-| --- | --- | --- | --- |
-| entity | [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | n/a - required | The entity to remove from the [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances). It is an error to pass in an entity that wasn’t spawned via `spawnAsset`. |
-| fullDelete | `boolean` | `false` | If `true` the `entity` must be the *root entity* (the first one in the spawned entities array). The `entity` and all its *associated entities* will be deleted (essentially undoing the single “spawn event” that created them all). |
+| `deleteAsset` Parameter Name | Type                                                             | Default Value  | Notes                                                                                                                                                                                                                                |
+| ---------------------------- | ---------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| entity                       | [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entities) | n/a - required | The entity to remove from the [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances). It is an error to pass in an entity that wasn’t spawned via `spawnAsset`.                                                         |
+| fullDelete                   | `boolean`                                                        | `false`        | If `true` the `entity` must be the *root entity* (the first one in the spawned entities array). The `entity` and all its *associated entities* will be deleted (essentially undoing the single “spawn event” that created them all). |
 
 The `deleteAsset` method returns a `Promise<undefined>` which resolves when the spawned entities have been fully removed from the [instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instances).
 
 **Entity exists()**: after calling `deleteAsset` on `entity`, `entity.exists()` will then return `false`. If `fullDelete` was set to `true` then all entities created in the same “spawn event” will also no longer exist.
 
-#### Spawn CodeBlockEvents
+#### [Spawn CodeBlockEvents](#spawn-codeblockevents)
 
 There are three [built-in broadcast CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-broadcasted-code-block-events) that you can listen to on any entity:
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) | Description |
-| --- | --- | --- |
-| 🔈OnAssetDespawned | `entity: Entity` `asset: Asset` | Entities have been despawned. `entity` is the one that was passed to [deleteAsset](Meta%20Horizon%20Worlds%20creator%20manual.md#deleting-simply-spawned-entities). |
-| 🔈OnAssetSpawnFailed | `asset: Asset` | - |
-| 🔈OnAssetSpawned | `entity: Entity` `asset: Asset` | `entity` is the [root entity](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning). |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s)                    | Description                                                                                                                                                         |
+| --------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔈OnAssetDespawned                                                                                  | `entity: Entity` `asset: Asset` | Entities have been despawned. `entity` is the one that was passed to [deleteAsset](Meta%20Horizon%20Worlds%20creator%20manual.md#deleting-simply-spawned-entities). |
+| 🔈OnAssetSpawnFailed                                                                                | `asset: Asset`                  | -                                                                                                                                                                   |
+| 🔈OnAssetSpawned                                                                                    | `entity: Entity` `asset: Asset` | `entity` is the [root entity](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning).                                                                       |
 
-### Despawning
+### [Despawning](#despawning)
 
 **Despawning** is the act of removing entities from the world that were created by *asset spawning* (or [sublevel streaming](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels)). There are a few ways to *despawn*:
 
-- Call `world.deleteAsset(...)` on the root entity (or any other to-level entities) when using [simple spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning)
-- Call `controller.unload()` or `controller.dispose()` on a [SpawnController](Meta%20Horizon%20Worlds%20creator%20manual.md#spawncontroller-methods) (after entities have been created with `spawn()`). You can also call `world.deleteAsset(...)` on the root entity (but *not* the other top-level entities).
-- Call `sublevel.hide()` on a [SublevelEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) (after entities have been created with `activate()`)
-- Call `world.deleteAsset(...)` on the root entity resulting from a [durable item asset spawn](Meta%20Horizon%20Worlds%20creator%20manual.md#durable-in-world-item-asset).
-- [Stop or Reset an editor instance](Meta%20Horizon%20Worlds%20creator%20manual.md#starting-stopping-and-resetting-an-instance) or call `world.reset()`
+1. Call `world.deleteAsset(...)` on the root entity (or any other to-level entities) when using [simple spawning](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning)
+2. Call `controller.unload()` or `controller.dispose()` on a [SpawnController](Meta%20Horizon%20Worlds%20creator%20manual.md#spawncontroller-methods) (after entities have been created with `spawn()`). You can also call `world.deleteAsset(...)` on the root entity (but *not* the other top-level entities).
+3. Call `sublevel.hide()` on a [SublevelEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#sublevels) (after entities have been created with `activate()`)
+4. Call `world.deleteAsset(...)` on the root entity resulting from a [durable item asset spawn](Meta%20Horizon%20Worlds%20creator%20manual.md#durable-in-world-item-asset).
+5. [Stop or Reset an editor instance](Meta%20Horizon%20Worlds%20creator%20manual.md#starting-stopping-and-resetting-an-instance) or call `world.reset()`
 
-### Advanced Spawning (SpawnController)
+### [Advanced Spawning (SpawnController)](#advanced-spawning-spawncontroller)
 
 A `SpawnController` gives you more control over spawning than the [simple spawn method](Meta%20Horizon%20Worlds%20creator%20manual.md#simple-spawning). Most importantly, it lets you *prepare* as asset (by calling `load()`) before you are ready for it to spawn it; this allows *most of the work* to be done so that when you are ready for the spawn to actually occur it can be done nearly instantaneously. **A SpawnController allows you to spawn in an asset in a “hidden” state and then later “show” it instantaneously**.
 
 You instantiate a spawn controller by specifying a [spawnable asset](Meta%20Horizon%20Worlds%20creator%20manual.md#spawnable-assets):
 
-```
-const controller = new SpawnController(
-  asset,    // Spawnable asset
-  position, // Vec3
-  rotation: // Quaternion
-  scale     // Vec3
+```typescript
+const controller = new SpawnController(
+  asset,    // Spawnable asset
+  position, // Vec3
+  rotation: // Quaternion
+  scale     // Vec3
 )
 ```
 
@@ -6724,42 +6706,41 @@ The `SpawnController` class is implemented as a state machine. It has two proper
 
 The `SpawnState` enum supports the following values:
 
-* `NotReady`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are downloading the asset information
-* `Unloaded`: all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have downloaded the asset information
-* `Loading`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are preparing the asset (e.g. computing [lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting) on all the meshes)
-* `Paused`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are paused preparing the asset
-* `Loaded`: all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have prepared the asset
-* `Active`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have inserting entities into the scene graph
-* `Unloading`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) clients have removed entities from the scene graph (if it had made it to the `Active` state) and are deleting all prepared data (such as [lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting))
-* `Disposed`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have deleted the downloaded information, the prepared data, and the created entities. The controller is no longer usable (all methods will throw errors) and should be discarded.
+- `NotReady`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are downloading the asset information
+- `Unloaded`: all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have downloaded the asset information
+- `Loading`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are preparing the asset (e.g. computing [lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting) on all the meshes)
+- `Paused`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are paused preparing the asset
+- `Loaded`: all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have prepared the asset
+- `Active`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have inserting entities into the scene graph
+- `Unloading`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) clients have removed entities from the scene graph (if it had made it to the `Active` state) and are deleting all prepared data (such as [lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting))
+- `Disposed`: [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) have deleted the downloaded information, the prepared data, and the created entities. The controller is no longer usable (all methods will throw errors) and should be discarded.
 
 **`SpawnState` Usage**
 
-* **`currentState`** moves through all values of `SpawnState`
-* **`targetState`** is only ever `Unloaded`, `Loaded`, `Active`, or `Disposed`
+- **`currentState`** moves through all values of `SpawnState`
+- **`targetState`** is only ever `Unloaded`, `Loaded`, `Active`, or `Disposed`
 
-**`SpawnError` (Failure)**
-If any of the spawn process fails (promises reject), you can find the error in `controller.spawnError.get()` which will be a `SpawnError`.
+**`SpawnError` (Failure)** If any of the spawn process fails (promises reject), you can find the error in `controller.spawnError.get()` which will be a `SpawnError`.
 
-#### SpawnController Methods
+#### [SpawnController Methods](#spawncontroller-methods)
 
 **Method Promise Return Values**: All of the methods in the table below returns `Promise<void>` for when the action completes. If you call `load()` and then, before it resolves, you call `pause()` then the promise returned from `load()` will *stay unresolved* until you eventually call `load()` or `spawn()` and the loading actually finishes. If you call `unload()` or `dispose()` while it is loading then the original promise returned from `load()` will reject.
 
-| `SpawnController` Method | `targetState` must be | `currentState` must be | Result |
-| --- | --- | --- | --- |
-| `load()` | `Unloaded` | not `Disposed` | `targetState` ➜ `Loaded` |
-| `pause()` | - | `Loading` | `targetState` ➜ `Paused` `currentState` ➜ `Paused` |
-| `spawn()` | `Unloaded` or `Loaded` | not `Disposed` | `targetState` ➜ `Active` |
-| `unload()` | `Loaded` or `Active` | not `Disposed` | `targetState` ➜ `Unloaded` |
-| `dispose()` | `Loaded` or `Active` or `Unloaded` | not `Disposed` | `targetState` ➜ `Disposed` |
+| `SpawnController` Method | `targetState` must be              | `currentState` must be | Result                                             |
+| ------------------------ | ---------------------------------- | ---------------------- | -------------------------------------------------- |
+| `load()`                 | `Unloaded`                         | not `Disposed`         | `targetState` ➜ `Loaded`                           |
+| `pause()`                | -                                  | `Loading`              | `targetState` ➜ `Paused` `currentState` ➜ `Paused` |
+| `spawn()`                | `Unloaded` or `Loaded`             | not `Disposed`         | `targetState` ➜ `Active`                           |
+| `unload()`               | `Loaded` or `Active`               | not `Disposed`         | `targetState` ➜ `Unloaded`                         |
+| `dispose()`              | `Loaded` or `Active` or `Unloaded` | not `Disposed`         | `targetState` ➜ `Disposed`                         |
 
 **SpawnController `currentState` Transitions**
 
-- A spawn controller has a `targetState`.
-- A spawn controller also has a `currentState`.
-- The diagram shows all possible `currentState`s. Whenever `currentState` does not equal `targetState` the system “automatically” progresses through the states in the diagram, moving along the shortest path, updating `currentState` as it progresses through the nodes.
-- Once `targetState` is set to `Disposed`, it will traverse through *red edges* as it tears down.
-- When a spawn controller starts, its `currentState` is `NotReady` and its target state is `Unloaded`.
+1. A spawn controller has a `targetState`.
+2. A spawn controller also has a `currentState`.
+3. The diagram shows all possible `currentState`s. Whenever `currentState` does not equal `targetState` the system “automatically” progresses through the states in the diagram, moving along the shortest path, updating `currentState` as it progresses through the nodes.
+4. Once `targetState` is set to `Disposed`, it will traverse through *red edges* as it tears down.
+5. When a spawn controller starts, its `currentState` is `NotReady` and its target state is `Unloaded`.
 
 **Dotted edges** represent transitions that take time and where all [clients](Meta%20Horizon%20Worlds%20creator%20manual.md#clients-devices-and-the-server) are waited on.
 
@@ -6767,7 +6748,7 @@ If any of the spawn process fails (promises reject), you can find the error in `
 
 ![](../../_assets/images/f77bc8d421f514b37af363afec0656f92ab7c8318b3f13acf03946fd2982a525.png)
 
-### Sublevels
+### [Sublevels](#sublevels)
 
 **Sublevels** are portions of a world that can be spawned in. They are very similar to [spawnable assets](Meta%20Horizon%20Worlds%20creator%20manual.md#spawnable-assets) except that they can pre-compute a lot more data (such as [lighting](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-lighting)) which makes spawning a *lot* faster. **Horizon uses the term *stream* with Sublevels (instead of *spawn*)**.
 
@@ -6777,84 +6758,84 @@ Sublevel functionality is in the `horizon/world_streaming` module.
 
 The class interface on `SublevelEntity` acts much like a [SpawnController](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller) with [currentState and targetState](Meta%20Horizon%20Worlds%20creator%20manual.md#spawncontroller-state-machine) using the enum `SublevelStates` which has the exact same values as [SpawnState](Meta%20Horizon%20Worlds%20creator%20manual.md#spawncontroller-state-machine).
 
-| `SublevelEntity` Method | Equivalent `SpawnController` Method |
-| --- | --- |
-| `load` | `load` |
-| `pause` | `pause` |
-| `unload` | `unload` |
-| `activate` | `spawn` |
-| `hide` | Similar to calling `spawnController.unload().then( () => spawnController.load())` |
+| `SublevelEntity` Method | Equivalent `SpawnController` Method                                               |
+| ----------------------- | --------------------------------------------------------------------------------- |
+| `load`                  | `load`                                                                            |
+| `pause`                 | `pause`                                                                           |
+| `unload`                | `unload`                                                                          |
+| `activate`              | `spawn`                                                                           |
+| `hide`                  | Similar to calling `spawnController.unload().then( () => spawnController.load())` |
 
-## Showing Players Temporary Messages
+## [Showing Players Temporary Messages](#showing-players-temporary-messages)
 
 There are two ways to show temporary messages to players: popups (which appear in a fixed screen position) and tooltips (which can follow players or entities). Note that there are currently many limitations with tooltips (they only work with [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type), for example). We recommend to **only use popups; do not use tooltips (for now)**.
 
-### Popups
+### [Popups](#popups)
 
 You can show popups to every player in the world by accessing the `ui` field on a [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) instance
 
-```
+```typescript
 world.ui.showPopupForEveryone(
-  "Go!", 3 /* seconds */
+  "Go!", 3 /* seconds */
 );
 ```
 
 or to just one player
 
-```
+```typescript
 world.ui.showPopupForPlayer(
-  player, "Shh! You found a secret", 5 /* seconds */
+  player, "Shh! You found a secret", 5 /* seconds */
 );
 ```
 
 **Methods**: The two “showPopup” methods take a `text`, `displayTime` (duration in seconds that the message is shown), and optional `options`.
 
-```
-// IUI (accessed via `ui` on World)
+```typescript
+// IUI (accessed via `ui` on World)
 showPopupForEveryone(
-  text: string | i18n_utils.LocalizableText,
-  displayTime: number,
-  options?: Partial<PopupOptions>
-): void;
+  text: string | i18n_utils.LocalizableText,
+  displayTime: number,
+  options?: Partial<PopupOptions>
+): void;
 showPopupForPlayer(
-  player: Player,
-  text: string | i18n_utils.LocalizableText,
-  displayTime: number,
-  options?: Partial<PopupOptions>
-): void;
+  player: Player,
+  text: string | i18n_utils.LocalizableText,
+  displayTime: number,
+  options?: Partial<PopupOptions>
+): void;
 ```
 
 For players on screen devices, popups appear in the center of the screen by default. The position offset in `options` moves the popup in screen coordinates (whereas for [VR players](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type) it is in [player-local coordinates](Meta%20Horizon%20Worlds%20creator%20manual.md#local-transforms)).
 
 **Popup Options**: When showing a popup the optional `options` parameter can specify any of the fields in `PopupOptions`:
 
-```
-type PopupOptions = {
-  position: Vec3;         // Local player offset of UI
-  fontSize: number;
-  fontColor: Color;
-  backgroundColor: Color;
-  playSound: boolean;     // Play a sound when it appears?
-  showTimer: boolean;     // Show the countdown timer?
+```typescript
+type PopupOptions = {
+  position: Vec3;         // Local player offset of UI
+  fontSize: number;
+  fontColor: Color;
+  backgroundColor: Color;
+  playSound: boolean;     // Play a sound when it appears?
+  showTimer: boolean;     // Show the countdown timer?
 };
 ```
 
 The default values for `PopupOptions` are available in `DefaultPopupOptions`:
 
-```
-const DefaultPopupOptions = {
-  position: new Vec3(0, -0.5, 0),
-  fontSize: 5,
-  fontColor: Color.black,
-  backgroundColor: Color.white,
-  playSound: true,
-  showTimer: false
+```typescript
+const DefaultPopupOptions = {
+  position: new Vec3(0, -0.5, 0),
+  fontSize: 5,
+  fontColor: Color.black,
+  backgroundColor: Color.white,
+  playSound: true,
+  showTimer: false
 };
 ```
 
 Although the `text` argument is typed as a `string | i18n_utils.LocalizableText`, there is currently no way to use `i18n_utils` 🙈. The `text` (for now) must be a `string`.
 
-### Tooltips
+### [Tooltips](#tooltips)
 
 Danger: Tooltips are not recommended
 
@@ -6862,64 +6843,64 @@ Tooltips currently only work for VR players and have known issues with Quest Lin
 
 Tooltips can be shown to a player by accessing the `ui` field on a [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class) instance:
 
-```
+```typescript
 world.ui.showTooltipForPlayer(
-  player,
-  TooltipAnchorLocation.LEFT_WRIST,
-  "Check your wrist!"
+  player,
+  TooltipAnchorLocation.LEFT_WRIST,
+  "Check your wrist!"
 );
 ```
 
 The tooltip must be be manually dismissed:
 
-```
-world.ui.dismissTooltip(player, true /* play sound */);
+```typescript
+world.ui.dismissTooltip(player, true /* play sound */);
 ```
 
 **Methods**: The tooltip API has two methods show showing and dismissing the tooltip:
 
-```
-// IUI (accessed via `ui` on World)
+```typescript
+// IUI (accessed via `ui` on World)
 showTooltipForPlayer(
-  player: Player,
-  tooltipAnchorLocation: TooltipAnchorLocation,
-  tooltipText: string | i18n_utils.LocalizableText,
-  options?: Partial<TooltipOptions>
-): void;
+  player: Player,
+  tooltipAnchorLocation: TooltipAnchorLocation,
+  tooltipText: string | i18n_utils.LocalizableText,
+  options?: Partial<TooltipOptions>
+): void;
 dismissTooltip(
-  player: Player,
-  playSound?: boolean
-): void;
+  player: Player,
+  playSound?: boolean
+): void;
 ```
 
 **Tooltip Anchor Location**: The tooltip appears near one of three anchor points on the player, using the `TooltipAnchorLocation` enum (with values `LEFT_WRIST`, `RIGHT_WRIST`, and `TORSO`).
 
 **Tooltip Options**: When showing a tooltip the optional `options` parameter can specify any of the fields in `TooltipOptions`:
 
-```
-type TooltipOptions = {
-  tooltipAnchorOffset?: Vec3;    // Offset from anchor point
-  displayTooltipLine?: boolean;  // Show line to anchor
-  tooltipLineAttachmentProperties?: TooltipLineAttachmentProperties;
-  playSound?: boolean;           // Play sound when shown
+```typescript
+type TooltipOptions = {
+  tooltipAnchorOffset?: Vec3;    // Offset from anchor point
+  displayTooltipLine?: boolean;  // Show line to anchor
+  tooltipLineAttachmentProperties?: TooltipLineAttachmentProperties;
+  playSound?: boolean;           // Play sound when shown
 }
 ```
 
 The `tooltipLineAttachmentProperties` allow you to customize how the connecting line looks and acts:
 
-```
-type TooltipLineAttachmentProperties = {
-  lineAttachmentEntity?: Entity | PlayerBodyPartType;
-  lineAttachmentLocalOffset?: Vec3;
-  lineAttachmentRounded?: boolean;
-  lineChokeStart?: number;
-  lineChokeEnd?: number;
+```typescript
+type TooltipLineAttachmentProperties = {
+  lineAttachmentEntity?: Entity | PlayerBodyPartType;
+  lineAttachmentLocalOffset?: Vec3;
+  lineAttachmentRounded?: boolean;
+  lineChokeStart?: number;
+  lineChokeEnd?: number;
 }
 ```
 
 Although the tooltipText argument is typed as a `string | i18n_utils.LocalizableText`, there is currently no way to use i18n\_utils 🙈. The tooltipText (for now) must be a string.
 
-## Custom UI
+## [Custom UI](#custom-ui)
 
 Custom UI you to create 2D user interfaces (somewhat inspired by [React](https://react.dev/)) using [CSS flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox) for layout. Custom UI creates a “view tree” *once* and then you use [bindings](Meta%20Horizon%20Worlds%20creator%20manual.md#bindings) (and [animated bindings](Meta%20Horizon%20Worlds%20creator%20manual.md#animated-bindings)) to update the view thereafter. Horizon calls each element in a UI tree a `UINode`.
 
@@ -6927,76 +6908,76 @@ To create a UI you instantiate a [Custom UI Gizmo](Meta%20Horizon%20Worlds%20cre
 
 Here’s an example that shows a collection of features:
 
-* `UIComponent` is a subclass of [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) and so you can still use [start](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) and [propsDefinition](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties).
-* [Bindings](Meta%20Horizon%20Worlds%20creator%20manual.md#bindings) and [derived Bindings](Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings)
-* [View](Meta%20Horizon%20Worlds%20creator%20manual.md#ui-view) and [Text](Meta%20Horizon%20Worlds%20creator%20manual.md#ui-text)
+- `UIComponent` is a subclass of [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) and so you can still use [start](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class) and [propsDefinition](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties).
+- [Bindings](Meta%20Horizon%20Worlds%20creator%20manual.md#bindings) and [derived Bindings](Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings)
+- [View](Meta%20Horizon%20Worlds%20creator%20manual.md#ui-view) and [Text](Meta%20Horizon%20Worlds%20creator%20manual.md#ui-text)
 
-```
-import { PropTypes } from "horizon/core"
-import {
-  Binding, Text, UIComponent, UINode, View
-} from "horizon/ui"
+```typescript
+import { PropTypes } from "horizon/core"
+import {
+  Binding, Text, UIComponent, UINode, View
+} from "horizon/ui"
 
-class FlashingText extends UIComponent<typeof FlashingText> {
-  static propsDefinition = {
-    message: { type: PropTypes.String }
-  }
+class FlashingText extends UIComponent<typeof FlashingText> {
+  static propsDefinition = {
+    message: { type: PropTypes.String }
+  }
 
-  private readonly toggle = new Binding(false);
+  private readonly toggle = new Binding(false);
 
-  override initializeUI(): UINode {
-    return View({
-      style: { padding: 20 },
-      children: [
-        Text({
-          text: this.props.message,
-          style: {
-            color: this.toggle.derive(t => t ? "red" : "blue"),
-            fontSize: 24
-          }
-        })
-      ]
-    });
-  }
+  override initializeUI(): UINode {
+    return View({
+      style: { padding: 20 },
+      children: [
+        Text({
+          text: this.props.message,
+          style: {
+            color: this.toggle.derive(t => t ? "red" : "blue"),
+            fontSize: 24
+          }
+        })
+      ]
+    });
+  }
 
-  override start() {
-    this.async.setInterval(() => {
-      this.toggle.set(t => !t);
-    }, 1000)
-  }
+  override start() {
+    this.async.setInterval(() => {
+      this.toggle.set(t => !t);
+    }, 1000)
+  }
 }
 UIComponent.register(FlashingText);
 ```
 
-### UIComponent Class
+### [UIComponent Class](#uicomponent-class)
 
 The `UIComponent` class is a subclass of the [Component class](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class). Thus the following all exactly as they do in `UIComponent`:
 
-* [Component.register](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
-* [propsDefinition](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties)
-* [preStart](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
-* [start](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
-* [transferOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners)
-* [receiveOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners)
-* [dispose](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
+- [Component.register](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+- [propsDefinition](Meta%20Horizon%20Worlds%20creator%20manual.md#component-properties)
+- [preStart](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+- [start](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+- [transferOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners)
+- [receiveOwnership](Meta%20Horizon%20Worlds%20creator%20manual.md#transferring-data-across-owners)
+- [dispose](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
 
 There are some members specific to `UIComponent`. Additionally, whereas `Component` can be attached to [any entity](Meta%20Horizon%20Worlds%20creator%20manual.md#all-gizmos-intrinsic-entity-types), a `UIComponent`**must be attached to a [Custom UI Gizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#custom-ui-gizmo)** for it to render any UI.
 
-| UIComponent Member | Description |
-| --- | --- |
-| `abstract initializeUI(): UINode` | You *must* override this method and return the initial “view tree”. This method is called [before preStart](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle). |
-| `readonly panelWidth: number` | The total number of pixels the UI gizmo is wide. This doesn’t change the size of the UI (use [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale for that)); it just changes how you reference the UI. For instance if you set this to `100` then you can use `50` to reference the midpoint. The default is `500`. |
-| `readonly panelHeight: number` | The same as `panelWidth` except specifying *height*. |
+| UIComponent Member                | Description                                                                                                                                                                                                                                                                                                                     |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `abstract initializeUI(): UINode` | You *must* override this method and return the initial “view tree”. This method is called [before preStart](Meta%20Horizon%20Worlds%20creator%20manual.md#component-lifecycle).                                                                                                                                                 |
+| `readonly panelWidth: number`     | The total number of pixels the UI gizmo is wide. This doesn’t change the size of the UI (use [scale](Meta%20Horizon%20Worlds%20creator%20manual.md#scale%20for%20that)); it just changes how you reference the UI. For instance if you set this to `100` then you can use `50` to reference the midpoint. The default is `500`. |
+| `readonly panelHeight: number`    | The same as `panelWidth` except specifying *height*.                                                                                                                                                                                                                                                                            |
 
-### Bindings
+### [Bindings](#bindings)
 
 Bindings are **the only way that a Custom UI changes its contents**. A binding is a *container with a value inside*. Any time that you change the contents of it, via `binding.set(...)`, the UI will update accordingly. Many fields in the various [UINode types](Meta%20Horizon%20Worlds%20creator%20manual.md#uinode-types) accept bindings for their values. For instance:
 
-```
-const contents = new Binding('hi!')
+```typescript
+const contents = new Binding('hi!')
 
 Text({
-  text: contents
+  text: contents
 })
 ```
 
@@ -7010,27 +6991,27 @@ will create a [Text](Meta%20Horizon%20Worlds%20creator%20manual.md#ui-text) view
 
 **Values**: The value inside a `Binding` must be [JSON-serializable](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-bindings).
 
-#### Binding Class
+#### [Binding Class](#binding-class)
 
-| `Binding` Class Member | Description |
-| --- | --- |
-| [set](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-and-resetting-bindings) | Update the values in a binding. This can be done by setting a new value or by running a function on current values. This can be done per-player. |
-| [reset](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-and-resetting-bindings) | Reset the values in the bindings. This can be done per-player. |
-| [derive](Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings) | Create a new binding whose values update whenever the original one does. |
-| [static derive](Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings) | Create a new binding whose values update whenever any of the original ones do. |
+| `Binding` Class Member                                                                | Description                                                                                                                                      |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [set](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-and-resetting-bindings)   | Update the values in a binding. This can be done by setting a new value or by running a function on current values. This can be done per-player. |
+| [reset](Meta%20Horizon%20Worlds%20creator%20manual.md#setting-and-resetting-bindings) | Reset the values in the bindings. This can be done per-player.                                                                                   |
+| [derive](Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings)             | Create a new binding whose values update whenever the original one does.                                                                         |
+| [static derive](Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings)      | Create a new binding whose values update whenever any of the original ones do.                                                                   |
 
-#### Creating Bindings
+#### [Creating Bindings](#creating-bindings)
 
 You create a binding using the `Binding` class and pass in the initial value that all players will have:
 
-```
-const binding = new Binding(123)
+```typescript
+const binding = new Binding(123)
 ```
 
 You can specify the type directly if it can’t be inferred from the initial value:
 
-```
-const otherBinding = new Binding<number | string>(123)
+```typescript
+const otherBinding = new Binding<number | string>(123)
 ```
 
 **Value types**: Bindings serialize their values via [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). Thus you cannot use any values that `JSON.stringify` doesn’t allows. For example: **you cannot put a `bigint` into a binding**. This means that an **[Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class) cannot be put into a binding** (since its `id` is a `bigint`).
@@ -7041,7 +7022,7 @@ You can also create bindings by [deriving them](Meta%20Horizon%20Worlds%20creato
 
 **Player Enter**: Whenever a player enters the world they will see the binding with the [global value](Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values).
 
-#### Global vs Player Binding Values
+#### [Global vs Player Binding Values](#global-vs-player-binding-values)
 
 Every binding has an underlying value, the **global value**. When you [create a binding](Meta%20Horizon%20Worlds%20creator%20manual.md#creating-bindings), the value passed in becomes the global value.
 
@@ -7049,322 +7030,336 @@ The value *can be overridden for a player* in the [set and reset](Meta%20Horizon
 
 The **current value** of a player is their override if they have one; otherwise it is the global value.
 
-#### Setting and Resetting Bindings
+#### [Setting and Resetting Bindings](#setting-and-resetting-bindings)
 
 The [Binding class](Meta%20Horizon%20Worlds%20creator%20manual.md#binding-class) has set and resets method to update the value(s) in the binding:
 
-```
-// Binding
+```typescript
+// Binding
 set(
-  value: T | ((prev: T) => T),
-  players?: Array<Player>
-): void
-reset(players?: Array<Player>): void
+  value: T | ((prev: T) => T),
+  players?: Array<Player>
+): void
+reset(players?: Array<Player>): void
 ```
 
 The `reset` method acts exactly like `binding.set(originalValue, players)`.
 
 The **players** argument describes who the update is for. It is optional:
 
-* If `players` is **specified** then those players will get per-player values that [override the global value](Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values).
-* If `players` is **omitted** then the global value will be updated and *all per-player overrides will be cleared*.
+- If `players` is **specified** then those players will get per-player values that [override the global value](Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values).
+- If `players` is **omitted** then the global value will be updated and *all per-player overrides will be cleared*.
 
 The **value** argument specifies the data. It can be a value or a function:
 
-* If it is a **value** then it will be used for the new global value (or new overrides if `players` was included).
-* If it is a **function** then that function will be applied to the current global value to compute the new one. Unless `players` was included, then the function will be used to compute a new override for each of those players using their current values (an override or the global value if they don’t yet have an override).
+- If it is a **value** then it will be used for the new global value (or new overrides if `players` was included).
+- If it is a **function** then that function will be applied to the current global value to compute the new one. Unless `players` was included, then the function will be used to compute a new override for each of those players using their current values (an override or the global value if they don’t yet have an override).
 
 **Derived Bindings**: whenever `set()` or `reset()` is called on a binding, it will also update all bindings that are [derived from it](Meta%20Horizon%20Worlds%20creator%20manual.md#deriving-bindings).
 
 Example uses:
 
-| Code | Global Value | Player Overrides |
-| --- | --- | --- |
-| `binding.set(4)` | Becomes `4` | All player overrides are removed |
-| `binding.set(5, [groucho, harpo])` | Untouched | *Only* Groucho and Harpo will have overrides set to 5 |
-| `binding.set((d: number) => d + 1,)` | Increases by 1 | All player overrides are removed |
-| `binding.set((d: number) => d + 2, [laurel, hardy])` | Untouched | *Only* Laurel and Hardy will have overrides that are their previous values increased by 2. Previous value means their override, if they had one, or the global value otherwise. |
+| Code                                                 | Global Value   | Player Overrides                                                                                                                                                                |
+| ---------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `binding.set(4)`                                     | Becomes `4`    | All player overrides are removed                                                                                                                                                |
+| `binding.set(5, [groucho, harpo])`                   | Untouched      | *Only* Groucho and Harpo will have overrides set to 5                                                                                                                           |
+| `binding.set((d: number) => d + 1,)`                 | Increases by 1 | All player overrides are removed                                                                                                                                                |
+| `binding.set((d: number) => d + 2, [laurel, hardy])` | Untouched      | *Only* Laurel and Hardy will have overrides that are their previous values increased by 2. Previous value means their override, if they had one, or the global value otherwise. |
 
-#### Deriving Bindings
+#### [Deriving Bindings](#deriving-bindings)
 
 The [Binding class](Meta%20Horizon%20Worlds%20creator%20manual.md#binding-class) has a method **derive** that is used to create a binding that **does not have a *set* method**. Instead, these bindings are “downstream” of another binding and use that other binding’s value(s) to compute theirs (every time it changes). For example
 
-```
-const derived = binding.derive((s: string) => s.length)
+```typescript
+const derived = binding.derive((s: string) => s.length)
 ```
 
 creates a new binding whose values are all computed from those in `binding`.
 
-* The [global value](Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values) in `derived` will be updated (by calling the function) whenever the global value in `binding` changes.
-* The [player overrides](Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values) will be updated (by calling the function) on the player overrides in `binding`.
+- The [global value](Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values) in `derived` will be updated (by calling the function) whenever the global value in `binding` changes.
+- The [player overrides](Meta%20Horizon%20Worlds%20creator%20manual.md#global-vs-player-binding-values) will be updated (by calling the function) on the player overrides in `binding`.
 
 You can only derive from a top-level binding. You **cannot derive from a derived binding**.
 
 There is also a `static` version of derive (similar to a *zip* if you know that term) that allows you to create a binding derived from a collection of others. For example here is a binding that contains a `boolean` representing if a `string` in a binding is contained in a `string[]` in another binding.
 
-```
-const needleBinding = new Binding('lemon')
-const haystackBinding = new Binding(['apple', 'pear'])
+```typescript
+const needleBinding = new Binding('lemon')
+const haystackBinding = new Binding(['apple', 'pear'])
 
-const containedBinding = Binding.derive(
-  [needleBinding, haystackBinding],
-  (needle, haystack) => haystack.includes(needle)
+const containedBinding = Binding.derive(
+  [needleBinding, haystackBinding],
+  (needle, haystack) => haystack.includes(needle)
 )
 ```
 
-#### Animated Bindings
+#### [Animated Bindings](#animated-bindings)
 
 The `AnimatedBinding` class offers a way to have a binding change smoothly every frame, which is useful for creating animations. The docs are here:
 
-https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#animatedbinding
+https\://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/api-reference-for-custom-ui#animatedbinding
 
-### UINode Types
+### [UINode Types](#uinode-types)
 
 There are a number of built-in `UINode` types. We link to Meta’s docs below. Most builtin `UINode` types take a `style` argument. The `LayoutStyle` type is documented here:
 
 [Link](../../Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#styles)
 
-#### Conditional UI (If)
+#### [Conditional UI (If)](#conditional-ui-if)
 
 Use `UINode.If` to create a `UINode` that uses a binding to choose between showing one of two children:
 
 [Link](../../Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#if)
 
-#### UI View
+#### [UI View](#ui-view)
 
 [Link](../../Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#view)
 
-#### UI Text
+#### [UI Text](#ui-text)
 
 [Link](../../Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#text)
 
-#### UI Image
+#### [UI Image](#ui-image)
 
 [Link](../../Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#image)
 
-#### UI Pressable
+#### [UI Pressable](#ui-pressable)
 
 [Link](../../Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#pressable)
 
-#### UI ScrollView
+#### [UI ScrollView](#ui-scrollview)
 
 [Link](../../Desktop%20editor/Custom%20UI/Custom%20UI%20Styles.md#scrollview)
 
-#### UI Dynamic List
+#### [UI Dynamic List](#ui-dynamic-list)
 
 [Link](../../Desktop%20editor/Custom%20UI/Custom%20UI%20Dynamic%20List.md)
 
+## [Navigation Mesh](#navigation-mesh)
+
 [Link](../../Desktop%20editor/NPCs/NPCs%20Overview.md)
+
+### [Navigation Mesh Volume](#navigation-mesh-volume)
 
 [Link](../../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-gizmo)
 
+### [Navigation Mesh Profile](#navigation-mesh-profile)
+
 [Link](../../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-profile)
+
+### [Navigation Mesh Agent](#navigation-mesh-agent)
 
 [Link](../../Desktop%20editor/NPCs/Nav%20Mesh%20Agents.md)
 
-## Cross Screens - Mobile vs PC vs VR
+## [Cross Screens - Mobile vs PC vs VR](#cross-screens---mobile-vs-pc-vs-vr)
 
 [Link](../../Mobile%20and%20web/Create%20for%20web%20and%20mobile.md)
 
-### Camera
+### [Camera](#camera)
 
 [Link](../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md)
 
-## Common Problems and Troubleshooting
+## [Common Problems and Troubleshooting](#common-problems-and-troubleshooting)
 
 **Desktop Editor**
 
-* If you reset the world without stopping it first, it is possible the things don’t fully reset. We recommend that you **always do Stop -> Reset -> Play**.
-* If scripts are not syncing or you modify an entity’s properties and don’t see it behaving as if it has the updates then **leave the world and return**.
-* If leaving a world and returning doesn’t fix an issue, you may want to have everyone leave the [editor instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection) for a few minutes so that the instance is shut down and a new one can be created when you return.
-* While waiting for an instance to shutdown, or just as another “debug” trick to try, you can **quit the Desktop app and then relaunch it**.
-* If scripts are not syncing you can **delete the `.editor` file and then leave the world and return**.
-* When you see an error message showing just an [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class)`id` (such as 100006) then you can do **an entity debug trick** and run
+- If you reset the world without stopping it first, it is possible the things don’t fully reset. We recommend that you **always do Stop -> Reset -> Play**.
 
-  ```
-    console.log(
-      new Entity(BigInt("100006")).name.get()
-    )
+- If scripts are not syncing or you modify an entity’s properties and don’t see it behaving as if it has the updates then **leave the world and return**.
+
+- If leaving a world and returning doesn’t fix an issue, you may want to have everyone leave the [editor instance](Meta%20Horizon%20Worlds%20creator%20manual.md#instance-selection) for a few minutes so that the instance is shut down and a new one can be created when you return.
+
+- While waiting for an instance to shutdown, or just as another “debug” trick to try, you can **quit the Desktop app and then relaunch it**.
+
+- If scripts are not syncing you can **delete the `.editor` file and then leave the world and return**.
+
+- When you see an error message showing just an [Entity](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-class)`id` (such as 100006) then you can do **an entity debug trick** and run
+
+  ```typescript
+    console.log(
+      new Entity(BigInt("100006")).name.get()
+    )
   ```
 
   to see the name of the entity. You should **never call `new Entity` in a published world**.
 
-### Horizon TypeScript Symbols
+### [Horizon TypeScript Symbols](#horizon-typescript-symbols)
 
-* [AchievementsGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#quests)
-* [AIAgentGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)
-* [AimAssistOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#aim-assist)
-* [AnimatedEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#animated-entities)
-* [AnimationCallback](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
-* [AnimationCallbackReason](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
-* [AnimationCallbackReasons](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
-* [assert](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
-* [Asset](Meta%20Horizon%20Worlds%20creator%20manual.md#assets)
-* [AssetContentData](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)
-* [AttachableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)
-* [AttachablePlayerAnchor](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)
-* [AudioGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)
-* [AudibilityMode](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)
-* [AudioOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)
-* [AvatarGripPose](Meta%20Horizon%20Worlds%20creator%20manual.md#player-pose)
-* [AvatarGripPoseAnimationNames](Meta%20Horizon%20Worlds%20creator%20manual.md#player-pose)
-* [BaseRaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
-* [BuiltInVariableType](Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype)
-* [ButtonIcon](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-buttonicon)
-* [ButtonPlacement](Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
-* [clamp](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
-* [Color](Meta%20Horizon%20Worlds%20creator%20manual.md#color)
-* [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)
-* [Comparable](Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface)
-* [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
-* [CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events)
-* [DefaultFetchAsDataOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)
-* [DefaultFocusedInteractionTapOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
-* [DefaultFocusedInteractionTrailOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
-* [DefaultPopupOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#popups)
-* [DefaultSpringOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#springs)
-* [DefaultThrowOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)
-* [DefaultTooltipOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
-* [degreesToRadians](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
-* [DisposableObject](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
-* [DisposableOperation](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
-* [DisposableOperationRegistration](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
-* [DynamicLightGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo)
-* [EntityInteractionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)
-* [EntityRaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
-* [EntityStyle](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style)
-* [EntityTagMatchOperation](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags)
-* [EulerOrder](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion)
-* [EventSubscription](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)
-* [FetchAsDataOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)
-* [FocusedInteraction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
-* [FocusedInteractionTapOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
-* [FocusedInteractionTrailOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
-* [GrabbableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)
-* **Handedness**: [force hold](Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing), [haptics](Meta%20Horizon%20Worlds%20creator%20manual.md#haptics), [throwing](Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)
-* [HapticSharpness](Meta%20Horizon%20Worlds%20creator%20manual.md#haptics)
-* [HapticStrength](Meta%20Horizon%20Worlds%20creator%20manual.md#haptics)
-* [HorizonProperty](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
-* [HorizonSetProperty](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
-* [InteractionInfo](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
-* [IPersistentStorage](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence)
-* [IUI](Meta%20Horizon%20Worlds%20creator%20manual.md#showing-players-temporary-messages)
-* [IWPSellerGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-gizmo)
-* [LaunchProjectileOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)
-* [LayerType](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
-* [Leaderboards](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards)
-* [LocalEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events)
-* [LocalEventData](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events)
-* [MaterialAsset](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset)
-* [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)
-* [MonetizationTimeOption](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)
-* [NetworkEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events)
-* [NetworkEventData](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events)
-* [ParticleFXPlayOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)
-* [ParticleFXStopOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)
-* [ParticleGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)
-* [PersistentSerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)
-* [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)
-* [PhysicsForceMode](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)
-* [PlayAnimationOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
-* [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players)
-* [PlayerBodyPart](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)
-* [PlayerBodyPartType](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)
-* [PlayerDeviceType](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)
-* [PlayerHand](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)
-* [PlayerControls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls)
-* [PlayerControlsConnectOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
-* [PlayerInput](Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
-* [PlayerInputAction](Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction)
-* [PlayerInputStateChangeCallback](Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
-* [PlayerRaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
-* [PlayerVisibilityMode](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility)
-* [PopupOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#popups)
-* [ProjectileLauncherGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)
-* [PropTypes](Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes)
-* [Quaternion](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion)
-* [radiansToDegrees](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
-* [RaycastGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
-* [RaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
-* [RaycastTargetType](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
-* [ReadableHorizonProperty](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
-* [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)
-* [SetMaterialOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset)
-* [SetMeshOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-setmesh)
-* [SetTextureOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)
-* **Space**: [body part](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts), [transform helpers](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers)
-* [SpawnController](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
-* [SpawnControllerBase](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
-* [SpawnError](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
-* [SpawnPointGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-point-gizmo)
-* [SpawnState](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
-* [SpringOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#springs)
-* [StaticRaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
-* [StopAnimationOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
-* [TextGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo)
-* [TextureAsset](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)
-* [ThrowOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)
-* [TooltipAnchorLocation](Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
-* [TooltipLineAttachmentProperties](Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
-* [TooltipOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
-* [TrailGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo)
-* [Transform](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms)
-* [TriggerGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo)
-* [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)
-* [VoipSettingValues](Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings)
-* [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class)
-* [WritableHorizonProperty](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
+- [AchievementsGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#quests)
+- [AIAgentGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#npc-gizmo)
+- [AimAssistOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#aim-assist)
+- [AnimatedEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#animated-entities)
+- [AnimationCallback](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+- [AnimationCallbackReason](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+- [AnimationCallbackReasons](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+- [assert](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
+- [Asset](Meta%20Horizon%20Worlds%20creator%20manual.md#assets)
+- [AssetContentData](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)
+- [AttachableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)
+- [AttachablePlayerAnchor](Meta%20Horizon%20Worlds%20creator%20manual.md#attaching-entities)
+- [AudioGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)
+- [AudibilityMode](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)
+- [AudioOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)
+- [AvatarGripPose](Meta%20Horizon%20Worlds%20creator%20manual.md#player-pose)
+- [AvatarGripPoseAnimationNames](Meta%20Horizon%20Worlds%20creator%20manual.md#player-pose)
+- [BaseRaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+- [BuiltInVariableType](Meta%20Horizon%20Worlds%20creator%20manual.md#builtinvariabletype)
+- [ButtonIcon](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-buttonicon)
+- [ButtonPlacement](Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
+- [clamp](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
+- [Color](Meta%20Horizon%20Worlds%20creator%20manual.md#color)
+- [CodeBlockEvents](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)
+- [Comparable](Meta%20Horizon%20Worlds%20creator%20manual.md#comparable-interface)
+- [Component](Meta%20Horizon%20Worlds%20creator%20manual.md#component-class)
+- [CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#code-block-events)
+- [DefaultFetchAsDataOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)
+- [DefaultFocusedInteractionTapOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+- [DefaultFocusedInteractionTrailOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+- [DefaultPopupOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#popups)
+- [DefaultSpringOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#springs)
+- [DefaultThrowOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)
+- [DefaultTooltipOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
+- [degreesToRadians](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
+- [DisposableObject](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
+- [DisposableOperation](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
+- [DisposableOperationRegistration](Meta%20Horizon%20Worlds%20creator%20manual.md#disposing-objects)
+- [DynamicLightGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#dynamic-light-gizmo)
+- [EntityInteractionMode](Meta%20Horizon%20Worlds%20creator%20manual.md#interactive-entities)
+- [EntityRaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+- [EntityStyle](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-style)
+- [EntityTagMatchOperation](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-tags)
+- [EulerOrder](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion)
+- [EventSubscription](Meta%20Horizon%20Worlds%20creator%20manual.md#receiving-events)
+- [FetchAsDataOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#text-asset-json)
+- [FocusedInteraction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+- [FocusedInteractionTapOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+- [FocusedInteractionTrailOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+- [GrabbableEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#grabbing-and-holding-entities)
+- **Handedness**: [force hold](Meta%20Horizon%20Worlds%20creator%20manual.md#force-grabbing), [haptics](Meta%20Horizon%20Worlds%20creator%20manual.md#haptics), [throwing](Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)
+- [HapticSharpness](Meta%20Horizon%20Worlds%20creator%20manual.md#haptics)
+- [HapticStrength](Meta%20Horizon%20Worlds%20creator%20manual.md#haptics)
+- [HorizonProperty](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
+- [HorizonSetProperty](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
+- [InteractionInfo](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)
+- [IPersistentStorage](Meta%20Horizon%20Worlds%20creator%20manual.md#persistence)
+- [IUI](Meta%20Horizon%20Worlds%20creator%20manual.md#showing-players-temporary-messages)
+- [IWPSellerGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-gizmo)
+- [LaunchProjectileOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)
+- [LayerType](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+- [Leaderboards](Meta%20Horizon%20Worlds%20creator%20manual.md#leaderboards)
+- [LocalEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events)
+- [LocalEventData](Meta%20Horizon%20Worlds%20creator%20manual.md#local-events)
+- [MaterialAsset](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset)
+- [MeshEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-class)
+- [MonetizationTimeOption](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)
+- [NetworkEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events)
+- [NetworkEventData](Meta%20Horizon%20Worlds%20creator%20manual.md#network-events)
+- [ParticleFXPlayOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)
+- [ParticleFXStopOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)
+- [ParticleGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#particlefx-gizmo)
+- [PersistentSerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)
+- [PhysicalEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#physicalentity-class)
+- [PhysicsForceMode](Meta%20Horizon%20Worlds%20creator%20manual.md#applying-forces-and-torque)
+- [PlayAnimationOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+- [Player](Meta%20Horizon%20Worlds%20creator%20manual.md#players)
+- [PlayerBodyPart](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)
+- [PlayerBodyPartType](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)
+- [PlayerDeviceType](Meta%20Horizon%20Worlds%20creator%20manual.md#player-device-type)
+- [PlayerHand](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts)
+- [PlayerControls](Meta%20Horizon%20Worlds%20creator%20manual.md#player-controls)
+- [PlayerControlsConnectOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
+- [PlayerInput](Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
+- [PlayerInputAction](Meta%20Horizon%20Worlds%20creator%20manual.md#playerinputaction)
+- [PlayerInputStateChangeCallback](Meta%20Horizon%20Worlds%20creator%20manual.md#connect-local-input)
+- [PlayerRaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+- [PlayerVisibilityMode](Meta%20Horizon%20Worlds%20creator%20manual.md#entity-visibility)
+- [PopupOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#popups)
+- [ProjectileLauncherGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)
+- [PropTypes](Meta%20Horizon%20Worlds%20creator%20manual.md#proptypes)
+- [Quaternion](Meta%20Horizon%20Worlds%20creator%20manual.md#quaternion)
+- [radiansToDegrees](Meta%20Horizon%20Worlds%20creator%20manual.md#scripting-helper-functions)
+- [RaycastGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+- [RaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+- [RaycastTargetType](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+- [ReadableHorizonProperty](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
+- [SerializableState](Meta%20Horizon%20Worlds%20creator%20manual.md#serializablestate)
+- [SetMaterialOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#material-asset)
+- [SetMeshOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#meshentity-setmesh)
+- [SetTextureOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)
+- **Space**: [body part](Meta%20Horizon%20Worlds%20creator%20manual.md#player-body-parts), [transform helpers](Meta%20Horizon%20Worlds%20creator%20manual.md#transform-helpers)
+- [SpawnController](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
+- [SpawnControllerBase](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
+- [SpawnError](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
+- [SpawnPointGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-point-gizmo)
+- [SpawnState](Meta%20Horizon%20Worlds%20creator%20manual.md#advanced-spawning-spawncontroller)
+- [SpringOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#springs)
+- [StaticRaycastHit](Meta%20Horizon%20Worlds%20creator%20manual.md#raycast-gizmo)
+- [StopAnimationOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#avatar-animation)
+- [TextGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#text-gizmo)
+- [TextureAsset](Meta%20Horizon%20Worlds%20creator%20manual.md#texture-asset)
+- [ThrowOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#throwing)
+- [TooltipAnchorLocation](Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
+- [TooltipLineAttachmentProperties](Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
+- [TooltipOptions](Meta%20Horizon%20Worlds%20creator%20manual.md#tooltips)
+- [TrailGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#trailfx-gizmo)
+- [Transform](Meta%20Horizon%20Worlds%20creator%20manual.md#transforms)
+- [TriggerGizmo](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo)
+- [Vec3](Meta%20Horizon%20Worlds%20creator%20manual.md#vec3)
+- [VoipSettingValues](Meta%20Horizon%20Worlds%20creator%20manual.md#voip-settings)
+- [World](Meta%20Horizon%20Worlds%20creator%20manual.md#world-class)
+- [WritableHorizonProperty](Meta%20Horizon%20Worlds%20creator%20manual.md#horizon-properties)
 
-## All Built-In CodeBlockEvents
+## [All Built-In CodeBlockEvents](#all-built-in-codeblockevents)
 
 In the table below:
 
-* 🔈 is a *[CodeBlockEvent broadcast on the server](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)*.
-* 🏠 is a *[CodeBlockEvent broadcast on the device owned by the player in the parameters](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)*.
+- 🔈 is a *[CodeBlockEvent broadcast on the server](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)*.
+- 🏠 is a *[CodeBlockEvent broadcast on the device owned by the player in the parameters](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)*.
 
-| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events) | Parameter(s) |
-| --- | --- |
-| 🔈[OnAchievementComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#quests-gizmo) | `player: Player` `scriptId: string` |
-| 🔈[OnAssetDespawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-codeblockevents) | `entity: Entity` `asset: Asset` |
-| 🔈[OnAssetSpawnFailed](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-codeblockevents) | `asset: Asset` |
-| 🔈[OnAssetSpawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-codeblockevents) | `entity: Entity` `asset: Asset` |
-| [OnAttachEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) | `player: Player` |
-| [OnAttachStart](Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by) | `player: Player` |
-| [OnAudioCompleted](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo) |  |
-| [OnButton1Down](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
-| [OnButton1Up](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
-| [OnButton2Down](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
-| [OnButton2Up](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
-| 🔈OnCameraPhotoTaken | `player: Player` `isSelfie: boolean` |
-| [OnEntityCollision](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) | `collidedWith: Entity` `collisionAt: Vec3, normal: Vec3, relativeVelocity: Vec3, localColliderName: string, OtherColliderName: string` |
-| [OnEntityEnterTrigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `enteredBy: Entity` |
-| [OnEntityExitTrigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `enteredBy: Entity` |
-| [OnGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) | `player: Player` |
-| [OnGrabStart](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) | `isRightHand: boolean` `player: Player` |
-| [OnIndexTriggerDown](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
-| [OnIndexTriggerUp](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents) | `player: Player` |
-| [OnItemConsumeComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | `player: Player` `item: string, success: boolean` |
-| [OnItemConsumeStart](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | `player: Player` `item: string` |
-| 🔈[OnItemPurchaseComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) | `player: Player` `item: string, success: boolean` |
-| 🔈[OnItemPurchaseFailed](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) | `player: Player` `item: string` |
-| 🔈[OnItemPurchaseStart](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) | `player: Player` `item: string` |
-| 🔈[OnItemPurchaseSucceeded](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items) | `player: Player` `item: string` |
-| [OnMultiGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) | `player: Player` |
-| [OnMultiGrabStart](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events) | `player: Player` |
-| OnPassiveInstanceCameraCreated | `sessionId: Player` `cameraMode: string` |
-| [OnPlayerCollision](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events) | `collidedWith: Player` `collisionAt: Vec3, normal: Vec3, relativeVelocity: Vec3, localColliderName: string, OtherColliderName: string` |
-| 🔈[OnPlayerConsumeFailed](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | `player: Player` `item: string` |
-| 🔈[OnPlayerConsumeSucceeded](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items) | `player: Player` `item: string` |
-| 🔈[OnPlayerEnterAFK](Meta%20Horizon%20Worlds%20creator%20manual.md#player-enter-and-exit-afk) | `player: Player` |
-| [OnPlayerEnterTrigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `enteredBy: Player` |
-| 🔈[OnPlayerEnterWorld](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) | `player: Player` |
-| 🏠[OnPlayerEnteredFocusedInteraction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | `player: Player` |
-| 🔈[OnPlayerExitAFK](Meta%20Horizon%20Worlds%20creator%20manual.md#player-enter-and-exit-afk) | `player: Player` |
-| [OnPlayerExitTrigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo) | `exitedBy: Player` |
-| 🔈[OnPlayerExitWorld](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) | `player: Player` |
-| 🏠[OnPlayerExitedFocusedInteraction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction) | `player: Player` |
-| [OnPlayerSpawnedItem](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-gizmo) | `player: Player` `item: Entity` |
-| [OnProjectileLaunched](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `launcher: Entity` |
-| [OnProjectileHitEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `objectHit: Entity` `position: Vec3` `normal: Vec3` `isStaticHit: boolean` |
-| [OnProjectileHitPlayer](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `playerHit: Player` `position: Vec3` `normal: Vec3` `headshot: boolean` |
-| [OnProjectileExpired](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo) | `position: Vec3` `rotation: Quaternion` `velocity: Vec3` |
+| [Built-In CodeBlockEvent](Meta%20Horizon%20Worlds%20creator%20manual.md#built-in-code-block-events)       | Parameter(s)                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔈[OnAchievementComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#quests-gizmo)                     | `player: Player` `scriptId: string`                                                                                                    |
+| 🔈[OnAssetDespawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-codeblockevents)                 | `entity: Entity` `asset: Asset`                                                                                                        |
+| 🔈[OnAssetSpawnFailed](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-codeblockevents)               | `asset: Asset`                                                                                                                         |
+| 🔈[OnAssetSpawned](Meta%20Horizon%20Worlds%20creator%20manual.md#spawn-codeblockevents)                   | `entity: Entity` `asset: Asset`                                                                                                        |
+| [OnAttachEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by)                                | `player: Player`                                                                                                                       |
+| [OnAttachStart](Meta%20Horizon%20Worlds%20creator%20manual.md#attachable-by)                              | `player: Player`                                                                                                                       |
+| [OnAudioCompleted](Meta%20Horizon%20Worlds%20creator%20manual.md#sound-gizmo)                             |                                                                                                                                        |
+| [OnButton1Down](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents)               | `player: Player`                                                                                                                       |
+| [OnButton1Up](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents)                 | `player: Player`                                                                                                                       |
+| [OnButton2Down](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents)               | `player: Player`                                                                                                                       |
+| [OnButton2Up](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents)                 | `player: Player`                                                                                                                       |
+| 🔈OnCameraPhotoTaken                                                                                      | `player: Player` `isSelfie: boolean`                                                                                                   |
+| [OnEntityCollision](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events)                       | `collidedWith: Entity` `collisionAt: Vec3, normal: Vec3, relativeVelocity: Vec3, localColliderName: string, OtherColliderName: string` |
+| [OnEntityEnterTrigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo)                       | `enteredBy: Entity`                                                                                                                    |
+| [OnEntityExitTrigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo)                        | `enteredBy: Entity`                                                                                                                    |
+| [OnGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events)                       | `player: Player`                                                                                                                       |
+| [OnGrabStart](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events)                     | `isRightHand: boolean` `player: Player`                                                                                                |
+| [OnIndexTriggerDown](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents)          | `player: Player`                                                                                                                       |
+| [OnIndexTriggerUp](Meta%20Horizon%20Worlds%20creator%20manual.md#player-input-codeblockevents)            | `player: Player`                                                                                                                       |
+| [OnItemConsumeComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)          | `player: Player` `item: string, success: boolean`                                                                                      |
+| [OnItemConsumeStart](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)             | `player: Player` `item: string`                                                                                                        |
+| 🔈[OnItemPurchaseComplete](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items)          | `player: Player` `item: string, success: boolean`                                                                                      |
+| 🔈[OnItemPurchaseFailed](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items)            | `player: Player` `item: string`                                                                                                        |
+| 🔈[OnItemPurchaseStart](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items)             | `player: Player` `item: string`                                                                                                        |
+| 🔈[OnItemPurchaseSucceeded](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-durable-items)         | `player: Player` `item: string`                                                                                                        |
+| [OnMultiGrabEnd](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events)                  | `player: Player`                                                                                                                       |
+| [OnMultiGrabStart](Meta%20Horizon%20Worlds%20creator%20manual.md#grab-sequence-and-events)                | `player: Player`                                                                                                                       |
+| OnPassiveInstanceCameraCreated                                                                            | `sessionId: Player` `cameraMode: string`                                                                                               |
+| [OnPlayerCollision](Meta%20Horizon%20Worlds%20creator%20manual.md#collision-events)                       | `collidedWith: Player` `collisionAt: Vec3, normal: Vec3, relativeVelocity: Vec3, localColliderName: string, OtherColliderName: string` |
+| 🔈[OnPlayerConsumeFailed](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)        | `player: Player` `item: string`                                                                                                        |
+| 🔈[OnPlayerConsumeSucceeded](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-consumable-items)     | `player: Player` `item: string`                                                                                                        |
+| 🔈[OnPlayerEnterAFK](Meta%20Horizon%20Worlds%20creator%20manual.md#player-enter-and-exit-afk)             | `player: Player`                                                                                                                       |
+| [OnPlayerEnterTrigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo)                       | `enteredBy: Player`                                                                                                                    |
+| 🔈[OnPlayerEnterWorld](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world) | `player: Player`                                                                                                                       |
+| 🏠[OnPlayerEnteredFocusedInteraction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)  | `player: Player`                                                                                                                       |
+| 🔈[OnPlayerExitAFK](Meta%20Horizon%20Worlds%20creator%20manual.md#player-enter-and-exit-afk)              | `player: Player`                                                                                                                       |
+| [OnPlayerExitTrigger](Meta%20Horizon%20Worlds%20creator%20manual.md#trigger-gizmo)                        | `exitedBy: Player`                                                                                                                     |
+| 🔈[OnPlayerExitWorld](Meta%20Horizon%20Worlds%20creator%20manual.md#player-entering-and-exiting-a-world)  | `player: Player`                                                                                                                       |
+| 🏠[OnPlayerExitedFocusedInteraction](Meta%20Horizon%20Worlds%20creator%20manual.md#focused-interaction)   | `player: Player`                                                                                                                       |
+| [OnPlayerSpawnedItem](Meta%20Horizon%20Worlds%20creator%20manual.md#in-world-item-gizmo)                  | `player: Player` `item: Entity`                                                                                                        |
+| [OnProjectileLaunched](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)           | `launcher: Entity`                                                                                                                     |
+| [OnProjectileHitEntity](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)          | `objectHit: Entity` `position: Vec3` `normal: Vec3` `isStaticHit: boolean`                                                             |
+| [OnProjectileHitPlayer](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)          | `playerHit: Player` `position: Vec3` `normal: Vec3` `headshot: boolean`                                                                |
+| [OnProjectileExpired](Meta%20Horizon%20Worlds%20creator%20manual.md#projectile-launcher-gizmo)            | `position: Vec3` `rotation: Quaternion` `velocity: Vec3`                                                                               |
+

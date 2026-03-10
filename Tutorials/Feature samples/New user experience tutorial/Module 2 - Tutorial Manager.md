@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/new-user-experience-tutorial/module-2-tutorial-manager
 ---
 
-# Module 2 - Tutorial Manager
+# [Module 2 - Tutorial Manager](#module-2---tutorial-manager)
 
 In this module we will cover how the Tutorial Manager works and how to use it to create structured slide-based tutorials that help onboard new users to your world.
 
@@ -14,79 +14,86 @@ You may want to add this to your world to provide structured onboarding for new 
 
 The Tutorial Manager works with the following scripts included in the tutorial world:
 
-* `TutorialController.ts` - Manages tutorial slides and handles trigger-based tutorial activation
-* `TutorialSlide.ts` - Represents individual tutorial slides with configurable content and ordering
-* `UIHighlight.ts` - Provides UI highlighting for tutorial elements (used with other systems)
-* `TutorialManager.ts` - Coordinates overall tutorial flow and player progression
+- `TutorialController.ts` - Manages tutorial slides and handles trigger-based tutorial activation
+- `TutorialSlide.ts` - Represents individual tutorial slides with configurable content and ordering
+- `UIHighlight.ts` - Provides UI highlighting for tutorial elements (used with other systems)
+- `TutorialManager.ts` - Coordinates overall tutorial flow and player progression
 
-## Implement the tutorial slide system components
+## [Implement the tutorial slide system components](#implement-the-tutorial-slide-system-components)
 
 In the New User Experience (NUX) tutorial world, the tutorial slide system creates interactive slideshow presentations that players can navigate through using Horizon’s built-in InfoSlide interface. The system automatically loads, sorts, and displays slides when triggered by player interactions.
 
 The tutorial system uses a hierarchical approach where `TutorialController.ts` manages the overall presentation and triggers, while `TutorialSlide.ts` components define individual slide content and ordering.
 
-### Understanding the tutorial slide architecture
+### [Understanding the tutorial slide architecture](#understanding-the-tutorial-slide-architecture)
 
 The tutorial slide system consists of several key components:
 
-* **TutorialController**: Manages slide loading, sorting, and presentation to players
-* **TutorialSlide**: Represents individual slides with content, images, and display properties
-* **Trigger Integration**: Connects tutorial activation to player interactions (typically trigger zones)
-* **InfoSlide API**: Leverages Horizon’s native slideshow presentation system
+- **TutorialController**: Manages slide loading, sorting, and presentation to players
+- **TutorialSlide**: Represents individual slides with content, images, and display properties
+- **Trigger Integration**: Connects tutorial activation to player interactions (typically trigger zones)
+- **InfoSlide API**: Leverages Horizon’s native slideshow presentation system
 
-### Setup the tutorial controller system
+### [Setup the tutorial controller system](#setup-the-tutorial-controller-system)
 
 The `TutorialController.ts` script handles the core tutorial management and presentation logic.
 
-- **Create the tutorial controller entity**: Create an empty object in your world to house the tutorial system. Attach the `TutorialController.ts` script to this entity.
+1. **Create the tutorial controller entity**: Create an empty object in your world to house the tutorial system. Attach the `TutorialController.ts` script to this entity.
 
-  ![Tutorial Controller Entity](../../../_assets/images/716287930a2b68a511a5339673bf5fc5c6394b70a9c4533dee512ffb4c60dda0.png)
-- **Configure the trigger zone**: Create a **Trigger Zone** gizmo and position it where you want players to activate the tutorial. In the Properties panel for the TutorialController script, assign this trigger zone to the **trigger** property. The script automatically connects to the trigger’s `OnPlayerEnterTrigger` event.
-- **Prepare the slide container structure**: The TutorialController automatically searches for `TutorialSlide` components in its child entities. Create child objects under the TutorialController entity to house your individual slides.
+   ![Tutorial Controller Entity](../../../_assets/images/716287930a2b68a511a5339673bf5fc5c6394b70a9c4533dee512ffb4c60dda0.png)
 
-### Create and configure tutorial slides
+2. **Configure the trigger zone**: Create a **Trigger Zone** gizmo and position it where you want players to activate the tutorial. In the Properties panel for the TutorialController script, assign this trigger zone to the **trigger** property. The script automatically connects to the trigger’s `OnPlayerEnterTrigger` event.
+
+3. **Prepare the slide container structure**: The TutorialController automatically searches for `TutorialSlide` components in its child entities. Create child objects under the TutorialController entity to house your individual slides.
+
+### [Create and configure tutorial slides](#create-and-configure-tutorial-slides)
 
 The `TutorialSlide.ts` script defines the content and properties for individual slides in your tutorial presentation.
 
-- **Create individual slide entities**: For each slide in your tutorial:
-  * Create an empty child object under the TutorialController entity
-  * Attach the `TutorialSlide.ts` script to each child object
-  * Configure the slide properties in the entity inspector
-- **Configure slide content properties**: Set up the essential content for each slide:
-  * **order**: Set the sequence number (1, 2, 3, etc.) to control slide order in the presentation
-  * **title**: Set the slide title (default: ‘Tutorial Slide’)
-  * **message**: Set the main instructional content (default: ‘This is a tutorial slide.’)
-  * **imageURL**: Set the asset ID string for any image to display on the slide (optional)
-  * **attachImageToHeader**: Toggle to attach the image to the slide header instead of the body (default: false)
+1. **Create individual slide entities**: For each slide in your tutorial:
+   - Create an empty child object under the TutorialController entity
+   - Attach the `TutorialSlide.ts` script to each child object
+   - Configure the slide properties in the entity inspector
 
-  ![Tutorial Slide Properties](../../../_assets/images/5e7564a8d3a6bfdf13f7b18e34852ecc402c57c83ea9775ebe46dac8daa3b897.png)
-- **Understanding slide sorting and loading**: The TutorialController automatically:
-  * Searches all child entities for `TutorialSlide` components
-  * Sorts slides by their `order` property (ascending)
-  * Converts slide data to Horizon’s `InfoSlide` format
-  * Stores the organized slideshow for presentation
+2. **Configure slide content properties**: Set up the essential content for each slide:
 
-### Advanced tutorial slide features
+   - **order**: Set the sequence number (1, 2, 3, etc.) to control slide order in the presentation
+   - **title**: Set the slide title (default: ‘Tutorial Slide’)
+   - **message**: Set the main instructional content (default: ‘This is a tutorial slide.’)
+   - **imageURL**: Set the asset ID string for any image to display on the slide (optional)
+   - **attachImageToHeader**: Toggle to attach the image to the slide header instead of the body (default: false)
 
-- **Dynamic content modification**: The `TutorialSlide.ts` script supports runtime content changes through public methods:
+   ![Tutorial Slide Properties](../../../_assets/images/5e7564a8d3a6bfdf13f7b18e34852ecc402c57c83ea9775ebe46dac8daa3b897.png)
 
-  ```
-  // Change slide content dynamically
-  tutorialSlide.changeTitle('New Title');
-  tutorialSlide.changeMessage('Updated message content');
-  tutorialSlide.changeImageUri('1234567890123456'); // Asset ID string
-  tutorialSlide.changeAttachImageToHeader(true);
-  ```
-- **Image and visual configuration**: Configure slide visuals effectively:
-  * **Image assets**: Use valid asset ID strings for the `imageUri` property
-  * **Header vs body images**: Toggle `attachImageToHeader` to control image placement
-  * **Slide styling**: Images and text follow Horizon’s default InfoSlide styling
-- **Tutorial flow control**: The system provides several access methods:
-  * **Manual Triggering**: Call `tutorialController.playTutorial(player)` from other scripts
-  * **Slide Access**: Use `tutorialController.getTutorialSlides()` to retrieve loaded slides
-  * **Content refresh**: Call `tutorialController.loadSlides()` to reload and re-sort slides
+3. **Understanding slide sorting and loading**: The TutorialController automatically:
+   - Searches all child entities for `TutorialSlide` components
+   - Sorts slides by their `order` property (ascending)
+   - Converts slide data to Horizon’s `InfoSlide` format
+   - Stores the organized slideshow for presentation
 
-### Implementation best practices
+### [Advanced tutorial slide features](#advanced-tutorial-slide-features)
+
+1. **Dynamic content modification**: The `TutorialSlide.ts` script supports runtime content changes through public methods:
+
+   ```typescript
+   // Change slide content dynamically
+   tutorialSlide.changeTitle('New Title');
+   tutorialSlide.changeMessage('Updated message content');
+   tutorialSlide.changeImageUri('1234567890123456'); // Asset ID string
+   tutorialSlide.changeAttachImageToHeader(true);
+   ```
+
+2. **Image and visual configuration**: Configure slide visuals effectively:
+   - **Image assets**: Use valid asset ID strings for the `imageUri` property
+   - **Header vs body images**: Toggle `attachImageToHeader` to control image placement
+   - **Slide styling**: Images and text follow Horizon’s default InfoSlide styling
+
+3. **Tutorial flow control**: The system provides several access methods:
+   - **Manual Triggering**: Call `tutorialController.playTutorial(player)` from other scripts
+   - **Slide Access**: Use `tutorialController.getTutorialSlides()` to retrieve loaded slides
+   - **Content refresh**: Call `tutorialController.loadSlides()` to reload and re-sort slides
+
+### [Implementation best practices](#implementation-best-practices)
 
 **For Simple Tutorials**: Create 3-5 slides with clear titles, concise messages, and relevant images to teach basic mechanics.
 
@@ -94,28 +101,29 @@ The `TutorialSlide.ts` script defines the content and properties for individual 
 
 **For Contextual Help**: Combine with other trigger systems to show tutorials when players reach specific areas or unlock features.
 
-### Understanding the tutorial presentation flow
+### [Understanding the tutorial presentation flow](#understanding-the-tutorial-presentation-flow)
 
 When a player enters the trigger zone, the system:
 
-- **Trigger detection**: TutorialController detects player entry via the assigned trigger zone
-- **Slide loading**: Loads and sorts all TutorialSlide components from child entities
-- **Format conversion**: Converts slide data to Horizon’s InfoSlide format with proper styling
-- **Presentation start**: Calls `player.showInfoSlides()` to display the slideshow to the triggering player
-- **Player navigation**: Player can navigate through slides using Horizon’s built-in controls
-- **Automatic cleanup**: Slideshow closes when player completes or exits the presentation
+1. **Trigger detection**: TutorialController detects player entry via the assigned trigger zone
+2. **Slide loading**: Loads and sorts all TutorialSlide components from child entities
+3. **Format conversion**: Converts slide data to Horizon’s InfoSlide format with proper styling
+4. **Presentation start**: Calls `player.showInfoSlides()` to display the slideshow to the triggering player
+5. **Player navigation**: Player can navigate through slides using Horizon’s built-in controls
+6. **Automatic cleanup**: Slideshow closes when player completes or exits the presentation
 
-### Testing your tutorial slide implementation
+### [Testing your tutorial slide implementation](#testing-your-tutorial-slide-implementation)
 
 Once your tutorial slide system is implemented, thoroughly test:
 
-- **Trigger Testing**: Walk into trigger zones and verify tutorials activate correctly
-- **Slide Order Testing**: Confirm slides appear in the correct sequence based on order properties
-- **Content Testing**: Verify titles, messages, and images display properly
-- **Navigation Testing**: Test slide progression using Horizon’s built-in navigation controls
-- **Multi-player Testing**: Ensure tutorials work properly for multiple players simultaneously
-- **Visual Testing**: Confirm image placement and text formatting appear as intended
+1. **Trigger Testing**: Walk into trigger zones and verify tutorials activate correctly
+2. **Slide Order Testing**: Confirm slides appear in the correct sequence based on order properties
+3. **Content Testing**: Verify titles, messages, and images display properly
+4. **Navigation Testing**: Test slide progression using Horizon’s built-in navigation controls
+5. **Multi-player Testing**: Ensure tutorials work properly for multiple players simultaneously
+6. **Visual Testing**: Confirm image placement and text formatting appear as intended
 
 ![Tutorial Slide Example](../../../_assets/images/e8be994a1eedf6dbdd6903fca4f3647dd8cb3e62a0466fcd23cc8694dbfb9297.png)
 
 With a comprehensive tutorial slide system in place, you can provide structured, professional onboarding experiences that guide players through your world’s features using interactive slideshow presentations that leverage Horizon’s native tutorial capabilities.
+

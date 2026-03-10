@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/generative-ai-creation-tools/generative-ai-overview
 ---
 
-# Generative AI Overview
+# [Generative AI Overview](#generative-ai-overview)
 
 When using the Meta Horizon Worlds desktop editor, you can leverage a suite of generative AI tools to help create things like assets and scripts for your world.
 
@@ -10,14 +10,14 @@ These generative tools can help accelerate your world-building process by allowi
 
 Gen AI Tool Availability & Rates
 
- Access to GenAI features is automated and determined based on your location when using the Desktop Editor. If you move from an unsupported location to a supported location or vice versa, there will be a delay in updating your access for GenAI features. Horizon desktop editor’s GenAI tools are currently available to users aged 13+ and the Creator Assistant tool is available to users aged 18+. Access to GenAI features is automated and determined based on your location when using the desktop editor. If you move from an unsupported location to a supported location or vice versa, there will be a delay in updating your access for GenAI Features. The GenAI features are available in the following regions: United States, the United Kingdom (UK), Canada, India, Australia, France, Germany, Spain, Brazil, the Netherlands, Italy, Poland, Argentina, Vietnam, Mexico, New Zealand, Sweden, Belgium, Ireland, Switzerland, Denmark, Finland, Norway, Singapore, Iceland, and Austria. Additionally there are daily rate limits per user on content created using Meta AI. These limits are:
+Access to GenAI features is automated and determined based on your location when using the Desktop Editor. If you move from an unsupported location to a supported location or vice versa, there will be a delay in updating your access for GenAI features. Horizon desktop editor’s GenAI tools are currently available to users aged 13+ and the Creator Assistant tool is available to users aged 18+. Access to GenAI features is automated and determined based on your location when using the desktop editor. If you move from an unsupported location to a supported location or vice versa, there will be a delay in updating your access for GenAI Features. The GenAI features are available in the following regions: United States, the United Kingdom (UK), Canada, India, Australia, France, Germany, Spain, Brazil, the Netherlands, Italy, Poland, Argentina, Vietnam, Mexico, New Zealand, Sweden, Belgium, Ireland, Switzerland, Denmark, Finland, Norway, Singapore, Iceland, and Austria. Additionally there are daily rate limits per user on content created using Meta AI. These limits are:
 
-* Typescript - 1000 requests
-* Audio SFX/Ambient - 200 requests
-* Skybox Generation - 50 requests
-* Mesh Generation - 100 requests
+- Typescript - 1000 requests
+- Audio SFX/Ambient - 200 requests
+- Skybox Generation - 50 requests
+- Mesh Generation - 100 requests
 
-## Open the Generative AI Tool
+## [Open the Generative AI Tool](#open-the-generative-ai-tool)
 
 After creating your world you can use the desktop editor’s generative tools to begin generating assets for your world.
 
@@ -25,16 +25,14 @@ The Gen AI panel features pre-made sample prompts that you can select to create 
 
 To open and use the Horizon desktop editor’s Generative AI tool, use the following process:
 
-- Select and open your world then click the Gen AI icon on the top toolbar to open the Gen AI panel.
-  ![Gen AI toolbar selector](../../_assets/images/c1c7be9954ca2ba20a3b5273f35f036616d4e4424d9991c5cc7366a76601d081.png)
-- The AI Creation Tool panel opens on the right side of the screen.
-  ![AI Creation panel](../../_assets/images/b25d7ba3dc8646bb163d6ffd681a65bad9c36751aa3b83c36ea3ff627301de63.png)
+1. Select and open your world then click the Gen AI icon on the top toolbar to open the Gen AI panel. ![Gen AI toolbar selector](../../_assets/images/c1c7be9954ca2ba20a3b5273f35f036616d4e4424d9991c5cc7366a76601d081.png)
+2. The AI Creation Tool panel opens on the right side of the screen. ![AI Creation panel](../../_assets/images/b44d585a32f081b8ec0426ca13c32dd7ec6a6a67030097e165b29e578f633761.png)
 
 With the creation panel open, you can generate either typescript or audio for your selected world.
 
 For more detailed information on generating script or audio check the [Generative AI Creation Code Tool](Generative%20AI%20Assistant%20Tool.md) and [Generative AI Creation Audio Tool](Generative%20AI%20Creation%20Audio%20Tool.md) guides.
 
-## Start new chats and view chat history
+## [Start new chats and view chat history](#start-new-chats-and-view-chat-history)
 
 Once you’ve generated content using the Gen AI tool you can start a new chat or return to previous conversations.
 
@@ -48,12 +46,13 @@ To view previous conversations select the **Open chat history** button, then sel
 
 You can also delete previous conversations from this list by hovering over an entry, then clicking the trash icon.
 
-## What’s next?
+## [What’s next?](#whats-next)
 
 To learn more about Meta Horizon Worlds, try the following:
 
-- [Create your first world](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial,%20part%201.md) using our step-by-step tutorial.
-- If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](../Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
-- Learn about the desktop editor with the [Introduction to the Desktop Editor](../Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
-- Learn about the other tools available by reading our [Tools Overview](../../Get%20started/Tools%20overview.md).
-- Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.
+1. [Create your first world](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial%2C%20part%201.md) using our step-by-step tutorial.
+2. If you have issues when running the desktop editor, see [Desktop Editor Troubleshooting](../Help%20and%20reference/Desktop%20editor%20troubleshooting.md)
+3. Learn about the desktop editor with the [Introduction to the Desktop Editor](../Get%20started%20with%20Desktop%20Editor/Introduction%20to%20the%20desktop%20editor.md).
+4. Learn about the other tools available by reading our [Tools Overview](../../Get%20started/Tools%20overview.md).
+5. Join the [Meta Horizon Creator Program](https://developers.meta.com/horizon-worlds/programs/) to learn about our program benefits.
+

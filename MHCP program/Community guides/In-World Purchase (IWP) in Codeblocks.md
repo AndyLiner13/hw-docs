@@ -2,11 +2,11 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/in-world-purchase-iwp-in-codeblocks
 ---
 
-# In-World Purchase (IWP) in Codeblocks
+# [In-World Purchase (IWP) in Codeblocks](#in-world-purchase-iwp-in-codeblocks)
 
 Author: SeeingBlue
 
-## Introduction
+## [Introduction](#introduction)
 
 **Creator Skill Level**
 
@@ -14,7 +14,7 @@ Intermediate
 
 **Recommended Prerequisite Background Knowledge**
 
-An understanding of Intermediate Codeblock Scripting, [Persistent Player Variables](../../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Variable%20groups/Managing%20Persistent%20Variables%20Associated%20with%20a%20Variable%20Group.md), and [Basic Asset Spawning](Part%20One-%20Understanding%20Asset%20Spawning%20with%20SeeingBlue.md) is recommended.
+An understanding of Intermediate Codeblock Scripting, [Persistent Player Variables](../../Desktop%20editor/Quests%2C%20leaderboards%2C%20and%20variable%20groups/Variable%20groups/Managing%20Persistent%20Variables%20Associated%20with%20a%20Variable%20Group.md), and [Basic Asset Spawning](Part%20One%20Understanding%20Asset%20Spawning%20with%20SeeingBlue.md) is recommended.
 
 **Note**: IWP creation is now available in the Desktop Editor. Visit the [documentation](../Monetization/In-world%20purchase%20guide.md) for more information on this.
 
@@ -26,186 +26,190 @@ In this document, we will go over the different types of In-World Purchases (IWP
 
 By reading and reviewing this written guide you will be able to:
 
-* Understand the IWP item types and related codeblock events, actions, operators, and values.
-* Create all IWP item types including durable items with and without assets, auto-use and manual-use consumables, and group consumables together using item packs.
-* Create purchases for members-only areas in your worlds, offer tangible items via the player’s inventory, and sell consumables to enhance gameplay.
+- Understand the IWP item types and related codeblock events, actions, operators, and values.
+- Create all IWP item types including durable items with and without assets, auto-use and manual-use consumables, and group consumables together using item packs.
+- Create purchases for members-only areas in your worlds, offer tangible items via the player’s inventory, and sell consumables to enhance gameplay.
 
-## Understanding IWP Item Types and Related Codeblocks
+## [Understanding IWP Item Types and Related Codeblocks](#understanding-iwp-item-types-and-related-codeblocks)
 
-### IWP Types
+### [IWP Types](#iwp-types)
 
-* **Durable without Asset**
+- **Durable without Asset**
 
-  + Permanent (unless deleted by the user)
-  + Used as a permanent status on a player, like VIP.
-* **Durable with Asset**
+  - Permanent (unless deleted by the user)
+  - Used as a permanent status on a player, like VIP.
 
-  + Permanent (unless deleted by the user)
-  + Unlimited uses
-  + Retrieved from player’s Horizon inventory
-  + Used for items players can spawn/despawn from their inventory.
-* **Consumable with Auto-Use**
+- **Durable with Asset**
 
-  + One-time use (can be repurchased)
-  + Consumed immediately after purchase, does not appear in inventory
-  + Does not require confirmation
-  + Used for temporary statuses, time-based upgrades, and more
-* **Consumable without Auto-use**
+  - Permanent (unless deleted by the user)
+  - Unlimited uses
+  - Retrieved from player’s Horizon inventory
+  - Used for items players can spawn/despawn from their inventory.
 
-  + One-time use per purchase, can stack multiple purchases
-  + Consumed from Horizon’s Inventory
-  + Requires confirmation (via codeblocks) before consumption
-  + Used for temporary statuses, time-based upgrades, and more
-* **Item Packs**
+- **Consumable with Auto-Use**
 
-  + Created out of *Consumables without Auto-use* items.
-  + Allows you to combine a consumable into a stack of multiples.
-  + Used to discount the sale of multiple consumables at once.
+  - One-time use (can be repurchased)
+  - Consumed immediately after purchase, does not appear in inventory
+  - Does not require confirmation
+  - Used for temporary statuses, time-based upgrades, and more
 
-### IWP Codeblocks
+- **Consumable without Auto-use**
+
+  - One-time use per purchase, can stack multiple purchases
+  - Consumed from Horizon’s Inventory
+  - Requires confirmation (via codeblocks) before consumption
+  - Used for temporary statuses, time-based upgrades, and more
+
+- **Item Packs**
+
+  - Created out of *Consumables without Auto-use* items.
+  - Allows you to combine a consumable into a stack of multiples.
+  - Used to discount the sale of multiple consumables at once.
+
+### [IWP Codeblocks](#iwp-codeblocks)
 
 **Broadcast Events**
 
 ![](../../_assets/images/49049dbe0b2c5296164728c717e0613147bff7d91ad172274da8614a783fbbcc.png)
 
-* **“when player starts purchase item (broadcast)”**
-  + Broadcast Event - Can be heard from any script in the world
-  + Parameters
+- **“when player starts purchase item (broadcast)”**
+  - Broadcast Event - Can be heard from any script in the world
+  - Parameters
     - `player`: A reference to the player who started the purchase
     - `itemId`: A string containing the name/id of the item being purchased.
-  + This can be used on any script where you need to know when a purchase is started.
+  - This can be used on any script where you need to know when a purchase is started.
 
 ![](../../_assets/images/84d7c241189514b304ecea1925a0453c80703a8fad489a35aa1b142e231ad4c7.png)
 
-* **“when player completes purchase item (broadcast)”**
-  + Broadcast Event - Can be heard from any script in the world
-  + Parameters
+- **“when player completes purchase item (broadcast)”**
+  - Broadcast Event - Can be heard from any script in the world
+  - Parameters
     - `player`: A reference to the player who completed the purchase
     - `itemId`: A string containing the name/id of the item purchased.
     - `success`: A boolean letting us know if the purchase succeeded or failed.
-  + This can be used on any script where you need to know when a purchase is completed successfully or not.
+  - This can be used on any script where you need to know when a purchase is completed successfully or not.
 
 ![](../../_assets/images/2de0c3c4018f497375e78e6f9ab1acfaffce3365e2f960de01240481bc1ca99f.png)
 
-* **“when player starts consume item (broadcast)”**
-  + Broadcast Event - Can be heard from any script in the world
-  + Parameters
+- **“when player starts consume item (broadcast)”**
+  - Broadcast Event - Can be heard from any script in the world
+  - Parameters
     - `player`: A reference to the player who started the consumption.
     - `itemId`: A string containing the name/id of the item being consumed.
-  + This can be used on any script where you need to know when consumption is started.
+  - This can be used on any script where you need to know when consumption is started.
 
 ![](../../_assets/images/2a11270a195f3be8dc55fe1020243e59f8fbbe8568d1da654deaf80a2566a9b8.png)
 
-* **“when player completes consume item (broadcast)”**
-  + Broadcast Event - Can be heard from any script in the world
-  + Parameters
+- **“when player completes consume item (broadcast)”**
+  - Broadcast Event - Can be heard from any script in the world
+  - Parameters
     - `player`: A reference to the player who completed the consumption
     - `itemId`: A string containing the name/id of the item consumed.
     - `success`: A boolean letting us know if the consumption succeeded or failed.
-  + This can be used on any script where you need to know when consumption is completed successfully or not.
+  - This can be used on any script where you need to know when consumption is completed successfully or not.
 
 **![](../../_assets/images/71c022f32859ffe28b8761fa5f80fd281b03925fdacf0178ca9b3bfb9dab7d4c.png)**
 
-* **“when an asset spawns from player inventory”**
-  + Broadcast Event - Can be heard from any script in the world
-  + Parameters
+- **“when an asset spawns from player inventory”**
+  - Broadcast Event - Can be heard from any script in the world
+  - Parameters
     - `obj`: A reference to the object that spawned from the player’s inventory.
     - `asset`: A reference to the asset used to spawn the object.
     - `player`: A reference to the player that spawned the item from their inventory.
-  + This can be used on any script where you need to know when an item has spawned from a player’s inventory.
+  - This can be used on any script where you need to know when an item has spawned from a player’s inventory.
 
 **Non-broadcast Events**
 
 **![](../../_assets/images/f4a3b09780cb5aacec27828c92a0ca89a5dbf7e3c4ad7edc698cf6b61ae647e5.png)**
 
-* **“when player purchase succeeds on item”**
-  + Standard Event - Script must be attached to an In-World Item gizmo.
-  + Parameters
+- **“when player purchase succeeds on item”**
+  - Standard Event - Script must be attached to an In-World Item gizmo.
+  - Parameters
     - `player`: A reference to the player that purchased the item.
-  + This can be used in a script attached to a specific In-World Item gizmo that you need to know when a purchase of that item is successful.
+  - This can be used in a script attached to a specific In-World Item gizmo that you need to know when a purchase of that item is successful.
 
 **![](../../_assets/images/8d7aa43938ab20e1496ae735e33dd75589a52ad134a4f11f358115eedb7e948e.png)**
 
-* **“when player purchase fails on item”**
-  + Standard Event - Script must be attached to an In-World Item gizmo.
-  + Parameters
+- **“when player purchase fails on item”**
+  - Standard Event - Script must be attached to an In-World Item gizmo.
+  - Parameters
     - `player`: A reference to the player that attempted to purchase the item.
-  + This can be used in a script attached to a specific In-World Item gizmo that you need to know when a purchase of that item fails.
+  - This can be used in a script attached to a specific In-World Item gizmo that you need to know when a purchase of that item fails.
 
 ![](../../_assets/images/d054fd21b4ab231dae04fd3db4434012bc8c90ae4be8896947da10675472a24a.png)
 
-* **“when player consume succeeds on item”**
-  + Standard Event - Script must be attached to an In-World Item gizmo.
-  + Parameters
+- **“when player consume succeeds on item”**
+  - Standard Event - Script must be attached to an In-World Item gizmo.
+  - Parameters
     - `player`: A reference to the player consumed the item.
-  + This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item is consumed successfully.
+  - This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item is consumed successfully.
 
 ![](../../_assets/images/992f40a01fe03ca4745ce0c644715df4442b418f6eec01e4ae60707d202379c6.png)
 
-* **“when player consume fails on item”**
-  + Standard Event - Script must be attached to an In-World Item gizmo.
-  + Parameters
+- **“when player consume fails on item”**
+  - Standard Event - Script must be attached to an In-World Item gizmo.
+  - Parameters
     - `player`: A reference to the player that attempted to consume the item.
-  + This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item failed to be consumed.
+  - This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item failed to be consumed.
 
 ![](../../_assets/images/340cfa81f4013264ded3845b62d79b18f995104ab6441634c1e6be0d2a384fb6.png)
 
-* **“when player try to consume item”**
-  + Standard Event - Script must be attached to an In-World Item gizmo.
-  + Parameters
+- **“when player try to consume item”**
+  - Standard Event - Script must be attached to an In-World Item gizmo.
+  - Parameters
     - `player`: A reference to the player that’s trying to consume the item.
-  + This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item is attempted to be consumed.
+  - This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item is attempted to be consumed.
 
 **Actions**
 
 ![](../../_assets/images/6a26c7b15c092162d766e158c55f1843ecba2ef21521c57cf7929203f37965a7.png)
 
-* **“consume item for player”**
-  + Required Parameters
+- **“consume item for player”**
+  - Required Parameters
     - `player`: A reference to the player to consume the item.
     - `itemId`: A reference to the item to be consumed.
-      * *Note* : This is an *Input Value* found under the *Values* category of your Script gizmo.
-  + This is to be used to confirm the consumption of a *Consumable without Auto-use*.
+      - *Note* : This is an *Input Value* found under the *Values* category of your Script gizmo.
+  - This is to be used to confirm the consumption of a *Consumable without Auto-use*.
 
 **Operators**
 
 ![](../../_assets/images/550489d37bd1afb54e015f2498e026e4ca6b85d6734c93f0cea722d3d5a8024f.png)
 
-* **“player owns item”**
-  + Required Parameters
+- **“player owns item”**
+  - Required Parameters
     - `player`: A reference to the player we’re checking.
-  + Returns a boolean that tells us whether the player owns the selected In-World item.
+  - Returns a boolean that tells us whether the player owns the selected In-World item.
 
 **![](../../_assets/images/9925ba9f08443625d62171ca7e5c79eb65f8a770cd769cd8fcc252794373a6be.png)**
 
-* **“player owns item quantity”**
-  + Required Parameters
+- **“player owns item quantity”**
+  - Required Parameters
     - `player`: A reference to the player we’re checking.
-  + Returns a number that tells us how many of the selected *Consumable without Auto-use* the player owns.
+  - Returns a number that tells us how many of the selected *Consumable without Auto-use* the player owns.
 
 ![](../../_assets/images/7a5021c52da041aadbc2aeed791b0820bdc8e79fd87e23117bb49840d08d0cd7.png)
 
-* **“time since player consumed item”**
-  + Required Parameters
+- **“time since player consumed item”**
+  - Required Parameters
     - `player`: A reference to the player we’re checking.
-  + Returns a number based on the selected value from a dropdown menu. Options are seconds, minutes, and days. The returned number represents how many seconds, minutes, or days that have passed since the item was consumed.
+  - Returns a number based on the selected value from a dropdown menu. Options are seconds, minutes, and days. The returned number represents how many seconds, minutes, or days that have passed since the item was consumed.
     - *Note*: Returns a 0 if the item has never been consumed. Recommended that you use this in conjunction with the “*player has consumed item*” codeblock.
 
 ![](../../_assets/images/411d581f6012a7f50834d5013d20f9b9677ad3a6329a69a537daebdfb6f4e187.png)
 
-* **“player has consumed item”**
-  + Required Parameters
+- **“player has consumed item”**
+  - Required Parameters
     - `player`: A reference to the player we’re checking.
-  + Returns a boolean that tells us whether the player has consumed the selected item.
+  - Returns a boolean that tells us whether the player has consumed the selected item.
 
 **Values**
 
 ![](../../_assets/images/026f5b1c09f95398e84d0b6757c332c69c354683269a6a62acf624973443b7fd.png)
 
-* **“in-world items”**
-  + Contains a dropdown menu that lets you select an In-World Item ID to be used when making conditional checks in your IF statements.
+- **“in-world items”**
+  - Contains a dropdown menu that lets you select an In-World Item ID to be used when making conditional checks in your IF statements.
 
-## Creating an IWP
+## [Creating an IWP](#creating-an-iwp)
 
 Creating and implementing IWPs involves a series of steps from item creation to placement in your world. This section will walk you through the process of setting up IWPs, including naming, pricing, and configuring item properties. You’ll learn how to create durable and consumable items, add them to your world, and customize their appearance and functionality.
 
@@ -215,12 +219,12 @@ Creating and implementing IWPs involves a series of steps from item creation to 
 
 **Step 2:** Every IWP you create requires a *Name*, *Sell Price*, *Thumbnail*, and selected *Item type*.
 
-| **Durable In-World Item** | **Consumable In-World Item** |
-| --- | --- |
-|  |  |
+| **Durable In-World Item**                                                                                                                                                                                            | **Consumable In-World Item**                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](../../_assets/images/95e04c22386845bccaf62f8e7ed4a90af0d0bd46c8024d9af429b54850219576.png)                                                                                                                       | ![](../../_assets/images/7c8ed21296c424f4e59698d7f4ccf00198b1b304770dea6ca33f4f25c07a6b26.png)                                               |
 | Asset reference is optional. Leaving it blank will create a *Durable Item without an Asset* (permanent player statuses). Adding an Asset will create a *Durable Item with Asset*, like a permanent weapon, hat, etc… | Decide if your consumable will be automatically consumed upon purchase or allow the user to consume it from their inventory with *Auto use*. |
 
-**Note:***Description* is an optional field, but it is recommended that you provide a detailed description to help users understand what they are buying.
+\*\*Note:\*\**Description* is an optional field, but it is recommended that you provide a detailed description to help users understand what they are buying.
 
 **Step 3:** Once your In-World Item has been created, you can grab an In-World Item gizmo from your build menu and drag it into your world.
 
@@ -228,21 +232,21 @@ Creating and implementing IWPs involves a series of steps from item creation to 
 
 **Step 4:** Open the property panel for your In-World Item gizmo and there are several settings you can change here:
 
-* Hit *Select* next to *In-World Item* and select the In-World Item associated with this gizmo.
+- Hit *Select* next to *In-World Item* and select the In-World Item associated with this gizmo.
 
 ![](../../_assets/images/f84b24d066a9750107fbf192b39f386511584a7074c21ede4cb8052d68f3f58c.png)
 
-* Click the dropdown next to *UI Property* and change the display style of your gizmo.
+- Click the dropdown next to *UI Property* and change the display style of your gizmo.
 
-| Trigger | Button | Icon |
-| --- | --- | --- |
-|  |  |  |
+| Trigger                                                                                        | Button                                                                                         | Icon                                                                                           |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| ![](../../_assets/images/2bae7f51b6c03b6e5bd35f102f624d7b09d8bc814b5fefe29501d9f9e185815d.png) | ![](../../_assets/images/30e040366b1b45815ca324c8a8b1e9b421ec7c1ec1a5b4fc32e1525b2ada703f.png) | ![](../../_assets/images/41825ea3bc0287b6ff97d5909ac2a1d1ebb69d7dd645513f46334bc28b6e069e.png) |
 
-* This is also where you would attach any scripts using the non-broadcast event codeblocks described under the **IWP Codeblocks** section.
+- This is also where you would attach any scripts using the non-broadcast event codeblocks described under the **IWP Codeblocks** section.
 
 **Now your IWP is ready for purchase!**
 
-## Creating Item Packs
+## [Creating Item Packs](#creating-item-packs)
 
 This section will guide you through the process of creating and selling Item Packs, including how to access the feature, select items, set quantities and prices, and make them available for purchase in your game.
 
@@ -256,11 +260,11 @@ The next window will ask you which *Consumable without Auto-use* you would like 
 
 Once created you can follow the same steps 3-4 in the previous section, **Creating an IWP**, to start selling your item pack.
 
-## Examples: Implementing & Selling IWPs
+## [Examples: Implementing & Selling IWPs](#examples-implementing--selling-iwps)
 
 In the following section, we will apply what we learned in the previous sections to build practical applications for our world. Some examples will include developing members-only area, an inventory system for weapons or other items, consumable health potions, and a simple item shop. These examples will demonstrate how to implement common gameplay mechanics, allowing players to access restricted areas, manage their inventory, use items, and make purchases within the game.
 
-### Durable without Asset
+### [Durable without Asset](#durable-without-asset)
 
 **VIP Area**
 
@@ -274,7 +278,7 @@ In this example, the script below is attached to a Trigger gizmo that covers our
 
 This is created by using the *when trigger is entered by player* event codeblock with an *IF* statement inside. We use a *NOT* operator and drag the *player owns item* codeblock inside of it. Using the *player* parameter from the event and an *in-world items* input value, we can complete this *IF* statement and respawn our players.
 
-### Durable with Asset
+### [Durable with Asset](#durable-with-asset)
 
 **Spawning from Player Inventory**
 
@@ -288,7 +292,7 @@ This script can run anywhere in the world since it uses a broadcast event.
 
 Using the *when an asset spawns from player inventory* codeblock we get the object that spawned, the asset it was created from, and the player who spawned it. Since this is a broadcast event that will fire on any item spawning from any player, we’re going to check that the asset received by the event is the one we want by using an IF statement to compare the parameter to a specific asset variable in our script. Once we determine this is our asset, we can now send an event to the newly spawned object with our player as a parameter for the object to receive.
 
-### Consumable with Auto-Use
+### [Consumable with Auto-Use](#consumable-with-auto-use)
 
 **30-VIP Access**
 
@@ -332,7 +336,7 @@ We use the *set player persistent var* to codeblock with a + operator to add the
 
 ![](../../_assets/images/8cf0e0e6af42df0d80c2d030f55638f7f15e52a6fc15a0fdb613f6c0deead0fa.png)
 
-### Consumable without Auto-use
+### [Consumable without Auto-use](#consumable-without-auto-use)
 
 **Example: Manual Health Restore**
 
@@ -340,11 +344,11 @@ We use the *set player persistent var* to codeblock with a + operator to add the
 
 In this example we show how to handle manual consumption of an In-World Item without auto-use, meaning the item is stored in the player’s inventory and consumed when they are ready. This script is attached to the In-World Item gizmo and the events below will fire when the item is consumed.
 
-The important thing to note when a player tries to consume a *Consumable without Auto-use* is that you must recognize this using the *when player try to consume item**from inventory* codeblock and decide whether to acknowledge this attempt using the *consume item for player* codeblock before the consumption is considered successful, otherwise, the consumption will fail. Refer to the previous example, **Restore Health**, to see what a player manager script would look like.
+The important thing to note when a player tries to consume a *Consumable without Auto-use* is that you must recognize this using the *when player try to consume item\*\*from inventory* codeblock and decide whether to acknowledge this attempt using the *consume item for player* codeblock before the consumption is considered successful, otherwise, the consumption will fail. Refer to the previous example, **Restore Health**, to see what a player manager script would look like.
 
 ![](../../_assets/images/ed39df9b494418d5077d5c9013b950940e67df078bd2f708e0a3671207758b76.png)
 
-## Extended Learning
+## [Extended Learning](#extended-learning)
 
 To reinforce your understanding of IWP mechanics and put your new skills into practice, try completing the hands-on challenges provided below:
 
@@ -352,6 +356,7 @@ To reinforce your understanding of IWP mechanics and put your new skills into pr
 
 **Challenge 2:** Create a basic durable item with and without an asset, then purchase and use it in build mode.
 
-## Further Assistance
+## [Further Assistance](#further-assistance)
 
 For any questions or further assistance, creators are encouraged to join the discussion on the Discord server or to schedule a mentor session for personalized guidance.
+

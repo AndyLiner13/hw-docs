@@ -2,115 +2,116 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-tutorial-world/zone-2-basics
 ---
 
-# Zone 2 - Basics
+# [Zone 2 - Basics](#zone-2---basics)
 
 This zone covers fundamental Custom UI components that form the building blocks of more complex interfaces.
 
-## Station #4: Basic Button
+## [Station #4: Basic Button](#station-4-basic-button)
 
 The basic button is about as basic as it gets. When a user interacts with the button, it sends a CodeBlock event to an entity defined in the property panel. You can set up the receiving object to increment a counter or unlock a door using CodeBlock events.
 
-### Script Overview
+### [Script Overview](#script-overview)
 
 This documentation covers a two-part demo that shows how to create a versatile button component and use it to trigger events that can be listened to by other components in the scene.
 
-* **`BasicButton`**: This script defines a generic UI component that encapsulates a single customizable button. It’s built to be a reusable asset. It takes a series of properties, including a targetEntity and uses the cuiButton library to render itself. When the button is released, it sends a custom CodeBlock event called `sendMessageEvent` to the targetEntity.
-* **`BasicButtonDemo`**: This script is a standard Horizon component designed to showcase the basic button’s functionality. It acts as the event listener. It connects to the `sendMessageEvent` on its own entity and, upon receiving the event, updates the text of a linked text gizmo with a message. This demonstrates a common pattern of UI components sending messages to non-UI components to separate the view from the model.
+- **`BasicButton`**: This script defines a generic UI component that encapsulates a single customizable button. It’s built to be a reusable asset. It takes a series of properties, including a targetEntity and uses the cuiButton library to render itself. When the button is released, it sends a custom CodeBlock event called `sendMessageEvent` to the targetEntity.
+- **`BasicButtonDemo`**: This script is a standard Horizon component designed to showcase the basic button’s functionality. It acts as the event listener. It connects to the `sendMessageEvent` on its own entity and, upon receiving the event, updates the text of a linked text gizmo with a message. This demonstrates a common pattern of UI components sending messages to non-UI components to separate the view from the model.
 
-### Properties
+### [Properties](#properties)
 
-#### BasicButton Properties
+#### [BasicButton Properties](#basicbutton-properties)
 
 ![BasicButton Properties](../../../_assets/images/8060ada99038e86611d15179019c7a7b5b486cec11263b422e4e97a0e3732ded.png)
 
-* **`targetEntity`**: An entity that specifies which entity will receive the `sendMessageEvent` when the button is released.
-* **`ID`**: A string that provides a unique identifier for this button. This ID is included in the `sendMessageEvent` payload.
-* **`title`**: A string that sets the text displayed above the button.
-* **`buttonText`**: A string that sets the text displayed on the button itself.
-* **`pressSound`**: An entity linked to an audio gizmo to be played when the button is pressed.
-* **`releaseSound`**: An entity linked to an audio gizmo to be played when the button is released.
-* **`theme`**: A number that selects a predefined color theme for the UI panel.
+- **`targetEntity`**: An entity that specifies which entity will receive the `sendMessageEvent` when the button is released.
+- **`ID`**: A string that provides a unique identifier for this button. This ID is included in the `sendMessageEvent` payload.
+- **`title`**: A string that sets the text displayed above the button.
+- **`buttonText`**: A string that sets the text displayed on the button itself.
+- **`pressSound`**: An entity linked to an audio gizmo to be played when the button is pressed.
+- **`releaseSound`**: An entity linked to an audio gizmo to be played when the button is released.
+- **`theme`**: A number that selects a predefined color theme for the UI panel.
 
-### Network Events
+### [Network Events](#network-events)
 
 This demo uses a custom CodeBlock event to communicate between the button UI and the game logic component.
 
-* **`sendMessageEvent`**: A custom event created in `BasicButton`. Its payload consists of a Player entity (the player who triggered the event) and a string (the button’s unique ID).
+- **`sendMessageEvent`**: A custom event created in `BasicButton`. Its payload consists of a Player entity (the player who triggered the event) and a string (the button’s unique ID).
 
-### Methods
+### [Methods](#methods)
 
-#### BasicButton Methods
+#### [BasicButton Methods](#basicbutton-methods)
 
-* **`onPress()`**: A callback that plays the `pressSound` for the interacting player.
-* **`onRelease()`**: A callback that plays the `releaseSound` and sends the `sendMessageEvent` to the designated `targetEntity`.
-* **`BasicButtonSetTitle()`**, **`BasicButtonSetButtonText()`**, **`BasicButtonSetTarget()`**: These are public methods that allow other scripts to dynamically change the UI text and the event target at runtime.
+- **`onPress()`**: A callback that plays the `pressSound` for the interacting player.
+- **`onRelease()`**: A callback that plays the `releaseSound` and sends the `sendMessageEvent` to the designated `targetEntity`.
+- **`BasicButtonSetTitle()`**, **`BasicButtonSetButtonText()`**, **`BasicButtonSetTarget()`**: These are public methods that allow other scripts to dynamically change the UI text and the event target at runtime.
 
-## Station #5: Timer
+## [Station #5: Timer](#station-5-timer)
 
 Timers are very common in games. This timer example illustrates two different variations.
 
-* Countdown timer – This timer counts down from a predefined time. Use a countdown timer to display how much time remains before a round or a cooldown ends.
-* Stopwatch – This timer starts at zero and counts up until it’s stopped. Use the stopwatch for races and time trials.
+- Countdown timer – This timer counts down from a predefined time. Use a countdown timer to display how much time remains before a round or a cooldown ends.
+- Stopwatch – This timer starts at zero and counts up until it’s stopped. Use the stopwatch for races and time trials.
 
-### Script Overview
+### [Script Overview](#script-overview-1)
 
 This demo showcases `Timer` and `TimerDemo` scripts. The `Timer` component is a reusable UI element that handles all aspects of displaying a timer, while the `TimerDemo` component is a non-UI script that orchestrates the timer’s behavior by listening to events in the world.
 
-### Properties
+### [Properties](#properties-1)
 
-#### Timer Properties
+#### [Timer Properties](#timer-properties)
 
-* **`theme`**: A number used to select a predefined color theme for the UI.
+- **`theme`**: A number used to select a predefined color theme for the UI.
 
-#### TimerDemo Properties
+#### [TimerDemo Properties](#timerdemo-properties)
 
-* **`trigger1-4`**: Four entity properties that link to in-world trigger entities. These triggers are used to activate different timer functions.
-* **`cuiGizmo`**: An entity that links to the entity containing the Timer UI component. This is the target that `TimerDemo` will control.
-* **`duration`**: A number that sets the default duration for the timer.
+- **`trigger1-4`**: Four entity properties that link to in-world trigger entities. These triggers are used to activate different timer functions.
+- **`cuiGizmo`**: An entity that links to the entity containing the Timer UI component. This is the target that `TimerDemo` will control.
+- **`duration`**: A number that sets the default duration for the timer.
 
-### Methods
+### [Methods](#methods-1)
 
-#### Timer Methods
+#### [Timer Methods](#timer-methods)
 
-* **`TimerStartCountDown(duration?)`**: A public method that starts the timer counting down from a specified duration.
-* **`TimerStart(duration?)`**: A public method that starts the timer counting up. If a duration is provided, it will stop when that duration is reached.
-* **`TimerReset()`**: A public method that stops the timer and resets its display to 00:00.
-* **`TimerSetDuration(duration?)`**: A public method that sets the default duration for the timer.
+- **`TimerStartCountDown(duration?)`**: A public method that starts the timer counting down from a specified duration.
+- **`TimerStart(duration?)`**: A public method that starts the timer counting up. If a duration is provided, it will stop when that duration is reached.
+- **`TimerReset()`**: A public method that stops the timer and resets its display to 00:00.
+- **`TimerSetDuration(duration?)`**: A public method that sets the default duration for the timer.
 
-## Station #6: Dialog Prompt
+## [Station #6: Dialog Prompt](#station-6-dialog-prompt)
 
 In-game characters can provide useful information by communicating with players. Use this Custom UI to display a variable amount of pages for character dialog.
 
-### Script Overview
+### [Script Overview](#script-overview-2)
 
-* **`DialogPrompt.ts`**: Its purpose is to render dynamic, multi-page content from a structured JSON source. It’s responsible for the UI layout, including the header, navigation buttons, and a dynamic content list.
-* **`DialoguePromptDemo.ts`**: This is the main game logic script that acts as the controller. It links to the DialogPrompt UI component and provides the JSON data to be displayed.
+- **`DialogPrompt.ts`**: Its purpose is to render dynamic, multi-page content from a structured JSON source. It’s responsible for the UI layout, including the header, navigation buttons, and a dynamic content list.
+- **`DialoguePromptDemo.ts`**: This is the main game logic script that acts as the controller. It links to the DialogPrompt UI component and provides the JSON data to be displayed.
 
-### Properties
+### [Properties](#properties-2)
 
-#### DialogPrompt Properties
+#### [DialogPrompt Properties](#dialogprompt-properties)
 
-* **`theme`**: A number property used to select a predefined visual theme for the UI.
+- **`theme`**: A number property used to select a predefined visual theme for the UI.
 
-#### DialoguePromptDemo Properties
+#### [DialoguePromptDemo Properties](#dialoguepromptdemo-properties)
 
-* **`cuiGizmo`**: An entity property that serves as a reference to the entity containing the DialogPrompt UI component.
-* **`jSONdata`**: A string property that holds the JSON string to be displayed. This allows creators to easily change the dialogue content directly within the editor.
+- **`cuiGizmo`**: An entity property that serves as a reference to the entity containing the DialogPrompt UI component.
+- **`jSONdata`**: A string property that holds the JSON string to be displayed. This allows creators to easily change the dialogue content directly within the editor.
 
-### Data Interfaces
+### [Data Interfaces](#data-interfaces)
 
 The DialogPrompt script defines several TypeScript interfaces to specify the expected structure of the JSON data:
 
-* **`ItemData`**: Represents a single item to be displayed on a page. It includes a type property to tell the UI how to render the data.
-* **`PageData`**: Represents a single page of content. It contains a page\_number and an items array of ItemData objects.
+- **`ItemData`**: Represents a single item to be displayed on a page. It includes a type property to tell the UI how to render the data.
+- **`PageData`**: Represents a single page of content. It contains a page\_number and an items array of ItemData objects.
 
-## API Example #2: Buttons
+## [API Example #2: Buttons](#api-example-2-buttons)
 
 This Custom UI example demonstrates different colored buttons. The demo shows color variations available in the Custom UI API. All of these colors can be changed in code.
 
-### Script Overview
+### [Script Overview](#script-overview-3)
 
 The `cuiButton` and `ButtonTest` scripts demonstrate how to create reusable UI components that can be customized with different styles and behaviors.
 
-* **`cuiButton`**: This script is a library of helper functions for creating different types of buttons. It provides a clean, abstract interface that other scripts can use without needing to know the low-level UI implementation details.
-* **`ButtonTest`**: This demo script is a UIComponent that acts as the controller for the demo. It controls what buttons to display, what their labels should be, and what they should do when clicked.
+- **`cuiButton`**: This script is a library of helper functions for creating different types of buttons. It provides a clean, abstract interface that other scripts can use without needing to know the low-level UI implementation details.
+- **`ButtonTest`**: This demo script is a UIComponent that acts as the controller for the demo. It controls what buttons to display, what their labels should be, and what they should do when clicked.
+

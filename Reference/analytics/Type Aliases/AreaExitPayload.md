@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_areaexitpayload
 ---
 
-# AreaExitPayload type
+# [AreaExitPayload type](#areaexitpayload-type)
 
 A payload sent by the `OnAreaExit` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type AreaExitPayload = FullTurboEventPayload<typeof OnAreaExit>;
+export
+ declare type 
+AreaExitPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnAreaExit
+>;
 ```
+

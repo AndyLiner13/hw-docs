@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_customeventpayload
 ---
 
-# CustomEventPayload type
+# [CustomEventPayload type](#customeventpayload-type)
 
 A payload sent by the `OnCustomAction` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type CustomEventPayload = FullTurboEventPayload<typeof OnCustomAction>;
+export
+ declare type 
+CustomEventPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnCustomAction
+>;
 ```
+

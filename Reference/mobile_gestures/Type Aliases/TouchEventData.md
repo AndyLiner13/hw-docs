@@ -2,18 +2,32 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_toucheventdata
 ---
 
-# TouchEventData type
+# [TouchEventData type](#toucheventdata-type)
 
 List of touches involved in a gesture
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type TouchEventData = {
-    touches: TouchState[];
+export
+ declare type 
+TouchEventData
+ 
+=
+ 
+{
+
+    touches
+:
+ 
+TouchState
+[];
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [TouchState](TouchState.md)
+

@@ -2,28 +2,57 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_tooltipoptions
 ---
 
-# TooltipOptions type
+# [TooltipOptions type](#tooltipoptions-type)
 
 The settings for displaying a tooltip message.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type TooltipOptions = {
-    tooltipAnchorOffset?: Vec3;
-    displayTooltipLine?: boolean;
-    tooltipLineAttachmentProperties?: TooltipLineAttachmentProperties;
-    playSound?: boolean;
+export
+ declare type 
+TooltipOptions
+ 
+=
+ 
+{
+
+    tooltipAnchorOffset
+?:
+ 
+Vec3
+;
+
+    displayTooltipLine
+?:
+ 
+boolean
+;
+
+    tooltipLineAttachmentProperties
+?:
+ 
+TooltipLineAttachmentProperties
+;
+
+    playSound
+?:
+ 
+boolean
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [Vec3](../Classes/Vec3.md), [TooltipLineAttachmentProperties](TooltipLineAttachmentProperties.md)
 
-## Remarks
+## [Remarks](#remarks)
 
-tooltipAnchorOffset - The offset of the tooltip relative to the anchor location.
-displayTooltipLine - true to display a line that connects the tooltip to its attachment point; false otherwise.
-tooltipLineAttachmentProperties - The attachment point and offset of the line that connects to the tooltip.
+tooltipAnchorOffset - The offset of the tooltip relative to the anchor location.\
+displayTooltipLine - true to display a line that connects the tooltip to its attachment point; false otherwise.\
+tooltipLineAttachmentProperties - The attachment point and offset of the line that connects to the tooltip.\
 playSound - true to play a sound when displaying the tooltip; false otherwise.
+

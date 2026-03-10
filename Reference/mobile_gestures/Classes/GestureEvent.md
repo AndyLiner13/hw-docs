@@ -2,20 +2,60 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_gestureevent
 ---
 
-# GestureEvent Class
+# [GestureEvent Class](#gestureevent-class)
 
-Extends *LocalEvent<T>*
+Extends *LocalEvent\<T>*
 
 Generic gesture event
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare class GestureEvent<T extends TouchEventData> extends LocalEvent<T>
+export
+ declare 
+class
+ 
+GestureEvent
+<
+T 
+extends
+ 
+TouchEventData
+>
+ 
+extends
+ 
+LocalEvent
+<
+T
+>
+ 
 ```
 
-## Methods
+## [Methods](#methods)
 
-|  |  |
-| --- | --- |
-| **connectLocalEvent(callback)** | Signature  ``` connectLocalEvent(callback: (payload: T) => void): EventSubscription; ```  Parameters  callback: (payload: T) => void  Returns  EventSubscription |
+|                                 |                 |
+| ------------------------------- | --------------- |
+| **connectLocalEvent(callback)** | Signature\`\`\` |
+| connectLocalEvent               |                 |
+| (                               |                 |
+| callback                        |                 |
+| :                               |                 |
+
+(
+payload
+:
+T
+)
+
+\=>
+
+void
+):
+
+EventSubscription
+;
+
+```Parameterscallback: (payload: T) => voidReturnsEventSubscription |
+```
+

@@ -2,12 +2,39 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_propsdefinitionfromcomponent
 ---
 
-# PropsDefinitionFromComponent type
+# [PropsDefinitionFromComponent type](#propsdefinitionfromcomponent-type)
 
 A helper utility that derives prop types from a component class type.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type PropsDefinitionFromComponent<T> = T extends ComponentWithoutConstructor<infer TPropsDefinition> ? Readonly<TPropsDefinition> : never;
+export
+ declare type 
+PropsDefinitionFromComponent
+<
+T
+>
+ 
+=
+ T 
+extends
+ 
+ComponentWithoutConstructor
+<
+infer 
+TPropsDefinition
+>
+ 
+?
+ 
+Readonly
+<
+TPropsDefinition
+>
+ 
+:
+ never
+;
 ```
+

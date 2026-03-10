@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/typescript-apis-for-mobile/throwing
 ---
 
-# Throwing
+# [Throwing](#throwing)
 
 A grabbable object that is being held by a player can be thrown with the standard controls for throwing grabbable objects on web and mobile (enabled by default). It is possible to override these standard controls in order to trigger throwing of a held object and to customize the throwing arc.
 
@@ -14,21 +14,37 @@ The [Player.throwHeldItem method](../../Reference/core/Classes/Player.md#throwhe
 
 Here’s an example that makes the player throw an object when they press the primary button on web and mobile.
 
-```
+```typescript
 this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnIndexTriggerDown, (player: hz.Player)=> {
+
   // Ignore on VR devices
+
   if (player.deviceType.get() == hz.PlayerDeviceType.VR) {
+
     return;
+
   }
+
+
 
   // Setup the throw options
+
   let opt = {
+
     speed: 25,
+
     pitch: 30
+
   }
 
+
+
   // Calling Throw Held Item
+
   player.throwHeldItem(opt);
+
+
 
 }
 ```
+

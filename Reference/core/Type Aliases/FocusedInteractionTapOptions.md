@@ -2,30 +2,77 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_focusedinteractiontapoptions
 ---
 
-# FocusedInteractionTapOptions type
+# [FocusedInteractionTapOptions type](#focusedinteractiontapoptions-type)
 
 The [FocusedInteraction](../Classes/FocusedInteraction.md) options for visuals that are displayed when players use tap input.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type FocusedInteractionTapOptions = {
-    duration: number;
-    startScale: number;
-    endScale: number;
-    startRotation: number;
-    endRotation: number;
-    startColor: Color;
-    endColor: Color;
-    startOpacity: number;
-    endOpacity: number;
+export
+ declare type 
+FocusedInteractionTapOptions
+ 
+=
+ 
+{
+
+    duration
+:
+ number
+;
+
+    startScale
+:
+ number
+;
+
+    endScale
+:
+ number
+;
+
+    startRotation
+:
+ number
+;
+
+    endRotation
+:
+ number
+;
+
+    startColor
+:
+ 
+Color
+;
+
+    endColor
+:
+ 
+Color
+;
+
+    startOpacity
+:
+ number
+;
+
+    endOpacity
+:
+ number
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [Color](../Classes/Color.md)
 
-## Remarks
+## [Remarks](#remarks)
 
 See [DefaultFocusedInteractionTapOptions](../Variables/DefaultFocusedInteractionTapOptions.md) for the default values for this type.
+

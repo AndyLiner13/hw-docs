@@ -2,19 +2,25 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playervisibilitymode
 ---
 
-# PlayerVisibilityMode Enum
+# [PlayerVisibilityMode Enum](#playervisibilitymode-enum)
 
 The entity visibility options for a set of players.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum PlayerVisibilityMode
+export
+ declare 
+enum
+ 
+PlayerVisibilityMode
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| HiddenFrom | `1` | The entity is not visible to the specified players. |
-| VisibleTo | `0` | The entity is visible to the specified players. |
+| Member     | Value | Description                                         |
+| ---------- | ----- | --------------------------------------------------- |
+| HiddenFrom | `1`   | The entity is not visible to the specified players. |
+| VisibleTo  | `0`   | The entity is visible to the specified players.     |
+

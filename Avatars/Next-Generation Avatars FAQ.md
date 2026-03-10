@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/full-bodied-avatars/next-gen-avatars-faq
 ---
 
-# Next-Generation Avatars FAQ
+# [Next-Generation Avatars FAQ](#next-generation-avatars-faq)
 
 **Q: I understand testing with popular worlds but is it possible to have a test world which we could also put together, where we can have different lighting, different attachable, stairs, flying mechanic, climbing mechanic etc.**
 
@@ -10,7 +10,7 @@ A: To kick off the program, we will only be allowing one world per creator. Howe
 
 **Q: Can we submit a world without participating/updating to PTC?**
 
-A: At this time, the only way to enable the updated avatars in your world will be to update to PTC. We will let you know if there is any change to this in the future.
+A: At this time, the only way to enable the updated avatars in your world will be to update to PTC. We will let you know if there is any change to this in the future. 
 
 **Q: Is this a test to see if the avatars on your end need work or adjusting? Or a test to see what it would take for all creators to fix their worlds?**
 
@@ -18,16 +18,16 @@ A: This test is intended to provide interested creators the opportunity to see t
 
 **Q: But you have still yet to say what you would be doing to the world?**
 
-A: By signing up for this EA, the team will only be cloning the world you submit via the Google form and granting you access to test out the updated avatars in that world. Beyond that, any feedback or questions that you share will be sent to them to respond/address, as needed.
+A: By signing up for this EA, the team will only be cloning the world you submit via the Google form and granting you access to test out the updated avatars in that world. Beyond that, any feedback or questions that you share will be sent to them to respond/address, as needed. 
 
 **Q: Hmmm.  What would we need to adjust about our worlds to work with the new avatars?**
 
 A: We do not anticipate any major changes or adjustments to be required in your world(s), however, some areas that you might want to consider reviewing include:
 
-* Attachables
-* In-world environments accommodating differently sized Avatars, e.g. doorways
-* Lighting
-* Skyboxes
+- Attachables 
+- In-world environments accommodating differently sized Avatars, e.g. doorways
+- Lighting
+- Skyboxes 
 
 For those that join the early access program, the team will be sharing a few additional tips/pointers on what to look out for or test out within these areas.
 
@@ -44,3 +44,4 @@ A: With the next generation avatars, we targeted the performance profile of the 
 **Q: Are avatar colliders changing?**
 
 A: Colliders will be updated slightly between avatar styles as colliders are tied to the new rig that’s rolling out with next-gen avatars. Like in the previous style of avatars, the size and shapes of the colliders will still stay uniform even if the body meshes and sizes of the avatar vary (i.e. a skinny avatar vs. a wide avatar will have the same collider boxes).
+

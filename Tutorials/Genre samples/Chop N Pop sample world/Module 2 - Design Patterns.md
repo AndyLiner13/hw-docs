@@ -2,17 +2,17 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/genre-samples/chop-n-pop-sample-world/module-2-design-patterns
 ---
 
-# Module 2 - Design Patterns
+# [Module 2 - Design Patterns](#module-2---design-patterns)
 
 This module describes some of the design patterns used in this tutorial world, which may provide guidance in how to organize code in your own projects.
 
-## Behaviour & BehaviourFinder
+## [Behaviour & BehaviourFinder](#behaviour--behaviourfinder)
 
 Unity developers will recognize the naming of these scripts. In addition to providing common naming patterns, these two classes solve the disconnect between an entity and the script attached to it.
 
 When an entity with an attached behaviour is spawned in the world, it registers itself with the BehaviourFinder static container. This pattern allows you to query the script, and therefore its classes, associated with any entity through BehaviourFinder.
 
-## Asset configuration at spawn time
+## [Asset configuration at spawn time](#asset-configuration-at-spawn-time)
 
 Configuring properties on a file asset is time-consuming and inhibits tuning in later phases of game development. To work around this limitation, this sample introduces the NpcTuner and NpcConfigStore classes.
 
@@ -24,14 +24,14 @@ The NPC assets only require a string property to enable config retrieval at runt
 
 **To apply this pattern to any asset**:
 
-- Create a static container / singleton to hold your configurations (see `NpcConfigStore.ts`)
-- Create a component with the properties you want to apply to your asset. (see `NpcTuner.ts`)
-- In the `start()` method, register it with your static container.
-- Query the static container for the asset config in the script’s `start()` (see `ZombieBrain.ts`)
+1. Create a static container / singleton to hold your configurations (see `NpcConfigStore.ts`)
+2. Create a component with the properties you want to apply to your asset. (see `NpcTuner.ts`)
+3. In the `start()` method, register it with your static container.
+4. Query the static container for the asset config in the script’s `start()` (see `ZombieBrain.ts`)
 
 This pattern avoids bringing the asset on the stage to update it, update it, and then delete it.
 
-## Server-Local entity messaging
+## [Server-Local entity messaging](#server-local-entity-messaging)
 
 When an entity must communicate with a core system across the client-server boundary and expects a response, one-way network messaging becomes a limitation. In this world, this issue is solved by using two network messages.
 
@@ -39,24 +39,24 @@ When an entity must communicate with a core system across the client-server boun
 
 When the axe applies damage to enemies:
 
-- The axe entity broadcasts the monstersInRange network message identifying itself and its range.
-- The EnemyWaveManager listens for that message broadcast and evaluates what monsters are in range given the entity’s position and range.
-- The EnemyWaveManager sends a monstersInRangeResponse network message directly to the querying axe entity.
-- The axe listens for that message and evaluates what happens to the monsters in range.
+1. The axe entity broadcasts the monstersInRange network message identifying itself and its range.
+2. The EnemyWaveManager listens for that message broadcast and evaluates what monsters are in range given the entity’s position and range.
+3. The EnemyWaveManager sends a monstersInRangeResponse network message directly to the querying axe entity.
+4. The axe listens for that message and evaluates what happens to the monsters in range.
 
-## Children as elements
+## [Children as elements](#children-as-elements)
 
 When you need a configurable list of points in space, create an empty object with a script that enumerates its children, which are also empty objects.
 
 In this tutorial world, this technique is used to create spawn points for monsters and loot. See the **ZombieSpawnPoints node** in the Hierarchy panel.
 
-## Parent-referencing scripts
+## [Parent-referencing scripts](#parent-referencing-scripts)
 
 Sometimes, the “children as elements” pattern yields unexpected results, such as elements moving as a single block depending on physics settings.
 
 In this case, we instead reference the parent through the child. In the child, we add a property for the parent, and add a registration method on the parent itself. Have the element register itself with the parent on its `start()` method.
 
-## Pre-spawned asset pools
+## [Pre-spawned asset pools](#pre-spawned-asset-pools)
 
 When assets cannot be spawned dynamically or it is not desirable to do so, you can hide a number of statically created instances (drag & drop) in an unused part of the world, then move them in and out as if they were spawned and deleted.
 
@@ -65,3 +65,4 @@ During development of this tutorial world, it became evident that the ammo crate
 **Note**: These assets still occupy runtime memory and may exhibit behaviors if they have scripts attached to them. In this world, ammunition does nothing until it is attached to a gun, and a HUD is only effective when it is attached to a player’s avatar.
 
 For a more detailed explanation of pre-spawned versus spawned assets, you can explore the Spawning and Pooling tutorial. For more information, see [Spawning and Pooling](../../Feature%20samples/Spawning%20and%20pooling%20in%20typescript/Module%201%20-%20Setup.md).
+

@@ -2,24 +2,48 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_dynamiclist
 ---
 
-# DynamicList() Function
+# [DynamicList() Function](#dynamiclist-function)
 
 Creates a DynamicList component.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare function DynamicList<T>(props: Readonly<DynamicListProps<T>>): UINode<DynamicListProps<T>>;
+export
+ declare 
+function
+ 
+DynamicList
+<
+T
+>(
+props
+:
+ 
+Readonly
+<
+DynamicListProps
+<
+T
+>>):
+ 
+UINode
+<
+DynamicListProps
+<
+T
+>>;
 ```
 
-## Parameters
+## [Parameters](#parameters)
 
-props: Readonly<[DynamicListProps](../Type%20Aliases/DynamicListProps.md)<T>>
+props: Readonly<[DynamicListProps](../Type%20Aliases/DynamicListProps.md)\<T>>
 
 Props of the DynamicList component.
 
-## Returns
+## [Returns](#returns)
 
-[UINode](../Classes/UINode.md)<[DynamicListProps](../Type%20Aliases/DynamicListProps.md)<T>>
+[UINode](../Classes/UINode.md)<[DynamicListProps](../Type%20Aliases/DynamicListProps.md)\<T>>
 
 A UINode representing the DynamicList component.
+

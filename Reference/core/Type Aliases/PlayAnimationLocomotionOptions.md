@@ -2,19 +2,38 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playanimationlocomotionoptions
 ---
 
-# PlayAnimationLocomotionOptions type
+# [PlayAnimationLocomotionOptions type](#playanimationlocomotionoptions-type)
 
 The options for the [Player.playAvatarAnimationLocomotion()](../Classes/Player.md#playavataranimationlocomotion) method.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type PlayAnimationLocomotionOptions = {
-    simulatedVelocity?: Vec3;
-    falling?: boolean;
+export
+ declare type 
+PlayAnimationLocomotionOptions
+ 
+=
+ 
+{
+
+    simulatedVelocity
+?:
+ 
+Vec3
+;
+
+    falling
+?:
+ 
+boolean
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [Vec3](../Classes/Vec3.md)
+

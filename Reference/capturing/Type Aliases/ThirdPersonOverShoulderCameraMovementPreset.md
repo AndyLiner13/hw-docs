@@ -2,17 +2,33 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_thirdpersonovershouldercameramovementpreset
 ---
 
-# ThirdPersonOverShoulderCameraMovementPreset type
+# [ThirdPersonOverShoulderCameraMovementPreset type](#thirdpersonovershouldercameramovementpreset-type)
 
-> Warning: This API is now obsolete.
+> [!Warning]
+>
+> This API is now obsolete.\
 > This module is deprecated and will be removed in a future version.
 
 A [CameraMovementPreset](CameraMovementPreset.md) option that provides a third-person over-the-shoulder camera view where the camera is positioned slightly above and behind the player avatar.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type ThirdPersonOverShoulderCameraMovementPreset = {
-    strategy: 'ThirdPersonOverShoulder';
+export
+ declare type 
+ThirdPersonOverShoulderCameraMovementPreset
+ 
+=
+ 
+{
+
+    strategy
+:
+ 
+'ThirdPersonOverShoulder'
+;
+
+
 };
 ```
+

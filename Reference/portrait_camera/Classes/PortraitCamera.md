@@ -2,18 +2,39 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/portrait_camera_portraitcamera
 ---
 
-# PortraitCamera Class
+# [PortraitCamera Class](#portraitcamera-class)
 
 Extends *Camera*
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare class PortraitCamera extends Camera
+export
+ declare 
+class
+ 
+PortraitCamera
+ 
+extends
+ 
+Camera
+ 
 ```
 
-## Properties
+## [Properties](#properties)
 
-|  |  |
-| --- | --- |
-| **currentOrientation** | The orientation of camera.      Signature  ``` currentOrientation: ReadableHorizonProperty<CameraOrientation>; ``` |
+|                        |                                           |
+| ---------------------- | ----------------------------------------- |
+| **currentOrientation** | The orientation of camera.Signature\`\`\` |
+| currentOrientation     |                                           |
+| :                      |                                           |
+
+ReadableHorizonProperty
+<
+CameraOrientation
+
+> ;
+
+```|
+```
+

@@ -2,29 +2,72 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_trailgizmo
 ---
 
-# TrailGizmo Class
+# [TrailGizmo Class](#trailgizmo-class)
 
 Extends *[Entity](Entity.md)*
 
 Represents a trail effect in the world.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare class TrailGizmo extends Entity
+export
+ declare 
+class
+ 
+TrailGizmo
+ 
+extends
+ 
+Entity
+ 
 ```
 
-## Properties
+## [Properties](#properties)
 
-|  |  |
-| --- | --- |
-| **length** | The length of the trail, in meters.      Signature  ``` length: HorizonProperty<number>; ``` |
-| **width** | The width of the trail, in meters.      Signature  ``` width: HorizonProperty<number>; ``` |
+|            |                                                    |
+| ---------- | -------------------------------------------------- |
+| **length** | The length of the trail, in meters.Signature\`\`\` |
+| length     |                                                    |
+| :          |                                                    |
 
-## Methods
+HorizonProperty <number></number>
+;
 
-|  |  |
-| --- | --- |
-| **play()** | Plays the trail effect.      Signature  ``` play(): void; ```  Returns  void |
-| **stop()** | Stops the trail effect.      Signature  ``` stop(): void; ```  Returns  void |
-| **toString()** | Creates a human-readable representation of the entity.      Signature  ``` toString(): string; ```  Returns  string  A string representation of the entity. |
+````|
+| **width**  | The width of the trail, in meters.Signature```
+width
+:
+ 
+HorizonProperty
+<number>
+;
+```   |
+
+## [Methods](#methods)
+
+|                |                                                                                                                                                   |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **play()**     | Plays the trail effect.Signature```
+play
+():
+ 
+void
+;
+```Returnsvoid                                                                              |
+| **stop()**     | Stops the trail effect.Signature```
+stop
+():
+ 
+void
+;
+```Returnsvoid                                                                              |
+| **toString()** | Creates a human-readable representation of the entity.Signature```
+toString
+():
+ 
+string
+;
+```ReturnsstringA string representation of the entity. |
+````
+

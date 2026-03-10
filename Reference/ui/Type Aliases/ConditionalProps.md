@@ -2,20 +2,47 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_conditionalprops
 ---
 
-# ConditionalProps type
+# [ConditionalProps type](#conditionalprops-type)
 
 Represents the props of a UINode.if() node (for conditional rendering).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type ConditionalProps = {
-    condition: Bindable<boolean>;
-    true?: UIChildren;
-    false?: UIChildren;
+export
+ declare type 
+ConditionalProps
+ 
+=
+ 
+{
+
+    condition
+:
+ 
+Bindable
+<boolean>
+;
+
+    
+true
+?:
+ 
+UIChildren
+;
+
+    
+false
+?:
+ 
+UIChildren
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [Bindable](Bindable.md), [UIChildren](UIChildren.md)
+

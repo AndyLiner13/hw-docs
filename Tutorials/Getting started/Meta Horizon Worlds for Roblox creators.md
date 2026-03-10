@@ -2,64 +2,64 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started/meta-horizon-worlds-for-roblox-creators
 ---
 
-# Meta Horizon Worlds for Roblox creators
+# [Meta Horizon Worlds for Roblox creators](#meta-horizon-worlds-for-roblox-creators)
 
 This article provides information to help experienced Roblox creators get started with Meta Horizon Worlds, including basic UI orientation, conceptual comparisons, and key differences between the two platforms.
 
-## UI overview - Meta Horizon Worlds Desktop Editor vs. Roblox Studio
+## [UI overview - Meta Horizon Worlds Desktop Editor vs. Roblox Studio](#ui-overview---meta-horizon-worlds-desktop-editor-vs-roblox-studio)
 
 The [desktop editor](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/User%20Interface.md) for Meta Horizon Worlds shares many features with Roblox Studio:
 
-* The Hierarchy window in Meta Horizon Worlds is similar to the Workspace folder in the Explorer window in Roblox Studio for organizing elements in your 3D scene. Both allow you to manage and organize objects (called entities in Meta Horizon Worlds), and both use a tree structure to represent parent-child relationships between objects.
-* Roblox Studio’s Creator Store and Inventory are also similar to the Asset Store and Assets window in Meta Horizon Worlds, respectively.
+- The Hierarchy window in Meta Horizon Worlds is similar to the Workspace folder in the Explorer window in Roblox Studio for organizing elements in your 3D scene. Both allow you to manage and organize objects (called entities in Meta Horizon Worlds), and both use a tree structure to represent parent-child relationships between objects.
+- Roblox Studio’s Creator Store and Inventory are also similar to the Asset Store and Assets window in Meta Horizon Worlds, respectively.
 
-![Meta Horizon Worlds UI Overview](../../_assets/images/3a1160c4bb9451d18d8af0f17c273ff3b0f510cd9f74e1154b9b75935fd39e2a.jpg)
+![Meta Horizon Worlds UI Overview](../../_assets/images/3a1160c4bb9451d18d8af0f17c273ff3b0f510cd9f74e1154b9b75935fd39e2a.png)
 
-## Terminology differences
+## [Terminology differences](#terminology-differences)
 
 Meta Horizon Worlds uses different terminology to describe some concepts that Roblox creators may already be familiar with. The following is a partial list of terms from Meta Horizon Worlds that have corresponding names in Roblox:
 
-| Meta Horizon Worlds | Roblox | Notes |
-| --- | --- | --- |
-| World | Place |  |
-| Entity | Part | Most basic building block. |
-| Asset Template | Packages/Models | A container object that groups multiple gameplay elements including meshes, gameplay logic, audio, and more. These are stored in a library and can be used across worlds and shared with other creators. |
-| Transform | Transform/CFrame |  |
-| Hierarchy window | Explorer window |  |
-| Properties window | Properties window |  |
-| Scene window | Viewport |  |
-| Assets window | Toolbox |  |
-| SpawnPoint | SpawnLocation |  |
-| Console | Output |  |
-| Asset Library | Creator Store |  |
+| Meta Horizon Worlds | Roblox            | Notes                                                                                                                                                                                                    |
+| ------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| World               | Place             |                                                                                                                                                                                                          |
+| Entity              | Part              | Most basic building block.                                                                                                                                                                               |
+| Asset Template      | Packages/Models   | A container object that groups multiple gameplay elements including meshes, gameplay logic, audio, and more. These are stored in a library and can be used across worlds and shared with other creators. |
+| Transform           | Transform/CFrame  |                                                                                                                                                                                                          |
+| Hierarchy window    | Explorer window   |                                                                                                                                                                                                          |
+| Properties window   | Properties window |                                                                                                                                                                                                          |
+| Scene window        | Viewport          |                                                                                                                                                                                                          |
+| Assets window       | Toolbox           |                                                                                                                                                                                                          |
+| SpawnPoint          | SpawnLocation     |                                                                                                                                                                                                          |
+| Console             | Output            |                                                                                                                                                                                                          |
+| Asset Library       | Creator Store     |                                                                                                                                                                                                          |
 
-## Scripting differences
+## [Scripting differences](#scripting-differences)
 
 Roblox supports three different types of Luau scripts:
 
-* Client scripts that run on the client independently of the server
-* Server scripts that run on the server where the client has no visibility to their behavior
-* Module scripts that are reusable pieces of code that return a value, typically a function
+- Client scripts that run on the client independently of the server
+- Server scripts that run on the server where the client has no visibility to their behavior
+- Module scripts that are reusable pieces of code that return a value, typically a function
 
 **Script type comparison**
 
-| Meta Horizon Worlds | Roblox |
-| --- | --- |
-| Script in Local Execution Mode | Client Script |
+| Meta Horizon Worlds                     | Roblox        |
+| --------------------------------------- | ------------- |
+| Script in Local Execution Mode          | Client Script |
 | Script in default Server Execution Mode | Server Script |
-| Export functions/classes in any script | Module script |
+| Export functions/classes in any script  | Module script |
 
 Scripts in Meta Horizon Worlds are not separated into types, but can be run in either Default or [Local execution mode](../../Scripting/Local%20scripting/Getting%20Started%20with%20Local%20Scripting.md):
 
-* Default Script Execution
-  + A server-side script that never executes on the client.
-* Local Script Execution
-  + A script that can execute on the client (but does not have to - can be owned by the server).
-  + Offers better performance for the client at the cost of some features and interactivity with Default scripts.
+- Default Script Execution
+  - A server-side script that never executes on the client.
+- Local Script Execution
+  - A script that can execute on the client (but does not have to - can be owned by the server).
+  - Offers better performance for the client at the cost of some features and interactivity with Default scripts.
 
 In Meta Horizon Worlds, scripts must be given ownership via code. Generally, the paradigm in Meta Horizon Worlds is to have a server-side manager which assigns local scripts to players as needed when they join the World. In Roblox, local script ownership is handled automatically.
 
-### TypeScript and Luau
+### [TypeScript and Luau](#typescript-and-luau)
 
 Roblox creators add custom gameplay logic to their creations by using Luau, a scripting language derived from Lua 5.1. Meta Horizon Worlds uses [TypeScript](../../Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md), a statically-typed extension of JavaScript. Meta Horizon Worlds provides [APIs](../../Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md) for interacting with the players and environment.
 
@@ -69,30 +69,48 @@ Here’s an example function written Lua and TypeScript for comparison. The func
 
 Lua
 
-```
+```lua
 -- Sum numbers up to "n" and returns the sum
+
 function sumUpTo(n)
+
     local sum = 0
+
     for i = 1, n do
+
         sum = sum + i
+
     end
+
     return sum
+
 end
+
+
 
 print(sumUpTo(5))  -- Output: 15 (1 + 2 + 3 + 4 + 5)
 ```
 
 TypeScript
 
-```
+```typescript
 // Sum numbers up to "n" and returns the sum
+
 function sumUpTo(n: number): number {
+
     let sum = 0;
+
     for (let i = 1; i <= n; i++) {
+
         sum += i;
+
     }
+
     return sum;
+
 }
+
+
 
 console.log(sumUpTo(5));  // Output: 15 (1 + 2 + 3 + 4 + 5)
 ```
@@ -101,70 +119,71 @@ console.log(sumUpTo(5));  // Output: 15 (1 + 2 + 3 + 4 + 5)
 
 Related articles:
 
-* [Using TypeScript in Meta Horizon Worlds](../../Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md)
-* [TypeScript Tutorial](../../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Tutorial.md)
-* [Meta Horizon Worlds TypeScript APIs](../../Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md)
+- [Using TypeScript in Meta Horizon Worlds](../../Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md)
+- [TypeScript Tutorial](../../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Tutorial.md)
+- [Meta Horizon Worlds TypeScript APIs](../../Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md)
 
-## Asset pipeline
+## [Asset pipeline](#asset-pipeline)
 
-Meta Horizon Worlds allows you to [import a variety of asset types](../../Desktop%20editor/Assets/Creating,%20importing,%20viewing,%20and%20spawning%20assets.md) such as 3D models, textures, and sounds. The following is a list of accepted asset types and file formats:
+Meta Horizon Worlds allows you to [import a variety of asset types](../../Desktop%20editor/Assets/Creating%2C%20importing%2C%20viewing%2C%20and%20spawning%20assets.md) such as 3D models, textures, and sounds. The following is a list of accepted asset types and file formats:
 
-| Asset type | File format(s) |
-| --- | --- |
-| 3D model | Must have at least one FBX (.fbx) and one PNG (.png) |
-| Audio | OGG Opus (.opus) or WAV (.wav) |
-| Material | PNG (.png) |
-| Skydome | PNG (.png) or EXR (.exr) |
-| Texture | PNG (.png) |
-| Text | JSON (.json) |
+| Asset type | File format(s)                                       |
+| ---------- | ---------------------------------------------------- |
+| 3D model   | Must have at least one FBX (.fbx) and one PNG (.png) |
+| Audio      | OGG Opus (.opus) or WAV (.wav)                       |
+| Material   | PNG (.png)                                           |
+| Skydome    | PNG (.png) or EXR (.exr)                             |
+| Texture    | PNG (.png)                                           |
+| Text       | JSON (.json)                                         |
 
-### Importing a world from Roblox to Meta Horizon Worlds
+### [Importing a world from Roblox to Meta Horizon Worlds](#importing-a-world-from-roblox-to-meta-horizon-worlds)
 
 If the assets in your Place were originally imported from an external source as .FBX files, you can import those original .FBX files to Meta Horizon Worlds with no additional conversion. For assets constructed using native Roblox parts, you will need to export them from Roblox, convert them to the file formats listed above using a tool such as [Blender](https://www.blender.org/), and import them to Meta Horizon Worlds.
 
 **Note**: At this time, there is no way to convert scripts written for Roblox into a form usable by Meta Horizon Worlds; all scripts will need to be re-written using the Meta Horizon Worlds [TypeScript API](../../Scripting/Get%20started%20with%20TypeScript/Horizon%20TypeScript%20APIs.md).
 
-#### How to export assets from your Roblox world
+#### [How to export assets from your Roblox world](#how-to-export-assets-from-your-roblox-world)
 
 To export an asset from Roblox, you can right-click it in the Explorer and choose **Export Selection**. Models and textures exported from Roblox are in .OBJ and .MTL format, respectively.
 
 ![Export Selection](../../_assets/images/ea19ab80b44f1dd29fa5570922fc5eebeba61c0d6883998b93de09a0af8fa65d.jpg)
 
-## Monetization
+## [Monetization](#monetization)
 
 Members of the [Meta Horizon Worlds Creator Program (MHCP)](https://developers.meta.com/horizon-worlds/programs) are eligible to monetize their worlds through the MHCP bonus program and the sale of in-world items.
 
 The [MHCP bonus program](../../MHCP%20program/Monetization/Bonus%20Program%20Overview.md) tracks the following metrics and pays a separate cash bonus for each metric on a monthly basis, with higher performance tiers resulting in increased payout:
 
-* **Retention bonus**: Based on the number of users that return to your world within a week of visiting.
-* **Time spent bonuses**: There are two bonuses based on the total number of hours users spend in your world on mobile or headset.
-* **In-world purchase bonus**: Based on the number of dollars spent per paying user who visits your world.
+- **Retention bonus**: Based on the number of users that return to your world within a week of visiting.
+- **Time spent bonuses**: There are two bonuses based on the total number of hours users spend in your world on mobile or headset.
+- **In-world purchase bonus**: Based on the number of dollars spent per paying user who visits your world.
 
 [In-world purchases](../../MHCP%20program/Monetization/In-world%20purchase%20guide.md) are the sales of items and services in your world, such as consumables, cosmetics, game items, and more. Prices for all in-world purchases are set in Meta Credits, which are the non-convertible tokens used to acquire digital goods and services in Meta Horizon Worlds. You receive the full transaction value of each purchase made with Meta Credits based on an exchange rate of **1 Credit = $0.0032**, with the number of dollars spent per user contributing to your **in-world purchase bonus**.
 
-## Community
+## [Community](#community)
 
 The [Meta Quest Community Discord](https://discord.gg/mqhwcommunity) provides a platform for discussion and collaboration between Meta Horizon Worlds creators and community members. It is a great place to ask your peers for tips and tricks, and to keep up with the latest discussions.
 
 Members of the [Meta Horizon Creator Program (MHCP)](https://developers.meta.com/horizon-worlds/programs) are invited to join the [Meta Horizon creator forum](https://communityforums.atmeta.com/t5/Meta-Horizon-Creator-Forums/ct-p/Meta_Horizon_Creator_Forums), where they can connect and collaborate with other MHCP creators. Non-members may still visit the forum and observe the conversation, but you’ll need to enroll in MHCP in order to see all the content or fully participate in the conversation.
 
-## Collaboration tools
+## [Collaboration tools](#collaboration-tools)
 
 You may add [Collaborators](../../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) to your world to help you with testing and creation. Up to 4 owners and collaborators may simultaneously visit and/or edit your unpublished worlds. If you are a member of the [Meta Horizon Worlds Creator Program](https://developers.meta.com/horizon-worlds/programs), this number is increased to 20.
 
 Collaborators may be assigned one or more roles:
 
-* **Tester**: Can visit your unpublished worlds, but cannot edit or publish them.
-* **Editor**: Can visit and modify your unpublished worlds, but cannot publish them.
+- **Tester**: Can visit your unpublished worlds, but cannot edit or publish them.
+- **Editor**: Can visit and modify your unpublished worlds, but cannot publish them.
 
-## Notable feature implementations
+## [Notable feature implementations](#notable-feature-implementations)
 
 Meta Horizon Worlds implements some features in ways that may not be obvious to Roblox creators. Here are a few notable examples:
 
-* **Lighting and Environment Settings** - To edit a world’s lighting settings, create an [Environment gizmo](../../Gizmos/Environment%20gizmo.md) and set your options there. This gizmo also allows you to hide the grid in the viewport.
-* **Materials and Textures** - Unlike Roblox, a single model in Meta Horizon Worlds can have multiple materials and textures.
-* **Custom UI** - To edit the UI in Meta Horizon Worlds, you must use a [Custom UI gizmo](../../Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) and associated script.
+- **Lighting and Environment Settings** - To edit a world’s lighting settings, create an [Environment gizmo](../../Gizmos/Environment%20gizmo.md) and set your options there. This gizmo also allows you to hide the grid in the viewport.
+- **Materials and Textures** - Unlike Roblox, a single model in Meta Horizon Worlds can have multiple materials and textures.
+- **Custom UI** - To edit the UI in Meta Horizon Worlds, you must use a [Custom UI gizmo](../../Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) and associated script.
 
-## Publishing and world discovery
+## [Publishing and world discovery](#publishing-and-world-discovery)
 
-Our recommendation engine fuels discovery across multiple product surfaces in headset (such as Horizon Feed, Horizon Worlds catalog, Horizon Store), on web, and in our Meta Horizon mobile app. For more information about how world discovery works in Meta Horizon Worlds, see [Intro to Horizon Worlds Discovery](../../Save,%20optimize,%20and%20publish/Intro%20to%20Worlds%20discovery.md).
+Our recommendation engine fuels discovery across multiple product surfaces in headset (such as Horizon Feed, Horizon Worlds catalog, Horizon Store), on web, and in our Meta Horizon mobile app. For more information about how world discovery works in Meta Horizon Worlds, see [Intro to Horizon Worlds Discovery](../../Save%2C%20optimize%2C%20and%20publish/Intro%20to%20Worlds%20discovery.md).
+

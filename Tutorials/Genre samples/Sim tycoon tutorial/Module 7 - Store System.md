@@ -2,227 +2,228 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/genre-samples/sim-tycoon-tutorial/module-7-store-system
 ---
 
-# Module 7 - Store System
+# [Module 7 - Store System](#module-7---store-system)
 
 The store system enables players to purchase tools and upgrades using the currency they’ve earned from converting resources. It provides an interface for players to progress their tools and capabilities.
 
-## System components
+## [System components](#system-components)
 
-### StoreSystem.ts
+### [StoreSystem.ts](#storesystemts)
 
 The store system manages the purchase flow for tools and upgrades. It validates purchases, handles currency transactions, and distributes tools to players.
 
 Key features:
 
-* **Purchase Validation**: Ensures players have sufficient currency for purchases
-* **Tool Distribution**: Handles giving tools to players through the ToolGroup system
-* **Currency Management**: Deducts costs and tracks player spending
-* **Progress Tracking**: Records purchases for save system persistence
-* **UI Integration**: Provides purchase confirmation and feedback
+- **Purchase Validation**: Ensures players have sufficient currency for purchases
+- **Tool Distribution**: Handles giving tools to players through the ToolGroup system
+- **Currency Management**: Deducts costs and tracks player spending
+- **Progress Tracking**: Records purchases for save system persistence
+- **UI Integration**: Provides purchase confirmation and feedback
 
-### Store properties
+### [Store properties](#store-properties)
 
 The store system has configurable properties for managing the shop:
 
-* **toolCosts**: Mapping of tool names to their purchase costs
-* **upgradeCosts**: Costs for upgrading existing tools to higher tiers
-* **discountRates**: Optional discount percentages for bulk purchases
-* **availableTools**: List of tools currently available for purchase
-* **purchaseHistory**: Tracking of player purchases for analytics
+- **toolCosts**: Mapping of tool names to their purchase costs
+- **upgradeCosts**: Costs for upgrading existing tools to higher tiers
+- **discountRates**: Optional discount percentages for bulk purchases
+- **availableTools**: List of tools currently available for purchase
+- **purchaseHistory**: Tracking of player purchases for analytics
 
-## Purchase mechanics
+## [Purchase mechanics](#purchase-mechanics)
 
-### Tool purchasing flow
+### [Tool purchasing flow](#tool-purchasing-flow)
 
-- Player approaches store trigger or interface
-- Store displays available tools and their costs
-- Player selects desired tool or upgrade
-- System validates player has sufficient currency
-- Currency is deducted from player account
-- Tool is distributed through ToolGroup system
-- Player’s SimPlayer state is updated
-- Purchase is recorded for save persistence
+1. Player approaches store trigger or interface
+2. Store displays available tools and their costs
+3. Player selects desired tool or upgrade
+4. System validates player has sufficient currency
+5. Currency is deducted from player account
+6. Tool is distributed through ToolGroup system
+7. Player’s SimPlayer state is updated
+8. Purchase is recorded for save persistence
 
-### Upgrade system
+### [Upgrade system](#upgrade-system)
 
 The store integrates with the tool progression system:
 
-* **Tier Upgrades**: Players can upgrade tools to higher tiers
-* **Progressive Costs**: Each tier costs more than the previous
-* **Stat Improvements**: Higher tiers provide better performance
-* **Visual Progression**: Tool appearance improves with tier
+- **Tier Upgrades**: Players can upgrade tools to higher tiers
+- **Progressive Costs**: Each tier costs more than the previous
+- **Stat Improvements**: Higher tiers provide better performance
+- **Visual Progression**: Tool appearance improves with tier
 
-## Integration with other systems
+## [Integration with other systems](#integration-with-other-systems)
 
 The store works closely with ToolGroups to handle tool distribution and integrates with SimPlayer for purchase validation and state management.
 
-## Currency integration
+## [Currency integration](#currency-integration)
 
-### Currency validation
+### [Currency validation](#currency-validation)
 
 Before any purchase, the store system:
 
-* Checks player’s current currency balance
-* Validates the requested purchase cost
-* Provides feedback if insufficient funds
-* Suggests alternative lower-cost options
+- Checks player’s current currency balance
+- Validates the requested purchase cost
+- Provides feedback if insufficient funds
+- Suggests alternative lower-cost options
 
-### Transaction processing
+### [Transaction processing](#transaction-processing)
 
 When a valid purchase is made:
 
-* Currency is immediately deducted from player balance
-* Transaction is logged for tracking
-* Player statistics are updated
-* HUD displays reflect new balance
+- Currency is immediately deducted from player balance
+- Transaction is logged for tracking
+- Player statistics are updated
+- HUD displays reflect new balance
 
-## Tool distribution
+## [Tool distribution](#tool-distribution)
 
-### ToolGroup integration
+### [ToolGroup integration](#toolgroup-integration)
 
 The store works closely with ToolGroups to handle tool distribution:
 
-- **Tool Request**: Store requests specific tool from appropriate ToolGroup
-- **Pool Management**: ToolGroup provides tool from pool or spawns new instance
-- **Player Assignment**: Tool is assigned to player through SimPlayer
-- **Previous Tool Return**: Old tool is returned to its respective pool
+1. **Tool Request**: Store requests specific tool from appropriate ToolGroup
+2. **Pool Management**: ToolGroup provides tool from pool or spawns new instance
+3. **Player Assignment**: Tool is assigned to player through SimPlayer
+4. **Previous Tool Return**: Old tool is returned to its respective pool
 
-### Equipment management
+### [Equipment management](#equipment-management)
 
 When players purchase new tools:
 
-* Current tool is automatically returned to pool
-* New tool is equipped immediately
-* Player capacity or abilities update instantly
-* Visual feedback confirms the equipment change
+- Current tool is automatically returned to pool
+- New tool is equipped immediately
+- Player capacity or abilities update instantly
+- Visual feedback confirms the equipment change
 
-## Store interface
+## [Store interface](#store-interface)
 
-### Purchase options
+### [Purchase options](#purchase-options)
 
 The store provides several purchase categories:
 
-#### Pickaxe purchases
+#### [Pickaxe purchases](#pickaxe-purchases)
 
-* Tool tier upgrades for better mining efficiency
-* Specialized pickaxes for specific resource types
-* Repair services for damaged tools
+- Tool tier upgrades for better mining efficiency
+- Specialized pickaxes for specific resource types
+- Repair services for damaged tools
 
-#### Backpack purchases
+#### [Backpack purchases](#backpack-purchases)
 
-* Capacity upgrades for larger inventories
-* Specialized storage for specific resources
-* Enhanced efficiency backpacks
+- Capacity upgrades for larger inventories
+- Specialized storage for specific resources
+- Enhanced efficiency backpacks
 
-#### Utility purchases
+#### [Utility purchases](#utility-purchases)
 
-* Temporary boosts or multipliers
-* Cosmetic upgrades for tools
-* Special abilities or enhancements
+- Temporary boosts or multipliers
+- Cosmetic upgrades for tools
+- Special abilities or enhancements
 
-## Integration with other systems
+## [Integration with other systems](#integration-with-other-systems-1)
 
-### SimPlayer integration
+### [SimPlayer integration](#simplayer-integration)
 
-* Purchase validation through player currency
-* Tool assignment through equipGrabbable/equipAttachable
-* State persistence through save system
-* Progress tracking for achievements
+- Purchase validation through player currency
+- Tool assignment through equipGrabbable/equipAttachable
+- State persistence through save system
+- Progress tracking for achievements
 
-### HUD integration
+### [HUD integration](#hud-integration)
 
-* Real-time currency display during shopping
-* Purchase confirmation dialogs
-* Tool comparison interfaces
-* Upgrade recommendation systems
+- Real-time currency display during shopping
+- Purchase confirmation dialogs
+- Tool comparison interfaces
+- Upgrade recommendation systems
 
-### Save system integration
+### [Save system integration](#save-system-integration)
 
-* Purchase history is saved between sessions
-* Tool ownership persists across play sessions
-* Currency balances are maintained
-* Upgrade progress is tracked
+- Purchase history is saved between sessions
+- Tool ownership persists across play sessions
+- Currency balances are maintained
+- Upgrade progress is tracked
 
-## Customization guide
+## [Customization guide](#customization-guide)
 
-### Adding new items
+### [Adding new items](#adding-new-items)
 
-- Define the new tool or item entity.
-- Create appropriate ToolGroup for management.
-- Add item to store inventory configuration.
-- Set appropriate cost and tier placement.
-- Update UI to display new item.
+1. Define the new tool or item entity.
+2. Create appropriate ToolGroup for management.
+3. Add item to store inventory configuration.
+4. Set appropriate cost and tier placement.
+5. Update UI to display new item.
 
-### Modifying costs
+### [Modifying costs](#modifying-costs)
 
-- Locate the store configuration.
-- Update the `toolCosts` or `upgradeCosts` mapping.
-- Adjust values to maintain economic balance.
-- Test progression flow with new pricing.
+1. Locate the store configuration.
+2. Update the `toolCosts` or `upgradeCosts` mapping.
+3. Adjust values to maintain economic balance.
+4. Test progression flow with new pricing.
 
-### Creating special offers
+### [Creating special offers](#creating-special-offers)
 
-- Implement discount rate system
-- Add limited-time purchase options
-- Create bundle deals for multiple items
-- Implement loyalty rewards for frequent customers
+1. Implement discount rate system
+2. Add limited-time purchase options
+3. Create bundle deals for multiple items
+4. Implement loyalty rewards for frequent customers
 
-## Economic balancing
+## [Economic balancing](#economic-balancing)
 
-### Cost scaling
+### [Cost scaling](#cost-scaling)
 
 Store prices should follow progression principles:
 
-* **Early Tools**: Affordable with basic resource conversion
-* **Mid-Tier Tools**: Require moderate grinding or resource optimization
-* **High-Tier Tools**: Significant investment requiring efficient play
-* **Top-Tier Tools**: Major achievement requiring substantial progression
+- **Early Tools**: Affordable with basic resource conversion
+- **Mid-Tier Tools**: Require moderate grinding or resource optimization
+- **High-Tier Tools**: Significant investment requiring efficient play
+- **Top-Tier Tools**: Major achievement requiring substantial progression
 
-### Progression pacing
+### [Progression pacing](#progression-pacing)
 
 The store system should support healthy progression:
 
-* **Quick Early Wins**: First few upgrades should be achievable quickly
-* **Meaningful Choices**: Mid-game should present interesting upgrade decisions
-* **Long-term Goals**: High-end items should provide aspirational targets
-* **Endgame Content**: Top-tier items should require mastery of all systems
+- **Quick Early Wins**: First few upgrades should be achievable quickly
+- **Meaningful Choices**: Mid-game should present interesting upgrade decisions
+- **Long-term Goals**: High-end items should provide aspirational targets
+- **Endgame Content**: Top-tier items should require mastery of all systems
 
-## Performance optimization
+## [Performance optimization](#performance-optimization)
 
-### Efficient transactions
+### [Efficient transactions](#efficient-transactions)
 
 The store system optimizes performance through:
 
-* **Cached Tool Pools**: Pre-spawned tools reduce purchase latency
-* **Batch Processing**: Multiple purchases can be processed efficiently
-* **Lightweight Validation**: Quick currency checks before expensive operations
-* **Optimized UI Updates**: Minimal refresh cycles for responsive interface
+- **Cached Tool Pools**: Pre-spawned tools reduce purchase latency
+- **Batch Processing**: Multiple purchases can be processed efficiently
+- **Lightweight Validation**: Quick currency checks before expensive operations
+- **Optimized UI Updates**: Minimal refresh cycles for responsive interface
 
-### Memory management
+### [Memory management](#memory-management)
 
 Store operations manage memory efficiently:
 
-* **Pool Reuse**: Tools are recycled rather than recreated
-* **Transaction Logging**: Efficient storage of purchase history
-* **State Persistence**: Compressed save data for store state
-* **UI Optimization**: Responsive interfaces without memory leaks
+- **Pool Reuse**: Tools are recycled rather than recreated
+- **Transaction Logging**: Efficient storage of purchase history
+- **State Persistence**: Compressed save data for store state
+- **UI Optimization**: Responsive interfaces without memory leaks
 
-## Advanced features
+## [Advanced features](#advanced-features)
 
-### Dynamic pricing
+### [Dynamic pricing](#dynamic-pricing)
 
 Implement market-style systems:
 
-* **Supply and Demand**: Prices fluctuate based on player behavior
-* **Seasonal Sales**: Special pricing during events
-* **Bulk Discounts**: Better rates for large purchases
-* **Loyalty Programs**: Rewards for frequent customers
+- **Supply and Demand**: Prices fluctuate based on player behavior
+- **Seasonal Sales**: Special pricing during events
+- **Bulk Discounts**: Better rates for large purchases
+- **Loyalty Programs**: Rewards for frequent customers
 
-### Social features
+### [Social features](#social-features)
 
 Add multiplayer elements:
 
-* **Gift System**: Players can purchase items for others
-* **Trading Post**: Player-to-player item exchange
-* **Group Purchases**: Collaborative buying for expensive items
-* **Leaderboards**: Track top spenders or collectors
+- **Gift System**: Players can purchase items for others
+- **Trading Post**: Player-to-player item exchange
+- **Group Purchases**: Collaborative buying for expensive items
+- **Leaderboards**: Track top spenders or collectors
+

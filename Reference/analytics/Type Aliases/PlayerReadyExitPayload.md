@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_playerreadyexitpayload
 ---
 
-# PlayerReadyExitPayload type
+# [PlayerReadyExitPayload type](#playerreadyexitpayload-type)
 
 A payload sent by the `OnPlayerReadyExit` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type PlayerReadyExitPayload = FullTurboEventPayload<typeof OnPlayerReadyExit>;
+export
+ declare type 
+PlayerReadyExitPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnPlayerReadyExit
+>;
 ```
+

@@ -2,17 +2,19 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/variable-groups/using-variable-groups
 ---
 
-# Using Variable Groups
+# [Using Variable Groups](#using-variable-groups)
 
 Variable groups let you create sets of persistent variables that you can share across your worlds. This approach lets you build cross-world experiences using persisted information from any of your worlds. You can access the variable groups system from the **Systems** tab of creator tools. On this tab, you’ll find three sub-tabs that display the following types of variable groups. Those:
 
-* **Added to the World**
-* **Owned by Me**
-* **Shared with Me**
+- **Added to the World**
+- **Owned by Me**
+- **Shared with Me**
 
 With the introduction of variable groups, you are no longer restricted to using just six variable groups per world; you can create as many variable groups as you want.
 
-> **Note:** To use the persistent variables from a variable group in your world, you must add that variable group to your world.
+> [!Note]
+>
+> To use the persistent variables from a variable group in your world, you must add that variable group to your world.
 
 ![](../../../_assets/images/3f440e9c56b5a7d6d581d8698bed0bc7a6dbfa08acca9e2b059d941a6d0acf98.png)
 
@@ -20,13 +22,17 @@ With the introduction of variable groups, you are no longer restricted to using 
 
 When you select a variable group, you’ll see all of the persistent variables that it contains. From here you can create, edit, and delete persistent variables from within a variable group.
 
-> **Note:** You are limited to adding up to 100 persistent variables to a variable group.
+> [!Note]
+>
+> You are limited to adding up to 100 persistent variables to a variable group.
 
 ![](../../../_assets/images/45c1de497cca2ac5716d9206590fe4c0ed969e181c31a65b7301c3b1ea520705.png)
 
 When you create a variable group, you can edit its name and description, and you can also choose whether you want to add it to the current world.
 
-> **Note:** In order to add the variable group to the current world, you must own that world, and it must have less than six variable groups already.
+> [!Note]
+>
+> In order to add the variable group to the current world, you must own that world, and it must have less than six variable groups already.
 
 ![](../../../_assets/images/618e561fb5dbb19054586d3860cda2bcda4603150287cc55faa0a17017ab62cb.png)
 
@@ -41,3 +47,4 @@ When you add variable groups to your world, you can then access their persistent
 ![](../../../_assets/images/2a031fe096f3fdf5da85ddb061a95189a01a33726a19344981fcb4a62164a5e6.png)
 
 ![](../../../_assets/images/d2133337c816293f6c70c7fa992a8cfed07bcbda0488fe50d6c76892c1c49910.png)
+

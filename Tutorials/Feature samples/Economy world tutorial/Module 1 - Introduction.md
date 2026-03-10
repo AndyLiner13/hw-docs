@@ -2,37 +2,37 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/economy-world-tutorial/module-1-introduction
 ---
 
-# Module 1 - Introduction
+# [Module 1 - Introduction](#module-1---introduction)
 
 ![Economy world cover image](../../../_assets/images/06c905413a0bc33483c0d770a5d2bdeabf8c5542b37c6abd57948fe81921ccf0.png)
 
 Welcome to module 1 of the Economy World tutorial. In this tutorial, you will learn:
 
-* How to use in-world items and the shop gizmo to create an in-world economy
-* How to design an in-world economy as a feature of your game
-* How to use the Daily Claims gizmo to boost player engagement
+- How to use in-world items and the shop gizmo to create an in-world economy
+- How to design an in-world economy as a feature of your game
+- How to use the Daily Claims gizmo to boost player engagement
 
 Requirements
 
- You must be a member of MHCP and accept the terms in the Developer Dashboard to create in-world items and currency. Learn more from [Monetization opportunities](../../../MHCP%20program/Monetization/Monetization%20opportunities.md).
+You must be a member of MHCP and accept the terms in the Developer Dashboard to create in-world items and currency. Learn more from [Monetization opportunities](../../../MHCP%20program/Monetization/Monetization%20opportunities.md).
 
-## Decoupling economy from monetization
+## [Decoupling economy from monetization](#decoupling-economy-from-monetization)
 
 It is important to differentiate between an in-world economy and monetization, as it’s easy to confuse the two.
 
-* **In-World Economy**: The economy of a world which includes unlockable items, purchaseable goods, progression systems, and customization options. Unlockable and purchaseable in-world items may or may not be available to purchase with real-world currency.
-* **Monetization**: The items in a world that are only available for purchase with real-world currency.
+- **In-World Economy**: The economy of a world which includes unlockable items, purchaseable goods, progression systems, and customization options. Unlockable and purchaseable in-world items may or may not be available to purchase with real-world currency.
+- **Monetization**: The items in a world that are only available for purchase with real-world currency.
 
-## Benefits of an in-world economy
+## [Benefits of an in-world economy](#benefits-of-an-in-world-economy)
 
 Benefits of an in-world economy include:
 
-* Developing the social value of cosmetic items in-world.
-* Offering players meaningful rewards for regular or prolonged play sessions
-* Building anticipation and excitement
-* Encouraging daily engagement through features like Daily Claims rewards
+- Developing the social value of cosmetic items in-world.
+- Offering players meaningful rewards for regular or prolonged play sessions
+- Building anticipation and excitement
+- Encouraging daily engagement through features like Daily Claims rewards
 
-## Introduction to tycoon games
+## [Introduction to tycoon games](#introduction-to-tycoon-games)
 
 To showcase the usage and impact of an in-world economy, we are focusing on a tycoon game.
 
@@ -40,16 +40,17 @@ The objective of this game is for players to earn in-world currency by performin
 
 The economy of this game forms the basis of the gameplay, but an in-world economy can be established in almost any game that requires player action. For the best results, it is worth considering how to incorporate an in-world economy during the design phase of your game.
 
-## Introduction to apple farmer tycoon
+## [Introduction to apple farmer tycoon](#introduction-to-apple-farmer-tycoon)
 
 In our example world, we have established an in-world economy based on a simple core loop. The core loop for this world is: Collect apples that fall from trees. Use the oven to cook 5x apples and convert to 1x pie. Sell the pies in the shop to receive gems (an in-world soft currency). Use the gems to purchase more ovens, as well as oven and apple tree upgrades.
 
-## Introduction to the world inventory APIs
+## [Introduction to the world inventory APIs](#introduction-to-the-world-inventory-apis)
 
 The backbone of the in-world economy and shop gizmo is the world inventory. The world inventory exists behind the scenes, storing the amount of each in-world item for each player entering the world. The world inventory persists after the player leaves the world, which means the next time the player joins, the world inventory will load as the player left it. The World Inventory is automatically created for each world.
 
 There are several [TypeScript APIs](../../../Reference/core/Classes/WorldInventory.md) available to manage the world inventory. The key API calls for this tutorial are:
 
-* `hz.WorldInventory.grantItemToPlayer(player, "item_sku", 1);`: The grantItemToPlayer method is used to grant a quantity of in-world items to the player’s world inventory.
-* `hz.WorldInventory.consumeItemForPlayer(player, "item_sku", 5);`: This method is used to remove a quantity of in-world items from the player’s world inventory.
-* `hz.WorldInventory.getPlayerEntitlementQuantity(player, “item_sku”);`: You can use this method to query how many of a specific in-world item the player has in their world inventory.
+- `hz.WorldInventory.grantItemToPlayer(player, "item_sku", 1);`: The grantItemToPlayer method is used to grant a quantity of in-world items to the player’s world inventory.
+- `hz.WorldInventory.consumeItemForPlayer(player, "item_sku", 5);`: This method is used to remove a quantity of in-world items from the player’s world inventory.
+- `hz.WorldInventory.getPlayerEntitlementQuantity(player, “item_sku”);`: You can use this method to query how many of a specific in-world item the player has in their world inventory.
+

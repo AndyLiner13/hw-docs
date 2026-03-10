@@ -2,53 +2,51 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/vr-creation/publish-a-world-in-horizon
 ---
 
-# Publish your world using VR tools
+# [Publish your world using VR tools](#publish-your-world-using-vr-tools)
 
 In order to publish a world, you’ll need to provide pertinent information such as a name, description and thumbnail photo. This information helps people find your world and decide if they’d like to visit it and explore.
 
-## To publish a world:
+## [To publish a world:](#to-publish-a-world)
 
-- Go to Build Mode in the world to be published.
-- Open the Creator Menu.
-- Tap the **Publish** icon in the dock.
-- Enter your information into the **Publish World** window, including:
-  ![Screenshot shows the desktop editor window](../_assets/images/adb606bc4fa53dbf9d767976edfd3c4dddb9cf7bcfd3e8b7b0d7046e3dd9a53b.png)
-- **Name:** Enter a name for your world.
-- **Description:** Provide a short, punchy description of what makes your world special.
-- **World Rating:** Click on the ‘Get rating’ button to take a survey to determine your world rating. For more information on world ratings, [click here.](../MHCP%20program/FAQ/World%20Ratings%20FAQs.md)
-- **Comfort Rating:** Choose an appropriate comfor rating from the dropdown menu.
-- **Tags:** Choose applicable tags from the dropdown menu.
-- **Mute Assist:** While on, all in-world audio will be reviewed for loud noises, profanity and other offensive language; players wil be alerted to any offending incidents in order to mute these offenders quickly and easily.
-  - Mute assist is turned on by default for all ages 10+ and ages 13+ rated worlds.
-  - Learn more about mute assist in the [Manage your microphone and mute settings in Meta Horizon Worlds](https://www.meta.com/help/quest/articles/horizon/safety-and-privacy-in-horizon-worlds/mute-mic-horizon/) docs.
-- **Thumbnail:** Add an image representing your world. [Click here](Getting%20started/Create%20an%20asset%20thumbnail%20with%20Meta%20Horizon%20Worlds.md) for more information on creating asset thumbnails.
-- **Visible to Public:** While on, this world will show up in searches and has the potential to be featured. Note that anyone in Worlds will be able to search for and enter your published world while this toggle is on.
-- **Members Only:** While on, only memebers of a world will be able to access it. Note that this option can not be changed once it has been set.
-- **Beta World:** While on, the published world will be noted as being ‘in development.’
-- Tap ‘Publish.’
+1. Go to Build Mode in the world to be published.
+2. Open the Creator Menu.
+3. Tap the **Publish** icon in the dock.
+4. Enter your information into the **Publish World** window, including: ![Screenshot shows the desktop editor window](../_assets/images/adb606bc4fa53dbf9d767976edfd3c4dddb9cf7bcfd3e8b7b0d7046e3dd9a53b.png)
+5. **Name:** Enter a name for your world.
+6. **Description:** Provide a short, punchy description of what makes your world special.
+7. **World Rating:** Click on the ‘Get rating’ button to take a survey to determine your world rating. For more information on world ratings, [click here.](../MHCP%20program/FAQ/World%20Ratings%20FAQs.md)
+8. **Comfort Rating:** Choose an appropriate comfor rating from the dropdown menu.
+9. **Tags:** Choose applicable tags from the dropdown menu.
+10. **Mute Assist:** While on, all in-world audio will be reviewed for loud noises, profanity and other offensive language; players wil be alerted to any offending incidents in order to mute these offenders quickly and easily. - Mute assist is turned on by default for all ages 10+ and ages 13+ rated worlds. - Learn more about mute assist in the [Manage your microphone and mute settings in Meta Horizon Worlds](https://www.meta.com/help/quest/articles/horizon/safety-and-privacy-in-horizon-worlds/mute-mic-horizon/) docs.
+11. **Thumbnail:** Add an image representing your world. [Click here](Getting%20started/Create%20an%20asset%20thumbnail%20with%20Meta%20Horizon%20Worlds.md) for more information on creating asset thumbnails.
+12. **Visible to Public:** While on, this world will show up in searches and has the potential to be featured. Note that anyone in Worlds will be able to search for and enter your published world while this toggle is on.
+13. **Members Only:** While on, only memebers of a world will be able to access it. Note that this option can not be changed once it has been set.
+14. **Beta World:** While on, the published world will be noted as being ‘in development.’
+15. Tap ‘Publish.’
 
 Published worlds will appear in the ‘Places’ section of your personal menu. The status will show the publish date once the world is published.
 
-## About the world ratings survey
+## [About the world ratings survey](#about-the-world-ratings-survey)
 
-* You are required to complete the world ratings survey when you first publish a world and it should be retaken whenever you make significant changes to a world’s content.
-* Only those above 18 can publish worlds that contain content covered by the [Horizon Mature Worlds Policy](../Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md).
-* If the survey doesn’t account for certain aspects of your world content that affect its rating, we may change the rating, unpublish, or remove the world.
+- You are required to complete the world ratings survey when you first publish a world and it should be retaken whenever you make significant changes to a world’s content.
+- Only those above 18 can publish worlds that contain content covered by the [Horizon Mature Worlds Policy](../Save%2C%20optimize%2C%20and%20publish/Worlds%20content%20guidelines.md).
+- If the survey doesn’t account for certain aspects of your world content that affect its rating, we may change the rating, unpublish, or remove the world.
 
-## To unpublish a world:
+## [To unpublish a world:](#to-unpublish-a-world)
 
-- Go to the **Publish** section of your Creator Menu.
-- Tap **Publish Updates** to expand the dropdown.
-- Tap **Unpublish**.
-- Tap **Next**.
+1. Go to the **Publish** section of your Creator Menu.
+2. Tap **Publish Updates** to expand the dropdown.
+3. Tap **Unpublish**.
+4. Tap **Next**.
 
 Once a world is published, it will appear in the **Places** section of your Personal Menu and anyone in Worlds will be able to search for and go to it.
 
 You can also continue building in a world even after it’s been published without affecting the experience of anyone who’s currently in your world.
 
-## To update a published world:
+## [To update a published world:](#to-update-a-published-world)
 
-- Go to the **Publish** section of your Creator Menu.
-- Tap the **Next** icon, then tap **Publish Updates**.
+1. Go to the **Publish** section of your Creator Menu.
+2. Tap the **Next** icon, then tap **Publish Updates**.
 
 Anyone who’s currently in your world will need to leave and come back in order to see the updates.
+

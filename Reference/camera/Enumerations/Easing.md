@@ -2,21 +2,27 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_easing
 ---
 
-# Easing Enum
+# [Easing Enum](#easing-enum)
 
 The styles for camera transitions.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum Easing
+export
+ declare 
+enum
+ 
+Easing
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| EaseIn | `0` |  |
-| EaseInOut | `2` |  |
-| EaseOut | `1` |  |
-| Linear | `3` |  |
+| Member    | Value | Description |
+| --------- | ----- | ----------- |
+| EaseIn    | `0`   |             |
+| EaseInOut | `2`   |             |
+| EaseOut   | `1`   |             |
+| Linear    | `3`   |             |
+

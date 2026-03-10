@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_abilityequippayload
 ---
 
-# AbilityEquipPayload type
+# [AbilityEquipPayload type](#abilityequippayload-type)
 
 A payload sent by the `OnAbilityEquip` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type AbilityEquipPayload = FullTurboEventPayload<typeof OnAbilityEquip>;
+export
+ declare type 
+AbilityEquipPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnAbilityEquip
+>;
 ```
+

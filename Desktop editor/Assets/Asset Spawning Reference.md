@@ -2,9 +2,9 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/assets/asset-spawning-reference
 ---
 
-# Asset Spawning Reference
+# [Asset Spawning Reference](#asset-spawning-reference)
 
-## Overview
+## [Overview](#overview)
 
 Every world in Horizon is saved as a world snapshot. The snapshot contains a list of shapes, scripts, gizmos, and how they are all organized. When you edit a world in build mode a new snapshot is generated.
 
@@ -26,92 +26,100 @@ As another example, you don’t need to make 10 copies of a hat, instead you can
 
 **Deleting spawned objects** is similar to deleting objects/gizmos/assets in build mode.
 
-## Spawning Considerations
+## [Spawning Considerations](#spawning-considerations)
 
-* **Keep track of all spawned objects.** If you want to delete spawned objects then you need to keep track of them. At minimum, when you spawn in an object you should store it in a script variable or list so that you can reference it in the delete spawned object code block. Capacity limits are still in effect even though the spawning occurs in play mode.
+- **Keep track of all spawned objects.** If you want to delete spawned objects then you need to keep track of them. At minimum, when you spawn in an object you should store it in a script variable or list so that you can reference it in the delete spawned object code block. Capacity limits are still in effect even though the spawning occurs in play mode.
 
   Each asset has a record of how much capacity it needs on each meter such as objects, complexity, vfx. When the asset spawns, it takes up the capacity on each of those meters. If spawning the asset would take any of the meters over 100% then the spawn will fail.
 
   **Note:** Currently there is no way to detect a failure and no way to see how much capacity an asset needs other than to remove the asset in build mode and look at the relative change in the meters.
-* **Asset spawning follows all the same capacity rules as build mode.** If you publish a world with 90% object capacity and then have that world spawn assets in publish mode, the 90% object capacity will keep increasing until it hits 100% after which no new assets will spawn. At that point you would need to despawn previously spawned objects to free the object capacity again.
-* **Make assets self-contained.** Assets must be entirely contained to work properly, whether imported in build mode or spawning in scripts. This means that all referenced objects and script gizmos attached to objects must be contained within the asset.
+
+- **Asset spawning follows all the same capacity rules as build mode.** If you publish a world with 90% object capacity and then have that world spawn assets in publish mode, the 90% object capacity will keep increasing until it hits 100% after which no new assets will spawn. At that point you would need to despawn previously spawned objects to free the object capacity again.
+
+- **Make assets self-contained.** Assets must be entirely contained to work properly, whether imported in build mode or spawning in scripts. This means that all referenced objects and script gizmos attached to objects must be contained within the asset.
 
   Assets currently cannot include persistent gizmos such as leaderboards and achievements since they would not be self-contained. When an asset is spawned, the scripts are renamed to prevent name clashes similar to when you pull out the asset from the library.
-* **Be mindful of asset size.** Larger assets will take longer to spawn and once they do spawn, the lighting calculation will take longer to settle.
 
-## Current Limitations (as of June 2022)
+- **Be mindful of asset size.** Larger assets will take longer to spawn and once they do spawn, the lighting calculation will take longer to settle.
 
-* **Only spawn single-group assets.** There are currently issues with spawning assets that are not a single group. The event callback doesn’t reference all spawned objects. There is no way to delete all the spawned objects, and the spawned objects will not be correctly positioned or rotated. You should only spawn assets where all objects are grouped together into a single group.
-* **No failure detection.** If an asset fails to spawn there is no way to detect such failure.
-* **Not all gizmos can be included.** Since assets must be self contained you cannot use any gizmos that reference specific world data. This means that you cannot use the leaderboard gizmo in an asset and cannot use leaderboard code blocks in a script used inside an asset. The same rule applies to the gizmo and code blocks for achievements and to the code blocks for persistent variables.
-* **Existing instances won’t get updates to an asset.** If you modify an asset, new instances of your world will get the updated asset. Any already-running world instances will continue to spawn the version that existed when the instance started. There is currently no way to force an already running instance to refresh or update assets.
-* **Wait a frame before sending messages.** Currently you can’t send events to objects in the same frame they were spawned. There is a bug where these events get ignored. When you get a reference to a spawned object you need to send any messages to it with a delay or on a later frame. The bug only occurs right when the object spawns, so after that one frame you can send events to the object as normal.
-* **Assets cannot be scaled when spawned.** The spawn asset code block allows you to specify the position and rotation but not the scale. If you want to scale a spawned asset it will need to be dynamic. The same applies to changing colors or other properties.
+## [Current Limitations (as of June 2022)](#current-limitations-as-of-june-2022)
 
-## How To Spawn Assets
+- **Only spawn single-group assets.** There are currently issues with spawning assets that are not a single group. The event callback doesn’t reference all spawned objects. There is no way to delete all the spawned objects, and the spawned objects will not be correctly positioned or rotated. You should only spawn assets where all objects are grouped together into a single group.
+- **No failure detection.** If an asset fails to spawn there is no way to detect such failure.
+- **Not all gizmos can be included.** Since assets must be self contained you cannot use any gizmos that reference specific world data. This means that you cannot use the leaderboard gizmo in an asset and cannot use leaderboard code blocks in a script used inside an asset. The same rule applies to the gizmo and code blocks for achievements and to the code blocks for persistent variables.
+- **Existing instances won’t get updates to an asset.** If you modify an asset, new instances of your world will get the updated asset. Any already-running world instances will continue to spawn the version that existed when the instance started. There is currently no way to force an already running instance to refresh or update assets.
+- **Wait a frame before sending messages.** Currently you can’t send events to objects in the same frame they were spawned. There is a bug where these events get ignored. When you get a reference to a spawned object you need to send any messages to it with a delay or on a later frame. The bug only occurs right when the object spawns, so after that one frame you can send events to the object as normal.
+- **Assets cannot be scaled when spawned.** The spawn asset code block allows you to specify the position and rotation but not the scale. If you want to scale a spawned asset it will need to be dynamic. The same applies to changing colors or other properties.
 
-- **Create an asset variable in a script.** To spawn an asset you need a script with an asset variable which you will set to contain an asset in step 5. You can call this variable whatever you like, for example “hatAsset”, “hat”, “asset”.
-- **Apply the script to an object.** The script from step 1 needs to be on an object as like any other script. That object will run the code blocks that spawn the asset.
-- **Open the scripted object’s property Panel.** Open the property panel of the object from step. From here you will see the Asset Variable field as empty in the variables section of the property panel.
-- **Find the asset in the Asset Library.** From your build menu navigate to your asset library, then navigate to the asset you want to spawn. Select the view info icon on that asset.
-- **Connect the reference pill.** On the property panel you opened in step 4, scroll down to see the asset reference pill (blue in color with the asset name){picture}. Select and drag this reference pill to the Asset Variable field “empty” on the objects property panel where the script was applied in step 3. The field will have the variable name that you chose in step 1.
+## [How To Spawn Assets](#how-to-spawn-assets)
 
-  **Note:** Unlike object references, there is no wire drawn back to the asset in the asset library, just the name of the asset is shown in the variable value field.
-- **Spawn the Asset.** The script from step 1 can now use the spawn asset code block. You can use the variable that you created in step 1 to specify what to spawn.
+1. **Create an asset variable in a script.** To spawn an asset you need a script with an asset variable which you will set to contain an asset in step 5. You can call this variable whatever you like, for example “hatAsset”, “hat”, “asset”.
 
-  **Note:** You can have one script spawn many different types of assets. You need to wire them all to different variables in the script.
+2. **Apply the script to an object.** The script from step 1 needs to be on an object as like any other script. That object will run the code blocks that spawn the asset.
 
-## Code blocks
+3. **Open the scripted object’s property Panel.** Open the property panel of the object from step. From here you will see the Asset Variable field as empty in the variables section of the property panel.
 
-### Spawn Asset
+4. **Find the asset in the Asset Library.** From your build menu navigate to your asset library, then navigate to the asset you want to spawn. Select the view info icon on that asset.
+
+5. **Connect the reference pill.** On the property panel you opened in step 4, scroll down to see the asset reference pill (blue in color with the asset name){picture}. Select and drag this reference pill to the Asset Variable field “empty” on the objects property panel where the script was applied in step 3. The field will have the variable name that you chose in step 1.
+
+   **Note:** Unlike object references, there is no wire drawn back to the asset in the asset library, just the name of the asset is shown in the variable value field.
+
+6. **Spawn the Asset.** The script from step 1 can now use the spawn asset code block. You can use the variable that you created in step 1 to specify what to spawn.
+
+   **Note:** You can have one script spawn many different types of assets. You need to wire them all to different variables in the script.
+
+## [Code blocks](#code-blocks)
+
+### [Spawn Asset](#spawn-asset)
 
 Actions ➤ Object ➤ spawn asset
 
 Spawn a new instance of an asset into a running world. The spawn may fail if there isn’t enough capacity available.
 
-#### Appearance in Library
+#### [Appearance in Library](#appearance-in-library)
 
 ![](../../_assets/images/6c87cf4741e62571545394b7772d7cdadd2f0f679b423ce708b2eb92ff1b1d28.png)
 
-#### Appearance in Composition Pane
+#### [Appearance in Composition Pane](#appearance-in-composition-pane)
 
 ![](../../_assets/images/eace58415254e1715a92533d9f39500bafdd3814c8174f681e9df263e597f303.png)
 
-#### Parameters
+#### [Parameters](#parameters)
 
-|  |  |
-| --- | --- |
-|  | The asset to spawn. |
-|  | The location the object should be at when it spawns. If the spawned object is static then it cannot be moved again from this location. |
-|  | The orientation the object should have when it spawns. If the spawned object is static then it cannot be rotated again from this orientation. |
-|  | The callback event. When the object finishes spawning, this event will be sent to the variable. The event is sent with the parameter. |
-|  | The receiver object. When the object finishes spawning the event will be sent to this object along with an object parameter containing the newly spawned object. |
+|                                                                                                |                                                                                                                                                                  |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](../../_assets/images/938ee2ef8be6e3fcbae58c2b0a64e66b5f59d870c33c0044667c6e2dfddac5bb.png) | The asset to spawn.                                                                                                                                              |
+| ![](../../_assets/images/6bf9f80e06466ec77c7a0cdaf2724863b507100c7be4345c6375c4a3f322b4d0.png) | The location the object should be at when it spawns. If the spawned object is static then it cannot be moved again from this location.                           |
+| ![](../../_assets/images/5ab2720d38c770c50cee0af0e674c5b41d3f3fbbc4db17170a3a12efe4e54004.png) | The orientation the object should have when it spawns. If the spawned object is static then it cannot be rotated again from this orientation.                    |
+| ![](../../_assets/images/dd02df9774b03933b748ccd7c190a95c3eab4581c639a0c1744e12884ec43de5.png) | The callback event. When the object finishes spawning, this event will be sent to the variable. The event is sent with the parameter.                            |
+| ![](../../_assets/images/cf3da6a8cee36dcf41d5bb54ac926bbccba3a59a0a286ef54d464022428ba499.png) | The receiver object. When the object finishes spawning the event will be sent to this object along with an object parameter containing the newly spawned object. |
 
-### Delete Spawned Object
+### [Delete Spawned Object](#delete-spawned-object)
 
 Actions ➤ Object ➤ delete spawned object
 
 Delete an object that was previously spawned, removing the objects and freeing up their capacity.
 
-#### Appearance in Library
+#### [Appearance in Library](#appearance-in-library-1)
 
 ![](../../_assets/images/0f59bcc31416a69251e8a542c8019f388f9da0f8f01e21b6f9f5df88c9c7100f.png)
 
-#### Appearance in Composition Pane
+#### [Appearance in Composition Pane](#appearance-in-composition-pane-1)
 
 ![](../../_assets/images/4ce84a8e39725a62b8ce53fd15aaeead14d770fa5b3969a1140feac374b11b02.png)
 
-#### Parameters
+#### [Parameters](#parameters-1)
 
 ![](../../_assets/images/6835e9d6690cb91ac827cd968badafb67e40a25a422fdaecb2ed60b9eb4d3b8f.png)
 
-|  |  |
-| --- | --- |
-|  | The object to delete. This Object must have been spawned using the spawn asset code block. |
+|                                                                                                |                                                                                            |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ![](../../_assets/images/cf3da6a8cee36dcf41d5bb54ac926bbccba3a59a0a286ef54d464022428ba499.png) | The object to delete. This Object must have been spawned using the spawn asset code block. |
 
-### Examples
+### [Examples](#examples)
 
-#### Spawn an object when grabbed
+#### [Spawn an object when grabbed](#spawn-an-object-when-grabbed)
 
 **What it does:** This example spawns a hidden temple whenever a player grabs an object. The temple despawns if the player lets go of the object.
 
@@ -119,7 +127,7 @@ Delete an object that was previously spawned, removing the objects and freeing u
 
 ![](../../_assets/images/a5335adbe8a9281e99b3128bf5bdfe410bab8df13b5169fa6c014935adb37509.png)
 
-#### Updated Assets Only Appear In New Instances
+#### [Updated Assets Only Appear In New Instances](#updated-assets-only-appear-in-new-instances)
 
 One benefit of spawning is that you can modify an asset and have it update in all the worlds that reference it. However, once a world instance starts, asset versions are frozen for that instance.
 
@@ -127,7 +135,7 @@ Only instances of worlds created after updating the asset will see the updates. 
 
 **Note:** This impacts build mode (as of June 2022). Updating the asset in build mode does not update the spawning asset in that instance of build mode. Either that instance of build mode needs to be closed by leaving build mode instance or you can create a new asset hence getting around the asset being frozen for that instance of build mode.
 
-#### Example Uses of Spawning
+#### [Example Uses of Spawning](#example-uses-of-spawning)
 
 **Spawning environment gizmos:** In published mode, spawning in environment blocks with different properties will take effect in your world the moment they are spawned. If your world has no environment gizmos in it, you can spawn them in and out by changing the sky from day to night or by turning the fog on or off. This makes it possible to create **dynamic environments**.
 
@@ -141,7 +149,7 @@ You can spawn in and out of sections of the world as people move around it. This
 
 To create variety you can choose which car you want to drive or create variance in NPCs. This makes it possible to create wearable costumes, rewards, weapon skins, unlockable items, and more.
 
-## FAQs
+## [FAQs](#faqs)
 
 **Q) Can I send events to spawned assets?**
 
@@ -162,3 +170,4 @@ A) Yes, but the doors will only work if the owner of that world is an editor or 
 **Q) Do spawned objects impact the “dynamics” gauge of the capacity meter?**
 
 A) Yes, but only if the assets themselves are dynamic. Spawning and despawning assets is not like setting visibility on an object in a script. If an asset is marked as static then spawning it in will not impact the dynamics meter. If the object has interaction or physics enabled or is a text or FX gizmo then it will.
+

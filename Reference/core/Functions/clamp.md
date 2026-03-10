@@ -2,17 +2,35 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_clamp
 ---
 
-# clamp() Function
+# [clamp() Function](#clamp-function)
 
 Clamps a value between a minimum value and a maximum value.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare function clamp(value: number, min: number, max: number): number;
+export
+ declare 
+function
+ clamp
+(
+value
+:
+ number
+,
+ min
+:
+ number
+,
+ max
+:
+ number
+):
+ number
+;
 ```
 
-## Parameters
+## [Parameters](#parameters)
 
 value: number
 
@@ -26,8 +44,9 @@ max: number
 
 The maxium value.
 
-## Returns
+## [Returns](#returns)
 
 number
 
 The clamped value.
+

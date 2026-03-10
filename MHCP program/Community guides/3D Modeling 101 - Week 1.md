@@ -2,16 +2,17 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/3d-modeling-101-week-1
 ---
 
-# 3D Modeling 101 - Week 1
+# [3D Modeling 101 - Week 1](#3d-modeling-101---week-1)
 
-[](https://video-dfw5-1.xx.fbcdn.net/v/t42.1790-2/10000000_8978974752189776_2476416406260947000_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=6500a6&_nc_ohc=8F5UEN2UbhcQ7kNvwGmvGAj&_nc_oc=AdlaTnwRKriUGMxNG4oPyYbWq2qKhmfQ3IRwXVdR-PYIJTTrj_w_pJ068rEVrWAW95IyFNctKFkl1GQQhuodI0YX&_nc_zt=28&_nc_ht=video-dfw5-1.xx&_nc_gid=B9GH7P1RBGkkpUAbASpSgg&oh=00_AfoI8--Vmn8sVtjN7_MCdCvQzhAhZowf5NxzE5zGDE49Mw&oe=696FCCF1)
+<video controls></video><source src="../../_assets/videos/aa2e8356c2eca06a0fb8aade8452371cbf35a4378ea64e8b77a8fd775b995ddf.mp4" type="video/mp4">
 
 Ready to transform your creative vision into 3D reality? Join MHCP Mentor SpaceGlitterUnicorn for a comprehensive introduction to 3D modeling, designed specifically to give you the confidence and skills to create your first 3D assets.
 
 For more helpful Blender tips, be sure to review the [hotkey guide to the Blenderverse](Basic%20Hotkey%20Guide%20to%20the%20Blenderverse.md) as well!
 
-## Week 1: Introduction to Blender
+## [Week 1: Introduction to Blender](#week-1-introduction-to-blender)
 
-* Get acquainted with the Blender interface
-* Create your first Meta Horizon-ready model
-* Learn essential importing workflows
+- Get acquainted with the Blender interface
+- Create your first Meta Horizon-ready model
+- Learn essential importing workflows
+

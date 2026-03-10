@@ -2,14 +2,28 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_inworldshophelpers
 ---
 
-# InWorldShopHelpers Variable
+# [InWorldShopHelpers Variable](#inworldshophelpers-variable)
 
 List of in world shop features
 
-## Signature
+## [Signature](#signature)
 
 ```
-InWorldShopHelpers: {
-    OnPlayerPurchasedItemEvent: NetworkEvent<OnPlayerPurchasedItemEventPayload>;
+InWorldShopHelpers
+:
+ 
+{
+
+    
+OnPlayerPurchasedItemEvent
+:
+ 
+NetworkEvent
+<
+OnPlayerPurchasedItemEventPayload
+>;
+
+
 }
 ```
+

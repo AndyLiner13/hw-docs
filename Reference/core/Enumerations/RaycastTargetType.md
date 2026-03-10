@@ -2,20 +2,26 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_raycasttargettype
 ---
 
-# RaycastTargetType Enum
+# [RaycastTargetType Enum](#raycasttargettype-enum)
 
 The target type during a raycast collision.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum RaycastTargetType
+export
+ declare 
+enum
+ 
+RaycastTargetType
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| Entity | `1` | An entity. |
-| Player | `0` | A player. |
-| Static | `2` | A static object. |
+| Member | Value | Description      |
+| ------ | ----- | ---------------- |
+| Entity | `1`   | An entity.       |
+| Player | `0`   | A player.        |
+| Static | `2`   | A static object. |
+

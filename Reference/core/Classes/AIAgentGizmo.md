@@ -2,24 +2,42 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_aiagentgizmo
 ---
 
-# AIAgentGizmo Class
+# [AIAgentGizmo Class](#aiagentgizmo-class)
 
 Extends *[Entity](Entity.md)*
 
 Represents an AI Agent gizmo, which enables NPCs and objects to use locomotion and pathfinding capabilities, and optionally be embodied by an avatar.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare class AIAgentGizmo extends Entity
+export
+ declare 
+class
+ 
+AIAgentGizmo
+ 
+extends
+ 
+Entity
+ 
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
 For more information about using NPCs, see the [NPC](../../../Desktop%20editor/NPCs/NPCs%20Overview.md) guide.
 
-## Methods
+## [Methods](#methods)
 
-|  |  |
-| --- | --- |
-| **toString()** | Creates a human-readable representation of the AIAgentGizmo.      Signature  ``` toString(): string; ```  Returns  string  A string representation of the AIAgentGizmo. |
+|                |                                                                             |
+| -------------- | --------------------------------------------------------------------------- |
+| **toString()** | Creates a human-readable representation of the AIAgentGizmo.Signature\`\`\` |
+| toString       |                                                                             |
+| ():            |                                                                             |
+
+string
+;
+
+```ReturnsstringA string representation of the AIAgentGizmo. |
+```
+

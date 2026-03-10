@@ -2,18 +2,48 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_locomotionoptions
 ---
 
-# LocomotionOptions type
+# [LocomotionOptions type](#locomotionoptions-type)
 
 The options used when a movement command is issued to the NPC.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type LocomotionOptions = {
-    movementSpeed?: number;
-    travelTime?: number;
-    acceleration?: number;
-    deceleration?: number;
-    faceMovementDirection?: boolean;
+export
+ declare type 
+LocomotionOptions
+ 
+=
+ 
+{
+
+    movementSpeed
+?:
+ number
+;
+
+    travelTime
+?:
+ number
+;
+
+    acceleration
+?:
+ number
+;
+
+    deceleration
+?:
+ number
+;
+
+    faceMovementDirection
+?:
+ 
+boolean
+;
+
+
 };
 ```
+

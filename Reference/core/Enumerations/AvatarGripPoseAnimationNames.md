@@ -2,23 +2,29 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_avatargripposeanimationnames
 ---
 
-# AvatarGripPoseAnimationNames Enum
+# [AvatarGripPoseAnimationNames Enum](#avatargripposeanimationnames-enum)
 
 Defines the currently available avatar grip pose animations.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum AvatarGripPoseAnimationNames
+export
+ declare 
+enum
+ 
+AvatarGripPoseAnimationNames
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
+| Member      | Value           | Description                                           |
+| ----------- | --------------- | ----------------------------------------------------- |
 | CancelThrow | `"CancelThrow"` | Cancels the "ReadyThrow" or "ChargeThrow" animations. |
 | ChargeThrow | `"ChargeThrow"` | Puts the player into a "Charging up throw" animation. |
-| Fire | `"Fire"` | Fire animation for the player. |
-| ReadyThrow | `"ReadyThrow"` | Puts the player into a "Ready to throw" animation. |
-| Reload | `"Reload"` | Reload animation for the player. |
-| Throw | `"Throw"` | Throw animation for the player. |
+| Fire        | `"Fire"`        | Fire animation for the player.                        |
+| ReadyThrow  | `"ReadyThrow"`  | Puts the player into a "Ready to throw" animation.    |
+| Reload      | `"Reload"`      | Reload animation for the player.                      |
+| Throw       | `"Throw"`       | Throw animation for the player.                       |
+

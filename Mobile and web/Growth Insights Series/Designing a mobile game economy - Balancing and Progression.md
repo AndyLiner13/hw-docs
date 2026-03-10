@@ -1,8 +1,8 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-economy-balancing-and-progression/
+source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/growth-insights-series/designing-a-mobile-game-economy-balancing-and-progression
 ---
 
-# Designing a mobile game economy - Balancing and Progression
+# [Designing a mobile game economy - Balancing and Progression](#designing-a-mobile-game-economy---balancing-and-progression)
 
 Welcome back to the Growth Insights Series!
 
@@ -10,31 +10,31 @@ In the first installment of our four-part series, \*Designing a Mobile Game Econ
 
 In this article, *Balancing & Progression*, we’ll build on that foundation. We’ll look at how to design and maintain an economy that supports your game’s core loops, how to pace progression so players always have meaningful goals, and how to avoid pitfalls like inflation, farming, or content burnout. By the end, you’ll have practical tools for tuning your economy so it feels fair, rewarding, and sustainable over time.
 
-# Economy: design and maintenance
+# [Economy: design and maintenance](#economy-design-and-maintenance)
 
 When diving deeper into economy design, the most important thing to consider is what the player does in the game. The type of gameplay players regularly engage in determines how the economy functions.
 
 Important questions to ask yourself include:
 
-- What will my players be doing?
-- What are their long- and short-term goals?
-- What does a player’s typical early-, mid-, and late-game session look like?
-- What do I want my players to spend on?
-- What is our long term engagement hook in the game?
+1. What will my players be doing?
+2. What are their long- and short-term goals?
+3. What does a player’s typical early-, mid-, and late-game session look like?
+4. What do I want my players to spend on?
+5. What is our long term engagement hook in the game?
 
-![](../../_assets/images/f1d938c356491af850e66aec95ced47959281a08479f0305c8e840178d712334.png)
+![](../../_assets/images/f1d938c356491af850e66aec95ced47959281a08479f0305c8e840178d712334.jpg)
 
 \*Royal Match knows players enjoy its matching puzzle gameplay. As a result, it offers several purchasable bundles with extra consumables to enhance the gameplay experience. \*
 
-# Economy: purchase motivations
+# [Economy: purchase motivations](#economy-purchase-motivations)
 
 Another question to ask yourself when designing your economy is: how will I ask my players to spend? Or, put another way, how does gameplay lead the player into spending? We find that players purchase for one of three reasons:
 
-- **Identity and belonging**: as a way to signal who they are and what they like in a highly situational way.
-- **Status signaling:** to telegraph their status to other players.
-- \*\*Utility: \*\*purchasing digital goods that provide functional benefits, such as extra storage, organizational tools for their inventory, time-saving boosts, or customizations that improve their overall gameplay experience.
+1. **Identity and belonging**: as a way to signal who they are and what they like in a highly situational way.
+2. **Status signaling:** to telegraph their status to other players.
+3. \*\*Utility: \*\*purchasing digital goods that provide functional benefits, such as extra storage, organizational tools for their inventory, time-saving boosts, or customizations that improve their overall gameplay experience.
 
-# Economy: balancing
+# [Economy: balancing](#economy-balancing)
 
 Economy balancing is an important practice for games that use their economy as the engine that powers their game loop. For more casual-friendly games that monetize primarily through one-off cosmetic purchases, there is less need for balancing.
 
@@ -48,17 +48,17 @@ If players begin clearing content too quickly, it’s better to introduce additi
 
 By contrast, strategically placing a progression blocker (skill checks, ability requirements, financial thresholds, or resource demands) to slow players down will often be viewed negatively as a form of artificial punishment.
 
-# Progression: pacing
+# [Progression: pacing](#progression-pacing)
 
 Another key aspect of economy design and balancing is pacing — the speed at which you want players to move through your game’s progression systems. A game should never guess at this speed. Instead, it should set clear goals for players to achieve and monitor whether they are progressing too quickly or struggling and churning.
 
-![](../../_assets/images/a8ac2961783468034214f6a661bafd4d45e15ad269acc0d759052dbda7a0a6d5.png)
+![](../../_assets/images/a8ac2961783468034214f6a661bafd4d45e15ad269acc0d759052dbda7a0a6d5.jpg)
 
 \*The various interconnected progression systems of Clash of Clans are a masterclass in pacing and supporting core loops. Gameplay sessions are built around routine check-ins, allowing players to step away as resources accrue passively. \*
 
-## **An example from a combat city builder**
+## [**An example from a combat city builder**](#an-example-from-a-combat-city-builder)
 
-### The Goal: Leveling Up the Town Hall from 2 to 3
+### [The Goal: Leveling Up the Town Hall from 2 to 3](#the-goal-leveling-up-the-town-hall-from-2-to-3)
 
 In this example, the town hall structure would require players to build a blacksmith, an apothecary, and an infirmary before they can unlock the option to upgrade the town hall to level 3.
 
@@ -72,12 +72,12 @@ Upgrading the town hall after that would cost additional currency, naturally, so
 
 Balancing the pacing of an economy is vital for free-to-play games. If players churn through content too quickly, they may churn from the game itself. Players must always have an unfolding road ahead, making steady, rewarding progress toward long-term goals without ever running out of content.
 
-# Progression: cliffs and mesas
+# [Progression: cliffs and mesas](#progression-cliffs-and-mesas)
 
 A common way to envision pacing in a game is through the use of cliffs and mesas. These two aspects of pacing help shape the overall flow of progression.
 
-* **Cliffs** are steep hurdles that must be planned for and cleared.
-* **Mesas** are flatter stretches where players can clear content and accumulate resources, often while planning their next major currency-out.
+- **Cliffs** are steep hurdles that must be planned for and cleared.
+- **Mesas** are flatter stretches where players can clear content and accumulate resources, often while planning their next major currency-out.
 
 Games should integrate both cliffs and mesas into their economy design to create variety within the gameplay experience.
 
@@ -89,15 +89,15 @@ Cliffs are challenges for players to overcome. Some may be exciting, others frus
 
 Mesas, conversely, are gentler periods where players can set secondary goals or recharge. While they may not provide much excitement, they help players recover between cliffs. Too many cliffs can make progress feel punishing, while too many mesas can lead to boredom and a surplus of unused resources. A healthy balance between the two keeps players motivated and engaged.
 
-# Economy: tracking and responding
+# [Economy: tracking and responding](#economy-tracking-and-responding)
 
 One of the most important aspects of economy design is responding to player habits. In the past, it was common to recommend a standard set of purchase prices for currencies in a storefront: an entry-level $0.99 offer, a “must have” $2.99 offer, and then $4.99, $9.99, $19.99, $26.99, $49.99, and $79.99 packs. This one-size-fits-all approach worked as a starting point but didn’t always fit every genre.
 
 For example, in a match-three game, you may not see many $79.99 purchases, but you’ll often see frequent $4.99 purchases for continues or $9.99 purchases for unlimited lives. By contrast, a deeper roleplaying game with layered progression systems might successfully sell $19.99 packs as its baseline, with no offerings below that price point.
 
-![](../../_assets/images/b6cb9e1ba64cc6712a8d27e738fea92e166b2fe0d676aaffe0b187eb0f05973b.png)
+![](../../_assets/images/b6cb9e1ba64cc6712a8d27e738fea92e166b2fe0d676aaffe0b187eb0f05973b.jpg)
 
-*Which Clash of Clans skins are most popular overall? Which resonate with first-time purchasers?
+*Which Clash of Clans skins are most popular overall? Which resonate with first-time purchasers?\
 Without telemetry and analytics, questions like these are almost impossible to answer.*
 
 As live operations and analytics matured, games began experimenting more with their pricing structures. It’s not recommended that every game sell only higher-value packs, but it’s equally risky to assume a default pricing ladder will work across the board.
@@ -106,14 +106,14 @@ One of the best steps you can take for your game’s long-term economic health i
 
 **Consider this scenario:** you release purchase offerings at the standard range ($0.99, $2.99, $4.99, $9.99, $19.99, $26.99, $39.99, $49.99, $79.99), and your game generates $250,000 in sales in a month. Wouldn’t you want to know which price points drove that revenue?
 
-* If 250,000 players purchased the $0.99 pack and nothing else, you’d conclude that low-end offers resonate most. But this could suggest the price is too low, leaving revenue on the table. You might A/B test raising the floor to $2.99 to see if higher revenue balances out lower conversions.
-* If 2,500 players bought the $49.99 pack and 1,563 bought the $79.99 pack, with little activity elsewhere, you’d question whether lower-end offers are needed at all.
+- If 250,000 players purchased the $0.99 pack and nothing else, you’d conclude that low-end offers resonate most. But this could suggest the price is too low, leaving revenue on the table. You might A/B test raising the floor to $2.99 to see if higher revenue balances out lower conversions.
+- If 2,500 players bought the $49.99 pack and 1,563 bought the $79.99 pack, with little activity elsewhere, you’d question whether lower-end offers are needed at all.
 
 ![](../../_assets/images/576575eb4ceb5d6c82aebd627ed073f3a0ca069400b98a15b77776d9c001ffb0.png)
 
 Telemetry — and the insights it generates — is one of the most powerful tools you have for planning and adjusting your game’s economy.
 
-# Preventing currency-in exploitation: farming
+# [Preventing currency-in exploitation: farming](#preventing-currency-in-exploitation-farming)
 
 One issue that can arise from giving players a steady stream of currency-ins is that dedicated or savvy players will find ways to exploit the game to gain large stockpiles of currency, upsetting pacing calculations. This is known as farming.
 
@@ -121,20 +121,75 @@ One issue that can arise from giving players a steady stream of currency-ins is 
 
 For multiplayer games (competitive or otherwise), farming must be controlled, as it can give highly engaged players a sizable advantage over those who play less often. F2P mobile games generally use three primary methods to control farming:
 
-- **Stamina systems:** Players can only engage with content for rewards until they run out of stamina. Once it’s depleted, they’re gated from earning further rewards. While effective at preventing farming, this system can discourage engagement if players want to keep playing.
+1. **Stamina systems:** Players can only engage with content for rewards until they run out of stamina. Once it’s depleted, they’re gated from earning further rewards. While effective at preventing farming, this system can discourage engagement if players want to keep playing.
 
-  ```
-   *Example: Clash Royale pioneered a solution (since removed) by awarding chests for matches. Players could only queue a limited number of chests to unlock with keys. Once their queue was full, they could still play matches, but no additional rewards dropped — effectively preventing farming.*
-  ```
-- \*\*Remove repeatable rewards: \*\*Currency rewards are removed from content after the first playthrough. This prevents players from farming easy content for large stockpiles. While effective, this can feel punishing if content itself is locked, so it’s best used selectively.
-- **Require currency investment to play:** Some games require players to stake currency before entering a match or mode. The system is balanced so players win semi-frequently but also lose often enough to keep the economy stable.
+   ```
+    
+   *
+   Example
+   :
+    
+   Clash
+    
+   Royale
+    pioneered a solution 
+   (
+   since removed
+   )
+    
+   by
+    awarding chests 
+   for
+    matches
+   .
+    
+   Players
+    could only queue a limited number of chests to unlock 
+   with
+    keys
+   .
+    
+   Once
+    their queue was full
+   ,
+    they could still play matches
+   ,
+    but 
+   no
+    additional rewards dropped 
+   —
+    effectively preventing farming
+   .*
+   ```
 
-  ```
-   *Example: Golf Clash requires players to bet a certain amount of currency before competing. Matchmaking ensures harder opponents appear regularly, so players risk losses unless they monetize.*
-  ```
+2. \*\*Remove repeatable rewards: \*\*Currency rewards are removed from content after the first playthrough. This prevents players from farming easy content for large stockpiles. While effective, this can feel punishing if content itself is locked, so it’s best used selectively.
 
-# What’s next?
+3. **Require currency investment to play:** Some games require players to stake currency before entering a match or mode. The system is balanced so players win semi-frequently but also lose often enough to keep the economy stable.
+
+   ```
+    
+   *
+   Example
+   :
+    
+   Golf
+    
+   Clash
+    requires players to bet a certain amount of currency before competing
+   .
+    
+   Matchmaking
+    ensures harder opponents appear regularly
+   ,
+    so players risk losses 
+   unless
+    they monetize
+   .*
+   ```
+
+# [What’s next?](#whats-next)
 
 Now that you have a clearer picture of how to tweak balance and progression systems in your economy, you can better understand how to create a more engaging experience for your players.
 
 Our next article in this series will focus on the basics of economy design — specifically stores and digital offerings. By mastering these fundamentals, you can ensure that your economy is robust, fair, and engaging for your players.
+

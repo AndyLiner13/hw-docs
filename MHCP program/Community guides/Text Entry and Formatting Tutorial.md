@@ -2,171 +2,180 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/text-entry-tutorial
 ---
 
-# Text Entry and Formatting Tutorial
+# [Text Entry and Formatting Tutorial](#text-entry-and-formatting-tutorial)
 
 In this tutorial, you’ll explore efficient methods for importing and manipulating text in Meta Horizon Worlds using TypeScript. You’ll learn the simplest ways to integrate large blocks of text, to format text using TypeScript code, and you’ll even learn how to create text dynamically.
 
 You can use the example code in this tutorial can be used by creators of all skill levels. Don’t worry if you’re new to TypeScript. By the end of this tutorial, you’ll be able to import text, format text, and create exciting, randomized game mechanics that surprise and engage your visitors.
 
-* Creator skill Level: All levels
-* Required background knowledge: No prior skills required.
-* Recommended background knowledge: Horizon Desktop Editor, TypeScript, VS Code, Codeblocks.
+- Creator skill Level: All levels
+- Required background knowledge: No prior skills required.
+- Recommended background knowledge: Horizon Desktop Editor, TypeScript, VS Code, Codeblocks.
 
-**Note:** This tutorial contains TypeScript code that you can download. This code was provided by MHCP mentor Laex05 and Vidyuu team. If you encounter any issues with the TypeScript code, you can contact info@vidyuu.com, or Laex05 on Discord for assistance.
+**Note:** This tutorial contains TypeScript code that you can download. This code was provided by MHCP mentor Laex05 and Vidyuu team. If you encounter any issues with the TypeScript code, you can contact <info@vidyuu.com>, or Laex05 on Discord for assistance.
 
-## Learning Objectives
+## [Learning Objectives](#learning-objectives)
 
 To complete this tutorial, you’ll complete the following tasks:
 
-* Learn about formatting options available in the Text Gizmo using TextMeshPro
-* Write and edit text using the Horizon Desktop Editor directly on TextGizmos
-* Easily place TextGizmos using the Horizon Desktop Editor
-* Send text & text arrays from TypeScript to Codeblock scripts
-* Request from and send random questions and answers to Codeblocks from TypeScript
-* Receive text in TypeScript from Codeblock scripts
-* Create a “MegaText” script in TypeScript, which can be used on desktop and in headset
-* Write text with formatting in TypeScript
-* Write text with the Vidyuu formatting library in TypeScript
-* Basic ad-lib story generation in TypeScript using string array imports
-* Advanced ad-lib story generation in TypeScript by picking a random story template and random player name
+- Learn about formatting options available in the Text Gizmo using TextMeshPro
+- Write and edit text using the Horizon Desktop Editor directly on TextGizmos
+- Easily place TextGizmos using the Horizon Desktop Editor
+- Send text & text arrays from TypeScript to Codeblock scripts
+- Request from and send random questions and answers to Codeblocks from TypeScript
+- Receive text in TypeScript from Codeblock scripts
+- Create a “MegaText” script in TypeScript, which can be used on desktop and in headset
+- Write text with formatting in TypeScript
+- Write text with the Vidyuu formatting library in TypeScript
+- Basic ad-lib story generation in TypeScript using string array imports
+- Advanced ad-lib story generation in TypeScript by picking a random story template and random player name
 
-## Text Gizmo Formatting Cheat Sheet
+## [Text Gizmo Formatting Cheat Sheet](#text-gizmo-formatting-cheat-sheet)
 
 When writing text on the Horizon Text Gizmo, the formatting options listed below are great for creating rich text and style. In the “text” property of the properties panel or using “text.set” in a TextGizmo Entity in Typescript, you can insert these codes to create the associated formats. These work because the Text Gizmo uses TextMeshPro (notably the Custom UI Gizmo does not support TextMeshPro formatting options). TextMeshPro is built into the backend of Unity and thus Horizon. It is what enables these formatting options. It is not specifically endorsed by, or made available by Horizon, but it has been used by creators for years to create stylistic text. Consider downloading [this image](https://drive.google.com/file/d/1YhXm8MMNFZ_b8mO0Ec4fSs75S4uKEN4r/view?usp=sharing) and keeping a copy of it in a convenient location for all your Text Gizmo formatting needs (reminder these are not supported on the Custom UI Gizmo).
 
 The Text Gizmo in Horizon can hold up to 1000 characters. This includes formatting characters. This limit is easy to hit when you want to create rich text blocks. In many cases, it might be useful to use multiple Text Gizmos. The new Custom UI Gizmo is also a great option, but it has a steep learning curve, and creating rich text is a lot more difficult as it uses CSS-like styling (but more on that in a different tutorial).
 
-## Text Formatting Options
+## [Text Formatting Options](#text-formatting-options)
 
-* **Sprites (Emoji)**
-  + `<sprite=0> 😜<sprite=15>` 😍 (values range from 0 through 15)
-  + `<sprite=”dropcap numbers” index=0>` (values range from 0 through 9)
-* **Subscript & Superscript**
-  + `<sub>subscript</sub>`
-  + `<sup>superscript</sup>`
-* **Character Spacing**
-  + `<cspace=1>S p a c e </cspace>`
-* **Line Height**
-  + `<line-height=0.1></line-height>`
-* **Alignment**
-  + `<align=left></align>` (options for left, right, and center)
-* **Color, Highlighting & Transparency**
-  + The easiest way to color text is to paint the gizmo using the paint tool
-  + `<color=#ff0000>Red<color=#00ff00>Green<color=#0000ff>Blue</color>`
+- **Sprites (Emoji)**
+  - `<sprite=0> 😜<sprite=15>` 😍 (values range from 0 through 15)
+  - `<sprite=”dropcap numbers” index=0>` (values range from 0 through 9)
+- **Subscript & Superscript**
+  - `<sub>subscript</sub>`
+  - `<sup>superscript</sup>`
+- **Character Spacing**
+  - `<cspace=1>S p a c e </cspace>`
+- **Line Height**
+  - `<line-height=0.1></line-height>`
+- **Alignment**
+  - `<align=left></align>` (options for left, right, and center)
+- **Color, Highlighting & Transparency**
+  - The easiest way to color text is to paint the gizmo using the paint tool
+  - `<color=#ff0000>Red<color=#00ff00>Green<color=#0000ff>Blue</color>`
     - RGB colors using hex values (where 00 is 0%, ff is 100%)
-  + `<color=#ff000080>Color With Transparency</color>`
-  + `<alpha=#80>Transparent</color>`
-  + `<mark=#00ffff7f>Highlight</mark>`
-  + Solid Transparency For Windows `<mark=#00ffff7f>[TAB] </mark>`
-    - Press [TAB] on keyboard in Horizon
-* **Italic, Underline, Bold, Strikethrough**
-  + `<i>Italic</i>`
-  + `<u>Underline</u>`
-  + `<b>Bold</b>`
-  + `<s>Strikethrough</s>`
-* **Linebreak**
-  + `<br>`
-* **No Parse**
-  + `<noparse></noparse>` (show codes like these)
-* **Font Size**
-  + `<size=1></size>` (relative to size set on Text Gizmo)
-* **Equal Spacing**
-  + `<mspace=0.1></mspace>`
-* **Uppercase, Lowercase, Small Caps**
-  + `<uppercase>UPPERCASE</uppercase>`
-  + `<lowercase>lowercase</lowercase>`
-  + `<smallcaps>SMALL CAPS</smallcaps>`
-* **Position & Offsets**
-  + `<pos=40em></pos><pos=60%></pos>` (horizontal position)
-  + `<voffset=2em></voffset>` (vertical offset)
-* **Rotated Text**
-  + `<rotate=-20>Rotate</rotate>`
-* **Font Options**
-  + `<font=bangers sdf>BANGERS SDF</font>`
+  - `<color=#ff000080>Color With Transparency</color>`
+  - `<alpha=#80>Transparent</color>`
+  - `<mark=#00ffff7f>Highlight</mark>`
+  - Solid Transparency For Windows `<mark=#00ffff7f>[TAB] </mark>`
+    - Press \[TAB] on keyboard in Horizon
+- **Italic, Underline, Bold, Strikethrough**
+  - `<i>Italic</i>`
+  - `<u>Underline</u>`
+  - `<b>Bold</b>`
+  - `<s>Strikethrough</s>`
+- **Linebreak**
+  - `<br>`
+- **No Parse**
+  - `<noparse></noparse>` (show codes like these)
+- **Font Size**
+  - `<size=1></size>` (relative to size set on Text Gizmo)
+- **Equal Spacing**
+  - `<mspace=0.1></mspace>`
+- **Uppercase, Lowercase, Small Caps**
+  - `<uppercase>UPPERCASE</uppercase>`
+  - `<lowercase>lowercase</lowercase>`
+  - `<smallcaps>SMALL CAPS</smallcaps>`
+- **Position & Offsets**
+  - `<pos=40em></pos><pos=60%></pos>` (horizontal position)
+  - `<voffset=2em></voffset>` (vertical offset)
+- **Rotated Text**
+  - `<rotate=-20>Rotate</rotate>`
+- **Font Options**
+  - `<font=bangers sdf>BANGERS SDF</font>`
     - Other Font Options:
-      * Anton SDF
-      * Roboto-Bold SDF
-      * Oswald Bold SDF
-      * Electronic Highway Sign SDF
-* **Font Materials**
-  + `<font=anton sdf><material=anton sdf - drop shadow></material></font>`
+      - Anton SDF
+      - Roboto-Bold SDF
+      - Oswald Bold SDF
+      - Electronic Highway Sign SDF
+- **Font Materials**
+  - `<font=anton sdf><material=anton sdf - drop shadow></material></font>`
     - Try painting some of these different colors
     - Other Material Options:
-      * Anton SDF Outline
-      * Bangers SDF - Drop Shadow
-      * Bangers SDF - Outline
-      * Bangers SDF Logo
-      * Roboto-Bold SDF - Drop Shadow
-      * LiberationSans SDF - Metallic Green
-      * LiberationSans SDF - Drop Shadow
-      * LiberationSans SDF - Overlay
-* **Gradient Options**
-  + `<gradient=”Yellow To Orange - Vertical"></gradient>`
+      - Anton SDF Outline
+      - Bangers SDF - Drop Shadow
+      - Bangers SDF - Outline
+      - Bangers SDF Logo
+      - Roboto-Bold SDF - Drop Shadow
+      - LiberationSans SDF - Metallic Green
+      - LiberationSans SDF - Drop Shadow
+      - LiberationSans SDF - Overlay
+- **Gradient Options**
+  - `<gradient=”Yellow To Orange - Vertical"></gradient>`
     - Other Gradient Options:
-      * Dark To Light Green - Vertical
-      * Light To Dark Green - Vertical
-      * Blue To Purple - Vertical
+      - Dark To Light Green - Vertical
+      - Light To Dark Green - Vertical
+      - Blue To Purple - Vertical
     - The color is sret to white, otherwise the colors blend together:
-      * Text painted pale green
-      * Text painted purple
-      * Text painted green
-      * Text painted yellow
-      * Text painted white
+      - Text painted pale green
+      - Text painted purple
+      - Text painted green
+      - Text painted yellow
+      - Text painted white
 
-## Edit Text Using the Desktop Editor
+## [Edit Text Using the Desktop Editor](#edit-text-using-the-desktop-editor)
 
 In this section, you’ll familiarize yourself with the Meta Horizon Worlds Desktop Editor. You’ll use it to create a new world, and then you’ll add a Text Gizmo to it.
 
 To complete the following procedure, you’ll need:
 
-* A Windows computer.
-* The Meta Quest Link (Oculus) app.
-* VS Code.
+- A Windows computer.
+- The Meta Quest Link (Oculus) app.
+- VS Code.
 
 **Mentor’s Note:** I recommend creating a new world to serve as a playground for experimentation before starting. As an example, the image below shows this world is named “Text Tests” with the current date in parentheses.
 
-- Launch the Meta Quest app.
-- In the Meta Quest app, navigate to and start the Meta Horizon Worlds app in Desktop Mode.
-- Create a new world. Give your world a name, and then select **Custom Model Import**.
+1. Launch the Meta Quest app.
 
-  ![Select Custom Model Import](../../_assets/images/938cc5a044ea0713b50b4c467ffce57ccc2f577cf9d31a66699bf292c593e38e.png)
+2. In the Meta Quest app, navigate to and start the Meta Horizon Worlds app in Desktop Mode.
+
+3. Create a new world. Give your world a name, and then select **Custom Model Import**.
+
+   ![Select Custom Model Import](../../_assets/images/938cc5a044ea0713b50b4c467ffce57ccc2f577cf9d31a66699bf292c593e38e.png)
 
 Adding the Text Gizmo, to a scene using the Desktop Editor is difficult. Meta recommends that you add the Text Gizmos in VR. But writing text in VR is also difficult, especially if you want to add any of the formatting options. If you want to use the Desktop Editor, see Adding text gizmos using the desktop editor.
 
-- Add a text gizmo to your scene.
-- Select the text gizmo from the Hierarchy.
-- Edit the text field in the Property Panel. You can also adjust properties, like font size and color, just like you can in VR.
+1. Add a text gizmo to your scene.
 
-  ![Add the Text Gizmo to a scene use the Desktop Editor](../../_assets/images/3ec56ff6edc33663f1eccbdc08bf3ebafb9c73bfb5a119a24ad15297c56d3b49.png)
+2. Select the text gizmo from the Hierarchy.
+
+3. Edit the text field in the Property Panel. You can also adjust properties, like font size and color, just like you can in VR.
+
+   ![Add the Text Gizmo to a scene use the Desktop Editor](../../_assets/images/3ec56ff6edc33663f1eccbdc08bf3ebafb9c73bfb5a119a24ad15297c56d3b49.png)
 
 You can use the text field to write text and to copy and paste text into the text gizmo.
 
-## Adding Text Gizmos Using the Desktop Editor
+## [Adding Text Gizmos Using the Desktop Editor](#adding-text-gizmos-using-the-desktop-editor)
 
 Here are some tips to help you if you want to add a text gizmo using the Desktop Editor.
 
-- Add a text gizmo to your scene, here are a couple of tips to make your life easier.
+1. Add a text gizmo to your scene, here are a couple of tips to make your life easier.
 
-  ![Add a text gizmo to your scene](../../_assets/images/447ba197e1da05ca10ea8a0f9fbed3ce66904aff4a0c4f300c31e97cbde39d8d.png)
-- Add some filler text on the properties panel, in this case, in the image below, we have added “Hello World.”
+   ![Add a text gizmo to your scene](../../_assets/images/447ba197e1da05ca10ea8a0f9fbed3ce66904aff4a0c4f300c31e97cbde39d8d.png)
 
-  ![](../../_assets/images/df973b38b2876f7b3761c71cd397b38c3edac65ac228810053299fde1bb364c3.png)
-- Then, presuming you have an object you want to place the text up against, click on that reference object and right-click to copy the position of the reference object.
+2. Add some filler text on the properties panel, in this case, in the image below, we have added “Hello World.”
 
-  ![](../../_assets/images/a4564de99a16ec42ea035e0007f8acb73e1ccb9a25931bc0e741f30e930e59a3.png)
-- You can then click on the Text Gizmo and right-click to paste the position. You may have to repeat these steps to paste the rotation from the reference object as well.
+   ![](../../_assets/images/df973b38b2876f7b3761c71cd397b38c3edac65ac228810053299fde1bb364c3.png)
 
-  ![](../../_assets/images/9c1594407420bbc4ab3742d47ad099c3957833c78937d2fa5c6f9b8743880f45.png)
-- Then, with the slide tool selected, and snapping turned off, grab one of the slide arrows to pull the text out of the reference object.
+3. Then, presuming you have an object you want to place the text up against, click on that reference object and right-click to copy the position of the reference object.
 
-  ![](../../_assets/images/d763875eb270d783383d89b5a5699052375d555f1fbf2ed9024499dc027d0896.png)
-- Now that you have positioned the text, it may need to be rotated. If you copy and paste the rotation of the reference object, and it is still off, you may consider manually adjusting the values from the properties panel. Or you can use snap rotation, I like to set it to 90 degrees.
+   ![](../../_assets/images/a4564de99a16ec42ea035e0007f8acb73e1ccb9a25931bc0e741f30e930e59a3.png)
 
-  ![](../../_assets/images/be49228adcac301db301bbe64b00b79f200a414d29ebabf72f3b3956dc75252e.png)![](../../_assets/images/f9e12e81ac8da43a8e35df3d310e2f08a905339b618ea764d663cc25c2e133a2.png)
+4. You can then click on the Text Gizmo and right-click to paste the position. You may have to repeat these steps to paste the rotation from the reference object as well.
+
+   ![](../../_assets/images/9c1594407420bbc4ab3742d47ad099c3957833c78937d2fa5c6f9b8743880f45.png)
+
+5. Then, with the slide tool selected, and snapping turned off, grab one of the slide arrows to pull the text out of the reference object.
+
+   ![](../../_assets/images/d763875eb270d783383d89b5a5699052375d555f1fbf2ed9024499dc027d0896.png)
+
+6. Now that you have positioned the text, it may need to be rotated. If you copy and paste the rotation of the reference object, and it is still off, you may consider manually adjusting the values from the properties panel. Or you can use snap rotation, I like to set it to 90 degrees.
+
+   ![](../../_assets/images/be49228adcac301db301bbe64b00b79f200a414d29ebabf72f3b3956dc75252e.png)![](../../_assets/images/f9e12e81ac8da43a8e35df3d310e2f08a905339b618ea764d663cc25c2e133a2.png)
 
 You should now have your text positioned and can fill out the text and properties to your liking.
 
-## Script 1 & 2: Send String(s) from TypeScript To Codeblock scripts
+## [Script 1 & 2: Send String(s) from TypeScript To Codeblock scripts](#script-1--2-send-strings-from-typescript-to-codeblock-scripts)
 
 In this first script, the goal isn’t to cover advanced TypeScript concepts but to simply allow you to use TypeScript code to augment your Codeblock scripts that need more rich text. You’ll do this by sending a string variable as a parameter. This can also be a list of strings. The script calls lists in TypeScript Arrays. It alternates between those terms in this section, referring to them as Lists when talking about Codeblocks, and Arrays when talking about TypeScript.
 
@@ -176,19 +185,23 @@ This tutorial uses the Meta Horizon Worlds TypeScript 2.0 API. which as of July 
 
 ![](../../_assets/images/892128a399603dffa8a4648ecfdf6785d487c4492c6e5190a5dc0a18734c1555.png)![](../../_assets/images/d4aa47633d0dc341a48d34e84cd4745967a97cbffd4c7df65173777473fb1c91.png)
 
-- If you would like experience writing TypeScript you can create a new script from the Scripts drop-down, in this case, we will name it **SendStringToCodeblocks\_Entity.**
+1. If you would like experience writing TypeScript you can create a new script from the Scripts drop-down, in this case, we will name it **SendStringToCodeblocks\_Entity.**
 
-  ![](../../_assets/images/fa6831aadd582146fd59c523332904a694ba1bcd8e288ea2a436ffba5ee6bcee.png)
-- You can then write the following script out.
+   ![](../../_assets/images/fa6831aadd582146fd59c523332904a694ba1bcd8e288ea2a436ffba5ee6bcee.png)
 
-  ![](../../_assets/images/c967df9b34ff55609c5f69dd81d95e14abd3c39689e928f073626135b554c4b7.png)
-- If you have never used TypeScript before, you should download this script by [clicking here](https://drive.google.com/file/d/1aYxgHRxceWXIJ8epHN01XXvWdzKKZ9s_/view?usp=sharing).
-- Open the Scripts folder. Click on the **Scripts** drop-down, then select the three-dot icon, and “**Open the Scripts Folder in Explorer**.
+2. You can then write the following script out.
 
-  ![](../../_assets/images/99bec085e4adda973f32e3ae226ba292a53f28f5325b17dcf145782918930adf.png)
-- Drag the script into the scripts folder.
+   ![](../../_assets/images/c967df9b34ff55609c5f69dd81d95e14abd3c39689e928f073626135b554c4b7.png)
 
-  ![](../../_assets/images/e2dfbf5c7d32f37a43697e64a83f3cbc2fd5bb67d58c0a052f082378a0b610f5.png)
+3. If you have never used TypeScript before, you should download this script by [clicking here](https://drive.google.com/file/d/1aYxgHRxceWXIJ8epHN01XXvWdzKKZ9s_/view?usp=sharing).
+
+4. Open the Scripts folder. Click on the **Scripts** drop-down, then select the three-dot icon, and “**Open the Scripts Folder in Explorer**.
+
+   ![](../../_assets/images/99bec085e4adda973f32e3ae226ba292a53f28f5325b17dcf145782918930adf.png)
+
+5. Drag the script into the scripts folder.
+
+   ![](../../_assets/images/e2dfbf5c7d32f37a43697e64a83f3cbc2fd5bb67d58c0a052f082378a0b610f5.png)
 
 As you are writing or downloading these scripts, here is the second script you will want to [click here](https://drive.google.com/file/d/1aRek4QMU_r3GB-YstadaXiTX2IVtH8aY/view?usp=sharing) to download.
 
@@ -232,7 +245,7 @@ Run the world and see a console message displaying our messages.
 
 ![](../../_assets/images/3cb06c40ac4aeaec294435872bd655414799c11d3b23c1a67a198020231f5926.png)
 
-## Script 3: Send Q&As From TypeScript To Codeblock Scripts
+## [Script 3: Send Q\&As From TypeScript To Codeblock Scripts](#script-3-send-qas-from-typescript-to-codeblock-scripts)
 
 In this example, you’ll expand on what you learned in the first two sections. Instead of just sending data, now you will allow the Codeblock script to request two pieces of data: a question, and a list of possible answers.
 
@@ -256,7 +269,7 @@ Note that this demo Codeblock script, receiver, will also need to be attached to
 
 **Mentor’s Note:** This is just a taste of what easier text entry with TypeScript can unlock. Really looking forward to seeing how you use this in your worlds.
 
-## Script 4: Receive Text In TypeScript From Codeblock Scripts
+## [Script 4: Receive Text In TypeScript From Codeblock Scripts](#script-4-receive-text-in-typescript-from-codeblock-scripts)
 
 Next up we have one last Codeblock integration example.
 
@@ -270,7 +283,7 @@ Then to receive the message in TypeScript, you will need to create a new CodeBlo
 
 **Note:** If you are planning to stick with Codeblocks, this is the end of the Codeblock integration examples.
 
-## Script 5: MegaText
+## [Script 5: MegaText](#script-5-megatext)
 
 If you haven’t used MegaText in Horizon, it a script written by the Vidyuu team in the Asset Library under interactive. It allows you to write text on a Text Gizmo with multiple lines. This makes formatting so much easier. The example below is the same script, rewritten in TypeScript, you can download it [here](https://drive.google.com/file/d/1hKw0YV-o_zjuGbXMPMI1fT1Yo0bfArKs/view?usp=sharing).
 
@@ -282,7 +295,7 @@ To use MegaText, attach this script to a TextGizmo, and on the properties panel 
 
 ![](../../_assets/images/02e8f012bc3e7d289a8800d04cc4244c4b336b7ca654c9e39cee4fdf19136cc7.png)
 
-## Script 6: Writing Text With Formatting In TypeScript
+## [Script 6: Writing Text With Formatting In TypeScript](#script-6-writing-text-with-formatting-in-typescript)
 
 In this section, you’re going to write text in TypeScript, and apply it to a TextGizmo that is running the script. You can download this example [here](https://drive.google.com/file/d/1xYVDDff6BSr2_iSX3PDGzo-dfsvUgOq1/view?usp=sharing).
 
@@ -300,7 +313,7 @@ Below you can see creating a new script with a different name, I would advise na
 
 This example script has shown you how you can take the formatting options shown at the beginning, and apply them on your own. While this works wonderfully, as a part of this tutorial, I put together a formatting library, which you’ll see in the next step makes our lives even easier.
 
-## Script 7: Write Text With a Formatting Library
+## [Script 7: Write Text With a Formatting Library](#script-7-write-text-with-a-formatting-library)
 
 This next script for you to [download](https://drive.google.com/file/d/122S7MyeFNDhkZ6oUG7nokfMQmswrgiPV/view?usp=sharing) is from the Formatting Library (written, a Utility script that you can use to make writing text with formatting a lot easier). If you have never used a library before, it is similar to an API, in that it provides you with additional functionality. To use, simply copy the UtilTextGizmo\_Func.ts file from the above download link into your scripts folder. You can then use the provided “formatting,” “Formats,” “Fonts,” “Materials, and “Gradients.”
 
@@ -324,16 +337,16 @@ You can also use these on their own, if you don’t need to clear them at the en
 
 Feel free to dig into the utility file on your own and learn more about how it works and what options are available.
 
-## Script 8 & 9: Ad Lib Story Example
+## [Script 8 & 9: Ad Lib Story Example](#script-8--9-ad-lib-story-example)
 
 This next section may feel a bit intimidating because you’ll be using multiple scripts. The first script is where all the logic is stored. It is where you’ll spend most of your time. The second script is a data file, storing various strings in JSON objects. The last two scripts are utilities you have already used. They’re the formatting and arrayUtil libraries which allow you to easily apply formatting and work with arrays.
 
 You can download the files here:
 
-* [EasyStoryTrigger\_Entity.ts](https://drive.google.com/file/d/1IwalvBI24Yym2gCxPdjYB40bTGv_i1om/view?usp=sharing)
-* [Story\_Data.ts](https://drive.google.com/file/d/12u_sTwv6i0Vla8QmfI_KZDou55sWaV0D/view?usp=sharing)
-* [UtilArray\_Func.ts](https://drive.google.com/file/d/1Wlaru7gyQRTzjov5rACVMsr3lm3pG7PV/view?usp=drive_link)
-* [UtilTextGizmo\_Func.ts](https://drive.google.com/file/d/122S7MyeFNDhkZ6oUG7nokfMQmswrgiPV/view?usp=drive_link)
+- [EasyStoryTrigger\_Entity.ts](https://drive.google.com/file/d/1IwalvBI24Yym2gCxPdjYB40bTGv_i1om/view?usp=sharing)
+- [Story\_Data.ts](https://drive.google.com/file/d/12u_sTwv6i0Vla8QmfI_KZDou55sWaV0D/view?usp=sharing)
+- [UtilArray\_Func.ts](https://drive.google.com/file/d/1Wlaru7gyQRTzjov5rACVMsr3lm3pG7PV/view?usp=drive_link)
+- [UtilTextGizmo\_Func.ts](https://drive.google.com/file/d/122S7MyeFNDhkZ6oUG7nokfMQmswrgiPV/view?usp=drive_link)
 
 Let’s start with `Story_Data.ts`, which is a relatively simple file that creates four string arrays, and then stores them in an exported JSON object called storyData. You can access all of these strings from your main script by importing storyData. You can imagine having as many of these string arrays as you need for your story.
 
@@ -369,14 +382,14 @@ Display story is similar to what you’ve done earlier in this tutorial, except 
 
 From this, you can extrapolate to create your own custom ad lib story. If you have questions or need help, don’t hesitate to ask in Discord.
 
-## Script 10 & 11: Random Ad-Lib Story Example
+## [Script 10 & 11: Random Ad-Lib Story Example](#script-10--11-random-ad-lib-story-example)
 
 In this section, you’ll elevate your ad lib story generation by randomly selecting a story and player. To do this, you’ll continue using the Story\_Data and utility scripts. You’ll add to it with an AdvancedStoryTrigger\_Entity script, and an additional import called storyFunc.
 
 You can download the new files here:
 
-* [AdvancedStoryTrigger\_Entity.ts](https://drive.google.com/file/d/1Mosj6KW_46cb35YyNTZDurvWIDH14rFw/view?usp=sharing)
-* [Story\_Func.ts](https://drive.google.com/file/d/17696gjxbix-GYvL62mpGsrx7TaTRHFKA/view?usp=sharing)
+- [AdvancedStoryTrigger\_Entity.ts](https://drive.google.com/file/d/1Mosj6KW_46cb35YyNTZDurvWIDH14rFw/view?usp=sharing)
+- [Story\_Func.ts](https://drive.google.com/file/d/17696gjxbix-GYvL62mpGsrx7TaTRHFKA/view?usp=sharing)
 
 Let’s start with something familiar, looking at Story\_Func. This is similar to our data file in that you have an exported variable, but instead of storing string data, it stores an array of functions. The creation of storyFunc declares itself to be an Array of functions that take a string parameter and return a string. This is just like our getStory method from script 8. In fact, line 10 is the same method, but as a function called story1. You can then duplicate this for as many stories as you want. Just make sure they are included in the array on line 5.
 
@@ -394,19 +407,17 @@ The next change is inside of getStory. You’ll get a randomStoryFunc from the a
 
 And like that, you can have as many random ad-lib stories as you want.
 
-## Extended Learning
+## [Extended Learning](#extended-learning)
 
 Below are challenges that you can implement on your own. The Advanced task might require some outside knowledge. We encourage you to ask questions in Discord if you get stuck or are unsure how to complete any of these.
 
-**Novice**
-Fix spelling mistakes and add formatting to pre-existing large blocks of text in TextGizmos.
+**Novice** Fix spelling mistakes and add formatting to pre-existing large blocks of text in TextGizmos.
 
-**Intermediate**
-Write your next large text paragraph using TypeScript and the provided Vidyuu formatting library.
+**Intermediate** Write your next large text paragraph using TypeScript and the provided Vidyuu formatting library.
 
-**Advanced**
-Integrate a randomly generated story into one of your worlds.
+**Advanced** Integrate a randomly generated story into one of your worlds.
 
-## Further Assistance
+## [Further Assistance](#further-assistance)
 
 For any questions or further assistance, creators are encouraged to join the discussion on the Discord server or to schedule a mentor session for personalized guidance.
+

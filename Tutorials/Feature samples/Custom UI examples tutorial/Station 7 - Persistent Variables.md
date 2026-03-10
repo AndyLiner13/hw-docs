@@ -2,18 +2,20 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-examples-tutorial/station-7-persistent-variables
 ---
 
-# Station 7 - Persistent Variables
+# [Station 7 - Persistent Variables](#station-7---persistent-variables)
 
 This station demonstrates how to use persistent variables with your custom UIs.
 
 A **persistent variable** is a per-player data storage object whose values persist across multiple entries in a world. So, you can use persistent variables to store state information. A persistent variable can be of Number type or Object type, which enables the storage of multiple values in a single, referenceable object.
 
-> **Note**: While we are only creating a single world with a single persistent variable, it is a good practice to store them in a variable group, which allows for greater flexibility down the line. If you have built and stored your users’ data in variables inside a variable group, then that group can be added to any new worlds that you build in the future. If you did not add your persistent variable to a group, then the data in your PVAR is “trapped” in your first world. Creating them in a variable group is a safety measure here.
+> [!Note]
+>
+> While we are only creating a single world with a single persistent variable, it is a good practice to store them in a variable group, which allows for greater flexibility down the line. If you have built and stored your users’ data in variables inside a variable group, then that group can be added to any new worlds that you build in the future. If you did not add your persistent variable to a group, then the data in your PVAR is “trapped” in your first world. Creating them in a variable group is a safety measure here.
 
 This station is composed of two separate custom UIs:
 
-* **Station07a-SeeCandy**: This read-only UI shows the player’s current total, along with an editorial message depending on the amount of that total.
-* **Station07b-GetCandy**: This UI allows the player to increase or decrease the total candy.
+- **Station07a-SeeCandy**: This read-only UI shows the player’s current total, along with an editorial message depending on the amount of that total.
+- **Station07b-GetCandy**: This UI allows the player to increase or decrease the total candy.
 
 The total amount of candy for the player is retained in a persistent variable (`intCandy`) that is read, maintained, and updated from the world. The player’s total amount of candy is read whenever the player enters a trigger zone surrounding one of these UIs. The text entry in the UI is updated based on the value read from the persistent variable.
 
@@ -21,12 +23,12 @@ The total amount of candy for the player is retained in a persistent variable (`
 
 ![Image of Station 07a and Station 07b](../../../_assets/images/73b8d396be87a2db0d5b4e4387f77596604d1bd2ba3c527bc580796db70a393d.png)
 
-## Create Variable Group and Persistent Variable
+## [Create Variable Group and Persistent Variable](#create-variable-group-and-persistent-variable)
 
 This station utilizes a single persistent variable to store the player’s current amount of candy. This value is stored in a persistent variable, so that it can be retrieved and used:
 
-* between visits to the station, and
-* between visits to the world.
+- between visits to the station, and
+- between visits to the world.
 
 Your candy is your candy. In broader terms, a variable group and its persistent variables provide mechanisms for persisting state information, such as inventory and saved game states, between playthroughs of your world experience, which ultimately leads to retention of your visitors.
 
@@ -34,33 +36,33 @@ Your candy is your candy. In broader terms, a variable group and its persistent 
 
 Each persistent variable is stored in a **variable group**, which is a container object for managing persistent variables. To make this station work, we must create a variable group, which contains the persistent variable. Notes:
 
-* The persistent variable and variable group are referenced by name in the code, so you need to create them using the exact names that appear in the code.
-* It’s possible to move variable groups between worlds.
+- The persistent variable and variable group are referenced by name in the code, so you need to create them using the exact names that appear in the code.
 
-  + You can import variable groups between worlds through the [Developer Dashboard](https://developers.meta.com/horizon/manage/). This method requires that you import them from another world.
-  + You can import variable groups into a world when you own the variable group and the world. This method allows for complete ownership of the content.
+- It’s possible to move variable groups between worlds.
 
-For more information on variable groups and persistent variables, see [Using Variable Groups](../../../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Variable%20groups/Using%20Variable%20Groups.md).
+  - You can import variable groups between worlds through the [Developer Dashboard](https://developers.meta.com/horizon/manage/). This method requires that you import them from another world.
+  - You can import variable groups into a world when you own the variable group and the world. This method allows for complete ownership of the content.
+
+For more information on variable groups and persistent variables, see [Using Variable Groups](../../../Desktop%20editor/Quests%2C%20leaderboards%2C%20and%20variable%20groups/Variable%20groups/Using%20Variable%20Groups.md).
 
 The next steps are to create a variable group and a persistent variable within that group.
 
-### Create variable group
+### [Create variable group](#create-variable-group)
 
 A variable group is simply a container for persistent variables. You can use the name of your variable group to indicate its scope. For example, names like: `playerInventory` or `savedStats` or similar can indicate the kinds of variables stored in them. In this case, to keep it simple, we create a variable group called: `vgStation07`
 
 To create a variable group, please do the following.
 
-- In the desktop editor menu bar, select **Systems menu > Variable Groups**.
-- In the Variable Groups panel, click the **+ icon**:
+1. In the desktop editor menu bar, select **Systems menu > Variable Groups**.
+2. In the Variable Groups panel, click the **+ icon**:
 
 ![Image of Variable Groups panel](../../../_assets/images/e5f631b6e9e07b1db79d4d3d630149d655fd6410758b7dfa50d9454bca31e339.png)
 
-- In the Create Variable Group dialog, enter the following name: `vgStation07`.
-  **Note**: This value must match the references to it in TypeScript. You should write it down for later use.
-- Add a meaningful description. Example: `Variable Group for holding PVARs for Station 07`.
-- When done, click **Create**.
+1. In the Create Variable Group dialog, enter the following name: `vgStation07`. **Note**: This value must match the references to it in TypeScript. You should write it down for later use.
+2. Add a meaningful description. Example: `Variable Group for holding PVARs for Station 07`.
+3. When done, click **Create**.
 
-### Create persistent variable
+### [Create persistent variable](#create-persistent-variable)
 
 After you have created the above variable group, the empty variable group is displayed:
 
@@ -68,24 +70,24 @@ After you have created the above variable group, the empty variable group is dis
 
 To create a persistent variable in this group, please do the following:
 
-- Click the **Create Variable button**.
-- In the Create Persistent Variable dialog, enter the following information:
-  - Name: `intCandy`. This value must match what is used in the code.
-  - Type: Select **Number**. Object type persistent variables are basically JSON arrays. In this case, we only need a simple numeric variable.
-- If all looks fine, click **Create**.
+1. Click the **Create Variable button**.
+2. In the Create Persistent Variable dialog, enter the following information:
+   1. Name: `intCandy`. This value must match what is used in the code.
+   2. Type: Select **Number**. Object type persistent variables are basically JSON arrays. In this case, we only need a simple numeric variable.
+3. If all looks fine, click **Create**.
 
 **Note**: After you create your variable, you should shut down and restart your world for it to take effect.
 
-### TypeScript references
+### [TypeScript references](#typescript-references)
 
 You have created the following:
 
-* **Variable group name**: `vgStation07`
-* **Persistent variable name**: `intCandy`
+- **Variable group name**: `vgStation07`
+- **Persistent variable name**: `intCandy`
 
 In code, to reference a specific variable, you create named references like:
 
-```
+```typescript
 vgStation07:intCandy
 ```
 
@@ -95,14 +97,15 @@ In this tutorial, however, we manage these references in a different way.
 
 At the top of the file, you may see the following declared constants:
 
-```
+```typescript
 export const VarGroupName = "vgStation07"
+
 export const PVARName = "intCandy"
 ```
 
 Later in the code, the reference to the persistent variable is created as a concatenated string from these constants:
 
-```
+```typescript
 strPlayerCandyPVar = VarGroupName + ":" + PVARName as string; // Name of world PVar holding player's candy total. Define this PVar in your world as a simple Number type
 ```
 
@@ -112,111 +115,138 @@ You can search the rest of the file to see how `strPlayerCandyPVar` is used.
 
 In this script for the second station, the exported constants from the SeeCandy script are imported as part of this declaration:
 
-```
+```typescript
 import { CandyUpdated, VarGroupName, PVARName } from 'Station07a-SeeCandy';
 ```
 
 An identical declaration of `strPlayerCandyPVar` is defined in the file.
 
-## Assets
+## [Assets](#assets)
 
 **Station07b-SeeCandy**:
 
-* Station07a-SeeCandy-UI
-* Station07a-SeeCandy-Trigger
-* Station07a-SeeCandy (script)
+- Station07a-SeeCandy-UI
+- Station07a-SeeCandy-Trigger
+- Station07a-SeeCandy (script)
 
 **Station07b-GetCandy**:
 
-* Station07b-GetCandy-UI
-* Station07b-GetCandy-Trigger
-* Station07b-GetCandy (script)
+- Station07b-GetCandy-UI
+- Station07b-GetCandy-Trigger
+- Station07b-GetCandy (script)
 
-#### CustomUI structures
+#### [CustomUI structures](#customui-structures)
 
-- CustomUI object
-- Script associated with customUI object
-- Trigger Zone object surrounding the customUI object
+1. CustomUI object
+2. Script associated with customUI object
+3. Trigger Zone object surrounding the customUI object
 
 Items #2 and #3 are referenced as properties on the CustomUI object, so that they can be referenced from within the code. More on this later.
 
 The **Trigger Zone object** is new for this example. This instance of the Trigger Zone gizmo encloses the CustomUI object in your world. It is used to trigger the retrieval of the current values of the persistent variables for the player who enters the trigger. When the player approaches the customUI, the trigger zone code retrieves the values for the player’s points and populates the appropriate variables, which are referenced in this customUI definition. In this manner, the customUI retrieves the latest values for the variable(s) for the player whenever it is approached by the player.
 
-> **Note**: It’s possible (and simpler) to gather variable values through code when the player enters the world, using the onPlayerEntersWorld CodeBlock event. However, this approach means that the variables are modifiable one and only one time in the world. In this case, the customUI object would have to be destroyed or made unavailable after the player interacted with it the first time--which is weird. A safer approach is to trigger the reading of the variables on approach to the customUI, every time.
+> [!Note]
+>
+> It’s possible (and simpler) to gather variable values through code when the player enters the world, using the onPlayerEntersWorld CodeBlock event. However, this approach means that the variables are modifiable one and only one time in the world. In this case, the customUI object would have to be destroyed or made unavailable after the player interacted with it the first time--which is weird. A safer approach is to trigger the reading of the variables on approach to the customUI, every time.
 
 The size and positioning of the Trigger Zone relative to the CustomUI needs to be tweaked to ensure that the distance from the customUI to the edge of the Trigger Zone is larger than the distance from the customUI to the radius of activation. The radius of activation means the point at which a Player can choose to work with the customUI.
 
-* In the desktop editor, this means that point at which the user is presented with the E icon to engage.
-* In the headset, this means that length of the raycasts from your avatar’s hands.
-* These distances may be different.
-* Keep in mind that it’s possible to approach a customUI from any direction to activate it. If you place it up against a wall, the Trigger Zone can be downsized in one axis.
+- In the desktop editor, this means that point at which the user is presented with the E icon to engage.
+- In the headset, this means that length of the raycasts from your avatar’s hands.
+- These distances may be different.
+- Keep in mind that it’s possible to approach a customUI from any direction to activate it. If you place it up against a wall, the Trigger Zone can be downsized in one axis.
 
-> **Note**: Because of a delay in saving and reading persistent variables, the `Station07b.ts` script sends an event to the station 07a script when the player’s candy variable is saved. This variable includes the player and the value of the candy variable, which is then used to set the Binding in the custom UI. In this manner, station 07a gets updated faster than only reading the value from the persistent variable.
+> [!Note]
+>
+> Because of a delay in saving and reading persistent variables, the `Station07b.ts` script sends an event to the station 07a script when the player’s candy variable is saved. This variable includes the player and the value of the candy variable, which is then used to set the Binding in the custom UI. In this manner, station 07a gets updated faster than only reading the value from the persistent variable.
 
-## Script
+## [Script](#script)
 
-### Station07a-SeeCandy
+### [Station07a-SeeCandy](#station07a-seecandy)
 
 ![Image of SeeCandy custom UI](../../../_assets/images/393a59561e55ad0ecabf624a3e67a9208a0da29ad9b24596f1957ef93277713d.png)
 
 Since this is read-only, it’s a bit simpler than the latter one. For brevity, it is provided here in parts.
 
-#### Imports
+#### [Imports](#imports)
 
 These should look familiar:
 
-```
+```typescript
 // Imported components from the APIs.
+
 import * as hz from "horizon/core";
 
+
+
 // Imported components from the UI module.
+
 import {
+
   UIComponent,
+
   View,
+
   Text,
+
   ViewStyle,
+
   Callback,
+
   Pressable,
+
   Binding,
+
   UINode,
+
 } from "horizon/ui";
 ```
 
-#### Class and variable declarations
+#### [Class and variable declarations](#class-and-variable-declarations)
 
-```
+```typescript
 class UIComponentSeeCandy extends UIComponent<typeof UIComponentSeeCandy> {
+
   static propsDefinition = {
+
     triggerZone: { type: hz.PropTypes.Entity }
+
   };
 
+
+
   panelHeight = 500; // default value is 500.
+
   panelWidth = 350; // default value is 500
 
+
+
   strPlayerCandyPVar = "intCandy" as string; // Name of world PVar holding player's candy total. Define this PVar in your world as a simple Number type
+
   strPlayerCandyTotal = new Binding<string>('0'); // Init and set default for string variable bound to custom UI for candy total;
+
   strMessage = new Binding<string>('Test Message'); // Init and set default for string variable bound to custom UI for the message associated with the total;
+
   strColor = new Binding<string>('red'); // Init and set default for string variable bound to custom UI for the message color associated with the total;
 ```
 
-* In the properties for the class, we declare a property called `TriggerZone`, which is of type `hz.Entity`. When this script is attached to the customUI object, a new property labeled `TriggerZone` appears in the Properties panel for it. From this drop-down, a designer can select the trigger zone that is already in the world (an Entity), which the script can use as its trigger to read the persistent variable.
-* The height and width in pixels of the panel is defined.
-* You can see a number of variables declared, too.
-  + The variable `strPlayerCandyPVar` is set to the value intCandy, which is the name of the persistent variable that stores each player’s total candy.
-    **Note**: If you are recreating this example, you must create the persistent variable in the **Systems menu** when the desktop editor is opened to your own world.
-  + There are several String variables created with a Binding definition, like:
+- In the properties for the class, we declare a property called `TriggerZone`, which is of type `hz.Entity`. When this script is attached to the customUI object, a new property labeled `TriggerZone` appears in the Properties panel for it. From this drop-down, a designer can select the trigger zone that is already in the world (an Entity), which the script can use as its trigger to read the persistent variable.
+- The height and width in pixels of the panel is defined.
+- You can see a number of variables declared, too.
+  - The variable `strPlayerCandyPVar` is set to the value intCandy, which is the name of the persistent variable that stores each player’s total candy. **Note**: If you are recreating this example, you must create the persistent variable in the **Systems menu** when the desktop editor is opened to your own world.
+  - There are several String variables created with a Binding definition, like:
 
-```
+```typescript
 strPlayerCandyTotal = new Binding<string>('0');
 ```
 
-* These variables are bound to the customUI and assigned a default value. In the above case, the default is set to `0`.
+- These variables are bound to the customUI and assigned a default value. In the above case, the default is set to `0`.
 
 **Note**: Any variable that you wish to store values that appear in your customUI must be captured to a Binding.
 
 **Note**: All of these values should be set to String values. The above example represents the player’s candy total as a String. The values that are read from the persistent variable are Number values, which are cast to String values when refreshing the UI.
 
-#### initializeUI() method
+#### [initializeUI() method](#initializeui-method)
 
 The `initializeUI()` method sets up the user interface.
 
@@ -224,43 +254,57 @@ The `initializeUI()` method sets up the user interface.
 
 Three views are declared:
 
-* `ViewCandyHeader` - shows `Text()` view of a Candy! message at the top of the UI
-* `ViewCandyTotal` - displays Text view a “Total Candy” message, including the player’s current total.
+- `ViewCandyHeader` - shows `Text()` view of a Candy! message at the top of the UI
 
-  + Please note the reference to the Binding variable as part of this `Text()` definition:
+- `ViewCandyTotal` - displays Text view a “Total Candy” message, including the player’s current total.
+
+  - Please note the reference to the Binding variable as part of this `Text()` definition:
 
   `text: this.strPlayerCandyTotal,`
 
-  + Since the variable `strPlayerCandyTotal` is scoped within the class definition, the `this` keyword provides a clear reference to it.
-* `ViewCandyTotalMessage` - displays `Text()` view of a message, which is changed based on the value of the candy total variable.
+  - Since the variable `strPlayerCandyTotal` is scoped within the class definition, the `this` keyword provides a clear reference to it.
 
-  + In this case, the message is captured to the `strMessage` Binding:
+- `ViewCandyTotalMessage` - displays `Text()` view of a message, which is changed based on the value of the candy total variable.
+
+  - In this case, the message is captured to the `strMessage` Binding:
 
   `text: this.strMessage,`
 
-  + It is color-coded by referencing the `strColor` Binding:
+  - It is color-coded by referencing the `strColor` Binding:
 
   `color: this.strColor,`
 
 After the `initializeUI()` method has been executed, then the UI has been defined as an object.
 
-#### start() method
+#### [start() method](#start-method)
 
 After `initializeUI()`, the `start()` method then executes. Here’s the whole code:
 
-```
+```typescript
 start() {
+
     // Initialize the UI for this player, when the attached trigger zone is entered.
+
     this.connectCodeBlockEvent(this.props.triggerZone, hz.CodeBlockEvents.OnPlayerEnterTrigger, (enteredBy: hz.Player) => {
+
     let sct = this.world.persistentStorage.getPlayerVariable(enteredBy, this.strPlayerCandyPVar);
+
     if ((sct == undefined) || (sct == null)) {
+
       console.log("Candy value is undefined for this player.")
+
       sct = 0;
+
     } else {
+
       console.log(enteredBy.name.get() + " player has " + sct.toString() + " points.")
+
     };
+
   this.refresh([enteredBy], sct);
+
   })
+
 };
 ```
 
@@ -268,10 +312,10 @@ The code creates a listener to the onPlayerEnterTrigger CodeBlock event. This li
 
 When the trigger zone is breached, the onPlayerEnterTrigger CodeBlock event is fired, and the arrow function (code after the =>) does the following:
 
-* Sets a local variable (`sct`) to be the value for the player of the persistent variable named in the `strPlayerCandyVar` variable.
-* After a quick validation check, the `enteredBy` player and the `sct` variable are passed to the refresh code.
+- Sets a local variable (`sct`) to be the value for the player of the persistent variable named in the `strPlayerCandyVar` variable.
+- After a quick validation check, the `enteredBy` player and the `sct` variable are passed to the refresh code.
 
-#### refresh()
+#### [refresh()](#refresh)
 
 When the player enters the trigger, the persistent variable is retrieved to a local variable, and then `refresh()` is called to update the custom UI with the variable and some related information.
 
@@ -279,7 +323,7 @@ Based on the value of the retrieved count of candy for the player, the `refresh(
 
 A key line:
 
-```
+```typescript
 let scr: string = intPlayerCurrentScore.toString()
 ```
 
@@ -287,24 +331,26 @@ The persistent variable is stored as a Number. This value converts it to a Strin
 
 After the evaluations have been done, all of the Binding variables are assigned new values, all of which are String values:
 
-```
+```typescript
 this.strPlayerCandyTotal.set(scr);
+
 this.strMessage.set(msg);
+
 this.strColor.set(clr);
 ```
 
-#### Summary
+#### [Summary](#summary)
 
-* Property in the code allows a designer to select a trigger zone to use as the trigger for an update to the custom UI.
-* `initializeUI()` method sets of the elements of the custom UI.
-* `start()` method:
-  + Defines onPlayerEnterTrigger listener:
+- Property in the code allows a designer to select a trigger zone to use as the trigger for an update to the custom UI.
+- `initializeUI()` method sets of the elements of the custom UI.
+- `start()` method:
+  - Defines onPlayerEnterTrigger listener:
     - Retrieves persistent variable value for the player.
-  + Executes `refresh()` code:
+  - Executes `refresh()` code:
     - Based on value of the persistent variable, assigns message and color-coding.
     - When these values are assigned to the Binding variables, the UI is updated for the specific player who entered the trigger.
 
-### Station07b-GetCandy
+### [Station07b-GetCandy](#station07b-getcandy)
 
 ![Image of GetCandy Custom UI](../../../_assets/images/19aa53ac51c6f9e2de849fe386a67fd356d8d4ff530b4fd524db63b314411cee.png)
 
@@ -312,89 +358,113 @@ This station includes buttons to allow the player to click +/- buttons to increa
 
 The script for the second UI extends from the first. The extensions allow for:
 
-* Changing the value of the variable within the UI
-* Writing the value back to the persistent variable when the player exits the trigger
+- Changing the value of the variable within the UI
+- Writing the value back to the persistent variable when the player exits the trigger
 
 Key differences are outlined below.
 
-#### Local variables
+#### [Local variables](#local-variables)
 
 A local variable is used to hold the value of the persistent variable.
 
-```
+```typescript
 // Station07b: Local value is used to store the value in the Custom UI as it is being changed.
+
 // On exit, this value is posted back as the new value to the PVAR.
+
 let intLocalCandyCount: number = 0;
 ```
 
 The variable is a Number type, so that it can be incremented or decremented based on user action.
 
-#### MyButton properties and definitions
+#### [MyButton properties and definitions](#mybutton-properties-and-definitions)
 
 Since this UI includes +/- buttons, the MyButton function and related property type definitions have returned. These definitions are very similar to those in use in Station05. Some modifications have been made to the button definitions for this UI.
 
-#### Variables
+#### [Variables](#variables)
 
 The message (`strMessage`) and color (`strColor`) variables are removed, since they do not apply in this UI. As a result the Refresh code is much simpler.
 
-#### initializeUI() method
+#### [initializeUI() method](#initializeui-method-1)
 
 The `initializeUI()` method is very similar. From the first station, the final row, which displayed the strMessage value, has been replaced with two +/- buttons instead.
 
 Each of these buttons supports a localized `onClick()` event handler, which is defined as part of the button definition. Below is the entire definition for the Less button:
 
-```
+```typescript
 MyButton({
+
   label: "-",
+
   baseColor: "red",
+
   onClick: () => {
+
     // console.log("Pressed Less button.");
+
     if (intLocalCandyCount <= 0) {
+
       intLocalCandyCount = 0
+
     } else {
+
       intLocalCandyCount = intLocalCandyCount - 1
+
     }
+
     this.strPlayerCandyTotal.set(intLocalCandyCount.toString());
+
   },
+
   style: {
+
     marginRight: 12,
+
   },
+
 }),
 ```
 
 For the `onClick()` event, you can see that a data validation check is performed, else the local variable holding the total value of the candy (`intLocalCandyCount`) is decremented. This value is converted to a String and assigned to the Binding variable. Since this variable is bound to the UI, this assignment is done using the `set()` method:
 
-```
+```typescript
 this.strplayercandytotal.set(intlocalcandycount.tostring());
 ```
 
-#### start() method
+#### [start() method](#start-method-1)
 
 The `start()` method includes the onPlayerExitTrigger listener:
 
-```
+```typescript
 this.connectCodeBlockEvent(this.props.triggerZone, hz.CodeBlockEvents.OnPlayerExitTrigger, (enteredBy: hz.Player) => {
+
   this.refresh([enteredBy], intLocalCandyCount);
+
   this.world.persistentStorage.setPlayerVariable(enteredBy, this.strPlayerCandyPVar,intLocalCandyCount);
+
   this.sendNetworkBroadcastEvent(CandyUpdated, {player: enteredBy, intCandy: intLocalCandyCount});
+
 });
 ```
 
 When the player exits the trigger, it means that the player has left the custom user interface. In this case, the persistent variable for the exiting player is set to the value of the local variable: intLocalCandyCount.
 
-> **Note**: When the player exits the interface, the CandyUpdated broadcast event is sent back to the Station07a script, which then updates its own custom UI with the new value. This saves the lag time of saving the persistent variable to storage and then reading the persistent variable back from storage if/when the player re-enters the other custom UI.
+> [!Note]
+>
+> When the player exits the interface, the CandyUpdated broadcast event is sent back to the Station07a script, which then updates its own custom UI with the new value. This saves the lag time of saving the persistent variable to storage and then reading the persistent variable back from storage if/when the player re-enters the other custom UI.
 
-## Key Learnings
+## [Key Learnings](#key-learnings)
 
-### Meta Horizon Worlds learnings
+### [Meta Horizon Worlds learnings](#meta-horizon-worlds-learnings)
 
-* Use of the Trigger Zone gizmo to capture trigger events
-* Getting and setting persistent variables based on triggers
-* Assigning and updating variables as Bindings to values in the user interface
-  + Any variable that you wish to store values that appear in your customUI must be captured to a Binding.
+- Use of the Trigger Zone gizmo to capture trigger events
+- Getting and setting persistent variables based on triggers
+- Assigning and updating variables as Bindings to values in the user interface
+  - Any variable that you wish to store values that appear in your customUI must be captured to a Binding.
 
-### TypeScript coding
+### [TypeScript coding](#typescript-coding)
 
-* `set()` method for Binding variables
+- `set()` method for Binding variables
 
 `toString()` method for converting Number values to String values
+

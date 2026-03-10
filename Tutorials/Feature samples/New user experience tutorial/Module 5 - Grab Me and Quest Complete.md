@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/new-user-experience-tutorial/module-5-grab-me-and-quest-complete
 ---
 
-# Module 5 - Grab Me and Quest Complete
+# [Module 5 - Grab Me and Quest Complete](#module-5---grab-me-and-quest-complete)
 
 In this module we will cover how the “Grab Me” VFX system works and how to use it to guide players to important interactive objects and quest completion objectives.
 
@@ -14,75 +14,82 @@ You may want to add this to your world to help players identify objects that can
 
 The “Grab Me” VFX system works with the following scripts included in the tutorial world:
 
-* `VFXController.ts` - Links visual effects to objects that can be grabbed and controls VFX playback based on grab/drop interactions
-* `HideGem.ts` - Manages collectible visibility and sparkle effects for multiplayer scenarios where items should disappear after collection
+- `VFXController.ts` - Links visual effects to objects that can be grabbed and controls VFX playback based on grab/drop interactions
+- `HideGem.ts` - Manages collectible visibility and sparkle effects for multiplayer scenarios where items should disappear after collection
 
-## Implement the grab me VFX components
+## [Implement the grab me VFX components](#implement-the-grab-me-vfx-components)
 
 In the New User Experience (NUX) tutorial world, the “Grab Me” VFX system provides attention-grabbing particle effects that guide players to interactive objects. The system automatically responds to grab and drop events, making it perfect for tutorials, collectibles, and environmental cues.
 
 The VFX system uses two complementary approaches: `VFXController.ts` for basic grab highlighting and `HideGem.ts` for collectible items that need per-player visibility management.
 
-### Setup the basic VFX controller system
+### [Setup the basic VFX controller system](#setup-the-basic-vfx-controller-system)
 
 The `VFXController.ts` script links visual effects to objects that can be grabbed and automatically controls playback based on player interactions.
 
-- **Prepare your interactive object**: Identify or create the object that players need to grab. Ensure it has grab functionality enabled through the **Grabbable** component in the **Properties** panel.
+1. **Prepare your interactive object**: Identify or create the object that players need to grab. Ensure it has grab functionality enabled through the **Grabbable** component in the **Properties** panel.
 
-  ![Grabbable component](../../../_assets/images/18efedb068c58f8b6029b0fa7df0ae3aa52859bca10f10331a64c8b192b92f9f.png)
-- **Create the VFX system**: Navigate to your **Asset Library** and add a **VFX Particle Gizmo** to your world. Position it near your interactive object or as a child entity. Configure the particle effect properties (color, size, animation) to create an eye-catching “grab me” indicator.
-- **Attach the VFX controller**: Create an empty object to house the VFX control logic. Attach the `VFXController.ts` script and configure the essential properties:
-  * **grabbableEntity**: Assign the object that players can grab
-  * **vfxGizmo**: Assign your VFX Particle Gizmo entity
-  * **localPositionOffset**: Set the offset position relative to the grabbable object (default: 0,0,0)
-  * **playOnStart**: Enable to automatically play VFX when the world starts (default: true)
-  * **playOnDrop**: Enable to replay VFX when the object is released after being grabbed (default: false)
-- **Test basic functionality**: The script automatically:
-  * Plays VFX when the world starts (if `playOnStart` is enabled)
-  * Stops VFX when a player grabs the object
-  * Resumes VFX when the object is dropped (if `playOnDrop` is enabled)
-  * Positions the VFX to follow the grabbable object with the specified offset
+   ![Grabbable component](../../../_assets/images/18efedb068c58f8b6029b0fa7df0ae3aa52859bca10f10331a64c8b192b92f9f.png)
 
-### Setup collectible gem visibility system
+2. **Create the VFX system**: Navigate to your **Asset Library** and add a **VFX Particle Gizmo** to your world. Position it near your interactive object or as a child entity. Configure the particle effect properties (color, size, animation) to create an eye-catching “grab me” indicator.
+
+3. **Attach the VFX controller**: Create an empty object to house the VFX control logic. Attach the `VFXController.ts` script and configure the essential properties:
+   - **grabbableEntity**: Assign the object that players can grab
+   - **vfxGizmo**: Assign your VFX Particle Gizmo entity
+   - **localPositionOffset**: Set the offset position relative to the grabbable object (default: 0,0,0)
+   - **playOnStart**: Enable to automatically play VFX when the world starts (default: true)
+   - **playOnDrop**: Enable to replay VFX when the object is released after being grabbed (default: false)
+
+4. **Test basic functionality**: The script automatically:
+   - Plays VFX when the world starts (if `playOnStart` is enabled)
+   - Stops VFX when a player grabs the object
+   - Resumes VFX when the object is dropped (if `playOnDrop` is enabled)
+   - Positions the VFX to follow the grabbable object with the specified offset
+
+### [Setup collectible gem visibility system](#setup-collectible-gem-visibility-system)
 
 For items that should disappear after being collected (like gems or quest items), use the `HideGem.ts` system for proper multiplayer support.
 
-- **Create collectible trigger zone**: Add a **Trigger Zone** gizmo around your collectible object. This detects when players “collect” the item by entering the trigger area.
-- **Configure gem visibility management**: Attach the `HideGem.ts` script to your trigger zone and configure:
-  * **gem**: Assign the collectible object entity that should become invisible after collection
-  * **modularSparkleVFX**: Assign the VFX entity that should stop playing for players who collect the item
+1. **Create collectible trigger zone**: Add a **Trigger Zone** gizmo around your collectible object. This detects when players “collect” the item by entering the trigger area.
 
-  ![Gem visibility management](../../../_assets/images/60450aa5b17f3fd6ae75954e58ff5b138236488923c2718b22a7f11e2222ca31.png)
-- **Understanding per-player visibility**: The `HideGem.ts` script provides sophisticated multiplayer support:
-  * **Player tracking**: Maintains a list of players who have collected the item
-  * **Selective visibility**: Makes gems visible only to players who haven’t collected them
-  * **VFX management**: Stops sparkle effects for players who already have the gem
-  * **Cleanup handling**: Properly handles player disconnections and reconnections
-  * **Reset functionality**: Provides `ResetGemEvent` for resetting gem states when needed
+2. **Configure gem visibility management**: Attach the `HideGem.ts` script to your trigger zone and configure:
 
-### Advanced VFX controller features
+   - **gem**: Assign the collectible object entity that should become invisible after collection
+   - **modularSparkleVFX**: Assign the VFX entity that should stop playing for players who collect the item
+
+   ![Gem visibility management](../../../_assets/images/60450aa5b17f3fd6ae75954e58ff5b138236488923c2718b22a7f11e2222ca31.png)
+
+3. **Understanding per-player visibility**: The `HideGem.ts` script provides sophisticated multiplayer support:
+   - **Player tracking**: Maintains a list of players who have collected the item
+   - **Selective visibility**: Makes gems visible only to players who haven’t collected them
+   - **VFX management**: Stops sparkle effects for players who already have the gem
+   - **Cleanup handling**: Properly handles player disconnections and reconnections
+   - **Reset functionality**: Provides `ResetGemEvent` for resetting gem states when needed
+
+### [Advanced VFX controller features](#advanced-vfx-controller-features)
 
 The `VFXController.ts` script supports advanced usage scenarios:
 
-- **Manual VFX control**: Call `playVfx()` and `stopVfx()` methods from other scripts for custom control:
+1. **Manual VFX control**: Call `playVfx()` and `stopVfx()` methods from other scripts for custom control:
 
-  ```
-  // Play VFX for specific players only
-  vfxController.playVfx(true, [player1, player2]);
+   ```typescript
+   // Play VFX for specific players only
+   vfxController.playVfx(true, [player1, player2]);
 
-  // Stop VFX for all players
-  vfxController.stopVfx();
+   // Stop VFX for all players
+   vfxController.stopVfx();
 
-  // Update VFX position if grabbable object moves
-  vfxController.updateVfxPosition();
-  ```
-- **Performance considerations**: The script efficiently handles:
+   // Update VFX position if grabbable object moves
+   vfxController.updateVfxPosition();
+   ```
 
-  * Transform constraints to make VFX follow moving objects
-  * Player-specific VFX visibility for multiplayer scenarios
-  * Automatic cleanup when objects are grabbed or dropped
+2. **Performance considerations**: The script efficiently handles:
 
-### Implementation best practices
+   - Transform constraints to make VFX follow moving objects
+   - Player-specific VFX visibility for multiplayer scenarios
+   - Automatic cleanup when objects are grabbed or dropped
+
+### [Implementation best practices](#implementation-best-practices)
 
 **For Tutorial Objects**: Use `VFXController.ts` with `playOnStart: true` and `playOnDrop: false` to create clear “grab this” indicators that disappear once interacted with.
 
@@ -90,16 +97,17 @@ The `VFXController.ts` script supports advanced usage scenarios:
 
 **For Reusable Objects**: Use `VFXController.ts` with `playOnDrop: true` to make objects continuously highlighted for multiple interactions.
 
-### Testing your VFX implementation
+### [Testing your VFX implementation](#testing-your-vfx-implementation)
 
 Once your VFX system is implemented, thoroughly test by:
 
-- **Single Player Testing**: Verify VFX plays on start, stops on grab, and resumes on drop as configured
-- **Multiplayer Testing**: Test that collectibles properly disappear for players who collect them while remaining visible for others
-- **Performance Testing**: Ensure smooth VFX playback without lag, especially with multiple VFX systems active
-- **Visual Testing**: Confirm VFX positioning looks natural and draws attention without being distracting
-- **Integration Testing**: Verify VFX works properly with quest systems and other tutorial components
+1. **Single Player Testing**: Verify VFX plays on start, stops on grab, and resumes on drop as configured
+2. **Multiplayer Testing**: Test that collectibles properly disappear for players who collect them while remaining visible for others
+3. **Performance Testing**: Ensure smooth VFX playback without lag, especially with multiple VFX systems active
+4. **Visual Testing**: Confirm VFX positioning looks natural and draws attention without being distracting
+5. **Integration Testing**: Verify VFX works properly with quest systems and other tutorial components
 
 ![Testing VFX](../../../_assets/images/523f877527b15a102a06057240da89cc35dc51debb228235460fdc92db7352c9.png)
 
 With a comprehensive “Grab Me” VFX system in place, you can create engaging visual cues that guide players to important objects while properly handling multiplayer scenarios and quest integration. The system provides both simple highlighting for tutorials and advanced collectible management for complex gameplay scenarios.
+

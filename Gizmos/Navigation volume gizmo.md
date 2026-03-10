@@ -2,13 +2,15 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/navigation-volume-gizmo
 ---
 
-# Navigation volume gizmo
+# [Navigation volume gizmo](#navigation-volume-gizmo)
 
 To [build a navigation mesh](../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md), the [navigation volume gizmo](../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-gizmo), a helper tool, is used to define the area where the characters can move in the virtual world. Additionally, a [navigation profile](../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#navigation-profile) that describes the characteristics of the navigation mesh that each agent or character traverses also needs to be created and configured. Once the [gizmo and the profiles are set up and linked](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/build-navigation-for-scripted-avatar-npcs#navigation-entities), the [navigation meshes can be built](../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#building-the-navigation-meshes) or baked for each navigation profile. Scripts are attached to characters to drive their behaviors when traversing navigation meshes.
 
+## [Access the navigation volume gizmo](#access-the-navigation-volume-gizmo)
+
 Accessing the navigation volume gizmo and placing it in the world are some of the initial steps in creating a navigation mesh. For comprehensive tutorials and conceptual guides on using the navigation volume gizmo as part of navigation mesh generation, see the NPC section that has a detailed tutorial on how to access and then [configure locomotion navigation volumes](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/setting-up-npcs-with-navigation#configuring-locomotion-navigation-volumes) using the navigation volume gizmo. See also [Adding a navigation volume gizmo](../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#adding-a-navigation-gizmo).
 
-## Properties
+## [Properties](#properties)
 
 The navigation volume gizmo is an entity. All objects in a world are represented by entities. [Entities](../Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the **Properties** panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
 
@@ -18,18 +20,19 @@ The **Navigation Profile** dropdown menu controls the navigation profile that th
 
 For additional descriptions of the navigation volume gizmo properties, see [MHCP’s creator manual](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#navigation-volume).
 
-## Scripting
+## [Scripting](#scripting)
 
 After the navigation profile and its navigation volume are defined, you can, for example, reference them from TypeScript to enable your NPC to use the navigation. See [Navigation APIs for scripted avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/build-navigation-for-scripted-avatar-npcs#navigation-apis-for-scripted-avatar-npcs)
 
 You can also use the [NavMesh TypeScript API](../Reference/navmesh/Classes/NavMesh.md) to get references to navigation mesh instances in order to perform path-finding calculations at runtime. See [Using the NavMesh APIs](../Desktop%20editor/NPCs/Navigation%20mesh%20generation.md#using-the-navmesh-apis)
 
-## What’s next?
+## [What’s next?](#whats-next)
 
 Now that you’ve been introduced to the navigation volume gizmo, further your learning with tutorials and related developer guides:
 
-* [Tutorial worlds on navigation volumes](../Tutorials/Genre%20samples/Chop%20N%20Pop%20sample%20world/Module%2010%20-%20NPC%20System.md)
-* [Tutorial worlds on scripted avatar NPC](../Tutorials/Feature%20samples/Scripted%20Avatar%20NPC%20tutorial/Module%202%20-%20Overview%20of%20Scripted%20Avatar%20NPCs.md#navigation-and-locomotion)
-* [Get started with scripted avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs)
-* [Build Navigation for Scripted Avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/build-navigation-for-scripted-avatar-npcs)
-* [Meta Horizon Creator Program’s creator manual on the navigation volume gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#navigation-volume)
+- [Tutorial worlds on navigation volumes](../Tutorials/Genre%20samples/Chop%20N%20Pop%20sample%20world/Module%2010%20-%20NPC%20System.md)
+- [Tutorial worlds on scripted avatar NPC](../Tutorials/Feature%20samples/Scripted%20Avatar%20NPC%20tutorial/Module%202%20-%20Overview%20of%20Scripted%20Avatar%20NPCs.md#navigation-and-locomotion)
+- [Get started with scripted avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs)
+- [Build Navigation for Scripted Avatar NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/build-navigation-for-scripted-avatar-npcs)
+- [Meta Horizon Creator Program’s creator manual on the navigation volume gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#navigation-volume)
+

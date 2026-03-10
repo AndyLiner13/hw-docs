@@ -2,22 +2,28 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_playerbodyparttype
 ---
 
-# PlayerBodyPartType Enum
+# [PlayerBodyPartType Enum](#playerbodyparttype-enum)
 
 The type of body part of a player.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum PlayerBodyPartType
+export
+ declare 
+enum
+ 
+PlayerBodyPartType
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| Foot | `1` | The body part is a foot. |
-| Head | `0` | The body part is a head. |
-| LeftHand | `3` | The body part is a left hand. |
-| RightHand | `4` | The body part is a right hand. |
-| Torso | `2` | The body part is a torso. |
+| Member    | Value | Description                    |
+| --------- | ----- | ------------------------------ |
+| Foot      | `1`   | The body part is a foot.       |
+| Head      | `0`   | The body part is a head.       |
+| LeftHand  | `3`   | The body part is a left hand.  |
+| RightHand | `4`   | The body part is a right hand. |
+| Torso     | `2`   | The body part is a torso.      |
+

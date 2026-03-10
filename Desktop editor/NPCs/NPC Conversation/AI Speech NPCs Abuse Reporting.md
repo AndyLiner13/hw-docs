@@ -2,8 +2,9 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/npc-conversations/ai-speech-abuse-reporting
 ---
 
-# AI Speech NPCs Abuse Reporting
+# [AI Speech NPCs Abuse Reporting](#ai-speech-npcs-abuse-reporting)
 
-Players have the ability to submit abuse reports for specific worlds and NPCs within the world. This is a way for players to flag potential [Horizon Worlds Content Guidelines](../../../Save,%20optimize,%20and%20publish/Worlds%20content%20guidelines.md) violations. When this happens, the world and NPCs will be reviewed to determine whether a violation exists. If a violation is found, the world will be evaluated for appropriate age ratings and violations.
+Players have the ability to submit abuse reports for specific worlds and NPCs within the world. This is a way for players to flag potential [Horizon Worlds Content Guidelines](../../../Save%2C%20optimize%2C%20and%20publish/Worlds%20content%20guidelines.md) violations. When this happens, the world and NPCs will be reviewed to determine whether a violation exists. If a violation is found, the world will be evaluated for appropriate age ratings and violations.
 
 If the world’s maturity rating needs to be raised (e.g. 13+, 18+), we will send an email to the world owner that their **maturity rating has been adjusted**, restricting access to users within the appropriate age range. If there is a content violation, we will send an email to the world owner that the **world has been unpublished**. The world owner can fix the violation and attempt to publish the world again 24 hours later. The updated world will only be published if a subsequent review determines that it no longer violates the content policy. If there is a severe violation, the world owner will receive an email that their **world is deleted**.
+

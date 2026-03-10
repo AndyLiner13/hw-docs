@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_weaponequippayload
 ---
 
-# WeaponEquipPayload type
+# [WeaponEquipPayload type](#weaponequippayload-type)
 
 A payload sent by the `OnWeaponEquip` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type WeaponEquipPayload = FullTurboEventPayload<typeof OnWeaponEquip>;
+export
+ declare type 
+WeaponEquipPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnWeaponEquip
+>;
 ```
+

@@ -2,12 +2,22 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_dimensionvalue
 ---
 
-# DimensionValue type
+# [DimensionValue type](#dimensionvalue-type)
 
 The base type for dimensions.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type DimensionValue = number | string;
+export
+ declare type 
+DimensionValue
+ 
+=
+ number 
+|
+ 
+string
+;
 ```
+

@@ -2,18 +2,43 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_animatedinterpolation
 ---
 
-# AnimatedInterpolation Class
+# [AnimatedInterpolation Class](#animatedinterpolation-class)
 
-Extends *[ValueBindingBase](../Abstract%20Classes/ValueBindingBase.md)<T>*
+Extends *[ValueBindingBase](../Abstract%20Classes/ValueBindingBase.md)\<T>*
 
 A type of animated binding that is interpolated from another animated binding.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare class AnimatedInterpolation<T extends number | string | Color> extends ValueBindingBase<T>
+export
+ declare 
+class
+ 
+AnimatedInterpolation
+<
+T 
+extends
+ number 
+|
+ 
+string
+ 
+|
+ 
+Color
+>
+ 
+extends
+ 
+ValueBindingBase
+<
+T
+>
+ 
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
 For more information, see the developer guide about [interpolation](../../../Desktop%20editor/Custom%20UI/Animations%20for%20custom%20UI.md#interpolation).
+

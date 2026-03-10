@@ -2,19 +2,33 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_setmeshoptions
 ---
 
-# SetMeshOptions type
+# [SetMeshOptions type](#setmeshoptions-type)
 
 Options that indicate whether players can choose to use new material from a custom model or keep the current material when updating the mesh of a custom model entity.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type SetMeshOptions = {
-    updateMaterial?: boolean;
+export
+ declare type 
+SetMeshOptions
+ 
+=
+ 
+{
+
+    updateMaterial
+?:
+ 
+boolean
+;
+
+
 };
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
-updateMaterial - true to enable use of the new material; false to use the current material.
+updateMaterial - true to enable use of the new material; false to use the current material.\
 For information on updating the mesh of a custom model entity, see the [MeshEntity.setMesh()](../Classes/MeshEntity.md#setmesh) method.
+

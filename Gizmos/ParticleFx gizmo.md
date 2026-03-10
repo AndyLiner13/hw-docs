@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/particlefx-gizmo
 ---
 
-# ParticleFx gizmo
+# [ParticleFx gizmo](#particlefx-gizmo)
 
 The ParticleFX [gizmo](About%20gizmos.md) is a helper tool that allows you to easily add visual effects such as smoke, sparks, and confetti, making worlds more dynamic and visually engaging. Some use cases of particle effects include adding game event feedback with explosions and hit sparks, or enhance immersion with confetti bursts and water splashes.
 
@@ -10,19 +10,19 @@ The following image is taken from the [sample world](../Tutorials/Getting%20star
 
 ![the ParticleFx gizmo is at work in the sample world](../_assets/images/90be5488d31c818063509e28f78852d8dff762d6c6da11c2a9cb06372ca58dab.png)
 
-## Limitations
+## [Limitations](#limitations)
 
 [Performance](../Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md) can be impacted if too many complex effects are used at once.
 
-## Access the ParticleFx gizmo
+## [Access the ParticleFx gizmo](#access-the-particlefx-gizmo)
 
 While you can access and configure the gizmos in the [VR tool](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the ParticleFx gizmo from the desktop editor and add it to the [scene pane](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
-- In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “particle” in the search field.
-- Select the ParticleFx gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [**Properties panel**](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
+1. In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “particle” in the search field.
+2. Select the ParticleFx gizmo and drag it into the scene.
+3. You can now edit the new gizmo properties in the [**Properties panel**](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
-## Properties
+## [Properties](#properties)
 
 The ParticleFx gizmo is an entity. All objects in a world are represented by entities. [Entities](../Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the **Properties** panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
 
@@ -48,15 +48,16 @@ The following image shows the ParticleFx gizmo is at work in the [Preview mode](
 
 ![the ParticleFx gizmo is at work in the Preview mode](../_assets/images/d851090a215de979a881ea7583c17aad909f2474e7429734ce72482c2ef261dc.png)
 
-## Scripting
+## [Scripting](#scripting)
 
 The ParticleFX Gizmo can also be controlled using [ParticleGizmo](../Reference/core/Classes/ParticleGizmo.md) API, allowing you to play, stop, and configure effects programmatically. For additional resources, see the [sample world](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md) called [Chop-n-pop module 11 loot system](../Tutorials/Genre%20samples/Chop%20N%20Pop%20sample%20world/Module%2011%20-%20Loot%20System.md). You can find this world in [**Creation Home**](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Create%20a%20New%20World.md).
 
-## What’s next?
+## [What’s next?](#whats-next)
 
 Now that you’ve been introduced to the ParticleFx gizmo, further your learning with hands-on tutorials and related developer guides:
 
-* [Chop-n-pop module 11 loot system](../Tutorials/Genre%20samples/Chop%20N%20Pop%20sample%20world/Module%2011%20-%20Loot%20System.md)
-* [Meta Horizon Creator Program’s creator manual on the ParticleFx gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#particlefx-gizmo)
-* [Example scripts library](../Scripting/API%20references%20and%20examples/Example%20scripts%20library.md#particlefx-gizmo-example-script)
-* [Scripting using TypeScript](../Scripting/Scripting%20using%20TypeScript.md)
+- [Chop-n-pop module 11 loot system](../Tutorials/Genre%20samples/Chop%20N%20Pop%20sample%20world/Module%2011%20-%20Loot%20System.md)
+- [Meta Horizon Creator Program’s creator manual on the ParticleFx gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#particlefx-gizmo)
+- [Example scripts library](../Scripting/API%20references%20and%20examples/Example%20scripts%20library.md#particlefx-gizmo-example-script)
+- [Scripting using TypeScript](../Scripting/Scripting%20using%20TypeScript.md)
+

@@ -2,17 +2,33 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_firstpersonmovementcameramovementpreset
 ---
 
-# FirstPersonMovementCameraMovementPreset type
+# [FirstPersonMovementCameraMovementPreset type](#firstpersonmovementcameramovementpreset-type)
 
-> Warning: This API is now obsolete.
+> [!Warning]
+>
+> This API is now obsolete.\
 > This module is deprecated and will be removed in a future version.
 
 A [CameraMovementPreset](CameraMovementPreset.md) option that provides a first person camera view.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type FirstPersonMovementCameraMovementPreset = {
-    strategy: 'FirstPerson';
+export
+ declare type 
+FirstPersonMovementCameraMovementPreset
+ 
+=
+ 
+{
+
+    strategy
+:
+ 
+'FirstPerson'
+;
+
+
 };
 ```
+

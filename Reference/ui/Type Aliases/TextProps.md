@@ -2,20 +2,49 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_textprops
 ---
 
-# TextProps type
+# [TextProps type](#textprops-type)
 
 Represents the props of a [text](../Functions/Text_2.md) component.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type TextProps = {
-    text: Bindable<string | LocalizableText>;
-    numberOfLines?: number;
-    style?: TextStyle;
+export
+ declare type 
+TextProps
+ 
+=
+ 
+{
+
+    text
+:
+ 
+Bindable
+<
+string
+ 
+|
+ 
+LocalizableText
+>;
+
+    numberOfLines
+?:
+ number
+;
+
+    style
+?:
+ 
+TextStyle
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [Bindable](Bindable.md), [TextStyle](TextStyle.md)
+

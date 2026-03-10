@@ -2,12 +2,17 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_apiname
 ---
 
-# ApiName Variable
+# [ApiName Variable](#apiname-variable)
 
 The name of the API.
 
-## Signature
+## [Signature](#signature)
 
 ```
-ApiName = "mobile_gestures"
+ApiName
+ 
+=
+ 
+"mobile_gestures"
 ```
+

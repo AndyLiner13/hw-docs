@@ -1,16 +1,35 @@
 ---
-source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshwaypoint/
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshwaypoint
 ---
 
-# NavMeshWaypoint type
+# [NavMeshWaypoint type](#navmeshwaypoint-type)
 
 Detailed information about a waypoint returned by the [NavMesh.getPathAlongSurface](../Classes/NavMesh.md#getpathalongsurface) method. Contains both position and normal data.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type NavMeshWaypoint = {
-    position: Vec3;
-    normal: Vec3;
+export
+ declare type 
+NavMeshWaypoint
+ 
+=
+ 
+{
+
+    position
+:
+ 
+Vec3
+;
+
+    normal
+:
+ 
+Vec3
+;
+
+
 };
 ```
+

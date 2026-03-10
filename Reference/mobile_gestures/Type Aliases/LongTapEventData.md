@@ -2,16 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/mobile_gestures_longtapeventdata
 ---
 
-# LongTapEventData type
+# [LongTapEventData type](#longtapeventdata-type)
 
 Payload received by long tap events
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type LongTapEventData = TouchEventData;
+export
+ declare type 
+LongTapEventData
+ 
+=
+ 
+TouchEventData
+;
 ```
 
-## References
+## [References](#references)
 
 [TouchEventData](TouchEventData.md)
+

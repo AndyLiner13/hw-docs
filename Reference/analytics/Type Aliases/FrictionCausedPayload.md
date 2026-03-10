@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_frictioncausedpayload
 ---
 
-# FrictionCausedPayload type
+# [FrictionCausedPayload type](#frictioncausedpayload-type)
 
 A payload sent by the `OnFrictionCaused` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type FrictionCausedPayload = FullTurboEventPayload<typeof OnFrictionCaused>;
+export
+ declare type 
+FrictionCausedPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnFrictionCaused
+>;
 ```
+

@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/getting-started/managing-typescript
 ---
 
-# Managing Typescript
+# [Managing Typescript](#managing-typescript)
 
 The Meta Horizon Worlds desktop editor requires TypeScript version 4.7.4 when creating or editing scripts. This topic shows you how to tell which version you have and to install TypeScript if you don’t have it yet.
 
@@ -12,12 +12,15 @@ For more information about the mechanics of TypeScript, see [About TypeScript](A
 
 **To check your installed version of TypeScript**
 
-* From the command line, enter the following command:
-
+- From the command line, enter the following command:
   ```
-    tsc - v;
+    tsc 
+  -
+   v
+  ;
   ```
 
 **To install version 4.7.4 of TypeScript**
 
-* Install Typescript version 4.7.4 on your computer from the [Visual Studio marketplae](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-474).
+- Install Typescript version 4.7.4 on your computer from the [Visual Studio marketplae](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-474).
+

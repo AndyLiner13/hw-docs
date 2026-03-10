@@ -2,82 +2,83 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/typescript/gameplay-tags-api/modify-gameplay-tags-on-entity-and-get-entities-with-tags
 ---
 
-# Modify and Retrieve Entity Tags
+# [Modify and Retrieve Entity Tags](#modify-and-retrieve-entity-tags)
 
 You can use the following APIs to create and update tags for an entity as well as retrieve all entities in the world with a specified set of tags.
 
-* [Entity.tags propery](../../Reference/core/Classes/Entity.md#tags)
-* [World.GetEntitiesWithTags method](../../Reference/core/Classes/World.md#getentitieswithtags)
-* [EntityTagMatchOperation enum](../../Reference/core/Enumerations/EntityTagMatchOperation.md)
+- [Entity.tags propery](../../Reference/core/Classes/Entity.md#tags)
+- [World.GetEntitiesWithTags method](../../Reference/core/Classes/World.md#getentitieswithtags)
+- [EntityTagMatchOperation enum](../../Reference/core/Enumerations/EntityTagMatchOperation.md)
 
-## TypeScript Example Code
+## [TypeScript Example Code](#typescript-example-code)
 
 These examples demonstrate how to use the `Entity.Tag` property to manage tags for an entity.
 
-```
-// add tags to the entity
+```typescript
+// add tags to the entity
 entity.Tags.add('tag1');
 entity.Tags.add('tag2');
 entity.Tags.add('tag3');
 
-// check if the entity contains a specific tag
-console.log(entity.Tags.contains('tag1')); // true
-console.log(entity.Tags.contains('tag4')); // false
+// check if the entity contains a specific tag
+console.log(entity.Tags.contains('tag1')); // true
+console.log(entity.Tags.contains('tag4')); // false
 
-// get the number of tags in the entity
-console.log(entity.Tags.length()); // 3
+// get the number of tags in the entity
+console.log(entity.Tags.length()); // 3
 
-// remove a tag from the entity
+// remove a tag from the entity
 entity.Tags.remove('tag2');
-console.log(entity.Tags.contains('tag2')); // false
-console.log(entity.Tags.length()); // 2
+console.log(entity.Tags.contains('tag2')); // false
+console.log(entity.Tags.length()); // 2
 
-// iterate over the tags in the entity
-// output:
-// tag1
-// tag3
-for (const tag of entity.Tags) {
-  console.log(tag);
+// iterate over the tags in the entity
+// output:
+// tag1
+// tag3
+for (const tag of entity.Tags) {
+  console.log(tag);
 }
 
-// get the underlying Set of tags
-const tagsSet = entity.Tags.get();
-console.log(tagsSet); // Set { 'tag1', 'tag3' }
+// get the underlying Set of tags
+const tagsSet = entity.Tags.get();
+console.log(tagsSet); // Set { 'tag1', 'tag3' }
 
-// clear all tags from the entity
+// clear all tags from the entity
 entity.Tags.clear();
-console.log(entity.Tags.length()); // 0
+console.log(entity.Tags.length()); // 0
 
-// create a new Set of tags
-const newTagsSet = new Set<string>(['tag4', 'tag5']);
+// create a new Set of tags
+const newTagsSet = new Set<string>(['tag4', 'tag5']);
 
-// set the new Set of tags for the entity
+// set the new Set of tags for the entity
 entity.Tags.set(newTagsSet);
 
-// verify the new tags
-console.log(entity.Tags.get()); // Set { 'tag4', 'tag5' }
-console.log(entity.Tags.length()); // 2
+// verify the new tags
+console.log(entity.Tags.get()); // Set { 'tag4', 'tag5' }
+console.log(entity.Tags.length()); // 2
 ```
 
-### Get all entities with the given tags
+### [Get all entities with the given tags](#get-all-entities-with-the-given-tags)
 
 This video demonstrates how to query entities based on tagging, using a script similar to the example below.
 
-[](https://video-dfw5-2.xx.fbcdn.net/v/t42.1790-2/453652358_1271239434033510_5162475170574308196_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=6500a6&_nc_ohc=RIKEY75q8xcQ7kNvwEzJwr3&_nc_oc=AdlyaQ5P9CN9TanuYzNLwfS0SZgypvRvIF__LCre49wLBGE4Yl5ki--2A2RfMvD-UdBNSaSKPeiQd1EmlKr3x9ND&_nc_zt=28&_nc_ht=video-dfw5-2.xx&_nc_gid=p4eMesIme5U2UrfPoRveqw&oh=00_AfoNUFEd0jb7Q7Pf-BgFsUsyb-PgmfvvWvtlTBcu9OKGIg&oe=696FAE90)
+<video controls></video><source src="(BROKEN_REF)" type="video/mp4">
 
-```
+```typescript
 entity1.Tags.add('tag1');
 entity1.Tags.add('tag2');
 entity1.Tags.add('tag3');
 
-// set all tags for entity2 vs adding tags individually
-entity2.Tags.set(['tag2', 'tag4']);
+// set all tags for entity2 vs adding tags individually
+entity2.Tags.set(['tag2', 'tag4']);
 
-// search for entities containing any of the specified tags
-const entitiesWithTag1orTag4 = world.getEntitiesWithTags(['tag1', 'tag4'], SearchOptionContainsAny);
-console.log(entitiesWithTag1orTag4); // [entity1, entity2]
+// search for entities containing any of the specified tags
+const entitiesWithTag1orTag4 = world.getEntitiesWithTags(['tag1', 'tag4'], SearchOptionContainsAny);
+console.log(entitiesWithTag1orTag4); // [entity1, entity2]
 
-// search for entities containing all of the specified tags
-const entitiesWithTag1andTag2 = world.getEntitiesWithTags(['tag1', 'tag2'], SearchOption.ContainsAll);
-console.log(entitiesWithTag1andTag2); // [entity1]
+// search for entities containing all of the specified tags
+const entitiesWithTag1andTag2 = world.getEntitiesWithTags(['tag1', 'tag2'], SearchOption.ContainsAll);
+console.log(entitiesWithTag1andTag2); // [entity1]
 ```
+

@@ -1,154 +1,147 @@
 ---
-source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/intro-to-worlds-discovery/
+source: https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/intro-to-worlds-discovery
 ---
 
-# Intro to Worlds discovery
+# [Intro to Worlds discovery](#intro-to-worlds-discovery)
 
 Update on Horizon Feed in VR
 
- January 21, 2026: We’re starting the process to sunset Horizon Feed in VR and shift users to our new UI (called Navigator) to improve the overall user journey and make exploration in VR more seamless. This shift starts with a small set of users, and we will be slowly ramping up testing until releasing to all users later this year. When Horizon Feed in VR is no longer available, we will update the documentation on this page. [Learn more here](https://communityforums.atmeta.com/discussions/product-news-/horizon-feed-being-replaced-by-navigator-starting-in-v85/1363700).
+January 21, 2026: We’re starting the process to sunset Horizon Feed in VR and shift users to our new UI (called Navigator) to improve the overall user journey and make exploration in VR more seamless. This shift starts with a small set of users, and we will be slowly ramping up testing until releasing to all users later this year. When Horizon Feed in VR is no longer available, we will update the documentation on this page. [Learn more here](https://communityforums.atmeta.com/discussions/product-news-/horizon-feed-being-replaced-by-navigator-starting-in-v85/1363700).
 
-## Introduction
+## [Introduction](#introduction)
 
 As creators craft fun and engaging experiences in Worlds, we are here to help connect users with the most relevant and engaging worlds at every stage of their journey. Here we will go over how users discover worlds and how worlds are ranked across surfaces, as well as providing resources and insights you can use to improve user acquisition and engagement with your worlds.
 
-#### TL;DR:
+#### [TL;DR:](#tldr)
 
-* Worlds discovery in Meta Horizon is primarily powered by our algorithmic recommendations that combine 4 distinct dimensional axes: Appeal, visit quality, repeat visitors, and technical performance.
-* There are many ways you can improve the discoverability of your worlds, including providing high-quality accurate key art and descriptions, designing a good onboarding experience, implementing mechanisms for users to come back, and improving world quality by improving frame rate and crash rate. You can monitor the impact of the improvements you make in [world analytics](../Performance/Analytics/World%20Analytics.md).
-* We have started building the capabilities for worlds to be discovered and played directly within Facebook, Instagram, and others of Meta’s family of mobile apps. We will keep our community updated on our progress and share as the opportunity to be surfaced in Facebook and Instagram opens up broadly to the creator community.
+- Worlds discovery in Meta Horizon is primarily powered by our algorithmic recommendations that combine 4 distinct dimensional axes: Appeal, visit quality, repeat visitors, and technical performance.
+- There are many ways you can improve the discoverability of your worlds, including providing high-quality accurate key art and descriptions, designing a good onboarding experience, implementing mechanisms for users to come back, and improving world quality by improving frame rate and crash rate. You can monitor the impact of the improvements you make in [world analytics](../Performance/Analytics/World%20Analytics.md).
+- We have started building the capabilities for worlds to be discovered and played directly within Facebook, Instagram, and others of Meta’s family of mobile apps. We will keep our community updated on our progress and share as the opportunity to be surfaced in Facebook and Instagram opens up broadly to the creator community.
 
-## The discovery ecosystem in Worlds
+## [The discovery ecosystem in Worlds](#the-discovery-ecosystem-in-worlds)
 
 Our goal is to surface the most engaging and active worlds to users and to help creators to find the right audience. Worlds discovery in Meta Horizon is primarily powered by our algorithmic recommendations that combine multiple criteria. In some scenarios, we also manually select worlds to spotlight.
 
-### Worlds discovery surfaces
+### [Worlds discovery surfaces](#worlds-discovery-surfaces)
 
 Users can discover worlds through multiple touchpoints on Meta Horizon mobile app and Quest headsets:
 
-* **Horizon feed**: The feed is the first discovery surface users see, both in-headset and on mobile. As the default, the feed naturally reaches more users than any other surface; however, it also accounts for the lowest conversion rate since users often visit the feed without as much intent to explore specific content.
-* **Horizon in-app menu**: This menu is available when users are in worlds, and includes many world shelves for users to browse.
-* **Search**: Search supports users who are looking for specific content they want to try or casually browsing and looking at recommended titles before entering a query in the search bar.
-* **Doors in worlds**: Creators can put doors to other worlds in their worlds. This enables a more embodied way to travel between worlds.
-* **Horizon store**: The Horizon store is the primary commerce surface intended to help users find content they enjoy. The store is where users are actively seeking to browse and acquire new experiences.
-* **Horizon Central**: Users may also discover worlds in Horizon Central, a social discovery hub world created by Meta Horizon. Some worlds are selected algorithmically, but we also curate worlds as part of promotional campaigns based on criteria such as the quality of the worlds and how well the content fits into the themes of the marketing campaign.
+- **Horizon feed**: The feed is the first discovery surface users see, both in-headset and on mobile. As the default, the feed naturally reaches more users than any other surface; however, it also accounts for the lowest conversion rate since users often visit the feed without as much intent to explore specific content.
+- **Horizon in-app menu**: This menu is available when users are in worlds, and includes many world shelves for users to browse.
+- **Search**: Search supports users who are looking for specific content they want to try or casually browsing and looking at recommended titles before entering a query in the search bar.
+- **Doors in worlds**: Creators can put doors to other worlds in their worlds. This enables a more embodied way to travel between worlds.
+- **Horizon store**: The Horizon store is the primary commerce surface intended to help users find content they enjoy. The store is where users are actively seeking to browse and acquire new experiences.
+- **Horizon Central**: Users may also discover worlds in Horizon Central, a social discovery hub world created by Meta Horizon. Some worlds are selected algorithmically, but we also curate worlds as part of promotional campaigns based on criteria such as the quality of the worlds and how well the content fits into the themes of the marketing campaign.
 
-#### Mobile
+#### [Mobile](#mobile)
 
-| **Feed** | **Search** | **Store** | **In-World Menu** | **Doors** |
-| --- | --- | --- | --- | --- |
-| Image shows an example of the mobile feed | Images shows an example search screen | Image shows an example screen of the mobile store page | Image shows an example of the in-world menu | Image shows an example of doors |
+| **Feed**                                                                                                                             | **Search**                                                                                                                       | **Store**                                                                                                                                         | **In-World Menu**                                                                                                                      | **Doors**                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| ![Image shows an example of the mobile feed](../_assets/images/441ddedfda97bf9dfda727d3e5383d46b26b39ee294f7c29fdf6788b304a45ab.png) | ![Images shows an example search screen](../_assets/images/525fdd303b2f3c2eecd189000ec386d3799445ef8675a1c75811de8f0d77474a.png) | ![Image shows an example screen of the mobile store page](../_assets/images/3b2f8e011010afeb725b5b507555fcff34cd1f2d2bd087305ce6accd0a36537c.png) | ![Image shows an example of the in-world menu](../_assets/images/6c9234144000820e943e02396c7d07b718835ed30f994c70d9a0780ff0b9a7f0.png) | ![Image shows an example of doors](../_assets/images/f3d00ab9ccc769a9f99e57b7c29e7651f4b46ac5616f9d0aa53f0758291e5e5a.png) |
 
-#### VR
+#### [VR](#vr)
 
-| **Feed** | **Search** | **Store** | **In-World Menu** | **Doors** |
-| --- | --- | --- | --- | --- |
-| Image shows an example of the VR feed | Image shows an example search window | Image shows an example of the VR store page | Image shows an example of the in-world menu | Image shows an example of doors |
+| **Feed**                                                                                                                         | **Search**                                                                                                                      | **Store**                                                                                                                              | **In-World Menu**                                                                                                                      | **Doors**                                                                                                                  |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| ![Image shows an example of the VR feed](../_assets/images/5ddbba91c1030b679c47e8a991662f4a2a3fc2ea47a4cda849b455c3e213f5ba.png) | ![Image shows an example search window](../_assets/images/e907a7eea276c9511da7bf4bd9df39713d005464b18bc415c655f1786f6ad9cf.png) | ![Image shows an example of the VR store page](../_assets/images/f4aab7265164c97840c2628983293e36d0b9912d2040d4588bdddece8bce72c1.png) | ![Image shows an example of the in-world menu](../_assets/images/e85a4a756df79f9d854868999669a3c482491a0c10c88a2ffbf5b7a48a923a2a.png) | ![Image shows an example of doors](../_assets/images/f3d00ab9ccc769a9f99e57b7c29e7651f4b46ac5616f9d0aa53f0758291e5e5a.png) |
 
-### Algorithmic discovery
+### [Algorithmic discovery](#algorithmic-discovery)
 
 Our discovery algorithms source and rank worlds in many of the primary discovery surfaces. Some surfaces are personalized, and the content displayed may differ between different users. We help newly released and updated content gain visibility by providing it with initial traffic, allowing it to be evaluated and scale in the recommendation systems based on its performance. We primarily focus on **4 distinct dimensional axes (Appeal, visit quality, repeat visitors, and technical performance).**
 
-| **Value** | **Description** | **Metric** | **How can I improve this?** |
-| --- | --- | --- | --- |
-| **Appeal** *You should find content appealing in discovery.* | How well does a world get users to try the world based on art and information? | Proportion of users who have seen an impression of your world who then visit the world. | You can increase your world’s appeal by focusing on the world title, description, key art, and [thumbnail](Thumbnail%20A-B%20testing%20tool.md). |
-| **Visit quality** *You should find worlds compelling enough to have a sustained visit.* | How compelling is the world at hooking the user? Once users visit a world, was the experience enjoyable enough to stay for a while? | Sustained visit rate (% of visits with timespent more than 5 minutes in VR and 2 minutes on mobile) Timespent per visit. | You can increase the visit quality by incorporating a strong hook, tutorializing how to play, and making the world fun in the first few minutes. |
-| **Repeat visitors** *You should find the experience rewarding and want to visit the world again.* | Do users return back to the world repeatedly? | Retention of users in world; Timespent per monthly active user. | You can increase the return visits by making the experience fun to replay and by using [persistent variables](../Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to enable progress to be made over multiple sessions. |
-| **Technical performance** *You should have a smooth experience within the world.* | How technically smooth is the experience within the world for the users? Are there crashes or frame drops that get in the way of the experience? | Frame rate in the world; crash rate in the world. | You can improve the technical performance of the world by using the [performance profiling and analytics tools](../Performance/Introduction%20to%20performance%20optimization.md) in the editor. |
+| **Value**                                                                                         | **Description**                                                                                                                                  | **Metric**                                                                                                               | **How can I improve this?**                                                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Appeal** *You should find content appealing in discovery.*                                      | How well does a world get users to try the world based on art and information?                                                                   | Proportion of users who have seen an impression of your world who then visit the world.                                  | You can increase your world’s appeal by focusing on the world title, description, key art, and [thumbnail](Thumbnail%20A-B%20testing%20tool.md).                                                                                              |
+| **Visit quality** *You should find worlds compelling enough to have a sustained visit.*           | How compelling is the world at hooking the user? Once users visit a world, was the experience enjoyable enough to stay for a while?              | Sustained visit rate (% of visits with timespent more than 5 minutes in VR and 2 minutes on mobile) Timespent per visit. | You can increase the visit quality by incorporating a strong hook, tutorializing how to play, and making the world fun in the first few minutes.                                                                                              |
+| **Repeat visitors** *You should find the experience rewarding and want to visit the world again.* | Do users return back to the world repeatedly?                                                                                                    | Retention of users in world; Timespent per monthly active user.                                                          | You can increase the return visits by making the experience fun to replay and by using [persistent variables](../Scripting/Get%20started%20with%20TypeScript/Persistent%20Variables.md) to enable progress to be made over multiple sessions. |
+| **Technical performance** *You should have a smooth experience within the world.*                 | How technically smooth is the experience within the world for the users? Are there crashes or frame drops that get in the way of the experience? | Frame rate in the world; crash rate in the world.                                                                        | You can improve the technical performance of the world by using the [performance profiling and analytics tools](../Performance/Introduction%20to%20performance%20optimization.md) in the editor.                                              |
 
-### Promotions on Meta Horizon channels
+### [Promotions on Meta Horizon channels](#promotions-on-meta-horizon-channels)
 
 Users may also discover worlds through Meta’s promotions on channels such as social media, email newsletters, and in-product spotlights. The criteria used for selection typically include quality of the worlds, mobile-specific optimization, engagement (i.e. timespent, retention), as well as how well the content fits into the themes of the marketing campaign. While there’s not a one-fits-all criteria, the rule of thumb is that popular, engaging worlds with high quality visual content and demonstrating exemplary use of creator tooling technologies have the highest chances of being featured.
 
-### Horizon World discovery on Meta’s family of apps (FoA)
+### [Horizon World discovery on Meta’s family of apps (FoA)](#horizon-world-discovery-on-metas-family-of-apps-foa)
 
 We have also started building the capabilities for worlds to be discovered and played directly within Facebook, Instagram, and others of Meta’s family of mobile apps. Today, you can visit the Gaming tab on Facebook mobile to find and play selected worlds. We are early in our journey and are still testing and iterating how Facebook and Instagram could be most effective as distribution channels for creators to acquire more worlds users more quickly. We will keep our community updated on our progress and share as the opportunity to be surfaced in Facebook and Instagram opens up broadly to the creator community. This will continue to follow the above principles of appeal, visit quality, repeat visitors, and technical performance.
 
-## How to improve discoverability and acquire more users
+## [How to improve discoverability and acquire more users](#how-to-improve-discoverability-and-acquire-more-users)
 
 The goal of our discovery system is to connect people with fun and engaging worlds that they enjoy. Improving the four values mentioned above (**appeal**, **visit quality**, **repeat visitors**, and **technical performance**) is the best way to increase your chances of getting discovered. You can monitor how well your progress and impact across these values using the [analytics](../Performance/Analytics/World%20Analytics.md) tools, including impressions, sustained visit rate (SVR), and average time in world.
 
-#### Appeal: Improve consideration
+#### [Appeal: Improve consideration](#appeal-improve-consideration)
 
-**Goal**: Increase the number of users who decide to visit your worlds as they discover them by providing high-quality accurate visuals and information
-**Measured by**: Proportion of users who have seen an impression of your world who then visit the world
-**Best practices**: Optimize world visuals to put your best foot forward
+**Goal**: Increase the number of users who decide to visit your worlds as they discover them by providing high-quality accurate visuals and information **Measured by**: Proportion of users who have seen an impression of your world who then visit the world **Best practices**: Optimize world visuals to put your best foot forward
 
-- **World images**: Quality images have been validated to be shown as one of the strongest levers to increase interest and downstream engagement. World images are the “book covers” in Meta Horizon, where accurate and exciting images can improve visits and time spent up to 40%. We have found that the closer the image is to the world experience, the more users will engage deeply. Focus on the following criteria:
-  * Accurate gameplay that portrays real examples of in-world action
-  * Accurate avatars, even when compared to more aesthetically pleasing avatars
-- **Image A/B testing**: In the Developer Dashboard you can find the thumbnail A/B testing tool that allows you to upload an additional image and the system will test and provide results on which image drives more engagement. Given the impact that strong visuals can have on converting traffic, invest in testing different images to see what can be most appealing to grow your audience. You may want to test different examples of in-world action, different colors, brighter vs darker, logo styles. See documentation on [thumbnail A/B testing](Thumbnail%20A-B%20testing%20tool.md).
-- **Multiple image upload**: You will soon be able to upload 3 different image sizes for portrait, landscape, and square (16:9, 9:16, 1:1), which will map to the sizes used across different surfaces. It is imperative to design for these sizes to put your best foot forward, as square images (1:1) do not look appealing when cropped to another size like 16:9 (and vice versa). Poor cropping can significantly impair clicks and visits.
-- **[Coming soon] World videos**: Along with your thumbnails, you will soon be able to upload videos, which have also been validated to be one of the strongest levers for world engagement (even stronger than images). The above principles apply on accuracy for quality engagement.
+1. **World images**: Quality images have been validated to be shown as one of the strongest levers to increase interest and downstream engagement. World images are the “book covers” in Meta Horizon, where accurate and exciting images can improve visits and time spent up to 40%. We have found that the closer the image is to the world experience, the more users will engage deeply. Focus on the following criteria:
+   - Accurate gameplay that portrays real examples of in-world action
+   - Accurate avatars, even when compared to more aesthetically pleasing avatars
+2. **Image A/B testing**: In the Developer Dashboard you can find the thumbnail A/B testing tool that allows you to upload an additional image and the system will test and provide results on which image drives more engagement. Given the impact that strong visuals can have on converting traffic, invest in testing different images to see what can be most appealing to grow your audience. You may want to test different examples of in-world action, different colors, brighter vs darker, logo styles. See documentation on [thumbnail A/B testing](Thumbnail%20A-B%20testing%20tool.md).
+3. **Multiple image upload**: You will soon be able to upload 3 different image sizes for portrait, landscape, and square (16:9, 9:16, 1:1), which will map to the sizes used across different surfaces. It is imperative to design for these sizes to put your best foot forward, as square images (1:1) do not look appealing when cropped to another size like 16:9 (and vice versa). Poor cropping can significantly impair clicks and visits.
+4. **\[Coming soon] World videos**: Along with your thumbnails, you will soon be able to upload videos, which have also been validated to be one of the strongest levers for world engagement (even stronger than images). The above principles apply on accuracy for quality engagement.
 
 ![Image shows two screenshots side by side, with the right image displaying a green checkmark noting it as the correct option](../_assets/images/e9dfce78c2b144fe85b8b83a606bfa201c1b3ec34e9d64d888be9cb5d67c82c0.png)*Kawaii Grocery before vs after, with testing showing significant improvement on traffic and visits*
 
 Provide all the metadata requests for the system to accurately understand your world:
 
-- **Title**: Ensure it is accurate, and be wary of long titles that could get cut off especially on smaller surfaces like mobile.
-- **Description**: Many users will review the world details pages before visiting the world. Give informative and relevant descriptions so they understand what the experience is and how to interact in the world.
-- **Genres**: While only 1 is required, providing 3 accurate tags will help users more quickly understand their interest and help the system distribute your world in relevant places. However, inaccurate genre tags can mislead users with high drop-offs that hurt engagement metrics used to rank your world and also muddy how the system understands your world.
+1. **Title**: Ensure it is accurate, and be wary of long titles that could get cut off especially on smaller surfaces like mobile.
+2. **Description**: Many users will review the world details pages before visiting the world. Give informative and relevant descriptions so they understand what the experience is and how to interact in the world.
+3. **Genres**: While only 1 is required, providing 3 accurate tags will help users more quickly understand their interest and help the system distribute your world in relevant places. However, inaccurate genre tags can mislead users with high drop-offs that hurt engagement metrics used to rank your world and also muddy how the system understands your world.
 
 ![Image shows a world page with all of the metadata filled in](../_assets/images/949b9ce714f5a6b4f2b11174196f63658ad5d31d693309a08a9636db47cefe29.png)*Horizon central with clear assets, tags, and descriptions*
 
-#### Visit quality: Hook and deepen engagement
+#### [Visit quality: Hook and deepen engagement](#visit-quality-hook-and-deepen-engagement)
 
-**Goal**: Help users to learn about your worlds and how to enjoy the fun experiences you have created, especially new users.
-**Measured by**: Time spent per visit, sustained visit rate (% of visits with timespent more than 5 minutes in VR and 2 minutes on mobile).
-**Best practices**: Optimize the new user experience for a sustained first-time visit to your world.
+**Goal**: Help users to learn about your worlds and how to enjoy the fun experiences you have created, especially new users. **Measured by**: Time spent per visit, sustained visit rate (% of visits with timespent more than 5 minutes in VR and 2 minutes on mobile). **Best practices**: Optimize the new user experience for a sustained first-time visit to your world.
 
-- **Instructions**: Helpful and clear directions or tutorials on what to do on their first visit that is easily accessible from the spawn point. The showInfoSlides API for typescript is an easy way to do this for mobile users.
-- **Multiplayer**: If your world is best played with other people, provide some things to do solo as well while the user is waiting for others to join or use [scripted NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs) to simulate other players. For worlds that have synchronous matches, use a lobby as a place where users can interact and queue up between matches.
+1. **Instructions**: Helpful and clear directions or tutorials on what to do on their first visit that is easily accessible from the spawn point. The showInfoSlides API for typescript is an easy way to do this for mobile users.
+2. **Multiplayer**: If your world is best played with other people, provide some things to do solo as well while the user is waiting for others to join or use [scripted NPCs](https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/npcs/scripted-avatar-npcs/getting-started-with-scripted-avatar-npcs) to simulate other players. For worlds that have synchronous matches, use a lobby as a place where users can interact and queue up between matches.
 
 ![Image shows an example world with a tutorial pop-up window directing the player to the next goal](../_assets/images/06773a7cd30ce7328513eb6fc8a4c265618b83da6fd0663eb4a6661742246cad.png)*Shovel Up features new user onboarding with tutorials on what actions to take next*
 
-#### Repeat consumption: Drive retention
+#### [Repeat consumption: Drive retention](#repeat-consumption-drive-retention)
 
-**Goal**: Build content and mechanisms to give users a reason to come back to your world.
-**Measured by**: Retention of users in world, timespent per monthly active user.
-**Best practices**: Design an in-depth experience in your world and provide reasons for users to stay in your worlds and have fun for an extended time. We’ve built a suite of features you can implement in your worlds to engage your audience.
+**Goal**: Build content and mechanisms to give users a reason to come back to your world. **Measured by**: Retention of users in world, timespent per monthly active user. **Best practices**: Design an in-depth experience in your world and provide reasons for users to stay in your worlds and have fun for an extended time. We’ve built a suite of features you can implement in your worlds to engage your audience.
 
-- **Persistent variables**: Persistent variables let you provide permanent progression to users that persists between sessions in your world, creating a deeper experience. See more documentation on [persistent variables](../Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md).
-- **Quests**: Quests allow you to build achievements on top of persistent variables in ways that can be surfaced within the world (and outside of it). This gives users something to do and gives a sense of accomplishment in their first few moments within your world, and a reason to keep engaging in your world. See more documentation on [quests](../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Quests%20Overview.md).
-- **Leaderboards**: Leaderboards allow you to automatically enter users into a score-based competition. This gives your content repeatability and a reason to keep playing, even if the gameplay is shallow. Reset your leaderboards at a regular interval to keep users motivated to come back and get back on the leaderboard. See more documentation on [leaderboards](../Desktop%20editor/Quests,%20leaderboards,%20and%20variable%20groups/Leaderboard%20Reset%20Frequency.md).
+1. **Persistent variables**: Persistent variables let you provide permanent progression to users that persists between sessions in your world, creating a deeper experience. See more documentation on [persistent variables](../Scripting/Get%20started%20with%20TypeScript/Object%20Type%20Persistent%20Variables.md).
+2. **Quests**: Quests allow you to build achievements on top of persistent variables in ways that can be surfaced within the world (and outside of it). This gives users something to do and gives a sense of accomplishment in their first few moments within your world, and a reason to keep engaging in your world. See more documentation on [quests](../Desktop%20editor/Quests%2C%20leaderboards%2C%20and%20variable%20groups/Quests%20Overview.md).
+3. **Leaderboards**: Leaderboards allow you to automatically enter users into a score-based competition. This gives your content repeatability and a reason to keep playing, even if the gameplay is shallow. Reset your leaderboards at a regular interval to keep users motivated to come back and get back on the leaderboard. See more documentation on [leaderboards](../Desktop%20editor/Quests%2C%20leaderboards%2C%20and%20variable%20groups/Leaderboard%20Reset%20Frequency.md).
 
 Maintain live operations of your world to consistently give users new reasons to come back.
 
-- **World updates**: Actively maintain your worlds with fixes and new content to give users the feeling that it’s worth re-visiting time and time again.
-- **Return game mechanics**: Integrate game mechanics that encourage users to come back periodically to make progress or collect rewards (e.g. daily log-in rewards).
-- **[Events](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/creating-events/)** (currently available to Meta Horizon Creator Program members, [join now](https://developers.meta.com/horizon-worlds/programs)!): Host events in your world so users have fresh activities to do in your world. By hosting an event, users can subscribe and receive notifications to come back to your world. It also gives surfacing to your world in event shelves. When users have good experiences with your world’s events, they’ll subscribe to attend more, which creates a positive cycle of engagement and retention.
-- **Save**: Help users come back to your world by encouraging them to save your world, which will help them to find your world again in the **Saved** entrypoint or shelf. Your world will also be eligible to be surfaced when we recommend content from a user’s list of saved worlds. You can do this via giving instructions in the world or by utilizing the save gizmo.
+1. **World updates**: Actively maintain your worlds with fixes and new content to give users the feeling that it’s worth re-visiting time and time again.
+2. **Return game mechanics**: Integrate game mechanics that encourage users to come back periodically to make progress or collect rewards (e.g. daily log-in rewards).
+3. **[Events](https://developers.meta.com/horizon-worlds/learn/documentation/save-optimize-and-publish/creating-events/)** (currently available to Meta Horizon Creator Program members, [join now](https://developers.meta.com/horizon-worlds/programs)!): Host events in your world so users have fresh activities to do in your world. By hosting an event, users can subscribe and receive notifications to come back to your world. It also gives surfacing to your world in event shelves. When users have good experiences with your world’s events, they’ll subscribe to attend more, which creates a positive cycle of engagement and retention.
+4. **Save**: Help users come back to your world by encouraging them to save your world, which will help them to find your world again in the **Saved** entrypoint or shelf. Your world will also be eligible to be surfaced when we recommend content from a user’s list of saved worlds. You can do this via giving instructions in the world or by utilizing the save gizmo.
 
 ![Image shows the world listing for Bobber bay, including a note of recent updates](../_assets/images/487e50c74f1b5c72404155b540a68f37e470887a5245d009609b97f6e705c9ff.png)*Bobber Bay Fishing does regular updates on new content*
 
 ![Image shows an example leaderboard](../_assets/images/0ae48e0c7e153205880d0621859482ebc4850acc6fc7738d126293fc1ecfe3fa.png)*Super Rumble implements a leaderboard for users to compete around*
 
-#### Technical performance: Target performance benchmarks
+#### [Technical performance: Target performance benchmarks](#technical-performance-target-performance-benchmarks)
 
-**Goal**: No significant technical barriers to enjoying the world.
-**Measured by**: Frame rate, crash rate.
-**Best practices**: Technical performance impacts your success in the discovery system, especially frame rate and crash rate. Here are some technical benchmarks to shoot for:
+**Goal**: No significant technical barriers to enjoying the world. **Measured by**: Frame rate, crash rate. **Best practices**: Technical performance impacts your success in the discovery system, especially frame rate and crash rate. Here are some technical benchmarks to shoot for:
 
-- Frame rate: above 60 Frame Per Second (FPS P25);
-- Crash rate: less than 5% crash rate.
+1. Frame rate: above 60 Frame Per Second (FPS P25);
+2. Crash rate: less than 5% crash rate.
 
 We provide tools in the editor to test and optimize the performance of your worlds. Get more guidance on performance [here](../Performance/Introduction%20to%20performance%20optimization.md).
 
-## How else does Meta help you to increase your world’s discovery?
+## [How else does Meta help you to increase your world’s discovery?](#how-else-does-meta-help-you-to-increase-your-worlds-discovery)
 
 There are opportunities for worlds to be featured in Meta-led promotions and other curated experiences, such as:
 
-- Promotion of worlds on Meta Horizon app, Quest headsets and Meta FoA.
-- Meta Horizon social posts, website, blog, email newsletters.
-- Featuring as a [creator success story](https://developers.meta.com/horizon/discover/success-stories/spin-the-bottle).
-- Promotion of winners from Meta-sponsored creator competitions or challenges.
+1. Promotion of worlds on Meta Horizon app, Quest headsets and Meta FoA.
+2. Meta Horizon social posts, website, blog, email newsletters.
+3. Featuring as a [creator success story](https://developers.meta.com/horizon/discover/success-stories/spin-the-bottle).
+4. Promotion of winners from Meta-sponsored creator competitions or challenges.
 
 What can creators do to improve your chances of being considered?
 
-- Broadly appealing content (themes, gameplay, assets) that meet [Worlds content guidelines](Worlds%20content%20guidelines.md), make sure you [fill in your world’s intended audience](Providing%20your%20intended%20world%20audience%20when%20publishing.md) in the world rating survey.
-- Create high-quality key art and video assets (16:9, 9:16, 1:1).
-- Ensure that worlds are accessible and “fast to fun” for new users.
-- Integrate persistent variables, quests and leaderboards.
-- Demonstrated a track record of investment in updates and live operations.
+1. Broadly appealing content (themes, gameplay, assets) that meet [Worlds content guidelines](Worlds%20content%20guidelines.md), make sure you [fill in your world’s intended audience](Providing%20your%20intended%20world%20audience%20when%20publishing.md) in the world rating survey.
+2. Create high-quality key art and video assets (16:9, 9:16, 1:1).
+3. Ensure that worlds are accessible and “fast to fun” for new users.
+4. Integrate persistent variables, quests and leaderboards.
+5. Demonstrated a track record of investment in updates and live operations.
 
 As you continuously optimize your worlds for better discovery, make sure to leverage the [Worlds analytics tool](../Performance/Analytics/World%20Analytics.md) to monitor performance and insights about your worlds and the progress you’ve made.
+

@@ -2,23 +2,23 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/trailfx-gizmo
 ---
 
-# TrailFx gizmo
+# [TrailFx gizmo](#trailfx-gizmo)
 
 The TrailFx [gizmo](About%20gizmos.md) is a tool designed to simplify the addition of visual effects, specifically trailing effects to moving objects in a virtual world. When the TrailFX gizmo is active, it creates a visual trail that follows the gizmo as it moves. This gizmo is intended to enhance the visual effects, making worlds more immersive and engaging.
 
-## Limitations
+## [Limitations](#limitations)
 
 There are [limitations](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#trailfx-gizmo) to the TrailFx gizmo. Using it sparingly to avoid [performance](../Performance/Performance%20best%20practices/CPU%20and%20TypeScript%20optimization%20and%20best%20practices.md) issues is recommended.
 
-## Access the TrailFx gizmo
+## [Access the TrailFx gizmo](#access-the-trailfx-gizmo)
 
 While you can access and configure the gizmos in the [VR tool](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the following steps show you how to access the TrailFx gizmo from the desktop editor and add it to the [scene pane](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#scene-pane).
 
-- In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “trailfx” in the search field.
-- Select the TrailFx gizmo and drag it into the scene.
-- You can now edit the new gizmo properties in the [**Properties panel**](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
+1. In the desktop editor while in the Build mode, select **Build** > **Gizmos** from the menu bar, search for “trailfx” in the search field.
+2. Select the TrailFx gizmo and drag it into the scene.
+3. You can now edit the new gizmo properties in the [**Properties panel**](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Panels%20and%20Tabs%20in%20the%20desktop%20editor.md#properties-pane).
 
-## Properties
+## [Properties](#properties)
 
 The TrailFx gizmo is an entity. All objects in a world are represented by entities. [Entities](../Reference/core/Classes/Entity.md) have their respective properties such as position, rotation, and scale. In the **Properties** panel, you can edit the gizmo’s transformation fields to configure its **Position**, **Rotation**, and **Scale**.
 
@@ -44,13 +44,14 @@ The following images show the TrailFx gizmo at work while you’re in the [Previ
 
 ![The TrailFx gizmo in the Preview mode](../_assets/images/b702706eb4381939e8fdd31b4cbc6fd6d584cbb7e44597666b8b0f434bf64cb1.png)
 
-## Scripting
+## [Scripting](#scripting)
 
 To customize the TrailFx gizmo through scripting, see the [TrailGizmo](../Reference/core/Classes/TrailGizmo.md) API.
 
-## What’s next?
+## [What’s next?](#whats-next)
 
 Now that you’ve been introduced to the TrailFx gizmo, further your learning with related developer guides:
 
-* [Meta Horizon Creator Program’s creator manual on the TrailFx gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#trailfx-gizmo)
-* [Batting cage](../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)
+- [Meta Horizon Creator Program’s creator manual on the TrailFx gizmo](https://github.com/MHCPCreators/horizonCreatorManual/blob/main/HorizonTechnicalDoc.md#trailfx-gizmo)
+- [Batting cage](../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md)
+

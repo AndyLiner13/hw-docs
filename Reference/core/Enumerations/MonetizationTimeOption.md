@@ -2,20 +2,26 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_monetizationtimeoption
 ---
 
-# MonetizationTimeOption Enum
+# [MonetizationTimeOption Enum](#monetizationtimeoption-enum)
 
 Indicates how to display time in a world using the monetary gizmo.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum MonetizationTimeOption
+export
+ declare 
+enum
+ 
+MonetizationTimeOption
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| Days | `"DAYS"` | The time is displayed in days. |
-| Hours | `"HOURS"` | The time is displayed in hours. |
+| Member  | Value       | Description                       |
+| ------- | ----------- | --------------------------------- |
+| Days    | `"DAYS"`    | The time is displayed in days.    |
+| Hours   | `"HOURS"`   | The time is displayed in hours.   |
 | Seconds | `"SECONDS"` | The time is displayed in seconds. |
+

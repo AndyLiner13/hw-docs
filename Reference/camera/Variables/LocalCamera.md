@@ -2,12 +2,16 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_localcamera
 ---
 
-# LocalCamera Variable
+# [LocalCamera Variable](#localcamera-variable)
 
 Global camera instance.
 
-## Signature
+## [Signature](#signature)
 
 ```
-LocalCamera: Camera
+LocalCamera
+:
+ 
+Camera
 ```
+

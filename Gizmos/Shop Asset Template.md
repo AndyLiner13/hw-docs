@@ -2,13 +2,13 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/shop-asset-template
 ---
 
-# Shop Asset Template
+# [Shop Asset Template](#shop-asset-template)
 
 ![Shop Asset Template](../_assets/images/1ffb15a778f70278a895fe63408f8faddec7e8499f5c3c656818aca356a400b7.png)
 
-Note
-
-You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](../MHCP%20program/Monetization/Monetization%20opportunities.md).
+> [!Note]
+>
+> You will need to be a member of MHCP and have accepted the terms in the Developer Dashboard in order to create in-world items and currency. Find out more about monetization [here](../MHCP%20program/Monetization/Monetization%20opportunities.md).
 
 The Shop Asset Template allows users to trade Meta credits and in-world items for other in-world items.
 
@@ -16,31 +16,31 @@ The Shop Asset Template can be configured to display in-world items created in t
 
 Behind the scenes, the world inventory stores how many of each in-world item is owned by each player. While the shop interfaces with the world inventory automatically, you can use [World Inventory TypeScript APIs](../Reference/core/Classes/WorldInventory.md) to manually query, grant, and consume in-world items in a player’s world inventory.
 
-## Access the Shop Asset Template
+## [Access the Shop Asset Template](#access-the-shop-asset-template)
 
 To access the Shop Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Shop” in the search field. Finally, select the Shop Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
 ![Finding the Shop Asset Template](../_assets/images/8808e5323f1795fa7cacaa936c0e21513050c7c37ebe79cad9cf5b8841ccde07.png)
 
-## Shop Asset Template properties
+## [Shop Asset Template properties](#shop-asset-template-properties)
 
 The Shop Asset Template properties can be configured in the **Properties** panel or through scripting.
 
-### Visual and interaction
+### [Visual and interaction](#visual-and-interaction)
 
 Here you can change the following:
 
-* **Id**: Id of the Shop. Used to differentiate between multiple shops in the same world.
-* **Displayed Title**: Name of the shop, which is displayed in the top-left corner of the shop UI.
-* **Displayed Title Icon**: Select an icon to display next to the shop title.
-* **Soft Currency SKU**: The SKU of the soft currency used to purchase items from this shop. This is used to display the amount of soft currency a player has available to purchase items from this shop.
-* **Soft Currency Thumbnail**: The thumbnail of the soft currency used to purchase items from this shop. This is used to display the amount of soft currency a player has available to purchase items from this shop.
-* **Item SKU**: The SKU of an item you want to sell in this shop.
-* **Item Thumbnail**: The thumbnail of an item you want to sell in this shop.
-* **Item Cost SKU**: The SKU of the currency used to purchase this item. Leave it blank if you want to sell this item with Meta credits.
-* **Item Cost Quantity**: The quantity of the currency used to purchase this item. Leave it blank if you want to sell this item with Meta credits.
+- **Id**: Id of the Shop. Used to differentiate between multiple shops in the same world.
+- **Displayed Title**: Name of the shop, which is displayed in the top-left corner of the shop UI.
+- **Displayed Title Icon**: Select an icon to display next to the shop title.
+- **Soft Currency SKU**: The SKU of the soft currency used to purchase items from this shop. This is used to display the amount of soft currency a player has available to purchase items from this shop.
+- **Soft Currency Thumbnail**: The thumbnail of the soft currency used to purchase items from this shop. This is used to display the amount of soft currency a player has available to purchase items from this shop.
+- **Item SKU**: The SKU of an item you want to sell in this shop.
+- **Item Thumbnail**: The thumbnail of an item you want to sell in this shop.
+- **Item Cost SKU**: The SKU of the currency used to purchase this item. Leave it blank if you want to sell this item with Meta credits.
+- **Item Cost Quantity**: The quantity of the currency used to purchase this item. Leave it blank if you want to sell this item with Meta credits.
 
-### Shop items
+### [Shop items](#shop-items)
 
 To use the Shop Asset Template, you will need to create in-world items through the **Systems > Commerce** menu. Once you have done this, you can add these items to the shop using the Shop Asset Template properties.
 
@@ -48,11 +48,12 @@ You can use the Shop Asset Template properties to configure which in-world items
 
 For example, let’s say a world features two in-world items, “Apple Pies” and “Gems,” which have been configured. It is possible to enable your player to swap 10 Apple Pies for 1 Gem with the following settings:
 
-* Item 1: Gem
-* Quantity: 1
-* Cost SKU: Apple Pie
-* Cost Quantity: 10
+- Item 1: Gem
+- Quantity: 1
+- Cost SKU: Apple Pie
+- Cost Quantity: 10
 
-## Scripting
+## [Scripting](#scripting)
 
 You can interface with the Shop Asset Template directly through TypeScript and fully customize the shop’s behavior. Please refer to the [World Inventory TypeScript APIs](https://developers.meta.com/horizon-worlds/reference/2.0.0/experimental_worldinventory) documentation for more information on the economy APIs.
+

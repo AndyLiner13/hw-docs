@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/code-blocks-and-gizmos/about-gizmos
 ---
 
-# About gizmos
+# [About gizmos](#about-gizmos)
 
 In Meta Horizon Worlds, gizmos are helper tools that you, as a creator, can use to enhance the creation and interactivity of worlds. These gizmos feature a range of functionalities such as controlling player spawn points, adding dynamic lights, creating custom skyboxes, and more. Additionally, gizmos can be used to implement interactive elements like raycasts, particle effects, and doors.
 
@@ -18,9 +18,10 @@ Tutorial worlds are finished worlds with fully functional compiled scripts. Afte
 
 As you explore the tutorial worlds, use the [companion documentation of these tutorial worlds](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md) for a more in-depth explanation.
 
-## What’s next?
+## [What’s next?](#whats-next)
 
 Try the following topics:
 
-* [Use TypeScript in Meta Horizon Worlds](../Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md)
-* [Text gizmos](Text%20gizmo.md)
+- [Use TypeScript in Meta Horizon Worlds](../Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md)
+- [Text gizmos](Text%20gizmo.md)
+

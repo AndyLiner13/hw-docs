@@ -2,9 +2,9 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/multiplayer-lobby-tutorial/module-5-entering-the-match
 ---
 
-# Module 5 - Entering the Match
+# [Module 5 - Entering the Match](#module-5---entering-the-match)
 
-## Spawn Points
+## [Spawn Points](#spawn-points)
 
 There are many ways to move or teleport players. While you could simply update their position, the **Spawn Point** gizmo may be better for our case. Spawn Points provide a nice fade-out/fade-in transition that improves teleporting comfort.
 
@@ -14,8 +14,8 @@ Open the **Gizmos** panel and click the **Spawn Point** gizmo. A new spawn point
 
 In the main window, click the new spawn point to select it. In the **Properties** panel:
 
-* Rename this entity to “Match Spawn Point”
-* Turn off the **Spawn on start** property, which disables use of the spawn point for players entering the game.
+- Rename this entity to “Match Spawn Point”
+- Turn off the **Spawn on start** property, which disables use of the spawn point for players entering the game.
 
 ![Image shows an example of the Properties panel](../../../_assets/images/454d9c6dddb647d48f50648867e077db5108fd74a2938bffcf5793ca8b8ec591.png)
 
@@ -27,25 +27,25 @@ In this case, the **PlayerManager** script is being updated, which is attached t
 
 In the **PlayerManager** script, replace:
 
-```
-// TODO: create a prop for the Match Spawn Point
+```typescript
+// TODO: create a prop for the Match Spawn Point
 ```
 
 With:
 
-```
-matchSpawnPoint: { type: hz.PropTypes.Entity },
+```typescript
+matchSpawnPoint: { type: hz.PropTypes.Entity },
 ```
 
-- Save the script.
-- Return to the desktop editor.
-- In the main window or the Hierarchy panel, select the **Player Manager Object**.
-- In the Properties panel, locate the Script sub-panel.
-- Update the new matchSpawnPoint property field with the **Match Spawn Point** entity in the first available field.
+1. Save the script.
+2. Return to the desktop editor.
+3. In the main window or the Hierarchy panel, select the **Player Manager Object**.
+4. In the Properties panel, locate the Script sub-panel.
+5. Update the new matchSpawnPoint property field with the **Match Spawn Point** entity in the first available field.
 
 ![Image shows the script sub-panel](../../../_assets/images/f2a4a4575909edb004a7b8fb840f146cee614916cda9edb2a4375a708967c78e.png)
 
-## Respawning players in a new location
+## [Respawning players in a new location](#respawning-players-in-a-new-location)
 
 The final step is to perform the teleporting of players after the countdown completes. We do that using TypeScript.
 
@@ -53,15 +53,15 @@ The provided countdown timer in the **GameManager** script is updating the game 
 
 In the **PlayerManager** script, replace:
 
-```
-// TODO: if "fromState" was "Starting", move all players to the match area
+```typescript
+// TODO: if "fromState" was "Starting", move all players to the match area
 ```
 
 With:
 
-```
-if (fromState === GameState.Starting) {
-  this.moveAllLobbyPlayersToMatch();
+```typescript
+if (fromState === GameState.Starting) {
+  this.moveAllLobbyPlayersToMatch();
 }
 ```
 
@@ -73,46 +73,47 @@ For example, if Meta Horizon Worlds is working with an audio file object, it can
 
 In the **PlayerManager** script, the matchSpawnPoint property is cast as a Spawn Point gizmo. Replace:
 
-```
-// TODO: respawn the player at the Match Spawn Point location
+```typescript
+// TODO: respawn the player at the Match Spawn Point location
 ```
 
 With:
 
-```
-(this.props.matchSpawnPoint as any).as(hz.SpawnPointGizmo).teleportPlayer(player);
+```typescript
+(this.props.matchSpawnPoint as any).as(hz.SpawnPointGizmo).teleportPlayer(player);
 ```
 
 The keyword **as** casts the property value to the specified Meta Horizon Worlds object type, through which the teleportPlayer method can be accessed.
 
 Now, replace:
 
-```
-// TODO: update lobby MatchPlayers
+```typescript
+// TODO: update lobby MatchPlayers
 ```
 
 with:
 
-```
+```typescript
 this.matchPlayers.moveToMatch(player);
 ```
 
 The above code updates the data sets and ensures the game knows the accurate status of every player.
 
-## Testing
+## [Testing](#testing)
 
 You can now test to see if multiple players can be moved from the lobby into the game.
 
-- Enter the world in Visit mode.
-- Have players enter Visit mode, if desired.
-- Move to the Start Game platform.
-- A countdown timer should display.
-- Once the counter reaches 0, everyone should be teleported to the spawn point that you placed in the game space.
+1. Enter the world in Visit mode.
+2. Have players enter Visit mode, if desired.
+3. Move to the Start Game platform.
+4. A countdown timer should display.
+5. Once the counter reaches 0, everyone should be teleported to the spawn point that you placed in the game space.
 
-## Checkpoint
+## [Checkpoint](#checkpoint)
 
 In this module, you:
 
-* Added a second spawn point to a world
-* Learned about casting entities as gizmo types
-* Teleported players
+- Added a second spawn point to a world
+- Learned about casting entities as gizmo types
+- Teleported players
+

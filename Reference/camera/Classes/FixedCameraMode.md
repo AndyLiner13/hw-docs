@@ -2,18 +2,28 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_fixedcameramode
 ---
 
-# FixedCameraMode Class
+# [FixedCameraMode Class](#fixedcameramode-class)
 
 Extends *[ICameraMode](../Interfaces/ICameraMode.md)*
 
 Manipulates runtime properties of cameras in fixed camera mode, where the camera view is set to a fixed world position and rotation.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare class FixedCameraMode implements ICameraMode
+export
+ declare 
+class
+ 
+FixedCameraMode
+ 
+implements
+ 
+ICameraMode
+ 
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
 The [Camera.setCameraModeFixed()](Camera.md#setcameramodefixed) method enables fixed camera mode. For more information on setting camera modes at runtime, see the [Camera](../../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Camera.md) guide.
+

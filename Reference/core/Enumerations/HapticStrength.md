@@ -2,21 +2,27 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_hapticstrength
 ---
 
-# HapticStrength Enum
+# [HapticStrength Enum](#hapticstrength-enum)
 
 The strength of a haptic pulse.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum HapticStrength
+export
+ declare 
+enum
+ 
+HapticStrength
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| Light | `1` | The player is touching the controller and should fire a light haptic. |
-| Medium | `2` | The player is touching the controller and should fire a medium haptic. |
-| Strong | `3` | The player is touching the controller and should fire a strong haptic. |
-| VeryLight | `0` | The player is not touching the controller, so no haptic pulse will be fired. |
+| Member    | Value | Description                                                                  |
+| --------- | ----- | ---------------------------------------------------------------------------- |
+| Light     | `1`   | The player is touching the controller and should fire a light haptic.        |
+| Medium    | `2`   | The player is touching the controller and should fire a medium haptic.       |
+| Strong    | `3`   | The player is touching the controller and should fire a strong haptic.       |
+| VeryLight | `0`   | The player is not touching the controller, so no haptic pulse will be fired. |
+

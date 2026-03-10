@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_taskstepstartpayload
 ---
 
-# TaskStepStartPayload type
+# [TaskStepStartPayload type](#taskstepstartpayload-type)
 
 A payload sent by the `OnTaskStepStart` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type TaskStepStartPayload = FullTurboEventPayload<typeof OnTaskStepStart>;
+export
+ declare type 
+TaskStepStartPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnTaskStepStart
+>;
 ```
+

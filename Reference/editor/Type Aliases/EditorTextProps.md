@@ -2,22 +2,75 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editortextprops
 ---
 
-# EditorTextProps type
+# [EditorTextProps type](#editortextprops-type)
 
 The props of an [EditorText()](../Functions/EditorText.md) component.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type EditorTextProps = {
-    text?: Bindable<string>;
-    color?: Bindable<ColorValue>;
-    overflow?: 'wrap' | 'ellipsis';
-    textAlign?: 'auto' | 'left' | 'center' | 'right';
-    type?: TextType;
+export
+ declare type 
+EditorTextProps
+ 
+=
+ 
+{
+
+    text
+?:
+ 
+Bindable
+<string>
+;
+
+    color
+?:
+ 
+Bindable
+<
+ColorValue
+>;
+
+    overflow
+?:
+ 
+'wrap'
+ 
+|
+ 
+'ellipsis'
+;
+
+    textAlign
+?:
+ 
+'auto'
+ 
+|
+ 
+'left'
+ 
+|
+ 
+'center'
+ 
+|
+ 
+'right'
+;
+
+    type
+?:
+ 
+TextType
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [TextType](TextType.md)
+

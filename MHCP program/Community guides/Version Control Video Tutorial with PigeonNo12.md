@@ -2,9 +2,9 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-program/community-tutorials/version-control-video-tutorial-with-pigeonno12
 ---
 
-# Version Control Video Tutorial with PigeonNo12
+# [Version Control Video Tutorial with PigeonNo12](#version-control-video-tutorial-with-pigeonno12)
 
-[](https://video-dfw5-3.xx.fbcdn.net/v/t42.1790-2/453528678_8721657244517529_5214271437231748372_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=6500a6&_nc_ohc=3uKYTEerHkYQ7kNvwEiT_hg&_nc_oc=AdksWCFUMD-ZgMFuRwqoROm4GJwPldQvv43iCQEXG2Car4jkmrnfUCTWHMHw7jkQNWuDuJ_FIvigBsMcm96fPrVr&_nc_zt=28&_nc_ht=video-dfw5-3.xx&_nc_gid=5mkD7wR2xaXEFC7dHJjmxw&oh=00_Afqkp2N9JO8tq4AbnFqS4WPXEBciM2B_oICUJ1Qim-d-dA&oe=696FA4E0)
+<video controls></video><source src="(BROKEN_REF)" type="video/mp4">
 
 If you’re coding in TypeScript, Version Control is crucial to properly track edits, manage versioning, access code backups, and more.
 
@@ -12,104 +12,103 @@ Thankfully, PigeonNo12 has created an introductory TypeScript Version Control Gu
 
 Timestamps:
 
-[00:04] Introduction
+\[00:04] Introduction
 
-[00:13] What Is Source Control
+\[00:13] What Is Source Control
 
-[00:33] What You Will Learn
+\[00:33] What You Will Learn
 
-[00:54] Software Prerequisites
+\[00:54] Software Prerequisites
 
-[01:08] Skills Prerequisites
+\[01:08] Skills Prerequisites
 
-[01:24] Importance Of Source Control
+\[01:24] Importance Of Source Control
 
-[01:56] Initializing A Repository
+\[01:56] Initializing A Repository
 
-[02:37] Staging A Change
+\[02:37] Staging A Change
 
-[04:06] Committing A Change
+\[04:06] Committing A Change
 
-[05:32] Comparing And Restoring Versions
+\[05:32] Comparing And Restoring Versions
 
-[07:24] Next Steps
+\[07:24] Next Steps
 
-[07:44] Wrap Up
+\[07:44] Wrap Up
 
-## Introduction
+## [Introduction](#introduction)
 
-## Video time code [00:04]
+## [Video time code \[00:04\]](#video-time-code-0004)
 
-### Creator Skill Level
+### [Creator Skill Level](#creator-skill-level)
 
 Beginner/Entry Level Creators
 
-### Recommended Prerequisite Background Knowledge
+### [Recommended Prerequisite Background Knowledge](#recommended-prerequisite-background-knowledge)
 
 This guide is recommended for creators who use TypeScript, either fully or partially, to script interactions within a world.
 
 Readers should have a basic understanding of TypeScript, as this guide does not cover the basics of how TypeScript works.
 
-### Required Equipment
+### [Required Equipment](#required-equipment)
 
-* Meta Horizon Desktop Editor
-* Visual Studio Code (VSC) connected to the Meta Horizon Desktop Editor
-* Git
+- Meta Horizon Desktop Editor
+- Visual Studio Code (VSC) connected to the Meta Horizon Desktop Editor
+- Git
 
-### Description
+### [Description](#description)
 
 Source control, also known as version control, is a system that records changes to a set of files over time. This enables creators to track edits, compare different versions, and revert to earlier versions as necessary, functioning like a time machine for file management.
 
 Please use the companion video and the timestamps provided to follow along with MHCP Mentor, PigeonNo12, for additional assistance.
 
-### Learning Objectives
+### [Learning Objectives](#learning-objectives)
 
-* Understand the fundamentals of source control in the context of Typescript development in Meta Horizon Worlds.
-* Evaluate basic features and workflows of Git + Visual Studio Code to determine the best fit for world creation projects in Horizon Words.
+- Understand the fundamentals of source control in the context of Typescript development in Meta Horizon Worlds.
+- Evaluate basic features and workflows of Git + Visual Studio Code to determine the best fit for world creation projects in Horizon Words.
 
 *------------------------------------------------------*
 
-## What Is Source Control?
+## [What Is Source Control?](#what-is-source-control)
 
-## Video Time Code [00:11]
+## [Video Time Code \[00:11\]](#video-time-code-0011)
 
 Source control, also known as version control or revision control, is a system that manages changes to the content of a collection of files over time. It enables creators to track edits, compare different versions, and revert to earlier versions as necessary. Essentially, source control functions like a time machine for file management.
 
-### The Importance of Source Control
+### [The Importance of Source Control](#the-importance-of-source-control)
 
 Source control is crucial for several reasons:
 
-* **Version Tracking** : Source control enables creators to track changes made to TypeScript files over time. This allows them to understand the evolution of the code, and when those changes were made.
-* **Collaboration** : Source control provides mechanisms for managing concurrent changes, preventing conflicts, and facilitating collaboration among multiple creators.
-* **Risk Mitigation** : By maintaining a history of changes, source control provides a safety net for creators. If an error is introduced or a feature breaks, creators can easily revert to a previous working version.
-* **Experimentation** : Source control systems allow developers to create “branches”, which are separate versions of the code. This enables experimentation with new features or fixes without impacting the main code.
-* **Code Integrity and Quality** : Source control encourages best practices such as code review, and testing.
+- **Version Tracking** : Source control enables creators to track changes made to TypeScript files over time. This allows them to understand the evolution of the code, and when those changes were made.
+- **Collaboration** : Source control provides mechanisms for managing concurrent changes, preventing conflicts, and facilitating collaboration among multiple creators.
+- **Risk Mitigation** : By maintaining a history of changes, source control provides a safety net for creators. If an error is introduced or a feature breaks, creators can easily revert to a previous working version.
+- **Experimentation** : Source control systems allow developers to create “branches”, which are separate versions of the code. This enables experimentation with new features or fixes without impacting the main code.
+- **Code Integrity and Quality** : Source control encourages best practices such as code review, and testing.
 
-## Prerequisite Installation and Configuration
+## [Prerequisite Installation and Configuration](#prerequisite-installation-and-configuration)
 
-## Video Time Code [00:56]
+## [Video Time Code \[00:56\]](#video-time-code-0056)
 
-### Installing Git
+### [Installing Git](#installing-git)
 
 In order to follow along with this guide, it’s required to have Git installed. Git can be downloaded from [Git - Downloading Package (git-scm.com)](https://git-scm.com/download/win). After downloading the version that matches your operating system, install it by following the default installation steps.
 
-### Configuring Git in VS Code
+### [Configuring Git in VS Code](#configuring-git-in-vs-code)
 
 After successfully installing Git on your machine, no additional steps are required to use source control in Visual Studio Code.
 
-## Initializing a Repository
+## [Initializing a Repository](#initializing-a-repository)
 
-## Video Time Code [02:00]
+## [Video Time Code \[02:00\]](#video-time-code-0200)
 
 Visual Studio Code provides easy integration of Source Control in your TypeScript projects. To initialize a repository simply follow the steps below:
 
-- In Visual Code Studio, navigate to the “View” menu. From there, select the “Source Control” option to begin the process.
-  ![](../../_assets/images/1379c4a2d60255000073d923914caed097ec6016f407125ef97c24290efb332b.png)
-- Once in the “Source Control” tab, click on the “Initialize Repository” button. Git will then detect all files in your project and display them for your review. You can then stage the files you want to include in your repository by selecting them. Staging files prepares them for commitment to your backup or source control repository. ![](../../_assets/images/d4eb7e9389e5c637136d297be465328cd321b2365033941c36d6dafc81dfaa05.png)![](../../_assets/images/4be51f793c1c227d97336073634774589fed17ee88cb7e4bf6657ecd1555c15a.png)
+1. In Visual Code Studio, navigate to the “View” menu. From there, select the “Source Control” option to begin the process. ![](../../_assets/images/1379c4a2d60255000073d923914caed097ec6016f407125ef97c24290efb332b.png)
+2. Once in the “Source Control” tab, click on the “Initialize Repository” button. Git will then detect all files in your project and display them for your review. You can then stage the files you want to include in your repository by selecting them. Staging files prepares them for commitment to your backup or source control repository. ![](../../_assets/images/d4eb7e9389e5c637136d297be465328cd321b2365033941c36d6dafc81dfaa05.png)![](../../_assets/images/4be51f793c1c227d97336073634774589fed17ee88cb7e4bf6657ecd1555c15a.png)
 
-## Staging a Change
+## [Staging a Change](#staging-a-change)
 
-## Video Time Code [02:38]
+## [Video Time Code \[02:38\]](#video-time-code-0238)
 
 Staging a change allows you to select which scripts to include in your next snapshot of your world before saving them in your repository. This process helps you organize your changes before officially saving them, ensuring you only save what you need and nothing extra.
 
@@ -123,9 +122,9 @@ To remove the files from the staging state, select the subtraction (-) symbol ne
 
 ![](../../_assets/images/e369a584a0748d0ad7776b7996ce4ed7ccce2c1034e9a635dd209ad6f43d8b9e.png)
 
-## Committing a Change
+## [Committing a Change](#committing-a-change)
 
-## Video Time Code [04:05]
+## [Video Time Code \[04:05\]](#video-time-code-0405)
 
 When you commit a change in source control, you’re saving the changes you’ve made to your project. This creates a new checkpoint or snapshot of your work, making sure that your progress is safely stored and allowing you to track the history of your project over time.
 
@@ -133,9 +132,9 @@ To commit a change in Visual Studio Code, enter a brief description of the chang
 
 ![](../../_assets/images/674fffbbde313ed4291a3f11433b72555ac370779024aef13c8922070f70b17c.png)
 
-## Comparing and Restoring Versions
+## [Comparing and Restoring Versions](#comparing-and-restoring-versions)
 
-## Video Time Code [05:32]
+## [Video Time Code \[05:32\]](#video-time-code-0532)
 
 The importance of source control is the ability to revert to a prior state of your project, allowing you to compare your current files with earlier versions. To compare and restore versions, follow the steps below:
 
@@ -143,35 +142,36 @@ Go to the “View” menu and select “Explorer,” or click the icon that look
 
 ![](../../_assets/images/e759ae350008e6f3a7b88092daf7fbd725619c22af539414a53d271c374a3af6.png)
 
-## Comparing Versions
+## [Comparing Versions](#comparing-versions)
 
 To compare a file to a previous version in Visual Studio Code (VSC), follow these steps:
 
-- Select the file you want to restore.
-- In the bottom panel, you’ll find a section labeled “Timeline.” Here, you can choose the commit you wish to review or the desired checkpoint you want to restore.
-- Each commit is displayed with its associated comment, helping you identify specific versions.
-- When you select a checkpoint, VSC displays the changes made at that point. Additions to the code are highlighted in green, while deletions are marked in red.
+1. Select the file you want to restore.
+2. In the bottom panel, you’ll find a section labeled “Timeline.” Here, you can choose the commit you wish to review or the desired checkpoint you want to restore.
+3. Each commit is displayed with its associated comment, helping you identify specific versions.
+4. When you select a checkpoint, VSC displays the changes made at that point. Additions to the code are highlighted in green, while deletions are marked in red.
 
 ![](../../_assets/images/97cbd28ed1e5c0e8375a27e2d5f36dadcc4d88d55a0382524322425922ac304d.png)
 
-## Restoring Versions
+## [Restoring Versions](#restoring-versions)
 
 To restore a previous version in Visual Studio Code (VSC), follow these steps:
 
-- Select the desired commit, then highlight all the code (use Ctrl+A), copy it (Ctrl+C), return to your current file, select all existing code (Ctrl+A again), and paste the copied code (Ctrl+V).
-- Save the file to complete the restoration. For instance, if you want to revert to the original version of a file without any added comments, locate that commit in the Timeline, follow the same copy-paste process, and save. This will restore the file to its original state without the added comments.
-- After saving the file, make sure to commit the changes to git, to keep the repository updated with these changes
+1. Select the desired commit, then highlight all the code (use Ctrl+A), copy it (Ctrl+C), return to your current file, select all existing code (Ctrl+A again), and paste the copied code (Ctrl+V).
+2. Save the file to complete the restoration. For instance, if you want to revert to the original version of a file without any added comments, locate that commit in the Timeline, follow the same copy-paste process, and save. This will restore the file to its original state without the added comments.
+3. After saving the file, make sure to commit the changes to git, to keep the repository updated with these changes
 
-## Out-of-Scope World Changes Not Covered with Source Control
+## [Out-of-Scope World Changes Not Covered with Source Control](#out-of-scope-world-changes-not-covered-with-source-control)
 
-## Video Time Code [07:24]
+## [Video Time Code \[07:24\]](#video-time-code-0724)
 
 At this time (June 2024), Source Control only covers changes made to the TypeScript scripts. It doesn’t cover changes made in the world such as attaching scripts to objects or world design. For these changes, Meta Horizon has a backup system that creators can leverage to restore a prior state of the world.
 
-## Next Steps
+## [Next Steps](#next-steps)
 
 Visual Code Studio has some extensions/add-ins that could make the Source Control Workflow easier. We encourage you to explore these and evaluate which ones could benefit your process. Some examples are [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) and [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) .
 
-## Further Assistance
+## [Further Assistance](#further-assistance)
 
 For any questions or further assistance, creators are encouraged to join the discussion on the [Discord server](https://discord.com/channels/1033100463500963931/1033102315613343876) or to schedule a [mentor session](https://meta-horizon-creators.com/3Z2gRFH) for personalized guidance.
+

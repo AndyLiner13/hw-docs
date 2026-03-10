@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_taskstependpayload
 ---
 
-# TaskStepEndPayload type
+# [TaskStepEndPayload type](#taskstependpayload-type)
 
 A payload sent by the `OnTaskStepEnd` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type TaskStepEndPayload = FullTurboEventPayload<typeof OnTaskStepEnd>;
+export
+ declare type 
+TaskStepEndPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnTaskStepEnd
+>;
 ```
+

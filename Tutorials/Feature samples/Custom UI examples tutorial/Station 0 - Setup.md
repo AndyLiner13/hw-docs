@@ -2,13 +2,13 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-examples-tutorial/station-0-setup
 ---
 
-# Station 0 - Setup
+# [Station 0 - Setup](#station-0---setup)
 
 ![Custom UI Examples thumbnail](../../../_assets/images/cb72789128b2994df589cc16dbf4ff7e5e8ed7cf8aa58d7c9063687ec413f4a8.png)
 
-Important
-
- This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
+> [!Important]
+>
+> This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
 In this example world, we explore the core capabilities of custom UIs, which enable you to build custom 2D interfaces in your worlds.
 
@@ -18,87 +18,87 @@ This doc is intended to be a companion to the example world listed below.
 
 For platform documentation on custom UIs, see [Custom UI](../../../Desktop%20editor/Custom%20UI/Video%20presentation%20of%20creating%20performant%20custom%20UIs%20in%20Meta%20Horizon%20Worlds.md).
 
-## Before You Begin
+## [Before You Begin](#before-you-begin)
 
 Before you begin exploring this world, please verify that you have reviewed and met the prerequisites for access. See [Getting Started with Tutorials](../../Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md).
 
-### Enable Auto-start of the simulation
+### [Enable Auto-start of the simulation](#enable-auto-start-of-the-simulation)
 
 Custom UIs are generated entirely from TypeScript code. If Auto-start the simulation is disabled when you preview your world in desktop editor, no TypeScript code is executed, and all of your custom UIs are not visible.
 
 In the desktop editor, click the three-dot menu in the toolbar. Enable the following settings:
 
-* Auto-start simulation on Preview entry
-* Auto-stop simulation on Preview exit
+- Auto-start simulation on Preview entry
+- Auto-stop simulation on Preview exit
 
 ![Preview Configuration panel](../../../_assets/images/35cd36a3f965eaf7ffc15ffc7b8a6114bb3cf0baa8d83ebe439fa29bc0e761a7.png)
 
-## Overview
+## [Overview](#overview)
 
 This world is set up as a sequence of stations, each of which explore a different type of custom user interface (CustomUI). From each station, you can learn:
 
-* Elements of custom UIs
-* How to initialize custom UIs of different types
-* How to explore the APIs
-* How to organize your code
+- Elements of custom UIs
+- How to initialize custom UIs of different types
+- How to explore the APIs
+- How to organize your code
 
-### Usage
+### [Usage](#usage)
 
 In your world, you may need to display custom messaging to your visitors or to provide kiosk-style interactivity for selecting things from a screen. For example, you may need to deploy a custom UI to assist Players in outfitting themselves for exploring your world.
 
-#### Performance considerations
+#### [Performance considerations](#performance-considerations)
 
-* Try to keep the main thread CPU cost for a customUI:
-  + Local client: below 0.5ms per frame
-  + Server: below 1.5ms per frame
-* Minimize binding set calls.
-  + Binding `set()` method causes a ReactVR refresh.
-  + `set()` calls and callbacks are networked RPC events between client and server. Total time for each async operation is bound by network latency on the viewer.
+- Try to keep the main thread CPU cost for a customUI:
+  - Local client: below 0.5ms per frame
+  - Server: below 1.5ms per frame
+- Minimize binding set calls.
+  - Binding `set()` method causes a ReactVR refresh.
+  - `set()` calls and callbacks are networked RPC events between client and server. Total time for each async operation is bound by network latency on the viewer.
 
-### Elements
+### [Elements](#elements)
 
 A custom interface is composed of:
 
-* An instance of the Custom UI gizmo
-  + By default, this object has no visual appearance at runtime. All of its visual characteristics are defined through TypeScript.
-* An associated TypeScript script
-  + This defines the 2D panel, its elements, their styles, and any interactivity in the UI.
-* Any related assets, such as referenced objects, textures, audio, etc.
-  + The custom UI may reference or have effects on other elements in the world.
+- An instance of the Custom UI gizmo
+  - By default, this object has no visual appearance at runtime. All of its visual characteristics are defined through TypeScript.
+- An associated TypeScript script
+  - This defines the 2D panel, its elements, their styles, and any interactivity in the UI.
+- Any related assets, such as referenced objects, textures, audio, etc.
+  - The custom UI may reference or have effects on other elements in the world.
 
-### General Tips
+### [General Tips](#general-tips)
 
 There have been reported issues with performance of custom UI’s. The following tips have been provided to help with performance of your custom UI’s:
 
-* Avoid using or updating custom UIs in conjunction with the world.onUpdate event.
-* Avoid making updates to the display of the panel using for/next loops.
-* Each time that a panel is updated requires a network call.
-* Split multiple custom UIs across multiple Custom UI gizmos.
-* Try to make custom UIs as flat as possible.
-  + Every layer in a visible custom UI is rendered, even if it is not seen.
-  + Set panels that are not being shown to users to be invisible, which stops them from being rendered.
+- Avoid using or updating custom UIs in conjunction with the world.onUpdate event.
+- Avoid making updates to the display of the panel using for/next loops.
+- Each time that a panel is updated requires a network call.
+- Split multiple custom UIs across multiple Custom UI gizmos.
+- Try to make custom UIs as flat as possible.
+  - Every layer in a visible custom UI is rendered, even if it is not seen.
+  - Set panels that are not being shown to users to be invisible, which stops them from being rendered.
 
-## How to Use This World
+## [How to Use This World](#how-to-use-this-world)
 
 To explore the TypeScript of this Examples Tutorial, you should use the desktop editor, which allows you to use your integrated development environment and to explore all world scripts locally. You can also preview results on your desktop.
 
-### Create a copy
+### [Create a copy](#create-a-copy)
 
 Create a copy of this Examples Tutorial first. Then, you can modify the scripts as needed.
 
-You can create your own copy from the desktop editor or from the headset. For more information on this workflow, see
-[Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
+You can create your own copy from the desktop editor or from the headset. For more information on this workflow, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
-### Start at Station 1
+### [Start at Station 1](#start-at-station-1)
 
 These examples are separated into different stations. Station 1 represents the simplest example (font display), with each subsequent station adding more complexity or new customUI features.
 
 **Tip**: When you land in the world, Station 1 is to your left.
 
-### Review the Code
+### [Review the Code](#review-the-code)
 
 Comments in the code provide additional information on how to use it. If you’ve created a clone of the source world, you can modify the code to explore it further.
 
-### Use in Your World
+### [Use in Your World](#use-in-your-world)
 
 For more information on how to apply assets or scripts from this world to yours, see [Use Assets from Tutorials](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/getting-started-with-tutorials/use-assets-from-tutorials).
+

@@ -1,28 +1,52 @@
 ---
-source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshdetailedpath/
+source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshdetailedpath
 ---
 
-# NavMeshDetailedPath type
+# [NavMeshDetailedPath type](#navmeshdetailedpath-type)
 
 Defines the pathfinding calculation results for the [NavMesh.getPathAlongSurface](../Classes/NavMesh.md#getpathalongsurface) property. This contains slightly more information than the [NavMesh.getPath](../Classes/NavMesh.md#getpath) property.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type NavMeshDetailedPath = Omit<NavMeshPath, 'waypoints'> & {
-    waypoints: NavMeshWaypoint[];
+export
+ declare type 
+NavMeshDetailedPath
+ 
+=
+ 
+Omit
+<
+NavMeshPath
+,
+ 
+'waypoints'
+>
+ 
+&
+ 
+{
+
+    waypoints
+:
+ 
+NavMeshWaypoint
+[];
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [NavMeshPath](NavMeshPath.md), [NavMeshWaypoint](NavMeshWaypoint.md)
 
-## Remarks
+## [Remarks](#remarks)
 
-Variables:
-waypoints: The list of waypoints for the generated path. Contains position and normal data.
-startPos: The origin point for the generated path.
-endPos: The terminal point for the generated path. This might not be the same as the query destination.
-destinationPos: The requested terminal point for the generated path. This may not be reachable, and can differ from endPos.
+Variables:\
+waypoints: The list of waypoints for the generated path. Contains position and normal data.\
+startPos: The origin point for the generated path.\
+endPos: The terminal point for the generated path. This might not be the same as the query destination.\
+destinationPos: The requested terminal point for the generated path. This may not be reachable, and can differ from endPos.\
 pathReachesDestination: true if the endPos reaches the destinationPos, false if an incomplete path is returned.
+

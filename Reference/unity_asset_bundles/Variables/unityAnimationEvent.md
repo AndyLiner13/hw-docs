@@ -2,22 +2,38 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/unity_asset_bundles_unityanimationevent
 ---
 
-# unityAnimationEvent Variable
+# [unityAnimationEvent Variable](#unityanimationevent-variable)
 
 An animation event of the NetworkEvent type.
 
-## Signature
+## [Signature](#signature)
 
 ```
-unityAnimationEvent: NetworkEvent<{
-    eventName: string;
-    entityId: bigint;
+unityAnimationEvent
+:
+ 
+NetworkEvent
+<{
+
+    eventName
+:
+ 
+string
+;
+
+    entityId
+:
+ bigint
+;
+
+
 }>
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
-You can subscribe to this event using the method.
-Parameters:
-`eventName` - The name of the event.
+You can subscribe to this event using the method.\
+Parameters:\
+`eventName` - The name of the event.\
 `entityId` - The ID of the event.
+

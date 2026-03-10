@@ -2,24 +2,30 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/camera_cameramode
 ---
 
-# CameraMode Enum
+# [CameraMode Enum](#cameramode-enum)
 
 The view modes for cameras.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum CameraMode
+export
+ declare 
+enum
+ 
+CameraMode
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| Attach | `2` |  |
-| FirstPerson | `0` |  |
-| Fixed | `3` |  |
-| Follow | `6` |  |
-| Orbit | `4` |  |
-| Pan | `5` |  |
-| ThirdPerson | `1` |  |
+| Member      | Value | Description |
+| ----------- | ----- | ----------- |
+| Attach      | `2`   |             |
+| FirstPerson | `0`   |             |
+| Fixed       | `3`   |             |
+| Follow      | `6`   |             |
+| Orbit       | `4`   |             |
+| Pan         | `5`   |             |
+| ThirdPerson | `1`   |             |
+

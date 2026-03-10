@@ -2,22 +2,41 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_eventdata
 ---
 
-# EventData type
+# [EventData type](#eventdata-type)
 
 A set of key-value pairs that represent data for an analytics event.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type EventData = {
-    [key: string]: EventValueType;
+export
+ declare type 
+EventData
+ 
+=
+ 
+{
+
+    
+[
+key
+:
+ 
+string
+]:
+ 
+EventValueType
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [EventValueType](EventValueType.md)
 
-## Remarks
+## [Remarks](#remarks)
 
 See [EventValueType](EventValueType.md) for the available value types.
+

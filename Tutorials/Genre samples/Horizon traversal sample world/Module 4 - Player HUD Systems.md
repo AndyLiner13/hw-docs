@@ -2,11 +2,11 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/genre-samples/horizon-traversal-sample-world/module-4-player-hud-systems
 ---
 
-# Module 4 - Player HUD Systems
+# [Module 4 - Player HUD Systems](#module-4---player-hud-systems)
 
 The Player HUD systems create a pool of HUD objects, which are assigned to players as they enter the world.
 
-## HUD pool
+## [HUD pool](#hud-pool)
 
 The world includes a set of HUD objects in a pool, located behind the starting area:
 
@@ -14,14 +14,14 @@ The world includes a set of HUD objects in a pool, located behind the starting a
 
 An individual HUD object consists of:
 
-* HUDLocal object
-  + Attached script: HUDLocal.ts
-* Hud text1: Text object that displays game position during race
-* Hud text2: Text object that displays running time during the race
+- HUDLocal object
+  - Attached script: HUDLocal.ts
+- Hud text1: Text object that displays game position during race
+- Hud text2: Text object that displays running time during the race
 
 **Tip**: In the Hierarchy panel, search for: HUD.
 
-## HUDManager.ts
+## [HUDManager.ts](#hudmanagerts)
 
 Initializes the player local HUDs and passes information to each player about the state of the race.
 
@@ -29,12 +29,12 @@ Initializes the player local HUDs and passes information to each player about th
 
 **Notes**:
 
-* Creates a HUDPool object for containing HUD entities. Creates PlayerHUDCtrlMap map object for mapping HUD objects to players.
-* preStart():
-  + Creates listeners for onPlayerEnterWorld and onPlayerExitWorld, which handle getting and removing the player HUD from the pool and the control map, respectively.
-  + Creates listener for the local broadcast event: onRegisterRaceHUD. When this event is received by the HUD manager, the local player’s HUD object is added to the pool.
+- Creates a HUDPool object for containing HUD entities. Creates PlayerHUDCtrlMap map object for mapping HUD objects to players.
+- preStart():
+  - Creates listeners for onPlayerEnterWorld and onPlayerExitWorld, which handle getting and removing the player HUD from the pool and the control map, respectively.
+  - Creates listener for the local broadcast event: onRegisterRaceHUD. When this event is received by the HUD manager, the local player’s HUD object is added to the pool.
 
-## HUDLocal.ts
+## [HUDLocal.ts](#hudlocalts)
 
 Local Player script that tells the player which race position they are in and the race timings.
 
@@ -42,19 +42,20 @@ Local Player script that tells the player which race position they are in and th
 
 **Notes**:
 
-* Creates several event subscriptions to network events, which must be reflected in the HUD display.
-* Defines private variables for the entities, text, and colors used in the HUD.
-* preStart():
-  + Assigns entities specified as properties to variables used in the HUD.
-  + When ownership of the HUD entity changes, it has been assigned to a player, and the initialization code creates event subscriptions for the following, which require changes to the HUD UI:
+- Creates several event subscriptions to network events, which must be reflected in the HUD display.
+- Defines private variables for the entities, text, and colors used in the HUD.
+- preStart():
+  - Assigns entities specified as properties to variables used in the HUD.
+  - When ownership of the HUD entity changes, it has been assigned to a player, and the initialization code creates event subscriptions for the following, which require changes to the HUD UI:
     - Events.onPlayerGotBoost: show boost ability is available in HUD
     - Events.onStopRacePosUpdates: stop updating race positions: this.updateUI = false
     - Events.onRacePosUpdate: Update race positions.
-      * This triggers an update of the HUD: this.updateUI = true.
+      - This triggers an update of the HUD: this.updateUI = true.
     - onPlayerUsedBoost: disable boost availability in the HUD
     - hz.World.onUpdate: if this.updateUI == true, then update race time and race position. If boost has been activated, then the star is rotated accordingly.
-* start():
-  + Contains a number of functions for updating the HUD at runtime.
-  + cleanup() function is called when the player is returned to server control. Function disconnects from event subscriptions for the local HUD and calls reset().
+- start():
+  - Contains a number of functions for updating the HUD at runtime.
+  - cleanup() function is called when the player is returned to server control. Function disconnects from event subscriptions for the local HUD and calls reset().
 
 reset() resets values on the HUD and returns its location to the zero point.
+

@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_areaenterpayload
 ---
 
-# AreaEnterPayload type
+# [AreaEnterPayload type](#areaenterpayload-type)
 
 A payload sent by the `OnAreaEnter` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type AreaEnterPayload = FullTurboEventPayload<typeof OnAreaEnter>;
+export
+ declare type 
+AreaEnterPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnAreaEnter
+>;
 ```
+

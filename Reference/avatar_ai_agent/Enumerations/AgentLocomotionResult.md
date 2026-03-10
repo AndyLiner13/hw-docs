@@ -2,22 +2,30 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_agent_agentlocomotionresult
 ---
 
-# AgentLocomotionResult Enum
+# [AgentLocomotionResult Enum](#agentlocomotionresult-enum)
 
-> Warning: This API is now obsolete.
-> Please use the NpcLocomotionResult enum and NpcPlayer class in the horizon/npc module instead.
+> [!Warning]
+>
+> This API is now obsolete.\
+> Please use the NpcLocomotionResult enum and NpcPlayer class in the horizon/npc module instead.\
 > The possible results of a move action for an NPC agent.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare enum AgentLocomotionResult
+export
+ declare 
+enum
+ 
+AgentLocomotionResult
+ 
 ```
 
-## Enumeration Members
+## [Enumeration Members](#enumeration-members)
 
-| Member | Value | Description |
-| --- | --- | --- |
-| Canceled | `1` | The action is canceled. |
-| Complete | `0` | The action is complete. |
-| Error | `2` | An error occured when attempting the action. |
+| Member   | Value | Description                                  |
+| -------- | ----- | -------------------------------------------- |
+| Canceled | `1`   | The action is canceled.                      |
+| Complete | `0`   | The action is complete.                      |
+| Error    | `2`   | An error occured when attempting the action. |
+

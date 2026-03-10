@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/quests-leaderboards-and-variable-groups/quests-overview
 ---
 
-# Quests Overview
+# [Quests Overview](#quests-overview)
 
 Quests provide you with tools to create rich and engaging progression experiences in your worlds. You can access the Quests pane, which displays a list of a world’s quests, in the Desktop Editor by selecting **Quests** under the **Systems** button.
 
@@ -12,31 +12,31 @@ Quests are automatically displayed to the player in two ways: a Quests gizmo obj
 
 ![](../../_assets/images/804e029683f089f550f22d2f532ac18daeb1a75f4f0ed6c69e49646f4e3f0cad.png)
 
-## Quests pane
+## [Quests pane](#quests-pane)
 
 The Quests pane in Desktop Editor displays all existing quests configured for the current world. The Quests pane has the following features:
 
-* Create up to 100 quests per world by clicking the plus-shaped **Create Quest button**.
-* Edit an existing quest by clicking on the **Edit button** next to its name when highlighted with the mouse cursor.
-* Delete a quest by clicking the **Trash can button** to the right of its name when highlighted by the mouse cursor. Remember, once a quest is deleted, it can’t be restored.
-* The order of quests in the Quests pane determines their default order in the Quests Panel gizmo.
+- Create up to 100 quests per world by clicking the plus-shaped **Create Quest button**.
+- Edit an existing quest by clicking on the **Edit button** next to its name when highlighted with the mouse cursor.
+- Delete a quest by clicking the **Trash can button** to the right of its name when highlighted by the mouse cursor. Remember, once a quest is deleted, it can’t be restored.
+- The order of quests in the Quests pane determines their default order in the Quests Panel gizmo.
 
-## Creating and editing quests
+## [Creating and editing quests](#creating-and-editing-quests)
 
 As a world owner, there are two kinds of quests that you can create: Simple quests and persistent tracked quests. Create a new quest by clicking the plus-shaped **Create Quest** button in the Quests pane, or edit an existing quest by clicking the **Edit** button next to the quest’s name in the list.
 
-### Simple Quests
+### [Simple Quests](#simple-quests)
 
 A simple quest is a boolean value: It is either complete or incomplete. Simple quests are marked complete or incomplete by the execution of [Player.setAchievementComplete](https://horizon.meta.com/resources/scripting-api/core.player.setachievementcomplete.md/) in TypeScript.
 
 When configuring a Simple quest, you must provide the following information in the Create Quest pane:
 
-* **Script ID:** This is an identifier used by some TypeScript functions and code blocks to identify this quest using string fields. Not all code blocks use the Script ID; some use the Name in a dropdown list. This ID is unrelated to the name of the scripts that will reference the quest. Generally, this ID should be unique across all quests in the world so that each quest can be individually identified by scripts. If you use the same ID for multiple quests they can be addressed as a group, but you will no longer be able to differentiate them in scripts.
-* **Name:** This is the name of the quest that will be displayed to the player on the top line of the UI. It is also used in some code blocks to select the quest using a dropdown list. It should be short but descriptive, such as a few words or a phrase.
-* **Description:** This is a longer block of text that describes the quest. It might provide hints to the player on how to complete the quest, or other info for the player about why this quest is desirable. It is displayed in small text below the name of the quest.
-* **Quest Type:** For simple quests, select **Simple** from this dropdown.
+- **Script ID:** This is an identifier used by some TypeScript functions and code blocks to identify this quest using string fields. Not all code blocks use the Script ID; some use the Name in a dropdown list. This ID is unrelated to the name of the scripts that will reference the quest. Generally, this ID should be unique across all quests in the world so that each quest can be individually identified by scripts. If you use the same ID for multiple quests they can be addressed as a group, but you will no longer be able to differentiate them in scripts.
+- **Name:** This is the name of the quest that will be displayed to the player on the top line of the UI. It is also used in some code blocks to select the quest using a dropdown list. It should be short but descriptive, such as a few words or a phrase.
+- **Description:** This is a longer block of text that describes the quest. It might provide hints to the player on how to complete the quest, or other info for the player about why this quest is desirable. It is displayed in small text below the name of the quest.
+- **Quest Type:** For simple quests, select **Simple** from this dropdown.
 
-### Tracked persistent quests
+### [Tracked persistent quests](#tracked-persistent-quests)
 
 A tracked persistent quest has all the capabilities of a simple quest, plus the ability to be marked complete automatically when a tracked persistent variable reaches a pre-configured threshold. Note that persistent quests are *not* automatically marked as incomplete if the variable later drops below this threshold. Tracked persistent quests can also be marked complete or incomplete by using [Player.setAchievementComplete](https://horizon.meta.com/resources/scripting-api/core.player.setachievementcomplete.md/) in TypeScript.
 
@@ -46,16 +46,18 @@ Tracked Persistent quests have all the configuration parameters of Simple quests
 
 ![Screenshot 2024-05-14 at 3.34.37 PM.png](../../_assets/images/3625ec0a3930cc6a42ef7a062dbb28b39eda8dde38802303b25ee27abe5d0035.png)
 
-* **Quest Type:** Changing to the type to **Tracked** unlocks the following two fields:
+- **Quest Type:** Changing to the type to **Tracked** unlocks the following two fields:
 
-  + **Activation Criteria**
-  + **Success Criteria**
-* **Activation Criteria:** This is the criteria that will be used to determine if the quest is active. You can define the criteria by clicking ‘Define’ and adding an objective, which is a persistent variable from a variable group attached to the world, with its completion threshold. You must set up the persistent variables and variable groups before you create the Tracked Persistent quest. You can add multiple objectives by clicking **Add objective** or remove objectives by clicking the **trash bin** on the right side of the objective. Objectives can be evaluated with either an “AND” or “OR” condition, which is set for *all* criteria and not individually.
-* **Success Criteria:** This is the criteria that will be used to determine completion of this quest. The criteria can be defined in the same way as the Activation Criteria. The threshold for the Success Criteria is the threshold value for the persistent variables at which you want this quest to be automatically marked complete. Note that if one or more objectives later drop below the threshold, the quest will *not* automatically revert to incomplete.
+  - **Activation Criteria**
+  - **Success Criteria**
+
+- **Activation Criteria:** This is the criteria that will be used to determine if the quest is active. You can define the criteria by clicking ‘Define’ and adding an objective, which is a persistent variable from a variable group attached to the world, with its completion threshold. You must set up the persistent variables and variable groups before you create the Tracked Persistent quest. You can add multiple objectives by clicking **Add objective** or remove objectives by clicking the **trash bin** on the right side of the objective. Objectives can be evaluated with either an “AND” or “OR” condition, which is set for *all* criteria and not individually.
+
+- **Success Criteria:** This is the criteria that will be used to determine completion of this quest. The criteria can be defined in the same way as the Activation Criteria. The threshold for the Success Criteria is the threshold value for the persistent variables at which you want this quest to be automatically marked complete. Note that if one or more objectives later drop below the threshold, the quest will *not* automatically revert to incomplete.
 
 ![](../../_assets/images/908528f51b1180259bcc0652c5e23322c07bece0a8ce363750f7f0086f91dca4.png)
 
-### Edit/Reset My Quests
+### [Edit/Reset My Quests](#editreset-my-quests)
 
 The **Debug Quests** button in the upper right of the Quests pane opens the Debug Quests pane, which allows you to edit the completion state of individual quests or reset all quests to the incomplete state. This can be used while testing and debugging your quests by either “rewinding” the quests in the world to an earlier state, or “fast forwarding” the world past the completion of certain quests without having to spend time actually completing the objectives while debugging.
 
@@ -63,8 +65,11 @@ Note that while setting simple quests to complete or incomplete is straightforwa
 
 ![](../../_assets/images/908528f51b1180259bcc0652c5e23322c07bece0a8ce363750f7f0086f91dca4.png)
 
-## TypeScript support
+## [TypeScript support](#typescript-support)
 
 The TypeScript API includes several functions that help track and manage quests. An overview of this functionality can be found in the [CodeBlocks Achievements doc](../../Scripting/API%20references%20and%20examples/CodeBlock%20Achievements.md).
 
-> **Note:** “Achievements” is a legacy name for quests, and the TypeScript API reflects this. The Achievements TypeScript functions still work as intended for quests.
+> [!Note]
+>
+> “Achievements” is a legacy name for quests, and the TypeScript API reflects this. The Achievements TypeScript functions still work as intended for quests.
+

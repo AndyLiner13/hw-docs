@@ -2,30 +2,92 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_voipsettingvalues
 ---
 
-# VoipSettingValues Variable
+# [VoipSettingValues Variable](#voipsettingvalues-variable)
 
 The VoIP (Voice over Internet Protocol) settings for the player.
 
-## Signature
+## [Signature](#signature)
 
 ```
-VoipSettingValues: {
-    readonly Default: "Default";
-    readonly Global: "Global";
-    readonly Nearby: "Nearby";
-    readonly Extended: "Extended";
-    readonly Whisper: "Whisper";
-    readonly Mute: "Mute";
-    readonly Environment: "Environment";
+VoipSettingValues
+:
+ 
+{
+
+    
+readonly
+ 
+Default
+:
+ 
+"Default"
+;
+
+    
+readonly
+ 
+Global
+:
+ 
+"Global"
+;
+
+    
+readonly
+ 
+Nearby
+:
+ 
+"Nearby"
+;
+
+    
+readonly
+ 
+Extended
+:
+ 
+"Extended"
+;
+
+    
+readonly
+ 
+Whisper
+:
+ 
+"Whisper"
+;
+
+    
+readonly
+ 
+Mute
+:
+ 
+"Mute"
+;
+
+    
+readonly
+ 
+Environment
+:
+ 
+"Environment"
+;
+
+
 }
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
-Default: Players can hear normally.
-Global: All players can hear.
-Nearby: Only nearby players can hear.
-Extended: Players who are further away than normal can hear.
-Whisper: Only players next to the current player (closer than nearby) can hear.
-Mute: Only the current player can hear.
+Default: Players can hear normally.\
+Global: All players can hear.\
+Nearby: Only nearby players can hear.\
+Extended: Players who are further away than normal can hear.\
+Whisper: Only players next to the current player (closer than nearby) can hear.\
+Mute: Only the current player can hear.\
 Environment: The default VoIP settings for the world.
+

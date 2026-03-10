@@ -2,30 +2,91 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/navmesh_navmeshmanager
 ---
 
-# NavMeshManager Class
+# [NavMeshManager Class](#navmeshmanager-class)
 
 Stores and retrieves references to [NavMesh](NavMesh.md) instances.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export default class NavMeshManager
+export
+ 
+default
+ 
+class
+ 
+NavMeshManager
+ 
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
 [NavMesh](NavMesh.md) instances are cached to ensure that retrieving their profile multiple times with a script only generates one class reference. This is useful for updating navigation mesh profiles at runtime.
 
-## Properties
+## [Properties](#properties)
 
-|  |  |
-| --- | --- |
-| **getByName** | Gets a reference to a instance based on a profile name.      Signature  ``` getByName: (name: string) => Promise<NavMesh | null>; ```  Remarks  If no matching profile is found, returns `null`. |
-| **getNavMeshes** | Gets a set of instances from the cache.      Signature  ``` getNavMeshes: () => Promise<NavMesh[]>; ``` |
-| **world** | Signature  ``` world: World; ``` |
+|               |                                                                        |
+| ------------- | ---------------------------------------------------------------------- |
+| **getByName** | Gets a reference to a instance based on a profile name.Signature\`\`\` |
+| getByName     |                                                                        |
+| :             |                                                                        |
 
-## Methods
+(
+name
+:
 
-|  |  |
-| --- | --- |
-| **getInstance(world)** static | Gets a NavMeshManager directory that stores the references to [NavMesh](NavMesh.md) instances.      Signature  ``` static getInstance(world: World): NavMeshManager; ```  Parameters  world: World  Returns  [NavMeshManager](NavMeshManager.md) |
+string
+)
+
+\=>
+
+Promise
+<
+NavMesh
+
+|
+
+null
+
+> ;
+> ``RemarksIf no matching profile is found, returns `null`. | | **getNavMeshes** | Gets a set of instances from the cache.Signature``
+> getNavMeshes
+> :
+
+()
+
+\=>
+
+Promise
+<
+NavMesh
+\[]>;
+
+````|
+| **world**        | Signature```
+world
+:
+ 
+World
+;
+```                                                                                                                                                                      |
+
+## [Methods](#methods)
+
+|                              |                                                                                                                                                                                                                                            |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **getInstance(world)**static | Gets a NavMeshManager directory that stores the references to [NavMesh](NavMesh.md) instances.Signature```
+static
+ getInstance
+(
+world
+:
+ 
+World
+):
+ 
+NavMeshManager
+;
+```Parametersworld: WorldReturns[NavMeshManager](NavMeshManager.md) |
+````
+

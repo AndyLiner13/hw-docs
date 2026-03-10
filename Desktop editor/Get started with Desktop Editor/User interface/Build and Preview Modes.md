@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/getting-started/user-interface/operational-modes
 ---
 
-# Build and Preview Modes
+# [Build and Preview Modes](#build-and-preview-modes)
 
 **Build** mode and **Preview** mode let you to switch back and forth between building your world in the desktop editor and seeing how it looks to users.
 
@@ -12,19 +12,20 @@ You can then use **Preview** mode to test-run your world, experiencing it fully 
 
 You can change modes by selecting the appropriate mode button at the top of the editor.
 
-|  |  |
-| --- | --- |
-| **Build** | Build mode button |
-| **Preview** | Preview mode button |
+|             |                                                                                                                      |
+| ----------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Build**   | ![Build mode button](../../../_assets/images/7f151e98d80669bb3fe058df439f537560ac78190cae2069af0d1422db6f0536.png)   |
+| **Preview** | ![Preview mode button](../../../_assets/images/2115c31c33e25b7228209d56265ef46a033824aa01470023a9001cba7050d131.png) |
 
 **Note**: Your cursor isn’t visible while in **Preview** mode. Instead, the cursor is used to change your avatar’s orientation, as opposed to the arrow keys or WASD keys, which are used to move in different directions based on the orientation of your avatar. Click **ESC** twice to exit **Preview** mode.
 
-### See also
+### [See also](#see-also)
 
 These tools are part of the suite of tools in the Worlds desktop editor. You can find out more about the UI at:
 
-* [The desktop editor user interface](User%20Interface.md)
+- [The desktop editor user interface](User%20Interface.md)
 
 You can also try out the editor by working through our introductory tutorial:
 
-* [Create Your First World](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world-intro)
+- [Create Your First World](https://developers.meta.com/horizon-worlds/learn/documentation/get-started/create-your-first-world-intro)
+

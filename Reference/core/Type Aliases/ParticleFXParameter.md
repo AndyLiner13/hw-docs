@@ -2,19 +2,43 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_particlefxparameter
 ---
 
-# ParticleFXParameter type
+# [ParticleFXParameter type](#particlefxparameter-type)
 
 ParticleFXParameter joins name and value for batch setter call
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type ParticleFXParameter<T extends VFXParameterType> = {
-    name: string;
-    value: T;
+export
+ declare type 
+ParticleFXParameter
+<
+T 
+extends
+ 
+VFXParameterType
+>
+ 
+=
+ 
+{
+
+    name
+:
+ 
+string
+;
+
+    value
+:
+ T
+;
+
+
 };
 ```
 
-## References
+## [References](#references)
 
 [VFXParameterType](VFXParameterType.md)
+

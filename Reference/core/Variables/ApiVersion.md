@@ -2,12 +2,17 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_apiversion
 ---
 
-# ApiVersion Variable
+# [ApiVersion Variable](#apiversion-variable)
 
 The version number of the Horizon TypeScript API.
 
-## Signature
+## [Signature](#signature)
 
 ```
-ApiVersion = "2.0.0"
+ApiVersion
+ 
+=
+ 
+"2.0.0"
 ```
+

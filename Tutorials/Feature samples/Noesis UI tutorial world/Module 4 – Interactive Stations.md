@@ -2,180 +2,536 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/noesis-ui-tutorial-world/module-4-interactive-stations
 ---
 
-# Module 4 – Interactive Stations
+# [Module 4 – Interactive Stations](#module-4--interactive-stations)
 
 This module covers stations that combine XAML UI with TypeScript scripting to create interactive, dynamic interfaces. These stations require both XAML files and corresponding TypeScript components.
 
 These components often rely heavily on data triggers to update UI elements dynamically based on changes in data or user interaction, such as changing colors, visibility, or animations in response to data changes.
 
-## Station 04 – Yes/No Dialogue
+## [Station 04 – Yes/No Dialogue](#station-04--yesno-dialogue)
 
 ![Station 04 - Yes/No Dialogue](../../../_assets/images/3ef61cadee7d84f54bda15d9469abc58c0fedf298cd759473248011491e65145.png)
 
-### Description
+### [Description](#description)
 
 This station demonstrates a simple interactive dialogue with two buttons: Yes and No. When a user clicks either button, the result is displayed in a text box. This example teaches command binding, event handling, and updating UI elements from TypeScript.
 
 **Files Required:**
 
-* XAML: `Station04_YesNo_Dialogue.xaml`
-* TypeScript: `YesNoDialogue.ts`
+- XAML: `Station04_YesNo_Dialogue.xaml`
+- TypeScript: `YesNoDialogue.ts`
 
-### XAML Example
+### [XAML Example](#xaml-example)
 
-```
+```xml
 <StackPanel>
-  <TextBlock x:Name="ResultText" Text="{Binding Path=resultText}" FontSize="24"/>
-  <StackPanel Orientation="Horizontal">
-    <Button Content="Accept" Command="{Binding Path=events.acceptEvent}" Margin="5"/>
-    <Button Content="Cancel" Command="{Binding Path=events.cancelEvent}" Margin="5"/>
-  </StackPanel>
+  <TextBlock x:Name="ResultText" Text="{Binding Path=resultText}" FontSize="24"/>
+  <StackPanel Orientation="Horizontal">
+    <Button Content="Accept" Command="{Binding Path=events.acceptEvent}" Margin="5"/>
+    <Button Content="Cancel" Command="{Binding Path=events.cancelEvent}" Margin="5"/>
+  </StackPanel>
 </StackPanel>
 ```
 
-### TypeScript Integration
+### [TypeScript Integration](#typescript-integration)
 
 ```
 // In YesNoDialogue.ts
 
-private dataContext = {
-    events: {
-        acceptEvent: () => this.updateOutputText("You accepted the co-op party!"),
-        cancelEvent: () => this.updateOutputText("You canceled the co-op party.")
-    }
-};
 
-start() {
-    this.entity.as(NoesisGizmo).dataContext = this.dataContext;
+
+private
+ dataContext 
+=
+ 
+{
+
+    events
+:
+ 
+{
+
+        acceptEvent
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+updateOutputText
+(
+"You accepted the co-op party!"
+),
+
+        cancelEvent
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+updateOutputText
+(
+"You canceled the co-op party."
+)
+
+    
 }
 
-private updateOutputText(text: string): void {
-    const outputEntity = this.props.outputTextGizmo;
-    if (outputEntity) {
-        const textGizmo = outputEntity.as(hz.TextGizmo);
-        if (textGizmo) {
-            textGizmo.text.set(text);
-        }
-    }
+
+};
+
+
+start
+()
+ 
+{
+
+    
+this
+.
+entity
+.
+as
+(
+NoesisGizmo
+).
+dataContext 
+=
+ 
+this
+.
+dataContext
+;
+
+
+}
+
+
+
+private
+ updateOutputText
+(
+text
+:
+ 
+string
+):
+ 
+void
+ 
+{
+
+    
+const
+ outputEntity 
+=
+ 
+this
+.
+props
+.
+outputTextGizmo
+;
+
+    
+if
+ 
+(
+outputEntity
+)
+ 
+{
+
+        
+const
+ textGizmo 
+=
+ outputEntity
+.
+as
+(
+hz
+.
+TextGizmo
+);
+
+        
+if
+ 
+(
+textGizmo
+)
+ 
+{
+
+            textGizmo
+.
+text
+.
+set
+(
+text
+);
+
+        
+}
+
+    
+}
+
+
 }
 ```
 
-## Station 05 – Light the Sphere Dialog
+## [Station 05 – Light the Sphere Dialog](#station-05--light-the-sphere-dialog)
 
 ![Station 05 - Light the Sphere](../../../_assets/images/e4166660f969746795d9af85865f681ad86a3cad34efcd88da1fed4e20802b68.png)
 
-### Description
+### [Description](#description-1)
 
 This station demonstrates interactive button controls with custom visual states and event binding. Users can click colored buttons (Blue, Purple, Green) to change the color of a 3D sphere in the world. It introduces command binding, event triggers, and the integration between UI and 3D world objects.
 
 **Files Required:**
 
-* XAML: `Station05_Light_the_Sphere_Dialog.xaml`
-* TypeScript: `LightTheSphere.ts`
+- XAML: `Station05_Light_the_Sphere_Dialog.xaml`
+- TypeScript: `LightTheSphere.ts`
 
-### XAML Example
+### [XAML Example](#xaml-example-1)
+
+```xml
+<Button x:Name="btn_Blue"
+        Command="{Binding Path=events.displayOne}" />
+<Button x:Name="btn_Purple"
+        Command="{Binding Path=events.displayTwo}" />
+<Button x:Name="btn_Green"
+        Command="{Binding Path=events.displayThree}" />
+```
+
+### [TypeScript Integration](#typescript-integration-1)
 
 ```
-<Button x:Name="btn_Blue"
-        Command="{Binding Path=events.displayOne}" />
-<Button x:Name="btn_Purple"
-        Command="{Binding Path=events.displayTwo}" />
-<Button x:Name="btn_Green"
-        Command="{Binding Path=events.displayThree}" />
-```
+private
+ dataContext 
+=
+ 
+{
 
-### TypeScript Integration
+    events
+:
+ 
+{
 
-```
-private dataContext = {
-    events: {
-        displayOne: () => this.setSphereColor(0, 0, 1),   // Blue
-        displayTwo: () => this.setSphereColor(1, 0, 1),   // Purple
-        displayThree: () => this.setSphereColor(0, 1, 0)  // Green
-    }
+        displayOne
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+setSphereColor
+(
+0
+,
+ 
+0
+,
+ 
+1
+),
+   
+// Blue
+
+        displayTwo
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+setSphereColor
+(
+1
+,
+ 
+0
+,
+ 
+1
+),
+   
+// Purple
+
+        displayThree
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+setSphereColor
+(
+0
+,
+ 
+1
+,
+ 
+0
+)
+  
+// Green
+
+    
+}
+
+
 };
 
-private setSphereColor(r: number, g: number, b: number): void {
-    // ...change sphere color logic...
+
+
+private
+ setSphereColor
+(
+r
+:
+ number
+,
+ g
+:
+ number
+,
+ b
+:
+ number
+):
+ 
+void
+ 
+{
+
+    
+// ...change sphere color logic...
+
+
 }
 ```
 
-## Station 06 – Toggles, Radios & CheckBoxes
+## [Station 06 – Toggles, Radios & CheckBoxes](#station-06--toggles-radios--checkboxes)
 
 ![Station 06 – Toggles, Radios & CheckBoxes](../../../_assets/images/1dd037399cd43099443f308adb11f241ba968786353776328b298f2552cdadbf.png)
 
-### Description
+### [Description](#description-2)
 
 This station teaches input controls including animated toggle switches, radio button groups, and checkboxes. Users can control a 3D cube’s rotation, scale, and color through various UI controls. It demonstrates visual state animations using Storyboards and real-time 3D object manipulation.
 
 **Files Required:**
 
-* XAML: `Station06_Toggles_Radios_CheckBoxes.xaml`
-* TypeScript: `ToggleCheckboxes.ts`
+- XAML: `Station06_Toggles_Radios_CheckBoxes.xaml`
+- TypeScript: `ToggleCheckboxes.ts`
 
-### XAML Example
+### [XAML Example](#xaml-example-2)
+
+```xml
+<ToggleButton x:Name="ToggleRotationYaw"
+              Command="{Binding Path=events.toggleRotateCommand}" />
+<RadioButton x:Name="RadioButtonSmall"
+             Command="{Binding Path=events.smallRadioChecked}" />
+<RadioButton x:Name="RadioButtonMedium"
+             Command="{Binding Path=events.mediumRadioChecked}" />
+<RadioButton x:Name="RadioButtonLarge"
+             Command="{Binding Path=events.largeRadioChecked}" />
+<CheckBox Command="{Binding Path=events.colorCubeChecked}" />
+```
+
+### [TypeScript Integration](#typescript-integration-2)
 
 ```
-<ToggleButton x:Name="ToggleRotationYaw"
-              Command="{Binding Path=events.toggleRotateCommand}" />
-<RadioButton x:Name="RadioButtonSmall"
-             Command="{Binding Path=events.smallRadioChecked}" />
-<RadioButton x:Name="RadioButtonMedium"
-             Command="{Binding Path=events.mediumRadioChecked}" />
-<RadioButton x:Name="RadioButtonLarge"
-             Command="{Binding Path=events.largeRadioChecked}" />
-<CheckBox Command="{Binding Path=events.colorCubeChecked}" />
-```
+private
+ eventHandlers 
+=
+ 
+{
 
-### TypeScript Integration
+    smallRadioChecked
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+updateMeshScale
+(
+0.25
+),
 
-```
-private eventHandlers = {
-    smallRadioChecked: () => this.updateMeshScale(0.25),
-    mediumRadioChecked: () => this.updateMeshScale(0.5),
-    largeRadioChecked: () => this.updateMeshScale(1),
-    toggleRotateCommand: () => this.startRotation(),
-    colorCubeChecked: () => this.updateMeshColor(true)
+    mediumRadioChecked
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+updateMeshScale
+(
+0.5
+),
+
+    largeRadioChecked
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+updateMeshScale
+(
+1
+),
+
+    toggleRotateCommand
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+startRotation
+(),
+
+    colorCubeChecked
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+updateMeshColor
+(
+true
+)
+
+
 };
 ```
 
-## Station 07 – Progress Bar
+## [Station 07 – Progress Bar](#station-07--progress-bar)
 
 ![Station 07 - Progress Bar](../../../_assets/images/4576d3be6ed2b8f53489b760e45562cd71305e1151de04d5fde0ba50f67dafa1.png)
 
-### Description
+### [Description](#description-3)
 
 This station demonstrates animated progress bars that update in real-time. Three different progress bars (Repair, Destroy, Disabled) animate automatically when toggled, each with unique colors and animation directions. It teaches progress bar customization, animation timing, and state management.
 
 **Files Required:**
 
-* XAML: `Station07_Progress_Bar.xaml`
-* TypeScript: `ProgressBars.ts`
+- XAML: `Station07_Progress_Bar.xaml`
+- TypeScript: `ProgressBars.ts`
 
-### XAML Example
+### [XAML Example](#xaml-example-3)
+
+```xml
+<ProgressBar x:Name="Repair_Progress_Bar"
+             Value="{Binding Path=progression[0]}"
+             Command="{Binding Path=events.toggleRepair}" />
+<ProgressBar x:Name="Destroy_Progress_Bar"
+             Value="{Binding Path=progression[1]}"
+             Command="{Binding Path=events.toggleDestroy}" />
+<ProgressBar x:Name="Disabled_Progress_Bar"
+             Value="{Binding Path=progression[2]}"
+             Command="{Binding Path=events.toggleDisabled}" />
+```
+
+### [TypeScript Integration](#typescript-integration-3)
 
 ```
-<ProgressBar x:Name="Repair_Progress_Bar"
-             Value="{Binding Path=progression[0]}"
-             Command="{Binding Path=events.toggleRepair}" />
-<ProgressBar x:Name="Destroy_Progress_Bar"
-             Value="{Binding Path=progression[1]}"
-             Command="{Binding Path=events.toggleDestroy}" />
-<ProgressBar x:Name="Disabled_Progress_Bar"
-             Value="{Binding Path=progression[2]}"
-             Command="{Binding Path=events.toggleDisabled}" />
-```
+private
+ eventHandlers 
+=
+ 
+{
 
-### TypeScript Integration
+    toggleRepair
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+toggleBar
+(
+0
+),
 
-```
-private eventHandlers = {
-    toggleRepair: () => this.toggleBar(0),
-    toggleDestroy: () => this.toggleBar(1),
-    toggleDisabled: () => this.toggleBar(2)
+    toggleDestroy
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+toggleBar
+(
+1
+),
+
+    toggleDisabled
+:
+ 
+()
+ 
+=>
+ 
+this
+.
+toggleBar
+(
+2
+)
+
+
 };
 
-private animateProgressBars(deltaTime: number) {
-    // ...animation logic for each bar...
+
+
+private
+ animateProgressBars
+(
+deltaTime
+:
+ number
+)
+ 
+{
+
+    
+// ...animation logic for each bar...
+
+
 }
 ```
+

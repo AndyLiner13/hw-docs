@@ -2,24 +2,42 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/ui_scrollview
 ---
 
-# ScrollView() Function
+# [ScrollView() Function](#scrollview-function)
 
 Creates a ScrollView in a UI panel.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare function ScrollView(props: Readonly<ScrollViewProps>): UINode<ScrollViewProps>;
+export
+ declare 
+function
+ 
+ScrollView
+(
+props
+:
+ 
+Readonly
+<
+ScrollViewProps
+>):
+ 
+UINode
+<
+ScrollViewProps
+>;
 ```
 
-## Parameters
+## [Parameters](#parameters)
 
 props: Readonly<[ScrollViewProps](../Type%20Aliases/ScrollViewProps.md)>
 
 The props of the ScrollView component.
 
-## Returns
+## [Returns](#returns)
 
 [UINode](../Classes/UINode.md)<[ScrollViewProps](../Type%20Aliases/ScrollViewProps.md)>
 
 A `UINode` representing the ScrollView component.
+

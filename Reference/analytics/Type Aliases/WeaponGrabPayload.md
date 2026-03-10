@@ -2,12 +2,24 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/analytics_weapongrabpayload
 ---
 
-# WeaponGrabPayload type
+# [WeaponGrabPayload type](#weapongrabpayload-type)
 
 A payload sent by the `OnWeaponGrab` [event](../Variables/TurboEvents.md).
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type WeaponGrabPayload = FullTurboEventPayload<typeof OnWeaponGrab>;
+export
+ declare type 
+WeaponGrabPayload
+ 
+=
+ 
+FullTurboEventPayload
+<
+typeof
+ 
+OnWeaponGrab
+>;
 ```
+

@@ -2,21 +2,37 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/capturing_stopvideocaptureoptions
 ---
 
-# StopVideoCaptureOptions type
+# [StopVideoCaptureOptions type](#stopvideocaptureoptions-type)
 
-> Warning: This API is now obsolete.
+> [!Warning]
+>
+> This API is now obsolete.\
 > This module is deprecated and will be removed in a future version.
 
 The options for the method.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type StopVideoCaptureOptions = {
-    save: boolean;
+export
+ declare type 
+StopVideoCaptureOptions
+ 
+=
+ 
+{
+
+    save
+:
+ 
+boolean
+;
+
+
 };
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
 [DefaultStopVideoCaptureOptions](../Variables/DefaultStopVideoCaptureOptions.md) specifies the default options.
+

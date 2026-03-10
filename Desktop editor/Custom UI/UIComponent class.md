@@ -2,26 +2,38 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/uicomponent-class
 ---
 
-# UIComponent class
+# [UIComponent class](#uicomponent-class)
 
 This topic describes the UIComponent class that is used to create custom UIs in your world. The script attached to a Custom UI gizmo extends the new [`UIComponent`](../../Reference/ui/Abstract%20Classes/UIComponent.md) class instead of the regular [`Component`](../../Reference/core/Abstract%20Classes/Component.md) class. `UIComponent` is similar to `Component` in many ways, for example, both can access the `this.world` object and listen to events. But the `UIComponent` class includes specialized properties and methods.
 
-## Properties: panelHeight and panelWidth
+## [Properties: panelHeight and panelWidth](#properties-panelheight-and-panelwidth)
 
 The two [properties](../../Reference/ui/Abstract%20Classes/UIComponent.md#properties) of the `UIComponent` class are `panelHeight` and `panelWidth`. The default panel size is 500 x 500 pixels. You can change the size by specifying the `panelHeight` and `panelWidth` properties.
 
-```
+```typescript
 class HelloWorld extends UIComponent {
+
   panelHeight = 200; // the default value is 500
+
   panelWidth = 460; // the default value is 500
 
+
+
   initializeUI() {
+
     return View({
+
       children: [Text({text: 'Hello World'})],
+
       style: {backgroundColor: 'white'},
+
     });
+
   }
+
 }
+
+
 
 UIComponent.register(HelloWorld);
 ```
@@ -38,24 +50,33 @@ The following image shows the left UI gizmo is smaller than the right UI gizmo w
 
 ![An example that shows that scale controls the size of the UI panel in the scene](../../_assets/images/b258253ca6e7b67e9c7311543f688af95fd6a9bdb03da2b50d26e8582b555e9e.png)
 
-## Method: initializeUI()
+## [Method: initializeUI()](#method-initializeui)
 
 In the `UIComponent` class, [`initializeUI()`](../../Reference/ui/Abstract%20Classes/UIComponent.md#methods) is an important method that is used to define the content of the UI. When a UI gizmo is initialized, it calls `initializeUI()` to get the UI that the entity needs to render. Conceptually, this is what happens behind the scene:
 
-```
+```typescript
 // Conceptual; not real implementation
+
 start() {
+
   this.entity.as(UIGizmo).setPanelSize({
+
     height: this.panelHeight,
+
     width: this.panelWidth,
+
   });
+
   this.entity.as(UIGizmo).setUI(this.initializeUI());
 
+
+
   // The rest of the start function are executed thereafter
+
 }
 ```
 
-While the `initializeUI()` method might remind some developers of the `render()` function in the React component class, they are fundamentally different in that `initializeUI()` is only called once in the lifecycle of the UI panel. When any [props or variables](../../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components,%20Properties,%20and%20Variables.md) are changed, the UI panel does not automatically re-render to reflect the changes in the dependent data.
+While the `initializeUI()` method might remind some developers of the `render()` function in the React component class, they are fundamentally different in that `initializeUI()` is only called once in the lifecycle of the UI panel. When any [props or variables](../../Scripting/Get%20started%20with%20TypeScript/TypeScript%20Components%2C%20Properties%2C%20and%20Variables.md) are changed, the UI panel does not automatically re-render to reflect the changes in the dependent data.
 
 There are ways to update the UI panel after it is initialized with [`Binding`](../../Reference/ui/Classes/Binding.md). See [Updating UI with Binding](Building%20dynamic%20custom%20UI.md) for more details. For now, remember that `initializeUI()` is only called once when the UI gizmo is initialized, before the `start()` method of the component.
 
@@ -63,43 +84,61 @@ Because both `initializeUI()` and `start()` are executed when the world or the U
 
 Implementation 1
 
-```
+```typescript
 initializeUI() {
+
   this.connectEntityEvent(
+
     this.entity,
+
     myTsEvent,
+
     data => {...},
+
   );
 
+
+
   return View({...});
+
 }
 ```
 
 Implementation 2
 
-```
+```typescript
 initializeUI() {
+
   return View({...});
+
 }
 
+
+
 start() {
+
   this.connectEntityEvent(
+
     this.entity,
+
     myTsEvent,
+
     data => {...},
+
   );
+
 }
 ```
 
 However, keep in mind that `initializeUI()` is executed before `start()`. If the UI depends on some local variables, initialize them in `initializeUI()`, not `start()`.
 
-## Components and props
+## [Components and props](#components-and-props)
 
 As mentioned before, the [`initializeUI()`](../../Reference/ui/Abstract%20Classes/UIComponent.md#methods) method must return the UI that you want to render. You can build the UI with the components that are provided, e.g. [`View`](../../Reference/ui/Functions/View.md), [`Text`](../../Reference/ui/Functions/Text_2.md), [`Image`](../../Reference/ui/Functions/Image_2.md), etc.
 
 Essentially, these components are `functions` that take in an object of props and output an opaque `UINode` object, for example:
 
-```
+```typescript
 function View(props: ViewProps): UINode;
 ```
 
@@ -107,46 +146,65 @@ You do not need to know the internal implementation of `UINode`. You only need t
 
 Each component also takes an object of props, and the `props type` is different for each component type. For example, the following code defines a [`Text`](../../Reference/ui/Functions/Text_2.md) component with a [`text` and a `style` prop](../../Reference/ui/Type%20Aliases/TextProps.md):
 
-```
+```typescript
 const text = Text({
+
   text: 'Hello World',
+
   style: {fontSize: 24},
+
 });
 ```
 
 You can find the detailed documentation on the props and styles supported by each component in [API Reference for custom UI](Custom%20UI%20Styles.md). Also see related details in the `UI` API(/reference/2.0.0/). For now, this topic briefly introduces the important common props, [`style` and `children`](../../Reference/ui/Type%20Aliases/ViewProps.md).
 
-### Prop: style
+### [Prop: style](#prop-style)
 
 Most components include a `style` prop, which is the main tool to adjust the appearances of the components. It supports most of the stylesheets from CSS and React Native.
 
-```
+```typescript
 const view = View({
+
   style: {
+
     backgroundColor: '#EDE2D5',
+
     justifyContent: 'center',
+
     padding: 24,
+
     width: '100%',
+
   },
+
 });
 ```
 
 Different components support different sets of styles. Again, you can find detailed documentation on the supported styles in the [API Reference for custom UI](Custom%20UI%20Styles.md).
 
-### Prop: children
+### [Prop: children](#prop-children)
 
 Similar to the UI you would find in other frameworks like HTML and React, the custom UI is also a tree structure, and a component may have children components. This is defined through the [`children` prop](Custom%20UI%20Styles.md#props), which can be either one or an array of [`UINode`](../../Reference/ui/Classes/UINode.md)s.
 
-```
+```typescript
 const view = View({
+
   children: View({
+
     // children can be one UINode
+
     children: [
+
       // or an array of UINodes
+
       Text({text: 'Hello World'}),
+
       Text({text: 'This is a subtitle'}),
+
     ],
+
   }),
+
 });
 ```
 
@@ -154,9 +212,13 @@ Not all components can have children. For example, you cannot assign children co
 
 It is acceptable and quite common to store a part of the component into its own variable, so that a large complex UI can be broken down into smaller parts, improving code readability. For example, the above component can also be written as the following:
 
-```
+```typescript
 const text1 = Text({text: 'Hello World'});
+
 const text2 = Text({text: 'This is a subtitle'});
+
 const content = View({children: [text1, text2]});
+
 const view = View({children: content});
 ```
+

@@ -2,31 +2,78 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_decodeandinflate
 ---
 
-# decodeAndInflate() Function
+# [decodeAndInflate() Function](#decodeandinflate-function)
 
-Decode and inflate serialized value. Complimentary function to [compressAndEncode()](compressAndEncode.md).
+Decode and inflate serialized value. Complimentary function to [compressAndEncode()](compressAndEncode.md).\
 Mainly used for PersistentVariable storage to more easily manage max size limits (10kb) for variables.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare function decodeAndInflate(value: string): string;
+export
+ declare 
+function
+ decodeAndInflate
+(
+value
+:
+ 
+string
+):
+ 
+string
+;
 ```
 
-## Parameters
+## [Parameters](#parameters)
 
 value: string
 
-## Returns
+## [Returns](#returns)
 
 string
 
-## Examples
+## [Examples](#examples)
 
 ```
-const stringValue = 'Horizon is social and immersive';
-const compressedAndEncodedValue = compressAndEncode(stringValue);
-const decodeAndInflatedValue = decodeAndInflate(compressedAndEncodedValue);
+const
+ stringValue 
+=
+ 
+'Horizon is social and immersive'
+;
 
-console.log(Note that "${stringValue}" and "${decodeAndInflatedValue}" match);
+
+const
+ compressedAndEncodedValue 
+=
+ compressAndEncode
+(
+stringValue
+);
+
+
+const
+ decodeAndInflatedValue 
+=
+ decodeAndInflate
+(
+compressedAndEncodedValue
+);
+
+
+console
+.
+log
+(
+Note
+ that 
+"${stringValue}"
+ 
+and
+ 
+"${decodeAndInflatedValue}"
+ match
+);
 ```
+

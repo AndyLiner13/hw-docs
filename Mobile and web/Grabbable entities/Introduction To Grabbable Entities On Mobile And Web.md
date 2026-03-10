@@ -2,32 +2,33 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/grabbable-entities/intro-to-grabbable-entities
 ---
 
-# Introduction To Grabbable Entities On Mobile And Web
+# [Introduction To Grabbable Entities On Mobile And Web](#introduction-to-grabbable-entities-on-mobile-and-web)
 
 A Grabbable entity is any entity that has **Motion** set to **Interactive**, or **Interaction** set to **Grabbable**, or both. Examples of grabbable entities are guns and handheld devices. They require a variety of small changes in order to function correctly within Meta Horizon Worlds for web and mobile.
 
 This section includes the following How tos:
 
-| **Grabbable Change** | **Description** |
-| --- | --- |
+| **Grabbable Change**                                            | **Description**                                                                                                                                                                    |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [How to set the avatar’s pose and animation](Avatar%20Poses.md) | You can set the avatar and the animation used when holding a particular kind of grabbable. For example, a pistol is held and activated in a different way than a sword or a rifle. |
 
-|  |  |
-| --- | --- |
+|                                                                                                 |                                                                                                             |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | [How to set the playing animations](../TypeScript%20APIs%20for%20mobile/Player%20Animations.md) | Since firing mechanics are driven purely by scripting, the animation hooks must also be played via scripts. |
 
-|  |  |
-| --- | --- |
+|                                                                                                              |                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [How to override the avatar’s pose](../TypeScript%20APIs%20for%20mobile/Overriding%20The%20Avatar%20Pose.md) | You can force a gun to behave like a different type of grabble via scripting. You can use this for allowing multiple types of actions from one weapon. For example, you could add a melee attack to a gun using the sword animations. |
 
-|  |  |
-| --- | --- |
+|                                                    |                                                                                                                                                                                                             |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [How to set the aim direction](Aim%20Direction.md) | For players on web and mobile, guns need to fire in a set direction, regardless of what the animation does. You can specify a particular direction for each grabbable, that overrides the firing direction. |
 
-|  |  |
-| --- | --- |
+|                                                                |                                                                                                                                                                                                                                                                                                                                                                                                          |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [How to set the available action buttons](Action%20Buttons.md) | When playing on mobile, you can declare what the action buttons represent when a grabbable is held. For example, a gun can have a **Fire** and **Reload** set of actions. The primary button defaults to firing the same scripting event as pulling the trigger, so this always works for most titles. You can link the secondary action in script to trigger the same code as the VR reloading gesture. |
 
-|  |  |
-| --- | --- |
+|                                          |                                                                                                                                                                                                                                                                                 |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [How to set the crosshair](Crosshair.md) | Games commonly use crosshairs, which are generated by casting a ray from the grabbable. This can cause issues when playing animations because they won’t truly represent where the gun is aiming. To remedy this, there is a custom way of overlaying crosshairs on the screen. |
+

@@ -2,19 +2,46 @@
 source: https://developers.meta.com/horizon-worlds/reference/2.0.0/migration_migrationoptions
 ---
 
-# MigrationOptions type
+# [MigrationOptions type](#migrationoptions-type)
 
 Options for customising the effect of calling the [PlayerMigration.migrateToHorizonApp()](../Classes/PlayerMigration.md#migratetohorizonapp) method.
 
-## Signature
+## [Signature](#signature)
 
 ```
-export declare type MigrationOptions = {
-    migrationIdentifier?: string | null;
-    destinationWorldId?: string | null;
+export
+ declare type 
+MigrationOptions
+ 
+=
+ 
+{
+
+    migrationIdentifier
+?:
+ 
+string
+ 
+|
+ 
+null
+;
+
+    destinationWorldId
+?:
+ 
+string
+ 
+|
+ 
+null
+;
+
+
 };
 ```
 
-## Remarks
+## [Remarks](#remarks)
 
 `migrationIdentifier` - (string) A unique identifier for the migration flow. If a player is tagged with an identifier, it will be returned as part of the [PlayerMigration.getMigrationData()](../Classes/PlayerMigration.md#getmigrationdata) method call. Default = '' `destinationWorldId` - (string) The ID of the world the player should be migrated to. If not specified, the player will be migrated to the same world this was called from. Default = ''
+

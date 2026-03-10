@@ -2,7 +2,7 @@
 source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/feature-samples/custom-ui-tutorial-world/zone-0-setup
 ---
 
-# Zone 0 - Setup
+# [Zone 0 - Setup](#zone-0---setup)
 
 Welcome, creators!
 
@@ -10,17 +10,17 @@ This documentation serves as a companion guide to the **Custom UI Tutorial**, on
 
 ![Custom UI Tutorial World Cover Image](../../../_assets/images/e4b47820d056b9dd7876bc759581f500caf09df3f9b13d84dac8a1a831dc6c91.png)
 
-## Finding and opening the tutorial world
+## [Finding and opening the tutorial world](#finding-and-opening-the-tutorial-world)
 
 To access the Custom UI Tutorial World:
 
-- Open the Horizon Desktop Editor to be taken to the **Creation Home** page.
-- Select **Tutorials** from the left navigation options.
-- Look for **Custom UI Tutorial** in the list of available tutorial worlds and click to open and explore the world.
+1. Open the Horizon Desktop Editor to be taken to the **Creation Home** page.
+2. Select **Tutorials** from the left navigation options.
+3. Look for **Custom UI Tutorial** in the list of available tutorial worlds and click to open and explore the world.
 
 Each zone and station described in this guide corresponds to the interactive examples you can experience firsthand in the world.
 
-## Tutorial world overview
+## [Tutorial world overview](#tutorial-world-overview)
 
 This world covers how to use Custom UI assets available in the public library. The goal of this tutorial world is to be a demo space to find Custom UI examples that you can use in your worlds while also providing examples on how to use the asset in your worlds. To use this world to its fullest extent, you should have a basic understanding of [TypeScript](../../../Scripting/Get%20started%20with%20TypeScript/Using%20TypeScript%20in%20Meta%20Horizon%20Worlds.md), [Custom UI](../../../Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md), and [asset templates](../../../Desktop%20editor/Assets/Asset%20Templates.md).
 
@@ -30,71 +30,72 @@ The first step to utilizing these Custom UI examples is to explore this world. T
 
 The zones in this example world are:
 
-* **[Zone 1: Option Lists](Zone%201%20-%20Option%20Lists.md)** - Toggle lists, radio buttons, task lists, and option APIs
-* **[Zone 2: Basics](Zone%202%20-%20Basics.md)** - Basic buttons, timers, dialog prompts, and button APIs
-* **[Zone 3: Bars](Zone%203%20-%20Bars.md)** - Loading bars and health bars with progress indicators
-* **[Zone 4: Advanced Lists](Zone%204%20-%20Advanced%20Lists.md)** - Inventory systems, stats lists, and player lists
-* **[Zone 5: Animation](Zone%205%20-%20Animation.md)** - Spinning elements, timers with animation, and sliding banners
-* **[Zone 6: Scroll Views](Zone%206%20-%20Scroll%20Views.md)** - Basic text scrolling and advanced scrollable content
-* **[Zone 7: HUD](Zone%207%20-%20HUD.md)** - Head-up display implementations for games
-* **[Zone 8: Store](Zone%208%20-%20Store.md)** - Comprehensive storefront with purchase functionality
+- **[Zone 1: Option Lists](Zone%201%20-%20Option%20Lists.md)** - Toggle lists, radio buttons, task lists, and option APIs
+- **[Zone 2: Basics](Zone%202%20-%20Basics.md)** - Basic buttons, timers, dialog prompts, and button APIs
+- **[Zone 3: Bars](Zone%203%20-%20Bars.md)** - Loading bars and health bars with progress indicators
+- **[Zone 4: Advanced Lists](Zone%204%20-%20Advanced%20Lists.md)** - Inventory systems, stats lists, and player lists
+- **[Zone 5: Animation](Zone%205%20-%20Animation.md)** - Spinning elements, timers with animation, and sliding banners
+- **[Zone 6: Scroll Views](Zone%206%20-%20Scroll%20Views.md)** - Basic text scrolling and advanced scrollable content
+- **[Zone 7: HUD](Zone%207%20-%20HUD.md)** - Head-up display implementations for games
+- **[Zone 8: Store](Zone%208%20-%20Store.md)** - Comprehensive storefront with purchase functionality
 
 Each zone contains multiple stations with working examples, complete documentation, and implementation details for the Custom UI components.
 
 Each Custom UI station is structured similarly:
 
-* Station info panel: This panel lists the station number, the station name, the asset name, the asset ID, and the TypeScript filename(s).
-* Custom UI gizmo: Place this gizmo in your own world for players to interact with.
-* Demo: You can step on triggers to see how the Custom UI example works. The demo provides a basic example of how players can interact with the Custom UI gizmo.
+- Station info panel: This panel lists the station number, the station name, the asset name, the asset ID, and the TypeScript filename(s).
+- Custom UI gizmo: Place this gizmo in your own world for players to interact with.
+- Demo: You can step on triggers to see how the Custom UI example works. The demo provides a basic example of how players can interact with the Custom UI gizmo.
 
-## APIs
+## [APIs](#apis)
 
 This world and all assets referenced from this world use the custom UI API in Horizon Worlds. Make sure your world has this toggle set or else none of these assets will work.
 
-* Scripts > Settings > API > `horizon\ui` - make sure this is set to **On**
+- Scripts > Settings > API > `horizon\ui` - make sure this is set to **On**
 
-## Using the asset templates
+## [Using the asset templates](#using-the-asset-templates)
 
 Once you have explored the world and found a Custom UI you wish to use, you need to import it into your world. Start by checking the station info panel for the asset name and ID, then use this information to find the asset in the public library.
 
 Once you have found the asset, drag and drop it from the public assets folder into your world. When the asset is in your world, everything should be included with the Custom UI asset:
 
-* The station info panel
-* The Custom UI gizmo
-* A demo
+- The station info panel
+- The Custom UI gizmo
+- A demo
 
 With the script and documentation, you have all the information needed to hook up the Custom UI example in your world.
 
-## Best Practices
+## [Best Practices](#best-practices)
 
-### Performance Optimization
+### [Performance Optimization](#performance-optimization)
 
 Custom UI is one of the most expensive gizmos in terms of performance. It is recommended to use no more than eight at once. If more Custom UI gizmos are placed in the world, your world can suffer frame drops, lag, performance issues, and particularly issues with Custom UI. Although the adverse performance sometimes affects only Custom UI, it can affect other parts of your world.
 
 To avoid these performance issues, we recommend trying the following best practices:
 
-* Reusing gizmos is the safest way to minimize your Custom UI usage. This approach has some drawbacks, though, when it comes to the number of players in the world. This method requires moving similar Custom UIs in the world so that UIs in two separate places are actually one singular UI.
-* Combining multiple Custom UIs into one gizmo is another effective approach. Although this method requires TypeScript to implement, combining Custom UIs means they do not need to be overlaid on top of each other.
-* The simplest method is to hide Custom UIs when not in use. This example world uses this exact approach. Hiding Custom UIs is a cheap way to reduce the load on the Custom UI thread. The one downside is it is not as effective if multiple players in your world trigger the visibility of multiple Custom UIs.
+- Reusing gizmos is the safest way to minimize your Custom UI usage. This approach has some drawbacks, though, when it comes to the number of players in the world. This method requires moving similar Custom UIs in the world so that UIs in two separate places are actually one singular UI.
+- Combining multiple Custom UIs into one gizmo is another effective approach. Although this method requires TypeScript to implement, combining Custom UIs means they do not need to be overlaid on top of each other.
+- The simplest method is to hide Custom UIs when not in use. This example world uses this exact approach. Hiding Custom UIs is a cheap way to reduce the load on the Custom UI thread. The one downside is it is not as effective if multiple players in your world trigger the visibility of multiple Custom UIs.
 
 Multiple approaches exist for making Custom UI more performant in your world. You may need to experiment to see which method works best for your world.
 
-## Customization
+## [Customization](#customization)
 
-### Color palette
+### [Color palette](#color-palette)
 
 Most of these Custom UI examples have a color palette which you can use to customize the look of the UI. This example world comes with three different color palettes:
 
-* (0) = blue (the default option)
-* (1) = green
-* (2) yellow
+- (0) = blue (the default option)
+- (1) = green
+- (2) yellow
 
 Of course, you can create other color palettes for your Custom UIs by modifying `cuiFlexPanel.ts`. Edit this TypeScript file to create and add new color themes. Look at lines 93–120, for example, to inspect the green color palette. You can copy and paste that section to use as a template for modifying the hex codes to different colors.
 
 After you create a new style, you need to add it to the switch statement in the Custom UI gizmo. For example, you can add a new `case 3:` setting to lines 158–168 in the `BasicButton.ts` script. This will set the theme to your newly created one.
 
-### Font
+### [Font](#font)
 
 Set the font family and letter spacing here. Since Custom UI gizmos are initialized at world startup, fontFamily normally needs to be set immediately.
 
 You can change letter spacing if the font you’re using is too crowded (the Bangers font, for example).
+
