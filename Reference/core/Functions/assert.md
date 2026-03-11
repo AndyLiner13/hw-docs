@@ -8,21 +8,8 @@ Asserts that an expression is true.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- 
-assert
-(
-condition
-:
- 
-boolean
-):
- 
-void
-;
+```ts
+export declare function assert(condition: boolean): void;
 ```
 
 ## [Parameters](#parameters)

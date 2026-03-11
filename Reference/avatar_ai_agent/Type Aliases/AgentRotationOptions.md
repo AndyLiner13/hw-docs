@@ -12,26 +12,10 @@ source: https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_age
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AgentRotationOptions
- 
-=
- 
-{
-
-    rotationSpeed
-?:
- number
-;
-
-    rotationTime
-?:
- number
-;
-
-
+```ts
+export declare type AgentRotationOptions = {
+    rotationSpeed?: number;
+    rotationTime?: number;
 };
 ```
 

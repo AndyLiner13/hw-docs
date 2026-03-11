@@ -8,13 +8,8 @@ Determines whether sound from an [AudioGizmo](../Classes/AudioGizmo.md) is audib
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AudibilityMode
- 
+```ts
+export declare enum AudibilityMode 
 ```
 
 ## [Enumeration Members](#enumeration-members)

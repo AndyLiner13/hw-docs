@@ -8,15 +8,8 @@ Payload received by long tap events
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-LongTapEventData
- 
-=
- 
-TouchEventData
-;
+```ts
+export declare type LongTapEventData = TouchEventData;
 ```
 
 ## [References](#references)

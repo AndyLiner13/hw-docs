@@ -10,103 +10,23 @@ The core class for creating new types of components and attaching functionality 
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-abstract
- 
-class
- 
-Component
-<
-TComponent
- 
-=
- 
-ComponentWithConstructor
-<
-Record
-<
-string
-,
- unknown
->>,
- 
-TSerializableState
- 
-extends
- 
-SerializableState
- 
-=
- 
-SerializableState
->
- 
-implements
- 
-DisposableObject
- 
+```ts
+export declare abstract class Component<TComponent = ComponentWithConstructor<Record<string, unknown>>, TSerializableState extends SerializableState = SerializableState> implements DisposableObject 
 ```
 
 ## [Examples](#examples)
 
 In the following example, the NpcItem class extends the Component class to define a new type of component. The new component type is then registered so new instances of the NpcItem can be created in the world.
 
-```
-import
- 
-*
- 
-as
- hz 
-from
- 
-'horizon/core'
-;
+```ts
+import * as hz from 'horizon/core';
 
+class NpcItem extends hz.Component<typeof NpcItem> {
+  static propsDefinition = {};
 
-
-class
- 
-NpcItem
- 
-extends
- hz
-.
-Component
-<
-typeof
- 
-NpcItem
->
- 
-{
-
-  
-static
- propsDefinition 
-=
- 
-{};
-
-
-  start
-()
- 
-{}
-
-
+  start() {}
 }
-
-hz
-.
-Component
-.
-register
-(
-NpcItem
-);
+hz.Component.register(NpcItem);
 ```
 
 ## [Remarks](#remarks)
@@ -120,1159 +40,619 @@ For more information about using components, see the [Intro to Scripting](https:
 
 ## [Properties](#properties)
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **async** | A set of asynchronous helper functions that are scoped to the component for automatic cleanup on dispose.Signature\`\`\` |
-| async     |                                                                                                                          |
-| :         |                                                                                                                          |
+### [async](#async)
 
-{
+A set of asynchronous helper functions that are scoped to the component for automatic cleanup on dispose.
 
-```
-    setTimeout
-```
+**Signature**
 
-:
-
-(
-callback
-:
-
-TimerHandler
-,
-timeout
-?:
-number
-,
-
-...
-args
-:
-unknown
-\[])
-
-\=>
-number
-;
-
-```
-    clearTimeout
+```ts
+async: {
+        setTimeout: (callback: TimerHandler, timeout?: number, ...args: unknown[]) => number;
+        clearTimeout: (id: number) => void;
+        setInterval: (callback: TimerHandler, timeout?: number, ...args: unknown[]) => number;
+        clearInterval: (id: number) => void;
+    };
 ```
 
-:
+**Remarks**
 
-(
-id
-:
-number
-)
+`setTimeout` - Sets a timer that executes a function or specified piece of code once the timer expires.`clearTimeout` - Cancels a timeout previously established by calling `setTimeout()`.`setInterval` - Repeatedly calls a function or executes a code snippet, with a fixed time delay between each call.`clearInterval` - Cancels a timed-repeating action that was previously established by a call to `setInterval`.
 
-\=>
+### [entity \[readonly\]](#entity-readonly)
 
-void
-;
+The entity the component is attached to.
 
-```
-    setInterval
+**Signature**
+
+```ts
+readonly entity: Entity;
 ```
 
-:
+### [entityId \[readonly\]](#entityid-readonly)
 
-(
-callback
-:
+The ID of the entity the component is attached to.
 
-TimerHandler
-,
-timeout
-?:
-number
-,
+**Signature**
 
-...
-args
-:
-unknown
-\[])
-
-\=>
-number
-;
-
-```
-    clearInterval
+```ts
+readonly entityId: number;
 ```
 
-:
+### [props \[readonly\]](#props-readonly)
 
-(
-id
-:
-number
-)
+The properties that modify the component.
 
-\=>
+**Signature**
 
-void
-;
+```ts
+readonly props: GetPropsFromComponentOrPropsDefinition<TComponent>;
+```
 
-};
-``Remarks`setTimeout` - Sets a timer that executes a function or specified piece of code once the timer expires. `clearTimeout` - Cancels a timeout previously established by calling `setTimeout()`. `setInterval` - Repeatedly calls a function or executes a code snippet, with a fixed time delay between each call. `clearInterval` - Cancels a timed-repeating action that was previously established by a call to `setInterval`. | | **entity**\[readonly]     | The entity the component is attached to.Signature``
-readonly
-entity
-:
+### [propsDefinition static](#propsdefinition-static)
 
-Entity
-;
+The set of properties that define the available input and default values of the component.
 
-````|
-| **entityId**\[readonly]   | The ID of the entity the component is attached to.Signature```
-readonly
- entityId
-:
- number
-;
-```                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **props**\[readonly]      | The properties that modify the component.Signature```
-readonly
- props
-:
- 
-GetPropsFromComponentOrPropsDefinition
-<
-TComponent
->;
-```                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **propsDefinition**static | The set of properties that define the available input and default values of the component.Signature```
-static
- propsDefinition
-:
- 
-{};
-```                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **world**\[readonly]      | The [World](../Classes/World.md) instance that contains the component.Signature```
-readonly
- world
-:
- 
-World
-;
-```                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+**Signature**
+
+```ts
+static propsDefinition: {};
+```
+
+### [world \[readonly\]](#world-readonly)
+
+The [World](../Classes/World.md) instance that contains the component.
+
+**Signature**
+
+```ts
+readonly world: World;
+```
 
 ## [Methods](#methods)
 
-|                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **connectCodeBlockEvent(target, event, callback)**                | Called when receiving the specified [CodeBlockEvent](../Classes/CodeBlockEvent.md) instance from the [Player](../Classes/Player.md) or [Entity](../Classes/Entity.md) object.Signature```
-connectCodeBlockEvent
-<
-TEventArgs
- 
-extends
- 
-BuiltInVariableType
-[],
- 
-TCallbackArgs
- 
-extends
- 
-TEventArgs
->(
-target
-:
- 
-Entity
- 
-|
- 
-Player
-,
- 
-event
-:
- 
-CodeBlockEvent
-<
-TEventArgs
->,
- callback
-:
- 
-(...
-payload
-:
- 
-TCallbackArgs
-)
- 
-=>
- 
-void
-):
- 
-EventSubscription
-;
-```Parameterstarget: [Entity](../Classes/Entity.md) \| [Player](../Classes/Player.md)The entity or player to listen to.event: [CodeBlockEvent](../Classes/CodeBlockEvent.md)\<TEventArgs>The incoming `CodeBlockEvent` object.callback: (...payload: TCallbackArgs) => voidCalled when the event is received with any data as arguments.Returns[EventSubscription](../Interfaces/EventSubscription.md)ExamplesThis example demonstrates how to receive a built-in CodeBlock event using the `connectCodeBlockEvent` method.```
+### [connectCodeBlockEvent(target, event, callback)](#connectcodeblockeventtarget-event-callback)
+
+Called when receiving the specified [CodeBlockEvent](../Classes/CodeBlockEvent.md) instance from the [Player](../Classes/Player.md) or [Entity](../Classes/Entity.md) object.
+
+**Signature**
+
+```ts
+connectCodeBlockEvent<TEventArgs extends BuiltInVariableType[], TCallbackArgs extends TEventArgs>(target: Entity | Player, event: CodeBlockEvent<TEventArgs>, callback: (...payload: TCallbackArgs) => void): EventSubscription;
+```
+
+**Parameters**
+
+target: [Entity](../Classes/Entity.md) | [Player](../Classes/Player.md)
+
+The entity or player to listen to.
+
+event: [CodeBlockEvent](../Classes/CodeBlockEvent.md)\<TEventArgs>
+
+The incoming `CodeBlockEvent` object.
+
+callback: (...payload: TCallbackArgs) => void
+
+Called when the event is received with any data as arguments.
+
+**Returns**
+
+[EventSubscription](../Interfaces/EventSubscription.md)
+
+**Examples**
+
+This example demonstrates how to receive a built-in CodeBlock event using the `connectCodeBlockEvent` method.
+
+```ts
 // Import CodeBlockEvents to access Built-in Events.
+import { Component, CodeBlockEvents, Player } from 'horizon/core';
 
-
-import
- 
-{
- 
-Component
-,
- 
-CodeBlockEvents
-,
- 
-Player
- 
-}
- 
-from
- 
-'horizon/core'
-;
-
-
-
-class
- 
-BuiltInEventExample
- 
-extends
- 
-Component
- 
-{
-
-  start
-()
- 
-{
-
-    
-this
-.
-connectCodeBlockEvent
-(
-
-     
-this
-.
-entity
-,
-
-     
-CodeBlockEvents
-.
-OnIndexTriggerDown
-,
-
-     
-(
-player
-:
- 
-Player
-)
- 
-=>
- 
-{
-
-       
-// Perform an action when the Index Trigger is pressed.
-
-     
+class BuiltInEventExample extends Component {
+  start() {
+    this.connectCodeBlockEvent(
+     this.entity,
+     CodeBlockEvents.OnIndexTriggerDown,
+     (player: Player) => {
+       // Perform an action when the Index Trigger is pressed.
+     }
+   );
+     this.connectCodeBlockEvent (
+       this.entity,
+       CodeBlockEvents.OnGrabEnd,
+       (player: Player) => {
+       // Perform another action when the Grab Action ends.
+     }
+   );
+ }
 }
 
-   
-);
+Component.register(BuiltInEventExample);
+```
 
-     
-this
-.
-connectCodeBlockEvent 
-(
+**Remarks**
 
-       
-this
-.
-entity
-,
+This method is used to listen for a given code block event [sent](Component.md#sendcodeblockevent) from the player or an entity.
 
-       
-CodeBlockEvents
-.
-OnGrabEnd
-,
+### [connectLocalBroadcastEvent(event, listener)](#connectlocalbroadcasteventevent-listener)
 
-       
-(
-player
-:
- 
-Player
-)
- 
-=>
- 
-{
+Adds a listener to the specified local event. The listener is called when the event is received.
 
-       
-// Perform another action when the Grab Action ends.
+**Signature**
 
-     
+```ts
+connectLocalBroadcastEvent<TPayload extends LocalEventData>(event: LocalEvent<TPayload>, listener: (payload: TPayload) => void): EventSubscription;
+```
+
+**Parameters**
+
+event: [LocalEvent](../Classes/LocalEvent.md)\<TPayload>
+
+The local event to listen to.
+
+listener: (payload: TPayload) => void
+
+Called when the event is received with any data as arguments.
+
+**Returns**
+
+[EventSubscription](../Interfaces/EventSubscription.md)
+
+### [connectLocalEvent(target, event, callback)](#connectlocaleventtarget-event-callback)
+
+Adds a listener to the local event on the given entity. The listener is called when the event is received.
+
+**Signature**
+
+```ts
+connectLocalEvent<TPayload extends LocalEventData>(target: Entity | Player, event: LocalEvent<TPayload>, callback: (payload: TPayload) => void): EventSubscription;
+```
+
+**Parameters**
+
+target: [Entity](../Classes/Entity.md) | [Player](../Classes/Player.md)
+
+The entity to listen to.
+
+event: [LocalEvent](../Classes/LocalEvent.md)\<TPayload>
+
+The local event.
+
+callback: (payload: TPayload) => void
+
+Called when the event is received with any data as arguments.
+
+**Returns**
+
+[EventSubscription](../Interfaces/EventSubscription.md)
+
+### [connectNetworkBroadcastEvent(event, callback)](#connectnetworkbroadcasteventevent-callback)
+
+Adds a listener to the specified network event. The listener is called when the event is received from the network.
+
+**Signature**
+
+```ts
+connectNetworkBroadcastEvent<TPayload extends NetworkEventData>(event: NetworkEvent<TPayload>, callback: (payload: TPayload) => void): EventSubscription;
+```
+
+**Parameters**
+
+event: [NetworkEvent](../Classes/NetworkEvent.md)\<TPayload>
+
+The network event to listen to.
+
+callback: (payload: TPayload) => void
+
+Called when the event is received with any data as arguments.
+
+**Returns**
+
+[EventSubscription](../Interfaces/EventSubscription.md)
+
+### [connectNetworkEvent(target, event, callback)](#connectnetworkeventtarget-event-callback)
+
+Adds a listener to the specified network event on the given entity. The listener is called when the event is received from network.
+
+**Signature**
+
+```ts
+connectNetworkEvent<TPayload extends NetworkEventData>(target: Entity | Player, event: NetworkEvent<TPayload>, callback: (payload: TPayload) => void): EventSubscription;
+```
+
+**Parameters**
+
+target: [Entity](../Classes/Entity.md) | [Player](../Classes/Player.md)
+
+The entity or player to listen to.
+
+event: [NetworkEvent](../Classes/NetworkEvent.md)\<TPayload>
+
+The network event.
+
+callback: (payload: TPayload) => void
+
+Called when the event is received with any data as arguments.
+
+**Returns**
+
+[EventSubscription](../Interfaces/EventSubscription.md)
+
+### [dispose()](#dispose)
+
+Called when the component is cleaned up.
+
+**Signature**
+
+```ts
+dispose(): void;
+```
+
+**Returns**
+
+void
+
+**Remarks**
+
+Subscriptions registered using , , , and are cleaned up automatically.
+
+### [getComponents(type) static](#getcomponentstype-static)
+
+Returns a list of all script component instances of the specified type in the world. Only returns script component instances if they're executing in the same context (i.e. On the server or on a particular client). This method should not be used in prestart() as other script component instances may not yet be instantiated.
+
+**Signature**
+
+```ts
+static getComponents<T extends Component<unknown, SerializableState> = Component>(type: new () => T): T[];
+```
+
+**Parameters**
+
+type: new () => T
+
+The specified type of Component.
+
+**Returns**
+
+T\[]
+
+A list of all active instances of the specified component type in the current execution context (i.e., on the server or on a particular client).
+
+### [preStart()](#prestart)
+
+Performs initialization tasks before the method is called.
+
+**Signature**
+
+```ts
+preStart(): void;
+```
+
+**Returns**
+
+void
+
+**Remarks**
+
+This method runs in these scenarios as follows:World start: `preStart` runs for all components before the `start` method of any component is called. Asset spawn: `preStart` runs before any `start` methods are called for any components that are spawning. Ownership transfer: `preStart` is called directly before the `start` method is called.
+
+### [receiveOwnership(\_serializableState, \_oldOwner, \_newOwner)](#receiveownership_serializablestate-_oldowner-_newowner)
+
+Called when the script's ownership is being transferred to a new player. This method allows the new owner to receive the serializable state from the previous owner during ownership transfer.
+
+**Signature**
+
+```ts
+receiveOwnership(_serializableState: TSerializableState | null, _oldOwner: Player, _newOwner: Player): void;
+```
+
+**Parameters**
+
+\_serializableState: TSerializableState | null
+
+The serializable state from prior owner, or null if that state is invalid.
+
+\_oldOwner: [Player](../Classes/Player.md)
+
+The prior owner.
+
+\_newOwner: [Player](../Classes/Player.md)
+
+The current owner.
+
+**Returns**
+
+void
+
+**Examples**
+
+```ts
+type State = {ammo: number};
+class WeaponWithAmmo extends Component<typeof WeaponWithAmmo, State> {
+  static propsDefinition = {
+    initialAmmo: {type: PropTypes.Number, default: 20},
+  };
+  private ammo: number = 0;
+  start() {
+    this.ammo = this.props.initialAmmo;
+  }
+  receiveOwnership(state: State | null, fromPlayer: Player, toPlayer: Player) {
+    this.ammo = state?.ammo ?? this.ammo;
+  }
+  transferOwnership(fromPlayer: Player, toPlayer: Player): State {
+    return {ammo: this.ammo};
+  }
 }
+```
 
-   
-);
+**Remarks**
 
- 
-}
+When changing entity ownership to a new player, you must transfer the state of the entity as well or the state will be lost. You can use the [Component.transferOwnership()](Component.md#transferownership) and [Component.receiveOwnership()](Component.md#receiveownership) methods to transfer an entity's state to a new owner. For more information, see [Maintaining local state on ownership change](../../../Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md).If ownership for a parent entity changes, the ownership change doesn't automatically apply to any child entities.You must handle the edge case when the local state isn't transferred, such as the previous owner disconnecting from Horizon during a power or connectivity outage. In these cases, there's no guarantee that the entity's local state is transferred.The maximum size of state information that can be transferred is capped at 63kB. Transfers that are larger generate an error.
 
+### [register(componentClass, componentName) static](#registercomponentclass-componentname-static)
 
-}
+Registers a component class as a component definition that is used to instantiate components of the given type, which also allows them to be attached to [entities](../Classes/Entity.md).
 
+**Signature**
 
+```ts
+static register<TComponentPropsDefinition>(componentClass: // this needs to be typed with the interface type so we know it can be instantiated (is not abstract)
+    ComponentWithConstructor<TComponentPropsDefinition> & typeof Component<ComponentWithConstructor<TComponentPropsDefinition>>, componentName?: string): void;
+```
 
-Component
-.
-register
-(
-BuiltInEventExample
-);
-```RemarksThis method is used to listen for a given code block event [sent](Component.md#sendcodeblockevent) from the player or an entity.                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **connectLocalBroadcastEvent(event, listener)**                   | Adds a listener to the specified local event. The listener is called when the event is received.Signature```
-connectLocalBroadcastEvent
-<
-TPayload
- 
-extends
- 
-LocalEventData
->(
-event
-:
- 
-LocalEvent
-<
-TPayload
->,
- listener
-:
- 
-(
-payload
-:
- 
-TPayload
-)
- 
-=>
- 
+**Parameters**
+
+componentClass: [ComponentWithConstructor](../Type%20Aliases/ComponentWithConstructor.md)\<TComponentPropsDefinition> & typeof [Component](Component.md)<[ComponentWithConstructor](../Type%20Aliases/ComponentWithConstructor.md)\<TComponentPropsDefinition>>
+
+The component class to register.
+
+componentName: string
+
+*(Optional)* The name of component to display in the UI.
+
+**Returns**
+
 void
-):
- 
-EventSubscription
-;
-```Parametersevent: [LocalEvent](../Classes/LocalEvent.md)\<TPayload>The local event to listen to.listener: (payload: TPayload) => voidCalled when the event is received with any data as arguments.Returns[EventSubscription](../Interfaces/EventSubscription.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **connectLocalEvent(target, event, callback)**                    | Adds a listener to the local event on the given entity. The listener is called when the event is received.Signature```
-connectLocalEvent
-<
-TPayload
- 
-extends
- 
-LocalEventData
->(
-target
-:
- 
-Entity
- 
-|
- 
-Player
-,
- 
-event
-:
- 
-LocalEvent
-<
-TPayload
->,
- callback
-:
- 
-(
-payload
-:
- 
-TPayload
-)
- 
-=>
- 
+
+**Examples**
+
+In this example, the NpcItem class is registered as a component definition.
+
+```ts
+hz.Component.register(NpcItem);
+```
+
+**Remarks**
+
+Component registry is required when you create new classes that extend the abstract [Component](Component.md) class.
+
+### [registerDisposeOperation(operation)](#registerdisposeoperationoperation)
+
+Called to register a single operation. The operation runs automatically when the component is disposed unless it is manually run or canceled before the component is disposed.
+
+**Signature**
+
+```ts
+registerDisposeOperation(operation: DisposeOperation): DisposeOperationRegistration;
+```
+
+**Parameters**
+
+operation: [DisposeOperation](../Type%20Aliases/DisposeOperation.md)
+
+A function called to perform a single dispose operation.
+
+**Returns**
+
+[DisposeOperationRegistration](../Interfaces/DisposeOperationRegistration.md)
+
+A registration object that can be used to manually run or cancel the operation before dispose.
+
+### [sendCodeBlockEvent(target, event, args)](#sendcodeblockeventtarget-event-args)
+
+Sends a code block event to the specified player or entity. These events are networked automatically, and sent and handled asynchronously.
+
+**Signature**
+
+```ts
+sendCodeBlockEvent<TPayload extends BuiltInVariableType[]>(target: Entity | Player, event: CodeBlockEvent<TPayload>, ...args: TPayload): void;
+```
+
+**Parameters**
+
+target: [Entity](../Classes/Entity.md) | [Player](../Classes/Player.md)
+
+The entity or player that receives the event.
+
+event: [CodeBlockEvent](../Classes/CodeBlockEvent.md)\<TPayload>
+
+The [CodeBlockEvent](../Classes/CodeBlockEvent.md) that represents the event.
+
+args: TPayload
+
+The data to send with the event.
+
+**Returns**
+
 void
-):
- 
-EventSubscription
-;
-```Parameterstarget: [Entity](../Classes/Entity.md) \| [Player](../Classes/Player.md)The entity to listen to.event: [LocalEvent](../Classes/LocalEvent.md)\<TPayload>The local event.callback: (payload: TPayload) => voidCalled when the event is received with any data as arguments.Returns[EventSubscription](../Interfaces/EventSubscription.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **connectNetworkBroadcastEvent(event, callback)**                 | Adds a listener to the specified network event. The listener is called when the event is received from the network.Signature```
-connectNetworkBroadcastEvent
-<
-TPayload
- 
-extends
- 
-NetworkEventData
->(
-event
-:
- 
-NetworkEvent
-<
-TPayload
->,
- callback
-:
- 
-(
-payload
-:
- 
-TPayload
-)
- 
-=>
- 
+
+### [sendLocalBroadcastEvent(event, data)](#sendlocalbroadcasteventevent-data)
+
+Sends a local event to all listeners.If a local event is sent, it is sent immediately. This function does not return until delivery completes.
+
+**Signature**
+
+```ts
+sendLocalBroadcastEvent<TPayload extends LocalEventData, TData extends TPayload>(event: LocalEvent<TPayload>, data: TData): void;
+```
+
+**Parameters**
+
+event: [LocalEvent](../Classes/LocalEvent.md)\<TPayload>
+
+The local event to send.
+
+data: TData
+
+**Returns**
+
 void
-):
- 
-EventSubscription
-;
-```Parametersevent: [NetworkEvent](../Classes/NetworkEvent.md)\<TPayload>The network event to listen to.callback: (payload: TPayload) => voidCalled when the event is received with any data as arguments.Returns[EventSubscription](../Interfaces/EventSubscription.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **connectNetworkEvent(target, event, callback)**                  | Adds a listener to the specified network event on the given entity. The listener is called when the event is received from network.Signature```
-connectNetworkEvent
-<
-TPayload
- 
-extends
- 
-NetworkEventData
->(
-target
-:
- 
-Entity
- 
-|
- 
-Player
-,
- 
-event
-:
- 
-NetworkEvent
-<
-TPayload
->,
- callback
-:
- 
-(
-payload
-:
- 
-TPayload
-)
- 
-=>
- 
+
+### [sendLocalEvent(target, event, data)](#sendlocaleventtarget-event-data)
+
+Sends a local event to a specific entity from the owner of the entity.
+
+**Signature**
+
+```ts
+sendLocalEvent<TPayload extends LocalEventData, TData extends TPayload>(target: Entity | Player, event: LocalEvent<TPayload>, data: TData): void;
+```
+
+**Parameters**
+
+target: [Entity](../Classes/Entity.md) | [Player](../Classes/Player.md)
+
+The entity that receives the event.
+
+event: [LocalEvent](../Classes/LocalEvent.md)\<TPayload>
+
+The local event to send.
+
+data: TData
+
+**Returns**
+
 void
-):
- 
-EventSubscription
-;
-```Parameterstarget: [Entity](../Classes/Entity.md) \| [Player](../Classes/Player.md)The entity or player to listen to.event: [NetworkEvent](../Classes/NetworkEvent.md)\<TPayload>The network event.callback: (payload: TPayload) => voidCalled when the event is received with any data as arguments.Returns[EventSubscription](../Interfaces/EventSubscription.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **dispose()**                                                     | Called when the component is cleaned up.Signature```
-dispose
-():
- 
+
+**Remarks**
+
+The event is sent immediately and this function does not return until delivery completes.
+
+### [sendNetworkBroadcastEvent(event, data, players)](#sendnetworkbroadcasteventevent-data-players)
+
+Broadcasts a network event. The event is only handled if the host listens to the event.
+
+**Signature**
+
+```ts
+sendNetworkBroadcastEvent<TPayload extends NetworkEventData>(event: NetworkEvent<TPayload>, data: TPayload, players?: Array<Player>): void;
+```
+
+**Parameters**
+
+event: [NetworkEvent](../Classes/NetworkEvent.md)\<TPayload>
+
+The network event to broadcast.
+
+data: TPayload
+
+The data to send with the event. the maximum amount data supported after serialization is 63kB.
+
+players: Array<[Player](../Classes/Player.md)>
+
+*(Optional)* The list of players devices to send the event to. If you do not specify this parameter, the event is sent to all devices owned by the player. You should only use this parameter if you are familiar with how it works.
+
+**Returns**
+
 void
-;
-```ReturnsvoidRemarksSubscriptions registered using , , , and are cleaned up automatically.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **getComponents(type)**static                                     | Returns a list of all script component instances of the specified type in the world. Only returns script component instances if they're executing in the same context (i.e. On the server or on a particular client). This method should not be used in prestart() as other script component instances may not yet be instantiated.Signature```
-static
- getComponents
-<
-T 
-extends
- 
-Component
-<
-unknown
-,
- 
-SerializableState
->
- 
-=
- 
-Component
->(
-type
-:
- 
-new
- 
-()
- 
-=>
- T
-):
- T
-[];
-```Parameterstype: new () => TThe specified type of Component.ReturnsT\[]A list of all active instances of the specified component type in the current execution context (i.e., on the server or on a particular client).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **preStart()**                                                    | Performs initialization tasks before the method is called.Signature```
-preStart
-():
- 
+
+### [sendNetworkEvent(target, event, data, players)](#sendnetworkeventtarget-event-data-players)
+
+Sends a network event to the player that owns the given entity.
+
+**Signature**
+
+```ts
+sendNetworkEvent<TPayload extends NetworkEventData>(target: Entity | Player, event: NetworkEvent<TPayload>, data: TPayload, players?: Array<Player>): void;
+```
+
+**Parameters**
+
+target: [Entity](../Classes/Entity.md) | [Player](../Classes/Player.md)
+
+The player or entity that recieves the event.
+
+event: [NetworkEvent](../Classes/NetworkEvent.md)\<TPayload>
+
+The network event.
+
+data: TPayload
+
+The data to send with the event. the maximum amount data after serialization is 63kB.
+
+players: Array<[Player](../Classes/Player.md)>
+
+*(Optional)* The list of player devices to send the event to. If you don't specify this parameter, the event is sent to all devices owned by the player. You should only use specify this parameter if you understand it well.
+
+**Returns**
+
 void
-;
-```ReturnsvoidRemarksThis method runs in these scenarios as follows: World start: `preStart` runs for all components before the `start` method of any component is called. Asset spawn: `preStart` runs before any `start` methods are called for any components that are spawning. Ownership transfer: `preStart` is called directly before the `start` method is called.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **receiveOwnership(\_serializableState, \_oldOwner, \_newOwner)** | Called when the script's ownership is being transferred to a new player. This method allows the new owner to receive the serializable state from the previous owner during ownership transfer.Signature```
-receiveOwnership
-(
-_serializableState
-:
- 
+
+**Remarks**
+
+The event is only handled if is called on the same entity on the owner client.
+
+### [start() abstract](#start-abstract)
+
+Called when the component starts running. This is where you can add event listeners that need to run when the script starts running.
+
+**Signature**
+
+```ts
+abstract start(): void;
+```
+
+**Returns**
+
+void
+
+### [transferOwnership(\_oldOwner, \_newOwner)](#transferownership_oldowner-_newowner)
+
+Called when transferring the script's ownership to a new player. During the transer, this method can condense the previous owner's state into a serializable format and pass it to the new owner.
+
+**Signature**
+
+```ts
+transferOwnership(_oldOwner: Player, _newOwner: Player): TSerializableState;
+```
+
+**Parameters**
+
+\_oldOwner: [Player](../Classes/Player.md)
+
+The original owner.
+
+\_newOwner: [Player](../Classes/Player.md)
+
+The new owner.
+
+**Returns**
+
 TSerializableState
- 
-|
- 
-null
-,
- _oldOwner
-:
- 
-Player
-,
- _newOwner
-:
- 
-Player
-):
- 
-void
-;
-```Parameters\_serializableState: TSerializableState \| nullThe serializable state from prior owner, or null if that state is invalid.\_oldOwner: [Player](../Classes/Player.md)The prior owner.\_newOwner: [Player](../Classes/Player.md)The current owner.ReturnsvoidExamples```
-type 
-State
- 
-=
- 
-{
-ammo
-:
- number
-};
 
+The serializable state to transfer to the new owner.
 
-class
- 
-WeaponWithAmmo
- 
-extends
- 
-Component
-<
-typeof
- 
-WeaponWithAmmo
-,
- 
-State
->
- 
-{
+**Examples**
 
-  
-static
- propsDefinition 
-=
- 
-{
-
-    initialAmmo
-:
- 
-{
-type
-:
- 
-PropTypes
-.
-Number
-,
- 
-default
-:
- 
-20
-},
-
-  
-};
-
-  
-private
- ammo
-:
- number 
-=
- 
-0
-;
-
-  start
-()
- 
-{
-
-    
-this
-.
-ammo 
-=
- 
-this
-.
-props
-.
-initialAmmo
-;
-
-  
+```ts
+type State = {ammo: number};
+class WeaponWithAmmo extends Component<typeof WeaponWithAmmo, State> {
+  static propsDefinition = {
+    initialAmmo: {type: PropTypes.Number, default: 20},
+  };
+  private ammo: number = 0;
+  start() {
+    this.ammo = this.props.initialAmmo;
+  }
+  receiveOwnership(state: State | null, fromPlayer: Player, toPlayer: Player) {
+    this.ammo = state?.ammo ?? this.ammo;
+  }
+  transferOwnership(fromPlayer: Player, toPlayer: Player): State {
+    return {ammo: this.ammo};
+  }
 }
+```
 
-  receiveOwnership
-(
-state
-:
- 
-State
- 
-|
- 
-null
-,
- fromPlayer
-:
- 
-Player
-,
- toPlayer
-:
- 
-Player
-)
- 
-{
+**Remarks**
 
-    
-this
-.
-ammo 
-=
- state
-?.
-ammo 
-??
- 
-this
-.
-ammo
-;
-
-  
-}
-
-  transferOwnership
-(
-fromPlayer
-:
- 
-Player
-,
- toPlayer
-:
- 
-Player
-):
- 
-State
- 
-{
-
-    
-return
- 
-{
-ammo
-:
- 
-this
-.
-ammo
-};
-
-  
-}
-
-
-}
-```RemarksWhen changing entity ownership to a new player, you must transfer the state of the entity as well or the state will be lost. You can use the [Component.transferOwnership()](Component.md#transferownership) and [Component.receiveOwnership()](Component.md#receiveownership) methods to transfer an entity's state to a new owner. For more information, see [Maintaining local state on ownership change](../../../Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md). If ownership for a parent entity changes, the ownership change doesn't automatically apply to any child entities. You must handle the edge case when the local state isn't transferred, such as the previous owner disconnecting from Horizon during a power or connectivity outage. In these cases, there's no guarantee that the entity's local state is transferred. The maximum size of state information that can be transferred is capped at 63kB. Transfers that are larger generate an error. |
-| **register(componentClass, componentName)**static                 | Registers a component class as a component definition that is used to instantiate components of the given type, which also allows them to be attached to [entities](../Classes/Entity.md).Signature```
-static
- 
-register
-<
-TComponentPropsDefinition
->(
-componentClass
-:
- 
-// this needs to be typed with the interface type so we know it can be instantiated (is not abstract)
-
-    
-ComponentWithConstructor
-<
-TComponentPropsDefinition
->
- 
-&
- 
-typeof
- 
-Component
-<
-ComponentWithConstructor
-<
-TComponentPropsDefinition
->>,
- componentName
-?:
- 
-string
-):
- 
-void
-;
-```ParameterscomponentClass: [ComponentWithConstructor](../Type%20Aliases/ComponentWithConstructor.md)\<TComponentPropsDefinition> & typeof [Component](Component.md)<[ComponentWithConstructor](../Type%20Aliases/ComponentWithConstructor.md)\<TComponentPropsDefinition>>The component class to register.componentName: string*(Optional)* The name of component to display in the UI.ReturnsvoidExamplesIn this example, the NpcItem class is registered as a component definition.```
-hz
-.
-Component
-.
-register
-(
-NpcItem
-);
-```RemarksComponent registry is required when you create new classes that extend the abstract [Component](Component.md) class.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **registerDisposeOperation(operation)**                           | Called to register a single operation. The operation runs automatically when the component is disposed unless it is manually run or canceled before the component is disposed.Signature```
-registerDisposeOperation
-(
-operation
-:
- 
-DisposeOperation
-):
- 
-DisposeOperationRegistration
-;
-```Parametersoperation: [DisposeOperation](../Type%20Aliases/DisposeOperation.md)A function called to perform a single dispose operation.Returns[DisposeOperationRegistration](../Interfaces/DisposeOperationRegistration.md)A registration object that can be used to manually run or cancel the operation before dispose.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **sendCodeBlockEvent(target, event, args)**                       | Sends a code block event to the specified player or entity. These events are networked automatically, and sent and handled asynchronously.Signature```
-sendCodeBlockEvent
-<
-TPayload
- 
-extends
- 
-BuiltInVariableType
-[]>(
-target
-:
- 
-Entity
- 
-|
- 
-Player
-,
- 
-event
-:
- 
-CodeBlockEvent
-<
-TPayload
->,
- 
-...
-args
-:
- 
-TPayload
-):
- 
-void
-;
-```Parameterstarget: [Entity](../Classes/Entity.md) \| [Player](../Classes/Player.md)The entity or player that receives the event.event: [CodeBlockEvent](../Classes/CodeBlockEvent.md)\<TPayload>The [CodeBlockEvent](../Classes/CodeBlockEvent.md) that represents the event.args: TPayloadThe data to send with the event.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **sendLocalBroadcastEvent(event, data)**                          | Sends a local event to all listeners. If a local event is sent, it is sent immediately. This function does not return until delivery completes.Signature```
-sendLocalBroadcastEvent
-<
-TPayload
- 
-extends
- 
-LocalEventData
-,
- 
-TData
- 
-extends
- 
-TPayload
->(
-event
-:
- 
-LocalEvent
-<
-TPayload
->,
- data
-:
- 
-TData
-):
- 
-void
-;
-```Parametersevent: [LocalEvent](../Classes/LocalEvent.md)\<TPayload>The local event to send.data: TDataReturnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **sendLocalEvent(target, event, data)**                           | Sends a local event to a specific entity from the owner of the entity.Signature```
-sendLocalEvent
-<
-TPayload
- 
-extends
- 
-LocalEventData
-,
- 
-TData
- 
-extends
- 
-TPayload
->(
-target
-:
- 
-Entity
- 
-|
- 
-Player
-,
- 
-event
-:
- 
-LocalEvent
-<
-TPayload
->,
- data
-:
- 
-TData
-):
- 
-void
-;
-```Parameterstarget: [Entity](../Classes/Entity.md) \| [Player](../Classes/Player.md)The entity that receives the event.event: [LocalEvent](../Classes/LocalEvent.md)\<TPayload>The local event to send.data: TDataReturnsvoidRemarksThe event is sent immediately and this function does not return until delivery completes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **sendNetworkBroadcastEvent(event, data, players)**               | Broadcasts a network event. The event is only handled if the host listens to the event.Signature```
-sendNetworkBroadcastEvent
-<
-TPayload
- 
-extends
- 
-NetworkEventData
->(
-event
-:
- 
-NetworkEvent
-<
-TPayload
->,
- data
-:
- 
-TPayload
-,
- players
-?:
- 
-Array
-<
-Player
->):
- 
-void
-;
-```Parametersevent: [NetworkEvent](../Classes/NetworkEvent.md)\<TPayload>The network event to broadcast.data: TPayloadThe data to send with the event. the maximum amount data supported after serialization is 63kB.players: Array<[Player](../Classes/Player.md)>*(Optional)* The list of players devices to send the event to. If you do not specify this parameter, the event is sent to all devices owned by the player. You should only use this parameter if you are familiar with how it works.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **sendNetworkEvent(target, event, data, players)**                | Sends a network event to the player that owns the given entity.Signature```
-sendNetworkEvent
-<
-TPayload
- 
-extends
- 
-NetworkEventData
->(
-target
-:
- 
-Entity
- 
-|
- 
-Player
-,
- 
-event
-:
- 
-NetworkEvent
-<
-TPayload
->,
- data
-:
- 
-TPayload
-,
- players
-?:
- 
-Array
-<
-Player
->):
- 
-void
-;
-```Parameterstarget: [Entity](../Classes/Entity.md) \| [Player](../Classes/Player.md)The player or entity that recieves the event.event: [NetworkEvent](../Classes/NetworkEvent.md)\<TPayload>The network event.data: TPayloadThe data to send with the event. the maximum amount data after serialization is 63kB.players: Array<[Player](../Classes/Player.md)>*(Optional)* The list of player devices to send the event to. If you don't specify this parameter, the event is sent to all devices owned by the player. You should only use specify this parameter if you understand it well.ReturnsvoidRemarksThe event is only handled if is called on the same entity on the owner client.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **start()**abstract                                               | Called when the component starts running. This is where you can add event listeners that need to run when the script starts running.Signature```
-abstract
- start
-():
- 
-void
-;
-```Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **transferOwnership(\_oldOwner, \_newOwner)**                     | Called when transferring the script's ownership to a new player. During the transer, this method can condense the previous owner's state into a serializable format and pass it to the new owner.Signature```
-transferOwnership
-(
-_oldOwner
-:
- 
-Player
-,
- _newOwner
-:
- 
-Player
-):
- 
-TSerializableState
-;
-```Parameters\_oldOwner: [Player](../Classes/Player.md)The original owner.\_newOwner: [Player](../Classes/Player.md)The new owner.ReturnsTSerializableStateThe serializable state to transfer to the new owner.Examples```
-type 
-State
- 
-=
- 
-{
-ammo
-:
- number
-};
-
-
-class
- 
-WeaponWithAmmo
- 
-extends
- 
-Component
-<
-typeof
- 
-WeaponWithAmmo
-,
- 
-State
->
- 
-{
-
-  
-static
- propsDefinition 
-=
- 
-{
-
-    initialAmmo
-:
- 
-{
-type
-:
- 
-PropTypes
-.
-Number
-,
- 
-default
-:
- 
-20
-},
-
-  
-};
-
-  
-private
- ammo
-:
- number 
-=
- 
-0
-;
-
-  start
-()
- 
-{
-
-    
-this
-.
-ammo 
-=
- 
-this
-.
-props
-.
-initialAmmo
-;
-
-  
-}
-
-  receiveOwnership
-(
-state
-:
- 
-State
- 
-|
- 
-null
-,
- fromPlayer
-:
- 
-Player
-,
- toPlayer
-:
- 
-Player
-)
- 
-{
-
-    
-this
-.
-ammo 
-=
- state
-?.
-ammo 
-??
- 
-this
-.
-ammo
-;
-
-  
-}
-
-  transferOwnership
-(
-fromPlayer
-:
- 
-Player
-,
- toPlayer
-:
- 
-Player
-):
- 
-State
- 
-{
-
-    
-return
- 
-{
-ammo
-:
- 
-this
-.
-ammo
-};
-
-  
-}
-
-
-}
-```RemarksWhen changing entity ownership to a new player, you must transfer the state of the entity as well or the state will be lost. You can use the [Component.transferOwnership()](Component.md#transferownership) and [Component.receiveOwnership()](Component.md#receiveownership) methods to transfer an entity's state to a new owner. For more information, see [Maintaining local state on ownership change](../../../Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md). If ownership for a parent entity changes, the ownership change doesn't automatically apply to any child entities. You must handle the edge case when the local state isn't transferred, such as the previous owner disconnecting from Horizon during a power or connectivity outage. In these cases, there's no guarantee that the entity's local state is transferred. The maximum size of state information that can be transferred is capped at 63kB. Transfers that are larger generate an error.                                                                                               |
-````
+When changing entity ownership to a new player, you must transfer the state of the entity as well or the state will be lost. You can use the [Component.transferOwnership()](Component.md#transferownership) and [Component.receiveOwnership()](Component.md#receiveownership) methods to transfer an entity's state to a new owner. For more information, see [Maintaining local state on ownership change](../../../Scripting/Local%20scripting/Maintaining%20Local%20State%20on%20Ownership%20Change.md).If ownership for a parent entity changes, the ownership change doesn't automatically apply to any child entities.You must handle the edge case when the local state isn't transferred, such as the previous owner disconnecting from Horizon during a power or connectivity outage. In these cases, there's no guarantee that the entity's local state is transferred.The maximum size of state information that can be transferred is capped at 63kB. Transfers that are larger generate an error.
 

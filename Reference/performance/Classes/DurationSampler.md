@@ -4,3 +4,54 @@ source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_d
 
 # [DurationSampler Class](#durationsampler-class)
 
+> [!Warning]
+>
+> This API is now obsolete.\
+> Use [HorizonDurationSampler](HorizonDurationSampler.md) instead!
+
+This class is deprecated.
+
+## [Signature](#signature)
+
+```ts
+export declare class DurationSampler 
+```
+
+## [Remarks](#remarks)
+
+Creates a sampler that can be used to record an event that has a duration.
+
+## [Constructors](#constructors)
+
+### [(constructor)(name)](#constructorname)
+
+Constructs a new instance of the `DurationSampler` class
+
+**Signature**
+
+```ts
+constructor(name: string);
+```
+
+**Parameters**
+
+name: string
+
+## [Methods](#methods)
+
+### [trace(fn)](#tracefn)
+
+**Signature**
+
+```ts
+trace(fn: () => void): void;
+```
+
+**Parameters**
+
+fn: () => void
+
+**Returns**
+
+void
+

@@ -8,29 +8,8 @@ A callback that signals changes in the pressed state of a [PlayerInput](../Class
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AnimationCallback
- 
-=
- 
-(
-animation
-:
- 
-Asset
-,
- reason
-:
- 
-AnimationCallbackReason
-)
- 
-=>
- 
-void
-;
+```ts
+export declare type AnimationCallback = (animation: Asset, reason: AnimationCallbackReason) => void;
 ```
 
 ## [References](#references)

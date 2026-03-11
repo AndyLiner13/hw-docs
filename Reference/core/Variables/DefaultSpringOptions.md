@@ -8,11 +8,8 @@ Defines the default values for spring physics when using the [SpringOptions](../
 
 ## [Signature](#signature)
 
-```
-DefaultSpringOptions
-:
- 
-SpringOptions
+```ts
+DefaultSpringOptions: SpringOptions
 ```
 
 ## [Remarks](#remarks)

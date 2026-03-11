@@ -9,118 +9,155 @@ For information about usage, see [Introduction to Asset Spawning](../../../Scrip
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-SpawnControllerBase
- 
+```ts
+export declare class SpawnControllerBase 
 ```
 
 ## [Properties](#properties)
 
-|                        |                                                                                                                  |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **\_spawnId**protected | The ID of the asset that is currently being spawned. This is a protected version of the property.Signature\`\`\` |
-| protected              |                                                                                                                  |
-| \_spawnId              |                                                                                                                  |
-| :                      |                                                                                                                  |
-| number                 |                                                                                                                  |
-| ;                      |                                                                                                                  |
+### [\_spawnId protected](#_spawnid-protected)
 
-````|
-| **currentState**\[readonly] | The current spawn state of the spawn controller asset.Signature```
-readonly
- currentState
-:
- 
-ReadableHorizonProperty
-<
-SpawnState
->;
-```            |
-| **rootEntities**\[readonly] | A list of entities contained in a spawned asset.Signature```
-readonly
- rootEntities
-:
- 
-ReadableHorizonProperty
-<
-Entity
-[]>;
-```                    |
-| **spawnError**\[readonly]   | An error associated with the spawn operation.Signature```
-readonly
- spawnError
-:
- 
-ReadableHorizonProperty
-<
-SpawnError
->;
-```                       |
-| **spawnId**\[readonly]      | The ID of the asset that is currently being spawned.Signature```
-get
- spawnId
-():
- number
-;
-```                                                      |
-| **targetState**\[readonly]  | The spawn state the spawn controller asset is attempting to reach.Signature```
-readonly
- targetState
-:
- 
-ReadableHorizonProperty
-<
-SpawnState
->;
-``` |
+The ID of the asset that is currently being spawned. This is a protected version of the property.
+
+**Signature**
+
+```ts
+protected _spawnId: number;
+```
+
+### [currentState \[readonly\]](#currentstate-readonly)
+
+The current spawn state of the spawn controller asset.
+
+**Signature**
+
+```ts
+readonly currentState: ReadableHorizonProperty<SpawnState>;
+```
+
+### [rootEntities \[readonly\]](#rootentities-readonly)
+
+A list of entities contained in a spawned asset.
+
+**Signature**
+
+```ts
+readonly rootEntities: ReadableHorizonProperty<Entity[]>;
+```
+
+### [spawnError \[readonly\]](#spawnerror-readonly)
+
+An error associated with the spawn operation.
+
+**Signature**
+
+```ts
+readonly spawnError: ReadableHorizonProperty<SpawnError>;
+```
+
+### [spawnId \[readonly\]](#spawnid-readonly)
+
+The ID of the asset that is currently being spawned.
+
+**Signature**
+
+```ts
+get spawnId(): number;
+```
+
+### [targetState \[readonly\]](#targetstate-readonly)
+
+The spawn state the spawn controller asset is attempting to reach.
+
+**Signature**
+
+```ts
+readonly targetState: ReadableHorizonProperty<SpawnState>;
+```
 
 ## [Methods](#methods)
 
-|               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **dispose()** | Unloads the asset data of a spawn controller, and performs cleanup on the spawn controller object.Signature```
-dispose
-():
- 
-Promise
-<unknown>
-;
-```ReturnsPromise\<unknown>A promise that indicates whether the dispose operation succeeded.RemarksThis method is equivalent to , except afterwards the spawn controller is no longer available for use and all of its methods throw errors. Call `dispose` in order to clean up resources that are no longer needed. |
-| **load()**    | Preloads the asset data for a spawn controller.Signature```
-load
-():
- 
-Promise
-<void>
-;
-```ReturnsPromise\<void>A promise that indicates whether the operation succeeded.                                                                                                                                                                                                                                                                                              |
-| **pause()**   | Pauses the spawning process for a spawn controller.Signature```
-pause
-():
- 
-Promise
-<void>
-;
-```ReturnsPromise\<void>A promise that indicates whether the operation succeeded.                                                                                                                                                                                                                                                                                         |
-| **spawn()**   | Loads asset data if it's not previously loaded and then spawns the asset.Signature```
-spawn
-():
- 
-Promise
-<void>
-;
-```ReturnsPromise\<void>A promise that indicates whether the operation succeeded.                                                                                                                                                                                                                                                                   |
-| **unload()**  | Unloads the spawn controller asset data. If the spawn controller isn't needed after the data is unloaded, call .Signature```
-unload
-():
- 
-Promise
-<void>
-;
-```ReturnsPromise\<void>A promise that indicates whether the operation succeeded.                                                                                                                                                                                                                           |
-````
+### [dispose()](#dispose)
+
+Unloads the asset data of a spawn controller, and performs cleanup on the spawn controller object.
+
+**Signature**
+
+```ts
+dispose(): Promise<unknown>;
+```
+
+**Returns**
+
+Promise\<unknown>
+
+A promise that indicates whether the dispose operation succeeded.
+
+**Remarks**
+
+This method is equivalent to , except afterwards the spawn controller is no longer available for use and all of its methods throw errors. Call `dispose` in order to clean up resources that are no longer needed.
+
+### [load()](#load)
+
+Preloads the asset data for a spawn controller.
+
+**Signature**
+
+```ts
+load(): Promise<void>;
+```
+
+**Returns**
+
+Promise\<void>
+
+A promise that indicates whether the operation succeeded.
+
+### [pause()](#pause)
+
+Pauses the spawning process for a spawn controller.
+
+**Signature**
+
+```ts
+pause(): Promise<void>;
+```
+
+**Returns**
+
+Promise\<void>
+
+A promise that indicates whether the operation succeeded.
+
+### [spawn()](#spawn)
+
+Loads asset data if it's not previously loaded and then spawns the asset.
+
+**Signature**
+
+```ts
+spawn(): Promise<void>;
+```
+
+**Returns**
+
+Promise\<void>
+
+A promise that indicates whether the operation succeeded.
+
+### [unload()](#unload)
+
+Unloads the spawn controller asset data. If the spawn controller isn't needed after the data is unloaded, call .
+
+**Signature**
+
+```ts
+unload(): Promise<void>;
+```
+
+**Returns**
+
+Promise\<void>
+
+A promise that indicates whether the operation succeeded.
 

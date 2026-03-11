@@ -8,11 +8,8 @@ The default values for the [ThrowOptions](../Type%20Aliases/ThrowOptions.md) typ
 
 ## [Signature](#signature)
 
-```
-DefaultThrowOptions
-:
- 
-ThrowOptions
+```ts
+DefaultThrowOptions: ThrowOptions
 ```
 
 ## [Remarks](#remarks)

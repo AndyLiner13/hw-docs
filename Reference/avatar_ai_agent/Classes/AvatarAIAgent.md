@@ -14,17 +14,8 @@ Extends *AIAgentGizmo*
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-AvatarAIAgent
- 
-extends
- 
-AIAgentGizmo
- 
+```ts
+export declare class AvatarAIAgent extends AIAgentGizmo 
 ```
 
 ## [Remarks](#remarks)
@@ -33,83 +24,103 @@ For more information, see [Getting Started with Scripted Avatar NPCs](https://de
 
 ## [Properties](#properties)
 
-|                 |                                                                     |
-| --------------- | ------------------------------------------------------------------- |
-| **agentPlayer** | The player controlled by the `AvatarAIAgent` object.Signature\`\`\` |
-| agentPlayer     |                                                                     |
-| :               |                                                                     |
+### [agentPlayer](#agentplayer)
 
-ReadableHorizonProperty
-<
-Player
+The player controlled by the `AvatarAIAgent` object.
 
-|
+**Signature**
 
-undefined
+```ts
+agentPlayer: ReadableHorizonProperty<Player | undefined>;
+```
 
-> ;
+### [grabbableInteraction \[readonly\]](#grabbableinteraction-readonly)
 
-````|
-| **grabbableInteraction**\[readonly] | The grabbable interaction capabilities of the agent.Signature```
-readonly
- grabbableInteraction
-:
- 
-AgentGrabbableInteraction
-;
-```      |
-| **locomotion**\[readonly]           | The Locomotion capabilities of the agent.Signature```
-readonly
- locomotion
-:
- 
-AgentLocomotion
-;
-```                                     |
+The grabbable interaction capabilities of the agent.
+
+**Signature**
+
+```ts
+readonly grabbableInteraction: AgentGrabbableInteraction;
+```
+
+### [locomotion \[readonly\]](#locomotion-readonly)
+
+The Locomotion capabilities of the agent.
+
+**Signature**
+
+```ts
+readonly locomotion: AgentLocomotion;
+```
 
 ## [Methods](#methods)
 
-|                                      |                                                                                                                                                                                                                                                                                                     |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **despawnAgentPlayer()**             | Despawns the player controlled by the `AvatarAIAgent` object.Signature```
-despawnAgentPlayer
-():
- 
+### [despawnAgentPlayer()](#despawnagentplayer)
+
+Despawns the player controlled by the `AvatarAIAgent` object.
+
+**Signature**
+
+```ts
+despawnAgentPlayer(): void;
+```
+
+**Returns**
+
 void
-;
-```Returnsvoid                                                                                                                                                                            |
-| **getGizmoFromPlayer(player)**static | Returns the `AIAgentGizmo` that is associated with the provided player.Signature```
-static
- getGizmoFromPlayer
-(
-player
-:
- 
-Player
-):
- 
-Entity
- 
-|
- 
-undefined
-;
-```Parametersplayer: PlayerThe player.ReturnsEntity \| undefinedThe gizmo, or undefined if no gizmo is associated with the player. |
-| **spawnAgentPlayer()**               | Spawns a player controlled by the `AvatarAIAgent` object.Signature```
-spawnAgentPlayer
-():
- 
-Promise
-<
-AgentSpawnResult
->;
-```ReturnsPromise<[AgentSpawnResult](../Enumerations/AgentSpawnResult.md)>A promise describing the results of the spawn operation.                                       |
-| **toString()**                       | The ID of the `AvatarAIAgent` object.Signature```
-toString
-():
- 
+
+### [getGizmoFromPlayer(player) static](#getgizmofromplayerplayer-static)
+
+Returns the `AIAgentGizmo` that is associated with the provided player.
+
+**Signature**
+
+```ts
+static getGizmoFromPlayer(player: Player): Entity | undefined;
+```
+
+**Parameters**
+
+player: Player
+
+The player.
+
+**Returns**
+
+Entity | undefined
+
+The gizmo, or undefined if no gizmo is associated with the player.
+
+### [spawnAgentPlayer()](#spawnagentplayer)
+
+Spawns a player controlled by the `AvatarAIAgent` object.
+
+**Signature**
+
+```ts
+spawnAgentPlayer(): Promise<AgentSpawnResult>;
+```
+
+**Returns**
+
+Promise<[AgentSpawnResult](../Enumerations/AgentSpawnResult.md)>
+
+A promise describing the results of the spawn operation.
+
+### [toString()](#tostring)
+
+The ID of the `AvatarAIAgent` object.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringA string representation of the ID.                                                                                                                                                                        |
-````
+
+A string representation of the ID.
 

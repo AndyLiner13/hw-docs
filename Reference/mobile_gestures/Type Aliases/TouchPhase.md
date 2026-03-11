@@ -8,22 +8,7 @@ Which phase is the touch in
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TouchPhase
- 
-=
- 
-'start'
- 
-|
- 
-'move'
- 
-|
- 
-'end'
-;
+```ts
+export declare type TouchPhase = 'start' | 'move' | 'end';
 ```
 

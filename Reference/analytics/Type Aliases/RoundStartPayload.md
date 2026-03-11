@@ -8,18 +8,7 @@ A payload sent by the `OnRoundStart` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-RoundStartPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnRoundStart
->;
+```ts
+export declare type RoundStartPayload = FullTurboEventPayload<typeof OnRoundStart>;
 ```
 

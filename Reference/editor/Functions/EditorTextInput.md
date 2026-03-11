@@ -8,25 +8,8 @@ Creates an EditorTextInput component, which represents in a text input element i
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- 
-EditorTextInput
-(
-props
-:
- 
-Readonly
-<
-EditorTextInputProps
->):
- 
-UINode
-<
-EditorTextInputProps
->;
+```ts
+export declare function EditorTextInput(props: Readonly<EditorTextInputProps>): UINode<EditorTextInputProps>;
 ```
 
 ## [Parameters](#parameters)

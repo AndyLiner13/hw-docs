@@ -13,11 +13,8 @@ The default [options](../Type%20Aliases/StopVideoCaptureOptions.md) for the meth
 
 ## [Signature](#signature)
 
-```
-DefaultStopVideoCaptureOptions
-:
- 
-StopVideoCaptureOptions
+```ts
+DefaultStopVideoCaptureOptions: StopVideoCaptureOptions
 ```
 
 ## [Remarks](#remarks)

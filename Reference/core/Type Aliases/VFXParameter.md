@@ -8,50 +8,12 @@ Represents a parameter for a PopcornFX particle effect.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-VFXParameter
-<
-T 
-extends
- 
-VFXParameterType
->
- 
-=
- 
-{
-
-    name
-:
- 
-string
-;
-
-    type
-:
- 
-string
-;
-
-    minValue
-:
- T 
-|
- 
-null
-;
-
-    maxValue
-:
- T 
-|
- 
-null
-;
-
-
+```ts
+export declare type VFXParameter<T extends VFXParameterType> = {
+    name: string;
+    type: string;
+    minValue: T | null;
+    maxValue: T | null;
 };
 ```
 

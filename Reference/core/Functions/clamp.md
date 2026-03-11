@@ -8,26 +8,8 @@ Clamps a value between a minimum value and a maximum value.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- clamp
-(
-value
-:
- number
-,
- min
-:
- number
-,
- max
-:
- number
-):
- number
-;
+```ts
+export declare function clamp(value: number, min: number, max: number): number;
 ```
 
 ## [Parameters](#parameters)

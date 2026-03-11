@@ -8,28 +8,7 @@ Represents a type that can bind to a UI element. Bound types are re-rendered whe
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-Bindable
-<
-T
->
- 
-=
- T 
-|
- 
-AnyBinding
-<
-T
->
- 
-|
- 
-DistributeBindingForUnion
-<
-T
->;
+```ts
+export declare type Bindable<T> = T | AnyBinding<T> | DistributeBindingForUnion<T>;
 ```
 

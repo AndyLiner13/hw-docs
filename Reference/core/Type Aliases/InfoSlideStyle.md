@@ -8,22 +8,9 @@ Represents the style options for an information slide.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-InfoSlideStyle
- 
-=
- 
-{
-
-    attachImageToHeader
-?:
- 
-boolean
-;
-
-
+```ts
+export declare type InfoSlideStyle = {
+    attachImageToHeader?: boolean;
 };
 ```
 

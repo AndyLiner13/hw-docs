@@ -8,48 +8,31 @@ An interface representing a class.
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-Class
-<
-TConstructorParameters
- 
-extends
- any
-[]
- 
-=
- any
-[],
- 
-TClassInstance
- 
-=
- unknown
->
- 
+```ts
+export interface Class<TConstructorParameters extends any[] = any[], TClassInstance = unknown> 
 ```
 
 ## [Methods](#methods)
 
-|                 |                                                     |
-| --------------- | --------------------------------------------------- |
-| **(new)(args)** | Creates a new instance of the class.Signature\`\`\` |
-| new             |                                                     |
+### [(new)(args)](#newargs)
 
-(...
-args
-:
+Creates a new instance of the class.
 
-TConstructorParameters
-):
+**Signature**
+
+```ts
+new (...args: TConstructorParameters): TClassInstance;
+```
+
+**Parameters**
+
+args: TConstructorParameters
+
+The arguments for creating the instance.
+
+**Returns**
 
 TClassInstance
-;
 
-```Parametersargs: TConstructorParametersThe arguments for creating the instance.ReturnsTClassInstanceThe new class instance. |
-```
+The new class instance.
 

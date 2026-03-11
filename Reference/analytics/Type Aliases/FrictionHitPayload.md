@@ -8,18 +8,7 @@ A payload sent by the `OnFrictionHit` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FrictionHitPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnFrictionHit
->;
+```ts
+export declare type FrictionHitPayload = FullTurboEventPayload<typeof OnFrictionHit>;
 ```
 

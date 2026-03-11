@@ -10,17 +10,8 @@ Represents an AI Agent gizmo, which enables NPCs and objects to use locomotion a
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-AIAgentGizmo
- 
-extends
- 
-Entity
- 
+```ts
+export declare class AIAgentGizmo extends Entity 
 ```
 
 ## [Remarks](#remarks)
@@ -29,15 +20,19 @@ For more information about using NPCs, see the [NPC](../../../Desktop%20editor/N
 
 ## [Methods](#methods)
 
-|                |                                                                             |
-| -------------- | --------------------------------------------------------------------------- |
-| **toString()** | Creates a human-readable representation of the AIAgentGizmo.Signature\`\`\` |
-| toString       |                                                                             |
-| ():            |                                                                             |
+### [toString()](#tostring)
+
+Creates a human-readable representation of the AIAgentGizmo.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
 
 string
-;
 
-```ReturnsstringA string representation of the AIAgentGizmo. |
-```
+A string representation of the AIAgentGizmo.
 

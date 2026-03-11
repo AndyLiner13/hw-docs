@@ -8,11 +8,8 @@ The default values for the [MigrationOptions](../Type%20Aliases/MigrationOptions
 
 ## [Signature](#signature)
 
-```
-DefaultMigrationOptions
-:
- 
-MigrationOptions
+```ts
+DefaultMigrationOptions: MigrationOptions
 ```
 
 ## [Remarks](#remarks)

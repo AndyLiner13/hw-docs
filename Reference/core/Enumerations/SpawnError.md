@@ -8,13 +8,8 @@ The possible errors encounted during asset spawning.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-SpawnError
- 
+```ts
+export declare enum SpawnError 
 ```
 
 ## [Enumeration Members](#enumeration-members)

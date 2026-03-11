@@ -8,30 +8,10 @@ Payload received by pinch events
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PinchEventData
- 
-=
- 
-TouchEventData
- 
-&
- 
-{
-
-    scale
-:
- number
-;
-
-    rotate
-:
- number
-;
-
-
+```ts
+export declare type PinchEventData = TouchEventData & {
+    scale: number;
+    rotate: number;
 };
 ```
 

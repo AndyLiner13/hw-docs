@@ -8,22 +8,9 @@ An optional parameter for the [AvatarGripPoseAnimationCallback](AvatarGripPoseAn
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PlayAvatarGripPoseAnimationOptions
- 
-=
- 
-{
-
-    callback
-?:
- 
-AvatarGripPoseAnimationCallback
-;
-
-
+```ts
+export declare type PlayAvatarGripPoseAnimationOptions = {
+    callback?: AvatarGripPoseAnimationCallback;
 };
 ```
 

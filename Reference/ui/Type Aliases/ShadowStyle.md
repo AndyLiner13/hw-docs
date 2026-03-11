@@ -8,64 +8,14 @@ Represents the style of a UI element's shadow on a custom UI panel. For descript
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ShadowStyle
- 
-=
- 
-{
-
-    shadowColor
-?:
- 
-Bindable
-<
-ColorValue
->;
-
-    shadowFalloff
-?:
- 
-'linear'
- 
-|
- 
-'sqrt'
- 
-|
- 
-'sigmoid'
-;
-
-    shadowOffset
-?:
- 
-[
-number
-,
- number
-];
-
-    shadowOpacity
-?:
- 
-Bindable
-<number>
-;
-
-    shadowRadius
-?:
- number
-;
-
-    shadowSpreadRadius
-?:
- number
-;
-
-
+```ts
+export declare type ShadowStyle = {
+    shadowColor?: Bindable<ColorValue>;
+    shadowFalloff?: 'linear' | 'sqrt' | 'sigmoid';
+    shadowOffset?: [number, number];
+    shadowOpacity?: Bindable<number>;
+    shadowRadius?: number;
+    shadowSpreadRadius?: number;
 };
 ```
 

@@ -8,11 +8,7 @@ The name of the camera API.
 
 ## [Signature](#signature)
 
-```
-ApiName
- 
-=
- 
-"camera"
+```ts
+ApiName = "camera"
 ```
 

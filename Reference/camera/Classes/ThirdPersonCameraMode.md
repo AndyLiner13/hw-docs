@@ -10,17 +10,8 @@ Manipulates runtime properties of cameras in third person mode, which uses a cam
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-ThirdPersonCameraMode
- 
-implements
- 
-ICameraMode
- 
+```ts
+export declare class ThirdPersonCameraMode implements ICameraMode 
 ```
 
 ## [Remarks](#remarks)

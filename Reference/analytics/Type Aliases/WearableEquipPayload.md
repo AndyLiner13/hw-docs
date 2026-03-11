@@ -8,18 +8,7 @@ A payload sent by the `OnWearableEquip` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-WearableEquipPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnWearableEquip
->;
+```ts
+export declare type WearableEquipPayload = FullTurboEventPayload<typeof OnWearableEquip>;
 ```
 

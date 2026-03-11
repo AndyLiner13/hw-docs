@@ -10,17 +10,8 @@ Manipulates runtime properties of cameras in orbit mode, where camera view follo
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-OrbitCameraMode
- 
-implements
- 
-ICameraMode
- 
+```ts
+export declare class OrbitCameraMode implements ICameraMode 
 ```
 
 ## [Remarks](#remarks)
@@ -29,47 +20,43 @@ The [Camera.setCameraModeOrbit()](Camera.md#setcameramodeorbit) method enables o
 
 ## [Properties](#properties)
 
-|              |                                                          |
-| ------------ | -------------------------------------------------------- |
-| **distance** | Camera rotation radius around the target.Signature\`\`\` |
-| distance     |                                                          |
-| :            |                                                          |
+### [distance](#distance)
 
-HorizonProperty <number></number>
-;
+Camera rotation radius around the target.
 
-````|
-| **rotationSpeed**    | Controls how quickly the camera rotates to the desired rotation. If not set, the camera is always snapped to it instantly.Signature```
-rotationSpeed
-:
- 
-HorizonProperty
-<
-number 
-|
- 
-null
->;
-```  |
-| **translationSpeed** | Controls how quickly the camera moves to the desired position. If not set, the camera is always snapped to it instantly.Signature```
-translationSpeed
-:
- 
-HorizonProperty
-<
-number 
-|
- 
-null
->;
-``` |
-| **verticalOffset**   | Vertical offset up from the target position. Camera rotates around the offsetted pointSignature```
-verticalOffset
-:
- 
-HorizonProperty
-<number>
-;
-```                                                |
-````
+**Signature**
+
+```ts
+distance: HorizonProperty<number>;
+```
+
+### [rotationSpeed](#rotationspeed)
+
+Controls how quickly the camera rotates to the desired rotation. If not set, the camera is always snapped to it instantly.
+
+**Signature**
+
+```ts
+rotationSpeed: HorizonProperty<number | null>;
+```
+
+### [translationSpeed](#translationspeed)
+
+Controls how quickly the camera moves to the desired position. If not set, the camera is always snapped to it instantly.
+
+**Signature**
+
+```ts
+translationSpeed: HorizonProperty<number | null>;
+```
+
+### [verticalOffset](#verticaloffset)
+
+Vertical offset up from the target position. Camera rotates around the offsetted point
+
+**Signature**
+
+```ts
+verticalOffset: HorizonProperty<number>;
+```
 

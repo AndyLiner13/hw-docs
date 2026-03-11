@@ -8,46 +8,49 @@ Represents an in-world item a player is authorized to access due to a purchase, 
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-PlayerEntitlement
- 
+```ts
+export interface PlayerEntitlement 
 ```
 
 ## [Properties](#properties)
 
-|                 |                                                                     |
-| --------------- | ------------------------------------------------------------------- |
-| **description** | The description of the item as it appears in the UI.Signature\`\`\` |
-| description     |                                                                     |
-| :               |                                                                     |
+### [description](#description)
 
-string
-;
+The description of the item as it appears in the UI.
 
-````|
-| **displayName** | The name of the item as it appears in the UI.Signature```
-displayName
-:
- 
-string
-;
-```        |
-| **quantity**    | The number of items player has entitlements to.Signature```
-quantity
-:
- number
-;
-```          |
-| **sku**         | The SKU of the item.Signature```
-sku
-:
- 
-string
-;
-```                                         |
-````
+**Signature**
+
+```ts
+description: string;
+```
+
+### [displayName](#displayname)
+
+The name of the item as it appears in the UI.
+
+**Signature**
+
+```ts
+displayName: string;
+```
+
+### [quantity](#quantity)
+
+The number of items player has entitlements to.
+
+**Signature**
+
+```ts
+quantity: number;
+```
+
+### [sku](#sku)
+
+The SKU of the item.
+
+**Signature**
+
+```ts
+sku: string;
+```
 

@@ -8,11 +8,8 @@ The default [settings](../Interfaces/ITurboSettings.md) for a [Turbo](Turbo.md) 
 
 ## [Signature](#signature)
 
-```
-TurboDefaultSettings
-:
- 
-ITurboSettings
+```ts
+TurboDefaultSettings: ITurboSettings
 ```
 
 ## [Remarks](#remarks)
@@ -62,15 +59,7 @@ These settings are set to false by default, which disables the associated Turbo 
 
 This example sets the Turbo settings to the default settings.
 
-```
-Turbo
-.
-register
-(
-this
-,
- 
-TurboDefaultSettings
-);
+```ts
+Turbo.register(this, TurboDefaultSettings);
 ```
 

@@ -8,10 +8,7 @@ A service that retrieves live Turbo analytics data for maintaining statistics an
 
 ## [Signature](#signature)
 
-```
-TurboDataService
-:
- 
-TurboDataServiceClass
+```ts
+TurboDataService: TurboDataServiceClass
 ```
 

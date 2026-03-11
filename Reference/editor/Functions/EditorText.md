@@ -8,25 +8,8 @@ Creates an EditorText component, which represents a text element in the editor.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- 
-EditorText
-(
-props
-:
- 
-Readonly
-<
-EditorTextProps
->):
- 
-UINode
-<
-EditorTextProps
->;
+```ts
+export declare function EditorText(props: Readonly<EditorTextProps>): UINode<EditorTextProps>;
 ```
 
 ## [Parameters](#parameters)

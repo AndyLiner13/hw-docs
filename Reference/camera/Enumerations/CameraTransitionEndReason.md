@@ -8,13 +8,8 @@ The possible reasons for a camera transition to end.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-CameraTransitionEndReason
- 
+```ts
+export declare enum CameraTransitionEndReason 
 ```
 
 ## [Enumeration Members](#enumeration-members)

@@ -10,51 +10,67 @@ Represents an entity that that can be animated by a transform.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-AnimatedEntity
- 
-extends
- 
-Entity
- 
+```ts
+export declare class AnimatedEntity extends Entity 
 ```
 
 ## [Methods](#methods)
 
-|             |                                      |
-| ----------- | ------------------------------------ |
-| **pause()** | Pauses the animation.Signature\`\`\` |
-| pause       |                                      |
-| ():         |                                      |
+### [pause()](#pause)
+
+Pauses the animation.
+
+**Signature**
+
+```ts
+pause(): void;
+```
+
+**Returns**
 
 void
-;
 
-````Returnsvoid |
-| **play()**     | Starts the animation for the entity.Signature```
-play
-():
- 
+### [play()](#play)
+
+Starts the animation for the entity.
+
+**Signature**
+
+```ts
+play(): void;
+```
+
+**Returns**
+
 void
-;
-```Returnsvoid                                                                                 |
-| **stop()**     | Stop the animation.Signature```
-stop
-():
- 
+
+### [stop()](#stop)
+
+Stop the animation.
+
+**Signature**
+
+```ts
+stop(): void;
+```
+
+**Returns**
+
 void
-;
-```Returnsvoid                                                                                                  |
-| **toString()** | Creates a human-readable representation of the AnimatedEntity.Signature```
-toString
-():
- 
+
+### [toString()](#tostring)
+
+Creates a human-readable representation of the AnimatedEntity.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringA string representation of the AnimatedEntity. |
-````
+
+A string representation of the AnimatedEntity.
 

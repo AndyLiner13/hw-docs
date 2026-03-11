@@ -8,11 +8,7 @@ The name of the API.
 
 ## [Signature](#signature)
 
-```
-ApiName
- 
-=
- 
-"navmesh"
+```ts
+ApiName = "navmesh"
 ```
 

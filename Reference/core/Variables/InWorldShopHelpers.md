@@ -8,22 +8,9 @@ List of in world shop features
 
 ## [Signature](#signature)
 
-```
-InWorldShopHelpers
-:
- 
-{
-
-    
-OnPlayerPurchasedItemEvent
-:
- 
-NetworkEvent
-<
-OnPlayerPurchasedItemEventPayload
->;
-
-
+```ts
+InWorldShopHelpers: {
+    OnPlayerPurchasedItemEvent: NetworkEvent<OnPlayerPurchasedItemEventPayload>;
 }
 ```
 

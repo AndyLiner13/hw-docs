@@ -8,13 +8,8 @@ For swipe events, which direction did it go
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-SwipeDirection
- 
+```ts
+export declare enum SwipeDirection 
 ```
 
 ## [Enumeration Members](#enumeration-members)

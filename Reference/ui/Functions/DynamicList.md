@@ -8,31 +8,8 @@ Creates a DynamicList component.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- 
-DynamicList
-<
-T
->(
-props
-:
- 
-Readonly
-<
-DynamicListProps
-<
-T
->>):
- 
-UINode
-<
-DynamicListProps
-<
-T
->>;
+```ts
+export declare function DynamicList<T>(props: Readonly<DynamicListProps<T>>): UINode<DynamicListProps<T>>;
 ```
 
 ## [Parameters](#parameters)

@@ -8,36 +8,10 @@ The data returned from the [PlayerMigration.getMigrationData()](../Classes/Playe
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-MigrationData
- 
-=
- 
-{
-
-    migrationIdentifier
-:
- 
-string
- 
-|
- 
-null
-;
-
-    hasMigrated
-:
- 
-boolean
- 
-|
- 
-null
-;
-
-
+```ts
+export declare type MigrationData = {
+    migrationIdentifier: string | null;
+    hasMigrated: boolean | null;
 };
 ```
 

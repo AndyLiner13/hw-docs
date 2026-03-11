@@ -8,13 +8,8 @@ The modes to apply to the permission list that determines which players can use 
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AvatarPoseUseMode
- 
+```ts
+export declare enum AvatarPoseUseMode 
 ```
 
 ## [Enumeration Members](#enumeration-members)

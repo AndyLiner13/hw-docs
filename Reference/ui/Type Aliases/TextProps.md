@@ -8,39 +8,11 @@ Represents the props of a [text](../Functions/Text_2.md) component.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TextProps
- 
-=
- 
-{
-
-    text
-:
- 
-Bindable
-<
-string
- 
-|
- 
-LocalizableText
->;
-
-    numberOfLines
-?:
- number
-;
-
-    style
-?:
- 
-TextStyle
-;
-
-
+```ts
+export declare type TextProps = {
+    text: Bindable<string | LocalizableText>;
+    numberOfLines?: number;
+    style?: TextStyle;
 };
 ```
 

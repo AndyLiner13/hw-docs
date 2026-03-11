@@ -8,36 +8,10 @@ The options for the [Player.enterFocusedInteractionMode()](../Classes/Player.md#
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FocusedInteractionOptions
- 
-=
- 
-{
-
-    disableFocusExitButton
-?:
- 
-boolean
- 
-|
- 
-null
-;
-
-    interactionStringId
-?:
- 
-string
- 
-|
- 
-null
-;
-
-
+```ts
+export declare type FocusedInteractionOptions = {
+    disableFocusExitButton?: boolean | null;
+    interactionStringId?: string | null;
 };
 ```
 

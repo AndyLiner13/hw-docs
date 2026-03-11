@@ -8,19 +8,8 @@ The child nodes of a UI element.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-UIChildren
- 
-=
- 
-UINode
- 
-|
- 
-UINode
-[];
+```ts
+export declare type UIChildren = UINode | UINode[];
 ```
 
 ## [References](#references)

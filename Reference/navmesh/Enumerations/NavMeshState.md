@@ -8,13 +8,8 @@ The possible state values for the [NavMeshInstanceInfo](../Type%20Aliases/NavMes
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-NavMeshState
- 
+```ts
+export declare enum NavMeshState 
 ```
 
 ## [Enumeration Members](#enumeration-members)

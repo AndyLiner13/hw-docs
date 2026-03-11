@@ -8,42 +8,10 @@ The entity state to transfer when entity ownership changes.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-SerializableState
- 
-=
- 
-{
-
-    
-[
-key
-:
- 
-string
-]:
- 
-SerializableState
-;
-
-
-}
- 
-|
- 
-SerializableState
-[]
- 
-|
- 
-PersistentSerializableStateNode
- 
-|
- 
-TransientSerializableStateNode
-;
+```ts
+export declare type SerializableState = {
+    [key: string]: SerializableState;
+} | SerializableState[] | PersistentSerializableStateNode | TransientSerializableStateNode;
 ```
 
 ## [References](#references)

@@ -10,30 +10,25 @@ A material [asset](Asset.md), which describes how the surface of a mesh is rende
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-MaterialAsset
- 
-extends
- 
-Asset
- 
+```ts
+export declare class MaterialAsset extends Asset 
 ```
 
 ## [Methods](#methods)
 
-|                |                                                                            |
-| -------------- | -------------------------------------------------------------------------- |
-| **toString()** | Gets a human readable representation of the material asset.Signature\`\`\` |
-| toString       |                                                                            |
-| ():            |                                                                            |
+### [toString()](#tostring)
+
+Gets a human readable representation of the material asset.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
 
 string
-;
 
-```ReturnsstringA string representation of the material asset. |
-```
+A string representation of the material asset.
 

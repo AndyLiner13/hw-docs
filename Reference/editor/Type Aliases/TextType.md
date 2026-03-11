@@ -8,50 +8,7 @@ The possible size and weight properties for a text element.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TextType
- 
-=
- 
-'XXLMedium'
- 
-|
- 
-'XLMedium'
- 
-|
- 
-'LMedium'
- 
-|
- 
-'MLBold'
- 
-|
- 
-'MLRegular'
- 
-|
- 
-'MBold'
- 
-|
- 
-'MRegular'
- 
-|
- 
-'SBold'
- 
-|
- 
-'SRegular'
- 
-|
- 
-'XSRegular'
-;
+```ts
+export declare type TextType = 'XXLMedium' | 'XLMedium' | 'LMedium' | 'MLBold' | 'MLRegular' | 'MBold' | 'MRegular' | 'SBold' | 'SRegular' | 'XSRegular';
 ```
 

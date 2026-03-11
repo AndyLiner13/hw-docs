@@ -8,18 +8,7 @@ A payload sent by the `OnAreaEnter` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AreaEnterPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnAreaEnter
->;
+```ts
+export declare type AreaEnterPayload = FullTurboEventPayload<typeof OnAreaEnter>;
 ```
 

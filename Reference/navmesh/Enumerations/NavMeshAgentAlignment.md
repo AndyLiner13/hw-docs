@@ -8,15 +8,8 @@ The possible orientation values for [NavMeshAgent](../Classes/NavMeshAgent.md) l
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-const
- 
-enum
- 
-NavMeshAgentAlignment
- 
+```ts
+export declare const enum NavMeshAgentAlignment 
 ```
 
 ## [Enumeration Members](#enumeration-members)

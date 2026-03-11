@@ -8,28 +8,10 @@ Detailed information about a waypoint returned by the [NavMesh.getPathAlongSurfa
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-NavMeshWaypoint
- 
-=
- 
-{
-
-    position
-:
- 
-Vec3
-;
-
-    normal
-:
- 
-Vec3
-;
-
-
+```ts
+export declare type NavMeshWaypoint = {
+    position: Vec3;
+    normal: Vec3;
 };
 ```
 

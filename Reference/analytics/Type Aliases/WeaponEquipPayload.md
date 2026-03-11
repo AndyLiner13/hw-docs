@@ -8,18 +8,7 @@ A payload sent by the `OnWeaponEquip` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-WeaponEquipPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnWeaponEquip
->;
+```ts
+export declare type WeaponEquipPayload = FullTurboEventPayload<typeof OnWeaponEquip>;
 ```
 

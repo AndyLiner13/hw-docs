@@ -8,32 +8,11 @@ The options for transitioning between cameras.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-CameraTransitionOptions
- 
-=
- 
-{
-
-    delay
-?:
- number
-;
-
-    duration
-?:
- number
-;
-
-    easing
-?:
- 
-Easing
-;
-
-
+```ts
+export declare type CameraTransitionOptions = {
+    delay?: number;
+    duration?: number;
+    easing?: Easing;
 };
 ```
 

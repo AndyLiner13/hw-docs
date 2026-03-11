@@ -10,17 +10,8 @@ Represents an entity influenced by physical effects in the world, such as gravit
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-PhysicalEntity
- 
-extends
- 
-Entity
- 
+```ts
+export declare class PhysicalEntity extends Entity 
 ```
 
 ## [Remarks](#remarks)
@@ -29,331 +20,257 @@ For more information, see the [Spring Physics](../../../Scripting/API%20referenc
 
 ## [Properties](#properties)
 
-|                     |                                                                  |
-| ------------------- | ---------------------------------------------------------------- |
-| **angularVelocity** | The angular velocity of an object in world space.Signature\`\`\` |
-| angularVelocity     |                                                                  |
-| :                   |                                                                  |
+### [angularVelocity](#angularvelocity)
 
-ReadableHorizonProperty
-<
-Vec3
+The angular velocity of an object in world space.
 
-> ;
+**Signature**
 
-````|
-| **gravityEnabled**  | Indicates whether a gravity effect is applied to an entity. True if a gravity effect is applied to the entity, false otherwise.Signature```
-gravityEnabled
-:
- 
-WritableHorizonProperty
-<boolean>
-;
-``` |
-| **locked**          | `true` if the physics system is blocked from interacting with the entity; `false` otherwise.Signature```
-locked
-:
- 
-HorizonProperty
-<boolean>
-;
-```                                                    |
-| **velocity**        | The velocity of an object in world space, in meters per second.Signature```
-velocity
-:
- 
-ReadableHorizonProperty
-<
-Vec3
->;
-```                                                                         |
+```ts
+angularVelocity: ReadableHorizonProperty<Vec3>;
+```
+
+### [gravityEnabled](#gravityenabled)
+
+Indicates whether a gravity effect is applied to an entity. True if a gravity effect is applied to the entity, false otherwise.
+
+**Signature**
+
+```ts
+gravityEnabled: WritableHorizonProperty<boolean>;
+```
+
+### [locked](#locked)
+
+`true` if the physics system is blocked from interacting with the entity; `false` otherwise.
+
+**Signature**
+
+```ts
+locked: HorizonProperty<boolean>;
+```
+
+### [velocity](#velocity)
+
+The velocity of an object in world space, in meters per second.
+
+**Signature**
+
+```ts
+velocity: ReadableHorizonProperty<Vec3>;
+```
 
 ## [Methods](#methods)
 
-|                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **applyForce(vector, mode)**                     | Applies a force at a world space point. Adds to the current velocity.Signature```
-applyForce
-(
-vector
-:
- 
-Vec3
-,
- mode
-:
- 
-PhysicsForceMode
-):
- 
-void
-;
-```Parametersvector: [Vec3](Vec3.md)The force vector.mode: [PhysicsForceMode](../Enumerations/PhysicsForceMode.md)The amount of force to apply.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **applyForceAtPosition(vector, position, mode)** | Applies a force at a world space point using a specified position as the center of force.Signature```
-applyForceAtPosition
-(
-vector
-:
- 
-Vec3
-,
- position
-:
- 
-Vec3
-,
- mode
-:
- 
-PhysicsForceMode
-):
- 
-void
-;
-```Parametersvector: [Vec3](Vec3.md)The force vector.position: [Vec3](Vec3.md)The position of the center of the force vector.mode: [PhysicsForceMode](../Enumerations/PhysicsForceMode.md)The amount of force to apply.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **applyLocalForce(vector, mode)**                | Applies a local force at a world space point. Adds to the current velocity.Signature```
-applyLocalForce
-(
-vector
-:
- 
-Vec3
-,
- mode
-:
- 
-PhysicsForceMode
-):
- 
-void
-;
-```Parametersvector: [Vec3](Vec3.md)The force vector.mode: [PhysicsForceMode](../Enumerations/PhysicsForceMode.md)The amount of force to apply.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **applyLocalTorque(vector)**                     | Applies a local torque to the entity.Signature```
-applyLocalTorque
-(
-vector
-:
- 
-Vec3
-):
- 
-void
-;
-```Parametersvector: [Vec3](Vec3.md)The force vector.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **applyTorque(vector)**                          | Applies torque to the entity.Signature```
-applyTorque
-(
-vector
-:
- 
-Vec3
-):
- 
-void
-;
-```Parametersvector: [Vec3](Vec3.md)The force vector.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **springPushTowardPosition(position, options)**  | Pushes a physical entity toward a target position as if it's attached to a spring. This should be called every frame and requires the physical entity's motion type to be interactive.Signature```
-springPushTowardPosition
-(
-position
-:
- 
-Vec3
-,
- options
-?:
- 
-Partial
-<
-SpringOptions
->):
- 
-void
-;
-```Parametersposition: [Vec3](Vec3.md)The target position, or 'origin' of the springoptions: Partial<[SpringOptions](../Type%20Aliases/SpringOptions.md)>*(Optional)* Additional optional arguments to control the spring's behavior.ReturnsvoidExamples```
-var
- physEnt 
-=
- 
-this
-.
-props
-.
-obj1
-.
-as
-(
-hz
-.
-PhysicalEntity
-);
+### [applyForce(vector, mode)](#applyforcevector-mode)
 
+Applies a force at a world space point. Adds to the current velocity.
 
-this
-.
-connectLocalBroadcastEvent
-(
-hz
-.
-World
-.
-onUpdate
-,
- 
-(
-data
-:
- 
-{
- deltaTime
-:
- number 
+**Signature**
+
+```ts
+applyForce(vector: Vec3, mode: PhysicsForceMode): void;
+```
+
+**Parameters**
+
+vector: [Vec3](Vec3.md)
+
+The force vector.
+
+mode: [PhysicsForceMode](../Enumerations/PhysicsForceMode.md)
+
+The amount of force to apply.
+
+**Returns**
+
+void
+
+### [applyForceAtPosition(vector, position, mode)](#applyforceatpositionvector-position-mode)
+
+Applies a force at a world space point using a specified position as the center of force.
+
+**Signature**
+
+```ts
+applyForceAtPosition(vector: Vec3, position: Vec3, mode: PhysicsForceMode): void;
+```
+
+**Parameters**
+
+vector: [Vec3](Vec3.md)
+
+The force vector.
+
+position: [Vec3](Vec3.md)
+
+The position of the center of the force vector.
+
+mode: [PhysicsForceMode](../Enumerations/PhysicsForceMode.md)
+
+The amount of force to apply.
+
+**Returns**
+
+void
+
+### [applyLocalForce(vector, mode)](#applylocalforcevector-mode)
+
+Applies a local force at a world space point. Adds to the current velocity.
+
+**Signature**
+
+```ts
+applyLocalForce(vector: Vec3, mode: PhysicsForceMode): void;
+```
+
+**Parameters**
+
+vector: [Vec3](Vec3.md)
+
+The force vector.
+
+mode: [PhysicsForceMode](../Enumerations/PhysicsForceMode.md)
+
+The amount of force to apply.
+
+**Returns**
+
+void
+
+### [applyLocalTorque(vector)](#applylocaltorquevector)
+
+Applies a local torque to the entity.
+
+**Signature**
+
+```ts
+applyLocalTorque(vector: Vec3): void;
+```
+
+**Parameters**
+
+vector: [Vec3](Vec3.md)
+
+The force vector.
+
+**Returns**
+
+void
+
+### [applyTorque(vector)](#applytorquevector)
+
+Applies torque to the entity.
+
+**Signature**
+
+```ts
+applyTorque(vector: Vec3): void;
+```
+
+**Parameters**
+
+vector: [Vec3](Vec3.md)
+
+The force vector.
+
+**Returns**
+
+void
+
+### [springPushTowardPosition(position, options)](#springpushtowardpositionposition-options)
+
+Pushes a physical entity toward a target position as if it's attached to a spring. This should be called every frame and requires the physical entity's motion type to be interactive.
+
+**Signature**
+
+```ts
+springPushTowardPosition(position: Vec3, options?: Partial<SpringOptions>): void;
+```
+
+**Parameters**
+
+position: [Vec3](Vec3.md)
+
+The target position, or 'origin' of the spring
+
+options: Partial<[SpringOptions](../Type%20Aliases/SpringOptions.md)>
+
+*(Optional)* Additional optional arguments to control the spring's behavior.
+
+**Returns**
+
+void
+
+**Examples**
+
+```ts
+var physEnt = this.props.obj1.as(hz.PhysicalEntity);
+this.connectLocalBroadcastEvent(hz.World.onUpdate, (data: { deltaTime: number }) => {
+ physEnt.springPushTowardPosition(this.props.obj2.position.get(), {stiffness: 5, damping: 0.2});
 })
- 
-=>
- 
-{
+```
 
- physEnt
-.
-springPushTowardPosition
-(
-this
-.
-props
-.
-obj2
-.
-position
-.
-get
-(),
- 
-{
-stiffness
-:
- 
-5
-,
- damping
-:
- 
-0.2
-});
+### [springSpinTowardRotation(rotation, options)](#springspintowardrotationrotation-options)
 
+Spins a physical entity toward a target rotation as if it's attached to a spring. This should be called every frame and requires the physical entity's motion type to be interactive.
 
-})
-```                                 |
-| **springSpinTowardRotation(rotation, options)**  | Spins a physical entity toward a target rotation as if it's attached to a spring. This should be called every frame and requires the physical entity's motion type to be interactive.Signature```
-springSpinTowardRotation
-(
-rotation
-:
- 
-Quaternion
-,
- options
-?:
- 
-Partial
-<
-SpringOptions
->):
- 
+**Signature**
+
+```ts
+springSpinTowardRotation(rotation: Quaternion, options?: Partial<SpringOptions>): void;
+```
+
+**Parameters**
+
+rotation: [Quaternion](Quaternion.md)
+
+The target quaternion rotation.
+
+options: Partial<[SpringOptions](../Type%20Aliases/SpringOptions.md)>
+
+*(Optional)* Additional optional arguments to control the spring's behavior.
+
+**Returns**
+
 void
-;
-```Parametersrotation: [Quaternion](Quaternion.md)The target quaternion rotation.options: Partial<[SpringOptions](../Type%20Aliases/SpringOptions.md)>*(Optional)* Additional optional arguments to control the spring's behavior.ReturnsvoidExamples```
-var
- physEnt 
-=
- 
-this
-.
-props
-.
-obj1
-.
-as
-(
-hz
-.
-PhysicalEntity
-);
 
+**Examples**
 
-this
-.
-connectLocalBroadcastEvent
-(
-hz
-.
-World
-.
-onUpdate
-,
- 
-(
-data
-:
- 
-{
- deltaTime
-:
- number 
+```ts
+var physEnt = this.props.obj1.as(hz.PhysicalEntity);
+this.connectLocalBroadcastEvent(hz.World.onUpdate, (data: { deltaTime: number }) => {
+ physEnt.springSpinTowardRotation(this.props.obj2.rotation.get(), {stiffness: 10, damping: 0.5, axisIndependent: false});
 })
- 
-=>
- 
-{
+```
 
- physEnt
-.
-springSpinTowardRotation
-(
-this
-.
-props
-.
-obj2
-.
-rotation
-.
-get
-(),
- 
-{
-stiffness
-:
- 
-10
-,
- damping
-:
- 
-0.5
-,
- axisIndependent
-:
- 
-false
-});
+### [toString()](#tostring)
 
+Gets a string representation of the entity.
 
-})
-``` |
-| **toString()**                                   | Gets a string representation of the entity.Signature```
-toString
-():
- 
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringThe human readable string representation of this entity.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **zeroVelocity()**                               | Sets the velocity of an entity to zero.Signature```
-zeroVelocity
-():
- 
+
+The human readable string representation of this entity.
+
+### [zeroVelocity()](#zerovelocity)
+
+Sets the velocity of an entity to zero.
+
+**Signature**
+
+```ts
+zeroVelocity(): void;
+```
+
+**Returns**
+
 void
-;
-```Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-````
 

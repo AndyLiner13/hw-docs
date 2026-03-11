@@ -8,13 +8,8 @@ The options for interacting with an entity.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-EntityInteractionMode
- 
+```ts
+export declare enum EntityInteractionMode 
 ```
 
 ## [Enumeration Members](#enumeration-members)

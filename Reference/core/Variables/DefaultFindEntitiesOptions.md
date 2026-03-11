@@ -8,11 +8,8 @@ Default ptions for the [World.findEntities()](../Classes/World.md#findentities) 
 
 ## [Signature](#signature)
 
-```
-DefaultFindEntitiesOptions
-:
- 
-FindEntitiesOptions
+```ts
+DefaultFindEntitiesOptions: FindEntitiesOptions
 ```
 
 ## [Remarks](#remarks)

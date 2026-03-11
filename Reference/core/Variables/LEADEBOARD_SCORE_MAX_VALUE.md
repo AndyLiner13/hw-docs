@@ -8,10 +8,8 @@ The maximum value allowed for a score on an [ILeaderboards](../Interfaces/ILeade
 
 ## [Signature](#signature)
 
-```
-LEADEBOARD_SCORE_MAX_VALUE
-:
- number
+```ts
+LEADEBOARD_SCORE_MAX_VALUE: number
 ```
 
 ## [Remarks](#remarks)

@@ -8,13 +8,8 @@ The location of an attachment point on a player.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AttachablePlayerAnchor
- 
+```ts
+export declare enum AttachablePlayerAnchor 
 ```
 
 ## [Enumeration Members](#enumeration-members)

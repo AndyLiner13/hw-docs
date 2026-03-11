@@ -6,10 +6,7 @@ source: https://developers.meta.com/horizon-worlds/reference/2.0.0/editor_editor
 
 ## [Signature](#signature)
 
-```
-Editor
-:
- 
-EditorAPI
+```ts
+Editor: EditorAPI
 ```
 

@@ -12,36 +12,12 @@ source: https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_age
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AgentLocomotionOptions
- 
-=
- 
-{
-
-    movementSpeed
-?:
- number
-;
-
-    travelTime
-?:
- number
-;
-
-    acceleration
-?:
- number
-;
-
-    deceleration
-?:
- number
-;
-
-
+```ts
+export declare type AgentLocomotionOptions = {
+    movementSpeed?: number;
+    travelTime?: number;
+    acceleration?: number;
+    deceleration?: number;
 };
 ```
 

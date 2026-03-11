@@ -8,13 +8,8 @@ The possible states of a [sublevel](../Classes/SublevelEntity.md) in a world whe
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-SublevelStates
- 
+```ts
+export declare enum SublevelStates 
 ```
 
 ## [Enumeration Members](#enumeration-members)

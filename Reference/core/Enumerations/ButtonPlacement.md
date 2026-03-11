@@ -8,13 +8,8 @@ The available button placements.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-ButtonPlacement
- 
+```ts
+export declare enum ButtonPlacement 
 ```
 
 ## [Enumeration Members](#enumeration-members)

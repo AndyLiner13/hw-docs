@@ -10,17 +10,8 @@ Manipulates runtime properties of cameras in pan camera mode. In pan camera mode
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-PanCameraMode
- 
-implements
- 
-ICameraMode
- 
+```ts
+export declare class PanCameraMode implements ICameraMode 
 ```
 
 ## [Remarks](#remarks)
@@ -29,30 +20,23 @@ The [Camera.setCameraModePan()](Camera.md#setcameramodepan) method enables pan c
 
 ## [Properties](#properties)
 
-|                    |                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------- |
-| **positionOffset** | Local offset from the target position. Camera keeps looking at target.Signature\`\`\` |
-| positionOffset     |                                                                                       |
-| :                  |                                                                                       |
+### [positionOffset](#positionoffset)
 
-HorizonProperty
-<
-Vec3
+Local offset from the target position. Camera keeps looking at target.
 
-> ;
+**Signature**
 
-````|
-| **translationSpeed** | Controls how quickly the camera moves to the desired position. If not set, the camera is always snapped to it instantly.Signature```
-translationSpeed
-:
- 
-HorizonProperty
-<
-number 
-|
- 
-null
->;
-``` |
-````
+```ts
+positionOffset: HorizonProperty<Vec3>;
+```
+
+### [translationSpeed](#translationspeed)
+
+Controls how quickly the camera moves to the desired position. If not set, the camera is always snapped to it instantly.
+
+**Signature**
+
+```ts
+translationSpeed: HorizonProperty<number | null>;
+```
 

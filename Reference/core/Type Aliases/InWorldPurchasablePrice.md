@@ -8,21 +8,9 @@ Represents fields related to the price of an in-world item purchase.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-InWorldPurchasablePrice
- 
-=
- 
-{
-
-    priceInCredits
-:
- number
-;
-
-
+```ts
+export declare type InWorldPurchasablePrice = {
+    priceInCredits: number;
 };
 ```
 

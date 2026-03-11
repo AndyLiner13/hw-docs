@@ -8,16 +8,7 @@ Used to validate the type of a built-in variable.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-BuiltInVariableType
- 
-=
- 
-PropTypeFromEnum
-<
-AllPropTypes
->;
+```ts
+export declare type BuiltInVariableType = PropTypeFromEnum<AllPropTypes>;
 ```
 

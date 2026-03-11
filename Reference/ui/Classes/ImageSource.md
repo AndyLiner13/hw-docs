@@ -8,55 +8,66 @@ Represents the source of an image used by an [image](../Functions/Image_2.md) co
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-ImageSource
- 
+```ts
+export declare class ImageSource 
 ```
 
 ## [Remarks](#remarks)
 
 In order to apply an image to an image component, the image must be uploaded to your asset library as a PNG.\
-For information about usage, see the [Image from Asset](../../../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md) section of the Custom UI Examples tutorial.
+For information about usage, see the [Image from Asset](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/tutorial-worlds/custom-ui-examples-tutorial/station-2-image-from-asset) section of the Custom UI Examples tutorial.
 
 ## [Methods](#methods)
 
-|                                                              |                                                                           |
-| ------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| \*\*fromPlayerAvatarExpression(player, expression)\*\*static | Gets an image based on the player's avatar and expression.Signature\`\`\` |
-| static                                                       |                                                                           |
-| fromPlayerAvatarExpression                                   |                                                                           |
-| (                                                            |                                                                           |
-| player                                                       |                                                                           |
-| :                                                            |                                                                           |
+### [fromPlayerAvatarExpression(player, expression) static](#fromplayeravatarexpressionplayer-expression-static)
 
-Player
-,
-expression
-:
+Gets an image based on the player's avatar and expression.
 
-AvatarImageExpressions
-):
+**Signature**
 
-ImageSource
-;
+```ts
+static fromPlayerAvatarExpression(player: Player, expression: AvatarImageExpressions): ImageSource;
+```
 
-````Parametersplayer: PlayerThe player to retrieve the avatar for.expression: [AvatarImageExpressions](../Enumerations/AvatarImageExpressions.md)The expression to retrieve.Returns[ImageSource](ImageSource.md)The image source for the given avatar and expression.RemarksOnly works on Client. Make sure your Custom UI panel and script is local. |
-| **fromTextureAsset(texture)**static                      | Gets an image based on a texture asset.Signature```
-static
- fromTextureAsset
-(
-texture
-:
- 
-TextureAsset
-):
- 
-ImageSource
-;
-```Parameterstexture: TextureAssetThe texture asset to use as the source.Returns[ImageSource](ImageSource.md)The image source for the given texture asset.                                                                                                                                                                                                                                                          |
-````
+**Parameters**
+
+player: Player
+
+The player to retrieve the avatar for.
+
+expression: [AvatarImageExpressions](../Enumerations/AvatarImageExpressions.md)
+
+The expression to retrieve.
+
+**Returns**
+
+[ImageSource](ImageSource.md)
+
+The image source for the given avatar and expression.
+
+**Remarks**
+
+Only works on Client. Make sure your Custom UI panel and script is local.
+
+### [fromTextureAsset(texture) static](#fromtextureassettexture-static)
+
+Gets an image based on a texture asset.
+
+**Signature**
+
+```ts
+static fromTextureAsset(texture: TextureAsset): ImageSource;
+```
+
+**Parameters**
+
+texture: TextureAsset
+
+The texture asset to use as the source.
+
+**Returns**
+
+[ImageSource](ImageSource.md)
+
+The image source for the given texture asset.
 

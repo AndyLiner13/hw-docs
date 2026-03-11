@@ -8,27 +8,10 @@ Defines how to [animate](../Abstract%20Classes/Animation_2.md) a value along an 
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TimingAnimationConfig
- 
-=
- 
-{
-
-    duration
-?:
- number
-;
-
-    easing
-?:
- 
-Easing
-;
-
-
+```ts
+export declare type TimingAnimationConfig = {
+    duration?: number;
+    easing?: Easing;
 };
 ```
 

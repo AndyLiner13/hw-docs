@@ -8,20 +8,8 @@ Represents a writable property.
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-WritableHorizonProperty
-<
-T
-,
- U 
-=
- never
->
- 
+```ts
+export interface WritableHorizonProperty<T, U = never> 
 ```
 
 ## [Remarks](#remarks)
@@ -30,27 +18,27 @@ You cannot set the property value directly; you must use the `set` method. Using
 
 ## [Methods](#methods)
 
-|                        |                                                  |
-| ---------------------- | ------------------------------------------------ |
-| **set(value, values)** | Sets the value(s) of the propertySignature\`\`\` |
-| set                    |                                                  |
-| (                      |                                                  |
-| value                  |                                                  |
-| :                      |                                                  |
-| T                      |                                                  |
-| ,                      |                                                  |
+### [set(value, values)](#setvalue-values)
 
-...
-values
-:
+Sets the value(s) of the property
 
-\[
-U
-?]):
+**Signature**
+
+```ts
+set(value: T, ...values: [U?]): void;
+```
+
+**Parameters**
+
+value: T
+
+the new property value
+
+values: \[U?]
+
+the new property values
+
+**Returns**
 
 void
-;
-
-```Parametersvalue: Tthe new property valuevalues: [U?]the new property valuesReturnsvoid |
-```
 

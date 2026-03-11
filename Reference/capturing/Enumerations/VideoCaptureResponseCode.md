@@ -13,13 +13,8 @@ The response codes for [PlayerCapturing](../Classes/PlayerCapturing.md) function
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-VideoCaptureResponseCode
- 
+```ts
+export declare enum VideoCaptureResponseCode 
 ```
 
 ## [Enumeration Members](#enumeration-members)

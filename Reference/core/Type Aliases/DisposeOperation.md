@@ -8,18 +8,7 @@ A callback used to perform a single registered dispose operation, either automat
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-DisposeOperation
- 
-=
- 
-()
- 
-=>
- 
-void
-;
+```ts
+export declare type DisposeOperation = () => void;
 ```
 

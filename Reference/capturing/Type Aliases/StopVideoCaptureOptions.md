@@ -13,22 +13,9 @@ The options for the method.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-StopVideoCaptureOptions
- 
-=
- 
-{
-
-    save
-:
- 
-boolean
-;
-
-
+```ts
+export declare type StopVideoCaptureOptions = {
+    save: boolean;
 };
 ```
 

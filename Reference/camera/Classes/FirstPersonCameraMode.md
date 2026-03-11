@@ -10,17 +10,8 @@ Manipulates runtime properties of cameras in first person mode, which uses a cam
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-FirstPersonCameraMode
- 
-implements
- 
-ICameraMode
- 
+```ts
+export declare class FirstPersonCameraMode implements ICameraMode 
 ```
 
 ## [Remarks](#remarks)

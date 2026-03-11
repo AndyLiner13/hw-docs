@@ -8,11 +8,8 @@ The default options for showing a popup when using the [PopupOptions](../Type%20
 
 ## [Signature](#signature)
 
-```
-DefaultPopupOptions
-:
- 
-PopupOptions
+```ts
+DefaultPopupOptions: PopupOptions
 ```
 
 ## [Remarks](#remarks)

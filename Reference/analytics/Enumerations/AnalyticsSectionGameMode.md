@@ -8,13 +8,8 @@ The game modes for analytics sections.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AnalyticsSectionGameMode
- 
+```ts
+export declare enum AnalyticsSectionGameMode 
 ```
 
 ## [Enumeration Members](#enumeration-members)

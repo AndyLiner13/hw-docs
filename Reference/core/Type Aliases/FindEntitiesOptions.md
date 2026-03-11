@@ -8,28 +8,10 @@ Options for the [World.findEntities()](../Classes/World.md#findentities) method.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FindEntitiesOptions
- 
-=
- 
-{
-
-    rootEntity
-?:
- 
-Entity
-;
-
-    matchOperation
-?:
- 
-EntityNameMatchOperation
-;
-
-
+```ts
+export declare type FindEntitiesOptions = {
+    rootEntity?: Entity;
+    matchOperation?: EntityNameMatchOperation;
 };
 ```
 

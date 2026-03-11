@@ -8,13 +8,8 @@ Represents the different types of avatar images that can be used by an image com
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AvatarImageType
- 
+```ts
+export declare enum AvatarImageType 
 ```
 
 ## [Enumeration Members](#enumeration-members)

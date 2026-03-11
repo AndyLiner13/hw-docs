@@ -8,18 +8,7 @@ The camera target type used by a camera in [attached mode](../Classes/Camera.md#
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-CameraTarget
- 
-=
- 
-Entity
- 
-|
- 
-Player
-;
+```ts
+export declare type CameraTarget = Entity | Player;
 ```
 

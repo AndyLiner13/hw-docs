@@ -8,13 +8,8 @@ Indicates how to display time in a world using the monetary gizmo.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-MonetizationTimeOption
- 
+```ts
+export declare enum MonetizationTimeOption 
 ```
 
 ## [Enumeration Members](#enumeration-members)

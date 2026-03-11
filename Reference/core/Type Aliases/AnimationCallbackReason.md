@@ -8,15 +8,8 @@ Represents the [reason](../Enumerations/AnimationCallbackReasons.md) that an [An
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AnimationCallbackReason
- 
-=
- 
-AnimationCallbackReasons
-;
+```ts
+export declare type AnimationCallbackReason = AnimationCallbackReasons;
 ```
 
 ## [References](#references)

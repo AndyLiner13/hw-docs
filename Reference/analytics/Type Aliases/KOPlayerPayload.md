@@ -8,18 +8,7 @@ A payload sent by the `OnKOPlayer` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-KOPlayerPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnKOPlayer
->;
+```ts
+export declare type KOPlayerPayload = FullTurboEventPayload<typeof OnKOPlayer>;
 ```
 

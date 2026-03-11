@@ -8,36 +8,11 @@ The props of an [EditorButton()](../Functions/EditorButton.md) component.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-EditorButtonProps
- 
-=
- 
-{
-
-    text
-?:
- 
-Bindable
-<string>
-;
-
-    disabled
-?:
- 
-Bindable
-<boolean>
-;
-
-    onPress
-:
- 
-Callback
-;
-
-
+```ts
+export declare type EditorButtonProps = {
+    text?: Bindable<string>;
+    disabled?: Bindable<boolean>;
+    onPress: Callback;
 };
 ```
 

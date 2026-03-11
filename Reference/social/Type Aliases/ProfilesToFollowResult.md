@@ -8,22 +8,9 @@ Response type for the showProfilesToFollow function.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ProfilesToFollowResult
- 
-=
- 
-{
-
-    success
-:
- 
-boolean
-;
-
-
+```ts
+export declare type ProfilesToFollowResult = {
+    success: boolean;
 };
 ```
 

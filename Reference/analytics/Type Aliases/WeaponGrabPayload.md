@@ -8,18 +8,7 @@ A payload sent by the `OnWeaponGrab` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-WeaponGrabPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnWeaponGrab
->;
+```ts
+export declare type WeaponGrabPayload = FullTurboEventPayload<typeof OnWeaponGrab>;
 ```
 

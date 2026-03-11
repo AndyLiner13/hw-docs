@@ -8,18 +8,7 @@ A payload sent by the `OnDeathByEnemy` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-DeathByEnemyPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnDeathByEnemy
->;
+```ts
+export declare type DeathByEnemyPayload = FullTurboEventPayload<typeof OnDeathByEnemy>;
 ```
 

@@ -8,13 +8,8 @@ The type of device the player is using.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-PlayerDeviceType
- 
+```ts
+export declare enum PlayerDeviceType 
 ```
 
 ## [Enumeration Members](#enumeration-members)

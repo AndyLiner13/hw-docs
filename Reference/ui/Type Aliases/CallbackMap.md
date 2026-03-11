@@ -8,24 +8,8 @@ Stores a map of IDs to callback functions for use during data model serializatio
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-CallbackMap
- 
-=
- 
-Map
-<
-string
-,
- 
-Callback
- 
-|
- 
-CallbackWithPayload
->;
+```ts
+export declare type CallbackMap = Map<string, Callback | CallbackWithPayload>;
 ```
 
 ## [References](#references)

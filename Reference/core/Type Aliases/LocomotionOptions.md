@@ -8,42 +8,13 @@ The options used when a movement command is issued to the NPC.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-LocomotionOptions
- 
-=
- 
-{
-
-    movementSpeed
-?:
- number
-;
-
-    travelTime
-?:
- number
-;
-
-    acceleration
-?:
- number
-;
-
-    deceleration
-?:
- number
-;
-
-    faceMovementDirection
-?:
- 
-boolean
-;
-
-
+```ts
+export declare type LocomotionOptions = {
+    movementSpeed?: number;
+    travelTime?: number;
+    acceleration?: number;
+    deceleration?: number;
+    faceMovementDirection?: boolean;
 };
 ```
 

@@ -8,51 +8,11 @@ Represents the props of a [DynamicList()](../Functions/DynamicList.md) component
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-DynamicListProps
-<
-T
->
- 
-=
- 
-{
-
-    data
-:
- 
-Binding
-<
-T
-[]>;
-
-    renderItem
-:
- 
-(
-item
-:
- T
-,
- index
-?:
- number
-)
- 
-=>
- 
-UINode
-;
-
-    style
-?:
- 
-ViewStyle
-;
-
-
+```ts
+export declare type DynamicListProps<T> = {
+    data: Binding<T[]>;
+    renderItem: (item: T, index?: number) => UINode;
+    style?: ViewStyle;
 };
 ```
 

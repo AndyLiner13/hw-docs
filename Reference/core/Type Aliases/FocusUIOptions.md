@@ -8,42 +8,13 @@ Options for the [Player.focusUI()](../Classes/Player.md#focusui) method includin
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FocusUIOptions
- 
-=
- 
-{
-
-    duration
-?:
- number
-;
-
-    horizontalOffset
-?:
- number
-;
-
-    verticalOffset
-?:
- number
-;
-
-    rotation
-?:
- 
-Vec3
-;
-
-    fillPercentage
-?:
- number
-;
-
-
+```ts
+export declare type FocusUIOptions = {
+    duration?: number;
+    horizontalOffset?: number;
+    verticalOffset?: number;
+    rotation?: Vec3;
+    fillPercentage?: number;
 };
 ```
 

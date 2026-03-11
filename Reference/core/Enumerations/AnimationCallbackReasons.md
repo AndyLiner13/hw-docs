@@ -8,13 +8,8 @@ The possible reasons for the [AnimationCallbackReason](../Type%20Aliases/Animati
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AnimationCallbackReasons
- 
+```ts
+export declare enum AnimationCallbackReasons 
 ```
 
 ## [Enumeration Members](#enumeration-members)

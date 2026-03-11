@@ -8,21 +8,9 @@ Options for how is applied.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-SetMaterialOptions
- 
-=
- 
-{
-
-    materialSlot
-?:
- number
-;
-
-
+```ts
+export declare type SetMaterialOptions = {
+    materialSlot?: number;
 };
 ```
 

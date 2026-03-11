@@ -8,13 +8,8 @@ The shared game states for a world instance. This is not player-specific.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-GameStateEnum
- 
+```ts
+export declare enum GameStateEnum 
 ```
 
 ## [Enumeration Members](#enumeration-members)

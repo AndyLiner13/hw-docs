@@ -8,31 +8,11 @@ The available options for enabling Aim Assist with the [Player.setAimAssistTarge
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AimAssistOptions
- 
-=
- 
-{
-
-    assistanceStrength
-?:
- number
-;
-
-    targetSize
-?:
- number
-;
-
-    noInputGracePeriod
-?:
- number
-;
-
-
+```ts
+export declare type AimAssistOptions = {
+    assistanceStrength?: number;
+    targetSize?: number;
+    noInputGracePeriod?: number;
 };
 ```
 

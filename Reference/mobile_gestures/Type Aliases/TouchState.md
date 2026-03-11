@@ -8,51 +8,14 @@ State of a touch
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TouchState
- 
-=
- 
-{
-
-    phase
-:
- 
-TouchPhase
-;
-
-    start
-:
- 
-TouchInfo
-;
-
-    previous
-:
- 
-TouchInfo
-;
-
-    current
-:
- 
-TouchInfo
-;
-
-    screenDelta
-:
- 
-Vec3
-;
-
-    screenTraveled
-:
- number
-;
-
-
+```ts
+export declare type TouchState = {
+    phase: TouchPhase;
+    start: TouchInfo;
+    previous: TouchInfo;
+    current: TouchInfo;
+    screenDelta: Vec3;
+    screenTraveled: number;
 };
 ```
 

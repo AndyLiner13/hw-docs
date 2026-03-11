@@ -8,13 +8,8 @@ Defines the orientation of the x, y, z axis in space.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-EulerOrder
- 
+```ts
+export declare enum EulerOrder 
 ```
 
 ## [Enumeration Members](#enumeration-members)

@@ -8,24 +8,7 @@ The supported value types for a PopcornFX particle effect parameter.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-VFXParameterType
- 
-=
- number 
-|
- 
-boolean
- 
-|
- number
-[]
- 
-|
- 
-boolean
-[];
+```ts
+export declare type VFXParameterType = number | boolean | number[] | boolean[];
 ```
 

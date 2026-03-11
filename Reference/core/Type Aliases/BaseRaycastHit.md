@@ -8,33 +8,11 @@ The base class for the result of a [raycast](../Classes/RaycastGizmo.md#raycast)
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-BaseRaycastHit
- 
-=
- 
-{
-
-    distance
-:
- number
-;
-
-    hitPoint
-:
- 
-Vec3
-;
-
-    normal
-:
- 
-Vec3
-;
-
-
+```ts
+export declare type BaseRaycastHit = {
+    distance: number;
+    hitPoint: Vec3;
+    normal: Vec3;
 };
 ```
 

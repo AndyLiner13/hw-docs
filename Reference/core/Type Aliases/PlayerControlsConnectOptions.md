@@ -8,28 +8,10 @@ The options to pass to [PlayerControls.connectLocalInput()](../Classes/PlayerCon
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PlayerControlsConnectOptions
- 
-=
- 
-{
-
-    preferredButtonPlacement
-?:
- 
-ButtonPlacement
-;
-
-    customAssetIconId
-?:
- 
-string
-;
-
-
+```ts
+export declare type PlayerControlsConnectOptions = {
+    preferredButtonPlacement?: ButtonPlacement;
+    customAssetIconId?: string;
 };
 ```
 

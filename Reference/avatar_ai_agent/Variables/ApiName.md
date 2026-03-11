@@ -8,11 +8,7 @@ The name of the API.
 
 ## [Signature](#signature)
 
-```
-ApiName
- 
-=
- 
-"avatar_ai_agent"
+```ts
+ApiName = "avatar_ai_agent"
 ```
 

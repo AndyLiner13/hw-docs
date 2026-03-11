@@ -8,11 +8,8 @@ Defines the default values for the type.
 
 ## [Signature](#signature)
 
-```
-DefaultFetchAsDataOptions
-:
- 
-FetchAsDataOptions
+```ts
+DefaultFetchAsDataOptions: FetchAsDataOptions
 ```
 
 ## [Remarks](#remarks)

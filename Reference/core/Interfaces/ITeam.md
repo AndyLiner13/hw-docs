@@ -8,13 +8,8 @@ Basic functions for teams based gameplay.
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-ITeam
- 
+```ts
+export interface ITeam 
 ```
 
 ## [Remarks](#remarks)
@@ -24,196 +19,281 @@ Team groups are ways to separate teams in different sets. This allows the creati
 
 ## [Methods](#methods)
 
-|                                                   |                                                                                                                                                                               |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **addLocalPlayerToTeam(teamName, teamGroupName)** | Adds the local player to a team. If the player was already in a team, they a removed from it at the same time. Client only, raises an exception on the server.Signature\`\`\` |
-| addLocalPlayerToTeam                              |                                                                                                                                                                               |
-| (                                                 |                                                                                                                                                                               |
-| teamName                                          |                                                                                                                                                                               |
-| :                                                 |                                                                                                                                                                               |
+### [addLocalPlayerToTeam(teamName, teamGroupName)](#addlocalplayertoteamteamname-teamgroupname)
 
-string
-,
-teamGroupName
-?:
+Adds the local player to a team. If the player was already in a team, they a removed from it at the same time. Client only, raises an exception on the server.
 
-string
-):
+**Signature**
+
+```ts
+addLocalPlayerToTeam(teamName: string, teamGroupName?: string): void;
+```
+
+**Parameters**
+
+teamName: string
+
+The name of the team to add to. Non existing teams are ignored.
+
+teamGroupName: string
+
+*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.
+
+**Returns**
 
 void
-;
 
-````ParametersteamName: stringThe name of the team to add to. Non existing teams are ignored.teamGroupName: string*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.Returnsvoid                                                                                                                                  |
-| **addPlayerToTeam(player, teamName, teamGroupName)** | Adds a player to a team. If the player was already in a team, they a removed from it at the same time. Server only. Raises an exception on clients.Signature```
-addPlayerToTeam
-(
-player
-:
- 
-Player
-,
- teamName
-:
- 
-string
-,
- teamGroupName
-?:
- 
-string
-):
- 
+### [addPlayerToTeam(player, teamName, teamGroupName)](#addplayertoteamplayer-teamname-teamgroupname)
+
+Adds a player to a team. If the player was already in a team, they a removed from it at the same time. Server only. Raises an exception on clients.
+
+**Signature**
+
+```ts
+addPlayerToTeam(player: Player, teamName: string, teamGroupName?: string): void;
+```
+
+**Parameters**
+
+player: [Player](../Classes/Player.md)
+
+The player object to add to the team.
+
+teamName: string
+
+The name of the team to add to. Non-existing teams are ignored.
+
+teamGroupName: string
+
+*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Nnon-existing groups are ignored.
+
+**Returns**
+
 void
-;
-```Parametersplayer: [Player](../Classes/Player.md)The player object to add to the team.teamName: stringThe name of the team to add to. Non-existing teams are ignored.teamGroupName: string*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Nnon-existing groups are ignored.Returnsvoid                                                 |
-| **createTeam(teamName, teamGroupName)**              | Creates a new team within a group. Server only, raises an exception on clients.Signature```
-createTeam
-(
-teamName
-:
- 
-string
-,
- teamGroupName
-?:
- 
-string
-):
- 
+
+### [createTeam(teamName, teamGroupName)](#createteamteamname-teamgroupname)
+
+Creates a new team within a group. Server only, raises an exception on clients.
+
+**Signature**
+
+```ts
+createTeam(teamName: string, teamGroupName?: string): void;
+```
+
+**Parameters**
+
+teamName: string
+
+The unique name of the team. Empty names are ignored. Duplicates are ignored.
+
+teamGroupName: string
+
+*(Optional)* The name of the group in which the team will exist. Undefined redirects to the Default group.
+
+**Returns**
+
 void
-;
-```ParametersteamName: stringThe unique name of the team. Empty names are ignored. Duplicates are ignored.teamGroupName: string*(Optional)* The name of the group in which the team will exist. Undefined redirects to the Default group.Returnsvoid                                                                                                                                                                                                                                       |
-| **createTeamGroup(name)**                            | Creates a new group of teams. Server only, raises an exception on clients.Signature```
-createTeamGroup
-(
-name
-:
- 
-string
-):
- 
+
+### [createTeamGroup(name)](#createteamgroupname)
+
+Creates a new group of teams. Server only, raises an exception on clients.
+
+**Signature**
+
+```ts
+createTeamGroup(name: string): void;
+```
+
+**Parameters**
+
+name: string
+
+The unique name of the group to create. Empty names are ignored. Duplicates are ignored.
+
+**Returns**
+
 void
-;
-```Parametersname: stringThe unique name of the group to create. Empty names are ignored. Duplicates are ignored.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                |
-| **deleteTeam(teamName, teamGroupName)**              | Delete a team within a group. Server only, raises an exception on clients.Signature```
-deleteTeam
-(
-teamName
-:
- 
-string
-,
- teamGroupName
-?:
- 
-string
-):
- 
+
+### [deleteTeam(teamName, teamGroupName)](#deleteteamteamname-teamgroupname)
+
+Delete a team within a group. Server only, raises an exception on clients.
+
+**Signature**
+
+```ts
+deleteTeam(teamName: string, teamGroupName?: string): void;
+```
+
+**Parameters**
+
+teamName: string
+
+The name of the team to delete. Non-existing teams are ignored.
+
+teamGroupName: string
+
+*(Optional)* The name of the group from which the team will be removed. Undefined redirects to the Default group. Non existing groups are ignored.
+
+**Returns**
+
 void
-;
-```ParametersteamName: stringThe name of the team to delete. Non-existing teams are ignored.teamGroupName: string*(Optional)* The name of the group from which the team will be removed. Undefined redirects to the Default group. Non existing groups are ignored.Returnsvoid                                                                                                                                                                                                                  |
-| **deleteTeamGroup(name)**                            | Deletes a group of teams. Server only, raises an exception on clients.Signature```
-deleteTeamGroup
-(
-name
-:
- 
-string
-):
- 
+
+### [deleteTeamGroup(name)](#deleteteamgroupname)
+
+Deletes a group of teams. Server only, raises an exception on clients.
+
+**Signature**
+
+```ts
+deleteTeamGroup(name: string): void;
+```
+
+**Parameters**
+
+name: string
+
+The name of the group to delete. Default or non existing groups are ignored.
+
+**Returns**
+
 void
-;
-```Parametersname: stringThe name of the group to delete. Default or non existing groups are ignored.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **getPlayerTeam(player, teamGroupName)**             | Returns the name of the team a given player is in. If it doesn't exist, returns undefined.Signature```
-getPlayerTeam
-(
-player
-:
- 
-Player
-,
- teamGroupName
-?:
- 
-string
-):
- 
-string
- 
-|
- 
-undefined
-;
-```Parametersplayer: [Player](../Classes/Player.md)Player to get the teamteamGroupName: string*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.Returnsstring \| undefinedThe name of the team, or undefined if none.                                                                                                                                                      |
-| **getTeamGroupNames()**                              | Gets the list of all groups currently existing in the world.Signature```
-getTeamGroupNames
-():
- 
-string
-[];
-```Returnsstring\[]The list of group names.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **getTeamNames(teamGroupName)**                      | Returns the list of all teams within a group.Signature```
-getTeamNames
-(
-teamGroupName
-?:
- 
-string
-):
- 
-string
-[];
-```ParametersteamGroupName: string*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.Returnsstring\[]The list of names of the teams.                                                                                                                                                                                                                                                                                                                         |
-| **getTeamPlayers(world, teamName, teamGroupName)**   | Returns the list of player IDs in a team. Player objects can be recovered from the [World.getPlayers()](../Classes/World.md#getplayers) list.Signature```
-getTeamPlayers
-(
-world
-:
- 
-World
-,
- teamName
-:
- 
-string
-,
- teamGroupName
-?:
- 
-string
-):
- 
-Player
-[];
-```Parametersworld: [World](../Classes/World.md)The world to extract the player list from.teamName: stringThe name of the team to add to. Non-existing teams are ignored.teamGroupName: string*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.Returns[Player](../Classes/Player.md)\[]The list of player IDs. |
-| **removeLocalPlayerFromTeam(teamGroupName)**         | Removes the local player from their team. Client only. Raises an exception on the server.Signature```
-removeLocalPlayerFromTeam
-(
-teamGroupName
-?:
- 
-string
-):
- 
+
+### [getPlayerTeam(player, teamGroupName)](#getplayerteamplayer-teamgroupname)
+
+Returns the name of the team a given player is in. If it doesn't exist, returns undefined.
+
+**Signature**
+
+```ts
+getPlayerTeam(player: Player, teamGroupName?: string): string | undefined;
+```
+
+**Parameters**
+
+player: [Player](../Classes/Player.md)
+
+Player to get the team
+
+teamGroupName: string
+
+*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.
+
+**Returns**
+
+string | undefined
+
+The name of the team, or undefined if none.
+
+### [getTeamGroupNames()](#getteamgroupnames)
+
+Gets the list of all groups currently existing in the world.
+
+**Signature**
+
+```ts
+getTeamGroupNames(): string[];
+```
+
+**Returns**
+
+string\[]
+
+The list of group names.
+
+### [getTeamNames(teamGroupName)](#getteamnamesteamgroupname)
+
+Returns the list of all teams within a group.
+
+**Signature**
+
+```ts
+getTeamNames(teamGroupName?: string): string[];
+```
+
+**Parameters**
+
+teamGroupName: string
+
+*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.
+
+**Returns**
+
+string\[]
+
+The list of names of the teams.
+
+### [getTeamPlayers(world, teamName, teamGroupName)](#getteamplayersworld-teamname-teamgroupname)
+
+Returns the list of player IDs in a team. Player objects can be recovered from the [World.getPlayers()](../Classes/World.md#getplayers) list.
+
+**Signature**
+
+```ts
+getTeamPlayers(world: World, teamName: string, teamGroupName?: string): Player[];
+```
+
+**Parameters**
+
+world: [World](../Classes/World.md)
+
+The world to extract the player list from.
+
+teamName: string
+
+The name of the team to add to. Non-existing teams are ignored.
+
+teamGroupName: string
+
+*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.
+
+**Returns**
+
+[Player](../Classes/Player.md)\[]
+
+The list of player IDs.
+
+### [removeLocalPlayerFromTeam(teamGroupName)](#removelocalplayerfromteamteamgroupname)
+
+Removes the local player from their team. Client only. Raises an exception on the server.
+
+**Signature**
+
+```ts
+removeLocalPlayerFromTeam(teamGroupName?: string): void;
+```
+
+**Parameters**
+
+teamGroupName: string
+
+*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.
+
+**Returns**
+
 void
-;
-```ParametersteamGroupName: string*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.Returnsvoid                                                                                                                                                                                                                                                                                                        |
-| **removePlayerFromTeam(player, teamGroupName)**      | Removes a player from their team. Server only. Raises an exception on clients.Signature```
-removePlayerFromTeam
-(
-player
-:
- 
-Player
-,
- teamGroupName
-?:
- 
-string
-):
- 
+
+### [removePlayerFromTeam(player, teamGroupName)](#removeplayerfromteamplayer-teamgroupname)
+
+Removes a player from their team. Server only. Raises an exception on clients.
+
+**Signature**
+
+```ts
+removePlayerFromTeam(player: Player, teamGroupName?: string): void;
+```
+
+**Parameters**
+
+player: [Player](../Classes/Player.md)
+
+the player object to remove from the team.
+
+teamGroupName: string
+
+*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.
+
+**Returns**
+
 void
-;
-```Parametersplayer: [Player](../Classes/Player.md)the player object to remove from the team.teamGroupName: string*(Optional)* The name of the group where the team exists. Undefined redirects to the Default group. Non-existing groups are ignored.Returnsvoid                                                                                                                                                                                                                   |
-````
 

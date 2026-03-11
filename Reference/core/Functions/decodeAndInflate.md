@@ -9,20 +9,8 @@ Mainly used for PersistentVariable storage to more easily manage max size limits
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- decodeAndInflate
-(
-value
-:
- 
-string
-):
- 
-string
-;
+```ts
+export declare function decodeAndInflate(value: string): string;
 ```
 
 ## [Parameters](#parameters)
@@ -35,45 +23,11 @@ string
 
 ## [Examples](#examples)
 
-```
-const
- stringValue 
-=
- 
-'Horizon is social and immersive'
-;
+```ts
+const stringValue = 'Horizon is social and immersive';
+const compressedAndEncodedValue = compressAndEncode(stringValue);
+const decodeAndInflatedValue = decodeAndInflate(compressedAndEncodedValue);
 
-
-const
- compressedAndEncodedValue 
-=
- compressAndEncode
-(
-stringValue
-);
-
-
-const
- decodeAndInflatedValue 
-=
- decodeAndInflate
-(
-compressedAndEncodedValue
-);
-
-
-console
-.
-log
-(
-Note
- that 
-"${stringValue}"
- 
-and
- 
-"${decodeAndInflatedValue}"
- match
-);
+console.log(Note that "${stringValue}" and "${decodeAndInflatedValue}" match);
 ```
 

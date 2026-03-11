@@ -8,13 +8,8 @@ The entity visibility options for a set of players.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-PlayerVisibilityMode
- 
+```ts
+export declare enum PlayerVisibilityMode 
 ```
 
 ## [Enumeration Members](#enumeration-members)

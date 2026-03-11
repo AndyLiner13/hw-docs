@@ -8,24 +8,9 @@ Options for the [MeshEntity.setTexture()](../Classes/MeshEntity.md#settexture) m
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-SetTextureOptions
- 
-=
- 
-{
-
-    players
-?:
- 
-Array
-<
-Player
->;
-
-
+```ts
+export declare type SetTextureOptions = {
+    players?: Array<Player>;
 };
 ```
 

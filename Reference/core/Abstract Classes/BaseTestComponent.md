@@ -10,40 +10,7 @@ Used only in internal tests for compatibility between the v1 and v2 APIs.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-abstract
- 
-class
- 
-BaseTestComponent
-<
-_TProps
- 
-extends
- unknown
-,
- 
-TComponent
- 
-extends
- 
-ComponentWithConstructor
-<
-Record
-<
-string
-,
- unknown
->>>
- 
-extends
- 
-Component
-<
-TComponent
->
- 
+```ts
+export declare abstract class BaseTestComponent<_TProps extends unknown, TComponent extends ComponentWithConstructor<Record<string, unknown>>> extends Component<TComponent> 
 ```
 

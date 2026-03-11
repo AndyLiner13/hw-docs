@@ -8,10 +8,7 @@ Global camera instance.
 
 ## [Signature](#signature)
 
-```
-LocalCamera
-:
- 
-Camera
+```ts
+LocalCamera: Camera
 ```
 

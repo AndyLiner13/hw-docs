@@ -8,13 +8,8 @@ The input actions available for the local player. The actions are bound to speci
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-PlayerInputAction
- 
+```ts
+export declare enum PlayerInputAction 
 ```
 
 ## [Enumeration Members](#enumeration-members)

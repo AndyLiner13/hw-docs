@@ -8,51 +8,14 @@ The sound and display settings for a popup message.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PopupOptions
- 
-=
- 
-{
-
-    position
-:
- 
-Vec3
-;
-
-    fontSize
-:
- number
-;
-
-    fontColor
-:
- 
-Color
-;
-
-    backgroundColor
-:
- 
-Color
-;
-
-    playSound
-:
- 
-boolean
-;
-
-    showTimer
-:
- 
-boolean
-;
-
-
+```ts
+export declare type PopupOptions = {
+    position: Vec3;
+    fontSize: number;
+    fontColor: Color;
+    backgroundColor: Color;
+    playSound: boolean;
+    showTimer: boolean;
 };
 ```
 

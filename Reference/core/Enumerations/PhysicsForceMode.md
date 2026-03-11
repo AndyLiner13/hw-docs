@@ -8,13 +8,8 @@ Indicates how physics is applied to an object in the world.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-PhysicsForceMode
- 
+```ts
+export declare enum PhysicsForceMode 
 ```
 
 ## [Enumeration Members](#enumeration-members)

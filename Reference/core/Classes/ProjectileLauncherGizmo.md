@@ -10,135 +10,96 @@ Represents a projectile launcher in the world.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-ProjectileLauncherGizmo
- 
-extends
- 
-Entity
- 
+```ts
+export declare class ProjectileLauncherGizmo extends Entity 
 ```
 
 ## [Remarks](#remarks)
 
-For information about usage, see [The Magic Wand](../../../Tutorials/Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%206%20-%20Room%20A%20The%20Magic%20Wand.md) tutorial.
+For information about usage, see [The Magic Wand](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/developing-for-web-and-mobile-players-tutorial/module-6-room-a-the-magic-wand) tutorial.
 
 ## [Properties](#properties)
 
-|                       |                                                       |
-| --------------------- | ----------------------------------------------------- |
-| **projectileGravity** | The gravity applied to the projectile.Signature\`\`\` |
-| projectileGravity     |                                                       |
-| :                     |                                                       |
+### [projectileGravity](#projectilegravity)
 
-WritableHorizonProperty <number></number>
-;
+The gravity applied to the projectile.
 
-````|
+**Signature**
+
+```ts
+projectileGravity: WritableHorizonProperty<number>;
+```
 
 ## [Methods](#methods)
 
-|                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **launch(options)**         | Launches a projectile with options.Signature```
-launch
-(
-options
-?:
- 
-LaunchProjectileOptions
-):
- 
+### [launch(options)](#launchoptions)
+
+Launches a projectile with options.
+
+**Signature**
+
+```ts
+launch(options?: LaunchProjectileOptions): void;
+```
+
+**Parameters**
+
+options: [LaunchProjectileOptions](../Type%20Aliases/LaunchProjectileOptions.md)
+
+*(Optional)* Optional options for launching projectile. See [LaunchProjectileOptions](../Type%20Aliases/LaunchProjectileOptions.md)
+
+**Returns**
+
 void
-;
-```Parametersoptions: [LaunchProjectileOptions](../Type%20Aliases/LaunchProjectileOptions.md)*(Optional)* Optional options for launching projectile. See [LaunchProjectileOptions](../Type%20Aliases/LaunchProjectileOptions.md)ReturnsvoidExamplesLaunch a projectile with 20m/s speed, a duration of 1 second, from (1, 0, 10) along the x=-1, y=0, z=0 vector.```
-projectileLauncher
-.
-as
-(
-ProjectileLauncherGizmo
-).
-launch
-({
 
-  speed
-:
- 
-20
-,
+**Examples**
 
-  duration
-:
- 
-1
-,
+Launch a projectile with 20m/s speed, a duration of 1 second, from (1, 0, 10) along the x=-1, y=0, z=0 vector.
 
-  overrideStartPositionAndDirection
-:
- 
-{
-
-    start
-:
- 
-new
- 
-Vec3
-(
-1
-,
- 
-0
-,
- 
-10
-),
-
-    direction
-:
- 
-new
- 
-Vec3
-(-
-1
-,
- 
-0
-,
- 
-0
-)
-
-  
-}
-
-
+```ts
+projectileLauncher.as(ProjectileLauncherGizmo).launch({
+  speed: 20,
+  duration: 1,
+  overrideStartPositionAndDirection: {
+    start: new Vec3(1, 0, 10),
+    direction: new Vec3(-1, 0, 0)
+  }
 })
-``` |
-| **launchProjectile(speed)** | > [!Warning]
->
-> This API is now obsolete. use `launch` instead.Launches a projectile.Signature```
-launchProjectile
-(
-speed
-?:
- number
-):
- 
+```
+
+### [launchProjectile(speed)](#launchprojectilespeed)
+
+Warning: This API is now obsolete.use `launch` instead.Launches a projectile.
+
+**Signature**
+
+```ts
+launchProjectile(speed?: number): void;
+```
+
+**Parameters**
+
+speed: number
+
+*(Optional)* Optional. The speed at which the projectile will launch from the launcher.
+
+**Returns**
+
 void
-;
-```Parametersspeed: number*(Optional)* Optional. The speed at which the projectile will launch from the launcher.Returnsvoid                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **toString()**              | Creates a human-readable representation of the entity.Signature```
-toString
-():
- 
+
+### [toString()](#tostring)
+
+Creates a human-readable representation of the entity.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringA string representation of the entity.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-````
+
+A string representation of the entity.
 

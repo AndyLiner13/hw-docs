@@ -8,22 +8,9 @@ Options that indicate whether players can choose to use new material from a cust
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-SetMeshOptions
- 
-=
- 
-{
-
-    updateMaterial
-?:
- 
-boolean
-;
-
-
+```ts
+export declare type SetMeshOptions = {
+    updateMaterial?: boolean;
 };
 ```
 

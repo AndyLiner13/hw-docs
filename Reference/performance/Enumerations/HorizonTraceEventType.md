@@ -8,13 +8,8 @@ The types for Horizon trace events, based on the sampler that produces them.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-HorizonTraceEventType
- 
+```ts
+export declare enum HorizonTraceEventType 
 ```
 
 ## [Enumeration Members](#enumeration-members)

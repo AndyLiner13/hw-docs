@@ -8,43 +8,49 @@ Options for gestures detection
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-GesturesOptions
- 
+```ts
+export declare class GesturesOptions 
 ```
 
 ## [Properties](#properties)
 
-|                            |                                                                                     |
-| -------------------------- | ----------------------------------------------------------------------------------- |
-| **longTapTimeThresholdMs** | How long a touch must be held to trigger a long tap, in millisecondsSignature\`\`\` |
-| longTapTimeThresholdMs     |                                                                                     |
-| :                          |                                                                                     |
-| number                     |                                                                                     |
-| ;                          |                                                                                     |
+### [longTapTimeThresholdMs](#longtaptimethresholdms)
 
-````|
-| **swipeTimeThresholdMs**   | How long a swipe must be held before it is cancelled, in millisecondsSignature```
-swipeTimeThresholdMs
-:
- number
-;
-```            |
-| **tapScreenThreshold**     | How far a tap must move before it is cancelled or becomes a swipe, in screen spaceSignature```
-tapScreenThreshold
-:
- number
-;
-``` |
-| **tapTimeThresholdMs**     | How long a tap must be held before it is cancelled, in millisecondsSignature```
-tapTimeThresholdMs
-:
- number
-;
-```                |
-````
+How long a touch must be held to trigger a long tap, in milliseconds
+
+**Signature**
+
+```ts
+longTapTimeThresholdMs: number;
+```
+
+### [swipeTimeThresholdMs](#swipetimethresholdms)
+
+How long a swipe must be held before it is cancelled, in milliseconds
+
+**Signature**
+
+```ts
+swipeTimeThresholdMs: number;
+```
+
+### [tapScreenThreshold](#tapscreenthreshold)
+
+How far a tap must move before it is cancelled or becomes a swipe, in screen space
+
+**Signature**
+
+```ts
+tapScreenThreshold: number;
+```
+
+### [tapTimeThresholdMs](#taptimethresholdms)
+
+How long a tap must be held before it is cancelled, in milliseconds
+
+**Signature**
+
+```ts
+tapTimeThresholdMs: number;
+```
 

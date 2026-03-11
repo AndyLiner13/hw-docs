@@ -8,25 +8,8 @@ Creates an EditorButton component, which represents a button element in the edit
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- 
-EditorButton
-(
-props
-:
- 
-Readonly
-<
-EditorButtonProps
->):
- 
-UINode
-<
-EditorButtonProps
->;
+```ts
+export declare function EditorButton(props: Readonly<EditorButtonProps>): UINode<EditorButtonProps>;
 ```
 
 ## [Parameters](#parameters)

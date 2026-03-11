@@ -10,52 +10,25 @@ Generic gesture event
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-GestureEvent
-<
-T 
-extends
- 
-TouchEventData
->
- 
-extends
- 
-LocalEvent
-<
-T
->
- 
+```ts
+export declare class GestureEvent<T extends TouchEventData> extends LocalEvent<T> 
 ```
 
 ## [Methods](#methods)
 
-|                                 |                 |
-| ------------------------------- | --------------- |
-| **connectLocalEvent(callback)** | Signature\`\`\` |
-| connectLocalEvent               |                 |
-| (                               |                 |
-| callback                        |                 |
-| :                               |                 |
+### [connectLocalEvent(callback)](#connectlocaleventcallback)
 
-(
-payload
-:
-T
-)
+**Signature**
 
-\=>
+```ts
+connectLocalEvent(callback: (payload: T) => void): EventSubscription;
+```
 
-void
-):
+**Parameters**
+
+callback: (payload: T) => void
+
+**Returns**
 
 EventSubscription
-;
-
-```Parameterscallback: (payload: T) => voidReturnsEventSubscription |
-```
 

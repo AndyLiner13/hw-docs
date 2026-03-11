@@ -8,76 +8,15 @@ The VoIP (Voice over Internet Protocol) settings for the player.
 
 ## [Signature](#signature)
 
-```
-VoipSettingValues
-:
- 
-{
-
-    
-readonly
- 
-Default
-:
- 
-"Default"
-;
-
-    
-readonly
- 
-Global
-:
- 
-"Global"
-;
-
-    
-readonly
- 
-Nearby
-:
- 
-"Nearby"
-;
-
-    
-readonly
- 
-Extended
-:
- 
-"Extended"
-;
-
-    
-readonly
- 
-Whisper
-:
- 
-"Whisper"
-;
-
-    
-readonly
- 
-Mute
-:
- 
-"Mute"
-;
-
-    
-readonly
- 
-Environment
-:
- 
-"Environment"
-;
-
-
+```ts
+VoipSettingValues: {
+    readonly Default: "Default";
+    readonly Global: "Global";
+    readonly Nearby: "Nearby";
+    readonly Extended: "Extended";
+    readonly Whisper: "Whisper";
+    readonly Mute: "Mute";
+    readonly Environment: "Environment";
 }
 ```
 

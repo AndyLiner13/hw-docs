@@ -8,18 +8,7 @@ A payload sent by the `OnAbilityUsed` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AbilityUsedPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnAbilityUsed
->;
+```ts
+export declare type AbilityUsedPayload = FullTurboEventPayload<typeof OnAbilityUsed>;
 ```
 

@@ -8,25 +8,9 @@ Extends an $
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TouchInfo
- 
-=
- 
-InteractionInfo
- 
-&
- 
-{
-
-    time
-:
- number
-;
-
-
+```ts
+export declare type TouchInfo = InteractionInfo & {
+    time: number;
 };
 ```
 

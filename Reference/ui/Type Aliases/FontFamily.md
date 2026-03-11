@@ -8,39 +8,8 @@ Defines the available fonts for a [Text](../Functions/Text_2.md) component in a 
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FontFamily
- 
-=
- 
-'Anton'
- 
-|
- 
-'Bangers'
- 
-|
- 
-'Kallisto'
- 
-|
- 
-'Optimistic'
- 
-|
- 
-'Oswald'
- 
-|
- 
-'Roboto'
- 
-|
- 
-'Roboto-Mono'
-;
+```ts
+export declare type FontFamily = 'Anton' | 'Bangers' | 'Kallisto' | 'Optimistic' | 'Oswald' | 'Roboto' | 'Roboto-Mono';
 ```
 
 ## [Remarks](#remarks)

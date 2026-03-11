@@ -8,60 +8,11 @@ Represents the styles of an [Image](../Functions/Image_2.md) component in a UI p
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ImageStyle
- 
-=
- 
-ViewStyle
- 
-&
- 
-{
-
-    resizeMode
-?:
- 
-'cover'
- 
-|
- 
-'contain'
- 
-|
- 
-'stretch'
- 
-|
- 
-'center'
- 
-|
- 
-'repeat'
-;
-
-    tintColor
-?:
- 
-Bindable
-<
-ColorValue
->;
-
-    tintOperation
-?:
- 
-'replace'
- 
-|
- 
-'multiply'
-;
-
-
+```ts
+export declare type ImageStyle = ViewStyle & {
+    resizeMode?: 'cover' | 'contain' | 'stretch' | 'center' | 'repeat';
+    tintColor?: Bindable<ColorValue>;
+    tintOperation?: 'replace' | 'multiply';
 };
 ```
 

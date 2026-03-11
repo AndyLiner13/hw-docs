@@ -8,13 +8,8 @@ Defines the currently available avatar grip pose animations.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AvatarGripPoseAnimationNames
- 
+```ts
+export declare enum AvatarGripPoseAnimationNames 
 ```
 
 ## [Enumeration Members](#enumeration-members)

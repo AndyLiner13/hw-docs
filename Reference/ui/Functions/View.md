@@ -8,25 +8,8 @@ Creates a view component for a UI panel.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- 
-View
-(
-props
-:
- 
-Readonly
-<
-ViewProps
->):
- 
-UINode
-<
-ViewProps
->;
+```ts
+export declare function View(props: Readonly<ViewProps>): UINode<ViewProps>;
 ```
 
 ## [Parameters](#parameters)

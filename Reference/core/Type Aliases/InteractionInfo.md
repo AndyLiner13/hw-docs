@@ -8,45 +8,13 @@ Information about an input received from the player during [Focused Interaction]
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-InteractionInfo
- 
-=
- 
-{
-
-    interactionIndex
-:
- number
-;
-
-    screenPosition
-:
- 
-Vec3
-;
-
-    worldRayOrigin
-:
- 
-Vec3
-;
-
-    worldRayDirection
-:
- 
-Vec3
-;
-
-    interactionStringId
-:
- 
-string
-;
-
-
+```ts
+export declare type InteractionInfo = {
+    interactionIndex: number;
+    screenPosition: Vec3;
+    worldRayOrigin: Vec3;
+    worldRayDirection: Vec3;
+    interactionStringId: string;
 };
 ```
 
@@ -62,5 +30,5 @@ worldRayOrigin: The origin point of a ray in the world generated from a touch ge
 worldRayDirection: The direction vector of a ray in the world generated from a touch gesture.\
 interactionStringId: A unique string identifier for the interaction.\
 InteractionInfo is passed by the [PlayerControls.onFocusedInteractionInputStarted](../Classes/PlayerControls.md#onfocusedinteractioninputstarted), [PlayerControls.onFocusedInteractionInputMoved](../Classes/PlayerControls.md#onfocusedinteractioninputmoved), and [PlayerControls.onFocusedInteractionInputEnded](../Classes/PlayerControls.md#onfocusedinteractioninputended) events.\
-For more information, see the [Focused Interaction guide](../../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Focused%20Interaction.md).
+For more information, see the [Focused Interaction guide](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-use-focused-interaction).
 

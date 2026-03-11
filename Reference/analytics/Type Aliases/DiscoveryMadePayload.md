@@ -8,18 +8,7 @@ A payload sent by the `OnDiscoveryMade` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-DiscoveryMadePayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnDiscoveryMade
->;
+```ts
+export declare type DiscoveryMadePayload = FullTurboEventPayload<typeof OnDiscoveryMade>;
 ```
 

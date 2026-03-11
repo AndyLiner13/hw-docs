@@ -8,36 +8,11 @@ The settings for [playing](../Classes/ParticleGizmo.md#play) a particle effect.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ParticleFXPlayOptions
- 
-=
- 
-{
-
-    fromStart
-?:
- 
-boolean
-;
-
-    oneShot
-?:
- 
-boolean
-;
-
-    players
-?:
- 
-Array
-<
-Player
->;
-
-
+```ts
+export declare type ParticleFXPlayOptions = {
+    fromStart?: boolean;
+    oneShot?: boolean;
+    players?: Array<Player>;
 };
 ```
 

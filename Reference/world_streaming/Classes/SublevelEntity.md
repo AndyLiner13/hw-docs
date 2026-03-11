@@ -10,538 +10,80 @@ A sublevel of a world that you can stream independentaly from the rest of the wo
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-SublevelEntity
- 
-extends
- 
-Entity
- 
+```ts
+export declare class SublevelEntity extends Entity 
 ```
 
 ## [Examples](#examples)
 
 This example demonstrates how to spawn and despawn sublevels at runtime.
 
-```
-import
- 
-{
- 
-Component
-,
- 
-PropTypes
-,
- 
-Entity
-,
- 
-CodeBlockEvents
- 
+```ts
+import { Component, PropTypes, Entity, CodeBlockEvents } from 'horizon/core';
+import { SublevelEntity } from 'horizon/world_streaming';
+
+
+class TestSublevelAPI extends Component {
+  static propsDefinition = {
+    sublevel: {type: PropTypes.Entity},
+    state: {type: 'number', default: 0}, // States 0 to 4 are:
+                                         // Unloaded, Loaded, Active,
+                                         // Pause, and Hide (Loaded).
+  };
+
+  start() {
+    this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnPlayerEnterTrigger, async (player) = {
+      var sublevel = this.props.sublevel?.as(SublevelEntity);
+      var state = this.props.state;
+
+
+      if (sublevel == null || sublevel == undefined) {
+        console.log("The sublevel entity was either null or invalid.")
+        return;
+      }
+
+      console.log("Sublevel Trigger entered. Trying to set sublevel " + sublevel.toString() + " to " + state + ", current sublevel state is " + sublevel.currentState.get() + ", previous target sublevel state is " + sublevel.targetState.get());
+      switch(state) {
+        case 0: {
+          sublevel.unload().then(() = {
+            console.log("Sublevel " + sublevel?.toString() + " is now unloaded!");
+          });
+          break;
+        }
+        case 1: {
+          sublevel.load().then(() = {
+            console.log("Sublevel " + sublevel?.toString() + " is now loaded!");
+          });
+          break;
+        }
+        case 2: {
+          sublevel.activate().then(() = {
+            console.log("Sublevel " + sublevel?.toString() + " is now activated!");
+          });
+          break;
+        }
+        case 3: {
+          sublevel.pause().then(() = {
+            console.log("Sublevel " + sublevel?.toString() + " is now paused!");
+          });
+          break;
+        }
+        case 4: {
+          sublevel.hide().then(() = {
+            console.log("Sublevel " + sublevel?.toString() + " is now hidden!");
+          });
+          break;
+        }
+        default: {
+          console.log("Invalid/Unexpected sublevel state # given: " + state);
+          // unexpected state
+          break;
+        }
+      }
+    });
+  }
 }
- 
-from
- 
-'horizon/core'
-;
-
-
-import
- 
-{
- 
-SublevelEntity
- 
-}
- 
-from
- 
-'horizon/world_streaming'
-;
-
-
-
-
-class
- 
-TestSublevelAPI
- 
-extends
- 
-Component
- 
-{
-
-  
-static
- propsDefinition 
-=
- 
-{
-
-    sublevel
-:
- 
-{
-type
-:
- 
-PropTypes
-.
-Entity
-},
-
-    state
-:
- 
-{
-type
-:
- 
-'number'
-,
- 
-default
-:
- 
-0
-},
- 
-// States 0 to 4 are:
-
-                                         
-// Unloaded, Loaded, Active,
-
-                                         
-// Pause, and Hide (Loaded).
-
-  
-};
-
-
-  start
-()
- 
-{
-
-    
-this
-.
-connectCodeBlockEvent
-(
-this
-.
-entity
-,
- 
-CodeBlockEvents
-.
-OnPlayerEnterTrigger
-,
- 
-async
- 
-(
-player
-)
- 
-=
- 
-{
-
-      
-var
- sublevel 
-=
- 
-this
-.
-props
-.
-sublevel
-?.
-as
-(
-SublevelEntity
-);
-
-      
-var
- state 
-=
- 
-this
-.
-props
-.
-state
-;
-
-
-
-      
-if
- 
-(
-sublevel 
-==
- 
-null
- 
-||
- sublevel 
-==
- 
-undefined
-)
- 
-{
-
-        console
-.
-log
-(
-"The sublevel entity was either null or invalid."
-)
-
-        
-return
-;
-
-      
-}
-
-
-      console
-.
-log
-(
-"Sublevel Trigger entered. Trying to set sublevel "
- 
-+
- sublevel
-.
-toString
-()
- 
-+
- 
-" to "
- 
-+
- state 
-+
- 
-", current sublevel state is "
- 
-+
- sublevel
-.
-currentState
-.
-get
-()
- 
-+
- 
-", previous target sublevel state is "
- 
-+
- sublevel
-.
-targetState
-.
-get
-());
-
-      
-switch
-(
-state
-)
- 
-{
-
-        
-case
- 
-0
-:
- 
-{
-
-          sublevel
-.
-unload
-().
-then
-(()
- 
-=
- 
-{
-
-            console
-.
-log
-(
-"Sublevel "
- 
-+
- sublevel
-?.
-toString
-()
- 
-+
- 
-" is now unloaded!"
-);
-
-          
-});
-
-          
-break
-;
-
-        
-}
-
-        
-case
- 
-1
-:
- 
-{
-
-          sublevel
-.
-load
-().
-then
-(()
- 
-=
- 
-{
-
-            console
-.
-log
-(
-"Sublevel "
- 
-+
- sublevel
-?.
-toString
-()
- 
-+
- 
-" is now loaded!"
-);
-
-          
-});
-
-          
-break
-;
-
-        
-}
-
-        
-case
- 
-2
-:
- 
-{
-
-          sublevel
-.
-activate
-().
-then
-(()
- 
-=
- 
-{
-
-            console
-.
-log
-(
-"Sublevel "
- 
-+
- sublevel
-?.
-toString
-()
- 
-+
- 
-" is now activated!"
-);
-
-          
-});
-
-          
-break
-;
-
-        
-}
-
-        
-case
- 
-3
-:
- 
-{
-
-          sublevel
-.
-pause
-().
-then
-(()
- 
-=
- 
-{
-
-            console
-.
-log
-(
-"Sublevel "
- 
-+
- sublevel
-?.
-toString
-()
- 
-+
- 
-" is now paused!"
-);
-
-          
-});
-
-          
-break
-;
-
-        
-}
-
-        
-case
- 
-4
-:
- 
-{
-
-          sublevel
-.
-hide
-().
-then
-(()
- 
-=
- 
-{
-
-            console
-.
-log
-(
-"Sublevel "
- 
-+
- sublevel
-?.
-toString
-()
- 
-+
- 
-" is now hidden!"
-);
-
-          
-});
-
-          
-break
-;
-
-        
-}
-
-        
-default
-:
- 
-{
-
-          console
-.
-log
-(
-"Invalid/Unexpected sublevel state # given: "
- 
-+
- state
-);
-
-          
-// unexpected state
-
-          
-break
-;
-
-        
-}
-
-      
-}
-
-    
-});
-
-  
-}
-
-
-}
-
-
-Component
-.
-register
-(
-TestSublevelAPI
-);
+Component.register(TestSublevelAPI);
 ```
 
 ## [Remarks](#remarks)
@@ -552,81 +94,121 @@ To spawn smaller sets of dynamic content at runtime, you should use a [SpawnCont
 
 ## [Properties](#properties)
 
-|                             |                                                        |
-| --------------------------- | ------------------------------------------------------ |
-| **currentState**\[readonly] | Gets the current state of the sublevel.Signature\`\`\` |
-| readonly                    |                                                        |
-| currentState                |                                                        |
-| :                           |                                                        |
+### [currentState \[readonly\]](#currentstate-readonly)
 
-ReadableHorizonProperty
-<
-SublevelStates
+Gets the current state of the sublevel.
 
-> ;
+**Signature**
 
-````|
-| **targetState**\[readonly]  | Gets the state the sublevel is attempting to reach.Signature```
-readonly
- targetState
-:
- 
-ReadableHorizonProperty
-<
-SublevelStates
->;
-``` |
+```ts
+readonly currentState: ReadableHorizonProperty<SublevelStates>;
+```
+
+### [targetState \[readonly\]](#targetstate-readonly)
+
+Gets the state the sublevel is attempting to reach.
+
+**Signature**
+
+```ts
+readonly targetState: ReadableHorizonProperty<SublevelStates>;
+```
 
 ## [Methods](#methods)
 
-|                |                                                                                                                                                                                                                    |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **activate()** | Loads the sublevel's asset data if not already loaded and makes it active in the world.Signature```
-activate
-():
- 
-Promise
-<void>
-;
-```ReturnsPromise\<void>A promise that resolves when the sublevel is active.   |
-| **hide()**     | Despawns the sublevel and preloads the sublevel's asset data so it can be re-activated later.Signature```
-hide
-():
- 
-Promise
-<void>
-;
-```ReturnsPromise\<void>A promise that resolves when the sublevel is loaded. |
-| **load()**     | Preloads the sublevel's asset data so it can be activated later.Signature```
-load
-():
- 
-Promise
-<void>
-;
-```ReturnsPromise\<void>A promise that resolves when the sublevel is loaded.                              |
-| **pause()**    | Pauses the sublevel's asset data loading.Signature```
-pause
-():
- 
-Promise
-<void>
-;
-```ReturnsPromise\<void>A promise that resolves when the sublevel is paused.                                                    |
-| **toString()** | Creates a human-readable representation of the SublevelEntity.Signature```
-toString
-():
- 
+### [activate()](#activate)
+
+Loads the sublevel's asset data if not already loaded and makes it active in the world.
+
+**Signature**
+
+```ts
+activate(): Promise<void>;
+```
+
+**Returns**
+
+Promise\<void>
+
+A promise that resolves when the sublevel is active.
+
+### [hide()](#hide)
+
+Despawns the sublevel and preloads the sublevel's asset data so it can be re-activated later.
+
+**Signature**
+
+```ts
+hide(): Promise<void>;
+```
+
+**Returns**
+
+Promise\<void>
+
+A promise that resolves when the sublevel is loaded.
+
+### [load()](#load)
+
+Preloads the sublevel's asset data so it can be activated later.
+
+**Signature**
+
+```ts
+load(): Promise<void>;
+```
+
+**Returns**
+
+Promise\<void>
+
+A promise that resolves when the sublevel is loaded.
+
+### [pause()](#pause)
+
+Pauses the sublevel's asset data loading.
+
+**Signature**
+
+```ts
+pause(): Promise<void>;
+```
+
+**Returns**
+
+Promise\<void>
+
+A promise that resolves when the sublevel is paused.
+
+### [toString()](#tostring)
+
+Creates a human-readable representation of the SublevelEntity.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringA string representation of the SublevelEntity.                                                  |
-| **unload()**   | Despawns the sublevel's asset data.Signature```
-unload
-():
- 
-Promise
-<void>
-;
-```ReturnsPromise\<void>A promise that resolves when the sublevel is unloaded.                                                       |
-````
+
+A string representation of the SublevelEntity.
+
+### [unload()](#unload)
+
+Despawns the sublevel's asset data.
+
+**Signature**
+
+```ts
+unload(): Promise<void>;
+```
+
+**Returns**
+
+Promise\<void>
+
+A promise that resolves when the sublevel is unloaded.
 

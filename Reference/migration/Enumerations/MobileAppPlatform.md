@@ -8,13 +8,8 @@ The type of mobile app the player is using to play Horizon.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-MobileAppPlatform
- 
+```ts
+export declare enum MobileAppPlatform 
 ```
 
 ## [Enumeration Members](#enumeration-members)

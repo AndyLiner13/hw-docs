@@ -8,39 +8,11 @@ Data about the of a [NavMesh](../Classes/NavMesh.md) instance.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-NavMeshInstanceInfo
- 
-=
- 
-{
-
-    profile
-:
- 
-NavMeshProfile
-;
-
-    currentBake
-:
- 
-Promise
-<boolean>
- 
-|
- 
-null
-;
-
-    state
-:
- 
-NavMeshState
-;
-
-
+```ts
+export declare type NavMeshInstanceInfo = {
+    profile: NavMeshProfile;
+    currentBake: Promise<boolean> | null;
+    state: NavMeshState;
 };
 ```
 

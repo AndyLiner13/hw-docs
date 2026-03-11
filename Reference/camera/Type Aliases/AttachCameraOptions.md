@@ -8,42 +8,12 @@ Options used to determine the behavior of a camera in [attached mode](../Classes
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AttachCameraOptions
- 
-=
- 
-{
-
-    positionOffset
-?:
- 
-Vec3
-;
-
-    rotationOffset
-?:
- 
-Vec3
- 
-|
- 
-Quaternion
-;
-
-    translationSpeed
-?:
- number
-;
-
-    rotationSpeed
-?:
- number
-;
-
-
+```ts
+export declare type AttachCameraOptions = {
+    positionOffset?: Vec3;
+    rotationOffset?: Vec3 | Quaternion;
+    translationSpeed?: number;
+    rotationSpeed?: number;
 };
 ```
 

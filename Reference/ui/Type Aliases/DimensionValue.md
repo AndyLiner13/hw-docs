@@ -8,16 +8,7 @@ The base type for dimensions.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-DimensionValue
- 
-=
- number 
-|
- 
-string
-;
+```ts
+export declare type DimensionValue = number | string;
 ```
 

@@ -8,32 +8,9 @@ Defines the pathfinding calculation results for the [NavMesh.getPathAlongSurface
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-NavMeshDetailedPath
- 
-=
- 
-Omit
-<
-NavMeshPath
-,
- 
-'waypoints'
->
- 
-&
- 
-{
-
-    waypoints
-:
- 
-NavMeshWaypoint
-[];
-
-
+```ts
+export declare type NavMeshDetailedPath = Omit<NavMeshPath, 'waypoints'> & {
+    waypoints: NavMeshWaypoint[];
 };
 ```
 

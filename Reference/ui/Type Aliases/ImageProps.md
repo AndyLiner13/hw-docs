@@ -8,34 +8,10 @@ Represents the props of an [Image](../Functions/Image_2.md) component.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ImageProps
- 
-=
- 
-{
-
-    source
-?:
- 
-Bindable
-<
-ImageSource
- 
-|
- 
-null
->;
-
-    style
-?:
- 
-ImageStyle
-;
-
-
+```ts
+export declare type ImageProps = {
+    source?: Bindable<ImageSource | null>;
+    style?: ImageStyle;
 };
 ```
 

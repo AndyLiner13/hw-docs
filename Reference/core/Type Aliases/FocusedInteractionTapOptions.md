@@ -8,63 +8,17 @@ The [FocusedInteraction](../Classes/FocusedInteraction.md) options for visuals t
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FocusedInteractionTapOptions
- 
-=
- 
-{
-
-    duration
-:
- number
-;
-
-    startScale
-:
- number
-;
-
-    endScale
-:
- number
-;
-
-    startRotation
-:
- number
-;
-
-    endRotation
-:
- number
-;
-
-    startColor
-:
- 
-Color
-;
-
-    endColor
-:
- 
-Color
-;
-
-    startOpacity
-:
- number
-;
-
-    endOpacity
-:
- number
-;
-
-
+```ts
+export declare type FocusedInteractionTapOptions = {
+    duration: number;
+    startScale: number;
+    endScale: number;
+    startRotation: number;
+    endRotation: number;
+    startColor: Color;
+    endColor: Color;
+    startOpacity: number;
+    endOpacity: number;
 };
 ```
 

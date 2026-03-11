@@ -8,32 +8,17 @@ The base class for value-based bindings, including [Binding](../Classes/Binding.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-abstract
- 
-class
- 
-ValueBindingBase
-<
-T
->
- 
+```ts
+export declare abstract class ValueBindingBase<T> 
 ```
 
 ## [Properties](#properties)
 
-|                              |                 |
-| ---------------------------- | --------------- |
-| **\_isInitialized**protected | Signature\`\`\` |
-| protected                    |                 |
-| \_isInitialized              |                 |
-| :                            |                 |
+### [\_isInitialized protected](#_isinitialized-protected)
 
-boolean
-;
+**Signature**
 
-```|
+```ts
+protected _isInitialized: boolean;
 ```
 

@@ -8,48 +8,53 @@ The Comparable interface defines a set of methods for comparing values of the sa
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-Comparable
-<
-T
->
- 
+```ts
+export interface Comparable<T> 
 ```
 
 ## [Methods](#methods)
 
-|                 |                                                                                                           |
-| --------------- | --------------------------------------------------------------------------------------------------------- |
-| **equals(val)** | Indicates whether the two values are equal. True if the values are equal; false otherwise.Signature\`\`\` |
-| equals          |                                                                                                           |
-| (               |                                                                                                           |
-| val             |                                                                                                           |
-| :               |                                                                                                           |
-| T               |                                                                                                           |
-| ):              |                                                                                                           |
+### [equals(val)](#equalsval)
+
+Indicates whether the two values are equal. True if the values are equal; false otherwise.
+
+**Signature**
+
+```ts
+equals(val: T): boolean;
+```
+
+**Parameters**
+
+val: T
+
+The value to compare to the current value.
+
+**Returns**
 
 boolean
-;
 
-````Parametersval: TThe value to compare to the current value.Returnsboolean                                                                                                                                       |
-| **equalsApprox(val, epsilon)** | Indicates two values are within epsilon of each other. True if the values are within epsilon, false otherwise.Signature```
-equalsApprox
-(
-val
-:
- T
-,
- epsilon
-?:
- number
-):
- 
+### [equalsApprox(val, epsilon)](#equalsapproxval-epsilon)
+
+Indicates two values are within epsilon of each other. True if the values are within epsilon, false otherwise.
+
+**Signature**
+
+```ts
+equalsApprox(val: T, epsilon?: number): boolean;
+```
+
+**Parameters**
+
+val: T
+
+The value to compare to the current value.
+
+epsilon: number
+
+*(Optional)* The difference between the two values when they are equal.
+
+**Returns**
+
 boolean
-;
-```Parametersval: TThe value to compare to the current value.epsilon: number*(Optional)* The difference between the two values when they are equal.Returnsboolean |
-````
 

@@ -8,10 +8,7 @@ The character limit for variables when using an [IPersistentStorage](../Interfac
 
 ## [Signature](#signature)
 
-```
-PVAR_CHARACTER_LIMIT 
-=
- 
-10000
+```ts
+PVAR_CHARACTER_LIMIT = 10000
 ```
 

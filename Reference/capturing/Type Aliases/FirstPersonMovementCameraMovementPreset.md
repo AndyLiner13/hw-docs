@@ -13,22 +13,9 @@ A [CameraMovementPreset](CameraMovementPreset.md) option that provides a first p
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FirstPersonMovementCameraMovementPreset
- 
-=
- 
-{
-
-    strategy
-:
- 
-'FirstPerson'
-;
-
-
+```ts
+export declare type FirstPersonMovementCameraMovementPreset = {
+    strategy: 'FirstPerson';
 };
 ```
 

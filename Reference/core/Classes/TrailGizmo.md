@@ -10,64 +10,75 @@ Represents a trail effect in the world.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-TrailGizmo
- 
-extends
- 
-Entity
- 
+```ts
+export declare class TrailGizmo extends Entity 
 ```
 
 ## [Properties](#properties)
 
-|            |                                                    |
-| ---------- | -------------------------------------------------- |
-| **length** | The length of the trail, in meters.Signature\`\`\` |
-| length     |                                                    |
-| :          |                                                    |
+### [length](#length)
 
-HorizonProperty <number></number>
-;
+The length of the trail, in meters.
 
-````|
-| **width**  | The width of the trail, in meters.Signature```
-width
-:
- 
-HorizonProperty
-<number>
-;
-```   |
+**Signature**
+
+```ts
+length: HorizonProperty<number>;
+```
+
+### [width](#width)
+
+The width of the trail, in meters.
+
+**Signature**
+
+```ts
+width: HorizonProperty<number>;
+```
 
 ## [Methods](#methods)
 
-|                |                                                                                                                                                   |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **play()**     | Plays the trail effect.Signature```
-play
-():
- 
+### [play()](#play)
+
+Plays the trail effect.
+
+**Signature**
+
+```ts
+play(): void;
+```
+
+**Returns**
+
 void
-;
-```Returnsvoid                                                                              |
-| **stop()**     | Stops the trail effect.Signature```
-stop
-():
- 
+
+### [stop()](#stop)
+
+Stops the trail effect.
+
+**Signature**
+
+```ts
+stop(): void;
+```
+
+**Returns**
+
 void
-;
-```Returnsvoid                                                                              |
-| **toString()** | Creates a human-readable representation of the entity.Signature```
-toString
-():
- 
+
+### [toString()](#tostring)
+
+Creates a human-readable representation of the entity.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringA string representation of the entity. |
-````
+
+A string representation of the entity.
 

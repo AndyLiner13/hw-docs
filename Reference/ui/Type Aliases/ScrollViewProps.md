@@ -8,32 +8,10 @@ Represents the props of a [ScrollView()](../Functions/ScrollView.md) component, 
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ScrollViewProps
- 
-=
- 
-ViewProps
- 
-&
- 
-{
-
-    contentContainerStyle
-?:
- 
-ViewStyle
-;
-
-    horizontal
-?:
- 
-boolean
-;
-
-
+```ts
+export declare type ScrollViewProps = ViewProps & {
+    contentContainerStyle?: ViewStyle;
+    horizontal?: boolean;
 };
 ```
 

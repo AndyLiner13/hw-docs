@@ -8,33 +8,19 @@ Extends *Camera*
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-PortraitCamera
- 
-extends
- 
-Camera
- 
+```ts
+export declare class PortraitCamera extends Camera 
 ```
 
 ## [Properties](#properties)
 
-|                        |                                           |
-| ---------------------- | ----------------------------------------- |
-| **currentOrientation** | The orientation of camera.Signature\`\`\` |
-| currentOrientation     |                                           |
-| :                      |                                           |
+### [currentOrientation](#currentorientation)
 
-ReadableHorizonProperty
-<
-CameraOrientation
+The orientation of camera.
 
-> ;
+**Signature**
 
-```|
+```ts
+currentOrientation: ReadableHorizonProperty<CameraOrientation>;
 ```
 

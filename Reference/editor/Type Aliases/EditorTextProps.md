@@ -8,65 +8,13 @@ The props of an [EditorText()](../Functions/EditorText.md) component.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-EditorTextProps
- 
-=
- 
-{
-
-    text
-?:
- 
-Bindable
-<string>
-;
-
-    color
-?:
- 
-Bindable
-<
-ColorValue
->;
-
-    overflow
-?:
- 
-'wrap'
- 
-|
- 
-'ellipsis'
-;
-
-    textAlign
-?:
- 
-'auto'
- 
-|
- 
-'left'
- 
-|
- 
-'center'
- 
-|
- 
-'right'
-;
-
-    type
-?:
- 
-TextType
-;
-
-
+```ts
+export declare type EditorTextProps = {
+    text?: Bindable<string>;
+    color?: Bindable<ColorValue>;
+    overflow?: 'wrap' | 'ellipsis';
+    textAlign?: 'auto' | 'left' | 'center' | 'right';
+    type?: TextType;
 };
 ```
 

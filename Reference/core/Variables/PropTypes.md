@@ -8,139 +8,26 @@ A list of property types available for a Typescript [Component](../Abstract%20Cl
 
 ## [Signature](#signature)
 
-```
-PropTypes
-:
- 
-{
-
-    
-Number
-:
- 
-"number"
-;
-
-    
-String
-:
- 
-"string"
-;
-
-    
-Boolean
-:
- 
-"boolean"
-;
-
-    
-Vec3
-:
- 
-"Vec3"
-;
-
-    
-Color
-:
- 
-"Color"
-;
-
-    
-Entity
-:
- 
-"Entity"
-;
-
-    
-Quaternion
-:
- 
-"Quaternion"
-;
-
-    
-Player
-:
- 
-"Player"
-;
-
-    
-Asset
-:
- 
-"Asset"
-;
-
-    
-NumberArray
-:
- 
-"Array<number>"
-;
-
-    
-StringArray
-:
- 
-"Array<string>"
-;
-
-    
-BooleanArray
-:
- 
-"Array<boolean>"
-;
-
-    
-Vec3Array
-:
- 
-"Array<Vec3>"
-;
-
-    
-ColorArray
-:
- 
-"Array<Color>"
-;
-
-    
-EntityArray
-:
- 
-"Array<Entity>"
-;
-
-    
-QuaternionArray
-:
- 
-"Array<Quaternion>"
-;
-
-    
-PlayerArray
-:
- 
-"Array<Player>"
-;
-
-    
-AssetArray
-:
- 
-"Array<Asset>"
-;
-
-
+```ts
+PropTypes: {
+    Number: "number";
+    String: "string";
+    Boolean: "boolean";
+    Vec3: "Vec3";
+    Color: "Color";
+    Entity: "Entity";
+    Quaternion: "Quaternion";
+    Player: "Player";
+    Asset: "Asset";
+    NumberArray: "Array<number>";
+    StringArray: "Array<string>";
+    BooleanArray: "Array<boolean>";
+    Vec3Array: "Array<Vec3>";
+    ColorArray: "Array<Color>";
+    EntityArray: "Array<Entity>";
+    QuaternionArray: "Array<Quaternion>";
+    PlayerArray: "Array<Player>";
+    AssetArray: "Array<Asset>";
 }
 ```
 

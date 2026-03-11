@@ -8,24 +8,8 @@ Represents a callback that signals changes in the animation state of a player.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AvatarGripPoseAnimationCallback
- 
-=
- 
-(
-reason
-:
- 
-AnimationCallbackReason
-)
- 
-=>
- 
-void
-;
+```ts
+export declare type AvatarGripPoseAnimationCallback = (reason: AnimationCallbackReason) => void;
 ```
 
 ## [References](#references)

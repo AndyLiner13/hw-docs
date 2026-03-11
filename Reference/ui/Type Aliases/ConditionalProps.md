@@ -8,37 +8,11 @@ Represents the props of a UINode.if() node (for conditional rendering).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ConditionalProps
- 
-=
- 
-{
-
-    condition
-:
- 
-Bindable
-<boolean>
-;
-
-    
-true
-?:
- 
-UIChildren
-;
-
-    
-false
-?:
- 
-UIChildren
-;
-
-
+```ts
+export declare type ConditionalProps = {
+    condition: Bindable<boolean>;
+    true?: UIChildren;
+    false?: UIChildren;
 };
 ```
 

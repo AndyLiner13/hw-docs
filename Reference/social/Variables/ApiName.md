@@ -8,11 +8,7 @@ The name of the API.
 
 ## [Signature](#signature)
 
-```
-ApiName
- 
-=
- 
-"Social"
+```ts
+ApiName = "Social"
 ```
 

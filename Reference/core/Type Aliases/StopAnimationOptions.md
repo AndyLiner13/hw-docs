@@ -8,21 +8,9 @@ The options for the [Player.stopAvatarAnimation()](../Classes/Player.md#stopavat
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-StopAnimationOptions
- 
-=
- 
-{
-
-    fadeOutDuration
-?:
- number
-;
-
-
+```ts
+export declare type StopAnimationOptions = {
+    fadeOutDuration?: number;
 };
 ```
 

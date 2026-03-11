@@ -8,29 +8,8 @@ A callback that signals state changes when player input is pressed.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PlayerInputStateChangeCallback
- 
-=
- 
-(
-action
-:
- 
-PlayerInputAction
-,
- pressed
-:
- 
-boolean
-)
- 
-=>
- 
-void
-;
+```ts
+export declare type PlayerInputStateChangeCallback = (action: PlayerInputAction, pressed: boolean) => void;
 ```
 
 ## [References](#references)

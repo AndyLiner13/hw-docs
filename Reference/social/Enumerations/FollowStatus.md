@@ -8,13 +8,8 @@ Represents the different types of follow status between two players.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-FollowStatus
- 
+```ts
+export declare enum FollowStatus 
 ```
 
 ## [Enumeration Members](#enumeration-members)

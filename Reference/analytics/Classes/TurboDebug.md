@@ -8,13 +8,8 @@ A set of tools for debugging and testing Turbo implementations.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-TurboDebug
- 
+```ts
+export declare class TurboDebug 
 ```
 
 ## [Remarks](#remarks)
@@ -23,57 +18,19 @@ To use Turbo debugging, you must enable it by setting the [ITurboSettings.debug]
 
 ## [Properties](#properties)
 
-|                  |                                                                                                    |
-| ---------------- | -------------------------------------------------------------------------------------------------- |
-| **events**static | An event subscription that delivers enriched analytics payloads to event listeners.Signature\`\`\` |
-| static           |                                                                                                    |
-| events           |                                                                                                    |
-| :                |                                                                                                    |
+### [events static](#events-static)
 
-{
+An event subscription that delivers enriched analytics payloads to event listeners.
 
-```
-    onDebugTurboPlayerEvent
-```
+**Signature**
 
-:
-hz
-.
-LocalEvent
-<{
-
-```
-        player
-```
-
-:
-hz
-.
-Player
-;
-
-```
-        eventData
-```
-
-:
-
-EventData
-;
-
-```
-        action
-```
-
-:
-
-Action
-;
-
-}>;
-
-};
-
-```|
+```ts
+static events: {
+        onDebugTurboPlayerEvent: hz.LocalEvent<{
+            player: hz.Player;
+            eventData: EventData;
+            action: Action;
+        }>;
+    };
 ```
 

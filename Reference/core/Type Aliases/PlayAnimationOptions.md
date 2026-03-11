@@ -8,55 +8,15 @@ The options for the [Player.playAvatarAnimation()](../Classes/Player.md#playavat
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PlayAnimationOptions
- 
-=
- 
-{
-
-    playRate
-?:
- number
-;
-
-    looping
-?:
- 
-boolean
-;
-
-    fadeInDuration
-?:
- number
-;
-
-    fadeOutDuration
-?:
- number
-;
-
-    mask
-?:
- 
-AvatarAnimationMask
-;
-
-    callback
-?:
- 
-AnimationCallback
-;
-
-    onEndBehavior
-?:
- 
-AnimationOnEndBehavior
-;
-
-
+```ts
+export declare type PlayAnimationOptions = {
+    playRate?: number;
+    looping?: boolean;
+    fadeInDuration?: number;
+    fadeOutDuration?: number;
+    mask?: AvatarAnimationMask;
+    callback?: AnimationCallback;
+    onEndBehavior?: AnimationOnEndBehavior;
 };
 ```
 

@@ -8,12 +8,7 @@ The base interface for manipulating camera mode properties.
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-ICameraMode
- 
+```ts
+export interface ICameraMode 
 ```
 

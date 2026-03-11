@@ -8,44 +8,41 @@ The leaderboards for the players in the world.
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-ILeaderboards
- 
+```ts
+export interface ILeaderboards 
 ```
 
 ## [Methods](#methods)
 
-|                                                                 |                                                         |
-| --------------------------------------------------------------- | ------------------------------------------------------- |
-| **setScoreForPlayer(leaderboardName, player, score, override)** | Sets the leaderboard score for a player.Signature\`\`\` |
-| setScoreForPlayer                                               |                                                         |
-| (                                                               |                                                         |
-| leaderboardName                                                 |                                                         |
-| :                                                               |                                                         |
+### [setScoreForPlayer(leaderboardName, player, score, override)](#setscoreforplayerleaderboardname-player-score-override)
 
-string
-,
-player
-:
+Sets the leaderboard score for a player.
 
-Player
-,
-score
-:
-number
-,
+**Signature**
 
-override
-:
+```ts
+setScoreForPlayer(leaderboardName: string, player: Player, score: number, override: boolean): void;
+```
 
-boolean
-):
+**Parameters**
+
+leaderboardName: string
+
+The name of the leader board.
+
+player: [Player](../Classes/Player.md)
+
+The player for whom the score is updated.
+
+score: number
+
+The new score.
+
+override: boolean
+
+If `true`, overrides the previous score; otherwise the previous score is retained.
+
+**Returns**
 
 void
-;
-\`\`\`ParametersleaderboardName: stringThe name of the leader board.player: [Player](../Classes/Player.md)The player for whom the score is updated.score: numberThe new score.override: booleanIf `true`, overrides the previous score; otherwise the previous score is retained.Returnsvoid |
 

@@ -8,60 +8,13 @@ Options for customising the effect of calling the [Player.throwHeldItem()](../Cl
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ThrowOptions
- 
-=
- 
-{
-
-    speed
-?:
- number 
-|
- 
-null
-;
-
-    pitch
-?:
- number 
-|
- 
-null
-;
-
-    yaw
-?:
- number 
-|
- 
-null
-;
-
-    playThrowAnimation
-?:
- 
-boolean
- 
-|
- 
-null
-;
-
-    hand
-?:
- 
-Handedness
- 
-|
- 
-null
-;
-
-
+```ts
+export declare type ThrowOptions = {
+    speed?: number | null;
+    pitch?: number | null;
+    yaw?: number | null;
+    playThrowAnimation?: boolean | null;
+    hand?: Handedness | null;
 };
 ```
 

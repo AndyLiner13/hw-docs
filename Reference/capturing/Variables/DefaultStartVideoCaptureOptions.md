@@ -13,11 +13,8 @@ The default [options](../Type%20Aliases/StartVideoCaptureOptions.md) for the met
 
 ## [Signature](#signature)
 
-```
-DefaultStartVideoCaptureOptions
-:
- 
-StartVideoCaptureOptions
+```ts
+DefaultStartVideoCaptureOptions: StartVideoCaptureOptions
 ```
 
 ## [Remarks](#remarks)

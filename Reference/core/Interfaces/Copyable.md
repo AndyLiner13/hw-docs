@@ -8,39 +8,43 @@ The Copyable interface provides 'copy' and 'clone' methods for copying data from
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-Copyable
-<
-T
->
- 
+```ts
+export interface Copyable<T> 
 ```
 
 ## [Methods](#methods)
 
-|             |                                                                                                    |
-| ----------- | -------------------------------------------------------------------------------------------------- |
-| **clone()** | Creates a new reference with the source reference data copied to the new reference.Signature\`\`\` |
-| clone       |                                                                                                    |
-| ():         |                                                                                                    |
-| T           |                                                                                                    |
-| ;           |                                                                                                    |
+### [clone()](#clone)
 
-````ReturnsT |
-| **copy(val)** | Copies data from another reference.Signature```
-copy
-(
-val
-:
- T
-):
- 
+Creates a new reference with the source reference data copied to the new reference.
+
+**Signature**
+
+```ts
+clone(): T;
+```
+
+**Returns**
+
+T
+
+### [copy(val)](#copyval)
+
+Copies data from another reference.
+
+**Signature**
+
+```ts
+copy(val: T): void;
+```
+
+**Parameters**
+
+val: T
+
+The value to copy data from.
+
+**Returns**
+
 void
-;
-```Parametersval: TThe value to copy data from.Returnsvoid |
-````
 

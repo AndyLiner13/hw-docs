@@ -8,35 +8,11 @@ Provides [AudioGizmo](../Classes/AudioGizmo.md) playback options for a set of pl
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AudioOptions
- 
-=
- 
-{
-
-    fade
-:
- number
-;
-
-    players
-?:
- 
-Array
-<
-Player
->;
-
-    audibilityMode
-?:
- 
-AudibilityMode
-;
-
-
+```ts
+export declare type AudioOptions = {
+    fade: number;
+    players?: Array<Player>;
+    audibilityMode?: AudibilityMode;
 };
 ```
 

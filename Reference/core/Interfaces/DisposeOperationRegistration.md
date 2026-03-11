@@ -8,41 +8,29 @@ The object returned from a call to [DisposableObject.registerDisposeOperation()]
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-DisposeOperationRegistration
- 
+```ts
+export interface DisposeOperationRegistration 
 ```
 
 ## [Properties](#properties)
 
-|            |                                                                        |
-| ---------- | ---------------------------------------------------------------------- |
-| **cancel** | Cancels the dispose operation so that it is never runs.Signature\`\`\` |
-| cancel     |                                                                        |
-| :          |                                                                        |
+### [cancel](#cancel)
 
-()
+Cancels the dispose operation so that it is never runs.
 
-\=>
+**Signature**
 
-void
-;
+```ts
+cancel: () => void;
+```
 
-````|
-| **run**    | Manually run the dispose operation before the [DisposableObject](DisposableObject.md) is disposed. Dispose operations are only run once--a call to run guarantees the operation will not run at dispose time.Signature```
-run
-:
- 
-()
- 
-=>
- 
-void
-;
-``` |
-````
+### [run](#run)
+
+Manually run the dispose operation before the [DisposableObject](DisposableObject.md) is disposed. Dispose operations are only run once--a call to run guarantees the operation will not run at dispose time.
+
+**Signature**
+
+```ts
+run: () => void;
+```
 

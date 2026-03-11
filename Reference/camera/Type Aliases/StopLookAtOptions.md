@@ -10,28 +10,10 @@ Options available when stopping a camera from looking at a target.\
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-StopLookAtOptions
- 
-=
- 
-{
-
-    useForceLookAtTransitionOutOptions
-?:
- 
-boolean
-;
-
-    transition
-?:
- 
-CameraTransitionOptions
-;
-
-
+```ts
+export declare type StopLookAtOptions = {
+    useForceLookAtTransitionOutOptions?: boolean;
+    transition?: CameraTransitionOptions;
 };
 ```
 

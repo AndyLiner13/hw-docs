@@ -8,45 +8,13 @@ The collision data returned when a raycast is performed on a [NavMesh](../Classe
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-NavMeshHit
- 
-=
- 
-{
-
-    position
-:
- 
-Vec3
-;
-
-    normal
-:
- 
-Vec3
-;
-
-    distance
-:
- number
-;
-
-    hit
-:
- 
-boolean
-;
-
-    navMesh
-:
- 
-INavMesh
-;
-
-
+```ts
+export declare type NavMeshHit = {
+    position: Vec3;
+    normal: Vec3;
+    distance: number;
+    hit: boolean;
+    navMesh: INavMesh;
 };
 ```
 

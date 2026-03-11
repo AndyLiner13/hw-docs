@@ -8,36 +8,10 @@ Options for customising the effect of calling the [PlayerMigration.migrateToHori
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-MigrationOptions
- 
-=
- 
-{
-
-    migrationIdentifier
-?:
- 
-string
- 
-|
- 
-null
-;
-
-    destinationWorldId
-?:
- 
-string
- 
-|
- 
-null
-;
-
-
+```ts
+export declare type MigrationOptions = {
+    migrationIdentifier?: string | null;
+    destinationWorldId?: string | null;
 };
 ```
 

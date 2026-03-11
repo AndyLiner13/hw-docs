@@ -8,25 +8,8 @@ Creates a Pressable component in a UI panel, which is an interactive component t
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- 
-Pressable
-(
-props
-:
- 
-Readonly
-<
-PressableProps
->):
- 
-UINode
-<
-PressableProps
->;
+```ts
+export declare function Pressable(props: Readonly<PressableProps>): UINode<PressableProps>;
 ```
 
 ## [Parameters](#parameters)

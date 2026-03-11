@@ -8,13 +8,8 @@ The type of layer in the world.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-LayerType
- 
+```ts
+export declare enum LayerType 
 ```
 
 ## [Enumeration Members](#enumeration-members)

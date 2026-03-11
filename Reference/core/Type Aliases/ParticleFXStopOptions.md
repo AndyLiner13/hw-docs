@@ -8,24 +8,9 @@ The settings for [ending](../Classes/ParticleGizmo.md#stop) particle effect play
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ParticleFXStopOptions
- 
-=
- 
-{
-
-    players
-?:
- 
-Array
-<
-Player
->;
-
-
+```ts
+export declare type ParticleFXStopOptions = {
+    players?: Array<Player>;
 };
 ```
 

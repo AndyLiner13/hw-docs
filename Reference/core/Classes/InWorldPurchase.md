@@ -8,13 +8,8 @@ Provides access to in-world item purchasing, which is useful for supporting purc
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-InWorldPurchase
- 
+```ts
+export declare class InWorldPurchase 
 ```
 
 ## [Remarks](#remarks)
@@ -23,26 +18,25 @@ Typically when providing purchasing of in-world items, you provide an In-World I
 
 ## [Methods](#methods)
 
-|                                               |                                                                                         |
-| --------------------------------------------- | --------------------------------------------------------------------------------------- |
-| \*\*launchCheckoutFlow(player, sku)\*\*static | Launches the checkout process for an in-world item for the given player.Signature\`\`\` |
-| static                                        |                                                                                         |
-| launchCheckoutFlow                            |                                                                                         |
-| (                                             |                                                                                         |
-| player                                        |                                                                                         |
-| :                                             |                                                                                         |
+### [launchCheckoutFlow(player, sku) static](#launchcheckoutflowplayer-sku-static)
 
-Player
-,
-sku
-:
+Launches the checkout process for an in-world item for the given player.
 
-string
-):
+**Signature**
+
+```ts
+static launchCheckoutFlow(player: Player, sku: string): void;
+```
+
+**Parameters**
+
+player: [Player](Player.md)
+
+The player purchasing the item.
+
+sku: string
+
+**Returns**
 
 void
-;
-
-```Parametersplayer: [Player](Player.md)The player purchasing the item.sku: stringReturnsvoid |
-```
 

@@ -8,46 +8,14 @@ Options for launching a projectile.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-LaunchProjectileOptions
- 
-=
- 
-{
-
-    speed
-?:
- number
-;
-
-    duration
-?:
- number
-;
-
-    overrideStartPositionAndDirection
-?:
- 
-{
-
-        startPosition
-:
- 
-Vec3
-;
-
-        direction
-:
- 
-Vec3
-;
-
-    
-};
-
-
+```ts
+export declare type LaunchProjectileOptions = {
+    speed?: number;
+    duration?: number;
+    overrideStartPositionAndDirection?: {
+        startPosition: Vec3;
+        direction: Vec3;
+    };
 };
 ```
 

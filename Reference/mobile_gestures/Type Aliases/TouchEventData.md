@@ -8,22 +8,9 @@ List of touches involved in a gesture
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TouchEventData
- 
-=
- 
-{
-
-    touches
-:
- 
-TouchState
-[];
-
-
+```ts
+export declare type TouchEventData = {
+    touches: TouchState[];
 };
 ```
 

@@ -8,13 +8,8 @@ The available spawn states for the asset of an entity.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-SpawnState
- 
+```ts
+export declare enum SpawnState 
 ```
 
 ## [Enumeration Members](#enumeration-members)

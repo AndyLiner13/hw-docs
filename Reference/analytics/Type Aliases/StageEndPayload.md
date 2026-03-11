@@ -8,18 +8,7 @@ A payload sent by the `OnStageEnd` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-StageEndPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnStageEnd
->;
+```ts
+export declare type StageEndPayload = FullTurboEventPayload<typeof OnStageEnd>;
 ```
 

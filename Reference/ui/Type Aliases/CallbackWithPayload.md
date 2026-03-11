@@ -8,29 +8,8 @@ Represents a callback function interface for a [Player](../../core/Classes/Playe
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-CallbackWithPayload
- 
-=
- 
-(
-player
-:
- 
-Player
-,
- payload
-:
- 
-string
-)
- 
-=>
- 
-void
-;
+```ts
+export declare type CallbackWithPayload = (player: Player, payload: string) => void;
 ```
 
 ## [Remarks](#remarks)

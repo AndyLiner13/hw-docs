@@ -8,30 +8,25 @@ A list that contains a buffer of HorizonTraceEvents to send to the event aggrega
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-CustomMetricsBuffer
- 
+```ts
+export declare class CustomMetricsBuffer 
 ```
 
 ## [Methods](#methods)
 
-|                                   |                                                                          |
-| --------------------------------- | ------------------------------------------------------------------------ |
-| \*\*getBufferContents()\*\*static | Gets the trace events that are in the trace event buffer.Signature\`\`\` |
-| static                            |                                                                          |
-| getBufferContents                 |                                                                          |
-| ():                               |                                                                          |
+### [getBufferContents() static](#getbuffercontents-static)
 
-Array
-<
-HzTraceEventsBySampler
+Gets the trace events that are in the trace event buffer.
 
-> ;
+**Signature**
 
-```ReturnsArray<HzTraceEventsBySampler>An array that contains the elements in the trace event buffer. |
+```ts
+static getBufferContents(): Array<HzTraceEventsBySampler>;
 ```
+
+**Returns**
+
+Array\<HzTraceEventsBySampler>
+
+An array that contains the elements in the trace event buffer.
 

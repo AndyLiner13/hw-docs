@@ -8,13 +8,8 @@ The styles for camera transitions.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-Easing
- 
+```ts
+export declare enum Easing 
 ```
 
 ## [Enumeration Members](#enumeration-members)

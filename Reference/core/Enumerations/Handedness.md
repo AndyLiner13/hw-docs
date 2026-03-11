@@ -8,13 +8,8 @@ Indicates whether a player is left or right-handed.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-Handedness
- 
+```ts
+export declare enum Handedness 
 ```
 
 ## [Enumeration Members](#enumeration-members)

@@ -8,11 +8,8 @@ Represents an analytics managers for sending analytics data to the In-World Anal
 
 ## [Signature](#signature)
 
-```
-Turbo
-:
- 
-TurboManager
+```ts
+Turbo: TurboManager
 ```
 
 ## [Remarks](#remarks)
@@ -35,307 +32,51 @@ For more information on using In-World Analytics, see the [In-World Analytics](h
 
 This example script implements a custom analytics manager that sends the OnAreaEnter event when the current player enters the lobby area of the world.
 
-```
-import
- 
-*
- 
-as
- hz 
-from
- 
-'horizon/core'
-;
-
-
-import
- 
-{
-Turbo
-,
- 
-TurboDefaultSettings
-,
- 
-TurboEvents
-,
- 
-AreaEnterPayload
-}
- 
-from
- 
-'horizon/analytics'
-;
-
-
+```ts
+import * as hz from 'horizon/core';
+import {Turbo, TurboDefaultSettings, TurboEvents, AreaEnterPayload} from 'horizon/analytics';
 
 // Creates the analytics event to send.
-
-
-export
- 
-const
- areaEntered 
-=
- 
-new
- hz
-.
-LocalEvent
-<{
- player
-:
- hz
-.
-Player
-,
- area
-:
- 
-string
- 
-}>(
-"areaEntered"
-);
-
-
+export const areaEntered = new hz.LocalEvent<{ player: hz.Player, area: string }>("areaEntered");
 
 // Creates an analytics manager.
+export class AnalyticsManager extends hz.Component {
+ static propsDefinition = {
+   overrideDebug: { type: hz.PropTypes.Boolean, default: false },
+ };
+ static s_instance: AnalyticsManager;
+ serverPlayer!: hz.Player;
+ serverPlayerID!: number;
+ overrideDebug!: boolean;
 
+ start() {
+   // Registers the analytics manager with the Turbo interface.
+   Turbo.register(this, TurboDefaultSettings);
+   AnalyticsManager.s_instance = this;
+   this.subscribeToEvents();
+  }
 
-export
- 
-class
- 
-AnalyticsManager
- 
-extends
- hz
-.
-Component
- 
-{
+ // You can group event subscriptions in this method.
+ private subscribeToEvents() {
+   // Creates the event payload to send.
+   const areaEnterPayload: AreaEnterPayload = {
+     actionArea: CombatTutorial,
+     actionAreaIsLobbySection: false,
+     actionAreaIsPlayerReadyZone: true,
+     turboState: ParticipationEnum.IN_ROUND,
+     nextArea: {
+       actionArea: Stage1,
+       actionAreaIsLobbySection: false,
+       actionAreaIsPlayerReadyZone: true,
+     },
+     player: this.serverPlayer
+   };
 
- 
-static
- propsDefinition 
-=
- 
-{
-
-   overrideDebug
-:
- 
-{
- type
-:
- hz
-.
-PropTypes
-.
-Boolean
-,
- 
-default
-:
- 
-false
- 
-},
-
- 
-};
-
- 
-static
- s_instance
-:
- 
-AnalyticsManager
-;
-
- serverPlayer
-!:
- hz
-.
-Player
-;
-
- serverPlayerID
-!:
- number
-;
-
- overrideDebug
-!:
- 
-boolean
-;
-
-
- start
-()
- 
-{
-
-   
-// Registers the analytics manager with the Turbo interface.
-
-   
-Turbo
-.
-register
-(
-this
-,
- 
-TurboDefaultSettings
-);
-
-   
-AnalyticsManager
-.
-s_instance 
-=
- 
-this
-;
-
-   
-this
-.
-subscribeToEvents
-();
-
-  
-}
-
-
- 
-// You can group event subscriptions in this method.
-
- 
-private
- subscribeToEvents
-()
- 
-{
-
-   
-// Creates the event payload to send.
-
-   
-const
- areaEnterPayload
-:
- 
-AreaEnterPayload
- 
-=
- 
-{
-
-     actionArea
-:
- 
-CombatTutorial
-,
-
-     actionAreaIsLobbySection
-:
- 
-false
-,
-
-     actionAreaIsPlayerReadyZone
-:
- 
-true
-,
-
-     turboState
-:
- 
-ParticipationEnum
-.
-IN_ROUND
-,
-
-     nextArea
-:
- 
-{
-
-       actionArea
-:
- 
-Stage1
-,
-
-       actionAreaIsLobbySection
-:
- 
-false
-,
-
-       actionAreaIsPlayerReadyZone
-:
- 
-true
-,
-
-     
-},
-
-     player
-:
- 
-this
-.
-serverPlayer
-   
-};
-
-
-   
-// The event subscription to track.
-
-   
-this
-.
-connectLocalBroadcastEvent
-(
-areaEntered
-,
- 
-(
-data
-)
- 
-=>
- 
-{
-
-     
-// This call sends the analytics event for logging.
-
-     
-Turbo
-.
-send
-(
-TurboEvents
-.
-OnAreaEnter
-,
- areaEnterPayload
-);
-
- 
-}
-
-
+   // The event subscription to track.
+   this.connectLocalBroadcastEvent(areaEntered, (data) => {
+     // This call sends the analytics event for logging.
+     Turbo.send(TurboEvents.OnAreaEnter, areaEnterPayload);
+ }
 }
 ```
 

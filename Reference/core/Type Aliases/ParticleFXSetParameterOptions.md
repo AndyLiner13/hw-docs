@@ -8,24 +8,9 @@ The optional parameters for the setVFXParameterValue method.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ParticleFXSetParameterOptions
- 
-=
- 
-{
-
-    players
-?:
- 
-Array
-<
-Player
->;
-
-
+```ts
+export declare type ParticleFXSetParameterOptions = {
+    players?: Array<Player>;
 };
 ```
 

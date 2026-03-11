@@ -10,78 +10,85 @@ Represents an entity that can be attached to other entities.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-AttachableEntity
- 
-extends
- 
-Entity
- 
+```ts
+export declare class AttachableEntity extends Entity 
 ```
 
 ## [Properties](#properties)
 
-|                              |                                                                                                                           |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **socketAttachmentPosition** | The socket attachment position offset applied to the `AttachableEntity` when using Anchor attachment mode.Signature\`\`\` |
-| socketAttachmentPosition     |                                                                                                                           |
-| :                            |                                                                                                                           |
+### [socketAttachmentPosition](#socketattachmentposition)
 
-HorizonProperty
-<
-Vec3
+The socket attachment position offset applied to the `AttachableEntity` when using Anchor attachment mode.
 
-> ;
+**Signature**
 
-````|
-| **socketAttachmentRotation** | The socket attachment rotation offset applied to the `AttachableEntity` when using Anchor attachment mode.Signature```
-socketAttachmentRotation
-:
- 
-HorizonProperty
-<
-Quaternion
->;
-``` |
+```ts
+socketAttachmentPosition: HorizonProperty<Vec3>;
+```
+
+### [socketAttachmentRotation](#socketattachmentrotation)
+
+The socket attachment rotation offset applied to the `AttachableEntity` when using Anchor attachment mode.
+
+**Signature**
+
+```ts
+socketAttachmentRotation: HorizonProperty<Quaternion>;
+```
 
 ## [Methods](#methods)
 
-|                                    |                                                                                                                                                                                                                                                                                                                                |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **attachToPlayer(player, anchor)** | Attaches the entity to a player.Signature```
-attachToPlayer
-(
-player
-:
- 
-Player
-,
- anchor
-:
- 
-AttachablePlayerAnchor
-):
- 
+### [attachToPlayer(player, anchor)](#attachtoplayerplayer-anchor)
+
+Attaches the entity to a player.
+
+**Signature**
+
+```ts
+attachToPlayer(player: Player, anchor: AttachablePlayerAnchor): void;
+```
+
+**Parameters**
+
+player: [Player](Player.md)
+
+The player to attach the entity to.
+
+anchor: [AttachablePlayerAnchor](../Enumerations/AttachablePlayerAnchor.md)
+
+The attachment point to use.
+
+**Returns**
+
 void
-;
-```Parametersplayer: [Player](Player.md)The player to attach the entity to.anchor: [AttachablePlayerAnchor](../Enumerations/AttachablePlayerAnchor.md)The attachment point to use.Returnsvoid |
-| **detach()**                       | Releases an attachment to a player.Signature```
-detach
-():
- 
+
+### [detach()](#detach)
+
+Releases an attachment to a player.
+
+**Signature**
+
+```ts
+detach(): void;
+```
+
+**Returns**
+
 void
-;
-```Returnsvoid                                                                                                                                                                                                                                             |
-| **toString()**                     | Creates a human-readable representation of the object.Signature```
-toString
-():
- 
+
+### [toString()](#tostring)
+
+Creates a human-readable representation of the object.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringA string representation of the object                                                                                                                                                                               |
-````
+
+A string representation of the object
 

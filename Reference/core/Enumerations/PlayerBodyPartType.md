@@ -8,13 +8,8 @@ The type of body part of a player.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-PlayerBodyPartType
- 
+```ts
+export declare enum PlayerBodyPartType 
 ```
 
 ## [Enumeration Members](#enumeration-members)

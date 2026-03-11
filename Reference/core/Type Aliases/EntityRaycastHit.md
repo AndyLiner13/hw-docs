@@ -8,34 +8,10 @@ The result of a [raycast](../Classes/RaycastGizmo.md#raycast) collision against 
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-EntityRaycastHit
- 
-=
- 
-BaseRaycastHit
- 
-&
- 
-{
-
-    targetType
-:
- 
-RaycastTargetType
-.
-Entity
-;
-
-    target
-:
- 
-Entity
-;
-
-
+```ts
+export declare type EntityRaycastHit = BaseRaycastHit & {
+    targetType: RaycastTargetType.Entity;
+    target: Entity;
 };
 ```
 

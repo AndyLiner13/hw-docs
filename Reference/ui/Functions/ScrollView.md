@@ -8,25 +8,8 @@ Creates a ScrollView in a UI panel.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- 
-ScrollView
-(
-props
-:
- 
-Readonly
-<
-ScrollViewProps
->):
- 
-UINode
-<
-ScrollViewProps
->;
+```ts
+export declare function ScrollView(props: Readonly<ScrollViewProps>): UINode<ScrollViewProps>;
 ```
 
 ## [Parameters](#parameters)

@@ -13,13 +13,8 @@ The flags for notification types to show players after video recording completes
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-VideoCaptureNotifications
- 
+```ts
+export declare enum VideoCaptureNotifications 
 ```
 
 ## [Enumeration Members](#enumeration-members)

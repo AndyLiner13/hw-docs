@@ -8,26 +8,9 @@ Payload received by pan events
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PanEventData
- 
-=
- 
-TouchEventData
- 
-&
- 
-{
-
-    pan
-:
- 
-Vec3
-;
-
-
+```ts
+export declare type PanEventData = TouchEventData & {
+    pan: Vec3;
 };
 ```
 

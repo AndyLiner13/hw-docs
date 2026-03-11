@@ -8,19 +8,8 @@ The base type for colors.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ColorValue
- 
-=
- 
-string
- 
-|
- 
-Color
-;
+```ts
+export declare type ColorValue = string | Color;
 ```
 
 ## [Remarks](#remarks)

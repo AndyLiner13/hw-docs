@@ -8,13 +8,8 @@ Provides detail info of in-world quest, which is useful for player to understand
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-InWorldQuest
- 
+```ts
+export declare class InWorldQuest 
 ```
 
 ## [Remarks](#remarks)
@@ -23,26 +18,27 @@ Similar to world purchase item, [InWorldQuest.launchQuestDetailsPanel()](InWorld
 
 ## [Methods](#methods)
 
-|                                                        |                                                                                           |
-| ------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| \*\*launchQuestDetailsPanel(player, questID)\*\*static | Launches the quest details panel of a in-world quest for the given player.Signature\`\`\` |
-| static                                                 |                                                                                           |
-| launchQuestDetailsPanel                                |                                                                                           |
-| (                                                      |                                                                                           |
-| player                                                 |                                                                                           |
-| :                                                      |                                                                                           |
+### [launchQuestDetailsPanel(player, questID) static](#launchquestdetailspanelplayer-questid-static)
 
-Player
-,
-questID
-:
+Launches the quest details panel of a in-world quest for the given player.
 
-string
-):
+**Signature**
+
+```ts
+static launchQuestDetailsPanel(player: Player, questID: string): void;
+```
+
+**Parameters**
+
+player: [Player](Player.md)
+
+The player purchasing the item.
+
+questID: string
+
+The ID of the in-world quest
+
+**Returns**
 
 void
-;
-
-```Parametersplayer: [Player](Player.md)The player purchasing the item.questID: stringThe ID of the in-world questReturnsvoid |
-```
 

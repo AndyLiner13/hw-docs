@@ -8,13 +8,8 @@ Represents the different types of errors that can occur during world variable up
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-WorldVariableUpdateErrorType
- 
+```ts
+export declare enum WorldVariableUpdateErrorType 
 ```
 
 ## [Enumeration Members](#enumeration-members)

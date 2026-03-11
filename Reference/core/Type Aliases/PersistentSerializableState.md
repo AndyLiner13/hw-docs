@@ -8,38 +8,10 @@ A state that can persist across sessions within persistent variables for each pl
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PersistentSerializableState
- 
-=
- 
-{
-
-    
-[
-key
-:
- 
-string
-]:
- 
-PersistentSerializableState
-;
-
-
-}
- 
-|
- 
-PersistentSerializableState
-[]
- 
-|
- 
-PersistentSerializableStateNode
-;
+```ts
+export declare type PersistentSerializableState = {
+    [key: string]: PersistentSerializableState;
+} | PersistentSerializableState[] | PersistentSerializableStateNode;
 ```
 
 ## [References](#references)

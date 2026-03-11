@@ -8,33 +8,11 @@ Options for the [RaycastGizmo.raycast()](../Classes/RaycastGizmo.md#raycast) met
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-RaycastOptions
- 
-=
- 
-{
-
-    layerType
-?:
- 
-LayerType
-;
-
-    maxDistance
-?:
- number
-;
-
-    stopOnFirstHit
-?:
- 
-boolean
-;
-
-
+```ts
+export declare type RaycastOptions = {
+    layerType?: LayerType;
+    maxDistance?: number;
+    stopOnFirstHit?: boolean;
 };
 ```
 

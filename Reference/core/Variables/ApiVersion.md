@@ -8,11 +8,7 @@ The version number of the Horizon TypeScript API.
 
 ## [Signature](#signature)
 
-```
-ApiVersion
- 
-=
- 
-"2.0.0"
+```ts
+ApiVersion = "2.0.0"
 ```
 

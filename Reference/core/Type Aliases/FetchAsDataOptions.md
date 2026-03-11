@@ -8,22 +8,9 @@ The additional options for the [Asset.fetchAsData()](../Classes/Asset.md#fetchas
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FetchAsDataOptions
- 
-=
- 
-{
-
-    skipCache
-:
- 
-boolean
-;
-
-
+```ts
+export declare type FetchAsDataOptions = {
+    skipCache: boolean;
 };
 ```
 

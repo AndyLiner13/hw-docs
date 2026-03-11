@@ -8,48 +8,13 @@ Determines how the line attached to a tooltip is displayed.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TooltipLineAttachmentProperties
- 
-=
- 
-{
-
-    lineAttachmentEntity
-?:
- 
-Entity
- 
-|
- 
-PlayerBodyPartType
-;
-
-    lineAttachmentLocalOffset
-?:
- 
-Vec3
-;
-
-    lineAttachmentRounded
-?:
- 
-boolean
-;
-
-    lineChokeStart
-?:
- number
-;
-
-    lineChokeEnd
-?:
- number
-;
-
-
+```ts
+export declare type TooltipLineAttachmentProperties = {
+    lineAttachmentEntity?: Entity | PlayerBodyPartType;
+    lineAttachmentLocalOffset?: Vec3;
+    lineAttachmentRounded?: boolean;
+    lineChokeStart?: number;
+    lineChokeEnd?: number;
 };
 ```
 

@@ -8,23 +8,8 @@ The result of a [raycast](../Classes/RaycastGizmo.md#raycast) collision.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-RaycastHit
- 
-=
- 
-StaticRaycastHit
- 
-|
- 
-EntityRaycastHit
- 
-|
- 
-PlayerRaycastHit
-;
+```ts
+export declare type RaycastHit = StaticRaycastHit | EntityRaycastHit | PlayerRaycastHit;
 ```
 
 ## [References](#references)

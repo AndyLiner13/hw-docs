@@ -8,53 +8,15 @@ The [FocusedInteraction](../Classes/FocusedInteraction.md) options for visual tr
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FocusedInteractionTrailOptions
- 
-=
- 
-{
-
-    length
-:
- number
-;
-
-    startWidth
-:
- number
-;
-
-    endWidth
-:
- number
-;
-
-    startColor
-:
- 
-Color
-;
-
-    endColor
-:
- 
-Color
-;
-
-    startOpacity
-:
- number
-;
-
-    endOpacity
-:
- number
-;
-
-
+```ts
+export declare type FocusedInteractionTrailOptions = {
+    length: number;
+    startWidth: number;
+    endWidth: number;
+    startColor: Color;
+    endColor: Color;
+    startOpacity: number;
+    endOpacity: number;
 };
 ```
 

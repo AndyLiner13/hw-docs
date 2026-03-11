@@ -10,17 +10,8 @@ Represents a Raycast gizmo in the world.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-RaycastGizmo
- 
-extends
- 
-Entity
- 
+```ts
+export declare class RaycastGizmo extends Entity 
 ```
 
 ## [Remarks](#remarks)
@@ -29,41 +20,49 @@ A Raycast gizmo projects an invisible beam into a world to return information ab
 
 ## [Methods](#methods)
 
-|                                         |                                                                                                                                  |
-| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| **raycast(origin, direction, options)** | Casts a ray from the Raycast gizmo using the given origin and direction and then retrieves collision information.Signature\`\`\` |
-| raycast                                 |                                                                                                                                  |
-| (                                       |                                                                                                                                  |
-| origin                                  |                                                                                                                                  |
-| :                                       |                                                                                                                                  |
+### [raycast(origin, direction, options)](#raycastorigin-direction-options)
 
-Vec3
-,
-direction
-:
+Casts a ray from the Raycast gizmo using the given origin and direction and then retrieves collision information.
 
-Vec3
-,
-options
-?:
+**Signature**
 
-RaycastOptions
-):
+```ts
+raycast(origin: Vec3, direction: Vec3, options?: RaycastOptions): RaycastHit | null;
+```
 
-RaycastHit
+**Parameters**
 
-|
+origin: [Vec3](Vec3.md)
 
-null
-;
+The starting point of the ray.
 
-````Parametersorigin: [Vec3](Vec3.md)The starting point of the ray.direction: [Vec3](Vec3.md)The direction for the ray to travel.options: [RaycastOptions](../Type%20Aliases/RaycastOptions.md)*(Optional)* The options for configuring the raycast operation.Returns[RaycastHit](../Type%20Aliases/RaycastHit.md) | nullThe collision information. |
-| **toString()**                          | Creates a human-readable representation of the RaycastGizmo.Signature```
-toString
-():
- 
+direction: [Vec3](Vec3.md)
+
+The direction for the ray to travel.
+
+options: [RaycastOptions](../Type%20Aliases/RaycastOptions.md)
+
+*(Optional)* The options for configuring the raycast operation.
+
+**Returns**
+
+[RaycastHit](../Type%20Aliases/RaycastHit.md) | null
+
+The collision information.
+
+### [toString()](#tostring)
+
+Creates a human-readable representation of the RaycastGizmo.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringA string representation of the RaycastGizmo.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-````
+
+A string representation of the RaycastGizmo.
 

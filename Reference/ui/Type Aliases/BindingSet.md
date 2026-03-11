@@ -8,18 +8,8 @@ Stores a set of bindings (both Binding and DerivedBinding) during data model ser
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-BindingSet
- 
-=
- 
-Set
-<
-ValueBindingBase
-<unknown>
->;
+```ts
+export declare type BindingSet = Set<ValueBindingBase<unknown>>;
 ```
 
 ## [References](#references)

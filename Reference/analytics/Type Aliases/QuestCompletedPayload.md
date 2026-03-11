@@ -8,18 +8,7 @@ A payload sent by the `OnQuestCompleted` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-QuestCompletedPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnQuestCompleted
->;
+```ts
+export declare type QuestCompletedPayload = FullTurboEventPayload<typeof OnQuestCompleted>;
 ```
 

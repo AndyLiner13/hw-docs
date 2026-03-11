@@ -8,13 +8,8 @@ The orientation of the camera
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-CameraOrientation
- 
+```ts
+export declare enum CameraOrientation 
 ```
 
 ## [Enumeration Members](#enumeration-members)

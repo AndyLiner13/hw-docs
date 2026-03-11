@@ -8,18 +8,7 @@ A payload sent by the `OnGameRoundStartForPlayers` multi-player [event](../Varia
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-GameRoundStartForPlayersPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnGameRoundStartForPlayers
->;
+```ts
+export declare type GameRoundStartForPlayersPayload = FullTurboEventPayload<typeof OnGameRoundStartForPlayers>;
 ```
 

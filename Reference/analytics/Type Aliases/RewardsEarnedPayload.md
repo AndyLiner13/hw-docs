@@ -8,18 +8,7 @@ A payload sent by the `OnRewardsEarned` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-RewardsEarnedPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnRewardsEarned
->;
+```ts
+export declare type RewardsEarnedPayload = FullTurboEventPayload<typeof OnRewardsEarned>;
 ```
 

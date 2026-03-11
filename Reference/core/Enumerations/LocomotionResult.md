@@ -8,13 +8,8 @@ The possible results of a move action for an NPC.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-LocomotionResult
- 
+```ts
+export declare enum LocomotionResult 
 ```
 
 ## [Enumeration Members](#enumeration-members)

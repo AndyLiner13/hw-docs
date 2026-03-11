@@ -8,18 +8,7 @@ A payload sent by the `OnTaskStepEnd` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TaskStepEndPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnTaskStepEnd
->;
+```ts
+export declare type TaskStepEndPayload = FullTurboEventPayload<typeof OnTaskStepEnd>;
 ```
 

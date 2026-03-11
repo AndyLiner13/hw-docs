@@ -8,16 +8,8 @@ Represents a readable property.
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-ReadableHorizonProperty
-<
-T
->
- 
+```ts
+export interface ReadableHorizonProperty<T> 
 ```
 
 ## [Remarks](#remarks)
@@ -26,14 +18,19 @@ You cannot get the property value directly; you must call the `get` method. Usin
 
 ## [Methods](#methods)
 
-|           |                                         |
-| --------- | --------------------------------------- |
-| **get()** | Gets the property value.Signature\`\`\` |
-| get       |                                         |
-| ():       |                                         |
-| T         |                                         |
-| ;         |                                         |
+### [get()](#get)
 
-```ReturnsTthe property value |
+Gets the property value.
+
+**Signature**
+
+```ts
+get(): T;
 ```
+
+**Returns**
+
+T
+
+the property value
 

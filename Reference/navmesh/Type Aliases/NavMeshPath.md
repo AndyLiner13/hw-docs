@@ -8,46 +8,13 @@ Defines the pathfinding calculation results retrieved by the [NavMesh.getPath](.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-NavMeshPath
- 
-=
- 
-{
-
-    waypoints
-:
- 
-Vec3
-[];
-
-    startPos
-:
- 
-Vec3
-;
-
-    endPos
-:
- 
-Vec3
-;
-
-    destinationPos
-:
- 
-Vec3
-;
-
-    pathReachesDestination
-:
- 
-boolean
-;
-
-
+```ts
+export declare type NavMeshPath = {
+    waypoints: Vec3[];
+    startPos: Vec3;
+    endPos: Vec3;
+    destinationPos: Vec3;
+    pathReachesDestination: boolean;
 };
 ```
 

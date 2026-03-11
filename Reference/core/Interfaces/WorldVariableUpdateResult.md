@@ -8,42 +8,39 @@ Result of a world variable update operation.
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-WorldVariableUpdateResult
-<
-T
->
- 
+```ts
+export interface WorldVariableUpdateResult<T> 
 ```
 
 ## [Properties](#properties)
 
-|                |                                                        |
-| -------------- | ------------------------------------------------------ |
-| **errorType?** | The type of error that occurred, if anySignature\`\`\` |
-| errorType      |                                                        |
-| ?:             |                                                        |
+### [errorType?](#errortype)
 
-WorldVariableUpdateErrorType
-;
+The type of error that occurred, if any
 
-````|
-| **success**    | Whether the update operation was successfulSignature```
-success
-:
- 
-boolean
-;
-```                                                                                                                                                                                                              |
-| **value**      | The updated value of the variable. If the update operation was not successful due to WorldVariableUpdateErrorType.CONCURRENT\_UPDATE or WorldVariableUpdateErrorType.UPDATE\_THROTTLED, this will be the value of the variable after the concurrent modification.Signature```
-value
-:
- T
-;
-``` |
-````
+**Signature**
+
+```ts
+errorType?: WorldVariableUpdateErrorType;
+```
+
+### [success](#success)
+
+Whether the update operation was successful
+
+**Signature**
+
+```ts
+success: boolean;
+```
+
+### [value](#value)
+
+The updated value of the variable. If the update operation was not successful due to WorldVariableUpdateErrorType.CONCURRENT\_UPDATE or WorldVariableUpdateErrorType.UPDATE\_THROTTLED, this will be the value of the variable after the concurrent modification.
+
+**Signature**
+
+```ts
+value: T;
+```
 

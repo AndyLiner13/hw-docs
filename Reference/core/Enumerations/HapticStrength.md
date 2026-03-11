@@ -8,13 +8,8 @@ The strength of a haptic pulse.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-HapticStrength
- 
+```ts
+export declare enum HapticStrength 
 ```
 
 ## [Enumeration Members](#enumeration-members)

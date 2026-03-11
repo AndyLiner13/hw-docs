@@ -8,17 +8,8 @@ The player's in-game voice chat setting.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-VoipSetting
- 
-=
- keyof 
-typeof
- 
-VoipSettingValues
-;
+```ts
+export declare type VoipSetting = keyof typeof VoipSettingValues;
 ```
 
 ## [References](#references)

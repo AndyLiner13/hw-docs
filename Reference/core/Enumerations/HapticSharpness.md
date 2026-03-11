@@ -8,13 +8,8 @@ The sharpness of the haptic pulse.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-HapticSharpness
- 
+```ts
+export declare enum HapticSharpness 
 ```
 
 ## [Enumeration Members](#enumeration-members)

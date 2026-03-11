@@ -13,28 +13,10 @@ A [CameraMovementPreset](CameraMovementPreset.md) option that keeps the player a
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FixedPositionTrackingPlayerCameraMovementPreset
- 
-=
- 
-{
-
-    strategy
-:
- 
-'FixedLocationTrackingPlayer'
-;
-
-    fixedPosition
-:
- 
-Vec3
-;
-
-
+```ts
+export declare type FixedPositionTrackingPlayerCameraMovementPreset = {
+    strategy: 'FixedLocationTrackingPlayer';
+    fixedPosition: Vec3;
 };
 ```
 

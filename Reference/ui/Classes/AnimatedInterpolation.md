@@ -10,32 +10,8 @@ A type of animated binding that is interpolated from another animated binding.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-AnimatedInterpolation
-<
-T 
-extends
- number 
-|
- 
-string
- 
-|
- 
-Color
->
- 
-extends
- 
-ValueBindingBase
-<
-T
->
- 
+```ts
+export declare class AnimatedInterpolation<T extends number | string | Color> extends ValueBindingBase<T> 
 ```
 
 ## [Remarks](#remarks)

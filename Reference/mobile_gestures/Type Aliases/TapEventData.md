@@ -8,15 +8,8 @@ Payload received by tap events
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TapEventData
- 
-=
- 
-TouchEventData
-;
+```ts
+export declare type TapEventData = TouchEventData;
 ```
 
 ## [References](#references)

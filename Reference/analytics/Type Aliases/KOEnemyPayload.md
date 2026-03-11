@@ -8,18 +8,7 @@ A payload sent by the `OnKOEnemy` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-KOEnemyPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnKOEnemy
->;
+```ts
+export declare type KOEnemyPayload = FullTurboEventPayload<typeof OnKOEnemy>;
 ```
 

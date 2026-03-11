@@ -12,78 +12,89 @@ source: https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_age
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-AgentGrabbableInteraction
- 
+```ts
+export declare class AgentGrabbableInteraction 
 ```
 
 ## [Properties](#properties)
 
-|            |                                                          |
-| ---------- | -------------------------------------------------------- |
-| **entity** | The entity that is attached to the agent.Signature\`\`\` |
-| entity     |                                                          |
-| :          |                                                          |
+### [entity](#entity)
 
-Entity
-;
+The entity that is attached to the agent.
 
-````|
+**Signature**
+
+```ts
+entity: Entity;
+```
 
 ## [Methods](#methods)
 
-|                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **drop(handedness)**             | Commands an agent to drop a held item.Signature```
-drop
-(
-handedness
-:
- 
-Handedness
-):
- 
+### [drop(handedness)](#drophandedness)
+
+Commands an agent to drop a held item.
+
+**Signature**
+
+```ts
+drop(handedness: Handedness): void;
+```
+
+**Parameters**
+
+handedness: Handedness
+
+The hand to drop the item from.
+
+**Returns**
+
 void
-;
-```Parametershandedness: HandednessThe hand to drop the item from.Returnsvoid                                                                                                                                                                                                                                                   |
-| **getGrabbedEntity(handedness)** | Gets the entity currently held by the specified hand.Signature```
-getGrabbedEntity
-(
-handedness
-:
- 
-Handedness
-):
- 
-Entity
- 
-|
- 
-undefined
-;
-```Parametershandedness: HandednessThe hand to query.ReturnsEntity \| undefined- The held entity or undefined if not holding anything.                                                                                                                                             |
-| **grab(handedness, entity)**     | Commands the agent to pick up an entity.Signature```
-grab
-(
-handedness
-:
- 
-Handedness
-,
- entity
-:
- 
-Entity
-):
- 
-Promise
-<
-AgentGrabActionResult
->;
-```Parametershandedness: HandednessThe hand to pick up the entity with.entity: EntityThe entity to grab. The entity must be grabbable.ReturnsPromise<[AgentGrabActionResult](../Enumerations/AgentGrabActionResult.md)>- A promise describing how the grabbing action ended. |
-````
+
+### [getGrabbedEntity(handedness)](#getgrabbedentityhandedness)
+
+Gets the entity currently held by the specified hand.
+
+**Signature**
+
+```ts
+getGrabbedEntity(handedness: Handedness): Entity | undefined;
+```
+
+**Parameters**
+
+handedness: Handedness
+
+The hand to query.
+
+**Returns**
+
+Entity | undefined
+
+\- The held entity or undefined if not holding anything.
+
+### [grab(handedness, entity)](#grabhandedness-entity)
+
+Commands the agent to pick up an entity.
+
+**Signature**
+
+```ts
+grab(handedness: Handedness, entity: Entity): Promise<AgentGrabActionResult>;
+```
+
+**Parameters**
+
+handedness: Handedness
+
+The hand to pick up the entity with.
+
+entity: Entity
+
+The entity to grab. The entity must be grabbable.
+
+**Returns**
+
+Promise<[AgentGrabActionResult](../Enumerations/AgentGrabActionResult.md)>
+
+\- A promise describing how the grabbing action ended.
 

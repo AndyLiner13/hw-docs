@@ -8,27 +8,9 @@ A set of key-value pairs that represent data for an analytics event.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-EventData
- 
-=
- 
-{
-
-    
-[
-key
-:
- 
-string
-]:
- 
-EventValueType
-;
-
-
+```ts
+export declare type EventData = {
+    [key: string]: EventValueType;
 };
 ```
 

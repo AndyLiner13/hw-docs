@@ -8,28 +8,10 @@ The available options to apply when activating a fixed camera.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FixedCameraOptions
- 
-=
- 
-{
-
-    position
-?:
- 
-Vec3
-;
-
-    rotation
-?:
- 
-Quaternion
-;
-
-
+```ts
+export declare type FixedCameraOptions = {
+    position?: Vec3;
+    rotation?: Quaternion;
 };
 ```
 

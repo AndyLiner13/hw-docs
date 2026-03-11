@@ -13,23 +13,8 @@ The preset camera viewing angles to use when viewing and recording a player's av
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-CameraMovementPreset
- 
-=
- 
-FirstPersonMovementCameraMovementPreset
- 
-|
- 
-ThirdPersonOverShoulderCameraMovementPreset
- 
-|
- 
-FixedPositionTrackingPlayerCameraMovementPreset
-;
+```ts
+export declare type CameraMovementPreset = FirstPersonMovementCameraMovementPreset | ThirdPersonOverShoulderCameraMovementPreset | FixedPositionTrackingPlayerCameraMovementPreset;
 ```
 
 ## [References](#references)

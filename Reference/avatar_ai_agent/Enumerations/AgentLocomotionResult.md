@@ -12,13 +12,8 @@ source: https://developers.meta.com/horizon-worlds/reference/2.0.0/avatar_ai_age
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AgentLocomotionResult
- 
+```ts
+export declare enum AgentLocomotionResult 
 ```
 
 ## [Enumeration Members](#enumeration-members)

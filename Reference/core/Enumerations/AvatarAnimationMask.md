@@ -8,13 +8,8 @@ which part of the avatar should an animation be applied to
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AvatarAnimationMask
- 
+```ts
+export declare enum AvatarAnimationMask 
 ```
 
 ## [Enumeration Members](#enumeration-members)

@@ -8,13 +8,8 @@ The target type during a raycast collision.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-RaycastTargetType
- 
+```ts
+export declare enum RaycastTargetType 
 ```
 
 ## [Enumeration Members](#enumeration-members)

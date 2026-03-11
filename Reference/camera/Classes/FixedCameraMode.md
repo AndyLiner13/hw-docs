@@ -10,17 +10,8 @@ Manipulates runtime properties of cameras in fixed camera mode, where the camera
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-FixedCameraMode
- 
-implements
- 
-ICameraMode
- 
+```ts
+export declare class FixedCameraMode implements ICameraMode 
 ```
 
 ## [Remarks](#remarks)

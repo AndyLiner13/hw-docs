@@ -8,13 +8,8 @@ A customizable player input that is bound to an [input action](../Enumerations/P
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-PlayerInput
- 
+```ts
+export declare class PlayerInput 
 ```
 
 ## [Remarks](#remarks)
@@ -24,89 +19,113 @@ For more information about binding player input, see the [Custom Input API](../.
 
 ## [Properties](#properties)
 
-|            |                                                                                                                                                         |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **action** | The action this input is bound to. For analog inputs, a pressed state corresponds to an axis value greater than 0.5 or lesser than -0.5.Signature\`\`\` |
-| action     |                                                                                                                                                         |
-| :          |                                                                                                                                                         |
+### [action](#action)
 
-ReadableHorizonProperty
-<
-PlayerInputAction
+The action this input is bound to. For analog inputs, a pressed state corresponds to an axis value greater than 0.5 or lesser than -0.5.
 
-> ;
+**Signature**
 
-````|
-| **axisValue** | Gets the axis value, between -1 and 1. If the input is digital, 0 or 1 is returned.Signature```
-axisValue
-:
- 
-ReadableHorizonProperty
-<number>
-;
-```                                                                 |
-| **connected** | Indicates whether the input is currently connected and active.Signature```
-connected
-:
- 
-ReadableHorizonProperty
-<boolean>
-;
-```                                                                                     |
-| **held**      | Indicates whether the input is being held active. For analog inputs, a pressed state corresponds to an axis value greater than 0.5 or lesser than -0.5.Signature```
-held
-:
- 
-ReadableHorizonProperty
-<boolean>
-;
-``` |
-| **pressed**   | Indicates whether the input was pressed this frame.Signature```
-pressed
-:
- 
-ReadableHorizonProperty
-<boolean>
-;
-```                                                                                                  |
-| **released**  | Indicates whether the input was released this frame.Signature```
-released
-:
- 
-ReadableHorizonProperty
-<boolean>
-;
-```                                                                                                |
+```ts
+action: ReadableHorizonProperty<PlayerInputAction>;
+```
+
+### [axisValue](#axisvalue)
+
+Gets the axis value, between -1 and 1. If the input is digital, 0 or 1 is returned.
+
+**Signature**
+
+```ts
+axisValue: ReadableHorizonProperty<number>;
+```
+
+### [connected](#connected)
+
+Indicates whether the input is currently connected and active.
+
+**Signature**
+
+```ts
+connected: ReadableHorizonProperty<boolean>;
+```
+
+### [held](#held)
+
+Indicates whether the input is being held active. For analog inputs, a pressed state corresponds to an axis value greater than 0.5 or lesser than -0.5.
+
+**Signature**
+
+```ts
+held: ReadableHorizonProperty<boolean>;
+```
+
+### [pressed](#pressed)
+
+Indicates whether the input was pressed this frame.
+
+**Signature**
+
+```ts
+pressed: ReadableHorizonProperty<boolean>;
+```
+
+### [released](#released)
+
+Indicates whether the input was released this frame.
+
+**Signature**
+
+```ts
+released: ReadableHorizonProperty<boolean>;
+```
 
 ## [Methods](#methods)
 
-|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **disconnect()**               | Disconnects the input. On platforms that display on-screen buttons for actions, the button will be removed. Any callbacks registered to this instance will stop being called.Signature```
-disconnect
-():
- 
+### [disconnect()](#disconnect)
+
+Disconnects the input. On platforms that display on-screen buttons for actions, the button will be removed. Any callbacks registered to this instance will stop being called.
+
+**Signature**
+
+```ts
+disconnect(): void;
+```
+
+**Returns**
+
 void
-;
-```Returnsvoid                                                                                                                                                                                                                           |
-| **registerCallback(callback)** | Registers a callback that is called when the input is pressed or released. For analog inputs, a pressed state corresponds to an axis value greater than 0.5 or lesser than -0.5.Signature```
-registerCallback
-(
-callback
-:
- 
-PlayerInputStateChangeCallback
-):
- 
+
+### [registerCallback(callback)](#registercallbackcallback)
+
+Registers a callback that is called when the input is pressed or released. For analog inputs, a pressed state corresponds to an axis value greater than 0.5 or lesser than -0.5.
+
+**Signature**
+
+```ts
+registerCallback(callback: PlayerInputStateChangeCallback): void;
+```
+
+**Parameters**
+
+callback: [PlayerInputStateChangeCallback](../Type%20Aliases/PlayerInputStateChangeCallback.md)
+
+The callback that is called when the pressed state changes.
+
+**Returns**
+
 void
-;
-```Parameterscallback: [PlayerInputStateChangeCallback](../Type%20Aliases/PlayerInputStateChangeCallback.md)The callback that is called when the pressed state changes.Returnsvoid |
-| **unregisterCallback()**       | Unregisters the currently registered callback, if any.Signature```
-unregisterCallback
-():
- 
+
+### [unregisterCallback()](#unregistercallback)
+
+Unregisters the currently registered callback, if any.
+
+**Signature**
+
+```ts
+unregisterCallback(): void;
+```
+
+**Returns**
+
 void
-;
-```Returnsvoid                                                                                                                                                                                                                                                                                                                                          |
-````
 

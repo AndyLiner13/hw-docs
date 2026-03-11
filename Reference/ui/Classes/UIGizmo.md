@@ -10,34 +10,29 @@ Represents the Custom UI Gizmo used to create custom 2D UI panels containing int
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-UIGizmo
- 
-extends
- 
-Entity
- 
+```ts
+export declare class UIGizmo extends Entity 
 ```
 
 ## [Remarks](#remarks)
 
-For information about usage, see the [Custom UI Examples](../../../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%200%20-%20Setup.md) tutorial.
+For information about usage, see the [Custom UI Examples](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/tutorial-worlds/custom-ui-examples-tutorial/station-0-setup) tutorial.
 
 ## [Methods](#methods)
 
-|                |                                                                         |
-| -------------- | ----------------------------------------------------------------------- |
-| **toString()** | Creates a human-readable representation of the UI Gizmo.Signature\`\`\` |
-| toString       |                                                                         |
-| ():            |                                                                         |
+### [toString()](#tostring)
+
+Creates a human-readable representation of the UI Gizmo.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
 
 string
-;
 
-```ReturnsstringA string representation of the gizmo. |
-```
+A string representation of the gizmo.
 

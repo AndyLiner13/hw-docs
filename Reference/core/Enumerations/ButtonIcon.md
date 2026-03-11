@@ -8,13 +8,8 @@ The icons to use when binding to custom player inputs. These are used on platfor
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-ButtonIcon
- 
+```ts
+export declare enum ButtonIcon 
 ```
 
 ## [Enumeration Members](#enumeration-members)

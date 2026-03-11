@@ -8,15 +8,8 @@ Stores and retrieves references to [NavMesh](NavMesh.md) instances.
 
 ## [Signature](#signature)
 
-```
-export
- 
-default
- 
-class
- 
-NavMeshManager
- 
+```ts
+export default class NavMeshManager 
 ```
 
 ## [Remarks](#remarks)
@@ -25,68 +18,55 @@ NavMeshManager
 
 ## [Properties](#properties)
 
-|               |                                                                        |
-| ------------- | ---------------------------------------------------------------------- |
-| **getByName** | Gets a reference to a instance based on a profile name.Signature\`\`\` |
-| getByName     |                                                                        |
-| :             |                                                                        |
+### [getByName](#getbyname)
 
-(
-name
-:
+Gets a reference to a instance based on a profile name.
 
-string
-)
+**Signature**
 
-\=>
+```ts
+getByName: (name: string) => Promise<NavMesh | null>;
+```
 
-Promise
-<
-NavMesh
+**Remarks**
 
-|
+If no matching profile is found, returns `null`.
 
-null
+### [getNavMeshes](#getnavmeshes)
 
-> ;
-> ``RemarksIf no matching profile is found, returns `null`. | | **getNavMeshes** | Gets a set of instances from the cache.Signature``
-> getNavMeshes
-> :
+Gets a set of instances from the cache.
 
-()
+**Signature**
 
-\=>
+```ts
+getNavMeshes: () => Promise<NavMesh[]>;
+```
 
-Promise
-<
-NavMesh
-\[]>;
+### [world](#world)
 
-````|
-| **world**        | Signature```
-world
-:
- 
-World
-;
-```                                                                                                                                                                      |
+**Signature**
+
+```ts
+world: World;
+```
 
 ## [Methods](#methods)
 
-|                              |                                                                                                                                                                                                                                            |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **getInstance(world)**static | Gets a NavMeshManager directory that stores the references to [NavMesh](NavMesh.md) instances.Signature```
-static
- getInstance
-(
-world
-:
- 
-World
-):
- 
-NavMeshManager
-;
-```Parametersworld: WorldReturns[NavMeshManager](NavMeshManager.md) |
-````
+### [getInstance(world) static](#getinstanceworld-static)
+
+Gets a NavMeshManager directory that stores the references to [NavMesh](NavMesh.md) instances.
+
+**Signature**
+
+```ts
+static getInstance(world: World): NavMeshManager;
+```
+
+**Parameters**
+
+world: World
+
+**Returns**
+
+[NavMeshManager](NavMeshManager.md)
 

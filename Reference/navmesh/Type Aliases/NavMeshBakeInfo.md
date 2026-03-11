@@ -8,22 +8,9 @@ Data about a call on a [NavMesh](../Classes/NavMesh.md) object.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-NavMeshBakeInfo
- 
-=
- 
-{
-
-    success
-:
- 
-boolean
-;
-
-
+```ts
+export declare type NavMeshBakeInfo = {
+    success: boolean;
 };
 ```
 

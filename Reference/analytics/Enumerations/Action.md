@@ -8,13 +8,8 @@ The Turbo actions that trigger Turbo [events](../Variables/TurboEvents.md). Turb
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-Action
- 
+```ts
+export declare enum Action 
 ```
 
 ## [Enumeration Members](#enumeration-members)

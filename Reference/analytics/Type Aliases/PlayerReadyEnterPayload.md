@@ -8,18 +8,7 @@ A payload sent by the `OnPlayerReadyEnter` [event](../Variables/TurboEvents.md)
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PlayerReadyEnterPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnPlayerReadyEnter
->;
+```ts
+export declare type PlayerReadyEnterPayload = FullTurboEventPayload<typeof OnPlayerReadyEnter>;
 ```
 

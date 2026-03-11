@@ -6,11 +6,7 @@ source: https://developers.meta.com/horizon-worlds/reference/2.0.0/performance_a
 
 ## [Signature](#signature)
 
-```
-ApiName
- 
-=
- 
-"performance"
+```ts
+ApiName = "performance"
 ```
 

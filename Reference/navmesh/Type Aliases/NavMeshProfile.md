@@ -8,49 +8,14 @@ The configuration for a navigation [NavMesh.profile](../Classes/NavMesh.md#profi
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-NavMeshProfile
- 
-=
- 
-{
-
-    typeId
-:
- number
-;
-
-    name
-:
- 
-string
-;
-
-    color
-:
- 
-string
-;
-
-    agentRadius
-:
- number
-;
-
-    agentMaxSlope
-:
- number
-;
-
-    navMesh
-:
- 
-INavMesh
-;
-
-
+```ts
+export declare type NavMeshProfile = {
+    typeId: number;
+    name: string;
+    color: string;
+    agentRadius: number;
+    agentMaxSlope: number;
+    navMesh: INavMesh;
 };
 ```
 

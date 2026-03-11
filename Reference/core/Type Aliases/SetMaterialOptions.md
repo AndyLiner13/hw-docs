@@ -8,24 +8,9 @@ Options for the [MeshEntity.setMaterial()](../Classes/MeshEntity.md#setmaterial)
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-SetMaterialOptions
- 
-=
- 
-{
-
-    materialSlot
-?:
- number 
-|
- 
-string
-;
-
-
+```ts
+export declare type SetMaterialOptions = {
+    materialSlot?: number | string;
 };
 ```
 

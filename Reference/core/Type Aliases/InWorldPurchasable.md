@@ -8,51 +8,14 @@ Represents an in-world item that is purchaseable such as an item or item pack.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-InWorldPurchasable
- 
-=
- 
-{
-
-    sku
-:
- 
-string
-;
-
-    name
-:
- 
-string
-;
-
-    price
-:
- 
-InWorldPurchasablePrice
-;
-
-    description
-:
- 
-string
-;
-
-    isPack
-:
- 
-boolean
-;
-
-    quantity
-:
- number
-;
-
-
+```ts
+export declare type InWorldPurchasable = {
+    sku: string;
+    name: string;
+    price: InWorldPurchasablePrice;
+    description: string;
+    isPack: boolean;
+    quantity: number;
 };
 ```
 

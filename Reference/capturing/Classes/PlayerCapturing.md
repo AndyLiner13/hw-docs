@@ -15,17 +15,8 @@ The video recording capabilities from the players point of view.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-PlayerCapturing
- 
-extends
- 
-Player
- 
+```ts
+export declare class PlayerCapturing extends Player 
 ```
 
 ## [Remarks](#remarks)
@@ -34,51 +25,53 @@ This class contains methods for recording in-game footage from the players point
 
 ## [Methods](#methods)
 
-|                                                |               |
-| ---------------------------------------------- | ------------- |
-| **startVideoCapture(\_momentName, \_options)** | > [!Warning] |
+### [startVideoCapture(\_momentName, \_options)](#startvideocapture_momentname-_options)
 
-> This API is now obsolete. This module is deprecated and will be removed in a future version.Starts recording a video from the player's point of view\.Signature\`\`\`
-> startVideoCapture
-> (
-> \_momentName
-> :
+Warning: This API is now obsolete.This module is deprecated and will be removed in a future version.Starts recording a video from the player's point of view.
 
-string
-,
-\_options
-?:
+**Signature**
 
-Partial
-<
-StartVideoCaptureOptions
+```ts
+startVideoCapture(_momentName: string, _options?: Partial<StartVideoCaptureOptions>): Promise<VideoCaptureResponseCode>;
+```
 
-> ):
+**Parameters**
 
-Promise
-<
-VideoCaptureResponseCode
+\_momentName: string
 
-> ;
+\_options: Partial<[StartVideoCaptureOptions](../Type%20Aliases/StartVideoCaptureOptions.md)>
 
-````Parameters_momentName: string_options: Partial<[StartVideoCaptureOptions](../Type%20Aliases/StartVideoCaptureOptions.md)>*(Optional)*ReturnsPromise<[VideoCaptureResponseCode](../Enumerations/VideoCaptureResponseCode.md)>RemarksCall the method to end the recording. |
-| **stopVideoCapture(\_options)**                | > [!Warning]
->
-> This API is now obsolete. This module is deprecated and will be removed in a future version.Stops recording a video from the player's point of view\.Signature```
-stopVideoCapture
-(
-_options
-?:
- 
-Partial
-<
-StopVideoCaptureOptions
->):
- 
-Promise
-<
-VideoCaptureResponseCode
->;
-```Parameters\_options: Partial<[StopVideoCaptureOptions](../Type%20Aliases/StopVideoCaptureOptions.md)>*(Optional)*ReturnsPromise<[VideoCaptureResponseCode](../Enumerations/VideoCaptureResponseCode.md)>RemarksTo start recording, call the method.                                                     |
-````
+*(Optional)*
+
+**Returns**
+
+Promise<[VideoCaptureResponseCode](../Enumerations/VideoCaptureResponseCode.md)>
+
+**Remarks**
+
+Call the method to end the recording.
+
+### [stopVideoCapture(\_options)](#stopvideocapture_options)
+
+Warning: This API is now obsolete.This module is deprecated and will be removed in a future version.Stops recording a video from the player's point of view.
+
+**Signature**
+
+```ts
+stopVideoCapture(_options?: Partial<StopVideoCaptureOptions>): Promise<VideoCaptureResponseCode>;
+```
+
+**Parameters**
+
+\_options: Partial<[StopVideoCaptureOptions](../Type%20Aliases/StopVideoCaptureOptions.md)>
+
+*(Optional)*
+
+**Returns**
+
+Promise<[VideoCaptureResponseCode](../Enumerations/VideoCaptureResponseCode.md)>
+
+**Remarks**
+
+To start recording, call the method.
 

@@ -8,13 +8,8 @@ The suffixes for custom metric values. These are abbreviated in the tools.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-HorizonMetricSuffixes
- 
+```ts
+export declare enum HorizonMetricSuffixes 
 ```
 
 ## [Enumeration Members](#enumeration-members)

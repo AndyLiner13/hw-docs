@@ -8,13 +8,8 @@ Different social platforms where creators can choose accounts from and display o
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-SocialPlatformType
- 
+```ts
+export declare enum SocialPlatformType 
 ```
 
 ## [Enumeration Members](#enumeration-members)

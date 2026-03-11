@@ -8,11 +8,8 @@ The default values for showing a tooltip using the [TooltipOptions](../Type%20Al
 
 ## [Signature](#signature)
 
-```
-DefaultTooltipOptions
-:
- 
-TooltipOptions
+```ts
+DefaultTooltipOptions: TooltipOptions
 ```
 
 ## [Remarks](#remarks)

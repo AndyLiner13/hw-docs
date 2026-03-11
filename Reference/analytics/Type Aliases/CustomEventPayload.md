@@ -8,18 +8,7 @@ A payload sent by the `OnCustomAction` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-CustomEventPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnCustomAction
->;
+```ts
+export declare type CustomEventPayload = FullTurboEventPayload<typeof OnCustomAction>;
 ```
 

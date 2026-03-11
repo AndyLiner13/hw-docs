@@ -8,13 +8,8 @@ The type of grip animation assigned to an avatar when holding an object.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AvatarGripPose
- 
+```ts
+export declare enum AvatarGripPose 
 ```
 
 ## [Enumeration Members](#enumeration-members)

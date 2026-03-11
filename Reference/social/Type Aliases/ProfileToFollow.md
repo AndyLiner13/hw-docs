@@ -8,28 +8,10 @@ Represents a profile in one of the supported platform types that players can fol
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ProfileToFollow
- 
-=
- 
-{
-
-    platform
-:
- 
-SocialPlatformType
-;
-
-    profileHandle
-:
- 
-string
-;
-
-
+```ts
+export declare type ProfileToFollow = {
+    platform: SocialPlatformType;
+    profileHandle: string;
 };
 ```
 

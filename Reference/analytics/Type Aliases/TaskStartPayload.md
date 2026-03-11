@@ -8,18 +8,7 @@ A payload sent by the `OnTaskStart` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TaskStartPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnTaskStart
->;
+```ts
+export declare type TaskStartPayload = FullTurboEventPayload<typeof OnTaskStart>;
 ```
 

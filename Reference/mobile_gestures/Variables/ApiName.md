@@ -8,11 +8,7 @@ The name of the API.
 
 ## [Signature](#signature)
 
-```
-ApiName
- 
-=
- 
-"mobile_gestures"
+```ts
+ApiName = "mobile_gestures"
 ```
 

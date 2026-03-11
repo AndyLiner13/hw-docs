@@ -8,13 +8,8 @@ The target or destination of an event.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-EventTargetType
- 
+```ts
+export declare enum EventTargetType 
 ```
 
 ## [Enumeration Members](#enumeration-members)

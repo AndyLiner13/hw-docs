@@ -8,71 +8,17 @@ Represents the props of a [pressable](../Functions/Pressable.md) component on a 
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PressableProps
- 
-=
- 
-{
-
-    children
-?:
- 
-UIChildren
-;
-
-    disabled
-?:
- 
-Bindable
-<boolean>
-;
-
-    onClick
-?:
- 
-Callback
-;
-
-    onEnter
-?:
- 
-Callback
-;
-
-    onExit
-?:
- 
-Callback
-;
-
-    onPress
-?:
- 
-Callback
-;
-
-    onRelease
-?:
- 
-Callback
-;
-
-    propagateClick
-?:
- 
-boolean
-;
-
-    style
-?:
- 
-ViewStyle
-;
-
-
+```ts
+export declare type PressableProps = {
+    children?: UIChildren;
+    disabled?: Bindable<boolean>;
+    onClick?: Callback;
+    onEnter?: Callback;
+    onExit?: Callback;
+    onPress?: Callback;
+    onRelease?: Callback;
+    propagateClick?: boolean;
+    style?: ViewStyle;
 };
 ```
 

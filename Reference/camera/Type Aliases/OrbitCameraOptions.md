@@ -8,36 +8,12 @@ Available options when applying an orbit camera.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-OrbitCameraOptions
- 
-=
- 
-{
-
-    distance
-?:
- number
-;
-
-    verticalOffset
-?:
- number
-;
-
-    translationSpeed
-?:
- number
-;
-
-    rotationSpeed
-?:
- number
-;
-
-
+```ts
+export declare type OrbitCameraOptions = {
+    distance?: number;
+    verticalOffset?: number;
+    translationSpeed?: number;
+    rotationSpeed?: number;
 };
 ```
 

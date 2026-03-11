@@ -8,159 +8,28 @@ Represents the style used to transform a UI element on a UI panel. For descripti
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TransformStyle
- 
-=
- 
-{
-
-    transform
-?:
- 
-Array
-<{
-
-        rotate
-:
- 
-Bindable
-<string>
-;
-
-    
-}
- 
-|
- 
-{
-
-        scale
-:
- 
-Bindable
-<number>
-;
-
-    
-}
- 
-|
- 
-{
-
-        scaleX
-:
- 
-Bindable
-<number>
-;
-
-    
-}
- 
-|
- 
-{
-
-        scaleY
-:
- 
-Bindable
-<number>
-;
-
-    
-}
- 
-|
- 
-{
-
-        translate
-:
- 
-[
-Bindable
-<number>
-,
- 
-Bindable
-<number>
-];
-
-    
-}
- 
-|
- 
-{
-
-        translateX
-:
- 
-Bindable
-<number>
-;
-
-    
-}
- 
-|
- 
-{
-
-        translateY
-:
- 
-Bindable
-<number>
-;
-
-    
-}
- 
-|
- 
-{
-
-        skewX
-:
- 
-Bindable
-<string>
-;
-
-    
-}
- 
-|
- 
-{
-
-        skewY
-:
- 
-Bindable
-<string>
-;
-
-    
-}>;
-
-    transformOrigin
-?:
- 
-[
-DimensionValue
-,
- 
-DimensionValue
-];
-
-
+```ts
+export declare type TransformStyle = {
+    transform?: Array<{
+        rotate: Bindable<string>;
+    } | {
+        scale: Bindable<number>;
+    } | {
+        scaleX: Bindable<number>;
+    } | {
+        scaleY: Bindable<number>;
+    } | {
+        translate: [Bindable<number>, Bindable<number>];
+    } | {
+        translateX: Bindable<number>;
+    } | {
+        translateY: Bindable<number>;
+    } | {
+        skewX: Bindable<string>;
+    } | {
+        skewY: Bindable<string>;
+    }>;
+    transformOrigin?: [DimensionValue, DimensionValue];
 };
 ```
 

@@ -8,93 +8,23 @@ Available options when applying a follow camera.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-FollowCameraOptions
- 
-=
- 
-{
-
-    activationDelay
-?:
- number
-;
-
-    cameraTurnSpeed
-?:
- number
-;
-
-    continuousRotation
-?:
- 
-boolean
-;
-
-    distance
-?:
- number
-;
-
-    horizonLevelling
-?:
- 
-boolean
-;
-
-    rotationSpeed
-?:
- number
-;
-
-    translationSpeed
-?:
- number
-;
-
-    verticalOffset
-?:
- number
-;
-
-    horizontalTranslationInertiaRate
-?:
- number
-;
-
-    verticalTranslationInertiaRate
-?:
- number
-;
-
-    horizontalRotationRate
-?:
- number
-;
-
-    verticalRotationRate
-?:
- number
-;
-
-    horizontalRotationRateMaxTime
-?:
- number
-;
-
-    verticalRotationRateMaxTime
-?:
- number
-;
-
-    targetPitch
-?:
- number
-;
-
-
+```ts
+export declare type FollowCameraOptions = {
+    activationDelay?: number;
+    cameraTurnSpeed?: number;
+    continuousRotation?: boolean;
+    distance?: number;
+    horizonLevelling?: boolean;
+    rotationSpeed?: number;
+    translationSpeed?: number;
+    verticalOffset?: number;
+    horizontalTranslationInertiaRate?: number;
+    verticalTranslationInertiaRate?: number;
+    horizontalRotationRate?: number;
+    verticalRotationRate?: number;
+    horizontalRotationRateMaxTime?: number;
+    verticalRotationRateMaxTime?: number;
+    targetPitch?: number;
 };
 ```
 

@@ -10,17 +10,8 @@ Represents an Achievements gizmo, which is used to display player achievements.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-AchievementsGizmo
- 
-extends
- 
-Entity
- 
+```ts
+export declare class AchievementsGizmo extends Entity 
 ```
 
 ## [Remarks](#remarks)
@@ -29,27 +20,39 @@ For information about working with Player Achievements, see the [Player Ahieveme
 
 ## [Methods](#methods)
 
-|                                               |                                                                  |
-| --------------------------------------------- | ---------------------------------------------------------------- |
-| **displayAchievements(achievementScriptIDs)** | Displays a list of the given player achievements.Signature\`\`\` |
-| displayAchievements                           |                                                                  |
-| (                                             |                                                                  |
-| achievementScriptIDs                          |                                                                  |
-| :                                             |                                                                  |
+### [displayAchievements(achievementScriptIDs)](#displayachievementsachievementscriptids)
 
-Array <string></string>
-):
+Displays a list of the given player achievements.
+
+**Signature**
+
+```ts
+displayAchievements(achievementScriptIDs: Array<string>): void;
+```
+
+**Parameters**
+
+achievementScriptIDs: Array\<string>
+
+A list that contains the script IDs of the achievements to display.
+
+**Returns**
 
 void
-;
 
-````ParametersachievementScriptIDs: Array<string>A list that contains the script IDs of the achievements to display.Returnsvoid |
-| **toString()**                                | Creates a human-readable representation of the entity.Signature```
-toString
-():
- 
+### [toString()](#tostring)
+
+Creates a human-readable representation of the entity.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringA string representation of the `AchievementsGizmo`.                                                                                                          |
-````
+
+A string representation of the `AchievementsGizmo`.
 

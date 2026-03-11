@@ -8,108 +8,21 @@ Represents the style of the borders on a UI element for a UI panel. For descript
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-BorderStyle
- 
-=
- 
-{
-
-    borderColor
-?:
- 
-Bindable
-<
-ColorValue
->;
-
-    borderRadius
-?:
- 
-Bindable
-<number>
-;
-
-    borderBottomLeftRadius
-?:
- 
-Bindable
-<number>
-;
-
-    borderBottomRightRadius
-?:
- 
-Bindable
-<number>
-;
-
-    borderTopLeftRadius
-?:
- 
-Bindable
-<number>
-;
-
-    borderTopRightRadius
-?:
- 
-Bindable
-<number>
-;
-
-    borderWidth
-?:
- 
-Bindable
-<number>
-;
-
-    borderBottomWidth
-?:
- 
-Bindable
-<number>
-;
-
-    borderEndWidth
-?:
- 
-Bindable
-<number>
-;
-
-    borderLeftWidth
-?:
- 
-Bindable
-<number>
-;
-
-    borderRightWidth
-?:
- 
-Bindable
-<number>
-;
-
-    borderStartWidth
-?:
- 
-Bindable
-<number>
-;
-
-    borderTopWidth
-?:
- 
-Bindable
-<number>
-;
-
-
+```ts
+export declare type BorderStyle = {
+    borderColor?: Bindable<ColorValue>;
+    borderRadius?: Bindable<number>;
+    borderBottomLeftRadius?: Bindable<number>;
+    borderBottomRightRadius?: Bindable<number>;
+    borderTopLeftRadius?: Bindable<number>;
+    borderTopRightRadius?: Bindable<number>;
+    borderWidth?: Bindable<number>;
+    borderBottomWidth?: Bindable<number>;
+    borderEndWidth?: Bindable<number>;
+    borderLeftWidth?: Bindable<number>;
+    borderRightWidth?: Bindable<number>;
+    borderStartWidth?: Bindable<number>;
+    borderTopWidth?: Bindable<number>;
 };
 ```
 

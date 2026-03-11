@@ -12,39 +12,12 @@ Options available when forcing a camera to look at a target.\
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ForceLookAtOptions
- 
-=
- 
-{
-
-    duration
-?:
- number
-;
-
-    offset
-?:
- 
-Vec3
-;
-
-    transitionIn
-?:
- 
-CameraTransitionOptions
-;
-
-    transitionOut
-?:
- 
-CameraTransitionOptions
-;
-
-
+```ts
+export declare type ForceLookAtOptions = {
+    duration?: number;
+    offset?: Vec3;
+    transitionIn?: CameraTransitionOptions;
+    transitionOut?: CameraTransitionOptions;
 };
 ```
 

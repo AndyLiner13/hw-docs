@@ -8,18 +8,7 @@ A payload sent by the `OnDamagePlayer` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-DamagePlayerPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnDamagePlayer
->;
+```ts
+export declare type DamagePlayerPayload = FullTurboEventPayload<typeof OnDamagePlayer>;
 ```
 

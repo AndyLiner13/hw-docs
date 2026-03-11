@@ -8,13 +8,8 @@ An interface for objects that allow registration of additional dispose time oper
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-DisposableObject
- 
+```ts
+export interface DisposableObject 
 ```
 
 ## [Remarks](#remarks)
@@ -25,27 +20,39 @@ For information about component lifecycles, see the [TypeScript component lifecy
 
 ## [Methods](#methods)
 
-|               |                                                                 |
-| ------------- | --------------------------------------------------------------- |
-| **dispose()** | Called when the disposable object is cleaned up.Signature\`\`\` |
-| dispose       |                                                                 |
-| ():           |                                                                 |
+### [dispose()](#dispose)
+
+Called when the disposable object is cleaned up.
+
+**Signature**
+
+```ts
+dispose(): void;
+```
+
+**Returns**
 
 void
-;
 
-````Returnsvoid |
-| **registerDisposeOperation(operation)** | Called to register a single dispose operation. The operation is run automatically at Object dispose time, unless it is manually run or canceled before the object is disposed.Signature```
-registerDisposeOperation
-(
-operation
-:
- 
-DisposeOperation
-):
- 
-DisposeOperationRegistration
-;
-```Parametersoperation: [DisposeOperation](../Type%20Aliases/DisposeOperation.md)A function called to perform a single dispose operation.Returns[DisposeOperationRegistration](DisposeOperationRegistration.md)A registration object that can be used to manually run or cancel the operation before dispose. |
-````
+### [registerDisposeOperation(operation)](#registerdisposeoperationoperation)
+
+Called to register a single dispose operation. The operation is run automatically at Object dispose time, unless it is manually run or canceled before the object is disposed.
+
+**Signature**
+
+```ts
+registerDisposeOperation(operation: DisposeOperation): DisposeOperationRegistration;
+```
+
+**Parameters**
+
+operation: [DisposeOperation](../Type%20Aliases/DisposeOperation.md)
+
+A function called to perform a single dispose operation.
+
+**Returns**
+
+[DisposeOperationRegistration](DisposeOperationRegistration.md)
+
+A registration object that can be used to manually run or cancel the operation before dispose.
 

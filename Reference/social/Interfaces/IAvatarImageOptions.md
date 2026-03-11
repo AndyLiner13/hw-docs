@@ -8,42 +8,37 @@ Represents options that can be used when creating an Avatar image component.
 
 ## [Signature](#signature)
 
-```
-export
- 
-interface
- 
-IAvatarImageOptions
- 
+```ts
+export interface IAvatarImageOptions 
 ```
 
 ## [Properties](#properties)
 
-|              |                               |
-| ------------ | ----------------------------- |
-| **highRes?** | \*(Optional)\*Signature\`\`\` |
-| highRes      |                               |
-| ?:           |                               |
+### [highRes?](#highres)
 
-boolean
-;
+*(Optional)*
 
-````|
-| **skuOverrides?**   | *(Optional)*Signature```
-skuOverrides
-?:
- 
-Array
-<string>
-;
-``` |
-| **type**\[readonly] | Signature```
-readonly
- type
-:
- 
-AvatarImageType
-;
-```           |
-````
+**Signature**
+
+```ts
+highRes?: boolean;
+```
+
+### [skuOverrides?](#skuoverrides)
+
+*(Optional)*
+
+**Signature**
+
+```ts
+skuOverrides?: Array<string>;
+```
+
+### [type \[readonly\]](#type-readonly)
+
+**Signature**
+
+```ts
+readonly type: AvatarImageType;
+```
 

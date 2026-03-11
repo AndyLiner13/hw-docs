@@ -8,13 +8,8 @@ Defines the valid matching operations that are available when using [getEntities
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-EntityTagMatchOperation
- 
+```ts
+export declare enum EntityTagMatchOperation 
 ```
 
 ## [Enumeration Members](#enumeration-members)

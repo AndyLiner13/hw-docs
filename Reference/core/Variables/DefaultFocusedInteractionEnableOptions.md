@@ -8,11 +8,8 @@ The default values for the [FocusedInteractionOptions](../Type%20Aliases/Focused
 
 ## [Signature](#signature)
 
-```
-DefaultFocusedInteractionEnableOptions
-:
- 
-FocusedInteractionOptions
+```ts
+DefaultFocusedInteractionEnableOptions: FocusedInteractionOptions
 ```
 
 ## [Remarks](#remarks)

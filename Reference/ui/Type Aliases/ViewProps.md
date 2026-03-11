@@ -8,28 +8,10 @@ Represents the props of a [View()](../Functions/View.md) component.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ViewProps
- 
-=
- 
-{
-
-    children
-?:
- 
-UIChildren
-;
-
-    style
-?:
- 
-ViewStyle
-;
-
-
+```ts
+export declare type ViewProps = {
+    children?: UIChildren;
+    style?: ViewStyle;
 };
 ```
 

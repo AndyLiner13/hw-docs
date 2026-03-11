@@ -4,3 +4,1512 @@ source: https://developers.meta.com/horizon-worlds/reference/2.0.0/core_player
 
 # [Player Class](#player-class)
 
+Represents a player in the world. This is the primary class for managing an individual player's physical presence and game play in the world, including their avatar.
+
+## [Signature](#signature)
+
+```ts
+export declare class Player 
+```
+
+## [Constructors](#constructors)
+
+### [(constructor)(id, entity)](#constructorid-entity)
+
+Creates a player in the world.
+
+**Signature**
+
+```ts
+constructor(id: number, entity?: Entity);
+```
+
+**Parameters**
+
+id: number
+
+The ID of the player.
+
+entity: [Entity](Entity.md)
+
+*(Optional)* An optional NPC Gizmo entity associated with the player.
+
+## [Properties](#properties)
+
+### [avatarScale](#avatarscale)
+
+The scale of the player's avatar. Change this to scale the player up or down.
+
+**Signature**
+
+```ts
+avatarScale: HorizonProperty<number>;
+```
+
+**Examples**
+
+This example demonstrates how to modify the avatar scale of a player when it enters a trigger.
+
+```ts
+class AvatarScalingExample extends hz.Component<typeof AvatarScalingExample> {
+  static propsDefinition = {
+    newAvatarScale: { type: hz.PropTypes.Number },
+  };
+
+  start() {
+    this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerEnterTrigger, (player) => {
+      player.avatarScale.set(this.props.newAvatarScale);
+    });
+  }
+}
+
+hz.Component.register(AvatarScalingExample);
+```
+
+**Remarks**
+
+Accepts values between 0.05 and 50.The scaling happens with a one frame delay.
+
+### [backpedalMultiplier](#backpedalmultiplier)
+
+The multiplier applied to a player's locomotion speed when they are backpedaling.
+
+**Signature**
+
+```ts
+backpedalMultiplier: HorizonProperty<number>;
+```
+
+**Examples**
+
+This example demonstrates how to modify the player backpedal multiplier while it is inside a trigger.
+
+```ts
+import * as hz from 'horizon/core';
+
+class BackpedalMultiplierExample extends hz.Component<typeof BackpedalMultiplierExample> {
+  static propsDefinition = {
+    modifiedBackpedalMultiplier: { type: hz.PropTypes.Number },
+  };
+
+  private defaultBackpedalMultiplier: number = 0.825;
+
+  start() {
+    this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerEnterTrigger, (player) => {
+      var extendedPlayer = new hz.Player(player.id);
+      extendedPlayer.backpedalMultiplier.set(this.props.modifiedBackpedalMultiplier);
+    });
+
+    this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerExitTrigger, (player) => {
+      var extendedPlayer = new hz.Player(player.id);
+      extendedPlayer.backpedalMultiplier.set(this.defaultBackpedalMultiplier);
+    });
+  }
+}
+
+hz.Component.register(BackpedalMultiplierExample);
+```
+
+**Remarks**
+
+Default value is 0.825. backpedalMultiplier must be a value between 0 and 10. `backpedalMultiplier.set` can be called on any player from any context, but `backpedalMultiplier.get` will throw an error unless it's called from a local script attached to an object owned by the player in question.Using the Orbit, Pan, and Follow camera modes will prevent the user from backpedaling.
+
+### [deviceType](#devicetype)
+
+Gets the type of device the player is using.
+
+**Signature**
+
+```ts
+deviceType: ReadableHorizonProperty<PlayerDeviceType>;
+```
+
+**Remarks**
+
+New device types may be added in the future, so you should handle this property with a switch statement.
+
+### [entity? \[readonly\]](#entity-readonly)
+
+The player's ID.
+
+**Signature**
+
+```ts
+readonly entity?: Entity;
+```
+
+### [focusedInteraction](#focusedinteraction)
+
+The [FocusedInteraction](FocusedInteraction.md) instance associated with the player.
+
+**Signature**
+
+```ts
+focusedInteraction: FocusedInteraction;
+```
+
+**Remarks**
+
+Focused Interaction mode replaces on-screen controls on web and mobile clients with touch and mouse input that includes direct input access.For more information about Focused Interaction, see the [Focused Interaction guide](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-use-focused-interaction).
+
+### [foot](#foot)
+
+The player's foot.
+
+**Signature**
+
+```ts
+foot: PlayerBodyPart;
+```
+
+### [forward](#forward)
+
+The player's forward direction relative to the world origin.
+
+**Signature**
+
+```ts
+forward: ReadableHorizonProperty<Vec3>;
+```
+
+### [gravity](#gravity)
+
+The player's gravity before simulation.
+
+**Signature**
+
+```ts
+gravity: HorizonProperty<number>;
+```
+
+### [head](#head)
+
+The player's head.
+
+**Signature**
+
+```ts
+head: PlayerBodyPart;
+```
+
+### [id \[readonly\]](#id-readonly)
+
+The player's ID.
+
+**Signature**
+
+```ts
+readonly id: number;
+```
+
+### [index](#index)
+
+The index that identifies the player in the list of all players in the world instance.
+
+**Signature**
+
+```ts
+index: ReadableHorizonProperty<number>;
+```
+
+**Examples**
+
+This example demonstrates how to retrieve a `Player` object using a player index.
+
+```ts
+var playerIndex = player.index.get();
+var playerFromIndex = this.world.getPlayerFromIndex(playerIndex);
+```
+
+**Remarks**
+
+When joing a world, each player is assigned an index, which ranges from 0 (the first player) to `Max Players - 1`. Use the index value to keep track of players and get a `Player` object using the [World.getPlayerFromIndex()](World.md#getplayerfromindex) method.
+
+### [isGrounded](#isgrounded)
+
+Indicates whether the player is grounded (touching a floor). If a player is grounded then gravity has no effect on their velocity.
+
+**Signature**
+
+```ts
+isGrounded: ReadableHorizonProperty<boolean>;
+```
+
+### [isInBuildMode](#isinbuildmode)
+
+Indicates whether a player is in build mode.
+
+**Signature**
+
+```ts
+isInBuildMode: ReadableHorizonProperty<boolean>;
+```
+
+**Remarks**
+
+Build mode means the player is editing the world. The alternative, preview mode, is when they're playing the world.
+
+### [isJumping](#isjumping)
+
+Indicates whether the NPC is performing a jump.
+
+**Signature**
+
+```ts
+isJumping: ReadableHorizonProperty<boolean>;
+```
+
+### [isMoving](#ismoving)
+
+Indicates whether the player is moving.
+
+**Signature**
+
+```ts
+isMoving: ReadableHorizonProperty<boolean>;
+```
+
+### [isNavigating](#isnavigating)
+
+Indicates whether the player is moving using scripted navigation.
+
+**Signature**
+
+```ts
+isNavigating: ReadableHorizonProperty<boolean>;
+```
+
+### [isValidReference](#isvalidreference)
+
+Whether or not the player is still a valid player reference, and hasn't been disposed. Useful in asynchronous contexts (async/awaits, promise.then's, and networkEvents).
+
+**Signature**
+
+```ts
+isValidReference: ReadableHorizonProperty<boolean>;
+```
+
+### [jumpSpeed](#jumpspeed)
+
+The speed applied to a player when they jump, in meters per second. Setting this to 0 effectively disables a player's ability to jump.
+
+**Signature**
+
+```ts
+jumpSpeed: HorizonProperty<number>;
+```
+
+**Remarks**
+
+Default value is 4.3. jumpSpeed must be a value between 0 and 45. `jumpSpeed.set` can be called on any player from any context, but `jumpSpeed.get` will throw an error unless it's called from a local script attached to an object owned by the player in question.
+
+### [leftHand](#lefthand)
+
+The player's left hand.
+
+**Signature**
+
+```ts
+leftHand: PlayerHand;
+```
+
+### [locomotionSpeed](#locomotionspeed)
+
+The speed at which the player moves, in meters per second.
+
+**Signature**
+
+```ts
+locomotionSpeed: HorizonProperty<number>;
+```
+
+**Remarks**
+
+Default value is 4.5. locomotionSpeed must be a value between 0 and 45. `locomotionSpeed.set` can be called on any player from any context, but `locomotionSpeed.get` will throw an error unless it's called from a local script attached to an object owned by the player in question.
+
+### [name](#name)
+
+The player's name displayed in the game.
+
+**Signature**
+
+```ts
+name: ReadableHorizonProperty<string>;
+```
+
+### [nameTag \[readonly\]](#nametag-readonly)
+
+The name tag for the player.
+
+**Signature**
+
+```ts
+readonly nameTag: NameTag;
+```
+
+### [position](#position)
+
+The player's position relative to the world origin.
+
+**Signature**
+
+```ts
+position: HorizonProperty<Vec3>;
+```
+
+### [rightHand](#righthand)
+
+The player's right hand.
+
+**Signature**
+
+```ts
+rightHand: PlayerHand;
+```
+
+### [rootRotation](#rootrotation)
+
+The root rotation of the player's avatar. This is different from the [Player.rotation](Player.md#rotation) property, which retrieves the player's head rotation.
+
+**Signature**
+
+```ts
+rootRotation: HorizonProperty<Quaternion>;
+```
+
+**Examples**
+
+```ts
+class ServerRotate extends hz.Component<typeof ServerRotate> {
+  static propsDefinition = {
+    lookAtProp : { type: hz.PropTypes.Entity },
+  };
+  start() {
+    this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerEnterWorld, (player: hz.Player) => {
+      serverPlayer = player;
+      console.log("Starting interval Server");
+      this.async.setInterval(() => {
+        if(serverPlayer != undefined) {
+          var rootRotation = serverPlayer.rootRotation.get();
+          console.log("Server: " + rootRotation.toString());
+        }
+      }, 5000);
+    });
+    this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerEnterTrigger, (player: hz.Player) => {
+      if(this.props.lookAtProp) {
+        var lookVector = this.props.lookAtProp.position.get().sub(player.position.get());
+        var newRotation = hz.Quaternion.lookRotation(lookVector.normalize());
+        player.rootRotation.set(newRotation);
+      }
+    });
+  }
+}
+```
+
+**Remarks**
+
+When setting, only the yaw component of the input rotation is used, keeping the character upright.
+
+### [rotation](#rotation)
+
+The player's facing/head rotation relative to the world origin. For the rotation of the player's entire avatar, see the [Player.rootRotation](Player.md#rootrotation) property.
+
+**Signature**
+
+```ts
+rotation: ReadableHorizonProperty<Quaternion>;
+```
+
+**Examples**
+
+```ts
+var headRotation = serverPlayer.rotation.get();
+```
+
+### [screenHeight](#screenheight)
+
+Gets the screen height of the screen surface the player is using.
+
+**Signature**
+
+```ts
+screenHeight: ReadableHorizonProperty<number>;
+```
+
+**Remarks**
+
+The returned value is the size of the renderable screen height in pixels, and is not guaranteed to match the actual player's device screen width.
+
+### [screenSafeArea](#screensafearea)
+
+Gets the safe area of the screen surface the player is using.
+
+**Signature**
+
+```ts
+screenSafeArea: ReadableHorizonProperty<Rect>;
+```
+
+**Remarks**
+
+The returned value is a screen space normalized rectangle, with values ranging from 0 to 1. To get actual safe area, scale it by screen width and height. i.e: `screenSafeArea.scaleBy(screenWidth, screenHeight)`
+
+### [screenWidth](#screenwidth)
+
+Gets the screen width of the screen surface the player is using.
+
+**Signature**
+
+```ts
+screenWidth: ReadableHorizonProperty<number>;
+```
+
+**Remarks**
+
+The returned value is the size of the renderable screen width in pixels, and is not guaranteed to match the actual player's device screen width.
+
+### [sprintMultiplier](#sprintmultiplier)
+
+The multiplier applied to a player's locomotion speed when they are sprinting.
+
+**Signature**
+
+```ts
+sprintMultiplier: HorizonProperty<number>;
+```
+
+**Examples**
+
+This example demonstrates how to modify the player sprint multiplier while it is inside a trigger.
+
+```ts
+class SprintMultiplierExample extends hz.Component<typeof SprintMultiplierExample> {
+  static propsDefinition = {
+    modifiedSprintMultiplier: { type: hz.PropTypes.Number },
+  };
+
+  private defaultSprintMultiplier: number = 1.4;
+
+  start() {
+    this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerEnterTrigger, (player) => {
+      player.sprintMultiplier.set(this.props.modifiedSprintMultiplier);
+    });
+
+    this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerExitTrigger, (player) => {
+      player.sprintMultiplier.set(this.defaultSprintMultiplier);
+    });
+  }
+}
+
+hz.Component.register(SprintMultiplierExample);
+```
+
+**Remarks**
+
+The default value is 1.4. The `sprintMultiplier` property must be a value between 1 and 10. Setting this to 1 disables a player's ability to sprint.`sprintMultiplier.set` can be called on any player from any context, but `sprintMultiplier.get` will throw an error unless it's called from a local script attached to an object owned by the player in question.
+
+### [strafeMultiplier](#strafemultiplier)
+
+The multiplier applied to a player's locomotion speed when they are strafing.
+
+**Signature**
+
+```ts
+strafeMultiplier: HorizonProperty<number>;
+```
+
+**Examples**
+
+This example demonstrates how to modify the player strafe multiplier while it is inside a trigger.
+
+```ts
+import * as hz from 'horizon/core';
+
+class StrafeMultiplierExample extends hz.Component<typeof StrafeMultiplierExample> {
+  static propsDefinition = {
+    modifiedStrafeMultiplier: { type: hz.PropTypes.Number },
+  };
+
+  private defaultStrafeMultiplier: number = 0.825;
+
+  start() {
+    this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerEnterTrigger, (player) => {
+      var extendedPlayer = new hz.Player(player.id);
+      extendedPlayer.strafeMultiplier.set(this.props.modifiedStrafeMultiplier);
+    });
+
+    this.connectCodeBlockEvent(this.entity, hz.CodeBlockEvents.OnPlayerExitTrigger, (player) => {
+      var extendedPlayer = new hz.Player(player.id);
+      extendedPlayer.strafeMultiplier.set(this.defaultStrafeMultiplier);
+    });
+  }
+}
+
+hz.Component.register(StrafeMultiplierExample);
+```
+
+**Remarks**
+
+Default value is 0.825. strafeMultiplier must be a value between 0 and 10. `strafeMultiplier.set` can be called on any player from any context, but `strafeMultiplier.get` will throw an error unless it's called from a local script attached to an object owned by the player in question.Using the Orbit, Pan, and Follow camera modes will prevent the user from backpedaling.
+
+### [torso](#torso)
+
+The player's torso.
+
+**Signature**
+
+```ts
+torso: PlayerBodyPart;
+```
+
+### [up](#up)
+
+The player's up direction relative to the world origin.
+
+**Signature**
+
+```ts
+up: ReadableHorizonProperty<Vec3>;
+```
+
+### [velocity](#velocity)
+
+The player's velocity relative to the origin, in meters per second, due to physics and not locomotion input.
+
+**Signature**
+
+```ts
+velocity: HorizonProperty<Vec3>;
+```
+
+## [Methods](#methods)
+
+### [addAvatarOverride(sku)](#addavataroverridesku)
+
+Overrides an avatar item on the player. Previous overrides are kept. Adds the new sku to the top of the existing list of overrides. Does not add if item is already in the list of overrides.
+
+**Signature**
+
+```ts
+addAvatarOverride(sku: string): Promise<boolean>;
+```
+
+**Parameters**
+
+sku: string
+
+Item sku to add
+
+**Returns**
+
+Promise\<boolean>
+
+\- A promise that resolves to true if item is added successfully, false otherwise
+
+**Examples**
+
+```ts
+playerA.addAvatarOverride(sku);
+```
+
+### [applyForce(force)](#applyforceforce)
+
+Applies a force vector to the player.
+
+**Signature**
+
+```ts
+applyForce(force: Vec3): void;
+```
+
+**Parameters**
+
+force: [Vec3](Vec3.md)
+
+The force vector applied to the player's body.
+
+**Returns**
+
+void
+
+### [canApplyAvatarOverride(sku)](#canapplyavataroverridesku)
+
+Checks if an override can be applied to a player with collisions automatically remediated.
+
+**Signature**
+
+```ts
+canApplyAvatarOverride(sku: string): Promise<boolean>;
+```
+
+**Parameters**
+
+sku: string
+
+Item sku to override
+
+**Returns**
+
+Promise\<boolean>
+
+\- A promise that resolves to true if item can be overridden successfully, false otherwise
+
+**Examples**
+
+```ts
+playerA.canApplyAvatarOverride(sku);
+```
+
+### [clearAimAssistTarget()](#clearaimassisttarget)
+
+Disables Aim Assistance for a player by clearing the current target. This method must be called on a local player and doesn't affect VR players.
+
+**Signature**
+
+```ts
+clearAimAssistTarget(): void;
+```
+
+**Returns**
+
+void
+
+**Remarks**
+
+For information about using Aim Assist, see the [Aim Assist guide for web and mobile](../../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Aim%20Assist.md).
+
+### [clearAvatarGripPoseOverride()](#clearavatargripposeoverride)
+
+Clears any override on an avatar grip pose, reverting it to the pose of the currently held grabbable.
+
+**Signature**
+
+```ts
+clearAvatarGripPoseOverride(): void;
+```
+
+**Returns**
+
+void
+
+**Remarks**
+
+For information on overriding an avatar grip pose, see .
+
+### [clearAvatarOverrides()](#clearavataroverrides)
+
+Clears avatar item overrides on the player.
+
+**Signature**
+
+```ts
+clearAvatarOverrides(): void;
+```
+
+**Returns**
+
+void
+
+**Examples**
+
+```ts
+playerA.clearAvatarOverrides();
+```
+
+### [configurePhysicalHands(collideWithDynamicObjects, collideWithStaticObjects)](#configurephysicalhandscollidewithdynamicobjects-collidewithstaticobjects)
+
+Specifies whether physical hands can collide with objects.
+
+**Signature**
+
+```ts
+configurePhysicalHands(collideWithDynamicObjects: boolean, collideWithStaticObjects: boolean): void;
+```
+
+**Parameters**
+
+collideWithDynamicObjects: boolean
+
+Indicates whether physical hands can collide with dynamic objects.
+
+collideWithStaticObjects: boolean
+
+Indicates whether physical hands can collide with static objects.
+
+**Returns**
+
+void
+
+### [enterFocusedInteractionMode(options)](#enterfocusedinteractionmodeoptions)
+
+Enables [Focused Interaction](FocusedInteraction.md) mode for the player.
+
+**Signature**
+
+```ts
+enterFocusedInteractionMode(options?: Partial<FocusedInteractionOptions>): void;
+```
+
+**Parameters**
+
+options: Partial<[FocusedInteractionOptions](../Type%20Aliases/FocusedInteractionOptions.md)>
+
+*(Optional)* The options to customise the state of Focused Interaction mode. The [DefaultFocusedInteractionEnableOptions](../Variables/DefaultFocusedInteractionEnableOptions.md) variable defines the default values.
+
+**Returns**
+
+void
+
+**Remarks**
+
+This method must be called on a local player and has no effect on VR players.Focused Interaction mode replaces on-screen controls on web and mobile clients with touch and mouse input that includes direct input access.The [Player.exitFocusedInteractionMode()](Player.md#exitfocusedinteractionmode) method disables Focused Interaction mode.When Focused Interaction mode is enabled, you can receive input data from the [PlayerControls.onFocusedInteractionInputStarted](PlayerControls.md#onfocusedinteractioninputstarted), [PlayerControls.onFocusedInteractionInputMoved](PlayerControls.md#onfocusedinteractioninputmoved), and [PlayerControls.onFocusedInteractionInputEnded](PlayerControls.md#onfocusedinteractioninputended) events.For more information, see the [Focused Interaction guide](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-use-focused-interaction).
+
+### [exitFocusedInteractionMode()](#exitfocusedinteractionmode)
+
+Disables [Focused Interaction](FocusedInteraction.md) mode for the player.
+
+**Signature**
+
+```ts
+exitFocusedInteractionMode(): void;
+```
+
+**Returns**
+
+void
+
+**Remarks**
+
+This method must be called on a local player and has no effect on VR players.[Player.enterFocusedInteractionMode()](Player.md#enterfocusedinteractionmode) enables Focused Interaction mode.When Focused Interaction mode is enabled, you can receive input data from the [PlayerControls.onFocusedInteractionInputStarted](PlayerControls.md#onfocusedinteractioninputstarted), [PlayerControls.onFocusedInteractionInputMoved](PlayerControls.md#onfocusedinteractioninputmoved), and [PlayerControls.onFocusedInteractionInputEnded](PlayerControls.md#onfocusedinteractioninputended) events.For more information, see the [Focused Interaction guide](https://developers.meta.com/horizon-worlds/learn/documentation/create-for-web-and-mobile/references-and-guides/how-to-use-focused-interaction).
+
+### [focusUI(selectable, options)](#focusuiselectable-options)
+
+Focuses the player's camera on the given selectable entity in the world, such as a custom UI. This method only affects web and mobile clients.
+
+**Signature**
+
+```ts
+focusUI(selectable: Entity, options?: FocusUIOptions): void;
+```
+
+**Parameters**
+
+selectable: [Entity](Entity.md)
+
+The selectable entity to focus on.
+
+options: [FocusUIOptions](../Type%20Aliases/FocusUIOptions.md)
+
+*(Optional)* The options to apply to, such as settings for the camera view and animation transitions.
+
+**Returns**
+
+void
+
+**Remarks**
+
+You can use this method along with the method to manage the camera focus when creating a custom [UI component](../../ui/Abstract%20Classes/UIComponent.md). For more information about creating custom UI components, see the [Custom UI panel](../../../Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) guide.
+
+### [getAvatarOverrides()](#getavataroverrides)
+
+Gets the avatar item overrides on the player.
+
+**Signature**
+
+```ts
+getAvatarOverrides(): Array<string>;
+```
+
+**Returns**
+
+Array\<string>
+
+\- An Array of Item skus
+
+**Examples**
+
+```ts
+playerA.getAvatarOverrides();
+```
+
+### [getAvatarTraits()](#getavatartraits)
+
+Returns any available item traits associated with the player's avatar.
+
+**Signature**
+
+```ts
+getAvatarTraits(): string;
+```
+
+**Returns**
+
+string
+
+a JSON formatted-string with an array of objects for each item's traits
+
+**Examples**
+
+```ts
+playerA.getAvatarTraits();
+```
+
+### [hasCompletedAchievement(achievementScriptID)](#hascompletedachievementachievementscriptid)
+
+Indicates whether a player has completed an achievement.
+
+**Signature**
+
+```ts
+hasCompletedAchievement(achievementScriptID: string): boolean;
+```
+
+**Parameters**
+
+achievementScriptID: string
+
+The scriptID of the achievement. This can be accessed and set on the Achievements page in the VR creator UI.
+
+**Returns**
+
+boolean
+
+`true` if the player has the achievement, `false` otherwise.
+
+**Examples**
+
+var WonAGameAchievementScriptID = "wonAGame" var hasAchievement = player.hasCompletedAchievement(WonAGameAchievementScriptID)
+
+### [jump()](#jump)
+
+Issues a jump command.
+
+**Signature**
+
+```ts
+jump(): Promise<LocomotionResult>;
+```
+
+**Returns**
+
+Promise<[LocomotionResult](../Enumerations/LocomotionResult.md)>
+
+A promise describing how the jump ended.
+
+### [moveToPosition(position, options)](#movetopositionposition-options)
+
+Issues a movement command to the player. Issuing a new move or follow command cancels any previous move command.
+
+**Signature**
+
+```ts
+moveToPosition(position: Vec3, options?: LocomotionOptions): Promise<LocomotionResult>;
+```
+
+**Parameters**
+
+position: [Vec3](Vec3.md)
+
+The desired destination.
+
+options: [LocomotionOptions](../Type%20Aliases/LocomotionOptions.md)
+
+*(Optional)* Optional parameters.
+
+**Returns**
+
+Promise<[LocomotionResult](../Enumerations/LocomotionResult.md)>
+
+\- A promise describing how the locomotion ended.
+
+### [moveToPositions(path, options)](#movetopositionspath-options)
+
+Issues a movement command along a path. Issuing a new move or follow command cancels any previous move command.
+
+**Signature**
+
+```ts
+moveToPositions(path: Array<Vec3>, options?: LocomotionOptions): Promise<LocomotionResult>;
+```
+
+**Parameters**
+
+path: Array<[Vec3](Vec3.md)>
+
+An array of points to follow, in order.
+
+options: [LocomotionOptions](../Type%20Aliases/LocomotionOptions.md)
+
+*(Optional)* Optional parameters
+
+**Returns**
+
+Promise<[LocomotionResult](../Enumerations/LocomotionResult.md)>
+
+\- A promise describing how the locomotion ended.
+
+### [playAvatarAnimation(animation, options)](#playavataranimationanimation-options)
+
+Plays an animation asset on the player's avatar one time.
+
+**Signature**
+
+```ts
+playAvatarAnimation(animation: Asset, options?: PlayAnimationOptions): void;
+```
+
+**Parameters**
+
+animation: [Asset](Asset.md)
+
+options: [PlayAnimationOptions](../Type%20Aliases/PlayAnimationOptions.md)
+
+*(Optional)* The options that control how to play the animation.
+
+**Returns**
+
+void
+
+**Remarks**
+
+This method allows you to use custom animations for player avatars and access callbacks that allow your scripts to respond when the animation starts and stops.
+
+### [playAvatarAnimationLocomotion(options)](#playavataranimationlocomotionoptions)
+
+Plays animations on the avatar as if locomoting according to the given options.
+
+**Signature**
+
+```ts
+playAvatarAnimationLocomotion(options?: PlayAnimationLocomotionOptions): void;
+```
+
+**Parameters**
+
+options: [PlayAnimationLocomotionOptions](../Type%20Aliases/PlayAnimationLocomotionOptions.md)
+
+*(Optional)* The options that control how to play the animation.
+
+**Returns**
+
+void
+
+**Remarks**
+
+This method allows you to animate the avatar as if locomoting a certain way.
+
+### [playAvatarGripPoseAnimationByName(avatarGripPoseAnimationName, options)](#playavatargripposeanimationbynameavatargripposeanimationname-options)
+
+Triggers an [AvatarGripPose](../Enumerations/AvatarGripPose.md) animation by name, one time.
+
+**Signature**
+
+```ts
+playAvatarGripPoseAnimationByName(avatarGripPoseAnimationName: string, options?: PlayAvatarGripPoseAnimationOptions): void;
+```
+
+**Parameters**
+
+avatarGripPoseAnimationName: string
+
+The avatar grip pose animation to play.
+
+options: [PlayAvatarGripPoseAnimationOptions](../Type%20Aliases/PlayAvatarGripPoseAnimationOptions.md)
+
+*(Optional)* The optional parameters that influence how the animation is handled.
+
+**Returns**
+
+void
+
+**Examples**
+
+```ts
+player.playAvatarGripPoseAnimationByName(AvatarGripPoseAnimationNames.Fire, {callback: (reason: hz.AnimationCallbackReasons) => {}});
+```
+
+**Remarks**
+
+For more information about using this method, see the [Player Animations](../../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Player%20Animations.md) guide.
+
+### [removeAvatarOverride(sku)](#removeavataroverridesku)
+
+Removes an avatar item override on the player.
+
+**Signature**
+
+```ts
+removeAvatarOverride(sku: string): boolean;
+```
+
+**Parameters**
+
+sku: string
+
+Item sku to remove
+
+**Returns**
+
+boolean
+
+\- true if item is removed successfully, false otherwise. Will also return true if item was not in the list of overrides.
+
+**Examples**
+
+```ts
+playerA.removeAvatarOverride(sku);
+```
+
+### [rotateBy(angle, options)](#rotatebyangle-options)
+
+Issues a rotation command to rotate the NPC by a given angle in degrees. Issuing a new rotate command cancels any previous rotate command.
+
+**Signature**
+
+```ts
+rotateBy(angle: number, options?: RotationOptions): Promise<LocomotionResult>;
+```
+
+**Parameters**
+
+angle: number
+
+The desired angle change in degrees.
+
+options: [RotationOptions](../Type%20Aliases/RotationOptions.md)
+
+*(Optional)* Optional parameters.
+
+**Returns**
+
+Promise<[LocomotionResult](../Enumerations/LocomotionResult.md)>
+
+\- A promise describing how the rotation ended.
+
+### [rotateTo(direction, options)](#rotatetodirection-options)
+
+Issues a rotation command to change the direction the player faces. Issuing a new rotate command cancels any previous rotate command.
+
+**Signature**
+
+```ts
+rotateTo(direction: Vec3, options?: RotationOptions): Promise<LocomotionResult>;
+```
+
+**Parameters**
+
+direction: [Vec3](Vec3.md)
+
+The desired facing direction.
+
+options: [RotationOptions](../Type%20Aliases/RotationOptions.md)
+
+*(Optional)* Optional parameters.
+
+**Returns**
+
+Promise<[LocomotionResult](../Enumerations/LocomotionResult.md)>
+
+\- A promise describing how the rotation ended.
+
+### [setAchievementComplete(achievementScriptID, complete)](#setachievementcompleteachievementscriptid-complete)
+
+Specifies whether the player's achievement is complete.
+
+**Signature**
+
+```ts
+setAchievementComplete(achievementScriptID: string, complete: boolean): void;
+```
+
+**Parameters**
+
+achievementScriptID: string
+
+The scriptID of the achievement. This can be accessed/set on the Achievements page in the VR creator UI.
+
+complete: boolean
+
+`true` sets the achievement to complete; `false` sets the achievement to incomplete.
+
+**Returns**
+
+void
+
+**Examples**
+
+```ts
+var WonAGameAchievementScriptID = "wonAGame"
+player.setAchievementComplete(WonAGameAchievementScriptID, true)
+```
+
+### [setAimAssistTarget(target, options)](#setaimassisttargettarget-options)
+
+Enables Aim Assistance on a target. This generates a force pulling the cursor towards a target when the aim cursor approaches it.
+
+**Signature**
+
+```ts
+setAimAssistTarget(target: Player | Entity | Vec3, options?: AimAssistOptions): void;
+```
+
+**Parameters**
+
+target: [Player](Player.md) | [Entity](Entity.md) | [Vec3](Vec3.md)
+
+The target that receives Aim Assistance.
+
+options: [AimAssistOptions](../Type%20Aliases/AimAssistOptions.md)
+
+*(Optional)* The options to use when applying Aim Assistance.
+
+**Returns**
+
+void
+
+**Remarks**
+
+This method must be called on a local player and has no effect on VR players.
+
+### [setAvatarGripPoseOverride(avatarGripPose)](#setavatargripposeoverrideavatargrippose)
+
+Overrides the existing HWXS avatar grip type, which is determined by the currently held grabbable.
+
+**Signature**
+
+```ts
+setAvatarGripPoseOverride(avatarGripPose: AvatarGripPose): void;
+```
+
+**Parameters**
+
+avatarGripPose: [AvatarGripPose](../Enumerations/AvatarGripPose.md)
+
+The new pose to apply. This persists until cleared or another grip override is set. For information on clearing an override, see .
+
+**Returns**
+
+void
+
+### [setAvatarOverrides(skus)](#setavataroverridesskus)
+
+Overrides avatar items on the player. Previous overrides are overwritten. Overrides of a different style (Such as a Fantastical avatar) will replace the user's Stylized avatar fully. If there are multiple skus for the same slot (eg top), priority is given to the first one in the array. Create Avatar items in the [creator portal⁠](https://horizon.meta.com/creator/avatars)
+
+**Signature**
+
+```ts
+setAvatarOverrides(skus: Array<string>): Promise<boolean>;
+```
+
+**Parameters**
+
+skus: Array\<string>
+
+Array of Item skus to override
+
+**Returns**
+
+Promise\<boolean>
+
+\- A promise that resolves to true if items are added successfully, false otherwise
+
+**Examples**
+
+```ts
+playerA.setAvatarOverrides([sku, anotherSku]);
+```
+
+### [setMobileInputStyleAlwaysSprint()](#setmobileinputstylealwayssprint)
+
+Sets Mobile Input control types to make the player sprint with minimal input on the joystickThe Threshold for sprinting is set at an input magnitude of 0.05This will provide a more responsive feel for fast-paced action oriented worldsHas no effect if set for a Player on VR or Web player Must be run on a local player
+
+**Signature**
+
+```ts
+setMobileInputStyleAlwaysSprint(): void;
+```
+
+**Returns**
+
+void
+
+**Examples**
+
+```ts
+start() {
+  const owner = this.owner.get();
+	 if (owner.id != this.world.serverPlayer.get().id) {
+    var player = new hz.Player(this.entity.owner.get().id);
+    player?.setMobileInputStyleAlwaysSprint();
+  }
+}
+```
+
+### [setMobileInputStyleComfortable(walkThreshold, runThreshold, sprintThreshold)](#setmobileinputstylecomfortablewalkthreshold-runthreshold-sprintthreshold)
+
+Sets Mobile Input control types to a stepped curve This provides a more responsive feel to mobile players by using 1 of 3 specific movement magnitudes (walk/run/sprint)This allows players to have more fine control on tricky obstacles or small areas they might want to explore e.g. a lobby, or for navigation tightropes in a platforming game.Has no effect if set for a Player on VR or Web Must be run on a local player
+
+**Signature**
+
+```ts
+setMobileInputStyleComfortable(walkThreshold?: number, runThreshold?: number, sprintThreshold?: number): void;
+```
+
+**Parameters**
+
+walkThreshold: number
+
+*(Optional)* default 0.05
+
+runThreshold: number
+
+*(Optional)* default 0.4
+
+sprintThreshold: number
+
+*(Optional)* default 0.95
+
+**Returns**
+
+void
+
+**Examples**
+
+```ts
+start() {
+  const owner = this.owner.get();
+	 if (owner.id != this.world.serverPlayer.get().id) {
+    var player = new hz.Player(this.entity.owner.get().id);
+    player?.setMobileInputStyleComfortable();
+  }
+}
+```
+
+### [setMobileInputStyleDefault()](#setmobileinputstyledefault)
+
+Sets Mobile Input control types to the default style This uses a linear gradient for speed relative to the joystick magnitude Has no effect if set for a Player on VR or Web Must be run on a local player
+
+**Signature**
+
+```ts
+setMobileInputStyleDefault(): void;
+```
+
+**Returns**
+
+void
+
+**Examples**
+
+```ts
+start() {
+  const owner = this.owner.get();
+	 if (owner.id != this.world.serverPlayer.get().id) {
+    var player = new hz.Player(this.entity.owner.get().id);
+    player?.setMobileInputStyleDefault();
+  }
+}
+```
+
+### [setVoipSetting(setting)](#setvoipsettingsetting)
+
+Sets the VOIP setting for the player.
+
+**Signature**
+
+```ts
+setVoipSetting(setting: VoipSetting): void;
+```
+
+**Parameters**
+
+setting: [VoipSetting](../Type%20Aliases/VoipSetting.md)
+
+The VOIP setting to use.
+
+**Returns**
+
+void
+
+### [showInfoSlides(slides)](#showinfoslidesslides)
+
+Shows info slides carousel for player.
+
+**Signature**
+
+```ts
+showInfoSlides(slides: InfoSlide[]): void;
+```
+
+**Parameters**
+
+slides: [InfoSlide](../Type%20Aliases/InfoSlide.md)\[]
+
+customized info slides that will be shown to the player
+
+**Returns**
+
+void
+
+### [showInputActionMessage(inputAction, message, duration)](#showinputactionmessageinputaction-message-duration)
+
+Initiates an attention-grabbing animation and displays a message above the on-screen button for a specified player input action. This is useful for button tooltips in timed action prompts and tutorials.
+
+**Signature**
+
+```ts
+showInputActionMessage(inputAction: PlayerInputAction, message: i18n_utils.LocalizableText | string, duration?: number): void;
+```
+
+**Parameters**
+
+inputAction: [PlayerInputAction](../Enumerations/PlayerInputAction.md)
+
+action for which we should show the NUX animation and message
+
+message: i18n\_utils.LocalizableText | string
+
+localizable message that should be shown above the action button
+
+duration: number
+
+*(Optional)* duration in milliseconds for how long the message should be shown
+
+**Returns**
+
+void
+
+**Remarks**
+
+Mobile only.
+
+### [showToastMessage(message, duration)](#showtoastmessagemessage-duration)
+
+Shows the toast message at the top of the screen.
+
+**Signature**
+
+```ts
+showToastMessage(message: i18n_utils.LocalizableText | string, duration?: number): void;
+```
+
+**Parameters**
+
+message: i18n\_utils.LocalizableText | string
+
+localizable message that should be shown above the action button
+
+duration: number
+
+*(Optional)* duration in milliseconds for how long the message should be shown
+
+**Returns**
+
+void
+
+### [stopAvatarAnimation(options)](#stopavataranimationoptions)
+
+Stops any avatar animation asset that is playing.
+
+**Signature**
+
+```ts
+stopAvatarAnimation(options?: StopAnimationOptions): void;
+```
+
+**Parameters**
+
+options: [StopAnimationOptions](../Type%20Aliases/StopAnimationOptions.md)
+
+*(Optional)* The options that control the animation.
+
+**Returns**
+
+void
+
+**Remarks**
+
+The [Player.stopAvatarAnimation()](Player.md#stopavataranimation) method is used to play custom avatar animations.
+
+### [stopAvatarAnimationLocomotion()](#stopavataranimationlocomotion)
+
+Stops any avatar animation locomotion overridden via the [Player.playAvatarAnimationLocomotion()](Player.md#playavataranimationlocomotion) method.
+
+**Signature**
+
+```ts
+stopAvatarAnimationLocomotion(): void;
+```
+
+**Returns**
+
+void
+
+### [stopMovement()](#stopmovement)
+
+Stops any movement in progress.
+
+**Signature**
+
+```ts
+stopMovement(): void;
+```
+
+**Returns**
+
+void
+
+### [throwHeldItem(options)](#throwhelditemoptions)
+
+Attempts throws the item held in the specified hand.
+
+**Signature**
+
+```ts
+throwHeldItem(options?: Partial<ThrowOptions>): void;
+```
+
+**Parameters**
+
+options: Partial<[ThrowOptions](../Type%20Aliases/ThrowOptions.md)>
+
+*(Optional)* Options to adjust the throwing speed, yaw, pitch, and animation.
+
+**Returns**
+
+void
+
+### [toString()](#tostring)
+
+Creates a human-readable representation of the player.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
+string
+
+A string representation of the player.
+
+### [unfocusUI()](#unfocusui)
+
+Removes focus from any in-world UI the player's camera is currently [focused](Player.md#focusui) on. This method only affects web and mobile clients.
+
+**Signature**
+
+```ts
+unfocusUI(): void;
+```
+
+**Returns**
+
+void
+
+**Remarks**
+
+You can use this method along with the [Player.focusUI()](Player.md#focusui) method to manage the camera focus when creating a custom [UI component](../../ui/Abstract%20Classes/UIComponent.md). For more information about creating custom UI components, see the [Custom UI panel](../../../Desktop%20editor/Custom%20UI/Create%20a%20custom%20UI%20panel.md) guide.
+

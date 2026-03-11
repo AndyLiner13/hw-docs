@@ -8,13 +8,8 @@ The view modes for cameras.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-CameraMode
- 
+```ts
+export declare enum CameraMode 
 ```
 
 ## [Enumeration Members](#enumeration-members)

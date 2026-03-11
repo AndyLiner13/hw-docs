@@ -8,28 +8,10 @@ The options for the [Player.playAvatarAnimationLocomotion()](../Classes/Player.m
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PlayAnimationLocomotionOptions
- 
-=
- 
-{
-
-    simulatedVelocity
-?:
- 
-Vec3
-;
-
-    falling
-?:
- 
-boolean
-;
-
-
+```ts
+export declare type PlayAnimationLocomotionOptions = {
+    simulatedVelocity?: Vec3;
+    falling?: boolean;
 };
 ```
 

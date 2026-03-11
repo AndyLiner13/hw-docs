@@ -8,13 +8,8 @@ Indicates whether a method or object operates in local or global scope.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-Space
- 
+```ts
+export declare enum Space 
 ```
 
 ## [Enumeration Members](#enumeration-members)

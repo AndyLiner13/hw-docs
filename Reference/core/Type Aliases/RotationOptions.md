@@ -8,26 +8,10 @@ The options that can be specified when issuing a rotation command to an NPC.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-RotationOptions
- 
-=
- 
-{
-
-    rotationSpeed
-?:
- number
-;
-
-    rotationTime
-?:
- number
-;
-
-
+```ts
+export declare type RotationOptions = {
+    rotationSpeed?: number;
+    rotationTime?: number;
 };
 ```
 

@@ -8,18 +8,7 @@ A payload sent by the `OnGameRoundEndForPlayers` multi-player [event](../Variabl
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-GameRoundEndForPlayersPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnGameRoundEndForPlayers
->;
+```ts
+export declare type GameRoundEndForPlayersPayload = FullTurboEventPayload<typeof OnGameRoundEndForPlayers>;
 ```
 

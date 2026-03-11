@@ -13,22 +13,9 @@ A [CameraMovementPreset](CameraMovementPreset.md) option that provides a third-p
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ThirdPersonOverShoulderCameraMovementPreset
- 
-=
- 
-{
-
-    strategy
-:
- 
-'ThirdPersonOverShoulder'
-;
-
-
+```ts
+export declare type ThirdPersonOverShoulderCameraMovementPreset = {
+    strategy: 'ThirdPersonOverShoulder';
 };
 ```
 

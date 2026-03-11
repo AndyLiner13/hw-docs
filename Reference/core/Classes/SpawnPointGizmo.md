@@ -10,66 +10,79 @@ A Spawn Point gizmo, which you can use to teleport players to a location in a wo
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-SpawnPointGizmo
- 
-extends
- 
-Entity
- 
+```ts
+export declare class SpawnPointGizmo extends Entity 
 ```
 
 ## [Remarks](#remarks)
 
-For more information about using the Spawn Point gizmo, see [Spawn Points](../../../Tutorials/Feature%20samples/Multiplayer%20lobby%20tutorial/Module%205%20-%20Entering%20the%20Match.md) guide.
+For more information about using the Spawn Point gizmo, see [Spawn Points](https://developers.meta.com/horizon-worlds/learn/documentation/tutorials/multiplayer-lobby-tutorial/module-5-entering-the-match) guide.
 
 ## [Properties](#properties)
 
-|             |                                                                  |
-| ----------- | ---------------------------------------------------------------- |
-| **gravity** | The gravity for players spawned using this gizmo.Signature\`\`\` |
-| gravity     |                                                                  |
-| :           |                                                                  |
+### [gravity](#gravity)
 
-HorizonProperty <number></number>
-;
+The gravity for players spawned using this gizmo.
 
-````RemarksRange = (0, 9.81) |
-| **speed**   | The speed for players spawned using this gizmo.Signature```
-speed
-:
- 
-HorizonProperty
-<number>
-;
-```RemarksRange = (0, 45)       |
+**Signature**
+
+```ts
+gravity: HorizonProperty<number>;
+```
+
+**Remarks**
+
+Range = (0, 9.81)
+
+### [speed](#speed)
+
+The speed for players spawned using this gizmo.
+
+**Signature**
+
+```ts
+speed: HorizonProperty<number>;
+```
+
+**Remarks**
+
+Range = (0, 45)
 
 ## [Methods](#methods)
 
-|                            |                                                                                                                                                                              |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **teleportPlayer(player)** | Teleports a player to the spawn point.Signature```
-teleportPlayer
-(
-player
-:
- 
-Player
-):
- 
+### [teleportPlayer(player)](#teleportplayerplayer)
+
+Teleports a player to the spawn point.
+
+**Signature**
+
+```ts
+teleportPlayer(player: Player): void;
+```
+
+**Parameters**
+
+player: [Player](Player.md)
+
+The player to teleport.
+
+**Returns**
+
 void
-;
-```Parametersplayer: [Player](Player.md)The player to teleport.Returnsvoid |
-| **toString()**             | Creates a human-readable representation of the SpawnPointGizmo.Signature```
-toString
-():
- 
+
+### [toString()](#tostring)
+
+Creates a human-readable representation of the SpawnPointGizmo.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-;
-```ReturnsstringA string representation of the `SpawnPointGizmo`.        |
-````
+
+A string representation of the `SpawnPointGizmo`.
 

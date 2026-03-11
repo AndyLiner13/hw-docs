@@ -13,39 +13,12 @@ The options for the method.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-StartVideoCaptureOptions
- 
-=
- 
-{
-
-    cameraMovementPreset
-?:
- 
-CameraMovementPreset
-;
-
-    duration
-:
- number
-;
-
-    saveOnDurationReached
-:
- 
-boolean
-;
-
-    notifications
-:
- 
-VideoCaptureNotifications
-;
-
-
+```ts
+export declare type StartVideoCaptureOptions = {
+    cameraMovementPreset?: CameraMovementPreset;
+    duration: number;
+    saveOnDurationReached: boolean;
+    notifications: VideoCaptureNotifications;
 };
 ```
 

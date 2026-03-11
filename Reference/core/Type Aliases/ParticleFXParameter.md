@@ -8,33 +8,10 @@ ParticleFXParameter joins name and value for batch setter call
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ParticleFXParameter
-<
-T 
-extends
- 
-VFXParameterType
->
- 
-=
- 
-{
-
-    name
-:
- 
-string
-;
-
-    value
-:
- T
-;
-
-
+```ts
+export declare type ParticleFXParameter<T extends VFXParameterType> = {
+    name: string;
+    value: T;
 };
 ```
 

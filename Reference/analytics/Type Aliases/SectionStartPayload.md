@@ -8,18 +8,7 @@ A payload sent by the `OnSectionStart` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-SectionStartPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnSectionStart
->;
+```ts
+export declare type SectionStartPayload = FullTurboEventPayload<typeof OnSectionStart>;
 ```
 

@@ -8,11 +8,8 @@ The default values for the [FocusedInteractionTrailOptions](../Type%20Aliases/Fo
 
 ## [Signature](#signature)
 
-```
-DefaultFocusedInteractionTrailOptions
-:
- 
-FocusedInteractionTrailOptions
+```ts
+DefaultFocusedInteractionTrailOptions: FocusedInteractionTrailOptions
 ```
 
 ## [Remarks](#remarks)

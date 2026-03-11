@@ -8,51 +8,9 @@ The base type of a [component](../Abstract%20Classes/Component.md) that takes a 
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ComponentWithConstructor
-<
-TPropsDefinition
-,
- S 
-extends
- 
-SerializableState
- 
-=
- 
-SerializableState
->
- 
-=
- 
-ComponentWithoutConstructor
-<
-TPropsDefinition
->
- 
-&
- 
-{
-
-    
-new
- 
-():
- 
-Component
-<
-ComponentWithConstructor
-<
-TPropsDefinition
-,
- S
->,
- S
->;
-
-
+```ts
+export declare type ComponentWithConstructor<TPropsDefinition, S extends SerializableState = SerializableState> = ComponentWithoutConstructor<TPropsDefinition> & {
+    new (): Component<ComponentWithConstructor<TPropsDefinition, S>, S>;
 };
 ```
 

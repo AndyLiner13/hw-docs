@@ -8,18 +8,8 @@ Converts radians to degrees.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-function
- radiansToDegrees
-(
-radians
-:
- number
-):
- number
-;
+```ts
+export declare function radiansToDegrees(radians: number): number;
 ```
 
 ## [Parameters](#parameters)

@@ -8,18 +8,7 @@ A payload sent by the `OnRoundEnd` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-RoundEndPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnRoundEnd
->;
+```ts
+export declare type RoundEndPayload = FullTurboEventPayload<typeof OnRoundEnd>;
 ```
 

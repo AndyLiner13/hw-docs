@@ -10,17 +10,8 @@ Represents an In-World Item gizmo in the world.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-class
- 
-IWPSellerGizmo
- 
-extends
- 
-Entity
- 
+```ts
+export declare class IWPSellerGizmo extends Entity 
 ```
 
 ## [Remarks](#remarks)
@@ -29,103 +20,151 @@ For information about usage, see the [In-world purchase](../../../MHCP%20program
 
 ## [Methods](#methods)
 
-|                                        |                                                                  |
-| -------------------------------------- | ---------------------------------------------------------------- |
-| **consumeItemForPlayer(player, item)** | Consumes the specified item for the given player.Signature\`\`\` |
-| consumeItemForPlayer                   |                                                                  |
-| (                                      |                                                                  |
-| player                                 |                                                                  |
-| :                                      |                                                                  |
+### [consumeItemForPlayer(player, item)](#consumeitemforplayerplayer-item)
 
-Player
-,
-item
-:
+Consumes the specified item for the given player.
 
-string
-):
+**Signature**
+
+```ts
+consumeItemForPlayer(player: Player, item: string): void;
+```
+
+**Parameters**
+
+player: [Player](Player.md)
+
+The player that's authorized to use the item.
+
+item: string
+
+The item the player is authorized to use.
+
+**Returns**
 
 void
-;
 
-````Parametersplayer: [Player](Player.md)The player that's authorized to use the item.item: stringThe item the player is authorized to use.Returnsvoid                                                                                                                                                                                                                                                               |
-| **playerHasConsumedItem(player, item)**                   | Indicates whether a player used a specific item.Signature```
-playerHasConsumedItem
-(
-player
-:
- 
-Player
-,
- item
-:
- 
-string
-):
- 
+### [playerHasConsumedItem(player, item)](#playerhasconsumeditemplayer-item)
+
+Indicates whether a player used a specific item.
+
+**Signature**
+
+```ts
+playerHasConsumedItem(player: Player, item: string): boolean;
+```
+
+**Parameters**
+
+player: [Player](Player.md)
+
+The player to query.
+
+item: string
+
+The item to query.
+
+**Returns**
+
 boolean
-;
-```Parametersplayer: [Player](Player.md)The player to query.item: stringThe item to query.Returnsbooleantrue if player consumed the item, false otherwise.                                                                                                                                                                                                                                                       |
-| **playerOwnsItem(player, item)**                          | Indicates whether the player has an entitlement for the given item.Signature```
-playerOwnsItem
-(
-player
-:
- 
-Player
-,
- item
-:
- 
-string
-):
- 
+
+true if player consumed the item, false otherwise.
+
+### [playerOwnsItem(player, item)](#playerownsitemplayer-item)
+
+Indicates whether the player has an entitlement for the given item.
+
+**Signature**
+
+```ts
+playerOwnsItem(player: Player, item: string): boolean;
+```
+
+**Parameters**
+
+player: [Player](Player.md)
+
+The player to query.
+
+item: string
+
+The item to query.
+
+**Returns**
+
 boolean
-;
-```Parametersplayer: [Player](Player.md)The player to query.item: stringThe item to query.ReturnsbooleanTrue if player has an entitlement for the item, false otherwise.                                                                                                                                                                                                                             |
-| **quantityPlayerOwns(player, item)**                      | Gets the number of the items the player has entitlements for.Signature```
-quantityPlayerOwns
-(
-player
-:
- 
-Player
-,
- item
-:
- 
+
+True if player has an entitlement for the item, false otherwise.
+
+### [quantityPlayerOwns(player, item)](#quantityplayerownsplayer-item)
+
+Gets the number of the items the player has entitlements for.
+
+**Signature**
+
+```ts
+quantityPlayerOwns(player: Player, item: string): number;
+```
+
+**Parameters**
+
+player: [Player](Player.md)
+
+The player to query.
+
+item: string
+
+The item to query.
+
+**Returns**
+
+number
+
+The number of the items the player has entitlements for.
+
+### [timeSincePlayerConsumedItem(player, item, timeOption)](#timesinceplayerconsumeditemplayer-item-timeoption)
+
+Gets the time since the player consumed the given item.
+
+**Signature**
+
+```ts
+timeSincePlayerConsumedItem(player: Player, item: string, timeOption: MonetizationTimeOption): number;
+```
+
+**Parameters**
+
+player: [Player](Player.md)
+
+The player that consumed the item.
+
+item: string
+
+The item the player consumed.
+
+timeOption: [MonetizationTimeOption](../Enumerations/MonetizationTimeOption.md)
+
+The time units since the player purchased the item and the item was consumed.
+
+**Returns**
+
+number
+
+The number of `timeOption` units since player consumed the item.
+
+### [toString()](#tostring)
+
+Creates a human-readable representation of the gizmo.
+
+**Signature**
+
+```ts
+toString(): string;
+```
+
+**Returns**
+
 string
-):
- number
-;
-```Parametersplayer: [Player](Player.md)The player to query.item: stringThe item to query.ReturnsnumberThe number of the items the player has entitlements for.                                                                                                                                                                                                                                          |
-| **timeSincePlayerConsumedItem(player, item, timeOption)** | Gets the time since the player consumed the given item.Signature```
-timeSincePlayerConsumedItem
-(
-player
-:
- 
-Player
-,
- item
-:
- 
-string
-,
- timeOption
-:
- 
-MonetizationTimeOption
-):
- number
-;
-```Parametersplayer: [Player](Player.md)The player that consumed the item.item: stringThe item the player consumed.timeOption: [MonetizationTimeOption](../Enumerations/MonetizationTimeOption.md)The time units since the player purchased the item and the item was consumed.ReturnsnumberThe number of `timeOption` units since player consumed the item. |
-| **toString()**                                            | Creates a human-readable representation of the gizmo.Signature```
-toString
-():
- 
-string
-;
-```ReturnsstringA string representation of the gizmo.                                                                                                                                                                                                                                                                                                                                                                                                           |
-````
+
+A string representation of the gizmo.
 

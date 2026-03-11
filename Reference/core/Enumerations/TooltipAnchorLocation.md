@@ -8,13 +8,8 @@ The location where a tooltip is anchored.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-TooltipAnchorLocation
- 
+```ts
+export declare enum TooltipAnchorLocation 
 ```
 
 ## [Enumeration Members](#enumeration-members)

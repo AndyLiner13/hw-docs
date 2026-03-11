@@ -8,25 +8,10 @@ An animation event of the NetworkEvent type.
 
 ## [Signature](#signature)
 
-```
-unityAnimationEvent
-:
- 
-NetworkEvent
-<{
-
-    eventName
-:
- 
-string
-;
-
-    entityId
-:
- bigint
-;
-
-
+```ts
+unityAnimationEvent: NetworkEvent<{
+    eventName: string;
+    entityId: bigint;
 }>
 ```
 

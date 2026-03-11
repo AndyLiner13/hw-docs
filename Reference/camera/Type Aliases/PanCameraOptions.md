@@ -8,27 +8,10 @@ Available options when applying a pan camera.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-PanCameraOptions
- 
-=
- 
-{
-
-    positionOffset
-?:
- 
-Vec3
-;
-
-    translationSpeed
-?:
- number
-;
-
-
+```ts
+export declare type PanCameraOptions = {
+    positionOffset?: Vec3;
+    translationSpeed?: number;
 };
 ```
 

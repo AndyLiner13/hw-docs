@@ -8,30 +8,7 @@ A valid value type for an [EventData](EventData.md) object.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-EventValueType
- 
-=
- 
-string
- 
-|
- number 
-|
- 
-boolean
- 
-|
- hz
-.
-Vec3
- 
-|
- 
-Array
-<string>
-;
+```ts
+export declare type EventValueType = string | number | boolean | hz.Vec3 | Array<string>;
 ```
 

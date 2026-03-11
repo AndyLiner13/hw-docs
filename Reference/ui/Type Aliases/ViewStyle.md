@@ -8,111 +8,18 @@ Represents the styles of a [View()](../Functions/View.md) component on a UI pane
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ViewStyle
- 
-=
- 
-LayoutStyle
- 
-&
- 
-BorderStyle
- 
-&
- 
-ShadowStyle
- 
-&
- 
-TransformStyle
- 
-&
- 
-{
-
-    backgroundColor
-?:
- 
-Bindable
-<
-ColorValue
->;
-
-    backgroundClip
-?:
- 
-'border-box'
- 
-|
- 
-'padding-box'
-;
-
-    opacity
-?:
- 
-Bindable
-<number>
-;
-
-    gradientColorA
-?:
- 
-Bindable
-<
-ColorValue
->;
-
-    gradientColorB
-?:
- 
-Bindable
-<
-ColorValue
->;
-
-    gradientXa
-?:
- number 
-|
- 
-string
-;
-
-    gradientYa
-?:
- number 
-|
- 
-string
-;
-
-    gradientXb
-?:
- number 
-|
- 
-string
-;
-
-    gradientYb
-?:
- number 
-|
- 
-string
-;
-
-    gradientAngle
-?:
- 
-string
-;
-
-
+```ts
+export declare type ViewStyle = LayoutStyle & BorderStyle & ShadowStyle & TransformStyle & {
+    backgroundColor?: Bindable<ColorValue>;
+    backgroundClip?: 'border-box' | 'padding-box';
+    opacity?: Bindable<number>;
+    gradientColorA?: Bindable<ColorValue>;
+    gradientColorB?: Bindable<ColorValue>;
+    gradientXa?: number | string;
+    gradientYa?: number | string;
+    gradientXb?: number | string;
+    gradientYb?: number | string;
+    gradientAngle?: string;
 };
 ```
 

@@ -8,34 +8,10 @@ ParticleFXSetParametersOptions is a composite object for setting multiple parame
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ParticleFXSetParametersOptions
- 
-=
- 
-{
-
-    players
-?:
- 
-Array
-<
-Player
->;
-
-    parameters
-:
- 
-Array
-<
-ParticleFXParameter
-<
-VFXParameterType
->>;
-
-
+```ts
+export declare type ParticleFXSetParametersOptions = {
+    players?: Array<Player>;
+    parameters: Array<ParticleFXParameter<VFXParameterType>>;
 };
 ```
 

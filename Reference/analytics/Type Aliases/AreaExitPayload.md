@@ -8,18 +8,7 @@ A payload sent by the `OnAreaExit` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-AreaExitPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnAreaExit
->;
+```ts
+export declare type AreaExitPayload = FullTurboEventPayload<typeof OnAreaExit>;
 ```
 

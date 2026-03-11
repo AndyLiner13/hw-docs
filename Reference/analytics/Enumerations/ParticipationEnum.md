@@ -8,13 +8,8 @@ The participation state of a player in a world instance.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-ParticipationEnum
- 
+```ts
+export declare enum ParticipationEnum 
 ```
 
 ## [Enumeration Members](#enumeration-members)

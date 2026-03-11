@@ -8,13 +8,8 @@ What animations do once they finish playing their full duration.
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AnimationOnEndBehavior
- 
+```ts
+export declare enum AnimationOnEndBehavior 
 ```
 
 ## [Enumeration Members](#enumeration-members)

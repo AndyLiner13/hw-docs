@@ -8,18 +8,7 @@ A payload sent by the `OnSectionEnd` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-SectionEndPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnSectionEnd
->;
+```ts
+export declare type SectionEndPayload = FullTurboEventPayload<typeof OnSectionEnd>;
 ```
 

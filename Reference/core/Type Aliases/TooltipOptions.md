@@ -8,40 +8,12 @@ The settings for displaying a tooltip message.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-TooltipOptions
- 
-=
- 
-{
-
-    tooltipAnchorOffset
-?:
- 
-Vec3
-;
-
-    displayTooltipLine
-?:
- 
-boolean
-;
-
-    tooltipLineAttachmentProperties
-?:
- 
-TooltipLineAttachmentProperties
-;
-
-    playSound
-?:
- 
-boolean
-;
-
-
+```ts
+export declare type TooltipOptions = {
+    tooltipAnchorOffset?: Vec3;
+    displayTooltipLine?: boolean;
+    tooltipLineAttachmentProperties?: TooltipLineAttachmentProperties;
+    playSound?: boolean;
 };
 ```
 

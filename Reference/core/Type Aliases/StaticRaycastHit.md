@@ -8,28 +8,9 @@ The result of a [raycast](../Classes/RaycastGizmo.md#raycast) collision against 
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-StaticRaycastHit
- 
-=
- 
-BaseRaycastHit
- 
-&
- 
-{
-
-    targetType
-:
- 
-RaycastTargetType
-.
-Static
-;
-
-
+```ts
+export declare type StaticRaycastHit = BaseRaycastHit & {
+    targetType: RaycastTargetType.Static;
 };
 ```
 

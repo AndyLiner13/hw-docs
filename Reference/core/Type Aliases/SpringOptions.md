@@ -8,32 +8,11 @@ The spring physics settings for an entity. Spring physics moves an entity as if 
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-SpringOptions
- 
-=
- 
-{
-
-    stiffness
-:
- number
-;
-
-    damping
-:
- number
-;
-
-    axisIndependent
-:
- 
-boolean
-;
-
-
+```ts
+export declare type SpringOptions = {
+    stiffness: number;
+    damping: number;
+    axisIndependent: boolean;
 };
 ```
 

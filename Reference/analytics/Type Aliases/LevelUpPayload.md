@@ -8,18 +8,7 @@ A payload sent by the `OnLevelUp` [event](../Variables/TurboEvents.md).
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-LevelUpPayload
- 
-=
- 
-FullTurboEventPayload
-<
-typeof
- 
-OnLevelUp
->;
+```ts
+export declare type LevelUpPayload = FullTurboEventPayload<typeof OnLevelUp>;
 ```
 

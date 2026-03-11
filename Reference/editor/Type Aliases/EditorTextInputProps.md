@@ -8,33 +8,11 @@ The props of an [EditorTextInput()](../Functions/EditorTextInput.md) component.
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-EditorTextInputProps
- 
-=
- 
-{
-
-    onChangeText
-?:
- 
-CallbackWithPayload
-;
-
-    size
-?:
- number
-;
-
-    multiline
-?:
- 
-boolean
-;
-
-
+```ts
+export declare type EditorTextInputProps = {
+    onChangeText?: CallbackWithPayload;
+    size?: number;
+    multiline?: boolean;
 };
 ```
 

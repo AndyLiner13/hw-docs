@@ -8,42 +8,11 @@ ParticleFXPlayOptions controls how the particle is played. Extends [ParticleFXPl
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-ParticleFXSetParametersAndPlayOptions
- 
-=
- 
-ParticleFXPlayOptions
- 
-&
- 
-ParticleFXSetParametersOptions
- 
-&
- 
-{
-
-    localOnly
-?:
- 
-boolean
-;
-
-    position
-?:
- 
-Vec3
-;
-
-    rotation
-?:
- 
-Quaternion
-;
-
-
+```ts
+export declare type ParticleFXSetParametersAndPlayOptions = ParticleFXPlayOptions & ParticleFXSetParametersOptions & {
+    localOnly?: boolean;
+    position?: Vec3;
+    rotation?: Quaternion;
 };
 ```
 

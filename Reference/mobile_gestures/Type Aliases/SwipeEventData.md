@@ -8,26 +8,9 @@ Payload received by swipe events
 
 ## [Signature](#signature)
 
-```
-export
- declare type 
-SwipeEventData
- 
-=
- 
-TouchEventData
- 
-&
- 
-{
-
-    swipeDirection
-:
- 
-SwipeDirection
-;
-
-
+```ts
+export declare type SwipeEventData = TouchEventData & {
+    swipeDirection: SwipeDirection;
 };
 ```
 

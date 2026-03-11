@@ -8,13 +8,8 @@ Represents the different set of Avatar Expressions you can request an image of. 
 
 ## [Signature](#signature)
 
-```
-export
- declare 
-enum
- 
-AvatarImageExpressions
- 
+```ts
+export declare enum AvatarImageExpressions 
 ```
 
 ## [Enumeration Members](#enumeration-members)
