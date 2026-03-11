@@ -36,7 +36,7 @@ NoesisGUI is a high-performance UI framework for games and interactive applicati
 
 Before you begin, make sure to:
 
-1. Download the [Tutorial Project File](../../../_assets/files/ce392b4589c82dd01df3471689b90e9afa3e8fb65e7ebd9cace748c57c2ef0ec.zip)
+1. Download the [Tutorial Project File](../../../_assets/misc/ce392b4589c82dd01df3471689b90e9afa3e8fb65e7ebd9cace748c57c2ef0ec.zip)
 2. Install [NoesisGUI Studio](https://www.noesisengine.com/studio/)
 3. Unzip the NoesisGUI Studio folder
 4. Run the application named **App.StudioTool.exe**

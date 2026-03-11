@@ -56,7 +56,7 @@ After you have created the custom skydome asset, you can deploy it into your wor
 
 You can download example assets for building a custom skydome:
 
-**Download**: [SkydomeCustomSkydomeTestAssets.zip](../_assets/files/11852418ec702011b5c6826034dd5dc527ac9e5d47da807bdc0342229699a7fe.zip)
+**Download**: [SkydomeCustomSkydomeTestAssets.zip](../_assets/misc/11852418ec702011b5c6826034dd5dc527ac9e5d47da807bdc0342229699a7fe.zip)
 
 ## [Appendix: Skydome Map Reference](#appendix-skydome-map-reference)
 

@@ -4,5 +4,5 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # [World publishing guide](#world-publishing-guide)
 
-[Download the MHCP publishing checklist.](../../_assets/files/9b7a79afb113ee4c979758f1064ac830783c4a08be778c1cb6ed3479727291e9.pdf)
+[Download the MHCP publishing checklist.](../../_assets/misc/9b7a79afb113ee4c979758f1064ac830783c4a08be778c1cb6ed3479727291e9.pdf)
 

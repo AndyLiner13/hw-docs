@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # [MHCP Program Updates with William Chandler and Marlowe Shaeffer](#mhcp-program-updates-with-william-chandler-and-marlowe-shaeffer)
 
-<video controls></video><source src="(BROKEN_REF)" type="video/mp4">[Download video captions here.](../../_assets/files/cd34a9c86b152fd9b3926a76968f87189607f20cf7a036058a7ff57c90946947.pdf)
+<video controls></video><source src="(BROKEN_REF)" type="video/mp4">[Download video captions here.](../../_assets/misc/cd34a9c86b152fd9b3926a76968f87189607f20cf7a036058a7ff57c90946947.pdf)
 
 A Town Hall Q\&A to hear the latest news, updates, and opportunities within the Meta Horizon Creator Program.\`
 

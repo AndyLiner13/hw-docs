@@ -30,7 +30,7 @@ In this section, you import a 3D model that already contains an offset pivot to 
 
 Follow these steps to use the asset file provided by Meta that contains an offset pivot.
 
-1. Download the [Demo asset](../../_assets/files/83c647b29f28782fe13ed455d6537aa090832a3fbc65066825a0e7e37af2f852.zip) . This file is a zip archive that contains a single mesh 3D model that contains an offset pivot, and a texture file.
+1. Download the [Demo asset](../../_assets/misc/83c647b29f28782fe13ed455d6537aa090832a3fbc65066825a0e7e37af2f852.zip) . This file is a zip archive that contains a single mesh 3D model that contains an offset pivot, and a texture file.
 
    ![A single mesh 3D model provided by Meta](../../_assets/images/390b0dda18ebfb0a920dc1e61f0ab722ff5016f4da04910f615a0e1aa52e07c7.png)
 

@@ -8,5 +8,5 @@ When building in Meta Horizon Worlds, you’re able to spawn items such as scene
 
 Read the documentation below to learn more about spawning and despawning assets in Meta Horizon Worlds.
 
-[View PDF](../../_assets/files/3f5c17cfa21ef391c08d5a2eea6f781093ee6518309cd8e0339234988700a642.pdf)
+[View PDF](../../_assets/misc/3f5c17cfa21ef391c08d5a2eea6f781093ee6518309cd8e0339234988700a642.pdf)
 

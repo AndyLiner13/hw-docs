@@ -19,7 +19,7 @@ For example, you need to import five files in order to import this rifle asset:
 
 Follow this procedure to import a custom model asset, spawn an object from it, and add it to your scene.
 
-**Note**: To complete this procedure, you need a custom 3D model (an FBX file and one or more PNG texture files) to import. If you don’t have a 3D model, you can get demo assets [here](../_assets/files/57c2704c3a8466018227d9aa647b44f7f8c205c5e4eadbd16c3112a0374cbfbf.zip) .
+**Note**: To complete this procedure, you need a custom 3D model (an FBX file and one or more PNG texture files) to import. If you don’t have a 3D model, you can get demo assets [here](../_assets/misc/57c2704c3a8466018227d9aa647b44f7f8c205c5e4eadbd16c3112a0374cbfbf.zip) .
 
 1. From the Desktop Editor, click the **Asset Library** tab at the bottom of the screen and select **My Assets**.
 

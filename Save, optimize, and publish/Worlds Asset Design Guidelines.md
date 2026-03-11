@@ -53,7 +53,7 @@ World assets show up on various discovery surfaces on mobile and VR, such as Sea
 
 Preview images appear on a variety of surfaces in a number of ways. To ensure that your key focus points are clearly visible on all surfaces and aren’t cut off or obscured, these must be within a safe area on the preview image. Non-essential artwork can be located outside the safe area, in the bleed area, but items in the bleed area could potentially be cut off or obscured on some surfaces. Additionally, all versions of the assets must be consistent with each other.
 
-Templates that show the bleed areas on an asset can be downloaded as [.psd ](../_assets/files/e54050564e35be993af7844558c852e545e56c5d73ade4cef80e9a10ff95024d.zip), [.png ](../_assets/files/8760409d5e65e439bbdf0d54ec1af95b62dbd3e7e55c94975f17e57a5cf76db8.zip), or [.fig ](../_assets/files/3919aefcfeec1e8571b60947f587fb709b012229a2001bc7e2c0387469c8db64.zip)templates.
+Templates that show the bleed areas on an asset can be downloaded as [.psd ](../_assets/misc/e54050564e35be993af7844558c852e545e56c5d73ade4cef80e9a10ff95024d.zip), [.png ](../_assets/misc/8760409d5e65e439bbdf0d54ec1af95b62dbd3e7e55c94975f17e57a5cf76db8.zip), or [.fig ](../_assets/misc/3919aefcfeec1e8571b60947f587fb709b012229a2001bc7e2c0387469c8db64.zip)templates.
 
 Whether your asset is displayed on your Product Detail page (PDP) in VR or a category section on the mobile app, we strongly recommend that you take the time and effort to ensure that your assets look their best.
 

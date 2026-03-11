@@ -25,7 +25,7 @@ Data as an Asset makes it easier to ingest and access a large amount of data. Yo
 1. Go to <https://horizon.meta.com/creator/assets>
 2. Click **Import**, and select **Text**.
 3. Upload the asset. We only allow JSONs for now. You can use any valid .json you have, or download and upload the attached gamedatanew\.JSON file at the bottom of the page.
-   - [gamedatanew.json](../../_assets/files/0493d457371a4b6b01b854c4b8eff20225b2c5db9a94341d7284533067b964c2.json)
+   - [gamedatanew.json](../../_assets/misc/0493d457371a4b6b01b854c4b8eff20225b2c5db9a94341d7284533067b964c2.json)
 4. You can download, edit and do other things with the Asset file, but this UI is the just the same as the Web Asset Ingestion UI.
 
 ### [Desktop asset upload](#desktop-asset-upload)
@@ -39,7 +39,7 @@ Data as an Asset makes it easier to ingest and access a large amount of data. Yo
 1. Open the Desktop Editor for Horizon.
 2. Click **Add New**, and select **Text**.
 3. Upload the asset. We only allow JSONs for now. You can use any valid json you have, or download and upload the attached gamedatanew\.json file at the bottom of the page.
-   - [gamedatanew.json](../../_assets/files/0493d457371a4b6b01b854c4b8eff20225b2c5db9a94341d7284533067b964c2.json)
+   - [gamedatanew.json](../../_assets/misc/0493d457371a4b6b01b854c4b8eff20225b2c5db9a94341d7284533067b964c2.json)
 4. You can download, edit and do other things with the Asset file, but this UI is the just the same as the Desktop Asset Ingestion UI.
 
 ## [Using the asset in TypeScript](#using-the-asset-in-typescript)
@@ -165,7 +165,7 @@ Enabling skipCache is only useful if you expect the asset that you are referenci
 ## [Examples](#examples)
 
 - A sample JSON file (trivia.json) with trivia questions in a JSON format. (More questions can be accessed via trivia APIs, such as [Open Trivia DB](https://opentdb.com/api_config.php)).
-  - [trivia.json](../../_assets/files/f4c491077fc3a95a4cad13191acce619e67f3d63f9edb652806da1de3353ff91.json)
+  - [trivia.json](../../_assets/misc/f4c491077fc3a95a4cad13191acce619e67f3d63f9edb652806da1de3353ff91.json)
 - A Trivia world with a game manager script to load these questions from that JSON asset.
 - A simple trigger script to allow for users to answer these trivia questions.
 - You are able to load versions of Text Assets that were before the current version. This is helpful if you want to lock a version of the Asset to a particular world. You can do this by providing the actual values of the Asset IDs and the version IDs, like the code sample below. You may find more information regarding this in the asset templates.
@@ -198,5 +198,5 @@ Enabling skipCache is only useful if you expect the asset that you are referenci
 
 ## [Downloads](#downloads)
 
-[gamedatanew.json](../../_assets/files/0493d457371a4b6b01b854c4b8eff20225b2c5db9a94341d7284533067b964c2.json)[trivia.json](../../_assets/files/f4c491077fc3a95a4cad13191acce619e67f3d63f9edb652806da1de3353ff91.json)
+[gamedatanew.json](../../_assets/misc/0493d457371a4b6b01b854c4b8eff20225b2c5db9a94341d7284533067b964c2.json)[trivia.json](../../_assets/misc/f4c491077fc3a95a4cad13191acce619e67f3d63f9edb652806da1de3353ff91.json)
 

@@ -27,7 +27,7 @@ This part of the tutorial requires that you first complete [part 1](Create%20you
 
 In part 1 of this tutorial, you created the graveyard. But if you’re going to hunt marauding skeletons, you’ll want to add a rifle and a pedestal to make it easier (otherwise you’d have to use your hands and that gets messy…)
 
-1. Download the [Demo Assets](../../_assets/files/57c2704c3a8466018227d9aa647b44f7f8c205c5e4eadbd16c3112a0374cbfbf.zip) .
+1. Download the [Demo Assets](../../_assets/misc/57c2704c3a8466018227d9aa647b44f7f8c205c5e4eadbd16c3112a0374cbfbf.zip) .
 
    This file is a zip archive that contains a number of pre-made assets that you’ll add to your game (like the rifle).
 

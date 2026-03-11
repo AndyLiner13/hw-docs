@@ -14,5 +14,5 @@ Create an essential in-world purchase (IWP) asset—an axe—while learning prof
 - Create high-quality assets at production speed
 - Optimize assets for peak performance
 
-Workshop Assets Care Package: [\*\*here\*\* ](../../_assets/files/e043a83e746d31c7b046900fd24387eba75ed2449758457acef72b11a8a643dd.zip)SRT: [\*\*here\*\*](../../_assets/files/011510582c93985030227081ab16e26815982d5b471b527d8927576a5e149af0.bin)
+Workshop Assets Care Package: [\*\*here\*\* ](../../_assets/misc/e043a83e746d31c7b046900fd24387eba75ed2449758457acef72b11a8a643dd.zip)SRT: [\*\*here\*\*](../../_assets/misc/011510582c93985030227081ab16e26815982d5b471b527d8927576a5e149af0.bin)
 
