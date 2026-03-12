@@ -16,7 +16,7 @@ The UI Systems module provides reusable components for player interaction and fe
 
 The `ClearOverridesButton.ts` script is a UI component that allows players to reset their avatar’s outfit to default.
 
-![Clear Overrides Button UI](../../../_assets/images/8fb8fea3b6311f290211baae74bb45f276b297b7751d671e3a4fafa73a4a9fdd.png)
+![Clear Overrides Button UI](../../../.assets/images/8fb8fea3b6311f290211baae74bb45f276b297b7751d671e3a4fafa73a4a9fdd.png)
 
 ### [OutfitUI.ts](#outfituits)
 
@@ -28,7 +28,7 @@ When the button is clicked, the component sends network events to request and ap
 >
 > SKUs within the UI gizmos will need to be replaced with SKUs created by the world owner.
 
-![Outfit Button UI](../../../_assets/images/bfeaa2367d88d678aec162aba9ab5e5db9404ed224a227c81e64bba2cabb80aa.png)
+![Outfit Button UI](../../../.assets/images/bfeaa2367d88d678aec162aba9ab5e5db9404ed224a227c81e64bba2cabb80aa.png)
 
 **Modifications:**
 
@@ -45,7 +45,7 @@ The `TimerHUD.ts` script displays the current game state and a countdown timer o
 
 The component listens for the onTimerInfoUpdated event to update the timer and state, as well as the onGameStateChanged event to reflect changes in game state.
 
-![Timer HUD display](../../../_assets/images/b2ffc8cf59595ad587d5e7e591a34fcd1918c7d0ec9921b3c749c499d3dbcc92.png)
+![Timer HUD display](../../../.assets/images/b2ffc8cf59595ad587d5e7e591a34fcd1918c7d0ec9921b3c749c499d3dbcc92.png)
 
 ### [VoteButton.ts](#votebuttonts)
 
@@ -53,5 +53,5 @@ The `VoteButton.ts` script enables players to cast votes in-game, providing imme
 
 It manages the vote count, maximum allowed votes, and button state, while listening for events such as voteCountUpdate to track voting progress, as well as events to show, hide, or reset the button.
 
-![Vote Button interface](../../../_assets/images/165d2cc7db5619e2c18ea5b5602d2e9978ef343c0bc6ac2268426754b0ce89dd.png)
+![Vote Button interface](../../../.assets/images/165d2cc7db5619e2c18ea5b5602d2e9978ef343c0bc6ac2268426754b0ce89dd.png)
 

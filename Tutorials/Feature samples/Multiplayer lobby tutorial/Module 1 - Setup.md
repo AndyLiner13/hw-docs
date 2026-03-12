@@ -8,7 +8,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 >
 > This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
-![Multiplayer lobby cover image](../../../_assets/images/934253cad28a460393bee0ab09a4ac1b7faed983ca9a445cff2e83f303c45535.png)
+![Multiplayer lobby cover image](../../../.assets/images/934253cad28a460393bee0ab09a4ac1b7faed983ca9a445cff2e83f303c45535.png)
 
 ## [Welcome](#welcome)
 
@@ -57,7 +57,7 @@ To begin, open your new version of the tutorial world in the desktop editor.
 
 Your world should now be opened in the desktop editor, and should look something like the following:
 
-![Screenshot of the Multiplayer Lobby world opened in the desktop editor](../../../_assets/images/f198cddd0857d68b9c2bb4e4e31cbe498591e19acd694679a4318bb2386721fd.png)
+![Screenshot of the Multiplayer Lobby world opened in the desktop editor](../../../.assets/images/f198cddd0857d68b9c2bb4e4e31cbe498591e19acd694679a4318bb2386721fd.png)
 
 ## [Build mode and Preview mode](#build-mode-and-preview-mode)
 

@@ -27,14 +27,14 @@ Access to GenAI features is automated and determined based on your location when
 
 To access the Mesh Generation tool, open the **GenAI** panel from the top of your Horizon desktop editor.
 
-![Gen AI 3d model selection](../../_assets/images/8611176f0e1994f767720a8b092560930e6cd6d2f2255c57facde23e53c51948.png){width:”400px”}
+![Gen AI 3d model selection](../../.assets/images/8611176f0e1994f767720a8b092560930e6cd6d2f2255c57facde23e53c51948.png){width:”400px”}
 
 Then select the **Generate 3D models** option from the available generate options. Next, use the following process to generate a new mesh for your world:
 
 1. Use the **Model Size** dropdown to select either **Small**, **Medium**, or **Large**. The selected model size corresponds to the tricount of the generated mesh. The tricount is the number of triangles that make up the mesh. The larger the model size, the more triangles the mesh will have and, generally, the higher quality the mesh will be.
 2. After selecting your model size, enter a prompt into the prompt field and click **Generate**.
-3. You will see some images generated for you based on your input prompt. You can select one or more of these images to generate a 3D model from. ![Mesh Gen generated images](../../_assets/images/1b390b87f2131aa016d7ff968e78603b2fee3f93f006331cb6238bb1d790cf46.png){width:”400px”}
-4. To generate a 3D model of a generated image, hover your mouse over the image and select **Generate a model of this** on the image. ![Mesh Gen generate model](../../_assets/images/f4f310014dd5fa1a61c9323620d84d641363b826bb70a51dad11529583519bff.png){width:”400px”}
+3. You will see some images generated for you based on your input prompt. You can select one or more of these images to generate a 3D model from. ![Mesh Gen generated images](../../.assets/images/1b390b87f2131aa016d7ff968e78603b2fee3f93f006331cb6238bb1d790cf46.png){width:”400px”}
+4. To generate a 3D model of a generated image, hover your mouse over the image and select **Generate a model of this** on the image. ![Mesh Gen generate model](../../.assets/images/f4f310014dd5fa1a61c9323620d84d641363b826bb70a51dad11529583519bff.png){width:”400px”}
 5. Once your model has finished generating, you can click **Save model** to save the generated 3D model to your asset library. The generated 3D will be added to your **My Assets** folder in your asset library in the **GenAI Assets** subfolder.
 6. Once saved and available you can drag your generated asset from the library into your world to spawn it.
 

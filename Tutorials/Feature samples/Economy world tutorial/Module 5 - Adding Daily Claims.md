@@ -12,7 +12,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Add the Daily Claims gizmo to encourage daily player engagement. Players can claim one free consumable item per day to use in the shop or gameplay.
 
-![Daily Claims Gizmo](../../../_assets/images/dbad751b4825eff6aa5b33be0ce75a9025d7827e9cb1173627cdc9cd6a87709f.png)
+![Daily Claims Gizmo](../../../.assets/images/dbad751b4825eff6aa5b33be0ce75a9025d7827e9cb1173627cdc9cd6a87709f.png)
 
 ## [Adding the Daily Claims gizmo](#adding-the-daily-claims-gizmo)
 
@@ -21,11 +21,11 @@ Add the Daily Claims gizmo to encourage daily player engagement. Players can cla
 3. Drag the Daily Claims gizmo into the scene. Place it near your shop for visibility.
 4. Select the gizmo and open the **Properties** panel.
 
-![Daily Claims Gizmo Location](../../../_assets/images/15bcf611bb177b0cb0451afde8a4ab09e7f1fd002cf2e32c8e6340636904a095.png)
+![Daily Claims Gizmo Location](../../../.assets/images/15bcf611bb177b0cb0451afde8a4ab09e7f1fd002cf2e32c8e6340636904a095.png)
 
 ## [Visual and interaction](#visual-and-interaction)
 
-![Daily Claims Properties](../../../_assets/images/8d89b063d2605e69385ec91fc53dae1dc3ea7a92da5ba55ee68876930503cc11.jpg)
+![Daily Claims Properties](../../../.assets/images/8d89b063d2605e69385ec91fc53dae1dc3ea7a92da5ba55ee68876930503cc11.jpg)
 
 ### [Configuring rewards](#configuring-rewards)
 

@@ -10,7 +10,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/performan
 
 It’s a good idea to use [Tracing](../Performance%20tools/Tracing.md) to verify the cost of haptic feedback in your world. In some cases, the cost can be extreme. In this case you should look into modifying/removing the haptic feedback.
 
-![](../../_assets/images/7734246a3d648190db791020b57bdfd2e948cd62f3e88259978f782cd2c6327d.png)*In this example, haptic feedback takes \~7.8 ms per frame when active.*
+![](../../.assets/images/7734246a3d648190db791020b57bdfd2e948cd62f3e88259978f782cd2c6327d.png)*In this example, haptic feedback takes \~7.8 ms per frame when active.*
 
 ### [Trimesh and SubD don’t mix](#trimesh-and-subd-dont-mix)
 
@@ -22,7 +22,7 @@ When editing objects in Desktop Editor, ensure that only settings that are neede
 
 For example, if the “Motion” property is set to “Animated”, components will be automatically added to account for that change (CollisionNotifier, Rigidbody, and a PhysicsComponentSG component).
 
-![](../../_assets/images/0cfe0d5092085d41122cf2e354c4afff8ca6e33b81c8abb36468cdea604b0181.png)
+![](../../.assets/images/0cfe0d5092085d41122cf2e354c4afff8ca6e33b81c8abb36468cdea604b0181.png)
 
 Also, if objects won’t ever be seen by the player, then turn off visibility as well. Keep in mind that additional settings will add runtime cost to a world such as costs to Physics and Sunlight so recommend turning off settings that aren’t needed.
 
@@ -42,7 +42,7 @@ Optimizing TypeScript can have some of the largest impact when trying to improve
 
 You can use deep profiling to find out what the expensive bridge calls actually are and how much CPU time they use when tracing. Note that associating these calls directly back to a line of code is not currently automatic and you’ll have to manually find those in your code.
 
-![](../../_assets/images/14bfad0b254b214c090d89a84ccdd530f5bd216d3cf05050f0aeec92213021fe.png)
+![](../../.assets/images/14bfad0b254b214c090d89a84ccdd530f5bd216d3cf05050f0aeec92213021fe.png)
 
 *Toggle to enable deep tracing*
 
@@ -173,7 +173,7 @@ Raycasts can be very expensive. Using a short raycast distance will be much chea
 
 Playing audio clips is very CPU intensive. Whenever possible, combine multiple separate sounds into one merged sound file to improve performance. There is an option for audio called **Play and Forget** that runs faster but it does not provide any callbacks. We recommend that you use **Play and Forget** whenever possible. You can still get a similar effect as the callback by using a timer.
 
-![](../../_assets/images/25edc150bd0ffd606cce4d63ae380548c3b168707af77b5bbb22c44599ebbe86.png)
+![](../../.assets/images/25edc150bd0ffd606cce4d63ae380548c3b168707af77b5bbb22c44599ebbe86.png)
 
 Here are some more audio playback optimization recommendations:
 
@@ -198,7 +198,7 @@ In server traces, an object spawn can take a significant amount of time. Traces 
   - GetEntityCount
   - ClientSpawn
 
-![](../../_assets/images/6446760ceef15f152a66c01138e3c534831a583676871722574c0cfc714f1fa6.png)*ServerSpawn, in this trace, lasts over 1.5 seconds.*
+![](../../.assets/images/6446760ceef15f152a66c01138e3c534831a583676871722574c0cfc714f1fa6.png)*ServerSpawn, in this trace, lasts over 1.5 seconds.*
 
 Although ServerSpawn is not processed on the main thread, secondary effects are seen there.
 
@@ -209,11 +209,11 @@ Multiple calls can be seen in the trace:
 - `ScriptingRuntimeIntegration::InstantiationStep`
 - `DynamicLightsRuntimeIntegration::PostSpawnInstantiationStep`
 
-![](../../_assets/images/d09d42a6bbd5d7cc27f82e174966c3199f8093359154a1788513e4e992cd5dec.png)*In the server’s main thread, spawning objects also leads to skipped updates.*
+![](../../.assets/images/d09d42a6bbd5d7cc27f82e174966c3199f8093359154a1788513e4e992cd5dec.png)*In the server’s main thread, spawning objects also leads to skipped updates.*
 
 A similar pattern is seen in client traces.
 
-![](../../_assets/images/eeaeda910d25a435c094babeac49d50005e15da15ad5e0b230fa7e05cba978fe.png)*ClientSpawn runs for 280 milliseconds on a secondary thread.*
+![](../../.assets/images/eeaeda910d25a435c094babeac49d50005e15da15ad5e0b230fa7e05cba978fe.png)*ClientSpawn runs for 280 milliseconds on a secondary thread.*
 
 Effects of spawning on the client’s main thread are more troublesome. Multiple calls can be seen disrupting the main thread:
 
@@ -224,7 +224,7 @@ Effects of spawning on the client’s main thread are more troublesome. Multiple
 - `SubDRuntimeIntegration::InstantiationStep`
 - `PhysicsRuntimeIntegration::InstantiationStep`
 
-![](../../_assets/images/2932fb33eb28d8384000413a4509ce2c6cbcd03866c35d00ccd7139bcaf990aa.png)*ClientSpawn disruptions on the main thread cause multiple long and skipped frames.*
+![](../../.assets/images/2932fb33eb28d8384000413a4509ce2c6cbcd03866c35d00ccd7139bcaf990aa.png)*ClientSpawn disruptions on the main thread cause multiple long and skipped frames.*
 
 ### [Potential solutions](#potential-solutions)
 
@@ -413,7 +413,7 @@ Highlights:
 - Do not define bindings without a concrete purpose. This may happen by writing a custom abstract API layer wrapping the base UI components (View, Image, Pressable, etc.), and defining bindings for every prop as a convenience to consumers. On the local client, a binding set operation passes the entire key-value store to ReactVR. So the bigger this gets, the greater the CPU cost to perform a single binding set.
 - Animations, by way of periodic binding updates, should be implemented with care or not at all. This is due to the twofold nature of the bridge call frequency limits, and network latency and droughts/bursts associated with that. Consider using the [Animation API](../../Desktop%20editor/Custom%20UI/Animations%20for%20custom%20UI.md) instead when needing animations for UI.
 
-![Architecutral diagram of the server-client relationship](../../_assets/images/f4fb7ff7d5d1b601d7b60f1dd9c74c3d4a29e7ae22fb5ca036c80c6d110e8c40.png)\
+![Architecutral diagram of the server-client relationship](../../.assets/images/f4fb7ff7d5d1b601d7b60f1dd9c74c3d4a29e7ae22fb5ca036c80c6d110e8c40.png)\
 *Architectural diagram of the server-client relationship*
 
 ### [Profiling UI](#profiling-ui)
@@ -447,7 +447,7 @@ From a Deep trace pulled into Perfetto, watch the synchronous cost of these mark
 
 One useful method to make sense of this in aggregate is to drag a 5 second block across the main thread and look at the total wall time for that marker, divided by 360. For `Verts::PollDriver::Rpc` in the screenshot below, that is **0.25 ms** (90.03099 wall duration in seconds divided by 360 frames).
 
-![Verts::PollDriver::Rpc in Perfetto](../../_assets/images/cfd66e26b1cb07b43610c23c97c7cc2b741c46138ba8d2ceb972dd8704279a04.png)
+![Verts::PollDriver::Rpc in Perfetto](../../.assets/images/cfd66e26b1cb07b43610c23c97c7cc2b741c46138ba8d2ceb972dd8704279a04.png)
 
 ### [Binding Set and Callback Frequency Limits](#binding-set-and-callback-frequency-limits)
 

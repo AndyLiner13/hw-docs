@@ -8,7 +8,7 @@ The ParticleFX [gizmo](About%20gizmos.md) is a helper tool that allows you to ea
 
 The following image is taken from the [sample world](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md) called [Chop-n-pop](../Tutorials/Genre%20samples/Chop%20N%20Pop%20sample%20world/Module%201%20-%20Setup.md) where the ParticleFX gizmos provide the sparkles around the loot.
 
-![the ParticleFx gizmo is at work in the sample world](../_assets/images/90be5488d31c818063509e28f78852d8dff762d6c6da11c2a9cb06372ca58dab.png)
+![the ParticleFx gizmo is at work in the sample world](../.assets/images/90be5488d31c818063509e28f78852d8dff762d6c6da11c2a9cb06372ca58dab.png)
 
 ## [Limitations](#limitations)
 
@@ -42,11 +42,11 @@ The following image shows the ParticleFx gizmo is at work in the [Build mode](..
 
 **Note**: Once the configuration is complete in the **Properties** panel, you can immediately see the effect in either the [Build Mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) by clicking **Play** next to **Preview** or enter the [Preview mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md).
 
-![the ParticleFx gizmo is at work in the Build mode](../_assets/images/689f1b5b0da72a2f09e5d07d973a7ab49f767d9f88c25e3618391cb1acc24dab.png)
+![the ParticleFx gizmo is at work in the Build mode](../.assets/images/689f1b5b0da72a2f09e5d07d973a7ab49f767d9f88c25e3618391cb1acc24dab.png)
 
 The following image shows the ParticleFx gizmo is at work in the [Preview mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Preview%20mode.md).
 
-![the ParticleFx gizmo is at work in the Preview mode](../_assets/images/d851090a215de979a881ea7583c17aad909f2474e7429734ce72482c2ef261dc.png)
+![the ParticleFx gizmo is at work in the Preview mode](../.assets/images/d851090a215de979a881ea7583c17aad909f2474e7429734ce72482c2ef261dc.png)
 
 ## [Scripting](#scripting)
 

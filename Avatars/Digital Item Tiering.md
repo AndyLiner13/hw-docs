@@ -10,7 +10,7 @@ The “tiering of digital items” is a crucial economy concept designed to aid 
 
 There are four main tiers to categorize assets based on their overall value score which takes the cost or effort to acquire, utility and scarcity of an item into consideration:
 
-![](../_assets/images/774326523e6cffedd7dc200ef9dca0bf1981b18a2fbcea9dabb131570a8a73e6.png)
+![](../.assets/images/774326523e6cffedd7dc200ef9dca0bf1981b18a2fbcea9dabb131570a8a73e6.png)
 
 ## [What determines an item’s tier?](#what-determines-an-items-tier)
 
@@ -29,12 +29,12 @@ An inconsistent and unclear tier system can cause items to lose perceived value 
    - Tier Reclassification Considerations: Frequent changes to an item’s listing can lead to the system recalculating its tier. For example, if the listing details are modified such that an item is downgraded from ‘Legendary’ to ‘Premium’ without corresponding changes in features or benefits, users may perceive this as devaluing the item, which could impact trust in the tiering system.
    - Tier Upgrade Justifications: When listing details are updated in a way that elevates an item to a higher tier (e.g., from ‘Premium’ to ‘Legendary’), users typically expect to see enhancements—such as improved visual appeal or added utility value—that justify the change. Adding visual/textual cues such as “limited-time promotion” or “seasonal event” may help justify the rationale behind tier changes. *Note: Users who acquired the item before the upgrade will not see the tier change.*
 
-![](../_assets/images/9d86a813d0a329d3f84699e0def310e9b1ee6f94b68e98c8f719fb2935f82a3f.png)
+![](../.assets/images/9d86a813d0a329d3f84699e0def310e9b1ee6f94b68e98c8f719fb2935f82a3f.png)
 
 1. **Listing Details: Key to Item Value Perception**: The system determines item tiers based on various listing details, such as cost, rarity, and the effort required to obtain the item. Highlighting the unique attributes of each item—whether it’s earned through skill and dedication or available for direct purchase—can help users better understand its value and tier. Clearly communicating these attributes in your listing details may foster greater trust and satisfaction, as users are able to make more informed choices and appreciate the distinctions between different types of items.
 2. **Balanced Content Variety across Tiers:**: Ensure your content selection includes a healthy mix of items from all available tiers to avoid any single tier dominating the experience. When users encounter a thoughtfully curated selection, each item’s unique qualities and tier status are more likely to stand out, potentially increasing both appeal and perceived value.
 
-![](../_assets/images/bcf447f72672f7fcdf44c5dfcb8f7223f57de4b4c5492c561d8a0a1c6339cb67.png)
+![](../.assets/images/bcf447f72672f7fcdf44c5dfcb8f7223f57de4b4c5492c561d8a0a1c6339cb67.png)
 
 Using tiering, creators may be able to enhance the value and appeal of their digital goods. This approach can also contribute to a more transparent and engaging experience for players, potentially fostering greater trust and satisfaction within the ecosystem. Ultimately, thoughtful tiering and pricing strategies may benefit both creators—by supporting the long-term value of their offerings—and players, by providing clarity and confidence in their purchases.
 

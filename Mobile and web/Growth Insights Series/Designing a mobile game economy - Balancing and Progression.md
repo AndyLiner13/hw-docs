@@ -22,7 +22,7 @@ Important questions to ask yourself include:
 4. What do I want my players to spend on?
 5. What is our long term engagement hook in the game?
 
-![](../../_assets/images/f1d938c356491af850e66aec95ced47959281a08479f0305c8e840178d712334.jpg)
+![](../../.assets/images/f1d938c356491af850e66aec95ced47959281a08479f0305c8e840178d712334.jpg)
 
 \*Royal Match knows players enjoy its matching puzzle gameplay. As a result, it offers several purchasable bundles with extra consumables to enhance the gameplay experience. \*
 
@@ -40,7 +40,7 @@ Economy balancing is an important practice for games that use their economy as t
 
 In general, balancing an economy for a F2P mobile game requires aligning currency-ins and currency-outs to determine how quickly players encounter and move through progression blockers.
 
-![](../../_assets/images/a139ea91a7a87111f3cf7da7f0579986c5fd9909ca55df2e8166292afd719198.png)
+![](../../.assets/images/a139ea91a7a87111f3cf7da7f0579986c5fd9909ca55df2e8166292afd719198.png)
 
 If a game isn’t careful and allows players to gain too much currency, players may progress through content too quickly. They will eventually run out of things to do and lose reasons to engage. On the other hand, too many currency-outs and too few currency-ins can create frustration and lead to churn due to a lack of meaningful progression.
 
@@ -52,7 +52,7 @@ By contrast, strategically placing a progression blocker (skill checks, ability 
 
 Another key aspect of economy design and balancing is pacing — the speed at which you want players to move through your game’s progression systems. A game should never guess at this speed. Instead, it should set clear goals for players to achieve and monitor whether they are progressing too quickly or struggling and churning.
 
-![](../../_assets/images/a8ac2961783468034214f6a661bafd4d45e15ad269acc0d759052dbda7a0a6d5.jpg)
+![](../../.assets/images/a8ac2961783468034214f6a661bafd4d45e15ad269acc0d759052dbda7a0a6d5.jpg)
 
 \*The various interconnected progression systems of Clash of Clans are a masterclass in pacing and supporting core loops. Gameplay sessions are built around routine check-ins, allowing players to step away as resources accrue passively. \*
 
@@ -68,7 +68,7 @@ With these figures in mind, the game can ensure that — barring imbalance or ex
 
 Upgrading the town hall after that would cost additional currency, naturally, so the game can account for approximately 2 days of player time with this one currency-out funnel in its economy.
 
-![](../../_assets/images/1eef02c1b20dcfd7eeb808c5ead1663b2473872c3d43a694b1a4a9376ba24a10.png)
+![](../../.assets/images/1eef02c1b20dcfd7eeb808c5ead1663b2473872c3d43a694b1a4a9376ba24a10.png)
 
 Balancing the pacing of an economy is vital for free-to-play games. If players churn through content too quickly, they may churn from the game itself. Players must always have an unfolding road ahead, making steady, rewarding progress toward long-term goals without ever running out of content.
 
@@ -83,7 +83,7 @@ Games should integrate both cliffs and mesas into their economy design to create
 
 Cliffs are challenges for players to overcome. Some may be exciting, others frustrating, but all require careful effort and planning. Clearing a cliff often gives players a strong sense of accomplishment and progression, but can also leave them drained.
 
-![](../../_assets/images/2c986bb6d1d2487cd81418c7f67f7fcab5a1bba467489251366fcefc66ea5327.png)
+![](../../.assets/images/2c986bb6d1d2487cd81418c7f67f7fcab5a1bba467489251366fcefc66ea5327.png)
 
 *In a PvE game with clear win/loss conditions, such as a puzzle game, it’s especially important to plan for cliffs and mesas. Cliffs are where difficulty ramps up suddenly. This can encourage players to invest currencies or resources to pass a level, but if cliffs feel unwinnable, they may cause churn.*
 
@@ -95,7 +95,7 @@ One of the most important aspects of economy design is responding to player habi
 
 For example, in a match-three game, you may not see many $79.99 purchases, but you’ll often see frequent $4.99 purchases for continues or $9.99 purchases for unlimited lives. By contrast, a deeper roleplaying game with layered progression systems might successfully sell $19.99 packs as its baseline, with no offerings below that price point.
 
-![](../../_assets/images/b6cb9e1ba64cc6712a8d27e738fea92e166b2fe0d676aaffe0b187eb0f05973b.jpg)
+![](../../.assets/images/b6cb9e1ba64cc6712a8d27e738fea92e166b2fe0d676aaffe0b187eb0f05973b.jpg)
 
 *Which Clash of Clans skins are most popular overall? Which resonate with first-time purchasers?\
 Without telemetry and analytics, questions like these are almost impossible to answer.*
@@ -109,7 +109,7 @@ One of the best steps you can take for your game’s long-term economic health i
 - If 250,000 players purchased the $0.99 pack and nothing else, you’d conclude that low-end offers resonate most. But this could suggest the price is too low, leaving revenue on the table. You might A/B test raising the floor to $2.99 to see if higher revenue balances out lower conversions.
 - If 2,500 players bought the $49.99 pack and 1,563 bought the $79.99 pack, with little activity elsewhere, you’d question whether lower-end offers are needed at all.
 
-![](../../_assets/images/576575eb4ceb5d6c82aebd627ed073f3a0ca069400b98a15b77776d9c001ffb0.png)
+![](../../.assets/images/576575eb4ceb5d6c82aebd627ed073f3a0ca069400b98a15b77776d9c001ffb0.png)
 
 Telemetry — and the insights it generates — is one of the most powerful tools you have for planning and adjusting your game’s economy.
 
@@ -117,7 +117,7 @@ Telemetry — and the insights it generates — is one of the most powerful tool
 
 One issue that can arise from giving players a steady stream of currency-ins is that dedicated or savvy players will find ways to exploit the game to gain large stockpiles of currency, upsetting pacing calculations. This is known as farming.
 
-![](../../_assets/images/88d9c97f6d45c6e72b2649710833e82b448397d2ec30e148af65da8b0b70dceb.png)
+![](../../.assets/images/88d9c97f6d45c6e72b2649710833e82b448397d2ec30e148af65da8b0b70dceb.png)
 
 For multiplayer games (competitive or otherwise), farming must be controlled, as it can give highly engaged players a sizable advantage over those who play less often. F2P mobile games generally use three primary methods to control farming:
 

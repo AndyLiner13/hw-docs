@@ -8,7 +8,7 @@ To create pushable buttons in Meta Horizon Worlds, it’s a common practice to u
 
 This scenario looks like this:
 
-![](../../_assets/images/50b3f99b21798e226cf7ccb1828dfdf91c2be22d7a21db639d37297dd8dc276c.png)
+![](../../.assets/images/50b3f99b21798e226cf7ccb1828dfdf91c2be22d7a21db639d37297dd8dc276c.png)
 
 Since web and mobile players don’t directly control their hands, it’s difficult for them to put their avatar within the Trigger Zone (unless they jump on it). To overcome this limitation, you can enable the setting **Selectable in screen mode** on the Trigger Zone:
 
@@ -17,13 +17,13 @@ Since web and mobile players don’t directly control their hands, it’s diffic
 3. Grab your Trigger Zone gizmo and move up on your right thumbstick to select **...Properties**.
 4. Turn on the toggle next to **Selectable in Screen Mode**.
 
-![](../../_assets/images/21e632529e97911ed77fe2908148d1cf1a4820a93a8a76b57da1890afd55af02.png) This image is taken from the Desktop Editor, but the same functionality is available in the Properties panel for entities in VR build mode. The Desktop Editor is only available to creators with access to advanced tooling.
+![](../../.assets/images/21e632529e97911ed77fe2908148d1cf1a4820a93a8a76b57da1890afd55af02.png) This image is taken from the Desktop Editor, but the same functionality is available in the Properties panel for entities in VR build mode. The Desktop Editor is only available to creators with access to advanced tooling.
 
 The result enables web and mobile players to look towards the Trigger Zone and press **E** on web, or tap the button on mobile, to fire the **OnPlayerEnteredTrigger** event for that Trigger Zone.
 
-![](../../_assets/images/c54208059824fd19a0b4e65c4a533f495954321b4c27d03a2b9db4883fa734dd.png) This image is taken from the Desktop Editor, but the same functionality is available in the Properties panel for entities in VR build mode. The Desktop Editor is only available to creators with access to advanced tooling.
+![](../../.assets/images/c54208059824fd19a0b4e65c4a533f495954321b4c27d03a2b9db4883fa734dd.png) This image is taken from the Desktop Editor, but the same functionality is available in the Properties panel for entities in VR build mode. The Desktop Editor is only available to creators with access to advanced tooling.
 
-![](../../_assets/images/49df1659055b3c0eb63622eb43835abcd4f2c42a10ce3cb98752dece917e3048.jpg)**Note:** If you place your **Trigger Zone** inside or behind a collidable object, the collider will prevent web and mobile users from interacting with it. When you set a trigger to **Selectable in Screen Mode**, make sure the trigger zone is bigger than the object, or turn the object’s collidability off.
+![](../../.assets/images/49df1659055b3c0eb63622eb43835abcd4f2c42a10ce3cb98752dece917e3048.jpg)**Note:** If you place your **Trigger Zone** inside or behind a collidable object, the collider will prevent web and mobile users from interacting with it. When you set a trigger to **Selectable in Screen Mode**, make sure the trigger zone is bigger than the object, or turn the object’s collidability off.
 
 ## [Configurable Interaction Range](#configurable-interaction-range)
 
@@ -33,5 +33,5 @@ By increasing the interaction range, you make it easier for players—especially
 
 The interaction range setting is available in the Properties panel of the Trigger Zone entity, allowing creators to customize the effective distance at which the OnPlayerEnteredTrigger event fires.
 
-![](../../_assets/images/ca778b8ff84deaca38d7696e3cb0d0016563d922dcd1cda8caffc609ad7dac84.png)
+![](../../.assets/images/ca778b8ff84deaca38d7696e3cb0d0016563d922dcd1cda8caffc609ad7dac84.png)
 

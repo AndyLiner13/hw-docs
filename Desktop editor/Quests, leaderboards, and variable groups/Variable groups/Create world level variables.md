@@ -12,7 +12,7 @@ Use the following process to create a world level variable:
 
 1. Select **Systems** > **Variable Groups** from the menu bar.
 2. In the Variable Groups panel, click the **Create Variable Group** button, then name your created variable group.
-3. After creating the variable group, click the **Create Variable** button. In the **Create Persistent Variable** panel, use the **Variable Type** dropdown to select **World Persistent Variable**. ![Create Persistent Variable panel](../../../_assets/images/47be193a53750df924d4f5aa4aa1ef30dcc846f128100a30630177d76e53e6ba.png)
+3. After creating the variable group, click the **Create Variable** button. In the **Create Persistent Variable** panel, use the **Variable Type** dropdown to select **World Persistent Variable**. ![Create Persistent Variable panel](../../../.assets/images/47be193a53750df924d4f5aa4aa1ef30dcc846f128100a30630177d76e53e6ba.png)
 4. Next, name your created variable and select the **Data Type**. You can choose from the following data types:
    - Number - used by world counter APIS to save community activity counters
    - Object - used by world variable APIs to save complex world states

@@ -8,7 +8,7 @@ This module covers stations that combine more advanced XAML UI with TypeScript s
 
 ## [Station 08 – Quest Tracker](#station-08--quest-tracker)
 
-![Station 08 - Quest Tracker](../../../_assets/images/c99b9f2b26ce3a03be7b0ab70d614e92aa343b2750d6ba61b2d39cc7f4e7665b.png)
+![Station 08 - Quest Tracker](../../../.assets/images/c99b9f2b26ce3a03be7b0ab70d614e92aa343b2750d6ba61b2d39cc7f4e7665b.png)
 
 ### [Description](#description)
 
@@ -155,7 +155,7 @@ dataContext
 
 ## [Station 09 – Item Grid](#station-09--item-grid)
 
-![Station 09 - Item Grid](../../../_assets/images/7eb754ebe95b751e0cc99b85d98d9058ef10e52460155a6117047465aeb5ac22.png)
+![Station 09 - Item Grid](../../../.assets/images/7eb754ebe95b751e0cc99b85d98d9058ef10e52460155a6117047465aeb5ac22.png)
 
 ### [Description](#description-1)
 
@@ -502,7 +502,7 @@ dataContext
 
 ## [Station 11 – Tab Navigation](#station-11--tab-navigation)
 
-![Station 11 - Tab Navigation](../../../_assets/images/73f81de503dc4cc3748f26b8c27277f2729942d026b25cd4b527a6751f73b608.png)
+![Station 11 - Tab Navigation](../../../.assets/images/73f81de503dc4cc3748f26b8c27277f2729942d026b25cd4b527a6751f73b608.png)
 
 ### [Description](#description-3)
 

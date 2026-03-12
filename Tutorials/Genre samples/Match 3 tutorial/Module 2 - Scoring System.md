@@ -12,11 +12,11 @@ The scoring system uses a star rating model (1-3 stars) where players earn more 
 
 A well-designed scoring system rewards both skill (cascades, combos) and efficiency (time, moves), giving players clear feedback on their performance.
 
-To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down. ![A view of the "scripts in this world" drop down](../../../_assets/images/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)
+To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down. ![A view of the "scripts in this world" drop down](../../../.assets/images/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)
 
 ## [Try It First](#try-it-first)
 
-![An example of the Match 3 board](../../../_assets/images/1a2664e66b46aac4690dac15e4df83bfd63f7112130d75b8892bf9d59fe938d8.png)
+![An example of the Match 3 board](../../../.assets/images/1a2664e66b46aac4690dac15e4df83bfd63f7112130d75b8892bf9d59fe938d8.png)
 
 ### [Play the Scoring System game](#play-the-scoring-system-game)
 
@@ -38,7 +38,7 @@ Now that you’ve experienced how scoring drives the Match-3 experience, let’s
 
 ### [Step 1: Score Calculation](#step-1-score-calculation)
 
-![Match 3 example showing a 4 match cascade](../../../_assets/gifs/50404d1bce4aea59c303683d6d7fab70a1142875a2b3ecc7f2de6991c6176da1.gif)
+![Match 3 example showing a 4 match cascade](../../../.assets/gifs/50404d1bce4aea59c303683d6d7fab70a1142875a2b3ecc7f2de6991c6176da1.gif)
 
 Learn how the game calculates points from matches and applies multipliers.
 
@@ -96,7 +96,7 @@ Key files to explore:
 
 ### [Step 2: Combo System](#step-2-combo-system)
 
-![Match 3 example showing a 3 match cascade](../../../_assets/gifs/e989497f3f2b6b1fc74143f248a55645caa435d57e5dbddfe8509f240723d8fa.gif)
+![Match 3 example showing a 3 match cascade](../../../.assets/gifs/e989497f3f2b6b1fc74143f248a55645caa435d57e5dbddfe8509f240723d8fa.gif)
 
 Learn how cascades increase your score through multipliers.
 
@@ -159,7 +159,7 @@ Key files to explore:
 
 ### [Step 3: Star Rating System](#step-3-star-rating-system)
 
-![Match 3 example](../../../_assets/images/be02ba76d236c86a74c14f786901199834742a6aa3118d88390e8c80ce1047a4.png)
+![Match 3 example](../../../.assets/images/be02ba76d236c86a74c14f786901199834742a6aa3118d88390e8c80ce1047a4.png)
 
 Learn how the game evaluates performance and awards 1-3 stars.
 

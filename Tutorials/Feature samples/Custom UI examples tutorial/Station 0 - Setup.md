@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Station 0 - Setup](#station-0---setup)
 
-![Custom UI Examples thumbnail](../../../_assets/images/cb72789128b2994df589cc16dbf4ff7e5e8ed7cf8aa58d7c9063687ec413f4a8.png)
+![Custom UI Examples thumbnail](../../../.assets/images/cb72789128b2994df589cc16dbf4ff7e5e8ed7cf8aa58d7c9063687ec413f4a8.png)
 
 > [!Important]
 >
@@ -31,7 +31,7 @@ In the desktop editor, click the three-dot menu in the toolbar. Enable the follo
 - Auto-start simulation on Preview entry
 - Auto-stop simulation on Preview exit
 
-![Preview Configuration panel](../../../_assets/images/35cd36a3f965eaf7ffc15ffc7b8a6114bb3cf0baa8d83ebe439fa29bc0e761a7.png)
+![Preview Configuration panel](../../../.assets/images/35cd36a3f965eaf7ffc15ffc7b8a6114bb3cf0baa8d83ebe439fa29bc0e761a7.png)
 
 ## [Overview](#overview)
 

@@ -8,7 +8,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 >
 > This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, a copy is created for you to explore, and this page is opened so that you can follow along. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 
-![](../../../_assets/images/0c0067d7e9e8df8bfbaaf359f400b4f22881032d7810b8553ff71ddf33fcee8e.png)
+![](../../../.assets/images/0c0067d7e9e8df8bfbaaf359f400b4f22881032d7810b8553ff71ddf33fcee8e.png)
 
 ## [Overview](#overview)
 
@@ -28,7 +28,7 @@ This world contains two scripted avatar NPCs:
 
 | **Village Elder**                                                                                                                       | **Traveling Merchant**                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Image of the Village Elder NPC](../../../_assets/images/21f9b75218a92cfa233eec9a943bc9708d7495904a3314e1213627af3bc56eb0.png)         | ![Image of the Traveling Merchant NPC](../../../_assets/images/6130a1bdf1f025b339ad28475977e3ade1fba34bcdc24b14c2a8ea97465372d1.png) |
+| ![Image of the Village Elder NPC](../../../.assets/images/21f9b75218a92cfa233eec9a943bc9708d7495904a3314e1213627af3bc56eb0.png)         | ![Image of the Traveling Merchant NPC](../../../.assets/images/6130a1bdf1f025b339ad28475977e3ade1fba34bcdc24b14c2a8ea97465372d1.png) |
 | The village has lost its gems! The Village Elder asks you, the player, for help in locating them. He, too, will look for them with you. | The Traveling Merchant is interested in gems, too. He will trade gems for coins and may stir things up with the Village Elder.       |
 
 The behaviors of these NPCs is managed through the `NPCManager.ts` script. Behaviors include:

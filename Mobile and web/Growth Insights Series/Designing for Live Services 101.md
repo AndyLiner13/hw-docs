@@ -26,7 +26,7 @@ Live services aren’t necessarily a good fit for everyone. However, if you’re
 
 A live-service game, often called Games as a Service (GaaS), features continual updates in response to how players interact with the game. These games are designed to build a long-term relationship with players. A live-service game has two main goals: to give players a long-lasting, potentially infinite stream of content, and to give developers a more predictable, long-term stream of revenue.
 
-![Hypothetical game Castle Quest! update window](../../_assets/images/c11de67522295019bf6e38e1786f5151a676578f8d6441f4fdbbac9bb6de4345.png)
+![Hypothetical game Castle Quest! update window](../../.assets/images/c11de67522295019bf6e38e1786f5151a676578f8d6441f4fdbbac9bb6de4345.png)
 
 *Live Service Games, or Games as a Service require continual support to thrive. Not only do updates give your players new content to engage with, but messaging your updates can win new players who will be more interested in a game that has active development.*
 
@@ -34,20 +34,20 @@ The biggest difference between a live-service game and a traditional “game as 
 
 By contrast, live-service games continuously offer new content to keep players engaged, which in turn generates ongoing revenue for developers. A strong live-service game becomes a self-sustaining loop: the game earns enough to fund new development and still make a profit. That balance between player engagement, player spend, and developers shipping new content is what every live-service game aims to achieve.
 
-![Looping showing the revenue cycle of player investment in GaaS model](../../_assets/images/785521bd9c526173508cf40dee0788fc5388e63dc7ac5b0f792170d1ea6e4aa5.png)
+![Looping showing the revenue cycle of player investment in GaaS model](../../.assets/images/785521bd9c526173508cf40dee0788fc5388e63dc7ac5b0f792170d1ea6e4aa5.png)
 
 A live-service game is built around several key components that are vital for both players and developers.
 
 1. **Endless gameplay.** One of the biggest attractions of a live service is the ability for players to engage in an almost limitless amount of gameplay over time.
 2. **Progression systems.** Players make incremental progress toward long-term goals, whether they’re chasing exclusive gear or leveling up a character. This steady progress can be motivating and deeply fulfilling for many players.
 
-![Castle Quest! progression example](../../_assets/images/19c8fa86236ef425eca297b3c91f0465a78308848ef5654665cc4c79ad64af77.png)
+![Castle Quest! progression example](../../.assets/images/19c8fa86236ef425eca297b3c91f0465a78308848ef5654665cc4c79ad64af77.png)
 
 *Visible progression helps players feel their progress and show their skill to others. Progression supports acquisition (by signaling that there’s depth and goals) and retention (by giving players something clear to work toward).*
 
 1. **New content**. Live-service games regularly introduce new content, such as limited-time modes, new levels, new playable characters, or new cosmetics to purchase.
 
-![Castle Quest! castle](../../_assets/images/8027942aa2318a4b45e3de8de3eac574d214578592b9012cee44c1e0d1894433.png)
+![Castle Quest! castle](../../.assets/images/8027942aa2318a4b45e3de8de3eac574d214578592b9012cee44c1e0d1894433.png)
 
 *Don’t neglect [Holiday Events](https://developers.meta.com/horizon/blog/planning-seasonal-in-game-events/), or at the very least sales, to drive both engagement and monetization in your game.*
 
@@ -71,7 +71,7 @@ A live-service game is built around several key components that are vital for bo
 | **Ongoing support**           | A live-service game needs continuous attention. You’ll monitor player progress, spend, and engagement, understand player motivations, and adjust your gameplay and monetization plans based on what actually works.                                                                   |
 | **Competition for attention** | On free-to-play platforms like Horizon Worlds or Roblox, you’re competing with thousands of other experiences for player time. Whether you’re shipping a twist on a familiar genre or something entirely new, you’ll need a clear strategy to stand out and keep players coming back. |
 
-![Castle Quest! social space featuring additional players](../../_assets/images/3b590bc0f2b423d6ce85f2c2d56a1588bf172877fce88d6e23244990688e18bd.png)
+![Castle Quest! social space featuring additional players](../../.assets/images/3b590bc0f2b423d6ce85f2c2d56a1588bf172877fce88d6e23244990688e18bd.png)
 
 *Well-integrated social spaces are critical to many live-service games. They give players chances to build or deepen real social connections while enjoying the experience together.*
 
@@ -79,7 +79,7 @@ A live-service game is built around several key components that are vital for bo
 
 To ground these concepts, we will use a hypothetical game called **Castle Quest!** as a running case study throughout this series to help illustrate our points about live services.
 
-![Castle Quest! log-in Horizon webpage](../../_assets/images/db8271f7b886d3ec94b3853ca8732d23133c8a1889f4707b58c14ad8ded20f5d.png)
+![Castle Quest! log-in Horizon webpage](../../.assets/images/db8271f7b886d3ec94b3853ca8732d23133c8a1889f4707b58c14ad8ded20f5d.png)
 
 *Our example game, Castle Quest!, is a role-playing game (RPG) built on Worlds. Players gather resources, outfit troops, and send them on quests in order to upgrade their castle.*
 
@@ -105,7 +105,7 @@ Player counts hold at roughly 300 per day, but revenue almost disappears. You lo
 
 Player counts fall even further. The new cosmetics generate some revenue, but far below your expectations.
 
-![Castle Quest! banners](../../_assets/images/d7a20f5b1a56318578fc90b8a2b9ea48d0e5abd4e3d837121d22a47564ce5b1d.png)
+![Castle Quest! banners](../../.assets/images/d7a20f5b1a56318578fc90b8a2b9ea48d0e5abd4e3d837121d22a47564ce5b1d.png)
 
 *Like many Worlds, Castle Quest! primarily monetizes through durable cosmetic goods. The economy could be more robust with consumable utility items, but the team also needs clear data on cosmetic sales to understand what’s working and what isn’t.*
 
@@ -139,7 +139,7 @@ Player counts fall even further. The new cosmetics generate some revenue, but fa
 | **Your action**                | Player counts fall further. Your new banner cosmetics generate very little revenue, and it becomes clear the game didn’t have broad enough monetization or strong enough retention systems. You still don’t have daily/weekly quests or community-building in place. |
 | **How live services can help** | A live-service plan would include a wider mix of monetization options and retention tools from the start, such as daily login bonuses and daily/weekly quests, to keep players engaged over time and reduce the risk of losing your spenders to other games.         |
 
-![Castle Quest! empty castle courtyard](../../_assets/images/200f7ff2a9197498e1a0fd6e48fefa78f76255c62b029ede69dfc684a85ba8cc.png)
+![Castle Quest! empty castle courtyard](../../.assets/images/200f7ff2a9197498e1a0fd6e48fefa78f76255c62b029ede69dfc684a85ba8cc.png)
 
 *Though Castle Quest! is initially engaging, even decorating castle grounds loses its appeal once players leave. Retention is key to maintaining a healthy live-service game.*
 

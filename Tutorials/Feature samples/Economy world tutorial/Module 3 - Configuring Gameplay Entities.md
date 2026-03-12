@@ -123,23 +123,23 @@ The SimpleLootItem.ts script has a prop `lootSKU` which is used to grant the pla
 
 1. Open the **Commerce** panel in the **Systems** menu
 
-![Create in-world item](../../../_assets/images/461a2812a2789677fc8649288c17d649c092d9aa86d6b9aa4d94811e72ae1843.jpg)
+![Create in-world item](../../../.assets/images/461a2812a2789677fc8649288c17d649c092d9aa86d6b9aa4d94811e72ae1843.jpg)
 
 1. Hover over the “Apple” line item
 
-![Hover the apple line item](../../../_assets/images/eaf4143ab53c8f5f09eff9bc7dc25ce8c067be77f648f730cdfa7199f9556c2a.jpg)
+![Hover the apple line item](../../../.assets/images/eaf4143ab53c8f5f09eff9bc7dc25ce8c067be77f648f730cdfa7199f9556c2a.jpg)
 
 1. Click the **Copy SKU** button
 
-![Copy the SKU](../../../_assets/images/32c41f3d1ae86128257b49bdf53e17f09b21a002c8ab3f3afc1b38def68f05de.jpg)
+![Copy the SKU](../../../.assets/images/32c41f3d1ae86128257b49bdf53e17f09b21a002c8ab3f3afc1b38def68f05de.jpg)
 
 1. Close the **Commerce** panel and **Systems** menu; then select an apple spawner in the world
 
-![Close the commerce panel](../../../_assets/images/e79cc9cee58eb4a2cf1333b216f2afcda3a701a4c7f66518fd875432670a774f.jpg)
+![Close the commerce panel](../../../.assets/images/e79cc9cee58eb4a2cf1333b216f2afcda3a701a4c7f66518fd875432670a774f.jpg)
 
 1. Paste (CTRL+V) the Apple SKU into the `lootSKU` property
 
-![Paste the Apple SKU](../../../_assets/images/ae141c02382608d39f17f176ae60964d5723643fa725641c9b8317da2ed8b033.jpg)
+![Paste the Apple SKU](../../../.assets/images/ae141c02382608d39f17f176ae60964d5723643fa725641c9b8317da2ed8b033.jpg)
 
 1. Repeat this for each of the apple spawners in the world
 
@@ -149,7 +149,7 @@ Now, when a player enters the apple spawner trigger while it is active, an in-wo
 
 To determine if players are receiving apples when they collect them, we will need to configure the Player HUDs so that it shows this information. In this world, there are 4x Custom UI gizmos located above the world with the PlayerHud script attached. These are named PlayerHud1, PlayerHud2, PlayerHud3, and PlayerHud4.
 
-![Player HUDs](../../../_assets/images/a330a9071fa93c3e82c9302ba0d90359a14abc95e7a2d7ac3f026cd8a73a0c98.jpg)
+![Player HUDs](../../../.assets/images/a330a9071fa93c3e82c9302ba0d90359a14abc95e7a2d7ac3f026cd8a73a0c98.jpg)
 
 Each of these is set to be owned by a player when they enter the world. This is done by the PlayerHudManager script, which is attached to the PlayerHudManager entity.
 
@@ -157,7 +157,7 @@ Configure each custom UI gizmo with the PlayerHud script attached to include the
 
 When finished, each CustomUI gizmo with the PlayerHud should show the following properties (with minor differences in the SKUs).
 
-![Player HUD configuration](../../../_assets/images/8ecbb4651dc213521f16bd808924f932120e2f1cdeb9f55abb636fdda8af1335.jpg)
+![Player HUD configuration](../../../.assets/images/8ecbb4651dc213521f16bd808924f932120e2f1cdeb9f55abb636fdda8af1335.jpg)
 
 ## [Testing the PlayerHUD and the apple spawner configuration](#testing-the-playerhud-and-the-apple-spawner-configuration)
 

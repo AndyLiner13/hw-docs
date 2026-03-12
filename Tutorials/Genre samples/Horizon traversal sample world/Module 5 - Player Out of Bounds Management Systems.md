@@ -9,7 +9,7 @@ The Out of Bounds (OOB) management system for the player consists of 1) a manage
 - **Manager script**: The manager script determines if a player is out of bounds by checking to see if a perimeter trigger has been breached and/or the player has dropped too low on the Y-axis (fallen off a building). While it is possible to have only OOB areas or Y-axis check, we do both as a failsafe. **Note**: The PlayerOOBManager.ts script is attached to the empty object (gray box) in the following screenshot.
 - **Respawning script** : When the player is out of bounds, the game fades out for the player. When it fades in again, the player is respawned at the closest respawn point on the course.
 
-![Image of respawning points](../../../_assets/images/dec41d805b3b8e9351abef942530ae2fb6a82dd1ca11d7c12f5e3c8050bb5a61.png)
+![Image of respawning points](../../../.assets/images/dec41d805b3b8e9351abef942530ae2fb6a82dd1ca11d7c12f5e3c8050bb5a61.png)
 
 A **SpawnPoint** is assigned to each player that enters the game. This SpawnPoint tracks along the player’s course during the game, whenever they are touching the ground. This is why it is important to not have accessible areas where the player cannot return to the course. When the player falls out of bounds (dies), the player is teleported back to the player’s tracking SpawnPoint as long as the game continues. We respawn the player some height above the last known ground location for safety, so they have time to adjust their location to fall back on the ground.
 

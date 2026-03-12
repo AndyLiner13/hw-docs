@@ -10,7 +10,7 @@ The following sections provide troubleshooting tips for a variety of common situ
 
 You can report bugs or submit suggestions through the desktop editor by selecting the **Report a problem** menu option.
 
-![Desktop editor menu](../../_assets/images/ad4e5bef049e1ad7cb9049603cf1c5b7ca97033d18efb1967df67c8da0cd047d.png)
+![Desktop editor menu](../../.assets/images/ad4e5bef049e1ad7cb9049603cf1c5b7ca97033d18efb1967df67c8da0cd047d.png)
 
 For more information about reporting a bug, filing a suggestion, or editing a submitted report check the [Feedback tool documentation](../../Get%20started/Feedback%20tool.md).
 

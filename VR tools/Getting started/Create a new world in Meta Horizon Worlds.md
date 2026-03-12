@@ -9,7 +9,7 @@ To open the **Create** menu:
 1. First, open your **Personal Menu**. Turn over your left wrist to open the wrist wearable and select the **Three Line** icon, or Press the recessed **Three Line** button on your left controller.
 2. Next, select the **Create** tab at the bottom of the menu, fourth from the left. You are now in the **Creations** tab of the **Create** menu.
 
-![](../../_assets/images/392d0181cfa409d5be324224955cb43fd0ba1506b1beb5cbf9fcb9db1cda1acd.png)
+![](../../.assets/images/392d0181cfa409d5be324224955cb43fd0ba1506b1beb5cbf9fcb9db1cda1acd.png)
 
 From here you can:
 

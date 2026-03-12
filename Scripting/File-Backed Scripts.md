@@ -58,10 +58,10 @@ Once you’ve created scripts in your world, use the following process to duplic
 
 1. Enter your world in VR and press down on the right control stick to enter the world management view.
 2. Press the three line menu icon on the left controller, then select **Assets** from the menu.
-3. In the Assets menu, select the **Script** icon from the floating menu bar at the bottom. ![Filebacked-scripts icon and library view](../_assets/images/eb7a63812c31e5db1cf332c5f62bdf6fc84fa0843632d19825282af808ea796f.png)
+3. In the Assets menu, select the **Script** icon from the floating menu bar at the bottom. ![Filebacked-scripts icon and library view](../.assets/images/eb7a63812c31e5db1cf332c5f62bdf6fc84fa0843632d19825282af808ea796f.png)
 4. Once in the Script menu, select **Library** to view all the scripts currently added to your world.
-5. Hover over a script and select the three dots on the script entry field, then select **Duplicate**. ![Filebacked-scripts duplicate selected script](../_assets/images/47a6a5aab2df3a41d398fc88c23ad43a0ffd3517155a9ecf21c61342c9dcc318.png)
-6. A new script will be created and added to your script library. ![Filebacked-scripts successfully duplicated script](../_assets/images/6568e605595fda91752df7ef0c9bc0c4b857733ce0233343702cc24858772655.png)
+5. Hover over a script and select the three dots on the script entry field, then select **Duplicate**. ![Filebacked-scripts duplicate selected script](../.assets/images/47a6a5aab2df3a41d398fc88c23ad43a0ffd3517155a9ecf21c61342c9dcc318.png)
+6. A new script will be created and added to your script library. ![Filebacked-scripts successfully duplicated script](../.assets/images/6568e605595fda91752df7ef0c9bc0c4b857733ce0233343702cc24858772655.png)
 
 **Note**: In file-backed scripts worlds the script gizmos are references to a script. Duplicating a script gizmo creates a new reference to the same script as the original gizmo. This means that any edits made to the duplicated gizmo will also apply to the original script.
 

@@ -34,19 +34,19 @@ By reading and reviewing this written guide you will be able to:
 
 Once the world is loaded, click the systems drop-down and select “Persistent Variables.”
 
-![Screenshot 2024-03-12 165250.png](../../_assets/images/06d811a47c1e1907dcb3f16b5efd718713b4149892721029b8196d206c03cdd3.png)
+![Screenshot 2024-03-12 165250.png](../../.assets/images/06d811a47c1e1907dcb3f16b5efd718713b4149892721029b8196d206c03cdd3.png)
 
 Click the plus icon to create a variable.
 
 In this example, we will name it “TestVar” making sure to select “{ } Object” from the drop-down.
 
-![Screenshot 2024-03-12 165344.png](../../_assets/images/d591a91b008a377fe5c803e4b06ac868cbdf2ee1307a2626f1ae3d4dbcbc11d0.png)
+![Screenshot 2024-03-12 165344.png](../../.assets/images/d591a91b008a377fe5c803e4b06ac868cbdf2ee1307a2626f1ae3d4dbcbc11d0.png)
 
 Now that JSON Object PPV has been created, it can be used in TypeScript scripts by referencing it using the string name it was given: “TestVar.”
 
 ## [Step 2: Create Scripts](#step-2-create-scripts)
 
-To begin, we will create two scripts with the specified names seen below. It’s important to verify that Meta Horizon’s 2.0 API is selected by accessing the settings via the gear icon. ![Screenshot 2024-03-12 165632.png](../../_assets/images/69f626285145ac1d07429623e08e39ddc2ec5ab51496c35b42e71fda0a55402e.png)
+To begin, we will create two scripts with the specified names seen below. It’s important to verify that Meta Horizon’s 2.0 API is selected by accessing the settings via the gear icon. ![Screenshot 2024-03-12 165632.png](../../.assets/images/69f626285145ac1d07429623e08e39ddc2ec5ab51496c35b42e71fda0a55402e.png)
 
 ### [Specified Script Names:](#specified-script-names)
 
@@ -69,7 +69,7 @@ As of the current Meta Horizon desktop build (March 2024), creating a new world 
 
 Access to this feature is found under the script tab: select the gear icon, followed by Script Settings to view the API Version drop-down:
 
-![](../../_assets/images/7cf32d89220c30c5c418692861b64f81ebe22b8ed256cb3e9318e6ec6be8d8a0.png)
+![](../../.assets/images/7cf32d89220c30c5c418692861b64f81ebe22b8ed256cb3e9318e6ec6be8d8a0.png)
 
 ## [Step 3: Prepare Scripts](#step-3-prepare-scripts)
 
@@ -81,9 +81,9 @@ Note: This is a personal preference, please choose the approach that works best 
 
 I personally like the explicit approach as you will know all items that have been imported from specific APIs, and you can do less typing, which is always nice!
 
-![](../../_assets/images/7a4149dc69c7085860f50766ffeca333b2c9dad74ab7b81dcb0196cc374e64d3.png)
+![](../../.assets/images/7a4149dc69c7085860f50766ffeca333b2c9dad74ab7b81dcb0196cc374e64d3.png)
 
-![](../../_assets/images/877379e2a07d96357811398215cd10e8e3b7b1032f2e9a8fc1e809a996c57e1d.png)
+![](../../.assets/images/877379e2a07d96357811398215cd10e8e3b7b1032f2e9a8fc1e809a996c57e1d.png)
 
 ## [What Are JSON Objects?](#what-are-json-objects)
 
@@ -150,17 +150,17 @@ highScore: 0,
 
 Next, we will connect the CodeBlockEvents for player enter and exit world to local methods. We have also added a console log to the methods to confirm the script is working.
 
-![Screenshot 2024-03-12 171631.png](../../_assets/images/a6682ea56bed8ba1223fad80bccddf1423f6756e5c214963c27fc1bced5352f1.png)
+![Screenshot 2024-03-12 171631.png](../../.assets/images/a6682ea56bed8ba1223fad80bccddf1423f6756e5c214963c27fc1bced5352f1.png)
 
 Ensure that the PlayerVar\_Manager script is attached to an object in your world. In this example, I used a text object:
 
-![Screenshot 2024-03-12 171735.png](../../_assets/images/6159d296b19805ad76e90ab609aed34aa7a54c2b201949819b3bec613b67bf2f.png)![Screenshot 2024-03-12 171909.png](../../_assets/images/61e587ef9bca9dd35eb962a8ccd2e61eca0df5ff1cf511ba713c98e5c1ecf0d5.png)![Screenshot 2024-03-12 171909.png](../../_assets/images/61e587ef9bca9dd35eb962a8ccd2e61eca0df5ff1cf511ba713c98e5c1ecf0d5.png)
+![Screenshot 2024-03-12 171735.png](../../.assets/images/6159d296b19805ad76e90ab609aed34aa7a54c2b201949819b3bec613b67bf2f.png)![Screenshot 2024-03-12 171909.png](../../.assets/images/61e587ef9bca9dd35eb962a8ccd2e61eca0df5ff1cf511ba713c98e5c1ecf0d5.png)![Screenshot 2024-03-12 171909.png](../../.assets/images/61e587ef9bca9dd35eb962a8ccd2e61eca0df5ff1cf511ba713c98e5c1ecf0d5.png)
 
 ## [Step 5: Define Type](#step-5-define-type)
 
 Before we can get and set a JSON Object PPV, we need to define it. Because this type is stored in a \_Defs script, we need to be able to access it from our other script files. To do this we add the word export to the front.
 
-![Screenshot 2024-03-12 181652.png](../../_assets/images/3969b03354135eb2a49b37f1da15a4fed1d5f4fd280459191ca11a9f575e9275.png)
+![Screenshot 2024-03-12 181652.png](../../.assets/images/3969b03354135eb2a49b37f1da15a4fed1d5f4fd280459191ca11a9f575e9275.png)
 
 Now that we have exported the type, we can import it into any of our other scripts by typing “PlayerVar” and clicking “enter” or “return” on our keyboard to import the type.
 
@@ -170,7 +170,7 @@ Now that our \_Defs file is setup, we need a place to store all of our player va
 
 Create a new script in Meta Horizon named “PlayerVar\_Data,” and then we will delete all of the prefilled code as we did with the \_Defs script.
 
-![Screenshot 2024-03-12 181658.png](../../_assets/images/d04589cc4f21172134d44dd4e245825befdcfcdf14a01e08784c0c7c78368697.png)
+![Screenshot 2024-03-12 181658.png](../../.assets/images/d04589cc4f21172134d44dd4e245825befdcfcdf14a01e08784c0c7c78368697.png)
 
 We will only need to write one line of code, and as we do, VS Code will write the import lines seen in the screenshot on lines 1 and 2.
 
@@ -194,15 +194,15 @@ We also export this data, because it is very likely you will need to use it acro
 
 In this step, we will start to write some code.  On the next few pages, we will provide in-depth explanations for each line:
 
-![](../../_assets/images/433ed388e8445e45c2f0b7409e3216aa57b0b4eb5da4718e64c0a7870c066ac1.png)
+![](../../.assets/images/433ed388e8445e45c2f0b7409e3216aa57b0b4eb5da4718e64c0a7870c066ac1.png)
 
 At the beginning of the script, you’ll encounter the variables. These variables are globally scoped variables, which means they are accessible from anywhere inside this script. These variables are constants; for instance, the playerVariableVersion should only be updated manually when introducing new variables—a process detailed later in the document (Step 9). Similarly, the playerVarName remains unchanged as it serves as a reference to the PPV variable.
 
-![Screenshot 2024-03-12 181721.png](../../_assets/images/433ed388e8445e45c2f0b7409e3216aa57b0b4eb5da4718e64c0a7870c066ac1.png)
+![Screenshot 2024-03-12 181721.png](../../.assets/images/433ed388e8445e45c2f0b7409e3216aa57b0b4eb5da4718e64c0a7870c066ac1.png)
 
 In playerEnterWorld we first get the PPV. Notice that it could be null, we handle this in the initializePlayerVar method (seen at the end of this step). Which we use to create a newPlayerVar. We have to create a newPlayerVar because the player may have last played in an older version with less variables stored in the PlayerVar type.
 
-![Screenshot 2024-03-12 181721.png](../../_assets/images/433ed388e8445e45c2f0b7409e3216aa57b0b4eb5da4718e64c0a7870c066ac1.png)
+![Screenshot 2024-03-12 181721.png](../../.assets/images/433ed388e8445e45c2f0b7409e3216aa57b0b4eb5da4718e64c0a7870c066ac1.png)
 
 Then we update the visits to be visits + 1, using the shorthand visits++. To make sure this is working we add a console log.
 
@@ -210,7 +210,7 @@ The last step is to add the player to the map we created in the previous step. W
 
 In playerExitWorld we get the playerVar from the map, which if you hover over the const playerVar will show that it is of type PlayerVar or Undefined. This is because it is possible that a player has not yet been mapped. We can check for this with if (playerVar) which checks if it is “true,” meaning not *undefined* , *null* , *false* or sort of false (i.e., 0, empty string). We can use an else statement that calls on console log if it is undefined; this can help locate bugs now and in the future. It is recommended to use checks like this in your code.
 
-![Screenshot 2024-03-12 181721.png](../../_assets/images/433ed388e8445e45c2f0b7409e3216aa57b0b4eb5da4718e64c0a7870c066ac1.png)
+![Screenshot 2024-03-12 181721.png](../../.assets/images/433ed388e8445e45c2f0b7409e3216aa57b0b4eb5da4718e64c0a7870c066ac1.png)
 
 Now that we know playerVar is defined, we can set the player’s JSON Object PPV, which saves their JSON Object to the world’s persistent storage.
 
@@ -222,7 +222,7 @@ This function is important because it allows us to take a potentially null/undef
 
 **Please note**: There is an error as of the time of writing in Meta Horizon’s API, which says the variable could be defined or null, but is actually defined or undefined. This distinction caused an error with the code seen at the beginning of this step, **below the code is corrected, checking the truthiness of (prevPlayerVar) rather than (prevPlayerVar !== null).**
 
-![](../../_assets/images/794a50e572fd45399c210590292159b031a774caa26fa97f29e05e0bcac59678.png)
+![](../../.assets/images/794a50e572fd45399c210590292159b031a774caa26fa97f29e05e0bcac59678.png)
 
 The first thing we do in this function is create a brand new object variable with values we would assign to a first-time visitor. That way if the prevPlayerVar is not truthy we return those values. Otherwise, we can check that the version contains values we want to recall, and save them to the new object.
 
@@ -232,37 +232,37 @@ Now you can compile your newly saved code and test it. If all goes well, every t
 
 Now that we have our JSON Object PPV, we need to make sure we don’t run it over the 10,000 character limit. To test this we can create an artificial maxed variable and stringify it to see how long it is.
 
-![Screenshot 2024-03-12 184022.png](../../_assets/images/4df006774224e5a150583e3b46d9abbf0210f216abeda19ddecf6f0559bef5bb.png)
+![Screenshot 2024-03-12 184022.png](../../.assets/images/4df006774224e5a150583e3b46d9abbf0210f216abeda19ddecf6f0559bef5bb.png)
 
 In our testPlayerVarSize function, we have created a testPlayerVar variable with larger-than-possible values. We then calculate the length using JSON.stringify, and the .length property of strings. We then simply log that number to the console.
 
 All that is left, is to call this in the start method. When we are done, we can delete this line of code from start, and write it in anytime we need to check the max length.
 
-![Screenshot 2024-03-12 184035.png](../../_assets/images/a27cf853d6c3b9df1ef0e80a9b2178d637d7e47685d1efe51543235cd52ed24d.png)
+![Screenshot 2024-03-12 184035.png](../../.assets/images/a27cf853d6c3b9df1ef0e80a9b2178d637d7e47685d1efe51543235cd52ed24d.png)
 
 ## [Step 9: Add More Variables](#step-9-add-more-variables)
 
 Start by updating the type to include additional variables. In this case we added isAFK and afkCount:
 
-![Screenshot 2024-03-19 at 12.18.46 PM.png](../../_assets/images/0c35f1a0e6944c8f6e6a6827038d2552edd207daadf1ae225871d85fea6a544f.png)
+![Screenshot 2024-03-19 at 12.18.46 PM.png](../../.assets/images/0c35f1a0e6944c8f6e6a6827038d2552edd207daadf1ae225871d85fea6a544f.png)
 
 We then add these to the initialize and test size functions:
 
-![Screenshot 2024-03-12 185301.png](../../_assets/images/f9f1fd971a319459451571396717140b4e427a5087fdffc6b91d60398458c487.png)![Screenshot 2024-03-12 185200.png](../../_assets/images/1e6aaa685773e5da6dd46b8f6ce3d934241954c99d400cb35f50e9beee1855b6.png)
+![Screenshot 2024-03-12 185301.png](../../.assets/images/f9f1fd971a319459451571396717140b4e427a5087fdffc6b91d60398458c487.png)![Screenshot 2024-03-12 185200.png](../../.assets/images/1e6aaa685773e5da6dd46b8f6ce3d934241954c99d400cb35f50e9beee1855b6.png)
 
-We also need to update the version number from 1 to 2: ![Screenshot 2024-03-12 185053.png](../../_assets/images/8afbf88a72ed3b84a785932cb8856416c39472d3f3ddf3ab4189a1f7dc87071c.png)
+We also need to update the version number from 1 to 2: ![Screenshot 2024-03-12 185053.png](../../.assets/images/8afbf88a72ed3b84a785932cb8856416c39472d3f3ddf3ab4189a1f7dc87071c.png)
 
 Then we can use this new version number to get the afkCount for players who have visited our world since the variable was added:
 
-![Screenshot 2024-03-12 185249.png](../../_assets/images/50fbc2d8368f1bb4b346b9443d06e00e850479326c5f020cae9d82871683bc53.png)
+![Screenshot 2024-03-12 185249.png](../../.assets/images/50fbc2d8368f1bb4b346b9443d06e00e850479326c5f020cae9d82871683bc53.png)
 
 ## [Step 10: Use the Variables](#step-10-use-the-variables)
 
 To get started using our new afkCount variable, we will connect the CodeBlockEvents for entering AFK to our local method:
 
-![Screenshot 2024-03-12 185526.png](../../_assets/images/9923b937ef498ae10ef03333b5913860f3dc42762c3d82845bd4f27713dba32c.png)
+![Screenshot 2024-03-12 185526.png](../../.assets/images/9923b937ef498ae10ef03333b5913860f3dc42762c3d82845bd4f27713dba32c.png)
 
-![Screenshot 2024-03-12 185514.png](../../_assets/images/b1c643c846fa3b059598daf7b332f62ff2705f083affa13ec5322f259ddae128.png)
+![Screenshot 2024-03-12 185514.png](../../.assets/images/b1c643c846fa3b059598daf7b332f62ff2705f083affa13ec5322f259ddae128.png)
 
 Then we can get the playerVar and check the truthiness, updating the count to be +1. For extra credit try adding the playerExitAFK method and updating the boolean we added to the playerVar. Setting it to true when AFK, and false when they return from AFK.
 

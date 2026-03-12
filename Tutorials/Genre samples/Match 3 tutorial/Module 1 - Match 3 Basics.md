@@ -14,11 +14,11 @@ To win, players have to clear a specific number of tiles within a set number of 
 
 A great Match 3 game encourages players to think ahead in order to chain multiple matches from a single move.
 
-To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down. ![A view of the "scripts in this world" drop down](../../../_assets/images/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)
+To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down. ![A view of the "scripts in this world" drop down](../../../.assets/images/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)
 
 ## [Try It First](#try-it-first)
 
-![Example of the Match 3 board](../../../_assets/images/8b30c1bed0d5f2f18feef9a6a1b4960bdd29accb77cd5fe8998e99ff1a34d505.png)
+![Example of the Match 3 board](../../../.assets/images/8b30c1bed0d5f2f18feef9a6a1b4960bdd29accb77cd5fe8998e99ff1a34d505.png)
 
 ### [Play the Match 3 Basics game](#play-the-match-3-basics-game)
 
@@ -37,7 +37,7 @@ Now that you’ve experienced the game, let’s break down how each mechanic wor
 
 ### [Step 1: Match Mechanics](#step-1-match-mechanics)
 
-![Example of a purple gem match in Match 3](../../../_assets/gifs/be965b153bf53f9ea64660c076d94852cde46fcd68ed207254a9a86949b8668f.gif)
+![Example of a purple gem match in Match 3](../../../.assets/gifs/be965b153bf53f9ea64660c076d94852cde46fcd68ed207254a9a86949b8668f.gif)
 
 Learn about the basic swap-and-match system that makes tiles disappear when you line up 3 in a row.
 
@@ -69,7 +69,7 @@ Key files to explore:
 
 ### [Step 2: Board Management](#step-2-board-management)
 
-![Example of an orange gem match in Match 3](../../../_assets/gifs/f4a55682e6d7f3f62a05a711cc5e44ea3e4bf66a105c1e1d09e9265b78abb4da.gif)
+![Example of an orange gem match in Match 3](../../../.assets/gifs/f4a55682e6d7f3f62a05a711cc5e44ea3e4bf66a105c1e1d09e9265b78abb4da.gif)
 
 Learn how the board stores tiles, removes matched ones, and refills empty spaces.
 
@@ -103,7 +103,7 @@ Key files to explore:
 
 ### [Step 3: Cascades](#step-3-cascades)
 
-![Example of a 3 match cascade in Match 3](../../../_assets/gifs/a8d169210b84c7c868dfa4036b91ebdf554d7126bbc0f913cc4c35e6e67d76e0.gif)
+![Example of a 3 match cascade in Match 3](../../../.assets/gifs/a8d169210b84c7c868dfa4036b91ebdf554d7126bbc0f913cc4c35e6e67d76e0.gif)
 
 Learn about the cascade system that rewards players for creating chain reactions, powered by a state machine.
 
@@ -111,7 +111,7 @@ Learn about the cascade system that rewards players for creating chain reactions
 
 The game uses a *state machine* (`GameStateController`) that automatically creates cascades. When tiles fall and create new matches, the game loops through states:
 
-![A diagram of the state machine](../../../_assets/images/13a00f2f3d7ec41492e55afcc4a270015e53977c838afd9bdc7372ce91bb7475.png)
+![A diagram of the state machine](../../../.assets/images/13a00f2f3d7ec41492e55afcc4a270015e53977c838afd9bdc7372ce91bb7475.png)
 
 In the code, you’ll find:
 
@@ -144,7 +144,7 @@ Key files to explore:
 
 ### [Step 4: Win Conditions](#step-4-win-conditions)
 
-![An example of winning in Match 3](../../../_assets/gifs/f924b3d0a393a9cfa6145da75646b69325f9b22cf6ffe79acd4efea3e781f57d.gif)
+![An example of winning in Match 3](../../../.assets/gifs/f924b3d0a393a9cfa6145da75646b69325f9b22cf6ffe79acd4efea3e781f57d.gif)
 
 To complete the board, players must complete all of the objectives before they run out of moves.
 
@@ -204,7 +204,7 @@ Key files to explore:
 
 The Match 3 Basics implementation follows this state machine flow:
 
-![State machine for the code architecture](../../../_assets/images/ad56c185f2939cbe20357a5227ecaf5e31cec9dda0588b4bee7d6b836151c016.png)
+![State machine for the code architecture](../../../.assets/images/ad56c185f2939cbe20357a5227ecaf5e31cec9dda0588b4bee7d6b836151c016.png)
 
 **Key insight**: The state machine automatically handles cascades by looping between `CHECK_MATCHES` and `APPLY_GRAVITY` until no more matches exist. The `ComboTracker` increments with each loop iteration, increasing the score multiplier.
 

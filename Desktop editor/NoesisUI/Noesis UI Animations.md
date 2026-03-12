@@ -43,8 +43,8 @@ Sometimes creators may want to add specific action at the end of an animation. T
 
 1. Open **Interactivity** tab in the left toolbar
 2. Select desired component and press plus icon to **Add trigger**
-3. Select **Storyboard Completed Trigger** to handle end of animation state. ![Noesis animation tutorial panel](../../_assets/images/656491554283a6dde932e81d3a134e55286596206d50fc42ca1fc21cc633dcb1.png)
-4. In the properties panel on the right add **InvokeCommandAction** in the **Actions** section and select a desired command. ![Noesis animation tutorial panel](../../_assets/images/1957bd968c06c547e2de516b7bef20531774e099e06d95aa18a5c45082135d22.png)
+3. Select **Storyboard Completed Trigger** to handle end of animation state. ![Noesis animation tutorial panel](../../.assets/images/656491554283a6dde932e81d3a134e55286596206d50fc42ca1fc21cc633dcb1.png)
+4. In the properties panel on the right add **InvokeCommandAction** in the **Actions** section and select a desired command. ![Noesis animation tutorial panel](../../.assets/images/1957bd968c06c547e2de516b7bef20531774e099e06d95aa18a5c45082135d22.png)
 
 ## [Additional resources](#additional-resources)
 

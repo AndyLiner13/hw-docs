@@ -8,7 +8,7 @@ You can inject a cutscene into your world experience using transitions of a fixe
 
 In the final station of this tutorial is a magic green button.
 
-![Button in the world to activate the cutscene](../../../_assets/images/36a655d559e17ceba9881ede99a60ee96dcf82f939cb4de3eec37bce137b9584.png)
+![Button in the world to activate the cutscene](../../../.assets/images/36a655d559e17ceba9881ede99a60ee96dcf82f939cb4de3eec37bce137b9584.png)
 
 When this button is pressed:
 

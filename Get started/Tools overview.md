@@ -23,7 +23,7 @@ PC creation tools support cross-platform publishing across VR and mobile, offeri
 
 The desktop editor is the integrated game development environment for Worlds. It allows you to build worlds and scenes, and to add and modify objects in your worlds. The desktop editor runs on Windows, and you control it with the keyboard and mouse, rather than your VR headset.
 
-**Note**: Building a world with the desktop editor is similar to building a game in Unity and is easier than using the editor on your VR headset. ![Desktop editor screenshot](../_assets/images/82d4aa02de58aeecf7cf6c5c162710d87eaada1abcfc4c323d02733bf4d87edb.png) The desktop editor allows you to:
+**Note**: Building a world with the desktop editor is similar to building a game in Unity and is easier than using the editor on your VR headset. ![Desktop editor screenshot](../.assets/images/82d4aa02de58aeecf7cf6c5c162710d87eaada1abcfc4c323d02733bf4d87edb.png) The desktop editor allows you to:
 
 - Create a world
 - Add shapes, gizmos, sounds, and colliders to the world
@@ -42,7 +42,7 @@ To install the desktop editor, see [Install the desktop editor](Install%20the%20
 
 ## [TypeScript](#typescript)
 
-TypeScript support in Worlds allows you to write scripts efficiently using traditional programming processes and tools. You can create a new TypeScript asset from the desktop editor, type your TypeScript code in VS Code, and then attach it as a component to an object. Using TypeScript expands your development options and adds safety and security to your code. ![Typescript screenshot](../_assets/images/341f80ab4949b4234691dda27b66add53157dd0ddab74e30e3e1c63847662473.png) TypeScript is a strongly-typed version of JavaScript. Strong typing provides tight integration with your IDE, letting you:
+TypeScript support in Worlds allows you to write scripts efficiently using traditional programming processes and tools. You can create a new TypeScript asset from the desktop editor, type your TypeScript code in VS Code, and then attach it as a component to an object. Using TypeScript expands your development options and adds safety and security to your code. ![Typescript screenshot](../.assets/images/341f80ab4949b4234691dda27b66add53157dd0ddab74e30e3e1c63847662473.png) TypeScript is a strongly-typed version of JavaScript. Strong typing provides tight integration with your IDE, letting you:
 
 - Leverage IntelliSense (code completion).
 - Catch errors during development, rather than at runtime.
@@ -51,7 +51,7 @@ To get started, see [Using TypeScript in Worlds](../Scripting/Get%20started%20wi
 
 ## [Custom Model Import](#custom-model-import)
 
-The custom model import option in the desktop editor enables you to fill your world with objects spawned from imported 3D models, created using your favorite 3D creation tool. In Worlds, you refer to the resulting world as a custom model world. You can find your imported assets in your personal asset library. The following image shows an example of what a complex 3D object spawned from an imported asset looks like. In this case, it’s a park bench. ![Custom model import screenshot](../_assets/images/dc639b0f2eec04749bb5c6866a520fabb98b92d6cff817e98350dc835c118a4a.png) A custom 3D model is composed of multiple files, and you need to specify all of them when you import a 3D model into the desktop editor. These files include:
+The custom model import option in the desktop editor enables you to fill your world with objects spawned from imported 3D models, created using your favorite 3D creation tool. In Worlds, you refer to the resulting world as a custom model world. You can find your imported assets in your personal asset library. The following image shows an example of what a complex 3D object spawned from an imported asset looks like. In this case, it’s a park bench. ![Custom model import screenshot](../.assets/images/dc639b0f2eec04749bb5c6866a520fabb98b92d6cff817e98350dc835c118a4a.png) A custom 3D model is composed of multiple files, and you need to specify all of them when you import a 3D model into the desktop editor. These files include:
 
 - An FBX file. This is the 3D model file format. It contains the 3D mesh along with scene data such as cameras, lighting, geometry, materials, and animations.
 - One or more PNG files. These are image files, and they contain textures that map onto the 3D model’s surface to make the spawned object look more realistic. You can also create your own static lighting and collision models for your imported 3D models.
@@ -68,7 +68,7 @@ A Non-Player Character (NPC) is a computer-controlled character within a world (
 - To serve as enemies or obstacles for the player to overcome.
 - To add to the game’s atmosphere and immersion.
 
-![NPC screenshot](../_assets/images/f54c92a987d205d34cd33ebdee333a0c285c363a68414bff9a3e78a8c58d51bc.png)
+![NPC screenshot](../.assets/images/f54c92a987d205d34cd33ebdee333a0c285c363a68414bff9a3e78a8c58d51bc.png)
 
 NPCs can range from simple scripted characters to complex AI-driven characters that learn and adapt to the player’s actions. There are four types of archetype NPC characters that you can spawn into your scene, according to your needs. Utility, Storyteller, Antagonist, and Ally types of NPCs all exhibit behaviors that are controlled with an AI script. These NPC archetypes act in the following ways:
 
@@ -81,13 +81,13 @@ For more information, see [Getting started with NPC assets](https://developers.m
 
 ## [Performance tools](#performance-tools)
 
-Real-time performance metrics and server-side tracing can help you as a creator, find and address performance issues in your worlds. You can access the performance tools via browser while visiting your world, alleviating the need to put on a VR headset to get performance data. ![Performance tooling screenshot](../_assets/images/9eef221e5adff1a4eafc126d4bd21769b1295a7451ea72752e3ef17fecfe4ff0.png) The **Performance** tab displays a real-time view of all currently selected metrics. You can select which metrics to display on the tab and you can also set a target number for each metric. When a metric exceeds the defined target, a red dot appears next to that metric as an alert. This tab also supports scrubbing and tracing. With scrubbing, you can review data that has recently appeared on the **Performance** tab (approximately 30 seconds worth) in detail. With tracing, you can capture performance data from your world to view in Perfetto. Perfetto is a third-party tool for performance instrumentation and trace analysis.
+Real-time performance metrics and server-side tracing can help you as a creator, find and address performance issues in your worlds. You can access the performance tools via browser while visiting your world, alleviating the need to put on a VR headset to get performance data. ![Performance tooling screenshot](../.assets/images/9eef221e5adff1a4eafc126d4bd21769b1295a7451ea72752e3ef17fecfe4ff0.png) The **Performance** tab displays a real-time view of all currently selected metrics. You can select which metrics to display on the tab and you can also set a target number for each metric. When a metric exceeds the defined target, a red dot appears next to that metric as an alert. This tab also supports scrubbing and tracing. With scrubbing, you can review data that has recently appeared on the **Performance** tab (approximately 30 seconds worth) in detail. With tracing, you can capture performance data from your world to view in Perfetto. Perfetto is a third-party tool for performance instrumentation and trace analysis.
 
 For more information, see [Using performance tools from web and mobile](../Performance/Performance%20tools/Using%20performance%20tools%20from%20web%20and%20mobile.md).
 
 ## [Gen AI Creation tools](#gen-ai-creation-tools)
 
-The desktop editor features a suite of Gen AI Creation tools that assist you in generating script code, audio samples, mesh metadata, and textures. ![GenAI audio screenshot](../_assets/images/b734549396518d97791bddc3267e2fc57d5cfbff3d873114f36179b4e63c79ca.png)
+The desktop editor features a suite of Gen AI Creation tools that assist you in generating script code, audio samples, mesh metadata, and textures. ![GenAI audio screenshot](../.assets/images/b734549396518d97791bddc3267e2fc57d5cfbff3d873114f36179b4e63c79ca.png)
 
 ### [Gen AI code tool](#gen-ai-code-tool)
 

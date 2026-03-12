@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 1 - Setup](#module-1---setup)
 
-![Thumbnail of Camera API Examples World](../../../_assets/images/bbfd8bf239b34b6d695d1a1739a576221fce40ef0d9d01149035670fd7b9243a.png)
+![Thumbnail of Camera API Examples World](../../../.assets/images/bbfd8bf239b34b6d695d1a1739a576221fce40ef0d9d01149035670fd7b9243a.png)
 
 > [!Important]
 >

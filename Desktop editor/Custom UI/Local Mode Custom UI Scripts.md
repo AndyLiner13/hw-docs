@@ -9,7 +9,7 @@ Custom UI supports local mode. It runs the attached script on the player client 
 ## [Create custom UI with local mode scripting](#create-custom-ui-with-local-mode-scripting)
 
 1. Create a UI with Custom UI gizmo and attach a TS `UIComponent` script.
-2. On the property config of the attached script, change the **Script Execution Mode** to **Local.**![](../../_assets/images/83b45ccdc485b01f2b5b8f60970086d4fb86937bec950178690e5063eeef88ee.png)
+2. On the property config of the attached script, change the **Script Execution Mode** to **Local.**![](../../.assets/images/83b45ccdc485b01f2b5b8f60970086d4fb86937bec950178690e5063eeef88ee.png)
 3. Call `uiEntity.Owner.set(player)` when you want to transfer a UI to the player’s local client. This call can happen inside or outside of the `UIComponent` scripts.
 4. Now the attached `UIComponent` script will be executed on the player’s local client, which will remove the networking during binding updates and callback response, reducing the binding and callback turnaround time to minimal.
 5. See sections below on detailed behavior and other optional API can be used during transfer.

@@ -89,7 +89,7 @@ Controls the playing of sounds that are heard by all players throughout the worl
 
 Behind the back wall of the starting area, you can find the following tools.
 
-![Screenshot of the testing tool gizmos available in the world](../../../_assets/images/b82d7e76d9d6395119582eca7461c6156cf30726963d5eb5e0ce08fef408a0da.png)
+![Screenshot of the testing tool gizmos available in the world](../../../.assets/images/b82d7e76d9d6395119582eca7461c6156cf30726963d5eb5e0ce08fef408a0da.png)
 
 **Tip**: Move these tools into the gameplay area to take advantage of them.
 

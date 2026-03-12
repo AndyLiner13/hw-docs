@@ -26,11 +26,11 @@ You can use the following steps to upgrade your world to API v2.0.0 and to addre
 
 3. Click the scripts icon.
 
-   ![The scripts icon.png](../_assets/images/cb0fa18fd8fd280a16cd0feb5f9bd1a4f6344c20926ec1617ff2ab044b2e3215.png)
+   ![The scripts icon.png](../.assets/images/cb0fa18fd8fd280a16cd0feb5f9bd1a4f6344c20926ec1617ff2ab044b2e3215.png)
 
 4. In the Scripts panel, click the **Settings** icon.
 
-   ![The settings icon.png](../_assets/images/77a6629ff926d76b02c2f7cf67ecf1882350067741d62649a354d831820a3e27.png)
+   ![The settings icon.png](../.assets/images/77a6629ff926d76b02c2f7cf67ecf1882350067741d62649a354d831820a3e27.png)
 
 5. In the **Script Settings** panel, note all API modules from prior versions that are currently enabled.
 
@@ -38,11 +38,11 @@ You can use the following steps to upgrade your world to API v2.0.0 and to addre
 
 6. Select **2.0.0** from the **API** version list.
 
-   ![The API version list.png](../_assets/images/c40e74b2b66e1ebca717fcfb872a9b334307a26caf38bf721e44e8805a732f1c.png)
+   ![The API version list.png](../.assets/images/c40e74b2b66e1ebca717fcfb872a9b334307a26caf38bf721e44e8805a732f1c.png)
 
 7. Enable the API modules that you use in your world.
 
-   ![Scripts settings.png](../_assets/images/439c10e9fb9e7f250d6b9ce2d3c030f7d198bff88e3337e6438be6017e5e1f38.png)
+   ![Scripts settings.png](../.assets/images/439c10e9fb9e7f250d6b9ce2d3c030f7d198bff88e3337e6438be6017e5e1f38.png)
 
 8. Click **Apply**.
 

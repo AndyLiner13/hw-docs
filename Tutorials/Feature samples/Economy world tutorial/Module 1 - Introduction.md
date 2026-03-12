@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 1 - Introduction](#module-1---introduction)
 
-![Economy world cover image](../../../_assets/images/06c905413a0bc33483c0d770a5d2bdeabf8c5542b37c6abd57948fe81921ccf0.png)
+![Economy world cover image](../../../.assets/images/06c905413a0bc33483c0d770a5d2bdeabf8c5542b37c6abd57948fe81921ccf0.png)
 
 Welcome to module 1 of the Economy World tutorial. In this tutorial, you will learn:
 

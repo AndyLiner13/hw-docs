@@ -44,7 +44,7 @@ This example clearly illustrates how to build a compelling opening session that 
 
 Once players are settled after the first few minutes of gameplay, ask yourself: “*Where should players go next?*” Guide them toward the experiences you want them to explore next. Many games drop players in and let them decide. Instead, use guiding UI prompts to funnel players to the proper places in the game that give them a distinct goal for playing.
 
-![](../../_assets/images/5b6c6bfb071a5dbbf2ce2f95c69c266a500e2a527326963eeeb082984b054510.png)
+![](../../.assets/images/5b6c6bfb071a5dbbf2ce2f95c69c266a500e2a527326963eeeb082984b054510.png)
 
 *To prevent player churn, avoid overwhelming players with excessive choices and a lack of clear direction. A completely open-ended sandbox experience can leave players feeling unsure of their objectives and next steps.*
 
@@ -72,7 +72,7 @@ Simplicity is key for most Worlds experiences on mobile. Unless your World is hi
 
 Worlds and other platform games offer developers the opportunity to create a variety of experiences. If you’re developing a less traditional World, follow mobile game best practices to ensure players quickly understand controls. Too much friction early on can cause players to quit before discovering what makes your World fun.
 
-![](../../_assets/images/cc6f36d4d200d50aef457ec64a9a6d9c4bf01a9cb8e84b13d9586c8d00f124f2.png)
+![](../../.assets/images/cc6f36d4d200d50aef457ec64a9a6d9c4bf01a9cb8e84b13d9586c8d00f124f2.png)
 
 *When developing games that share similarities with existing platform titles, it’s unnecessary to re-explain fundamental concepts. Often, simply making the objective (e.g., reaching a treasure chest) and the obstacles (e.g., a gap to be jumped) visually clear can be sufficient for players to grasp the game’s rules intuitively.*
 
@@ -85,7 +85,7 @@ While building a player’s confidence is valuable, there is also value in allow
 1. **Progression systems** (adding equipment or leveling characters up)
 2. **Power-ups or consumables** (or even extra moves) to gently direct players towards monetization offerings
 
-![](../../_assets/images/c08311a99b22523a65a6ef8576347cf6ca04a2c38a383a3c2ec36e007094fdde.png)
+![](../../.assets/images/c08311a99b22523a65a6ef8576347cf6ca04a2c38a383a3c2ec36e007094fdde.png)
 
 *Many puzzle games are designed with challenging levels at their core. Players might need multiple attempts to complete a level, or they can opt to purchase temporary power-ups to overcome obstacles.*
 
@@ -95,7 +95,7 @@ Losses, if properly incorporated into the NUX, should come *after* mastery and c
 
 In addition to teaching players how to play, your NUX should show them what a full gameplay session looks like. Make it clear how much time a typical session requires and what kind of progress players can expect to make.
 
-![](../../_assets/images/157f9070e978edf8ff21c5339bb285d1b7a0610c59c0fdf6665590c6c2464b54.png)
+![](../../.assets/images/157f9070e978edf8ff21c5339bb285d1b7a0610c59c0fdf6665590c6c2464b54.png)
 
 *Task lists serve a dual purpose: they reward player engagement and act as a tutorial. They inform players about the expected daily or weekly system interactions and the anticipated time commitment required to keep pace.*
 
@@ -112,7 +112,7 @@ From simple to complex, most games on mobile have a narrative component to give 
 3. The player’s role in the world
 4. The foundation for the gameplay ahead
 
-![](../../_assets/images/be365f7ff212406b13b0861c9b6282d23a4a4002bcd18f4c35f28a9c98b9f05c.png)
+![](../../.assets/images/be365f7ff212406b13b0861c9b6282d23a4a4002bcd18f4c35f28a9c98b9f05c.png)
 
 *Implement waiting periods between story installments to manage player progression and encourage recurring engagement. Ensure alternative, lower-reward activities remain accessible during these wait times.*
 
@@ -120,7 +120,7 @@ From simple to complex, most games on mobile have a narrative component to give 
 
 The new user experience should walk the player through the basics of progression: what benefits it offers, and most importantly, how to make progress. For example, in a combat-focused RPG (whether player vs. player or player vs. enemy), you might walk players through leveling up a character or upgrading a piece of gear early in the game.
 
-![](../../_assets/images/25cc40a3db62e7799376a7aaaf2a0a1f82c0e6da078b9bab843f24ad9cbecbdb.png)
+![](../../.assets/images/25cc40a3db62e7799376a7aaaf2a0a1f82c0e6da078b9bab843f24ad9cbecbdb.png)
 
 *When integrating upgrade-based progression into your game, introduce it during the New User Experience (NUX). Even if players anticipate such systems, they require clear instruction on its mechanics and the specific advantages it offers within your game.*
 
@@ -130,7 +130,7 @@ For single-player, non-combat experiences (like puzzle or exploration games), pl
 
 Another aspect to highlight is the goals and stretch goals the player can aim for. These goals must provide strong and compelling reasons to keep playing. Even in straightforward social games like *Spin the Bottle* or *Among Us*, players have an ever-growing collection of cosmetics to chase. These goals should be introduced but never completed during the NUX.
 
-![](../../_assets/images/d03d9fcd00476a5b2d63e3852f8c8896897c1749252581a93ddc0f8f2c7fc008.png)
+![](../../.assets/images/d03d9fcd00476a5b2d63e3852f8c8896897c1749252581a93ddc0f8f2c7fc008.png)
 
 *To engage players and structure early gameplay, it’s beneficial to introduce goal systems that hint at future content. While these systems should be presented, players should be encouraged to return for subsequent sessions to fully complete all objectives.*
 
@@ -154,7 +154,7 @@ The game should provide multiple on-ramps to the store via pop-ups or anchored m
 
 As players get closer to mid-game, new currencies may be required. These do not need to surface in the NUX. The player is still finding their feet and doesn’t need another item to track.
 
-![](../../_assets/images/233ba64400daf6911e58d50334d5bc568374508783dc5e7161caec04f6621125.png)
+![](../../.assets/images/233ba64400daf6911e58d50334d5bc568374508783dc5e7161caec04f6621125.png)
 
 *Horizon Worlds games often feature unique 3D, or “embodied,” shops. Despite their visual appeal, it’s crucial to design your shop to facilitate easy price and value comparison between different offerings. Upon a player’s initial visit, ensure they possess sufficient currency to make at least one recommended purchase.*
 
@@ -172,7 +172,7 @@ Conversely, a NUX can overburden the player with too much information. This pres
 
 Second, players cannot be expected to retain all the information presented in an overly-long NUX. Even genre veterans face a learning curve with a new game’s nuances. Prioritize teaching the fundamentals. Save advanced, mid-to-late game information for later tutorials.
 
-![](../../_assets/images/fe50a50329632657b5732e2936716d4d982955f1b3e4f63b06f1ee2fd4b6a2c9.png)
+![](../../.assets/images/fe50a50329632657b5732e2936716d4d982955f1b3e4f63b06f1ee2fd4b6a2c9.png)
 
 *Players may feel overwhelmed and fail to retain information if they are simply given a wall of basic instructions and then left to play the game on their own. This approach is likely to be counterproductive.*
 

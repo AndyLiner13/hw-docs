@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 1 - Setup](#module-1---setup)
 
-![Title image of an in-headset view with lettering displaying 'Spawning and Pooling in Typescript'](../../../_assets/images/0bee0f1bddd1b3a6033b83f77ee89be23dff6196c41e536179d18916bd6f39e3.jpg)
+![Title image of an in-headset view with lettering displaying 'Spawning and Pooling in Typescript'](../../../.assets/images/0bee0f1bddd1b3a6033b83f77ee89be23dff6196c41e536179d18916bd6f39e3.jpg)
 
 > [!Important]
 >
@@ -42,7 +42,7 @@ When you create a new world in the desktop editor, you can create it based on th
 
 **In headset**:
 
-![Screenshot of opening the Spawning and Pooling tutorial world in headset](../../../_assets/images/b68dac4f7e591cc07c9996754280db910b33961eeb6d4c8d55840c05443d1b06.png)
+![Screenshot of opening the Spawning and Pooling tutorial world in headset](../../../.assets/images/b68dac4f7e591cc07c9996754280db910b33961eeb6d4c8d55840c05443d1b06.png)
 
 1. In the Create menu in your headset, click the **Tutorials tab**.
 2. Locate the Spawning and Pooling in TypeScript world. Click **Start**.

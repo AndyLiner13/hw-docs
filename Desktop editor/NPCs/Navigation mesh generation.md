@@ -50,33 +50,33 @@ This section describes how to set up and generate navigation meshes in World Bui
 1. In the **Systems** drop-down menu, click the **Navigations** button. The **Navigation Profiles** menu lists any navigation profiles defined for your world.
 2. Click the **+** button to define a new navigation profile.
 
-![](../../_assets/images/c13da812831bcff5b0b9794cfd5e8a1c95dab1b99eaebe1ea72b83e494c8fe4b.png)
+![](../../.assets/images/c13da812831bcff5b0b9794cfd5e8a1c95dab1b99eaebe1ea72b83e494c8fe4b.png)
 
 1. In the **Create Navigation Profile** menu, fill in the properties and click **Create**. This displays the new agent profile in the **Navigation Profiles** menu.
 2. To update a profile, hover over the menu item and click the **Edit** button. This displays the properties for that profile, which can be modified and saved.
 
-![](../../_assets/images/06a3c161163cdd157e9c36d9123a55ce6fd3cc4d063a204b5f0708f01b5450db.png)
+![](../../.assets/images/06a3c161163cdd157e9c36d9123a55ce6fd3cc4d063a204b5f0708f01b5450db.png)
 
 ### [Adding a navigation gizmo](#adding-a-navigation-gizmo)
 
 1. Drag and drop the **Navigation Volume** gizmo into your world from the toolbar in the Navigation section.
 
-![](../../_assets/images/24c4431501489e2d8a2dabbc1c8b15088159fcdaf629dfc4dbae400038b0255c.png)
+![](../../.assets/images/24c4431501489e2d8a2dabbc1c8b15088159fcdaf629dfc4dbae400038b0255c.png)
 
 1. Adjust the size of the space to indicate where navigation meshes can be created.
 2. The **Navigation Volume** gizmo applies to all defined navigation profiles for newly added gizmos by default; however, you can specify other profiles within the **Agent Profile** drop-down menu.
 
-![](../../_assets/images/db36653284a0f2a59217d348c93c27ec1f22a633e5bda0e9129af3d33947f8bc.png)
+![](../../.assets/images/db36653284a0f2a59217d348c93c27ec1f22a633e5bda0e9129af3d33947f8bc.png)
 
 1. You can also change the **Volume Type** to **Exclusion** or **Inclusion**. Setting the volume to **Exclusion** cuts out that area from any generated navigation mesh.
 
-![](../../_assets/images/07cf58b2ecddcefcdc333e8fbcd7b22fb78131601240b6abb6200d2c0f88f2e8.png)
+![](../../.assets/images/07cf58b2ecddcefcdc333e8fbcd7b22fb78131601240b6abb6200d2c0f88f2e8.png)
 
 1. Setting the gizmo’s profile only impacts the navigation for that profile. For example, setting the gizmo to **Inclusion** for a particular profile will generate a walkable area in that volume for that particular profile.
 
-![](../../_assets/images/0b30f686ce1458c21e779176eb31cabd799cfbe01b7ae7d49b9c0973ef20dc82.png)
+![](../../.assets/images/0b30f686ce1458c21e779176eb31cabd799cfbe01b7ae7d49b9c0973ef20dc82.png)
 
-If volumes overlap, walkable space is made for all associated profiles. ![](../../_assets/images/2c84e246127251e077fda18eeabcc598bd4ce8500b497599fc8e0283b7283524.png)
+If volumes overlap, walkable space is made for all associated profiles. ![](../../.assets/images/2c84e246127251e077fda18eeabcc598bd4ce8500b497599fc8e0283b7283524.png)
 
 ### [Excluding specific obstacles/entities](#excluding-specific-obstaclesentities)
 
@@ -84,18 +84,18 @@ When generating navigation meshes, you can exclude specific entities from impact
 
 All entities are considered navigable by default. To exclude an entity from being navigable, select the object and toggle off the **Navigable Surface** option in the **Navigation** panel:
 
-![](../../_assets/images/6ae3a36a21aa40ba97de4b592048b523895a3941aa04ccb49a8df7620cca9913.png)![](../../_assets/images/7db4f5dc419c0aa4ccb323e5cc0066622443fc3addc581df11842678d0164ae5.png)
+![](../../.assets/images/6ae3a36a21aa40ba97de4b592048b523895a3941aa04ccb49a8df7620cca9913.png)![](../../.assets/images/7db4f5dc419c0aa4ccb323e5cc0066622443fc3addc581df11842678d0164ae5.png)
 
 ### [Building the navigation meshes](#building-the-navigation-meshes)
 
 1. At this point, we have profiles defined and gizmos placed in our world. The next step is to **build** the navigation meshes for each profile. An alternative term is “baking” the navigation mesh **.** These terms are interchangeable.
 2. From the **Systems** menu, open the **Navigation Profiles** menu and click the **Build All** button.
 
-![](../../_assets/images/be6d199afc20b573c8eb2b8619b9844f0800052398aac891f1691d252e539600.png)
+![](../../.assets/images/be6d199afc20b573c8eb2b8619b9844f0800052398aac891f1691d252e539600.png)
 
 1. If it appears that nothing happened when building the navigation mesh, you likely need to enable the in-editor previews. Hover over each profile and ensure the visibility indicator is set to 👁 by clicking the relevant button:
 
-![](../../_assets/gifs/1e011e8cf33c1fd7c8680ce89f711ecd699894f295d96297666d281c123fba15.gif)
+![](../../.assets/gifs/1e011e8cf33c1fd7c8680ce89f711ecd699894f295d96297666d281c123fba15.gif)
 
 ## [Using the NavMesh APIs](#using-the-navmesh-apis)
 

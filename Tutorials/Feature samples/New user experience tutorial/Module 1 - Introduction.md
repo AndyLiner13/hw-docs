@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Welcome to the New User Experience Tutorial! In this tutorial, you learn how to create a simple and effective New User Experience (NUX) for your game using ready-made assets.
 
-![New User Experience cover image](../../../_assets/images/3b3e3773514b28f99fdf45c1a2b9bf9a6d54f35dc4cf5f1d9e424ba633c9341a.png)
+![New User Experience cover image](../../../.assets/images/3b3e3773514b28f99fdf45c1a2b9bf9a6d54f35dc4cf5f1d9e424ba633c9341a.png)
 
 This content is intended as a companion to the tutorial world of the same name, which you can access through the desktop editor. When you open the tutorial world, the editor creates a copy for you to explore, and this page opens so you can follow along. For more information, see [Access Tutorial Worlds](../../Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md).
 

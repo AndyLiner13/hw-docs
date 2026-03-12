@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Station 1 displays a simple set of text on a flat plane, in a variety of font faces.
 
-![Image of Station 1](../../../_assets/images/5249ae2b5a573b369bba545891c26f21e83122ada6bf57779c4e83ec401e9e91.png)
+![Image of Station 1](../../../.assets/images/5249ae2b5a573b369bba545891c26f21e83122ada6bf57779c4e83ec401e9e91.png)
 
 ## [Assets](#assets)
 
@@ -62,7 +62,7 @@ This script presents a list of fonts that are available. Are there more?
 Text({ text: "Anton", style: { fontFamily: "Anton" } }),
 ```
 
-![Image of previous Typescript in VS Code editor](../../../_assets/images/dfd9692825e6300b4b5a30a4eb63f541d8c9a2f017ed75a9863815bd54b7e114.png)
+![Image of previous Typescript in VS Code editor](../../../.assets/images/dfd9692825e6300b4b5a30a4eb63f541d8c9a2f017ed75a9863815bd54b7e114.png)
 
 - Select this text: `fontFamily`. Right-click and select **Go to Definition**.
 - That should open a separate file: horizon\_ui.d.ts. This file represents the declarations of the UI module of the v2.0.0 API. This declaration file is available locally in the same folder as your scripts for your review.

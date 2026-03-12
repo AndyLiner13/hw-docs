@@ -149,22 +149,22 @@ Inherits the [ViewStyle](../../Reference/ui/Type%20Aliases/ViewStyle.md) type al
 
 | **Font Family** | **Weight Variations** | **Preview**                                                                                    |
 | --------------- | --------------------- | ---------------------------------------------------------------------------------------------- |
-| Anton           | ‘normal’/’400’        | ![](../../_assets/images/fa92a3bffcf4d2e005fbbef8bd853ffe220d9d50d4ff993c7310620cfd2a75d4.png) |
-| Bangers         | ‘normal’/’400’        | ![](../../_assets/images/a7c99e24be4cabc2f808be716d6bcac899eea94bfa55e0a354f0db59422cfe91.png) |
-| Kallisto        | ‘bold’/’700’          | ![](../../_assets/images/1dd8d2b04734b354b1f757d2f05d21f9f58d4d2fdf4884d56fdb4d9693bf851c.png) |
-| Optimistic      | ‘normal’/’400’        | ![](../../_assets/images/7f360c4c5391e8bb007aa610f9954a9828f7cd98b6d75c3c052b130cfaa6ee83.png) |
-|                 | ‘500’                 | ![](../../_assets/images/26f023b7ce2658eaf48f5c4bde5417efe232a2866c96808126aa7e7f261a35bd.png) |
-|                 | ‘bold’/’700’          | ![](../../_assets/images/828ee88897fe5d82308017a994eaac1c84f6a160dbd943fd04fa8b92bc0b3833.png) |
-| Oswald          | ‘normal’/’400’        | ![](../../_assets/images/b92fca612d43f1595e1932100ef0b5469e34413526295e66afa07c89346332ed.png) |
-| Roboto          | ‘100’                 | ![](../../_assets/images/9bcc858d768a57c7991a5aca447fd029b88934636e6440079d3520cf148940cb.png) |
-|                 | ‘300’                 | ![](../../_assets/images/778bad332e69a60d51724597a6fedacdac1ececb93a2bde8175b075a88eda94d.png) |
-|                 | ‘normal’/’400’        | ![](../../_assets/images/44e215d71ba1c142ee30d6c4662695f127926d223bcab32d6b9d08e100919dd8.png) |
-|                 | ‘500’                 | ![](../../_assets/images/f63d186e3ae360338c3ce8fd096673c0c2cd9d468240b546411f734578d9b133.png) |
-|                 | ‘bold’/’700’          | ![](../../_assets/images/a3b854c619f53fcb05b2a192542e7928181711e577561b1c2a14937443100bcf.png) |
-|                 | ‘900’                 | ![](../../_assets/images/b5b764a7a75d305671039fd357de5629bfe82bfb88a034237fe9aa18aec07376.png) |
-| Roboto-Mono     | ‘normal’/’400’        | ![](../../_assets/images/592056dd4c796a542bbbbdd873adcf7b6a38e918c18330e12b7d6d8ea3b393e5.png) |
-|                 | ‘500’                 | ![](../../_assets/images/54049cd511b184027a088a01f02161b6512af9aa2d4a4b0ca3a989fa92f96f6e.png) |
-|                 | ‘bold’/’700’          | ![](../../_assets/images/abed4e55a6856aaeadb0f851730415159d50cd5f7acb615961cd730cfa4ebc34.png) |
+| Anton           | ‘normal’/’400’        | ![](../../.assets/images/fa92a3bffcf4d2e005fbbef8bd853ffe220d9d50d4ff993c7310620cfd2a75d4.png) |
+| Bangers         | ‘normal’/’400’        | ![](../../.assets/images/a7c99e24be4cabc2f808be716d6bcac899eea94bfa55e0a354f0db59422cfe91.png) |
+| Kallisto        | ‘bold’/’700’          | ![](../../.assets/images/1dd8d2b04734b354b1f757d2f05d21f9f58d4d2fdf4884d56fdb4d9693bf851c.png) |
+| Optimistic      | ‘normal’/’400’        | ![](../../.assets/images/7f360c4c5391e8bb007aa610f9954a9828f7cd98b6d75c3c052b130cfaa6ee83.png) |
+|                 | ‘500’                 | ![](../../.assets/images/26f023b7ce2658eaf48f5c4bde5417efe232a2866c96808126aa7e7f261a35bd.png) |
+|                 | ‘bold’/’700’          | ![](../../.assets/images/828ee88897fe5d82308017a994eaac1c84f6a160dbd943fd04fa8b92bc0b3833.png) |
+| Oswald          | ‘normal’/’400’        | ![](../../.assets/images/b92fca612d43f1595e1932100ef0b5469e34413526295e66afa07c89346332ed.png) |
+| Roboto          | ‘100’                 | ![](../../.assets/images/9bcc858d768a57c7991a5aca447fd029b88934636e6440079d3520cf148940cb.png) |
+|                 | ‘300’                 | ![](../../.assets/images/778bad332e69a60d51724597a6fedacdac1ececb93a2bde8175b075a88eda94d.png) |
+|                 | ‘normal’/’400’        | ![](../../.assets/images/44e215d71ba1c142ee30d6c4662695f127926d223bcab32d6b9d08e100919dd8.png) |
+|                 | ‘500’                 | ![](../../.assets/images/f63d186e3ae360338c3ce8fd096673c0c2cd9d468240b546411f734578d9b133.png) |
+|                 | ‘bold’/’700’          | ![](../../.assets/images/a3b854c619f53fcb05b2a192542e7928181711e577561b1c2a14937443100bcf.png) |
+|                 | ‘900’                 | ![](../../.assets/images/b5b764a7a75d305671039fd357de5629bfe82bfb88a034237fe9aa18aec07376.png) |
+| Roboto-Mono     | ‘normal’/’400’        | ![](../../.assets/images/592056dd4c796a542bbbbdd873adcf7b6a38e918c18330e12b7d6d8ea3b393e5.png) |
+|                 | ‘500’                 | ![](../../.assets/images/54049cd511b184027a088a01f02161b6512af9aa2d4a4b0ca3a989fa92f96f6e.png) |
+|                 | ‘bold’/’700’          | ![](../../.assets/images/abed4e55a6856aaeadb0f851730415159d50cd5f7acb615961cd730cfa4ebc34.png) |
 
 ## [ImageStyle](#imagestyle)
 

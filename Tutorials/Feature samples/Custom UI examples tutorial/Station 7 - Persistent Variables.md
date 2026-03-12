@@ -21,7 +21,7 @@ The total amount of candy for the player is retained in a persistent variable (`
 
 **Tip**: Two separate UIs are created here so that you can see how values set in one can be applied in another, using the persistent variable construct.
 
-![Image of Station 07a and Station 07b](../../../_assets/images/73b8d396be87a2db0d5b4e4387f77596604d1bd2ba3c527bc580796db70a393d.png)
+![Image of Station 07a and Station 07b](../../../.assets/images/73b8d396be87a2db0d5b4e4387f77596604d1bd2ba3c527bc580796db70a393d.png)
 
 ## [Create Variable Group and Persistent Variable](#create-variable-group-and-persistent-variable)
 
@@ -56,7 +56,7 @@ To create a variable group, please do the following.
 1. In the desktop editor menu bar, select **Systems menu > Variable Groups**.
 2. In the Variable Groups panel, click the **+ icon**:
 
-![Image of Variable Groups panel](../../../_assets/images/e5f631b6e9e07b1db79d4d3d630149d655fd6410758b7dfa50d9454bca31e339.png)
+![Image of Variable Groups panel](../../../.assets/images/e5f631b6e9e07b1db79d4d3d630149d655fd6410758b7dfa50d9454bca31e339.png)
 
 1. In the Create Variable Group dialog, enter the following name: `vgStation07`. **Note**: This value must match the references to it in TypeScript. You should write it down for later use.
 2. Add a meaningful description. Example: `Variable Group for holding PVARs for Station 07`.
@@ -66,7 +66,7 @@ To create a variable group, please do the following.
 
 After you have created the above variable group, the empty variable group is displayed:
 
-![Click to create variable](../../../_assets/images/f63a603198498bc58d489695637f035f2627b08b86e29ed7d2ffec1cb5714b4c.png)
+![Click to create variable](../../../.assets/images/f63a603198498bc58d489695637f035f2627b08b86e29ed7d2ffec1cb5714b4c.png)
 
 To create a persistent variable in this group, please do the following:
 
@@ -164,7 +164,7 @@ The size and positioning of the Trigger Zone relative to the CustomUI needs to b
 
 ### [Station07a-SeeCandy](#station07a-seecandy)
 
-![Image of SeeCandy custom UI](../../../_assets/images/393a59561e55ad0ecabf624a3e67a9208a0da29ad9b24596f1957ef93277713d.png)
+![Image of SeeCandy custom UI](../../../.assets/images/393a59561e55ad0ecabf624a3e67a9208a0da29ad9b24596f1957ef93277713d.png)
 
 Since this is read-only, it’s a bit simpler than the latter one. For brevity, it is provided here in parts.
 
@@ -352,7 +352,7 @@ this.strColor.set(clr);
 
 ### [Station07b-GetCandy](#station07b-getcandy)
 
-![Image of GetCandy Custom UI](../../../_assets/images/19aa53ac51c6f9e2de849fe386a67fd356d8d4ff530b4fd524db63b314411cee.png)
+![Image of GetCandy Custom UI](../../../.assets/images/19aa53ac51c6f9e2de849fe386a67fd356d8d4ff530b4fd524db63b314411cee.png)
 
 This station includes buttons to allow the player to click +/- buttons to increase or decrease the amount of candy. The new amount for the candy total is written to the persistent variable upon exit, so that the player can go back to the first UI to see an updated value and message.
 

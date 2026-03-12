@@ -20,15 +20,15 @@ Once a creator has completed the standard world creation flow and is ready to pu
 
 1. From the desktop editor, navigate to the three-dot menu and select **Publish World**
 
-   ![Publish World](../_assets/images/b90b17dd3fc823c027e88ee5d6a377791f0e11140be370ef8d8a5c9a374cfdb5.png)
+   ![Publish World](../.assets/images/b90b17dd3fc823c027e88ee5d6a377791f0e11140be370ef8d8a5c9a374cfdb5.png)
 
 2. Toggle the **Members-only** setting to **On**.
 
-   ![Members-only setting](../_assets/images/0a2a358f82d8efddc0d3c96b5d4d89764402fa1153fb54440905e2d3b2e71f21.png)
+   ![Members-only setting](../.assets/images/0a2a358f82d8efddc0d3c96b5d4d89764402fa1153fb54440905e2d3b2e71f21.png)
 
 3. Once enabled, a setting option will display for Moderator presence required.
 
-   ![Moderator presence required setting](../_assets/images/2ca66d952ddfd6cf38f2833a0ab76ab7662bd6096e12f88dc3c92e294902deac.png)
+   ![Moderator presence required setting](../.assets/images/2ca66d952ddfd6cf38f2833a0ab76ab7662bd6096e12f88dc3c92e294902deac.png)
 
 - The default for this setting is **Off**, which means that members can visit the members-only world without a moderator present.
 - Toggling this **On** means members cannot visit the members-only world without a moderator present.
@@ -49,7 +49,7 @@ During the alpha test period, all members-only worlds will remain hidden from se
 
 World creators can invite members and collaborators to their members-only worlds using the Collaborator Management menu and clicking **Invite People**.
 
-![List of collaborators available](../_assets/images/1ce2c08f6522385c8c55f6cbd64f98f44559cd7b418ca4c221dff688f920c33e.png)
+![List of collaborators available](../.assets/images/1ce2c08f6522385c8c55f6cbd64f98f44559cd7b418ca4c221dff688f920c33e.png)
 
 See the documentation on [Collaborator Management](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/Collaborator%20Management.md) for more information.
 

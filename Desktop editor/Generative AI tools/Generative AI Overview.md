@@ -25,8 +25,8 @@ The Gen AI panel features pre-made sample prompts that you can select to create 
 
 To open and use the Horizon desktop editor’s Generative AI tool, use the following process:
 
-1. Select and open your world then click the Gen AI icon on the top toolbar to open the Gen AI panel. ![Gen AI toolbar selector](../../_assets/images/c1c7be9954ca2ba20a3b5273f35f036616d4e4424d9991c5cc7366a76601d081.png)
-2. The AI Creation Tool panel opens on the right side of the screen. ![AI Creation panel](../../_assets/images/b44d585a32f081b8ec0426ca13c32dd7ec6a6a67030097e165b29e578f633761.png)
+1. Select and open your world then click the Gen AI icon on the top toolbar to open the Gen AI panel. ![Gen AI toolbar selector](../../.assets/images/c1c7be9954ca2ba20a3b5273f35f036616d4e4424d9991c5cc7366a76601d081.png)
+2. The AI Creation Tool panel opens on the right side of the screen. ![AI Creation panel](../../.assets/images/b44d585a32f081b8ec0426ca13c32dd7ec6a6a67030097e165b29e578f633761.png)
 
 With the creation panel open, you can generate either typescript or audio for your selected world.
 
@@ -38,11 +38,11 @@ Once you’ve generated content using the Gen AI tool you can start a new chat o
 
 With the Gen AI panel open select the pencil icon to start a new chat. This can only be selected when you’ve already started generating content.
 
-![Gen AI panel new chat icon](../../_assets/images/50ed57f0835e0bd46cd98260d41a05aaaefd26cb46805468dec427b4aca7d988.png)
+![Gen AI panel new chat icon](../../.assets/images/50ed57f0835e0bd46cd98260d41a05aaaefd26cb46805468dec427b4aca7d988.png)
 
 To view previous conversations select the **Open chat history** button, then select a previous conversation from the list.
 
-![Gen AI panel chat history window](../../_assets/images/6ec1cb76769aac04d787843e764e9f33dcad60a0186b20c1ae2ae4ca7bad20d1.png)
+![Gen AI panel chat history window](../../.assets/images/6ec1cb76769aac04d787843e764e9f33dcad60a0186b20c1ae2ae4ca7bad20d1.png)
 
 You can also delete previous conversations from this list by hovering over an entry, then clicking the trash icon.
 

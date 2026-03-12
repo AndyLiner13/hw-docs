@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The Desktop Editor contains a variety of controls that enable you to create objects to add to your scene. These tools provide you the control to position, scale, and program an object’s behaviour with scripts.
 
-![The Desktop Editor screen with groups of controls labeled](../../../_assets/images/3e94c9d292713dd4e3536024bc808600edc877deb51cebd9f2c2dceb940a8a68.png)
+![The Desktop Editor screen with groups of controls labeled](../../../.assets/images/3e94c9d292713dd4e3536024bc808600edc877deb51cebd9f2c2dceb940a8a68.png)
 
 1. [Main menu](Primary%20Tools%20in%20the%20User%20Interface.md#the-main-menu) provides quick access to the Desktop Editor’s most popular features.
 2. [Creator tools](Creator%20Tools.md) provide a set of commonly used tools for building scenes and using assets. Each button provides a menu of different tool types you can use for creating your world.

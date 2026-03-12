@@ -10,7 +10,7 @@ This page provides a break down of the NPC examples used in the NPC Example Worl
 
 You can select the **NPC Examples** option from the **Creation Home** view.
 
-![Creation Home NPC examples tutorial world](../../_assets/images/d9e9421978b4a1519df183d514e950dd85e41785969de918748b58ef9de1bcc2.png)
+![Creation Home NPC examples tutorial world](../../.assets/images/d9e9421978b4a1519df183d514e950dd85e41785969de918748b58ef9de1bcc2.png)
 
 ## [NPCAgent.ts](#npcagentts)
 

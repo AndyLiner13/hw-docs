@@ -50,23 +50,23 @@ Audio assets can be uploaded to your Asset library using a web interface or usin
 
 1. Navigate to the [Meta Horizon Worlds Creations site](https://horizon.meta.com/creator/).
 2. In the left nav bar, select **My Assets > View All**.
-3. At the top right, select + **Import > Sound**. ![Screenshot of the My Horizon Creations page showing Import button with Sound dropdown option.](../../_assets/images/5cf9a3c859aca06365d81bd29c1a780a2b66f9d236f477968009b8ba4bb8e0a3.png)
-4. Follow the instructions: ![Screenshot of the Import sound dialog box.](../../_assets/images/feba825bae9ad8a9a06b50d641ca91cfea7ca4d8cde1009e7e1fa0018c8a1eda.png)
-5. When your audio file has been uploaded, select the context menu on the asset tile to edit, delete, or play the audio asset: ![Asset tile showing Play option highlighted in dropdown menu.](../../_assets/images/ef65043bfcd9ebbe79a627bd690451793a389cc01f6dda259c41332c507a48a5.png)
+3. At the top right, select + **Import > Sound**. ![Screenshot of the My Horizon Creations page showing Import button with Sound dropdown option.](../../.assets/images/5cf9a3c859aca06365d81bd29c1a780a2b66f9d236f477968009b8ba4bb8e0a3.png)
+4. Follow the instructions: ![Screenshot of the Import sound dialog box.](../../.assets/images/feba825bae9ad8a9a06b50d641ca91cfea7ca4d8cde1009e7e1fa0018c8a1eda.png)
+5. When your audio file has been uploaded, select the context menu on the asset tile to edit, delete, or play the audio asset: ![Asset tile showing Play option highlighted in dropdown menu.](../../.assets/images/ef65043bfcd9ebbe79a627bd690451793a389cc01f6dda259c41332c507a48a5.png)
 
 ## [Edit Assets](#edit-assets)
 
 **Note**: Following steps reference editing assets through the Horizon Words Creations interface.
 
-1. To view an asset’s details, click on the asset you uploaded to your folder. The following video demonstrates this process: ![GIF showing clicking on an asset tile, which opens up a details dialog box showing "Description", "Tags", "Folder", "File size", "Owner", "Asset ID", and "Last edited" fields.](../../_assets/gifs/5a0351a2c2adc52ae4bf2ec48fc34b2491c8e57a585b3c55bb30fc9a7ce5bbe7.gif)
+1. To view an asset’s details, click on the asset you uploaded to your folder. The following video demonstrates this process: ![GIF showing clicking on an asset tile, which opens up a details dialog box showing "Description", "Tags", "Folder", "File size", "Owner", "Asset ID", and "Last edited" fields.](../../.assets/gifs/5a0351a2c2adc52ae4bf2ec48fc34b2491c8e57a585b3c55bb30fc9a7ce5bbe7.gif)
 2. To edit the asset, click the context menu on the asset tile, or click **Edit** in the Details view.
-3. Modify the name, description, tags, folder, and associated audio file for the asset: ![Screenshot showing the "Edit sound" dialog box with "Title", "Description", "Tags", and "Folder" fields and a drag and drop area to replace the sound file.](../../_assets/images/9aa05409c55c3b21e8fae722771c5d2e5d2434ae21be43110019c026cde6a1c0.png)
+3. Modify the name, description, tags, folder, and associated audio file for the asset: ![Screenshot showing the "Edit sound" dialog box with "Title", "Description", "Tags", and "Folder" fields and a drag and drop area to replace the sound file.](../../.assets/images/9aa05409c55c3b21e8fae722771c5d2e5d2434ae21be43110019c026cde6a1c0.png)
 
 **Note**: You can replace the audio assets only for assets that you own.
 
 After the audio details are added, they are displayed:
 
-![Screenshot showing the audio asset's details dialog box.](../../_assets/images/cb4ec1d5ee74259ba2f687b7d2eb4617c2e1abc15465a9d9b881c27c47116968.png)
+![Screenshot showing the audio asset's details dialog box.](../../.assets/images/cb4ec1d5ee74259ba2f687b7d2eb4617c2e1abc15465a9d9b881c27c47116968.png)
 
 ## [Use audio](#use-audio)
 
@@ -91,7 +91,7 @@ You can also preview in your headset. See the following video for a demonstratio
 
 <video controls><source src="(BROKEN_REF)" type="video/mp4"></video>
 
-![Screenshot of VR showing My Assets pane in the Build menu.](../../_assets/images/ac9fb544304834e1e4d42ea6cedaf69417370aab82c27039e60b0df89a9cd64f.png)
+![Screenshot of VR showing My Assets pane in the Build menu.](../../.assets/images/ac9fb544304834e1e4d42ea6cedaf69417370aab82c27039e60b0df89a9cd64f.png)
 
 ### [Audio properties](#audio-properties)
 

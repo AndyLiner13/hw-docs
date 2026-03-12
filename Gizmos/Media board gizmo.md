@@ -12,7 +12,7 @@ The media board [gizmo](About%20gizmos.md) allows you to display the top 30 phot
 
 Players in a world can react to media displayed on the media board with the **Like** button, which triggers a thumbs up emote. They can also share their own photos with the **Add post** button. The following image illustrates the description of the media board gizmo.
 
-![An screenshot of the media board gizmo](../_assets/images/5886dfee971b5c3dde79707254ecf44763f57f8b86c9563364bb744f18196c2e.png)
+![An screenshot of the media board gizmo](../.assets/images/5886dfee971b5c3dde79707254ecf44763f57f8b86c9563364bb744f18196c2e.png)
 
 Each player sees a personalized set of 30 photos, selected from photos that are included in the approved world posts. Photos from others that the player follows and photos with a high **Like** count are prioritized for the media board.
 
@@ -52,7 +52,7 @@ Once you approve a photo, it becomes available on the media board and visible to
 4. Pending posts have 3 buttons: **Approve**, **Reject**, and **Report**.
 5. Select the **Approve** button to makes a photo visible on a media board.
 
-![](../_assets/gifs/e9884e472f684de153dcc41dd0253ce604951eb8278fe5cfccaf70b19ca64157.gif)
+![](../.assets/gifs/e9884e472f684de153dcc41dd0253ce604951eb8278fe5cfccaf70b19ca64157.gif)
 
 Conversely, to remove a photo from the media board once it’s been approved, follow these steps to reject it from the approved posts.
 

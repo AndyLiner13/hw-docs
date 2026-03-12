@@ -47,7 +47,7 @@ Scripts have an execution mode property that specifies whether the script can ru
 - The script will run on the client that owns the entity that the script component is attached to.
 - You must select this execution mode.
 
-![](../../_assets/images/e5f7f793767634c3da6673644e11cb933bd35ea67578b1b0a225e9e395a7aa21.png)
+![](../../.assets/images/e5f7f793767634c3da6673644e11cb933bd35ea67578b1b0a225e9e395a7aa21.png)
 
 **Note** : Entity ownership is its own construct, separate from scripting. Local execution uses this property to determine which client a script runs on (it’s always the client that owns the entity that a script component is attached to).
 

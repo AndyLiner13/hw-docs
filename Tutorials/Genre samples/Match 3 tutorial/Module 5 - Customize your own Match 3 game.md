@@ -19,7 +19,7 @@ First, you’ll need to create or find the asset you want to use as a tile. For 
 3. Search for the asset you want to use (e.g., “pumpkin”).
 4. Select the asset and add it to your world.
 
-![Selecting a custom asset](../../../_assets/images/b1ec2adc04a8f5832126281cd9861a549518a85f74ae8834cece6fe2e5d72e8f.png)
+![Selecting a custom asset](../../../.assets/images/b1ec2adc04a8f5832126281cd9861a549518a85f74ae8834cece6fe2e5d72e8f.png)
 
 Once you’ve added your asset to the world, you’ll need to configure it properly before it can work with the Match 3 system.
 
@@ -29,7 +29,7 @@ For your custom asset to work correctly with the Match 3 system, you need to con
 
 #### [CRITICAL: Set Motion to “Animated”](#critical-set-motion-to-animated)
 
-![The motion behavior entry of a custom asset](../../../_assets/images/f6deb5d4b765b0eec7b878286efb34a740abcf8be0d45b965d4ab5c3feb26b27.png)
+![The motion behavior entry of a custom asset](../../../.assets/images/f6deb5d4b765b0eec7b878286efb34a740abcf8be0d45b965d4ab5c3feb26b27.png)
 
 This is the most important step. If you skip this, you’ll encounter errors when the game tries to move your tiles.
 
@@ -47,11 +47,11 @@ This is the most important step. If you skip this, you’ll encounter errors whe
 
 Once you’re happy with the configuration, simply right-click on the object in the Hierarchy and select “Create Asset”.
 
-![Where to create a custom asset](../../../_assets/images/f6e554511aee3fa34cf4de7eac2f6aa26573c3da16a8fdd5141360e903c33c51.png)
+![Where to create a custom asset](../../../.assets/images/f6e554511aee3fa34cf4de7eac2f6aa26573c3da16a8fdd5141360e903c33c51.png)
 
 Select a location into your own Asset Library folder (in this case, named “My Assets”) to place the assets into, then select “Create”.
 
-![The menu for creating a custom asset](../../../_assets/images/d07cdc3ddb2ffac09f3055f1c4965b9fc177ae32c011a919fd210c5c97021ae1.png)
+![The menu for creating a custom asset](../../../.assets/images/d07cdc3ddb2ffac09f3055f1c4965b9fc177ae32c011a919fd210c5c97021ae1.png)
 
 Scale your asset down to be about the size of a 1x1 grid. As an easy reference point, you can click on the **Build** menu in the top left of the editor, choose a Cube from the **Shapes** sub-menu, put it in your world, and scale your new asset to be approximately the same size.
 
@@ -67,11 +67,11 @@ Now that your custom asset is configured, you need to tell the Match 3 system to
 4. In the inspector, locate the section where default tile assets are referenced
 5. Replace the default tile asset reference with your newly created custom asset
 
-![Where to find the custom asset ID](../../../_assets/images/9b5b55b45d5f00f08dfcc2e8f411d8ae61afa972e86d329d39454e7bdab08693.png)
+![Where to find the custom asset ID](../../../.assets/images/9b5b55b45d5f00f08dfcc2e8f411d8ae61afa972e86d329d39454e7bdab08693.png)
 
 You can also configure both the rotation and scale underneath each of the different color tiles if you desire.
 
-![The model positioning attributes of a custom asset](../../../_assets/images/3683421e081a16d8c3fea534da360db523b93d598247e149a79c5281320f01d9.png)
+![The model positioning attributes of a custom asset](../../../.assets/images/3683421e081a16d8c3fea534da360db523b93d598247e149a79c5281320f01d9.png)
 
 ### [Troubleshooting: “Unable to manipulate static entity” Error](#troubleshooting-unable-to-manipulate-static-entity-error)
 
@@ -81,7 +81,7 @@ If you encounter the error message **“Unable to manipulate static entity (move
 
 **The solution**:
 
-![Where to find the motion property drop down in a custom asset](../../../_assets/images/ff9e0b3c4db2962b35dde2ab0d2e43656abc1765db6bed01af2dc36ea01619f3.png)
+![Where to find the motion property drop down in a custom asset](../../../.assets/images/ff9e0b3c4db2962b35dde2ab0d2e43656abc1765db6bed01af2dc36ea01619f3.png)
 
 You must set the object’s **Motion** property to **“Animated”** instead of “None”:
 
@@ -125,7 +125,7 @@ The game includes the following audio banks:
 
 ### [How to Change Audio Files](#how-to-change-audio-files)
 
-![adding a custom sound](../../../_assets/images/0a8be37a72bee06538e58a17bb835cdebf7e2b0369b4a38c650b3d1aedd2038f.png)
+![adding a custom sound](../../../.assets/images/0a8be37a72bee06538e58a17bb835cdebf7e2b0369b4a38c650b3d1aedd2038f.png)
 
 #### [Step 1: Locate the Audio in Hierarchy](#step-1-locate-the-audio-in-hierarchy)
 

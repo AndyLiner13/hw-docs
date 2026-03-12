@@ -12,18 +12,18 @@ Instant Replay is an experimental feature that allows world creators to add vide
 
 ## [How Instant Replay works](#how-instant-replay-works)
 
-1. Worlds that have integrated Instant Replay have a disclaimer for users who view or visit them. ![](../../_assets/images/499097f04577378e0a2ab225556f8056a1c7276a2e36ef7eaf9ebd86dc80a0cd.png)![](../../_assets/images/e87b0b770b08188184258185bec975db86867337815d290e9610b0a618cdc89c.png)
+1. Worlds that have integrated Instant Replay have a disclaimer for users who view or visit them. ![](../../.assets/images/499097f04577378e0a2ab225556f8056a1c7276a2e36ef7eaf9ebd86dc80a0cd.png)![](../../.assets/images/e87b0b770b08188184258185bec975db86867337815d290e9610b0a618cdc89c.png)
 2. When the player explores the world and triggers the [START API](Instant%20Replay.md#examples), recording begins but the player is not notified yet.
-3. When the recording finishes, the player receives a pop-up notification inviting them to view the recording. ![](../../_assets/images/41656547bf66442d57f7c7835ed7e26c2150bbdc53dd7ad4803428f9c211f19d.png)
-4. Once the player reviews the video, it is stored locally and removed from the server. The player will need to “review” the video in order to keep it permanently, otherwise it will be deleted after 7 days. ![](../../_assets/images/0de824200c79bd7e55ac418039145fda8578dbae2daa05d0fa62fb503e69a6e7.png)![](../../_assets/images/840460e34c6a4c76fb35fcc6bb2d2045b01a293c909e47f3ed54e5a35f6f5bdc.png)
+3. When the recording finishes, the player receives a pop-up notification inviting them to view the recording. ![](../../.assets/images/41656547bf66442d57f7c7835ed7e26c2150bbdc53dd7ad4803428f9c211f19d.png)
+4. Once the player reviews the video, it is stored locally and removed from the server. The player will need to “review” the video in order to keep it permanently, otherwise it will be deleted after 7 days. ![](../../.assets/images/0de824200c79bd7e55ac418039145fda8578dbae2daa05d0fa62fb503e69a6e7.png)![](../../.assets/images/840460e34c6a4c76fb35fcc6bb2d2045b01a293c909e47f3ed54e5a35f6f5bdc.png)
 5. Once the player saves the video, it will be treated like any of their other media and can be shared normally.
 
 ## [How to Add Instant Replay to your World](#how-to-add-instant-replay-to-your-world)
 
-1. Enable **Generate instant replays** under Player Settings in your world before you publish. ![](../../_assets/images/98b0968edef0c91a9d05aedac4669eb2f5e8fab9a66893ce3a9d2cc3bd5f9edf.png)
+1. Enable **Generate instant replays** under Player Settings in your world before you publish. ![](../../.assets/images/98b0968edef0c91a9d05aedac4669eb2f5e8fab9a66893ce3a9d2cc3bd5f9edf.png)
 2. Enable the **horizon/capturing** library for TypeScript.
 
-![Screenshot 2024-01-31 at 1.07.49 PM.png](../../_assets/images/222c4de145c79da9cad617cbb3e1d694b04b896d3699d52e691b9dffd3b23b2c.png)
+![Screenshot 2024-01-31 at 1.07.49 PM.png](../../.assets/images/222c4de145c79da9cad617cbb3e1d694b04b896d3699d52e691b9dffd3b23b2c.png)
 
 ## [Experimental camera angles](#experimental-camera-angles)
 
@@ -79,5 +79,5 @@ let result = awaitcapture.stopVideoCapture({save: true});
 6. When enabling **Instant Replay** for the first time if the capture is not successful leave your world and then come back. Your captures should now work as intended.
 7. World visitors can opt out of Instant Replay in their settings.
 
-![](../../_assets/images/89ae571809c6b86f57cdabb29392c621d9a8c9b8b01ff204d373443937040044.png)
+![](../../.assets/images/89ae571809c6b86f57cdabb29392c621d9a8c9b8b01ff204d373443937040044.png)
 

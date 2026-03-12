@@ -12,7 +12,7 @@ Let’s wrap up our multiplayer module by building the functionality to handle t
 
 The provided course has an **End Game Trigger Gizmo** with an attached script named **EndGameTrigger**. Inside of this script we need to let our game know when someone has won the game.
 
-![Screenshot of the End Game trigger zone in the desktop editor](../../../_assets/images/84ac3c2816e63ede7856ad617dda9b046d5ec26d8541d64fcbaed188fac16e5d.png)
+![Screenshot of the End Game trigger zone in the desktop editor](../../../.assets/images/84ac3c2816e63ede7856ad617dda9b046d5ec26d8541d64fcbaed188fac16e5d.png)
 
 In the **EndGameTrigger** script, replace:
 
@@ -79,7 +79,7 @@ lobbySpawnPoint: { type: hz.PropTypes.Entity },
 
 And then, using the desktop editor UI, connect the Lobby Spawn Point game object with the new prop on Player Manager.
 
-![Screenshot of adding the lobby spawn point entity to the Properties panel for the PlayerManager](../../../_assets/images/f2a4a4575909edb004a7b8fb840f146cee614916cda9edb2a4375a708967c78e.png)
+![Screenshot of adding the lobby spawn point entity to the Properties panel for the PlayerManager](../../../.assets/images/f2a4a4575909edb004a7b8fb840f146cee614916cda9edb2a4375a708967c78e.png)
 
 In the **PlayerManager** script, replace:
 

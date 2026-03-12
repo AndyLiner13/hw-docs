@@ -489,7 +489,7 @@ dataContext
 
 You can see a working example here:
 
-![MouseMove Event example](../../_assets/videos/145a9e3161566cb1326a3362955c3b72e83495313a0f778bf91b07694d1100f1.mp4)
+![MouseMove Event example](../../.assets/videos/145a9e3161566cb1326a3362955c3b72e83495313a0f778bf91b07694d1100f1.mp4)
 
 ## [Command param tutorial](#command-param-tutorial)
 
@@ -818,7 +818,7 @@ dataContext
 
 See a working example here:
 
-![MouseMove Event example](../../_assets/videos/246e755932a2e10dbf2b743080e6575eed833eac92dc6b9279bee83c8d814fcd.mp4)
+![MouseMove Event example](../../.assets/videos/246e755932a2e10dbf2b743080e6575eed833eac92dc6b9279bee83c8d814fcd.mp4)
 
 ## [Noesis Features Support](#noesis-features-support)
 

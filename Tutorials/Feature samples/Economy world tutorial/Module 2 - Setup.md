@@ -29,11 +29,11 @@ Conversely, a durable item is granted to a player once and is not able to be rem
 
 When creating your items, make sure to set each item type to “consumable”, and set Meta credits to “off”.
 
-![Create in-world item](../../../_assets/images/3e04b80e66539786fbd1ef80fec0efe2623dcf46760c91cc62ec83499529dd23.jpg)
+![Create in-world item](../../../.assets/images/3e04b80e66539786fbd1ef80fec0efe2623dcf46760c91cc62ec83499529dd23.jpg)
 
 Once you have created the items, the **Commerce** panel should list them as follows (though your items will have different SKUs).
 
-![In-World Items](../../../_assets/images/90f927ad855d5aae56c54bd7f825db1d8e96f185be1dafd3fea895e244fc3e27.jpg)
+![In-World Items](../../../.assets/images/90f927ad855d5aae56c54bd7f825db1d8e96f185be1dafd3fea895e244fc3e27.jpg)
 
 ## [Creating item thumbnails](#creating-item-thumbnails)
 
@@ -41,15 +41,15 @@ To make a thumbnail of an item:
 
 1. Search for the item in the Asset Library
 
-![Searching in Asset Library](../../../_assets/images/ca4b30de25e33ef0bccf0fa06f2ebfaf66e3aa78044d1f53443377cb4c1f6696.jpg)
+![Searching in Asset Library](../../../.assets/images/ca4b30de25e33ef0bccf0fa06f2ebfaf66e3aa78044d1f53443377cb4c1f6696.jpg)
 
 1. Drag the item into the world
 
-![Adding item to the world](../../../_assets/images/fc22e995e68ff8ecc95aec18f80dccee828d3d79baf102a6bb6894fe272a317f.jpg)
+![Adding item to the world](../../../.assets/images/fc22e995e68ff8ecc95aec18f80dccee828d3d79baf102a6bb6894fe272a317f.jpg)
 
 1. Use the viewport camera to position the item in the center of the frame. You can change the camera speed to make positioning the camera easier.
 
-![Position item for screenshot.](../../../_assets/images/c93efe923cea2b99f08e28509d1604391987bddd6a1b4a8a3db814d262b554f8.jpg)
+![Position item for screenshot.](../../../.assets/images/c93efe923cea2b99f08e28509d1604391987bddd6a1b4a8a3db814d262b554f8.jpg)
 
 1. Take a screenshot of the item and save this image locally.
 2. Upload the image when creating your in-world items.

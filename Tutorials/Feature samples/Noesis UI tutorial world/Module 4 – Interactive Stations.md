@@ -10,7 +10,7 @@ These components often rely heavily on data triggers to update UI elements dynam
 
 ## [Station 04 – Yes/No Dialogue](#station-04--yesno-dialogue)
 
-![Station 04 - Yes/No Dialogue](../../../_assets/images/3ef61cadee7d84f54bda15d9469abc58c0fedf298cd759473248011491e65145.png)
+![Station 04 - Yes/No Dialogue](../../../.assets/images/3ef61cadee7d84f54bda15d9469abc58c0fedf298cd759473248011491e65145.png)
 
 ### [Description](#description)
 
@@ -190,7 +190,7 @@ text
 
 ## [Station 05 – Light the Sphere Dialog](#station-05--light-the-sphere-dialog)
 
-![Station 05 - Light the Sphere](../../../_assets/images/e4166660f969746795d9af85865f681ad86a3cad34efcd88da1fed4e20802b68.png)
+![Station 05 - Light the Sphere](../../../.assets/images/e4166660f969746795d9af85865f681ad86a3cad34efcd88da1fed4e20802b68.png)
 
 ### [Description](#description-1)
 
@@ -329,7 +329,7 @@ void
 
 ## [Station 06 – Toggles, Radios & CheckBoxes](#station-06--toggles-radios--checkboxes)
 
-![Station 06 – Toggles, Radios & CheckBoxes](../../../_assets/images/1dd037399cd43099443f308adb11f241ba968786353776328b298f2552cdadbf.png)
+![Station 06 – Toggles, Radios & CheckBoxes](../../../.assets/images/1dd037399cd43099443f308adb11f241ba968786353776328b298f2552cdadbf.png)
 
 ### [Description](#description-2)
 
@@ -437,7 +437,7 @@ true
 
 ## [Station 07 – Progress Bar](#station-07--progress-bar)
 
-![Station 07 - Progress Bar](../../../_assets/images/4576d3be6ed2b8f53489b760e45562cd71305e1151de04d5fde0ba50f67dafa1.png)
+![Station 07 - Progress Bar](../../../.assets/images/4576d3be6ed2b8f53489b760e45562cd71305e1151de04d5fde0ba50f67dafa1.png)
 
 ### [Description](#description-3)
 

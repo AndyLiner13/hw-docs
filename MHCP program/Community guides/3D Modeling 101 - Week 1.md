@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 # [3D Modeling 101 - Week 1](#3d-modeling-101---week-1)
 
-<video controls></video><source src="../../_assets/videos/aa2e8356c2eca06a0fb8aade8452371cbf35a4378ea64e8b77a8fd775b995ddf.mp4" type="video/mp4">
+<video controls></video><source src="../../.assets/videos/aa2e8356c2eca06a0fb8aade8452371cbf35a4378ea64e8b77a8fd775b995ddf.mp4" type="video/mp4">
 
 Ready to transform your creative vision into 3D reality? Join MHCP Mentor SpaceGlitterUnicorn for a comprehensive introduction to 3D modeling, designed specifically to give you the confidence and skills to create your first 3D assets.
 

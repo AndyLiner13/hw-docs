@@ -27,15 +27,15 @@ This section shows you how to set up Visual Studio Code (VS Code) for editing Ty
 
 4. Open the Meta Horizon Worlds desktop editor and then open the **Scripts** panel.
 
-   ![The Scripts Panel](../../_assets/images/8d382dd5b6cb1ebd5ba3ef34a8f728c6514fe84db0bc987b81b3dc2c800fb8f6.png)
+   ![The Scripts Panel](../../.assets/images/8d382dd5b6cb1ebd5ba3ef34a8f728c6514fe84db0bc987b81b3dc2c800fb8f6.png)
 
 5. Click the gear-shaped icon to open **Settings**.
 
-   ![The Scripts panel with mouse over Settings icon](../../_assets/images/be361763ad212f1bb3299c9740b087a102a9f82f04e200bd20467580fa52b965.png)
+   ![The Scripts panel with mouse over Settings icon](../../.assets/images/be361763ad212f1bb3299c9740b087a102a9f82f04e200bd20467580fa52b965.png)
 
 6. Next to **External Editor**, click **Select**.
 
-   ![Script Settings dialog box](../../_assets/images/bdf3ca39bc1b52a4ed004abcf529ae1722cec9ee67ca15052fe01c16f7460959.png)
+   ![Script Settings dialog box](../../.assets/images/bdf3ca39bc1b52a4ed004abcf529ae1722cec9ee67ca15052fe01c16f7460959.png)
 
 7. Paste the file path from Step 3 into the **File name** field and then click **Open**. You can also navigate to the EXE file for your IDE and then click **Open**.
 
@@ -53,13 +53,13 @@ These section shows you how to set up the desktop editor to use an IDE other tha
 
 4. Open the Meta Horizon Worlds desktop editor and then open the **Scripts** panel.
 
-   ![The Scripts Panel dropdown](../../_assets/images/8d382dd5b6cb1ebd5ba3ef34a8f728c6514fe84db0bc987b81b3dc2c800fb8f6.png)
+   ![The Scripts Panel dropdown](../../.assets/images/8d382dd5b6cb1ebd5ba3ef34a8f728c6514fe84db0bc987b81b3dc2c800fb8f6.png)
 
 5. Click the gear-shaped icon to open **Settings**.
 
 6. Next to **External Editor**, click **Select**.
 
-   ![Script Settings dialog box](../../_assets/images/bdf3ca39bc1b52a4ed004abcf529ae1722cec9ee67ca15052fe01c16f7460959.png)
+   ![Script Settings dialog box](../../.assets/images/bdf3ca39bc1b52a4ed004abcf529ae1722cec9ee67ca15052fe01c16f7460959.png)
 
 7. Paste the file path from Step 3 into the **File name** field and then click **Open**. You can also navigate to the EXE file for your IDE and then click **Open**.
 

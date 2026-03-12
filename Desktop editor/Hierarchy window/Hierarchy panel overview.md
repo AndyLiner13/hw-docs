@@ -19,7 +19,7 @@ From the hierarchy view in the desktop editor, you can drag and drop any entity 
 
 When an entity is at the top of the hierarchy and has no parent, it is called a *root entity*.
 
-![Drag and drop any entity on top of any other entity](../../_assets/images/9ea6a6f80be5319db620ede4db026b55379f2748136f4a76c875fc6edc5fed86.png)
+![Drag and drop any entity on top of any other entity](../../.assets/images/9ea6a6f80be5319db620ede4db026b55379f2748136f4a76c875fc6edc5fed86.png)
 
 ### [Empty objects](#empty-objects)
 
@@ -29,7 +29,7 @@ Empty objects have their own rules for visualization. In order to keep them from
 
 **Note**: This visualization of the empty object does not scale with its child objects, because it’s just a UI marker and not part of the content itself.
 
-![Empty objects remain invisible until selected or become parents](../../_assets/images/95664952dc2fca5e1d44241cc480d6396a83ad5fba18abfc486dedd671b6d9ff.png)
+![Empty objects remain invisible until selected or become parents](../../.assets/images/95664952dc2fca5e1d44241cc480d6396a83ad5fba18abfc486dedd671b6d9ff.png)
 
 ### [Pivot around parent objects](#pivot-around-parent-objects)
 
@@ -42,7 +42,7 @@ To pivot an object around its parent:
 3. Select Pivot from the dropdown menu in the top menu bar.
 4. Use the manipulators to rotate or scale the grouped object and observe how it pivots in relation to the parent object.
 
-![Pivot around parent objects](../../_assets/images/8636fc3cafeb77b6b51590b8f604e89247aeea213d09189a2c8a9a7a40472a25.png)
+![Pivot around parent objects](../../.assets/images/8636fc3cafeb77b6b51590b8f604e89247aeea213d09189a2c8a9a7a40472a25.png)
 
 ### [Direct selection of children in the scene](#direct-selection-of-children-in-the-scene)
 

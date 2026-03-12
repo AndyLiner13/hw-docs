@@ -16,7 +16,7 @@ Your game’s store is the heart and soul of its economy. It’s where players c
 
 Many games have seen success using completely different designs and philosophies for their stores. There’s no one right solution to designing your digital storefront. Each store will be as unique as the game itself.
 
-![](../../_assets/images/b66863479491446a7cb64581b97ba2d1499abee5f3349c9e0e78c99fddc42013.jpg)
+![](../../.assets/images/b66863479491446a7cb64581b97ba2d1499abee5f3349c9e0e78c99fddc42013.jpg)
 
 *Royal Match’s store keeps things simple, offering players exactly what they expect: bundles of consumable power-ups and gold that can be used to buy more upgrades.*
 
@@ -40,7 +40,7 @@ There are a few basic tenets to keep in mind when designing your store:
 
 Additionally, it’s important to give players a quick path to purchase when they don’t have enough premium currency. If they attempt a transaction and fall short, provide a button that takes them directly to buy the missing amount. Ideally, the game processes the currency purchase and then completes the original item purchase automatically without sending the player back through multiple menus.
 
-![](../../_assets/images/00d34b22068976c698556895c5148b4cfeef709b62bc024ae9de9e0734f012b3.png)
+![](../../.assets/images/00d34b22068976c698556895c5148b4cfeef709b62bc024ae9de9e0734f012b3.png)
 
 *Azur Lane places its store in the bottom-left corner with a clear shopping cart icon in an area of strong visual focus. Players can also reach the store by tapping the plus sign next to their gems (premium currency) in the top-right corner of the screen.*
 
@@ -54,7 +54,7 @@ If your game has a more complex economy and plans to monetize through multiple p
 
 **The bottom line:** your store’s pages and purchase offerings must still be easy to navigate and parse, no matter how simple or themed your store is. Organize your store items into group categories - premium currency packs, soft currency packs, consumables, durables, etc. for easy access and conversion.
 
-![](../../_assets/gifs/cd4a84c221ca4f814c6f0bb1e61f0adc01e3d26b47b78fd4d6891a885f83784e.gif)
+![](../../.assets/gifs/cd4a84c221ca4f814c6f0bb1e61f0adc01e3d26b47b78fd4d6891a885f83784e.gif)
 
 *Azur Lane’s store is a strong example of immersive design. The mascot character, Akashi, appears as a Live2D model whose eyes follow the player’s finger across the screen, adding charm and drawing attention to store interactions.*
 
@@ -107,7 +107,7 @@ A **daily free pack** can be claimed on a daily basis, requiring the player to v
 - Supplemental resources
 - Something to give players a head start in your core monetization systems, such as gacha draws, a flagship character, or consumable power-ups
 
-![](../../_assets/images/ca05c3a8e49c3869ad6baa3f08cc0d993c1ca21779f3841982df252ed762ff6d.jpg)
+![](../../.assets/images/ca05c3a8e49c3869ad6baa3f08cc0d993c1ca21779f3841982df252ed762ff6d.jpg)
 
 *Fire Emblem: Heroes offers a starter pack at $3.99 that includes premium currency (enough for a few gacha draws), a meta-viable character, and resources to strengthen that character’s stats.*
 

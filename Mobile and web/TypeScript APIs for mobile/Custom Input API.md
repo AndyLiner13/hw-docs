@@ -167,7 +167,7 @@ To add a custom icon, you need a texture asset. Upload any image to your asset f
 - **(Recommended)** Define a [texture asset in your script properties](../../Tutorials/Feature%20samples/Custom%20UI%20examples%20tutorial/Station%202%20-%20Image%20from%20Asset.md#station02-imagefromasset). This allows you to use the asset picker GUI in the script inspector for easier selection.
 - Alternatively, you can directly reference the texture asset’s ID in your code. This approach is less flexible but also valid.
 
-![Properties panel showing the textureAsset property](../../_assets/images/64fbad243a7d5f12faf1e16efa3a03e7be1625fe2355f283ffabb779b6539cd1.png)
+![Properties panel showing the textureAsset property](../../.assets/images/64fbad243a7d5f12faf1e16efa3a03e7be1625fe2355f283ffabb779b6539cd1.png)
 
 ### [Using the Texture Asset](#using-the-texture-asset)
 

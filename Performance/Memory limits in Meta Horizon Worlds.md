@@ -25,8 +25,8 @@ To enable real-time metrics in Meta Horizon Worlds:
 3. Open the PUI and open **Settings**.
 4. Click on the **Utilities** tab and enable the utilities menu.
 
-   ![](../_assets/gifs/915ff4db13068e9376ef8d527776b7b3a7c816c0459fa72f93642c65b89f4d13.gif)
+   ![](../.assets/gifs/915ff4db13068e9376ef8d527776b7b3a7c816c0459fa72f93642c65b89f4d13.gif)
 5. Once the wearable is open, tap the **Real-time metrics** button under Utilities to open the Real-time metrics panel.
 
-   ![](../_assets/gifs/5619c23063e9092a533fac1d860b855e0890ad6ad696651ed639481b9236de13.gif)
+   ![](../.assets/gifs/5619c23063e9092a533fac1d860b855e0890ad6ad696651ed639481b9236de13.gif)
 

@@ -10,7 +10,7 @@ This article kicks off our four-part series, *Designing a Mobile Game Economy 10
 
 But before we dive into currencies, let’s zoom out and frame the economy you’re building.
 
-![](../../_assets/images/8debccd643c87061545dc6335879e7d8eaf1af3f091be958900226a7f3d53357.png)
+![](../../.assets/images/8debccd643c87061545dc6335879e7d8eaf1af3f091be958900226a7f3d53357.png)
 
 # [An introduction to Horizon Worlds mobile economy bootcamp](#an-introduction-to-horizon-worlds-mobile-economy-bootcamp)
 
@@ -20,7 +20,7 @@ The good news is that mobile games have been around long enough that the basics 
 
 The best economies work like well-oiled machines. Some parts of the game should present opportunities to spend, while others should encourage earning through accruing resources or currencies. Balancing both sides — spending and earning — should feel cohesive and create harmony in your economy. But in any economy, you must first understand what you’re offering, what you’re willing to charge for it, and how you can deliver value to your players.
 
-![](../../_assets/images/8eb4bee5a24c0c99ceb483da922038c8895da48eaa1da0d32da44fca5900e6a5.png)
+![](../../.assets/images/8eb4bee5a24c0c99ceb483da922038c8895da48eaa1da0d32da44fca5900e6a5.png)
 
 *Storefronts can take many forms, from simple list or menu UI (top left, Royal Match) to more immersive (right, Azur Lane), or traditional (Clash of Clans, bottom left).*
 
@@ -45,7 +45,7 @@ Several best practices can help ensure clarity and player trust when designing a
 3. Ensure premium and soft currencies are visually distinct from one another.
 4. Avoid designs that resemble real-world money, which may create false expectations of 1:1 value.
 
-![](../../_assets/images/085a8d96ba16d9ee3fed93450db7ea9a67b9232aaeaf5ab6b80b594091fc2268.png)
+![](../../.assets/images/085a8d96ba16d9ee3fed93450db7ea9a67b9232aaeaf5ab6b80b594091fc2268.png)
 
 *In Clash Royale, gems function as the premium currency and gold as the soft currency. Players can buy gems with cash but must exchange them in-game if they want gold.*
 
@@ -60,7 +60,7 @@ Sinks (also called “currency-outs”) are where players spend their hard-earne
 
 Many games funnel players into secondary sinks by providing extra resources that push them to expand inventory, or by offering ways to speed up building and resource generation.
 
-![](../../_assets/images/8f100b2487bb9fbbeea48bddc348de2f57f440d340a8744c5e3088f5c8ccbd39.png)
+![](../../.assets/images/8f100b2487bb9fbbeea48bddc348de2f57f440d340a8744c5e3088f5c8ccbd39.png)
 
 *The Clash of Clans store demonstrates the sheer number of premium currency sinks a game can offer.*
 
@@ -72,7 +72,7 @@ Some games also introduce a **third currency** (and sometimes even fourth or fif
 
 It is recommended to keep currencies as simple as possible unless the game is complex and deep enough to warrant more than two currencies. Most games can manage well with 1-2 currencies. Each additional currency creates added complexity within the economy and so new currency additions need to be carefully evaluated for their benefits to the system.
 
-![](../../_assets/images/5e08566f4691cdfbf859e5d38cd6c1a5f6e6cecebf4abf707d5b026e5d0cde1b.png)
+![](../../.assets/images/5e08566f4691cdfbf859e5d38cd6c1a5f6e6cecebf4abf707d5b026e5d0cde1b.png)
 
 *Fire Emblem: Heroes features additional currencies like Dragonflowers (used for progression) and Otherworld Bonds (used to recruit another player’s loaned unit).*
 
@@ -88,7 +88,7 @@ Event currencies are typically themed — during Halloween, for example, the cur
 
 To preserve balance, avoid letting players purchase event currency directly, since this reduces the incentive to participate in the event. If purchases are allowed, keep them to a one-time option or place strict limits on how much can be bought so the earned economy remains intact. Another approach is to sell event currency boosters instead of the currency itself, which still encourages players to engage while making optional investment meaningful.
 
-![](../../_assets/images/387df29968ada9781fa6d123208f6f35b3535eb137248225f5705de2f894c774.png)
+![](../../.assets/images/387df29968ada9781fa6d123208f6f35b3535eb137248225f5705de2f894c774.png)
 
 *Earned event economies often introduce temporary themed currencies. Here, Disney Dreamlight Valley (left) uses crowns for its Royal Winter Star Path event, while Azur Lane (right) uses Benedictus Coins for its 7th Anniversary Event.*
 
@@ -116,7 +116,7 @@ Using telemetry and tracking can be invaluable. Understanding how much currencie
 
 By monitoring these trends, you gain concrete insights into what is working in your economy and where adjustments are needed.
 
-![](../../_assets/images/5997b590bee4d9842f9fc83cd2e5db804f29c6460eee0fa34111acd1c321c15b.png)
+![](../../.assets/images/5997b590bee4d9842f9fc83cd2e5db804f29c6460eee0fa34111acd1c321c15b.png)
 
 # [What’s next?](#whats-next)
 

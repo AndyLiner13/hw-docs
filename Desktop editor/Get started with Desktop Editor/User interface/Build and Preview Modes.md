@@ -14,8 +14,8 @@ You can change modes by selecting the appropriate mode button at the top of the 
 
 |             |                                                                                                                      |
 | ----------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Build**   | ![Build mode button](../../../_assets/images/7f151e98d80669bb3fe058df439f537560ac78190cae2069af0d1422db6f0536.png)   |
-| **Preview** | ![Preview mode button](../../../_assets/images/2115c31c33e25b7228209d56265ef46a033824aa01470023a9001cba7050d131.png) |
+| **Build**   | ![Build mode button](../../../.assets/images/7f151e98d80669bb3fe058df439f537560ac78190cae2069af0d1422db6f0536.png)   |
+| **Preview** | ![Preview mode button](../../../.assets/images/2115c31c33e25b7228209d56265ef46a033824aa01470023a9001cba7050d131.png) |
 
 **Note**: Your cursor isn’t visible while in **Preview** mode. Instead, the cursor is used to change your avatar’s orientation, as opposed to the arrow keys or WASD keys, which are used to move in different directions based on the orientation of your avatar. Click **ESC** twice to exit **Preview** mode.
 

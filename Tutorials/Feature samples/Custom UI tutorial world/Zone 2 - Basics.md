@@ -21,7 +21,7 @@ This documentation covers a two-part demo that shows how to create a versatile b
 
 #### [BasicButton Properties](#basicbutton-properties)
 
-![BasicButton Properties](../../../_assets/images/8060ada99038e86611d15179019c7a7b5b486cec11263b422e4e97a0e3732ded.png)
+![BasicButton Properties](../../../.assets/images/8060ada99038e86611d15179019c7a7b5b486cec11263b422e4e97a0e3732ded.png)
 
 - **`targetEntity`**: An entity that specifies which entity will receive the `sendMessageEvent` when the button is released.
 - **`ID`**: A string that provides a unique identifier for this button. This ID is included in the `sendMessageEvent` payload.

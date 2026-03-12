@@ -11,7 +11,7 @@ In order to publish a world, you’ll need to provide pertinent information such
 1. Go to Build Mode in the world to be published.
 2. Open the Creator Menu.
 3. Tap the **Publish** icon in the dock.
-4. Enter your information into the **Publish World** window, including: ![Screenshot shows the desktop editor window](../_assets/images/adb606bc4fa53dbf9d767976edfd3c4dddb9cf7bcfd3e8b7b0d7046e3dd9a53b.png)
+4. Enter your information into the **Publish World** window, including: ![Screenshot shows the desktop editor window](../.assets/images/adb606bc4fa53dbf9d767976edfd3c4dddb9cf7bcfd3e8b7b0d7046e3dd9a53b.png)
 5. **Name:** Enter a name for your world.
 6. **Description:** Provide a short, punchy description of what makes your world special.
 7. **World Rating:** Click on the ‘Get rating’ button to take a survey to determine your world rating. For more information on world ratings, [click here.](../MHCP%20program/FAQ/World%20Ratings%20FAQs.md)

@@ -10,7 +10,7 @@ This zone demonstrates a comprehensive storefront implementation that can handle
 
 The storefront is a complex Custom UI example capable of handling a large number of store functions. This gizmo comes with a store manager. Modify the store manager by changing the store data. Your store can sell fish or watering cans, for example. Set up the items and their costs for sale. You can also define how many items can be sold or require a prerequisite.
 
-![Storefront properties](../../../_assets/images/375d1ab3b771743191c151b10fea2bebea79c52a7c149969829d5bf5e7e01ac7.png)
+![Storefront properties](../../../.assets/images/375d1ab3b771743191c151b10fea2bebea79c52a7c149969829d5bf5e7e01ac7.png)
 
 Here is a breakdown of the TypeScript code which creates a store for a game.
 

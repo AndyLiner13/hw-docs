@@ -24,7 +24,7 @@ Go to the edit mode of a world, open the Creator User Interface (CUI), and go to
 
 | Desktop Editor                                                                                 | VR                                                                                             |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| ![](../../_assets/images/0adebb3e00e0b384241735e234dde36a46c42697615b6378bc5c3c18c402955e.png) | ![](../../_assets/images/c8a8ab69824434724ef7469be95db400cbd5fd6c07545c658a8d8bf91ea8edde.png) |
+| ![](../../.assets/images/0adebb3e00e0b384241735e234dde36a46c42697615b6378bc5c3c18c402955e.png) | ![](../../.assets/images/c8a8ab69824434724ef7469be95db400cbd5fd6c07545c658a8d8bf91ea8edde.png) |
 
 When creating an item, you’ll need to complete various fields:
 
@@ -45,7 +45,7 @@ When choosing Durable as the item type, you’ll be able to select an optional a
 
 | Desktop Editor                                                                                 | VR                                                                                             |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| ![](../../_assets/images/f27d8004d6591060ade1c9c7ff7cc73845084dfc6ab9014017160833528c1234.png) | ![](../../_assets/images/37a7eaeefb06277431ecd04a7f6426c0a71335a3d5cc593d07b71bf42298987b.png) |
+| ![](../../.assets/images/f27d8004d6591060ade1c9c7ff7cc73845084dfc6ab9014017160833528c1234.png) | ![](../../.assets/images/37a7eaeefb06277431ecd04a7f6426c0a71335a3d5cc593d07b71bf42298987b.png) |
 
 When this item is purchased, the buyer will be able to spawn the asset from their inventory. The “Inventory” section near the bottom of this guide shows what this looks like. Attaching an asset does not affect how this item is sold.
 
@@ -57,7 +57,7 @@ Given that consumable items can only be used once, it makes sense to create a pa
 
 | Desktop Editor                                                                                 | VR                                                                                             |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| ![](../../_assets/images/727274e03ffa8bb3fdc1c30fd325662e1b9a39ad4f3f16f4c8d27355cd59b6e1.png) | ![](../../_assets/images/f704acfdfd2b691eb534b0f3f8f5f7f71040b172a3d7b128e60e7357f04cbcc4.png) |
+| ![](../../.assets/images/727274e03ffa8bb3fdc1c30fd325662e1b9a39ad4f3f16f4c8d27355cd59b6e1.png) | ![](../../.assets/images/f704acfdfd2b691eb534b0f3f8f5f7f71040b172a3d7b128e60e7357f04cbcc4.png) |
 
 In order to do this, go to “Item Packs” under the Commerce tab, choose a consumable item, and create a pack for it. At least two inputs are needed for a pack:
 
@@ -70,7 +70,7 @@ In-World Purchase Gizmos are a mechanism where players can interact, see the pur
 
 | Desktop Editor                                                                                 | VR                                                                                             |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| ![](../../_assets/images/3b9f8d709abf43b6781ffc7318436135cd604b4765f06c3ce4eedc0c4e618756.png) | ![](../../_assets/images/791bb1d3dd15c739721c0816d7eed9e7509b4a7131fe1d7d87a03c689abf7d1d.png) |
+| ![](../../.assets/images/3b9f8d709abf43b6781ffc7318436135cd604b4765f06c3ce4eedc0c4e618756.png) | ![](../../.assets/images/791bb1d3dd15c739721c0816d7eed9e7509b4a7131fe1d7d87a03c689abf7d1d.png) |
 
 Open **CUI > Build > Gizmos** and find the in-world purchase gizmo. Drop the gizmo where you want people to interact, then open the gizmo configure page and adjust the fields accordingly:
 
@@ -106,7 +106,7 @@ this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemPurchaseComplete, 
 
 This is also possible using code blocks in VR:
 
-![](../../_assets/images/7695d17947b89c1be389819fc754aa8e19e347822ad9ad2db09cdfcbf6b72cef.png)
+![](../../.assets/images/7695d17947b89c1be389819fc754aa8e19e347822ad9ad2db09cdfcbf6b72cef.png)
 
 Here, the ‘t1’ is supposed to be a Text gizmo object, which needs to be connected to the in-world gizmo, which refers to this script.
 
@@ -127,7 +127,7 @@ For example, if you want to use a trigger that lets a player “verify” whethe
 
 This is also possible using code blocks in VR:
 
-![](../../_assets/images/49a48f31aee042662ff8f476200bc09f3dbcdf985bc72f12e4cc7be7baff2325.png)
+![](../../.assets/images/49a48f31aee042662ff8f476200bc09f3dbcdf985bc72f12e4cc7be7baff2325.png)
 
 ### [Consume event listener](#consume-event-listener)
 
@@ -150,7 +150,7 @@ this.connectCodeBlockEvent(this.entity, CodeBlockEvents.OnItemConsumeComplete, (
 
 This is also possible using code blocks in VR:
 
-![](../../_assets/images/29b9ac1dd62c46a0ec189bb8fd6032b846e064ae0ab84e5fb6548f00f616103e.png)
+![](../../.assets/images/29b9ac1dd62c46a0ec189bb8fd6032b846e064ae0ab84e5fb6548f00f616103e.png)
 
 These events are also available in TypeScript:
 
@@ -183,7 +183,7 @@ To prevent players from accidentally consuming a purchased inventory item when i
 
 The VR code blocks look like this:
 
-![](../../_assets/images/e1ac52291e4d58123c09012c0c3b92f61295e6a06b18efa5ad9e549751b335c1.png)
+![](../../.assets/images/e1ac52291e4d58123c09012c0c3b92f61295e6a06b18efa5ad9e549751b335c1.png)
 
 This is where you should replace the “display text” behavior with the actual things you want to happen, such as changing a person’s gravity or speed, adding health points, playing a sound, etc.
 
@@ -201,9 +201,9 @@ When creating a durable item, you have the option to attach an asset to the item
 
 In VR, that looks like this:
 
-![](../../_assets/images/dda321b32f17dee44a1aa31e38ac6a0636468fd6b650682ec6c67e03bb6694ff.png)
+![](../../.assets/images/dda321b32f17dee44a1aa31e38ac6a0636468fd6b650682ec6c67e03bb6694ff.png)
 
-![](../../_assets/images/10dc2c834fc3d9c89eedf80dcaf33cddff4f9499f8666cfa2aa8020d4cfd8e45.png)
+![](../../.assets/images/10dc2c834fc3d9c89eedf80dcaf33cddff4f9499f8666cfa2aa8020d4cfd8e45.png)
 
 ## [Kudos panel](#kudos-panel)
 
@@ -234,15 +234,15 @@ A purchase panel will appear when a gizmo is set up and people interact with it.
 
 After a person purchases an item, they’ll be able to access it in the inventory (again, if the item is not auto-consumed) by clicking the inventory button on the identity panel.
 
-![](../../_assets/images/df57cde23cf5b9afafa6914e3a9445363bb441d45784f1ed5b5e7fc402b2854f.png) or ![](../../_assets/images/20b01324292f1cd93fbbc2d9316d48b6aa76cafc22d7533ee6d23241060ef3a2.png)
+![](../../.assets/images/df57cde23cf5b9afafa6914e3a9445363bb441d45784f1ed5b5e7fc402b2854f.png) or ![](../../.assets/images/20b01324292f1cd93fbbc2d9316d48b6aa76cafc22d7533ee6d23241060ef3a2.png)
 
 All items that are available in the current world are shown in the inventory along with their item detail information; additionally, players can see what items can be used if applicable.
 
-![](../../_assets/images/f4528241028f041e27bd0e923c5455c8a9273e344d25eb6aad3e000f760076a6.png)
+![](../../.assets/images/f4528241028f041e27bd0e923c5455c8a9273e344d25eb6aad3e000f760076a6.png)
 
 - **If the item is consumable**, the player will be able to click the icon to consume it. When hovering on the item, the overlay will show ‘Use’ with the remaining amount of the consumable. The consuming will only succeed if the creator has correctly set up the consume-listeners as mentioned above.
 
-![](../../_assets/images/b885f46797b8c62168fc820972e8a300d586e8e5e276739f049e84ad3fdd261a.png)
+![](../../.assets/images/b885f46797b8c62168fc820972e8a300d586e8e5e276739f049e84ad3fdd261a.png)
 
 The player can also point to the item name and click on ‘info’, which will lead to the item detail page.
 

@@ -8,17 +8,17 @@ This topic describes the `avatarScale` property in the [Player](../../Reference/
 
 In the following image of [Kaiju City Showdown](https://horizon.meta.com/world/1279402616789539), the Kaiju player is larger than the rest of players using the API.
 
-![The Kaiju player is larger than the rest of the players](../../_assets/images/78e8fd385c1035e65be81e5df5398072a82679a7ca313d3e2f0d646f81330f3c.png)
+![The Kaiju player is larger than the rest of the players](../../.assets/images/78e8fd385c1035e65be81e5df5398072a82679a7ca313d3e2f0d646f81330f3c.png)
 
 You can now unlock new content on the platform. The API enables creators to incorporate mechanics such as platform jumping and puzzle games that rely on scaling avatars up or down in order to progress in the game. Additionally, you can use avatar scaling as part of a progression system for prestige or reputation.
 
 The following image shows the avatar at the beginning of the game.
 
-![The avatar before it's scaled down](../../_assets/images/b57a3444c206c15fc7bc651008197c591cf1eac1da03455a2ea32d6d1da1a38d.png)
+![The avatar before it's scaled down](../../.assets/images/b57a3444c206c15fc7bc651008197c591cf1eac1da03455a2ea32d6d1da1a38d.png)
 
 The following image shows the avatar is scaled down to jump through the doughnut hole.
 
-![The avatar scaled down to fit through the doughnut hole](../../_assets/images/b4eb9d02c6a2dbd901acacb1f09f79c4e619c164e09b6e60d220bc4744ec89ad.png)
+![The avatar scaled down to fit through the doughnut hole](../../.assets/images/b4eb9d02c6a2dbd901acacb1f09f79c4e619c164e09b6e60d220bc4744ec89ad.png)
 
 ## [Prerequisites](#prerequisites)
 

@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Text assets can be used for creating dynamic events, which may be based on real-world time or events. For example, you can change your world to reflect a New Year’s theme or a National holiday theme. By having events defined in a Text asset, you can easily swap content in and out, without having to modify the world code and republish the world.
 
-![Image of Station 3, which features changing visual effects based on a timer](../../../_assets/images/b940475aa57062bf63b828716e975927ddcde769592a28f45b6f5223a55ae267.png)
+![Image of Station 3, which features changing visual effects based on a timer](../../../.assets/images/b940475aa57062bf63b828716e975927ddcde769592a28f45b6f5223a55ae267.png)
 
 **How to use this module**:
 

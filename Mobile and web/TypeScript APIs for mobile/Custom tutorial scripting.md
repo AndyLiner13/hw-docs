@@ -26,7 +26,7 @@ The following example shows how to use the showInfoSlides API.
 
 For more details on the showInfoSlides API, check out our API documentation [here](https://horizon.meta.com/resources/scripting-api/core.player.showinfoslides.md/?api_version=2.0.0).
 
-![Header banner image example (920x280px)](../../_assets/images/07c471685b15c2597ef5b3bbe637d48b1c23b9d669603ba8e8a7a223266e7d18.png)![Body image example (808x412px)](../../_assets/images/9c776f758eeaf3ed1fd3e3e924a8005f9111c25bf913775c351c4f8f114bde05.png)
+![Header banner image example (920x280px)](../../.assets/images/07c471685b15c2597ef5b3bbe637d48b1c23b9d669603ba8e8a7a223266e7d18.png)![Body image example (808x412px)](../../.assets/images/9c776f758eeaf3ed1fd3e3e924a8005f9111c25bf913775c351c4f8f114bde05.png)
 
 ```typescript
 player.showInfoSlides([
@@ -54,7 +54,7 @@ More details about the API can be found [here](https://horizon.meta.com/resource
 
 ### [Example](#example-1)
 
-![showInputActionMessage visual example](../../_assets/images/4c862d7c55f2b0e3f38c2402d09ebca23df45327d19ab3365b4fc61352f06615.png)
+![showInputActionMessage visual example](../../.assets/images/4c862d7c55f2b0e3f38c2402d09ebca23df45327d19ab3365b4fc61352f06615.png)
 
 ```typescript
 player.showInputActionMessage(
@@ -72,7 +72,7 @@ More details about the API can be found [here](https://horizon.meta.com/resource
 
 ### [Example](#example-2)
 
-![showToastMessage visual example](../../_assets/images/2455eac8cf027e95b77400199b9325c51c0c235ed88f8a80232a957da85a9baf.png)
+![showToastMessage visual example](../../.assets/images/2455eac8cf027e95b77400199b9325c51c0c235ed88f8a80232a957da85a9baf.png)
 
 ```typescript
 player.showToastMessage(

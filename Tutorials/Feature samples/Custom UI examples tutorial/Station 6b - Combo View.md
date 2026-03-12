@@ -10,7 +10,7 @@ In the previous example, the `View()` objects were created as constructors, whic
 
 In this manner, you can build sophisticated user interfaces by assembling core UI widgets as constructor `View()` objects and combining them together to build more sophisticated objects, which can be referenced from a library. Think, for example, of a Confirmation Dialog created as a set of constructor `View()` objects.
 
-![Image of Station 6b](../../../_assets/images/686a14db4474fc349e12567b2643d2e163a6c7eb2c97bb73ecba03157c6b238c.png)
+![Image of Station 6b](../../../.assets/images/686a14db4474fc349e12567b2643d2e163a6c7eb2c97bb73ecba03157c6b238c.png)
 
 ## [Assets](#assets)
 

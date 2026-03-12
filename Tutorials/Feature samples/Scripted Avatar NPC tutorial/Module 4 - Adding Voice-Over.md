@@ -106,7 +106,7 @@ Through the desktop editor, you can add sound effects in multiple ways:
 1. In the menubar, select **Build menu > Sounds**. Search and explore assets. Drag in an asset into the world. In the Properties panel, click **Play** to preview the asset.
 2. Use the desktop editor’s integrated Generative AI tools. In the menubar, click **GenAI**.
 
-![Image of GenAI panel in desktop editor](../../../_assets/images/3fb9c636f58e2ee7cff88a0b884e6cc87ddcbefb832c71b9e4eee7d9b0f77f5d.png)
+![Image of GenAI panel in desktop editor](../../../.assets/images/3fb9c636f58e2ee7cff88a0b884e6cc87ddcbefb832c71b9e4eee7d9b0f77f5d.png)
 
 **Note**: At this time, this feature is in Beta release.
 

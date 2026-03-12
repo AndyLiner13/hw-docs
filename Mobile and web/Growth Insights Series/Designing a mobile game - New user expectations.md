@@ -22,9 +22,9 @@ The NUX encompasses more than a tutorial. It’s how you introduce your game and
 
 A good NUX begins at the point of discovery. When a player is looking for an experience to explore in Worlds, they will either discover you through the first page of the Meta Horizon app or by searching by name. Therefore, you must be mindful of how your icon, key art, name, and descriptions display on mobile, as all of these elements communicate what players can expect from your experience. It’s also advisable to keep load times reasonable, as longer waits may drive them away. Refer to our [Intro to Worlds Discovery article](../../Save%2C%20optimize%2C%20and%20publish/Intro%20to%20Worlds%20discovery.md) for more best practices on presenting your game.
 
-![](../../_assets/images/45d1ffaef0a5d23c48ec3195afc238cd621662ba007cb233ac9bff0eeb55f3f3.jpg)
+![](../../.assets/images/45d1ffaef0a5d23c48ec3195afc238cd621662ba007cb233ac9bff0eeb55f3f3.jpg)
 
-![](../../_assets/images/f90f109e18622a27f1b2a74fb944f35362d50baf3687d453d8f16e433ad5a7b0.jpg)
+![](../../.assets/images/f90f109e18622a27f1b2a74fb944f35362d50baf3687d453d8f16e433ad5a7b0.jpg)
 
 *Shovel Up! is an excellent example of a good game presentation on Meta Horizon. It includes strong key art, a recognizable icon, and strong descriptions of their updates to the game.*
 
@@ -37,7 +37,7 @@ When designing your NUX, there are four main ways to structure the experience:
 3. **Just in Time/Triggered** - A prompt triggers exactly as a player encounters some part of the tutorial as they are exploring. For example, if your health bar dips below 60%, for the first time you get a tutorial on using a health potion.
 4. **Open to player agency**: This approach is rare on mobile. Players can direct their own tutorial experience by choosing what aspects of the game to explore. Typically, they start with a guided NUX before the game gradually removes the guardrails and allows them to dictate the flow.
 
-![](../../_assets/images/b0649f13ce0b0032e947909518dee8213c28353f8c16b4973f11365da3b03b58.png)
+![](../../.assets/images/b0649f13ce0b0032e947909518dee8213c28353f8c16b4973f11365da3b03b58.png)
 
 *When tutorializing, prioritize non-intuitive mechanics. Players should be encouraged to experiment with basic actions like picking up items or firing weapons. Our recommendation is to provide clear goals and allow players to discover how to achieve them.*
 
@@ -72,7 +72,7 @@ In general, players expect a light tutorial. Many Worlds simply drop the player 
 
 Depending on the target audience, it may not be necessary to teach them commonly found mechanics (movement, shooting a weapon, etc.). It may be more valuable to provide goals and focus on helping players truly understand new mechanics.
 
-![](../../_assets/images/cc6f36d4d200d50aef457ec64a9a6d9c4bf01a9cb8e84b13d9586c8d00f124f2.png)
+![](../../.assets/images/cc6f36d4d200d50aef457ec64a9a6d9c4bf01a9cb8e84b13d9586c8d00f124f2.png)
 
 *Players in Horizon Worlds generally prefer clear goals and autonomy. However, if a player is inactive, a tip should appear after a few seconds.*
 
@@ -92,7 +92,7 @@ Consider checking out the [showInfoSlides API Tutorial Manager](../../Tutorials/
 
 Additionally, you can check out an entire Tutorial World we created as reference content on how to make in-world NUXes for more advanced creators. Go [here](../../Tutorials/Feature%20samples/New%20user%20experience%20tutorial/Module%201%20-%20Introduction.md) to see the tutorial world.
 
-![](../../_assets/images/882eb62da7bdfda33c24d6e2ce677cfa032e2dda40e2439db7b9996dac379d77.png)
+![](../../.assets/images/882eb62da7bdfda33c24d6e2ce677cfa032e2dda40e2439db7b9996dac379d77.png)
 
 *Visit our Tutorial World [here](../../Tutorials/Feature%20samples/New%20user%20experience%20tutorial/Module%201%20-%20Introduction.md) to get a sense of how a tutorial system in Worlds works.*
 

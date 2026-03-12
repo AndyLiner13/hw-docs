@@ -10,7 +10,7 @@ A trusted and profitable digital economy in the metaverse depends on three core 
 2. Ensuring a clear and valuable exchange for in-app purchases (IAP).
 3. Establishing robust safety nets that protect players and reassure parents.
 
-![Graphic depicting the flow for building monetization trust](../_assets/images/d9277f923ab4c16abd0cadbe17372181672373f21767cae4291994b5359819f9.png)
+![Graphic depicting the flow for building monetization trust](../.assets/images/d9277f923ab4c16abd0cadbe17372181672373f21767cae4291994b5359819f9.png)
 
 ## [Engagement is paramount](#engagement-is-paramount)
 

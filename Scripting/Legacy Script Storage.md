@@ -22,10 +22,10 @@ If your created world is on the legacy system, you can always opt-in to the file
 
 To opt-in to file-backed scripts as your script storage solution use the following process:
 
-1. Open the **Scripts** dropdown and click the **Settings** gear. ![Horizon scripts drop-down menu](../_assets/images/d15d36bf1197e5ff0517f9dcbc69fe8be5dd00d1f2772826e608482c3aaf361a.png)
-2. Under **File-Backed Scripts**, click **Review**. ![File-backed scripts review option select](../_assets/images/a2af743d21617ffd7b81cbc4c981d5b73bff6981affca2c5394d2d41e01be65b.png)
-3. After reading the information, click **Update**. ![File-backed scripts update window](../_assets/images/a6fd4db6bf6cd6375f28dac836b871deb787072ce392f352fae27959168740d7.png)
-4. Once you click **Apply**, your changes will be saved and your world and all the scripts in it will be migrated to FBS. ![Script settings window after opting in to FBS](../_assets/images/494da98ba374621d420c6877c536a3676ed8c72c7bf107a02983bf0d11bbcba1.png)
+1. Open the **Scripts** dropdown and click the **Settings** gear. ![Horizon scripts drop-down menu](../.assets/images/d15d36bf1197e5ff0517f9dcbc69fe8be5dd00d1f2772826e608482c3aaf361a.png)
+2. Under **File-Backed Scripts**, click **Review**. ![File-backed scripts review option select](../.assets/images/a2af743d21617ffd7b81cbc4c981d5b73bff6981affca2c5394d2d41e01be65b.png)
+3. After reading the information, click **Update**. ![File-backed scripts update window](../.assets/images/a6fd4db6bf6cd6375f28dac836b871deb787072ce392f352fae27959168740d7.png)
+4. Once you click **Apply**, your changes will be saved and your world and all the scripts in it will be migrated to FBS. ![Script settings window after opting in to FBS](../.assets/images/494da98ba374621d420c6877c536a3676ed8c72c7bf107a02983bf0d11bbcba1.png)
 5. A notification will appear when the migration is complete.
 
 ## [What to look out for after opting in a world](#what-to-look-out-for-after-opting-in-a-world)

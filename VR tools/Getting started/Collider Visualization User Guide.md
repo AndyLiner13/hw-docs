@@ -12,7 +12,7 @@ Creators can now visualize their collision meshes in VR so they can better manag
 
 After the utilities menu is enabled. You will find the “Collision” button. Use your cursor to select the button and toggle the collision visualization.
 
-![](../../_assets/images/c9edb2bb74e75427527c56090e2fe48b5cb88474b73dd7e1725468f613b127ce.png)
+![](../../.assets/images/c9edb2bb74e75427527c56090e2fe48b5cb88474b73dd7e1725468f613b127ce.png)
 
 With “Collision” turned on, your world will display collision meshes up to 50 units away. To test this out, you can open the property panel of an object and toggle the “Collidable” option and notice the collision mesh appear and disappear. Static objects will have an orange collision mesh, while dynamic objects will have a purple mesh.
 
@@ -24,7 +24,7 @@ This tool can be handy to investigate at a glance how players interact with the 
 
 Another use case is optimizing the performance of your world by disabling collisions on objects that can’t be reached by players. Once you have identified which areas of the world are not reachable, you can turn on collision meshes to quickly see which objects have collision meshes in the area.
 
-![](../../_assets/images/1c02cd736c79ef070913934af42cfd74709a6f4b3d0d32b03a2b53cbacfc8fc2.png)
+![](../../.assets/images/1c02cd736c79ef070913934af42cfd74709a6f4b3d0d32b03a2b53cbacfc8fc2.png)
 
-![](../../_assets/images/a9da933cd6da1c4a961a785c6bcd5ffd9d89a3e281436944b3feb0e8a6f28d7b.png)
+![](../../.assets/images/a9da933cd6da1c4a961a785c6bcd5ffd9d89a3e281436944b3feb0e8a6f28d7b.png)
 

@@ -14,7 +14,7 @@ Data binding in NoesisGUI allows you to connect UI elements in XAML to propertie
 
 ### [Property Binding](#property-binding)
 
-![Property Binding](../../../_assets/images/d302a9ed3ae2c05c1f80003e31d0c3d1ba4200b7aab9090027cf9622034102de.png)
+![Property Binding](../../../.assets/images/d302a9ed3ae2c05c1f80003e31d0c3d1ba4200b7aab9090027cf9622034102de.png)
 
 Connects a UI element’s property (like Text or Value) to a value in your data context.
 
@@ -29,7 +29,7 @@ Connects a UI element’s property (like Text or Value) to a value in your data 
 
 ### [ItemsSource Binding](#itemssource-binding)
 
-![NoesisGUI ItemsSource Binding](../../../_assets/images/105dc408147688ddcdad54645cb4ad8a329640b4f26dd8cdff6e525a81fc902f.png)
+![NoesisGUI ItemsSource Binding](../../../.assets/images/105dc408147688ddcdad54645cb4ad8a329640b4f26dd8cdff6e525a81fc902f.png)
 
 Binds a collection in your data context to a list UI element.
 
@@ -43,7 +43,7 @@ Binds a collection in your data context to a list UI element.
 
 ### [Command Binding](#command-binding)
 
-![NoesisGUI Command Binding](../../../_assets/images/7cc4a831861225aefc282868f0a60dfec58b8e0d8978e63e50a904bb8afd9306.png)
+![NoesisGUI Command Binding](../../../.assets/images/7cc4a831861225aefc282868f0a60dfec58b8e0d8978e63e50a904bb8afd9306.png)
 
 Binds a UI event (like a button click) to a function in your data context.
 
@@ -530,7 +530,7 @@ NoesisImage
 
 See a working example here:
 
-![Image Resource Binding example](../../../_assets/videos/2c1fae838af7684b8bda686ad25161a43098366acadec437de49552fffe861e1.mp4)
+![Image Resource Binding example](../../../.assets/videos/2c1fae838af7684b8bda686ad25161a43098366acadec437de49552fffe861e1.mp4)
 
 ## [Two-way data binding](#two-way-data-binding)
 
@@ -643,5 +643,5 @@ dataContext
 
 See a working example here:
 
-![Two Way Binding example](../../../_assets/videos/77fcd87af7c2bf61569b73cbfe11d0c1bb4bcba1feb90d7d23f78bbf2ddaf262.mp4)
+![Two Way Binding example](../../../.assets/videos/77fcd87af7c2bf61569b73cbfe11d0c1bb4bcba1feb90d7d23f78bbf2ddaf262.mp4)
 

@@ -18,7 +18,7 @@ This demo illustrates a text panel that can display large amounts of text in a s
 
 #### [ScrollText Properties](#scrolltext-properties)
 
-![ScrollText Properties](../../../_assets/images/14d9218c12aeb32cbe92bcb409dcea61363d67c904f968afe99b26e4327a3caa.png)
+![ScrollText Properties](../../../.assets/images/14d9218c12aeb32cbe92bcb409dcea61363d67c904f968afe99b26e4327a3caa.png)
 
 - **`text`**: A string containing the default text to be displayed.
 - **`theme`**: A number to select a predefined color theme for the UI panel.

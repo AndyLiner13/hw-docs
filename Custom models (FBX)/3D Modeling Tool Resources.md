@@ -21,7 +21,7 @@ Below we provide beginner-friendly resources for learning 3D modeling with Blend
 - [BlenderArtists Community](https://blenderartists.org/): Join the BlenderArtists forum to connect with other Blender enthusiasts. You can share your work and seek advice from experienced users.
 - [Blender Keyboard Shortcuts](https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html): Familiarize yourself with Blender’s keyboard shortcuts to improve your efficiency.
 
-![](../_assets/images/1be5d5c3b03e077831e912d4cfbd91ca7c30b728406eb5ae2881af6e249aac75.png)![](../_assets/images/266acf61dd55a4dbe920434c9fd86d00c4f0aa7e7eb00f444f495c9d19d1a933.png)![](../_assets/images/d3237e68243dfde230012baa972abfa249471409ffbdb9b3711659c73b7cedb4.png)
+![](../.assets/images/1be5d5c3b03e077831e912d4cfbd91ca7c30b728406eb5ae2881af6e249aac75.png)![](../.assets/images/266acf61dd55a4dbe920434c9fd86d00c4f0aa7e7eb00f444f495c9d19d1a933.png)![](../.assets/images/d3237e68243dfde230012baa972abfa249471409ffbdb9b3711659c73b7cedb4.png)
 
 ## [Additional Tools for 3D Modeling](#additional-tools-for-3d-modeling)
 

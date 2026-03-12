@@ -31,13 +31,13 @@ For more information, see [Quests Overview](../../../Desktop%20editor/Quests%2C%
 
 You can review the quests defined for this world. In the Desktop Editor, click **Systems menu > Quests**. Click the **Edit icon** next to one of the quests.
 
-![Image of Edit Quest dialog](../../../_assets/images/a601e1cda38ebe2eff1526e385f3c5aef352485287d931a7b082facec5759e9f.png)
+![Image of Edit Quest dialog](../../../.assets/images/a601e1cda38ebe2eff1526e385f3c5aef352485287d931a7b082facec5759e9f.png)
 
 The quest definitions in this world are pretty simple: all are of Simple type, which means that they are resolved by flipping a Boolean flag (covered later).
 
 After this quest is completed, the Quest board in the world is updated to reflect the change:
 
-![Image of Quest Board in the world](../../../_assets/images/689d45a29f8b4b271e289dee5f393faeff992ba637f525924cbe908edd659222.png)
+![Image of Quest Board in the world](../../../.assets/images/689d45a29f8b4b271e289dee5f393faeff992ba637f525924cbe908edd659222.png)
 
 #### [Tracked quest type](#tracked-quest-type)
 
@@ -188,7 +188,7 @@ player.setAchievementComplete(qValue, true)
 
 During development, you can reset quest data through the Desktop Editor. In the **Systems menu**, select **Quests**.
 
-![Image of Quests Panel in desktop editor](../../../_assets/images/bf86f0eff67e20a0d97335a5c1b623d9b6945469c9bafc6697145565742468bf.png)
+![Image of Quests Panel in desktop editor](../../../.assets/images/bf86f0eff67e20a0d97335a5c1b623d9b6945469c9bafc6697145565742468bf.png)
 
 Then, click the highlighted icon below. In the panel, click **Reset all quests**.
 
@@ -200,7 +200,7 @@ End users who do not have access to the Desktop Editor cannot reset their quests
 
 In this world, the following entities have been added to enable the player to reset quests:
 
-![Image of entities to trigger resetting of quests](../../../_assets/images/26315b44eb630830041cb95da318fa418ebb52055e84f429001b5dd2e0bda709.png)
+![Image of entities to trigger resetting of quests](../../../.assets/images/26315b44eb630830041cb95da318fa418ebb52055e84f429001b5dd2e0bda709.png)
 
 **Entities**:
 

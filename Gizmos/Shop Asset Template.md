@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # [Shop Asset Template](#shop-asset-template)
 
-![Shop Asset Template](../_assets/images/1ffb15a778f70278a895fe63408f8faddec7e8499f5c3c656818aca356a400b7.png)
+![Shop Asset Template](../.assets/images/1ffb15a778f70278a895fe63408f8faddec7e8499f5c3c656818aca356a400b7.png)
 
 > [!Note]
 >
@@ -20,7 +20,7 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Shop Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Shop” in the search field. Finally, select the Shop Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Shop Asset Template](../_assets/images/8808e5323f1795fa7cacaa936c0e21513050c7c37ebe79cad9cf5b8841ccde07.png)
+![Finding the Shop Asset Template](../.assets/images/8808e5323f1795fa7cacaa936c0e21513050c7c37ebe79cad9cf5b8841ccde07.png)
 
 ## [Shop Asset Template properties](#shop-asset-template-properties)
 

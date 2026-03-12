@@ -21,10 +21,10 @@ To enable and view the Real-time metrics panel:
 3. Open the PUI and open **Settings**.
 4. Click on the **Utilities** tab and enable the utilities menu.
 
-   ![](../../_assets/gifs/915ff4db13068e9376ef8d527776b7b3a7c816c0459fa72f93642c65b89f4d13.gif)
+   ![](../../.assets/gifs/915ff4db13068e9376ef8d527776b7b3a7c816c0459fa72f93642c65b89f4d13.gif)
 5. Once the wearable is open, tap the **Real-time metrics** button under **Utilities** to open the Real-time metrics panel.
 
-   ![](../../_assets/gifs/5619c23063e9092a533fac1d860b855e0890ad6ad696651ed639481b9236de13.gif)
+   ![](../../.assets/gifs/5619c23063e9092a533fac1d860b855e0890ad6ad696651ed639481b9236de13.gif)
 
 ## [Real-time metrics settings](#real-time-metrics-settings)
 
@@ -36,23 +36,23 @@ To change the position of the Real-time metrics panel, open the display settings
 
 Select a position from the **Position** drop-down in Display Settings. You may choose from **Top Left**, **Top Right**, **Bottom Left**, and **Bottom Right**. This snaps the Real-time performance metrics panel to one of those locations in your view.
 
-![](../../_assets/gifs/362888f90cfc74e9f98c806e9a2f26cafa2f1b23cffa1b52b40304e2df5e38fe.gif)
+![](../../.assets/gifs/362888f90cfc74e9f98c806e9a2f26cafa2f1b23cffa1b52b40304e2df5e38fe.gif)
 
 ### [Moving the panel by dragging](#moving-the-panel-by-dragging)
 
 You can grab the white bar below the Real-time performance metrics panel by using either trigger on your Quest controller. While holding down the trigger, you can move the panel by dragging it.
 
-![](../../_assets/gifs/9dd3b4e329accadc15c98724ad640cd26d5734ebe240e5f5f9eeb1ece04ca349.gif)
+![](../../.assets/gifs/9dd3b4e329accadc15c98724ad640cd26d5734ebe240e5f5f9eeb1ece04ca349.gif)
 
 ### [Minimizing](#minimizing)
 
 You can minimize the Real-time metrics panel by pressing the **Minimize** button to the right of the settings button.
 
-![](../../_assets/images/1ddcfebec43c543888b2660f98c05413b60f0e39b9c79bbc6e8a98043f4fdecd.jpg)
+![](../../.assets/images/1ddcfebec43c543888b2660f98c05413b60f0e39b9c79bbc6e8a98043f4fdecd.jpg)
 
 Once minimized, you can restore the panel by clicking the button again.
 
-![](../../_assets/images/053033cc89d7d9784fb3c4f9c7c36d0fc19f6a402da842ec595e4d7fecf21635.png)
+![](../../.assets/images/053033cc89d7d9784fb3c4f9c7c36d0fc19f6a402da842ec595e4d7fecf21635.png)
 
 ## [Real-time metrics graphs](#real-time-metrics-graphs)
 
@@ -60,7 +60,7 @@ Once minimized, you can restore the panel by clicking the button again.
 
 Press the **Settings button** on the Real-time metrics panel to open the display settings.
 
-![](../../_assets/images/40b7f5fc3422b2072bb0e81b39c54898b4fc9c88c95a00723af761835978ea89.jpg)
+![](../../.assets/images/40b7f5fc3422b2072bb0e81b39c54898b4fc9c88c95a00723af761835978ea89.jpg)
 
 Under Graphs, there are checkboxes for the metrics that are available.
 
@@ -70,7 +70,7 @@ To add a metric to the Real-time settings panel, open the display settings, hove
 
 If you attempt to select too many metrics, you receive a notification informing you that you have reached the maximum number of metrics that can be viewed at once. In order to add more metrics, you must first deselect one or more currently displayed metrics using the same process you used to select them.
 
-![](../../_assets/gifs/3af58dabed93be0102291217ced0e61bc3364936a6a002729da0b9dc880ad4d3.gif)
+![](../../.assets/gifs/3af58dabed93be0102291217ced0e61bc3364936a6a002729da0b9dc880ad4d3.gif)
 
 ### [Changing metric targets](#changing-metric-targets)
 
@@ -78,11 +78,11 @@ You can set metric targets to signal you when they exceed the desired target. Wh
 
 To set a metric target, enter the target value into that metric’s **Target** field in the display settings.
 
-![](../../_assets/images/e871c303b461ed2f1212d822ac42db84e78e6e5b85e884dd39599652e56ad976.jpg)
+![](../../.assets/images/e871c303b461ed2f1212d822ac42db84e78e6e5b85e884dd39599652e56ad976.jpg)
 
 In this example, the GPU target is lowered to 2.0 milliseconds, which causes it to become highlighted red in the Real-time metrics panel for as long as the average GPU is over the new target.
 
-![](../../_assets/images/039cd05fd76a4b3c8213514dcacabe97689c8f50aee4d134e19d4c3c1dbba275.jpg)
+![](../../.assets/images/039cd05fd76a4b3c8213514dcacabe97689c8f50aee4d134e19d4c3c1dbba275.jpg)
 
 ## [Real-time Metric Descriptions](#real-time-metric-descriptions)
 

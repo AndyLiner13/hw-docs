@@ -17,7 +17,7 @@ Here’s a quick and codeless solution to set the camera to first-person or thir
 
 **Note**: This feature is not used in the tutorial world, but it’s an easy alternative if you don’t need much control over the camera.
 
-![Screenshot of SpawnPoint in the desktop editor with its Mobile Camera options displayed in the Properties panel](../../../_assets/images/9221e1e945abd919573005d20605983b9d2b3168b02557127a61418eebe43aec.png)
+![Screenshot of SpawnPoint in the desktop editor with its Mobile Camera options displayed in the Properties panel](../../../.assets/images/9221e1e945abd919573005d20605983b9d2b3168b02557127a61418eebe43aec.png)
 
 Using this property, you can set the camera mode to first-person or third-person for all web or mobile players who enter through this Spawn Point; VR players are unaffected. For example, you might want a default first-person camera for your world, or you can choose to use a third-person camera in a lobby and then teleport players to another Spawn Point in the game area, where a first-person camera is applied.
 
@@ -50,7 +50,7 @@ The Camera API must be executed in **Local Execution Mode**, as it functions on 
 1. Hover over the sysCameraManagerLocal script in the Scripts menu, and select the ellipsis (3 dots).
 2. From the context menu, select **Execution Mode > Local**:
 
-![Screenshot of sysCameraManagerLocal script entity with its execution mode property set to Local](../../../_assets/images/65ee81441111bc9f3836470dfb997ec432e5e2d3275e61a1d9aacd50c34006bd.png)
+![Screenshot of sysCameraManagerLocal script entity with its execution mode property set to Local](../../../.assets/images/65ee81441111bc9f3836470dfb997ec432e5e2d3275e61a1d9aacd50c34006bd.png)
 
 ## [Transfer ownership to player](#transfer-ownership-to-player)
 
@@ -86,7 +86,7 @@ The Camera API must be enabled for use in your world.
 4. Enable **horizon/camera**.
 5. Click **Apply** to save the changes:
 
-![Screenshot of Script Settings window in the desktop editor](../../../_assets/images/34ff76bd468abb6a3dab786448856934c050023d12e9759516816801e7e82c7f.png)
+![Screenshot of Script Settings window in the desktop editor](../../../.assets/images/34ff76bd468abb6a3dab786448856934c050023d12e9759516816801e7e82c7f.png)
 
 ## [Modify sysCameraManagerLocal](#modify-syscameramanagerlocal)
 
@@ -372,7 +372,7 @@ The Camera Managers are ready to be used by the Player Manager, which transfers 
 
 Since we need one Camera Manager per player, you should verify that you have the same number of Camera Managers as the maximum number of players permitted in your world (one Camera per one Player):
 
-![Screenshot of the CameraManager entities in the Hierarchy panel](../../../_assets/images/d52f1888e7c43ecd80177d7159a0c4ca9efb378a7b623c2651db24114bcf727c.png)
+![Screenshot of the CameraManager entities in the Hierarchy panel](../../../.assets/images/d52f1888e7c43ecd80177d7159a0c4ca9efb378a7b623c2651db24114bcf727c.png)
 
 #### [Test:](#test)
 

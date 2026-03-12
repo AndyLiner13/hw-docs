@@ -16,7 +16,7 @@ Live service games pose both a benefit and risk to user acquisition because they
 
 Live service games also require special care when it comes to user acquisition, especially for platform games (Worlds, Roblox, Fortnite) that compete side by side. Your first challenge is clearly communicating what kind of game you’ve built. Players will mainly see your game’s **title, icon, key art, and description**. These elements need to be appealing, hint at the game’s genre, look fun to players, and, most importantly, stand out in a crowded field of competitors.
 
-![Castle Quest! Horizon webpage](../../_assets/images/db8271f7b886d3ec94b3853ca8732d23133c8a1889f4707b58c14ad8ded20f5d.png)
+![Castle Quest! Horizon webpage](../../.assets/images/db8271f7b886d3ec94b3853ca8732d23133c8a1889f4707b58c14ad8ded20f5d.png)
 
 *Spend extra time testing your key art and icon. For many players, these are the only pieces of content they’ll see before deciding to try your game.*
 
@@ -57,7 +57,7 @@ These questions reflect the implicit expectations that your players will have ar
 
 At a minimum, you should have ideas and development roadmaps in place for new cosmetics, a potential battle pass (if applicable), seasonal events or overlays, and at least one new gameplay mode or variation for players to enjoy. Once your plans are drafted and your game launches, it is extremely helpful to monitor and track player engagement with new content to see whether it is genuinely compelling. If it is, the plans you made are working and you can continue to follow them. If not, you can adjust your roadmap to better match player behavior and make it easier to keep players engaged for the long term.
 
-![Castle Quest! empty castle courtyard](../../_assets/images/8027942aa2318a4b45e3de8de3eac574d214578592b9012cee44c1e0d1894433.png)
+![Castle Quest! empty castle courtyard](../../.assets/images/8027942aa2318a4b45e3de8de3eac574d214578592b9012cee44c1e0d1894433.png)
 
 *Seasonal, or [holiday events](https://developers.meta.com/horizon/blog/planning-seasonal-in-game-events/), can drive both engagement and monetization in your game.*
 
@@ -71,7 +71,7 @@ You can run community content on Discord, rewarding players who join with small 
 
 Reaching out to your players and making them feel welcome in the game’s community helps them feel part of something bigger. Whether you encourage them to make friends or simply visit the Discord to see fun posts from other players, that sense of belonging can go a long way.
 
-![Castle Quest! castle courtyard with other players socializing](../../_assets/images/3b590bc0f2b423d6ce85f2c2d56a1588bf172877fce88d6e23244990688e18bd.png)
+![Castle Quest! castle courtyard with other players socializing](../../.assets/images/3b590bc0f2b423d6ce85f2c2d56a1588bf172877fce88d6e23244990688e18bd.png)
 
 *Whether in-game or on social channels, fostering a community around your game is a great way to boost retention.*
 
@@ -100,7 +100,7 @@ Daily, weekly, and monthly quests are another effective way to drive engagement.
 
 For many players, completing their “dailies” becomes a ritual that helps them make progress, stay current with the game, and earn resources, currency, or consumables. Any gameplay beyond dailies is a bonus and reflects deeper engagement. In most live-service games, dailies represent the minimum amount of gameplay a player should aim to complete.
 
-![Castle Quest! quests tab with Daily, Weekly, and Monthly options](../../_assets/images/65060ac6cbb962e847cc153a4882850f9f7480b86bdf0908f92f9d7842fb36d6.png)
+![Castle Quest! quests tab with Daily, Weekly, and Monthly options](../../.assets/images/65060ac6cbb962e847cc153a4882850f9f7480b86bdf0908f92f9d7842fb36d6.png)
 
 *Give players achievable goals on set schedules. These systems give players guidance in the moment (“What should I be doing right now?”) and over time (“What long-term goals am I working toward?”).*
 

@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This station demonstrates how to use a custom UI to alter some aspect of the external world. In this case, when you click a button on the custom UI, you set the color for a sphere (The Orb of UINess) in front of you.
 
-![Image of Station 5](../../../_assets/images/3f9757f55047c98cabd2c96a3c2bbab1096f2e4c6ee4700716452cbe47308e2b.png)
+![Image of Station 5](../../../.assets/images/3f9757f55047c98cabd2c96a3c2bbab1096f2e4c6ee4700716452cbe47308e2b.png)
 
 ## [Assets](#assets)
 
@@ -45,7 +45,7 @@ The above defines the ball property definition on the Properties panel of the ob
 
 The Entity type of the definition means that the designer is presented with a drop-down labeled ball. From this drop-down, the designer can select an entity that is already in the world.
 
-![Image of selecting Sphere from the ball script property](../../../_assets/images/0fd07667cc26834ff20529bf417ab313a5852b844c4ecc58590343d9a7f302d5.png)
+![Image of selecting Sphere from the ball script property](../../../.assets/images/0fd07667cc26834ff20529bf417ab313a5852b844c4ecc58590343d9a7f302d5.png)
 
 From this drop-down, the designer can select an object that already is present in the world to be referenced through the ball property in the code. In the example world, it has already been pre-selected for you to be the Sphere entity.
 

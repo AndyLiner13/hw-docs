@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 1 - Introduction](#module-1---introduction)
 
-![Avatar Override Tutorial World thumbnail](../../../_assets/images/385a2290556f63d2798242a0a758dfeea99e34cb782e94343e81cb06117e725a.png)
+![Avatar Override Tutorial World thumbnail](../../../.assets/images/385a2290556f63d2798242a0a758dfeea99e34cb782e94343e81cb06117e725a.png)
 
 > [!Important]
 >
@@ -69,7 +69,7 @@ The Custom UI instructions within the tutorial are generated entirely from TypeS
 - Auto-start simulation on Preview entry
 - Auto-stop simulation on Preview exit
 
-![World Sim settings screenshot](../../../_assets/images/98d2e7c237fbf87144ad83bb5811a5c82b84ae2dbf9232af1280f4690d2dfe73.png)
+![World Sim settings screenshot](../../../.assets/images/98d2e7c237fbf87144ad83bb5811a5c82b84ae2dbf9232af1280f4690d2dfe73.png)
 
 ## [Learning Pathways](#learning-pathways)
 
@@ -81,7 +81,7 @@ You can follow along with the steps of the tutorial content by using a copy of t
 
 **VR headset:** To build the world described in this tutorial, make your own copy of the **Avatar Override Tutorial World** from the **Tutorials** tab in the **Create** menu.
 
-![Screenshot of selecting tutorial world in Desktop Editor](../../../_assets/images/ea437e5de6ebf1bf9e142798abddb9986d43c1773571c0bf29018ee20d24063d.png)
+![Screenshot of selecting tutorial world in Desktop Editor](../../../.assets/images/ea437e5de6ebf1bf9e142798abddb9986d43c1773571c0bf29018ee20d24063d.png)
 
 ### [Explore the Complete World](#explore-the-complete-world)
 

@@ -32,11 +32,11 @@ The spawn point gizmo includes enhanced camera options for mobile and web platfo
 
 - **Mobile Camera**: A mobile-specific setting which allows you to configure camera behavior. This can greatly improve the accessibility to your world for mobile users.
 
-  ![Screenshot shows the desktop editor](../_assets/images/2812af9d270bf7ccf362cd4a885079de5a48fa406d36e8fa5c95bc159a5ab893.png)
+  ![Screenshot shows the desktop editor](../.assets/images/2812af9d270bf7ccf362cd4a885079de5a48fa406d36e8fa5c95bc159a5ab893.png)
 
 - **Portrait/Landscape separation**: You can define different visual parameters for each orientation to optimize the player experience across different device orientations
 
-  ![Screenshot shows the desktop editor](../_assets/images/1e6222609376dd8a754516dc6322de8988b272ed4c08e32f82e7db2b967441e2.png)
+  ![Screenshot shows the desktop editor](../.assets/images/1e6222609376dd8a754516dc6322de8988b272ed4c08e32f82e7db2b967441e2.png)
 
 ## [Preview and publishing configuration](#preview-and-publishing-configuration)
 

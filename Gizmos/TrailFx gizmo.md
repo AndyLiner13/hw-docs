@@ -34,15 +34,15 @@ In the **Visual** section, additional properties are available to customize the 
 
 The following image shows how the **Preview** property works while you’re in the [Build mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md). Once the TrailFx gizmo is configured with a simple trail in colors of purple and green, click **Play** next to **Preview**. You can [move](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#move) the gizmo manually to see the trailing effect.
 
-![The TrailFx gizmo configured with a simple trail in colors of purple and green in the Build mode](../_assets/images/364f26a9d04c1969d2fd9c77dab856379bbcc42b0f6a627fa338c050a2b9475b.png)
+![The TrailFx gizmo configured with a simple trail in colors of purple and green in the Build mode](../.assets/images/364f26a9d04c1969d2fd9c77dab856379bbcc42b0f6a627fa338c050a2b9475b.png)
 
 The following images show the TrailFx gizmo at work while you’re in the [Preview mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) with **Play on Start** turned on. The shape and the color of the trail are configured as **Tapered** with colors of purple and pink.
 
 **Note**: To reproduce what you see in the image below, create a world by first following the [Batting cage tutorial](../Tutorials/Adding%20and%20manipulating%20objects%20tutorial.md) and then add a TrailFx gizmo as a [child object](../Desktop%20editor/Objects/Object%20hierarchy%20and%20groups.md) of the ball in the [**Hierarchy** panel](../Desktop%20editor/Hierarchy%20window/Hierarchy%20panel%20overview.md). [Adjust the position](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md#move) of the TrailFx gizmo so that it appears to be trailing the ball.
 
-![The TrailFx gizmo configured as the child of the ball in Hierarchy](../_assets/images/c8cf9a56aa77bdd4ddf109d23686fb26aa6bca18dd91c87ec3ee1918de9ed4ec.png)
+![The TrailFx gizmo configured as the child of the ball in Hierarchy](../.assets/images/c8cf9a56aa77bdd4ddf109d23686fb26aa6bca18dd91c87ec3ee1918de9ed4ec.png)
 
-![The TrailFx gizmo in the Preview mode](../_assets/images/b702706eb4381939e8fdd31b4cbc6fd6d584cbb7e44597666b8b0f434bf64cb1.png)
+![The TrailFx gizmo in the Preview mode](../.assets/images/b702706eb4381939e8fdd31b4cbc6fd6d584cbb7e44597666b8b0f434bf64cb1.png)
 
 ## [Scripting](#scripting)
 

@@ -36,7 +36,7 @@ To implement a complete hint text system, use the following process:
 
 1. **Create the hint text trigger zone**: Navigate to **Build** > **Gizmos**, select the **Trigger Zone** gizmo and position it where you want to display notifications to players. This trigger will detect when players enter the area and activate the hint text display.
 
-   ![Hint Text Trigger zone](../../../_assets/images/b3af71e69a9bc492e0ca39c1ba0b507d291dd603d2b266bd48e77eb6de4467bb.png)
+   ![Hint Text Trigger zone](../../../.assets/images/b3af71e69a9bc492e0ca39c1ba0b507d291dd603d2b266bd48e77eb6de4467bb.png)
 
 2. **Configure the trigger script**: Attach the `HintTextTrigger.ts` script to your trigger zone. Configure the trigger properties in the inspector:
 
@@ -57,7 +57,7 @@ To implement a complete hint text system, use the following process:
      - **normalTitleFontSize/normalMessageFontSize**: Used for messages 50-100 characters (default: 28/14)
      - **bigTitleFontSize/bigMessageFontSize**: Used for messages over 100 characters (default: 28/12)
 
-   ![Hint Text Properties](../../../_assets/images/caf8f0ae9ad6a86bcda7a9e2630896a69fec213ac1f6ab7c8a3f04468cd8b778.png)
+   ![Hint Text Properties](../../../.assets/images/caf8f0ae9ad6a86bcda7a9e2630896a69fec213ac1f6ab7c8a3f04468cd8b778.png)
 
 5. **Configure advanced features** (Optional):
    - **Countdown Support**: Send messages with format “Countdown: X” to activate countdown timer functionality
@@ -99,7 +99,7 @@ Once your hint text system is implemented, test it by:
 4. **Multiplayer Testing**: If supporting multiple players, test that each player sees their assigned notifications
 5. **Audio Testing**: Confirm opening and closing sound effects play correctly (if configured)
 
-![Hint Text Testing](../../../_assets/images/292756f88526d9721825dd1090a0275d05fa364ac53a40ddf28f69a969f7d021.png)
+![Hint Text Testing](../../../.assets/images/292756f88526d9721825dd1090a0275d05fa364ac53a40ddf28f69a969f7d021.png)
 
 With a complete hint text system in place, you can provide contextual guidance and reminders that adapt to different message lengths and player scenarios, improving the onboarding experience for new users in your world.
 

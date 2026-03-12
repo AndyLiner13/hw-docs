@@ -30,7 +30,7 @@ Based on the above information, you’ll notice that the screen overlay feature 
 
 1. When you [create a UI with the **Custom UI** gizmo](Create%20a%20custom%20UI%20panel.md#step-1-create-a-custom-ui-gizmo), find the [**Display Mode** property](Custom%20UI%20panel%20configurations.md) under **Visual & Interaction** on the **Properties** panel.
 
-   ![The Visual and Interaction section on the Properties panel](../../_assets/images/44ff934bc59f22c5b2a6fb339acb259f929856e439e52740ce2f6e501fb9db58.png)
+   ![The Visual and Interaction section on the Properties panel](../../.assets/images/44ff934bc59f22c5b2a6fb339acb259f929856e439e52740ce2f6e501fb9db58.png)
 
 2. Switch the **Display Mode** to **Screen Overlay**.
 
@@ -134,7 +134,7 @@ class ScreenOverlay2 extends UIComponent {
 
 Now that you have created these two screen overlays, you can see two UI layouts as shown in this screenshot. The content varies depending on your TypeScript code.
 
-![Two examples of screen overlays](../../_assets/images/2361f7803353c373008d8714e2d1070b1b622ed074262d1a148eeb6c62bb4338.png)
+![Two examples of screen overlays](../../.assets/images/2361f7803353c373008d8714e2d1070b1b622ed074262d1a148eeb6c62bb4338.png)
 
 ### [Player-specific screen overlay](#player-specific-screen-overlay)
 

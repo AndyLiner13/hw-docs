@@ -8,5 +8,5 @@ The Achievements system in Meta Horizon Worlds makes it easy to define a list of
 
 Read the documentation below to learn more about creating achievements in Meta Horizon Worlds.
 
-[View PDF](../../_assets/misc/1d65370109c205e2df11221f9a85e9976d24090bfbdf319b3bc5cc222919710d.pdf)
+[View PDF](../../.assets/misc/1d65370109c205e2df11221f9a85e9976d24090bfbdf319b3bc5cc222919710d.pdf)
 

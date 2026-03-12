@@ -13,7 +13,7 @@ The [desktop editor](../../Desktop%20editor/Get%20started%20with%20Desktop%20Edi
 - The Hierarchy window in Meta Horizon Worlds is similar to the Workspace folder in the Explorer window in Roblox Studio for organizing elements in your 3D scene. Both allow you to manage and organize objects (called entities in Meta Horizon Worlds), and both use a tree structure to represent parent-child relationships between objects.
 - Roblox Studio’s Creator Store and Inventory are also similar to the Asset Store and Assets window in Meta Horizon Worlds, respectively.
 
-![Meta Horizon Worlds UI Overview](../../_assets/images/3a1160c4bb9451d18d8af0f17c273ff3b0f510cd9f74e1154b9b75935fd39e2a.png)
+![Meta Horizon Worlds UI Overview](../../.assets/images/3a1160c4bb9451d18d8af0f17c273ff3b0f510cd9f74e1154b9b75935fd39e2a.png)
 
 ## [Terminology differences](#terminology-differences)
 
@@ -146,7 +146,7 @@ If the assets in your Place were originally imported from an external source as 
 
 To export an asset from Roblox, you can right-click it in the Explorer and choose **Export Selection**. Models and textures exported from Roblox are in .OBJ and .MTL format, respectively.
 
-![Export Selection](../../_assets/images/ea19ab80b44f1dd29fa5570922fc5eebeba61c0d6883998b93de09a0af8fa65d.jpg)
+![Export Selection](../../.assets/images/ea19ab80b44f1dd29fa5570922fc5eebeba61c0d6883998b93de09a0af8fa65d.jpg)
 
 ## [Monetization](#monetization)
 

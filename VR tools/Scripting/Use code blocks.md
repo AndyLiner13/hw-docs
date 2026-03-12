@@ -8,12 +8,12 @@ The Script gizmo is a tool in Meta Horizon Worlds that allows you to create dyna
 
 The PDF links below provide more information on each set of code blocks:
 
-- [Actions](../../_assets/misc/73553c305dac1330817157bf6676589c15f105794e9cb3025a799e025b76dc2f.pdf)
-- [Events](../../_assets/misc/1e45209f52d37ec4e9f104c56b117391c9ed1b590891e4aeeedee7f0bb0a9f29.pdf)
-- [Motion](../../_assets/misc/bd47f283505297c20fedf656f1c593ba651c72e2c830a996b4591b77b300b464.pdf)
-- [Operators](../../_assets/misc/d5a30a546212c2f01c482e6acd5d248882bafe9ee9f323bb2c5b4fc292c64556.pdf)
-- [Values](../../_assets/misc/e377d460c7ccfafaf137ce3f8f2e2f9603af4558d69344e19996c2276845160a.pdf)
-- [Variables](../../_assets/misc/1c6d3b38af9412946d5f5603d7d9fb4a69de576f9ec94fcc52c07ebd528e6607.pdf)
+- [Actions](../../.assets/misc/73553c305dac1330817157bf6676589c15f105794e9cb3025a799e025b76dc2f.pdf)
+- [Events](../../.assets/misc/1e45209f52d37ec4e9f104c56b117391c9ed1b590891e4aeeedee7f0bb0a9f29.pdf)
+- [Motion](../../.assets/misc/bd47f283505297c20fedf656f1c593ba651c72e2c830a996b4591b77b300b464.pdf)
+- [Operators](../../.assets/misc/d5a30a546212c2f01c482e6acd5d248882bafe9ee9f323bb2c5b4fc292c64556.pdf)
+- [Values](../../.assets/misc/e377d460c7ccfafaf137ce3f8f2e2f9603af4558d69344e19996c2276845160a.pdf)
+- [Variables](../../.assets/misc/1c6d3b38af9412946d5f5603d7d9fb4a69de576f9ec94fcc52c07ebd528e6607.pdf)
 
 **Note**: You can use CTRL+F to search for specific information in these PDFs.
 

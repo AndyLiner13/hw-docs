@@ -14,7 +14,7 @@ The v250 release provides better visibility for creators by making World Broadca
 
 Read on for more details on Meta Horizon v250:
 
-![](_assets/images/a7148dcc04b8550d14a7a639189a59da9fb4febd0f475956806f6b0592105fe9.png)
+![](.assets/images/a7148dcc04b8550d14a7a639189a59da9fb4febd0f475956806f6b0592105fe9.png)
 
 ## [New Features](#new-features)
 
@@ -28,7 +28,7 @@ The v249 release provides greater control over mobile input styles and fixes a f
 
 Read on for more details on Meta Horizon v249:
 
-![](_assets/images/843967d458475ba9ae1fc459565dc1b0e3975d830c1f324169996ff692048208.png)
+![](.assets/images/843967d458475ba9ae1fc459565dc1b0e3975d830c1f324169996ff692048208.png)
 
 ## [New Features](#new-features-1)
 
@@ -47,11 +47,11 @@ The v244 release contains the ability to generate 3D heatmap data for worlds and
 
 Read on for more details on Meta Horizon v244:
 
-![](_assets/images/37ff6b135b2e65445f793e574bbc62fc7f5f37de5aaf0c5183a89758135e2113.png)
+![](.assets/images/37ff6b135b2e65445f793e574bbc62fc7f5f37de5aaf0c5183a89758135e2113.png)
 
 ## [Quality Of Life Improvements](#quality-of-life-improvements)
 
-- **[Developer Dashboard](https://horizon.meta.com/creator/worlds_all/) 3D Heatmaps**![](_assets/images/ed84713d486dce1c7884943555ce8935e1612f553e902712788b9b44360558a9.png)
+- **[Developer Dashboard](https://horizon.meta.com/creator/worlds_all/) 3D Heatmaps**![](.assets/images/ed84713d486dce1c7884943555ce8935e1612f553e902712788b9b44360558a9.png)
 - - The camera will now persist between refreshes, allowing creators to compare metrics with the same camera angles viewing their data.
   - When filtering data using the Data Settings: Percentile Filter, the heatmap will now recolor the data-cubes based on what is visible. This allows better viewing of high value areas of a world.
   **Creative Guidelines for World Preview Images in Navigator**
@@ -67,7 +67,7 @@ The v243 release contains the ability to generate voices for AI NPCs, as well as
 
 Read on for more details on Meta Horizon v243:
 
-![](_assets/images/23423dfb5e79cfc3438bd7ddd581b39fd141a5ff38c4baa744227940b2f35801.png)
+![](.assets/images/23423dfb5e79cfc3438bd7ddd581b39fd141a5ff38c4baa744227940b2f35801.png)
 
 ## [New Features](#new-features-2)
 
@@ -106,7 +106,7 @@ The new toolbar is now live as part of the v241 release, making building worlds 
 
 Read on for more details on Meta Horizon v241:
 
-![](_assets/images/e03b1308a717a59077539c231893c98410212f35fc2605eb8ba8c1e642bc3b42.png)
+![](.assets/images/e03b1308a717a59077539c231893c98410212f35fc2605eb8ba8c1e642bc3b42.png)
 
 ## [New Features](#new-features-3)
 
@@ -131,7 +131,7 @@ The Horizon desktop editor toolbar has been updated! The updated toolbar improve
 
 Read on for more details on Meta Horizon v240:
 
-![](_assets/images/704e8a6965cabef2ced005f38bcc4b6e82b827efe7dcabf4b3cff7f2ff2c7c98.png)
+![](.assets/images/704e8a6965cabef2ced005f38bcc4b6e82b827efe7dcabf4b3cff7f2ff2c7c98.png)
 
 ## [New Features](#new-features-4)
 
@@ -155,7 +155,7 @@ Additionally, in v239 we're adding NoesisUI to the Horizon desktop editor! Noesi
 
 Read on for more details on Meta Horizon v239:
 
-![](_assets/images/43c8f198566f81e68f01cb8890d561696242aee3576fe49c2c64ba99b050e183.png)
+![](.assets/images/43c8f198566f81e68f01cb8890d561696242aee3576fe49c2c64ba99b050e183.png)
 
 ## [New Features](#new-features-5)
 
@@ -171,7 +171,7 @@ Read on for more details on Meta Horizon v239:
 
 ---
 
-![](_assets/images/3ef0878fccf6500c18f8a8384314337758521d8e9d4332d8519616cf1d0b2841.png)
+![](.assets/images/3ef0878fccf6500c18f8a8384314337758521d8e9d4332d8519616cf1d0b2841.png)
 
 # [Meta Horizon v238 Release Notes](#meta-horizon-v238-release-notes)
 
@@ -185,7 +185,7 @@ Read on for more details on Meta Horizon v238:
 
 # [Meta Horizon v237 Release Notes](#meta-horizon-v237-release-notes)
 
-![](_assets/images/7fd95b4dc67448cf61645a6158026de54febcea7cc86b7da726eb0405d44d904.png)
+![](.assets/images/7fd95b4dc67448cf61645a6158026de54febcea7cc86b7da726eb0405d44d904.png)
 
 Read on for more details on Meta Horizon v237
 
@@ -207,7 +207,7 @@ Read on for more details on Meta Horizon v237
 
 Read on for more details on Meta Horizon v236
 
-![](_assets/images/ab53fa5921f80aa8e49743f68385003a4f08d54728a57580ac2f608d564dd012.png)
+![](.assets/images/ab53fa5921f80aa8e49743f68385003a4f08d54728a57580ac2f608d564dd012.png)
 
 ## [New Features](#new-features-7)
 
@@ -231,7 +231,7 @@ Read on for more details on Meta Horizon v236
 
 # [Meta Horizon v235 Release Notes](#meta-horizon-v235-release-notes)
 
-![](_assets/images/9dc5bd4c70eff8b0d19e035e2374cbbf308cf524ad4a43c1c76fbf8d1fcb06ea.png)
+![](.assets/images/9dc5bd4c70eff8b0d19e035e2374cbbf308cf524ad4a43c1c76fbf8d1fcb06ea.png)
 
 ## [New Features](#new-features-8)
 
@@ -265,7 +265,7 @@ Read on for more details on Meta Horizon v236
 
 Read on for more details on Meta Horizon v234:
 
-![](_assets/images/0ca3fb8e60474c405091a7155bff00bcf8c4448ebda91f57f5a3c3117f931cec.png)
+![](.assets/images/0ca3fb8e60474c405091a7155bff00bcf8c4448ebda91f57f5a3c3117f931cec.png)
 
 ## [New Features](#new-features-9)
 
@@ -292,7 +292,7 @@ Visit the [competition site](https://mhcp-mobile-genre-2.devpost.com/) to learn 
 
 Read on for more details on Meta Horizon v233
 
-![](_assets/images/4f4bbf5efd147248ee38ffc77705afa1a038c807d0262e056c4a3325e6c230e1.png)
+![](.assets/images/4f4bbf5efd147248ee38ffc77705afa1a038c807d0262e056c4a3325e6c230e1.png)
 
 ## [New Features](#new-features-10)
 
@@ -328,7 +328,7 @@ Reminder: Submit your project for the Meta Horizon Creator Competition by Septem
 
 Read on for more details on Meta Horizon v231:
 
-![](_assets/images/71c6e66167508ecdac5403593db3775bc6b3cc18ae974c2e8228c02e2fb9fd5a.png)
+![](.assets/images/71c6e66167508ecdac5403593db3775bc6b3cc18ae974c2e8228c02e2fb9fd5a.png)
 
 ## [New Features](#new-features-11)
 
@@ -355,7 +355,7 @@ This week, Worlds desktop editor is now in General Availability. Thank you for y
 
 Read on for more details on Meta Horizon v230
 
-![](_assets/images/4a9ac76a9f511b349f3c3eed041ab59695b094ec88fb86978c1b29fccb8809db.png)
+![](.assets/images/4a9ac76a9f511b349f3c3eed041ab59695b094ec88fb86978c1b29fccb8809db.png)
 
 ## [New Features](#new-features-12)
 
@@ -379,7 +379,7 @@ This week in v229, we have numerous quality of life and bug fixes requested by t
 
 Read on for more details on Meta Horizon v229
 
-![](_assets/images/93ea33184a93223b3fc198728ac8561369376d994debe53d653fdece2f4b035e.png)
+![](.assets/images/93ea33184a93223b3fc198728ac8561369376d994debe53d653fdece2f4b035e.png)
 
 ## [Quality of Life Improvements](#quality-of-life-improvements-7)
 
@@ -421,7 +421,7 @@ Visit the competition site [here](https://mhcp-open-source-competition.devpost.c
 
 Read on for more details on Meta Horizon v228
 
-![](_assets/images/5dc7d0acd1c79b1f7d077b6293a57e84a3e89da785c421a635575608f421a895.png)
+![](.assets/images/5dc7d0acd1c79b1f7d077b6293a57e84a3e89da785c421a635575608f421a895.png)
 
 ## [New Features](#new-features-13)
 
@@ -449,7 +449,7 @@ This week in v227, we are launching audio previews in the asset library for all 
 
 Read on for more details on Meta Horizon v227:
 
-![](_assets/images/71602084fc52945944b39003acee73c3cc14c681545daf1ed8679fa67487e63f.png)
+![](.assets/images/71602084fc52945944b39003acee73c3cc14c681545daf1ed8679fa67487e63f.png)
 
 ## [New Features](#new-features-14)
 
@@ -478,7 +478,7 @@ Read on for more details on Meta Horizon v227:
 
 Read on for more details on Meta Horizon v226:
 
-![](_assets/images/40816cbabeeb5e61d42384f782a803c899dcaa562fa76aaa412e4cf04ff268bc.png)
+![](.assets/images/40816cbabeeb5e61d42384f782a803c899dcaa562fa76aaa412e4cf04ff268bc.png)
 
 ## [New Features](#new-features-15)
 
@@ -519,7 +519,7 @@ To help you create the best preview images to showcase your worlds, we have publ
 
 Read on for more details on Meta Horizon v224:
 
-![](_assets/images/235765c60a01ab8e8aac5aaa55b7f8be1ad4c5e5163778d7666116663c892d46.png)
+![](.assets/images/235765c60a01ab8e8aac5aaa55b7f8be1ad4c5e5163778d7666116663c892d46.png)
 
 ## [New Features](#new-features-16)
 
@@ -549,7 +549,7 @@ Read on for more details on Meta Horizon v224:
 
 This week in v223, we are launching improved creator control for shops and inventory which will help provide a more customized experience for users visiting worlds where creators choose to make their own shop and inventory systems. Additionally, audio previews in assets library (MHCP Only) were launched allowing the capability to listen to audio clips for any sound asset directly from assets library. Read on for more details on Meta Horizon v223:
 
-![](_assets/images/e9270bc505715b7e2d72284b2c7b205e4331234cccc8d95f9e569a659264046d.png)
+![](.assets/images/e9270bc505715b7e2d72284b2c7b205e4331234cccc8d95f9e569a659264046d.png)
 
 ## [New Features](#new-features-17)
 
@@ -570,7 +570,7 @@ This week in v222 we are launching new Horizon mobile camera options that will a
 
 Read on for more details on Meta Horizon v222:
 
-![](_assets/images/a4ce126122a6679bb0869c8bad25a1c0431bd931258fe28a101bbdb5967b3263.png)
+![](.assets/images/a4ce126122a6679bb0869c8bad25a1c0431bd931258fe28a101bbdb5967b3263.png)
 
 ## [New Features](#new-features-18)
 
@@ -601,7 +601,7 @@ This week in v221, we are launching custom NUX (new user experience) TypeScript 
 
 Read on for more details on Meta Horizon v221:
 
-![](_assets/images/2344714b867b8e149cedb20ce0c65e6ac5823662dd20b150001f69951caf0b2b.png)
+![](.assets/images/2344714b867b8e149cedb20ce0c65e6ac5823662dd20b150001f69951caf0b2b.png)
 
 ## [New Features](#new-features-19)
 
@@ -665,7 +665,7 @@ Visit the [competition site](https://mhcp-mobile-update-competition.devpost.com/
 
 Read on for more details on Meta Horizon v220:
 
-![](_assets/images/5b80a568ba53fcf4e9de8ff3643b100590aa7ad1c8c9095a419b7028c8ebefdb.png)
+![](.assets/images/5b80a568ba53fcf4e9de8ff3643b100590aa7ad1c8c9095a419b7028c8ebefdb.png)
 
 ## [New Features](#new-features-20)
 
@@ -712,7 +712,7 @@ This week in v219, we are launching four new metrics to help creators better und
 
 Read on for more details on Meta Horizon v219:
 
-![](_assets/images/c41913008b95c4d8112812adaa8817df379b25afb2ad9cf4a73281929d9fc9c2.png)
+![](.assets/images/c41913008b95c4d8112812adaa8817df379b25afb2ad9cf4a73281929d9fc9c2.png)
 
 ## [New Features](#new-features-21)
 
@@ -762,7 +762,7 @@ This week in v218, we are introducing three new asset templates to make it easie
 
 Read on for more details on Meta Horizon v218:
 
-![](_assets/images/88a1abb3bdfc52c03bec512023e507cfd8fb65eeef51b6c73a1e338e58e4c11b.png)
+![](.assets/images/88a1abb3bdfc52c03bec512023e507cfd8fb65eeef51b6c73a1e338e58e4c11b.png)
 
 ## [New Features](#new-features-22)
 
@@ -810,7 +810,7 @@ This week in v217, we are introducing the Custom NUX TypeScript API, that allows
 
 Read on for more details on Meta Horizon v217:
 
-![](_assets/images/868527820648e265ee5d9be91d069020a91020022a774521616f44cd839aa178.png)
+![](.assets/images/868527820648e265ee5d9be91d069020a91020022a774521616f44cd839aa178.png)
 
 ## [New Features](#new-features-23)
 
@@ -855,7 +855,7 @@ This week in v216 we are launching the Asset Pool Gizmo, a powerful tool for man
 
 Read on for more details on Meta Horizon v216:
 
-![](_assets/images/d6e62ebf88992d25aed29ce8bbe0393ed91ff1ba84585ee1bda9c1d66cfba78b.png)
+![](.assets/images/d6e62ebf88992d25aed29ce8bbe0393ed91ff1ba84585ee1bda9c1d66cfba78b.png)
 
 ## [New Features](#new-features-24)
 
@@ -910,12 +910,12 @@ Please note that from v215 onwards, we are changing the scripting directory stru
 
 Read on for more details on Meta Horizon v214:
 
-![](_assets/images/297a84d27588078dffe36f3626223f03b0e108fc13708b305f558ae017c147b0.png)
+![](.assets/images/297a84d27588078dffe36f3626223f03b0e108fc13708b305f558ae017c147b0.png)
 
 ## [New Features](#new-features-25)
 
 - **Introducing the World capacity guidelines dialog**: Desktop users now will be able to see their [world capacity information](Desktop%20editor/Get%20started%20with%20Desktop%20Editor/World%20Capacity%20dialog.md) for Objects, Simulation and animation, World vertex count, and Sounds, bringing the desktop editor more in-line with the functionality already available in the VR Editor. Find this option in the Main Menu within the desktop editor and select **World Capacity** .
-- ![](_assets/images/f461c66a67c647a73a4c8a6dafd693a1c55f2fb81447183db65eb68ac0ae1d26.png)
+- ![](.assets/images/f461c66a67c647a73a4c8a6dafd693a1c55f2fb81447183db65eb68ac0ae1d26.png)
   The avatar pose gizmo typescript API is now open to all creators. This includes two new events: OnPlayerEnterAvatarPoseGizmo and OnPlayerExitAvatarPoseGizmo, which will trigger when a player enters or exits a seat. These new events will provide more flexibility and control for creators building interactive experiences. Learn more [here](Gizmos/Avatar%20pose%20gizmo.md).
 
 ## [Quality of Life Improvements](#quality-of-life-improvements-20)
@@ -959,7 +959,7 @@ This week in v213, we are launching Horizon Worlds Thumbnail A/B testing, giving
 
 Read on for more details on Meta Horizon v213:
 
-![](_assets/images/feb765b1714ce789393b12da182c324b4dee2eb2e116850bded60f20fceef12b.png)
+![](.assets/images/feb765b1714ce789393b12da182c324b4dee2eb2e116850bded60f20fceef12b.png)
 
 ## [New Features](#new-features-26)
 
@@ -1013,7 +1013,7 @@ This week in v212 we are introducing the standalone desktop editor, getting crea
 
 Read on for more details on Meta Horizon v212:
 
-![](_assets/images/1caef71d6b58a7f3ffb7547b6d8c9ba34cd3aa853d73f86d9afda24a680e7157.png)
+![](.assets/images/1caef71d6b58a7f3ffb7547b6d8c9ba34cd3aa853d73f86d9afda24a680e7157.png)
 
 ## [New Features](#new-features-27)
 
@@ -1022,7 +1022,7 @@ Read on for more details on Meta Horizon v212:
   [Download for Windows](https://fb.me/worlds_desktop_editor)
 - The Creator Insight Portal has newly added features **now live to all creators**. Use [this link](https://horizon.meta.com/creator/worlds_all/) to view your worlds and use the **Insight** button to see these new features per world:
   - **3D Heatmap: Visualize positional Data**: The 3D heatmap feature allows creators to see time spent, crash and exit positions distribution overlaid on their world mesh. This visualization will help identify areas for improvement.
-  - ![](_assets/images/4ce6a193782939e2d15951abad15953e1711fe3f8e57526a027da4e4b67e53d6.png)
+  - ![](.assets/images/4ce6a193782939e2d15951abad15953e1711fe3f8e57526a027da4e4b67e53d6.png)
     **Benchmarking - Compare Your World's Performance**: We're introducing a benchmarking feature that allows creators to compare their worlds against the top 100 popular worlds ranked by Weekly Active Users. This update will provide valuable insights into performance and help creators optimize their content.
   - **New Metrics: Enhanced Insights for Creators**: We are launching 7 new metrics. They will provide creators with more detailed information about their world's monetization and integrity. Monetization metrics are only available to the world owner.
 - 200 New assets added to the library within Environment/City, Interiors, Weapons, Plants, and Food categories.
@@ -1063,7 +1063,7 @@ This week in v211, creators will now see release notes shown directly within the
 
 Read on for more details on Meta Horizon v211:
 
-![](_assets/images/0ee231fd61d66691d22f3b9d310b2da47ad44000040115a139660ae37ff8f8a1.png)
+![](.assets/images/0ee231fd61d66691d22f3b9d310b2da47ad44000040115a139660ae37ff8f8a1.png)
 
 ## [New Features](#new-features-28)
 
@@ -1095,7 +1095,7 @@ This week in v210, we introduced the Mesh Generation and Texture Generation tool
 
 Read on for more details on Meta Horizon v210:
 
-![](_assets/images/f42178165dfe779ebeb1a8846217bba3782efd5cbf29d843988a1183efa7b5b5.png)
+![](.assets/images/f42178165dfe779ebeb1a8846217bba3782efd5cbf29d843988a1183efa7b5b5.png)
 
 ## [New Features](#new-features-29)
 
@@ -1135,7 +1135,7 @@ This week, we introduced the ability to create experiences with dynamically alig
 
 Read on for more details on Meta Horizon v209:
 
-![](_assets/images/6ed9c0ecc3c8fe912342e365ab329d5df7576f9c2614048628e17caf9180f6d6.png)
+![](.assets/images/6ed9c0ecc3c8fe912342e365ab329d5df7576f9c2614048628e17caf9180f6d6.png)
 
 ## [New Features](#new-features-30)
 
@@ -1176,7 +1176,7 @@ Read on for more details on Meta Horizon v208:
 
 ## [New Feature:](#new-feature)
 
-![](_assets/images/a59687a1dfd71c7e9b8ccae93dcbbc938480e5da4206a745863955a01925d92d.png)
+![](.assets/images/a59687a1dfd71c7e9b8ccae93dcbbc938480e5da4206a745863955a01925d92d.png)
 
 - Simplified skybox creation by only requiring a standard cube map to be uploaded in order for a skybox to appear.
 
@@ -1215,7 +1215,7 @@ Read on for more details on Meta Horizon v207:
 
 ## [New Feature: Feedback tool](#new-feature-feedback-tool)
 
-![](_assets/images/806ffdcc101bffa3d8df38f92fc4c92f2549a881436a39a2f14616867e1ddd4e.png)
+![](.assets/images/806ffdcc101bffa3d8df38f92fc4c92f2549a881436a39a2f14616867e1ddd4e.png)
 
 With the new **Feedback too**l you can now track the status of bugs and feedback you have reported through the desktop editor. This new feature offers transparency into how Meta handles your feedback, offering updates as we review, prioritize, and implement your recommendations.
 
@@ -1264,7 +1264,7 @@ This week in v206 we have exciting new features to help creators add custom skyb
 
 Read on for more details on Meta Horizon v206:
 
-![](_assets/images/0b888a86b30a887ca13c1e0cc48c845626deb18832fa728816dc05fb02d5b796.png)
+![](.assets/images/0b888a86b30a887ca13c1e0cc48c845626deb18832fa728816dc05fb02d5b796.png)
 
 ## [New Features](#new-features-31)
 
@@ -1312,7 +1312,7 @@ To help us keep improving the desktop editor, use the "Report an issue" optin in
 
 Read on for more details on Meta Horizon v205:
 
-![](_assets/images/c06eb99449da478647529f65bff61aab3627776c2d60ae3e72581c7278d3a2bb.png)
+![](.assets/images/c06eb99449da478647529f65bff61aab3627776c2d60ae3e72581c7278d3a2bb.png)
 
 ## [New Feature](#new-feature-1)
 
@@ -1365,7 +1365,7 @@ To help us keep improving the desktop editor, use the **“Report an issue”** 
 
 Read on for more details on Meta Horizon v204:
 
-![](_assets/images/f3f47a66fe7e9056e6c4cdcf9815e91570f3130b03d4277984a7b958f8046b92.png)
+![](.assets/images/f3f47a66fe7e9056e6c4cdcf9815e91570f3130b03d4277984a7b958f8046b92.png)
 
 ## [Quality of Life Improvements](#quality-of-life-improvements-30)
 
@@ -1412,7 +1412,7 @@ We’ll be introducing additional ways to report feedback soon. In the meantime,
 
 Read on for more details on Meta Horizon's v203 release:
 
-![](_assets/images/53aac33d21fad6547f7e7d003561557313df11d911517a7f33e632e9c5dfb150.png)
+![](.assets/images/53aac33d21fad6547f7e7d003561557313df11d911517a7f33e632e9c5dfb150.png)
 
 ## [Quality of Life Improvements](#quality-of-life-improvements-31)
 
@@ -1466,7 +1466,7 @@ Read on for more details on Meta Horizon's v203 release:
 
 [Meta Horizon Worlds](https://www.meta.com/experiences/meta-horizon-worlds/2532035600194083?intern_source=blog\&intern_content=meta-horizon-worlds-v192-release-notes) v192, our last release notes installment of the year, is here! As 2024 comes to a close, we’d like to thank the entire Worlds community for your support and creativity. We can’t wait to show you what we’re working on for next year. Until then, stay tuned for a whole lot of winter fun headed to Worlds soon!
 
-![](_assets/images/51a27936fca6a14979ba63c6f53517e2c0e3d982af70b19ce4dfaaa6d0010d8b.jpg)
+![](.assets/images/51a27936fca6a14979ba63c6f53517e2c0e3d982af70b19ce4dfaaa6d0010d8b.jpg)
 
 ---
 
@@ -1495,7 +1495,7 @@ There’s no shortage of content coming this winter, and we’re excited to shar
 
 [Meta Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v191-release-notes) V191 is here! We recently rolled out community moderators. Find out below how to apply and become one—or if you’re a Creator, how to invite someone to help keep your worlds comfortable and enjoyable. We’re also reintroducing captions! Read on for more details.
 
-![](_assets/images/70c0a1b1539910cfc0512c54ef71914e3f22c7c91b9328c3aedd2c7069091569.jpg)
+![](.assets/images/70c0a1b1539910cfc0512c54ef71914e3f22c7c91b9328c3aedd2c7069091569.jpg)
 
 ## [Community Moderators](#community-moderators)
 
@@ -1527,7 +1527,7 @@ You can invite eligible members of your community to be moderators from the Mana
 
 [Meta Horizon Worlds](https://www.meta.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v188-release-notes) v188 is here! This week, we’re launching the new Horizon Mixed Reality Public world, introducing parent-managed Meta account access to Worlds, and more. Let’s jump in!
 
-[![](_assets/images/2efd86df90ba3eb701175bec18fc9334ee62e976fdc846a8dbd3797782883716.png)](https://www.meta.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v188-release-notes)
+[![](.assets/images/2efd86df90ba3eb701175bec18fc9334ee62e976fdc846a8dbd3797782883716.png)](https://www.meta.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v188-release-notes)
 
 ---
 
@@ -1535,7 +1535,7 @@ You can invite eligible members of your community to be moderators from the Mana
 
 We’re introducing the new [Horizon Mixed Reality Public](https://horizon.meta.com/world/10161049143694724/?intern_source=blog\&intern_content=meta-horizon-worlds-v188-release-notes) world, where you can now play mixed reality games with others in Worlds! You can also play invite-only games with friends in the [Horizon Mixed Reality With Your Friends](https://horizon.meta.com/world/10160670197769724/?intern_source=blog\&intern_content=meta-horizon-worlds-v188-release-notes) world and use the in-world travel button to seamlessly switch between the two. Try out the new Playing Cards game and updated Darts scoreboard in both worlds, with more exciting games coming soon!
 
-[![](_assets/images/2192374ef7bbba46758dd7126db399062006f1d1ad7cb2d7e5072f88f2ab75d7.png)](https://horizon.meta.com/world/10161049143694724/?intern_source=blog\&intern_content=meta-horizon-worlds-v188-release-notes)
+[![](.assets/images/2192374ef7bbba46758dd7126db399062006f1d1ad7cb2d7e5072f88f2ab75d7.png)](https://horizon.meta.com/world/10161049143694724/?intern_source=blog\&intern_content=meta-horizon-worlds-v188-release-notes)
 
 ---
 
@@ -1612,7 +1612,7 @@ Here are some of the known issues the Worlds team is currently investigating.
 
 [Meta Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v183-release-notes) V183 is here! This week, we’re sharing more about the next-generation Meta Avatars and what they can do, rolling out the portal from Horizon Home to Horizon Central to more countries, and addressing a few bugs.
 
-![](_assets/images/702dc51c109cd8cacc471d345ed0a69619b536777912e435c9f23126d8bc8912.jpg)
+![](.assets/images/702dc51c109cd8cacc471d345ed0a69619b536777912e435c9f23126d8bc8912.jpg)
 
 ---
 
@@ -1632,7 +1632,7 @@ Coming to Worlds on October 10th, immerse yourself in the world of the hit NBC O
 
 Don't miss any news or updates on *The Office World*—subscribe to the [RSVP page here](https://horizon.meta.com/event/507648575517387/?intern_source=blog\&intern_content=meta-horizon-worlds-v183-release-notes). And if that's not enough, you can even watch *The Office* series itself via [the Peacock app](https://www.meta.com/experiences/peacock/5821833171264888/?intern_source=blog\&intern_content=meta-horizon-worlds-v183-release-notes) on Meta Quest.
 
-![](_assets/images/6e81768e211b40492aa621dcbc9975e0f9f34b8d5df984da45588a8039820980.png)
+![](.assets/images/6e81768e211b40492aa621dcbc9975e0f9f34b8d5df984da45588a8039820980.png)
 
 ---
 
@@ -1657,7 +1657,7 @@ Here are some highlighted bug fixes for this week’s release.
 
 [Meta Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v182-release-notes) v182 is here! A big thank you to all who attended [Connect 2024](https://www.meta.com/blog/quest/connect-2024-keynote-recap-quest-3s-llama-3-2-ai-wearables-mixed-reality?intern_source=blog\&intern_content=meta-horizon-worlds-v182-release-notes) this year—there were a number of exciting announcements and updates shared during the event. This week, updated avatars have landed in Worlds and we addressed a few bugs that were impacting people exploring on their mobile devices. Let’s dive in!
 
-![](_assets/images/16d2f862d41bf95afe79d16d8928e0bfdbb7101b2946d10a53ae506d84e7c476.jpg)
+![](.assets/images/16d2f862d41bf95afe79d16d8928e0bfdbb7101b2946d10a53ae506d84e7c476.jpg)
 
 ---
 
@@ -1676,7 +1676,7 @@ While we don’t anticipate that you’ll need to make any major changes or adju
 - **Interactable Objects and Furniture:&#x20;**&#x44;o these items accommodate the expanded range of avatar sizes and different body shapes?
 - **Doorways and Walkways:&#x20;**&#x44;o these spaces accommodate the expanded range of avatar sizes and different body shapes?
 
-![](_assets/images/ddd5a854b4c17ac57a65cc87d1a69f5c71329595ee4ebe347a72d5e6b48e5d63.png)
+![](.assets/images/ddd5a854b4c17ac57a65cc87d1a69f5c71329595ee4ebe347a72d5e6b48e5d63.png)
 
 ## [Meta Connect 2024 Recap](#meta-connect-2024-recap)
 
@@ -1707,7 +1707,7 @@ Here are some of the known issues the Worlds team is currently investigating.
 
 [Meta Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v180-release-notes) V180 is here! This week, we have a fairly light update, including a few bug fixes and a quality of life improvement related to world ratings. We are T-minus eight days until this year’s [Meta Connect](https://www.meta.com/connect/?intern_source=blog\&intern_content=meta-horizon-worlds-v180-release-notes) kicks off on September 25, and we look forward to seeing you there!
 
-![](_assets/images/90cd518e94c97da37e3f466caab07e51bcedac5a54b3b0a4686b0482d4b38782.jpg)
+![](.assets/images/90cd518e94c97da37e3f466caab07e51bcedac5a54b3b0a4686b0482d4b38782.jpg)
 
 ---
 
@@ -1717,7 +1717,7 @@ Join us for [Meta Connect](https://www.meta.com/connect/?intern_source=blog\&int
 
 You can experience the event live in your headset alongside other Worlds attendees. [RSVP now](https://horizon.meta.com/event/2751429235020383?intern_source=blog\&intern_content=meta-horizon-worlds-v180-release-notes) for event reminders. Watch with other people and unlock exclusive rewards in the process.
 
-![](_assets/images/9e9d953c09ba19ceb88acf870c09be29c4fcc14eea23d63728ae312cc963638d.png)
+![](.assets/images/9e9d953c09ba19ceb88acf870c09be29c4fcc14eea23d63728ae312cc963638d.png)
 
 **Required update for Meta Horizon social experiences**
 
@@ -1761,7 +1761,7 @@ Here are some of the known issues the Worlds team is currently investigating.
 
 [Meta Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v177-release-notes) V178 is here! This week’s update will make it easier for you to meet up and travel with multiple friends at the same time.
 
-![](_assets/images/100394e1158e9459f7f919b28881d346d8eb5bd3c36856c631bde73fc6233f0a.jpg)
+![](.assets/images/100394e1158e9459f7f919b28881d346d8eb5bd3c36856c631bde73fc6233f0a.jpg)
 
 ---
 
@@ -1773,7 +1773,7 @@ To invite multiple friends at once, head to the right-hand Social panel and choo
 
 We’re rolling this improvement out gradually, so it may not be available to everyone while in testing.
 
-![](_assets/images/2e71465c564e0516403d1197f826cc2db0ec86eec7227a3da9b9d59068820b1c.png)
+![](.assets/images/2e71465c564e0516403d1197f826cc2db0ec86eec7227a3da9b9d59068820b1c.png)
 
 ---
 
@@ -1807,7 +1807,7 @@ Here are some of the known issues the Worlds team is currently investigating.
 
 [Meta Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v177-release-notes) v177 is here! This week, we’re highlighting recent experiments to help with world discovery, making it easier for everyone to access the script library, and rolling out some bug fixes.
 
-![](_assets/images/eef8ea8c0068f9a532c677bbf9fedd285b768379f37b47904c2ea8e2fd29df50.jpg)
+![](.assets/images/eef8ea8c0068f9a532c677bbf9fedd285b768379f37b47904c2ea8e2fd29df50.jpg)
 
 ---
 
@@ -1854,7 +1854,7 @@ Here are some of the known issues the Worlds team is currently investigating.
 
 [Meta Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v174-release-notes) V174 is here! This week’s update includes a new quality of life improvement that will help you know whether your microphone is on or off when speaking, along with a handful of bug fixes.
 
-![](_assets/images/3cd08ad017170e4c9fbe9dbe8c6f87f3715d34c057fcb19cdc053fc7d2b1dc8f.jpg)
+![](.assets/images/3cd08ad017170e4c9fbe9dbe8c6f87f3715d34c057fcb19cdc053fc7d2b1dc8f.jpg)
 
 ---
 
@@ -1904,7 +1904,7 @@ Here are some of the known issues the Worlds team is currently investigating.
 
 [Meta Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v172-release-notes) V172 is here! This week, we’re expanding the list of world genre tags that creators can choose from to help people understand what their world has to offer, as well as fixing a few minor bugs. Let’s dive in!
 
-![](_assets/images/b6a13e890749f1d707d0ae293341a8f41a66a5dad59e971d7e635280d17e32a7.jpg)
+![](.assets/images/b6a13e890749f1d707d0ae293341a8f41a66a5dad59e971d7e635280d17e32a7.jpg)
 
 ---
 
@@ -1955,7 +1955,7 @@ Here are some of the known issues the Worlds team is currently investigating.
 
 [Meta Horizon Worlds](https://www.meta.com/experiences/2532035600194083/?intern_source=blog\&intern_content=meta-horizon-worlds-v171-release-notes) V171 is here! This week we’re kicking off Summer Carnival 🌞🎪 and rolling out a few quality of life improvements, including updates to sound settings that will give you more control over who you can hear (and vice versa) and search and discovery improvements for worlds and events. We are also starting to roll out an update to help world creators use and optimize scripts when building, along with a number of bug fixes. Read on for more!
 
-![](_assets/images/ea5a0af1f000973f5542ade542419db88c6dc7b826241cacc6915e01a83743a8.jpg)
+![](.assets/images/ea5a0af1f000973f5542ade542419db88c6dc7b826241cacc6915e01a83743a8.jpg)
 
 ---
 
@@ -1963,7 +1963,7 @@ Here are some of the known issues the Worlds team is currently investigating.
 
 Fresh off her show-stopping Coachella debut, join Sabrina Carpenter as she brings her chart-topping hits into VR! She’s working late ’cause she’s a singer in Meta Horizon Worlds where you’ll get a better-than-front-row seat to dance and sing along to song of the summer “Espresso” and favorites “Feather” and “Nonsense,” among many others. Fire up your headset as [Sabrina Carpenter: A VR Concert](https://horizon.meta.com/event/428965920013261/?intern_source=blog\&intern_content=meta-horizon-worlds-v171-release-notes) kicks off July 19 in Music Valley.
 
-[![](_assets/images/0105bcf72e8180a86c32a89e118d4e2b7eea0e353e4f529e02e5140fcde20f1a.png)](https://horizon.meta.com/event/428965920013261/?intern_source=blog\&intern_content=meta-horizon-worlds-v171-release-notes)
+[![](.assets/images/0105bcf72e8180a86c32a89e118d4e2b7eea0e353e4f529e02e5140fcde20f1a.png)](https://horizon.meta.com/event/428965920013261/?intern_source=blog\&intern_content=meta-horizon-worlds-v171-release-notes)
 
 ---
 
@@ -1978,7 +1978,7 @@ Summer Carnival is coming to Worlds and the animals are out! During Summer Carni
 
 With Summer Carnival, we’re launching a brand new rewards shop in Worlds. You can access the shop at any time in Horizon Central or from the menu. In the shop, you’ll find limited-time avatar items, emotes and stickers that can be redeemed with the carnival tickets you’ll earn all summer long!
 
-![](_assets/images/7f1469274ba81976e7673b7081186d452dbc28bd4be0af0e925a62b8f37f8b22.png)
+![](.assets/images/7f1469274ba81976e7673b7081186d452dbc28bd4be0af0e925a62b8f37f8b22.png)
 
 ---
 
@@ -1995,7 +1995,7 @@ There are two Voice Channel options:
 
 To adjust Voice Channel settings, go to **Settings > Sound&#x20;**&#x61;nd select your desired Voice Channel option.
 
-![](_assets/images/699a57cfd84521a5000ae007f58650dcc22a100f2bbb599e94ab378e353e8ec3.png)
+![](.assets/images/699a57cfd84521a5000ae007f58650dcc22a100f2bbb599e94ab378e353e8ec3.png)
 
 ### [Improved Search + Discovery](#improved-search--discovery)
 

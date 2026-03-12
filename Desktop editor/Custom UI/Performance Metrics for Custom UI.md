@@ -15,9 +15,9 @@ They are:
 
 All the metrics can be seen under the [realtime metrics](../../Performance/Performance%20tools/Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md) list.
 
-![](../../_assets/images/4b45cd1edb10eefecfca646a92c856080910c90a5d86bd2c0adb00c4d9103df3.png)
+![](../../.assets/images/4b45cd1edb10eefecfca646a92c856080910c90a5d86bd2c0adb00c4d9103df3.png)
 
 As well as [Scrubbing](../../Performance/Performance%20tools/Performance%20Scrubbing.md) metrics.
 
-![](../../_assets/images/d1a18200b14e5c7a0691c10b39cb7b8ded41bacaf1aecd9cab6dead9eb53ed11.png)
+![](../../.assets/images/d1a18200b14e5c7a0691c10b39cb7b8ded41bacaf1aecd9cab6dead9eb53ed11.png)
 

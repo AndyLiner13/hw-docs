@@ -21,7 +21,7 @@ The Camera API supports several camera modes that you can switch between at runt
 
 ### [Switch to First Person Camera](#switch-to-first-person-camera)
 
-![Screenshot of doorway through which the camera switches to third-person point of view](../../../_assets/images/d8b7fe8cda1e036655218f72c53d9ea0f3c4644995882ef8bd5927adf358d610.png)
+![Screenshot of doorway through which the camera switches to third-person point of view](../../../.assets/images/d8b7fe8cda1e036655218f72c53d9ea0f3c4644995882ef8bd5927adf358d610.png)
 
 This room features a number of tight corridor spaces, where third-person camera perspective (as shown above) won’t work. In tighter spaces, the camera should be first-person, so that the player can follow the direction of movement and avoid occlusions caused by sharp corners.
 
@@ -68,19 +68,19 @@ Now we must attach this script to the trigger object.
 
 The panel should look like the following:
 
-![Screenshot of script attached to the trigger zone with cameraMode set to FirstPerson](../../../_assets/images/c485741fddef1541cda9994a059ce13a52801fc0dab3ab6e684f2f4d7cfee45f.png)
+![Screenshot of script attached to the trigger zone with cameraMode set to FirstPerson](../../../.assets/images/c485741fddef1541cda9994a059ce13a52801fc0dab3ab6e684f2f4d7cfee45f.png)
 
 ### [Disable camera collisions](#disable-camera-collisions)
 
 In the next area of the room, we must disable camera collision where you find multiple columns that can interfere.
 
-![Screenshot of area in the desktop editor where camera collisions are disabled due to narrow passsageways](../../../_assets/images/aeedb7a974ec36807650382e35f2e7a22299ff547faae5509f4f567a9c81083b.png)
+![Screenshot of area in the desktop editor where camera collisions are disabled due to narrow passsageways](../../../.assets/images/aeedb7a974ec36807650382e35f2e7a22299ff547faae5509f4f567a9c81083b.png)
 
 ##### [Trigger Object](#trigger-object-1)
 
 In the room, locate the Trigger Zone entity TriggerCameraCollision. This entity covers the area where we want camera collision to be disabled: (the entire area with the columns). Below, the Trigger Zone has been selected in the Hierarchy panel of the desktop editor:
 
-![Screenshot of the trigger zone in the desktop editor, which triggers activation and de-activation of camera collisions](../../../_assets/images/8a22b4491ca2b097fe8964b68747ecc624c68e451c9cc7f944052319fee794bc.png)
+![Screenshot of the trigger zone in the desktop editor, which triggers activation and de-activation of camera collisions](../../../.assets/images/8a22b4491ca2b097fe8964b68747ecc624c68e451c9cc7f944052319fee794bc.png)
 
 ##### [sysCameraChangeTrigger Script](#syscamerachangetrigger-script-1)
 
@@ -123,7 +123,7 @@ this.sendNetworkEvent(player, sysEvents.OnSetCameraCollisionEnabled, {
 
 The panel should look like the following now:
 
-![Screenshot of Properties panel for the TriggerCameraCollision trigger zone](../../../_assets/images/205327cb569d9059cd3b1a9e751ced9298911c1ddd4f845a0a3013fc225018d8.png)
+![Screenshot of Properties panel for the TriggerCameraCollision trigger zone](../../../.assets/images/205327cb569d9059cd3b1a9e751ced9298911c1ddd4f845a0a3013fc225018d8.png)
 
 ## [Set up a grabbable object that shoots projectiles](#set-up-a-grabbable-object-that-shoots-projectiles)
 
@@ -134,7 +134,7 @@ In the area shown below, we have group of entities:
 
 We want to make this grouped entity grabbable, as well as able to shoot and interact with other objects. To complete the puzzle, the player must grab the wand, fire projectiles and hit the exit door to open it.
 
-![Screenshot of the wand, a grabbable projectile shooter](../../../_assets/images/85f22feb14cf56b8d3ab9d87d42687ebb319de9a7afdaa804abef23c5e03d2c1.png)
+![Screenshot of the wand, a grabbable projectile shooter](../../../.assets/images/85f22feb14cf56b8d3ab9d87d42687ebb319de9a7afdaa804abef23c5e03d2c1.png)
 
 #### [The Magic Wand projectile entity](#the-magic-wand-projectile-entity)
 
@@ -145,7 +145,7 @@ The wand projectile object (RoomA\_Wand) is a parent group of 2 items.
 
 The wand and the projectile launcher must be grouped together so that they interact with the world as a set.
 
-![Screenshot of wand and projectile launcher as a group in the desktop editor](../../../_assets/images/d5dfda37c679c1244f90f0c3f3f3c04266b9d0a99a52512f5b8e69ac5cb7fb5c.png)
+![Screenshot of wand and projectile launcher as a group in the desktop editor](../../../.assets/images/d5dfda37c679c1244f90f0c3f3f3c04266b9d0a99a52512f5b8e69ac5cb7fb5c.png)
 
 #### [Set object as grabbable:](#set-object-as-grabbable)
 
@@ -155,7 +155,7 @@ The wand and the projectile launcher must be grouped together so that they inter
 4. Set Motion property: Interactive.
 5. Set Interaction property: Grabbable.
 
-![Screenshot of visibility and collision properties for the magic wand entity](../../../_assets/images/c953f864973998abd54a481ab0c71b56fed4dc0c32a6f747a3137ec8dc9ca455.png)
+![Screenshot of visibility and collision properties for the magic wand entity](../../../.assets/images/c953f864973998abd54a481ab0c71b56fed4dc0c32a6f747a3137ec8dc9ca455.png)
 
 **Checkpoint**: After the above is completed, preview the scene. You should see that the wand now has an E and a hand symbol over it, indicating that you can press E to grab the entity on mobile or desktop.
 
@@ -171,7 +171,7 @@ We can also customize the Avatar’s interaction with this entity. For example:
 
 The Properties panel should look something like the following:
 
-![Screenshot of Properties panel for the magic wand entity](../../../_assets/images/17e0c2cd78caed0f0b20734ba088dad87e19292db4bd9dfb963d714d34c88a27.png)
+![Screenshot of Properties panel for the magic wand entity](../../../.assets/images/17e0c2cd78caed0f0b20734ba088dad87e19292db4bd9dfb963d714d34c88a27.png)
 
 **Tip**: If you wish to customize the way the Avatar holds the wand, you can switch to the VR headset to set the Grab Anchors on the entity. This defines the locations on the entity where it can be grabbed.
 
@@ -181,7 +181,7 @@ You may wish to customize the properties of the projectile launcher, such as the
 
 You can modify these properties by selecting the projectile entity (RoomA\_ProjectileLauncher) and modify the appropriate values in the Properties panel:
 
-![Screenshot of Properties panel for projectile launcher entity](../../../_assets/images/6b7973fd3150d41a04af75de2164d99c10ef7d0eee3b71eb2855e9f6412f1db3.png)
+![Screenshot of Properties panel for projectile launcher entity](../../../.assets/images/6b7973fd3150d41a04af75de2164d99c10ef7d0eee3b71eb2855e9f6412f1db3.png)
 
 #### [Projectile Launcher Scripting](#projectile-launcher-scripting)
 
@@ -363,7 +363,7 @@ The code is complete! Now, we attach this script to the wand.
 
 The properties should look like the following:
 
-![Screenshot of Properties panel for the RoomA\_Wand entity after all properties have been specified](../../../_assets/images/cd4ee5cc2133be78a4b63a5271e456e4093717e666203ebef51e3fb5e08fbbd4.png)
+![Screenshot of Properties panel for the RoomA\_Wand entity after all properties have been specified](../../../.assets/images/cd4ee5cc2133be78a4b63a5271e456e4093717e666203ebef51e3fb5e08fbbd4.png)
 
 ## [Checkpoint](#checkpoint)
 

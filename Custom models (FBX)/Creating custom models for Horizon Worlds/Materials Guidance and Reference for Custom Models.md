@@ -54,7 +54,7 @@ Using two textures gives control over more of the PBR properties.
 
 ### [Unlit Materials](#unlit-materials)
 
-![](../../_assets/images/51d3ae052a6a889b23248af0255e67d5e26fb5ec139903ec50fbdc9d867d2f1f.png)
+![](../../.assets/images/51d3ae052a6a889b23248af0255e67d5e26fb5ec139903ec50fbdc9d867d2f1f.png)
 
 Materials that do not receive or cast lighting or shading are considered unlit. The material name in the FBX must end in “\_Unlit”. Any extra channels, such as the fourth channel, are discarded.
 
@@ -66,7 +66,7 @@ Materials that do not receive or cast lighting or shading are considered unlit. 
 
 ### [Unlit Blend Materials](#unlit-blend-materials)
 
-![](../../_assets/images/ed548cce613899a27f49133a535a20adbf8de82291c52bd0f66b4075256af6de.png)
+![](../../.assets/images/ed548cce613899a27f49133a535a20adbf8de82291c52bd0f66b4075256af6de.png)
 
 Blended materials that do not receive or cast lighting or shading are considered blended and unlit. The material name in the FBX must end in “\_Blend”. Unlit blended materials do not have any specular or reflection properties.
 
@@ -78,7 +78,7 @@ Blended materials that do not receive or cast lighting or shading are considered
 
 ### [Transparent Materials](#transparent-materials)
 
-![](../../_assets/images/5aaed904fcd0474e2cad6e6fb593de939de11bad47dfb29f234164def3d1308e.png)
+![](../../.assets/images/5aaed904fcd0474e2cad6e6fb593de939de11bad47dfb29f234164def3d1308e.png)
 
 Transparent materials allow light to pass through. A specular channel is used, which modulates specular and reflection amounts. Using two textures gives control over more of the PBR properties. Material name in FBX must end in “\_Transparent”
 
@@ -91,7 +91,7 @@ Transparent materials allow light to pass through. A specular channel is used, w
 
 ### [Masked Materials](#masked-materials)
 
-![](../../_assets/images/143855c1f0d36c9cc8f676200b9b2ee16314d0c2bea102645ed566fc7d9f5df1.jpg)
+![](../../.assets/images/143855c1f0d36c9cc8f676200b9b2ee16314d0c2bea102645ed566fc7d9f5df1.jpg)
 
 Masked materials are used for controlling the mixing of two textures. The material does respond to specular and roughness properties, but is considered fully rough; i.e., roughness = 1. The A channel of the texture drives the alpha, where white is opaque and black is clear. Alpha cutout happens at 0.5 (matching the default for GLTF 2.0 and Unity). Material names in FBX must end in “\_Masked”.
 
@@ -103,11 +103,11 @@ Masked materials are used for controlling the mixing of two textures. The materi
 
 Also supported is a “masked vertex color” material. In this case, the **BaseColor** texture is multiplied with the mesh’s vertex color. Material names in FBX must end in “\_MaskedVXM”.
 
-![](../../_assets/images/fdde7a374276848c6ead9dae5ac7f2742b356350224478c09d1a4f3beb59c4f4.png)
+![](../../.assets/images/fdde7a374276848c6ead9dae5ac7f2742b356350224478c09d1a4f3beb59c4f4.png)
 
 ### [Vertex Color PBR](#vertex-color-pbr)
 
-![](../../_assets/images/ffc2707c0b63a066065147c0452e4f0d366ee574ef0b840552194f58be03cf8e.png)
+![](../../.assets/images/ffc2707c0b63a066065147c0452e4f0d366ee574ef0b840552194f58be03cf8e.png)
 
 Vertex colors are RGBA values that are applied directly to mesh vertices. They do not contain any textures. You can use vertex color for:
 
@@ -119,7 +119,7 @@ A material name in the FBX must end in “\_VXC”.
 
 ### [Vertex Color Single-Texture PBR](#vertex-color-single-texture-pbr)
 
-![](../../_assets/images/53d8c0ec30b7768763186adcc16735679e76ecdb68ac6ae69c5e7ce985f3fe8e.png)
+![](../../.assets/images/53d8c0ec30b7768763186adcc16735679e76ecdb68ac6ae69c5e7ce985f3fe8e.png)
 
 Vertex colors are RGBA values that are applied directly to mesh vertices and then multiplied with a texture **BaseColor** as input to both GI and shading. You can use vertex color for:
 
@@ -151,7 +151,7 @@ Material names in FBX must end in “\_VXM”.
 
 ### [UI Optimized Materials](#ui-optimized-materials)
 
-![](../../_assets/images/7a9e23df49d5ae6e95e7cd8071d93266d75025d923802df2cf7e27adc4f1c869.png)
+![](../../.assets/images/7a9e23df49d5ae6e95e7cd8071d93266d75025d923802df2cf7e27adc4f1c869.png)
 
 UI Optimized Materials are optimized to provide better quality UI elements (e.g. text, icon) when displayed. These textures are unlit and do not receive or cast lighting or shading.
 

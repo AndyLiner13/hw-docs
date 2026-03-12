@@ -24,7 +24,7 @@ Horizon specifically has some features that stand out compared to UEFN that any 
 
 The Horizon Desktop Editor is the starting point for managing existing worlds, viewing documentation, exploring tutorials and templates and more. It is the equivalent of both the Epic Games Launcher and the UEFN editor bundled into one. [The Horizon Desktop Editor can be installed](../../Get%20started/Install%20the%20desktop%20editor.md) either standalone or through the Meta Quest Link app (if developing for VR).
 
-![Horizon Creation Home](../../_assets/images/ba5f2e4c81b13730d918a55ba9027930adce2e323050ce3efb91434a7c4b7ac6.png)
+![Horizon Creation Home](../../.assets/images/ba5f2e4c81b13730d918a55ba9027930adce2e323050ce3efb91434a7c4b7ac6.png)
 
 ## [Editor comparisons](#editor-comparisons)
 
@@ -43,7 +43,7 @@ Otherwise, Horizon shares much of the same functionality such as:
 - A scene view that shows the 3D view of the world.
 - An asset library that shows both the creator’s library of assets, as well as assets created by external creators.
 
-![Horizon Editor comparison](../../_assets/images/e0e862e3b5208921b5dc777a60a39da9fb67f534b702d74d1b8dbe9de826500d.png)
+![Horizon Editor comparison](../../.assets/images/e0e862e3b5208921b5dc777a60a39da9fb67f534b702d74d1b8dbe9de826500d.png)
 
 | Index | UEFN              | Horizon              | Description                                                                                 |
 | ----- | ----------------- | -------------------- | ------------------------------------------------------------------------------------------- |
@@ -120,7 +120,7 @@ Horizon allows a [variety of different asset types to be imported](../../Desktop
 
 Horizon offers multiple ways to playtest your world on desktop, mobile, and VR. The first step to playtesting is to publish your world. Make sure to mark it as invisible to the public.
 
-![Horizon Publish World](../../_assets/images/8e30d7522aace25c83fd6e27bb489122e2b556d83cf1700029db6996a2b0ca3a.png)
+![Horizon Publish World](../../.assets/images/8e30d7522aace25c83fd6e27bb489122e2b556d83cf1700029db6996a2b0ca3a.png)
 
 Once a world is published, that specific published version is what will be available to playtest. More information on the publishing flow can be found [here](../../Save%2C%20optimize%2C%20and%20publish/Publish%20your%20world.md). Some important steps to keep in mind:
 
@@ -129,5 +129,5 @@ Once a world is published, that specific published version is what will be avail
 
 For easy access to playtest builds, use the preview actions found under the preview configuration drop down at the top of the editor.
 
-![Horizon Preview Actions](../../_assets/images/5f026ffa0dcfcb7dacd895e53c18ac08530c043221f64e7a25c39ad55f0e6614.png)
+![Horizon Preview Actions](../../.assets/images/5f026ffa0dcfcb7dacd895e53c18ac08530c043221f64e7a25c39ad55f0e6614.png)
 

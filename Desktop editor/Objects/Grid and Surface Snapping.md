@@ -8,7 +8,7 @@ You can snap objects to specific increments in your world with grid, angle, and 
 
 ## [How to use snapping tools](#how-to-use-snapping-tools)
 
-![](../../_assets/images/2dbb4628aeaecf96f42af90be79587f663fc7ae6b8a774b0a770188a109fa43c.png)
+![](../../.assets/images/2dbb4628aeaecf96f42af90be79587f663fc7ae6b8a774b0a770188a109fa43c.png)
 
 - The snapping tool icons are located on the tools top bar to the right of the Select, Translate, Rotate, and Scale tool icons.
 - Get started by selecting a grid, angle, or scale snap icon to toggle snapping on or off.
@@ -49,7 +49,7 @@ There are three snapping tool mode options:
 
 You can toggle between relative and absolute snapping using the dropdown.
 
-![](../../_assets/images/f2a3f39c90fd4cf56fa55743d9f24035a993c302fbed2e4a09ab8beaee819132.png)
+![](../../.assets/images/f2a3f39c90fd4cf56fa55743d9f24035a993c302fbed2e4a09ab8beaee819132.png)
 
 Relative: Snap to a value relative to the object’s starting position.
 
@@ -57,7 +57,7 @@ Absolute: Snap to a value regardless of the starting position.
 
 ## [Surface snapping](#surface-snapping)
 
-![](../../_assets/images/02dc468bbe38ac5a5f0983136d90f822dccd4b8d974958077439748f531d4042.png)
+![](../../.assets/images/02dc468bbe38ac5a5f0983136d90f822dccd4b8d974958077439748f531d4042.png)
 
 Follow these steps to snap an object’s pivot to the collider of another object:
 

@@ -10,7 +10,7 @@ The Player Settings Modification feature in the desktop editor has the same capa
 
 1. Click the top left menu button.
 2. Click **Player Settings**.
-3. A modal dialog with all of the available Player settings will appear. ![](../../_assets/images/1cfecdb0283ecad7d5eb7ef663eba27a60c45bc721edb1c435cc877ababf8191.png)
+3. A modal dialog with all of the available Player settings will appear. ![](../../.assets/images/1cfecdb0283ecad7d5eb7ef663eba27a60c45bc721edb1c435cc877ababf8191.png)
 
 ## [Changing Player Settings](#changing-player-settings)
 

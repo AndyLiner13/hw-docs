@@ -30,11 +30,11 @@ By creating a style reference you establish a context window for future generate
 To create a new style reference, use the following process:
 
 1. Select the **Gen AI** option from the top menu bar to open the **Gen AI** panel in the Horizon Editor.
-2. Select the **Generate using a style reference** or input /style to begin the style reference generation process. ![Gen AI Style reference window](../../_assets/images/d98284b85aaf32744832667073bfb14667ebe9bf84fb4e815f8730d425ae83ec.png)
+2. Select the **Generate using a style reference** or input /style to begin the style reference generation process. ![Gen AI Style reference window](../../.assets/images/d98284b85aaf32744832667073bfb14667ebe9bf84fb4e815f8730d425ae83ec.png)
 3. If selecting **Generate using a style reference** you can select a recommended prompt or manually input a prompt into the prompt window.
 4. After inputting or selecting a prompt from the recommended list, a style will be generated.
-5. Once you have a style reference it will apply as context for your future generated content. You can swap between your created style references to dynamically swap the context for your generated models and textures. ![Gen AI Style reference window save generated reference](../../_assets/images/be8057d0c5ff3f57244eb4cc0d42bf1a402b0d13c28ed28cc74367c2fb07173e.png)
-6. You created style reference will appear above the prompt window and you can select either the **3D Model** or **Texture** options to generate content. ![Gen AI Style reference 3D model or texture](../../_assets/images/21c2573ac8906d54149de38f51c39bb6af905d45d2dfbfb6af88456fa7deccb5.png)
+5. Once you have a style reference it will apply as context for your future generated content. You can swap between your created style references to dynamically swap the context for your generated models and textures. ![Gen AI Style reference window save generated reference](../../.assets/images/be8057d0c5ff3f57244eb4cc0d42bf1a402b0d13c28ed28cc74367c2fb07173e.png)
+6. You created style reference will appear above the prompt window and you can select either the **3D Model** or **Texture** options to generate content. ![Gen AI Style reference 3D model or texture](../../.assets/images/21c2573ac8906d54149de38f51c39bb6af905d45d2dfbfb6af88456fa7deccb5.png)
 
 ## [Using a style reference](#using-a-style-reference)
 
@@ -42,7 +42,7 @@ Once you have a style reference it will apply as the context for your future gen
 
 To generate content using a style reference, using the following process:
 
-1. Select a style reference to apply as a context for your generated content. If no style reference in set, you can select the **Open saved style references** button to view your generated style references. ![Saved style references](../../_assets/images/8d83519da107777e62d2fcacc277c578d3a892c05eb527726a593159f8bf75a5.png)
+1. Select a style reference to apply as a context for your generated content. If no style reference in set, you can select the **Open saved style references** button to view your generated style references. ![Saved style references](../../.assets/images/8d83519da107777e62d2fcacc277c578d3a892c05eb527726a593159f8bf75a5.png)
 2. With a style reference applied, select either the **3D Model** option or **Texture** option. Note that other **Gen AI** features will be inaccessible with a style reference enabled.
 3. If using the **3D Model** option, select the **3D Model Detail** and **Generation Model** for the generation, then input a prompt in the prompt window. If using the **Texture** feature, select a mesh in your world then input a prompt in the prompt window.
 4. Click **Generate** to generated your texture or model.

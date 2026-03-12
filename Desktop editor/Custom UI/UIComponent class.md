@@ -44,11 +44,11 @@ You cannot change the panel size after the UI panel is initialized. Assigning ne
 
 The following image shows two different sets of **Scale** attributes in **Properties**.
 
-![An example that shows that scale controls the size of the UI panel in properties](../../_assets/images/4578c638876dc7accc8564c674b15210c18b0382eb80f3197d517c6dab2350b9.png)
+![An example that shows that scale controls the size of the UI panel in properties](../../.assets/images/4578c638876dc7accc8564c674b15210c18b0382eb80f3197d517c6dab2350b9.png)
 
 The following image shows the left UI gizmo is smaller than the right UI gizmo with **Scale** attribute of (1, 1, 1) vs. (2, 2, 2).
 
-![An example that shows that scale controls the size of the UI panel in the scene](../../_assets/images/b258253ca6e7b67e9c7311543f688af95fd6a9bdb03da2b50d26e8582b555e9e.png)
+![An example that shows that scale controls the size of the UI panel in the scene](../../.assets/images/b258253ca6e7b67e9c7311543f688af95fd6a9bdb03da2b50d26e8582b555e9e.png)
 
 ## [Method: initializeUI()](#method-initializeui)
 

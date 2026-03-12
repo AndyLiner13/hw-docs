@@ -12,7 +12,7 @@ The **Shutdown server** option allows creators to reset the server in a world. T
 
 Open desktop editor, and select **Shutdown Server** from the main menu. You will be asked to confirm this action. After confirming, anyone who is currently editing the world will be disconnected from the server and they will need to rejoin the world to continue editing.
 
-![](../_assets/images/b7c66ef9b2b5374cec4f8f52c4dae890403bce89f5834060f57275fd861470b6.png)
+![](../.assets/images/b7c66ef9b2b5374cec4f8f52c4dae890403bce89f5834060f57275fd861470b6.png)
 
-![](../_assets/images/20558aca9ce894481c5515c879ee9dbfbe7aa8e733a930b04beab74919454c4f.png)
+![](../.assets/images/20558aca9ce894481c5515c879ee9dbfbe7aa8e733a930b04beab74919454c4f.png)
 

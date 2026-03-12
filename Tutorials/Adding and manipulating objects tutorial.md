@@ -29,37 +29,37 @@ In this section, you’ll spawn an avatar into your world, and then you’ll add
 
 1. Select the **SpawnPoint** gizmo in the Hierarchy. This is the avatar.
 
-   ![Select the spawn point gizmo in the hierarchy](../_assets/images/5ed9a91f6fd01e0ca7b0423a43150f29a68d4346124d88203522679549ed6ad3.png)
+   ![Select the spawn point gizmo in the hierarchy](../.assets/images/5ed9a91f6fd01e0ca7b0423a43150f29a68d4346124d88203522679549ed6ad3.png)
 
 2. Focus the camera on the avatar by pressing the “F” key.
 
-   ![Focus the camera on the avatar](../_assets/images/e16096dc272188959a5db6bf37b56b2b749bbda9fe2437b54ca5edf83d443adf.png)
+   ![Focus the camera on the avatar](../.assets/images/e16096dc272188959a5db6bf37b56b2b749bbda9fe2437b54ca5edf83d443adf.png)
 
 3. Spawn a new cylinder object into the scene, and name it “Bat”. Click **Build** > **Shapes** > **Cylinder**.
 
-   ![Spawn a new cylinder object into the scene](../_assets/images/6efc504110b4e26c33ab2fa932169fc7ccdfe6d5a4a0b0e13de91eb2d54c5828.png)
+   ![Spawn a new cylinder object into the scene](../.assets/images/6efc504110b4e26c33ab2fa932169fc7ccdfe6d5a4a0b0e13de91eb2d54c5828.png)
 
 4. Spawn a new sphere object into the scene, and name it “Ball”. Click **Build** > **Shapes** > **Sphere**. Your Hierarchy should now look like this:
 
-   ![Spawn a nhew sphere object into the scene](../_assets/images/9ba96abc5bfcf15ca7df0bfe7b77252bffd60fce69fcdaba67fc943242a3d6fa.png)
+   ![Spawn a nhew sphere object into the scene](../.assets/images/9ba96abc5bfcf15ca7df0bfe7b77252bffd60fce69fcdaba67fc943242a3d6fa.png)
 
 5. Resize the cylinder to resemble a bat, and place it in front of the spawn point.
 
-   ![Resize the cylinder scale values](../_assets/images/790b349f64127c2d306653221a967d058c56922c557cd6313914428cdabed4cf.png)
+   ![Resize the cylinder scale values](../.assets/images/790b349f64127c2d306653221a967d058c56922c557cd6313914428cdabed4cf.png)
 
 6. Place the bat in front of the spawn point. To move the bat easily, activate the on-screen Position Manipulator Handles by pressing “W”, and then drag the bat to where you want it.
 
-   ![Place the bat in front of the spawnpoint](../_assets/images/c4d53602e170da2c0a2a1fbf39b3c3a65cd2300e5d4a772aaea1b05ecadb7233.png)
+   ![Place the bat in front of the spawnpoint](../.assets/images/c4d53602e170da2c0a2a1fbf39b3c3a65cd2300e5d4a772aaea1b05ecadb7233.png)
 
 7. Resize the sphere to make it the approximate size of a baseball.
 
-   ![The resized scale values](../_assets/images/bec1b033756ce3975a623827ee642cdeb1cd5927582d14affa7012640edaec16.png)
+   ![The resized scale values](../.assets/images/bec1b033756ce3975a623827ee642cdeb1cd5927582d14affa7012640edaec16.png)
 
 8. Reposition the ball high in the air, slightly in front of the spawn point.
 
-   ![The ball's new position values](../_assets/images/4a7d5b7f9a753606882ab907d7601b991e28e9ab061f6c50419c08c894bbd629.png)
+   ![The ball's new position values](../.assets/images/4a7d5b7f9a753606882ab907d7601b991e28e9ab061f6c50419c08c894bbd629.png)
 
-   ![This is what the ball looks like high in the air](../_assets/images/eacd2071090a430b26f2cd6856f07296243b84f660d53d5638a88f2ea404d381.png)
+   ![This is what the ball looks like high in the air](../.assets/images/eacd2071090a430b26f2cd6856f07296243b84f660d53d5638a88f2ea404d381.png)
 
    You place the baseball up high because it will take time to fall down to the player, and the player needs this time to grab the bat.
 
@@ -75,7 +75,7 @@ In this section, you’ll spawn an avatar into your world, and then you’ll add
 
    5. Enable **Gravity**, and set it to a custom gravity value to make the ball fall slower so it’s easier for the player to hit. For example, try using a value of “-0.20” instead of the default “-9.81” m/s2.
 
-      ![Enable gravity](../_assets/images/6e7c97c040fa7b1adf956c6cd04ece2ae5adf46aca311b8f4c18cf3cfad48a2b.png)
+      ![Enable gravity](../.assets/images/6e7c97c040fa7b1adf956c6cd04ece2ae5adf46aca311b8f4c18cf3cfad48a2b.png)
 
 10. Set the **Behavior** properties on the bat.
 
@@ -87,7 +87,7 @@ In this section, you’ll spawn an avatar into your world, and then you’ll add
 
     4. Ensure that **Interaction** = “Grabbable”.
 
-       ![Interaction equals grabbable](../_assets/images/366f1cb22e1c8ac9e37effc368c88fa20dcbf8b63c4a1cff78ad43a5afbb1dd4.png)
+       ![Interaction equals grabbable](../.assets/images/366f1cb22e1c8ac9e37effc368c88fa20dcbf8b63c4a1cff78ad43a5afbb1dd4.png)
 
 When you run the simulation, the player spawns into the world. You can move the avatar over to the bat, and you can grab it, but you can’t swing it yet. The ball falls down a couple of seconds later.
 
@@ -99,17 +99,17 @@ If the player swings at the baseball and misses, the ball simply falls to the fl
 
 1. Spawn a new cube object into the scene, and rename it “Floor”. Click **Build** > **Shapes** > **Cube**. Your Hierarchy should now look like this:
 
-   ![Rename the cube object floor](../_assets/images/bdf0493d6ef141e76610187699df2664725071bc8ca0abeaf717ced572a04dff.png)
+   ![Rename the cube object floor](../.assets/images/bdf0493d6ef141e76610187699df2664725071bc8ca0abeaf717ced572a04dff.png)
 
 2. Change the dimensions of the Floor object so that it covers a relatively wide playing area.
 
-   ![Position and scale the play area](../_assets/images/4af8e88d78dc3eeda75a3689a0f0f4b56de49204209168b3abf3c16d592be29c.png)
+   ![Position and scale the play area](../.assets/images/4af8e88d78dc3eeda75a3689a0f0f4b56de49204209168b3abf3c16d592be29c.png)
 
-   ![Your floor should look like this](../_assets/images/e39fad26d17e0f2e8f6587b91a34a1e41a317d0f55fa95a3c25fd14a5ce20eec.png)
+   ![Your floor should look like this](../.assets/images/e39fad26d17e0f2e8f6587b91a34a1e41a317d0f55fa95a3c25fd14a5ce20eec.png)
 
 3. Add a **Gameplay Tag** to the Floor object, and name it “floor”.
 
-   ![Name the gameplay tag floor](../_assets/images/7c0e4791c00545bff9f011f8b6cefc1001c895552331fe6afb52d076acd7499c.png)
+   ![Name the gameplay tag floor](../.assets/images/7c0e4791c00545bff9f011f8b6cefc1001c895552331fe6afb52d076acd7499c.png)
 
 4. Select the Ball from the Hierarchy.
 
@@ -117,31 +117,31 @@ If the player swings at the baseball and misses, the ball simply falls to the fl
 
    1. Set **Collision Events From** = “Objects Tagged”.
 
-      ![Collision events from objects tagged](../_assets/images/1baa42aa8a824ad273c324f46b7e2e236ef570b639dfa552ac7b164c6cad0eec.png)
+      ![Collision events from objects tagged](../.assets/images/1baa42aa8a824ad273c324f46b7e2e236ef570b639dfa552ac7b164c6cad0eec.png)
 
    2. Set **Object Tag** = “floor”.
 
-      ![Object tag equals floor](../_assets/images/8c34f08b396b403e22a230108b04633049c2f7bfa1e68e3319c092638486f0a0.png)
+      ![Object tag equals floor](../.assets/images/8c34f08b396b403e22a230108b04633049c2f7bfa1e68e3319c092638486f0a0.png)
 
 6. Create a script to control the Ball’s behavior. The code listens for collisions between the Ball and the Floor. When a collision occurs, the code resets the ball’s position back to its initial starting point, and it resets its velocity back to zero.
 
    1. Click **Scripts** to open the Scripts panel.
 
-      ![The scripts panel opens](../_assets/images/75332f591bcc2c8fb77784d60fe11c65daf264d4d2daff254a39999a7dc6b584.png)
+      ![The scripts panel opens](../.assets/images/75332f591bcc2c8fb77784d60fe11c65daf264d4d2daff254a39999a7dc6b584.png)
 
    2. Create a new script by clicking **Create new script**.
 
    3. Name the script “BallScript”, and then press **Enter**. The script is created.
 
-      ![BallScript appears in your list of scripts](../_assets/images/609e4e071d2e5789fef9f4c2ff111fd04db0ed368f580d0121210b38fedb7b07.png)
+      ![BallScript appears in your list of scripts](../.assets/images/609e4e071d2e5789fef9f4c2ff111fd04db0ed368f580d0121210b38fedb7b07.png)
 
    4. Open the script in VS Code. Click the menu icon to the right of the script name, and then select **Open in External Editor**.
 
-      ![Open the script file in VS Code](../_assets/images/07c9ed8e491a2f6138392db0909deddfc5f553a0e9dc97953b37a5f5961ce5b3.png)
+      ![Open the script file in VS Code](../.assets/images/07c9ed8e491a2f6138392db0909deddfc5f553a0e9dc97953b37a5f5961ce5b3.png)
 
       VS Code launches, and opens a new TypeScript code file that contains a default class.
 
-      ![The new typescript file opens in VS Code and it contains some default code](../_assets/images/9405fb9983f509cb5f27aa05a11336ae7d07e2123896d99f3fdfeb7fecd949dc.png)
+      ![The new typescript file opens in VS Code and it contains some default code](../.assets/images/9405fb9983f509cb5f27aa05a11336ae7d07e2123896d99f3fdfeb7fecd949dc.png)
 
    5. Copy the following code snippet, and paste it on top of the default code in VS Code, and then save it.
 
@@ -203,15 +203,15 @@ If the player swings at the baseball and misses, the ball simply falls to the fl
 
 7. Attach the BallScript to the Ball object.
 
-   ![Attach the BallScript to the Ball object](../_assets/images/0c648dfeaa1c5b446592f830a6aee91b6c7d862a5c017afc290de656d68a3739.png)
+   ![Attach the BallScript to the Ball object](../.assets/images/0c648dfeaa1c5b446592f830a6aee91b6c7d862a5c017afc290de656d68a3739.png)
 
 8. Preview your new world in the Meta Horizon Worlds desktop editor. Enter Preview mode by clicking Play on the menu bar.
 
-   ![Click the little person icon to enter Preview mode](../_assets/images/7513159e0f5662c8ded51f1d5f5a31af289c9c518a0dfaf92a5ae93eef8661ce.png)
+   ![Click the little person icon to enter Preview mode](../.assets/images/7513159e0f5662c8ded51f1d5f5a31af289c9c518a0dfaf92a5ae93eef8661ce.png)
 
 9. Maneuver the avatar over to the bat using the arrow keys, and then grab it by pressing the “E” key.
 
-   ![This is what you avatar looks like after grabbing the bat](../_assets/images/4ec0c66004ffcaceb81ccbc9bc59759ae713ec7ea279c51c9a502a910f5aa4a9.png)
+   ![This is what you avatar looks like after grabbing the bat](../.assets/images/4ec0c66004ffcaceb81ccbc9bc59759ae713ec7ea279c51c9a502a910f5aa4a9.png)
 
    You can’t really do much at this point except walk around holding the bat. As you do, the ball continually keeps dropping out of the sky and falling to the floor.
 
@@ -225,7 +225,7 @@ In this section, you’ll configure collision detection.
 
 2. Add a **Gameplay Tag** to the Ball object, and name it “ball”.
 
-   ![The Ball object has a Gameplay Tag named ball](../_assets/images/4d9ae8f789a0508e02f80fc823ec00acb0ceca71e4bf2a829e108a8707da88a7.png)
+   ![The Ball object has a Gameplay Tag named ball](../.assets/images/4d9ae8f789a0508e02f80fc823ec00acb0ceca71e4bf2a829e108a8707da88a7.png)
 
 3. Select the Bat object from the Hierarchy.
 
@@ -242,7 +242,7 @@ In this section, you’ll configure collision detection.
 
    3. Name the script “BatScript”, and then press **Enter**. The new script appears in your scripts list.
 
-      ![You now have two scripts](../_assets/images/cad5e84644f4f4f0b6550464d0d12a6caed1d3c796e054fb48838e4e0df6a040.png)
+      ![You now have two scripts](../.assets/images/cad5e84644f4f4f0b6550464d0d12a6caed1d3c796e054fb48838e4e0df6a040.png)
 
    4. Open the script in VS Code by clicking the menu icon next to the script name, and then selecting **Open in External Editor**.
 
@@ -314,7 +314,7 @@ In this section, you’ll configure collision detection.
 
    6. Select the Bat object from the Hierarchy, then navigate to **Properties** > **Scripts**, and then attach the BatScript to the Bat object.
 
-      ![Attach the BatScript to the Bat object](../_assets/images/7a9df4caa82fd4b3e4c0743e28f8983cbf004aefc7ace5ba5d5a4dab2ae46292.png)
+      ![Attach the BatScript to the Bat object](../.assets/images/7a9df4caa82fd4b3e4c0743e28f8983cbf004aefc7ace5ba5d5a4dab2ae46292.png)
 
       When the player swings and hits the ball, they’ll see a cheerful message that congratulates them.
 
@@ -574,7 +574,7 @@ In this section, you’ll see what it’s like to play your game in 3D in Meta H
 
 3. Navigate to the **Create** page. You can get there by clicking the fourth icon from the left on the menu bar at the bottom of the page.
 
-   ![Click this icon to navigate to the Create page](../_assets/images/cdcb3b06ef552b13d61d0746307045206607e64f58b5b19f254db0e8c8f61e23.png)
+   ![Click this icon to navigate to the Create page](../.assets/images/cdcb3b06ef552b13d61d0746307045206607e64f58b5b19f254db0e8c8f61e23.png)
 
 4. Locate the world that you just created, and then click it to launch it on your Quest VR headset.
 

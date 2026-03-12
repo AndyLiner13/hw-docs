@@ -26,7 +26,7 @@ In the Meta Horizon Worlds desktop editor, do the following to access the raycas
 
 Whenever a collision event occurs when the ray is projected into the world, the information returned about the object depends on the configuration in **Properties**. You can filter collision events by configuring **Collide With**, or by adding an additional condition when using **Object Tagged**.
 
-![Raycast gizmo properties panel](../_assets/images/737177f3126d63c269613297841880aac873b290f3b0a3ec5f87c2704aeafe37.png)
+![Raycast gizmo properties panel](../.assets/images/737177f3126d63c269613297841880aac873b290f3b0a3ec5f87c2704aeafe37.png)
 
 In the **Collide With** field, you can choose between **Players**, **Object Tagged** or **Both**. Remember that whenever **Object Tagged** is chosen, the [tag](../Reference/core/Classes/Entity.md#properties) needs to be provided in the **Object Tag** field. The raycast will then return hits for objects with matching tags.
 

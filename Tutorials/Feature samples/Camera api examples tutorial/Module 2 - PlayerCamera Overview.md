@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This world is composed of several stations, each of which demonstrates a camera point of view in a specific use case. For example, you can see how the first-person camera works at the shooting gallery and how the third-person camera works at the hand-to-hand combat arena.
 
-![First-Person Camera Station](../../../_assets/images/c61d51173a028d962c4fc6b21d4e425d05433c03104c6595bdb10a3891cb07ec.png)
+![First-Person Camera Station](../../../.assets/images/c61d51173a028d962c4fc6b21d4e425d05433c03104c6595bdb10a3891cb07ec.png)
 
 ## [Set Local Script mode](#set-local-script-mode)
 
@@ -54,7 +54,7 @@ In this world, camera management is handled through the assignment of PlayerCame
 
 The core entities for managing player cameras are positioned above the plane of the world.
 
-![PlayerCamera core entities](../../../_assets/images/5a004be85ef533999e8c45fe34d8eb5f28ac056a1e650b1c84647f9e86446754.png)
+![PlayerCamera core entities](../../../.assets/images/5a004be85ef533999e8c45fe34d8eb5f28ac056a1e650b1c84647f9e86446754.png)
 
 In the Hierarchy panel, these entities are stored under PlayerCameraCore.
 

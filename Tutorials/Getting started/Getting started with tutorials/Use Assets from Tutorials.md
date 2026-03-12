@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 As you explore these tutorial worlds, you may find scripts, art, or other entities that you would like to use in your own worlds. Go for it!
 
-![Create Asset Template](../../../_assets/images/0f83b87b173f4eaa86144e2095fb59070d4b4afdc7d562b6b889e7246642eddc.png)
+![Create Asset Template](../../../.assets/images/0f83b87b173f4eaa86144e2095fb59070d4b4afdc7d562b6b889e7246642eddc.png)
 
 Tutorials contain the following categories of assets:
 
@@ -31,7 +31,7 @@ To add an entity to your Asset Library, please complete the following steps. Whe
 
 1. Click **Create**. The asset template is created in the selected folder.
 
-![Create asset template](../../../_assets/images/3eb537ac772cd778b281510a06c990264f081e1ab9b306a3311fc481d41e1cbc.png)
+![Create asset template](../../../.assets/images/3eb537ac772cd778b281510a06c990264f081e1ab9b306a3311fc481d41e1cbc.png)
 
 This asset template is now available for you to use in any world!
 
@@ -79,7 +79,7 @@ To locate your files, please do the following:
 4. Locate the value for the External Editor Directory.
 5. Navigate your local environment to find this directory. Scripts for individual worlds are stored as sub-directories.
 
-![Script Editing settings](../../../_assets/images/6b04a72fba03f3737045292a94db5a23f1c469677bc2a82b1cfa4d08ec9bbf1e.png)
+![Script Editing settings](../../../.assets/images/6b04a72fba03f3737045292a94db5a23f1c469677bc2a82b1cfa4d08ec9bbf1e.png)
 
 ### [Scripts in asset templates](#scripts-in-asset-templates)
 

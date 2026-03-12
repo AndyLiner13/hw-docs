@@ -87,19 +87,19 @@ You can then adjust the position and rotation to your liking, and after selectin
 
 *Note: Rotating around will be useful as the UI is only rendered on one side, so if you don’t see it later in the tutorial you can rotate to the other side.*
 
-![Image shows a user beginning to work in the desktop editor](../../_assets/images/08e702e3d5ca665e5b35564b662f5e312d2ca771f8298667a6f45578462bc480.png)
+![Image shows a user beginning to work in the desktop editor](../../.assets/images/08e702e3d5ca665e5b35564b662f5e312d2ca771f8298667a6f45578462bc480.png)
 
 Next, create your first script. In the example below, we will name it **CUI\_Test\_Entity**. The prefix “CUI” will help you easily find all scripts that are related to the CUI gizmo, you will see that later in this tutorial. “Test” lets you know what this script is supposed to do. “Entity” is one of several postfixes you can use to describe what the script is, in this case, it is attached to an entity, a Custom UI gizmo.
 
-![Screenshot shows the script menu with CUI\_Test\_Entity entered in the field](../../_assets/images/f2fba28545f1391d7b74b22ffb8e835d997e0a571a12ea0e0fd1ebf6e9c4f5b9.png)
+![Screenshot shows the script menu with CUI\_Test\_Entity entered in the field](../../.assets/images/f2fba28545f1391d7b74b22ffb8e835d997e0a571a12ea0e0fd1ebf6e9c4f5b9.png)
 
 Now that you have created our first script, you can go back to the Scripts drop-down, and click the gear settings icon.
 
-![Screenshot highlights the placement of the settings icon](../../_assets/images/8eb55d7852144165cde1ba3c70f6a1b4d3d7ccd603d57afced8e321a5e092485.png)
+![Screenshot highlights the placement of the settings icon](../../.assets/images/8eb55d7852144165cde1ba3c70f6a1b4d3d7ccd603d57afced8e321a5e092485.png)
 
 From the settings menu, select the API tab on the left, enable the UI API, and click Apply.
 
-![Screenshot shows the settings menu with the UI API enabled](../../_assets/images/dab29c195303dd591d8823bfde8addb98b814e15b87a477c6d948bb7cdb87901.png)
+![Screenshot shows the settings menu with the UI API enabled](../../.assets/images/dab29c195303dd591d8823bfde8addb98b814e15b87a477c6d948bb7cdb87901.png)
 
 You are now finished setting up. In the next step, you will begin working on the base UIComponent script.
 
@@ -107,7 +107,7 @@ You are now finished setting up. In the next step, you will begin working on the
 
 1. Open your script in VS Code. From the Scripts drop-down to the right of your newly created script, click the three-dot icon. Then select “**Open in External Editor**.”
 
-*Note: If this doesn’t do anything, you will need to install VS Code, and after installing restart your computer for Horizon to be able to “Open in External Editor,” ie. VS Code.*![Screenshot shows the settings menu a mouse cursor on the 'three-dot icon'](../../_assets/images/58f6ebe7defea351ea030d1732bf79ce8866241fb77cf876788fdf036d277e2a.png)
+*Note: If this doesn’t do anything, you will need to install VS Code, and after installing restart your computer for Horizon to be able to “Open in External Editor,” ie. VS Code.*![Screenshot shows the settings menu a mouse cursor on the 'three-dot icon'](../../.assets/images/58f6ebe7defea351ea030d1732bf79ce8866241fb77cf876788fdf036d277e2a.png)
 
 1. Adjust the default script to match the base UIComponent script seen below. To do this start by deleting the import line and the two “**hz**.” You can then explicitly import Component by backspacing the “**t**” in Component, and when we retype the **T**, click “**Enter**” on your keyboard to allow VS Code to automatically write the import line seen on line 1 in the screenshot below.
 
@@ -123,7 +123,7 @@ You also need the “**initializeUI**” method, which must return a UINode, whi
 
 *Note: If you don’t click enter to autocomplete, this method and the previous “initializeUI” method, they are both case sensitive, and if misspelled will not work correctly or report an error.*
 
-![Screenshot shows an example script](../../_assets/images/6d283717c2f03f7519211a95d13004a6f0898a4158625c7336bb928d414a71f1.png) Let’s take a minute to understand how each of these lines works, and what they do.
+![Screenshot shows an example script](../../.assets/images/6d283717c2f03f7519211a95d13004a6f0898a4158625c7336bb928d414a71f1.png) Let’s take a minute to understand how each of these lines works, and what they do.
 
 **Lines 1 and 2:** The first two lines are imports, this declares what you are using in your script. If you come from a background in CodeBlocks, think of this as not having access to any CodeBlocks unless you explicitly requested them. Fortunately, these two lines are automatically written for you by VS Code.
 
@@ -157,19 +157,19 @@ Now that you understand the base script, in the next section, you are going to a
 
 To start, go back into Horizon and from the bottom of the CUI gizmo’s properties panel attach your script.
 
-![Screenshot shows an example script being attached to the gizmo properties panel](../../_assets/images/5fa8a2f4fd69c1140a04f834c1b23aa65faddb37aba2d13ca71f61003913428b.png)
+![Screenshot shows an example script being attached to the gizmo properties panel](../../.assets/images/5fa8a2f4fd69c1140a04f834c1b23aa65faddb37aba2d13ca71f61003913428b.png)
 
 In addition to creating a UINode with View, you can also do it with “Text.” Below you will see a change from “**View**” to use “**Text**,” don’t forget to click enter while typing Text, to both autocomplete and auto-import Text from the UI API.
 
 Next, add the property “ **text: ‘Hello World!’** ” inside the curly braces. You will make this look pretty in the next section, but the gist is that the Text function takes a JSON Object parameter, the curly braces, commonly thought of as a bag of stuff, and requires one property to be filled out: “text.” There are a bunch of other properties in this “bag of stuff” that can be filled out and will be explored in the next step. You can then define the text as a string using single ticks: ‘Hello World!’.
 
-![Image shows an example script with the text: 'Hello World!' property](../../_assets/images/527b91276481b665f0a6771ae6681c7093dcafbaae9c93da867f679ba1032c46.png)
+![Image shows an example script with the text: 'Hello World!' property](../../.assets/images/527b91276481b665f0a6771ae6681c7093dcafbaae9c93da867f679ba1032c46.png)
 
 With that filled out, make sure to press Ctrl+S to save, and then you can return to Horizon, and press play on our world after compilation has finished (you’ll see compilation steps detailed on the console log, which only takes a few seconds).
 
 *Note: If you don’t see anything on the UI gizmo, you may need to rotate and look at the other side. Press F to focus the UI gizmo, then Alt+Left Click to rotate around it.*
 
-![Screenshot shows a world in desktop editor displaying the 'Hello World!' message](../../_assets/images/dbb64f3599deb5dcb720cca5273f4b5f8da219cb3bf47a70521cec8a7ecf3d62.png)
+![Screenshot shows a world in desktop editor displaying the 'Hello World!' message](../../.assets/images/dbb64f3599deb5dcb720cca5273f4b5f8da219cb3bf47a70521cec8a7ecf3d62.png)
 
 And just like that you have displayed your first message on a Custom UI gizmo, great work!
 
@@ -189,33 +189,33 @@ In the style properties, you are going to add a “borderColor,” and “border
 
 *Note: borderColor can be any color you like, make sure to autocomplete Color by clicking enter so that it is also imported. you are just using a simple red here, so technically you could just use “Color.red” and get the same result. But this, “new Color(1, 0, 0),” allows you to easily customize the color later if you decide you want to keep the border. The values are in the order RGB, with values ranging from 0 to 1, where 0 is no color, and 1 is 100%.*
 
-![Image shows a sample script with the border options highlighted](../../_assets/images/eabe14d4c6d6f464aba796c1a10b68e8fcd1e7a5f7a1cdfcc3d4db788a0296b8.png)
+![Image shows a sample script with the border options highlighted](../../.assets/images/eabe14d4c6d6f464aba796c1a10b68e8fcd1e7a5f7a1cdfcc3d4db788a0296b8.png)
 
 Now pressing “ctrl+s” to save, you can go back into Horizon and wait for compilation to complete, making sure to press the world start button at the top center of our screen.
 
 You might be surprised to see that our default text box stretches across the length but not the height of the gizmo. Later you will learn how to adjust the style properties to fill a percentage of the available space.
 
-![Image shows a highlighted 'Hello World' image](../../_assets/images/0dd872862ae30b8143ef919b9f4bd9c25b713157d4ba3a28d595ce28750e7eeb.png)
+![Image shows a highlighted 'Hello World' image](../../.assets/images/0dd872862ae30b8143ef919b9f4bd9c25b713157d4ba3a28d595ce28750e7eeb.png)
 
 Before you do that though, you need to learn about children- UIChildren. UIChildren can either be a single UINode or an array of UINodes. It hasn’t been super clear, but both “Text” and “View” return UINodes. You may remember the initializeUI method must return a UINode, which you first created using View and then changed to Text. Both of these tell the UI gizmo what to render. But it only takes a single UINode. What if you want to render multiple? That is where children come in.
 
 The “View” JSON Object from earlier has a property not available on Text called “children” where you can then use square brackets to create an array. In the example below you will see several text objects nested inside the square brackets, and at the bottom the style being applied to the group of children.
 
-![Image shows an extended sample script with nested objects that have applied styles](../../_assets/images/0a99a0b64613a25471fba02d05d11d3ac584d684cc44b0b2facc34821f90edcb.png)
+![Image shows an extended sample script with nested objects that have applied styles](../../.assets/images/0a99a0b64613a25471fba02d05d11d3ac584d684cc44b0b2facc34821f90edcb.png)
 
 If you would like to continue following along, please adjust your previous initializeUI method to match the one above. This takes a bit of work, copy and paste can help, but a missing comma, or line off just slightly could cause an error. My recommendation is to move “Text” down and create a new View as seen below.
 
-![Image shows a new view after the "text" field](../../_assets/images/22c4d8adfa29f46e86d11b6468e0ae1733463b0f8a6721350ccdf5b421db6a83.png)
+![Image shows a new view after the "text" field](../../.assets/images/22c4d8adfa29f46e86d11b6468e0ae1733463b0f8a6721350ccdf5b421db6a83.png)
 
 You can then cut and paste the Text into the children’s square brackets. Make sure to convert the semicolon to a comma as seen on line 16. You can then copy and paste another copy below this to match the screenshot earlier and adjust each style to have a unique color.
 
-![Image shows text being pasted back into the sample script as per the instructions](../../_assets/images/e90671c164ea78d79e928d955cad362e1363f9bb99dedefc877d8af151543944.png)
+![Image shows text being pasted back into the sample script as per the instructions](../../.assets/images/e90671c164ea78d79e928d955cad362e1363f9bb99dedefc877d8af151543944.png)
 
 As you might imagine this can get crazy very quickly with so much nesting. There are a couple of tricks you will look at later that can help improve the readability and condense the initializeUI method down some. But first let’s see how these boxes in boxes look by saving, compiling, and starting our world.
 
 As you can see, they are stacked by default. Thinking back to our cardboard box analogy you will notice that because our width is set to 2 pixels, the red border shrinks the space available by 2 pixels. When you delete these two style lines in the future the two Text children will reclaim the space.
 
-![Screenshot shows 2 hello world messages displayed, with color borders](../../_assets/images/683bbd1bfd76651189cbf592cf4beda71171cdb585675442744fc1767ea2a770.png)
+![Screenshot shows 2 hello world messages displayed, with color borders](../../.assets/images/683bbd1bfd76651189cbf592cf4beda71171cdb585675442744fc1767ea2a770.png)
 
 In the next section, you are going to explore more of the style options and learn how to better organize our styles.
 
@@ -223,13 +223,13 @@ In the next section, you are going to explore more of the style options and lear
 
 Start by creating a new script to store various styles, **CUI\_Styles\_Data**. Press enter on your keyboard to create the script.
 
-![Image shows a user creating a CUI\_Styles\_Data script](../../_assets/images/58fda46bbf24cb05882ab35ead1bd22653aa062fb8aefddc08e0bf99d25fc93c.png)
+![Image shows a user creating a CUI\_Styles\_Data script](../../.assets/images/58fda46bbf24cb05882ab35ead1bd22653aa062fb8aefddc08e0bf99d25fc93c.png)
 
 Once you have the new script you can click the three-dot icon, “**open in external editor**.” Alternatively back in VS Code, if you click the top left files icon, it will expand and show you all of your scripts. You can click on the newly created .ts file, and optionally close the file browser.
 
 After loading the script, delete all the defaults. A shortcut to use is, “ctrl+a” to select all, and then backspace.
 
-![Image shows a script with all of the defaults deleted](../../_assets/images/47650b7b4bc88beff3098bff38f3e48b8d0bee613b44898cc6f1b290d6facae1.png)
+![Image shows a script with all of the defaults deleted](../../.assets/images/47650b7b4bc88beff3098bff38f3e48b8d0bee613b44898cc6f1b290d6facae1.png)
 
 The idea of this script is to be a place you can store and modify our styles so it doesn’t clutter our initializeUI method. You could have multiple files like this, one for each UI gizmo, but instead you can create a folder structure by nesting JSON Objects, with each nested Object storing the styles for a specific UI gizmo. You’ll see this in practice from lines 14 to 19 in the screenshot below. You start by exporting a const Object named cuiStylesData, which allows us to import this data in any of our scripts. Then inside the curly braces you have another Object on line 15 named “test” matching the name of our UI gizmo’s script.
 
@@ -239,19 +239,19 @@ Above on lines 3 and 8 you create two new constants. One is a TextStyle, this al
 
 Inside these styles you are introducing two new properties, “width,” and “height.” This allows us to specify what percentage of the available space in the parent UINode you want to occupy. You can use a number to specify pixels, but I highly encourage adopting percentages for everything except ScrollView where you can specify the amount that can be scrolled as a number in pixels.
 
-![Image shows an example style script](../../_assets/images/9816cb828feb516e055674621756595cf91c55043db32b265b183137bc9f4361.png)
+![Image shows an example style script](../../.assets/images/9816cb828feb516e055674621756595cf91c55043db32b265b183137bc9f4361.png)
 
 Back in our CUI\_Test\_Entity script, let’s apply this to our View’s style. Below borderWidth you start with an ellipses, “...” which is the spread operator, and then import our cuiStylesData Object by clicking enter as you type it out. Then when you type period at the end you get a drop-down list and can select “test.view.” What you have done is spread the contents of the ViewStyle “view” to be included in our style’s properties.
 
-![Image shows a viewstyle view for the example script](../../_assets/images/c410775786628ff4ee14645ecd29b904274064c697c3d93a64851f16da6ee660.png)
+![Image shows a viewstyle view for the example script](../../.assets/images/c410775786628ff4ee14645ecd29b904274064c697c3d93a64851f16da6ee660.png)
 
 Now you can do the same thing to our “Text” children. I recommend putting the data to be spread at the top of our style, because if you write a property that was spread above, it is overwritten by the later one below.
 
-![Image shows code as per the previous instructions](../../_assets/images/7a287893285f3dd799c76dbc1ae03d069549ec834fc5ad65be973c1b5390541b.png)
+![Image shows code as per the previous instructions](../../.assets/images/7a287893285f3dd799c76dbc1ae03d069549ec834fc5ad65be973c1b5390541b.png)
 
 Saving and compiling back in Horizon, you can now realize our dream of boxes in boxes!
 
-![Screenshot displays a world with text boxes in boxes](../../_assets/images/b51051997d81b6543550e047b14b98eeb47f7eea6e8cc040ba53a43908b3939b.png)
+![Screenshot displays a world with text boxes in boxes](../../.assets/images/b51051997d81b6543550e047b14b98eeb47f7eea6e8cc040ba53a43908b3939b.png)
 
 Next, you are going to look at bindings, which are used to update the UI.
 
@@ -265,25 +265,25 @@ Let’s start by looking at how to create a couple of bindings inside our compon
 
 *Note: You cannot access the values of these bindings elsewhere, they are just for the CUI to read, if you need access to the current value, it is recommended to have a secondary variable to store the current value.*
 
-![Image shows example bindings](../../_assets/images/e35ecb5a931dd2fd16da5b40b651da28ad1ac07f769ba8355cc0bf5b44f7f64d.png)
+![Image shows example bindings](../../.assets/images/e35ecb5a931dd2fd16da5b40b651da28ad1ac07f769ba8355cc0bf5b44f7f64d.png)
 
 When a player enters the world, you can set the **nameBinding** using .set, the second parameter “\[player]” is optional. This optional parameter allows us to specify a list of players who will receive the binding update. In this case, you only want the player who entered the world to see their name. The square brackets create an array, and you place the “player” inside. When this list parameter is not specified, it defaults to updating the bindings for all players.
 
-![Code snippet shows the optional 'player' parameter](../../_assets/images/52ec52f0f28edb3136b3a56baf9e6d769921b92d47569a44adb5eb0b801e52bb.png)
+![Code snippet shows the optional 'player' parameter](../../.assets/images/52ec52f0f28edb3136b3a56baf9e6d769921b92d47569a44adb5eb0b801e52bb.png)
 
 To use this binding you just have to place it after the text property, ie: “**text: this.nameBinding**,” but then you would just have their name, for additional text, you can use derive. Below you can see that when you derive the binding, you get the name and using an arrow function, you can return a string.
 
 *Note: “\n” is a line break and is the same as “`<br>`” on a Text Gizmo.*
 
-![Code snippet shows an arrow function used to return a string as described previously](../../_assets/images/b9e9627c65fe6bc99d5af63df110ff5c76b09905f6d11d62d9d0f3b56c39d13c.png)
+![Code snippet shows an arrow function used to return a string as described previously](../../.assets/images/b9e9627c65fe6bc99d5af63df110ff5c76b09905f6d11d62d9d0f3b56c39d13c.png)
 
 There is also .reset(), which “resets the player-specific value of the binding, if any, back to the global value.” You can also provide an array of players if you just want to reset some players.
 
-![Code snippet shows .reset() being used](../../_assets/images/0aa7e076b9932f63dce9424f0547f4019bbe4ec20ea8a9077bfb118677017bd3.png)
+![Code snippet shows .reset() being used](../../.assets/images/0aa7e076b9932f63dce9424f0547f4019bbe4ec20ea8a9077bfb118677017bd3.png)
 
 You can also use a map function to set the value of a binding, here is a screenshot of the example given here: [https://developers.meta.com/horizon-worlds/learn/documentation/desktop-editor/custom-ui/playerspecific-custom-ui](../../Desktop%20editor/Custom%20UI/Player-Specific%20Custom%20UI.md)
 
-![Image shows bindings for multiple players](../../_assets/images/1b27b2746e471a9638c2ed69e4f2d2aeeeea0822a27627e62f8f93496d45013a.png)
+![Image shows bindings for multiple players](../../.assets/images/1b27b2746e471a9638c2ed69e4f2d2aeeeea0822a27627e62f8f93496d45013a.png)
 
 Next, you are going to look at and discuss various examples that you’ll be able to take apart and try on your own.
 
@@ -293,13 +293,13 @@ In this example, you display an image png asset, which is uploaded to your asset
 
 \*\*Mentor’s Note:\*\**I don’t like to use the “!” seen on line 13, but it is the easiest way to get this setup and working, otherwise you have to use an image binding and check that the bgImage is not undefined. Be aware that doing it this way will break if your asset is not referenced on the properties panel.*
 
-![Image shows code snippet for including a background image](../../_assets/images/aac6bc12b73f2474063bc60864cf33ad9a0b8361e54ce4d143ddd04d27597e93.png)
+![Image shows code snippet for including a background image](../../.assets/images/aac6bc12b73f2474063bc60864cf33ad9a0b8361e54ce4d143ddd04d27597e93.png)
 
 ## [Instruction Board Example](#instruction-board-example)
 
 This example shows how you can have multiple images, and when a user presses back or next buttons it changes to the next image.
 
-![Image shows code snippet for an instruction board](../../_assets/images/13a08944e8dd9252fc40f43c71000857938452e45f519479a82da2619218590d.png)
+![Image shows code snippet for an instruction board](../../.assets/images/13a08944e8dd9252fc40f43c71000857938452e45f519479a82da2619218590d.png)
 
 ## [ScrollView Example](#scrollview-example)
 
@@ -307,7 +307,7 @@ This example shows how to implement a ScrollView. It is relatively simple. Most 
 
 *Note: At the time of writing you may need to go into VR to see it work, or preview the build on XS before it will start working in the Desktop editor. So if it doesn’t seem to work at first don’t worry, just try it from another device.*
 
-![Image shows code snippet for implementing the scrollview](../../_assets/images/e1e0265946c322314e7e9864c9cee7ea813ef5199cf95de6e7edd2d190b6746d.png)
+![Image shows code snippet for implementing the scrollview](../../.assets/images/e1e0265946c322314e7e9864c9cee7ea813ef5199cf95de6e7edd2d190b6746d.png)
 
 ## [Thank You!](#thank-you)
 

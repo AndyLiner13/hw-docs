@@ -146,5 +146,5 @@ I wanted to find a way to take the fun in that game and bring it to VR. At first
 
 For any questions or further assistance, creators are encouraged to join the discussion on the Discord server or to schedule a mentor session for personalized guidance.
 
-For a hands-on walkthrough, you can follow along with the recorded workshop session here: <video controls></video><source src="../../_assets/videos/023f524a0388c4a75dcf5ce4cf9cec709466beaae3c317cd74b5e98b605c46c1.mp4" type="video/mp4">
+For a hands-on walkthrough, you can follow along with the recorded workshop session here: <video controls></video><source src="../../.assets/videos/023f524a0388c4a75dcf5ce4cf9cec709466beaae3c317cd74b5e98b605c46c1.mp4" type="video/mp4">
 

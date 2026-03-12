@@ -35,7 +35,7 @@ This tutorial world also includes the following mini-systems as a bonus.
 
 Throughout the world, you can see posters like the following:
 
-![Yellow Post-It used for instructions](../../../_assets/images/17e51c984a741d4e0c2a2ebd31840a835e3c30b4c6988a1b9a0767c17657df50.png)
+![Yellow Post-It used for instructions](../../../.assets/images/17e51c984a741d4e0c2a2ebd31840a835e3c30b4c6988a1b9a0767c17657df50.png)
 
 In the Hierarchy panel, all of these posters are grouped under the Instructions node. Each interface includes:
 

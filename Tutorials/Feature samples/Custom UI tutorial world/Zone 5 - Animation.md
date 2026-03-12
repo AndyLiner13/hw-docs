@@ -10,7 +10,7 @@ This zone showcases animated Custom UI elements that provide dynamic visual feed
 
 This example of animation is a simple spinning image of an hourglass. Start and stop the spinning with a network event. You can change the image from an hourglass to any image asset as well as change the speed of the spin from the properties panel or through function calls.
 
-![Hourglass Spinner](../../../_assets/images/ebfbd19276ecec2ab9fc49dc6f658ef783f90bdf0f1e9a02dc0b7fd7af9aa195.png)
+![Hourglass Spinner](../../../.assets/images/ebfbd19276ecec2ab9fc49dc6f658ef783f90bdf0f1e9a02dc0b7fd7af9aa195.png)
 
 ### [Primary Script(s)](#primary-scripts)
 
@@ -35,14 +35,14 @@ These helper components are designed to be placed in the world to trigger the sp
 
 - StartTrigger
 
-![StartTrigger](../../../_assets/images/6f8dee95e14485c1c079a920d92f11a118ab6a6428c5093b4c4d016dcac41205.png)
+![StartTrigger](../../../.assets/images/6f8dee95e14485c1c079a920d92f11a118ab6a6428c5093b4c4d016dcac41205.png)
 
 - Uses connectCodeBlock event `onPlayerEnterTrigger` to listen for a player entering its trigger volume. When this happens, it sends a StartSpinner network event, passing the configured spinner\_CUI’s entity ID and RPM.
 - `spinner_CUI` must be linked to the configured Custom UI gizmo.
 - You can override the spinner’s RPM here by setting an RPM value or leave as 0 to use the RPM in the properties of the spinner’s Custom Ui gizmo.
 - StopTrigger
 
-![StopTrigger](../../../_assets/images/723ffe7e1dd013b215537578ee5817f22ac51c333adf1166117817c976f90d59.png)
+![StopTrigger](../../../.assets/images/723ffe7e1dd013b215537578ee5817f22ac51c333adf1166117817c976f90d59.png)
 
 - Similar to StartTrigger, it sends a StopTrigger network event when a player enters its trigger volume.
 - ShowTrigger
@@ -54,7 +54,7 @@ These helper components are designed to be placed in the world to trigger the sp
 
 This animated Custom UI combines a timer with a spinner. A common use for this is displaying the time for short gameplay functions that do not require player input such as the time for a plant to sprout or an ability to finish its cooldown.
 
-![Spinner With Timer](../../../_assets/images/069a9b187af5dff43bbddd068494a6517ddb28b3777f47bdf300e20069f80323.png)
+![Spinner With Timer](../../../.assets/images/069a9b187af5dff43bbddd068494a6517ddb28b3777f47bdf300e20069f80323.png)
 
 ### [Primary Script(s)](#primary-scripts-1)
 
@@ -85,21 +85,21 @@ These helper components are designed to be placed in the world to trigger the ti
 
 - StartTimerTrigger
 
-![StartTimerTrigger](../../../_assets/images/5e56fc70d90349322fe0c96d97a3d04125bc9d6ebc194489dca57578e7f4658c.png)
+![StartTimerTrigger](../../../.assets/images/5e56fc70d90349322fe0c96d97a3d04125bc9d6ebc194489dca57578e7f4658c.png)
 
 - Uses connectCodeBlock event `onPlayerEnterTrigger` to listen for a player entering its trigger volume. When this happens, it sends a StartTimer network event, passing the configured timeSpinner\_CUI’s entity ID, and timeLimit.
 - timeSpinner\_CUI must be linked to the configured Custom UI gizmo.
 - You can override the timeSpinner’s timeLimit here by setting a timeLimit value, or leave as 0 to use the timeLimit in the properties of the timeSpinner’s Custom UI gizmo.
 - StartCountdownTrigger
 
-![StartCountdownTrigger](../../../_assets/images/23a4877afc4e81a4747e3d75b380511e6b2072dfe8889bb9fb374ae11a0c21a7.png)
+![StartCountdownTrigger](../../../.assets/images/23a4877afc4e81a4747e3d75b380511e6b2072dfe8889bb9fb374ae11a0c21a7.png)
 
 - Uses connectCodeBlock event `onPlayerEnterTrigger` to listen for a player entering its trigger volume. When this happens, it sends a StartCountdown network event, passing the configured `timeSpinner_CUI`’s entity ID and timeLimit.
 - `timeSpinner_CUI` must be linked to the configured Custom UI gizmo.
 - You can override the timeSpinner’s timeLimit here by setting a timeLimit value, or leave as 0 to use the timeLimit in the properties of the timeSpinner’s Custom UI gizmo.
 - StopTrigger
 
-![StopTrigger](../../../_assets/images/d6cae2b620ff0f0c61f5955556e427eb135f1cf4846473deed6b91a5bd4a8c6c.png)
+![StopTrigger](../../../.assets/images/d6cae2b620ff0f0c61f5955556e427eb135f1cf4846473deed6b91a5bd4a8c6c.png)
 
 - Similar to StartTrigger, it sends a StopTrigger network event when a player enters its trigger volume. This is used for both timer mode and countdown mode
 
@@ -115,7 +115,7 @@ Because the text scrolls horizontally along the banner, the message can be longe
 
 ### [Properties](#properties-2)
 
-![SlidingBanner Properties](../../../_assets/images/d6439bdbed63b2aca2c2741142880bc01c96e1a1444689806d4a904f729f8da6.png)
+![SlidingBanner Properties](../../../.assets/images/d6439bdbed63b2aca2c2741142880bc01c96e1a1444689806d4a904f729f8da6.png)
 
 The component’s configurable properties are defined in static propsDefinition:
 
@@ -142,14 +142,14 @@ These helper components are designed to be placed in the world to trigger the ba
 
 - StartTrigger
 
-![StartTrigger](../../../_assets/images/6a1832f0b84322e1edd8d4c07defa3f605ec94b667cbf3d57cc876df6ee2a5ee.png)
+![StartTrigger](../../../.assets/images/6a1832f0b84322e1edd8d4c07defa3f605ec94b667cbf3d57cc876df6ee2a5ee.png)
 
 - Uses connectCodeBlock event `onPlayerEnterTrigger` to listen for a player entering its trigger volume. When this happens, it sends a StartBanner network event, passing the configured `banner_CUI`’s entity ID, a message, and a duration.
 - banner\_CUI must be linked to the configured Custom UI gizmo.
 - You can override the sliding banner’s message or duration by setting a new message or duration. Leave this blank to use the message or duration in the properties of the sliding banner’s Custom UI gizmo.
 - StopTrigger
 
-![StopTrigger](../../../_assets/images/56033bc97f91ef6393f4220b10d8d0848e9d2d70b98b62d37b2f0ba594bec196.png)
+![StopTrigger](../../../.assets/images/56033bc97f91ef6393f4220b10d8d0848e9d2d70b98b62d37b2f0ba594bec196.png)
 
 - Similar to StartTrigger, it sends a StopBanner network event when a player enters its trigger volume.
 

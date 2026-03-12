@@ -103,14 +103,14 @@ Select **Scripts \*\*from the top menu bar, then click the options icon. Select 
 
 After verifying that the **horizon/navmesh** API is enabled, you can begin building navigation for your NPCs.
 
-![Horizon navmesh](../../../_assets/images/8ac1b76074e14a9279c34e8e66c3abcfa25968e8f8d20708803071050bef9cf6.png)
+![Horizon navmesh](../../../.assets/images/8ac1b76074e14a9279c34e8e66c3abcfa25968e8f8d20708803071050bef9cf6.png)
 
 ### [Build a navigation profile](#build-a-navigation-profile)
 
 Use the following process to setup and generate nav meshes that can be accessed with the NavMesh API:
 
 1. In the **Systems** menu, click **Navigation** to open the **Navigation Profiles** menu. This menu lists any navigation profiles defined for your world and allows you to create new ones.
-2. Click the **+** button to begin creating a new profile. ![Create profile](../../../_assets/images/c13da812831bcff5b0b9794cfd5e8a1c95dab1b99eaebe1ea72b83e494c8fe4b.png)
+2. Click the **+** button to begin creating a new profile. ![Create profile](../../../.assets/images/c13da812831bcff5b0b9794cfd5e8a1c95dab1b99eaebe1ea72b83e494c8fe4b.png)
 3. In the **Navigation Profiles** window, click the **Create Profile** button to begin creating a new agent profile. The agent profile options are as follows:
 
 | Property     | Description                                                                                                                                                                                                                                                                                                                                         |
@@ -120,7 +120,7 @@ Use the following process to setup and generate nav meshes that can be accessed 
 | Agent Slope  | How steep a slope an NPC can walk up.                                                                                                                                                                                                                                                                                                               |
 | Step Height  | How high an obstacle needs to be before it will block the NPC. For example, a small stone would be easy for the Android to step over and a bigger rock might be more difficult or might actually obstruct their path. These properties could be different for the Android as opposed to the Chicken. It would be able to step over a smaller stone. |
 
-1. Once finished click **Create** to create and save your profile. Your created profile will be added to the **Navigation profiles** window. ![Navigation profiles window](../../../_assets/images/6d19ad54399c97a28cdfec56b063296d2de86fa52db3b0b74b45569fcb078d6a.png)
+1. Once finished click **Create** to create and save your profile. Your created profile will be added to the **Navigation profiles** window. ![Navigation profiles window](../../../.assets/images/6d19ad54399c97a28cdfec56b063296d2de86fa52db3b0b74b45569fcb078d6a.png)
 
 ### [Add navigation volume for NPCs](#add-navigation-volume-for-npcs)
 
@@ -128,9 +128,9 @@ After creating a profile, you can add the **Navigation volume** gizmo to your wo
 
 To do so use the following process:
 
-1. After adding an NPC to your world and choosing its embodiment, select the dropdown arrow in the **Navigation** portion of the tool bar. In the menu, select **Navigation volume**. The Navigation volume will be used in order to determine what areas are navigable by the NPC. So you want to stretch this box out to cover the entire floor of what you want to be navigable. ![Navigation volume gizmo](../../../_assets/images/24c4431501489e2d8a2dabbc1c8b15088159fcdaf629dfc4dbae400038b0255c.png)
-2. Once your navigation volume is added and you can configure the **Volume Type** which controls whether it is an **Inclusion** or **Exclusion** navigation volume. Setting the volume to **Exclusion** cuts the covered area out from any generated navigation mesh. ![Navigation volume settings](../../../_assets/images/dfbc695a1c017bec82a7c67f2bd070cddd7b5488dd7e8b817a84a9313badf055.png) Exclusion is useful for in-world assets that shouldn’t affect NPC navigation like doors.
-3. Next, set what the created navigation volume applies to. Use **Navigation Profile** and select a created navigation profile or set to **All** to apply to all entities. ![Navigation profile](../../../_assets/images/59139c65e4e8ab798b713f6a98dfc2a04761a17f90d98579310fae0d1387dc5e.png)
+1. After adding an NPC to your world and choosing its embodiment, select the dropdown arrow in the **Navigation** portion of the tool bar. In the menu, select **Navigation volume**. The Navigation volume will be used in order to determine what areas are navigable by the NPC. So you want to stretch this box out to cover the entire floor of what you want to be navigable. ![Navigation volume gizmo](../../../.assets/images/24c4431501489e2d8a2dabbc1c8b15088159fcdaf629dfc4dbae400038b0255c.png)
+2. Once your navigation volume is added and you can configure the **Volume Type** which controls whether it is an **Inclusion** or **Exclusion** navigation volume. Setting the volume to **Exclusion** cuts the covered area out from any generated navigation mesh. ![Navigation volume settings](../../../.assets/images/dfbc695a1c017bec82a7c67f2bd070cddd7b5488dd7e8b817a84a9313badf055.png) Exclusion is useful for in-world assets that shouldn’t affect NPC navigation like doors.
+3. Next, set what the created navigation volume applies to. Use **Navigation Profile** and select a created navigation profile or set to **All** to apply to all entities. ![Navigation profile](../../../.assets/images/59139c65e4e8ab798b713f6a98dfc2a04761a17f90d98579310fae0d1387dc5e.png)
 
 ### [Build the navigation meshes](#build-the-navigation-meshes)
 
@@ -138,7 +138,7 @@ Once you have created and defined profiles and navigation volume gizmos for your
 
 Navigate to **Systems > Navigation** and select **Bake All**.
 
-![Bake All](../../../_assets/images/8b4dbc39ca1c244f41f2781c4e33f9c7c22188c9faa5ad4039fba0e6262c82ca.png)
+![Bake All](../../../.assets/images/8b4dbc39ca1c244f41f2781c4e33f9c7c22188c9faa5ad4039fba0e6262c82ca.png)
 
 After selecting **Bake All** you should see the navigation meshes built for your world. If it appears that nothing happened when building the navigation mesh, you likely need to enable the in-editor previews. Hover over each profile and ensure the visibility indicator is set to 👁 by clicking the relevant button.
 

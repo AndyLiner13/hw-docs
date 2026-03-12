@@ -9,7 +9,7 @@ The World Settings Modification feature in the Desktop Editor has the same capab
 ## [Opening the world settings panel](#opening-the-world-settings-panel)
 
 1. Click the “Publish” button in the top right corner in the toolbar.
-2. A modal dialog with all of the available world settings will appear. ![Screenshot shows the desktop editor](../../_assets/images/a1f7cb1f7d25d4c0fee48a38a0f11fca717052698ebafdfc9096e43769c88254.png)
+2. A modal dialog with all of the available world settings will appear. ![Screenshot shows the desktop editor](../../.assets/images/a1f7cb1f7d25d4c0fee48a38a0f11fca717052698ebafdfc9096e43769c88254.png)
 
 ## [Changing world settings](#changing-world-settings)
 
@@ -45,7 +45,7 @@ When you’re done, click **Publish** to save and publish your world.
 1. Open the **World Settings** panel to modify the settings you want to change.
 2. Click **Publish** when finished. The settings you modified will be saved and your world will be published.
 
-![Screenshot shows the desktop editor](../../_assets/images/114be9aaa51f2d9da375fbdbfc001b45070ca0d6b140ec6cc3126d80ac034b7d.png)
+![Screenshot shows the desktop editor](../../.assets/images/114be9aaa51f2d9da375fbdbfc001b45070ca0d6b140ec6cc3126d80ac034b7d.png)
 
 ## [Unpublishing a world](#unpublishing-a-world)
 
@@ -53,5 +53,5 @@ When you’re done, click **Publish** to save and publish your world.
 2. If a world has been published, then an **Unpublish** button will be displayed near the bottom right corner of the panel.
 3. Click **Unpublish**. After a short delay, the world will be removed and unpublished.
 
-![Screenshot shows the desktop editor](../../_assets/images/fd21f5d90baa9210acc434bb0a787029705388676b84191b95f3fd1676fb5813.png)
+![Screenshot shows the desktop editor](../../.assets/images/fd21f5d90baa9210acc434bb0a787029705388676b84191b95f3fd1676fb5813.png)
 

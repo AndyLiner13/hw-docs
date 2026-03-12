@@ -8,11 +8,11 @@ When you create your world, there are helpful development tools for [debugging a
 
 The following image shows the [debug console](../Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md) gizmo while you have the headset on, providing an immersive debugging experience. As shown, the **Start world**, **Stop world**, and **Rest world** buttons control the executing states of the scripts.
 
-![Debug console gizmo showing debug messages in-world console](../_assets/images/c457bb00d8ccdaef046ddc22ed5bc8a5a22ef601851e383ca724e643d6dc2671.png)
+![Debug console gizmo showing debug messages in-world console](../.assets/images/c457bb00d8ccdaef046ddc22ed5bc8a5a22ef601851e383ca724e643d6dc2671.png)
 
 The following image shows the debug console gizmo while you are using the desktop editor without the headset. The log messages are also displayed under the desktop editor **Console** tab.
 
-![Debug console gizmo showing debug messages in the desktop editor console](../_assets/images/68ea0fc2f699c2a3f1ee8c983962a8b59847f28fadf682dd23b52e52f0ecc9b5.png)
+![Debug console gizmo showing debug messages in the desktop editor console](../.assets/images/68ea0fc2f699c2a3f1ee8c983962a8b59847f28fadf682dd23b52e52f0ecc9b5.png)
 
 The following sections show you how to access and configure the gizmos so you can start debugging in VR.
 
@@ -29,7 +29,7 @@ All objects in a world are represented by [entities](../Reference/core/Classes/E
 
 The visibility of the debug console is configured under [**Visibility**](../Scripting/Get%20started%20with%20TypeScript/The%20Debug%20Console.md#controlling-visibility-of-the-debug-console). The options are **Edit Mode Only**, [**Edit and Preview Mode**](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md) , or [**In Published World**](../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial%2C%20part%201.md#section-4-play-in-your-world-on-mobile). Be aware that the gizmo is only visible in the Build mode when **Visibility** is in the default **Edit Mode Only**.
 
-![Debug console gizmo's visibility options](../_assets/images/5a3c11c270e7bba1567c11dc36f9c746353275c8b0af935fc86d337478b32190.png)
+![Debug console gizmo's visibility options](../.assets/images/5a3c11c270e7bba1567c11dc36f9c746353275c8b0af935fc86d337478b32190.png)
 
 **Note**: The Edit Mode that the Properties panel refers to is also known as the [Build mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md). See also the [Build mode](../VR%20tools/Getting%20started/Use%20your%20controllers%20in%20Build%20Mode%20of%20Meta%20Horizon%20Worlds.md) in VR.
 

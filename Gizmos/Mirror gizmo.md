@@ -72,7 +72,7 @@ For example, to resize the mirror, you can resize the mirror by changing the **S
 
 The following shows you how to configure the gizmo’s properties in VR.
 
-![](../_assets/gifs/573ab3f3ba7db748f3527a822115e38526deb3a21017baf390d961e070fc38bc.gif)
+![](../.assets/gifs/573ab3f3ba7db748f3527a822115e38526deb3a21017baf390d961e070fc38bc.gif)
 
 ## [Take photos and edit your avatar](#take-photos-and-edit-your-avatar)
 
@@ -80,11 +80,11 @@ After placing the gizmo in your world and configuring the properties, you can ta
 
 The following shows you how to take a photo.
 
-![](../_assets/gifs/c4304c25c0297767d50cd3b1702abba4f015471eb912bdff56e9475b0d2d3428.gif)
+![](../.assets/gifs/c4304c25c0297767d50cd3b1702abba4f015471eb912bdff56e9475b0d2d3428.gif)
 
 The following shows you how to edit your avatar.
 
-![](../_assets/gifs/24916c3c5ab05e191351c3372cd0c14ee1637d722e8f83c0a80dc2729fd4ef6a.gif)
+![](../.assets/gifs/24916c3c5ab05e191351c3372cd0c14ee1637d722e8f83c0a80dc2729fd4ef6a.gif)
 
 ## [What’s next?](#whats-next)
 

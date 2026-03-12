@@ -32,5 +32,5 @@ To enable players to equip avatar clothing items, items will need to be created 
 
 These elements are used to detect player interaction and apply the corresponding SKU (item ID) to the player’s avatar.
 
-![Clothing Creation Page](../../../_assets/images/62ef1abebb392c33b6843ef487481639638cb461e5778fcab87318b031b96b2c.png)
+![Clothing Creation Page](../../../.assets/images/62ef1abebb392c33b6843ef487481639638cb461e5778fcab87318b031b96b2c.png)
 
