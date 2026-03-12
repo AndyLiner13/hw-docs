@@ -103,8 +103,8 @@ After successfully installing Git on your machine, no additional steps are requi
 
 Visual Studio Code provides easy integration of Source Control in your TypeScript projects. To initialize a repository simply follow the steps below:
 
-1. In Visual Code Studio, navigate to the “View” menu. From there, select the “Source Control” option to begin the process. ![](../../.assets/images/1379c4a2d60255000073d923914caed097ec6016f407125ef97c24290efb332b.png)
-2. Once in the “Source Control” tab, click on the “Initialize Repository” button. Git will then detect all files in your project and display them for your review. You can then stage the files you want to include in your repository by selecting them. Staging files prepares them for commitment to your backup or source control repository. ![](../../.assets/images/d4eb7e9389e5c637136d297be465328cd321b2365033941c36d6dafc81dfaa05.png)![](../../.assets/images/4be51f793c1c227d97336073634774589fed17ee88cb7e4bf6657ecd1555c15a.png)
+1. In Visual Code Studio, navigate to the “View” menu. From there, select the “Source Control” option to begin the process. ![](../../.assets/image/1379c4a2d60255000073d923914caed097ec6016f407125ef97c24290efb332b.png)
+2. Once in the “Source Control” tab, click on the “Initialize Repository” button. Git will then detect all files in your project and display them for your review. You can then stage the files you want to include in your repository by selecting them. Staging files prepares them for commitment to your backup or source control repository. ![](../../.assets/image/d4eb7e9389e5c637136d297be465328cd321b2365033941c36d6dafc81dfaa05.png)![](../../.assets/image/4be51f793c1c227d97336073634774589fed17ee88cb7e4bf6657ecd1555c15a.png)
 
 ## [Staging a Change](#staging-a-change)
 
@@ -116,11 +116,11 @@ To stage a change in Visual Studio Code, click on the plus (+) sign next to the 
 
 You can repeat this process for each file individually, or if you want to stage all files within the repository at once, you can click on the plus (+) sign next to the header that says “Changes.” This will move all files to the “Staged Changes” section of the panel.
 
-![](../../.assets/images/43c502d5d3a417b9403883043195279807cd65e4ee0db75d451dd8216b3a34ea.png)![](../../.assets/images/f393f6a0aea302f5d0c6bd8b409c6ea02822e2e22dd791848504d11a9081e8a2.png)
+![](../../.assets/image/43c502d5d3a417b9403883043195279807cd65e4ee0db75d451dd8216b3a34ea.png)![](../../.assets/image/f393f6a0aea302f5d0c6bd8b409c6ea02822e2e22dd791848504d11a9081e8a2.png)
 
 To remove the files from the staging state, select the subtraction (-) symbol next to the name of the files that you don’t want to stage. This will move the file back to the “Changes” section of the panel.
 
-![](../../.assets/images/e369a584a0748d0ad7776b7996ce4ed7ccce2c1034e9a635dd209ad6f43d8b9e.png)
+![](../../.assets/image/e369a584a0748d0ad7776b7996ce4ed7ccce2c1034e9a635dd209ad6f43d8b9e.png)
 
 ## [Committing a Change](#committing-a-change)
 
@@ -130,7 +130,7 @@ When you commit a change in source control, you’re saving the changes you’ve
 
 To commit a change in Visual Studio Code, enter a brief description of the changes that you are saving in the field that says “Message” above the “Commit” button. Then, select “Commit” to save the changes.
 
-![](../../.assets/images/674fffbbde313ed4291a3f11433b72555ac370779024aef13c8922070f70b17c.png)
+![](../../.assets/image/674fffbbde313ed4291a3f11433b72555ac370779024aef13c8922070f70b17c.png)
 
 ## [Comparing and Restoring Versions](#comparing-and-restoring-versions)
 
@@ -140,7 +140,7 @@ The importance of source control is the ability to revert to a prior state of yo
 
 Go to the “View” menu and select “Explorer,” or click the icon that looks like a sheet of paper on the left side of the panel.
 
-![](../../.assets/images/e759ae350008e6f3a7b88092daf7fbd725619c22af539414a53d271c374a3af6.png)
+![](../../.assets/image/e759ae350008e6f3a7b88092daf7fbd725619c22af539414a53d271c374a3af6.png)
 
 ## [Comparing Versions](#comparing-versions)
 
@@ -151,7 +151,7 @@ To compare a file to a previous version in Visual Studio Code (VSC), follow thes
 3. Each commit is displayed with its associated comment, helping you identify specific versions.
 4. When you select a checkpoint, VSC displays the changes made at that point. Additions to the code are highlighted in green, while deletions are marked in red.
 
-![](../../.assets/images/97cbd28ed1e5c0e8375a27e2d5f36dadcc4d88d55a0382524322425922ac304d.png)
+![](../../.assets/image/97cbd28ed1e5c0e8375a27e2d5f36dadcc4d88d55a0382524322425922ac304d.png)
 
 ## [Restoring Versions](#restoring-versions)
 

@@ -8,7 +8,7 @@ The dynamic light [gizmo](About%20gizmos.md) allows creators to add dynamic ligh
 
 The following image is taken from the [tutorial world](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md) called [Economy world](../Tutorials/Feature%20samples/Economy%20world%20tutorial/Module%203%20-%20Configuring%20Gameplay%20Entities.md) where the dynamic light gizmos are at work. The dynamic light is used to draw attention to the apple.
 
-![An screenshot of the dynamic light gizmo at work](../.assets/images/020b7b61a13bd30270afff6da51fc5c8a28bd311cb08868bdfd4c4100b11127a.png)
+![An screenshot of the dynamic light gizmo at work](../.assets/image/020b7b61a13bd30270afff6da51fc5c8a28bd311cb08868bdfd4c4100b11127a.png)
 
 ## [Limitations](#limitations)
 

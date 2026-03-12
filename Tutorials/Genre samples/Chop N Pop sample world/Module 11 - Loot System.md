@@ -14,7 +14,7 @@ In Chop ‘N Pop: Graveyard Bash, there are two types of loot:
 - **Ammo**: The gun weapon uses a finite number of shots in each clip. Part of the gameplay is to find and pick up ammo clips and then to reload the gun when it is empty.
 - **Potion**: Monster attacks do damage to a player’s hit points. Finding and collecting a potion raises a player’s hit points back toward normal.
 
-![Image of loot examples](../../../.assets/images/6e09ed669f4fd7c0cfe7bb2d0a1c07e5e75e6f3f4ee3314c659caeda3fcda143.png)
+![Image of loot examples](../../../.assets/image/6e09ed669f4fd7c0cfe7bb2d0a1c07e5e75e6f3f4ee3314c659caeda3fcda143.png)
 
 The loot system manages these sets of physical entities in the world as separate pools of objects and references. The system must manage:
 

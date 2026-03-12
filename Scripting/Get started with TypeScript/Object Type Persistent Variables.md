@@ -27,8 +27,8 @@ In the past, number-type persistent variables were only capable of using simple 
 
 You can find persistent variables by looking under **Variable Groups** in the **Systems** menu of the CUI tool. When you create a new variable within a variable group, you’ll see an option to choose the **Number**, or the **Object** type.
 
-1. Access **Persistent Variables** in a **Variables Group** . ![](../../.assets/images/153c023cc99acc2bbeacc7fbc53c33056070797f5737f2ef5e553e98e532cbcc.png)
-2. To configure a variable, specify either **Object** or **Number**: ![](../../.assets/images/55e300192a7bb808724119d3edd4a4ca1e5d1e4f6ce9699c2db44e047f7475a4.png)
+1. Access **Persistent Variables** in a **Variables Group** . ![](../../.assets/image/153c023cc99acc2bbeacc7fbc53c33056070797f5737f2ef5e553e98e532cbcc.png)
+2. To configure a variable, specify either **Object** or **Number**: ![](../../.assets/image/55e300192a7bb808724119d3edd4a4ca1e5d1e4f6ce9699c2db44e047f7475a4.png)
 
 ## [Accessing variables from TypeScript](#accessing-variables-from-typescript)
 

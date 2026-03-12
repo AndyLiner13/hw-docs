@@ -10,7 +10,7 @@ When creating an NPC there are two embodiment options to choose from: **None** a
 
 While **None** AI embodied and **Horizon Avatar** both leverage the core NPC Gizmo as their foundation, they provide distinct functionalities and use cases for populating your virtual world with interactive characters. The choice between them depends on whether or not you want to attach the NPC gizmo to an entity in your world, or make use of a Horizon Avatar as an NPC character.
 
-![Horizon Avatar and None embodied NPC](../../../.assets/images/7221ce73092f1a25f3c6804c6321a966cb1fdef33e8cd0aeba3633eda746797b.png)
+![Horizon Avatar and None embodied NPC](../../../.assets/image/7221ce73092f1a25f3c6804c6321a966cb1fdef33e8cd0aeba3633eda746797b.png)
 
 ## [Non-AI Embodied NPCs](#non-ai-embodied-npcs)
 

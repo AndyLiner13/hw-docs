@@ -10,35 +10,35 @@ The following topics explain some of the basics about using TypeScript in Meta H
 
 1. Open the desktop editor and click **Scripts**.
 
-   ![The Scripts Panel dropdown](../../.assets/images/3476d2ff608a1782c51a5c923624dc134d64f3e65325e188cf9a942a0350fc0a.png)
+   ![The Scripts Panel dropdown](../../.assets/image/3476d2ff608a1782c51a5c923624dc134d64f3e65325e188cf9a942a0350fc0a.png)
 
 2. Click **Create new script**.
 
    **Note**: This button is only visible if you have no scripts created for this world.
 
-   ![Scripts panel showing no scripts](../../.assets/images/07238b4df10e7c9669b65e7dbe733e610f04a6bd15b498e1c9091884e1250bcf.png)
+   ![Scripts panel showing no scripts](../../.assets/image/07238b4df10e7c9669b65e7dbe733e610f04a6bd15b498e1c9091884e1250bcf.png)
 
    If you already have scripts created, you can click the **Create new script** icon to create a new script.
 
-   ![The Create New Script icon in the Scripts panel](../../.assets/images/db1cfe5ffa769f1a4509831e40854a5e8d4d3fe7070a4690fc75df390fc65065.png)
+   ![The Create New Script icon in the Scripts panel](../../.assets/image/db1cfe5ffa769f1a4509831e40854a5e8d4d3fe7070a4690fc75df390fc65065.png)
 
 3. Enter a name for your new script.
 
-   ![Input field for script names](../../.assets/images/3d3331a35f72a784805d3bed09d6c1463f73c9f3697a8ff3c7d9fa22e28e5449.png)
+   ![Input field for script names](../../.assets/image/3d3331a35f72a784805d3bed09d6c1463f73c9f3697a8ff3c7d9fa22e28e5449.png)
 
    The new script will appear in the scripts list, first with the action **compiling** next to it, and then **compiled**.
 
 4. Hover over your script item, and click the menu button.
 
-   ![A vertical ellipsis menu next to the script](../../.assets/images/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
+   ![A vertical ellipsis menu next to the script](../../.assets/image/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
 
 5. Select **Open in External Editor**.
 
-   ![Opening the External Editor](../../.assets/images/c41653dd27170be721aca8ef3227e44a3ef95567221d8e3884c05c64ef9899a7.png)
+   ![Opening the External Editor](../../.assets/image/c41653dd27170be721aca8ef3227e44a3ef95567221d8e3884c05c64ef9899a7.png)
 
 6. Write your script in your external editor.
 
-   ![A new script](../../.assets/images/0f144fd6bcdb3387ffcbec069ef48a181ad51276103e8dbd62289ea59560a193.png)
+   ![A new script](../../.assets/image/0f144fd6bcdb3387ffcbec069ef48a181ad51276103e8dbd62289ea59560a193.png)
 
    When VS Code opens, your new script is ready for writing. It will automatically include a default class definition and multiple statements.
 
@@ -50,17 +50,17 @@ The following topics explain some of the basics about using TypeScript in Meta H
 
 2. Hover over the script file, and click the menu button.
 
-   ![A vertical ellipsis menu next to the script](../../.assets/images/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
+   ![A vertical ellipsis menu next to the script](../../.assets/image/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
 
 3. Select **Open in External Editor**.
 
-   ![Opening the External Editor](../../.assets/images/c41653dd27170be721aca8ef3227e44a3ef95567221d8e3884c05c64ef9899a7.png)
+   ![Opening the External Editor](../../.assets/image/c41653dd27170be721aca8ef3227e44a3ef95567221d8e3884c05c64ef9899a7.png)
 
 4. Make your changes and save the file in your external editor.
 
 Once your changes have been made and saved in your external editor, the desktop editor will attempt to compile them. If there are errors in your script, the compiling will not be successful and the script will display a red warning symbol:
 
-![An error symbol next to a flawed script](../../.assets/images/af0f3c5b0af6fcdc1a49706135dd562e5024eb672b3eac33884007bf404eea9a.png)
+![An error symbol next to a flawed script](../../.assets/image/af0f3c5b0af6fcdc1a49706135dd562e5024eb672b3eac33884007bf404eea9a.png)
 
 You can hover over the symbol to get a description of the error. To fix the error, open the script in the external editor again and make your changes.
 
@@ -72,11 +72,11 @@ You can hover over the symbol to get a description of the error. To fix the erro
 
 2. Hover over the script file, and click the menu button.
 
-   ![A vertical ellipsis menu next to the script](../../.assets/images/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
+   ![A vertical ellipsis menu next to the script](../../.assets/image/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
 
 3. Select **Recompile**.
 
-   ![Selecting the Recompile option](../../.assets/images/7c29fed5ee16e61d1eea7f9d18ac772fbafd65b32dc51104177c23b5b0d71f3c.png)
+   ![Selecting the Recompile option](../../.assets/image/7c29fed5ee16e61d1eea7f9d18ac772fbafd65b32dc51104177c23b5b0d71f3c.png)
 
 ## [Rename an existing script](#rename-an-existing-script)
 
@@ -84,11 +84,11 @@ You can hover over the symbol to get a description of the error. To fix the erro
 
 2. Hover over the script file, and click the menu button.
 
-   ![A vertical ellipsis menu next to the script](../../.assets/images/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
+   ![A vertical ellipsis menu next to the script](../../.assets/image/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
 
 3. Select **Rename**.
 
-   ![Selecting the rename option](../../.assets/images/5e7f8f60015d5f7a1aa44161194a9b2b470ad3eddbee6742481f4d50ab62fb68.png)
+   ![Selecting the rename option](../../.assets/image/5e7f8f60015d5f7a1aa44161194a9b2b470ad3eddbee6742481f4d50ab62fb68.png)
 
 4. Make any name changes in the text box. **Note**: Changing the name of a script will only change the reference to it. It will not recompile the script.
 
@@ -98,11 +98,11 @@ You can hover over the symbol to get a description of the error. To fix the erro
 
 2. Hover over the script file, and click the menu button.
 
-   ![A vertical ellipsis menu next to the script](../../.assets/images/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
+   ![A vertical ellipsis menu next to the script](../../.assets/image/914176c7536f5fd948fa86733e14a77d3d5733c4172fa8714fb4fd9b701f1911.png)
 
 3. Select **Delete**.
 
-   ![Selecting the Delete option](../../.assets/images/673d62cd42b6fb46e330bc66366f9b9761bfc577784a269b23c32e3b6108cc90.png)
+   ![Selecting the Delete option](../../.assets/image/673d62cd42b6fb46e330bc66366f9b9761bfc577784a269b23c32e3b6108cc90.png)
 
 4. Click **Confirm** to delete the script.
 

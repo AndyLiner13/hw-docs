@@ -38,7 +38,7 @@ The `ControllerUI.ts` script creates the foundational UI panel for displaying co
 
 1. **Create the controller UI entity**: Navigate to your world and create a UI entity where you want controller tutorials to appear. Attach the `ControllerUI.ts` script to this entity.
 
-   ![Controller UI Entity](../../../.assets/images/1e37287f6eb63e1a8e0c5bc111acbe7eab32733a5df88e95122d0cbfe0485f4c.png)
+   ![Controller UI Entity](../../../.assets/image/1e37287f6eb63e1a8e0c5bc111acbe7eab32733a5df88e95122d0cbfe0485f4c.png)
 
 2. **Configure panel appearance**: Set up the visual properties in the script inspector:
    - **Panel Layout**: Configure `panelWidth` (default: 1000) and `panelHeight` (default: 300) for appropriate sizing
@@ -68,7 +68,7 @@ The system includes built-in animated sequences for common VR controller inputs 
    - **isPredefinedDownLeft**: Left controller directional down button animation (3 frames)
    - **isPredefinedDownRight**: Right controller directional down button animation (3 frames)
 
-   ![Predefined Controller Images](../../../.assets/images/893e34b279189052867bfe5cc9b5490287421ad92cc7c2561f4f4956d9f54f21.png)
+   ![Predefined Controller Images](../../../.assets/image/893e34b279189052867bfe5cc9b5490287421ad92cc7c2561f4f4956d9f54f21.png)
 
 2. **Configure animation timing**: Set the `spriteFrequency` property (default: 0.25 seconds) to control how fast the animation cycles through frames. The `isAnimated` property is automatically handled for predefined sequences.
 
@@ -127,7 +127,7 @@ Once your controller images system is implemented, thoroughly test:
 5. **Integration Testing**: Confirm controller tutorials integrate properly with other tutorial systems
 6. **Visual Clarity Testing**: Ensure controller instructions are clear and helpful for new VR users
 
-![Testing Controller Images](../../../.assets/images/9f4cf20537943032665a4d819bf44bcb75eb9f9ea42358f346756def1a709e49.png)
+![Testing Controller Images](../../../.assets/image/9f4cf20537943032665a4d819bf44bcb75eb9f9ea42358f346756def1a709e49.png)
 
 With a comprehensive controller images system in place, you can provide clear visual instruction for VR controller usage through both predefined animations for common inputs and custom sequences for complex gestures, significantly improving the onboarding experience for new users in your world.
 

@@ -12,7 +12,7 @@ The spawn point can be configured to control the player’s camera and modify it
 
 To set the player’s camera, select the spawn point and use the **Mobile Camera** drop-down in the object properties window.
 
-![Set Player Camera](../../.assets/images/b5ef26faa089f95c8ecc2e75806fa9d82cfad8e179935ca761c92cfc2bb3f040.png)
+![Set Player Camera](../../.assets/image/b5ef26faa089f95c8ecc2e75806fa9d82cfad8e179935ca761c92cfc2bb3f040.png)
 
 > [!Note]
 >
@@ -54,10 +54,10 @@ Before using the Camera API, you need to:
 
 1. **Enable the Camera API module:**
    - Open the **Scripts** dropdown
-   - Click the **Settings** icon ![Script settings](../../.assets/images/5499726fd62a70d09056520c16cfb912893cb862d4f76d38edc565c86e394dc8.png)
-   - Enable **horizon/camera**![Enable Camera API module](../../.assets/images/de3d154be8453e8b405926046c15b19cfb4160c73cade9d96e8167c1ab82b76e.png)
+   - Click the **Settings** icon ![Script settings](../../.assets/image/5499726fd62a70d09056520c16cfb912893cb862d4f76d38edc565c86e394dc8.png)
+   - Enable **horizon/camera**![Enable Camera API module](../../.assets/image/de3d154be8453e8b405926046c15b19cfb4160c73cade9d96e8167c1ab82b76e.png)
 2. **Set Local execution mode:**
-   - Set your script to execute in Local mode ![UI path to set Local execution mode](../../.assets/images/3546c85fdf6591f3d7ad3c2429df9dd5de0eb68c8b592dc3781d683654f29610.png)
+   - Set your script to execute in Local mode ![UI path to set Local execution mode](../../.assets/image/3546c85fdf6591f3d7ad3c2429df9dd5de0eb68c8b592dc3781d683654f29610.png)
 
 ### [Camera transitions](#camera-transitions)
 

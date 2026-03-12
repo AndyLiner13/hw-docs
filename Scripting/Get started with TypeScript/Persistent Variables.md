@@ -33,7 +33,7 @@ To begin, you must create a new variable group to hold your persistent variables
 
 2. From the menubar, select the **Systems menu**. Then, select **Variable Groups**.
 
-   ![](../../.assets/images/5bb5ecfd4102d0452124f057ddd25a9b782a5c3368a824136f6bb948d9bf3469.png)
+   ![](../../.assets/image/5bb5ecfd4102d0452124f057ddd25a9b782a5c3368a824136f6bb948d9bf3469.png)
 
 3. In the Variable Groups panel, you can select, import, or create a variable group to store your variables:
 
@@ -57,7 +57,7 @@ The following basic steps describe how to create an Object persistent variable a
 
 2. The name of your variable group and all persistent variables that it contains is displayed:
 
-   ![](../../.assets/images/105c11cba5659bb87d47df8e0d4e1346ca53367527c798c8aa8e5a3a6d5e31aa.png)
+   ![](../../.assets/image/105c11cba5659bb87d47df8e0d4e1346ca53367527c798c8aa8e5a3a6d5e31aa.png)
 
 3. Next to the name of the variable group, click the **+ icon**.
 

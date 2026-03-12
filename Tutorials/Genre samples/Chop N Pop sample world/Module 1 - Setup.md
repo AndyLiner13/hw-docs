@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 1 - Setup](#module-1---setup)
 
-![Thumbnail of Chop N Pop World](../../../.assets/images/78c6ba67b529159168bf4343e927c72ef0c08dff08c2885af6e3168e82b22fe3.png)
+![Thumbnail of Chop N Pop World](../../../.assets/image/78c6ba67b529159168bf4343e927c72ef0c08dff08c2885af6e3168e82b22fe3.png)
 
 > [!Important]
 >
@@ -95,7 +95,7 @@ FBS is a script-related feature that can be enabled in your world. Please do the
 1. In the desktop editor, click the **Scripts menu**.
 2. In the Scripts panel, click the **Gear icon**.
 3. In the Script Settings window, click **Script editing**.
-4. Next to File Backed Scripts, click the **Review button**. If you see an **Info button**, your world is already set to FBS. ![Image of settings to enable File Backed Scripts](../../../.assets/images/9a6427b040074f3446933903a30d39ace99fad1ad52f2d4672fd9b0b4958fce8.png)
+4. Next to File Backed Scripts, click the **Review button**. If you see an **Info button**, your world is already set to FBS. ![Image of settings to enable File Backed Scripts](../../../.assets/image/9a6427b040074f3446933903a30d39ace99fad1ad52f2d4672fd9b0b4958fce8.png)
 5. To upgrade your world to FBS, click **Update**. **This change cannot be undone.**
 
 For more information, see [Use File-Backed Scripts](../../../VR%20tools/Scripting/Use%20file-backed%20scripts.md).
@@ -179,9 +179,9 @@ To use any asset, you must make it your own.
 6. In the Asset Library tab, locate the asset template that you just created of the asset.
 7. Drag this asset template into the world.
 8. If the asset has nodes with attached scripts, select each node.
-9. In the Properties panel, you should see an entry like the following: ![Image of broken script reference in the Properties panel](../../../.assets/images/d8b987687f05e96e1486453e5cdf0cf30317e5d075b6f1dda009dfe11babcbb8.png)
+9. In the Properties panel, you should see an entry like the following: ![Image of broken script reference in the Properties panel](../../../.assets/image/d8b987687f05e96e1486453e5cdf0cf30317e5d075b6f1dda009dfe11babcbb8.png)
 10. The above reference is broken because you as owner of this world do not have edit access to the referenced script, which is owned in the Chop ‘N Pop: Graveyard Bash world.
-11. To fix this: a. From the Attached Script dropdown, select the replacement script in your world that you have created from a copied version of the source world’s script. In the above example, this would be your personal version of `Axe.ts`. b. At the top of the Properties panel, you should see a message indicating that there is 1 override that has not been applied to the definition. Click **Review**. In the Template Overrides window, click **Apply All Overrides**: ![Image of apply all overrides to asset template](../../../.assets/images/24545528a23c781d7892068e373861aab1377f95fc230a5379cb8cf5fc691eea.png) c. Enter a description of the change, and click **Save & publish**.
+11. To fix this: a. From the Attached Script dropdown, select the replacement script in your world that you have created from a copied version of the source world’s script. In the above example, this would be your personal version of `Axe.ts`. b. At the top of the Properties panel, you should see a message indicating that there is 1 override that has not been applied to the definition. Click **Review**. In the Template Overrides window, click **Apply All Overrides**: ![Image of apply all overrides to asset template](../../../.assets/image/24545528a23c781d7892068e373861aab1377f95fc230a5379cb8cf5fc691eea.png) c. Enter a description of the change, and click **Save & publish**.
 
 You have created your own asset template from a source asset and replaced the broken reference to the script with your own script.
 

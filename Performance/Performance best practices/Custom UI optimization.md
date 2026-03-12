@@ -14,7 +14,7 @@ Custom UI allows for maximum developer flexibility but misuse of the feature can
 
 Here is a diagram to give more context to the performance guidance below.
 
-![](../../.assets/images/a8bf33fdbf993ca07704a3400362cee92af13c5bcd952cec24026b08df5d6997.png)
+![](../../.assets/image/a8bf33fdbf993ca07704a3400362cee92af13c5bcd952cec24026b08df5d6997.png)
 
 ## [Profiling UI](#profiling-ui)
 
@@ -43,7 +43,7 @@ From a Deep trace pulled into Perfetto, watch the synchronous cost of these mark
 
 One useful method to make sense of this in aggregate is to drag a 5 second block across the main thread and look at the total wall time for that marker, divided by 360. For Verts::PollDriver::Rpc in the screengrab below, that is 0.25 ms (90.03099 wall duration in seconds divided by 360 frames).
 
-![](../../.assets/images/cfd66e26b1cb07b43610c23c97c7cc2b741c46138ba8d2ceb972dd8704279a04.png)
+![](../../.assets/image/cfd66e26b1cb07b43610c23c97c7cc2b741c46138ba8d2ceb972dd8704279a04.png)
 
 ## [Binding set and callback frequency limits](#binding-set-and-callback-frequency-limits)
 
@@ -73,11 +73,11 @@ Setting the visibility of a UI entity to **false** frees all textures to garbage
 
 In testing, we have found bridge calls and RPC costs to be the bottleneck setting the limit for binding/callback frequency, and not ReactVR. That isn’t to say a sufficiently complex virtual DOM could present limits on the ReactVR side, too. If you suspect issues with this due to the UI being laggy or slow to refresh, we recommend using the [Meta Quest Developer Hub](https://developer.oculus.com/meta-quest-developer-hub/?intern_source=devblog\&intern_content=meta-quest-developer-hub-mqdh-30) (MQDH) desktop software to study deeper.
 
-![](../../.assets/images/84de343b3abae14b45e3c01d0a5932c54adaa8836f870a409f7497a1ad72a07a.png)
+![](../../.assets/image/84de343b3abae14b45e3c01d0a5932c54adaa8836f870a409f7497a1ad72a07a.png)
 
 Here, a Perfetto trace can be pulled in the Performance section, similar to the in-app trace that was described before. The difference is that this trace shows activity in the Hermes thread, which holds work done by the ReactVR runtime engine.
 
-![](../../.assets/images/74bd216a2f150bec9a3fcc77c119fb0fec33a454482233f87d94b8bb8fc82eff.png)
+![](../../.assets/image/74bd216a2f150bec9a3fcc77c119fb0fec33a454482233f87d94b8bb8fc82eff.png)
 
 In the screenshot above, running time (the green square) of the Hermes thread, across a 5 second segment, is around 1%. Try to keep this less than 50%, to leave room for other Horizon system UI.
 

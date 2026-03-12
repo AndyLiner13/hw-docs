@@ -10,7 +10,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 Gizmos are a suite of helper tools which are designed to enhance the creation and interactivity of worlds. The shop gizmo allows users to trade Meta credits and in-world items for other in-world items.
 
-![Shop Gizmo in Meta Horizon Worlds](../.assets/images/39ec4bc4b7cd4aeb39aa06858bb57392b942f6ecb8c8bbe1882e020a1496b40a.png)
+![Shop Gizmo in Meta Horizon Worlds](../.assets/image/39ec4bc4b7cd4aeb39aa06858bb57392b942f6ecb8c8bbe1882e020a1496b40a.png)
 
 The shop gizmo can be configured to display in-world items created in the **Systems > Commerce** menu. For more information on creating in-world items, visit the [In-World Purchase Guide](../MHCP%20program/Monetization/In-world%20purchase%20guide.md#creating-an-item).
 

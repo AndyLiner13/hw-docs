@@ -57,7 +57,7 @@ Incorporating a slingshot into this section provides web and mobile players thei
 
 To start, we must ensure that only VR players can access the cannon, and only web and mobile players can access the slingshot. We create a single trigger, which has an attached script that can teleport the player to the correct mechanic’s location, depending on their device.
 
-![Screenshot of the teleport pad that transports visitor to appropriate location based on visitor's device type](../../../.assets/images/4486120c6f0c00c3d5e9daf100e5921846f11531f1471c3d2db9583970daeae5.png)
+![Screenshot of the teleport pad that transports visitor to appropriate location based on visitor's device type](../../../.assets/image/4486120c6f0c00c3d5e9daf100e5921846f11531f1471c3d2db9583970daeae5.png)
 
 The cannon and the slingshot are on separate elevated platforms. Players can only get on the platforms via the teleport pad, yet teleported players can return to the main level of the room easily.
 
@@ -93,7 +93,7 @@ For web & mobile users, the slingshot mechanic requires the player to pull back 
 
 To grab, move and release the ball, we use Focused Interaction, and we raycast from the players touchPoint to determine the position where the ball is being held.
 
-![Screenshot of the raycast gizmo linked to the slingshot, which enables it to be used for aiming the slingshot](../../../.assets/images/fb42436b6f39ebba2f6ccb83e98c74a7e6fb1fc337a48278a1c5266847e290a8.png)
+![Screenshot of the raycast gizmo linked to the slingshot, which enables it to be used for aiming the slingshot](../../../.assets/image/fb42436b6f39ebba2f6ccb83e98c74a7e6fb1fc337a48278a1c5266847e290a8.png)
 
 During Focused Interaction, we raycast any touch input against the PullPlane (the selection above), which is an invisible primitive object in the world. In this example, we’ve used a flattened pyramid as the PullPlane object. This object is not tied to the others, it is simply positioned in such a way that we can move the ball on this plane to be able to shoot it.
 

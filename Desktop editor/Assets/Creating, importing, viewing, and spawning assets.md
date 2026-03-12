@@ -8,7 +8,7 @@ A world is only as good as its assets, and in this article you will learn how to
 
 ## [Creating assets](#creating-assets)
 
-![Image shows a close-up of the desktop editor with the create asset menu option highlighted](../../.assets/images/e1b10814ada87b6cf1c0cc9fde17032724759afbccf2ec5a051aa31eccd5eca7.png)
+![Image shows a close-up of the desktop editor with the create asset menu option highlighted](../../.assets/image/e1b10814ada87b6cf1c0cc9fde17032724759afbccf2ec5a051aa31eccd5eca7.png)
 
 To create an asset:
 
@@ -32,11 +32,11 @@ To import an asset:
 
 As your imports are being processed, asset cards with a clock icon will appear for each new item.
 
-![Image shows an asset card with a clock icon in the upper right-hand corner](../../.assets/images/d0aca7fd80e0b201db7442aa5d8031530d36b24547861f8445fed71590bd38c0.png)
+![Image shows an asset card with a clock icon in the upper right-hand corner](../../.assets/image/d0aca7fd80e0b201db7442aa5d8031530d36b24547861f8445fed71590bd38c0.png)
 
 When all your assets have been processed, a notification will appear to confirm whether or not your imports were successful. If your asset had problems while processing, an error or warning icon will appear. To view the asset problems, click the asset card that has an error or warning icon.
 
-![Image shows two asset cards, one with the error icon and the other with the warning icon](../../.assets/images/98e6a65787ecadaeb81a79db39b3fa68ce974a48034a9b2d27381eb06ec7af09.png)
+![Image shows two asset cards, one with the error icon and the other with the warning icon](../../.assets/image/98e6a65787ecadaeb81a79db39b3fa68ce974a48034a9b2d27381eb06ec7af09.png)
 
 ## [Viewing asset details](#viewing-asset-details)
 

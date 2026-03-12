@@ -8,11 +8,11 @@ The pan camera setting moves the player’s camera to follow their avatar at a c
 
 In this tutorial, climbing the steps switches the camera to pan camera mode, and sets the camera’s position to be 10 offset from the player on the X-axis.
 
-![Sidescroller for Camera API Examples](../../../.assets/images/26186e480ff5d6c1f3a3cca1c22db2505abbac0e8a3dd6d857fe19cf94f4c388.jpg)
+![Sidescroller for Camera API Examples](../../../.assets/image/26186e480ff5d6c1f3a3cca1c22db2505abbac0e8a3dd6d857fe19cf94f4c388.jpg)
 
 Entering the top-down area also switches the camera to pan mode, but notice that we have set the camera’s position to be 20 units offset from the player on the Y-axis, which gives a top-down perspective.
 
-![Top-down for Camera API Examples](../../../.assets/images/215af74cf2ba877f9d9426e240486f5e37ade004c6979c64d8d27efb1bb964d6.jpg)
+![Top-down for Camera API Examples](../../../.assets/image/215af74cf2ba877f9d9426e240486f5e37ade004c6979c64d8d27efb1bb964d6.jpg)
 
 The PanCameraTrigger.ts script is essentially an extension of the CameraTrigger script with some additional properties:
 

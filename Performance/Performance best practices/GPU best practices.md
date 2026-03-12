@@ -55,7 +55,7 @@ When combining objects to create large meshes to reduce draw calls, try to keep 
 
 |                                                                                                |                                                                                                |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| ![](../../.assets/images/8a6397cbce858c785507c195e0d575803e9999096e8c68ce870eba4326d0a071.png) | ![](../../.assets/images/8a487323d5e3c23f844c1740b583acc7eeeffa900cea4cf210c87ca1595a9659.png) |
+| ![](../../.assets/image/8a6397cbce858c785507c195e0d575803e9999096e8c68ce870eba4326d0a071.png) | ![](../../.assets/image/8a487323d5e3c23f844c1740b583acc7eeeffa900cea4cf210c87ca1595a9659.png) |
 
 *This mesh takes nearly one millisecond to render even when only a small portion is in view*
 

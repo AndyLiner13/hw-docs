@@ -8,7 +8,7 @@ In the second room of the puzzle game, we have several objects which have a numb
 
 These objects have a trigger which is selectable in screen mode so that players can interact with them on web and mobile:
 
-![Screenshot of the desktop editor displaying an object that can be rotated using drag inputs](../../../.assets/images/c4f07d40069ac46e49cb44a87eb2aaff069dbae8f95554f2937ba47920614e18.png)
+![Screenshot of the desktop editor displaying an object that can be rotated using drag inputs](../../../.assets/image/c4f07d40069ac46e49cb44a87eb2aaff069dbae8f95554f2937ba47920614e18.png)
 
 #### [RoomB\_RotateClues script:](#roomb_rotateclues-script)
 

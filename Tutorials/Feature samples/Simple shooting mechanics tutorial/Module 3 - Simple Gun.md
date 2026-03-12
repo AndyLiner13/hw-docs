@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 While its projectiles certainly do, the ProjectileLauncher gizmo has no physical presence in the world. It must be attached to the end of a physical entity. In this example world, it is a simple gun object.
 
-![Image of the basic Gun assembly in the world](../../../.assets/images/c3e6805ba92aac939c240b0904729b4cbe2086eed6839ca2cb4c0ef4c7e536d8.png)
+![Image of the basic Gun assembly in the world](../../../.assets/image/c3e6805ba92aac939c240b0904729b4cbe2086eed6839ca2cb4c0ef4c7e536d8.png)
 
 ## [Concept](#concept)
 
@@ -27,7 +27,7 @@ Ok, let’s grab a gun! In the case of this simple gun, we must specify some pro
 
 To make the object group grabbable, you must set the following properties:
 
-![Image of properties in panel that can be used to configure grabbing and interaction](../../../.assets/images/abb86db140ea4614f85ef86a3fcb03319e4f1ced3132605def1075cbdf3d2051.png)
+![Image of properties in panel that can be used to configure grabbing and interaction](../../../.assets/image/abb86db140ea4614f85ef86a3fcb03319e4f1ced3132605def1075cbdf3d2051.png)
 
 - **Visible**: Not required, but it’s hard to grab something that you cannot see.
 - **Collidable**: Enable it.
@@ -43,7 +43,7 @@ The object group (a gun) can now be grabbed. Additional grab-related properties 
   - You can set them to be different per hand, even select a specific grab point while the character is aiming.
 - **Avatar pose**: This property sets the avatar’s arm position while holding the group.
 
-![Images of properties that are specific to grabbing](../../../.assets/images/bea6f7ea50d4b9804dc7f34247c6fc3fcddf99f43477f39472b47d751f3bdd52.png)
+![Images of properties that are specific to grabbing](../../../.assets/image/bea6f7ea50d4b9804dc7f34247c6fc3fcddf99f43477f39472b47d751f3bdd52.png)
 
 ## [The Script: GunScript.ts](#the-script-gunscriptts)
 

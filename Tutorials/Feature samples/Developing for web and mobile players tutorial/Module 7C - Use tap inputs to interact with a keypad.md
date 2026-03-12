@@ -14,7 +14,7 @@ Find the keypad object in the world. In the Hierarchy panel, you can see that Ro
 - All numeric buttons
 - A Raycast gizmo
 
-![Screenshot of the Keypad node displayed in the Hierarchy panel and in the main viewport of the desktop editor](../../../.assets/images/5a6d7daa2eea91b25d80d44895d25c169ff8a8087c2cae015a800d1dc7e1bd99.png)
+![Screenshot of the Keypad node displayed in the Hierarchy panel and in the main viewport of the desktop editor](../../../.assets/image/5a6d7daa2eea91b25d80d44895d25c169ff8a8087c2cae015a800d1dc7e1bd99.png)
 
 We break the logic to manage keypad interactions into two scripts:
 

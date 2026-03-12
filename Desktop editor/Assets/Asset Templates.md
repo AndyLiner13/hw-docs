@@ -60,16 +60,16 @@ This section will go through the general workflow for templates once you are par
 
 There are two ways to create a template:
 
-- By converting a legacy asset to an asset template. See [Asset Migration](Asset%20Templates.md#asset-migration) section for more information. ![](../../.assets/images/e8b82f6cb42ecf4026217f519a89fe64d46212d7d29eaf1af4442eb67ed47703.png)
+- By converting a legacy asset to an asset template. See [Asset Migration](Asset%20Templates.md#asset-migration) section for more information. ![](../../.assets/image/e8b82f6cb42ecf4026217f519a89fe64d46212d7d29eaf1af4442eb67ed47703.png)
 - By selecting objects in the scene and creating a new asset template from them.
 
 To begin, first create a basic asset template.
 
-1. Add a basic cube to your scene. You can get it from the **Shapes** drop-down menu. ![](../../.assets/images/70ca7fac3e8de27e0d8967cef5d87f1d7d9e4b0d4e2e910ed6f1a1c3c8e52e1a.png)
+1. Add a basic cube to your scene. You can get it from the **Shapes** drop-down menu. ![](../../.assets/image/70ca7fac3e8de27e0d8967cef5d87f1d7d9e4b0d4e2e910ed6f1a1c3c8e52e1a.png)
 
 2. Add a basic sphere to your scene. You can get it from the **Shapes** drop-down menu.
 
-3. In the Hierarchy, create an asset out of the two shapes by selecting both of them, and then right clicking on them. In the menu that appears, click **Create Asset**, and then enter the asset details. ![](../../.assets/images/69001c9dde943cbf822a672bcd088d7e24f71d5dcd2cdd0826d329379e6b0b18.png)
+3. In the Hierarchy, create an asset out of the two shapes by selecting both of them, and then right clicking on them. In the menu that appears, click **Create Asset**, and then enter the asset details. ![](../../.assets/image/69001c9dde943cbf822a672bcd088d7e24f71d5dcd2cdd0826d329379e6b0b18.png)
 
    You can create the asset as a template or as a legacy asset by selecting the asset type. If you choose **Legacy Asset Group**, your asset will not have instancing, property overrides, or change propagation.[](https://developers.meta.com/horizon-worlds/images/Asset_Templates_28605826407187_4.png)
 
@@ -97,7 +97,7 @@ A draft asset is an asset that has been updated in the current world, but whose 
 
    **Note**: Anytime you edit an asset it’s stored as a draft.
 
-   ![](../../.assets/images/a6c3c2edc950ca80c61363be25b92d2e6777150c2b6f1c95dfe9ca6215e0c712.png)
+   ![](../../.assets/image/a6c3c2edc950ca80c61363be25b92d2e6777150c2b6f1c95dfe9ca6215e0c712.png)
 
 3. From here you can either discard or publish your draft asset.
    - When you discard a draft of an asset, all asset instances in the current world will automatically switch to the latest major version, as dictated by the asset definition in the asset library.
@@ -105,15 +105,15 @@ A draft asset is an asset that has been updated in the current world, but whose 
 
 4. Click **Publish** publish the draft asset. You will be presented with a publish modal. You can optionally write a comment to be saved as version notes with the new version, and then when the publishing operation finishes, a new major version of the asset will be saved to asset definition in the asset library.
 
-   ![](../../.assets/images/af6256bd39d84272105f7f712004912bb42a5a584c44606be2128e8fa78edef3.png)
+   ![](../../.assets/image/af6256bd39d84272105f7f712004912bb42a5a584c44606be2128e8fa78edef3.png)
 
 5. Once the asset is published, click on the **Version History** button in the Asset Details panel to see its version history.
 
-   ![](../../.assets/images/1ef07dd17c8c78cc71b809e35580a1e6f2d048d06c921e93b5f8076761207303.png)
+   ![](../../.assets/image/1ef07dd17c8c78cc71b809e35580a1e6f2d048d06c921e93b5f8076761207303.png)
 
 6. The version history modal will display all of the major versions of an asset. These are all of the asset versions that have been previously published. If you go into other worlds or share an asset with other users, these are the versions that will be stored on the root asset definition. The asset can be restored to any of these versions at any time.
 
-   ![](../../.assets/images/f3cb9bd42c71f2182936903f255319eb557401b3555c0295ba00c3c99839aa71.png)
+   ![](../../.assets/image/f3cb9bd42c71f2182936903f255319eb557401b3555c0295ba00c3c99839aa71.png)
 
 ## [Property Overrides](#property-overrides)
 
@@ -121,10 +121,10 @@ Property overrides enable you to override the property values on an instance of 
 
 To override a property:
 
-1. Click on the root level asset template in your world. Review the properties. There shouldn’t be any overrides. ![](../../.assets/images/f69976b7395ed8679568e1515e732513933cdbb006eedaa2667e3a2f17271a41.png)
-2. Now, create an overridden property value. Edit the object to change its color. You’ll notice that the color label has a bold treatment, as well as a blue dot next to it to indicate that the value has been overridden. In the overrides panel, you will see a property override on the object showing different values for the previous and current color. ![](../../.assets/images/0f45a70b0176ff9a390639b60c55e552295bf68f281ab1635a7783030c2663d6.png)
-3. From the property overrides panel, you can either select specific overrides to apply back to the definition, or apply all overrides. When you apply overrides back to the asset template definition, all instances whose matching properties haven’t been overridden will inherit the changes, and a new draft version of the asset will be created. ![](../../.assets/images/cd9c949b57c07e866a206f0f251957bb27959a1433c04328709dbfe6cf4c1669.png)
-4. It’s also possible to revert overrides. Reverting override values will revert the asset back to the same state as any draft version that exists, or in the absence of a draft version, the current major version of the asset. ![](../../.assets/images/6b51726ddc4eda8fa9c7f5064c080f7308482118ebb5597e43d19c0f5d696b4e.png)
+1. Click on the root level asset template in your world. Review the properties. There shouldn’t be any overrides. ![](../../.assets/image/f69976b7395ed8679568e1515e732513933cdbb006eedaa2667e3a2f17271a41.png)
+2. Now, create an overridden property value. Edit the object to change its color. You’ll notice that the color label has a bold treatment, as well as a blue dot next to it to indicate that the value has been overridden. In the overrides panel, you will see a property override on the object showing different values for the previous and current color. ![](../../.assets/image/0f45a70b0176ff9a390639b60c55e552295bf68f281ab1635a7783030c2663d6.png)
+3. From the property overrides panel, you can either select specific overrides to apply back to the definition, or apply all overrides. When you apply overrides back to the asset template definition, all instances whose matching properties haven’t been overridden will inherit the changes, and a new draft version of the asset will be created. ![](../../.assets/image/cd9c949b57c07e866a206f0f251957bb27959a1433c04328709dbfe6cf4c1669.png)
+4. It’s also possible to revert overrides. Reverting override values will revert the asset back to the same state as any draft version that exists, or in the absence of a draft version, the current major version of the asset. ![](../../.assets/image/6b51726ddc4eda8fa9c7f5064c080f7308482118ebb5597e43d19c0f5d696b4e.png)
 
 **Note:** Property overrides persist even when you update the asset. To test this, you can edit the asset definition, add a new shape to it and then exit. You will see that the color of the sphere will remain even after the update!
 
@@ -136,7 +136,7 @@ The following steps will walk through asset migration:
 
 1. You will see a blue icon at the top right corner of an asset card if the asset needs to be migrated. Right click on the asset card, and select **Update Asset** from the menu that appears.
 
-   ![](../../.assets/images/69d0a09d654fdb3616529766c83c1343b15aad6c8b41f4a25320b7d47677a8ff.png)
+   ![](../../.assets/image/69d0a09d654fdb3616529766c83c1343b15aad6c8b41f4a25320b7d47677a8ff.png)
 
 2. Alternatively, you can also click on the folder and update all assets in a folder at once by clicking on the link at the bottom right of the asset browser.
 
@@ -157,7 +157,7 @@ To unlink an instance from a template:
    1. Choose **Unlink instance root** to only unlink the parent template.
    2. Choose **Unlink instance root and children** to unlike the parent template and any nested child templates.
 
-![](../../.assets/images/65cf8ca157e3071503c650b0f36d27f18ebdeb1d315dbe8e3c0979fca1734258.png)
+![](../../.assets/image/65cf8ca157e3071503c650b0f36d27f18ebdeb1d315dbe8e3c0979fca1734258.png)
 
 ## [Attaching scripts to asset templates and updating the definition](#attaching-scripts-to-asset-templates-and-updating-the-definition)
 
@@ -170,11 +170,11 @@ You can attach a script to the asset template by:
 
 1. Edit a script in the world from the property panel.
 
-   ![](../../.assets/images/4254ef66eae47a6787f5ee1803bb615483e0a7772777a71d64931c2fbf3053bd.png)
+   ![](../../.assets/image/4254ef66eae47a6787f5ee1803bb615483e0a7772777a71d64931c2fbf3053bd.png)
 
 2. When a script is attached to an asset template, you should see it appear as an override. You will see a blue dot next to **Attached Script** (above image) and two overrides applied: one for the script and one for motion (shown below).
 
-   ![](../../.assets/images/048b144bc2cc3e1435b0355ae2f5262659eabdd5af679b948537f0f2b456b9b8.png)
+   ![](../../.assets/image/048b144bc2cc3e1435b0355ae2f5262659eabdd5af679b948537f0f2b456b9b8.png)
 
 3. Edit the script’s source code by selecting **Open in external editor.** When the script’s source code is updated, this will also appear as an override.
 
@@ -182,21 +182,21 @@ You can attach a script to the asset template by:
 
 5. Publish the script change through the overrides panel. This will update the asset template definition with the script changes included in the latest version of the template definition. See the note at the end of this section for more information.
 
-   ![](../../.assets/images/9ef9922a1409b704c74f42c61296f40c4fae8b646aaf7422c0f9789a65ffad14.png)
+   ![](../../.assets/image/9ef9922a1409b704c74f42c61296f40c4fae8b646aaf7422c0f9789a65ffad14.png)
 
 ### [Attaching the script to the asset template definition](#attaching-the-script-to-the-asset-template-definition)
 
 1. Right click on the asset instance (or asset in **Assets**) to edit the definition.
 
-   ![](../../.assets/images/848458d421eabb2f743562968db901f7728b6fb455aa9acbadb7a6c6c4112298.png)
+   ![](../../.assets/image/848458d421eabb2f743562968db901f7728b6fb455aa9acbadb7a6c6c4112298.png)
 
 2. Edit a script in the world from the property panel.
 
-   ![](../../.assets/images/4254ef66eae47a6787f5ee1803bb615483e0a7772777a71d64931c2fbf3053bd.png)
+   ![](../../.assets/image/4254ef66eae47a6787f5ee1803bb615483e0a7772777a71d64931c2fbf3053bd.png)
 
 3. Save and publish the template definition. This will create a new version of the asset that includes the script changes. See the note below for more information.
 
-   ![](../../.assets/images/f3d3d2f6248e29f18f0cb92681304925c6e949f3ca2eee8c35ab319b86b238ff.png)
+   ![](../../.assets/image/f3d3d2f6248e29f18f0cb92681304925c6e949f3ca2eee8c35ab319b86b238ff.png)
 
 **❗️Important** : When you open a new world that uses this asset template, the script change will be included in the asset templates update. If the script in your world is on a different version than what is in the template update, accepting the template update will also update the script to be on the same version.
 

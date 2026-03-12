@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 At Station 2, you can explore how a basic image can be displayed in a custom UI. This image is uploaded to the platform as a .PNG asset of type Texture.
 
-![Image of Station 2](../../../.assets/images/db5d55d9841d3a12bd17f16766ef8be1da8000b6f9ff8bdb09f36a292f9ffa64.png)
+![Image of Station 2](../../../.assets/image/db5d55d9841d3a12bd17f16766ef8be1da8000b6f9ff8bdb09f36a292f9ffa64.png)
 
 The script defines a property on the CustomUI gizmo to allow for selecting the Texture asset through the Properties panel.
 
@@ -109,7 +109,7 @@ const baseSimpleImage2Style: ImageStyle = {height: 200, width: 200};
   - The Property that is referenced is of Asset property type, which means that a drop-down is available in the panel from which you can select an asset to which you have access.
   - In the Properties panel, the `textureAsset` property looks like the following:
 
-  ![Image of properties panel with textureAsset property](../../../.assets/images/64fbad243a7d5f12faf1e16efa3a03e7be1625fe2355f283ffabb779b6539cd1.png)
+  ![Image of properties panel with textureAsset property](../../../.assets/image/64fbad243a7d5f12faf1e16efa3a03e7be1625fe2355f283ffabb779b6539cd1.png)
 
 - InitializeUI() method:
 

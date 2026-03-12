@@ -30,7 +30,7 @@ To change the door’s destination, click **Change**. Search for public worlds a
 
 The **Visible** toggle controls the visibility of the gizmo in the world.
 
-![Door gizmo properties panel](../.assets/images/f8f95addd1208f112e9093b241e4a75187c649dea15c71770e76f9cc098721c2.png)
+![Door gizmo properties panel](../.assets/image/f8f95addd1208f112e9093b241e4a75187c649dea15c71770e76f9cc098721c2.png)
 
 ## [Travel to another world using the door gizmo](#travel-to-another-world-using-the-door-gizmo)
 
@@ -53,7 +53,7 @@ The following image shows the player in front of the door gizmo. Pressing the tr
 
 **Note**: Travel is not supported when you’re in the play mode of the desktop editor.
 
-![Door gizmo in the play mode](../.assets/images/5996fd250afae0b01e19783afb2a8c266c41c761cb7c3e006b0ede723998008e.png)
+![Door gizmo in the play mode](../.assets/image/5996fd250afae0b01e19783afb2a8c266c41c761cb7c3e006b0ede723998008e.png)
 
 ## [What’s next?](#whats-next)
 

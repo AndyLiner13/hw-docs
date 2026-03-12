@@ -12,7 +12,7 @@ When you are building and refining a world, you may find it valuable to have acc
 
 You can also Start, Stop, and Reset the execution of scripts in your world while you are in headset.
 
-![Debug Console](../../../.assets/images/3f520fed44de2716a7cc7b166412111dcb901f72469356e7fdfeb466e375d392.png)
+![Debug Console](../../../.assets/image/3f520fed44de2716a7cc7b166412111dcb901f72469356e7fdfeb466e375d392.png)
 
 Debug messages include:
 
@@ -30,7 +30,7 @@ When you are in headset, you can review realtime performance metrics of your wor
 
 Through the following display, you can inspect the results to scrub performance over a recent interval, which provides greater fidelity on the data.
 
-![Realtime Performance Metrics](../../../.assets/images/2cf07c34de63d68250adc116d630e72f82056e1e5eba421aa365d2c7c5829706.png)
+![Realtime Performance Metrics](../../../.assets/image/2cf07c34de63d68250adc116d630e72f82056e1e5eba421aa365d2c7c5829706.png)
 
 - **Perfetto tracing**: Click the Red button to begin a trace capture of your world. This tracing down can later be analyzed through Perfetto.
 - **Performance scrubbing**: Click the Inspect button to analyze data on recent segments of activity in greater detail.

@@ -53,7 +53,7 @@ World assets show up on various discovery surfaces on mobile and VR, such as Sea
 
 Preview images appear on a variety of surfaces in a number of ways. To ensure that your key focus points are clearly visible on all surfaces and aren’t cut off or obscured, these must be within a safe area on the preview image. Non-essential artwork can be located outside the safe area, in the bleed area, but items in the bleed area could potentially be cut off or obscured on some surfaces. Additionally, all versions of the assets must be consistent with each other.
 
-Templates that show the bleed areas on an asset can be downloaded as [.psd ](../.assets/misc/e54050564e35be993af7844558c852e545e56c5d73ade4cef80e9a10ff95024d.zip), [.png ](../.assets/misc/8760409d5e65e439bbdf0d54ec1af95b62dbd3e7e55c94975f17e57a5cf76db8.zip), or [.fig ](../.assets/misc/3919aefcfeec1e8571b60947f587fb709b012229a2001bc7e2c0387469c8db64.zip)templates.
+Templates that show the bleed areas on an asset can be downloaded as [.psd ](../.assets/application/e54050564e35be993af7844558c852e545e56c5d73ade4cef80e9a10ff95024d.zip), [.png ](../.assets/application/8760409d5e65e439bbdf0d54ec1af95b62dbd3e7e55c94975f17e57a5cf76db8.zip), or [.fig ](../.assets/application/3919aefcfeec1e8571b60947f587fb709b012229a2001bc7e2c0387469c8db64.zip)templates.
 
 Whether your asset is displayed on your Product Detail page (PDP) in VR or a category section on the mobile app, we strongly recommend that you take the time and effort to ensure that your assets look their best.
 
@@ -65,7 +65,7 @@ Refer to the following asset types and guidance when creating your world assets.
 
 Cover assets come in three varieties (landscape, portrait, square) and are the most frequently viewed marketing content for your experience. They may be displayed in web browsers, mobile and PC clients, in the headset, and other places at various sizes.
 
-![An example of a set of cover assets in landscape, portrait and square. Note the design consistency. The images are not identical, but have the same design elements in similar positions.](../.assets/images/a0836d888052168ba502d4f880b40a0bad9589facb662758428e5a0b88c2d784.png)
+![An example of a set of cover assets in landscape, portrait and square. Note the design consistency. The images are not identical, but have the same design elements in similar positions.](../.assets/image/a0836d888052168ba502d4f880b40a0bad9589facb662758428e5a0b88c2d784.png)
 
 #### [Cover assets requirements:](#cover-assets-requirements)
 
@@ -77,7 +77,7 @@ Cover assets come in three varieties (landscape, portrait, square) and are the m
 
 Icons are primarily used for situations requiring a small, yet clear and readable image. Your icon art needs to maintain legibility across various sizes, so you may have to modify visual elements so that they remain clear as the image is scaled down.
 
-![Examples of icons for various worlds. Note the clear focal points for each icon.](../.assets/images/02c6e98d63146999f9421eddb59451674a7637898e21945554293e6b6812cabb.png)
+![Examples of icons for various worlds. Note the clear focal points for each icon.](../.assets/image/02c6e98d63146999f9421eddb59451674a7637898e21945554293e6b6812cabb.png)
 
 #### [Icon asset best practices:](#icon-asset-best-practices)
 
@@ -96,7 +96,7 @@ Icons are primarily used for situations requiring a small, yet clear and readabl
 
 Screenshots are essential for helping users decide whether to visit your world by giving them a preview of what to expect. Each image you use should represent a unique scene highlighting the best part of the experience.
 
-![Examples of screenshots from Kaiju City Showdown.](../.assets/images/e1198c1cd43e392b7a2dd8406727151c38c7339b73e80f6c7e698784428a1fc6.png)
+![Examples of screenshots from Kaiju City Showdown.](../.assets/image/e1198c1cd43e392b7a2dd8406727151c38c7339b73e80f6c7e698784428a1fc6.png)
 
 #### [Screenshot requirements:](#screenshot-requirements)
 

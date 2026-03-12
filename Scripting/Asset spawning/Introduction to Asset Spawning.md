@@ -110,11 +110,11 @@ Component.register(SimpleSpawn);
 
 You can also use CodeBlocks with a Trigger gizmo to trigger the asset spawning script:
 
-![](../../.assets/images/8e0f1352a176de573f3a767c23c7dadf50eff201741ebd605601ae10be7de9ce.jpg)
+![](../../.assets/image/8e0f1352a176de573f3a767c23c7dadf50eff201741ebd605601ae10be7de9ce.jpg)
 
-1. Create a trigger CodeBlock script to send the spawn and despawn events to an object. These scripts can be different for the spawn and despawn, but in this case we keep them together since they will be tied to the same trigger. ![](../../.assets/images/46f881572217a5676629a81ca292fb56535c7ceca236002106635b087601c895.jpg)
+1. Create a trigger CodeBlock script to send the spawn and despawn events to an object. These scripts can be different for the spawn and despawn, but in this case we keep them together since they will be tied to the same trigger. ![](../../.assets/image/46f881572217a5676629a81ca292fb56535c7ceca236002106635b087601c895.jpg)
 
-2. Create a Trigger gizmo and attach the CodeBlock script to the trigger. ![](../../.assets/images/ccf5aec537561f17ca5591fd88c1811da26394ff1284dae6f1bc8ef01bd2e522.jpg)
+2. Create a Trigger gizmo and attach the CodeBlock script to the trigger. ![](../../.assets/image/ccf5aec537561f17ca5591fd88c1811da26394ff1284dae6f1bc8ef01bd2e522.jpg)
 
 3. Create an object and attach the TypeScript script to it. Depending on the application, it might be a good idea to make this object invisible.
 
@@ -123,11 +123,11 @@ You can also use CodeBlocks with a Trigger gizmo to trigger the asset spawning s
    1. Navigate to your asset library from the build menu, then to the asset you want to spawn.
    2. Select the view info (“i”) icon on that asset.
    3. On the property panel, scroll down to see the asset reference pill (a blue oval containing the asset name).
-   4. Select and drag this reference pill to the Asset Variable field “empty” on the object’s property panel. ![](../../.assets/images/1bd186ba67f60ec0d1a11d8e93dde6b5a97ab610ba8e8e8f42f25052126f5c34.jpg)
+   4. Select and drag this reference pill to the Asset Variable field “empty” on the object’s property panel. ![](../../.assets/image/1bd186ba67f60ec0d1a11d8e93dde6b5a97ab610ba8e8e8f42f25052126f5c34.jpg)
 
 5. Finally, attach this script object to the Trigger gizmo.
 
 Once you are done, you should have a CodeBlock script attached to a Trigger gizmo which in turn is attached to an object. The object should have the TypeScript script attached to it as well as the asset to be spawned and despawned.
 
-![](../../.assets/images/ff1e0578dce9e6765cabe8b7ebe217d034566d01475b861993642b9f0f8bfcf8.jpg)
+![](../../.assets/image/ff1e0578dce9e6765cabe8b7ebe217d034566d01475b861993642b9f0f8bfcf8.jpg)
 

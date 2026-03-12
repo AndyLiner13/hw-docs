@@ -39,11 +39,11 @@ If an item is held incorrectly on web and mobile, you can enable the **Use HWXS 
 
 This setting will only override the behaviour for web and mobile clients, and if disabled, the standard **VR Grab Anchor** selection will be used.
 
-![](../../.assets/images/8f63279a4622562e6e0c7347a2482a8c61994d6c9de13ba43584a9a28ce4fe8d.png)
+![](../../.assets/image/8f63279a4622562e6e0c7347a2482a8c61994d6c9de13ba43584a9a28ce4fe8d.png)
 
 Alternatively, you can also set the grip anchor in VR, and then manipulate the grip hand visually.
 
-![](../../.assets/images/d3db24f366dbf53db4cb3b762b53bd44569ac1b919519e24a7a3f10caa0e0137.png)
+![](../../.assets/image/d3db24f366dbf53db4cb3b762b53bd44569ac1b919519e24a7a3f10caa0e0137.png)
 
 ## [Disable Physics While Grabbed](#disable-physics-while-grabbed)
 
@@ -56,7 +56,7 @@ To avoid hand collision issues on mobile devices, disable physics interactions f
 3. In the **Interaction** dropdown, select **Physics and Grabbable**.
 4. Enable the **Disable physics while grabbed** toggle. This will temporarily bypass physics interactions.
 
-![](../../.assets/images/676730f5c7e35d429b9d306e01a1643c2e420d2b8e6d54144fb87f8bec6c2fb7.png)
+![](../../.assets/image/676730f5c7e35d429b9d306e01a1643c2e420d2b8e6d54144fb87f8bec6c2fb7.png)
 
 ## [Programmatically Control Physics for Grabbable Entities](#programmatically-control-physics-for-grabbable-entities)
 

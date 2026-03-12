@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 # [Daily Rewards Asset Template](#daily-rewards-asset-template)
 
-![Daily Rewards Asset Template](../.assets/images/3183ef6d5477ff976ae0f9549b0cc49f1096f4795653ed3160d4c35b23e8261c.png)
+![Daily Rewards Asset Template](../.assets/image/3183ef6d5477ff976ae0f9549b0cc49f1096f4795653ed3160d4c35b23e8261c.png)
 
 > [!Note]
 >
@@ -20,7 +20,7 @@ Behind the scenes, the world inventory stores how many of each in-world item is 
 
 To access the Daily Rewards Asset Template: In the desktop editor, enter the Build mode and select **Asset Library > Public Assets** from the bottom menu bar. Next, search for “Daily Rewards” in the search field. Finally, select the Daily Rewards Asset Template and drag it into the scene. You can now edit the new asset template properties in the **Properties** panel.
 
-![Finding the Daily Rewards Asset Template](../.assets/images/e5e558b47cbb4f0ae37dbdad4ff2a99745d3600dd005859c42f4b66375f8ded3.png)
+![Finding the Daily Rewards Asset Template](../.assets/image/e5e558b47cbb4f0ae37dbdad4ff2a99745d3600dd005859c42f4b66375f8ded3.png)
 
 ## [Daily Rewards Asset Template properties](#daily-rewards-asset-template-properties)
 

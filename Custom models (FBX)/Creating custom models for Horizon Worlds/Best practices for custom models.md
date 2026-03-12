@@ -22,7 +22,7 @@ It is important to plan your topology to support different lighting scenarios. I
 
 | Topology creating GI artifacts                                                                                                                                                                                                                                       | GI artifacts fixed with topology adjustment                                                                                                                                                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../../.assets/images/f84cc755d8846f9628900a15eefdb213c1a636b5cd6655b8282840039ac77df3.png)                                                                                                                                                                       | ![](../../.assets/images/666ae73510a4805252712e7e3e108a9bae1315ff40e351132c3f4ca6a8a816bd.png)                                                                                              |
+| ![](../../.assets/image/f84cc755d8846f9628900a15eefdb213c1a636b5cd6655b8282840039ac77df3.png)                                                                                                                                                                       | ![](../../.assets/image/666ae73510a4805252712e7e3e108a9bae1315ff40e351132c3f4ca6a8a816bd.png)                                                                                              |
 | Topology on custom models will sometimes produce artifacts when GI is calculated. This will cause extremely dark vertices when imported into Horizon. They will occur when a vertex is close to or snapped to another vertex or edge on a different contiguous mesh. | To remedy this when working with multiple contiguous meshes, place vertices toward the middle of intersecting faces. The image below shows an adjusted model, and no GI lighting artifacts. |
 
 **Problem** The top example shows how vertices can define light and shadow:
@@ -33,7 +33,7 @@ It is important to plan your topology to support different lighting scenarios. I
 
 **Solution:** The meshes in the bottom example solves this problem by adding in a vertex in the center of the cube sides where it intersects the bar to define the shadow. It places support loops on the center bar to define which area is in the light.
 
-![](../../.assets/images/248bca1d616dacf93fe5453e807eae5be3a136473bfceb98ebe584a2b50f975c.png)![](../../.assets/images/f1fe7d464901db65a6fcbff9d0f3ea98389478250158c125d3ec266c1236f571.png)
+![](../../.assets/image/248bca1d616dacf93fe5453e807eae5be3a136473bfceb98ebe584a2b50f975c.png)![](../../.assets/image/f1fe7d464901db65a6fcbff9d0f3ea98389478250158c125d3ec266c1236f571.png)
 
 ## [Scale](#scale)
 
@@ -43,7 +43,7 @@ Build objects on real-world scales. Make sure that when you export your FBX, the
 
 **Maya** - There is a known scale issue where models will come in at the correct size but will have their transforms set to 0.01 scale.
 
-![](../../.assets/images/7f0a181d998adfee8fc8b7fa6b1b0761c0aefa1e29300f55ed3e8dbd0f5a25f1.png)
+![](../../.assets/image/7f0a181d998adfee8fc8b7fa6b1b0761c0aefa1e29300f55ed3e8dbd0f5a25f1.png)
 
 ## [Pivots](#pivots)
 
@@ -59,7 +59,7 @@ Consider breaking your asset into pieces if those pieces would be useful for rem
 
 **Maya** - Prior to exporting from Maya, you should group your kit, then arrange it in a way that is convenient to see and access all of the items in your kit. We recommend that the history is deleted and the transform is frozen.
 
-![](../../.assets/images/07b8890c7551800d9fec2f8ec482d6f23d04b42b2979e1964b22d2c2faaf230d.png)![](../../.assets/images/500c98c3d5a321490b85f25939add87a5f459db2961b3fe421754c8f13a4849c.png)
+![](../../.assets/image/07b8890c7551800d9fec2f8ec482d6f23d04b42b2979e1964b22d2c2faaf230d.png)![](../../.assets/image/500c98c3d5a321490b85f25939add87a5f459db2961b3fe421754c8f13a4849c.png)
 
 ## [UV padding](#uv-padding)
 
@@ -75,27 +75,27 @@ Minimum padding you should use for **large color differences**:
 
 Because the Quest 2 screens are high resolution, you can get extremely close to object surfaces. This makes it challenging for textures with fine details to remain good-looking when you are very close to them or they are very large. We recommend creating textures with less high-frequency detail, a style which holds up well in VR.
 
-![](../../.assets/images/a5ab3d2e564f7e459867c41cd1be38653121da2cc7aa6568fb8fd1013998e297.png)*High frequency detail.*
+![](../../.assets/image/a5ab3d2e564f7e459867c41cd1be38653121da2cc7aa6568fb8fd1013998e297.png)*High frequency detail.*
 
-![](../../.assets/images/5be4060c53c6f15b51984142738267b9911cc4fbc8a2f869bb0ee12005195d97.png)*Lower frequency details look better close up in VR.*
+![](../../.assets/image/5be4060c53c6f15b51984142738267b9911cc4fbc8a2f869bb0ee12005195d97.png)*Lower frequency details look better close up in VR.*
 
 ## [Model baking](#model-baking)
 
 Model baking is a common technique. Keep in mind that we currently do not support normal maps, so use geometry to convey information you typically might put into a normal map.  Using geometry instead of normals works very well in VR and gives you nicer kitbash piece intersections when laying out worlds.
 
-![](../../.assets/images/6869d5b562b7f73943d983237ea774264f927fa08f1165729729266cf64b45c9.png)
+![](../../.assets/image/6869d5b562b7f73943d983237ea774264f927fa08f1165729729266cf64b45c9.png)
 
 ## [Trim sheets](#trim-sheets)
 
 One of the best ways to optimize your textures is to use what are called trim-sheets, also known as artist-authored texture atlases. These are tiled strips of re-usable texture information that is assigned with UV coordinates onto different parts of the model.
 
-![](../../.assets/images/cb4c067cbf0a2ada602febca54701bccce44769b2026e650de33a791f23abfb7.png)
+![](../../.assets/image/cb4c067cbf0a2ada602febca54701bccce44769b2026e650de33a791f23abfb7.png)
 
-![](../../.assets/images/d55908836d229ff7aeefd974b7a58554371fe50d78f4efdf015addcf94e2aed3.png)
+![](../../.assets/image/d55908836d229ff7aeefd974b7a58554371fe50d78f4efdf015addcf94e2aed3.png)
 
 ## [When to use the Metalness Channel](#when-to-use-the-metalness-channel)
 
-Examples showing basecolor + roughness compared to basecolor + roughness + metalness. ![](../../.assets/images/20ffa257b3aaa95e007a9e65cb540ee1f844d77aba6c09d4e158b9710892e9da.png)![](../../.assets/images/538a92ac79af7c27d36ba1ee1c732f0982cff10115a9cfeb3395fb2d36a2633f.png)
+Examples showing basecolor + roughness compared to basecolor + roughness + metalness. ![](../../.assets/image/20ffa257b3aaa95e007a9e65cb540ee1f844d77aba6c09d4e158b9710892e9da.png)![](../../.assets/image/538a92ac79af7c27d36ba1ee1c732f0982cff10115a9cfeb3395fb2d36a2633f.png)
 
 ## [World budgets](#world-budgets)
 

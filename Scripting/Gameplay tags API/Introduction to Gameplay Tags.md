@@ -32,31 +32,31 @@ Using Desktop Editor, you can search for, add, remove, and modify gameplay tags.
 
 **Search for a tag**
 
-1. Navigate to the right-most menu and find the “Gameplay Tags” section ![](../../.assets/images/ebd1e1fdf37b1b9f31e307258ffe23e1e9cec13d3d72878af27677c5534ca2b0.png)
-2. Enter the keyword in the search bar and press enter ![](../../.assets/images/5ce7b0670054f4a8259d94b36c547cd9942a58f70298b39469b93c2cbaf68796.png)
+1. Navigate to the right-most menu and find the “Gameplay Tags” section ![](../../.assets/image/ebd1e1fdf37b1b9f31e307258ffe23e1e9cec13d3d72878af27677c5534ca2b0.png)
+2. Enter the keyword in the search bar and press enter ![](../../.assets/image/5ce7b0670054f4a8259d94b36c547cd9942a58f70298b39469b93c2cbaf68796.png)
 3. Any entities with this tag should appear
 
 **Add a tag**
 
-1. Select the object ![](../../.assets/images/2d3fd9850fdefb910f453f88612aee182e080c0e71b9a8edd0cf3d7a9c410b6f.png)
-2. Navigate to the right-most menu and find the “Gameplay Tags” section ![](../../.assets/images/ebd1e1fdf37b1b9f31e307258ffe23e1e9cec13d3d72878af27677c5534ca2b0.png)
-3. Select the “+” symbol next to the search bar ![](../../.assets/images/b6721f185425716b808b97a4411c651e515b035ea7b33e39b9f5c7e952c68dd5.png)
-4. Enter tag name into field and press enter ![](../../.assets/images/e576f7080756e591d469fb2fd957696551838761bd22e227d343d87d1bdc11c5.png)
-5. The tag will now appear under the object’s tags ![](../../.assets/images/20dc9356a3e1d2a5186b6e8ad8f9285415b18f559ff3b85cde8cd6aa32de4902.png)
+1. Select the object ![](../../.assets/image/2d3fd9850fdefb910f453f88612aee182e080c0e71b9a8edd0cf3d7a9c410b6f.png)
+2. Navigate to the right-most menu and find the “Gameplay Tags” section ![](../../.assets/image/ebd1e1fdf37b1b9f31e307258ffe23e1e9cec13d3d72878af27677c5534ca2b0.png)
+3. Select the “+” symbol next to the search bar ![](../../.assets/image/b6721f185425716b808b97a4411c651e515b035ea7b33e39b9f5c7e952c68dd5.png)
+4. Enter tag name into field and press enter ![](../../.assets/image/e576f7080756e591d469fb2fd957696551838761bd22e227d343d87d1bdc11c5.png)
+5. The tag will now appear under the object’s tags ![](../../.assets/image/20dc9356a3e1d2a5186b6e8ad8f9285415b18f559ff3b85cde8cd6aa32de4902.png)
 
 **Remove a tag**
 
 Repeat steps 1 and 2 from “Add a tag”
 
-1. Navigate to the desired tag to remove and click on the “-” icon ![](../../.assets/images/494b8ad9513d5ad22719e79a1a54104f9e04db337bac382cfba97cac73abed49.png)
+1. Navigate to the desired tag to remove and click on the “-” icon ![](../../.assets/image/494b8ad9513d5ad22719e79a1a54104f9e04db337bac382cfba97cac73abed49.png)
 2. The tag will be removed from the object’s tags
 
 **Modify a tag**
 
 Repeat steps 1 and 2 from “Add a tag”
 
-1. Navigate to the desired tag to modify and click on the pencil icon ![](../../.assets/images/2b2159430c1821f6343e17b45901c2bb452301f2d40c3676b26eb744fd89bbd1.png)
-2. Enter the new tag name or modifications ![](../../.assets/images/e26262860eaa0825c5b71d39740c0a3a1c45efc0a5457a608796a65e4cfb0782.png)
+1. Navigate to the desired tag to modify and click on the pencil icon ![](../../.assets/image/2b2159430c1821f6343e17b45901c2bb452301f2d40c3676b26eb744fd89bbd1.png)
+2. Enter the new tag name or modifications ![](../../.assets/image/e26262860eaa0825c5b71d39740c0a3a1c45efc0a5457a608796a65e4cfb0782.png)
 3. Click enter and the tag will update
 
 ## [Tag Editing in VR](#tag-editing-in-vr)

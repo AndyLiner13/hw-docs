@@ -10,14 +10,14 @@ There are many ways to move or teleport players. While you could simply update t
 
 Open the **Gizmos** panel and click the **Spawn Point** gizmo. A new spawn point object is added in the world and placed at the bottom of your Hierarchy panel.
 
-![Image shows a close-up of the open gizmos panel with the Spawn Point gizmo highlighted.](../../../.assets/images/58c6ebfc0c1cd7be70bf66b774b3a9abcff3c088e4b021d5aafa5c346f99db05.png)
+![Image shows a close-up of the open gizmos panel with the Spawn Point gizmo highlighted.](../../../.assets/image/58c6ebfc0c1cd7be70bf66b774b3a9abcff3c088e4b021d5aafa5c346f99db05.png)
 
 In the main window, click the new spawn point to select it. In the **Properties** panel:
 
 - Rename this entity to “Match Spawn Point”
 - Turn off the **Spawn on start** property, which disables use of the spawn point for players entering the game.
 
-![Image shows an example of the Properties panel](../../../.assets/images/454d9c6dddb647d48f50648867e077db5108fd74a2938bffcf5793ca8b8ec591.png)
+![Image shows an example of the Properties panel](../../../.assets/image/454d9c6dddb647d48f50648867e077db5108fd74a2938bffcf5793ca8b8ec591.png)
 
 Next, connect the new spawn point to **PlayerManager**, which is managed through script properties.
 
@@ -43,7 +43,7 @@ matchSpawnPoint: { type: hz.PropTypes.Entity },
 4. In the Properties panel, locate the Script sub-panel.
 5. Update the new matchSpawnPoint property field with the **Match Spawn Point** entity in the first available field.
 
-![Image shows the script sub-panel](../../../.assets/images/f2a4a4575909edb004a7b8fb840f146cee614916cda9edb2a4375a708967c78e.png)
+![Image shows the script sub-panel](../../../.assets/image/f2a4a4575909edb004a7b8fb840f146cee614916cda9edb2a4375a708967c78e.png)
 
 ## [Respawning players in a new location](#respawning-players-in-a-new-location)
 

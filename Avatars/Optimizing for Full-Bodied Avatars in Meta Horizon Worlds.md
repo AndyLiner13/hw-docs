@@ -14,7 +14,7 @@ In the meantime, we have compiled some common interactions we recommend testing 
 
 We are planning to create a feature that allows users to sit down on designated objects, however, this functionality will not be available for the initial release. If your world includes objects like chairs, couches, benches, etc. that act as a place for users to sit down, you will have the option to toggle the collider button on or off for an object. If the collider button is on, instead of sitting down, users will stand on top of the object.
 
-![](../.assets/images/4e274ad9bc5fa16b59dd755ef238961a9261056186ca0a2f58b8438303d62e4e.png)
+![](../.assets/image/4e274ad9bc5fa16b59dd755ef238961a9261056186ca0a2f58b8438303d62e4e.png)
 
 **Option 1:** We recommend keeping the collider toggle off for objects that moonlight as a place to sit down. This will result in the users’ legs going through the object keeping the same height and line of sight that users previously had when they hover over objects.
 
@@ -22,13 +22,13 @@ We are planning to create a feature that allows users to sit down on designated 
 
 Along with the recommendation of keeping colliders off for objects meant for seating, you can modify objects to cover the entire lower parts of the avatar’s bodies. This hides the avatar legs going through the object which can help with the overall aesthetic experience of your world.
 
-![](../.assets/images/6b180b53ae6a451bc5b6175660d1350683a8f1b523bf1c811e6461768d97bb50.jpg)
+![](../.assets/image/6b180b53ae6a451bc5b6175660d1350683a8f1b523bf1c811e6461768d97bb50.jpg)
 
-![](../.assets/images/b144bf4b38a176365fbfdbb0b0dcbaa643f0068e97640e9c87f927a89baf9ea5.jpg)
+![](../.assets/image/b144bf4b38a176365fbfdbb0b0dcbaa643f0068e97640e9c87f927a89baf9ea5.jpg)
 
 **Option 2:** Alternatively, you can remove seating objects entirely, and convert tables into high top tables or high top bars and remove seats.
 
-*![](../.assets/images/cec37a95643ac3d3e2c3e549c07d630fa569a06ae5daea6e679f72b8fc1c47a5.jpg)*
+*![](../.assets/image/cec37a95643ac3d3e2c3e549c07d630fa569a06ae5daea6e679f72b8fc1c47a5.jpg)*
 
 ### [Clipping of Feet on Ramps and Stairs](#clipping-of-feet-on-ramps-and-stairs)
 

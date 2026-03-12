@@ -21,7 +21,7 @@ Let’s start with the HUD first!
 
 To build the HUD, we add in objects and attach them to the player’s screen. In the tutorial world, we have used a small cube textured with a pattern to which we have added a text gizmo. You can find these objects under the name HintHUDPlayer in the tutorial world. Feel free to modify the HUD to your liking, using other shapes, textures or fonts to make your game more attractive!
 
-![Screenshot of one of the HUD entities in the world](../../../.assets/images/94d422bf642a46397808d4c8077b3f166bf2cc7eb870d7dba479147367353a62.png)
+![Screenshot of one of the HUD entities in the world](../../../.assets/image/94d422bf642a46397808d4c8077b3f166bf2cc7eb870d7dba479147367353a62.png)
 
 ### [Web and mobile compatibility for the HUD](#web-and-mobile-compatibility-for-the-hud)
 
@@ -36,13 +36,13 @@ To make the HUD object compatible with web and mobile, you must change a few opt
 
 Additional 2D Screen properties appear in the panel to enable you to position the object in the screen, rotate it, and/or scale it.
 
-![Screenshot of the Properties panel for the HUD object](../../../.assets/images/3262dc8a915c9f01c4019cd1de1da0e1fc94647bcdc8a7f9a4e5b43942652e06.png)
+![Screenshot of the Properties panel for the HUD object](../../../.assets/image/3262dc8a915c9f01c4019cd1de1da0e1fc94647bcdc8a7f9a4e5b43942652e06.png)
 
 You can use the 2D Screen properties to position as needed. These coordinates are in screen space. The X and Y coordinates control the position of the object in the screen, where \[0, 0] is the center of the screen, \[-1, -1] is the bottom left corner of the screen, and \[1, 1] is the top right corner of the screen. The Z coordinates control how far away from the camera the object is.
 
 Remember that the Meta Horizon Worlds UI is rendered on top of the game display on Web and Mobile. This overlap includes images for buttons to open a menu, different buttons to control the player and grabbable objects, and more.
 
-![Screenshot of the desktop editor screen with web and mobile gameplay buttons overlaid on the screen](../../../.assets/images/d0b0ad85e292c1321fe3fd714a3372f37aa7e79122a22071b4d92524992c4fb1.png)
+![Screenshot of the desktop editor screen with web and mobile gameplay buttons overlaid on the screen](../../../.assets/image/d0b0ad85e292c1321fe3fd714a3372f37aa7e79122a22071b4d92524992c4fb1.png)
 
 **Tip**: Try to keep your UI in the center and left side of the screen, which is usually not obstructed by platform-managed UI elements. Test your world on different devices to verify that the UI is visible on all platforms. This step should be a regular part of your web and mobile testing cycles.
 
@@ -58,7 +58,7 @@ We will have a HUD manager that will have a list of HUD entities, and it will at
 
 Search for the HintHUDPlayer objects and make sure that the sysHintHUDEntity script is attached and that it has a reference to the text gizmo of the entity:
 
-![Screenshot of Properties panel of sysHintHUDEntity with HintHUDText selected for the Text property](../../../.assets/images/301ccb029c602b658a3d9de2850a830220273fa9cd222680786a724c6f5c074b.png)
+![Screenshot of Properties panel of sysHintHUDEntity with HintHUDText selected for the Text property](../../../.assets/image/301ccb029c602b658a3d9de2850a830220273fa9cd222680786a724c6f5c074b.png)
 
 We will use events to communicate between the HUD entities, the HUD manager and any other system that requires displaying a hint.
 
@@ -164,7 +164,7 @@ That’s it! Our HUD entities are ready to be used by the HUD manager.
 
 But before that, please verify that you have one HUD entity for each possible player in your world. One HUD entity is attached to each incoming player:
 
-![Screenshot of HUD entities in the Hierarchy panel, one for each possible player](../../../.assets/images/68b07a73db6ea29e855b6f5756aa17572466d7a960f64d6c814bcf87b7d382f0.png)
+![Screenshot of HUD entities in the Hierarchy panel, one for each possible player](../../../.assets/image/68b07a73db6ea29e855b6f5756aa17572466d7a960f64d6c814bcf87b7d382f0.png)
 
 ### [sysHintHUDManager](#syshinthudmanager)
 

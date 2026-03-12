@@ -79,21 +79,21 @@ Spawn a new instance of an asset into a running world. The spawn may fail if the
 
 #### [Appearance in Library](#appearance-in-library)
 
-![](../../.assets/images/6c87cf4741e62571545394b7772d7cdadd2f0f679b423ce708b2eb92ff1b1d28.png)
+![](../../.assets/image/6c87cf4741e62571545394b7772d7cdadd2f0f679b423ce708b2eb92ff1b1d28.png)
 
 #### [Appearance in Composition Pane](#appearance-in-composition-pane)
 
-![](../../.assets/images/eace58415254e1715a92533d9f39500bafdd3814c8174f681e9df263e597f303.png)
+![](../../.assets/image/eace58415254e1715a92533d9f39500bafdd3814c8174f681e9df263e597f303.png)
 
 #### [Parameters](#parameters)
 
 |                                                                                                |                                                                                                                                                                  |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../../.assets/images/938ee2ef8be6e3fcbae58c2b0a64e66b5f59d870c33c0044667c6e2dfddac5bb.png) | The asset to spawn.                                                                                                                                              |
-| ![](../../.assets/images/6bf9f80e06466ec77c7a0cdaf2724863b507100c7be4345c6375c4a3f322b4d0.png) | The location the object should be at when it spawns. If the spawned object is static then it cannot be moved again from this location.                           |
-| ![](../../.assets/images/5ab2720d38c770c50cee0af0e674c5b41d3f3fbbc4db17170a3a12efe4e54004.png) | The orientation the object should have when it spawns. If the spawned object is static then it cannot be rotated again from this orientation.                    |
-| ![](../../.assets/images/dd02df9774b03933b748ccd7c190a95c3eab4581c639a0c1744e12884ec43de5.png) | The callback event. When the object finishes spawning, this event will be sent to the variable. The event is sent with the parameter.                            |
-| ![](../../.assets/images/cf3da6a8cee36dcf41d5bb54ac926bbccba3a59a0a286ef54d464022428ba499.png) | The receiver object. When the object finishes spawning the event will be sent to this object along with an object parameter containing the newly spawned object. |
+| ![](../../.assets/image/938ee2ef8be6e3fcbae58c2b0a64e66b5f59d870c33c0044667c6e2dfddac5bb.png) | The asset to spawn.                                                                                                                                              |
+| ![](../../.assets/image/6bf9f80e06466ec77c7a0cdaf2724863b507100c7be4345c6375c4a3f322b4d0.png) | The location the object should be at when it spawns. If the spawned object is static then it cannot be moved again from this location.                           |
+| ![](../../.assets/image/5ab2720d38c770c50cee0af0e674c5b41d3f3fbbc4db17170a3a12efe4e54004.png) | The orientation the object should have when it spawns. If the spawned object is static then it cannot be rotated again from this orientation.                    |
+| ![](../../.assets/image/dd02df9774b03933b748ccd7c190a95c3eab4581c639a0c1744e12884ec43de5.png) | The callback event. When the object finishes spawning, this event will be sent to the variable. The event is sent with the parameter.                            |
+| ![](../../.assets/image/cf3da6a8cee36dcf41d5bb54ac926bbccba3a59a0a286ef54d464022428ba499.png) | The receiver object. When the object finishes spawning the event will be sent to this object along with an object parameter containing the newly spawned object. |
 
 ### [Delete Spawned Object](#delete-spawned-object)
 
@@ -103,19 +103,19 @@ Delete an object that was previously spawned, removing the objects and freeing u
 
 #### [Appearance in Library](#appearance-in-library-1)
 
-![](../../.assets/images/0f59bcc31416a69251e8a542c8019f388f9da0f8f01e21b6f9f5df88c9c7100f.png)
+![](../../.assets/image/0f59bcc31416a69251e8a542c8019f388f9da0f8f01e21b6f9f5df88c9c7100f.png)
 
 #### [Appearance in Composition Pane](#appearance-in-composition-pane-1)
 
-![](../../.assets/images/4ce84a8e39725a62b8ce53fd15aaeead14d770fa5b3969a1140feac374b11b02.png)
+![](../../.assets/image/4ce84a8e39725a62b8ce53fd15aaeead14d770fa5b3969a1140feac374b11b02.png)
 
 #### [Parameters](#parameters-1)
 
-![](../../.assets/images/6835e9d6690cb91ac827cd968badafb67e40a25a422fdaecb2ed60b9eb4d3b8f.png)
+![](../../.assets/image/6835e9d6690cb91ac827cd968badafb67e40a25a422fdaecb2ed60b9eb4d3b8f.png)
 
 |                                                                                                |                                                                                            |
 | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| ![](../../.assets/images/cf3da6a8cee36dcf41d5bb54ac926bbccba3a59a0a286ef54d464022428ba499.png) | The object to delete. This Object must have been spawned using the spawn asset code block. |
+| ![](../../.assets/image/cf3da6a8cee36dcf41d5bb54ac926bbccba3a59a0a286ef54d464022428ba499.png) | The object to delete. This Object must have been spawned using the spawn asset code block. |
 
 ### [Examples](#examples)
 
@@ -125,7 +125,7 @@ Delete an object that was previously spawned, removing the objects and freeing u
 
 **How it works:** When a person grabs the object the script is run, the hiddenTemple asset spawns and specifies that the event spawned be sent to self when the spawn completes. When the spawned event is received the spawned object is saved in a variable, so that it can despawn when the object is released.
 
-![](../../.assets/images/a5335adbe8a9281e99b3128bf5bdfe410bab8df13b5169fa6c014935adb37509.png)
+![](../../.assets/image/a5335adbe8a9281e99b3128bf5bdfe410bab8df13b5169fa6c014935adb37509.png)
 
 #### [Updated Assets Only Appear In New Instances](#updated-assets-only-appear-in-new-instances)
 

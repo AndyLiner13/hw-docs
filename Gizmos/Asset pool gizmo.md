@@ -17,14 +17,14 @@ When using something like a HUD asset, the asset pool gizmo to assign a HUD to e
 
 ## [Asset pool gizmo overview](#asset-pool-gizmo-overview)
 
-![Asset pool gizmo overview](../.assets/images/81d50c52edaff8bf548d91e1abb6db85f74d20a62793eb333fa4cee86bc077ba.png)
+![Asset pool gizmo overview](../.assets/image/81d50c52edaff8bf548d91e1abb6db85f74d20a62793eb333fa4cee86bc077ba.png)
 
 - Each asset pool gizmo manages a single asset template and pools it to be copied as child objects for players.
 - You can add additional asset pool gizmos to use additional asset templates for as necessary.
 - The asset pool gizmo is able to be used within asset templates.
 - When an asset template is assigned to the gizmo, it will automatically create the pool of prefabs based on the maximum player count setting.
 
-![Asset pool gizmo overview 2](../.assets/images/14494cfb63637b1c9dca6966d6e5051849cd032f6d5e17bcffe65c9a334db478.png)
+![Asset pool gizmo overview 2](../.assets/image/14494cfb63637b1c9dca6966d6e5051849cd032f6d5e17bcffe65c9a334db478.png)
 
 **Note**: When deploying the asset pool gizmo in a [non-FBS world](../VR%20tools/Scripting/Use%20file-backed%20scripts.md), avoid connecting asset templates that contain scripts. When the asset pool gizmo spawns the asset template, the scripts will be spawned as separate instances that must be maintained.
 
@@ -34,17 +34,17 @@ To get started using the asset pool gizmo you will first need to have an asset t
 
 Access the asset pool gizmo via **Build Menu** > **Gizmos** > **Asset Pool**.
 
-![Asset pool gizmo build menu selection](../.assets/images/bc8b207a04827ebfd6cdce1bad927c562fa1d13c356f259c7ced61e150305e7f.png)
+![Asset pool gizmo build menu selection](../.assets/image/bc8b207a04827ebfd6cdce1bad927c562fa1d13c356f259c7ced61e150305e7f.png)
 
 Once the asset pool gizmo is added, you can set whether to **Auto Assign to Players** and set the **Asset Reference** for the gizmo.
 
-![Asset pool gizmo properties window](../.assets/images/76c765176b475e7fe74627eccfc1da8a0f707c84eb39de9c8bc7df8e9e11c9e4.png)
+![Asset pool gizmo properties window](../.assets/image/76c765176b475e7fe74627eccfc1da8a0f707c84eb39de9c8bc7df8e9e11c9e4.png)
 
 Once the asset pool gizmo is added to your world, use the following process to manage it:
 
 1. Navigate to **Player Settings** in the top left menu and adjust the **Maximum Player Count** slider for your world’s expected max player count.
 
-   ![Player settings maximum player count slider](../.assets/images/72133fadeae926b0c3ed62575ae7ea1bf545d63b5523fa8be68012af93eac661.png)
+   ![Player settings maximum player count slider](../.assets/image/72133fadeae926b0c3ed62575ae7ea1bf545d63b5523fa8be68012af93eac661.png)
 
 2. Drag the **Asset Pool** gizmo into your scene.
 
@@ -52,7 +52,7 @@ Once the asset pool gizmo is added to your world, use the following process to m
 
 4. Drag and drop the **Asset Template** into the **Asset Reference** field of the **Asset Pool** gizmo.
 
-   ![Add asset template to Asset pool gizmo](../.assets/images/090f6f27ad55653c47c4533bcdbc20bd293833a7a28065f8c5e04d4252cc433a.png)
+   ![Add asset template to Asset pool gizmo](../.assets/image/090f6f27ad55653c47c4533bcdbc20bd293833a7a28065f8c5e04d4252cc433a.png)
 
 5. Use the drop down menu in the **Asset Reference** field of the **Asset Pool** gizmo’s properties window to search for your asset.
 
@@ -64,7 +64,7 @@ Once the asset pool gizmo is added to your world, use the following process to m
 
 Example #1: `UpdateOwnerName.ts` This script can be attached to a mesh object with a child Text gizmo. When an owner is assigned to the object, the text gizmo will update with that player’s name.
 
-![Asset pool gizmo assigns an object to a player and displays the player name](../.assets/images/36eafa2a8f932a1a6b8a64fbedfcb9ea2e1cc6e5068c257af2adef47a99779a0.png)
+![Asset pool gizmo assigns an object to a player and displays the player name](../.assets/image/36eafa2a8f932a1a6b8a64fbedfcb9ea2e1cc6e5068c257af2adef47a99779a0.png)
 
 ```
 // Import the necessary components from the 'horizon/core' module.
@@ -270,7 +270,7 @@ UpdateOwnerName
 
 Example #2: `UI_ShopHud.ts` This script can be attached to a custom UI gizmo, and when pooled will display a HUD element with a clickable button and the owning player’s name. This also sends some logs to Console when ownership is assigned.
 
-![Asset pool gizmo asset assigns the player a custom UI HUD element](../.assets/images/5062a5797ab067965760a7b51e3a02d8ceca9a152f2a5d7c42629470cd970d4c.png)
+![Asset pool gizmo asset assigns the player a custom UI HUD element](../.assets/image/5062a5797ab067965760a7b51e3a02d8ceca9a152f2a5d7c42629470cd970d4c.png)
 
 ```
 // Import necessary components from the Horizon core and UI libraries

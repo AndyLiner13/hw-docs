@@ -20,7 +20,7 @@ All information provided is used in accordance with our [Privacy Policy](https:/
 
 ## [Submitting feedback](#submitting-feedback)
 
-![Image shows the feedback window](../.assets/images/2acfeb5972377d2bcc0fcd9989a50e43d15ade90b6de627512653c3fbca84b8e.png)
+![Image shows the feedback window](../.assets/image/2acfeb5972377d2bcc0fcd9989a50e43d15ade90b6de627512653c3fbca84b8e.png)
 
 1. From the desktop editor, click the menu icon and select “Report a problem” from the dropdown menu.
 2. Provide the following information:
@@ -32,7 +32,7 @@ All information provided is used in accordance with our [Privacy Policy](https:/
    - **Attach automatic screen capture**: Selecting this option will attach an image of the desktop editor taken before the report option was selected.
 3. Click “Submit” to send your feedback. You will receive a confirmation message in the desktop editor and an email will be sent to the email address associated with your Meta account.
 
-![Image shows the confirmation window](../.assets/images/92c16cdd1f9b49c008897ddb07788d19a549a4f11568574c945ad096bdddb6e8.png)
+![Image shows the confirmation window](../.assets/image/92c16cdd1f9b49c008897ddb07788d19a549a4f11568574c945ad096bdddb6e8.png)
 
 Feedback submitted via other channels will not necessarily show up on the feedback report.
 
@@ -40,11 +40,11 @@ Feedback submitted via other channels will not necessarily show up on the feedba
 
 Your feedback and those of other developers are also listed publicly in the [Feedback Center](https://developers.meta.com/horizon/feedback). This is a public voting board where you can view summarized cases of the bugs and feature requests sent to Meta.
 
-![Feedback Center landing page](../.assets/images/6f3e4cd6f43c60725f7a38f4a033b18d7b9c9a6a29aff16da3638ab5bdb020f0.png)
+![Feedback Center landing page](../.assets/image/6f3e4cd6f43c60725f7a38f4a033b18d7b9c9a6a29aff16da3638ab5bdb020f0.png)
 
 Feedback reports you submit are listed in the Feedback Center along with their status such as “Received”, “Investigating”, and so on. When logged into Developer Center, you can upvote items on the public voting board to increase their priority. The public voting board aims to increase transparency, improve creator engagement, and inform product priorities. It provides a clear view of how feedback is handled. Meta teams review the investigations and keep the case information accurate and up to date.
 
-![Feedback Center reports](../.assets/images/2d5fe1984e3c02eca0cbb53862bcd0ae14ac10b85bc6a592c2da04a1ba36cdb2.png)
+![Feedback Center reports](../.assets/image/2d5fe1984e3c02eca0cbb53862bcd0ae14ac10b85bc6a592c2da04a1ba36cdb2.png)
 
 ## [Edit feedback](#edit-feedback)
 

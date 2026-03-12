@@ -8,7 +8,7 @@ The examples in Station 6 demonstrate how to organize your customUI panel into r
 
 In this example, a set of UI elements is organized in a vertical column. Note the behavior of the buttons here: hover states are shared.
 
-![Image of Station 06a](../../../.assets/images/d15a17f3b68599015127db4a379d9572c47290bb10b08be3f19e7ae369e9b046.png)
+![Image of Station 06a](../../../.assets/image/d15a17f3b68599015127db4a379d9572c47290bb10b08be3f19e7ae369e9b046.png)
 
 ## [Assets](#assets)
 

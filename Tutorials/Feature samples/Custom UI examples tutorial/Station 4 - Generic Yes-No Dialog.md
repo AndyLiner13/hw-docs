@@ -8,7 +8,7 @@ This station demonstrates how to set up a generic dialog with Yes/No buttons.
 
 This customUI panel contains a text message and a Yes button and No button, with placeholders for actions to be taken when each button is pressed.
 
-![Image of Station 4](../../../.assets/images/f6caa76b6f1aca7423e723232ae41b4feb7497130ec7186e28bda54b9c2ad7ca.png)
+![Image of Station 4](../../../.assets/image/f6caa76b6f1aca7423e723232ae41b4feb7497130ec7186e28bda54b9c2ad7ca.png)
 
 ## [Assets](#assets)
 

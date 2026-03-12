@@ -25,14 +25,14 @@ In this section you will configure the DebugEconomyUI to grant you the items you
 1. In the **Systems > Commerce** menu, copy the SKU for the apple.
 2. In the **Hierarchy** panel, expand the DebugEconomy empty object.
 
-![Debug tools in the Economy World Tutorial](../../../.assets/images/030db9dfdca3c70ac6e2f062ef76aa9f80e521d52e35cfe8aa0194eac9427db6.jpg)
+![Debug tools in the Economy World Tutorial](../../../.assets/image/030db9dfdca3c70ac6e2f062ef76aa9f80e521d52e35cfe8aa0194eac9427db6.jpg)
 
 1. Select `DebugApples`
 2. In the Properties panel, ensure that the DebugEconomyUI script has the following:
    1. Set `Active` to `true`
    2. Paste the SKU into the `itemSKU` property
 
-![Debug tools in the Economy World Tutorial](../../../.assets/images/e42c539d0eb20459304983caf88c585c2e73577c13dc12e15f7d64df3d2557f5.jpg)
+![Debug tools in the Economy World Tutorial](../../../.assets/image/e42c539d0eb20459304983caf88c585c2e73577c13dc12e15f7d64df3d2557f5.jpg)
 
 1. The other Debug Tools (DebugOvens and DebugGems) can be configured in a similar way.
 2. (Optional) Set `Active` to `true` for the debug tool with the currency you want to debug, and set `Active` to `false` for the others.

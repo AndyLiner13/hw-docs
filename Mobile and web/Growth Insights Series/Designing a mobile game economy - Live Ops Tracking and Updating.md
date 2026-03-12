@@ -34,7 +34,7 @@ Using a **data-driven live ops** approach allows you to:
 
 In short, live ops lets you evolve your game quickly and intelligently in response to player behavior more dynamically than a traditional game can.
 
-![](../../.assets/images/3cd3f8121b9364b90d4115e4c01ab8282eef26973c8db719ff746f0fb7b62025.jpg)
+![](../../.assets/image/3cd3f8121b9364b90d4115e4c01ab8282eef26973c8db719ff746f0fb7b62025.jpg)
 
 *Granblue Fantasy demonstrates how live ops can deliver new content with minimal disruption. Here, a player logged in at noon (JST) immediately sees a pop-up notification for a new seasonal banner as soon as it goes live.*
 
@@ -46,7 +46,7 @@ Full version updates, which often introduce major seasonal content, new modes, o
 
 Use **telemetry and analytics** to refine your update cadence. If data shows most players take 3–4 weeks to clear new content, you may be able to slow releases from biweekly to every three weeks without hurting engagement. Conversely, if players finish content quickly, you may need to shorten the cycle.
 
-![](../../.assets/images/f7f77d62aae00480e12f7e5e611e54176654bdf6fe45bd43cfed601abb7c3486.png)
+![](../../.assets/image/f7f77d62aae00480e12f7e5e611e54176654bdf6fe45bd43cfed601abb7c3486.png)
 
 *Some games, like Azur Lane, schedule predictable downtime for major updates — in their case, about eight hours every other Thursday. While this is an outlier, it highlights the importance of balancing frequency, size, and stability when planning your update strategy.*
 

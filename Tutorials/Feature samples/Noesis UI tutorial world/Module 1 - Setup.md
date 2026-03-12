@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 Welcome! This module introduces the NoesisGUI and prepares you to work with the sample stations included in this tutorial. You’ll learn how to set up your workspace, import the provided project, and get ready to explore each station.
 
-![NoesisGUI Studio](../../../.assets/images/6e7ef157cc10f7ee4ebacfdd4cec8fd0f194c27f947e9ee05791887fd68eb390.png)
+![NoesisGUI Studio](../../../.assets/image/6e7ef157cc10f7ee4ebacfdd4cec8fd0f194c27f947e9ee05791887fd68eb390.png)
 
 > [!Note]
 >
@@ -36,7 +36,7 @@ NoesisGUI is a high-performance UI framework for games and interactive applicati
 
 Before you begin, make sure to:
 
-1. Download the [Tutorial Project File](../../../.assets/misc/ce392b4589c82dd01df3471689b90e9afa3e8fb65e7ebd9cace748c57c2ef0ec.zip)
+1. Download the [Tutorial Project File](../../../.assets/application/ce392b4589c82dd01df3471689b90e9afa3e8fb65e7ebd9cace748c57c2ef0ec.zip)
 2. Install [NoesisGUI Studio](https://www.noesisengine.com/studio/)
 3. Unzip the NoesisGUI Studio folder
 4. Run the application named **App.StudioTool.exe**
@@ -46,7 +46,7 @@ Before you begin, make sure to:
 
 ## [Step-by-Step: Uploading Noesis Projects to Horizon Station](#step-by-step-uploading-noesis-projects-to-horizon-station)
 
-![NoesisGUI Gizmo](../../../.assets/images/2c687a069d3969f78b1e597cd5af536e6dae0348454407010c9279fbf17035c5.png)
+![NoesisGUI Gizmo](../../../.assets/image/2c687a069d3969f78b1e597cd5af536e6dae0348454407010c9279fbf17035c5.png)
 
 In this tutorial, making additional updates and reuploading the NoiesisGUI project file is optional.
 

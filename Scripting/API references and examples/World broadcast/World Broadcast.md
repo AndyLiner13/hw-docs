@@ -80,7 +80,7 @@ cameraPlayer
 
 # [High-level Overview](#high-level-overview)
 
-![High Level Overview](../../../.assets/images/f3500f975c1fb4c7da574d991d85ec44b87bb68f253f5010c54730437834f9c7.png)
+![High Level Overview](../../../.assets/image/f3500f975c1fb4c7da574d991d85ec44b87bb68f253f5010c54730437834f9c7.png)
 
 The World Broadcast Stream Controller periodically scans all public instances of a given world, and discards those with players below a minimum count. It ranks the remaining instances (e.g., by population, player idleness) and selects some to prepare for streaming. One instance is then selected and presented to the public via a live-stream on the Meta Horizon app and potentially within the wider Family of Apps (exact locations vary). Periodically, a different instance is selected for presentation, e.g. if the current instance’s population drops or a more active instance becomes available.
 
@@ -109,13 +109,13 @@ Two Unit 2 Games worlds are currently integrated: Kaiju City Showdown and Pets P
 
 Uses a custom-scripted setup with a prop news helicopter that circles the Kaiju with a camera attached underneath. Custom UI creates the appearance of a live news broadcast, with headlines that react to in-world events.
 
-![Kaiju City Showdown Broadcast](../../../.assets/images/7f61d16bd8cde1a086285ca75b4c3c6429b3b8b30121dc39bc95285b4bef3973.png)
+![Kaiju City Showdown Broadcast](../../../.assets/image/7f61d16bd8cde1a086285ca75b4c3c6429b3b8b30121dc39bc95285b4bef3973.png)
 
 ## [Pets Park](#pets-park)
 
 [Pets Park - Meta Horizon](https://horizon.meta.com/world/9116337161745306/) (open on mobile to see the stream in the Meta Horizon app). Uses the example framework to place trigger zones in the world. These zones activate cameras when players are present.
 
-![Pets Park Broadcast](../../../.assets/images/5594818292c42d1bda9b240853cf8c779cd91df7e82ba6e49a383166a898e439.png)
+![Pets Park Broadcast](../../../.assets/image/5594818292c42d1bda9b240853cf8c779cd91df7e82ba6e49a383166a898e439.png)
 
 # [Additional Recommendations](#additional-recommendations)
 

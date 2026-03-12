@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 1 - Setup](#module-1---setup)
 
-![Thumbnail of the Developing for Web and Mobile Players tutorial world](../../../.assets/images/06c905413a0bc33483c0d770a5d2bdeabf8c5542b37c6abd57948fe81921ccf0.png)
+![Thumbnail of the Developing for Web and Mobile Players tutorial world](../../../.assets/image/06c905413a0bc33483c0d770a5d2bdeabf8c5542b37c6abd57948fe81921ccf0.png)
 
 > [!Important]
 >

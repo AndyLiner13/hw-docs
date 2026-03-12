@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 1 - Setup](#module-1---setup)
 
-![Thumbnail of Text as Asset tutorial world](../../../.assets/images/612690870f414a66665232d363cddb7aaa6b734555801791e3ae693f31a945b5.png)
+![Thumbnail of Text as Asset tutorial world](../../../.assets/image/612690870f414a66665232d363cddb7aaa6b734555801791e3ae693f31a945b5.png)
 
 > [!Important]
 >

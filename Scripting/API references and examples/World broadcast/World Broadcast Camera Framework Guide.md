@@ -421,7 +421,7 @@ This preset includes:
 
 To add more camera zones, duplicate the Static Camera Zone entity. Ensure each zone has a unique id, or leave the `zoneId` field empty to generate a unique id automatically.
 
-![Static Zone](../../../.assets/images/d253dccd4dd67c50750e64d681ddbb3621254ccc2b0ce7f479bbcf693b35a1ee.png)
+![Static Zone](../../../.assets/image/d253dccd4dd67c50750e64d681ddbb3621254ccc2b0ce7f479bbcf693b35a1ee.png)
 
 ### [Camera Trigger Preset](#camera-trigger-preset)
 
@@ -433,7 +433,7 @@ This preset includes:
 
 To add more camera zones, duplicate the Camera Trigger Zone entity. Ensure each zone has a unique id, or leave the `zoneId` field empty to generate a unique id automatically.
 
-![Trigger Zone](../../../.assets/images/65d2b48905b03b2892dcd64e4775e02f96fdb1b472f4625d4b23142ef49dfe52.png)
+![Trigger Zone](../../../.assets/image/65d2b48905b03b2892dcd64e4775e02f96fdb1b472f4625d4b23142ef49dfe52.png)
 
 ## [Troubleshooting](#troubleshooting)
 

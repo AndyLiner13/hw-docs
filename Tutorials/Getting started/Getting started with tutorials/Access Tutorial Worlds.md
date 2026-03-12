@@ -16,14 +16,14 @@ Please complete the following steps to create a copy of a tutorial.
 2. Click the **Library option** in the left nav panel. Then, click the **Apps tab**.
 3. Select the development environment where you wish to create your tutorial.
 4. In the Creation Home screen, click the **Tutorials option** in the left nav bar.
-5. Select the world of interest. ![Select World](../../../.assets/images/e9e047d3dddfb7a8791ef633569417078690b9e4b8c4fe7e4555eb9df2ff1119.png)
+5. Select the world of interest. ![Select World](../../../.assets/image/e9e047d3dddfb7a8791ef633569417078690b9e4b8c4fe7e4555eb9df2ff1119.png)
 6. The companion documentation for the world is opened for you.
 7. A copy of the world is created, with you as the owner.
 
 ## [In Headset](#in-headset)
 
 1. Go to the Create menu in your headset and click the **Tutorials tab**.
-2. Select the world of interest and click **Start**. ![Tutorial Worlds](../../../.assets/images/b68dac4f7e591cc07c9996754280db910b33961eeb6d4c8d55840c05443d1b06.png)
+2. Select the world of interest and click **Start**. ![Tutorial Worlds](../../../.assets/image/b68dac4f7e591cc07c9996754280db910b33961eeb6d4c8d55840c05443d1b06.png)
 
 ## [Rename world](#rename-world)
 

@@ -10,13 +10,13 @@ The following image shows the static light gizmo, the red cube, lighting an obje
 
 **Note**: An [environment gizmo](Environment%20gizmo.md) is added to the world where a night skydome is applied.
 
-![The static light gizmo lighting an object in the Build mode](../.assets/images/bebe23d94f58e040a417cf1ad10b22c0730745bcf59a0a274cb041a6d3cc608f.png)
+![The static light gizmo lighting an object in the Build mode](../.assets/image/bebe23d94f58e040a417cf1ad10b22c0730745bcf59a0a274cb041a6d3cc608f.png)
 
 The following image shows the same static light gizmo lighting an object in the [Preview mode](../Desktop%20editor/Get%20started%20with%20Desktop%20Editor/User%20interface/Build%20and%20Preview%20Modes.md).
 
 **Note**: The geometry of the light, the red cube, is hidden in the Preview mode.
 
-![The static light gizmo lighting an object in the Preview mode](../.assets/images/4a09a9b302913694b7ee1adcc5e93eb12e283eab7ab2ad741ae9cb3abca276d4.png)
+![The static light gizmo lighting an object in the Preview mode](../.assets/image/4a09a9b302913694b7ee1adcc5e93eb12e283eab7ab2ad741ae9cb3abca276d4.png)
 
 ## [Access the static light gizmo](#access-the-static-light-gizmo)
 

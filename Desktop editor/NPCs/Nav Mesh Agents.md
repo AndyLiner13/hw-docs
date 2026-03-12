@@ -29,11 +29,11 @@ Once you have created navigation profiles and navigation meshes, you can configu
 
 2. Scroll down to the **Navigation Locomotion** section and toggle on the Enabled property.
 
-   ![](../../.assets/images/cf123ce43992528ddd195ec515b8f04bdadf18ab32ced0d19373b4ca2574fea7.png)
+   ![](../../.assets/image/cf123ce43992528ddd195ec515b8f04bdadf18ab32ced0d19373b4ca2574fea7.png)
 
 3. Configure the navigation locomotion settings for your agent. These properties can also be configured through the NavMeshAgent API. See the [NavMeshAgent API docs](https://horizon.meta.com/resources/scripting-api/navmesh.navmeshagent.md/?api_version=2.0.0) for more details about these properties.
 
-   ![](../../.assets/images/dd026ed6eded337c641ceaffd2277172cde0d501fcecad2024c4f3b310246904.png)
+   ![](../../.assets/image/dd026ed6eded337c641ceaffd2277172cde0d501fcecad2024c4f3b310246904.png)
 
    1. **Enabled**: Whether the object is a NavMesh agent.
    2. **Navigation Profile**: The navigation profile the agent will use.
@@ -56,13 +56,13 @@ To enable your agents to move, you need to write a script to determine their mov
 
 To use the NavMeshAgent API, first enable the `horizon/navmesh` package in the **Script Settings** menu and **Apply** your changes.
 
-![](../../.assets/images/954c4e41fd299de1e885488cd9956736dda2f1f84939ebbf9e80b4e474062633.png)
+![](../../.assets/image/954c4e41fd299de1e885488cd9956736dda2f1f84939ebbf9e80b4e474062633.png)
 
 Then, create a new script using the [NavMeshAgent API](https://horizon.meta.com/resources/scripting-api/navmesh.navmeshagent.md/?api_version=2.0.0). See the [Adding and Editing Scripts](../Get%20started%20with%20Desktop%20Editor/Adding%20and%20editing%20scripts.md) documentation for how to create a new script.
 
 After you create a script to move your agent, don’t forget to attach the script to the agent object in the **Properties** pane.
 
-![](../../.assets/images/eef52e33167f9638debb15307a4af78c75dbe8b2930e5f19cc8c9991046ce1df.png)
+![](../../.assets/image/eef52e33167f9638debb15307a4af78c75dbe8b2930e5f19cc8c9991046ce1df.png)
 
 ### [Example scripts](#example-scripts)
 

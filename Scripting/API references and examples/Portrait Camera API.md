@@ -22,11 +22,11 @@ To use the Portrait Camera API, you need:
 
 ## [Enabling the API](#enabling-the-api)
 
-1. Open the **Scripts panel** in the desktop editor. !['Menu bar script button](../../.assets/images/7ffe1df17e72f4f0aac9f35a9c7f4f77fce3f01732f644d394e136ec3fbae381.png)
-2. Click the gear icon to open Script Settings. !['Script button dropdown gear icon](../../.assets/images/9938beb42934ff12b42cbab9837d57c2282beecbb2a6cfe321f15c6e8bc2f4f8.png)
-3. Click on **API** on the left side of the settings. !['Script settings API tab](../../.assets/images/fc37a1e0bc6833ea0ed67d2c0aa8a7d7de0f312bfbbbb58cc84569892b7e10d8.png)
-4. Enable **horizon/portrait\_camera**. !['Script settings toggle horizon/portrait\_cameras](../../.assets/images/88d82c05a5690f4225fe7461a0dc79713df4bd3f20f9320427ff150452cf79e1.png)
-5. Click **Apply** to save the changes. !['Script settings toggle horizon/portrait\_cameras](../../.assets/images/b8b51fdd777f8028b94f9d1db27c7403f00305a8934e8f35343575f5891009d5.png)
+1. Open the **Scripts panel** in the desktop editor. !['Menu bar script button](../../.assets/image/7ffe1df17e72f4f0aac9f35a9c7f4f77fce3f01732f644d394e136ec3fbae381.png)
+2. Click the gear icon to open Script Settings. !['Script button dropdown gear icon](../../.assets/image/9938beb42934ff12b42cbab9837d57c2282beecbb2a6cfe321f15c6e8bc2f4f8.png)
+3. Click on **API** on the left side of the settings. !['Script settings API tab](../../.assets/image/fc37a1e0bc6833ea0ed67d2c0aa8a7d7de0f312bfbbbb58cc84569892b7e10d8.png)
+4. Enable **horizon/portrait\_camera**. !['Script settings toggle horizon/portrait\_cameras](../../.assets/image/88d82c05a5690f4225fe7461a0dc79713df4bd3f20f9320427ff150452cf79e1.png)
+5. Click **Apply** to save the changes. !['Script settings toggle horizon/portrait\_cameras](../../.assets/image/b8b51fdd777f8028b94f9d1db27c7403f00305a8934e8f35343575f5891009d5.png)
 
 ## [API reference](#api-reference)
 

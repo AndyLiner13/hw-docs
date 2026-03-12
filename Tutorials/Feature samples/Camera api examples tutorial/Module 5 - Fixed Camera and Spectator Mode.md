@@ -8,11 +8,11 @@ In some environments, you may wish to position the player as a spectator to an e
 
 In this tutorial, entering the red target switches the camera to spectator mode:
 
-![Spectator area of the world](../../../.assets/images/6f3c8271aa382c866a914aa92ee51e66d5fbb144bb259ba5ef8d96a7a75242f7.png)
+![Spectator area of the world](../../../.assets/image/6f3c8271aa382c866a914aa92ee51e66d5fbb144bb259ba5ef8d96a7a75242f7.png)
 
 Upon entering, your view transitions to the following:
 
-![Spectator point of view](../../../.assets/images/b00fd54bb80d3a70612ecd3a70e830fe761036c50895749518a46fd3daf0a7a9.png)
+![Spectator point of view](../../../.assets/image/b00fd54bb80d3a70612ecd3a70e830fe761036c50895749518a46fd3daf0a7a9.png)
 
 After stepping onto the target, the player’s perspective is quickly transformed to the point of view of the stationary reference object positioned above the target, looking out over the above scene.
 

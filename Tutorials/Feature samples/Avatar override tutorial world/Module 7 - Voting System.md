@@ -10,7 +10,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 The Voting Manager centralizes player voting during Showcase rounds. It assigns UI vote buttons to players, enforces voting rules, tracks votes, manages button visibility, switches cameras for showcase mode, and produces final results with tie handling.
 
-![Winners Podium](../../../.assets/images/042ecc9ebf5e8733685a3e48f9de4f4d81261c911ba8fabc8865d3ef3ad709af.png)
+![Winners Podium](../../../.assets/image/042ecc9ebf5e8733685a3e48f9de4f4d81261c911ba8fabc8865d3ef3ad709af.png)
 
 ## [Dependencies](#dependencies)
 

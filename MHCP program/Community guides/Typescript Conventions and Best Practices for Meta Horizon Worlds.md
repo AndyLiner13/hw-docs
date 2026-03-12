@@ -1336,7 +1336,7 @@ Fortunately for us, there is [Prettier](https://prettier.io/), an industry leadi
 
 To install prettier in VSCode, simply open VSCode, go to the Extensions tab on the right sidebar (the three cubes with the fourth cube offset), search for “Prettier”, click on “Prettier - Code formatter”, and click Install.
 
-![Screenshot shows a user in VSCode, preparing to install the Prettier app](../../.assets/images/31891520eb346c56787ab67c751040859513d66a25c1def9e1a06ea3954637ad.png)
+![Screenshot shows a user in VSCode, preparing to install the Prettier app](../../.assets/image/31891520eb346c56787ab67c751040859513d66a25c1def9e1a06ea3954637ad.png)
 
 For other editors, check out the [Editor Integrations](https://prettier.io/docs/en/editors) page.
 
@@ -1346,13 +1346,13 @@ The most important configuration setting to make is to ensure that Prettier is u
 
 If you don’t get a popup when doing Format Document for the first time, it means you already have a typescript formatter configured. You will want to change that to Prettier by going to File -> Preferences -> Settings, typing `@id:editor.defaultFormatter @lang:typescript` in the search bar, and switching the Default Formatter to ‘Prettier - Code Formatter’.
 
-![Screenshot shows a user setting the formatting type in Prettier](../../.assets/images/20e04710933245181ad2aa043242490acf197257073b671996be5379899f6558.png)
+![Screenshot shows a user setting the formatting type in Prettier](../../.assets/image/20e04710933245181ad2aa043242490acf197257073b671996be5379899f6558.png)
 
 By default, Prettier won’t format anything until you tell it to via Format Document or Format Selection. However, you can also configure VSCode to Format On Save, On Paste, and On Type. Note that if you have File: Auto Save set to `afterDelay`, then Format On Save will only work on an explicit save.
 
 To find the formatting options in File->Preferences->Settings, search for `editor:format` and tick on whichever options you prefer (below shows all of On Paste, On Save, and On Type enabled).
 
-![Screenshot shows a user searching for formatting settings in VS Code](../../.assets/images/cba65feb6209e05f54c1f27b35984999b6a711b14addf2af537426a912803b9b.png)
+![Screenshot shows a user searching for formatting settings in VS Code](../../.assets/image/cba65feb6209e05f54c1f27b35984999b6a711b14addf2af537426a912803b9b.png)
 
 There are a number of other minor settings you can adjust, listed on the [options](https://prettier.io/docs/en/options) page and via the ‘gear’ icon on the plugin, such as Tab Width (default 2), and Print Width (default 80). Those values are a bit of an anachronism from when people didn’t have very wide monitors. However, if you make customizations, make sure you put a [configuration file](https://prettier.io/docs/en/configuration) like `.prettierrc` or `.editorconfig` in the `scripts` directory of *each* of your horizon world projects so that others using your code will pick up the same settings. Thus, it’s best to just not change them at all.
 
@@ -1382,19 +1382,19 @@ Installation of typescript-eslint is significantly more complicated than install
 
 - Desktop Editor - Open Scripts Folder in Explorer
 
-![Screenshot shows a user selecting the 'Open Scripts Folder in Explorer' option](../../.assets/images/14b9283f46ec0b7c9a2c29bf7cda8818c9c99bc93f940f2afd76dbd87997574c.png)
+![Screenshot shows a user selecting the 'Open Scripts Folder in Explorer' option](../../.assets/image/14b9283f46ec0b7c9a2c29bf7cda8818c9c99bc93f940f2afd76dbd87997574c.png)
 
 Go to the scripts menu, press on the triple dot menu, and select Open Scripts Folder in Explorer (note it actually opens the folder *above* the scripts folder, you will need to click on `scripts` once the window opens to go into that folder)
 
 - VS Code - Reveal in File Explorer
 
-![Screenshot shows a user selecting the 'Reveal in File Explorer' option](../../.assets/images/2d4037c71243fc0022aa7407a22a7e781ba536062f2bea63d25d7dc15fbe6fb3.png)
+![Screenshot shows a user selecting the 'Reveal in File Explorer' option](../../.assets/image/2d4037c71243fc0022aa7407a22a7e781ba536062f2bea63d25d7dc15fbe6fb3.png)
 
 Right click on your `tsconfig.json` file and select Reveal in File Explorer
 
 In the File Explorer, you can then click past the *end* of the location bar text (don’t click on any of the text), and copy the path to the `scripts` directory to the clipboard for use with your command line terminal of choice.
 
-![Image shows a user preparing to copy the path to the scripts directory](../../.assets/images/798981efbedfd82acbe2f90f803696446c024ec3471720944b08952be1380649.png)
+![Image shows a user preparing to copy the path to the scripts directory](../../.assets/image/798981efbedfd82acbe2f90f803696446c024ec3471720944b08952be1380649.png)
 
 It should be something like `C:\Users\live\AppData\LocalLow\Meta\Horizon Worlds\eslint test_10160832935606146\scripts`
 
@@ -1402,7 +1402,7 @@ It should be something like `C:\Users\live\AppData\LocalLow\Meta\Horizon Worlds\
 
 To install ESLint in VSCode, open VSCode, go to the Extensions tab on the right sidebar (the three cubes with the fourth cube offset), search for “ESLint”, and click Install (same procedure as for Prettier).
 
-![Image shows a user preparing to install ESLint](../../.assets/images/ad3ba2c88f1f90656ba9b1889aa760cd9c3fdc5b0e7af15f35bbac8dd777662c.png)
+![Image shows a user preparing to install ESLint](../../.assets/image/ad3ba2c88f1f90656ba9b1889aa760cd9c3fdc5b0e7af15f35bbac8dd777662c.png)
 
 #### [Node.js runtime (one time)](#nodejs-runtime-one-time)
 
@@ -1530,7 +1530,7 @@ This popular plugin checks your code and comments for spelling mistakes. It is e
 
 To install Code Spell Checker in VSCode, simply open VSCode, go to the Extensions tab on the right sidebar (the three cubes with the fourth cube offset), search for “spell check”, click on “Code Spell Check”, and click Install.
 
-![Screenshot shows a user downloading spell checker in VS Code](../../.assets/images/1cb55160043d0e5a38f2cb1e773254f5e712144dd0e3c9d1e61e0d25cba75725.png)
+![Screenshot shows a user downloading spell checker in VS Code](../../.assets/image/1cb55160043d0e5a38f2cb1e773254f5e712144dd0e3c9d1e61e0d25cba75725.png)
 
 #### [Configuration](#configuration-2)
 

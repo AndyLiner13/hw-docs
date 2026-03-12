@@ -93,7 +93,7 @@ hz.Component.register(sysFocusedInteractionManagerServer);
 
 Let’s start building the Focused Interaction Manager for each player now. This API must be executed locally. In the Scripts panel, please verify that the sysFocusedInteractionManagerLocal script is configured to be executed in local mode:
 
-![Screenshot of Properties panel for sysFocusedInteractionManagerLocal script being set to execute in Local mode](../../../.assets/images/bbed947c8d759de1c5a209456a728fdcd155e80d620c9bdf7d203cdce116ef23.png)
+![Screenshot of Properties panel for sysFocusedInteractionManagerLocal script being set to execute in Local mode](../../../.assets/image/bbed947c8d759de1c5a209456a728fdcd155e80d620c9bdf7d203cdce116ef23.png)
 
 #### [Focus mode:](#focus-mode)
 
@@ -399,7 +399,7 @@ Please verify that you have as many Focused Interaction local managers (with the
 
 We need one manager per player, and we need one Focused Interaction Manager for the server, with the sysFocusedInteractionManagerServer script attached:
 
-![Screenshot of Hierarchy panel showing the collection of FocusedInteractionManager entities](../../../.assets/images/d9795b1b3180f1aee357c45950b7370351b7a5801a5136be8535ee5c9fd5ff3a.png)
+![Screenshot of Hierarchy panel showing the collection of FocusedInteractionManager entities](../../../.assets/image/d9795b1b3180f1aee357c45950b7370351b7a5801a5136be8535ee5c9fd5ff3a.png)
 
 ## [Modify the Player Manager](#modify-the-player-manager)
 
@@ -411,7 +411,7 @@ First, verify that all Focused Interaction Managers set to local have the gamepl
 
 A **gameplay tag** allows you to identify entities that are related and should have the same actions performed on them.
 
-![Screenshot of local version of focused interaction manager with the FIManager gameplay tag applied to it](../../../.assets/images/59b2b5da75796ecb10b75e398efb3e0716a2d8ba4dd5d1ba75a8cb852007ca86.png)
+![Screenshot of local version of focused interaction manager with the FIManager gameplay tag applied to it](../../../.assets/image/59b2b5da75796ecb10b75e398efb3e0716a2d8ba4dd5d1ba75a8cb852007ca86.png)
 
 #### [Acquire list of managers:](#acquire-list-of-managers)
 

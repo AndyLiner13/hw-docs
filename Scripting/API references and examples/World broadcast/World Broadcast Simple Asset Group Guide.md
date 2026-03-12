@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 The `Simple World Broadcast` asset group provides an easy, “plug-and-play” set of entities for creators who want to quickly begin working with the World Broadcast system. It includes the minimum required tech to use all features and can be extended with custom logic.
 
-![Simple World Broadcast](../../../.assets/images/8e2e7370d151e70d6f8e7be51dde89657e70b2efd21845e4d6119ae31e219557.png)
+![Simple World Broadcast](../../../.assets/image/8e2e7370d151e70d6f8e7be51dde89657e70b2efd21845e4d6119ae31e219557.png)
 
 ## [System Setup](#system-setup)
 
@@ -169,7 +169,7 @@ null
 
 The World Broadcast Brain picks up all `Camera Handle` components at `start`. To add more handles, duplicate the handle bundled with the Asset Group.
 
-![Simple World Broadcast](../../../.assets/images/3882e2140744a04c3e6236ff49ba8826f84c464383399acc8538537d254feb80.png)
+![Simple World Broadcast](../../../.assets/image/3882e2140744a04c3e6236ff49ba8826f84c464383399acc8538537d254feb80.png)
 
 ## [Extending The System](#extending-the-system)
 
@@ -181,7 +181,7 @@ The forced focus API can be used with custom logic to create gameplay-dependent 
 
 This error appears when no “Default Camera” entity exists as a child of the brain. The Asset Group includes this by default when imported, but the object hierarchy may have changed. If the “default camera” is no longer a child of the `World Broadcast Brain`, add an empty entity and copy these values from the inspector (excluding the transform):
 
-![Default Camera](../../../.assets/images/0289ed3649bec9a896509383d775363bf28c78015ecbf16537fd722418bac6c4.png)
+![Default Camera](../../../.assets/image/0289ed3649bec9a896509383d775363bf28c78015ecbf16537fd722418bac6c4.png)
 
 ### [“WorldBroadcastBrain: Cannot force focus on null target”, or “WorldBroadcastBrain: Cannot update camera to undefined transform”](#worldbroadcastbrain-cannot-force-focus-on-null-target-or-worldbroadcastbrain-cannot-update-camera-to-undefined-transform)
 

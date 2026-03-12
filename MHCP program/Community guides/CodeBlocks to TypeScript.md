@@ -47,14 +47,14 @@ Begin by setting up your development environment and creating your new world wit
 
 Set up and configure your new script in the development environment by following these detailed steps:
 
-- Click the down arrow for the Scripts Panel and select *Create New Script*![](../../.assets/images/0679136be39e70931189caca7452ff48f9ffa65e3d29b41fe0238afec74b0baf.png)
+- Click the down arrow for the Scripts Panel and select *Create New Script*![](../../.assets/image/0679136be39e70931189caca7452ff48f9ffa65e3d29b41fe0238afec74b0baf.png)
 - Name this script *ExampleScript* and hit the Enter key on your keyboard.
-- Click the gear cog icon in the Scripts Panel. ![](../../.assets/images/ff2b1036db84f197273005a84ebfd6d04a1a3047b0d7a11515a8f47a878c4116.png)
+- Click the gear cog icon in the Scripts Panel. ![](../../.assets/image/ff2b1036db84f197273005a84ebfd6d04a1a3047b0d7a11515a8f47a878c4116.png)
 - External Editor should say Default (VS Code)
 - External Editor Directory can be any folder you wish to store all of your world’s scripts.
 - API Version needs to be changed to 2.0.0 if it isn’t already.
   - Note: You may need it to create a script(see below) before you can see the API 2.0.0 option.
-- Camera and other features can be enabled here if required for your project. ![](../../.assets/images/0c76ce5b60d6aad19fb57f95a9ad94c5467fab1dd2f5178a4bf36c4a6fd71fc4.png)
+- Camera and other features can be enabled here if required for your project. ![](../../.assets/image/0c76ce5b60d6aad19fb57f95a9ad94c5467fab1dd2f5178a4bf36c4a6fd71fc4.png)
 - Click *Apply* after making any changes.
 - Mouse over your newly created script, click the 3-vertical dots that appear and select *Open in External Editor* .
 - This should open Visual Studio Code and ask if you trust the Author of this file, you can select *Yes, I trust the authors* .

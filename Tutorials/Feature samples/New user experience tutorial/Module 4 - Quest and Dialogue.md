@@ -54,7 +54,7 @@ Begin by establishing the foundational quest management system:
 
 1. **Create the quest container hierarchy**: Navigate to your world hierarchy and create a empty object for the **QuestsContainer** entity. This will serve as the parent for all quest entities and the central hub for quest management.
 
-   ![Quests container entity](../../../.assets/images/62065cd89a3b68868eb94cd213fbb68c303040a4e9f4ba0f1a120c93f4396ac6.png)
+   ![Quests container entity](../../../.assets/image/62065cd89a3b68868eb94cd213fbb68c303040a4e9f4ba0f1a120c93f4396ac6.png)
 
 2. **Setup quest management**: In the **Properties** panel for your QuestsContainer, attach the `QuestManager.ts` script. Configure the quest blocking behavior and timing for new quest indicators. This script manages all quest tracking, player progress, and integration with other systems.
 
@@ -84,7 +84,7 @@ Connect your quests to interactive NPCs that provide context and story:
      - **EndsDialogue**: Set to true if this option should end the conversation
    - **Multiple choice support**: You can create up to 3 response options per dialogue node by duplicating NodeOption objects
 
-   ![Dialogue tree structure](../../../.assets/images/b45e5ca5e0e1ae5d362b9656793bdb2f11fc0c109e693d87a1d89117082e7979.png)
+   ![Dialogue tree structure](../../../.assets/image/b45e5ca5e0e1ae5d362b9656793bdb2f11fc0c109e693d87a1d89117082e7979.png)
 
 3. **Configure dialogue UI system**: Set up the visual presentation by attaching the `DialogueTreeCustomUI.ts` script to handle dialogue display. This script automatically:
    - Manages text display for character names and dialogue content
@@ -109,7 +109,7 @@ Implement waypoint indicators to guide players to quest locations:
    - **Player Ownership**: Ensure per-player waypoint visibility
    - **Event Integration**: Connect to quest system for automatic activation
 
-   ![Waypoint setup](../../../.assets/images/8256a0bd2f921547abbf24bdb8b01c8cf1af25fbbcc0c603042142e32d1eb4a6.png)
+   ![Waypoint setup](../../../.assets/image/8256a0bd2f921547abbf24bdb8b01c8cf1af25fbbcc0c603042142e32d1eb4a6.png)
 
 2. **Configure waypoint behavior**: Set up waypoint parameters including:
    - **isOutsideWaypoint**: Enable scaling for outdoor locations
@@ -141,7 +141,7 @@ Verify the complete quest experience works seamlessly:
    - **Completion**: Achieve objectives and observe completion feedback
    - **Progression**: Verify quest state updates and system integration
 
-   ![Quest flow testing](../../../.assets/images/21d5f9c349d91bd2b3c46999d33740b4a77e655c34d47a378be85797b50f6898.png)
+   ![Quest flow testing](../../../.assets/image/21d5f9c349d91bd2b3c46999d33740b4a77e655c34d47a378be85797b50f6898.png)
 
 2. **Validate integration points**: Ensure all systems work together:
    - Dialogue completion triggers quest starts

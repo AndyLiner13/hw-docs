@@ -22,7 +22,7 @@ One of the best places to start is with your typical player session journey. We 
 4. **Adoption and completion rate.** Are players actually completing dailies and new challenges? What percentage of players finish them on a given day? If a new boss is too much of a hassle to clear, tracking completion will help you spot the problem.
 5. **Spend and purchasing.** Are players buying things in your storefront? What are they buying most often? Which purchase offerings are they very interested in, and which do they ignore? Analytics can help you tune and refine these offerings.
 
-![Mock SKU sales by price point](../../.assets/images/6bcfaf9a283e736dd08a1c624b090a66f8e3cb1386f676b1f38c84b0163eeee8.png)
+![Mock SKU sales by price point](../../.assets/image/6bcfaf9a283e736dd08a1c624b090a66f8e3cb1386f676b1f38c84b0163eeee8.png)
 
 *As we discussed in our mobile game economies article, a major strength of live-service games is the ability to measure and respond to item sales data. Closely tracking the performance of bundles and items helps you design in line with player preferences.*
 
@@ -32,7 +32,7 @@ One of the most important things to track in your game is play progress through 
 
 By adding events to your core gameplay, you get a clearer picture of what players are doing in game. The more specific events you add, the more data you receive. However, start simple with major events so you do not overwhelm yourself with data you are not ready to use.
 
-![Win rate vs. Level bar graph](../../.assets/images/d62b3440c5b751095be70b06d862ea729e0d7f4ecb3b8b4148dc72c227aafe9f.png)
+![Win rate vs. Level bar graph](../../.assets/image/d62b3440c5b751095be70b06d862ea729e0d7f4ecb3b8b4148dc72c227aafe9f.png)
 
 \*Tracking events such as win and loss rates or quest completion gives you a stronger understanding of how players interact with your game.
 
@@ -40,7 +40,7 @@ Using our Castle Quest! game as an example, if you’re creating a live service 
 
 From there, you can add events tied to quests, such as *quest\_start\_cave1, quest\_success\_cave1, daily\_task\_completed\_1*. These events show which quests players engage with. If the cave side quest is important and you want most players to experience it, but only 5% of players start it, you may need to draw more attention to the quest start conditions.
 
-![% Complete vs. Tutorial line graph](../../.assets/images/c3a48a8f2c83a72e6e0b8f2de0e1b5d831d7a46698b7673fbc5a1731ba8d9bec.png)
+![% Complete vs. Tutorial line graph](../../.assets/image/c3a48a8f2c83a72e6e0b8f2de0e1b5d831d7a46698b7673fbc5a1731ba8d9bec.png)
 
 \*In the mock Castle Quest! tutorial data, about 70% of remaining players drop off at step 4 and another large group at step 10.
 
@@ -55,7 +55,7 @@ Another critical area to track in a live-service game is player purchases and sp
 
 Without this data, you are guessing when you fine-tune your economy. With it, you can adjust your purchase offerings and storefront with confidence. This data also gives you a strong sense of direction for future content.
 
-![Banner cosmetic sales by DoW bar graph](../../.assets/images/152a873bda6de86b7f70365bad4272139fdfd1740eaf6c984859d911bd892503.png)
+![Banner cosmetic sales by DoW bar graph](../../.assets/image/152a873bda6de86b7f70365bad4272139fdfd1740eaf6c984859d911bd892503.png)
 
 *In this mock Castle Quest! cosmetic sales chart, the developer tracks nine banner cosmetics in three colors and several symbols. Telemetry with human-readable item names shows that yellow banners sell far less than blue, and crown icons outperform other symbols. The team should create more blue, crown-style banners and retire emojis that players ignore.*
 
@@ -69,7 +69,7 @@ Taken together, these tracking tools let you build a feedback loop based on data
 4. Implement
 5. Repeat
 
-![Feedback loop based on data image](../../.assets/images/b5fe9114bac1b1c001d6b82bc27dd97184dd07ad1471822c6ebc84efbf663af6.png)
+![Feedback loop based on data image](../../.assets/image/b5fe9114bac1b1c001d6b82bc27dd97184dd07ad1471822c6ebc84efbf663af6.png)
 
 Let’s go back to Castle Quest! and the cave NPC mission that players are not engaging with. You put a lot of time into the mechanics and lore of the quest and want players to experience it, but only 5% of players start it.
 
@@ -79,7 +79,7 @@ Let’s go back to Castle Quest! and the cave NPC mission that players are not e
 4. **Implement.** You roll out the letter to all players, confident in its ability to direct them to the content you want them to experience.
 5. **Repeat.** You can have other quest-giver NPCs send letters if their quests are not being completed at the expected rate.
 
-![Unique complete vs. quest success cave1 line graph](../../.assets/images/54fdff855d97cebe0c369875cc37e185912c9c32fc873347f16a68beeaefaf70.png)
+![Unique complete vs. quest success cave1 line graph](../../.assets/image/54fdff855d97cebe0c369875cc37e185912c9c32fc873347f16a68beeaefaf70.png)
 
 *From 9/1 to 9/7, about 5% of players completed the cave quest. Sending mail to a 20% test group from 9/8 to 9/14 raised completions to about 10%. After the mail was rolled out to the full player base on 9/15, completion stabilized around 20% overall, even though the gain per player was smaller.*
 

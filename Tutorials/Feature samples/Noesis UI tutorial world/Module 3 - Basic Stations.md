@@ -8,7 +8,7 @@ This section introduces the foundational stations for learning NoesisGUI UI deve
 
 ## [Station 01 – Text and Fonts](#station-01--text-and-fonts)
 
-![Station 01 - Custom UI Fonts](../../../.assets/images/de9fb6a81495c47e5a4a9ec5ff4cb45af23731d82897cca0f420094f34db0048.png)
+![Station 01 - Custom UI Fonts](../../../.assets/image/de9fb6a81495c47e5a4a9ec5ff4cb45af23731d82897cca0f420094f34db0048.png)
 
 This station demonstrates how to display text using various font faces and styles. It covers the use of the TextBlock element, custom fonts, font sizing, and vertical layout with StackPanel.
 
@@ -25,7 +25,7 @@ This station demonstrates how to display text using various font faces and style
 
 ## [Station 02 – Image from Asset](#station-02--image-from-asset)
 
-![Station 02 - Image from Asset](../../../.assets/images/cbb71cd345f7b5601c1398b74786490b4f64145f3a9208ea453a3477d2e05075.png)
+![Station 02 - Image from Asset](../../../.assets/image/cbb71cd345f7b5601c1398b74786490b4f64145f3a9208ea453a3477d2e05075.png)
 
 This station shows how to import and display PNG assets in NoesisGUI. It demonstrates setting image source paths, combining images with shapes, and using gradient backgrounds.
 
@@ -37,7 +37,7 @@ This station shows how to import and display PNG assets in NoesisGUI. It demonst
 
 ## [Station 03 – Scrolling UI](#station-03--scrolling-ui)
 
-![Station 03 - Scrolling UI](../../../.assets/images/a4bb917631f7602a00b97b39fbae7b9c16210811ca8230839ed09663ad4a3a9a.png)
+![Station 03 - Scrolling UI](../../../.assets/image/a4bb917631f7602a00b97b39fbae7b9c16210811ca8230839ed09663ad4a3a9a.png)
 
 This station demonstrates how to create a scrollable UI panel in NoesisGUI using only XAML. It focuses on displaying content that exceeds the visible area and allows users to scroll vertically to view all items.
 

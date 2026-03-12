@@ -13,35 +13,35 @@ A custom 3D model is composed of multiple files, all of them must be specified w
 
 For example, you need to import five files in order to import this rifle asset:
 
-![Image shows a 3D model of a futuristic rifle](../.assets/images/4e706c9b610d8512acb7e8d86428e466e934520d09bad80f3be043425415a59b.png)
+![Image shows a 3D model of a futuristic rifle](../.assets/image/4e706c9b610d8512acb7e8d86428e466e934520d09bad80f3be043425415a59b.png)
 
 ## [Import a custom model asset](#import-a-custom-model-asset)
 
 Follow this procedure to import a custom model asset, spawn an object from it, and add it to your scene.
 
-**Note**: To complete this procedure, you need a custom 3D model (an FBX file and one or more PNG texture files) to import. If you don’t have a 3D model, you can get demo assets [here](../.assets/misc/57c2704c3a8466018227d9aa647b44f7f8c205c5e4eadbd16c3112a0374cbfbf.zip) .
+**Note**: To complete this procedure, you need a custom 3D model (an FBX file and one or more PNG texture files) to import. If you don’t have a 3D model, you can get demo assets [here](../.assets/application/57c2704c3a8466018227d9aa647b44f7f8c205c5e4eadbd16c3112a0374cbfbf.zip) .
 
 1. From the Desktop Editor, click the **Asset Library** tab at the bottom of the screen and select **My Assets**.
 
-   ![Click on the Asset Library tab to open the Personal Asset Library](../.assets/images/f53c918d3e9de7d26b31d2f69db728b4d1633a385696cd247860683c085ec8cc.png)
+   ![Click on the Asset Library tab to open the Personal Asset Library](../.assets/image/f53c918d3e9de7d26b31d2f69db728b4d1633a385696cd247860683c085ec8cc.png)
 
 2. Add a new asset by clicking **Add New**, and select **3D Model** from the menu.
 
-   ![The Import Models dialog box appears](../.assets/images/f608d6b39854d0b5151062f8e2a417d93010357329b778855e3c65a7fb7a71a2.png)
+   ![The Import Models dialog box appears](../.assets/image/f608d6b39854d0b5151062f8e2a417d93010357329b778855e3c65a7fb7a71a2.png)
 
 3. Select the asset files to import by clicking **+ Choose files on your device** on the dialog window that appears.
 
 4. In the file picker window, select the 3D model file and associated texture files; click **Open**.
 
-   ![Select the five asset files](../.assets/images/10a7f262a4abc0685fe4746a30b99a1f728f7f993de30f8289a2b884f0792213.png)
+   ![Select the five asset files](../.assets/image/10a7f262a4abc0685fe4746a30b99a1f728f7f993de30f8289a2b884f0792213.png)
 
 5. In the dialog box, click **Import**. The following asset icon appears in your **My Assets** folder when the process is complete.
 
-   ![This is what the rifle asset looks like after you import it](../.assets/images/acb25e44ed6c95261721d117ce2d6611976bb88be6a414efbfd2a3c3f14e6f9e.png)
+   ![This is what the rifle asset looks like after you import it](../.assets/image/acb25e44ed6c95261721d117ce2d6611976bb88be6a414efbfd2a3c3f14e6f9e.png)
 
 Spawn an instance of the asset by clicking on the icon for the asset, dragging it into the scene, and dropping it anywhere in the scene. A rifle object appears in the scene, and in the hierarchy.
 
-![The rifle floats over the pedestal](../.assets/images/5d65dec614664ce20c542361ff54a615232a7b6a3c61db7797c63d4b5d97e2e3.png)
+![The rifle floats over the pedestal](../.assets/image/5d65dec614664ce20c542361ff54a615232a7b6a3c61db7797c63d4b5d97e2e3.png)
 
 ## [Custom model workflows](#custom-model-workflows)
 

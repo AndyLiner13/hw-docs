@@ -10,7 +10,7 @@ The Player HUD systems create a pool of HUD objects, which are assigned to playe
 
 The world includes a set of HUD objects in a pool, located behind the starting area:
 
-![Image of HUD objects in a pool](../../../.assets/images/3769416106466217cab204711a1f0018dba30396d0ded42425e4eecf5f75107d.png)
+![Image of HUD objects in a pool](../../../.assets/image/3769416106466217cab204711a1f0018dba30396d0ded42425e4eecf5f75107d.png)
 
 An individual HUD object consists of:
 

@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This station demonstrates how to create a custom UI that can be scrolled. It’s pretty simple; instead of using a View object, you deploy a ScrollView object, which supports a couple of additional attributes.
 
-![Image of Station 03](../../../.assets/images/00990096f4ccbf84e6e5ce3df23e0c7ed174b91b758daca68e1143a3cb532a0d.png)
+![Image of Station 03](../../../.assets/image/00990096f4ccbf84e6e5ce3df23e0c7ed174b91b758daca68e1143a3cb532a0d.png)
 
 This UI displays an example biography of Lord Lorem Ipsum, including a title, picture, picture caption, and body text.
 

@@ -16,7 +16,7 @@ Your game’s store is the heart and soul of its economy. It’s where players c
 
 Many games have seen success using completely different designs and philosophies for their stores. There’s no one right solution to designing your digital storefront. Each store will be as unique as the game itself.
 
-![](../../.assets/images/b66863479491446a7cb64581b97ba2d1499abee5f3349c9e0e78c99fddc42013.jpg)
+![](../../.assets/image/b66863479491446a7cb64581b97ba2d1499abee5f3349c9e0e78c99fddc42013.jpg)
 
 *Royal Match’s store keeps things simple, offering players exactly what they expect: bundles of consumable power-ups and gold that can be used to buy more upgrades.*
 
@@ -40,7 +40,7 @@ There are a few basic tenets to keep in mind when designing your store:
 
 Additionally, it’s important to give players a quick path to purchase when they don’t have enough premium currency. If they attempt a transaction and fall short, provide a button that takes them directly to buy the missing amount. Ideally, the game processes the currency purchase and then completes the original item purchase automatically without sending the player back through multiple menus.
 
-![](../../.assets/images/00d34b22068976c698556895c5148b4cfeef709b62bc024ae9de9e0734f012b3.png)
+![](../../.assets/image/00d34b22068976c698556895c5148b4cfeef709b62bc024ae9de9e0734f012b3.png)
 
 *Azur Lane places its store in the bottom-left corner with a clear shopping cart icon in an area of strong visual focus. Players can also reach the store by tapping the plus sign next to their gems (premium currency) in the top-right corner of the screen.*
 
@@ -107,7 +107,7 @@ A **daily free pack** can be claimed on a daily basis, requiring the player to v
 - Supplemental resources
 - Something to give players a head start in your core monetization systems, such as gacha draws, a flagship character, or consumable power-ups
 
-![](../../.assets/images/ca05c3a8e49c3869ad6baa3f08cc0d993c1ca21779f3841982df252ed762ff6d.jpg)
+![](../../.assets/image/ca05c3a8e49c3869ad6baa3f08cc0d993c1ca21779f3841982df252ed762ff6d.jpg)
 
 *Fire Emblem: Heroes offers a starter pack at $3.99 that includes premium currency (enough for a few gacha draws), a meta-viable character, and resources to strengthen that character’s stats.*
 

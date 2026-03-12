@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 1 - Setup](#module-1---setup)
 
-![Thumbnail of the Simple Shooting Mechanics tutorial world](../../../.assets/images/5800d6472c3cb9482cff0655096867c4872acf3e0ea81450099e862c20967f04.png)
+![Thumbnail of the Simple Shooting Mechanics tutorial world](../../../.assets/image/5800d6472c3cb9482cff0655096867c4872acf3e0ea81450099e862c20967f04.png)
 
 > [!Important]
 >
@@ -75,7 +75,7 @@ To begin, open your new version of the tutorial world in the desktop editor.
 4. In the Creations Home page, select your copy of the tutorial template.
 5. Your world should now be opened in the desktop editor, and your project should look something like the following:
 
-![Image of the world's entities in the desktop editor](../../../.assets/images/25cf2d406c14e592b762412f0bf346feca9a1ced7686b1159544de23a0515176.png)
+![Image of the world's entities in the desktop editor](../../../.assets/image/25cf2d406c14e592b762412f0bf346feca9a1ced7686b1159544de23a0515176.png)
 
 ### [Build mode and Preview mode](#build-mode-and-preview-mode)
 
@@ -83,7 +83,7 @@ In the above, the world is in **Build mode**, which is where you add, move, and 
 
 In Preview mode, you can drop into the world and experience it like an external visitor would. To enter Preview mode, you press the **Play button** in the toolbar:
 
-![Image of toolbar with Play button highlighted](../../../.assets/images/67e9fc823fb32ed5b514cdb0660c2eeb3208f9eb9ff2d0f1c2c22d74ff1f2b57.png)
+![Image of toolbar with Play button highlighted](../../../.assets/image/67e9fc823fb32ed5b514cdb0660c2eeb3208f9eb9ff2d0f1c2c22d74ff1f2b57.png)
 
 **Playtesting**:
 

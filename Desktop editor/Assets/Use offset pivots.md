@@ -10,7 +10,7 @@ By default, an entity’s pivot point is its center. This behavior works well fo
 
 When you create an asset using a [digital content creation tool](../../Custom%20models%20\(FBX\)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md#setup-requirements), you can configure the [3D model](../../Custom%20models%20\(FBX\)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md) to use an offset pivot instead of a center pivot. As you import [this type of asset](../../Reference/core/Classes/MeshEntity.md) to your personal asset library in Meta Horizon Worlds, you have the option to [**Preserve offset pivots**](../../Tutorials/Getting%20started/Create%20your%20first%20world%20tutorial%2C%20part%202.md#part-2-import-custom-models-and-write-your-first-script). When you enable **Preserve offset pivot**, entities spawned from the asset will rotate and scale around the pivot defined in the FBX file, instead of the default center pivot.
 
-![Turn on Preserve Offset Pivot](../../.assets/images/611ef8b6d04c4c6c4861a5e275c6e09f86f11104f4806f516adbbd153c42e0a8.png)
+![Turn on Preserve Offset Pivot](../../.assets/image/611ef8b6d04c4c6c4861a5e275c6e09f86f11104f4806f516adbbd153c42e0a8.png)
 
 Although you can use offset pivots in both the [desktop editor](../Desktop%20Editor.md) and the [VR editor](../../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), this topic focuses on the desktop experience. Additionally, you can also write [TypeScript code](../../Reference/core/Classes/Entity.md) that uses the offset pivot for rotating and scaling.
 
@@ -30,9 +30,9 @@ In this section, you import a 3D model that already contains an offset pivot to 
 
 Follow these steps to use the asset file provided by Meta that contains an offset pivot.
 
-1. Download the [Demo asset](../../.assets/misc/83c647b29f28782fe13ed455d6537aa090832a3fbc65066825a0e7e37af2f852.zip) . This file is a zip archive that contains a single mesh 3D model that contains an offset pivot, and a texture file.
+1. Download the [Demo asset](../../.assets/application/83c647b29f28782fe13ed455d6537aa090832a3fbc65066825a0e7e37af2f852.zip) . This file is a zip archive that contains a single mesh 3D model that contains an offset pivot, and a texture file.
 
-   ![A single mesh 3D model provided by Meta](../../.assets/images/390b0dda18ebfb0a920dc1e61f0ab722ff5016f4da04910f615a0e1aa52e07c7.png)
+   ![A single mesh 3D model provided by Meta](../../.assets/image/390b0dda18ebfb0a920dc1e61f0ab722ff5016f4da04910f615a0e1aa52e07c7.png)
 
 2. Unzip the archive to a local folder. Next, import the 3D model to **My Assets** either through the desktop editor or your [Meta Horizon portal account](https://horizon.meta.com/creator/assets/folder/). The following steps highlight the experience from the desktop editor.
 
@@ -40,7 +40,7 @@ Follow these steps to use the asset file provided by Meta that contains an offse
 
 4. Click on **My Assets** > **Add New** > **3D Model**.
 
-   ![Import a 3D model](../../.assets/images/6603a883fc7d757d602713e5a45cbe4b549df29af2bd925a84b429938ad3722b.png)
+   ![Import a 3D model](../../.assets/image/6603a883fc7d757d602713e5a45cbe4b549df29af2bd925a84b429938ad3722b.png)
 
 5. The **Import Model(s)** dialog appears. Click **choose files on your device**.
 
@@ -60,11 +60,11 @@ Follow these steps to use the asset file provided by Meta that contains an offse
 
    **Note**: Once the mesh of the custom model is imported, changes to the pivot must be done in a [digital content creation tool](../../Custom%20models%20\(FBX\)/Creating%20custom%20models%20for%20Horizon%20Worlds/Creating%20a%20Custom%20Model.md#setup-requirements). While you cannot change the pivot’s position in the Meta Horizon Worlds desktop or VR editor, you can toggle between the entity’s offset pivot and the center pivot as shown in the image below. The setting persists across Meta Horizon Worlds sessions.
 
-   ![Comparing center pivot to offset pivot](../../.assets/images/0b8f87a12cecf11a2e8a1aa2a61c5b212ec98827aef981a0dcb1a31ea7ee3ce2.png)
+   ![Comparing center pivot to offset pivot](../../.assets/image/0b8f87a12cecf11a2e8a1aa2a61c5b212ec98827aef981a0dcb1a31ea7ee3ce2.png)
 
    You can also enable the offset pivot in [VR](../../VR%20tools/Getting%20started/Use%20the%20Creator%20Menu%20in%20Meta%20Horizon%20Worlds.md) as shown below.
 
-   ![Turn on offset pivot in VR](../../.assets/images/24187d2697f793cfaf8ce3e5625e4271e4f9ad2998257cdfe46eaae63f40a01f.png)
+   ![Turn on offset pivot in VR](../../.assets/image/24187d2697f793cfaf8ce3e5625e4271e4f9ad2998257cdfe46eaae63f40a01f.png)
 
 3. Manipulate the entity based on its offset pivot, including position, rotation, and scale. You can do this in the [desktop editor](../Get%20started%20with%20Desktop%20Editor/User%20interface/Object%20tools.md) and in the [VR editor](../../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md).
 

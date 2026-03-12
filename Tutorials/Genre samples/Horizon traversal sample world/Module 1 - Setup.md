@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 1 - Setup](#module-1---setup)
 
-![Screenshot of the world from the spawn point](../../../.assets/images/2e9f7638b64bd33b818db3a81cfb1651b8bb6a64a49ac4b4598902e48ee58367.png)
+![Screenshot of the world from the spawn point](../../../.assets/image/2e9f7638b64bd33b818db3a81cfb1651b8bb6a64a49ac4b4598902e48ee58367.png)
 
 > [!Important]
 >
@@ -132,5 +132,5 @@ In the desktop editor, you can access the systems in the following ways:
 - Navigate the Hierarchy panel.
 - Scripts and other non-geometry resources are located behind the starting area. See below.
 
-![Screenshot of the bank of empty reference objects that host the scripts for gameplay systems](../../../.assets/images/ce13aed2fcd035f9e0b3f99c6e77309f1176080ed5ff008e9821201cfeafbc5d.png)
+![Screenshot of the bank of empty reference objects that host the scripts for gameplay systems](../../../.assets/image/ce13aed2fcd035f9e0b3f99c6e77309f1176080ed5ff008e9821201cfeafbc5d.png)
 

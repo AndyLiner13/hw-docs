@@ -20,7 +20,7 @@ Interactive, non-blocking screen overlays are designed to be used as onscreen in
 
 When you set the Display mode property of a Custom UI panel to **Screen Overlay**, a property named Input mode appears. You can use this property to switch the mode of the panel from **No Interaction** to **Interactive, Blocking** or **Interactive, Non-Blocking**, which allows the overlay to receive input from the current input pointer (such as a mouse, touchscreen, or VR controller).
 
-![](../../.assets/images/05818f68d2396d2c0f0ebd92c43545175ae0b46169847e0979f17a1f5e08e586.png)
+![](../../.assets/image/05818f68d2396d2c0f0ebd92c43545175ae0b46169847e0979f17a1f5e08e586.png)
 
 You can test the interaction by adding a Pressable component to your UI script.
 

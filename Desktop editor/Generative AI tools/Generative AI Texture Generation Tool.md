@@ -37,11 +37,11 @@ Access to GenAI features is automated and determined based on your location when
 
 2. To open the Chat Panel, click on the **GenAI** icon in the top toolbar bar.
 
-   ![Gen AI toolbar icon](../../.assets/images/c1c7be9954ca2ba20a3b5273f35f036616d4e4424d9991c5cc7366a76601d081.png)
+   ![Gen AI toolbar icon](../../.assets/image/c1c7be9954ca2ba20a3b5273f35f036616d4e4424d9991c5cc7366a76601d081.png)
 
 3. Swap the mode to **Texture**.
 
-   ![Gen AI panel texture icon](../../.assets/images/5851fc71cee5fc61907ff5d4bfe79a3f17a63222413eb2daa98a19cb4737fa52.png)
+   ![Gen AI panel texture icon](../../.assets/image/5851fc71cee5fc61907ff5d4bfe79a3f17a63222413eb2daa98a19cb4737fa52.png)
 
 ## [Generating a texture and previewing it](#generating-a-texture-and-previewing-it)
 
@@ -53,25 +53,25 @@ Access to GenAI features is automated and determined based on your location when
 
 4. The generated texture will preview on the mesh but it will not be permanently assigned to the mesh yet. You must press, **Save and apply texture** to assign the texture to the mesh permanently.
 
-   ![Generated texture sample](../../.assets/images/f966177ac764798268f6fe0e771046b1757fc8e9b402e12320b895314f04d3af.png)
+   ![Generated texture sample](../../.assets/image/f966177ac764798268f6fe0e771046b1757fc8e9b402e12320b895314f04d3af.png)
 
 ## [Saving your texture to your computer](#saving-your-texture-to-your-computer)
 
 Press **Download to local device** to save the texture to your computer.
 
-![Gen AI download to local device](../../.assets/images/b6551365ab52daafc888a553104274425038d08f3ae9e7fada27b32bbb581ee0.png)
+![Gen AI download to local device](../../.assets/image/b6551365ab52daafc888a553104274425038d08f3ae9e7fada27b32bbb581ee0.png)
 
 ## [Saving your texture to your asset library](#saving-your-texture-to-your-asset-library)
 
 Press **Add to asset library** to save the texture to your asset library without applying it to the mesh.
 
-![Gen AI save to asset library](../../.assets/images/60897ecd966a819c9de0ca0fcb3839bcf2c6d64b091aeb99ec408b3ea7bb45d8.png)
+![Gen AI save to asset library](../../.assets/image/60897ecd966a819c9de0ca0fcb3839bcf2c6d64b091aeb99ec408b3ea7bb45d8.png)
 
 ## [Assigning a saved texture from your library to a mesh](#assigning-a-saved-texture-from-your-library-to-a-mesh)
 
 Open your Asset Library and select the object you want to assign a texture to. In the property panel’s **Texture Asset** dropdown menu, select the texture you want.
 
-![Assign generated texture to mesh](../../.assets/images/11fddb1de8f6c0e46525fbd0811e19a194589fab8c59dce2bc787f5ec3c02524.png)
+![Assign generated texture to mesh](../../.assets/image/11fddb1de8f6c0e46525fbd0811e19a194589fab8c59dce2bc787f5ec3c02524.png)
 
 ## [UV Requirements for Texture Generation](#uv-requirements-for-texture-generation)
 

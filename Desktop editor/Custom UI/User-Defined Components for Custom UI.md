@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Often, you will need to render multiple components with similar styles. For example, let’s say you want to modify your change-ball-color example so that the players can choose between two colors, “Red” and “Green”:
 
-![](../../.assets/images/d11569b4776f94af43342d8cb4c78b6b9eedf18054169e422226ee1abffea151.png)
+![](../../.assets/image/d11569b4776f94af43342d8cb4c78b6b9eedf18054169e422226ee1abffea151.png)
 
 Those two buttons largely have the same styles, i.e. height, padding, border radius, etc., with only small differences like background color. Their children texts also have the same style. It will be verbose to duplicate these styles for each button.
 

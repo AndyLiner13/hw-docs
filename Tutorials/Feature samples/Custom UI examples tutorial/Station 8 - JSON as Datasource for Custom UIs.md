@@ -10,11 +10,11 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 This station demonstrates how you can store content data for your custom UIs in JSON files, which are uploaded and referenced in TypeScript to populate three separate but related custom UIs:
 
-![Image of Station 8](../../../.assets/images/7a229484823fbb0bc773a4d4803c8ea2925fa79dd3836e39cbb96409d0d07cb7.png)
+![Image of Station 8](../../../.assets/image/7a229484823fbb0bc773a4d4803c8ea2925fa79dd3836e39cbb96409d0d07cb7.png)
 
 In the above example, each custom UI is a read-only informational kiosk. Since the structure of the custom UI is consistent, the content itself can be managed externally, which allows non-engineers to manage the content, while engineers maintain the custom UI definitions for all three in a single TypeScript file.
 
-![Image of a Custom UI populated by JSON data](../../../.assets/images/4d64206c16bc44bdde755e5109dbad0db708342f370b4607ee85e002c0127b94.png)
+![Image of a Custom UI populated by JSON data](../../../.assets/image/4d64206c16bc44bdde755e5109dbad0db708342f370b4607ee85e002c0127b94.png)
 
 #### [How it works](#how-it-works)
 

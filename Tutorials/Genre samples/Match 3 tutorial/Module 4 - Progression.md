@@ -12,7 +12,7 @@ Players earn experience points by completing levels and milestones throughout th
 
 When players accumulate enough experience points to reach the level threshold, they level up and their profile level increases.
 
-To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down. ![A view of the "scripts in this world" drop down](../../../.assets/images/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)
+To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down. ![A view of the "scripts in this world" drop down](../../../.assets/image/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)
 
 ## [Try It First](#try-it-first)
 
@@ -59,7 +59,7 @@ In the code, you’ll find:
 
 **Key implementation**: The XP system uses a relay pattern to connect the scoring system to progression:
 
-![Chart for the xp system](../../../.assets/images/121c4beeb4a7367e84133a56e91c8e9ad33d11f1bef8db6fa4ca04e4e0b5d2da.png)
+![Chart for the xp system](../../../.assets/image/121c4beeb4a7367e84133a56e91c8e9ad33d11f1bef8db6fa4ca04e4e0b5d2da.png)
 
 The `awardMatchXP()` method in `Progression_XPRelay.ts:52`:
 
@@ -208,7 +208,7 @@ In the code, you’ll find:
 
 **Key implementation**: Achievements use a relay architecture where each achievement listens to game events and tracks its own progress:
 
-![Chart for how player achievements work](../../../.assets/images/9fafcbb6a2fd4538182740e557ac7cdaacbd357cb155d49ebe45deeff20dcf84.png)
+![Chart for how player achievements work](../../../.assets/image/9fafcbb6a2fd4538182740e557ac7cdaacbd357cb155d49ebe45deeff20dcf84.png)
 
 How `TilePopAchievement` Works (`Progression_AchievementRelays.ts:70`):
 
@@ -221,7 +221,7 @@ How `TilePopAchievement` Works (`Progression_AchievementRelays.ts:70`):
 
 **Achievement lifecycle**:
 
-![Chart of the achievement lifecycle](../../../.assets/images/8f6f7a80834c05de8d62a609dc4093b564109eb35184434eca745661d2bb1628.png)
+![Chart of the achievement lifecycle](../../../.assets/image/8f6f7a80834c05de8d62a609dc4093b564109eb35184434eca745661d2bb1628.png)
 
 **Creating custom achievements**:
 
@@ -433,7 +433,7 @@ In the code, you’ll find:
 
 **Key implementation**: Level sequences use a parent-child component pattern in Horizon Worlds:
 
-![Chart of level sequences](../../../.assets/images/d73ec45f1fcc25d8ba588ede6543c01931b4d2e17c6c970c3466852c50fdc90d.png)
+![Chart of level sequences](../../../.assets/image/d73ec45f1fcc25d8ba588ede6543c01931b4d2e17c6c970c3466852c50fdc90d.png)
 
 How Level Sequences Work:
 
@@ -456,16 +456,16 @@ How Level Sequences Work:
    - In the drop-down bar, search for the config overrides defined in `Progression_LevelSequenceConfigs`
    - Examples:
 
-   * To create a new “Goal” objective to match 30 red tiles, attach component `ObjectiveTileMatch` and assign the `tileType` and `matchAmount` quantities. ![An image of the match amount parameter](../../../.assets/images/6b0050e456b1b18cb287bf22cec8332699d3b96e62c9ff6f821069917cd2b208.png)
-   * To adjust star thresholds, attach component `OverrideStaRatingThreshold` and assign new values to the thresholds. ![An image of the star threshold parameters](../../../.assets/images/3e4da4aaa1dab2afab03008264b77ab341494246b2e952cf09420376b09bf0c2.png)
+   * To create a new “Goal” objective to match 30 red tiles, attach component `ObjectiveTileMatch` and assign the `tileType` and `matchAmount` quantities. ![An image of the match amount parameter](../../../.assets/image/6b0050e456b1b18cb287bf22cec8332699d3b96e62c9ff6f821069917cd2b208.png)
+   * To adjust star thresholds, attach component `OverrideStaRatingThreshold` and assign new values to the thresholds. ![An image of the star threshold parameters](../../../.assets/image/3e4da4aaa1dab2afab03008264b77ab341494246b2e952cf09420376b09bf0c2.png)
 
 4. **Override Configs** (customize level settings)
 
    - Similarly, you can override level settings such as the board size and the amount of XP needed for Star Ratings.
 
-   * To assign a unique board size, attach component `OverrideBoardGame` to assign a unique grid size and chance for the same gem to spawn in an adjacent tile. ![An image of the grid size parameters](../../../.assets/images/6c78dea315548d9ba7caeb0f4d8df8b9731ed20cb78db1aee3b08872fc5da1d1.png)
-   * To override the amount of XP awarded, attach `OverrideMatchExperience`![An image of the parameters for xp awarded by number of stars](../../../.assets/images/f569414199a778c0a0bf946e333ae2bbd9580e2664145912628185a316d21126.png)
-   * To override this level by adding blocker tiles, attach component `AddBoardBlockers`, then define the tile position, the type of blocker, and the `blockerPattern`. ![An image of the parameters for blocker tiles](../../../.assets/images/f569414199a778c0a0bf946e333ae2bbd9580e2664145912628185a316d21126.png)
+   * To assign a unique board size, attach component `OverrideBoardGame` to assign a unique grid size and chance for the same gem to spawn in an adjacent tile. ![An image of the grid size parameters](../../../.assets/image/6c78dea315548d9ba7caeb0f4d8df8b9731ed20cb78db1aee3b08872fc5da1d1.png)
+   * To override the amount of XP awarded, attach `OverrideMatchExperience`![An image of the parameters for xp awarded by number of stars](../../../.assets/image/f569414199a778c0a0bf946e333ae2bbd9580e2664145912628185a316d21126.png)
+   * To override this level by adding blocker tiles, attach component `AddBoardBlockers`, then define the tile position, the type of blocker, and the `blockerPattern`. ![An image of the parameters for blocker tiles](../../../.assets/image/f569414199a778c0a0bf946e333ae2bbd9580e2664145912628185a316d21126.png)
 
 **Creating a multi-level game**:
 
@@ -556,7 +556,7 @@ startLevelSequence
 
 **Objective validator flow**:
 
-![Chart of objective validation](../../../.assets/images/fa0326e362804c1d550dfe2bdf13930eec94d6fd290573fd5eb7798eeeb91726.png)
+![Chart of objective validation](../../../.assets/image/fa0326e362804c1d550dfe2bdf13930eec94d6fd290573fd5eb7798eeeb91726.png)
 
 Each validator implements `IObjectiveValidator` interface:
 
@@ -732,9 +732,9 @@ Key files to explore:
 
 The progression system integrates with other game modules through events:
 
-![Chart of the scoring system](../../../.assets/images/98de5beac9dc75889d3101925e433d686e8ed8a311e5872519d377cf8e5be8b2.png)
+![Chart of the scoring system](../../../.assets/image/98de5beac9dc75889d3101925e433d686e8ed8a311e5872519d377cf8e5be8b2.png)
 
 **Event flow**:
 
-![Chart of the event flow](../../../.assets/images/43ef9b5b782cafc7d3aa81cf525070456fc9094183a8df9aedd3e47e2eb56280.png)
+![Chart of the event flow](../../../.assets/image/43ef9b5b782cafc7d3aa81cf525070456fc9094183a8df9aedd3e47e2eb56280.png)
 

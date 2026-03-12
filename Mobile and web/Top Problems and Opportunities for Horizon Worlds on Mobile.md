@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 In the rapidly evolving landscape of mobile gaming, user experience is paramount to retaining and engaging players. As creators strive to create immersive and seamless environments, understanding and addressing mobile user pain points becomes crucial. This article highlights some of the top in-world content and usability opportunities for mobile experiences that creators can immediately take action on to retain and engage players.
 
-![An image of a mobile user playing a game.](../.assets/images/0b501b08d0d3d2d7dc4d6868624a0b7b23e5cbf9d32898ca1aeafc77a1929304.jpg)
+![An image of a mobile user playing a game.](../.assets/image/0b501b08d0d3d2d7dc4d6868624a0b7b23e5cbf9d32898ca1aeafc77a1929304.jpg)
 
 # [Key Opportunities](#key-opportunities)
 
@@ -50,7 +50,7 @@ In the rapidly evolving landscape of mobile gaming, user experience is paramount
     2. Enhance load screens with engaging content and tips to retain user interest
     3. Leverage smooth animations to make the wait feel intentional.
 
-![A mobile game with a loading bar.](../.assets/images/b1a64022468b4625b3cd58e302b983e8a3fa9bae3a342014cc229cc3871c5797.jpg)
+![A mobile game with a loading bar.](../.assets/image/b1a64022468b4625b3cd58e302b983e8a3fa9bae3a342014cc229cc3871c5797.jpg)
 
 By focusing on these core opportunities, creators can significantly enhance the mobile gaming experience for Horizon players. Creating intuitive and accessible mobile gameplay will ensure a rewarding experience that appeals to a diverse audience. Through the strategies provided, creators are equipped to overcome common challenges and foster deeper player engagement.
 

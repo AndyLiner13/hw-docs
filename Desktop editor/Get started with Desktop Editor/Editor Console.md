@@ -20,17 +20,17 @@ This article describes the parts of the Console UI, and it explains how to acces
 
 By default, the console pane doesn’t appear on the editor screen. Instead, it displays in a tab (collapsed by default) located beneath the **Scene** pane.
 
-![](../../.assets/images/52564058fe4b4ddfec753e71e0b2b548c266b65b4532a1475b0b4f912eb6521c.png)
+![](../../.assets/image/52564058fe4b4ddfec753e71e0b2b548c266b65b4532a1475b0b4f912eb6521c.png)
 
 To open the console, click the **Console** tab. The tab expands and displays the contents of one of its two sub-views: **Status View** and **Simulation View**.
 
-![](../../.assets/images/a01a249813270bf587e3ae4750ec00f5ee9d5b1d086d42982a1dd33be62e3ad2.png)
+![](../../.assets/image/a01a249813270bf587e3ae4750ec00f5ee9d5b1d086d42982a1dd33be62e3ad2.png)
 
 ## [Console interface](#console-interface)
 
 The following image highlights the main components of the Editor Console.
 
-![](../../.assets/images/6270c90f890674de0943287f8e7e61cffc42fcee21ed2400093ddd06b0ec9d55.png)
+![](../../.assets/image/6270c90f890674de0943287f8e7e61cffc42fcee21ed2400093ddd06b0ec9d55.png)
 
 1. **Toolbar**: Contains controls that let you clear and filter message logs.
 2. **Header**: Arranges the message details in a structured format to make the information easy to find, and easy to read. In this format, log messages display along with associated metadata, and the name of the script and or world object that generated the message.
@@ -41,7 +41,7 @@ The following image highlights the main components of the Editor Console.
 
 The Status View displays compilation information about each one of your scripts for each connected client, and for the server. Details include the current status of each one of your scripts. Script status is either `Not Compiled`, `Compiling`, or `Finished Compiling`. These details are displayed along with timestamps of the latest update for each script. Compilation errors and warnings are also shown.
 
-![](../../.assets/images/179b7fce0a0fa9dec487dbea909ff6d418746bf1439f6521c576385065e14732.png)
+![](../../.assets/image/179b7fce0a0fa9dec487dbea909ff6d418746bf1439f6521c576385065e14732.png)
 
 Build log messages on this tab aren’t displayed in chronological order. Instead they’re organized by script. The list displays details from just the most recent script compilation. Status View also shows the compilation time on each connected client, along with any compilation errors.
 
@@ -49,7 +49,7 @@ Build log messages on this tab aren’t displayed in chronological order. Instea
 
 The Simulation View displays `console.log()` messages from your code, as well as system errors and warnings, in chronological order.
 
-![](../../.assets/images/7015e4cdff6c5cadb6d91828c82eb3a8f69bf31cb168fd453dfa807a51905aac.png)
+![](../../.assets/image/7015e4cdff6c5cadb6d91828c82eb3a8f69bf31cb168fd453dfa807a51905aac.png)
 
 ## [Console toolbar](#console-toolbar)
 
@@ -57,9 +57,9 @@ The console toolbar contains the following controls.
 
 | **Control**                                                                                    | **Description**                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../../.assets/images/f9c3ca89529d875be90b378fdeab67844a4bf23b0687c11a29968edd2806e4e9.png) | Deletes all of the log messages in the console. Does not depend on world status. You cannot undo this action.                                             |
-| ![](../../.assets/images/e162d335df1db9e89a9252cf3c0f87eaacc6b9d26463592ca3f91a374489bf4e.png) | Display and hide log messages by log level. The log levels are: `Information`, `Warnings`, and `Errors`. Enable a message log level by clicking its icon. |
-| ![](../../.assets/images/f1f0ed2048859bd4a8017a61cc221710d37d28e8a4dd03dd7dca2586a1beb3ff.png) | Search for log messages (or apply a filter). You can input a string (case sensitive) or a regular expression.                                             |
+| ![](../../.assets/image/f9c3ca89529d875be90b378fdeab67844a4bf23b0687c11a29968edd2806e4e9.png) | Deletes all of the log messages in the console. Does not depend on world status. You cannot undo this action.                                             |
+| ![](../../.assets/image/e162d335df1db9e89a9252cf3c0f87eaacc6b9d26463592ca3f91a374489bf4e.png) | Display and hide log messages by log level. The log levels are: `Information`, `Warnings`, and `Errors`. Enable a message log level by clicking its icon. |
+| ![](../../.assets/image/f1f0ed2048859bd4a8017a61cc221710d37d28e8a4dd03dd7dca2586a1beb3ff.png) | Search for log messages (or apply a filter). You can input a string (case sensitive) or a regular expression.                                             |
 
 You can combine filters with log levels to increase your search granularity.
 

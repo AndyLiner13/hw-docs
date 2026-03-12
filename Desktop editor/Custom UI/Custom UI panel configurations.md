@@ -10,11 +10,11 @@ Find these settings by first selecting the **Custom UI** gizmo entity in **Hiera
 
 The following image shows the custom UI panel configuration settings in the desktop editor.
 
-![The custom UI panel configuration in the desktop editor](../../.assets/images/9bfb20de67080633d0c7611e1b7769942306c4a8d4af54539e03268b9bf85003.png)
+![The custom UI panel configuration in the desktop editor](../../.assets/image/9bfb20de67080633d0c7611e1b7769942306c4a8d4af54539e03268b9bf85003.png)
 
 The following image shows the custom UI panel configuration settings in the VR edit mode.
 
-![The custom UI panel configuration in the VR edit mode](../../.assets/images/e968b5ab679f78ebad7d636a8f5144ba7478120d239777e77033857ef85d10cb.png)
+![The custom UI panel configuration in the VR edit mode](../../.assets/image/e968b5ab679f78ebad7d636a8f5144ba7478120d239777e77033857ef85d10cb.png)
 
 There are no TypeScript APIs for these configurations. They can only be set statically in **Properties** and cannot be changed at runtime.
 
@@ -46,7 +46,7 @@ When mipmap is enabled, the mipmap value setting becomes visible. The range for 
 
 Unlike in VR, players do not interact with UI panels through raycast on web and mobile platforms. Instead, players see a prompt when they are within a certain distance from the UI panel, prompting them to press “E” key. If they do, the camera will zoom in and focus onto the UI panel, and players can interact with the UI through clicking or tapping.
 
-![The player sees the UI panel Hello World](../../.assets/images/d5c648fda126b7cfc881b8d34052c3c758010c9c420fd6a65a70c5a4d94a83ac.png)
+![The player sees the UI panel Hello World](../../.assets/image/d5c648fda126b7cfc881b8d34052c3c758010c9c420fd6a65a70c5a4d94a83ac.png)
 
 When the focus prompt is disabled, players cannot zoom in and focus onto the UI panel and they cannot interact with the panel.
 

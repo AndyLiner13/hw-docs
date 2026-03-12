@@ -41,10 +41,10 @@ When you have completed your custom 3D model, it is ready to be uploaded.
 Follow these steps to upload your custom model into your Horizon World.
 
 1. Make sure you are signed into your Meta account, then navigate to [https://horizon.meta.com/](https://horizon.meta.com/creator/assets/).
-2. Select the folder you wish to upload into and select **import**. ![](../../.assets/images/c11ff1c389485fc7bf5a876c31470ffe59ffbaa5811752590ca513a0d8e1e102.png)
-3. Drag and drop a **single** FBX file and its associated texture(s). ![](../../.assets/images/0eca0b4e3c4b9d2418d60b9ab3dc42ac9722e42ae3b6b555f01e02f6eeee73e3.png)
+2. Select the folder you wish to upload into and select **import**. ![](../../.assets/image/c11ff1c389485fc7bf5a876c31470ffe59ffbaa5811752590ca513a0d8e1e102.png)
+3. Drag and drop a **single** FBX file and its associated texture(s). ![](../../.assets/image/0eca0b4e3c4b9d2418d60b9ab3dc42ac9722e42ae3b6b555f01e02f6eeee73e3.png)
 4. Click **Import** and wait for it to process.
-5. Now in Horizon’s build mode, if you navigate to the folder you uploaded to, you will find your asset and be able to pull it into your world. ![](../../.assets/images/1dad84082108ba448b6ea065496a03e05b1c99df4a4dc271efc8b8d72d2201ce.png)
+5. Now in Horizon’s build mode, if you navigate to the folder you uploaded to, you will find your asset and be able to pull it into your world. ![](../../.assets/image/1dad84082108ba448b6ea065496a03e05b1c99df4a4dc271efc8b8d72d2201ce.png)
 
 ## [How to Create Custom Models for Meta Horizon Worlds](#how-to-create-custom-models-for-meta-horizon-worlds)
 

@@ -18,7 +18,7 @@ This station features two example overlays:
 
 Both overlays are visible in the following image:
 
-![Image of Timer and Build Info overlays](../../../.assets/images/ec466a2c4a647b1aad52df3053ec12ba09f708fac4512ffa71a905bacfb9ba7e.png)
+![Image of Timer and Build Info overlays](../../../.assets/image/ec466a2c4a647b1aad52df3053ec12ba09f708fac4512ffa71a905bacfb9ba7e.png)
 
 ## [Configuration Differences for Screen Overlay Custom UIs](#configuration-differences-for-screen-overlay-custom-uis)
 

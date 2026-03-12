@@ -29,21 +29,21 @@ To start using avatar video sharing, use the following process:
 
 2. Tap the **Share** icon, then tap **Share avatar video** from the listed menu option.
 
-   ![Share avatar video](../../.assets/images/b214172a42c0caf4982cc0ce603a0ae78d96a6156559c1a551ea1318969dd791.png)
+   ![Share avatar video](../../.assets/image/b214172a42c0caf4982cc0ce603a0ae78d96a6156559c1a551ea1318969dd791.png)
 
 3. In the share avatar view, set an **Emote**, generate a **Backdrop**, and customize your **Avatar’s** look prior to sharing. You can also resize and move the Avatar around. This is an opportunity to add digital goods for purchase to your avatar for your audience to see.
 
 4. Once you’re done customizing your avatar video, tap **Share** in the top right corner to open the share menu and select a platform to share your video to.
 
-   ![Share menu options](../../.assets/images/ba6b0c6da31c16b8350d0de1e340282a76efea9c51928b58453a662b06179c1d.png)
+   ![Share menu options](../../.assets/image/ba6b0c6da31c16b8350d0de1e340282a76efea9c51928b58453a662b06179c1d.png)
 
 5. Once shared, your friends and connections can view your shared video and tap. On IG Stories, by tapping **From Meta Horizon** they will be taken to your Horizon profile.
 
-![Look details pop up](../../.assets/images/41103328c1152ee9f1c5998d328b786abed6e3fbf1690601e7910a386cf3d67e.png)
+![Look details pop up](../../.assets/image/41103328c1152ee9f1c5998d328b786abed6e3fbf1690601e7910a386cf3d67e.png)
 
 1. By tapping your avatar they can view the digital goods your avatar is wearing and optionally purchase them for themselves. Tapping the listed items will take users to that items PDP (Product Description Page). You can additionally add a text sticker to the shared story to encourage viewers to tap on the avatar.
 
-   ![Avatar clothing list](../../.assets/images/6a55abe20198d5859a2b71dc8c36df521b829efb026c85f797a59f7cde9620c2.png)
+   ![Avatar clothing list](../../.assets/image/6a55abe20198d5859a2b71dc8c36df521b829efb026c85f797a59f7cde9620c2.png)
 
 ## [Best Practices](#best-practices)
 

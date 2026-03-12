@@ -18,7 +18,7 @@ The Debug Console gizmo enables you to view the debug logs in a world while in p
   - Multiple Debug Consoles can be placed in a world, and all of them will receive the same logs.
   - Logs can be cleared by pressing the **Clear** button or searched by entering search terms in the search field.
 
-![The debug console as appears in VR](../../.assets/images/504bed1b3723b8eee4f154b508c7056d9a10025a86d7e9cbd965dc5e8299477b.png)
+![The debug console as appears in VR](../../.assets/image/504bed1b3723b8eee4f154b508c7056d9a10025a86d7e9cbd965dc5e8299477b.png)
 
 ## [Controlling Visibility of the Debug Console](#controlling-visibility-of-the-debug-console)
 
@@ -33,7 +33,7 @@ In the Properties panel for a Debug Console, you can set the visibility of the c
 - **In Published World**
 - Visible in edit mode, preview mode, and published mode
 
-![](../../.assets/images/7c0678052ebfb1871968aad76f80aeaf65444ec96b8eb8e68f21fb4ece058fe7.png)
+![](../../.assets/image/7c0678052ebfb1871968aad76f80aeaf65444ec96b8eb8e68f21fb4ece058fe7.png)
 
 The Visibility setting applies to the world owner, editors, and testers. If you configure a Debug Console with the “In Published World” setting, all collaborators will be able to see it. As a result, at no time will a regular world visitor see the console.
 

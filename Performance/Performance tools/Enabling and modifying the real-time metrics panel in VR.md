@@ -48,11 +48,11 @@ You can grab the white bar below the Real-time performance metrics panel by usin
 
 You can minimize the Real-time metrics panel by pressing the **Minimize** button to the right of the settings button.
 
-![](../../.assets/images/1ddcfebec43c543888b2660f98c05413b60f0e39b9c79bbc6e8a98043f4fdecd.jpg)
+![](../../.assets/image/1ddcfebec43c543888b2660f98c05413b60f0e39b9c79bbc6e8a98043f4fdecd.jpg)
 
 Once minimized, you can restore the panel by clicking the button again.
 
-![](../../.assets/images/053033cc89d7d9784fb3c4f9c7c36d0fc19f6a402da842ec595e4d7fecf21635.png)
+![](../../.assets/image/053033cc89d7d9784fb3c4f9c7c36d0fc19f6a402da842ec595e4d7fecf21635.png)
 
 ## [Real-time metrics graphs](#real-time-metrics-graphs)
 
@@ -60,7 +60,7 @@ Once minimized, you can restore the panel by clicking the button again.
 
 Press the **Settings button** on the Real-time metrics panel to open the display settings.
 
-![](../../.assets/images/40b7f5fc3422b2072bb0e81b39c54898b4fc9c88c95a00723af761835978ea89.jpg)
+![](../../.assets/image/40b7f5fc3422b2072bb0e81b39c54898b4fc9c88c95a00723af761835978ea89.jpg)
 
 Under Graphs, there are checkboxes for the metrics that are available.
 
@@ -78,11 +78,11 @@ You can set metric targets to signal you when they exceed the desired target. Wh
 
 To set a metric target, enter the target value into that metric’s **Target** field in the display settings.
 
-![](../../.assets/images/e871c303b461ed2f1212d822ac42db84e78e6e5b85e884dd39599652e56ad976.jpg)
+![](../../.assets/image/e871c303b461ed2f1212d822ac42db84e78e6e5b85e884dd39599652e56ad976.jpg)
 
 In this example, the GPU target is lowered to 2.0 milliseconds, which causes it to become highlighted red in the Real-time metrics panel for as long as the average GPU is over the new target.
 
-![](../../.assets/images/039cd05fd76a4b3c8213514dcacabe97689c8f50aee4d134e19d4c3c1dbba275.jpg)
+![](../../.assets/image/039cd05fd76a4b3c8213514dcacabe97689c8f50aee4d134e19d4c3c1dbba275.jpg)
 
 ## [Real-time Metric Descriptions](#real-time-metric-descriptions)
 

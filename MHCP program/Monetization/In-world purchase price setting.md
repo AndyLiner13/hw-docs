@@ -30,5 +30,5 @@ Upon completion, a notification will appear confirming the price has successfull
 
 For all of the visual learners, we also have a video of the price setting process:
 
-<video controls><source src="../../.assets/videos/3e6205691c14e7276999e7ccd74aa5d34213d182aacc751d5e911eb5944de1e0.mp4" type="video/mp4"></video>
+<video controls><source src="../../.assets/video/3e6205691c14e7276999e7ccd74aa5d34213d182aacc751d5e911eb5944de1e0.mp4" type="video/mp4"></video>
 

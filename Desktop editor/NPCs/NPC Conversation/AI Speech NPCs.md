@@ -107,7 +107,7 @@ In the **Voice and Speech** tab you can either select a preset voice from the **
 
 The **Voice library** is a collection of voices that can be assigned to your NPC.
 
-![Voice selection window](../../../.assets/images/7d628292769d09facb4521f55f6aa839ac20e462dcb0f19e1ab7383006849c00.png)
+![Voice selection window](../../../.assets/image/7d628292769d09facb4521f55f6aa839ac20e462dcb0f19e1ab7383006849c00.png)
 
 You can use the search bar to search the **Voice library** for a specific voice and filter the results by **Gender** (Male, Female, or Nonbinary), and **Tags**. After finding a voice you’d like to use, you can use the right panel to preview the voice and alter it’s **Properties**. You can update the **Speed** and **Pitch** of the voice, and use the **Voice test phrase** window to provide text for the voice to speak allowing you to preview the voice.
 
@@ -119,23 +119,23 @@ Additionally, any generated voices will appear in the **Voice library** and can 
 
 You can select the **Generate voices** option to generate an AI voice for your NPC.
 
-![NPC voice generate window](../../../.assets/images/eccbe6f950799a5d7bc3829676679ea14525acaa71e788cad0b5ba6825d61dcd.png)
+![NPC voice generate window](../../../.assets/image/eccbe6f950799a5d7bc3829676679ea14525acaa71e788cad0b5ba6825d61dcd.png)
 
 The **Generate voices** tab offers a variety of prebuilt prompts to help you generate a voice for your NPC. You can also use the text box to create your own prompt by describing the tone, pacing, and personality of the generated voice.
 
 Once the prompt is input into the field, click **Generate** to begin generating voices. Once finished you will be presented with 2 options.
 
-![NPC voice generate options](../../../.assets/images/8f1e243db04a91d412299f7d20a2c0809f5a63102c687ecd921940d3d465d67a.png)
+![NPC voice generate options](../../../.assets/image/8f1e243db04a91d412299f7d20a2c0809f5a63102c687ecd921940d3d465d67a.png)
 
 Click the play button next to the option to have the voice read the text in the **Voice test phraase** box. You also can alter the voice’s properties to dial in the generated voice to your preference for the NPC.
 
 Once your generated voice is ready, click **Save to library** and give the generated voice a **Name**, **Description**, then set its **Gender** and any **Tags** you want associated with the voice. When finished, click **Save** to save the generated voice.
 
-![Save generated NPC voice](../../../.assets/images/17a2c754b92cbc074b7a220116d829c990a8718f50f36ebedd833a6ac91ed2c2.png)
+![Save generated NPC voice](../../../.assets/image/17a2c754b92cbc074b7a220116d829c990a8718f50f36ebedd833a6ac91ed2c2.png)
 
 Your generated voices will appear in the **Voice library** tab in the **Generated voices** section. You can have up to 10 generated voices per world saved and available at a time.
 
-![Saved generated NPC voice](../../../.assets/images/6c02741636a84159b1da7a50d718955881903494d6f0c7be882aa87eda3952ec.png)
+![Saved generated NPC voice](../../../.assets/image/6c02741636a84159b1da7a50d718955881903494d6f0c7be882aa87eda3952ec.png)
 
 ## [Event Perceptions](#event-perceptions)
 

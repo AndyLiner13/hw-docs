@@ -13,8 +13,8 @@ Before you can enable Real-time metrics in your world, you must first enable the
 1. Visit a world
 2. Select the Menu button on your left controller
 3. Select **Settings**
-4. Select the **Utilities** tab ![](../../.assets/images/3ef225b99087198e6adec69a865d523ddfc0ba2963dac434518dcf3b2cab3694.png)
-5. Toggle the menu to on ![](../../.assets/images/ac9aa31e429949028c54a88ec8c70a895a09e64e81acc8666afed25ddd49f712.png)
+4. Select the **Utilities** tab ![](../../.assets/image/3ef225b99087198e6adec69a865d523ddfc0ba2963dac434518dcf3b2cab3694.png)
+5. Toggle the menu to on ![](../../.assets/image/ac9aa31e429949028c54a88ec8c70a895a09e64e81acc8666afed25ddd49f712.png)
 
 For instructions on Enabling and Modifying your Real-Time Metrics Menu, [follow this guide](Enabling%20and%20modifying%20the%20real-time%20metrics%20panel%20in%20VR.md).
 

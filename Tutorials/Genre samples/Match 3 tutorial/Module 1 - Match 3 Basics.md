@@ -14,11 +14,11 @@ To win, players have to clear a specific number of tiles within a set number of 
 
 A great Match 3 game encourages players to think ahead in order to chain multiple matches from a single move.
 
-To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down. ![A view of the "scripts in this world" drop down](../../../.assets/images/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)
+To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down. ![A view of the "scripts in this world" drop down](../../../.assets/image/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)
 
 ## [Try It First](#try-it-first)
 
-![Example of the Match 3 board](../../../.assets/images/8b30c1bed0d5f2f18feef9a6a1b4960bdd29accb77cd5fe8998e99ff1a34d505.png)
+![Example of the Match 3 board](../../../.assets/image/8b30c1bed0d5f2f18feef9a6a1b4960bdd29accb77cd5fe8998e99ff1a34d505.png)
 
 ### [Play the Match 3 Basics game](#play-the-match-3-basics-game)
 
@@ -111,7 +111,7 @@ Learn about the cascade system that rewards players for creating chain reactions
 
 The game uses a *state machine* (`GameStateController`) that automatically creates cascades. When tiles fall and create new matches, the game loops through states:
 
-![A diagram of the state machine](../../../.assets/images/13a00f2f3d7ec41492e55afcc4a270015e53977c838afd9bdc7372ce91bb7475.png)
+![A diagram of the state machine](../../../.assets/image/13a00f2f3d7ec41492e55afcc4a270015e53977c838afd9bdc7372ce91bb7475.png)
 
 In the code, you’ll find:
 
@@ -204,7 +204,7 @@ Key files to explore:
 
 The Match 3 Basics implementation follows this state machine flow:
 
-![State machine for the code architecture](../../../.assets/images/ad56c185f2939cbe20357a5227ecaf5e31cec9dda0588b4bee7d6b836151c016.png)
+![State machine for the code architecture](../../../.assets/image/ad56c185f2939cbe20357a5227ecaf5e31cec9dda0588b4bee7d6b836151c016.png)
 
 **Key insight**: The state machine automatically handles cascades by looping between `CHECK_MATCHES` and `APPLY_GRAVITY` until no more matches exist. The `ComboTracker` increments with each loop iteration, increasing the score multiplier.
 

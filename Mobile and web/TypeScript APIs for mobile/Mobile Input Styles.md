@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/create-fo
 
 Joystick step-input replaces traditional analog controls with discrete speed bands. This movement control system provides predictable, intentional, and responsive control for mobile players in Horizon Worlds.
 
-![Comparison of Analog input (linear speed curve) versus Step Based input (discrete speed bands)](../../.assets/images/f7b8da46f25b7467d4491116e59941ae9c707125c9cf9a4ea78b2d9146435707.png)
+![Comparison of Analog input (linear speed curve) versus Step Based input (discrete speed bands)](../../.assets/image/f7b8da46f25b7467d4491116e59941ae9c707125c9cf9a4ea78b2d9146435707.png)
 
 ## [Why Step-Input is Important for Mobile Worlds](#why-step-input-is-important-for-mobile-worlds)
 
@@ -29,7 +29,7 @@ Add step-input controls to your Horizon World:
 4. Hover over **Execution Mode >**.
 5. Select **Local**.
 
-![Setting script execution mode to Local](../../.assets/images/53f0dd7fae8aa126cc2b96680d952c931c25398f378b5ca748bf6edb19a8ffa6.png)
+![Setting script execution mode to Local](../../.assets/image/53f0dd7fae8aa126cc2b96680d952c931c25398f378b5ca748bf6edb19a8ffa6.png)
 
 ### [Step 2: Setup an Asset Pool](#step-2-setup-an-asset-pool)
 
@@ -43,7 +43,7 @@ Add step-input controls to your Horizon World:
 8. Move **Local Player** as a child of **Asset Pool**.
 9. Duplicate **Local Player** for the maximum number of players in your scene.
 
-![Asset Pool setup with Local Player objects](../../.assets/images/40dc7f634fffee9c4d94133c5f4909b7c09f0548db7ce58f8b13f87c15c96a69.png)
+![Asset Pool setup with Local Player objects](../../.assets/image/40dc7f634fffee9c4d94133c5f4909b7c09f0548db7ce58f8b13f87c15c96a69.png)
 
 > [!Note]
 >

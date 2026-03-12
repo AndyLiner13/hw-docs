@@ -16,7 +16,7 @@ By the end of this user guide, you’ll know how to:
 
 As you get more familiar with Perfetto and the Real-time Metrics menu, reference this checklist to better understand the cause and effect of performance issues. For a more in-depth explanation and step-by-step tutorial on how to use this checklist, go watch the [Connect ‘23 Horizon World Performance Optimization Best Practices talk](../Connect%20'23%20Video%20Series%20World%20Optimization%20Best%20Practices.md).
 
-![](../../.assets/images/cb1825e328d5be597913c0444fb9f18d6f549c7c9de0e448860ebd4818e7034f.png)
+![](../../.assets/image/cb1825e328d5be597913c0444fb9f18d6f549c7c9de0e448860ebd4818e7034f.png)
 
 The first step in analyzing traces is downloading them once they’ve been captured.
 
@@ -36,11 +36,11 @@ To view a trace file directly from the Developer Dashboard, select **Perfetto** 
 
 - Use the **Search** input box at the top of the Prefetto UI tool to find a thread or process.
 
-  ![Perfetto UI search box](../../.assets/images/bf555be572d993733c2b2418652ccfa5d22404518cae3b7eba927e19239b0571.png)
+  ![Perfetto UI search box](../../.assets/image/bf555be572d993733c2b2418652ccfa5d22404518cae3b7eba927e19239b0571.png)
 
 - If the search function finds a match, it will highlight the counter in yellow.
 
-  ![Using the Search bar to find a call inside a call graph](../../.assets/images/424ddd5f9ae9e95c2cedc40656c0c84c349af5b8374588102b1ca1ba88fb3ade.png)
+  ![Using the Search bar to find a call inside a call graph](../../.assets/image/424ddd5f9ae9e95c2cedc40656c0c84c349af5b8374588102b1ca1ba88fb3ade.png)
 
 - Select an event on the thread to get more information, such as:
 
@@ -50,11 +50,11 @@ To view a trace file directly from the Developer Dashboard, select **Perfetto** 
   - Duration
   - Process ID
 
-  ![Selecting a counter on the main thread, revealing the Current Selection tab](../../.assets/images/28caaafd2dcaec7500731d00c2feaa1bbf931a6797a126bec57009f3e336fdba.png)
+  ![Selecting a counter on the main thread, revealing the Current Selection tab](../../.assets/image/28caaafd2dcaec7500731d00c2feaa1bbf931a6797a126bec57009f3e336fdba.png)
 
 ### [Perfetto Tool keyboard shortcuts](#perfetto-tool-keyboard-shortcuts)
 
-![](../../.assets/images/9aa9b234d2da4b8ad3b8383e6b766957a6406dfd529302a1833a2a3c4bc9ddc8.png)
+![](../../.assets/image/9aa9b234d2da4b8ad3b8383e6b766957a6406dfd529302a1833a2a3c4bc9ddc8.png)
 
 ## [Examining the main thread](#examining-the-main-thread)
 
@@ -64,7 +64,7 @@ You can zoom into the thread to see the different calls being made on the main t
 
 If you use your left mouse button to drag across a frame in the main thread, you can get more information from the **Area Selection** dialog at the bottom of the screen. If you select **Slices**, you can see the frame time under “Wall duration (ms)”. You can scroll down for a list of all the calls made during the selected time. The next column, “Avg Wall duration (ms)” will show you the average frame time across the whole trace. A trace taken with the Deep setting will give more inflated CPU times (around 5%) but you will have access to more detailed markers. A trace taken with the Overview setting will have more accurate CPU times but fewer markers will be captured. Here is an example selection:
 
-![Selecting a frame to view the slice durations](../../.assets/images/f18b964b1f4a87fced062cb2ca9d23ef1a3e50fd2e35323d87b750a805b596c3.png)
+![Selecting a frame to view the slice durations](../../.assets/image/f18b964b1f4a87fced062cb2ca9d23ef1a3e50fd2e35323d87b750a805b596c3.png)
 
 When you zoom into a single frame on the thread, you can get a better understanding of how the time is being spent. For example, while the `PlayerLoop::Update` call seems very large, it is made up of a lot of calls that vary in size. Even if a single marker is large, that may not be an area of concern. For example, it is normal for `HorizonAvatarManagerUpdateRunner::Update` to take 1.5ms.
 

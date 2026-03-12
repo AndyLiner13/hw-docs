@@ -14,7 +14,7 @@ To acquire a list of the camera managers in the world, we can use tags. You can 
 
 For each of your Camera Manager entities in the world, please verify that you have added the CameraManager gameplay tag on its Properties panel:
 
-![Screenshot of Properties panel for CameraManager entity](../../../.assets/images/8f8331c2e7069233a243cc24c061473059478db5b8a270b32c530a3d93ee4688.png)
+![Screenshot of Properties panel for CameraManager entity](../../../.assets/image/8f8331c2e7069233a243cc24c061473059478db5b8a270b32c530a3d93ee4688.png)
 
 Find the following TODO in the sysPlayerManager script:
 

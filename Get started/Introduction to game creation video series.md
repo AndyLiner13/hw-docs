@@ -16,13 +16,13 @@ Learn the basics of designing a viable game in this series of tutorials. Game de
 
 ## [Game loops](#game-loops)
 
-<video controls></video><source src="../.assets/videos/7e1235524dda91eb66bfcb1d046d438969f5447d766114fde311a0b34224c13d.mp4" type="video/mp4">
+<video controls></video><source src="../.assets/video/7e1235524dda91eb66bfcb1d046d438969f5447d766114fde311a0b34224c13d.mp4" type="video/mp4">
 
 ## [Mobile mechanics](#mobile-mechanics)
 
-<video controls></video><source src="../.assets/videos/bb9242fe76dba8ca3c7827cd1dee2a9edf0e6e35d6cb496896e6c2e1c5ffc308.mp4" type="video/mp4">
+<video controls></video><source src="../.assets/video/bb9242fe76dba8ca3c7827cd1dee2a9edf0e6e35d6cb496896e6c2e1c5ffc308.mp4" type="video/mp4">
 
 ## [Retention mechanics](#retention-mechanics)
 
-<video controls></video><source src="../.assets/videos/8893bacd81eb180f2031e818d2399b3b30518283fc0877f98cba930bd47549bf.mp4" type="video/mp4">
+<video controls></video><source src="../.assets/video/8893bacd81eb180f2031e818d2399b3b30518283fc0877f98cba930bd47549bf.mp4" type="video/mp4">
 

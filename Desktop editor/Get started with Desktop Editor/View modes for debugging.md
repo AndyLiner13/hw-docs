@@ -14,11 +14,11 @@ Debugging view modes in desktop editor can help you debug your world. Its featur
 
 To open the view modes menu, select the view icon on the right side of the toolbar.
 
-![The debugging view mode icon](../../.assets/images/104c3a7fe8c2a35dbd18c35ee875830403fb0fcb982ab783d123b6acaf569347.png)
+![The debugging view mode icon](../../.assets/image/104c3a7fe8c2a35dbd18c35ee875830403fb0fcb982ab783d123b6acaf569347.png)
 
 Hovering your cursor over each option reveals a description of the view mode. See [Available view modes](https://developers.meta.com/horizon-worlds/learn/documentation/view-modes-for-debugging#available-view-modes) for further details. After selecting an option, the view mode will be displayed inside the dropdown button. Hovering over this dropdown button will also show you the active view mode.
 
-![List of Available viewmodes](../../.assets/images/b353020e1b9df4b32357c9a4f92f8fbd06cd5e9b2ea2e69572b30052ff0e74f9.png)
+![List of Available viewmodes](../../.assets/image/b353020e1b9df4b32357c9a4f92f8fbd06cd5e9b2ea2e69572b30052ff0e74f9.png)
 
 ### [Opening in VR](#opening-in-vr)
 
@@ -62,19 +62,19 @@ Wireframe view mode comes in three variants:
 
 For reference, the screenshot below displays a scene in the default **Shaded view** mode:
 
-![Default shaded view mode](../../.assets/images/04093047f1ab55383533ec7815910d6ad0393fcd7af1d15e9e92b0d0368f7d7f.png)*Shaded (default) view mode.*
+![Default shaded view mode](../../.assets/image/04093047f1ab55383533ec7815910d6ad0393fcd7af1d15e9e92b0d0368f7d7f.png)*Shaded (default) view mode.*
 
 **Wireframe view** mode allows you to see through 3D models to get a high level view of your world’s geometric complexity and identify unintended overlaps between models in your world.
 
-![Wireframe view mode](../../.assets/images/5c7b27a61178a324863a672fa2b01bc59aebdcbc9bcc25e395e86519757c23d4.png)*Wireframe view mode.*
+![Wireframe view mode](../../.assets/image/5c7b27a61178a324863a672fa2b01bc59aebdcbc9bcc25e395e86519757c23d4.png)*Wireframe view mode.*
 
 **Solid wireframe view** mode places a solid material underneath the wireframe. Use this view mode to help you tell objects apart more clearly and distinguish which objects are closer to the camera while in wireframe view.
 
-![Solid wireframe view mode](../../.assets/images/aa7b7e0d8ed1b337af3a59ed276b92c121b989fd7081f87725ef36bbf44e52e8.png)*Solid wireframe view mode.*
+![Solid wireframe view mode](../../.assets/image/aa7b7e0d8ed1b337af3a59ed276b92c121b989fd7081f87725ef36bbf44e52e8.png)*Solid wireframe view mode.*
 
 **Shaded wireframe view** mode shows the object’s texture underneath the wireframe. Use this view mode to help you understand how textures are affected by their underlying 3D models and debug texture issues that may be caused by the meshes underneath them.
 
-![Shaded wireframe view mode](../../.assets/images/6a12fc3f10ab9d5e7a2fd5ce85e41db5a8a847e74c1d3e440916f386b0f8c962.png)*Shaded wireframe view mode.*
+![Shaded wireframe view mode](../../.assets/image/6a12fc3f10ab9d5e7a2fd5ce85e41db5a8a847e74c1d3e440916f386b0f8c962.png)*Shaded wireframe view mode.*
 
 ## [Collision view mode](#collision-view-mode)
 
@@ -84,7 +84,7 @@ For reference, the screenshot below displays a scene in the default **Shaded vie
 
 In collision view mode, colliders are visualized using a semi-transparent colored material.
 
-![Collision view mode](../../.assets/images/7242f90716af0c849ca2015b245655d4d885fe76845d4cd2844a5e5699291d6c.png)*Collision view mode.*
+![Collision view mode](../../.assets/image/7242f90716af0c849ca2015b245655d4d885fe76845d4cd2844a5e5699291d6c.png)*Collision view mode.*
 
 ## [Overdraw view mode](#overdraw-view-mode)
 
@@ -94,5 +94,5 @@ In collision view mode, colliders are visualized using a semi-transparent colore
 
 In overdraw view mode, you can see where geometries overlap the most in your world by looking for the areas that are most opaque. Each occurrence of overdraw is a place where unnecessary pixels are being drawn. You can optimize your world by modifying your meshes and optimizing your layout to minimize overdraw.
 
-![Overdraw view mode](../../.assets/images/331207ebce53b7059cdf3be2c0d95a22a03be9340b4c98888a91c42bed07f4f0.png)*Overdraw view mode.*
+![Overdraw view mode](../../.assets/image/331207ebce53b7059cdf3be2c0d95a22a03be9340b4c98888a91c42bed07f4f0.png)*Overdraw view mode.*
 

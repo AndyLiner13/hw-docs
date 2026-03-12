@@ -60,7 +60,7 @@ The **horizon/npc** API has a few ways you can detect if the player is eligible 
 
 To test how NPCs behave when the AI system is disabled or unreachable, you can disable AI Speech in the NPC Debugger tab. This will simulate an AI NPC Speech disabled fallback instance when previewing your world in the editor by forcing your scripts that use the `isAiAvailable` API to return false and the `elicitResponse` LLM API to throw a `AiNotAvailableError`.
 
-![NPC Debugger](../../../.assets/images/ba1dfa00f8282265142089371cf6f4e5ee5ead235a2a572a68dde82bc73868fc.png)
+![NPC Debugger](../../../.assets/image/ba1dfa00f8282265142089371cf6f4e5ee5ead235a2a572a68dde82bc73868fc.png)
 
 ### [Production testing](#production-testing)
 
@@ -70,8 +70,8 @@ Outside of the editor, you can test AI disabled fallback instances by using an a
 
 Once you have completed testing AI Speech Fallbacks and are satisfied, it’s time to publish your world with the new Fallback features. By default, AI ineligible users are denied entry to worlds that contain AI Speech NPCs. Once you have completed this step, ineligible users will be routed to a separate instance of the world where AI is disabled:
 
-1. Open **Player Settings**![Player Settings](../../../.assets/images/111e67c3f359b0855c1da6695e01c54156f9eef4d60b369f73a36d9b350120de.png)
-2. Set the **“NPC fallback option** to **Scripted Dialog Only**![NPC Fallback Option](../../../.assets/images/f2f46a2003a0dca13b36d8609130ed7e5355fc136cf1e8aba06337aad2c169a5.png)
+1. Open **Player Settings**![Player Settings](../../../.assets/image/111e67c3f359b0855c1da6695e01c54156f9eef4d60b369f73a36d9b350120de.png)
+2. Set the **“NPC fallback option** to **Scripted Dialog Only**![NPC Fallback Option](../../../.assets/image/f2f46a2003a0dca13b36d8609130ed7e5355fc136cf1e8aba06337aad2c169a5.png)
 3. Publish update to your world
 
 ## [Group Party Travel](#group-party-travel)

@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/typescrip
 
 The spring physics API enables you to push entities toward a specifed position and spin them toward a specified rotation. These push and spin movements are based on the simulated physics of springs.
 
-![Image of push and spin physics applied to two entities](../../.assets/images/5d5f966dbd48007fde7eba2bcfda661942cab914b79123405c53aeec6d591cfe.png)
+![Image of push and spin physics applied to two entities](../../.assets/image/5d5f966dbd48007fde7eba2bcfda661942cab914b79123405c53aeec6d591cfe.png)
 
 ## [Prerequisites](#prerequisites)
 

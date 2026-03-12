@@ -28,7 +28,7 @@ Access to GenAI features is automated and determined based on your location when
 
 To access the Generative AI Assistant Tool, select **Gen AI** from the top menu bar. You can then select the **Assistant** tool to enable the Horizon Generative AI Assistant.
 
-![Gen AI Assistant Icon](../../.assets/images/393cb9a16d3ac506095ed25eee60f6bbe34e4cf594ecba277130ebe07a5fcd46.png)
+![Gen AI Assistant Icon](../../.assets/image/393cb9a16d3ac506095ed25eee60f6bbe34e4cf594ecba277130ebe07a5fcd46.png)
 
 ## [Use the Generative AI Assistant Tool](#use-the-generative-ai-assistant-tool)
 
@@ -45,11 +45,11 @@ You can also regenerate the content by re-submitting your prompt until you get a
 
 To use the Generative AI Assistant tool, use the following process:
 
-1. Select **Gen AI** from the top menu bar, then select the **Assistant** and set the mode to **Code and act**. ![Code and act menu option](../../.assets/images/24c5cf2679df1a6c0e2ca5b1d7dff965b6fe8f2e50db2d2f490080f1b78c63b3.png)
+1. Select **Gen AI** from the top menu bar, then select the **Assistant** and set the mode to **Code and act**. ![Code and act menu option](../../.assets/image/24c5cf2679df1a6c0e2ca5b1d7dff965b6fe8f2e50db2d2f490080f1b78c63b3.png)
 2. Input a prompt into the prompt window. This can be a natural language prompt that’s more conversational like “Create a platform that floats when I step on it.”
-3. Click **Generate** and the Gen AI Assistant will begin executing on your task. The Assistant will narrate its actions so you can follow along with its process and check its steps. ![Gen AI Assistant process](../../.assets/images/189cf4e46fed8b912be1940e33b9a54f7b98735952465688ca541b8f6fae38e5.png)
+3. Click **Generate** and the Gen AI Assistant will begin executing on your task. The Assistant will narrate its actions so you can follow along with its process and check its steps. ![Gen AI Assistant process](../../.assets/image/189cf4e46fed8b912be1940e33b9a54f7b98735952465688ca541b8f6fae38e5.png)
 4. Once the process completes, the Assistant will validate its output and then indicate that the process is complete. Any new assets created will appear in the **Hierarchy** pane on the left side.
-5. Once the process is complete, you can converse with the Gen AI Assistant to make updates to the created content, or other parts of your world. ![Gen AI successful validation](../../.assets/images/ca6a9e67039a8357a0653e52a5402feece7ed727f769f904b2ab16374a4958c9.png)
+5. Once the process is complete, you can converse with the Gen AI Assistant to make updates to the created content, or other parts of your world. ![Gen AI successful validation](../../.assets/image/ca6a9e67039a8357a0653e52a5402feece7ed727f769f904b2ab16374a4958c9.png)
 
 Currently the Gen AI Assistant is only capable of tasks focused on **basic interactivity** and **basic system prompts**. It cannot autonomously complete complex workflows and is limited to mechanics that Typescript can interact with. Additionally it cannot interact with any of the additional generators in the **Gen AI** panel.
 
@@ -101,7 +101,7 @@ To generate code snippets using the Gen AI Assistant, use the following process:
 
 1. Select the **Assistant** icon and set the **Mode** to **Code Only**.
 
-   ![Gen AI typescript option](../../.assets/images/f2088c1a8e1a95e829ec9c92cf86a3c4a15115115e3a9a34592ed1c150078b52.png)
+   ![Gen AI typescript option](../../.assets/image/f2088c1a8e1a95e829ec9c92cf86a3c4a15115115e3a9a34592ed1c150078b52.png)
 
 2. Select either the LLama or Specialist model with the **Model** dropdown.
 
@@ -109,7 +109,7 @@ To generate code snippets using the Gen AI Assistant, use the following process:
 
 4. The Gen AI Assistant will create a sample snippet of Typescript code and provide details on how to use it. **Note**: Because this feature is code only, you will still have to follow the steps provided to use the generated typescript snippet
 
-If you would like to change topics, you must start a new conversation by clicking the **New Chat** button. ![New chat icon](../../.assets/images/782110ee04d2fb919ccbe1bf646995b1a13f3ee08bd4549974a07e3a1fa2929e.png)
+If you would like to change topics, you must start a new conversation by clicking the **New Chat** button. ![New chat icon](../../.assets/image/782110ee04d2fb919ccbe1bf646995b1a13f3ee08bd4549974a07e3a1fa2929e.png)
 
 Specify whether the result was helpful by clicking either **Like** (thumbs-up), or **Dislike** (thumbs-down). Meta uses this information to fine-tune the LLM.
 
@@ -117,7 +117,7 @@ Specify whether the result was helpful by clicking either **Like** (thumbs-up), 
 
 After using the Generative AI Assistant tool, you can view previous chats by selecting the **History** icon.
 
-![Gen AI History pop](../../.assets/images/bcb17fac45d26fb7a6d2d4f17a16873e02ec49ba457f836393cdd89511f95b9d.png)
+![Gen AI History pop](../../.assets/image/bcb17fac45d26fb7a6d2d4f17a16873e02ec49ba457f836393cdd89511f95b9d.png)
 
 After opening the history window you can select a previous conversation. This will restore the selected conversation including the context used to generate content.
 

@@ -10,7 +10,7 @@ In the desktop editor, gizmos are self-contained modules that you can place in y
 
 **Note**: While you can access and use gizmos in the Meta Horizon Worlds [VR tool](../VR%20tools/Getting%20started/Create%20a%20new%20world%20in%20Meta%20Horizon%20Worlds.md), the gizmos documentation presented in this section focuses on the creator user experience in the [Meta Horizon Worlds desktop editor](../Get%20started/Install%20the%20desktop%20editor.md). The image below shows you how to access gizmos in the desktop editor.
 
-![How to access gizmos in the desktop editor](../.assets/images/4c542bf4086b5926c7b4d4244c91751da46007a5f81616e52a1b0c69577a65c1.png)
+![How to access gizmos in the desktop editor](../.assets/image/4c542bf4086b5926c7b4d4244c91751da46007a5f81616e52a1b0c69577a65c1.png)
 
 Much of the dynamic and interactive functionalities of gizmos are achieved through [scripting](https://developers.meta.com/horizon-worlds/reference/2.0.0/). If you’re new to scripting using TypeScript, start with [Build your first game](https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-worlds/build-your-first-game/module-1-build-your-first-game). To further your understanding of gizmos, learn from the completed and annotated samples that are part of [tutorial worlds](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Tutorial%20Prerequisites.md), which can be accessed from the [Creation Home page of the desktop editor](../Tutorials/Getting%20started/Getting%20started%20with%20tutorials/Access%20Tutorial%20Worlds.md#in-the-desktop-editor).
 

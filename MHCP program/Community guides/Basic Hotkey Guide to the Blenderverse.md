@@ -88,7 +88,7 @@ In the world of Blender, every key is a portal to infinite creativity. Unlock yo
 
 |               |                                                                                                                                      |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Download PDF: | [Basic Hotkey Guide to the Blenderverse](../../.assets/misc/343dc82a6979ab6d20a51984080e594dfdd226a3c9919b87d4e58ee5186f7175.pdf) . |
+| Download PDF: | [Basic Hotkey Guide to the Blenderverse](../../.assets/application/343dc82a6979ab6d20a51984080e594dfdd226a3c9919b87d4e58ee5186f7175.pdf) . |
 
 ## [Space Glitter’s Basic Hotkey Guide to the Blenderverse \*For Mac Users](#space-glitters-basic-hotkey-guide-to-the-blenderverse-for-mac-users)
 

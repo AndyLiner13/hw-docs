@@ -36,11 +36,11 @@ Access to GenAI features is automated and determined based on your location when
 
 The chat panel contains several example prompts. For example, the image below shows two sound effect examples and one ambient audio example.
 
-![Gen AI audio sample prompts](../../.assets/images/b60799764546932810f2b477d5448bb839aef58d654cbe77d9edde99d653b26f.png)
+![Gen AI audio sample prompts](../../.assets/image/b60799764546932810f2b477d5448bb839aef58d654cbe77d9edde99d653b26f.png)
 
 To try out a sound, simply select it. For example, when you select “Cicadas chirping in a field at night”, the user interface changes to display a chat between you and the Gen AI tool. Your prompt appears at the top of the panel, followed by the AI-generated results.
 
-![Gen AI audio audio output samples](../../.assets/images/438407ab6f614932f6ac5be40cccd354c3d23f0e79d431421a6dfdada8cf99a0.png)
+![Gen AI audio audio output samples](../../.assets/image/438407ab6f614932f6ac5be40cccd354c3d23f0e79d431421a6dfdada8cf99a0.png)
 
 The Gen AI tool returns several sound clips. Listen to each, and then decide which is your favorite!
 
@@ -48,13 +48,13 @@ The Gen AI tool returns several sound clips. Listen to each, and then decide whi
 
 As well as containing several sample prompts, the chat panel also contains an input field for accepting your custom prompts.
 
-![Gen AI audio duration slider](../../.assets/images/a58236253daaa8dff5d5646c4a45edb67f3e777a3083edef13677605805bd4d5.png)
+![Gen AI audio duration slider](../../.assets/image/a58236253daaa8dff5d5646c4a45edb67f3e777a3083edef13677605805bd4d5.png)
 
-![Gen AI audio prompt input field](../../.assets/images/d861388fdb62a41485612398037e811ca96f74d279cb75817420931b63ec9bf6.png)
+![Gen AI audio prompt input field](../../.assets/image/d861388fdb62a41485612398037e811ca96f74d279cb75817420931b63ec9bf6.png)
 
 Type your own prompt into the input field, set the **Duration**, select an audio **Type**, and click **Generate**. The Gen AI tool generates four audio clips for sound effect generation and one audio clip for ambient audio generation. Try them out and then pick the one that you like the best. Note that ambient audio can take over a minute to generate due to the length of the ambient audio tracks.
 
-![Gen AI audio like/dislike options](../../.assets/images/6d3762b144a437346059d35842baa3b1ca5fd1179b8912df8f4eb8a647e23b2e.png)
+![Gen AI audio like/dislike options](../../.assets/image/6d3762b144a437346059d35842baa3b1ca5fd1179b8912df8f4eb8a647e23b2e.png)
 
 To specify whether the result was helpful, hover over the audio player and click either **Like** (thumbs-up) or **Dislike** (thumbs-down). Meta uses this information to fine-tune the LLM.
 
@@ -62,7 +62,7 @@ To specify whether the result was helpful, hover over the audio player and click
 
 1. Pick one of the sound clips to audition, and then click the **Play** button.
 
-![Gen AI audio generated audio play](../../.assets/images/240fc3267148ba4145f3800ae696a064863edd819885156a8624b51f21019bc2.png)
+![Gen AI audio generated audio play](../../.assets/image/240fc3267148ba4145f3800ae696a064863edd819885156a8624b51f21019bc2.png)
 
 The clip plays through your computer’s speakers.
 
@@ -70,29 +70,29 @@ The clip plays through your computer’s speakers.
 
 1. Hover over the applicable sound clip, click the three dots, and click **Save to asset library**.
 
-![Gen AI audio save to library](../../.assets/images/702e1437087b15f4b27c7296e79b0d328eba72cd9e354bb94564483a5ced6bc5.png)
+![Gen AI audio save to library](../../.assets/image/702e1437087b15f4b27c7296e79b0d328eba72cd9e354bb94564483a5ced6bc5.png)
 
 The generated sound effect is converted into an asset and added to your Asset Library.
 
-![Gen AI file added to library](../../.assets/images/c3202ab17b14a050459080ea3617eba7f8ed6bf32446ea872bc0effd258f6e11.png)
+![Gen AI file added to library](../../.assets/image/c3202ab17b14a050459080ea3617eba7f8ed6bf32446ea872bc0effd258f6e11.png)
 
 If you drag the generated SFX asset into your scene, it appears in your Hierarchy.
 
-![Gen AI hierarchy view](../../.assets/images/91f97401c38a8057f493855fe35fc10f076484b85b3601dc67477533605d4750.png)
+![Gen AI hierarchy view](../../.assets/image/91f97401c38a8057f493855fe35fc10f076484b85b3601dc67477533605d4750.png)
 
 ## [Downloading generated sound effects](#downloading-generated-sound-effects)
 
 1. Hover over the applicable sound clip, click the three dots, and click **Download**.
 
-   ![Gen AI download file](../../.assets/images/702e1437087b15f4b27c7296e79b0d328eba72cd9e354bb94564483a5ced6bc5.png)
+   ![Gen AI download file](../../.assets/image/702e1437087b15f4b27c7296e79b0d328eba72cd9e354bb94564483a5ced6bc5.png)
 
    The Export dialog box appears, prompting you to enter a filename.
 
-   ![Export dialog](../../.assets/images/6c56fee99e3793ac5117330ebc68e8e257713056ac710797737a00fb33bb14d9.png)
+   ![Export dialog](../../.assets/image/6c56fee99e3793ac5117330ebc68e8e257713056ac710797737a00fb33bb14d9.png)
 
 2. Enter a filename and click **Save**. The sound effect file is saved to your local hard drive.
 
-![Saved file and filename](../../.assets/images/e6f1c92c683dbacbc9135449f419f1a270c78833cae753c345e2c83be69f3de4.png)
+![Saved file and filename](../../.assets/image/e6f1c92c683dbacbc9135449f419f1a270c78833cae753c345e2c83be69f3de4.png)
 
 ## [What’s next?](#whats-next)
 

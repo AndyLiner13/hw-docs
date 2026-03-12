@@ -12,7 +12,7 @@ Adding an NPC Gizmo to your world has the **same performance impact as adding an
 
 To create and configure an NPC using the NPC Gizmo, use the following process:
 
-1. Select **Build** from the top menu and navigate to select the **NPC** icon from the **Avatar** section. ![NPC Gizmo Build window](../../../.assets/images/32c9e5add70f88d0be0140ab6b16c3560b52fa37288410cb807a8a859f25f592.png)
+1. Select **Build** from the top menu and navigate to select the **NPC** icon from the **Avatar** section. ![NPC Gizmo Build window](../../../.assets/image/32c9e5add70f88d0be0140ab6b16c3560b52fa37288410cb807a8a859f25f592.png)
 2. Drag the NPC Gizmo from the toolbar into your world scene and place it. **Note**: the NPC may initially appear as a single, flat color as a placeholder. It is also important to position the NPC gizmo on a surface in your world and not above or below it.
 3. Once your NPC has been added to your world, you can configure its properties.
 
@@ -38,7 +38,7 @@ You can also duplicate or delete NPC Gizmos within your world like any asset add
 
 After adding the NPC Gizmo (**Gizmos > NPC)** and positioning it in your world, you can set its’ **Body Type** to Horizon Avatar to use a Horizon based avatar as an NPC. When selecting a Horizon Avatar as an NPC you can also **customize its visual appearance** by clicking “**Edit Avatar**” in the Properties panel. This opens a web-based editor for body, face, clothing, and accessories.
 
-![Edit your avatar window](../../../.assets/images/fb53954f5655389897282c6741062b419c345b6b03db01937d66ef8be2a045c5.png)
+![Edit your avatar window](../../../.assets/image/fb53954f5655389897282c6741062b419c345b6b03db01937d66ef8be2a045c5.png)
 
 Remember to click **“Refresh”** in the Desktop Editor to see your updates after you click **Done editing**.
 

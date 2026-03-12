@@ -10,7 +10,7 @@ Follow these steps to access the Desktop Editor
 
 1. Navigate to *Scripts -> CreateNewScript*.
 2. We will use a starter script named Shoot.
-3. Choose the *:* menu next to the new script. You can select “Open in External Editor” if using a preferred editor. ![](../../.assets/images/7a48551db059a54ad4859bdbe728508008e3f0b6f270df6baee4922abe4f04f2.png)
+3. Choose the *:* menu next to the new script. You can select “Open in External Editor” if using a preferred editor. ![](../../.assets/image/7a48551db059a54ad4859bdbe728508008e3f0b6f270df6baee4922abe4f04f2.png)
 4. The `start()` function is called whenever the object it is attached to is created. To print to the debug console for an object created, add a *console* print:
    ```typescript
    start() {
@@ -18,10 +18,10 @@ Follow these steps to access the Desktop Editor
    }
    ```
 5. Save the file.
-6. In the Desktop world editor, connect your new script to an object you have in the hierarchy. Scroll down to the bottom of the property panel on the right. Select “Attached Script” and choose the script file named “Shoot:Shoot”. This will associate the script with the object. ![](../../.assets/images/a2bac516773904fc5fc57d12c39f5a0fe68c51b09398063998406fb7eeae0fd5.png)
-7. Preview the world by clicking on the person icon next to the wrench. ![](../../.assets/images/1c99b45402ec8bddb5ad41801cc61d6b2067f9b8490e31d4a5a59e20213bf79a.png)
-8. Press escape and click on Console window at the bottom of the editor. ![](../../.assets/images/90ed5caac2b46d2614d18a5af1a16a1f88269691bf6562ef235f21dccb4467d6.png)
-9. When the object you associated the script with is created, the console will print the  debug message you specified. ![](../../.assets/images/beb8d62d1da76938f03ee19b927fb65d6b8749c551446112b74635ebaeaaa62f.png)
+6. In the Desktop world editor, connect your new script to an object you have in the hierarchy. Scroll down to the bottom of the property panel on the right. Select “Attached Script” and choose the script file named “Shoot:Shoot”. This will associate the script with the object. ![](../../.assets/image/a2bac516773904fc5fc57d12c39f5a0fe68c51b09398063998406fb7eeae0fd5.png)
+7. Preview the world by clicking on the person icon next to the wrench. ![](../../.assets/image/1c99b45402ec8bddb5ad41801cc61d6b2067f9b8490e31d4a5a59e20213bf79a.png)
+8. Press escape and click on Console window at the bottom of the editor. ![](../../.assets/image/90ed5caac2b46d2614d18a5af1a16a1f88269691bf6562ef235f21dccb4467d6.png)
+9. When the object you associated the script with is created, the console will print the  debug message you specified. ![](../../.assets/image/beb8d62d1da76938f03ee19b927fb65d6b8749c551446112b74635ebaeaaa62f.png)
 
 ### [Sharing Code Between Scripts](#sharing-code-between-scripts)
 

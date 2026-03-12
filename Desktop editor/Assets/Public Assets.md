@@ -14,15 +14,15 @@ To import assets from public assets:
 
 1. Select the **Asset Library** tab below the scene panel, and then click **Public Assets**.
 
-   ![Public Assets section](../../.assets/images/d1469d8b789f258004f1d30861b695550dec8a0f5176aa8754c34a5dbe70624f.png)
+   ![Public Assets section](../../.assets/image/d1469d8b789f258004f1d30861b695550dec8a0f5176aa8754c34a5dbe70624f.png)
 
 2. Use the category and creator filters to find assets that you might be interested in, or use search to find a specific asset.
 
-   ![Filters for assets](../../.assets/images/a3948ee3f17acc79d27670c4d1efcccaf59f1d5483791ce5f81cf3c31db39513.png)
+   ![Filters for assets](../../.assets/image/a3948ee3f17acc79d27670c4d1efcccaf59f1d5483791ce5f81cf3c31db39513.png)
 
 3. You can sort assets by name and date to narrow down your search.
 
-   ![Sort assets](../../.assets/images/ea3bf5f667bb60d16906935f3a4793ecdc365d0ef0efbd021ecb6d582176898f.png)
+   ![Sort assets](../../.assets/image/ea3bf5f667bb60d16906935f3a4793ecdc365d0ef0efbd021ecb6d582176898f.png)
 
 4. Select the asset that you want to import and drag it to your scene. This will cause an object to spawn from the asset into your scene and appear in the Hierarchy panel.
 
@@ -34,7 +34,7 @@ Use ratings to share your feedback on assets and help us prioritize high quality
 
 To vote, click on any asset and vote in **Asset details** panel in section **Rating**:
 
-![Rating section to vote for an asset](../../.assets/images/cbd0eabec0ea01de7c1af80973ab024fde2d7fbddc74641d35328e9be135717c.png)
+![Rating section to vote for an asset](../../.assets/image/cbd0eabec0ea01de7c1af80973ab024fde2d7fbddc74641d35328e9be135717c.png)
 
 **Note:** You can vote only for other creator’s assets.
 
@@ -42,11 +42,11 @@ To vote, click on any asset and vote in **Asset details** panel in section **Rat
 
 If you see an inappropriate asset within the public assets that violate [Meta Horizon Worlds Content Guidelines](https://www.meta.com/en-gb/help/quest/481214418021533/) or our [Code of Conduct for Virtual Experiences](https://www.meta.com/gb/legal/quest/code-of-conduct-for-virtual-experiences/), please report it to us. It will help us to keep a high-quality collection. To report an asset, click on asset’s preview and then click **Report**.
 
-![Report asset context menu](../../.assets/images/f017fe77b0a3fc7977deecacd74dc80a2a4b8fd2b413dbcbb44efee97d1e3b10.png)
+![Report asset context menu](../../.assets/image/f017fe77b0a3fc7977deecacd74dc80a2a4b8fd2b413dbcbb44efee97d1e3b10.png)
 
 Provide **Type of violation** and **description** to help us to understand a problem and then click **Report asset**.
 
-![Report modal window to report asset](../../.assets/images/2619be22ff11e2df27aa5f62d5af5b29627206a9fa7c23bac41045e10a409f22.png)
+![Report modal window to report asset](../../.assets/image/2619be22ff11e2df27aa5f62d5af5b29627206a9fa7c23bac41045e10a409f22.png)
 
 ## [Asset types](#asset-types)
 

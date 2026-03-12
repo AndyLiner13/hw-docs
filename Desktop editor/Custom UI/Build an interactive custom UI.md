@@ -16,9 +16,9 @@ This topic shows you how to build an interactive custom UI, because creating a s
 
 This topic and [Build a dynamic custom UI](Building%20dynamic%20custom%20UI.md) explore these capabilities by working through an example. Consider a game where the players are given a chance to change the color for a ball. In the UI, you’d like to have a text prompt and a confirmation button in the UI. After any player clicks the button, you’d want the ball’s color to be updated, button removed, and the prompt’s content and color changed.
 
-The following image is an interactive UI showing a text prompt and a confirmation button. ![A text prompt and a confirmation button](../../.assets/images/eb09dfc960b03302e3aa4b3da9ee4c5d90de2823887353dbd622359bfc91e33d.png)
+The following image is an interactive UI showing a text prompt and a confirmation button. ![A text prompt and a confirmation button](../../.assets/image/eb09dfc960b03302e3aa4b3da9ee4c5d90de2823887353dbd622359bfc91e33d.png)
 
-The following image is an interactive UI showing some confirmation text. ![Some confirmation text after clicking the button](../../.assets/images/c2c366da2f5c409187695bb779108a6f7262827a6dcd02b95ac46aa8351e2a97.png)
+The following image is an interactive UI showing some confirmation text. ![Some confirmation text after clicking the button](../../.assets/image/c2c366da2f5c409187695bb779108a6f7262827a6dcd02b95ac46aa8351e2a97.png)
 
 ## [Build a static UI](#build-a-static-ui)
 

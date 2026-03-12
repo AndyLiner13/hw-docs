@@ -39,7 +39,7 @@ The geometry for primitive colliders (box, sphere, capsule) is expected to have 
 
 This screenshot from Blender shows a visible mesh (RingTarget) with a number of primitive colliders defined for it.
 
-![](../../.assets/images/2d932b59055c6cd96665fb9f8221cedf618a2e3dfc641d191930a20e26e5e3d3.png)
+![](../../.assets/image/2d932b59055c6cd96665fb9f8221cedf618a2e3dfc641d191930a20e26e5e3d3.png)
 
 ## [Spawning collider entities in the desktop editor](#spawning-collider-entities-in-the-desktop-editor)
 
@@ -49,12 +49,12 @@ To add a primitive collider to the world, select **Colliders** from the **Build*
 
 |                                                                                                                                 |                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| ![Collider option in the Build menu](../../.assets/images/8d97916d1216380b872205823b838d112e232e3a4a2e584db3df77dcb0196650.png) | ![Colliders panel](../../.assets/images/f56f92ab60115e9ad9ef13ebf3afc3631ad75af72c894036b1ef048077b30658.png) |
+| ![Collider option in the Build menu](../../.assets/image/8d97916d1216380b872205823b838d112e232e3a4a2e584db3df77dcb0196650.png) | ![Colliders panel](../../.assets/image/f56f92ab60115e9ad9ef13ebf3afc3631ad75af72c894036b1ef048077b30658.png) |
 | *Collider option in the Build menu*                                                                                             | *Colliders panel*                                                                                             |
 
 We automatically enter Colliders view mode when you place a collider entity into the world. To enter collider view manually, select **Collisions** from the **View Mode** menu at the top right of the **Preview** window.
 
-![Collider view option](../../.assets/images/a6f3dc504c22fd390bd46b7fcd8f30188fa69a63ea10d39b34183eba501b4b37.png)
+![Collider view option](../../.assets/image/a6f3dc504c22fd390bd46b7fcd8f30188fa69a63ea10d39b34183eba501b4b37.png)
 
 *Collider view option*
 

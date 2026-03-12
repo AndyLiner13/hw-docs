@@ -73,12 +73,12 @@ You can learn about the workflow involved in creating a world with sublevels by 
 
 ### [Create sublevel worlds.](#create-sublevel-worlds)
 
-1. In the Horizon Desktop Editor, create two new worlds called Sublevel1 and Sublevel2. Under **Choose how you’ll create**, select **Custom model imports**. ![Image shows the world creation window with the 'custom model imports' option selected.](../../.assets/images/027be2daf492ef91b6544723316fd68fd3cf038c82da7f143ef86889dfa1ea24.png)
-2. Place several pieces of recognizable geometry inside each world. For example, you could use green objects in Sublevel1, and red objects in Sublevel2. ![Image shows an example of two worlds, one with green furniture and one with red furniture.](../../.assets/images/70f00d6e2f56245fbb13edee01c7fb136dc8843f026f50e8ea474cdf6d8810b6.png)
-3. In each world, create a new sublevel entity. ![Image shows a dropdown menu with the 'Sublevel' option selected.](../../.assets/images/dce428f46db8e4087280402f8a42d9f84741e4fd4309bbefe55485fe09f541b0.png)
+1. In the Horizon Desktop Editor, create two new worlds called Sublevel1 and Sublevel2. Under **Choose how you’ll create**, select **Custom model imports**. ![Image shows the world creation window with the 'custom model imports' option selected.](../../.assets/image/027be2daf492ef91b6544723316fd68fd3cf038c82da7f143ef86889dfa1ea24.png)
+2. Place several pieces of recognizable geometry inside each world. For example, you could use green objects in Sublevel1, and red objects in Sublevel2. ![Image shows an example of two worlds, one with green furniture and one with red furniture.](../../.assets/image/70f00d6e2f56245fbb13edee01c7fb136dc8843f026f50e8ea474cdf6d8810b6.png)
+3. In each world, create a new sublevel entity. ![Image shows a dropdown menu with the 'Sublevel' option selected.](../../.assets/image/dce428f46db8e4087280402f8a42d9f84741e4fd4309bbefe55485fe09f541b0.png)
 4. Set the type of the sublevels to **Exclude**, and rename it to “Testing Only”.\
    \
-   This informs the world that any entities that are children to this sublevel should be ignored when loading it into the parent world. Note that they still exist when you load the sublevel world directly. This allows you to add content that you can use to test sublevels in isolation, without worrying about it being included in the integrated version. ![Image shows a Properties menu with the type set to Exclude.](../../.assets/images/82b3aabd5755d3f4dbe494bffd67561e3d955f2f73dafbc93b6c8937f6a80ce2.png)
+   This informs the world that any entities that are children to this sublevel should be ignored when loading it into the parent world. Note that they still exist when you load the sublevel world directly. This allows you to add content that you can use to test sublevels in isolation, without worrying about it being included in the integrated version. ![Image shows a Properties menu with the type set to Exclude.](../../.assets/image/82b3aabd5755d3f4dbe494bffd67561e3d955f2f73dafbc93b6c8937f6a80ce2.png)
 5. Drag the default spawn point under this new sublevel entity in the hierarchy so it won’t be included when you load this sublevel into the parent world.
 6. Publish both worlds, and be sure to turn off the setting **Visible to the public**.
 
@@ -86,32 +86,32 @@ You can learn about the workflow involved in creating a world with sublevels by 
 
 - Create a new world called “Overworld”. Under **Choose how you’ll create**, select **Custom model imports**.
 
-![Image shows the 'Create a World' window with the 'Custom Model Import' option selected.](../../.assets/images/027be2daf492ef91b6544723316fd68fd3cf038c82da7f143ef86889dfa1ea24.png)
+![Image shows the 'Create a World' window with the 'Custom Model Import' option selected.](../../.assets/image/027be2daf492ef91b6544723316fd68fd3cf038c82da7f143ef86889dfa1ea24.png)
 
 ### [Add the sublevels.](#add-the-sublevels)
 
 - Using the drop-down list, add the two sublevel worlds to the overworld.
 
-![Image shows a drop-down menu with the 'Sublevel' option selected.](../../.assets/images/e235f55b527725958101dc384148d5b24f36eebbf983b70f17dc9de39f66b9b0.png)
+![Image shows a drop-down menu with the 'Sublevel' option selected.](../../.assets/image/e235f55b527725958101dc384148d5b24f36eebbf983b70f17dc9de39f66b9b0.png)
 
 ### [Link the sublevels.](#link-the-sublevels)
 
 - Select a sublevel object from the hierarchy.
 - In the property panel, ensure that the **Sublevel Type** is set to Deeplink.
 
-![Image shows the 'Properties' menu with the 'Sublevel Type' set to Deeplink.](../../.assets/images/178f9d0af8c05b8478f608777ce21216c6f94438ffefdb3c8adc6b08b09e1411.png)
+![Image shows the 'Properties' menu with the 'Sublevel Type' set to Deeplink.](../../.assets/image/178f9d0af8c05b8478f608777ce21216c6f94438ffefdb3c8adc6b08b09e1411.png)
 
 - Click on the thumbnail square.
 - Select one of the sublevels from the world picker dialog box.
 
-![Image shows an example window where sublevels may be chosen.](../../.assets/images/eee4394508f1d8939df8e6b9e35e3f2eb341f532ec627ed16a5174710d8d1f1d.png)
+![Image shows an example window where sublevels may be chosen.](../../.assets/image/eee4394508f1d8939df8e6b9e35e3f2eb341f532ec627ed16a5174710d8d1f1d.png)
 
 ### [Position the sublevels.](#position-the-sublevels)
 
 - Select a sublevel in the scene hierarchy.
 - Using the transform handles, position the sublevel so you can easily see it turn on and off.
 
-![Image shows a sublevel being placed into a scene.](../../.assets/images/9d7bc70399fd01dd3b3dc2328a0c3ade6a2310dc6eeb25f0862f041fe2e078ad.png)
+![Image shows a sublevel being placed into a scene.](../../.assets/image/9d7bc70399fd01dd3b3dc2328a0c3ade6a2310dc6eeb25f0862f041fe2e078ad.png)
 
 - Repeat the preceding two steps for the other sublevel.
 
@@ -125,7 +125,7 @@ You can learn about the workflow involved in creating a world with sublevels by 
 
 As you change the states, you’ll see the sublevel load and become active, and unload.
 
-![Image shows the properties menu with the 'Sublevel Initial State' field highlighted.](../../.assets/images/d34000a44be287220b1585c66eaa94c024c8624d7567b515b447d2523ce5d5cb.png)
+![Image shows the properties menu with the 'Sublevel Initial State' field highlighted.](../../.assets/image/d34000a44be287220b1585c66eaa94c024c8624d7567b515b447d2523ce5d5cb.png)
 
 ## [Programmatically spawn and despawn the sublevels](#programmatically-spawn-and-despawn-the-sublevels)
 
@@ -151,9 +151,9 @@ You can find the SublevelEntity class API in the [v2.0.0 world\_streaming packag
 
 Follow these steps to configure the Desktop Editor for running the example script.
 
-1. In the Desktop Editor, click the Scripts panel dropdown. ![Image shows the icon for the dropdown menu.](../../.assets/images/e05645f7336de72e61c2d3952c10078fe4d59f51172cd8e8e7e402bd85ab0943.png)
-2. When the Scripts panel appears, select the **Settings** icon. ![Image shows a close-up of the settings icon.](../../.assets/images/5499726fd62a70d09056520c16cfb912893cb862d4f76d38edc565c86e394dc8.png)
-3. Enable the **horizon/world\_streaming** module. ![Image shows the script settings menu with the 'horizon/world streaming' option enabled.](../../.assets/images/52ec614e211f1814f27f82aa75745e51fcfce9c848df895827cc53f4d23d93c4.png)
+1. In the Desktop Editor, click the Scripts panel dropdown. ![Image shows the icon for the dropdown menu.](../../.assets/image/e05645f7336de72e61c2d3952c10078fe4d59f51172cd8e8e7e402bd85ab0943.png)
+2. When the Scripts panel appears, select the **Settings** icon. ![Image shows a close-up of the settings icon.](../../.assets/image/5499726fd62a70d09056520c16cfb912893cb862d4f76d38edc565c86e394dc8.png)
+3. Enable the **horizon/world\_streaming** module. ![Image shows the script settings menu with the 'horizon/world streaming' option enabled.](../../.assets/image/52ec614e211f1814f27f82aa75745e51fcfce9c848df895827cc53f4d23d93c4.png)
 
 **Note** : You must have at least one script to enable a module.
 

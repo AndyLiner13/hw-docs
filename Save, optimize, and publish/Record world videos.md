@@ -14,14 +14,14 @@ It’s now easier than ever to make promo videos of your world. With just a few 
 
 ## [How to record your world](#how-to-record-your-world)
 
-1. While in preview mode in the Worlds Desktop Editor, click the camera icon in the top navigation. ![Record your world icon](../.assets/images/030e2742aab3c3057abd5c5136ea50f01bd9ebecae349b1532699e1c3f7d8c47.png)
+1. While in preview mode in the Worlds Desktop Editor, click the camera icon in the top navigation. ![Record your world icon](../.assets/image/030e2742aab3c3057abd5c5136ea50f01bd9ebecae349b1532699e1c3f7d8c47.png)
 2. Choose your camera mode.
 
 **Single Camera**: Full-screen, controllable camera.
 
 **Player POV**: Records from the player’s perspective (the way it looks during gameplay). The camera will follow behind the player.
 
-![Camera mode selector](../.assets/images/5e4ee11ee70a1b4c7e9539f71c5dd1ceef87aa6416313d1fad36908c348052aa.png)
+![Camera mode selector](../.assets/image/5e4ee11ee70a1b4c7e9539f71c5dd1ceef87aa6416313d1fad36908c348052aa.png)
 
 Single Camera
 
@@ -35,19 +35,19 @@ Player POV
 
 If you want your video to look great on phones and social media, choose 9:16 (portrait). This vertical format is the standard for mobile screens. For desktop or standard YouTube videos, use 16:9 (landscape).
 
-![Aspect ratio options](../.assets/images/4085c3fb2a7a58d6a13b582a15413900de161ddfea59941b9d6e71ebab04a56e.png)
+![Aspect ratio options](../.assets/image/4085c3fb2a7a58d6a13b582a15413900de161ddfea59941b9d6e71ebab04a56e.png)
 
 1. Toggle additional settings for your recording as needed.
 
 See below for a full breakdown of each setting.
 
-![Additional settings](../.assets/images/2980af618231d74875dde8ede221740bde2ad28c4437b50a0b41628f7858eafb.png)
+![Additional settings](../.assets/image/2980af618231d74875dde8ede221740bde2ad28c4437b50a0b41628f7858eafb.png)
 
 1. Record!
 
 This is the best part. When you’re ready, click the record button to start capturing your world. You can stop recording at any time by clicking the stop button.
 
-![Recording options](../.assets/images/00ac2664e7601b0aa894f32c0f73a8e4d0afe4d7f20c24ddc055b4f082115c84.png)
+![Recording options](../.assets/image/00ac2664e7601b0aa894f32c0f73a8e4d0afe4d7f20c24ddc055b4f082115c84.png)
 
 1. Adjust your camera sensitivity.
 

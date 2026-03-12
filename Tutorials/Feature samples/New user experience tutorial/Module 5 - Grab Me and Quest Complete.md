@@ -29,7 +29,7 @@ The `VFXController.ts` script links visual effects to objects that can be grabbe
 
 1. **Prepare your interactive object**: Identify or create the object that players need to grab. Ensure it has grab functionality enabled through the **Grabbable** component in the **Properties** panel.
 
-   ![Grabbable component](../../../.assets/images/18efedb068c58f8b6029b0fa7df0ae3aa52859bca10f10331a64c8b192b92f9f.png)
+   ![Grabbable component](../../../.assets/image/18efedb068c58f8b6029b0fa7df0ae3aa52859bca10f10331a64c8b192b92f9f.png)
 
 2. **Create the VFX system**: Navigate to your **Asset Library** and add a **VFX Particle Gizmo** to your world. Position it near your interactive object or as a child entity. Configure the particle effect properties (color, size, animation) to create an eye-catching “grab me” indicator.
 
@@ -57,7 +57,7 @@ For items that should disappear after being collected (like gems or quest items)
    - **gem**: Assign the collectible object entity that should become invisible after collection
    - **modularSparkleVFX**: Assign the VFX entity that should stop playing for players who collect the item
 
-   ![Gem visibility management](../../../.assets/images/60450aa5b17f3fd6ae75954e58ff5b138236488923c2718b22a7f11e2222ca31.png)
+   ![Gem visibility management](../../../.assets/image/60450aa5b17f3fd6ae75954e58ff5b138236488923c2718b22a7f11e2222ca31.png)
 
 3. **Understanding per-player visibility**: The `HideGem.ts` script provides sophisticated multiplayer support:
    - **Player tracking**: Maintains a list of players who have collected the item
@@ -107,7 +107,7 @@ Once your VFX system is implemented, thoroughly test by:
 4. **Visual Testing**: Confirm VFX positioning looks natural and draws attention without being distracting
 5. **Integration Testing**: Verify VFX works properly with quest systems and other tutorial components
 
-![Testing VFX](../../../.assets/images/523f877527b15a102a06057240da89cc35dc51debb228235460fdc92db7352c9.png)
+![Testing VFX](../../../.assets/image/523f877527b15a102a06057240da89cc35dc51debb228235460fdc92db7352c9.png)
 
 With a comprehensive “Grab Me” VFX system in place, you can create engaging visual cues that guide players to important objects while properly handling multiplayer scenarios and quest integration. The system provides both simple highlighting for tutorials and advanced collectible management for complex gameplay scenarios.
 

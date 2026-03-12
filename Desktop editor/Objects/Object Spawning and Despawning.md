@@ -59,9 +59,9 @@ When a spawned object is no longer needed, you can then remove the object from t
 
 ### [CodeBlocks](#codeblocks)
 
-![A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](../../.assets/images/ad75e537eeab2604cd6dd2b790382ac0c99049274cc694efdd62dfb2aaa1861e.jpg)
+![A view of the CodeBlocks Editor with blocks to handle spawning assets and moving them into a line.](../../.assets/image/ad75e537eeab2604cd6dd2b790382ac0c99049274cc694efdd62dfb2aaa1861e.jpg)
 
-![A view of the CodeBlocks Editor with blocks to handle despawning assets.](../../.assets/images/9053ea85eabb88925e71f18c45847a8c1271371c94416f5b5685b455e2583c28.jpg)
+![A view of the CodeBlocks Editor with blocks to handle despawning assets.](../../.assets/image/9053ea85eabb88925e71f18c45847a8c1271371c94416f5b5685b455e2583c28.jpg)
 
 ### [TypeScript](#typescript)
 

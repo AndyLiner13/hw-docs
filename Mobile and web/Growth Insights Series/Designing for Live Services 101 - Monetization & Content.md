@@ -24,7 +24,7 @@ These purchases broadly fall into **five categories**:
 4. **Currency.** In Castle Quest!, the premium currency is gems and the soft currency is gold. Players use these currencies to make other purchases (durables, consumables, and more).
 5. **Battle / season passes**. In Castle Quest!, the season pass lets players complete a series of challenges to earn extra rewards throughout the month. Passes usually increase rewards from daily, weekly, and monthly quests and can include exclusive durable goods, consumables, and quality-of-life perks.
 
-![Castle Quest! castle shop](../../.assets/images/d2f87a8f6c75c372c6643bc9444ace9c6ccb2333b8c3f71348d4eccc9949e2d6.png)
+![Castle Quest! castle shop](../../.assets/image/d2f87a8f6c75c372c6643bc9444ace9c6ccb2333b8c3f71348d4eccc9949e2d6.png)
 
 *It’s ultimately your decision which items you create to power monetization, but we’ve broken down the benefits of hybrid economies where possible.*
 
@@ -47,7 +47,7 @@ In Castle Quest!, durable goods include cosmetics for the player avatar, new fur
 | **Provide a sense of ownership.** Players keep whatever they purchase (such as a skin, emote, or furnishing) and can cycle a durable good in and out of rotation over time. | **Require upfront work**. Items must be created, tested, and pass quality assurance. Maintaining enough new items also requires a robust content pipeline. |
 | **Are a great tool for marketing**. New skins, characters, furnishings, and companions can be used in ads, banners, and in-game messaging to drive purchase intent.         | Are generally **more expensive** for both developers and players.                                                                                          |
 
-![Castle Quest! empty castle courtyard](../../.assets/images/8027942aa2318a4b45e3de8de3eac574d214578592b9012cee44c1e0d1894433.png)
+![Castle Quest! empty castle courtyard](../../.assets/image/8027942aa2318a4b45e3de8de3eac574d214578592b9012cee44c1e0d1894433.png)
 
 ### [Consumable goods (Castle Quest!)](#consumable-goods-castle-quest)
 
@@ -75,7 +75,7 @@ The last aspect to consider for purchase offerings is simple: what will motivate
 4. **Completionism.** Some players are driven to complete sets or collections. Games can tap into this by designing collections that encourage repeat purchases.
 5. **Loss aversion.** When players are close to completing a level and fail, offering them the option to buy lives, moves, or boosters to secure the win can be another strong motivator.
 
-![Castle Quest! limited time bundle](../../.assets/images/b8d2a396eacc515cf7c664b29fabc4ed1193e9aa4197053ed66715d74b46a4a5.png)
+![Castle Quest! limited time bundle](../../.assets/image/b8d2a396eacc515cf7c664b29fabc4ed1193e9aa4197053ed66715d74b46a4a5.png)
 
 # [Content pipeline](#content-pipeline)
 
@@ -111,7 +111,7 @@ The investment your team needs to put into a content pipeline can vary considera
 3. **Events**. At a minimum, plan to support three holiday events: Halloween, Christmas or winter, and summer. Anything on top of that, such as Valentine’s Day or St. Patrick’s Day, is a bonus. Events let you offer limited-time purchase options and tap into seasonal excitement to drive spend and playtime.
 4. **One new gameplay mode or variation**. Whatever experience you offer, players will eventually feel fatigue. Having a new mode or mini-game in your pipeline gives players something fresh to look forward to and can re-energize lapsed players.
 
-![Castle Quest! 2.0 update window](../../.assets/images/c11de67522295019bf6e38e1786f5151a676578f8d6441f4fdbbac9bb6de4345.png)
+![Castle Quest! 2.0 update window](../../.assets/image/c11de67522295019bf6e38e1786f5151a676578f8d6441f4fdbbac9bb6de4345.png)
 
 ## [Integration into gameplay](#integration-into-gameplay)
 
@@ -119,7 +119,7 @@ Once your content pipeline map is complete, the next critical step is directing 
 
 Use the lobby to highlight key content elements such as the storefront, tutorial messaging, and links to community resources like Discord and social channels.
 
-![Castle Quest! daily login rewards](../../.assets/images/65060ac6cbb962e847cc153a4882850f9f7480b86bdf0908f92f9d7842fb36d6.png)
+![Castle Quest! daily login rewards](../../.assets/image/65060ac6cbb962e847cc153a4882850f9f7480b86bdf0908f92f9d7842fb36d6.png)
 
 We recommend promoting daily login rewards with a pop-up during initial login or a notification in a high-visibility area of the main menu.
 

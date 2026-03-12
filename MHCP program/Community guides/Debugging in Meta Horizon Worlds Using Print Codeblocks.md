@@ -28,7 +28,7 @@ The Debug Print CodeBlock in Meta Horizon Worlds is a powerful tool for understa
 
 The Debug Print CodeBlock outputs a string message to the debug console, which is accessible in the scripting panel of your build menu. This feature is invaluable for debugging because it provides insight into the script’s behavior in real-time.
 
-![](../../.assets/images/c0eb970cc801c956db3f01aa3370c255b5b85076519fb835bd2fc92689add704.png)
+![](../../.assets/image/c0eb970cc801c956db3f01aa3370c255b5b85076519fb835bd2fc92689add704.png)
 
 ## [Basic Usage](#basic-usage)
 
@@ -40,19 +40,19 @@ Whether you’re aiming to inspect variable values, verify script execution, or 
 
 In your script, find the Debug Print CodeBlock under the “Values” category. It’s specifically listed under “Debugging.”
 
-![](../../.assets/images/440104e6ad177fa23131b79ff819bc4961fa4ec25a2b7b67d3d3c99312ba4745.png)
+![](../../.assets/image/440104e6ad177fa23131b79ff819bc4961fa4ec25a2b7b67d3d3c99312ba4745.png)
 
 #### [Insert the Debug Print](#insert-the-debug-print)
 
 Drag the Debug Print CodeBlock into your script wherever you want to check the value of a variable, see if a part of the script is executed, or confirm the flow of logic.
 
-![](../../.assets/images/23a4d8352dc8535d35ca770782b7bf09ac991dc3b3391f082d0ed054cd254ab0.png)
+![](../../.assets/image/23a4d8352dc8535d35ca770782b7bf09ac991dc3b3391f082d0ed054cd254ab0.png)
 
 #### [Customize the Message](#customize-the-message)
 
 You can type any message within the Debug Print CodeBlock. Often, you’ll want to include variable values in your message for inspection. To do this, you can use the “variable as string” codeblock (found under “Type Casting”) to convert variables to strings and append them to your debug message.
 
-![](../../.assets/images/0103b4477386a3b37b07caccea0e436a16575d39c5fd58695a5e1a3ae9d27c39.png)
+![](../../.assets/image/0103b4477386a3b37b07caccea0e436a16575d39c5fd58695a5e1a3ae9d27c39.png)
 
 ## [Tips for Effective Debugging](#tips-for-effective-debugging)
 
@@ -66,7 +66,7 @@ You can type any message within the Debug Print CodeBlock. Often, you’ll want 
 
 Imagine you have a script where a variable score is supposed to increment when a player triggers an event, but it’s not working as expected. Here’s how you might use Debug Print to debug this issue:
 
-![](../../.assets/images/072aca079edf45596530b3bd6d4f9cd93d56b4353e8a5fe3854c3b0ca5a09e55.png)
+![](../../.assets/image/072aca079edf45596530b3bd6d4f9cd93d56b4353e8a5fe3854c3b0ca5a09e55.png)
 
 This setup allows you to see in the console when the world starts, when the trigger event occurs, and what the score is after it’s supposed to have been incremented. If you don’t see “Trigger entered by player,” you know the issue lies with the trigger detection. If the score doesn’t increment as expected, the issue is with how the score is being updated.
 

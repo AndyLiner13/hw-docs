@@ -8,7 +8,7 @@ The Floating Text Manager system can be used to display floating text elements i
 
 **Note**: The ammo counter displayed over the guns is a simple Text gizmo.
 
-![Image of floating text above pistol](../../../.assets/images/3e843c5523713641c2e4c2de660b9bbef3914df29e5051289a3373aad4de034d.png)
+![Image of floating text above pistol](../../../.assets/image/3e843c5523713641c2e4c2de660b9bbef3914df29e5051289a3373aad4de034d.png)
 
 Floating Text Manager is composed of two scripts and a predefined Text Gizmo asset, which is spawned in whenever a piece of floating text is required.
 

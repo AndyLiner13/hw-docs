@@ -15,8 +15,8 @@ This guide focuses on creating NPCs that engage players through **scripted behav
 To build a conversation for your scripted NPC, use the following process:
 
 1. Navigate to **Build > Gizmos**, select the **NPC** gizmo and drag it into your scene. Set the **NPC type** to **Horizon Avatar (Body Only).**
-2. After configuring the NPC’s properties in the **Properties** pane, click **Attach script** and select **New NPC conversation script** from the menu. ![Attach Script](../../../.assets/images/25d149585c67d78baa5546ac370f07860f87825b6346324e108240b2f813b301.png)
-3. Name your script for your NPC, click **Create and attach**, and wait for the script to compile. Once compiled you can click the three dot menu and select **Edit script** to open the script in your preferred IDE. ![Edit Script](../../../.assets/images/5c5f596dfdd6e845f811525d7c33eeed72acd1baaea416f05418b04bf87b3b0a.png)
+2. After configuring the NPC’s properties in the **Properties** pane, click **Attach script** and select **New NPC conversation script** from the menu. ![Attach Script](../../../.assets/image/25d149585c67d78baa5546ac370f07860f87825b6346324e108240b2f813b301.png)
+3. Name your script for your NPC, click **Create and attach**, and wait for the script to compile. Once compiled you can click the three dot menu and select **Edit script** to open the script in your preferred IDE. ![Edit Script](../../../.assets/image/5c5f596dfdd6e845f811525d7c33eeed72acd1baaea416f05418b04bf87b3b0a.png)
 
 This created script attached to your NPC manages its behavior and maps to various APIs to drive its actions.
 

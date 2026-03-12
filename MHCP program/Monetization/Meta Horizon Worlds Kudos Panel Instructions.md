@@ -8,7 +8,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/mhcp-prog
 
 Hey Creators! The Meta Horizon Worlds team has created a new “Kudos Panel” asset to help with monetizing your worlds. The Kudos Panel is a ready-to-use component that automatically configures your world with everything you need to allow people to purchase Kudos as a way to show their support for your creations.
 
-![](../../.assets/images/0b045646247976bfb6c862953fe4c2911fc3ab3f580443aeb8c10a75fbcf4dda.png)
+![](../../.assets/image/0b045646247976bfb6c862953fe4c2911fc3ab3f580443aeb8c10a75fbcf4dda.png)
 
 ## [Benefits of the Kudos Panel](#benefits-of-the-kudos-panel)
 
@@ -47,10 +47,10 @@ Adding multiple Kudos Panels to your world will result in Kudos Points being awa
 To add a Kudos Panel to your world, please do the following:
 
 1. Confirm that you have no more than two leaderboards in your world. If you have previously added a Kudos Panel to your world and have a leaderboard called “Kudos” you can skip this step.
-2. Open the Creation UI and select Assets->Asset Library. ![](../../.assets/images/57fef2ec48feb856c9145e3324789ae7c190d869070bcb5b278dc01798f0174d.png)
-3. Select the Commerce folder. ![](../../.assets/images/d83851477593e21530f65dc7c2b04736649b92cd49cab59aa6db22e343e8906c.png)
-4. Select the Kudos Panel asset and place it in your world. ![](../../.assets/images/f76a8766e402cf54ded314628468a76f9366bdaa7d35c307fda23cb5ddd6f1f5.png)
-5. Once the Kudos Panel is placed in your world, Publish your world. The Kudos Panel asset is now ready to use. ![](../../.assets/images/3701633ffc4bf205387175f230663c312cdd5b1b1de97fd23ae92429223e0078.png)
+2. Open the Creation UI and select Assets->Asset Library. ![](../../.assets/image/57fef2ec48feb856c9145e3324789ae7c190d869070bcb5b278dc01798f0174d.png)
+3. Select the Commerce folder. ![](../../.assets/image/d83851477593e21530f65dc7c2b04736649b92cd49cab59aa6db22e343e8906c.png)
+4. Select the Kudos Panel asset and place it in your world. ![](../../.assets/image/f76a8766e402cf54ded314628468a76f9366bdaa7d35c307fda23cb5ddd6f1f5.png)
+5. Once the Kudos Panel is placed in your world, Publish your world. The Kudos Panel asset is now ready to use. ![](../../.assets/image/3701633ffc4bf205387175f230663c312cdd5b1b1de97fd23ae92429223e0078.png)
 
 > [!Note]
 >

@@ -14,7 +14,7 @@ While it’s not necessary to designate an existing object in the scene as the p
 
 1. Press Ctrl + Click or Shift + Click to select multiple objects.
 
-   ![Create a hierarchy](../../.assets/images/da80610923176370ee49a791fd39bdcecb207d9b4ba228e6e921c85d6cb64003.png)
+   ![Create a hierarchy](../../.assets/image/da80610923176370ee49a791fd39bdcecb207d9b4ba228e6e921c85d6cb64003.png)
 
 2. Create an empty object to be the parent of the selected objects:
 
@@ -28,7 +28,7 @@ While it’s not necessary to designate an existing object in the scene as the p
 
    In the following image, the **Sound Recorder** is dragged to the **Empty Object** hierarchy.
 
-   ![The object is added to the chosen hierarchy](../../.assets/images/47d881bc095641bdcaf8bfecbd7c6fc3a5ecf80301c7ddfc9dc8fdca49397ebf.png)
+   ![The object is added to the chosen hierarchy](../../.assets/image/47d881bc095641bdcaf8bfecbd7c6fc3a5ecf80301c7ddfc9dc8fdca49397ebf.png)
 
 ## [Remove objects from a hierarchy](#remove-objects-from-a-hierarchy)
 

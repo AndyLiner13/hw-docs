@@ -41,7 +41,7 @@ The `ArrowAssignManager.ts` script handles the core logic of when players receiv
 
 1. **Create the arrow assignment manager**: Create an empty object in your world to house the arrow assignment system. Attach the `ArrowAssignManager.ts` script to this object.
 
-   ![Arrow assignment manager](../../../.assets/images/700c24719fe7b0351d25441f2e627acaa269b5ecf4a1ff6e2140db98927f0cb5.png)
+   ![Arrow assignment manager](../../../.assets/image/700c24719fe7b0351d25441f2e627acaa269b5ecf4a1ff6e2140db98927f0cb5.png)
 
 2. **Configure trigger zones**: Set up the essential trigger entities in the script properties:
    - **startArrowTrigger**: Trigger zone where players first receive arrows (typically at tutorial start)
@@ -110,7 +110,7 @@ Once your arrow system is implemented, test thoroughly:
 6. **Cleanup Testing**: Confirm arrows disappear when entering remove triggers
 7. **Performance Testing**: Ensure smooth arrow rotation and minimal frame rate impact
 
-![Arrow assignment example](../../../.assets/images/882eb62da7bdfda33c24d6e2ce677cfa032e2dda40e2439db7b9996dac379d77.png)
+![Arrow assignment example](../../../.assets/image/882eb62da7bdfda33c24d6e2ce677cfa032e2dda40e2439db7b9996dac379d77.png)
 
 With a comprehensive 3D waypoint arrow system in place, you can provide players with intuitive floating guidance that dynamically tracks objectives, adapts to quest types, and provides smooth directional assistance throughout their journey in your world.
 

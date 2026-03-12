@@ -36,7 +36,7 @@ After selecting an object, or multiple objects, in the hierarchy view you can du
 To do so use the following process:
 
 1. Select an object or objects in the hierarchy view.
-2. Right click and select **Duplicate selection** from the pop-up menu. You can also use the keyboard shortcut **Ctrl + D**. ![Duplicate object option in the hierarchy window view](../../.assets/images/ea202f7ae792b04d15d5e942cf88571ffa87ea82c80790f1f455ed57b010e5b2.png)
+2. Right click and select **Duplicate selection** from the pop-up menu. You can also use the keyboard shortcut **Ctrl + D**. ![Duplicate object option in the hierarchy window view](../../.assets/image/ea202f7ae792b04d15d5e942cf88571ffa87ea82c80790f1f455ed57b010e5b2.png)
 3. Your selected objects, including any child objects, will appear in the hierarchy view.
 
 ## [Sub-Object Selection](#sub-object-selection)
@@ -77,7 +77,7 @@ This works for both regular selection and marquee selection.
 - **Selected** objects and gizmos are outlined in blue.
 - **Locked** objects and gizmos are outlined in red, both on mouse over and when selected.
 
-![56b7a774-5178-4932-9458-82bb7b33895c.png](../../.assets/images/f679ea270c6d374b1309ca3c6d2184afd384f5a6b1607df576c19941de84dee4.png)
+![56b7a774-5178-4932-9458-82bb7b33895c.png](../../.assets/image/f679ea270c6d374b1309ca3c6d2184afd384f5a6b1607df576c19941de84dee4.png)
 
 ## [Focusing the camera on a selected entity](#focusing-the-camera-on-a-selected-entity)
 
@@ -106,6 +106,6 @@ Marquee selection makes it easier to select multiple objects. It simplifies the 
 1. In the Desktop Editor, click and drag a selection box over the objects that you want to select.
    1. All non-locked and visible objects within the box become outlined in blue.
    2. Child objects not within the selection box but with parents that are within the selection box are outlined in white.
-   3. Any object within the selection box and belonging to either a group or asset template instance will result in the entire group/asset template instance being outlined in blue. ![](../../.assets/images/8235713aa82f543f1b754401ee6282064d337f206840a54ffe1c3b3535d6cadb.png)
+   3. Any object within the selection box and belonging to either a group or asset template instance will result in the entire group/asset template instance being outlined in blue. ![](../../.assets/image/8235713aa82f543f1b754401ee6282064d337f206840a54ffe1c3b3535d6cadb.png)
 2. When you unclick, the blue outlined objects within the box are selected.
 

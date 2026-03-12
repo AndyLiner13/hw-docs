@@ -10,10 +10,10 @@ Horizon scripts are run on the server by default, enabling your world to maintai
 
 To set your script to run in local scripting mode in Desktop Editor, perform the following steps.
 
-1. In Desktop Editor, select **Scripts** in the menu bar to open the Scripts panel. ![](../../.assets/images/9fc6e492f9c2e5c210d1922f7abe9d014c5f872cfb7d691d87f185e51f257eb6.png)
+1. In Desktop Editor, select **Scripts** in the menu bar to open the Scripts panel. ![](../../.assets/image/9fc6e492f9c2e5c210d1922f7abe9d014c5f872cfb7d691d87f185e51f257eb6.png)
 2. Click the more options menu of your script and change the **Script Execution Mode** from **Default** to **Local**.
 
-![](../../.assets/images/d052c7db1c0872c9bcb97e4e9d60c9957aac9a30850861c4c2358dc2b9265282.png)
+![](../../.assets/image/d052c7db1c0872c9bcb97e4e9d60c9957aac9a30850861c4c2358dc2b9265282.png)
 
 ## [Entity ownership](#entity-ownership)
 

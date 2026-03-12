@@ -8,7 +8,7 @@ World analytics is the usage and performance data associated with a world in Met
 
 **Note**: To see the World Analytics dashboard for your world, it must have already had visitors for at least two days on the Production channel of Meta Horizon Worlds.
 
-![](../../.assets/images/c3de6700a957d9b089437606f6e8131bbee7dde29c8b05268c0f3aeca4d07cfd.png)
+![](../../.assets/image/c3de6700a957d9b089437606f6e8131bbee7dde29c8b05268c0f3aeca4d07cfd.png)
 
 ## [How to use the World Analytics tool](#how-to-use-the-world-analytics-tool)
 

@@ -4,7 +4,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/tutorial-
 
 # [Module 4 - Laser Gun](#module-4---laser-gun)
 
-![Image of the laser gun assembly in the world](../../../.assets/images/0d8aacc13d0bc43a58bb578b793e766ef2c1a276bcad61b2dbc1f8881cbbb9a1.png)
+![Image of the laser gun assembly in the world](../../../.assets/image/0d8aacc13d0bc43a58bb578b793e766ef2c1a276bcad61b2dbc1f8881cbbb9a1.png)
 
 ## [Concept](#concept)
 

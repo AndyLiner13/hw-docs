@@ -70,7 +70,7 @@ By reading and reviewing this written guide you will be able to:
 
 **Broadcast Events**
 
-![](../../.assets/images/49049dbe0b2c5296164728c717e0613147bff7d91ad172274da8614a783fbbcc.png)
+![](../../.assets/image/49049dbe0b2c5296164728c717e0613147bff7d91ad172274da8614a783fbbcc.png)
 
 - **“when player starts purchase item (broadcast)”**
   - Broadcast Event - Can be heard from any script in the world
@@ -79,7 +79,7 @@ By reading and reviewing this written guide you will be able to:
     - `itemId`: A string containing the name/id of the item being purchased.
   - This can be used on any script where you need to know when a purchase is started.
 
-![](../../.assets/images/84d7c241189514b304ecea1925a0453c80703a8fad489a35aa1b142e231ad4c7.png)
+![](../../.assets/image/84d7c241189514b304ecea1925a0453c80703a8fad489a35aa1b142e231ad4c7.png)
 
 - **“when player completes purchase item (broadcast)”**
   - Broadcast Event - Can be heard from any script in the world
@@ -89,7 +89,7 @@ By reading and reviewing this written guide you will be able to:
     - `success`: A boolean letting us know if the purchase succeeded or failed.
   - This can be used on any script where you need to know when a purchase is completed successfully or not.
 
-![](../../.assets/images/2de0c3c4018f497375e78e6f9ab1acfaffce3365e2f960de01240481bc1ca99f.png)
+![](../../.assets/image/2de0c3c4018f497375e78e6f9ab1acfaffce3365e2f960de01240481bc1ca99f.png)
 
 - **“when player starts consume item (broadcast)”**
   - Broadcast Event - Can be heard from any script in the world
@@ -98,7 +98,7 @@ By reading and reviewing this written guide you will be able to:
     - `itemId`: A string containing the name/id of the item being consumed.
   - This can be used on any script where you need to know when consumption is started.
 
-![](../../.assets/images/2a11270a195f3be8dc55fe1020243e59f8fbbe8568d1da654deaf80a2566a9b8.png)
+![](../../.assets/image/2a11270a195f3be8dc55fe1020243e59f8fbbe8568d1da654deaf80a2566a9b8.png)
 
 - **“when player completes consume item (broadcast)”**
   - Broadcast Event - Can be heard from any script in the world
@@ -108,7 +108,7 @@ By reading and reviewing this written guide you will be able to:
     - `success`: A boolean letting us know if the consumption succeeded or failed.
   - This can be used on any script where you need to know when consumption is completed successfully or not.
 
-**![](../../.assets/images/71c022f32859ffe28b8761fa5f80fd281b03925fdacf0178ca9b3bfb9dab7d4c.png)**
+**![](../../.assets/image/71c022f32859ffe28b8761fa5f80fd281b03925fdacf0178ca9b3bfb9dab7d4c.png)**
 
 - **“when an asset spawns from player inventory”**
   - Broadcast Event - Can be heard from any script in the world
@@ -120,7 +120,7 @@ By reading and reviewing this written guide you will be able to:
 
 **Non-broadcast Events**
 
-**![](../../.assets/images/f4a3b09780cb5aacec27828c92a0ca89a5dbf7e3c4ad7edc698cf6b61ae647e5.png)**
+**![](../../.assets/image/f4a3b09780cb5aacec27828c92a0ca89a5dbf7e3c4ad7edc698cf6b61ae647e5.png)**
 
 - **“when player purchase succeeds on item”**
   - Standard Event - Script must be attached to an In-World Item gizmo.
@@ -128,7 +128,7 @@ By reading and reviewing this written guide you will be able to:
     - `player`: A reference to the player that purchased the item.
   - This can be used in a script attached to a specific In-World Item gizmo that you need to know when a purchase of that item is successful.
 
-**![](../../.assets/images/8d7aa43938ab20e1496ae735e33dd75589a52ad134a4f11f358115eedb7e948e.png)**
+**![](../../.assets/image/8d7aa43938ab20e1496ae735e33dd75589a52ad134a4f11f358115eedb7e948e.png)**
 
 - **“when player purchase fails on item”**
   - Standard Event - Script must be attached to an In-World Item gizmo.
@@ -136,7 +136,7 @@ By reading and reviewing this written guide you will be able to:
     - `player`: A reference to the player that attempted to purchase the item.
   - This can be used in a script attached to a specific In-World Item gizmo that you need to know when a purchase of that item fails.
 
-![](../../.assets/images/d054fd21b4ab231dae04fd3db4434012bc8c90ae4be8896947da10675472a24a.png)
+![](../../.assets/image/d054fd21b4ab231dae04fd3db4434012bc8c90ae4be8896947da10675472a24a.png)
 
 - **“when player consume succeeds on item”**
   - Standard Event - Script must be attached to an In-World Item gizmo.
@@ -144,7 +144,7 @@ By reading and reviewing this written guide you will be able to:
     - `player`: A reference to the player consumed the item.
   - This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item is consumed successfully.
 
-![](../../.assets/images/992f40a01fe03ca4745ce0c644715df4442b418f6eec01e4ae60707d202379c6.png)
+![](../../.assets/image/992f40a01fe03ca4745ce0c644715df4442b418f6eec01e4ae60707d202379c6.png)
 
 - **“when player consume fails on item”**
   - Standard Event - Script must be attached to an In-World Item gizmo.
@@ -152,7 +152,7 @@ By reading and reviewing this written guide you will be able to:
     - `player`: A reference to the player that attempted to consume the item.
   - This can be used in a script attached to a specific In-World Item gizmo that you need to know when the item failed to be consumed.
 
-![](../../.assets/images/340cfa81f4013264ded3845b62d79b18f995104ab6441634c1e6be0d2a384fb6.png)
+![](../../.assets/image/340cfa81f4013264ded3845b62d79b18f995104ab6441634c1e6be0d2a384fb6.png)
 
 - **“when player try to consume item”**
   - Standard Event - Script must be attached to an In-World Item gizmo.
@@ -162,7 +162,7 @@ By reading and reviewing this written guide you will be able to:
 
 **Actions**
 
-![](../../.assets/images/6a26c7b15c092162d766e158c55f1843ecba2ef21521c57cf7929203f37965a7.png)
+![](../../.assets/image/6a26c7b15c092162d766e158c55f1843ecba2ef21521c57cf7929203f37965a7.png)
 
 - **“consume item for player”**
   - Required Parameters
@@ -173,21 +173,21 @@ By reading and reviewing this written guide you will be able to:
 
 **Operators**
 
-![](../../.assets/images/550489d37bd1afb54e015f2498e026e4ca6b85d6734c93f0cea722d3d5a8024f.png)
+![](../../.assets/image/550489d37bd1afb54e015f2498e026e4ca6b85d6734c93f0cea722d3d5a8024f.png)
 
 - **“player owns item”**
   - Required Parameters
     - `player`: A reference to the player we’re checking.
   - Returns a boolean that tells us whether the player owns the selected In-World item.
 
-**![](../../.assets/images/9925ba9f08443625d62171ca7e5c79eb65f8a770cd769cd8fcc252794373a6be.png)**
+**![](../../.assets/image/9925ba9f08443625d62171ca7e5c79eb65f8a770cd769cd8fcc252794373a6be.png)**
 
 - **“player owns item quantity”**
   - Required Parameters
     - `player`: A reference to the player we’re checking.
   - Returns a number that tells us how many of the selected *Consumable without Auto-use* the player owns.
 
-![](../../.assets/images/7a5021c52da041aadbc2aeed791b0820bdc8e79fd87e23117bb49840d08d0cd7.png)
+![](../../.assets/image/7a5021c52da041aadbc2aeed791b0820bdc8e79fd87e23117bb49840d08d0cd7.png)
 
 - **“time since player consumed item”**
   - Required Parameters
@@ -195,7 +195,7 @@ By reading and reviewing this written guide you will be able to:
   - Returns a number based on the selected value from a dropdown menu. Options are seconds, minutes, and days. The returned number represents how many seconds, minutes, or days that have passed since the item was consumed.
     - *Note*: Returns a 0 if the item has never been consumed. Recommended that you use this in conjunction with the “*player has consumed item*” codeblock.
 
-![](../../.assets/images/411d581f6012a7f50834d5013d20f9b9677ad3a6329a69a537daebdfb6f4e187.png)
+![](../../.assets/image/411d581f6012a7f50834d5013d20f9b9677ad3a6329a69a537daebdfb6f4e187.png)
 
 - **“player has consumed item”**
   - Required Parameters
@@ -204,7 +204,7 @@ By reading and reviewing this written guide you will be able to:
 
 **Values**
 
-![](../../.assets/images/026f5b1c09f95398e84d0b6757c332c69c354683269a6a62acf624973443b7fd.png)
+![](../../.assets/image/026f5b1c09f95398e84d0b6757c332c69c354683269a6a62acf624973443b7fd.png)
 
 - **“in-world items”**
   - Contains a dropdown menu that lets you select an In-World Item ID to be used when making conditional checks in your IF statements.
@@ -215,32 +215,32 @@ Creating and implementing IWPs involves a series of steps from item creation to 
 
 **Step 1:** While in build mode, open your build menu, navigate to *Systems,* and click *Commerce* then *Create Item*.
 
-![](../../.assets/images/c676e3624b594e8754a3cae27b696f99ff85722dcbf3f59d162b60798e0541da.png)
+![](../../.assets/image/c676e3624b594e8754a3cae27b696f99ff85722dcbf3f59d162b60798e0541da.png)
 
 **Step 2:** Every IWP you create requires a *Name*, *Sell Price*, *Thumbnail*, and selected *Item type*.
 
 | **Durable In-World Item**                                                                                                                                                                                            | **Consumable In-World Item**                                                                                                                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../../.assets/images/95e04c22386845bccaf62f8e7ed4a90af0d0bd46c8024d9af429b54850219576.png)                                                                                                                       | ![](../../.assets/images/7c8ed21296c424f4e59698d7f4ccf00198b1b304770dea6ca33f4f25c07a6b26.png)                                               |
+| ![](../../.assets/image/95e04c22386845bccaf62f8e7ed4a90af0d0bd46c8024d9af429b54850219576.png)                                                                                                                       | ![](../../.assets/image/7c8ed21296c424f4e59698d7f4ccf00198b1b304770dea6ca33f4f25c07a6b26.png)                                               |
 | Asset reference is optional. Leaving it blank will create a *Durable Item without an Asset* (permanent player statuses). Adding an Asset will create a *Durable Item with Asset*, like a permanent weapon, hat, etc… | Decide if your consumable will be automatically consumed upon purchase or allow the user to consume it from their inventory with *Auto use*. |
 
 \*\*Note:\*\**Description* is an optional field, but it is recommended that you provide a detailed description to help users understand what they are buying.
 
 **Step 3:** Once your In-World Item has been created, you can grab an In-World Item gizmo from your build menu and drag it into your world.
 
-![](../../.assets/images/03c9b8f8ab33469c3d597b5425bf547284a2c4990bed4e58ec3e84624334f0fb.png)
+![](../../.assets/image/03c9b8f8ab33469c3d597b5425bf547284a2c4990bed4e58ec3e84624334f0fb.png)
 
 **Step 4:** Open the property panel for your In-World Item gizmo and there are several settings you can change here:
 
 - Hit *Select* next to *In-World Item* and select the In-World Item associated with this gizmo.
 
-![](../../.assets/images/f84b24d066a9750107fbf192b39f386511584a7074c21ede4cb8052d68f3f58c.png)
+![](../../.assets/image/f84b24d066a9750107fbf192b39f386511584a7074c21ede4cb8052d68f3f58c.png)
 
 - Click the dropdown next to *UI Property* and change the display style of your gizmo.
 
 | Trigger                                                                                        | Button                                                                                         | Icon                                                                                           |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| ![](../../.assets/images/2bae7f51b6c03b6e5bd35f102f624d7b09d8bc814b5fefe29501d9f9e185815d.png) | ![](../../.assets/images/30e040366b1b45815ca324c8a8b1e9b421ec7c1ec1a5b4fc32e1525b2ada703f.png) | ![](../../.assets/images/41825ea3bc0287b6ff97d5909ac2a1d1ebb69d7dd645513f46334bc28b6e069e.png) |
+| ![](../../.assets/image/2bae7f51b6c03b6e5bd35f102f624d7b09d8bc814b5fefe29501d9f9e185815d.png) | ![](../../.assets/image/30e040366b1b45815ca324c8a8b1e9b421ec7c1ec1a5b4fc32e1525b2ada703f.png) | ![](../../.assets/image/41825ea3bc0287b6ff97d5909ac2a1d1ebb69d7dd645513f46334bc28b6e069e.png) |
 
 - This is also where you would attach any scripts using the non-broadcast event codeblocks described under the **IWP Codeblocks** section.
 
@@ -252,11 +252,11 @@ This section will guide you through the process of creating and selling Item Pac
 
 Item Packs consist of *Consumables without Auto-use* offering players the ability to purchase items in bulk. You can create one by opening your build menu, navigating to *Systems* then *Commerce* again, selecting *Item Packs*, and clicking *Create Item Pack*.
 
-![](../../.assets/images/e857ffc0e490e2b701531413753bb34afe38e36e4f9051b22eb6b4e9d6fee47c.png)
+![](../../.assets/image/e857ffc0e490e2b701531413753bb34afe38e36e4f9051b22eb6b4e9d6fee47c.png)
 
 The next window will ask you which *Consumable without Auto-use* you would like to make an Item Pack out of. Once selected you can choose an *Item quantity* between 2 and 99 then select your *Sell Price*.
 
-![](../../.assets/images/7653063e2445c99ac901ebb7e6eb81d59aa4e24c894597ec894f81879ecf742e.png)
+![](../../.assets/image/7653063e2445c99ac901ebb7e6eb81d59aa4e24c894597ec894f81879ecf742e.png)
 
 Once created you can follow the same steps 3-4 in the previous section, **Creating an IWP**, to start selling your item pack.
 
@@ -274,7 +274,7 @@ Durable items without assets are straightforward since all you can do is check i
 
 In this example, the script below is attached to a Trigger gizmo that covers our VIP area. When a player enters the trigger, we will check if they own this item and respawn them if they do not.
 
-![](../../.assets/images/83e5abefe8bedf4a493af7560be46c5a7458d6587d6d92791837ccfd859988ec.png)
+![](../../.assets/image/83e5abefe8bedf4a493af7560be46c5a7458d6587d6d92791837ccfd859988ec.png)
 
 This is created by using the *when trigger is entered by player* event codeblock with an *IF* statement inside. We use a *NOT* operator and drag the *player owns item* codeblock inside of it. Using the *player* parameter from the event and an *in-world items* input value, we can complete this *IF* statement and respawn our players.
 
@@ -288,7 +288,7 @@ Durable items with assets do not require scripts, but what if we need to communi
 
 This script can run anywhere in the world since it uses a broadcast event.
 
-![](../../.assets/images/aada3a5da96fc4b8ec770910c86e9ac921b84f1c0376cf7cd0aa314fa4acc366.png)
+![](../../.assets/image/aada3a5da96fc4b8ec770910c86e9ac921b84f1c0376cf7cd0aa314fa4acc366.png)
 
 Using the *when an asset spawns from player inventory* codeblock we get the object that spawned, the asset it was created from, and the player who spawned it. Since this is a broadcast event that will fire on any item spawning from any player, we’re going to check that the asset received by the event is the one we want by using an IF statement to compare the parameter to a specific asset variable in our script. Once we determine this is our asset, we can now send an event to the newly spawned object with our player as a parameter for the object to receive.
 
@@ -302,7 +302,7 @@ In this example, we use a consumable to provide time-based(30 days) access to ou
 
 **Note**: Because the script is too wide, I had to cut and modify the IF statement to show on two lines.
 
-![](../../.assets/images/20dceb8e55e04a3206bfbc27560ffb86b8e4d01b38139ce20adff8ee7c09dd0b.png)
+![](../../.assets/image/20dceb8e55e04a3206bfbc27560ffb86b8e4d01b38139ce20adff8ee7c09dd0b.png)
 
 This script uses the *IF* statement and the *NOT* operator just like in our previous example. We also incorporate the *AND* operator so we can check two conditions. First, we use the *player has consumed item* codeblock to tell us if they have consumed the item, then we use the *time since player consumed item* codeblock in conjunction with the *LESS THAN* operator and *number* input value to determine if it has been less than 30 days since they consumed. Because of our *AND* operator, if one of these conditions returns false, they will be teleported away from the area.
 
@@ -318,11 +318,11 @@ We don’t have any need for the *when player purchase succeeds on item* or *whe
 
 We wait for the *when player consume succeeds on item* event to fire, although since this is an auto-consumed item, we could have also sent *restoreHealth* under the *when player purchase succeeds on item* event too.
 
-![](../../.assets/images/b6935d6859fdd4cb2be2dd399e3a095373c37d4a35503013d7769d4ffb1bc738.png)
+![](../../.assets/image/b6935d6859fdd4cb2be2dd399e3a095373c37d4a35503013d7769d4ffb1bc738.png)
 
 Below you’ll see an example of my player manager script to give you an idea of what that looks like. This script can be ran on any object in the world and listens for events being sent to players.
 
-![](../../.assets/images/1805017f41fee6b5d886fa593f4de4eaff7add7bdeb12d1552037b90c5702c98.png)
+![](../../.assets/image/1805017f41fee6b5d886fa593f4de4eaff7add7bdeb12d1552037b90c5702c98.png)
 
 **Coin Shop**
 
@@ -334,7 +334,7 @@ In this example, the user purchases 100 coins so we need to add the coins to the
 
 We use the *set player persistent var* to codeblock with a + operator to add their current Coin PPV that we retrieved using the *get user persistent var* codeblock to a number input value of 100.
 
-![](../../.assets/images/8cf0e0e6af42df0d80c2d030f55638f7f15e52a6fc15a0fdb613f6c0deead0fa.png)
+![](../../.assets/image/8cf0e0e6af42df0d80c2d030f55638f7f15e52a6fc15a0fdb613f6c0deead0fa.png)
 
 ### [Consumable without Auto-use](#consumable-without-auto-use)
 
@@ -346,7 +346,7 @@ In this example we show how to handle manual consumption of an In-World Item wit
 
 The important thing to note when a player tries to consume a *Consumable without Auto-use* is that you must recognize this using the *when player try to consume item\*\*from inventory* codeblock and decide whether to acknowledge this attempt using the *consume item for player* codeblock before the consumption is considered successful, otherwise, the consumption will fail. Refer to the previous example, **Restore Health**, to see what a player manager script would look like.
 
-![](../../.assets/images/ed39df9b494418d5077d5c9013b950940e67df078bd2f708e0a3671207758b76.png)
+![](../../.assets/image/ed39df9b494418d5077d5c9013b950940e67df078bd2f708e0a3671207758b76.png)
 
 ## [Extended Learning](#extended-learning)
 

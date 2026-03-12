@@ -8,7 +8,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 The World capacity guidelines dialog shows you how close your world is to meeting or exceeding the capacity limits of a World. To access the World Capacity dialog, open the **Main Menu** and select **World Capacity**.
 
-![World Capacity menu item](../../.assets/images/161392df3042086a8a60c3a74f956c34c890b5727de2955740a03fcafec9390d.png)
+![World Capacity menu item](../../.assets/image/161392df3042086a8a60c3a74f956c34c890b5727de2955740a03fcafec9390d.png)
 
 The World capacity guidelines dialog shows you the used capacity, as a percentage, of four major categories: Objects, Simulation and animation, World vertex count, and Sounds. If you at more than 75% of the capacity limit for any of these categories, you will see a yellow bar for the category. If you are at more than 100% of the capacity limit for any of these categories, you will see a red bar and an error message.
 
@@ -16,13 +16,13 @@ The World capacity guidelines dialog shows you the used capacity, as a percentag
 >
 > The World vertex count category is incorrectly named in the dialog as world tricount. This will be fixed soon.
 
-![World capacity dialog](../../.assets/images/8f7744fa648f8d08cf49e7a88ac70f33872a89d1f6760581f1e6e89e6d7f6653.png)\
+![World capacity dialog](../../.assets/image/8f7744fa648f8d08cf49e7a88ac70f33872a89d1f6760581f1e6e89e6d7f6653.png)\
 *World capacity dialog*
 
-![World capacity with Sounds at yellow](../../.assets/images/451b391f9c015b5dbca908c068cc0504f82413b51029c7058fe473b550a03fb9.png)\
+![World capacity with Sounds at yellow](../../.assets/image/451b391f9c015b5dbca908c068cc0504f82413b51029c7058fe473b550a03fb9.png)\
 *World capacity dialog with Sounds at yellow*
 
-![World capacity with vertex count at 407% and error message](../../.assets/images/1cc8308669f84c90f1dd9da5f2ac9fed40f41736b50b340a2dc8c9955a1aed1a.png)\
+![World capacity with vertex count at 407% and error message](../../.assets/image/1cc8308669f84c90f1dd9da5f2ac9fed40f41736b50b340a2dc8c9955a1aed1a.png)\
 *World capacity with vertex count at 407% and error message*
 
 ## [Understanding capacity limits](#understanding-capacity-limits)

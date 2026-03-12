@@ -6,11 +6,11 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 Quests provide you with tools to create rich and engaging progression experiences in your worlds. You can access the Quests pane, which displays a list of a world’s quests, in the Desktop Editor by selecting **Quests** under the **Systems** button.
 
-![](../../.assets/images/bb7ebbb6d3be7de270c5e89e26e1b31bc2fbe11a5e6d301c65daa02c77f6f9cb.png)
+![](../../.assets/image/bb7ebbb6d3be7de270c5e89e26e1b31bc2fbe11a5e6d301c65daa02c77f6f9cb.png)
 
 Quests are automatically displayed to the player in two ways: a Quests gizmo object placed in the world, and by short-lived popups that appear in front of the player when the quest is completed.
 
-![](../../.assets/images/804e029683f089f550f22d2f532ac18daeb1a75f4f0ed6c69e49646f4e3f0cad.png)
+![](../../.assets/image/804e029683f089f550f22d2f532ac18daeb1a75f4f0ed6c69e49646f4e3f0cad.png)
 
 ## [Quests pane](#quests-pane)
 
@@ -44,7 +44,7 @@ Because tracked persistent quests have one or more persistent variables attached
 
 Tracked Persistent quests have all the configuration parameters of Simple quests as described above (**Script ID**, **Name**, **Description**, **Who can see this quest?**), plus the following:
 
-![Screenshot 2024-05-14 at 3.34.37 PM.png](../../.assets/images/3625ec0a3930cc6a42ef7a062dbb28b39eda8dde38802303b25ee27abe5d0035.png)
+![Screenshot 2024-05-14 at 3.34.37 PM.png](../../.assets/image/3625ec0a3930cc6a42ef7a062dbb28b39eda8dde38802303b25ee27abe5d0035.png)
 
 - **Quest Type:** Changing to the type to **Tracked** unlocks the following two fields:
 
@@ -55,7 +55,7 @@ Tracked Persistent quests have all the configuration parameters of Simple quests
 
 - **Success Criteria:** This is the criteria that will be used to determine completion of this quest. The criteria can be defined in the same way as the Activation Criteria. The threshold for the Success Criteria is the threshold value for the persistent variables at which you want this quest to be automatically marked complete. Note that if one or more objectives later drop below the threshold, the quest will *not* automatically revert to incomplete.
 
-![](../../.assets/images/908528f51b1180259bcc0652c5e23322c07bece0a8ce363750f7f0086f91dca4.png)
+![](../../.assets/image/908528f51b1180259bcc0652c5e23322c07bece0a8ce363750f7f0086f91dca4.png)
 
 ### [Edit/Reset My Quests](#editreset-my-quests)
 
@@ -63,7 +63,7 @@ The **Debug Quests** button in the upper right of the Quests pane opens the Debu
 
 Note that while setting simple quests to complete or incomplete is straightforward, tracked persistent quests can have unexpected interactions with their corresponding persistent variables. It is always possible to mark a tracked persistent quest “complete” using the Debug Quest panel, but you cannot mark a tracked persistent quest incomplete if the underlying variable has a value that meets the configured threshold for the quest. To mark such tracked persistent quests incomplete, you must first set the persistent variable to a value below the threshold for the quest. You can also reset a tracked persistent quest to be in a partially completed state by setting the persistent variable to a nonzero value (but below the threshold), and then setting the quest as incomplete.
 
-![](../../.assets/images/908528f51b1180259bcc0652c5e23322c07bece0a8ce363750f7f0086f91dca4.png)
+![](../../.assets/image/908528f51b1180259bcc0652c5e23322c07bece0a8ce363750f7f0086f91dca4.png)
 
 ## [TypeScript support](#typescript-support)
 

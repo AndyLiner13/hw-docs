@@ -21,7 +21,7 @@ These instructions walk you through assigning a script reference after you have 
 1. Select an object in the Hierarchy menu or in the scene pane.
 2. In the **Properties** panel, scroll to the **Script** section.
 3. Select a script from the **Attached Script** dropdown menu.
-4. The script is applied to the object, and the properties defined in the script now appear in the **Script** section of the **Properties** panel. ![The script properties appear in the Properties panel.](../../.assets/images/ce1f47a5dd2155675a6d2d09ce9afcb299ad7103a76ad85e667b879c04c49bd7.png)
+4. The script is applied to the object, and the properties defined in the script now appear in the **Script** section of the **Properties** panel. ![The script properties appear in the Properties panel.](../../.assets/image/ce1f47a5dd2155675a6d2d09ce9afcb299ad7103a76ad85e667b879c04c49bd7.png)
 
 ## [Copying scripts](#copying-scripts)
 
@@ -33,7 +33,7 @@ Script copying is an available feature to save you time. You can copy a script f
 2. Scroll down to the **Script** section, and click the menu dropdown.
 3. From the menu that appears, select **Copy Script**. The script is copied into memory.
 
-![Image shows the script menu dropdown, with the "Copy Script" option highlighted.](../../.assets/images/0dfb9a8f3d9848e6d1a2a368918383b39594ee50b4f11d8d49f925c59e8f03ec.png)
+![Image shows the script menu dropdown, with the "Copy Script" option highlighted.](../../.assets/image/0dfb9a8f3d9848e6d1a2a368918383b39594ee50b4f11d8d49f925c59e8f03ec.png)
 
 #### [To paste a copied script](#to-paste-a-copied-script)
 
@@ -41,5 +41,5 @@ Script copying is an available feature to save you time. You can copy a script f
 2. Navigate to the **Script** section, then click the menu dropdown.
 3. From the menu that appears, select **Paste all script properties**. A copy of the script is attached to the object.
 
-![Image shows the script menu drop-down, with the "Paste as new attached script" option selected.](../../.assets/images/5b917bfe9116d726b63b0f1579059081f77aa77fefd83c9a676e46eaf9aee004.png)
+![Image shows the script menu drop-down, with the "Paste as new attached script" option selected.](../../.assets/image/5b917bfe9116d726b63b0f1579059081f77aa77fefd83c9a676e46eaf9aee004.png)
 

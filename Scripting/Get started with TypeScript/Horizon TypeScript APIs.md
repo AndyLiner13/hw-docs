@@ -17,7 +17,7 @@ All new Worlds use V2 of the TypeScript API by default. We strongly recommend us
 
 Horizon API content class list example below:
 
-![](../../.assets/images/98efaade904adec3b2de3420019a7ed12a167bb043cc933ccaabe02e08522a73.png)
+![](../../.assets/image/98efaade904adec3b2de3420019a7ed12a167bb043cc933ccaabe02e08522a73.png)
 
 **Note:** This is only a shapshot of the Classes available to you.
 

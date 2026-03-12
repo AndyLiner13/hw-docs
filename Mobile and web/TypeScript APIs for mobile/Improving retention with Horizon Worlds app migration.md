@@ -10,7 +10,7 @@ Encouraging users to transition enables them to access richer content, participa
 
 This feature allows creators to **influence time spent and user retention** in their worlds by **rewarding users who switch to the Horizon app**. Horizon app users have better return rates because they experience a consistent entry point, better visibility of metaverse offerings, and Horizon-focused social features.
 
-![App migration upgrade offer UI](../../.assets/images/b0e451542d9a158855769a2601f00f56899ac7810c45fbde1dc5dc96208f80e9.png)
+![App migration upgrade offer UI](../../.assets/image/b0e451542d9a158855769a2601f00f56899ac7810c45fbde1dc5dc96208f80e9.png)
 
 ### [Feature eligibility](#feature-eligibility)
 
@@ -53,7 +53,7 @@ Some advice on what and when to offer migration to a new user.
 
 5. **Be creative.** The rewards and manner in which you present app migration to visitors is completely up to you. Rather than using a 2D UI panel with buttons, you could use in-world text and trigger volumes.
 
-![Welcome back rewards claim screen](../../.assets/images/522153aec192cd0c7753edb6a73f4d42f0a7a89c72c047667873a4b5281dd8e6.png)
+![Welcome back rewards claim screen](../../.assets/image/522153aec192cd0c7753edb6a73f4d42f0a7a89c72c047667873a4b5281dd8e6.png)
 
 ## [Enabling the Migration Module](#enabling-the-migration-module)
 
@@ -61,7 +61,7 @@ Some advice on what and when to offer migration to a new user.
 2. Click the cog icon to open **Script Settings**.
 3. Navigate to the **API** section and enable `horizon/migration`.
 
-![API Settings (808x412px)](../../.assets/images/9f0cf045df59f0aa66d7cb67285c6ff687b7609afe155c65236fdf99a56c9f87.png)
+![API Settings (808x412px)](../../.assets/image/9f0cf045df59f0aa66d7cb67285c6ff687b7609afe155c65236fdf99a56c9f87.png)
 
 ## [Setup](#setup)
 

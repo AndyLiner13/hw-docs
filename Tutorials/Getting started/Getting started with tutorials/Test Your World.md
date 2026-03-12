@@ -14,7 +14,7 @@ When you are building in the desktop editor, you can immediately preview the res
 
 At the top of the application, you should see the following toolbar:
 
-![Previewing Toolbar](../../../.assets/images/3bfc9165ddb2a2df3e7b71a00a2075133ac6060212f4eddb379cd2af8720b7f0.png)
+![Previewing Toolbar](../../../.assets/image/3bfc9165ddb2a2df3e7b71a00a2075133ac6060212f4eddb379cd2af8720b7f0.png)
 
 #### [Playback tools](#playback-tools)
 
@@ -48,7 +48,7 @@ For more information, see [Preview Mode](../../../Desktop%20editor/Get%20started
 
 In TypeScript, you can push messages through code to the Console log in the desktop editor.
 
-![Console logging](../../../.assets/images/c598395805d383b8eb0b828b74aa4e6056bd1ae13db0642e518a848e72e805d3.png)
+![Console logging](../../../.assets/image/c598395805d383b8eb0b828b74aa4e6056bd1ae13db0642e518a848e72e805d3.png)
 
 #### [Example:](#example)
 
@@ -110,7 +110,7 @@ In the VR headset, you can enable a set of runtime utilities in your wrist.
 
 The Utilities menu is now available in your avatar’s wrist when you are in VR.
 
-![Utilities menu](../../../.assets/images/c9edb2bb74e75427527c56090e2fe48b5cb88474b73dd7e1725468f613b127ce.png)
+![Utilities menu](../../../.assets/image/c9edb2bb74e75427527c56090e2fe48b5cb88474b73dd7e1725468f613b127ce.png)
 
 ### [Open Your World](#open-your-world)
 

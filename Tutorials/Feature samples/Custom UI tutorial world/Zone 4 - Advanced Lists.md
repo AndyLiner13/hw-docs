@@ -49,7 +49,7 @@ This demo showcases a dynamic paginated list UI, designed for displaying informa
 
 ### [Properties](#properties-1)
 
-![Advanced list properties](../../../.assets/images/588c99f08c392c3f8d109d875e27e3de9d29a901b08f81f18bc572c0b64a5895.png)
+![Advanced list properties](../../../.assets/image/588c99f08c392c3f8d109d875e27e3de9d29a901b08f81f18bc572c0b64a5895.png)
 
 #### [ListView Properties](#listview-properties)
 

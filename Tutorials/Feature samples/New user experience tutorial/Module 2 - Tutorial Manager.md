@@ -40,7 +40,7 @@ The `TutorialController.ts` script handles the core tutorial management and pres
 
 1. **Create the tutorial controller entity**: Create an empty object in your world to house the tutorial system. Attach the `TutorialController.ts` script to this entity.
 
-   ![Tutorial Controller Entity](../../../.assets/images/716287930a2b68a511a5339673bf5fc5c6394b70a9c4533dee512ffb4c60dda0.png)
+   ![Tutorial Controller Entity](../../../.assets/image/716287930a2b68a511a5339673bf5fc5c6394b70a9c4533dee512ffb4c60dda0.png)
 
 2. **Configure the trigger zone**: Create a **Trigger Zone** gizmo and position it where you want players to activate the tutorial. In the Properties panel for the TutorialController script, assign this trigger zone to the **trigger** property. The script automatically connects to the trigger’s `OnPlayerEnterTrigger` event.
 
@@ -63,7 +63,7 @@ The `TutorialSlide.ts` script defines the content and properties for individual 
    - **imageURL**: Set the asset ID string for any image to display on the slide (optional)
    - **attachImageToHeader**: Toggle to attach the image to the slide header instead of the body (default: false)
 
-   ![Tutorial Slide Properties](../../../.assets/images/5e7564a8d3a6bfdf13f7b18e34852ecc402c57c83ea9775ebe46dac8daa3b897.png)
+   ![Tutorial Slide Properties](../../../.assets/image/5e7564a8d3a6bfdf13f7b18e34852ecc402c57c83ea9775ebe46dac8daa3b897.png)
 
 3. **Understanding slide sorting and loading**: The TutorialController automatically:
    - Searches all child entities for `TutorialSlide` components
@@ -123,7 +123,7 @@ Once your tutorial slide system is implemented, thoroughly test:
 5. **Multi-player Testing**: Ensure tutorials work properly for multiple players simultaneously
 6. **Visual Testing**: Confirm image placement and text formatting appear as intended
 
-![Tutorial Slide Example](../../../.assets/images/e8be994a1eedf6dbdd6903fca4f3647dd8cb3e62a0466fcd23cc8694dbfb9297.png)
+![Tutorial Slide Example](../../../.assets/image/e8be994a1eedf6dbdd6903fca4f3647dd8cb3e62a0466fcd23cc8694dbfb9297.png)
 
 With a comprehensive tutorial slide system in place, you can provide structured, professional onboarding experiences that guide players through your world’s features using interactive slideshow presentations that leverage Horizon’s native tutorial capabilities.
 

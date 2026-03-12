@@ -8,7 +8,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 You can access Keyboard Shortcuts from the desktop editor by clicking on the three-dot menu and selecting **Keyboard shortcuts**.
 
-![Image of Keyboard Shortcuts](../../.assets/images/6a12d95381dfc6ccb7f683b53583a9473e5bd4d49d97949b999d632e11771fec.png)
+![Image of Keyboard Shortcuts](../../.assets/image/6a12d95381dfc6ccb7f683b53583a9473e5bd4d49d97949b999d632e11771fec.png)
 
 ## [Build mode](#build-mode)
 

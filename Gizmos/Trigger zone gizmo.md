@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/code-bloc
 
 The trigger zone [gizmo](About%20gizmos.md) triggers an event when you enter or exit a specified area.
 
-![Trigger zone gizmo](../.assets/images/e96477066caa6b37e17714c806ef0d38bb73f7b448f401d3f704cb0d9780d31a.png)
+![Trigger zone gizmo](../.assets/image/e96477066caa6b37e17714c806ef0d38bb73f7b448f401d3f704cb0d9780d31a.png)
 
 ## [Use the trigger zone gizmo](#use-the-trigger-zone-gizmo)
 

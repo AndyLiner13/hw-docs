@@ -46,7 +46,7 @@ In this section, you will become more familiar with the basic interface, which i
 - Properties Panel
   - The Properties Panel in Blender is a user interface element that displays and allows editing of active data, such as the scene and object. The panel has several categories, or tabs, that group properties and settings by data type.
 
-![](../../.assets/images/72e2995ac12b90721208ade60bdc920d74e1c51a42546b21f0ba0c98fe9665ca.png)
+![](../../.assets/image/72e2995ac12b90721208ade60bdc920d74e1c51a42546b21f0ba0c98fe9665ca.png)
 
 **Mentor’s Note:** The best thing to do is to get familiar with these main areas. Explore and toggle all of the functions and see what they do!
 
@@ -81,7 +81,7 @@ Here’s a [PDF with a full list of Basic Navigation and Hotkey Essentials](Basi
 
 Follow the steps below to create your first 3D asset:
 
-![](../../.assets/images/559e4818395d3153c524ad53986e34d22d8b4781a8c35c9dce7fdae5cf3f762b.png)
+![](../../.assets/image/559e4818395d3153c524ad53986e34d22d8b4781a8c35c9dce7fdae5cf3f762b.png)
 
 **Mentor’s Note:** Always use references when modeling. I have included my reference image of a book above.
 
@@ -92,7 +92,7 @@ Follow the steps below to create your first 3D asset:
 3. **Extruding:** In face select mode, Select where the book covers would be; front and back. Then select the spine. Press **E** to extrude.
 4. **Inset:** Staying in face select mode, now you will select where the pages will go. Press **I** to inset.
 
-![](../../.assets/images/8d98149c9b7aadb2223a3d46e2f4d29c70d4a4285e05920f5348b595398ac9f2.png)
+![](../../.assets/image/8d98149c9b7aadb2223a3d46e2f4d29c70d4a4285e05920f5348b595398ac9f2.png)
 
 These guidelines will help you Model your book.
 
@@ -104,7 +104,7 @@ These guidelines will help you Model your book.
 
 This section will explore a more advanced technique to elevate your project.
 
-![](../../.assets/images/0556da2834c4b357750b0677cb7aa10a7db4d63c803fd07d661a4c50471e6727.png)
+![](../../.assets/image/0556da2834c4b357750b0677cb7aa10a7db4d63c803fd07d661a4c50471e6727.png)
 
 **Mentor’s Note:** Save a lot. Save Often. Make it a habit to constantly save your progress. If you like what you made, **Press Save**!
 
@@ -122,7 +122,7 @@ This section will explore a more advanced technique to elevate your project.
 
    The image below will show the symmetry turned on by the X-axis, indicating mirrored actions. Take the time to experiment with symmetry!
 
-   ![](../../.assets/images/8de2cf2d38e4aa801712a86d379a784a70fd80531dc0797e52f6ea28d7bc1b8e.png)
+   ![](../../.assets/image/8de2cf2d38e4aa801712a86d379a784a70fd80531dc0797e52f6ea28d7bc1b8e.png)
 
 5. **Make a Drawer:** We’re going to go back to the face we left over specifically to build the drawer.
    - **Extrude Face:** Pressing **E** to extrude, Just enough to fill the space inside the table.
@@ -138,7 +138,7 @@ This section will explore a more advanced technique to elevate your project.
 
 Shown here are the different stages of the table being built! Sometimes it’s good to take a step back and look at the stages from a distance. If it looks close to this, you’re doing great!
 
-![](../../.assets/images/14b0fd8f2b5f5ca3750230762884082f395db0895ca1586047ff68460d98ea37.png)
+![](../../.assets/image/14b0fd8f2b5f5ca3750230762884082f395db0895ca1586047ff68460d98ea37.png)
 
 **Make that Table video walkthrough:**
 
@@ -146,7 +146,7 @@ Shown here are the different stages of the table being built! Sometimes it’s g
 
 ## [Asset 3: Brighten Up the Room with a Lamp](#asset-3-brighten-up-the-room-with-a-lamp)
 
-![](../../.assets/images/19339cda95fd06268cce9c2c8b5f623489721d36e507bb6c782f05ec37103f8e.png)
+![](../../.assets/image/19339cda95fd06268cce9c2c8b5f623489721d36e507bb6c782f05ec37103f8e.png)
 
 **Mentor’s Note:** Don’t be afraid to experiment by adding additional shapes to form your model.
 
@@ -158,23 +158,23 @@ Shown here are the different stages of the table being built! Sometimes it’s g
 
 After you create your mesh cylinder, this menu pops up on the lower left of your screen. Here you can adjust the vertice count! Keep an eye for these menus that pop up on the lower left, they can be very handy.
 
-![](../../.assets/images/8c03edd180bd6618dddedb729271eb2660077aad98487f0965343296a175656a.png)
+![](../../.assets/image/8c03edd180bd6618dddedb729271eb2660077aad98487f0965343296a175656a.png)
 
 1. **Delete Faces and Extrude:** After the lampshade is modeled as desired, you will then delete the top faces on the cylinder and the bottom. Afterwards, Press **A** to select all. Press **E** to extrude.
 
 **Brighten Up the Room With a Lamp Video Walkthrough:**
 
-<video controls></video><source src="../../.assets/videos/de6a16c8e2f35ef5b82f5ed32f7d80ffc8c05557f62c598e26339abfe144fb70.mp4" type="video/mp4">
+<video controls></video><source src="../../.assets/video/de6a16c8e2f35ef5b82f5ed32f7d80ffc8c05557f62c598e26339abfe144fb70.mp4" type="video/mp4">
 
 Cheers! You’ve created your first set of 3D assets!
 
-![](../../.assets/images/25009fcb52c8be1ac131ecad8453727f6c25efef198b26403c8278d2a026c9a3.png)
+![](../../.assets/image/25009fcb52c8be1ac131ecad8453727f6c25efef198b26403c8278d2a026c9a3.png)
 
 **Mentor Note:** With these same steps you can easily create your very own set of assets remembering to gather references and start with simple shapes!
 
 Here is what the UV unwrapping stage will look like. It’s very basic and it should get you prepared for texturing! Pretend you’re taking a pair of scissors and cut along seams.
 
-![](../../.assets/images/5a1e4b2b703d0948f86a1fc8fad8942b264c1033efc29ccd89a103173f0f1316.png)
+![](../../.assets/image/5a1e4b2b703d0948f86a1fc8fad8942b264c1033efc29ccd89a103173f0f1316.png)
 
 ## [Introduction to UV Unwrapping](#introduction-to-uv-unwrapping)
 
@@ -191,7 +191,7 @@ Now that we’ve got our models, let’s talk about UV unwrapping. This process 
 
 **UV Unwrapping Video Walkthrough:**
 
-<video controls></video><source src="../../.assets/videos/1e7ba2ec22b98bc8dd001e04652c843a8b5051a06044992ee2a7c7e7cdebdd04.mp4" type="video/mp4">
+<video controls></video><source src="../../.assets/video/1e7ba2ec22b98bc8dd001e04652c843a8b5051a06044992ee2a7c7e7cdebdd04.mp4" type="video/mp4">
 
 ## [Extended Learning](#extended-learning)
 
