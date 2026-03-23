@@ -58,7 +58,7 @@ Audio assets can be uploaded to your Asset library using a web interface or usin
 
 **Note**: Following steps reference editing assets through the Horizon Words Creations interface.
 
-1. To view an asset’s details, click on the asset you uploaded to your folder. The following video demonstrates this process: ![GIF showing clicking on an asset tile, which opens up a details dialog box showing "Description", "Tags", "Folder", "File size", "Owner", "Asset ID", and "Last edited" fields.](../../.assets/gifs/5a0351a2c2adc52ae4bf2ec48fc34b2491c8e57a585b3c55bb30fc9a7ce5bbe7.gif)
+1. To view an asset’s details, click on the asset you uploaded to your folder. The following video demonstrates this process: ![GIF showing clicking on an asset tile, which opens up a details dialog box showing "Description", "Tags", "Folder", "File size", "Owner", "Asset ID", and "Last edited" fields.](../../.assets/image/5a0351a2c2adc52ae4bf2ec48fc34b2491c8e57a585b3c55bb30fc9a7ce5bbe7.gif)
 2. To edit the asset, click the context menu on the asset tile, or click **Edit** in the Details view.
 3. Modify the name, description, tags, folder, and associated audio file for the asset: ![Screenshot showing the "Edit sound" dialog box with "Title", "Description", "Tags", and "Folder" fields and a drag and drop area to replace the sound file.](../../.assets/image/9aa05409c55c3b21e8fae722771c5d2e5d2434ae21be43110019c026cde6a1c0.png)
 

@@ -16,7 +16,7 @@ Keyboard shortcut: **Shift** + **Q**
 
 Select an object by selecting it in the **Hierarchy** panel, or selecting it in the **Scene** view. If another tool has been selected, click the **Select** tool while focus is on the object. You can also select more than one object at a time by holding down the **Shift** or **Ctrl** keys and selecting the objects in either the **Scene** view or the **Hiearchy** panel.
 
-![Selecting an object](../../.assets/gifs/3b021fd95d5deb286efa267e3bd20acd47aa572c4ea09b4d05349241461e9c2b.gif)
+![Selecting an object](../../.assets/image/3b021fd95d5deb286efa267e3bd20acd47aa572c4ea09b4d05349241461e9c2b.gif)
 
 ## [Move object](#move-object)
 
@@ -30,7 +30,7 @@ When you click the **Move** button with an object selected, a small three-dimens
 
 It has arrows going along the red X (left-right), green Y (up-down), and blue Z (forward-back) directions. You can move the object in any of those directions by clicking and dragging on one of the arrows.You can move the object along the XY, XZ, or YZ planes by dragging one of the planar handles (the squares where the arrows meet in the center).
 
-![Moving an object](../../.assets/gifs/5fe9d12a6fa118bdaebef3e569d03fa14958238c61043adc7d0869087e48e10f.gif)
+![Moving an object](../../.assets/image/5fe9d12a6fa118bdaebef3e569d03fa14958238c61043adc7d0869087e48e10f.gif)
 
 ## [Rotate object](#rotate-object)
 
@@ -44,7 +44,7 @@ When you click the **Rotate** button with an object selected, a small three-dime
 
 Rotate objects around the X, Y, or Z axes by dragging the red (X), green (Y) or blue (Z) angles. These partial circles show the rotation around either the center or the pivot point of the object (whichever you’ve chosen with the **Pivot** tool.) You can rotate the object in any of those directions by clicking the angle and dragging it so that the object rotates the desired amount.
 
-![Rotating an object](../../.assets/gifs/c857e850c1cd5b526ee6ba747c010f1c701ffdb7baf455df65ec03e8e79b9d04.gif)
+![Rotating an object](../../.assets/image/c857e850c1cd5b526ee6ba747c010f1c701ffdb7baf455df65ec03e8e79b9d04.gif)
 
 ## [Scale object](#scale-object)
 
@@ -54,7 +54,7 @@ Keyboard shortcut: **Shift** + **R**
 
 Scale objects along the X, Y, or Z axes by dragging the red (X), green (Y) or blue (Z) arrows. Doing this will only change the scale along that single axis. If you want to uniformly scale the object, drag the center gray box, or press **Shift** and drag one of the red, green, or blue handles.
 
-![Scaling an object](../../.assets/gifs/05d2e3237fe657f19546ba20f3cc9204d360a583b7af7cad6a4fa33df2282525.gif)
+![Scaling an object](../../.assets/image/05d2e3237fe657f19546ba20f3cc9204d360a583b7af7cad6a4fa33df2282525.gif)
 
 ## [Global / local coordinates](#global--local-coordinates)
 
@@ -62,7 +62,7 @@ Scale objects along the X, Y, or Z axes by dragging the red (X), green (Y) or bl
 
 This option toggles between **Local** and **Global** axes for the **Rotate** and **Move** tools. If this is set to **Local** (the default), any movement or rotation along (or about) an axis will be relative to the current orientation of the object. If it’s set to **Global**, it will move or rotate relative to the world’s X, Y, and Z axes.
 
-![](../../.assets/gifs/fc5b5d789703af6983b1a340e6fdcaf1f7250091661f4c87e9b6a5868b25f364.gif)
+![](../../.assets/image/fc5b5d789703af6983b1a340e6fdcaf1f7250091661f4c87e9b6a5868b25f364.gif)
 
 ## [Pivot](#pivot)
 

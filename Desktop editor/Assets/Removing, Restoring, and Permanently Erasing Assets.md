@@ -8,7 +8,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 To remove an asset, right-click the asset card and select **Remove** to place the asset into the Removed Assets folder.
 
-![](../../.assets/gifs/eca731097c0ed61072aeb93667d5df0e60ebf2496f7530acd46d25d36c45e13b.gif)
+![](../../.assets/image/eca731097c0ed61072aeb93667d5df0e60ebf2496f7530acd46d25d36c45e13b.gif)
 
 ## [Restoring assets](#restoring-assets)
 

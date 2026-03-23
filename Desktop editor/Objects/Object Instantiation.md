@@ -10,5 +10,5 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 ## [Demo](#demo)
 
-![](../../.assets/gifs/4a0106dc2d912b553ad9d026393e12b64c00ce075c60d8fdca9897035dacf60a.gif)
+![](../../.assets/image/4a0106dc2d912b553ad9d026393e12b64c00ce075c60d8fdca9897035dacf60a.gif)
 

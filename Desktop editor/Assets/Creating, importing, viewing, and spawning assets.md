@@ -19,7 +19,7 @@ When the asset is created, a notification and a new asset card will appear.
 
 ## [Importing assets](#importing-assets)
 
-![Gif shows a user quickly importing an asset via the desktop editor](../../.assets/gifs/48551d52773371c725d848a1d1dad4f5fd03845738350ffaa585626da58a38f7.gif)
+![Gif shows a user quickly importing an asset via the desktop editor](../../.assets/image/48551d52773371c725d848a1d1dad4f5fd03845738350ffaa585626da58a38f7.gif)
 
 To import an asset:
 
@@ -40,7 +40,7 @@ When all your assets have been processed, a notification will appear to confirm 
 
 ## [Viewing asset details](#viewing-asset-details)
 
-![Gif shows a user clicking on an asset card to view the asset details](../../.assets/gifs/454e3f6a76fdea7b2910877239c68fa37c6c4f98466e1131153805ea93b732ef.gif)
+![Gif shows a user clicking on an asset card to view the asset details](../../.assets/image/454e3f6a76fdea7b2910877239c68fa37c6c4f98466e1131153805ea93b732ef.gif)
 
 To view asset details:
 
@@ -50,7 +50,7 @@ Asset names and descriptions can be changed from the asset details screen. To ed
 
 ## [Spawning assets](#spawning-assets)
 
-![Gif shows a user spawning an asset using the drag-and-drop method](../../.assets/gifs/4f8e70a7747e1733ab768dfb30ffe6921ce0d5831922f81e01627e5c572eb06f.gif)
+![Gif shows a user spawning an asset using the drag-and-drop method](../../.assets/image/4f8e70a7747e1733ab768dfb30ffe6921ce0d5831922f81e01627e5c572eb06f.gif)
 
 To spawn an asset:
 

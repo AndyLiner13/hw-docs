@@ -30,7 +30,7 @@ These steps will enable creators to make manual backups using the save process.
 
 A demo of how to save a backup is shown below.
 
-![](../../.assets/gifs/409c3ca61863ff3a822f8a7913daf0913a05e3190e6045ff968eb2968821ba4f.gif)
+![](../../.assets/image/409c3ca61863ff3a822f8a7913daf0913a05e3190e6045ff968eb2968821ba4f.gif)
 
 ## [Editing a Backup](#editing-a-backup)
 
@@ -41,7 +41,7 @@ A demo of how to save a backup is shown below.
 
 A demo of how to edit a backup is shown below.
 
-![](../../.assets/gifs/f1c48fe794a99dd691eb1416521336933ba71edb339e5e8b0dde61478dbd6fad.gif)
+![](../../.assets/image/f1c48fe794a99dd691eb1416521336933ba71edb339e5e8b0dde61478dbd6fad.gif)
 
 ## [Restoring a Backup](#restoring-a-backup)
 
@@ -51,5 +51,5 @@ A demo of how to edit a backup is shown below.
 
 A demo of how to restore a backup is shown below.
 
-![](../../.assets/gifs/ffb29728faa11846a784d8e2691a8fb436659a1cecf14f2df23b715bc4fdb379.gif)
+![](../../.assets/image/ffb29728faa11846a784d8e2691a8fb436659a1cecf14f2df23b715bc4fdb379.gif)
 

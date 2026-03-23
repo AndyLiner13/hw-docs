@@ -36,5 +36,5 @@ The following steps show how to use the filter:
 2. Type in the name of the script you’d like to search for - the editor will automatically filter for relevant Scripts matching the keyword provided.
 3. When selected in the Hierarchy, press the **F key** to automatically move the camera towards the Script Gizmo in-world.
 
-![](../../.assets/gifs/1759b9f694e1c918252a259ea03883491a75e09a52fade9924d72322c87fd741.gif)
+![](../../.assets/image/1759b9f694e1c918252a259ea03883491a75e09a52fade9924d72322c87fd741.gif)
 

@@ -54,7 +54,7 @@ If your game has a more complex economy and plans to monetize through multiple p
 
 **The bottom line:** your store’s pages and purchase offerings must still be easy to navigate and parse, no matter how simple or themed your store is. Organize your store items into group categories - premium currency packs, soft currency packs, consumables, durables, etc. for easy access and conversion.
 
-![](../../.assets/gifs/cd4a84c221ca4f814c6f0bb1e61f0adc01e3d26b47b78fd4d6891a885f83784e.gif)
+![](../../.assets/image/cd4a84c221ca4f814c6f0bb1e61f0adc01e3d26b47b78fd4d6891a885f83784e.gif)
 
 *Azur Lane’s store is a strong example of immersive design. The mascot character, Akashi, appears as a Live2D model whose eyes follow the player’s finger across the screen, adding charm and drawing attention to store interactions.*
 

@@ -12,7 +12,7 @@ Interactive, blocking screen overlays are designed to be used for situations tha
 
 By design, interactive, blocking screen overlays prevent gameplay-related inputs in order to allow the player to focus fully on the UI, which means this feature is not suitable for creating customized on-screen controls.
 
-![interactive overlay.gif](../../.assets/gifs/de0f21a79027ee882058da792b0f8e8352d6c72458bbd4e164a031565e264d69.gif)
+![interactive overlay.gif](../../.assets/image/de0f21a79027ee882058da792b0f8e8352d6c72458bbd4e164a031565e264d69.gif)
 
 Interactive, non-blocking screen overlays are designed to be used as onscreen inputs that can be fully customized in size and appearance. Interactive, non-blocking screen overlays do not prevent gameplay-related inputs, and can be used in combination with the Custom Input API to create custom on-screen controls.
 

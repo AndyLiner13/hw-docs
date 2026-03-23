@@ -22,8 +22,8 @@ Unlike other types of trace data, you’ll use the Desktop Editor to view and an
 
 1. Look at your left wrist to bring up the wrist wearable.
 2. Select **Tracing**, then select **World Content**.
-3. Select **Start tracing** to start the trace. ![](../../.assets/gifs/d37081d421b68c4b309852b547a36044add48c5267564b6b750e7bf7a2f26a85.gif)
-4. Select **Stop trace** to stop the trace. After stopping the trace, a toast notification will appear to let you know that a data file has been uploaded. ![](../../.assets/gifs/2a6a6bb9c89ac35387ec5f308eb9a1cf4778aada0f50e296cdcfbf400f363e09.gif)
+3. Select **Start tracing** to start the trace. ![](../../.assets/image/d37081d421b68c4b309852b547a36044add48c5267564b6b750e7bf7a2f26a85.gif)
+4. Select **Stop trace** to stop the trace. After stopping the trace, a toast notification will appear to let you know that a data file has been uploaded. ![](../../.assets/image/2a6a6bb9c89ac35387ec5f308eb9a1cf4778aada0f50e296cdcfbf400f363e09.gif)
 
 ## [View world content trace data](#view-world-content-trace-data)
 
@@ -57,6 +57,6 @@ Let’s say you see a spike in the draw calls and verts metrics for a particular
 
 - Some assets have long names that don’t fit in the table’s cell. Hovering over an asset shows the full asset name. ![](../../.assets/image/f57577efddf92d3407918bb0c453b2b5b2d5ddba69cbf7dd424ff0b632870f87.png)
 - The table allows you to see which objects use a particular asset. Hovering over a cell in the “Used by” column shows which objects use that asset. ![](../../.assets/image/e2bf2feb213487d2d3d555d8a395a5db6d0d05e220995ef0e75bc6a165114527.png)
-- You can select the header of a column to sort the table by that column. For example, selecting the **Triangles** column sorts the table by the number of triangles. ![](../../.assets/gifs/f1a5322865d068ff8b0dc95599f1bff89feb7b2917ba43e9fe6deaa2757c0055.gif)
+- You can select the header of a column to sort the table by that column. For example, selecting the **Triangles** column sorts the table by the number of triangles. ![](../../.assets/image/f1a5322865d068ff8b0dc95599f1bff89feb7b2917ba43e9fe6deaa2757c0055.gif)
 - Use the search feature to find assets or filter through certain characteristics by name. For example, typing “box” shows rows that contain cells with the string “box”. ![](../../.assets/image/770706b555e3e0ec47a75794ebffce7c691e263d34886aaca0854810e1ff5f46.png)
 

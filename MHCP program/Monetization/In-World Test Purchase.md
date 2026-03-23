@@ -18,7 +18,7 @@ For more information and instructions on how to create an IWP item, please revie
 
 This functionality is available in Edit/Preview Mode and in Visit Mode. To most accurately test the visitor purchase experience, we recommend testing in Visit Mode. On the World detail page, select “Published world page” and “Visit” to travel there.
 
-![](../../.assets/gifs/c0c6fae9726b4ba6af345a1f357374c6ba7cfd8d85e683549f394fdba76f7054.gif)
+![](../../.assets/image/c0c6fae9726b4ba6af345a1f357374c6ba7cfd8d85e683549f394fdba76f7054.gif)
 
 ### [To test purchase an item:](#to-test-purchase-an-item)
 

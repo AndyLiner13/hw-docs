@@ -95,7 +95,7 @@ All entities are considered navigable by default. To exclude an entity from bein
 
 1. If it appears that nothing happened when building the navigation mesh, you likely need to enable the in-editor previews. Hover over each profile and ensure the visibility indicator is set to 👁 by clicking the relevant button:
 
-![](../../.assets/gifs/1e011e8cf33c1fd7c8680ce89f711ecd699894f295d96297666d281c123fba15.gif)
+![](../../.assets/image/1e011e8cf33c1fd7c8680ce89f711ecd699894f295d96297666d281c123fba15.gif)
 
 ## [Using the NavMesh APIs](#using-the-navmesh-apis)
 

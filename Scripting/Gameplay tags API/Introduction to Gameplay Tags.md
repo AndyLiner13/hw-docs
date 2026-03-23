@@ -69,7 +69,7 @@ Adding, removing, and modifying tags in VR is a similar process to that of Deskt
 
 In the “Hierarchy” menu of Desktop Editor, you’re able to filter entities by their associated tags. To do so, click on the filter icon and select the appropriate tag and watch the list re-populate with only the entities using that tag.
 
-![](../../.assets/gifs/59f141586de7377fa604ddb00d656b5a71bd127d6bc32bc49d33e56f1625354a.gif)
+![](../../.assets/image/59f141586de7377fa604ddb00d656b5a71bd127d6bc32bc49d33e56f1625354a.gif)
 
 ## [Known Issues](#known-issues)
 

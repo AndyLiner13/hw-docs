@@ -21,10 +21,10 @@ To enable and view the Real-time metrics panel:
 3. Open the PUI and open **Settings**.
 4. Click on the **Utilities** tab and enable the utilities menu.
 
-   ![](../../.assets/gifs/915ff4db13068e9376ef8d527776b7b3a7c816c0459fa72f93642c65b89f4d13.gif)
+   ![](../../.assets/image/915ff4db13068e9376ef8d527776b7b3a7c816c0459fa72f93642c65b89f4d13.gif)
 5. Once the wearable is open, tap the **Real-time metrics** button under **Utilities** to open the Real-time metrics panel.
 
-   ![](../../.assets/gifs/5619c23063e9092a533fac1d860b855e0890ad6ad696651ed639481b9236de13.gif)
+   ![](../../.assets/image/5619c23063e9092a533fac1d860b855e0890ad6ad696651ed639481b9236de13.gif)
 
 ## [Real-time metrics settings](#real-time-metrics-settings)
 
@@ -36,13 +36,13 @@ To change the position of the Real-time metrics panel, open the display settings
 
 Select a position from the **Position** drop-down in Display Settings. You may choose from **Top Left**, **Top Right**, **Bottom Left**, and **Bottom Right**. This snaps the Real-time performance metrics panel to one of those locations in your view.
 
-![](../../.assets/gifs/362888f90cfc74e9f98c806e9a2f26cafa2f1b23cffa1b52b40304e2df5e38fe.gif)
+![](../../.assets/image/362888f90cfc74e9f98c806e9a2f26cafa2f1b23cffa1b52b40304e2df5e38fe.gif)
 
 ### [Moving the panel by dragging](#moving-the-panel-by-dragging)
 
 You can grab the white bar below the Real-time performance metrics panel by using either trigger on your Quest controller. While holding down the trigger, you can move the panel by dragging it.
 
-![](../../.assets/gifs/9dd3b4e329accadc15c98724ad640cd26d5734ebe240e5f5f9eeb1ece04ca349.gif)
+![](../../.assets/image/9dd3b4e329accadc15c98724ad640cd26d5734ebe240e5f5f9eeb1ece04ca349.gif)
 
 ### [Minimizing](#minimizing)
 
@@ -70,7 +70,7 @@ To add a metric to the Real-time settings panel, open the display settings, hove
 
 If you attempt to select too many metrics, you receive a notification informing you that you have reached the maximum number of metrics that can be viewed at once. In order to add more metrics, you must first deselect one or more currently displayed metrics using the same process you used to select them.
 
-![](../../.assets/gifs/3af58dabed93be0102291217ced0e61bc3364936a6a002729da0b9dc880ad4d3.gif)
+![](../../.assets/image/3af58dabed93be0102291217ced0e61bc3364936a6a002729da0b9dc880ad4d3.gif)
 
 ### [Changing metric targets](#changing-metric-targets)
 

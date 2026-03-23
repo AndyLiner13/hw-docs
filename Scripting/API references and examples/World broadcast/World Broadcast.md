@@ -10,7 +10,7 @@ World Broadcast streams from live cameras inside Horizon to surfaces like the Me
 >
 > World Broadcast does not work for worlds running in Portrait orientation at this time.
 
-![Kaiju TV Preview 1](../../../.assets/gifs/252c074b3e99d42283d17a56949f15ac5c72197f2a3fdacba4288602d5a504c2.gif)![Kaiju TV Preview 2](../../../.assets/gifs/2829eb4bf9fe9a8f48a8c09f4f37e0a27cb436f3f861bda52bf1e710cb2c83e6.gif)
+![Kaiju TV Preview 1](../../../.assets/image/252c074b3e99d42283d17a56949f15ac5c72197f2a3fdacba4288602d5a504c2.gif)![Kaiju TV Preview 2](../../../.assets/image/2829eb4bf9fe9a8f48a8c09f4f37e0a27cb436f3f861bda52bf1e710cb2c83e6.gif)
 
 A high-quality integration shows the world’s action: what players are doing, how they’re playing together, and cool moments. It chooses where to point the camera to capture the best shots where the action happens.
 

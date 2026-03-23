@@ -24,7 +24,7 @@ Hovering your cursor over each option reveals a description of the view mode. Se
 
 In VR, first [Enable the Utilities Menu](../../Performance/Performance%20tools/Enable%20the%20Utilities%20menu.md), then open your wearable and select the desired view mode.
 
-![](../../.assets/gifs/76bfd726acae4587d26186f5048f079d4ab5c10929e8ad88a92b49feddf086ca.gif)
+![](../../.assets/image/76bfd726acae4587d26186f5048f079d4ab5c10929e8ad88a92b49feddf086ca.gif)
 
 ## [Available view modes](#available-view-modes)
 

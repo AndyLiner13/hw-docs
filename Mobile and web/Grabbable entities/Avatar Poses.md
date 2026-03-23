@@ -30,5 +30,5 @@ To prevent this and allow the avatar to hold their pose, **disable** the **HWXS 
 
 | Enabled                                                                                      | Disabled                                                                                     |
 | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| ![](../../.assets/gifs/5f7f6178d40bba09f7fc511dafdca549c8ad8c6111e893f7111dce6e06493c05.gif) | ![](../../.assets/gifs/88526ba616ae722eef461cad92a17c00da23ff8ae2302774a9a5860f247ccc55.gif) |
+| ![](../../.assets/image/5f7f6178d40bba09f7fc511dafdca549c8ad8c6111e893f7111dce6e06493c05.gif) | ![](../../.assets/image/88526ba616ae722eef461cad92a17c00da23ff8ae2302774a9a5860f247ccc55.gif) |
 

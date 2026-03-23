@@ -25,11 +25,11 @@ It’s now easier than ever to make promo videos of your world. With just a few 
 
 Single Camera
 
-![Single camera](../.assets/gifs/d787fae3b6b31377cef73454211deda3f2630ed5326b433e928bd2221f441a8f.gif)
+![Single camera](../.assets/image/d787fae3b6b31377cef73454211deda3f2630ed5326b433e928bd2221f441a8f.gif)
 
 Player POV
 
-![Single camera](../.assets/gifs/453decb2a1af14b8b98b09c50ea0dac23367256634cca8f658f846a971eac93c.gif)
+![Single camera](../.assets/image/453decb2a1af14b8b98b09c50ea0dac23367256634cca8f658f846a971eac93c.gif)
 
 1. Choose an aspect ratio for your video.
 

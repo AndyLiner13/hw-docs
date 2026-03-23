@@ -6,7 +6,7 @@ source: https://developers.meta.com/horizon-worlds/learn/documentation/desktop-e
 
 This feature enables you to rename objects and gizmos in the hierarchy, so they are easy to find later.
 
-![renamed.gif](../../.assets/gifs/9369cd66eab241fb8809cc3e5300b8bd4fec83a417d811e65d7882afd795ca59.gif)
+![renamed.gif](../../.assets/image/9369cd66eab241fb8809cc3e5300b8bd4fec83a417d811e65d7882afd795ca59.gif)
 
 Follow these steps to rename objects in the hierarchy:
 

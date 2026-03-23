@@ -9,9 +9,9 @@ When working in the Desktop Editor, you can select an object and edit its proper
 - Clicking on an object directly in the scene.
 - Clicking on an object in the Hierarchy panel window.
 
-![](../../.assets/gifs/ab8d63adcc940a67a8d048e0cf5f29100beea96af172814be07f76271219798e.gif)
+![](../../.assets/image/ab8d63adcc940a67a8d048e0cf5f29100beea96af172814be07f76271219798e.gif)
 
-![](../../.assets/gifs/24415c1681d05f2232b75678499b9516055187958625f897e9fce9bbcecfc0d3.gif)
+![](../../.assets/image/24415c1681d05f2232b75678499b9516055187958625f897e9fce9bbcecfc0d3.gif)
 
 **Note:** To redirect the view towards a specific object, select an object and press the “F” key.
 
@@ -21,11 +21,11 @@ You can select multiple objects in the Hierarchy panel in the following ways:
 
 - Select an object, then hold the Ctrl key and click another object to add it to the selection. You may repeat this until all the desired objects are selected. You can also use this method to deselect individual objects.
 
-![](../../.assets/gifs/96b3fff5c720adb520283ce6f9fb7c25d8acf1192001521b4b18c5cfcc85b3ae.gif)
+![](../../.assets/image/96b3fff5c720adb520283ce6f9fb7c25d8acf1192001521b4b18c5cfcc85b3ae.gif)
 
 - Select an object, then hold the Shift key and click another object to select those objects and all objects in between them.
 
-![](../../.assets/gifs/0e0060cebb6ed2514675794d75eca6adf5dd9dac1c83817e6ffd08033214a03b.gif)
+![](../../.assets/image/0e0060cebb6ed2514675794d75eca6adf5dd9dac1c83817e6ffd08033214a03b.gif)
 
 **NOTE:** You can also click individual objects in the scene while holding Shift or Ctrl to add or remove them from the current selection.
 
@@ -64,11 +64,11 @@ Use this procedure to try out sub-object selection.
 
 While running a simulation, animated or physics objects (the objects that move) leave behind a ghost visual at their origin point.
 
-![](../../.assets/gifs/864a651d19bf63c44bb17d068db528ea2a71b8177b7005d95e9395f08f0e1969.gif)
+![](../../.assets/image/864a651d19bf63c44bb17d068db528ea2a71b8177b7005d95e9395f08f0e1969.gif)
 
 While the simulation is running, you can select the moving object either by clicking on the simulated object itself, or its ghost visual.
 
-![](../../.assets/gifs/a09f0f28ed0dcd32272a7259b69bd2ee2f569b57fa6b694378037ff8d84c23d0.gif)![](../../.assets/gifs/a73cc9ad92e2c0b38a2648bdf68a473f4fc63bab6c20206c0f2f35c40a06582c.gif)
+![](../../.assets/image/a09f0f28ed0dcd32272a7259b69bd2ee2f569b57fa6b694378037ff8d84c23d0.gif)![](../../.assets/image/a73cc9ad92e2c0b38a2648bdf68a473f4fc63bab6c20206c0f2f35c40a06582c.gif)
 
 This works for both regular selection and marquee selection.
 
@@ -81,21 +81,21 @@ This works for both regular selection and marquee selection.
 
 ## [Focusing the camera on a selected entity](#focusing-the-camera-on-a-selected-entity)
 
-To focus the camera on a specific object or gizmo, select the object and press the “F” key. ![](../../.assets/gifs/24415c1681d05f2232b75678499b9516055187958625f897e9fce9bbcecfc0d3.gif)
+To focus the camera on a specific object or gizmo, select the object and press the “F” key. ![](../../.assets/image/24415c1681d05f2232b75678499b9516055187958625f897e9fce9bbcecfc0d3.gif)
 
 ## [Grouped object behaviors](#grouped-object-behaviors)
 
 In grouped objects, when selecting a child object it selects the whole group.
 
-![SelectionGif.gif](../../.assets/gifs/569df5d76ce7b40fff0f95a1765b90c837c09acae9bec1f9292559e166d52486.gif)
+![SelectionGif.gif](../../.assets/image/569df5d76ce7b40fff0f95a1765b90c837c09acae9bec1f9292559e166d52486.gif)
 
 Locked entities can be selected in the viewport, but manipulators are disabled on locked entities.
 
-![LockSelectionGif.gif](../../.assets/gifs/69876d8538e2a39231dfe113c67064c7f991c17b9e4a1b54b26e7d39afbcd36f.gif)
+![LockSelectionGif.gif](../../.assets/image/69876d8538e2a39231dfe113c67064c7f991c17b9e4a1b54b26e7d39afbcd36f.gif)
 
 Ghost visuals of a single mesh entity use the object’s mesh, but the ghost of a grouped object uses the group’s bounding box instead.
 
-![](../../.assets/gifs/2434c3c581c28b8c2b6579cff0ece3aef79ec92ca5d2546d94cb51316285133d.gif)
+![](../../.assets/image/2434c3c581c28b8c2b6579cff0ece3aef79ec92ca5d2546d94cb51316285133d.gif)
 
 ## [Marquee selection](#marquee-selection)
 

@@ -38,7 +38,7 @@ Now that you’ve experienced how scoring drives the Match-3 experience, let’s
 
 ### [Step 1: Score Calculation](#step-1-score-calculation)
 
-![Match 3 example showing a 4 match cascade](../../../.assets/gifs/50404d1bce4aea59c303683d6d7fab70a1142875a2b3ecc7f2de6991c6176da1.gif)
+![Match 3 example showing a 4 match cascade](../../../.assets/image/50404d1bce4aea59c303683d6d7fab70a1142875a2b3ecc7f2de6991c6176da1.gif)
 
 Learn how the game calculates points from matches and applies multipliers.
 
@@ -96,7 +96,7 @@ Key files to explore:
 
 ### [Step 2: Combo System](#step-2-combo-system)
 
-![Match 3 example showing a 3 match cascade](../../../.assets/gifs/e989497f3f2b6b1fc74143f248a55645caa435d57e5dbddfe8509f240723d8fa.gif)
+![Match 3 example showing a 3 match cascade](../../../.assets/image/e989497f3f2b6b1fc74143f248a55645caa435d57e5dbddfe8509f240723d8fa.gif)
 
 Learn how cascades increase your score through multipliers.
 

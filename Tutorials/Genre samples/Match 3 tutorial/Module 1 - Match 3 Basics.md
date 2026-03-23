@@ -37,7 +37,7 @@ Now that you’ve experienced the game, let’s break down how each mechanic wor
 
 ### [Step 1: Match Mechanics](#step-1-match-mechanics)
 
-![Example of a purple gem match in Match 3](../../../.assets/gifs/be965b153bf53f9ea64660c076d94852cde46fcd68ed207254a9a86949b8668f.gif)
+![Example of a purple gem match in Match 3](../../../.assets/image/be965b153bf53f9ea64660c076d94852cde46fcd68ed207254a9a86949b8668f.gif)
 
 Learn about the basic swap-and-match system that makes tiles disappear when you line up 3 in a row.
 
@@ -69,7 +69,7 @@ Key files to explore:
 
 ### [Step 2: Board Management](#step-2-board-management)
 
-![Example of an orange gem match in Match 3](../../../.assets/gifs/f4a55682e6d7f3f62a05a711cc5e44ea3e4bf66a105c1e1d09e9265b78abb4da.gif)
+![Example of an orange gem match in Match 3](../../../.assets/image/f4a55682e6d7f3f62a05a711cc5e44ea3e4bf66a105c1e1d09e9265b78abb4da.gif)
 
 Learn how the board stores tiles, removes matched ones, and refills empty spaces.
 
@@ -103,7 +103,7 @@ Key files to explore:
 
 ### [Step 3: Cascades](#step-3-cascades)
 
-![Example of a 3 match cascade in Match 3](../../../.assets/gifs/a8d169210b84c7c868dfa4036b91ebdf554d7126bbc0f913cc4c35e6e67d76e0.gif)
+![Example of a 3 match cascade in Match 3](../../../.assets/image/a8d169210b84c7c868dfa4036b91ebdf554d7126bbc0f913cc4c35e6e67d76e0.gif)
 
 Learn about the cascade system that rewards players for creating chain reactions, powered by a state machine.
 
@@ -144,7 +144,7 @@ Key files to explore:
 
 ### [Step 4: Win Conditions](#step-4-win-conditions)
 
-![An example of winning in Match 3](../../../.assets/gifs/f924b3d0a393a9cfa6145da75646b69325f9b22cf6ffe79acd4efea3e781f57d.gif)
+![An example of winning in Match 3](../../../.assets/image/f924b3d0a393a9cfa6145da75646b69325f9b22cf6ffe79acd4efea3e781f57d.gif)
 
 To complete the board, players must complete all of the objectives before they run out of moves.
 

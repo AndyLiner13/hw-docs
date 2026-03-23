@@ -10,7 +10,7 @@ Power-ups are special tiles created by making matches of 4 or more tiles. When m
 
 Boosters are consumable items earned through achievements. Their effects can significantly impact the board—from removing a single tile to transforming multiple tiles into a specific type for easier matches.
 
-![Power-up example showing the color clear power-up](../../../.assets/gifs/1e038167ddac639f35c2f23660192329974cf0f971dc0b0d88fcc8af9f5283a0.gif)![Power-up example showing the line clear power up](../../../.assets/gifs/69882cc5ea1e16c35443651517e088ea9c2efc9989b64246aef91b4c90a485d4.gif)
+![Power-up example showing the color clear power-up](../../../.assets/image/1e038167ddac639f35c2f23660192329974cf0f971dc0b0d88fcc8af9f5283a0.gif)![Power-up example showing the line clear power up](../../../.assets/image/69882cc5ea1e16c35443651517e088ea9c2efc9989b64246aef91b4c90a485d4.gif)
 
 To look at any script mentioned in this module, open the **Scripts** menu in the top menu of the Horizon Editor. Then, click the **Scripts in this world** drop down. ![A view of the "scripts in this world" drop down](../../../.assets/image/7ef7a0d6cb65be1d993882fc2c2c488bbdc07ce0a5733630f03f72a88f7956d1.png)
 
@@ -263,7 +263,7 @@ In the code, you’ll find:
 - Score multiplier (increases with each combo)
 - Total tiles cleared in the combo chain
 
-![An example of crates being used in a 4 match cascade in Match 3](../../../.assets/gifs/5cb027a8bfe6cc0698089a81bd031bacb398c2b7d3fcbb7d24a93feeb0c007ab.gif)
+![An example of crates being used in a 4 match cascade in Match 3](../../../.assets/image/5cb027a8bfe6cc0698089a81bd031bacb398c2b7d3fcbb7d24a93feeb0c007ab.gif)
 
 Key files to explore:
 
