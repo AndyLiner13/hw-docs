@@ -1,0 +1,67 @@
+# Execution Context API Restrictions
+
+[Getting Started with Local Scripting](Getting%20Started%20with%20Local%20Scripting.md) explains how local scripts reduce latency, but the execution-context restrictions that matter in practice are spread across API reference pages, platform guides, and tutorial content. This page connects those rules so you can decide whether a call belongs in a default script, a local script, or a local script that has already transferred ownership to a player.
+
+## Local execution mode is not the same as local runtime
+
+A script marked for local execution does not immediately start on the client in every situation. [Getting Started with Local Scripting](Getting%20Started%20with%20Local%20Scripting.md) states that local scripts initially run on the server when a world loads, only move to a player's device after ownership transfers, and run on the server again when that player exits the world. That means “this file is configured as Local” is not enough proof that a local-only API is safe at the moment you call it.
+
+[World.getLocalPlayer()](../../Reference/core/Classes/World.md#getlocalplayer) is the most direct runtime check for where code is currently executing, but its behavior matters: the [World reference](../../Reference/core/Classes/World.md#getlocalplayer) says that if a local script is executing on the server then [World.getLocalPlayer()](../../Reference/core/Classes/World.md#getlocalplayer) returns the server player instead of a real client player. The companion method [World.getServerPlayer()](../../Reference/core/Classes/World.md#getserverplayer) describes that server player as a non-physical player object that does not support many normal player features. Comparing [World.getLocalPlayer()](../../Reference/core/Classes/World.md#getlocalplayer) with [World.getServerPlayer()](../../Reference/core/Classes/World.md#getserverplayer) is therefore the safest way to distinguish “local-script file” from “actually running on a client right now.”
+
+## Quick reference
+
+| API or behavior | Safe context | Wrong-context behavior |
+| --- | --- | --- |
+| [Camera.setCameraModeThirdPerson()](../../Reference/camera/Classes/Camera.md#setcameramodethirdpersonoptions) and related camera mode methods | Local script on the local client | The [Camera tutorial](../../Tutorials/Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%204%20-%20Camera%20Manager.md) requires Local Execution Mode and player ownership, and the [Camera reference](../../Reference/camera/Classes/Camera.md#setcameramodethirdpersonoptions) says several camera modes have no effect in VR |
+| [PlayerControls.connectLocalInput()](../../Reference/core/Classes/PlayerControls.md#connectlocalinputinput-icon-disposableobject-options-static), [PlayerControls.disableSystemControls()](../../Reference/core/Classes/PlayerControls.md#disablesystemcontrolstapanywheredisabled-static), and [PlayerControls.enableSystemControls()](../../Reference/core/Classes/PlayerControls.md#enablesystemcontrols-static) | Local script on the local client | The [PlayerControls reference](../../Reference/core/Classes/PlayerControls.md#connectlocalinputinput-icon-disposableobject-options-static) says these functions fail if called on the server |
+| [Player.enterFocusedInteractionMode()](../../Reference/core/Classes/Player.md#enterfocusedinteractionmodeoptions) and [Player.exitFocusedInteractionMode()](../../Reference/core/Classes/Player.md#exitfocusedinteractionmode) | Local player on a non-VR client | The [Player reference](../../Reference/core/Classes/Player.md#enterfocusedinteractionmodeoptions) says both methods must be called on a local player and have no effect in VR |
+| [Player.jumpSpeed](../../Reference/core/Classes/Player.md#jumpspeed), [Player.locomotionSpeed](../../Reference/core/Classes/Player.md#locomotionspeed), and [Player.sprintMultiplier](../../Reference/core/Classes/Player.md#sprintmultiplier) | `.set()` from any context, `.get()` only from a local script attached to an entity owned by that player | The [Player reference](../../Reference/core/Classes/Player.md#jumpspeed) and [Player reference](../../Reference/core/Classes/Player.md#locomotionspeed) say `.get()` throws outside the local owned-player context |
+| [Social.areMutuallyFollowing()](../../Reference/social/Classes/Social.md#aremutuallyfollowingplayer1-player2-static), [Social.getFollowingStatus()](../../Reference/social/Classes/Social.md#getfollowingstatusrequestor-target-static), and [Social.getPlayerFollowerCountInWorld()](../../Reference/social/Classes/Social.md#getplayerfollowercountinworldplayer-static) | Local script on the client | The [Social reference](../../Reference/social/Classes/Social.md#aremutuallyfollowingplayer1-player2-static) marks these methods as unsupported on server scripts |
+| [Social.getAvatarImageSource()](../../Reference/social/Classes/Social.md#getavatarimagesourceplayer-options-static) | Local UI script on the client | The [Social reference](../../Reference/social/Classes/Social.md#getavatarimagesourceplayer-options-static) says it only works on the client and only in conjunction with `horizon/ui` |
+| Asset spawning from local scripts | Default script on the server | [Getting Started with Local Scripting](Getting%20Started%20with%20Local%20Scripting.md#local-scripts-cant-trigger-asset-spawning) says local scripts cannot trigger asset spawning |
+| [World.matchmaking.allowPlayerJoin()](../../Reference/core/Classes/World.md#matchmaking) | Default script on the server | [Marking Instances as Opened or Closed](../API%20references%20and%20examples/Marking%20Instances%20as%20Opened%20or%20Closed.md) says local-script calls throw an exception |
+
+## Camera and input APIs are client-only
+
+The [Camera tutorial](../../Tutorials/Feature%20samples/Developing%20for%20web%20and%20mobile%20players%20tutorial/Module%204%20-%20Camera%20Manager.md) is explicit that camera control must run in Local Execution Mode and on a player-owned entity before camera calls are made. The [Camera reference](../../Reference/camera/Classes/Camera.md#setcameramodethirdpersonoptions), [Camera reference](../../Reference/camera/Classes/Camera.md#setcameramodefirstpersonoptions), [Camera reference](../../Reference/camera/Classes/Camera.md#setcameramodeorbitoptions), [Camera reference](../../Reference/camera/Classes/Camera.md#setcameramodepanoptions), and [Camera reference](../../Reference/camera/Classes/Camera.md#setcameramodeattachtarget-options) add an important second rule: several camera modes have no effect in VR because first person is enforced there. In practice, camera code often needs both a client-runtime check and a device-type check.
+
+[PlayerControls.connectLocalInput()](../../Reference/core/Classes/PlayerControls.md#connectlocalinputinput-icon-disposableobject-options-static), [PlayerControls.disableSystemControls()](../../Reference/core/Classes/PlayerControls.md#disablesystemcontrolstapanywheredisabled-static), and [PlayerControls.enableSystemControls()](../../Reference/core/Classes/PlayerControls.md#enablesystemcontrols-static) are even stricter. The [PlayerControls reference](../../Reference/core/Classes/PlayerControls.md#connectlocalinputinput-icon-disposableobject-options-static) says each of these functions fails if called on the server, and the [mobile input guide](../../Mobile%20and%20web/TypeScript%20APIs%20for%20mobile/Custom%20Input%20API.md) repeats that [PlayerControls](../../Reference/core/Classes/PlayerControls.md) methods fail on the server unless the script is local and owned by the target player.
+
+[Player.enterFocusedInteractionMode()](../../Reference/core/Classes/Player.md#enterfocusedinteractionmodeoptions) and [Player.exitFocusedInteractionMode()](../../Reference/core/Classes/Player.md#exitfocusedinteractionmode) follow the same pattern. The [Player reference](../../Reference/core/Classes/Player.md#enterfocusedinteractionmodeoptions) says these methods must be called on a local player and have no effect on VR players, while the [PlayerControls reference](../../Reference/core/Classes/PlayerControls.md) ties focused-interaction input events to that same local-only mode. If your script might still be running on the server because ownership has not transferred yet, focused-interaction setup should wait.
+
+## Some player properties split reads and writes across contexts
+
+The most subtle execution-context restriction in the player surface is that some properties are writable from more places than they are readable. The [Player reference](../../Reference/core/Classes/Player.md#jumpspeed) says [Player.jumpSpeed](../../Reference/core/Classes/Player.md#jumpspeed) can be changed with `.set()` from any context, but `.get()` throws unless the call comes from a local script attached to an entity owned by the player in question. The [Player reference](../../Reference/core/Classes/Player.md#locomotionspeed) gives the same rule for [Player.locomotionSpeed](../../Reference/core/Classes/Player.md#locomotionspeed), and the same pattern applies to [Player.sprintMultiplier](../../Reference/core/Classes/Player.md#sprintmultiplier) and related locomotion tuning properties.
+
+This split matters because server code can legitimately author movement settings while still being unable to read them back. A server manager that wants to inspect the current locomotion state must ask a local script to read [Player.jumpSpeed](../../Reference/core/Classes/Player.md#jumpspeed) or [Player.locomotionSpeed](../../Reference/core/Classes/Player.md#locomotionspeed) on the owning client instead of trying to call `.get()` directly.
+
+## Social APIs stay on the client
+
+The [Social reference](../../Reference/social/Classes/Social.md#aremutuallyfollowingplayer1-player2-static) marks [Social.areMutuallyFollowing()](../../Reference/social/Classes/Social.md#aremutuallyfollowingplayer1-player2-static), [Social.getFollowingStatus()](../../Reference/social/Classes/Social.md#getfollowingstatusrequestor-target-static), and [Social.getPlayerFollowerCountInWorld()](../../Reference/social/Classes/Social.md#getplayerfollowercountinworldplayer-static) as unsupported on server scripts. These methods are about the current client-facing social graph, so they belong in local code even when the result eventually influences server-authoritative gameplay.
+
+[Social.getAvatarImageSource()](../../Reference/social/Classes/Social.md#getavatarimagesourceplayer-options-static) is more restrictive still. The [Social reference](../../Reference/social/Classes/Social.md#getavatarimagesourceplayer-options-static) says it only works on the client and only when used together with `horizon/ui`, which makes it a poor fit for generic gameplay scripts and a good fit for local UI components.
+
+## Server-only work must stay on default scripts
+
+Some APIs are unavailable for the opposite reason: they must stay authoritative on the server. [Getting Started with Local Scripting](Getting%20Started%20with%20Local%20Scripting.md#local-scripts-cant-trigger-asset-spawning) says local scripts cannot trigger asset spawning at all, so any workflow that starts with local input and ends with a spawned entity needs a handoff to a default script before the spawn call happens.
+
+[Marking Instances as Opened or Closed](../API%20references%20and%20examples/Marking%20Instances%20as%20Opened%20or%20Closed.md) makes the same point for [World.matchmaking.allowPlayerJoin()](../../Reference/core/Classes/World.md#matchmaking): the API controls whether an instance accepts new players, and the guide says calling [World.matchmaking.allowPlayerJoin()](../../Reference/core/Classes/World.md#matchmaking) from a local script throws an exception. Even if the decision originates from client-side UI, the matchmaking change must be applied by server code.
+
+## Practical pattern
+
+When an interaction begins with a player-owned entity, start by checking whether [World.getLocalPlayer()](../../Reference/core/Classes/World.md#getlocalplayer) and [World.getServerPlayer()](../../Reference/core/Classes/World.md#getserverplayer) are the same player. If they are the same, your local-script file is still running on the server and should avoid local-only APIs such as [PlayerControls.connectLocalInput()](../../Reference/core/Classes/PlayerControls.md#connectlocalinputinput-icon-disposableobject-options-static), [Player.enterFocusedInteractionMode()](../../Reference/core/Classes/Player.md#enterfocusedinteractionmodeoptions), or [Camera.setCameraModeThirdPerson()](../../Reference/camera/Classes/Camera.md#setcameramodethirdpersonoptions). If they differ, client-only work can run locally, while any server-only work such as asset spawning or [World.matchmaking.allowPlayerJoin()](../../Reference/core/Classes/World.md#matchmaking) should still be forwarded back to a default script.
+
+```ts
+const localPlayer = this.world.getLocalPlayer();
+const serverPlayer = this.world.getServerPlayer();
+const runningOnClient = localPlayer.id !== serverPlayer.id;
+
+if (!runningOnClient) {
+  return;
+}
+
+PlayerControls.connectLocalInput(PlayerInputAction.Jump, ButtonIcon.Jump, this);
+localPlayer.enterFocusedInteractionMode();
+```
+
+This split keeps client-only APIs on the client, keeps authoritative APIs on the server, and avoids the common failure mode where a “local” script runs one frame too early and calls the right API from the wrong machine.
